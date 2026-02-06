@@ -4,31 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kanji Explorer - JLPT N5-N3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="app">
-    <header>
-      <div class="header-top">
-        <h1>漢字 Kanji Explorer</h1>
-        <div class="header-controls">
-          <span id="kanji-count" class="badge">0 Kanji</span>
-          <button id="random-btn" class="btn btn-accent" title="Zufälliges Kanji">🎲 Zufall</button>
+    <header class="header">
+      <div class="header-hero">
+        <div class="hero-text">
+          <h1><span class="hero-kanji">漢字</span> Kanji Explorer</h1>
+          <p class="hero-tagline">Entdecke 821 Kanji der JLPT-Stufen N5, N4 &amp; N3</p>
+        </div>
+        <div class="header-actions">
+          <span id="kanji-count" class="badge-count">0 Kanji</span>
+          <button id="random-btn" class="btn btn-gradient" title="Zufälliges Kanji">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 4l3 3-3 3"/><path d="M18 20l3-3-3-3"/><path d="M3 7h3a5 5 0 0 1 5 5 5 5 0 0 0 5 5h5"/><path d="M21 7h-5a5 5 0 0 0-5 5 5 5 0 0 1-5 5H3"/></svg>
+            Zufall
+          </button>
+          <button id="sound-toggle" class="btn btn-icon active" title="Sound An/Aus" aria-label="Sound An/Aus">
+            <svg class="icon-on" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+            <svg class="icon-off" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+          </button>
           <button id="theme-toggle" class="btn btn-icon" title="Theme wechseln" aria-label="Theme wechseln">
-            <span class="theme-icon">◐</span>
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
           </button>
         </div>
       </div>
       <div class="search-bar">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input type="text" id="search-input" placeholder="Suche nach Kanji, Bedeutung, Lesung..." autocomplete="off">
-        <button id="clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+        <button id="clear-search" class="btn-clear" title="Suche loeschen">&times;</button>
       </div>
       <div class="filters">
         <div class="level-filters">
           <button class="filter-btn active" data-level="all">Alle</button>
-          <button class="filter-btn" data-level="N5">N5</button>
-          <button class="filter-btn" data-level="N4">N4</button>
-          <button class="filter-btn" data-level="N3">N3</button>
+          <button class="filter-btn n5" data-level="N5">N5</button>
+          <button class="filter-btn n4" data-level="N4">N4</button>
+          <button class="filter-btn n3" data-level="N3">N3</button>
         </div>
         <div class="sort-controls">
           <select id="sort-select">
@@ -39,9 +54,9 @@
         </div>
       </div>
       <div id="radical-filter" class="radical-filter hidden">
-        <div class="radical-filter-header">
+        <div class="radical-filter-inner">
           <span>Radikal-Filter: <strong id="radical-filter-name"></strong></span>
-          <button id="clear-radical-filter" class="btn btn-small">✕ Filter entfernen</button>
+          <button id="clear-radical-filter" class="btn btn-pill">Filter entfernen</button>
         </div>
       </div>
     </header>
@@ -51,15 +66,22 @@
       <div id="no-results" class="no-results hidden">
         <p>Keine Kanji gefunden.</p>
       </div>
-      <div id="loading" class="loading">Lade Kanji-Daten...</div>
+      <div id="loading" class="loading">
+        <div class="loading-spinner"></div>
+        <span>Lade Kanji-Daten...</span>
+      </div>
     </main>
 
     <div id="detail-overlay" class="detail-overlay hidden">
       <div class="detail-panel">
-        <button id="close-detail" class="btn-close" title="Schließen">&times;</button>
+        <button id="close-detail" class="btn-close" title="Schliessen">&times;</button>
         <div class="detail-nav">
-          <button id="prev-kanji" class="btn btn-nav" title="Vorheriges Kanji">◀</button>
-          <button id="next-kanji" class="btn btn-nav" title="Nächstes Kanji">▶</button>
+          <button id="prev-kanji" class="btn btn-nav" title="Vorheriges Kanji">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button id="next-kanji" class="btn btn-nav" title="Naechstes Kanji">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
         </div>
         <div class="detail-content">
           <div class="detail-main">
@@ -80,12 +102,12 @@
               <div id="detail-on" class="reading-list"></div>
             </div>
           </div>
-          <div class="detail-components">
+          <div class="detail-section">
             <h3>Komponenten / Radikale</h3>
             <div id="detail-components" class="component-list"></div>
           </div>
-          <div class="detail-examples">
-            <h3>Beispielwörter</h3>
+          <div class="detail-section">
+            <h3>Beispielwoerter</h3>
             <div id="detail-examples" class="example-list"></div>
           </div>
         </div>

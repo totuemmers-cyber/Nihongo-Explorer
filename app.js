@@ -11,6 +11,80 @@
   let renderBatchSize = 80;
   let renderedCount = 0;
   let isRendering = false;
+  let soundEnabled = localStorage.getItem('kanji-sound') !== 'off';
+
+  // Web Audio API - Sound Engine
+  var audioCtx = null;
+  function getAudioCtx() {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    return audioCtx;
+  }
+
+  function playTick() {
+    if (!soundEnabled) return;
+    try {
+      var ctx = getAudioCtx();
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(800, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(600, ctx.currentTime + 0.06);
+      gain.gain.setValueAtTime(0.08, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.06);
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + 0.06);
+    } catch (e) {}
+  }
+
+  function playPop() {
+    if (!soundEnabled) return;
+    try {
+      var ctx = getAudioCtx();
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(400, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(800, ctx.currentTime + 0.08);
+      osc.frequency.exponentialRampToValueAtTime(500, ctx.currentTime + 0.15);
+      gain.gain.setValueAtTime(0.1, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.15);
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + 0.15);
+    } catch (e) {}
+  }
+
+  function playSwoosh() {
+    if (!soundEnabled) return;
+    try {
+      var ctx = getAudioCtx();
+      var bufferSize = ctx.sampleRate * 0.08;
+      var buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+      var data = buffer.getChannelData(0);
+      for (var i = 0; i < bufferSize; i++) {
+        data[i] = (Math.random() * 2 - 1) * (1 - i / bufferSize);
+      }
+      var noise = ctx.createBufferSource();
+      noise.buffer = buffer;
+      var filter = ctx.createBiquadFilter();
+      filter.type = 'bandpass';
+      filter.frequency.setValueAtTime(2000, ctx.currentTime);
+      filter.frequency.exponentialRampToValueAtTime(500, ctx.currentTime + 0.08);
+      filter.Q.value = 2;
+      var gain = ctx.createGain();
+      gain.gain.setValueAtTime(0.04, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.08);
+      noise.connect(filter);
+      filter.connect(gain);
+      gain.connect(ctx.destination);
+      noise.start(ctx.currentTime);
+    } catch (e) {}
+  }
 
   // DOM Elements
   const grid = document.getElementById('kanji-grid');
@@ -33,6 +107,7 @@
   const radicalFilterName = document.getElementById('radical-filter-name');
   const themeToggle = document.getElementById('theme-toggle');
   const randomBtn = document.getElementById('random-btn');
+  const soundToggle = document.getElementById('sound-toggle');
 
   // Load data - tries fetch first, falls back to embedded data (for file:// usage)
   async function loadData() {
@@ -170,6 +245,7 @@
       '<span class="card-kanji">' + k.kanji + '</span>' +
       '<span class="card-meaning">' + k.meanings[0] + '</span>';
     card.addEventListener('click', function () {
+      playTick();
       openDetail(index);
     });
     return card;
@@ -245,6 +321,7 @@
 
     overlay.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
+    playPop();
   }
 
   function closeDetail() {
@@ -326,6 +403,7 @@
       });
       this.classList.add('active');
       activeLevel = this.getAttribute('data-level');
+      playSwoosh();
       applyFilters();
     });
   });
@@ -346,11 +424,26 @@
   document.getElementById('clear-radical-filter').addEventListener('click', clearRadicalFilter);
 
   // Theme
-  themeToggle.addEventListener('click', toggleTheme);
+  themeToggle.addEventListener('click', function () {
+    playTick();
+    toggleTheme();
+  });
+
+  // Sound toggle
+  if (soundToggle) {
+    soundToggle.classList.toggle('active', soundEnabled);
+    soundToggle.addEventListener('click', function () {
+      soundEnabled = !soundEnabled;
+      localStorage.setItem('kanji-sound', soundEnabled ? 'on' : 'off');
+      soundToggle.classList.toggle('active', soundEnabled);
+      if (soundEnabled) playPop();
+    });
+  }
 
   // Random
   randomBtn.addEventListener('click', function () {
     if (filteredKanji.length === 0) return;
+    playPop();
     var idx = Math.floor(Math.random() * filteredKanji.length);
     openDetail(idx);
   });
