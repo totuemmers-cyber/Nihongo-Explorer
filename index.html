@@ -81,17 +81,25 @@
         </div>
         <div class="filters">
           <div class="level-filters">
-            <button class="filter-btn grammar-cat active" data-category="all">Alle</button>
-            <button class="filter-btn grammar-cat cat-partikel" data-category="Partikel">Partikel</button>
-            <button class="filter-btn grammar-cat cat-verben" data-category="Verben">Verben</button>
-            <button class="filter-btn grammar-cat cat-adjektive" data-category="Adjektive">Adjektive</button>
-            <button class="filter-btn grammar-cat cat-satzstrukturen" data-category="Satzstrukturen">Satzstrukturen</button>
+            <button class="filter-btn grammar-level active" data-glevel="all">Alle Level</button>
+            <button class="filter-btn grammar-level n5" data-glevel="N5">N5</button>
+            <button class="filter-btn grammar-level n4" data-glevel="N4">N4</button>
           </div>
           <div class="sort-controls">
             <select id="grammar-sort-select">
               <option value="category">Nach Kategorie</option>
+              <option value="level">Nach Level</option>
               <option value="alpha">Alphabetisch (Muster)</option>
             </select>
+          </div>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn grammar-cat active" data-category="all">Alle Kategorien</button>
+            <button class="filter-btn grammar-cat cat-partikel" data-category="Partikel">Partikel</button>
+            <button class="filter-btn grammar-cat cat-verben" data-category="Verben">Verben</button>
+            <button class="filter-btn grammar-cat cat-adjektive" data-category="Adjektive">Adjektive</button>
+            <button class="filter-btn grammar-cat cat-satzstrukturen" data-category="Satzstrukturen">Satzstrukturen</button>
           </div>
         </div>
       </div>
@@ -179,6 +187,7 @@
         <div class="detail-content">
           <div class="grammar-detail-header">
             <span id="grammar-detail-pattern" class="grammar-detail-pattern"></span>
+            <span id="grammar-detail-level" class="detail-jlpt-badge"></span>
             <span id="grammar-detail-category" class="grammar-category-badge"></span>
           </div>
           <div id="grammar-detail-meaning" class="grammar-detail-meaning"></div>

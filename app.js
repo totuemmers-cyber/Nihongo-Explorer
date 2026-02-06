@@ -20,6 +20,7 @@
   let filteredGrammar = [];
   let currentGrammarDetailIndex = -1;
   let activeCategory = 'all';
+  let activeGrammarLevel = 'all';
   let grammarSort = 'category';
 
   let soundEnabled = localStorage.getItem('kanji-sound') !== 'off';
@@ -419,6 +420,8 @@
   function applyGrammarFilters() {
     var query = grammarSearchInput.value.trim().toLowerCase();
     filteredGrammar = allGrammar.filter(function (g) {
+      // Level filter
+      if (activeGrammarLevel !== 'all' && g.level !== activeGrammarLevel) return false;
       // Category filter
       if (activeCategory !== 'all' && g.category !== activeCategory) return false;
       // Search
@@ -444,11 +447,18 @@
 
   function sortGrammar() {
     var catOrder = { 'Partikel': 0, 'Verben': 1, 'Adjektive': 2, 'Satzstrukturen': 3 };
+    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2 };
     filteredGrammar.sort(function (a, b) {
       if (grammarSort === 'category') {
         var ca = catOrder[a.category] !== undefined ? catOrder[a.category] : 9;
         var cb = catOrder[b.category] !== undefined ? catOrder[b.category] : 9;
         if (ca !== cb) return ca - cb;
+        return a.pattern.localeCompare(b.pattern, 'ja');
+      }
+      if (grammarSort === 'level') {
+        var la = levelOrder[a.level] !== undefined ? levelOrder[a.level] : 9;
+        var lb = levelOrder[b.level] !== undefined ? levelOrder[b.level] : 9;
+        if (la !== lb) return la - lb;
         return a.pattern.localeCompare(b.pattern, 'ja');
       }
       if (grammarSort === 'alpha') {
@@ -483,7 +493,10 @@
     card.innerHTML =
       '<div class="grammar-card-header">' +
         '<span class="grammar-card-pattern">' + g.pattern + '</span>' +
-        '<span class="grammar-card-category ' + g.category + '">' + g.category + '</span>' +
+        '<div class="grammar-card-badges">' +
+          '<span class="card-level ' + g.level + '">' + g.level + '</span>' +
+          '<span class="grammar-card-category ' + g.category + '">' + g.category + '</span>' +
+        '</div>' +
       '</div>' +
       '<div class="grammar-card-meaning">' + g.meaning + '</div>' +
       (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : '');
@@ -501,6 +514,9 @@
     var g = filteredGrammar[index];
 
     document.getElementById('grammar-detail-pattern').textContent = g.pattern;
+    var levelBadge = document.getElementById('grammar-detail-level');
+    levelBadge.textContent = g.level;
+    levelBadge.className = 'detail-jlpt-badge ' + g.level;
     var catBadge = document.getElementById('grammar-detail-category');
     catBadge.textContent = g.category;
     catBadge.className = 'grammar-category-badge ' + g.category;
@@ -680,6 +696,19 @@
   grammarSortSelect.addEventListener('change', function () {
     grammarSort = this.value;
     applyGrammarFilters();
+  });
+
+  // Grammar level filters
+  grammarControls.querySelectorAll('.grammar-level').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      grammarControls.querySelectorAll('.grammar-level').forEach(function (b) {
+        b.classList.remove('active');
+      });
+      this.classList.add('active');
+      activeGrammarLevel = this.getAttribute('data-glevel');
+      playSwoosh();
+      applyGrammarFilters();
+    });
   });
 
   // Grammar category filters
