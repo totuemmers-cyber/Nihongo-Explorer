@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanji Explorer - JLPT N5-N3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="header-top">
+        <h1>漢字 Kanji Explorer</h1>
+        <div class="header-controls">
+          <span id="kanji-count" class="badge">0 Kanji</span>
+          <button id="random-btn" class="btn btn-accent" title="Zufälliges Kanji">🎲 Zufall</button>
+          <button id="theme-toggle" class="btn btn-icon" title="Theme wechseln" aria-label="Theme wechseln">
+            <span class="theme-icon">◐</span>
+          </button>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Suche nach Kanji, Bedeutung, Lesung..." autocomplete="off">
+        <button id="clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+      </div>
+      <div class="filters">
+        <div class="level-filters">
+          <button class="filter-btn active" data-level="all">Alle</button>
+          <button class="filter-btn" data-level="N5">N5</button>
+          <button class="filter-btn" data-level="N4">N4</button>
+          <button class="filter-btn" data-level="N3">N3</button>
+        </div>
+        <div class="sort-controls">
+          <select id="sort-select">
+            <option value="jlpt">Nach JLPT-Level</option>
+            <option value="strokes">Nach Strichzahl</option>
+            <option value="alpha">Alphabetisch (Bedeutung)</option>
+          </select>
+        </div>
+      </div>
+      <div id="radical-filter" class="radical-filter hidden">
+        <div class="radical-filter-header">
+          <span>Radikal-Filter: <strong id="radical-filter-name"></strong></span>
+          <button id="clear-radical-filter" class="btn btn-small">✕ Filter entfernen</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="kanji-grid" class="kanji-grid"></div>
+      <div id="no-results" class="no-results hidden">
+        <p>Keine Kanji gefunden.</p>
+      </div>
+      <div id="loading" class="loading">Lade Kanji-Daten...</div>
+    </main>
+
+    <div id="detail-overlay" class="detail-overlay hidden">
+      <div class="detail-panel">
+        <button id="close-detail" class="btn-close" title="Schließen">&times;</button>
+        <div class="detail-nav">
+          <button id="prev-kanji" class="btn btn-nav" title="Vorheriges Kanji">◀</button>
+          <button id="next-kanji" class="btn btn-nav" title="Nächstes Kanji">▶</button>
+        </div>
+        <div class="detail-content">
+          <div class="detail-main">
+            <div class="detail-kanji-display">
+              <span id="detail-kanji" class="detail-kanji"></span>
+              <span id="detail-jlpt" class="detail-jlpt-badge"></span>
+            </div>
+            <div id="detail-meanings" class="detail-meanings"></div>
+            <div id="detail-strokes" class="detail-strokes"></div>
+          </div>
+          <div class="detail-readings">
+            <div class="reading-section">
+              <h3>Kun-Lesungen <span class="reading-type">(訓読み)</span></h3>
+              <div id="detail-kun" class="reading-list"></div>
+            </div>
+            <div class="reading-section">
+              <h3>On-Lesungen <span class="reading-type">(音読み)</span></h3>
+              <div id="detail-on" class="reading-list"></div>
+            </div>
+          </div>
+          <div class="detail-components">
+            <h3>Komponenten / Radikale</h3>
+            <div id="detail-components" class="component-list"></div>
+          </div>
+          <div class="detail-examples">
+            <h3>Beispielwörter</h3>
+            <div id="detail-examples" class="example-list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
