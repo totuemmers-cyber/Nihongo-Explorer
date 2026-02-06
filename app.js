@@ -1,7 +1,10 @@
 (function () {
   'use strict';
 
-  // State
+  // === STATE ===
+  let activeTab = 'kanji';
+
+  // Kanji state
   let allKanji = [];
   let filteredKanji = [];
   let currentDetailIndex = -1;
@@ -11,9 +14,17 @@
   let renderBatchSize = 80;
   let renderedCount = 0;
   let isRendering = false;
+
+  // Grammar state
+  let allGrammar = [];
+  let filteredGrammar = [];
+  let currentGrammarDetailIndex = -1;
+  let activeCategory = 'all';
+  let grammarSort = 'category';
+
   let soundEnabled = localStorage.getItem('kanji-sound') !== 'off';
 
-  // Web Audio API - Sound Engine
+  // === WEB AUDIO API - Sound Engine ===
   var audioCtx = null;
   function getAudioCtx() {
     if (!audioCtx) {
@@ -86,12 +97,24 @@
     } catch (e) {}
   }
 
-  // DOM Elements
+  // === DOM ELEMENTS ===
+  // Shared
+  const itemCountEl = document.getElementById('item-count');
+  const themeToggle = document.getElementById('theme-toggle');
+  const randomBtn = document.getElementById('random-btn');
+  const soundToggle = document.getElementById('sound-toggle');
+
+  // Tab elements
+  const kanjiControls = document.getElementById('kanji-controls');
+  const grammarControls = document.getElementById('grammar-controls');
+  const kanjiTab = document.getElementById('kanji-tab');
+  const grammarTab = document.getElementById('grammar-tab');
+
+  // Kanji DOM
   const grid = document.getElementById('kanji-grid');
   const searchInput = document.getElementById('search-input');
   const clearSearchBtn = document.getElementById('clear-search');
   const sortSelect = document.getElementById('sort-select');
-  const kanjiCountEl = document.getElementById('kanji-count');
   const noResults = document.getElementById('no-results');
   const loadingEl = document.getElementById('loading');
   const overlay = document.getElementById('detail-overlay');
@@ -105,45 +128,95 @@
   const detailExamples = document.getElementById('detail-examples');
   const radicalFilter = document.getElementById('radical-filter');
   const radicalFilterName = document.getElementById('radical-filter-name');
-  const themeToggle = document.getElementById('theme-toggle');
-  const randomBtn = document.getElementById('random-btn');
-  const soundToggle = document.getElementById('sound-toggle');
 
-  // Load data - tries fetch first, falls back to embedded data (for file:// usage)
+  // Grammar DOM
+  const grammarGrid = document.getElementById('grammar-grid');
+  const grammarSearchInput = document.getElementById('grammar-search-input');
+  const grammarClearSearchBtn = document.getElementById('grammar-clear-search');
+  const grammarSortSelect = document.getElementById('grammar-sort-select');
+  const grammarNoResults = document.getElementById('grammar-no-results');
+  const grammarOverlay = document.getElementById('grammar-detail-overlay');
+
+  // === TAB SYSTEM ===
+  function switchTab(tab) {
+    activeTab = tab;
+    playSwoosh();
+
+    // Update tab buttons
+    document.querySelectorAll('.tab-btn').forEach(function (btn) {
+      btn.classList.toggle('active', btn.getAttribute('data-tab') === tab);
+    });
+
+    // Toggle controls
+    kanjiControls.classList.toggle('hidden', tab !== 'kanji');
+    grammarControls.classList.toggle('hidden', tab !== 'grammar');
+
+    // Toggle content
+    kanjiTab.classList.toggle('hidden', tab !== 'kanji');
+    grammarTab.classList.toggle('hidden', tab !== 'grammar');
+
+    // Update count badge
+    updateCount();
+  }
+
+  document.querySelectorAll('.tab-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      switchTab(this.getAttribute('data-tab'));
+    });
+  });
+
+  // === LOAD DATA ===
   async function loadData() {
-    // Check if data was embedded via <script> tag (window.KANJI_DATA)
+    // Kanji data
     if (window.KANJI_DATA) {
       allKanji = window.KANJI_DATA;
       loadingEl.classList.add('hidden');
       applyFilters();
-      return;
+    } else {
+      try {
+        const resp = await fetch('kanji-data.json');
+        if (!resp.ok) throw new Error('Failed to load');
+        allKanji = await resp.json();
+        loadingEl.classList.add('hidden');
+        applyFilters();
+      } catch (e) {
+        loadingEl.textContent = 'Fehler beim Laden der Kanji-Daten.';
+        console.error(e);
+      }
     }
-    try {
-      const resp = await fetch('kanji-data.json');
-      if (!resp.ok) throw new Error('Failed to load');
-      allKanji = await resp.json();
-      loadingEl.classList.add('hidden');
-      applyFilters();
-    } catch (e) {
-      loadingEl.textContent = 'Fehler beim Laden der Kanji-Daten. Bitte einen lokalen Server verwenden oder die eingebettete Version nutzen.';
-      console.error(e);
+
+    // Grammar data
+    if (window.GRAMMAR_DATA) {
+      allGrammar = window.GRAMMAR_DATA;
+      applyGrammarFilters();
+    }
+
+    updateCount();
+  }
+
+  // === COUNT UPDATE ===
+  function updateCount() {
+    if (activeTab === 'kanji') {
+      itemCountEl.textContent = filteredKanji.length + ' Kanji';
+    } else {
+      itemCountEl.textContent = filteredGrammar.length + ' Grammatik';
     }
   }
 
-  // Filtering & Sorting
+  // ==========================================
+  // === KANJI SECTION (existing, preserved) ===
+  // ==========================================
+
   function applyFilters() {
     const query = searchInput.value.trim().toLowerCase();
     filteredKanji = allKanji.filter(function (k) {
-      // Level filter
       if (activeLevel !== 'all' && k.jlpt !== activeLevel) return false;
-      // Radical filter
       if (activeRadical) {
         const hasRadical = k.components && k.components.some(function (c) {
           return c.radical === activeRadical;
         });
         if (!hasRadical) return false;
       }
-      // Search
       if (query) {
         const matchKanji = k.kanji === query;
         const matchMeaning = k.meanings.some(function (m) {
@@ -192,7 +265,6 @@
     });
   }
 
-  // Rendering with batching for performance
   function renderBatch() {
     if (isRendering) return;
     isRendering = true;
@@ -210,7 +282,6 @@
 
     noResults.classList.toggle('hidden', filteredKanji.length > 0);
 
-    // If there are more items, set up intersection observer for lazy loading
     if (renderedCount < filteredKanji.length) {
       setupScrollObserver();
     }
@@ -251,11 +322,7 @@
     return card;
   }
 
-  function updateCount() {
-    kanjiCountEl.textContent = filteredKanji.length + ' Kanji';
-  }
-
-  // Detail View
+  // Kanji Detail View
   function openDetail(index) {
     if (index < 0 || index >= filteredKanji.length) return;
     currentDetailIndex = index;
@@ -267,7 +334,6 @@
     detailMeanings.textContent = k.meanings.join(', ');
     detailStrokes.textContent = k.strokes + ' Striche';
 
-    // Kun readings
     if (k.kun && k.kun.length > 0) {
       detailKun.innerHTML = k.kun.map(function (r) {
         return '<div class="reading-item kun"><span class="kana">' + r.kana +
@@ -277,7 +343,6 @@
       detailKun.innerHTML = '<div class="no-reading">Keine Kun-Lesung</div>';
     }
 
-    // On readings
     if (k.on && k.on.length > 0) {
       detailOn.innerHTML = k.on.map(function (r) {
         return '<div class="reading-item on"><span class="kana">' + r.kana +
@@ -287,7 +352,6 @@
       detailOn.innerHTML = '<div class="no-reading">Keine On-Lesung</div>';
     }
 
-    // Components
     if (k.components && k.components.length > 0) {
       detailComponents.innerHTML = k.components.map(function (c) {
         return '<span class="component-tag" data-radical="' + c.radical + '">' +
@@ -295,7 +359,6 @@
           '<span class="comp-meaning">' + c.meaning + '</span></span>';
       }).join('');
 
-      // Add click handlers for radical filtering
       detailComponents.querySelectorAll('.component-tag').forEach(function (tag) {
         tag.addEventListener('click', function () {
           var radical = this.getAttribute('data-radical');
@@ -307,7 +370,6 @@
       detailComponents.innerHTML = '<div class="no-reading">Keine Komponenten</div>';
     }
 
-    // Examples
     if (k.examples && k.examples.length > 0) {
       detailExamples.innerHTML = k.examples.map(function (ex) {
         return '<div class="example-item">' +
@@ -337,7 +399,6 @@
     }
   }
 
-  // Radical filter
   function setRadicalFilter(radical, meaning) {
     activeRadical = radical;
     radicalFilterName.textContent = radical + ' (' + meaning + ')';
@@ -351,7 +412,184 @@
     applyFilters();
   }
 
-  // Theme
+  // ==========================================
+  // === GRAMMAR SECTION (new) ===
+  // ==========================================
+
+  function applyGrammarFilters() {
+    var query = grammarSearchInput.value.trim().toLowerCase();
+    filteredGrammar = allGrammar.filter(function (g) {
+      // Category filter
+      if (activeCategory !== 'all' && g.category !== activeCategory) return false;
+      // Search
+      if (query) {
+        var matchPattern = g.pattern.toLowerCase().indexOf(query) !== -1;
+        var matchMeaning = g.meaning.toLowerCase().indexOf(query) !== -1;
+        var matchExplanation = g.explanation.toLowerCase().indexOf(query) !== -1;
+        var matchFormation = g.formation.toLowerCase().indexOf(query) !== -1;
+        var matchExample = g.examples && g.examples.some(function (ex) {
+          return ex.japanese.toLowerCase().indexOf(query) !== -1 ||
+            ex.german.toLowerCase().indexOf(query) !== -1 ||
+            ex.romaji.toLowerCase().indexOf(query) !== -1;
+        });
+        if (!matchPattern && !matchMeaning && !matchExplanation && !matchFormation && !matchExample) return false;
+      }
+      return true;
+    });
+
+    sortGrammar();
+    renderGrammar();
+    updateCount();
+  }
+
+  function sortGrammar() {
+    var catOrder = { 'Partikel': 0, 'Verben': 1, 'Adjektive': 2, 'Satzstrukturen': 3 };
+    filteredGrammar.sort(function (a, b) {
+      if (grammarSort === 'category') {
+        var ca = catOrder[a.category] !== undefined ? catOrder[a.category] : 9;
+        var cb = catOrder[b.category] !== undefined ? catOrder[b.category] : 9;
+        if (ca !== cb) return ca - cb;
+        return a.pattern.localeCompare(b.pattern, 'ja');
+      }
+      if (grammarSort === 'alpha') {
+        return a.pattern.localeCompare(b.pattern, 'ja');
+      }
+      return 0;
+    });
+  }
+
+  function renderGrammar() {
+    grammarGrid.innerHTML = '';
+    var fragment = document.createDocumentFragment();
+
+    for (var i = 0; i < filteredGrammar.length; i++) {
+      fragment.appendChild(createGrammarCard(filteredGrammar[i], i));
+    }
+
+    grammarGrid.appendChild(fragment);
+    grammarNoResults.classList.toggle('hidden', filteredGrammar.length > 0);
+  }
+
+  function createGrammarCard(g, index) {
+    var card = document.createElement('div');
+    card.className = 'grammar-card';
+    card.setAttribute('data-index', index);
+
+    var exampleText = '';
+    if (g.examples && g.examples.length > 0) {
+      exampleText = g.examples[0].japanese;
+    }
+
+    card.innerHTML =
+      '<div class="grammar-card-header">' +
+        '<span class="grammar-card-pattern">' + g.pattern + '</span>' +
+        '<span class="grammar-card-category ' + g.category + '">' + g.category + '</span>' +
+      '</div>' +
+      '<div class="grammar-card-meaning">' + g.meaning + '</div>' +
+      (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : '');
+
+    card.addEventListener('click', function () {
+      playTick();
+      openGrammarDetail(index);
+    });
+    return card;
+  }
+
+  function openGrammarDetail(index) {
+    if (index < 0 || index >= filteredGrammar.length) return;
+    currentGrammarDetailIndex = index;
+    var g = filteredGrammar[index];
+
+    document.getElementById('grammar-detail-pattern').textContent = g.pattern;
+    var catBadge = document.getElementById('grammar-detail-category');
+    catBadge.textContent = g.category;
+    catBadge.className = 'grammar-category-badge ' + g.category;
+    document.getElementById('grammar-detail-meaning').textContent = g.meaning;
+    document.getElementById('grammar-detail-formation').textContent = g.formation;
+    document.getElementById('grammar-detail-explanation').textContent = g.explanation;
+
+    // Examples
+    var examplesEl = document.getElementById('grammar-detail-examples');
+    if (g.examples && g.examples.length > 0) {
+      examplesEl.innerHTML = g.examples.map(function (ex) {
+        return '<div class="grammar-example-item">' +
+          '<div class="grammar-example-jp">' + ex.japanese + '</div>' +
+          '<div class="grammar-example-romaji">' + ex.romaji + '</div>' +
+          '<div class="grammar-example-german">' + ex.german + '</div>' +
+        '</div>';
+      }).join('');
+    } else {
+      examplesEl.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
+    }
+
+    // Notes
+    var notesSection = document.getElementById('grammar-detail-notes-section');
+    var notesEl = document.getElementById('grammar-detail-notes');
+    if (g.notes && g.notes.length > 0) {
+      notesEl.textContent = g.notes;
+      notesSection.classList.remove('hidden');
+    } else {
+      notesSection.classList.add('hidden');
+    }
+
+    // Related grammar
+    var relatedSection = document.getElementById('grammar-detail-related-section');
+    var relatedEl = document.getElementById('grammar-detail-related');
+    if (g.related && g.related.length > 0) {
+      relatedEl.innerHTML = g.related.map(function (relId) {
+        var relGrammar = allGrammar.find(function (item) { return item.id === relId; });
+        if (!relGrammar) return '';
+        return '<span class="grammar-related-tag" data-id="' + relId + '">' + relGrammar.pattern + '</span>';
+      }).filter(function (s) { return s.length > 0; }).join('');
+
+      // Add click handlers for related grammar links
+      relatedEl.querySelectorAll('.grammar-related-tag').forEach(function (tag) {
+        tag.addEventListener('click', function () {
+          var targetId = this.getAttribute('data-id');
+          var targetIndex = filteredGrammar.findIndex(function (item) { return item.id === targetId; });
+          if (targetIndex !== -1) {
+            openGrammarDetail(targetIndex);
+          } else {
+            // Item might be filtered out, search in allGrammar
+            var allIndex = allGrammar.findIndex(function (item) { return item.id === targetId; });
+            if (allIndex !== -1) {
+              // Reset filters and find it
+              activeCategory = 'all';
+              grammarSearchInput.value = '';
+              document.querySelectorAll('.grammar-cat').forEach(function (b) { b.classList.remove('active'); });
+              document.querySelector('.grammar-cat[data-category="all"]').classList.add('active');
+              applyGrammarFilters();
+              var newIndex = filteredGrammar.findIndex(function (item) { return item.id === targetId; });
+              if (newIndex !== -1) openGrammarDetail(newIndex);
+            }
+          }
+        });
+      });
+
+      relatedSection.classList.remove('hidden');
+    } else {
+      relatedSection.classList.add('hidden');
+    }
+
+    grammarOverlay.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    playPop();
+  }
+
+  function closeGrammarDetail() {
+    grammarOverlay.classList.add('hidden');
+    document.body.style.overflow = '';
+    currentGrammarDetailIndex = -1;
+  }
+
+  function navigateGrammarDetail(direction) {
+    var newIndex = currentGrammarDetailIndex + direction;
+    if (newIndex >= 0 && newIndex < filteredGrammar.length) {
+      openGrammarDetail(newIndex);
+    }
+  }
+
+  // === THEME ===
   function initTheme() {
     var saved = localStorage.getItem('kanji-theme');
     if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -370,18 +608,17 @@
     }
   }
 
-  // Debounce for search
+  // === EVENT LISTENERS ===
+
+  // Kanji search
   var searchTimeout;
-  function onSearchInput() {
+  searchInput.addEventListener('input', function () {
     clearTimeout(searchTimeout);
     clearSearchBtn.classList.toggle('visible', searchInput.value.length > 0);
     searchTimeout = setTimeout(function () {
       applyFilters();
     }, 200);
-  }
-
-  // Event Listeners
-  searchInput.addEventListener('input', onSearchInput);
+  });
 
   clearSearchBtn.addEventListener('click', function () {
     searchInput.value = '';
@@ -395,10 +632,10 @@
     applyFilters();
   });
 
-  // Level filters
-  document.querySelectorAll('.filter-btn').forEach(function (btn) {
+  // Kanji level filters (only the ones inside kanji-controls)
+  kanjiControls.querySelectorAll('.filter-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
-      document.querySelectorAll('.filter-btn').forEach(function (b) {
+      kanjiControls.querySelectorAll('.filter-btn').forEach(function (b) {
         b.classList.remove('active');
       });
       this.classList.add('active');
@@ -408,7 +645,7 @@
     });
   });
 
-  // Detail overlay
+  // Kanji detail overlay
   document.getElementById('close-detail').addEventListener('click', closeDetail);
   overlay.addEventListener('click', function (e) {
     if (e.target === overlay) closeDetail();
@@ -422,6 +659,53 @@
 
   // Radical filter
   document.getElementById('clear-radical-filter').addEventListener('click', clearRadicalFilter);
+
+  // Grammar search
+  var grammarSearchTimeout;
+  grammarSearchInput.addEventListener('input', function () {
+    clearTimeout(grammarSearchTimeout);
+    grammarClearSearchBtn.classList.toggle('visible', grammarSearchInput.value.length > 0);
+    grammarSearchTimeout = setTimeout(function () {
+      applyGrammarFilters();
+    }, 200);
+  });
+
+  grammarClearSearchBtn.addEventListener('click', function () {
+    grammarSearchInput.value = '';
+    grammarClearSearchBtn.classList.remove('visible');
+    applyGrammarFilters();
+    grammarSearchInput.focus();
+  });
+
+  grammarSortSelect.addEventListener('change', function () {
+    grammarSort = this.value;
+    applyGrammarFilters();
+  });
+
+  // Grammar category filters
+  grammarControls.querySelectorAll('.grammar-cat').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      grammarControls.querySelectorAll('.grammar-cat').forEach(function (b) {
+        b.classList.remove('active');
+      });
+      this.classList.add('active');
+      activeCategory = this.getAttribute('data-category');
+      playSwoosh();
+      applyGrammarFilters();
+    });
+  });
+
+  // Grammar detail overlay
+  document.getElementById('grammar-close-detail').addEventListener('click', closeGrammarDetail);
+  grammarOverlay.addEventListener('click', function (e) {
+    if (e.target === grammarOverlay) closeGrammarDetail();
+  });
+  document.getElementById('prev-grammar').addEventListener('click', function () {
+    navigateGrammarDetail(-1);
+  });
+  document.getElementById('next-grammar').addEventListener('click', function () {
+    navigateGrammarDetail(1);
+  });
 
   // Theme
   themeToggle.addEventListener('click', function () {
@@ -440,29 +724,50 @@
     });
   }
 
-  // Random
+  // Random - context-aware
   randomBtn.addEventListener('click', function () {
-    if (filteredKanji.length === 0) return;
     playPop();
-    var idx = Math.floor(Math.random() * filteredKanji.length);
-    openDetail(idx);
+    if (activeTab === 'kanji') {
+      if (filteredKanji.length === 0) return;
+      var idx = Math.floor(Math.random() * filteredKanji.length);
+      openDetail(idx);
+    } else {
+      if (filteredGrammar.length === 0) return;
+      var gIdx = Math.floor(Math.random() * filteredGrammar.length);
+      openGrammarDetail(gIdx);
+    }
   });
 
-  // Keyboard navigation
+  // Keyboard navigation - context-aware
   document.addEventListener('keydown', function (e) {
-    if (overlay.classList.contains('hidden')) {
-      if (e.key === '/' && document.activeElement !== searchInput) {
-        e.preventDefault();
-        searchInput.focus();
-      }
+    var kanjiOverlayOpen = !overlay.classList.contains('hidden');
+    var grammarOverlayOpen = !grammarOverlay.classList.contains('hidden');
+
+    if (kanjiOverlayOpen) {
+      if (e.key === 'Escape') closeDetail();
+      if (e.key === 'ArrowLeft') navigateDetail(-1);
+      if (e.key === 'ArrowRight') navigateDetail(1);
       return;
     }
-    if (e.key === 'Escape') closeDetail();
-    if (e.key === 'ArrowLeft') navigateDetail(-1);
-    if (e.key === 'ArrowRight') navigateDetail(1);
+
+    if (grammarOverlayOpen) {
+      if (e.key === 'Escape') closeGrammarDetail();
+      if (e.key === 'ArrowLeft') navigateGrammarDetail(-1);
+      if (e.key === 'ArrowRight') navigateGrammarDetail(1);
+      return;
+    }
+
+    // No overlay open
+    if (e.key === '/') {
+      var activeInput = activeTab === 'kanji' ? searchInput : grammarSearchInput;
+      if (document.activeElement !== activeInput) {
+        e.preventDefault();
+        activeInput.focus();
+      }
+    }
   });
 
-  // Init
+  // === INIT ===
   initTheme();
   loadData();
 })();
