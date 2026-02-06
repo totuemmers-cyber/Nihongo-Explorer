@@ -34,8 +34,15 @@
   const themeToggle = document.getElementById('theme-toggle');
   const randomBtn = document.getElementById('random-btn');
 
-  // Load data
+  // Load data - tries fetch first, falls back to embedded data (for file:// usage)
   async function loadData() {
+    // Check if data was embedded via <script> tag (window.KANJI_DATA)
+    if (window.KANJI_DATA) {
+      allKanji = window.KANJI_DATA;
+      loadingEl.classList.add('hidden');
+      applyFilters();
+      return;
+    }
     try {
       const resp = await fetch('kanji-data.json');
       if (!resp.ok) throw new Error('Failed to load');
@@ -43,7 +50,7 @@
       loadingEl.classList.add('hidden');
       applyFilters();
     } catch (e) {
-      loadingEl.textContent = 'Fehler beim Laden der Kanji-Daten.';
+      loadingEl.textContent = 'Fehler beim Laden der Kanji-Daten. Bitte einen lokalen Server verwenden oder die eingebettete Version nutzen.';
       console.error(e);
     }
   }
