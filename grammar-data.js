@@ -4562,5 +4562,264 @@ window.GRAMMAR_DATA = [
     ],
     notes: "Betont die Notwendigkeit einer Voraussetzung.",
     related: ["n3-te-kara-de-nai-to"]
+  },
+  // ============================================================
+  // N3 – ERGÄNZUNGEN (17)
+  // ============================================================
+  {
+    id: "n3-kara-koso",
+    pattern: "～からこそ",
+    level: "N3",
+    category: "Satzstrukturen",
+    meaning: "Gerade weil, eben deshalb",
+    explanation: "からこそ: betont den Grund besonders stark. 'Gerade WEIL...'.",
+    formation: "Verb/Adj/Nomen + だからこそ",
+    examples: [
+      { japanese: "好きだからこそ厳しくする。", romaji: "Suki da kara koso kibishiku suru.", german: "Gerade weil ich dich mag, bin ich streng." },
+      { japanese: "失敗したからこそ学べたことがある。", romaji: "Shippai shita kara koso manabeta koto ga aru.", german: "Gerade weil ich scheiterte, konnte ich daraus lernen." }
+    ],
+    notes: "Betont den Grund als besonders wichtig und positiv.",
+    related: ["n4-koso", "kara"]
+  },
+  {
+    id: "n3-te-koso",
+    pattern: "～てこそ",
+    level: "N3",
+    category: "Satzstrukturen",
+    meaning: "Erst wenn man ... (dann wirklich)",
+    explanation: "てこそ: erst durch diese Handlung wird etwas wahrhaft möglich/wertvoll.",
+    formation: "Verb (て-Form) + こそ",
+    examples: [
+      { japanese: "練習してこそ上手になる。", romaji: "Renshū shite koso jōzu ni naru.", german: "Erst durch Üben wird man wirklich gut." },
+      { japanese: "自分でやってこそ意味がある。", romaji: "Jibun de yatte koso imi ga aru.", german: "Erst wenn man es selbst tut, hat es Bedeutung." }
+    ],
+    notes: "Betont, dass die Handlung unverzichtbare Voraussetzung ist.",
+    related: ["n4-koso", "n3-kara-koso"]
+  },
+  {
+    id: "n3-kkonai",
+    pattern: "～っこない",
+    level: "N3",
+    category: "Satzstrukturen",
+    meaning: "Keine Chance dass, absolut unmöglich",
+    explanation: "っこない: umgangssprachlich, drückt absolute Unmöglichkeit aus.",
+    formation: "Verb (ます-Stamm) + っこない",
+    examples: [
+      { japanese: "そんな難しい試験、受かりっこない。", romaji: "Sonna muzukashii shiken, ukarikkkonai.", german: "So eine schwere Prüfung, da bestehe ich niemals." },
+      { japanese: "あの人に勝てっこない。", romaji: "Ano hito ni katekkonai.", german: "Gegen diese Person kann ich unmöglich gewinnen." }
+    ],
+    notes: "Sehr umgangssprachlich. Stärker als ～はずがない.",
+    related: ["n3-you-ga-nai", "n4-hazu-ga-nai"]
+  },
+  {
+    id: "n3-ni-kawatte",
+    pattern: "～にかわって / ～にかわり",
+    level: "N3",
+    category: "Partikel",
+    meaning: "Anstelle von, im Auftrag von",
+    explanation: "にかわって: jemand übernimmt die Rolle oder Position eines anderen.",
+    formation: "Nomen + にかわって/にかわり",
+    examples: [
+      { japanese: "社長にかわって副社長が挨拶した。", romaji: "Shachō ni kawatte fukushachō ga aisatsu shita.", german: "Anstelle des Firmenchefs sprach der Vizechef." },
+      { japanese: "手紙にかわってメールが普及した。", romaji: "Tegami ni kawatte mēru ga fukyū shita.", german: "Anstelle von Briefen haben sich E-Mails verbreitet." }
+    ],
+    notes: "Auch: ～のかわりに (informeller).",
+    related: ["n3-kawari-ni"]
+  },
+  {
+    id: "n3-kawari-ni",
+    pattern: "～かわりに",
+    level: "N3",
+    category: "Satzstrukturen",
+    meaning: "Anstatt / dafür dass",
+    explanation: "かわりに: 1) anstatt etwas zu tun, 2) als Gegenleistung.",
+    formation: "Verb (辞書形) + かわりに / Nomen + のかわりに",
+    examples: [
+      { japanese: "車を買うかわりに自転車にした。", romaji: "Kuruma o kau kawari ni jitensha ni shita.", german: "Anstatt ein Auto zu kaufen, nahm ich ein Fahrrad." },
+      { japanese: "手伝ってあげるかわりに、ご飯をおごって。", romaji: "Tetsudatte ageru kawari ni, gohan o ogotte.", german: "Dafür dass ich dir helfe, lad mich zum Essen ein." }
+    ],
+    notes: "Austausch/Gegenleistung oder Alternative.",
+    related: ["n3-ni-kawatte"]
+  },
+  {
+    id: "n3-o-kikkake-ni",
+    pattern: "～をきっかけに",
+    level: "N3",
+    category: "Partikel",
+    meaning: "Ausgelöst durch, als Anlass",
+    explanation: "をきっかけに: ein Ereignis wird zum Auslöser für eine Veränderung.",
+    formation: "Nomen/Verb (た形) + のをきっかけに",
+    examples: [
+      { japanese: "留学をきっかけに日本語を勉強し始めた。", romaji: "Ryūgaku o kikkake ni nihongo o benkyō shi hajimeta.", german: "Ausgelöst durch den Auslandsaufenthalt begann ich Japanisch zu lernen." },
+      { japanese: "病気をきっかけに生活を見直した。", romaji: "Byōki o kikkake ni seikatsu o minaoshita.", german: "Die Krankheit war der Anlass, meinen Lebensstil zu überdenken." }
+    ],
+    notes: "Der Anlass ist meist ein einmaliges, konkretes Ereignis.",
+    related: []
+  },
+  {
+    id: "n3-o-towazu",
+    pattern: "～を問わず",
+    level: "N3",
+    category: "Partikel",
+    meaning: "Ungeachtet, unabhängig von",
+    explanation: "を問わず: es spielt keine Rolle, welcher Fall zutrifft.",
+    formation: "Nomen + を問わず",
+    examples: [
+      { japanese: "年齢を問わず参加できます。", romaji: "Nenrei o towazu sanka dekimasu.", german: "Man kann unabhängig vom Alter teilnehmen." },
+      { japanese: "経験の有無を問わず応募できる。", romaji: "Keiken no umu o towazu ōbo dekiru.", german: "Man kann sich unabhängig von Erfahrung bewerben." }
+    ],
+    notes: "Formell. Oft: 国籍を問わず, 男女を問わず.",
+    related: ["n3-ni-kakawarazu"]
+  },
+  {
+    id: "n3-ni-kakawarazu",
+    pattern: "～にかかわらず",
+    level: "N3",
+    category: "Partikel",
+    meaning: "Unabhängig von, egal ob",
+    explanation: "にかかわらず: das Ergebnis ändert sich nicht, egal welche Bedingung vorliegt.",
+    formation: "Nomen + にかかわらず / Verb (辞書形/ない形) + にかかわらず",
+    examples: [
+      { japanese: "天気にかかわらず試合は行われる。", romaji: "Tenki ni kakawarazu shiai wa okonawareru.", german: "Unabhängig vom Wetter findet das Spiel statt." },
+      { japanese: "賛成するしないにかかわらず出席してください。", romaji: "Sansei suru shinai ni kakawarazu shusseki shite kudasai.", german: "Kommen Sie, egal ob Sie zustimmen oder nicht." }
+    ],
+    notes: "Formeller als ～に関係なく. Nicht verwechseln mit ～にもかかわらず (trotz).",
+    related: ["n3-o-towazu", "n3-ni-mo-kakawarazu"]
+  },
+  {
+    id: "n3-ni-sotte",
+    pattern: "～に沿って",
+    level: "N3",
+    category: "Partikel",
+    meaning: "Entlang, gemäß, entsprechend",
+    explanation: "に沿って: einer Linie, einem Plan oder einer Richtlinie folgen.",
+    formation: "Nomen + に沿って / に沿った + Nomen",
+    examples: [
+      { japanese: "川に沿って歩いた。", romaji: "Kawa ni sotte aruita.", german: "Ich ging am Fluss entlang." },
+      { japanese: "計画に沿って進めてください。", romaji: "Keikaku ni sotte susumete kudasai.", german: "Bitte gehen Sie gemäß dem Plan vor." }
+    ],
+    notes: "Konkret (Fluss) und abstrakt (Plan) möglich.",
+    related: ["n3-ni-shitagatte"]
+  },
+  {
+    id: "n3-gatai",
+    pattern: "～がたい",
+    level: "N3",
+    category: "Verben",
+    meaning: "Schwer zu (emotional/moralisch)",
+    explanation: "がたい: etwas ist emotional oder moralisch schwer zu tun. Formeller als ～にくい.",
+    formation: "Verb (ます-Stamm) + がたい",
+    examples: [
+      { japanese: "彼の行動は理解しがたい。", romaji: "Kare no kōdō wa rikai shigatai.", german: "Sein Verhalten ist schwer zu verstehen." },
+      { japanese: "忘れがたい思い出だ。", romaji: "Wasuregatai omoide da.", german: "Eine unvergessliche Erinnerung." }
+    ],
+    notes: "Formeller als ～にくい und ～づらい. 信じがたい (kaum zu glauben).",
+    related: ["n4-nikui", "n3-zurai"]
+  },
+  {
+    id: "n3-ta-tokoro-de",
+    pattern: "～たところで",
+    level: "N3",
+    category: "Satzstrukturen",
+    meaning: "Selbst wenn man ... tut (nutzlos)",
+    explanation: "たところで: selbst wenn man etwas tut, ändert sich nichts / ist es sinnlos.",
+    formation: "Verb (た形) + ところで",
+    examples: [
+      { japanese: "今更謝ったところで許してもらえない。", romaji: "Imasara ayamatta tokoro de yurushite moraenai.", german: "Selbst wenn ich mich jetzt entschuldige, wird man mir nicht verzeihen." },
+      { japanese: "急いだところで間に合わない。", romaji: "Isoida tokoro de maniawanai.", german: "Selbst wenn ich mich beeile, schaffe ich es nicht." }
+    ],
+    notes: "Immer negatives/resigniertes Ergebnis.",
+    related: ["n4-temo", "n3-ta-tokoro"]
+  },
+  {
+    id: "n3-oki-ni",
+    pattern: "～おきに",
+    level: "N3",
+    category: "Satzstrukturen",
+    meaning: "Alle ... (Intervall)",
+    explanation: "おきに: drückt regelmäßige Intervalle aus.",
+    formation: "Zahl + Zeiteinheit + おきに",
+    examples: [
+      { japanese: "二時間おきに薬を飲んでください。", romaji: "Nijikan oki ni kusuri o nonde kudasai.", german: "Nehmen Sie alle zwei Stunden die Medizin." },
+      { japanese: "一日おきにジョギングしている。", romaji: "Ichinichi oki ni jogingu shiteiru.", german: "Ich jogge jeden zweiten Tag." }
+    ],
+    notes: "一日おきに = jeden zweiten Tag. 一つおきに = jedes zweite.",
+    related: ["n4-zutsu"]
+  },
+  {
+    id: "n3-to-iu-mono-da",
+    pattern: "～というものだ",
+    level: "N3",
+    category: "Satzstrukturen",
+    meaning: "Das ist (die wahre Natur von)",
+    explanation: "というものだ: betont die wahre Natur oder das Wesen einer Sache.",
+    formation: "Nomen/Satz + というものだ",
+    examples: [
+      { japanese: "それが本当の友情というものだ。", romaji: "Sore ga hontō no yūjō to iu mono da.", german: "Das ist wahre Freundschaft." },
+      { japanese: "人生とはそういうものだ。", romaji: "Jinsei to wa sō iu mono da.", german: "So ist das Leben eben." }
+    ],
+    notes: "Philosophisch/belehrend. というものではない = so einfach ist es nicht.",
+    related: ["n4-toiu"]
+  },
+  {
+    id: "n3-ba-ii-noni",
+    pattern: "～ばいいのに",
+    level: "N3",
+    category: "Satzstrukturen",
+    meaning: "Ich wünschte, wenn doch nur",
+    explanation: "ばいいのに: drückt einen unerfüllten Wunsch oder Bedauern aus.",
+    formation: "Verb (ば-Form) + いいのに",
+    examples: [
+      { japanese: "もっと早く言えばいいのに。", romaji: "Motto hayaku ieba ii noni.", german: "Wenn er es doch nur früher gesagt hätte." },
+      { japanese: "毎日晴れればいいのに。", romaji: "Mainichi harereba ii noni.", german: "Wenn es doch nur jeden Tag sonnig wäre." }
+    ],
+    notes: "Eigener Wunsch oder Vorwurf an andere.",
+    related: ["n4-ba-yokatta", "n4-ba"]
+  },
+  {
+    id: "n3-o-komete",
+    pattern: "～を込めて",
+    level: "N3",
+    category: "Partikel",
+    meaning: "Mit (Gefühl/Mühe) erfüllt",
+    explanation: "を込めて: etwas wird mit einem bestimmten Gefühl oder Einsatz getan.",
+    formation: "Nomen + を込めて",
+    examples: [
+      { japanese: "心を込めて作りました。", romaji: "Kokoro o komete tsukurimashita.", german: "Ich habe es mit ganzem Herzen gemacht." },
+      { japanese: "感謝の気持ちを込めてプレゼントを贈った。", romaji: "Kansha no kimochi o komete purezento o okutta.", german: "Ich schenkte es mit einem Gefühl der Dankbarkeit." }
+    ],
+    notes: "心を込めて (von Herzen), 願いを込めて (mit einem Wunsch).",
+    related: []
+  },
+  {
+    id: "n3-ayamaru",
+    pattern: "謝る / ～てすみません",
+    level: "N3",
+    category: "Verben",
+    meaning: "Sich entschuldigen",
+    explanation: "謝る (あやまる): sich entschuldigen. Im Japanischen gibt es verschiedene Entschuldigungsformen je nach Situation und Höflichkeitsstufe.",
+    formation: "謝る / ～てすみません / ～て申し訳ありません / ～てごめんなさい",
+    examples: [
+      { japanese: "遅れたことを謝った。", romaji: "Okureta koto o ayamatta.", german: "Ich entschuldigte mich für die Verspätung." },
+      { japanese: "ご迷惑をおかけして申し訳ありません。", romaji: "Gomeiwaku o okake shite mōshiwake arimasen.", german: "Ich entschuldige mich für die Unannehmlichkeiten." },
+      { japanese: "遅くなってすみません。", romaji: "Osoku natte sumimasen.", german: "Entschuldigung, dass es so spät geworden ist." }
+    ],
+    notes: "Höflichkeit: ごめん(なさい) < すみません < 申し訳ありません/ございません. 謝る ist das Verb 'sich entschuldigen'.",
+    related: []
+  },
+  {
+    id: "n3-ni-totte-no",
+    pattern: "～にとっての",
+    level: "N3",
+    category: "Partikel",
+    meaning: "Für ... (attributiv)",
+    explanation: "にとっての: attributive Form von にとって, vor Nomen verwendet.",
+    formation: "Nomen + にとっての + Nomen",
+    examples: [
+      { japanese: "私にとっての幸せは家族と過ごすことだ。", romaji: "Watashi ni totte no shiawase wa kazoku to sugosu koto da.", german: "Für mich ist Glück, Zeit mit der Familie zu verbringen." },
+      { japanese: "学生にとっての最大の課題は就職だ。", romaji: "Gakusei ni totte no saidai no kadai wa shūshoku da.", german: "Die größte Herausforderung für Studenten ist die Jobsuche." }
+    ],
+    notes: "にとって + Satz vs. にとっての + Nomen.",
+    related: ["n4-ni-totte"]
   }
 ];
