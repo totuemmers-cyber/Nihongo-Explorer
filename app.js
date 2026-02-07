@@ -23,6 +23,17 @@
   let activeGrammarLevel = 'all';
   let grammarSort = 'category';
 
+  // Vocab state
+  let allVocab = [];
+  let filteredVocab = [];
+  let currentVocabDetailIndex = -1;
+  let activeVocabLevel = 'all';
+  let activeVocabType = 'all';
+  let vocabSort = 'level';
+  let vocabRenderedCount = 0;
+  let vocabBatchSize = 100;
+  let isVocabRendering = false;
+
   let soundEnabled = localStorage.getItem('kanji-sound') !== 'off';
 
   // === WEB AUDIO API - Sound Engine ===
@@ -108,8 +119,10 @@
   // Tab elements
   const kanjiControls = document.getElementById('kanji-controls');
   const grammarControls = document.getElementById('grammar-controls');
+  const vocabControls = document.getElementById('vocab-controls');
   const kanjiTab = document.getElementById('kanji-tab');
   const grammarTab = document.getElementById('grammar-tab');
+  const vocabTab = document.getElementById('vocab-tab');
 
   // Kanji DOM
   const grid = document.getElementById('kanji-grid');
@@ -138,6 +151,14 @@
   const grammarNoResults = document.getElementById('grammar-no-results');
   const grammarOverlay = document.getElementById('grammar-detail-overlay');
 
+  // Vocab DOM
+  const vocabGrid = document.getElementById('vocab-grid');
+  const vocabSearchInput = document.getElementById('vocab-search-input');
+  const vocabClearSearchBtn = document.getElementById('vocab-clear-search');
+  const vocabSortSelect = document.getElementById('vocab-sort-select');
+  const vocabNoResults = document.getElementById('vocab-no-results');
+  const vocabOverlay = document.getElementById('vocab-detail-overlay');
+
   // === TAB SYSTEM ===
   function switchTab(tab) {
     activeTab = tab;
@@ -151,10 +172,12 @@
     // Toggle controls
     kanjiControls.classList.toggle('hidden', tab !== 'kanji');
     grammarControls.classList.toggle('hidden', tab !== 'grammar');
+    vocabControls.classList.toggle('hidden', tab !== 'vocab');
 
     // Toggle content
     kanjiTab.classList.toggle('hidden', tab !== 'kanji');
     grammarTab.classList.toggle('hidden', tab !== 'grammar');
+    vocabTab.classList.toggle('hidden', tab !== 'vocab');
 
     // Update count badge
     updateCount();
@@ -192,6 +215,17 @@
       applyGrammarFilters();
     }
 
+    // Vocab data - combine from multiple files
+    var vocabSources = [
+      window.VOCAB_N5 || [],
+      window.VOCAB_N4 || [],
+      window.VOCAB_N3 || []
+    ];
+    allVocab = [].concat.apply([], vocabSources);
+    if (allVocab.length > 0) {
+      applyVocabFilters();
+    }
+
     updateCount();
   }
 
@@ -199,8 +233,10 @@
   function updateCount() {
     if (activeTab === 'kanji') {
       itemCountEl.textContent = filteredKanji.length + ' Kanji';
-    } else {
+    } else if (activeTab === 'grammar') {
       itemCountEl.textContent = filteredGrammar.length + ' Grammatik';
+    } else {
+      itemCountEl.textContent = filteredVocab.length + ' Vokabeln';
     }
   }
 
@@ -605,6 +641,214 @@
     }
   }
 
+  // ==========================================
+  // === VOCAB SECTION ===
+  // ==========================================
+
+  function applyVocabFilters() {
+    var query = vocabSearchInput.value.trim().toLowerCase();
+    filteredVocab = allVocab.filter(function (v) {
+      if (activeVocabLevel !== 'all' && v.level !== activeVocabLevel) return false;
+      if (activeVocabType !== 'all' && v.type !== activeVocabType) return false;
+      if (query) {
+        var matchWord = v.word.indexOf(query) !== -1;
+        var matchReading = v.reading && v.reading.indexOf(query) !== -1;
+        var matchRomaji = v.romaji && v.romaji.toLowerCase().indexOf(query) !== -1;
+        var matchMeaning = v.meaning.toLowerCase().indexOf(query) !== -1;
+        var matchCategory = v.category && v.category.toLowerCase().indexOf(query) !== -1;
+        if (!matchWord && !matchReading && !matchRomaji && !matchMeaning && !matchCategory) return false;
+      }
+      return true;
+    });
+
+    sortVocab();
+    vocabRenderedCount = 0;
+    vocabGrid.innerHTML = '';
+    renderVocabBatch();
+    updateCount();
+  }
+
+  function sortVocab() {
+    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2 };
+    var typeOrder = { 'Nomen': 0, 'Verb': 1, 'Adjektiv': 2, 'Adverb': 3, 'Partikel': 4, 'Ausdruck': 5 };
+    filteredVocab.sort(function (a, b) {
+      if (vocabSort === 'level') {
+        var la = levelOrder[a.level] !== undefined ? levelOrder[a.level] : 9;
+        var lb = levelOrder[b.level] !== undefined ? levelOrder[b.level] : 9;
+        if (la !== lb) return la - lb;
+        return a.word.localeCompare(b.word, 'ja');
+      }
+      if (vocabSort === 'type') {
+        var ta = typeOrder[a.type] !== undefined ? typeOrder[a.type] : 9;
+        var tb = typeOrder[b.type] !== undefined ? typeOrder[b.type] : 9;
+        if (ta !== tb) return ta - tb;
+        return a.word.localeCompare(b.word, 'ja');
+      }
+      if (vocabSort === 'category') {
+        var ca = (a.category || '').localeCompare(b.category || '', 'de');
+        if (ca !== 0) return ca;
+        return a.word.localeCompare(b.word, 'ja');
+      }
+      if (vocabSort === 'alpha') {
+        return a.meaning.localeCompare(b.meaning, 'de');
+      }
+      return 0;
+    });
+  }
+
+  var vocabScrollObserver = null;
+
+  function renderVocabBatch() {
+    if (isVocabRendering) return;
+    isVocabRendering = true;
+
+    var end = Math.min(vocabRenderedCount + vocabBatchSize, filteredVocab.length);
+    var fragment = document.createDocumentFragment();
+
+    for (var i = vocabRenderedCount; i < end; i++) {
+      fragment.appendChild(createVocabCard(filteredVocab[i], i));
+    }
+
+    vocabGrid.appendChild(fragment);
+    vocabRenderedCount = end;
+    isVocabRendering = false;
+
+    vocabNoResults.classList.toggle('hidden', filteredVocab.length > 0);
+
+    if (vocabRenderedCount < filteredVocab.length) {
+      setupVocabScrollObserver();
+    }
+  }
+
+  function setupVocabScrollObserver() {
+    if (vocabScrollObserver) vocabScrollObserver.disconnect();
+
+    var sentinel = document.createElement('div');
+    sentinel.className = 'scroll-sentinel';
+    vocabGrid.appendChild(sentinel);
+
+    vocabScrollObserver = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting) {
+        vocabScrollObserver.disconnect();
+        sentinel.remove();
+        renderVocabBatch();
+      }
+    }, { rootMargin: '200px' });
+
+    vocabScrollObserver.observe(sentinel);
+  }
+
+  function createVocabCard(v, index) {
+    var card = document.createElement('div');
+    card.className = 'vocab-card';
+    card.setAttribute('data-index', index);
+
+    card.innerHTML =
+      '<div class="vocab-card-header">' +
+        '<span class="vocab-card-word">' + v.word + '</span>' +
+        '<div class="vocab-card-badges">' +
+          '<span class="card-level ' + v.level + '">' + v.level + '</span>' +
+          '<span class="vocab-type-badge ' + v.type + '">' + v.type + '</span>' +
+        '</div>' +
+      '</div>' +
+      '<div class="vocab-card-reading">' + (v.reading || '') + '</div>' +
+      '<div class="vocab-card-meaning">' + v.meaning + '</div>';
+
+    card.addEventListener('click', function () {
+      playTick();
+      openVocabDetail(index);
+    });
+    return card;
+  }
+
+  function openVocabDetail(index) {
+    if (index < 0 || index >= filteredVocab.length) return;
+    currentVocabDetailIndex = index;
+    var v = filteredVocab[index];
+
+    document.getElementById('vocab-detail-word').textContent = v.word;
+    var levelBadge = document.getElementById('vocab-detail-level');
+    levelBadge.textContent = v.level;
+    levelBadge.className = 'detail-jlpt-badge ' + v.level;
+    var typeBadge = document.getElementById('vocab-detail-type');
+    typeBadge.textContent = v.type;
+    typeBadge.className = 'vocab-type-badge ' + v.type;
+
+    document.getElementById('vocab-detail-reading').textContent = v.reading || '';
+    document.getElementById('vocab-detail-romaji').textContent = v.romaji || '';
+    document.getElementById('vocab-detail-meaning').textContent = v.meaning;
+    document.getElementById('vocab-detail-category-line').textContent =
+      'Kategorie: ' + (v.category || '—');
+
+    // Examples
+    var examplesEl = document.getElementById('vocab-detail-examples');
+    if (v.examples && v.examples.length > 0) {
+      examplesEl.innerHTML = v.examples.map(function (ex) {
+        return '<div class="grammar-example-item">' +
+          '<div class="grammar-example-jp">' + ex.japanese + '</div>' +
+          '<div class="grammar-example-romaji">' + ex.romaji + '</div>' +
+          '<div class="grammar-example-german">' + ex.german + '</div>' +
+        '</div>';
+      }).join('');
+    } else {
+      examplesEl.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
+    }
+
+    // Kanji links
+    var kanjiSection = document.getElementById('vocab-detail-kanji-section');
+    var kanjiLinksEl = document.getElementById('vocab-detail-kanji-links');
+    var kanjiChars = [];
+    for (var i = 0; i < v.word.length; i++) {
+      var ch = v.word[i];
+      // Check if character is a kanji (CJK Unified Ideographs range)
+      if (ch.charCodeAt(0) >= 0x4E00 && ch.charCodeAt(0) <= 0x9FFF) {
+        var found = allKanji.find(function (k) { return k.kanji === ch; });
+        if (found) kanjiChars.push(found);
+      }
+    }
+
+    if (kanjiChars.length > 0) {
+      kanjiLinksEl.innerHTML = kanjiChars.map(function (k) {
+        return '<span class="component-tag" data-kanji="' + k.kanji + '">' +
+          '<span class="comp-radical">' + k.kanji + '</span>' +
+          '<span class="comp-meaning">' + k.meanings[0] + '</span></span>';
+      }).join('');
+
+      kanjiLinksEl.querySelectorAll('.component-tag').forEach(function (tag) {
+        tag.addEventListener('click', function () {
+          var targetKanji = this.getAttribute('data-kanji');
+          closeVocabDetail();
+          switchTab('kanji');
+          searchInput.value = targetKanji;
+          clearSearchBtn.classList.add('visible');
+          applyFilters();
+          if (filteredKanji.length > 0) openDetail(0);
+        });
+      });
+
+      kanjiSection.classList.remove('hidden');
+    } else {
+      kanjiSection.classList.add('hidden');
+    }
+
+    vocabOverlay.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    playPop();
+  }
+
+  function closeVocabDetail() {
+    vocabOverlay.classList.add('hidden');
+    document.body.style.overflow = '';
+    currentVocabDetailIndex = -1;
+  }
+
+  function navigateVocabDetail(direction) {
+    var newIndex = currentVocabDetailIndex + direction;
+    if (newIndex >= 0 && newIndex < filteredVocab.length) {
+      openVocabDetail(newIndex);
+    }
+  }
+
   // === THEME ===
   function initTheme() {
     var saved = localStorage.getItem('kanji-theme');
@@ -736,6 +980,66 @@
     navigateGrammarDetail(1);
   });
 
+  // Vocab search
+  var vocabSearchTimeout;
+  vocabSearchInput.addEventListener('input', function () {
+    clearTimeout(vocabSearchTimeout);
+    vocabClearSearchBtn.classList.toggle('visible', vocabSearchInput.value.length > 0);
+    vocabSearchTimeout = setTimeout(function () {
+      applyVocabFilters();
+    }, 200);
+  });
+
+  vocabClearSearchBtn.addEventListener('click', function () {
+    vocabSearchInput.value = '';
+    vocabClearSearchBtn.classList.remove('visible');
+    applyVocabFilters();
+    vocabSearchInput.focus();
+  });
+
+  vocabSortSelect.addEventListener('change', function () {
+    vocabSort = this.value;
+    applyVocabFilters();
+  });
+
+  // Vocab level filters
+  vocabControls.querySelectorAll('.vocab-level').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      vocabControls.querySelectorAll('.vocab-level').forEach(function (b) {
+        b.classList.remove('active');
+      });
+      this.classList.add('active');
+      activeVocabLevel = this.getAttribute('data-vlevel');
+      playSwoosh();
+      applyVocabFilters();
+    });
+  });
+
+  // Vocab type filters
+  vocabControls.querySelectorAll('.vocab-type').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      vocabControls.querySelectorAll('.vocab-type').forEach(function (b) {
+        b.classList.remove('active');
+      });
+      this.classList.add('active');
+      activeVocabType = this.getAttribute('data-vtype');
+      playSwoosh();
+      applyVocabFilters();
+    });
+  });
+
+  // Vocab detail overlay
+  document.getElementById('vocab-close-detail').addEventListener('click', closeVocabDetail);
+  vocabOverlay.addEventListener('click', function (e) {
+    if (e.target === vocabOverlay) closeVocabDetail();
+  });
+  document.getElementById('prev-vocab').addEventListener('click', function () {
+    navigateVocabDetail(-1);
+  });
+  document.getElementById('next-vocab').addEventListener('click', function () {
+    navigateVocabDetail(1);
+  });
+
   // Theme
   themeToggle.addEventListener('click', function () {
     playTick();
@@ -760,10 +1064,14 @@
       if (filteredKanji.length === 0) return;
       var idx = Math.floor(Math.random() * filteredKanji.length);
       openDetail(idx);
-    } else {
+    } else if (activeTab === 'grammar') {
       if (filteredGrammar.length === 0) return;
       var gIdx = Math.floor(Math.random() * filteredGrammar.length);
       openGrammarDetail(gIdx);
+    } else {
+      if (filteredVocab.length === 0) return;
+      var vIdx = Math.floor(Math.random() * filteredVocab.length);
+      openVocabDetail(vIdx);
     }
   });
 
@@ -771,6 +1079,7 @@
   document.addEventListener('keydown', function (e) {
     var kanjiOverlayOpen = !overlay.classList.contains('hidden');
     var grammarOverlayOpen = !grammarOverlay.classList.contains('hidden');
+    var vocabOverlayOpen = !vocabOverlay.classList.contains('hidden');
 
     if (kanjiOverlayOpen) {
       if (e.key === 'Escape') closeDetail();
@@ -786,9 +1095,17 @@
       return;
     }
 
+    if (vocabOverlayOpen) {
+      if (e.key === 'Escape') closeVocabDetail();
+      if (e.key === 'ArrowLeft') navigateVocabDetail(-1);
+      if (e.key === 'ArrowRight') navigateVocabDetail(1);
+      return;
+    }
+
     // No overlay open
     if (e.key === '/') {
-      var activeInput = activeTab === 'kanji' ? searchInput : grammarSearchInput;
+      var activeInput = activeTab === 'kanji' ? searchInput :
+        activeTab === 'grammar' ? grammarSearchInput : vocabSearchInput;
       if (document.activeElement !== activeInput) {
         e.preventDefault();
         activeInput.focus();

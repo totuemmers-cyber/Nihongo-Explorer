@@ -44,6 +44,24 @@
   --cat-satzstrukturen: #8b5cf6;
   --cat-satzstrukturen-bg: #f5f3ff;
   --cat-satzstrukturen-border: #c4b5fd;
+  --vt-nomen: #3b82f6;
+  --vt-nomen-bg: #eff6ff;
+  --vt-nomen-border: #bfdbfe;
+  --vt-verb: #10b981;
+  --vt-verb-bg: #ecfdf5;
+  --vt-verb-border: #a7f3d0;
+  --vt-adjektiv: #f59e0b;
+  --vt-adjektiv-bg: #fffbeb;
+  --vt-adjektiv-border: #fde68a;
+  --vt-adverb: #8b5cf6;
+  --vt-adverb-bg: #f5f3ff;
+  --vt-adverb-border: #c4b5fd;
+  --vt-ausdruck: #ec4899;
+  --vt-ausdruck-bg: #fdf2f8;
+  --vt-ausdruck-border: #fbcfe8;
+  --vt-partikel: #14b8a6;
+  --vt-partikel-bg: #f0fdfa;
+  --vt-partikel-border: #99f6e4;
   --kun-color: #3b82f6;
   --on-color: #ef4444;
   --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -76,6 +94,18 @@
   --cat-adjektive-border: #92400e;
   --cat-satzstrukturen-bg: #4c1d95;
   --cat-satzstrukturen-border: #5b21b6;
+  --vt-nomen-bg: #1e3a5f;
+  --vt-nomen-border: #2563eb;
+  --vt-verb-bg: #064e3b;
+  --vt-verb-border: #065f46;
+  --vt-adjektiv-bg: #78350f;
+  --vt-adjektiv-border: #92400e;
+  --vt-adverb-bg: #4c1d95;
+  --vt-adverb-border: #5b21b6;
+  --vt-ausdruck-bg: #831843;
+  --vt-ausdruck-border: #be185d;
+  --vt-partikel-bg: #134e4a;
+  --vt-partikel-border: #0d9488;
 }
 
 html {
@@ -264,7 +294,8 @@ body {
 }
 
 #search-input,
-#grammar-search-input {
+#grammar-search-input,
+#vocab-search-input {
   width: 100%;
   padding: 12px 40px 12px 42px;
   border: 2px solid var(--border);
@@ -278,13 +309,15 @@ body {
 }
 
 #search-input:focus,
-#grammar-search-input:focus {
+#grammar-search-input:focus,
+#vocab-search-input:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
 }
 
 #search-input::placeholder,
-#grammar-search-input::placeholder {
+#grammar-search-input::placeholder,
+#vocab-search-input::placeholder {
   color: var(--text-secondary);
 }
 
@@ -1119,17 +1152,214 @@ main {
   border-color: var(--accent);
 }
 
+/* === VOCAB TYPE FILTER BUTTONS === */
+.filter-btn.vt-nomen:hover, .filter-btn.vt-nomen.active {
+  background: var(--vt-nomen);
+  color: white;
+  border-color: var(--vt-nomen);
+}
+
+.filter-btn.vt-verb:hover, .filter-btn.vt-verb.active {
+  background: var(--vt-verb);
+  color: white;
+  border-color: var(--vt-verb);
+}
+
+.filter-btn.vt-adjektiv:hover, .filter-btn.vt-adjektiv.active {
+  background: var(--vt-adjektiv);
+  color: white;
+  border-color: var(--vt-adjektiv);
+}
+
+.filter-btn.vt-adverb:hover, .filter-btn.vt-adverb.active {
+  background: var(--vt-adverb);
+  color: white;
+  border-color: var(--vt-adverb);
+}
+
+.filter-btn.vt-ausdruck:hover, .filter-btn.vt-ausdruck.active {
+  background: var(--vt-ausdruck);
+  color: white;
+  border-color: var(--vt-ausdruck);
+}
+
+.filter-btn.vt-partikel:hover, .filter-btn.vt-partikel.active {
+  background: var(--vt-partikel);
+  color: white;
+  border-color: var(--vt-partikel);
+}
+
+/* === VOCAB GRID === */
+.vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+/* === VOCAB CARDS === */
+.vocab-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 14px;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid var(--border);
+  transition: all var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  animation: fadeIn 0.3s ease;
+  overflow: hidden;
+}
+
+.vocab-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: transparent;
+}
+
+.vocab-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.vocab-card-word {
+  font-family: var(--font-jp);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.vocab-card-badges {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.vocab-card-reading {
+  font-family: var(--font-jp);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.vocab-card-meaning {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.vocab-type-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.vocab-type-badge.Nomen {
+  background: var(--vt-nomen-bg);
+  color: var(--vt-nomen);
+  border: 1px solid var(--vt-nomen-border);
+}
+
+.vocab-type-badge.Verb {
+  background: var(--vt-verb-bg);
+  color: var(--vt-verb);
+  border: 1px solid var(--vt-verb-border);
+}
+
+.vocab-type-badge.Adjektiv {
+  background: var(--vt-adjektiv-bg);
+  color: var(--vt-adjektiv);
+  border: 1px solid var(--vt-adjektiv-border);
+}
+
+.vocab-type-badge.Adverb {
+  background: var(--vt-adverb-bg);
+  color: var(--vt-adverb);
+  border: 1px solid var(--vt-adverb-border);
+}
+
+.vocab-type-badge.Ausdruck {
+  background: var(--vt-ausdruck-bg);
+  color: var(--vt-ausdruck);
+  border: 1px solid var(--vt-ausdruck-border);
+}
+
+.vocab-type-badge.Partikel {
+  background: var(--vt-partikel-bg);
+  color: var(--vt-partikel);
+  border: 1px solid var(--vt-partikel-border);
+}
+
+/* === VOCAB DETAIL === */
+.vocab-detail-panel {
+  max-width: 650px;
+}
+
+.vocab-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+
+.vocab-detail-word {
+  font-family: var(--font-jp);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.vocab-detail-reading {
+  font-family: var(--font-jp);
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 2px;
+}
+
+.vocab-detail-romaji {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.vocab-detail-meaning {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.vocab-detail-category-line {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
 /* === RESPONSIVE === */
 @media (max-width: 479px) {
-  .grammar-grid {
+  .grammar-grid, .vocab-grid {
     grid-template-columns: 1fr;
   }
   .level-filters {
     flex-wrap: wrap;
   }
   .tab-btn {
-    padding: 8px 14px;
-    font-size: 0.85rem;
+    padding: 8px 12px;
+    font-size: 0.8rem;
   }
 }
 
@@ -1139,6 +1369,9 @@ main {
   }
   .grammar-grid {
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+  .vocab-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
 
