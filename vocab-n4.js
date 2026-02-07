@@ -688,5 +688,6 @@ window.VOCAB_N4 = [
 {word:"前髪",reading:"まえがみ",romaji:"maegami",meaning:"Pony (Haarschnitt)",type:"Nomen",level:"N4",category:"Körper",examples:[{japanese:"前髪を切りました。",romaji:"Maegami o kirimashita.",german:"Ich habe meinen Pony geschnitten."}]},
 {word:"枝毛",reading:"えだげ",romaji:"edage",meaning:"Spliss",type:"Nomen",level:"N4",category:"Körper",examples:[{japanese:"枝毛が気になります。",romaji:"Edage ga ki ni narimasu.",german:"Mein Spliss stört mich."}]},
 {word:"くせ毛",reading:"くせげ",romaji:"kusege",meaning:"krauses Haar, Locken",type:"Nomen",level:"N4",category:"Körper",examples:[{japanese:"くせ毛で困っています。",romaji:"Kusege de komatteimasu.",german:"Mein krauses Haar macht mir Probleme."}]},
-{word:"親知らず",reading:"おやしらず",romaji:"oyashirazu",meaning:"Weisheitszahn",type:"Nomen",level:"N4",category:"Körper",examples:[{japanese:"親知らずを抜きました。",romaji:"Oyashirazu o nukimashita.",german:"Ich habe mir einen Weisheitszahn ziehen lassen."}]}
+{word:"親知らず",reading:"おやしらず",romaji:"oyashirazu",meaning:"Weisheitszahn",type:"Nomen",level:"N4",category:"Körper",examples:[{japanese:"親知らずを抜きました。",romaji:"Oyashirazu o nukimashita.",german:"Ich habe mir einen Weisheitszahn ziehen lassen."}]},
+{word:"真ん中",reading:"まんなか",romaji:"mannaka",meaning:"Mitte, Zentrum",type:"Nomen",level:"N4",category:"Ort",examples:[{japanese:"部屋の真ん中にテーブルがあります。",romaji:"Heya no mannaka ni teeburu ga arimasu.",german:"In der Mitte des Zimmers steht ein Tisch."},{japanese:"道の真ん中に立たないでください。",romaji:"Michi no mannaka ni tatanaide kudasai.",german:"Bitte steh nicht mitten auf der Straße."}]}
 ];
