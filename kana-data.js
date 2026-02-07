@@ -2,21 +2,21 @@
 window.KANA_DATA = {
   // Row colors for visual grouping
   rowColors: {
-    'vowel':    { color: '#ef4444', bg: '#fef2f2', border: '#fecaca', darkBg: '#7f1d1d', darkBorder: '#991b1b' },
-    'k':        { color: '#f97316', bg: '#fff7ed', border: '#fed7aa', darkBg: '#7c2d12', darkBorder: '#9a3412' },
-    's':        { color: '#eab308', bg: '#fefce8', border: '#fde68a', darkBg: '#713f12', darkBorder: '#854d0e' },
-    't':        { color: '#22c55e', bg: '#f0fdf4', border: '#bbf7d0', darkBg: '#14532d', darkBorder: '#166534' },
-    'n':        { color: '#14b8a6', bg: '#f0fdfa', border: '#99f6e4', darkBg: '#134e4a', darkBorder: '#115e59' },
-    'h':        { color: '#3b82f6', bg: '#eff6ff', border: '#bfdbfe', darkBg: '#1e3a5f', darkBorder: '#1d4ed8' },
-    'm':        { color: '#8b5cf6', bg: '#f5f3ff', border: '#c4b5fd', darkBg: '#4c1d95', darkBorder: '#5b21b6' },
-    'y':        { color: '#ec4899', bg: '#fdf2f8', border: '#fbcfe8', darkBg: '#831843', darkBorder: '#9d174d' },
-    'r':        { color: '#06b6d4', bg: '#ecfeff', border: '#a5f3fc', darkBg: '#164e63', darkBorder: '#155e75' },
-    'w':        { color: '#6366f1', bg: '#eef2ff', border: '#c7d2fe', darkBg: '#3730a3', darkBorder: '#4338ca' },
-    'g':        { color: '#ef4444', bg: '#fef2f2', border: '#fecaca', darkBg: '#7f1d1d', darkBorder: '#991b1b' },
-    'z':        { color: '#f97316', bg: '#fff7ed', border: '#fed7aa', darkBg: '#7c2d12', darkBorder: '#9a3412' },
-    'd':        { color: '#22c55e', bg: '#f0fdf4', border: '#bbf7d0', darkBg: '#14532d', darkBorder: '#166534' },
-    'b':        { color: '#3b82f6', bg: '#eff6ff', border: '#bfdbfe', darkBg: '#1e3a5f', darkBorder: '#1d4ed8' },
-    'p':        { color: '#8b5cf6', bg: '#f5f3ff', border: '#c4b5fd', darkBg: '#4c1d95', darkBorder: '#5b21b6' }
+    'vowel':    { color: '#ef4444', bg: '#fef2f2', border: '#fecaca', darkBg: '#2a1215', darkBorder: '#5c2027' },
+    'k':        { color: '#f97316', bg: '#fff7ed', border: '#fed7aa', darkBg: '#2a1a0e', darkBorder: '#5c3518' },
+    's':        { color: '#eab308', bg: '#fefce8', border: '#fde68a', darkBg: '#2a2310', darkBorder: '#5c4a14' },
+    't':        { color: '#22c55e', bg: '#f0fdf4', border: '#bbf7d0', darkBg: '#0f2a1a', darkBorder: '#1a5c34' },
+    'n':        { color: '#14b8a6', bg: '#f0fdfa', border: '#99f6e4', darkBg: '#0f2a26', darkBorder: '#185c50' },
+    'h':        { color: '#3b82f6', bg: '#eff6ff', border: '#bfdbfe', darkBg: '#111d2e', darkBorder: '#1e3d6b' },
+    'm':        { color: '#8b5cf6', bg: '#f5f3ff', border: '#c4b5fd', darkBg: '#1a1528', darkBorder: '#362a5c' },
+    'y':        { color: '#ec4899', bg: '#fdf2f8', border: '#fbcfe8', darkBg: '#2a1220', darkBorder: '#5c2043' },
+    'r':        { color: '#06b6d4', bg: '#ecfeff', border: '#a5f3fc', darkBg: '#0f2129', darkBorder: '#18465c' },
+    'w':        { color: '#6366f1', bg: '#eef2ff', border: '#c7d2fe', darkBg: '#161628', darkBorder: '#2e2e5c' },
+    'g':        { color: '#ef4444', bg: '#fef2f2', border: '#fecaca', darkBg: '#2a1215', darkBorder: '#5c2027' },
+    'z':        { color: '#f97316', bg: '#fff7ed', border: '#fed7aa', darkBg: '#2a1a0e', darkBorder: '#5c3518' },
+    'd':        { color: '#22c55e', bg: '#f0fdf4', border: '#bbf7d0', darkBg: '#0f2a1a', darkBorder: '#1a5c34' },
+    'b':        { color: '#3b82f6', bg: '#eff6ff', border: '#bfdbfe', darkBg: '#111d2e', darkBorder: '#1e3d6b' },
+    'p':        { color: '#8b5cf6', bg: '#f5f3ff', border: '#c4b5fd', darkBg: '#1a1528', darkBorder: '#362a5c' }
   },
 
   // Gojuon (basic kana)

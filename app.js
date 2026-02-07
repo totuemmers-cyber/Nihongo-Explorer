@@ -1169,8 +1169,10 @@
         if (ch) {
           var inner = document.createElement('div');
           inner.className = 'kana-cell-inner';
-          inner.style.background = rowColor.bg;
-          inner.style.borderColor = rowColor.border;
+          inner.setAttribute('data-row', rowData.row);
+          var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+          inner.style.background = isDark ? rowColor.darkBg : rowColor.bg;
+          inner.style.borderColor = isDark ? rowColor.darkBorder : rowColor.border;
 
           var charSpan = document.createElement('span');
           charSpan.className = 'kana-char';
@@ -1270,20 +1272,8 @@
     if (!colors) return;
 
     document.querySelectorAll('.kana-cell-inner').forEach(function (cell) {
-      var char = cell.querySelector('.kana-char');
-      var romaji = cell.querySelector('.kana-romaji');
-      if (!char || !romaji) return;
-
-      // Find which row color this cell uses by checking romaji color
-      var romajiColor = romaji.style.color;
-      var rowKey = null;
-      for (var key in colors) {
-        if (colors[key].color === romajiColor) {
-          rowKey = key;
-          break;
-        }
-      }
-      if (rowKey) {
+      var rowKey = cell.getAttribute('data-row');
+      if (rowKey && colors[rowKey]) {
         cell.style.background = isDark ? colors[rowKey].darkBg : colors[rowKey].bg;
         cell.style.borderColor = isDark ? colors[rowKey].darkBorder : colors[rowKey].border;
       }
