@@ -290,7 +290,7 @@
   }
 
   function sortKanji() {
-    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2 };
+    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2, 'N2': 3 };
     filteredKanji.sort(function (a, b) {
       if (currentSort === 'jlpt') {
         var la = levelOrder[a.jlpt] || 9;
@@ -491,7 +491,7 @@
 
   function sortGrammar() {
     var catOrder = { 'Partikel': 0, 'Verben': 1, 'Adjektive': 2, 'Satzstrukturen': 3 };
-    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2 };
+    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2, 'N2': 3 };
     filteredGrammar.sort(function (a, b) {
       if (grammarSort === 'category') {
         var ca = catOrder[a.category] !== undefined ? catOrder[a.category] : 9;
@@ -677,7 +677,7 @@
   }
 
   function sortVocab() {
-    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2 };
+    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2, 'N2': 3 };
     var typeOrder = { 'Nomen': 0, 'Verb': 1, 'Adjektiv': 2, 'Adverb': 3, 'Partikel': 4, 'Ausdruck': 5 };
     filteredVocab.sort(function (a, b) {
       if (vocabSort === 'level') {
