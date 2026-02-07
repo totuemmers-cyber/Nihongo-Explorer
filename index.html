@@ -46,6 +46,14 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
           Vokabeln
         </button>
+        <button class="tab-btn" data-tab="hiragana">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3c-1.2 2.4-3.6 4.8-7.2 7.2M4.8 10.2c3.6 1.2 6 4.8 6 9.6"/><path d="M19.2 5.4c-2.4 3.6-7.2 7.2-9.6 8.4"/></svg>
+          Hiragana
+        </button>
+        <button class="tab-btn" data-tab="katakana">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12M12 4v8"/><path d="M8 20l4-8 4 8"/></svg>
+          Katakana
+        </button>
       </nav>
       <!-- Kanji Tab Controls -->
       <div id="kanji-controls" class="tab-content">
@@ -179,6 +187,14 @@
           <span>Lade Vokabel-Daten...</span>
         </div>
       </div>
+      <!-- Hiragana Tab Content -->
+      <div id="hiragana-tab" class="tab-panel hidden">
+        <div id="hiragana-content" class="kana-content"></div>
+      </div>
+      <!-- Katakana Tab Content -->
+      <div id="katakana-tab" class="tab-panel hidden">
+        <div id="katakana-content" class="kana-content"></div>
+      </div>
     </main>
 
     <div id="detail-overlay" class="detail-overlay hidden">
@@ -304,6 +320,7 @@
   <script src="vocab-n5.js"></script>
   <script src="vocab-n4.js"></script>
   <script src="vocab-n3.js"></script>
+  <script src="kana-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
