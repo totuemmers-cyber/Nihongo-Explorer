@@ -29,6 +29,9 @@
   --n3: #8b5cf6;
   --n3-bg: #f5f3ff;
   --n3-border: #c4b5fd;
+  --n2: #e11d48;
+  --n2-bg: #fff1f2;
+  --n2-border: #fecdd3;
   --accent: #6366f1;
   --accent-hover: #4f46e5;
   --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
@@ -86,6 +89,8 @@
   --n4-border: #92400e;
   --n3-bg: #4c1d95;
   --n3-border: #5b21b6;
+  --n2-bg: #881337;
+  --n2-border: #9f1239;
   --cat-partikel-bg: #1e3a5f;
   --cat-partikel-border: #2563eb;
   --cat-verben-bg: #064e3b;
@@ -401,6 +406,12 @@ body {
   border-color: var(--n3);
 }
 
+.filter-btn.n2:hover, .filter-btn.n2.active {
+  background: var(--n2);
+  color: white;
+  border-color: var(--n2);
+}
+
 .sort-controls select {
   padding: 6px 12px;
   border: 2px solid var(--border);
@@ -504,6 +515,12 @@ main {
   background: var(--n3-bg);
   color: var(--n3);
   border: 1px solid var(--n3-border);
+}
+
+.card-level.N2 {
+  background: var(--n2-bg);
+  color: var(--n2);
+  border: 1px solid var(--n2-border);
 }
 
 .card-kanji {
@@ -664,6 +681,12 @@ main {
   background: var(--n3-bg);
   color: var(--n3);
   border: 1px solid var(--n3-border);
+}
+
+.detail-jlpt-badge.N2 {
+  background: var(--n2-bg);
+  color: var(--n2);
+  border: 1px solid var(--n2-border);
 }
 
 .detail-meanings {
