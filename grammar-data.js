@@ -188,7 +188,7 @@ window.GRAMMAR_DATA = [
     level: "N5",
     category: "Partikel",
     meaning: "Betonungspartikel (Ich sage dir!)",
-    explanation: "よ wird am Satzende verwendet, um neue Informationen mitzuteilen oder eine Aussage zu betonen. Es signalisiert dem Gesprächspartner, dass man etwas Neues oder Wichtiges sagt.",
+    explanation: "よ wird am Satzende verwendet, um neue Informationen mitzuteilen oder eine Aussage zu betonen. Es signalisiert dem Gesprächspartner, dass man etwas Neüs oder Wichtiges sagt.",
     formation: "Satz + よ",
     examples: [
       { japanese: "これはおいしいですよ。", romaji: "Kore wa oishii desu yo.", german: "Das ist lecker, sage ich dir!" },
@@ -312,13 +312,13 @@ window.GRAMMAR_DATA = [
     level: "N5",
     category: "Verben",
     meaning: "Verlaufsform / Zustand",
-    explanation: "～ている drückt eine andauernde Handlung (Verlaufsform) oder einen resultierenden Zustand aus. Die höfliche Form ist ～ています. Bei manchen Verben beschreibt es einen Zustand statt einer Aktivität.",
+    explanation: "～ている drückt eine andaürnde Handlung (Verlaufsform) oder einen resultierenden Zustand aus. Die höfliche Form ist ～ています. Bei manchen Verben beschreibt es einen Zustand statt einer Aktivität.",
     formation: "Verb て-Form + いる / います",
     examples: [
       { japanese: "今、本を読んでいます。", romaji: "Ima, hon o yonde imasu.", german: "Ich lese gerade ein Buch." },
       { japanese: "東京に住んでいます。", romaji: "Tōkyō ni sunde imasu.", german: "Ich wohne in Tokio." }
     ],
-    notes: "Bei Zustandsverben wie 知る, 結婚する, 持つ beschreibt ている den resultierenden Zustand: 知っています (Ich weiß es), nicht eine andauernde Handlung.",
+    notes: "Bei Zustandsverben wie 知る, 結婚する, 持つ beschreibt ている den resultierenden Zustand: 知っています (Ich weiß es), nicht eine andaürnde Handlung.",
     related: ["te-form"]
   },
   {
@@ -525,7 +525,7 @@ window.GRAMMAR_DATA = [
     explanation: "～たり～たりする listet beispielhafte Handlungen auf. Es bedeutet 'Dinge wie ... und ... tun' und impliziert, dass auch andere Handlungen stattfinden. Die letzte Form ist immer する.",
     formation: "Verb た-Form + り + Verb た-Form + り + する",
     examples: [
-      { japanese: "週末は本を読んだりテレビを見たりします。", romaji: "Shūmatsu wa hon o yondari terebi o mitari shimasu.", german: "Am Wochenende lese ich Bücher, schaue Fernsehen und so weiter." },
+      { japanese: "週末は本を読んだりテレビを見たりします。", romaji: "Shūmatsu wa hon o yondari terebi o mitari shimasu.", german: "Am Wochenende lese ich Bücher, schaü Fernsehen und so weiter." },
       { japanese: "休みの日は買い物したり料理したりしました。", romaji: "Yasumi no hi wa kaimono shitari ryōri shitari shimashita.", german: "An freien Tagen habe ich eingekauft, gekocht und ähnliches." }
     ],
     notes: "Am Ende der Aufzählung muss immer する stehen (in der passenden Zeitform). Auch mit Adjektiven möglich: 大きかったり小さかったり.",
@@ -642,7 +642,7 @@ window.GRAMMAR_DATA = [
     level: "N5",
     category: "Verben",
     meaning: "Versehentlich tun / Vollständig tun",
-    explanation: "～てしまう hat zwei Bedeutungen: etwas unbeabsichtigt oder bedauerlich tun, oder eine Handlung vollständig abschließen. Die höfliche Form ist ～てしまいます. In der Umgangssprache wird es zu ～ちゃう verkürzt.",
+    explanation: "～てしまう hat zwei Bedeutungen: etwas unbeabsichtigt oder bedaürlich tun, oder eine Handlung vollständig abschließen. Die höfliche Form ist ～てしまいます. In der Umgangssprache wird es zu ～ちゃう verkürzt.",
     formation: "Verb て-Form + しまう",
     examples: [
       { japanese: "財布を忘れてしまいました。", romaji: "Saifu o wasurete shimaimashita.", german: "Ich habe leider mein Portemonnaie vergessen." },
@@ -1085,7 +1085,7 @@ window.GRAMMAR_DATA = [
     level: "N5",
     category: "Satzstrukturen",
     meaning: "Nur / Nichts als (betont Begrenzung)",
-    explanation: "～しか～ない bedeutet 'nur' und betont, dass etwas wenig oder begrenzt ist. Es wird immer mit der negativen Verbform verwendet und drückt oft Enttäuschung oder Bedauern aus.",
+    explanation: "～しか～ない bedeutet 'nur' und betont, dass etwas wenig oder begrenzt ist. Es wird immer mit der negativen Verbform verwendet und drückt oft Enttäuschung oder Bedaürn aus.",
     formation: "Nomen + しか + Verb (negativ)",
     examples: [
       { japanese: "百円しかありません。", romaji: "Hyaku-en shika arimasen.", german: "Ich habe nur hundert Yen." },
@@ -1481,7 +1481,7 @@ window.GRAMMAR_DATA = [
     level: "N4",
     category: "Verben",
     meaning: "Passivform",
-    explanation: "Die Passivform drückt aus, dass das Subjekt eine Handlung erleidet. Im Japanischen gibt es auch das 'Leidenspassiv' (迷惑の受身).",
+    explanation: "Die Passivform drückt aus, dass das Subjekt eine Handlung erleidet. Im Japanischen gibt es auch das 'Leidenspaßiv' (迷惑の受身).",
     formation: "Ichidan: ～られる / Godan: ～あれる (u→areru)",
     examples: [
       { japanese: "先生に褒められた。", romaji: "Sensei ni homerareta.", german: "Ich wurde vom Lehrer gelobt." },
@@ -1546,7 +1546,7 @@ window.GRAMMAR_DATA = [
     explanation: "Die Volitionalform drückt Absicht, Vorschlag oder Aufforderung aus. Entspricht 'Lass uns...' oder 'Ich will...'.",
     formation: "Ichidan: ～よう / Godan: u→ō",
     examples: [
-      { japanese: "映画を見よう。", romaji: "Eiga o miyō.", german: "Lass uns einen Film schauen." },
+      { japanese: "映画を見よう。", romaji: "Eiga o miyō.", german: "Lass uns einen Film schaün." },
       { japanese: "明日早く起きようと思う。", romaji: "Ashita hayaku okiyō to omou.", german: "Ich denke, ich werde morgen früh aufstehen." }
     ],
     notes: "Godan: 書く→書こう, 読む→読もう. する→しよう, 来る→来よう. ～ようと思う = ich beabsichtige.",
@@ -1558,7 +1558,7 @@ window.GRAMMAR_DATA = [
     level: "N4",
     category: "Verben",
     meaning: "Unbeabsichtigt tun / vollständig tun",
-    explanation: "てしまう drückt entweder Bedauern über eine unbeabsichtigte Handlung oder die Vollendung einer Handlung aus.",
+    explanation: "てしまう drückt entweder Bedaürn über eine unbeabsichtigte Handlung oder die Vollendung einer Handlung aus.",
     formation: "Verb (て-Form) + しまう",
     examples: [
       { japanese: "財布を忘れてしまった。", romaji: "Saifu o wasurete shimatta.", german: "Ich habe leider mein Portemonnaie vergessen." },
@@ -1816,7 +1816,7 @@ window.GRAMMAR_DATA = [
     explanation: "たり listet beispielhaft Handlungen auf und impliziert, dass es noch weitere gibt.",
     formation: "Verb (た-Form) + り + Verb (た-Form) + り + する",
     examples: [
-      { japanese: "週末は映画を見たり、買い物をしたりします。", romaji: "Shūmatsu wa eiga o mitari, kaimono o shitari shimasu.", german: "Am Wochenende schaue ich Filme, gehe einkaufen und so weiter." },
+      { japanese: "週末は映画を見たり、買い物をしたりします。", romaji: "Shūmatsu wa eiga o mitari, kaimono o shitari shimasu.", german: "Am Wochenende schaü ich Filme, gehe einkaufen und so weiter." },
       { japanese: "天気が良かったり悪かったりする。", romaji: "Tenki ga yokattari warukattari suru.", german: "Das Wetter ist mal gut, mal schlecht." }
     ],
     notes: "Auch mit Adjektiven möglich. Das finale する nicht vergessen.",
@@ -1952,7 +1952,7 @@ window.GRAMMAR_DATA = [
     formation: "Verb (ます-Stamm) + ながら",
     examples: [
       { japanese: "音楽を聞きながら勉強する。", romaji: "Ongaku o kikinagara benkyō suru.", german: "Ich lerne, während ich Musik höre." },
-      { japanese: "歩きながらスマホを見ないでください。", romaji: "Arukinagara sumaho o minaide kudasai.", german: "Bitte schauen Sie nicht beim Gehen aufs Handy." }
+      { japanese: "歩きながらスマホを見ないでください。", romaji: "Arukinagara sumaho o minaide kudasai.", german: "Bitte schaün Sie nicht beim Gehen aufs Handy." }
     ],
     notes: "Beide Handlungen müssen vom selben Subjekt sein. Für verschiedene Subjekte: ～間に.",
     related: ["n4-aida-ni"]
@@ -1963,7 +1963,7 @@ window.GRAMMAR_DATA = [
     level: "N4",
     category: "Verben",
     meaning: "Ist gemacht worden (Zustandsresultat)",
-    explanation: "てある drückt aus, dass eine absichtliche Handlung ausgeführt wurde und deren Ergebnis noch andauert.",
+    explanation: "てある drückt aus, dass eine absichtliche Handlung ausgeführt wurde und deren Ergebnis noch andaürt.",
     formation: "Verb (て-Form) + ある",
     examples: [
       { japanese: "窓が開けてある。", romaji: "Mado ga akete aru.", german: "Das Fenster ist geöffnet worden (und steht noch offen)." },
@@ -2454,7 +2454,7 @@ window.GRAMMAR_DATA = [
     formation: "Nomen/Verb + だけ",
     examples: [
       { japanese: "水だけ飲みました。", romaji: "Mizu dake nomimashita.", german: "Ich habe nur Wasser getrunken." },
-      { japanese: "見るだけでいいです。", romaji: "Miru dake de ii desu.", german: "Nur schauen reicht." }
+      { japanese: "見るだけでいいです。", romaji: "Miru dake de ii desu.", german: "Nur schaün reicht." }
     ],
     notes: "できるだけ = so viel wie möglich.",
     related: ["n4-shika-nai", "n4-bakari-p"]
@@ -2465,13 +2465,13 @@ window.GRAMMAR_DATA = [
     level: "N4",
     category: "Satzstrukturen",
     meaning: "Nur (mit Verneinung)",
-    explanation: "しか + Verneinung: betont Einschränkung, bedauernd.",
+    explanation: "しか + Verneinung: betont Einschränkung, bedaürnd.",
     formation: "Nomen + しか + Verb (ない形)",
     examples: [
       { japanese: "百円しかない。", romaji: "Hyaku-en shika nai.", german: "Ich habe nur 100 Yen." },
       { japanese: "日本語しか話せません。", romaji: "Nihongo shika hanasemasen.", german: "Ich kann nur Japanisch." }
     ],
-    notes: "しか = bedauernd, だけ = neutral.",
+    notes: "しか = bedaürnd, だけ = neutral.",
     related: ["n4-dake"]
   },
   {
@@ -2675,7 +2675,7 @@ window.GRAMMAR_DATA = [
     level: "N4",
     category: "Satzstrukturen",
     meaning: "Während (Zeitraum)",
-    explanation: "間に: innerhalb eines Zeitraums. 間: die gesamte Dauer.",
+    explanation: "間に: innerhalb eines Zeitraums. 間: die gesamte Daür.",
     formation: "Verb (ている) + 間(に) / Nomen + の間(に)",
     examples: [
       { japanese: "母が寝ている間に掃除した。", romaji: "Haha ga neteiru aida ni sōji shita.", german: "Ich putzte, während Mutter schlief." },
@@ -2783,7 +2783,7 @@ window.GRAMMAR_DATA = [
     explanation: "とか: informelles Auflisten von Beispielen.",
     formation: "Nomen + とか + Nomen + とか",
     examples: [
-      { japanese: "週末は映画とか買い物とかする。", romaji: "Shūmatsu wa eiga toka kaimono toka suru.", german: "Am Wochenende Filme schauen, einkaufen usw." },
+      { japanese: "週末は映画とか買い物とかする。", romaji: "Shūmatsu wa eiga toka kaimono toka suru.", german: "Am Wochenende Filme schaün, einkaufen usw." },
       { japanese: "りんごとかバナナとか買ってきて。", romaji: "Ringo toka banana toka katte kite.", german: "Kauf Äpfel, Bananen und so." }
     ],
     notes: "Informeller als ～など.",
@@ -2810,7 +2810,7 @@ window.GRAMMAR_DATA = [
     level: "N4",
     category: "Satzstrukturen",
     meaning: "Hätte sollen",
-    explanation: "ばよかった: Bedauern über etwas nicht Getanes.",
+    explanation: "ばよかった: Bedaürn über etwas nicht Getanes.",
     formation: "Verb (ば-Form) + よかった",
     examples: [
       { japanese: "もっと勉強すればよかった。", romaji: "Motto benkyō sureba yokatta.", german: "Ich hätte mehr lernen sollen." },
@@ -2968,7 +2968,7 @@ window.GRAMMAR_DATA = [
     formation: "Verb/Adj + ことは + Verb/Adj + が",
     examples: [
       { japanese: "食べることは食べたが、おいしくなかった。", romaji: "Taberu koto wa tabeta ga, oishiku nakatta.", german: "Gegessen habe ich schon, aber lecker war es nicht." },
-      { japanese: "高いことは高いが、品質はいい。", romaji: "Takai koto wa takai ga, hinshitsu wa ii.", german: "Teuer ist es zwar, aber die Qualität ist gut." }
+      { japanese: "高いことは高いが、品質はいい。", romaji: "Takai koto wa takai ga, hinshitsu wa ii.", german: "Teür ist es zwar, aber die Qualität ist gut." }
     ],
     notes: "Das gleiche Verb/Adj wird wiederholt.",
     related: ["n4-noni"]
@@ -3591,7 +3591,7 @@ window.GRAMMAR_DATA = [
     formation: "Verb (て) + ならない / い-Adj (くて) + ならない",
     examples: [
       { japanese: "彼のことが心配でならない。", romaji: "Kare no koto ga shinpai de naranai.", german: "Ich mache mir solche Sorgen um ihn." },
-      { japanese: "残念でならない。", romaji: "Zannen de naranai.", german: "Es ist zutiefst bedauerlich." }
+      { japanese: "残念でならない。", romaji: "Zannen de naranai.", german: "Es ist zutiefst bedaürlich." }
     ],
     notes: "Formeller als ～てたまらない. Eher für emotionale Gefühle.",
     related: ["n3-te-tamaranai"]
@@ -3647,13 +3647,13 @@ window.GRAMMAR_DATA = [
     level: "N3",
     category: "Verben",
     meaning: "Seit (einem Ereignis)",
-    explanation: "て以来: seit einem bestimmten Ereignis, der Zustand dauert an.",
+    explanation: "て以来: seit einem bestimmten Ereignis, der Zustand daürt an.",
     formation: "Verb (て-Form) + 以来",
     examples: [
       { japanese: "日本に来て以来、毎日日本語を使っている。", romaji: "Nihon ni kite irai, mainichi nihongo o tsukatte iru.", german: "Seit ich nach Japan kam, benutze ich täglich Japanisch." },
       { japanese: "卒業して以来、彼に会っていない。", romaji: "Sotsugyō shite irai, kare ni atte inai.", german: "Seit dem Abschluss habe ich ihn nicht mehr gesehen." }
     ],
-    notes: "Formeller als ～てから. Der Zustand nach dem Ereignis dauert an.",
+    notes: "Formeller als ～てから. Der Zustand nach dem Ereignis daürt an.",
     related: ["n4-ato-de"]
   },
   {
@@ -4089,7 +4089,7 @@ window.GRAMMAR_DATA = [
     level: "N3",
     category: "Satzstrukturen",
     meaning: "Solange, bevor es sich ändert",
-    explanation: "うちに: etwas tun, solange ein Zustand noch andauert.",
+    explanation: "うちに: etwas tun, solange ein Zustand noch andaürt.",
     formation: "Verb (辞書形/ない形/ている) + うちに / Adj + うちに",
     examples: [
       { japanese: "若いうちにいろいろ経験したい。", romaji: "Wakai uchi ni iroiro keiken shitai.", german: "Solange ich jung bin, möchte ich viel erleben." },
@@ -4122,7 +4122,7 @@ window.GRAMMAR_DATA = [
     explanation: "とおりに: genauso wie etwas gesagt/getan/erwartet wurde.",
     formation: "Verb (た形/辞書形) + とおり(に) / Nomen + のとおり(に)",
     examples: [
-      { japanese: "説明書のとおりに組み立ててください。", romaji: "Setsumeisho no tōri ni kumitatete kudasai.", german: "Bauen Sie es gemäß der Anleitung zusammen." },
+      { japanese: "説明書のとおりに組み立ててください。", romaji: "Setsumeisho no tōri ni kumitatete kudasai.", german: "Baün Sie es gemäß der Anleitung zusammen." },
       { japanese: "思ったとおりだった。", romaji: "Omotta tōri datta.", german: "Es war genau wie ich dachte." }
     ],
     notes: "言ったとおり (wie gesagt), 予想どおり (wie erwartet).",
@@ -4185,7 +4185,7 @@ window.GRAMMAR_DATA = [
       { japanese: "遅刻したばかりに大事な話を聞き逃した。", romaji: "Chikoku shita bakari ni daiji na hanashi o kikinogashita.", german: "Nur weil ich zu spät kam, verpasste ich das wichtige Gespräch." },
       { japanese: "お金がないばかりに夢を諦めた。", romaji: "Okane ga nai bakari ni yume o akirameta.", german: "Nur weil ich kein Geld hatte, gab ich meinen Traum auf." }
     ],
-    notes: "Immer negatives Ergebnis. Bedauern.",
+    notes: "Immer negatives Ergebnis. Bedaürn.",
     related: ["n4-sei-de"]
   },
   {
@@ -4239,7 +4239,7 @@ window.GRAMMAR_DATA = [
     level: "N3",
     category: "Satzstrukturen",
     meaning: "Solange, soweit",
-    explanation: "限り: solange ein Zustand andauert / soweit man weiß.",
+    explanation: "限り: solange ein Zustand andaürt / soweit man weiß.",
     formation: "Verb (辞書形/ない形/ている) + 限り",
     examples: [
       { japanese: "私が知っている限りでは問題ない。", romaji: "Watashi ga shitteiru kagiri de wa mondai nai.", german: "Soweit ich weiß, gibt es kein Problem." },
@@ -4303,7 +4303,7 @@ window.GRAMMAR_DATA = [
     formation: "Verb (ない形) + ことはない",
     examples: [
       { japanese: "食べられないことはないが、好きではない。", romaji: "Taberarenai koto wa nai ga, suki dewa nai.", german: "Essen kann ich es schon, aber ich mag es nicht." },
-      { japanese: "分からないことはないが、説明しにくい。", romaji: "Wakaranai koto wa nai ga, setsumei shinikui.", german: "Verstehen tue ich es, aber es ist schwer zu erklären." }
+      { japanese: "分からないことはないが、説明しにくい。", romaji: "Wakaranai koto wa nai ga, setsumei shinikui.", german: "Verstehen tü ich es, aber es ist schwer zu erklären." }
     ],
     notes: "Schwache Bejahung mit Vorbehalt.",
     related: ["n3-wake-dewa-nai"]
@@ -4453,7 +4453,7 @@ window.GRAMMAR_DATA = [
     formation: "お + Verb (ます-Stamm) + する / 特別な形 (参る, 申す etc.)",
     examples: [
       { japanese: "私がご案内いたします。", romaji: "Watashi ga go-annai itashimasu.", german: "Ich werde Sie führen (bescheiden)." },
-      { japanese: "明日お伺いしてもよろしいですか。", romaji: "Ashita oukagai shitemo yoroshii desu ka.", german: "Darf ich morgen bei Ihnen vorbeischauen (bescheiden)?" }
+      { japanese: "明日お伺いしてもよろしいですか。", romaji: "Ashita oukagai shitemo yoroshii desu ka.", german: "Darf ich morgen bei Ihnen vorbeischaün (bescheiden)?" }
     ],
     notes: "Spezialformen: 行く/来る→参る, 言う→申す, する→いたす, 見る→拝見する.",
     related: ["n3-keigo-sonkei"]
@@ -4528,7 +4528,7 @@ window.GRAMMAR_DATA = [
     formation: "Verb (辞書形/ない形) + ことにしている",
     examples: [
       { japanese: "毎朝ジョギングすることにしている。", romaji: "Maiasa jogingu suru koto ni shiteiru.", german: "Ich habe es mir zur Regel gemacht, jeden Morgen zu joggen." },
-      { japanese: "夜九時以降はスマホを見ないことにしている。", romaji: "Yoru kuji ikō wa sumaho o minai koto ni shiteiru.", german: "Ich habe mir vorgenommen, nach 21 Uhr nicht mehr aufs Handy zu schauen." }
+      { japanese: "夜九時以降はスマホを見ないことにしている。", romaji: "Yoru kuji ikō wa sumaho o minai koto ni shiteiru.", german: "Ich habe mir vorgenommen, nach 21 Uhr nicht mehr aufs Handy zu schaün." }
     ],
     notes: "Betont bewusste persönliche Entscheidung als Gewohnheit.",
     related: ["n4-koto-ni-suru", "n4-you-ni-shiteiru"]
@@ -4767,7 +4767,7 @@ window.GRAMMAR_DATA = [
     level: "N3",
     category: "Satzstrukturen",
     meaning: "Ich wünschte, wenn doch nur",
-    explanation: "ばいいのに: drückt einen unerfüllten Wunsch oder Bedauern aus.",
+    explanation: "ばいいのに: drückt einen unerfüllten Wunsch oder Bedaürn aus.",
     formation: "Verb (ば-Form) + いいのに",
     examples: [
       { japanese: "もっと早く言えばいいのに。", romaji: "Motto hayaku ieba ii noni.", german: "Wenn er es doch nur früher gesagt hätte." },
