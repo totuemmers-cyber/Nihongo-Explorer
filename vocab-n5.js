@@ -804,5 +804,9 @@ window.VOCAB_N5 = [
 {word:"小説",reading:"しょうせつ",romaji:"shousetsu",meaning:"Roman",type:"Nomen",level:"N5",category:"Freizeit",examples:[{japanese:"小説を読んでいます。",romaji:"Shousetsu o yonde imasu.",german:"Ich lese einen Roman."}]},
 {word:"葉書",reading:"はがき",romaji:"hagaki",meaning:"Postkarte",type:"Nomen",level:"N5",category:"Alltag",examples:[{japanese:"葉書を送ります。",romaji:"Hagaki o okurimasu.",german:"Ich schicke eine Postkarte."}]},
 {word:"小包",reading:"こづつみ",romaji:"kozutsumi",meaning:"Paeckchen",type:"Nomen",level:"N5",category:"Alltag",examples:[{japanese:"小包を送りたいです。",romaji:"Kozutsumi o okuritai desu.",german:"Ich moechte ein Paeckchen schicken."}]},
-{word:"印鑑",reading:"いんかん",romaji:"inkan",meaning:"Stempel (persoenlich)",type:"Nomen",level:"N5",category:"Alltag",examples:[{japanese:"印鑑を押してください。",romaji:"Inkan o oshite kudasai.",german:"Bitte druecken Sie Ihren Stempel."}]}
+{word:"印鑑",reading:"いんかん",romaji:"inkan",meaning:"Stempel (persoenlich)",type:"Nomen",level:"N5",category:"Alltag",examples:[{japanese:"印鑑を押してください。",romaji:"Inkan o oshite kudasai.",german:"Bitte druecken Sie Ihren Stempel."}]},
+{word:"両替",reading:"りょうがえ",romaji:"ryougae",meaning:"Geldwechsel",type:"Nomen",level:"N5",category:"Alltag",examples:[{japanese:"両替をお願いします。",romaji:"Ryougae o onegai shimasu.",german:"Bitte wechseln Sie Geld."}]},
+{word:"お守り",reading:"おまもり",romaji:"omamori",meaning:"Gluecksbringer",type:"Nomen",level:"N5",category:"Freizeit",examples:[{japanese:"お守りを買いました。",romaji:"Omamori o kaimashita.",german:"Ich habe einen Gluecksbringer gekauft."}]},
+{word:"絵葉書",reading:"えはがき",romaji:"ehagaki",meaning:"Ansichtskarte",type:"Nomen",level:"N5",category:"Reisen",examples:[{japanese:"絵葉書を送りました。",romaji:"Ehagaki o okurimashita.",german:"Ich habe eine Ansichtskarte geschickt."}]},
+{word:"自動販売機",reading:"じどうはんばいき",romaji:"jidou hanbaiki",meaning:"Automat (Getraenke)",type:"Nomen",level:"N5",category:"Alltag",examples:[{japanese:"自動販売機でジュースを買います。",romaji:"Jidou hanbaiki de juusu o kaimasu.",german:"Ich kaufe Saft am Automaten."}]}
 ];
