@@ -263,7 +263,8 @@ body {
   pointer-events: none;
 }
 
-#search-input {
+#search-input,
+#grammar-search-input {
   width: 100%;
   padding: 12px 40px 12px 42px;
   border: 2px solid var(--border);
@@ -276,12 +277,14 @@ body {
   transition: all var(--transition);
 }
 
-#search-input:focus {
+#search-input:focus,
+#grammar-search-input:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
 }
 
-#search-input::placeholder {
+#search-input::placeholder,
+#grammar-search-input::placeholder {
   color: var(--text-secondary);
 }
 
