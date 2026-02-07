@@ -1288,5 +1288,1565 @@ window.GRAMMAR_DATA = [
     ],
     notes: "の wandelt einen Satz in ein Nomen um. Ähnliche Konstruktionen: ～のが好き (gerne tun), ～のを忘れる (vergessen zu tun).",
     related: ["no", "no-ga-suki"]
+  },
+  // ============================================================
+  // N4 – PARTIKEL (12)
+  // ============================================================
+  {
+    id: "n4-bakari-p",
+    pattern: "～ばかり",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Nur, nichts als",
+    explanation: "ばかり drückt aus, dass jemand ausschließlich oder übermäßig etwas tut.",
+    formation: "Verb (て-Form) + ばかり / Nomen + ばかり",
+    examples: [
+      { japanese: "彼はゲームばかりしている。", romaji: "Kare wa gēmu bakari shiteiru.", german: "Er spielt nichts als Spiele." },
+      { japanese: "甘いものばかり食べないで。", romaji: "Amai mono bakari tabenaide.", german: "Iss nicht nur Süßes." }
+    ],
+    notes: "Mit た-Form bedeutet es 'gerade erst': 来たばかり = gerade erst angekommen.",
+    related: ["n4-dake", "n4-shika-nai"]
+  },
+  {
+    id: "n4-sae",
+    pattern: "～さえ",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Sogar, selbst",
+    explanation: "さえ betont einen extremen Fall und impliziert, dass alles andere selbstverständlich ist.",
+    formation: "Nomen + さえ / Verb (ます-Stamm) + さえする",
+    examples: [
+      { japanese: "子供でさえ知っている。", romaji: "Kodomo de sae shitteiru.", german: "Sogar Kinder wissen das." },
+      { japanese: "名前さえ覚えていない。", romaji: "Namae sae oboeteinai.", german: "Ich erinnere mich nicht einmal an den Namen." }
+    ],
+    notes: "さえ～ば bedeutet 'wenn nur/solange': お金さえあれば = Wenn ich nur Geld hätte.",
+    related: ["mo"]
+  },
+  {
+    id: "n4-koso",
+    pattern: "～こそ",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Gerade, genau (Betonung)",
+    explanation: "こそ ist eine emphatische Partikel, die das vorangehende Wort besonders hervorhebt.",
+    formation: "Nomen + こそ",
+    examples: [
+      { japanese: "こちらこそよろしくお願いします。", romaji: "Kochira koso yoroshiku onegai shimasu.", german: "Ganz meinerseits, freut mich." },
+      { japanese: "今年こそ合格したい。", romaji: "Kotoshi koso gōkaku shitai.", german: "Dieses Jahr will ich unbedingt bestehen." }
+    ],
+    notes: "Sehr häufig: こちらこそ (ganz meinerseits).",
+    related: ["wa"]
+  },
+  {
+    id: "n4-hodo-p",
+    pattern: "～ほど",
+    level: "N4",
+    category: "Partikel",
+    meaning: "So sehr dass; Ausmaß",
+    explanation: "ほど drückt den Grad oder das Ausmaß aus. Oft in Vergleichen und mit ～ば～ほど (je mehr desto).",
+    formation: "Verb (辞書形) + ほど / Nomen + ほど",
+    examples: [
+      { japanese: "泣きたいほど嬉しかった。", romaji: "Nakitai hodo ureshikatta.", german: "Ich war so glücklich, dass ich weinen wollte." },
+      { japanese: "勉強すればするほど面白い。", romaji: "Benkyō sureba suru hodo omoshiroi.", german: "Je mehr man lernt, desto interessanter wird es." }
+    ],
+    notes: "～ば～ほど = je mehr desto. Verneinung: ～ほど～ない = nicht so ... wie.",
+    related: ["n4-ba"]
+  },
+  {
+    id: "n4-zutsu",
+    pattern: "～ずつ",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Jeweils, nach und nach",
+    explanation: "ずつ drückt gleiche Verteilung oder allmähliche Veränderung aus.",
+    formation: "Zahl/Menge + ずつ",
+    examples: [
+      { japanese: "毎日少しずつ勉強しています。", romaji: "Mainichi sukoshi zutsu benkyō shiteimasu.", german: "Ich lerne jeden Tag ein bisschen." },
+      { japanese: "一人に二つずつ配ってください。", romaji: "Hitori ni futatsu zutsu kubatte kudasai.", german: "Verteilen Sie bitte jeweils zwei pro Person." }
+    ],
+    notes: "少しずつ (nach und nach) ist besonders häufig.",
+    related: []
+  },
+  {
+    id: "n4-nado",
+    pattern: "～など",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Und so weiter, wie zum Beispiel",
+    explanation: "など listet Beispiele auf und impliziert, dass es weitere gibt. Formeller als とか.",
+    formation: "Nomen + など",
+    examples: [
+      { japanese: "りんごやバナナなどの果物が好きです。", romaji: "Ringo ya banana nado no kudamono ga suki desu.", german: "Ich mag Früchte wie Äpfel und Bananen." },
+      { japanese: "私などまだまだです。", romaji: "Watashi nado mada mada desu.", german: "Jemand wie ich hat noch einen weiten Weg." }
+    ],
+    notes: "Informelle Variante: なんか. Oft mit や: AやBなど.",
+    related: ["ya", "n4-toka"]
+  },
+  {
+    id: "n4-toshite",
+    pattern: "～として",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Als, in der Rolle von",
+    explanation: "として gibt an, in welcher Funktion oder Eigenschaft jemand betrachtet wird.",
+    formation: "Nomen + として",
+    examples: [
+      { japanese: "留学生として日本に来ました。", romaji: "Ryūgakusei toshite Nihon ni kimashita.", german: "Ich bin als Austauschstudent nach Japan gekommen." },
+      { japanese: "この町は観光地として有名です。", romaji: "Kono machi wa kankōchi toshite yūmei desu.", german: "Diese Stadt ist als Touristenort berühmt." }
+    ],
+    notes: "Häufig bei Berufs- und Rollenbezeichnungen.",
+    related: []
+  },
+  {
+    id: "n4-ni-taishite",
+    pattern: "～に対して",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Gegenüber, im Gegensatz zu",
+    explanation: "に対して drückt aus, auf wen sich eine Handlung richtet, oder einen Kontrast zwischen zwei Dingen.",
+    formation: "Nomen + に対して",
+    examples: [
+      { japanese: "お客様に対して丁寧に話してください。", romaji: "Okyakusama ni taishite teinei ni hanashite kudasai.", german: "Sprechen Sie bitte höflich gegenüber den Kunden." },
+      { japanese: "兄はスポーツが好きなのに対して、弟は読書が好きだ。", romaji: "Ani wa supōtsu ga suki na no ni taishite, otōto wa dokusho ga suki da.", german: "Der ältere Bruder mag Sport, der jüngere hingegen Lesen." }
+    ],
+    notes: "Vor Nomen: ～に対する + Nomen (z.B. 学生に対する態度).",
+    related: ["ni"]
+  },
+  {
+    id: "n4-ni-totte",
+    pattern: "～にとって",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Für (aus der Sicht von)",
+    explanation: "にとって drückt aus, aus wessen Perspektive etwas beurteilt wird.",
+    formation: "Nomen + にとって",
+    examples: [
+      { japanese: "私にとって家族が一番大切です。", romaji: "Watashi ni totte kazoku ga ichiban taisetsu desu.", german: "Für mich ist die Familie am wichtigsten." },
+      { japanese: "外国人にとって漢字は難しい。", romaji: "Gaikokujin ni totte kanji wa muzukashii.", german: "Für Ausländer sind Kanji schwierig." }
+    ],
+    notes: "Nicht verwechseln mit ～のために (zum Zweck von). にとって = subjektive Perspektive.",
+    related: ["ni"]
+  },
+  {
+    id: "n4-ni-yotte",
+    pattern: "～によって",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Durch, mittels; je nach",
+    explanation: "によって hat mehrere Bedeutungen: Mittel (durch), Urheber im Passiv (von), Unterschied je nach Situation.",
+    formation: "Nomen + によって",
+    examples: [
+      { japanese: "この小説は夏目漱石によって書かれた。", romaji: "Kono shōsetsu wa Natsume Sōseki ni yotte kakareta.", german: "Dieser Roman wurde von Natsume Sōseki geschrieben." },
+      { japanese: "国によって文化が違います。", romaji: "Kuni ni yotte bunka ga chigaimasu.", german: "Je nach Land ist die Kultur unterschiedlich." }
+    ],
+    notes: "Vor Nomen: ～による + Nomen. ～によると = laut/gemäß.",
+    related: ["n4-rareru", "n4-ni-yoru-to"]
+  },
+  {
+    id: "n4-no-you-ni",
+    pattern: "～のように / ～みたいに",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Wie, so wie, ähnlich wie",
+    explanation: "のように (formell) und みたいに (informell) drücken einen Vergleich aus.",
+    formation: "Nomen + のように / Nomen + みたいに",
+    examples: [
+      { japanese: "鳥のように空を飛びたい。", romaji: "Tori no yō ni sora o tobitai.", german: "Ich möchte wie ein Vogel fliegen." },
+      { japanese: "子供みたいに遊んでいる。", romaji: "Kodomo mitai ni asondeiru.", german: "Er spielt wie ein Kind." }
+    ],
+    notes: "Vor Nomen: のような/みたいな: 夢のような話 = eine traumhafte Geschichte.",
+    related: ["n4-you-da", "n4-mitai-da"]
+  },
+  {
+    id: "n4-dake-de-naku",
+    pattern: "～だけでなく",
+    level: "N4",
+    category: "Partikel",
+    meaning: "Nicht nur ... sondern auch",
+    explanation: "だけでなく drückt aus, dass nicht nur eine Sache zutrifft, sondern auch eine weitere.",
+    formation: "Nomen/Verb/Adj + だけでなく ～も",
+    examples: [
+      { japanese: "日本語だけでなく中国語も話せます。", romaji: "Nihongo dake de naku chūgokugo mo hanasemasu.", german: "Ich kann nicht nur Japanisch, sondern auch Chinesisch." },
+      { japanese: "安いだけでなく、おいしいです。", romaji: "Yasui dake de naku, oishii desu.", german: "Es ist nicht nur günstig, sondern auch lecker." }
+    ],
+    notes: "Informell: ～だけじゃなくて. Formell: ～のみならず.",
+    related: ["n4-dake", "mo"]
+  },
+  // ============================================================
+  // N4 – VERBEN (36)
+  // ============================================================
+  {
+    id: "n4-rareru",
+    pattern: "～られる / ～れる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Passivform",
+    explanation: "Die Passivform drückt aus, dass das Subjekt eine Handlung erleidet. Im Japanischen gibt es auch das 'Leidenspassiv' (迷惑の受身).",
+    formation: "Ichidan: ～られる / Godan: ～あれる (u→areru)",
+    examples: [
+      { japanese: "先生に褒められた。", romaji: "Sensei ni homerareta.", german: "Ich wurde vom Lehrer gelobt." },
+      { japanese: "電車で足を踏まれた。", romaji: "Densha de ashi o fumareta.", german: "Mir wurde im Zug auf den Fuß getreten." },
+      { japanese: "雨に降られた。", romaji: "Ame ni furareta.", german: "Ich wurde vom Regen überrascht." }
+    ],
+    notes: "Godan: 書く→書かれる, 読む→読まれる. Ichidan: 食べる→食べられる. する→される, 来る→来られる.",
+    related: ["n4-saseru", "n4-ni-yotte"]
+  },
+  {
+    id: "n4-saseru",
+    pattern: "～させる / ～せる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Kausativform (lassen/veranlassen)",
+    explanation: "Die Kausativform drückt aus, dass jemand eine andere Person etwas tun lässt oder dazu veranlasst.",
+    formation: "Ichidan: ～させる / Godan: ～あせる (u→aseru)",
+    examples: [
+      { japanese: "母は子供に野菜を食べさせた。", romaji: "Haha wa kodomo ni yasai o tabesaseta.", german: "Die Mutter ließ das Kind Gemüse essen." },
+      { japanese: "先生は学生を立たせた。", romaji: "Sensei wa gakusei o tataseta.", german: "Der Lehrer ließ die Schüler aufstehen." }
+    ],
+    notes: "Godan: 書く→書かせる, 読む→読ませる. Ichidan: 食べる→食べさせる. する→させる, 来る→来させる.",
+    related: ["n4-rareru", "n4-saserareru", "n4-sasetekudasai"]
+  },
+  {
+    id: "n4-saserareru",
+    pattern: "～させられる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Kausativ-Passiv (gezwungen werden zu)",
+    explanation: "Kombination aus Kausativ und Passiv. Drückt aus, dass man gezwungen wird, etwas zu tun.",
+    formation: "Ichidan: ～させられる / Godan: ～あせられる",
+    examples: [
+      { japanese: "嫌いな野菜を食べさせられた。", romaji: "Kirai na yasai o tabesaserareta.", german: "Ich wurde gezwungen, Gemüse zu essen, das ich nicht mag." },
+      { japanese: "毎日残業させられている。", romaji: "Mainichi zangyō saserareteiru.", german: "Ich werde jeden Tag zu Überstunden gezwungen." }
+    ],
+    notes: "Godan-Kurzform: ～される (z.B. 行かされる statt 行かせられる).",
+    related: ["n4-rareru", "n4-saseru"]
+  },
+  {
+    id: "n4-potential",
+    pattern: "～える / ～られる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Potentialform (können)",
+    explanation: "Die Potentialform drückt Fähigkeit oder Möglichkeit aus. Das Objekt wird oft mit が statt を markiert.",
+    formation: "Ichidan: ～られる / Godan: u→eru",
+    examples: [
+      { japanese: "日本語が話せます。", romaji: "Nihongo ga hanasemasu.", german: "Ich kann Japanisch sprechen." },
+      { japanese: "この漢字が読めますか。", romaji: "Kono kanji ga yomemasu ka.", german: "Können Sie dieses Kanji lesen?" },
+      { japanese: "明日来られますか。", romaji: "Ashita koraremasu ka.", german: "Können Sie morgen kommen?" }
+    ],
+    notes: "Godan: 書く→書ける, 読む→読める. Ichidan: 食べる→食べられる. する→できる, 来る→来られる. Umgangssprache: 食べれる (ra-Wegfall).",
+    related: ["n4-koto-ga-dekiru"]
+  },
+  {
+    id: "n4-volitional",
+    pattern: "～よう / ～おう",
+    level: "N4",
+    category: "Verben",
+    meaning: "Volitionalform (lass uns / ich will)",
+    explanation: "Die Volitionalform drückt Absicht, Vorschlag oder Aufforderung aus. Entspricht 'Lass uns...' oder 'Ich will...'.",
+    formation: "Ichidan: ～よう / Godan: u→ō",
+    examples: [
+      { japanese: "映画を見よう。", romaji: "Eiga o miyō.", german: "Lass uns einen Film schauen." },
+      { japanese: "明日早く起きようと思う。", romaji: "Ashita hayaku okiyō to omou.", german: "Ich denke, ich werde morgen früh aufstehen." }
+    ],
+    notes: "Godan: 書く→書こう, 読む→読もう. する→しよう, 来る→来よう. ～ようと思う = ich beabsichtige.",
+    related: ["n4-you-ni-suru", "mashou"]
+  },
+  {
+    id: "n4-teshimau",
+    pattern: "～てしまう",
+    level: "N4",
+    category: "Verben",
+    meaning: "Unbeabsichtigt tun / vollständig tun",
+    explanation: "てしまう drückt entweder Bedauern über eine unbeabsichtigte Handlung oder die Vollendung einer Handlung aus.",
+    formation: "Verb (て-Form) + しまう",
+    examples: [
+      { japanese: "財布を忘れてしまった。", romaji: "Saifu o wasurete shimatta.", german: "Ich habe leider mein Portemonnaie vergessen." },
+      { japanese: "本を全部読んでしまった。", romaji: "Hon o zenbu yonde shimatta.", german: "Ich habe das Buch komplett durchgelesen." }
+    ],
+    notes: "Umgangssprache: ～ちゃう/～じゃう (食べちゃった, 飲んじゃった).",
+    related: ["te-form"]
+  },
+  {
+    id: "n4-teoku",
+    pattern: "～ておく",
+    level: "N4",
+    category: "Verben",
+    meaning: "Im Voraus tun, vorbereiten",
+    explanation: "ておく drückt aus, dass eine Handlung als Vorbereitung oder im Voraus ausgeführt wird.",
+    formation: "Verb (て-Form) + おく",
+    examples: [
+      { japanese: "パーティーの前に料理を作っておく。", romaji: "Pātī no mae ni ryōri o tsukutte oku.", german: "Ich koche vor der Party vor." },
+      { japanese: "明日のために準備しておいてください。", romaji: "Ashita no tame ni junbi shite oite kudasai.", german: "Bitte bereiten Sie für morgen vor." }
+    ],
+    notes: "Umgangssprache: ～とく (買っとく = kaufen und bereithalten).",
+    related: ["te-form"]
+  },
+  {
+    id: "n4-temiru",
+    pattern: "～てみる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Etwas versuchen / ausprobieren",
+    explanation: "てみる drückt aus, dass man etwas ausprobiert oder versucht, um zu sehen, wie es ist.",
+    formation: "Verb (て-Form) + みる",
+    examples: [
+      { japanese: "日本料理を食べてみたい。", romaji: "Nihon ryōri o tabete mitai.", german: "Ich möchte japanisches Essen probieren." },
+      { japanese: "一度やってみてください。", romaji: "Ichido yatte mite kudasai.", german: "Probieren Sie es bitte einmal aus." }
+    ],
+    notes: "Sehr natürlich im Alltag. てみたい = möchte es versuchen.",
+    related: ["te-form"]
+  },
+  {
+    id: "n4-teiku",
+    pattern: "～ていく",
+    level: "N4",
+    category: "Verben",
+    meaning: "Weggehen und; von jetzt an",
+    explanation: "ていく drückt eine Bewegung vom Sprecher weg oder eine Veränderung in die Zukunft aus.",
+    formation: "Verb (て-Form) + いく",
+    examples: [
+      { japanese: "これからも頑張っていきます。", romaji: "Kore kara mo ganbatte ikimasu.", german: "Ich werde mich auch weiterhin anstrengen." },
+      { japanese: "お弁当を持っていく。", romaji: "Obentō o motte iku.", german: "Ich nehme eine Bento-Box mit." }
+    ],
+    notes: "Gegenteil von ～てくる. Zukunftsbezug: だんだん暑くなっていく (es wird immer heißer).",
+    related: ["n4-tekuru", "te-form"]
+  },
+  {
+    id: "n4-tekuru",
+    pattern: "～てくる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Herkommen und; bis jetzt",
+    explanation: "てくる drückt eine Bewegung zum Sprecher hin oder eine Veränderung von der Vergangenheit bis jetzt aus.",
+    formation: "Verb (て-Form) + くる",
+    examples: [
+      { japanese: "雨が降ってきた。", romaji: "Ame ga futte kita.", german: "Es hat angefangen zu regnen." },
+      { japanese: "日本語を三年間勉強してきました。", romaji: "Nihongo o sannenkan benkyō shite kimashita.", german: "Ich habe drei Jahre lang Japanisch gelernt." }
+    ],
+    notes: "Gegenteil von ～ていく. Vergangenheitsbezug: だんだん寒くなってきた (es ist kälter geworden).",
+    related: ["n4-teiku", "te-form"]
+  },
+  {
+    id: "n4-teageru",
+    pattern: "～てあげる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Etwas für jemanden tun (geben)",
+    explanation: "てあげる drückt aus, dass man jemandem den Gefallen tut, etwas für ihn zu erledigen.",
+    formation: "Verb (て-Form) + あげる",
+    examples: [
+      { japanese: "友達に日本語を教えてあげた。", romaji: "Tomodachi ni nihongo o oshiete ageta.", german: "Ich habe meinem Freund Japanisch beigebracht." },
+      { japanese: "荷物を持ってあげましょうか。", romaji: "Nimotsu o motte agemashō ka.", german: "Soll ich Ihnen das Gepäck tragen?" }
+    ],
+    notes: "Kann herablassend klingen. Höflicher: ～て差し上げる. Nicht über sich selbst zu Höherstehenden verwenden.",
+    related: ["n4-temorau", "n4-tekureru"]
+  },
+  {
+    id: "n4-temorau",
+    pattern: "～てもらう",
+    level: "N4",
+    category: "Verben",
+    meaning: "Etwas von jemandem getan bekommen",
+    explanation: "てもらう drückt aus, dass man den Gefallen erhält, dass jemand etwas für einen tut.",
+    formation: "Person に + Verb (て-Form) + もらう",
+    examples: [
+      { japanese: "友達に手伝ってもらった。", romaji: "Tomodachi ni tetsudatte moratta.", german: "Mein Freund hat mir geholfen (ich habe Hilfe bekommen)." },
+      { japanese: "先生に説明してもらいました。", romaji: "Sensei ni setsumei shite moraimashita.", german: "Der Lehrer hat es mir erklärt." }
+    ],
+    notes: "Höflich: ～ていただく. Bitte: ～てもらえませんか (Könnten Sie bitte...?).",
+    related: ["n4-teageru", "n4-tekureru"]
+  },
+  {
+    id: "n4-tekureru",
+    pattern: "～てくれる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Etwas für mich tun (empfangen)",
+    explanation: "てくれる drückt aus, dass jemand etwas für den Sprecher oder dessen Gruppe tut. Impliziert Dankbarkeit.",
+    formation: "Person が + Verb (て-Form) + くれる",
+    examples: [
+      { japanese: "母が弁当を作ってくれた。", romaji: "Haha ga bentō o tsukutte kureta.", german: "Meine Mutter hat mir ein Bento gemacht." },
+      { japanese: "友達が駅まで送ってくれた。", romaji: "Tomodachi ga eki made okutte kureta.", german: "Mein Freund hat mich zum Bahnhof gebracht." }
+    ],
+    notes: "Höflich: ～てくださる. Bitte: ～てくれませんか (Könntest du bitte...?).",
+    related: ["n4-teageru", "n4-temorau"]
+  },
+  {
+    id: "n4-koto-ga-dekiru",
+    pattern: "～ことができる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Können, in der Lage sein",
+    explanation: "ことができる ist eine formelle Art, Fähigkeit auszudrücken. Wird oft in der Schriftsprache verwendet.",
+    formation: "Verb (辞書形) + ことができる",
+    examples: [
+      { japanese: "ここで泳ぐことができます。", romaji: "Koko de oyogu koto ga dekimasu.", german: "Man kann hier schwimmen." },
+      { japanese: "日本語を話すことができますか。", romaji: "Nihongo o hanasu koto ga dekimasu ka.", german: "Können Sie Japanisch sprechen?" }
+    ],
+    notes: "Die Potentialform (話せる) ist im Alltag natürlicher. ことができる ist formeller.",
+    related: ["n4-potential"]
+  },
+  {
+    id: "n4-koto-ni-suru",
+    pattern: "～ことにする",
+    level: "N4",
+    category: "Verben",
+    meaning: "Sich entscheiden zu",
+    explanation: "ことにする drückt eine aktive, persönliche Entscheidung aus.",
+    formation: "Verb (辞書形/ない形) + ことにする",
+    examples: [
+      { japanese: "来年日本に行くことにした。", romaji: "Rainen Nihon ni iku koto ni shita.", german: "Ich habe mich entschieden, nächstes Jahr nach Japan zu gehen." },
+      { japanese: "甘いものを食べないことにした。", romaji: "Amai mono o tabenai koto ni shita.", german: "Ich habe mich entschieden, keine Süßigkeiten mehr zu essen." }
+    ],
+    notes: "～ことにしている = regelmäßige Gewohnheit aus eigener Entscheidung.",
+    related: ["n4-koto-ni-naru"]
+  },
+  {
+    id: "n4-koto-ni-naru",
+    pattern: "～ことになる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Es wird entschieden / Es kommt dazu",
+    explanation: "ことになる drückt aus, dass eine Entscheidung von außen getroffen wurde oder sich etwas so ergeben hat.",
+    formation: "Verb (辞書形/ない形) + ことになる",
+    examples: [
+      { japanese: "来月から大阪に転勤することになりました。", romaji: "Raigetsu kara Ōsaka ni tenkin suru koto ni narimashita.", german: "Es wurde entschieden, dass ich ab nächstem Monat nach Osaka versetzt werde." },
+      { japanese: "会議は中止になることになった。", romaji: "Kaigi wa chūshi ni naru koto ni natta.", german: "Es wurde beschlossen, die Konferenz abzusagen." }
+    ],
+    notes: "～ことになっている = bestehende Regel/Vereinbarung.",
+    related: ["n4-koto-ni-suru"]
+  },
+  {
+    id: "n4-you-ni-suru",
+    pattern: "～ようにする",
+    level: "N4",
+    category: "Verben",
+    meaning: "Sich bemühen zu, darauf achten",
+    explanation: "ようにする drückt aus, dass man sich bewusst bemüht, etwas zu tun oder zu vermeiden.",
+    formation: "Verb (辞書形/ない形) + ようにする",
+    examples: [
+      { japanese: "毎日運動するようにしています。", romaji: "Mainichi undō suru yō ni shiteimasu.", german: "Ich achte darauf, jeden Tag Sport zu machen." },
+      { japanese: "遅刻しないようにしてください。", romaji: "Chikoku shinai yō ni shite kudasai.", german: "Achten Sie bitte darauf, nicht zu spät zu kommen." }
+    ],
+    notes: "～ようにしている = regelmäßige Gewohnheit, auf die man achtet.",
+    related: ["n4-you-ni-naru"]
+  },
+  {
+    id: "n4-you-ni-naru",
+    pattern: "～ようになる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Es kommt dazu dass, anfangen zu können",
+    explanation: "ようになる drückt eine allmähliche Veränderung oder Entwicklung aus – etwas, das vorher nicht möglich war, wird möglich.",
+    formation: "Verb (辞書形/ない形) + ようになる",
+    examples: [
+      { japanese: "日本語が話せるようになりました。", romaji: "Nihongo ga hanaseru yō ni narimashita.", german: "Ich bin so weit gekommen, dass ich Japanisch sprechen kann." },
+      { japanese: "野菜を食べるようになった。", romaji: "Yasai o taberu yō ni natta.", german: "Ich habe angefangen, Gemüse zu essen." }
+    ],
+    notes: "Verneinung: ～なくなる (aufhören zu): 食べなくなった = hat aufgehört zu essen.",
+    related: ["n4-you-ni-suru"]
+  },
+  {
+    id: "n4-tehoshii",
+    pattern: "～てほしい",
+    level: "N4",
+    category: "Verben",
+    meaning: "Wollen, dass jemand etwas tut",
+    explanation: "てほしい drückt den Wunsch aus, dass eine andere Person etwas tut.",
+    formation: "Person に + Verb (て-Form) + ほしい",
+    examples: [
+      { japanese: "早く来てほしい。", romaji: "Hayaku kite hoshii.", german: "Ich möchte, dass du bald kommst." },
+      { japanese: "もっと勉強してほしいです。", romaji: "Motto benkyō shite hoshii desu.", german: "Ich möchte, dass du mehr lernst." }
+    ],
+    notes: "Verneinung: ～ないでほしい (ich möchte, dass du es nicht tust).",
+    related: ["hoshii", "n4-temorau"]
+  },
+  {
+    id: "n4-sasetekudasai",
+    pattern: "～させてください",
+    level: "N4",
+    category: "Verben",
+    meaning: "Lassen Sie mich bitte",
+    explanation: "させてください ist die höfliche Bitte um Erlaubnis, etwas tun zu dürfen. Kombination aus Kausativ und ください.",
+    formation: "Verb (させ-Form) + てください",
+    examples: [
+      { japanese: "私にやらせてください。", romaji: "Watashi ni yarasete kudasai.", german: "Lassen Sie es mich bitte machen." },
+      { japanese: "少し考えさせてください。", romaji: "Sukoshi kangaesasete kudasai.", german: "Lassen Sie mich bitte kurz nachdenken." }
+    ],
+    notes: "Sehr höflich. Oft in geschäftlichen Kontexten verwendet.",
+    related: ["n4-saseru", "kudasai"]
+  },
+  {
+    id: "n4-tabakari",
+    pattern: "～たばかり",
+    level: "N4",
+    category: "Verben",
+    meaning: "Gerade erst (getan)",
+    explanation: "たばかり drückt aus, dass eine Handlung gerade erst abgeschlossen wurde.",
+    formation: "Verb (た-Form) + ばかり",
+    examples: [
+      { japanese: "日本に来たばかりです。", romaji: "Nihon ni kita bakari desu.", german: "Ich bin gerade erst nach Japan gekommen." },
+      { japanese: "さっき食べたばかりなのに、もうお腹が空いた。", romaji: "Sakki tabeta bakari na noni, mō onaka ga suita.", german: "Obwohl ich gerade erst gegessen habe, habe ich schon wieder Hunger." }
+    ],
+    notes: "Nicht verwechseln mit ～ばかり (nur/nichts als).",
+    related: ["n4-bakari-p", "n4-tokoro-da"]
+  },
+  {
+    id: "n4-takotogaaru",
+    pattern: "～たことがある",
+    level: "N4",
+    category: "Verben",
+    meaning: "Schon einmal getan haben (Erfahrung)",
+    explanation: "たことがある drückt aus, dass man eine bestimmte Erfahrung in der Vergangenheit gemacht hat.",
+    formation: "Verb (た-Form) + ことがある",
+    examples: [
+      { japanese: "日本に行ったことがあります。", romaji: "Nihon ni itta koto ga arimasu.", german: "Ich war schon einmal in Japan." },
+      { japanese: "納豆を食べたことがありますか。", romaji: "Nattō o tabeta koto ga arimasu ka.", german: "Haben Sie schon einmal Nattō gegessen?" }
+    ],
+    notes: "Verneinung: ～たことがない (noch nie getan haben).",
+    related: ["n4-koto-ga-aru"]
+  },
+  {
+    id: "n4-tari",
+    pattern: "～たり～たりする",
+    level: "N4",
+    category: "Verben",
+    meaning: "Dinge tun wie ... und ...",
+    explanation: "たり listet beispielhaft Handlungen auf und impliziert, dass es noch weitere gibt.",
+    formation: "Verb (た-Form) + り + Verb (た-Form) + り + する",
+    examples: [
+      { japanese: "週末は映画を見たり、買い物をしたりします。", romaji: "Shūmatsu wa eiga o mitari, kaimono o shitari shimasu.", german: "Am Wochenende schaue ich Filme, gehe einkaufen und so weiter." },
+      { japanese: "天気が良かったり悪かったりする。", romaji: "Tenki ga yokattari warukattari suru.", german: "Das Wetter ist mal gut, mal schlecht." }
+    ],
+    notes: "Auch mit Adjektiven möglich. Das finale する nicht vergessen.",
+    related: ["ya", "n4-toka"]
+  },
+  {
+    id: "n4-hajimeru",
+    pattern: "～始める",
+    level: "N4",
+    category: "Verben",
+    meaning: "Anfangen zu",
+    explanation: "始める als Suffix drückt den Beginn einer Handlung aus.",
+    formation: "Verb (ます-Stamm) + 始める",
+    examples: [
+      { japanese: "雨が降り始めた。", romaji: "Ame ga furi hajimeta.", german: "Es hat angefangen zu regnen." },
+      { japanese: "日本語を勉強し始めました。", romaji: "Nihongo o benkyō shi hajimemashita.", german: "Ich habe angefangen, Japanisch zu lernen." }
+    ],
+    notes: "Auch als eigenständiges Verb: 始める = beginnen.",
+    related: ["n4-tsuzukeru", "n4-owaru"]
+  },
+  {
+    id: "n4-tsuzukeru",
+    pattern: "～続ける",
+    level: "N4",
+    category: "Verben",
+    meaning: "Fortfahren zu, weiter tun",
+    explanation: "続ける als Suffix drückt aus, dass eine Handlung fortgesetzt wird.",
+    formation: "Verb (ます-Stamm) + 続ける",
+    examples: [
+      { japanese: "三時間歩き続けた。", romaji: "Sanjikan aruki tsuzuketa.", german: "Ich bin drei Stunden lang weitergelaufen." },
+      { japanese: "諦めずに努力し続けてください。", romaji: "Akiramezu ni doryoku shi tsuzukete kudasai.", german: "Geben Sie nicht auf und bemühen Sie sich weiter." }
+    ],
+    notes: "Auch eigenständig: 続ける = fortsetzen.",
+    related: ["n4-hajimeru", "n4-owaru"]
+  },
+  {
+    id: "n4-owaru",
+    pattern: "～終わる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Fertig sein mit, beenden",
+    explanation: "終わる als Suffix drückt ab, dass eine Handlung zu Ende gebracht wurde.",
+    formation: "Verb (ます-Stamm) + 終わる",
+    examples: [
+      { japanese: "本を読み終わりました。", romaji: "Hon o yomi owarimashita.", german: "Ich habe das Buch fertig gelesen." },
+      { japanese: "宿題を書き終わった。", romaji: "Shukudai o kaki owatta.", german: "Ich habe die Hausaufgaben fertig geschrieben." }
+    ],
+    notes: "Auch eigenständig: 終わる = enden.",
+    related: ["n4-hajimeru", "n4-tsuzukeru"]
+  },
+  {
+    id: "n4-sugiru",
+    pattern: "～すぎる",
+    level: "N4",
+    category: "Verben",
+    meaning: "Zu viel, zu sehr",
+    explanation: "すぎる als Suffix drückt Übertreibung oder Exzess aus. Funktioniert mit Verben und Adjektiven.",
+    formation: "Verb (ます-Stamm) + すぎる / い-Adj (ohne い) + すぎる / な-Adj + すぎる",
+    examples: [
+      { japanese: "食べすぎてお腹が痛い。", romaji: "Tabesugite onaka ga itai.", german: "Ich habe zu viel gegessen und habe Bauchschmerzen." },
+      { japanese: "この問題は難しすぎる。", romaji: "Kono mondai wa muzukashisugiru.", german: "Dieses Problem ist zu schwierig." }
+    ],
+    notes: "Wird wie ein ichidan-Verb konjugiert: すぎます, すぎた, すぎない.",
+    related: ["n4-yasui", "n4-nikui"]
+  },
+  {
+    id: "n4-yasui",
+    pattern: "～やすい",
+    level: "N4",
+    category: "Verben",
+    meaning: "Leicht zu, einfach zu",
+    explanation: "やすい als Suffix drückt aus, dass etwas leicht zu tun ist oder dass eine Tendenz besteht.",
+    formation: "Verb (ます-Stamm) + やすい",
+    examples: [
+      { japanese: "この本は読みやすい。", romaji: "Kono hon wa yomiyasui.", german: "Dieses Buch ist leicht zu lesen." },
+      { japanese: "ガラスは割れやすい。", romaji: "Garasu wa wareyasui.", german: "Glas zerbricht leicht." }
+    ],
+    notes: "Wird wie ein い-Adjektiv konjugiert: やすくない, やすかった.",
+    related: ["n4-nikui", "n4-sugiru"]
+  },
+  {
+    id: "n4-nikui",
+    pattern: "～にくい",
+    level: "N4",
+    category: "Verben",
+    meaning: "Schwer zu, schwierig zu",
+    explanation: "にくい als Suffix drückt aus, dass etwas schwer zu tun ist.",
+    formation: "Verb (ます-Stamm) + にくい",
+    examples: [
+      { japanese: "この字は読みにくい。", romaji: "Kono ji wa yominikui.", german: "Diese Schrift ist schwer zu lesen." },
+      { japanese: "この靴は歩きにくい。", romaji: "Kono kutsu wa aruki nikui.", german: "Diese Schuhe sind schwer zu laufen." }
+    ],
+    notes: "Wird wie ein い-Adjektiv konjugiert. Ähnlich: ～づらい (mit emotionaler Schwierigkeit).",
+    related: ["n4-yasui", "n4-sugiru"]
+  },
+  {
+    id: "n4-kata",
+    pattern: "～方",
+    level: "N4",
+    category: "Verben",
+    meaning: "Art und Weise zu, wie man",
+    explanation: "方 (かた) als Suffix bildet ein Nomen, das die Art und Weise einer Handlung ausdrückt.",
+    formation: "Verb (ます-Stamm) + 方",
+    examples: [
+      { japanese: "この漢字の読み方を教えてください。", romaji: "Kono kanji no yomikata o oshiete kudasai.", german: "Bitte sagen Sie mir, wie man dieses Kanji liest." },
+      { japanese: "箸の使い方が上手ですね。", romaji: "Hashi no tsukaikata ga jōzu desu ne.", german: "Sie können gut mit Stäbchen umgehen." }
+    ],
+    notes: "Sehr produktives Suffix: 食べ方, 書き方, やり方, 作り方 usw.",
+    related: []
+  },
+  {
+    id: "n4-sou-appearance",
+    pattern: "～そうだ (様態)",
+    level: "N4",
+    category: "Verben",
+    meaning: "Sieht aus als ob, scheint",
+    explanation: "そうだ (様態/yōtai) drückt einen Eindruck basierend auf dem Aussehen aus. Basiert auf eigener Beobachtung.",
+    formation: "Verb (ます-Stamm) + そうだ / い-Adj (ohne い) + そうだ / な-Adj + そうだ",
+    examples: [
+      { japanese: "雨が降りそうだ。", romaji: "Ame ga furisō da.", german: "Es sieht aus, als ob es regnen wird." },
+      { japanese: "このケーキはおいしそうだ。", romaji: "Kono kēki wa oishisō da.", german: "Dieser Kuchen sieht lecker aus." }
+    ],
+    notes: "Ausnahmen: いい→よさそう, ない→なさそう. Nicht verwechseln mit ～そうだ (Hörensagen).",
+    related: ["n4-sou-hearsay", "n4-you-da", "n4-rashii"]
+  },
+  {
+    id: "n4-nagara",
+    pattern: "～ながら",
+    level: "N4",
+    category: "Verben",
+    meaning: "Während, gleichzeitig",
+    explanation: "ながら drückt aus, dass zwei Handlungen gleichzeitig vom selben Subjekt ausgeführt werden. Die Haupthandlung steht am Satzende.",
+    formation: "Verb (ます-Stamm) + ながら",
+    examples: [
+      { japanese: "音楽を聞きながら勉強する。", romaji: "Ongaku o kikinagara benkyō suru.", german: "Ich lerne, während ich Musik höre." },
+      { japanese: "歩きながらスマホを見ないでください。", romaji: "Arukinagara sumaho o minaide kudasai.", german: "Bitte schauen Sie nicht beim Gehen aufs Handy." }
+    ],
+    notes: "Beide Handlungen müssen vom selben Subjekt sein. Für verschiedene Subjekte: ～間に.",
+    related: ["n4-aida-ni"]
+  },
+  {
+    id: "n4-tearu",
+    pattern: "～てある",
+    level: "N4",
+    category: "Verben",
+    meaning: "Ist gemacht worden (Zustandsresultat)",
+    explanation: "てある drückt aus, dass eine absichtliche Handlung ausgeführt wurde und deren Ergebnis noch andauert.",
+    formation: "Verb (て-Form) + ある",
+    examples: [
+      { japanese: "窓が開けてある。", romaji: "Mado ga akete aru.", german: "Das Fenster ist geöffnet worden (und steht noch offen)." },
+      { japanese: "テーブルの上にメモが書いてある。", romaji: "Tēburu no ue ni memo ga kaite aru.", german: "Auf dem Tisch ist eine Notiz geschrieben." }
+    ],
+    notes: "Unterschied zu ～ている: てある betont das absichtliche Vorbereiten, ている den aktuellen Zustand.",
+    related: ["teiru", "n4-teoku"]
+  },
+  {
+    id: "n4-zu-ni",
+    pattern: "～ずに / ～ないで",
+    level: "N4",
+    category: "Verben",
+    meaning: "Ohne zu tun",
+    explanation: "ずに ist die formelle Variante von ないで. Beide drücken aus, dass eine Handlung nicht ausgeführt wird, während eine andere stattfindet.",
+    formation: "Verb (ない-Stamm) + ずに / Verb (ない-Form) + で",
+    examples: [
+      { japanese: "朝ご飯を食べずに学校に行った。", romaji: "Asagohan o tabezu ni gakkō ni itta.", german: "Ich ging ohne Frühstück zur Schule." },
+      { japanese: "辞書を使わないで読めた。", romaji: "Jisho o tsukawanaide yometa.", german: "Ich konnte es ohne Wörterbuch lesen." }
+    ],
+    notes: "する→せずに (Ausnahme). ずに ist schriftsprachlicher als ないで.",
+    related: ["naide"]
+  },
+  {
+    id: "n4-imperative",
+    pattern: "命令形",
+    level: "N4",
+    category: "Verben",
+    meaning: "Imperativform (Befehl)",
+    explanation: "Die Imperativform ist ein direkter Befehl. Sie wird in der Alltagssprache selten verwendet und klingt grob.",
+    formation: "Godan: u→e (書く→書け) / Ichidan: る→ろ (食べる→食べろ)",
+    examples: [
+      { japanese: "早くしろ！", romaji: "Hayaku shiro!", german: "Beeil dich!" },
+      { japanese: "静かにしろ。", romaji: "Shizuka ni shiro.", german: "Sei still." },
+      { japanese: "頑張れ！", romaji: "Ganbare!", german: "Gib dein Bestes!" }
+    ],
+    notes: "する→しろ, 来る→来い (こい). Oft bei Anfeuerungen: 頑張れ! Negative Form: ～な (するな = tu es nicht).",
+    related: ["n4-nasai"]
+  },
+  {
+    id: "n4-nasai",
+    pattern: "～なさい",
+    level: "N4",
+    category: "Verben",
+    meaning: "Tu ... (höflicher Befehl)",
+    explanation: "なさい ist eine höflichere Befehlsform, die oft von Eltern, Lehrern oder Vorgesetzten verwendet wird.",
+    formation: "Verb (ます-Stamm) + なさい",
+    examples: [
+      { japanese: "早く寝なさい。", romaji: "Hayaku nenasai.", german: "Geh früh schlafen." },
+      { japanese: "宿題をしなさい。", romaji: "Shukudai o shinasai.", german: "Mach deine Hausaufgaben." }
+    ],
+    notes: "Höflicher als 命令形, aber immer noch autoritär. Nur von oben nach unten verwendet.",
+    related: ["n4-imperative", "kudasai"]
+  },
+  // ============================================================
+  // N4 – ADJEKTIVE (12)
+  // ============================================================
+  {
+    id: "n4-adj-ba",
+    pattern: "～ければ / ～なら",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "Wenn (Adjektiv-Konditional)",
+    explanation: "い-Adjektive: い→ければ. な-Adjektive: なら(ば).",
+    formation: "い-Adj: い→ければ / な-Adj: ～なら(ば)",
+    examples: [
+      { japanese: "安ければ買います。", romaji: "Yasukereba kaimasu.", german: "Wenn es günstig ist, kaufe ich es." },
+      { japanese: "暇なら遊びに来てください。", romaji: "Hima nara asobi ni kite kudasai.", german: "Wenn du frei bist, komm vorbei." }
+    ],
+    notes: "いい→よければ. Verneinung: ～くなければ / ～でなければ.",
+    related: ["n4-ba", "n4-nara"]
+  },
+  {
+    id: "n4-adj-souna",
+    pattern: "～そうな / ～そうに",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "Sieht ... aus (Eindruck)",
+    explanation: "そうな vor Nomen, そうに vor Verben. Visueller Eindruck.",
+    formation: "い-Adj (ohne い) + そうな/に / な-Adj + そうな/に",
+    examples: [
+      { japanese: "おいしそうなケーキですね。", romaji: "Oishisō na kēki desu ne.", german: "Ein lecker aussehender Kuchen." },
+      { japanese: "楽しそうに笑っている。", romaji: "Tanoshisō ni waratteiru.", german: "Er lacht vergnügt." }
+    ],
+    notes: "いい→よさそう, ない→なさそう.",
+    related: ["n4-sou-appearance"]
+  },
+  {
+    id: "n4-adj-sugiru",
+    pattern: "～すぎる (Adj.)",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "Zu ... (Übertreibung)",
+    explanation: "すぎる mit Adjektiven: übermäßig starke Eigenschaft.",
+    formation: "い-Adj (ohne い) + すぎる / な-Adj + すぎる",
+    examples: [
+      { japanese: "この部屋は暑すぎる。", romaji: "Kono heya wa atsusugiru.", german: "Dieses Zimmer ist zu heiß." },
+      { japanese: "静かすぎて怖い。", romaji: "Shizuka sugite kowai.", german: "So still, dass es unheimlich ist." }
+    ],
+    notes: "Konjugation wie ichidan-Verb.",
+    related: ["n4-sugiru"]
+  },
+  {
+    id: "n4-ku-suru",
+    pattern: "～くする / ～にする",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "Etwas ... machen",
+    explanation: "くする (い-Adj) und にする (な-Adj): aktive Veränderung.",
+    formation: "い-Adj: い→くする / な-Adj: ～にする",
+    examples: [
+      { japanese: "部屋を明るくした。", romaji: "Heya o akaruku shita.", german: "Ich habe das Zimmer heller gemacht." },
+      { japanese: "部屋をきれいにしてください。", romaji: "Heya o kirei ni shite kudasai.", german: "Machen Sie bitte das Zimmer sauber." }
+    ],
+    notes: "Vgl. ～くなる/～になる (von selbst werden).",
+    related: ["n4-ku-naru"]
+  },
+  {
+    id: "n4-ku-naru",
+    pattern: "～くなる / ～になる",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "... werden (Veränderung)",
+    explanation: "くなる (い-Adj) und になる (な-Adj): natürliche Veränderung.",
+    formation: "い-Adj: い→くなる / な-Adj: ～になる",
+    examples: [
+      { japanese: "日が短くなった。", romaji: "Hi ga mijikaku natta.", german: "Die Tage sind kürzer geworden." },
+      { japanese: "日本語が上手になりました。", romaji: "Nihongo ga jōzu ni narimashita.", german: "Mein Japanisch ist besser geworden." }
+    ],
+    notes: "いい→よくなる. Oft mit だんだん (allmählich).",
+    related: ["n4-ku-suru", "n4-you-ni-naru"]
+  },
+  {
+    id: "n4-sa",
+    pattern: "～さ",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "Die ... (Nominalisierung)",
+    explanation: "さ wandelt Adjektive in Nomen um.",
+    formation: "い-Adj (ohne い) + さ / な-Adj + さ",
+    examples: [
+      { japanese: "この山の高さは何メートルですか。", romaji: "Kono yama no takasa wa nan mētoru desu ka.", german: "Wie hoch ist dieser Berg?" },
+      { japanese: "日本語の難しさを実感した。", romaji: "Nihongo no muzukashisa o jikkan shita.", german: "Ich habe die Schwierigkeit des Japanischen erfahren." }
+    ],
+    notes: "高さ, 長さ, 深さ, 大きさ, 便利さ usw.",
+    related: []
+  },
+  {
+    id: "n4-garu",
+    pattern: "～がる",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "Zeichen zeigen von",
+    explanation: "がる: äußere Zeichen eines Gefühls bei Dritten.",
+    formation: "い-Adj (ohne い) + がる",
+    examples: [
+      { japanese: "子供が怖がっている。", romaji: "Kodomo ga kowagatte iru.", german: "Das Kind zeigt Angst." },
+      { japanese: "彼女は新しい服を欲しがっている。", romaji: "Kanojo wa atarashii fuku o hoshigatte iru.", german: "Sie will neue Kleidung." }
+    ],
+    notes: "欲しい→欲しがる, 怖い→怖がる. Godan-Verb.",
+    related: ["hoshii"]
+  },
+  {
+    id: "n4-you-na",
+    pattern: "～ような / ～みたいな",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "Wie ... (attributiv)",
+    explanation: "ような (formell) und みたいな (informell) vor Nomen.",
+    formation: "Nomen + のような/みたいな + Nomen",
+    examples: [
+      { japanese: "夢のような一日だった。", romaji: "Yume no yō na ichinichi datta.", german: "Es war ein traumhafter Tag." },
+      { japanese: "彼みたいな人になりたい。", romaji: "Kare mitai na hito ni naritai.", german: "Ich möchte so werden wie er." }
+    ],
+    notes: "のような = formell, みたいな = informell.",
+    related: ["n4-no-you-ni", "n4-you-da"]
+  },
+  {
+    id: "n4-yori",
+    pattern: "～より～のほうが",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "... ist mehr als (Komparativ)",
+    explanation: "より = Vergleichsgegenstand, のほうが = stärkeres Element.",
+    formation: "A より B のほうが + Adj",
+    examples: [
+      { japanese: "電車よりバスのほうが安い。", romaji: "Densha yori basu no hō ga yasui.", german: "Der Bus ist günstiger als der Zug." },
+      { japanese: "夏より冬のほうが好きです。", romaji: "Natsu yori fuyu no hō ga suki desu.", german: "Ich mag Winter lieber als Sommer." }
+    ],
+    notes: "思ったより難しい (schwieriger als gedacht).",
+    related: ["n4-ichiban"]
+  },
+  {
+    id: "n4-ichiban",
+    pattern: "一番～",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "Am meisten (Superlativ)",
+    explanation: "一番 drückt den höchsten Grad aus.",
+    formation: "Gruppe + の中で + 一番 + Adj",
+    examples: [
+      { japanese: "日本で一番高い山は富士山です。", romaji: "Nihon de ichiban takai yama wa Fujisan desu.", german: "Der höchste Berg Japans ist der Fuji." },
+      { japanese: "クラスで誰が一番背が高い？", romaji: "Kurasu de dare ga ichiban se ga takai?", german: "Wer ist der Größte in der Klasse?" }
+    ],
+    notes: "最も (もっとも) = formellere Variante.",
+    related: ["n4-yori"]
+  },
+  {
+    id: "n4-rashii-adj",
+    pattern: "～らしい (typisch)",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "Typisch für, ...-haft",
+    explanation: "らしい als Suffix: typisch, charakteristisch.",
+    formation: "Nomen + らしい",
+    examples: [
+      { japanese: "今日は春らしい天気ですね。", romaji: "Kyō wa haru rashii tenki desu ne.", german: "Typisches Frühlingswetter heute." },
+      { japanese: "彼女はとても女性らしい。", romaji: "Kanojo wa totemo josei rashii.", german: "Sie ist sehr feminin." }
+    ],
+    notes: "Nicht verwechseln mit ～らしい (Vermutung).",
+    related: ["n4-rashii"]
+  },
+  {
+    id: "n4-gachi",
+    pattern: "～がち",
+    level: "N4",
+    category: "Adjektive",
+    meaning: "Neigung zu",
+    explanation: "がち: (meist negative) Tendenz.",
+    formation: "Verb (ます-Stamm) + がち / Nomen + がち",
+    examples: [
+      { japanese: "最近風邪を引きがちだ。", romaji: "Saikin kaze o hikigachi da.", german: "Neige in letzter Zeit zu Erkältungen." },
+      { japanese: "曇りがちの天気が続く。", romaji: "Kumorigachi no tenki ga tsuzuku.", german: "Vorwiegend bewölktes Wetter." }
+    ],
+    notes: "Wie な-Adj: ～がちな + Nomen.",
+    related: ["n4-yasui"]
+  },
+  // ============================================================
+  // N4 – SATZSTRUKTUREN (45)
+  // ============================================================
+  {
+    id: "n4-you-da",
+    pattern: "～ようだ",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Es scheint als ob",
+    explanation: "ようだ: Vermutung basierend auf eigener Beobachtung.",
+    formation: "Verb/い-Adj + ようだ / な-Adj + なようだ / Nomen + のようだ",
+    examples: [
+      { japanese: "彼は忙しいようだ。", romaji: "Kare wa isogashii yō da.", german: "Er scheint beschäftigt zu sein." },
+      { japanese: "風邪を引いたようです。", romaji: "Kaze o hiita yō desu.", german: "Ich habe mich wohl erkältet." }
+    ],
+    notes: "Formeller als みたいだ.",
+    related: ["n4-mitai-da", "n4-rashii"]
+  },
+  {
+    id: "n4-mitai-da",
+    pattern: "～みたいだ",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Scheint so (umgangssprachlich)",
+    explanation: "みたいだ: informelle Variante von ようだ.",
+    formation: "Verb/Adj/Nomen + みたいだ",
+    examples: [
+      { japanese: "雨が降るみたいだ。", romaji: "Ame ga furu mitai da.", german: "Es sieht nach Regen aus." },
+      { japanese: "あの人は先生みたいだ。", romaji: "Ano hito wa sensei mitai da.", german: "Die Person scheint Lehrer zu sein." }
+    ],
+    notes: "Vor Nomen: みたいな, vor Verben: みたいに.",
+    related: ["n4-you-da", "n4-rashii"]
+  },
+  {
+    id: "n4-rashii",
+    pattern: "～らしい",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Anscheinend, offenbar",
+    explanation: "らしい: Vermutung basierend auf Hörensagen oder Schluss.",
+    formation: "Verb/Adj/Nomen + らしい",
+    examples: [
+      { japanese: "明日は雨らしい。", romaji: "Ashita wa ame rashii.", german: "Anscheinend regnet es morgen." },
+      { japanese: "あの店はおいしいらしいですよ。", romaji: "Ano mise wa oishii rashii desu yo.", german: "Das Restaurant soll gut sein." }
+    ],
+    notes: "Konjugation wie い-Adj.",
+    related: ["n4-you-da", "n4-sou-hearsay"]
+  },
+  {
+    id: "n4-sou-hearsay",
+    pattern: "～そうだ (伝聞)",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Ich habe gehört dass (Hörensagen)",
+    explanation: "そうだ (伝聞): wiedergibt was man gehört/gelesen hat.",
+    formation: "Satz (Grundform) + そうだ",
+    examples: [
+      { japanese: "天気予報によると、明日は晴れるそうだ。", romaji: "Tenki yohō ni yoru to, ashita wa hareru sō da.", german: "Laut Wetterbericht wird es morgen sonnig." },
+      { japanese: "あの映画は面白いそうです。", romaji: "Ano eiga wa omoshiroi sō desu.", german: "Der Film soll interessant sein." }
+    ],
+    notes: "Hörensagen: Grundform + そうだ. Aussehen: Stamm + そうだ.",
+    related: ["n4-sou-appearance", "n4-rashii"]
+  },
+  {
+    id: "n4-hazu-da",
+    pattern: "～はずだ",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Müsste sein, wird erwartet",
+    explanation: "はずだ: starke Erwartung oder logische Schlussfolgerung.",
+    formation: "Verb/い-Adj + はずだ / な-Adj + なはずだ",
+    examples: [
+      { japanese: "もう届いているはずです。", romaji: "Mō todoiteiru hazu desu.", german: "Es müsste schon angekommen sein." },
+      { japanese: "彼は知っているはずだ。", romaji: "Kare wa shitteiru hazu da.", german: "Er müsste es wissen." }
+    ],
+    notes: "はずがない = unmöglich.",
+    related: ["n4-kamoshirenai", "n4-beki-da"]
+  },
+  {
+    id: "n4-kamoshirenai",
+    pattern: "～かもしれない",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Vielleicht, möglicherweise",
+    explanation: "かもしれない: unsichere Vermutung.",
+    formation: "Verb/Adj/Nomen + かもしれない",
+    examples: [
+      { japanese: "明日は雨かもしれない。", romaji: "Ashita wa ame kamoshirenai.", german: "Vielleicht regnet es morgen." },
+      { japanese: "間に合わないかもしれません。", romaji: "Maniawanai kamoshiremasen.", german: "Ich schaffe es vielleicht nicht rechtzeitig." }
+    ],
+    notes: "Umgangssprache: かも allein.",
+    related: ["n4-hazu-da"]
+  },
+  {
+    id: "n4-ka-dou-ka",
+    pattern: "～かどうか",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Ob ... oder nicht",
+    explanation: "かどうか: Ja/Nein-Frage als Nebensatz.",
+    formation: "Verb/Adj (Grundform) + かどうか",
+    examples: [
+      { japanese: "行くかどうか迷っています。", romaji: "Iku ka dō ka mayotteimasu.", german: "Ich bin unschlüssig, ob ich gehen soll." },
+      { japanese: "正しいかどうか確認してください。", romaji: "Tadashii ka dō ka kakunin shite kudasai.", german: "Bitte prüfen Sie, ob es korrekt ist." }
+    ],
+    notes: "W-Fragen: nur か (何時に来るか分からない).",
+    related: ["ka"]
+  },
+  {
+    id: "n4-tame-ni",
+    pattern: "～ために",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Um zu (Zweck) / Weil (Grund)",
+    explanation: "ために: Zweck (辞書形) oder Grund (た形/Nomen).",
+    formation: "Verb (辞書形) + ために / Nomen + のために",
+    examples: [
+      { japanese: "日本語を勉強するために日本に来た。", romaji: "Nihongo o benkyō suru tame ni Nihon ni kita.", german: "Ich kam nach Japan, um Japanisch zu lernen." },
+      { japanese: "台風のために電車が止まった。", romaji: "Taifū no tame ni densha ga tomatta.", german: "Wegen des Taifuns stoppten die Züge." }
+    ],
+    notes: "Zweck: 辞書形. Grund: た形/Nomen.",
+    related: ["n4-you-ni-purpose", "n4-node"]
+  },
+  {
+    id: "n4-you-ni-purpose",
+    pattern: "～ように (Zweck)",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Damit, so dass",
+    explanation: "ように: indirekter Zweck, mit Potential- oder ない-Form.",
+    formation: "Verb (辞書形/ない形) + ように",
+    examples: [
+      { japanese: "忘れないように書いておきます。", romaji: "Wasurenai yō ni kaite okimasu.", german: "Ich schreibe es auf, damit ich es nicht vergesse." },
+      { japanese: "聞こえるように大きい声で話して。", romaji: "Kikoeru yō ni ōkii koe de hanashite.", german: "Sprich laut, damit man es hört." }
+    ],
+    notes: "ために = direkter Zweck. ように = indirekter Zweck.",
+    related: ["n4-tame-ni"]
+  },
+  {
+    id: "n4-ba",
+    pattern: "～ば",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Wenn (Konditional)",
+    explanation: "ば-Form: hypothetische Bedingung.",
+    formation: "Godan: u→eba / Ichidan: る→れば",
+    examples: [
+      { japanese: "時間があれば行きます。", romaji: "Jikan ga areba ikimasu.", german: "Wenn ich Zeit habe, gehe ich." },
+      { japanese: "安ければ買います。", romaji: "Yasukereba kaimasu.", german: "Wenn es günstig ist, kaufe ich es." }
+    ],
+    notes: "する→すれば, 来る→来れば. ～ば～ほど = je mehr desto.",
+    related: ["n4-nara", "n4-temo", "n4-to-conditional"]
+  },
+  {
+    id: "n4-nara",
+    pattern: "～なら",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Wenn, falls (thematisch)",
+    explanation: "なら: nimmt Thema auf, reagiert auf Gesagtes.",
+    formation: "Verb/Adj/Nomen + なら",
+    examples: [
+      { japanese: "日本に行くなら京都がおすすめです。", romaji: "Nihon ni iku nara Kyōto ga osusume desu.", german: "Wenn du nach Japan gehst, empfehle ich Kyoto." },
+      { japanese: "魚なら、このレストランがいい。", romaji: "Sakana nara, kono resutoran ga ii.", german: "Was Fisch betrifft, ist dieses Restaurant gut." }
+    ],
+    notes: "Reagiert oft auf Information des Gesprächspartners.",
+    related: ["n4-ba", "n4-to-conditional"]
+  },
+  {
+    id: "n4-temo",
+    pattern: "～ても / ～でも",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Selbst wenn, auch wenn",
+    explanation: "ても: Ergebnis bleibt gleich, egal ob Bedingung zutrifft.",
+    formation: "Verb (て) + も / い-Adj: くても / な-Adj: でも",
+    examples: [
+      { japanese: "雨が降っても行きます。", romaji: "Ame ga futtemo ikimasu.", german: "Selbst wenn es regnet, gehe ich." },
+      { japanese: "高くても買いたい。", romaji: "Takakutemo kaitai.", german: "Auch wenn es teuer ist, will ich es." }
+    ],
+    notes: "何を食べても (egal was), どんなに頑張っても (egal wie sehr).",
+    related: ["n4-noni", "n4-ba"]
+  },
+  {
+    id: "n4-noni",
+    pattern: "～のに",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Obwohl, trotzdem",
+    explanation: "のに: Enttäuschung, etwas ist anders als erwartet.",
+    formation: "Verb/い-Adj + のに / な-Adj + なのに",
+    examples: [
+      { japanese: "勉強したのにテストに落ちた。", romaji: "Benkyō shita noni tesuto ni ochita.", german: "Obwohl ich lernte, fiel ich durch." },
+      { japanese: "約束したのに来なかった。", romaji: "Yakusoku shita noni konakatta.", german: "Obwohl er es versprach, kam er nicht." }
+    ],
+    notes: "Impliziert Frustration/Enttäuschung.",
+    related: ["n4-temo"]
+  },
+  {
+    id: "n4-shi",
+    pattern: "～し",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Und außerdem (Gründe auflisten)",
+    explanation: "し: listet mehrere Gründe oder Eigenschaften auf.",
+    formation: "Verb/い-Adj + し / な-Adj + だし",
+    examples: [
+      { japanese: "この店は安いし、おいしいし、最高だ。", romaji: "Kono mise wa yasui shi, oishii shi, saikō da.", german: "Günstig und lecker – einfach toll." },
+      { japanese: "時間もないし、お金もないし、行けない。", romaji: "Jikan mo nai shi, okane mo nai shi, ikenai.", german: "Keine Zeit, kein Geld – kann nicht gehen." }
+    ],
+    notes: "Auch nur ein Grund: 疲れたし、帰ろう.",
+    related: ["n4-node"]
+  },
+  {
+    id: "n4-mama",
+    pattern: "～まま",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "So wie es ist, im Zustand",
+    explanation: "まま: Zustand bleibt unverändert.",
+    formation: "Verb (た形) + まま / Nomen + のまま",
+    examples: [
+      { japanese: "靴を履いたまま入らないで。", romaji: "Kutsu o haita mama hairanaide.", german: "Geh nicht mit Schuhen rein." },
+      { japanese: "電気をつけたまま寝てしまった。", romaji: "Denki o tsuketa mama nete shimatta.", german: "Ich schlief mit Licht ein." }
+    ],
+    notes: "そのまま = so wie es ist.",
+    related: []
+  },
+  {
+    id: "n4-tokoro-da",
+    pattern: "～ところだ",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Gerade dabei / gerade getan",
+    explanation: "ところだ: Zeitpunkt einer Handlung (davor/mittendrin/danach).",
+    formation: "辞書形+ところ / ている+ところ / た形+ところ",
+    examples: [
+      { japanese: "今から出かけるところです。", romaji: "Ima kara dekakeru tokoro desu.", german: "Ich bin gerade dabei auszugehen." },
+      { japanese: "今食べ終わったところです。", romaji: "Ima tabe owatta tokoro desu.", german: "Ich habe gerade eben aufgegessen." }
+    ],
+    notes: "辞書形 = gleich. ている = gerade. た形 = gerade eben.",
+    related: ["n4-tabakari"]
+  },
+  {
+    id: "n4-dake",
+    pattern: "～だけ",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Nur, lediglich",
+    explanation: "だけ: beschränkt auf eine Menge oder Handlung. Neutral.",
+    formation: "Nomen/Verb + だけ",
+    examples: [
+      { japanese: "水だけ飲みました。", romaji: "Mizu dake nomimashita.", german: "Ich habe nur Wasser getrunken." },
+      { japanese: "見るだけでいいです。", romaji: "Miru dake de ii desu.", german: "Nur schauen reicht." }
+    ],
+    notes: "できるだけ = so viel wie möglich.",
+    related: ["n4-shika-nai", "n4-bakari-p"]
+  },
+  {
+    id: "n4-shika-nai",
+    pattern: "～しか～ない",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Nur (mit Verneinung)",
+    explanation: "しか + Verneinung: betont Einschränkung, bedauernd.",
+    formation: "Nomen + しか + Verb (ない形)",
+    examples: [
+      { japanese: "百円しかない。", romaji: "Hyaku-en shika nai.", german: "Ich habe nur 100 Yen." },
+      { japanese: "日本語しか話せません。", romaji: "Nihongo shika hanasemasen.", german: "Ich kann nur Japanisch." }
+    ],
+    notes: "しか = bedauernd, だけ = neutral.",
+    related: ["n4-dake"]
+  },
+  {
+    id: "n4-ni-tsuite",
+    pattern: "～について",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Über, bezüglich",
+    explanation: "について: gibt das Thema an, über das gesprochen wird.",
+    formation: "Nomen + について",
+    examples: [
+      { japanese: "日本の文化について調べています。", romaji: "Nihon no bunka ni tsuite shirabeteimasu.", german: "Ich recherchiere über japanische Kultur." },
+      { japanese: "この問題について話し合いましょう。", romaji: "Kono mondai ni tsuite hanashi aimashō.", german: "Sprechen wir über dieses Problem." }
+    ],
+    notes: "Vor Nomen: ～についての + Nomen.",
+    related: ["n4-ni-taishite"]
+  },
+  {
+    id: "n4-ni-yoru-to",
+    pattern: "～によると",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Laut, gemäß",
+    explanation: "によると: gibt die Quelle einer Information an.",
+    formation: "Nomen + によると",
+    examples: [
+      { japanese: "天気予報によると明日は雨だそうだ。", romaji: "Tenki yohō ni yoru to ashita wa ame da sō da.", german: "Laut Wetterbericht regnet es morgen." },
+      { japanese: "ニュースによると事故があったそうだ。", romaji: "Nyūsu ni yoru to jiko ga atta sō da.", german: "Laut Nachrichten gab es einen Unfall." }
+    ],
+    notes: "Oft mit ～そうだ oder ～ということだ.",
+    related: ["n4-sou-hearsay", "n4-ni-yotte"]
+  },
+  {
+    id: "n4-okage-de",
+    pattern: "～おかげで",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Dank (positiv)",
+    explanation: "おかげで: positiver Grund, Dankbarkeit.",
+    formation: "Verb/Adj + おかげで / Nomen + のおかげで",
+    examples: [
+      { japanese: "先生のおかげで合格しました。", romaji: "Sensei no okage de gōkaku shimashita.", german: "Dank des Lehrers habe ich bestanden." },
+      { japanese: "薬のおかげで元気になった。", romaji: "Kusuri no okage de genki ni natta.", german: "Dank der Medizin bin ich gesund." }
+    ],
+    notes: "Positiv: おかげで. Negativ: せいで.",
+    related: ["n4-sei-de"]
+  },
+  {
+    id: "n4-sei-de",
+    pattern: "～せいで",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Wegen (negativ, Schuld)",
+    explanation: "せいで: negativer Grund, Schuldzuweisung.",
+    formation: "Verb/Adj + せいで / Nomen + のせいで",
+    examples: [
+      { japanese: "雨のせいで試合が中止になった。", romaji: "Ame no sei de shiai ga chūshi ni natta.", german: "Wegen des Regens wurde das Spiel abgesagt." },
+      { japanese: "寝坊したせいで遅刻した。", romaji: "Nebō shita sei de chikoku shita.", german: "Weil ich verschlief, kam ich zu spät." }
+    ],
+    notes: "Gegenteil: おかげで (positiv).",
+    related: ["n4-okage-de"]
+  },
+  {
+    id: "n4-wake-da",
+    pattern: "～わけだ",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Kein Wunder, das erklärt es",
+    explanation: "わけだ: logische Schlussfolgerung.",
+    formation: "Verb/Adj (Grundform) + わけだ",
+    examples: [
+      { japanese: "毎日練習してるから上手なわけだ。", romaji: "Mainichi renshū shiteru kara jōzu na wake da.", german: "Er übt täglich, kein Wunder dass er gut ist." },
+      { japanese: "道理で安いわけだ。", romaji: "Dōri de yasui wake da.", german: "Kein Wunder dass es billig ist." }
+    ],
+    notes: "わけがない = unmöglich. わけではない = nicht unbedingt.",
+    related: ["n4-hazu-da"]
+  },
+  {
+    id: "n4-beki-da",
+    pattern: "～べきだ",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Sollte (moralische Pflicht)",
+    explanation: "べきだ: starke Empfehlung oder Pflicht.",
+    formation: "Verb (辞書形) + べきだ",
+    examples: [
+      { japanese: "約束は守るべきだ。", romaji: "Yakusoku wa mamoru beki da.", german: "Man sollte Versprechen halten." },
+      { japanese: "もっと早く言うべきだった。", romaji: "Motto hayaku iu beki datta.", german: "Hätte ich früher sagen sollen." }
+    ],
+    notes: "する→すべき/するべき. Verneinung: ～べきではない.",
+    related: ["n4-hazu-da", "n4-nakereba-naranai"]
+  },
+  {
+    id: "n4-tsumori",
+    pattern: "～つもりだ",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Beabsichtigen, vorhaben",
+    explanation: "つもりだ: feste Absicht oder Plan.",
+    formation: "Verb (辞書形/ない形) + つもりだ",
+    examples: [
+      { japanese: "来年日本に行くつもりです。", romaji: "Rainen Nihon ni iku tsumori desu.", german: "Ich habe vor, nächstes Jahr nach Japan zu gehen." },
+      { japanese: "もう甘いものは食べないつもりだ。", romaji: "Mō amai mono wa tabenai tsumori da.", german: "Ich will keine Süßigkeiten mehr essen." }
+    ],
+    notes: "～たつもり = glauben es getan zu haben.",
+    related: ["n4-volitional", "n4-koto-ni-suru"]
+  },
+  {
+    id: "n4-tewa-ikenai",
+    pattern: "～てはいけない",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Darf nicht, verboten",
+    explanation: "てはいけない: Verbot.",
+    formation: "Verb (て-Form) + はいけない",
+    examples: [
+      { japanese: "ここで写真を撮ってはいけません。", romaji: "Koko de shashin o totte wa ikemasen.", german: "Hier darf man nicht fotografieren." },
+      { japanese: "授業中に寝てはいけない。", romaji: "Jugyō-chū ni nete wa ikenai.", german: "Im Unterricht darf man nicht schlafen." }
+    ],
+    notes: "Umgangssprache: ～ちゃだめ.",
+    related: ["n4-nakereba-naranai", "n4-nakutemo-ii"]
+  },
+  {
+    id: "n4-nakereba-naranai",
+    pattern: "～なければならない",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Muss, ist notwendig",
+    explanation: "なければならない: Pflicht oder Notwendigkeit.",
+    formation: "Verb (ない-Stamm) + なければならない",
+    examples: [
+      { japanese: "宿題をしなければならない。", romaji: "Shukudai o shinakereba naranai.", german: "Ich muss Hausaufgaben machen." },
+      { japanese: "明日早く起きなければなりません。", romaji: "Ashita hayaku okinakereba narimasen.", german: "Ich muss morgen früh aufstehen." }
+    ],
+    notes: "Kurzformen: ～なきゃ, ～なくちゃ.",
+    related: ["n4-tewa-ikenai", "n4-nakutemo-ii"]
+  },
+  {
+    id: "n4-nakutemo-ii",
+    pattern: "～なくてもいい",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Muss nicht, braucht nicht",
+    explanation: "なくてもいい: nicht notwendig.",
+    formation: "Verb (ない-Stamm) + なくてもいい",
+    examples: [
+      { japanese: "明日は来なくてもいいです。", romaji: "Ashita wa konakutemo ii desu.", german: "Du brauchst morgen nicht zu kommen." },
+      { japanese: "全部食べなくてもいいよ。", romaji: "Zenbu tabenakutemo ii yo.", german: "Du musst nicht alles essen." }
+    ],
+    notes: "Gegenteil: ～なければならない.",
+    related: ["n4-nakereba-naranai"]
+  },
+  {
+    id: "n4-ta-hou-ga-ii",
+    pattern: "～たほうがいい",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Sollte besser",
+    explanation: "たほうがいい: Rat oder Empfehlung.",
+    formation: "Verb (た形) + ほうがいい / Verb (ない形) + ほうがいい",
+    examples: [
+      { japanese: "早く寝たほうがいいですよ。", romaji: "Hayaku neta hō ga ii desu yo.", german: "Du solltest besser früh schlafen." },
+      { japanese: "飲まないほうがいい。", romaji: "Nomanai hō ga ii.", german: "Du solltest besser nicht trinken." }
+    ],
+    notes: "た形 = Empfehlung. ない形 = Abraten.",
+    related: ["n4-beki-da"]
+  },
+  {
+    id: "n4-to-conditional",
+    pattern: "～と (Konditional)",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Wenn/Immer wenn (natürliche Folge)",
+    explanation: "と: natürliche, automatische oder gewohnheitsmäßige Folge.",
+    formation: "Verb (辞書形/ない形) + と",
+    examples: [
+      { japanese: "春になると桜が咲く。", romaji: "Haru ni naru to sakura ga saku.", german: "Wenn Frühling wird, blühen die Kirschblüten." },
+      { japanese: "このボタンを押すとドアが開きます。", romaji: "Kono botan o osu to doa ga akimasu.", german: "Wenn man diesen Knopf drückt, öffnet sich die Tür." }
+    ],
+    notes: "Für Naturgesetze, Gewohnheiten, Wegbeschreibungen.",
+    related: ["n4-ba", "n4-nara"]
+  },
+  {
+    id: "n4-node",
+    pattern: "～ので",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Weil, da (höflich)",
+    explanation: "ので: höflicher und objektiver als から.",
+    formation: "Verb/い-Adj + ので / な-Adj + なので",
+    examples: [
+      { japanese: "熱があるので休みます。", romaji: "Netsu ga aru node yasumimasu.", german: "Da ich Fieber habe, bleibe ich daheim." },
+      { japanese: "静かなので勉強しやすい。", romaji: "Shizuka na node benkyō shiyasui.", german: "Da es ruhig ist, kann man gut lernen." }
+    ],
+    notes: "ので = objektiv/höflich. から = subjektiv/direkt.",
+    related: ["kara", "n4-shi"]
+  },
+  {
+    id: "n4-aida-ni",
+    pattern: "～間に / ～間",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Während (Zeitraum)",
+    explanation: "間に: innerhalb eines Zeitraums. 間: die gesamte Dauer.",
+    formation: "Verb (ている) + 間(に) / Nomen + の間(に)",
+    examples: [
+      { japanese: "母が寝ている間に掃除した。", romaji: "Haha ga neteiru aida ni sōji shita.", german: "Ich putzte, während Mutter schlief." },
+      { japanese: "夏休みの間旅行していた。", romaji: "Natsuyasumi no aida ryokō shiteita.", german: "In den Sommerferien war ich auf Reisen." }
+    ],
+    notes: "間に = punktuell. 間 = durchgehend.",
+    related: ["n4-nagara"]
+  },
+  {
+    id: "n4-mae-ni",
+    pattern: "～前に",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Bevor, vor",
+    explanation: "前に: vor einer Handlung oder einem Zeitpunkt.",
+    formation: "Verb (辞書形) + 前に / Nomen + の前に",
+    examples: [
+      { japanese: "寝る前に歯を磨きます。", romaji: "Neru mae ni ha o migakimasu.", german: "Vor dem Schlafen putze ich Zähne." },
+      { japanese: "食事の前に手を洗ってください。", romaji: "Shokuji no mae ni te o aratte kudasai.", german: "Waschen Sie sich vor dem Essen die Hände." }
+    ],
+    notes: "Immer mit 辞書形, nie mit た形.",
+    related: ["n4-ato-de"]
+  },
+  {
+    id: "n4-ato-de",
+    pattern: "～後で / ～てから",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Nachdem, nach",
+    explanation: "後で und てから: nach einer Handlung.",
+    formation: "Verb (た形) + 後で / Verb (て) + から",
+    examples: [
+      { japanese: "仕事が終わった後で飲みに行こう。", romaji: "Shigoto ga owatta ato de nomi ni ikō.", german: "Nach der Arbeit trinken gehen." },
+      { japanese: "ご飯を食べてから出かけます。", romaji: "Gohan o tabete kara dekakemasu.", german: "Ich gehe nach dem Essen aus." }
+    ],
+    notes: "てから betont Reihenfolge stärker.",
+    related: ["n4-mae-ni"]
+  },
+  {
+    id: "n4-made-ni",
+    pattern: "～までに",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Bis (Deadline)",
+    explanation: "までに: Frist, bis wann etwas erledigt sein muss.",
+    formation: "Zeitpunkt/Verb (辞書形) + までに",
+    examples: [
+      { japanese: "金曜日までにレポートを出してください。", romaji: "Kin'yōbi made ni repōto o dashite kudasai.", german: "Geben Sie den Bericht bis Freitag ab." },
+      { japanese: "電車が来るまでに切符を買おう。", romaji: "Densha ga kuru made ni kippu o kaō.", german: "Kaufen wir die Fahrkarte bevor der Zug kommt." }
+    ],
+    notes: "までに = Deadline. まで = durchgehend bis.",
+    related: ["made"]
+  },
+  {
+    id: "n4-relative-clause",
+    pattern: "Relativsätze",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Satz der ein Nomen beschreibt",
+    explanation: "Im Japanischen stehen Relativsätze vor dem Nomen. Kein Relativpronomen nötig.",
+    formation: "Verb/Adj (Grundform) + Nomen",
+    examples: [
+      { japanese: "昨日買った本はとても面白い。", romaji: "Kinō katta hon wa totemo omoshiroi.", german: "Das Buch das ich gestern kaufte ist sehr interessant." },
+      { japanese: "日本語を教えている先生は田中先生です。", romaji: "Nihongo o oshieteiru sensei wa Tanaka-sensei desu.", german: "Der Lehrer der Japanisch unterrichtet ist Tanaka." }
+    ],
+    notes: "Einfach den Satz vor das Nomen stellen.",
+    related: []
+  },
+  {
+    id: "n4-koto-ga-aru",
+    pattern: "～ことがある (manchmal)",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Es kommt vor dass",
+    explanation: "辞書形 + ことがある: etwas passiert gelegentlich.",
+    formation: "Verb (辞書形) + ことがある",
+    examples: [
+      { japanese: "朝ご飯を食べないことがある。", romaji: "Asagohan o tabenai koto ga aru.", german: "Es kommt vor dass ich nicht frühstücke." },
+      { japanese: "たまに遅刻することがあります。", romaji: "Tama ni chikoku suru koto ga arimasu.", german: "Gelegentlich komme ich zu spät." }
+    ],
+    notes: "辞書形 = manchmal. た形 = Erfahrung.",
+    related: ["n4-takotogaaru"]
+  },
+  {
+    id: "n4-koto-ni-natteiru",
+    pattern: "～ことになっている",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Es ist so geregelt dass",
+    explanation: "ことになっている: bestehende Regel oder Vereinbarung.",
+    formation: "Verb (辞書形/ない形) + ことになっている",
+    examples: [
+      { japanese: "この学校では制服を着ることになっている。", romaji: "Kono gakkō de wa seifuku o kiru koto ni natteiru.", german: "An dieser Schule muss man Uniform tragen." },
+      { japanese: "ここでは喫煙しないことになっています。", romaji: "Koko de wa kitsuen shinai koto ni natteimasu.", german: "Hier ist Rauchen nicht erlaubt." }
+    ],
+    notes: "Regel von außen festgelegt.",
+    related: ["n4-koto-ni-naru"]
+  },
+  {
+    id: "n4-toka",
+    pattern: "～とか",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Dinge wie, zum Beispiel",
+    explanation: "とか: informelles Auflisten von Beispielen.",
+    formation: "Nomen + とか + Nomen + とか",
+    examples: [
+      { japanese: "週末は映画とか買い物とかする。", romaji: "Shūmatsu wa eiga toka kaimono toka suru.", german: "Am Wochenende Filme schauen, einkaufen usw." },
+      { japanese: "りんごとかバナナとか買ってきて。", romaji: "Ringo toka banana toka katte kite.", german: "Kauf Äpfel, Bananen und so." }
+    ],
+    notes: "Informeller als ～など.",
+    related: ["n4-nado", "ya"]
+  },
+  {
+    id: "n4-tte",
+    pattern: "～って",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Informelles Zitat",
+    explanation: "って: umgangssprachliches と (Zitatpartikel).",
+    formation: "Satz + って",
+    examples: [
+      { japanese: "田中さんは来ないって。", romaji: "Tanaka-san wa konai tte.", german: "Tanaka sagt er kommt nicht." },
+      { japanese: "すみませんって日本語で何？", romaji: "Sumimasen tte nihongo de nani?", german: "Was bedeutet 'sumimasen'?" }
+    ],
+    notes: "～って言ってた = hat gesagt. ～っていう = namens.",
+    related: ["to-quote"]
+  },
+  {
+    id: "n4-ba-yokatta",
+    pattern: "～ばよかった",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Hätte sollen",
+    explanation: "ばよかった: Bedauern über etwas nicht Getanes.",
+    formation: "Verb (ば-Form) + よかった",
+    examples: [
+      { japanese: "もっと勉強すればよかった。", romaji: "Motto benkyō sureba yokatta.", german: "Ich hätte mehr lernen sollen." },
+      { japanese: "傘を持ってくればよかった。", romaji: "Kasa o motte kureba yokatta.", german: "Hätte ich einen Schirm mitgenommen." }
+    ],
+    notes: "Verneinung: ～なければよかった (hätte es nicht tun sollen).",
+    related: ["n4-ba"]
+  },
+  {
+    id: "n4-te-itadakemasenka",
+    pattern: "～ていただけませんか",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Könnten Sie bitte (sehr höflich)",
+    explanation: "ていただけませんか: sehr höfliche Bitte.",
+    formation: "Verb (て-Form) + いただけませんか",
+    examples: [
+      { japanese: "少々お待ちいただけませんか。", romaji: "Shōshō omachi itadakemasen ka.", german: "Könnten Sie bitte kurz warten?" },
+      { japanese: "もう一度説明していただけませんか。", romaji: "Mō ichido setsumei shite itadakemasen ka.", german: "Könnten Sie es nochmal erklären?" }
+    ],
+    notes: "てください < てもらえませんか < ていただけませんか.",
+    related: ["kudasai", "n4-temorau"]
+  },
+  {
+    id: "n4-hodo-nai",
+    pattern: "～ほど～ない",
+    level: "N4",
+    category: "Satzstrukturen",
+    meaning: "Nicht so ... wie",
+    explanation: "ほど～ない: negativer Vergleich.",
+    formation: "A は B ほど + Adj (ない形)",
+    examples: [
+      { japanese: "東京は大阪ほど暑くない。", romaji: "Tōkyō wa Ōsaka hodo atsuku nai.", german: "Tokio ist nicht so heiß wie Osaka." },
+      { japanese: "日本語は中国語ほど難しくない。", romaji: "Nihongo wa chūgokugo hodo muzukashiku nai.", german: "Japanisch ist nicht so schwer wie Chinesisch." }
+    ],
+    notes: "Negativer Vergleich. Positiv: ～より～のほうが.",
+    related: ["n4-yori", "n4-hodo-p"]
   }
 ];
