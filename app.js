@@ -223,7 +223,8 @@
     var vocabSources = [
       window.VOCAB_N5 || [],
       window.VOCAB_N4 || [],
-      window.VOCAB_N3 || []
+      window.VOCAB_N3 || [],
+      window.VOCAB_N2 || []
     ];
     allVocab = [].concat.apply([], vocabSources);
     if (allVocab.length > 0) {
