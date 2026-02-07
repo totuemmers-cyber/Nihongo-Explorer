@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nihongo Explorer - JLPT N5-N2</title>
+  <title>Nihongo Explorer - JLPT N5-N1</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
       <div class="header-hero">
         <div class="hero-text">
           <h1><span class="hero-kanji">日本語</span> Nihongo Explorer</h1>
-          <p class="hero-tagline">~1200 Kanji, Grammatik &amp; mehr — JLPT N5 bis N2</p>
+          <p class="hero-tagline">~2200 Kanji, Grammatik &amp; mehr — JLPT N5 bis N1 (alle Jōyō)</p>
         </div>
         <div class="header-actions">
           <span id="item-count" class="badge-count">0</span>
@@ -69,6 +69,7 @@
             <button class="filter-btn n4" data-level="N4">N4</button>
             <button class="filter-btn n3" data-level="N3">N3</button>
             <button class="filter-btn n2" data-level="N2">N2</button>
+            <button class="filter-btn n1" data-level="N1">N1</button>
           </div>
           <div class="sort-controls">
             <select id="sort-select">
@@ -319,6 +320,7 @@
     </div>
 
   <script src="kanji-data.js"></script>
+  <script src="kanji-n1.js"></script>
   <script src="grammar-data.js"></script>
   <script src="grammar-n2.js"></script>
   <script src="vocab-n5.js"></script>

@@ -32,6 +32,9 @@
   --n2: #e11d48;
   --n2-bg: #fff1f2;
   --n2-border: #fecdd3;
+  --n1: #b45309;
+  --n1-bg: #fffbeb;
+  --n1-border: #fbbf24;
   --accent: #6366f1;
   --accent-hover: #4f46e5;
   --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
@@ -91,6 +94,8 @@
   --n3-border: #5b21b6;
   --n2-bg: #881337;
   --n2-border: #9f1239;
+  --n1-bg: #78350f;
+  --n1-border: #b45309;
   --cat-partikel-bg: #1e3a5f;
   --cat-partikel-border: #2563eb;
   --cat-verben-bg: #064e3b;
@@ -412,6 +417,12 @@ body {
   border-color: var(--n2);
 }
 
+.filter-btn.n1:hover, .filter-btn.n1.active {
+  background: var(--n1);
+  color: white;
+  border-color: var(--n1);
+}
+
 .sort-controls select {
   padding: 6px 12px;
   border: 2px solid var(--border);
@@ -521,6 +532,12 @@ main {
   background: var(--n2-bg);
   color: var(--n2);
   border: 1px solid var(--n2-border);
+}
+
+.card-level.N1 {
+  background: var(--n1-bg);
+  color: var(--n1);
+  border: 1px solid var(--n1-border);
 }
 
 .card-kanji {
@@ -687,6 +704,12 @@ main {
   background: var(--n2-bg);
   color: var(--n2);
   border: 1px solid var(--n2-border);
+}
+
+.detail-jlpt-badge.N1 {
+  background: var(--n1-bg);
+  color: var(--n1);
+  border: 1px solid var(--n1-border);
 }
 
 .detail-meanings {
