@@ -2249,5 +2249,6 @@ window.VOCAB_N3 = [
 {word:"脚絆",reading:"きゃはん",romaji:"kyahan",meaning:"Gamaschen",type:"Nomen",level:"N3",category:"Alltag",examples:[{japanese:"脚絆を巻きます。",romaji:"Kyahan o makimasu.",german:"Ich wickle die Gamaschen um."}]},
 {word:"草鞋",reading:"わらじ",romaji:"waraji",meaning:"Strohsandalen",type:"Nomen",level:"N3",category:"Alltag",examples:[{japanese:"昔は草鞋を履いて旅をしました。",romaji:"Mukashi wa waraji o haite tabi o shimashita.",german:"Früher reiste man in Strohsandalen."}]},
 {word:"万華鏡",reading:"まんげきょう",romaji:"mangekyou",meaning:"Kaleidoskop",type:"Nomen",level:"N3",category:"Freizeit",examples:[{japanese:"万華鏡を覗きます。",romaji:"Mangekyou o nozokimasu.",german:"Ich schaü durch das Kaleidoskop."}]},
-{word:"達磨",reading:"だるま",romaji:"daruma",meaning:"Daruma-Puppe",type:"Nomen",level:"N3",category:"Alltag",examples:[{japanese:"達磨に目を入れます。",romaji:"Daruma ni me o iremasu.",german:"Ich male dem Daruma ein Auge."}]}
+{word:"達磨",reading:"だるま",romaji:"daruma",meaning:"Daruma-Puppe",type:"Nomen",level:"N3",category:"Alltag",examples:[{japanese:"達磨に目を入れます。",romaji:"Daruma ni me o iremasu.",german:"Ich male dem Daruma ein Auge."}]},
+{word:"間もなく",reading:"まもなく",romaji:"mamonaku",meaning:"bald, in Kürze",type:"Adverb",level:"N3",category:"Zeit",examples:[{japanese:"電車が間もなく到着します。",romaji:"Densha ga mamonaku touchaku shimasu.",german:"Der Zug kommt in Kürze an."},{japanese:"間もなく会議が始まります。",romaji:"Mamonaku kaigi ga hajimarimasu.",german:"Die Besprechung beginnt gleich."}]}
 ];

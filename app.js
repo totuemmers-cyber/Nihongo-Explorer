@@ -123,6 +123,8 @@
   const kanjiTab = document.getElementById('kanji-tab');
   const grammarTab = document.getElementById('grammar-tab');
   const vocabTab = document.getElementById('vocab-tab');
+  const hiraganaTab = document.getElementById('hiragana-tab');
+  const katakanaTab = document.getElementById('katakana-tab');
 
   // Kanji DOM
   const grid = document.getElementById('kanji-grid');
@@ -169,7 +171,7 @@
       btn.classList.toggle('active', btn.getAttribute('data-tab') === tab);
     });
 
-    // Toggle controls
+    // Toggle controls (kana tabs have no controls)
     kanjiControls.classList.toggle('hidden', tab !== 'kanji');
     grammarControls.classList.toggle('hidden', tab !== 'grammar');
     vocabControls.classList.toggle('hidden', tab !== 'vocab');
@@ -178,6 +180,8 @@
     kanjiTab.classList.toggle('hidden', tab !== 'kanji');
     grammarTab.classList.toggle('hidden', tab !== 'grammar');
     vocabTab.classList.toggle('hidden', tab !== 'vocab');
+    hiraganaTab.classList.toggle('hidden', tab !== 'hiragana');
+    katakanaTab.classList.toggle('hidden', tab !== 'katakana');
 
     // Update count badge
     updateCount();
@@ -235,6 +239,10 @@
       itemCountEl.textContent = filteredKanji.length + ' Kanji';
     } else if (activeTab === 'grammar') {
       itemCountEl.textContent = filteredGrammar.length + ' Grammatik';
+    } else if (activeTab === 'hiragana') {
+      itemCountEl.textContent = 'Hiragana';
+    } else if (activeTab === 'katakana') {
+      itemCountEl.textContent = 'Katakana';
     } else {
       itemCountEl.textContent = filteredVocab.length + ' Vokabeln';
     }
@@ -866,6 +874,9 @@
       document.documentElement.setAttribute('data-theme', 'dark');
       localStorage.setItem('kanji-theme', 'dark');
     }
+    if (typeof updateKanaDarkMode === 'function') {
+      setTimeout(updateKanaDarkMode, 50);
+    }
   }
 
   // === EVENT LISTENERS ===
@@ -1104,6 +1115,7 @@
 
     // No overlay open
     if (e.key === '/') {
+      if (activeTab === 'hiragana' || activeTab === 'katakana') return;
       var activeInput = activeTab === 'kanji' ? searchInput :
         activeTab === 'grammar' ? grammarSearchInput : vocabSearchInput;
       if (document.activeElement !== activeInput) {
@@ -1113,7 +1125,175 @@
     }
   });
 
+  // ==========================================
+  // === KANA SECTION (Hiragana & Katakana) ===
+  // ==========================================
+
+  function buildKanaTable(rows, type, colHeaders, isYoon) {
+    var table = document.createElement('table');
+    table.className = 'kana-table' + (isYoon ? ' yoon-table' : '');
+
+    // Header
+    var thead = document.createElement('thead');
+    var headerRow = document.createElement('tr');
+    var thLabel = document.createElement('th');
+    thLabel.textContent = '';
+    headerRow.appendChild(thLabel);
+    colHeaders.forEach(function (h) {
+      var th = document.createElement('th');
+      th.textContent = h;
+      headerRow.appendChild(th);
+    });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    // Body
+    var tbody = document.createElement('tbody');
+    var colors = window.KANA_DATA.rowColors;
+
+    rows.forEach(function (rowData) {
+      var tr = document.createElement('tr');
+      var rowColor = colors[rowData.row] || colors['vowel'];
+
+      // Row label
+      var tdLabel = document.createElement('td');
+      tdLabel.className = 'kana-row-label';
+      tdLabel.textContent = rowData.label;
+      tdLabel.style.borderLeft = '3px solid ' + rowColor.color;
+      tr.appendChild(tdLabel);
+
+      rowData.chars.forEach(function (ch) {
+        var td = document.createElement('td');
+        td.className = 'kana-cell';
+
+        if (ch) {
+          var inner = document.createElement('div');
+          inner.className = 'kana-cell-inner';
+          inner.setAttribute('data-row', rowData.row);
+          var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+          inner.style.background = isDark ? rowColor.darkBg : rowColor.bg;
+          inner.style.borderColor = isDark ? rowColor.darkBorder : rowColor.border;
+
+          var charSpan = document.createElement('span');
+          charSpan.className = 'kana-char';
+          charSpan.textContent = type === 'hiragana' ? ch.h : ch.k;
+
+          var romajiSpan = document.createElement('span');
+          romajiSpan.className = 'kana-romaji';
+          romajiSpan.textContent = ch.r;
+          romajiSpan.style.color = rowColor.color;
+
+          inner.appendChild(charSpan);
+          inner.appendChild(romajiSpan);
+
+          inner.addEventListener('click', function () {
+            playTick();
+            speakKana(type === 'hiragana' ? ch.h : ch.k);
+          });
+
+          td.appendChild(inner);
+        } else {
+          var empty = document.createElement('div');
+          empty.className = 'kana-cell-empty';
+          td.appendChild(empty);
+        }
+
+        tr.appendChild(td);
+      });
+
+      tbody.appendChild(tr);
+    });
+
+    table.appendChild(tbody);
+    return table;
+  }
+
+  function speakKana(char) {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      var utterance = new SpeechSynthesisUtterance(char);
+      utterance.lang = 'ja-JP';
+      utterance.rate = 0.8;
+      utterance.volume = 0.8;
+      window.speechSynthesis.speak(utterance);
+    }
+  }
+
+  function createKanaSection(title, icon, rows, type, colHeaders, isYoon) {
+    var section = document.createElement('div');
+    section.className = 'kana-section';
+
+    var header = document.createElement('div');
+    header.className = 'kana-section-header';
+    var iconSpan = document.createElement('span');
+    iconSpan.className = 'kana-section-icon';
+    iconSpan.textContent = icon;
+    header.appendChild(iconSpan);
+    var titleSpan = document.createElement('span');
+    titleSpan.textContent = title;
+    header.appendChild(titleSpan);
+    section.appendChild(header);
+
+    var wrapper = document.createElement('div');
+    wrapper.className = 'kana-table-wrapper';
+    wrapper.appendChild(buildKanaTable(rows, type, colHeaders, isYoon));
+    section.appendChild(wrapper);
+
+    return section;
+  }
+
+  function renderKanaTab(type) {
+    var container = document.getElementById(type + '-content');
+    if (!container || container.children.length > 0) return;
+
+    var data = window.KANA_DATA;
+    if (!data) return;
+
+    var vowelHeaders = ['a', 'i', 'u', 'e', 'o'];
+    var yoonHeaders = ['ya', 'yu', 'yo'];
+
+    var basisTitle = type === 'hiragana' ? 'Basis (Gojūon)' : 'Basis (Gojūon)';
+    var basisIcon = type === 'hiragana' ? 'あ' : 'ア';
+    container.appendChild(createKanaSection(basisTitle, basisIcon, data.gojuon, type, vowelHeaders, false));
+
+    var dakutenTitle = 'Dakuten / Handakuten';
+    var dakutenIcon = type === 'hiragana' ? 'が' : 'ガ';
+    container.appendChild(createKanaSection(dakutenTitle, dakutenIcon, data.dakuten, type, vowelHeaders, false));
+
+    var yoonTitle = 'Kombinationen (Yōon)';
+    var yoonIcon = type === 'hiragana' ? 'きゃ' : 'キャ';
+    container.appendChild(createKanaSection(yoonTitle, yoonIcon, data.yoon, type, yoonHeaders, true));
+  }
+
+  // Apply dark mode colors to kana cells
+  function updateKanaDarkMode() {
+    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var colors = window.KANA_DATA ? window.KANA_DATA.rowColors : null;
+    if (!colors) return;
+
+    document.querySelectorAll('.kana-cell-inner').forEach(function (cell) {
+      var rowKey = cell.getAttribute('data-row');
+      if (rowKey && colors[rowKey]) {
+        cell.style.background = isDark ? colors[rowKey].darkBg : colors[rowKey].bg;
+        cell.style.borderColor = isDark ? colors[rowKey].darkBorder : colors[rowKey].border;
+      }
+    });
+  }
+
   // === INIT ===
   initTheme();
   loadData();
+
+  // Render kana tabs (lazy - on first switch)
+  var originalSwitchTab = switchTab;
+  switchTab = function (tab) {
+    originalSwitchTab(tab);
+    if (tab === 'hiragana') {
+      renderKanaTab('hiragana');
+      updateKanaDarkMode();
+    } else if (tab === 'katakana') {
+      renderKanaTab('katakana');
+      updateKanaDarkMode();
+    }
+  };
 })();
