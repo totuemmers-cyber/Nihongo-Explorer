@@ -34,6 +34,13 @@
   let vocabBatchSize = 100;
   let isVocabRendering = false;
 
+  // Counters state
+  let allCounters = [];
+  let filteredCounters = [];
+  let currentCounterDetailIndex = -1;
+  let activeCounterCategory = 'all';
+  let countersRendered = false;
+
   let soundEnabled = localStorage.getItem('kanji-sound') !== 'off';
 
   // === WEB AUDIO API - Sound Engine ===
@@ -161,6 +168,15 @@
   const vocabNoResults = document.getElementById('vocab-no-results');
   const vocabOverlay = document.getElementById('vocab-detail-overlay');
 
+  // Counters DOM
+  const countersControls = document.getElementById('counters-controls');
+  const countersTab = document.getElementById('counters-tab');
+  const countersGrid = document.getElementById('counters-grid');
+  const countersSearchInput = document.getElementById('counters-search-input');
+  const countersClearSearchBtn = document.getElementById('counters-clear-search');
+  const countersNoResults = document.getElementById('counters-no-results');
+  const counterOverlay = document.getElementById('counter-detail-overlay');
+
   // === TAB SYSTEM ===
   function switchTab(tab) {
     activeTab = tab;
@@ -175,11 +191,13 @@
     kanjiControls.classList.toggle('hidden', tab !== 'kanji');
     grammarControls.classList.toggle('hidden', tab !== 'grammar');
     vocabControls.classList.toggle('hidden', tab !== 'vocab');
+    countersControls.classList.toggle('hidden', tab !== 'counters');
 
     // Toggle content
     kanjiTab.classList.toggle('hidden', tab !== 'kanji');
     grammarTab.classList.toggle('hidden', tab !== 'grammar');
     vocabTab.classList.toggle('hidden', tab !== 'vocab');
+    countersTab.classList.toggle('hidden', tab !== 'counters');
     hiraganaTab.classList.toggle('hidden', tab !== 'hiragana');
     katakanaTab.classList.toggle('hidden', tab !== 'katakana');
 
@@ -239,6 +257,12 @@
       applyVocabFilters();
     }
 
+    // Counters data
+    if (window.COUNTERS_DATA && window.COUNTERS_DATA.counters) {
+      allCounters = window.COUNTERS_DATA.counters;
+      applyCounterFilters();
+    }
+
     updateCount();
   }
 
@@ -248,6 +272,8 @@
       itemCountEl.textContent = filteredKanji.length + ' Kanji';
     } else if (activeTab === 'grammar') {
       itemCountEl.textContent = filteredGrammar.length + ' Grammatik';
+    } else if (activeTab === 'counters') {
+      itemCountEl.textContent = filteredCounters.length + ' Zählwörter';
     } else if (activeTab === 'hiragana') {
       itemCountEl.textContent = 'Hiragana';
     } else if (activeTab === 'katakana') {
@@ -866,6 +892,229 @@
     }
   }
 
+  // ==========================================
+  // === COUNTERS SECTION (Zahlen & Zählwörter) ===
+  // ==========================================
+
+  function renderBasicNumbers() {
+    var container = document.getElementById('counters-numbers-section');
+    if (!container || container.children.length > 0) return;
+    var data = window.COUNTERS_DATA;
+    if (!data || !data.basicNumbers) return;
+
+    var section = document.createElement('div');
+    section.className = 'counters-numbers-section';
+
+    var header = document.createElement('div');
+    header.className = 'counters-numbers-header';
+    header.innerHTML = '<span class="tab-icon-kana" style="font-family:var(--font-jp)">数</span> Grundzahlen' +
+      '<svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+
+    var body = document.createElement('div');
+    body.className = 'counters-numbers-body';
+
+    var wrapper = document.createElement('div');
+    wrapper.className = 'numbers-table-wrapper';
+
+    var table = document.createElement('table');
+    table.className = 'numbers-table';
+    table.innerHTML = '<thead><tr><th>Zahl</th><th>Kanji</th><th>Hiragana</th><th>Romaji</th><th>Hinweis</th></tr></thead>';
+
+    var tbody = document.createElement('tbody');
+    data.basicNumbers.forEach(function (n) {
+      var tr = document.createElement('tr');
+      tr.innerHTML =
+        '<td><strong>' + n.number + '</strong></td>' +
+        '<td class="num-kanji">' + n.kanji + '</td>' +
+        '<td class="num-hiragana">' + n.hiragana + '</td>' +
+        '<td class="num-romaji">' + n.romaji + '</td>' +
+        '<td class="num-notes">' + (n.notes || '—') + '</td>';
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    wrapper.appendChild(table);
+    body.appendChild(wrapper);
+
+    header.addEventListener('click', function () {
+      playTick();
+      var icon = header.querySelector('.toggle-icon');
+      body.classList.toggle('collapsed');
+      icon.classList.toggle('collapsed');
+    });
+
+    section.appendChild(header);
+    section.appendChild(body);
+    container.appendChild(section);
+  }
+
+  function applyCounterFilters() {
+    var query = countersSearchInput.value.trim().toLowerCase();
+    filteredCounters = allCounters.filter(function (c) {
+      if (activeCounterCategory !== 'all' && c.category !== activeCounterCategory) return false;
+      if (query) {
+        var matchKanji = c.kanji.indexOf(query) !== -1;
+        var matchReading = c.reading.indexOf(query) !== -1;
+        var matchRomaji = c.romaji.toLowerCase().indexOf(query) !== -1;
+        var matchMeaning = c.meaning.toLowerCase().indexOf(query) !== -1;
+        var matchUsage = c.usage.toLowerCase().indexOf(query) !== -1;
+        var matchCounts = c.counts && c.counts.some(function (ct) {
+          return ct.reading.indexOf(query) !== -1 || ct.romaji.toLowerCase().indexOf(query) !== -1 || ct.kanji.indexOf(query) !== -1;
+        });
+        if (!matchKanji && !matchReading && !matchRomaji && !matchMeaning && !matchUsage && !matchCounts) return false;
+      }
+      return true;
+    });
+
+    renderCounters();
+    updateCount();
+  }
+
+  function renderCounters() {
+    countersGrid.innerHTML = '';
+    var fragment = document.createDocumentFragment();
+
+    for (var i = 0; i < filteredCounters.length; i++) {
+      fragment.appendChild(createCounterCard(filteredCounters[i], i));
+    }
+
+    countersGrid.appendChild(fragment);
+    countersNoResults.classList.toggle('hidden', filteredCounters.length > 0);
+  }
+
+  function createCounterCard(c, index) {
+    var card = document.createElement('div');
+    card.className = 'counter-card';
+    card.setAttribute('data-index', index);
+
+    // Build preview of first few numbers with shift indicators
+    var previewHtml = '';
+    if (c.counts) {
+      var previews = c.counts.slice(0, 5).map(function (ct) {
+        var cls = ct.shift ? 'counter-card-preview-item has-shift' : 'counter-card-preview-item';
+        return '<span class="' + cls + '">' + ct.kanji + '</span>';
+      });
+      previewHtml = '<div class="counter-card-preview">' + previews.join('') + '</div>';
+    }
+
+    card.innerHTML =
+      '<div class="counter-card-header">' +
+        '<span class="counter-card-kanji">' + c.kanji + '</span>' +
+        '<span class="counter-card-badge ' + c.category + '">' + c.category + '</span>' +
+      '</div>' +
+      '<div class="counter-card-reading">' + c.reading + ' (' + c.romaji + ')</div>' +
+      '<div class="counter-card-meaning">' + c.meaning + '</div>' +
+      previewHtml;
+
+    card.addEventListener('click', function () {
+      playTick();
+      openCounterDetail(index);
+    });
+    return card;
+  }
+
+  function openCounterDetail(index) {
+    if (index < 0 || index >= filteredCounters.length) return;
+    currentCounterDetailIndex = index;
+    var c = filteredCounters[index];
+
+    document.getElementById('counter-detail-kanji').textContent = c.kanji;
+    var catBadge = document.getElementById('counter-detail-cat');
+    catBadge.textContent = c.category;
+    catBadge.className = 'counter-category-badge ' + c.category;
+
+    document.getElementById('counter-detail-reading').textContent = c.reading + ' (' + c.romaji + ')';
+    document.getElementById('counter-detail-meaning').textContent = c.meaning;
+    document.getElementById('counter-detail-usage').textContent = c.usage;
+
+    // Question word
+    var questionEl = document.getElementById('counter-detail-question');
+    if (c.questionWord) {
+      questionEl.innerHTML =
+        '<span class="counter-question-kanji">' + c.questionWord.kanji + '</span>' +
+        '<span class="counter-question-reading">' + c.questionWord.reading + '</span>' +
+        '<span class="counter-question-romaji">' + c.questionWord.romaji + '</span>';
+    }
+
+    // Count table
+    var tableEl = document.getElementById('counter-detail-table');
+    if (c.counts && c.counts.length > 0) {
+      var tableHtml = '<table class="counter-table">' +
+        '<thead><tr><th>#</th><th>Kanji</th><th>Lesung</th><th>Romaji</th></tr></thead><tbody>';
+      c.counts.forEach(function (ct) {
+        var rowClass = ct.shift ? ' class="shift-row"' : '';
+        var readingHtml = ct.shift
+          ? '<span class="shift-highlight">' + ct.reading + '</span>'
+          : ct.reading;
+        tableHtml += '<tr' + rowClass + '>' +
+          '<td class="ct-num">' + ct.num + '</td>' +
+          '<td class="ct-kanji">' + ct.kanji + '</td>' +
+          '<td class="ct-reading">' + readingHtml + '</td>' +
+          '<td class="ct-romaji">' + ct.romaji + '</td>' +
+        '</tr>';
+      });
+      tableHtml += '</tbody></table>';
+      tableEl.innerHTML = tableHtml;
+    }
+
+    // Special counts
+    var specialSection = document.getElementById('counter-detail-special-section');
+    var specialEl = document.getElementById('counter-detail-special');
+    if (c.specialCounts && c.specialCounts.length > 0) {
+      specialEl.innerHTML = c.specialCounts.map(function (sc) {
+        return '<div class="counter-special-item">' +
+          '<span class="cs-kanji">' + sc.kanji + '</span>' +
+          '<span class="cs-reading">' + sc.reading + '</span>' +
+          '<span class="cs-romaji">' + sc.romaji + '</span>' +
+          (sc.note ? '<span class="cs-note">' + sc.note + '</span>' : '') +
+        '</div>';
+      }).join('');
+      specialSection.classList.remove('hidden');
+    } else {
+      specialSection.classList.add('hidden');
+    }
+
+    // Examples
+    var examplesEl = document.getElementById('counter-detail-examples');
+    if (c.examples && c.examples.length > 0) {
+      examplesEl.innerHTML = c.examples.map(function (ex) {
+        return '<div class="grammar-example-item">' +
+          '<div class="grammar-example-jp">' + ex.japanese + '</div>' +
+          '<div class="grammar-example-romaji">' + ex.romaji + '</div>' +
+          '<div class="grammar-example-german">' + ex.german + '</div>' +
+        '</div>';
+      }).join('');
+    } else {
+      examplesEl.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
+    }
+
+    // Notes
+    var notesSection = document.getElementById('counter-detail-notes-section');
+    var notesEl = document.getElementById('counter-detail-notes');
+    if (c.notes && c.notes.length > 0) {
+      notesEl.textContent = c.notes;
+      notesSection.classList.remove('hidden');
+    } else {
+      notesSection.classList.add('hidden');
+    }
+
+    counterOverlay.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    playPop();
+  }
+
+  function closeCounterDetail() {
+    counterOverlay.classList.add('hidden');
+    document.body.style.overflow = '';
+    currentCounterDetailIndex = -1;
+  }
+
+  function navigateCounterDetail(direction) {
+    var newIndex = currentCounterDetailIndex + direction;
+    if (newIndex >= 0 && newIndex < filteredCounters.length) {
+      openCounterDetail(newIndex);
+    }
+  }
+
   // === THEME ===
   function initTheme() {
     var saved = localStorage.getItem('kanji-theme');
@@ -1060,6 +1309,48 @@
     navigateVocabDetail(1);
   });
 
+  // Counters search
+  var countersSearchTimeout;
+  countersSearchInput.addEventListener('input', function () {
+    clearTimeout(countersSearchTimeout);
+    countersClearSearchBtn.classList.toggle('visible', countersSearchInput.value.length > 0);
+    countersSearchTimeout = setTimeout(function () {
+      applyCounterFilters();
+    }, 200);
+  });
+
+  countersClearSearchBtn.addEventListener('click', function () {
+    countersSearchInput.value = '';
+    countersClearSearchBtn.classList.remove('visible');
+    applyCounterFilters();
+    countersSearchInput.focus();
+  });
+
+  // Counters category filters
+  countersControls.querySelectorAll('.counter-cat').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      countersControls.querySelectorAll('.counter-cat').forEach(function (b) {
+        b.classList.remove('active');
+      });
+      this.classList.add('active');
+      activeCounterCategory = this.getAttribute('data-ccat');
+      playSwoosh();
+      applyCounterFilters();
+    });
+  });
+
+  // Counter detail overlay
+  document.getElementById('counter-close-detail').addEventListener('click', closeCounterDetail);
+  counterOverlay.addEventListener('click', function (e) {
+    if (e.target === counterOverlay) closeCounterDetail();
+  });
+  document.getElementById('prev-counter').addEventListener('click', function () {
+    navigateCounterDetail(-1);
+  });
+  document.getElementById('next-counter').addEventListener('click', function () {
+    navigateCounterDetail(1);
+  });
+
   // Theme
   themeToggle.addEventListener('click', function () {
     playTick();
@@ -1088,6 +1379,10 @@
       if (filteredGrammar.length === 0) return;
       var gIdx = Math.floor(Math.random() * filteredGrammar.length);
       openGrammarDetail(gIdx);
+    } else if (activeTab === 'counters') {
+      if (filteredCounters.length === 0) return;
+      var cIdx = Math.floor(Math.random() * filteredCounters.length);
+      openCounterDetail(cIdx);
     } else {
       if (filteredVocab.length === 0) return;
       var vIdx = Math.floor(Math.random() * filteredVocab.length);
@@ -1100,6 +1395,7 @@
     var kanjiOverlayOpen = !overlay.classList.contains('hidden');
     var grammarOverlayOpen = !grammarOverlay.classList.contains('hidden');
     var vocabOverlayOpen = !vocabOverlay.classList.contains('hidden');
+    var counterOverlayOpen = !counterOverlay.classList.contains('hidden');
 
     if (kanjiOverlayOpen) {
       if (e.key === 'Escape') closeDetail();
@@ -1122,11 +1418,19 @@
       return;
     }
 
+    if (counterOverlayOpen) {
+      if (e.key === 'Escape') closeCounterDetail();
+      if (e.key === 'ArrowLeft') navigateCounterDetail(-1);
+      if (e.key === 'ArrowRight') navigateCounterDetail(1);
+      return;
+    }
+
     // No overlay open
     if (e.key === '/') {
       if (activeTab === 'hiragana' || activeTab === 'katakana') return;
       var activeInput = activeTab === 'kanji' ? searchInput :
-        activeTab === 'grammar' ? grammarSearchInput : vocabSearchInput;
+        activeTab === 'grammar' ? grammarSearchInput :
+        activeTab === 'counters' ? countersSearchInput : vocabSearchInput;
       if (document.activeElement !== activeInput) {
         e.preventDefault();
         activeInput.focus();
@@ -1303,6 +1607,11 @@
     } else if (tab === 'katakana') {
       renderKanaTab('katakana');
       updateKanaDarkMode();
+    } else if (tab === 'counters') {
+      if (!countersRendered) {
+        renderBasicNumbers();
+        countersRendered = true;
+      }
     }
   };
 })();
