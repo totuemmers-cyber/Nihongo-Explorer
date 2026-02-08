@@ -46,6 +46,10 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
           Vokabeln
         </button>
+        <button class="tab-btn" data-tab="counters">
+          <span class="tab-icon-kana">数</span>
+          Zahlen
+        </button>
         <button class="tab-btn" data-tab="hiragana">
           <span class="tab-icon-kana">あ</span>
           Hiragana
@@ -157,6 +161,23 @@
           </div>
         </div>
       </div>
+      <!-- Counters Tab Controls -->
+      <div id="counters-controls" class="tab-content hidden">
+        <div class="search-bar">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="counters-search-input" placeholder="Suche nach Zählwort, Bedeutung, Lesung..." autocomplete="off">
+          <button id="counters-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn counter-cat active" data-ccat="all">Alle</button>
+            <button class="filter-btn counter-cat cc-menschen" data-ccat="Menschen">Menschen</button>
+            <button class="filter-btn counter-cat cc-objekte" data-ccat="Objekte">Objekte</button>
+            <button class="filter-btn counter-cat cc-tiere" data-ccat="Tiere">Tiere</button>
+            <button class="filter-btn counter-cat cc-zeit" data-ccat="Zeit">Zeit</button>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -191,6 +212,14 @@
         <div id="vocab-loading" class="loading hidden">
           <div class="loading-spinner"></div>
           <span>Lade Vokabel-Daten...</span>
+        </div>
+      </div>
+      <!-- Counters Tab Content -->
+      <div id="counters-tab" class="tab-panel hidden">
+        <div id="counters-numbers-section"></div>
+        <div id="counters-grid" class="counters-grid"></div>
+        <div id="counters-no-results" class="no-results hidden">
+          <p>Keine Zählwörter gefunden.</p>
         </div>
       </div>
       <!-- Hiragana Tab Content -->
@@ -321,6 +350,49 @@
       </div>
     </div>
 
+    <div id="counter-detail-overlay" class="detail-overlay hidden">
+      <div class="detail-panel counter-detail-panel">
+        <button id="counter-close-detail" class="btn-close" title="Schließen">&times;</button>
+        <div class="detail-nav">
+          <button id="prev-counter" class="btn btn-nav" title="Vorheriges Zählwort">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button id="next-counter" class="btn btn-nav" title="Nächstes Zählwort">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="detail-content">
+          <div class="counter-detail-header">
+            <span id="counter-detail-kanji" class="counter-detail-kanji"></span>
+            <span id="counter-detail-cat" class="counter-category-badge"></span>
+          </div>
+          <div id="counter-detail-reading" class="counter-detail-reading"></div>
+          <div id="counter-detail-meaning" class="counter-detail-meaning"></div>
+          <div id="counter-detail-usage" class="counter-detail-usage"></div>
+          <div class="grammar-detail-section">
+            <h3>Fragewort</h3>
+            <div id="counter-detail-question" class="counter-question-box"></div>
+          </div>
+          <div class="grammar-detail-section">
+            <h3>Zähltabelle (1-10)</h3>
+            <div id="counter-detail-table" class="counter-table-wrap"></div>
+          </div>
+          <div id="counter-detail-special-section" class="grammar-detail-section hidden">
+            <h3>Besondere Formen</h3>
+            <div id="counter-detail-special" class="counter-special-list"></div>
+          </div>
+          <div class="grammar-detail-section">
+            <h3>Beispiele</h3>
+            <div id="counter-detail-examples" class="grammar-examples"></div>
+          </div>
+          <div id="counter-detail-notes-section" class="grammar-detail-section">
+            <h3>Hinweise</h3>
+            <div id="counter-detail-notes" class="grammar-notes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   <script src="kanji-data.js"></script>
   <script src="kanji-n1.js"></script>
   <script src="grammar-data.js"></script>
@@ -332,6 +404,7 @@
   <script src="vocab-n2.js"></script>
   <script src="vocab-n1.js"></script>
   <script src="kana-data.js"></script>
+  <script src="counters-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
