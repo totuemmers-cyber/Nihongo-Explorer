@@ -430,6 +430,39 @@ window.COUNTERS_DATA = {
       notes: 'Besonders viele Lautverschiebungen! ふん wechselt zu ぷん bei 1, 3, 4, 6, 8, 10. 十分 (じゅっぷん) als Minuten vs. 十分 (じゅうぶん) = „genug".'
     },
     {
+      id: 'nichi',
+      kanji: '日',
+      reading: 'にち / か',
+      romaji: 'nichi / ka',
+      meaning: 'Tage',
+      usage: 'Tage des Monats (Datum) und Zeitdauer in Tagen',
+      category: 'Zeit',
+      questionWord: { kanji: '何日', reading: 'なんにち', romaji: 'nannichi' },
+      counts: [
+        { num: 1, kanji: '一日', reading: 'ついたち', romaji: 'tsuitachi', shift: true },
+        { num: 2, kanji: '二日', reading: 'ふつか', romaji: 'futsuka', shift: true },
+        { num: 3, kanji: '三日', reading: 'みっか', romaji: 'mikka', shift: true },
+        { num: 4, kanji: '四日', reading: 'よっか', romaji: 'yokka', shift: true },
+        { num: 5, kanji: '五日', reading: 'いつか', romaji: 'itsuka', shift: true },
+        { num: 6, kanji: '六日', reading: 'むいか', romaji: 'muika', shift: true },
+        { num: 7, kanji: '七日', reading: 'なのか', romaji: 'nanoka', shift: true },
+        { num: 8, kanji: '八日', reading: 'ようか', romaji: 'yōka', shift: true },
+        { num: 9, kanji: '九日', reading: 'ここのか', romaji: 'kokonoka', shift: true },
+        { num: 10, kanji: '十日', reading: 'とおか', romaji: 'tōka', shift: true }
+      ],
+      specialCounts: [
+        { num: 1, kanji: '一日', reading: 'ついたち', romaji: 'tsuitachi', note: 'Als Datum: 1. des Monats. Als Dauer: いちにち (ein Tag).' },
+        { num: 14, kanji: '十四日', reading: 'じゅうよっか', romaji: 'jūyokka', note: '' },
+        { num: 20, kanji: '二十日', reading: 'はつか', romaji: 'hatsuka', note: 'Komplett unregelmäßig!' },
+        { num: 24, kanji: '二十四日', reading: 'にじゅうよっか', romaji: 'nijūyokka', note: '' }
+      ],
+      examples: [
+        { japanese: '三日間京都にいました。', romaji: 'Mikkakan Kyōto ni imashita.', german: 'Ich war drei Tage in Kyoto.' },
+        { japanese: '誕生日は五月二十日です。', romaji: 'Tanjōbi wa gogatsu hatsuka desu.', german: 'Mein Geburtstag ist am 20. Mai.' }
+      ],
+      notes: '1日～10日 und 20日 verwenden die traditionellen japanischen Lesungen (Kun-Yomi) und sind komplett unregelmäßig. Ab 11日 wird ～にち verwendet (じゅういちにち, じゅうににち usw.). 一日 hat zwei Bedeutungen: ついたち (1. des Monats) und いちにち (ein ganzer Tag).'
+    },
+    {
       id: 'shukan',
       kanji: '週間',
       reading: 'しゅうかん',
