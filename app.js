@@ -2,7 +2,7 @@
   'use strict';
 
   // === STATE ===
-  let activeTab = 'kanji';
+  let activeTab = 'hiragana';
 
   // Kanji state
   let allKanji = [];
