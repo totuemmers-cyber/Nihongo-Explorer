@@ -41,6 +41,13 @@
   let activeCounterCategory = 'all';
   let countersRendered = false;
 
+  // Radicals state
+  let allRadicals = [];
+  let filteredRadicals = [];
+  let currentRadicalDetailIndex = -1;
+  let activeRadicalStrokes = 'all';
+  let radicalsRendered = false;
+
   let soundEnabled = localStorage.getItem('kanji-sound') !== 'off';
 
   // === WEB AUDIO API - Sound Engine ===
@@ -177,6 +184,15 @@
   const countersNoResults = document.getElementById('counters-no-results');
   const counterOverlay = document.getElementById('counter-detail-overlay');
 
+  // Radicals DOM
+  const radicalsControls = document.getElementById('radicals-controls');
+  const radicalsTab = document.getElementById('radicals-tab');
+  const radicalsGrid = document.getElementById('radicals-grid');
+  const radicalsSearchInput = document.getElementById('radicals-search-input');
+  const radicalsClearSearchBtn = document.getElementById('radicals-clear-search');
+  const radicalsNoResults = document.getElementById('radicals-no-results');
+  const radicalOverlay = document.getElementById('radical-detail-overlay');
+
   // === TAB SYSTEM ===
   function switchTab(tab) {
     activeTab = tab;
@@ -192,12 +208,14 @@
     grammarControls.classList.toggle('hidden', tab !== 'grammar');
     vocabControls.classList.toggle('hidden', tab !== 'vocab');
     countersControls.classList.toggle('hidden', tab !== 'counters');
+    radicalsControls.classList.toggle('hidden', tab !== 'radicals');
 
     // Toggle content
     kanjiTab.classList.toggle('hidden', tab !== 'kanji');
     grammarTab.classList.toggle('hidden', tab !== 'grammar');
     vocabTab.classList.toggle('hidden', tab !== 'vocab');
     countersTab.classList.toggle('hidden', tab !== 'counters');
+    radicalsTab.classList.toggle('hidden', tab !== 'radicals');
     hiraganaTab.classList.toggle('hidden', tab !== 'hiragana');
     katakanaTab.classList.toggle('hidden', tab !== 'katakana');
 
@@ -263,6 +281,9 @@
       applyCounterFilters();
     }
 
+    // Radicals data
+    loadRadicals();
+
     updateCount();
   }
 
@@ -274,6 +295,8 @@
       itemCountEl.textContent = filteredGrammar.length + ' Grammatik';
     } else if (activeTab === 'counters') {
       itemCountEl.textContent = filteredCounters.length + ' Zählwörter';
+    } else if (activeTab === 'radicals') {
+      itemCountEl.textContent = filteredRadicals.length + ' Radikale';
     } else if (activeTab === 'hiragana') {
       itemCountEl.textContent = 'Hiragana';
     } else if (activeTab === 'katakana') {
@@ -434,7 +457,9 @@
 
     if (k.components && k.components.length > 0) {
       detailComponents.innerHTML = k.components.map(function (c) {
-        return '<span class="component-tag" data-radical="' + c.radical + '">' +
+        var isKangxi = allRadicals.some(function (r) { return r.radical === c.radical; });
+        var cls = isKangxi ? 'component-tag radical-link' : 'component-tag';
+        return '<span class="' + cls + '" data-radical="' + c.radical + '">' +
           '<span class="comp-radical">' + c.radical + '</span>' +
           '<span class="comp-meaning">' + c.meaning + '</span></span>';
       }).join('');
@@ -442,8 +467,13 @@
       detailComponents.querySelectorAll('.component-tag').forEach(function (tag) {
         tag.addEventListener('click', function () {
           var radical = this.getAttribute('data-radical');
-          setRadicalFilter(radical, this.querySelector('.comp-meaning').textContent);
+          var isKangxi = allRadicals.some(function (r) { return r.radical === radical; });
           closeDetail();
+          if (isKangxi) {
+            openRadicalInTab(radical);
+          } else {
+            setRadicalFilter(radical, this.querySelector('.comp-meaning').textContent);
+          }
         });
       });
     } else {
@@ -1383,6 +1413,10 @@
       if (filteredCounters.length === 0) return;
       var cIdx = Math.floor(Math.random() * filteredCounters.length);
       openCounterDetail(cIdx);
+    } else if (activeTab === 'radicals') {
+      if (filteredRadicals.length === 0) return;
+      var rIdx = Math.floor(Math.random() * filteredRadicals.length);
+      openRadicalDetail(rIdx);
     } else {
       if (filteredVocab.length === 0) return;
       var vIdx = Math.floor(Math.random() * filteredVocab.length);
@@ -1425,17 +1459,215 @@
       return;
     }
 
+    var radicalOverlayOpen = !radicalOverlay.classList.contains('hidden');
+    if (radicalOverlayOpen) {
+      if (e.key === 'Escape') closeRadicalDetail();
+      if (e.key === 'ArrowLeft') navigateRadicalDetail(-1);
+      if (e.key === 'ArrowRight') navigateRadicalDetail(1);
+      return;
+    }
+
     // No overlay open
     if (e.key === '/') {
       if (activeTab === 'hiragana' || activeTab === 'katakana') return;
       var activeInput = activeTab === 'kanji' ? searchInput :
         activeTab === 'grammar' ? grammarSearchInput :
-        activeTab === 'counters' ? countersSearchInput : vocabSearchInput;
+        activeTab === 'counters' ? countersSearchInput :
+        activeTab === 'radicals' ? radicalsSearchInput : vocabSearchInput;
       if (document.activeElement !== activeInput) {
         e.preventDefault();
         activeInput.focus();
       }
     }
+  });
+
+  // ==========================================
+  // === RADICALS SECTION (Kangxi 214) ===
+  // ==========================================
+
+  function loadRadicals() {
+    if (window.KANGXI_RADICALS) {
+      allRadicals = window.KANGXI_RADICALS;
+      applyRadicalFilters();
+    }
+  }
+
+  function applyRadicalFilters() {
+    var query = radicalsSearchInput.value.trim().toLowerCase();
+    filteredRadicals = allRadicals.filter(function (r) {
+      if (activeRadicalStrokes !== 'all') {
+        if (activeRadicalStrokes === '9') {
+          if (r.strokes < 9) return false;
+        } else {
+          if (r.strokes !== parseInt(activeRadicalStrokes)) return false;
+        }
+      }
+      if (query) {
+        var matchRadical = r.radical.indexOf(query) !== -1;
+        var matchMeaning = r.meaning.toLowerCase().indexOf(query) !== -1;
+        var matchReading = r.reading.indexOf(query) !== -1;
+        var matchRomaji = r.romaji.toLowerCase().indexOf(query) !== -1;
+        var matchNumber = ('' + r.number) === query;
+        if (!matchRadical && !matchMeaning && !matchReading && !matchRomaji && !matchNumber) return false;
+      }
+      return true;
+    });
+
+    renderRadicals();
+    updateCount();
+  }
+
+  function renderRadicals() {
+    radicalsGrid.innerHTML = '';
+    var fragment = document.createDocumentFragment();
+
+    for (var i = 0; i < filteredRadicals.length; i++) {
+      fragment.appendChild(createRadicalCard(filteredRadicals[i], i));
+    }
+
+    radicalsGrid.appendChild(fragment);
+    radicalsNoResults.classList.toggle('hidden', filteredRadicals.length > 0);
+  }
+
+  function createRadicalCard(r, index) {
+    var card = document.createElement('div');
+    card.className = 'radical-card';
+    card.setAttribute('data-index', index);
+
+    card.innerHTML =
+      '<span class="radical-card-number">#' + r.number + '</span>' +
+      '<span class="radical-card-strokes">' + r.strokes + '画</span>' +
+      '<span class="radical-card-char">' + r.radical + '</span>' +
+      '<span class="radical-card-meaning">' + r.meaning + '</span>' +
+      '<span class="radical-card-reading">' + r.reading + '</span>';
+
+    card.addEventListener('click', function () {
+      playTick();
+      openRadicalDetail(index);
+    });
+
+    return card;
+  }
+
+  function openRadicalDetail(index) {
+    if (index < 0 || index >= filteredRadicals.length) return;
+    currentRadicalDetailIndex = index;
+    var r = filteredRadicals[index];
+
+    document.getElementById('radical-detail-char').textContent = r.radical;
+    document.getElementById('radical-detail-number').textContent = '#' + r.number + ' von 214';
+    document.getElementById('radical-detail-meaning').textContent = r.meaning;
+    document.getElementById('radical-detail-reading').innerHTML =
+      r.reading + '<span class="romaji"> (' + r.romaji + ')</span>';
+    document.getElementById('radical-detail-strokes').textContent = r.strokes + ' Striche';
+
+    // Find kanji that use this radical
+    var kanjiList = document.getElementById('radical-detail-kanji-list');
+    var matchingKanji = allKanji.filter(function (k) {
+      return k.components && k.components.some(function (c) {
+        return c.radical === r.radical;
+      });
+    });
+
+    if (matchingKanji.length > 0) {
+      kanjiList.innerHTML = matchingKanji.map(function (k) {
+        return '<span class="component-tag" data-kanji="' + k.kanji + '">' +
+          '<span class="comp-radical">' + k.kanji + '</span>' +
+          '<span class="comp-meaning">' + k.meanings[0] + '</span></span>';
+      }).join('');
+
+      kanjiList.querySelectorAll('.component-tag').forEach(function (tag) {
+        tag.addEventListener('click', function () {
+          var targetKanji = this.getAttribute('data-kanji');
+          closeRadicalDetail();
+          switchTab('kanji');
+          searchInput.value = targetKanji;
+          clearSearchBtn.classList.add('visible');
+          applyFilters();
+          // Find and open the kanji detail
+          for (var i = 0; i < filteredKanji.length; i++) {
+            if (filteredKanji[i].kanji === targetKanji) {
+              openDetail(i);
+              break;
+            }
+          }
+        });
+      });
+    } else {
+      kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Keine Kanji mit diesem Radikal in der Datenbank gefunden.</span>';
+    }
+
+    radicalOverlay.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    playPop();
+  }
+
+  function closeRadicalDetail() {
+    radicalOverlay.classList.add('hidden');
+    document.body.style.overflow = '';
+    currentRadicalDetailIndex = -1;
+  }
+
+  function navigateRadicalDetail(direction) {
+    var newIndex = currentRadicalDetailIndex + direction;
+    if (newIndex >= 0 && newIndex < filteredRadicals.length) {
+      openRadicalDetail(newIndex);
+    }
+  }
+
+  // Navigate to a specific radical from kanji component click
+  function openRadicalInTab(radicalChar) {
+    switchTab('radicals');
+    // Reset filters so all radicals are visible
+    activeRadicalStrokes = 'all';
+    radicalsSearchInput.value = '';
+    document.querySelectorAll('.radical-stroke').forEach(function (btn) {
+      btn.classList.toggle('active', btn.getAttribute('data-rstrokes') === 'all');
+    });
+    applyRadicalFilters();
+    // Find and open the radical detail
+    for (var i = 0; i < filteredRadicals.length; i++) {
+      if (filteredRadicals[i].radical === radicalChar) {
+        openRadicalDetail(i);
+        break;
+      }
+    }
+  }
+
+  // Radicals event listeners
+  document.getElementById('radical-close-detail').addEventListener('click', closeRadicalDetail);
+  radicalOverlay.addEventListener('click', function (e) {
+    if (e.target === radicalOverlay) closeRadicalDetail();
+  });
+  document.getElementById('prev-radical').addEventListener('click', function () {
+    navigateRadicalDetail(-1);
+  });
+  document.getElementById('next-radical').addEventListener('click', function () {
+    navigateRadicalDetail(1);
+  });
+
+  // Search
+  var radicalsSearchTimeout;
+  radicalsSearchInput.addEventListener('input', function () {
+    clearTimeout(radicalsSearchTimeout);
+    radicalsClearSearchBtn.classList.toggle('visible', this.value.length > 0);
+    radicalsSearchTimeout = setTimeout(applyRadicalFilters, 200);
+  });
+  radicalsClearSearchBtn.addEventListener('click', function () {
+    radicalsSearchInput.value = '';
+    radicalsClearSearchBtn.classList.remove('visible');
+    applyRadicalFilters();
+  });
+
+  // Stroke filter buttons
+  document.querySelectorAll('.radical-stroke').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      playTick();
+      document.querySelectorAll('.radical-stroke').forEach(function (b) { b.classList.remove('active'); });
+      this.classList.add('active');
+      activeRadicalStrokes = this.getAttribute('data-rstrokes');
+      applyRadicalFilters();
+    });
   });
 
   // ==========================================
@@ -1611,6 +1843,10 @@
       if (!countersRendered) {
         renderBasicNumbers();
         countersRendered = true;
+      }
+    } else if (tab === 'radicals') {
+      if (!radicalsRendered) {
+        radicalsRendered = true;
       }
     }
   };

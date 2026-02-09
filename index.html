@@ -50,6 +50,10 @@
           <span class="tab-icon-kana">数</span>
           Zahlen
         </button>
+        <button class="tab-btn" data-tab="radicals">
+          <span class="tab-icon-kana">部</span>
+          Radikale
+        </button>
         <button class="tab-btn" data-tab="hiragana">
           <span class="tab-icon-kana">あ</span>
           Hiragana
@@ -178,6 +182,28 @@
           </div>
         </div>
       </div>
+      <!-- Radicals Tab Controls -->
+      <div id="radicals-controls" class="tab-content hidden">
+        <div class="search-bar">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="radicals-search-input" placeholder="Suche nach Radikal, Bedeutung, Lesung..." autocomplete="off">
+          <button id="radicals-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn radical-stroke active" data-rstrokes="all">Alle</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="1">1</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="2">2</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="3">3</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="4">4</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="5">5</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="6">6</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="7">7</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="8">8</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="9">9+</button>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -220,6 +246,13 @@
         <div id="counters-grid" class="counters-grid"></div>
         <div id="counters-no-results" class="no-results hidden">
           <p>Keine Zählwörter gefunden.</p>
+        </div>
+      </div>
+      <!-- Radicals Tab Content -->
+      <div id="radicals-tab" class="tab-panel hidden">
+        <div id="radicals-grid" class="radicals-grid"></div>
+        <div id="radicals-no-results" class="no-results hidden">
+          <p>Keine Radikale gefunden.</p>
         </div>
       </div>
       <!-- Hiragana Tab Content -->
@@ -393,6 +426,33 @@
       </div>
     </div>
 
+    <div id="radical-detail-overlay" class="detail-overlay hidden">
+      <div class="detail-panel radical-detail-panel">
+        <button id="radical-close-detail" class="btn-close" title="Schließen">&times;</button>
+        <div class="detail-nav">
+          <button id="prev-radical" class="btn btn-nav" title="Vorheriges Radikal">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button id="next-radical" class="btn btn-nav" title="Nächstes Radikal">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="detail-content">
+          <div class="radical-detail-header">
+            <span id="radical-detail-char" class="radical-detail-char"></span>
+            <span id="radical-detail-number" class="radical-number-badge"></span>
+          </div>
+          <div id="radical-detail-meaning" class="radical-detail-meaning"></div>
+          <div id="radical-detail-reading" class="radical-detail-reading"></div>
+          <div id="radical-detail-strokes" class="detail-strokes"></div>
+          <div class="grammar-detail-section">
+            <h3>Kanji mit diesem Radikal</h3>
+            <div id="radical-detail-kanji-list" class="component-list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   <script src="kanji-data.js"></script>
   <script src="kanji-n1.js"></script>
   <script src="grammar-data.js"></script>
@@ -405,6 +465,7 @@
   <script src="vocab-n1.js"></script>
   <script src="kana-data.js"></script>
   <script src="counters-data.js"></script>
+  <script src="kangxi-radicals-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
