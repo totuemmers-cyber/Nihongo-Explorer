@@ -1828,6 +1828,8 @@
   // === INIT ===
   initTheme();
   loadData();
+  renderKanaTab('hiragana');
+  updateKanaDarkMode();
 
   // Render kana tabs (lazy - on first switch)
   var originalSwitchTab = switchTab;
