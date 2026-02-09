@@ -306,7 +306,8 @@ body {
 #search-input,
 #grammar-search-input,
 #vocab-search-input,
-#counters-search-input {
+#counters-search-input,
+#radicals-search-input {
   width: 100%;
   padding: 12px 40px 12px 42px;
   border: 2px solid var(--border);
@@ -322,7 +323,8 @@ body {
 #search-input:focus,
 #grammar-search-input:focus,
 #vocab-search-input:focus,
-#counters-search-input:focus {
+#counters-search-input:focus,
+#radicals-search-input:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
 }
@@ -330,7 +332,8 @@ body {
 #search-input::placeholder,
 #grammar-search-input::placeholder,
 #vocab-search-input::placeholder,
-#counters-search-input::placeholder {
+#counters-search-input::placeholder,
+#radicals-search-input::placeholder {
   color: var(--text-secondary);
 }
 
