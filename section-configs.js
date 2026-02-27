@@ -728,7 +728,8 @@ SECTION_CONFIGS.radicals = {
       var matchReading = r.reading.indexOf(query) !== -1;
       var matchRomaji = r.romaji.toLowerCase().indexOf(query) !== -1;
       var matchNumber = ('' + r.number) === query;
-      if (!matchRadical && !matchMeaning && !matchReading && !matchRomaji && !matchNumber) return false;
+      var matchExplanation = r.explanation && r.explanation.toLowerCase().indexOf(query) !== -1;
+      if (!matchRadical && !matchMeaning && !matchReading && !matchRomaji && !matchNumber && !matchExplanation) return false;
     }
     return true;
   },
@@ -761,6 +762,15 @@ SECTION_CONFIGS.radicals = {
     document.getElementById('radical-detail-reading').innerHTML =
       r.reading + '<span class="romaji"> (' + r.romaji + ')</span>';
     document.getElementById('radical-detail-strokes').textContent = r.strokes + ' Striche';
+
+    // Explanation
+    var explanationEl = document.getElementById('radical-detail-explanation');
+    if (r.explanation) {
+      explanationEl.textContent = r.explanation;
+      explanationEl.style.display = '';
+    } else {
+      explanationEl.style.display = 'none';
+    }
 
     // Find kanji that use this radical
     var kanjiList = document.getElementById('radical-detail-kanji-list');
