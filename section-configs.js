@@ -7,9 +7,6 @@ var SECTION_CONFIGS = {};
 
 var LEVEL_ORDER = { 'N5': 0, 'N4': 1, 'N3': 2, 'N2': 3, 'N1': 4 };
 
-// Stroke order SVG cache: { codepoint: svgHtml | null }
-var _strokeOrderCache = {};
-
 // Lazy-built lookup indexes for O(1) access (built once on first use)
 var _kanjiByChar = null;
 var _radicalSet = null;
@@ -308,30 +305,13 @@ SECTION_CONFIGS.kanji = {
       soBody.classList.toggle('collapsed');
       soIcon.classList.toggle('collapsed');
 
-      // Fetch SVG on first expand
-      if (!soBody.classList.contains('collapsed') && soContainer.innerHTML === '') {
-        if (_strokeOrderCache[codepoint] !== undefined) {
-          if (_strokeOrderCache[codepoint]) {
-            soContainer.innerHTML = _strokeOrderCache[codepoint];
-          } else {
-            soContainer.innerHTML = '<div class="no-reading">Keine Strichreihenfolge verfügbar</div>';
-          }
-        } else {
-          soContainer.innerHTML = '<div class="stroke-order-loading"><div class="loading-spinner"></div></div>';
-          fetch('stroke-order/' + codepoint + '.svg')
-            .then(function (res) {
-              if (!res.ok) throw new Error('Not found');
-              return res.text();
-            })
-            .then(function (svgText) {
-              _strokeOrderCache[codepoint] = svgText;
-              soContainer.innerHTML = svgText;
-            })
-            .catch(function () {
-              _strokeOrderCache[codepoint] = null;
-              soContainer.innerHTML = '<div class="no-reading">Keine Strichreihenfolge verfügbar</div>';
-            });
-        }
+      // Load SVG on first expand via <object> (works with file:// protocol)
+      if (!soBody.classList.contains('collapsed') && soContainer.children.length === 0) {
+        var obj = document.createElement('object');
+        obj.data = 'stroke-order/' + codepoint + '.svg';
+        obj.type = 'image/svg+xml';
+        obj.className = 'stroke-order-svg';
+        soContainer.appendChild(obj);
       }
     });
   }
