@@ -118,7 +118,7 @@
     app.activeTab = tab;
     playSwoosh();
 
-    document.querySelectorAll('.tab-btn').forEach(function (btn) {
+    tabBtns.forEach(function (btn) {
       btn.classList.toggle('active', btn.getAttribute('data-tab') === tab);
     });
 
@@ -126,8 +126,7 @@
     sectionNames.forEach(function (name) {
       var sec = app.sections[name];
       if (sec.dom.controls) sec.dom.controls.classList.toggle('hidden', tab !== name);
-      var tabPanel = document.getElementById(name + '-tab');
-      if (tabPanel) tabPanel.classList.toggle('hidden', tab !== name);
+      if (tabPanels[name]) tabPanels[name].classList.toggle('hidden', tab !== name);
     });
 
     // Kana tabs (no Section instance)
@@ -135,11 +134,8 @@
     katakanaTab.classList.toggle('hidden', tab !== 'katakana');
 
     // Tab activate hooks
-    if (tab === 'hiragana') {
-      renderKanaTab('hiragana');
-      updateKanaDarkMode();
-    } else if (tab === 'katakana') {
-      renderKanaTab('katakana');
+    if (tab === 'hiragana' || tab === 'katakana') {
+      renderKanaTab(tab);
       updateKanaDarkMode();
     } else if (app.sections[tab] && app.sections[tab].config.onTabActivate) {
       app.sections[tab].config.onTabActivate(app.sections[tab]);
@@ -148,7 +144,14 @@
     updateCount();
   }
 
-  document.querySelectorAll('.tab-btn').forEach(function (btn) {
+  // Cache static DOM collections
+  var tabBtns = document.querySelectorAll('.tab-btn');
+  var tabPanels = {};
+  sectionNames.forEach(function (name) {
+    tabPanels[name] = document.getElementById(name + '-tab');
+  });
+
+  tabBtns.forEach(function (btn) {
     btn.addEventListener('click', function () {
       switchTab(this.getAttribute('data-tab'));
     });
@@ -309,9 +312,7 @@
       document.documentElement.setAttribute('data-theme', 'dark');
       localStorage.setItem('kanji-theme', 'dark');
     }
-    if (typeof updateKanaDarkMode === 'function') {
-      setTimeout(updateKanaDarkMode, 50);
-    }
+    setTimeout(updateKanaDarkMode, 50);
   }
 
   themeToggle.addEventListener('click', function () {
@@ -345,9 +346,8 @@
   // === KEYBOARD NAVIGATION (data-driven) ===
   document.addEventListener('keydown', function (e) {
     // Check if any overlay is open
-    var names = Object.keys(app.sections);
-    for (var i = 0; i < names.length; i++) {
-      var sec = app.sections[names[i]];
+    for (var i = 0; i < sectionNames.length; i++) {
+      var sec = app.sections[sectionNames[i]];
       if (sec.isOverlayOpen()) {
         if (e.key === 'Escape') sec.closeDetail();
         if (e.key === 'ArrowLeft') sec.navigateDetail(-1);
@@ -392,6 +392,7 @@
 
     var tbody = document.createElement('tbody');
     var colors = window.KANA_DATA.rowColors;
+    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
 
     rows.forEach(function (rowData) {
       var tr = document.createElement('tr');
@@ -411,7 +412,6 @@
           var inner = document.createElement('div');
           inner.className = 'kana-cell-inner';
           inner.setAttribute('data-row', rowData.row);
-          var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
           inner.style.background = isDark ? rowColor.darkBg : rowColor.bg;
           inner.style.borderColor = isDark ? rowColor.darkBorder : rowColor.border;
 

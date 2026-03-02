@@ -201,7 +201,7 @@ body {
   cursor: pointer;
   font-family: var(--font);
   font-weight: 500;
-  transition: all var(--transition);
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
   border-radius: var(--radius-sm);
   font-size: 0.85rem;
   padding: 8px 14px;
@@ -258,7 +258,7 @@ body {
   font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all var(--transition);
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
 }
 
 [data-theme="dark"] .btn-pill {
@@ -353,7 +353,7 @@ body {
   display: none;
   align-items: center;
   justify-content: center;
-  transition: all var(--transition);
+  transition: opacity var(--transition), background var(--transition);
 }
 
 .btn-clear:hover { background: var(--border); }
@@ -384,7 +384,7 @@ body {
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all var(--transition);
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
 }
 
 .filter-btn:hover {
@@ -485,7 +485,7 @@ main {
   cursor: pointer;
   position: relative;
   border: 1px solid var(--border);
-  transition: all var(--transition);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -516,31 +516,31 @@ main {
   letter-spacing: 0.03em;
 }
 
-.card-level.N5 {
+.card-level.N5, .detail-jlpt-badge.N5 {
   background: var(--n5-bg);
   color: var(--n5);
   border: 1px solid var(--n5-border);
 }
 
-.card-level.N4 {
+.card-level.N4, .detail-jlpt-badge.N4 {
   background: var(--n4-bg);
   color: var(--n4);
   border: 1px solid var(--n4-border);
 }
 
-.card-level.N3 {
+.card-level.N3, .detail-jlpt-badge.N3 {
   background: var(--n3-bg);
   color: var(--n3);
   border: 1px solid var(--n3-border);
 }
 
-.card-level.N2 {
+.card-level.N2, .detail-jlpt-badge.N2 {
   background: var(--n2-bg);
   color: var(--n2);
   border: 1px solid var(--n2-border);
 }
 
-.card-level.N1 {
+.card-level.N1, .detail-jlpt-badge.N1 {
   background: var(--n1-bg);
   color: var(--n1);
   border: 1px solid var(--n1-border);
@@ -646,7 +646,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all var(--transition);
+  transition: background var(--transition), color var(--transition);
   line-height: 1;
 }
 
@@ -686,36 +686,6 @@ main {
   font-weight: 700;
   padding: 4px 10px;
   border-radius: var(--radius-pill);
-}
-
-.detail-jlpt-badge.N5 {
-  background: var(--n5-bg);
-  color: var(--n5);
-  border: 1px solid var(--n5-border);
-}
-
-.detail-jlpt-badge.N4 {
-  background: var(--n4-bg);
-  color: var(--n4);
-  border: 1px solid var(--n4-border);
-}
-
-.detail-jlpt-badge.N3 {
-  background: var(--n3-bg);
-  color: var(--n3);
-  border: 1px solid var(--n3-border);
-}
-
-.detail-jlpt-badge.N2 {
-  background: var(--n2-bg);
-  color: var(--n2);
-  border: 1px solid var(--n2-border);
-}
-
-.detail-jlpt-badge.N1 {
-  background: var(--n1-bg);
-  color: var(--n1);
-  border: 1px solid var(--n1-border);
 }
 
 .detail-meanings {
@@ -816,7 +786,7 @@ main {
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   cursor: pointer;
-  transition: all var(--transition);
+  transition: background var(--transition), transform var(--transition);
   font-size: 0.85rem;
 }
 
@@ -904,7 +874,7 @@ main {
   cursor: pointer;
   border-bottom: 3px solid transparent;
   margin-bottom: -2px;
-  transition: all var(--transition);
+  transition: background var(--transition), color var(--transition);
   border-radius: 8px 8px 0 0;
 }
 
@@ -917,14 +887,6 @@ main {
   color: var(--accent);
   border-bottom-color: var(--accent);
   background: rgba(99,102,241,0.08);
-}
-
-.tab-content.hidden {
-  display: none !important;
-}
-
-.tab-panel.hidden {
-  display: none !important;
 }
 
 /* === GRAMMAR CATEGORY FILTER BUTTONS === */
@@ -967,7 +929,7 @@ main {
   cursor: pointer;
   position: relative;
   border: 1px solid var(--border);
-  transition: all var(--transition);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -1015,25 +977,25 @@ main {
   flex-shrink: 0;
 }
 
-.grammar-card-category.Partikel {
+.grammar-card-category.Partikel, .grammar-category-badge.Partikel {
   background: var(--cat-partikel-bg);
   color: var(--cat-partikel);
   border: 1px solid var(--cat-partikel-border);
 }
 
-.grammar-card-category.Verben {
+.grammar-card-category.Verben, .grammar-category-badge.Verben {
   background: var(--cat-verben-bg);
   color: var(--cat-verben);
   border: 1px solid var(--cat-verben-border);
 }
 
-.grammar-card-category.Adjektive {
+.grammar-card-category.Adjektive, .grammar-category-badge.Adjektive {
   background: var(--cat-adjektive-bg);
   color: var(--cat-adjektive);
   border: 1px solid var(--cat-adjektive-border);
 }
 
-.grammar-card-category.Satzstrukturen {
+.grammar-card-category.Satzstrukturen, .grammar-category-badge.Satzstrukturen {
   background: var(--cat-satzstrukturen-bg);
   color: var(--cat-satzstrukturen);
   border: 1px solid var(--cat-satzstrukturen-border);
@@ -1081,30 +1043,6 @@ main {
   font-weight: 700;
   padding: 4px 12px;
   border-radius: var(--radius-pill);
-}
-
-.grammar-category-badge.Partikel {
-  background: var(--cat-partikel-bg);
-  color: var(--cat-partikel);
-  border: 1px solid var(--cat-partikel-border);
-}
-
-.grammar-category-badge.Verben {
-  background: var(--cat-verben-bg);
-  color: var(--cat-verben);
-  border: 1px solid var(--cat-verben-border);
-}
-
-.grammar-category-badge.Adjektive {
-  background: var(--cat-adjektive-bg);
-  color: var(--cat-adjektive);
-  border: 1px solid var(--cat-adjektive-border);
-}
-
-.grammar-category-badge.Satzstrukturen {
-  background: var(--cat-satzstrukturen-bg);
-  color: var(--cat-satzstrukturen);
-  border: 1px solid var(--cat-satzstrukturen-border);
 }
 
 .grammar-detail-meaning {
@@ -1199,7 +1137,7 @@ main {
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   cursor: pointer;
-  transition: all var(--transition);
+  transition: background var(--transition), transform var(--transition);
   font-family: var(--font-jp);
   font-size: 0.9rem;
   font-weight: 500;
@@ -1264,7 +1202,7 @@ main {
   cursor: pointer;
   position: relative;
   border: 1px solid var(--border);
-  transition: all var(--transition);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -1579,7 +1517,7 @@ main {
   height: 64px;
   border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: all var(--transition);
+  transition: transform var(--transition), box-shadow var(--transition);
   border: 1px solid transparent;
   position: relative;
 }
@@ -1644,7 +1582,7 @@ main {
   font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all var(--transition);
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
 }
 
 .kana-filter-btn:hover {
@@ -1894,7 +1832,7 @@ main {
   cursor: pointer;
   position: relative;
   border: 1px solid var(--border);
-  transition: all var(--transition);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -1934,25 +1872,25 @@ main {
   flex-shrink: 0;
 }
 
-.counter-card-badge.Menschen {
+.counter-card-badge.Menschen, .counter-category-badge.Menschen {
   background: var(--cc-menschen-bg);
   color: var(--cc-menschen);
   border: 1px solid var(--cc-menschen-border);
 }
 
-.counter-card-badge.Objekte {
+.counter-card-badge.Objekte, .counter-category-badge.Objekte {
   background: var(--cc-objekte-bg);
   color: var(--cc-objekte);
   border: 1px solid var(--cc-objekte-border);
 }
 
-.counter-card-badge.Tiere {
+.counter-card-badge.Tiere, .counter-category-badge.Tiere {
   background: var(--cc-tiere-bg);
   color: var(--cc-tiere);
   border: 1px solid var(--cc-tiere-border);
 }
 
-.counter-card-badge.Zeit {
+.counter-card-badge.Zeit, .counter-category-badge.Zeit {
   background: var(--cc-zeit-bg);
   color: var(--cc-zeit);
   border: 1px solid var(--cc-zeit-border);
@@ -2020,30 +1958,6 @@ main {
   font-weight: 700;
   padding: 4px 12px;
   border-radius: var(--radius-pill);
-}
-
-.counter-category-badge.Menschen {
-  background: var(--cc-menschen-bg);
-  color: var(--cc-menschen);
-  border: 1px solid var(--cc-menschen-border);
-}
-
-.counter-category-badge.Objekte {
-  background: var(--cc-objekte-bg);
-  color: var(--cc-objekte);
-  border: 1px solid var(--cc-objekte-border);
-}
-
-.counter-category-badge.Tiere {
-  background: var(--cc-tiere-bg);
-  color: var(--cc-tiere);
-  border: 1px solid var(--cc-tiere-border);
-}
-
-.counter-category-badge.Zeit {
-  background: var(--cc-zeit-bg);
-  color: var(--cc-zeit);
-  border: 1px solid var(--cc-zeit-border);
 }
 
 .counter-detail-reading {
@@ -2261,7 +2175,7 @@ main {
   cursor: pointer;
   position: relative;
   border: 1px solid var(--border);
-  transition: all var(--transition);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2369,7 +2283,7 @@ main {
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--text-secondary);
-  background: var(--card-bg);
+  background: var(--bg-card);
   border-left: 3px solid var(--accent);
   padding: 12px 16px;
   border-radius: 0 8px 8px 0;
@@ -2385,7 +2299,7 @@ main {
 /* Radical component-tag link style */
 .component-tag.radical-link {
   cursor: pointer;
-  transition: all var(--transition);
+  transition: background var(--transition), transform var(--transition);
 }
 
 .component-tag.radical-link:hover {

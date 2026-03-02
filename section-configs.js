@@ -3,6 +3,108 @@
 
 var SECTION_CONFIGS = {};
 
+// === Shared Constants & Helpers ===
+
+var LEVEL_ORDER = { 'N5': 0, 'N4': 1, 'N3': 2, 'N2': 3, 'N1': 4 };
+
+// Lazy-built lookup indexes for O(1) access (built once on first use)
+var _kanjiByChar = null;
+var _radicalSet = null;
+var _kanjiByRadical = null;
+
+function getKanjiByChar() {
+  if (!_kanjiByChar) {
+    _kanjiByChar = {};
+    var items = window.app && window.app.sections.kanji ? window.app.sections.kanji.allItems : [];
+    for (var i = 0; i < items.length; i++) _kanjiByChar[items[i].kanji] = items[i];
+  }
+  return _kanjiByChar;
+}
+
+function getRadicalSet() {
+  if (!_radicalSet) {
+    _radicalSet = {};
+    var items = window.app && window.app.sections.radicals ? window.app.sections.radicals.allItems : [];
+    for (var i = 0; i < items.length; i++) _radicalSet[items[i].radical] = true;
+  }
+  return _radicalSet;
+}
+
+function getKanjiByRadical() {
+  if (!_kanjiByRadical) {
+    _kanjiByRadical = {};
+    var items = window.app && window.app.sections.kanji ? window.app.sections.kanji.allItems : [];
+    for (var i = 0; i < items.length; i++) {
+      var k = items[i];
+      if (k.components) {
+        for (var j = 0; j < k.components.length; j++) {
+          var rad = k.components[j].radical;
+          if (!_kanjiByRadical[rad]) _kanjiByRadical[rad] = [];
+          _kanjiByRadical[rad].push(k);
+        }
+      }
+    }
+  }
+  return _kanjiByRadical;
+}
+
+function renderExamplesOrEmpty(elementId, examples) {
+  var el = document.getElementById(elementId);
+  if (examples && examples.length > 0) {
+    el.innerHTML = examples.map(function (ex) {
+      return '<div class="grammar-example-item">' +
+        '<div class="grammar-example-jp">' + ex.japanese + '</div>' +
+        '<div class="grammar-example-romaji">' + ex.romaji + '</div>' +
+        '<div class="grammar-example-german">' + ex.german + '</div>' +
+      '</div>';
+    }).join('');
+  } else {
+    el.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
+  }
+}
+
+function toggleNotes(sectionId, notesId, text) {
+  var sectionEl = document.getElementById(sectionId);
+  var el = document.getElementById(notesId);
+  if (text && text.length > 0) {
+    el.textContent = text;
+    sectionEl.classList.remove('hidden');
+  } else {
+    sectionEl.classList.add('hidden');
+  }
+}
+
+function renderKanjiTags(kanjiItems) {
+  return kanjiItems.map(function (k) {
+    return '<span class="component-tag" data-kanji="' + k.kanji + '">' +
+      '<span class="comp-radical">' + k.kanji + '</span>' +
+      '<span class="comp-meaning">' + k.meanings[0] + '</span></span>';
+  }).join('');
+}
+
+function navigateToKanji(targetKanji, currentSection) {
+  currentSection.closeDetail();
+  var kanjiSec = window.app.sections.kanji;
+  window.app.switchTab('kanji');
+  kanjiSec.dom.search.value = targetKanji;
+  kanjiSec.dom.clearSearch.classList.add('visible');
+  kanjiSec.applyFilters();
+  for (var i = 0; i < kanjiSec.filteredItems.length; i++) {
+    if (kanjiSec.filteredItems[i].kanji === targetKanji) {
+      kanjiSec.openDetail(i);
+      return;
+    }
+  }
+}
+
+function attachKanjiNavigation(container, section) {
+  container.querySelectorAll('.component-tag').forEach(function (tag) {
+    tag.addEventListener('click', function () {
+      navigateToKanji(this.getAttribute('data-kanji'), section);
+    });
+  });
+}
+
 // ==========================================
 // === KANJI CONFIG ===
 // ==========================================
@@ -34,7 +136,6 @@ SECTION_CONFIGS.kanji = {
 
   filterFn: function (k, query, filters, section) {
     if (filters.level !== 'all' && k.jlpt !== filters.level) return false;
-    // Radical filter (managed externally via app.activeRadical)
     if (window.app && window.app.activeRadical) {
       var hasRadical = k.components && k.components.some(function (c) {
         return c.radical === window.app.activeRadical;
@@ -62,11 +163,10 @@ SECTION_CONFIGS.kanji = {
   },
 
   sortFn: function (items, sortKey) {
-    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2, 'N2': 3, 'N1': 4 };
     items.sort(function (a, b) {
       if (sortKey === 'jlpt') {
-        var la = levelOrder[a.jlpt] || 9;
-        var lb = levelOrder[b.jlpt] || 9;
+        var la = LEVEL_ORDER[a.jlpt] || 9;
+        var lb = LEVEL_ORDER[b.jlpt] || 9;
         if (la !== lb) return la - lb;
         return a.strokes - b.strokes;
       }
@@ -83,7 +183,6 @@ SECTION_CONFIGS.kanji = {
   createCard: function (k, index, section) {
     var card = document.createElement('div');
     card.className = 'kanji-card';
-    card.setAttribute('data-index', index);
     card.innerHTML =
       '<span class="card-level ' + k.jlpt + '">' + k.jlpt + '</span>' +
       '<span class="card-kanji">' + k.kanji + '</span>' +
@@ -128,10 +227,9 @@ SECTION_CONFIGS.kanji = {
     // Components / Radicals
     var detailComponents = document.getElementById('detail-components');
     if (k.components && k.components.length > 0) {
-      var allRadicals = window.app && window.app.sections.radicals
-        ? window.app.sections.radicals.allItems : [];
+      var radicals = getRadicalSet();
       detailComponents.innerHTML = k.components.map(function (c) {
-        var isKangxi = allRadicals.some(function (r) { return r.radical === c.radical; });
+        var isKangxi = radicals[c.radical];
         var cls = isKangxi ? 'component-tag radical-link' : 'component-tag';
         return '<span class="' + cls + '" data-radical="' + c.radical + '">' +
           '<span class="comp-radical">' + c.radical + '</span>' +
@@ -141,7 +239,7 @@ SECTION_CONFIGS.kanji = {
       detailComponents.querySelectorAll('.component-tag').forEach(function (tag) {
         tag.addEventListener('click', function () {
           var radical = this.getAttribute('data-radical');
-          var isKangxi = allRadicals.some(function (r) { return r.radical === radical; });
+          var isKangxi = radicals[radical];
           section.closeDetail();
           if (isKangxi) {
             if (window.app) window.app.openRadicalInTab(radical);
@@ -225,7 +323,6 @@ SECTION_CONFIGS.grammar = {
 
   sortFn: function (items, sortKey) {
     var catOrder = { 'Partikel': 0, 'Verben': 1, 'Adjektive': 2, 'Satzstrukturen': 3 };
-    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2, 'N2': 3, 'N1': 4 };
     items.sort(function (a, b) {
       if (sortKey === 'category') {
         var ca = catOrder[a.category] !== undefined ? catOrder[a.category] : 9;
@@ -234,8 +331,8 @@ SECTION_CONFIGS.grammar = {
         return a.pattern.localeCompare(b.pattern, 'ja');
       }
       if (sortKey === 'level') {
-        var la = levelOrder[a.level] !== undefined ? levelOrder[a.level] : 9;
-        var lb = levelOrder[b.level] !== undefined ? levelOrder[b.level] : 9;
+        var la = LEVEL_ORDER[a.level] !== undefined ? LEVEL_ORDER[a.level] : 9;
+        var lb = LEVEL_ORDER[b.level] !== undefined ? LEVEL_ORDER[b.level] : 9;
         if (la !== lb) return la - lb;
         return a.pattern.localeCompare(b.pattern, 'ja');
       }
@@ -249,7 +346,6 @@ SECTION_CONFIGS.grammar = {
   createCard: function (g, index, section) {
     var card = document.createElement('div');
     card.className = 'grammar-card';
-    card.setAttribute('data-index', index);
 
     var exampleText = '';
     if (g.examples && g.examples.length > 0) {
@@ -286,29 +382,8 @@ SECTION_CONFIGS.grammar = {
     document.getElementById('grammar-detail-formation').textContent = g.formation;
     document.getElementById('grammar-detail-explanation').textContent = g.explanation;
 
-    // Examples
-    var examplesEl = document.getElementById('grammar-detail-examples');
-    if (g.examples && g.examples.length > 0) {
-      examplesEl.innerHTML = g.examples.map(function (ex) {
-        return '<div class="grammar-example-item">' +
-          '<div class="grammar-example-jp">' + ex.japanese + '</div>' +
-          '<div class="grammar-example-romaji">' + ex.romaji + '</div>' +
-          '<div class="grammar-example-german">' + ex.german + '</div>' +
-        '</div>';
-      }).join('');
-    } else {
-      examplesEl.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
-    }
-
-    // Notes
-    var notesSection = document.getElementById('grammar-detail-notes-section');
-    var notesEl = document.getElementById('grammar-detail-notes');
-    if (g.notes && g.notes.length > 0) {
-      notesEl.textContent = g.notes;
-      notesSection.classList.remove('hidden');
-    } else {
-      notesSection.classList.add('hidden');
-    }
+    renderExamplesOrEmpty('grammar-detail-examples', g.examples);
+    toggleNotes('grammar-detail-notes-section', 'grammar-detail-notes', g.notes);
 
     // Related grammar
     var relatedSection = document.getElementById('grammar-detail-related-section');
@@ -328,8 +403,7 @@ SECTION_CONFIGS.grammar = {
             section.openDetail(targetIndex);
           } else {
             // Item might be filtered out — reset filters and find it
-            var allIndex = section.allItems.findIndex(function (item) { return item.id === targetId; });
-            if (allIndex !== -1) {
+            if (section.allItems.some(function (item) { return item.id === targetId; })) {
               section.resetFilterGroup('category');
               section.dom.search.value = '';
               section.applyFilters();
@@ -397,12 +471,11 @@ SECTION_CONFIGS.vocab = {
   },
 
   sortFn: function (items, sortKey) {
-    var levelOrder = { 'N5': 0, 'N4': 1, 'N3': 2, 'N2': 3, 'N1': 4 };
     var typeOrder = { 'Nomen': 0, 'Verb': 1, 'Adjektiv': 2, 'Adverb': 3, 'Partikel': 4, 'Ausdruck': 5 };
     items.sort(function (a, b) {
       if (sortKey === 'level') {
-        var la = levelOrder[a.level] !== undefined ? levelOrder[a.level] : 9;
-        var lb = levelOrder[b.level] !== undefined ? levelOrder[b.level] : 9;
+        var la = LEVEL_ORDER[a.level] !== undefined ? LEVEL_ORDER[a.level] : 9;
+        var lb = LEVEL_ORDER[b.level] !== undefined ? LEVEL_ORDER[b.level] : 9;
         if (la !== lb) return la - lb;
         return a.word.localeCompare(b.word, 'ja');
       }
@@ -427,7 +500,6 @@ SECTION_CONFIGS.vocab = {
   createCard: function (v, index, section) {
     var card = document.createElement('div');
     card.className = 'vocab-card';
-    card.setAttribute('data-index', index);
 
     card.innerHTML =
       '<div class="vocab-card-header">' +
@@ -462,55 +534,25 @@ SECTION_CONFIGS.vocab = {
     document.getElementById('vocab-detail-category-line').textContent =
       'Kategorie: ' + (v.category || '\u2014');
 
-    // Examples
-    var examplesEl = document.getElementById('vocab-detail-examples');
-    if (v.examples && v.examples.length > 0) {
-      examplesEl.innerHTML = v.examples.map(function (ex) {
-        return '<div class="grammar-example-item">' +
-          '<div class="grammar-example-jp">' + ex.japanese + '</div>' +
-          '<div class="grammar-example-romaji">' + ex.romaji + '</div>' +
-          '<div class="grammar-example-german">' + ex.german + '</div>' +
-        '</div>';
-      }).join('');
-    } else {
-      examplesEl.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
-    }
+    renderExamplesOrEmpty('vocab-detail-examples', v.examples);
 
-    // Kanji links
+    // Kanji links (O(1) lookup via index)
     var kanjiSection = document.getElementById('vocab-detail-kanji-section');
     var kanjiLinksEl = document.getElementById('vocab-detail-kanji-links');
     var kanjiChars = [];
-    var allKanji = window.app && window.app.sections.kanji
-      ? window.app.sections.kanji.allItems : [];
+    var kanjiIndex = getKanjiByChar();
 
     for (var i = 0; i < v.word.length; i++) {
       var ch = v.word[i];
       if (ch.charCodeAt(0) >= 0x4E00 && ch.charCodeAt(0) <= 0x9FFF) {
-        var found = allKanji.find(function (k) { return k.kanji === ch; });
+        var found = kanjiIndex[ch];
         if (found) kanjiChars.push(found);
       }
     }
 
     if (kanjiChars.length > 0) {
-      kanjiLinksEl.innerHTML = kanjiChars.map(function (k) {
-        return '<span class="component-tag" data-kanji="' + k.kanji + '">' +
-          '<span class="comp-radical">' + k.kanji + '</span>' +
-          '<span class="comp-meaning">' + k.meanings[0] + '</span></span>';
-      }).join('');
-
-      kanjiLinksEl.querySelectorAll('.component-tag').forEach(function (tag) {
-        tag.addEventListener('click', function () {
-          var targetKanji = this.getAttribute('data-kanji');
-          section.closeDetail();
-          var kanjiSec = window.app.sections.kanji;
-          window.app.switchTab('kanji');
-          kanjiSec.dom.search.value = targetKanji;
-          kanjiSec.dom.clearSearch.classList.add('visible');
-          kanjiSec.applyFilters();
-          if (kanjiSec.filteredItems.length > 0) kanjiSec.openDetail(0);
-        });
-      });
-
+      kanjiLinksEl.innerHTML = renderKanjiTags(kanjiChars);
+      attachKanjiNavigation(kanjiLinksEl, section);
       kanjiSection.classList.remove('hidden');
     } else {
       kanjiSection.classList.add('hidden');
@@ -576,7 +618,6 @@ SECTION_CONFIGS.counters = {
   createCard: function (c, index, section) {
     var card = document.createElement('div');
     card.className = 'counter-card';
-    card.setAttribute('data-index', index);
 
     var previewHtml = '';
     if (c.counts) {
@@ -620,6 +661,8 @@ SECTION_CONFIGS.counters = {
         '<span class="counter-question-kanji">' + c.questionWord.kanji + '</span>' +
         '<span class="counter-question-reading">' + c.questionWord.reading + '</span>' +
         '<span class="counter-question-romaji">' + c.questionWord.romaji + '</span>';
+    } else {
+      questionEl.innerHTML = '';
     }
 
     // Count table
@@ -641,6 +684,8 @@ SECTION_CONFIGS.counters = {
       });
       tableHtml += '</tbody></table>';
       tableEl.innerHTML = tableHtml;
+    } else {
+      tableEl.innerHTML = '';
     }
 
     // Special counts
@@ -660,29 +705,8 @@ SECTION_CONFIGS.counters = {
       specialSection.classList.add('hidden');
     }
 
-    // Examples
-    var examplesEl = document.getElementById('counter-detail-examples');
-    if (c.examples && c.examples.length > 0) {
-      examplesEl.innerHTML = c.examples.map(function (ex) {
-        return '<div class="grammar-example-item">' +
-          '<div class="grammar-example-jp">' + ex.japanese + '</div>' +
-          '<div class="grammar-example-romaji">' + ex.romaji + '</div>' +
-          '<div class="grammar-example-german">' + ex.german + '</div>' +
-        '</div>';
-      }).join('');
-    } else {
-      examplesEl.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
-    }
-
-    // Notes
-    var notesSection = document.getElementById('counter-detail-notes-section');
-    var notesEl = document.getElementById('counter-detail-notes');
-    if (c.notes && c.notes.length > 0) {
-      notesEl.textContent = c.notes;
-      notesSection.classList.remove('hidden');
-    } else {
-      notesSection.classList.add('hidden');
-    }
+    renderExamplesOrEmpty('counter-detail-examples', c.examples);
+    toggleNotes('counter-detail-notes-section', 'counter-detail-notes', c.notes);
   }
 };
 
@@ -739,7 +763,6 @@ SECTION_CONFIGS.radicals = {
   createCard: function (r, index, section) {
     var card = document.createElement('div');
     card.className = 'radical-card';
-    card.setAttribute('data-index', index);
 
     card.innerHTML =
       '<span class="radical-card-number">#' + r.number + '</span>' +
@@ -772,40 +795,13 @@ SECTION_CONFIGS.radicals = {
       explanationEl.style.display = 'none';
     }
 
-    // Find kanji that use this radical
+    // Find kanji that use this radical (O(1) lookup via index)
     var kanjiList = document.getElementById('radical-detail-kanji-list');
-    var allKanji = window.app && window.app.sections.kanji
-      ? window.app.sections.kanji.allItems : [];
-    var matchingKanji = allKanji.filter(function (k) {
-      return k.components && k.components.some(function (c) {
-        return c.radical === r.radical;
-      });
-    });
+    var matchingKanji = getKanjiByRadical()[r.radical] || [];
 
     if (matchingKanji.length > 0) {
-      kanjiList.innerHTML = matchingKanji.map(function (k) {
-        return '<span class="component-tag" data-kanji="' + k.kanji + '">' +
-          '<span class="comp-radical">' + k.kanji + '</span>' +
-          '<span class="comp-meaning">' + k.meanings[0] + '</span></span>';
-      }).join('');
-
-      kanjiList.querySelectorAll('.component-tag').forEach(function (tag) {
-        tag.addEventListener('click', function () {
-          var targetKanji = this.getAttribute('data-kanji');
-          section.closeDetail();
-          var kanjiSec = window.app.sections.kanji;
-          window.app.switchTab('kanji');
-          kanjiSec.dom.search.value = targetKanji;
-          kanjiSec.dom.clearSearch.classList.add('visible');
-          kanjiSec.applyFilters();
-          for (var i = 0; i < kanjiSec.filteredItems.length; i++) {
-            if (kanjiSec.filteredItems[i].kanji === targetKanji) {
-              kanjiSec.openDetail(i);
-              break;
-            }
-          }
-        });
-      });
+      kanjiList.innerHTML = renderKanjiTags(matchingKanji);
+      attachKanjiNavigation(kanjiList, section);
     } else {
       kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Keine Kanji mit diesem Radikal in der Datenbank gefunden.</span>';
     }
