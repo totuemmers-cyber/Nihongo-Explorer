@@ -918,6 +918,131 @@ main {
   filter: invert(0.85) hue-rotate(180deg);
 }
 
+/* === CONJUGATION SECTION === */
+.conjugation-section {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.conjugation-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.conjugation-header h3 {
+  margin: 0;
+}
+
+.conjugation-header .toggle-icon {
+  margin-left: auto;
+  transition: transform 0.25s ease;
+  color: var(--text-secondary);
+}
+
+.conjugation-header .toggle-icon.collapsed {
+  transform: rotate(-90deg);
+}
+
+.conjugation-body {
+  overflow: hidden;
+  max-height: 1200px;
+  transition: max-height 0.3s ease;
+}
+
+.conjugation-body.collapsed {
+  max-height: 0 !important;
+}
+
+.conjugation-container {
+  padding: 8px 0;
+}
+
+.conjugation-group {
+  margin-bottom: 16px;
+}
+
+.conjugation-group:last-child {
+  margin-bottom: 0;
+}
+
+.conjugation-group-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin: 0 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.conjugation-group-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  background: var(--vt-verb-bg, #ecfdf5);
+  color: var(--vt-verb, #047857);
+  border: 1px solid var(--vt-verb-border, #6ee7b7);
+}
+
+.conjugation-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.conjugation-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background var(--transition);
+}
+
+.conjugation-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.conjugation-table tbody tr:hover {
+  background: rgba(99, 102, 241, 0.04);
+}
+
+.conjugation-table td {
+  padding: 6px 8px;
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+
+.conjugation-table .conj-label {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  width: 40%;
+}
+
+.conjugation-table .conj-form {
+  font-family: var(--font-jp);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.conjugation-table .conj-speak {
+  width: 36px;
+  text-align: center;
+}
+
+.conjugation-table .conj-speak .btn-speak {
+  width: 28px;
+  height: 28px;
+}
+
+[data-theme="dark"] .conjugation-table tbody tr:hover {
+  background: rgba(99, 102, 241, 0.08);
+}
+
 /* === TAB BAR === */
 .tab-bar {
   display: flex;
