@@ -901,28 +901,16 @@ main {
   padding: 16px 0 8px;
 }
 
-.stroke-order-container svg {
+.stroke-order-svg {
   width: 200px;
   height: 200px;
   max-width: 100%;
+  display: block;
+  border: none;
 }
 
-.stroke-order-container .no-reading {
-  padding: 12px 0;
-}
-
-.stroke-order-loading {
-  display: flex;
-  justify-content: center;
-  padding: 20px 0;
-}
-
-[data-theme="dark"] .stroke-order-container svg path[id] {
-  fill: #555;
-}
-
-[data-theme="dark"] .stroke-order-container svg path[clip-path] {
-  stroke: #e2e8f0;
+[data-theme="dark"] .stroke-order-svg {
+  filter: invert(0.85) hue-rotate(180deg);
 }
 
 /* === TAB BAR === */
