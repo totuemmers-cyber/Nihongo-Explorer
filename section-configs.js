@@ -283,6 +283,47 @@ SECTION_CONFIGS.kanji = {
     } else {
       detailExamples.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
     }
+
+    // Stroke order — reset to collapsed, clear previous SVG
+    var soHeader = document.getElementById('stroke-order-header');
+    var soBody = document.getElementById('stroke-order-body');
+    var soContainer = document.getElementById('stroke-order-container');
+    var soIcon = soHeader.querySelector('.toggle-icon');
+    soBody.classList.add('collapsed');
+    soIcon.classList.add('collapsed');
+    soContainer.innerHTML = '';
+
+    var codepoint = k.kanji.codePointAt(0);
+
+    // Remove old listener by replacing node
+    var newHeader = soHeader.cloneNode(true);
+    soHeader.parentNode.replaceChild(newHeader, soHeader);
+    soIcon = newHeader.querySelector('.toggle-icon');
+
+    newHeader.addEventListener('click', function () {
+      if (window.app) window.app.playTick();
+      soBody.classList.toggle('collapsed');
+      soIcon.classList.toggle('collapsed');
+
+      // Load SVG on first expand via <object> (works with file:// protocol)
+      if (!soBody.classList.contains('collapsed') && !soContainer.querySelector('.stroke-order-svg')) {
+        var obj = document.createElement('object');
+        obj.data = 'stroke-order/' + codepoint + '.svg';
+        obj.type = 'image/svg+xml';
+        obj.className = 'stroke-order-svg';
+
+        var replayBtn = document.createElement('button');
+        replayBtn.className = 'btn btn-pill stroke-order-replay';
+        replayBtn.textContent = 'Nochmal abspielen';
+        replayBtn.addEventListener('click', function () {
+          if (window.app) window.app.playTick();
+          obj.data = 'stroke-order/' + codepoint + '.svg';
+        });
+
+        soContainer.appendChild(obj);
+        soContainer.appendChild(replayBtn);
+      }
+    });
   }
 };
 
