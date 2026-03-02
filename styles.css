@@ -862,6 +862,69 @@ main {
   margin-top: 2px;
 }
 
+/* === STROKE ORDER === */
+.stroke-order-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  gap: 8px;
+}
+
+.stroke-order-header h3 {
+  margin: 0;
+}
+
+.stroke-order-header .toggle-icon {
+  margin-left: auto;
+  transition: transform 0.25s ease;
+  color: var(--text-secondary);
+}
+
+.stroke-order-header .toggle-icon.collapsed {
+  transform: rotate(-90deg);
+}
+
+.stroke-order-body {
+  overflow: hidden;
+  max-height: 500px;
+  transition: max-height 0.3s ease;
+}
+
+.stroke-order-body.collapsed {
+  max-height: 0 !important;
+}
+
+.stroke-order-container {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0 8px;
+}
+
+.stroke-order-container svg {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+}
+
+.stroke-order-container .no-reading {
+  padding: 12px 0;
+}
+
+.stroke-order-loading {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+[data-theme="dark"] .stroke-order-container svg path[id] {
+  fill: #555;
+}
+
+[data-theme="dark"] .stroke-order-container svg path[clip-path] {
+  stroke: #e2e8f0;
+}
+
 /* === TAB BAR === */
 .tab-bar {
   display: flex;
