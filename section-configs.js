@@ -199,6 +199,20 @@ SECTION_CONFIGS.kanji = {
     var jlptEl = document.getElementById('detail-jlpt');
     jlptEl.textContent = k.jlpt;
     jlptEl.className = 'detail-jlpt-badge ' + k.jlpt;
+
+    // Speak button
+    var display = document.querySelector('.detail-kanji-display');
+    var oldBtn = display.querySelector('.btn-speak');
+    if (oldBtn) oldBtn.remove();
+    var speakBtn = document.createElement('button');
+    speakBtn.className = 'btn btn-icon btn-speak';
+    speakBtn.title = 'Aussprache';
+    speakBtn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
+    speakBtn.addEventListener('click', function () {
+      if (window.app) window.app.speakJP(k.kanji);
+    });
+    display.appendChild(speakBtn);
+
     document.getElementById('detail-meanings').textContent = k.meanings.join(', ');
     document.getElementById('detail-strokes').textContent = k.strokes + ' Striche';
 
@@ -527,6 +541,19 @@ SECTION_CONFIGS.vocab = {
     var typeBadge = document.getElementById('vocab-detail-type');
     typeBadge.textContent = v.type;
     typeBadge.className = 'vocab-type-badge ' + v.type;
+
+    // Speak button
+    var header = document.querySelector('.vocab-detail-header');
+    var oldBtn = header.querySelector('.btn-speak');
+    if (oldBtn) oldBtn.remove();
+    var speakBtn = document.createElement('button');
+    speakBtn.className = 'btn btn-icon btn-speak';
+    speakBtn.title = 'Aussprache';
+    speakBtn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
+    speakBtn.addEventListener('click', function () {
+      if (window.app) window.app.speakJP(v.word);
+    });
+    header.appendChild(speakBtn);
 
     document.getElementById('vocab-detail-reading').textContent = v.reading || '';
     document.getElementById('vocab-detail-romaji').textContent = v.romaji || '';
