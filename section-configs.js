@@ -200,29 +200,30 @@ SECTION_CONFIGS.kanji = {
     jlptEl.textContent = k.jlpt;
     jlptEl.className = 'detail-jlpt-badge ' + k.jlpt;
 
-    // Speak button
-    var display = document.querySelector('.detail-kanji-display');
-    var oldBtn = display.querySelector('.btn-speak');
-    if (oldBtn) oldBtn.remove();
-    var speakBtn = document.createElement('button');
-    speakBtn.className = 'btn btn-icon btn-speak';
-    speakBtn.title = 'Aussprache';
-    speakBtn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
-    speakBtn.addEventListener('click', function () {
-      if (window.app) window.app.speakJP(k.kanji);
-    });
-    display.appendChild(speakBtn);
-
     document.getElementById('detail-meanings').textContent = k.meanings.join(', ');
     document.getElementById('detail-strokes').textContent = k.strokes + ' Striche';
+
+    // Speak button SVG (reused for readings)
+    var speakSvg = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>';
+
+    function buildReadingItems(container, readings, cls) {
+      container.innerHTML = readings.map(function (r) {
+        return '<div class="reading-item ' + cls + '">' +
+          '<div class="reading-text"><span class="kana">' + r.kana +
+          '</span><span class="romaji">' + r.romaji + '</span></div>' +
+          '<button class="btn btn-icon btn-speak btn-speak-sm" title="Aussprache" data-kana="' + r.kana + '">' + speakSvg + '</button></div>';
+      }).join('');
+      container.querySelectorAll('.btn-speak').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (window.app) window.app.speakJP(this.getAttribute('data-kana'));
+        });
+      });
+    }
 
     // Kun readings
     var detailKun = document.getElementById('detail-kun');
     if (k.kun && k.kun.length > 0) {
-      detailKun.innerHTML = k.kun.map(function (r) {
-        return '<div class="reading-item kun"><span class="kana">' + r.kana +
-          '</span><span class="romaji">' + r.romaji + '</span></div>';
-      }).join('');
+      buildReadingItems(detailKun, k.kun, 'kun');
     } else {
       detailKun.innerHTML = '<div class="no-reading">Keine Kun-Lesung</div>';
     }
@@ -230,10 +231,7 @@ SECTION_CONFIGS.kanji = {
     // On readings
     var detailOn = document.getElementById('detail-on');
     if (k.on && k.on.length > 0) {
-      detailOn.innerHTML = k.on.map(function (r) {
-        return '<div class="reading-item on"><span class="kana">' + r.kana +
-          '</span><span class="romaji">' + r.romaji + '</span></div>';
-      }).join('');
+      buildReadingItems(detailOn, k.on, 'on');
     } else {
       detailOn.innerHTML = '<div class="no-reading">Keine On-Lesung</div>';
     }

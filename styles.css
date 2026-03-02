@@ -727,9 +727,18 @@ main {
 }
 
 .reading-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 6px 10px;
   border-radius: var(--radius-sm);
   font-size: 0.9rem;
+}
+
+.btn-speak-sm {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
 }
 
 .reading-item.kun {
