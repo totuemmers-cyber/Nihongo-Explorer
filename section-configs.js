@@ -641,6 +641,81 @@ SECTION_CONFIGS.vocab = {
     } else {
       kanjiSection.classList.add('hidden');
     }
+
+    // --- Conjugation section (verbs only) ---
+    var conjSection = document.getElementById('vocab-conjugation-section');
+    var conjHeader = document.getElementById('conjugation-header');
+    var conjBody = document.getElementById('conjugation-body');
+    var conjContainer = document.getElementById('conjugation-container');
+    var conjGroupBadge = document.getElementById('conjugation-group-badge');
+
+    if (v.type === 'Verb' && v.reading && window.conjugateVerb) {
+      var result = window.conjugateVerb(v.reading);
+      if (result && result.forms) {
+        conjSection.classList.remove('hidden');
+
+        // Reset to collapsed state
+        conjBody.classList.add('collapsed');
+        var conjIcon = conjHeader.querySelector('.toggle-icon');
+        conjIcon.classList.add('collapsed');
+        conjContainer.innerHTML = '';
+
+        // Show verb group badge
+        conjGroupBadge.textContent = result.groupLabel;
+        conjGroupBadge.className = 'conjugation-group-badge ' + result.group;
+
+        // Clone header to remove old listeners (same pattern as stroke order)
+        var newConjHeader = conjHeader.cloneNode(true);
+        conjHeader.parentNode.replaceChild(newConjHeader, conjHeader);
+        var newConjIcon = newConjHeader.querySelector('.toggle-icon');
+
+        newConjHeader.addEventListener('click', function () {
+          if (window.app) window.app.playTick();
+          conjBody.classList.toggle('collapsed');
+          newConjIcon.classList.toggle('collapsed');
+
+          // Lazy-load conjugation table on first expand
+          if (!conjBody.classList.contains('collapsed') && !conjContainer.querySelector('.conjugation-table')) {
+            var speakSvg = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>';
+
+            var forms = result.forms;
+            var basicKeys = ['dictionary','polite','negative','negPolite','past','pastPolite','pastNeg','pastNegPolite','te'];
+            var advancedKeys = ['potential','passive','causative','causPas','conditional','conditionalTara','volitional','volPolite','imperative','prohibitive'];
+
+            function buildConjGroup(title, keys) {
+              var html = '<div class="conjugation-group">';
+              html += '<h4 class="conjugation-group-title">' + title + '</h4>';
+              html += '<table class="conjugation-table"><tbody>';
+              for (var i = 0; i < keys.length; i++) {
+                var f = forms[keys[i]];
+                if (!f) continue;
+                html += '<tr>' +
+                  '<td class="conj-label">' + f.label + '</td>' +
+                  '<td class="conj-form">' + f.japanese + '</td>' +
+                  '<td class="conj-speak"><button class="btn btn-icon btn-speak btn-speak-sm" title="Aussprache" data-text="' + f.japanese + '">' + speakSvg + '</button></td>' +
+                '</tr>';
+              }
+              html += '</tbody></table></div>';
+              return html;
+            }
+
+            conjContainer.innerHTML = buildConjGroup('Grundformen', basicKeys) + buildConjGroup('Erweiterte Formen', advancedKeys);
+
+            // Wire up speak buttons
+            conjContainer.querySelectorAll('.btn-speak').forEach(function (btn) {
+              btn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                if (window.app) window.app.speakJP(this.getAttribute('data-text'));
+              });
+            });
+          }
+        });
+      } else {
+        conjSection.classList.add('hidden');
+      }
+    } else {
+      conjSection.classList.add('hidden');
+    }
   }
 };
 
