@@ -14,7 +14,8 @@
     setRadicalFilter: setRadicalFilter,
     clearRadicalFilter: clearRadicalFilter,
     openRadicalInTab: openRadicalInTab,
-    renderBasicNumbers: renderBasicNumbers
+    renderBasicNumbers: renderBasicNumbers,
+    speakJP: speakJP
   };
 
   // === SOUND ENGINE (Web Audio API) ===
@@ -448,9 +449,13 @@
   }
 
   function speakKana(char) {
+    speakJP(char);
+  }
+
+  function speakJP(text) {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
-      var utterance = new SpeechSynthesisUtterance(char);
+      var utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'ja-JP';
       utterance.rate = 0.8;
       utterance.volume = 0.8;
