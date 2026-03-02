@@ -28,7 +28,7 @@
     return audioCtx;
   }
 
-  function playTick() {
+  function playOscSound(configureFn) {
     if (!soundEnabled) return;
     try {
       var ctx = getAudioCtx();
@@ -37,32 +37,30 @@
       osc.connect(gain);
       gain.connect(ctx.destination);
       osc.type = 'sine';
+      configureFn(ctx, osc, gain);
+      osc.start(ctx.currentTime);
+    } catch (e) {}
+  }
+
+  function playTick() {
+    playOscSound(function (ctx, osc, gain) {
       osc.frequency.setValueAtTime(800, ctx.currentTime);
       osc.frequency.exponentialRampToValueAtTime(600, ctx.currentTime + 0.06);
       gain.gain.setValueAtTime(0.08, ctx.currentTime);
       gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.06);
-      osc.start(ctx.currentTime);
       osc.stop(ctx.currentTime + 0.06);
-    } catch (e) {}
+    });
   }
 
   function playPop() {
-    if (!soundEnabled) return;
-    try {
-      var ctx = getAudioCtx();
-      var osc = ctx.createOscillator();
-      var gain = ctx.createGain();
-      osc.connect(gain);
-      gain.connect(ctx.destination);
-      osc.type = 'sine';
+    playOscSound(function (ctx, osc, gain) {
       osc.frequency.setValueAtTime(400, ctx.currentTime);
       osc.frequency.exponentialRampToValueAtTime(800, ctx.currentTime + 0.08);
       osc.frequency.exponentialRampToValueAtTime(500, ctx.currentTime + 0.15);
       gain.gain.setValueAtTime(0.1, ctx.currentTime);
       gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.15);
-      osc.start(ctx.currentTime);
       osc.stop(ctx.currentTime + 0.15);
-    } catch (e) {}
+    });
   }
 
   function playSwoosh() {
