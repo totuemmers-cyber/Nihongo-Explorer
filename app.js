@@ -105,7 +105,7 @@
   var katakanaTab = document.getElementById('katakana-tab');
 
   // Section names that have controls + tab panels
-  var sectionNames = ['kanji', 'grammar', 'vocab', 'counters', 'radicals'];
+  var sectionNames = ['kanji', 'grammar', 'vocab', 'onomatopoeia', 'counters', 'radicals'];
 
   // === INSTANTIATE SECTIONS ===
   sectionNames.forEach(function (name) {
@@ -196,6 +196,11 @@
     var allVocab = [].concat.apply([], vocabSources);
     if (allVocab.length > 0) {
       app.sections.vocab.setItems(allVocab);
+    }
+
+    // Onomatopoeia
+    if (window.ONOMATOPOEIA_DATA) {
+      app.sections.onomatopoeia.setItems(window.ONOMATOPOEIA_DATA);
     }
 
     // Counters
