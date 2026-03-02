@@ -130,6 +130,7 @@ Section.prototype._setupScrollObserver = function () {
 
 Section.prototype.openDetail = function (index) {
   if (index < 0 || index >= this.filteredItems.length) return;
+  this._triggerEl = document.activeElement;
   this.currentDetailIndex = index;
   var item = this.filteredItems[index];
   this.config.openDetail(item, this.dom, this);
@@ -138,12 +139,19 @@ Section.prototype.openDetail = function (index) {
   if (window.app && typeof window.app.playPop === 'function') {
     window.app.playPop();
   }
+  // Focus the close button so keyboard users land inside the overlay
+  if (this.dom.closeBtn) this.dom.closeBtn.focus();
 };
 
 Section.prototype.closeDetail = function () {
   if (this.dom.overlay) this.dom.overlay.classList.add('hidden');
   document.body.style.overflow = '';
   this.currentDetailIndex = -1;
+  // Return focus to the element that opened the overlay
+  if (this._triggerEl && this._triggerEl.focus) {
+    this._triggerEl.focus();
+    this._triggerEl = null;
+  }
 };
 
 Section.prototype.navigateDetail = function (direction) {
@@ -242,6 +250,28 @@ Section.prototype._initEvents = function () {
   if (this.dom.overlay) {
     this.dom.overlay.addEventListener('click', function (e) {
       if (e.target === self.dom.overlay) self.closeDetail();
+    });
+
+    // Focus trap: keep Tab within overlay while open
+    this.dom.overlay.addEventListener('keydown', function (e) {
+      if (e.key !== 'Tab') return;
+      var focusable = self.dom.overlay.querySelectorAll(
+        'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'
+      );
+      if (focusable.length === 0) return;
+      var first = focusable[0];
+      var last = focusable[focusable.length - 1];
+      if (e.shiftKey) {
+        if (document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        }
+      } else {
+        if (document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
     });
   }
 

@@ -183,13 +183,19 @@ SECTION_CONFIGS.kanji = {
   createCard: function (k, index, section) {
     var card = document.createElement('div');
     card.className = 'kanji-card';
+    card.tabIndex = 0;
+    card.setAttribute('role', 'button');
     card.innerHTML =
       '<span class="card-level ' + k.jlpt + '">' + k.jlpt + '</span>' +
       '<span class="card-kanji">' + k.kanji + '</span>' +
       '<span class="card-meaning">' + k.meanings[0] + '</span>';
-    card.addEventListener('click', function () {
+    function activate() {
       if (window.app) window.app.playTick();
       section.openDetail(index);
+    }
+    card.addEventListener('click', activate);
+    card.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
     });
     return card;
   },
@@ -358,6 +364,8 @@ SECTION_CONFIGS.grammar = {
   createCard: function (g, index, section) {
     var card = document.createElement('div');
     card.className = 'grammar-card';
+    card.tabIndex = 0;
+    card.setAttribute('role', 'button');
 
     var exampleText = '';
     if (g.examples && g.examples.length > 0) {
@@ -375,9 +383,13 @@ SECTION_CONFIGS.grammar = {
       '<div class="grammar-card-meaning">' + g.meaning + '</div>' +
       (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : '');
 
-    card.addEventListener('click', function () {
+    function activate() {
       if (window.app) window.app.playTick();
       section.openDetail(index);
+    }
+    card.addEventListener('click', activate);
+    card.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
     });
     return card;
   },
@@ -512,6 +524,8 @@ SECTION_CONFIGS.vocab = {
   createCard: function (v, index, section) {
     var card = document.createElement('div');
     card.className = 'vocab-card';
+    card.tabIndex = 0;
+    card.setAttribute('role', 'button');
 
     card.innerHTML =
       '<div class="vocab-card-header">' +
@@ -524,9 +538,13 @@ SECTION_CONFIGS.vocab = {
       '<div class="vocab-card-reading">' + (v.reading || '') + '</div>' +
       '<div class="vocab-card-meaning">' + v.meaning + '</div>';
 
-    card.addEventListener('click', function () {
+    function activate() {
       if (window.app) window.app.playTick();
       section.openDetail(index);
+    }
+    card.addEventListener('click', activate);
+    card.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
     });
     return card;
   },
@@ -643,6 +661,8 @@ SECTION_CONFIGS.counters = {
   createCard: function (c, index, section) {
     var card = document.createElement('div');
     card.className = 'counter-card';
+    card.tabIndex = 0;
+    card.setAttribute('role', 'button');
 
     var previewHtml = '';
     if (c.counts) {
@@ -662,9 +682,13 @@ SECTION_CONFIGS.counters = {
       '<div class="counter-card-meaning">' + c.meaning + '</div>' +
       previewHtml;
 
-    card.addEventListener('click', function () {
+    function activate() {
       if (window.app) window.app.playTick();
       section.openDetail(index);
+    }
+    card.addEventListener('click', activate);
+    card.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
     });
     return card;
   },
@@ -788,6 +812,8 @@ SECTION_CONFIGS.radicals = {
   createCard: function (r, index, section) {
     var card = document.createElement('div');
     card.className = 'radical-card';
+    card.tabIndex = 0;
+    card.setAttribute('role', 'button');
 
     card.innerHTML =
       '<span class="radical-card-number">#' + r.number + '</span>' +
@@ -796,9 +822,13 @@ SECTION_CONFIGS.radicals = {
       '<span class="radical-card-meaning">' + r.meaning + '</span>' +
       '<span class="radical-card-reading">' + r.reading + '</span>';
 
-    card.addEventListener('click', function () {
+    function activate() {
       if (window.app) window.app.playTick();
       section.openDetail(index);
+    }
+    card.addEventListener('click', activate);
+    card.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
     });
     return card;
   },
