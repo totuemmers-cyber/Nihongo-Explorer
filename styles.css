@@ -38,30 +38,32 @@
   --accent: #6366f1;
   --accent-hover: #4f46e5;
   --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
+  /* Grammar categories (shared palette with JLPT levels) */
   --cat-partikel: #3b82f6;
   --cat-partikel-bg: #eff6ff;
   --cat-partikel-border: #bfdbfe;
-  --cat-verben: #10b981;
-  --cat-verben-bg: #ecfdf5;
-  --cat-verben-border: #a7f3d0;
-  --cat-adjektive: #f59e0b;
-  --cat-adjektive-bg: #fffbeb;
-  --cat-adjektive-border: #fde68a;
-  --cat-satzstrukturen: #8b5cf6;
-  --cat-satzstrukturen-bg: #f5f3ff;
-  --cat-satzstrukturen-border: #c4b5fd;
-  --vt-nomen: #3b82f6;
-  --vt-nomen-bg: #eff6ff;
-  --vt-nomen-border: #bfdbfe;
-  --vt-verb: #10b981;
-  --vt-verb-bg: #ecfdf5;
-  --vt-verb-border: #a7f3d0;
-  --vt-adjektiv: #f59e0b;
-  --vt-adjektiv-bg: #fffbeb;
-  --vt-adjektiv-border: #fde68a;
-  --vt-adverb: #8b5cf6;
-  --vt-adverb-bg: #f5f3ff;
-  --vt-adverb-border: #c4b5fd;
+  --cat-verben: var(--n5);
+  --cat-verben-bg: var(--n5-bg);
+  --cat-verben-border: var(--n5-border);
+  --cat-adjektive: var(--n4);
+  --cat-adjektive-bg: var(--n4-bg);
+  --cat-adjektive-border: var(--n4-border);
+  --cat-satzstrukturen: var(--n3);
+  --cat-satzstrukturen-bg: var(--n3-bg);
+  --cat-satzstrukturen-border: var(--n3-border);
+  /* Vocab types (shared palette) */
+  --vt-nomen: var(--cat-partikel);
+  --vt-nomen-bg: var(--cat-partikel-bg);
+  --vt-nomen-border: var(--cat-partikel-border);
+  --vt-verb: var(--n5);
+  --vt-verb-bg: var(--n5-bg);
+  --vt-verb-border: var(--n5-border);
+  --vt-adjektiv: var(--n4);
+  --vt-adjektiv-bg: var(--n4-bg);
+  --vt-adjektiv-border: var(--n4-border);
+  --vt-adverb: var(--n3);
+  --vt-adverb-bg: var(--n3-bg);
+  --vt-adverb-border: var(--n3-border);
   --vt-ausdruck: #ec4899;
   --vt-ausdruck-bg: #fdf2f8;
   --vt-ausdruck-border: #fbcfe8;
@@ -98,20 +100,6 @@
   --n1-border: #b45309;
   --cat-partikel-bg: #1e3a5f;
   --cat-partikel-border: #2563eb;
-  --cat-verben-bg: #064e3b;
-  --cat-verben-border: #065f46;
-  --cat-adjektive-bg: #78350f;
-  --cat-adjektive-border: #92400e;
-  --cat-satzstrukturen-bg: #4c1d95;
-  --cat-satzstrukturen-border: #5b21b6;
-  --vt-nomen-bg: #1e3a5f;
-  --vt-nomen-border: #2563eb;
-  --vt-verb-bg: #064e3b;
-  --vt-verb-border: #065f46;
-  --vt-adjektiv-bg: #78350f;
-  --vt-adjektiv-border: #92400e;
-  --vt-adverb-bg: #4c1d95;
-  --vt-adverb-border: #5b21b6;
   --vt-ausdruck-bg: #831843;
   --vt-ausdruck-border: #be185d;
   --vt-partikel-bg: #134e4a;
@@ -477,31 +465,36 @@ main {
 }
 
 /* === KANJI CARDS === */
-.kanji-card {
+/* Shared card base styles */
+.kanji-card, .grammar-card, .vocab-card, .counter-card, .radical-card {
   background: var(--bg-card);
   border-radius: var(--radius);
-  padding: 14px 10px 12px;
-  text-align: center;
   cursor: pointer;
   position: relative;
   border: 1px solid var(--border);
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   display: flex;
   flex-direction: column;
+  animation: fadeIn 0.3s ease;
+}
+
+.kanji-card:hover, .grammar-card:hover, .vocab-card:hover,
+.counter-card:hover, .radical-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: transparent;
+}
+
+.kanji-card {
+  padding: 14px 10px 12px;
+  text-align: center;
   align-items: center;
   gap: 4px;
-  animation: fadeIn 0.3s ease;
 }
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
-}
-
-.kanji-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
-  border-color: transparent;
 }
 
 .card-level {
@@ -923,24 +916,9 @@ main {
 
 /* === GRAMMAR CARDS === */
 .grammar-card {
-  background: var(--bg-card);
-  border-radius: var(--radius);
   padding: 14px;
-  cursor: pointer;
-  position: relative;
-  border: 1px solid var(--border);
-  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
-  display: flex;
-  flex-direction: column;
   gap: 6px;
-  animation: fadeIn 0.3s ease;
   overflow: hidden;
-}
-
-.grammar-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
-  border-color: transparent;
 }
 
 .grammar-card-header {
@@ -1196,24 +1174,9 @@ main {
 
 /* === VOCAB CARDS === */
 .vocab-card {
-  background: var(--bg-card);
-  border-radius: var(--radius);
   padding: 14px;
-  cursor: pointer;
-  position: relative;
-  border: 1px solid var(--border);
-  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
-  display: flex;
-  flex-direction: column;
   gap: 4px;
-  animation: fadeIn 0.3s ease;
   overflow: hidden;
-}
-
-.vocab-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
-  border-color: transparent;
 }
 
 .vocab-card-header {
@@ -1461,16 +1424,35 @@ main {
   border-collapse: collapse;
 }
 
-.kana-table thead th {
-  padding: 10px 8px;
+/* Shared table styles */
+.kana-table thead th, .numbers-table thead th, .counter-table thead th {
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-secondary);
-  text-align: center;
   border-bottom: 2px solid var(--border);
   background: var(--bg);
+}
+
+.kana-table tbody tr, .numbers-table tbody tr, .counter-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background var(--transition);
+}
+
+.kana-table tbody tr:last-child, .numbers-table tbody tr:last-child,
+.counter-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.kana-table tbody tr:hover, .numbers-table tbody tr:hover,
+.counter-table tbody tr:hover {
+  background: rgba(99, 102, 241, 0.04);
+}
+
+.kana-table thead th {
+  padding: 10px 8px;
+  text-align: center;
 }
 
 .kana-table thead th:first-child {
@@ -1479,18 +1461,6 @@ main {
   padding-left: 16px;
 }
 
-.kana-table tbody tr {
-  border-bottom: 1px solid var(--border);
-  transition: background var(--transition);
-}
-
-.kana-table tbody tr:last-child {
-  border-bottom: none;
-}
-
-.kana-table tbody tr:hover {
-  background: rgba(99, 102, 241, 0.03);
-}
 
 .kana-row-label {
   padding: 8px 12px 8px 16px;
@@ -1654,31 +1624,20 @@ main {
 
 /* === COUNTERS (Zahlen & Zählwörter) === */
 
-/* Category colors */
+/* Category colors (shared palette with JLPT levels) */
 :root {
-  --cc-menschen: #e11d48;
-  --cc-menschen-bg: #fff1f2;
-  --cc-menschen-border: #fecdd3;
-  --cc-objekte: #3b82f6;
-  --cc-objekte-bg: #eff6ff;
-  --cc-objekte-border: #bfdbfe;
-  --cc-tiere: #10b981;
-  --cc-tiere-bg: #ecfdf5;
-  --cc-tiere-border: #a7f3d0;
-  --cc-zeit: #8b5cf6;
-  --cc-zeit-bg: #f5f3ff;
-  --cc-zeit-border: #c4b5fd;
-}
-
-[data-theme="dark"] {
-  --cc-menschen-bg: #881337;
-  --cc-menschen-border: #9f1239;
-  --cc-objekte-bg: #1e3a5f;
-  --cc-objekte-border: #2563eb;
-  --cc-tiere-bg: #064e3b;
-  --cc-tiere-border: #065f46;
-  --cc-zeit-bg: #4c1d95;
-  --cc-zeit-border: #5b21b6;
+  --cc-menschen: var(--n2);
+  --cc-menschen-bg: var(--n2-bg);
+  --cc-menschen-border: var(--n2-border);
+  --cc-objekte: var(--cat-partikel);
+  --cc-objekte-bg: var(--cat-partikel-bg);
+  --cc-objekte-border: var(--cat-partikel-border);
+  --cc-tiere: var(--n5);
+  --cc-tiere-bg: var(--n5-bg);
+  --cc-tiere-border: var(--n5-border);
+  --cc-zeit: var(--n3);
+  --cc-zeit-bg: var(--n3-bg);
+  --cc-zeit-border: var(--n3-border);
 }
 
 /* Filter buttons */
@@ -1766,27 +1725,7 @@ main {
 
 .numbers-table thead th {
   padding: 10px 12px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--text-secondary);
   text-align: left;
-  border-bottom: 2px solid var(--border);
-  background: var(--bg);
-}
-
-.numbers-table tbody tr {
-  border-bottom: 1px solid var(--border);
-  transition: background var(--transition);
-}
-
-.numbers-table tbody tr:last-child {
-  border-bottom: none;
-}
-
-.numbers-table tbody tr:hover {
-  background: rgba(99, 102, 241, 0.04);
 }
 
 .numbers-table td {
@@ -1826,24 +1765,9 @@ main {
 
 /* Counter cards */
 .counter-card {
-  background: var(--bg-card);
-  border-radius: var(--radius);
   padding: 16px;
-  cursor: pointer;
-  position: relative;
-  border: 1px solid var(--border);
-  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
-  display: flex;
-  flex-direction: column;
   gap: 8px;
-  animation: fadeIn 0.3s ease;
   overflow: hidden;
-}
-
-.counter-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
-  border-color: transparent;
 }
 
 .counter-card-header {
@@ -2025,27 +1949,7 @@ main {
 
 .counter-table thead th {
   padding: 8px 10px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--text-secondary);
   text-align: left;
-  border-bottom: 2px solid var(--border);
-  background: var(--bg);
-}
-
-.counter-table tbody tr {
-  border-bottom: 1px solid var(--border);
-  transition: background var(--transition);
-}
-
-.counter-table tbody tr:last-child {
-  border-bottom: none;
-}
-
-.counter-table tbody tr:hover {
-  background: rgba(99, 102, 241, 0.04);
 }
 
 .counter-table tbody tr.shift-row {
@@ -2168,25 +2072,10 @@ main {
 }
 
 .radical-card {
-  background: var(--bg-card);
-  border-radius: var(--radius);
   padding: 14px 10px 12px;
   text-align: center;
-  cursor: pointer;
-  position: relative;
-  border: 1px solid var(--border);
-  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 4px;
-  animation: fadeIn 0.3s ease;
-}
-
-.radical-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
-  border-color: transparent;
 }
 
 .radical-card-number {
