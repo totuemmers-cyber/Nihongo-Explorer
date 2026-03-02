@@ -2477,7 +2477,7 @@ window.GRAMMAR_DATA = [
     "level": "N4",
     "category": "Verben",
     "meaning": "Passivform",
-    "explanation": "Die Passivform drückt aus, dass das Subjekt eine Handlung erleidet. Im Japanischen gibt es auch das 'Leidenspaßiv' (迷惑の受身).",
+    "explanation": "Die Passivform drückt aus, dass das Subjekt eine Handlung erleidet. Im Japanischen gibt es auch das 'Leidenspassiv' (迷惑の受身).",
     "formation": "Ichidan: ～られる / Godan: ～あれる (u→areru)",
     "examples": [
       {
