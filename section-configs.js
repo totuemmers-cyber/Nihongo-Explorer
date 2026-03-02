@@ -978,3 +978,174 @@ SECTION_CONFIGS.radicals = {
     }
   }
 };
+
+// ==========================================
+// === ONOMATOPOEIA CONFIG ===
+// ==========================================
+SECTION_CONFIGS.onomatopoeia = {
+  name: 'onomatopoeia',
+  dom: {
+    controls: 'ono-controls',
+    grid: 'ono-grid',
+    search: 'ono-search-input',
+    clearSearch: 'ono-clear-search',
+    sort: 'ono-sort-select',
+    noResults: 'ono-no-results',
+    overlay: 'ono-detail-overlay',
+    closeBtn: 'ono-close-detail',
+    prevBtn: 'prev-ono',
+    nextBtn: 'next-ono'
+  },
+  filterGroups: [
+    {
+      stateKey: 'category',
+      selector: '.ono-cat',
+      dataAttr: 'data-ocat',
+      defaultValue: 'all'
+    },
+    {
+      stateKey: 'pattern',
+      selector: '.ono-pat',
+      dataAttr: 'data-opat',
+      defaultValue: 'all'
+    }
+  ],
+  countLabel: ' Lautmalerei',
+  defaultSort: 'category',
+  batchSize: 0,
+
+  filterFn: function (o, query, filters) {
+    if (filters.category !== 'all' && o.category !== filters.category) return false;
+    if (filters.pattern !== 'all' && o.pattern !== filters.pattern) return false;
+    if (query) {
+      var matchWord = o.word.indexOf(query) !== -1;
+      var matchReading = o.reading && o.reading.indexOf(query) !== -1;
+      var matchRomaji = o.romaji && o.romaji.toLowerCase().indexOf(query) !== -1;
+      var matchMeaning = o.meaning.toLowerCase().indexOf(query) !== -1;
+      var matchExplanation = o.explanation && o.explanation.toLowerCase().indexOf(query) !== -1;
+      var matchExample = o.examples && o.examples.some(function (ex) {
+        return ex.japanese.indexOf(query) !== -1 ||
+          ex.german.toLowerCase().indexOf(query) !== -1 ||
+          ex.romaji.toLowerCase().indexOf(query) !== -1;
+      });
+      if (!matchWord && !matchReading && !matchRomaji && !matchMeaning && !matchExplanation && !matchExample) return false;
+    }
+    return true;
+  },
+
+  sortFn: function (items, sortKey) {
+    var catOrder = { 'Geraeusche': 0, 'Zustaende': 1, 'Gefuehle': 2, 'Bewegung': 3 };
+    var patOrder = { 'ABAB': 0, 'ABっと': 1, 'Andere': 2 };
+    items.sort(function (a, b) {
+      if (sortKey === 'category') {
+        var ca = catOrder[a.category] !== undefined ? catOrder[a.category] : 9;
+        var cb = catOrder[b.category] !== undefined ? catOrder[b.category] : 9;
+        if (ca !== cb) return ca - cb;
+        return a.word.localeCompare(b.word, 'ja');
+      }
+      if (sortKey === 'alpha') {
+        return a.meaning.localeCompare(b.meaning, 'de');
+      }
+      if (sortKey === 'pattern') {
+        var pa = patOrder[a.pattern] !== undefined ? patOrder[a.pattern] : 9;
+        var pb = patOrder[b.pattern] !== undefined ? patOrder[b.pattern] : 9;
+        if (pa !== pb) return pa - pb;
+        return a.word.localeCompare(b.word, 'ja');
+      }
+      return 0;
+    });
+  },
+
+  createCard: function (o, index, section) {
+    var card = document.createElement('div');
+    card.className = 'ono-card';
+    card.tabIndex = 0;
+    card.setAttribute('role', 'button');
+
+    card.innerHTML =
+      '<div class="ono-card-header">' +
+        '<span class="ono-card-word">' + o.word + '</span>' +
+        '<span class="ono-category-badge ' + o.category + '">' + o.categoryJP + '</span>' +
+      '</div>' +
+      '<div class="ono-card-reading">' + (o.reading || '') + '</div>' +
+      '<div class="ono-card-meaning">' + o.meaning + '</div>';
+
+    function activate() {
+      if (window.app) window.app.playTick();
+      section.openDetail(index);
+    }
+    card.addEventListener('click', activate);
+    card.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
+    });
+    return card;
+  },
+
+  openDetail: function (o, dom, section) {
+    document.getElementById('ono-detail-word').textContent = o.word;
+    var catBadge = document.getElementById('ono-detail-category');
+    catBadge.textContent = o.categoryJP;
+    catBadge.className = 'ono-category-badge ' + o.category;
+    var patBadge = document.getElementById('ono-detail-pattern');
+    patBadge.textContent = o.pattern;
+    patBadge.className = 'ono-pattern-badge';
+
+    // Speak button
+    var header = document.querySelector('.ono-detail-header');
+    var oldBtn = header.querySelector('.btn-speak');
+    if (oldBtn) oldBtn.remove();
+    var speakBtn = document.createElement('button');
+    speakBtn.className = 'btn btn-icon btn-speak';
+    speakBtn.title = 'Aussprache';
+    speakBtn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
+    speakBtn.addEventListener('click', function () {
+      if (window.app) window.app.speakJP(o.word);
+    });
+    header.appendChild(speakBtn);
+
+    document.getElementById('ono-detail-reading').textContent = o.reading || '';
+    document.getElementById('ono-detail-romaji').textContent = o.romaji || '';
+    document.getElementById('ono-detail-meaning').textContent = o.meaning;
+    document.getElementById('ono-detail-usage-line').textContent =
+      'Verwendung: ' + (o.usage || '\u2014');
+    document.getElementById('ono-detail-explanation').textContent = o.explanation || '';
+
+    renderExamplesOrEmpty('ono-detail-examples', o.examples);
+    toggleNotes('ono-detail-notes-section', 'ono-detail-notes', o.notes);
+
+    // Related onomatopoeia
+    var relatedSection = document.getElementById('ono-detail-related-section');
+    var relatedEl = document.getElementById('ono-detail-related');
+    if (o.related && o.related.length > 0) {
+      relatedEl.innerHTML = o.related.map(function (relWord) {
+        var found = section.allItems.some(function (item) { return item.word === relWord; });
+        if (!found) return '<span class="ono-related-tag disabled">' + relWord + '</span>';
+        return '<span class="ono-related-tag" data-word="' + relWord + '">' + relWord + '</span>';
+      }).join('');
+
+      relatedEl.querySelectorAll('.ono-related-tag:not(.disabled)').forEach(function (tag) {
+        tag.addEventListener('click', function () {
+          var targetWord = this.getAttribute('data-word');
+          var targetIndex = section.filteredItems.findIndex(function (item) { return item.word === targetWord; });
+          if (targetIndex !== -1) {
+            section.openDetail(targetIndex);
+          } else {
+            // Item might be filtered out — reset filters and find it
+            if (section.allItems.some(function (item) { return item.word === targetWord; })) {
+              section.resetFilterGroup('category');
+              section.resetFilterGroup('pattern');
+              section.dom.search.value = '';
+              section.applyFilters();
+              var newIndex = section.filteredItems.findIndex(function (item) { return item.word === targetWord; });
+              if (newIndex !== -1) section.openDetail(newIndex);
+            }
+          }
+        });
+      });
+
+      relatedSection.classList.remove('hidden');
+    } else {
+      relatedSection.classList.add('hidden');
+    }
+  }
+};
