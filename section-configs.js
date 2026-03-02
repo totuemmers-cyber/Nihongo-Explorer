@@ -306,12 +306,22 @@ SECTION_CONFIGS.kanji = {
       soIcon.classList.toggle('collapsed');
 
       // Load SVG on first expand via <object> (works with file:// protocol)
-      if (!soBody.classList.contains('collapsed') && soContainer.children.length === 0) {
+      if (!soBody.classList.contains('collapsed') && !soContainer.querySelector('.stroke-order-svg')) {
         var obj = document.createElement('object');
         obj.data = 'stroke-order/' + codepoint + '.svg';
         obj.type = 'image/svg+xml';
         obj.className = 'stroke-order-svg';
+
+        var replayBtn = document.createElement('button');
+        replayBtn.className = 'btn btn-pill stroke-order-replay';
+        replayBtn.textContent = 'Nochmal abspielen';
+        replayBtn.addEventListener('click', function () {
+          if (window.app) window.app.playTick();
+          obj.data = 'stroke-order/' + codepoint + '.svg';
+        });
+
         soContainer.appendChild(obj);
+        soContainer.appendChild(replayBtn);
       }
     });
   }
