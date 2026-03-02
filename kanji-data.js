@@ -27587,13 +27587,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ゆう",
-        "romaji": "ゆう"
+        "romaji": "yuu"
       }
     ],
     "on": [
       {
         "kana": "せき",
-        "romaji": "せき"
+        "romaji": "seki"
       }
     ],
     "components": [
@@ -27627,21 +27627,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "かた",
-        "romaji": "かた"
+        "romaji": "kata"
       },
       {
         "kana": "-かた",
-        "romaji": "-かた"
+        "romaji": "-kata"
       },
       {
         "kana": "-がた",
-        "romaji": "-がた"
+        "romaji": "-gata"
       }
     ],
     "on": [
       {
         "kana": "ほう",
-        "romaji": "ほう"
+        "romaji": "hou"
       }
     ],
     "components": [
@@ -27674,13 +27674,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たび",
-        "romaji": "たび"
+        "romaji": "tabi"
       }
     ],
     "on": [
       {
         "kana": "りょ",
-        "romaji": "りょ"
+        "romaji": "ryo"
       }
     ],
     "components": [
@@ -27723,7 +27723,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "ふく",
-        "romaji": "ふく"
+        "romaji": "fuku"
       }
     ],
     "components": [
@@ -27763,13 +27763,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "うし",
-        "romaji": "うし"
+        "romaji": "ushi"
       }
     ],
     "on": [
       {
         "kana": "ぎゅう",
-        "romaji": "ぎゅう"
+        "romaji": "gyuu"
       }
     ],
     "components": [
@@ -27803,21 +27803,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ま",
-        "romaji": "ま"
+        "romaji": "ma"
       },
       {
         "kana": "ま-",
-        "romaji": "ま-"
+        "romaji": "ma-"
       },
       {
         "kana": "まこと",
-        "romaji": "まこと"
+        "romaji": "makoto"
       }
     ],
     "on": [
       {
         "kana": "しん",
-        "romaji": "しん"
+        "romaji": "shin"
       }
     ],
     "components": [
@@ -27863,17 +27863,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "わたくし",
-        "romaji": "わたくし"
+        "romaji": "watakushi"
       },
       {
         "kana": "わたし",
-        "romaji": "わたし"
+        "romaji": "watashi"
       }
     ],
     "on": [
       {
         "kana": "し",
-        "romaji": "し"
+        "romaji": "shi"
       }
     ],
     "components": [
@@ -27910,17 +27910,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "きわ.める",
-        "romaji": "きわ.める"
+        "romaji": "kiwa.meru"
       }
     ],
     "on": [
       {
         "kana": "きゅう",
-        "romaji": "きゅう"
+        "romaji": "kyuu"
       },
       {
         "kana": "く",
-        "romaji": "く"
+        "romaji": "ku"
       }
     ],
     "components": [
@@ -27958,21 +27958,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "の",
-        "romaji": "の"
+        "romaji": "no"
       },
       {
         "kana": "の-",
-        "romaji": "の-"
+        "romaji": "no-"
       }
     ],
     "on": [
       {
         "kana": "や",
-        "romaji": "や"
+        "romaji": "ya"
       },
       {
         "kana": "しょ",
-        "romaji": "しょ"
+        "romaji": "sho"
       }
     ],
     "components": [
@@ -28010,13 +28010,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "めし",
-        "romaji": "めし"
+        "romaji": "meshi"
       }
     ],
     "on": [
       {
         "kana": "はん",
-        "romaji": "はん"
+        "romaji": "han"
       }
     ],
     "components": [
@@ -28052,21 +28052,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "うお",
-        "romaji": "うお"
+        "romaji": "uo"
       },
       {
         "kana": "さかな",
-        "romaji": "さかな"
+        "romaji": "sakana"
       },
       {
         "kana": "-ざかな",
-        "romaji": "-ざかな"
+        "romaji": "-zakana"
       }
     ],
     "on": [
       {
         "kana": "ぎょ",
-        "romaji": "ぎょ"
+        "romaji": "gyo"
       }
     ],
     "components": [
@@ -28108,21 +28108,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "あた.える",
-        "romaji": "あた.える"
+        "romaji": "ata.eru"
       },
       {
         "kana": "あずか.る",
-        "romaji": "あずか.る"
+        "romaji": "azuka.ru"
       },
       {
         "kana": "くみ.する",
-        "romaji": "くみ.する"
+        "romaji": "kumi.suru"
       }
     ],
     "on": [
       {
         "kana": "よ",
-        "romaji": "よ"
+        "romaji": "yo"
       }
     ],
     "components": [
@@ -28160,17 +28160,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "てる",
-        "romaji": "てる"
+        "romaji": "teru"
       },
       {
         "kana": "ふたつ",
-        "romaji": "ふたつ"
+        "romaji": "futatsu"
       }
     ],
     "on": [
       {
         "kana": "りょう",
-        "romaji": "りょう"
+        "romaji": "ryou"
       }
     ],
     "components": [
@@ -28211,17 +28211,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たが.い",
-        "romaji": "たが.い"
+        "romaji": "taga.i"
       },
       {
         "kana": "かたみ.に",
-        "romaji": "かたみ.に"
+        "romaji": "katami.ni"
       }
     ],
     "on": [
       {
         "kana": "ご",
-        "romaji": "ご"
+        "romaji": "go"
       }
     ],
     "components": [
@@ -28259,25 +28259,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "な.い",
-        "romaji": "な.い"
+        "romaji": "na.i"
       },
       {
         "kana": "な.き-",
-        "romaji": "な.き-"
+        "romaji": "na.ki-"
       },
       {
         "kana": "ほろ.びる",
-        "romaji": "ほろ.びる"
+        "romaji": "horo.biru"
       }
     ],
     "on": [
       {
         "kana": "ぼう",
-        "romaji": "ぼう"
+        "romaji": "bou"
       },
       {
         "kana": "もう",
-        "romaji": "もう"
+        "romaji": "mou"
       }
     ],
     "components": [
@@ -28315,13 +28315,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ほか",
-        "romaji": "ほか"
+        "romaji": "hoka"
       }
     ],
     "on": [
       {
         "kana": "た",
-        "romaji": "た"
+        "romaji": "ta"
       }
     ],
     "components": [
@@ -28359,17 +28359,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "まか.せる",
-        "romaji": "まか.せる"
+        "romaji": "maka.seru"
       },
       {
         "kana": "まか.す",
-        "romaji": "まか.す"
+        "romaji": "maka.su"
       }
     ],
     "on": [
       {
         "kana": "にん",
-        "romaji": "にん"
+        "romaji": "nin"
       }
     ],
     "components": [
@@ -28407,17 +28407,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "に.る",
-        "romaji": "に.る"
+        "romaji": "ni.ru"
       },
       {
         "kana": "ひ.る",
-        "romaji": "ひ.る"
+        "romaji": "hi.ru"
       }
     ],
     "on": [
       {
         "kana": "じ",
-        "romaji": "じ"
+        "romaji": "ji"
       }
     ],
     "components": [
@@ -28455,17 +28455,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "くらい",
-        "romaji": "くらい"
+        "romaji": "kurai"
       },
       {
         "kana": "ぐらい",
-        "romaji": "ぐらい"
+        "romaji": "gurai"
       }
     ],
     "on": [
       {
         "kana": "い",
-        "romaji": "い"
+        "romaji": "i"
       }
     ],
     "components": [
@@ -28503,21 +28503,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "あま.る",
-        "romaji": "あま.る"
+        "romaji": "ama.ru"
       },
       {
         "kana": "あま.り",
-        "romaji": "あま.り"
+        "romaji": "ama.ri"
       },
       {
         "kana": "あま.す",
-        "romaji": "あま.す"
+        "romaji": "ama.su"
       }
     ],
     "on": [
       {
         "kana": "よ",
-        "romaji": "よ"
+        "romaji": "yo"
       }
     ],
     "components": [
@@ -28555,13 +28555,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たと.える",
-        "romaji": "たと.える"
+        "romaji": "tato.eru"
       }
     ],
     "on": [
       {
         "kana": "れい",
-        "romaji": "れい"
+        "romaji": "rei"
       }
     ],
     "components": [
@@ -28599,21 +28599,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たお.れる",
-        "romaji": "たお.れる"
+        "romaji": "tao.reru"
       },
       {
         "kana": "-だお.れ",
-        "romaji": "-だお.れ"
+        "romaji": "-dao.re"
       },
       {
         "kana": "たお.す",
-        "romaji": "たお.す"
+        "romaji": "tao.su"
       }
     ],
     "on": [
       {
         "kana": "とう",
-        "romaji": "とう"
+        "romaji": "tou"
       }
     ],
     "components": [
@@ -28651,13 +28651,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "そうろう",
-        "romaji": "そうろう"
+        "romaji": "sourou"
       }
     ],
     "on": [
       {
         "kana": "こう",
-        "romaji": "こう"
+        "romaji": "kou"
       }
     ],
     "components": [
@@ -28695,13 +28695,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "えら.い",
-        "romaji": "えら.い"
+        "romaji": "era.i"
       }
     ],
     "on": [
       {
         "kana": "い",
-        "romaji": "い"
+        "romaji": "i"
       }
     ],
     "components": [
@@ -28739,13 +28739,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たま",
-        "romaji": "たま"
+        "romaji": "tama"
       }
     ],
     "on": [
       {
         "kana": "ぐう",
-        "romaji": "ぐう"
+        "romaji": "guu"
       }
     ],
     "components": [
@@ -28783,25 +28783,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "やさ.しい",
-        "romaji": "やさ.しい"
+        "romaji": "yasa.shii"
       },
       {
         "kana": "すぐ.れる",
-        "romaji": "すぐ.れる"
+        "romaji": "sugu.reru"
       },
       {
         "kana": "まさ.る",
-        "romaji": "まさ.る"
+        "romaji": "masa.ru"
       }
     ],
     "on": [
       {
         "kana": "ゆう",
-        "romaji": "ゆう"
+        "romaji": "yuu"
       },
       {
         "kana": "う",
-        "romaji": "う"
+        "romaji": "u"
       }
     ],
     "components": [
@@ -28839,17 +28839,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "そな.える",
-        "romaji": "そな.える"
+        "romaji": "sona.eru"
       },
       {
         "kana": "つぶさ.に",
-        "romaji": "つぶさ.に"
+        "romaji": "tsubusa.ni"
       }
     ],
     "on": [
       {
         "kana": "ぐ",
-        "romaji": "ぐ"
+        "romaji": "gu"
       }
     ],
     "components": [
@@ -28891,21 +28891,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "つめ.たい",
-        "romaji": "つめ.たい"
+        "romaji": "tsume.tai"
       },
       {
         "kana": "ひ.える",
-        "romaji": "ひ.える"
+        "romaji": "hi.eru"
       },
       {
         "kana": "ひ.や",
-        "romaji": "ひ.や"
+        "romaji": "hi.ya"
       }
     ],
     "on": [
       {
         "kana": "れい",
-        "romaji": "れい"
+        "romaji": "rei"
       }
     ],
     "components": [
@@ -28943,21 +28943,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ところ",
-        "romaji": "ところ"
+        "romaji": "tokoro"
       },
       {
         "kana": "-こ",
-        "romaji": "-こ"
+        "romaji": "-ko"
       },
       {
         "kana": "お.る",
-        "romaji": "お.る"
+        "romaji": "o.ru"
       }
     ],
     "on": [
       {
         "kana": "しょ",
-        "romaji": "しょ"
+        "romaji": "sho"
       }
     ],
     "components": [
@@ -28996,11 +28996,11 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "れつ",
-        "romaji": "れつ"
+        "romaji": "retsu"
       },
       {
         "kana": "れ",
-        "romaji": "れ"
+        "romaji": "re"
       }
     ],
     "components": [
@@ -29038,21 +29038,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "はじ.め",
-        "romaji": "はじ.め"
+        "romaji": "haji.me"
       },
       {
         "kana": "はじ.めて",
-        "romaji": "はじ.めて"
+        "romaji": "haji.mete"
       },
       {
         "kana": "はつ",
-        "romaji": "はつ"
+        "romaji": "hatsu"
       }
     ],
     "on": [
       {
         "kana": "しょ",
-        "romaji": "しょ"
+        "romaji": "sho"
       }
     ],
     "components": [
@@ -29090,17 +29090,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "きざ.む",
-        "romaji": "きざ.む"
+        "romaji": "kiza.mu"
       },
       {
         "kana": "きざ.み",
-        "romaji": "きざ.み"
+        "romaji": "kiza.mi"
       }
     ],
     "on": [
       {
         "kana": "こく",
-        "romaji": "こく"
+        "romaji": "koku"
       }
     ],
     "components": [
@@ -29138,13 +29138,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "つと.める",
-        "romaji": "つと.める"
+        "romaji": "tsuto.meru"
       }
     ],
     "on": [
       {
         "kana": "ど",
-        "romaji": "ど"
+        "romaji": "do"
       }
     ],
     "components": [
@@ -29186,17 +29186,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "おさ.める",
-        "romaji": "おさ.める"
+        "romaji": "osa.meru"
       },
       {
         "kana": "おさ.まる",
-        "romaji": "おさ.まる"
+        "romaji": "osa.maru"
       }
     ],
     "on": [
       {
         "kana": "しゅう",
-        "romaji": "しゅう"
+        "romaji": "shuu"
       }
     ],
     "components": [
@@ -29234,21 +29234,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "と.る",
-        "romaji": "と.る"
+        "romaji": "to.ru"
       },
       {
         "kana": "と.り",
-        "romaji": "と.り"
+        "romaji": "to.ri"
       },
       {
         "kana": "と.り-",
-        "romaji": "と.り-"
+        "romaji": "to.ri-"
       }
     ],
     "on": [
       {
         "kana": "しゅ",
-        "romaji": "しゅ"
+        "romaji": "shu"
       }
     ],
     "components": [
@@ -29286,21 +29286,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "む.く",
-        "romaji": "む.く"
+        "romaji": "mu.ku"
       },
       {
         "kana": "む.い",
-        "romaji": "む.い"
+        "romaji": "mu.i"
       },
       {
         "kana": "-む.き",
-        "romaji": "-む.き"
+        "romaji": "-mu.ki"
       }
     ],
     "on": [
       {
         "kana": "こう",
-        "romaji": "こう"
+        "romaji": "kou"
       }
     ],
     "components": [
@@ -29342,17 +29342,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "きみ",
-        "romaji": "きみ"
+        "romaji": "kimi"
       },
       {
         "kana": "-ぎみ",
-        "romaji": "-ぎみ"
+        "romaji": "-gimi"
       }
     ],
     "on": [
       {
         "kana": "くん",
-        "romaji": "くん"
+        "romaji": "kun"
       }
     ],
     "components": [
@@ -29390,17 +29390,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "いな",
-        "romaji": "いな"
+        "romaji": "ina"
       },
       {
         "kana": "いや",
-        "romaji": "いや"
+        "romaji": "iya"
       }
     ],
     "on": [
       {
         "kana": "ひ",
-        "romaji": "ひ"
+        "romaji": "hi"
       }
     ],
     "components": [
@@ -29438,13 +29438,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "す.う",
-        "romaji": "す.う"
+        "romaji": "su.u"
       }
     ],
     "on": [
       {
         "kana": "きゅう",
-        "romaji": "きゅう"
+        "romaji": "kyuu"
       }
     ],
     "components": [
@@ -29482,13 +29482,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ふ.く",
-        "romaji": "ふ.く"
+        "romaji": "fu.ku"
       }
     ],
     "on": [
       {
         "kana": "すい",
-        "romaji": "すい"
+        "romaji": "sui"
       }
     ],
     "components": [
@@ -29526,13 +29526,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "よ.ぶ",
-        "romaji": "よ.ぶ"
+        "romaji": "yo.bu"
       }
     ],
     "on": [
       {
         "kana": "こ",
-        "romaji": "こ"
+        "romaji": "ko"
       }
     ],
     "components": [
@@ -29570,29 +29570,29 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "やわ.らぐ",
-        "romaji": "やわ.らぐ"
+        "romaji": "yawa.ragu"
       },
       {
         "kana": "やわ.らげる",
-        "romaji": "やわ.らげる"
+        "romaji": "yawa.rageru"
       },
       {
         "kana": "なご.む",
-        "romaji": "なご.む"
+        "romaji": "nago.mu"
       }
     ],
     "on": [
       {
         "kana": "わ",
-        "romaji": "わ"
+        "romaji": "wa"
       },
       {
         "kana": "お",
-        "romaji": "お"
+        "romaji": "o"
       },
       {
         "kana": "か",
-        "romaji": "か"
+        "romaji": "ka"
       }
     ],
     "components": [
@@ -29630,13 +29630,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "あきな.う",
-        "romaji": "あきな.う"
+        "romaji": "akina.u"
       }
     ],
     "on": [
       {
         "kana": "しょう",
-        "romaji": "しょう"
+        "romaji": "shou"
       }
     ],
     "components": [
@@ -29681,17 +29681,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "よろこ.ぶ",
-        "romaji": "よろこ.ぶ"
+        "romaji": "yoroko.bu"
       },
       {
         "kana": "よろこ.ばす",
-        "romaji": "よろこ.ばす"
+        "romaji": "yoroko.basu"
       }
     ],
     "on": [
       {
         "kana": "き",
-        "romaji": "き"
+        "romaji": "ki"
       }
     ],
     "components": [
@@ -29732,21 +29732,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ふと.い",
-        "romaji": "ふと.い"
+        "romaji": "futo.i"
       },
       {
         "kana": "ふと.る",
-        "romaji": "ふと.る"
+        "romaji": "futo.ru"
       }
     ],
     "on": [
       {
         "kana": "たい",
-        "romaji": "たい"
+        "romaji": "tai"
       },
       {
         "kana": "た",
-        "romaji": "た"
+        "romaji": "ta"
       }
     ],
     "components": [
@@ -29784,17 +29784,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "うしな.う",
-        "romaji": "うしな.う"
+        "romaji": "ushina.u"
       },
       {
         "kana": "う.せる",
-        "romaji": "う.せる"
+        "romaji": "u.seru"
       }
     ],
     "on": [
       {
         "kana": "しつ",
-        "romaji": "しつ"
+        "romaji": "shitsu"
       }
     ],
     "components": [
@@ -29832,21 +29832,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "この.む",
-        "romaji": "この.む"
+        "romaji": "kono.mu"
       },
       {
         "kana": "す.く",
-        "romaji": "す.く"
+        "romaji": "su.ku"
       },
       {
         "kana": "よ.い",
-        "romaji": "よ.い"
+        "romaji": "yo.i"
       }
     ],
     "on": [
       {
         "kana": "こう",
-        "romaji": "こう"
+        "romaji": "kou"
       }
     ],
     "components": [
@@ -29884,17 +29884,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "むすめ",
-        "romaji": "むすめ"
+        "romaji": "musume"
       },
       {
         "kana": "こ",
-        "romaji": "こ"
+        "romaji": "ko"
       }
     ],
     "on": [
       {
         "kana": "じょう",
-        "romaji": "じょう"
+        "romaji": "jou"
       }
     ],
     "components": [
@@ -29932,13 +29932,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "よめ",
-        "romaji": "よめ"
+        "romaji": "yome"
       }
     ],
     "on": [
       {
         "kana": "ふ",
-        "romaji": "ふ"
+        "romaji": "fu"
       }
     ],
     "components": [
@@ -29976,25 +29976,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "まも.る",
-        "romaji": "まも.る"
+        "romaji": "mamo.ru"
       },
       {
         "kana": "まも.り",
-        "romaji": "まも.り"
+        "romaji": "mamo.ri"
       },
       {
         "kana": "もり",
-        "romaji": "もり"
+        "romaji": "mori"
       }
     ],
     "on": [
       {
         "kana": "しゅ",
-        "romaji": "しゅ"
+        "romaji": "shu"
       },
       {
         "kana": "す",
-        "romaji": "す"
+        "romaji": "su"
       }
     ],
     "components": [
@@ -30033,7 +30033,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "かん",
-        "romaji": "かん"
+        "romaji": "kan"
       }
     ],
     "components": [
@@ -30071,21 +30071,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "やど",
-        "romaji": "やど"
+        "romaji": "yado"
       },
       {
         "kana": "やど.る",
-        "romaji": "やど.る"
+        "romaji": "yado.ru"
       },
       {
         "kana": "やど.す",
-        "romaji": "やど.す"
+        "romaji": "yado.su"
       }
     ],
     "on": [
       {
         "kana": "しゅく",
-        "romaji": "しゅく"
+        "romaji": "shuku"
       }
     ],
     "components": [
@@ -30127,21 +30127,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "よ.る",
-        "romaji": "よ.る"
+        "romaji": "yo.ru"
       },
       {
         "kana": "-よ.り",
-        "romaji": "-よ.り"
+        "romaji": "-yo.ri"
       },
       {
         "kana": "よ.せる",
-        "romaji": "よ.せる"
+        "romaji": "yo.seru"
       }
     ],
     "on": [
       {
         "kana": "き",
-        "romaji": "き"
+        "romaji": "ki"
       }
     ],
     "components": [
@@ -30179,21 +30179,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "と.む",
-        "romaji": "と.む"
+        "romaji": "to.mu"
       },
       {
         "kana": "とみ",
-        "romaji": "とみ"
+        "romaji": "tomi"
       }
     ],
     "on": [
       {
         "kana": "ふ",
-        "romaji": "ふ"
+        "romaji": "fu"
       },
       {
         "kana": "ふう",
-        "romaji": "ふう"
+        "romaji": "fuu"
       }
     ],
     "components": [
@@ -30239,21 +30239,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ね.る",
-        "romaji": "ね.る"
+        "romaji": "ne.ru"
       },
       {
         "kana": "ね.かす",
-        "romaji": "ね.かす"
+        "romaji": "ne.kasu"
       },
       {
         "kana": "い.ぬ",
-        "romaji": "い.ぬ"
+        "romaji": "i.nu"
       }
     ],
     "on": [
       {
         "kana": "しん",
-        "romaji": "しん"
+        "romaji": "shin"
       }
     ],
     "components": [
@@ -30300,7 +30300,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "さつ",
-        "romaji": "さつ"
+        "romaji": "satsu"
       }
     ],
     "components": [
@@ -30338,13 +30338,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "つぼね",
-        "romaji": "つぼね"
+        "romaji": "tsubone"
       }
     ],
     "on": [
       {
         "kana": "きょく",
-        "romaji": "きょく"
+        "romaji": "kyoku"
       }
     ],
     "components": [
@@ -30382,17 +30382,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "さ.す",
-        "romaji": "さ.す"
+        "romaji": "sa.su"
       },
       {
         "kana": "さ.し",
-        "romaji": "さ.し"
+        "romaji": "sa.shi"
       }
     ],
     "on": [
       {
         "kana": "さ",
-        "romaji": "さ"
+        "romaji": "sa"
       }
     ],
     "components": [
@@ -30434,13 +30434,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "いくさ",
-        "romaji": "いくさ"
+        "romaji": "ikusa"
       }
     ],
     "on": [
       {
         "kana": "し",
-        "romaji": "し"
+        "romaji": "shi"
       }
     ],
     "components": [
@@ -30478,13 +30478,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "むしろ",
-        "romaji": "むしろ"
+        "romaji": "mushiro"
       }
     ],
     "on": [
       {
         "kana": "せき",
-        "romaji": "せき"
+        "romaji": "seki"
       }
     ],
     "components": [
@@ -30526,17 +30526,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "つね",
-        "romaji": "つね"
+        "romaji": "tsune"
       },
       {
         "kana": "とこ-",
-        "romaji": "とこ-"
+        "romaji": "toko-"
       }
     ],
     "on": [
       {
         "kana": "じょう",
-        "romaji": "じょう"
+        "romaji": "jou"
       }
     ],
     "components": [
@@ -30578,29 +30578,29 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たい.ら",
-        "romaji": "たい.ら"
+        "romaji": "tai.ra"
       },
       {
         "kana": "-だいら",
-        "romaji": "-だいら"
+        "romaji": "-daira"
       },
       {
         "kana": "ひら",
-        "romaji": "ひら"
+        "romaji": "hira"
       }
     ],
     "on": [
       {
         "kana": "へい",
-        "romaji": "へい"
+        "romaji": "hei"
       },
       {
         "kana": "びょう",
-        "romaji": "びょう"
+        "romaji": "byou"
       },
       {
         "kana": "ひょう",
-        "romaji": "ひょう"
+        "romaji": "hyou"
       }
     ],
     "components": [
@@ -30638,21 +30638,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "いく-",
-        "romaji": "いく-"
+        "romaji": "iku-"
       },
       {
         "kana": "いく.つ",
-        "romaji": "いく.つ"
+        "romaji": "iku.tsu"
       },
       {
         "kana": "いく.ら",
-        "romaji": "いく.ら"
+        "romaji": "iku.ra"
       }
     ],
     "on": [
       {
         "kana": "き",
-        "romaji": "き"
+        "romaji": "ki"
       }
     ],
     "components": [
@@ -30690,25 +30690,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "かた",
-        "romaji": "かた"
+        "romaji": "kata"
       },
       {
         "kana": "-がた",
-        "romaji": "-がた"
+        "romaji": "-gata"
       },
       {
         "kana": "かたち",
-        "romaji": "かたち"
+        "romaji": "katachi"
       }
     ],
     "on": [
       {
         "kana": "けい",
-        "romaji": "けい"
+        "romaji": "kei"
       },
       {
         "kana": "ぎょう",
-        "romaji": "ぎょう"
+        "romaji": "gyou"
       }
     ],
     "components": [
@@ -30747,11 +30747,11 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "やく",
-        "romaji": "やく"
+        "romaji": "yaku"
       },
       {
         "kana": "えき",
-        "romaji": "えき"
+        "romaji": "eki"
       }
     ],
     "components": [
@@ -30787,13 +30787,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "わす.れる",
-        "romaji": "わす.れる"
+        "romaji": "wasu.reru"
       }
     ],
     "on": [
       {
         "kana": "ぼう",
-        "romaji": "ぼう"
+        "romaji": "bou"
       }
     ],
     "components": [
@@ -30831,25 +30831,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "いそが.しい",
-        "romaji": "いそが.しい"
+        "romaji": "isoga.shii"
       },
       {
         "kana": "せわ.しい",
-        "romaji": "せわ.しい"
+        "romaji": "sewa.shii"
       },
       {
         "kana": "おそ.れる",
-        "romaji": "おそ.れる"
+        "romaji": "oso.reru"
       }
     ],
     "on": [
       {
         "kana": "ぼう",
-        "romaji": "ぼう"
+        "romaji": "bou"
       },
       {
         "kana": "もう",
-        "romaji": "もう"
+        "romaji": "mou"
       }
     ],
     "components": [
@@ -30887,25 +30887,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "こわ.い",
-        "romaji": "こわ.い"
+        "romaji": "kowa.i"
       },
       {
         "kana": "こわ.がる",
-        "romaji": "こわ.がる"
+        "romaji": "kowa.garu"
       },
       {
         "kana": "お.じる",
-        "romaji": "お.じる"
+        "romaji": "o.jiru"
       }
     ],
     "on": [
       {
         "kana": "ふ",
-        "romaji": "ふ"
+        "romaji": "fu"
       },
       {
         "kana": "ほ",
-        "romaji": "ほ"
+        "romaji": "ho"
       }
     ],
     "components": [
@@ -30943,21 +30943,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "は.じる",
-        "romaji": "は.じる"
+        "romaji": "ha.jiru"
       },
       {
         "kana": "はじ",
-        "romaji": "はじ"
+        "romaji": "haji"
       },
       {
         "kana": "は.じらう",
-        "romaji": "は.じらう"
+        "romaji": "ha.jirau"
       }
     ],
     "on": [
       {
         "kana": "ち",
-        "romaji": "ち"
+        "romaji": "chi"
       }
     ],
     "components": [
@@ -30995,21 +30995,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "いと.しい",
-        "romaji": "いと.しい"
+        "romaji": "ito.shii"
       },
       {
         "kana": "かな.しい",
-        "romaji": "かな.しい"
+        "romaji": "kana.shii"
       },
       {
         "kana": "め.でる",
-        "romaji": "め.でる"
+        "romaji": "me.deru"
       }
     ],
     "on": [
       {
         "kana": "あい",
-        "romaji": "あい"
+        "romaji": "ai"
       }
     ],
     "components": [
@@ -31056,7 +31056,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "さい",
-        "romaji": "さい"
+        "romaji": "sai"
       }
     ],
     "components": [
@@ -31090,29 +31090,29 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ぬ.く",
-        "romaji": "ぬ.く"
+        "romaji": "nu.ku"
       },
       {
         "kana": "-ぬ.く",
-        "romaji": "-ぬ.く"
+        "romaji": "-nu.ku"
       },
       {
         "kana": "ぬ.き",
-        "romaji": "ぬ.き"
+        "romaji": "nu.ki"
       }
     ],
     "on": [
       {
         "kana": "ばつ",
-        "romaji": "ばつ"
+        "romaji": "batsu"
       },
       {
         "kana": "はつ",
-        "romaji": "はつ"
+        "romaji": "hatsu"
       },
       {
         "kana": "はい",
-        "romaji": "はい"
+        "romaji": "hai"
       }
     ],
     "components": [
@@ -31149,21 +31149,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "だ.く",
-        "romaji": "だ.く"
+        "romaji": "da.ku"
       },
       {
         "kana": "いだ.く",
-        "romaji": "いだ.く"
+        "romaji": "ida.ku"
       },
       {
         "kana": "かか.える",
-        "romaji": "かか.える"
+        "romaji": "kaka.eru"
       }
     ],
     "on": [
       {
         "kana": "ほう",
-        "romaji": "ほう"
+        "romaji": "hou"
       }
     ],
     "components": [
@@ -31201,13 +31201,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "まね.く",
-        "romaji": "まね.く"
+        "romaji": "mane.ku"
       }
     ],
     "on": [
       {
         "kana": "しょう",
-        "romaji": "しょう"
+        "romaji": "shou"
       }
     ],
     "components": [
@@ -31245,21 +31245,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "と.らえる",
-        "romaji": "と.らえる"
+        "romaji": "to.raeru"
       },
       {
         "kana": "と.らわれる",
-        "romaji": "と.らわれる"
+        "romaji": "to.rawareru"
       },
       {
         "kana": "と.る",
-        "romaji": "と.る"
+        "romaji": "to.ru"
       }
     ],
     "on": [
       {
         "kana": "ほ",
-        "romaji": "ほ"
+        "romaji": "ho"
       }
     ],
     "components": [
@@ -31297,21 +31297,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "はな.す",
-        "romaji": "はな.す"
+        "romaji": "hana.su"
       },
       {
         "kana": "-っぱな.し",
-        "romaji": "-っぱな.し"
+        "romaji": "-ppana.shi"
       },
       {
         "kana": "はな.つ",
-        "romaji": "はな.つ"
+        "romaji": "hana.tsu"
       }
     ],
     "on": [
       {
         "kana": "ほう",
-        "romaji": "ほう"
+        "romaji": "hou"
       }
     ],
     "components": [
@@ -31349,13 +31349,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "やぶ.れる",
-        "romaji": "やぶ.れる"
+        "romaji": "yabu.reru"
       }
     ],
     "on": [
       {
         "kana": "はい",
-        "romaji": "はい"
+        "romaji": "hai"
       }
     ],
     "components": [
@@ -31393,21 +31393,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ち.る",
-        "romaji": "ち.る"
+        "romaji": "chi.ru"
       },
       {
         "kana": "ち.らす",
-        "romaji": "ち.らす"
+        "romaji": "chi.rasu"
       },
       {
         "kana": "-ち.らす",
-        "romaji": "-ち.らす"
+        "romaji": "-chi.rasu"
       }
     ],
     "on": [
       {
         "kana": "さん",
-        "romaji": "さん"
+        "romaji": "san"
       }
     ],
     "components": [
@@ -31449,21 +31449,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "やさ.しい",
-        "romaji": "やさ.しい"
+        "romaji": "yasa.shii"
       },
       {
         "kana": "やす.い",
-        "romaji": "やす.い"
+        "romaji": "yasu.i"
       }
     ],
     "on": [
       {
         "kana": "えき",
-        "romaji": "えき"
+        "romaji": "eki"
       },
       {
         "kana": "い",
-        "romaji": "い"
+        "romaji": "i"
       }
     ],
     "components": [
@@ -31501,17 +31501,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "むかし",
-        "romaji": "むかし"
+        "romaji": "mukashi"
       }
     ],
     "on": [
       {
         "kana": "せき",
-        "romaji": "せき"
+        "romaji": "seki"
       },
       {
         "kana": "しゃく",
-        "romaji": "しゃく"
+        "romaji": "shaku"
       }
     ],
     "components": [
@@ -31550,7 +31550,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "さく",
-        "romaji": "さく"
+        "romaji": "saku"
       }
     ],
     "components": [
@@ -31589,7 +31589,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "けい",
-        "romaji": "けい"
+        "romaji": "kei"
       }
     ],
     "components": [
@@ -31625,21 +31625,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "は.れる",
-        "romaji": "は.れる"
+        "romaji": "ha.reru"
       },
       {
         "kana": "は.れ",
-        "romaji": "は.れ"
+        "romaji": "ha.re"
       },
       {
         "kana": "は.れ-",
-        "romaji": "は.れ-"
+        "romaji": "ha.re-"
       }
     ],
     "on": [
       {
         "kana": "せい",
-        "romaji": "せい"
+        "romaji": "sei"
       }
     ],
     "components": [
@@ -31677,17 +31677,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "く.れる",
-        "romaji": "く.れる"
+        "romaji": "ku.reru"
       },
       {
         "kana": "く.らす",
-        "romaji": "く.らす"
+        "romaji": "ku.rasu"
       }
     ],
     "on": [
       {
         "kana": "ぼ",
-        "romaji": "ぼ"
+        "romaji": "bo"
       }
     ],
     "components": [
@@ -31725,21 +31725,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ま.がる",
-        "romaji": "ま.がる"
+        "romaji": "ma.garu"
       },
       {
         "kana": "ま.げる",
-        "romaji": "ま.げる"
+        "romaji": "ma.geru"
       },
       {
         "kana": "くま",
-        "romaji": "くま"
+        "romaji": "kuma"
       }
     ],
     "on": [
       {
         "kana": "きょく",
-        "romaji": "きょく"
+        "romaji": "kyoku"
       }
     ],
     "components": [
@@ -31777,21 +31777,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "さら",
-        "romaji": "さら"
+        "romaji": "sara"
       },
       {
         "kana": "さら.に",
-        "romaji": "さら.に"
+        "romaji": "sara.ni"
       },
       {
         "kana": "ふ.ける",
-        "romaji": "ふ.ける"
+        "romaji": "fu.keru"
       }
     ],
     "on": [
       {
         "kana": "こう",
-        "romaji": "こう"
+        "romaji": "kou"
       }
     ],
     "components": [
@@ -31833,25 +31833,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "いま.だ",
-        "romaji": "いま.だ"
+        "romaji": "ima.da"
       },
       {
         "kana": "ま.だ",
-        "romaji": "ま.だ"
+        "romaji": "ma.da"
       },
       {
         "kana": "ひつじ",
-        "romaji": "ひつじ"
+        "romaji": "hitsuji"
       }
     ],
     "on": [
       {
         "kana": "み",
-        "romaji": "み"
+        "romaji": "mi"
       },
       {
         "kana": "び",
-        "romaji": "び"
+        "romaji": "bi"
       }
     ],
     "components": [
@@ -31889,21 +31889,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たば",
-        "romaji": "たば"
+        "romaji": "taba"
       },
       {
         "kana": "たば.ねる",
-        "romaji": "たば.ねる"
+        "romaji": "taba.neru"
       },
       {
         "kana": "つか",
-        "romaji": "つか"
+        "romaji": "tsuka"
       }
     ],
     "on": [
       {
         "kana": "そく",
-        "romaji": "そく"
+        "romaji": "soku"
       }
     ],
     "components": [
@@ -31941,13 +31941,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "さかずき",
-        "romaji": "さかずき"
+        "romaji": "sakazuki"
       }
     ],
     "on": [
       {
         "kana": "はい",
-        "romaji": "はい"
+        "romaji": "hai"
       }
     ],
     "components": [
@@ -31985,13 +31985,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "よこ",
-        "romaji": "よこ"
+        "romaji": "yoko"
       }
     ],
     "on": [
       {
         "kana": "おう",
-        "romaji": "おう"
+        "romaji": "ou"
       }
     ],
     "components": [
@@ -32029,13 +32029,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "はた",
-        "romaji": "はた"
+        "romaji": "hata"
       }
     ],
     "on": [
       {
         "kana": "き",
-        "romaji": "き"
+        "romaji": "ki"
       }
     ],
     "components": [
@@ -32073,21 +32073,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "か.ける",
-        "romaji": "か.ける"
+        "romaji": "ka.keru"
       },
       {
         "kana": "か.く",
-        "romaji": "か.く"
+        "romaji": "ka.ku"
       }
     ],
     "on": [
       {
         "kana": "けつ",
-        "romaji": "けつ"
+        "romaji": "ketsu"
       },
       {
         "kana": "けん",
-        "romaji": "けん"
+        "romaji": "ken"
       }
     ],
     "components": [
@@ -32121,21 +32121,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "つ.ぐ",
-        "romaji": "つ.ぐ"
+        "romaji": "tsu.gu"
       },
       {
         "kana": "つぎ",
-        "romaji": "つぎ"
+        "romaji": "tsugi"
       }
     ],
     "on": [
       {
         "kana": "じ",
-        "romaji": "じ"
+        "romaji": "ji"
       },
       {
         "kana": "し",
-        "romaji": "し"
+        "romaji": "shi"
       }
     ],
     "components": [
@@ -32173,25 +32173,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "とし",
-        "romaji": "とし"
+        "romaji": "toshi"
       },
       {
         "kana": "とせ",
-        "romaji": "とせ"
+        "romaji": "tose"
       },
       {
         "kana": "よわい",
-        "romaji": "よわい"
+        "romaji": "yowai"
       }
     ],
     "on": [
       {
         "kana": "さい",
-        "romaji": "さい"
+        "romaji": "sai"
       },
       {
         "kana": "せい",
-        "romaji": "せい"
+        "romaji": "sei"
       }
     ],
     "components": [
@@ -32233,29 +32233,29 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ころ.す",
-        "romaji": "ころ.す"
+        "romaji": "koro.su"
       },
       {
         "kana": "-ごろ.し",
-        "romaji": "-ごろ.し"
+        "romaji": "-goro.shi"
       },
       {
         "kana": "そ.ぐ",
-        "romaji": "そ.ぐ"
+        "romaji": "so.gu"
       }
     ],
     "on": [
       {
         "kana": "さつ",
-        "romaji": "さつ"
+        "romaji": "satsu"
       },
       {
         "kana": "さい",
-        "romaji": "さい"
+        "romaji": "sai"
       },
       {
         "kana": "せつ",
-        "romaji": "せつ"
+        "romaji": "setsu"
       }
     ],
     "components": [
@@ -32291,13 +32291,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "およ.ぐ",
-        "romaji": "およ.ぐ"
+        "romaji": "oyo.gu"
       }
     ],
     "on": [
       {
         "kana": "えい",
-        "romaji": "えい"
+        "romaji": "ei"
       }
     ],
     "components": [
@@ -32335,13 +32335,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "あら.う",
-        "romaji": "あら.う"
+        "romaji": "ara.u"
       }
     ],
     "on": [
       {
         "kana": "せん",
-        "romaji": "せん"
+        "romaji": "sen"
       }
     ],
     "components": [
@@ -32379,25 +32379,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "なが.れる",
-        "romaji": "なが.れる"
+        "romaji": "naga.reru"
       },
       {
         "kana": "なが.れ",
-        "romaji": "なが.れ"
+        "romaji": "naga.re"
       },
       {
         "kana": "なが.す",
-        "romaji": "なが.す"
+        "romaji": "naga.su"
       }
     ],
     "on": [
       {
         "kana": "りゅう",
-        "romaji": "りゅう"
+        "romaji": "ryuu"
       },
       {
         "kana": "る",
-        "romaji": "る"
+        "romaji": "ru"
       }
     ],
     "components": [
@@ -32436,7 +32436,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "えん",
-        "romaji": "えん"
+        "romaji": "en"
       }
     ],
     "components": [
@@ -32474,21 +32474,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "つ.ける",
-        "romaji": "つ.ける"
+        "romaji": "tsu.keru"
       },
       {
         "kana": "つ.く",
-        "romaji": "つ.く"
+        "romaji": "tsu.ku"
       },
       {
         "kana": "た.てる",
-        "romaji": "た.てる"
+        "romaji": "ta.teru"
       }
     ],
     "on": [
       {
         "kana": "てん",
-        "romaji": "てん"
+        "romaji": "ten"
       }
     ],
     "components": [
@@ -32526,25 +32526,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "しか",
-        "romaji": "しか"
+        "romaji": "shika"
       },
       {
         "kana": "しか.り",
-        "romaji": "しか.り"
+        "romaji": "shika.ri"
       },
       {
         "kana": "しか.し",
-        "romaji": "しか.し"
+        "romaji": "shika.shi"
       }
     ],
     "on": [
       {
         "kana": "ぜん",
-        "romaji": "ぜん"
+        "romaji": "zen"
       },
       {
         "kana": "ねん",
-        "romaji": "ねん"
+        "romaji": "nen"
       }
     ],
     "components": [
@@ -32586,17 +32586,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "おか.す",
-        "romaji": "おか.す"
+        "romaji": "oka.su"
       }
     ],
     "on": [
       {
         "kana": "はん",
-        "romaji": "はん"
+        "romaji": "han"
       },
       {
         "kana": "ぼん",
-        "romaji": "ぼん"
+        "romaji": "bon"
       }
     ],
     "components": [
@@ -32635,11 +32635,11 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "おう",
-        "romaji": "おう"
+        "romaji": "ou"
       },
       {
         "kana": "-のう",
-        "romaji": "-のう"
+        "romaji": "-nou"
       }
     ],
     "components": [
@@ -32673,13 +32673,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たま",
-        "romaji": "たま"
+        "romaji": "tama"
       }
     ],
     "on": [
       {
         "kana": "きゅう",
-        "romaji": "きゅう"
+        "romaji": "kyuu"
       }
     ],
     "components": [
@@ -32717,25 +32717,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "よし",
-        "romaji": "よし"
+        "romaji": "yoshi"
       },
       {
         "kana": "よ.る",
-        "romaji": "よ.る"
+        "romaji": "yo.ru"
       }
     ],
     "on": [
       {
         "kana": "ゆ",
-        "romaji": "ゆ"
+        "romaji": "yu"
       },
       {
         "kana": "ゆう",
-        "romaji": "ゆう"
+        "romaji": "yuu"
       },
       {
         "kana": "ゆい",
-        "romaji": "ゆい"
+        "romaji": "yui"
       }
     ],
     "components": [
@@ -32773,21 +32773,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "もう.す",
-        "romaji": "もう.す"
+        "romaji": "mou.su"
       },
       {
         "kana": "もう.し-",
-        "romaji": "もう.し-"
+        "romaji": "mou.shi-"
       },
       {
         "kana": "さる",
-        "romaji": "さる"
+        "romaji": "saru"
       }
     ],
     "on": [
       {
         "kana": "しん",
-        "romaji": "しん"
+        "romaji": "shin"
       }
     ],
     "components": [
@@ -32825,25 +32825,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "と.める",
-        "romaji": "と.める"
+        "romaji": "to.meru"
       },
       {
         "kana": "と.まる",
-        "romaji": "と.まる"
+        "romaji": "to.maru"
       },
       {
         "kana": "とど.める",
-        "romaji": "とど.める"
+        "romaji": "todo.meru"
       }
     ],
     "on": [
       {
         "kana": "りゅう",
-        "romaji": "りゅう"
+        "romaji": "ryuu"
       },
       {
         "kana": "る",
-        "romaji": "る"
+        "romaji": "ru"
       }
     ],
     "components": [
@@ -32885,21 +32885,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "つか.れる",
-        "romaji": "つか.れる"
+        "romaji": "tsuka.reru"
       },
       {
         "kana": "-づか.れ",
-        "romaji": "-づか.れ"
+        "romaji": "-zuka.re"
       },
       {
         "kana": "つか.らす",
-        "romaji": "つか.らす"
+        "romaji": "tsuka.rasu"
       }
     ],
     "on": [
       {
         "kana": "ひ",
-        "romaji": "ひ"
+        "romaji": "hi"
       }
     ],
     "components": [
@@ -32936,17 +32936,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "みな",
-        "romaji": "みな"
+        "romaji": "mina"
       },
       {
         "kana": "みんな",
-        "romaji": "みんな"
+        "romaji": "minna"
       }
     ],
     "on": [
       {
         "kana": "かい",
-        "romaji": "かい"
+        "romaji": "kai"
       }
     ],
     "components": [
@@ -32984,17 +32984,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ぬす.む",
-        "romaji": "ぬす.む"
+        "romaji": "nusu.mu"
       },
       {
         "kana": "ぬす.み",
-        "romaji": "ぬす.み"
+        "romaji": "nusu.mi"
       }
     ],
     "on": [
       {
         "kana": "とう",
-        "romaji": "とう"
+        "romaji": "tou"
       }
     ],
     "components": [
@@ -33032,17 +33032,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ねむ.る",
-        "romaji": "ねむ.る"
+        "romaji": "nemu.ru"
       },
       {
         "kana": "ねむ.い",
-        "romaji": "ねむ.い"
+        "romaji": "nemu.i"
       }
     ],
     "on": [
       {
         "kana": "みん",
-        "romaji": "みん"
+        "romaji": "min"
       }
     ],
     "components": [
@@ -33080,21 +33080,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "やぶ.る",
-        "romaji": "やぶ.る"
+        "romaji": "yabu.ru"
       },
       {
         "kana": "やぶ.れる",
-        "romaji": "やぶ.れる"
+        "romaji": "yabu.reru"
       },
       {
         "kana": "わ.れる",
-        "romaji": "わ.れる"
+        "romaji": "wa.reru"
       }
     ],
     "on": [
       {
         "kana": "は",
-        "romaji": "は"
+        "romaji": "ha"
       }
     ],
     "components": [
@@ -33133,11 +33133,11 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "れい",
-        "romaji": "れい"
+        "romaji": "rei"
       },
       {
         "kana": "らい",
-        "romaji": "らい"
+        "romaji": "rai"
       }
     ],
     "components": [
@@ -33176,7 +33176,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "そ",
-        "romaji": "そ"
+        "romaji": "so"
       }
     ],
     "components": [
@@ -33215,25 +33215,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "かみ",
-        "romaji": "かみ"
+        "romaji": "kami"
       },
       {
         "kana": "かん-",
-        "romaji": "かん-"
+        "romaji": "kan-"
       },
       {
         "kana": "こう-",
-        "romaji": "こう-"
+        "romaji": "kou-"
       }
     ],
     "on": [
       {
         "kana": "しん",
-        "romaji": "しん"
+        "romaji": "shin"
       },
       {
         "kana": "じん",
-        "romaji": "じん"
+        "romaji": "jin"
       }
     ],
     "components": [
@@ -33272,7 +33272,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "ふく",
-        "romaji": "ふく"
+        "romaji": "fuku"
       }
     ],
     "components": [
@@ -33310,17 +33310,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ほど",
-        "romaji": "ほど"
+        "romaji": "hodo"
       },
       {
         "kana": "-ほど",
-        "romaji": "-ほど"
+        "romaji": "-hodo"
       }
     ],
     "on": [
       {
         "kana": "てい",
-        "romaji": "てい"
+        "romaji": "tei"
       }
     ],
     "components": [
@@ -33358,17 +33358,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たね",
-        "romaji": "たね"
+        "romaji": "tane"
       },
       {
         "kana": "-ぐさ",
-        "romaji": "-ぐさ"
+        "romaji": "-gusa"
       }
     ],
     "on": [
       {
         "kana": "しゅ",
-        "romaji": "しゅ"
+        "romaji": "shu"
       }
     ],
     "components": [
@@ -33406,17 +33406,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "つ.く",
-        "romaji": "つ.く"
+        "romaji": "tsu.ku"
       }
     ],
     "on": [
       {
         "kana": "とつ",
-        "romaji": "とつ"
+        "romaji": "totsu"
       },
       {
         "kana": "か",
-        "romaji": "か"
+        "romaji": "ka"
       }
     ],
     "components": [
@@ -33454,25 +33454,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "まど",
-        "romaji": "まど"
+        "romaji": "mado"
       },
       {
         "kana": "てんまど",
-        "romaji": "てんまど"
+        "romaji": "tenmado"
       },
       {
         "kana": "けむだし",
-        "romaji": "けむだし"
+        "romaji": "kemudashi"
       }
     ],
     "on": [
       {
         "kana": "そう",
-        "romaji": "そう"
+        "romaji": "sou"
       },
       {
         "kana": "す",
-        "romaji": "す"
+        "romaji": "su"
       }
     ],
     "components": [
@@ -33514,21 +33514,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ひと.しい",
-        "romaji": "ひと.しい"
+        "romaji": "hito.shii"
       },
       {
         "kana": "など",
-        "romaji": "など"
+        "romaji": "nado"
       },
       {
         "kana": "-ら",
-        "romaji": "-ら"
+        "romaji": "-ra"
       }
     ],
     "on": [
       {
         "kana": "とう",
-        "romaji": "とう"
+        "romaji": "tou"
       }
     ],
     "components": [
@@ -33566,21 +33566,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "しら.げる",
-        "romaji": "しら.げる"
+        "romaji": "shira.geru"
       },
       {
         "kana": "くわ.しい",
-        "romaji": "くわ.しい"
+        "romaji": "kuwa.shii"
       }
     ],
     "on": [
       {
         "kana": "せい",
-        "romaji": "せい"
+        "romaji": "sei"
       },
       {
         "kana": "しょう",
-        "romaji": "しょう"
+        "romaji": "shou"
       }
     ],
     "components": [
@@ -33619,11 +33619,11 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "かい",
-        "romaji": "かい"
+        "romaji": "kai"
       },
       {
         "kana": "え",
-        "romaji": "え"
+        "romaji": "e"
       }
     ],
     "components": [
@@ -33661,21 +33661,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "お",
-        "romaji": "お"
+        "romaji": "o"
       },
       {
         "kana": "いとぐち",
-        "romaji": "いとぐち"
+        "romaji": "itoguchi"
       }
     ],
     "on": [
       {
         "kana": "しょ",
-        "romaji": "しょ"
+        "romaji": "sho"
       },
       {
         "kana": "ちょ",
-        "romaji": "ちょ"
+        "romaji": "cho"
       }
     ],
     "components": [
@@ -33713,13 +33713,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "つみ",
-        "romaji": "つみ"
+        "romaji": "tsumi"
       }
     ],
     "on": [
       {
         "kana": "ざい",
-        "romaji": "ざい"
+        "romaji": "zai"
       }
     ],
     "components": [
@@ -33757,17 +33757,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "お.く",
-        "romaji": "お.く"
+        "romaji": "o.ku"
       },
       {
         "kana": "-お.き",
-        "romaji": "-お.き"
+        "romaji": "-o.ki"
       }
     ],
     "on": [
       {
         "kana": "ち",
-        "romaji": "ち"
+        "romaji": "chi"
       }
     ],
     "components": [
@@ -33804,17 +33804,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "うつく.しい",
-        "romaji": "うつく.しい"
+        "romaji": "utsuku.shii"
       }
     ],
     "on": [
       {
         "kana": "び",
-        "romaji": "び"
+        "romaji": "bi"
       },
       {
         "kana": "み",
-        "romaji": "み"
+        "romaji": "mi"
       }
     ],
     "components": [
@@ -33852,17 +33852,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "お.いる",
-        "romaji": "お.いる"
+        "romaji": "o.iru"
       },
       {
         "kana": "ふ.ける",
-        "romaji": "ふ.ける"
+        "romaji": "fu.keru"
       }
     ],
     "on": [
       {
         "kana": "ろう",
-        "romaji": "ろう"
+        "romaji": "rou"
       }
     ],
     "components": [
@@ -33900,13 +33900,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "はら",
-        "romaji": "はら"
+        "romaji": "hara"
       }
     ],
     "on": [
       {
         "kana": "ふく",
-        "romaji": "ふく"
+        "romaji": "fuku"
       }
     ],
     "components": [
@@ -33944,21 +33944,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ま.う",
-        "romaji": "ま.う"
+        "romaji": "ma.u"
       },
       {
         "kana": "-ま.う",
-        "romaji": "-ま.う"
+        "romaji": "-ma.u"
       },
       {
         "kana": "まい",
-        "romaji": "まい"
+        "romaji": "mai"
       }
     ],
     "on": [
       {
         "kana": "ぶ",
-        "romaji": "ぶ"
+        "romaji": "bu"
       }
     ],
     "components": [
@@ -33996,17 +33996,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ふね",
-        "romaji": "ふね"
+        "romaji": "fune"
       },
       {
         "kana": "ふな-",
-        "romaji": "ふな-"
+        "romaji": "funa-"
       }
     ],
     "on": [
       {
         "kana": "せん",
-        "romaji": "せん"
+        "romaji": "sen"
       }
     ],
     "components": [
@@ -34044,21 +34044,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "よ.い",
-        "romaji": "よ.い"
+        "romaji": "yo.i"
       },
       {
         "kana": "-よ.い",
-        "romaji": "-よ.い"
+        "romaji": "-yo.i"
       },
       {
         "kana": "い.い",
-        "romaji": "い.い"
+        "romaji": "i.i"
       }
     ],
     "on": [
       {
         "kana": "りょう",
-        "romaji": "りょう"
+        "romaji": "ryou"
       }
     ],
     "components": [
@@ -34096,29 +34096,29 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "わか.い",
-        "romaji": "わか.い"
+        "romaji": "waka.i"
       },
       {
         "kana": "わか-",
-        "romaji": "わか-"
+        "romaji": "waka-"
       },
       {
         "kana": "も.しくわ",
-        "romaji": "も.しくわ"
+        "romaji": "mo.shikuwa"
       }
     ],
     "on": [
       {
         "kana": "じゃく",
-        "romaji": "じゃく"
+        "romaji": "jaku"
       },
       {
         "kana": "にゃく",
-        "romaji": "にゃく"
+        "romaji": "nyaku"
       },
       {
         "kana": "にゃ",
-        "romaji": "にゃ"
+        "romaji": "nya"
       }
     ],
     "components": [
@@ -34156,21 +34156,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "くる.しい",
-        "romaji": "くる.しい"
+        "romaji": "kuru.shii"
       },
       {
         "kana": "-ぐる.しい",
-        "romaji": "-ぐる.しい"
+        "romaji": "-guru.shii"
       },
       {
         "kana": "くる.しむ",
-        "romaji": "くる.しむ"
+        "romaji": "kuru.shimu"
       }
     ],
     "on": [
       {
         "kana": "く",
-        "romaji": "く"
+        "romaji": "ku"
       }
     ],
     "components": [
@@ -34208,21 +34208,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "くさ",
-        "romaji": "くさ"
+        "romaji": "kusa"
       },
       {
         "kana": "くさ-",
-        "romaji": "くさ-"
+        "romaji": "kusa-"
       },
       {
         "kana": "-ぐさ",
-        "romaji": "-ぐさ"
+        "romaji": "-gusa"
       }
     ],
     "on": [
       {
         "kana": "そう",
-        "romaji": "そう"
+        "romaji": "sou"
       }
     ],
     "components": [
@@ -34260,21 +34260,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "おとず.れる",
-        "romaji": "おとず.れる"
+        "romaji": "otozu.reru"
       },
       {
         "kana": "たず.ねる",
-        "romaji": "たず.ねる"
+        "romaji": "tazu.neru"
       },
       {
         "kana": "と.う",
-        "romaji": "と.う"
+        "romaji": "to.u"
       }
     ],
     "on": [
       {
         "kana": "ほう",
-        "romaji": "ほう"
+        "romaji": "hou"
       }
     ],
     "components": [
@@ -34312,17 +34312,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "し.る",
-        "romaji": "し.る"
+        "romaji": "shi.ru"
       },
       {
         "kana": "しる.す",
-        "romaji": "しる.す"
+        "romaji": "shiru.su"
       }
     ],
     "on": [
       {
         "kana": "しき",
-        "romaji": "しき"
+        "romaji": "shiki"
       }
     ],
     "components": [
@@ -34364,13 +34364,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "いまし.める",
-        "romaji": "いまし.める"
+        "romaji": "imashi.meru"
       }
     ],
     "on": [
       {
         "kana": "けい",
-        "romaji": "けい"
+        "romaji": "kei"
       }
     ],
     "components": [
@@ -34408,21 +34408,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たから",
-        "romaji": "たから"
+        "romaji": "takara"
       }
     ],
     "on": [
       {
         "kana": "ざい",
-        "romaji": "ざい"
+        "romaji": "zai"
       },
       {
         "kana": "さい",
-        "romaji": "さい"
+        "romaji": "sai"
       },
       {
         "kana": "ぞく",
-        "romaji": "ぞく"
+        "romaji": "zoku"
       }
     ],
     "components": [
@@ -34459,17 +34459,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "まず.しい",
-        "romaji": "まず.しい"
+        "romaji": "mazu.shii"
       }
     ],
     "on": [
       {
         "kana": "ひん",
-        "romaji": "ひん"
+        "romaji": "hin"
       },
       {
         "kana": "びん",
-        "romaji": "びん"
+        "romaji": "bin"
       }
     ],
     "components": [
@@ -34507,13 +34507,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "せ.める",
-        "romaji": "せ.める"
+        "romaji": "se.meru"
       }
     ],
     "on": [
       {
         "kana": "せき",
-        "romaji": "せき"
+        "romaji": "seki"
       }
     ],
     "components": [
@@ -34552,7 +34552,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "し",
-        "romaji": "し"
+        "romaji": "shi"
       }
     ],
     "components": [
@@ -34590,25 +34590,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "こ.す",
-        "romaji": "こ.す"
+        "romaji": "ko.su"
       },
       {
         "kana": "-こ.す",
-        "romaji": "-こ.す"
+        "romaji": "-ko.su"
       },
       {
         "kana": "-ご.し",
-        "romaji": "-ご.し"
+        "romaji": "-go.shi"
       }
     ],
     "on": [
       {
         "kana": "えつ",
-        "romaji": "えつ"
+        "romaji": "etsu"
       },
       {
         "kana": "おつ",
-        "romaji": "おつ"
+        "romaji": "otsu"
       }
     ],
     "components": [
@@ -34646,21 +34646,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "-じ",
-        "romaji": "-じ"
+        "romaji": "-ji"
       },
       {
         "kana": "みち",
-        "romaji": "みち"
+        "romaji": "michi"
       }
     ],
     "on": [
       {
         "kana": "ろ",
-        "romaji": "ろ"
+        "romaji": "ro"
       },
       {
         "kana": "る",
-        "romaji": "る"
+        "romaji": "ru"
       }
     ],
     "components": [
@@ -34698,17 +34698,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "や.める",
-        "romaji": "や.める"
+        "romaji": "ya.meru"
       },
       {
         "kana": "いな.む",
-        "romaji": "いな.む"
+        "romaji": "ina.mu"
       }
     ],
     "on": [
       {
         "kana": "じ",
-        "romaji": "じ"
+        "romaji": "ji"
       }
     ],
     "components": [
@@ -34746,13 +34746,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "むか.える",
-        "romaji": "むか.える"
+        "romaji": "muka.eru"
       }
     ],
     "on": [
       {
         "kana": "げい",
-        "romaji": "げい"
+        "romaji": "gei"
       }
     ],
     "components": [
@@ -34790,13 +34790,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "まよ.う",
-        "romaji": "まよ.う"
+        "romaji": "mayo.u"
       }
     ],
     "on": [
       {
         "kana": "めい",
-        "romaji": "めい"
+        "romaji": "mei"
       }
     ],
     "components": [
@@ -34834,13 +34834,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "お.う",
-        "romaji": "お.う"
+        "romaji": "o.u"
       }
     ],
     "on": [
       {
         "kana": "つい",
-        "romaji": "つい"
+        "romaji": "tsui"
       }
     ],
     "components": [
@@ -34878,13 +34878,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "みち",
-        "romaji": "みち"
+        "romaji": "michi"
       }
     ],
     "on": [
       {
         "kana": "と",
-        "romaji": "と"
+        "romaji": "to"
       }
     ],
     "components": [
@@ -34922,21 +34922,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "おく.れる",
-        "romaji": "おく.れる"
+        "romaji": "oku.reru"
       },
       {
         "kana": "おく.らす",
-        "romaji": "おく.らす"
+        "romaji": "oku.rasu"
       },
       {
         "kana": "おそ.い",
-        "romaji": "おそ.い"
+        "romaji": "oso.i"
       }
     ],
     "on": [
       {
         "kana": "ち",
-        "romaji": "ち"
+        "romaji": "chi"
       }
     ],
     "components": [
@@ -34972,21 +34972,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "あそ.ぶ",
-        "romaji": "あそ.ぶ"
+        "romaji": "aso.bu"
       },
       {
         "kana": "あそ.ばす",
-        "romaji": "あそ.ばす"
+        "romaji": "aso.basu"
       }
     ],
     "on": [
       {
         "kana": "ゆう",
-        "romaji": "ゆう"
+        "romaji": "yuu"
       },
       {
         "kana": "ゆ",
-        "romaji": "ゆ"
+        "romaji": "yu"
       }
     ],
     "components": [
@@ -35028,21 +35028,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "す.ぎる",
-        "romaji": "す.ぎる"
+        "romaji": "su.giru"
       },
       {
         "kana": "-す.ぎる",
-        "romaji": "-す.ぎる"
+        "romaji": "-su.giru"
       },
       {
         "kana": "-す.ぎ",
-        "romaji": "-す.ぎ"
+        "romaji": "-su.gi"
       }
     ],
     "on": [
       {
         "kana": "か",
-        "romaji": "か"
+        "romaji": "ka"
       }
     ],
     "components": [
@@ -35080,21 +35080,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ちが.う",
-        "romaji": "ちが.う"
+        "romaji": "chiga.u"
       },
       {
         "kana": "ちが.い",
-        "romaji": "ちが.い"
+        "romaji": "chiga.i"
       },
       {
         "kana": "ちが.える",
-        "romaji": "ちが.える"
+        "romaji": "chiga.eru"
       }
     ],
     "on": [
       {
         "kana": "い",
-        "romaji": "い"
+        "romaji": "i"
       }
     ],
     "components": [
@@ -35132,13 +35132,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "-べ",
-        "romaji": "-べ"
+        "romaji": "-be"
       }
     ],
     "on": [
       {
         "kana": "ぶ",
-        "romaji": "ぶ"
+        "romaji": "bu"
       }
     ],
     "components": [
@@ -35176,25 +35176,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "お.りる",
-        "romaji": "お.りる"
+        "romaji": "o.riru"
       },
       {
         "kana": "お.ろす",
-        "romaji": "お.ろす"
+        "romaji": "o.rosu"
       },
       {
         "kana": "ふ.る",
-        "romaji": "ふ.る"
+        "romaji": "fu.ru"
       }
     ],
     "on": [
       {
         "kana": "こう",
-        "romaji": "こう"
+        "romaji": "kou"
       },
       {
         "kana": "ご",
-        "romaji": "ご"
+        "romaji": "go"
       }
     ],
     "components": [
@@ -35232,21 +35232,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "のぞ.く",
-        "romaji": "のぞ.く"
+        "romaji": "nozo.ku"
       },
       {
         "kana": "-よ.け",
-        "romaji": "-よ.け"
+        "romaji": "-yo.ke"
       }
     ],
     "on": [
       {
         "kana": "じょ",
-        "romaji": "じょ"
+        "romaji": "jo"
       },
       {
         "kana": "じ",
-        "romaji": "じ"
+        "romaji": "ji"
       }
     ],
     "components": [
@@ -35284,13 +35284,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ひ",
-        "romaji": "ひ"
+        "romaji": "hi"
       }
     ],
     "on": [
       {
         "kana": "よう",
-        "romaji": "よう"
+        "romaji": "you"
       }
     ],
     "components": [
@@ -35326,21 +35326,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "まじ.える",
-        "romaji": "まじ.える"
+        "romaji": "maji.eru"
       },
       {
         "kana": "まじ.る",
-        "romaji": "まじ.る"
+        "romaji": "maji.ru"
       }
     ],
     "on": [
       {
         "kana": "ざつ",
-        "romaji": "ざつ"
+        "romaji": "zatsu"
       },
       {
         "kana": "ぞう",
-        "romaji": "ぞう"
+        "romaji": "zou"
       }
     ],
     "components": [
@@ -35382,21 +35382,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "かた.い",
-        "romaji": "かた.い"
+        "romaji": "kata.i"
       },
       {
         "kana": "-がた.い",
-        "romaji": "-がた.い"
+        "romaji": "-gata.i"
       },
       {
         "kana": "むずか.しい",
-        "romaji": "むずか.しい"
+        "romaji": "muzuka.shii"
       }
     ],
     "on": [
       {
         "kana": "なん",
-        "romaji": "なん"
+        "romaji": "nan"
       }
     ],
     "components": [
@@ -35432,25 +35432,25 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "しず-",
-        "romaji": "しず-"
+        "romaji": "shizu-"
       },
       {
         "kana": "しず.か",
-        "romaji": "しず.か"
+        "romaji": "shizu.ka"
       },
       {
         "kana": "しず.まる",
-        "romaji": "しず.まる"
+        "romaji": "shizu.maru"
       }
     ],
     "on": [
       {
         "kana": "せい",
-        "romaji": "せい"
+        "romaji": "sei"
       },
       {
         "kana": "じょう",
-        "romaji": "じょう"
+        "romaji": "jou"
       }
     ],
     "components": [
@@ -35488,13 +35488,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "あら.ず",
-        "romaji": "あら.ず"
+        "romaji": "ara.zu"
       }
     ],
     "on": [
       {
         "kana": "ひ",
-        "romaji": "ひ"
+        "romaji": "hi"
       }
     ],
     "components": [
@@ -35526,13 +35526,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "くつ",
-        "romaji": "くつ"
+        "romaji": "kutsu"
       }
     ],
     "on": [
       {
         "kana": "か",
-        "romaji": "か"
+        "romaji": "ka"
       }
     ],
     "components": [
@@ -35570,17 +35570,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "いただ.く",
-        "romaji": "いただ.く"
+        "romaji": "itada.ku"
       },
       {
         "kana": "いただき",
-        "romaji": "いただき"
+        "romaji": "itadaki"
       }
     ],
     "on": [
       {
         "kana": "ちょう",
-        "romaji": "ちょう"
+        "romaji": "chou"
       }
     ],
     "components": [
@@ -35618,21 +35618,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たの.む",
-        "romaji": "たの.む"
+        "romaji": "tano.mu"
       },
       {
         "kana": "たの.もしい",
-        "romaji": "たの.もしい"
+        "romaji": "tano.moshii"
       },
       {
         "kana": "たよ.る",
-        "romaji": "たよ.る"
+        "romaji": "tayo.ru"
       }
     ],
     "on": [
       {
         "kana": "らい",
-        "romaji": "らい"
+        "romaji": "rai"
       }
     ],
     "components": [
@@ -35674,17 +35674,17 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "ねが.う",
-        "romaji": "ねが.う"
+        "romaji": "nega.u"
       },
       {
         "kana": "-ねがい",
-        "romaji": "-ねがい"
+        "romaji": "-negai"
       }
     ],
     "on": [
       {
         "kana": "がん",
-        "romaji": "がん"
+        "romaji": "gan"
       }
     ],
     "components": [
@@ -35722,13 +35722,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "たぐ.い",
-        "romaji": "たぐ.い"
+        "romaji": "tagu.i"
       }
     ],
     "on": [
       {
         "kana": "るい",
-        "romaji": "るい"
+        "romaji": "rui"
       }
     ],
     "components": [
@@ -35769,13 +35769,13 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "かみ",
-        "romaji": "かみ"
+        "romaji": "kami"
       }
     ],
     "on": [
       {
         "kana": "はつ",
-        "romaji": "はつ"
+        "romaji": "hatsu"
       }
     ],
     "components": [
@@ -35817,21 +35817,21 @@ window.KANJI_DATA = [
     "kun": [
       {
         "kana": "な.く",
-        "romaji": "な.く"
+        "romaji": "na.ku"
       },
       {
         "kana": "な.る",
-        "romaji": "な.る"
+        "romaji": "na.ru"
       },
       {
         "kana": "な.らす",
-        "romaji": "な.らす"
+        "romaji": "na.rasu"
       }
     ],
     "on": [
       {
         "kana": "めい",
-        "romaji": "めい"
+        "romaji": "mei"
       }
     ],
     "components": [
