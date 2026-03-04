@@ -5216,22 +5216,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "届く",
-    "reading": "とどく",
-    "romaji": "todoku",
-    "meaning": "ankommen, geliefert werden",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "荷物が届きました。",
-        "romaji": "Nimotsu ga todokimashita.",
-        "german": "Das Paket ist angekommen."
-      }
-    ]
-  },
-  {
     "word": "上がる",
     "reading": "あがる",
     "romaji": "agaru",
@@ -6496,38 +6480,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "正しい",
-    "reading": "ただしい",
-    "romaji": "tadashii",
-    "meaning": "richtig, korrekt",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "正しい答えはどれですか。",
-        "romaji": "Tadashii kotae wa dore desu ka.",
-        "german": "Welche ist die richtige Antwort?"
-      }
-    ]
-  },
-  {
-    "word": "珍しい",
-    "reading": "めずらしい",
-    "romaji": "mezurashii",
-    "meaning": "selten, ungewöhnlich",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "珍しい花ですね。",
-        "romaji": "Mezurashii hana desu ne.",
-        "german": "Das ist eine seltene Blume."
-      }
-    ]
-  },
-  {
     "word": "厚い",
     "reading": "あつい",
     "romaji": "atsui",
@@ -7104,70 +7056,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "触れる",
-    "reading": "ふれる",
-    "romaji": "fureru",
-    "meaning": "berühren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "触れないでください。",
-        "romaji": "Furenaide kudasai.",
-        "german": "Bitte nicht berühren."
-      }
-    ]
-  },
-  {
-    "word": "投げる",
-    "reading": "なげる",
-    "romaji": "nageru",
-    "meaning": "werfen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Freizeit",
-    "examples": [
-      {
-        "japanese": "ボールを投げます。",
-        "romaji": "Booru o nagemasu.",
-        "german": "Ich werfe den Ball."
-      }
-    ]
-  },
-  {
-    "word": "捕まえる",
-    "reading": "つかまえる",
-    "romaji": "tsukamaeru",
-    "meaning": "fangen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "虫を捕まえました。",
-        "romaji": "Mushi o tsukamaemashita.",
-        "german": "Ich habe ein Insekt gefangen."
-      }
-    ]
-  },
-  {
-    "word": "届ける",
-    "reading": "とどける",
-    "romaji": "todokeru",
-    "meaning": "abliefern, zustellen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "荷物を届けます。",
-        "romaji": "Nimotsu o todokemasu.",
-        "german": "Ich liefere das Paket ab."
-      }
-    ]
-  },
-  {
     "word": "あげる",
     "reading": "あげる",
     "romaji": "ageru",
@@ -7344,38 +7232,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "集まる",
-    "reading": "あつまる",
-    "romaji": "atsumaru",
-    "meaning": "sich versammeln",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Menschen",
-    "examples": [
-      {
-        "japanese": "みんなが集まりました。",
-        "romaji": "Minna ga atsumarimashita.",
-        "german": "Alle haben sich versammelt."
-      }
-    ]
-  },
-  {
-    "word": "別れる",
-    "reading": "わかれる",
-    "romaji": "wakareru",
-    "meaning": "sich trennen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Menschen",
-    "examples": [
-      {
-        "japanese": "友達と別れました。",
-        "romaji": "Tomodachi to wakaremashita.",
-        "german": "Ich habe mich von meinem Freund verabschiedet."
-      }
-    ]
-  },
-  {
     "word": "できる",
     "reading": "できる",
     "romaji": "dekiru",
@@ -7420,38 +7276,6 @@ window.VOCAB_N5 = [
         "japanese": "砂糖を足してください。",
         "romaji": "Satou o tashite kudasai.",
         "german": "Bitte fügen Sie Zucker hinzu."
-      }
-    ]
-  },
-  {
-    "word": "鳴る",
-    "reading": "なる",
-    "romaji": "naru",
-    "meaning": "klingeln, lauten",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "電話が鳴っています。",
-        "romaji": "Denwa ga natte imasu.",
-        "german": "Das Telefon klingelt."
-      }
-    ]
-  },
-  {
-    "word": "光る",
-    "reading": "ひかる",
-    "romaji": "hikaru",
-    "meaning": "leuchten, glänzen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "星が光っています。",
-        "romaji": "Hoshi ga hikatte imasu.",
-        "german": "Die Sterne leuchten."
       }
     ]
   },
@@ -7632,278 +7456,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "止める",
-    "reading": "とめる",
-    "romaji": "tomeru",
-    "meaning": "anhalten, stoppen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "車を止めてください。",
-        "romaji": "Kuruma o tomete kudasai.",
-        "german": "Bitte halten Sie das Auto an."
-      }
-    ]
-  },
-  {
-    "word": "渡す",
-    "reading": "わたす",
-    "romaji": "watasu",
-    "meaning": "übergeben, reichen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "手紙を渡します。",
-        "romaji": "Tegami o watashimasu.",
-        "german": "Ich übergebe den Brief."
-      }
-    ]
-  },
-  {
-    "word": "触る",
-    "reading": "さわる",
-    "romaji": "sawaru",
-    "meaning": "berühren, anfassen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "触らないでください。",
-        "romaji": "Sawaranaide kudasai.",
-        "german": "Bitte nicht anfassen."
-      }
-    ]
-  },
-  {
-    "word": "落とす",
-    "reading": "おとす",
-    "romaji": "otosu",
-    "meaning": "fallen lassen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "財布を落としました。",
-        "romaji": "Saifu o otoshimashita.",
-        "german": "Ich habe mein Portemonnaie fallen lassen."
-      }
-    ]
-  },
-  {
-    "word": "落ちる",
-    "reading": "おちる",
-    "romaji": "ochiru",
-    "meaning": "fallen, herunterfallen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "りんごが落ちました。",
-        "romaji": "Ringo ga ochimashita.",
-        "german": "Der Apfel ist heruntergefallen."
-      }
-    ]
-  },
-  {
-    "word": "返す",
-    "reading": "かえす",
-    "romaji": "kaesu",
-    "meaning": "zurückgeben",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "本を返します。",
-        "romaji": "Hon o kaeshimasu.",
-        "german": "Ich gebe das Buch zurück."
-      }
-    ]
-  },
-  {
-    "word": "受ける",
-    "reading": "うける",
-    "romaji": "ukeru",
-    "meaning": "empfangen, erhalten",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "試験を受けます。",
-        "romaji": "Shiken o ukemasu.",
-        "german": "Ich nehme an der Prüfung teil."
-      }
-    ]
-  },
-  {
-    "word": "預ける",
-    "reading": "あずける",
-    "romaji": "azukeru",
-    "meaning": "anvertraün, abgeben",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "荷物を預けます。",
-        "romaji": "Nimotsu o azukemasu.",
-        "german": "Ich gebe mein Gepäck ab."
-      }
-    ]
-  },
-  {
-    "word": "知らせる",
-    "reading": "しらせる",
-    "romaji": "shiraseru",
-    "meaning": "mitteilen, benachrichtigen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "結果を知らせます。",
-        "romaji": "Kekka o shirasemasu.",
-        "german": "Ich teile das Ergebnis mit."
-      }
-    ]
-  },
-  {
-    "word": "伝える",
-    "reading": "つたえる",
-    "romaji": "tsutaeru",
-    "meaning": "übermitteln, mitteilen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "よろしく伝えてください。",
-        "romaji": "Yoroshiku tsutaete kudasai.",
-        "german": "Bitte grüßen Sie von mir."
-      }
-    ]
-  },
-  {
-    "word": "見える",
-    "reading": "みえる",
-    "romaji": "mieru",
-    "meaning": "sichtbar sein, sehen können",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "山が見えます。",
-        "romaji": "Yama ga miemasu.",
-        "german": "Man kann den Berg sehen."
-      }
-    ]
-  },
-  {
-    "word": "聞こえる",
-    "reading": "きこえる",
-    "romaji": "kikoeru",
-    "meaning": "hörbar sein, hören können",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "音楽が聞こえます。",
-        "romaji": "Ongaku ga kikoemasu.",
-        "german": "Man kann Musik hören."
-      }
-    ]
-  },
-  {
-    "word": "見つける",
-    "reading": "みつける",
-    "romaji": "mitsukeru",
-    "meaning": "finden, entdecken",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "鍵を見つけました。",
-        "romaji": "Kagi o mitsukemashita.",
-        "german": "Ich habe den Schlüssel gefunden."
-      }
-    ]
-  },
-  {
-    "word": "探す",
-    "reading": "さがす",
-    "romaji": "sagasu",
-    "meaning": "suchen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "仕事を探しています。",
-        "romaji": "Shigoto o sagashite imasu.",
-        "german": "Ich suche Arbeit."
-      }
-    ]
-  },
-  {
-    "word": "迷う",
-    "reading": "まよう",
-    "romaji": "mayou",
-    "meaning": "sich verirren, zögern",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "道に迷いました。",
-        "romaji": "Michi ni mayoimashita.",
-        "german": "Ich habe mich verlaufen."
-      }
-    ]
-  },
-  {
-    "word": "無くす",
-    "reading": "なくす",
-    "romaji": "nakusu",
-    "meaning": "verlieren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "財布を無くしました。",
-        "romaji": "Saifu o nakushimashita.",
-        "german": "Ich habe mein Portemonnaie verloren."
-      }
-    ]
-  },
-  {
-    "word": "心配する",
-    "reading": "しんぱいする",
-    "romaji": "shinpai suru",
-    "meaning": "sich sorgen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Gefühle",
-    "examples": [
-      {
-        "japanese": "心配しないでください。",
-        "romaji": "Shinpai shinaide kudasai.",
-        "german": "Bitte machen Sie sich keine Sorgen."
-      }
-    ]
-  },
-  {
     "word": "疲れた",
     "reading": "つかれた",
     "romaji": "tsukareta",
@@ -8000,22 +7552,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "立派",
-    "reading": "りっぱ",
-    "romaji": "rippa",
-    "meaning": "großartig, beeindruckend",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "立派な建物です。",
-        "romaji": "Rippa na tatemono desu.",
-        "german": "Es ist ein großartiges Gebäude."
-      }
-    ]
-  },
-  {
     "word": "丈夫",
     "reading": "じょうぶ",
     "romaji": "joubu",
@@ -8076,22 +7612,6 @@ window.VOCAB_N5 = [
         "japanese": "この問題は簡単です。",
         "romaji": "Kono mondai wa kantan desu.",
         "german": "Dieses Problem ist einfach."
-      }
-    ]
-  },
-  {
-    "word": "複雑",
-    "reading": "ふくざつ",
-    "romaji": "fukuzatsu",
-    "meaning": "kompliziert",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "この地図は複雑です。",
-        "romaji": "Kono chizu wa fukuzatsu desu.",
-        "german": "Diese Karte ist kompliziert."
       }
     ]
   },
@@ -8416,230 +7936,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "相談",
-    "reading": "そうだん",
-    "romaji": "soudan",
-    "meaning": "Beratung, Besprechung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "相談してもいいですか。",
-        "romaji": "Soudan shite mo ii desu ka.",
-        "german": "Darf ich Sie um Rat fragen?"
-      }
-    ]
-  },
-  {
-    "word": "連絡",
-    "reading": "れんらく",
-    "romaji": "renraku",
-    "meaning": "Kontakt, Benachrichtigung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "連絡してください。",
-        "romaji": "Renraku shite kudasai.",
-        "german": "Bitte kontaktieren Sie mich."
-      }
-    ]
-  },
-  {
-    "word": "紹介",
-    "reading": "しょうかい",
-    "romaji": "shoukai",
-    "meaning": "Vorstellung, Einführung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "友達を紹介します。",
-        "romaji": "Tomodachi o shoukai shimasu.",
-        "german": "Ich stelle meinen Freund vor."
-      }
-    ]
-  },
-  {
-    "word": "返事",
-    "reading": "へんじ",
-    "romaji": "henji",
-    "meaning": "Antwort, Reaktion",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "返事をしてください。",
-        "romaji": "Henji o shite kudasai.",
-        "german": "Bitte antworten Sie."
-      }
-    ]
-  },
-  {
-    "word": "理解",
-    "reading": "りかい",
-    "romaji": "rikai",
-    "meaning": "Verständnis",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "理解できましたか。",
-        "romaji": "Rikai dekimashita ka.",
-        "german": "Haben Sie es verstanden?"
-      }
-    ]
-  },
-  {
-    "word": "説明",
-    "reading": "せつめい",
-    "romaji": "setsumei",
-    "meaning": "Erklärung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "説明してください。",
-        "romaji": "Setsumei shite kudasai.",
-        "german": "Bitte erklären Sie es."
-      }
-    ]
-  },
-  {
-    "word": "経験",
-    "reading": "けいけん",
-    "romaji": "keiken",
-    "meaning": "Erfahrung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "いい経験です。",
-        "romaji": "Ii keiken desu.",
-        "german": "Es ist eine gute Erfahrung."
-      }
-    ]
-  },
-  {
-    "word": "失敗",
-    "reading": "しっぱい",
-    "romaji": "shippai",
-    "meaning": "Misserfolg, Fehler",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "失敗しました。",
-        "romaji": "Shippai shimashita.",
-        "german": "Es ist fehlgeschlagen."
-      }
-    ]
-  },
-  {
-    "word": "成功",
-    "reading": "せいこう",
-    "romaji": "seikou",
-    "meaning": "Erfolg",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "成功しました。",
-        "romaji": "Seikou shimashita.",
-        "german": "Es war ein Erfolg."
-      }
-    ]
-  },
-  {
-    "word": "用意",
-    "reading": "ようい",
-    "romaji": "youi",
-    "meaning": "Vorbereitung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "用意ができました。",
-        "romaji": "Youi ga dekimashita.",
-        "german": "Die Vorbereitung ist fertig."
-      }
-    ]
-  },
-  {
-    "word": "用事",
-    "reading": "ようじ",
-    "romaji": "youji",
-    "meaning": "Erledigung, Angelegenheit",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "用事があります。",
-        "romaji": "Youji ga arimasu.",
-        "german": "Ich habe etwas zu erledigen."
-      }
-    ]
-  },
-  {
-    "word": "案内",
-    "reading": "あんない",
-    "romaji": "annai",
-    "meaning": "Führung, Anleitung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Reisen",
-    "examples": [
-      {
-        "japanese": "案内してください。",
-        "romaji": "Annai shite kudasai.",
-        "german": "Bitte führen Sie mich."
-      }
-    ]
-  },
-  {
-    "word": "景色",
-    "reading": "けしき",
-    "romaji": "keshiki",
-    "meaning": "Landschaft, Aussicht",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "景色がきれいです。",
-        "romaji": "Keshiki ga kirei desu.",
-        "german": "Die Aussicht ist schön."
-      }
-    ]
-  },
-  {
-    "word": "自然",
-    "reading": "しぜん",
-    "romaji": "shizen",
-    "meaning": "Natur",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "自然が豊かです。",
-        "romaji": "Shizen ga yutaka desu.",
-        "german": "Die Natur ist reichhaltig."
-      }
-    ]
-  },
-  {
     "word": "空気",
     "reading": "くうき",
     "romaji": "kuuki",
@@ -8652,22 +7948,6 @@ window.VOCAB_N5 = [
         "japanese": "空気がきれいです。",
         "romaji": "Kuuki ga kirei desu.",
         "german": "Die Luft ist sauber."
-      }
-    ]
-  },
-  {
-    "word": "地球",
-    "reading": "ちきゅう",
-    "romaji": "chikyuu",
-    "meaning": "Erde (Planet)",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "地球は丸いです。",
-        "romaji": "Chikyuu wa marui desu.",
-        "german": "Die Erde ist rund."
       }
     ]
   },
@@ -9040,22 +8320,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "試験",
-    "reading": "しけん",
-    "romaji": "shiken",
-    "meaning": "Prüfung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "明日試験があります。",
-        "romaji": "Ashita shiken ga arimasu.",
-        "german": "Morgen gibt es eine Prüfung."
-      }
-    ]
-  },
-  {
     "word": "消しゴム",
     "reading": "けしゴム",
     "romaji": "keshigomu",
@@ -9116,22 +8380,6 @@ window.VOCAB_N5 = [
         "japanese": "趣味は何ですか。",
         "romaji": "Shumi wa nan desu ka.",
         "german": "Was ist Ihr Hobby?"
-      }
-    ]
-  },
-  {
-    "word": "運動",
-    "reading": "うんどう",
-    "romaji": "undou",
-    "meaning": "Sport, Bewegung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "運動が好きです。",
-        "romaji": "Undou ga suki desu.",
-        "german": "Ich mag Sport."
       }
     ]
   },
@@ -10176,438 +9424,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "片付ける",
-    "reading": "かたづける",
-    "romaji": "katazukeru",
-    "meaning": "aufräumen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Wohnen",
-    "examples": [
-      {
-        "japanese": "部屋を片付けてください。",
-        "romaji": "Heya o katazukete kudasai.",
-        "german": "Bitte räumen Sie das Zimmer auf."
-      }
-    ]
-  },
-  {
-    "word": "捨てる",
-    "reading": "すてる",
-    "romaji": "suteru",
-    "meaning": "wegwerfen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "ゴミを捨てます。",
-        "romaji": "Gomi o sutemasu.",
-        "german": "Ich werfe den Müll weg."
-      }
-    ]
-  },
-  {
-    "word": "拾う",
-    "reading": "ひろう",
-    "romaji": "hirou",
-    "meaning": "aufheben, aufsammeln",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "財布を拾いました。",
-        "romaji": "Saifu o hiroimashita.",
-        "german": "Ich habe ein Portemonnaie aufgehoben."
-      }
-    ]
-  },
-  {
-    "word": "慣れる",
-    "reading": "なれる",
-    "romaji": "nareru",
-    "meaning": "sich gewöhnen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "日本の生活に慣れました。",
-        "romaji": "Nihon no seikatsu ni naremashita.",
-        "german": "Ich habe mich an das Leben in Japan gewöhnt."
-      }
-    ]
-  },
-  {
-    "word": "似る",
-    "reading": "にる",
-    "romaji": "niru",
-    "meaning": "ähneln",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "お母さんに似ています。",
-        "romaji": "Okaasan ni nite imasu.",
-        "german": "Du ähnelst deiner Mutter."
-      }
-    ]
-  },
-  {
-    "word": "変わる",
-    "reading": "かわる",
-    "romaji": "kawaru",
-    "meaning": "sich ändern",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "天気が変わりました。",
-        "romaji": "Tenki ga kawarimashita.",
-        "german": "Das Wetter hat sich geändert."
-      }
-    ]
-  },
-  {
-    "word": "決める",
-    "reading": "きめる",
-    "romaji": "kimeru",
-    "meaning": "entscheiden",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "何にするか決めましたか。",
-        "romaji": "Nani ni suru ka kimemashita ka.",
-        "german": "Haben Sie sich entschieden?"
-      }
-    ]
-  },
-  {
-    "word": "集める",
-    "reading": "あつめる",
-    "romaji": "atsumeru",
-    "meaning": "sammeln",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "切手を集めています。",
-        "romaji": "Kitte o atsumete imasu.",
-        "german": "Ich sammle Briefmarken."
-      }
-    ]
-  },
-  {
-    "word": "壊す",
-    "reading": "こわす",
-    "romaji": "kowasu",
-    "meaning": "kaputtmachen, zerstören",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "窓を壊しました。",
-        "romaji": "Mado o kowashimashita.",
-        "german": "Ich habe das Fenster kaputtgemacht."
-      }
-    ]
-  },
-  {
-    "word": "壊れる",
-    "reading": "こわれる",
-    "romaji": "kowareru",
-    "meaning": "kaputtgehen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "パソコンが壊れました。",
-        "romaji": "Pasokon ga kowaremashita.",
-        "german": "Der Computer ist kaputtgegangen."
-      }
-    ]
-  },
-  {
-    "word": "直す",
-    "reading": "なおす",
-    "romaji": "naosu",
-    "meaning": "reparieren, korrigieren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "自転車を直します。",
-        "romaji": "Jitensha o naoshimasu.",
-        "german": "Ich repariere das Fahrrad."
-      }
-    ]
-  },
-  {
-    "word": "直る",
-    "reading": "なおる",
-    "romaji": "naoru",
-    "meaning": "repariert werden, heilen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "風邪が直りました。",
-        "romaji": "Kaze ga naorimashita.",
-        "german": "Die Erkältung ist geheilt."
-      }
-    ]
-  },
-  {
-    "word": "乾く",
-    "reading": "かわく",
-    "romaji": "kawaku",
-    "meaning": "trocknen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "洗濯物が乾きました。",
-        "romaji": "Sentakumono ga kawakimashita.",
-        "german": "Die Wäsche ist getrocknet."
-      }
-    ]
-  },
-  {
-    "word": "濡れる",
-    "reading": "ぬれる",
-    "romaji": "nureru",
-    "meaning": "nass werden",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "雨で濡れました。",
-        "romaji": "Ame de nuremashita.",
-        "german": "Ich bin vom Regen nass geworden."
-      }
-    ]
-  },
-  {
-    "word": "揺れる",
-    "reading": "ゆれる",
-    "romaji": "yureru",
-    "meaning": "schwanken, beben",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "地震で揺れました。",
-        "romaji": "Jishin de yuremashita.",
-        "german": "Es hat beim Erdbeben gebebt."
-      }
-    ]
-  },
-  {
-    "word": "枯れる",
-    "reading": "かれる",
-    "romaji": "kareru",
-    "meaning": "verwelken, verdorren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "花が枯れました。",
-        "romaji": "Hana ga karemashita.",
-        "german": "Die Blume ist verwelkt."
-      }
-    ]
-  },
-  {
-    "word": "育てる",
-    "reading": "そだてる",
-    "romaji": "sodateru",
-    "meaning": "aufziehen, züchten",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "野菜を育てています。",
-        "romaji": "Yasai o sodatete imasu.",
-        "german": "Ich baü Gemüse an."
-      }
-    ]
-  },
-  {
-    "word": "植える",
-    "reading": "うえる",
-    "romaji": "ueru",
-    "meaning": "pflanzen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "花を植えました。",
-        "romaji": "Hana o uemashita.",
-        "german": "Ich habe Blumen gepflanzt."
-      }
-    ]
-  },
-  {
-    "word": "溶ける",
-    "reading": "とける",
-    "romaji": "tokeru",
-    "meaning": "schmelzen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "雪が溶けました。",
-        "romaji": "Yuki ga tokemashita.",
-        "german": "Der Schnee ist geschmolzen."
-      }
-    ]
-  },
-  {
-    "word": "凍る",
-    "reading": "こおる",
-    "romaji": "kooru",
-    "meaning": "gefrieren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "水が凍りました。",
-        "romaji": "Mizu ga koorimashita.",
-        "german": "Das Wasser ist gefroren."
-      }
-    ]
-  },
-  {
-    "word": "沸く",
-    "reading": "わく",
-    "romaji": "waku",
-    "meaning": "kochen (Wasser)",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Essen",
-    "examples": [
-      {
-        "japanese": "お湯が沸きました。",
-        "romaji": "Oyu ga wakimashita.",
-        "german": "Das Wasser kocht."
-      }
-    ]
-  },
-  {
-    "word": "焼く",
-    "reading": "やく",
-    "romaji": "yaku",
-    "meaning": "braten, grillen, backen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Essen",
-    "examples": [
-      {
-        "japanese": "肉を焼きます。",
-        "romaji": "Niku o yakimasu.",
-        "german": "Ich brate das Fleisch."
-      }
-    ]
-  },
-  {
-    "word": "煮る",
-    "reading": "にる",
-    "romaji": "niru",
-    "meaning": "kochen, sieden",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Essen",
-    "examples": [
-      {
-        "japanese": "野菜を煮ます。",
-        "romaji": "Yasai o nimasu.",
-        "german": "Ich koche das Gemüse."
-      }
-    ]
-  },
-  {
-    "word": "混ぜる",
-    "reading": "まぜる",
-    "romaji": "mazeru",
-    "meaning": "mischen, umrühren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Essen",
-    "examples": [
-      {
-        "japanese": "よく混ぜてください。",
-        "romaji": "Yoku mazete kudasai.",
-        "german": "Bitte gut umrühren."
-      }
-    ]
-  },
-  {
-    "word": "包む",
-    "reading": "つつむ",
-    "romaji": "tsutsumu",
-    "meaning": "einwickeln, verpacken",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "プレゼントを包みます。",
-        "romaji": "Purezento o tsutsumimasu.",
-        "german": "Ich verpacke das Geschenk."
-      }
-    ]
-  },
-  {
-    "word": "数える",
-    "reading": "かぞえる",
-    "romaji": "kazoeru",
-    "meaning": "zählen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Zahlen",
-    "examples": [
-      {
-        "japanese": "一から十まで数えます。",
-        "romaji": "Ichi kara juu made kazoemasu.",
-        "german": "Ich zähle von eins bis zehn."
-      }
-    ]
-  },
-  {
-    "word": "比べる",
-    "reading": "くらべる",
-    "romaji": "kuraberu",
-    "meaning": "vergleichen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "二つを比べます。",
-        "romaji": "Futatsu o kurabemasu.",
-        "german": "Ich vergleiche die beiden."
-      }
-    ]
-  },
-  {
     "word": "お辞儀",
     "reading": "おじぎ",
     "romaji": "ojigi",
@@ -10624,38 +9440,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "挨拶",
-    "reading": "あいさつ",
-    "romaji": "aisatsu",
-    "meaning": "Begrüßung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Menschen",
-    "examples": [
-      {
-        "japanese": "挨拶をしましょう。",
-        "romaji": "Aisatsu o shimashou.",
-        "german": "Lasst uns grüßen."
-      }
-    ]
-  },
-  {
-    "word": "気持ち",
-    "reading": "きもち",
-    "romaji": "kimochi",
-    "meaning": "Gefühl",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Gefühle",
-    "examples": [
-      {
-        "japanese": "気持ちがいいです。",
-        "romaji": "Kimochi ga ii desu.",
-        "german": "Es fühlt sich gut an."
-      }
-    ]
-  },
-  {
     "word": "心配",
     "reading": "しんぱい",
     "romaji": "shinpai",
@@ -10668,118 +9452,6 @@ window.VOCAB_N5 = [
         "japanese": "心配しないでください。",
         "romaji": "Shinpai shinaide kudasai.",
         "german": "Bitte machen Sie sich keine Sorgen."
-      }
-    ]
-  },
-  {
-    "word": "安心",
-    "reading": "あんしん",
-    "romaji": "anshin",
-    "meaning": "Erleichterung, Beruhigung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Gefühle",
-    "examples": [
-      {
-        "japanese": "安心しました。",
-        "romaji": "Anshin shimashita.",
-        "german": "Ich bin erleichtert."
-      }
-    ]
-  },
-  {
-    "word": "我慢",
-    "reading": "がまん",
-    "romaji": "gaman",
-    "meaning": "Geduld, Ausdaür",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Gefühle",
-    "examples": [
-      {
-        "japanese": "我慢してください。",
-        "romaji": "Gaman shite kudasai.",
-        "german": "Bitte haben Sie Geduld."
-      }
-    ]
-  },
-  {
-    "word": "無理",
-    "reading": "むり",
-    "romaji": "muri",
-    "meaning": "unmöglich, übertrieben",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "無理しないでください。",
-        "romaji": "Muri shinaide kudasai.",
-        "german": "Bitte überanstrengen Sie sich nicht."
-      }
-    ]
-  },
-  {
-    "word": "特別",
-    "reading": "とくべつ",
-    "romaji": "tokubetsu",
-    "meaning": "besonders, speziell",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "特別な日です。",
-        "romaji": "Tokubetsu na hi desu.",
-        "german": "Es ist ein besonderer Tag."
-      }
-    ]
-  },
-  {
-    "word": "普通",
-    "reading": "ふつう",
-    "romaji": "futsuu",
-    "meaning": "normal, gewöhnlich",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "普通の生活がしたいです。",
-        "romaji": "Futsuu no seikatsu ga shitai desu.",
-        "german": "Ich möchte ein normales Leben führen."
-      }
-    ]
-  },
-  {
-    "word": "反対",
-    "reading": "はんたい",
-    "romaji": "hantai",
-    "meaning": "Gegenteil, dagegen",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "反対側に行ってください。",
-        "romaji": "Hantai gawa ni itte kudasai.",
-        "german": "Bitte gehen Sie auf die andere Seite."
-      }
-    ]
-  },
-  {
-    "word": "自由",
-    "reading": "じゆう",
-    "romaji": "jiyuu",
-    "meaning": "Freiheit, frei",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "自由に使ってください。",
-        "romaji": "Jiyuu ni tsukatte kudasai.",
-        "german": "Bitte benutzen Sie es frei."
       }
     ]
   },
@@ -10992,22 +9664,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "皮膚",
-    "reading": "ひふ",
-    "romaji": "hifu",
-    "meaning": "Haut",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Körper",
-    "examples": [
-      {
-        "japanese": "皮膚が乾燥しています。",
-        "romaji": "Hifu ga kansou shite imasu.",
-        "german": "Die Haut ist trocken."
-      }
-    ]
-  },
-  {
     "word": "血",
     "reading": "ち",
     "romaji": "chi",
@@ -11084,22 +9740,6 @@ window.VOCAB_N5 = [
         "japanese": "咳が止まりません。",
         "romaji": "Seki ga tomarimasen.",
         "german": "Der Husten hört nicht auf."
-      }
-    ]
-  },
-  {
-    "word": "怪我",
-    "reading": "けが",
-    "romaji": "kega",
-    "meaning": "Verletzung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Körper",
-    "examples": [
-      {
-        "japanese": "怪我をしました。",
-        "romaji": "Kega o shimashita.",
-        "german": "Ich habe mich verletzt."
       }
     ]
   },
@@ -11504,86 +10144,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "先輩",
-    "reading": "せんぱい",
-    "romaji": "senpai",
-    "meaning": "Älterer (Schule/Arbeit)",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Menschen",
-    "examples": [
-      {
-        "japanese": "先輩に教えてもらいました。",
-        "romaji": "Senpai ni oshiete moraimashita.",
-        "german": "Ich habe es von meinem Senpai gelernt."
-      }
-    ]
-  },
-  {
-    "word": "後輩",
-    "reading": "こうはい",
-    "romaji": "kouhai",
-    "meaning": "Jüngerer (Schule/Arbeit)",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Menschen",
-    "examples": [
-      {
-        "japanese": "後輩の面倒を見ます。",
-        "romaji": "Kouhai no mendou o mimasu.",
-        "german": "Ich kümmere mich um meine jüngeren Kollegen."
-      }
-    ]
-  },
-  {
-    "word": "上司",
-    "reading": "じょうし",
-    "romaji": "joushi",
-    "meaning": "Vorgesetzter",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "上司に報告します。",
-        "romaji": "Joushi ni houkoku shimasu.",
-        "german": "Ich berichte meinem Vorgesetzten."
-      }
-    ]
-  },
-  {
-    "word": "部下",
-    "reading": "ぶか",
-    "romaji": "buka",
-    "meaning": "Untergebener",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "部下を育てます。",
-        "romaji": "Buka o sodatemasu.",
-        "german": "Ich fördere meine Mitarbeiter."
-      }
-    ]
-  },
-  {
-    "word": "同僚",
-    "reading": "どうりょう",
-    "romaji": "douryou",
-    "meaning": "Kollege",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "同僚と昼ご飯を食べます。",
-        "romaji": "Douryou to hirugohan o tabemasu.",
-        "german": "Ich esse mit Kollegen zu Mittag."
-      }
-    ]
-  },
-  {
     "word": "社長",
     "reading": "しゃちょう",
     "romaji": "shachou",
@@ -11632,22 +10192,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "給料",
-    "reading": "きゅうりょう",
-    "romaji": "kyuuryou",
-    "meaning": "Gehalt",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "給料日は25日です。",
-        "romaji": "Kyuuryoubi wa nijuugonichi desu.",
-        "german": "Der Zahltag ist am 25."
-      }
-    ]
-  },
-  {
     "word": "休憩",
     "reading": "きゅうけい",
     "romaji": "kyuukei",
@@ -11660,102 +10204,6 @@ window.VOCAB_N5 = [
         "japanese": "休憩しましょう。",
         "romaji": "Kyuukei shimashou.",
         "german": "Machen wir eine Pause."
-      }
-    ]
-  },
-  {
-    "word": "残業",
-    "reading": "ざんぎょう",
-    "romaji": "zangyou",
-    "meaning": "Überstunden",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "今日は残業です。",
-        "romaji": "Kyou wa zangyou desu.",
-        "german": "Heute mache ich Überstunden."
-      }
-    ]
-  },
-  {
-    "word": "通勤",
-    "reading": "つうきん",
-    "romaji": "tsuukin",
-    "meaning": "Pendeln zur Arbeit",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "通勤に一時間かかります。",
-        "romaji": "Tsuukin ni ichijikan kakarimasu.",
-        "german": "Das Pendeln daürt eine Stunde."
-      }
-    ]
-  },
-  {
-    "word": "会議",
-    "reading": "かいぎ",
-    "romaji": "kaigi",
-    "meaning": "Besprechung, Konferenz",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "三時から会議があります。",
-        "romaji": "Sanji kara kaigi ga arimasu.",
-        "german": "Ab drei Uhr gibt es eine Besprechung."
-      }
-    ]
-  },
-  {
-    "word": "名刺",
-    "reading": "めいし",
-    "romaji": "meishi",
-    "meaning": "Visitenkarte",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "名刺を交換しましょう。",
-        "romaji": "Meishi o koukan shimashou.",
-        "german": "Tauschen wir Visitenkarten aus."
-      }
-    ]
-  },
-  {
-    "word": "書類",
-    "reading": "しょるい",
-    "romaji": "shorui",
-    "meaning": "Dokument, Unterlagen",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "書類にサインしてください。",
-        "romaji": "Shorui ni sain shite kudasai.",
-        "german": "Bitte unterschreiben Sie das Dokument."
-      }
-    ]
-  },
-  {
-    "word": "予約",
-    "reading": "よやく",
-    "romaji": "yoyaku",
-    "meaning": "Reservierung, Buchung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "レストランを予約しました。",
-        "romaji": "Resutoran o yoyaku shimashita.",
-        "german": "Ich habe das Restaurant reserviert."
       }
     ]
   },
@@ -11808,70 +10256,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "値段",
-    "reading": "ねだん",
-    "romaji": "nedan",
-    "meaning": "Preis",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "値段はいくらですか。",
-        "romaji": "Nedan wa ikura desu ka.",
-        "german": "Wie viel kostet es?"
-      }
-    ]
-  },
-  {
-    "word": "割引",
-    "reading": "わりびき",
-    "romaji": "waribiki",
-    "meaning": "Rabatt",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "割引はありますか。",
-        "romaji": "Waribiki wa arimasu ka.",
-        "german": "Gibt es einen Rabatt?"
-      }
-    ]
-  },
-  {
-    "word": "包装",
-    "reading": "ほうそう",
-    "romaji": "housou",
-    "meaning": "Verpackung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "包装してください。",
-        "romaji": "Housou shite kudasai.",
-        "german": "Bitte verpacken Sie es."
-      }
-    ]
-  },
-  {
-    "word": "品物",
-    "reading": "しなもの",
-    "romaji": "shinamono",
-    "meaning": "Ware, Artikel",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "品物を選びます。",
-        "romaji": "Shinamono o erabimasu.",
-        "german": "Ich wähle die Ware aus."
-      }
-    ]
-  },
-  {
     "word": "曇り",
     "reading": "くもり",
     "romaji": "kumori",
@@ -11900,38 +10284,6 @@ window.VOCAB_N5 = [
         "japanese": "明日は晴れです。",
         "romaji": "Ashita wa hare desu.",
         "german": "Morgen wird es sonnig."
-      }
-    ]
-  },
-  {
-    "word": "台風",
-    "reading": "たいふう",
-    "romaji": "taifuu",
-    "meaning": "Taifun",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Wetter",
-    "examples": [
-      {
-        "japanese": "台風が来ます。",
-        "romaji": "Taifuu ga kimasu.",
-        "german": "Ein Taifun kommt."
-      }
-    ]
-  },
-  {
-    "word": "梅雨",
-    "reading": "つゆ",
-    "romaji": "tsuyu",
-    "meaning": "Regenzeit",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Wetter",
-    "examples": [
-      {
-        "japanese": "梅雨の季節です。",
-        "romaji": "Tsuyu no kisetsu desu.",
-        "german": "Es ist Regenzeit."
       }
     ]
   },
@@ -12352,38 +10704,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "蓮根",
-    "reading": "れんこん",
-    "romaji": "renkon",
-    "meaning": "Lotuswurzel",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Essen",
-    "examples": [
-      {
-        "japanese": "蓮根のきんぴらを作ります。",
-        "romaji": "Renkon no kinpira o tsukurimasu.",
-        "german": "Ich mache gebratene Lotuswurzel."
-      }
-    ]
-  },
-  {
-    "word": "牛蒡",
-    "reading": "ごぼう",
-    "romaji": "gobou",
-    "meaning": "Klettenwurzel",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Essen",
-    "examples": [
-      {
-        "japanese": "牛蒡をサラダにします。",
-        "romaji": "Gobou o sarada ni shimasu.",
-        "german": "Ich mache Salat mit Klettenwurzel."
-      }
-    ]
-  },
-  {
     "word": "椎茸",
     "reading": "しいたけ",
     "romaji": "shiitake",
@@ -12608,22 +10928,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "炊飯器",
-    "reading": "すいはんき",
-    "romaji": "suihanki",
-    "meaning": "Reiskocher",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Wohnen",
-    "examples": [
-      {
-        "japanese": "炊飯器でご飯を炊きます。",
-        "romaji": "Suihanki de gohan o takimasu.",
-        "german": "Ich koche Reis im Reiskocher."
-      }
-    ]
-  },
-  {
     "word": "物干し",
     "reading": "ものほし",
     "romaji": "monohoshi",
@@ -12652,38 +10956,6 @@ window.VOCAB_N5 = [
         "japanese": "洗面台で顔を洗います。",
         "romaji": "Senmendai de kao o araimasu.",
         "german": "Ich wasche mir das Gesicht am Waschbecken."
-      }
-    ]
-  },
-  {
-    "word": "浴槽",
-    "reading": "よくそう",
-    "romaji": "yokusou",
-    "meaning": "Badewanne",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Wohnen",
-    "examples": [
-      {
-        "japanese": "浴槽にお湯を入れます。",
-        "romaji": "Yokusou ni oyu o iremasu.",
-        "german": "Ich lasse Wasser in die Badewanne."
-      }
-    ]
-  },
-  {
-    "word": "便器",
-    "reading": "べんき",
-    "romaji": "benki",
-    "meaning": "Toilettenschüssel",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Wohnen",
-    "examples": [
-      {
-        "japanese": "便器を掃除します。",
-        "romaji": "Benki o souji shimasu.",
-        "german": "Ich putze die Toilette."
       }
     ]
   },
@@ -12720,22 +10992,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "絨毯",
-    "reading": "じゅうたん",
-    "romaji": "juutan",
-    "meaning": "Teppich",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Wohnen",
-    "examples": [
-      {
-        "japanese": "絨毯の上に座ります。",
-        "romaji": "Juutan no ue ni suwarimasu.",
-        "german": "Ich setze mich auf den Teppich."
-      }
-    ]
-  },
-  {
     "word": "花瓶",
     "reading": "かびん",
     "romaji": "kabin",
@@ -12764,38 +11020,6 @@ window.VOCAB_N5 = [
         "japanese": "目覚まし時計をセットします。",
         "romaji": "Mezamashi dokei o setto shimasu.",
         "german": "Ich stelle den Wecker."
-      }
-    ]
-  },
-  {
-    "word": "体温計",
-    "reading": "たいおんけい",
-    "romaji": "taionkei",
-    "meaning": "Fieberthermometer",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Körper",
-    "examples": [
-      {
-        "japanese": "体温計で熱を測ります。",
-        "romaji": "Taionkei de netsu o hakarimasu.",
-        "german": "Ich messe mit dem Thermometer Fieber."
-      }
-    ]
-  },
-  {
-    "word": "体重計",
-    "reading": "たいじゅうけい",
-    "romaji": "taijuukei",
-    "meaning": "Körperwaage",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Körper",
-    "examples": [
-      {
-        "japanese": "体重計に乗ります。",
-        "romaji": "Taijuukei ni norimasu.",
-        "german": "Ich steige auf die Waage."
       }
     ]
   },
@@ -12832,22 +11056,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "小説",
-    "reading": "しょうせつ",
-    "romaji": "shousetsu",
-    "meaning": "Roman",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Freizeit",
-    "examples": [
-      {
-        "japanese": "小説を読んでいます。",
-        "romaji": "Shousetsu o yonde imasu.",
-        "german": "Ich lese einen Roman."
-      }
-    ]
-  },
-  {
     "word": "葉書",
     "reading": "はがき",
     "romaji": "hagaki",
@@ -12876,38 +11084,6 @@ window.VOCAB_N5 = [
         "japanese": "小包を送りたいです。",
         "romaji": "Kozutsumi o okuritai desu.",
         "german": "Ich möchte ein Päckchen schicken."
-      }
-    ]
-  },
-  {
-    "word": "印鑑",
-    "reading": "いんかん",
-    "romaji": "inkan",
-    "meaning": "Stempel (persönlich)",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "印鑑を押してください。",
-        "romaji": "Inkan o oshite kudasai.",
-        "german": "Bitte drücken Sie Ihren Stempel."
-      }
-    ]
-  },
-  {
-    "word": "両替",
-    "reading": "りょうがえ",
-    "romaji": "ryougae",
-    "meaning": "Geldwechsel",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "両替をお願いします。",
-        "romaji": "Ryougae o onegai shimasu.",
-        "german": "Bitte wechseln Sie Geld."
       }
     ]
   },
@@ -13164,22 +11340,6 @@ window.VOCAB_N5 = [
         "japanese": "わたしは五才です。",
         "romaji": "Watashi wa gosai desu.",
         "german": "Ich bin fünf Jahre alt."
-      }
-    ]
-  },
-  {
-    "word": "中々",
-    "reading": "なかなか",
-    "romaji": "nakanaka",
-    "meaning": "ziemlich, recht",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Art und Weise",
-    "examples": [
-      {
-        "japanese": "このカレー、中々おいしいですね。",
-        "romaji": "Kono karee, naka 々 oishiidesu ne.",
-        "german": "Dieses Curry ist ziemlich lecker."
       }
     ]
   },
@@ -13488,22 +11648,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "左右",
-    "reading": "さゆう",
-    "romaji": "sayuu",
-    "meaning": "links und rechts",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Ort",
-    "examples": [
-      {
-        "japanese": "ジャケットの左右にはポケットがあります。",
-        "romaji": "Jaketto no sayuu ni wa poketto ga arimasu.",
-        "german": "Die Jacke hat Taschen auf der linken und rechten Seite."
-      }
-    ]
-  },
-  {
     "word": "おはよう",
     "reading": "おはよう",
     "romaji": "ohayou",
@@ -13680,38 +11824,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "用いる",
-    "reading": "もちいる",
-    "romaji": "mochiiru",
-    "meaning": "verwenden, benutzen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "これはフィットネストレーニングに用いるマシンです。",
-        "romaji": "Kore wa fyittonesutoreeningu ni mochiiru mashin desu.",
-        "german": "Das ist eine Maschine für Fitnesstraining."
-      }
-    ]
-  },
-  {
-    "word": "人生",
-    "reading": "じんせい",
-    "romaji": "jinsei",
-    "meaning": "Leben",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Abstrakt",
-    "examples": [
-      {
-        "japanese": "人生ってすばらしい。",
-        "romaji": "Jinsei tte subarashii.",
-        "german": "Das Leben ist wunderbar."
-      }
-    ]
-  },
-  {
     "word": "イギリス人",
     "reading": "いぎりすじん",
     "romaji": "igirisujin",
@@ -13744,22 +11856,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "大人しい",
-    "reading": "おとなしい",
-    "romaji": "otonashii",
-    "meaning": "ruhig, brav",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "大人しい犬ですね。",
-        "romaji": "Otonashii inu desu ne.",
-        "german": "Das ist ein ruhiger Hund."
-      }
-    ]
-  },
-  {
     "word": "戸",
     "reading": "と",
     "romaji": "to",
@@ -13788,22 +11884,6 @@ window.VOCAB_N5 = [
         "japanese": "あの女の人？マミさんだよ。",
         "romaji": "Ano onna no hito? Mamisan da yo.",
         "german": "Die Frau dort drüben? Das ist Mami."
-      }
-    ]
-  },
-  {
-    "word": "広げる",
-    "reading": "ひろげる",
-    "romaji": "hirogeru",
-    "meaning": "ausbreiten, verbreiten",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "日本にそのウィルスを広げたのは水だった。",
-        "romaji": "Nippon ni sono uirusu o hirogeta no wa mizu datta.",
-        "german": "Es war das Wasser, das den Virus in Japan verbreitet hat."
       }
     ]
   },
@@ -14000,22 +12080,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "休止",
-    "reading": "きゅうし",
-    "romaji": "kyuushi",
-    "meaning": "Pause, Unterbrechung",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Zustand",
-    "examples": [
-      {
-        "japanese": "しばらく、このクラスは休止です。",
-        "romaji": "Shibaraku, kono kurasu wa kyuushi desu.",
-        "german": "Diese Kurse sind vorübergehend eingestellt."
-      }
-    ]
-  },
-  {
     "word": "休日",
     "reading": "きゅうじつ",
     "romaji": "kyuujitsu",
@@ -14192,22 +12256,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "早々",
-    "reading": "そうそう",
-    "romaji": "sousou",
-    "meaning": "sofort, umgehend",
-    "type": "Partikel",
-    "level": "N5",
-    "category": "Zeit",
-    "examples": [
-      {
-        "japanese": "早々にメールありがとうございます。",
-        "romaji": "Sousou ni meeru arigatou gozaimasu.",
-        "german": "Vielen Dank für Ihre schnelle E-Mail-Antwort."
-      }
-    ]
-  },
-  {
     "word": "一気に",
     "reading": "いっきに",
     "romaji": "ikkini",
@@ -14268,22 +12316,6 @@ window.VOCAB_N5 = [
         "japanese": "よく平気でいられますね。",
         "romaji": "Yoku heiki de i raremasu ne.",
         "german": "Wie können Sie immer so gelassen sein?"
-      }
-    ]
-  },
-  {
-    "word": "一本気",
-    "reading": "いっぽんぎ",
-    "romaji": "ippongi",
-    "meaning": "zielstrebig",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "ニックって一本気なところがあるよね。",
-        "romaji": "Nikku tte ippongi na tokoro ga aru yo ne.",
-        "german": "Nick hat eine zielstrebige Seite."
       }
     ]
   },
@@ -14368,22 +12400,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "不足",
-    "reading": "ふそく",
-    "romaji": "fusoku",
-    "meaning": "Mangel, Knappheit",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Zustand",
-    "examples": [
-      {
-        "japanese": "このエリアでは去年、水が不足しました。",
-        "romaji": "Kono eria de wa kyonen, mizu ga fusoku shimashita.",
-        "german": "Letztes Jahr gab es in diesem Gebiet einen Wassermangel."
-      }
-    ]
-  },
-  {
     "word": "車内",
     "reading": "しゃない",
     "romaji": "shanai",
@@ -14460,22 +12476,6 @@ window.VOCAB_N5 = [
         "japanese": "この人は、わたしの主人です。",
         "romaji": "Kono hito wa, watashi no shujin desu.",
         "german": "Diese Person ist mein Ehemann."
-      }
-    ]
-  },
-  {
-    "word": "中央",
-    "reading": "ちゅうおう",
-    "romaji": "chuuou",
-    "meaning": "Mitte, Zentrum",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Ort",
-    "examples": [
-      {
-        "japanese": "左がマミ、中央がジェニー、右がマイケルです。",
-        "romaji": "Hidari ga mami, chuuou ga jenii, migi ga Maikeru desu.",
-        "german": "Links ist Mami, in der Mitte Jenny und rechts Michael."
       }
     ]
   },
@@ -14560,22 +12560,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "不正",
-    "reading": "ふせい",
-    "romaji": "fusei",
-    "meaning": "Betrug, unrechtmäßig",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Recht",
-    "examples": [
-      {
-        "japanese": "これは不正サイトです。",
-        "romaji": "Kore wa fusei saito desu.",
-        "german": "Das ist eine betrügerische Website."
-      }
-    ]
-  },
-  {
     "word": "子牛",
     "reading": "こうし",
     "romaji": "koushi",
@@ -14588,54 +12572,6 @@ window.VOCAB_N5 = [
         "japanese": "この子牛は、まだまだ小さい赤ちゃんです。",
         "romaji": "Kono ko ushi wa, madamada chiisai akachan desu.",
         "german": "Dieses Kalb ist noch ein kleines Baby."
-      }
-    ]
-  },
-  {
-    "word": "宝石",
-    "reading": "ほうせき",
-    "romaji": "houseki",
-    "meaning": "Edelstein, Juwel",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "これは母の大切な宝石です。",
-        "romaji": "Kore wa haha no taisetsu na houseki desu.",
-        "german": "Das ist der kostbare Edelstein meiner Mutter."
-      }
-    ]
-  },
-  {
-    "word": "丸ごと",
-    "reading": "まるごと",
-    "romaji": "marugoto",
-    "meaning": "im Ganzen, ganz",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Art und Weise",
-    "examples": [
-      {
-        "japanese": "半分じゃなくて丸ごと一つ下さい。",
-        "romaji": "Hanbun ja naku te marugoto hitotsu kudasai.",
-        "german": "Bitte geben Sie mir das Ganze, nicht nur die Hälfte."
-      }
-    ]
-  },
-  {
-    "word": "大気",
-    "reading": "たいき",
-    "romaji": "taiki",
-    "meaning": "Atmosphäre",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "きたない大気のせいでアレルギーになりました。",
-        "romaji": "Kitanai taiki no sei de arerugii ni narimashita.",
-        "german": "Wegen der verschmutzten Luft habe ich eine Allergie entwickelt."
       }
     ]
   },
@@ -15088,22 +13024,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "工学",
-    "reading": "こうがく",
-    "romaji": "kougaku",
-    "meaning": "Ingenieurwesen",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Wissenschaft",
-    "examples": [
-      {
-        "japanese": "ロボット工学のクラスに入りたい。",
-        "romaji": "Robotto kougaku no kurasu ni hairitai.",
-        "german": "Ich möchte einen Robotik-Kurs belegen."
-      }
-    ]
-  },
-  {
     "word": "金玉",
     "reading": "きんたま",
     "romaji": "kintama",
@@ -15200,22 +13120,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "古来",
-    "reading": "こらい",
-    "romaji": "korai",
-    "meaning": "seit alters her",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Zeit",
-    "examples": [
-      {
-        "japanese": "古来から、あの山は「ふじ山」という名だ。",
-        "romaji": "Korai kara, ano yama wa 「 Fujisan 」 toiu na da.",
-        "german": "Seit alters her heißt dieser Berg \"Berg Fuji\"."
-      }
-    ]
-  },
-  {
     "word": "〜年来",
     "reading": "ねんらい",
     "romaji": "nenrai",
@@ -15244,22 +13148,6 @@ window.VOCAB_N5 = [
         "japanese": "社内にデザイナーがいます。",
         "romaji": "Shanai ni dezainaa ga imasu.",
         "german": "Die Firma hat firmeninterne Designer."
-      }
-    ]
-  },
-  {
-    "word": "入社",
-    "reading": "にゅうしゃ",
-    "romaji": "nyuusha",
-    "meaning": "Firmeneintritt",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "入社したばかりです。",
-        "romaji": "Nyuusha shita bakari desu.",
-        "german": "Ich bin gerade erst in eine Firma eingetreten."
       }
     ]
   },
@@ -15308,22 +13196,6 @@ window.VOCAB_N5 = [
         "japanese": "スタッフは「ありがとうございました」と、言う。",
         "romaji": "Sutaffu wa 「 arigatou gozaimashi ta 」 to, iu.",
         "german": "Das Personal sagt: \"Vielen Dank.\""
-      }
-    ]
-  },
-  {
-    "word": "走行",
-    "reading": "そうこう",
-    "romaji": "soukou",
-    "meaning": "Fahrt, Fahren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Verkehr",
-    "examples": [
-      {
-        "japanese": "走行スピードを下げてください。",
-        "romaji": "Soukou supiido o sagete kudasai.",
-        "german": "Bitte reduzieren Sie die Fahrgeschwindigkeit."
       }
     ]
   },
@@ -15484,22 +13356,6 @@ window.VOCAB_N5 = [
         "japanese": "あの山は、このクマの里なんです。",
         "romaji": "Ano yama wa, kono kuma no sato na n desu.",
         "german": "Dieser Berg ist die Heimat dieses Bären."
-      }
-    ]
-  },
-  {
-    "word": "里心",
-    "reading": "さとごころ",
-    "romaji": "satogokoro",
-    "meaning": "Heimweh",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Gefühle",
-    "examples": [
-      {
-        "japanese": "ちょっと里心がついちゃったんです。",
-        "romaji": "Chotto satogokoro ga tsui chatta n desu.",
-        "german": "Ich habe ein bisschen Heimweh."
       }
     ]
   },
@@ -15792,22 +13648,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "代用",
-    "reading": "だいよう",
-    "romaji": "daiyou",
-    "meaning": "Ersatz, ersetzen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "サワークリームをヨーグルトで代用しました。",
-        "romaji": "Sawaakuriimu o youguruto de daiyou shimashita.",
-        "german": "Ich habe Sauerrahm durch Joghurt ersetzt."
-      }
-    ]
-  },
-  {
     "word": "写る",
     "reading": "うつる",
     "romaji": "utsuru",
@@ -15820,22 +13660,6 @@ window.VOCAB_N5 = [
         "japanese": "父はビデオに写るのがきらいです。",
         "romaji": "Chichi wa bideo ni utsuru no ga kirai desu.",
         "german": "Mein Vater mag es nicht, in Videos aufzutauchen."
-      }
-    ]
-  },
-  {
-    "word": "行う",
-    "reading": "おこなう",
-    "romaji": "okonau",
-    "meaning": "durchführen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "ホテルでミーティングを行うつもりです。",
-        "romaji": "Hoteru de miiteingu o okonau tsumori desu.",
-        "german": "Ich beabsichtige, ein Meeting im Hotel durchzuführen."
       }
     ]
   },
@@ -15920,22 +13744,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "全力",
-    "reading": "ぜんりょく",
-    "romaji": "zenryoku",
-    "meaning": "volle Kraft",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "会社まで全力で走りました。",
-        "romaji": "Kaisha made zenryoku de hashirimashita.",
-        "german": "Ich bin mit voller Kraft zur Firma gerannt."
-      }
-    ]
-  },
-  {
     "word": "全日本",
     "reading": "ぜんにほん",
     "romaji": "zennihon",
@@ -16000,22 +13808,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "名曲",
-    "reading": "めいきょく",
-    "romaji": "meikyoku",
-    "meaning": "Meisterwerk",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Musik",
-    "examples": [
-      {
-        "japanese": "これはジャズの名曲です。",
-        "romaji": "Kore wa jazu no meikyoku desu.",
-        "german": "Das ist ein Jazz-Meisterwerk."
-      }
-    ]
-  },
-  {
     "word": "有る",
     "reading": "ある",
     "romaji": "aru",
@@ -16032,54 +13824,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "死体",
-    "reading": "したい",
-    "romaji": "shitai",
-    "meaning": "Leiche",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Gesellschaft",
-    "examples": [
-      {
-        "japanese": "二人の死体は、山で見つかった。",
-        "romaji": "Ninin no shitai wa, yama de mitsukatta.",
-        "german": "Die Leichen der zwei wurden in den Bergen gefunden."
-      }
-    ]
-  },
-  {
-    "word": "死亡",
-    "reading": "しぼう",
-    "romaji": "shibou",
-    "meaning": "Tod, Sterben",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Gesellschaft",
-    "examples": [
-      {
-        "japanese": "今回のフライトで、死亡した人はいませんでした。",
-        "romaji": "Konkai no furaito de, shibou shita hito wa imasendeshita.",
-        "german": "Bei diesem Flug ist niemand gestorben."
-      }
-    ]
-  },
-  {
-    "word": "羊毛",
-    "reading": "ようもう",
-    "romaji": "youmou",
-    "meaning": "Wolle",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "クリスマスプレゼントに、羊毛のブランケットをもらいました。",
-        "romaji": "Kurisumasu purezento ni, youmou no buranketto o moraimashita.",
-        "german": "Ich habe eine Wolldecke als Weihnachtsgeschenk bekommen."
-      }
-    ]
-  },
-  {
     "word": "中国",
     "reading": "ちゅうごく",
     "romaji": "chuugoku",
@@ -16092,22 +13836,6 @@ window.VOCAB_N5 = [
         "japanese": "中国の人口は日本よりも大きい。",
         "romaji": "Chuugoku no jinkou wa Nippon yori mo ookii.",
         "german": "Chinas Bevölkerung ist größer als die von Japan."
-      }
-    ]
-  },
-  {
-    "word": "全国",
-    "reading": "ぜんこく",
-    "romaji": "zenkoku",
-    "meaning": "landesweit",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Geographie",
-    "examples": [
-      {
-        "japanese": "今、全国でインフルエンザの人が多いです。",
-        "romaji": "Ima, zenkoku de infuruenza no hito ga ooidesu.",
-        "german": "Derzeit gibt es landesweit viele Menschen mit Grippe."
       }
     ]
   },
@@ -16160,22 +13888,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "米国",
-    "reading": "べいこく",
-    "romaji": "beikoku",
-    "meaning": "Vereinigte Staaten",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Geographie",
-    "examples": [
-      {
-        "japanese": "主人は米国にいます。",
-        "romaji": "Shujin wa Beikoku ni imasu.",
-        "german": "Mein Mann ist in den Vereinigten Staaten."
-      }
-    ]
-  },
-  {
     "word": "姉妹",
     "reading": "しまい",
     "romaji": "shimai",
@@ -16208,22 +13920,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "海外",
-    "reading": "かいがい",
-    "romaji": "kaigai",
-    "meaning": "Ausland",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Geographie",
-    "examples": [
-      {
-        "japanese": "海外に行きたいなぁ。",
-        "romaji": "Kaigai ni ikitai naa.",
-        "german": "Ich moechte ins Ausland reisen."
-      }
-    ]
-  },
-  {
     "word": "茶色",
     "reading": "ちゃいろ",
     "romaji": "chairo",
@@ -16236,38 +13932,6 @@ window.VOCAB_N5 = [
         "japanese": "私のカバンは茶色です。",
         "romaji": "Watashi no kaban wa chairo desu.",
         "german": "Meine Tasche ist braun."
-      }
-    ]
-  },
-  {
-    "word": "首になる",
-    "reading": "くびになる",
-    "romaji": "kubininaru",
-    "meaning": "gefeuert werden",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "先月、会社を首になりました。",
-        "romaji": "Sengetsu, kaisha o kubi ni narimashita.",
-        "german": "Letzten Monat wurde ich von der Firma gefeuert."
-      }
-    ]
-  },
-  {
-    "word": "亡くなる",
-    "reading": "なくなる",
-    "romaji": "nakunaru",
-    "meaning": "sterben",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Zustand",
-    "examples": [
-      {
-        "japanese": "去年、母が亡くなった。",
-        "romaji": "Kyonen, haha ga nakunatta.",
-        "german": "Letztes Jahr ist meine Mutter gestorben."
       }
     ]
   },
@@ -16416,38 +14080,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "向く",
-    "reading": "むく",
-    "romaji": "muku",
-    "meaning": "sich wenden",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "こっちを向いてください。",
-        "romaji": "Kotchi o muite kudasai.",
-        "german": "Bitte drehen Sie sich hierher."
-      }
-    ]
-  },
-  {
-    "word": "私生活",
-    "reading": "しせいかつ",
-    "romaji": "shiseikatsu",
-    "meaning": "Privatleben",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "私生活のストレスが大きい。",
-        "romaji": "Shiseikatsu no sutoresu ga ookii.",
-        "german": "Der Stress aus meinem Privatleben ist gross."
-      }
-    ]
-  },
-  {
     "word": "私立",
     "reading": "しりつ",
     "romaji": "shiritsu",
@@ -16460,22 +14092,6 @@ window.VOCAB_N5 = [
         "japanese": "私立の大学に入りたいです。",
         "romaji": "Shiritsu no daigaku ni hairitaidesu.",
         "german": "Ich moechte an einer privaten Universitaet studieren."
-      }
-    ]
-  },
-  {
-    "word": "広がる",
-    "reading": "ひろがる",
-    "romaji": "hirogaru",
-    "meaning": "sich ausbreiten",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "両足、もっと広がる？",
-        "romaji": "Ryouashi, motto hirogaru?",
-        "german": "Kannst du beide Beine weiter spreizen?"
       }
     ]
   },
@@ -16528,22 +14144,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "車両",
-    "reading": "しゃりょう",
-    "romaji": "sharyou",
-    "meaning": "Fahrzeug",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Verkehr",
-    "examples": [
-      {
-        "japanese": "車両は大きいですね。",
-        "romaji": "Sharyou wa ookiidesu ne.",
-        "german": "Dieses Fahrzeug ist gross."
-      }
-    ]
-  },
-  {
     "word": "早く",
     "reading": "はやく",
     "romaji": "hayaku",
@@ -16592,22 +14192,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "国王",
-    "reading": "こくおう",
-    "romaji": "kokuou",
-    "meaning": "Koenig",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Politik",
-    "examples": [
-      {
-        "japanese": "今のイギリスの国王はチャールズ三世です。",
-        "romaji": "Ima no Igirisu no kokuou wa Chaaruzu sansei desu.",
-        "german": "Der aktuelle britische Koenig ist Charles III."
-      }
-    ]
-  },
-  {
     "word": "水星",
     "reading": "すいせい",
     "romaji": "suisei",
@@ -16640,22 +14224,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "生える",
-    "reading": "はえる",
-    "romaji": "haeru",
-    "meaning": "wachsen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Natur",
-    "examples": [
-      {
-        "japanese": "この木にはキノコが生える。",
-        "romaji": "Kono ki ni wa kinoko ga haeru.",
-        "german": "An diesem Baum wachsen Pilze."
-      }
-    ]
-  },
-  {
     "word": "土星",
     "reading": "どせい",
     "romaji": "dosei",
@@ -16672,22 +14240,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "活気",
-    "reading": "かっき",
-    "romaji": "kakki",
-    "meaning": "Lebhaftigkeit",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Zustand",
-    "examples": [
-      {
-        "japanese": "この町は、とても活気があります。",
-        "romaji": "Kono machi wa, totemo kakki ga arimasu.",
-        "german": "Diese Stadt ist sehr lebhaft."
-      }
-    ]
-  },
-  {
     "word": "地中",
     "reading": "ちちゅう",
     "romaji": "chichuu",
@@ -16700,22 +14252,6 @@ window.VOCAB_N5 = [
         "japanese": "地中には、たくさんの虫がいます。",
         "romaji": "Chichuu ni wa, takusan no mushi ga imasu.",
         "german": "Unter der Erde gibt es viele Insekten."
-      }
-    ]
-  },
-  {
-    "word": "出社",
-    "reading": "しゅっしゃ",
-    "romaji": "shussha",
-    "meaning": "zur Arbeit gehen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "今日は一人で出社ですか？",
-        "romaji": "Kyou wa ichinin de shussha desu ka?",
-        "german": "Gehen Sie heute allein ins Buero?"
       }
     ]
   },
@@ -16896,38 +14432,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "分ける",
-    "reading": "わける",
-    "romaji": "wakeru",
-    "meaning": "teilen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "パスタを二人で分ける。",
-        "romaji": "Pasuta o ninin de wakeru.",
-        "german": "Wir teilen die Pasta zu zweit."
-      }
-    ]
-  },
-  {
-    "word": "代わる",
-    "reading": "かわる",
-    "romaji": "kawaru",
-    "meaning": "ersetzen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "ジェニーとシフトを代わる。",
-        "romaji": "Jenii to shifuto o kawaru.",
-        "german": "Ich tausche die Schicht mit Jenny."
-      }
-    ]
-  },
-  {
     "word": "考え",
     "reading": "かんがえ",
     "romaji": "kangae",
@@ -16956,22 +14460,6 @@ window.VOCAB_N5 = [
         "japanese": "ビル・ゲイツ氏はシアトルの生まれです。",
         "romaji": "Biru ・ Geitsushi wa Shiatoru no umare desu.",
         "german": "Herr Bill Gates wurde in Seattle geboren."
-      }
-    ]
-  },
-  {
-    "word": "氏名",
-    "reading": "しめい",
-    "romaji": "shimei",
-    "meaning": "vollstaendiger Name",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Verwaltung",
-    "examples": [
-      {
-        "japanese": "氏名を入力して下さい。",
-        "romaji": "Shimei o nyuuryoku shite kudasai.",
-        "german": "Bitte geben Sie Ihren vollstaendigen Namen ein."
       }
     ]
   },
@@ -17052,70 +14540,6 @@ window.VOCAB_N5 = [
         "japanese": "一万円以上のホテルでもいいですよ。",
         "romaji": "Ichi man'en ijou no hoteru demo iidesu yo.",
         "german": "Ein Hotel ab zehntausend Yen ist auch in Ordnung."
-      }
-    ]
-  },
-  {
-    "word": "失う",
-    "reading": "うしなう",
-    "romaji": "ushinau",
-    "meaning": "verlieren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "そんなにジャンプすると体力を失うよ。",
-        "romaji": "Sonnani janpu suru to tairyoku o ushinau yo.",
-        "german": "Wenn du so viel springst, verlierst du deine Koerperkraft."
-      }
-    ]
-  },
-  {
-    "word": "失礼",
-    "reading": "しつれい",
-    "romaji": "shitsurei",
-    "meaning": "unhöflich",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "なんて失礼な男だ。",
-        "romaji": "Nante shitsurei na otoko da.",
-        "german": "Was fuer ein unhoeflicher Mann."
-      }
-    ]
-  },
-  {
-    "word": "必死",
-    "reading": "ひっし",
-    "romaji": "hisshi",
-    "meaning": "verzweifelt",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Emotion",
-    "examples": [
-      {
-        "japanese": "お母さんは、ダイエットに必死だ。",
-        "romaji": "Okaasan wa, daietto ni hisshi da.",
-        "german": "Mama ist verzweifelt beim Abnehmen."
-      }
-    ]
-  },
-  {
-    "word": "未来",
-    "reading": "みらい",
-    "romaji": "mirai",
-    "meaning": "Zukunft",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Zeit",
-    "examples": [
-      {
-        "japanese": "未来のことは分かりません。",
-        "romaji": "Mirai no koto wa wakarimasen.",
-        "german": "Ich kenne die Zukunft nicht."
       }
     ]
   },
@@ -17212,54 +14636,6 @@ window.VOCAB_N5 = [
         "japanese": "今、もう二時半ですよ。",
         "romaji": "Ima, mou nijihan desu yo.",
         "german": "Es ist jetzt schon halb drei."
-      }
-    ]
-  },
-  {
-    "word": "同時",
-    "reading": "どうじ",
-    "romaji": "douji",
-    "meaning": "gleichzeitig",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Zeit",
-    "examples": [
-      {
-        "japanese": "二つのライトが同時に明るくなった。",
-        "romaji": "Futatsu no raito ga doujini akaruku natta.",
-        "german": "Die beiden Lichter wurden gleichzeitig hell."
-      }
-    ]
-  },
-  {
-    "word": "強力",
-    "reading": "きょうりょく",
-    "romaji": "kyouryoku",
-    "meaning": "stark",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "このヘアドライヤーは、かなり強力だ。",
-        "romaji": "Kono hea doraiyaa wa, kanari kyouryoku da.",
-        "german": "Dieser Haartrockner ist ziemlich stark."
-      }
-    ]
-  },
-  {
-    "word": "地理",
-    "reading": "ちり",
-    "romaji": "chiri",
-    "meaning": "Geographie",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Bildung",
-    "examples": [
-      {
-        "japanese": "地理を学ぶために大学へ行きました。",
-        "romaji": "Chiri o manabu tame ni daigaku e ikimashita.",
-        "german": "Ich bin an die Universitaet gegangen, um Geographie zu lernen."
       }
     ]
   },
@@ -17392,22 +14768,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "人形",
-    "reading": "にんぎょう",
-    "romaji": "ningyou",
-    "meaning": "Puppe",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "これは私の妹の人形です。",
-        "romaji": "Kore wa watashi no imouto no ningyou desu.",
-        "german": "Das ist die Puppe meiner kleinen Schwester."
-      }
-    ]
-  },
-  {
     "word": "手作り",
     "reading": "てづくり",
     "romaji": "tezukuri",
@@ -17468,38 +14828,6 @@ window.VOCAB_N5 = [
         "japanese": "先生が「すみません」の言い方を正してくれました。",
         "romaji": "Sensei ga 「 sumimasen 」 no iikata o tadashite kuremashita.",
         "german": "Der Lehrer hat meine Art, 'Entschuldigung' zu sagen, korrigiert."
-      }
-    ]
-  },
-  {
-    "word": "先回り",
-    "reading": "さきまわり",
-    "romaji": "sakimawari",
-    "meaning": "Vorauseilen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "パトカーは先回りして白い車に向かった。",
-        "romaji": "Patokaa wa sakimawari shite shiroi kuruma ni mukatta.",
-        "german": "Der Streifenwagen fuhr voraus und steuerte auf das weisse Auto zu."
-      }
-    ]
-  },
-  {
-    "word": "近々",
-    "reading": "ちかぢか",
-    "romaji": "chikajika",
-    "meaning": "bald",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Zeit",
-    "examples": [
-      {
-        "japanese": "近々、会いましょう。",
-        "romaji": "Chikajika, aimashou.",
-        "german": "Lass uns bald treffen."
       }
     ]
   },
@@ -17664,22 +14992,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "船体",
-    "reading": "せんたい",
-    "romaji": "sentai",
-    "meaning": "Schiffsrumpf",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Verkehr",
-    "examples": [
-      {
-        "japanese": "船体は大きかった。",
-        "romaji": "Sentai wa ookikatta.",
-        "german": "Der Schiffsrumpf war gross."
-      }
-    ]
-  },
-  {
     "word": "〜号室",
     "reading": "ごうしつ",
     "romaji": "goushitsu",
@@ -17712,22 +15024,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "見当たる",
-    "reading": "みあたる",
-    "romaji": "miataru",
-    "meaning": "gefunden werden",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "雨の日はクラスを休む人が見当たる。",
-        "romaji": "Ame no hi wa kurasu o yasumu hito ga miataru.",
-        "german": "An Regentagen sieht man Leute, die nicht zum Unterricht kommen."
-      }
-    ]
-  },
-  {
     "word": "三角形",
     "reading": "さんかくけい",
     "romaji": "sankakukei",
@@ -17740,38 +15036,6 @@ window.VOCAB_N5 = [
         "japanese": "これが、三角形のおにぎりの作り方です。",
         "romaji": "Kore ga, sankakkei no onigiri no tsukurikata desu.",
         "german": "So macht man ein dreieckiges Reisbaellchen."
-      }
-    ]
-  },
-  {
-    "word": "活用形",
-    "reading": "かつようけい",
-    "romaji": "katsuyoukei",
-    "meaning": "Konjugationsform",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Sprache",
-    "examples": [
-      {
-        "japanese": "「立つ」の活用形が分かりません。",
-        "romaji": "「 tatsu 」 no katsuyougata ga wakarimasen.",
-        "german": "Ich kenne die Konjugationsformen von 'tatsu' nicht."
-      }
-    ]
-  },
-  {
-    "word": "一体",
-    "reading": "いったい",
-    "romaji": "ittai",
-    "meaning": "zum Teufel",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Sprache",
-    "examples": [
-      {
-        "japanese": "一体どうなっているんだ。",
-        "romaji": "Ittai dou natte iru n da.",
-        "german": "Was zum Teufel ist hier los?"
       }
     ]
   },
@@ -18128,22 +15392,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "見分ける",
-    "reading": "みわける",
-    "romaji": "miwakeru",
-    "meaning": "unterscheiden",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "兄弟を目の色で見分ける。",
-        "romaji": "Kyoudai o me no iro de miwakeru.",
-        "german": "Ich unterscheide die Brueder an ihrer Augenfarbe."
-      }
-    ]
-  },
-  {
     "word": "次回",
     "reading": "じかい",
     "romaji": "jikai",
@@ -18192,38 +15440,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "通る",
-    "reading": "とおる",
-    "romaji": "tooru",
-    "meaning": "passieren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "たくさんの車が通る。",
-        "romaji": "Takusan no kuruma ga tooru.",
-        "german": "Viele Autos fahren vorbei."
-      }
-    ]
-  },
-  {
-    "word": "馬力",
-    "reading": "ばりき",
-    "romaji": "bariki",
-    "meaning": "Pferdestaerke",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Technik",
-    "examples": [
-      {
-        "japanese": "スポーツカーは、高い馬力を持っています。",
-        "romaji": "Supoutsukaa wa, takai bariki o motte imasu.",
-        "german": "Sportwagen haben eine hohe Pferdestaerke."
-      }
-    ]
-  },
-  {
     "word": "住人",
     "reading": "じゅうにん",
     "romaji": "juunin",
@@ -18256,38 +15472,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "医学",
-    "reading": "いがく",
-    "romaji": "igaku",
-    "meaning": "Medizin",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Wissenschaft",
-    "examples": [
-      {
-        "japanese": "大学では医学を学びます。",
-        "romaji": "Daigaku de wa igaku o manabimasu.",
-        "german": "An der Universitaet studiere ich Medizin."
-      }
-    ]
-  },
-  {
-    "word": "君主国",
-    "reading": "くんしゅこく",
-    "romaji": "kunshukoku",
-    "meaning": "Monarchie",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Politik",
-    "examples": [
-      {
-        "japanese": "この町はかつて君主国だったそうです。",
-        "romaji": "Kono machi wa katsute kunshukoku datta sou desu.",
-        "german": "Diese Stadt war einst eine Monarchie."
-      }
-    ]
-  },
-  {
     "word": "〜君",
     "reading": "くん",
     "romaji": "kun",
@@ -18304,38 +15488,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "対する",
-    "reading": "たいする",
-    "romaji": "taisuru",
-    "meaning": "gegenueberstehen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "ドルに対する円のレートは、今いくらですか？",
-        "romaji": "Doru nitaisuru en no reeto wa, kon ikura desu ka?",
-        "german": "Wie hoch ist der Wechselkurs des Yen gegenueber dem Dollar?"
-      }
-    ]
-  },
-  {
-    "word": "支局",
-    "reading": "しきょく",
-    "romaji": "shikyoku",
-    "meaning": "Zweigstelle",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "東京支局からポートランドの本社にもどって下さい。",
-        "romaji": "Toukyou shikyoku kara poutorando no honsha ni modotte kudasai.",
-        "german": "Bitte kehren Sie von der Zweigstelle in Tokio zur Zentrale in Portland zurueck."
-      }
-    ]
-  },
-  {
     "word": "役人",
     "reading": "やくにん",
     "romaji": "yakunin",
@@ -18348,70 +15500,6 @@ window.VOCAB_N5 = [
         "japanese": "今日、役人が来ましたよ。",
         "romaji": "Kyou, yakunin ga kimashita yo.",
         "german": "Heute kam ein Beamter."
-      }
-    ]
-  },
-  {
-    "word": "大役",
-    "reading": "たいやく",
-    "romaji": "taiyaku",
-    "meaning": "wichtige Aufgabe",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "この学校の先生になることは、大役ですよ。",
-        "romaji": "Kono gakkou no sensei ni naru koto wa, taiyaku desu yo.",
-        "german": "Lehrer an dieser Schule zu sein, ist eine grosse Aufgabe."
-      }
-    ]
-  },
-  {
-    "word": "心身",
-    "reading": "しんしん",
-    "romaji": "shinshin",
-    "meaning": "Koerper und Geist",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Gesundheit",
-    "examples": [
-      {
-        "japanese": "心身のために毎日ヨガをしましょう。",
-        "romaji": "Shinshin no tame ni mainichi yoga o shimashou.",
-        "german": "Lass uns jeden Tag Yoga fuer Koerper und Geist machen."
-      }
-    ]
-  },
-  {
-    "word": "全身",
-    "reading": "ぜんしん",
-    "romaji": "zenshin",
-    "meaning": "ganzer Koerper",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Koerper",
-    "examples": [
-      {
-        "japanese": "一日に一回、全身にスプレーして下さい。",
-        "romaji": "Ichinichi ni ichikai, zenshin ni supuree shite kudasai.",
-        "german": "Bitte besprühen Sie einmal taeglich den ganzen Koerper."
-      }
-    ]
-  },
-  {
-    "word": "両者",
-    "reading": "りょうしゃ",
-    "romaji": "ryousha",
-    "meaning": "beide Seiten",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Menschen",
-    "examples": [
-      {
-        "japanese": "両者の考えが同じじゃない。",
-        "romaji": "Ryousha no kangae ga onaji ja nai.",
-        "german": "Die Ansichten beider Seiten sind nicht gleich."
       }
     ]
   },
@@ -18476,22 +15564,6 @@ window.VOCAB_N5 = [
         "japanese": "土の中から死体が見えたのが、この場所です。",
         "romaji": "Do no naka kara shitai ga mieta no ga, kono basho desu.",
         "german": "Hier ist die Stelle, wo die Leiche aus der Erde sichtbar war."
-      }
-    ]
-  },
-  {
-    "word": "入場",
-    "reading": "にゅうじょう",
-    "romaji": "nyuujou",
-    "meaning": "Eintritt",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "入場する前にチケットを買って下さい。",
-        "romaji": "Nyuujou suru mae ni chiketto o katte kudasai.",
-        "german": "Bitte kaufen Sie eine Eintrittskarte, bevor Sie eintreten."
       }
     ]
   },
@@ -18592,70 +15664,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "人間",
-    "reading": "にんげん",
-    "romaji": "ningen",
-    "meaning": "Mensch",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Menschen",
-    "examples": [
-      {
-        "japanese": "人間は主に水で出来ています。",
-        "romaji": "Ningen wa omo ni mizu de dekite imasu.",
-        "german": "Menschen bestehen hauptsaechlich aus Wasser."
-      }
-    ]
-  },
-  {
-    "word": "空間",
-    "reading": "くうかん",
-    "romaji": "kuukan",
-    "meaning": "Raum",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Abstrakt",
-    "examples": [
-      {
-        "japanese": "自分の家は安心できる空間の一つです。",
-        "romaji": "Jibun no ie wa anshin dekiru kuukan no hitotsu desu.",
-        "german": "Das eigene Zuhause ist ein Ort, an dem man sich sicher fuehlen kann."
-      }
-    ]
-  },
-  {
-    "word": "数字",
-    "reading": "すうじ",
-    "romaji": "suuji",
-    "meaning": "Zahl",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Abstrakt",
-    "examples": [
-      {
-        "japanese": "数字を入力するのが下手です。",
-        "romaji": "Suuji o nyuuryoku suru no ga heta desu.",
-        "german": "Ich bin nicht gut im Eingeben von Zahlen."
-      }
-    ]
-  },
-  {
-    "word": "人数",
-    "reading": "にんずう",
-    "romaji": "ninzuu",
-    "meaning": "Personenanzahl",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Menschen",
-    "examples": [
-      {
-        "japanese": "この会社のスタッフの人数は二十人です。",
-        "romaji": "Kono kaisha no sutaffu no ninzuu wa ni juunin desu.",
-        "german": "Die Mitarbeiterzahl dieser Firma betraegt zwanzig Personen."
-      }
-    ]
-  },
-  {
     "word": "点数",
     "reading": "てんすう",
     "romaji": "tensuu",
@@ -18720,22 +15728,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "近づく",
-    "reading": "ちかづく",
-    "romaji": "chikazuku",
-    "meaning": "sich naehern",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "それ以上、川に近づくな！",
-        "romaji": "Sore ijou, kawa ni chikazuku na!",
-        "german": "Komm dem Fluss nicht naeher!"
-      }
-    ]
-  },
-  {
     "word": "代わり",
     "reading": "かわり",
     "romaji": "kawari",
@@ -18748,22 +15740,6 @@ window.VOCAB_N5 = [
         "japanese": "田中先生はお休みなので、代わりの先生が来ます。",
         "romaji": "Tanaka sensei wa o yasumi na node, kawari no sensei ga kimasu.",
         "german": "Herr Tanaka hat frei, also kommt ein Vertretungslehrer."
-      }
-    ]
-  },
-  {
-    "word": "全く",
-    "reading": "まったく",
-    "romaji": "mattaku",
-    "meaning": "voellig",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Art und Weise",
-    "examples": [
-      {
-        "japanese": "あなたと全く同じ考えです。",
-        "romaji": "Anata to mattaku onaji kangae desu.",
-        "german": "Ich habe genau die gleiche Idee wie du."
       }
     ]
   },
@@ -18800,22 +15776,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "出来上がる",
-    "reading": "できあがる",
-    "romaji": "dekiagaru",
-    "meaning": "fertig werden",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "工作が出来上がるのに、三日かかりました。",
-        "romaji": "Kousaku ga dekiagaru noni, sannichi kakarimashita.",
-        "german": "Es dauerte drei Tage, bis das Bastelprojekt fertig war."
-      }
-    ]
-  },
-  {
     "word": "交じる",
     "reading": "まじる",
     "romaji": "majiru",
@@ -18832,22 +15792,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "走り回る",
-    "reading": "はしりまわる",
-    "romaji": "hashirimawaru",
-    "meaning": "herumrennen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "うちの犬は、雪を見ると走り回る。",
-        "romaji": "Uchi no inu wa, yuki o miru to hashirimawaru.",
-        "german": "Mein Hund rennt herum, wenn er Schnee sieht."
-      }
-    ]
-  },
-  {
     "word": "当てる",
     "reading": "あてる",
     "romaji": "ateru",
@@ -18860,38 +15804,6 @@ window.VOCAB_N5 = [
         "japanese": "父は安いお茶と高いお茶を当てるのが上手です。",
         "romaji": "Chichi wa yasui ocha to takai ocha o ateru no ga jouzu desu.",
         "german": "Mein Vater ist gut darin zu erraten, ob Tee billig oder teuer ist."
-      }
-    ]
-  },
-  {
-    "word": "化ける",
-    "reading": "ばける",
-    "romaji": "bakeru",
-    "meaning": "sich verwandeln",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "女も男もメイクで化けることが出来る。",
-        "romaji": "Onna mo otoko mo meiku de bakeru koto ga dekiru.",
-        "german": "Sowohl Frauen als auch Maenner koennen sich mit Make-up verwandeln."
-      }
-    ]
-  },
-  {
-    "word": "回す",
-    "reading": "まわす",
-    "romaji": "mawasu",
-    "meaning": "drehen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "ノックの音の後、ドアノブを回す音がした。",
-        "romaji": "Nokku no oto no nochi, doa nobu o mawasu oto ga shita.",
-        "german": "Nach dem Klopfen hoerte man das Geraeusch der Tuerklinke."
       }
     ]
   },
@@ -18940,38 +15852,6 @@ window.VOCAB_N5 = [
         "japanese": "その活用形は、前回のクラスで学びました。",
         "romaji": "Sono katsuyougata wa, zenkai no kurasu de manabimashita.",
         "german": "Die Konjugationsform habe ich im letzten Unterricht gelernt."
-      }
-    ]
-  },
-  {
-    "word": "地上",
-    "reading": "ちじょう",
-    "romaji": "chijou",
-    "meaning": "oberirdisch",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Ort",
-    "examples": [
-      {
-        "japanese": "ここは、地上のフロアです。",
-        "romaji": "Koko wa, chijou no furoa desu.",
-        "german": "Dies ist ein oberirdisches Stockwerk."
-      }
-    ]
-  },
-  {
-    "word": "向ける",
-    "reading": "むける",
-    "romaji": "mukeru",
-    "meaning": "richten",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "もう少し後ろに向けることは出来ますか？",
-        "romaji": "Mousukoshi ushiro ni mukeru koto wa dekimasu ka?",
-        "german": "Koennen Sie es noch etwas weiter nach hinten richten?"
       }
     ]
   },
@@ -19068,22 +15948,6 @@ window.VOCAB_N5 = [
         "japanese": "このシャツはコットン生地で出来ています。",
         "romaji": "Kono shatsu wa kotton kiji de dekite imasu.",
         "german": "Dieses Hemd ist aus Baumwollstoff."
-      }
-    ]
-  },
-  {
-    "word": "科目",
-    "reading": "かもく",
-    "romaji": "kamoku",
-    "meaning": "Schulfach",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Bildung",
-    "examples": [
-      {
-        "japanese": "中学では九科目学びます。",
-        "romaji": "Chuugaku de wa kyuu kamoku manabimasu.",
-        "german": "In der Mittelschule lernt man neun Faecher."
       }
     ]
   },
@@ -19196,22 +16060,6 @@ window.VOCAB_N5 = [
         "japanese": "もしもし、山川です。",
         "romaji": "Moshimoshi, yamakawa desu.",
         "german": "Hallo, hier ist Yamakawa."
-      }
-    ]
-  },
-  {
-    "word": "対決",
-    "reading": "たいけつ",
-    "romaji": "taiketsu",
-    "meaning": "Konfrontation",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "二人のライバルがついに対決することになった。",
-        "romaji": "Ninin no raibaru ga tsuini taiketsu suru koto ni natta.",
-        "german": "Die beiden Rivalen werden sich endlich gegenueberstehen."
       }
     ]
   },
@@ -19376,22 +16224,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "苦しい",
-    "reading": "くるしい",
-    "romaji": "kurushii",
-    "meaning": "schmerzhaft",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Zustand",
-    "examples": [
-      {
-        "japanese": "食べすぎて苦しい。",
-        "romaji": "Tabe sugite kurushii.",
-        "german": "Ich habe so viel gegessen, dass mir schlecht ist."
-      }
-    ]
-  },
-  {
     "word": "客室",
     "reading": "きゃくしつ",
     "romaji": "kyakushitsu",
@@ -19504,22 +16336,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "角度",
-    "reading": "かくど",
-    "romaji": "kakudo",
-    "meaning": "Winkel",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Wissenschaft",
-    "examples": [
-      {
-        "japanese": "正しい角度にするのに時間がかかりました。",
-        "romaji": "Tadashii kakudo ni suru no ni jikan ga kakarimashita.",
-        "german": "Es hat eine Weile gedauert, den richtigen Winkel einzustellen."
-      }
-    ]
-  },
-  {
     "word": "〜度",
     "reading": "ど",
     "romaji": "do",
@@ -19532,22 +16348,6 @@ window.VOCAB_N5 = [
         "japanese": "東京の夏は、三十度以上になる日が多いです。",
         "romaji": "Toukyou no natsu wa, san juudo ijou ni naru hi ga ooidesu.",
         "german": "Im Sommer gibt es in Tokio viele Tage, an denen es über dreißig Grad wird."
-      }
-    ]
-  },
-  {
-    "word": "発売",
-    "reading": "はつばい",
-    "romaji": "hatsubai",
-    "meaning": "Verkauf",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handel",
-    "examples": [
-      {
-        "japanese": "今日から「手作りチーズケーキ」の発売です！",
-        "romaji": "Kyou kara 「 tezukuri chiizu keeki 」 no hatsubai desu!",
-        "german": "Ab heute ist der Hausgemachte Käsekuchen im Verkauf!"
       }
     ]
   },
@@ -19584,22 +16384,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "勝負",
-    "reading": "しょうぶ",
-    "romaji": "shoubu",
-    "meaning": "Wettkampf",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Sport",
-    "examples": [
-      {
-        "japanese": "勝負は引き分けだった。",
-        "romaji": "Shoubu wa hikiwake datta.",
-        "german": "Der Wettkampf endete unentschieden."
-      }
-    ]
-  },
-  {
     "word": "勝者",
     "reading": "しょうしゃ",
     "romaji": "shousha",
@@ -19628,38 +16412,6 @@ window.VOCAB_N5 = [
         "japanese": "プロポーズ必勝の本が今年のベストセラーになりそうです。",
         "romaji": "Puropouzu hisshou no hon ga kotoshi no besutoseraa ni narisoudesu.",
         "german": "Das Buch über erfolgreiche Heiratsanträge wird wohl dieses Jahr ein Bestseller."
-      }
-    ]
-  },
-  {
-    "word": "楽勝",
-    "reading": "らくしょう",
-    "romaji": "rakushou",
-    "meaning": "leichter Sieg",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "今回のテストは、楽勝だったね。",
-        "romaji": "Konkai no tesuto wa, rakushou datta ne.",
-        "german": "Dieser Test war ein Kinderspiel."
-      }
-    ]
-  },
-  {
-    "word": "体重",
-    "reading": "たいじゅう",
-    "romaji": "taijuu",
-    "meaning": "Körpergewicht",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Körper",
-    "examples": [
-      {
-        "japanese": "アンナさんの体重は、何キロですか？",
-        "romaji": "Annasan no taijuu wa, nankiro desu ka?",
-        "german": "Wie viel Kilogramm wiegt Anna?"
       }
     ]
   },
@@ -19708,22 +16460,6 @@ window.VOCAB_N5 = [
         "japanese": "ペルーは南米の国の一つです。",
         "romaji": "Peruu wa Nanbei no kuni no hitotsu desu.",
         "german": "Peru ist eines der Länder in Südamerika."
-      }
-    ]
-  },
-  {
-    "word": "交わる",
-    "reading": "まじわる",
-    "romaji": "majiwaru",
-    "meaning": "sich kreuzen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "パーティで色々な人と交わるのが下手なんです。",
-        "romaji": "Paatei de iroiro na hito to majiwaru no ga heta na n desu.",
-        "german": "Ich bin nicht gut darin, mich auf Partys unter verschiedene Leute zu mischen."
       }
     ]
   },
@@ -19840,38 +16576,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "弱々しい",
-    "reading": "よわよわしい",
-    "romaji": "yowayowashii",
-    "meaning": "schwächlich",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "主人は弱々しい体ながら全力で走った。",
-        "romaji": "Shujin wa yowayowashii karada nagara zenryoku de hashitta.",
-        "german": "Mein Mann rannte mit voller Kraft, trotz seines schwächlichen Körpers."
-      }
-    ]
-  },
-  {
-    "word": "欠ける",
-    "reading": "かける",
-    "romaji": "kakeru",
-    "meaning": "abbrechen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Zustand",
-    "examples": [
-      {
-        "japanese": "マグカップの口の所が欠けてしまった。",
-        "romaji": "Magukappu no kuchi no tokoro ga kakete shimatta.",
-        "german": "Der Rand der Tasse ist abgebrochen."
-      }
-    ]
-  },
-  {
     "word": "白黒",
     "reading": "しろくろ",
     "romaji": "shirokuro",
@@ -19884,182 +16588,6 @@ window.VOCAB_N5 = [
         "japanese": "七十年前、テレビは白黒でした。",
         "romaji": "Nana juunen mae, terebi wa shirokuro deshita.",
         "german": "Vor siebzig Jahren war das Fernsehen schwarzweiß."
-      }
-    ]
-  },
-  {
-    "word": "映像",
-    "reading": "えいぞう",
-    "romaji": "eizou",
-    "meaning": "Filmmaterial",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Medien",
-    "examples": [
-      {
-        "japanese": "すごくいい映像ですね。",
-        "romaji": "Sugoku ii eizou desu ne.",
-        "german": "Das ist sehr schönes Filmmaterial."
-      }
-    ]
-  },
-  {
-    "word": "画像",
-    "reading": "がぞう",
-    "romaji": "gazou",
-    "meaning": "Bild",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Medien",
-    "examples": [
-      {
-        "japanese": "おもしろい画像ですね。",
-        "romaji": "Omoshiroi gazou desu ne.",
-        "german": "Das ist ein interessantes Bild."
-      }
-    ]
-  },
-  {
-    "word": "保持",
-    "reading": "ほじ",
-    "romaji": "hoji",
-    "meaning": "aufrechterhalten",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "高いクオリティを保持するのは工場にとって大切なことです。",
-        "romaji": "Takai kuoritei o hoji suru no wa koujou nitotte taisetsu na koto desu.",
-        "german": "Es ist wichtig für die Fabrik, hohe Qualität aufrechtzuerhalten."
-      }
-    ]
-  },
-  {
-    "word": "生保",
-    "reading": "せいほ",
-    "romaji": "seiho",
-    "meaning": "Lebensversicherung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Finanzen",
-    "examples": [
-      {
-        "japanese": "さっき生保のセールスマネジャーが家に来ましたよ。",
-        "romaji": "Sakki seiho no seerusu manejaa ga ie ni kimashita yo.",
-        "german": "Vorhin kam ein Vertriebsleiter für Lebensversicherungen nach Hause."
-      }
-    ]
-  },
-  {
-    "word": "保つ",
-    "reading": "たもつ",
-    "romaji": "tamotsu",
-    "meaning": "bewahren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "体力を保つには毎日トレーニングしなくてはいけません。",
-        "romaji": "Tairyoku o tamotsu ni wa mainichi toreeningu shinakute wa ikemasen.",
-        "german": "Um die körperliche Kraft zu bewahren, muss man jeden Tag trainieren."
-      }
-    ]
-  },
-  {
-    "word": "試みる",
-    "reading": "こころみる",
-    "romaji": "kokoromiru",
-    "meaning": "versuchen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "今日は、やり方を試みる。",
-        "romaji": "Kyou wa, yarikata o kokoromiru.",
-        "german": "Heute werde ich diese Methode ausprobieren."
-      }
-    ]
-  },
-  {
-    "word": "試食",
-    "reading": "ししょく",
-    "romaji": "shishoku",
-    "meaning": "Kostprobe",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Essen",
-    "examples": [
-      {
-        "japanese": "先ずは何も言わないで試食してみて。",
-        "romaji": "Mazu wa nani mo iwanaide shishoku shite mite.",
-        "german": "Probiere es erst mal, ohne etwas zu sagen."
-      }
-    ]
-  },
-  {
-    "word": "対比",
-    "reading": "たいひ",
-    "romaji": "taihi",
-    "meaning": "Vergleich",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Abstrakt",
-    "examples": [
-      {
-        "japanese": "日本の生活とアメリカの生活じゃ、いい対比にならないよ。",
-        "romaji": "Nippon no seikatsu to Amerika no seikatsu ja, ii taihi ni naranai yo.",
-        "german": "Das japanische und das amerikanische Leben lassen sich nicht gut vergleichen."
-      }
-    ]
-  },
-  {
-    "word": "発表",
-    "reading": "はっぴょう",
-    "romaji": "happyou",
-    "meaning": "Bekanntgabe",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "それでは、発表します。スピーチコンテストの勝者は田中さんです！",
-        "romaji": "Soredeha, happyou shimasu. supiichi kontesuto no shousha wa Tanakasan desu!",
-        "german": "Nun zur Bekanntgabe: Der Gewinner des Redewettbewerbs ist Herr Tanaka!"
-      }
-    ]
-  },
-  {
-    "word": "表す",
-    "reading": "あらわす",
-    "romaji": "arawasu",
-    "meaning": "ausdrücken",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "データは全てを表す。",
-        "romaji": "Deeta wa subete o arawasu.",
-        "german": "Die Daten zeigen alles."
-      }
-    ]
-  },
-  {
-    "word": "出発",
-    "reading": "しゅっぱつ",
-    "romaji": "shuppatsu",
-    "meaning": "Abfahrt",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Reisen",
-    "examples": [
-      {
-        "japanese": "出発まで五分です。",
-        "romaji": "Shuppatsu made gofun desu.",
-        "german": "Es sind noch fünf Minuten bis zur Abfahrt."
       }
     ]
   },
@@ -20128,38 +16656,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "対談",
-    "reading": "たいだん",
-    "romaji": "taidan",
-    "meaning": "Gespräch",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "工学と心理学の学者の対談のイベントに行きました。",
-        "romaji": "Kougaku to shinrigaku no gakusha no taidan no ibento ni ikimashita.",
-        "german": "Ich war bei einer Veranstaltung mit Gesprächen zwischen Ingenieurs- und Psychologiewissenschaftlern."
-      }
-    ]
-  },
-  {
-    "word": "不自由",
-    "reading": "ふじゆう",
-    "romaji": "fujiyuu",
-    "meaning": "Beeinträchtigung",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Gesundheit",
-    "examples": [
-      {
-        "japanese": "母は足が不自由なので、車を使うことが多いです。",
-        "romaji": "Haha wa ashi ga fujiyuu na node, kuruma o tsukau koto ga ooidesu.",
-        "german": "Meine Mutter hat eine Gehbehinderung, deshalb benutzt sie oft das Auto."
-      }
-    ]
-  },
-  {
     "word": "教え",
     "reading": "おしえ",
     "romaji": "oshie",
@@ -20172,22 +16668,6 @@ window.VOCAB_N5 = [
         "japanese": "「毎日全力で生きる」というのは、父からの教えです。",
         "romaji": "「 mainichi zenryoku de ikiru 」 toiu no wa, chichi kara no oshie desu.",
         "german": "Jeden Tag mit voller Kraft leben ist eine Lehre meines Vaters."
-      }
-    ]
-  },
-  {
-    "word": "付近",
-    "reading": "ふきん",
-    "romaji": "fukin",
-    "meaning": "Umgebung",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Ort",
-    "examples": [
-      {
-        "japanese": "この付近に、コンビニはありますか？",
-        "romaji": "Kono fukin ni, konbini wa arimasu ka?",
-        "german": "Gibt es in dieser Umgebung einen Konbini?"
       }
     ]
   },
@@ -20208,38 +16688,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "通す",
-    "reading": "とおす",
-    "romaji": "toosu",
-    "meaning": "durchlassen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "ガラスは光を通します。",
-        "romaji": "Garasu wa hikari o tooshimasu.",
-        "german": "Glas lässt Licht hindurch."
-      }
-    ]
-  },
-  {
-    "word": "使用",
-    "reading": "しよう",
-    "romaji": "shiyou",
-    "meaning": "Verwendung",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "すみません。このクーポンの使用の仕方が分からないんです。",
-        "romaji": "Sumimasen. kono kuupon no shiyou no shikata ga wakaranai n desu.",
-        "german": "Entschuldigung, ich weiß nicht, wie man diesen Coupon verwendet."
-      }
-    ]
-  },
-  {
     "word": "辛口",
     "reading": "からくち",
     "romaji": "karakuchi",
@@ -20252,38 +16700,6 @@ window.VOCAB_N5 = [
         "japanese": "カレーはいつも辛口を買います。",
         "romaji": "Karee wa itsumo karakuchi o kaimasu.",
         "german": "Beim Curry kaufe ich immer die scharfe Variante."
-      }
-    ]
-  },
-  {
-    "word": "出身",
-    "reading": "しゅっしん",
-    "romaji": "shusshin",
-    "meaning": "Herkunft",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Menschen",
-    "examples": [
-      {
-        "japanese": "私はマレーシア出身です。",
-        "romaji": "Watashi wa Mareeshia shusshin desu.",
-        "german": "Ich komme aus Malaysia."
-      }
-    ]
-  },
-  {
-    "word": "交代",
-    "reading": "こうたい",
-    "romaji": "koutai",
-    "meaning": "Wechsel",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Sport",
-    "examples": [
-      {
-        "japanese": "ラグビーなど、多くのスポーツで交代のルールがあります。",
-        "romaji": "Ragubii nado, ooku no supoutsu de koutai no ruuru ga arimasu.",
-        "german": "In vielen Sportarten wie Rugby gibt es Regeln für Auswechslungen."
       }
     ]
   },
@@ -20352,22 +16768,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "受け取る",
-    "reading": "うけとる",
-    "romaji": "uketoru",
-    "meaning": "empfangen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "海外から年金を受け取る方法ってありますか？",
-        "romaji": "Kaigai kara nenkin o uketoru houhou tte arimasu ka?",
-        "german": "Gibt es eine Möglichkeit, eine Rente aus dem Ausland zu empfangen?"
-      }
-    ]
-  },
-  {
     "word": "十分間",
     "reading": "じゅっぷんかん",
     "romaji": "juppunkan",
@@ -20432,38 +16832,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "乗せる",
-    "reading": "のせる",
-    "romaji": "noseru",
-    "meaning": "mitnehmen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Verkehr",
-    "examples": [
-      {
-        "japanese": "日本では、犬をタクシーに乗せることは出来ますか？",
-        "romaji": "Nippon de wa, inu o takushii ni noseru koto wa dekimasu ka?",
-        "german": "Kann man in Japan einen Hund im Taxi mitnehmen?"
-      }
-    ]
-  },
-  {
-    "word": "速度",
-    "reading": "そくど",
-    "romaji": "sokudo",
-    "meaning": "Geschwindigkeit",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Technik",
-    "examples": [
-      {
-        "japanese": "インターネットの速度がおそすぎてイライラしています。",
-        "romaji": "Intaanetto no sokudo ga oso sugite iraira shite imasu.",
-        "german": "Die Internetgeschwindigkeit ist so langsam, dass es mich wahnsinnig macht."
-      }
-    ]
-  },
-  {
     "word": "学院",
     "reading": "がくいん",
     "romaji": "gakuin",
@@ -20496,22 +16864,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "終了",
-    "reading": "しゅうりょう",
-    "romaji": "shuuryou",
-    "meaning": "Ende",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Zeit",
-    "examples": [
-      {
-        "japanese": "ミーティングは終了しました。",
-        "romaji": "Miiteingu wa shuuryou shimashita.",
-        "german": "Die Besprechung ist beendet."
-      }
-    ]
-  },
-  {
     "word": "最終",
     "reading": "さいしゅう",
     "romaji": "saishuu",
@@ -20524,86 +16876,6 @@ window.VOCAB_N5 = [
         "japanese": "最終のバスはいつ出発ですか？",
         "romaji": "Saishuu no basu wa itsu shuppatsu desu ka?",
         "german": "Wann fährt der letzte Bus ab?"
-      }
-    ]
-  },
-  {
-    "word": "転がる",
-    "reading": "ころがる",
-    "romaji": "korogaru",
-    "meaning": "rollen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "ボールが転がる音がした。",
-        "romaji": "Bouru ga korogaru oto ga shita.",
-        "german": "Man hörte das Geräusch eines rollenden Balls."
-      }
-    ]
-  },
-  {
-    "word": "運転する",
-    "reading": "うんてんする",
-    "romaji": "untensuru",
-    "meaning": "fahren",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Verkehr",
-    "examples": [
-      {
-        "japanese": "父は毎日、会社と家の間を車かバイクで運転する。",
-        "romaji": "Chichi wa mainichi, kaisha to ie no ma o kuruma ka baiku de unten suru.",
-        "german": "Mein Vater fährt jeden Tag mit dem Auto oder Motorrad zwischen Firma und Zuhause."
-      }
-    ]
-  },
-  {
-    "word": "回転",
-    "reading": "かいてん",
-    "romaji": "kaiten",
-    "meaning": "Drehung",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "車は、走る時にタイヤが回転します。",
-        "romaji": "Kuruma wa, hashiru toki ni taiya ga kaiten shimasu.",
-        "german": "Wenn das Auto fährt, drehen sich die Reifen."
-      }
-    ]
-  },
-  {
-    "word": "進む",
-    "reading": "すすむ",
-    "romaji": "susumu",
-    "meaning": "voranschreiten",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "もう少し前に進んで下さい。",
-        "romaji": "Mousukoshi mae ni susunde kudasai.",
-        "german": "Bitte gehen Sie noch ein kleines Stück weiter nach vorn."
-      }
-    ]
-  },
-  {
-    "word": "進行",
-    "reading": "しんこう",
-    "romaji": "shinkou",
-    "meaning": "Fortschritt",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "道の工事が進行しています。",
-        "romaji": "Michi no kouji ga shinkou shite imasu.",
-        "german": "Der Straßenbau schreitet voran."
       }
     ]
   },
@@ -20636,54 +16908,6 @@ window.VOCAB_N5 = [
         "japanese": "宝くじが当たるなんて、運がいいよ。",
         "romaji": "Takarakuji ga ataru nante, un ga ii yo.",
         "german": "Im Lotto zu gewinnen ist ein Glücksfall."
-      }
-    ]
-  },
-  {
-    "word": "公開",
-    "reading": "こうかい",
-    "romaji": "koukai",
-    "meaning": "Veröffentlichung",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Medien",
-    "examples": [
-      {
-        "japanese": "新しいドラマの公開は今年の三月です。",
-        "romaji": "Atarashii dorama no koukai wa kotoshi no sangatsu desu.",
-        "german": "Das neue Drama wird im März dieses Jahres veröffentlicht."
-      }
-    ]
-  },
-  {
-    "word": "開業",
-    "reading": "かいぎょう",
-    "romaji": "kaigyou",
-    "meaning": "Geschäftseröffnung",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Wirtschaft",
-    "examples": [
-      {
-        "japanese": "私は社長ですが、開業したばかりで、お金がありません。",
-        "romaji": "Watashi wa shachou desu ga, kaigyou shita bakari de, okane ga arimasen.",
-        "german": "Ich bin Firmenchef, aber ich habe gerade erst gegründet und habe kein Geld."
-      }
-    ]
-  },
-  {
-    "word": "集金",
-    "reading": "しゅうきん",
-    "romaji": "shuukin",
-    "meaning": "Geldeinzug",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Finanzen",
-    "examples": [
-      {
-        "japanese": "今日は集金の日です。",
-        "romaji": "Kyou wa shuukin no hi desu.",
-        "german": "Heute ist der Tag des Geldeinzugs."
       }
     ]
   },
@@ -20816,70 +17040,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "調子",
-    "reading": "ちょうし",
-    "romaji": "choushi",
-    "meaning": "Zustand",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Zustand",
-    "examples": [
-      {
-        "japanese": "今日の調子はどうですか？",
-        "romaji": "Kyou no choushi wa dou desu ka?",
-        "german": "Wie geht es dir heute?"
-      }
-    ]
-  },
-  {
-    "word": "強調",
-    "reading": "きょうちょう",
-    "romaji": "kyouchou",
-    "meaning": "Betonung",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "先生は、重要なポイントを強調しました。",
-        "romaji": "Sensei wa, juuyou na pointo o kyouchou shimashita.",
-        "german": "Der Lehrer hat die wichtigen Punkte betont."
-      }
-    ]
-  },
-  {
-    "word": "親しい",
-    "reading": "したしい",
-    "romaji": "shitashii",
-    "meaning": "vertraut",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "まだ親しい友人にしか話してないの。",
-        "romaji": "Mada shitashii yuujin ni shika hanashi tenai no.",
-        "german": "Ich habe es bisher nur engen Freunden erzählt."
-      }
-    ]
-  },
-  {
-    "word": "顔付き",
-    "reading": "かおつき",
-    "romaji": "kaotsuki",
-    "meaning": "Gesichtsausdruck",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Körper",
-    "examples": [
-      {
-        "japanese": "この前より、顔付きがリラックスしてるね。",
-        "romaji": "Kono mae yori, kaotsuki ga rirakkusu shi teru ne.",
-        "german": "Du siehst entspannter aus als vorher."
-      }
-    ]
-  },
-  {
     "word": "〜病",
     "reading": "びょう",
     "romaji": "byou",
@@ -20908,38 +17068,6 @@ window.VOCAB_N5 = [
         "japanese": "病人や、ケガ人はいますか？",
         "romaji": "Byounin ya, kegajin wa imasu ka?",
         "german": "Ist jemand krank oder verletzt?"
-      }
-    ]
-  },
-  {
-    "word": "最高",
-    "reading": "さいこう",
-    "romaji": "saikou",
-    "meaning": "das Beste",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "かき氷は夏に食べるのが最高です。",
-        "romaji": "Kakigoori wa natsu ni taberu no ga saikou desu.",
-        "german": "Rasiereis schmeckt im Sommer am besten."
-      }
-    ]
-  },
-  {
-    "word": "次々",
-    "reading": "つぎつぎ",
-    "romaji": "tsugitsugi",
-    "meaning": "nacheinander",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Zeit",
-    "examples": [
-      {
-        "japanese": "パンダが次々に竹を食べました。",
-        "romaji": "Panda ga tsugitsugi ni take o tabemashita.",
-        "german": "Der Panda fraß einen Bambus nach dem anderen."
       }
     ]
   },
@@ -21056,70 +17184,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "投げ付ける",
-    "reading": "なげつける",
-    "romaji": "nagetsukeru",
-    "meaning": "bewerfen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "人に対して小石を投げ付けるなんて、失礼だろ！",
-        "romaji": "Hito nitaishite koishi o nagetsukeru nante, shitsurei daro!",
-        "german": "Es ist unhöflich, Kieselsteine auf Leute zu werfen!"
-      }
-    ]
-  },
-  {
-    "word": "化かす",
-    "reading": "ばかす",
-    "romaji": "bakasu",
-    "meaning": "verzaubern",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kultur",
-    "examples": [
-      {
-        "japanese": "日本では、タヌキは人間を化かす生物だと言われている。",
-        "romaji": "Nippon de wa, tanuki wa ningen o bakasu seibutsu da to iwa rete iru.",
-        "german": "In Japan gelten Tanuki als Wesen, die Menschen verzaubern."
-      }
-    ]
-  },
-  {
-    "word": "決定する",
-    "reading": "けっていする",
-    "romaji": "ketteisuru",
-    "meaning": "entscheiden",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Handlung",
-    "examples": [
-      {
-        "japanese": "コウイチの赤ちゃんの名前が決定したら、すぐにお知らせしますね。",
-        "romaji": "Kou ichi no akachan no namae ga kettei shitara, sugu ni oshirase shimasu ne.",
-        "german": "Sobald der Name für Koichis Baby feststeht, sage ich dir sofort Bescheid."
-      }
-    ]
-  },
-  {
-    "word": "出会う",
-    "reading": "であう",
-    "romaji": "deau",
-    "meaning": "zufällig treffen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "この国では、日本人に出会うチャンスがあまりない。",
-        "romaji": "Kono kuni de wa, nipponjin ni deau chansu ga amari nai.",
-        "german": "In diesem Land gibt es nicht viele Gelegenheiten, Japaner zu treffen."
-      }
-    ]
-  },
-  {
     "word": "私鉄",
     "reading": "してつ",
     "romaji": "shitetsu",
@@ -21132,22 +17196,6 @@ window.VOCAB_N5 = [
         "japanese": "四月に私鉄の会社に入社しました。",
         "romaji": "Shigatsu ni shitetsu no kaisha ni nyuusha shimashita.",
         "german": "Im April bin ich bei einer Privatbahngesellschaft eingetreten."
-      }
-    ]
-  },
-  {
-    "word": "要求",
-    "reading": "ようきゅう",
-    "romaji": "youkyuu",
-    "meaning": "Forderung",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "うちの犬は要求が多い。",
-        "romaji": "Uchi no inu wa youkyuu ga ooi.",
-        "german": "Unser Hund hat viele Forderungen."
       }
     ]
   },
@@ -21168,54 +17216,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "開始",
-    "reading": "かいし",
-    "romaji": "kaishi",
-    "meaning": "Beginn",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Zeit",
-    "examples": [
-      {
-        "japanese": "イベントの開始時間は何時ですか？",
-        "romaji": "Ibento no kaishi jikan wa nanji desu ka?",
-        "german": "Um wie viel Uhr beginnt die Veranstaltung?"
-      }
-    ]
-  },
-  {
-    "word": "曲線",
-    "reading": "きょくせん",
-    "romaji": "kyokusen",
-    "meaning": "Kurve",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Wissenschaft",
-    "examples": [
-      {
-        "japanese": "このドレスは、体の曲線をキレイに見せてくれる。",
-        "romaji": "Kono doresu wa, karada no kyokusen o kirei ni misete kureru.",
-        "german": "Dieses Kleid lässt die Körperkurven schön aussehen."
-      }
-    ]
-  },
-  {
-    "word": "言語",
-    "reading": "げんご",
-    "romaji": "gengo",
-    "meaning": "Sprache",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Sprache",
-    "examples": [
-      {
-        "japanese": "色々な言語を学ぶために海外へ行きました。",
-        "romaji": "Iroiro na gengo o manabu tame ni kaigai e ikimashita.",
-        "german": "Ich bin ins Ausland gegangen, um verschiedene Sprachen zu lernen."
-      }
-    ]
-  },
-  {
     "word": "千葉",
     "reading": "ちば",
     "romaji": "chiba",
@@ -21232,22 +17232,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "思わず",
-    "reading": "おもわず",
-    "romaji": "omowazu",
-    "meaning": "unwillkürlich",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Art und Weise",
-    "examples": [
-      {
-        "japanese": "思わず本音を口にしてしまいました。",
-        "romaji": "Omowazu honne o kuchi ni shite shimaimashita.",
-        "german": "Ich habe unwillkürlich meine wahren Absichten ausgesprochen."
-      }
-    ]
-  },
-  {
     "word": "立ち飲み",
     "reading": "たちのみ",
     "romaji": "tachinomi",
@@ -21260,22 +17244,6 @@ window.VOCAB_N5 = [
         "japanese": "この立ち飲み屋は、生ビールが安くて、おつまみもおいしいですよ。",
         "romaji": "Kono tachi nomiya wa, namabiiru ga yasukute, o tsumami mo oishiidesu yo.",
         "german": "Diese Stehbar hat günstiges Fassbier und leckere Knabbereien."
-      }
-    ]
-  },
-  {
-    "word": "作業",
-    "reading": "さぎょう",
-    "romaji": "sagyou",
-    "meaning": "Arbeit",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Arbeit",
-    "examples": [
-      {
-        "japanese": "これからクリーニングの作業をします。",
-        "romaji": "Korekara kuriiningu no sagyou o shimasu.",
-        "german": "Ich werde jetzt mit der Reinigungsarbeit beginnen."
       }
     ]
   },
@@ -21308,22 +17276,6 @@ window.VOCAB_N5 = [
         "japanese": "今日の朝、役場に行ってきました。",
         "romaji": "Kyou no asa, yakuba ni itte kimashita.",
         "german": "Ich war heute Morgen im Rathaus."
-      }
-    ]
-  },
-  {
-    "word": "口調",
-    "reading": "くちょう",
-    "romaji": "kuchou",
-    "meaning": "Tonfall",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "姉に対する父の口調は強かった。",
-        "romaji": "Ane nitaisuru chichi no kuchou wa tsuyokatta.",
-        "german": "Der Tonfall meines Vaters gegenüber meiner Schwester war streng."
       }
     ]
   },
@@ -21424,38 +17376,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "高度",
-    "reading": "こうど",
-    "romaji": "koudo",
-    "meaning": "Höhe",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Geographie",
-    "examples": [
-      {
-        "japanese": "このUFOは、今、高度3万3000フィートのところにいる。",
-        "romaji": "Kono ufuo wa, ima, koudo 3 man 3000fyiito no tokoro ni iru.",
-        "german": "Dieses UFO befindet sich jetzt auf einer Höhe von 33.000 Fuß."
-      }
-    ]
-  },
-  {
-    "word": "回答",
-    "reading": "かいとう",
-    "romaji": "kaitou",
-    "meaning": "Antwort",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "こちらに回答を入力してください。",
-        "romaji": "Kochira ni kaitou o nyuuryoku shite kudasai.",
-        "german": "Bitte geben Sie hier Ihre Antwort ein."
-      }
-    ]
-  },
-  {
     "word": "タバコ",
     "reading": "タバコ",
     "romaji": "tabako",
@@ -21536,22 +17456,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "去る",
-    "reading": "さる",
-    "romaji": "saru",
-    "meaning": "verlassen",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Bewegung",
-    "examples": [
-      {
-        "japanese": "どうせすぐブームは去るよ。",
-        "romaji": "Douse sugu buumu wa saru yo.",
-        "german": "Der Trend wird sowieso bald vorbei sein."
-      }
-    ]
-  },
-  {
     "word": "明後日",
     "reading": "あさって",
     "romaji": "asatte",
@@ -21596,22 +17500,6 @@ window.VOCAB_N5 = [
         "japanese": "紙に直線を引いてください。",
         "romaji": "Kami ni chokusen o hiite kudasai.",
         "german": "Bitte zeichnen Sie eine gerade Linie auf das Papier."
-      }
-    ]
-  },
-  {
-    "word": "直進",
-    "reading": "ちょくしん",
-    "romaji": "chokushin",
-    "meaning": "Geradeausfahrt",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Verkehr",
-    "examples": [
-      {
-        "japanese": "車はゆっくり直進していた。",
-        "romaji": "Kuruma wa yukkuri chokushin shite ita.",
-        "german": "Das Auto fuhr langsam geradeaus."
       }
     ]
   }
