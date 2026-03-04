@@ -650,7 +650,14 @@ SECTION_CONFIGS.vocab = {
     var conjGroupBadge = document.getElementById('conjugation-group-badge');
 
     if (v.type === 'Verb' && v.reading && window.conjugateVerb) {
-      var result = window.conjugateVerb(v.reading);
+      // Detect suru-verb nouns: pure kanji/kana word without する ending
+      // (e.g. 出発 しゅっぱつ) → append する so conjugation engine handles them correctly
+      var conjReading = v.reading;
+      if (!v.reading.endsWith('する') && v.word && !v.word.endsWith('する') &&
+          /^[\u4e00-\u9faf\u3005]+$/.test(v.word)) {
+        conjReading = v.reading + 'する';
+      }
+      var result = window.conjugateVerb(conjReading);
       if (result && result.forms) {
         conjSection.classList.remove('hidden');
 
