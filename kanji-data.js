@@ -14353,7 +14353,7 @@ window.KANJI_DATA = [
         "meaning": "mischen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 13,
     "examples": [
       {
@@ -14681,7 +14681,7 @@ window.KANJI_DATA = [
         "meaning": "sehen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -14724,7 +14724,7 @@ window.KANJI_DATA = [
         "meaning": "Schwert"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 9,
     "examples": [
       {
@@ -15194,7 +15194,7 @@ window.KANJI_DATA = [
         "meaning": "System"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -15540,7 +15540,7 @@ window.KANJI_DATA = [
         "meaning": "oder"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -15667,7 +15667,7 @@ window.KANJI_DATA = [
         "meaning": "Baum"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 15,
     "examples": [
       {
@@ -16074,7 +16074,7 @@ window.KANJI_DATA = [
         "meaning": "Gerechtigkeit"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 20,
     "examples": [
       {
@@ -16112,7 +16112,7 @@ window.KANJI_DATA = [
         "meaning": "ordnen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 15,
     "examples": [
       {
@@ -16619,7 +16619,7 @@ window.KANJI_DATA = [
         "meaning": "Befehl"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -16662,7 +16662,7 @@ window.KANJI_DATA = [
         "meaning": "füllen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -16995,7 +16995,7 @@ window.KANJI_DATA = [
         "meaning": "Mensch"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 5,
     "examples": [
       {
@@ -17418,7 +17418,7 @@ window.KANJI_DATA = [
         "meaning": "Haut"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -17457,7 +17457,7 @@ window.KANJI_DATA = [
         "meaning": "Haut"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 5,
     "examples": [
       {
@@ -19287,7 +19287,7 @@ window.KANJI_DATA = [
         "meaning": "Materialien"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 17,
     "examples": [
       {
@@ -19334,7 +19334,7 @@ window.KANJI_DATA = [
         "meaning": "Kurzschwanzvogel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 18,
     "examples": [
       {
@@ -19638,7 +19638,7 @@ window.KANJI_DATA = [
         "meaning": "Deckel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 9,
     "examples": [
       {
@@ -19681,7 +19681,7 @@ window.KANJI_DATA = [
         "meaning": "langer Schritt"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 8,
     "examples": [
       {
@@ -19762,7 +19762,7 @@ window.KANJI_DATA = [
         "meaning": "Hügel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -19932,7 +19932,7 @@ window.KANJI_DATA = [
         "meaning": "Wasser"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 15,
     "examples": [
       {
@@ -19974,7 +19974,7 @@ window.KANJI_DATA = [
         "meaning": "Erde"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 5,
     "examples": [
       {
@@ -20150,7 +20150,7 @@ window.KANJI_DATA = [
         "meaning": "geben"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -20236,7 +20236,7 @@ window.KANJI_DATA = [
         "meaning": "Kraft"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -20274,7 +20274,7 @@ window.KANJI_DATA = [
         "meaning": "passen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -20312,7 +20312,7 @@ window.KANJI_DATA = [
         "meaning": "zinnoberrot"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -20473,7 +20473,7 @@ window.KANJI_DATA = [
         "meaning": "freudig"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -22958,7 +22958,7 @@ window.KANJI_DATA = [
         "meaning": "Hellebarde"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 18,
     "examples": [
       {
@@ -23001,7 +23001,7 @@ window.KANJI_DATA = [
         "meaning": "Kraft"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -23366,7 +23366,7 @@ window.KANJI_DATA = [
         "meaning": "Methode"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -23453,7 +23453,7 @@ window.KANJI_DATA = [
         "meaning": "Siegel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 6,
     "examples": [
       {
@@ -23541,7 +23541,7 @@ window.KANJI_DATA = [
         "meaning": "Mund"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 8,
     "examples": [
       {
@@ -23618,7 +23618,7 @@ window.KANJI_DATA = [
         "meaning": "Rede"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 5,
     "examples": [
       {
@@ -23657,7 +23657,7 @@ window.KANJI_DATA = [
         "meaning": "laufen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -23878,7 +23878,7 @@ window.KANJI_DATA = [
         "meaning": "folgen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -23916,7 +23916,7 @@ window.KANJI_DATA = [
         "meaning": "wiederholen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -24002,7 +24002,7 @@ window.KANJI_DATA = [
         "meaning": "Herz"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 14,
     "examples": [
       {
@@ -24041,7 +24041,7 @@ window.KANJI_DATA = [
         "meaning": "Herz"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 7,
     "examples": [
       {
@@ -24084,7 +24084,7 @@ window.KANJI_DATA = [
         "meaning": "hartnäckig"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 9,
     "examples": [
       {
@@ -24168,7 +24168,7 @@ window.KANJI_DATA = [
         "meaning": "durchdringen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -24211,7 +24211,7 @@ window.KANJI_DATA = [
         "meaning": "Zweig"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 7,
     "examples": [
       {
@@ -24258,7 +24258,7 @@ window.KANJI_DATA = [
         "meaning": "Morgen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 8,
     "examples": [
       {
@@ -24297,7 +24297,7 @@ window.KANJI_DATA = [
         "meaning": "Hand"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -24340,7 +24340,7 @@ window.KANJI_DATA = [
         "meaning": "Vogel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 13,
     "examples": [
       {
@@ -24378,7 +24378,7 @@ window.KANJI_DATA = [
         "meaning": "wieder"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 4,
     "examples": [
       {
@@ -24420,7 +24420,7 @@ window.KANJI_DATA = [
         "meaning": "schlagen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -24467,7 +24467,7 @@ window.KANJI_DATA = [
         "meaning": "schlagen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 16,
     "examples": [
       {
@@ -24514,7 +24514,7 @@ window.KANJI_DATA = [
         "meaning": "auch"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 9,
     "examples": [
       {
@@ -24557,7 +24557,7 @@ window.KANJI_DATA = [
         "meaning": "Herz"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -24590,7 +24590,7 @@ window.KANJI_DATA = [
         "meaning": "Herz"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 16,
     "examples": [
       {
@@ -24628,7 +24628,7 @@ window.KANJI_DATA = [
         "meaning": "Hellebarde"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 7,
     "examples": [
       {
@@ -24670,7 +24670,7 @@ window.KANJI_DATA = [
         "meaning": "Hellebarde"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 15,
     "examples": [
       {
@@ -24703,7 +24703,7 @@ window.KANJI_DATA = [
         "meaning": "niedrig"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 8,
     "examples": [
       {
@@ -24736,7 +24736,7 @@ window.KANJI_DATA = [
         "meaning": "hoch"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 7,
     "examples": [
       {
@@ -24774,7 +24774,7 @@ window.KANJI_DATA = [
         "meaning": "Maß"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 7,
     "examples": [
       {
@@ -24920,7 +24920,7 @@ window.KANJI_DATA = [
         "meaning": "Körper"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 4,
     "examples": [
       {
@@ -24994,7 +24994,7 @@ window.KANJI_DATA = [
         "meaning": "seltsam"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 11,
     "examples": [
       {
@@ -25027,7 +25027,7 @@ window.KANJI_DATA = [
         "meaning": "einschließen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 10,
     "examples": [
       {
@@ -25098,7 +25098,7 @@ window.KANJI_DATA = [
         "meaning": "Kaiser"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 9,
     "examples": [
       {
@@ -25137,7 +25137,7 @@ window.KANJI_DATA = [
         "meaning": "Tuch"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -25174,7 +25174,7 @@ window.KANJI_DATA = [
         "meaning": "nicht"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 13,
     "examples": [
       {
@@ -25212,7 +25212,7 @@ window.KANJI_DATA = [
         "meaning": "Wagen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -25245,7 +25245,7 @@ window.KANJI_DATA = [
         "meaning": "Mann"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -25324,7 +25324,7 @@ window.KANJI_DATA = [
         "meaning": "abladen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -25353,7 +25353,7 @@ window.KANJI_DATA = [
         "meaning": "Schritt"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 13,
     "examples": [
       {
@@ -25387,7 +25387,7 @@ window.KANJI_DATA = [
         "meaning": "König"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -25425,7 +25425,7 @@ window.KANJI_DATA = [
         "meaning": "Herz"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 7,
     "examples": [
       {
@@ -25463,7 +25463,7 @@ window.KANJI_DATA = [
         "meaning": "Erde"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 8,
     "examples": [
       {
@@ -25510,7 +25510,7 @@ window.KANJI_DATA = [
         "meaning": "Herz"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -25543,7 +25543,7 @@ window.KANJI_DATA = [
         "meaning": "fließen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 11,
     "examples": [
       {
@@ -25575,7 +25575,7 @@ window.KANJI_DATA = [
         "meaning": "Herz"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 15,
     "examples": [
       {
@@ -25607,7 +25607,7 @@ window.KANJI_DATA = [
         "meaning": "Bedeutung"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 16,
     "examples": [
       {
@@ -25639,7 +25639,7 @@ window.KANJI_DATA = [
         "meaning": "Richtung"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 8,
     "examples": [
       {
@@ -25682,7 +25682,7 @@ window.KANJI_DATA = [
         "meaning": "passend"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 14,
     "examples": [
       {
@@ -25715,7 +25715,7 @@ window.KANJI_DATA = [
         "meaning": "schlagen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 10,
     "examples": [
       {
@@ -25752,7 +25752,7 @@ window.KANJI_DATA = [
         "meaning": "schlagen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 15,
     "examples": [
       {
@@ -25781,7 +25781,7 @@ window.KANJI_DATA = [
         "meaning": "Schrift"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 12,
     "examples": [
       {
@@ -25819,7 +25819,7 @@ window.KANJI_DATA = [
         "meaning": "Axt"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 11,
     "examples": [
       {
@@ -25856,7 +25856,7 @@ window.KANJI_DATA = [
         "meaning": "vergleichen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 8,
     "examples": [
       {
@@ -25889,7 +25889,7 @@ window.KANJI_DATA = [
         "meaning": "befreien"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -25922,7 +25922,7 @@ window.KANJI_DATA = [
         "meaning": "Tag"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 14,
     "examples": [
       {
@@ -25960,7 +25960,7 @@ window.KANJI_DATA = [
         "meaning": "Tag"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 12,
     "examples": [
       {
@@ -25988,7 +25988,7 @@ window.KANJI_DATA = [
         "meaning": "Baum"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 6,
     "examples": [
       {
@@ -26025,7 +26025,7 @@ window.KANJI_DATA = [
         "meaning": "öffentlich"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 8,
     "examples": [
       {
@@ -26070,7 +26070,7 @@ window.KANJI_DATA = [
         "meaning": "neun"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 9,
     "examples": [
       {
@@ -26112,7 +26112,7 @@ window.KANJI_DATA = [
         "meaning": "Vorzeichen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 10,
     "examples": [
       {
@@ -26145,7 +26145,7 @@ window.KANJI_DATA = [
         "meaning": "darbieten"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -26182,7 +26182,7 @@ window.KANJI_DATA = [
         "meaning": "seltsam"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -26211,7 +26211,7 @@ window.KANJI_DATA = [
         "meaning": "Baum"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 20,
     "examples": [
       {
@@ -26243,7 +26243,7 @@ window.KANJI_DATA = [
         "meaning": "fehlen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 8,
     "examples": [
       {
@@ -26281,7 +26281,7 @@ window.KANJI_DATA = [
         "meaning": "fehlen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -26323,7 +26323,7 @@ window.KANJI_DATA = [
         "meaning": "fehlen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 15,
     "examples": [
       {
@@ -26356,7 +26356,7 @@ window.KANJI_DATA = [
         "meaning": "stoppen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -26393,7 +26393,7 @@ window.KANJI_DATA = [
         "meaning": "Wasser"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 5,
     "examples": [
       {
@@ -26430,7 +26430,7 @@ window.KANJI_DATA = [
         "meaning": "Wasser"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 6,
     "examples": [
       {
@@ -26473,7 +26473,7 @@ window.KANJI_DATA = [
         "meaning": "überflüssig"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 7,
     "examples": [
       {
@@ -26512,7 +26512,7 @@ window.KANJI_DATA = [
         "meaning": "Maß"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 7,
     "examples": [
       {
@@ -26550,7 +26550,7 @@ window.KANJI_DATA = [
         "meaning": "streiten"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 11,
     "examples": [
       {
@@ -26592,7 +26592,7 @@ window.KANJI_DATA = [
         "meaning": "schlüpfen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -26633,7 +26633,7 @@ window.KANJI_DATA = [
         "meaning": "eindringen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 10,
     "examples": [
       {
@@ -26665,7 +26665,7 @@ window.KANJI_DATA = [
         "meaning": "Nacht"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -26703,7 +26703,7 @@ window.KANJI_DATA = [
         "meaning": "gehen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 11,
     "examples": [
       {
@@ -26780,7 +26780,7 @@ window.KANJI_DATA = [
         "meaning": "Fisch"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -26817,7 +26817,7 @@ window.KANJI_DATA = [
         "meaning": "Baum"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 14,
     "examples": [
       {
@@ -26846,7 +26846,7 @@ window.KANJI_DATA = [
         "meaning": "Wasser"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -26888,7 +26888,7 @@ window.KANJI_DATA = [
         "meaning": "ersetzen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 15,
     "examples": [
       {
@@ -26926,7 +26926,7 @@ window.KANJI_DATA = [
         "meaning": "hell"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 16,
     "examples": [
       {
@@ -26955,7 +26955,7 @@ window.KANJI_DATA = [
         "meaning": "Feuer"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 6,
     "examples": [
       {
@@ -26994,7 +26994,7 @@ window.KANJI_DATA = [
         "meaning": "Feuer"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 7,
     "examples": [
       {
@@ -27032,7 +27032,7 @@ window.KANJI_DATA = [
         "meaning": "Tür"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 8,
     "examples": [
       {
@@ -27075,7 +27075,7 @@ window.KANJI_DATA = [
         "meaning": "Vogel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -27116,7 +27116,7 @@ window.KANJI_DATA = [
         "meaning": "natürlich"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 16,
     "examples": [
       {
@@ -27149,7 +27149,7 @@ window.KANJI_DATA = [
         "meaning": "Maß"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 17,
     "examples": [
       {
@@ -27183,7 +27183,7 @@ window.KANJI_DATA = [
         "meaning": "Stück"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 4,
     "examples": [
       {
@@ -27226,7 +27226,7 @@ window.KANJI_DATA = [
         "meaning": "schlagen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 8,
     "examples": [
       {
@@ -27291,7 +27291,7 @@ window.KANJI_DATA = [
         "meaning": "außerdem"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 9,
     "examples": [
       {
@@ -27329,7 +27329,7 @@ window.KANJI_DATA = [
         "meaning": "einschließen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 9,
     "examples": [
       {
@@ -27358,7 +27358,7 @@ window.KANJI_DATA = [
         "meaning": "geheimnisvoll"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 5,
     "examples": [
       {
@@ -27396,7 +27396,7 @@ window.KANJI_DATA = [
         "meaning": "zinnoberrot"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N1",
     "strokes": 10,
     "examples": [
       {
@@ -27424,7 +27424,7 @@ window.KANJI_DATA = [
         "meaning": "Ziegel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -27457,7 +27457,7 @@ window.KANJI_DATA = [
         "meaning": "süß"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 5,
     "examples": [
       {
@@ -27490,7 +27490,7 @@ window.KANJI_DATA = [
         "meaning": "Feld"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -27523,7 +27523,7 @@ window.KANJI_DATA = [
         "meaning": "Löffel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -28714,7 +28714,7 @@ window.KANJI_DATA = [
         "meaning": "Leder"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -28814,7 +28814,7 @@ window.KANJI_DATA = [
         "meaning": "Kummer"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 17,
     "examples": [
       {
@@ -28970,7 +28970,7 @@ window.KANJI_DATA = [
         "meaning": "Tisch"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 5,
     "examples": [
       {
@@ -30453,7 +30453,7 @@ window.KANJI_DATA = [
         "meaning": "Tuch"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -30553,7 +30553,7 @@ window.KANJI_DATA = [
         "meaning": "Tuch"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -31424,7 +31424,7 @@ window.KANJI_DATA = [
         "meaning": "schlagen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -31476,7 +31476,7 @@ window.KANJI_DATA = [
         "meaning": "nicht"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 8,
     "examples": [
       {
@@ -31602,7 +31602,7 @@ window.KANJI_DATA = [
         "meaning": "Hauptstadt"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -31700,7 +31700,7 @@ window.KANJI_DATA = [
         "meaning": "nicht"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -31808,7 +31808,7 @@ window.KANJI_DATA = [
         "meaning": "schneiden"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 7,
     "examples": [
       {
@@ -31864,7 +31864,7 @@ window.KANJI_DATA = [
         "meaning": "eins"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 5,
     "examples": [
       {
@@ -31916,7 +31916,7 @@ window.KANJI_DATA = [
         "meaning": "Mund"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 7,
     "examples": [
       {
@@ -32268,7 +32268,7 @@ window.KANJI_DATA = [
         "meaning": "schlagen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -32449,7 +32449,7 @@ window.KANJI_DATA = [
         "meaning": "Tiger (Tierkreiszeichen)"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -32609,7 +32609,7 @@ window.KANJI_DATA = [
         "meaning": "Siegel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 5,
     "examples": [
       {
@@ -33007,7 +33007,7 @@ window.KANJI_DATA = [
         "meaning": "Teller"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -33189,7 +33189,7 @@ window.KANJI_DATA = [
         "meaning": "außerdem"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 9,
     "examples": [
       {
@@ -33285,7 +33285,7 @@ window.KANJI_DATA = [
         "meaning": "Fülle"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 13,
     "examples": [
       {
@@ -33333,7 +33333,7 @@ window.KANJI_DATA = [
         "meaning": "darbieten"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -33381,7 +33381,7 @@ window.KANJI_DATA = [
         "meaning": "schwer"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -33541,7 +33541,7 @@ window.KANJI_DATA = [
         "meaning": "Tempel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -33593,7 +33593,7 @@ window.KANJI_DATA = [
         "meaning": "blau"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -33732,7 +33732,7 @@ window.KANJI_DATA = [
         "meaning": "nicht"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 13,
     "examples": [
       {
@@ -33875,7 +33875,7 @@ window.KANJI_DATA = [
         "meaning": "Löffel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 6,
     "examples": [
       {
@@ -33919,7 +33919,7 @@ window.KANJI_DATA = [
         "meaning": "wiederholen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 13,
     "examples": [
       {
@@ -33971,7 +33971,7 @@ window.KANJI_DATA = [
         "meaning": "gegensätzlich"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 15,
     "examples": [
       {
@@ -34287,7 +34287,7 @@ window.KANJI_DATA = [
         "meaning": "Richtung"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -34339,7 +34339,7 @@ window.KANJI_DATA = [
         "meaning": "Laut"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 19,
     "examples": [
       {
@@ -34383,7 +34383,7 @@ window.KANJI_DATA = [
         "meaning": "Wort"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 19,
     "examples": [
       {
@@ -34435,7 +34435,7 @@ window.KANJI_DATA = [
         "meaning": "Talent"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -34482,7 +34482,7 @@ window.KANJI_DATA = [
         "meaning": "Muschel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -34526,7 +34526,7 @@ window.KANJI_DATA = [
         "meaning": "Muschel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 11,
     "examples": [
       {
@@ -34565,7 +34565,7 @@ window.KANJI_DATA = [
         "meaning": "Muschel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 13,
     "examples": [
       {
@@ -34621,7 +34621,7 @@ window.KANJI_DATA = [
         "meaning": "Axt"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -34673,7 +34673,7 @@ window.KANJI_DATA = [
         "meaning": "jeder"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 13,
     "examples": [
       {
@@ -34721,7 +34721,7 @@ window.KANJI_DATA = [
         "meaning": "scharf"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 13,
     "examples": [
       {
@@ -35259,7 +35259,7 @@ window.KANJI_DATA = [
         "meaning": "übrig"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 10,
     "examples": [
       {
@@ -35303,7 +35303,7 @@ window.KANJI_DATA = [
         "meaning": "Sonne aufsteigen"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 12,
     "examples": [
       {
@@ -35357,7 +35357,7 @@ window.KANJI_DATA = [
         "meaning": "Kurzschwanzvogel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
@@ -35409,7 +35409,7 @@ window.KANJI_DATA = [
         "meaning": "Kurzschwanzvogel"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 18,
     "examples": [
       {
@@ -35503,7 +35503,7 @@ window.KANJI_DATA = [
         "meaning": "nicht"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 8,
     "examples": [
       {
@@ -35745,7 +35745,7 @@ window.KANJI_DATA = [
         "meaning": "Kopf"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 18,
     "examples": [
       {
@@ -35792,7 +35792,7 @@ window.KANJI_DATA = [
         "meaning": "Freund"
       }
     ],
-    "jlpt": "N3",
+    "jlpt": "N2",
     "strokes": 14,
     "examples": [
       {
