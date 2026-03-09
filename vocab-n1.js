@@ -60558,5 +60558,37 @@ window.VOCAB_N1 = [
         "german": "Tut mir leid, an dem Tag habe ich schon vor, mich mit Rento zu treffen."
       }
     ]
+  },
+  {
+    "word": "蓮根",
+    "reading": "れんこん",
+    "romaji": "renkon",
+    "meaning": "Lotuswurzel",
+    "type": "Nomen",
+    "level": "N1",
+    "category": "Essen",
+    "examples": [
+      {
+        "japanese": "蓮根のきんぴらを作ります。",
+        "romaji": "Renkon no kinpira o tsukurimasu.",
+        "german": "Ich mache gebratene Lotuswurzel."
+      }
+    ]
+  },
+  {
+    "word": "牛蒡",
+    "reading": "ごぼう",
+    "romaji": "gobou",
+    "meaning": "Klettenwurzel",
+    "type": "Nomen",
+    "level": "N1",
+    "category": "Essen",
+    "examples": [
+      {
+        "japanese": "牛蒡をサラダにします。",
+        "romaji": "Gobou o sarada ni shimasu.",
+        "german": "Ich mache Salat mit Klettenwurzel."
+      }
+    ]
   }
 ];
