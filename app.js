@@ -100,9 +100,10 @@
   var radicalFilterName = document.getElementById('radical-filter-name');
   var loadingEl = document.getElementById('loading');
 
-  // Tab panels and controls that are not section-managed (kana)
+  // Tab panels and controls that are not section-managed (kana, quiz)
   var hiraganaTab = document.getElementById('hiragana-tab');
   var katakanaTab = document.getElementById('katakana-tab');
+  var quizTab = document.getElementById('quiz-tab');
 
   // Section names that have controls + tab panels
   var sectionNames = ['kanji', 'grammar', 'vocab', 'onomatopoeia', 'counters', 'radicals'];
@@ -132,10 +133,15 @@
     hiraganaTab.classList.toggle('hidden', tab !== 'hiragana');
     katakanaTab.classList.toggle('hidden', tab !== 'katakana');
 
+    // Quiz tab (no Section instance)
+    if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
+
     // Tab activate hooks
     if (tab === 'hiragana' || tab === 'katakana') {
       renderKanaTab(tab);
       updateKanaDarkMode();
+    } else if (tab === 'quiz') {
+      if (window.QuizModule) window.QuizModule.onTabActivate();
     } else if (app.sections[tab] && app.sections[tab].config.onTabActivate) {
       app.sections[tab].config.onTabActivate(app.sections[tab]);
     }
@@ -163,6 +169,8 @@
       itemCountEl.textContent = 'Hiragana';
     } else if (tab === 'katakana') {
       itemCountEl.textContent = 'Katakana';
+    } else if (tab === 'quiz') {
+      itemCountEl.textContent = 'Quiz';
     } else if (app.sections[tab]) {
       var sec = app.sections[tab];
       itemCountEl.textContent = sec.filteredItems.length + sec.config.countLabel;
@@ -349,6 +357,9 @@
 
   // === KEYBOARD NAVIGATION (data-driven) ===
   document.addEventListener('keydown', function (e) {
+    // Quiz keyboard handling
+    if (window.QuizModule && window.QuizModule.handleKey(e)) return;
+
     // Check if any overlay is open
     for (var i = 0; i < sectionNames.length; i++) {
       var sec = app.sections[sectionNames[i]];
