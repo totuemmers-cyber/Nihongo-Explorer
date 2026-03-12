@@ -50939,7 +50939,7 @@ window.VOCAB_N1 = [
       {
         "japanese": "「直系血族」とは、直上下の関係にある血族のことで、自分と血の繋がった祖父母や父母、子や孫との関係のことを指します。",
         "romaji": "「 chokkei ketsuzoku 」 to wa, chokujouka no kankei ni aru ketsuzoku no koto de, jibun to chi no tsunagatta sofubo ya chichihaha, ko ya mago to no kankei no koto o sashimasu.",
-        "german": "'Direkte Blutsverwandte' bezieht sich auf Blutsverwandte in direkter Abstammungslinie, wie Grosseltern, Eltern, Kinder oder Enkel, die mit einem blutsverwandt sind."
+        "german": "'Direkte Blutsverwandte' bezieht sich auf Blutsverwandte in direkter Abstammungslinie, wie Großeltern, Eltern, Kinder oder Enkel, die mit einem blutsverwandt sind."
       }
     ]
   },

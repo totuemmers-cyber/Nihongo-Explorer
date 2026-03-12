@@ -323,7 +323,7 @@ window.VOCAB_N5 = [
     "word": "見る",
     "reading": "みる",
     "romaji": "miru",
-    "meaning": "sehen, schaün",
+    "meaning": "sehen, schauen",
     "type": "Verb",
     "level": "N5",
     "category": "Alltag",
@@ -331,7 +331,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "テレビを見ます。",
         "romaji": "Terebi o mimasu.",
-        "german": "Ich schaü Fernsehen."
+        "german": "Ich schaue Fernsehen."
       }
     ]
   },
@@ -2283,7 +2283,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "空港まで一時間です。",
         "romaji": "Kuukou made ichijikan desu.",
-        "german": "Bis zum Flughafen daürt es eine Stunde."
+        "german": "Bis zum Flughafen dauert es eine Stunde."
       }
     ]
   },
@@ -2603,7 +2603,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "時計を見てください。",
         "romaji": "Tokei o mite kudasai.",
-        "german": "Bitte schaün Sie auf die Uhr."
+        "german": "Bitte schauen Sie auf die Uhr."
       }
     ]
   },
@@ -3163,7 +3163,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "夜テレビを見ます。",
         "romaji": "Yoru terebi o mimasu.",
-        "german": "Abends schaü ich fern."
+        "german": "Abends schaue ich fern."
       }
     ]
   },
@@ -3275,7 +3275,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "時々映画を見ます。",
         "romaji": "Tokidoki eiga o mimasu.",
-        "german": "Manchmal schaü ich Filme."
+        "german": "Manchmal schaue ich Filme."
       }
     ]
   },
@@ -3835,7 +3835,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "後ろを見てください。",
         "romaji": "Ushiro o mite kudasai.",
-        "german": "Bitte schaün Sie nach hinten."
+        "german": "Bitte schauen Sie nach hinten."
       }
     ]
   },
@@ -4443,7 +4443,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "黒板を見てください。",
         "romaji": "Kokuban o mite kudasai.",
-        "german": "Bitte schaün Sie auf die Tafel."
+        "german": "Bitte schauen Sie auf die Tafel."
       }
     ]
   },
@@ -4459,7 +4459,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "地図を見ます。",
         "romaji": "Chizu o mimasu.",
-        "german": "Ich schaü auf die Karte."
+        "german": "Ich schaue auf die Karte."
       }
     ]
   },
@@ -4475,7 +4475,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "テレビを見ます。",
         "romaji": "Terebi o mimasu.",
-        "german": "Ich schaü fern."
+        "german": "Ich schaue fern."
       }
     ]
   },
@@ -4875,7 +4875,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "どうぞよろしくお願いします。",
         "romaji": "Douzo yoroshiku onegai shimasu.",
-        "german": "Ich freü mich auf die Zusammenarbeit."
+        "german": "Ich freue mich auf die Zusammenarbeit."
       }
     ]
   },
@@ -6059,7 +6059,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "野球を見ます。",
         "romaji": "Yakyuu o mimasu.",
-        "german": "Ich schaü Baseball."
+        "german": "Ich schaue Baseball."
       }
     ]
   },
@@ -7035,7 +7035,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "引き出しの中を見てください。",
         "romaji": "Hikidashi no naka o mite kudasai.",
-        "german": "Schaün Sie bitte in die Schublade."
+        "german": "Schauen Sie bitte in die Schublade."
       }
     ]
   },
@@ -7283,7 +7283,7 @@ window.VOCAB_N5 = [
     "word": "喜ぶ",
     "reading": "よろこぶ",
     "romaji": "yorokobu",
-    "meaning": "sich freün",
+    "meaning": "sich freuen",
     "type": "Verb",
     "level": "N5",
     "category": "Gefühle",
@@ -7747,7 +7747,7 @@ window.VOCAB_N5 = [
     "word": "預ける",
     "reading": "あずける",
     "romaji": "azukeru",
-    "meaning": "anvertraün, abgeben",
+    "meaning": "anvertrauen, abgeben",
     "type": "Verb",
     "level": "N5",
     "category": "Alltag",
@@ -9283,7 +9283,7 @@ window.VOCAB_N5 = [
     "word": "壁",
     "reading": "かべ",
     "romaji": "kabe",
-    "meaning": "Wand, Maür",
+    "meaning": "Wand, Mauer",
     "type": "Nomen",
     "level": "N5",
     "category": "Wohnen",
@@ -9387,7 +9387,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "鏡を見ます。",
         "romaji": "Kagami o mimasu.",
-        "german": "Ich schaü in den Spiegel."
+        "german": "Ich schaue in den Spiegel."
       }
     ]
   },
@@ -10443,7 +10443,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "野菜を育てています。",
         "romaji": "Yasai o sodatete imasu.",
-        "german": "Ich baü Gemüse an."
+        "german": "Ich baue Gemüse an."
       }
     ]
   },
@@ -10691,7 +10691,7 @@ window.VOCAB_N5 = [
     "word": "我慢",
     "reading": "がまん",
     "romaji": "gaman",
-    "meaning": "Geduld, Ausdaür",
+    "meaning": "Geduld, Ausdauer",
     "type": "Nomen",
     "level": "N5",
     "category": "Gefühle",
@@ -11459,7 +11459,7 @@ window.VOCAB_N5 = [
     "word": "農家",
     "reading": "のうか",
     "romaji": "nouka",
-    "meaning": "Baür, Landwirt",
+    "meaning": "Bauer, Landwirt",
     "type": "Nomen",
     "level": "N5",
     "category": "Menschen",
@@ -11467,7 +11467,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "農家の人が野菜を売っています。",
         "romaji": "Nouka no hito ga yasai o utte imasu.",
-        "german": "Der Baür verkauft Gemüse."
+        "german": "Der Bauer verkauft Gemüse."
       }
     ]
   },
@@ -11691,7 +11691,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "通勤に一時間かかります。",
         "romaji": "Tsuukin ni ichijikan kakarimasu.",
-        "german": "Das Pendeln daürt eine Stunde."
+        "german": "Das Pendeln dauert eine Stunde."
       }
     ]
   },

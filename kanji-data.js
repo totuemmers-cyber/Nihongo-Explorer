@@ -12529,7 +12529,7 @@ window.KANJI_DATA = [
     "components": [
       {
         "radical": "爪",
-        "meaning": "Klaü"
+        "meaning": "Klaue"
       },
       {
         "radical": "又",
@@ -14778,7 +14778,7 @@ window.KANJI_DATA = [
       {
         "word": "観客",
         "reading": "かんきゃく",
-        "meaning": "Zuschaür"
+        "meaning": "Zuschauer"
       }
     ]
   },
@@ -14820,7 +14820,7 @@ window.KANJI_DATA = [
       {
         "word": "観客",
         "reading": "かんきゃく",
-        "meaning": "Zuschaür"
+        "meaning": "Zuschauer"
       }
     ]
   },
@@ -16835,7 +16835,7 @@ window.KANJI_DATA = [
     "components": [
       {
         "radical": "爪",
-        "meaning": "Klaü"
+        "meaning": "Klaue"
       }
     ],
     "jlpt": "N3",
@@ -22444,7 +22444,7 @@ window.KANJI_DATA = [
       {
         "word": "続く",
         "reading": "つづく",
-        "meaning": "andaürn"
+        "meaning": "andauern"
       }
     ]
   },
@@ -27142,7 +27142,7 @@ window.KANJI_DATA = [
     "components": [
       {
         "radical": "爪",
-        "meaning": "Klaü"
+        "meaning": "Klaue"
       },
       {
         "radical": "寸",
@@ -27232,7 +27232,7 @@ window.KANJI_DATA = [
       {
         "word": "牧場",
         "reading": "ぼくじょう",
-        "meaning": "Baürnhof"
+        "meaning": "Bauernhof"
       }
     ]
   },

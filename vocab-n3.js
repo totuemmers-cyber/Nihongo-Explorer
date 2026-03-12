@@ -1627,7 +1627,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "正確な情報が必要です。",
         "romaji": "Seikaku na jouhou ga hitsuyou desu.",
-        "german": "Genaü Informationen sind nötig."
+        "german": "Genaue Informationen sind nötig."
       }
     ]
   },
@@ -3403,7 +3403,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "少なくとも三日かかります。",
         "romaji": "Sukunaku tomo mikka kakarimasu.",
-        "german": "Es daürt mindestens drei Tage."
+        "german": "Es dauert mindestens drei Tage."
       }
     ]
   },
@@ -3691,7 +3691,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "こちらをご覧ください。",
         "romaji": "Kochira o goran kudasai.",
-        "german": "Bitte schaün Sie hierher."
+        "german": "Bitte schauen Sie hierher."
       }
     ]
   },
@@ -3763,7 +3763,7 @@ window.VOCAB_N3 = [
     "word": "築く",
     "reading": "きずく",
     "romaji": "kizuku",
-    "meaning": "aufbaün, errichten",
+    "meaning": "aufbauen, errichten",
     "type": "Verb",
     "level": "N3",
     "category": "Alltag",
@@ -3771,7 +3771,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "信頼関係を築きます。",
         "romaji": "Shinrai kankei o kizukimasu.",
-        "german": "Ich baü eine Vertraünsbeziehung auf."
+        "german": "Ich baue eine Vertrauensbeziehung auf."
       }
     ]
   },
@@ -4979,7 +4979,7 @@ window.VOCAB_N3 = [
     "word": "潜む",
     "reading": "ひそむ",
     "romaji": "hisomu",
-    "meaning": "sich verbergen, laürn",
+    "meaning": "sich verbergen, lauern",
     "type": "Verb",
     "level": "N3",
     "category": "Alltag",
@@ -4987,7 +4987,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "危険が潜んでいます。",
         "romaji": "Kiken ga hisonde imasu.",
-        "german": "Gefahren laürn."
+        "german": "Gefahren lauern."
       }
     ]
   },
@@ -5203,7 +5203,7 @@ window.VOCAB_N3 = [
     "word": "恒常的",
     "reading": "こうじょうてき",
     "romaji": "koujouteki",
-    "meaning": "beständig, daürhaft",
+    "meaning": "beständig, dauerhaft",
     "type": "Adjektiv",
     "level": "N3",
     "category": "Zeit",
@@ -5211,7 +5211,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "恒常的な問題です。",
         "romaji": "Koujouteki na mondai desu.",
-        "german": "Es ist ein daürhaftes Problem."
+        "german": "Es ist ein dauerhaftes Problem."
       }
     ]
   },
@@ -5355,7 +5355,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "絶対的な信頼があります。",
         "romaji": "Zettaiteki na shinrai ga arimasu.",
-        "german": "Es gibt absolutes Vertraün."
+        "german": "Es gibt absolutes Vertrauen."
       }
     ]
   },
@@ -5579,7 +5579,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "社会は信頼で成り立っています。",
         "romaji": "Shakai wa shinrai de naritattte imasu.",
-        "german": "Die Gesellschaft besteht aus Vertraün."
+        "german": "Die Gesellschaft besteht aus Vertrauen."
       }
     ]
   },
@@ -5883,7 +5883,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "新しい考え方が浸透しています。",
         "romaji": "Atarashii kangaekata ga shintou shite imasu.",
-        "german": "Neü Denkweisen verbreiten sich."
+        "german": "Neue Denkweisen verbreiten sich."
       }
     ]
   },
@@ -6819,7 +6819,7 @@ window.VOCAB_N3 = [
     "word": "体力",
     "reading": "たいりょく",
     "romaji": "tairyoku",
-    "meaning": "Körperkraft, Ausdaür",
+    "meaning": "Körperkraft, Ausdauer",
     "type": "Nomen",
     "level": "N3",
     "category": "Körper",
@@ -6827,7 +6827,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "体力をつけましょう。",
         "romaji": "Tairyoku o tsukemashou.",
-        "german": "Baün wir Ausdaür auf."
+        "german": "Bauen wir Ausdauer auf."
       }
     ]
   },
@@ -6859,7 +6859,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "ストレスを解消しましょう。",
         "romaji": "Sutoresu o kaishou shimashou.",
-        "german": "Baün wir Stress ab."
+        "german": "Bauen wir Stress ab."
       }
     ]
   },
@@ -7379,7 +7379,7 @@ window.VOCAB_N3 = [
     "word": "崩す",
     "reading": "くずす",
     "romaji": "kuzusu",
-    "meaning": "zerstören, abbaün",
+    "meaning": "zerstören, abbauen",
     "type": "Verb",
     "level": "N3",
     "category": "Alltag",
@@ -8083,7 +8083,7 @@ window.VOCAB_N3 = [
     "word": "信頼",
     "reading": "しんらい",
     "romaji": "shinrai",
-    "meaning": "Vertraün",
+    "meaning": "Vertrauen",
     "type": "Nomen",
     "level": "N3",
     "category": "Gefühle",
@@ -8091,7 +8091,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "信頼を築きます。",
         "romaji": "Shinrai o kizukimasu.",
-        "german": "Ich baü Vertraün auf."
+        "german": "Ich baue Vertrauen auf."
       }
     ]
   },
@@ -8147,7 +8147,7 @@ window.VOCAB_N3 = [
     "word": "後悔",
     "reading": "こうかい",
     "romaji": "koukai",
-    "meaning": "Reue, Bedaürn",
+    "meaning": "Reue, Bedauern",
     "type": "Nomen",
     "level": "N3",
     "category": "Gefühle",
@@ -8155,7 +8155,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "後悔しています。",
         "romaji": "Koukai shite imasu.",
-        "german": "Ich bereü es."
+        "german": "Ich bereue es."
       }
     ]
   },
@@ -8243,7 +8243,7 @@ window.VOCAB_N3 = [
     "word": "頼もしい",
     "reading": "たのもしい",
     "romaji": "tanomoshii",
-    "meaning": "zuverlässig, vertraünswürdig",
+    "meaning": "zuverlässig, vertrauenswürdig",
     "type": "Adjektiv",
     "level": "N3",
     "category": "Gefühle",
@@ -8611,7 +8611,7 @@ window.VOCAB_N3 = [
     "word": "塀",
     "reading": "へい",
     "romaji": "hei",
-    "meaning": "Zaun, Maür",
+    "meaning": "Zaun, Mauer",
     "type": "Nomen",
     "level": "N3",
     "category": "Wohnen",
@@ -8635,7 +8635,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "物置に道具をしまいます。",
         "romaji": "Monooki ni dougu o shimaimasu.",
-        "german": "Ich verstaü Werkzeug im Schuppen."
+        "german": "Ich verstaue Werkzeug im Schuppen."
       }
     ]
   },
@@ -8907,7 +8907,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "運転見合わせが続いています。",
         "romaji": "Untenmiawase ga tsuzuite imasu.",
-        "german": "Die Zugeinstellung daürt an."
+        "german": "Die Zugeinstellung dauert an."
       }
     ]
   },
@@ -9523,7 +9523,7 @@ window.VOCAB_N3 = [
     "word": "酸素",
     "reading": "さんそ",
     "romaji": "sanso",
-    "meaning": "Saürstoff",
+    "meaning": "Sauerstoff",
     "type": "Nomen",
     "level": "N3",
     "category": "Natur",
@@ -9531,7 +9531,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "酸素が必要です。",
         "romaji": "Sanso ga hitsuyou desu.",
-        "german": "Saürstoff ist nötig."
+        "german": "Sauerstoff ist nötig."
       }
     ]
   },
@@ -9723,7 +9723,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "望遠鏡で星を見ます。",
         "romaji": "Bouenkyou de hoshi o mimasu.",
-        "german": "Ich schaü Sterne mit dem Teleskop."
+        "german": "Ich schaue Sterne mit dem Teleskop."
       }
     ]
   },
@@ -10459,7 +10459,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "天気予報を見ます。",
         "romaji": "Tenki yohou o mimasu.",
-        "german": "Ich schaü die Wettervorhersage."
+        "german": "Ich schaue die Wettervorhersage."
       }
     ]
   },
@@ -10907,7 +10907,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "茫然と外を見ています。",
         "romaji": "Bouzen to soto o mite imasu.",
-        "german": "Ich schaü geistesabwesend nach draußen."
+        "german": "Ich schaue geistesabwesend nach draußen."
       }
     ]
   },
@@ -11115,7 +11115,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "更に詳しく説明します。",
         "romaji": "Sara ni kuwashiku setsumei shimasu.",
-        "german": "Ich erkläre es noch genaür."
+        "german": "Ich erkläre es noch genauer."
       }
     ]
   },
@@ -11323,7 +11323,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "多少時間がかかります。",
         "romaji": "Tashou jikan ga kakarimasu.",
-        "german": "Es daürt etwas."
+        "german": "Es dauert etwas."
       }
     ]
   },
@@ -11651,7 +11651,7 @@ window.VOCAB_N3 = [
     "word": "辛抱",
     "reading": "しんぼう",
     "romaji": "shinbou",
-    "meaning": "Geduld, Ausdaür",
+    "meaning": "Geduld, Ausdauer",
     "type": "Nomen",
     "level": "N3",
     "category": "Gefühle",
@@ -11667,7 +11667,7 @@ window.VOCAB_N3 = [
     "word": "根気",
     "reading": "こんき",
     "romaji": "konki",
-    "meaning": "Ausdaür, Beharrlichkeit",
+    "meaning": "Ausdauer, Beharrlichkeit",
     "type": "Nomen",
     "level": "N3",
     "category": "Eigenschaften",
@@ -11675,7 +11675,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "根気が必要な仕事です。",
         "romaji": "Konki ga hitsuyou na shigoto desu.",
-        "german": "Es ist eine Arbeit, die Ausdaür braucht."
+        "german": "Es ist eine Arbeit, die Ausdauer braucht."
       }
     ]
   },
@@ -11843,7 +11843,7 @@ window.VOCAB_N3 = [
     "word": "自信",
     "reading": "じしん",
     "romaji": "jishin",
-    "meaning": "Selbstvertraün",
+    "meaning": "Selbstvertrauen",
     "type": "Nomen",
     "level": "N3",
     "category": "Gefühle",
@@ -11851,7 +11851,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "自信を持ってください。",
         "romaji": "Jishin o motte kudasai.",
-        "german": "Haben Sie Selbstvertraün!"
+        "german": "Haben Sie Selbstvertrauen!"
       }
     ]
   },
@@ -14819,7 +14819,7 @@ window.VOCAB_N3 = [
     "word": "彫刻",
     "reading": "ちょうこく",
     "romaji": "choukoku",
-    "meaning": "Skulptur, Bildhaürei",
+    "meaning": "Skulptur, Bildhauerei",
     "type": "Nomen",
     "level": "N3",
     "category": "Freizeit",
@@ -17331,7 +17331,7 @@ window.VOCAB_N3 = [
     "word": "解凍",
     "reading": "かいとう",
     "romaji": "kaitou",
-    "meaning": "Auftaün",
+    "meaning": "Auftauen",
     "type": "Nomen",
     "level": "N3",
     "category": "Essen",
@@ -17339,7 +17339,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "肉を解凍します。",
         "romaji": "Niku o kaitou shimasu.",
-        "german": "Ich taü das Fleisch auf."
+        "german": "Ich taue das Fleisch auf."
       }
     ]
   },
@@ -17387,7 +17387,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "辞典で調べます。",
         "romaji": "Jiten de shirabemasu.",
-        "german": "Ich schaü im Wörterbuch nach."
+        "german": "Ich schaue im Wörterbuch nach."
       }
     ]
   },
@@ -17515,7 +17515,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "体育祭が楽しみです。",
         "romaji": "Taiikusai ga tanoshimi desu.",
-        "german": "Ich freü mich auf das Sportfest."
+        "german": "Ich freue mich auf das Sportfest."
       }
     ]
   },
@@ -18395,7 +18395,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "先生の手本を見て書きます。",
         "romaji": "Sensei no tehon o mite kakimasu.",
-        "german": "Ich schaü die Vorlage des Lehrers an und schreibe."
+        "german": "Ich schaue die Vorlage des Lehrers an und schreibe."
       }
     ]
   },
@@ -18611,7 +18611,7 @@ window.VOCAB_N3 = [
     "word": "睨む",
     "reading": "にらむ",
     "romaji": "niramu",
-    "meaning": "anstarren, böse anschaün",
+    "meaning": "anstarren, böse anschauen",
     "type": "Verb",
     "level": "N3",
     "category": "Gefühle",
@@ -18619,7 +18619,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "睨まないでください。",
         "romaji": "Niramanaide kudasai.",
-        "german": "Bitte schaün Sie mich nicht so böse an."
+        "german": "Bitte schauen Sie mich nicht so böse an."
       }
     ]
   },
@@ -18627,7 +18627,7 @@ window.VOCAB_N3 = [
     "word": "眺める",
     "reading": "ながめる",
     "romaji": "nagameru",
-    "meaning": "betrachten, anschaün",
+    "meaning": "betrachten, anschauen",
     "type": "Verb",
     "level": "N3",
     "category": "Alltag",
@@ -19731,7 +19731,7 @@ window.VOCAB_N3 = [
     "word": "忍耐",
     "reading": "にんたい",
     "romaji": "nintai",
-    "meaning": "Geduld, Ausdaür",
+    "meaning": "Geduld, Ausdauer",
     "type": "Nomen",
     "level": "N3",
     "category": "Gefühle",
@@ -20267,7 +20267,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "時刻表を見てください。",
         "romaji": "Jikokuhyou o mite kudasai.",
-        "german": "Bitte schaün Sie auf den Fahrplan."
+        "german": "Bitte schauen Sie auf den Fahrplan."
       }
     ]
   },
@@ -21355,7 +21355,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "新しい芽が芽生えました。",
         "romaji": "Atarashii me ga mebaemashita.",
-        "german": "Neü Triebe sind gesprossen."
+        "german": "Neue Triebe sind gesprossen."
       }
     ]
   },
@@ -22347,7 +22347,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "信頼関係を構築します。",
         "romaji": "Shinrai kankei o kouchiku shimasu.",
-        "german": "Wir baün eine Vertraünsbeziehung auf."
+        "german": "Wir bauen eine Vertrauensbeziehung auf."
       }
     ]
   },
@@ -23619,7 +23619,7 @@ window.VOCAB_N3 = [
     "word": "悔やむ",
     "reading": "くやむ",
     "romaji": "kuyamu",
-    "meaning": "bedaürn, bereuen",
+    "meaning": "bedauern, bereuen",
     "type": "Verb",
     "level": "N3",
     "category": "Gefühle",
@@ -23635,7 +23635,7 @@ window.VOCAB_N3 = [
     "word": "惜しむ",
     "reading": "おしむ",
     "romaji": "oshimu",
-    "meaning": "bedaürn, sparsam sein mit",
+    "meaning": "bedauern, sparsam sein mit",
     "type": "Verb",
     "level": "N3",
     "category": "Gefühle",
@@ -23875,7 +23875,7 @@ window.VOCAB_N3 = [
     "word": "見極める",
     "reading": "みきわめる",
     "romaji": "mikiwameru",
-    "meaning": "erkennen, durchschaün",
+    "meaning": "erkennen, durchschauen",
     "type": "Verb",
     "level": "N3",
     "category": "Alltag",
@@ -23947,7 +23947,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "索引で調べます。",
         "romaji": "Sakuin de shirabemasu.",
-        "german": "Ich schaü im Index nach."
+        "german": "Ich schaue im Index nach."
       }
     ]
   },
@@ -23963,7 +23963,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "地図の凡例を見てください。",
         "romaji": "Chizu no hanrei o mite kudasai.",
-        "german": "Schaün Sie sich die Kartenlegende an."
+        "german": "Schauen Sie sich die Kartenlegende an."
       }
     ]
   },
@@ -24043,7 +24043,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "新刊の書評を読みました。",
         "romaji": "Shinkan no shohyou o yomimashita.",
-        "german": "Ich habe eine Rezension des Neürscheinung gelesen."
+        "german": "Ich habe eine Rezension des Neuerscheinung gelesen."
       }
     ]
   },
@@ -25363,7 +25363,7 @@ window.VOCAB_N3 = [
     "word": "夕立",
     "reading": "ゆうだち",
     "romaji": "yuudachi",
-    "meaning": "Sommergewitter, Regenschaür",
+    "meaning": "Sommergewitter, Regenschauer",
     "type": "Nomen",
     "level": "N3",
     "category": "Wetter",
@@ -26267,7 +26267,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "展望台から景色を見ます。",
         "romaji": "Tenboudai kara keshiki o mimasu.",
-        "german": "Ich schaü von der Aussichtsplattform die Landschaft an."
+        "german": "Ich schaue von der Aussichtsplattform die Landschaft an."
       }
     ]
   },
@@ -26355,7 +26355,7 @@ window.VOCAB_N3 = [
     "word": "醸造所",
     "reading": "じょうぞうしょ",
     "romaji": "jouzousho",
-    "meaning": "Braürei",
+    "meaning": "Brauerei",
     "type": "Nomen",
     "level": "N3",
     "category": "Ort",
@@ -26363,7 +26363,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "ビール醸造所を見学しました。",
         "romaji": "Biiru jouzousho o kengaku shimashita.",
-        "german": "Ich habe eine Bierbraürei besichtigt."
+        "german": "Ich habe eine Bierbrauerei besichtigt."
       }
     ]
   },
@@ -27603,7 +27603,7 @@ window.VOCAB_N3 = [
     "word": "喜怒哀楽",
     "reading": "きどあいらく",
     "romaji": "kido airaku",
-    "meaning": "Freude, Wut, Traür, Glück",
+    "meaning": "Freude, Wut, Trauer, Glück",
     "type": "Nomen",
     "level": "N3",
     "category": "Gefühle",
@@ -29531,7 +29531,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "活断層の上に家を建てないでください。",
         "romaji": "Katsu dansou no ue ni ie o tatenaide kudasai.",
-        "german": "Baün Sie nicht auf einer aktiven Verwerfung."
+        "german": "Bauen Sie nicht auf einer aktiven Verwerfung."
       }
     ]
   },
@@ -30371,7 +30371,7 @@ window.VOCAB_N3 = [
     "word": "永住権",
     "reading": "えいじゅうけん",
     "romaji": "eijuuken",
-    "meaning": "Daüraufenthalt",
+    "meaning": "Daueraufenthalt",
     "type": "Nomen",
     "level": "N3",
     "category": "Alltag",
@@ -30379,7 +30379,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "永住権を取得しました。",
         "romaji": "Eijuuken o shutoku shimashita.",
-        "german": "Ich habe das Daüraufenthaltsrecht erhalten."
+        "german": "Ich habe das Daueraufenthaltsrecht erhalten."
       }
     ]
   },
@@ -30883,7 +30883,7 @@ window.VOCAB_N3 = [
     "word": "精算",
     "reading": "せいさん",
     "romaji": "seisan",
-    "meaning": "genaü Abrechnung",
+    "meaning": "genaue Abrechnung",
     "type": "Nomen",
     "level": "N3",
     "category": "Alltag",
@@ -31995,7 +31995,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "新商品が入荷しました。",
         "romaji": "Shinshouhin ga nyuuka shimashita.",
-        "german": "Neü Waren sind eingetroffen."
+        "german": "Neue Waren sind eingetroffen."
       }
     ]
   },
@@ -34467,7 +34467,7 @@ window.VOCAB_N3 = [
     "word": "不祝儀袋",
     "reading": "ぶしゅうぎぶくろ",
     "romaji": "bushuugi bukuro",
-    "meaning": "Geldumschlag (Traür)",
+    "meaning": "Geldumschlag (Trauer)",
     "type": "Nomen",
     "level": "N3",
     "category": "Alltag",
@@ -34475,7 +34475,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "不祝儀袋を持参します。",
         "romaji": "Bushuugi bukuro o jisan shimasu.",
-        "german": "Ich bringe einen Traürumschlag mit."
+        "german": "Ich bringe einen Trauerumschlag mit."
       }
     ]
   },
@@ -34499,7 +34499,7 @@ window.VOCAB_N3 = [
     "word": "喪中",
     "reading": "もちゅう",
     "romaji": "mochuu",
-    "meaning": "Traürzeit",
+    "meaning": "Trauerzeit",
     "type": "Nomen",
     "level": "N3",
     "category": "Alltag",
@@ -34507,7 +34507,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "喪中なので年賀状は出しません。",
         "romaji": "Mochuu nanode nengajou wa dashimasen.",
-        "german": "Weil Traürzeit ist, sende ich keine Neujahrskarten."
+        "german": "Weil Trauerzeit ist, sende ich keine Neujahrskarten."
       }
     ]
   },
@@ -35019,7 +35019,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "入道雲が発達している。",
         "romaji": "Nyuudou gumo ga hattatsu shite iru.",
-        "german": "Die Gewitterwolken baün sich auf."
+        "german": "Die Gewitterwolken bauen sich auf."
       }
     ]
   },
@@ -35995,7 +35995,7 @@ window.VOCAB_N3 = [
       {
         "japanese": "万華鏡を覗きます。",
         "romaji": "Mangekyou o nozokimasu.",
-        "german": "Ich schaü durch das Kaleidoskop."
+        "german": "Ich schaue durch das Kaleidoskop."
       }
     ]
   },

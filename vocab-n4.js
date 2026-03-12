@@ -163,7 +163,7 @@ window.VOCAB_N4 = [
     "word": "残念",
     "reading": "ざんねん",
     "romaji": "zannen",
-    "meaning": "schade, bedaürlich",
+    "meaning": "schade, bedauerlich",
     "type": "Adjektiv",
     "level": "N4",
     "category": "Gefühle",
@@ -187,7 +187,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "正確な時間を教えてください。",
         "romaji": "Seikaku na jikan o oshiete kudasai.",
-        "german": "Bitte sagen Sie mir die genaü Zeit."
+        "german": "Bitte sagen Sie mir die genaue Zeit."
       }
     ]
   },
@@ -355,7 +355,7 @@ window.VOCAB_N4 = [
     "word": "続く",
     "reading": "つづく",
     "romaji": "tsuzuku",
-    "meaning": "andaürn, fortdaürn",
+    "meaning": "andauern, fortdauern",
     "type": "Verb",
     "level": "N4",
     "category": "Alltag",
@@ -3515,7 +3515,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "花見に行きましょう。",
         "romaji": "Hanami ni ikimashou.",
-        "german": "Lass uns Kirschblüten anschaün gehen."
+        "german": "Lass uns Kirschblüten anschauen gehen."
       }
     ]
   },
@@ -3595,7 +3595,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "浴衣で花火を見ます。",
         "romaji": "Yukata de hanabi o mimasu.",
-        "german": "Ich schaü Feuerwerk im Yukata."
+        "german": "Ich schaue Feuerwerk im Yukata."
       }
     ]
   },
@@ -3627,7 +3627,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "夏祭りが楽しみです。",
         "romaji": "Natsu matsuri ga tanoshimi desu.",
-        "german": "Ich freü mich auf das Sommerfest."
+        "german": "Ich freue mich auf das Sommerfest."
       }
     ]
   },
@@ -3691,7 +3691,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "相撲を見に行きました。",
         "romaji": "Sumou o mi ni ikimashita.",
-        "german": "Ich bin Sumo anschaün gegangen."
+        "german": "Ich bin Sumo anschauen gegangen."
       }
     ]
   },
@@ -3771,7 +3771,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "畑で野菜を作ります。",
         "romaji": "Hatake de yasai o tsukurimasu.",
-        "german": "Ich baü Gemüse auf dem Feld an."
+        "german": "Ich baue Gemüse auf dem Feld an."
       }
     ]
   },
@@ -3899,7 +3899,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "紅葉を見に行きます。",
         "romaji": "Kouyou o mi ni ikimasu.",
-        "german": "Ich gehe Herbstlaub anschaün."
+        "german": "Ich gehe Herbstlaub anschauen."
       }
     ]
   },
@@ -4891,7 +4891,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "たまに映画を見ます。",
         "romaji": "Tamani eiga o mimasu.",
-        "german": "Ab und zu schaü ich Filme."
+        "german": "Ab und zu schaue ich Filme."
       }
     ]
   },
@@ -5227,7 +5227,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "女性の割合が増えました。",
         "romaji": "Josei no wariai ga fuemashita.",
-        "german": "Der Anteil der Fraün hat zugenommen."
+        "german": "Der Anteil der Frauen hat zugenommen."
       }
     ]
   },
@@ -5339,7 +5339,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "全体を見てください。",
         "romaji": "Zentai o mite kudasai.",
-        "german": "Schaün Sie sich das Ganze an."
+        "german": "Schauen Sie sich das Ganze an."
       }
     ]
   },
@@ -6123,7 +6123,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "統計を見てみましょう。",
         "romaji": "Toukei o mite mimashou.",
-        "german": "Schaün wir uns die Statistik an."
+        "german": "Schauen wir uns die Statistik an."
       }
     ]
   },
@@ -7307,7 +7307,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "どうぞよろしくお願いします。",
         "romaji": "Douzo yoroshiku onegai shimasu.",
-        "german": "Ich freü mich auf die Zusammenarbeit."
+        "german": "Ich freue mich auf die Zusammenarbeit."
       }
     ]
   },
@@ -7347,7 +7347,7 @@ window.VOCAB_N4 = [
     "word": "組み立てる",
     "reading": "くみたてる",
     "romaji": "kumitateru",
-    "meaning": "zusammenbaün, montieren",
+    "meaning": "zusammenbauen, montieren",
     "type": "Verb",
     "level": "N4",
     "category": "Alltag",
@@ -7355,7 +7355,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "家具を組み立てます。",
         "romaji": "Kagu o kumitatemasu.",
-        "german": "Ich baü Möbel zusammen."
+        "german": "Ich baue Möbel zusammen."
       }
     ]
   },
@@ -8875,7 +8875,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "窓から覗きます。",
         "romaji": "Mado kara nozokimasu.",
-        "german": "Ich schaü durchs Fenster."
+        "german": "Ich schaue durchs Fenster."
       }
     ]
   },
@@ -9971,7 +9971,7 @@ window.VOCAB_N4 = [
     "word": "かんかん",
     "reading": "かんかん",
     "romaji": "kankan",
-    "meaning": "glühend heiß, stinksaür",
+    "meaning": "glühend heiß, stinksauer",
     "type": "Adverb",
     "level": "N4",
     "category": "Wetter",
@@ -10899,7 +10899,7 @@ window.VOCAB_N4 = [
     "word": "眉間",
     "reading": "みけん",
     "romaji": "miken",
-    "meaning": "zwischen den Augenbraün",
+    "meaning": "zwischen den Augenbrauen",
     "type": "Nomen",
     "level": "N4",
     "category": "Körper",
@@ -10963,7 +10963,7 @@ window.VOCAB_N4 = [
     "word": "白髪",
     "reading": "しらが",
     "romaji": "shiraga",
-    "meaning": "graüs Haar",
+    "meaning": "graues Haar",
     "type": "Nomen",
     "level": "N4",
     "category": "Körper",
@@ -10971,7 +10971,7 @@ window.VOCAB_N4 = [
       {
         "japanese": "白髪が増えました。",
         "romaji": "Shiraga ga fuemashita.",
-        "german": "Ich habe mehr graü Haare bekommen."
+        "german": "Ich habe mehr graue Haare bekommen."
       }
     ]
   },
