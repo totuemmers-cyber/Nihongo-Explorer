@@ -311,7 +311,7 @@ window.GRAMMAR_DATA = [
     "level": "N5",
     "category": "Partikel",
     "meaning": "Betonungspartikel (Ich sage dir!)",
-    "explanation": "よ wird am Satzende verwendet, um neue Informationen mitzuteilen oder eine Aussage zu betonen. Es signalisiert dem Gesprächspartner, dass man etwas Neüs oder Wichtiges sagt.",
+    "explanation": "よ wird am Satzende verwendet, um neue Informationen mitzuteilen oder eine Aussage zu betonen. Es signalisiert dem Gesprächspartner, dass man etwas Neues oder Wichtiges sagt.",
     "formation": "Satz + よ",
     "examples": [
       {
