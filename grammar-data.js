@@ -520,7 +520,7 @@ window.GRAMMAR_DATA = [
     "level": "N5",
     "category": "Verben",
     "meaning": "Verlaufsform / Zustand",
-    "explanation": "～ている drückt eine andaürnde Handlung (Verlaufsform) oder einen resultierenden Zustand aus. Die höfliche Form ist ～ています. Bei manchen Verben beschreibt es einen Zustand statt einer Aktivität.",
+    "explanation": "～ている drückt eine andauernde Handlung (Verlaufsform) oder einen resultierenden Zustand aus. Die höfliche Form ist ～ています. Bei manchen Verben beschreibt es einen Zustand statt einer Aktivität.",
     "formation": "Verb て-Form + いる / います",
     "examples": [
       {
@@ -534,7 +534,7 @@ window.GRAMMAR_DATA = [
         "german": "Ich wohne in Tokio."
       }
     ],
-    "notes": "Bei Zustandsverben wie 知る, 結婚する, 持つ beschreibt ている den resultierenden Zustand: 知っています (Ich weiß es), nicht eine andaürnde Handlung.",
+    "notes": "Bei Zustandsverben wie 知る, 結婚する, 持つ beschreibt ている den resultierenden Zustand: 知っています (Ich weiß es), nicht eine andauernde Handlung.",
     "related": [
       "te-form"
     ]
@@ -875,7 +875,7 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "週末は本を読んだりテレビを見たりします。",
         "romaji": "Shūmatsu wa hon o yondari terebi o mitari shimasu.",
-        "german": "Am Wochenende lese ich Bücher, schaü Fernsehen und so weiter."
+        "german": "Am Wochenende lese ich Bücher, schaue Fernsehen und so weiter."
       },
       {
         "japanese": "休みの日は買い物したり料理したりしました。",
@@ -1067,7 +1067,7 @@ window.GRAMMAR_DATA = [
     "level": "N5",
     "category": "Verben",
     "meaning": "Versehentlich tun / Vollständig tun",
-    "explanation": "～てしまう hat zwei Bedeutungen: etwas unbeabsichtigt oder bedaürlich tun, oder eine Handlung vollständig abschließen. Die höfliche Form ist ～てしまいます. In der Umgangssprache wird es zu ～ちゃう verkürzt.",
+    "explanation": "～てしまう hat zwei Bedeutungen: etwas unbeabsichtigt oder bedauerlich tun, oder eine Handlung vollständig abschließen. Die höfliche Form ist ～てしまいます. In der Umgangssprache wird es zu ～ちゃう verkürzt.",
     "formation": "Verb て-Form + しまう",
     "examples": [
       {
@@ -1824,7 +1824,7 @@ window.GRAMMAR_DATA = [
     "level": "N5",
     "category": "Satzstrukturen",
     "meaning": "Nur / Nichts als (betont Begrenzung)",
-    "explanation": "～しか～ない bedeutet 'nur' und betont, dass etwas wenig oder begrenzt ist. Es wird immer mit der negativen Verbform verwendet und drückt oft Enttäuschung oder Bedaürn aus.",
+    "explanation": "～しか～ない bedeutet 'nur' und betont, dass etwas wenig oder begrenzt ist. Es wird immer mit der negativen Verbform verwendet und drückt oft Enttäuschung oder Bedauern aus.",
     "formation": "Nomen + しか + Verb (negativ)",
     "examples": [
       {
@@ -2597,7 +2597,7 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "映画を見よう。",
         "romaji": "Eiga o miyō.",
-        "german": "Lass uns einen Film schaün."
+        "german": "Lass uns einen Film schauen."
       },
       {
         "japanese": "明日早く起きようと思う。",
@@ -3002,7 +3002,7 @@ window.GRAMMAR_DATA = [
     "level": "N4",
     "category": "Verben",
     "meaning": "Fertig sein mit, beenden",
-    "explanation": "終わる als Suffix drückt ab, dass eine Handlung zu Ende gebracht wurde.",
+    "explanation": "終わる als Suffix drückt aus, dass eine Handlung zu Ende gebracht wurde.",
     "formation": "Verb (ます-Stamm) + 終わる",
     "examples": [
       {
@@ -3107,7 +3107,7 @@ window.GRAMMAR_DATA = [
     "level": "N4",
     "category": "Verben",
     "meaning": "Ist gemacht worden (Zustandsresultat)",
-    "explanation": "てある drückt aus, dass eine absichtliche Handlung ausgeführt wurde und deren Ergebnis noch andaürt.",
+    "explanation": "てある drückt aus, dass eine absichtliche Handlung ausgeführt wurde und deren Ergebnis noch andauert.",
     "formation": "Verb (て-Form) + ある",
     "examples": [
       {
@@ -4076,7 +4076,7 @@ window.GRAMMAR_DATA = [
     "level": "N4",
     "category": "Satzstrukturen",
     "meaning": "Während (Zeitraum)",
-    "explanation": "間に: innerhalb eines Zeitraums. 間: die gesamte Daür.",
+    "explanation": "間に: innerhalb eines Zeitraums. 間: die gesamte Dauer.",
     "formation": "Verb (ている) + 間(に) / Nomen + の間(に)",
     "examples": [
       {
@@ -4230,7 +4230,7 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "週末は映画とか買い物とかする。",
         "romaji": "Shūmatsu wa eiga toka kaimono toka suru.",
-        "german": "Am Wochenende Filme schaün, einkaufen usw."
+        "german": "Am Wochenende Filme schauen, einkaufen usw."
       },
       {
         "japanese": "りんごとかバナナとか買ってきて。",
@@ -4275,7 +4275,7 @@ window.GRAMMAR_DATA = [
     "level": "N4",
     "category": "Satzstrukturen",
     "meaning": "Hätte sollen",
-    "explanation": "ばよかった: Bedaürn über etwas nicht Getanes.",
+    "explanation": "ばよかった: Bedauern über etwas nicht Getanes.",
     "formation": "Verb (ば-Form) + よかった",
     "examples": [
       {
@@ -4542,7 +4542,7 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "高いことは高いが、品質はいい。",
         "romaji": "Takai koto wa takai ga, hinshitsu wa ii.",
-        "german": "Teür ist es zwar, aber die Qualität ist gut."
+        "german": "Teuer ist es zwar, aber die Qualität ist gut."
       }
     ],
     "notes": "Das gleiche Verb/Adj wird wiederholt.",
@@ -5554,7 +5554,7 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "残念でならない。",
         "romaji": "Zannen de naranai.",
-        "german": "Es ist zutiefst bedaürlich."
+        "german": "Es ist zutiefst bedauerlich."
       }
     ],
     "notes": "Formeller als ～てたまらない. Eher für emotionale Gefühle.",
@@ -5640,7 +5640,7 @@ window.GRAMMAR_DATA = [
     "level": "N3",
     "category": "Verben",
     "meaning": "Seit (einem Ereignis)",
-    "explanation": "て以来: seit einem bestimmten Ereignis, der Zustand daürt an.",
+    "explanation": "て以来: seit einem bestimmten Ereignis, der Zustand dauert an.",
     "formation": "Verb (て-Form) + 以来",
     "examples": [
       {
@@ -5654,7 +5654,7 @@ window.GRAMMAR_DATA = [
         "german": "Seit dem Abschluss habe ich ihn nicht mehr gesehen."
       }
     ],
-    "notes": "Formeller als ～てから. Der Zustand nach dem Ereignis daürt an.",
+    "notes": "Formeller als ～てから. Der Zustand nach dem Ereignis dauert an.",
     "related": [
       "n4-ato-de"
     ]
@@ -6375,7 +6375,7 @@ window.GRAMMAR_DATA = [
     "level": "N3",
     "category": "Satzstrukturen",
     "meaning": "Solange, bevor es sich ändert",
-    "explanation": "うちに: etwas tun, solange ein Zustand noch andaürt.",
+    "explanation": "うちに: etwas tun, solange ein Zustand noch andauert.",
     "formation": "Verb (辞書形/ない形/ている) + うちに / Adj + うちに",
     "examples": [
       {
@@ -6431,7 +6431,7 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "説明書のとおりに組み立ててください。",
         "romaji": "Setsumeisho no tōri ni kumitatete kudasai.",
-        "german": "Baün Sie es gemäß der Anleitung zusammen."
+        "german": "Bauen Sie es gemäß der Anleitung zusammen."
       },
       {
         "japanese": "思ったとおりだった。",
@@ -6537,7 +6537,7 @@ window.GRAMMAR_DATA = [
         "german": "Nur weil ich kein Geld hatte, gab ich meinen Traum auf."
       }
     ],
-    "notes": "Immer negatives Ergebnis. Bedaürn.",
+    "notes": "Immer negatives Ergebnis. Bedauern.",
     "related": [
       "n4-sei-de"
     ]
@@ -6623,7 +6623,7 @@ window.GRAMMAR_DATA = [
     "level": "N3",
     "category": "Satzstrukturen",
     "meaning": "Solange, soweit",
-    "explanation": "限り: solange ein Zustand andaürt / soweit man weiß.",
+    "explanation": "限り: solange ein Zustand andauert / soweit man weiß.",
     "formation": "Verb (辞書形/ない形/ている) + 限り",
     "examples": [
       {
@@ -6732,7 +6732,7 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "分からないことはないが、説明しにくい。",
         "romaji": "Wakaranai koto wa nai ga, setsumei shinikui.",
-        "german": "Verstehen tü ich es, aber es ist schwer zu erklären."
+        "german": "Verstehen tue ich es, aber es ist schwer zu erklären."
       }
     ],
     "notes": "Schwache Bejahung mit Vorbehalt.",
@@ -6983,7 +6983,7 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "明日お伺いしてもよろしいですか。",
         "romaji": "Ashita oukagai shitemo yoroshii desu ka.",
-        "german": "Darf ich morgen bei Ihnen vorbeischaün (bescheiden)?"
+        "german": "Darf ich morgen bei Ihnen vorbeischauen (bescheiden)?"
       }
     ],
     "notes": "Spezialformen: 行く/来る→参る, 言う→申す, する→いたす, 見る→拝見する.",
@@ -7108,7 +7108,7 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "夜九時以降はスマホを見ないことにしている。",
         "romaji": "Yoru kuji ikō wa sumaho o minai koto ni shiteiru.",
-        "german": "Ich habe mir vorgenommen, nach 21 Uhr nicht mehr aufs Handy zu schaün."
+        "german": "Ich habe mir vorgenommen, nach 21 Uhr nicht mehr aufs Handy zu schauen."
       }
     ],
     "notes": "Betont bewusste persönliche Entscheidung als Gewohnheit.",
@@ -7502,7 +7502,7 @@ window.GRAMMAR_DATA = [
     "level": "N3",
     "category": "Satzstrukturen",
     "meaning": "Ich wünschte, wenn doch nur",
-    "explanation": "ばいいのに: drückt einen unerfüllten Wunsch oder Bedaürn aus.",
+    "explanation": "ばいいのに: drückt einen unerfüllten Wunsch oder Bedauern aus.",
     "formation": "Verb (ば-Form) + いいのに",
     "examples": [
       {
