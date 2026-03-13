@@ -1072,7 +1072,7 @@ SECTION_CONFIGS.onomatopoeia = {
     card.innerHTML =
       '<div class="ono-card-header">' +
         '<span class="ono-card-word">' + o.word + '</span>' +
-        '<span class="ono-category-badge ' + o.category + '">' + o.categoryJP + '</span>' +
+        '<span class="ono-category-badge ' + o.category + '">' + o.category + '</span>' +
       '</div>' +
       '<div class="ono-card-reading">' + (o.reading || '') + '</div>' +
       '<div class="ono-card-meaning">' + o.meaning + '</div>';
@@ -1091,7 +1091,7 @@ SECTION_CONFIGS.onomatopoeia = {
   openDetail: function (o, dom, section) {
     document.getElementById('ono-detail-word').textContent = o.word;
     var catBadge = document.getElementById('ono-detail-category');
-    catBadge.textContent = o.categoryJP;
+    catBadge.textContent = o.category;
     catBadge.className = 'ono-category-badge ' + o.category;
     var patBadge = document.getElementById('ono-detail-pattern');
     patBadge.textContent = o.pattern;
