@@ -39375,7 +39375,7 @@ window.VOCAB_N3 = [
     "examples": [
       {
         "japanese": "都庁の前には、１９９５年の型のホンダ・シビックが停まっていた。",
-        "romaji": "Tochou no mae ni wa, ichi kyuu kyuu gonen no kata no Honda Shibikku ga toma matte ita.",
+        "romaji": "Tochou no mae ni wa, senkyuuhyakukyuujuugonen no kata no Honda Shibikku ga toma matte ita.",
         "german": "Vor dem Regierungsgebäude stand ein Honda Civic, Baujahr 1995."
       }
     ]
@@ -43007,7 +43007,7 @@ window.VOCAB_N3 = [
     "examples": [
       {
         "japanese": "ただし、一人当たり１００万円を限度とする。",
-        "romaji": "Tadashi, ichinin atari ichi zero zero man'en o gendo to suru.",
+        "romaji": "Tadashi, ichinin atari hyakuman'en o gendo to suru.",
         "german": "Allerdings ist zu beachten, dass die Obergrenze bei einer Million Yen pro Person liegt."
       }
     ]

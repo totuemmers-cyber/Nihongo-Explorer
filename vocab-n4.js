@@ -12863,7 +12863,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "水深は最深で３００mもある。",
-        "romaji": "Suishin wa saishin de san zero zero m mo aru.",
+        "romaji": "Suishin wa saishin de sanbyaku m mo aru.",
         "german": "Die Wassertiefe beträgt an der tiefsten Stelle 300 Meter."
       }
     ]

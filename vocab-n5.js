@@ -14154,7 +14154,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "２０１１年に、日本にいきました。",
-        "romaji": "Ni zero ichi ichinen ni, Nippon ni ikimashita.",
+        "romaji": "Nisenjuuichinen ni, Nippon ni ikimashita.",
         "german": "Im Jahr 2011 bin ich nach Japan gereist."
       }
     ]
@@ -15370,7 +15370,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "２０１８年に男の子が生まれました。",
-        "romaji": "Ni zero ichi hachinen ni otokonoko ga umaremashita.",
+        "romaji": "Nisenjuuhachinen ni otokonoko ga umaremashita.",
         "german": "Im Jahr 2018 wurde ein Junge geboren."
       }
     ]

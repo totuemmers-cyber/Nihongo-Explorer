@@ -60410,7 +60410,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "冥王星の軌道は不規則で、太陽を一周する期間は約２５０年です。",
-        "romaji": "Meiousei no kidou wa fukisoku de, taiyou o isshuu suru kikan wa yaku ni go zeronen desu.",
+        "romaji": "Meiousei no kidou wa fukisoku de, taiyou o isshuu suru kikan wa yaku nihyakugojuunen desu.",
         "german": "Die Umlaufbahn des Pluto ist unregelmäßig und er braucht etwa 250 Jahre für eine Umrundung der Sonne."
       }
     ]
