@@ -81,15 +81,15 @@
   --vt-partikel-bg: #f0fdfa;
   --vt-partikel-border: #99f6e4;
   /* Onomatopoeia categories */
-  --oc-geraeusche: #3b82f6;
-  --oc-geraeusche-bg: #eff6ff;
-  --oc-geraeusche-border: #bfdbfe;
-  --oc-zustaende: #10b981;
-  --oc-zustaende-bg: #ecfdf5;
-  --oc-zustaende-border: #a7f3d0;
-  --oc-gefuehle: #ec4899;
-  --oc-gefuehle-bg: #fdf2f8;
-  --oc-gefuehle-border: #fbcfe8;
+  --oc-geräusche: #3b82f6;
+  --oc-geräusche-bg: #eff6ff;
+  --oc-geräusche-border: #bfdbfe;
+  --oc-zustände: #10b981;
+  --oc-zustände-bg: #ecfdf5;
+  --oc-zustände-border: #a7f3d0;
+  --oc-gefühle: #ec4899;
+  --oc-gefühle-bg: #fdf2f8;
+  --oc-gefühle-border: #fbcfe8;
   --oc-bewegung: #f59e0b;
   --oc-bewegung-bg: #fffbeb;
   --oc-bewegung-border: #fde68a;
@@ -127,12 +127,12 @@
   --vt-ausdruck-border: #be185d;
   --vt-partikel-bg: #134e4a;
   --vt-partikel-border: #0d9488;
-  --oc-geraeusche-bg: #1e3a5f;
-  --oc-geraeusche-border: #2563eb;
-  --oc-zustaende-bg: #064e3b;
-  --oc-zustaende-border: #065f46;
-  --oc-gefuehle-bg: #831843;
-  --oc-gefuehle-border: #be185d;
+  --oc-geräusche-bg: #1e3a5f;
+  --oc-geräusche-border: #2563eb;
+  --oc-zustände-bg: #064e3b;
+  --oc-zustände-border: #065f46;
+  --oc-gefühle-bg: #831843;
+  --oc-gefühle-border: #be185d;
   --oc-bewegung-bg: #78350f;
   --oc-bewegung-border: #92400e;
 }
@@ -1594,22 +1594,22 @@ main {
   flex-shrink: 0;
 }
 
-.ono-category-badge.Geraeusche {
-  background: var(--oc-geraeusche-bg);
-  color: var(--oc-geraeusche);
-  border: 1px solid var(--oc-geraeusche-border);
+.ono-category-badge.Geräusche {
+  background: var(--oc-geräusche-bg);
+  color: var(--oc-geräusche);
+  border: 1px solid var(--oc-geräusche-border);
 }
 
-.ono-category-badge.Zustaende {
-  background: var(--oc-zustaende-bg);
-  color: var(--oc-zustaende);
-  border: 1px solid var(--oc-zustaende-border);
+.ono-category-badge.Zustände {
+  background: var(--oc-zustände-bg);
+  color: var(--oc-zustände);
+  border: 1px solid var(--oc-zustände-border);
 }
 
-.ono-category-badge.Gefuehle {
-  background: var(--oc-gefuehle-bg);
-  color: var(--oc-gefuehle);
-  border: 1px solid var(--oc-gefuehle-border);
+.ono-category-badge.Gefühle {
+  background: var(--oc-gefühle-bg);
+  color: var(--oc-gefühle);
+  border: 1px solid var(--oc-gefühle-border);
 }
 
 .ono-category-badge.Bewegung {
@@ -1631,25 +1631,25 @@ main {
 }
 
 /* === FILTER BUTTON CATEGORY COLORS === */
-.filter-btn.oc-geraeusche.active,
-.filter-btn.oc-geraeusche:hover {
-  background: var(--oc-geraeusche);
+.filter-btn.oc-geräusche.active,
+.filter-btn.oc-geräusche:hover {
+  background: var(--oc-geräusche);
   color: white;
-  border-color: var(--oc-geraeusche);
+  border-color: var(--oc-geräusche);
 }
 
-.filter-btn.oc-zustaende.active,
-.filter-btn.oc-zustaende:hover {
-  background: var(--oc-zustaende);
+.filter-btn.oc-zustände.active,
+.filter-btn.oc-zustände:hover {
+  background: var(--oc-zustände);
   color: white;
-  border-color: var(--oc-zustaende);
+  border-color: var(--oc-zustände);
 }
 
-.filter-btn.oc-gefuehle.active,
-.filter-btn.oc-gefuehle:hover {
-  background: var(--oc-gefuehle);
+.filter-btn.oc-gefühle.active,
+.filter-btn.oc-gefühle:hover {
+  background: var(--oc-gefühle);
   color: white;
-  border-color: var(--oc-gefuehle);
+  border-color: var(--oc-gefühle);
 }
 
 .filter-btn.oc-bewegung.active,

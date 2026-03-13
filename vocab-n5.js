@@ -16203,7 +16203,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "後でホテルに来て下さい。",
         "romaji": "Atode hoteru ni kite kudasai.",
-        "german": "Bitte kommen Sie spaeter ins Hotel."
+        "german": "Bitte kommen Sie später ins Hotel."
       }
     ]
   },
@@ -16219,7 +16219,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "海外に行きたいなぁ。",
         "romaji": "Kaigai ni ikitai naa.",
-        "german": "Ich moechte ins Ausland reisen."
+        "german": "Ich möchte ins Ausland reisen."
       }
     ]
   },
@@ -16307,7 +16307,7 @@ window.VOCAB_N5 = [
     "word": "出来る",
     "reading": "できる",
     "romaji": "dekiru",
-    "meaning": "koennen",
+    "meaning": "können",
     "type": "Verb",
     "level": "N5",
     "category": "Handlung",
@@ -16379,7 +16379,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "今年はダイエットをしたいです。",
         "romaji": "Kotoshi wa daietto o shitaidesu.",
-        "german": "Dieses Jahr moechte ich eine Diaet machen."
+        "german": "Dieses Jahr möchte ich eine Diät machen."
       }
     ]
   },
@@ -16459,7 +16459,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "私立の大学に入りたいです。",
         "romaji": "Shiritsu no daigaku ni hairitaidesu.",
-        "german": "Ich moechte an einer privaten Universitaet studieren."
+        "german": "Ich möchte an einer privaten Universität studieren."
       }
     ]
   },
@@ -16507,7 +16507,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "宝くじはインターネットで手に入ります。",
         "romaji": "Takarakuji wa intaanetto de te ni hairimasu.",
-        "german": "Die Lotterie ist im Internet erhaeltlich."
+        "german": "Die Lotterie ist im Internet erhältlich."
       }
     ]
   },
@@ -16595,7 +16595,7 @@ window.VOCAB_N5 = [
     "word": "国王",
     "reading": "こくおう",
     "romaji": "kokuou",
-    "meaning": "Koenig",
+    "meaning": "König",
     "type": "Adjektiv",
     "level": "N5",
     "category": "Politik",
@@ -16603,7 +16603,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "今のイギリスの国王はチャールズ三世です。",
         "romaji": "Ima no Igirisu no kokuou wa Chaaruzu sansei desu.",
-        "german": "Der aktuelle britische Koenig ist Charles III."
+        "german": "Der aktuelle britische König ist Charles III."
       }
     ]
   },
@@ -16779,7 +16779,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "一千万ドルがほしいなぁ。",
         "romaji": "Ichi sen mandoru ga hoshii naa.",
-        "german": "Ich wuensche mir zehn Millionen Dollar."
+        "german": "Ich wünsche mir zehn Millionen Dollar."
       }
     ]
   },
@@ -16859,7 +16859,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "お金がぜんぜんない。",
         "romaji": "Okane ga zenzen nai.",
-        "german": "Ich habe ueberhaupt kein Geld."
+        "german": "Ich habe überhaupt kein Geld."
       }
     ]
   },
@@ -16891,7 +16891,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "私は西ヨーロッパに行きたいです。",
         "romaji": "Watashi wa nishi Youroppa ni ikitaidesu.",
-        "german": "Ich moechte nach Westeuropa reisen."
+        "german": "Ich möchte nach Westeuropa reisen."
       }
     ]
   },
@@ -16939,7 +16939,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "大学に入学する考えはありません。",
         "romaji": "Daigaku ni nyuugaku suru kangae wa arimasen.",
-        "german": "Ich habe nicht vor, an der Universitaet zu studieren."
+        "german": "Ich habe nicht vor, an der Universität zu studieren."
       }
     ]
   },
@@ -17035,7 +17035,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "ホットドッグにケチャップ付ける？",
         "romaji": "Hottodoggu ni kechappu tsukeru?",
-        "german": "Moechtest du Ketchup auf deinen Hotdog?"
+        "german": "Möchtest du Ketchup auf deinen Hotdog?"
       }
     ]
   },
@@ -17067,7 +17067,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "そんなにジャンプすると体力を失うよ。",
         "romaji": "Sonnani janpu suru to tairyoku o ushinau yo.",
-        "german": "Wenn du so viel springst, verlierst du deine Koerperkraft."
+        "german": "Wenn du so viel springst, verlierst du deine Körperkraft."
       }
     ]
   },
@@ -17083,7 +17083,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "なんて失礼な男だ。",
         "romaji": "Nante shitsurei na otoko da.",
-        "german": "Was fuer ein unhoeflicher Mann."
+        "german": "Was für ein unhöflicher Mann."
       }
     ]
   },
@@ -17259,7 +17259,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "地理を学ぶために大学へ行きました。",
         "romaji": "Chiri o manabu tame ni daigaku e ikimashita.",
-        "german": "Ich bin an die Universitaet gegangen, um Geographie zu lernen."
+        "german": "Ich bin an die Universität gegangen, um Geographie zu lernen."
       }
     ]
   },
@@ -17355,7 +17355,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "白鳥の羽は、白くてきれいです。",
         "romaji": "Hakuchou no hane wa, shirokute kirei desu.",
-        "german": "Schwanenfedern sind weiss und schoen."
+        "german": "Schwanenfedern sind weiß und schön."
       }
     ]
   },
@@ -17819,7 +17819,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "五千円以下の中古のテレビはありますか？",
         "romaji": "Go sen'en ika no chuuko no terebi wa arimasu ka?",
-        "german": "Gibt es einen gebrauchten Fernseher fuer 5.000 Yen oder weniger?"
+        "german": "Gibt es einen gebrauchten Fernseher für 5.000 Yen oder weniger?"
       }
     ]
   },
@@ -17835,7 +17835,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "町民は毎年みんなで花見に行く。",
         "romaji": "Choumin wa maitoshi minna de hanami ni iku.",
-        "german": "Die Stadtbewohner gehen jedes Jahr zusammen Kirschblueten anschauen."
+        "german": "Die Stadtbewohner gehen jedes Jahr zusammen Kirschblüten anschauen."
       }
     ]
   },
@@ -17843,7 +17843,7 @@ window.VOCAB_N5 = [
     "word": "来週",
     "reading": "らいしゅう",
     "romaji": "raishuu",
-    "meaning": "naechste Woche",
+    "meaning": "nächste Woche",
     "type": "Nomen",
     "level": "N5",
     "category": "Zeit",
@@ -17851,7 +17851,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "次のクラスは来週です。",
         "romaji": "Tsugi no kurasu wa raishuu desu.",
-        "german": "Der naechste Kurs ist naechste Woche."
+        "german": "Der nächste Kurs ist nächste Woche."
       }
     ]
   },
@@ -17899,7 +17899,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "このパンは、二斤で五百円です。",
         "romaji": "Kono pan wa, nikin de go hyakuen desu.",
-        "german": "Dieses Brot kostet 500 Yen fuer zwei Laibe."
+        "german": "Dieses Brot kostet 500 Yen für zwei Laibe."
       }
     ]
   },
@@ -17995,7 +17995,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "今日は、ナポレオン三世について学びましょう。",
         "romaji": "Kyou wa, Naporeon sansei nitsuite manabimashou.",
-        "german": "Heute lernen wir ueber Napoleon den Dritten."
+        "german": "Heute lernen wir über Napoleon den Dritten."
       }
     ]
   },
@@ -18147,7 +18147,7 @@ window.VOCAB_N5 = [
     "word": "次回",
     "reading": "じかい",
     "romaji": "jikai",
-    "meaning": "naechstes Mal",
+    "meaning": "nächstes Mal",
     "type": "Nomen",
     "level": "N5",
     "category": "Zeit",
@@ -18155,7 +18155,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "次回は、いつですか？",
         "romaji": "Jikai wa, itsudesu ka?",
-        "german": "Wann ist das naechste Mal?"
+        "german": "Wann ist das nächste Mal?"
       }
     ]
   },
@@ -18171,7 +18171,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "さっきテレビで中東のニュースを見ました。",
         "romaji": "Sakki terebi de Chuutou no nyuusu o mimashita.",
-        "german": "Ich habe gerade Nachrichten ueber den Nahen Osten im Fernsehen gesehen."
+        "german": "Ich habe gerade Nachrichten über den Nahen Osten im Fernsehen gesehen."
       }
     ]
   },
@@ -18211,7 +18211,7 @@ window.VOCAB_N5 = [
     "word": "馬力",
     "reading": "ばりき",
     "romaji": "bariki",
-    "meaning": "Pferdestaerke",
+    "meaning": "Pferdestärke",
     "type": "Nomen",
     "level": "N5",
     "category": "Technik",
@@ -18219,7 +18219,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "スポーツカーは、高い馬力を持っています。",
         "romaji": "Supoutsukaa wa, takai bariki o motte imasu.",
-        "german": "Sportwagen haben eine hohe Pferdestaerke."
+        "german": "Sportwagen haben eine hohe Pferdestärke."
       }
     ]
   },
@@ -18243,7 +18243,7 @@ window.VOCAB_N5 = [
     "word": "医大",
     "reading": "いだい",
     "romaji": "idai",
-    "meaning": "Medizinische Universitaet",
+    "meaning": "Medizinische Universität",
     "type": "Nomen",
     "level": "N5",
     "category": "Bildung",
@@ -18251,7 +18251,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "医大に入るにはお金がかかります。",
         "romaji": "Idai ni hairu ni wa okane ga kakarimasu.",
-        "german": "Es kostet Geld, an einer medizinischen Universitaet zu studieren."
+        "german": "Es kostet Geld, an einer medizinischen Universität zu studieren."
       }
     ]
   },
@@ -18267,7 +18267,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "大学では医学を学びます。",
         "romaji": "Daigaku de wa igaku o manabimasu.",
-        "german": "An der Universitaet studiere ich Medizin."
+        "german": "An der Universität studiere ich Medizin."
       }
     ]
   },
@@ -18291,7 +18291,7 @@ window.VOCAB_N5 = [
     "word": "〜君",
     "reading": "くん",
     "romaji": "kun",
-    "meaning": "Anrede fuer Jungen",
+    "meaning": "Anrede für Jungen",
     "type": "Partikel",
     "level": "N5",
     "category": "Sprache",
@@ -18307,7 +18307,7 @@ window.VOCAB_N5 = [
     "word": "対する",
     "reading": "たいする",
     "romaji": "taisuru",
-    "meaning": "gegenueberstehen",
+    "meaning": "gegenüberstehen",
     "type": "Verb",
     "level": "N5",
     "category": "Handlung",
@@ -18315,7 +18315,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "ドルに対する円のレートは、今いくらですか？",
         "romaji": "Doru nitaisuru en no reeto wa, kon ikura desu ka?",
-        "german": "Wie hoch ist der Wechselkurs des Yen gegenueber dem Dollar?"
+        "german": "Wie hoch ist der Wechselkurs des Yen gegenüber dem Dollar?"
       }
     ]
   },
@@ -18331,7 +18331,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "東京支局からポートランドの本社にもどって下さい。",
         "romaji": "Toukyou shikyoku kara poutorando no honsha ni modotte kudasai.",
-        "german": "Bitte kehren Sie von der Zweigstelle in Tokio zur Zentrale in Portland zurueck."
+        "german": "Bitte kehren Sie von der Zweigstelle in Tokio zur Zentrale in Portland zurück."
       }
     ]
   },
@@ -18371,7 +18371,7 @@ window.VOCAB_N5 = [
     "word": "心身",
     "reading": "しんしん",
     "romaji": "shinshin",
-    "meaning": "Koerper und Geist",
+    "meaning": "Körper und Geist",
     "type": "Adjektiv",
     "level": "N5",
     "category": "Gesundheit",
@@ -18379,7 +18379,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "心身のために毎日ヨガをしましょう。",
         "romaji": "Shinshin no tame ni mainichi yoga o shimashou.",
-        "german": "Lass uns jeden Tag Yoga fuer Koerper und Geist machen."
+        "german": "Lass uns jeden Tag Yoga für Körper und Geist machen."
       }
     ]
   },
@@ -18387,15 +18387,15 @@ window.VOCAB_N5 = [
     "word": "全身",
     "reading": "ぜんしん",
     "romaji": "zenshin",
-    "meaning": "ganzer Koerper",
+    "meaning": "ganzer Körper",
     "type": "Adjektiv",
     "level": "N5",
-    "category": "Koerper",
+    "category": "Körper",
     "examples": [
       {
         "japanese": "一日に一回、全身にスプレーして下さい。",
         "romaji": "Ichinichi ni ichikai, zenshin ni supuree shite kudasai.",
-        "german": "Bitte besprühen Sie einmal taeglich den ganzen Koerper."
+        "german": "Bitte besprühen Sie einmal täglich den ganzen Körper."
       }
     ]
   },
@@ -18427,7 +18427,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "この本の作者に会いたいです。",
         "romaji": "Kono hon no sakusha ni aitaidesu.",
-        "german": "Ich moechte den Autor dieses Buches treffen."
+        "german": "Ich möchte den Autor dieses Buches treffen."
       }
     ]
   },
@@ -18515,7 +18515,7 @@ window.VOCAB_N5 = [
     "word": "朝ごはん",
     "reading": "あさごはん",
     "romaji": "asagohan",
-    "meaning": "Fruehstueck",
+    "meaning": "Frühstück",
     "type": "Nomen",
     "level": "N5",
     "category": "Essen",
@@ -18523,7 +18523,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "毎日の朝ごはんはベーコンとパンです。",
         "romaji": "Mainichi no asa gohan wa beekon to pan desu.",
-        "german": "Mein taegliches Fruehstueck ist Speck und Brot."
+        "german": "Mein tägliches Frühstück ist Speck und Brot."
       }
     ]
   },
@@ -18651,7 +18651,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "この会社のスタッフの人数は二十人です。",
         "romaji": "Kono kaisha no sutaffu no ninzuu wa ni juunin desu.",
-        "german": "Die Mitarbeiterzahl dieser Firma betraegt zwanzig Personen."
+        "german": "Die Mitarbeiterzahl dieser Firma beträgt zwanzig Personen."
       }
     ]
   },
@@ -18755,7 +18755,7 @@ window.VOCAB_N5 = [
     "word": "全く",
     "reading": "まったく",
     "romaji": "mattaku",
-    "meaning": "voellig",
+    "meaning": "völlig",
     "type": "Verb",
     "level": "N5",
     "category": "Art und Weise",
@@ -18875,7 +18875,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "女も男もメイクで化けることが出来る。",
         "romaji": "Onna mo otoko mo meiku de bakeru koto ga dekiru.",
-        "german": "Sowohl Frauen als auch Maenner koennen sich mit Make-up verwandeln."
+        "german": "Sowohl Frauen als auch Männer können sich mit Make-up verwandeln."
       }
     ]
   },
@@ -18891,7 +18891,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "ノックの音の後、ドアノブを回す音がした。",
         "romaji": "Nokku no oto no nochi, doa nobu o mawasu oto ga shita.",
-        "german": "Nach dem Klopfen hoerte man das Geraeusch der Tuerklinke."
+        "german": "Nach dem Klopfen hörte man das Geräusch der Türklinke."
       }
     ]
   },
@@ -18907,7 +18907,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "私自身はコーヒーもお茶も両方のみます。",
         "romaji": "Watashi jishin wa kouhii mo ocha mo ryouhou nomi masu.",
-        "german": "Ich persoenlich trinke sowohl Kaffee als auch Tee."
+        "german": "Ich persönlich trinke sowohl Kaffee als auch Tee."
       }
     ]
   },
@@ -18915,7 +18915,7 @@ window.VOCAB_N5 = [
     "word": "私立大学",
     "reading": "しりつだいがく",
     "romaji": "shiritsudaigaku",
-    "meaning": "Privatuniversitaet",
+    "meaning": "Privatuniversität",
     "type": "Nomen",
     "level": "N5",
     "category": "Bildung",
@@ -18923,7 +18923,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "私立大学に入学したいです。",
         "romaji": "Shiritsu daigaku ni nyuugaku shitaidesu.",
-        "german": "Ich moechte an einer Privatuniversitaet studieren."
+        "german": "Ich möchte an einer Privatuniversität studieren."
       }
     ]
   },
@@ -18971,7 +18971,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "もう少し後ろに向けることは出来ますか？",
         "romaji": "Mousukoshi ushiro ni mukeru koto wa dekimasu ka?",
-        "german": "Koennen Sie es noch etwas weiter nach hinten richten?"
+        "german": "Können Sie es noch etwas weiter nach hinten richten?"
       }
     ]
   },
@@ -19003,7 +19003,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "地中海にはキレイなビーチが広がっています。",
         "romaji": "Chichuukai ni wa kirei na biichi ga hirogatte imasu.",
-        "german": "Am Mittelmeer erstreckt sich ein wunderschoener Strand."
+        "german": "Am Mittelmeer erstreckt sich ein wunderschöner Strand."
       }
     ]
   },
@@ -19019,7 +19019,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "一日も早く水道から水が出るようにしたいんです。",
         "romaji": "Ichinichi mo hayaku suidou kara mizu ga deru you ni shitai n desu.",
-        "german": "Ich moechte so schnell wie moeglich fliessendes Wasser haben."
+        "german": "Ich möchte so schnell wie möglich fließendes Wasser haben."
       }
     ]
   },
@@ -19211,7 +19211,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "二人のライバルがついに対決することになった。",
         "romaji": "Ninin no raibaru ga tsuini taiketsu suru koto ni natta.",
-        "german": "Die beiden Rivalen werden sich endlich gegenueberstehen."
+        "german": "Die beiden Rivalen werden sich endlich gegenüberstehen."
       }
     ]
   },
@@ -19219,7 +19219,7 @@ window.VOCAB_N5 = [
     "word": "南アフリカ",
     "reading": "みなみあふりか",
     "romaji": "minamiafurika",
-    "meaning": "Suedafrika",
+    "meaning": "Südafrika",
     "type": "Nomen",
     "level": "N5",
     "category": "Geographie",
@@ -19227,7 +19227,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "南アフリカではラグビーがとても人気です。",
         "romaji": "Minamiafurika de wa ragubii ga totemo ninki desu.",
-        "german": "Rugby ist in Suedafrika sehr beliebt."
+        "german": "Rugby ist in Südafrika sehr beliebt."
       }
     ]
   },
@@ -19275,7 +19275,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "ハート形の風船を買いました。",
         "romaji": "Haatogata no fuusen o kaimashita.",
-        "german": "Ich habe einen herzfoermigen Luftballon gekauft."
+        "german": "Ich habe einen herzförmigen Luftballon gekauft."
       }
     ]
   },
@@ -19339,7 +19339,7 @@ window.VOCAB_N5 = [
       {
         "japanese": "この和室にアンティークのソファを買いたいと思っています。",
         "romaji": "Kono washitsu ni anteiiku no sofua o kaitai to omotte imasu.",
-        "german": "Ich moechte ein antikes Sofa fuer dieses japanische Zimmer kaufen."
+        "german": "Ich möchte ein antikes Sofa für dieses japanische Zimmer kaufen."
       }
     ]
   },

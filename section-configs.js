@@ -1041,7 +1041,7 @@ SECTION_CONFIGS.onomatopoeia = {
   },
 
   sortFn: function (items, sortKey) {
-    var catOrder = { 'Geraeusche': 0, 'Zustaende': 1, 'Gefuehle': 2, 'Bewegung': 3 };
+    var catOrder = { 'Geräusche': 0, 'Zustände': 1, 'Gefühle': 2, 'Bewegung': 3 };
     var patOrder = { 'ABAB': 0, 'ABっと': 1, 'Andere': 2 };
     items.sort(function (a, b) {
       if (sortKey === 'category') {
