@@ -13178,7 +13178,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "このカレー、中々おいしいですね。",
-        "romaji": "Kono karee, naka 々 oishiidesu ne.",
+        "romaji": "Kono karee, nakanaka oishiidesu ne.",
         "german": "Dieses Curry ist ziemlich lecker."
       }
     ]
@@ -13306,7 +13306,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "「おはよう！」と、王子がいった。",
-        "romaji": "「 ohayou! 」 to, ouji ga itta.",
+        "romaji": "Ohayou! To, ouji ga itta.",
         "german": "\"Guten Morgen!\", sagte der Prinz."
       }
     ]
@@ -13730,7 +13730,7 @@ window.VOCAB_N5 = [
   {
     "word": "今日は",
     "reading": "こんにちは",
-    "romaji": "konnichiha",
+    "romaji": "konnichiwa",
     "meaning": "Hallo",
     "type": "Ausdruck",
     "level": "N5",
@@ -13818,7 +13818,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "山びこだ！きこえる？",
-        "romaji": "Yamabiko da! kikoeru?",
+        "romaji": "Yamabiko da! Kikoeru?",
         "german": "Das ist ein Bergecho. Kannst du es hören?"
       }
     ]
@@ -14122,7 +14122,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "名字は「田中」です。",
-        "romaji": "Myouji wa 「 Tanaka 」 desu.",
+        "romaji": "Myouji wa Tanaka desu.",
         "german": "Mein Nachname ist \"Tanaka\"."
       }
     ]
@@ -14298,7 +14298,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "あ！竹の子が土から出てる！",
-        "romaji": "A! takenoko ga do kara de teru!",
+        "romaji": "A! Takenoko ga do kara de teru!",
         "german": "Oh! Ein Bambussprössling ragt aus dem Boden!"
       }
     ]
@@ -14650,7 +14650,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "女王は、よく「そうね」と口にする。",
-        "romaji": "Joou wa, yoku 「 sou ne 」 to kuchi ni suru.",
+        "romaji": "Joou wa, yoku sou ne to kuchi ni suru.",
         "german": "Die Königin sagt oft \"da hast du Recht\"."
       }
     ]
@@ -14922,7 +14922,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "「当たり！」という文字が目に入った。",
-        "romaji": "「 atari! 」 toiu moji ga me ni haitta.",
+        "romaji": "Atari! Toiu moji ga me ni haitta.",
         "german": "Das Wort \"Volltreffer!\" fiel mir ins Auge."
       }
     ]
@@ -15146,7 +15146,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "「サイコ」はヒッチコックの大作だ。",
-        "romaji": "「 saiko 」 wa hitchikokku no taisaku da.",
+        "romaji": "Saiko wa hitchikokku no taisaku da.",
         "german": "\"Psycho\" ist Hitchcocks Meisterwerk."
       }
     ]
@@ -15210,7 +15210,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "古来から、あの山は「ふじ山」という名だ。",
-        "romaji": "Korai kara, ano yama wa 「 Fujisan 」 toiu na da.",
+        "romaji": "Korai kara, ano yama wa Fujisan toiu na da.",
         "german": "Seit alters her heißt dieser Berg \"Berg Fuji\"."
       }
     ]
@@ -15306,7 +15306,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "スタッフは「ありがとうございました」と、言う。",
-        "romaji": "Sutaffu wa 「 arigatou gozaimashi ta 」 to, iu.",
+        "romaji": "Sutaffu wa arigatou gozaimashi ta to, iu.",
         "german": "Das Personal sagt: \"Vielen Dank.\""
       }
     ]
@@ -15578,7 +15578,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "「出る」の「て形」は「出て」です。",
-        "romaji": "「 deru 」 no 「 te katachi 」 wa 「 dete 」 desu.",
+        "romaji": "Deru no te katachi wa dete desu.",
         "german": "Die Te-Form von \"deru\" ist \"dete\"."
       }
     ]
@@ -15786,7 +15786,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "「ありがとう」と耳打ちした。",
-        "romaji": "「 arigatou 」 to mimiuchi shita.",
+        "romaji": "Arigatou to mimiuchi shita.",
         "german": "\"Danke\", flüsterte ich ins Ohr."
       }
     ]
@@ -15953,8 +15953,8 @@ window.VOCAB_N5 = [
   },
   {
     "word": "平安",
-    "reading": "��いあん",
-    "romaji": "��ian",
+    "reading": "へいあん",
+    "romaji": "heian",
     "meaning": "friedlich, Frieden",
     "type": "Adjektiv",
     "level": "N5",
@@ -16522,7 +16522,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "あと一歩でゴールです。",
-        "romaji": "Ato ichiho de gouru desu.",
+        "romaji": "Ato ippo de gouru desu.",
         "german": "Das Ziel ist nur noch einen Schritt entfernt."
       }
     ]
@@ -16954,7 +16954,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "ビル・ゲイツ氏はシアトルの生まれです。",
-        "romaji": "Biru ・ Geitsushi wa Shiatoru no umare desu.",
+        "romaji": "Biru Geitsushi wa Shiatoru no umare desu.",
         "german": "Herr Bill Gates wurde in Seattle geboren."
       }
     ]
@@ -17338,7 +17338,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "これは、金魚ですか？コイですか？",
-        "romaji": "Kore wa, kingyo desu ka? koi desu ka?",
+        "romaji": "Kore wa, kingyo desu ka? Koi desu ka?",
         "german": "Ist das ein Goldfisch? Oder ein Karpfen?"
       }
     ]
@@ -17466,7 +17466,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "先生が「すみません」の言い方を正してくれました。",
-        "romaji": "Sensei ga 「 sumimasen 」 no iikata o tadashite kuremashita.",
+        "romaji": "Sensei ga sumimasen no iikata o tadashite kuremashita.",
         "german": "Der Lehrer hat meine Art, 'Entschuldigung' zu sagen, korrigiert."
       }
     ]
@@ -17754,7 +17754,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "「立つ」の活用形が分かりません。",
-        "romaji": "「 tatsu 」 no katsuyougata ga wakarimasen.",
+        "romaji": "Tatsu no katsuyougata ga wakarimasen.",
         "german": "Ich kenne die Konjugationsformen von 'tatsu' nicht."
       }
     ]
@@ -17786,7 +17786,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "「ありがとう」と小声で言いました。",
-        "romaji": "「 arigatou 」 to kogoe de iimashita.",
+        "romaji": "Arigatou to kogoe de iimashita.",
         "german": "'Danke', fluesterte ich."
       }
     ]
@@ -18570,7 +18570,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "JLPTまで、あと一日。時間が足りません。",
-        "romaji": "JLPT made, ato ichinichi. jikan ga tarimasen.",
+        "romaji": "JLPT made, ato ichinichi. Jikan ga tarimasen.",
         "german": "Noch ein Tag bis zur JLPT. Ich habe nicht genug Zeit."
       }
     ]
@@ -19306,7 +19306,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "サケは海魚ですか？それとも川魚ですか？",
-        "romaji": "Sake wa umigyo desu ka? soretomo kawagyo desu ka?",
+        "romaji": "Sake wa umigyo desu ka? Soretomo kawagyo desu ka?",
         "german": "Ist Lachs ein Salzwasserfisch? Oder ein Suesswasserfisch?"
       }
     ]
@@ -19546,7 +19546,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "今日から「手作りチーズケーキ」の発売です！",
-        "romaji": "Kyou kara 「 tezukuri chiizu keeki 」 no hatsubai desu!",
+        "romaji": "Kyou kara tezukuri chiizu keeki no hatsubai desu!",
         "german": "Ab heute ist der Hausgemachte Käsekuchen im Verkauf!"
       }
     ]
@@ -20026,7 +20026,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "それでは、発表します。スピーチコンテストの勝者は田中さんです！",
-        "romaji": "Soredeha, happyou shimasu. supiichi kontesuto no shousha wa Tanakasan desu!",
+        "romaji": "Soredeha, happyou shimasu. Supiichi kontesuto no shousha wa Tanakasan desu!",
         "german": "Nun zur Bekanntgabe: Der Gewinner des Redewettbewerbs ist Herr Tanaka!"
       }
     ]
@@ -20170,7 +20170,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "「毎日全力で生きる」というのは、父からの教えです。",
-        "romaji": "「 mainichi zenryoku de ikiru 」 toiu no wa, chichi kara no oshie desu.",
+        "romaji": "Mainichi zenryoku de ikiru toiu no wa, chichi kara no oshie desu.",
         "german": "Jeden Tag mit voller Kraft leben ist eine Lehre meines Vaters."
       }
     ]
@@ -20234,7 +20234,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "すみません。このクーポンの使用の仕方が分からないんです。",
-        "romaji": "Sumimasen. kono kuupon no shiyou no shikata ga wakaranai n desu.",
+        "romaji": "Sumimasen. Kono kuupon no shiyou no shikata ga wakaranai n desu.",
         "german": "Entschuldigung, ich weiß nicht, wie man diesen Coupon verwendet."
       }
     ]
@@ -20378,7 +20378,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "ここで十分間休みましょう。",
-        "romaji": "Koko de juufunkan yasumimashou.",
+        "romaji": "Koko de juppunkan yasumimashou.",
         "german": "Lassen Sie uns hier zehn Minuten ausruhen."
       }
     ]
@@ -21034,7 +21034,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "きっと助かるよ。平気。",
-        "romaji": "Kitto tasukaru yo. heiki.",
+        "romaji": "Kitto tasukaru yo. Heiki.",
         "german": "Ihnen wird bestimmt geholfen. Keine Sorge."
       }
     ]
@@ -21354,7 +21354,7 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "今朝になってから「あ！テスト今日じゃん！」って思い出したんです。",
-        "romaji": "Kesa ni natte kara 「 a! tesuto kyou jan! 」 tte omoidashita n desu.",
+        "romaji": "Kesa ni natte kara a! Tesuto kyou jan! Tte omoidashita n desu.",
         "german": "Heute Morgen fiel mir ein: Oh! Die Prüfung ist heute!"
       }
     ]

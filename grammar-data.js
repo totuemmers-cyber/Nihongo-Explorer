@@ -5599,7 +5599,7 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "明日は何曜日だっけ？",
-        "romaji": "Ashita wa nan'yōbi dakkke?",
+        "romaji": "Ashita wa nan'yōbi dakke?",
         "german": "Welcher Tag war morgen nochmal?"
       },
       {
@@ -7230,7 +7230,7 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "そんな難しい試験、受かりっこない。",
-        "romaji": "Sonna muzukashii shiken, ukarikkkonai.",
+        "romaji": "Sonna muzukashii shiken, ukarikkonai.",
         "german": "So eine schwere Prüfung, da bestehe ich niemals."
       },
       {

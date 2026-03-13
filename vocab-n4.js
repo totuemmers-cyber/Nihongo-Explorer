@@ -11343,7 +11343,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "一位になったら、一週間毎日カレーを作ってあげる。",
-        "romaji": "Ichii ni nattara, ichishuukan mainichi karee o tsukutte ageru.",
+        "romaji": "Ichii ni nattara, isshuukan mainichi karee o tsukutte ageru.",
         "german": "Wenn du den ersten Platz belegst, koche ich dir eine Woche lang jeden Tag Curry."
       }
     ]
@@ -11791,7 +11791,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "すみません。今、戦場にいるので電話に出られないんです。",
-        "romaji": "Sumimasen. ima, senjou ni iru node denwa ni de rarenai n desu.",
+        "romaji": "Sumimasen. Ima, senjou ni iru node denwa ni de rarenai n desu.",
         "german": "Entschuldigung. Ich kann gerade nicht ans Telefon gehen, weil ich auf dem Schlachtfeld bin."
       }
     ]
@@ -11823,7 +11823,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "やばい。便所サンダルで学校に来ちゃった！",
-        "romaji": "Yabai. benjo sandaru de gakkou ni ki chatta!",
+        "romaji": "Yabai. Benjo sandaru de gakkou ni ki chatta!",
         "german": "Oh nein. Ich bin mit Toilettensandalen in die Schule gekommen!"
       }
     ]
@@ -12191,7 +12191,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "この子は文字通り「天才」だ。",
-        "romaji": "Kono ko wa mojidoori 「 tensai 」 da.",
+        "romaji": "Kono ko wa mojidoori tensai da.",
         "german": "Dieses Kind ist wortwörtlich ein Genie."
       }
     ]
@@ -12655,7 +12655,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "第一章はおもしろかったけど、第二章はいまいちだった。",
-        "romaji": "Dai ichishou wa omoshirokatta kedo, dai nishou wa imaichi datta.",
+        "romaji": "Dai isshou wa omoshirokatta kedo, dai nishou wa imaichi datta.",
         "german": "Das erste Kapitel war gut, aber das zweite war mittelmäßig."
       }
     ]
@@ -13263,7 +13263,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "「あ、あそこに誰かいる。」「え、誰もいないよ？」",
-        "romaji": "「 a, asoko ni dare ka iru. 」 「 e, dare mo inai yo? 」",
+        "romaji": "A, asoko ni dare ka iru. E, dare mo inai yo?",
         "german": "\"Oh, dort drüben ist jemand.\" \"Äh, da ist doch niemand?\""
       }
     ]
@@ -13279,7 +13279,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "「何階ですか？」「四階をおねがいします。」「このエレベーターは四階には止まりませんよ。」",
-        "romaji": "「 nankai desu ka? 」 「 yonkai o onegai shimasu. 」 「 kono erebeetaa wa yonkai ni wa tomarimasen yo. 」",
+        "romaji": "Nankai desu ka? Yonkai o onegai shimasu. Kono erebeetaa wa yonkai ni wa tomarimasen yo.",
         "german": "\"Welches Stockwerk?\" \"Viertes bitte.\" \"Dieser Aufzug hält nicht im vierten Stock.\""
       }
     ]
@@ -13759,7 +13759,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "「風の神様」が、神風を起こしたんだよ。",
-        "romaji": "「 kazenokamisama 」 ga, kamikaze o okoshita n da yo.",
+        "romaji": "Kazenokamisama ga, kamikaze o okoshita n da yo.",
         "german": "Der Windgott hat den göttlichen Wind hervorgebracht."
       }
     ]
@@ -14367,7 +14367,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "これはジュースじゃないです。缶ビールです。",
-        "romaji": "Kore wa juusu ja naidesu. kan biiru desu.",
+        "romaji": "Kore wa juusu ja naidesu. Kan biiru desu.",
         "german": "Das ist kein Saft. Das ist ein Dosenbier."
       }
     ]
@@ -14703,7 +14703,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "今、待ちぼうけ中だよ。 みんな来るのかな？",
-        "romaji": "Ima, machiboukechuu da yo. minna kuru no ka na?",
+        "romaji": "Ima, machiboukechuu da yo. Minna kuru no ka na?",
         "german": "Ich warte gerade alleine. Ob wohl alle kommen?"
       }
     ]
@@ -14799,7 +14799,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "え、「流行歌」って言葉、ちょっと古くない？おじいちゃんとかおばあちゃんっぽい。",
-        "romaji": "E, 「 ryuukouka 」 tte kotoba, chotto furukunai? ojiichan toka o baachan ppoi.",
+        "romaji": "E, ryuukouka tte kotoba, chotto furukunai? Ojiichan toka o baachan ppoi.",
         "german": "Ist der Begriff 'Ryuukouka' nicht etwas veraltet? Das klingt eher nach etwas, das Großeltern sagen würden."
       }
     ]
@@ -15103,7 +15103,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "へー、松の葉っぱのこと「松葉」って言うんだ。知らなかった。",
-        "romaji": "Hee, matsu no happa no koto 「 matsuba 」 tte iu n da. shiranakatta.",
+        "romaji": "Hee, matsu no happa no koto matsuba tte iu n da. Shiranakatta.",
         "german": "Oh, also nennt man die Blätter der Kiefer 'Matsuba'. Das wusste ich nicht."
       }
     ]
@@ -16014,8 +16014,8 @@ window.VOCAB_N4 = [
     "category": "Recht",
     "examples": [
       {
-        "japanese": "やば！「返信ください」がタイプミスでオートコ��クトされて「変死してください」になってた。",
-        "romaji": "Yaba! 「 henshin kudasai 」 ga taipu misu de outoko �� kuto sa rete 「 henshi shite kudasai 」 ni na teta.",
+        "japanese": "やば！「返信ください」がタイプミスでオートコレクトされて「変死してください」になってた。",
+        "romaji": "Yaba! Henshin kudasai ga taipu misu de ooto korekuto sarete henshi shite kudasai ni nateta.",
         "german": "Oh nein! 'Bitte antworten' wurde durch Autokorrektur zu 'Bitte sterben Sie eines unnatürlichen Todes'."
       }
     ]
@@ -16071,7 +16071,7 @@ window.VOCAB_N4 = [
   {
     "word": "今晩は",
     "reading": "こんばんは",
-    "romaji": "konbanha",
+    "romaji": "konbanwa",
     "meaning": "guten Abend",
     "type": "Ausdruck",
     "level": "N4",
@@ -16079,7 +16079,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "今晩は。こんな所で何してるの？",
-        "romaji": "Konban wa. konna tokoro de nani shi teru no?",
+        "romaji": "Konban wa. Konna tokoro de nani shi teru no?",
         "german": "Guten Abend. Was machst du an so einem Ort?"
       }
     ]
@@ -16335,7 +16335,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "お願い！手伝って！",
-        "romaji": "Onegai! tetsudatte!",
+        "romaji": "Onegai! Tetsudatte!",
         "german": "Bitte! Hilf mir!"
       }
     ]
@@ -16495,7 +16495,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "もしここにマリアがいたら、こんな数学の問題五秒で解けちゃうよ。マリアにとってはちょちょいのちょいだね。",
-        "romaji": "Moshi koko ni maria ga itara, konna suugaku no mondai gobyou de toke chau yo. maria nitotte wa cho choi no choi da ne.",
+        "romaji": "Moshi koko ni maria ga itara, konna suugaku no mondai gobyou de toke chau yo. Maria nitotte wa cho choi no choi da ne.",
         "german": "Wenn Maria hier wäre, hätte sie dieses Matheproblem in fünf Sekunden gelöst. Für sie ist das ein Kinderspiel."
       }
     ]
@@ -16591,7 +16591,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "大変だ！あと五分で昼休みだ。",
-        "romaji": "Taihen da! ato gofun de hiruyasumi da.",
+        "romaji": "Taihen da! Ato gofun de hiruyasumi da.",
         "german": "Oh nein! In fünf Minuten ist Mittagspause."
       }
     ]
@@ -16702,8 +16702,8 @@ window.VOCAB_N4 = [
     "category": "Emotion",
     "examples": [
       {
-        "japanese": "なんで私ばか���疑うの？",
-        "romaji": "Nande watashi baka ��� utagau no?",
+        "japanese": "なんで私ばかり疑うの？",
+        "romaji": "Nande watashi bakari utagau no?",
         "german": "Warum verdächtigst du nur mich?"
       }
     ]
@@ -16847,7 +16847,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "わぁ、びっくりした！何で仮面なんてかぶってるの？",
-        "romaji": "Waa, bikkuri shita! nande kamen nante kabu teru no?",
+        "romaji": "Waa, bikkuri shita! Nande kamen nante kabu teru no?",
         "german": "Ah, du hast mich erschreckt! Warum trägst du eine Maske?"
       }
     ]
@@ -17006,8 +17006,8 @@ window.VOCAB_N4 = [
     "category": "Abstrakt",
     "examples": [
       {
-        "japanese": "���実はいつも一つしかありません。",
-        "romaji": "��� jitsuha itsumo hitotsu shika arimasen.",
+        "japanese": "真実はいつも一つしかありません。",
+        "romaji": "Shinjitsu wa itsumo hitotsu shika arimasen.",
         "german": "Es gibt immer nur eine Wahrheit."
       }
     ]
@@ -17247,7 +17247,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "ヤグルマギクの花言葉は「幸福」です。",
-        "romaji": "Yagurumagiku no hanakotoba wa 「 koufuku 」 desu.",
+        "romaji": "Yagurumagiku no hanakotoba wa koufuku desu.",
         "german": "Die Blumensprache der Kornblume ist 'Glück'."
       }
     ]
@@ -18431,7 +18431,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "親は無力ですよ。子が大きくなると、してあげられることなんて、ほとんどありません。",
-        "romaji": "Oya wa muryoku desu yo. ko ga ookiku naru to, shite age rareru koto nante, hotondo arimasen.",
+        "romaji": "Oya wa muryoku desu yo. Ko ga ookiku naru to, shite age rareru koto nante, hotondo arimasen.",
         "german": "Eltern sind machtlos. Wenn ein Kind groß wird, kann man kaum noch etwas für es tun."
       }
     ]
@@ -18623,7 +18623,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "鼻くそ、指でほじるとかありえないんだけど。ティッシュ使って取りなよ。",
-        "romaji": "Hanakuso, yubi de hojiru toka ari enai n da kedo. teisshu tsukatte tori na yo.",
+        "romaji": "Hanakuso, yubi de hojiru toka ari enai n da kedo. Teisshu tsukatte tori na yo.",
         "german": "Mit den Fingern in der Nase zu bohren geht gar nicht. Nimm ein Taschentuch."
       }
     ]
@@ -19215,7 +19215,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "シーッ！それは禁句ですよ！",
-        "romaji": "Shii! sore wa kinku desu yo!",
+        "romaji": "Shii! Sore wa kinku desu yo!",
         "german": "Pst! Das ist ein verbotener Ausdruck!"
       }
     ]
@@ -19551,7 +19551,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "「イコール」って「等号」って言うんだ！知らなかった。",
-        "romaji": "「 ikouru 」 tte 「 tougou 」 tte iu n da! shiranakatta.",
+        "romaji": "Ikouru tte tougou tte iu n da! Shiranakatta.",
         "german": "Das Gleichheitszeichen heißt auf Japanisch \"tougou\"! Das wusste ich nicht."
       }
     ]
@@ -19663,7 +19663,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "僕のお父さんはピザの配達人です。誰よりも速くピザを配達することができます。",
-        "romaji": "Boku no otousan wa piza no haitatsujin desu. dare yori mo hayaku piza o haitatsu suru koto ga dekimasu.",
+        "romaji": "Boku no otousan wa piza no haitatsujin desu. Dare yori mo hayaku piza o haitatsu suru koto ga dekimasu.",
         "german": "Mein Vater ist Pizzalieferant. Er kann Pizzen schneller als jeder andere liefern."
       }
     ]
@@ -19775,7 +19775,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "すみません。汽車は何分おきに来ますか？",
-        "romaji": "Sumimasen. kisha wa nanibun'oki ni kimasu ka?",
+        "romaji": "Sumimasen. Kisha wa nanibun'oki ni kimasu ka?",
         "german": "Entschuldigung, wie oft kommen die Dampfzüge?"
       }
     ]
@@ -19967,7 +19967,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "「食べた」の辞書形は「食べる」です。",
-        "romaji": "「 tabeta 」 no jishogata wa 「 taberu 」 desu.",
+        "romaji": "Tabeta no jishogata wa taberu desu.",
         "german": "Die Wörterbuchform von \"gegessen\" ist \"essen\"."
       }
     ]
@@ -20095,7 +20095,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "五感のうちどれか一つを失ってしまうとしたら、どれを選びますか？また、その理由も教えてください。",
-        "romaji": "Gokan no uchi dore ka hitotsu o ushinatte shimau to shitara, dore o erabimasu ka? mata, sono riyuu mo oshiete kudasai.",
+        "romaji": "Gokan no uchi dore ka hitotsu o ushinatte shimau to shitara, dore o erabimasu ka? Mata, sono riyuu mo oshiete kudasai.",
         "german": "Wenn du einen deiner fünf Sinne verlieren müsstest, welchen würdest du aufgeben? Bitte nenne auch den Grund."
       }
     ]
@@ -20143,7 +20143,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "かの女は、乱交のと中で、舌をだらりと出して気ぜつしてしまったんです。",
-        "romaji": "Kano onna wa, ran 交 no to naka de, shita o darari to dashite ki ze tsu shite shimatta n desu.",
+        "romaji": "Kano onna wa, rankou no tochuu de, shita o darari to dashite kizetsu shite shimatta n desu.",
         "german": "Ihre Zunge hing heraus und sie wurde während der Orgie ohnmächtig."
       }
     ]
@@ -20527,7 +20527,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "ごめんなさい。私、猫舌なんです。",
-        "romaji": "Gomennasai. watashi, nekojita na n desu.",
+        "romaji": "Gomennasai. Watashi, nekojita na n desu.",
         "german": "Tut mir leid. Ich kann nichts Heißes essen."
       }
     ]
@@ -21055,7 +21055,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "すごーい！流石ですね。",
-        "romaji": "Sugo - i! sasuga desu ne.",
+        "romaji": "Sugo - i! Sasuga desu ne.",
         "german": "Wow, das ist erstaunlich! Wie man es von dir erwarten kann."
       }
     ]
@@ -21071,7 +21071,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "ここをクリックすると、文字が上に重なるから読めなくなるんだ。バグかな？",
-        "romaji": "Koko o kurikku suru to, moji ga ue ni kasanaru kara yomenaku naru n da. bagu ka na?",
+        "romaji": "Koko o kurikku suru to, moji ga ue ni kasanaru kara yomenaku naru n da. Bagu ka na?",
         "german": "Wenn ich hier klicke, überlappt sich der Text und wird unlesbar. Ob das ein Fehler ist?"
       }
     ]
@@ -21167,7 +21167,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "水と油って、混ざるんだっけ？混ざらないんだっけ？",
-        "romaji": "Mizu to abura tte, mazaru n da kke? mazaranai n da kke?",
+        "romaji": "Mizu to abura tte, mazaru n da kke? Mazaranai n da kke?",
         "german": "Wasser und Öl – vermischen die sich? Oder nicht?"
       }
     ]
@@ -21247,7 +21247,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "やばい、このクッパ強すぎる。誰か倒す方法知ってたら、教えて！",
-        "romaji": "Yabai, kono kuppa tsuyo sugiru. dare ka taosu houhou shi tetara, oshiete!",
+        "romaji": "Yabai, kono kuppa tsuyo sugiru. Dare ka taosu houhou shi tetara, oshiete!",
         "german": "Mann, dieser Bowser ist zu stark. Wenn jemand weiß, wie man ihn besiegt, sagt es mir bitte!"
       }
     ]
@@ -21423,7 +21423,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "最近、色んな加工食品に使われているシリコーンって、本当に無害なのかな？コーヒーにも入ってるんだけど。",
-        "romaji": "Saikin, ironna kakou shokuhin ni tsukawa rete iru shirikoun tte, hontouni mugai na no ka na? kouhii ni mo hai teru n da kedo.",
+        "romaji": "Saikin, ironna kakou shokuhin ni tsukawa rete iru shirikoun tte, hontouni mugai na no ka na? Kouhii ni mo hai teru n da kedo.",
         "german": "Ob Silikon, das in letzter Zeit in verschiedenen verarbeiteten Lebensmitteln verwendet wird, wirklich harmlos ist? Es ist sogar im Kaffee enthalten."
       }
     ]
@@ -21823,7 +21823,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "京都旅行で行った小料理屋では、静々と流れる小川を見下ろしながら、アユの塩焼きをいただきました。",
-        "romaji": "Kyouto ryokou de okonatta koryouriya de wa, Shizu 々 to nagareru Ogawa o mioroshi nagara, ayu no shioyaki o itadakimashita.",
+        "romaji": "Kyouto ryokou de okonatta koryouriya de wa, Shizushizu to nagareru Ogawa o mioroshi nagara, ayu no shioyaki o itadakimashita.",
         "german": "In einem kleinen Restaurant auf meiner Kyoto-Reise genoss ich gegrillten Ayu-Fisch mit Blick auf einen still fließenden Bach."
       }
     ]
@@ -21839,7 +21839,7 @@ window.VOCAB_N4 = [
     "examples": [
       {
         "japanese": "意見を言っただけなのに、上司に「文句するな」と怒鳴られました。",
-        "romaji": "Iken o itta dake na noni, joushi ni 「 monku suru na 」 to donara remashita.",
+        "romaji": "Iken o itta dake na noni, joushi ni monku suru na to donara remashita.",
         "german": "Ich habe nur meine Meinung gesagt, aber mein Chef hat mich angeschrien: Beschwer dich nicht!"
       }
     ]

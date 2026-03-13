@@ -50938,7 +50938,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "「直系血族」とは、直上下の関係にある血族のことで、自分と血の繋がった祖父母や父母、子や孫との関係のことを指します。",
-        "romaji": "「 chokkei ketsuzoku 」 to wa, chokujouka no kankei ni aru ketsuzoku no koto de, jibun to chi no tsunagatta sofubo ya chichihaha, ko ya mago to no kankei no koto o sashimasu.",
+        "romaji": "Chokkei ketsuzoku to wa, chokujouka no kankei ni aru ketsuzoku no koto de, jibun to chi no tsunagatta sofubo ya chichihaha, ko ya mago to no kankei no koto o sashimasu.",
         "german": "'Direkte Blutsverwandte' bezieht sich auf Blutsverwandte in direkter Abstammungslinie, wie Großeltern, Eltern, Kinder oder Enkel, die mit einem blutsverwandt sind."
       }
     ]
@@ -52569,8 +52569,8 @@ window.VOCAB_N1 = [
     "category": "Arbeit",
     "examples": [
       {
-        "japanese": "この���ードのお陰で、VIP待遇を味わうことができました。",
-        "romaji": "Kono ��� -do no okage de, VIP taiguu o ajiwau koto ga dekimashita.",
+        "japanese": "このカードのお陰で、VIP待遇を味わうことができました。",
+        "romaji": "Kono kaado no okage de, VIP taiguu o ajiwau koto ga dekimashita.",
         "german": "Dank dieser Karte konnte ich eine VIP-Behandlung genießen."
       }
     ]
@@ -53610,7 +53610,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "徳川氏の家紋といえば、「三つ葉葵」が一番有名だ。",
-        "romaji": "Tokugawashi no kamon to ie ba, 「 mitsuba aoi 」 ga ichiban yuumei da.",
+        "romaji": "Tokugawashi no kamon to ie ba, mitsuba aoi ga ichiban yuumei da.",
         "german": "Wenn man an das Familienwappen der Tokugawa denkt, sind die 'drei Stockrosenblätter' am berühmtesten."
       }
     ]
@@ -53722,7 +53722,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "私はこうしたパーティには、控えめだけど上品な「かざり錦」の着物を着て行くことが多いです。",
-        "romaji": "Watashi wa koushita paatei ni wa, hikaeme da kedo jouhin na 「 kazari nishiki 」 no kimono o kite iku koto ga ooidesu.",
+        "romaji": "Watashi wa koushita paatei ni wa, hikaeme da kedo jouhin na kazari nishiki no kimono o kite iku koto ga ooidesu.",
         "german": "Zu solchen Partys trage ich oft einen dezenten, aber eleganten Kimono aus 'Zierbrokat'."
       }
     ]
@@ -54266,7 +54266,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "昔々あるところに、水飴が大好きな和尚がおりました。",
-        "romaji": "Mukashi 々 aru tokoro ni, mizuame ga daisuki na oshou ga orimashita.",
+        "romaji": "Mukashimukashi aru tokoro ni, mizuame ga daisuki na oshou ga orimashita.",
         "german": "Es war einmal ein Oberpriester, der Malzsirup liebte."
       }
     ]
@@ -55578,7 +55578,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "わが校は、惜敗でベスト8入りを逃しました。",
-        "romaji": "Wagakou wa, sekihai de besuto 8iri o nogashimashita.",
+        "romaji": "Wagakou wa, sekihai de besuto hachiiri o nogashimashita.",
         "german": "Unsere Schule verpasste durch eine knappe Niederlage den Einzug in die Top Acht."
       }
     ]
@@ -55594,7 +55594,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "昔、「僕は殺しが愉快でたまらない」と言った少年殺人犯がいました。",
-        "romaji": "Mukashi, 「 boku wa koroshi ga yukai de tamaranai 」 to itta shounen satsujinhan ga imashita.",
+        "romaji": "Mukashi, boku wa koroshi ga yukai de tamaranai to itta shounen satsujinhan ga imashita.",
         "german": "Vor langer Zeit sagte ein junger Mörder: Ich finde Töten einfach vergnüglich."
       }
     ]
@@ -55866,7 +55866,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "大変だ。捕虜が脱走したぞ！",
-        "romaji": "Taihen da. horyo ga dassou shita zo!",
+        "romaji": "Taihen da. Horyo ga dassou shita zo!",
         "german": "Das ist schlimm. Ein Kriegsgefangener ist geflohen!"
       }
     ]
@@ -57642,7 +57642,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "あの男はたった一ヶ月で、ここでの業務を網羅した。",
-        "romaji": "Ano otoko wa tatta ichikagetsu de, koko de no gyoumu o moura shita.",
+        "romaji": "Ano otoko wa tatta ikkagetsu de, koko de no gyoumu o moura shita.",
         "german": "Dieser Mann hat in nur einem Monat alle Aufgaben hier abgedeckt."
       }
     ]
@@ -58074,7 +58074,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "疲れを癒して、早く回復するために、一週間緑茶を飲んだりお餅を食べたりしました。",
-        "romaji": "Tsukare o iyashite, hayaku kaifuku suru tame ni, ichishuukan ryokucha o non dari o mochi o tabe tari shimashita.",
+        "romaji": "Tsukare o iyashite, hayaku kaifuku suru tame ni, isshuukan ryokucha o non dari o mochi o tabe tari shimashita.",
         "german": "Um meine Müdigkeit zu heilen und mich schnell zu erholen, trank ich eine Woche lang grünen Tee und aß Mochi."
       }
     ]
@@ -58458,7 +58458,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "紳士淑女のみなさん 、こんばんは。",
-        "romaji": "Shinshi shukujo no minasan , konbanha.",
+        "romaji": "Shinshi shukujo no minasan, konbanwa.",
         "german": "Guten Abend, meine Damen und Herren."
       }
     ]
@@ -58954,7 +58954,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "日本の裁判には「情状酌量」とよばれるものがあります。",
-        "romaji": "Nippon no saiban ni wa 「 joujou shakuryou 」 to yoba reru mono ga arimasu.",
+        "romaji": "Nippon no saiban ni wa joujou shakuryou to yoba reru mono ga arimasu.",
         "german": "In japanischen Gerichtsverfahren gibt es etwas, das \"mildernde Umstände\" genannt wird."
       }
     ]
@@ -59002,7 +59002,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "七月には、妻の父の一周忌の法事があります。",
-        "romaji": "Shichigatsu ni wa, tsuma no chichi no ichishuuki no houji ga arimasu.",
+        "romaji": "Shichigatsu ni wa, tsuma no chichi no isshuuki no houji ga arimasu.",
         "german": "Im Juli findet die Zeremonie zum ersten Todestag des Vaters meiner Frau statt."
       }
     ]
@@ -59018,7 +59018,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "昔は稲の苗を水田に植えつける女性のことを「早乙女」や「植女」と呼んでいました。",
-        "romaji": "Mukashi wa ine no nae o suiden ni ue tsukeru josei no koto o 「 saotome 」 ya 「 Ue onna 」 to yonde imashita.",
+        "romaji": "Mukashi wa ine no nae o suiden ni ue tsukeru josei no koto o saotome ya Ue onna to yonde imashita.",
         "german": "Früher nannte man Frauen, die Reissetzlinge pflanzten, Saotome oder Ueme."
       }
     ]
@@ -59466,7 +59466,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": " 牽切紡績とは、化学繊維特有の紡績方法で、綿からの紡績ではありません。",
-        "romaji": "牽 setsu bouseki to wa, kagaku sen'i tokuyuu no bouseki houhou de, men kara no bouseki de wa arimasen.",
+        "romaji": "Kensetsu bouseki to wa, kagaku sen'i tokuyuu no bouseki houhou de, men kara no bouseki de wa arimasen.",
         "german": "Kensetsu-Bouseki ist ein Spinnverfahren, das speziell für Chemiefasern und nicht für Baumwolle ist."
       }
     ]
@@ -59722,7 +59722,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "申し申し、レストラン「山びこ」です。",
-        "romaji": "Moushi moushi, resutoran 「 yamabiko 」 desu.",
+        "romaji": "Moushi moushi, resutoran yamabiko desu.",
         "german": "Hallo, hier ist das Restaurant \"Bergecho\"."
       }
     ]
@@ -60122,7 +60122,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "胃液は1日1～2Lも分泌されています。",
-        "romaji": "Ieki wa 1nichi 1 ～ 2 L mo bunpitsu sa rete imasu.",
+        "romaji": "Ieki wa 1nichi 1 ~ 2 L mo bunpitsu sa rete imasu.",
         "german": "Pro Tag werden etwa 1-2 Liter Magensaft abgesondert."
       }
     ]
@@ -60170,7 +60170,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "彼がポテトチップスを食べる音が煩くて苛々します。",
-        "romaji": "Kare ga potetochippusu o taberu oto ga urusakute 苛 々 shimasu.",
+        "romaji": "Kare ga potetochippusu o taberu oto ga urusakute iraira shimasu.",
         "german": "Das Geräusch, wenn er Kartoffelchips isst, ist laut und nervig."
       }
     ]
@@ -60186,7 +60186,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "煩雑な手続きに苛々します。",
-        "romaji": "Hanzatsu na tetsuzuki ni 苛 々 shimasu.",
+        "romaji": "Hanzatsu na tetsuzuki ni iraira shimasu.",
         "german": "Ich bin genervt von den umständlichen Formalitäten."
       }
     ]
@@ -60202,7 +60202,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "日々の煩忙から逃れ、ハワイにやって来ました。",
-        "romaji": "Hibi no han 忙 kara nogare, Hawai ni yattekimashita.",
+        "romaji": "Hibi no hanbou kara nogare, Hawai ni yattekimashita.",
         "german": "Ich entfloh meinem geschäftigen Alltag und kam nach Hawaii."
       }
     ]
