@@ -5060,6 +5060,63 @@ window.KANJI_DATA = [
     ]
   },
   {
+    "kanji": "競",
+    "meanings": [
+      "wetteifern",
+      "Wettbewerb",
+      "konkurrieren"
+    ],
+    "kun": [
+      {
+        "kana": "きそ.う",
+        "romaji": "kiso.u"
+      },
+      {
+        "kana": "せ.る",
+        "romaji": "se.ru"
+      }
+    ],
+    "on": [
+      {
+        "kana": "キョウ",
+        "romaji": "kyou"
+      },
+      {
+        "kana": "ケイ",
+        "romaji": "kei"
+      }
+    ],
+    "components": [
+      {
+        "radical": "立",
+        "meaning": "stehen"
+      },
+      {
+        "radical": "兄",
+        "meaning": "älterer Bruder"
+      }
+    ],
+    "jlpt": "N4",
+    "strokes": 20,
+    "examples": [
+      {
+        "word": "競争",
+        "reading": "きょうそう",
+        "meaning": "Wettbewerb"
+      },
+      {
+        "word": "競技",
+        "reading": "きょうぎ",
+        "meaning": "Disziplin, Wettkampf"
+      },
+      {
+        "word": "競う",
+        "reading": "きそう",
+        "meaning": "wetteifern"
+      }
+    ]
+  },
+  {
     "kanji": "使",
     "meanings": [
       "benutzen",
