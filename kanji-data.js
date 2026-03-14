@@ -8505,8 +8505,8 @@ window.KANJI_DATA = [
         "meaning": "Erde"
       },
       {
-        "radical": "小",
-        "meaning": "klein"
+        "radical": "火",
+        "meaning": "Feuer"
       }
     ],
     "jlpt": "N4",
@@ -16143,6 +16143,11 @@ window.KANJI_DATA = [
         "word": "議論",
         "reading": "ぎろん",
         "meaning": "Diskussion"
+      },
+      {
+        "word": "不思議",
+        "reading": "ふしぎ",
+        "meaning": "mysteriös, wunderbar"
       }
     ]
   },
@@ -51744,6 +51749,58 @@ window.KANJI_DATA = [
         "word": "枠組み",
         "reading": "わくぐみ",
         "meaning": "Rahmenwerk, Struktur"
+      }
+    ]
+  },
+  {
+    "kanji": "溜",
+    "meanings": [
+      "ansammeln",
+      "anhäufen"
+    ],
+    "kun": [
+      {
+        "kana": "た.まる",
+        "romaji": "ta.maru"
+      },
+      {
+        "kana": "た.める",
+        "romaji": "ta.meru"
+      }
+    ],
+    "on": [
+      {
+        "kana": "リュウ",
+        "romaji": "ryū"
+      }
+    ],
+    "components": [
+      {
+        "radical": "氵",
+        "meaning": "Wasser"
+      },
+      {
+        "radical": "留",
+        "meaning": "bleiben"
+      }
+    ],
+    "jlpt": "N2",
+    "strokes": 13,
+    "examples": [
+      {
+        "word": "溜まる",
+        "reading": "たまる",
+        "meaning": "sich ansammeln"
+      },
+      {
+        "word": "溜め息",
+        "reading": "ためいき",
+        "meaning": "Seufzer"
+      },
+      {
+        "word": "溜飲を下げる",
+        "reading": "りゅういんをさげる",
+        "meaning": "Genugtuung empfinden"
       }
     ]
   }
