@@ -1358,6 +1358,326 @@ main {
   border-color: var(--accent);
 }
 
+/* === GRAMMAR LESSONS === */
+.gl-view-toggle {
+  display: flex;
+  gap: 4px;
+  padding: 6px 0 10px 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 10px;
+}
+
+.gl-view-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+  font-family: var(--font);
+}
+
+.gl-view-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.gl-view-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.gl-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  animation: fadeIn 0.3s ease;
+}
+
+.gl-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  transition: box-shadow var(--transition);
+}
+
+.gl-card:has(.gl-card-body:not(.collapsed)) {
+  box-shadow: var(--shadow-md);
+}
+
+.gl-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background var(--transition);
+  user-select: none;
+}
+
+.gl-card-header:hover {
+  background: rgba(99, 102, 241, 0.04);
+}
+
+.gl-card-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--gradient);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.gl-card-titles {
+  flex: 1;
+  min-width: 0;
+}
+
+.gl-card-title {
+  display: block;
+  font-family: var(--font-jp);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.gl-card-subtitle {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.3;
+}
+
+.gl-card-level {
+  flex-shrink: 0;
+  position: static;
+}
+
+.gl-card-chevron {
+  flex-shrink: 0;
+  color: var(--text-secondary);
+  transition: transform 0.25s ease;
+}
+
+.gl-card-chevron.open {
+  transform: rotate(180deg);
+}
+
+.gl-card-body {
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+  opacity: 1;
+}
+
+.gl-card-body.collapsed {
+  max-height: 0 !important;
+  opacity: 0;
+}
+
+.gl-card-body:not(.collapsed) {
+  max-height: 8000px;
+  border-top: 1px solid var(--border);
+  padding: 20px;
+}
+
+.gl-intro {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  background: rgba(99, 102, 241, 0.05);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.gl-section {
+  margin-bottom: 22px;
+}
+
+.gl-section:last-child {
+  margin-bottom: 0;
+}
+
+.gl-section-heading {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.gl-section-text {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.gl-section-text strong {
+  color: var(--accent);
+}
+
+.gl-section-text ul.lesson-rules {
+  list-style: none;
+  padding: 0;
+}
+
+.gl-section-text ul.lesson-rules li {
+  padding: 4px 0 4px 20px;
+  position: relative;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.gl-section-text ul.lesson-rules li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.gl-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.gl-example {
+  padding: 10px 14px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.gl-example-jp {
+  font-family: var(--font-jp);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+.gl-example-romaji {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 2px;
+}
+
+.gl-example-de {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+}
+
+.gl-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  background: rgba(16, 185, 129, 0.06);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  border-radius: var(--radius-sm);
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: var(--text);
+  margin-top: 8px;
+}
+
+.gl-tip svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: #10b981;
+}
+
+.lesson-compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.84rem;
+  margin-top: 4px;
+}
+
+.lesson-compare-table th {
+  text-align: left;
+  padding: 8px 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  font-weight: 700;
+  color: var(--text);
+  font-size: 0.8rem;
+}
+
+.lesson-compare-table td {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.lesson-compare-table tr:nth-child(even) td {
+  background: var(--bg);
+}
+
+@media (max-width: 600px) {
+  .gl-card-header {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+
+  .gl-card-body:not(.collapsed) {
+    padding: 14px;
+  }
+
+  .gl-card-number {
+    width: 26px;
+    height: 26px;
+    font-size: 0.75rem;
+  }
+
+  .gl-card-title {
+    font-size: 0.9rem;
+  }
+
+  .gl-card-subtitle {
+    font-size: 0.72rem;
+  }
+
+  .gl-view-btn {
+    padding: 5px 10px;
+    font-size: 0.75rem;
+  }
+
+  .gl-view-btn svg {
+    display: none;
+  }
+
+  .lesson-compare-table {
+    font-size: 0.78rem;
+  }
+
+  .lesson-compare-table th,
+  .lesson-compare-table td {
+    padding: 6px 8px;
+  }
+}
+
 /* === VOCAB TYPE FILTER BUTTONS === */
 .filter-btn.vt-nomen:hover, .filter-btn.vt-nomen.active {
   background: var(--vt-nomen);
