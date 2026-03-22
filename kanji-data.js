@@ -4229,6 +4229,48 @@ window.KANJI_DATA = [
     ]
   },
   {
+    "kanji": "短",
+    "meanings": [
+      "kurz"
+    ],
+    "kun": [
+      {
+        "kana": "みじか.い",
+        "romaji": "mijika.i"
+      }
+    ],
+    "on": [
+      {
+        "kana": "タン",
+        "romaji": "tan"
+      }
+    ],
+    "components": [
+      {
+        "radical": "矢",
+        "meaning": "Pfeil"
+      },
+      {
+        "radical": "豆",
+        "meaning": "Bohne"
+      }
+    ],
+    "jlpt": "N4",
+    "strokes": 12,
+    "examples": [
+      {
+        "word": "短い",
+        "reading": "みじかい",
+        "meaning": "kurz"
+      },
+      {
+        "word": "短所",
+        "reading": "たんしょ",
+        "meaning": "Schwäche, Nachteil"
+      }
+    ]
+  },
+  {
     "kanji": "高",
     "meanings": [
       "hoch",
