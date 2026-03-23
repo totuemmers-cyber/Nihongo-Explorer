@@ -688,7 +688,7 @@ window.COUNTERS_DATA = {
       romaji: 'kai',
       meaning: 'Stockwerke',
       usage: 'Gebäudestockwerke, Etagen',
-      category: 'Zeit',
+      category: 'Objekte',
       questionWord: { kanji: '何階', reading: 'なんがい', romaji: 'nangai' },
       counts: [
         { num: 1, kanji: '一階', reading: 'いっかい', romaji: 'ikkai', shift: true },
@@ -944,7 +944,7 @@ window.COUNTERS_DATA = {
       ],
       examples: [
         { japanese: '三年間日本に住んでいました。', romaji: 'Sannenkan Nihon ni sunde imashita.', german: 'Ich habe drei Jahre in Japan gewohnt.' },
-        { japanese: '今年は2025年です。', romaji: 'Kotoshi wa nisen nijūgo nen desu.', german: 'Dieses Jahr ist 2025.' }
+        { japanese: '今年は2026年です。', romaji: 'Kotoshi wa nisen nijuuroku nen desu.', german: 'Dieses Jahr ist 2026.' }
       ],
       notes: '4年 = よねん (nicht よんねん). Zeitdauer: ～年間 (ねんかん). 今年 (ことし) = dieses Jahr, 来年 (らいねん) = nächstes Jahr, 去年 (きょねん) = letztes Jahr.'
     },

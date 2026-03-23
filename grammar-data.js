@@ -792,7 +792,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "nagara",
     "pattern": "～ながら",
-    "level": "N5",
+    "level": "N4",
     "category": "Verben",
     "meaning": "Während / Gleichzeitig",
     "explanation": "～ながら drückt aus, dass zwei Handlungen gleichzeitig von derselben Person ausgeführt werden. Die Haupthandlung steht am Satzende, die Nebenhandlung vor ながら.",
@@ -942,7 +942,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "sugiru",
     "pattern": "～すぎる",
-    "level": "N5",
+    "level": "N4",
     "category": "Verben",
     "meaning": "Zu viel / Zu sehr",
     "explanation": "～すぎる drückt aus, dass etwas übermäßig ist. Es kann mit Verben und Adjektiven verwendet werden und bedeutet 'zu viel' oder 'zu sehr'. すぎる selbst wird als Gruppe-2-Verb konjugiert.",
@@ -965,7 +965,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "kata",
     "pattern": "～方",
-    "level": "N5",
+    "level": "N4",
     "category": "Verben",
     "meaning": "Art und Weise / Wie man ... tut",
     "explanation": "～方 (かた) bedeutet 'die Art und Weise, wie man etwas tut'. Es wird an den Verb-Stamm angehängt und bildet ein Nomen.",
@@ -1039,7 +1039,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "te-miru",
     "pattern": "～てみる",
-    "level": "N5",
+    "level": "N4",
     "category": "Verben",
     "meaning": "Etwas ausprobieren / Versuchen zu...",
     "explanation": "～てみる bedeutet 'etwas ausprobieren' oder 'etwas versuchsweise tun'. Es drückt aus, dass man etwas zum ersten Mal oder testweise macht. Die höfliche Form ist ～てみます.",
@@ -1064,7 +1064,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "te-shimau",
     "pattern": "～てしまう",
-    "level": "N5",
+    "level": "N4",
     "category": "Verben",
     "meaning": "Versehentlich tun / Vollständig tun",
     "explanation": "～てしまう hat zwei Bedeutungen: etwas unbeabsichtigt oder bedauerlich tun, oder eine Handlung vollständig abschließen. Die höfliche Form ist ～てしまいます. In der Umgangssprache wird es zu ～ちゃう verkürzt.",
@@ -1452,8 +1452,8 @@ window.GRAMMAR_DATA = [
         "german": "Diese Person war kein Lehrer."
       },
       {
-        "japanese": "天気はいいではありませんでした。",
-        "romaji": "Tenki wa yoi dewa arimasen deshita.",
+        "japanese": "天気はよくありませんでした。",
+        "romaji": "Tenki wa yoku arimasen deshita.",
         "german": "Das Wetter war nicht gut."
       }
     ],
@@ -1542,7 +1542,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "kamoshirenai",
     "pattern": "～かもしれない",
-    "level": "N5",
+    "level": "N4",
     "category": "Satzstrukturen",
     "meaning": "Vielleicht / Könnte sein, dass...",
     "explanation": "～かもしれない drückt eine unsichere Vermutung aus. Es bedeutet 'vielleicht' oder 'es könnte sein, dass...'. Die höfliche Form ist ～かもしれません.",
@@ -1997,7 +1997,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "noni",
     "pattern": "～のに",
-    "level": "N5",
+    "level": "N4",
     "category": "Satzstrukturen",
     "meaning": "Obwohl / Trotzdem",
     "explanation": "～のに drückt einen Widerspruch oder Enttäuschung aus. Es bedeutet 'obwohl' oder 'trotzdem' und zeigt, dass das Ergebnis anders ist als erwartet.",
@@ -2095,7 +2095,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "hou-ga-ii",
     "pattern": "～ほうがいい",
-    "level": "N5",
+    "level": "N4",
     "category": "Satzstrukturen",
     "meaning": "Sollte / Es wäre besser zu...",
     "explanation": "～ほうがいい wird verwendet, um einen Ratschlag zu geben. Es bedeutet 'Du solltest...' oder 'Es wäre besser, wenn...'. Für positive Ratschläge verwendet man die た-Form, für negative die ない-Form.",
@@ -2121,7 +2121,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "temo",
     "pattern": "～ても / ～でも",
-    "level": "N5",
+    "level": "N4",
     "category": "Satzstrukturen",
     "meaning": "Auch wenn / Selbst wenn",
     "explanation": "～ても drückt aus, dass etwas trotz einer bestimmten Bedingung gilt. Es bedeutet 'auch wenn' oder 'selbst wenn'. Das Ergebnis ändert sich nicht, egal ob die Bedingung eintritt.",
@@ -5426,7 +5426,7 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "十分起こり得ることだ。",
-        "romaji": "Jūbun okoriru koto da.",
+        "romaji": "Juubun okoriuru koto da.",
         "german": "Es ist durchaus möglich, dass das passiert."
       }
     ],
@@ -6558,7 +6558,7 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "約束したからには守らなければならない。",
-        "romaji": "Yakusoku shita kara ni wa mamorankereba naranai.",
+        "romaji": "Yakusoku shita kara ni wa mamoranakereba naranai.",
         "german": "Da ich es versprochen habe, muss ich es halten."
       }
     ],
