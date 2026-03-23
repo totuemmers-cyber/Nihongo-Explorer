@@ -382,7 +382,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "カチャカチャ",
     "reading": "かちゃかちゃ",
-    "romaji": "kachakachya",
+    "romaji": "kachakacha",
     "meaning": "Klirren (Geschirr, Tastatur)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
@@ -390,7 +390,7 @@ window.ONOMATOPOEIA_DATA = [
     "usage": "Adverb",
     "explanation": "Beschreibt leichtes Klirren von Geschirr oder das Klappern einer Tastatur.",
     "examples": [
-      { "japanese": "キーボードをカチャカチャ打つ。", "romaji": "Kiibōdo o kachakachya utsu.", "german": "Klackernd auf der Tastatur tippen." }
+      { "japanese": "キーボードをカチャカチャ打つ。", "romaji": "Kiiboodo o kachakacha utsu.", "german": "Klackernd auf der Tastatur tippen." }
     ],
     "related": ["ガチャガチャ"],
     "notes": "Leiser als ガチャガチャ (stimmlos vs. stimmhaft)."
@@ -457,7 +457,7 @@ window.ONOMATOPOEIA_DATA = [
     "categoryJP": "擬態語",
     "pattern": "ABAB",
     "usage": "Adverb, する, の",
-    "explanation": "Beschreibt etwas Glänzendes, Blitzblankes oder Nagel neues.",
+    "explanation": "Beschreibt etwas Glänzendes, Blitzblankes oder Nagelneues.",
     "examples": [
       { "japanese": "床をピカピカに磨いた。", "romaji": "Yuka o pikapika ni migaita.", "german": "Ich polierte den Boden blitzblank." },
       { "japanese": "ピカピカの一年生。", "romaji": "Pikapika no ichinensei.", "german": "Ein blitzblanker Erstklässler (frisch eingeschult)." }
@@ -491,9 +491,9 @@ window.ONOMATOPOEIA_DATA = [
     "categoryJP": "擬態語",
     "pattern": "ABAB",
     "usage": "Adverb, する, の",
-    "explanation": "Beschreibt zähklebrige, fädenziehende Konsistenz wie bei Nattō oder Okra.",
+    "explanation": "Beschreibt zähklebrige, fädenziehende Konsistenz wie bei Nattou oder Okra.",
     "examples": [
-      { "japanese": "納豆はネバネバしている。", "romaji": "Nattō wa nebaneba shite iru.", "german": "Nattō ist zähklebrig." }
+      { "japanese": "納豆はネバネバしている。", "romaji": "Nattou wa nebaneba shite iru.", "german": "Nattou ist zähklebrig." }
     ],
     "related": ["ベタベタ", "ヌルヌル"],
     "notes": "ネバネバ-Lebensmittel gelten in Japan als gesund."
@@ -762,7 +762,7 @@ window.ONOMATOPOEIA_DATA = [
     "word": "ゴツゴツ",
     "reading": "ごつごつ",
     "romaji": "gotsugotsu",
-    "meaning": "Rauh, knorrig, holprig",
+    "meaning": "Rau, knorrig, holprig",
     "category": "Zustände",
     "categoryJP": "擬態語",
     "pattern": "ABAB",
@@ -1094,7 +1094,7 @@ window.ONOMATOPOEIA_DATA = [
     "categoryJP": "擬情語",
     "pattern": "ABAB",
     "usage": "Adverb, する",
-    "explanation": "Beschreibt ein Zustand ängstlicher Einschüchterung.",
+    "explanation": "Beschreibt einen Zustand ängstlicher Einschüchterung.",
     "examples": [
       { "japanese": "上司の前でビクビクしている。", "romaji": "Joushi no mae de bikubiku shite iru.", "german": "Vor dem Chef ist er ganz eingeschüchtert." }
     ],

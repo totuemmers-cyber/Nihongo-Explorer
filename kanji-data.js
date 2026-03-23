@@ -5481,12 +5481,7 @@ window.KANJI_DATA = [
         "romaji": "todo.ku"
       }
     ],
-    "on": [
-      {
-        "kana": "カイ",
-        "romaji": "kai"
-      }
-    ],
+    "on": [],
     "components": [
       {
         "radical": "尸",
@@ -7693,9 +7688,9 @@ window.KANJI_DATA = [
         "meaning": "Klassenzimmer"
       },
       {
-        "word": "部屋",
-        "reading": "へや",
-        "meaning": "Zimmer"
+        "word": "寝室",
+        "reading": "しんしつ",
+        "meaning": "Schlafzimmer"
       }
     ]
   },
@@ -51813,7 +51808,7 @@ window.KANJI_DATA = [
     "on": [
       {
         "kana": "リュウ",
-        "romaji": "ryū"
+        "romaji": "ryuu"
       }
     ],
     "components": [
