@@ -60542,21 +60542,5 @@ window.VOCAB_N1 = [
         "german": "Ich habe mich mit einem der Juroren getroffen."
       }
     ]
-  },
-  {
-    "word": "漣斗",
-    "reading": "れんと",
-    "romaji": "rento",
-    "meaning": "Rento",
-    "type": "Nomen",
-    "level": "N1",
-    "category": "Menschen",
-    "examples": [
-      {
-        "japanese": "ごめん、その日は漣斗と遊ぶ予定なんだ。",
-        "romaji": "Gomen, sono hi wa sazanami to to asobu yotei na n da.",
-        "german": "Tut mir leid, an dem Tag habe ich schon vor, mich mit Rento zu treffen."
-      }
-    ]
   }
 ];

@@ -1337,6 +1337,467 @@
           tip: 'Fürs Erste reicht es völlig, wenn du die です/ます-Form sicher beherrschst und die häufigsten Keigo-Wörter erkennst, wenn du sie hörst. Aktiv verwenden musst du Keigo erst, wenn du in einem japanischen Unternehmen arbeitest oder sehr formelle Situationen meistern willst. Die meisten Japaner werden es sehr schätzen, wenn du überhaupt die ます-Form korrekt benutzt!'
         }
       ]
+    },
+
+    // ===================== LEKTION 21 =====================
+    {
+      id: 'lesson-21',
+      number: 21,
+      title: '～ようにする & ～ようになる',
+      subtitle: 'Gewohnheiten und Veränderungen',
+      level: 'N3',
+      intro: 'Japanisch hat zwei elegante Konstruktionen, um über Veränderungen zu sprechen: ようにする drückt eine bewusste Anstrengung aus, etwas zu ändern — „Ich achte darauf, dass..." — während ようになる eine natürlich eingetretene Veränderung beschreibt — „Es kam so weit, dass...". Die beiden sind ein perfektes Paar: ようにする ist die Absicht, ようになる ist das Ergebnis. Wer den Unterschied versteht, kann auf Japanisch erstaunlich nuanciert über persönliche Entwicklung, Gewohnheiten und Lebensveränderungen sprechen.',
+      sections: [
+        {
+          heading: 'ようにする — Bewusste Anstrengung',
+          text: 'ようにする drückt aus, dass man sich <strong>bewusst bemüht</strong>, ein bestimmtes Verhalten beizubehalten oder zu ändern. Es geht nicht darum, etwas einmal zu tun, sondern um eine <strong>dauerhafte Anstrengung</strong> oder eine neue Gewohnheit. Im Deutschen am besten übersetzt mit „Ich achte darauf, dass..." oder „Ich versuche, ... zu machen."',
+          examples: [
+            { jp: '毎日野菜を食べるようにしている。', romaji: 'Mainichi yasai o taberu yō ni shite iru.', de: 'Ich achte darauf, jeden Tag Gemüse zu essen.' },
+            { jp: 'なるべく早く寝るようにしています。', romaji: 'Narubeku hayaku neru yō ni shite imasu.', de: 'Ich versuche, möglichst früh schlafen zu gehen.' },
+            { jp: '遅刻しないようにしてください。', romaji: 'Chikoku shinai yō ni shite kudasai.', de: 'Bitte achten Sie darauf, nicht zu spät zu kommen.' }
+          ],
+          tip: 'ようにしている (Verlaufsform) = eine laufende Gewohnheit. ようにした (Vergangenheit) = man hat sich entschieden, etwas von nun an zu tun.'
+        },
+        {
+          heading: 'ようになる — Natürliche Veränderung',
+          text: 'ようになる beschreibt eine <strong>Veränderung, die sich natürlich ergeben hat</strong> — eine Fähigkeit, die man erworben hat, oder ein Zustand, der sich entwickelt hat. Im Deutschen: „Es kam dazu, dass..." oder „Ich kann jetzt...". Im Gegensatz zu ようにする ist hier kein aktives Bemühen im Vordergrund — die Veränderung ist einfach passiert.',
+          examples: [
+            { jp: '日本語が少し話せるようになった。', romaji: 'Nihongo ga sukoshi hanaseru yō ni natta.', de: 'Ich kann jetzt ein bisschen Japanisch sprechen. (Es hat sich entwickelt.)' },
+            { jp: '子供がピーマンを食べるようになった。', romaji: 'Kodomo ga pīman o taberu yō ni natta.', de: 'Das Kind isst jetzt Paprika. (Früher nicht, jetzt schon.)' },
+            { jp: '最近よく眠れるようになりました。', romaji: 'Saikin yoku nemureru yō ni narimashita.', de: 'In letzter Zeit kann ich gut schlafen. (Früher nicht.)' }
+          ]
+        },
+        {
+          heading: 'Das Paar im Vergleich',
+          text: 'Der Unterschied ist im Kern einfach: <strong>ようにする = Absicht</strong> (ich bemühe mich), <strong>ようになる = Ergebnis</strong> (es hat sich ergeben). Oft erzählt man beides in einer Geschichte: Zuerst die Anstrengung, dann das Ergebnis.',
+          examples: [
+            { jp: '毎日練習するようにした。', romaji: 'Mainichi renshū suru yō ni shita.', de: 'Ich habe mich entschieden, jeden Tag zu üben. (Absicht)' },
+            { jp: 'そのおかげで上手に弾けるようになった。', romaji: 'Sono okage de jōzu ni hikeru yō ni natta.', de: 'Dadurch kann ich jetzt gut spielen. (Ergebnis)' },
+            { jp: '甘いものを食べないようにしている。', romaji: 'Amai mono o tabenai yō ni shite iru.', de: 'Ich achte darauf, keine Süßigkeiten zu essen. (Absicht)' },
+            { jp: '体重が減るようになった。', romaji: 'Taijū ga heru yō ni natta.', de: 'Mein Gewicht ist runtergegangen. (Ergebnis)' }
+          ]
+        },
+        {
+          heading: 'Verneinung: ～ないようにする / ～なくなる',
+          text: 'Um auszudrücken, dass man etwas <strong>nicht mehr tut</strong> oder <strong>darauf achtet, etwas zu unterlassen</strong>, gibt es zwei wichtige Formen. ～ないようにする = „Ich achte darauf, es NICHT zu tun." ～なくなる = „Es kam dazu, dass ich es nicht mehr tue." Die Verneinung folgt der gleichen Absicht-vs-Ergebnis-Logik.',
+          examples: [
+            { jp: 'お酒を飲まないようにしている。', romaji: 'Osake o nomanai yō ni shite iru.', de: 'Ich achte darauf, keinen Alkohol zu trinken.' },
+            { jp: '最近コーヒーを飲まなくなった。', romaji: 'Saikin kōhī o nomanaku natta.', de: 'In letzter Zeit trinke ich keinen Kaffee mehr. (Hat sich so ergeben.)' }
+          ],
+          tip: '～なくなる ist oft überraschend emotional: 笑わなくなった (er lacht nicht mehr), 話さなくなった (sie redet nicht mehr mit mir) — diese Sätze können eine ganze Geschichte erzählen.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 22 =====================
+    {
+      id: 'lesson-22',
+      number: 22,
+      title: '～てしまう (ちゃう)',
+      subtitle: 'Ups — das war keine Absicht',
+      level: 'N3',
+      intro: '～てしまう ist eine der vielseitigsten und emotionalsten Formen im Japanischen. Je nach Kontext drückt sie Bedauern, Vollendung oder unbeabsichtigte Handlungen aus. In der Umgangssprache wird sie zu ～ちゃう (nach て) oder ～じゃう (nach で) verkürzt — eine Form, die du in Manga, Anime und im Alltag ständig hören wirst. Wenn du ～てしまう verstehst, öffnet sich eine ganze Welt japanischer Nuancen.',
+      sections: [
+        {
+          heading: 'Bedauern & Unabsichtlichkeit',
+          text: 'Die häufigste Verwendung von ～てしまう: etwas ist passiert, das man <strong>nicht wollte oder bereut</strong>. Im Deutschen: „Ich habe leider...", „Es ist mir passiert, dass...", „Dummerweise habe ich...". Der Sprecher signalisiert, dass das Ergebnis unerwünscht war.',
+          examples: [
+            { jp: '財布を忘れてしまった。', romaji: 'Saifu o wasurete shimatta.', de: 'Ich habe dummerweise mein Portemonnaie vergessen.' },
+            { jp: '大事なファイルを消してしまった。', romaji: 'Daiji na fairu o keshite shimatta.', de: 'Ich habe leider eine wichtige Datei gelöscht.' },
+            { jp: 'せっかくのケーキを落としてしまった。', romaji: 'Sekkaku no kēki o otoshite shimatta.', de: 'Ich habe den Kuchen fallen lassen (obwohl er extra war).' },
+            { jp: 'また遅刻してしまいました。', romaji: 'Mata chikoku shite shimaimashita.', de: 'Ich bin leider schon wieder zu spät gekommen.' }
+          ]
+        },
+        {
+          heading: 'Vollendung — „komplett erledigt"',
+          text: '～てしまう kann auch ausdrücken, dass eine Handlung <strong>vollständig abgeschlossen</strong> ist — oft schneller oder gründlicher als erwartet. Hier schwingt kein Bedauern mit, sondern eher Erstaunen oder Nachdruck. Im Deutschen: „komplett aufgegessen", „schon fertig gelesen", „alles verbraucht".',
+          examples: [
+            { jp: 'この本は一日で読んでしまった。', romaji: 'Kono hon wa ichinichi de yonde shimatta.', de: 'Ich habe dieses Buch an einem Tag durchgelesen.' },
+            { jp: '宿題をもう全部やってしまった。', romaji: 'Shukudai o mō zenbu yatte shimatta.', de: 'Ich habe die Hausaufgaben schon komplett erledigt.' },
+            { jp: 'ケーキを全部食べてしまった。', romaji: 'Kēki o zenbu tabete shimatta.', de: 'Ich habe den ganzen Kuchen aufgegessen.' }
+          ],
+          tip: 'Ob Bedauern oder Vollendung gemeint ist, ergibt sich aus dem Kontext. ケーキを食べてしまった kann beides heißen: „Ich habe den Kuchen komplett aufgegessen" ODER „Ich habe ihn leider aufgegessen (obwohl ich nicht sollte)."'
+        },
+        {
+          heading: 'Umgangssprache: ～ちゃう / ～じゃう',
+          text: 'In der gesprochenen Sprache wird ～てしまう fast immer zu <strong>～ちゃう</strong> verkürzt. Nach der で-Form wird es zu <strong>～じゃう</strong>. Die Konjugation folgt dem u-Verb-Muster: ちゃう → ちゃった (Vergangenheit), ちゃって (て-Form). Diese Formen sind extrem häufig und wichtig zu erkennen!',
+          examples: [
+            { jp: '忘れちゃった。', romaji: 'Wasurechatta.', de: 'Hab\'s vergessen. (= 忘れてしまった)' },
+            { jp: '全部食べちゃった。', romaji: 'Zenbu tabechatta.', de: 'Hab alles aufgegessen. (= 食べてしまった)' },
+            { jp: '壊れちゃった。', romaji: 'Kowarechatta.', de: 'Es ist kaputtgegangen. (= 壊れてしまった)' },
+            { jp: '飲んじゃった。', romaji: 'Nonjatta.', de: 'Hab\'s getrunken. (= 飲んでしまった)' },
+            { jp: '泣いちゃいそう。', romaji: 'Naichai sō.', de: 'Ich glaube, ich fange gleich an zu weinen.' }
+          ],
+          tip: 'In formellen Situationen: ～てしまう. Im Alltag mit Freunden: ～ちゃう. In Manga und Anime: fast immer ～ちゃう.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 23 =====================
+    {
+      id: 'lesson-23',
+      number: 23,
+      title: '～ばかり の使い方',
+      subtitle: 'Gerade erst, immer nur, nichts als',
+      level: 'N3',
+      intro: 'ばかり ist ein kleines Wort mit großer Wirkung. Je nach Kontext und Verbform bedeutet es „gerade erst" (zeitlich), „immer nur" (Gewohnheit) oder „nichts als" (Ausschließlichkeit). Es ist eines dieser Wörter, die ständig auftauchen und deren Nuancen sich mit der Zeit natürlich erschließen. Hier bekommst du einen klaren Überblick über die drei Hauptbedeutungen.',
+      sections: [
+        {
+          heading: '～たばかり — Gerade erst',
+          text: 'Verb-た-Form + ばかり drückt aus, dass eine Handlung <strong>gerade erst</strong> stattgefunden hat — die Erinnerung ist noch frisch, der Zustand noch neu. Im Deutschen: „Ich habe gerade erst...", „Es ist noch nicht lange her, dass...". Wichtig: „Gerade erst" ist subjektiv — es können Minuten oder Wochen sein, solange es sich für den Sprecher noch frisch anfühlt.',
+          examples: [
+            { jp: '日本に来たばかりです。', romaji: 'Nihon ni kita bakari desu.', de: 'Ich bin gerade erst nach Japan gekommen.' },
+            { jp: 'さっき食べたばかりなのに、もうお腹が空いた。', romaji: 'Sakki tabeta bakari na noni, mō onaka ga suita.', de: 'Ich habe gerade erst gegessen, aber bin schon wieder hungrig.' },
+            { jp: '彼女は引っ越してきたばかりだ。', romaji: 'Kanojo wa hikkoshite kita bakari da.', de: 'Sie ist gerade erst hergezogen.' }
+          ]
+        },
+        {
+          heading: '～てばかり / ～ばかり + Verb — Immer nur',
+          text: '～てばかりいる (Verb-て + ばかり + いる) drückt aus, dass jemand <strong>immer nur</strong> eine Sache tut — oft mit leichtem Vorwurf. Nomen + ばかり + Verb bedeutet „nichts als" dieses Nomen. Im Deutschen: „Du machst immer nur...", „Er isst nichts als...".',
+          examples: [
+            { jp: 'ゲームばかりしていないで勉強しなさい。', romaji: 'Gēmu bakari shite inaide benkyō shinasai.', de: 'Hör auf, immer nur Spiele zu spielen, und lern!' },
+            { jp: '甘いものばかり食べている。', romaji: 'Amai mono bakari tabete iru.', de: 'Er isst immer nur Süßigkeiten.' },
+            { jp: '文句ばかり言わないで。', romaji: 'Monku bakari iwanaide.', de: 'Hör auf, dich immer nur zu beschweren.' }
+          ],
+          tip: 'Diese Verwendung hat fast immer einen leicht vorwurfsvollen oder genervten Ton.'
+        },
+        {
+          heading: '～ばかりか / ～ばかりでなく — Nicht nur',
+          text: '～ばかりか oder ～ばかりでなく bedeutet <strong>„nicht nur ... sondern auch"</strong>. Es hebt hervor, dass etwas über das Erwartete hinausgeht — eine Steigerung in einer Aufzählung. Formeller und nachdrücklicher als ～だけでなく.',
+          examples: [
+            { jp: '彼は英語ばかりか中国語も話せる。', romaji: 'Kare wa eigo bakari ka chūgokugo mo hanaseru.', de: 'Er spricht nicht nur Englisch, sondern auch Chinesisch.' },
+            { jp: '雨ばかりでなく風も強くなってきた。', romaji: 'Ame bakari de naku kaze mo tsuyoku natte kita.', de: 'Nicht nur der Regen, auch der Wind ist stärker geworden.' }
+          ]
+        },
+        {
+          heading: '～ばかりに — Nur weil',
+          text: '～ばかりに bedeutet <strong>„nur weil..." / „allein deshalb, weil..."</strong> — es drückt aus, dass ein einziger Grund zu einem (meist negativen) Ergebnis geführt hat. Im Deutschen: „Nur weil ich..." oder „Einzig und allein deshalb...".',
+          examples: [
+            { jp: '一言多かったばかりに怒られた。', romaji: 'Hitokoto ōkatta bakari ni okorareta.', de: 'Nur weil ich ein Wort zu viel gesagt habe, wurde ich ausgeschimpft.' },
+            { jp: '知らなかったばかりに損をした。', romaji: 'Shiranakatta bakari ni son o shita.', de: 'Nur weil ich es nicht wusste, hatte ich einen Nachteil.' }
+          ],
+          tip: 'ばかりに hat fast immer eine bedauernde Nuance — „Wenn nur das eine Ding anders gewesen wäre..."'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 24 =====================
+    {
+      id: 'lesson-24',
+      number: 24,
+      title: '～ことにする & ～ことになる',
+      subtitle: 'Entscheidungen und Schicksal',
+      level: 'N3',
+      intro: 'Wer hat entschieden? Diese Frage ist der Kern des Unterschieds zwischen ことにする und ことになる. Das eine drückt eine persönliche, aktive Entscheidung aus — „Ich habe beschlossen...". Das andere beschreibt ein Ergebnis, das sich ergeben hat, oft ohne erkennbaren Entscheider — „Es wurde beschlossen, dass..." oder „Es hat sich so ergeben, dass...". Zusammen sind sie ein mächtiges Paar, um über Entscheidungen, Schicksal und Wendepunkte im Leben zu sprechen.',
+      sections: [
+        {
+          heading: 'ことにする — Ich entscheide',
+          text: 'Verb (Wörterbuchform/ない-Form) + ことにする drückt eine <strong>persönliche, bewusste Entscheidung</strong> aus. Der Sprecher hat selbst beschlossen, etwas zu tun oder nicht zu tun. Im Deutschen: „Ich habe beschlossen, ...", „Ich entscheide mich für...".',
+          examples: [
+            { jp: '来月から毎朝走ることにした。', romaji: 'Raigetsu kara maiasa hashiru koto ni shita.', de: 'Ich habe beschlossen, ab nächsten Monat jeden Morgen zu joggen.' },
+            { jp: '今日はお酒を飲まないことにする。', romaji: 'Kyō wa osake o nomanai koto ni suru.', de: 'Ich entscheide mich, heute keinen Alkohol zu trinken.' },
+            { jp: '留学することにしました。', romaji: 'Ryūgaku suru koto ni shimashita.', de: 'Ich habe mich entschieden, ein Auslandsstudium zu machen.' }
+          ]
+        },
+        {
+          heading: 'ことになる — Es ergibt sich',
+          text: 'Verb (Wörterbuchform/ない-Form) + ことになる beschreibt ein <strong>Ergebnis oder eine Entscheidung, die sich ergeben hat</strong> — ohne den Sprecher als aktiven Entscheider. Typisch für Firmenbeschlüsse, Schicksalsschläge oder Situationen, in denen „man" (nicht „ich") entschieden hat.',
+          examples: [
+            { jp: '来月大阪に転勤することになった。', romaji: 'Raigetsu Ōsaka ni tenkin suru koto ni natta.', de: 'Es wurde entschieden, dass ich nächsten Monat nach Osaka versetzt werde.' },
+            { jp: '会議は来週に延期されることになった。', romaji: 'Kaigi wa raishū ni enki sareru koto ni natta.', de: 'Es wurde beschlossen, die Besprechung auf nächste Woche zu verschieben.' },
+            { jp: '結局、離婚することになった。', romaji: 'Kekkyoku, rikon suru koto ni natta.', de: 'Letztendlich kam es zur Scheidung.' }
+          ],
+          tip: 'ことになる ist auch die japanische Art, unangenehme Nachrichten abzumildern: Statt „Ich wurde versetzt" sagt man „Es hat sich ergeben, dass ich versetzt werde" — die Verantwortung wird verwischt.'
+        },
+        {
+          heading: 'ことにしている — Eine feste Gewohnheit',
+          text: 'ことにしている (Verlaufsform) drückt eine <strong>feste Gewohnheit oder Regel</strong> aus, die man sich selbst gesetzt hat und konsequent befolgt. Stärker als ようにしている, weil es eine bewusste Regel und nicht nur eine Anstrengung ist.',
+          examples: [
+            { jp: '朝食は必ず食べることにしている。', romaji: 'Chōshoku wa kanarazu taberu koto ni shite iru.', de: 'Ich mache es mir zur Regel, immer zu frühstücken.' },
+            { jp: '日曜日は仕事をしないことにしている。', romaji: 'Nichiyōbi wa shigoto o shinai koto ni shite iru.', de: 'Sonntags arbeite ich grundsätzlich nicht.' }
+          ]
+        },
+        {
+          heading: 'Vergleich: する vs なる',
+          text: 'Die Kernfrage ist immer: <strong>Wer hat entschieden?</strong><ul class="lesson-rules"><li><strong>ことにする</strong> → ICH habe entschieden (aktiv, persönlich)</li><li><strong>ことになる</strong> → ES hat sich ergeben (passiv, von außen)</li><li><strong>ことにしている</strong> → ICH halte mich an diese Regel (feste Gewohnheit)</li><li><strong>ことになっている</strong> → Es ist Regel/Vorschrift, dass... (allgemeine Norm)</li></ul>',
+          examples: [
+            { jp: '日本では靴を脱ぐことになっている。', romaji: 'Nihon de wa kutsu o nugu koto ni natte iru.', de: 'In Japan ist es Brauch, die Schuhe auszuziehen.' },
+            { jp: '会社では残業しないことになっている。', romaji: 'Kaisha de wa zangyō shinai koto ni natte iru.', de: 'In der Firma gilt die Regel, keine Überstunden zu machen.' }
+          ]
+        }
+      ]
+    },
+
+    // ===================== LEKTION 25 =====================
+    {
+      id: 'lesson-25',
+      number: 25,
+      title: '～わけ',
+      subtitle: 'Der logische Schluss',
+      level: 'N3',
+      intro: 'わけ ist eines der nuancenreichsten Wörter im Japanischen. Wörtlich bedeutet es „Grund" oder „logische Schlussfolgerung", aber in der Praxis hat es je nach Konstruktion ganz unterschiedliche Bedeutungen. ～わけだ, ～わけがない und ～わけにはいかない sind drei Kernmuster, die im JLPT ab N3 geprüft werden und im Alltag ständig vorkommen. Wer わけ versteht, kann logische Zusammenhänge, Unmöglichkeiten und soziale Zwänge elegant ausdrücken.',
+      sections: [
+        {
+          heading: 'わけだ — Das erklärt alles!',
+          text: 'わけだ drückt aus, dass etwas eine <strong>logische Konsequenz</strong> ist — „Kein Wunder, dass...", „Das erklärt, warum...", „Also ist es so, dass...". Der Sprecher zieht einen Schluss aus bekannten Fakten.',
+          examples: [
+            { jp: '彼は10年日本に住んでいたのか。日本語が上手なわけだ。', romaji: 'Kare wa jūnen Nihon ni sunde ita no ka. Nihongo ga jōzu na wake da.', de: 'Er hat 10 Jahre in Japan gelebt? Kein Wunder, dass sein Japanisch so gut ist!' },
+            { jp: '電車が止まっているのか。遅刻するわけだ。', romaji: 'Densha ga tomatte iru no ka. Chikoku suru wake da.', de: 'Die Züge stehen still? Dann ist es logisch, dass man zu spät kommt.' },
+            { jp: '一日中歩いたんだ。疲れたわけだね。', romaji: 'Ichinichijū aruita n da. Tsukareta wake da ne.', de: 'Du bist den ganzen Tag gelaufen? Kein Wunder, dass du müde bist.' }
+          ]
+        },
+        {
+          heading: 'わけがない — Unmöglich!',
+          text: 'わけがない drückt aus, dass etwas <strong>logisch unmöglich</strong> ist oder absolut nicht stimmen kann. Stärker als ～はずがない. Im Deutschen: „Es kann unmöglich sein, dass...", „Auf keinen Fall!" Der Sprecher weist etwas mit Nachdruck zurück.',
+          examples: [
+            { jp: 'そんな簡単にできるわけがない。', romaji: 'Sonna kantan ni dekiru wake ga nai.', de: 'Es kann doch nicht sein, dass das so einfach geht!' },
+            { jp: '彼が犯人であるわけがない。', romaji: 'Kare ga hannin de aru wake ga nai.', de: 'Er kann unmöglich der Täter sein.' },
+            { jp: '知らなかったわけがないだろう。', romaji: 'Shiranakatta wake ga nai darō.', de: 'Du kannst doch nicht behaupten, du hättest das nicht gewusst!' }
+          ],
+          tip: 'Umgangssprachlich oft verkürzt: わけない (ohne が). „そんなの無理に決まってる！" hat einen ähnlichen Sinn, aber わけがない klingt logischer und weniger emotional.'
+        },
+        {
+          heading: 'わけにはいかない — Ich darf/kann nicht',
+          text: 'わけにはいかない drückt aus, dass man etwas <strong>aus sozialen, moralischen oder praktischen Gründen nicht tun kann</strong> — selbst wenn man vielleicht möchte. Es geht um äußere Umstände, Verantwortung oder soziale Erwartungen. Im Deutschen: „Ich kann es mir nicht erlauben, ...".',
+          examples: [
+            { jp: '試験があるから遊んでいるわけにはいかない。', romaji: 'Shiken ga aru kara asonde iru wake ni wa ikanai.', de: 'Weil ich eine Prüfung habe, kann ich es mir nicht leisten, herumzuspielen.' },
+            { jp: '約束した以上、やめるわけにはいかない。', romaji: 'Yakusoku shita ijō, yameru wake ni wa ikanai.', de: 'Da ich es versprochen habe, kann ich nicht einfach aufhören.' },
+            { jp: '上司にそんなことを言うわけにはいかない。', romaji: 'Jōshi ni sonna koto o iu wake ni wa ikanai.', de: 'Ich kann meinem Vorgesetzten so etwas unmöglich sagen.' }
+          ]
+        },
+        {
+          heading: 'わけではない — Nicht unbedingt',
+          text: 'わけではない ist eine <strong>teilweise Verneinung</strong> — „Es ist nicht so, dass...", „Das heißt nicht, dass...". Man korrigiert damit eine falsche Annahme, ohne komplett zu widersprechen. Sanfter als わけがない.',
+          examples: [
+            { jp: '嫌いなわけではないけど、今日はちょっと…', romaji: 'Kirai na wake de wa nai kedo, kyō wa chotto...', de: 'Es ist nicht so, dass ich es nicht mag, aber heute ist es etwas...' },
+            { jp: '日本語が上手なわけではないが、日常会話はできる。', romaji: 'Nihongo ga jōzu na wake de wa nai ga, nichijō kaiwa wa dekiru.', de: 'Ich bin nicht besonders gut in Japanisch, aber Alltagsgespräche kann ich führen.' }
+          ],
+          tip: 'わけではない = „nicht unbedingt" (teilweise Verneinung). わけがない = „auf keinen Fall" (totale Verneinung). Der Unterschied ist entscheidend!'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 26 =====================
+    {
+      id: 'lesson-26',
+      number: 26,
+      title: '～として & ～にとって',
+      subtitle: 'Rollen und Perspektiven',
+      level: 'N3/N2',
+      intro: 'Japanisch kann sehr präzise ausdrücken, aus welcher Perspektive oder in welcher Rolle jemand etwas tut oder erlebt. ～として bedeutet „als" (in einer bestimmten Eigenschaft), während ～にとって „für" (aus der Sicht von) bedeutet. Beide Ausdrücke klingen auf den ersten Blick ähnlich, aber sie beleuchten ganz unterschiedliche Aspekte einer Situation.',
+      sections: [
+        {
+          heading: 'として — „Als" (in einer Rolle)',
+          text: 'として wird an ein Nomen angehängt und bedeutet <strong>„als" oder „in der Eigenschaft von"</strong>. Es definiert, in welcher Rolle, Funktion oder Kapazität jemand handelt oder etwas betrachtet wird.',
+          examples: [
+            { jp: '友人として忠告する。', romaji: 'Yūjin to shite chūkoku suru.', de: 'Als Freund rate ich dir davon ab.' },
+            { jp: '東京は首都として発展してきた。', romaji: 'Tōkyō wa shuto to shite hatten shite kita.', de: 'Tokyo hat sich als Hauptstadt entwickelt.' },
+            { jp: '留学生として日本に来ました。', romaji: 'Ryūgakusei to shite Nihon ni kimashita.', de: 'Ich kam als Austauschstudent nach Japan.' },
+            { jp: 'これは冗談としても面白くない。', romaji: 'Kore wa jōdan to shite mo omoshirokunai.', de: 'Das ist nicht mal als Witz lustig.' }
+          ]
+        },
+        {
+          heading: 'にとって — „Für" (aus der Sicht von)',
+          text: 'にとって wird an ein Nomen (meist eine Person oder Gruppe) angehängt und bedeutet <strong>„für" oder „aus der Sicht von"</strong>. Es drückt eine subjektive Bewertung aus der Perspektive dieser Person aus.',
+          examples: [
+            { jp: '私にとって家族が一番大切だ。', romaji: 'Watashi ni totte kazoku ga ichiban taisetsu da.', de: 'Für mich ist Familie das Wichtigste.' },
+            { jp: '子供にとってこの映画は怖すぎる。', romaji: 'Kodomo ni totte kono eiga wa kowasugiru.', de: 'Für Kinder ist dieser Film zu gruselig.' },
+            { jp: '日本人にとって当たり前のことでも、外国人には不思議に見える。', romaji: 'Nihonjin ni totte atarimae no koto demo, gaikokujin ni wa fushigi ni mieru.', de: 'Was für Japaner selbstverständlich ist, wirkt auf Ausländer manchmal seltsam.' }
+          ],
+          tip: 'にとって steht immer vor einer Bewertung (gut/schlecht/wichtig/schwierig...). Es leitet ein: „Aus DIESER Perspektive ist es SO."'
+        },
+        {
+          heading: 'Der Unterschied in der Praxis',
+          text: 'Der Kern: <strong>として = objektive Rolle</strong> (was bin ich?), <strong>にとって = subjektive Perspektive</strong> (wie sehe ich es?). Man kann beide über die gleiche Person verwenden, aber sie beleuchten unterschiedliche Aspekte.',
+          examples: [
+            { jp: '教師として生徒を指導する。', romaji: 'Kyōshi to shite seito o shidō suru.', de: 'Als Lehrer leite ich die Schüler an. (Meine Rolle)' },
+            { jp: '教師にとって生徒の成長が一番嬉しい。', romaji: 'Kyōshi ni totte seito no seichō ga ichiban ureshii.', de: 'Für einen Lehrer ist das Wachstum der Schüler am erfreulichsten. (Meine Perspektive)' },
+            { jp: '彼は俳優としては有名だ。', romaji: 'Kare wa haiyū to shite wa yūmei da.', de: 'Als Schauspieler ist er berühmt. (In dieser Rolle)' },
+            { jp: '彼にとって一番大事なのは家族だ。', romaji: 'Kare ni totte ichiban daiji na no wa kazoku da.', de: 'Für ihn ist Familie das Wichtigste. (Aus seiner Sicht)' }
+          ]
+        }
+      ]
+    },
+
+    // ===================== LEKTION 27 =====================
+    {
+      id: 'lesson-27',
+      number: 27,
+      title: '～一方で & ～反面',
+      subtitle: 'Zwei Seiten einer Medaille',
+      level: 'N2',
+      intro: 'Das Leben ist voller Widersprüche, und Japanisch hat elegante Werkzeuge, um sie auszudrücken. ～一方で (ippō de) und ～反面 (hanmen) zeigen beide eine Gegensätzlichkeit — „Einerseits... andererseits..." — aber mit unterschiedlichen Nuancen. ～一方で präsentiert parallel existierende Tatsachen, während ～反面 die unerwartete Kehrseite einer Eigenschaft beleuchtet. Beide sind typische N2-Strukturen, die in Zeitungsartikeln, Berichten und gehobener Sprache allgegenwärtig sind.',
+      sections: [
+        {
+          heading: '一方で — Andererseits, gleichzeitig',
+          text: '一方(で) verbindet zwei <strong>gegensätzliche oder parallele Fakten</strong>. Es kann „andererseits", „währenddessen" oder „gleichzeitig" bedeuten. Der Kontrast muss nicht negativ sein — es können einfach zwei verschiedene Aspekte nebeneinandergestellt werden.',
+          examples: [
+            { jp: '都市部の人口は増加する一方で、地方は過疎化が進んでいる。', romaji: 'Toshibu no jinkō wa zōka suru ippō de, chihō wa kasoka ga susunde iru.', de: 'Während die Bevölkerung in Städten zunimmt, schreitet die Entvölkerung auf dem Land voran.' },
+            { jp: '彼は厳しい一方で、とても面倒見がいい。', romaji: 'Kare wa kibishii ippō de, totemo mendōmi ga ii.', de: 'Er ist einerseits streng, andererseits kümmert er sich sehr gut.' },
+            { jp: 'SNSは便利な一方で、プライバシーの問題もある。', romaji: 'SNS wa benri na ippō de, puraibashī no mondai mo aru.', de: 'Social Media ist einerseits praktisch, andererseits gibt es Datenschutzprobleme.' }
+          ],
+          tip: '一方で steht nach: Verb-Wörterbuchform, い-Adjektiv, な-Adjektiv + な/である, Nomen + の/である.'
+        },
+        {
+          heading: '一方だ — Immer weiter in eine Richtung',
+          text: '一方だ (ippō da) als Satzende hat eine ganz andere Bedeutung: Eine Entwicklung geht <strong>immer weiter in eine Richtung</strong>, ohne anzuhalten. Oft negativ oder besorgt. Im Deutschen: „Es wird immer schlimmer", „Es nimmt kein Ende".',
+          examples: [
+            { jp: '物価は上がる一方だ。', romaji: 'Bukka wa agaru ippō da.', de: 'Die Preise steigen und steigen.' },
+            { jp: '環境問題は悪化する一方だ。', romaji: 'Kankyō mondai wa akka suru ippō da.', de: 'Die Umweltprobleme werden immer schlimmer.' },
+            { jp: '借金が増える一方で、どうにもならない。', romaji: 'Shakkin ga fueru ippō de, dō ni mo naranai.', de: 'Die Schulden wachsen immer weiter, und man kann nichts dagegen tun.' }
+          ]
+        },
+        {
+          heading: '反面 — Die Kehrseite',
+          text: '反面 beleuchtet die <strong>unerwartete oder gegensätzliche Seite</strong> einer Eigenschaft derselben Sache oder Person. Es ist immer ein Kontrast <strong>innerhalb eines Subjekts</strong> — nicht zwischen zwei verschiedenen Dingen. Im Deutschen: „Auf der anderen Seite..." oder „Gleichzeitig aber auch...".',
+          examples: [
+            { jp: '彼女は優しい反面、頑固なところがある。', romaji: 'Kanojo wa yasashii hanmen, ganko na tokoro ga aru.', de: 'Sie ist freundlich, hat aber auf der anderen Seite auch eine sture Seite.' },
+            { jp: '田舎は静かな反面、買い物が不便だ。', romaji: 'Inaka wa shizuka na hanmen, kaimono ga fuben da.', de: 'Das Land ist zwar ruhig, aber Einkaufen ist unpraktisch.' },
+            { jp: 'この仕事は給料が高い反面、ストレスも多い。', romaji: 'Kono shigoto wa kyūryō ga takai hanmen, sutoresu mo ōi.', de: 'Dieser Job ist zwar gut bezahlt, aber dafür auch sehr stressig.' }
+          ],
+          tip: '一方で = kann verschiedene Subjekte vergleichen. 反面 = immer das gleiche Subjekt mit zwei gegensätzlichen Eigenschaften.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 28 =====================
+    {
+      id: 'lesson-28',
+      number: 28,
+      title: '～に対して & ～について',
+      subtitle: 'Gegenüber und Über',
+      level: 'N2',
+      intro: 'Wenn du über jemanden oder etwas sprichst, kommt es auf die Perspektive an: Richtest du deine Handlung auf ein Gegenüber (に対して), oder sprichst du über ein Thema (について)? Diese beiden Ausdrücke werden oft verwechselt, aber der Unterschied ist fundamental. に対して richtet sich an ein Ziel oder stellt einen Kontrast her. について markiert ein Thema, über das gesprochen oder nachgedacht wird.',
+      sections: [
+        {
+          heading: 'に対して — Gegenüber, im Gegensatz zu',
+          text: 'に対して hat zwei Hauptbedeutungen: 1) <strong>„gegenüber"</strong> — eine Handlung oder Haltung, die auf jemanden/etwas gerichtet ist. 2) <strong>„im Gegensatz zu"</strong> — ein direkter Kontrast zwischen zwei Dingen.',
+          examples: [
+            { jp: '先生は生徒に対して厳しい。', romaji: 'Sensei wa seito ni taishite kibishii.', de: 'Der Lehrer ist gegenüber den Schülern streng.' },
+            { jp: '彼のやり方に対して反対意見が出た。', romaji: 'Kare no yarikata ni taishite hantai iken ga deta.', de: 'Gegenüber seiner Vorgehensweise kam Widerspruch auf.' },
+            { jp: '男性の平均寿命が81歳であるのに対して、女性は87歳だ。', romaji: 'Dansei no heikin jumyō ga 81-sai de aru no ni taishite, josei wa 87-sai da.', de: 'Während die durchschnittliche Lebenserwartung der Männer 81 Jahre beträgt, liegt die der Frauen bei 87.' }
+          ]
+        },
+        {
+          heading: 'について — Über, bezüglich',
+          text: 'について markiert ein <strong>Thema</strong>, über das man spricht, nachdenkt, schreibt oder informiert. Im Deutschen: „über", „bezüglich", „was ... betrifft". Neutraler und thematischer als に対して.',
+          examples: [
+            { jp: '日本の文化について研究している。', romaji: 'Nihon no bunka ni tsuite kenkyū shite iru.', de: 'Ich forsche über die japanische Kultur.' },
+            { jp: 'この問題について話し合いましょう。', romaji: 'Kono mondai ni tsuite hanashiaimashō.', de: 'Lassen Sie uns über dieses Problem sprechen.' },
+            { jp: '彼女については何も知りません。', romaji: 'Kanojo ni tsuite wa nani mo shirimasen.', de: 'Über sie weiß ich nichts.' }
+          ]
+        },
+        {
+          heading: 'Der entscheidende Unterschied',
+          text: '<strong>について = Thema</strong> (worüber reden wir?). <strong>に対して = Ziel/Gegenüber</strong> (auf wen ist etwas gerichtet?). Ein einfacher Test: Wenn du im Deutschen „über" sagen würdest → について. Wenn du „gegenüber" sagen würdest → に対して.',
+          examples: [
+            { jp: '環境問題について考える。', romaji: 'Kankyō mondai ni tsuite kangaeru.', de: 'Über Umweltprobleme nachdenken. (Thema)' },
+            { jp: '環境問題に対して行動を起こす。', romaji: 'Kankyō mondai ni taishite kōdō o okosu.', de: 'Gegenüber Umweltproblemen Maßnahmen ergreifen. (Ziel einer Aktion)' },
+            { jp: '日本語について質問がある。', romaji: 'Nihongo ni tsuite shitsumon ga aru.', de: 'Ich habe eine Frage über Japanisch. (Thema der Frage)' },
+            { jp: '外国人に対して親切だ。', romaji: 'Gaikokujin ni taishite shinsetsu da.', de: 'Er ist gegenüber Ausländern freundlich. (Ziel der Freundlichkeit)' }
+          ],
+          tip: 'Verwandte Formen: に関して (formeller als について), に対する + Nomen (als Adjektiv: „die Haltung gegenüber...").'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 29 =====================
+    {
+      id: 'lesson-29',
+      number: 29,
+      title: '～ものだ & ～ものではない',
+      subtitle: 'So ist das eben',
+      level: 'N2',
+      intro: 'もの (oft abgekürzt als もん) ist eines der vielseitigsten Wörter der japanischen Grammatik. Je nach Konstruktion drückt es Nostalgie, allgemeine Wahrheiten, soziale Erwartungen oder emotionale Ausrufe aus. Die verschiedenen Verwendungen fühlen sich zunächst unzusammenhängend an, aber sie teilen einen Kern: ものだ verbindet persönliche Erfahrung mit allgemeingültigen Wahrheiten oder Normen.',
+      sections: [
+        {
+          heading: 'ものだ — Nostalgie: „Früher war das so..."',
+          text: 'Verb-た-Form + ものだ drückt <strong>nostalgische Erinnerungen</strong> aus — Dinge, die man früher regelmäßig getan hat. Im Deutschen: „Ich habe oft...", „Damals hat man immer...".',
+          examples: [
+            { jp: '子供のころ、よくこの公園で遊んだものだ。', romaji: 'Kodomo no koro, yoku kono kōen de asonda mono da.', de: 'Als Kind habe ich oft in diesem Park gespielt.' },
+            { jp: '昔はよく夜遅くまで勉強したものだ。', romaji: 'Mukashi wa yoku yoru osoku made benkyō shita mono da.', de: 'Früher habe ich oft bis spät in die Nacht gelernt.' },
+            { jp: 'おばあちゃんがよくこの歌を歌ったものだ。', romaji: 'Obāchan ga yoku kono uta o utatta mono da.', de: 'Oma hat dieses Lied oft gesungen.' }
+          ],
+          tip: 'Diese Form hat einen warmen, sentimentalen Klang. Man verwendet sie für schöne oder bedeutsame Erinnerungen.'
+        },
+        {
+          heading: 'ものだ — Allgemeine Wahrheit: „So ist das eben"',
+          text: 'Verb-Wörterbuchform / Adjektiv + ものだ drückt eine <strong>allgemeine Wahrheit oder Naturgesetzlichkeit</strong> aus. Im Deutschen: „So ist das nun mal", „Es liegt in der Natur der Sache, dass...".',
+          examples: [
+            { jp: '人は誰でも間違えるものだ。', romaji: 'Hito wa dare demo machigaeru mono da.', de: 'Jeder Mensch macht Fehler — das liegt in der Natur der Sache.' },
+            { jp: '月日が経つのは早いものだ。', romaji: 'Tsukihi ga tatsu no wa hayai mono da.', de: 'Wie schnell die Zeit vergeht!' },
+            { jp: '親というものは心配するものだ。', romaji: 'Oya to iu mono wa shinpai suru mono da.', de: 'Eltern machen sich nun mal Sorgen — so ist das.' }
+          ]
+        },
+        {
+          heading: 'ものではない — Das tut man nicht',
+          text: 'ものではない drückt eine <strong>soziale Norm oder Erwartung</strong> aus — etwas, das man nicht tun <em>sollte</em>. Es ist kein strenges Verbot, sondern eher ein „das gehört sich nicht" oder „das tut man nicht". Typisch für Ratschläge von Älteren.',
+          examples: [
+            { jp: '人の悪口を言うものではない。', romaji: 'Hito no waruguchi o iu mono de wa nai.', de: 'Man redet nicht schlecht über andere.' },
+            { jp: '食べ物を粗末にするものではない。', romaji: 'Tabemono o somatsu ni suru mono de wa nai.', de: 'Man verschwendet kein Essen.' },
+            { jp: '嘘をつくものではない。', romaji: 'Uso o tsuku mono de wa nai.', de: 'Man lügt nicht.' }
+          ],
+          tip: 'ものではない klingt wie ein weiser Ratschlag, nicht wie ein Befehl. Typischer Kontext: Großeltern zu Enkeln, Lehrer zu Schülern, Mentor zu Mentee.'
+        },
+        {
+          heading: 'ものだから — Ausrede: „Weil nämlich..."',
+          text: 'ものだから (umgangssprachlich: もんだから) wird als <strong>Entschuldigung oder Erklärung</strong> verwendet. Es impliziert: „Ich konnte nichts dafür, weil die Umstände so waren." Im Deutschen: „Weil es eben so war, dass...".',
+          examples: [
+            { jp: '電車が遅れたものだから、遅刻してしまった。', romaji: 'Densha ga okureta mono dakara, chikoku shite shimatta.', de: 'Weil der Zug nun mal Verspätung hatte, bin ich zu spät gekommen.' },
+            { jp: '急に雨が降ってきたものだから、傘を買った。', romaji: 'Kyū ni ame ga futte kita mono dakara, kasa o katta.', de: 'Weil es plötzlich angefangen hat zu regnen, habe ich einen Schirm gekauft.' }
+          ]
+        }
+      ]
+    },
+
+    // ===================== LEKTION 30 =====================
+    {
+      id: 'lesson-30',
+      number: 30,
+      title: '～てこそ & ～からこそ',
+      subtitle: 'Gerade weil — gerade dann',
+      level: 'N2',
+      intro: 'こそ ist ein Verstärkungspartikel, der betont: „GENAU das ist es!" In Kombination mit てこそ und からこそ entstehen zwei kraftvolle Ausdrücke, die im Japanischen eine besondere Rolle spielen. ～てこそ sagt: „Erst wenn man DAS tut, DANN ergibt sich das Ergebnis." ～からこそ sagt: „GERADE WEIL es so ist, deshalb..." Beide drücken eine starke Überzeugung aus und sind typisch für Reden, Essays und emotionale Aussagen.',
+      sections: [
+        {
+          heading: 'こそ — Der Verstärkungspartikel',
+          text: 'Bevor wir die Kombinationen anschauen, kurz zu こそ allein: Es hebt ein Wort oder eine Phrase als den <strong>entscheidenden Punkt</strong> hervor. Im Deutschen: „GENAU das", „Gerade DAS". Du kennst es vielleicht schon aus festen Wendungen.',
+          examples: [
+            { jp: 'こちらこそよろしくお願いします。', romaji: 'Kochira koso yoroshiku onegai shimasu.', de: 'Ganz MEINERSEITS, freut mich.' },
+            { jp: '今度こそ合格するぞ！', romaji: 'Kondo koso gōkaku suru zo!', de: 'DIESES MAL bestehe ich!' },
+            { jp: 'あなたこそ大丈夫ですか。', romaji: 'Anata koso daijōbu desu ka.', de: 'Geht es IHNEN denn gut? (Sorge um den anderen, nicht um sich.)' }
+          ]
+        },
+        {
+          heading: 'てこそ — Erst dann, wenn...',
+          text: 'Verb-て-Form + こそ drückt aus, dass etwas <strong>erst durch eine bestimmte Handlung</strong> seine wahre Bedeutung oder seinen vollen Wert erhält. Im Deutschen: „Erst wenn man..., dann..." oder „Nur durch...".',
+          examples: [
+            { jp: '失敗してこそ成長できる。', romaji: 'Shippai shite koso seichō dekiru.', de: 'Erst durch Scheitern kann man wachsen.' },
+            { jp: '自分でやってこそ意味がある。', romaji: 'Jibun de yatte koso imi ga aru.', de: 'Erst wenn man es selbst macht, hat es einen Sinn.' },
+            { jp: '苦労してこそ本当の喜びがわかる。', romaji: 'Kurō shite koso hontō no yorokobi ga wakaru.', de: 'Erst wenn man Schwierigkeiten durchlebt hat, versteht man wahre Freude.' }
+          ],
+          tip: 'てこそ hat oft einen philosophischen oder motivierenden Ton. Typisch für Lebensweisheiten, Reden und inspirierende Texte.'
+        },
+        {
+          heading: 'からこそ — Gerade weil',
+          text: 'からこそ drückt einen <strong>Grund aus, der besonders betont wird</strong> — „Gerade WEIL es so ist, deshalb...". Es hebt hervor, dass der Grund nicht trivial ist, sondern der entscheidende Faktor. Oft in emotionalen oder überzeugenden Kontexten.',
+          examples: [
+            { jp: '好きだからこそ厳しく言うんだ。', romaji: 'Suki da kara koso kibishiku iu n da.', de: 'Gerade WEIL ich dich mag, sage ich es dir direkt.' },
+            { jp: '大変だからこそやりがいがある。', romaji: 'Taihen da kara koso yarigai ga aru.', de: 'Gerade WEIL es schwer ist, lohnt es sich.' },
+            { jp: '経験があるからこそ言えることだ。', romaji: 'Keiken ga aru kara koso ieru koto da.', de: 'Gerade WEIL ich Erfahrung habe, kann ich das sagen.' },
+            { jp: '一人だからこそ自由にできる。', romaji: 'Hitori da kara koso jiyū ni dekiru.', de: 'Gerade WEIL man allein ist, kann man frei handeln.' }
+          ]
+        },
+        {
+          heading: 'Vergleich & Nuancen',
+          text: 'Beide Ausdrücke betonen, aber auf unterschiedliche Weise:<ul class="lesson-rules"><li><strong>てこそ</strong> → betont die <em>Voraussetzung</em>: „Erst WENN man X tut, DANN Y"</li><li><strong>からこそ</strong> → betont den <em>Grund</em>: „GERADE WEIL X, deshalb Y"</li></ul>てこそ schaut nach vorne (Bedingung → Ergebnis), からこそ schaut zurück (Grund → Folge).',
+          examples: [
+            { jp: '練習してこそ上手になれる。', romaji: 'Renshū shite koso jōzu ni nareru.', de: 'Erst DURCH Üben wird man gut. (Bedingung)' },
+            { jp: '毎日練習したからこそ上手になったんだ。', romaji: 'Mainichi renshū shita kara koso jōzu ni natta n da.', de: 'GERADE WEIL ich jeden Tag geübt habe, bin ich gut geworden. (Grund)' }
+          ],
+          tip: 'こそ-Ausdrücke verleihen deinem Japanisch Tiefe und Überzeugungskraft. Sie sind das sprachliche Äquivalent eines „Mikrofon fallen lassen"-Moments.'
+        }
+      ]
     }
   ];
 
