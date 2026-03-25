@@ -1798,5 +1798,103 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Oft bei ernsten, wichtigen Themen.",
     "related": []
+  },
+  {
+    "id": "n2-mamire",
+    "pattern": "～まみれ",
+    "level": "N2",
+    "category": "Adjektive",
+    "meaning": "bedeckt mit, voller (negativ)",
+    "explanation": "まみれ wird an Nomen angehängt und bildet ein な-Adjektiv, das beschreibt, dass etwas mit einer unangenehmen Substanz bedeckt oder verschmutzt ist. Fast immer negativ konnotiert — für positive Bedeutungen wird ～だらけ (neutraler) oder ～いっぱい verwendet.",
+    "formation": "Nomen + まみれ (+ の/だ/な)",
+    "examples": [
+      {
+        "japanese": "子供たちが泥まみれになって遊んでいた。",
+        "romaji": "Kodomotachi ga doro-mamire ni natte asonde ita.",
+        "german": "Die Kinder spielten und waren ganz mit Schlamm bedeckt."
+      },
+      {
+        "japanese": "汗まみれのシャツを洗濯した。",
+        "romaji": "Ase-mamire no shatsu o sentaku shita.",
+        "german": "Ich habe das schweißgetränkte Hemd gewaschen."
+      }
+    ],
+    "notes": "Typische Kombinationen: 泥まみれ (schlammbedeckt), 汗まみれ (schweißbedeckt), 血まみれ (blutbedeckt), 借金まみれ (hoch verschuldet). Nicht verwechseln mit ～だらけ, das auch für zählbare Dinge verwendet werden kann.",
+    "related": [
+      "n3-darake"
+    ]
+  },
+  {
+    "id": "n2-zukume",
+    "pattern": "～ずくめ",
+    "level": "N2",
+    "category": "Adjektive",
+    "meaning": "nichts als, lauter, nur",
+    "explanation": "ずくめ wird an Nomen angehängt und bildet ein な-Adjektiv, das ausdrückt, dass etwas ausschließlich oder durchgehend aus einer bestimmten Sache besteht. Im Gegensatz zu ～だらけ (chaotisch/negativ) kann ずくめ sowohl positiv als auch neutral sein.",
+    "formation": "Nomen + ずくめ (+ の/だ)",
+    "examples": [
+      {
+        "japanese": "今日はいいことずくめの一日だった。",
+        "romaji": "Kyō wa ii koto zukume no ichinichi datta.",
+        "german": "Heute war ein Tag voller guter Dinge."
+      },
+      {
+        "japanese": "黒ずくめの男が立っていた。",
+        "romaji": "Kuro-zukume no otoko ga tatte ita.",
+        "german": "Ein ganz in Schwarz gekleideter Mann stand da."
+      }
+    ],
+    "notes": "Häufige Kombinationen: 黒ずくめ (ganz in Schwarz), いいことずくめ (lauter Gutes), ルールずくめ (voller Regeln), 異例ずくめ (lauter Ausnahmen).",
+    "related": [
+      "n3-darake"
+    ]
+  },
+  {
+    "id": "n2-meku",
+    "pattern": "～めく",
+    "level": "N2",
+    "category": "Adjektive",
+    "meaning": "~artig werden, nach ~ aussehen/klingen",
+    "explanation": "めく ist ein Suffix, das an bestimmte Nomen angehängt wird und ein Godan-Verb bildet (めく → めいた → めいて). Es drückt aus, dass etwas den Charakter oder die Atmosphäre des Nomens annimmt. Die Anzahl der Kombinationen ist begrenzt — man kann es nicht frei an jedes Nomen hängen.",
+    "formation": "Nomen + めく (→ めいた + Nomen / めいて)",
+    "examples": [
+      {
+        "japanese": "風が暖かくなり、春めいてきた。",
+        "romaji": "Kaze ga atatakaku nari, haru-meite kita.",
+        "german": "Der Wind wurde wärmer und es wurde frühlingshaft."
+      },
+      {
+        "japanese": "彼の皮肉めいた言い方が気になった。",
+        "romaji": "Kare no hiniku-meita iikata ga ki ni natta.",
+        "german": "Seine ironisch klingende Ausdrucksweise störte mich."
+      }
+    ],
+    "notes": "Gängige Kombinationen: 春めく (frühlingshaft werden), 皮肉めく (ironisch klingen), 謎めく (rätselhaft wirken), 冗談めく (scherzhaft klingen). Achtung: nicht frei kombinierbar!",
+    "related": []
+  },
+  {
+    "id": "n2-kaneru",
+    "pattern": "～かねる / ～かねない",
+    "level": "N2",
+    "category": "Adjektive",
+    "meaning": "nicht können / durchaus möglich sein",
+    "explanation": "かねる hat zwei Formen mit gegensätzlicher Bedeutung: ～かねる bedeutet «kann nicht, ist nicht in der Lage» (Höflichkeitsform der Ablehnung). ～かねない bedeutet «es ist nicht auszuschließen, dass» (Warnung vor negativem Ergebnis). Beide werden an die Verbstamm-Form (ます-Stamm) angehängt.",
+    "formation": "Verb-ます-Stamm + かねる / かねない",
+    "examples": [
+      {
+        "japanese": "その要求にはお応えしかねます。",
+        "romaji": "Sono yōkyū ni wa okotae shikanemasu.",
+        "german": "Dieser Anforderung können wir leider nicht nachkommen."
+      },
+      {
+        "japanese": "このまま放置すれば事故を起こしかねない。",
+        "romaji": "Kono mama hōchi sureba jiko o okoshi kanenai.",
+        "german": "Wenn man das so lässt, könnte es durchaus zu einem Unfall kommen."
+      }
+    ],
+    "notes": "かねる → höfliche Ablehnung (ビジネス). かねない → Warnung vor negativer Möglichkeit. Nur mit negativen/unerwünschten Ergebnissen bei かねない.",
+    "related": [
+      "n2-uru-enai"
+    ]
   }
 ]);
