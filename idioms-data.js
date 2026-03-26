@@ -1,4 +1,4 @@
-// Idioms & Proverbs / Redewendungen & Sprichwörter Data — 50 entries
+// Idioms & Proverbs / Redewendungen & Sprichwörter Data — 249 entries
 // Types: Redewendung (慣用句), Sprichwort (ことわざ)
 
 window.IDIOMS_DATA = [
@@ -1771,6 +1771,1278 @@ window.IDIOMS_DATA = [
     "category": "Charakter",
     "examples": [
       { "japanese": "悪い仲間と付き合うと自分も悪くなる。朱に交われば赤くなるだ。", "romaji": "Warui nakama to tsukiau to jibun mo waruku naru. Shu ni majiwareba akaku naru da.", "german": "Wenn man mit schlechtem Umgang verkehrt, wird man selbst schlecht. Man wird von seiner Umgebung geprägt." }
+    ]
+  },
+
+  // =============================================
+  // === ERWEITERUNG: ALLTAG (Weitere ~15) ===
+  // =============================================
+  {
+    "word": "腹が減る",
+    "reading": "はらがへる",
+    "romaji": "hara ga heru",
+    "meaning": "Hunger haben (umgangssprachlich)",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "朝ご飯を食べなかったから、腹が減った。", "romaji": "Asagohan o tabenakatta kara, hara ga hetta.", "german": "Ich habe kein Frühstück gegessen, deshalb habe ich Hunger." }
+    ]
+  },
+  {
+    "word": "寝坊する",
+    "reading": "ねぼうする",
+    "romaji": "nebō suru",
+    "meaning": "verschlafen, zu lang schlafen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "今朝寝坊して、授業に遅刻した。", "romaji": "Kesa nebō shite, jugyō ni chikoku shita.", "german": "Ich habe heute Morgen verschlafen und bin zu spät zum Unterricht gekommen." }
+    ]
+  },
+  {
+    "word": "道に迷う",
+    "reading": "みちにまよう",
+    "romaji": "michi ni mayou",
+    "meaning": "sich verlaufen, den Weg nicht finden",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "初めての街で道に迷ってしまった。", "romaji": "Hajimete no machi de michi ni mayotte shimatta.", "german": "In der fremden Stadt habe ich mich verlaufen." }
+    ]
+  },
+  {
+    "word": "手間がかかる",
+    "reading": "てまがかかる",
+    "romaji": "tema ga kakaru",
+    "meaning": "viel Aufwand erfordern, zeitaufwendig sein",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "手作りの料理は手間がかかるが、美味しい。", "romaji": "Tezukuri no ryōri wa tema ga kakaru ga, oishii.", "german": "Selbstgemachtes Essen erfordert Aufwand, schmeckt aber gut." }
+    ]
+  },
+  {
+    "word": "気分転換",
+    "reading": "きぶんてんかん",
+    "romaji": "kibun tenkan",
+    "meaning": "Abwechslung suchen, die Stimmung wechseln",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "気分転換に散歩に出かけた。", "romaji": "Kibun tenkan ni sanpo ni dekaketa.", "german": "Zur Abwechslung bin ich spazieren gegangen." }
+    ]
+  },
+  {
+    "word": "日が暮れる",
+    "reading": "ひがくれる",
+    "romaji": "hi ga kureru",
+    "meaning": "es wird dunkel, die Sonne geht unter",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "日が暮れる前に家に帰ろう。", "romaji": "Hi ga kureru mae ni ie ni kaerō.", "german": "Lass uns nach Hause gehen, bevor es dunkel wird." }
+    ]
+  },
+  {
+    "word": "水臭い",
+    "reading": "みずくさい",
+    "romaji": "mizukusai",
+    "meaning": "distanziert, förmlich (unter Freunden unangemessen)",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "遠慮しないで。水臭いなあ。", "romaji": "Enryo shinaide. Mizukusai nā.", "german": "Sei doch nicht so förmlich. So distanziert unter Freunden!" }
+    ]
+  },
+  {
+    "word": "日が経つ",
+    "reading": "ひがたつ",
+    "romaji": "hi ga tatsu",
+    "meaning": "Tage vergehen, die Zeit verstreicht",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "日が経つのが本当に早い。", "romaji": "Hi ga tatsu no ga hontō ni hayai.", "german": "Wie schnell doch die Tage vergehen." }
+    ]
+  },
+  {
+    "word": "都合がいい",
+    "reading": "つごうがいい",
+    "romaji": "tsugō ga ii",
+    "meaning": "es passt zeitlich, es ist gelegen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "明日の午後は都合がいいですか。", "romaji": "Ashita no gogo wa tsugō ga ii desu ka.", "german": "Passt es Ihnen morgen Nachmittag?" }
+    ]
+  },
+  {
+    "word": "荷が重い",
+    "reading": "にがおもい",
+    "romaji": "ni ga omoi",
+    "meaning": "eine zu schwere Bürde sein, überfordert sein",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "新人にはこの仕事は荷が重い。", "romaji": "Shinjin ni wa kono shigoto wa ni ga omoi.", "german": "Für einen Anfänger ist diese Arbeit eine zu schwere Bürde." }
+    ]
+  },
+  {
+    "word": "暇を潰す",
+    "reading": "ひまをつぶす",
+    "romaji": "hima o tsubusu",
+    "meaning": "sich die Zeit vertreiben",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "電車を待つ間、スマホで暇を潰した。", "romaji": "Densha o matsu aida, sumaho de hima o tsubushita.", "german": "Während ich auf den Zug wartete, vertrieb ich mir mit dem Handy die Zeit." }
+    ]
+  },
+  {
+    "word": "腹ごしらえ",
+    "reading": "はらごしらえ",
+    "romaji": "haragoshirae",
+    "meaning": "sich vorher stärken, etwas essen bevor man losgeht",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "出発前に腹ごしらえをしよう。", "romaji": "Shuppatsu mae ni haragoshirae o shiyō.", "german": "Lass uns uns stärken, bevor wir losfahren." }
+    ]
+  },
+  {
+    "word": "話が弾む",
+    "reading": "はなしがはずむ",
+    "romaji": "hanashi ga hazumu",
+    "meaning": "das Gespräch kommt in Schwung, man unterhält sich angeregt",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "久しぶりに会って、話が弾んだ。", "romaji": "Hisashiburi ni atte, hanashi ga hazunda.", "german": "Wir haben uns nach langer Zeit wiedergesehen und uns angeregt unterhalten." }
+    ]
+  },
+  {
+    "word": "湯水のように使う",
+    "reading": "ゆみずのようにつかう",
+    "romaji": "yumizu no yō ni tsukau",
+    "meaning": "Geld wie Wasser ausgeben, verschwenderisch sein",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "彼はお金を湯水のように使っている。", "romaji": "Kare wa okane o yumizu no yō ni tsukatte iru.", "german": "Er gibt Geld aus wie Wasser." }
+    ]
+  },
+  {
+    "word": "寝耳に水",
+    "reading": "ねみみにみず",
+    "romaji": "nemimi ni mizu",
+    "meaning": "wie ein Blitz aus heiterem Himmel, völlig unerwartet",
+    "type": "Redewendung",
+    "level": "N1",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "突然の解雇は寝耳に水だった。", "romaji": "Totsuzen no kaiko wa nemimi ni mizu datta.", "german": "Die plötzliche Kündigung kam wie ein Blitz aus heiterem Himmel." }
+    ]
+  },
+
+  // =============================================
+  // === ERWEITERUNG: ARBEIT (Weitere ~15) ===
+  // =============================================
+  {
+    "word": "仕事に追われる",
+    "reading": "しごとにおわれる",
+    "romaji": "shigoto ni owareru",
+    "meaning": "von Arbeit überhäuft sein, unter Arbeitsdruck stehen",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "毎日仕事に追われて、休む暇もない。", "romaji": "Mainichi shigoto ni owarete, yasumu hima mo nai.", "german": "Jeden Tag bin ich mit Arbeit überhäuft und habe keine Zeit zum Ausruhen." }
+    ]
+  },
+  {
+    "word": "首になる",
+    "reading": "くびになる",
+    "romaji": "kubi ni naru",
+    "meaning": "gefeuert werden, entlassen werden",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "遅刻ばかりして首になった。", "romaji": "Chikoku bakari shite kubi ni natta.", "german": "Er kam ständig zu spät und wurde gefeuert." }
+    ]
+  },
+  {
+    "word": "腕を振るう",
+    "reading": "うでをふるう",
+    "romaji": "ude o furuu",
+    "meaning": "sein Können zeigen, seine Fähigkeiten voll einsetzen",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "シェフが腕を振るった料理を楽しんだ。", "romaji": "Shefu ga ude o furutta ryōri o tanoshinda.", "german": "Wir genossen das Essen, bei dem der Koch sein ganzes Können zeigte." }
+    ]
+  },
+  {
+    "word": "一人前になる",
+    "reading": "いちにんまえになる",
+    "romaji": "ichininmae ni naru",
+    "meaning": "erwachsen werden, ein vollwertiges Mitglied werden",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "早く一人前の職人になりたい。", "romaji": "Hayaku ichininmae no shokunin ni naritai.", "german": "Ich möchte bald ein vollwertiger Handwerker werden." }
+    ]
+  },
+  {
+    "word": "肩身が狭い",
+    "reading": "かたみがせまい",
+    "romaji": "katami ga semai",
+    "meaning": "sich unwohl fühlen, sich schämen müssen",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "ミスが多くて、職場で肩身が狭い。", "romaji": "Misu ga ōkute, shokuba de katami ga semai.", "german": "Wegen vieler Fehler fühle ich mich am Arbeitsplatz unwohl." }
+    ]
+  },
+  {
+    "word": "釘付けになる",
+    "reading": "くぎづけになる",
+    "romaji": "kugizuke ni naru",
+    "meaning": "wie angenagelt sein, gebannt sein",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "締め切り前で机に釘付けになっている。", "romaji": "Shimekiri mae de tsukue ni kugizuke ni natte iru.", "german": "Vor der Frist bin ich wie an den Schreibtisch genagelt." }
+    ]
+  },
+  {
+    "word": "お茶を濁す",
+    "reading": "おちゃをにごす",
+    "romaji": "ocha o nigosu",
+    "meaning": "ausweichen, sich herausreden, etwas nur oberflächlich tun",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "質問に答えず、お茶を濁した。", "romaji": "Shitsumon ni kotaezu, ocha o nigoshita.", "german": "Er wich der Frage aus und redete sich heraus." }
+    ]
+  },
+  {
+    "word": "顔が立つ",
+    "reading": "かおがたつ",
+    "romaji": "kao ga tatsu",
+    "meaning": "das Gesicht wahren, den Ruf wahren",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "この案なら上司の顔が立つだろう。", "romaji": "Kono an nara jōshi no kao ga tatsu darō.", "german": "Mit diesem Vorschlag kann der Chef sein Gesicht wahren." }
+    ]
+  },
+  {
+    "word": "割に合わない",
+    "reading": "わりにあわない",
+    "romaji": "wari ni awanai",
+    "meaning": "sich nicht lohnen, in keinem Verhältnis stehen",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "この仕事は大変なのに給料が安くて割に合わない。", "romaji": "Kono shigoto wa taihen na noni kyūryō ga yasukute wari ni awanai.", "german": "Diese Arbeit ist anstrengend, aber das Gehalt ist niedrig — es lohnt sich nicht." }
+    ]
+  },
+  {
+    "word": "采配を振る",
+    "reading": "さいはいをふる",
+    "romaji": "saihai o furu",
+    "meaning": "die Leitung übernehmen, das Kommando führen",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "彼女がプロジェクトの采配を振っている。", "romaji": "Kanojo ga purojekuto no saihai o futte iru.", "german": "Sie führt das Kommando über das Projekt." }
+    ]
+  },
+  {
+    "word": "筋を通す",
+    "reading": "すじをとおす",
+    "romaji": "suji o tōsu",
+    "meaning": "konsequent sein, den korrekten Weg einhalten",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "何事も筋を通すことが大切だ。", "romaji": "Nanigoto mo suji o tōsu koto ga taisetsu da.", "german": "Bei allem ist es wichtig, den korrekten Weg einzuhalten." }
+    ]
+  },
+  {
+    "word": "火がつく",
+    "reading": "ひがつく",
+    "romaji": "hi ga tsuku",
+    "meaning": "Feuer fangen, in Fahrt kommen (Motivation)",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "ライバルの成功を見て、やる気に火がついた。", "romaji": "Raibaru no seikō o mite, yaruki ni hi ga tsuita.", "german": "Als ich den Erfolg meines Rivalen sah, hat das meine Motivation entfacht." }
+    ]
+  },
+  {
+    "word": "目処が立つ",
+    "reading": "めどがたつ",
+    "romaji": "medo ga tatsu",
+    "meaning": "ein Ziel in Sicht haben, eine Aussicht bestehen",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "やっとプロジェクト完了の目処が立った。", "romaji": "Yatto purojekuto kanryō no medo ga tatta.", "german": "Endlich ist der Abschluss des Projekts in Sicht." }
+    ]
+  },
+  {
+    "word": "二足のわらじを履く",
+    "reading": "にそくのわらじをはく",
+    "romaji": "nisoku no waraji o haku",
+    "meaning": "zwei Berufe gleichzeitig ausüben, Doppelrolle spielen",
+    "type": "Redewendung",
+    "level": "N1",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "彼は会社員と作家の二足のわらじを履いている。", "romaji": "Kare wa kaishain to sakka no nisoku no waraji o haite iru.", "german": "Er arbeitet gleichzeitig als Angestellter und als Schriftsteller." }
+    ]
+  },
+  {
+    "word": "芽を出す",
+    "reading": "めをだす",
+    "romaji": "me o dasu",
+    "meaning": "keimen, erste Erfolge zeigen",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "長年の研究がようやく芽を出し始めた。", "romaji": "Naganen no kenkyū ga yōyaku me o dashi hajimeta.", "german": "Die jahrelange Forschung beginnt endlich Früchte zu tragen." }
+    ]
+  },
+
+  // =============================================
+  // === ERWEITERUNG: GELD (Weitere ~10) ===
+  // =============================================
+  {
+    "word": "財布の紐が固い",
+    "reading": "さいふのひもがかたい",
+    "romaji": "saifu no himo ga katai",
+    "meaning": "sparsam sein, den Geldbeutel zuhalten",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "母は財布の紐が固くて、無駄遣いを許さない。", "romaji": "Haha wa saifu no himo ga katakute, mudazukai o yurusanai.", "german": "Meine Mutter ist sparsam und erlaubt keine Verschwendung." }
+    ]
+  },
+  {
+    "word": "懐が寒い",
+    "reading": "ふところがさむい",
+    "romaji": "futokoro ga samui",
+    "meaning": "knapp bei Kasse sein, kein Geld haben",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "ボーナス前で懐が寒い。", "romaji": "Bōnasu mae de futokoro ga samui.", "german": "Vor dem Bonus bin ich knapp bei Kasse." }
+    ]
+  },
+  {
+    "word": "金に糸目をつけない",
+    "reading": "かねにいとめをつけない",
+    "romaji": "kane ni itome o tsukenai",
+    "meaning": "keine Kosten scheuen, Geld keine Rolle spielen lassen",
+    "type": "Redewendung",
+    "level": "N1",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "子供の教育には金に糸目をつけない。", "romaji": "Kodomo no kyōiku ni wa kane ni itome o tsukenai.", "german": "Für die Bildung der Kinder scheue ich keine Kosten." }
+    ]
+  },
+  {
+    "word": "首が回らない",
+    "reading": "くびがまわらない",
+    "romaji": "kubi ga mawaranai",
+    "meaning": "finanziell in der Klemme stecken, verschuldet sein",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "借金が多すぎて首が回らない。", "romaji": "Shakkin ga ōsugite kubi ga mawaranai.", "german": "Ich habe so viele Schulden, dass ich finanziell in der Klemme stecke." }
+    ]
+  },
+  {
+    "word": "足が出る",
+    "reading": "あしがでる",
+    "romaji": "ashi ga deru",
+    "meaning": "das Budget überschreiten, rote Zahlen schreiben",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "旅行で予算より足が出てしまった。", "romaji": "Ryokō de yosan yori ashi ga dete shimatta.", "german": "Auf der Reise habe ich das Budget überschritten." }
+    ]
+  },
+  {
+    "word": "元を取る",
+    "reading": "もとをとる",
+    "romaji": "moto o toru",
+    "meaning": "die Kosten wieder hereinholen, auf seine Kosten kommen",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "食べ放題でたくさん食べて元を取った。", "romaji": "Tabehōdai de takusan tabete moto o totta.", "german": "Beim All-you-can-eat habe ich viel gegessen und bin auf meine Kosten gekommen." }
+    ]
+  },
+  {
+    "word": "懐が温かい",
+    "reading": "ふところがあたたかい",
+    "romaji": "futokoro ga atatakai",
+    "meaning": "gut bei Kasse sein, viel Geld haben",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "ボーナスが入って懐が温かい。", "romaji": "Bōnasu ga haitte futokoro ga atatakai.", "german": "Nach dem Bonus bin ich gut bei Kasse." }
+    ]
+  },
+  {
+    "word": "金づるにする",
+    "reading": "かねづるにする",
+    "romaji": "kanezuru ni suru",
+    "meaning": "jemanden als Geldquelle ausnutzen",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "彼女は彼を金づるにしているだけだ。", "romaji": "Kanojo wa kare o kanezuru ni shite iru dake da.", "german": "Sie nutzt ihn nur als Geldquelle aus." }
+    ]
+  },
+  {
+    "word": "一銭も残らない",
+    "reading": "いっせんものこらない",
+    "romaji": "issen mo nokoranai",
+    "meaning": "keinen Pfennig übrig haben, völlig blank sein",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "給料日前で一銭も残らない。", "romaji": "Kyūryōbi mae de issen mo nokoranai.", "german": "Vor dem Zahltag habe ich keinen Pfennig mehr übrig." }
+    ]
+  },
+  {
+    "word": "金離れがいい",
+    "reading": "かねばなれがいい",
+    "romaji": "kanebanare ga ii",
+    "meaning": "großzügig mit Geld umgehen, freigebig sein",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "彼は金離れがいいから、よくおごってくれる。", "romaji": "Kare wa kanebanare ga ii kara, yoku ogotte kureru.", "german": "Er ist großzügig mit Geld und lädt uns oft ein." }
+    ]
+  },
+
+  // =============================================
+  // === ERWEITERUNG: NATUR (Weitere ~10) ===
+  // =============================================
+  {
+    "word": "花を持たせる",
+    "reading": "はなをもたせる",
+    "romaji": "hana o motaseru",
+    "meaning": "jemandem den Ruhm überlassen, jemanden gut dastehen lassen",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "後輩に花を持たせてあげた。", "romaji": "Kōhai ni hana o motasete ageta.", "german": "Ich habe dem Jüngeren den Ruhm überlassen." }
+    ]
+  },
+  {
+    "word": "風向きが変わる",
+    "reading": "かざむきがかわる",
+    "romaji": "kazamuki ga kawaru",
+    "meaning": "die Lage ändert sich, der Wind dreht sich",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "世論の風向きが変わった。", "romaji": "Yoron no kazamuki ga kawatta.", "german": "Die öffentliche Meinung hat sich gewendet." }
+    ]
+  },
+  {
+    "word": "嵐の前の静けさ",
+    "reading": "あらしのまえのしずけさ",
+    "romaji": "arashi no mae no shizukesa",
+    "meaning": "die Ruhe vor dem Sturm",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "みんな静かだな。嵐の前の静けさだろうか。", "romaji": "Minna shizuka da na. Arashi no mae no shizukesa darō ka.", "german": "Alle sind so ruhig. Ob das die Ruhe vor dem Sturm ist?" }
+    ]
+  },
+  {
+    "word": "風の便りに聞く",
+    "reading": "かぜのたよりにきく",
+    "romaji": "kaze no tayori ni kiku",
+    "meaning": "durch die Blume erfahren, gerüchteweise hören",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "風の便りに聞いたが、彼は結婚したらしい。", "romaji": "Kaze no tayori ni kiita ga, kare wa kekkon shita rashii.", "german": "Ich habe gerüchteweise gehört, dass er geheiratet hat." }
+    ]
+  },
+  {
+    "word": "氷山の一角",
+    "reading": "ひょうざんのいっかく",
+    "romaji": "hyōzan no ikkaku",
+    "meaning": "die Spitze des Eisbergs, nur ein kleiner Teil des Problems",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "今回の事件は氷山の一角にすぎない。", "romaji": "Konkai no jiken wa hyōzan no ikkaku ni suginai.", "german": "Dieser Vorfall ist nur die Spitze des Eisbergs." }
+    ]
+  },
+  {
+    "word": "雲行きが怪しい",
+    "reading": "くもゆきがあやしい",
+    "romaji": "kumoyuki ga ayashii",
+    "meaning": "es sieht nach Ärger aus, die Lage wird bedenklich",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "会議の雲行きが怪しくなってきた。", "romaji": "Kaigi no kumoyuki ga ayashiku natte kita.", "german": "Bei der Besprechung zeichnet sich Ärger ab." }
+    ]
+  },
+  {
+    "word": "根が深い",
+    "reading": "ねがふかい",
+    "romaji": "ne ga fukai",
+    "meaning": "tief verwurzelt sein, ein grundlegendes Problem sein",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "この問題は根が深いので、簡単には解決できない。", "romaji": "Kono mondai wa ne ga fukai node, kantan ni wa kaiketsu dekinai.", "german": "Dieses Problem ist tief verwurzelt und lässt sich nicht leicht lösen." }
+    ]
+  },
+  {
+    "word": "立つ鳥跡を濁さず",
+    "reading": "たつとりあとをにごさず",
+    "romaji": "tatsu tori ato o nigosazu",
+    "meaning": "hinterlasse keinen Schmutz, wenn du gehst; sauberer Abgang",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "退職する時は立つ鳥跡を濁さずの気持ちで引き継ぎをした。", "romaji": "Taishoku suru toki wa tatsu tori ato o nigosazu no kimochi de hikitsugi o shita.", "german": "Beim Ausscheiden aus der Firma habe ich die Übergabe sauber erledigt." }
+    ]
+  },
+  {
+    "word": "柳に風",
+    "reading": "やなぎにかぜ",
+    "romaji": "yanagi ni kaze",
+    "meaning": "Kritik gelassen hinnehmen, wie eine Weide im Wind",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "彼女は批判を柳に風と受け流す。", "romaji": "Kanojo wa hihan o yanagi ni kaze to ukenagasu.", "german": "Sie lässt Kritik gelassen an sich abprallen wie eine Weide im Wind." }
+    ]
+  },
+  {
+    "word": "実るほど頭が下がる稲穂",
+    "reading": "みのるほどあたまがさがるいなほ",
+    "romaji": "minoru hodo atama ga sagaru inaho",
+    "meaning": "je reifer die Ähre, desto tiefer neigt sie sich; wahre Größe ist bescheiden",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "あの教授は偉いのに謙虚だ。まさに実るほど頭が下がる稲穂だ。", "romaji": "Ano kyōju wa erai noni kenkyo da. Masa ni minoru hodo atama ga sagaru inaho da.", "german": "Obwohl der Professor bedeutend ist, ist er bescheiden. Wahre Größe ist eben bescheiden." }
+    ]
+  },
+
+  // =============================================
+  // === ERWEITERUNG: KOMMUNIKATION (Weitere ~10) ===
+  // =============================================
+  {
+    "word": "耳を傾ける",
+    "reading": "みみをかたむける",
+    "romaji": "mimi o katamukeru",
+    "meaning": "aufmerksam zuhören, ein offenes Ohr haben",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "部下の意見に耳を傾けるべきだ。", "romaji": "Buka no iken ni mimi o katamukeru beki da.", "german": "Man sollte den Meinungen der Untergebenen aufmerksam zuhören." }
+    ]
+  },
+  {
+    "word": "口を挟む",
+    "reading": "くちをはさむ",
+    "romaji": "kuchi o hasamu",
+    "meaning": "dazwischenreden, sich einmischen",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "人の話に口を挟まないでください。", "romaji": "Hito no hanashi ni kuchi o hasamanaide kudasai.", "german": "Bitte reden Sie nicht dazwischen, wenn andere sprechen." }
+    ]
+  },
+  {
+    "word": "舌が回る",
+    "reading": "したがまわる",
+    "romaji": "shita ga mawaru",
+    "meaning": "redegewandt sein, fließend sprechen können",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "彼女はよく舌が回る人だ。", "romaji": "Kanojo wa yoku shita ga mawaru hito da.", "german": "Sie ist eine sehr redegewandte Person." }
+    ]
+  },
+  {
+    "word": "言葉を濁す",
+    "reading": "ことばをにごす",
+    "romaji": "kotoba o nigosu",
+    "meaning": "sich vage ausdrücken, um den heißen Brei herumreden",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "彼は本音を言わず、いつも言葉を濁す。", "romaji": "Kare wa honne o iwazu, itsumo kotoba o nigosu.", "german": "Er sagt nie, was er wirklich denkt, und redet immer um den heißen Brei herum." }
+    ]
+  },
+  {
+    "word": "胸に手を当てる",
+    "reading": "むねにてをあてる",
+    "romaji": "mune ni te o ateru",
+    "meaning": "sein Gewissen befragen, in sich gehen",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "胸に手を当てて考えてみなさい。", "romaji": "Mune ni te o atete kangaete minasai.", "german": "Frage dein Gewissen und denke darüber nach." }
+    ]
+  },
+  {
+    "word": "話に花が咲く",
+    "reading": "はなしにはながさく",
+    "romaji": "hanashi ni hana ga saku",
+    "meaning": "das Gespräch blüht auf, man gerät ins Plaudern",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "旧友と再会して、話に花が咲いた。", "romaji": "Kyūyū to saikai shite, hanashi ni hana ga saita.", "german": "Nach dem Wiedersehen mit dem alten Freund blühte das Gespräch richtig auf." }
+    ]
+  },
+  {
+    "word": "ため口を利く",
+    "reading": "ためくちをきく",
+    "romaji": "tamekuchi o kiku",
+    "meaning": "respektlos duzen, in lockerem Ton sprechen",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "先輩にため口を利くなんて失礼だ。", "romaji": "Senpai ni tamekuchi o kiku nante shitsurei da.", "german": "Einen Älteren so respektlos anzureden ist unhöflich." }
+    ]
+  },
+  {
+    "word": "口車に乗る",
+    "reading": "くちぐるまにのる",
+    "romaji": "kuchiguruma ni noru",
+    "meaning": "auf jemandes schmeichelhafte Worte hereinfallen",
+    "type": "Redewendung",
+    "level": "N1",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "セールスマンの口車に乗って、高い物を買ってしまった。", "romaji": "Sērusuman no kuchiguruma ni notte, takai mono o katte shimatta.", "german": "Ich bin auf die Schmeicheleien des Verkäufers hereingefallen und habe etwas Teures gekauft." }
+    ]
+  },
+  {
+    "word": "図星を指す",
+    "reading": "ずぼしをさす",
+    "romaji": "zuboshi o sasu",
+    "meaning": "ins Schwarze treffen, den Nagel auf den Kopf treffen",
+    "type": "Redewendung",
+    "level": "N2",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "彼女に図星を指されて、何も言えなかった。", "romaji": "Kanojo ni zuboshi o sasarete, nani mo ienakatta.", "german": "Sie traf den Nagel auf den Kopf, und ich konnte nichts erwidern." }
+    ]
+  },
+  {
+    "word": "空気を読む",
+    "reading": "くうきをよむ",
+    "romaji": "kūki o yomu",
+    "meaning": "die Stimmung lesen, die Atmosphäre richtig einschätzen",
+    "type": "Redewendung",
+    "level": "N3",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "彼は空気を読むのが上手だ。", "romaji": "Kare wa kūki o yomu no ga jōzu da.", "german": "Er ist gut darin, die Stimmung richtig einzuschätzen." }
+    ]
+  },
+
+  // =============================================
+  // === ERWEITERUNG: SPRICHWÖRTER (Weitere ~45) ===
+  // =============================================
+  {
+    "word": "一寸先は闇",
+    "reading": "いっすんさきはやみ",
+    "romaji": "issun saki wa yami",
+    "meaning": "die Zukunft ist ungewiss (wörtl.: einen Zoll voraus ist Dunkelheit)",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "人生何があるかわからない。一寸先は闇だ。", "romaji": "Jinsei nani ga aru ka wakaranai. Issun saki wa yami da.", "german": "Man weiß nie, was im Leben passiert. Die Zukunft ist ungewiss." }
+    ]
+  },
+  {
+    "word": "残り物には福がある",
+    "reading": "のこりものにはふくがある",
+    "romaji": "nokorimono ni wa fuku ga aru",
+    "meaning": "in dem, was übrig bleibt, steckt Glück",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "最後に残ったケーキが一番美味しかった。残り物には福がある。", "romaji": "Saigo ni nokotta kēki ga ichiban oishikatta. Nokorimono ni wa fuku ga aru.", "german": "Das letzte übrig gebliebene Stück Kuchen war das leckerste. Im Rest steckt das Glück." }
+    ]
+  },
+  {
+    "word": "転ばぬ先の杖",
+    "reading": "ころばぬさきのつえ",
+    "romaji": "korobanu saki no tsue",
+    "meaning": "Vorsicht ist besser als Nachsicht (wörtl.: ein Stock bevor man fällt)",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Warnung",
+    "examples": [
+      { "japanese": "保険に入るのは転ばぬ先の杖だ。", "romaji": "Hoken ni hairu no wa korobanu saki no tsue da.", "german": "Eine Versicherung abzuschließen heißt, Vorsicht ist besser als Nachsicht." }
+    ]
+  },
+  {
+    "word": "善は急げ",
+    "reading": "ぜんはいそげ",
+    "romaji": "zen wa isoge",
+    "meaning": "Gutes soll man schnell tun, keine gute Tat aufschieben",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "思い立ったら善は急げで行動しよう。", "romaji": "Omoitattara zen wa isoge de kōdō shiyō.", "german": "Wenn man eine Idee hat, sollte man schnell handeln." }
+    ]
+  },
+  {
+    "word": "三つ子の魂百まで",
+    "reading": "みつごのたましいひゃくまで",
+    "romaji": "mitsugo no tamashii hyaku made",
+    "meaning": "Was Hänschen nicht lernt, lernt Hans nimmermehr (wörtl.: die Seele eines Dreijährigen bis hundert)",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "子供の頃の性格は変わらない。三つ子の魂百までだ。", "romaji": "Kodomo no koro no seikaku wa kawaranai. Mitsugo no tamashii hyaku made da.", "german": "Der Charakter aus der Kindheit ändert sich nicht. Was Hänschen nicht lernt..." }
+    ]
+  },
+  {
+    "word": "下手の横好き",
+    "reading": "へたのよこずき",
+    "romaji": "heta no yokozuki",
+    "meaning": "ein begeisterter Anfänger, trotz fehlenden Talents gerne tun",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "ゴルフは下手の横好きだが、毎週通っている。", "romaji": "Gorufu wa heta no yokozuki da ga, maishū kayotte iru.", "german": "Ich bin kein guter Golfer, aber ich liebe es und gehe jede Woche." }
+    ]
+  },
+  {
+    "word": "後悔先に立たず",
+    "reading": "こうかいさきにたたず",
+    "romaji": "kōkai saki ni tatazu",
+    "meaning": "Reue kommt immer zu spät",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Warnung",
+    "examples": [
+      { "japanese": "あの時勉強しておけばよかった。後悔先に立たずだ。", "romaji": "Ano toki benkyō shite okeba yokatta. Kōkai saki ni tatazu da.", "german": "Hätte ich damals gelernt. Aber Reue kommt immer zu spät." }
+    ]
+  },
+  {
+    "word": "馬の耳に風",
+    "reading": "うまのみみにかぜ",
+    "romaji": "uma no mimi ni kaze",
+    "meaning": "wie der Wind am Ohr eines Pferdes vorbeiziehen; Rat ignorieren",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Warnung",
+    "examples": [
+      { "japanese": "何を言っても馬の耳に風だ。", "romaji": "Nani o itte mo uma no mimi ni kaze da.", "german": "Egal was man sagt, es geht zum einen Ohr rein und zum anderen raus." }
+    ]
+  },
+  {
+    "word": "噂をすれば影が差す",
+    "reading": "うわさをすればかげがさす",
+    "romaji": "uwasa o sureba kage ga sasu",
+    "meaning": "wenn man vom Teufel spricht (wörtl.: redet man von Gerüchten, erscheint der Schatten)",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "彼の話をしていたら本人が来た。噂をすれば影が差すだ。", "romaji": "Kare no hanashi o shite itara honnin ga kita. Uwasa o sureba kage ga sasu da.", "german": "Als wir über ihn sprachen, kam er tatsächlich. Wenn man vom Teufel spricht!" }
+    ]
+  },
+  {
+    "word": "目は口ほどに物を言う",
+    "reading": "めはくちほどにものをいう",
+    "romaji": "me wa kuchi hodo ni mono o iu",
+    "meaning": "Augen sagen mehr als Worte",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "彼女の目を見れば気持ちがわかる。目は口ほどに物を言う。", "romaji": "Kanojo no me o mireba kimochi ga wakaru. Me wa kuchi hodo ni mono o iu.", "german": "An ihren Augen kann man ihre Gefühle erkennen. Augen sagen mehr als Worte." }
+    ]
+  },
+  {
+    "word": "捨てる神あれば拾う神あり",
+    "reading": "すてるかみあればひろうかみあり",
+    "romaji": "suteru kami areba hirou kami ari",
+    "meaning": "wenn eine Tür sich schließt, öffnet sich eine andere",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "仕事を失ったが、新しい出会いがあった。捨てる神あれば拾う神ありだ。", "romaji": "Shigoto o ushinatta ga, atarashii deai ga atta. Suteru kami areba hirou kami ari da.", "german": "Ich verlor die Arbeit, aber es gab neue Begegnungen. Wenn eine Tür sich schließt, öffnet sich eine andere." }
+    ]
+  },
+  {
+    "word": "長い物には巻かれろ",
+    "reading": "ながいものにはまかれろ",
+    "romaji": "nagai mono ni wa makarero",
+    "meaning": "wer Macht hat, dem soll man sich fügen; den Stärkeren nicht herausfordern",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "上司に逆らうな。長い物には巻かれろだよ。", "romaji": "Jōshi ni sakarau na. Nagai mono ni wa makarero da yo.", "german": "Widersetze dich nicht dem Chef. Man soll sich den Mächtigen fügen." }
+    ]
+  },
+  {
+    "word": "棚ぼた",
+    "reading": "たなぼた",
+    "romaji": "tanabota",
+    "meaning": "unverhofftes Glück (Kurzform von 棚からぼたもち)",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "プレゼントをもらって、まさに棚ぼただ。", "romaji": "Purezento o moratte, masa ni tanabota da.", "german": "Ein Geschenk zu bekommen war wirklich unverhofftes Glück." }
+    ]
+  },
+  {
+    "word": "十人十色",
+    "reading": "じゅうにんといろ",
+    "romaji": "jūnin toiro",
+    "meaning": "jeder ist anders, zehn Menschen — zehn Farben",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "食べ物の好みは十人十色だ。", "romaji": "Tabemono no konomi wa jūnin toiro da.", "german": "Was das Essen angeht, hat jeder seinen eigenen Geschmack." }
+    ]
+  },
+  {
+    "word": "継続は力なり",
+    "reading": "けいぞくはちからなり",
+    "romaji": "keizoku wa chikara nari",
+    "meaning": "Beharrlichkeit ist Stärke; steter Tropfen höhlt den Stein",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "毎日少しずつ練習すれば上手になる。継続は力なりだ。", "romaji": "Mainichi sukoshi zutsu renshū sureba jōzu ni naru. Keizoku wa chikara nari da.", "german": "Wenn man jeden Tag ein wenig übt, wird man besser. Steter Tropfen höhlt den Stein." }
+    ]
+  },
+  {
+    "word": "弘法も筆の誤り",
+    "reading": "こうぼうもふでのあやまり",
+    "romaji": "Kōbō mo fude no ayamari",
+    "meaning": "auch ein Meister macht mal Fehler (wörtl.: auch Kōbō irrt sich beim Pinselstrich)",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "あんな上手な人でも間違えるなんて、弘法も筆の誤りだね。", "romaji": "Anna jōzu na hito demo machigaeru nante, Kōbō mo fude no ayamari da ne.", "german": "Dass sogar so ein Könner Fehler macht — auch ein Meister irrt sich mal." }
+    ]
+  },
+  {
+    "word": "天は自ら助くる者を助く",
+    "reading": "てんはみずからたすくるものをたすく",
+    "romaji": "ten wa mizukara tasukuru mono o tasuku",
+    "meaning": "Hilf dir selbst, dann hilft dir Gott",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "まずは自分で頑張ろう。天は自ら助くる者を助くだ。", "romaji": "Mazu wa jibun de ganbarō. Ten wa mizukara tasukuru mono o tasuku da.", "german": "Gib erst einmal selbst dein Bestes. Hilf dir selbst, dann hilft dir Gott." }
+    ]
+  },
+  {
+    "word": "七転八起",
+    "reading": "しちてんはっき",
+    "romaji": "shichiten hakki",
+    "meaning": "siebenmal fallen, achtmal aufstehen; niemals aufgeben",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "何度失敗しても七転八起の精神が大事だ。", "romaji": "Nando shippai shite mo shichiten hakki no seishin ga daiji da.", "german": "Egal wie oft man scheitert, der Geist des Wiederaufstehens ist wichtig." }
+    ]
+  },
+  {
+    "word": "鬼に金棒",
+    "reading": "おににかなぼう",
+    "romaji": "oni ni kanabō",
+    "meaning": "einem Starken noch mehr Stärke geben; doppelt so stark",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "彼がチームに入れば鬼に金棒だ。", "romaji": "Kare ga chīmu ni haireba oni ni kanabō da.", "german": "Wenn er ins Team kommt, wird es unschlagbar." }
+    ]
+  },
+  {
+    "word": "触らぬ神に祟りなし",
+    "reading": "さわらぬかみにたたりなし",
+    "romaji": "sawaranu kami ni tatari nashi",
+    "meaning": "was man nicht anrührt, kann einem nicht schaden; lass die Finger davon",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Warnung",
+    "examples": [
+      { "japanese": "あの問題には触らぬ神に祟りなしだから関わるな。", "romaji": "Ano mondai ni wa sawaranu kami ni tatari nashi da kara kakawaru na.", "german": "Lass die Finger von dem Problem — was man nicht anrührt, kann einem nicht schaden." }
+    ]
+  },
+  {
+    "word": "可愛い子には旅をさせよ",
+    "reading": "かわいいこにはたびをさせよ",
+    "romaji": "kawaii ko ni wa tabi o saseyo",
+    "meaning": "wen man liebt, den soll man Erfahrungen machen lassen",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "心配だけど、可愛い子には旅をさせよだから一人で行かせた。", "romaji": "Shinpai da kedo, kawaii ko ni wa tabi o saseyo da kara hitori de ikaseta.", "german": "Ich mache mir Sorgen, aber man muss Kinder loslassen, damit sie Erfahrungen sammeln." }
+    ]
+  },
+  {
+    "word": "毒を食らわば皿まで",
+    "reading": "どくをくらわばさらまで",
+    "romaji": "doku o kurawaba sara made",
+    "meaning": "wer A sagt, muss auch B sagen (wörtl.: wenn man Gift isst, dann auch den Teller)",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "ここまで来たら毒を食らわば皿までだ。最後までやろう。", "romaji": "Koko made kitara doku o kurawaba sara made da. Saigo made yarō.", "german": "Jetzt wo wir so weit sind — wer A sagt, muss auch B sagen. Ziehen wir es durch." }
+    ]
+  },
+  {
+    "word": "虎の威を借る狐",
+    "reading": "とらのいをかるきつね",
+    "romaji": "tora no i o karu kitsune",
+    "meaning": "sich mit fremden Federn schmücken (wörtl.: der Fuchs, der die Macht des Tigers borgt)",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Warnung",
+    "examples": [
+      { "japanese": "部長の名前を出して威張るなんて、虎の威を借る狐だ。", "romaji": "Buchō no namae o dashite ibaru nante, tora no i o karu kitsune da.", "german": "Sich mit dem Namen des Abteilungsleiters aufzuspielen ist, als schmücke man sich mit fremden Federn." }
+    ]
+  },
+  {
+    "word": "論より証拠",
+    "reading": "ろんよりしょうこ",
+    "romaji": "ron yori shōko",
+    "meaning": "Beweise zählen mehr als Argumente; der Beweis ist der Pudding",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "口で言うより、論より証拠で結果を見せてくれ。", "romaji": "Kuchi de iu yori, ron yori shōko de kekka o misete kure.", "german": "Statt nur zu reden, zeig mir Ergebnisse. Beweise zählen mehr als Worte." }
+    ]
+  },
+  {
+    "word": "得意技を持て",
+    "reading": "とくいわざをもて",
+    "romaji": "tokui waza o mote",
+    "meaning": "habe eine Spezialität; beherrsche dein Handwerk",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "何か一つ得意技を持てと父に言われた。", "romaji": "Nanika hitotsu tokui waza o mote to chichi ni iwareta.", "german": "Mein Vater sagte mir, ich solle wenigstens eine Sache richtig beherrschen." }
+    ]
+  },
+  {
+    "word": "明日は明日の風が吹く",
+    "reading": "あしたはあしたのかぜがふく",
+    "romaji": "ashita wa ashita no kaze ga fuku",
+    "meaning": "morgen weht ein anderer Wind; morgen ist auch ein Tag",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "今日のことは忘れよう。明日は明日の風が吹くよ。", "romaji": "Kyō no koto wa wasureyō. Ashita wa ashita no kaze ga fuku yo.", "german": "Vergiss den heutigen Tag. Morgen weht ein neuer Wind." }
+    ]
+  },
+  {
+    "word": "恩を仇で返す",
+    "reading": "おんをあだでかえす",
+    "romaji": "on o ada de kaesu",
+    "meaning": "Gutes mit Bösem vergelten, undankbar sein",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Warnung",
+    "examples": [
+      { "japanese": "あれだけ助けたのに裏切るなんて、恩を仇で返すとはこのことだ。", "romaji": "Are dake tasuketa no ni uragiru nante, on o ada de kaesu to wa kono koto da.", "german": "So viel Hilfe und dann Verrat — das heißt, Gutes mit Bösem vergelten." }
+    ]
+  },
+  {
+    "word": "火のない所に煙は立たぬ",
+    "reading": "ひのないところにけむりはたたぬ",
+    "romaji": "hi no nai tokoro ni kemuri wa tatanu",
+    "meaning": "kein Rauch ohne Feuer",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "あの噂は本当かもしれない。火のない所に煙は立たぬというから。", "romaji": "Ano uwasa wa hontō ka mo shirenai. Hi no nai tokoro ni kemuri wa tatanu to iu kara.", "german": "Das Gerücht könnte wahr sein. Denn es gibt keinen Rauch ohne Feuer." }
+    ]
+  },
+  {
+    "word": "命あっての物種",
+    "reading": "いのちあってのものだね",
+    "romaji": "inochi atte no monodane",
+    "meaning": "das Leben ist das Wichtigste; ohne Leben geht nichts",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "無理して働くな。命あっての物種だよ。", "romaji": "Muri shite hataraku na. Inochi atte no monodane da yo.", "german": "Überarbeite dich nicht. Das Leben ist das Wichtigste." }
+    ]
+  },
+  {
+    "word": "住めば都",
+    "reading": "すめばみやこ",
+    "romaji": "sumeba miyako",
+    "meaning": "wo man lebt, wird zur Heimat; man gewöhnt sich an alles",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "最初は嫌だったけど、住めば都で今はこの町が好きだ。", "romaji": "Saisho wa iya datta kedo, sumeba miyako de ima wa kono machi ga suki da.", "german": "Am Anfang mochte ich es nicht, aber jetzt liebe ich diese Stadt. Man gewöhnt sich an alles." }
+    ]
+  },
+  {
+    "word": "千里の道も一歩から",
+    "reading": "せんりのみちもいっぽから",
+    "romaji": "senri no michi mo ippo kara",
+    "meaning": "auch der längste Weg beginnt mit dem ersten Schritt",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "千里の道も一歩からだから、まず始めよう。", "romaji": "Senri no michi mo ippo kara da kara, mazu hajimeyō.", "german": "Auch der längste Weg beginnt mit dem ersten Schritt — fangen wir einfach an." }
+    ]
+  },
+  {
+    "word": "知らぬが花",
+    "reading": "しらぬがはな",
+    "romaji": "shiranu ga hana",
+    "meaning": "Unwissenheit ist ein Segen; was man nicht weiß, macht einen nicht heiß",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "彼女の本当の気持ちは聞かない方がいい。知らぬが花だ。", "romaji": "Kanojo no hontō no kimochi wa kikanai hō ga ii. Shiranu ga hana da.", "german": "Man sollte lieber nicht nach ihren wahren Gefühlen fragen. Unwissenheit ist ein Segen." }
+    ]
+  },
+  {
+    "word": "石橋を叩いて渡る",
+    "reading": "いしばしをたたいてわたる",
+    "romaji": "ishibashi o tataite wataru",
+    "meaning": "äußerst vorsichtig sein (wörtl.: selbst eine Steinbrücke abklopfen, bevor man sie überquert)",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼は石橋を叩いて渡るタイプだから、決断に時間がかかる。", "romaji": "Kare wa ishibashi o tataite wataru taipu da kara, ketsudan ni jikan ga kakaru.", "german": "Er ist der Typ, der äußerst vorsichtig vorgeht, deshalb braucht er lange für Entscheidungen." }
+    ]
+  },
+  {
+    "word": "習うより慣れろ",
+    "reading": "ならうよりなれろ",
+    "romaji": "narau yori narero",
+    "meaning": "Übung macht den Meister (wörtl.: gewöhne dich dran statt zu lernen)",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "教科書ばかり読まないで、習うより慣れろだよ。", "romaji": "Kyōkasho bakari yomanaide, narau yori narero da yo.", "german": "Lies nicht nur Lehrbücher — Übung macht den Meister." }
+    ]
+  },
+  {
+    "word": "年寄りの冷や水",
+    "reading": "としよりのひやみず",
+    "romaji": "toshiyori no hiyamizu",
+    "meaning": "ein Alter, der Dinge tut, die seinem Alter nicht entsprechen; leichtsinniges Verhalten im Alter",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Warnung",
+    "examples": [
+      { "japanese": "六十歳でスカイダイビングとは年寄りの冷や水だ。", "romaji": "Rokujussai de sukaidaibingu to wa toshiyori no hiyamizu da.", "german": "Mit sechzig Fallschirmspringen ist leichtsinnig für das Alter." }
+    ]
+  },
+  {
+    "word": "据え膳食わぬは男の恥",
+    "reading": "すえぜんくわぬはおとこのはじ",
+    "romaji": "suezen kuwanu wa otoko no haji",
+    "meaning": "ein bereitgestelltes Angebot nicht anzunehmen ist töricht",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "チャンスが来たら逃すな。据え膳食わぬは男の恥だ。", "romaji": "Chansu ga kitara nogasu na. Suezen kuwanu wa otoko no haji da.", "german": "Wenn sich eine Chance bietet, lass sie nicht entwischen. Ein Angebot nicht anzunehmen wäre töricht." }
+    ]
+  },
+  {
+    "word": "言わぬが花",
+    "reading": "いわぬがはな",
+    "romaji": "iwanu ga hana",
+    "meaning": "Schweigen ist Gold; manches sagt man besser nicht",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "全部正直に言う必要はない。言わぬが花だ。", "romaji": "Zenbu shōjiki ni iu hitsuyō wa nai. Iwanu ga hana da.", "german": "Man muss nicht alles ehrlich sagen. Schweigen ist manchmal Gold." }
+    ]
+  },
+  {
+    "word": "餅は餅屋",
+    "reading": "もちはもちや",
+    "romaji": "mochi wa mochiya",
+    "meaning": "Fachleute wissen es am besten; Schuster, bleib bei deinen Leisten",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "税金のことは税理士に任せよう。餅は餅屋だから。", "romaji": "Zeikin no koto wa zeirishi ni makaseyō. Mochi wa mochiya da kara.", "german": "Überlassen wir Steuerfragen dem Steuerberater. Fachleute wissen es am besten." }
+    ]
+  },
+  {
+    "word": "失敗は成功の母",
+    "reading": "しっぱいはせいこうのはは",
+    "romaji": "shippai wa seikō no haha",
+    "meaning": "Misserfolg ist die Mutter des Erfolgs",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "落ち込むな。失敗は成功の母だよ。", "romaji": "Ochikomu na. Shippai wa seikō no haha da yo.", "german": "Sei nicht niedergeschlagen. Misserfolg ist die Mutter des Erfolgs." }
+    ]
+  },
+  {
+    "word": "禍を転じて福と為す",
+    "reading": "わざわいをてんじてふくとなす",
+    "romaji": "wazawai o tenjite fuku to nasu",
+    "meaning": "aus einem Unglück ein Glück machen",
+    "type": "Sprichwort",
+    "level": "N1",
+    "category": "Ermutigung",
+    "examples": [
+      { "japanese": "怪我がきっかけで新しい仕事を見つけた。禍を転じて福と為すだ。", "romaji": "Kega ga kikkake de atarashii shigoto o mitsuketa. Wazawai o tenjite fuku to nasu da.", "german": "Durch die Verletzung fand ich eine neue Arbeit. Aus dem Unglück wurde ein Glück." }
+    ]
+  },
+  {
+    "word": "身も蓋もない",
+    "reading": "みもふたもない",
+    "romaji": "mi mo futa mo nai",
+    "meaning": "brutal ehrlich, ohne Beschönigung; das Gespräch ist damit beendet",
+    "type": "Sprichwort",
+    "level": "N2",
+    "category": "Kommunikation",
+    "examples": [
+      { "japanese": "そう言ってしまったら身も蓋もないよ。", "romaji": "Sō itte shimattara mi mo futa mo nai yo.", "german": "Wenn du das so sagst, ist das schon brutal ehrlich und es gibt nichts mehr zu diskutieren." }
+    ]
+  },
+  {
+    "word": "一日一善",
+    "reading": "いちにちいちぜん",
+    "romaji": "ichinichi ichizen",
+    "meaning": "jeden Tag eine gute Tat",
+    "type": "Sprichwort",
+    "level": "N4",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "一日一善を心がけている。", "romaji": "Ichinichi ichizen o kokorogakete iru.", "german": "Ich versuche, jeden Tag eine gute Tat zu vollbringen." }
+    ]
+  },
+  {
+    "word": "豚に真珠",
+    "reading": "ぶたにしんじゅ",
+    "romaji": "buta ni shinju",
+    "meaning": "Perlen vor die Säue werfen (wörtl.: Perlen für ein Schwein)",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Warnung",
+    "examples": [
+      { "japanese": "高級ワインを料理に使うなんて豚に真珠だ。", "romaji": "Kōkyū wain o ryōri ni tsukau nante buta ni shinju da.", "german": "Edlen Wein zum Kochen zu verwenden ist wie Perlen vor die Säue." }
+    ]
+  },
+  {
+    "word": "便りのないのは良い便り",
+    "reading": "たよりのないのはよいたより",
+    "romaji": "tayori no nai no wa yoi tayori",
+    "meaning": "keine Nachricht ist gute Nachricht",
+    "type": "Sprichwort",
+    "level": "N3",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "息子から連絡がないけど、便りのないのは良い便りだろう。", "romaji": "Musuko kara renraku ga nai kedo, tayori no nai no wa yoi tayori darō.", "german": "Mein Sohn meldet sich nicht, aber keine Nachricht ist gute Nachricht." }
     ]
   }
 ];

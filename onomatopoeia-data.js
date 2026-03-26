@@ -1,4 +1,4 @@
-// Onomatopoeia / Lautmalerei Data — 100 entries
+// Onomatopoeia / Lautmalerei Data — 319 entries
 // Categories: Geräusche (擬音語), Zustände (擬態語), Gefühle (擬情語), Bewegung (擬容語)
 
 window.ONOMATOPOEIA_DATA = [
@@ -4328,5 +4328,1232 @@ window.ONOMATOPOEIA_DATA = [
     ],
     "related": ["フラフラ", "ヨロヨロ"],
     "notes": "Betont den Verlust jeglicher Kraft in den Beinen."
+  },
+
+  // =============================================
+  // === WEITERE EINTRÄGE — Balancing JLPT ===
+  // =============================================
+
+  // --- N5 (~20 Einträge) ---
+  {
+    "word": "モーモー",
+    "reading": "もーもー",
+    "romaji": "moomoo",
+    "meaning": "Muh (Kuh-Laut)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt das Muhen einer Kuh. Wird auch als Kindersprache für 'Kuh' verwendet.",
+    "examples": [
+      { "japanese": "牛がモーモー鳴いている。", "romaji": "Ushi ga moomoo naite iru.", "german": "Die Kuh muht." }
+    ],
+    "related": ["ワンワン", "ニャーニャー"],
+    "notes": "Kindersprache: モーモー = Kuh."
+  },
+  {
+    "word": "コケコッコー",
+    "reading": "こけこっこー",
+    "romaji": "kokekokko",
+    "meaning": "Kikeriki (Hahnenschrei)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "Sonstige",
+    "usage": "Ausruf",
+    "level": "N5",
+    "explanation": "Beschreibt den Schrei eines Hahns bei Sonnenaufgang.",
+    "examples": [
+      { "japanese": "朝、鶏がコケコッコーと鳴いた。", "romaji": "Asa, niwatori ga kokekokko to naita.", "german": "Morgens krähte der Hahn." }
+    ],
+    "related": ["ワンワン"],
+    "notes": "Typischer Weckruf in ländlichen Gebieten."
+  },
+  {
+    "word": "ミンミン",
+    "reading": "みんみん",
+    "romaji": "minmin",
+    "meaning": "Zirp zirp (Zikade)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt das Zirpen von Zikaden im Sommer — eines der typischsten Sommergeräusche Japans.",
+    "examples": [
+      { "japanese": "セミがミンミン鳴いている。", "romaji": "Semi ga minmin naite iru.", "german": "Die Zikaden zirpen." }
+    ],
+    "related": ["リンリン", "チュンチュン"],
+    "notes": "ミンミンゼミ ist eine der häufigsten Zikadenarten in Japan."
+  },
+  {
+    "word": "チュンチュン",
+    "reading": "ちゅんちゅん",
+    "romaji": "chunchun",
+    "meaning": "Piep piep (Vogelgezwitscher)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt das Zwitschern kleiner Vögel, besonders von Spatzen.",
+    "examples": [
+      { "japanese": "スズメがチュンチュン鳴いている。", "romaji": "Suzume ga chunchun naite iru.", "german": "Die Spatzen zwitschern." }
+    ],
+    "related": ["ワンワン", "ニャーニャー"],
+    "notes": "Typisches Morgengeräusch in Japan."
+  },
+  {
+    "word": "ケロケロ",
+    "reading": "けろけろ",
+    "romaji": "kerokero",
+    "meaning": "Quak quak (Froschquaken)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt das Quaken von Fröschen.",
+    "examples": [
+      { "japanese": "カエルがケロケロ鳴いている。", "romaji": "Kaeru ga kerokero naite iru.", "german": "Die Frösche quaken." }
+    ],
+    "related": ["チュンチュン"],
+    "notes": "In Japan sind Froschlaute ein Symbol für den Sommer."
+  },
+  {
+    "word": "ヒヨヒヨ",
+    "reading": "ひよひよ",
+    "romaji": "hiyohiyo",
+    "meaning": "Piep piep (Küken)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt das zarte Piepen von Küken.",
+    "examples": [
+      { "japanese": "ひよこがヒヨヒヨ鳴いている。", "romaji": "Hiyoko ga hiyohiyo naite iru.", "german": "Die Küken piepen." }
+    ],
+    "related": ["チュンチュン", "コケコッコー"],
+    "notes": "Sehr niedlich klingendes Lautwort."
+  },
+  {
+    "word": "ヒーヒー",
+    "reading": "ひーひー",
+    "romaji": "hiihii",
+    "meaning": "Keuchen, wimmern; stöhnen (vor Anstrengung)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt keuchendes Atmen vor Anstrengung oder wimmerliches Stöhnen.",
+    "examples": [
+      { "japanese": "坂道でヒーヒー言っている。", "romaji": "Sakamichi de hiihii itte iru.", "german": "Auf der Steigung keuche ich." }
+    ],
+    "related": ["ゼーゼー", "ハーハー"],
+    "notes": "Alltagssprache; oft humorvoll für Überanstrengung."
+  },
+  {
+    "word": "ザブザブ",
+    "reading": "ざぶざぶ",
+    "romaji": "zabuzabu",
+    "meaning": "Planschen, Waschwasser plätschern",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt das Geräusch beim Planschen im Wasser oder beim Waschen.",
+    "examples": [
+      { "japanese": "子供が水をザブザブかけている。", "romaji": "Kodomo ga mizu o zabuzabu kakete iru.", "german": "Das Kind planscht mit Wasser." }
+    ],
+    "related": ["バシャバシャ", "ジャブジャブ"],
+    "notes": "Etwas kräftiger als チャプチャプ."
+  },
+  {
+    "word": "チャプチャプ",
+    "reading": "ちゃぷちゃぷ",
+    "romaji": "chapuchapu",
+    "meaning": "Plätschern, sanftes Planschen",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt sanftes Plätschern von Wasser.",
+    "examples": [
+      { "japanese": "お風呂でチャプチャプ遊んだ。", "romaji": "Ofuro de chapuchapu asonda.", "german": "Ich planschte in der Badewanne." }
+    ],
+    "related": ["ザブザブ", "バシャバシャ"],
+    "notes": "Niedliches, kindliches Wort."
+  },
+  {
+    "word": "ゲコゲコ",
+    "reading": "げこげこ",
+    "romaji": "gekogeko",
+    "meaning": "Quak quak (tiefes Froschquaken)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt ein tiefes, kräftiges Froschquaken — tiefer als ケロケロ.",
+    "examples": [
+      { "japanese": "田んぼでカエルがゲコゲコ鳴いている。", "romaji": "Tanbo de kaeru ga gekogeko naite iru.", "german": "Im Reisfeld quaken die Frösche." }
+    ],
+    "related": ["ケロケロ"],
+    "notes": "Etwas tieferer, kräftigerer Frosch-Laut als ケロケロ."
+  },
+  {
+    "word": "メーメー",
+    "reading": "めーめー",
+    "romaji": "meemee",
+    "meaning": "Mäh (Schaf/Ziege)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt den Laut von Schafen und Ziegen.",
+    "examples": [
+      { "japanese": "羊がメーメー鳴いている。", "romaji": "Hitsuji ga meemee naite iru.", "german": "Das Schaf blökt." }
+    ],
+    "related": ["モーモー"],
+    "notes": "Kindersprache: メーメー = Schaf."
+  },
+  {
+    "word": "ガーガー",
+    "reading": "がーがー",
+    "romaji": "gaagaa",
+    "meaning": "Quak quak (Ente); Schnarchen",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt das Schnattern von Enten oder lautes Schnarchen.",
+    "examples": [
+      { "japanese": "アヒルがガーガー鳴いている。", "romaji": "Ahiru ga gaagaa naite iru.", "german": "Die Ente schnattert." },
+      { "japanese": "隣の人がガーガーいびきをかいている。", "romaji": "Tonari no hito ga gaagaa ibiki o kaite iru.", "german": "Die Person nebenan schnarcht laut." }
+    ],
+    "related": ["モーモー", "チュンチュン"],
+    "notes": "Je nach Kontext Tier-Laut oder Schnarchgeräusch."
+  },
+  {
+    "word": "ブンブン",
+    "reading": "ぶんぶん",
+    "romaji": "bunbun",
+    "meaning": "Summen, Brummen (Insekten); schnell schwingen",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt das Summen und Brummen von Insekten oder schnelles Hin- und Herschwingen.",
+    "examples": [
+      { "japanese": "ハチがブンブン飛んでいる。", "romaji": "Hachi ga bunbun tonde iru.", "german": "Die Biene summt herum." },
+      { "japanese": "頭をブンブン振った。", "romaji": "Atama o bunbun futta.", "german": "Ich schüttelte heftig den Kopf." }
+    ],
+    "related": ["ミンミン", "ブーブー"],
+    "notes": "Kinderlied: ぶんぶんぶん ハチが飛ぶ."
+  },
+  {
+    "word": "グーグー",
+    "reading": "ぐーぐー",
+    "romaji": "guuguu",
+    "meaning": "Tief schlafen; Magenknurren",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt lautes Schnarchen im Tiefschlaf oder ein knurrendes Magengeräusch.",
+    "examples": [
+      { "japanese": "赤ちゃんがグーグー寝ている。", "romaji": "Akachan ga guuguu nete iru.", "german": "Das Baby schläft tief und fest." },
+      { "japanese": "お腹がグーグー鳴っている。", "romaji": "Onaka ga guuguu natte iru.", "german": "Mein Magen knurrt." }
+    ],
+    "related": ["スヤスヤ", "ゴロゴロ"],
+    "notes": "Lauteres Schlafen als スヤスヤ."
+  },
+  {
+    "word": "シュッシュッ",
+    "reading": "しゅっしゅっ",
+    "romaji": "shusshuss",
+    "meaning": "Zisch, Sprüh (Spray, Dampf)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt das Zischgeräusch von Sprühflaschen, Dampf oder schnellen Bewegungen.",
+    "examples": [
+      { "japanese": "スプレーをシュッシュッとかけた。", "romaji": "Supuree o shusshuss to kaketa.", "german": "Ich sprühte mit der Sprühflasche." }
+    ],
+    "related": ["シューシュー"],
+    "notes": "Häufig bei Sprühflaschen, Reinigungsmitteln etc."
+  },
+  {
+    "word": "ガチガチ",
+    "reading": "がちがち",
+    "romaji": "gachigachi",
+    "meaning": "Steinhart; steif vor Nervosität/Kälte",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb, の",
+    "level": "N5",
+    "explanation": "Beschreibt extreme Härte oder Steifheit, oft durch Kälte oder Nervosität verursacht.",
+    "examples": [
+      { "japanese": "緊張でガチガチになった。", "romaji": "Kinchou de gachigachi ni natta.", "german": "Ich war vor Nervosität ganz steif." },
+      { "japanese": "セメントがガチガチに固まった。", "romaji": "Semento ga gachigachi ni katamatta.", "german": "Der Zement ist steinhart geworden." }
+    ],
+    "related": ["カチカチ", "コチコチ"],
+    "notes": "Stärker als カチカチ; betont extreme Härte oder Anspannung."
+  },
+  {
+    "word": "リンリン",
+    "reading": "りんりん",
+    "romaji": "rinrin",
+    "meaning": "Klingeln, Bimmeln (Glocke, Insekt)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt das Klingeln einer Glocke oder das Zirpen von Grillen.",
+    "examples": [
+      { "japanese": "鈴虫がリンリン鳴いている。", "romaji": "Suzumushi ga rinrin naite iru.", "german": "Die Grille zirpt." }
+    ],
+    "related": ["チリンチリン"],
+    "notes": "Klarer, heller Klang; typisch herbstliches Geräusch."
+  },
+  {
+    "word": "ニコッと",
+    "reading": "にこっと",
+    "romaji": "nikotto",
+    "meaning": "Kurz lächeln, anlächeln",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "ABっと",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt ein kurzes, freundliches Lächeln.",
+    "examples": [
+      { "japanese": "彼女はニコッと笑った。", "romaji": "Kanojo wa nikotto waratta.", "german": "Sie lächelte kurz." }
+    ],
+    "related": ["ニコニコ", "ニヤニヤ"],
+    "notes": "Einmaliges Lächeln; ニコニコ ist andauerndes Lächeln."
+  },
+  {
+    "word": "キーキー",
+    "reading": "きーきー",
+    "romaji": "kiikii",
+    "meaning": "Quietschen, kreischen (hoher Ton)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N5",
+    "explanation": "Beschreibt ein hohes Quietschen oder Kreischen — Bremsen, Türen, Affen.",
+    "examples": [
+      { "japanese": "ブレーキがキーキー鳴る。", "romaji": "Bureeki ga kiikii naru.", "german": "Die Bremsen quietschen." },
+      { "japanese": "猿がキーキー鳴いている。", "romaji": "Saru ga kiikii naite iru.", "german": "Die Affen kreischen." }
+    ],
+    "related": ["ギーギー", "キャーキャー"],
+    "notes": "Hoher, unangenehmer Ton; auch für Affenlaute."
+  },
+
+  // --- N4 (~10 Einträge) ---
+  {
+    "word": "ガヤガヤ",
+    "reading": "がやがや",
+    "romaji": "gayagaya",
+    "meaning": "Stimmengewirr, lärmendes Durcheinander",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb, する",
+    "level": "N4",
+    "explanation": "Beschreibt lautes, durcheinander redendes Stimmengewirr einer Menschenmenge.",
+    "examples": [
+      { "japanese": "居酒屋の中はガヤガヤしていた。", "romaji": "Izakaya no naka wa gayagaya shite ita.", "german": "In der Kneipe herrschte lautes Stimmengewirr." }
+    ],
+    "related": ["ワイワイ", "ザワザワ"],
+    "notes": "Neutraler bis leicht negativer Ton; weniger fröhlich als ワイワイ."
+  },
+  {
+    "word": "ギャーギャー",
+    "reading": "ぎゃーぎゃー",
+    "romaji": "gyaagyaa",
+    "meaning": "Laut schreien, kreischen (lästig)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N4",
+    "explanation": "Beschreibt lautes, unangenehmes Geschrei — negativer als キャーキャー.",
+    "examples": [
+      { "japanese": "子供がギャーギャー泣いている。", "romaji": "Kodomo ga gyaagyaa naite iru.", "german": "Das Kind heult lautstark." }
+    ],
+    "related": ["キャーキャー", "ワンワン"],
+    "notes": "Negativ konnotiert; drückt Belästigung durch Lärm aus."
+  },
+  {
+    "word": "ヌメヌメ",
+    "reading": "ぬめぬめ",
+    "romaji": "numenume",
+    "meaning": "Schleimig, glitschig",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb, する, の",
+    "level": "N4",
+    "explanation": "Beschreibt eine schleimige, glitschige Oberfläche.",
+    "examples": [
+      { "japanese": "この魚はヌメヌメしている。", "romaji": "Kono sakana wa numenume shite iru.", "german": "Dieser Fisch ist glitschig." }
+    ],
+    "related": ["ヌルヌル", "ネバネバ"],
+    "notes": "Etwas weniger stark als ヌルヌル."
+  },
+  {
+    "word": "ゴミゴミ",
+    "reading": "ごみごみ",
+    "romaji": "gomigomi",
+    "meaning": "Überfüllt, vollgestopft, unaufgeräumt",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb, する",
+    "level": "N4",
+    "explanation": "Beschreibt einen überfüllten, unordentlichen Ort mit vielen Menschen und Dingen.",
+    "examples": [
+      { "japanese": "この通りはゴミゴミしている。", "romaji": "Kono toori wa gomigomi shite iru.", "german": "Diese Straße ist eng und überfüllt." }
+    ],
+    "related": ["ゴチャゴチャ"],
+    "notes": "Wird oft für Stadtgebiete und enge Gassen verwendet."
+  },
+  {
+    "word": "ゴチャゴチャ",
+    "reading": "ごちゃごちゃ",
+    "romaji": "gochagoca",
+    "meaning": "Durcheinander, chaotisch unordentlich",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb, する, の",
+    "level": "N4",
+    "explanation": "Beschreibt ein unordentliches Durcheinander von Dingen oder verwirrendes Gerede.",
+    "examples": [
+      { "japanese": "部屋がゴチャゴチャだ。", "romaji": "Heya ga gochagoca da.", "german": "Das Zimmer ist ein einziges Durcheinander." },
+      { "japanese": "ゴチャゴチャ言うな。", "romaji": "Gochagoca iu na.", "german": "Red nicht so wirr durcheinander." }
+    ],
+    "related": ["グチャグチャ", "ゴミゴミ"],
+    "notes": "Kann sich auf physische Unordnung oder verbale Verwirrung beziehen."
+  },
+  {
+    "word": "オタオタ",
+    "reading": "おたおた",
+    "romaji": "otaota",
+    "meaning": "Aufgeregt herumfuchteln, verwirrt sein",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb, する",
+    "level": "N4",
+    "explanation": "Beschreibt hilfloses, aufgeregtes Verhalten, wenn man nicht weiß, was man tun soll.",
+    "examples": [
+      { "japanese": "急な事故にオタオタした。", "romaji": "Kyuu na jiko ni otaota shita.", "german": "Bei dem plötzlichen Unfall geriet ich in Panik." }
+    ],
+    "related": ["オロオロ", "ジタバタ"],
+    "notes": "Ähnlich wie オロオロ, aber etwas umgangssprachlicher."
+  },
+  {
+    "word": "チビチビ",
+    "reading": "ちびちび",
+    "romaji": "chibichibi",
+    "meaning": "In kleinen Schlucken, schlückchenweise",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N4",
+    "explanation": "Beschreibt das Trinken in kleinen Schlücken, besonders bei Alkohol.",
+    "examples": [
+      { "japanese": "日本酒をチビチビ飲んでいる。", "romaji": "Nihonshu o chibichibi nonde iru.", "german": "Ich nippe am Sake." }
+    ],
+    "related": ["グビグビ", "ゴクゴク"],
+    "notes": "Gegenteil von グビグビ (in großen Schlucken)."
+  },
+  {
+    "word": "ダブダブ",
+    "reading": "だぶだぶ",
+    "romaji": "dabudabu",
+    "meaning": "Zu weit, schlotternd (Kleidung); schwappend",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb, の",
+    "level": "N4",
+    "explanation": "Beschreibt Kleidung, die viel zu weit ist und schlottert, oder Flüssigkeit die überschwappt.",
+    "examples": [
+      { "japanese": "ダブダブのズボンを履いている。", "romaji": "Dabudabu no zubon o haite iru.", "german": "Er trägt eine viel zu weite Hose." }
+    ],
+    "related": ["ブカブカ"],
+    "notes": "Ähnlich wie ブカブカ; betont das Schlottern."
+  },
+  {
+    "word": "ブカブカ",
+    "reading": "ぶかぶか",
+    "romaji": "bukabuka",
+    "meaning": "Zu groß, zu weit (Kleidung/Schuhe)",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb, の",
+    "level": "N4",
+    "explanation": "Beschreibt Kleidung oder Schuhe, die deutlich zu groß sind.",
+    "examples": [
+      { "japanese": "この靴はブカブカだ。", "romaji": "Kono kutsu wa bukabuka da.", "german": "Diese Schuhe sind viel zu groß." }
+    ],
+    "related": ["ダブダブ", "ピッタリ"],
+    "notes": "Gegenteil von ピッタリ (genau passend)."
+  },
+  {
+    "word": "タラタラ",
+    "reading": "たらたら",
+    "romaji": "taratara",
+    "meaning": "Tröpfeln, rinnen; umständlich",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N4",
+    "explanation": "Beschreibt langsames Tröpfeln oder Rinnen von Flüssigkeit, oder umständliches Verhalten.",
+    "examples": [
+      { "japanese": "汗がタラタラ流れている。", "romaji": "Ase ga taratara nagarete iru.", "german": "Der Schweiß rinnt herunter." },
+      { "japanese": "文句をタラタラ言う。", "romaji": "Monku o taratara iu.", "german": "Endlos Beschwerden von sich geben." }
+    ],
+    "related": ["ポタポタ", "ダラダラ"],
+    "notes": "Bei Flüssigkeiten: langsames Rinnen. Bei Verhalten: langweiliges Gerede."
+  },
+
+  // --- N2 (~10 Einträge) ---
+  {
+    "word": "ぎこちない",
+    "reading": "ぎこちない",
+    "romaji": "gikochinai",
+    "meaning": "Unbeholfen, steif, linkisch",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "い-Adjektiv",
+    "level": "N2",
+    "explanation": "Beschreibt unbeholfene, steife Bewegungen oder unnatürliches Verhalten.",
+    "examples": [
+      { "japanese": "初めてのデートでぎこちない会話が続いた。", "romaji": "Hajimete no deeto de gikochinai kaiwa ga tsuzuita.", "german": "Beim ersten Date gab es nur steife Gespräche." }
+    ],
+    "related": ["モタモタ", "オドオド"],
+    "notes": "Wird als い-Adjektiv verwendet, nicht als Adverb."
+  },
+  {
+    "word": "ゼーゼー",
+    "reading": "ぜーぜー",
+    "romaji": "zeezee",
+    "meaning": "Keuchen, schwer atmen, röcheln",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N2",
+    "explanation": "Beschreibt schweres, keuchendes Atmen bei Anstrengung oder Krankheit.",
+    "examples": [
+      { "japanese": "階段を上ってゼーゼー言っている。", "romaji": "Kaidan o nobotte zeezee itte iru.", "german": "Nach dem Treppensteigen keuche ich." },
+      { "japanese": "喘息でゼーゼーする。", "romaji": "Zensoku de zeezee suru.", "german": "Durch Asthma keuche ich." }
+    ],
+    "related": ["ヒーヒー", "ハーハー"],
+    "notes": "Stärker als ハーハー; kann auf Krankheit hindeuten."
+  },
+  {
+    "word": "シャンシャン",
+    "reading": "しゃんしゃん",
+    "romaji": "shanshan",
+    "meaning": "Klirrend, klimpernd (Glöckchen); zügig",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N2",
+    "explanation": "Beschreibt das Klingeln von Glöckchen oder einen zügigen, formellen Ablauf.",
+    "examples": [
+      { "japanese": "鈴をシャンシャン鳴らした。", "romaji": "Suzu o shanshan narashita.", "german": "Man ließ die Glöckchen erklingen." },
+      { "japanese": "会議をシャンシャンと終えた。", "romaji": "Kaigi o shanshan to oeta.", "german": "Die Sitzung wurde zügig beendet." }
+    ],
+    "related": ["リンリン", "チリンチリン"],
+    "notes": "シャンシャン総会 = Sitzung, die ohne echte Diskussion durchgewunken wird."
+  },
+  {
+    "word": "カラッと",
+    "reading": "からっと",
+    "romaji": "karatto",
+    "meaning": "Knusprig, trocken; heiter aufgeräumt",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABっと",
+    "usage": "Adverb",
+    "level": "N2",
+    "explanation": "Beschreibt trockenes, sonniges Wetter oder eine offene, heitere Persönlichkeit.",
+    "examples": [
+      { "japanese": "今日はカラッと晴れている。", "romaji": "Kyou wa karatto harete iru.", "german": "Heute ist es trocken und sonnig." },
+      { "japanese": "彼女はカラッとした性格だ。", "romaji": "Kanojo wa karatto shita seikaku da.", "german": "Sie hat ein offenes, heiteres Wesen." }
+    ],
+    "related": ["サッパリ", "カラカラ"],
+    "notes": "Sehr positiv konnotiert; beschreibt Klarheit und Frische."
+  },
+  {
+    "word": "ネットリ",
+    "reading": "ねっとり",
+    "romaji": "nettori",
+    "meaning": "Zähflüssig, klebrig; aufdringlich",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABり",
+    "usage": "Adverb, した",
+    "level": "N2",
+    "explanation": "Beschreibt eine zähflüssige, klebrige Konsistenz oder einen aufdringlichen, hartnäckigen Blick.",
+    "examples": [
+      { "japanese": "ネットリした食感だ。", "romaji": "Nettori shita shokkan da.", "german": "Es hat eine zähflüssige Konsistenz." },
+      { "japanese": "ネットリとした目つきで見られた。", "romaji": "Nettori to shita metsuki de mirareta.", "german": "Man wurde mit einem aufdringlichen Blick angesehen." }
+    ],
+    "related": ["ネバネバ", "ベタベタ"],
+    "notes": "Beim Blick: unangenehm und bedrängend."
+  },
+  {
+    "word": "クッキリ",
+    "reading": "くっきり",
+    "romaji": "kukkiri",
+    "meaning": "Gestochen scharf, klar umrissen",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABり",
+    "usage": "Adverb, した",
+    "level": "N2",
+    "explanation": "Beschreibt etwas, das scharf und klar erkennbar ist — Konturen, Farben, Erinnerungen.",
+    "examples": [
+      { "japanese": "富士山がクッキリ見える。", "romaji": "Fujisan ga kukkiri mieru.", "german": "Der Fuji ist gestochen scharf zu sehen." }
+    ],
+    "related": ["ハッキリ", "スッキリ"],
+    "notes": "Betont visuelle Klarheit und Schärfe."
+  },
+  {
+    "word": "ホカホカ",
+    "reading": "ほかほか",
+    "romaji": "hokahoka",
+    "meaning": "Dampfend heiß, frisch und warm",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb, の",
+    "level": "N2",
+    "explanation": "Beschreibt etwas angenehm Warmes und Frisches, besonders Essen.",
+    "examples": [
+      { "japanese": "ホカホカの肉まんを食べた。", "romaji": "Hokahoka no nikuman o tabeta.", "german": "Ich aß einen dampfend heißen Fleischkloß." }
+    ],
+    "related": ["ポカポカ", "アツアツ"],
+    "notes": "ホカホカ弁当 ist ein bekannter Markenname für warme Bento-Boxen."
+  },
+  {
+    "word": "アツアツ",
+    "reading": "あつあつ",
+    "romaji": "atsuatsu",
+    "meaning": "Sehr heiß (Essen); frisch verliebt",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb, の",
+    "level": "N2",
+    "explanation": "Beschreibt sehr heißes Essen oder ein frisch verliebtes Paar.",
+    "examples": [
+      { "japanese": "アツアツのラーメンを食べた。", "romaji": "Atsuatsu no raamen o tabeta.", "german": "Ich aß dampfend heiße Ramen." },
+      { "japanese": "二人はアツアツだね。", "romaji": "Futari wa atsuatsu da ne.", "german": "Die zwei sind ja ganz verliebt." }
+    ],
+    "related": ["ホカホカ", "ベタベタ"],
+    "notes": "Doppelbedeutung: heißes Essen und verliebtes Paar."
+  },
+  {
+    "word": "ノビノビ",
+    "reading": "のびのび",
+    "romaji": "nobinobi",
+    "meaning": "Ungezwungen, frei, entspannt",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb, した",
+    "level": "N2",
+    "explanation": "Beschreibt ein freies, ungezwungenes Aufwachsen oder entspanntes Verhalten.",
+    "examples": [
+      { "japanese": "子供をノビノビ育てたい。", "romaji": "Kodomo o nobinobi sodatetai.", "german": "Ich möchte mein Kind frei und ungezwungen aufwachsen lassen." }
+    ],
+    "related": ["ゆったり"],
+    "notes": "Sehr positiv konnotiert; betont Freiheit von Zwang."
+  },
+  {
+    "word": "チョコチョコ",
+    "reading": "ちょこちょこ",
+    "romaji": "chokochoko",
+    "meaning": "Mit kleinen, schnellen Schritten; immer wieder",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N2",
+    "explanation": "Beschreibt kleine, trippelnde Schritte oder häufiges Hin- und Hergehen.",
+    "examples": [
+      { "japanese": "子犬がチョコチョコ走っている。", "romaji": "Koinu ga chokochoko hashitte iru.", "german": "Der Welpe trippelt mit kleinen Schritten." },
+      { "japanese": "チョコチョコ席を外す。", "romaji": "Chokochoko seki o hazusu.", "german": "Ständig kurz den Platz verlassen." }
+    ],
+    "related": ["トコトコ", "テクテク"],
+    "notes": "Niedlich; wird oft für Kinder und kleine Tiere verwendet."
+  },
+
+  // --- N1 (~30 Einträge) ---
+  {
+    "word": "おずおず",
+    "reading": "おずおず",
+    "romaji": "ozuozu",
+    "meaning": "Zaghaft, schüchtern, zögerlich",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt zaghaftes, ängstliches Verhalten — man traut sich kaum etwas zu sagen oder zu tun.",
+    "examples": [
+      { "japanese": "おずおずと手を挙げた。", "romaji": "Ozuozu to te o ageta.", "german": "Zaghaft hob ich die Hand." },
+      { "japanese": "彼女はおずおずと話し始めた。", "romaji": "Kanojo wa ozuozu to hanashi hajimeta.", "german": "Sie begann schüchtern zu sprechen." }
+    ],
+    "related": ["オドオド", "モジモジ"],
+    "notes": "Literarischer als オドオド; häufig in Romanen."
+  },
+  {
+    "word": "しどろもどろ",
+    "reading": "しどろもどろ",
+    "romaji": "shidoromodoro",
+    "meaning": "Zusammenhanglos, stammelnd, wirr",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "Adverb, の, な",
+    "level": "N1",
+    "explanation": "Beschreibt wirres, zusammenhangloses Sprechen — man verhaspelt sich und kann keinen klaren Satz bilden.",
+    "examples": [
+      { "japanese": "しどろもどろの言い訳をした。", "romaji": "Shidoromodoro no iiwake o shita.", "german": "Er stammelte eine wirre Entschuldigung." },
+      { "japanese": "質問にしどろもどろになった。", "romaji": "Shitsumon ni shidoromodoro ni natta.", "german": "Bei der Frage geriet ich ins Stammeln." }
+    ],
+    "related": ["オロオロ", "モゴモゴ"],
+    "notes": "Klassisches literarisches Wort; ABCBDCDB-Muster (Sondermuster)."
+  },
+  {
+    "word": "つべこべ",
+    "reading": "つべこべ",
+    "romaji": "tsubekobe",
+    "meaning": "Hin und her reden, Ausflüchte suchen",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "Sonstige",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt unnötiges Hin- und Herreden, Ausreden und Widerspruch — wird oft in Aufforderungen verwendet, damit aufzuhören.",
+    "examples": [
+      { "japanese": "つべこべ言わずにやりなさい。", "romaji": "Tsubekobe iwazu ni yarinasai.", "german": "Hör auf, Ausreden zu suchen, und mach es einfach." }
+    ],
+    "related": ["グズグズ", "ゴチャゴチャ"],
+    "notes": "Fast immer in der negativen Form: つべこべ言うな / つべこべ言わず."
+  },
+  {
+    "word": "しゃにむに",
+    "reading": "しゃにむに",
+    "romaji": "shanimuni",
+    "meaning": "Blindlings, rücksichtslos, wie besessen",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt rücksichtsloses, blindes Voranstürmen ohne nachzudenken.",
+    "examples": [
+      { "japanese": "しゃにむに走り続けた。", "romaji": "Shanimuni hashiri tsuzuketa.", "german": "Ich rannte blindlings weiter." },
+      { "japanese": "しゃにむに突き進む。", "romaji": "Shanimuni tsuki susumu.", "german": "Rücksichtslos voranstürmen." }
+    ],
+    "related": ["がむしゃら"],
+    "notes": "Literarisch; aus dem Wort 遮二無二 (しゃにむに) — 'egal ob zwei oder nichts'."
+  },
+  {
+    "word": "つらつら",
+    "reading": "つらつら",
+    "romaji": "tsuratsura",
+    "meaning": "Eingehend, sorgfältig (nachdenken/betrachten)",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt eingehendes, gründliches Nachdenken oder Betrachten.",
+    "examples": [
+      { "japanese": "つらつら考えてみると、彼が正しかった。", "romaji": "Tsuratsura kangaete miru to, kare ga tadashikatta.", "german": "Wenn ich sorgfältig darüber nachdenke, hatte er Recht." }
+    ],
+    "related": ["じっくり", "しみじみ"],
+    "notes": "Gehobene Sprache; in der Alltagssprache selten. Kanji: 熟々."
+  },
+  {
+    "word": "のうのう",
+    "reading": "のうのう",
+    "romaji": "nounou",
+    "meaning": "Seelenruhig, unbekümmert, dreist",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt jemanden, der sich seelenruhig und unbekümmert verhält, obwohl die Situation Ernst oder Kritik erfordert.",
+    "examples": [
+      { "japanese": "他人の苦労も知らずにのうのうと暮らしている。", "romaji": "Tanin no kurou mo shirazu ni nounou to kurashite iru.", "german": "Er lebt seelenruhig, ohne die Mühen anderer zu kennen." }
+    ],
+    "related": ["ぬけぬけ", "おめおめ"],
+    "notes": "Negativ konnotiert; impliziert Verantwortungslosigkeit."
+  },
+  {
+    "word": "おめおめ",
+    "reading": "おめおめ",
+    "romaji": "omeome",
+    "meaning": "Schamlos, ohne jede Scham",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt jemanden, der schamlos etwas tut, obwohl er sich eigentlich schämen sollte.",
+    "examples": [
+      { "japanese": "失敗しておめおめと帰れない。", "romaji": "Shippai shite omeome to kaerenai.", "german": "Nach dem Versagen kann ich nicht einfach schamlos zurückkehren." }
+    ],
+    "related": ["ぬけぬけ", "のうのう"],
+    "notes": "Meist in negativem Kontext oder mit Verneinung verwendet."
+  },
+  {
+    "word": "うやむや",
+    "reading": "うやむや",
+    "romaji": "uyamuya",
+    "meaning": "Vage, unklar, im Sande verlaufen",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb, の, に",
+    "level": "N1",
+    "explanation": "Beschreibt eine Situation, die absichtlich vage gelassen wird und im Sande verläuft.",
+    "examples": [
+      { "japanese": "その問題はうやむやにされた。", "romaji": "Sono mondai wa uyamuya ni sareta.", "german": "Das Problem wurde unter den Teppich gekehrt." },
+      { "japanese": "うやむやな返事をした。", "romaji": "Uyamuya na henji o shita.", "german": "Er gab eine vage Antwort." }
+    ],
+    "related": ["あいまい", "ぼんやり"],
+    "notes": "Kanji: 有耶無耶 — 'gibt es oder gibt es nicht'."
+  },
+  {
+    "word": "こせこせ",
+    "reading": "こせこせ",
+    "romaji": "kosekose",
+    "meaning": "Kleinlich, engherzig, nervös betriebsam",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb, する",
+    "level": "N1",
+    "explanation": "Beschreibt kleinliches, engherziges Verhalten oder nervöse Betriebsamkeit um Kleinigkeiten.",
+    "examples": [
+      { "japanese": "こせこせしないで、もっとおおらかに行こう。", "romaji": "Kosekose shinai de, motto ooraka ni ikou.", "german": "Sei nicht so kleinlich, lass uns großzügiger sein." }
+    ],
+    "related": ["セカセカ", "チマチマ"],
+    "notes": "Negativ konnotiert; impliziert Engstirnigkeit."
+  },
+  {
+    "word": "しみじみ",
+    "reading": "しみじみ",
+    "romaji": "shimijimi",
+    "meaning": "Tief empfunden, von Herzen, innig",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt ein tiefes, inniges Gefühl — man empfindet etwas von Herzen und mit Nachdruck.",
+    "examples": [
+      { "japanese": "秋の夜にしみじみと故郷を思い出した。", "romaji": "Aki no yoru ni shimijimi to furusato o omoidashita.", "german": "In der Herbstnacht dachte ich tief bewegt an meine Heimat." },
+      { "japanese": "しみじみ感じた。", "romaji": "Shimijimi kanjita.", "german": "Ich empfand es zutiefst." }
+    ],
+    "related": ["つくづく", "じんわり"],
+    "notes": "Literarisch und emotional; drückt melancholische Reflexion aus."
+  },
+  {
+    "word": "がむしゃら",
+    "reading": "がむしゃら",
+    "romaji": "gamushara",
+    "meaning": "Blindwütig, wie besessen, verbissen",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "Adverb, な, に",
+    "level": "N1",
+    "explanation": "Beschreibt blindwütiges, verbissenes Voranstürmen ohne Rücksicht auf Konsequenzen.",
+    "examples": [
+      { "japanese": "がむしゃらに働いた。", "romaji": "Gamushara ni hataraita.", "german": "Ich arbeitete wie besessen." },
+      { "japanese": "がむしゃらに突き進む。", "romaji": "Gamushara ni tsuki susumu.", "german": "Verbissen voranstürmen." }
+    ],
+    "related": ["しゃにむに", "ガツガツ"],
+    "notes": "Kanji: 我武者羅 — kann positiv (entschlossen) oder negativ (rücksichtslos) sein."
+  },
+  {
+    "word": "つくづく",
+    "reading": "つくづく",
+    "romaji": "tsukuzuku",
+    "meaning": "Wirklich, von Herzen, eingehend",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt tiefes, nachhaltiges Empfinden — man erkennt etwas mit voller Überzeugung.",
+    "examples": [
+      { "japanese": "つくづく思ったが、日本語は難しい。", "romaji": "Tsukuzuku omotta ga, nihongo wa muzukashii.", "german": "Ich habe wirklich eingesehen, dass Japanisch schwer ist." },
+      { "japanese": "つくづく嫌になった。", "romaji": "Tsukuzuku iya ni natta.", "german": "Ich hatte es wirklich gründlich satt." }
+    ],
+    "related": ["しみじみ", "つらつら"],
+    "notes": "Kanji: 熟々 (wie つらつら, aber häufiger in der gesprochenen Sprache)."
+  },
+  {
+    "word": "おっかなびっくり",
+    "reading": "おっかなびっくり",
+    "romaji": "okkanabikkuri",
+    "meaning": "Furchtsam und zögerlich, angstvoll",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "Sonstige",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt furchtsames, ängstliches Verhalten — man tut etwas mit großer Vorsicht aus Angst.",
+    "examples": [
+      { "japanese": "おっかなびっくり吊り橋を渡った。", "romaji": "Okkanabikkuri tsuribashi o watatta.", "german": "Angstvoll überquerte ich die Hängebrücke." }
+    ],
+    "related": ["おずおず", "ビクビク"],
+    "notes": "Umgangssprachlich-literarischer Ausdruck; Kombination aus おっかない (furchtbar) und びっくり (erschrecken)."
+  },
+  {
+    "word": "ぞんざい",
+    "reading": "ぞんざい",
+    "romaji": "zonzai",
+    "meaning": "Nachlässig, grob, unhöflich",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "な-Adjektiv, に",
+    "level": "N1",
+    "explanation": "Beschreibt nachlässige, grobe Behandlung von Menschen oder Dingen.",
+    "examples": [
+      { "japanese": "ぞんざいな言葉遣いはやめなさい。", "romaji": "Zonzai na kotobazukai wa yamenasai.", "german": "Hör auf, so grob zu reden." },
+      { "japanese": "物をぞんざいに扱う。", "romaji": "Mono o zonzai ni atsukau.", "german": "Dinge nachlässig behandeln." }
+    ],
+    "related": ["がさつ", "乱暴"],
+    "notes": "Wird als な-Adjektiv verwendet; betont Respektlosigkeit."
+  },
+  {
+    "word": "めきめき",
+    "reading": "めきめき",
+    "romaji": "mekimeki",
+    "meaning": "Zusehends, rasant (Fortschritt)",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt einen deutlich sichtbaren, rasanten Fortschritt oder Wachstum.",
+    "examples": [
+      { "japanese": "日本語がめきめき上達した。", "romaji": "Nihongo ga mekimeki joutatsu shita.", "german": "Mein Japanisch hat sich zusehends verbessert." }
+    ],
+    "related": ["メキメキ", "グングン", "ドンドン"],
+    "notes": "Positiv konnotiert; betont überraschend schnellen Fortschritt."
+  },
+  {
+    "word": "もたつく",
+    "reading": "もたつく",
+    "romaji": "motatsuku",
+    "meaning": "Herumtrödeln, sich abmühen, stocken",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "Verb (く-Endung)",
+    "level": "N1",
+    "explanation": "Beschreibt das Herumtrödeln oder Stocken bei einer Aufgabe — man kommt nicht voran.",
+    "examples": [
+      { "japanese": "出発の準備にもたついた。", "romaji": "Shuppatsu no junbi ni motatsuita.", "german": "Bei den Abfahrtsvorbereitungen trödelte ich herum." }
+    ],
+    "related": ["モタモタ", "グズグズ"],
+    "notes": "Verb-Form von モタモタ; wird als reguläres Verb konjugiert."
+  },
+  {
+    "word": "むずと",
+    "reading": "むずと",
+    "romaji": "muzuto",
+    "meaning": "Mit einem kräftigen Griff, ruckartig packen",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABっと",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt ein kräftiges, ruckartiges Zupacken oder Ergreifen.",
+    "examples": [
+      { "japanese": "むずと腕をつかまれた。", "romaji": "Muzuto ude o tsukamareta.", "german": "Mein Arm wurde ruckartig gepackt." }
+    ],
+    "related": ["ギュッと", "ガバッと"],
+    "notes": "Literarisch; in der modernen Alltagssprache selten."
+  },
+  {
+    "word": "ぬらりくらり",
+    "reading": "ぬらりくらり",
+    "romaji": "nurarikurari",
+    "meaning": "Ausweichend, aalglatt, sich herauswindend",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt aalglatte Ausweichmanöver — jemand windet sich geschickt aus jeder Verantwortung.",
+    "examples": [
+      { "japanese": "質問にぬらりくらりと答えをかわした。", "romaji": "Shitsumon ni nurarikurari to kotae o kawashita.", "german": "Er wich den Fragen aalglatt aus." }
+    ],
+    "related": ["のらりくらり"],
+    "notes": "Literarisch; ähnlich wie のらりくらり, aber etwas formeller."
+  },
+  {
+    "word": "のらりくらり",
+    "reading": "のらりくらり",
+    "romaji": "norarikurari",
+    "meaning": "Ziellos, unverbindlich, sich drückend",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt zielloses Herumtreiben oder geschicktes Ausweichen vor Verantwortung.",
+    "examples": [
+      { "japanese": "のらりくらりと日々を過ごしている。", "romaji": "Norarikurari to hibi o sugoshite iru.", "german": "Er verbringt seine Tage ziellos und unverbindlich." },
+      { "japanese": "のらりくらりと質問をかわした。", "romaji": "Norarikurari to shitsumon o kawashita.", "german": "Er wich den Fragen geschickt aus." }
+    ],
+    "related": ["ぬらりくらり", "ダラダラ"],
+    "notes": "Kann sowohl 'ziellos' als auch 'absichtlich ausweichend' bedeuten."
+  },
+  {
+    "word": "ちゃほや",
+    "reading": "ちゃほや",
+    "romaji": "chahoya",
+    "meaning": "Verwöhnen, verhätscheln, umschmeicheln",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "Sonstige",
+    "usage": "Adverb (mit する)",
+    "level": "N1",
+    "explanation": "Beschreibt übermäßiges Verwöhnen, Verhätscheln und Schmeicheln — meist in der Form ちやほやする.",
+    "examples": [
+      { "japanese": "彼女はみんなにちやほやされている。", "romaji": "Kanojo wa minna ni chiyahoya sarete iru.", "german": "Sie wird von allen verwöhnt und umschmeichelt." }
+    ],
+    "related": ["ベタベタ"],
+    "notes": "Fast immer als ちやほやする verwendet; geschrieben auch ちやほや."
+  },
+  {
+    "word": "まごまご",
+    "reading": "まごまご",
+    "romaji": "magomago",
+    "meaning": "Ratlos, verwirrt, unschlüssig",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb, する",
+    "level": "N1",
+    "explanation": "Beschreibt ratloses, verwirrendes Herumstehen — man weiß nicht, was man tun soll.",
+    "examples": [
+      { "japanese": "道に迷ってまごまごしていた。", "romaji": "Michi ni mayotte magomago shite ita.", "german": "Ich hatte mich verirrt und stand ratlos herum." }
+    ],
+    "related": ["オロオロ", "オタオタ"],
+    "notes": "Milder als オロオロ; betont Unschlüssigkeit."
+  },
+  {
+    "word": "ずけずけ",
+    "reading": "ずけずけ",
+    "romaji": "zukezuke",
+    "meaning": "Unverblümt, ohne Rücksicht, geradeheraus",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt unverblümtes, rücksichtsloses Reden — man sagt, was man denkt, ohne Rücksicht auf Gefühle.",
+    "examples": [
+      { "japanese": "彼はずけずけとものを言う。", "romaji": "Kare wa zukezuke to mono o iu.", "german": "Er sagt unverblümt, was er denkt." }
+    ],
+    "related": ["ハキハキ", "ビシッと"],
+    "notes": "Negativ konnotiert; impliziert Rücksichtslosigkeit gegenüber den Gefühlen anderer."
+  },
+  {
+    "word": "たどたどしい",
+    "reading": "たどたどしい",
+    "romaji": "tadotadoshii",
+    "meaning": "Stockend, unbeholfen (Sprache/Schritte)",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "い-Adjektiv",
+    "level": "N1",
+    "explanation": "Beschreibt stockendes, unbeholfenes Sprechen oder unsichere Schritte.",
+    "examples": [
+      { "japanese": "たどたどしい日本語で自己紹介した。", "romaji": "Tadotadoshii nihongo de jiko shoukai shita.", "german": "Ich stellte mich in stockendem Japanisch vor." }
+    ],
+    "related": ["しどろもどろ", "モタモタ"],
+    "notes": "Als い-Adjektiv verwendet; literarischer als モタモタ."
+  },
+  {
+    "word": "こわごわ",
+    "reading": "こわごわ",
+    "romaji": "kowagowa",
+    "meaning": "Furchtsam, ängstlich-vorsichtig",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt furchtvolles, ängstliches Handeln — man tut etwas mit großer Angst.",
+    "examples": [
+      { "japanese": "こわごわ暗い部屋に入った。", "romaji": "Kowagowa kurai heya ni haitta.", "german": "Furchtsam betrat ich das dunkle Zimmer." }
+    ],
+    "related": ["おずおず", "ビクビク", "おっかなびっくり"],
+    "notes": "Von 怖い (kowai) abgeleitet; betont die Überwindung von Angst."
+  },
+  {
+    "word": "ぬくぬく",
+    "reading": "ぬくぬく",
+    "romaji": "nukunuku",
+    "meaning": "Mollig warm; unbekümmert geschützt",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt wohlige Wärme oder ein unbekümmertes, geschütztes Dasein.",
+    "examples": [
+      { "japanese": "布団の中でぬくぬくしている。", "romaji": "Futon no naka de nukunuku shite iru.", "german": "Ich kuschle mich mollig warm ins Futon." },
+      { "japanese": "親の金でぬくぬくと暮らしている。", "romaji": "Oya no kane de nukunuku to kurashite iru.", "german": "Er lebt unbekümmert vom Geld seiner Eltern." }
+    ],
+    "related": ["ポカポカ", "のうのう"],
+    "notes": "Bei Wärme positiv; bei geschütztem Leben oft leicht kritisch."
+  },
+  {
+    "word": "あくせく",
+    "reading": "あくせく",
+    "romaji": "akuseku",
+    "meaning": "Rastlos, gehetzt, sich abrackernd",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "ABAB",
+    "usage": "Adverb, する",
+    "level": "N1",
+    "explanation": "Beschreibt rastloses, gehetztes Arbeiten ohne Pause — man rackert sich ab.",
+    "examples": [
+      { "japanese": "あくせく働いても、給料は増えない。", "romaji": "Akuseku hataraite mo, kyuuryou wa fuenai.", "german": "Auch wenn man sich abschuftet, steigt das Gehalt nicht." }
+    ],
+    "related": ["セカセカ", "バタバタ"],
+    "notes": "Kanji: 齷齪; negativ konnotiert — betont die Sinnlosigkeit der Hektik."
+  },
+  {
+    "word": "しゃちほこばる",
+    "reading": "しゃちほこばる",
+    "romaji": "shachihokobaru",
+    "meaning": "Sich steif und förmlich benehmen, verkrampft",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "Verb",
+    "level": "N1",
+    "explanation": "Beschreibt übertrieben steifes, förmliches Benehmen aus Nervosität.",
+    "examples": [
+      { "japanese": "社長の前でしゃちほこばっている。", "romaji": "Shachou no mae de shachihokobatte iru.", "german": "Vor dem Firmenchef benimmt er sich steif und verkrampft." }
+    ],
+    "related": ["ガチガチ", "こわごわ"],
+    "notes": "Von 鯱鉾 (しゃちほこ), dem steifen Dachschmuck japanischer Burgen."
+  },
+  {
+    "word": "おどおど",
+    "reading": "おどおど",
+    "romaji": "odoodo",
+    "meaning": "Ängstlich, nervös, eingeschüchtert",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "ABAB",
+    "usage": "Adverb, する",
+    "level": "N1",
+    "explanation": "Beschreibt ständiges nervöses, eingeschüchtertes Verhalten.",
+    "examples": [
+      { "japanese": "面接でおどおどしてしまった。", "romaji": "Mensetsu de odoodo shite shimatta.", "german": "Beim Vorstellungsgespräch war ich ganz eingeschüchtert." }
+    ],
+    "related": ["オドオド", "ビクビク", "おずおず"],
+    "notes": "Hiragana-Variante; in der geschriebenen Sprache häufiger als オドオド in literarischen Texten."
+  },
+  {
+    "word": "ぶっきらぼう",
+    "reading": "ぶっきらぼう",
+    "romaji": "bukkirabou",
+    "meaning": "Schroff, barsch, abweisend",
+    "category": "Bewegung",
+    "categoryJP": "擬容語",
+    "pattern": "Sonstige",
+    "usage": "な-Adjektiv, に",
+    "level": "N1",
+    "explanation": "Beschreibt eine schroffe, barsche Art zu sprechen oder sich zu verhalten.",
+    "examples": [
+      { "japanese": "ぶっきらぼうな返事をした。", "romaji": "Bukkirabou na henji o shita.", "german": "Er gab eine schroffe Antwort." },
+      { "japanese": "彼はぶっきらぼうだが、優しい。", "romaji": "Kare wa bukkirabou da ga, yasashii.", "german": "Er ist barsch, aber nett." }
+    ],
+    "related": ["ぞんざい", "ズケズケ"],
+    "notes": "Kann auch 'unbeholfen im Ausdruck, aber nicht böse gemeint' bedeuten."
+  },
+  {
+    "word": "うじうじ",
+    "reading": "うじうじ",
+    "romaji": "ujiuji",
+    "meaning": "Unentschlossen grübeln, zaudern",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "ABAB",
+    "usage": "Adverb, する",
+    "level": "N1",
+    "explanation": "Beschreibt zauderndes, unentschlossenes Grübeln ohne Handlung.",
+    "examples": [
+      { "japanese": "うじうじ悩んでいないで、決めなさい。", "romaji": "Ujiuji nayande inai de, kimenasai.", "german": "Hör auf zu zaudern und entscheide dich." }
+    ],
+    "related": ["ウジウジ", "クヨクヨ", "グズグズ"],
+    "notes": "Hiragana-Variante; wird oft in der Aufforderung verwendet, damit aufzuhören."
+  },
+  {
+    "word": "もごもご",
+    "reading": "もごもご",
+    "romaji": "mogomogo",
+    "meaning": "Undeutlich murmeln, mit vollem Mund sprechen",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "usage": "Adverb",
+    "level": "N1",
+    "explanation": "Beschreibt undeutliches, genuscheles Sprechen — oft mit etwas im Mund.",
+    "examples": [
+      { "japanese": "もごもごと言い訳を始めた。", "romaji": "Mogomogo to iiwake o hajimeta.", "german": "Er fing an, undeutlich Entschuldigungen zu murmeln." },
+      { "japanese": "口をもごもごさせている。", "romaji": "Kuchi o mogomogo sasete iru.", "german": "Er bewegt undeutlich den Mund." }
+    ],
+    "related": ["ボソボソ", "モグモグ"],
+    "notes": "Ähnlich wie モグモグ, aber betont die Unverständlichkeit."
   },
 ];

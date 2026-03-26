@@ -4,6 +4,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お～になる",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Allgemeine respektvolle Verbform",
     "explanation": "お～になる ist die standardmäßige respektvolle (尊敬語) Verbform, mit der man die Handlungen einer hierarchisch höher gestellten Person beschreibt. Sie drückt Respekt gegenüber dem Handelnden aus.",
     "formation": "お + Verb (ます-Stamm) + になる",
@@ -35,6 +36,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～れる・られる",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Passivform als Respektausdruck",
     "explanation": "Die Passivform (～れる / ～られる) kann auch als respektvolle Ausdrucksweise verwendet werden. Sie ist weniger formell als お～になる, aber im Alltag weit verbreitet.",
     "formation": "五段動詞: ～あ段 + れる ／ 一段動詞: ～Stamm + られる",
@@ -66,6 +68,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "いらっしゃる",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Respektvolle Form von いる / ある / 行く / 来る",
     "explanation": "いらっしゃる ist die respektvolle Sonderform für die Verben いる (sein/sich befinden), 行く (gehen) und 来る (kommen). Es wird verwendet, um über den Aufenthaltsort oder die Bewegung einer respektierten Person zu sprechen.",
     "formation": "Ersetzt いる / ある / 行く / 来る direkt (ます-Form: いらっしゃいます)",
@@ -97,6 +100,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "おっしゃる",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Respektvolle Form von 言う (sagen)",
     "explanation": "おっしゃる ist die respektvolle Sonderform von 言う (sagen). Es wird verwendet, wenn man beschreibt, was eine hierarchisch höher gestellte Person gesagt hat.",
     "formation": "Ersetzt 言う direkt (ます-Form: おっしゃいます)",
@@ -123,6 +127,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "召し上がる",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Respektvolle Form von 食べる / 飲む (essen / trinken)",
     "explanation": "召し上がる ist die respektvolle Sonderform von 食べる (essen) und 飲む (trinken). Es wird verwendet, um respektvoll über das Essen oder Trinken einer höhergestellten Person zu sprechen.",
     "formation": "Ersetzt 食べる / 飲む direkt (ます-Form: 召し上がります)",
@@ -153,6 +158,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご覧になる",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Respektvolle Form von 見る (sehen/schauen)",
     "explanation": "ご覧になる ist die respektvolle Sonderform von 見る (sehen). Es wird verwendet, um respektvoll zu beschreiben, dass eine höhergestellte Person etwas anschaut oder liest.",
     "formation": "ご覧 + になる (ます-Form: ご覧になります)",
@@ -178,6 +184,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご存じ",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Respektvolle Form von 知っている (wissen/kennen)",
     "explanation": "ご存じ ist die respektvolle Form von 知っている (wissen/kennen). Es wird als Nomen oder na-Adjektiv verwendet, um respektvoll zu fragen oder zu sagen, ob eine höhergestellte Person etwas weiß.",
     "formation": "ご存じ + です / ですか (Verneinung: ご存じない / ご存じありません)",
@@ -204,6 +211,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "なさる",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Respektvolle Form von する (machen/tun)",
     "explanation": "なさる ist die respektvolle Sonderform von する (tun/machen). Es wird verwendet, um respektvoll über die Handlungen einer höhergestellten Person zu sprechen.",
     "formation": "Ersetzt する direkt (ます-Form: なさいます) ／ お + Nomen + なさる",
@@ -234,6 +242,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "くださる",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Respektvolle Form von くれる (geben, für mich/uns)",
     "explanation": "くださる ist die respektvolle Form von くれる und drückt aus, dass eine höhergestellte Person dem Sprecher oder seiner Gruppe etwas gibt oder etwas für ihn tut. Es betont die Dankbarkeit des Empfängers.",
     "formation": "Ersetzt くれる direkt (ます-Form: くださいます)",
@@ -261,6 +270,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お～くださる",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Respektvolle Bittform / Dank für eine Handlung",
     "explanation": "お～くださる wird verwendet, um respektvoll auszudrücken, dass eine höhergestellte Person etwas für den Sprecher tut, oder um höflich um etwas zu bitten. Es kombiniert die respektvolle Prefix お mit くださる.",
     "formation": "お + Verb (ます-Stamm) + くださる ／ お + Verb (ます-Stamm) + ください",
@@ -292,6 +302,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お～する / お～いたす",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Allgemeine bescheidene Verbform",
     "explanation": "お～する bzw. die noch bescheidenere Form お～いたす ist die standardmäßige bescheidene (謙譲語) Verbform. Sie wird verwendet, um die eigenen Handlungen gegenüber einer höhergestellten Person herunterzustufen.",
     "formation": "お + Verb (ます-Stamm) + する / いたす ／ ご + sino-jap. Nomen + する / いたす",
@@ -323,6 +334,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "参る",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheidene Form von 行く / 来る (gehen / kommen)",
     "explanation": "参る ist die bescheidene (謙譲語) Sonderform von 行く (gehen) und 来る (kommen). Es wird verwendet, um die eigene Bewegung gegenüber einer höhergestellten Person bescheiden auszudrücken.",
     "formation": "Ersetzt 行く / 来る direkt (ます-Form: 参ります)",
@@ -354,6 +366,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "申す",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheidene Form von 言う (sagen)",
     "explanation": "申す ist die bescheidene (謙譲語) Form von 言う (sagen). Es wird verwendet, um bescheiden auszudrücken, dass man selbst etwas sagt, insbesondere bei Selbstvorstellungen und allgemeinen Aussagen.",
     "formation": "Ersetzt 言う direkt (ます-Form: 申します)",
@@ -380,6 +393,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "申し上げる",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Sehr bescheidene Form von 言う (sagen/mitteilen)",
     "explanation": "申し上げる ist die förmlichste bescheidene Form von 言う. Es wird verwendet, wenn man einer höhergestellten Person direkt etwas mitteilt, und drückt dabei maximale Bescheidenheit aus.",
     "formation": "Ersetzt 言う direkt (ます-Form: 申し上げます)",
@@ -411,6 +425,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "いただく",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheidene Form von もらう / 食べる / 飲む",
     "explanation": "いただく ist die bescheidene (謙譲語) Form von もらう (empfangen) sowie von 食べる (essen) und 飲む (trinken). Es drückt Dankbarkeit und Bescheidenheit aus, wenn man etwas empfängt oder konsumiert.",
     "formation": "Ersetzt もらう / 食べる / 飲む direkt (ます-Form: いただきます)",
@@ -443,6 +458,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "拝見する",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheidene Form von 見る (sehen/anschauen)",
     "explanation": "拝見する ist die bescheidene (謙譲語) Form von 見る (sehen). Das Kanji 拝 bedeutet 'sich verbeugen' und drückt daher besondere Ehrerbietung aus. Es wird verwendet, wenn man etwas ansieht, das einer höhergestellten Person gehört.",
     "formation": "拝見 + する (ます-Form: 拝見します / 拝見いたします)",
@@ -468,6 +484,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "存じる",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheidene Form von 知る / 思う (wissen / denken)",
     "explanation": "存じる ist die bescheidene (謙譲語) Form von 知る (wissen) und 思う (denken/meinen). Es wird verwendet, um bescheiden auszudrücken, dass man etwas weiß oder eine Meinung hat.",
     "formation": "Ersetzt 知る / 思う direkt (ます-Form: 存じます / 存じております)",
@@ -499,6 +516,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "存じ上げる",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheidene Form von 知っている (jemanden kennen)",
     "explanation": "存じ上げる ist die bescheidenere Form von 存じる und wird hauptsächlich verwendet, wenn man bescheiden ausdrückt, dass man eine Person kennt. Es ist respektvoller als 存じる.",
     "formation": "Ersetzt 知っている (für Personen) direkt (ます-Form: 存じ上げております)",
@@ -525,6 +543,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "いたす",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheidene Form von する (machen/tun)",
     "explanation": "いたす ist die bescheidene (謙譲語) Form von する (tun/machen). Es wird verwendet, um die eigenen Handlungen gegenüber einer höhergestellten Person bescheiden auszudrücken.",
     "formation": "Ersetzt する direkt (ます-Form: いたします)",
@@ -556,6 +575,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "差し上げる",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheidene Form von あげる (geben)",
     "explanation": "差し上げる ist die bescheidene (謙譲語) Form von あげる (geben). Es wird verwendet, um bescheiden auszudrücken, dass man einer höhergestellten Person etwas gibt.",
     "formation": "Ersetzt あげる direkt (ます-Form: 差し上げます)",
@@ -587,6 +607,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "伺う",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheidene Form von 行く / 聞く / 訪ねる",
     "explanation": "伺う ist die bescheidene (謙譲語) Form von 行く (gehen), 聞く (fragen/hören) und 訪ねる (besuchen). Es wird verwendet, um bescheiden auszudrücken, dass man jemanden besucht, etwas fragt oder etwas erfährt.",
     "formation": "Ersetzt 行く / 聞く / 訪ねる direkt (ます-Form: 伺います)",
@@ -618,6 +639,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "おる",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheidene Form von いる (sein/sich befinden)",
     "explanation": "おる ist die bescheidene (謙譲語) Form von いる (sein/sich befinden). Es wird verwendet, um bescheiden über den eigenen Aufenthaltsort oder Zustand zu sprechen.",
     "formation": "Ersetzt いる direkt (ます-Form: おります) ／ ～ております (bescheidene Verlaufsform)",
@@ -648,6 +670,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～でございます",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "丁寧語",
     "meaning": "Sehr höfliche Form von です (sein)",
     "explanation": "～でございます ist die höchste Höflichkeitsstufe von です. Es gehört zur 丁寧語 (höflichen Sprache) und wird in sehr formellen Situationen, im Kundenservice und in geschäftlichen Kontexten verwendet.",
     "formation": "Nomen / な-Adjektiv + でございます ／ い-Adjektiv (く-Form) + ございます",
@@ -679,6 +702,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～ていただけませんか",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "丁寧語",
     "meaning": "Sehr höfliche Bittform (Könnten Sie bitte ...?)",
     "explanation": "～ていただけませんか ist eine sehr höfliche Bittform, die die bescheidene Form いただく in der potenziellen Verneinung verwendet. Sie ist höflicher als ～てくれませんか oder ～てもらえませんか.",
     "formation": "Verb (て-Form) + いただけませんか ／ いただけないでしょうか (noch höflicher)",
@@ -710,6 +734,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～させていただく",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "丁寧語",
     "meaning": "Bescheidene Erlaubnisform (Erlauben Sie mir, dass ich ...)",
     "explanation": "～させていただく kombiniert die Kausativform (～させる) mit der bescheidenen Form いただく und drückt aus, dass man bescheiden um Erlaubnis bittet, etwas tun zu dürfen. Es impliziert Dankbarkeit für die gewährte Erlaubnis.",
     "formation": "Verb (させ-Form) + ていただく (ます-Form: ～させていただきます)",
@@ -741,6 +766,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お忙しいところ恐れ入りますが",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Ich bitte um Verzeihung für die Störung trotz Ihrer Beschäftigung",
     "explanation": "お忙しいところ恐れ入りますが ist eine feste geschäftliche Höflichkeitsformel, die vor einer Bitte verwendet wird. Sie zeigt Rücksichtnahme auf die Zeit des Gegenübers und leitet eine Anfrage respektvoll ein.",
     "formation": "お忙しいところ恐れ入りますが + Bitte/Anfrage",
@@ -767,6 +793,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お世話になっております",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Geschäftliche Begrüßungsformel (Vielen Dank für Ihre fortlaufende Unterstützung)",
     "explanation": "お世話になっております ist die wichtigste geschäftliche Begrüßungsformel in Japan. Sie wird am Anfang von E-Mails, Telefonaten und Meetings mit Geschäftspartnern verwendet und drückt Dankbarkeit für die bestehende Geschäftsbeziehung aus.",
     "formation": "お世話になっております (feste Formel, unveränderlich) ／ Variante: いつもお世話になっております",
@@ -798,6 +825,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お～ください",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Höfliche Bitte / Aufforderung",
     "explanation": "お～ください ist die grundlegende höfliche Bittform im Japanischen. Man setzt お vor den Verb-Stamm (ます-Form ohne ます) und fügt ください hinzu. Diese Form wird verwendet, um jemanden respektvoll um etwas zu bitten. Sie gehört zu den ersten Keigo-Formen, die Lernende kennenlernen sollten.",
     "formation": "お + Verb-Stamm (ます-Form ohne ます) + ください",
@@ -826,6 +854,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～ていらっしゃる",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Verlaufsform der Ehrerbietung (jemand tut gerade etwas)",
     "explanation": "～ていらっしゃる ist die Sonkeigo-Form von ～ている. Man verwendet sie, um den andauernden Zustand oder die laufende Handlung einer Person zu beschreiben, der man Respekt erweist. いらっしゃる ersetzt dabei いる in der て-Form-Konstruktion.",
     "formation": "Verb て-Form + いらっしゃる (いらっしゃいます in der ます-Form)",
@@ -854,6 +883,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お見えになる",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Erscheinen / Ankommen (ehrerbietig)",
     "explanation": "お見えになる ist eine besonders höfliche Sonkeigo-Form, die verwendet wird, wenn eine respektierte Person erscheint oder ankommt. Es ist die ehrerbietige Variante von 来る (kommen) oder 現れる (erscheinen) und wird häufig im Geschäftsleben verwendet, besonders wenn Kunden oder wichtige Gäste eintreffen.",
     "formation": "お見えになる (feste Verbindung, konjugiert wie ein godan-Verb)",
@@ -882,6 +912,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お越しになる",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Kommen / Herkommen (ehrerbietig)",
     "explanation": "お越しになる ist eine elegante Sonkeigo-Form von 来る (kommen). Sie wird verwendet, wenn man respektvoll beschreibt, dass eine höhergestellte Person kommt oder einen Ort besucht. Diese Form ist besonders in der Geschäftssprache und bei formellen Einladungen verbreitet.",
     "formation": "お越しになる (feste Verbindung) / お越しください (als Bitte)",
@@ -910,6 +941,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "おいでになる",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Gehen / Kommen / Sein (ehrerbietig)",
     "explanation": "おいでになる ist eine vielseitige Sonkeigo-Form, die als ehrerbietige Version von 行く (gehen), 来る (kommen) und いる (sein) fungiert. Welche Bedeutung gemeint ist, ergibt sich aus dem Kontext. Diese Form wird besonders in gehobener Konversation verwendet.",
     "formation": "おいでになる (feste Verbindung, konjugiert als godan-Verb)",
@@ -938,6 +970,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お求めになる",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Kaufen / Erwerben (ehrerbietig)",
     "explanation": "お求めになる ist die Sonkeigo-Form von 買う (kaufen). Sie wird verwendet, wenn man respektvoll über den Kauf eines Kunden oder einer höhergestellten Person spricht. Diese Form ist besonders im Einzelhandel, in Kaufhäusern und im Kundenservice verbreitet.",
     "formation": "お求めになる (お + 求め + になる)",
@@ -966,6 +999,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご利用になる",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "尊敬語",
     "meaning": "Benutzen / In Anspruch nehmen (ehrerbietig)",
     "explanation": "ご利用になる ist die Sonkeigo-Form von 利用する (benutzen/nutzen). Da 利用 ein sino-japanisches Wort ist, wird das Präfix ご statt お verwendet. Diese Form begegnet einem sehr häufig in öffentlichen Durchsagen, Geschäften und Dienstleistungsunternehmen.",
     "formation": "ご利用になる / ご利用ください (als Bitte)",
@@ -994,6 +1028,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "拝借する",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheiden ausleihen / borgen",
     "explanation": "拝借する (はいしゃくする) ist die Kenjōgo-Form von 借りる (ausleihen). Das Kanji 拝 drückt Demut und Ehrfurcht aus. Man verwendet diese Form, wenn man selbst etwas von einer höhergestellten Person ausleiht, um die eigene Handlung zu erniedrigen und damit indirekt Respekt zu zeigen.",
     "formation": "拝借する (festes Verb, konjugiert wie する)",
@@ -1022,6 +1057,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "拝読する",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheiden lesen / durchlesen",
     "explanation": "拝読する (はいどくする) ist die Kenjōgo-Form von 読む (lesen). Sie wird verwendet, wenn man bescheiden ausdrücken möchte, dass man etwas gelesen hat, das von einer respektierten Person verfasst oder gesendet wurde. Das Kanji 拝 signalisiert Demut.",
     "formation": "拝読する (festes Verb, konjugiert wie する)",
@@ -1050,6 +1086,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お目にかかる",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheiden treffen / begegnen",
     "explanation": "お目にかかる ist die Kenjōgo-Form von 会う (treffen). Wörtlich bedeutet es etwa „den Augen (einer respektierten Person) begegnen“. Man verwendet diese Form, um die eigene Handlung des Treffens bescheiden auszudrücken und damit Respekt gegenüber der anderen Person zu zeigen.",
     "formation": "お目にかかる (feste Verbindung, konjugiert als godan-Verb)",
@@ -1078,6 +1115,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お目にかける",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheiden zeigen / vorführen",
     "explanation": "お目にかける ist die Kenjōgo-Form von 見せる (zeigen). Wörtlich bedeutet es „den Augen (einer respektierten Person) darbieten“. Man verwendet diese Form, wenn man einer höhergestellten Person bescheiden etwas zeigt oder präsentiert.",
     "formation": "お目にかける (feste Verbindung, konjugiert als ichidan-Verb)",
@@ -1106,6 +1144,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "承る",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheiden empfangen / hören / annehmen",
     "explanation": "承る (うけたまわる) ist eine sehr formelle Kenjōgo-Form, die als bescheidene Version von 聞く (hören), 受ける (empfangen) und 引き受ける (übernehmen) dient. Sie wird häufig im Kundenservice und in formellen Geschäftssituationen verwendet, um auszudrücken, dass man eine Bestellung, Anfrage oder Information entgegennimmt.",
     "formation": "承る (festes Verb, konjugiert als godan-Verb)",
@@ -1134,6 +1173,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "かしこまりました",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Verstanden / Selbstverständlich (sehr höflich)",
     "explanation": "かしこまりました ist die höflichste Art, „verstanden“ oder „selbstverständlich“ zu sagen. Es wird im Kundenservice, in Hotels, Restaurants und in formellen Geschäftssituationen verwendet. Es ist deutlich formeller als 分かりました und zeigt, dass man die Anweisung oder Bitte respektvoll entgegennimmt.",
     "formation": "かしこまりました (feste Form, Vergangenheitsform von かしこまる)",
@@ -1162,6 +1202,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "頂戴する",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheiden empfangen / erhalten",
     "explanation": "頂戴する (ちょうだいする) ist eine formelle Kenjōgo-Form von もらう (bekommen/erhalten). Es drückt bescheiden aus, dass man etwas von einer höhergestellten Person erhält. Im Vergleich zu いただく klingt 頂戴する noch etwas förmlicher und wird häufig im Geschäftsleben und in der Gastronomie verwendet.",
     "formation": "頂戴する (festes Verb, konjugiert wie する) / 頂戴いたす (noch höflicher)",
@@ -1190,6 +1231,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "失礼いたします",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Entschuldigung / Ich verabschiede mich (formell)",
     "explanation": "失礼いたします ist eine vielseitige formelle Phrase, die in verschiedenen Situationen verwendet wird: beim Betreten oder Verlassen eines Raumes, beim Auflegen des Telefons, beim Unterbrechen einer Tätigkeit oder beim Verabschieden. いたします ist die Kenjōgo-Form von します und macht die Phrase besonders höflich.",
     "formation": "失礼いたします (feste Phrase) / 失礼いたしました (Vergangenheit: Entschuldigung für etwas Vergangenes)",
@@ -1218,6 +1260,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "恐れ入りますが",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Entschuldigen Sie bitte, aber... / Es tut mir leid, aber...",
     "explanation": "恐れ入りますが ist ein höflicher Einleitungssatz (クッション言葉), der vor einer Bitte, Frage oder einem möglicherweise unangenehmen Anliegen verwendet wird. Er mildert die nachfolgende Aussage ab und zeigt Rücksichtnahme gegenüber dem Gesprächspartner. Diese Form ist im japanischen Geschäftsleben unverzichtbar.",
     "formation": "恐れ入りますが + Bitte/Frage/Anliegen",
@@ -1246,6 +1289,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "よろしくお願いいたします",
     "level": "N4",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Ich bitte Sie höflichst (formelle Abschlussformel)",
     "explanation": "よろしくお願いいたします ist die formelle Version von よろしくお願いします und eine der wichtigsten Phrasen im japanischen Geschäftsleben. Sie wird als Abschlussformel in E-Mails, bei Erstvorstellungen, nach Bitten und in nahezu jeder geschäftlichen Kommunikation verwendet. いたします (Kenjōgo von します) macht die Phrase besonders respektvoll.",
     "formation": "よろしくお願いいたします (feste Formel) / 何卒よろしくお願いいたします (noch formeller)",
@@ -1274,6 +1318,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご確認ください",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Bitte bestätigen / Bitte prüfen Sie",
     "explanation": "ご確認ください ist eine höfliche Bitte, die den Empfänger auffordert, etwas zu überprüfen oder zu bestätigen. Sie wird sehr häufig in geschäftlichen E-Mails und Dokumenten verwendet. Das Präfix ご vor dem sino-japanischen Wort 確認 macht die Phrase respektvoll.",
     "formation": "ご確認ください / ご確認いただけますでしょうか (noch höflicher als Frage)",
@@ -1302,6 +1347,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご検討いただければ幸いです",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Ich wäre dankbar, wenn Sie es in Erwägung ziehen könnten",
     "explanation": "ご検討いただければ幸いです ist eine äußerst höfliche Bitte, die den Empfänger auffordert, einen Vorschlag oder ein Angebot zu prüfen. Die Kombination aus ご検討 (Prüfung), いただければ (wenn ich die Gunst erhalten könnte) und 幸いです (es wäre ein Glück) ergibt eine Phrase, die maximale Höflichkeit mit Bescheidenheit verbindet.",
     "formation": "ご検討いただければ幸いです / ご検討いただけますと幸いです (Variante)",
@@ -1330,6 +1376,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～の件につきまして",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Bezüglich der Angelegenheit... / In Bezug auf...",
     "explanation": "～の件につきまして ist die formelle geschäftliche Version von ～について (bezüglich). つきまして ist die ます-Form des formellen Verbs つく (sich beziehen auf) in der て-Form. Diese Phrase wird verwendet, um das Thema einer geschäftlichen Mitteilung einzuleiten.",
     "formation": "Nomen + の件につきまして / Nomen + につきまして",
@@ -1358,6 +1405,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご不明な点がございましたら",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Sollten Sie Fragen haben / Bei Unklarheiten",
     "explanation": "ご不明な点がございましたら ist eine höfliche Standardphrase, die dem Empfänger signalisiert, dass man für Rückfragen zur Verfügung steht. ございましたら ist die formelle Version von あったら (wenn es gibt). Diese Phrase wird typischerweise am Ende von geschäftlichen E-Mails oder Erklärungen verwendet.",
     "formation": "ご不明な点がございましたら + お気軽にお問い合わせください (o.ä.)",
@@ -1386,6 +1434,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "取り急ぎご連絡いたします",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Ich kontaktiere Sie in Eile / Kurze eilige Mitteilung",
     "explanation": "取り急ぎご連絡いたします ist eine geschäftliche Standardphrase, die verwendet wird, wenn man schnell eine wichtige Information mitteilen möchte, ohne die übliche ausführliche Höflichkeitsstruktur einzuhalten. 取り急ぎ bedeutet „in Eile“ oder „eilig“ und entschuldigt gleichzeitig die Kürze der Nachricht.",
     "formation": "取り急ぎ + ご連絡いたします / ご報告いたします / お知らせいたします",
@@ -1414,6 +1463,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お手数をおかけしますが",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Es tut mir leid für die Umstände, aber...",
     "explanation": "お手数をおかけしますが ist ein höfliches Kissenwort (クッション言葉), das vor einer Bitte verwendet wird, die dem Empfänger Mühe oder Aufwand verursachen könnte. お手数 bedeutet „Mühe/Umstände“ und おかけする ist die bescheidene Form von かける (verursachen). Diese Phrase zeigt Rücksichtnahme und Dankbarkeit für die Mühe des anderen.",
     "formation": "お手数をおかけしますが + Bitte / お手数ですが + Bitte (kürzer)",
@@ -1442,6 +1492,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご査収ください",
     "level": "N1",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Bitte prüfen und übernehmen Sie",
     "explanation": "ご査収ください (ごさしゅうください) ist eine sehr formelle Phrase, die hauptsächlich in geschäftlichen E-Mails verwendet wird, wenn man Dokumente, Dateien oder Unterlagen übermittelt. 査収 bedeutet wörtlich „prüfen und übernehmen“. Es fordert den Empfänger auf, das Gesendete zu prüfen und zu akzeptieren.",
     "formation": "ご査収ください / ご査収のほどよろしくお願いいたします (noch formeller)",
@@ -1470,6 +1521,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご了承ください",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Bitte haben Sie Verständnis / Bitte akzeptieren Sie",
     "explanation": "ご了承ください (ごりょうしょうください) wird verwendet, um den Empfänger höflich um Verständnis oder Akzeptanz für eine Situation zu bitten, die möglicherweise nicht ideal ist. 了承 bedeutet „Einverständnis/Verständnis“. Diese Phrase wird oft verwendet, wenn man eine Einschränkung, Änderung oder Unannehmlichkeit mitteilt.",
     "formation": "ご了承ください / ご了承いただけますようお願いいたします (noch höflicher)",
@@ -1498,6 +1550,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご容赦ください",
     "level": "N1",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Bitte verzeihen Sie / Bitte entschuldigen Sie",
     "explanation": "ご容赦ください (ごようしゃください) ist eine sehr formelle Entschuldigungsphrase, die stärker als ご了承ください ist. 容赦 bedeutet „Nachsicht/Verzeihung“. Man verwendet diese Phrase, wenn man für ein Versäumnis, eine Unannehmlichkeit oder einen Fehler um Vergebung bittet. Sie drückt tiefere Reue aus als andere Entschuldigungsformen.",
     "formation": "ご容赦ください / 何卒ご容赦くださいますようお願い申し上げます (sehr formell)",
@@ -1526,6 +1579,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お気軽にお問い合わせください",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Bitte zögern Sie nicht, sich an uns zu wenden",
     "explanation": "お気軽にお問い合わせください ist eine einladende Standardphrase, die dem Empfänger signalisiert, dass er sich ohne Bedenken melden kann. お気軽に bedeutet „unbesorgt/ungezwungen“ und お問い合わせ ist die höfliche Form von 問い合わせ (Anfrage). Diese Phrase wird häufig am Ende von geschäftlichen E-Mails und auf Webseiten verwendet.",
     "formation": "お気軽に + お問い合わせください / ご連絡ください / お申し付けください",
@@ -1554,6 +1608,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～させていただきたく存じます",
     "level": "N1",
     "category": "Keigo",
+    "subcategory": "ビジネス敬語",
     "meaning": "Ich möchte mir bescheidenerweise erlauben, zu...",
     "explanation": "～させていただきたく存じます ist eine der höflichsten Formen im Japanischen, um eine eigene beabsichtigte Handlung auszudrücken. Sie kombiniert させていただく (sich erlauben lassen zu) mit たく (wollen) und 存じます (denken - Kenjōgo). Diese dreifache Bescheidenheitsform wird in sehr formellen Geschäftssituationen verwendet.",
     "formation": "Verb させ-Form + ていただきたく存じます",
@@ -1582,6 +1637,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お/ご～いただく",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "丁寧語",
     "meaning": "Die Gunst erhalten, dass jemand etwas tut",
     "explanation": "お/ご～いただく ist eine wichtige Keigo-Konstruktion, die ausdrückt, dass man die Gunst erhält, dass eine respektierte Person etwas für einen tut. Bei japanischen Verben wird お + Verb-Stamm + いただく verwendet, bei sino-japanischen Wörtern ご + Nomen + いただく. Diese Form ist bescheidener als お/ご～くださる.",
     "formation": "お + Verb-Stamm + いただく / ご + sino-jap. Nomen + いただく",
@@ -1610,6 +1666,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～かねます",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "丁寧語",
     "meaning": "Leider nicht können / Bedauerlicherweise außerstande sein",
     "explanation": "～かねます ist eine höfliche Ablehnungsform, die verwendet wird, um auszudrücken, dass man etwas leider nicht tun kann. Es klingt weicher und diplomatischer als ～できません. Diese Form wird besonders im Kundenservice und in geschäftlichen Ablehnungen verwendet, um die Ablehnung respektvoll zu formulieren.",
     "formation": "Verb-Stamm (ます-Form ohne ます) + かねます",
@@ -1638,6 +1695,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～かねません",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "丁寧語",
     "meaning": "Es könnte sein, dass... / Es besteht die Gefahr, dass...",
     "explanation": "～かねません drückt aus, dass eine (meist negative) Möglichkeit besteht. Trotz der ähnlichen Form zu ～かねます hat es eine völlig andere Bedeutung: Während ～かねます „nicht können“ bedeutet, bedeutet ～かねません „es könnte durchaus passieren“. Die doppelte Verneinung (かね + ません) ergibt eine Bejahung der Möglichkeit.",
     "formation": "Verb-Stamm (ます-Form ohne ます) + かねません / かねない (informell)",
@@ -1666,6 +1724,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お電話を差し上げる",
     "level": "N2",
     "category": "Keigo",
+    "subcategory": "謙譲語",
     "meaning": "Bescheiden anrufen / Einen Anruf tätigen (demütig)",
     "explanation": "お電話を差し上げる ist die Kenjōgo-Form von 電話をかける (anrufen). 差し上げる (さしあげる) ist die bescheidene Form von あげる (geben) und drückt aus, dass man einer höhergestellten Person die Handlung des Anrufens „darbietet“. Diese Form wird in der Geschäftskommunikation verwendet.",
     "formation": "お電話を差し上げる / お電話いたす (Alternative)",
@@ -1694,6 +1753,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご遠慮なく",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "美化語",
     "meaning": "Ohne Zögern / Ohne Zurückhaltung (bitte)",
     "explanation": "ご遠慮なく ist eine einladende Phrase, die den Gesprächspartner ermutigt, ohne Hemmungen oder Zurückhaltung zu handeln. 遠慮 bedeutet „Zurückhaltung/Bescheidenheit“ und なく ist die Verneinung. Mit dem Höflichkeitspräfix ご wird es zu einer respektvollen Aufforderung, sich ungezwungen zu fühlen.",
     "formation": "ご遠慮なく + Verb (ください / お申し付けください etc.)",
@@ -1722,6 +1782,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "申し訳ございません",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "美化語",
     "meaning": "Es gibt keine Entschuldigung / Es tut mir zutiefst leid",
     "explanation": "申し訳ございません ist die formellste Standardentschuldigung im Japanischen. 申し訳 bedeutet wörtlich „Entschuldigung/Ausrede“ und ございません ist die Keigo-Verneinung von ある. Die Phrase drückt wörtlich aus: „Es gibt keine Entschuldigung (für mein Verhalten)“. Sie ist deutlich formeller als すみません oder ごめんなさい.",
     "formation": "申し訳ございません (feste Phrase) / 大変申し訳ございません (noch stärker) / 誠に申し訳ございません (am stärksten)",
@@ -1750,6 +1811,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お待たせいたしました",
     "level": "N3",
     "category": "Keigo",
+    "subcategory": "美化語",
     "meaning": "Entschuldigung für das Warten / Vielen Dank für Ihre Geduld",
     "explanation": "お待たせいたしました ist eine höfliche Phrase, die verwendet wird, wenn man jemanden hat warten lassen. Sie kombiniert お待たせする (jemanden warten lassen) mit いたしました (Kenjōgo-Vergangenheit von しました). Diese Phrase hört man ständig in Restaurants, Geschäften, am Telefon und in allen Dienstleistungssituationen.",
     "formation": "お待たせいたしました (feste Phrase) / 大変お待たせいたしました (bei längerem Warten)",
@@ -1772,5 +1834,1711 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "お待たせいたしました wird in Japan reflexartig gesagt, selbst wenn die Wartezeit sehr kurz war. Die weniger formelle Version ist お待たせしました (ohne いた). 大変 wird hinzugefügt, wenn die Wartezeit länger als üblich war.",
     "related": ["keigo-kenjougo-itasu", "keigo-business-shitsureiitashimasu"]
+  },
+  {
+    "id": "keigo-sonkeigo-tamawaru",
+    "pattern": "賜る（たまわる）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Ehrerbietig erhalten / gnädig gewähren",
+    "explanation": "賜る ist eine sehr gehobene Sonkeigo-Form, die sowohl „von einer höhergestellten Person empfangen“ als auch „gnädig gewähren“ bedeuten kann. In der modernen Geschäftssprache wird es hauptsächlich in festen Wendungen verwendet, besonders in formellen Briefen, Reden und zeremoniellen Anlässen.",
+    "formation": "賜る (godan-Verb) ／ お/ご～賜る ／ ～を賜りますよう",
+    "examples": [
+      {
+        "japanese": "ご指導を賜りますよう、お願い申し上げます。",
+        "romaji": "Goshidō wo tamawarimasu yō, onegai mōshiagemasu.",
+        "german": "Ich bitte ehrerbietig um Ihre Anleitung."
+      },
+      {
+        "japanese": "温かいお言葉を賜り、誠にありがとうございます。",
+        "romaji": "Atatakai okotoba wo tamawari, makoto ni arigatō gozaimasu.",
+        "german": "Ich danke Ihnen aufrichtig für Ihre freundlichen Worte."
+      },
+      {
+        "japanese": "ご出席を賜りたく、ご案内申し上げます。",
+        "romaji": "Goshusseki wo tamawaritaku, goannai mōshiagemasu.",
+        "german": "Wir laden Sie ehrerbietig ein und bitten um Ihre Anwesenheit."
+      }
+    ],
+    "notes": "賜る ist eines der gehobensten Keigo-Verben und findet sich häufig in Einladungsschreiben, Dankesreden und offiziellen Dokumenten. In der alltäglichen Geschäftskommunikation wirkt es übertrieben, ist aber bei zeremoniellen Anlässen angemessen.",
+    "related": ["keigo-kenjougo-itadaku", "keigo-sonkeigo-kudasaru"]
+  },
+  {
+    "id": "keigo-sonkeigo-ooseninaru",
+    "pattern": "仰せになる（おおせになる）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Befehlen / Sagen (höchste Ehrerbietung)",
+    "explanation": "仰せになる ist die höchste Sonkeigo-Form von 言う (sagen) und drückt aus, dass eine hochrangige Person etwas sagt oder anordnet. Diese Form wird heute hauptsächlich in literarischen Texten, historischen Kontexten und sehr formellen zeremoniellen Situationen verwendet.",
+    "formation": "仰せになる (feste Verbindung) ／ 仰せの通り (wie befohlen)",
+    "examples": [
+      {
+        "japanese": "会長が仰せになったとおりに進めてください。",
+        "romaji": "Kaichō ga ōse ni natta tōri ni susumete kudasai.",
+        "german": "Bitte verfahren Sie so, wie der Vorsitzende es angeordnet hat."
+      },
+      {
+        "japanese": "仰せの通りにいたします。",
+        "romaji": "Ōse no tōri ni itashimasu.",
+        "german": "Ich werde es genau so tun, wie Sie es befohlen haben."
+      },
+      {
+        "japanese": "何なりと仰せつけください。",
+        "romaji": "Nan nari to ōsetsuke kudasai.",
+        "german": "Bitte befehlen Sie mir, was immer Sie wünschen."
+      }
+    ],
+    "notes": "仰せ allein wird auch als Nomen verwendet (= Anweisung/Befehl). Die Form 仰せつける bedeutet „befehlen/anordnen“. In der modernen Sprache ist おっしゃる die übliche Sonkeigo-Form von 言う; 仰せになる ist archaischer und zeremonieller.",
+    "related": ["keigo-sonkeigo-ossharu", "keigo-kenjougo-mousu"]
+  },
+  {
+    "id": "keigo-sonkeigo-asobasu",
+    "pattern": "お～遊ばす（おあそばす）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Tun / Machen (höchste weibliche Ehrerbietung)",
+    "explanation": "お～遊ばす ist eine extrem gehobene Sonkeigo-Form, die historisch mit der Sprache adliger Frauen (女性語) verbunden ist. Sie wird verwendet, um die Handlungen einer sehr hochgestellten Person mit größter Ehrerbietung zu beschreiben. In der modernen Sprache ist sie selten und gilt als archaisch.",
+    "formation": "お + Verb (ます-Stamm) + 遊ばす ／ ～遊ばせ (Imperativ)",
+    "examples": [
+      {
+        "japanese": "奥様はお出かけ遊ばしました。",
+        "romaji": "Okusama wa odekake asobashimashita.",
+        "german": "Die gnädige Frau ist ausgegangen."
+      },
+      {
+        "japanese": "ごゆっくり遊ばせ。",
+        "romaji": "Goyukkuri aobase.",
+        "german": "Bitte nehmen Sie sich alle Zeit. (sehr gehoben)"
+      },
+      {
+        "japanese": "何をお読み遊ばしていらっしゃいますか。",
+        "romaji": "Nani wo oyomi asobashite irasshaimasu ka.",
+        "german": "Was lesen Sie? (höchste Ehrerbietung)"
+      }
+    ],
+    "notes": "お～遊ばす war bis in die Nachkriegszeit in der gehobenen Frauensprache gebräuchlich. Heute hört man es kaum noch, außer in historischen Dramen oder sehr traditionellen Kontexten. Die Kenntnis dieser Form ist für das Verständnis klassischer japanischer Literatur nützlich.",
+    "related": ["keigo-sonkeigo-oninaru", "keigo-sonkeigo-nasaru"]
+  },
+  {
+    "id": "keigo-sonkeigo-nijukeigo",
+    "pattern": "二重敬語（にじゅうけいご）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Doppeltes Keigo / Doppelte Ehrerbietung",
+    "explanation": "二重敬語 bezeichnet die Verwendung von zwei Keigo-Formen in einer einzigen Verbkonstruktion. Obwohl dies grammatisch als Fehler gilt, haben sich einige doppelte Keigo-Formen im modernen Japanisch etabliert und werden allgemein akzeptiert, wie z.B. お召し上がりになる oder お見えになる.",
+    "formation": "お + Sonder-Sonkeigo + になる (z.B. お召し上がりになる) ／ Sonder-Sonkeigo + れる/られる",
+    "examples": [
+      {
+        "japanese": "どうぞお召し上がりになってください。",
+        "romaji": "Dōzo omeshiagari ni natte kudasai.",
+        "german": "Bitte essen/trinken Sie. (doppeltes Keigo, aber akzeptiert)"
+      },
+      {
+        "japanese": "先生がおっしゃられました。",
+        "romaji": "Sensei ga ossharaemashita.",
+        "german": "Der Lehrer hat gesagt. (doppeltes Keigo, oft gehört, aber streng genommen fehlerhaft)"
+      },
+      {
+        "japanese": "ご覧になられましたか。",
+        "romaji": "Goran ni nararemashita ka.",
+        "german": "Haben Sie es gesehen? (doppeltes Keigo, verbreitet)"
+      }
+    ],
+    "notes": "Der japanische Kulturrat (文化審議会) hat einige 二重敬語-Formen als akzeptabel eingestuft, darunter お召し上がりになる und お見えになる. Andere wie おっしゃられる gelten als Fehler, sind aber weit verbreitet. Für N1 ist das Erkennen und korrekte Bewerten von 二重敬語 wichtig.",
+    "related": ["keigo-sonkeigo-oninaru", "keigo-sonkeigo-meshiagaru"]
+  },
+  {
+    "id": "keigo-sonkeigo-goranninaru-kudasu",
+    "pattern": "ご～くださる (sino-japanisch)",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Die Freundlichkeit haben, etwas zu tun (sino-japanisch)",
+    "explanation": "ご + sino-japanisches Nomen + くださる ist die ehrerbietige Form, die ausdrückt, dass eine höhergestellte Person die Freundlichkeit hat, eine Handlung für den Sprecher auszuführen. Es ist das sino-japanische Gegenstück zu お～くださる und wird in formellen geschäftlichen und schriftlichen Kontexten verwendet.",
+    "formation": "ご + sino-jap. Nomen + くださる / くださいますよう",
+    "examples": [
+      {
+        "japanese": "ご理解くださいますようお願い申し上げます。",
+        "romaji": "Gorikai kudasaimasu yō onegai mōshiagemasu.",
+        "german": "Ich bitte ehrerbietig um Ihr Verständnis."
+      },
+      {
+        "japanese": "ご協力くださり、誠にありがとうございます。",
+        "romaji": "Gokyōryoku kudasari, makoto ni arigatō gozaimasu.",
+        "german": "Vielen Dank für Ihre freundliche Zusammenarbeit."
+      },
+      {
+        "japanese": "ご指導ご鞭撻を賜りますようお願い申し上げます。",
+        "romaji": "Goshidō gobentatsu wo tamawarimasu yō onegai mōshiagemasu.",
+        "german": "Ich bitte ehrerbietig um Ihre Anleitung und Ermutigung."
+      }
+    ],
+    "notes": "ご指導ご鞭撻を賜りますよう ist eine der formellsten Bittformeln im Japanischen und findet sich häufig in offiziellen Begrüßungsreden und Neujahrsgrüßen. ご鞭撻 (gobentatsu) bedeutet wörtlich „Antreiben mit der Peitsche“ und steht bildlich für Ermutigung.",
+    "related": ["keigo-sonkeigo-okudasaru", "keigo-sonkeigo-tamawaru"]
+  },
+  {
+    "id": "keigo-sonkeigo-oideninaru-meirei",
+    "pattern": "～なさいませ",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Bitte tun Sie... (sehr höfliche Aufforderung)",
+    "explanation": "～なさいませ ist die höflichste Imperativform und wird im gehobenen Kundenservice verwendet. Sie kombiniert なさる (Sonkeigo von する) mit der höflichen Imperativendung ませ. Diese Form findet sich häufig in Kaufhäusern, Hotels und bei traditionellen japanischen Geschäften.",
+    "formation": "Verb (ます-Stamm) + なさいませ ／ お + Verb-Stamm + なさいませ",
+    "examples": [
+      {
+        "japanese": "いらっしゃいませ。どうぞお入りなさいませ。",
+        "romaji": "Irasshaimase. Dōzo ohairi nasaimase.",
+        "german": "Herzlich willkommen. Bitte treten Sie ein."
+      },
+      {
+        "japanese": "ごゆっくりなさいませ。",
+        "romaji": "Goyukkuri nasaimase.",
+        "german": "Bitte lassen Sie sich alle Zeit."
+      },
+      {
+        "japanese": "お気をつけなさいませ。",
+        "romaji": "Oki wo tsuke nasaimase.",
+        "german": "Bitte passen Sie auf sich auf. (sehr höflich)"
+      }
+    ],
+    "notes": "いらっしゃいませ ist eigentlich die ませ-Form von いらっしゃる und die bekannteste Verwendung dieses Musters. In Kaufhäusern hört man regelmäßig Formen wie お選びなさいませ oder お試しなさいませ.",
+    "related": ["keigo-sonkeigo-nasaru", "keigo-sonkeigo-okudasai"]
+  },
+  {
+    "id": "keigo-sonkeigo-rareru-bungo",
+    "pattern": "～給う（たまう）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Tun / Geben (klassische Ehrerbietung)",
+    "explanation": "～給う ist eine klassische (文語) Sonkeigo-Form, die in der vormodernen japanischen Literatur häufig vorkommt. In der modernen Sprache taucht sie gelegentlich in literarischen Texten, religiösen Kontexten und feststehenden Ausdrücken auf. Sie drückt höchste Ehrerbietung gegenüber dem Handelnden aus.",
+    "formation": "Verb (連用形) + 給う ／ ～たまえ (Imperativ, heute: kollegiale Aufforderung)",
+    "examples": [
+      {
+        "japanese": "天は自ら助くる者を助け給う。",
+        "romaji": "Ten wa mizukara tasukuru mono wo tasuke tamau.",
+        "german": "Der Himmel hilft denen, die sich selbst helfen."
+      },
+      {
+        "japanese": "まあ聞き給え。",
+        "romaji": "Mā kiki tamae.",
+        "german": "Hör mal zu. (leicht gehobener, kollegialer Ton)"
+      },
+      {
+        "japanese": "神よ、我らを守り給え。",
+        "romaji": "Kami yo, warera wo mamori tamae.",
+        "german": "Gott, beschütze uns."
+      }
+    ],
+    "notes": "In der modernen Umgangssprache wird ～たまえ manchmal als leicht herablassende, aber kameradschaftliche Aufforderung unter Gleichgestellten verwendet (besonders von älteren Männern). Der religiöse Gebrauch in Gebeten ist die lebendigste Verwendung der klassischen Form.",
+    "related": ["keigo-sonkeigo-oninaru", "keigo-sonkeigo-asobasu"]
+  },
+  {
+    "id": "keigo-sonkeigo-meshimasu",
+    "pattern": "召す（めす）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Essen / Trinken / Tragen / Rufen (klassische Ehrerbietung)",
+    "explanation": "召す ist ein vielseitiges klassisches Sonkeigo-Verb, das als ehrerbietige Form von 食べる (essen), 飲む (trinken), 着る (anziehen), 呼ぶ (rufen) und 乗る (fahren) dient. In der modernen Sprache findet man es hauptsächlich in festen Ausdrücken wie お召し物 (Kleidung, ehrerbietig).",
+    "formation": "召す (godan-Verb, ます-Form: 召します)",
+    "examples": [
+      {
+        "japanese": "お風邪を召していらっしゃるのですか。",
+        "romaji": "Okaze wo meshite irassharu no desu ka.",
+        "german": "Haben Sie sich erkältet? (sehr höflich)"
+      },
+      {
+        "japanese": "お召し物をお預かりいたします。",
+        "romaji": "Omeshimono wo oazukari itashimasu.",
+        "german": "Ich nehme Ihre Kleidung in Verwahrung."
+      },
+      {
+        "japanese": "お車をお召しになりますか。",
+        "romaji": "Okuruma wo omeshi ni narimasu ka.",
+        "german": "Möchten Sie den Wagen nehmen? (sehr höflich)"
+      }
+    ],
+    "notes": "お召し物 (Kleidung, ehrerbietig) und お風邪を召す (sich erkälten, ehrerbietig) sind die gebräuchlichsten modernen Verwendungen. 召し上がる (essen/trinken, ehrerbietig) ist von 召す abgeleitet.",
+    "related": ["keigo-sonkeigo-meshiagaru", "keigo-sonkeigo-asobasu"]
+  },
+  {
+    "id": "keigo-sonkeigo-gorankudasai",
+    "pattern": "ご高覧（ごこうらん）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Sehr ehrerbietiges Lesen / Anschauen",
+    "explanation": "ご高覧 ist eine sehr formelle Sonkeigo-Form von 見る (sehen/lesen), die in geschäftlichen Briefen und formellen Einladungen verwendet wird. 高覧 bedeutet wörtlich „hoher Blick“ und drückt höchste Ehrerbietung gegenüber dem Lesenden oder Betrachtenden aus.",
+    "formation": "ご高覧 + ください / いただく / 賜る",
+    "examples": [
+      {
+        "japanese": "ご高覧いただければ幸いです。",
+        "romaji": "Gokōran itadakereba saiwai desu.",
+        "german": "Ich wäre dankbar, wenn Sie es sich gnädig ansehen würden."
+      },
+      {
+        "japanese": "本書をご高覧賜りますようお願い申し上げます。",
+        "romaji": "Honsho wo gokōran tamawarimasu yō onegai mōshiagemasu.",
+        "german": "Ich bitte ehrerbietig darum, dass Sie dieses Buch lesen."
+      },
+      {
+        "japanese": "企画書をご高覧ください。",
+        "romaji": "Kikakusho wo gokōran kudasai.",
+        "german": "Bitte schauen Sie sich den Projektvorschlag an. (sehr formell)"
+      }
+    ],
+    "notes": "ご高覧 wird fast ausschließlich in sehr formeller schriftlicher Kommunikation verwendet. Ähnliche gehobene Sonkeigo-Nomen sind ご高配 (gnädige Fürsorge), ご厚意 (freundliche Absicht), ご高説 (gelehrte Meinung).",
+    "related": ["keigo-sonkeigo-goranninaru", "keigo-sonkeigo-tamawaru"]
+  },
+  {
+    "id": "keigo-sonkeigo-oanjiaremasenu",
+    "pattern": "ご高配（ごこうはい）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Gnädige Fürsorge / Wohlwollende Rücksichtnahme",
+    "explanation": "ご高配 ist ein sehr formelles Sonkeigo-Nomen, das die wohlwollende Fürsorge oder Unterstützung einer höhergestellten Person oder Organisation ausdrückt. Es wird in formellen Geschäftsbriefen, offiziellen Mitteilungen und zeremoniellen Grußformeln verwendet.",
+    "formation": "ご高配 + を賜り / いただき + ありがとうございます ／ ご高配 + のほど + よろしくお願い申し上げます",
+    "examples": [
+      {
+        "japanese": "平素より格別のご高配を賜り、厚く御礼申し上げます。",
+        "romaji": "Heiso yori kakubetsu no gokōhai wo tamawari, atsuku onrei mōshiagemasu.",
+        "german": "Wir danken Ihnen aufrichtig für Ihre fortwährend besondere Fürsorge."
+      },
+      {
+        "japanese": "今後ともご高配のほどよろしくお願い申し上げます。",
+        "romaji": "Kongo tomo gokōhai no hodo yoroshiku onegai mōshiagemasu.",
+        "german": "Ich bitte auch weiterhin um Ihre wohlwollende Unterstützung."
+      },
+      {
+        "japanese": "皆様のご高配により、無事に完了いたしました。",
+        "romaji": "Minasama no gokōhai ni yori, buji ni kanryō itashimashita.",
+        "german": "Dank der gnädigen Fürsorge aller Beteiligten konnte es erfolgreich abgeschlossen werden."
+      }
+    ],
+    "notes": "平素より格別のご高配を賜り ist eine der standardmäßigsten Eröffnungsformeln in formellen japanischen Geschäftsbriefen. Sie ist formeller als お世話になっております und wird besonders in offiziellen Dokumenten und bei Firmenkommunikation verwendet.",
+    "related": ["keigo-sonkeigo-tamawaru", "keigo-business-osewani"]
+  },
+  {
+    "id": "keigo-sonkeigo-ossharuhiniku",
+    "pattern": "ご笑覧（ごしょうらん）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Bitte schauen Sie es sich nachsichtig an (bescheidene Bitte)",
+    "explanation": "ご笑覧 ist eine extrem höfliche Form, mit der man jemanden bittet, sich das eigene Werk anzusehen. 笑覧 bedeutet wörtlich „lächelnd betrachten“ und impliziert die Bitte um nachsichtige Betrachtung des eigenen (als bescheiden dargestellten) Werkes. Es wird in der Kunst, Literatur und bei formellen Einladungen verwendet.",
+    "formation": "ご笑覧 + ください / いただければ幸いです",
+    "examples": [
+      {
+        "japanese": "拙作ではございますが、ご笑覧いただければ幸いです。",
+        "romaji": "Sessaku de wa gozaimasu ga, goshōran itadakereba saiwai desu.",
+        "german": "Es ist ein bescheidenes Werk, aber ich wäre dankbar, wenn Sie es sich ansehen würden."
+      },
+      {
+        "japanese": "新作をご笑覧ください。",
+        "romaji": "Shinsaku wo goshōran kudasai.",
+        "german": "Bitte betrachten Sie gnädig mein neues Werk."
+      }
+    ],
+    "notes": "ご笑覧 wird oft zusammen mit 拙作 (mein bescheidenes Werk) oder 拙著 (mein bescheidenes Buch) verwendet. Es zeigt die typisch japanische Bescheidenheit, bei der man das eigene Werk herunterspielt, während man den Betrachter erhöht.",
+    "related": ["keigo-sonkeigo-gorankudasai", "keigo-kenjougo-omenikakeru"]
+  },
+  {
+    "id": "keigo-kenjougo-tatematsuru",
+    "pattern": "奉る（たてまつる）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Ehrerbietig darreichen / Widmen (klassisch)",
+    "explanation": "奉る ist eine klassische (文語) Kenjōgo-Form, die ausdrückt, dass man einer höchstgestellten Person etwas bescheiden darreicht oder widmet. In der modernen Sprache findet man es in religiösen Kontexten, zeremoniellen Handlungen und in festen Ausdrücken wie 謹んで申し上げ奉ります.",
+    "formation": "奉る (godan-Verb) ／ Verb (連用形) + 奉る (klassisch)",
+    "examples": [
+      {
+        "japanese": "神に祈りを奉る。",
+        "romaji": "Kami ni inori wo tatematsuru.",
+        "german": "Gott ein Gebet darbringen."
+      },
+      {
+        "japanese": "陛下にこの品を奉ります。",
+        "romaji": "Heika ni kono shina wo tatematsulimasu.",
+        "german": "Ich reiche Seiner Majestät diesen Gegenstand ehrerbietig dar."
+      },
+      {
+        "japanese": "謹んで新年のお慶びを申し上げ奉ります。",
+        "romaji": "Tsutsushinde shinnen no oyorokobi wo mōshiage tatematsulimasu.",
+        "german": "Ich überbringe ehrerbietigst meine Neujahrsglückwünsche."
+      }
+    ],
+    "notes": "奉る ist in der modernen Alltagssprache archaisch, aber in bestimmten Kontexten lebendig: Shintō-Zeremonien (奉納 = rituelle Darbringung), Neujahrsgrüße und kaiserliche Anlässe. Die Form 謹んで～奉る ist die höflichste im gesamten japanischen Keigo-System.",
+    "related": ["keigo-sonkeigo-tamawaru", "keigo-kenjougo-moushiageru"]
+  },
+  {
+    "id": "keigo-kenjougo-haichou",
+    "pattern": "拝聴する（はいちょうする）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Bescheiden zuhören / anhören",
+    "explanation": "拝聴する ist die Kenjōgo-Form von 聞く (hören/zuhören). Das Kanji 拝 drückt Demut aus. Man verwendet diese Form, wenn man bescheiden ausdrückt, dass man einer Rede, einem Vortrag oder den Worten einer respektierten Person zuhört.",
+    "formation": "拝聴する (festes Verb, konjugiert wie する) ／ 拝聴いたす (noch höflicher)",
+    "examples": [
+      {
+        "japanese": "先生のご講演を拝聴いたしました。",
+        "romaji": "Sensei no gokōen wo haichō itashimashita.",
+        "german": "Ich habe den Vortrag des Professors bescheiden angehört."
+      },
+      {
+        "japanese": "貴重なお話を拝聴できて光栄です。",
+        "romaji": "Kichō na ohanashi wo haichō dekite kōei desu.",
+        "german": "Es ist mir eine Ehre, Ihre wertvollen Worte gehört zu haben."
+      },
+      {
+        "japanese": "ご意見を拝聴したく存じます。",
+        "romaji": "Goiken wo haichō shitaku zonjimasu.",
+        "german": "Ich würde gerne bescheiden Ihre Meinung hören."
+      }
+    ],
+    "notes": "拝聴する gehört zur Gruppe der 拝～する-Kenjōgo-Verben neben 拝見する、拝借する、拝読する. Sie alle verwenden das Kanji 拝 (sich verbeugen) und drücken höchste Bescheidenheit aus.",
+    "related": ["keigo-kenjougo-haikensuru", "keigo-kenjougo-haidokusuru"]
+  },
+  {
+    "id": "keigo-kenjougo-haijousuru",
+    "pattern": "拝受する（はいじゅする）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Bescheiden empfangen / erhalten (schriftlich)",
+    "explanation": "拝受する ist eine sehr formelle Kenjōgo-Form von 受け取る (empfangen/erhalten). Sie wird hauptsächlich in der geschäftlichen Schriftkommunikation verwendet, um den Empfang von Dokumenten, Sendungen oder Mitteilungen bescheiden zu bestätigen.",
+    "formation": "拝受する / 拝受いたしました (Empfangsbestätigung)",
+    "examples": [
+      {
+        "japanese": "資料を拝受いたしました。",
+        "romaji": "Shiryō wo haiju itashimashita.",
+        "german": "Ich habe die Unterlagen bescheiden empfangen."
+      },
+      {
+        "japanese": "ご送付いただいた書類を拝受いたしました。",
+        "romaji": "Gosofu itadaita shorui wo haiju itashimashita.",
+        "german": "Ich habe die von Ihnen zugesandten Dokumente erhalten."
+      },
+      {
+        "japanese": "お見積もりを拝受し、社内で検討いたします。",
+        "romaji": "Omitsumori wo haiju shi, shanai de kentō itashimasu.",
+        "german": "Ich habe das Angebot erhalten und werde es intern prüfen."
+      }
+    ],
+    "notes": "拝受する wird fast ausschließlich in geschäftlichen E-Mails und Briefen verwendet. Es klingt formeller als いただきました und ist die übliche Form für Empfangsbestätigungen in der japanischen Geschäftskorrespondenz.",
+    "related": ["keigo-kenjougo-itadaku", "keigo-kenjougo-choudaisuru"]
+  },
+  {
+    "id": "keigo-kenjougo-tsutsushinde",
+    "pattern": "謹んで（つつしんで）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Ehrerbietig / Mit größtem Respekt",
+    "explanation": "謹んで ist ein Adverb, das höchste Ehrerbietung und Demut ausdrückt. Es wird vor formellen Handlungen wie Entschuldigungen, Glückwünschen und Beileidsbekundungen verwendet und verstärkt die Bescheidenheit der nachfolgenden Aussage. Es ist unverzichtbar in der formellen Korrespondenz.",
+    "formation": "謹んで + Verb (申し上げます / お詫び申し上げます / お祝い申し上げます)",
+    "examples": [
+      {
+        "japanese": "謹んでお詫び申し上げます。",
+        "romaji": "Tsutsushinde owabi mōshiagemasu.",
+        "german": "Ich entschuldige mich in tiefster Ehrerbietung."
+      },
+      {
+        "japanese": "謹んで新年のご挨拶を申し上げます。",
+        "romaji": "Tsutsushinde shinnen no goaisatsu wo mōshiagemasu.",
+        "german": "Ich überbringe ehrerbietigst meine Neujahrsgrüße."
+      },
+      {
+        "japanese": "謹んでお悔やみ申し上げます。",
+        "romaji": "Tsutsushinde okuyami mōshiagemasu.",
+        "german": "Ich spreche Ihnen mein tiefstes Beileid aus."
+      }
+    ],
+    "notes": "謹んで findet sich auf Neujahrskarten (年賀状), in Kondolenzbriefen und in formellen Geschäftsschreiben. 謹賀新年 (Frohes Neues Jahr, ehrerbietig) auf Neujahrskarten enthält dasselbe Kanji 謹.",
+    "related": ["keigo-kenjougo-moushiageru", "keigo-kenjougo-tatematsuru"]
+  },
+  {
+    "id": "keigo-kenjougo-guchimoushiageru",
+    "pattern": "愚見（ぐけん）/ 拙見（せっけん）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Meine bescheidene Meinung (Selbsterniedrigung)",
+    "explanation": "愚見 und 拙見 sind Kenjōgo-Nomen, mit denen man die eigene Meinung bescheiden als „dumme Ansicht“ bzw. „ungeschickte Ansicht“ bezeichnet. Diese Formen der Selbsterniedrigung sind typisch für die japanische höfliche Kommunikation und kommen in formellen Diskussionen und Schreiben vor.",
+    "formation": "愚見 / 拙見 + ですが / ではございますが / を述べさせていただきます",
+    "examples": [
+      {
+        "japanese": "愚見ではございますが、この案が最適かと存じます。",
+        "romaji": "Guken de wa gozaimasu ga, kono an ga saiteki ka to zonjimasu.",
+        "german": "Es ist nur meine bescheidene Meinung, aber ich denke, dieser Vorschlag ist optimal."
+      },
+      {
+        "japanese": "拙見を述べさせていただきます。",
+        "romaji": "Sekken wo nobesasete itadakimasu.",
+        "german": "Erlauben Sie mir, meine bescheidene Ansicht darzulegen."
+      },
+      {
+        "japanese": "愚見ながら、再考の余地があると思われます。",
+        "romaji": "Guken nagara, saikō no yochi ga aru to omowaremasu.",
+        "german": "Meiner bescheidenen Meinung nach besteht Raum für eine erneute Prüfung."
+      }
+    ],
+    "notes": "Ähnliche Selbsterniedrigungsformen: 拙著 (mein bescheidenes Buch), 拙作 (mein bescheidenes Werk), 愚息 (mein dummer Sohn = mein Sohn), 愚妻 (meine dumme Frau = meine Frau). Diese Formen sind heute teilweise veraltet, aber 愚見 und 拙見 werden noch verwendet.",
+    "related": ["keigo-kenjougo-zonjiru", "keigo-kenjougo-tsutsushinde"]
+  },
+  {
+    "id": "keigo-kenjougo-heikou",
+    "pattern": "弊社（へいしゃ）/ 弊～",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Unsere Firma (bescheiden) / Unser bescheidenes...",
+    "explanation": "弊社 ist die bescheidene Bezeichnung für die eigene Firma. Das Kanji 弊 bedeutet „Missstand/Nachteil“ und drückt Selbsterniedrigung aus. Diese Form ist in der Geschäftskorrespondenz unverzichtbar und bildet den Gegensatz zu 御社/貴社 (Ihre Firma, ehrerbietig).",
+    "formation": "弊社 (mündlich/schriftlich) ／ 弊店 (unser Laden) ／ 弊局 (unser Amt) ／ 弊誌 (unsere Zeitschrift)",
+    "examples": [
+      {
+        "japanese": "弊社の製品にご興味をお持ちいただき、ありがとうございます。",
+        "romaji": "Heisha no seihin ni gokyōmi wo omochi itadaki, arigatō gozaimasu.",
+        "german": "Vielen Dank für Ihr Interesse an den Produkten unserer Firma."
+      },
+      {
+        "japanese": "弊社では、品質管理を徹底しております。",
+        "romaji": "Heisha de wa, hinshitsu kanri wo tettei shite orimasu.",
+        "german": "In unserer Firma legen wir größten Wert auf Qualitätskontrolle."
+      },
+      {
+        "japanese": "弊社の担当者より改めてご連絡いたします。",
+        "romaji": "Heisha no tantōsha yori aratamete gorenraku itashimasu.",
+        "german": "Unser zuständiger Mitarbeiter wird sich erneut bei Ihnen melden."
+      }
+    ],
+    "notes": "Im mündlichen Geschäftsjapanisch wird auch 当社 (tōsha = unsere Firma) verwendet, das weniger bescheiden, aber neutraler klingt. 弊社 ist die Standard-Kenjōgo-Form in schriftlicher Kommunikation. In E-Mails an Kunden wird fast immer 弊社 verwendet.",
+    "related": ["keigo-kenjougo-itasu", "keigo-business-osewani"]
+  },
+  {
+    "id": "keigo-kenjougo-sesshou",
+    "pattern": "拙著（せっちょ）/ 拙稿（せっこう）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Mein bescheidenes Buch / Mein bescheidenes Manuskript",
+    "explanation": "拙著 und 拙稿 sind Kenjōgo-Nomen für die eigenen literarischen oder akademischen Werke. Das Kanji 拙 bedeutet „ungeschickt/unbeholfen“ und ist eine Form der Selbsterniedrigung. Man verwendet diese Formen, wenn man das eigene Werk im Gespräch mit anderen erwähnt.",
+    "formation": "拙著 (mein Buch) ／ 拙稿 (mein Manuskript) ／ 拙作 (mein Werk) ／ 拙論 (meine Abhandlung)",
+    "examples": [
+      {
+        "japanese": "拙著をお読みいただき、ありがとうございます。",
+        "romaji": "Setcho wo oyomi itadaki, arigatō gozaimasu.",
+        "german": "Vielen Dank, dass Sie mein bescheidenes Buch gelesen haben."
+      },
+      {
+        "japanese": "拙稿に目を通していただければ幸いです。",
+        "romaji": "Sekkō ni me wo tōshite itadakereba saiwai desu.",
+        "german": "Ich wäre dankbar, wenn Sie mein bescheidenes Manuskript durchsehen würden."
+      },
+      {
+        "japanese": "拙論ではございますが、ご参考になれば幸いです。",
+        "romaji": "Setsuron de wa gozaimasu ga, gosankō ni nareba saiwai desu.",
+        "german": "Es ist nur meine bescheidene Abhandlung, aber ich hoffe, sie kann als Referenz dienen."
+      }
+    ],
+    "notes": "Diese Formen werden besonders in akademischen und literarischen Kreisen verwendet. Im Gegensatz dazu verwendet man für die Werke anderer ehrerbietige Formen wie ご著書 (Ihr Buch), ご高著 (Ihr großartiges Buch), 大著 (Ihr umfangreiches Werk).",
+    "related": ["keigo-kenjougo-guchimoushiageru", "keigo-kenjougo-haikensuru"]
+  },
+  {
+    "id": "keigo-kenjougo-onrei",
+    "pattern": "御礼申し上げる（おんれいもうしあげる）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Ehrerbietigst danken",
+    "explanation": "御礼申し上げる ist eine der formellsten Dankesformeln im Japanischen. Sie kombiniert 御礼 (Dank, ehrerbietig) mit 申し上げる (sagen, bescheiden). Diese Form wird in offiziellen Danksagungen, Geschäftsbriefen und bei zeremoniellen Anlässen verwendet.",
+    "formation": "御礼 / お礼 + 申し上げます ／ 厚く御礼申し上げます (verstärkt)",
+    "examples": [
+      {
+        "japanese": "厚く御礼申し上げます。",
+        "romaji": "Atsuku onrei mōshiagemasu.",
+        "german": "Ich danke Ihnen von Herzen. (sehr formell)"
+      },
+      {
+        "japanese": "ご協力いただきました皆様に、心より御礼申し上げます。",
+        "romaji": "Gokyōryoku itadakimashita minasama ni, kokoro yori onrei mōshiagemasu.",
+        "german": "Allen, die ihre Zusammenarbeit gewährt haben, danke ich von ganzem Herzen."
+      },
+      {
+        "japanese": "まずは略儀ながら、書面にて御礼申し上げます。",
+        "romaji": "Mazu wa ryakugi nagara, shomen nite onrei mōshiagemasu.",
+        "german": "Zunächst möchte ich Ihnen, wenn auch nur schriftlich, meinen Dank aussprechen."
+      }
+    ],
+    "notes": "厚く (herzlich/aufrichtig) und 心より (von Herzen) sind häufige Verstärker. 略儀ながら (obwohl es nur eine verkürzte Form ist) wird verwendet, wenn man sich für die schriftliche statt persönliche Danksagung entschuldigt.",
+    "related": ["keigo-kenjougo-moushiageru", "keigo-kenjougo-tsutsushinde"]
+  },
+  {
+    "id": "keigo-kenjougo-sanjouitasu",
+    "pattern": "参上する（さんじょうする）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Sich bescheiden begeben / Vorstellig werden",
+    "explanation": "参上する ist eine sehr formelle Kenjōgo-Form von 行く (gehen) / 訪ねる (besuchen), die ausdrückt, dass man sich ehrerbietig zu einer höhergestellten Person begibt. Sie klingt formeller als 参る und wird in der gehobenen Geschäftssprache und bei offiziellen Anlässen verwendet.",
+    "formation": "参上する (festes Verb, konjugiert wie する) ／ 参上いたす (noch höflicher)",
+    "examples": [
+      {
+        "japanese": "明日、御社に参上いたします。",
+        "romaji": "Ashita, onsha ni sanjō itashimasu.",
+        "german": "Ich werde mich morgen bei Ihrer Firma einfinden."
+      },
+      {
+        "japanese": "ただいま参上いたしました。",
+        "romaji": "Tadaima sanjō itashimashita.",
+        "german": "Ich bin soeben vorstellig geworden."
+      },
+      {
+        "japanese": "お招きいただき、参上した次第でございます。",
+        "romaji": "Omaneki itadaki, sanjō shita shidai de gozaimasu.",
+        "german": "Ich bin auf Ihre Einladung hin erschienen."
+      }
+    ],
+    "notes": "参上する ist formeller als 参る und 伺う. In der modernen Geschäftssprache wird 伺う häufiger verwendet, aber 参上する findet man in offiziellen Einladungsschreiben und bei traditionellen Anlässen.",
+    "related": ["keigo-kenjougo-mairu", "keigo-kenjougo-ukagau"]
+  },
+  {
+    "id": "keigo-kenjougo-zoujisuru",
+    "pattern": "贈呈する（ぞうていする）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Feierlich überreichen / Schenken (formell)",
+    "explanation": "贈呈する ist eine sehr formelle Form von あげる (geben) bzw. プレゼントする (schenken), die bei offiziellen Überreichungen verwendet wird. Sie drückt aus, dass man einer Person feierlich und respektvoll etwas überreicht, z.B. eine Auszeichnung, ein Geschenk oder eine Urkunde.",
+    "formation": "贈呈する (festes Verb) ／ ～を贈呈いたします",
+    "examples": [
+      {
+        "japanese": "記念品を贈呈いたします。",
+        "romaji": "Kinenhin wo zōtei itashimasu.",
+        "german": "Ich überreiche Ihnen ein Erinnerungsstück."
+      },
+      {
+        "japanese": "優勝者にトロフィーを贈呈いたします。",
+        "romaji": "Yūshōsha ni torofī wo zōtei itashimasu.",
+        "german": "Dem Gewinner wird die Trophäe überreicht."
+      },
+      {
+        "japanese": "花束を贈呈させていただきます。",
+        "romaji": "Hanataba wo zōtei sasete itadakimasu.",
+        "german": "Erlauben Sie mir, Ihnen einen Blumenstrauß zu überreichen."
+      }
+    ],
+    "notes": "贈呈する wird bei Zeremonien, Preisverleihungen und offiziellen Anlässen verwendet. Im Gegensatz zu 差し上げる, das im alltäglichen Geschäftsleben üblich ist, hat 贈呈する einen zeremoniellen Charakter.",
+    "related": ["keigo-kenjougo-sashiageru", "keigo-kenjougo-tsutsushinde"]
+  },
+  {
+    "id": "keigo-kenjougo-haizensuru",
+    "pattern": "配膳する（はいぜんする）/ お持ちする",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Bescheiden servieren / Auftragen (Gastronomie)",
+    "explanation": "お持ちする ist die Kenjōgo-Form von 持っていく (bringen) in der Gastronomie und bedeutet, dass man dem Gast bescheiden etwas serviert. 配膳する ist der formelle Fachbegriff für das Servieren von Speisen. Beide werden im gehobenen Gastronomiebereich verwendet.",
+    "formation": "お持ちする / お持ちいたす ／ 配膳させていただく",
+    "examples": [
+      {
+        "japanese": "お料理をお持ちいたしました。",
+        "romaji": "Oryōri wo omochi itashimashita.",
+        "german": "Ich habe Ihr Gericht gebracht. (Kellnersprache)"
+      },
+      {
+        "japanese": "デザートをお持ちしてもよろしいでしょうか。",
+        "romaji": "Dezāto wo omochi shite mo yoroshii deshō ka.",
+        "german": "Darf ich Ihnen den Nachtisch bringen?"
+      },
+      {
+        "japanese": "お飲み物をお持ちいたします。少々お待ちくださいませ。",
+        "romaji": "Onomimono wo omochi itashimasu. Shōshō omachi kudasaimase.",
+        "german": "Ich bringe Ihnen Ihre Getränke. Bitte warten Sie einen Moment."
+      }
+    ],
+    "notes": "In der japanischen Gastronomie wird durchgängig Keigo verwendet. Standardphrasen wie お持ちいたします, ご注文はお決まりでしょうか und お皿をお下げしてもよろしいでしょうか gehören zum Basisvokabular von Servicekräften.",
+    "related": ["keigo-kenjougo-itasu", "keigo-kenjougo-kashikomarimashita"]
+  },
+  {
+    "id": "keigo-teinei-yoroshiideshouka",
+    "pattern": "よろしいでしょうか",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Wäre das in Ordnung? / Darf ich?",
+    "explanation": "よろしいでしょうか ist die höfliche Form von いいですか (ist das in Ordnung?). よろしい ist die formelle Version von いい (gut/in Ordnung) und でしょうか macht es zu einer noch höflicheren Frage. Diese Form wird im Geschäftsleben und im Kundenservice ständig verwendet.",
+    "formation": "よろしいでしょうか ／ ～してもよろしいでしょうか (Erlaubnisfrage)",
+    "examples": [
+      {
+        "japanese": "少々お時間をいただいてもよろしいでしょうか。",
+        "romaji": "Shōshō ojikan wo itadaite mo yoroshii deshō ka.",
+        "german": "Wäre es in Ordnung, wenn ich etwas von Ihrer Zeit in Anspruch nehme?"
+      },
+      {
+        "japanese": "こちらの席でよろしいでしょうか。",
+        "romaji": "Kochira no seki de yoroshii deshō ka.",
+        "german": "Ist dieser Platz in Ordnung für Sie?"
+      },
+      {
+        "japanese": "明日の15時でよろしいでしょうか。",
+        "romaji": "Ashita no jūgo-ji de yoroshii deshō ka.",
+        "german": "Wäre morgen um 15 Uhr in Ordnung?"
+      }
+    ],
+    "notes": "よろしいでしょうか ist die Standard-Höflichkeitsform für Bestätigungsfragen im Geschäftsleben. Sie ist höflicher als いいですか, aber weniger umständlich als よろしゅうございますでしょうか (extrem formell und veraltet).",
+    "related": ["keigo-teinei-itadakemasenka", "keigo-teinei-degozaimasu"]
+  },
+  {
+    "id": "keigo-teinei-orimasu",
+    "pattern": "～ております",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Bescheidene Verlaufsform (ich/wir tun gerade...)",
+    "explanation": "～ております ist die höfliche bescheidene Verlaufsform, die ～ている ersetzt. Sie kombiniert die て-Form mit おります (bescheidene Form von いる). Diese Form wird im Geschäftsleben als Standard verwendet, um den eigenen Zustand oder die eigene Aktivität höflich zu beschreiben.",
+    "formation": "Verb (て-Form) + おります",
+    "examples": [
+      {
+        "japanese": "承知しております。",
+        "romaji": "Shōchi shite orimasu.",
+        "german": "Ich bin informiert. / Ich weiß Bescheid."
+      },
+      {
+        "japanese": "お待ちしております。",
+        "romaji": "Omachi shite orimasu.",
+        "german": "Ich freue mich auf Sie. / Ich warte auf Sie."
+      },
+      {
+        "japanese": "現在、調査を進めております。",
+        "romaji": "Genzai, chōsa wo susumete orimasu.",
+        "german": "Wir führen derzeit die Untersuchung durch."
+      }
+    ],
+    "notes": "～ております wird am Telefon und in E-Mails als Standardform verwendet, wenn man über sich selbst oder die eigene Firma spricht. Die Form 承知しております ist die geschäftliche Standardantwort für „verstanden/ich weiß Bescheid“.",
+    "related": ["keigo-kenjougo-oru", "keigo-teinei-degozaimasu"]
+  },
+  {
+    "id": "keigo-teinei-itashikatagozaimasen",
+    "pattern": "いたしかたございません",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Es lässt sich nicht ändern / Es ist unvermeidlich (formell)",
+    "explanation": "いたしかたございません ist die sehr formelle Version von 仕方がない (es lässt sich nicht ändern). いたしかた ist die Kenjōgo-Form von 仕方 (Weise/Methode) und ございません die formelle Verneinung. Diese Phrase wird in formellen Geschäftssituationen verwendet, um Bedauern über eine unvermeidliche Situation auszudrücken.",
+    "formation": "いたしかたございません / いたしかたないことですが (als Einleitung)",
+    "examples": [
+      {
+        "japanese": "規則ですので、いたしかたございません。",
+        "romaji": "Kisoku desu node, itashikata gozaimasen.",
+        "german": "Da es die Vorschrift ist, lässt es sich leider nicht ändern."
+      },
+      {
+        "japanese": "ご不便をおかけして申し訳ございませんが、安全上いたしかたございません。",
+        "romaji": "Gofuben wo okake shite mōshiwake gozaimasen ga, anzen-jō itashikata gozaimasen.",
+        "german": "Wir entschuldigen die Unannehmlichkeiten, aber aus Sicherheitsgründen ist es unvermeidlich."
+      },
+      {
+        "japanese": "天候によるものですので、いたしかたないかと存じます。",
+        "romaji": "Tenkō ni yoru mono desu node, itashikata nai ka to zonjimasu.",
+        "german": "Da es wetterbedingt ist, denke ich, lässt es sich nicht ändern."
+      }
+    ],
+    "notes": "いたしかたございません wird besonders verwendet, wenn man einem Kunden oder Geschäftspartner erklären muss, warum etwas nicht möglich ist. Es klingt bedauernd, aber bestimmt.",
+    "related": ["keigo-teinei-kanemasu", "keigo-bikago-moushiwake"]
+  },
+  {
+    "id": "keigo-teinei-gozaimasu",
+    "pattern": "ございます",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Es gibt / Es existiert (sehr höflich)",
+    "explanation": "ございます ist die höflichste Form von あります (es gibt). Es gehört zur 丁寧語 und wird verwendet, um die Existenz von etwas in sehr höflicher Weise auszudrücken. Diese Form ist im Kundenservice, in Hotels und in der gehobenen Geschäftssprache allgegenwärtig.",
+    "formation": "Nomen + がございます ／ Nomen + でございます (= sein)",
+    "examples": [
+      {
+        "japanese": "何かご質問はございますか。",
+        "romaji": "Nanika goshitsumon wa gozaimasu ka.",
+        "german": "Haben Sie irgendwelche Fragen?"
+      },
+      {
+        "japanese": "こちらに駐車場がございます。",
+        "romaji": "Kochira ni chūshajō ga gozaimasu.",
+        "german": "Hier gibt es einen Parkplatz."
+      },
+      {
+        "japanese": "お伝えしたいことがございます。",
+        "romaji": "Otsutae shitai koto ga gozaimasu.",
+        "german": "Es gibt etwas, das ich Ihnen mitteilen möchte."
+      }
+    ],
+    "notes": "ございます ist die höfliche Form von あります. Für die Existenz von Personen wird ございます nicht verwendet (stattdessen いらっしゃいます). Die Verneinung ist ございません. Bei い-Adjektiven: 早い → 早うございます (heute selten, außer in ありがとうございます).",
+    "related": ["keigo-teinei-degozaimasu", "keigo-kenjougo-oru"]
+  },
+  {
+    "id": "keigo-teinei-itadakerebato",
+    "pattern": "～いただければと存じます",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Ich würde mich freuen, wenn Sie... (sehr höfliche Bitte)",
+    "explanation": "～いただければと存じます kombiniert die Konditionalform von いただく mit 存じます (denken, bescheiden) und ergibt eine äußerst höfliche Bittform. Diese Konstruktion impliziert: „Wenn ich die Gunst erhalten könnte, dass Sie..., so wäre das mein Wunsch.“ Sie wird in formellen Geschäftsmails häufig verwendet.",
+    "formation": "Verb (て-Form) + いただければと存じます ／ お/ご + Nomen + いただければと存じます",
+    "examples": [
+      {
+        "japanese": "ご出席いただければと存じます。",
+        "romaji": "Goshusseki itadakereba to zonjimasu.",
+        "german": "Ich würde mich freuen, wenn Sie teilnehmen könnten."
+      },
+      {
+        "japanese": "ご意見をお聞かせいただければと存じます。",
+        "romaji": "Goiken wo okikase itadakereba to zonjimasu.",
+        "german": "Ich würde mich freuen, wenn Sie mir Ihre Meinung mitteilen könnten."
+      },
+      {
+        "japanese": "ご確認の上、ご返信いただければと存じます。",
+        "romaji": "Gokakunin no ue, gohenshin itadakereba to zonjimasu.",
+        "german": "Ich würde mich freuen, wenn Sie nach der Prüfung antworten könnten."
+      }
+    ],
+    "notes": "Diese Form ist etwas weniger direkt als ～いただけますでしょうか und etwas höflicher als ～いただければ幸いです. Sie wird besonders in geschäftlichen E-Mails verwendet, wenn man einen Wunsch äußert, ohne direkt um etwas zu bitten.",
+    "related": ["keigo-kenjougo-zonjiru", "keigo-business-gokentou"]
+  },
+  {
+    "id": "keigo-teinei-moushiwakearumasenka",
+    "pattern": "～いただけますでしょうか",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Wäre es möglich, dass Sie...? (sehr höfliche Frage)",
+    "explanation": "～いただけますでしょうか ist eine der höflichsten Frageformen im Japanischen. Sie kombiniert die Potenzialform von いただく mit der höflichen Vermutungsform でしょうか. Diese dreistufige Höflichkeitskonstruktion wird in formellen Geschäftsanfragen verwendet.",
+    "formation": "Verb (て-Form) + いただけますでしょうか ／ お/ご + Nomen + いただけますでしょうか",
+    "examples": [
+      {
+        "japanese": "資料をお送りいただけますでしょうか。",
+        "romaji": "Shiryō wo ookuriitadakemasu deshō ka.",
+        "german": "Wäre es möglich, dass Sie mir die Unterlagen zusenden?"
+      },
+      {
+        "japanese": "ご都合のよい日時をお知らせいただけますでしょうか。",
+        "romaji": "Gotsugō no yoi nichiji wo oshirase itadakemasu deshō ka.",
+        "german": "Könnten Sie mir einen für Sie passenden Termin mitteilen?"
+      },
+      {
+        "japanese": "折り返しご連絡いただけますでしょうか。",
+        "romaji": "Orikaeshi gorenraku itadakemasu deshō ka.",
+        "german": "Wäre es möglich, dass Sie zurückrufen?"
+      }
+    ],
+    "notes": "Die Höflichkeitsstufen der Fragen: ～てくれますか < ～ていただけますか < ～ていただけませんか < ～ていただけますでしょうか. Manche Sprachpuristen halten ～いただけますでしょうか für 二重敬語, aber die Form ist in der Geschäftspraxis fest etabliert.",
+    "related": ["keigo-teinei-itadakemasenka", "keigo-teinei-itadakerebato"]
+  },
+  {
+    "id": "keigo-teinei-nodesukedomo",
+    "pattern": "～のですが / ～のでございますが",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Es ist so, dass... / Ich hätte da... (höfliche Einleitung)",
+    "explanation": "～のですが (bzw. die noch höflichere Form ～のでございますが) wird verwendet, um eine Bitte, Frage oder Erklärung höflich einzuleiten. Das が am Ende signalisiert, dass noch etwas folgt, und macht die Aussage indirekt und damit höflicher. Diese Form ist grundlegend für die japanische höfliche Kommunikation.",
+    "formation": "Verb/Adjektiv + のですが / のでございますが ／ Nomen + なのですが",
+    "examples": [
+      {
+        "japanese": "予約をしたいのですが。",
+        "romaji": "Yoyaku wo shitai no desu ga.",
+        "german": "Ich hätte gerne eine Reservierung gemacht..."
+      },
+      {
+        "japanese": "少しお伺いしたいことがあるのですが。",
+        "romaji": "Sukoshi oukagai shitai koto ga aru no desu ga.",
+        "german": "Ich hätte eine kleine Frage..."
+      },
+      {
+        "japanese": "お届け日の変更をお願いしたいのでございますが。",
+        "romaji": "Otodoke-bi no henkō wo onegai shitai no de gozaimasu ga.",
+        "german": "Ich würde gerne das Lieferdatum ändern lassen..."
+      }
+    ],
+    "notes": "Das Satzende mit が (ohne Fortführung) ist typisch japanisch und drückt aus, dass der Sprecher die Situation offen lässt und dem Gegenüber Raum für eine Antwort gibt. Es ist einer der grundlegenden Mechanismen der japanischen indirekten Kommunikation.",
+    "related": ["keigo-teinei-itadakemasenka", "keigo-teinei-yoroshiideshouka"]
+  },
+  {
+    "id": "keigo-teinei-shouchiitashimashita",
+    "pattern": "承知いたしました",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Verstanden / Ich habe es zur Kenntnis genommen (sehr höflich)",
+    "explanation": "承知いたしました ist eine sehr formelle Antwort für „verstanden“ und kombiniert 承知 (Kenntnis/Einverständnis) mit いたしました (Kenjōgo von しました). In der Höflichkeitshierarchie steht es zwischen 分かりました und かしこまりました.",
+    "formation": "承知いたしました / 承知しました (etwas weniger formell)",
+    "examples": [
+      {
+        "japanese": "承知いたしました。すぐに対応いたします。",
+        "romaji": "Shōchi itashimashita. Sugu ni taiō itashimasu.",
+        "german": "Verstanden. Ich werde mich sofort darum kümmern."
+      },
+      {
+        "japanese": "日程の変更について承知いたしました。",
+        "romaji": "Nittei no henkō ni tsuite shōchi itashimashita.",
+        "german": "Ich habe die Terminänderung zur Kenntnis genommen."
+      },
+      {
+        "japanese": "ご要望の件、承知いたしました。",
+        "romaji": "Goyōbō no ken, shōchi itashimashita.",
+        "german": "Bezüglich Ihres Wunsches: verstanden."
+      }
+    ],
+    "notes": "Die Höflichkeitsstufen: 分かった → 分かりました → 承知しました → 承知いたしました → かしこまりました. 承知いたしました wird im Geschäftsalltag am häufigsten verwendet, da かしこまりました eher dem Kundenservice vorbehalten ist.",
+    "related": ["keigo-kenjougo-kashikomarimashita", "keigo-kenjougo-itasu"]
+  },
+  {
+    "id": "keigo-teinei-osoreirimasu",
+    "pattern": "恐れ入ります",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Vielen Dank / Entschuldigung / Ich fühle mich geehrt",
+    "explanation": "恐れ入ります ist eine vielseitige Höflichkeitsphrase, die je nach Kontext Dankbarkeit, Entschuldigung oder Ehrfurcht ausdrückt. Wörtlich bedeutet es „ich bin verängstigt/überwältigt“ und drückt aus, dass man sich der Freundlichkeit oder Mühe des Gegenübers nicht würdig fühlt.",
+    "formation": "恐れ入ります (feste Phrase) ／ 恐れ入りますが (Einleitung vor einer Bitte)",
+    "examples": [
+      {
+        "japanese": "恐れ入ります。大変助かりました。",
+        "romaji": "Osore irimasu. Taihen tasukarimashita.",
+        "german": "Ich bin Ihnen sehr dankbar. Sie haben mir sehr geholfen."
+      },
+      {
+        "japanese": "恐れ入りますが、もう一度おっしゃっていただけますか。",
+        "romaji": "Osore irimasu ga, mō ichido osshatte itadakemasu ka.",
+        "german": "Entschuldigen Sie, aber könnten Sie das bitte noch einmal sagen?"
+      },
+      {
+        "japanese": "お褒めいただき、恐れ入ります。",
+        "romaji": "Ohome itadaki, osore irimasu.",
+        "german": "Ich fühle mich geehrt durch Ihr Lob."
+      }
+    ],
+    "notes": "恐れ入ります wird im Geschäftsleben extrem häufig verwendet. Es kann ありがとうございます und すみません je nach Kontext ersetzen und klingt dabei professioneller. Die Form mit が am Ende leitet eine höfliche Bitte ein.",
+    "related": ["keigo-business-osoreirimasuga", "keigo-bikago-moushiwake"]
+  },
+  {
+    "id": "keigo-teinei-saseteitadakuuses",
+    "pattern": "～させていただく (erweiterte Verwendungen)",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Erlauben Sie mir... (verschiedene Geschäftskontexte)",
+    "explanation": "～させていただく wird im modernen Geschäftsjapanisch für verschiedene Zwecke verwendet: Ankündigungen, Ablehnungen, Änderungsmitteilungen und offizielle Erklärungen. Obwohl die Form wörtlich um Erlaubnis bittet, wird sie oft formelhaft für einseitige Mitteilungen verwendet.",
+    "formation": "Verb (させ-Form) + ていただきます ／ ～させていただくことになりました (Entscheidungsmitteilung)",
+    "examples": [
+      {
+        "japanese": "本日をもちまして閉店させていただきます。",
+        "romaji": "Honjitsu wo mochimashite heiten sasete itadakimasu.",
+        "german": "Mit dem heutigen Tag erlauben wir uns, das Geschäft zu schließen."
+      },
+      {
+        "japanese": "価格を改定させていただくことになりました。",
+        "romaji": "Kakaku wo kaitei sasete itadaku koto ni narimashita.",
+        "german": "Es wurde beschlossen, die Preise anzupassen."
+      },
+      {
+        "japanese": "今回はご遠慮させていただきます。",
+        "romaji": "Konkai wa goenryo sasete itadakimasu.",
+        "german": "Ich erlaube mir, dieses Mal abzulehnen."
+      }
+    ],
+    "notes": "Der inflationäre Gebrauch von ～させていただく ist ein viel diskutiertes Thema in der japanischen Sprachpflege. Obwohl Puristen kritisieren, dass keine echte Erlaubnis vorliegt (z.B. bei Geschäftsschließungen), ist die Form im Geschäftsalltag fest verankert. ご遠慮させていただきます ist die Standard-Ablehnungsform.",
+    "related": ["keigo-teinei-sasete-itadaku", "keigo-teinei-kanemasu"]
+  },
+  {
+    "id": "keigo-teinei-gosoudan",
+    "pattern": "ご相談させていただきたく",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Ich würde gerne etwas mit Ihnen besprechen",
+    "explanation": "ご相談させていただきたく ist eine höfliche Phrase, mit der man einen Beratungs- oder Besprechungswunsch äußert. Sie wird häufig in geschäftlichen E-Mails verwendet, um ein Gespräch einzuleiten, und drückt aus, dass man die Expertise oder Meinung des Gegenübers schätzt.",
+    "formation": "ご相談させていただきたく + ご連絡いたしました / 存じます",
+    "examples": [
+      {
+        "japanese": "新プロジェクトについてご相談させていただきたく、ご連絡いたしました。",
+        "romaji": "Shin purojekuto ni tsuite gosōdan sasete itadakitaku, gorenraku itashimashita.",
+        "german": "Ich kontaktiere Sie, weil ich gerne über das neue Projekt mit Ihnen sprechen möchte."
+      },
+      {
+        "japanese": "一点ご相談がございます。",
+        "romaji": "Itten gosōdan ga gozaimasu.",
+        "german": "Ich hätte eine Sache, die ich mit Ihnen besprechen möchte."
+      },
+      {
+        "japanese": "ご相談したいことがあるのですが、お時間をいただけますでしょうか。",
+        "romaji": "Gosōdan shitai koto ga aru no desu ga, ojikan wo itadakemasu deshō ka.",
+        "german": "Ich hätte etwas zu besprechen; könnten Sie mir etwas Zeit geben?"
+      }
+    ],
+    "notes": "ご相談 ist in der Geschäftswelt eine der häufigsten Einleitungen für Anfragen. Die Form signalisiert dem Empfänger, dass eine Besprechung erwünscht ist, ohne dabei fordernd zu wirken.",
+    "related": ["keigo-business-nokenni", "keigo-teinei-itadakerebato"]
+  },
+  {
+    "id": "keigo-teinei-osoreirimashitsuki",
+    "pattern": "恐縮です（きょうしゅくです）",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Ich fühle mich beschämt / Es ist mir unangenehm (vor Dankbarkeit/Schuld)",
+    "explanation": "恐縮です drückt aus, dass man sich beschämt oder unwürdig fühlt, und wird sowohl bei Dankbarkeit als auch bei Entschuldigungen verwendet. 恐縮 bedeutet wörtlich „vor Furcht zusammenschrumpfen“. Die Phrase ist etwas formeller als 恐れ入ります und wird besonders in der Geschäftskorrespondenz verwendet.",
+    "formation": "恐縮です ／ 恐縮ですが (Einleitung) ／ 恐縮に存じます (noch formeller)",
+    "examples": [
+      {
+        "japanese": "お忙しいところ恐縮ですが、ご返信いただければ幸いです。",
+        "romaji": "Oisogashii tokoro kyōshuku desu ga, gohenshin itadakereba saiwai desu.",
+        "german": "Ich bin mir bewusst, dass Sie beschäftigt sind, aber ich wäre dankbar für eine Antwort."
+      },
+      {
+        "japanese": "大変恐縮ですが、日程の変更をお願いできますでしょうか。",
+        "romaji": "Taihen kyōshuku desu ga, nittei no henkō wo onegai dekimasu deshō ka.",
+        "german": "Es ist mir sehr unangenehm, aber könnte ich um eine Terminänderung bitten?"
+      },
+      {
+        "japanese": "わざわざお越しいただき、恐縮に存じます。",
+        "romaji": "Wazawaza okoshi itadaki, kyōshuku ni zonjimasu.",
+        "german": "Dass Sie extra hergekommen sind, lässt mich beschämt fühlen (vor Dankbarkeit)."
+      }
+    ],
+    "notes": "恐縮です wird häufig mit お忙しいところ oder 大変 kombiniert. Im Gegensatz zu 恐れ入ります hat 恐縮です eine stärkere Nuance des Schuldbewusstseins. In E-Mails ist 恐縮ですが eine beliebte Alternative zu 恐れ入りますが.",
+    "related": ["keigo-teinei-osoreirimasu", "keigo-business-oisogashii"]
+  },
+  {
+    "id": "keigo-teinei-makotoni",
+    "pattern": "誠に（まことに）",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "丁寧語",
+    "meaning": "Wirklich / Aufrichtig / In der Tat (formell)",
+    "explanation": "誠に ist ein formelles Adverb, das in der Geschäfts- und Keigo-Sprache verwendet wird, um Aufrichtigkeit und Ernsthaftigkeit auszudrücken. Es verstärkt nachfolgende Dankesbekundungen, Entschuldigungen und andere Höflichkeitsausdrücke und verleiht ihnen einen formelleren Ton.",
+    "formation": "誠に + ありがとうございます / 申し訳ございません / 恐縮です",
+    "examples": [
+      {
+        "japanese": "誠にありがとうございます。",
+        "romaji": "Makoto ni arigatō gozaimasu.",
+        "german": "Ich danke Ihnen aufrichtig."
+      },
+      {
+        "japanese": "誠に申し訳ございません。",
+        "romaji": "Makoto ni mōshiwake gozaimasen.",
+        "german": "Es tut mir wirklich zutiefst leid."
+      },
+      {
+        "japanese": "誠に恐れ入りますが、ご対応をお願いいたします。",
+        "romaji": "Makoto ni osore irimasu ga, gotaiō wo onegai itashimasu.",
+        "german": "Ich bitte Sie wirklich um Verzeihung, aber ich bitte um Ihre Bearbeitung."
+      }
+    ],
+    "notes": "誠に ist die formellere Alternative zu 本当に (wirklich). In geschäftlichen E-Mails und Briefen wird 誠に bevorzugt. 大変 (sehr) und 誠に können beide als Verstärker verwendet werden, aber 誠に klingt aufrichtiger und formeller.",
+    "related": ["keigo-bikago-moushiwake", "keigo-teinei-osoreirimasu"]
+  },
+  {
+    "id": "keigo-bikago-otsukaresama",
+    "pattern": "お疲れ様でございます",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Vielen Dank für Ihre Mühe / Gute Arbeit (sehr formell)",
+    "explanation": "お疲れ様でございます ist die formellste Version von お疲れ様です, die als Gruß unter Kollegen und als Anerkennung für geleistete Arbeit verwendet wird. Die でございます-Form macht sie besonders respektvoll und wird gegenüber Vorgesetzten und in formellen Situationen verwendet.",
+    "formation": "お疲れ様でございます (feste Phrase) ／ お疲れ様でした (nach Abschluss einer Arbeit)",
+    "examples": [
+      {
+        "japanese": "お疲れ様でございます。本日の会議の議事録をお送りいたします。",
+        "romaji": "Otsukaresama de gozaimasu. Honjitsu no kaigi no gijiroku wo ookuriitashimasu.",
+        "german": "Danke für Ihre Mühe. Ich sende Ihnen das Protokoll der heutigen Besprechung."
+      },
+      {
+        "japanese": "長時間のご対応、お疲れ様でございました。",
+        "romaji": "Chōjikan no gotaiō, otsukaresama de gozaimashita.",
+        "german": "Vielen Dank für Ihre Mühe bei der langen Bearbeitung."
+      },
+      {
+        "japanese": "お疲れ様でございます。田中でございますが、少々お時間よろしいでしょうか。",
+        "romaji": "Otsukaresama de gozaimasu. Tanaka de gozaimasu ga, shōshō ojikan yoroshii deshō ka.",
+        "german": "Guten Tag (intern). Hier ist Tanaka, hätten Sie einen Moment Zeit?"
+      }
+    ],
+    "notes": "お疲れ様でございます wird in E-Mails innerhalb der Firma als Standard-Eröffnung verwendet (wie お世話になっております bei externen Kontakten). Gegenüber Vorgesetzten ist お疲れ様です die Mindestform; ご苦労様です sollte nur gegenüber Untergebenen verwendet werden.",
+    "related": ["keigo-teinei-degozaimasu", "keigo-business-osewani"]
+  },
+  {
+    "id": "keigo-bikago-obi",
+    "pattern": "お/ご + Nomen (美化語)",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Verschönernde Vorsilbe für Nomen",
+    "explanation": "美化語 bezeichnet die Verwendung der Vorsilben お (für japanische Wörter) und ご (für sino-japanische Wörter), um Wörter zu verschönern und höflicher klingen zu lassen. Im Gegensatz zu Sonkeigo und Kenjōgo richtet sich 美化語 nicht an eine bestimmte Person, sondern macht die Sprache generell eleganter.",
+    "formation": "お + japanisches Wort ／ ご + sino-japanisches Wort",
+    "examples": [
+      {
+        "japanese": "お茶をお入れしましょうか。",
+        "romaji": "Ocha wo oire shimashō ka.",
+        "german": "Soll ich Tee machen?"
+      },
+      {
+        "japanese": "お天気がよくなりましたね。",
+        "romaji": "Otenki ga yoku narimashita ne.",
+        "german": "Das Wetter ist schön geworden, nicht wahr?"
+      },
+      {
+        "japanese": "ご飯ができましたよ。",
+        "romaji": "Gohan ga dekimashita yo.",
+        "german": "Das Essen ist fertig."
+      }
+    ],
+    "notes": "Manche Wörter haben お/ご so fest integriert, dass sie ohne kaum verwendet werden (お茶, ご飯, お金). Andere sind optional und zeigen den Höflichkeitsgrad an. Fremdwörter (Katakana) erhalten normalerweise kein お/ご, mit Ausnahmen wie おトイレ (umgangssprachlich).",
+    "related": ["keigo-bikago-goenryonaku", "keigo-teinei-degozaimasu"]
+  },
+  {
+    "id": "keigo-bikago-keijou",
+    "pattern": "敬称（けいしょう）: 様・殿・各位",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Höfliche Anredeformen und Titel",
+    "explanation": "Japanische Anredeformen (敬称) sind ein wichtiger Teil des Keigo-Systems. 様 (sama) ist die höflichste Allgemeinanrede, 殿 (dono) wird in offiziellen Dokumenten verwendet, und 各位 (kakui) ist die Anrede an eine Gruppe. Die korrekte Verwendung dieser Formen ist im Geschäftsleben unverzichtbar.",
+    "formation": "Name + 様 (Standard) ／ Name + 殿 (amtlich) ／ 各位 (an alle)",
+    "examples": [
+      {
+        "japanese": "田中様、お電話ありがとうございます。",
+        "romaji": "Tanaka-sama, odenwa arigatō gozaimasu.",
+        "german": "Herr/Frau Tanaka, vielen Dank für Ihren Anruf."
+      },
+      {
+        "japanese": "社員各位：本日の会議は中止となりました。",
+        "romaji": "Shain kakui: honjitsu no kaigi wa chūshi to narimashita.",
+        "german": "An alle Mitarbeiter: Die heutige Besprechung wurde abgesagt."
+      },
+      {
+        "japanese": "人事部長殿",
+        "romaji": "Jinji buchō dono",
+        "german": "An den Leiter der Personalabteilung (in offiziellen Dokumenten)"
+      }
+    ],
+    "notes": "様 ist die sicherste Wahl in der Geschäftskorrespondenz. 殿 wird hauptsächlich in internen Dokumenten und Urkunden verwendet und gilt in E-Mails als veraltet. 各位 ersetzt ～の皆様 in formellen Rundschreiben. Bei externen Firmen: 御中 (onchū) für die Firma, 様 für Einzelpersonen.",
+    "related": ["keigo-teinei-degozaimasu", "keigo-business-yoroshiku"]
+  },
+  {
+    "id": "keigo-business-denwataiou",
+    "pattern": "お電話ありがとうございます",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Vielen Dank für Ihren Anruf (Telefonprotokoll)",
+    "explanation": "お電話ありがとうございます ist die Standard-Eröffnung beim Beantworten geschäftlicher Telefonate. Sie wird zusammen mit dem Firmennamen und dem eigenen Namen verwendet. Das japanische Telefonprotokoll hat feste Formeln, die jeder Geschäftsmensch beherrschen muss.",
+    "formation": "お電話ありがとうございます。[Firma名]の[名前]でございます。",
+    "examples": [
+      {
+        "japanese": "お電話ありがとうございます。ABC商事の鈴木でございます。",
+        "romaji": "Odenwa arigatō gozaimasu. ABC shōji no Suzuki de gozaimasu.",
+        "german": "Vielen Dank für Ihren Anruf. Hier ist Suzuki von ABC Handelsgesellschaft."
+      },
+      {
+        "japanese": "お電話いただきありがとうございます。どのようなご用件でしょうか。",
+        "romaji": "Odenwa itadaki arigatō gozaimasu. Dono yō na goyōken deshō ka.",
+        "german": "Vielen Dank für Ihren Anruf. Was kann ich für Sie tun?"
+      },
+      {
+        "japanese": "お電話ありがとうございます。ただいま担当者に代わりますので、少々お待ちください。",
+        "romaji": "Odenwa arigatō gozaimasu. Tadaima tantōsha ni kawarimasu node, shōshō omachi kudasai.",
+        "german": "Vielen Dank für den Anruf. Ich verbinde Sie mit dem zuständigen Mitarbeiter, bitte warten Sie kurz."
+      }
+    ],
+    "notes": "Das japanische Telefonprotokoll folgt festen Regeln: 1) Begrüßung mit Firmennamen, 2) Anliegen erfragen, 3) Kundennamen bestätigen (お名前を頂戴できますか), 4) Weiterleitung oder Rückrufangebot. 恐れ入りますが wird als Kissenwort vor Fragen verwendet.",
+    "related": ["keigo-business-osewani", "keigo-kenjougo-odenwasashiageru"]
+  },
+  {
+    "id": "keigo-business-denwakawarimasu",
+    "pattern": "お電話代わりました",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Sie wurden verbunden / Ich übernehme das Gespräch",
+    "explanation": "お電話代わりました ist die Standardphrase, die man sagt, wenn man ein Telefonat von einem Kollegen übernimmt. Sie signalisiert dem Anrufer, dass eine neue Person am Apparat ist, und wird gefolgt von der Selbstvorstellung.",
+    "formation": "お電話代わりました + [Abteilung]の[Name]でございます。",
+    "examples": [
+      {
+        "japanese": "お電話代わりました。営業部の山田でございます。",
+        "romaji": "Odenwa kawarimashita. Eigyōbu no Yamada de gozaimasu.",
+        "german": "Sie wurden verbunden. Hier ist Yamada aus der Vertriebsabteilung."
+      },
+      {
+        "japanese": "お電話代わりました。担当の佐藤でございます。お待たせいたしました。",
+        "romaji": "Odenwa kawarimashita. Tantō no Satō de gozaimasu. Omatase itashimashita.",
+        "german": "Sie wurden verbunden. Hier ist der zuständige Satō. Entschuldigung für das Warten."
+      },
+      {
+        "japanese": "お電話代わりました。ご用件をお伺いいたします。",
+        "romaji": "Odenwa kawarimashita. Goyōken wo oukagai itashimasu.",
+        "german": "Sie wurden verbunden. Ich höre mir Ihr Anliegen an."
+      }
+    ],
+    "notes": "Diese Phrase wird automatisch nach dem Verbinden gesagt. Wenn man selbst einen Anrufer weiterleitet, sagt man: ただいま担当に代わります (Ich verbinde Sie jetzt mit dem Zuständigen) oder 少々お待ちくださいませ (Bitte warten Sie einen Moment).",
+    "related": ["keigo-business-denwataiou", "keigo-bikago-omataseitashimashita"]
+  },
+  {
+    "id": "keigo-business-sayoudesuka",
+    "pattern": "左様でございますか",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Ist das so? / Ach so, ich verstehe (sehr formell)",
+    "explanation": "左様でございますか ist die formellste Version von そうですか (ist das so?). 左様 (さよう) ist die formelle Entsprechung von そう (so), und でございます macht es zum höchsten Höflichkeitsgrad. Diese Phrase wird im gehobenen Kundenservice und in sehr formellen Geschäftssituationen verwendet.",
+    "formation": "左様でございますか (als Bestätigung/Zuhörsignal)",
+    "examples": [
+      {
+        "japanese": "左様でございますか。承知いたしました。",
+        "romaji": "Sayō de gozaimasu ka. Shōchi itashimashita.",
+        "german": "Ach so, ich verstehe. Das habe ich zur Kenntnis genommen."
+      },
+      {
+        "japanese": "左様でございますか。それは大変失礼いたしました。",
+        "romaji": "Sayō de gozaimasu ka. Sore wa taihen shitsurei itashimashita.",
+        "german": "Ist das so? Das war sehr unhöflich von mir."
+      },
+      {
+        "japanese": "左様でございますか。ただちに確認いたします。",
+        "romaji": "Sayō de gozaimasu ka. Tadachi ni kakunin itashimasu.",
+        "german": "Verstehe. Ich werde das sofort überprüfen."
+      }
+    ],
+    "notes": "左様でございますか wird hauptsächlich in der Hotelbranche, bei Fluggesellschaften und im Premium-Kundenservice verwendet. Im normalen Geschäftsleben reicht そうでございますか oder そうですか. Die Kenntnis dieser Form zeigt N1-Niveau-Verständnis des Keigo-Systems.",
+    "related": ["keigo-teinei-degozaimasu", "keigo-kenjougo-kashikomarimashita"]
+  },
+  {
+    "id": "keigo-business-goannainomailbun",
+    "pattern": "ご案内申し上げます",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Ich erlaube mir, Sie zu informieren (formelle Mitteilung)",
+    "explanation": "ご案内申し上げます ist eine formelle Einleitungsphrase für offizielle Mitteilungen, Einladungen und Ankündigungen. Sie kombiniert ご案内 (Information/Führung) mit 申し上げます (bescheiden sagen) und wird in geschäftlichen Rundschreiben, Einladungsschreiben und offiziellen Benachrichtigungen verwendet.",
+    "formation": "ご案内申し上げます ／ ～につきまして、ご案内いたします",
+    "examples": [
+      {
+        "japanese": "下記のとおりご案内申し上げます。",
+        "romaji": "Kaki no tōri goannai mōshiagemasu.",
+        "german": "Ich erlaube mir, Sie wie folgt zu informieren."
+      },
+      {
+        "japanese": "年末年始の営業時間につきまして、ご案内申し上げます。",
+        "romaji": "Nenmatsu nenshi no eigyō jikan ni tsukimashite, goannai mōshiagemasu.",
+        "german": "Ich erlaube mir, Sie über die Geschäftszeiten um den Jahreswechsel zu informieren."
+      },
+      {
+        "japanese": "新製品発売のご案内を申し上げます。",
+        "romaji": "Shinseihin hatsubai no goannai wo mōshiagemasu.",
+        "german": "Ich erlaube mir, Sie über die Markteinführung unseres neuen Produkts zu informieren."
+      }
+    ],
+    "notes": "ご案内申し上げます ist die Standard-Einleitung für formelle Geschäftsmitteilungen und Einladungsschreiben. Sie findet sich häufig nach dem Betreff einer offiziellen E-Mail oder am Anfang eines Informationsschreibens.",
+    "related": ["keigo-kenjougo-moushiageru", "keigo-business-nokenni"]
+  },
+  {
+    "id": "keigo-business-oneguimouchiagemasu",
+    "pattern": "お願い申し上げます",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Ich bitte Sie ehrerbietigst",
+    "explanation": "お願い申し上げます ist die formellste Version von お願いします und wird in offiziellen Bitten, Geschäftsbriefen und formellen Anfragen verwendet. 申し上げる (bescheiden sagen/darreichen) verleiht der Bitte die höchste Bescheidenheitsstufe.",
+    "formation": "お願い申し上げます ／ 何卒お願い申し上げます (inständig) ／ ～くださいますようお願い申し上げます",
+    "examples": [
+      {
+        "japanese": "何卒よろしくお願い申し上げます。",
+        "romaji": "Nanitozo yoroshiku onegai mōshiagemasu.",
+        "german": "Ich bitte Sie inständig um Ihre freundliche Unterstützung."
+      },
+      {
+        "japanese": "ご出席くださいますようお願い申し上げます。",
+        "romaji": "Goshusseki kudasaimasu yō onegai mōshiagemasu.",
+        "german": "Ich bitte Sie ehrerbietigst, an der Veranstaltung teilzunehmen."
+      },
+      {
+        "japanese": "ご容赦くださいますようお願い申し上げます。",
+        "romaji": "Goyōsha kudasaimasu yō onegai mōshiagemasu.",
+        "german": "Ich bitte Sie ehrerbietigst um Nachsicht."
+      }
+    ],
+    "notes": "お願い申し上げます ist formeller als お願いいたします. In E-Mails wird es oft am Schluss verwendet, besonders in Kombination mit 何卒 (inständig). Die Steigerung: お願いします < お願いいたします < お願い申し上げます.",
+    "related": ["keigo-business-yoroshiku", "keigo-kenjougo-moushiageru"]
+  },
+  {
+    "id": "keigo-business-mailkaishibun",
+    "pattern": "平素より（へいそより）",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Wie immer / Seit jeher / Fortwährend (formelle E-Mail-Eröffnung)",
+    "explanation": "平素より ist ein formelles Adverb, das in Geschäftsbriefen und E-Mails als Eröffnung verwendet wird. Es bedeutet „seit jeher“ oder „wie gewohnt“ und leitet eine Danksagung für die bisherige Geschäftsbeziehung ein. Es ist formeller als いつも (immer).",
+    "formation": "平素より + 大変お世話になっております / 格別のお引き立てを賜り",
+    "examples": [
+      {
+        "japanese": "平素より大変お世話になっております。",
+        "romaji": "Heiso yori taihen osewa ni natte orimasu.",
+        "german": "Vielen Dank für Ihre fortwährende Unterstützung."
+      },
+      {
+        "japanese": "平素より格別のお引き立てを賜り、誠にありがとうございます。",
+        "romaji": "Heiso yori kakubetsu no ohikitate wo tamawari, makoto ni arigatō gozaimasu.",
+        "german": "Wir danken Ihnen aufrichtig für Ihre fortwährend besondere Gunst."
+      },
+      {
+        "japanese": "平素より弊社製品をご愛顧いただき、厚く御礼申し上げます。",
+        "romaji": "Heiso yori heisha seihin wo goaiko itadaki, atsuku onrei mōshiagemasu.",
+        "german": "Wir danken Ihnen herzlich dafür, dass Sie unsere Produkte stets bevorzugen."
+      }
+    ],
+    "notes": "平素より ist die formellste Eröffnung für Geschäftsbriefe und -E-Mails. In der alltäglichen E-Mail-Kommunikation reicht いつもお世話になっております. 格別のお引き立て (besondere Gunst) und ご愛顧 (Kundentreue) sind häufige Ergänzungen in offiziellen Schreiben.",
+    "related": ["keigo-business-osewani", "keigo-sonkeigo-tamawaru"]
+  },
+  {
+    "id": "keigo-business-mailshimebun",
+    "pattern": "末筆ながら（まっぴつながら）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Abschließend / Zum Schluss sei noch erwähnt (Briefschluss)",
+    "explanation": "末筆ながら ist eine formelle Abschlussformel in Geschäftsbriefen, die wörtlich „obwohl es die letzte Zeile ist“ bedeutet. Sie leitet einen abschließenden Wunsch, eine Gesundheitsformel oder eine zusätzliche Bitte ein. Diese Formel zeigt, dass der Schreiber sich der Hierarchie bewusst ist.",
+    "formation": "末筆ながら + ご自愛ください / ますますのご発展をお祈り申し上げます",
+    "examples": [
+      {
+        "japanese": "末筆ながら、皆様のご健勝をお祈り申し上げます。",
+        "romaji": "Mappitsu nagara, minasama no gokenshō wo oinori mōshiagemasu.",
+        "german": "Abschließend wünsche ich Ihnen allen beste Gesundheit."
+      },
+      {
+        "japanese": "末筆ながら、貴社のますますのご発展をお祈り申し上げます。",
+        "romaji": "Mappitsu nagara, kisha no masumasu no gohatten wo oinori mōshiagemasu.",
+        "german": "Zum Schluss wünsche ich Ihrer Firma weiteres Gedeihen."
+      },
+      {
+        "japanese": "末筆ながら、時節柄くれぐれもご自愛くださいませ。",
+        "romaji": "Mappitsu nagara, jisetsugara kuregure mo gojiai kudasaimase.",
+        "german": "Abschließend bitte ich Sie, angesichts der Jahreszeit auf Ihre Gesundheit zu achten."
+      }
+    ],
+    "notes": "末筆ながら wird ausschließlich in schriftlicher Kommunikation verwendet. Die Formel impliziert Bescheidenheit: Der persönliche Wunsch wird ans Ende gesetzt, weil er gegenüber dem Geschäftsinhalt sekundär ist. ご自愛ください (bitte achten Sie auf Ihre Gesundheit) ist die häufigste Schlussformel.",
+    "related": ["keigo-business-yoroshiku", "keigo-kenjougo-tsutsushinde"]
+  },
+  {
+    "id": "keigo-business-nantozosamaku",
+    "pattern": "何卒（なにとぞ）",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Inständig / Um jeden Preis / Bitte unbedingt",
+    "explanation": "何卒 ist ein formelles Adverb, das eine Bitte verstärkt und große Dringlichkeit oder Ernsthaftigkeit ausdrückt. Es bedeutet „um jeden Preis“ oder „bitte unbedingt“ und wird in geschäftlichen E-Mails, Briefen und formellen Anfragen verwendet, um die Wichtigkeit der Bitte zu unterstreichen.",
+    "formation": "何卒 + よろしくお願いいたします / ご理解ください / ご容赦ください",
+    "examples": [
+      {
+        "japanese": "何卒ご理解いただけますようお願いいたします。",
+        "romaji": "Nanitozo gorikai itadakemasu yō onegai itashimasu.",
+        "german": "Ich bitte Sie inständig um Ihr Verständnis."
+      },
+      {
+        "japanese": "何卒ご検討のほどよろしくお願いいたします。",
+        "romaji": "Nanitozo gokentō no hodo yoroshiku onegai itashimasu.",
+        "german": "Ich bitte Sie inständig um Prüfung dieser Angelegenheit."
+      },
+      {
+        "japanese": "何卒お力添えいただけますようお願い申し上げます。",
+        "romaji": "Nanitozo ochikarazoe itadakemasu yō onegai mōshiagemasu.",
+        "german": "Ich bitte Sie ehrerbietigst um Ihre Unterstützung."
+      }
+    ],
+    "notes": "何卒 wird fast ausschließlich in der schriftlichen Geschäftskommunikation verwendet. Es ist einer der wichtigsten Verstärker in Geschäftsbriefen. 何卒よろしくお願いいたします ist die stärkste Standardabschlussformel in E-Mails.",
+    "related": ["keigo-business-yoroshiku", "keigo-business-gokentou"]
+  },
+  {
+    "id": "keigo-business-ohikikaenitsukaesai",
+    "pattern": "ご査証ください / ご笑納ください",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Bitte nehmen Sie es gnädig an (bei Geschenken/Beilagen)",
+    "explanation": "ご笑納ください (ごしょうのうください) wird verwendet, wenn man jemandem ein Geschenk oder eine Beilage überreicht, und bedeutet wörtlich „bitte nehmen Sie es lächelnd an“. Es drückt Bescheidenheit über das Geschenk aus und bittet den Empfänger um gnädige Annahme.",
+    "formation": "ご笑納ください / お納めください (weniger formell) / ご笑納いただければ幸いです",
+    "examples": [
+      {
+        "japanese": "ほんの気持ちですが、ご笑納ください。",
+        "romaji": "Hon no kimochi desu ga, goshōnō kudasai.",
+        "german": "Es ist nur eine Kleinigkeit, aber bitte nehmen Sie es gnädig an."
+      },
+      {
+        "japanese": "つまらないものですが、ご笑納いただければ幸いです。",
+        "romaji": "Tsumaranai mono desu ga, goshōnō itadakereba saiwai desu.",
+        "german": "Es ist nichts Besonderes, aber ich wäre erfreut, wenn Sie es annehmen würden."
+      },
+      {
+        "japanese": "粗品ではございますが、どうぞお納めください。",
+        "romaji": "Soshina de wa gozaimasu ga, dōzo oosame kudasai.",
+        "german": "Es ist nur ein kleines Geschenk, aber bitte nehmen Sie es an."
+      }
+    ],
+    "notes": "Die japanische Kultur der Geschenk-Überreichung umfasst traditionelle Bescheidenheitsfloskeln: つまらないものですが (es ist nichts Besonderes), ほんの気持ちです (es ist nur eine Geste), 粗品ですが (es ist nur eine kleine Aufmerksamkeit). ご笑納 passt zu all diesen Einleitungen.",
+    "related": ["keigo-kenjougo-sashiageru", "keigo-kenjougo-zoujisuru"]
+  },
+  {
+    "id": "keigo-business-goisainakunokosubekaku",
+    "pattern": "ご一報いただければ幸いです",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Ich wäre dankbar für eine kurze Nachricht",
+    "explanation": "ご一報いただければ幸いです ist eine höfliche Bitte um eine kurze Rückmeldung. 一報 bedeutet „eine Nachricht/Mitteilung“ und die gesamte Phrase bittet den Empfänger höflich, sich kurz zu melden. Sie wird in geschäftlichen E-Mails verwendet, wenn man auf eine Antwort oder Bestätigung wartet.",
+    "formation": "ご一報ください / ご一報いただければ幸いです / ご一報くださいますようお願いいたします",
+    "examples": [
+      {
+        "japanese": "ご都合が決まりましたら、ご一報いただければ幸いです。",
+        "romaji": "Gotsugō ga kimarimashitara, goippō itadakereba saiwai desu.",
+        "german": "Wenn Sie sich für einen Termin entschieden haben, wäre ich dankbar für eine kurze Nachricht."
+      },
+      {
+        "japanese": "到着されましたら、ご一報ください。",
+        "romaji": "Tōchaku saremashitara, goippō kudasai.",
+        "german": "Bitte geben Sie uns kurz Bescheid, wenn Sie angekommen sind."
+      },
+      {
+        "japanese": "何かお気づきの点がございましたら、ご一報くださいますようお願いいたします。",
+        "romaji": "Nanika okizuki no ten ga gozaimashitara, goippō kudasaimasu yō onegai itashimasu.",
+        "german": "Falls Ihnen etwas auffallen sollte, bitten wir Sie um eine kurze Nachricht."
+      }
+    ],
+    "notes": "ご一報 wird als weniger aufwendige Alternative zu ご連絡 (Kontaktaufnahme) verwendet und signalisiert, dass nur eine kurze Bestätigungsnachricht erwartet wird, kein ausführliches Schreiben.",
+    "related": ["keigo-business-gofumeina", "keigo-business-gokentou"]
+  },
+  {
+    "id": "keigo-business-gorenkudasaru",
+    "pattern": "ご返信いただけますと幸いです",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Ich wäre dankbar für Ihre Antwort",
+    "explanation": "ご返信いただけますと幸いです ist eine Standard-Bitte um Rückantwort in geschäftlichen E-Mails. Sie ist höflicher als ご返信ください und weniger dringend als ご返信くださいますようお願い申し上げます. Die と-Konditionalform mit 幸いです drückt einen Wunsch aus.",
+    "formation": "ご返信 + いただけますと / いただければ + 幸いです / 幸いに存じます",
+    "examples": [
+      {
+        "japanese": "お忙しいところ恐れ入りますが、今週中にご返信いただけますと幸いです。",
+        "romaji": "Oisogashii tokoro osore irimasu ga, konshūchū ni gohenshin itadakemasu to saiwai desu.",
+        "german": "Entschuldigen Sie die Störung, aber ich wäre dankbar für eine Antwort innerhalb dieser Woche."
+      },
+      {
+        "japanese": "ご確認の上、ご返信いただければ幸いに存じます。",
+        "romaji": "Gokakunin no ue, gohenshin itadakereba saiwai ni zonjimasu.",
+        "german": "Ich wäre Ihnen dankbar, wenn Sie nach der Prüfung antworten könnten."
+      },
+      {
+        "japanese": "可能であれば、来週の月曜日までにご返信いただけますと助かります。",
+        "romaji": "Kanō de areba, raishū no getsuyōbi made ni gohenshin itadakemasu to tasukarimasu.",
+        "german": "Wenn möglich, wäre ich froh über eine Antwort bis nächsten Montag."
+      }
+    ],
+    "notes": "In geschäftlichen E-Mails wird immer eine Frist für die Antwort angegeben. 幸いです ist weicher als お願いいたします und gibt dem Empfänger mehr Spielraum. 助かります (es würde mir helfen) ist eine etwas informellere, aber häufig verwendete Alternative.",
+    "related": ["keigo-business-gokentou", "keigo-teinei-itadakerebato"]
+  },
+  {
+    "id": "keigo-business-moushitsukeru",
+    "pattern": "お申し付けください",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Bitte sagen Sie es uns / Bitte teilen Sie es mir mit",
+    "explanation": "お申し付けください ist eine höfliche Phrase im Kundenservice, die dem Gegenüber signalisiert, dass man jederzeit für Anfragen, Wünsche oder Anweisungen zur Verfügung steht. 申し付ける bedeutet „anweisen/beauftragen“ und mit dem Sonkeigo-Rahmen お～ください wird es zur ehrerbietigen Bitte.",
+    "formation": "お申し付けください ／ 何なりとお申し付けください (verstärkt)",
+    "examples": [
+      {
+        "japanese": "何なりとお申し付けください。",
+        "romaji": "Nan nari to omōshitsuke kudasai.",
+        "german": "Bitte zögern Sie nicht, mir alles zu sagen, was Sie brauchen."
+      },
+      {
+        "japanese": "ご不明な点がございましたら、お気軽にお申し付けください。",
+        "romaji": "Gofumei na ten ga gozaimashitara, okigaru ni omōshitsuke kudasai.",
+        "german": "Bei Unklarheiten teilen Sie es uns bitte jederzeit mit."
+      },
+      {
+        "japanese": "追加のご要望がございましたら、お申し付けくださいませ。",
+        "romaji": "Tsuika no goyōbō ga gozaimashitara, omōshitsuke kudasaimase.",
+        "german": "Sollten Sie weitere Wünsche haben, lassen Sie es uns bitte wissen."
+      }
+    ],
+    "notes": "何なりとお申し付けください ist eine der beliebtesten Kundenservice-Phrasen und findet sich häufig in Hotels, Restaurants und im gehobenen Einzelhandel. Sie klingt einladender und respektvoller als ~~ください allein.",
+    "related": ["keigo-business-okigaruni", "keigo-sonkeigo-okudasai"]
+  },
+  {
+    "id": "keigo-business-gorenraku-itadaki",
+    "pattern": "ご連絡いただきありがとうございます",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Vielen Dank für Ihre Nachricht / Kontaktaufnahme",
+    "explanation": "ご連絡いただきありがとうございます ist eine Standard-Dankesformel am Anfang einer E-Mail-Antwort, wenn der Gegenüber sich gemeldet hat. Sie zeigt Wertschätzung für die Kontaktaufnahme und ist im Geschäftsleben eine der am häufigsten verwendeten Eröffnungsphrasen.",
+    "formation": "ご連絡いただきありがとうございます ／ ご連絡くださりありがとうございます",
+    "examples": [
+      {
+        "japanese": "早速のご連絡をいただきありがとうございます。",
+        "romaji": "Sassoku no gorenraku wo itadaki arigatō gozaimasu.",
+        "german": "Vielen Dank für Ihre schnelle Nachricht."
+      },
+      {
+        "japanese": "お忙しい中、ご連絡いただきありがとうございます。",
+        "romaji": "Oisogashii naka, gorenraku itadaki arigatō gozaimasu.",
+        "german": "Vielen Dank, dass Sie sich trotz Ihrer Beschäftigung gemeldet haben."
+      },
+      {
+        "japanese": "ご丁寧にご連絡くださり、誠にありがとうございます。",
+        "romaji": "Goteinei ni gorenraku kudasari, makoto ni arigatō gozaimasu.",
+        "german": "Herzlichen Dank für Ihre freundliche Nachricht."
+      }
+    ],
+    "notes": "Diese Phrase wird am Anfang von Antwort-E-Mails verwendet, direkt nach お世話になっております. 早速の (sofortig/prompt) wird hinzugefügt, wenn die Antwort schnell kam. ご丁寧に (höflich/sorgfältig) betont die Wertschätzung der ausführlichen Nachricht.",
+    "related": ["keigo-business-osewani", "keigo-kenjougo-itadaku"]
+  },
+  {
+    "id": "keigo-business-goyouken",
+    "pattern": "ご用件をお伺いいたします",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Darf ich Ihr Anliegen erfragen?",
+    "explanation": "ご用件をお伺いいたします ist eine Standardphrase am Telefon oder Empfang, mit der man das Anliegen des Besuchers oder Anrufers erfragt. Sie kombiniert ご用件 (Anliegen, ehrerbietig), お伺い (bescheiden fragen) und いたします (bescheiden tun) zu einer dreifach höflichen Konstruktion.",
+    "formation": "ご用件をお伺いいたします ／ どのようなご用件でしょうか (als Frage)",
+    "examples": [
+      {
+        "japanese": "ご用件をお伺いしてもよろしいでしょうか。",
+        "romaji": "Goyōken wo oukagai shite mo yoroshii deshō ka.",
+        "german": "Darf ich nach Ihrem Anliegen fragen?"
+      },
+      {
+        "japanese": "どのようなご用件でしょうか。",
+        "romaji": "Dono yō na goyōken deshō ka.",
+        "german": "Was kann ich für Sie tun?"
+      },
+      {
+        "japanese": "恐れ入りますが、ご用件をお聞かせいただけますか。",
+        "romaji": "Osore irimasu ga, goyōken wo okikase itadakemasu ka.",
+        "german": "Entschuldigen Sie, aber könnten Sie mir Ihr Anliegen mitteilen?"
+      }
+    ],
+    "notes": "Diese Phrase ist Standard am Empfangsschalter und am Telefon. Am Empfang folgt danach typischerweise: お約束はいただいておりますか (Haben Sie einen Termin?) oder 少々お待ちくださいませ (Bitte warten Sie einen Moment).",
+    "related": ["keigo-kenjougo-ukagau", "keigo-business-denwataiou"]
+  },
+  {
+    "id": "keigo-business-gosoudansha",
+    "pattern": "ご足労いただきありがとうございます",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Vielen Dank, dass Sie sich die Mühe gemacht haben zu kommen",
+    "explanation": "ご足労いただきありがとうございます ist eine formelle Dankesformel, die verwendet wird, wenn jemand sich die Mühe gemacht hat, persönlich vorbeizukommen. 足労 bedeutet wörtlich „Beinarbeit/Fußmühe“ und drückt Wertschätzung für den Aufwand des Kommens aus.",
+    "formation": "ご足労いただき / おかけいたしまして + ありがとうございます / 申し訳ございません",
+    "examples": [
+      {
+        "japanese": "本日はご足労いただきありがとうございます。",
+        "romaji": "Honjitsu wa gosokurō itadaki arigatō gozaimasu.",
+        "german": "Vielen Dank, dass Sie sich heute die Mühe gemacht haben, herzukommen."
+      },
+      {
+        "japanese": "お忙しい中ご足労をおかけいたしまして、申し訳ございません。",
+        "romaji": "Oisogashii naka gosokurō wo okake itashimashite, mōshiwake gozaimasen.",
+        "german": "Es tut mir leid, dass ich Sie trotz Ihrer Beschäftigung hergebeten habe."
+      },
+      {
+        "japanese": "ご足労いただき恐縮でございます。",
+        "romaji": "Gosokurō itadaki kyōshuku de gozaimasu.",
+        "german": "Ich bin beschämt, dass Sie sich die Mühe des Kommens gemacht haben."
+      }
+    ],
+    "notes": "ご足労 wird besonders verwendet, wenn ein Kunde oder Geschäftspartner zum eigenen Büro kommt. Es zeigt Wertschätzung für den physischen Aufwand der Anreise. Die Phrase wird am Empfang und am Anfang von Besprechungen verwendet.",
+    "related": ["keigo-sonkeigo-okoshininaru", "keigo-teinei-osoreirimashitsuki"]
+  },
+  {
+    "id": "keigo-business-gokitainikotaerareru",
+    "pattern": "ご期待に沿えず申し訳ございません",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Es tut mir leid, Ihren Erwartungen nicht entsprechen zu können",
+    "explanation": "ご期待に沿えず申し訳ございません ist eine formelle Entschuldigungsphrase, die bei geschäftlichen Ablehnungen verwendet wird. 期待に沿う bedeutet „Erwartungen entsprechen“ und die Negation 沿えず drückt aus, dass man dies nicht konnte. Diese Form ist höflicher als eine direkte Ablehnung.",
+    "formation": "ご期待に沿えず / ご希望に添えず + 申し訳ございません / 大変残念ですが",
+    "examples": [
+      {
+        "japanese": "ご期待に沿えず、誠に申し訳ございません。",
+        "romaji": "Gokitai ni souezu, makoto ni mōshiwake gozaimasen.",
+        "german": "Es tut mir aufrichtig leid, dass wir Ihren Erwartungen nicht entsprechen konnten."
+      },
+      {
+        "japanese": "ご希望に添えず大変恐縮ですが、今回は見送らせていただきます。",
+        "romaji": "Gokibō ni soezu taihen kyōshuku desu ga, konkai wa miokurasete itadakimasu.",
+        "german": "Ich bin sehr beschämt, Ihrem Wunsch nicht entsprechen zu können, aber wir müssen dieses Mal absagen."
+      },
+      {
+        "japanese": "ご要望に沿えず心苦しいのですが、対応いたしかねます。",
+        "romaji": "Goyōbō ni soezu kokorogurushii no desu ga, taiō itashikanemasu.",
+        "german": "Es schmerzt mich, Ihrem Wunsch nicht nachkommen zu können, aber wir sind dazu leider nicht in der Lage."
+      }
+    ],
+    "notes": "Diese Phrase ist die Standard-Einleitung für geschäftliche Ablehnungen. Sie mildert die Ablehnung ab und zeigt Bedauern. In Japan werden Ablehnungen fast nie direkt ausgesprochen, sondern immer mit solchen abfedernden Formeln eingeleitet.",
+    "related": ["keigo-teinei-kanemasu", "keigo-bikago-moushiwake"]
+  },
+  {
+    "id": "keigo-business-gojiainokudasaimase",
+    "pattern": "ご自愛ください（ごじあいください）",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Bitte achten Sie auf Ihre Gesundheit",
+    "explanation": "ご自愛ください ist eine traditionelle Abschlussformel in Briefen und E-Mails, die den Empfänger bittet, auf seine Gesundheit zu achten. 自愛 bedeutet wörtlich „Selbstliebe/Selbstfürsorge“. Diese Phrase wird besonders bei Jahreszeitenwechseln und in persönlicheren Geschäftsbriefen verwendet.",
+    "formation": "ご自愛ください / ご自愛くださいませ / くれぐれもご自愛ください (verstärkt)",
+    "examples": [
+      {
+        "japanese": "寒い日が続きますが、くれぐれもご自愛ください。",
+        "romaji": "Samui hi ga tsuzukimasu ga, kuregure mo gojiai kudasai.",
+        "german": "Es ist weiterhin kalt, bitte achten Sie besonders auf Ihre Gesundheit."
+      },
+      {
+        "japanese": "時節柄、ご自愛くださいますようお祈り申し上げます。",
+        "romaji": "Jisetsugara, gojiai kudasaimasu yō oinori mōshiagemasu.",
+        "german": "Angesichts der Jahreszeit bete ich, dass Sie auf sich achten."
+      },
+      {
+        "japanese": "お体にお気をつけて、ご自愛くださいませ。",
+        "romaji": "Okarada ni oki wo tsukete, gojiai kudasaimase.",
+        "german": "Bitte passen Sie auf sich auf und achten Sie auf Ihre Gesundheit."
+      }
+    ],
+    "notes": "ご自愛ください wird zum Abschluss persönlicher und halb-geschäftlicher Briefe verwendet. Sie passt besonders gut in Kombination mit jahreszeitlichen Grüßen (時候の挨拶). In rein sachlichen Geschäfts-E-Mails wird sie seltener verwendet.",
+    "related": ["keigo-business-mailshimebun", "keigo-business-yoroshiku"]
+  },
+  {
+    "id": "keigo-sonkeigo-gokurou",
+    "pattern": "お疲れ様です vs ご苦労様です",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "尊敬語",
+    "meaning": "Richtige Verwendung von Mühe-Anerkennungsfloskeln",
+    "explanation": "お疲れ様です und ご苦労様です bedeuten beide „Danke für Ihre Mühe“, haben aber unterschiedliche Verwendungsregeln. お疲れ様です kann gegenüber jedem verwendet werden (auch Vorgesetzten), während ご苦労様です nur gegenüber Untergebenen oder Gleichgestellten angemessen ist. Diese Unterscheidung ist eine häufige Keigo-Falle.",
+    "formation": "お疲れ様です (universal) ／ ご苦労様です (nur nach unten/gleichgestellt)",
+    "examples": [
+      {
+        "japanese": "部長、お疲れ様です。報告書をお持ちいたしました。",
+        "romaji": "Buchō, otsukaresama desu. Hōkokusho wo omochi itashimashita.",
+        "german": "Abteilungsleiter, danke für Ihre Mühe. Ich habe den Bericht gebracht."
+      },
+      {
+        "japanese": "配達員さん、ご苦労様です。",
+        "romaji": "Haitatsu-in san, gokurōsama desu.",
+        "german": "Herr Bote, vielen Dank für Ihre Mühe."
+      },
+      {
+        "japanese": "本日もお疲れ様でした。",
+        "romaji": "Honjitsu mo otsukaresama deshita.",
+        "german": "Danke für Ihre Mühe auch heute wieder."
+      }
+    ],
+    "notes": "Die Regel, dass ご苦労様です nicht gegenüber Vorgesetzten verwendet werden sollte, ist bei jüngeren Japanern weniger strikt, wird aber in der Geschäftswelt noch beachtet. Im Zweifel ist お疲れ様です immer die sichere Wahl. Manche Unternehmen verwenden ご苦労様 intern gar nicht mehr.",
+    "related": ["keigo-bikago-otsukaresama", "keigo-business-osewani"]
+  },
+  {
+    "id": "keigo-kenjougo-mairushinchuu",
+    "pattern": "～の折には（のおりには）",
+    "level": "N1",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Bei Gelegenheit von... / Wenn sich die Gelegenheit ergibt...",
+    "explanation": "～の折には ist eine formelle Wendung, die „bei Gelegenheit von“ oder „wenn sich die Gelegenheit ergibt“ bedeutet. 折 (おり) bedeutet „Gelegenheit/Moment“ und wird in gehobener Sprache anstelle von 時 (とき) verwendet. Diese Form findet sich in formellen Einladungen und höflichen Schreiben.",
+    "formation": "Nomen + の折には / ～した折には / お近くにお越しの折には",
+    "examples": [
+      {
+        "japanese": "お近くにお越しの折には、ぜひお立ち寄りください。",
+        "romaji": "Ochikaku ni okoshi no ori ni wa, zehi otachiyori kudasai.",
+        "german": "Wenn Sie in der Nähe sind, kommen Sie bitte vorbei."
+      },
+      {
+        "japanese": "東京にいらっしゃる折には、ご連絡いただければ幸いです。",
+        "romaji": "Tōkyō ni irassharu ori ni wa, gorenraku itadakereba saiwai desu.",
+        "german": "Wenn Sie einmal in Tokio sein sollten, würde ich mich über eine Nachricht freuen."
+      },
+      {
+        "japanese": "次にお目にかかる折を楽しみにしております。",
+        "romaji": "Tsugi ni ome ni kakaru ori wo tanoshimi ni shite orimasu.",
+        "german": "Ich freue mich auf die nächste Gelegenheit, Sie zu treffen."
+      }
+    ],
+    "notes": "折 wird in der formellen Korrespondenz bevorzugt und klingt eleganter als 時 oder 場合. Die Phrase お近くにお越しの折には ist eine klassische Höflichkeitsformel am Ende von Geschäftsbriefen und Neujahrskarten.",
+    "related": ["keigo-kenjougo-omenikakaru", "keigo-sonkeigo-okoshininaru"]
+  },
+  {
+    "id": "keigo-kenjougo-osagashisuru",
+    "pattern": "お調べする / お探しする",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "謙譲語",
+    "meaning": "Bescheiden nachschlagen / Bescheiden suchen",
+    "explanation": "お調べする und お探しする sind Kenjōgo-Formen von 調べる (nachschlagen/untersuchen) und 探す (suchen). Sie folgen dem Standard-Kenjōgo-Muster お + Verb-Stamm + する und werden häufig im Kundenservice verwendet, wenn man für den Kunden etwas nachschaut.",
+    "formation": "お調べする / お調べいたす ／ お探しする / お探しいたす",
+    "examples": [
+      {
+        "japanese": "ただいまお調べいたしますので、少々お待ちください。",
+        "romaji": "Tadaima oshirabe itashimasu node, shōshō omachi kudasai.",
+        "german": "Ich schaue jetzt für Sie nach, bitte warten Sie einen Moment."
+      },
+      {
+        "japanese": "在庫をお調べいたします。",
+        "romaji": "Zaiko wo oshirabe itashimasu.",
+        "german": "Ich überprüfe den Bestand für Sie."
+      },
+      {
+        "japanese": "ご希望の商品をお探しいたしましょうか。",
+        "romaji": "Gokibō no shōhin wo osagashi itashimashō ka.",
+        "german": "Soll ich das gewünschte Produkt für Sie suchen?"
+      }
+    ],
+    "notes": "Diese Formen sind im Einzelhandel und Kundenservice Standardvokabular. Sie folgen dem universellen お～する/お～いたす-Muster, das auf praktisch jedes Verb anwendbar ist (mit Ausnahmen wie Sonder-Keigo-Verben).",
+    "related": ["keigo-kenjougo-osuru", "keigo-kenjougo-kashikomarimashita"]
+  },
+  {
+    "id": "keigo-business-gohenjiitadaki",
+    "pattern": "お忙しいところ恐縮ですが",
+    "level": "N2",
+    "category": "Keigo",
+    "subcategory": "ビジネス敬語",
+    "meaning": "Ich bin mir bewusst, dass Sie beschäftigt sind, aber...",
+    "explanation": "お忙しいところ恐縮ですが ist eine Variante des Kissenworts お忙しいところ恐れ入りますが, bei der 恐縮です (sich beschämt fühlen) statt 恐れ入ります verwendet wird. Beide Formen sind in geschäftlichen E-Mails austauschbar und leiten eine Bitte ein, die dem Empfänger Mühe verursachen könnte.",
+    "formation": "お忙しいところ恐縮ですが + Bitte ／ ご多忙のところ恐縮ですが (Variante)",
+    "examples": [
+      {
+        "japanese": "お忙しいところ恐縮ですが、ご署名をいただけますでしょうか。",
+        "romaji": "Oisogashii tokoro kyōshuku desu ga, goshomei wo itadakemasu deshō ka.",
+        "german": "Ich weiß, dass Sie beschäftigt sind, aber könnten Sie bitte unterschreiben?"
+      },
+      {
+        "japanese": "ご多忙のところ大変恐縮ですが、資料をお送りいただけますか。",
+        "romaji": "Gotabō no tokoro taihen kyōshuku desu ga, shiryō wo ookuriitadakemasu ka.",
+        "german": "Ich bin mir Ihrer Beschäftigung sehr bewusst, aber könnten Sie mir die Unterlagen zusenden?"
+      },
+      {
+        "japanese": "お忙しいところ恐縮に存じますが、ご対応のほどよろしくお願いいたします。",
+        "romaji": "Oisogashii tokoro kyōshuku ni zonjimasu ga, gotaiō no hodo yoroshiku onegai itashimasu.",
+        "german": "Ich fühle mich beschämt, Sie in Ihrer Beschäftigung zu stören, bitte um Ihre Bearbeitung."
+      }
+    ],
+    "notes": "恐縮ですが und 恐れ入りますが sind im Geschäftsalltag austauschbar. 恐縮ですが hat einen etwas stärkeren Beiklang von Schuldgefühl. Die Verstärkung mit 大変 oder die Formalisierung mit 存じます sind übliche Steigerungen.",
+    "related": ["keigo-business-oisogashii", "keigo-teinei-osoreirimashitsuki"]
   }
 ]);

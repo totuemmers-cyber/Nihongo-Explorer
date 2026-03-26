@@ -3111,6 +3111,778 @@
           tip: 'Die höfliche Form をもちまして wird besonders häufig am Ende von Veranstaltungen und Zeremonien verwendet: 以上をもちまして... (Hiermit...). Lerne diese Wendung als feste Formel.'
         }
       ]
+    },
+
+    // ===================== LEKTION 59 =====================
+    {
+      id: 'lesson-59',
+      number: 59,
+      title: '～に伴って・につれて',
+      subtitle: 'Korrelative Veränderung — „Je mehr X, desto mehr Y"',
+      level: 'N2',
+      intro: 'Diese Lektion behandelt zwei wichtige N2-Grammatikpunkte, die beide eine korrelative Veränderung ausdrücken: Wenn sich X verändert, verändert sich Y proportional dazu mit. Beide Ausdrücke sind im Alltag und in Prüfungstexten extrem häufig. ～に伴って betont, dass eine Veränderung eine andere begleitet oder verursacht, während ～につれて eine allmähliche, parallele Veränderung beschreibt. Der Unterschied ist subtil, aber wichtig für die N2-Prüfung.',
+      sections: [
+        {
+          heading: '～に伴って / に伴い — Einhergehend mit / Mit... zusammen',
+          text: '～に伴って (にともなって) drückt aus, dass eine Veränderung oder ein Ereignis eine andere Veränderung <strong>nach sich zieht</strong> oder <strong>begleitet</strong>. Es wird oft für größere, gesellschaftliche oder natürliche Veränderungen verwendet. Die Konstruktion ist: <strong>Nomen + に伴って</strong> oder <strong>Verb (辞書形) + のに伴って</strong>. Die formellere Variante ～に伴い wird in Schrifttexten bevorzugt. Vor Nomen wird ～に伴う verwendet.',
+          examples: [
+            { jp: '人口の増加に伴って、住宅問題が深刻になっている。', romaji: 'Jinkō no zōka ni tomonatte, jūtaku mondai ga shinkoku ni natte iru.', de: 'Mit dem Bevölkerungswachstum wird das Wohnungsproblem immer ernster.' },
+            { jp: '経済の発展に伴い、環境破壊も進んだ。', romaji: 'Keizai no hatten ni tomonai, kankyō hakai mo susunda.', de: 'Einhergehend mit der wirtschaftlichen Entwicklung schritt auch die Umweltzerstörung voran.' },
+            { jp: '台風に伴う大雨に警戒してください。', romaji: 'Taifū ni tomonau ōame ni keikai shite kudasai.', de: 'Bitte seien Sie auf der Hut vor dem starken Regen, der mit dem Taifun einhergeht.' },
+            { jp: '高齢化に伴って、介護の需要が増えている。', romaji: 'Kōreika ni tomonatte, kaigo no juyō ga fuete iru.', de: 'Mit der Überalterung steigt die Nachfrage nach Pflege.' }
+          ],
+          tip: '～に伴って kann auch mit einmaligen Ereignissen verwendet werden (z. B. 引っ越しに伴って = „im Zuge des Umzugs"), nicht nur mit graduellen Veränderungen.'
+        },
+        {
+          heading: '～につれて / につれ — Je mehr... desto...',
+          text: '～につれて drückt aus, dass sich zwei Dinge <strong>parallel und allmählich</strong> verändern. Es betont den graduellen Charakter — je mehr das eine zunimmt, desto mehr verändert sich das andere. Die Konstruktion ist: <strong>Verb (辞書形) + につれて</strong> oder <strong>Nomen + につれて</strong>. Im Gegensatz zu ～に伴って passt ～につれて nur für graduelle Veränderungen und nicht für plötzliche Ereignisse.',
+          examples: [
+            { jp: '年を取るにつれて、体力が落ちてくる。', romaji: 'Toshi wo toru ni tsurete, tairyoku ga ochite kuru.', de: 'Je älter man wird, desto mehr lässt die Körperkraft nach.' },
+            { jp: '日本語を勉強するにつれて、日本文化にも興味が出てきた。', romaji: 'Nihongo wo benkyō suru ni tsurete, Nihon bunka ni mo kyōmi ga dete kita.', de: 'Je mehr ich Japanisch lerne, desto mehr interessiere ich mich auch für die japanische Kultur.' },
+            { jp: '春が近づくにつれて、日が長くなってきた。', romaji: 'Haru ga chikazuku ni tsurete, hi ga nagaku natte kita.', de: 'Je näher der Frühling rückt, desto länger werden die Tage.' },
+            { jp: '時間がたつにつれて、痛みが和らいできた。', romaji: 'Jikan ga tatsu ni tsurete, itami ga yaraaide kita.', de: 'Mit der Zeit ließ der Schmerz allmählich nach.' }
+          ],
+          tip: 'Merke: ～につれて = immer graduelle, parallele Veränderung. ～に伴って = kann auch einmalige Ereignisse oder Begleiterscheinungen beschreiben.'
+        },
+        {
+          heading: 'Vergleich und Anwendung',
+          text: 'Beide Ausdrücke übersetzen sich oft mit „mit" oder „je mehr... desto...", aber sie sind nicht immer austauschbar. <strong>～に伴って</strong> betont die <em>Kausalität</em> oder <em>Begleiterscheinung</em> — eine Sache zieht die andere nach sich. <strong>～につれて</strong> betont die <em>Parallelität</em> — beide Dinge verändern sich gleichzeitig und allmählich. Bei graduellen Veränderungen können beide verwendet werden, aber bei einmaligen Ereignissen nur ～に伴って.',
+          examples: [
+            { jp: '技術が進歩するにつれて、生活が便利になった。', romaji: 'Gijutsu ga shinpo suru ni tsurete, seikatsu ga benri ni natta.', de: 'Je weiter die Technologie fortschreitet, desto bequemer wird das Leben. (Graduell → beide OK)' },
+            { jp: '地震に伴って津波が発生した。', romaji: 'Jishin ni tomonatte tsunami ga hassei shita.', de: 'Im Zusammenhang mit dem Erdbeben entstand ein Tsunami. (Einmalig → nur に伴って)' },
+            { jp: '気温が上がるにつれて、雪が溶け始めた。', romaji: 'Kion ga agaru ni tsurete, yuki ga toke hajimeta.', de: 'Je mehr die Temperatur steigt, desto mehr beginnt der Schnee zu schmelzen.' }
+          ],
+          tip: 'In der N2-Prüfung wird gerne nach dem Unterschied gefragt. Faustregel: Wenn es ein einmaliges Ereignis mit Folgen ist → に伴って. Wenn es eine langsame, parallele Veränderung ist → につれて (oder に伴って).'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 60 =====================
+    {
+      id: 'lesson-60',
+      number: 60,
+      title: '～を契機に・をきっかけに',
+      subtitle: 'Den Anlass nutzen — Auslöser und Wendepunkte',
+      level: 'N2',
+      intro: 'Diese Lektion stellt zwei Ausdrücke vor, die einen Anlass oder Auslöser für eine Veränderung beschreiben. ～を契機に (をけいきに) ist formeller und wird für bedeutende Wendepunkte verwendet, während ～をきっかけに alltagstauglicher ist und für persönliche Auslöser passt. Beide beantworten die Frage: „Was war der Anlass dafür, dass...?" und sind in der N2-Prüfung häufig anzutreffen.',
+      sections: [
+        {
+          heading: '～をきっかけに / きっかけで — Als Anlass / Ausgelöst durch',
+          text: 'きっかけ bedeutet „Anlass, Anstoß, Auslöser" und beschreibt das Ereignis, das den <strong>ersten Impuls</strong> für eine Veränderung gegeben hat. Die Konstruktion ist: <strong>Nomen + をきっかけに/で</strong> oder <strong>Verb (た-Form) + のをきっかけに</strong>. Es wird sowohl in der Alltags- als auch in der Schriftsprache verwendet und eignet sich besonders für persönliche Erfahrungen und Wendepunkte.',
+          examples: [
+            { jp: '留学をきっかけに、日本語を勉強し始めた。', romaji: 'Ryūgaku wo kikkake ni, Nihongo wo benkyō shi hajimeta.', de: 'Das Auslandsstudium war der Anlass, Japanisch zu lernen.' },
+            { jp: '友達に誘われたのをきっかけに、テニスを始めた。', romaji: 'Tomodachi ni sasowareta no wo kikkake ni, tenisu wo hajimeta.', de: 'Dass mich ein Freund einlud, war der Anlass, mit Tennis anzufangen.' },
+            { jp: '病気をきっかけに、健康に気をつけるようになった。', romaji: 'Byōki wo kikkake ni, kenkō ni ki wo tsukeru yō ni natta.', de: 'Die Krankheit war der Anlass, auf meine Gesundheit zu achten.' },
+            { jp: '映画を見たのをきっかけに、その国に旅行したくなった。', romaji: 'Eiga wo mita no wo kikkake ni, sono kuni ni ryokō shitaku natta.', de: 'Nachdem ich den Film gesehen hatte, wollte ich in das Land reisen.' }
+          ],
+          tip: 'きっかけ wird auch als eigenständiges Nomen sehr häufig verwendet: 「日本語を勉強するきっかけは何ですか」 (Was war der Anlass, Japanisch zu lernen?) — eine beliebte Gesprächsfrage!'
+        },
+        {
+          heading: '～を契機に / を契機として — Mit... als Wendepunkt',
+          text: '～を契機に (をけいきに) ist die formellere Variante und wird für <strong>bedeutsame, gesellschaftliche oder historische Wendepunkte</strong> verwendet. 契機 bedeutet „Gelegenheit, entscheidender Moment, Wendepunkt". Die Konstruktion ist: <strong>Nomen + を契機に/として</strong>. Dieser Ausdruck klingt gewichtiger als きっかけ und erscheint häufig in Nachrichtentexten, Berichten und formellen Analysen.',
+          examples: [
+            { jp: 'オリンピックを契機に、インフラが大幅に整備された。', romaji: 'Orinpikku wo keiki ni, infura ga ōhaba ni seibi sareta.', de: 'Die Olympischen Spiele waren der Anlass für einen umfassenden Ausbau der Infrastruktur.' },
+            { jp: '震災を契機として、防災意識が高まった。', romaji: 'Shinsai wo keiki to shite, bōsai ishiki ga takamatta.', de: 'Die Erdbebenkatastrophe war der Wendepunkt, an dem das Katastrophenbewusstsein stieg.' },
+            { jp: '法改正を契機に、働き方が大きく変わった。', romaji: 'Hō kaisei wo keiki ni, hatarakikata ga ōkiku kawatta.', de: 'Die Gesetzesänderung war der Anlass für eine grundlegende Veränderung der Arbeitsweise.' },
+            { jp: '退職を契機に、田舎に移住することにした。', romaji: 'Taishoku wo keiki ni, inaka ni ijū suru koto ni shita.', de: 'Den Ruhestand nahm ich zum Anlass, aufs Land zu ziehen.' }
+          ],
+          tip: 'を契機に klingt formell und gewichtig — verwende es für große Ereignisse und gesellschaftliche Veränderungen. Für persönliche Erlebnisse im Alltag ist をきっかけに natürlicher.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 61 =====================
+    {
+      id: 'lesson-61',
+      number: 61,
+      title: '～に基づいて',
+      subtitle: 'Auf Grundlage von — fundiert und begründet',
+      level: 'N2',
+      intro: 'Der Ausdruck ～に基づいて (にもとづいて) bedeutet „auf der Grundlage von" oder „basierend auf" und drückt aus, dass eine Handlung, Entscheidung oder Aussage auf etwas Konkretem — Daten, Gesetzen, Erfahrungen, Fakten — basiert. Er ist in formellen Texten, Berichten, Nachrichten und rechtlichen Kontexten allgegenwärtig und gehört zum Standardvokabular der N2-Prüfung.',
+      sections: [
+        {
+          heading: '～に基づいて / に基づき — Basierend auf / Auf Grundlage von',
+          text: '基づく (もとづく) ist ein Verb der Bedeutung „beruhen auf, gründen auf". In der て-Form wird es adverbial verwendet: <strong>Nomen + に基づいて</strong> bedeutet „auf Grundlage von X". Die formellere Kurzform ～に基づき wird in offiziellen Texten bevorzugt. Typische Nomen, die vorangehen, sind: データ (Daten), 法律 (Gesetz), 経験 (Erfahrung), 事実 (Tatsachen), 調査 (Untersuchung), 原則 (Prinzipien).',
+          examples: [
+            { jp: '調査結果に基づいて、新しい方針を決定した。', romaji: 'Chōsa kekka ni motozuite, atarashii hōshin wo kettei shita.', de: 'Auf Grundlage der Untersuchungsergebnisse wurde eine neue Richtlinie beschlossen.' },
+            { jp: '法律に基づき、適切な措置を講じる。', romaji: 'Hōritsu ni motozuki, tekisetsu na sochi wo kōjiru.', de: 'Auf Grundlage des Gesetzes werden angemessene Maßnahmen ergriffen.' },
+            { jp: '長年の経験に基づいて、アドバイスをさせていただきます。', romaji: 'Naganen no keiken ni motozuite, adobaisu wo sasete itadakimasu.', de: 'Ich erlaube mir, Ihnen auf Grundlage langjähriger Erfahrung einen Rat zu geben.' },
+            { jp: '事実に基づいた報道が求められている。', romaji: 'Jijitsu ni motozuita hōdō ga motomerarete iru.', de: 'Es wird eine auf Tatsachen basierende Berichterstattung gefordert.' }
+          ],
+          tip: 'Die attributive Form ～に基づいた/に基づく steht direkt vor einem Nomen: 「データに基づいた判断」 (eine datenbasierte Entscheidung). Beide Formen (に基づいた und に基づく) sind korrekt.'
+        },
+        {
+          heading: 'Vergleich mit ähnlichen Ausdrücken',
+          text: 'Es gibt mehrere Ausdrücke, die „basierend auf" bedeuten, aber jeder hat seinen eigenen Fokus. <strong>～に基づいて</strong> betont eine solide, verlässliche Grundlage (Fakten, Gesetze, Daten). <strong>～をもとに</strong> ist informeller und bedeutet eher „als Ausgangsmaterial nehmend" — es impliziert, dass etwas Neues daraus entsteht. <strong>～によると</strong> gibt eine Quelle an („laut, gemäß") und wird für Zitate und Berichte verwendet.',
+          examples: [
+            { jp: '実際のデータに基づいて分析を行った。', romaji: 'Jissai no dēta ni motozuite bunseki wo okonatta.', de: 'Die Analyse wurde auf Grundlage tatsächlicher Daten durchgeführt. (Solide Basis)' },
+            { jp: 'この映画は実話をもとに作られた。', romaji: 'Kono eiga wa jitsuwa wo moto ni tsukurareta.', de: 'Dieser Film wurde auf der Grundlage einer wahren Geschichte gedreht. (Ausgangsmaterial)' },
+            { jp: '天気予報によると、明日は雨だそうだ。', romaji: 'Tenki yohō ni yoru to, ashita wa ame da sō da.', de: 'Laut Wettervorhersage soll es morgen regnen. (Quelle)' }
+          ],
+          tip: 'Faustregel: に基づいて = fundierte Basis (Gesetz, Daten). をもとに = kreatives Ausgangsmaterial (Geschichte, Idee). によると = Informationsquelle (Nachricht, Person).'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 62 =====================
+    {
+      id: 'lesson-62',
+      number: 62,
+      title: '～を問わず・にかかわらず',
+      subtitle: 'Egal was — Unabhängig von Bedingungen',
+      level: 'N2',
+      intro: 'Diese Lektion behandelt zwei Ausdrücke, die beide „unabhängig von" oder „egal ob" bedeuten und Einschränkungen aufheben. ～を問わず hebt eine bestimmte Kategorie oder Bedingung auf, während ～にかかわらず allgemeiner „trotz" oder „ungeachtet" ausdrückt. Beide sind in Stellenanzeigen, offiziellen Texten, Regeln und Ankündigungen extrem häufig und gehören zum N2-Kernwissen.',
+      sections: [
+        {
+          heading: '～を問わず / を問わない — Ungeachtet / Egal ob',
+          text: '問う (とう) bedeutet „fragen, in Frage stellen". ～を問わず bedeutet also wörtlich „ohne danach zu fragen" — also „ungeachtet, egal ob". Es wird verwendet, um auszudrücken, dass eine <strong>bestimmte Kategorie oder Bedingung keine Rolle spielt</strong>. Die Konstruktion ist: <strong>Nomen + を問わず</strong>. Häufig steht es mit Gegensatzpaaren wie 男女 (Mann/Frau), 年齢 (Alter), 経験の有無 (ob Erfahrung vorhanden oder nicht), 国籍 (Nationalität).',
+          examples: [
+            { jp: '年齢を問わず、どなたでもご参加いただけます。', romaji: 'Nenrei wo towazu, donata demo go-sanka itadakemasu.', de: 'Ungeachtet des Alters kann jeder teilnehmen.' },
+            { jp: '経験の有無を問わず募集しています。', romaji: 'Keiken no umu wo towazu boshū shite imasu.', de: 'Wir suchen Mitarbeiter, unabhängig davon, ob Erfahrung vorhanden ist.' },
+            { jp: '性別を問わず、能力のある人を採用する。', romaji: 'Seibetsu wo towazu, nōryoku no aru hito wo saiyō suru.', de: 'Ungeachtet des Geschlechts werden fähige Leute eingestellt.' },
+            { jp: 'このサービスは時間を問わず利用できる。', romaji: 'Kono sābisu wa jikan wo towazu riyō dekiru.', de: 'Dieser Service kann unabhängig von der Uhrzeit genutzt werden.' }
+          ],
+          tip: '～を問わず wird besonders gerne in Stellenanzeigen verwendet. Merke dir Kombinationen wie 年齢を問わず, 経験を問わず, 男女を問わず — sie kommen regelmäßig in der N2-Prüfung vor.'
+        },
+        {
+          heading: '～にかかわらず / にかかわりなく — Ungeachtet / Trotz',
+          text: '～にかかわらず bedeutet „ungeachtet, ohne Rücksicht auf, trotz" und ist etwas allgemeiner als ～を問わず. Es kann mit Nomen, Gegensatzpaaren oder ganzen Sätzen verwendet werden. Die Konstruktion ist: <strong>Nomen + にかかわらず</strong> oder <strong>Verb (辞書形/ない形) + にかかわらず</strong>. Die Variante にかかわりなく hat die gleiche Bedeutung.',
+          examples: [
+            { jp: '天候にかかわらず、イベントは開催されます。', romaji: 'Tenkō ni kakawarazu, ibento wa kaisai saremasu.', de: 'Ungeachtet des Wetters findet die Veranstaltung statt.' },
+            { jp: '賛成するかしないかにかかわらず、この計画は進められる。', romaji: 'Sansei suru ka shinai ka ni kakawarazu, kono keikaku wa susumerareru.', de: 'Egal ob man zustimmt oder nicht, dieser Plan wird vorangetrieben.' },
+            { jp: '結果にかかわらず、全力を尽くしたことに意味がある。', romaji: 'Kekka ni kakawarazu, zenryoku wo tsukushita koto ni imi ga aru.', de: 'Ungeachtet des Ergebnisses hat es Sinn, sein Bestes gegeben zu haben.' },
+            { jp: '理由のいかんにかかわらず、遅刻は認められない。', romaji: 'Riyū no ikan ni kakawarazu, chikoku wa mitomerarenai.', de: 'Ungeachtet des Grundes wird Verspätung nicht akzeptiert.' }
+          ],
+          tip: 'Unterschied: ～を問わず hebt Kategorien auf (Alter, Geschlecht, Erfahrung). ～にかかわらず ist breiter einsetzbar und kann auch mit Sätzen stehen (ob X oder nicht).'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 63 =====================
+    {
+      id: 'lesson-63',
+      number: 63,
+      title: '～上で・上は',
+      subtitle: 'In Bezug auf — Kontext und Bedingung',
+      level: 'N2',
+      intro: 'Der Ausdruck ～上で (うえで) hat je nach Kontext zwei verschiedene Bedeutungen: „bei / in Bezug auf" und „nachdem / sobald". Dazu kommt ～上は (うえは) mit der Bedeutung „wenn schon, dann". Alle drei gehören zum N2-Standardrepertoire und sind in formellen Texten, Anleitungen und Ratschlägen sehr häufig. Die korrekte Unterscheidung der Bedeutungen ist ein beliebtes Prüfungsthema.',
+      sections: [
+        {
+          heading: '～上で① — In Bezug auf / Bei / Für',
+          text: 'In der ersten Bedeutung drückt ～上で aus, in welchem <strong>Bereich oder Kontext</strong> etwas relevant ist. Es beantwortet die Frage: „In welcher Hinsicht?" Die Konstruktion ist: <strong>Nomen + の + 上で</strong> oder <strong>Verb (辞書形) + 上で</strong>. Typische Kontexte sind: 仕事の上で (bei der Arbeit), 健康の上で (in Bezug auf die Gesundheit), 生活する上で (für das Leben). Diese Bedeutung wird oft für Ratschläge und wichtige Hinweise verwendet.',
+          examples: [
+            { jp: '日本で生活する上で、日本語は不可欠だ。', romaji: 'Nihon de seikatsu suru ue de, Nihongo wa fukaketsu da.', de: 'Für das Leben in Japan ist Japanisch unverzichtbar.' },
+            { jp: '契約する上で、注意すべき点がいくつかあります。', romaji: 'Keiyaku suru ue de, chūi subeki ten ga ikutsuka arimasu.', de: 'Beim Abschluss eines Vertrags gibt es einige Punkte, auf die man achten sollte.' },
+            { jp: '仕事の上で大切なのは、コミュニケーション能力だ。', romaji: 'Shigoto no ue de taisetsu na no wa, komyunikēshon nōryoku da.', de: 'Im Berufsleben ist Kommunikationsfähigkeit das Wichtigste.' },
+            { jp: '健康の上で、睡眠は非常に重要です。', romaji: 'Kenkō no ue de, suimin wa hijō ni jūyō desu.', de: 'In Bezug auf die Gesundheit ist Schlaf äußerst wichtig.' }
+          ],
+          tip: 'Diese Bedeutung von ～上で lässt sich oft mit „beim..." oder „für..." übersetzen. Achte auf den Kontext — wenn es um einen Bereich oder Aspekt geht, ist es diese Bedeutung.'
+        },
+        {
+          heading: '～上で② — Nachdem / Erst wenn',
+          text: 'In der zweiten Bedeutung drückt ～上で aus, dass eine Handlung <strong>abgeschlossen sein muss, bevor</strong> die nächste beginnt. Es betont, dass die erste Handlung eine notwendige Voraussetzung ist. Die Konstruktion ist: <strong>Verb (た-Form) + 上で</strong>. Beachte: Mit た-Form = „nachdem", mit 辞書形 = „bei / für" (erste Bedeutung).',
+          examples: [
+            { jp: 'よく考えた上で、お返事いたします。', romaji: 'Yoku kangaeta ue de, ohenji itashimasu.', de: 'Nachdem ich es gründlich überlegt habe, werde ich antworten.' },
+            { jp: '両親と相談した上で、決めたいと思います。', romaji: 'Ryōshin to sōdan shita ue de, kimetai to omoimasu.', de: 'Ich möchte mich erst mit meinen Eltern beraten und dann entscheiden.' },
+            { jp: '説明書を読んだ上で、ご使用ください。', romaji: 'Setsumeisho wo yonda ue de, go-shiyō kudasai.', de: 'Bitte lesen Sie die Anleitung, bevor Sie es benutzen.' }
+          ],
+          tip: 'Faustregel zur Unterscheidung: Verb (辞書形) + 上で = „bei, für" (Kontext). Verb (た-Form) + 上で = „nachdem" (zeitliche Reihenfolge).'
+        },
+        {
+          heading: '～上は — Wenn schon... dann...',
+          text: '～上は (うえは) drückt aus, dass man aufgrund einer bestimmten Situation oder Entscheidung <strong>eine Verantwortung oder Konsequenz</strong> akzeptiert. Es bedeutet: „Wenn es nun einmal so ist, dann muss man auch..." Die Konstruktion ist: <strong>Verb (た-Form) + 上は</strong> oder <strong>Verb (辞書形) + 上は</strong>. Der zweite Satzteil enthält oft eine Entschlossenheit, Pflicht oder Konsequenz.',
+          examples: [
+            { jp: '引き受けた上は、最後までやり通すつもりだ。', romaji: 'Hikiuketa ue wa, saigo made yaritōsu tsumori da.', de: 'Wenn ich es schon übernommen habe, will ich es bis zum Ende durchziehen.' },
+            { jp: '約束した上は、守らなければならない。', romaji: 'Yakusoku shita ue wa, mamoranakerebanaranai.', de: 'Wenn man etwas versprochen hat, muss man es auch halten.' },
+            { jp: 'こうなった上は、覚悟を決めるしかない。', romaji: 'Kō natta ue wa, kakugo wo kimeru shika nai.', de: 'Wenn es nun einmal so gekommen ist, bleibt einem nichts anderes übrig, als sich damit abzufinden.' }
+          ],
+          tip: '～上は drückt immer Entschlossenheit oder Pflichtgefühl aus. Es wird oft mit Ausdrücken wie ～なければならない, ～つもりだ, ～しかない kombiniert.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 64 =====================
+    {
+      id: 'lesson-64',
+      number: 64,
+      title: '～に応じて',
+      subtitle: 'Flexibel reagieren — Je nach Situation',
+      level: 'N2',
+      intro: 'Der Ausdruck ～に応じて (におうじて) bedeutet „je nach", „entsprechend" oder „in Anpassung an" und drückt aus, dass sich eine Handlung oder ein Zustand flexibel an die jeweiligen Umstände anpasst. Er wird sehr häufig in beruflichen Kontexten, Anleitungen und offiziellen Texten verwendet und ist ein N2-Kerngrammatikpunkt.',
+      sections: [
+        {
+          heading: '～に応じて / に応じた — Je nach / Entsprechend',
+          text: '応じる (おうじる) bedeutet „reagieren auf, entsprechen, sich anpassen". ～に応じて drückt aus, dass etwas <strong>flexibel an eine Bedingung oder Situation angepasst</strong> wird. Die Konstruktion ist: <strong>Nomen + に応じて</strong>. Die attributive Form ～に応じた steht vor Nomen. Häufige Nomen sind: 状況 (Situation), ニーズ (Bedarf), 能力 (Fähigkeit), 予算 (Budget), 希望 (Wunsch), 年齢 (Alter).',
+          examples: [
+            { jp: '能力に応じて、給料が決まります。', romaji: 'Nōryoku ni ōjite, kyūryō ga kimarimasu.', de: 'Das Gehalt wird entsprechend der Fähigkeiten festgelegt.' },
+            { jp: 'お客様のニーズに応じたサービスを提供します。', romaji: 'Okyakusama no nīzu ni ōjita sābisu wo teikyō shimasu.', de: 'Wir bieten einen an die Bedürfnisse der Kunden angepassten Service.' },
+            { jp: '状況に応じて、計画を変更する場合があります。', romaji: 'Jōkyō ni ōjite, keikaku wo henkō suru baai ga arimasu.', de: 'Je nach Situation kann der Plan geändert werden.' },
+            { jp: '年齢に応じた運動をすることが大切です。', romaji: 'Nenrei ni ōjita undō wo suru koto ga taisetsu desu.', de: 'Es ist wichtig, dem Alter entsprechend Sport zu treiben.' }
+          ],
+          tip: 'に応じて betont die <em>Flexibilität</em> — es geht immer darum, dass sich etwas an wechselnde Bedingungen anpasst. Wenn die Bedingung sich ändert, ändert sich auch das Ergebnis.'
+        },
+        {
+          heading: 'Vergleich: に応じて vs. によって vs. 次第で',
+          text: 'Alle drei können „je nach" bedeuten, aber mit unterschiedlichen Nuancen. <strong>～に応じて</strong> betont die <em>flexible Anpassung</em> an wechselnde Bedingungen. <strong>～によって</strong> betont den <em>Unterschied</em> — je nachdem, wer oder was es ist, ist das Ergebnis anders. <strong>～次第で</strong> betont die <em>Abhängigkeit</em> — das Ergebnis hängt vollständig davon ab. In vielen Fällen sind sie austauschbar, aber die Nuancen machen den Unterschied.',
+          examples: [
+            { jp: '予算に応じて、プランを提案します。', romaji: 'Yosan ni ōjite, puran wo teian shimasu.', de: 'Wir schlagen einen Plan entsprechend dem Budget vor. (Flexible Anpassung)' },
+            { jp: '人によって、意見が違う。', romaji: 'Hito ni yotte, iken ga chigau.', de: 'Je nach Person unterscheiden sich die Meinungen. (Verschiedenheit)' },
+            { jp: '努力次第で、結果が変わる。', romaji: 'Doryoku shidai de, kekka ga kawaru.', de: 'Je nach Anstrengung ändert sich das Ergebnis. (Vollständige Abhängigkeit)' }
+          ],
+          tip: 'In der N2-Prüfung wird gerne nach diesen Unterschieden gefragt. Merke: に応じて = Anpassung, によって = Unterschied, 次第で = Abhängigkeit.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 65 =====================
+    {
+      id: 'lesson-65',
+      number: 65,
+      title: '～にわたって',
+      subtitle: 'Über die ganze Strecke — Ausmaß und Dauer',
+      level: 'N2',
+      intro: 'Der Ausdruck ～にわたって (にわたって) bedeutet „über... hinweg", „sich erstreckend über" und beschreibt, dass etwas einen großen Zeitraum, Bereich oder Umfang abdeckt. Er betont die Ausdehnung und Breite und wird häufig in Nachrichten, Berichten und formellen Texten verwendet. Ein N2-Klassiker, der in fast jeder Prüfung vorkommt.',
+      sections: [
+        {
+          heading: '～にわたって / にわたり / にわたる — Über... hinweg / Sich erstreckend über',
+          text: 'わたる (渡る/亘る) bedeutet in diesem Kontext „sich erstrecken über". ～にわたって drückt aus, dass etwas über einen <strong>großen Zeitraum, weiten Bereich oder breiten Umfang</strong> andauert oder sich erstreckt. Die Konstruktion ist: <strong>Nomen + にわたって</strong>. Die formellere Variante ～にわたり wird in Schrifttexten verwendet. Vor Nomen steht ～にわたる. Typische Nomen sind: 時間 (Stunden), 年 (Jahre), 地域 (Gebiet), 分野 (Bereich), ページ (Seiten).',
+          examples: [
+            { jp: '交渉は三日間にわたって行われた。', romaji: 'Kōshō wa mikkakan ni watatte okonawareta.', de: 'Die Verhandlungen erstreckten sich über drei Tage.' },
+            { jp: '広い範囲にわたって被害が出た。', romaji: 'Hiroi han\'i ni watatte higai ga deta.', de: 'Über einen weiten Bereich hinweg gab es Schäden.' },
+            { jp: '彼は長年にわたり、この分野で研究を続けてきた。', romaji: 'Kare wa naganen ni watari, kono bun\'ya de kenkyū wo tsuzukete kita.', de: 'Er hat sich über viele Jahre hinweg in diesem Bereich der Forschung gewidmet.' },
+            { jp: '報告書は100ページにわたる大作だった。', romaji: 'Hōkokusho wa hyaku pēji ni wataru taisaku datta.', de: 'Der Bericht war ein umfangreiches Werk, das sich über 100 Seiten erstreckte.' },
+            { jp: '全国にわたって停電が発生した。', romaji: 'Zenkoku ni watatte teiden ga hassei shita.', de: 'Landesweit kam es zu Stromausfällen.' }
+          ],
+          tip: '～にわたって betont immer, dass etwas <em>groß, lang oder umfangreich</em> ist. Es wäre unnatürlich zu sagen „5分にわたって" — der Zeitraum oder Umfang muss beeindruckend sein.'
+        },
+        {
+          heading: 'Typische Kombinationen und Prüfungstipps',
+          text: 'In der N2-Prüfung erscheint ～にわたって regelmäßig in Lesetexten und Grammatikfragen. Besonders häufig sind Kombinationen mit Zeitangaben (何年にもわたって = über viele Jahre hinweg) und Umfangsangaben (多岐にわたって = sich über viele Bereiche erstreckend). Die attributive Form ～にわたる + Nomen ist ebenfalls sehr beliebt.',
+          examples: [
+            { jp: '多岐にわたる分野で活躍している。', romaji: 'Taki ni wataru bun\'ya de katsuyaku shite iru.', de: 'Er ist in vielfältigen Bereichen aktiv.' },
+            { jp: '何世紀にもわたって受け継がれてきた伝統だ。', romaji: 'Nanseiki ni mo watatte uketsugarete kita dentō da.', de: 'Es ist eine Tradition, die über Jahrhunderte hinweg weitergegeben wurde.' },
+            { jp: '10年にわたる研究の成果がようやく発表された。', romaji: 'Jūnen ni wataru kenkyū no seika ga yōyaku happyō sareta.', de: 'Die Ergebnisse einer sich über zehn Jahre erstreckenden Forschung wurden endlich veröffentlicht.' }
+          ],
+          tip: 'Merke die drei Formen: にわたって (adverbial), にわたり (formell adverbial), にわたる (vor Nomen). Alle drei haben dieselbe Bedeutung, aber unterschiedliche grammatische Funktionen.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 66 =====================
+    {
+      id: 'lesson-66',
+      number: 66,
+      title: '～をめぐって',
+      subtitle: 'Umstritten und diskutiert — Debatten und Konflikte',
+      level: 'N2',
+      intro: 'Der Ausdruck ～をめぐって bedeutet „bezüglich", „um... herum" oder „hinsichtlich" und wird speziell für Themen verwendet, über die es Debatten, Konflikte, Meinungsverschiedenheiten oder Diskussionen gibt. Es ist kein neutrales „bezüglich" — es impliziert immer, dass verschiedene Parteien unterschiedliche Positionen einnehmen. Ein wichtiger N2-Ausdruck für Nachrichten und gesellschaftliche Themen.',
+      sections: [
+        {
+          heading: '～をめぐって / をめぐり / をめぐる — Um... herum (Streitpunkt)',
+          text: 'めぐる bedeutet wörtlich „umkreisen, sich drehen um" und in dieser Grammatik: „sich um ein Thema drehen". ～をめぐって drückt aus, dass verschiedene Meinungen oder Standpunkte <strong>um ein strittiges Thema kreisen</strong>. Die Konstruktion ist: <strong>Nomen + をめぐって</strong>. Vor Nomen steht ～をめぐる. Typische Folgewörter sind: 議論 (Diskussion), 対立 (Konfrontation), 論争 (Kontroverse), 問題 (Problem), 争い (Streit).',
+          examples: [
+            { jp: '新しい法案をめぐって、激しい議論が行われている。', romaji: 'Atarashii hōan wo megutte, hageshii giron ga okonawarete iru.', de: 'Um den neuen Gesetzentwurf wird heftig debattiert.' },
+            { jp: '領土問題をめぐる対立は長年続いている。', romaji: 'Ryōdo mondai wo meguru tairitsu wa naganen tsuzuite iru.', de: 'Der Konflikt um das Territorialproblem dauert seit Jahren an.' },
+            { jp: '遺産をめぐって、兄弟が争っている。', romaji: 'Isan wo megutte, kyōdai ga arasotte iru.', de: 'Um das Erbe streiten sich die Geschwister.' },
+            { jp: '環境問題をめぐる国際会議が開かれた。', romaji: 'Kankyō mondai wo meguru kokusai kaigi ga hirakareta.', de: 'Es wurde eine internationale Konferenz zum Thema Umweltprobleme abgehalten.' },
+            { jp: 'このプロジェクトをめぐって、社内で意見が分かれている。', romaji: 'Kono purojekuto wo megutte, shanai de iken ga wakarete iru.', de: 'Bezüglich dieses Projekts gehen die Meinungen innerhalb der Firma auseinander.' }
+          ],
+          tip: '～をめぐって impliziert <em>immer</em> Meinungsverschiedenheiten oder Konflikte. Verwende es nicht für neutrale Themen — dafür gibt es ～について oder ～に関して.'
+        },
+        {
+          heading: 'Abgrenzung: をめぐって vs. について vs. に関して',
+          text: 'Alle drei können „bezüglich" bedeuten, aber der Ton ist völlig anders. <strong>～について</strong> ist neutral und allgemein: „über, bezüglich". <strong>～に関して</strong> ist formeller, aber ebenfalls neutral. <strong>～をめぐって</strong> dagegen impliziert immer Kontroversen und verschiedene Standpunkte. Wenn du in der Prüfung wählen musst, achte auf Schlüsselwörter wie 議論, 対立, 意見, 問題 — sie deuten auf ～をめぐって hin.',
+          examples: [
+            { jp: '日本の文化について話し合った。', romaji: 'Nihon no bunka ni tsuite hanashiatta.', de: 'Wir haben uns über die japanische Kultur unterhalten. (Neutral)' },
+            { jp: 'この件に関して、ご質問はありますか。', romaji: 'Kono ken ni kanshite, go-shitsumon wa arimasu ka.', de: 'Haben Sie bezüglich dieser Angelegenheit Fragen? (Formell, neutral)' },
+            { jp: 'この政策をめぐって、与野党が対立している。', romaji: 'Kono seisaku wo megutte, yoyatō ga tairitsu shite iru.', de: 'Bezüglich dieser Politik stehen Regierungs- und Oppositionsparteien im Konflikt. (Kontrovers)' }
+          ],
+          tip: 'Eselsbrücke: Stell dir vor, verschiedene Leute stehen um das Thema herum und diskutieren hitzig — das ist das Bild von をめぐって.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 67 =====================
+    {
+      id: 'lesson-67',
+      number: 67,
+      title: '～に先立って',
+      subtitle: 'Bevor es losgeht — Vorbereitung und Vorrang',
+      level: 'N2',
+      intro: 'Der Ausdruck ～に先立って (にさきだって) bedeutet „vor / im Vorfeld von / bevor" und wird verwendet, wenn eine Handlung als Vorbereitung oder Voraussetzung vor einem wichtigen Ereignis stattfindet. Er ist formeller als ～前に und impliziert oft, dass die vorherige Handlung bewusst und planmäßig durchgeführt wird. Ein wichtiger N2-Ausdruck für formelle Ankündigungen und Berichte.',
+      sections: [
+        {
+          heading: '～に先立って / に先立ち / に先立つ — Im Vorfeld von / Vor',
+          text: '先立つ (さきだつ) bedeutet „vorangehen, vorausgehen". ～に先立って drückt aus, dass eine Handlung <strong>im Vorfeld eines wichtigen Ereignisses</strong> stattfindet — oft als Vorbereitung, Ankündigung oder notwendiger Schritt. Die Konstruktion ist: <strong>Nomen + に先立って</strong>. Die formellere Form ～に先立ち wird in offiziellen Texten verwendet. Die attributive Form ～に先立つ steht vor Nomen.',
+          examples: [
+            { jp: '開会式に先立って、関係者による打ち合わせが行われた。', romaji: 'Kaikaishiki ni sakidatte, kankeisha ni yoru uchiawase ga okonawareta.', de: 'Im Vorfeld der Eröffnungsfeier fand eine Besprechung der Beteiligten statt.' },
+            { jp: '発売に先立ち、試作品が公開された。', romaji: 'Hatsubai ni sakidachi, shisakuhin ga kōkai sareta.', de: 'Vor dem Verkaufsstart wurde ein Prototyp der Öffentlichkeit vorgestellt.' },
+            { jp: '出発に先立って、安全確認を行ってください。', romaji: 'Shuppatsu ni sakidatte, anzen kakunin wo okonatte kudasai.', de: 'Bitte führen Sie vor der Abfahrt eine Sicherheitsüberprüfung durch.' },
+            { jp: '工事に先立つ住民説明会が来週開かれる。', romaji: 'Kōji ni sakidatsu jūmin setsumeikai ga raishū hirakareru.', de: 'Die Anwohner-Informationsveranstaltung vor den Bauarbeiten findet nächste Woche statt.' }
+          ],
+          tip: '～に先立って klingt formell und geplant. Für einfaches „bevor" im Alltag verwende ～前に. ～に先立って impliziert: „Als wichtige Vorbereitung vor dem großen Ereignis..."'
+        },
+        {
+          heading: 'Typische Kontexte und Prüfungstipps',
+          text: '～に先立って erscheint besonders häufig in Kontexten wie: Eröffnungsfeiern, Produktstarts, offizielle Veranstaltungen, Bauprojekte und Reisen. In der N2-Prüfung wird es oft in Lesetexten über Veranstaltungen oder offizielle Abläufe verwendet. Achte auf formelle Nomen wie 開催 (Veranstaltung), 実施 (Durchführung), 着工 (Baubeginn).',
+          examples: [
+            { jp: '映画の公開に先立って、特別試写会が行われた。', romaji: 'Eiga no kōkai ni sakidatte, tokubetsu shishakai ga okonawareta.', de: 'Vor der Filmpremiere fand eine exklusive Vorführung statt.' },
+            { jp: '試験の実施に先立ち、受験者に注意事項が説明された。', romaji: 'Shiken no jisshi ni sakidachi, jukensha ni chūi jikō ga setsumei sareta.', de: 'Vor der Durchführung der Prüfung wurden den Prüflingen die Hinweise erklärt.' },
+            { jp: '新学期に先立って、教科書を購入しておく必要がある。', romaji: 'Shin gakki ni sakidatte, kyōkasho wo kōnyū shite oku hitsuyō ga aru.', de: 'Vor dem neuen Semester muss man die Lehrbücher kaufen.' }
+          ],
+          tip: 'Merke die drei Formen: に先立って (te-Form), に先立ち (formell), に先立つ (vor Nomen). In der Prüfung können alle drei vorkommen.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 68 =====================
+    {
+      id: 'lesson-68',
+      number: 68,
+      title: '～を通じて・を通して',
+      subtitle: 'Durch und durch — Mittel und Zeitraum',
+      level: 'N2',
+      intro: 'Die Ausdrücke ～を通じて (をつうじて) und ～を通して (をとおして) haben zwei Bedeutungen: „durch / mittels" (Mittel oder Vermittler) und „über... hinweg" (gesamter Zeitraum). Beide sind weitgehend austauschbar, wobei ～を通じて etwas formeller klingt. Sie gehören zum N2-Grundwissen und erscheinen häufig in Lesetexten.',
+      sections: [
+        {
+          heading: '～を通じて① / を通して① — Durch / Mittels / Über',
+          text: 'In der ersten Bedeutung drücken ～を通じて und ～を通して aus, dass etwas <strong>als Mittel, Kanal oder Vermittler</strong> dient. Es beantwortet die Frage: „Auf welchem Weg?" oder „Durch wen/was?" Die Konstruktion ist: <strong>Nomen + を通じて/を通して</strong>. Typische Nomen sind: インターネット (Internet), 友人 (Freund), 経験 (Erfahrung), メディア (Medien).',
+          examples: [
+            { jp: 'インターネットを通じて、世界中の人とつながれる。', romaji: 'Intānetto wo tsūjite, sekaijū no hito to tsunagareru.', de: 'Durch das Internet kann man sich mit Menschen auf der ganzen Welt verbinden.' },
+            { jp: '友人を通して、彼と知り合った。', romaji: 'Yūjin wo tōshite, kare to shiraiatta.', de: 'Ich habe ihn über einen Freund kennengelernt.' },
+            { jp: 'ボランティア活動を通じて、多くのことを学んだ。', romaji: 'Borantia katsudō wo tsūjite, ōku no koto wo mananda.', de: 'Durch die Freiwilligenarbeit habe ich viel gelernt.' },
+            { jp: 'この経験を通して、自分の弱さに気づいた。', romaji: 'Kono keiken wo tōshite, jibun no yowasa ni kizuita.', de: 'Durch diese Erfahrung wurde mir meine eigene Schwäche bewusst.' }
+          ],
+          tip: 'Bei der Bedeutung „durch/mittels" sind を通じて und を通して fast immer austauschbar. を通じて klingt etwas formeller.'
+        },
+        {
+          heading: '～を通じて② / を通して② — Über... hinweg / Während des gesamten...',
+          text: 'In der zweiten Bedeutung drücken beide Ausdrücke aus, dass etwas <strong>über den gesamten Zeitraum oder Bereich</strong> hinweg gilt — von Anfang bis Ende, ohne Unterbrechung. Die Konstruktion ist ebenfalls: <strong>Nomen + を通じて/を通して</strong>. Typische Nomen sind: 一年 (ein Jahr), 人生 (Leben), 四季 (vier Jahreszeiten).',
+          examples: [
+            { jp: '一年を通じて、この地域は温暖な気候だ。', romaji: 'Ichinen wo tsūjite, kono chiiki wa ondan na kikō da.', de: 'Das ganze Jahr über herrscht in dieser Region ein mildes Klima.' },
+            { jp: '人生を通して、学び続けることが大切だ。', romaji: 'Jinsei wo tōshite, manabi tsuzukeru koto ga taisetsu da.', de: 'Es ist wichtig, das ganze Leben hindurch weiterzulernen.' },
+            { jp: 'この博物館は一年を通して開館している。', romaji: 'Kono hakubutsukan wa ichinen wo tōshite kaikan shite iru.', de: 'Dieses Museum ist das ganze Jahr über geöffnet.' }
+          ],
+          tip: 'Die zwei Bedeutungen lassen sich leicht unterscheiden: Wenn es um einen Zeitraum geht (一年, 人生, 四季), bedeutet es „über... hinweg". Wenn es um ein Mittel geht (Internet, Freund, Erfahrung), bedeutet es „durch/mittels".'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 69 =====================
+    {
+      id: 'lesson-69',
+      number: 69,
+      title: '～に際して',
+      subtitle: 'Aus gegebenem Anlass — Formell und feierlich',
+      level: 'N2',
+      intro: 'Der Ausdruck ～に際して (にさいして) bedeutet „anlässlich", „bei Gelegenheit von" oder „wenn" und wird für besondere, wichtige Anlässe verwendet. Er ist formeller als ～時に und impliziert, dass der Anlass bedeutsam ist. ～に際して erscheint häufig in Reden, offiziellen Ankündigungen und formellen Schreiben — und natürlich in der N2-Prüfung.',
+      sections: [
+        {
+          heading: '～に際して / に際し / に際しての — Anlässlich / Bei / Im Falle von',
+          text: '際する (さいする) bedeutet „sich bei einer Gelegenheit befinden". ～に際して drückt aus, dass man sich in einer <strong>besonderen Situation oder bei einem wichtigen Anlass</strong> befindet und etwas tut oder beachten muss. Die Konstruktion ist: <strong>Nomen + に際して</strong> oder <strong>Verb (辞書形) + に際して</strong>. Die formellere Kurzform ～に際し wird in Schrifttexten verwendet. Vor Nomen steht ～に際しての.',
+          examples: [
+            { jp: '入学に際して、いくつかの書類を提出してください。', romaji: 'Nyūgaku ni saishite, ikutsuka no shorui wo teishutsu shite kudasai.', de: 'Bei der Einschreibung reichen Sie bitte einige Dokumente ein.' },
+            { jp: '海外旅行に際し、保険に加入することをお勧めします。', romaji: 'Kaigai ryokō ni saishi, hoken ni kanyū suru koto wo osusume shimasu.', de: 'Anlässlich einer Auslandsreise empfehlen wir Ihnen, eine Versicherung abzuschließen.' },
+            { jp: '新しい事業を始めるに際して、市場調査を行った。', romaji: 'Atarashii jigyō wo hajimeru ni saishite, shijō chōsa wo okonatta.', de: 'Anlässlich des Starts eines neuen Geschäfts wurde eine Marktanalyse durchgeführt.' },
+            { jp: '退職に際しての挨拶を述べさせていただきます。', romaji: 'Taishoku ni saishite no aisatsu wo nobesasete itadakimasu.', de: 'Erlauben Sie mir, anlässlich meines Ausscheidens eine Grußrede zu halten.' }
+          ],
+          tip: '～に際して wird fast nur für wichtige, formelle Anlässe verwendet. Für alltägliche Situationen wie „beim Einkaufen" oder „wenn ich nach Hause komme" ist ～時に natürlicher.'
+        },
+        {
+          heading: 'Vergleich: に際して vs. にあたって vs. 時に',
+          text: 'Alle drei können „bei, anlässlich, wenn" bedeuten, aber mit unterschiedlichem Formalitätsgrad und Nuancen. <strong>～時に</strong> ist neutral und alltäglich: „wenn, als". <strong>～にあたって</strong> betont den <em>Beginn</em> oder <em>Start</em> einer wichtigen Unternehmung und beinhaltet oft Entschlossenheit. <strong>～に際して</strong> betont den <em>besonderen Anlass</em> und ist am formellsten. In vielen Fällen sind にあたって und に際して austauschbar.',
+          examples: [
+            { jp: '出発する時に、忘れ物がないか確認した。', romaji: 'Shuppatsu suru toki ni, wasuremono ga nai ka kakunin shita.', de: 'Als ich aufbrach, überprüfte ich, ob ich nichts vergessen hatte. (Neutral)' },
+            { jp: '新年度を迎えるにあたって、新しい目標を立てた。', romaji: 'Shin nendo wo mukaeru ni atatte, atarashii mokuhyō wo tateta.', de: 'Zum Beginn des neuen Jahres setzte ich mir neue Ziele. (Beginn, Entschlossenheit)' },
+            { jp: '式典の開催に際して、多くの方にご協力いただいた。', romaji: 'Shikiten no kaisai ni saishite, ōku no kata ni go-kyōryoku itadaita.', de: 'Anlässlich der Zeremonie haben wir von vielen Unterstützung erhalten. (Formeller Anlass)' }
+          ],
+          tip: 'Faustregel: Alltag → 時に. Neuer Anfang mit Entschlossenheit → にあたって. Formeller, besonderer Anlass → に際して.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 70 =====================
+    {
+      id: 'lesson-70',
+      number: 70,
+      title: '～次第で・次第だ',
+      subtitle: 'Es hängt davon ab — Abhängigkeit und Sofortige Reaktion',
+      level: 'N2',
+      intro: 'Das Wort 次第 (しだい) ist extrem vielseitig und hat in der N2-Grammatik zwei Hauptverwendungen: ～次第で bedeutet „je nach / es hängt ab von", und ～次第 (nach Verb-Stammform) bedeutet „sobald". Beide Verwendungen sind in der Prüfung und im Alltag gleichermaßen wichtig. Diese Lektion erklärt beide Bedeutungen mit klaren Beispielen.',
+      sections: [
+        {
+          heading: '～次第で / 次第だ — Es hängt ab von / Je nach',
+          text: '～次第で drückt aus, dass das Ergebnis <strong>vollständig von einer Bedingung abhängt</strong>. Es betont die entscheidende Rolle dieser Bedingung — ändert sie sich, ändert sich alles. Die Konstruktion ist: <strong>Nomen + 次第で</strong> (adverbial) oder <strong>Nomen + 次第だ</strong> (prädikativ). Häufig wird es mit Wörtern wie 努力 (Anstrengung), やり方 (Vorgehensweise), 考え方 (Denkweise), 天気 (Wetter) kombiniert.',
+          examples: [
+            { jp: '成功するかどうかは、努力次第だ。', romaji: 'Seikō suru ka dō ka wa, doryoku shidai da.', de: 'Ob man Erfolg hat oder nicht, hängt von der Anstrengung ab.' },
+            { jp: 'やり方次第で、結果は大きく変わる。', romaji: 'Yarikata shidai de, kekka wa ōkiku kawaru.', de: 'Je nach Vorgehensweise ändert sich das Ergebnis erheblich.' },
+            { jp: '考え方次第で、困難もチャンスに変わる。', romaji: 'Kangaekata shidai de, konnan mo chansu ni kawaru.', de: 'Je nach Denkweise kann auch eine Schwierigkeit zur Chance werden.' },
+            { jp: '天気次第で、予定を変更するかもしれない。', romaji: 'Tenki shidai de, yotei wo henkō suru kamo shirenai.', de: 'Je nach Wetter ändern wir vielleicht den Plan.' }
+          ],
+          tip: '～次第で betont die vollständige Abhängigkeit: „Alles steht und fällt mit X." Es ist stärker als に応じて, das eher flexible Anpassung ausdrückt.'
+        },
+        {
+          heading: '～次第 — Sobald / Sofort wenn',
+          text: 'Nach der <strong>Verb-Stammform</strong> (ます-Stammform) bedeutet 次第 „sobald, gleich nachdem". Es drückt aus, dass man sofort nach Abschluss einer Handlung etwas tun wird. Die Konstruktion ist: <strong>Verb (ます-Stamm) + 次第</strong>. Dieser Ausdruck ist formell und wird häufig in geschäftlichen Kontexten verwendet, besonders in Versprechen und Ankündigungen.',
+          examples: [
+            { jp: '届き次第、ご連絡いたします。', romaji: 'Todoki shidai, go-renraku itashimasu.', de: 'Sobald es eintrifft, werden wir Sie benachrichtigen.' },
+            { jp: '決まり次第、メールでお知らせします。', romaji: 'Kimari shidai, mēru de oshirase shimasu.', de: 'Sobald es entschieden ist, informieren wir Sie per E-Mail.' },
+            { jp: '準備ができ次第、出発しましょう。', romaji: 'Junbi ga deki shidai, shuppatsu shimashō.', de: 'Sobald die Vorbereitungen fertig sind, brechen wir auf.' },
+            { jp: '新しい情報が入り次第、お伝えします。', romaji: 'Atarashii jōhō ga hairi shidai, otsutae shimasu.', de: 'Sobald neue Informationen vorliegen, teilen wir sie Ihnen mit.' }
+          ],
+          tip: 'Verb-Stamm + 次第 ist sehr praktisch im Geschäftsjapanisch. Es drückt Bereitschaft und Schnelligkeit aus — „Ich warte nur noch auf X und handle dann sofort."'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 71 =====================
+    {
+      id: 'lesson-71',
+      number: 71,
+      title: '～たところ',
+      subtitle: 'Als ich es versuchte — Überraschende Ergebnisse',
+      level: 'N2',
+      intro: 'Der Ausdruck ～たところ hat je nach Kontext verschiedene Bedeutungen, aber die wichtigste N2-Bedeutung ist: „als ich X tat, stellte sich heraus, dass..." Es beschreibt eine Handlung und deren (oft überraschendes) Ergebnis. Es drückt aus, dass man etwas versucht oder getan hat und dabei ein Ergebnis festgestellt hat, das man nicht unbedingt erwartet hatte.',
+      sections: [
+        {
+          heading: '～たところ — Als ich... tat, (stellte sich heraus, dass...)',
+          text: 'Verb (た-Form) + ところ drückt aus, dass man eine Handlung durchgeführt hat und dabei ein <strong>Ergebnis oder eine Entdeckung</strong> gemacht hat. Es impliziert oft, dass das Ergebnis <strong>unerwartet oder bemerkenswert</strong> war. Die Konstruktion ist: <strong>Verb (た-Form) + ところ + Ergebnis</strong>. Der zweite Satzteil beschreibt das Ergebnis — was passiert ist oder was man herausgefunden hat.',
+          examples: [
+            { jp: '先生に聞いたところ、テストは来週だそうだ。', romaji: 'Sensei ni kiita tokoro, tesuto wa raishū da sō da.', de: 'Als ich den Lehrer fragte, sagte er, die Prüfung sei nächste Woche.' },
+            { jp: '薬を飲んだところ、すぐに熱が下がった。', romaji: 'Kusuri wo nonda tokoro, sugu ni netsu ga sagatta.', de: 'Als ich die Medizin nahm, sank das Fieber sofort.' },
+            { jp: '調べたところ、その情報は間違いだった。', romaji: 'Shirabeta tokoro, sono jōhō wa machigai datta.', de: 'Als ich es überprüfte, stellte sich heraus, dass die Information falsch war.' },
+            { jp: '新しいレストランに行ったところ、とてもおいしかった。', romaji: 'Atarashii resutoran ni itta tokoro, totemo oishikatta.', de: 'Als ich das neue Restaurant besuchte, war es überraschend lecker.' },
+            { jp: '電話をかけたところ、留守だった。', romaji: 'Denwa wo kaketa tokoro, rusu datta.', de: 'Als ich anrief, war niemand zu Hause.' }
+          ],
+          tip: '～たところ ≠ ～た時に! ～た時に ist neutral (als ich...). ～たところ impliziert ein Ergebnis, das man durch die Handlung herausgefunden oder erfahren hat — oft mit einem Moment der Überraschung.'
+        },
+        {
+          heading: 'Weitere Verwendungen von ところ',
+          text: 'ところ (Stelle, Punkt) wird in vielen Grammatikausdrücken verwendet. <strong>Verb (辞書形) + ところだ</strong> = „ich bin gerade dabei / kurz davor". <strong>Verb (ている) + ところだ</strong> = „ich bin gerade mitten drin". <strong>Verb (た) + ところだ</strong> = „ich habe es gerade eben getan". Diese beschreiben den <em>Zeitpunkt</em> einer Handlung und sind von der Hauptbedeutung dieser Lektion zu unterscheiden.',
+          examples: [
+            { jp: '今から出かけるところです。', romaji: 'Ima kara dekakeru tokoro desu.', de: 'Ich bin gerade dabei, loszugehen. (Kurz davor)' },
+            { jp: '今、ご飯を食べているところです。', romaji: 'Ima, gohan wo tabete iru tokoro desu.', de: 'Ich bin gerade beim Essen. (Mitten drin)' },
+            { jp: 'たった今、帰ってきたところです。', romaji: 'Tatta ima, kaette kita tokoro desu.', de: 'Ich bin gerade eben nach Hause gekommen. (Gerade erst)' }
+          ],
+          tip: 'Unterscheide: ～たところ (Ergebnis/Entdeckung) vs. ～たところだ (gerade eben erst). Der Schlüssel liegt im Satzmuster: ～たところ + neuer Fakt = Ergebnis. ～たところだ am Satzende = zeitlicher Punkt.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 72 =====================
+    {
+      id: 'lesson-72',
+      number: 72,
+      title: '～ものの・とはいえ',
+      subtitle: 'Zwar... aber — Einschränkungen und Widersprüche',
+      level: 'N2',
+      intro: 'Diese Lektion behandelt zwei konzessive Ausdrücke, die beide „obwohl" oder „zwar... aber" bedeuten. ～ものの räumt etwas ein und fügt dann eine einschränkende oder widersprüchliche Realität hinzu. ～とはいえ geht noch einen Schritt weiter und sagt: „Auch wenn man das so sagt/behauptet, ist die Realität doch anders." Beide sind typische N2-Grammatikpunkte und erscheinen häufig in argumentativen Texten.',
+      sections: [
+        {
+          heading: '～ものの — Zwar... aber / Obwohl... dennoch',
+          text: '～ものの drückt aus, dass etwas zwar wahr ist, das Ergebnis oder die Realität aber <strong>anders als erwartet</strong> ausfällt. Es räumt den ersten Sachverhalt ein, schränkt ihn aber im zweiten Teil ein. Die Konstruktion ist: <strong>Verb (普通形) + ものの</strong>, <strong>い-Adj + ものの</strong>, <strong>な-Adj + な/である + ものの</strong>, <strong>Nomen + である + ものの</strong>. Der zweite Satzteil enthält eine negative Überraschung, ein Problem oder eine Einschränkung.',
+          examples: [
+            { jp: '日本語を3年勉強したものの、まだ上手に話せない。', romaji: 'Nihongo wo sannen benkyō shita mono no, mada jōzu ni hanasenai.', de: 'Obwohl ich drei Jahre Japanisch gelernt habe, kann ich es immer noch nicht gut sprechen.' },
+            { jp: '新しいパソコンを買ったものの、使い方がわからない。', romaji: 'Atarashii pasokon wo katta mono no, tsukaikata ga wakaranai.', de: 'Ich habe zwar einen neuen Computer gekauft, weiß aber nicht, wie man ihn benutzt.' },
+            { jp: '資格は取ったものの、就職先が見つからない。', romaji: 'Shikaku wa totta mono no, shūshokusaki ga mitsukaranai.', de: 'Zwar habe ich die Qualifikation erworben, aber ich finde keine Arbeitsstelle.' },
+            { jp: '計画は立てたものの、実行に移す時間がない。', romaji: 'Keikaku wa tateta mono no, jikkō ni utsusu jikan ga nai.', de: 'Ich habe zwar einen Plan gemacht, habe aber keine Zeit, ihn umzusetzen.' }
+          ],
+          tip: '～ものの drückt oft Frustration oder Enttäuschung aus: „Ich habe mir so Mühe gegeben, aber trotzdem..." Es ist formeller als ～けど und wird häufig in Schrifttexten verwendet.'
+        },
+        {
+          heading: '～とはいえ — Auch wenn man sagt, dass... / Trotzdem',
+          text: '～とはいえ setzt sich zusammen aus と (Zitat), は (Thema), いえ (sagen, von 言える). Wörtlich: „Auch wenn man (das) sagt..." Es räumt eine allgemeine Aussage, Annahme oder Behauptung ein, stellt aber fest, dass die <strong>Realität nicht so einfach ist</strong>. Die Konstruktion ist: <strong>Satz (普通形) + とはいえ</strong> oder <strong>Nomen + とはいえ</strong>.',
+          examples: [
+            { jp: '春とはいえ、まだ寒い日が続いている。', romaji: 'Haru to wa ie, mada samui hi ga tsuzuite iru.', de: 'Auch wenn es Frühling ist, dauern die kalten Tage noch an.' },
+            { jp: '子供とはいえ、礼儀は守るべきだ。', romaji: 'Kodomo to wa ie, reigi wa mamoru beki da.', de: 'Auch wenn es ein Kind ist, sollte es Anstand wahren.' },
+            { jp: '安全だとはいえ、油断は禁物だ。', romaji: 'Anzen da to wa ie, yudan wa kinmotsu da.', de: 'Auch wenn es sicher ist, ist Unachtsamkeit verboten.' },
+            { jp: '経験があるとはいえ、慎重に進めるべきだ。', romaji: 'Keiken ga aru to wa ie, shinchō ni susumeru beki da.', de: 'Auch wenn man Erfahrung hat, sollte man vorsichtig vorgehen.' }
+          ],
+          tip: '～とはいえ ist eleganter und analytischer als ～ものの. Es wird oft verwendet, um eine verbreitete Meinung einzuräumen und dann eine differenziertere Sichtweise hinzuzufügen.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 73 =====================
+    {
+      id: 'lesson-73',
+      number: 73,
+      title: '～わけにはいかない',
+      subtitle: 'Das geht einfach nicht — Moralische Pflicht und soziale Normen',
+      level: 'N2',
+      intro: 'Der Ausdruck ～わけにはいかない bedeutet „ich kann nicht einfach..." oder „es geht nicht, dass..." und drückt aus, dass etwas aus moralischen, sozialen oder situativen Gründen nicht getan werden kann — auch wenn man es vielleicht möchte oder könnte. Es geht nicht um physische Unfähigkeit, sondern um Pflichtgefühl, soziale Normen oder die Umstände. Ein unverzichtbarer N2-Ausdruck.',
+      sections: [
+        {
+          heading: '～わけにはいかない — Ich kann nicht einfach...',
+          text: 'わけ bedeutet „Grund, Sinn" und ～わけにはいかない bedeutet wörtlich „es gibt keinen Grund, warum ich das tun könnte" — also: die Umstände erlauben es nicht. Es drückt aus, dass eine Handlung aus <strong>moralischen, sozialen oder situativen Gründen</strong> nicht vertretbar ist. Die Konstruktion ist: <strong>Verb (辞書形) + わけにはいかない</strong>. Es wird oft für Dinge verwendet, die man gerne tun würde, aber aus Verantwortungsgefühl nicht kann.',
+          examples: [
+            { jp: '具合が悪くても、今日は休むわけにはいかない。', romaji: 'Guai ga warukutemo, kyō wa yasumu wake ni wa ikanai.', de: 'Auch wenn es mir schlecht geht, kann ich heute nicht einfach fehlen.' },
+            { jp: '秘密を聞いたので、他の人に話すわけにはいかない。', romaji: 'Himitsu wo kiita node, hoka no hito ni hanasu wake ni wa ikanai.', de: 'Da ich das Geheimnis erfahren habe, kann ich es nicht einfach anderen erzählen.' },
+            { jp: 'みんなが頑張っているのに、一人だけ帰るわけにはいかない。', romaji: 'Minna ga ganbatte iru no ni, hitori dake kaeru wake ni wa ikanai.', de: 'Wenn alle sich anstrengen, kann ich nicht als Einziger nach Hause gehen.' },
+            { jp: '大事な試験の前に、遊んでいるわけにはいかない。', romaji: 'Daiji na shiken no mae ni, asonde iru wake ni wa ikanai.', de: 'Vor einer wichtigen Prüfung kann ich nicht einfach herumhängen.' }
+          ],
+          tip: '～わけにはいかない ≠ ～できない! できない = physische/technische Unfähigkeit. わけにはいかない = soziale/moralische Unmöglichkeit. „Ich könnte schon, aber ich darf/sollte nicht."'
+        },
+        {
+          heading: '～ないわけにはいかない — Ich muss... (doppelte Verneinung)',
+          text: 'Die doppelt verneinte Form ～ないわけにはいかない bedeutet „ich <strong>muss</strong> etwas tun" — die Umstände lassen mir keine andere Wahl. Wörtlich: „Es geht nicht, es nicht zu tun." Die Konstruktion ist: <strong>Verb (ない-Form) + わけにはいかない</strong>. Es klingt stärker als ～なければならない, weil es die situative Notwendigkeit betont.',
+          examples: [
+            { jp: '招待されたので、行かないわけにはいかない。', romaji: 'Shōtai sareta node, ikanai wake ni wa ikanai.', de: 'Da ich eingeladen wurde, muss ich hingehen.' },
+            { jp: '上司に頼まれたので、断らないわけにはいかない... いや、断れない。', romaji: 'Jōshi ni tanomareta node, kotowaranai wake ni wa ikanai... iya, kotowarenai.', de: 'Da der Chef mich gebeten hat, kann ich nicht nicht ablehnen... nein, ich kann nicht ablehnen.' },
+            { jp: '子供の将来のために、働かないわけにはいかない。', romaji: 'Kodomo no shōrai no tame ni, hatarakanai wake ni wa ikanai.', de: 'Um der Zukunft meines Kindes willen muss ich arbeiten.' }
+          ],
+          tip: 'Die doppelte Verneinung klingt im Deutschen etwas umständlich, ist aber im Japanischen völlig natürlich. Sie drückt eine stärkere Pflicht aus als einfaches ～なければならない.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 74 =====================
+    {
+      id: 'lesson-74',
+      number: 74,
+      title: '～ざるを得ない',
+      subtitle: 'Es bleibt mir nichts anderes übrig — Unvermeidlichkeit',
+      level: 'N2',
+      intro: 'Der Ausdruck ～ざるを得ない (ざるをえない) bedeutet „ich kann nicht umhin, zu..." oder „mir bleibt nichts anderes übrig, als..." und drückt aus, dass man etwas tun muss, auch wenn man es eigentlich nicht möchte. Es ist eine formelle Art zu sagen: „Die Umstände zwingen mich dazu." Dieser Ausdruck verwendet die klassische Verneinungsform ～ざる und klingt sehr gewählt.',
+      sections: [
+        {
+          heading: '～ざるを得ない — Es bleibt nichts anderes übrig als...',
+          text: '～ざる ist die klassische japanische Verneinungsform (wie ～ない, aber aus dem Altjapanischen). 得ない (えない) bedeutet „nicht können". Zusammen: „Man kann es nicht nicht tun" = „Man muss es tun." Die Konstruktion ist: <strong>Verb (ない-Stamm) + ざるを得ない</strong>. Ausnahme: する → <strong>せざるを得ない</strong> (nicht しざる!). Es drückt eine <strong>widerwillige Notwendigkeit</strong> aus — man würde lieber nicht, aber die Umstände lassen keine Wahl.',
+          examples: [
+            { jp: '証拠がそろっている以上、認めざるを得ない。', romaji: 'Shōko ga sorotte iru ijō, mitomezaru wo enai.', de: 'Angesichts der vorliegenden Beweise bleibt nichts anderes übrig, als es anzuerkennen.' },
+            { jp: '予算の関係で、計画を変更せざるを得なかった。', romaji: 'Yosan no kankei de, keikaku wo henkō sezaru wo enakatta.', de: 'Aus Budgetgründen blieb uns nichts anderes übrig, als den Plan zu ändern.' },
+            { jp: '体調が悪く、参加を断念せざるを得ない。', romaji: 'Taichō ga waruku, sanka wo dannen sezaru wo enai.', de: 'Da es mir gesundheitlich schlecht geht, muss ich leider auf die Teilnahme verzichten.' },
+            { jp: '電車が止まったので、タクシーを使わざるを得なかった。', romaji: 'Densha ga tomatta node, takushī wo tsukawazaru wo enakatta.', de: 'Da der Zug ausfiel, blieb mir nichts anderes übrig, als ein Taxi zu nehmen.' }
+          ],
+          tip: 'Achtung bei する: Die Form ist せざるを得ない, NICHT しざるを得ない. Das ist eine der häufigsten Fehlerquellen in der N2-Prüfung!'
+        },
+        {
+          heading: 'Vergleich: ざるを得ない vs. わけにはいかない vs. しかない',
+          text: 'Alle drei drücken Notwendigkeit aus, aber mit unterschiedlichen Nuancen. <strong>～ざるを得ない</strong> = „Die Umstände zwingen mich" (widerwillig, formell). <strong>～ないわけにはいかない</strong> = „Soziale/moralische Pflicht lässt es nicht anders zu." <strong>～しかない</strong> = „Es gibt keine andere Möglichkeit" (sachlich, neutral). ～ざるを得ない ist am formellsten und drückt am stärksten das Gefühl des Widerwillens aus.',
+          examples: [
+            { jp: '上司の命令なので、従わざるを得ない。', romaji: 'Jōshi no meirei na node, shitagawazaru wo enai.', de: 'Da es ein Befehl des Chefs ist, bleibt mir nichts anderes übrig, als zu gehorchen. (Widerwillig)' },
+            { jp: '招待されたので、出席しないわけにはいかない。', romaji: 'Shōtai sareta node, shusseki shinai wake ni wa ikanai.', de: 'Da ich eingeladen wurde, muss ich erscheinen. (Soziale Pflicht)' },
+            { jp: '他に方法がないので、歩くしかない。', romaji: 'Hoka ni hōhō ga nai node, aruku shika nai.', de: 'Da es keine andere Möglichkeit gibt, bleibt nur Laufen. (Sachlich)' }
+          ],
+          tip: 'In der N2-Prüfung werden diese drei gerne als Auswahlmöglichkeiten angeboten. Achte auf den Kontext: Widerwille → ざるを得ない, soziale Pflicht → わけにはいかない, keine Alternative → しかない.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 75 =====================
+    {
+      id: 'lesson-75',
+      number: 75,
+      title: '～かねる・かねない',
+      subtitle: 'Beim besten Willen nicht — und: Es könnte passieren',
+      level: 'N2',
+      intro: 'Die Ausdrücke ～かねる und ～かねない sehen ähnlich aus, haben aber völlig unterschiedliche Bedeutungen. ～かねる bedeutet „ich kann leider nicht..." (höfliche Ablehnung), während ～かねない bedeutet „es könnte durchaus passieren, dass..." (negative Möglichkeit). Beide sind wichtige N2-Punkte und werden in der Prüfung gerne verwechselt — genau deshalb ist es wichtig, sie zusammen zu lernen.',
+      sections: [
+        {
+          heading: '～かねる — Ich kann leider nicht... (höfliche Ablehnung)',
+          text: 'かねる (兼ねる) bedeutet in diesem Kontext „nicht in der Lage sein" und wird als <strong>höfliche, indirekte Ablehnung</strong> verwendet. Es drückt aus: „Ich würde gerne, aber leider kann ich nicht." Die Konstruktion ist: <strong>Verb (ます-Stamm) + かねる</strong>. Dieser Ausdruck ist im Geschäftsjapanisch äußerst verbreitet und wirkt deutlich höflicher als ein direktes ～できません.',
+          examples: [
+            { jp: 'その件については、お答えしかねます。', romaji: 'Sono ken ni tsuite wa, okotae shikanemasu.', de: 'Zu dieser Angelegenheit kann ich leider keine Auskunft geben.' },
+            { jp: 'ご要望には応じかねます。', romaji: 'Go-yōbō ni wa ōjikanemasu.', de: 'Ihrem Wunsch kann ich leider nicht entsprechen.' },
+            { jp: 'この条件では、賛成しかねます。', romaji: 'Kono jōken de wa, sansei shikanemasu.', de: 'Unter diesen Bedingungen kann ich leider nicht zustimmen.' },
+            { jp: '返品は受け付けかねますので、ご了承ください。', romaji: 'Henpin wa uketsuke kanemasu node, go-ryōshō kudasai.', de: 'Rückgaben können wir leider nicht annehmen, bitte haben Sie Verständnis.' }
+          ],
+          tip: '～かねます ist die Standard-Höflichkeitsform im Kundenservice und Geschäftsleben. Wo ein Deutscher „leider nicht möglich" sagt, sagt der Japaner ～かねます.'
+        },
+        {
+          heading: '～かねない — Es könnte durchaus passieren, dass... (Warnung)',
+          text: '～かねない ist die Verneinung von かねる und bedeutet wörtlich „es ist nicht so, dass es nicht passieren kann" — also: <strong>es besteht die Gefahr, dass etwas Negatives passiert</strong>. Die Konstruktion ist: <strong>Verb (ます-Stamm) + かねない</strong>. Es wird fast ausschließlich für <em>negative, unerwünschte Möglichkeiten</em> verwendet und dient als Warnung.',
+          examples: [
+            { jp: 'そんな無理をしたら、倒れかねないよ。', romaji: 'Sonna muri wo shitara, taore kanenai yo.', de: 'Wenn du dich so überanstrengst, könntest du zusammenbrechen.' },
+            { jp: 'この問題を放置すれば、大事故になりかねない。', romaji: 'Kono mondai wo hōchi sureba, dai jiko ni narikanenai.', de: 'Wenn man dieses Problem ignoriert, könnte es zu einem schweren Unfall kommen.' },
+            { jp: '不注意な発言は、誤解を招きかねない。', romaji: 'Fuchūi na hatsugen wa, gokai wo maneki kanenai.', de: 'Unvorsichtige Äußerungen könnten zu Missverständnissen führen.' },
+            { jp: 'このままでは、会社がつぶれかねない。', romaji: 'Kono mama de wa, kaisha ga tsubure kanenai.', de: 'So wie es ist, könnte die Firma zugrunde gehen.' }
+          ],
+          tip: 'Eselsbrücke: かねる = „kann nicht" (höflich). かねない = „kann durchaus" (Warnung). Die Verneinung kehrt die Bedeutung komplett um — das ist ein typischer N2-Stolperstein!'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 76 =====================
+    {
+      id: 'lesson-76',
+      number: 76,
+      title: '～っぽい・がち・気味',
+      subtitle: 'Tendenz, Neigung, ein Hauch von...',
+      level: 'N2',
+      intro: 'Diese Lektion behandelt drei Suffixe, die alle eine Art Tendenz oder Neigung ausdrücken, aber mit unterschiedlichen Nuancen. ～っぽい bedeutet „-artig, -mäßig" und drückt einen Eindruck aus. ～がち bedeutet „dazu neigen, häufig" und beschreibt eine unerwünschte Tendenz. ～気味 bedeutet „ein Hauch von, leicht" und beschreibt einen leichten Zustand. Alle drei sind N2-Klassiker.',
+      sections: [
+        {
+          heading: '～っぽい — -artig / -mäßig / Wirkt wie...',
+          text: '～っぽい wird an Nomen, Verben (ます-Stamm) oder Adjektivstämme gehängt und drückt aus, dass etwas den <strong>Eindruck oder Anschein</strong> von etwas hat — auch wenn es das vielleicht gar nicht ist. Die Konstruktion ist: <strong>Nomen/Verb-Stamm/Adj-Stamm + っぽい</strong>. Es wird wie ein い-Adjektiv konjugiert (っぽくない, っぽかった). Es kann sowohl neutral als auch leicht negativ sein.',
+          examples: [
+            { jp: '彼は怒りっぽい性格だ。', romaji: 'Kare wa okorippoi seikaku da.', de: 'Er hat ein aufbrausendes Temperament. (Neigt zum Wütendwerden)' },
+            { jp: 'この色は白っぽい。', romaji: 'Kono iro wa shiroppoi.', de: 'Diese Farbe ist weißlich. (Wirkt weiß)' },
+            { jp: '最近、忘れっぽくなった。', romaji: 'Saikin, wasureppoku natta.', de: 'In letzter Zeit bin ich vergesslich geworden.' },
+            { jp: 'あの人は子供っぽい。', romaji: 'Ano hito wa kodomoppoi.', de: 'Diese Person ist kindisch/kindlich.' },
+            { jp: '彼女は飽きっぽくて、趣味が長続きしない。', romaji: 'Kanojo wa akippokute, shumi ga nagatsuzuki shinai.', de: 'Sie wird schnell gelangweilt und ihre Hobbys halten nicht lange.' }
+          ],
+          tip: 'っぽい bei Farben = „-lich" (weißlich, bläulich). Bei Personen = oft negativ (kindisch, vergesslich, aufbrausend). Bei Materialien = „wirkt wie" (安っぽい = wirkt billig).'
+        },
+        {
+          heading: '～がち — Dazu neigen / Häufig (unerwünscht)',
+          text: '～がち drückt aus, dass jemand oder etwas eine <strong>unerwünschte Tendenz</strong> hat — etwas passiert häufiger als gewünscht. Die Konstruktion ist: <strong>Verb (ます-Stamm) + がち</strong> oder <strong>Nomen + がち</strong>. ～がち wird wie ein な-Adjektiv verwendet (がちな, がちに). Es hat fast immer eine <em>negative</em> Konnotation.',
+          examples: [
+            { jp: '彼は遅刻しがちだ。', romaji: 'Kare wa chikoku shigachi da.', de: 'Er neigt dazu, zu spät zu kommen.' },
+            { jp: '冬は風邪を引きがちだ。', romaji: 'Fuyu wa kaze wo hikigachi da.', de: 'Im Winter neigt man dazu, sich zu erkälten.' },
+            { jp: '留守がちで、なかなか会えない。', romaji: 'Rusu gachi de, nakanaka aenai.', de: 'Er ist häufig nicht zu Hause, sodass man ihn schwer treffen kann.' },
+            { jp: '忙しいと、食事を抜きがちになる。', romaji: 'Isogashii to, shokuji wo nukigachi ni naru.', de: 'Wenn man beschäftigt ist, neigt man dazu, Mahlzeiten auszulassen.' }
+          ],
+          tip: '～がち beschreibt immer etwas Unerwünschtes. Man sagt nicht 「成功しがち」 (neigt zum Erfolg) — das wäre unnatürlich. Es geht immer um problematische Tendenzen.'
+        },
+        {
+          heading: '～気味 — Ein Hauch von / Leicht / Etwas',
+          text: '～気味 (ぎみ) drückt aus, dass ein Zustand <strong>leicht, ansatzweise</strong> vorhanden ist — nicht voll ausgeprägt, aber spürbar. Die Konstruktion ist: <strong>Verb (ます-Stamm) + 気味</strong> oder <strong>Nomen + 気味</strong>. ～気味 wird wie ein な-Adjektiv oder Nomen behandelt. Es wird häufig für körperliche Zustände und allgemeine Tendenzen verwendet.',
+          examples: [
+            { jp: '最近、太り気味だ。', romaji: 'Saikin, futorigimi da.', de: 'In letzter Zeit habe ich etwas zugenommen.' },
+            { jp: '風邪気味なので、早めに寝ます。', romaji: 'Kaze gimi na node, hayame ni nemasu.', de: 'Da ich eine leichte Erkältung habe, gehe ich früh schlafen.' },
+            { jp: 'このプロジェクトは遅れ気味だ。', romaji: 'Kono purojekuto wa okure gimi da.', de: 'Dieses Projekt hat etwas Verspätung.' },
+            { jp: '最近、疲れ気味で集中できない。', romaji: 'Saikin, tsukare gimi de shūchū dekinai.', de: 'In letzter Zeit bin ich etwas müde und kann mich nicht konzentrieren.' }
+          ],
+          tip: 'Vergleich: っぽい = Eindruck/Anschein (wirkt wie X). がち = häufige negative Tendenz (neigt zu X). 気味 = leichter Zustand (etwas X, ein Hauch von X).'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 77 =====================
+    {
+      id: 'lesson-77',
+      number: 77,
+      title: '～に限って・に限り',
+      subtitle: 'Ausgerechnet! — Begrenzung und Ironie',
+      level: 'N2',
+      intro: 'Der Ausdruck ～に限って hat zwei verschiedene Verwendungen: Die erste bedeutet „nur, beschränkt auf" (formelle Einschränkung) und die zweite drückt Ironie oder Erstaunen aus: „Ausgerechnet X..." Beide Bedeutungen sind für N2 relevant und werden in unterschiedlichen Kontexten verwendet.',
+      sections: [
+        {
+          heading: '～に限り / に限って① — Nur / Beschränkt auf',
+          text: '限る (かぎる) bedeutet „begrenzen, beschränken". ～に限り/に限って in der ersten Bedeutung drückt eine <strong>formelle Einschränkung oder Begrenzung</strong> aus. Die Konstruktion ist: <strong>Nomen + に限り/に限って</strong>. Diese Verwendung ist typisch für Regeln, Angebote, Ankündigungen und offizielle Mitteilungen.',
+          examples: [
+            { jp: '本日に限り、全品20%オフです。', romaji: 'Honjitsu ni kagiri, zenpin nijū pāsento ofu desu.', de: 'Nur heute: 20% Rabatt auf alle Artikel.' },
+            { jp: '会員に限り、特別な割引があります。', romaji: 'Kaiin ni kagiri, tokubetsu na waribiki ga arimasu.', de: 'Nur für Mitglieder gibt es einen besonderen Rabatt.' },
+            { jp: '一人一回に限って、応募できます。', romaji: 'Hitori ikkai ni kagitte, ōbo dekimasu.', de: 'Man kann sich nur einmal pro Person bewerben.' },
+            { jp: '未成年に限り、入場料は無料です。', romaji: 'Miseinen ni kagiri, nyūjōryō wa muryō desu.', de: 'Nur für Minderjährige ist der Eintritt frei.' }
+          ],
+          tip: '～に限り ist formeller als ～だけ und wird besonders in Werbeaktionen, Regelwerken und offiziellen Ankündigungen verwendet.'
+        },
+        {
+          heading: '～に限って② — Ausgerechnet... (Ironie)',
+          text: 'In der zweiten Bedeutung drückt ～に限って <strong>Ironie, Überraschung oder Ärger</strong> aus: „Ausgerechnet in dieser Situation..." oder „Gerade wenn man es nicht braucht..." Es beschreibt Situationen, in denen Murphy\'s Law zuschlägt — gerade das, was nicht passieren sollte, passiert. Die Konstruktion ist: <strong>Nomen + に限って</strong>.',
+          examples: [
+            { jp: '傘を持っていない日に限って、雨が降る。', romaji: 'Kasa wo motte inai hi ni kagitte, ame ga furu.', de: 'Ausgerechnet an dem Tag, an dem ich keinen Schirm dabeihabe, regnet es.' },
+            { jp: '急いでいる時に限って、電車が遅れる。', romaji: 'Isoide iru toki ni kagitte, densha ga okureru.', de: 'Ausgerechnet wenn man es eilig hat, kommt der Zug zu spät.' },
+            { jp: 'うちの子に限って、そんなことはしない。', romaji: 'Uchi no ko ni kagitte, sonna koto wa shinai.', de: 'Ausgerechnet mein Kind würde so etwas nie tun. (Typische Elternaussage)' },
+            { jp: '大事な日に限って、体調が悪くなる。', romaji: 'Daiji na hi ni kagitte, taichō ga waruku naru.', de: 'Ausgerechnet an wichtigen Tagen werde ich krank.' }
+          ],
+          tip: 'Die ironische Bedeutung von ～に限って beschreibt das Gefühl: „Es passiert immer genau dann, wenn es am schlimmsten ist!" Achte in der Prüfung auf den Kontext, um die zwei Bedeutungen zu unterscheiden.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 78 =====================
+    {
+      id: 'lesson-78',
+      number: 78,
+      title: '～向け・向き',
+      subtitle: 'Für wen? Für was? — Zielgruppe und Eignung',
+      level: 'N2',
+      intro: 'Die Ausdrücke ～向け (むけ) und ～向き (むき) beschreiben beide, für wen oder was etwas gedacht oder geeignet ist, haben aber unterschiedliche Nuancen. ～向け bedeutet „speziell für... konzipiert/gerichtet" (bewusste Zielgruppe), während ～向き bedeutet „geeignet für / passend für" (natürliche Eignung). Beide sind im Alltag und in der N2-Prüfung wichtig.',
+      sections: [
+        {
+          heading: '～向け — Speziell für... / Gerichtet an...',
+          text: '向ける (むける) bedeutet „richten auf, ausrichten". ～向け drückt aus, dass etwas <strong>bewusst für eine bestimmte Zielgruppe konzipiert</strong> wurde. Es ist eine aktive Entscheidung des Herstellers, Autors oder Anbieters. Die Konstruktion ist: <strong>Nomen + 向け(の)</strong>. Typische Kontexte sind: Produkte, Bücher, Kurse, Sendungen, Webseiten.',
+          examples: [
+            { jp: 'この教科書は初心者向けです。', romaji: 'Kono kyōkasho wa shoshinsha muke desu.', de: 'Dieses Lehrbuch ist für Anfänger konzipiert.' },
+            { jp: '子供向けのアニメが人気だ。', romaji: 'Kodomo muke no anime ga ninki da.', de: 'Anime für Kinder ist beliebt.' },
+            { jp: '外国人向けの日本語コースに申し込んだ。', romaji: 'Gaikokujin muke no Nihongo kōsu ni mōshikonda.', de: 'Ich habe mich für einen Japanischkurs für Ausländer angemeldet.' },
+            { jp: '高齢者向けのスマートフォンが発売された。', romaji: 'Kōreisha muke no sumātofon ga hatsubai sareta.', de: 'Ein speziell für ältere Menschen entwickeltes Smartphone wurde auf den Markt gebracht.' }
+          ],
+          tip: '～向け impliziert immer eine bewusste Entscheidung: Jemand hat dieses Produkt/Angebot gezielt für diese Zielgruppe gemacht.'
+        },
+        {
+          heading: '～向き — Geeignet für / Passend für',
+          text: '向く (むく) bedeutet „gerichtet sein, passen". ～向き drückt aus, dass etwas <strong>von Natur aus für jemanden oder etwas geeignet</strong> ist — nicht unbedingt bewusst so konzipiert, sondern einfach passend. Die Konstruktion ist: <strong>Nomen + 向き(の)</strong>. Es beschreibt eine natürliche Eignung oder Passung.',
+          examples: [
+            { jp: 'この仕事は几帳面な人向きだ。', romaji: 'Kono shigoto wa kichōmen na hito muki da.', de: 'Diese Arbeit ist für sorgfältige Menschen geeignet.' },
+            { jp: 'この辛い料理は子供向きではない。', romaji: 'Kono karai ryōri wa kodomo muki de wa nai.', de: 'Dieses scharfe Essen ist nicht für Kinder geeignet.' },
+            { jp: '南向きの部屋は明るくて暖かい。', romaji: 'Minami muki no heya wa akarukute atatakai.', de: 'Ein nach Süden ausgerichtetes Zimmer ist hell und warm.' },
+            { jp: 'この映画は大人向きの内容だ。', romaji: 'Kono eiga wa otona muki no naiyō da.', de: 'Dieser Film hat einen Inhalt, der für Erwachsene geeignet ist.' }
+          ],
+          tip: 'Unterschied: 子供向けの本 = ein Buch, das speziell für Kinder geschrieben wurde. 子供向きの本 = ein Buch, das zufällig auch für Kinder passend ist. 向け = gezielt konzipiert. 向き = natürlich passend.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 79 =====================
+    {
+      id: 'lesson-79',
+      number: 79,
+      title: '～末に・あげく',
+      subtitle: 'Nach langem Ringen — Ergebnisse nach Anstrengung',
+      level: 'N2',
+      intro: 'Diese Lektion behandelt zwei Ausdrücke, die beide „nach langem..." oder „als Ergebnis von..." bedeuten, aber mit unterschiedlichen Nuancen. ～末に beschreibt ein Ergebnis nach langer Überlegung oder Anstrengung (neutral bis positiv). ～あげく beschreibt ein Ergebnis nach langer Mühe, das enttäuschend oder negativ ist. Der Unterschied in der Konnotation ist entscheidend für die N2-Prüfung.',
+      sections: [
+        {
+          heading: '～末に / 末の — Am Ende von / Nach langem...',
+          text: '末 (すえ) bedeutet „Ende, Schluss". ～末に drückt aus, dass nach einer <strong>langen Phase der Anstrengung, Überlegung oder des Ringens</strong> ein Ergebnis eintritt. Es ist <strong>neutral bis positiv</strong> — das Ergebnis kann gut oder schlecht sein, aber die Anstrengung wird respektiert. Die Konstruktion ist: <strong>Verb (た-Form) + 末に</strong> oder <strong>Nomen + の末に</strong>.',
+          examples: [
+            { jp: '長い話し合いの末に、ようやく合意に達した。', romaji: 'Nagai hanashiai no sue ni, yōyaku gōi ni tasshita.', de: 'Nach langen Gesprächen wurde endlich eine Einigung erzielt.' },
+            { jp: '悩んだ末に、転職することに決めた。', romaji: 'Nayanda sue ni, tenshoku suru koto ni kimeta.', de: 'Nach langem Überlegen habe ich mich entschieden, den Job zu wechseln.' },
+            { jp: '試行錯誤の末、ようやく解決策を見つけた。', romaji: 'Shikō sakugo no sue, yōyaku kaiketsusaku wo mitsuketa.', de: 'Nach vielem Ausprobieren fand ich endlich eine Lösung.' },
+            { jp: '何度も失敗した末に、ついに成功した。', romaji: 'Nando mo shippai shita sue ni, tsui ni seikō shita.', de: 'Nach vielen Fehlschlägen hatte ich schließlich Erfolg.' }
+          ],
+          tip: '～末に wird oft mit Wörtern wie ようやく (endlich) und ついに (schließlich) kombiniert, die das Gefühl der Erleichterung nach langer Anstrengung verstärken.'
+        },
+        {
+          heading: '～あげく(に) — Nach all dem... und dann (negativ)',
+          text: 'あげく (挙げ句) bedeutet wörtlich „das letzte Ergebnis" und drückt aus, dass nach einer <strong>langen, mühsamen Phase</strong> ein <strong>enttäuschendes oder negatives Ergebnis</strong> eintritt. Die Nuance ist: „Man hat sich so angestrengt, und am Ende ist es trotzdem schiefgegangen." Die Konstruktion ist: <strong>Verb (た-Form) + あげく(に)</strong> oder <strong>Nomen + の + あげく(に)</strong>.',
+          examples: [
+            { jp: '散々迷ったあげく、何も買わなかった。', romaji: 'Sanzan mayotta ageku, nani mo kawanakatta.', de: 'Nach endlosem Hin und Her habe ich am Ende nichts gekauft.' },
+            { jp: '長時間議論したあげく、結論が出なかった。', romaji: 'Chōjikan giron shita ageku, ketsuron ga denakatta.', de: 'Nach stundenlanger Diskussion kam kein Ergebnis heraus.' },
+            { jp: '口論のあげく、二人は別れてしまった。', romaji: 'Kōron no ageku, futari wa wakarete shimatta.', de: 'Nach ständigem Streit haben sich die beiden schließlich getrennt.' },
+            { jp: '苦労したあげく、計画は失敗に終わった。', romaji: 'Kurō shita ageku, keikaku wa shippai ni owatta.', de: 'Trotz aller Mühen endete der Plan als Fehlschlag.' }
+          ],
+          tip: 'Merke: ～末に = Ergebnis nach Anstrengung (neutral/positiv möglich). ～あげく = Ergebnis nach Anstrengung (fast immer negativ/enttäuschend). In der Prüfung achte auf die Stimmung des Satzes!'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 80 =====================
+    {
+      id: 'lesson-80',
+      number: 80,
+      title: '～にしたがって',
+      subtitle: 'Dem Fluss folgend — Parallele Veränderung und Gehorsam',
+      level: 'N2',
+      intro: 'Der Ausdruck ～にしたがって (に従って) hat zwei Hauptbedeutungen: „je mehr... desto..." (parallele Veränderung, ähnlich wie ～につれて) und „gemäß / entsprechend" (einer Regel oder Anweisung folgend). Beide Bedeutungen leiten sich vom Verb 従う (したがう, „folgen, gehorchen") ab und sind für die N2-Prüfung relevant.',
+      sections: [
+        {
+          heading: '～にしたがって① — Je mehr... desto... (parallele Veränderung)',
+          text: 'In der ersten Bedeutung beschreibt ～にしたがって eine <strong>parallele, graduelle Veränderung</strong>: Wenn sich X verändert, verändert sich Y proportional dazu. Die Konstruktion ist: <strong>Verb (辞書形) + にしたがって</strong>. Diese Bedeutung ist sehr ähnlich zu ～につれて und ～に伴って, aber にしたがって betont stärker das „Folgen" — Y folgt der Veränderung von X wie ein natürlicher Verlauf.',
+          examples: [
+            { jp: '高度が上がるにしたがって、気温が下がる。', romaji: 'Kōdo ga agaru ni shitagatte, kion ga sagaru.', de: 'Je höher die Höhe steigt, desto mehr sinkt die Temperatur.' },
+            { jp: '都市化が進むにしたがって、緑地が減少している。', romaji: 'Toshika ga susumu ni shitagatte, ryokuchi ga genshō shite iru.', de: 'Je weiter die Urbanisierung voranschreitet, desto mehr nehmen die Grünflächen ab.' },
+            { jp: '日本語が上手になるにしたがって、日本の文化も深く理解できるようになった。', romaji: 'Nihongo ga jōzu ni naru ni shitagatte, Nihon no bunka mo fukaku rikai dekiru yō ni natta.', de: 'Je besser mein Japanisch wurde, desto tiefer konnte ich auch die japanische Kultur verstehen.' },
+            { jp: '時代が変わるにしたがって、人々の価値観も変化する。', romaji: 'Jidai ga kawaru ni shitagatte, hitobito no kachikan mo henka suru.', de: 'Mit dem Wandel der Zeiten verändern sich auch die Wertvorstellungen der Menschen.' }
+          ],
+          tip: 'にしたがって, につれて und に伴って überschneiden sich in der Bedeutung „je mehr... desto..." Bei graduellen Veränderungen sind alle drei oft austauschbar.'
+        },
+        {
+          heading: '～にしたがって② / に従い — Gemäß / Entsprechend (Anweisung)',
+          text: 'In der zweiten Bedeutung drückt ～にしたがって aus, dass man einer <strong>Regel, Anweisung, Vorschrift oder Person folgt</strong>. Es bedeutet „gemäß, entsprechend, nach". Die Konstruktion ist: <strong>Nomen + にしたがって/に従い</strong>. Die formellere Variante ～に従い wird in offiziellen Texten bevorzugt.',
+          examples: [
+            { jp: '医者の指示にしたがって、薬を飲んでください。', romaji: 'Isha no shiji ni shitagatte, kusuri wo nonde kudasai.', de: 'Bitte nehmen Sie die Medizin gemäß den Anweisungen des Arztes ein.' },
+            { jp: 'ルールに従い、行動してください。', romaji: 'Rūru ni shitagai, kōdō shite kudasai.', de: 'Bitte handeln Sie gemäß den Regeln.' },
+            { jp: '案内表示にしたがって進んでください。', romaji: 'Annai hyōji ni shitagatte susunde kudasai.', de: 'Bitte folgen Sie den Hinweisschildern.' },
+            { jp: '上司の命令に従い、報告書を作成した。', romaji: 'Jōshi no meirei ni shitagai, hōkokusho wo sakusei shita.', de: 'Gemäß der Anweisung des Vorgesetzten erstellte ich einen Bericht.' }
+          ],
+          tip: 'Die zwei Bedeutungen lassen sich leicht unterscheiden: Wenn ein Verb davor steht (変わる, 進む) → parallele Veränderung. Wenn ein Nomen davor steht (指示, ルール, 命令) → Anweisung/Regel folgen.'
+        }
+      ]
     }
   ];
 
