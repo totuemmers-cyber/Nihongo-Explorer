@@ -3,7 +3,7 @@
 
   // === APP OBJECT (shared across sections) ===
   var app = window.app = {
-    activeTab: 'hiragana',
+    activeTab: 'kana',
     activeRadical: null,
     sections: {},
     playTick: playTick,
@@ -101,9 +101,9 @@
   var loadingEl = document.getElementById('loading');
 
   // Tab panels and controls that are not section-managed (kana, quiz)
-  var hiraganaTab = document.getElementById('hiragana-tab');
-  var katakanaTab = document.getElementById('katakana-tab');
+  var kanaTab = document.getElementById('kana-tab');
   var quizTab = document.getElementById('quiz-tab');
+  var activeKanaMode = 'hiragana';
 
   // Section names that have controls + tab panels
   var sectionNames = ['kanji', 'grammar', 'vocab', 'onomatopoeia', 'counters', 'radicals'];
@@ -129,16 +129,15 @@
       if (tabPanels[name]) tabPanels[name].classList.toggle('hidden', tab !== name);
     });
 
-    // Kana tabs (no Section instance)
-    hiraganaTab.classList.toggle('hidden', tab !== 'hiragana');
-    katakanaTab.classList.toggle('hidden', tab !== 'katakana');
+    // Kana tab (no Section instance)
+    kanaTab.classList.toggle('hidden', tab !== 'kana');
 
     // Quiz tab (no Section instance)
     if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
 
     // Tab activate hooks
-    if (tab === 'hiragana' || tab === 'katakana') {
-      renderKanaTab(tab);
+    if (tab === 'kana') {
+      renderKana();
       updateKanaDarkMode();
     } else if (tab === 'quiz') {
       if (window.QuizModule) window.QuizModule.onTabActivate();
@@ -165,10 +164,9 @@
   // === COUNT UPDATE ===
   function updateCount() {
     var tab = app.activeTab;
-    if (tab === 'hiragana') {
-      itemCountEl.textContent = 'Hiragana';
-    } else if (tab === 'katakana') {
-      itemCountEl.textContent = 'Katakana';
+    if (tab === 'kana') {
+      var kanaLabels = { hiragana: 'Hiragana', katakana: 'Katakana', both: 'Hiragana & Katakana' };
+      itemCountEl.textContent = kanaLabels[activeKanaMode] || 'Kana';
     } else if (tab === 'quiz') {
       itemCountEl.textContent = 'Quiz';
     } else if (app.sections[tab]) {
@@ -376,7 +374,7 @@
     // No overlay open — "/" focuses search
     if (e.key === '/') {
       var tab = app.activeTab;
-      if (tab === 'hiragana' || tab === 'katakana') return;
+      if (tab === 'kana') return;
       if (app.sections[tab] && app.sections[tab].dom.search) {
         var input = app.sections[tab].dom.search;
         if (document.activeElement !== input) {
@@ -390,9 +388,9 @@
   // ==========================================
   // === KANA SECTION (unchanged) ===
   // ==========================================
-  function buildKanaTable(rows, type, colHeaders, isYoon) {
+  function buildKanaTable(rows, mode, colHeaders, isYoon) {
     var table = document.createElement('table');
-    table.className = 'kana-table' + (isYoon ? ' yoon-table' : '');
+    table.className = 'kana-table' + (isYoon ? ' yoon-table' : '') + (mode === 'both' ? ' kana-both' : '');
 
     var thead = document.createElement('thead');
     var headerRow = document.createElement('tr');
@@ -432,21 +430,31 @@
           inner.style.background = isDark ? rowColor.darkBg : rowColor.bg;
           inner.style.borderColor = isDark ? rowColor.darkBorder : rowColor.border;
 
-          var charSpan = document.createElement('span');
-          charSpan.className = 'kana-char';
-          charSpan.textContent = type === 'hiragana' ? ch.h : ch.k;
+          if (mode === 'both') {
+            var hSpan = document.createElement('span');
+            hSpan.className = 'kana-char kana-char-h';
+            hSpan.textContent = ch.h;
+            var kSpan = document.createElement('span');
+            kSpan.className = 'kana-char kana-char-k';
+            kSpan.textContent = ch.k;
+            inner.appendChild(hSpan);
+            inner.appendChild(kSpan);
+          } else {
+            var charSpan = document.createElement('span');
+            charSpan.className = 'kana-char';
+            charSpan.textContent = mode === 'hiragana' ? ch.h : ch.k;
+            inner.appendChild(charSpan);
+          }
 
           var romajiSpan = document.createElement('span');
           romajiSpan.className = 'kana-romaji';
           romajiSpan.textContent = ch.r;
           romajiSpan.style.color = rowColor.color;
-
-          inner.appendChild(charSpan);
           inner.appendChild(romajiSpan);
 
           inner.addEventListener('click', function () {
             playTick();
-            speakKana(type === 'hiragana' ? ch.h : ch.k);
+            speakJP(ch.h);
           });
 
           td.appendChild(inner);
@@ -466,10 +474,6 @@
     return table;
   }
 
-  function speakKana(char) {
-    speakJP(char);
-  }
-
   function speakJP(text) {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
@@ -481,7 +485,7 @@
     }
   }
 
-  function createKanaSection(title, icon, rows, type, colHeaders, isYoon) {
+  function createKanaSection(title, icon, rows, mode, colHeaders, isYoon) {
     var section = document.createElement('div');
     section.className = 'kana-section';
 
@@ -498,31 +502,53 @@
 
     var wrapper = document.createElement('div');
     wrapper.className = 'kana-table-wrapper';
-    wrapper.appendChild(buildKanaTable(rows, type, colHeaders, isYoon));
+    wrapper.appendChild(buildKanaTable(rows, mode, colHeaders, isYoon));
     section.appendChild(wrapper);
 
     return section;
   }
 
-  function renderKanaTab(type) {
-    var container = document.getElementById(type + '-content');
-    if (!container || container.children.length > 0) return;
+  var _lastKanaMode = null;
+
+  function renderKana() {
+    var container = document.getElementById('kana-content');
+    if (!container) return;
+    if (_lastKanaMode === activeKanaMode) return;
+    _lastKanaMode = activeKanaMode;
+    container.innerHTML = '';
 
     var data = window.KANA_DATA;
     if (!data) return;
 
+    var mode = activeKanaMode;
     var vowelHeaders = ['a', 'i', 'u', 'e', 'o'];
     var yoonHeaders = ['ya', 'yu', 'yo'];
 
-    var basisIcon = type === 'hiragana' ? '\u3042' : '\u30A2';
-    container.appendChild(createKanaSection('Basis (Goj\u016bon)', basisIcon, data.gojuon, type, vowelHeaders, false));
+    var basisIcon = mode === 'katakana' ? '\u30A2' : '\u3042';
+    container.appendChild(createKanaSection('Basis (Goj\u016bon)', basisIcon, data.gojuon, mode, vowelHeaders, false));
 
-    var dakutenIcon = type === 'hiragana' ? '\u304C' : '\u30AC';
-    container.appendChild(createKanaSection('Dakuten / Handakuten', dakutenIcon, data.dakuten, type, vowelHeaders, false));
+    var dakutenIcon = mode === 'katakana' ? '\u30AC' : '\u304C';
+    container.appendChild(createKanaSection('Dakuten / Handakuten', dakutenIcon, data.dakuten, mode, vowelHeaders, false));
 
-    var yoonIcon = type === 'hiragana' ? '\u304D\u3083' : '\u30AD\u30E3';
-    container.appendChild(createKanaSection('Kombinationen (Y\u014don)', yoonIcon, data.yoon, type, yoonHeaders, true));
+    var yoonIcon = mode === 'katakana' ? '\u30AD\u30E3' : '\u304D\u3083';
+    container.appendChild(createKanaSection('Kombinationen (Y\u014don)', yoonIcon, data.yoon, mode, yoonHeaders, true));
   }
+
+  // Kana toggle buttons
+  document.querySelectorAll('.kana-toggle-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var mode = this.getAttribute('data-kana');
+      activeKanaMode = mode;
+      _lastKanaMode = null;
+      document.querySelectorAll('.kana-toggle-btn').forEach(function (b) {
+        b.classList.toggle('active', b.getAttribute('data-kana') === mode);
+      });
+      renderKana();
+      updateKanaDarkMode();
+      updateCount();
+      playTick();
+    });
+  });
 
   function updateKanaDarkMode() {
     var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
@@ -541,6 +567,6 @@
   // === INIT ===
   initTheme();
   loadData();
-  renderKanaTab('hiragana');
+  renderKana();
   updateKanaDarkMode();
 })();
