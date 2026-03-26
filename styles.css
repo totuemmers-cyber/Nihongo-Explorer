@@ -1,5 +1,82 @@
 /* === NIHONGO EXPLORER - Modern UI === */
 
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--accent);
+  color: white;
+  padding: 8px 16px;
+  z-index: 1000;
+  border-radius: 0 0 8px 0;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* === BOOKMARK SYSTEM === */
+.bm-toggle {
+  position: absolute;
+  right: 36px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  opacity: 0.5;
+  padding: 4px;
+  line-height: 1;
+  transition: opacity var(--transition), color var(--transition);
+}
+
+.bm-toggle:hover,
+.bm-toggle.active {
+  opacity: 1;
+  color: #f59e0b;
+}
+
+.bookmark-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  opacity: 0.4;
+  transition: opacity var(--transition), color var(--transition);
+  padding: 2px;
+  line-height: 1;
+  z-index: 1;
+}
+
+.bookmark-btn:hover,
+.bookmark-btn.active {
+  opacity: 1;
+  color: #f59e0b;
+}
+
+.kanji-card, .grammar-card, .vocab-card, .ono-card, .counter-card, .radical-card {
+  position: relative;
+}
+
+.filter-btn.bm-starred { --btn-color: #f59e0b; }
+
+.detail-bookmark-btn {
+  font-size: 1.3rem;
+  color: var(--text-secondary);
+  transition: color var(--transition);
+}
+
+.detail-bookmark-btn.active {
+  color: #f59e0b;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -337,7 +414,7 @@ body {
 /* === SEARCH BAR === */
 .search-bar {
   position: relative;
-  margin: 8px 0;
+  margin: 6px 0 4px;
 }
 
 .search-icon {
@@ -411,26 +488,34 @@ body {
 /* === FILTERS === */
 .filters {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 12px;
-  padding: 8px 0 12px;
+  gap: 6px;
+  padding: 4px 0;
   flex-wrap: wrap;
+}
+
+.filters + .filters {
+  padding-top: 0;
+}
+
+.sort-controls {
+  margin-left: auto;
 }
 
 .level-filters {
   display: flex;
-  gap: 6px;
+  gap: 4px;
+  flex-wrap: wrap;
 }
 
 .filter-btn {
-  padding: 6px 16px;
+  padding: 4px 12px;
   border: 2px solid var(--border);
   border-radius: var(--radius-pill);
   background: transparent;
   color: var(--text-secondary);
   font-family: var(--font);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-weight: 600;
   cursor: pointer;
   transition: background var(--transition), color var(--transition), border-color var(--transition);
@@ -2119,9 +2204,6 @@ main {
 @media (max-width: 479px) {
   .grammar-grid, .vocab-grid, .ono-grid {
     grid-template-columns: 1fr;
-  }
-  .level-filters {
-    flex-wrap: wrap;
   }
   .tab-btn {
     padding: 8px 12px;

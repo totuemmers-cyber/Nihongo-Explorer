@@ -48,9 +48,29 @@ function getKanjiByRadical() {
   return _kanjiByRadical;
 }
 
+// === Bookmark Utilities ===
+
+function getBookmarks(sectionName) {
+  try { return JSON.parse(localStorage.getItem('bookmarks-' + sectionName) || '[]'); }
+  catch (e) { return []; }
+}
+
+function isBookmarked(sectionName, itemId) {
+  return getBookmarks(sectionName).indexOf(itemId) !== -1;
+}
+
+function toggleBookmark(sectionName, itemId) {
+  var bk = getBookmarks(sectionName);
+  var idx = bk.indexOf(itemId);
+  if (idx === -1) bk.push(itemId);
+  else bk.splice(idx, 1);
+  localStorage.setItem('bookmarks-' + sectionName, JSON.stringify(bk));
+  return idx === -1;
+}
+
 // === Shared Card & Detail Utilities ===
 
-function createBaseCard(className, innerHTML, index, section) {
+function createBaseCard(className, innerHTML, index, section, itemId) {
   var card = document.createElement('div');
   card.className = className;
   card.tabIndex = 0;
@@ -64,6 +84,24 @@ function createBaseCard(className, innerHTML, index, section) {
   card.addEventListener('keydown', function (e) {
     if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
   });
+
+  if (itemId) {
+    var starred = isBookmarked(section.name, itemId);
+    var star = document.createElement('button');
+    star.className = 'bookmark-btn' + (starred ? ' active' : '');
+    star.innerHTML = starred ? '&#9733;' : '&#9734;';
+    star.title = 'Lesezeichen';
+    star.setAttribute('aria-label', 'Lesezeichen');
+    star.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var nowStarred = toggleBookmark(section.name, itemId);
+      star.innerHTML = nowStarred ? '&#9733;' : '&#9734;';
+      star.classList.toggle('active', nowStarred);
+      if (window.app) window.app.playTick();
+    });
+    card.appendChild(star);
+  }
+
   return card;
 }
 
@@ -171,6 +209,79 @@ function renderPitchBadge(reading, pitchNum) {
   return ' <span class="pitch-badge">' + label + '</span>';
 }
 
+function createDetailBookmark(headerSelector, sectionName, itemId) {
+  var header = document.querySelector(headerSelector);
+  var oldBtn = header.querySelector('.detail-bookmark-btn');
+  if (oldBtn) oldBtn.remove();
+  var starred = isBookmarked(sectionName, itemId);
+  var btn = document.createElement('button');
+  btn.className = 'btn btn-icon detail-bookmark-btn' + (starred ? ' active' : '');
+  btn.innerHTML = starred ? '&#9733;' : '&#9734;';
+  btn.title = 'Lesezeichen';
+  btn.setAttribute('aria-label', 'Lesezeichen');
+  btn.addEventListener('click', function () {
+    var nowStarred = toggleBookmark(sectionName, itemId);
+    btn.innerHTML = nowStarred ? '&#9733;' : '&#9734;';
+    btn.classList.toggle('active', nowStarred);
+    if (window.app) window.app.playTick();
+  });
+  header.appendChild(btn);
+}
+
+// Wire bookmark toggle buttons (single button that toggles between 'all' and 'starred')
+function initBookmarkToggles() {
+  document.querySelectorAll('.bm-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var isActive = btn.getAttribute('data-bm') === 'starred';
+      btn.setAttribute('data-bm', isActive ? 'all' : 'starred');
+      btn.innerHTML = isActive ? '&#9734;' : '&#9733;';
+      btn.classList.toggle('active', !isActive);
+      // Find which section this belongs to and update
+      var classes = btn.className.split(' ');
+      for (var i = 0; i < classes.length; i++) {
+        var cls = classes[i];
+        if (cls.indexOf('-bm') !== -1 && cls !== 'bm-toggle') {
+          // Trigger the filter system
+          var sectionMap = {
+            'kanji-bm': 'kanji', 'grammar-bm': 'grammar', 'vocab-bm': 'vocab',
+            'counter-bm': 'counters', 'radical-bm': 'radicals', 'ono-bm': 'onomatopoeia'
+          };
+          var secName = sectionMap[cls];
+          if (secName && window.app && window.app.sections[secName]) {
+            var sec = window.app.sections[secName];
+            sec.filters.bookmarks = isActive ? 'all' : 'starred';
+            sec.applyFilters();
+          }
+          break;
+        }
+      }
+      if (window.app) window.app.playTick();
+    });
+  });
+}
+
+// Wire select-based filters (vocab type dropdown, counter category dropdown)
+function initSelectFilters() {
+  var vocabTypeSelect = document.getElementById('vocab-type-select');
+  if (vocabTypeSelect) {
+    vocabTypeSelect.addEventListener('change', function () {
+      if (window.app && window.app.sections.vocab) {
+        window.app.sections.vocab.filters.type = this.value;
+        window.app.sections.vocab.applyFilters();
+      }
+    });
+  }
+  var counterCatSelect = document.getElementById('counter-cat-select');
+  if (counterCatSelect) {
+    counterCatSelect.addEventListener('change', function () {
+      if (window.app && window.app.sections.counters) {
+        window.app.sections.counters.filters.category = this.value;
+        window.app.sections.counters.applyFilters();
+      }
+    });
+  }
+}
+
 function renderExamplesOrEmpty(elementId, examples) {
   var el = document.getElementById(elementId);
   if (examples && examples.length > 0) {
@@ -247,6 +358,12 @@ SECTION_CONFIGS.kanji = {
   },
   filterGroups: [
     {
+      stateKey: 'bookmarks',
+      selector: '.bm-noop',
+      dataAttr: 'data-bm',
+      defaultValue: 'all'
+    },
+    {
       stateKey: 'level',
       selector: '.filter-btn[data-level]',
       dataAttr: 'data-level',
@@ -258,6 +375,7 @@ SECTION_CONFIGS.kanji = {
   batchSize: 80,
 
   filterFn: function (k, query, filters, section) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('kanji', k.kanji)) return false;
     if (filters.level !== 'all' && k.jlpt !== filters.level) return false;
     if (window.app && window.app.activeRadical) {
       var hasRadical = k.components && k.components.some(function (c) {
@@ -308,7 +426,7 @@ SECTION_CONFIGS.kanji = {
       '<span class="card-level ' + k.jlpt + '">' + k.jlpt + '</span>' +
       '<span class="card-kanji">' + k.kanji + '</span>' +
       '<span class="card-meaning">' + k.meanings[0] + '</span>',
-      index, section);
+      index, section, k.kanji);
   },
 
   openDetail: function (k, dom, section) {
@@ -316,6 +434,7 @@ SECTION_CONFIGS.kanji = {
     var jlptEl = document.getElementById('detail-jlpt');
     jlptEl.textContent = k.jlpt;
     jlptEl.className = 'detail-jlpt-badge ' + k.jlpt;
+    createDetailBookmark('.detail-header', 'kanji', k.kanji);
 
     document.getElementById('detail-meanings').textContent = k.meanings.join(', ');
     document.getElementById('detail-strokes').textContent = k.strokes + ' Striche';
@@ -457,6 +576,12 @@ SECTION_CONFIGS.grammar = {
   },
   filterGroups: [
     {
+      stateKey: 'bookmarks',
+      selector: '.bm-noop',
+      dataAttr: 'data-bm',
+      defaultValue: 'all'
+    },
+    {
       stateKey: 'level',
       selector: '.grammar-level',
       dataAttr: 'data-glevel',
@@ -474,6 +599,7 @@ SECTION_CONFIGS.grammar = {
   batchSize: 0,
 
   filterFn: function (g, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('grammar', g.id)) return false;
     if (filters.level !== 'all' && g.level !== filters.level) return false;
     if (filters.category !== 'all' && g.category !== filters.category) return false;
     if (query) {
@@ -529,7 +655,7 @@ SECTION_CONFIGS.grammar = {
       '</div>' +
       '<div class="grammar-card-meaning">' + g.meaning + '</div>' +
       (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : ''),
-      index, section);
+      index, section, g.id);
     return card;
   },
 
@@ -603,6 +729,12 @@ SECTION_CONFIGS.vocab = {
   },
   filterGroups: [
     {
+      stateKey: 'bookmarks',
+      selector: '.bm-noop',
+      dataAttr: 'data-bm',
+      defaultValue: 'all'
+    },
+    {
       stateKey: 'level',
       selector: '.vocab-level',
       dataAttr: 'data-vlevel',
@@ -610,7 +742,7 @@ SECTION_CONFIGS.vocab = {
     },
     {
       stateKey: 'type',
-      selector: '.vocab-type',
+      selector: '.vtype-noop',
       dataAttr: 'data-vtype',
       defaultValue: 'all'
     }
@@ -620,6 +752,7 @@ SECTION_CONFIGS.vocab = {
   batchSize: 100,
 
   filterFn: function (v, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('vocab', v.word + '|' + (v.reading || ''))) return false;
     if (filters.level !== 'all' && v.level !== filters.level) return false;
     if (filters.type !== 'all' && v.type !== filters.type) return false;
     if (query) {
@@ -671,7 +804,7 @@ SECTION_CONFIGS.vocab = {
       '</div>' +
       '<div class="vocab-card-reading">' + (v.reading || '') + renderPitchBadge(v.reading || '', v.pitch) + '</div>' +
       '<div class="vocab-card-meaning">' + v.meaning + '</div>',
-      index, section);
+      index, section, v.word + '|' + (v.reading || ''));
   },
 
   openDetail: function (v, dom, section) {
@@ -685,6 +818,7 @@ SECTION_CONFIGS.vocab = {
 
     // Speak button
     createSpeakButton('.vocab-detail-header', v.word);
+    createDetailBookmark('.vocab-detail-header', 'vocab', v.word + '|' + (v.reading || ''));
 
     document.getElementById('vocab-detail-reading').textContent = v.reading || '';
     var pitchEl = document.getElementById('vocab-detail-pitch');
@@ -826,6 +960,12 @@ SECTION_CONFIGS.counters = {
   },
   filterGroups: [
     {
+      stateKey: 'bookmarks',
+      selector: '.bm-noop',
+      dataAttr: 'data-bm',
+      defaultValue: 'all'
+    },
+    {
       stateKey: 'level',
       selector: '.counter-level',
       dataAttr: 'data-clevel',
@@ -833,7 +973,7 @@ SECTION_CONFIGS.counters = {
     },
     {
       stateKey: 'category',
-      selector: '.counter-cat',
+      selector: '.ccat-noop',
       dataAttr: 'data-ccat',
       defaultValue: 'all'
     }
@@ -852,6 +992,7 @@ SECTION_CONFIGS.counters = {
   },
 
   filterFn: function (c, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('counters', c.id)) return false;
     if (filters.level !== 'all' && c.level !== filters.level) return false;
     if (filters.category !== 'all' && c.category !== filters.category) return false;
     if (query) {
@@ -888,7 +1029,7 @@ SECTION_CONFIGS.counters = {
       '<div class="counter-card-reading">' + c.reading + ' (' + c.romaji + ')</div>' +
       '<div class="counter-card-meaning">' + c.meaning + '</div>' +
       previewHtml,
-      index, section);
+      index, section, c.id);
   },
 
   openDetail: function (c, dom, section) {
@@ -975,6 +1116,12 @@ SECTION_CONFIGS.radicals = {
   },
   filterGroups: [
     {
+      stateKey: 'bookmarks',
+      selector: '.bm-noop',
+      dataAttr: 'data-bm',
+      defaultValue: 'all'
+    },
+    {
       stateKey: 'strokes',
       selector: '.radical-stroke',
       dataAttr: 'data-rstrokes',
@@ -986,6 +1133,7 @@ SECTION_CONFIGS.radicals = {
   batchSize: 0,
 
   filterFn: function (r, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('radicals', '' + r.number)) return false;
     if (filters.strokes !== 'all') {
       if (filters.strokes === '9') {
         if (r.strokes < 9) return false;
@@ -1014,7 +1162,7 @@ SECTION_CONFIGS.radicals = {
       '<span class="radical-card-char">' + r.radical + '</span>' +
       '<span class="radical-card-meaning">' + r.meaning + '</span>' +
       '<span class="radical-card-reading">' + r.reading + '</span>',
-      index, section);
+      index, section, '' + r.number);
   },
 
   openDetail: function (r, dom, section) {
@@ -1066,6 +1214,12 @@ SECTION_CONFIGS.onomatopoeia = {
   },
   filterGroups: [
     {
+      stateKey: 'bookmarks',
+      selector: '.bm-noop',
+      dataAttr: 'data-bm',
+      defaultValue: 'all'
+    },
+    {
       stateKey: 'level',
       selector: '.ono-level',
       dataAttr: 'data-olevel',
@@ -1089,6 +1243,7 @@ SECTION_CONFIGS.onomatopoeia = {
   batchSize: 0,
 
   filterFn: function (o, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('onomatopoeia', o.word)) return false;
     if (filters.level !== 'all' && o.level !== filters.level) return false;
     if (filters.category !== 'all' && o.category !== filters.category) return false;
     if (filters.pattern !== 'all' && o.pattern !== filters.pattern) return false;
@@ -1137,9 +1292,9 @@ SECTION_CONFIGS.onomatopoeia = {
         '<span class="ono-card-word">' + o.word + '</span>' +
         '<span class="ono-category-badge ' + o.category + '">' + o.category + '</span>' +
       '</div>' +
-      '<div class="ono-card-reading">' + (o.reading || '') + '</div>' +
+      '<div class="ono-card-reading">' + (o.reading || '') + renderPitchBadge(o.reading || '', o.pitch) + '</div>' +
       '<div class="ono-card-meaning">' + o.meaning + '</div>',
-      index, section);
+      index, section, o.word);
   },
 
   openDetail: function (o, dom, section) {
@@ -1153,8 +1308,17 @@ SECTION_CONFIGS.onomatopoeia = {
 
     // Speak button
     createSpeakButton('.ono-detail-header', o.word);
+    createDetailBookmark('.ono-detail-header', 'onomatopoeia', o.word);
 
     document.getElementById('ono-detail-reading').textContent = o.reading || '';
+    var onoPitchEl = document.getElementById('ono-detail-pitch');
+    if (o.pitch !== undefined && o.pitch !== null && o.pitch >= 0) {
+      onoPitchEl.innerHTML = renderPitchSVG(o.reading || '', o.pitch);
+      onoPitchEl.classList.remove('hidden');
+    } else {
+      onoPitchEl.innerHTML = '';
+      onoPitchEl.classList.add('hidden');
+    }
     document.getElementById('ono-detail-romaji').textContent = o.romaji || '';
     document.getElementById('ono-detail-meaning').textContent = o.meaning;
     document.getElementById('ono-detail-usage-line').textContent =
