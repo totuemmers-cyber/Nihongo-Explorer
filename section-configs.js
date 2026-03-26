@@ -1231,12 +1231,6 @@ SECTION_CONFIGS.onomatopoeia = {
       dataAttr: 'data-ocat',
       defaultValue: 'all'
     },
-    {
-      stateKey: 'pattern',
-      selector: '.ono-pat',
-      dataAttr: 'data-opat',
-      defaultValue: 'all'
-    }
   ],
   countLabel: ' Lautmalerei',
   defaultSort: 'category',
@@ -1246,7 +1240,6 @@ SECTION_CONFIGS.onomatopoeia = {
     if (filters.bookmarks === 'starred' && !isBookmarked('onomatopoeia', o.word)) return false;
     if (filters.level !== 'all' && o.level !== filters.level) return false;
     if (filters.category !== 'all' && o.category !== filters.category) return false;
-    if (filters.pattern !== 'all' && o.pattern !== filters.pattern) return false;
     if (query) {
       var matchWord = o.word.indexOf(query) !== -1;
       var matchReading = o.reading && o.reading.indexOf(query) !== -1;
@@ -1290,7 +1283,10 @@ SECTION_CONFIGS.onomatopoeia = {
     return createBaseCard('ono-card',
       '<div class="ono-card-header">' +
         '<span class="ono-card-word">' + o.word + '</span>' +
-        '<span class="ono-category-badge ' + o.category + '">' + o.category + '</span>' +
+        '<div class="ono-card-badges">' +
+          '<span class="ono-category-badge ' + o.category + '">' + o.category + '</span>' +
+          (o.pattern ? '<span class="ono-pattern-badge-sm">' + o.pattern + '</span>' : '') +
+        '</div>' +
       '</div>' +
       '<div class="ono-card-reading">' + (o.reading || '') + renderPitchBadge(o.reading || '', o.pitch) + '</div>' +
       '<div class="ono-card-meaning">' + o.meaning + '</div>',
@@ -1348,7 +1344,6 @@ SECTION_CONFIGS.onomatopoeia = {
             // Item might be filtered out — reset filters and find it
             if (section.allItems.some(function (item) { return item.word === targetWord; })) {
               section.resetFilterGroup('category');
-              section.resetFilterGroup('pattern');
               section.dom.search.value = '';
               section.applyFilters();
               var newIndex = section.filteredItems.findIndex(function (item) { return item.word === targetWord; });

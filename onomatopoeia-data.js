@@ -13,7 +13,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Klopfen, dröhnend; schnell voranschreitend",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb",
     "explanation": "Beschreibt ein lautes, rhythmisches Klopfen oder Hämmern. Wird auch bildlich für rasanten Fortschritt verwendet.",
@@ -32,7 +32,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Rauschen, prasseln (starker Regen)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt das Geräusch von starkem Regen oder fließendem Wasser.",
@@ -50,7 +50,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Klappern, rattern, wackeln",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein klapperiges, ratterndes Geräusch. Kann auch Zittern oder Instabilität ausdrücken.",
@@ -69,7 +69,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Totenstille",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "Sonstige",
     "level": "N3",
     "usage": "Adverb, と",
     "explanation": "Paradoxes Lautwort: beschreibt absolute Stille durch ein 'Geräusch der Stille'.",
@@ -87,7 +87,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Wau wau (Hundebellen)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N5",
     "usage": "Adverb",
     "explanation": "Beschreibt das Bellen eines Hundes. Wird auch als Kindersprache für 'Hund' verwendet.",
@@ -105,7 +105,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Miau (Katzenmiauen)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N5",
     "usage": "Adverb",
     "explanation": "Beschreibt das Miauen einer Katze.",
@@ -123,7 +123,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Knackend, knisternd; energisch",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt ein hartes Knack- oder Reißgeräusch. Wird auch für energisches, fleißiges Arbeiten verwendet.",
@@ -142,7 +142,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Klirren, Klappern (Metall)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt metallische Klappergeräusche, wie klirrende Schlüssel oder Geschirr.",
@@ -160,7 +160,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Donnergrollen; Herumliegen; Rollen",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Vielseitiges Lautwort: Donnergrollen, Magenknurren, faul herumliegen oder das Geräusch rollender Gegenstände.",
@@ -179,7 +179,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Knistern, Klatschen, Knacksen",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb",
     "explanation": "Beschreibt das Geräusch von Applaus, knisterndem Feuer oder Blinzeln der Augen.",
@@ -197,7 +197,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Klopf klopf (leichtes Klopfen)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb",
     "explanation": "Beschreibt ein leichtes, rhythmisches Klopfen — leiser und sanfter als ドンドン.",
@@ -215,7 +215,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Klopf klopf (an der Tür)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb",
     "explanation": "Beschreibt das Klopfen an einer Tür oder auf einer harten Oberfläche.",
@@ -233,7 +233,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Sanft, leise (Nieselregen)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt sanften, leisen Regen — feiner Nieselregen.",
@@ -251,7 +251,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Vereinzelt, tröpfelnd (leichter Regen); blätternd",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt vereinzelte Tropfen, leichten Regen oder das Durchblättern von Seiten.",
@@ -270,7 +270,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Knallen, Hämmern (laut)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb",
     "explanation": "Beschreibt lautes Knallen oder energisches Tun.",
@@ -288,7 +288,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Brüllen (Löwe, Monster)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "Sonstige",
     "level": "N5",
     "usage": "Ausruf",
     "explanation": "Beschreibt das Brüllen eines großen Tieres oder Monsters.",
@@ -306,7 +306,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Fließend (Sprache); dünn (Papier)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, な-Adjektiv",
     "explanation": "Beschreibt fließendes Sprechen einer Fremdsprache oder dünnes, leicht flatterndes Material.",
@@ -324,7 +324,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Hupen, Brummen; Meckern (Schwein)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N5",
     "usage": "Adverb",
     "explanation": "Beschreibt Hupgeräusche, das Grunzen eines Schweins oder auch Beschwerden.",
@@ -342,7 +342,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Ticken; steinhart",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, の",
     "explanation": "Beschreibt das Ticken einer Uhr, Klickgeräusche oder extreme Härte.",
@@ -361,7 +361,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Kratzen, Schaben; sehr dünn (Person)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, の",
     "explanation": "Beschreibt kratzende/schabende Geräusche oder eine sehr dürre Person.",
@@ -379,7 +379,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Knuspern, Knabbern; Kratzen",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb",
     "explanation": "Beschreibt das knusprige Geräusch beim Essen oder das Kratzen am Kopf.",
@@ -397,7 +397,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Tosen, Brausen (Wind, Feuer)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt ein tiefes Tosen wie starker Wind, Feuer oder Wasser.",
@@ -415,7 +415,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Heulen, Pfeifen (starker Wind)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt das Heulen oder Pfeifen von starkem Wind.",
@@ -433,7 +433,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Klirren (Geschirr, Tastatur)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt leichtes Klirren von Geschirr oder das Klappern einer Tastatur.",
@@ -451,7 +451,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Sengend (Hitze); Klingeln (Wecker); langsam vorrückend",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb",
     "explanation": "Beschreibt sengende Sonnenhitze, das Klingeln eines alten Weckers oder langsames Vorrücken.",
@@ -473,7 +473,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Funkelnd, glitzernd",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Beschreibt funkelndes, glitzerndes Licht — wie Sterne, Schmuck oder Augen.",
@@ -491,7 +491,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Flauschig, weich, schwebend",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt etwas Weiches, Flauschiges oder leicht Schwebendes.",
@@ -510,7 +510,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Blitzblank, glänzend",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N5",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt etwas Glänzendes, Blitzblankes oder Nagelneues.",
@@ -529,7 +529,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Klebrig, verschwitzt; anklammern",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt eine klebrige Oberfläche, schwitzige Haut oder übertriebene körperliche Nähe.",
@@ -548,7 +548,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Schleimig, zähklebrig, fädenziehend",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt zähklebrige, fädenziehende Konsistenz wie bei Nattou oder Okra.",
@@ -566,7 +566,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Glatt, seidig (Haar); rieselnd; fließend",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, の",
     "explanation": "Beschreibt seidiges Haar, rieselnden Sand oder leicht fließendes Wasser.",
@@ -585,7 +585,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Glatt, rutschig, schlüpfrig",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt eine sehr glatte, rutschige Oberfläche. Auch für das Schlürfen von Nudeln.",
@@ -604,7 +604,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Fettig, ölig, schmierig",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt eine fettige, ölige Oberfläche oder Essen.",
@@ -622,7 +622,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Ausgetrocknet, knochentrocken; Klappergeräusch",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt extreme Trockenheit (Kehle, Erde) oder ein leichtes Klappergeräusch.",
@@ -640,7 +640,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Trocken, ausgedörrt (Essen, Haar)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt trockenes, ausgetrocknetes Essen oder trockenes Haar ohne Feuchtigkeit.",
@@ -658,7 +658,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Grell, blendend (Sonne, Licht)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt grelles, unangenehm blendendes Licht oder einen intensiven, stechenden Blick.",
@@ -676,7 +676,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Glänzend, fettig-glänzend",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt einen fettigen oder öligen Glanz auf einer Oberfläche.",
@@ -694,7 +694,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Plüschig, flauschig (Fell, Tier)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt weiches, dichtes Fell oder flauschiges Material. Neueres, trendiges Wort.",
@@ -712,7 +712,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Glitschig, schleimig",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt eine glitschige, schleimige Oberfläche — wie nasser Fisch oder Algen.",
@@ -730,7 +730,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Zerfallen, abgenutzt, erschöpft",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, の",
     "explanation": "Beschreibt etwas Zerfallenes, Abgenutztes oder eine Person in schlechtem Zustand.",
@@ -749,7 +749,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Seidenglatt (Haut)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt glatte, weiche Haut oder Oberflächen.",
@@ -767,7 +767,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Feucht, schwül, dumpf",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt feuchtes, schwüles Klima oder eine dumpfe, bedrückende Atmosphäre.",
@@ -785,7 +785,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Schwül, stickig",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt schwüles, stickiges Wetter mit hoher Luftfeuchtigkeit.",
@@ -803,7 +803,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Weich-elastisch, zäh (Mochi-artig)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt die weiche, elastische, kaubare Textur wie bei Mochi-Reiskuchen.",
@@ -821,7 +821,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Knusprig, kross",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt eine knusprige, krosse Textur bei Lebensmitteln.",
@@ -839,7 +839,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Knusprig, knackig; zügig (Arbeit)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt eine leichte, knusprige Textur (Kekse, Tempura) oder zügiges Vorankommen.",
@@ -858,7 +858,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Rau, knorrig, holprig",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt eine raue, unebene Oberfläche oder knotige Hände.",
@@ -876,7 +876,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Steif, starr; steinhart",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, の",
     "explanation": "Beschreibt etwas Steifes, Starres — körperlich oder vor Nervosität.",
@@ -894,7 +894,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Weich, mollig, puddingartig",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt weiche, nachgiebige Textur — wie Babywangen oder Gummibärchen.",
@@ -912,7 +912,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Matschig, schlammig; verworren (Beziehung)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt eine schlammige, dickflüssige Konsistenz oder eine verworrene, unschöne Situation.",
@@ -934,7 +934,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Aufgeregt, erwartungsvoll",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N5",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein Gefühl freudiger Aufregung und Vorfreude.",
@@ -952,7 +952,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Herzklopfen, aufgeregt, nervös",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N5",
     "usage": "Adverb, する",
     "explanation": "Beschreibt das Pochen des Herzens bei Aufregung, Nervosität oder Verliebtheit.",
@@ -971,7 +971,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Gereizt, genervt, ungeduldig",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein Gefühl der Gereiztheit, Ungeduld oder Frustration.",
@@ -989,7 +989,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Bange, besorgt; rieselnd (Blätter)",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt bange Spannung und Besorgnis (z.B. beim Zusehen). Auch: das Rieseln fallender Blätter oder Tränen.",
@@ -1008,7 +1008,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Lächelnd, strahlend",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N5",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein fröhliches, strahlendes Lächeln.",
@@ -1026,7 +1026,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Grinsen (schelmisch, schadenfroh)",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein schelmisches oder hintergründiges Grinsen.",
@@ -1044,7 +1044,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Beschwingt, fröhlich, heiter",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein beschwingtes, fröhliches Gefühl.",
@@ -1062,7 +1062,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Fröhlich summend, gut gelaunt",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt eine gut gelaunte, vor sich hin summende Stimmung.",
@@ -1080,7 +1080,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Übel (Magen); wütend",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt Übelkeit oder ein Gefühl der Wut.",
@@ -1099,7 +1099,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Ängstlich zitternd, mit Schrecken",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein Gefühl kalter Angst oder des Erschreckens.",
@@ -1117,7 +1117,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Schauer, Gänsehaut; Frösteln",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt Schauer der Angst, Aufregung oder Kälte. Auch Frösteln bei Fieber.",
@@ -1135,7 +1135,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Zitternd (vor Kälte/Angst)",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Beschreibt körperliches Zittern vor Kälte oder Angst.",
@@ -1153,7 +1153,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Gereizt, angespannt; knusprig",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt gereiztes, angespanntes Verhalten oder eine knusprige Textur.",
@@ -1171,7 +1171,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Überdrüssig, es satt haben",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABり",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein Gefühl der Erschöpfung und des Überdrusses.",
@@ -1189,7 +1189,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Erleichtert aufatmen",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABっと",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt das Gefühl der Erleichterung, wenn eine Sorge vorbei ist.",
@@ -1207,7 +1207,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Enttäuscht, niedergeschlagen",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABり",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein Gefühl der Enttäuschung.",
@@ -1225,7 +1225,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Ängstlich, furchtsam, eingeschüchtert",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt einen Zustand ängstlicher Einschüchterung.",
@@ -1243,7 +1243,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Nervös, unsicher, eingeschüchtert",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt nervöses, unsicheres Verhalten.",
@@ -1261,7 +1261,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Weinerlich, schluchzend",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt weinerliches, leises Weinen oder Jammern.",
@@ -1279,7 +1279,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Leise weinen, schluchzen",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt leises, unterdrücktes Weinen oder Schluchzen.",
@@ -1297,7 +1297,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Grübeln, sich Sorgen machen",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt das ständige Grübeln und Sich-Sorgen-Machen über Vergangenes.",
@@ -1315,7 +1315,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Unruhig, nervös, zappelig",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt nervöse Unruhe, Zappeligkeit — kann nicht stillsitzen.",
@@ -1333,7 +1333,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Geistesabwesend, zerstreut, benommen",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABっと",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Beschreibt einen Zustand der Geistesabwesenheit oder des Vor-sich-hin-Starrens.",
@@ -1351,7 +1351,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Trübe (Augen); armselig, kläglich",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt müde, trübe Augen oder ein armseliges, klägliches Aussehen/Gefühl.",
@@ -1369,7 +1369,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Erfrischt, klar, befreit",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABり",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein Gefühl der Erfrischung, Klarheit oder Erleichterung.",
@@ -1391,7 +1391,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Langsam, schleppend, im Schneckentempo",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt sehr langsames, schleppiges Bewegen.",
@@ -1409,7 +1409,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Fließend, flüssig, mühelos",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt müheloses, fließendes Tun — Sprechen, Lesen, Schreiben.",
@@ -1427,7 +1427,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Taumelig, schwankend, orientierungslos",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Beschreibt schwankendes Gehen (vor Erschöpfung, Trunkenheit) oder zielloses Herumirren.",
@@ -1446,7 +1446,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Hektisch, trappelnd, flatternd",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Beschreibt hektisches Hin-und-Her-Gerenne, Flattern oder allgemeine Hektik.",
@@ -1464,7 +1464,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Herumirren, umherstreifen",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt zielloses Herumirren oder Umherstreifen.",
@@ -1482,7 +1482,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Sich neugierig umsehen, Augen überall",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt das neugierige oder nervöse Umherschauen.",
@@ -1500,7 +1500,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Niedergeschlagen dahinschleppend",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb",
     "explanation": "Beschreibt trauriges, niedergeschlagenes Dahinschleppen.",
@@ -1518,7 +1518,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Schlapp, träge; tropfend; endlos",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Beschreibt träges, schlaffes Verhalten, langsames Tropfen oder endloses Hinziehen.",
@@ -1537,7 +1537,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Hektisch, rastlos, getrieben",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt hektisches, rastloses Verhalten — immer in Eile.",
@@ -1555,7 +1555,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Polternd, chaotisch, hektisch",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "Sonstige",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt lautes, chaotisches Herumpoltern oder chaotische Hektik.",
@@ -1573,7 +1573,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Gemächlich zu Fuß gehend",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt gemächliches, ausdauerndes Gehen.",
@@ -1591,7 +1591,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Trippelnd, mit kleinen Schritten",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt das niedliche Trippeln mit kleinen Schritten (Kind, kleines Tier).",
@@ -1609,7 +1609,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Wankend, taumelnd (schwach)",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt schwaches, wankendes Gehen — stärker als フラフラ.",
@@ -1627,7 +1627,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Zügig, strammen Schrittes",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt zügiges, entschlossenes Gehen.",
@@ -1645,7 +1645,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Langsam, vorsichtig; allmählich (bald)",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb",
     "explanation": "Beschreibt langsames, vorsichtiges Bewegen oder drückt aus, dass es 'bald so weit' ist.",
@@ -1664,7 +1664,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Drehend, wirbelnd, sich drehend",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt Drehbewegungen oder wirbelnde Bewegungen.",
@@ -1682,7 +1682,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Im Kreis drehend, rund und rund",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt wiederholtes Im-Kreis-Drehen oder Herumwickeln.",
@@ -1701,7 +1701,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Flatternd, wehend (leicht)",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N1",
     "usage": "Adverb",
     "explanation": "Beschreibt das leichte Flattern von Blättern, Stoff oder Papier.",
@@ -1719,7 +1719,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Kräftig schrubbend, reibend",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt kräftiges Schrubben oder Reiben.",
@@ -1737,7 +1737,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Fest (zupacken), heftig (emotional bewegt)",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABっと",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt eine feste, entschlossene Bewegung oder ein plötzlich starkes Gefühl.",
@@ -1756,7 +1756,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Fest (drücken, umarmen, zusammenpressen)",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABっと",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt festes Drücken, Umarmen oder Zusammenpressen.",
@@ -1774,7 +1774,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Schnell, flink, im Nu",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABっと",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt eine schnelle, flinke Bewegung oder Handlung.",
@@ -1792,7 +1792,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Plötzlich, schlagartig; aufblühend",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABっと",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt eine plötzliche Aktion oder ein schlagartiges Aufleuchten/Aufblühen.",
@@ -1811,7 +1811,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Herzhaft zubeißen",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABっと",
     "level": "N2",
     "usage": "Adverb",
     "explanation": "Beschreibt einen herzhaften, kräftigen Biss.",
@@ -1829,7 +1829,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Herumschlendern, baumeln",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Beschreibt zielloses Herumschlendern oder das Baumeln von Gegenständen.",
@@ -1851,7 +1851,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Geplapper, Geschwätz",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "Sonstige",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt lebhaftes, informelles Geplauder, oft abwertend für übermäßiges Reden.",
@@ -1869,7 +1869,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Murmeln, Vor-sich-hin-Meckern",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt leises, unzufriedenes Murmeln oder Vor-sich-hin-Beschweren.",
@@ -1887,7 +1887,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Undeutlich murmeln, nuscheln",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb",
     "explanation": "Beschreibt leises, undeutliches Sprechen, bei dem man kaum etwas versteht.",
@@ -1905,7 +1905,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Rascheln, Rauschen",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt das Rascheln von Blättern, Papier oder Stoff. Auch für raue, trockene Haut.",
@@ -1923,7 +1923,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Klappern, Rattern",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein leichtes, wiederholtes Klappergeräusch, z.B. von einer Tastatur oder klappernden Zähnen.",
@@ -1941,7 +1941,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Knarren, Ächzen (Holz)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N1",
     "usage": "Adverb",
     "explanation": "Beschreibt das Knarren von Holz, Dielen oder alten Treppen unter Belastung.",
@@ -1959,7 +1959,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Metallisches Klingen; sengend heiß",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt ein helles metallisches Klingelgeräusch (z.B. Bahnübergang). Auch: sengende Sonnenhitze oder extreme Wut.",
@@ -1978,7 +1978,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Rauschen (fließendes Wasser)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt das Geräusch von stark fließendem Wasser, z.B. aus einem Wasserhahn oder einer Dusche.",
@@ -1996,7 +1996,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Lautes Knarren, Quietschen",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N1",
     "usage": "Adverb",
     "explanation": "Beschreibt ein lautes, beanspruchendes Knarren, z.B. von überlasteten Holzstrukturen oder Scharnieren.",
@@ -2014,7 +2014,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Klingeln (Glocke, Fahrradklingel)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb",
     "explanation": "Beschreibt ein helles, metallisches Klingeln, typisch für kleine Glocken oder Fahrradklingeln.",
@@ -2032,7 +2032,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Mit einem dumpfen Aufprall",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABっと",
     "level": "N2",
     "usage": "Adverb",
     "explanation": "Beschreibt ein schweres, dumpfes Geräusch beim Hinfallen oder Ablegen schwerer Gegenstände.",
@@ -2050,7 +2050,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Leises Rascheln; trocken, rau",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt das leise Rascheln von trockenen Blättern oder Papier. Auch: trockene, raue Haut.",
@@ -2069,7 +2069,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Gluckern (beim Trinken)",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt das Geräusch beim gierigen, schnellen Trinken in großen Schlucken.",
@@ -2089,7 +2089,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Völlig erschöpft, am Ende",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "な-Adjektiv, の",
     "explanation": "Beschreibt einen Zustand völliger körperlicher oder geistiger Erschöpfung.",
@@ -2107,7 +2107,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Schlaff, kraftlos, ausgepowert",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABり",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt einen schlaffen, kraftlosen Zustand — als hätte jemand keine Energie mehr übrig.",
@@ -2125,7 +2125,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Hungrig; sich ständig verbeugen",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "な-Adjektiv, する",
     "explanation": "Hat zwei Bedeutungen: 1) hungrig sein (Bauch knurrt) 2) sich wiederholt verbeugen (unterwürfig).",
@@ -2144,7 +2144,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Erschöpft; welk, schlapp (Gegenstand)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "な-Adjektiv, の",
     "explanation": "Beschreibt Erschöpfung (Person) oder einen weichen, schlaffen Zustand (Gemüse, Kleidung).",
@@ -2163,7 +2163,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Steif, kratzig, rau (Stoff)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "な-Adjektiv, する, の",
     "explanation": "Beschreibt eine steife, raue, unangenehme Textur, typisch für neuen oder schlecht gewaschenen Stoff.",
@@ -2181,7 +2181,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Zerzaust, ungepflegt (Haare)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N1",
     "usage": "な-Adjektiv, の",
     "explanation": "Beschreibt ungepflegtes, zerzaustes Haar oder allgemein eine nachlässige Erscheinung.",
@@ -2199,7 +2199,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Leer, verlassen (Raum)",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABっと",
     "level": "N1",
     "usage": "Adverb",
     "explanation": "Beschreibt einen leeren, verlassenen Raum, der eigentlich belebt sein sollte.",
@@ -2217,7 +2217,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Schmierig-fettig, ölig",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "な-Adjektiv, する, の",
     "explanation": "Beschreibt eine unangenehm fettige, schmierige Oberfläche — stärker und negativer als ベタベタ.",
@@ -2235,7 +2235,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Angenehm kühl",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABり",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt eine angenehme, leichte Kühle — nicht kalt, sondern erfrischend.",
@@ -2253,7 +2253,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Wohlig warm",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt angenehme, wohlige Wärme — typisch für Frühlingswetter oder ein warmes Bad.",
@@ -2271,7 +2271,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Matschig, zerquetscht; chaotisch",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "な-Adjektiv, の",
     "explanation": "Beschreibt etwas Zerquetschtes, Matschiges oder ein heilloses Durcheinander.",
@@ -2289,7 +2289,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Knackig, frisch-knusprig",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt die knackige Textur von frischem Gemüse oder Salat beim Beißen.",
@@ -2309,7 +2309,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Frustriert, gereizt, verärgert",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "Sonstige",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt einen Zustand innerer Frustration und Gereiztheit, wenn alles schiefläuft.",
@@ -2327,7 +2327,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Genervt, überdrüssig, es reicht",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABり",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein Gefühl des Überdrusses oder der Erschöpfung durch etwas Unangenehmes.",
@@ -2345,7 +2345,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Pochend, stechend (Schmerz)",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt einen rhythmisch pochenden oder stechenden Schmerz, typisch für Kopfschmerzen oder Zahnschmerzen.",
@@ -2363,7 +2363,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Stechen, Prickeln; Sticheleien",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein leichtes Stechen oder Prickeln auf der Haut. Auch für spitze verbale Sticheleien.",
@@ -2382,7 +2382,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Hämmernder Kopfschmerz; energisch vorantreiben",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt einen hämmernden, intensiven Kopfschmerz. Auch: etwas energisch und ohne Zurückhaltung tun.",
@@ -2401,7 +2401,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Herzflattern, Herzstich (vor Rührung/Verliebtsein)",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABっと",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt das plötzliche Zusammenziehen des Herzens vor Rührung, Verliebtsein oder Nostalgie.",
@@ -2419,7 +2419,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Tief berührt, gerührt; taub/kribbelig",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABっと",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein tiefes, langsam aufwallendes Gefühl der Rührung. Auch: Taubheitsgefühl in Gliedmaßen.",
@@ -2437,7 +2437,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Unbehagen, ungutes Gefühl, unklar",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
     "explanation": "Beschreibt ein unklares Gefühl des Unbehagens oder der Unzufriedenheit, das man nicht richtig benennen kann.",
@@ -2455,7 +2455,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Es juckt einen (etwas zu tun), kribbelig vor Ungeduld",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt das ungeduldige Gefühl, wenn man etwas unbedingt tun möchte und kaum stillsitzen kann.",
@@ -2473,7 +2473,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Langsam, allmählich; schleichend",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb",
     "explanation": "Beschreibt ein langsam ansteigendes Gefühl oder eine schleichende Veränderung.",
@@ -2491,7 +2491,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Eine Träne vergießen, leise gerührt",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABっと",
     "level": "N1",
     "usage": "Adverb",
     "explanation": "Beschreibt den Moment, in dem man leise vor Rührung eine einzelne Träne vergießt.",
@@ -2509,7 +2509,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Schaudern, Gruseln, Entsetzen",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    
+    "pattern": "ABっと",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein plötzliches Schaudern vor Angst, Entsetzen oder Ekel.",
@@ -2529,7 +2529,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Heimlich, verstohlen",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt heimliches, verstohlenes Verhalten — man versucht, nicht bemerkt zu werden.",
@@ -2547,7 +2547,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Wühlen, Kramen, Rascheln",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt das Wühlen und Kramen in einer Tasche, Schublade oder Ähnlichem.",
@@ -2565,7 +2565,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Anstarren, mustern",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt das unhöfliche, durchdringende Anstarren einer Person.",
@@ -2583,7 +2583,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Kauen, Mampfen",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
     "explanation": "Beschreibt die Kaubewegung beim Essen — langsames, genüssliches Kauen.",
@@ -2601,7 +2601,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Gierig essen; verbissen streben",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt gieriges, hastiges Essen. Auch: verbissenes Streben nach Geld, Erfolg etc.",
@@ -2619,7 +2619,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Trippeln, Flattern, Klappen",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt leichte, schnelle Schritte (Kinder, Sandalen) oder flatternde Bewegungen.",
@@ -2637,7 +2637,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Geschmeidig gleiten, mühelos vorankommen",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt eine geschmeidige, mühelose Fortbewegung — im Wasser, durch Menschenmengen oder bei Aufgaben.",
@@ -2655,7 +2655,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Zusammenzucken (vor Schreck)",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABっと",
     "level": "N2",
     "usage": "Adverb, する",
     "explanation": "Beschreibt ein plötzliches Zusammenzucken des Körpers, ausgelöst durch einen Schreck oder Überraschung.",
@@ -2673,7 +2673,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Flüchtige Blicke; Flattern (Schneeflocken)",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt kurze, wiederholte Blicke aus den Augenwinkeln. Auch: leichtes Rieseln von Schneeflocken.",
@@ -2692,7 +2692,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Schnell essen; Mund auf und zu",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
     "explanation": "Beschreibt das schnelle Öffnen und Schließen des Mundes beim Essen oder bei Fischen, die Luft schnappen.",
@@ -2710,7 +2710,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Watschelnd, tapsig (Kleinkind/Pinguin)",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb",
     "explanation": "Beschreibt den unsicheren, tapsigen Gang von Kleinkindern oder Tieren wie Pinguinen.",
@@ -2728,7 +2728,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "Kräftig schrubben, reiben",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    
+    "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
     "explanation": "Beschreibt kräftiges Schrubben oder Reiben, z.B. beim Putzen oder Händewaschen.",
