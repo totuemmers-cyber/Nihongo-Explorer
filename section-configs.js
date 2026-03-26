@@ -83,6 +83,94 @@ function createSpeakButton(headerSelector, text) {
   header.appendChild(speakBtn);
 }
 
+// === Pitch Accent Utilities ===
+
+// Split reading into morae (compound kana like きゃ = 1 mora)
+var SMALL_KANA = 'ゃゅょャュョァィゥェォぁぃぅぇぉ';
+function getPitchMorae(reading) {
+  var morae = [];
+  for (var i = 0; i < reading.length; i++) {
+    if (i > 0 && SMALL_KANA.indexOf(reading[i]) !== -1) {
+      morae[morae.length - 1] += reading[i];
+    } else {
+      morae.push(reading[i]);
+    }
+  }
+  return morae;
+}
+
+// Get pitch pattern as array of 1 (high) / 0 (low) per mora
+function getPitchPattern(moraCount, pitchNum) {
+  var pattern = [];
+  for (var i = 0; i < moraCount; i++) {
+    if (pitchNum === 0) {
+      // Heiban: low first mora, rest high
+      pattern.push(i === 0 ? 0 : 1);
+    } else if (pitchNum === 1) {
+      // Atamadaka: first mora high, rest low
+      pattern.push(i === 0 ? 1 : 0);
+    } else {
+      // Nakadaka/Odaka: low first, high until drop at pitchNum
+      if (i === 0) pattern.push(0);
+      else if (i < pitchNum) pattern.push(1);
+      else pattern.push(0);
+    }
+  }
+  return pattern;
+}
+
+// Get pitch type label
+function getPitchLabel(pitchNum, moraCount) {
+  if (pitchNum === 0) return '平';
+  if (pitchNum === 1) return '頭';
+  if (pitchNum === moraCount) return '尾';
+  return '中';
+}
+
+// Render pitch SVG for detail view
+function renderPitchSVG(reading, pitchNum) {
+  if (pitchNum === undefined || pitchNum === null || pitchNum < 0) return '';
+  var morae = getPitchMorae(reading);
+  var n = morae.length;
+  if (n === 0) return '';
+  var pattern = getPitchPattern(n, pitchNum);
+
+  var dotR = 5;
+  var spacing = 32;
+  var highY = 8;
+  var lowY = 28;
+  var w = (n - 1) * spacing + dotR * 4;
+  var h = 52;
+
+  var points = [];
+  var dots = '';
+  for (var i = 0; i < n; i++) {
+    var x = dotR * 2 + i * spacing;
+    var y = pattern[i] ? highY : lowY;
+    points.push(x + ',' + y);
+    var color = pattern[i] ? 'var(--accent)' : 'var(--text-secondary)';
+    dots += '<circle cx="' + x + '" cy="' + y + '" r="' + dotR + '" fill="' + color + '"/>';
+  }
+
+  var labels = '';
+  for (var j = 0; j < n; j++) {
+    var lx = dotR * 2 + j * spacing;
+    labels += '<text x="' + lx + '" y="' + (h - 1) + '" text-anchor="middle" font-size="11" font-family="var(--font-jp)" fill="var(--text-secondary)">' + morae[j] + '</text>';
+  }
+
+  return '<svg class="pitch-svg" width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + ' ' + h + '">' +
+    '<polyline points="' + points.join(' ') + '" fill="none" stroke="var(--border)" stroke-width="2"/>' +
+    dots + labels + '</svg>';
+}
+
+// Render compact pitch badge for cards
+function renderPitchBadge(reading, pitchNum) {
+  if (pitchNum === undefined || pitchNum === null || pitchNum < 0) return '';
+  var morae = getPitchMorae(reading);
+  var label = getPitchLabel(pitchNum, morae.length);
+  return ' <span class="pitch-badge">' + label + '</span>';
+}
+
 function renderExamplesOrEmpty(elementId, examples) {
   var el = document.getElementById(elementId);
   if (examples && examples.length > 0) {
@@ -581,7 +669,7 @@ SECTION_CONFIGS.vocab = {
           '<span class="vocab-type-badge ' + v.type + '">' + v.type + '</span>' +
         '</div>' +
       '</div>' +
-      '<div class="vocab-card-reading">' + (v.reading || '') + '</div>' +
+      '<div class="vocab-card-reading">' + (v.reading || '') + renderPitchBadge(v.reading || '', v.pitch) + '</div>' +
       '<div class="vocab-card-meaning">' + v.meaning + '</div>',
       index, section);
   },
@@ -599,6 +687,14 @@ SECTION_CONFIGS.vocab = {
     createSpeakButton('.vocab-detail-header', v.word);
 
     document.getElementById('vocab-detail-reading').textContent = v.reading || '';
+    var pitchEl = document.getElementById('vocab-detail-pitch');
+    if (v.pitch !== undefined && v.pitch !== null && v.pitch >= 0) {
+      pitchEl.innerHTML = renderPitchSVG(v.reading || '', v.pitch);
+      pitchEl.classList.remove('hidden');
+    } else {
+      pitchEl.innerHTML = '';
+      pitchEl.classList.add('hidden');
+    }
     document.getElementById('vocab-detail-romaji').textContent = v.romaji || '';
     document.getElementById('vocab-detail-meaning').textContent = v.meaning;
     document.getElementById('vocab-detail-category-line').textContent =
