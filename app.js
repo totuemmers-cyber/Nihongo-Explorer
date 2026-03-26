@@ -199,7 +199,9 @@
       window.VOCAB_N4 || [],
       window.VOCAB_N3 || [],
       window.VOCAB_N2 || [],
-      window.VOCAB_N1 || []
+      window.VOCAB_N1 || [],
+      window.YOJIJUKUGO_DATA || [],
+      window.IDIOMS_DATA || []
     ];
     var allVocab = [].concat.apply([], vocabSources);
     if (allVocab.length > 0) {

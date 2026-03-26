@@ -381,7 +381,7 @@ SECTION_CONFIGS.grammar = {
   },
 
   sortFn: function (items, sortKey) {
-    var catOrder = { 'Partikel': 0, 'Verben': 1, 'Adjektive': 2, 'Satzstrukturen': 3 };
+    var catOrder = { 'Partikel': 0, 'Verben': 1, 'Adjektive': 2, 'Satzstrukturen': 3, 'Keigo': 4 };
     items.sort(function (a, b) {
       if (sortKey === 'category') {
         var ca = catOrder[a.category] !== undefined ? catOrder[a.category] : 9;
@@ -536,7 +536,7 @@ SECTION_CONFIGS.vocab = {
   },
 
   sortFn: function (items, sortKey) {
-    var typeOrder = { 'Nomen': 0, 'Verb': 1, 'Adjektiv': 2, 'Adverb': 3, 'Partikel': 4, 'Ausdruck': 5 };
+    var typeOrder = { 'Nomen': 0, 'Verb': 1, 'Adjektiv': 2, 'Adverb': 3, 'Partikel': 4, 'Ausdruck': 5, 'Yojijukugo': 6, 'Redewendung': 7, 'Sprichwort': 8 };
     items.sort(function (a, b) {
       if (sortKey === 'level') {
         var la = LEVEL_ORDER[a.level] !== undefined ? LEVEL_ORDER[a.level] : 9;
