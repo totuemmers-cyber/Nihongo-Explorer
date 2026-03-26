@@ -4153,6 +4153,57 @@
     return html;
   }
 
+  // --- Lesson Filtering ---
+  var lessonQuery = '';
+  var lessonLevel = 'all';
+  var lessonSearchTimeout = null;
+
+  function lessonMatchesLevel(lesson, level) {
+    if (level === 'all') return true;
+    return lesson.level.indexOf(level) !== -1;
+  }
+
+  function lessonMatchesQuery(lesson, q) {
+    if (!q) return true;
+    var lower = q.toLowerCase();
+    // Search title, subtitle, intro
+    if (lesson.title.toLowerCase().indexOf(lower) !== -1) return true;
+    if (lesson.subtitle.toLowerCase().indexOf(lower) !== -1) return true;
+    if (lesson.intro.toLowerCase().indexOf(lower) !== -1) return true;
+    // Search sections
+    for (var i = 0; i < lesson.sections.length; i++) {
+      var sec = lesson.sections[i];
+      if (sec.heading && sec.heading.toLowerCase().indexOf(lower) !== -1) return true;
+      if (sec.text && sec.text.toLowerCase().indexOf(lower) !== -1) return true;
+      if (sec.tip && sec.tip.toLowerCase().indexOf(lower) !== -1) return true;
+      if (sec.examples) {
+        for (var j = 0; j < sec.examples.length; j++) {
+          var ex = sec.examples[j];
+          if (ex.jp && ex.jp.indexOf(q) !== -1) return true;
+          if (ex.romaji && ex.romaji.toLowerCase().indexOf(lower) !== -1) return true;
+          if (ex.de && ex.de.toLowerCase().indexOf(lower) !== -1) return true;
+        }
+      }
+    }
+    return false;
+  }
+
+  function filterLessons() {
+    if (!lessonsContainer) return;
+    var cards = lessonsContainer.querySelectorAll('.gl-card');
+    var count = 0;
+    for (var i = 0; i < cards.length; i++) {
+      var lesson = LESSONS[i];
+      var show = lessonMatchesLevel(lesson, lessonLevel) && lessonMatchesQuery(lesson, lessonQuery);
+      cards[i].classList.toggle('hidden', !show);
+      if (show) count++;
+    }
+    var countEl = document.getElementById('gl-count');
+    if (countEl) countEl.textContent = count + ' Lektionen';
+    var noResults = document.getElementById('gl-no-results');
+    if (noResults) noResults.classList.toggle('hidden', count > 0);
+  }
+
   function initLessons() {
     var grammarControls = document.getElementById('grammar-controls');
     var grammarGrid = document.getElementById('grammar-grid');
@@ -4173,6 +4224,68 @@
 
     grammarControls.insertBefore(toggleRow, grammarControls.firstChild);
 
+    // Tag original grammar controls for toggle logic
+    var origSearchBar = grammarControls.querySelector('.search-bar');
+    if (origSearchBar) origSearchBar.classList.add('grammar-ref-search');
+    grammarControls.querySelectorAll(':scope > .filters').forEach(function (f) {
+      f.classList.add('grammar-ref-filters');
+    });
+
+    // --- Lesson Controls (search + filters, hidden by default) ---
+    var lessonControls = document.createElement('div');
+    lessonControls.id = 'gl-controls';
+    lessonControls.className = 'hidden';
+    lessonControls.innerHTML =
+      '<div class="search-bar">' +
+        '<svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>' +
+        '<input type="text" id="gl-search" placeholder="Lektion suchen (Thema, Grammatik, Erklärung...)" autocomplete="off">' +
+        '<button id="gl-clear-search" class="btn-clear" title="Suche löschen">&times;</button>' +
+      '</div>' +
+      '<div class="filters">' +
+        '<div class="level-filters">' +
+          '<button class="filter-btn gl-level active" data-gllevel="all">Alle</button>' +
+          '<button class="filter-btn gl-level n5" data-gllevel="N5">N5</button>' +
+          '<button class="filter-btn gl-level n4" data-gllevel="N4">N4</button>' +
+          '<button class="filter-btn gl-level n3" data-gllevel="N3">N3</button>' +
+          '<button class="filter-btn gl-level n2" data-gllevel="N2">N2</button>' +
+          '<button class="filter-btn gl-level n1" data-gllevel="N1">N1</button>' +
+        '</div>' +
+        '<span id="gl-count" class="gl-count">' + LESSONS.length + ' Lektionen</span>' +
+      '</div>';
+
+    grammarControls.appendChild(lessonControls);
+
+    // --- Lesson Controls Events ---
+    var glSearch = document.getElementById('gl-search');
+    var glClear = document.getElementById('gl-clear-search');
+
+    glSearch.addEventListener('input', function () {
+      clearTimeout(lessonSearchTimeout);
+      glClear.classList.toggle('visible', glSearch.value.length > 0);
+      lessonSearchTimeout = setTimeout(function () {
+        lessonQuery = glSearch.value.trim();
+        filterLessons();
+      }, 200);
+    });
+
+    glClear.addEventListener('click', function () {
+      glSearch.value = '';
+      glClear.classList.remove('visible');
+      lessonQuery = '';
+      filterLessons();
+      glSearch.focus();
+    });
+
+    lessonControls.querySelectorAll('.gl-level').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        lessonControls.querySelectorAll('.gl-level').forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        lessonLevel = btn.getAttribute('data-gllevel');
+        filterLessons();
+        if (window.app) window.app.playSwoosh();
+      });
+    });
+
     // --- Lessons Container ---
     lessonsContainer = document.createElement('div');
     lessonsContainer.id = 'grammar-lessons';
@@ -4182,12 +4295,19 @@
       lessonsContainer.appendChild(renderLessonCard(lesson));
     });
 
+    // No results message
+    var noRes = document.createElement('div');
+    noRes.id = 'gl-no-results';
+    noRes.className = 'no-results hidden';
+    noRes.innerHTML = '<p>Keine Lektionen gefunden.</p>';
+    lessonsContainer.appendChild(noRes);
+
     // Insert before the grid
     grammarTab.insertBefore(lessonsContainer, grammarGrid);
 
     // --- Toggle Logic ---
-    var searchBar = grammarControls.querySelector('.search-bar');
-    var filterRows = grammarControls.querySelectorAll('.filters');
+    var refSearchBar = grammarControls.querySelector('.grammar-ref-search');
+    var refFilterRows = grammarControls.querySelectorAll('.grammar-ref-filters');
     var viewBtns = toggleRow.querySelectorAll('.gl-view-btn');
 
     viewBtns.forEach(function (btn) {
@@ -4197,17 +4317,18 @@
         viewBtns.forEach(function (b) { b.classList.toggle('active', b === btn); });
 
         if (view === 'lessons') {
-          searchBar.classList.add('hidden');
-          filterRows.forEach(function (f) { f.classList.add('hidden'); });
+          refSearchBar.classList.add('hidden');
+          refFilterRows.forEach(function (f) { f.classList.add('hidden'); });
           grammarGrid.classList.add('hidden');
           grammarNoResults.classList.add('hidden');
+          lessonControls.classList.remove('hidden');
           lessonsContainer.classList.remove('hidden');
         } else {
-          searchBar.classList.remove('hidden');
-          filterRows.forEach(function (f) { f.classList.remove('hidden'); });
+          refSearchBar.classList.remove('hidden');
+          refFilterRows.forEach(function (f) { f.classList.remove('hidden'); });
           grammarGrid.classList.remove('hidden');
+          lessonControls.classList.add('hidden');
           lessonsContainer.classList.add('hidden');
-          // Re-trigger filter to show/hide no-results
           if (window.app && window.app.sections.grammar) {
             window.app.sections.grammar.applyFilters();
           }

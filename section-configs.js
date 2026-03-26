@@ -434,7 +434,7 @@ SECTION_CONFIGS.kanji = {
     var jlptEl = document.getElementById('detail-jlpt');
     jlptEl.textContent = k.jlpt;
     jlptEl.className = 'detail-jlpt-badge ' + k.jlpt;
-    createDetailBookmark('.detail-header', 'kanji', k.kanji);
+    createDetailBookmark('.detail-kanji-display', 'kanji', k.kanji);
 
     document.getElementById('detail-meanings').textContent = k.meanings.join(', ');
     document.getElementById('detail-strokes').textContent = k.strokes + ' Striche';
