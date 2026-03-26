@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Zum Inhalt springen</a>
   <div id="app">
     <header class="header">
       <div class="header-hero">
@@ -33,7 +34,7 @@
           </button>
         </div>
       </div>
-      <nav class="tab-bar">
+      <nav class="tab-bar" aria-label="Hauptnavigation">
         <button class="tab-btn active" data-tab="kana">
           <span class="tab-icon-kana">あ</span>
           Kana
@@ -73,6 +74,7 @@
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="search-input" placeholder="Suche nach Kanji, Bedeutung, Lesung..." autocomplete="off">
           <button id="clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button class="filter-btn kanji-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
           <div class="level-filters">
@@ -104,15 +106,24 @@
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="grammar-search-input" placeholder="Suche nach Grammatikmuster, Bedeutung..." autocomplete="off">
           <button id="grammar-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button class="filter-btn grammar-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
           <div class="level-filters">
-            <button class="filter-btn grammar-level active" data-glevel="all">Alle Level</button>
+            <button class="filter-btn grammar-level active" data-glevel="all">Alle</button>
             <button class="filter-btn grammar-level n5" data-glevel="N5">N5</button>
             <button class="filter-btn grammar-level n4" data-glevel="N4">N4</button>
             <button class="filter-btn grammar-level n3" data-glevel="N3">N3</button>
             <button class="filter-btn grammar-level n2" data-glevel="N2">N2</button>
             <button class="filter-btn grammar-level n1" data-glevel="N1">N1</button>
+          </div>
+          <div class="level-filters">
+            <button class="filter-btn grammar-cat active" data-category="all">Alle</button>
+            <button class="filter-btn grammar-cat cat-partikel" data-category="Partikel">Partikel</button>
+            <button class="filter-btn grammar-cat cat-verben" data-category="Verben">Verben</button>
+            <button class="filter-btn grammar-cat cat-adjektive" data-category="Adjektive">Adjektive</button>
+            <button class="filter-btn grammar-cat cat-satzstrukturen" data-category="Satzstrukturen">Satzstrukturen</button>
+            <button class="filter-btn grammar-cat cat-keigo" data-category="Keigo">Keigo</button>
           </div>
           <div class="sort-controls">
             <select id="grammar-sort-select">
@@ -122,16 +133,6 @@
             </select>
           </div>
         </div>
-        <div class="filters">
-          <div class="level-filters">
-            <button class="filter-btn grammar-cat active" data-category="all">Alle Kategorien</button>
-            <button class="filter-btn grammar-cat cat-partikel" data-category="Partikel">Partikel</button>
-            <button class="filter-btn grammar-cat cat-verben" data-category="Verben">Verben</button>
-            <button class="filter-btn grammar-cat cat-adjektive" data-category="Adjektive">Adjektive</button>
-            <button class="filter-btn grammar-cat cat-satzstrukturen" data-category="Satzstrukturen">Satzstrukturen</button>
-            <button class="filter-btn grammar-cat cat-keigo" data-category="Keigo">Keigo</button>
-          </div>
-        </div>
       </div>
       <!-- Vocab Tab Controls -->
       <div id="vocab-controls" class="tab-content hidden">
@@ -139,10 +140,11 @@
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="vocab-search-input" placeholder="Suche nach Vokabel, Bedeutung, Lesung..." autocomplete="off">
           <button id="vocab-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button class="filter-btn vocab-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
           <div class="level-filters">
-            <button class="filter-btn vocab-level active" data-vlevel="all">Alle Level</button>
+            <button class="filter-btn vocab-level active" data-vlevel="all">Alle</button>
             <button class="filter-btn vocab-level n5" data-vlevel="N5">N5</button>
             <button class="filter-btn vocab-level n4" data-vlevel="N4">N4</button>
             <button class="filter-btn vocab-level n3" data-vlevel="N3">N3</button>
@@ -150,26 +152,24 @@
             <button class="filter-btn vocab-level n1" data-vlevel="N1">N1</button>
           </div>
           <div class="sort-controls">
+            <select id="vocab-type-select" class="vocab-type">
+              <option value="all">Alle Wortarten</option>
+              <option value="Nomen">Nomen</option>
+              <option value="Verb">Verb</option>
+              <option value="Adjektiv">Adjektiv</option>
+              <option value="Adverb">Adverb</option>
+              <option value="Ausdruck">Ausdruck</option>
+              <option value="Partikel">Partikel</option>
+              <option value="Yojijukugo">四字熟語</option>
+              <option value="Redewendung">Redewendung</option>
+              <option value="Sprichwort">Sprichwort</option>
+            </select>
             <select id="vocab-sort-select">
               <option value="level">Nach Level</option>
               <option value="type">Nach Wortart</option>
               <option value="category">Nach Kategorie</option>
               <option value="alpha">Alphabetisch</option>
             </select>
-          </div>
-        </div>
-        <div class="filters">
-          <div class="level-filters">
-            <button class="filter-btn vocab-type active" data-vtype="all">Alle Wortarten</button>
-            <button class="filter-btn vocab-type vt-nomen" data-vtype="Nomen">Nomen</button>
-            <button class="filter-btn vocab-type vt-verb" data-vtype="Verb">Verb</button>
-            <button class="filter-btn vocab-type vt-adjektiv" data-vtype="Adjektiv">Adjektiv</button>
-            <button class="filter-btn vocab-type vt-adverb" data-vtype="Adverb">Adverb</button>
-            <button class="filter-btn vocab-type vt-ausdruck" data-vtype="Ausdruck">Ausdruck</button>
-            <button class="filter-btn vocab-type vt-partikel" data-vtype="Partikel">Partikel</button>
-            <button class="filter-btn vocab-type vt-yojijukugo" data-vtype="Yojijukugo">四字熟語</button>
-            <button class="filter-btn vocab-type vt-redewendung" data-vtype="Redewendung">Redewendung</button>
-            <button class="filter-btn vocab-type vt-sprichwort" data-vtype="Sprichwort">Sprichwort</button>
           </div>
         </div>
       </div>
@@ -179,10 +179,11 @@
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="ono-search-input" placeholder="Suche nach Lautmalerei, Bedeutung, Lesung..." autocomplete="off">
           <button id="ono-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button class="filter-btn ono-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
           <div class="level-filters">
-            <button class="filter-btn ono-level active" data-olevel="all">Alle Level</button>
+            <button class="filter-btn ono-level active" data-olevel="all">Alle</button>
             <button class="filter-btn ono-level n5" data-olevel="N5">N5</button>
             <button class="filter-btn ono-level n4" data-olevel="N4">N4</button>
             <button class="filter-btn ono-level n3" data-olevel="N3">N3</button>
@@ -190,11 +191,17 @@
             <button class="filter-btn ono-level n1" data-olevel="N1">N1</button>
           </div>
           <div class="level-filters">
-            <button class="filter-btn ono-cat active" data-ocat="all">Alle Kategorien</button>
+            <button class="filter-btn ono-cat active" data-ocat="all">Alle</button>
             <button class="filter-btn ono-cat oc-geräusche" data-ocat="Geräusche">Geräusche</button>
             <button class="filter-btn ono-cat oc-zustände" data-ocat="Zustände">Zustände</button>
             <button class="filter-btn ono-cat oc-gefühle" data-ocat="Gefühle">Gefühle</button>
             <button class="filter-btn ono-cat oc-bewegung" data-ocat="Bewegung">Bewegung</button>
+          </div>
+          <div class="level-filters">
+            <button class="filter-btn ono-pat active" data-opat="all">Alle</button>
+            <button class="filter-btn ono-pat" data-opat="ABAB">ABAB</button>
+            <button class="filter-btn ono-pat" data-opat="ABっと">ABっと</button>
+            <button class="filter-btn ono-pat" data-opat="Andere">Andere</button>
           </div>
           <div class="sort-controls">
             <select id="ono-sort-select">
@@ -204,14 +211,6 @@
             </select>
           </div>
         </div>
-        <div class="filters">
-          <div class="level-filters">
-            <button class="filter-btn ono-pat active" data-opat="all">Alle Muster</button>
-            <button class="filter-btn ono-pat" data-opat="ABAB">ABAB</button>
-            <button class="filter-btn ono-pat" data-opat="ABっと">ABっと</button>
-            <button class="filter-btn ono-pat" data-opat="Andere">Andere</button>
-          </div>
-        </div>
       </div>
       <!-- Counters Tab Controls -->
       <div id="counters-controls" class="tab-content hidden">
@@ -219,30 +218,33 @@
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="counters-search-input" placeholder="Suche nach Zählwort, Bedeutung, Lesung..." autocomplete="off">
           <button id="counters-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button class="filter-btn counter-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
           <div class="level-filters">
-            <button class="filter-btn counter-level active" data-clevel="all">Alle Level</button>
+            <button class="filter-btn counter-level active" data-clevel="all">Alle</button>
             <button class="filter-btn counter-level n5" data-clevel="N5">N5</button>
             <button class="filter-btn counter-level n4" data-clevel="N4">N4</button>
             <button class="filter-btn counter-level n3" data-clevel="N3">N3</button>
             <button class="filter-btn counter-level n2" data-clevel="N2">N2</button>
             <button class="filter-btn counter-level n1" data-clevel="N1">N1</button>
           </div>
-          <div class="level-filters">
-            <button class="filter-btn counter-cat active" data-ccat="all">Alle Kategorien</button>
-            <button class="filter-btn counter-cat cc-menschen" data-ccat="Menschen">Menschen</button>
-            <button class="filter-btn counter-cat cc-objekte" data-ccat="Objekte">Objekte</button>
-            <button class="filter-btn counter-cat cc-tiere" data-ccat="Tiere">Tiere</button>
-            <button class="filter-btn counter-cat cc-zeit" data-ccat="Zeit">Zeit</button>
-            <button class="filter-btn counter-cat cc-essen" data-ccat="Essen & Trinken">Essen</button>
-            <button class="filter-btn counter-cat cc-gebaeude" data-ccat="Gebäude & Räume">Gebäude</button>
-            <button class="filter-btn counter-cat cc-transport" data-ccat="Transport">Transport</button>
-            <button class="filter-btn counter-cat cc-sprache" data-ccat="Sprache & Schrift">Sprache</button>
-            <button class="filter-btn counter-cat cc-gruppen" data-ccat="Gruppen & Mengen">Gruppen</button>
-            <button class="filter-btn counter-cat cc-ereignisse" data-ccat="Ereignisse">Ereignisse</button>
-            <button class="filter-btn counter-cat cc-natur" data-ccat="Natur">Natur</button>
-            <button class="filter-btn counter-cat cc-medizin" data-ccat="Medizin">Medizin</button>
+          <div class="sort-controls">
+            <select id="counter-cat-select" class="counter-cat">
+              <option value="all">Alle Kategorien</option>
+              <option value="Menschen">Menschen</option>
+              <option value="Objekte">Objekte</option>
+              <option value="Tiere">Tiere</option>
+              <option value="Zeit">Zeit</option>
+              <option value="Essen & Trinken">Essen & Trinken</option>
+              <option value="Gebäude & Räume">Gebäude & Räume</option>
+              <option value="Transport">Transport</option>
+              <option value="Sprache & Schrift">Sprache & Schrift</option>
+              <option value="Gruppen & Mengen">Gruppen & Mengen</option>
+              <option value="Ereignisse">Ereignisse</option>
+              <option value="Natur">Natur</option>
+              <option value="Medizin">Medizin</option>
+            </select>
           </div>
         </div>
       </div>
@@ -252,6 +254,7 @@
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="radicals-search-input" placeholder="Suche nach Radikal, Bedeutung, Lesung..." autocomplete="off">
           <button id="radicals-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button class="filter-btn radical-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
           <div class="level-filters">
@@ -270,7 +273,7 @@
       </div>
     </header>
 
-    <main>
+    <main id="main-content">
       <!-- Kanji Tab Content -->
       <div id="kanji-tab" class="tab-panel hidden">
         <div id="kanji-grid" class="kanji-grid"></div>
@@ -496,6 +499,7 @@
             <span id="ono-detail-pattern" class="ono-pattern-badge"></span>
           </div>
           <div id="ono-detail-reading" class="ono-detail-reading"></div>
+          <div id="ono-detail-pitch" class="vocab-detail-pitch hidden"></div>
           <div id="ono-detail-romaji" class="ono-detail-romaji"></div>
           <div id="ono-detail-meaning" class="ono-detail-meaning"></div>
           <div id="ono-detail-usage-line" class="ono-detail-usage-line"></div>

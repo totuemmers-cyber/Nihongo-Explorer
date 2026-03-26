@@ -558,4 +558,6 @@
   loadData();
   renderKana();
   updateKanaDarkMode();
+  if (typeof initBookmarkToggles === 'function') initBookmarkToggles();
+  if (typeof initSelectFilters === 'function') initSelectFilters();
 })();
