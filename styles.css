@@ -1876,6 +1876,30 @@ main {
   margin-bottom: 2px;
 }
 
+/* Pitch accent display */
+.vocab-detail-pitch {
+  margin: 6px 0;
+  overflow-x: auto;
+}
+
+.pitch-svg {
+  display: block;
+}
+
+.pitch-badge {
+  display: inline-block;
+  font-family: var(--font-jp);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: rgba(99,102,241,0.1);
+  border: 1px solid rgba(99,102,241,0.2);
+  border-radius: var(--radius-pill);
+  padding: 1px 6px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
 .vocab-detail-romaji {
   font-size: 0.9rem;
   color: var(--text-secondary);
