@@ -54,6 +54,39 @@
 
   var LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
+  var MOCK_TEST_CONFIGS = {
+    N5: { time: 25, totalQuestions: 25, sections: {
+      vocab: { count: 10, types: ['vocabMeaning', 'vocabReading'] },
+      kanji: { count: 5, types: ['kanjiMeaning'] },
+      grammar: { count: 5, types: ['grammarCloze', 'grammarMeaning'] },
+      conjugation: { count: 5, types: ['conjugation'] }
+    }},
+    N4: { time: 30, totalQuestions: 30, sections: {
+      vocab: { count: 12, types: ['vocabMeaning', 'vocabReading'] },
+      kanji: { count: 6, types: ['kanjiMeaning'] },
+      grammar: { count: 7, types: ['grammarCloze', 'grammarMeaning'] },
+      conjugation: { count: 5, types: ['conjugation'] }
+    }},
+    N3: { time: 40, totalQuestions: 35, sections: {
+      vocab: { count: 14, types: ['vocabMeaning', 'vocabReading'] },
+      kanji: { count: 7, types: ['kanjiMeaning'] },
+      grammar: { count: 9, types: ['grammarCloze', 'grammarMeaning'] },
+      conjugation: { count: 5, types: ['conjugation'] }
+    }},
+    N2: { time: 50, totalQuestions: 40, sections: {
+      vocab: { count: 15, types: ['vocabMeaning', 'vocabReading'] },
+      kanji: { count: 8, types: ['kanjiMeaning'] },
+      grammar: { count: 12, types: ['grammarCloze', 'grammarMeaning'] },
+      conjugation: { count: 5, types: ['conjugation'] }
+    }},
+    N1: { time: 60, totalQuestions: 45, sections: {
+      vocab: { count: 16, types: ['vocabMeaning', 'vocabReading'] },
+      kanji: { count: 9, types: ['kanjiMeaning'] },
+      grammar: { count: 14, types: ['grammarCloze', 'grammarMeaning'] },
+      conjugation: { count: 6, types: ['conjugation'] }
+    }}
+  };
+
   var CONJ_FORM_KEYS = ['polite','negative','past','te','potential','passive','causative','conditional','volitional','imperative'];
 
   // ==========================================================
@@ -1021,12 +1054,364 @@
   }
 
   // ==========================================================
+  // G2: MOCK TEST (JLPT PROBETEST) CONTROLLER
+  // ==========================================================
+
+  var mockState = {
+    active: false,
+    level: null,
+    config: null,
+    questions: [],          // flat array of all questions
+    questionSections: [],   // parallel array: section key per question
+    currentQuestion: 0,
+    answers: [],            // { selected, correct } per question index
+    timerInterval: null,
+    endTime: 0
+  };
+
+  var MOCK_SECTION_LABELS = {
+    vocab: 'Vokabeln',
+    kanji: 'Kanji',
+    grammar: 'Grammatik',
+    conjugation: 'Konjugation'
+  };
+
+  function showMockTestSetup() {
+    var panel = dom.quizContent;
+    panel.innerHTML = '';
+
+    var setup = el('div', 'quiz-test-setup');
+    var title = el('h2', 'quiz-setup-title', 'JLPT Probetest');
+    setup.appendChild(title);
+    var desc = el('p', 'quiz-setup-desc', 'Simuliere eine JLPT-Pr\u00fcfung mit Zeitlimit. Ab 60% gilt der Test als bestanden.');
+    setup.appendChild(desc);
+
+    var levelGrid = el('div', 'quiz-test-level-grid');
+    LEVELS.forEach(function (lv) {
+      var cfg = MOCK_TEST_CONFIGS[lv];
+      var card = el('div', 'quiz-test-level-card');
+      var badge = el('div', 'quiz-test-level-badge ' + lv.toLowerCase(), lv);
+      card.appendChild(badge);
+      var info = el('div', 'quiz-test-level-info');
+      info.innerHTML = '<span>' + cfg.totalQuestions + ' Fragen</span><span>' + cfg.time + ' Minuten</span>';
+      card.appendChild(info);
+      card.addEventListener('click', function () { startMockTest(lv); });
+      levelGrid.appendChild(card);
+    });
+    setup.appendChild(levelGrid);
+
+    var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zur\u00fcck');
+    backBtn.addEventListener('click', showHomeScreen);
+    setup.appendChild(backBtn);
+
+    panel.appendChild(setup);
+  }
+
+  function startMockTest(level) {
+    var cfg = MOCK_TEST_CONFIGS[level];
+    if (!cfg) return;
+
+    mockState.active = true;
+    mockState.level = level;
+    mockState.config = cfg;
+    mockState.currentQuestion = 0;
+    mockState.answers = [];
+    mockState.questions = [];
+    mockState.questionSections = [];
+
+    // Generate questions per section
+    var sectionKeys = ['vocab', 'kanji', 'grammar', 'conjugation'];
+    for (var s = 0; s < sectionKeys.length; s++) {
+      var secKey = sectionKeys[s];
+      var secCfg = cfg.sections[secKey];
+      for (var q = 0; q < secCfg.count; q++) {
+        var typeId = secCfg.types[q % secCfg.types.length];
+        var question = generateQuestion(typeId, level);
+        // Fallback: try other types in the section
+        if (!question) {
+          for (var t = 0; t < secCfg.types.length; t++) {
+            question = generateQuestion(secCfg.types[t], level);
+            if (question) break;
+          }
+        }
+        if (question) {
+          mockState.questions.push(question);
+          mockState.questionSections.push(secKey);
+        }
+      }
+    }
+
+    // Shuffle questions to mix sections
+    var indices = [];
+    for (var i = 0; i < mockState.questions.length; i++) indices.push(i);
+    indices = shuffle(indices);
+    var shuffledQ = [];
+    var shuffledS = [];
+    for (var j = 0; j < indices.length; j++) {
+      shuffledQ.push(mockState.questions[indices[j]]);
+      shuffledS.push(mockState.questionSections[indices[j]]);
+    }
+    mockState.questions = shuffledQ;
+    mockState.questionSections = shuffledS;
+
+    // Initialize answers
+    mockState.answers = new Array(mockState.questions.length);
+    for (var a = 0; a < mockState.answers.length; a++) {
+      mockState.answers[a] = null;
+    }
+
+    // Start timer
+    mockState.endTime = Date.now() + cfg.time * 60 * 1000;
+    startMockTimer();
+
+    renderMockQuestion();
+  }
+
+  function startMockTimer() {
+    stopMockTimer();
+    mockState.timerInterval = setInterval(function () {
+      var remaining = Math.max(0, Math.ceil((mockState.endTime - Date.now()) / 1000));
+      var timerEl = document.getElementById('mock-timer');
+      if (timerEl) {
+        timerEl.textContent = 'Verbleibende Zeit: ' + formatTime(remaining);
+        timerEl.classList.toggle('warning', remaining <= 120 && remaining > 30);
+        timerEl.classList.toggle('critical', remaining <= 30);
+      }
+      if (remaining <= 0) {
+        finishMockTest();
+      }
+    }, 250);
+  }
+
+  function stopMockTimer() {
+    if (mockState.timerInterval) {
+      clearInterval(mockState.timerInterval);
+      mockState.timerInterval = null;
+    }
+  }
+
+  function renderMockQuestion() {
+    var panel = dom.quizContent;
+    panel.innerHTML = '';
+
+    var qIdx = mockState.currentQuestion;
+
+    if (qIdx >= mockState.questions.length) {
+      finishMockTest();
+      return;
+    }
+
+    var question = mockState.questions[qIdx];
+    var secKey = mockState.questionSections[qIdx];
+
+    // Header bar
+    var header = el('div', 'quiz-test-header mock-test-header');
+    var secLabel = el('span', 'quiz-test-section-label', 'JLPT Probetest \u2014 ' + mockState.level);
+    header.appendChild(secLabel);
+    var progress = el('span', 'quiz-test-progress', 'Frage ' + (qIdx + 1) + ' / ' + mockState.questions.length);
+    header.appendChild(progress);
+    var timer = el('span', 'quiz-timer mock-timer');
+    timer.id = 'mock-timer';
+    var remaining = Math.max(0, Math.ceil((mockState.endTime - Date.now()) / 1000));
+    timer.textContent = 'Verbleibende Zeit: ' + formatTime(remaining);
+    header.appendChild(timer);
+    panel.appendChild(header);
+
+    // Progress bar
+    var progressBars = el('div', 'quiz-progress-bars');
+    var qBar = el('div', 'quiz-progress-bar');
+    var qFill = el('div', 'quiz-progress-fill');
+    qFill.style.width = ((qIdx + 1) / mockState.questions.length * 100) + '%';
+    qBar.appendChild(qFill);
+    progressBars.appendChild(qBar);
+    var tBar = el('div', 'quiz-progress-bar time');
+    var tFill = el('div', 'quiz-progress-fill time');
+    tFill.id = 'mock-time-bar';
+    var totalSec = mockState.config.time * 60;
+    var elapsed = totalSec - remaining;
+    tFill.style.width = Math.min(100, (elapsed / totalSec) * 100) + '%';
+    tBar.appendChild(tFill);
+    progressBars.appendChild(tBar);
+    panel.appendChild(progressBars);
+
+    // Section badge
+    var sectionBadge = el('div', 'mock-section-badge', MOCK_SECTION_LABELS[secKey] || secKey);
+    panel.appendChild(sectionBadge);
+
+    // Question card
+    var questionArea = el('div', 'quiz-question-area');
+    var parts = renderQuestionCard(question, questionArea);
+    panel.appendChild(questionArea);
+
+    renderChoiceButtons(question, parts.choicesDiv, function (idx) {
+      showFeedback(parts.choicesDiv, idx, question.correctIndex);
+      var correct = idx === question.correctIndex;
+      mockState.answers[qIdx] = { selected: idx, correct: correct };
+
+      if (correct && window.app) window.app.playPop();
+      else if (window.app) window.app.playTick();
+
+      if (parts.explDiv) {
+        parts.explDiv.textContent = question.explanation;
+        parts.explDiv.classList.remove('hidden');
+      }
+
+      // Auto-advance
+      setTimeout(function () {
+        mockState.currentQuestion++;
+        renderMockQuestion();
+      }, 800);
+    });
+
+    // Update time bar in mock timer loop
+    var origInterval = mockState.timerInterval;
+    // Patch timer to also update time bar
+    stopMockTimer();
+    mockState.timerInterval = setInterval(function () {
+      var rem = Math.max(0, Math.ceil((mockState.endTime - Date.now()) / 1000));
+      var timerEl = document.getElementById('mock-timer');
+      if (timerEl) {
+        timerEl.textContent = 'Verbleibende Zeit: ' + formatTime(rem);
+        timerEl.classList.toggle('warning', rem <= 120 && rem > 30);
+        timerEl.classList.toggle('critical', rem <= 30);
+      }
+      var timeBar = document.getElementById('mock-time-bar');
+      if (timeBar) {
+        var total = mockState.config.time * 60;
+        var el2 = total - rem;
+        timeBar.style.width = Math.min(100, (el2 / total) * 100) + '%';
+      }
+      if (rem <= 0) {
+        finishMockTest();
+      }
+    }, 250);
+  }
+
+  function finishMockTest() {
+    stopMockTimer();
+    mockState.active = false;
+
+    // Fill unanswered
+    for (var i = 0; i < mockState.answers.length; i++) {
+      if (!mockState.answers[i]) {
+        mockState.answers[i] = { selected: -1, correct: false };
+      }
+    }
+
+    showMockResults();
+  }
+
+  function showMockResults() {
+    var panel = dom.quizContent;
+    panel.innerHTML = '';
+
+    var results = el('div', 'quiz-results mock-results');
+    var title = el('h2', 'quiz-results-title', 'JLPT Probetest \u2014 ' + mockState.level);
+    results.appendChild(title);
+
+    // Calculate per-section scores
+    var sectionScores = { vocab: { correct: 0, total: 0 }, kanji: { correct: 0, total: 0 }, grammar: { correct: 0, total: 0 }, conjugation: { correct: 0, total: 0 } };
+    var totalCorrect = 0;
+    var totalQuestions = mockState.questions.length;
+
+    for (var i = 0; i < mockState.questions.length; i++) {
+      var secKey = mockState.questionSections[i];
+      var ans = mockState.answers[i];
+      sectionScores[secKey].total++;
+      if (ans && ans.correct) {
+        sectionScores[secKey].correct++;
+        totalCorrect++;
+      }
+    }
+
+    var totalPct = totalQuestions > 0 ? Math.round(totalCorrect / totalQuestions * 100) : 0;
+    var passed = totalPct >= 60;
+
+    // Overall result
+    var overall = el('div', 'quiz-results-overall mock-overall' + (passed ? ' passed' : ' failed'));
+    overall.innerHTML =
+      '<div class="overall-score">Ergebnis: ' + totalPct + '% \u2014 ' + (passed ? 'Bestanden' : 'Nicht bestanden') + '</div>' +
+      '<div class="overall-status mock-status">' + totalCorrect + ' / ' + totalQuestions + ' richtig</div>';
+    results.appendChild(overall);
+
+    // Section breakdown
+    var breakdown = el('div', 'quiz-results-breakdown mock-breakdown');
+    var breakdownTitle = el('h3', 'mock-breakdown-title', 'Aufschl\u00fcsselung nach Bereich');
+    breakdown.appendChild(breakdownTitle);
+
+    var sectionKeys = ['vocab', 'kanji', 'grammar', 'conjugation'];
+    for (var s = 0; s < sectionKeys.length; s++) {
+      var key = sectionKeys[s];
+      var sc = sectionScores[key];
+      if (sc.total === 0) continue;
+      var pct = Math.round(sc.correct / sc.total * 100);
+      var row = el('div', 'quiz-result-row');
+      row.innerHTML =
+        '<span class="result-section-name">' + MOCK_SECTION_LABELS[key] + '</span>' +
+        '<span class="result-score">' + sc.correct + ' / ' + sc.total + '</span>' +
+        '<span class="result-pct">' + pct + '%</span>' +
+        '<span class="result-status ' + (pct >= 60 ? 'passed' : 'failed') + '">' + (pct >= 60 ? '\u2713' : '\u2717') + '</span>';
+      breakdown.appendChild(row);
+    }
+    results.appendChild(breakdown);
+
+    // Summary line
+    var summaryLine = el('p', 'mock-summary-line');
+    var parts = [];
+    for (var k = 0; k < sectionKeys.length; k++) {
+      var ky = sectionKeys[k];
+      var ssc = sectionScores[ky];
+      if (ssc.total > 0) {
+        parts.push(MOCK_SECTION_LABELS[ky] + ': ' + ssc.correct + '/' + ssc.total);
+      }
+    }
+    summaryLine.textContent = parts.join(', ');
+    results.appendChild(summaryLine);
+
+    // Detail review
+    var detailBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Details ansehen');
+    var detailDiv = el('div', 'quiz-review-detail hidden');
+    detailBtn.addEventListener('click', function () {
+      detailDiv.classList.toggle('hidden');
+      detailBtn.textContent = detailDiv.classList.contains('hidden') ? 'Details ansehen' : 'Details ausblenden';
+    });
+    results.appendChild(detailBtn);
+
+    mockState.questions.forEach(function (q, qIdx) {
+      var ans = mockState.answers[qIdx];
+      var correct = ans && ans.correct;
+      var item = el('div', 'quiz-review-item ' + (correct ? 'correct' : 'wrong'));
+      item.innerHTML =
+        '<span class="review-num">' + (qIdx + 1) + '.</span>' +
+        '<span class="review-prompt">' + q.promptMain + '</span>' +
+        '<span class="review-answer">' + (ans && ans.selected >= 0 ? q.choices[ans.selected] : '\u2014') + '</span>' +
+        (correct ? '' : '<span class="review-correct">' + q.choices[q.correctIndex] + '</span>');
+      detailDiv.appendChild(item);
+    });
+    results.appendChild(detailDiv);
+
+    // Actions
+    var actions = el('div', 'quiz-results-actions');
+    var newBtn = el('button', 'quiz-btn quiz-btn-next', 'Neuer Probetest');
+    newBtn.addEventListener('click', showMockTestSetup);
+    actions.appendChild(newBtn);
+    var homeBtn = el('button', 'quiz-btn quiz-btn-back', 'Zur\u00fcck');
+    homeBtn.addEventListener('click', showHomeScreen);
+    actions.appendChild(homeBtn);
+    results.appendChild(actions);
+
+    panel.appendChild(results);
+  }
+
+  // ==========================================================
   // H: HOME SCREEN
   // ==========================================================
 
   function showHomeScreen() {
     stopTimer();
+    stopMockTimer();
     testState.active = false;
+    mockState.active = false;
 
     var panel = dom.quizContent;
     panel.innerHTML = '';
@@ -1053,10 +1438,19 @@
     var testCard = el('div', 'quiz-home-card test');
     testCard.innerHTML =
       '<div class="quiz-card-icon">\u8A66</div>' +
-      '<h3>Prüfungsmodus</h3>' +
-      '<p>Simulierte JLPT-Prüfung mit Timer, Sektionen und Auswertung.</p>';
+      '<h3>Pr\u00fcfungsmodus</h3>' +
+      '<p>Simulierte JLPT-Pr\u00fcfung mit Timer, Sektionen und Auswertung.</p>';
     testCard.addEventListener('click', showTestSetup);
     cards.appendChild(testCard);
+
+    // Mock test card (JLPT Probetest)
+    var mockCard = el('div', 'quiz-home-card mock');
+    mockCard.innerHTML =
+      '<div class="quiz-card-icon">\u6A21</div>' +
+      '<h3>JLPT Probetest</h3>' +
+      '<p>Kompakter Probetest im JLPT-Format mit Zeitlimit und Bestanden/Nicht-bestanden-Wertung.</p>';
+    mockCard.addEventListener('click', showMockTestSetup);
+    cards.appendChild(mockCard);
 
     home.appendChild(cards);
     panel.appendChild(home);
@@ -1100,8 +1494,17 @@
 
     // Escape to go back
     if (e.key === 'Escape') {
+      if (mockState.active) {
+        if (confirm('Probetest wirklich abbrechen?')) {
+          stopMockTimer();
+          mockState.active = false;
+          showHomeScreen();
+        }
+        e.preventDefault();
+        return true;
+      }
       if (testState.active) {
-        if (confirm('Prüfung wirklich abbrechen?')) {
+        if (confirm('Pr\u00fcfung wirklich abbrechen?')) {
           stopTimer();
           testState.active = false;
           showHomeScreen();
@@ -1125,7 +1528,7 @@
     }
     if (!dom.quizContent) return;
     // Show home screen if not in active test
-    if (!testState.active) {
+    if (!testState.active && !mockState.active) {
       showHomeScreen();
     }
   }
@@ -1133,6 +1536,6 @@
   window.QuizModule = {
     onTabActivate: onTabActivate,
     handleKey: handleQuizKey,
-    isTestActive: function () { return testState.active; }
+    isTestActive: function () { return testState.active || mockState.active; }
   };
 })();

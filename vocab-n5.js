@@ -13,6 +13,11 @@ window.VOCAB_N5 = [
         "japanese": "私は学生です。",
         "romaji": "Watashi wa gakusei desu.",
         "german": "Ich bin Student."
+      },
+      {
+        "japanese": "私はドイツから来ました。",
+        "romaji": "Watashi wa Doitsu kara kimashita.",
+        "german": "Ich komme aus Deutschland."
       }
     ]
   },
@@ -30,6 +35,11 @@ window.VOCAB_N5 = [
         "japanese": "あの人は誰ですか。",
         "romaji": "Ano hito wa dare desu ka.",
         "german": "Wer ist diese Person?"
+      },
+      {
+        "japanese": "この店には人がたくさんいます。",
+        "romaji": "Kono mise ni wa hito ga takusan imasu.",
+        "german": "In diesem Laden sind viele Leute."
       }
     ]
   },
@@ -47,6 +57,11 @@ window.VOCAB_N5 = [
         "japanese": "あの男の人は先生です。",
         "romaji": "Ano otoko no hito wa sensei desu.",
         "german": "Jener Mann ist ein Lehrer."
+      },
+      {
+        "japanese": "男の子が走っています。",
+        "romaji": "Otoko no ko ga hashitte imasu.",
+        "german": "Ein Junge rennt."
       }
     ]
   },
@@ -64,6 +79,11 @@ window.VOCAB_N5 = [
         "japanese": "あの女の人は医者です。",
         "romaji": "Ano onna no hito wa isha desu.",
         "german": "Jene Frau ist Ärztin."
+      },
+      {
+        "japanese": "女の子が歌っています。",
+        "romaji": "Onna no ko ga utatte imasu.",
+        "german": "Ein Mädchen singt."
       }
     ]
   },
@@ -81,6 +101,11 @@ window.VOCAB_N5 = [
         "japanese": "子供が公園で遊んでいます。",
         "romaji": "Kodomo ga kouen de asonde imasu.",
         "german": "Das Kind spielt im Park."
+      },
+      {
+        "japanese": "子供は三人います。",
+        "romaji": "Kodomo wa sannin imasu.",
+        "german": "Es gibt drei Kinder."
       }
     ]
   },
@@ -98,6 +123,11 @@ window.VOCAB_N5 = [
         "japanese": "友達と映画を見ました。",
         "romaji": "Tomodachi to eiga o mimashita.",
         "german": "Ich habe mit einem Freund einen Film gesehen."
+      },
+      {
+        "japanese": "友達に手紙を書きました。",
+        "romaji": "Tomodachi ni tegami o kakimashita.",
+        "german": "Ich habe meinem Freund einen Brief geschrieben."
       }
     ]
   },
@@ -115,6 +145,11 @@ window.VOCAB_N5 = [
         "japanese": "先生はとても優しいです。",
         "romaji": "Sensei wa totemo yasashii desu.",
         "german": "Der Lehrer ist sehr freundlich."
+      },
+      {
+        "japanese": "先生に質問します。",
+        "romaji": "Sensei ni shitsumon shimasu.",
+        "german": "Ich stelle dem Lehrer eine Frage."
       }
     ]
   },
@@ -132,6 +167,11 @@ window.VOCAB_N5 = [
         "japanese": "私は大学の学生です。",
         "romaji": "Watashi wa daigaku no gakusei desu.",
         "german": "Ich bin Universitätsstudent."
+      },
+      {
+        "japanese": "学生がたくさんいます。",
+        "romaji": "Gakusei ga takusan imasu.",
+        "german": "Es gibt viele Studenten."
       }
     ]
   },
@@ -149,6 +189,11 @@ window.VOCAB_N5 = [
         "japanese": "家族は四人です。",
         "romaji": "Kazoku wa yonin desu.",
         "german": "Meine Familie besteht aus vier Personen."
+      },
+      {
+        "japanese": "家族で旅行に行きます。",
+        "romaji": "Kazoku de ryokou ni ikimasu.",
+        "german": "Ich reise mit meiner Familie."
       }
     ]
   },
@@ -166,6 +211,11 @@ window.VOCAB_N5 = [
         "japanese": "お父さんは会社員です。",
         "romaji": "Otousan wa kaishain desu.",
         "german": "Mein Vater ist Büroangestellter."
+      },
+      {
+        "japanese": "お父さんは毎朝新聞を読みます。",
+        "romaji": "Otousan wa maiasa shinbun o yomimasu.",
+        "german": "Mein Vater liest jeden Morgen die Zeitung."
       }
     ]
   },
@@ -183,6 +233,11 @@ window.VOCAB_N5 = [
         "japanese": "お母さんは料理が上手です。",
         "romaji": "Okaasan wa ryouri ga jouzu desu.",
         "german": "Meine Mutter kann gut kochen."
+      },
+      {
+        "japanese": "お母さんに電話をかけます。",
+        "romaji": "Okaasan ni denwa o kakemasu.",
+        "german": "Ich rufe meine Mutter an."
       }
     ]
   },
@@ -200,6 +255,11 @@ window.VOCAB_N5 = [
         "japanese": "お兄さんは大学生です。",
         "romaji": "Oniisan wa daigakusei desu.",
         "german": "Mein älterer Bruder ist Student."
+      },
+      {
+        "japanese": "お兄さんは背が高いです。",
+        "romaji": "Oniisan wa se ga takai desu.",
+        "german": "Mein älterer Bruder ist groß."
       }
     ]
   },
@@ -217,6 +277,11 @@ window.VOCAB_N5 = [
         "japanese": "お姉さんは東京に住んでいます。",
         "romaji": "Oneesan wa Toukyou ni sunde imasu.",
         "german": "Meine ältere Schwester wohnt in Tokio."
+      },
+      {
+        "japanese": "お姉さんは先生になりました。",
+        "romaji": "Oneesan wa sensei ni narimashita.",
+        "german": "Meine ältere Schwester ist Lehrerin geworden."
       }
     ]
   },
@@ -234,6 +299,11 @@ window.VOCAB_N5 = [
         "japanese": "弟は十歳です。",
         "romaji": "Otouto wa jussai desu.",
         "german": "Mein jüngerer Bruder ist zehn Jahre alt."
+      },
+      {
+        "japanese": "弟と一緒にサッカーをします。",
+        "romaji": "Otouto to issho ni sakkaa o shimasu.",
+        "german": "Ich spiele mit meinem jüngeren Bruder Fußball."
       }
     ]
   },
@@ -251,6 +321,11 @@ window.VOCAB_N5 = [
         "japanese": "妹は高校生です。",
         "romaji": "Imouto wa koukousei desu.",
         "german": "Meine jüngere Schwester ist Oberschülerin."
+      },
+      {
+        "japanese": "妹は歌が上手です。",
+        "romaji": "Imouto wa uta ga jouzu desu.",
+        "german": "Meine jüngere Schwester singt gut."
       }
     ]
   },
@@ -268,6 +343,11 @@ window.VOCAB_N5 = [
         "japanese": "朝ごはんを食べます。",
         "romaji": "Asagohan o tabemasu.",
         "german": "Ich esse Frühstück."
+      },
+      {
+        "japanese": "寿司を食べたいです。",
+        "romaji": "Sushi o tabetai desu.",
+        "german": "Ich möchte Sushi essen."
       }
     ]
   },
@@ -285,6 +365,11 @@ window.VOCAB_N5 = [
         "japanese": "水を飲みます。",
         "romaji": "Mizu o nomimasu.",
         "german": "Ich trinke Wasser."
+      },
+      {
+        "japanese": "お茶を飲みませんか。",
+        "romaji": "Ocha o nomimasen ka.",
+        "german": "Möchten Sie Tee trinken?"
       }
     ]
   },
@@ -302,6 +387,11 @@ window.VOCAB_N5 = [
         "japanese": "学校に行きます。",
         "romaji": "Gakkou ni ikimasu.",
         "german": "Ich gehe zur Schule."
+      },
+      {
+        "japanese": "明日東京に行きます。",
+        "romaji": "Ashita Toukyou ni ikimasu.",
+        "german": "Morgen fahre ich nach Tokio."
       }
     ]
   },
@@ -319,6 +409,11 @@ window.VOCAB_N5 = [
         "japanese": "友達が来ます。",
         "romaji": "Tomodachi ga kimasu.",
         "german": "Ein Freund kommt."
+      },
+      {
+        "japanese": "日本から来ました。",
+        "romaji": "Nihon kara kimashita.",
+        "german": "Ich bin aus Japan gekommen."
       }
     ]
   },
@@ -336,6 +431,11 @@ window.VOCAB_N5 = [
         "japanese": "家に帰ります。",
         "romaji": "Ie ni kaerimasu.",
         "german": "Ich kehre nach Hause zurück."
+      },
+      {
+        "japanese": "五時に帰ります。",
+        "romaji": "Goji ni kaerimasu.",
+        "german": "Ich gehe um fünf Uhr zurück."
       }
     ]
   },
@@ -353,6 +453,11 @@ window.VOCAB_N5 = [
         "japanese": "テレビを見ます。",
         "romaji": "Terebi o mimasu.",
         "german": "Ich schaue Fernsehen."
+      },
+      {
+        "japanese": "桜を見に行きましょう。",
+        "romaji": "Sakura o mi ni ikimashou.",
+        "german": "Lass uns Kirschblüten ansehen gehen."
       }
     ]
   },
@@ -370,6 +475,11 @@ window.VOCAB_N5 = [
         "japanese": "音楽を聞きます。",
         "romaji": "Ongaku o kikimasu.",
         "german": "Ich höre Musik."
+      },
+      {
+        "japanese": "先生に聞いてください。",
+        "romaji": "Sensei ni kiite kudasai.",
+        "german": "Bitte fragen Sie den Lehrer."
       }
     ]
   },
@@ -387,6 +497,11 @@ window.VOCAB_N5 = [
         "japanese": "本を読みます。",
         "romaji": "Hon o yomimasu.",
         "german": "Ich lese ein Buch."
+      },
+      {
+        "japanese": "毎日新聞を読みます。",
+        "romaji": "Mainichi shinbun o yomimasu.",
+        "german": "Ich lese jeden Tag die Zeitung."
       }
     ]
   },
@@ -404,6 +519,11 @@ window.VOCAB_N5 = [
         "japanese": "手紙を書きます。",
         "romaji": "Tegami o kakimasu.",
         "german": "Ich schreibe einen Brief."
+      },
+      {
+        "japanese": "名前を書いてください。",
+        "romaji": "Namae o kaite kudasai.",
+        "german": "Bitte schreiben Sie Ihren Namen."
       }
     ]
   },
@@ -421,6 +541,11 @@ window.VOCAB_N5 = [
         "japanese": "日本語を話します。",
         "romaji": "Nihongo o hanashimasu.",
         "german": "Ich spreche Japanisch."
+      },
+      {
+        "japanese": "友達と電話で話しました。",
+        "romaji": "Tomodachi to denwa de hanashimashita.",
+        "german": "Ich habe mit meinem Freund telefoniert."
       }
     ]
   },
@@ -438,6 +563,11 @@ window.VOCAB_N5 = [
         "japanese": "パンを買います。",
         "romaji": "Pan o kaimasu.",
         "german": "Ich kaufe Brot."
+      },
+      {
+        "japanese": "花を買いました。",
+        "romaji": "Hana o kaimashita.",
+        "german": "Ich habe Blumen gekauft."
       }
     ]
   },
@@ -455,6 +585,11 @@ window.VOCAB_N5 = [
         "japanese": "勉強をします。",
         "romaji": "Benkyou o shimasu.",
         "german": "Ich lerne."
+      },
+      {
+        "japanese": "テニスをしませんか。",
+        "romaji": "Tenisu o shimasen ka.",
+        "german": "Wollen wir Tennis spielen?"
       }
     ]
   },
@@ -472,6 +607,11 @@ window.VOCAB_N5 = [
         "japanese": "机の上に本があります。",
         "romaji": "Tsukue no ue ni hon ga arimasu.",
         "german": "Auf dem Tisch liegt ein Buch."
+      },
+      {
+        "japanese": "公園にベンチがあります。",
+        "romaji": "Kouen ni benchi ga arimasu.",
+        "german": "Im Park gibt es eine Bank."
       }
     ]
   },
@@ -489,6 +629,11 @@ window.VOCAB_N5 = [
         "japanese": "猫がいます。",
         "romaji": "Neko ga imasu.",
         "german": "Es gibt eine Katze."
+      },
+      {
+        "japanese": "部屋に猫がいます。",
+        "romaji": "Heya ni neko ga imasu.",
+        "german": "Im Zimmer ist eine Katze."
       }
     ]
   },
@@ -506,6 +651,11 @@ window.VOCAB_N5 = [
         "japanese": "日本語が分かります。",
         "romaji": "Nihongo ga wakarimasu.",
         "german": "Ich verstehe Japanisch."
+      },
+      {
+        "japanese": "この問題が分かりません。",
+        "romaji": "Kono mondai ga wakarimasen.",
+        "german": "Ich verstehe dieses Problem nicht."
       }
     ]
   },
@@ -523,6 +673,11 @@ window.VOCAB_N5 = [
         "japanese": "ここで待ってください。",
         "romaji": "Koko de matte kudasai.",
         "german": "Bitte warten Sie hier."
+      },
+      {
+        "japanese": "バスを待っています。",
+        "romaji": "Basu o matte imasu.",
+        "german": "Ich warte auf den Bus."
       }
     ]
   },
@@ -540,6 +695,11 @@ window.VOCAB_N5 = [
         "japanese": "立ってください。",
         "romaji": "Tatte kudasai.",
         "german": "Bitte stehen Sie auf."
+      },
+      {
+        "japanese": "みんなの前に立ちます。",
+        "romaji": "Minna no mae ni tachimasu.",
+        "german": "Ich stehe vor allen."
       }
     ]
   },
@@ -557,6 +717,11 @@ window.VOCAB_N5 = [
         "japanese": "椅子に座ってください。",
         "romaji": "Isu ni suwatte kudasai.",
         "german": "Bitte setzen Sie sich auf den Stuhl."
+      },
+      {
+        "japanese": "ここに座りましょう。",
+        "romaji": "Koko ni suwarimashou.",
+        "german": "Setzen wir uns hier."
       }
     ]
   },
@@ -574,6 +739,11 @@ window.VOCAB_N5 = [
         "japanese": "十一時に寝ます。",
         "romaji": "Juuichiji ni nemasu.",
         "german": "Ich schlafe um elf Uhr."
+      },
+      {
+        "japanese": "昨日早く寝ました。",
+        "romaji": "Kinou hayaku nemashita.",
+        "german": "Gestern bin ich früh eingeschlafen."
       }
     ]
   },
@@ -591,6 +761,11 @@ window.VOCAB_N5 = [
         "japanese": "毎朝六時に起きます。",
         "romaji": "Maiasa rokuji ni okimasu.",
         "german": "Ich stehe jeden Morgen um sechs auf."
+      },
+      {
+        "japanese": "日曜日は遅く起きます。",
+        "romaji": "Nichiyoubi wa osoku okimasu.",
+        "german": "Sonntags stehe ich spät auf."
       }
     ]
   },
@@ -608,6 +783,11 @@ window.VOCAB_N5 = [
         "japanese": "銀行で働いています。",
         "romaji": "Ginkou de hataraite imasu.",
         "german": "Ich arbeite bei einer Bank."
+      },
+      {
+        "japanese": "父は病院で働いています。",
+        "romaji": "Chichi wa byouin de hataraite imasu.",
+        "german": "Mein Vater arbeitet im Krankenhaus."
       }
     ]
   },
@@ -625,6 +805,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は休みます。",
         "romaji": "Kyou wa yasumimasu.",
         "german": "Heute ruhe ich mich aus."
+      },
+      {
+        "japanese": "月曜日は学校を休みます。",
+        "romaji": "Getsuyoubi wa gakkou o yasumimasu.",
+        "german": "Am Montag fehle ich in der Schule."
       }
     ]
   },
@@ -642,6 +827,11 @@ window.VOCAB_N5 = [
         "japanese": "英語を教えています。",
         "romaji": "Eigo o oshiete imasu.",
         "german": "Ich unterrichte Englisch."
+      },
+      {
+        "japanese": "日本語を教えてください。",
+        "romaji": "Nihongo o oshiete kudasai.",
+        "german": "Bitte bringen Sie mir Japanisch bei."
       }
     ]
   },
@@ -659,6 +849,11 @@ window.VOCAB_N5 = [
         "japanese": "ピアノを習っています。",
         "romaji": "Piano o naratte imasu.",
         "german": "Ich lerne Klavier."
+      },
+      {
+        "japanese": "日本語を習いたいです。",
+        "romaji": "Nihongo o naraitai desu.",
+        "german": "Ich möchte Japanisch lernen."
       }
     ]
   },
@@ -676,6 +871,11 @@ window.VOCAB_N5 = [
         "japanese": "パソコンを使います。",
         "romaji": "Pasokon o tsukaimasu.",
         "german": "Ich benutze einen Computer."
+      },
+      {
+        "japanese": "辞書を使ってください。",
+        "romaji": "Jisho o tsukatte kudasai.",
+        "german": "Bitte benutzen Sie das Wörterbuch."
       }
     ]
   },
@@ -693,6 +893,11 @@ window.VOCAB_N5 = [
         "japanese": "ケーキを作ります。",
         "romaji": "Keeki o tsukurimasu.",
         "german": "Ich mache einen Kuchen."
+      },
+      {
+        "japanese": "母は料理を作っています。",
+        "romaji": "Haha wa ryouri o tsukutte imasu.",
+        "german": "Meine Mutter kocht gerade."
       }
     ]
   },
@@ -710,6 +915,11 @@ window.VOCAB_N5 = [
         "japanese": "部屋に入ります。",
         "romaji": "Heya ni hairimasu.",
         "german": "Ich betrete das Zimmer."
+      },
+      {
+        "japanese": "靴を脱いで家に入ります。",
+        "romaji": "Kutsu o nuide ie ni hairimasu.",
+        "german": "Ich ziehe die Schuhe aus und betrete das Haus."
       }
     ]
   },
@@ -727,6 +937,11 @@ window.VOCAB_N5 = [
         "japanese": "家を出ます。",
         "romaji": "Ie o demasu.",
         "german": "Ich verlasse das Haus."
+      },
+      {
+        "japanese": "朝七時に家を出ます。",
+        "romaji": "Asa shichiji ni ie o demasu.",
+        "german": "Morgens um sieben verlasse ich das Haus."
       }
     ]
   },
@@ -744,6 +959,11 @@ window.VOCAB_N5 = [
         "japanese": "買い物に出かけます。",
         "romaji": "Kaimono ni dekakemasu.",
         "german": "Ich gehe einkaufen."
+      },
+      {
+        "japanese": "友達と出かけます。",
+        "romaji": "Tomodachi to dekakemasu.",
+        "german": "Ich gehe mit Freunden aus."
       }
     ]
   },
@@ -761,6 +981,11 @@ window.VOCAB_N5 = [
         "japanese": "公園を歩きます。",
         "romaji": "Kouen o arukimasu.",
         "german": "Ich gehe im Park spazieren."
+      },
+      {
+        "japanese": "駅まで歩きます。",
+        "romaji": "Eki made arukimasu.",
+        "german": "Ich gehe zu Fuß zum Bahnhof."
       }
     ]
   },
@@ -778,6 +1003,11 @@ window.VOCAB_N5 = [
         "japanese": "毎朝走ります。",
         "romaji": "Maiasa hashirimasu.",
         "german": "Ich laufe jeden Morgen."
+      },
+      {
+        "japanese": "子供たちが走っています。",
+        "romaji": "Kodomotachi ga hashitte imasu.",
+        "german": "Die Kinder rennen."
       }
     ]
   },
@@ -795,6 +1025,11 @@ window.VOCAB_N5 = [
         "japanese": "プールで泳ぎます。",
         "romaji": "Puuru de oyogimasu.",
         "german": "Ich schwimme im Pool."
+      },
+      {
+        "japanese": "海で泳ぎたいです。",
+        "romaji": "Umi de oyogitai desu.",
+        "german": "Ich möchte im Meer schwimmen."
       }
     ]
   },
@@ -812,6 +1047,11 @@ window.VOCAB_N5 = [
         "japanese": "友達と遊びます。",
         "romaji": "Tomodachi to asobimasu.",
         "german": "Ich spiele mit Freunden."
+      },
+      {
+        "japanese": "子供たちが公園で遊んでいます。",
+        "romaji": "Kodomotachi ga kouen de asonde imasu.",
+        "german": "Die Kinder spielen im Park."
       }
     ]
   },
@@ -829,6 +1069,11 @@ window.VOCAB_N5 = [
         "japanese": "カラオケで歌います。",
         "romaji": "Karaoke de utaimasu.",
         "german": "Ich singe beim Karaoke."
+      },
+      {
+        "japanese": "この歌を歌ってください。",
+        "romaji": "Kono uta o utatte kudasai.",
+        "german": "Bitte singen Sie dieses Lied."
       }
     ]
   },
@@ -846,6 +1091,11 @@ window.VOCAB_N5 = [
         "japanese": "写真を撮ります。",
         "romaji": "Shashin o torimasu.",
         "german": "Ich mache ein Foto."
+      },
+      {
+        "japanese": "富士山を撮りました。",
+        "romaji": "Fujisan o torimashita.",
+        "german": "Ich habe den Berg Fuji fotografiert."
       }
     ]
   },
@@ -863,6 +1113,11 @@ window.VOCAB_N5 = [
         "japanese": "窓を開けてください。",
         "romaji": "Mado o akete kudasai.",
         "german": "Bitte öffnen Sie das Fenster."
+      },
+      {
+        "japanese": "ドアを開けてもいいですか。",
+        "romaji": "Doa o akete mo ii desu ka.",
+        "german": "Darf ich die Tür öffnen?"
       }
     ]
   },
@@ -880,6 +1135,11 @@ window.VOCAB_N5 = [
         "japanese": "ドアを閉めてください。",
         "romaji": "Doa o shimete kudasai.",
         "german": "Bitte schließen Sie die Tür."
+      },
+      {
+        "japanese": "窓を閉めてください。",
+        "romaji": "Mado o shimete kudasai.",
+        "german": "Bitte schließen Sie das Fenster."
       }
     ]
   },
@@ -897,6 +1157,11 @@ window.VOCAB_N5 = [
         "japanese": "電気をつけてください。",
         "romaji": "Denki o tsukete kudasai.",
         "german": "Bitte machen Sie das Licht an."
+      },
+      {
+        "japanese": "テレビをつけてもいいですか。",
+        "romaji": "Terebi o tsukete mo ii desu ka.",
+        "german": "Darf ich den Fernseher einschalten?"
       }
     ]
   },
@@ -914,6 +1179,11 @@ window.VOCAB_N5 = [
         "japanese": "電気を消してください。",
         "romaji": "Denki o keshite kudasai.",
         "german": "Bitte machen Sie das Licht aus."
+      },
+      {
+        "japanese": "テレビを消してください。",
+        "romaji": "Terebi o keshite kudasai.",
+        "german": "Bitte schalten Sie den Fernseher aus."
       }
     ]
   },
@@ -931,6 +1201,11 @@ window.VOCAB_N5 = [
         "japanese": "傘を持っていますか。",
         "romaji": "Kasa o motte imasu ka.",
         "german": "Haben Sie einen Regenschirm?"
+      },
+      {
+        "japanese": "重い荷物を持ちます。",
+        "romaji": "Omoi nimotsu o mochimasu.",
+        "german": "Ich trage schweres Gepäck."
       }
     ]
   },
@@ -948,6 +1223,11 @@ window.VOCAB_N5 = [
         "japanese": "東京に住んでいます。",
         "romaji": "Toukyou ni sunde imasu.",
         "german": "Ich wohne in Tokio."
+      },
+      {
+        "japanese": "大阪に住みたいです。",
+        "romaji": "Oosaka ni sumitai desu.",
+        "german": "Ich möchte in Osaka wohnen."
       }
     ]
   },
@@ -965,6 +1245,11 @@ window.VOCAB_N5 = [
         "japanese": "この人を知っていますか。",
         "romaji": "Kono hito o shitte imasu ka.",
         "german": "Kennen Sie diese Person?"
+      },
+      {
+        "japanese": "あの店を知っていますか。",
+        "romaji": "Ano mise o shitte imasu ka.",
+        "german": "Kennen Sie jenen Laden?"
       }
     ]
   },
@@ -982,6 +1267,11 @@ window.VOCAB_N5 = [
         "japanese": "いいと思います。",
         "romaji": "Ii to omoimasu.",
         "german": "Ich denke, das ist gut."
+      },
+      {
+        "japanese": "明日は雨だと思います。",
+        "romaji": "Ashita wa ame da to omoimasu.",
+        "german": "Ich denke, morgen regnet es."
       }
     ]
   },
@@ -999,6 +1289,11 @@ window.VOCAB_N5 = [
         "japanese": "友達に会います。",
         "romaji": "Tomodachi ni aimasu.",
         "german": "Ich treffe einen Freund."
+      },
+      {
+        "japanese": "昨日先生に会いました。",
+        "romaji": "Kinou sensei ni aimashita.",
+        "german": "Gestern habe ich den Lehrer getroffen."
       }
     ]
   },
@@ -1016,6 +1311,11 @@ window.VOCAB_N5 = [
         "japanese": "電車に乗ります。",
         "romaji": "Densha ni norimasu.",
         "german": "Ich steige in den Zug."
+      },
+      {
+        "japanese": "バスに乗りましょう。",
+        "romaji": "Basu ni norimashou.",
+        "german": "Lass uns den Bus nehmen."
       }
     ]
   },
@@ -1033,6 +1333,11 @@ window.VOCAB_N5 = [
         "japanese": "次の駅で降ります。",
         "romaji": "Tsugi no eki de orimasu.",
         "german": "Ich steige an der nächsten Station aus."
+      },
+      {
+        "japanese": "ここで降りましょう。",
+        "romaji": "Koko de orimashou.",
+        "german": "Lass uns hier aussteigen."
       }
     ]
   },
@@ -1050,6 +1355,11 @@ window.VOCAB_N5 = [
         "japanese": "右に曲がってください。",
         "romaji": "Migi ni magatte kudasai.",
         "german": "Bitte biegen Sie rechts ab."
+      },
+      {
+        "japanese": "次の角を左に曲がります。",
+        "romaji": "Tsugi no kado o hidari ni magarimasu.",
+        "german": "An der nächsten Ecke biege ich links ab."
       }
     ]
   },
@@ -1067,6 +1377,11 @@ window.VOCAB_N5 = [
         "japanese": "橋を渡ります。",
         "romaji": "Hashi o watarimasu.",
         "german": "Ich überquere die Brücke."
+      },
+      {
+        "japanese": "道を渡ってください。",
+        "romaji": "Michi o watatte kudasai.",
+        "german": "Bitte überqueren Sie die Straße."
       }
     ]
   },
@@ -1084,6 +1399,11 @@ window.VOCAB_N5 = [
         "japanese": "この家は大きいです。",
         "romaji": "Kono ie wa ookii desu.",
         "german": "Dieses Haus ist groß."
+      },
+      {
+        "japanese": "この犬は大きいです。",
+        "romaji": "Kono inu wa ookii desu.",
+        "german": "Dieser Hund ist groß."
       }
     ]
   },
@@ -1101,6 +1421,11 @@ window.VOCAB_N5 = [
         "japanese": "小さい猫がいます。",
         "romaji": "Chiisai neko ga imasu.",
         "german": "Es gibt eine kleine Katze."
+      },
+      {
+        "japanese": "小さい子供が泣いています。",
+        "romaji": "Chiisai kodomo ga naite imasu.",
+        "german": "Ein kleines Kind weint."
       }
     ]
   },
@@ -1118,6 +1443,11 @@ window.VOCAB_N5 = [
         "japanese": "新しい車を買いました。",
         "romaji": "Atarashii kuruma o kaimashita.",
         "german": "Ich habe ein neues Auto gekauft."
+      },
+      {
+        "japanese": "新しい靴を買いたいです。",
+        "romaji": "Atarashii kutsu o kaitai desu.",
+        "german": "Ich möchte neue Schuhe kaufen."
       }
     ]
   },
@@ -1135,6 +1465,11 @@ window.VOCAB_N5 = [
         "japanese": "この建物は古いです。",
         "romaji": "Kono tatemono wa furui desu.",
         "german": "Dieses Gebäude ist alt."
+      },
+      {
+        "japanese": "古い写真を見ました。",
+        "romaji": "Furui shashin o mimashita.",
+        "german": "Ich habe alte Fotos angeschaut."
       }
     ]
   },
@@ -1152,6 +1487,11 @@ window.VOCAB_N5 = [
         "japanese": "この山は高いです。",
         "romaji": "Kono yama wa takai desu.",
         "german": "Dieser Berg ist hoch."
+      },
+      {
+        "japanese": "この服は高いです。",
+        "romaji": "Kono fuku wa takai desu.",
+        "german": "Diese Kleidung ist teuer."
       }
     ]
   },
@@ -1169,6 +1509,11 @@ window.VOCAB_N5 = [
         "japanese": "このレストランは安いです。",
         "romaji": "Kono resutoran wa yasui desu.",
         "german": "Dieses Restaurant ist günstig."
+      },
+      {
+        "japanese": "安い店を知っていますか。",
+        "romaji": "Yasui mise o shitte imasu ka.",
+        "german": "Kennen Sie einen günstigen Laden?"
       }
     ]
   },
@@ -1186,6 +1531,11 @@ window.VOCAB_N5 = [
         "japanese": "この道は長いです。",
         "romaji": "Kono michi wa nagai desu.",
         "german": "Dieser Weg ist lang."
+      },
+      {
+        "japanese": "この映画は長いです。",
+        "romaji": "Kono eiga wa nagai desu.",
+        "german": "Dieser Film ist lang."
       }
     ]
   },
@@ -1203,6 +1553,11 @@ window.VOCAB_N5 = [
         "japanese": "髪が短いです。",
         "romaji": "Kami ga mijikai desu.",
         "german": "Die Haare sind kurz."
+      },
+      {
+        "japanese": "短い鉛筆を使っています。",
+        "romaji": "Mijikai enpitsu o tsukatte imasu.",
+        "german": "Ich benutze einen kurzen Bleistift."
       }
     ]
   },
@@ -1220,6 +1575,11 @@ window.VOCAB_N5 = [
         "japanese": "天気が良いです。",
         "romaji": "Tenki ga yoi desu.",
         "german": "Das Wetter ist gut."
+      },
+      {
+        "japanese": "この本は良いです。",
+        "romaji": "Kono hon wa yoi desu.",
+        "german": "Dieses Buch ist gut."
       }
     ]
   },
@@ -1237,6 +1597,11 @@ window.VOCAB_N5 = [
         "japanese": "天気が悪いです。",
         "romaji": "Tenki ga warui desu.",
         "german": "Das Wetter ist schlecht."
+      },
+      {
+        "japanese": "成績が悪いです。",
+        "romaji": "Seiseki ga warui desu.",
+        "german": "Die Noten sind schlecht."
       }
     ]
   },
@@ -1254,6 +1619,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は暑いです。",
         "romaji": "Kyou wa atsui desu.",
         "german": "Heute ist es heiß."
+      },
+      {
+        "japanese": "夏はとても暑いです。",
+        "romaji": "Natsu wa totemo atsui desu.",
+        "german": "Im Sommer ist es sehr heiß."
       }
     ]
   },
@@ -1271,6 +1641,11 @@ window.VOCAB_N5 = [
         "japanese": "冬は寒いです。",
         "romaji": "Fuyu wa samui desu.",
         "german": "Im Winter ist es kalt."
+      },
+      {
+        "japanese": "今朝はとても寒いです。",
+        "romaji": "Kesa wa totemo samui desu.",
+        "german": "Heute Morgen ist es sehr kalt."
       }
     ]
   },
@@ -1288,6 +1663,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は暖かいです。",
         "romaji": "Kyou wa atatakai desu.",
         "german": "Heute ist es warm."
+      },
+      {
+        "japanese": "春は暖かい日が多いです。",
+        "romaji": "Haru wa atatakai hi ga ooi desu.",
+        "german": "Im Frühling gibt es viele warme Tage."
       }
     ]
   },
@@ -1305,6 +1685,11 @@ window.VOCAB_N5 = [
         "japanese": "秋は涼しいです。",
         "romaji": "Aki wa suzushii desu.",
         "german": "Im Herbst ist es kühl."
+      },
+      {
+        "japanese": "今日は涼しくて気持ちいいです。",
+        "romaji": "Kyou wa suzushikute kimochi ii desu.",
+        "german": "Heute ist es kühl und angenehm."
       }
     ]
   },
@@ -1322,6 +1707,11 @@ window.VOCAB_N5 = [
         "japanese": "このケーキはおいしいです。",
         "romaji": "Kono keeki wa oishii desu.",
         "german": "Dieser Kuchen ist lecker."
+      },
+      {
+        "japanese": "この魚はとてもおいしいです。",
+        "romaji": "Kono sakana wa totemo oishii desu.",
+        "german": "Dieser Fisch ist sehr lecker."
       }
     ]
   },
@@ -1339,6 +1729,11 @@ window.VOCAB_N5 = [
         "japanese": "この料理はまずいです。",
         "romaji": "Kono ryouri wa mazui desu.",
         "german": "Dieses Gericht schmeckt schlecht."
+      },
+      {
+        "japanese": "コーヒーがまずいです。",
+        "romaji": "Koohii ga mazui desu.",
+        "german": "Der Kaffee schmeckt schlecht."
       }
     ]
   },
@@ -1356,6 +1751,11 @@ window.VOCAB_N5 = [
         "japanese": "旅行は楽しいです。",
         "romaji": "Ryokou wa tanoshii desu.",
         "german": "Reisen macht Spaß."
+      },
+      {
+        "japanese": "友達と遊ぶのは楽しいです。",
+        "romaji": "Tomodachi to asobu no wa tanoshii desu.",
+        "german": "Mit Freunden spielen macht Spaß."
       }
     ]
   },
@@ -1373,6 +1773,11 @@ window.VOCAB_N5 = [
         "japanese": "この映画は面白いです。",
         "romaji": "Kono eiga wa omoshiroi desu.",
         "german": "Dieser Film ist interessant."
+      },
+      {
+        "japanese": "この本はとても面白いです。",
+        "romaji": "Kono hon wa totemo omoshiroi desu.",
+        "german": "Dieses Buch ist sehr interessant."
       }
     ]
   },
@@ -1390,6 +1795,11 @@ window.VOCAB_N5 = [
         "japanese": "日本語は難しいです。",
         "romaji": "Nihongo wa muzukashii desu.",
         "german": "Japanisch ist schwierig."
+      },
+      {
+        "japanese": "この漢字は難しいです。",
+        "romaji": "Kono kanji wa muzukashii desu.",
+        "german": "Dieses Kanji ist schwierig."
       }
     ]
   },
@@ -1407,6 +1817,11 @@ window.VOCAB_N5 = [
         "japanese": "この問題は易しいです。",
         "romaji": "Kono mondai wa yasashii desu.",
         "german": "Dieses Problem ist einfach."
+      },
+      {
+        "japanese": "この質問は易しいです。",
+        "romaji": "Kono shitsumon wa yasashii desu.",
+        "german": "Diese Frage ist einfach."
       }
     ]
   },
@@ -1424,6 +1839,11 @@ window.VOCAB_N5 = [
         "japanese": "彼女は優しい人です。",
         "romaji": "Kanojo wa yasashii hito desu.",
         "german": "Sie ist eine nette Person."
+      },
+      {
+        "japanese": "優しい先生が好きです。",
+        "romaji": "Yasashii sensei ga suki desu.",
+        "german": "Ich mag freundliche Lehrer."
       }
     ]
   },
@@ -1441,6 +1861,11 @@ window.VOCAB_N5 = [
         "japanese": "今日はとても忙しいです。",
         "romaji": "Kyou wa totemo isogashii desu.",
         "german": "Heute bin ich sehr beschäftigt."
+      },
+      {
+        "japanese": "先生は毎日忙しいです。",
+        "romaji": "Sensei wa mainichi isogashii desu.",
+        "german": "Der Lehrer ist jeden Tag beschäftigt."
       }
     ]
   },
@@ -1458,6 +1883,11 @@ window.VOCAB_N5 = [
         "japanese": "駅は近いです。",
         "romaji": "Eki wa chikai desu.",
         "german": "Der Bahnhof ist nah."
+      },
+      {
+        "japanese": "学校は家から近いです。",
+        "romaji": "Gakkou wa ie kara chikai desu.",
+        "german": "Die Schule ist nah am Haus."
       }
     ]
   },
@@ -1475,6 +1905,11 @@ window.VOCAB_N5 = [
         "japanese": "空港は遠いです。",
         "romaji": "Kuukou wa tooi desu.",
         "german": "Der Flughafen ist weit."
+      },
+      {
+        "japanese": "病院は家から遠いです。",
+        "romaji": "Byouin wa ie kara tooi desu.",
+        "german": "Das Krankenhaus ist weit von zu Hause."
       }
     ]
   },
@@ -1492,6 +1927,11 @@ window.VOCAB_N5 = [
         "japanese": "この部屋は広いです。",
         "romaji": "Kono heya wa hiroi desu.",
         "german": "Dieses Zimmer ist geräumig."
+      },
+      {
+        "japanese": "この公園は広いです。",
+        "romaji": "Kono kouen wa hiroi desu.",
+        "german": "Dieser Park ist weitläufig."
       }
     ]
   },
@@ -1509,6 +1949,11 @@ window.VOCAB_N5 = [
         "japanese": "この道は狭いです。",
         "romaji": "Kono michi wa semai desu.",
         "german": "Dieser Weg ist eng."
+      },
+      {
+        "japanese": "この電車は狭いです。",
+        "romaji": "Kono densha wa semai desu.",
+        "german": "Dieser Zug ist eng."
       }
     ]
   },
@@ -1526,6 +1971,11 @@ window.VOCAB_N5 = [
         "japanese": "この部屋は明るいです。",
         "romaji": "Kono heya wa akarui desu.",
         "german": "Dieses Zimmer ist hell."
+      },
+      {
+        "japanese": "朝の空は明るいです。",
+        "romaji": "Asa no sora wa akarui desu.",
+        "german": "Der Morgenhimmel ist hell."
       }
     ]
   },
@@ -1543,6 +1993,11 @@ window.VOCAB_N5 = [
         "japanese": "夜は暗いです。",
         "romaji": "Yoru wa kurai desu.",
         "german": "Nachts ist es dunkel."
+      },
+      {
+        "japanese": "この映画館は暗いです。",
+        "romaji": "Kono eigakan wa kurai desu.",
+        "german": "Dieses Kino ist dunkel."
       }
     ]
   },
@@ -1560,6 +2015,11 @@ window.VOCAB_N5 = [
         "japanese": "この荷物は重いです。",
         "romaji": "Kono nimotsu wa omoi desu.",
         "german": "Dieses Gepäck ist schwer."
+      },
+      {
+        "japanese": "この本は重いです。",
+        "romaji": "Kono hon wa omoi desu.",
+        "german": "Dieses Buch ist schwer."
       }
     ]
   },
@@ -1577,6 +2037,11 @@ window.VOCAB_N5 = [
         "japanese": "このかばんは軽いです。",
         "romaji": "Kono kaban wa karui desu.",
         "german": "Diese Tasche ist leicht."
+      },
+      {
+        "japanese": "この箱は軽いです。",
+        "romaji": "Kono hako wa karui desu.",
+        "german": "Diese Schachtel ist leicht."
       }
     ]
   },
@@ -1594,6 +2059,11 @@ window.VOCAB_N5 = [
         "japanese": "人が多いです。",
         "romaji": "Hito ga ooi desu.",
         "german": "Es gibt viele Menschen."
+      },
+      {
+        "japanese": "宿題が多いです。",
+        "romaji": "Shukudai ga ooi desu.",
+        "german": "Es gibt viele Hausaufgaben."
       }
     ]
   },
@@ -1611,6 +2081,11 @@ window.VOCAB_N5 = [
         "japanese": "お金が少ないです。",
         "romaji": "Okane ga sukunai desu.",
         "german": "Es ist wenig Geld da."
+      },
+      {
+        "japanese": "今日は生徒が少ないです。",
+        "romaji": "Kyou wa seito ga sukunai desu.",
+        "german": "Heute gibt es wenige Schüler."
       }
     ]
   },
@@ -1628,6 +2103,11 @@ window.VOCAB_N5 = [
         "japanese": "朝早く起きます。",
         "romaji": "Asa hayaku okimasu.",
         "german": "Ich stehe früh morgens auf."
+      },
+      {
+        "japanese": "電車は速くて便利です。",
+        "romaji": "Densha wa hayakute benri desu.",
+        "german": "Der Zug ist schnell und praktisch."
       }
     ]
   },
@@ -1645,6 +2125,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は遅いです。",
         "romaji": "Kyou wa osoi desu.",
         "german": "Heute ist es spät."
+      },
+      {
+        "japanese": "返事が遅いです。",
+        "romaji": "Henji ga osoi desu.",
+        "german": "Die Antwort ist spät."
       }
     ]
   },
@@ -1662,6 +2147,11 @@ window.VOCAB_N5 = [
         "japanese": "彼は強い人です。",
         "romaji": "Kare wa tsuyoi hito desu.",
         "german": "Er ist ein starker Mensch."
+      },
+      {
+        "japanese": "この風は強いです。",
+        "romaji": "Kono kaze wa tsuyoi desu.",
+        "german": "Dieser Wind ist stark."
       }
     ]
   },
@@ -1679,6 +2169,11 @@ window.VOCAB_N5 = [
         "japanese": "風邪に弱いです。",
         "romaji": "Kaze ni yowai desu.",
         "german": "Ich bin anfällig für Erkältungen."
+      },
+      {
+        "japanese": "このお茶は味が弱いです。",
+        "romaji": "Kono ocha wa aji ga yowai desu.",
+        "german": "Dieser Tee schmeckt schwach."
       }
     ]
   },
@@ -1696,6 +2191,11 @@ window.VOCAB_N5 = [
         "japanese": "白い花がきれいです。",
         "romaji": "Shiroi hana ga kirei desu.",
         "german": "Die weißen Blumen sind schön."
+      },
+      {
+        "japanese": "雪は白いです。",
+        "romaji": "Yuki wa shiroi desu.",
+        "german": "Schnee ist weiß."
       }
     ]
   },
@@ -1713,6 +2213,11 @@ window.VOCAB_N5 = [
         "japanese": "黒い猫がいます。",
         "romaji": "Kuroi neko ga imasu.",
         "german": "Da ist eine schwarze Katze."
+      },
+      {
+        "japanese": "黒い服を着ています。",
+        "romaji": "Kuroi fuku o kite imasu.",
+        "german": "Ich trage schwarze Kleidung."
       }
     ]
   },
@@ -1730,6 +2235,11 @@ window.VOCAB_N5 = [
         "japanese": "赤い車が好きです。",
         "romaji": "Akai kuruma ga suki desu.",
         "german": "Ich mag rote Autos."
+      },
+      {
+        "japanese": "赤いりんごをください。",
+        "romaji": "Akai ringo o kudasai.",
+        "german": "Einen roten Apfel, bitte."
       }
     ]
   },
@@ -1747,6 +2257,11 @@ window.VOCAB_N5 = [
         "japanese": "空は青いです。",
         "romaji": "Sora wa aoi desu.",
         "german": "Der Himmel ist blau."
+      },
+      {
+        "japanese": "青い海がきれいです。",
+        "romaji": "Aoi umi ga kirei desu.",
+        "german": "Das blaue Meer ist schön."
       }
     ]
   },
@@ -1764,6 +2279,11 @@ window.VOCAB_N5 = [
         "japanese": "このケーキは甘いです。",
         "romaji": "Kono keeki wa amai desu.",
         "german": "Dieser Kuchen ist süß."
+      },
+      {
+        "japanese": "みかんは甘いです。",
+        "romaji": "Mikan wa amai desu.",
+        "german": "Mandarinen sind süß."
       }
     ]
   },
@@ -1781,6 +2301,11 @@ window.VOCAB_N5 = [
         "japanese": "このカレーは辛いです。",
         "romaji": "Kono karee wa karai desu.",
         "german": "Dieses Curry ist scharf."
+      },
+      {
+        "japanese": "この味噌汁は辛いです。",
+        "romaji": "Kono misoshiru wa karai desu.",
+        "german": "Diese Misosuppe ist scharf."
       }
     ]
   },
@@ -1798,6 +2323,11 @@ window.VOCAB_N5 = [
         "japanese": "月は丸いです。",
         "romaji": "Tsuki wa marui desu.",
         "german": "Der Mond ist rund."
+      },
+      {
+        "japanese": "丸いボールがあります。",
+        "romaji": "Marui booru ga arimasu.",
+        "german": "Es gibt einen runden Ball."
       }
     ]
   },
@@ -1815,6 +2345,11 @@ window.VOCAB_N5 = [
         "japanese": "お元気ですか。",
         "romaji": "Ogenki desu ka.",
         "german": "Wie geht es Ihnen?"
+      },
+      {
+        "japanese": "毎日元気に過ごしています。",
+        "romaji": "Mainichi genki ni sugoshite imasu.",
+        "german": "Ich verbringe jeden Tag munter."
       }
     ]
   },
@@ -1832,6 +2367,11 @@ window.VOCAB_N5 = [
         "japanese": "日本料理が好きです。",
         "romaji": "Nihon ryouri ga suki desu.",
         "german": "Ich mag japanisches Essen."
+      },
+      {
+        "japanese": "音楽が好きです。",
+        "romaji": "Ongaku ga suki desu.",
+        "german": "Ich mag Musik."
       }
     ]
   },
@@ -1849,6 +2389,11 @@ window.VOCAB_N5 = [
         "japanese": "虫が嫌いです。",
         "romaji": "Mushi ga kirai desu.",
         "german": "Ich mag keine Insekten."
+      },
+      {
+        "japanese": "運動が嫌いです。",
+        "romaji": "Undou ga kirai desu.",
+        "german": "Ich mag keinen Sport."
       }
     ]
   },
@@ -1866,6 +2411,11 @@ window.VOCAB_N5 = [
         "japanese": "彼女は料理が上手です。",
         "romaji": "Kanojo wa ryouri ga jouzu desu.",
         "german": "Sie ist gut im Kochen."
+      },
+      {
+        "japanese": "彼はテニスが上手です。",
+        "romaji": "Kare wa tenisu ga jouzu desu.",
+        "german": "Er ist gut im Tennis."
       }
     ]
   },
@@ -1883,6 +2433,11 @@ window.VOCAB_N5 = [
         "japanese": "私は歌が下手です。",
         "romaji": "Watashi wa uta ga heta desu.",
         "german": "Ich bin schlecht im Singen."
+      },
+      {
+        "japanese": "私は絵が下手です。",
+        "romaji": "Watashi wa e ga heta desu.",
+        "german": "Ich bin schlecht im Zeichnen."
       }
     ]
   },
@@ -1900,6 +2455,11 @@ window.VOCAB_N5 = [
         "japanese": "この人は有名です。",
         "romaji": "Kono hito wa yuumei desu.",
         "german": "Diese Person ist berühmt."
+      },
+      {
+        "japanese": "この寺は有名です。",
+        "romaji": "Kono tera wa yuumei desu.",
+        "german": "Dieser Tempel ist berühmt."
       }
     ]
   },
@@ -1917,6 +2477,11 @@ window.VOCAB_N5 = [
         "japanese": "この町は静かです。",
         "romaji": "Kono machi wa shizuka desu.",
         "german": "Diese Stadt ist ruhig."
+      },
+      {
+        "japanese": "図書館は静かです。",
+        "romaji": "Toshokan wa shizuka desu.",
+        "german": "Die Bibliothek ist ruhig."
       }
     ]
   },
@@ -1934,6 +2499,11 @@ window.VOCAB_N5 = [
         "japanese": "この通りは賑やかです。",
         "romaji": "Kono toori wa nigiyaka desu.",
         "german": "Diese Straße ist belebt."
+      },
+      {
+        "japanese": "お祭りは賑やかです。",
+        "romaji": "Omatsuri wa nigiyaka desu.",
+        "german": "Das Fest ist lebhaft."
       }
     ]
   },
@@ -1951,6 +2521,11 @@ window.VOCAB_N5 = [
         "japanese": "この花はきれいです。",
         "romaji": "Kono hana wa kirei desu.",
         "german": "Diese Blume ist schön."
+      },
+      {
+        "japanese": "この部屋はきれいです。",
+        "romaji": "Kono heya wa kirei desu.",
+        "german": "Dieses Zimmer ist sauber."
       }
     ]
   },
@@ -1968,6 +2543,11 @@ window.VOCAB_N5 = [
         "japanese": "この辞書は便利です。",
         "romaji": "Kono jisho wa benri desu.",
         "german": "Dieses Wörterbuch ist praktisch."
+      },
+      {
+        "japanese": "駅の近くは便利です。",
+        "romaji": "Eki no chikaku wa benri desu.",
+        "german": "Die Nähe des Bahnhofs ist praktisch."
       }
     ]
   },
@@ -1985,6 +2565,11 @@ window.VOCAB_N5 = [
         "japanese": "仕事が大変です。",
         "romaji": "Shigoto ga taihen desu.",
         "german": "Die Arbeit ist anstrengend."
+      },
+      {
+        "japanese": "引っ越しは大変です。",
+        "romaji": "Hikkoshi wa taihen desu.",
+        "german": "Umziehen ist anstrengend."
       }
     ]
   },
@@ -2002,6 +2587,11 @@ window.VOCAB_N5 = [
         "japanese": "大丈夫ですか。",
         "romaji": "Daijoubu desu ka.",
         "german": "Ist alles in Ordnung?"
+      },
+      {
+        "japanese": "熱がないから大丈夫です。",
+        "romaji": "Netsu ga nai kara daijoubu desu.",
+        "german": "Kein Fieber, also ist alles in Ordnung."
       }
     ]
   },
@@ -2019,6 +2609,11 @@ window.VOCAB_N5 = [
         "japanese": "水をください。",
         "romaji": "Mizu o kudasai.",
         "german": "Bitte geben Sie mir Wasser."
+      },
+      {
+        "japanese": "冷たい水をください。",
+        "romaji": "Tsumetai mizu o kudasai.",
+        "german": "Kaltes Wasser, bitte."
       }
     ]
   },
@@ -2036,6 +2631,11 @@ window.VOCAB_N5 = [
         "japanese": "お茶を飲みますか。",
         "romaji": "Ocha o nomimasu ka.",
         "german": "Trinken Sie Tee?"
+      },
+      {
+        "japanese": "食事の後でお茶を飲みます。",
+        "romaji": "Shokuji no ato de ocha o nomimasu.",
+        "german": "Nach dem Essen trinke ich Tee."
       }
     ]
   },
@@ -2053,6 +2653,11 @@ window.VOCAB_N5 = [
         "japanese": "牛乳を買います。",
         "romaji": "Gyuunyuu o kaimasu.",
         "german": "Ich kaufe Milch."
+      },
+      {
+        "japanese": "毎朝牛乳を飲みます。",
+        "romaji": "Maiasa gyuunyuu o nomimasu.",
+        "german": "Jeden Morgen trinke ich Milch."
       }
     ]
   },
@@ -2070,6 +2675,11 @@ window.VOCAB_N5 = [
         "japanese": "肉を食べます。",
         "romaji": "Niku o tabemasu.",
         "german": "Ich esse Fleisch."
+      },
+      {
+        "japanese": "スーパーで肉を買います。",
+        "romaji": "Suupaa de niku o kaimasu.",
+        "german": "Ich kaufe Fleisch im Supermarkt."
       }
     ]
   },
@@ -2087,6 +2697,11 @@ window.VOCAB_N5 = [
         "japanese": "魚が好きです。",
         "romaji": "Sakana ga suki desu.",
         "german": "Ich mag Fisch."
+      },
+      {
+        "japanese": "魚を焼きます。",
+        "romaji": "Sakana o yakimasu.",
+        "german": "Ich grille Fisch."
       }
     ]
   },
@@ -2104,6 +2719,11 @@ window.VOCAB_N5 = [
         "japanese": "野菜を食べましょう。",
         "romaji": "Yasai o tabemashou.",
         "german": "Lass uns Gemüse essen."
+      },
+      {
+        "japanese": "子供は野菜が嫌いです。",
+        "romaji": "Kodomo wa yasai ga kirai desu.",
+        "german": "Kinder mögen kein Gemüse."
       }
     ]
   },
@@ -2121,6 +2741,11 @@ window.VOCAB_N5 = [
         "japanese": "果物が好きです。",
         "romaji": "Kudamono ga suki desu.",
         "german": "Ich mag Obst."
+      },
+      {
+        "japanese": "果物を毎日食べます。",
+        "romaji": "Kudamono o mainichi tabemasu.",
+        "german": "Ich esse jeden Tag Obst."
       }
     ]
   },
@@ -2138,6 +2763,11 @@ window.VOCAB_N5 = [
         "japanese": "卵を二つください。",
         "romaji": "Tamago o futatsu kudasai.",
         "german": "Zwei Eier, bitte."
+      },
+      {
+        "japanese": "卵で料理を作ります。",
+        "romaji": "Tamago de ryouri o tsukurimasu.",
+        "german": "Ich koche mit Eiern."
       }
     ]
   },
@@ -2155,6 +2785,11 @@ window.VOCAB_N5 = [
         "japanese": "朝パンを食べます。",
         "romaji": "Asa pan o tabemasu.",
         "german": "Morgens esse ich Brot."
+      },
+      {
+        "japanese": "焼きたてのパンが好きです。",
+        "romaji": "Yakitate no pan ga suki desu.",
+        "german": "Ich mag frisch gebackenes Brot."
       }
     ]
   },
@@ -2172,6 +2807,11 @@ window.VOCAB_N5 = [
         "japanese": "ご飯を食べましょう。",
         "romaji": "Gohan o tabemashou.",
         "german": "Lass uns essen."
+      },
+      {
+        "japanese": "ご飯とみそ汁が好きです。",
+        "romaji": "Gohan to misoshiru ga suki desu.",
+        "german": "Ich mag Reis und Misosuppe."
       }
     ]
   },
@@ -2189,6 +2829,11 @@ window.VOCAB_N5 = [
         "japanese": "日本料理が好きです。",
         "romaji": "Nihon ryouri ga suki desu.",
         "german": "Ich mag japanisches Essen."
+      },
+      {
+        "japanese": "母の料理がおいしいです。",
+        "romaji": "Haha no ryouri ga oishii desu.",
+        "german": "Das Essen meiner Mutter ist lecker."
       }
     ]
   },
@@ -2206,6 +2851,11 @@ window.VOCAB_N5 = [
         "japanese": "朝ご飯を食べましたか。",
         "romaji": "Asagohan o tabemashita ka.",
         "german": "Haben Sie gefrühstückt?"
+      },
+      {
+        "japanese": "朝ご飯にパンを食べます。",
+        "romaji": "Asagohan ni pan o tabemasu.",
+        "german": "Zum Frühstück esse ich Brot."
       }
     ]
   },
@@ -2223,6 +2873,11 @@ window.VOCAB_N5 = [
         "japanese": "昼ご飯は何ですか。",
         "romaji": "Hirugohan wa nan desu ka.",
         "german": "Was gibt es zum Mittagessen?"
+      },
+      {
+        "japanese": "昼ご飯を一緒に食べましょう。",
+        "romaji": "Hirugohan o issho ni tabemashou.",
+        "german": "Lass uns zusammen zu Mittag essen."
       }
     ]
   },
@@ -2240,6 +2895,11 @@ window.VOCAB_N5 = [
         "japanese": "晩ご飯を作ります。",
         "romaji": "Bangohan o tsukurimasu.",
         "german": "Ich mache Abendessen."
+      },
+      {
+        "japanese": "晩ご飯は七時に食べます。",
+        "romaji": "Bangohan wa shichiji ni tabemasu.",
+        "german": "Abendessen ist um sieben Uhr."
       }
     ]
   },
@@ -2257,6 +2917,11 @@ window.VOCAB_N5 = [
         "japanese": "学校に行きます。",
         "romaji": "Gakkou ni ikimasu.",
         "german": "Ich gehe zur Schule."
+      },
+      {
+        "japanese": "学校は九時に始まります。",
+        "romaji": "Gakkou wa kuji ni hajimarimasu.",
+        "german": "Die Schule beginnt um neun."
       }
     ]
   },
@@ -2274,6 +2939,11 @@ window.VOCAB_N5 = [
         "japanese": "大学で日本語を勉強します。",
         "romaji": "Daigaku de nihongo o benkyou shimasu.",
         "german": "Ich studiere Japanisch an der Uni."
+      },
+      {
+        "japanese": "大学は家から遠いです。",
+        "romaji": "Daigaku wa ie kara tooi desu.",
+        "german": "Die Uni ist weit von zu Hause."
       }
     ]
   },
@@ -2291,6 +2961,11 @@ window.VOCAB_N5 = [
         "japanese": "病院に行きます。",
         "romaji": "Byouin ni ikimasu.",
         "german": "Ich gehe ins Krankenhaus."
+      },
+      {
+        "japanese": "病院で薬をもらいました。",
+        "romaji": "Byouin de kusuri o moraimashita.",
+        "german": "Ich habe im Krankenhaus Medizin bekommen."
       }
     ]
   },
@@ -2308,6 +2983,11 @@ window.VOCAB_N5 = [
         "japanese": "銀行は駅の近くです。",
         "romaji": "Ginkou wa eki no chikaku desu.",
         "german": "Die Bank ist in der Nähe des Bahnhofs."
+      },
+      {
+        "japanese": "銀行でお金をおろします。",
+        "romaji": "Ginkou de okane o oroshimasu.",
+        "german": "Ich hebe Geld bei der Bank ab."
       }
     ]
   },
@@ -2325,6 +3005,11 @@ window.VOCAB_N5 = [
         "japanese": "郵便局はどこですか。",
         "romaji": "Yuubinkyoku wa doko desu ka.",
         "german": "Wo ist die Post?"
+      },
+      {
+        "japanese": "郵便局で手紙を出します。",
+        "romaji": "Yuubinkyoku de tegami o dashimasu.",
+        "german": "Ich schicke einen Brief bei der Post ab."
       }
     ]
   },
@@ -2342,6 +3027,11 @@ window.VOCAB_N5 = [
         "japanese": "図書館で本を借ります。",
         "romaji": "Toshokan de hon o karimasu.",
         "german": "Ich leihe mir ein Buch in der Bibliothek."
+      },
+      {
+        "japanese": "図書館で勉強します。",
+        "romaji": "Toshokan de benkyou shimasu.",
+        "german": "Ich lerne in der Bibliothek."
       }
     ]
   },
@@ -2359,6 +3049,11 @@ window.VOCAB_N5 = [
         "japanese": "会社に行きます。",
         "romaji": "Kaisha ni ikimasu.",
         "german": "Ich gehe zur Firma."
+      },
+      {
+        "japanese": "会社は大きいです。",
+        "romaji": "Kaisha wa ookii desu.",
+        "german": "Die Firma ist groß."
       }
     ]
   },
@@ -2376,6 +3071,11 @@ window.VOCAB_N5 = [
         "japanese": "あの店は安いです。",
         "romaji": "Ano mise wa yasui desu.",
         "german": "Jener Laden ist günstig."
+      },
+      {
+        "japanese": "この店のケーキはおいしいです。",
+        "romaji": "Kono mise no keeki wa oishii desu.",
+        "german": "Der Kuchen dieses Ladens ist lecker."
       }
     ]
   },
@@ -2393,6 +3093,11 @@ window.VOCAB_N5 = [
         "japanese": "レストランで食べます。",
         "romaji": "Resutoran de tabemasu.",
         "german": "Ich esse im Restaurant."
+      },
+      {
+        "japanese": "レストランを予約しました。",
+        "romaji": "Resutoran o yoyaku shimashita.",
+        "german": "Ich habe ein Restaurant reserviert."
       }
     ]
   },
@@ -2410,6 +3115,11 @@ window.VOCAB_N5 = [
         "japanese": "ホテルに泊まります。",
         "romaji": "Hoteru ni tomarimasu.",
         "german": "Ich übernachte im Hotel."
+      },
+      {
+        "japanese": "ホテルの部屋は広いです。",
+        "romaji": "Hoteru no heya wa hiroi desu.",
+        "german": "Das Hotelzimmer ist geräumig."
       }
     ]
   },
@@ -2427,6 +3137,11 @@ window.VOCAB_N5 = [
         "japanese": "空港まで一時間です。",
         "romaji": "Kuukou made ichijikan desu.",
         "german": "Bis zum Flughafen dauert es eine Stunde."
+      },
+      {
+        "japanese": "空港はとても大きいです。",
+        "romaji": "Kuukou wa totemo ookii desu.",
+        "german": "Der Flughafen ist sehr groß."
       }
     ]
   },
@@ -2444,6 +3159,11 @@ window.VOCAB_N5 = [
         "japanese": "駅はどこですか。",
         "romaji": "Eki wa doko desu ka.",
         "german": "Wo ist der Bahnhof?"
+      },
+      {
+        "japanese": "駅まで歩いて十分です。",
+        "romaji": "Eki made aruite juppun desu.",
+        "german": "Zum Bahnhof sind es zehn Minuten zu Fuß."
       }
     ]
   },
@@ -2461,6 +3181,11 @@ window.VOCAB_N5 = [
         "japanese": "電車で行きます。",
         "romaji": "Densha de ikimasu.",
         "german": "Ich fahre mit dem Zug."
+      },
+      {
+        "japanese": "電車が来ました。",
+        "romaji": "Densha ga kimashita.",
+        "german": "Der Zug ist gekommen."
       }
     ]
   },
@@ -2478,6 +3203,11 @@ window.VOCAB_N5 = [
         "japanese": "バスに乗ります。",
         "romaji": "Basu ni norimasu.",
         "german": "Ich nehme den Bus."
+      },
+      {
+        "japanese": "バスは何時に来ますか。",
+        "romaji": "Basu wa nanji ni kimasu ka.",
+        "german": "Um wie viel Uhr kommt der Bus?"
       }
     ]
   },
@@ -2495,6 +3225,11 @@ window.VOCAB_N5 = [
         "japanese": "タクシーで帰ります。",
         "romaji": "Takushii de kaerimasu.",
         "german": "Ich fahre mit dem Taxi zurück."
+      },
+      {
+        "japanese": "タクシーを呼んでください。",
+        "romaji": "Takushii o yonde kudasai.",
+        "german": "Bitte rufen Sie ein Taxi."
       }
     ]
   },
@@ -2512,6 +3247,11 @@ window.VOCAB_N5 = [
         "japanese": "飛行機で旅行します。",
         "romaji": "Hikouki de ryokou shimasu.",
         "german": "Ich reise mit dem Flugzeug."
+      },
+      {
+        "japanese": "飛行機のチケットを買いました。",
+        "romaji": "Hikouki no chiketto o kaimashita.",
+        "german": "Ich habe ein Flugticket gekauft."
       }
     ]
   },
@@ -2529,6 +3269,11 @@ window.VOCAB_N5 = [
         "japanese": "自転車で学校に行きます。",
         "romaji": "Jitensha de gakkou ni ikimasu.",
         "german": "Ich fahre mit dem Fahrrad zur Schule."
+      },
+      {
+        "japanese": "自転車に乗ります。",
+        "romaji": "Jitensha ni norimasu.",
+        "german": "Ich fahre Fahrrad."
       }
     ]
   },
@@ -2546,6 +3291,11 @@ window.VOCAB_N5 = [
         "japanese": "車を運転します。",
         "romaji": "Kuruma o unten shimasu.",
         "german": "Ich fahre Auto."
+      },
+      {
+        "japanese": "赤い車が好きです。",
+        "romaji": "Akai kuruma ga suki desu.",
+        "german": "Ich mag rote Autos."
       }
     ]
   },
@@ -2563,6 +3313,11 @@ window.VOCAB_N5 = [
         "japanese": "この道をまっすぐ行ってください。",
         "romaji": "Kono michi o massugu itte kudasai.",
         "german": "Bitte gehen Sie diese Straße geradeaus."
+      },
+      {
+        "japanese": "この道は暗いです。",
+        "romaji": "Kono michi wa kurai desu.",
+        "german": "Diese Straße ist dunkel."
       }
     ]
   },
@@ -2580,6 +3335,11 @@ window.VOCAB_N5 = [
         "japanese": "橋を渡ります。",
         "romaji": "Hashi o watarimasu.",
         "german": "Ich überquere die Brücke."
+      },
+      {
+        "japanese": "新しい橋ができました。",
+        "romaji": "Atarashii hashi ga dekimashita.",
+        "german": "Eine neue Brücke wurde gebaut."
       }
     ]
   },
@@ -2597,6 +3357,11 @@ window.VOCAB_N5 = [
         "japanese": "家に帰ります。",
         "romaji": "Ie ni kaerimasu.",
         "german": "Ich gehe nach Hause."
+      },
+      {
+        "japanese": "新しい家に引っ越しました。",
+        "romaji": "Atarashii ie ni hikkoshimashita.",
+        "german": "Ich bin in ein neues Haus umgezogen."
       }
     ]
   },
@@ -2614,6 +3379,11 @@ window.VOCAB_N5 = [
         "japanese": "部屋はきれいです。",
         "romaji": "Heya wa kirei desu.",
         "german": "Das Zimmer ist sauber."
+      },
+      {
+        "japanese": "部屋を掃除します。",
+        "romaji": "Heya o souji shimasu.",
+        "german": "Ich räume das Zimmer auf."
       }
     ]
   },
@@ -2631,6 +3401,11 @@ window.VOCAB_N5 = [
         "japanese": "台所で料理します。",
         "romaji": "Daidokoro de ryouri shimasu.",
         "german": "Ich koche in der Küche."
+      },
+      {
+        "japanese": "台所で食事をします。",
+        "romaji": "Daidokoro de shokuji o shimasu.",
+        "german": "Ich esse in der Küche."
       }
     ]
   },
@@ -2648,6 +3423,11 @@ window.VOCAB_N5 = [
         "japanese": "お風呂に入ります。",
         "romaji": "Ofuro ni hairimasu.",
         "german": "Ich nehme ein Bad."
+      },
+      {
+        "japanese": "お風呂はとても気持ちいいです。",
+        "romaji": "Ofuro wa totemo kimochi ii desu.",
+        "german": "Das Bad fühlt sich sehr gut an."
       }
     ]
   },
@@ -2665,6 +3445,11 @@ window.VOCAB_N5 = [
         "japanese": "トイレはどこですか。",
         "romaji": "Toire wa doko desu ka.",
         "german": "Wo ist die Toilette?"
+      },
+      {
+        "japanese": "トイレを使ってもいいですか。",
+        "romaji": "Toire o tsukatte mo ii desu ka.",
+        "german": "Darf ich die Toilette benutzen?"
       }
     ]
   },
@@ -2682,6 +3467,11 @@ window.VOCAB_N5 = [
         "japanese": "窓を開けてください。",
         "romaji": "Mado o akete kudasai.",
         "german": "Bitte öffnen Sie das Fenster."
+      },
+      {
+        "japanese": "窓から山が見えます。",
+        "romaji": "Mado kara yama ga miemasu.",
+        "german": "Vom Fenster sieht man den Berg."
       }
     ]
   },
@@ -2699,6 +3489,11 @@ window.VOCAB_N5 = [
         "japanese": "ドアを閉めてください。",
         "romaji": "Doa o shimete kudasai.",
         "german": "Bitte schließen Sie die Tür."
+      },
+      {
+        "japanese": "ドアの前に靴があります。",
+        "romaji": "Doa no mae ni kutsu ga arimasu.",
+        "german": "Vor der Tür stehen Schuhe."
       }
     ]
   },
@@ -2716,6 +3511,11 @@ window.VOCAB_N5 = [
         "japanese": "机の上に本があります。",
         "romaji": "Tsukue no ue ni hon ga arimasu.",
         "german": "Auf dem Schreibtisch liegt ein Buch."
+      },
+      {
+        "japanese": "新しい机を買いました。",
+        "romaji": "Atarashii tsukue o kaimashita.",
+        "german": "Ich habe einen neuen Schreibtisch gekauft."
       }
     ]
   },
@@ -2733,6 +3533,11 @@ window.VOCAB_N5 = [
         "japanese": "椅子に座ってください。",
         "romaji": "Isu ni suwatte kudasai.",
         "german": "Bitte setzen Sie sich."
+      },
+      {
+        "japanese": "この椅子は座り心地がいいです。",
+        "romaji": "Kono isu wa suwari gokochi ga ii desu.",
+        "german": "Dieser Stuhl ist bequem."
       }
     ]
   },
@@ -2750,6 +3555,11 @@ window.VOCAB_N5 = [
         "japanese": "電話をかけます。",
         "romaji": "Denwa o kakemasu.",
         "german": "Ich rufe an."
+      },
+      {
+        "japanese": "電話で話しています。",
+        "romaji": "Denwa de hanashite imasu.",
+        "german": "Ich telefoniere gerade."
       }
     ]
   },
@@ -2767,6 +3577,11 @@ window.VOCAB_N5 = [
         "japanese": "時計を見てください。",
         "romaji": "Tokei o mite kudasai.",
         "german": "Bitte schauen Sie auf die Uhr."
+      },
+      {
+        "japanese": "時計が止まりました。",
+        "romaji": "Tokei ga tomarimashita.",
+        "german": "Die Uhr ist stehen geblieben."
       }
     ]
   },
@@ -2784,6 +3599,11 @@ window.VOCAB_N5 = [
         "japanese": "傘を忘れました。",
         "romaji": "Kasa o wasuremashita.",
         "german": "Ich habe meinen Regenschirm vergessen."
+      },
+      {
+        "japanese": "雨なので傘を持ちます。",
+        "romaji": "Ame nanode kasa o mochimasu.",
+        "german": "Da es regnet, nehme ich einen Schirm mit."
       }
     ]
   },
@@ -2801,6 +3621,11 @@ window.VOCAB_N5 = [
         "japanese": "鍵を持っていますか。",
         "romaji": "Kagi o motte imasu ka.",
         "german": "Haben Sie den Schlüssel?"
+      },
+      {
+        "japanese": "鍵をかけてください。",
+        "romaji": "Kagi o kakete kudasai.",
+        "german": "Bitte schließen Sie ab."
       }
     ]
   },
@@ -2818,6 +3643,11 @@ window.VOCAB_N5 = [
         "japanese": "財布を忘れました。",
         "romaji": "Saifu o wasuremashita.",
         "german": "Ich habe meine Geldbörse vergessen."
+      },
+      {
+        "japanese": "財布にお金が入っています。",
+        "romaji": "Saifu ni okane ga haitte imasu.",
+        "german": "In der Geldbörse ist Geld."
       }
     ]
   },
@@ -2835,6 +3665,11 @@ window.VOCAB_N5 = [
         "japanese": "かばんの中に何がありますか。",
         "romaji": "Kaban no naka ni nani ga arimasu ka.",
         "german": "Was ist in der Tasche?"
+      },
+      {
+        "japanese": "かばんに本を入れます。",
+        "romaji": "Kaban ni hon o iremasu.",
+        "german": "Ich stecke das Buch in die Tasche."
       }
     ]
   },
@@ -2852,6 +3687,11 @@ window.VOCAB_N5 = [
         "japanese": "この本は面白いです。",
         "romaji": "Kono hon wa omoshiroi desu.",
         "german": "Dieses Buch ist interessant."
+      },
+      {
+        "japanese": "図書館で本を借りました。",
+        "romaji": "Toshokan de hon o karimashita.",
+        "german": "Ich habe ein Buch ausgeliehen."
       }
     ]
   },
@@ -2869,6 +3709,11 @@ window.VOCAB_N5 = [
         "japanese": "新聞を読みます。",
         "romaji": "Shinbun o yomimasu.",
         "german": "Ich lese die Zeitung."
+      },
+      {
+        "japanese": "朝新聞を読みます。",
+        "romaji": "Asa shinbun o yomimasu.",
+        "german": "Morgens lese ich die Zeitung."
       }
     ]
   },
@@ -2886,6 +3731,11 @@ window.VOCAB_N5 = [
         "japanese": "雑誌を買いました。",
         "romaji": "Zasshi o kaimashita.",
         "german": "Ich habe eine Zeitschrift gekauft."
+      },
+      {
+        "japanese": "この雑誌は面白いです。",
+        "romaji": "Kono zasshi wa omoshiroi desu.",
+        "german": "Diese Zeitschrift ist interessant."
       }
     ]
   },
@@ -2903,6 +3753,11 @@ window.VOCAB_N5 = [
         "japanese": "辞書を使ってください。",
         "romaji": "Jisho o tsukatte kudasai.",
         "german": "Bitte benutzen Sie das Wörterbuch."
+      },
+      {
+        "japanese": "辞書で調べてください。",
+        "romaji": "Jisho de shirabete kudasai.",
+        "german": "Bitte schlagen Sie es im Wörterbuch nach."
       }
     ]
   },
@@ -2920,6 +3775,11 @@ window.VOCAB_N5 = [
         "japanese": "ノートに書いてください。",
         "romaji": "Nooto ni kaite kudasai.",
         "german": "Bitte schreiben Sie es ins Heft."
+      },
+      {
+        "japanese": "ノートを忘れました。",
+        "romaji": "Nooto o wasuremashita.",
+        "german": "Ich habe mein Heft vergessen."
       }
     ]
   },
@@ -2937,6 +3797,11 @@ window.VOCAB_N5 = [
         "japanese": "鉛筆で書いてください。",
         "romaji": "Enpitsu de kaite kudasai.",
         "german": "Bitte schreiben Sie mit Bleistift."
+      },
+      {
+        "japanese": "この鉛筆は短いです。",
+        "romaji": "Kono enpitsu wa mijikai desu.",
+        "german": "Dieser Bleistift ist kurz."
       }
     ]
   },
@@ -2954,6 +3819,11 @@ window.VOCAB_N5 = [
         "japanese": "ペンを貸してください。",
         "romaji": "Pen o kashite kudasai.",
         "german": "Bitte leihen Sie mir einen Stift."
+      },
+      {
+        "japanese": "赤いペンをください。",
+        "romaji": "Akai pen o kudasai.",
+        "german": "Einen roten Stift, bitte."
       }
     ]
   },
@@ -2971,6 +3841,11 @@ window.VOCAB_N5 = [
         "japanese": "写真を撮りましょう。",
         "romaji": "Shashin o torimashou.",
         "german": "Lass uns ein Foto machen."
+      },
+      {
+        "japanese": "旅行の写真を見せてください。",
+        "romaji": "Ryokou no shashin o misete kudasai.",
+        "german": "Zeigen Sie mir die Reisefotos."
       }
     ]
   },
@@ -2988,6 +3863,11 @@ window.VOCAB_N5 = [
         "japanese": "映画を見に行きます。",
         "romaji": "Eiga o mi ni ikimasu.",
         "german": "Ich gehe einen Film sehen."
+      },
+      {
+        "japanese": "日本の映画が好きです。",
+        "romaji": "Nihon no eiga ga suki desu.",
+        "german": "Ich mag japanische Filme."
       }
     ]
   },
@@ -3005,6 +3885,11 @@ window.VOCAB_N5 = [
         "japanese": "音楽を聞きます。",
         "romaji": "Ongaku o kikimasu.",
         "german": "Ich höre Musik."
+      },
+      {
+        "japanese": "クラシック音楽が好きです。",
+        "romaji": "Kurashikku ongaku ga suki desu.",
+        "german": "Ich mag klassische Musik."
       }
     ]
   },
@@ -3022,6 +3907,11 @@ window.VOCAB_N5 = [
         "japanese": "旅行が好きです。",
         "romaji": "Ryokou ga suki desu.",
         "german": "Ich mag Reisen."
+      },
+      {
+        "japanese": "来月旅行に行きます。",
+        "romaji": "Raigetsu ryokou ni ikimasu.",
+        "german": "Nächsten Monat reise ich."
       }
     ]
   },
@@ -3039,6 +3929,11 @@ window.VOCAB_N5 = [
         "japanese": "公園を散歩します。",
         "romaji": "Kouen o sanpo shimasu.",
         "german": "Ich gehe im Park spazieren."
+      },
+      {
+        "japanese": "毎朝犬と散歩します。",
+        "romaji": "Maiasa inu to sanpo shimasu.",
+        "german": "Jeden Morgen gehe ich mit dem Hund spazieren."
       }
     ]
   },
@@ -3056,6 +3951,11 @@ window.VOCAB_N5 = [
         "japanese": "今日の天気はどうですか。",
         "romaji": "Kyou no tenki wa dou desu ka.",
         "german": "Wie ist das Wetter heute?"
+      },
+      {
+        "japanese": "明日の天気は晴れです。",
+        "romaji": "Ashita no tenki wa hare desu.",
+        "german": "Morgen wird es sonnig."
       }
     ]
   },
@@ -3073,6 +3973,11 @@ window.VOCAB_N5 = [
         "japanese": "明日は雨です。",
         "romaji": "Ashita wa ame desu.",
         "german": "Morgen regnet es."
+      },
+      {
+        "japanese": "雨の日は家にいます。",
+        "romaji": "Ame no hi wa ie ni imasu.",
+        "german": "An Regentagen bleibe ich zu Hause."
       }
     ]
   },
@@ -3090,6 +3995,11 @@ window.VOCAB_N5 = [
         "japanese": "雪が降っています。",
         "romaji": "Yuki ga futte imasu.",
         "german": "Es schneit."
+      },
+      {
+        "japanese": "今年は雪が多いです。",
+        "romaji": "Kotoshi wa yuki ga ooi desu.",
+        "german": "Dieses Jahr gibt es viel Schnee."
       }
     ]
   },
@@ -3107,6 +4017,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は風が強いです。",
         "romaji": "Kyou wa kaze ga tsuyoi desu.",
         "german": "Heute ist der Wind stark."
+      },
+      {
+        "japanese": "秋は風が涼しいです。",
+        "romaji": "Aki wa kaze ga suzushii desu.",
+        "german": "Im Herbst ist der Wind kühl."
       }
     ]
   },
@@ -3124,6 +4039,11 @@ window.VOCAB_N5 = [
         "japanese": "空がきれいです。",
         "romaji": "Sora ga kirei desu.",
         "german": "Der Himmel ist schön."
+      },
+      {
+        "japanese": "空に星が見えます。",
+        "romaji": "Sora ni hoshi ga miemasu.",
+        "german": "Am Himmel sieht man Sterne."
       }
     ]
   },
@@ -3141,6 +4061,11 @@ window.VOCAB_N5 = [
         "japanese": "山に登ります。",
         "romaji": "Yama ni noborimasu.",
         "german": "Ich steige auf den Berg."
+      },
+      {
+        "japanese": "富士山は日本で一番高い山です。",
+        "romaji": "Fujisan wa nihon de ichiban takai yama desu.",
+        "german": "Der Fuji ist der höchste Berg Japans."
       }
     ]
   },
@@ -3158,6 +4083,11 @@ window.VOCAB_N5 = [
         "japanese": "川で泳ぎます。",
         "romaji": "Kawa de oyogimasu.",
         "german": "Ich schwimme im Fluss."
+      },
+      {
+        "japanese": "川の水はきれいです。",
+        "romaji": "Kawa no mizu wa kirei desu.",
+        "german": "Das Flusswasser ist sauber."
       }
     ]
   },
@@ -3175,6 +4105,11 @@ window.VOCAB_N5 = [
         "japanese": "海で泳ぎたいです。",
         "romaji": "Umi de oyogitai desu.",
         "german": "Ich möchte im Meer schwimmen."
+      },
+      {
+        "japanese": "夏に海に行きます。",
+        "romaji": "Natsu ni umi ni ikimasu.",
+        "german": "Im Sommer fahre ich ans Meer."
       }
     ]
   },
@@ -3192,6 +4127,11 @@ window.VOCAB_N5 = [
         "japanese": "花がきれいです。",
         "romaji": "Hana ga kirei desu.",
         "german": "Die Blumen sind schön."
+      },
+      {
+        "japanese": "庭に花を植えました。",
+        "romaji": "Niwa ni hana o uemashita.",
+        "german": "Ich habe Blumen im Garten gepflanzt."
       }
     ]
   },
@@ -3209,6 +4149,11 @@ window.VOCAB_N5 = [
         "japanese": "大きい木があります。",
         "romaji": "Ookii ki ga arimasu.",
         "german": "Es gibt einen großen Baum."
+      },
+      {
+        "japanese": "木の下で休みます。",
+        "romaji": "Ki no shita de yasumimasu.",
+        "german": "Ich ruhe mich unter dem Baum aus."
       }
     ]
   },
@@ -3226,6 +4171,11 @@ window.VOCAB_N5 = [
         "japanese": "犬が好きです。",
         "romaji": "Inu ga suki desu.",
         "german": "Ich mag Hunde."
+      },
+      {
+        "japanese": "犬と散歩します。",
+        "romaji": "Inu to sanpo shimasu.",
+        "german": "Ich gehe mit dem Hund spazieren."
       }
     ]
   },
@@ -3243,6 +4193,11 @@ window.VOCAB_N5 = [
         "japanese": "猫がいます。",
         "romaji": "Neko ga imasu.",
         "german": "Da ist eine Katze."
+      },
+      {
+        "japanese": "猫は魚が好きです。",
+        "romaji": "Neko wa sakana ga suki desu.",
+        "german": "Katzen mögen Fisch."
       }
     ]
   },
@@ -3260,6 +4215,11 @@ window.VOCAB_N5 = [
         "japanese": "鳥が飛んでいます。",
         "romaji": "Tori ga tonde imasu.",
         "german": "Ein Vogel fliegt."
+      },
+      {
+        "japanese": "朝鳥が歌っています。",
+        "romaji": "Asa tori ga utatte imasu.",
+        "german": "Morgens singen die Vögel."
       }
     ]
   },
@@ -3277,6 +4237,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は何曜日ですか。",
         "romaji": "Kyou wa nanyoubi desu ka.",
         "german": "Welcher Wochentag ist heute?"
+      },
+      {
+        "japanese": "今日はいい天気です。",
+        "romaji": "Kyou wa ii tenki desu.",
+        "german": "Heute ist schönes Wetter."
       }
     ]
   },
@@ -3294,6 +4259,11 @@ window.VOCAB_N5 = [
         "japanese": "明日は日曜日です。",
         "romaji": "Ashita wa nichiyoubi desu.",
         "german": "Morgen ist Sonntag."
+      },
+      {
+        "japanese": "明日は何をしますか。",
+        "romaji": "Ashita wa nani o shimasu ka.",
+        "german": "Was machen Sie morgen?"
       }
     ]
   },
@@ -3311,6 +4281,11 @@ window.VOCAB_N5 = [
         "japanese": "昨日映画を見ました。",
         "romaji": "Kinou eiga o mimashita.",
         "german": "Gestern habe ich einen Film gesehen."
+      },
+      {
+        "japanese": "昨日は忙しかったです。",
+        "romaji": "Kinou wa isogashikatta desu.",
+        "german": "Gestern war ich beschäftigt."
       }
     ]
   },
@@ -3328,6 +4303,11 @@ window.VOCAB_N5 = [
         "japanese": "朝早く起きます。",
         "romaji": "Asa hayaku okimasu.",
         "german": "Ich stehe morgens früh auf."
+      },
+      {
+        "japanese": "朝ご飯の前に顔を洗います。",
+        "romaji": "Asagohan no mae ni kao o araimasu.",
+        "german": "Vor dem Frühstück wasche ich mein Gesicht."
       }
     ]
   },
@@ -3345,6 +4325,11 @@ window.VOCAB_N5 = [
         "japanese": "昼ご飯を食べます。",
         "romaji": "Hirugohan o tabemasu.",
         "german": "Ich esse Mittagessen."
+      },
+      {
+        "japanese": "昼は暑いです。",
+        "romaji": "Hiru wa atsui desu.",
+        "german": "Mittags ist es heiß."
       }
     ]
   },
@@ -3362,6 +4347,11 @@ window.VOCAB_N5 = [
         "japanese": "夜テレビを見ます。",
         "romaji": "Yoru terebi o mimasu.",
         "german": "Abends schaue ich fern."
+      },
+      {
+        "japanese": "夜は静かです。",
+        "romaji": "Yoru wa shizuka desu.",
+        "german": "Nachts ist es ruhig."
       }
     ]
   },
@@ -3379,6 +4369,11 @@ window.VOCAB_N5 = [
         "japanese": "今何時ですか。",
         "romaji": "Ima nanji desu ka.",
         "german": "Wie spät ist es jetzt?"
+      },
+      {
+        "japanese": "今テレビを見ています。",
+        "romaji": "Ima terebi o mite imasu.",
+        "german": "Jetzt schaue ich fern."
       }
     ]
   },
@@ -3396,6 +4391,11 @@ window.VOCAB_N5 = [
         "japanese": "毎日日本語を勉強します。",
         "romaji": "Mainichi nihongo o benkyou shimasu.",
         "german": "Ich lerne jeden Tag Japanisch."
+      },
+      {
+        "japanese": "毎日散歩します。",
+        "romaji": "Mainichi sanpo shimasu.",
+        "german": "Ich gehe jeden Tag spazieren."
       }
     ]
   },
@@ -3413,6 +4413,11 @@ window.VOCAB_N5 = [
         "japanese": "毎朝コーヒーを飲みます。",
         "romaji": "Maiasa koohii o nomimasu.",
         "german": "Jeden Morgen trinke ich Kaffee."
+      },
+      {
+        "japanese": "毎朝六時に起きます。",
+        "romaji": "Maiasa rokuji ni okimasu.",
+        "german": "Jeden Morgen stehe ich um sechs auf."
       }
     ]
   },
@@ -3430,6 +4435,11 @@ window.VOCAB_N5 = [
         "japanese": "毎晩本を読みます。",
         "romaji": "Maiban hon o yomimasu.",
         "german": "Jeden Abend lese ich ein Buch."
+      },
+      {
+        "japanese": "毎晩お風呂に入ります。",
+        "romaji": "Maiban ofuro ni hairimasu.",
+        "german": "Jeden Abend nehme ich ein Bad."
       }
     ]
   },
@@ -3447,6 +4457,11 @@ window.VOCAB_N5 = [
         "japanese": "毎週テニスをします。",
         "romaji": "Maishuu tenisu o shimasu.",
         "german": "Jede Woche spiele ich Tennis."
+      },
+      {
+        "japanese": "毎週日曜日に買い物をします。",
+        "romaji": "Maishuu nichiyoubi ni kaimono o shimasu.",
+        "german": "Jeden Sonntag gehe ich einkaufen."
       }
     ]
   },
@@ -3464,6 +4479,11 @@ window.VOCAB_N5 = [
         "japanese": "いつもここで食べます。",
         "romaji": "Itsumo koko de tabemasu.",
         "german": "Ich esse immer hier."
+      },
+      {
+        "japanese": "いつもこの道を歩きます。",
+        "romaji": "Itsumo kono michi o arukimasu.",
+        "german": "Ich gehe immer diese Straße entlang."
       }
     ]
   },
@@ -3481,6 +4501,11 @@ window.VOCAB_N5 = [
         "japanese": "時々映画を見ます。",
         "romaji": "Tokidoki eiga o mimasu.",
         "german": "Manchmal schaue ich Filme."
+      },
+      {
+        "japanese": "時々レストランで食べます。",
+        "romaji": "Tokidoki resutoran de tabemasu.",
+        "german": "Manchmal esse ich im Restaurant."
       }
     ]
   },
@@ -3498,6 +4523,11 @@ window.VOCAB_N5 = [
         "japanese": "よく日本料理を食べます。",
         "romaji": "Yoku nihon ryouri o tabemasu.",
         "german": "Ich esse oft japanisches Essen."
+      },
+      {
+        "japanese": "よく図書館に行きます。",
+        "romaji": "Yoku toshokan ni ikimasu.",
+        "german": "Ich gehe oft in die Bibliothek."
       }
     ]
   },
@@ -3515,6 +4545,11 @@ window.VOCAB_N5 = [
         "japanese": "すぐ行きます。",
         "romaji": "Sugu ikimasu.",
         "german": "Ich gehe sofort."
+      },
+      {
+        "japanese": "すぐ戻ります。",
+        "romaji": "Sugu modorimasu.",
+        "german": "Ich komme sofort zurück."
       }
     ]
   },
@@ -3532,6 +4567,11 @@ window.VOCAB_N5 = [
         "japanese": "まだ食べていません。",
         "romaji": "Mada tabete imasen.",
         "german": "Ich habe noch nicht gegessen."
+      },
+      {
+        "japanese": "宿題がまだ終わっていません。",
+        "romaji": "Shukudai ga mada owatte imasen.",
+        "german": "Die Hausaufgaben sind noch nicht fertig."
       }
     ]
   },
@@ -3549,6 +4589,11 @@ window.VOCAB_N5 = [
         "japanese": "もう食べました。",
         "romaji": "Mou tabemashita.",
         "german": "Ich habe schon gegessen."
+      },
+      {
+        "japanese": "もう帰りましょう。",
+        "romaji": "Mou kaerimashou.",
+        "german": "Lass uns schon zurückkehren."
       }
     ]
   },
@@ -3566,6 +4611,11 @@ window.VOCAB_N5 = [
         "japanese": "この花はとてもきれいです。",
         "romaji": "Kono hana wa totemo kirei desu.",
         "german": "Diese Blume ist sehr schön."
+      },
+      {
+        "japanese": "この映画はとても面白いです。",
+        "romaji": "Kono eiga wa totemo omoshiroi desu.",
+        "german": "Dieser Film ist sehr interessant."
       }
     ]
   },
@@ -3583,6 +4633,11 @@ window.VOCAB_N5 = [
         "japanese": "日本語が少し分かります。",
         "romaji": "Nihongo ga sukoshi wakarimasu.",
         "german": "Ich verstehe ein wenig Japanisch."
+      },
+      {
+        "japanese": "少し休みましょう。",
+        "romaji": "Sukoshi yasumimashou.",
+        "german": "Lass uns ein wenig ausruhen."
       }
     ]
   },
@@ -3600,6 +4655,11 @@ window.VOCAB_N5 = [
         "japanese": "本をたくさん読みます。",
         "romaji": "Hon o takusan yomimasu.",
         "german": "Ich lese viele Bücher."
+      },
+      {
+        "japanese": "たくさん買い物をしました。",
+        "romaji": "Takusan kaimono o shimashita.",
+        "german": "Ich habe viel eingekauft."
       }
     ]
   },
@@ -3617,6 +4677,11 @@ window.VOCAB_N5 = [
         "japanese": "全部食べました。",
         "romaji": "Zenbu tabemashita.",
         "german": "Ich habe alles gegessen."
+      },
+      {
+        "japanese": "全部で千円です。",
+        "romaji": "Zenbu de sen en desu.",
+        "german": "Alles zusammen kostet tausend Yen."
       }
     ]
   },
@@ -3634,6 +4699,11 @@ window.VOCAB_N5 = [
         "japanese": "一緒に行きましょう。",
         "romaji": "Issho ni ikimashou.",
         "german": "Lass uns zusammen gehen."
+      },
+      {
+        "japanese": "一緒に勉強しましょう。",
+        "romaji": "Issho ni benkyou shimashou.",
+        "german": "Lass uns zusammen lernen."
       }
     ]
   },
@@ -3651,6 +4721,11 @@ window.VOCAB_N5 = [
         "japanese": "りんごを一つください。",
         "romaji": "Ringo o hitotsu kudasai.",
         "german": "Einen Apfel, bitte."
+      },
+      {
+        "japanese": "一つ選んでください。",
+        "romaji": "Hitotsu erande kudasai.",
+        "german": "Bitte wählen Sie eins aus."
       }
     ]
   },
@@ -3668,6 +4743,11 @@ window.VOCAB_N5 = [
         "japanese": "卵を二つ買います。",
         "romaji": "Tamago o futatsu kaimasu.",
         "german": "Ich kaufe zwei Eier."
+      },
+      {
+        "japanese": "二つの道があります。",
+        "romaji": "Futatsu no michi ga arimasu.",
+        "german": "Es gibt zwei Wege."
       }
     ]
   },
@@ -3685,6 +4765,11 @@ window.VOCAB_N5 = [
         "japanese": "三つありますか。",
         "romaji": "Mittsu arimasu ka.",
         "german": "Gibt es drei?"
+      },
+      {
+        "japanese": "みかんを三つ食べました。",
+        "romaji": "Mikan o mittsu tabemashita.",
+        "german": "Ich habe drei Mandarinen gegessen."
       }
     ]
   },
@@ -3702,6 +4787,11 @@ window.VOCAB_N5 = [
         "japanese": "お金がありません。",
         "romaji": "Okane ga arimasen.",
         "german": "Ich habe kein Geld."
+      },
+      {
+        "japanese": "お金を使いすぎました。",
+        "romaji": "Okane o tsukaisugimashita.",
+        "german": "Ich habe zu viel Geld ausgegeben."
       }
     ]
   },
@@ -3719,6 +4809,11 @@ window.VOCAB_N5 = [
         "japanese": "切符を買います。",
         "romaji": "Kippu o kaimasu.",
         "german": "Ich kaufe eine Fahrkarte."
+      },
+      {
+        "japanese": "切符を二枚ください。",
+        "romaji": "Kippu o nimai kudasai.",
+        "german": "Zwei Fahrkarten, bitte."
       }
     ]
   },
@@ -3736,6 +4831,11 @@ window.VOCAB_N5 = [
         "japanese": "切手をください。",
         "romaji": "Kitte o kudasai.",
         "german": "Briefmarken, bitte."
+      },
+      {
+        "japanese": "この切手はきれいですね。",
+        "romaji": "Kono kitte wa kirei desu ne.",
+        "german": "Diese Briefmarke ist schön, nicht wahr?"
       }
     ]
   },
@@ -3753,6 +4853,11 @@ window.VOCAB_N5 = [
         "japanese": "手紙を書きます。",
         "romaji": "Tegami o kakimasu.",
         "german": "Ich schreibe einen Brief."
+      },
+      {
+        "japanese": "友達から手紙が来ました。",
+        "romaji": "Tomodachi kara tegami ga kimashita.",
+        "german": "Von meinem Freund ist ein Brief gekommen."
       }
     ]
   },
@@ -3770,6 +4875,11 @@ window.VOCAB_N5 = [
         "japanese": "お名前は何ですか。",
         "romaji": "Onamae wa nan desu ka.",
         "german": "Wie heißen Sie?"
+      },
+      {
+        "japanese": "この花の名前を知っていますか。",
+        "romaji": "Kono hana no namae o shitte imasu ka.",
+        "german": "Kennen Sie den Namen dieser Blume?"
       }
     ]
   },
@@ -3787,6 +4897,11 @@ window.VOCAB_N5 = [
         "japanese": "日本語の言葉を覚えます。",
         "romaji": "Nihongo no kotoba o oboemasu.",
         "german": "Ich lerne japanische Wörter."
+      },
+      {
+        "japanese": "この言葉の読み方を教えてください。",
+        "romaji": "Kono kotoba no yomikata o oshiete kudasai.",
+        "german": "Bitte sagen Sie mir, wie man dieses Wort liest."
       }
     ]
   },
@@ -3804,6 +4919,11 @@ window.VOCAB_N5 = [
         "japanese": "この言葉の意味は何ですか。",
         "romaji": "Kono kotoba no imi wa nan desu ka.",
         "german": "Was bedeutet dieses Wort?"
+      },
+      {
+        "japanese": "この漢字の意味がわかりません。",
+        "romaji": "Kono kanji no imi ga wakarimasen.",
+        "german": "Ich verstehe die Bedeutung dieses Kanji nicht."
       }
     ]
   },
@@ -3821,6 +4941,11 @@ window.VOCAB_N5 = [
         "japanese": "質問がありますか。",
         "romaji": "Shitsumon ga arimasu ka.",
         "german": "Haben Sie eine Frage?"
+      },
+      {
+        "japanese": "先生に質問してもいいですか。",
+        "romaji": "Sensei ni shitsumon shite mo ii desu ka.",
+        "german": "Darf ich dem Lehrer eine Frage stellen?"
       }
     ]
   },
@@ -3838,6 +4963,11 @@ window.VOCAB_N5 = [
         "japanese": "答えを書いてください。",
         "romaji": "Kotae o kaite kudasai.",
         "german": "Bitte schreiben Sie die Antwort."
+      },
+      {
+        "japanese": "この問題の答えがわかりません。",
+        "romaji": "Kono mondai no kotae ga wakarimasen.",
+        "german": "Ich kenne die Antwort auf diese Frage nicht."
       }
     ]
   },
@@ -3855,6 +4985,11 @@ window.VOCAB_N5 = [
         "japanese": "問題はありません。",
         "romaji": "Mondai wa arimasen.",
         "german": "Es gibt kein Problem."
+      },
+      {
+        "japanese": "この問題は難しいです。",
+        "romaji": "Kono mondai wa muzukashii desu.",
+        "german": "Dieses Problem ist schwierig."
       }
     ]
   },
@@ -3872,6 +5007,11 @@ window.VOCAB_N5 = [
         "japanese": "明日テストがあります。",
         "romaji": "Ashita tesuto ga arimasu.",
         "german": "Morgen gibt es einen Test."
+      },
+      {
+        "japanese": "テストは来週の月曜日です。",
+        "romaji": "Tesuto wa raishuu no getsuyoubi desu.",
+        "german": "Der Test ist nächsten Montag."
       }
     ]
   },
@@ -3889,6 +5029,11 @@ window.VOCAB_N5 = [
         "japanese": "宿題をしましたか。",
         "romaji": "Shukudai o shimashita ka.",
         "german": "Haben Sie die Hausaufgaben gemacht?"
+      },
+      {
+        "japanese": "宿題を忘れてしまいました。",
+        "romaji": "Shukudai o wasurete shimaimashita.",
+        "german": "Ich habe die Hausaufgaben vergessen."
       }
     ]
   },
@@ -3906,6 +5051,11 @@ window.VOCAB_N5 = [
         "japanese": "日本語の勉強は楽しいです。",
         "romaji": "Nihongo no benkyou wa tanoshii desu.",
         "german": "Japanisch lernen macht Spaß."
+      },
+      {
+        "japanese": "毎日二時間勉強します。",
+        "romaji": "Mainichi nijikan benkyou shimasu.",
+        "german": "Ich lerne jeden Tag zwei Stunden."
       }
     ]
   },
@@ -3923,6 +5073,11 @@ window.VOCAB_N5 = [
         "japanese": "仕事が終わりました。",
         "romaji": "Shigoto ga owarimashita.",
         "german": "Die Arbeit ist fertig."
+      },
+      {
+        "japanese": "仕事が終わってから帰ります。",
+        "romaji": "Shigoto ga owatte kara kaerimasu.",
+        "german": "Ich gehe nach der Arbeit nach Hause."
       }
     ]
   },
@@ -3940,6 +5095,11 @@ window.VOCAB_N5 = [
         "japanese": "毎日練習します。",
         "romaji": "Mainichi renshuu shimasu.",
         "german": "Ich übe jeden Tag."
+      },
+      {
+        "japanese": "ピアノの練習をしています。",
+        "romaji": "Piano no renshuu o shite imasu.",
+        "german": "Ich übe Klavier."
       }
     ]
   },
@@ -3957,6 +5117,11 @@ window.VOCAB_N5 = [
         "japanese": "右に曲がってください。",
         "romaji": "Migi ni magatte kudasai.",
         "german": "Bitte biegen Sie rechts ab."
+      },
+      {
+        "japanese": "次の角を右に曲がってください。",
+        "romaji": "Tsugi no kado o migi ni magatte kudasai.",
+        "german": "Bitte biegen Sie an der nächsten Ecke rechts ab."
       }
     ]
   },
@@ -3974,6 +5139,11 @@ window.VOCAB_N5 = [
         "japanese": "左に行ってください。",
         "romaji": "Hidari ni itte kudasai.",
         "german": "Bitte gehen Sie nach links."
+      },
+      {
+        "japanese": "左の道をまっすぐ行ってください。",
+        "romaji": "Hidari no michi o massugu itte kudasai.",
+        "german": "Bitte gehen Sie geradeaus auf dem linken Weg."
       }
     ]
   },
@@ -3991,6 +5161,11 @@ window.VOCAB_N5 = [
         "japanese": "机の上にあります。",
         "romaji": "Tsukue no ue ni arimasu.",
         "german": "Es ist auf dem Tisch."
+      },
+      {
+        "japanese": "テーブルの上に本があります。",
+        "romaji": "Teeburu no ue ni hon ga arimasu.",
+        "german": "Auf dem Tisch liegt ein Buch."
       }
     ]
   },
@@ -4008,6 +5183,11 @@ window.VOCAB_N5 = [
         "japanese": "机の下にあります。",
         "romaji": "Tsukue no shita ni arimasu.",
         "german": "Es ist unter dem Tisch."
+      },
+      {
+        "japanese": "机の下に猫がいます。",
+        "romaji": "Tsukue no shita ni neko ga imasu.",
+        "german": "Unter dem Tisch ist eine Katze."
       }
     ]
   },
@@ -4025,6 +5205,11 @@ window.VOCAB_N5 = [
         "japanese": "かばんの中にあります。",
         "romaji": "Kaban no naka ni arimasu.",
         "german": "Es ist in der Tasche."
+      },
+      {
+        "japanese": "箱の中に何がありますか。",
+        "romaji": "Hako no naka ni nani ga arimasu ka.",
+        "german": "Was ist in der Kiste?"
       }
     ]
   },
@@ -4038,6 +5223,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Ort",
     "examples": [
+      {
+        "japanese": "外は寒いです。",
+        "romaji": "Soto wa samui desu.",
+        "german": "Draußen ist es kalt."
+      },
       {
         "japanese": "外は寒いです。",
         "romaji": "Soto wa samui desu.",
@@ -4059,6 +5249,11 @@ window.VOCAB_N5 = [
         "japanese": "駅の前にいます。",
         "romaji": "Eki no mae ni imasu.",
         "german": "Ich bin vor dem Bahnhof."
+      },
+      {
+        "japanese": "駅の前で待っています。",
+        "romaji": "Eki no mae de matte imasu.",
+        "german": "Ich warte vor dem Bahnhof."
       }
     ]
   },
@@ -4076,6 +5271,11 @@ window.VOCAB_N5 = [
         "japanese": "後ろを見てください。",
         "romaji": "Ushiro o mite kudasai.",
         "german": "Bitte schauen Sie nach hinten."
+      },
+      {
+        "japanese": "学校の後ろに公園があります。",
+        "romaji": "Gakkou no ushiro ni kouen ga arimasu.",
+        "german": "Hinter der Schule gibt es einen Park."
       }
     ]
   },
@@ -4093,6 +5293,11 @@ window.VOCAB_N5 = [
         "japanese": "隣に誰がいますか。",
         "romaji": "Tonari ni dare ga imasu ka.",
         "german": "Wer ist nebenan?"
+      },
+      {
+        "japanese": "隣の人に聞いてください。",
+        "romaji": "Tonari no hito ni kiite kudasai.",
+        "german": "Bitte fragen Sie die Person nebenan."
       }
     ]
   },
@@ -4110,6 +5315,11 @@ window.VOCAB_N5 = [
         "japanese": "駅の近くに住んでいます。",
         "romaji": "Eki no chikaku ni sunde imasu.",
         "german": "Ich wohne in der Nähe des Bahnhofs."
+      },
+      {
+        "japanese": "この近くにコンビニがありますか。",
+        "romaji": "Kono chikaku ni konbini ga arimasu ka.",
+        "german": "Gibt es in der Nähe einen Konbini?"
       }
     ]
   },
@@ -4127,6 +5337,11 @@ window.VOCAB_N5 = [
         "japanese": "家と駅の間にあります。",
         "romaji": "Ie to eki no aida ni arimasu.",
         "german": "Es ist zwischen Haus und Bahnhof."
+      },
+      {
+        "japanese": "東京と大阪の間は新幹線で行きます。",
+        "romaji": "Toukyou to Oosaka no aida wa shinkansen de ikimasu.",
+        "german": "Zwischen Tokio und Osaka fahre ich mit dem Shinkansen."
       }
     ]
   },
@@ -4144,6 +5359,11 @@ window.VOCAB_N5 = [
         "japanese": "春は暖かいです。",
         "romaji": "Haru wa atatakai desu.",
         "german": "Im Frühling ist es warm."
+      },
+      {
+        "japanese": "春になると桜が咲きます。",
+        "romaji": "Haru ni naru to sakura ga sakimasu.",
+        "german": "Wenn es Frühling wird, blühen die Kirschbäume."
       }
     ]
   },
@@ -4161,6 +5381,11 @@ window.VOCAB_N5 = [
         "japanese": "夏は暑いです。",
         "romaji": "Natsu wa atsui desu.",
         "german": "Im Sommer ist es heiß."
+      },
+      {
+        "japanese": "夏は暑いですから、海に行きます。",
+        "romaji": "Natsu wa atsui desu kara, umi ni ikimasu.",
+        "german": "Im Sommer ist es heiß, deshalb gehe ich ans Meer."
       }
     ]
   },
@@ -4178,6 +5403,11 @@ window.VOCAB_N5 = [
         "japanese": "秋は涼しいです。",
         "romaji": "Aki wa suzushii desu.",
         "german": "Im Herbst ist es kühl."
+      },
+      {
+        "japanese": "秋は紅葉がきれいです。",
+        "romaji": "Aki wa kouyou ga kirei desu.",
+        "german": "Im Herbst ist das Laub schön."
       }
     ]
   },
@@ -4195,6 +5425,11 @@ window.VOCAB_N5 = [
         "japanese": "冬は寒いです。",
         "romaji": "Fuyu wa samui desu.",
         "german": "Im Winter ist es kalt."
+      },
+      {
+        "japanese": "冬はスキーに行きたいです。",
+        "romaji": "Fuyu wa sukii ni ikitai desu.",
+        "german": "Im Winter möchte ich Ski fahren gehen."
       }
     ]
   },
@@ -4212,6 +5447,11 @@ window.VOCAB_N5 = [
         "japanese": "月がきれいです。",
         "romaji": "Tsuki ga kirei desu.",
         "german": "Der Mond ist schön."
+      },
+      {
+        "japanese": "月がきれいですね。",
+        "romaji": "Tsuki ga kirei desu ne.",
+        "german": "Der Mond ist schön, nicht wahr?"
       }
     ]
   },
@@ -4229,6 +5469,11 @@ window.VOCAB_N5 = [
         "japanese": "今年は何年ですか。",
         "romaji": "Kotoshi wa nannen desu ka.",
         "german": "Welches Jahr ist dieses Jahr?"
+      },
+      {
+        "japanese": "今年は忙しかったです。",
+        "romaji": "Kotoshi wa isogashikatta desu.",
+        "german": "Dieses Jahr war ich beschäftigt."
       }
     ]
   },
@@ -4246,6 +5491,11 @@ window.VOCAB_N5 = [
         "japanese": "来週テストがあります。",
         "romaji": "Raishuu tesuto ga arimasu.",
         "german": "Nächste Woche gibt es einen Test."
+      },
+      {
+        "japanese": "一週間に三回運動します。",
+        "romaji": "Isshuukan ni sankai undou shimasu.",
+        "german": "Ich treibe dreimal pro Woche Sport."
       }
     ]
   },
@@ -4263,6 +5513,11 @@ window.VOCAB_N5 = [
         "japanese": "午前九時に始まります。",
         "romaji": "Gozen kuji ni hajimarimasu.",
         "german": "Es beginnt um neun Uhr vormittags."
+      },
+      {
+        "japanese": "午前中に買い物に行きます。",
+        "romaji": "Gozenchuu ni kaimono ni ikimasu.",
+        "german": "Vormittags gehe ich einkaufen."
       }
     ]
   },
@@ -4280,6 +5535,11 @@ window.VOCAB_N5 = [
         "japanese": "午後三時に会いましょう。",
         "romaji": "Gogo sanji ni aimashou.",
         "german": "Treffen wir uns um drei Uhr nachmittags."
+      },
+      {
+        "japanese": "午後から授業があります。",
+        "romaji": "Gogo kara jugyou ga arimasu.",
+        "german": "Ab dem Nachmittag habe ich Unterricht."
       }
     ]
   },
@@ -4297,6 +5557,11 @@ window.VOCAB_N5 = [
         "japanese": "誕生日はいつですか。",
         "romaji": "Tanjoubi wa itsu desu ka.",
         "german": "Wann ist Ihr Geburtstag?"
+      },
+      {
+        "japanese": "誕生日にケーキを食べます。",
+        "romaji": "Tanjoubi ni keeki o tabemasu.",
+        "german": "Am Geburtstag esse ich Kuchen."
       }
     ]
   },
@@ -4314,6 +5579,11 @@ window.VOCAB_N5 = [
         "japanese": "明日は休みです。",
         "romaji": "Ashita wa yasumi desu.",
         "german": "Morgen habe ich frei."
+      },
+      {
+        "japanese": "明日は休みですから、ゆっくりします。",
+        "romaji": "Ashita wa yasumi desu kara, yukkuri shimasu.",
+        "german": "Morgen habe ich frei, deshalb entspanne ich mich."
       }
     ]
   },
@@ -4327,6 +5597,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Eigenschaften",
     "examples": [
+      {
+        "japanese": "何色が好きですか。",
+        "romaji": "Naniiro ga suki desu ka.",
+        "german": "Welche Farbe mögen Sie?"
+      },
       {
         "japanese": "何色が好きですか。",
         "romaji": "Naniiro ga suki desu ka.",
@@ -4348,6 +5623,11 @@ window.VOCAB_N5 = [
         "japanese": "新しい服を買いました。",
         "romaji": "Atarashii fuku o kaimashita.",
         "german": "Ich habe neue Kleidung gekauft."
+      },
+      {
+        "japanese": "新しい服を買いました。",
+        "romaji": "Atarashii fuku o kaimashita.",
+        "german": "Ich habe neue Kleidung gekauft."
       }
     ]
   },
@@ -4365,6 +5645,11 @@ window.VOCAB_N5 = [
         "japanese": "靴を脱いでください。",
         "romaji": "Kutsu o nuide kudasai.",
         "german": "Bitte ziehen Sie die Schuhe aus."
+      },
+      {
+        "japanese": "この靴はちょっと小さいです。",
+        "romaji": "Kono kutsu wa chotto chiisai desu.",
+        "german": "Diese Schuhe sind ein bisschen klein."
       }
     ]
   },
@@ -4382,6 +5667,11 @@ window.VOCAB_N5 = [
         "japanese": "帽子をかぶります。",
         "romaji": "Boushi o kaburimasu.",
         "german": "Ich setze einen Hut auf."
+      },
+      {
+        "japanese": "今日は帽子をかぶっています。",
+        "romaji": "Kyou wa boushi o kabutte imasu.",
+        "german": "Heute trage ich einen Hut."
       }
     ]
   },
@@ -4399,6 +5689,11 @@ window.VOCAB_N5 = [
         "japanese": "メガネをかけています。",
         "romaji": "Megane o kakete imasu.",
         "german": "Ich trage eine Brille."
+      },
+      {
+        "japanese": "メガネをかけている人は田中さんです。",
+        "romaji": "Megane o kakete iru hito wa Tanaka-san desu.",
+        "german": "Die Person mit Brille ist Herr Tanaka."
       }
     ]
   },
@@ -4416,6 +5711,11 @@ window.VOCAB_N5 = [
         "japanese": "体に気をつけてください。",
         "romaji": "Karada ni ki o tsukete kudasai.",
         "german": "Achten Sie auf Ihre Gesundheit."
+      },
+      {
+        "japanese": "体に気をつけてください。",
+        "romaji": "Karada ni ki o tsukete kudasai.",
+        "german": "Passen Sie auf Ihre Gesundheit auf."
       }
     ]
   },
@@ -4429,6 +5729,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Körper",
     "examples": [
+      {
+        "japanese": "頭が痛いです。",
+        "romaji": "Atama ga itai desu.",
+        "german": "Ich habe Kopfschmerzen."
+      },
       {
         "japanese": "頭が痛いです。",
         "romaji": "Atama ga itai desu.",
@@ -4450,6 +5755,11 @@ window.VOCAB_N5 = [
         "japanese": "顔を洗います。",
         "romaji": "Kao o araimasu.",
         "german": "Ich wasche mein Gesicht."
+      },
+      {
+        "japanese": "顔を洗いましたか。",
+        "romaji": "Kao o araimashita ka.",
+        "german": "Haben Sie sich das Gesicht gewaschen?"
       }
     ]
   },
@@ -4467,6 +5777,11 @@ window.VOCAB_N5 = [
         "japanese": "目が大きいです。",
         "romaji": "Me ga ookii desu.",
         "german": "Die Augen sind groß."
+      },
+      {
+        "japanese": "目が大きいですね。",
+        "romaji": "Me ga ookii desu ne.",
+        "german": "Sie haben große Augen!"
       }
     ]
   },
@@ -4480,6 +5795,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Körper",
     "examples": [
+      {
+        "japanese": "耳が痛いです。",
+        "romaji": "Mimi ga itai desu.",
+        "german": "Mein Ohr tut weh."
+      },
       {
         "japanese": "耳が痛いです。",
         "romaji": "Mimi ga itai desu.",
@@ -4501,6 +5821,11 @@ window.VOCAB_N5 = [
         "japanese": "口を開けてください。",
         "romaji": "Kuchi o akete kudasai.",
         "german": "Bitte öffnen Sie den Mund."
+      },
+      {
+        "japanese": "口を大きく開けてください。",
+        "romaji": "Kuchi o ookiku akete kudasai.",
+        "german": "Bitte öffnen Sie den Mund weit."
       }
     ]
   },
@@ -4514,6 +5839,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Körper",
     "examples": [
+      {
+        "japanese": "手を洗ってください。",
+        "romaji": "Te o aratte kudasai.",
+        "german": "Bitte waschen Sie sich die Hände."
+      },
       {
         "japanese": "手を洗ってください。",
         "romaji": "Te o aratte kudasai.",
@@ -4535,6 +5865,11 @@ window.VOCAB_N5 = [
         "japanese": "足が痛いです。",
         "romaji": "Ashi ga itai desu.",
         "german": "Mein Fuß tut weh."
+      },
+      {
+        "japanese": "足が痛くて歩けません。",
+        "romaji": "Ashi ga itakute arukemasen.",
+        "german": "Mein Fuß tut weh und ich kann nicht laufen."
       }
     ]
   },
@@ -4548,6 +5883,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Körper",
     "examples": [
+      {
+        "japanese": "お腹がすきました。",
+        "romaji": "Onaka ga sukimashita.",
+        "german": "Ich habe Hunger."
+      },
       {
         "japanese": "お腹がすきました。",
         "romaji": "Onaka ga sukimashita.",
@@ -4569,6 +5909,11 @@ window.VOCAB_N5 = [
         "japanese": "背が高いです。",
         "romaji": "Se ga takai desu.",
         "german": "Er/Sie ist groß."
+      },
+      {
+        "japanese": "弟は背が低いです。",
+        "romaji": "Otouto wa se ga hikui desu.",
+        "german": "Mein jüngerer Bruder ist klein."
       }
     ]
   },
@@ -4586,6 +5931,11 @@ window.VOCAB_N5 = [
         "japanese": "声が大きいです。",
         "romaji": "Koe ga ookii desu.",
         "german": "Die Stimme ist laut."
+      },
+      {
+        "japanese": "あの歌手はいい声ですね。",
+        "romaji": "Ano kashu wa ii koe desu ne.",
+        "german": "Dieser Sänger hat eine schöne Stimme."
       }
     ]
   },
@@ -4603,6 +5953,11 @@ window.VOCAB_N5 = [
         "japanese": "薬を飲んでください。",
         "romaji": "Kusuri o nonde kudasai.",
         "german": "Bitte nehmen Sie die Medizin."
+      },
+      {
+        "japanese": "この薬を一日三回飲んでください。",
+        "romaji": "Kono kusuri o ichinichi sankai nonde kudasai.",
+        "german": "Bitte nehmen Sie diese Medizin dreimal täglich."
       }
     ]
   },
@@ -4620,6 +5975,11 @@ window.VOCAB_N5 = [
         "japanese": "病気になりました。",
         "romaji": "Byouki ni narimashita.",
         "german": "Ich bin krank geworden."
+      },
+      {
+        "japanese": "病気の時は休んでください。",
+        "romaji": "Byouki no toki wa yasunde kudasai.",
+        "german": "Wenn Sie krank sind, ruhen Sie sich bitte aus."
       }
     ]
   },
@@ -4637,6 +5997,11 @@ window.VOCAB_N5 = [
         "japanese": "どの国から来ましたか。",
         "romaji": "Dono kuni kara kimashita ka.",
         "german": "Aus welchem Land kommen Sie?"
+      },
+      {
+        "japanese": "どの国に行きたいですか。",
+        "romaji": "Dono kuni ni ikitai desu ka.",
+        "german": "In welches Land möchten Sie reisen?"
       }
     ]
   },
@@ -4654,6 +6019,11 @@ window.VOCAB_N5 = [
         "japanese": "この町は静かです。",
         "romaji": "Kono machi wa shizuka desu.",
         "german": "Diese Stadt ist ruhig."
+      },
+      {
+        "japanese": "この町はとても静かです。",
+        "romaji": "Kono machi wa totemo shizuka desu.",
+        "german": "Diese Stadt ist sehr ruhig."
       }
     ]
   },
@@ -4671,6 +6041,11 @@ window.VOCAB_N5 = [
         "japanese": "公園で遊びます。",
         "romaji": "Kouen de asobimasu.",
         "german": "Ich spiele im Park."
+      },
+      {
+        "japanese": "公園で子供たちが遊んでいます。",
+        "romaji": "Kouen de kodomotachi ga asonde imasu.",
+        "german": "Im Park spielen Kinder."
       }
     ]
   },
@@ -4688,6 +6063,11 @@ window.VOCAB_N5 = [
         "japanese": "プールで泳ぎます。",
         "romaji": "Puuru de oyogimasu.",
         "german": "Ich schwimme im Schwimmbad."
+      },
+      {
+        "japanese": "夏はプールに行きます。",
+        "romaji": "Natsu wa puuru ni ikimasu.",
+        "german": "Im Sommer gehe ich ins Schwimmbad."
       }
     ]
   },
@@ -4705,6 +6085,11 @@ window.VOCAB_N5 = [
         "japanese": "教室に入ってください。",
         "romaji": "Kyoushitsu ni haitte kudasai.",
         "german": "Bitte betreten Sie das Klassenzimmer."
+      },
+      {
+        "japanese": "教室に学生が二十人います。",
+        "romaji": "Kyoushitsu ni gakusei ga nijuunin imasu.",
+        "german": "Im Klassenzimmer sind zwanzig Studenten."
       }
     ]
   },
@@ -4722,6 +6107,11 @@ window.VOCAB_N5 = [
         "japanese": "黒板を見てください。",
         "romaji": "Kokuban o mite kudasai.",
         "german": "Bitte schauen Sie auf die Tafel."
+      },
+      {
+        "japanese": "先生が黒板に字を書きます。",
+        "romaji": "Sensei ga kokuban ni ji o kakimasu.",
+        "german": "Der Lehrer schreibt an die Tafel."
       }
     ]
   },
@@ -4739,6 +6129,11 @@ window.VOCAB_N5 = [
         "japanese": "地図を見ます。",
         "romaji": "Chizu o mimasu.",
         "german": "Ich schaue auf die Karte."
+      },
+      {
+        "japanese": "地図を見て道を探しましょう。",
+        "romaji": "Chizu o mite michi o sagashimashou.",
+        "german": "Lassen Sie uns auf der Karte den Weg suchen."
       }
     ]
   },
@@ -4756,6 +6151,11 @@ window.VOCAB_N5 = [
         "japanese": "テレビを見ます。",
         "romaji": "Terebi o mimasu.",
         "german": "Ich schaue fern."
+      },
+      {
+        "japanese": "テレビのニュースを見ました。",
+        "romaji": "Terebi no nyuusu o mimashita.",
+        "german": "Ich habe die Nachrichten im Fernsehen gesehen."
       }
     ]
   },
@@ -4773,6 +6173,11 @@ window.VOCAB_N5 = [
         "japanese": "パソコンを使います。",
         "romaji": "Pasokon o tsukaimasu.",
         "german": "Ich benutze den Computer."
+      },
+      {
+        "japanese": "パソコンでメールを送ります。",
+        "romaji": "Pasokon de meeru o okurimasu.",
+        "german": "Ich sende eine E-Mail vom Computer."
       }
     ]
   },
@@ -4790,6 +6195,11 @@ window.VOCAB_N5 = [
         "japanese": "カメラを持っていますか。",
         "romaji": "Kamera o motte imasu ka.",
         "german": "Haben Sie eine Kamera?"
+      },
+      {
+        "japanese": "旅行にカメラを持って行きます。",
+        "romaji": "Ryokou ni kamera o motte ikimasu.",
+        "german": "Ich nehme eine Kamera auf die Reise mit."
       }
     ]
   },
@@ -4807,6 +6217,11 @@ window.VOCAB_N5 = [
         "japanese": "エアコンをつけてください。",
         "romaji": "Eakon o tsukete kudasai.",
         "german": "Bitte schalten Sie die Klimaanlage ein."
+      },
+      {
+        "japanese": "エアコンをつけてもいいですか。",
+        "romaji": "Eakon o tsukete mo ii desu ka.",
+        "german": "Darf ich die Klimaanlage einschalten?"
       }
     ]
   },
@@ -4824,6 +6239,11 @@ window.VOCAB_N5 = [
         "japanese": "電気をつけてください。",
         "romaji": "Denki o tsukete kudasai.",
         "german": "Bitte machen Sie das Licht an."
+      },
+      {
+        "japanese": "電気を消してください。",
+        "romaji": "Denki o keshite kudasai.",
+        "german": "Bitte schalten Sie das Licht aus."
       }
     ]
   },
@@ -4841,6 +6261,11 @@ window.VOCAB_N5 = [
         "japanese": "お土産を買いました。",
         "romaji": "Omiyage o kaimashita.",
         "german": "Ich habe Souvenirs gekauft."
+      },
+      {
+        "japanese": "お土産を買って帰ります。",
+        "romaji": "Omiyage o katte kaerimasu.",
+        "german": "Ich kaufe Souvenirs und gehe nach Hause."
       }
     ]
   },
@@ -4858,6 +6283,11 @@ window.VOCAB_N5 = [
         "japanese": "荷物が多いです。",
         "romaji": "Nimotsu ga ooi desu.",
         "german": "Es gibt viel Gepäck."
+      },
+      {
+        "japanese": "荷物が多くて大変です。",
+        "romaji": "Nimotsu ga ookute taihen desu.",
+        "german": "Ich habe viel Gepäck und es ist anstrengend."
       }
     ]
   },
@@ -4875,6 +6305,11 @@ window.VOCAB_N5 = [
         "japanese": "誰ですか。",
         "romaji": "Dare desu ka.",
         "german": "Wer ist das?"
+      },
+      {
+        "japanese": "あの人は誰ですか。",
+        "romaji": "Ano hito wa dare desu ka.",
+        "german": "Wer ist diese Person?"
       }
     ]
   },
@@ -4892,6 +6327,11 @@ window.VOCAB_N5 = [
         "japanese": "何を食べますか。",
         "romaji": "Nani o tabemasu ka.",
         "german": "Was essen Sie?"
+      },
+      {
+        "japanese": "何を食べたいですか。",
+        "romaji": "Nani o tabetai desu ka.",
+        "german": "Was möchten Sie essen?"
       }
     ]
   },
@@ -4905,6 +6345,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Ort",
     "examples": [
+      {
+        "japanese": "トイレはどこですか。",
+        "romaji": "Toire wa doko desu ka.",
+        "german": "Wo ist die Toilette?"
+      },
       {
         "japanese": "トイレはどこですか。",
         "romaji": "Toire wa doko desu ka.",
@@ -4926,6 +6371,11 @@ window.VOCAB_N5 = [
         "japanese": "いつ日本に行きますか。",
         "romaji": "Itsu nihon ni ikimasu ka.",
         "german": "Wann fahren Sie nach Japan?"
+      },
+      {
+        "japanese": "いつ日本に来ましたか。",
+        "romaji": "Itsu Nihon ni kimashita ka.",
+        "german": "Wann sind Sie nach Japan gekommen?"
       }
     ]
   },
@@ -4942,6 +6392,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "なぜ日本語を勉強しますか。",
         "romaji": "Naze nihongo o benkyou shimasu ka.",
+        "german": "Warum lernen Sie Japanisch?"
+      },
+      {
+        "japanese": "なぜ日本語を勉強していますか。",
+        "romaji": "Naze nihongo o benkyou shite imasu ka.",
         "german": "Warum lernen Sie Japanisch?"
       }
     ]
@@ -4960,6 +6415,11 @@ window.VOCAB_N5 = [
         "japanese": "日本語はどうですか。",
         "romaji": "Nihongo wa dou desu ka.",
         "german": "Wie ist Japanisch?"
+      },
+      {
+        "japanese": "日本の生活はどうですか。",
+        "romaji": "Nihon no seikatsu wa dou desu ka.",
+        "german": "Wie ist das Leben in Japan?"
       }
     ]
   },
@@ -4975,6 +6435,11 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "はい、分かりました。",
+        "romaji": "Hai, wakarimashita.",
+        "german": "Ja, ich habe verstanden."
+      },
+      {
+        "japanese": "「はい、わかりました。」",
         "romaji": "Hai, wakarimashita.",
         "german": "Ja, ich habe verstanden."
       }
@@ -4994,6 +6459,11 @@ window.VOCAB_N5 = [
         "japanese": "いいえ、違います。",
         "romaji": "Iie, chigaimasu.",
         "german": "Nein, das stimmt nicht."
+      },
+      {
+        "japanese": "「いいえ、まだです。」",
+        "romaji": "Iie, mada desu.",
+        "german": "Nein, noch nicht."
       }
     ]
   },
@@ -5011,6 +6481,11 @@ window.VOCAB_N5 = [
         "japanese": "おはようございます、先生。",
         "romaji": "Ohayou gozaimasu, sensei.",
         "german": "Guten Morgen, Herr/Frau Lehrer/in."
+      },
+      {
+        "japanese": "先生に「おはようございます」と言いました。",
+        "romaji": "Sensei ni 'ohayou gozaimasu' to iimashita.",
+        "german": "Ich sagte zum Lehrer 'Guten Morgen'."
       }
     ]
   },
@@ -5027,6 +6502,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "こんにちは、お元気ですか。",
         "romaji": "Konnichiwa, ogenki desu ka.",
+        "german": "Guten Tag, wie geht es Ihnen?"
+      },
+      {
+        "japanese": "「こんにちは、元気ですか。」",
+        "romaji": "Konnichiwa, genki desu ka.",
         "german": "Guten Tag, wie geht es Ihnen?"
       }
     ]
@@ -5045,6 +6525,11 @@ window.VOCAB_N5 = [
         "japanese": "こんばんは、田中さん。",
         "romaji": "Konbanwa, Tanaka-san.",
         "german": "Guten Abend, Herr/Frau Tanaka."
+      },
+      {
+        "japanese": "「こんばんは、いい天気ですね。」",
+        "romaji": "Konbanwa, ii tenki desu ne.",
+        "german": "Guten Abend, schönes Wetter, nicht wahr?"
       }
     ]
   },
@@ -5062,6 +6547,11 @@ window.VOCAB_N5 = [
         "japanese": "さようなら、また明日。",
         "romaji": "Sayounara, mata ashita.",
         "german": "Auf Wiedersehen, bis morgen."
+      },
+      {
+        "japanese": "友達に「さようなら」と手を振りました。",
+        "romaji": "Tomodachi ni 'sayounara' to te o furimashita.",
+        "german": "Ich winkte meinem Freund zum Abschied."
       }
     ]
   },
@@ -5079,6 +6569,11 @@ window.VOCAB_N5 = [
         "japanese": "ありがとうございます。助かりました。",
         "romaji": "Arigatou gozaimasu. Tasukarimashita.",
         "german": "Vielen Dank. Das hat mir geholfen."
+      },
+      {
+        "japanese": "プレゼントをもらって「ありがとうございます」と言いました。",
+        "romaji": "Purezento o moratte 'arigatou gozaimasu' to iimashita.",
+        "german": "Ich bekam ein Geschenk und sagte 'Vielen Dank'."
       }
     ]
   },
@@ -5096,6 +6591,11 @@ window.VOCAB_N5 = [
         "japanese": "すみません、道を教えてください。",
         "romaji": "Sumimasen, michi o oshiete kudasai.",
         "german": "Entschuldigung, zeigen Sie mir bitte den Weg."
+      },
+      {
+        "japanese": "「すみません、道を教えてください。」",
+        "romaji": "Sumimasen, michi o oshiete kudasai.",
+        "german": "Entschuldigung, bitte sagen Sie mir den Weg."
       }
     ]
   },
@@ -5113,6 +6613,11 @@ window.VOCAB_N5 = [
         "japanese": "コーヒーをお願いします。",
         "romaji": "Koohii o onegai shimasu.",
         "german": "Einen Kaffee, bitte."
+      },
+      {
+        "japanese": "「お願いします」と店員に言いました。",
+        "romaji": "'Onegaishimasu' to ten'in ni iimashita.",
+        "german": "Ich sagte 'Bitte' zum Verkäufer."
       }
     ]
   },
@@ -5130,6 +6635,11 @@ window.VOCAB_N5 = [
         "japanese": "いただきます！",
         "romaji": "Itadakimasu!",
         "german": "Guten Appetit! (Ich empfange demütig.)"
+      },
+      {
+        "japanese": "ごはんの前に「いただきます」と言います。",
+        "romaji": "Gohan no mae ni 'itadakimasu' to iimasu.",
+        "german": "Vor dem Essen sagt man 'Itadakimasu'."
       }
     ]
   },
@@ -5147,6 +6657,11 @@ window.VOCAB_N5 = [
         "japanese": "ごちそうさまでした。おいしかったです。",
         "romaji": "Gochisousama deshita. Oishikatta desu.",
         "german": "Danke für das Essen. Es war lecker."
+      },
+      {
+        "japanese": "食べた後に「ごちそうさまでした」と言います。",
+        "romaji": "Tabeta ato ni 'gochisousama deshita' to iimasu.",
+        "german": "Nach dem Essen sagt man 'Gochisousama deshita'."
       }
     ]
   },
@@ -5164,6 +6679,11 @@ window.VOCAB_N5 = [
         "japanese": "初めまして。田中です。",
         "romaji": "Hajimemashite. Tanaka desu.",
         "german": "Freut mich. Ich bin Tanaka."
+      },
+      {
+        "japanese": "「初めまして、田中です。」と自己紹介しました。",
+        "romaji": "Hajimemashite, Tanaka desu, to jiko shoukai shimashita.",
+        "german": "Ich stellte mich vor: 'Freut mich, ich bin Tanaka.'"
       }
     ]
   },
@@ -5181,6 +6701,11 @@ window.VOCAB_N5 = [
         "japanese": "どうぞよろしくお願いします。",
         "romaji": "Douzo yoroshiku onegai shimasu.",
         "german": "Ich freue mich auf die Zusammenarbeit."
+      },
+      {
+        "japanese": "新しい同僚に「どうぞよろしく」と言いました。",
+        "romaji": "Atarashii douryou ni 'douzo yoroshiku' to iimashita.",
+        "german": "Ich sagte zum neuen Kollegen 'Freut mich'."
       }
     ]
   },
@@ -5198,6 +6723,11 @@ window.VOCAB_N5 = [
         "japanese": "ただいま！",
         "romaji": "Tadaima!",
         "german": "Ich bin zurück!"
+      },
+      {
+        "japanese": "家に帰って「ただいま」と言います。",
+        "romaji": "Ie ni kaette 'tadaima' to iimasu.",
+        "german": "Wenn ich nach Hause komme, sage ich 'Ich bin zurück'."
       }
     ]
   },
@@ -5215,6 +6745,11 @@ window.VOCAB_N5 = [
         "japanese": "おかえりなさい、お疲れさま。",
         "romaji": "Okaerinasai, otsukaresama.",
         "german": "Willkommen zurück, gute Arbeit."
+      },
+      {
+        "japanese": "家族が帰ったら「おかえりなさい」と言います。",
+        "romaji": "Kazoku ga kaettara 'okaerinasai' to iimasu.",
+        "german": "Wenn die Familie nach Hause kommt, sagt man 'Willkommen zurück'."
       }
     ]
   },
@@ -5232,6 +6767,11 @@ window.VOCAB_N5 = [
         "japanese": "授業が始まります。",
         "romaji": "Jugyou ga hajimarimasu.",
         "german": "Der Unterricht beginnt."
+      },
+      {
+        "japanese": "映画は八時に始まります。",
+        "romaji": "Eiga wa hachiji ni hajimarimasu.",
+        "german": "Der Film beginnt um acht Uhr."
       }
     ]
   },
@@ -5249,6 +6789,11 @@ window.VOCAB_N5 = [
         "japanese": "映画が終わりました。",
         "romaji": "Eiga ga owarimashita.",
         "german": "Der Film ist zu Ende."
+      },
+      {
+        "japanese": "授業は三時に終わります。",
+        "romaji": "Jugyou wa sanji ni owarimasu.",
+        "german": "Der Unterricht endet um drei Uhr."
       }
     ]
   },
@@ -5266,6 +6811,11 @@ window.VOCAB_N5 = [
         "japanese": "漢字を覚えます。",
         "romaji": "Kanji o oboemasu.",
         "german": "Ich lerne Kanji."
+      },
+      {
+        "japanese": "新しい漢字を覚えました。",
+        "romaji": "Atarashii kanji o oboemashita.",
+        "german": "Ich habe neue Kanji gelernt."
       }
     ]
   },
@@ -5283,6 +6833,11 @@ window.VOCAB_N5 = [
         "japanese": "名前を忘れました。",
         "romaji": "Namae o wasuremashita.",
         "german": "Ich habe den Namen vergessen."
+      },
+      {
+        "japanese": "かさを電車に忘れました。",
+        "romaji": "Kasa o densha ni wasuremashita.",
+        "german": "Ich habe meinen Regenschirm im Zug vergessen."
       }
     ]
   },
@@ -5296,6 +6851,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "医者になりたいです。",
+        "romaji": "Isha ni naritai desu.",
+        "german": "Ich möchte Arzt werden."
+      },
       {
         "japanese": "医者になりたいです。",
         "romaji": "Isha ni naritai desu.",
@@ -5317,6 +6877,11 @@ window.VOCAB_N5 = [
         "japanese": "本を貸してください。",
         "romaji": "Hon o kashite kudasai.",
         "german": "Bitte leihen Sie mir ein Buch."
+      },
+      {
+        "japanese": "友達に本を貸しました。",
+        "romaji": "Tomodachi ni hon o kashimashita.",
+        "german": "Ich habe meinem Freund ein Buch geliehen."
       }
     ]
   },
@@ -5334,6 +6899,11 @@ window.VOCAB_N5 = [
         "japanese": "図書館で本を借ります。",
         "romaji": "Toshokan de hon o karimasu.",
         "german": "Ich leihe ein Buch in der Bibliothek."
+      },
+      {
+        "japanese": "図書館で本を借りました。",
+        "romaji": "Toshokan de hon o karimashita.",
+        "german": "Ich habe ein Buch aus der Bibliothek geliehen."
       }
     ]
   },
@@ -5351,6 +6921,11 @@ window.VOCAB_N5 = [
         "japanese": "手を洗ってください。",
         "romaji": "Te o aratte kudasai.",
         "german": "Bitte waschen Sie die Hände."
+      },
+      {
+        "japanese": "朝、顔を洗います。",
+        "romaji": "Asa, kao o araimasu.",
+        "german": "Morgens wasche ich mir das Gesicht."
       }
     ]
   },
@@ -5368,6 +6943,11 @@ window.VOCAB_N5 = [
         "japanese": "コートを着ます。",
         "romaji": "Kooto o kimasu.",
         "german": "Ich ziehe einen Mantel an."
+      },
+      {
+        "japanese": "今日はコートを着ました。",
+        "romaji": "Kyou wa kooto o kimashita.",
+        "german": "Heute habe ich einen Mantel angezogen."
       }
     ]
   },
@@ -5385,6 +6965,11 @@ window.VOCAB_N5 = [
         "japanese": "靴を脱いでください。",
         "romaji": "Kutsu o nuide kudasai.",
         "german": "Bitte ziehen Sie die Schuhe aus."
+      },
+      {
+        "japanese": "家に帰ったら靴を脱ぎます。",
+        "romaji": "Ie ni kaettara kutsu o nugimasu.",
+        "german": "Wenn ich nach Hause komme, ziehe ich die Schuhe aus."
       }
     ]
   },
@@ -5402,6 +6987,11 @@ window.VOCAB_N5 = [
         "japanese": "電話をかけます。",
         "romaji": "Denwa o kakemasu.",
         "german": "Ich rufe an."
+      },
+      {
+        "japanese": "メガネをかけています。",
+        "romaji": "Megane o kakete imasu.",
+        "german": "Ich trage eine Brille."
       }
     ]
   },
@@ -5419,6 +7009,11 @@ window.VOCAB_N5 = [
         "japanese": "雨が降っています。",
         "romaji": "Ame ga futte imasu.",
         "german": "Es regnet."
+      },
+      {
+        "japanese": "今日は雨が降っています。",
+        "romaji": "Kyou wa ame ga futte imasu.",
+        "german": "Heute regnet es."
       }
     ]
   },
@@ -5436,6 +7031,11 @@ window.VOCAB_N5 = [
         "japanese": "風が吹いています。",
         "romaji": "Kaze ga fuite imasu.",
         "german": "Der Wind weht."
+      },
+      {
+        "japanese": "風が強く吹いています。",
+        "romaji": "Kaze ga tsuyoku fuite imasu.",
+        "german": "Der Wind weht stark."
       }
     ]
   },
@@ -5453,6 +7053,11 @@ window.VOCAB_N5 = [
         "japanese": "鳥が飛んでいます。",
         "romaji": "Tori ga tonde imasu.",
         "german": "Ein Vogel fliegt."
+      },
+      {
+        "japanese": "鳥が空を飛んでいます。",
+        "romaji": "Tori ga sora o tonde imasu.",
+        "german": "Ein Vogel fliegt am Himmel."
       }
     ]
   },
@@ -5470,6 +7075,11 @@ window.VOCAB_N5 = [
         "japanese": "山に登ります。",
         "romaji": "Yama ni noborimasu.",
         "german": "Ich besteige den Berg."
+      },
+      {
+        "japanese": "週末に山を登りました。",
+        "romaji": "Shuumatsu ni yama o noborimashita.",
+        "german": "Am Wochenende bin ich auf einen Berg gestiegen."
       }
     ]
   },
@@ -5487,6 +7097,11 @@ window.VOCAB_N5 = [
         "japanese": "バスが止まりました。",
         "romaji": "Basu ga tomarimashita.",
         "german": "Der Bus hat angehalten."
+      },
+      {
+        "japanese": "電車が駅で止まりました。",
+        "romaji": "Densha ga eki de tomarimashita.",
+        "german": "Der Zug hielt am Bahnhof."
       }
     ]
   },
@@ -5504,6 +7119,11 @@ window.VOCAB_N5 = [
         "japanese": "ホテルに泊まります。",
         "romaji": "Hoteru ni tomarimasu.",
         "german": "Ich übernachte im Hotel."
+      },
+      {
+        "japanese": "ホテルに三泊泊まります。",
+        "romaji": "Hoteru ni sanpaku tomarimasu.",
+        "german": "Ich übernachte drei Nächte im Hotel."
       }
     ]
   },
@@ -5521,6 +7141,11 @@ window.VOCAB_N5 = [
         "japanese": "お金を払います。",
         "romaji": "Okane o haraimasu.",
         "german": "Ich bezahle."
+      },
+      {
+        "japanese": "レストランでお金を払いました。",
+        "romaji": "Resutoran de okane o haraimashita.",
+        "german": "Ich habe im Restaurant bezahlt."
       }
     ]
   },
@@ -5538,6 +7163,11 @@ window.VOCAB_N5 = [
         "japanese": "手紙を送ります。",
         "romaji": "Tegami o okurimasu.",
         "german": "Ich schicke einen Brief."
+      },
+      {
+        "japanese": "母に手紙を送りました。",
+        "romaji": "Haha ni tegami o okurimashita.",
+        "german": "Ich habe meiner Mutter einen Brief geschickt."
       }
     ]
   },
@@ -5551,6 +7181,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "荷物が届きました。",
+        "romaji": "Nimotsu ga todokimashita.",
+        "german": "Das Paket ist angekommen."
+      },
       {
         "japanese": "荷物が届きました。",
         "romaji": "Nimotsu ga todokimashita.",
@@ -5572,6 +7207,11 @@ window.VOCAB_N5 = [
         "japanese": "二階に上がります。",
         "romaji": "Nikai ni agarimasu.",
         "german": "Ich gehe nach oben."
+      },
+      {
+        "japanese": "温度が上がりました。",
+        "romaji": "Ondo ga agarimashita.",
+        "german": "Die Temperatur ist gestiegen."
       }
     ]
   },
@@ -5589,6 +7229,11 @@ window.VOCAB_N5 = [
         "japanese": "温度が下がりました。",
         "romaji": "Ondo ga sagarimashita.",
         "german": "Die Temperatur ist gesunken."
+      },
+      {
+        "japanese": "値段が下がりました。",
+        "romaji": "Nedan ga sagarimashita.",
+        "german": "Der Preis ist gesunken."
       }
     ]
   },
@@ -5606,6 +7251,11 @@ window.VOCAB_N5 = [
         "japanese": "机の上に置いてください。",
         "romaji": "Tsukue no ue ni oite kudasai.",
         "german": "Bitte legen Sie es auf den Tisch."
+      },
+      {
+        "japanese": "テーブルの上に置いてください。",
+        "romaji": "Teeburu no ue ni oite kudasai.",
+        "german": "Bitte stellen Sie es auf den Tisch."
       }
     ]
   },
@@ -5623,6 +7273,11 @@ window.VOCAB_N5 = [
         "japanese": "写真を取ります。",
         "romaji": "Shashin o torimasu.",
         "german": "Ich nehme ein Foto."
+      },
+      {
+        "japanese": "棚から本を取ってください。",
+        "romaji": "Tana kara hon o totte kudasai.",
+        "german": "Bitte nehmen Sie das Buch aus dem Regal."
       }
     ]
   },
@@ -5640,6 +7295,11 @@ window.VOCAB_N5 = [
         "japanese": "好きなのを選んでください。",
         "romaji": "Suki na no o erande kudasai.",
         "german": "Bitte wählen Sie, was Sie mögen."
+      },
+      {
+        "japanese": "好きな色を選んでください。",
+        "romaji": "Suki na iro o erande kudasai.",
+        "german": "Bitte wählen Sie Ihre Lieblingsfarbe."
       }
     ]
   },
@@ -5657,6 +7317,11 @@ window.VOCAB_N5 = [
         "japanese": "ここに並んでください。",
         "romaji": "Koko ni narande kudasai.",
         "german": "Bitte stellen Sie sich hier an."
+      },
+      {
+        "japanese": "みんな並んで待っています。",
+        "romaji": "Minna narande matte imasu.",
+        "german": "Alle stehen in einer Reihe und warten."
       }
     ]
   },
@@ -5674,6 +7339,11 @@ window.VOCAB_N5 = [
         "japanese": "質問に答えてください。",
         "romaji": "Shitsumon ni kotaete kudasai.",
         "german": "Bitte beantworten Sie die Frage."
+      },
+      {
+        "japanese": "先生の質問に答えました。",
+        "romaji": "Sensei no shitsumon ni kotaemashita.",
+        "german": "Ich habe die Frage des Lehrers beantwortet."
       }
     ]
   },
@@ -5691,6 +7361,11 @@ window.VOCAB_N5 = [
         "japanese": "困りました。",
         "romaji": "Komarimashita.",
         "german": "Ich bin in Schwierigkeiten."
+      },
+      {
+        "japanese": "道に迷って困りました。",
+        "romaji": "Michi ni mayotte komarimashita.",
+        "german": "Ich habe mich verirrt und war in Schwierigkeiten."
       }
     ]
   },
@@ -5708,6 +7383,11 @@ window.VOCAB_N5 = [
         "japanese": "それは違います。",
         "romaji": "Sore wa chigaimasu.",
         "german": "Das ist falsch."
+      },
+      {
+        "japanese": "この答えは違います。",
+        "romaji": "Kono kotae wa chigaimasu.",
+        "german": "Diese Antwort ist falsch."
       }
     ]
   },
@@ -5725,6 +7405,11 @@ window.VOCAB_N5 = [
         "japanese": "パスポートが必要です。",
         "romaji": "Pasupooto ga hitsuyou desu.",
         "german": "Ein Reisepass ist notwendig."
+      },
+      {
+        "japanese": "パスポートが必要です。",
+        "romaji": "Pasupooto ga hitsuyou desu.",
+        "german": "Ein Pass ist notwendig."
       }
     ]
   },
@@ -5742,6 +7427,11 @@ window.VOCAB_N5 = [
         "japanese": "色々な国に行きました。",
         "romaji": "Iroiro na kuni ni ikimashita.",
         "german": "Ich war in verschiedenen Ländern."
+      },
+      {
+        "japanese": "色々なお店があります。",
+        "romaji": "Iroiro na omise ga arimasu.",
+        "german": "Es gibt verschiedene Geschäfte."
       }
     ]
   },
@@ -5759,6 +7449,11 @@ window.VOCAB_N5 = [
         "japanese": "同じ学校です。",
         "romaji": "Onaji gakkou desu.",
         "german": "Es ist dieselbe Schule."
+      },
+      {
+        "japanese": "私の鞄と同じですね。",
+        "romaji": "Watashi no kaban to onaji desu ne.",
+        "german": "Das ist das gleiche wie meine Tasche, nicht wahr?"
       }
     ]
   },
@@ -5776,6 +7471,11 @@ window.VOCAB_N5 = [
         "japanese": "ちょっと待ってください。",
         "romaji": "Chotto matte kudasai.",
         "german": "Bitte warten Sie kurz."
+      },
+      {
+        "japanese": "ちょっと待ってください。",
+        "romaji": "Chotto matte kudasai.",
+        "german": "Bitte warten Sie einen Moment."
       }
     ]
   },
@@ -5793,6 +7493,11 @@ window.VOCAB_N5 = [
         "japanese": "まっすぐ行ってください。",
         "romaji": "Massugu itte kudasai.",
         "german": "Bitte gehen Sie geradeaus."
+      },
+      {
+        "japanese": "まっすぐ行って、右に曲がってください。",
+        "romaji": "Massugu itte, migi ni magatte kudasai.",
+        "german": "Gehen Sie geradeaus und biegen Sie rechts ab."
       }
     ]
   },
@@ -5806,6 +7511,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "ゆっくり話してください。",
+        "romaji": "Yukkuri hanashite kudasai.",
+        "german": "Bitte sprechen Sie langsam."
+      },
       {
         "japanese": "ゆっくり話してください。",
         "romaji": "Yukkuri hanashite kudasai.",
@@ -5827,6 +7537,11 @@ window.VOCAB_N5 = [
         "japanese": "だんだん暖かくなります。",
         "romaji": "Dandan atatakaku narimasu.",
         "german": "Es wird allmählich wärmer."
+      },
+      {
+        "japanese": "だんだん暖かくなりました。",
+        "romaji": "Dandan atatakaku narimashita.",
+        "german": "Es ist allmählich wärmer geworden."
       }
     ]
   },
@@ -5844,6 +7559,11 @@ window.VOCAB_N5 = [
         "japanese": "もっと食べてください。",
         "romaji": "Motto tabete kudasai.",
         "german": "Bitte essen Sie mehr."
+      },
+      {
+        "japanese": "もっと大きい声で話してください。",
+        "romaji": "Motto ookii koe de hanashite kudasai.",
+        "german": "Bitte sprechen Sie lauter."
       }
     ]
   },
@@ -5861,6 +7581,11 @@ window.VOCAB_N5 = [
         "japanese": "初めて日本に来ました。",
         "romaji": "Hajimete nihon ni kimashita.",
         "german": "Ich bin zum ersten Mal nach Japan gekommen."
+      },
+      {
+        "japanese": "初めて富士山を見ました。",
+        "romaji": "Hajimete Fujisan o mimashita.",
+        "german": "Ich habe zum ersten Mal den Berg Fuji gesehen."
       }
     ]
   },
@@ -5878,6 +7603,11 @@ window.VOCAB_N5 = [
         "japanese": "これが一番好きです。",
         "romaji": "Kore ga ichiban suki desu.",
         "german": "Das mag ich am liebsten."
+      },
+      {
+        "japanese": "このレストランが一番おいしいです。",
+        "romaji": "Kono resutoran ga ichiban oishii desu.",
+        "german": "Dieses Restaurant ist am besten."
       }
     ]
   },
@@ -5895,6 +7625,11 @@ window.VOCAB_N5 = [
         "japanese": "多分雨が降ります。",
         "romaji": "Tabun ame ga furimasu.",
         "german": "Wahrscheinlich wird es regnen."
+      },
+      {
+        "japanese": "多分明日は雨でしょう。",
+        "romaji": "Tabun ashita wa ame deshou.",
+        "german": "Wahrscheinlich wird es morgen regnen."
       }
     ]
   },
@@ -5912,6 +7647,11 @@ window.VOCAB_N5 = [
         "japanese": "本当においしいです。",
         "romaji": "Hontou ni oishii desu.",
         "german": "Es ist wirklich lecker."
+      },
+      {
+        "japanese": "この映画は本当に面白いです。",
+        "romaji": "Kono eiga wa hontou ni omoshiroi desu.",
+        "german": "Dieser Film ist wirklich interessant."
       }
     ]
   },
@@ -5927,6 +7667,11 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "大体分かりました。",
+        "romaji": "Daitai wakarimashita.",
+        "german": "Ich habe es ungefähr verstanden."
+      },
+      {
+        "japanese": "大体わかりました。",
         "romaji": "Daitai wakarimashita.",
         "german": "Ich habe es ungefähr verstanden."
       }
@@ -5946,6 +7691,11 @@ window.VOCAB_N5 = [
         "japanese": "結構です。",
         "romaji": "Kekkou desu.",
         "german": "Das reicht, danke."
+      },
+      {
+        "japanese": "結構です、ありがとうございます。",
+        "romaji": "Kekkou desu, arigatou gozaimasu.",
+        "german": "Das reicht, vielen Dank."
       }
     ]
   },
@@ -5963,6 +7713,11 @@ window.VOCAB_N5 = [
         "japanese": "もちろん行きます。",
         "romaji": "Mochiron ikimasu.",
         "german": "Natürlich gehe ich."
+      },
+      {
+        "japanese": "もちろん行きますよ。",
+        "romaji": "Mochiron ikimasu yo.",
+        "german": "Natürlich gehe ich!"
       }
     ]
   },
@@ -5980,6 +7735,11 @@ window.VOCAB_N5 = [
         "japanese": "砂糖を入れますか。",
         "romaji": "Satou o iremasu ka.",
         "german": "Möchten Sie Zucker?"
+      },
+      {
+        "japanese": "コーヒーに砂糖を入れますか。",
+        "romaji": "Koohii ni satou o iremasu ka.",
+        "german": "Nehmen Sie Zucker in den Kaffee?"
       }
     ]
   },
@@ -5997,6 +7757,11 @@ window.VOCAB_N5 = [
         "japanese": "塩を取ってください。",
         "romaji": "Shio o totte kudasai.",
         "german": "Bitte reichen Sie mir das Salz."
+      },
+      {
+        "japanese": "もう少し塩を入れてください。",
+        "romaji": "Mou sukoshi shio o irete kudasai.",
+        "german": "Bitte geben Sie noch etwas Salz hinzu."
       }
     ]
   },
@@ -6014,6 +7779,11 @@ window.VOCAB_N5 = [
         "japanese": "醤油をかけます。",
         "romaji": "Shouyu o kakemasu.",
         "german": "Ich gebe Sojasauce darauf."
+      },
+      {
+        "japanese": "醤油をかけて食べます。",
+        "romaji": "Shouyu o kakete tabemasu.",
+        "german": "Ich esse es mit Sojasauce."
       }
     ]
   },
@@ -6031,6 +7801,11 @@ window.VOCAB_N5 = [
         "japanese": "味噌汁を作ります。",
         "romaji": "Misoshiru o tsukurimasu.",
         "german": "Ich mache Misosuppe."
+      },
+      {
+        "japanese": "味噌汁が好きです。",
+        "romaji": "Misoshiru ga suki desu.",
+        "german": "Ich mag Misosuppe."
       }
     ]
   },
@@ -6046,6 +7821,11 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "お弁当を持っていきます。",
+        "romaji": "Obentou o motte ikimasu.",
+        "german": "Ich nehme eine Lunchbox mit."
+      },
+      {
+        "japanese": "お弁当を持って行きます。",
         "romaji": "Obentou o motte ikimasu.",
         "german": "Ich nehme eine Lunchbox mit."
       }
@@ -6065,6 +7845,11 @@ window.VOCAB_N5 = [
         "japanese": "お菓子を買いました。",
         "romaji": "Okashi o kaimashita.",
         "german": "Ich habe Süßigkeiten gekauft."
+      },
+      {
+        "japanese": "子供たちにお菓子をあげました。",
+        "romaji": "Kodomotachi ni okashi o agemashita.",
+        "german": "Ich habe den Kindern Süßigkeiten gegeben."
       }
     ]
   },
@@ -6082,6 +7867,11 @@ window.VOCAB_N5 = [
         "japanese": "りんごを一つください。",
         "romaji": "Ringo o hitotsu kudasai.",
         "german": "Einen Apfel, bitte."
+      },
+      {
+        "japanese": "りんごを三つ買いました。",
+        "romaji": "Ringo o mittsu kaimashita.",
+        "german": "Ich habe drei Äpfel gekauft."
       }
     ]
   },
@@ -6099,6 +7889,11 @@ window.VOCAB_N5 = [
         "japanese": "みかんが好きです。",
         "romaji": "Mikan ga suki desu.",
         "german": "Ich mag Mandarinen."
+      },
+      {
+        "japanese": "みかんは冬の果物です。",
+        "romaji": "Mikan wa fuyu no kudamono desu.",
+        "german": "Mandarinen sind eine Winterfrucht."
       }
     ]
   },
@@ -6116,6 +7911,11 @@ window.VOCAB_N5 = [
         "japanese": "コーヒーを飲みます。",
         "romaji": "Koohii o nomimasu.",
         "german": "Ich trinke Kaffee."
+      },
+      {
+        "japanese": "朝、コーヒーを飲みます。",
+        "romaji": "Asa, koohii o nomimasu.",
+        "german": "Morgens trinke ich Kaffee."
       }
     ]
   },
@@ -6133,6 +7933,11 @@ window.VOCAB_N5 = [
         "japanese": "ジュースを飲みますか。",
         "romaji": "Juusu o nomimasu ka.",
         "german": "Trinken Sie Saft?"
+      },
+      {
+        "japanese": "オレンジジュースをください。",
+        "romaji": "Orenji juusu o kudasai.",
+        "german": "Einen Orangensaft, bitte."
       }
     ]
   },
@@ -6150,6 +7955,11 @@ window.VOCAB_N5 = [
         "japanese": "お酒を飲みますか。",
         "romaji": "Osake o nomimasu ka.",
         "german": "Trinken Sie Alkohol?"
+      },
+      {
+        "japanese": "お酒は飲みません。",
+        "romaji": "Osake wa nomimasen.",
+        "german": "Ich trinke keinen Alkohol."
       }
     ]
   },
@@ -6163,6 +7973,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Essen",
     "examples": [
+      {
+        "japanese": "ビールを一杯ください。",
+        "romaji": "Biiru o ippai kudasai.",
+        "german": "Ein Bier, bitte."
+      },
       {
         "japanese": "ビールを一杯ください。",
         "romaji": "Biiru o ippai kudasai.",
@@ -6184,6 +7999,11 @@ window.VOCAB_N5 = [
         "japanese": "お皿を洗います。",
         "romaji": "Osara o araimasu.",
         "german": "Ich wasche die Teller."
+      },
+      {
+        "japanese": "お皿を洗います。",
+        "romaji": "Osara o araimasu.",
+        "german": "Ich wasche den Teller ab."
       }
     ]
   },
@@ -6201,6 +8021,11 @@ window.VOCAB_N5 = [
         "japanese": "コップに水を入れます。",
         "romaji": "Koppu ni mizu o iremasu.",
         "german": "Ich giesse Wasser in das Glas."
+      },
+      {
+        "japanese": "水をコップに入れてください。",
+        "romaji": "Mizu o koppu ni irete kudasai.",
+        "german": "Bitte gießen Sie Wasser in das Glas."
       }
     ]
   },
@@ -6218,6 +8043,11 @@ window.VOCAB_N5 = [
         "japanese": "箸を使えますか。",
         "romaji": "Hashi o tsukaemasu ka.",
         "german": "Können Sie Stäbchen benutzen?"
+      },
+      {
+        "japanese": "箸の使い方を教えてください。",
+        "romaji": "Hashi no tsukaikata o oshiete kudasai.",
+        "german": "Bitte zeigen Sie mir, wie man Stäbchen benutzt."
       }
     ]
   },
@@ -6235,6 +8065,11 @@ window.VOCAB_N5 = [
         "japanese": "スプーンをください。",
         "romaji": "Supuun o kudasai.",
         "german": "Einen Löffel, bitte."
+      },
+      {
+        "japanese": "スプーンでスープを食べます。",
+        "romaji": "Supuun de suupu o tabemasu.",
+        "german": "Ich esse die Suppe mit dem Löffel."
       }
     ]
   },
@@ -6252,6 +8087,11 @@ window.VOCAB_N5 = [
         "japanese": "フォークを使います。",
         "romaji": "Fooku o tsukaimasu.",
         "german": "Ich benutze eine Gabel."
+      },
+      {
+        "japanese": "フォークとナイフを使います。",
+        "romaji": "Fooku to naifu o tsukaimasu.",
+        "german": "Ich benutze Gabel und Messer."
       }
     ]
   },
@@ -6269,6 +8109,11 @@ window.VOCAB_N5 = [
         "japanese": "ナイフで切ります。",
         "romaji": "Naifu de kirimasu.",
         "german": "Ich schneide mit dem Messer."
+      },
+      {
+        "japanese": "ナイフで肉を切ります。",
+        "romaji": "Naifu de niku o kirimasu.",
+        "german": "Ich schneide das Fleisch mit dem Messer."
       }
     ]
   },
@@ -6286,6 +8131,11 @@ window.VOCAB_N5 = [
         "japanese": "冷蔵庫に入れてください。",
         "romaji": "Reizouko ni irete kudasai.",
         "german": "Bitte stellen Sie es in den Kühlschrank."
+      },
+      {
+        "japanese": "牛乳は冷蔵庫に入れてください。",
+        "romaji": "Gyuunyuu wa reizouko ni irete kudasai.",
+        "german": "Bitte stellen Sie die Milch in den Kühlschrank."
       }
     ]
   },
@@ -6303,6 +8153,11 @@ window.VOCAB_N5 = [
         "japanese": "洗濯機を使います。",
         "romaji": "Sentakuki o tsukaimasu.",
         "german": "Ich benutze die Waschmaschine."
+      },
+      {
+        "japanese": "洗濯機で服を洗います。",
+        "romaji": "Sentakuki de fuku o araimasu.",
+        "german": "Ich wasche die Kleidung in der Waschmaschine."
       }
     ]
   },
@@ -6320,6 +8175,11 @@ window.VOCAB_N5 = [
         "japanese": "部屋の掃除をします。",
         "romaji": "Heya no souji o shimasu.",
         "german": "Ich putze das Zimmer."
+      },
+      {
+        "japanese": "毎週土曜日に掃除をします。",
+        "romaji": "Maishuu doyoubi ni souji o shimasu.",
+        "german": "Jeden Samstag putze ich."
       }
     ]
   },
@@ -6337,6 +8197,11 @@ window.VOCAB_N5 = [
         "japanese": "洗濯をします。",
         "romaji": "Sentaku o shimasu.",
         "german": "Ich mache die Wäsche."
+      },
+      {
+        "japanese": "今日は洗濯をしなければなりません。",
+        "romaji": "Kyou wa sentaku o shinakereba narimasen.",
+        "german": "Heute muss ich Wäsche waschen."
       }
     ]
   },
@@ -6354,6 +8219,11 @@ window.VOCAB_N5 = [
         "japanese": "買い物に行きます。",
         "romaji": "Kaimono ni ikimasu.",
         "german": "Ich gehe einkaufen."
+      },
+      {
+        "japanese": "スーパーに買い物に行きます。",
+        "romaji": "Suupaa ni kaimono ni ikimasu.",
+        "german": "Ich gehe im Supermarkt einkaufen."
       }
     ]
   },
@@ -6371,6 +8241,11 @@ window.VOCAB_N5 = [
         "japanese": "食事をしましょう。",
         "romaji": "Shokuji o shimashou.",
         "german": "Lass uns essen."
+      },
+      {
+        "japanese": "食事の時間です。",
+        "romaji": "Shokuji no jikan desu.",
+        "german": "Es ist Essenszeit."
       }
     ]
   },
@@ -6388,6 +8263,11 @@ window.VOCAB_N5 = [
         "japanese": "スポーツが好きです。",
         "romaji": "Supootsu ga suki desu.",
         "german": "Ich mag Sport."
+      },
+      {
+        "japanese": "スポーツをするのが好きです。",
+        "romaji": "Supootsu o suru no ga suki desu.",
+        "german": "Ich treibe gerne Sport."
       }
     ]
   },
@@ -6405,6 +8285,11 @@ window.VOCAB_N5 = [
         "japanese": "サッカーをします。",
         "romaji": "Sakkaa o shimasu.",
         "german": "Ich spiele Fußball."
+      },
+      {
+        "japanese": "サッカーの試合を見ました。",
+        "romaji": "Sakkaa no shiai o mimashita.",
+        "german": "Ich habe ein Fußballspiel gesehen."
       }
     ]
   },
@@ -6422,6 +8307,11 @@ window.VOCAB_N5 = [
         "japanese": "テニスが上手です。",
         "romaji": "Tenisu ga jouzu desu.",
         "german": "Er/Sie ist gut im Tennis."
+      },
+      {
+        "japanese": "テニスをしたことがありますか。",
+        "romaji": "Tenisu o shita koto ga arimasu ka.",
+        "german": "Haben Sie schon einmal Tennis gespielt?"
       }
     ]
   },
@@ -6439,6 +8329,11 @@ window.VOCAB_N5 = [
         "japanese": "野球を見ます。",
         "romaji": "Yakyuu o mimasu.",
         "german": "Ich schaue Baseball."
+      },
+      {
+        "japanese": "日本では野球が人気です。",
+        "romaji": "Nihon de wa yakyuu ga ninki desu.",
+        "german": "In Japan ist Baseball beliebt."
       }
     ]
   },
@@ -6456,6 +8351,11 @@ window.VOCAB_N5 = [
         "japanese": "試合を見に行きます。",
         "romaji": "Shiai o mi ni ikimasu.",
         "german": "Ich gehe ein Spiel ansehen."
+      },
+      {
+        "japanese": "今日の試合は面白かったです。",
+        "romaji": "Kyou no shiai wa omoshirokatta desu.",
+        "german": "Das heutige Spiel war interessant."
       }
     ]
   },
@@ -6473,6 +8373,11 @@ window.VOCAB_N5 = [
         "japanese": "ゲームをしましょう。",
         "romaji": "Geemu o shimashou.",
         "german": "Lass uns spielen."
+      },
+      {
+        "japanese": "子供とゲームをしました。",
+        "romaji": "Kodomo to geemu o shimashita.",
+        "german": "Ich habe mit dem Kind ein Spiel gespielt."
       }
     ]
   },
@@ -6490,6 +8395,11 @@ window.VOCAB_N5 = [
         "japanese": "ピアノを弾きます。",
         "romaji": "Piano o hikimasu.",
         "german": "Ich spiele Klavier."
+      },
+      {
+        "japanese": "ピアノを弾くことができますか。",
+        "romaji": "Piano o hiku koto ga dekimasu ka.",
+        "german": "Können Sie Klavier spielen?"
       }
     ]
   },
@@ -6507,6 +8417,11 @@ window.VOCAB_N5 = [
         "japanese": "ギターを弾いています。",
         "romaji": "Gitaa o hiite imasu.",
         "german": "Ich spiele Gitarre."
+      },
+      {
+        "japanese": "ギターを弾くのが好きです。",
+        "romaji": "Gitaa o hiku no ga suki desu.",
+        "german": "Ich spiele gerne Gitarre."
       }
     ]
   },
@@ -6524,6 +8439,11 @@ window.VOCAB_N5 = [
         "japanese": "絵を描きます。",
         "romaji": "E o kakimasu.",
         "german": "Ich zeichne ein Bild."
+      },
+      {
+        "japanese": "この絵は誰が描きましたか。",
+        "romaji": "Kono e wa dare ga kakimashita ka.",
+        "german": "Wer hat dieses Bild gemalt?"
       }
     ]
   },
@@ -6541,6 +8461,11 @@ window.VOCAB_N5 = [
         "japanese": "踊りが上手です。",
         "romaji": "Odori ga jouzu desu.",
         "german": "Sie tanzt gut."
+      },
+      {
+        "japanese": "日本の踊りを見ました。",
+        "romaji": "Nihon no odori o mimashita.",
+        "german": "Ich habe einen japanischen Tanz gesehen."
       }
     ]
   },
@@ -6558,6 +8483,11 @@ window.VOCAB_N5 = [
         "japanese": "歯を磨きます。",
         "romaji": "Ha o migakimasu.",
         "german": "Ich putze mir die Zähne."
+      },
+      {
+        "japanese": "毎日歯を磨きます。",
+        "romaji": "Mainichi ha o migakimasu.",
+        "german": "Ich putze mir jeden Tag die Zähne."
       }
     ]
   },
@@ -6575,6 +8505,11 @@ window.VOCAB_N5 = [
         "japanese": "髪を切りました。",
         "romaji": "Kami o kirimashita.",
         "german": "Ich habe mir die Haare schneiden lassen."
+      },
+      {
+        "japanese": "髪を切りたいです。",
+        "romaji": "Kami o kiritai desu.",
+        "german": "Ich möchte mir die Haare schneiden lassen."
       }
     ]
   },
@@ -6591,6 +8526,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "指を切りました。",
         "romaji": "Yubi o kirimashita.",
+        "german": "Ich habe mir in den Finger geschnitten."
+      },
+      {
+        "japanese": "指を切ってしまいました。",
+        "romaji": "Yubi o kitte shimaimashita.",
         "german": "Ich habe mir in den Finger geschnitten."
       }
     ]
@@ -6609,6 +8549,11 @@ window.VOCAB_N5 = [
         "japanese": "鼻が高いです。",
         "romaji": "Hana ga takai desu.",
         "german": "Die Nase ist hoch."
+      },
+      {
+        "japanese": "鼻が高いですね。",
+        "romaji": "Hana ga takai desu ne.",
+        "german": "Sie haben eine hohe Nase!"
       }
     ]
   },
@@ -6626,6 +8571,11 @@ window.VOCAB_N5 = [
         "japanese": "首が痛いです。",
         "romaji": "Kubi ga itai desu.",
         "german": "Mein Hals tut weh."
+      },
+      {
+        "japanese": "首が痛いです。",
+        "romaji": "Kubi ga itai desu.",
+        "german": "Mein Nacken tut weh."
       }
     ]
   },
@@ -6643,6 +8593,11 @@ window.VOCAB_N5 = [
         "japanese": "肩が痛いです。",
         "romaji": "Kata ga itai desu.",
         "german": "Meine Schulter tut weh."
+      },
+      {
+        "japanese": "肩がこりました。",
+        "romaji": "Kata ga korimashita.",
+        "german": "Ich habe verspannte Schultern."
       }
     ]
   },
@@ -6660,6 +8615,11 @@ window.VOCAB_N5 = [
         "japanese": "腕が痛いです。",
         "romaji": "Ude ga itai desu.",
         "german": "Mein Arm tut weh."
+      },
+      {
+        "japanese": "腕時計をしていますか。",
+        "romaji": "Udedokei o shite imasu ka.",
+        "german": "Tragen Sie eine Armbanduhr?"
       }
     ]
   },
@@ -6677,6 +8637,11 @@ window.VOCAB_N5 = [
         "japanese": "膝が痛いです。",
         "romaji": "Hiza ga itai desu.",
         "german": "Mein Knie tut weh."
+      },
+      {
+        "japanese": "膝が痛くて走れません。",
+        "romaji": "Hiza ga itakute hashiremasen.",
+        "german": "Mein Knie tut weh und ich kann nicht laufen."
       }
     ]
   },
@@ -6690,6 +8655,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Körper",
     "examples": [
+      {
+        "japanese": "風邪をひきました。",
+        "romaji": "Kaze o hikimashita.",
+        "german": "Ich habe mich erkältet."
+      },
       {
         "japanese": "風邪をひきました。",
         "romaji": "Kaze o hikimashita.",
@@ -6711,6 +8681,11 @@ window.VOCAB_N5 = [
         "japanese": "熱があります。",
         "romaji": "Netsu ga arimasu.",
         "german": "Ich habe Fieber."
+      },
+      {
+        "japanese": "熱がありますから、病院に行きます。",
+        "romaji": "Netsu ga arimasu kara, byouin ni ikimasu.",
+        "german": "Ich habe Fieber, deshalb gehe ich ins Krankenhaus."
       }
     ]
   },
@@ -6728,6 +8703,11 @@ window.VOCAB_N5 = [
         "japanese": "頭が痛いです。",
         "romaji": "Atama ga itai desu.",
         "german": "Mein Kopf tut weh."
+      },
+      {
+        "japanese": "お腹が痛いです。",
+        "romaji": "Onaka ga itai desu.",
+        "german": "Mein Bauch tut weh."
       }
     ]
   },
@@ -6745,6 +8725,11 @@ window.VOCAB_N5 = [
         "japanese": "とても眠いです。",
         "romaji": "Totemo nemui desu.",
         "german": "Ich bin sehr schläfrig."
+      },
+      {
+        "japanese": "昨日よく眠れなかったので、眠いです。",
+        "romaji": "Kinou yoku nemurenakatta node, nemui desu.",
+        "german": "Ich konnte gestern nicht gut schlafen, deshalb bin ich schläfrig."
       }
     ]
   },
@@ -6762,6 +8747,11 @@ window.VOCAB_N5 = [
         "japanese": "プレゼントをもらって嬉しいです。",
         "romaji": "Purezento o moratte ureshii desu.",
         "german": "Ich bin froh, ein Geschenk bekommen zu haben."
+      },
+      {
+        "japanese": "プレゼントをもらって嬉しいです。",
+        "romaji": "Purezento o moratte ureshii desu.",
+        "german": "Ich freue mich über das Geschenk."
       }
     ]
   },
@@ -6779,6 +8769,11 @@ window.VOCAB_N5 = [
         "japanese": "映画を見て悲しかったです。",
         "romaji": "Eiga o mite kanashikatta desu.",
         "german": "Der Film war traurig."
+      },
+      {
+        "japanese": "友達が引っ越して悲しいです。",
+        "romaji": "Tomodachi ga hikkoshite kanashii desu.",
+        "german": "Mein Freund ist umgezogen und ich bin traurig."
       }
     ]
   },
@@ -6796,6 +8791,11 @@ window.VOCAB_N5 = [
         "japanese": "一人で寂しいです。",
         "romaji": "Hitori de sabishii desu.",
         "german": "Es ist einsam, allein zu sein."
+      },
+      {
+        "japanese": "一人で寂しいです。",
+        "romaji": "Hitori de sabishii desu.",
+        "german": "Ich bin alleine und einsam."
       }
     ]
   },
@@ -6813,6 +8813,11 @@ window.VOCAB_N5 = [
         "japanese": "あの映画は怖いです。",
         "romaji": "Ano eiga wa kowai desu.",
         "german": "Jener Film ist gruselig."
+      },
+      {
+        "japanese": "あの映画は怖かったです。",
+        "romaji": "Ano eiga wa kowakatta desu.",
+        "german": "Dieser Film war gruselig."
       }
     ]
   },
@@ -6830,6 +8835,11 @@ window.VOCAB_N5 = [
         "japanese": "間違えて恥ずかしいです。",
         "romaji": "Machigaete hazukashii desu.",
         "german": "Es ist mir peinlich, dass ich mich geirrt habe."
+      },
+      {
+        "japanese": "みんなの前で話すのは恥ずかしいです。",
+        "romaji": "Minna no mae de hanasu no wa hazukashii desu.",
+        "german": "Vor allen zu sprechen ist mir peinlich."
       }
     ]
   },
@@ -6843,6 +8853,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Eigenschaften",
     "examples": [
+      {
+        "japanese": "隣の部屋がうるさいです。",
+        "romaji": "Tonari no heya ga urusai desu.",
+        "german": "Das Nebenzimmer ist laut."
+      },
       {
         "japanese": "隣の部屋がうるさいです。",
         "romaji": "Tonari no heya ga urusai desu.",
@@ -6864,6 +8879,11 @@ window.VOCAB_N5 = [
         "japanese": "手が汚いです。",
         "romaji": "Te ga kitanai desu.",
         "german": "Die Hände sind schmutzig."
+      },
+      {
+        "japanese": "部屋が汚いから掃除します。",
+        "romaji": "Heya ga kitanai kara souji shimasu.",
+        "german": "Das Zimmer ist schmutzig, deshalb putze ich."
       }
     ]
   },
@@ -6881,6 +8901,11 @@ window.VOCAB_N5 = [
         "japanese": "ここは危ないです。",
         "romaji": "Koko wa abunai desu.",
         "german": "Hier ist es gefährlich."
+      },
+      {
+        "japanese": "この道は危ないですから、気をつけてください。",
+        "romaji": "Kono michi wa abunai desu kara, ki o tsukete kudasai.",
+        "german": "Diese Straße ist gefährlich, passen Sie bitte auf."
       }
     ]
   },
@@ -6894,6 +8919,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Gefühle",
     "examples": [
+      {
+        "japanese": "新しいパソコンが欲しいです。",
+        "romaji": "Atarashii pasokon ga hoshii desu.",
+        "german": "Ich möchte einen neuen Computer."
+      },
       {
         "japanese": "新しいパソコンが欲しいです。",
         "romaji": "Atarashii pasokon ga hoshii desu.",
@@ -6915,6 +8945,11 @@ window.VOCAB_N5 = [
         "japanese": "正しい答えはどれですか。",
         "romaji": "Tadashii kotae wa dore desu ka.",
         "german": "Welche ist die richtige Antwort?"
+      },
+      {
+        "japanese": "この答えは正しいですか。",
+        "romaji": "Kono kotae wa tadashii desu ka.",
+        "german": "Ist diese Antwort richtig?"
       }
     ]
   },
@@ -6932,6 +8967,11 @@ window.VOCAB_N5 = [
         "japanese": "珍しい花ですね。",
         "romaji": "Mezurashii hana desu ne.",
         "german": "Das ist eine seltene Blume."
+      },
+      {
+        "japanese": "これは珍しい花ですね。",
+        "romaji": "Kore wa mezurashii hana desu ne.",
+        "german": "Das ist eine seltene Blume, nicht wahr?"
       }
     ]
   },
@@ -6949,6 +8989,11 @@ window.VOCAB_N5 = [
         "japanese": "厚い本を読んでいます。",
         "romaji": "Atsui hon o yonde imasu.",
         "german": "Ich lese ein dickes Buch."
+      },
+      {
+        "japanese": "この辞書は厚いです。",
+        "romaji": "Kono jisho wa atsui desu.",
+        "german": "Dieses Wörterbuch ist dick."
       }
     ]
   },
@@ -6966,6 +9011,11 @@ window.VOCAB_N5 = [
         "japanese": "薄い紙を使います。",
         "romaji": "Usui kami o tsukaimasu.",
         "german": "Ich benutze dünnes Papier."
+      },
+      {
+        "japanese": "この紙は薄いです。",
+        "romaji": "Kono kami wa usui desu.",
+        "german": "Dieses Papier ist dünn."
       }
     ]
   },
@@ -6983,6 +9033,11 @@ window.VOCAB_N5 = [
         "japanese": "太いペンを使います。",
         "romaji": "Futoi pen o tsukaimasu.",
         "german": "Ich benutze einen dicken Stift."
+      },
+      {
+        "japanese": "このペンは太いです。",
+        "romaji": "Kono pen wa futoi desu.",
+        "german": "Dieser Stift ist dick."
       }
     ]
   },
@@ -7000,6 +9055,11 @@ window.VOCAB_N5 = [
         "japanese": "細い道を歩きます。",
         "romaji": "Hosoi michi o arukimasu.",
         "german": "Ich gehe eine schmale Straße entlang."
+      },
+      {
+        "japanese": "細い道を歩きました。",
+        "romaji": "Hosoi michi o arukimashita.",
+        "german": "Ich ging einen schmalen Weg entlang."
       }
     ]
   },
@@ -7017,6 +9077,11 @@ window.VOCAB_N5 = [
         "japanese": "若い人が多いです。",
         "romaji": "Wakai hito ga ooi desu.",
         "german": "Es gibt viele junge Leute."
+      },
+      {
+        "japanese": "先生は若くて元気です。",
+        "romaji": "Sensei wa wakakute genki desu.",
+        "german": "Der Lehrer ist jung und energisch."
       }
     ]
   },
@@ -7034,6 +9099,11 @@ window.VOCAB_N5 = [
         "japanese": "授業は何時からですか。",
         "romaji": "Jugyou wa nanji kara desu ka.",
         "german": "Wann beginnt der Unterricht?"
+      },
+      {
+        "japanese": "午後の授業は何ですか。",
+        "romaji": "Gogo no jugyou wa nan desu ka.",
+        "german": "Welchen Unterricht haben Sie am Nachmittag?"
       }
     ]
   },
@@ -7051,6 +9121,11 @@ window.VOCAB_N5 = [
         "japanese": "プレゼントをあげます。",
         "romaji": "Purezento o agemasu.",
         "german": "Ich schenke ein Geschenk."
+      },
+      {
+        "japanese": "誕生日のプレゼントを買いました。",
+        "romaji": "Tanjoubi no purezento o kaimashita.",
+        "german": "Ich habe ein Geburtstagsgeschenk gekauft."
       }
     ]
   },
@@ -7068,6 +9143,11 @@ window.VOCAB_N5 = [
         "japanese": "約束を守ります。",
         "romaji": "Yakusoku o mamorimasu.",
         "german": "Ich halte mein Versprechen."
+      },
+      {
+        "japanese": "友達と約束があります。",
+        "romaji": "Tomodachi to yakusoku ga arimasu.",
+        "german": "Ich habe eine Verabredung mit einem Freund."
       }
     ]
   },
@@ -7085,6 +9165,11 @@ window.VOCAB_N5 = [
         "japanese": "心が温かいです。",
         "romaji": "Kokoro ga atatakai desu.",
         "german": "Er/sie hat ein warmes Herz."
+      },
+      {
+        "japanese": "心が温かくなりました。",
+        "romaji": "Kokoro ga atatakaku narimashita.",
+        "german": "Mir wurde warm ums Herz."
       }
     ]
   },
@@ -7102,6 +9187,11 @@ window.VOCAB_N5 = [
         "japanese": "夢がありますか。",
         "romaji": "Yume ga arimasu ka.",
         "german": "Haben Sie einen Traum?"
+      },
+      {
+        "japanese": "将来の夢は何ですか。",
+        "romaji": "Shourai no yume wa nan desu ka.",
+        "german": "Was ist Ihr Traum für die Zukunft?"
       }
     ]
   },
@@ -7119,6 +9209,11 @@ window.VOCAB_N5 = [
         "japanese": "いい思い出です。",
         "romaji": "Ii omoide desu.",
         "german": "Das ist eine schöne Erinnerung."
+      },
+      {
+        "japanese": "日本の思い出がたくさんあります。",
+        "romaji": "Nihon no omoide ga takusan arimasu.",
+        "german": "Ich habe viele Erinnerungen an Japan."
       }
     ]
   },
@@ -7136,6 +9231,11 @@ window.VOCAB_N5 = [
         "japanese": "世界中を旅行したいです。",
         "romaji": "Sekaijuu o ryokou shitai desu.",
         "german": "Ich möchte die ganze Welt bereisen."
+      },
+      {
+        "japanese": "世界にはいろいろな国があります。",
+        "romaji": "Sekai ni wa iroiro na kuni ga arimasu.",
+        "german": "Es gibt verschiedene Länder auf der Welt."
       }
     ]
   },
@@ -7153,6 +9253,11 @@ window.VOCAB_N5 = [
         "japanese": "文字を書いてください。",
         "romaji": "Moji o kaite kudasai.",
         "german": "Bitte schreiben Sie die Zeichen."
+      },
+      {
+        "japanese": "この文字が読めません。",
+        "romaji": "Kono moji ga yomemasen.",
+        "german": "Ich kann dieses Schriftzeichen nicht lesen."
       }
     ]
   },
@@ -7170,6 +9275,11 @@ window.VOCAB_N5 = [
         "japanese": "漢字を覚えます。",
         "romaji": "Kanji o oboemasu.",
         "german": "Ich lerne Kanji."
+      },
+      {
+        "japanese": "この漢字は難しいです。",
+        "romaji": "Kono kanji wa muzukashii desu.",
+        "german": "Dieses Kanji ist schwierig."
       }
     ]
   },
@@ -7186,6 +9296,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "ひらがなを書けますか。",
         "romaji": "Hiragana o kakemasu ka.",
+        "german": "Können Sie Hiragana schreiben?"
+      },
+      {
+        "japanese": "ひらがなが書けますか。",
+        "romaji": "Hiragana ga kakemasu ka.",
         "german": "Können Sie Hiragana schreiben?"
       }
     ]
@@ -7204,6 +9319,11 @@ window.VOCAB_N5 = [
         "japanese": "カタカナは外来語に使います。",
         "romaji": "Katakana wa gairaigo ni tsukaimasu.",
         "german": "Katakana wird für Fremdwörter benutzt."
+      },
+      {
+        "japanese": "カタカナも勉強しています。",
+        "romaji": "Katakana mo benkyou shite imasu.",
+        "german": "Ich lerne auch Katakana."
       }
     ]
   },
@@ -7221,6 +9341,11 @@ window.VOCAB_N5 = [
         "japanese": "紙をください。",
         "romaji": "Kami o kudasai.",
         "german": "Bitte geben Sie mir Papier."
+      },
+      {
+        "japanese": "紙に名前を書いてください。",
+        "romaji": "Kami ni namae o kaite kudasai.",
+        "german": "Bitte schreiben Sie Ihren Namen auf das Papier."
       }
     ]
   },
@@ -7238,6 +9363,11 @@ window.VOCAB_N5 = [
         "japanese": "封筒に入れてください。",
         "romaji": "Fuutou ni irete kudasai.",
         "german": "Bitte stecken Sie es in den Umschlag."
+      },
+      {
+        "japanese": "封筒に切手を貼ります。",
+        "romaji": "Fuutou ni kitte o harimasu.",
+        "german": "Ich klebe eine Briefmarke auf den Umschlag."
       }
     ]
   },
@@ -7255,6 +9385,11 @@ window.VOCAB_N5 = [
         "japanese": "電話番号を教えてください。",
         "romaji": "Denwa bangou o oshiete kudasai.",
         "german": "Bitte sagen Sie mir Ihre Telefonnummer."
+      },
+      {
+        "japanese": "電話番号を教えてください。",
+        "romaji": "Denwa bangou o oshiete kudasai.",
+        "german": "Bitte geben Sie mir Ihre Telefonnummer."
       }
     ]
   },
@@ -7272,6 +9407,11 @@ window.VOCAB_N5 = [
         "japanese": "住所を書いてください。",
         "romaji": "Juusho o kaite kudasai.",
         "german": "Bitte schreiben Sie Ihre Adresse."
+      },
+      {
+        "japanese": "住所をここに書いてください。",
+        "romaji": "Juusho o koko ni kaite kudasai.",
+        "german": "Bitte schreiben Sie Ihre Adresse hierhin."
       }
     ]
   },
@@ -7289,6 +9429,11 @@ window.VOCAB_N5 = [
         "japanese": "地下鉄に乗ります。",
         "romaji": "Chikatetsu ni norimasu.",
         "german": "Ich nehme die U-Bahn."
+      },
+      {
+        "japanese": "地下鉄で会社に行きます。",
+        "romaji": "Chikatetsu de kaisha ni ikimasu.",
+        "german": "Ich fahre mit der U-Bahn zur Arbeit."
       }
     ]
   },
@@ -7306,6 +9451,11 @@ window.VOCAB_N5 = [
         "japanese": "信号を渡ってください。",
         "romaji": "Shingou o watatte kudasai.",
         "german": "Bitte überqueren Sie an der Ampel."
+      },
+      {
+        "japanese": "信号が赤ですから、止まってください。",
+        "romaji": "Shingou ga aka desu kara, tomatte kudasai.",
+        "german": "Die Ampel ist rot, bitte halten Sie an."
       }
     ]
   },
@@ -7323,6 +9473,11 @@ window.VOCAB_N5 = [
         "japanese": "交差点を右に曲がります。",
         "romaji": "Kousaten o migi ni magarimasu.",
         "german": "Ich biege an der Kreuzung rechts ab."
+      },
+      {
+        "japanese": "次の交差点を左に曲がってください。",
+        "romaji": "Tsugi no kousaten o hidari ni magatte kudasai.",
+        "german": "Bitte biegen Sie an der nächsten Kreuzung links ab."
       }
     ]
   },
@@ -7340,6 +9495,11 @@ window.VOCAB_N5 = [
         "japanese": "角を曲がってください。",
         "romaji": "Kado o magatte kudasai.",
         "german": "Bitte biegen Sie an der Ecke ab."
+      },
+      {
+        "japanese": "あの角を曲がってください。",
+        "romaji": "Ano kado o magatte kudasai.",
+        "german": "Bitte biegen Sie an jener Ecke ab."
       }
     ]
   },
@@ -7357,6 +9517,11 @@ window.VOCAB_N5 = [
         "japanese": "大きい建物が見えます。",
         "romaji": "Ookii tatemono ga miemasu.",
         "german": "Ich sehe ein großes Gebäude."
+      },
+      {
+        "japanese": "あの建物は何ですか。",
+        "romaji": "Ano tatemono wa nan desu ka.",
+        "german": "Was ist das für ein Gebäude?"
       }
     ]
   },
@@ -7374,6 +9539,11 @@ window.VOCAB_N5 = [
         "japanese": "三階に行きます。",
         "romaji": "Sankai ni ikimasu.",
         "german": "Ich gehe in den dritten Stock."
+      },
+      {
+        "japanese": "このビルは何階ですか。",
+        "romaji": "Kono biru wa nankai desu ka.",
+        "german": "Wie viele Stockwerke hat dieses Gebäude?"
       }
     ]
   },
@@ -7391,6 +9561,11 @@ window.VOCAB_N5 = [
         "japanese": "エレベーターで行きます。",
         "romaji": "Erebeetaa de ikimasu.",
         "german": "Ich nehme den Aufzug."
+      },
+      {
+        "japanese": "エレベーターで五階に行きます。",
+        "romaji": "Erebeetaa de gokai ni ikimasu.",
+        "german": "Ich fahre mit dem Aufzug in den fünften Stock."
       }
     ]
   },
@@ -7408,6 +9583,11 @@ window.VOCAB_N5 = [
         "japanese": "玄関で靴を脱ぎます。",
         "romaji": "Genkan de kutsu o nugimasu.",
         "german": "Am Eingang zieht man die Schuhe aus."
+      },
+      {
+        "japanese": "玄関に靴を脱いでください。",
+        "romaji": "Genkan ni kutsu o nuide kudasai.",
+        "german": "Bitte ziehen Sie am Eingang die Schuhe aus."
       }
     ]
   },
@@ -7425,6 +9605,11 @@ window.VOCAB_N5 = [
         "japanese": "ベッドで寝ます。",
         "romaji": "Beddo de nemasu.",
         "german": "Ich schlafe im Bett."
+      },
+      {
+        "japanese": "新しいベッドを買いました。",
+        "romaji": "Atarashii beddo o kaimashita.",
+        "german": "Ich habe ein neues Bett gekauft."
       }
     ]
   },
@@ -7442,6 +9627,11 @@ window.VOCAB_N5 = [
         "japanese": "布団を敷きます。",
         "romaji": "Futon o shikimasu.",
         "german": "Ich breite den Futon aus."
+      },
+      {
+        "japanese": "日本では布団で寝ます。",
+        "romaji": "Nihon de wa futon de nemasu.",
+        "german": "In Japan schläft man auf einem Futon."
       }
     ]
   },
@@ -7459,6 +9649,11 @@ window.VOCAB_N5 = [
         "japanese": "棚に本を置きます。",
         "romaji": "Tana ni hon o okimasu.",
         "german": "Ich stelle das Buch ins Regal."
+      },
+      {
+        "japanese": "棚に本を並べました。",
+        "romaji": "Tana ni hon o narabemashita.",
+        "german": "Ich habe Bücher ins Regal gestellt."
       }
     ]
   },
@@ -7476,6 +9671,11 @@ window.VOCAB_N5 = [
         "japanese": "引き出しの中を見てください。",
         "romaji": "Hikidashi no naka o mite kudasai.",
         "german": "Schauen Sie bitte in die Schublade."
+      },
+      {
+        "japanese": "引き出しの中にペンがあります。",
+        "romaji": "Hikidashi no naka ni pen ga arimasu.",
+        "german": "Im Schubfach sind Stifte."
       }
     ]
   },
@@ -7493,6 +9693,11 @@ window.VOCAB_N5 = [
         "japanese": "ボタンを押してください。",
         "romaji": "Botan o oshite kudasai.",
         "german": "Bitte drücken Sie den Knopf."
+      },
+      {
+        "japanese": "このボタンを押してください。",
+        "romaji": "Kono botan o oshite kudasai.",
+        "german": "Bitte drücken Sie diesen Knopf."
       }
     ]
   },
@@ -7506,6 +9711,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "ドアを引いてください。",
+        "romaji": "Doa o hiite kudasai.",
+        "german": "Bitte ziehen Sie die Tür."
+      },
       {
         "japanese": "ドアを引いてください。",
         "romaji": "Doa o hiite kudasai.",
@@ -7527,6 +9737,11 @@ window.VOCAB_N5 = [
         "japanese": "紙を切ります。",
         "romaji": "Kami o kirimasu.",
         "german": "Ich schneide Papier."
+      },
+      {
+        "japanese": "野菜を小さく切ります。",
+        "romaji": "Yasai o chiisaku kirimasu.",
+        "german": "Ich schneide das Gemüse klein."
       }
     ]
   },
@@ -7544,6 +9759,11 @@ window.VOCAB_N5 = [
         "japanese": "歯を磨きます。",
         "romaji": "Ha o migakimasu.",
         "german": "Ich putze mir die Zähne."
+      },
+      {
+        "japanese": "歯を磨いてから寝ます。",
+        "romaji": "Ha o migaite kara nemasu.",
+        "german": "Ich putze mir die Zähne und gehe dann schlafen."
       }
     ]
   },
@@ -7561,6 +9781,11 @@ window.VOCAB_N5 = [
         "japanese": "触れないでください。",
         "romaji": "Furenaide kudasai.",
         "german": "Bitte nicht berühren."
+      },
+      {
+        "japanese": "この絵に触れないでください。",
+        "romaji": "Kono e ni furenaide kudasai.",
+        "german": "Bitte berühren Sie dieses Bild nicht."
       }
     ]
   },
@@ -7578,6 +9803,11 @@ window.VOCAB_N5 = [
         "japanese": "ボールを投げます。",
         "romaji": "Booru o nagemasu.",
         "german": "Ich werfe den Ball."
+      },
+      {
+        "japanese": "ボールを投げてください。",
+        "romaji": "Booru o nagete kudasai.",
+        "german": "Bitte werfen Sie den Ball."
       }
     ]
   },
@@ -7595,6 +9825,11 @@ window.VOCAB_N5 = [
         "japanese": "虫を捕まえました。",
         "romaji": "Mushi o tsukamaemashita.",
         "german": "Ich habe ein Insekt gefangen."
+      },
+      {
+        "japanese": "魚を捕まえました。",
+        "romaji": "Sakana o tsukamaemashita.",
+        "german": "Ich habe einen Fisch gefangen."
       }
     ]
   },
@@ -7612,6 +9847,11 @@ window.VOCAB_N5 = [
         "japanese": "荷物を届けます。",
         "romaji": "Nimotsu o todokemasu.",
         "german": "Ich liefere das Paket ab."
+      },
+      {
+        "japanese": "荷物を届けに行きます。",
+        "romaji": "Nimotsu o todoke ni ikimasu.",
+        "german": "Ich gehe das Paket ausliefern."
       }
     ]
   },
@@ -7629,6 +9869,11 @@ window.VOCAB_N5 = [
         "japanese": "友達にプレゼントをあげます。",
         "romaji": "Tomodachi ni purezento o agemasu.",
         "german": "Ich gebe meinem Freund ein Geschenk."
+      },
+      {
+        "japanese": "友達にプレゼントをあげました。",
+        "romaji": "Tomodachi ni purezento o agemashita.",
+        "german": "Ich habe meinem Freund ein Geschenk gegeben."
       }
     ]
   },
@@ -7646,6 +9891,11 @@ window.VOCAB_N5 = [
         "japanese": "友達にプレゼントをもらいました。",
         "romaji": "Tomodachi ni purezento o moraimashita.",
         "german": "Ich habe von meinem Freund ein Geschenk bekommen."
+      },
+      {
+        "japanese": "先生にほめてもらいました。",
+        "romaji": "Sensei ni homete moraimashita.",
+        "german": "Ich wurde vom Lehrer gelobt."
       }
     ]
   },
@@ -7663,6 +9913,11 @@ window.VOCAB_N5 = [
         "japanese": "友達が本をくれました。",
         "romaji": "Tomodachi ga hon o kuremashita.",
         "german": "Mein Freund hat mir ein Buch gegeben."
+      },
+      {
+        "japanese": "母がお弁当を作ってくれました。",
+        "romaji": "Haha ga obentou o tsukutte kuremashita.",
+        "german": "Meine Mutter hat mir eine Lunchbox gemacht."
       }
     ]
   },
@@ -7680,6 +9935,11 @@ window.VOCAB_N5 = [
         "japanese": "タクシーを呼びます。",
         "romaji": "Takushii o yobimasu.",
         "german": "Ich rufe ein Taxi."
+      },
+      {
+        "japanese": "タクシーを呼んでください。",
+        "romaji": "Takushii o yonde kudasai.",
+        "german": "Bitte rufen Sie ein Taxi."
       }
     ]
   },
@@ -7697,6 +9957,11 @@ window.VOCAB_N5 = [
         "japanese": "みんな笑っています。",
         "romaji": "Minna waratte imasu.",
         "german": "Alle lachen."
+      },
+      {
+        "japanese": "赤ちゃんが笑っています。",
+        "romaji": "Akachan ga waratte imasu.",
+        "german": "Das Baby lacht."
       }
     ]
   },
@@ -7714,6 +9979,11 @@ window.VOCAB_N5 = [
         "japanese": "赤ちゃんが泣いています。",
         "romaji": "Akachan ga naite imasu.",
         "german": "Das Baby weint."
+      },
+      {
+        "japanese": "映画を見て泣きました。",
+        "romaji": "Eiga o mite nakimashita.",
+        "german": "Ich habe beim Film geweint."
       }
     ]
   },
@@ -7731,6 +10001,11 @@ window.VOCAB_N5 = [
         "japanese": "先生が怒りました。",
         "romaji": "Sensei ga okorimashita.",
         "german": "Der Lehrer wurde wütend."
+      },
+      {
+        "japanese": "お母さんが怒っています。",
+        "romaji": "Okaasan ga okotte imasu.",
+        "german": "Die Mutter ist wütend."
       }
     ]
   },
@@ -7748,6 +10023,11 @@ window.VOCAB_N5 = [
         "japanese": "子供が喜んでいます。",
         "romaji": "Kodomo ga yorokonde imasu.",
         "german": "Das Kind freut sich."
+      },
+      {
+        "japanese": "みんなが喜んでくれました。",
+        "romaji": "Minna ga yorokonde kuremashita.",
+        "german": "Alle haben sich gefreut."
       }
     ]
   },
@@ -7765,6 +10045,11 @@ window.VOCAB_N5 = [
         "japanese": "びっくりして驚きました。",
         "romaji": "Bikkuri shite odorokimashita.",
         "german": "Ich war überrascht."
+      },
+      {
+        "japanese": "突然のプレゼントに驚きました。",
+        "romaji": "Totsuzen no purezento ni odorokimashita.",
+        "german": "Ich war von dem plötzlichen Geschenk überrascht."
       }
     ]
   },
@@ -7782,6 +10067,11 @@ window.VOCAB_N5 = [
         "japanese": "お願いを頼みます。",
         "romaji": "Onegai o tanomimasu.",
         "german": "Ich bitte um einen Gefallen."
+      },
+      {
+        "japanese": "友達に手伝いを頼みました。",
+        "romaji": "Tomodachi ni tetsudai o tanomimashita.",
+        "german": "Ich habe meinen Freund um Hilfe gebeten."
       }
     ]
   },
@@ -7799,6 +10089,11 @@ window.VOCAB_N5 = [
         "japanese": "手伝ってください。",
         "romaji": "Tetsudatte kudasai.",
         "german": "Bitte helfen Sie mir."
+      },
+      {
+        "japanese": "引っ越しを手伝ってくれますか。",
+        "romaji": "Hikkoshi o tetsudatte kuremasu ka.",
+        "german": "Können Sie mir beim Umzug helfen?"
       }
     ]
   },
@@ -7816,6 +10111,11 @@ window.VOCAB_N5 = [
         "japanese": "みんなが集まりました。",
         "romaji": "Minna ga atsumarimashita.",
         "german": "Alle haben sich versammelt."
+      },
+      {
+        "japanese": "駅の前にみんなが集まりました。",
+        "romaji": "Eki no mae ni minna ga atsumarimashita.",
+        "german": "Alle haben sich vor dem Bahnhof versammelt."
       }
     ]
   },
@@ -7833,6 +10133,11 @@ window.VOCAB_N5 = [
         "japanese": "友達と別れました。",
         "romaji": "Tomodachi to wakaremashita.",
         "german": "Ich habe mich von meinem Freund verabschiedet."
+      },
+      {
+        "japanese": "友達と別れるのは寂しいです。",
+        "romaji": "Tomodachi to wakareru no wa sabishii desu.",
+        "german": "Es ist traurig, sich von Freunden zu trennen."
       }
     ]
   },
@@ -7850,6 +10155,11 @@ window.VOCAB_N5 = [
         "japanese": "日本語ができますか。",
         "romaji": "Nihongo ga dekimasu ka.",
         "german": "Können Sie Japanisch?"
+      },
+      {
+        "japanese": "日本語が少しできます。",
+        "romaji": "Nihongo ga sukoshi dekimasu.",
+        "german": "Ich kann ein bisschen Japanisch."
       }
     ]
   },
@@ -7867,6 +10177,11 @@ window.VOCAB_N5 = [
         "japanese": "お金が要ります。",
         "romaji": "Okane ga irimasu.",
         "german": "Ich brauche Geld."
+      },
+      {
+        "japanese": "パスポートが要ります。",
+        "romaji": "Pasupooto ga irimasu.",
+        "german": "Ich brauche einen Reisepass."
       }
     ]
   },
@@ -7884,6 +10199,11 @@ window.VOCAB_N5 = [
         "japanese": "砂糖を足してください。",
         "romaji": "Satou o tashite kudasai.",
         "german": "Bitte fügen Sie Zucker hinzu."
+      },
+      {
+        "japanese": "コーヒーに砂糖を足しますか。",
+        "romaji": "Koohii ni satou o tashimasu ka.",
+        "german": "Fügen Sie dem Kaffee Zucker hinzu?"
       }
     ]
   },
@@ -7897,6 +10217,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "電話が鳴っています。",
+        "romaji": "Denwa ga natte imasu.",
+        "german": "Das Telefon klingelt."
+      },
       {
         "japanese": "電話が鳴っています。",
         "romaji": "Denwa ga natte imasu.",
@@ -7918,6 +10243,11 @@ window.VOCAB_N5 = [
         "japanese": "星が光っています。",
         "romaji": "Hoshi ga hikatte imasu.",
         "german": "Die Sterne leuchten."
+      },
+      {
+        "japanese": "星が光っています。",
+        "romaji": "Hoshi ga hikatte imasu.",
+        "german": "Die Sterne leuchten."
       }
     ]
   },
@@ -7935,6 +10265,11 @@ window.VOCAB_N5 = [
         "japanese": "東京で生まれました。",
         "romaji": "Toukyou de umaremashita.",
         "german": "Ich wurde in Tokio geboren."
+      },
+      {
+        "japanese": "弟は東京で生まれました。",
+        "romaji": "Otouto wa Toukyou de umaremashita.",
+        "german": "Mein jüngerer Bruder wurde in Tokio geboren."
       }
     ]
   },
@@ -7952,6 +10287,11 @@ window.VOCAB_N5 = [
         "japanese": "その花は死んでしまいました。",
         "romaji": "Sono hana wa shinde shimaimashita.",
         "german": "Die Blume ist gestorben."
+      },
+      {
+        "japanese": "この花はもう死んでいます。",
+        "romaji": "Kono hana wa mou shinde imasu.",
+        "german": "Diese Blume ist schon vertrocknet."
       }
     ]
   },
@@ -7969,6 +10309,11 @@ window.VOCAB_N5 = [
         "japanese": "最近太りました。",
         "romaji": "Saikin futorimashita.",
         "german": "In letzter Zeit habe ich zugenommen."
+      },
+      {
+        "japanese": "最近少し太りました。",
+        "romaji": "Saikin sukoshi futorimashita.",
+        "german": "Ich habe in letzter Zeit etwas zugenommen."
       }
     ]
   },
@@ -7986,6 +10331,11 @@ window.VOCAB_N5 = [
         "japanese": "少し痩せました。",
         "romaji": "Sukoshi yasemashita.",
         "german": "Ich habe etwas abgenommen."
+      },
+      {
+        "japanese": "ダイエットで五キロ痩せました。",
+        "romaji": "Daietto de gokiro yasemashita.",
+        "german": "Ich habe durch die Diät fünf Kilo abgenommen."
       }
     ]
   },
@@ -7999,6 +10349,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Natur",
     "examples": [
+      {
+        "japanese": "桜が咲いています。",
+        "romaji": "Sakura ga saite imasu.",
+        "german": "Die Kirschblüten blühen."
+      },
       {
         "japanese": "桜が咲いています。",
         "romaji": "Sakura ga saite imasu.",
@@ -8020,6 +10375,11 @@ window.VOCAB_N5 = [
         "japanese": "食品売り場はどこですか。",
         "romaji": "Shokuhin uriba wa doko desu ka.",
         "german": "Wo ist die Lebensmittelabteilung?"
+      },
+      {
+        "japanese": "お菓子の売り場はどこですか。",
+        "romaji": "Okashi no uriba wa doko desu ka.",
+        "german": "Wo ist die Süßwarenabteilung?"
       }
     ]
   },
@@ -8037,6 +10397,11 @@ window.VOCAB_N5 = [
         "japanese": "おつりをどうぞ。",
         "romaji": "Otsuri o douzo.",
         "german": "Hier ist Ihr Wechselgeld."
+      },
+      {
+        "japanese": "おつりを忘れないでください。",
+        "romaji": "Otsuri o wasurenaide kudasai.",
+        "german": "Bitte vergessen Sie das Wechselgeld nicht."
       }
     ]
   },
@@ -8054,6 +10419,11 @@ window.VOCAB_N5 = [
         "japanese": "レジで払います。",
         "romaji": "Reji de haraimasu.",
         "german": "Ich bezahle an der Kasse."
+      },
+      {
+        "japanese": "レジで払ってください。",
+        "romaji": "Reji de haratte kudasai.",
+        "german": "Bitte bezahlen Sie an der Kasse."
       }
     ]
   },
@@ -8071,6 +10441,11 @@ window.VOCAB_N5 = [
         "japanese": "袋をもらえますか。",
         "romaji": "Fukuro o moraemasu ka.",
         "german": "Kann ich eine Tüte bekommen?"
+      },
+      {
+        "japanese": "袋に入れてください。",
+        "romaji": "Fukuro ni irete kudasai.",
+        "german": "Bitte packen Sie es in eine Tüte."
       }
     ]
   },
@@ -8088,6 +10463,11 @@ window.VOCAB_N5 = [
         "japanese": "お客さんが来ました。",
         "romaji": "Okyakusan ga kimashita.",
         "german": "Ein Gast ist gekommen."
+      },
+      {
+        "japanese": "今日はお客さんが多いです。",
+        "romaji": "Kyou wa okyakusan ga ooi desu.",
+        "german": "Heute gibt es viele Kunden."
       }
     ]
   },
@@ -8105,6 +10485,11 @@ window.VOCAB_N5 = [
         "japanese": "隣人に挨拶します。",
         "romaji": "Rinjin ni aisatsu shimasu.",
         "german": "Ich grüße meinen Nachbarn."
+      },
+      {
+        "japanese": "隣人に挨拶をしました。",
+        "romaji": "Rinjin ni aisatsu o shimashita.",
+        "german": "Ich habe den Nachbarn gegrüßt."
       }
     ]
   },
@@ -8118,6 +10503,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Bewegung",
     "examples": [
+      {
+        "japanese": "車を止めてください。",
+        "romaji": "Kuruma o tomete kudasai.",
+        "german": "Bitte halten Sie das Auto an."
+      },
       {
         "japanese": "車を止めてください。",
         "romaji": "Kuruma o tomete kudasai.",
@@ -8139,6 +10529,11 @@ window.VOCAB_N5 = [
         "japanese": "手紙を渡します。",
         "romaji": "Tegami o watashimasu.",
         "german": "Ich übergebe den Brief."
+      },
+      {
+        "japanese": "書類を渡してください。",
+        "romaji": "Shorui o watashite kudasai.",
+        "german": "Bitte reichen Sie die Unterlagen."
       }
     ]
   },
@@ -8156,6 +10551,11 @@ window.VOCAB_N5 = [
         "japanese": "触らないでください。",
         "romaji": "Sawaranaide kudasai.",
         "german": "Bitte nicht anfassen."
+      },
+      {
+        "japanese": "壁に触らないでください。",
+        "romaji": "Kabe ni sawaranaide kudasai.",
+        "german": "Bitte berühren Sie die Wand nicht."
       }
     ]
   },
@@ -8173,6 +10573,11 @@ window.VOCAB_N5 = [
         "japanese": "財布を落としました。",
         "romaji": "Saifu o otoshimashita.",
         "german": "Ich habe mein Portemonnaie fallen lassen."
+      },
+      {
+        "japanese": "財布を落としてしまいました。",
+        "romaji": "Saifu o otoshite shimaimashita.",
+        "german": "Ich habe meine Brieftasche fallen lassen."
       }
     ]
   },
@@ -8190,6 +10595,11 @@ window.VOCAB_N5 = [
         "japanese": "りんごが落ちました。",
         "romaji": "Ringo ga ochimashita.",
         "german": "Der Apfel ist heruntergefallen."
+      },
+      {
+        "japanese": "木からりんごが落ちました。",
+        "romaji": "Ki kara ringo ga ochimashita.",
+        "german": "Vom Baum ist ein Apfel gefallen."
       }
     ]
   },
@@ -8207,6 +10617,11 @@ window.VOCAB_N5 = [
         "japanese": "本を返します。",
         "romaji": "Hon o kaeshimasu.",
         "german": "Ich gebe das Buch zurück."
+      },
+      {
+        "japanese": "図書館に本を返さなければなりません。",
+        "romaji": "Toshokan ni hon o kaesanakereba narimasen.",
+        "german": "Ich muss das Buch in die Bibliothek zurückgeben."
       }
     ]
   },
@@ -8224,6 +10639,11 @@ window.VOCAB_N5 = [
         "japanese": "試験を受けます。",
         "romaji": "Shiken o ukemasu.",
         "german": "Ich nehme an der Prüfung teil."
+      },
+      {
+        "japanese": "テストを受けました。",
+        "romaji": "Tesuto o ukemashita.",
+        "german": "Ich habe den Test abgelegt."
       }
     ]
   },
@@ -8241,6 +10661,11 @@ window.VOCAB_N5 = [
         "japanese": "荷物を預けます。",
         "romaji": "Nimotsu o azukemasu.",
         "german": "Ich gebe mein Gepäck ab."
+      },
+      {
+        "japanese": "荷物を預けてもいいですか。",
+        "romaji": "Nimotsu o azukete mo ii desu ka.",
+        "german": "Darf ich mein Gepäck abgeben?"
       }
     ]
   },
@@ -8258,6 +10683,11 @@ window.VOCAB_N5 = [
         "japanese": "結果を知らせます。",
         "romaji": "Kekka o shirasemasu.",
         "german": "Ich teile das Ergebnis mit."
+      },
+      {
+        "japanese": "結果を知らせてください。",
+        "romaji": "Kekka o shirasete kudasai.",
+        "german": "Bitte teilen Sie mir das Ergebnis mit."
       }
     ]
   },
@@ -8275,6 +10705,11 @@ window.VOCAB_N5 = [
         "japanese": "よろしく伝えてください。",
         "romaji": "Yoroshiku tsutaete kudasai.",
         "german": "Bitte grüßen Sie von mir."
+      },
+      {
+        "japanese": "先生に伝えてください。",
+        "romaji": "Sensei ni tsutaete kudasai.",
+        "german": "Bitte richten Sie es dem Lehrer aus."
       }
     ]
   },
@@ -8292,6 +10727,11 @@ window.VOCAB_N5 = [
         "japanese": "山が見えます。",
         "romaji": "Yama ga miemasu.",
         "german": "Man kann den Berg sehen."
+      },
+      {
+        "japanese": "ここから山が見えます。",
+        "romaji": "Koko kara yama ga miemasu.",
+        "german": "Von hier aus kann man die Berge sehen."
       }
     ]
   },
@@ -8309,6 +10749,11 @@ window.VOCAB_N5 = [
         "japanese": "音楽が聞こえます。",
         "romaji": "Ongaku ga kikoemasu.",
         "german": "Man kann Musik hören."
+      },
+      {
+        "japanese": "音楽が聞こえます。",
+        "romaji": "Ongaku ga kikoemasu.",
+        "german": "Ich kann Musik hören."
       }
     ]
   },
@@ -8326,6 +10771,11 @@ window.VOCAB_N5 = [
         "japanese": "鍵を見つけました。",
         "romaji": "Kagi o mitsukemashita.",
         "german": "Ich habe den Schlüssel gefunden."
+      },
+      {
+        "japanese": "やっと鍵を見つけました。",
+        "romaji": "Yatto kagi o mitsukemashita.",
+        "german": "Endlich habe ich den Schlüssel gefunden."
       }
     ]
   },
@@ -8343,6 +10793,11 @@ window.VOCAB_N5 = [
         "japanese": "仕事を探しています。",
         "romaji": "Shigoto o sagashite imasu.",
         "german": "Ich suche Arbeit."
+      },
+      {
+        "japanese": "鍵を探しています。",
+        "romaji": "Kagi o sagashite imasu.",
+        "german": "Ich suche meinen Schlüssel."
       }
     ]
   },
@@ -8360,6 +10815,11 @@ window.VOCAB_N5 = [
         "japanese": "道に迷いました。",
         "romaji": "Michi ni mayoimashita.",
         "german": "Ich habe mich verlaufen."
+      },
+      {
+        "japanese": "道に迷ってしまいました。",
+        "romaji": "Michi ni mayotte shimaimashita.",
+        "german": "Ich habe mich verirrt."
       }
     ]
   },
@@ -8377,6 +10837,11 @@ window.VOCAB_N5 = [
         "japanese": "財布を無くしました。",
         "romaji": "Saifu o nakushimashita.",
         "german": "Ich habe mein Portemonnaie verloren."
+      },
+      {
+        "japanese": "大切な物を無くしました。",
+        "romaji": "Taisetsu na mono o nakushimashita.",
+        "german": "Ich habe etwas Wichtiges verloren."
       }
     ]
   },
@@ -8394,6 +10859,11 @@ window.VOCAB_N5 = [
         "japanese": "心配しないでください。",
         "romaji": "Shinpai shinaide kudasai.",
         "german": "Bitte machen Sie sich keine Sorgen."
+      },
+      {
+        "japanese": "母のことが心配です。",
+        "romaji": "Haha no koto ga shinpai desu.",
+        "german": "Ich mache mir Sorgen um meine Mutter."
       }
     ]
   },
@@ -8411,6 +10881,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は疲れました。",
         "romaji": "Kyou wa tsukaremashita.",
         "german": "Heute bin ich müde."
+      },
+      {
+        "japanese": "たくさん歩いて疲れました。",
+        "romaji": "Takusan aruite tsukaremashita.",
+        "german": "Ich bin vom vielen Laufen müde."
       }
     ]
   },
@@ -8428,6 +10903,11 @@ window.VOCAB_N5 = [
         "japanese": "電車は速いです。",
         "romaji": "Densha wa hayai desu.",
         "german": "Der Zug ist schnell."
+      },
+      {
+        "japanese": "この電車は速いです。",
+        "romaji": "Kono densha wa hayai desu.",
+        "german": "Dieser Zug ist schnell."
       }
     ]
   },
@@ -8445,6 +10925,11 @@ window.VOCAB_N5 = [
         "japanese": "四角い箱です。",
         "romaji": "Shikakui hako desu.",
         "german": "Es ist eine eckige Schachtel."
+      },
+      {
+        "japanese": "この箱は四角いです。",
+        "romaji": "Kono hako wa shikakui desu.",
+        "german": "Diese Schachtel ist eckig."
       }
     ]
   },
@@ -8462,6 +10947,11 @@ window.VOCAB_N5 = [
         "japanese": "このパンは固いです。",
         "romaji": "Kono pan wa katai desu.",
         "german": "Dieses Brot ist hart."
+      },
+      {
+        "japanese": "このパンは固いですね。",
+        "romaji": "Kono pan wa katai desu ne.",
+        "german": "Dieses Brot ist hart, nicht wahr?"
       }
     ]
   },
@@ -8479,6 +10969,11 @@ window.VOCAB_N5 = [
         "japanese": "柔らかいクッションです。",
         "romaji": "Yawarakai kusshon desu.",
         "german": "Es ist ein weiches Kissen."
+      },
+      {
+        "japanese": "この布は柔らかいです。",
+        "romaji": "Kono nuno wa yawarakai desu.",
+        "german": "Dieser Stoff ist weich."
       }
     ]
   },
@@ -8496,6 +10991,11 @@ window.VOCAB_N5 = [
         "japanese": "この花は綺麗です。",
         "romaji": "Kono hana wa kirei desu.",
         "german": "Diese Blume ist schön."
+      },
+      {
+        "japanese": "この公園は綺麗ですね。",
+        "romaji": "Kono kouen wa kirei desu ne.",
+        "german": "Dieser Park ist schön, nicht wahr?"
       }
     ]
   },
@@ -8513,6 +11013,11 @@ window.VOCAB_N5 = [
         "japanese": "立派な建物です。",
         "romaji": "Rippa na tatemono desu.",
         "german": "Es ist ein großartiges Gebäude."
+      },
+      {
+        "japanese": "立派な建物ですね。",
+        "romaji": "Rippa na tatemono desu ne.",
+        "german": "Ein beeindruckendes Gebäude, nicht wahr?"
       }
     ]
   },
@@ -8530,6 +11035,11 @@ window.VOCAB_N5 = [
         "japanese": "丈夫な靴です。",
         "romaji": "Joubu na kutsu desu.",
         "german": "Es sind robuste Schuhe."
+      },
+      {
+        "japanese": "このかばんは丈夫です。",
+        "romaji": "Kono kaban wa joubu desu.",
+        "german": "Diese Tasche ist robust."
       }
     ]
   },
@@ -8543,6 +11053,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "家族は大切です。",
+        "romaji": "Kazoku wa taisetsu desu.",
+        "german": "Die Familie ist wichtig."
+      },
       {
         "japanese": "家族は大切です。",
         "romaji": "Kazoku wa taisetsu desu.",
@@ -8564,6 +11079,11 @@ window.VOCAB_N5 = [
         "japanese": "大事にしてください。",
         "romaji": "Daiji ni shite kudasai.",
         "german": "Bitte passen Sie gut darauf auf."
+      },
+      {
+        "japanese": "健康が一番大事です。",
+        "romaji": "Kenkou ga ichiban daiji desu.",
+        "german": "Gesundheit ist am wichtigsten."
       }
     ]
   },
@@ -8577,6 +11097,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Eigenschaften",
     "examples": [
+      {
+        "japanese": "この問題は簡単です。",
+        "romaji": "Kono mondai wa kantan desu.",
+        "german": "Dieses Problem ist einfach."
+      },
       {
         "japanese": "この問題は簡単です。",
         "romaji": "Kono mondai wa kantan desu.",
@@ -8598,6 +11123,11 @@ window.VOCAB_N5 = [
         "japanese": "この地図は複雑です。",
         "romaji": "Kono chizu wa fukuzatsu desu.",
         "german": "Diese Karte ist kompliziert."
+      },
+      {
+        "japanese": "この機械は複雑です。",
+        "romaji": "Kono kikai wa fukuzatsu desu.",
+        "german": "Diese Maschine ist kompliziert."
       }
     ]
   },
@@ -8615,6 +11145,11 @@ window.VOCAB_N5 = [
         "japanese": "電車がなくて不便です。",
         "romaji": "Densha ga nakute fuben desu.",
         "german": "Es ist unpraktisch ohne Zug."
+      },
+      {
+        "japanese": "バスがなくて不便です。",
+        "romaji": "Basu ga nakute fuben desu.",
+        "german": "Ohne Bus ist es unpraktisch."
       }
     ]
   },
@@ -8632,6 +11167,11 @@ window.VOCAB_N5 = [
         "japanese": "親切な人ですね。",
         "romaji": "Shinsetsu na hito desu ne.",
         "german": "Er ist ein netter Mensch."
+      },
+      {
+        "japanese": "あの人はとても親切です。",
+        "romaji": "Ano hito wa totemo shinsetsu desu.",
+        "german": "Diese Person ist sehr freundlich."
       }
     ]
   },
@@ -8649,6 +11189,11 @@ window.VOCAB_N5 = [
         "japanese": "真面目な学生です。",
         "romaji": "Majime na gakusei desu.",
         "german": "Er ist ein gewissenhafter Student."
+      },
+      {
+        "japanese": "田中さんは真面目な人です。",
+        "romaji": "Tanaka-san wa majime na hito desu.",
+        "german": "Herr Tanaka ist ein gewissenhafter Mensch."
       }
     ]
   },
@@ -8666,6 +11211,11 @@ window.VOCAB_N5 = [
         "japanese": "やっぱり行きます。",
         "romaji": "Yappari ikimasu.",
         "german": "Ich gehe doch."
+      },
+      {
+        "japanese": "やっぱり日本料理がおいしいですね。",
+        "romaji": "Yappari nihon ryouri ga oishii desu ne.",
+        "german": "Japanisches Essen ist doch lecker, nicht wahr?"
       }
     ]
   },
@@ -8683,6 +11233,11 @@ window.VOCAB_N5 = [
         "japanese": "たぶん大丈夫です。",
         "romaji": "Tabun daijoubu desu.",
         "german": "Wahrscheinlich ist es okay."
+      },
+      {
+        "japanese": "たぶん明日は雨でしょう。",
+        "romaji": "Tabun ashita wa ame deshou.",
+        "german": "Morgen regnet es wahrscheinlich."
       }
     ]
   },
@@ -8700,6 +11255,11 @@ window.VOCAB_N5 = [
         "japanese": "きっと上手になります。",
         "romaji": "Kitto jouzu ni narimasu.",
         "german": "Du wirst bestimmt gut."
+      },
+      {
+        "japanese": "きっと大丈夫ですよ。",
+        "romaji": "Kitto daijoubu desu yo.",
+        "german": "Es wird bestimmt in Ordnung sein."
       }
     ]
   },
@@ -8713,6 +11273,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Zeit",
     "examples": [
+      {
+        "japanese": "ちょうど三時です。",
+        "romaji": "Choudo sanji desu.",
+        "german": "Es ist genau drei Uhr."
+      },
       {
         "japanese": "ちょうど三時です。",
         "romaji": "Choudo sanji desu.",
@@ -8734,6 +11299,11 @@ window.VOCAB_N5 = [
         "japanese": "だいたい分かりました。",
         "romaji": "Daitai wakarimashita.",
         "german": "Ich habe es ungefähr verstanden."
+      },
+      {
+        "japanese": "だいたい三十分かかります。",
+        "romaji": "Daitai sanjuppun kakarimasu.",
+        "german": "Es dauert ungefähr dreißig Minuten."
       }
     ]
   },
@@ -8749,6 +11319,11 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "ぜんぜん分かりません。",
+        "romaji": "Zenzen wakarimasen.",
+        "german": "Ich verstehe überhaupt nichts."
+      },
+      {
+        "japanese": "ぜんぜんわかりません。",
         "romaji": "Zenzen wakarimasen.",
         "german": "Ich verstehe überhaupt nichts."
       }
@@ -8768,6 +11343,11 @@ window.VOCAB_N5 = [
         "japanese": "すごく楽しいです。",
         "romaji": "Sugoku tanoshii desu.",
         "german": "Es macht unglaublich Spaß."
+      },
+      {
+        "japanese": "今日はすごく暑いですね。",
+        "romaji": "Kyou wa sugoku atsui desu ne.",
+        "german": "Heute ist es unglaublich heiß, nicht wahr?"
       }
     ]
   },
@@ -8785,6 +11365,11 @@ window.VOCAB_N5 = [
         "japanese": "久しぶりですね。",
         "romaji": "Hisashiburi desu ne.",
         "german": "Lange nicht gesehen!"
+      },
+      {
+        "japanese": "「久しぶり、元気だった？」と友達に言いました。",
+        "romaji": "'Hisashiburi, genki datta?' to tomodachi ni iimashita.",
+        "german": "Ich sagte zum Freund: 'Lange nicht gesehen, wie ging es dir?'"
       }
     ]
   },
@@ -8802,6 +11387,11 @@ window.VOCAB_N5 = [
         "japanese": "誕生日おめでとう！",
         "romaji": "Tanjoubi omedetou!",
         "german": "Alles Gute zum Geburtstag!"
+      },
+      {
+        "japanese": "「おめでとう！」と友達に言いました。",
+        "romaji": "'Omedetou!' to tomodachi ni iimashita.",
+        "german": "Ich sagte 'Glückwunsch!' zum Freund."
       }
     ]
   },
@@ -8819,6 +11409,11 @@ window.VOCAB_N5 = [
         "japanese": "お大事にしてください。",
         "romaji": "Odaiji ni shite kudasai.",
         "german": "Gute Besserung!"
+      },
+      {
+        "japanese": "病気の友達に「お大事に」と言いました。",
+        "romaji": "Byouki no tomodachi ni 'odaiji ni' to iimashita.",
+        "german": "Ich sagte zum kranken Freund 'Gute Besserung'."
       }
     ]
   },
@@ -8836,6 +11431,11 @@ window.VOCAB_N5 = [
         "japanese": "いらっしゃいませ！何名様ですか。",
         "romaji": "Irasshaimase! Nanmeisama desu ka.",
         "german": "Willkommen! Wie viele Personen?"
+      },
+      {
+        "japanese": "お店に入ると「いらっしゃいませ」と言われます。",
+        "romaji": "Omise ni hairu to 'irasshaimase' to iwaremasu.",
+        "german": "Wenn man ein Geschäft betritt, hört man 'Willkommen'."
       }
     ]
   },
@@ -8853,6 +11453,11 @@ window.VOCAB_N5 = [
         "japanese": "お邪魔します。",
         "romaji": "Ojama shimasu.",
         "german": "Entschuldigung für die Störung."
+      },
+      {
+        "japanese": "友達の家で「お邪魔します」と言いました。",
+        "romaji": "Tomodachi no ie de 'ojama shimasu' to iimashita.",
+        "german": "Beim Freund zu Hause sagte ich 'Entschuldigung für die Störung'."
       }
     ]
   },
@@ -8870,6 +11475,11 @@ window.VOCAB_N5 = [
         "japanese": "お帰りなさい！",
         "romaji": "Okaerinasai!",
         "german": "Willkommen zurück!"
+      },
+      {
+        "japanese": "子供が帰ったら「お帰りなさい」と言います。",
+        "romaji": "Kodomo ga kaettara 'okaerinasai' to iimasu.",
+        "german": "Wenn das Kind nach Hause kommt, sagt man 'Willkommen zurück'."
       }
     ]
   },
@@ -8887,6 +11497,11 @@ window.VOCAB_N5 = [
         "japanese": "頑張ってください。",
         "romaji": "Ganbatte kudasai.",
         "german": "Geben Sie Ihr Bestes!"
+      },
+      {
+        "japanese": "テストのために頑張ります。",
+        "romaji": "Tesuto no tame ni ganbarimasu.",
+        "german": "Ich gebe mein Bestes für den Test."
       }
     ]
   },
@@ -8904,6 +11519,11 @@ window.VOCAB_N5 = [
         "japanese": "電車に間に合いました。",
         "romaji": "Densha ni ma ni aimashita.",
         "german": "Ich habe den Zug noch geschafft."
+      },
+      {
+        "japanese": "電車に間に合いました。",
+        "romaji": "Densha ni maniaimashita.",
+        "german": "Ich habe den Zug noch rechtzeitig geschafft."
       }
     ]
   },
@@ -8921,6 +11541,11 @@ window.VOCAB_N5 = [
         "japanese": "明日行くつもりです。",
         "romaji": "Ashita iku tsumori desu.",
         "german": "Ich habe vor, morgen zu gehen."
+      },
+      {
+        "japanese": "来年日本に行くつもりです。",
+        "romaji": "Rainen Nihon ni iku tsumori desu.",
+        "german": "Ich habe vor, nächstes Jahr nach Japan zu gehen."
       }
     ]
   },
@@ -8938,6 +11563,11 @@ window.VOCAB_N5 = [
         "japanese": "明日の予定は何ですか。",
         "romaji": "Ashita no yotei wa nan desu ka.",
         "german": "Was sind Ihre Pläne für morgen?"
+      },
+      {
+        "japanese": "明日の予定はありますか。",
+        "romaji": "Ashita no yotei wa arimasu ka.",
+        "german": "Haben Sie morgen Pläne?"
       }
     ]
   },
@@ -8955,6 +11585,11 @@ window.VOCAB_N5 = [
         "japanese": "相談してもいいですか。",
         "romaji": "Soudan shite mo ii desu ka.",
         "german": "Darf ich Sie um Rat fragen?"
+      },
+      {
+        "japanese": "友達に相談しました。",
+        "romaji": "Tomodachi ni soudan shimashita.",
+        "german": "Ich habe mich mit einem Freund beraten."
       }
     ]
   },
@@ -8972,6 +11607,11 @@ window.VOCAB_N5 = [
         "japanese": "連絡してください。",
         "romaji": "Renraku shite kudasai.",
         "german": "Bitte kontaktieren Sie mich."
+      },
+      {
+        "japanese": "後で連絡します。",
+        "romaji": "Ato de renraku shimasu.",
+        "german": "Ich melde mich später."
       }
     ]
   },
@@ -8985,6 +11625,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "友達を紹介します。",
+        "romaji": "Tomodachi o shoukai shimasu.",
+        "german": "Ich stelle meinen Freund vor."
+      },
       {
         "japanese": "友達を紹介します。",
         "romaji": "Tomodachi o shoukai shimasu.",
@@ -9006,6 +11651,11 @@ window.VOCAB_N5 = [
         "japanese": "返事をしてください。",
         "romaji": "Henji o shite kudasai.",
         "german": "Bitte antworten Sie."
+      },
+      {
+        "japanese": "メールの返事がまだ来ません。",
+        "romaji": "Meeru no henji ga mada kimasen.",
+        "german": "Die Antwort auf die E-Mail ist noch nicht gekommen."
       }
     ]
   },
@@ -9023,6 +11673,11 @@ window.VOCAB_N5 = [
         "japanese": "理解できましたか。",
         "romaji": "Rikai dekimashita ka.",
         "german": "Haben Sie es verstanden?"
+      },
+      {
+        "japanese": "先生の説明が理解できました。",
+        "romaji": "Sensei no setsumei ga rikai dekimashita.",
+        "german": "Ich habe die Erklärung des Lehrers verstanden."
       }
     ]
   },
@@ -9040,6 +11695,11 @@ window.VOCAB_N5 = [
         "japanese": "説明してください。",
         "romaji": "Setsumei shite kudasai.",
         "german": "Bitte erklären Sie es."
+      },
+      {
+        "japanese": "もう一度説明してください。",
+        "romaji": "Mou ichido setsumei shite kudasai.",
+        "german": "Bitte erklären Sie es noch einmal."
       }
     ]
   },
@@ -9057,6 +11717,11 @@ window.VOCAB_N5 = [
         "japanese": "いい経験です。",
         "romaji": "Ii keiken desu.",
         "german": "Es ist eine gute Erfahrung."
+      },
+      {
+        "japanese": "いい経験になりました。",
+        "romaji": "Ii keiken ni narimashita.",
+        "german": "Es war eine gute Erfahrung."
       }
     ]
   },
@@ -9074,6 +11739,11 @@ window.VOCAB_N5 = [
         "japanese": "失敗しました。",
         "romaji": "Shippai shimashita.",
         "german": "Es ist fehlgeschlagen."
+      },
+      {
+        "japanese": "テストに失敗しました。",
+        "romaji": "Tesuto ni shippai shimashita.",
+        "german": "Ich bin beim Test durchgefallen."
       }
     ]
   },
@@ -9091,6 +11761,11 @@ window.VOCAB_N5 = [
         "japanese": "成功しました。",
         "romaji": "Seikou shimashita.",
         "german": "Es war ein Erfolg."
+      },
+      {
+        "japanese": "プロジェクトが成功しました。",
+        "romaji": "Purojekuto ga seikou shimashita.",
+        "german": "Das Projekt war erfolgreich."
       }
     ]
   },
@@ -9108,6 +11783,11 @@ window.VOCAB_N5 = [
         "japanese": "用意ができました。",
         "romaji": "Youi ga dekimashita.",
         "german": "Die Vorbereitung ist fertig."
+      },
+      {
+        "japanese": "パーティーの用意をしています。",
+        "romaji": "Paatii no youi o shite imasu.",
+        "german": "Ich bereite die Party vor."
       }
     ]
   },
@@ -9125,6 +11805,11 @@ window.VOCAB_N5 = [
         "japanese": "用事があります。",
         "romaji": "Youji ga arimasu.",
         "german": "Ich habe etwas zu erledigen."
+      },
+      {
+        "japanese": "今日は用事があります。",
+        "romaji": "Kyou wa youji ga arimasu.",
+        "german": "Heute habe ich etwas zu erledigen."
       }
     ]
   },
@@ -9142,6 +11827,11 @@ window.VOCAB_N5 = [
         "japanese": "案内してください。",
         "romaji": "Annai shite kudasai.",
         "german": "Bitte führen Sie mich."
+      },
+      {
+        "japanese": "駅員さんに案内してもらいました。",
+        "romaji": "Ekiin-san ni annai shite moraimashita.",
+        "german": "Der Bahnhofsangestellte hat mich geführt."
       }
     ]
   },
@@ -9159,6 +11849,11 @@ window.VOCAB_N5 = [
         "japanese": "景色がきれいです。",
         "romaji": "Keshiki ga kirei desu.",
         "german": "Die Aussicht ist schön."
+      },
+      {
+        "japanese": "山の景色がきれいです。",
+        "romaji": "Yama no keshiki ga kirei desu.",
+        "german": "Die Berglandschaft ist schön."
       }
     ]
   },
@@ -9176,6 +11871,11 @@ window.VOCAB_N5 = [
         "japanese": "自然が豊かです。",
         "romaji": "Shizen ga yutaka desu.",
         "german": "Die Natur ist reichhaltig."
+      },
+      {
+        "japanese": "自然の中を散歩するのが好きです。",
+        "romaji": "Shizen no naka o sanpo suru no ga suki desu.",
+        "german": "Ich gehe gerne in der Natur spazieren."
       }
     ]
   },
@@ -9193,6 +11893,11 @@ window.VOCAB_N5 = [
         "japanese": "空気がきれいです。",
         "romaji": "Kuuki ga kirei desu.",
         "german": "Die Luft ist sauber."
+      },
+      {
+        "japanese": "山の空気はおいしいです。",
+        "romaji": "Yama no kuuki wa oishii desu.",
+        "german": "Die Bergluft ist gut."
       }
     ]
   },
@@ -9206,6 +11911,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Natur",
     "examples": [
+      {
+        "japanese": "地球は丸いです。",
+        "romaji": "Chikyuu wa marui desu.",
+        "german": "Die Erde ist rund."
+      },
       {
         "japanese": "地球は丸いです。",
         "romaji": "Chikyuu wa marui desu.",
@@ -9227,6 +11937,11 @@ window.VOCAB_N5 = [
         "japanese": "太陽が出ています。",
         "romaji": "Taiyou ga dete imasu.",
         "german": "Die Sonne scheint."
+      },
+      {
+        "japanese": "太陽が出ています。",
+        "romaji": "Taiyou ga dete imasu.",
+        "german": "Die Sonne scheint."
       }
     ]
   },
@@ -9244,6 +11959,11 @@ window.VOCAB_N5 = [
         "japanese": "星がたくさん見えます。",
         "romaji": "Hoshi ga takusan miemasu.",
         "german": "Man kann viele Sterne sehen."
+      },
+      {
+        "japanese": "今夜は星がきれいですね。",
+        "romaji": "Konya wa hoshi ga kirei desu ne.",
+        "german": "Heute Nacht sind die Sterne schön, nicht wahr?"
       }
     ]
   },
@@ -9261,6 +11981,11 @@ window.VOCAB_N5 = [
         "japanese": "日本は島国です。",
         "romaji": "Nihon wa shimaguni desu.",
         "german": "Japan ist ein Inselstaat."
+      },
+      {
+        "japanese": "日本にはたくさん島があります。",
+        "romaji": "Nihon ni wa takusan shima ga arimasu.",
+        "german": "In Japan gibt es viele Inseln."
       }
     ]
   },
@@ -9277,6 +12002,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "海岸を歩きました。",
         "romaji": "Kaigan o arukimashita.",
+        "german": "Ich bin am Strand spazieren gegangen."
+      },
+      {
+        "japanese": "海岸を散歩しました。",
+        "romaji": "Kaigan o sanpo shimashita.",
         "german": "Ich bin am Strand spazieren gegangen."
       }
     ]
@@ -9295,6 +12025,11 @@ window.VOCAB_N5 = [
         "japanese": "森の中は涼しいです。",
         "romaji": "Mori no naka wa suzushii desu.",
         "german": "Im Wald ist es kühl."
+      },
+      {
+        "japanese": "森の中を歩きました。",
+        "romaji": "Mori no naka o arukimashita.",
+        "german": "Ich bin durch den Wald gegangen."
       }
     ]
   },
@@ -9312,6 +12047,11 @@ window.VOCAB_N5 = [
         "japanese": "湖で泳ぎました。",
         "romaji": "Mizuumi de oyogimashita.",
         "german": "Ich habe im See geschwommen."
+      },
+      {
+        "japanese": "この湖はとても大きいです。",
+        "romaji": "Kono mizuumi wa totemo ookii desu.",
+        "german": "Dieser See ist sehr groß."
       }
     ]
   },
@@ -9329,6 +12069,11 @@ window.VOCAB_N5 = [
         "japanese": "石を投げないでください。",
         "romaji": "Ishi o nagenaide kudasai.",
         "german": "Bitte werfen Sie keine Steine."
+      },
+      {
+        "japanese": "子供が石を投げています。",
+        "romaji": "Kodomo ga ishi o nagete imasu.",
+        "german": "Das Kind wirft Steine."
       }
     ]
   },
@@ -9346,6 +12091,11 @@ window.VOCAB_N5 = [
         "japanese": "砂で遊びます。",
         "romaji": "Suna de asobimasu.",
         "german": "Ich spiele im Sand."
+      },
+      {
+        "japanese": "海岸の砂は白いです。",
+        "romaji": "Kaigan no suna wa shiroi desu.",
+        "german": "Der Sand am Strand ist weiß."
       }
     ]
   },
@@ -9363,6 +12113,11 @@ window.VOCAB_N5 = [
         "japanese": "虫が怖いです。",
         "romaji": "Mushi ga kowai desu.",
         "german": "Ich habe Angst vor Insekten."
+      },
+      {
+        "japanese": "子供は虫が好きですね。",
+        "romaji": "Kodomo wa mushi ga suki desu ne.",
+        "german": "Kinder mögen Insekten, nicht wahr?"
       }
     ]
   },
@@ -9380,6 +12135,11 @@ window.VOCAB_N5 = [
         "japanese": "葉が落ちています。",
         "romaji": "Ha ga ochite imasu.",
         "german": "Die Blätter fallen."
+      },
+      {
+        "japanese": "秋になると葉が赤くなります。",
+        "romaji": "Aki ni naru to ha ga akaku narimasu.",
+        "german": "Im Herbst werden die Blätter rot."
       }
     ]
   },
@@ -9397,6 +12157,11 @@ window.VOCAB_N5 = [
         "japanese": "枝を折らないでください。",
         "romaji": "Eda o oranaide kudasai.",
         "german": "Bitte brechen Sie keine Äste ab."
+      },
+      {
+        "japanese": "木の枝が折れました。",
+        "romaji": "Ki no eda ga oremashita.",
+        "german": "Der Ast des Baumes ist abgebrochen."
       }
     ]
   },
@@ -9414,6 +12179,11 @@ window.VOCAB_N5 = [
         "japanese": "草の上に座りました。",
         "romaji": "Kusa no ue ni suwarimashita.",
         "german": "Ich habe mich ins Gras gesetzt."
+      },
+      {
+        "japanese": "草の上に座りました。",
+        "romaji": "Kusa no ue ni suwarimashita.",
+        "german": "Ich habe mich auf das Gras gesetzt."
       }
     ]
   },
@@ -9431,6 +12201,11 @@ window.VOCAB_N5 = [
         "japanese": "氷が溶けました。",
         "romaji": "Koori ga tokemashita.",
         "german": "Das Eis ist geschmolzen."
+      },
+      {
+        "japanese": "飲み物に氷を入れてください。",
+        "romaji": "Nomimono ni koori o irete kudasai.",
+        "german": "Bitte geben Sie Eis in das Getränk."
       }
     ]
   },
@@ -9448,6 +12223,11 @@ window.VOCAB_N5 = [
         "japanese": "煙が見えます。",
         "romaji": "Kemuri ga miemasu.",
         "german": "Man sieht Rauch."
+      },
+      {
+        "japanese": "火事の煙が見えます。",
+        "romaji": "Kaji no kemuri ga miemasu.",
+        "german": "Man kann den Rauch des Feuers sehen."
       }
     ]
   },
@@ -9465,6 +12245,11 @@ window.VOCAB_N5 = [
         "japanese": "変な音がします。",
         "romaji": "Hen na oto ga shimasu.",
         "german": "Es macht ein seltsames Geräusch."
+      },
+      {
+        "japanese": "変な音が聞こえます。",
+        "romaji": "Hen na oto ga kikoemasu.",
+        "german": "Ich höre ein seltsames Geräusch."
       }
     ]
   },
@@ -9482,6 +12267,11 @@ window.VOCAB_N5 = [
         "japanese": "いい匂いがします。",
         "romaji": "Ii nioi ga shimasu.",
         "german": "Es riecht gut."
+      },
+      {
+        "japanese": "この花はいい匂いがします。",
+        "romaji": "Kono hana wa ii nioi ga shimasu.",
+        "german": "Diese Blume riecht gut."
       }
     ]
   },
@@ -9499,6 +12289,11 @@ window.VOCAB_N5 = [
         "japanese": "味はどうですか。",
         "romaji": "Aji wa dou desu ka.",
         "german": "Wie schmeckt es?"
+      },
+      {
+        "japanese": "この料理は味がいいですね。",
+        "romaji": "Kono ryouri wa aji ga ii desu ne.",
+        "german": "Dieses Gericht schmeckt gut, nicht wahr?"
       }
     ]
   },
@@ -9516,6 +12311,11 @@ window.VOCAB_N5 = [
         "japanese": "面白い形です。",
         "romaji": "Omoshiroi katachi desu.",
         "german": "Es hat eine interessante Form."
+      },
+      {
+        "japanese": "この石は面白い形ですね。",
+        "romaji": "Kono ishi wa omoshiroi katachi desu ne.",
+        "german": "Dieser Stein hat eine interessante Form, nicht wahr?"
       }
     ]
   },
@@ -9533,6 +12333,11 @@ window.VOCAB_N5 = [
         "japanese": "大きさはどのくらいですか。",
         "romaji": "Ookisa wa dono kurai desu ka.",
         "german": "Wie groß ist es?"
+      },
+      {
+        "japanese": "このかばんの大きさはちょうどいいです。",
+        "romaji": "Kono kaban no ookisa wa choudo ii desu.",
+        "german": "Die Größe dieser Tasche ist genau richtig."
       }
     ]
   },
@@ -9550,6 +12355,11 @@ window.VOCAB_N5 = [
         "japanese": "重さを量ります。",
         "romaji": "Omosa o hakarimasu.",
         "german": "Ich wiege das Gewicht."
+      },
+      {
+        "japanese": "この荷物の重さはどのくらいですか。",
+        "romaji": "Kono nimotsu no omosa wa dono kurai desu ka.",
+        "german": "Wie viel wiegt dieses Gepäck?"
       }
     ]
   },
@@ -9567,6 +12377,11 @@ window.VOCAB_N5 = [
         "japanese": "長さはどのくらいですか。",
         "romaji": "Nagasa wa dono kurai desu ka.",
         "german": "Wie lang ist es?"
+      },
+      {
+        "japanese": "この部屋の長さは六メートルです。",
+        "romaji": "Kono heya no nagasa wa roku meetoru desu.",
+        "german": "Die Länge dieses Zimmers beträgt sechs Meter."
       }
     ]
   },
@@ -9584,6 +12399,11 @@ window.VOCAB_N5 = [
         "japanese": "部屋の広さは十畳です。",
         "romaji": "Heya no hirosa wa juu jou desu.",
         "german": "Die Zimmergröße ist zehn Tatami."
+      },
+      {
+        "japanese": "公園の広さにびっくりしました。",
+        "romaji": "Kouen no hirosa ni bikkuri shimashita.",
+        "german": "Ich war von der Weite des Parks überrascht."
       }
     ]
   },
@@ -9601,6 +12421,11 @@ window.VOCAB_N5 = [
         "japanese": "車の速さはどのくらいですか。",
         "romaji": "Kuruma no hayasa wa dono kurai desu ka.",
         "german": "Wie schnell ist das Auto?"
+      },
+      {
+        "japanese": "新幹線の速さはすごいですね。",
+        "romaji": "Shinkansen no hayasa wa sugoi desu ne.",
+        "german": "Die Geschwindigkeit des Shinkansen ist erstaunlich, nicht wahr?"
       }
     ]
   },
@@ -9618,6 +12443,11 @@ window.VOCAB_N5 = [
         "japanese": "明日試験があります。",
         "romaji": "Ashita shiken ga arimasu.",
         "german": "Morgen gibt es eine Prüfung."
+      },
+      {
+        "japanese": "来週試験があります。",
+        "romaji": "Raishuu shiken ga arimasu.",
+        "german": "Nächste Woche gibt es eine Prüfung."
       }
     ]
   },
@@ -9635,6 +12465,11 @@ window.VOCAB_N5 = [
         "japanese": "消しゴムを貸してください。",
         "romaji": "Keshigomu o kashite kudasai.",
         "german": "Bitte leihen Sie mir einen Radiergummi."
+      },
+      {
+        "japanese": "消しゴムを貸してください。",
+        "romaji": "Keshigomu o kashite kudasai.",
+        "german": "Bitte leihen Sie mir den Radiergummi."
       }
     ]
   },
@@ -9652,6 +12487,11 @@ window.VOCAB_N5 = [
         "japanese": "定規で線を引きます。",
         "romaji": "Jougi de sen o hikimasu.",
         "german": "Ich ziehe eine Linie mit dem Lineal."
+      },
+      {
+        "japanese": "定規で線を引きます。",
+        "romaji": "Jougi de sen o hikimasu.",
+        "german": "Ich ziehe mit dem Lineal eine Linie."
       }
     ]
   },
@@ -9669,6 +12509,11 @@ window.VOCAB_N5 = [
         "japanese": "歌を歌いましょう。",
         "romaji": "Uta o utaimashou.",
         "german": "Lasst uns ein Lied singen."
+      },
+      {
+        "japanese": "あの歌を知っていますか。",
+        "romaji": "Ano uta o shitte imasu ka.",
+        "german": "Kennen Sie dieses Lied?"
       }
     ]
   },
@@ -9686,6 +12531,11 @@ window.VOCAB_N5 = [
         "japanese": "趣味は何ですか。",
         "romaji": "Shumi wa nan desu ka.",
         "german": "Was ist Ihr Hobby?"
+      },
+      {
+        "japanese": "趣味は読書です。",
+        "romaji": "Shumi wa dokusho desu.",
+        "german": "Mein Hobby ist Lesen."
       }
     ]
   },
@@ -9703,6 +12553,11 @@ window.VOCAB_N5 = [
         "japanese": "運動が好きです。",
         "romaji": "Undou ga suki desu.",
         "german": "Ich mag Sport."
+      },
+      {
+        "japanese": "毎朝運動しています。",
+        "romaji": "Maiasa undou shite imasu.",
+        "german": "Ich treibe jeden Morgen Sport."
       }
     ]
   },
@@ -9720,6 +12575,11 @@ window.VOCAB_N5 = [
         "japanese": "美術館に行きました。",
         "romaji": "Bijutsukan ni ikimashita.",
         "german": "Ich war im Kunstmuseum."
+      },
+      {
+        "japanese": "美術館で絵を見ました。",
+        "romaji": "Bijutsukan de e o mimashita.",
+        "german": "Ich habe im Kunstmuseum Bilder angesehen."
       }
     ]
   },
@@ -9737,6 +12597,11 @@ window.VOCAB_N5 = [
         "japanese": "動物園でパンダを見ました。",
         "romaji": "Doubutsuen de panda o mimashita.",
         "german": "Ich habe im Zoo einen Panda gesehen."
+      },
+      {
+        "japanese": "日曜日に動物園に行きました。",
+        "romaji": "Nichiyoubi ni doubutsuen ni ikimashita.",
+        "german": "Am Sonntag bin ich in den Zoo gegangen."
       }
     ]
   },
@@ -9754,6 +12619,11 @@ window.VOCAB_N5 = [
         "japanese": "交番はどこですか。",
         "romaji": "Kouban wa doko desu ka.",
         "german": "Wo ist die Polizeiwache?"
+      },
+      {
+        "japanese": "道がわからなかったら、交番で聞いてください。",
+        "romaji": "Michi ga wakaranakattara, kouban de kiite kudasai.",
+        "german": "Wenn Sie den Weg nicht kennen, fragen Sie bei der Polizeiwache."
       }
     ]
   },
@@ -9771,6 +12641,11 @@ window.VOCAB_N5 = [
         "japanese": "薬局で薬を買います。",
         "romaji": "Yakkyoku de kusuri o kaimasu.",
         "german": "Ich kaufe Medizin in der Apotheke."
+      },
+      {
+        "japanese": "薬局で薬を買いました。",
+        "romaji": "Yakkyoku de kusuri o kaimashita.",
+        "german": "Ich habe in der Apotheke Medizin gekauft."
       }
     ]
   },
@@ -9788,6 +12663,11 @@ window.VOCAB_N5 = [
         "japanese": "神社にお参りします。",
         "romaji": "Jinja ni omairi shimasu.",
         "german": "Ich besuche den Schrein."
+      },
+      {
+        "japanese": "お正月に神社に行きます。",
+        "romaji": "Oshougatsu ni jinja ni ikimasu.",
+        "german": "An Neujahr gehe ich zum Schrein."
       }
     ]
   },
@@ -9805,6 +12685,11 @@ window.VOCAB_N5 = [
         "japanese": "お寺を見学しました。",
         "romaji": "Otera o kengaku shimashita.",
         "german": "Ich habe den Tempel besichtigt."
+      },
+      {
+        "japanese": "京都のお寺を見に行きました。",
+        "romaji": "Kyouto no otera o mi ni ikimashita.",
+        "german": "Ich bin nach Kyoto gegangen, um Tempel zu besichtigen."
       }
     ]
   },
@@ -9822,6 +12707,11 @@ window.VOCAB_N5 = [
         "japanese": "近所にスーパーがあります。",
         "romaji": "Kinjo ni suupaa ga arimasu.",
         "german": "In der Nachbarschaft gibt es einen Supermarkt."
+      },
+      {
+        "japanese": "近所の人に挨拶をします。",
+        "romaji": "Kinjo no hito ni aisatsu o shimasu.",
+        "german": "Ich grüße die Leute in der Nachbarschaft."
       }
     ]
   },
@@ -9839,6 +12729,11 @@ window.VOCAB_N5 = [
         "japanese": "階段を上がってください。",
         "romaji": "Kaidan o agatte kudasai.",
         "german": "Bitte gehen Sie die Treppe hoch."
+      },
+      {
+        "japanese": "階段で三階まで上がりました。",
+        "romaji": "Kaidan de sankai made agarimashita.",
+        "german": "Ich bin über die Treppe in den dritten Stock gegangen."
       }
     ]
   },
@@ -9852,6 +12747,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Wohnen",
     "examples": [
+      {
+        "japanese": "屋根の上に猫がいます。",
+        "romaji": "Yane no ue ni neko ga imasu.",
+        "german": "Auf dem Dach ist eine Katze."
+      },
       {
         "japanese": "屋根の上に猫がいます。",
         "romaji": "Yane no ue ni neko ga imasu.",
@@ -9873,6 +12773,11 @@ window.VOCAB_N5 = [
         "japanese": "壁に絵を掛けます。",
         "romaji": "Kabe ni e o kakemasu.",
         "german": "Ich hänge ein Bild an die Wand."
+      },
+      {
+        "japanese": "壁に絵をかけました。",
+        "romaji": "Kabe ni e o kakemashita.",
+        "german": "Ich habe ein Bild an die Wand gehängt."
       }
     ]
   },
@@ -9890,6 +12795,11 @@ window.VOCAB_N5 = [
         "japanese": "床がきれいです。",
         "romaji": "Yuka ga kirei desu.",
         "german": "Der Fußboden ist sauber."
+      },
+      {
+        "japanese": "床に座ってください。",
+        "romaji": "Yuka ni suwatte kudasai.",
+        "german": "Bitte setzen Sie sich auf den Boden."
       }
     ]
   },
@@ -9907,6 +12817,11 @@ window.VOCAB_N5 = [
         "japanese": "天井が高いです。",
         "romaji": "Tenjou ga takai desu.",
         "german": "Die Decke ist hoch."
+      },
+      {
+        "japanese": "天井が高い部屋ですね。",
+        "romaji": "Tenjou ga takai heya desu ne.",
+        "german": "Ein Zimmer mit hoher Decke, nicht wahr?"
       }
     ]
   },
@@ -9924,6 +12839,11 @@ window.VOCAB_N5 = [
         "japanese": "布団は押入れにあります。",
         "romaji": "Futon wa oshiire ni arimasu.",
         "german": "Der Futon ist im Wandschrank."
+      },
+      {
+        "japanese": "押入れに布団を入れます。",
+        "romaji": "Oshiire ni futon o iremasu.",
+        "german": "Ich lege den Futon in den Wandschrank."
       }
     ]
   },
@@ -9937,6 +12857,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Wohnen",
     "examples": [
+      {
+        "japanese": "畳の部屋が好きです。",
+        "romaji": "Tatami no heya ga suki desu.",
+        "german": "Ich mag Tatami-Zimmer."
+      },
       {
         "japanese": "畳の部屋が好きです。",
         "romaji": "Tatami no heya ga suki desu.",
@@ -9958,6 +12883,11 @@ window.VOCAB_N5 = [
         "japanese": "枕が柔らかいです。",
         "romaji": "Makura ga yawarakai desu.",
         "german": "Das Kissen ist weich."
+      },
+      {
+        "japanese": "新しい枕を買いました。",
+        "romaji": "Atarashii makura o kaimashita.",
+        "german": "Ich habe ein neues Kissen gekauft."
       }
     ]
   },
@@ -9975,6 +12905,11 @@ window.VOCAB_N5 = [
         "japanese": "鏡を見ます。",
         "romaji": "Kagami o mimasu.",
         "german": "Ich schaue in den Spiegel."
+      },
+      {
+        "japanese": "鏡を見てください。",
+        "romaji": "Kagami o mite kudasai.",
+        "german": "Bitte schauen Sie in den Spiegel."
       }
     ]
   },
@@ -9992,6 +12927,11 @@ window.VOCAB_N5 = [
         "japanese": "石鹸で手を洗います。",
         "romaji": "Sekken de te o araimasu.",
         "german": "Ich wasche mir die Hände mit Seife."
+      },
+      {
+        "japanese": "手を石鹸で洗ってください。",
+        "romaji": "Te o sekken de aratte kudasai.",
+        "german": "Bitte waschen Sie sich die Hände mit Seife."
       }
     ]
   },
@@ -10009,6 +12949,11 @@ window.VOCAB_N5 = [
         "japanese": "歯ブラシを買います。",
         "romaji": "Haburashi o kaimasu.",
         "german": "Ich kaufe eine Zahnbürste."
+      },
+      {
+        "japanese": "新しい歯ブラシを買いました。",
+        "romaji": "Atarashii haburashi o kaimashita.",
+        "german": "Ich habe eine neue Zahnbürste gekauft."
       }
     ]
   },
@@ -10026,6 +12971,11 @@ window.VOCAB_N5 = [
         "japanese": "タオルを使ってください。",
         "romaji": "Taoru o tsukatte kudasai.",
         "german": "Bitte benutzen Sie das Handtuch."
+      },
+      {
+        "japanese": "タオルで手を拭いてください。",
+        "romaji": "Taoru de te o fuite kudasai.",
+        "german": "Bitte trocknen Sie sich die Hände mit dem Handtuch."
       }
     ]
   },
@@ -10039,6 +12989,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "ゴミを出してください。",
+        "romaji": "Gomi o dashite kudasai.",
+        "german": "Bitte bringen Sie den Müll raus."
+      },
       {
         "japanese": "ゴミを出してください。",
         "romaji": "Gomi o dashite kudasai.",
@@ -10060,6 +13015,11 @@ window.VOCAB_N5 = [
         "japanese": "ゴミ箱に捨ててください。",
         "romaji": "Gomibako ni sutete kudasai.",
         "german": "Bitte werfen Sie es in den Mülleimer."
+      },
+      {
+        "japanese": "ゴミ箱はあそこにあります。",
+        "romaji": "Gomibako wa asoko ni arimasu.",
+        "german": "Der Mülleimer ist dort drüben."
       }
     ]
   },
@@ -10077,6 +13037,11 @@ window.VOCAB_N5 = [
         "japanese": "漬物が好きです。",
         "romaji": "Tsukemono ga suki desu.",
         "german": "Ich mag eingelegtes Gemüse."
+      },
+      {
+        "japanese": "日本の漬物を食べたことがありますか。",
+        "romaji": "Nihon no tsukemono o tabeta koto ga arimasu ka.",
+        "german": "Haben Sie schon einmal japanisches eingelegtes Gemüse gegessen?"
       }
     ]
   },
@@ -10094,6 +13059,11 @@ window.VOCAB_N5 = [
         "japanese": "牛丼を食べました。",
         "romaji": "Gyuudon o tabemashita.",
         "german": "Ich habe Gyuudon gegessen."
+      },
+      {
+        "japanese": "牛丼を注文しました。",
+        "romaji": "Gyuudon o chuumon shimashita.",
+        "german": "Ich habe ein Rindfleisch-Donburi bestellt."
       }
     ]
   },
@@ -10111,6 +13081,11 @@ window.VOCAB_N5 = [
         "japanese": "お弁当を作りました。",
         "romaji": "Obentou o tsukurimashita.",
         "german": "Ich habe ein Bento gemacht."
+      },
+      {
+        "japanese": "弁当を持って公園に行きました。",
+        "romaji": "Bentou o motte kouen ni ikimashita.",
+        "german": "Ich habe ein Bento mitgenommen und bin in den Park gegangen."
       }
     ]
   },
@@ -10124,6 +13099,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Essen",
     "examples": [
+      {
+        "japanese": "おにぎりを二つ買いました。",
+        "romaji": "Onigiri o futatsu kaimashita.",
+        "german": "Ich habe zwei Reisbälle gekauft."
+      },
       {
         "japanese": "おにぎりを二つ買いました。",
         "romaji": "Onigiri o futatsu kaimashita.",
@@ -10145,6 +13125,11 @@ window.VOCAB_N5 = [
         "japanese": "うどんを食べます。",
         "romaji": "Udon o tabemasu.",
         "german": "Ich esse Udon-Nudeln."
+      },
+      {
+        "japanese": "冬はうどんが食べたいです。",
+        "romaji": "Fuyu wa udon ga tabetai desu.",
+        "german": "Im Winter möchte ich Udon essen."
       }
     ]
   },
@@ -10162,6 +13147,11 @@ window.VOCAB_N5 = [
         "japanese": "蕎麦が好きです。",
         "romaji": "Soba ga suki desu.",
         "german": "Ich mag Soba-Nudeln."
+      },
+      {
+        "japanese": "冷たいそばを食べました。",
+        "romaji": "Tsumetai soba o tabemashita.",
+        "german": "Ich habe kalte Soba-Nudeln gegessen."
       }
     ]
   },
@@ -10179,6 +13169,11 @@ window.VOCAB_N5 = [
         "japanese": "天ぷらを注文しました。",
         "romaji": "Tempura o chuumon shimashita.",
         "german": "Ich habe Tempura bestellt."
+      },
+      {
+        "japanese": "天ぷらが大好きです。",
+        "romaji": "Tempura ga daisuki desu.",
+        "german": "Ich liebe Tempura."
       }
     ]
   },
@@ -10196,6 +13191,11 @@ window.VOCAB_N5 = [
         "japanese": "刺身が新鮮です。",
         "romaji": "Sashimi ga shinsen desu.",
         "german": "Das Sashimi ist frisch."
+      },
+      {
+        "japanese": "新鮮な刺身を食べました。",
+        "romaji": "Shinsen na sashimi o tabemashita.",
+        "german": "Ich habe frischen Sashimi gegessen."
       }
     ]
   },
@@ -10213,6 +13213,11 @@ window.VOCAB_N5 = [
         "japanese": "お寿司を食べに行きましょう。",
         "romaji": "Osushi o tabe ni ikimashou.",
         "german": "Lass uns Sushi essen gehen."
+      },
+      {
+        "japanese": "回転寿司に行きましょう。",
+        "romaji": "Kaiten zushi ni ikimashou.",
+        "german": "Lass uns zum Sushi-Restaurant gehen."
       }
     ]
   },
@@ -10230,6 +13235,11 @@ window.VOCAB_N5 = [
         "japanese": "焼き鳥を食べました。",
         "romaji": "Yakitori o tabemashita.",
         "german": "Ich habe Yakitori gegessen."
+      },
+      {
+        "japanese": "焼き鳥を食べに行きましょう。",
+        "romaji": "Yakitori o tabe ni ikimashou.",
+        "german": "Lass uns Yakitori essen gehen."
       }
     ]
   },
@@ -10247,6 +13257,11 @@ window.VOCAB_N5 = [
         "japanese": "お湯を沸かします。",
         "romaji": "Oyu o wakashimasu.",
         "german": "Ich koche Wasser."
+      },
+      {
+        "japanese": "お湯を沸かしてください。",
+        "romaji": "Oyu o wakashite kudasai.",
+        "german": "Bitte kochen Sie Wasser."
       }
     ]
   },
@@ -10264,6 +13279,11 @@ window.VOCAB_N5 = [
         "japanese": "氷水をください。",
         "romaji": "Koorimizu o kudasai.",
         "german": "Eiswasser bitte."
+      },
+      {
+        "japanese": "氷水を一杯ください。",
+        "romaji": "Koorimizu o ippai kudasai.",
+        "german": "Ein Glas Eiswasser, bitte."
       }
     ]
   },
@@ -10281,6 +13301,11 @@ window.VOCAB_N5 = [
         "japanese": "乾杯しましょう。",
         "romaji": "Kanpai shimashou.",
         "german": "Lasst uns anstoßen!"
+      },
+      {
+        "japanese": "パーティーで「乾杯」と言いました。",
+        "romaji": "Paatii de 'kanpai' to iimashita.",
+        "german": "Auf der Party sagten wir 'Prost!'."
       }
     ]
   },
@@ -10298,6 +13323,11 @@ window.VOCAB_N5 = [
         "japanese": "頂きます。",
         "romaji": "Itadakimasu.",
         "german": "Guten Appetit. (Vor dem Essen)"
+      },
+      {
+        "japanese": "手を合わせて「頂きます」と言います。",
+        "romaji": "Te o awasete 'itadakimasu' to iimasu.",
+        "german": "Man legt die Hände zusammen und sagt 'Itadakimasu'."
       }
     ]
   },
@@ -10315,6 +13345,11 @@ window.VOCAB_N5 = [
         "japanese": "ご馳走様でした。",
         "romaji": "Gochisousama deshita.",
         "german": "Danke für das Essen. (Nach dem Essen)"
+      },
+      {
+        "japanese": "食事の後に「ご馳走様」と言いましょう。",
+        "romaji": "Shokuji no ato ni 'gochisousama' to iimashou.",
+        "german": "Nach dem Essen sagen wir 'Danke für das Essen'."
       }
     ]
   },
@@ -10332,6 +13367,11 @@ window.VOCAB_N5 = [
         "japanese": "セーターを着ます。",
         "romaji": "Seetaa o kimasu.",
         "german": "Ich ziehe einen Pullover an."
+      },
+      {
+        "japanese": "寒いからセーターを着ます。",
+        "romaji": "Samui kara seetaa o kimasu.",
+        "german": "Es ist kalt, deshalb ziehe ich einen Pullover an."
       }
     ]
   },
@@ -10349,6 +13389,11 @@ window.VOCAB_N5 = [
         "japanese": "コートを着てください。",
         "romaji": "Kooto o kite kudasai.",
         "german": "Bitte ziehen Sie einen Mantel an."
+      },
+      {
+        "japanese": "コートを着ないと寒いですよ。",
+        "romaji": "Kooto o kinai to samui desu yo.",
+        "german": "Ohne Mantel wird es kalt!"
       }
     ]
   },
@@ -10366,6 +13411,11 @@ window.VOCAB_N5 = [
         "japanese": "手袋をしています。",
         "romaji": "Tebukuro o shite imasu.",
         "german": "Ich trage Handschuhe."
+      },
+      {
+        "japanese": "冬は手袋が必要です。",
+        "romaji": "Fuyu wa tebukuro ga hitsuyou desu.",
+        "german": "Im Winter braucht man Handschuhe."
       }
     ]
   },
@@ -10383,6 +13433,11 @@ window.VOCAB_N5 = [
         "japanese": "マフラーを巻きます。",
         "romaji": "Mafuraa o makimasu.",
         "german": "Ich wickle mir einen Schal um."
+      },
+      {
+        "japanese": "マフラーを巻いています。",
+        "romaji": "Mafuraa o maite imasu.",
+        "german": "Ich trage einen Schal."
       }
     ]
   },
@@ -10400,6 +13455,11 @@ window.VOCAB_N5 = [
         "japanese": "ネクタイを締めます。",
         "romaji": "Nekutai o shimemasu.",
         "german": "Ich binde die Krawatte."
+      },
+      {
+        "japanese": "ネクタイをしなければなりません。",
+        "romaji": "Nekutai o shinakereba narimasen.",
+        "german": "Ich muss eine Krawatte tragen."
       }
     ]
   },
@@ -10413,6 +13473,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "ハンカチを持っていますか。",
+        "romaji": "Hankachi o motte imasu ka.",
+        "german": "Haben Sie ein Taschentuch?"
+      },
       {
         "japanese": "ハンカチを持っていますか。",
         "romaji": "Hankachi o motte imasu ka.",
@@ -10434,6 +13499,11 @@ window.VOCAB_N5 = [
         "japanese": "指輪をもらいました。",
         "romaji": "Yubiwa o moraimashita.",
         "german": "Ich habe einen Ring bekommen."
+      },
+      {
+        "japanese": "きれいな指輪ですね。",
+        "romaji": "Kirei na yubiwa desu ne.",
+        "german": "Ein schöner Ring, nicht wahr?"
       }
     ]
   },
@@ -10451,6 +13521,11 @@ window.VOCAB_N5 = [
         "japanese": "眼鏡をかけています。",
         "romaji": "Megane o kakete imasu.",
         "german": "Ich trage eine Brille."
+      },
+      {
+        "japanese": "眼鏡をかけないと見えません。",
+        "romaji": "Megane o kakenai to miemasen.",
+        "german": "Ohne Brille kann ich nicht sehen."
       }
     ]
   },
@@ -10464,6 +13539,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "鞄の中に何がありますか。",
+        "romaji": "Kaban no naka ni nani ga arimasu ka.",
+        "german": "Was ist in der Tasche?"
+      },
       {
         "japanese": "鞄の中に何がありますか。",
         "romaji": "Kaban no naka ni nani ga arimasu ka.",
@@ -10485,6 +13565,11 @@ window.VOCAB_N5 = [
         "japanese": "皿を洗います。",
         "romaji": "Sara o araimasu.",
         "german": "Ich wasche die Teller."
+      },
+      {
+        "japanese": "皿の上にケーキがあります。",
+        "romaji": "Sara no ue ni keeki ga arimasu.",
+        "german": "Auf dem Teller ist Kuchen."
       }
     ]
   },
@@ -10502,6 +13587,11 @@ window.VOCAB_N5 = [
         "japanese": "茶碗にご飯を入れます。",
         "romaji": "Chawan ni gohan o iremasu.",
         "german": "Ich fulle Reis in die Schale."
+      },
+      {
+        "japanese": "茶碗にごはんをよそってください。",
+        "romaji": "Chawan ni gohan o yosotte kudasai.",
+        "german": "Bitte füllen Sie Reis in die Schale."
       }
     ]
   },
@@ -10519,6 +13609,11 @@ window.VOCAB_N5 = [
         "japanese": "急須でお茶を入れます。",
         "romaji": "Kyuusu de ocha o iremasu.",
         "german": "Ich brühe Tee in der Teekanne auf."
+      },
+      {
+        "japanese": "急須でお茶を入れます。",
+        "romaji": "Kyuusu de ocha o iremasu.",
+        "german": "Ich mache Tee in der Teekanne."
       }
     ]
   },
@@ -10536,6 +13631,11 @@ window.VOCAB_N5 = [
         "japanese": "扇風機を回します。",
         "romaji": "Senpuuki o mawashimasu.",
         "german": "Ich schalte den Ventilator ein."
+      },
+      {
+        "japanese": "暑いから扇風機をつけましょう。",
+        "romaji": "Atsui kara senpuuki o tsukemashou.",
+        "german": "Es ist heiß, also schalten wir den Ventilator ein."
       }
     ]
   },
@@ -10553,6 +13653,11 @@ window.VOCAB_N5 = [
         "japanese": "最初に自己紹介をします。",
         "romaji": "Saisho ni jikoshoukai o shimasu.",
         "german": "Zuerst stelle ich mich vor."
+      },
+      {
+        "japanese": "最初に名前を書いてください。",
+        "romaji": "Saisho ni namae o kaite kudasai.",
+        "german": "Bitte schreiben Sie zuerst Ihren Namen."
       }
     ]
   },
@@ -10566,6 +13671,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Zeit",
     "examples": [
+      {
+        "japanese": "最後まで頑張ります。",
+        "romaji": "Saigo made ganbarimasu.",
+        "german": "Ich gebe bis zum Ende mein Bestes."
+      },
       {
         "japanese": "最後まで頑張ります。",
         "romaji": "Saigo made ganbarimasu.",
@@ -10587,6 +13697,11 @@ window.VOCAB_N5 = [
         "japanese": "最近忙しいです。",
         "romaji": "Saikin isogashii desu.",
         "german": "In letzter Zeit bin ich beschäftigt."
+      },
+      {
+        "japanese": "最近忙しいです。",
+        "romaji": "Saikin isogashii desu.",
+        "german": "In letzter Zeit bin ich beschäftigt."
       }
     ]
   },
@@ -10600,6 +13715,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Zeit",
     "examples": [
+      {
+        "japanese": "将来何になりたいですか。",
+        "romaji": "Shourai nani ni naritai desu ka.",
+        "german": "Was möchten Sie in Zukunft werden?"
+      },
       {
         "japanese": "将来何になりたいですか。",
         "romaji": "Shourai nani ni naritai desu ka.",
@@ -10621,6 +13741,11 @@ window.VOCAB_N5 = [
         "japanese": "去年日本に行きました。",
         "romaji": "Kyonen Nihon ni ikimashita.",
         "german": "Letztes Jahr bin ich nach Japan gereist."
+      },
+      {
+        "japanese": "去年日本に行きました。",
+        "romaji": "Kyonen Nihon ni ikimashita.",
+        "german": "Letztes Jahr bin ich nach Japan gefahren."
       }
     ]
   },
@@ -10638,6 +13763,11 @@ window.VOCAB_N5 = [
         "japanese": "来年また来ます。",
         "romaji": "Rainen mata kimasu.",
         "german": "Nächstes Jahr komme ich wieder."
+      },
+      {
+        "japanese": "来年は大学に入ります。",
+        "romaji": "Rainen wa daigaku ni hairimasu.",
+        "german": "Nächstes Jahr gehe ich auf die Universität."
       }
     ]
   },
@@ -10655,6 +13785,11 @@ window.VOCAB_N5 = [
         "japanese": "今度一緒に行きましょう。",
         "romaji": "Kondo issho ni ikimashou.",
         "german": "Lass uns nächstes Mal zusammen gehen."
+      },
+      {
+        "japanese": "今度の日曜日、映画を見に行きましょう。",
+        "romaji": "Kondo no nichiyoubi, eiga o mi ni ikimashou.",
+        "german": "Lass uns diesen Sonntag ins Kino gehen."
       }
     ]
   },
@@ -10672,6 +13807,11 @@ window.VOCAB_N5 = [
         "japanese": "丁度三時です。",
         "romaji": "Choudo san ji desu.",
         "german": "Es ist genau drei Uhr."
+      },
+      {
+        "japanese": "丁度いい大きさですね。",
+        "romaji": "Choudo ii ookisa desu ne.",
+        "german": "Genau die richtige Größe, nicht wahr?"
       }
     ]
   },
@@ -10689,6 +13829,11 @@ window.VOCAB_N5 = [
         "japanese": "急に雨が降りました。",
         "romaji": "Kyuu ni ame ga furimashita.",
         "german": "Es hat plötzlich geregnet."
+      },
+      {
+        "japanese": "急に雨が降り出しました。",
+        "romaji": "Kyuu ni ame ga furidashimashita.",
+        "german": "Plötzlich begann es zu regnen."
       }
     ]
   },
@@ -10706,6 +13851,11 @@ window.VOCAB_N5 = [
         "japanese": "偶に映画を見ます。",
         "romaji": "Tama ni eiga o mimasu.",
         "german": "Ab und zu sehe ich einen Film."
+      },
+      {
+        "japanese": "偶に映画を見に行きます。",
+        "romaji": "Tama ni eiga o mi ni ikimasu.",
+        "german": "Gelegentlich gehe ich ins Kino."
       }
     ]
   },
@@ -10723,6 +13873,11 @@ window.VOCAB_N5 = [
         "japanese": "すっかり忘れました。",
         "romaji": "Sukkari wasuremashita.",
         "german": "Ich habe es völlig vergessen."
+      },
+      {
+        "japanese": "すっかり忘れていました。",
+        "romaji": "Sukkari wasurete imashita.",
+        "german": "Ich hatte es völlig vergessen."
       }
     ]
   },
@@ -10740,6 +13895,11 @@ window.VOCAB_N5 = [
         "japanese": "この服はぴったりです。",
         "romaji": "Kono fuku wa pittari desu.",
         "german": "Dieses Kleidungsstück passt genau."
+      },
+      {
+        "japanese": "この靴はぴったりです。",
+        "romaji": "Kono kutsu wa pittari desu.",
+        "german": "Diese Schuhe passen genau."
       }
     ]
   },
@@ -10757,6 +13917,11 @@ window.VOCAB_N5 = [
         "japanese": "のんびり過ごしました。",
         "romaji": "Nonbiri sugoshimashita.",
         "german": "Ich habe den Tag gemütlich verbracht."
+      },
+      {
+        "japanese": "休みの日はのんびり過ごします。",
+        "romaji": "Yasumi no hi wa nonbiri sugoshimasu.",
+        "german": "An freien Tagen verbringe ich die Zeit gemütlich."
       }
     ]
   },
@@ -10770,6 +13935,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Eigenschaften",
     "examples": [
+      {
+        "japanese": "はっきり言ってください。",
+        "romaji": "Hakkiri itte kudasai.",
+        "german": "Bitte sagen Sie es deutlich."
+      },
       {
         "japanese": "はっきり言ってください。",
         "romaji": "Hakkiri itte kudasai.",
@@ -10791,6 +13961,11 @@ window.VOCAB_N5 = [
         "japanese": "ちゃんと食べてください。",
         "romaji": "Chanto tabete kudasai.",
         "german": "Bitte essen Sie ordentlich."
+      },
+      {
+        "japanese": "ちゃんと宿題をしなさい。",
+        "romaji": "Chanto shukudai o shinasai.",
+        "german": "Mach deine Hausaufgaben ordentlich."
       }
     ]
   },
@@ -10808,6 +13983,11 @@ window.VOCAB_N5 = [
         "japanese": "なるべく早く来てください。",
         "romaji": "Narubeku hayaku kite kudasai.",
         "german": "Bitte kommen Sie so früh wie möglich."
+      },
+      {
+        "japanese": "なるべく早く来てください。",
+        "romaji": "Narubeku hayaku kite kudasai.",
+        "german": "Bitte kommen Sie möglichst früh."
       }
     ]
   },
@@ -10821,6 +14001,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Wohnen",
     "examples": [
+      {
+        "japanese": "部屋を片付けてください。",
+        "romaji": "Heya o katazukete kudasai.",
+        "german": "Bitte räumen Sie das Zimmer auf."
+      },
       {
         "japanese": "部屋を片付けてください。",
         "romaji": "Heya o katazukete kudasai.",
@@ -10842,6 +14027,11 @@ window.VOCAB_N5 = [
         "japanese": "ゴミを捨てます。",
         "romaji": "Gomi o sutemasu.",
         "german": "Ich werfe den Müll weg."
+      },
+      {
+        "japanese": "古い新聞を捨ててください。",
+        "romaji": "Furui shinbun o sutete kudasai.",
+        "german": "Bitte werfen Sie die alten Zeitungen weg."
       }
     ]
   },
@@ -10859,6 +14049,11 @@ window.VOCAB_N5 = [
         "japanese": "財布を拾いました。",
         "romaji": "Saifu o hiroimashita.",
         "german": "Ich habe ein Portemonnaie aufgehoben."
+      },
+      {
+        "japanese": "道でお金を拾いました。",
+        "romaji": "Michi de okane o hiroimashita.",
+        "german": "Ich habe auf der Straße Geld aufgehoben."
       }
     ]
   },
@@ -10876,6 +14071,11 @@ window.VOCAB_N5 = [
         "japanese": "日本の生活に慣れました。",
         "romaji": "Nihon no seikatsu ni naremashita.",
         "german": "Ich habe mich an das Leben in Japan gewöhnt."
+      },
+      {
+        "japanese": "日本の生活に慣れましたか。",
+        "romaji": "Nihon no seikatsu ni naremashita ka.",
+        "german": "Haben Sie sich an das Leben in Japan gewöhnt?"
       }
     ]
   },
@@ -10893,6 +14093,11 @@ window.VOCAB_N5 = [
         "japanese": "お母さんに似ています。",
         "romaji": "Okaasan ni nite imasu.",
         "german": "Du ähnelst deiner Mutter."
+      },
+      {
+        "japanese": "この二人はよく似ていますね。",
+        "romaji": "Kono futari wa yoku nite imasu ne.",
+        "german": "Diese zwei Personen sehen sich sehr ähnlich, nicht wahr?"
       }
     ]
   },
@@ -10906,6 +14111,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "天気が変わりました。",
+        "romaji": "Tenki ga kawarimashita.",
+        "german": "Das Wetter hat sich geändert."
+      },
       {
         "japanese": "天気が変わりました。",
         "romaji": "Tenki ga kawarimashita.",
@@ -10927,6 +14137,11 @@ window.VOCAB_N5 = [
         "japanese": "何にするか決めましたか。",
         "romaji": "Nani ni suru ka kimemashita ka.",
         "german": "Haben Sie sich entschieden?"
+      },
+      {
+        "japanese": "旅行の日を決めましょう。",
+        "romaji": "Ryokou no hi o kimemashou.",
+        "german": "Lassen Sie uns den Reisetag festlegen."
       }
     ]
   },
@@ -10944,6 +14159,11 @@ window.VOCAB_N5 = [
         "japanese": "切手を集めています。",
         "romaji": "Kitte o atsumete imasu.",
         "german": "Ich sammle Briefmarken."
+      },
+      {
+        "japanese": "切手を集めるのが趣味です。",
+        "romaji": "Kitte o atsumeru no ga shumi desu.",
+        "german": "Briefmarken sammeln ist mein Hobby."
       }
     ]
   },
@@ -10961,6 +14181,11 @@ window.VOCAB_N5 = [
         "japanese": "窓を壊しました。",
         "romaji": "Mado o kowashimashita.",
         "german": "Ich habe das Fenster kaputtgemacht."
+      },
+      {
+        "japanese": "おもちゃを壊さないでください。",
+        "romaji": "Omocha o kowasanaide kudasai.",
+        "german": "Bitte machen Sie das Spielzeug nicht kaputt."
       }
     ]
   },
@@ -10974,6 +14199,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "パソコンが壊れました。",
+        "romaji": "Pasokon ga kowaremashita.",
+        "german": "Der Computer ist kaputtgegangen."
+      },
       {
         "japanese": "パソコンが壊れました。",
         "romaji": "Pasokon ga kowaremashita.",
@@ -10995,6 +14225,11 @@ window.VOCAB_N5 = [
         "japanese": "自転車を直します。",
         "romaji": "Jitensha o naoshimasu.",
         "german": "Ich repariere das Fahrrad."
+      },
+      {
+        "japanese": "時計を直してもらいました。",
+        "romaji": "Tokei o naoshite moraimashita.",
+        "german": "Ich habe die Uhr reparieren lassen."
       }
     ]
   },
@@ -11012,6 +14247,11 @@ window.VOCAB_N5 = [
         "japanese": "風邪が直りました。",
         "romaji": "Kaze ga naorimashita.",
         "german": "Die Erkältung ist geheilt."
+      },
+      {
+        "japanese": "風邪が直りましたか。",
+        "romaji": "Kaze ga naorimashita ka.",
+        "german": "Ist Ihre Erkältung geheilt?"
       }
     ]
   },
@@ -11025,6 +14265,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "洗濯物が乾きました。",
+        "romaji": "Sentakumono ga kawakimashita.",
+        "german": "Die Wäsche ist getrocknet."
+      },
       {
         "japanese": "洗濯物が乾きました。",
         "romaji": "Sentakumono ga kawakimashita.",
@@ -11046,6 +14291,11 @@ window.VOCAB_N5 = [
         "japanese": "雨で濡れました。",
         "romaji": "Ame de nuremashita.",
         "german": "Ich bin vom Regen nass geworden."
+      },
+      {
+        "japanese": "雨で服が濡れました。",
+        "romaji": "Ame de fuku ga nuremashita.",
+        "german": "Meine Kleidung wurde vom Regen nass."
       }
     ]
   },
@@ -11063,6 +14313,11 @@ window.VOCAB_N5 = [
         "japanese": "地震で揺れました。",
         "romaji": "Jishin de yuremashita.",
         "german": "Es hat beim Erdbeben gebebt."
+      },
+      {
+        "japanese": "地震で建物が揺れました。",
+        "romaji": "Jishin de tatemono ga yuremashita.",
+        "german": "Das Gebäude schwankte durch das Erdbeben."
       }
     ]
   },
@@ -11079,6 +14334,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "花が枯れました。",
         "romaji": "Hana ga karemashita.",
+        "german": "Die Blume ist verwelkt."
+      },
+      {
+        "japanese": "花が枯れてしまいました。",
+        "romaji": "Hana ga karete shimaimashita.",
         "german": "Die Blume ist verwelkt."
       }
     ]
@@ -11097,6 +14357,11 @@ window.VOCAB_N5 = [
         "japanese": "野菜を育てています。",
         "romaji": "Yasai o sodatete imasu.",
         "german": "Ich baue Gemüse an."
+      },
+      {
+        "japanese": "子供を育てるのは大変です。",
+        "romaji": "Kodomo o sodateru no wa taihen desu.",
+        "german": "Kinder großzuziehen ist anstrengend."
       }
     ]
   },
@@ -11114,6 +14379,11 @@ window.VOCAB_N5 = [
         "japanese": "花を植えました。",
         "romaji": "Hana o uemashita.",
         "german": "Ich habe Blumen gepflanzt."
+      },
+      {
+        "japanese": "庭に花を植えました。",
+        "romaji": "Niwa ni hana o uemashita.",
+        "german": "Ich habe Blumen im Garten gepflanzt."
       }
     ]
   },
@@ -11131,6 +14401,11 @@ window.VOCAB_N5 = [
         "japanese": "雪が溶けました。",
         "romaji": "Yuki ga tokemashita.",
         "german": "Der Schnee ist geschmolzen."
+      },
+      {
+        "japanese": "アイスクリームが溶けてしまいました。",
+        "romaji": "Aisukuriimu ga tokete shimaimashita.",
+        "german": "Das Eis ist geschmolzen."
       }
     ]
   },
@@ -11148,6 +14423,11 @@ window.VOCAB_N5 = [
         "japanese": "水が凍りました。",
         "romaji": "Mizu ga koorimashita.",
         "german": "Das Wasser ist gefroren."
+      },
+      {
+        "japanese": "冬になると湖が凍ります。",
+        "romaji": "Fuyu ni naru to mizuumi ga koorimasu.",
+        "german": "Im Winter gefriert der See."
       }
     ]
   },
@@ -11165,6 +14445,11 @@ window.VOCAB_N5 = [
         "japanese": "お湯が沸きました。",
         "romaji": "Oyu ga wakimashita.",
         "german": "Das Wasser kocht."
+      },
+      {
+        "japanese": "お湯が沸きました。",
+        "romaji": "Oyu ga wakimashita.",
+        "german": "Das Wasser hat gekocht."
       }
     ]
   },
@@ -11182,6 +14467,11 @@ window.VOCAB_N5 = [
         "japanese": "肉を焼きます。",
         "romaji": "Niku o yakimasu.",
         "german": "Ich brate das Fleisch."
+      },
+      {
+        "japanese": "肉を焼きましょう。",
+        "romaji": "Niku o yakimashou.",
+        "german": "Lass uns das Fleisch braten."
       }
     ]
   },
@@ -11198,6 +14488,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "野菜を煮ます。",
         "romaji": "Yasai o nimasu.",
+        "german": "Ich koche das Gemüse."
+      },
+      {
+        "japanese": "野菜を煮ています。",
+        "romaji": "Yasai o nite imasu.",
         "german": "Ich koche das Gemüse."
       }
     ]
@@ -11216,6 +14511,11 @@ window.VOCAB_N5 = [
         "japanese": "よく混ぜてください。",
         "romaji": "Yoku mazete kudasai.",
         "german": "Bitte gut umrühren."
+      },
+      {
+        "japanese": "サラダを混ぜてください。",
+        "romaji": "Sarada o mazete kudasai.",
+        "german": "Bitte rühren Sie den Salat um."
       }
     ]
   },
@@ -11233,6 +14533,11 @@ window.VOCAB_N5 = [
         "japanese": "プレゼントを包みます。",
         "romaji": "Purezento o tsutsumimasu.",
         "german": "Ich verpacke das Geschenk."
+      },
+      {
+        "japanese": "プレゼントを包みました。",
+        "romaji": "Purezento o tsutsumimashita.",
+        "german": "Ich habe das Geschenk eingepackt."
       }
     ]
   },
@@ -11250,6 +14555,11 @@ window.VOCAB_N5 = [
         "japanese": "一から十まで数えます。",
         "romaji": "Ichi kara juu made kazoemasu.",
         "german": "Ich zähle von eins bis zehn."
+      },
+      {
+        "japanese": "お金を数えてください。",
+        "romaji": "Okane o kazoete kudasai.",
+        "german": "Bitte zählen Sie das Geld."
       }
     ]
   },
@@ -11267,6 +14577,11 @@ window.VOCAB_N5 = [
         "japanese": "二つを比べます。",
         "romaji": "Futatsu o kurabemasu.",
         "german": "Ich vergleiche die beiden."
+      },
+      {
+        "japanese": "二つの値段を比べました。",
+        "romaji": "Futatsu no nedan o kurabemashita.",
+        "german": "Ich habe die zwei Preise verglichen."
       }
     ]
   },
@@ -11284,6 +14599,11 @@ window.VOCAB_N5 = [
         "japanese": "お辞儀をします。",
         "romaji": "Ojigi o shimasu.",
         "german": "Ich verbeuge mich."
+      },
+      {
+        "japanese": "日本ではお辞儀をします。",
+        "romaji": "Nihon de wa ojigi o shimasu.",
+        "german": "In Japan verbeugt man sich."
       }
     ]
   },
@@ -11301,6 +14621,11 @@ window.VOCAB_N5 = [
         "japanese": "挨拶をしましょう。",
         "romaji": "Aisatsu o shimashou.",
         "german": "Lasst uns grüßen."
+      },
+      {
+        "japanese": "朝、隣の人に挨拶しました。",
+        "romaji": "Asa, tonari no hito ni aisatsu shimashita.",
+        "german": "Morgens habe ich den Nachbarn gegrüßt."
       }
     ]
   },
@@ -11318,6 +14643,11 @@ window.VOCAB_N5 = [
         "japanese": "気持ちがいいです。",
         "romaji": "Kimochi ga ii desu.",
         "german": "Es fühlt sich gut an."
+      },
+      {
+        "japanese": "今日はいい気持ちです。",
+        "romaji": "Kyou wa ii kimochi desu.",
+        "german": "Heute fühle ich mich gut."
       }
     ]
   },
@@ -11335,6 +14665,11 @@ window.VOCAB_N5 = [
         "japanese": "心配しないでください。",
         "romaji": "Shinpai shinaide kudasai.",
         "german": "Bitte machen Sie sich keine Sorgen."
+      },
+      {
+        "japanese": "試験のことが心配です。",
+        "romaji": "Shiken no koto ga shinpai desu.",
+        "german": "Ich mache mir Sorgen um die Prüfung."
       }
     ]
   },
@@ -11352,6 +14687,11 @@ window.VOCAB_N5 = [
         "japanese": "安心しました。",
         "romaji": "Anshin shimashita.",
         "german": "Ich bin erleichtert."
+      },
+      {
+        "japanese": "テストが終わって安心しました。",
+        "romaji": "Tesuto ga owatte anshin shimashita.",
+        "german": "Ich war erleichtert, dass der Test vorbei war."
       }
     ]
   },
@@ -11369,6 +14709,11 @@ window.VOCAB_N5 = [
         "japanese": "我慢してください。",
         "romaji": "Gaman shite kudasai.",
         "german": "Bitte haben Sie Geduld."
+      },
+      {
+        "japanese": "もう少し我慢してください。",
+        "romaji": "Mou sukoshi gaman shite kudasai.",
+        "german": "Bitte haben Sie noch etwas Geduld."
       }
     ]
   },
@@ -11386,6 +14731,11 @@ window.VOCAB_N5 = [
         "japanese": "無理しないでください。",
         "romaji": "Muri shinaide kudasai.",
         "german": "Bitte überanstrengen Sie sich nicht."
+      },
+      {
+        "japanese": "それは無理です。",
+        "romaji": "Sore wa muri desu.",
+        "german": "Das ist unmöglich."
       }
     ]
   },
@@ -11403,6 +14753,11 @@ window.VOCAB_N5 = [
         "japanese": "特別な日です。",
         "romaji": "Tokubetsu na hi desu.",
         "german": "Es ist ein besonderer Tag."
+      },
+      {
+        "japanese": "今日は特別な日です。",
+        "romaji": "Kyou wa tokubetsu na hi desu.",
+        "german": "Heute ist ein besonderer Tag."
       }
     ]
   },
@@ -11420,6 +14775,11 @@ window.VOCAB_N5 = [
         "japanese": "普通の生活がしたいです。",
         "romaji": "Futsuu no seikatsu ga shitai desu.",
         "german": "Ich möchte ein normales Leben führen."
+      },
+      {
+        "japanese": "普通の生活が好きです。",
+        "romaji": "Futsuu no seikatsu ga suki desu.",
+        "german": "Ich mag ein normales Leben."
       }
     ]
   },
@@ -11437,6 +14797,11 @@ window.VOCAB_N5 = [
         "japanese": "反対側に行ってください。",
         "romaji": "Hantai gawa ni itte kudasai.",
         "german": "Bitte gehen Sie auf die andere Seite."
+      },
+      {
+        "japanese": "私は反対です。",
+        "romaji": "Watashi wa hantai desu.",
+        "german": "Ich bin dagegen."
       }
     ]
   },
@@ -11454,6 +14819,11 @@ window.VOCAB_N5 = [
         "japanese": "自由に使ってください。",
         "romaji": "Jiyuu ni tsukatte kudasai.",
         "german": "Bitte benutzen Sie es frei."
+      },
+      {
+        "japanese": "週末は自由な時間があります。",
+        "romaji": "Shuumatsu wa jiyuu na jikan ga arimasu.",
+        "german": "Am Wochenende habe ich freie Zeit."
       }
     ]
   },
@@ -11471,6 +14841,11 @@ window.VOCAB_N5 = [
         "japanese": "バス停はどこですか。",
         "romaji": "Basutei wa doko desu ka.",
         "german": "Wo ist die Bushaltestelle?"
+      },
+      {
+        "japanese": "バス停で待っています。",
+        "romaji": "Basutei de matte imasu.",
+        "german": "Ich warte an der Bushaltestelle."
       }
     ]
   },
@@ -11484,6 +14859,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Reisen",
     "examples": [
+      {
+        "japanese": "切符売り場はあちらです。",
+        "romaji": "Kippu uriba wa achira desu.",
+        "german": "Der Fahrkartenschalter ist dort drüben."
+      },
       {
         "japanese": "切符売り場はあちらです。",
         "romaji": "Kippu uriba wa achira desu.",
@@ -11505,6 +14885,11 @@ window.VOCAB_N5 = [
         "japanese": "改札口を通ります。",
         "romaji": "Kaisatsuguchi o toorimasu.",
         "german": "Ich gehe durch die Fahrkartenschranke."
+      },
+      {
+        "japanese": "改札口を通ってホームに行きます。",
+        "romaji": "Kaisatsuguchi o tootte hoomu ni ikimasu.",
+        "german": "Ich gehe durch die Fahrkartenschranke zum Bahnsteig."
       }
     ]
   },
@@ -11522,6 +14907,11 @@ window.VOCAB_N5 = [
         "japanese": "三番ホームに行ってください。",
         "romaji": "Sanban hoomu ni itte kudasai.",
         "german": "Bitte gehen Sie zu Bahnsteig 3."
+      },
+      {
+        "japanese": "電車は三番ホームに来ます。",
+        "romaji": "Densha wa sanban hoomu ni kimasu.",
+        "german": "Der Zug kommt an Gleis drei."
       }
     ]
   },
@@ -11539,6 +14929,11 @@ window.VOCAB_N5 = [
         "japanese": "どの乗り物で行きますか。",
         "romaji": "Dono norimono de ikimasu ka.",
         "german": "Mit welchem Verkehrsmittel fahren Sie?"
+      },
+      {
+        "japanese": "どの乗り物が好きですか。",
+        "romaji": "Dono norimono ga suki desu ka.",
+        "german": "Welches Verkehrsmittel mögen Sie?"
       }
     ]
   },
@@ -11556,6 +14951,11 @@ window.VOCAB_N5 = [
         "japanese": "歩道橋を渡ってください。",
         "romaji": "Hodoukyou o watatte kudasai.",
         "german": "Bitte benutzen Sie die Fußgängerbrücke."
+      },
+      {
+        "japanese": "歩道橋を渡ってください。",
+        "romaji": "Hodoukyou o watatte kudasai.",
+        "german": "Bitte gehen Sie über die Fußgängerbrücke."
       }
     ]
   },
@@ -11573,6 +14973,11 @@ window.VOCAB_N5 = [
         "japanese": "駐輪場に自転車を止めます。",
         "romaji": "Chuurinjou ni jitensha o tomemasu.",
         "german": "Ich stelle das Fahrrad am Fahrradparkplatz ab."
+      },
+      {
+        "japanese": "駐輪場に自転車を止めてください。",
+        "romaji": "Chuurinjou ni jitensha o tomete kudasai.",
+        "german": "Bitte stellen Sie Ihr Fahrrad auf dem Fahrradparkplatz ab."
       }
     ]
   },
@@ -11590,6 +14995,11 @@ window.VOCAB_N5 = [
         "japanese": "踏切で待ちます。",
         "romaji": "Fumikiri de machimasu.",
         "german": "Ich warte am Bahnübergang."
+      },
+      {
+        "japanese": "踏切で電車を待ちましょう。",
+        "romaji": "Fumikiri de densha o machimashou.",
+        "german": "Lass uns am Bahnübergang auf den Zug warten."
       }
     ]
   },
@@ -11607,6 +15017,11 @@ window.VOCAB_N5 = [
         "japanese": "商店街で買い物します。",
         "romaji": "Shoutengai de kaimono shimasu.",
         "german": "Ich kaufe in der Einkaufsstraße ein."
+      },
+      {
+        "japanese": "商店街で買い物をしました。",
+        "romaji": "Shoutengai de kaimono o shimashita.",
+        "german": "Ich habe in der Einkaufsstraße eingekauft."
       }
     ]
   },
@@ -11620,6 +15035,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Körper",
     "examples": [
+      {
+        "japanese": "背中が痛いです。",
+        "romaji": "Senaka ga itai desu.",
+        "german": "Mein Rücken tut weh."
+      },
       {
         "japanese": "背中が痛いです。",
         "romaji": "Senaka ga itai desu.",
@@ -11641,6 +15061,11 @@ window.VOCAB_N5 = [
         "japanese": "腰が痛いです。",
         "romaji": "Koshi ga itai desu.",
         "german": "Meine Hüfte tut weh."
+      },
+      {
+        "japanese": "腰が痛いので休みます。",
+        "romaji": "Koshi ga itai node yasumimasu.",
+        "german": "Meine Hüfte tut weh, deshalb ruhe ich mich aus."
       }
     ]
   },
@@ -11657,6 +15082,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "足首を捻りました。",
         "romaji": "Ashikubi o hineri mashita.",
+        "german": "Ich habe mir den Knöchel verstaucht."
+      },
+      {
+        "japanese": "足首をひねりました。",
+        "romaji": "Ashikubi o hinerimashita.",
         "german": "Ich habe mir den Knöchel verstaucht."
       }
     ]
@@ -11675,6 +15105,11 @@ window.VOCAB_N5 = [
         "japanese": "爪を切ります。",
         "romaji": "Tsume o kirimasu.",
         "german": "Ich schneide mir die Nägel."
+      },
+      {
+        "japanese": "爪を切らなければなりません。",
+        "romaji": "Tsume o kiranakereba narimasen.",
+        "german": "Ich muss mir die Nägel schneiden."
       }
     ]
   },
@@ -11692,6 +15127,11 @@ window.VOCAB_N5 = [
         "japanese": "皮膚が乾燥しています。",
         "romaji": "Hifu ga kansou shite imasu.",
         "german": "Die Haut ist trocken."
+      },
+      {
+        "japanese": "皮膚が乾燥しています。",
+        "romaji": "Hifu ga kansou shite imasu.",
+        "german": "Meine Haut ist trocken."
       }
     ]
   },
@@ -11709,6 +15149,11 @@ window.VOCAB_N5 = [
         "japanese": "血が出ています。",
         "romaji": "Chi ga dete imasu.",
         "german": "Es blutet."
+      },
+      {
+        "japanese": "指を切って血が出ました。",
+        "romaji": "Yubi o kitte chi ga demashita.",
+        "german": "Ich habe mir in den Finger geschnitten und es hat geblutet."
       }
     ]
   },
@@ -11726,6 +15171,11 @@ window.VOCAB_N5 = [
         "japanese": "涙が出ました。",
         "romaji": "Namida ga demashita.",
         "german": "Mir kamen die Tränen."
+      },
+      {
+        "japanese": "映画を見て涙が出ました。",
+        "romaji": "Eiga o mite namida ga demashita.",
+        "german": "Beim Film kamen mir die Tränen."
       }
     ]
   },
@@ -11743,6 +15193,11 @@ window.VOCAB_N5 = [
         "japanese": "汗をかきました。",
         "romaji": "Ase o kakimashita.",
         "german": "Ich habe geschwitzt."
+      },
+      {
+        "japanese": "運動して汗をかきました。",
+        "romaji": "Undou shite ase o kakimashita.",
+        "german": "Ich habe Sport gemacht und geschwitzt."
       }
     ]
   },
@@ -11760,6 +15215,11 @@ window.VOCAB_N5 = [
         "japanese": "息が苦しいです。",
         "romaji": "Iki ga kurushii desu.",
         "german": "Es fällt mir schwer zu atmen."
+      },
+      {
+        "japanese": "深く息をしてください。",
+        "romaji": "Fukaku iki o shite kudasai.",
+        "german": "Bitte atmen Sie tief ein."
       }
     ]
   },
@@ -11773,6 +15233,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Körper",
     "examples": [
+      {
+        "japanese": "咳が止まりません。",
+        "romaji": "Seki ga tomarimasen.",
+        "german": "Der Husten hört nicht auf."
+      },
       {
         "japanese": "咳が止まりません。",
         "romaji": "Seki ga tomarimasen.",
@@ -11794,6 +15259,11 @@ window.VOCAB_N5 = [
         "japanese": "怪我をしました。",
         "romaji": "Kega o shimashita.",
         "german": "Ich habe mich verletzt."
+      },
+      {
+        "japanese": "サッカーで怪我をしました。",
+        "romaji": "Sakkaa de kega o shimashita.",
+        "german": "Ich habe mich beim Fußball verletzt."
       }
     ]
   },
@@ -11811,6 +15281,11 @@ window.VOCAB_N5 = [
         "japanese": "親に感謝します。",
         "romaji": "Oya ni kansha shimasu.",
         "german": "Ich bin meinen Eltern dankbar."
+      },
+      {
+        "japanese": "親に電話をかけます。",
+        "romaji": "Oya ni denwa o kakemasu.",
+        "german": "Ich rufe meine Eltern an."
       }
     ]
   },
@@ -11828,6 +15303,11 @@ window.VOCAB_N5 = [
         "japanese": "祖父は元気です。",
         "romaji": "Sofu wa genki desu.",
         "german": "Mein Großvater ist gesund."
+      },
+      {
+        "japanese": "祖父は八十歳です。",
+        "romaji": "Sofu wa hachijussai desu.",
+        "german": "Mein Großvater ist achtzig Jahre alt."
       }
     ]
   },
@@ -11845,6 +15325,11 @@ window.VOCAB_N5 = [
         "japanese": "祖母の家に行きます。",
         "romaji": "Sobo no ie ni ikimasu.",
         "german": "Ich gehe zum Haus meiner Großmutter."
+      },
+      {
+        "japanese": "祖母の料理がおいしいです。",
+        "romaji": "Sobo no ryouri ga oishii desu.",
+        "german": "Das Essen meiner Großmutter ist lecker."
       }
     ]
   },
@@ -11858,6 +15343,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Familie",
     "examples": [
+      {
+        "japanese": "孫が三人います。",
+        "romaji": "Mago ga sannin imasu.",
+        "german": "Ich habe drei Enkelkinder."
+      },
       {
         "japanese": "孫が三人います。",
         "romaji": "Mago ga sannin imasu.",
@@ -11879,6 +15369,11 @@ window.VOCAB_N5 = [
         "japanese": "従兄弟と遊びました。",
         "romaji": "Itoko to asobimashita.",
         "german": "Ich habe mit meinem Cousin gespielt."
+      },
+      {
+        "japanese": "従兄弟と遊びました。",
+        "romaji": "Itoko to asobimashita.",
+        "german": "Ich habe mit meinem Cousin gespielt."
       }
     ]
   },
@@ -11896,6 +15391,11 @@ window.VOCAB_N5 = [
         "japanese": "甥が来ました。",
         "romaji": "Oi ga kimashita.",
         "german": "Mein Neffe ist gekommen."
+      },
+      {
+        "japanese": "甥は五歳です。",
+        "romaji": "Oi wa gosai desu.",
+        "german": "Mein Neffe ist fünf Jahre alt."
       }
     ]
   },
@@ -11913,6 +15413,11 @@ window.VOCAB_N5 = [
         "japanese": "姪は五歳です。",
         "romaji": "Mei wa gosai desu.",
         "german": "Meine Nichte ist fünf Jahre alt."
+      },
+      {
+        "japanese": "姪にプレゼントをあげました。",
+        "romaji": "Mei ni purezento o agemashita.",
+        "german": "Ich habe meiner Nichte ein Geschenk gegeben."
       }
     ]
   },
@@ -11930,6 +15435,11 @@ window.VOCAB_N5 = [
         "japanese": "まだ独身です。",
         "romaji": "Mada dokushin desu.",
         "german": "Ich bin noch ledig."
+      },
+      {
+        "japanese": "田中さんはまだ独身です。",
+        "romaji": "Tanaka-san wa mada dokushin desu.",
+        "german": "Herr Tanaka ist noch ledig."
       }
     ]
   },
@@ -11947,6 +15457,11 @@ window.VOCAB_N5 = [
         "japanese": "仲の良い夫婦です。",
         "romaji": "Naka no yoi fuufu desu.",
         "german": "Es ist ein harmonisches Ehepaar."
+      },
+      {
+        "japanese": "あの夫婦はとても仲がいいです。",
+        "romaji": "Ano fuufu wa totemo naka ga ii desu.",
+        "german": "Dieses Ehepaar versteht sich sehr gut."
       }
     ]
   },
@@ -11964,6 +15479,11 @@ window.VOCAB_N5 = [
         "japanese": "双子の兄弟です。",
         "romaji": "Futago no kyoudai desu.",
         "german": "Es sind Zwillingsbrüder."
+      },
+      {
+        "japanese": "あの子たちは双子です。",
+        "romaji": "Ano kotachi wa futago desu.",
+        "german": "Diese Kinder sind Zwillinge."
       }
     ]
   },
@@ -11981,6 +15501,11 @@ window.VOCAB_N5 = [
         "japanese": "赤ちゃんが生まれました。",
         "romaji": "Akachan ga umaremashita.",
         "german": "Ein Baby wurde geboren."
+      },
+      {
+        "japanese": "赤ちゃんが泣いています。",
+        "romaji": "Akachan ga naite imasu.",
+        "german": "Das Baby weint."
       }
     ]
   },
@@ -11998,6 +15523,11 @@ window.VOCAB_N5 = [
         "japanese": "大人になりたいです。",
         "romaji": "Otona ni naritai desu.",
         "german": "Ich möchte erwachsen werden."
+      },
+      {
+        "japanese": "大人は千円です。",
+        "romaji": "Otona wa sen'en desu.",
+        "german": "Für Erwachsene kostet es tausend Yen."
       }
     ]
   },
@@ -12015,6 +15545,11 @@ window.VOCAB_N5 = [
         "japanese": "若者に人気があります。",
         "romaji": "Wakamono ni ninki ga arimasu.",
         "german": "Es ist bei jungen Leuten beliebt."
+      },
+      {
+        "japanese": "若者に人気のあるお店です。",
+        "romaji": "Wakamono ni ninki no aru omise desu.",
+        "german": "Ein bei jungen Leuten beliebtes Geschäft."
       }
     ]
   },
@@ -12032,6 +15567,11 @@ window.VOCAB_N5 = [
         "japanese": "老人ホームに行きます。",
         "romaji": "Roujin hoomu ni ikimasu.",
         "german": "Ich gehe ins Altersheim."
+      },
+      {
+        "japanese": "老人ホームで働いています。",
+        "romaji": "Roujin hoomu de hataraite imasu.",
+        "german": "Ich arbeite in einem Altersheim."
       }
     ]
   },
@@ -12049,6 +15589,11 @@ window.VOCAB_N5 = [
         "japanese": "男性の方ですか。",
         "romaji": "Dansei no kata desu ka.",
         "german": "Sind Sie ein Mann?"
+      },
+      {
+        "japanese": "あの男性は田中さんです。",
+        "romaji": "Ano dansei wa Tanaka-san desu.",
+        "german": "Jener Mann ist Herr Tanaka."
       }
     ]
   },
@@ -12066,6 +15611,11 @@ window.VOCAB_N5 = [
         "japanese": "女性の先生です。",
         "romaji": "Josei no sensei desu.",
         "german": "Es ist eine Lehrerin."
+      },
+      {
+        "japanese": "あの女性はとても親切です。",
+        "romaji": "Ano josei wa totemo shinsetsu desu.",
+        "german": "Jene Frau ist sehr freundlich."
       }
     ]
   },
@@ -12083,6 +15633,11 @@ window.VOCAB_N5 = [
         "japanese": "お客さんが来ました。",
         "romaji": "Okyaku san ga kimashita.",
         "german": "Ein Gast ist gekommen."
+      },
+      {
+        "japanese": "お客さんがたくさん来ました。",
+        "romaji": "Okyakusan ga takusan kimashita.",
+        "german": "Es sind viele Gäste gekommen."
       }
     ]
   },
@@ -12100,6 +15655,11 @@ window.VOCAB_N5 = [
         "japanese": "店員に聞いてください。",
         "romaji": "Tenin ni kiite kudasai.",
         "german": "Bitte fragen Sie die Verkäuferin."
+      },
+      {
+        "japanese": "店員さんに聞いてください。",
+        "romaji": "Ten'in-san ni kiite kudasai.",
+        "german": "Bitte fragen Sie den Verkäufer."
       }
     ]
   },
@@ -12117,6 +15677,11 @@ window.VOCAB_N5 = [
         "japanese": "タクシーの運転手です。",
         "romaji": "Takushii no untenshu desu.",
         "german": "Er ist ein Taxifahrer."
+      },
+      {
+        "japanese": "バスの運転手さんに聞きました。",
+        "romaji": "Basu no untenshu-san ni kikimashita.",
+        "german": "Ich habe den Busfahrer gefragt."
       }
     ]
   },
@@ -12134,6 +15699,11 @@ window.VOCAB_N5 = [
         "japanese": "看護師になりたいです。",
         "romaji": "Kangoshi ni naritai desu.",
         "german": "Ich möchte Krankenschwester werden."
+      },
+      {
+        "japanese": "看護師さんが優しかったです。",
+        "romaji": "Kangoshi-san ga yasashikatta desu.",
+        "german": "Die Krankenschwester war freundlich."
       }
     ]
   },
@@ -12151,6 +15721,11 @@ window.VOCAB_N5 = [
         "japanese": "警察官に聞きました。",
         "romaji": "Keisatsukan ni kikimashita.",
         "german": "Ich habe den Polizisten gefragt."
+      },
+      {
+        "japanese": "警察官に道を聞きました。",
+        "romaji": "Keisatsukan ni michi o kikimashita.",
+        "german": "Ich habe den Polizisten nach dem Weg gefragt."
       }
     ]
   },
@@ -12168,6 +15743,11 @@ window.VOCAB_N5 = [
         "japanese": "消防士が助けてくれました。",
         "romaji": "Shouboushi ga tasukete kuremashita.",
         "german": "Der Feuerwehrmann hat mir geholfen."
+      },
+      {
+        "japanese": "消防士になりたい子供が多いです。",
+        "romaji": "Shoubou shi ni naritai kodomo ga ooi desu.",
+        "german": "Viele Kinder möchten Feuerwehrmann werden."
       }
     ]
   },
@@ -12185,6 +15765,11 @@ window.VOCAB_N5 = [
         "japanese": "農家の人が野菜を売っています。",
         "romaji": "Nouka no hito ga yasai o utte imasu.",
         "german": "Der Bauer verkauft Gemüse."
+      },
+      {
+        "japanese": "祖父は農家です。",
+        "romaji": "Sofu wa nouka desu.",
+        "german": "Mein Großvater ist Bauer."
       }
     ]
   },
@@ -12202,6 +15787,11 @@ window.VOCAB_N5 = [
         "japanese": "大工さんが家を建てます。",
         "romaji": "Daiku san ga ie o tatemasu.",
         "german": "Der Zimmermann baut ein Haus."
+      },
+      {
+        "japanese": "大工さんが家を建てました。",
+        "romaji": "Daiku-san ga ie o tatemashita.",
+        "german": "Der Zimmermann hat ein Haus gebaut."
       }
     ]
   },
@@ -12219,6 +15809,11 @@ window.VOCAB_N5 = [
         "japanese": "仲間と一緒に頑張ります。",
         "romaji": "Nakama to issho ni ganbarimasu.",
         "german": "Ich gebe mit meinen Kameraden mein Bestes."
+      },
+      {
+        "japanese": "仲間と一緒に頑張ります。",
+        "romaji": "Nakama to issho ni ganbarimasu.",
+        "german": "Ich gebe zusammen mit meinen Kameraden mein Bestes."
       }
     ]
   },
@@ -12232,6 +15827,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Menschen",
     "examples": [
+      {
+        "japanese": "先輩に教えてもらいました。",
+        "romaji": "Senpai ni oshiete moraimashita.",
+        "german": "Ich habe es von meinem Senpai gelernt."
+      },
       {
         "japanese": "先輩に教えてもらいました。",
         "romaji": "Senpai ni oshiete moraimashita.",
@@ -12253,6 +15853,11 @@ window.VOCAB_N5 = [
         "japanese": "後輩の面倒を見ます。",
         "romaji": "Kouhai no mendou o mimasu.",
         "german": "Ich kümmere mich um meine jüngeren Kollegen."
+      },
+      {
+        "japanese": "後輩の面倒を見ます。",
+        "romaji": "Kouhai no mendou o mimasu.",
+        "german": "Ich kümmere mich um die Jüngeren."
       }
     ]
   },
@@ -12270,6 +15875,11 @@ window.VOCAB_N5 = [
         "japanese": "上司に報告します。",
         "romaji": "Joushi ni houkoku shimasu.",
         "german": "Ich berichte meinem Vorgesetzten."
+      },
+      {
+        "japanese": "上司に報告しました。",
+        "romaji": "Joushi ni houkoku shimashita.",
+        "german": "Ich habe dem Vorgesetzten Bericht erstattet."
       }
     ]
   },
@@ -12287,6 +15897,11 @@ window.VOCAB_N5 = [
         "japanese": "部下を育てます。",
         "romaji": "Buka o sodatemasu.",
         "german": "Ich fördere meine Mitarbeiter."
+      },
+      {
+        "japanese": "部下に仕事を頼みました。",
+        "romaji": "Buka ni shigoto o tanomimashita.",
+        "german": "Ich habe dem Untergebenen eine Aufgabe gegeben."
       }
     ]
   },
@@ -12304,6 +15919,11 @@ window.VOCAB_N5 = [
         "japanese": "同僚と昼ご飯を食べます。",
         "romaji": "Douryou to hirugohan o tabemasu.",
         "german": "Ich esse mit Kollegen zu Mittag."
+      },
+      {
+        "japanese": "同僚と昼ごはんを食べます。",
+        "romaji": "Douryou to hirugohan o tabemasu.",
+        "german": "Ich esse mit meinem Kollegen zu Mittag."
       }
     ]
   },
@@ -12321,6 +15941,11 @@ window.VOCAB_N5 = [
         "japanese": "社長にお会いしました。",
         "romaji": "Shachou ni oai shimashita.",
         "german": "Ich habe den Firmenchef getroffen."
+      },
+      {
+        "japanese": "社長はとても忙しいです。",
+        "romaji": "Shachou wa totemo isogashii desu.",
+        "german": "Der Firmenchef ist sehr beschäftigt."
       }
     ]
   },
@@ -12338,6 +15963,11 @@ window.VOCAB_N5 = [
         "japanese": "会社員として働いています。",
         "romaji": "Kaishain to shite hataraite imasu.",
         "german": "Ich arbeite als Firmenangestellter."
+      },
+      {
+        "japanese": "父は会社員です。",
+        "romaji": "Chichi wa kaishain desu.",
+        "german": "Mein Vater ist Firmenangestellter."
       }
     ]
   },
@@ -12355,6 +15985,11 @@ window.VOCAB_N5 = [
         "japanese": "公務員になりたいです。",
         "romaji": "Koumuin ni naritai desu.",
         "german": "Ich möchte Beamter werden."
+      },
+      {
+        "japanese": "兄は公務員です。",
+        "romaji": "Ani wa koumuin desu.",
+        "german": "Mein älterer Bruder ist Beamter."
       }
     ]
   },
@@ -12372,6 +16007,11 @@ window.VOCAB_N5 = [
         "japanese": "給料日は25日です。",
         "romaji": "Kyuuryoubi wa nijuugonichi desu.",
         "german": "Der Zahltag ist am 25."
+      },
+      {
+        "japanese": "来月から給料が上がります。",
+        "romaji": "Raigetsu kara kyuuryou ga agarimasu.",
+        "german": "Ab nächstem Monat steigt das Gehalt."
       }
     ]
   },
@@ -12389,6 +16029,11 @@ window.VOCAB_N5 = [
         "japanese": "休憩しましょう。",
         "romaji": "Kyuukei shimashou.",
         "german": "Machen wir eine Pause."
+      },
+      {
+        "japanese": "少し休憩しましょう。",
+        "romaji": "Sukoshi kyuukei shimashou.",
+        "german": "Lass uns eine kurze Pause machen."
       }
     ]
   },
@@ -12406,6 +16051,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は残業です。",
         "romaji": "Kyou wa zangyou desu.",
         "german": "Heute mache ich Überstunden."
+      },
+      {
+        "japanese": "今日は残業しなければなりません。",
+        "romaji": "Kyou wa zangyou shinakereba narimasen.",
+        "german": "Heute muss ich Überstunden machen."
       }
     ]
   },
@@ -12423,6 +16073,11 @@ window.VOCAB_N5 = [
         "japanese": "通勤に一時間かかります。",
         "romaji": "Tsuukin ni ichijikan kakarimasu.",
         "german": "Das Pendeln dauert eine Stunde."
+      },
+      {
+        "japanese": "電車で通勤しています。",
+        "romaji": "Densha de tsuukin shite imasu.",
+        "german": "Ich pendle mit dem Zug zur Arbeit."
       }
     ]
   },
@@ -12440,6 +16095,11 @@ window.VOCAB_N5 = [
         "japanese": "三時から会議があります。",
         "romaji": "Sanji kara kaigi ga arimasu.",
         "german": "Ab drei Uhr gibt es eine Besprechung."
+      },
+      {
+        "japanese": "午後から会議があります。",
+        "romaji": "Gogo kara kaigi ga arimasu.",
+        "german": "Ab dem Nachmittag gibt es eine Besprechung."
       }
     ]
   },
@@ -12457,6 +16117,11 @@ window.VOCAB_N5 = [
         "japanese": "名刺を交換しましょう。",
         "romaji": "Meishi o koukan shimashou.",
         "german": "Tauschen wir Visitenkarten aus."
+      },
+      {
+        "japanese": "名刺を交換しましょう。",
+        "romaji": "Meishi o koukan shimashou.",
+        "german": "Lassen Sie uns Visitenkarten austauschen."
       }
     ]
   },
@@ -12474,6 +16139,11 @@ window.VOCAB_N5 = [
         "japanese": "書類にサインしてください。",
         "romaji": "Shorui ni sain shite kudasai.",
         "german": "Bitte unterschreiben Sie das Dokument."
+      },
+      {
+        "japanese": "この書類にサインしてください。",
+        "romaji": "Kono shorui ni sain shite kudasai.",
+        "german": "Bitte unterschreiben Sie dieses Dokument."
       }
     ]
   },
@@ -12491,6 +16161,11 @@ window.VOCAB_N5 = [
         "japanese": "レストランを予約しました。",
         "romaji": "Resutoran o yoyaku shimashita.",
         "german": "Ich habe das Restaurant reserviert."
+      },
+      {
+        "japanese": "レストランの予約をしました。",
+        "romaji": "Resutoran no yoyaku o shimashita.",
+        "german": "Ich habe eine Reservierung im Restaurant gemacht."
       }
     ]
   },
@@ -12504,6 +16179,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Alltag",
     "examples": [
+      {
+        "japanese": "届を出してください。",
+        "romaji": "Todoke o dashite kudasai.",
+        "german": "Bitte reichen Sie die Meldung ein."
+      },
       {
         "japanese": "届を出してください。",
         "romaji": "Todoke o dashite kudasai.",
@@ -12525,6 +16205,11 @@ window.VOCAB_N5 = [
         "japanese": "申込書を記入してください。",
         "romaji": "Moushikomisho o kinyuu shite kudasai.",
         "german": "Bitte füllen Sie das Formular aus."
+      },
+      {
+        "japanese": "申込書に記入してください。",
+        "romaji": "Moushikomisho ni kinyuu shite kudasai.",
+        "german": "Bitte füllen Sie das Antragsformular aus."
       }
     ]
   },
@@ -12542,6 +16227,11 @@ window.VOCAB_N5 = [
         "japanese": "お釣りをください。",
         "romaji": "Otsuri o kudasai.",
         "german": "Bitte geben Sie mir das Wechselgeld."
+      },
+      {
+        "japanese": "お釣りは三百円です。",
+        "romaji": "Otsuri wa sanbyaku en desu.",
+        "german": "Das Wechselgeld beträgt dreihundert Yen."
       }
     ]
   },
@@ -12559,6 +16249,11 @@ window.VOCAB_N5 = [
         "japanese": "値段はいくらですか。",
         "romaji": "Nedan wa ikura desu ka.",
         "german": "Wie viel kostet es?"
+      },
+      {
+        "japanese": "この値段は高いですね。",
+        "romaji": "Kono nedan wa takai desu ne.",
+        "german": "Dieser Preis ist hoch, nicht wahr?"
       }
     ]
   },
@@ -12576,6 +16271,11 @@ window.VOCAB_N5 = [
         "japanese": "割引はありますか。",
         "romaji": "Waribiki wa arimasu ka.",
         "german": "Gibt es einen Rabatt?"
+      },
+      {
+        "japanese": "今日は割引があります。",
+        "romaji": "Kyou wa waribiki ga arimasu.",
+        "german": "Heute gibt es einen Rabatt."
       }
     ]
   },
@@ -12593,6 +16293,11 @@ window.VOCAB_N5 = [
         "japanese": "包装してください。",
         "romaji": "Housou shite kudasai.",
         "german": "Bitte verpacken Sie es."
+      },
+      {
+        "japanese": "プレゼントの包装をお願いします。",
+        "romaji": "Purezento no housou o onegai shimasu.",
+        "german": "Bitte verpacken Sie das Geschenk."
       }
     ]
   },
@@ -12610,6 +16315,11 @@ window.VOCAB_N5 = [
         "japanese": "品物を選びます。",
         "romaji": "Shinamono o erabimasu.",
         "german": "Ich wähle die Ware aus."
+      },
+      {
+        "japanese": "この品物はいくらですか。",
+        "romaji": "Kono shinamono wa ikura desu ka.",
+        "german": "Wie viel kostet dieser Artikel?"
       }
     ]
   },
@@ -12627,6 +16337,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は曇りです。",
         "romaji": "Kyou wa kumori desu.",
         "german": "Heute ist es bewölkt."
+      },
+      {
+        "japanese": "今日は曇りですね。",
+        "romaji": "Kyou wa kumori desu ne.",
+        "german": "Heute ist es bewölkt, nicht wahr?"
       }
     ]
   },
@@ -12644,6 +16359,11 @@ window.VOCAB_N5 = [
         "japanese": "明日は晴れです。",
         "romaji": "Ashita wa hare desu.",
         "german": "Morgen wird es sonnig."
+      },
+      {
+        "japanese": "明日は晴れでしょう。",
+        "romaji": "Ashita wa hare deshou.",
+        "german": "Morgen wird es wohl sonnig."
       }
     ]
   },
@@ -12660,6 +16380,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "台風が来ます。",
         "romaji": "Taifuu ga kimasu.",
+        "german": "Ein Taifun kommt."
+      },
+      {
+        "japanese": "台風が来ています。",
+        "romaji": "Taifuu ga kite imasu.",
         "german": "Ein Taifun kommt."
       }
     ]
@@ -12678,6 +16403,11 @@ window.VOCAB_N5 = [
         "japanese": "梅雨の季節です。",
         "romaji": "Tsuyu no kisetsu desu.",
         "german": "Es ist Regenzeit."
+      },
+      {
+        "japanese": "六月は梅雨の季節です。",
+        "romaji": "Rokugatsu wa tsuyu no kisetsu desu.",
+        "german": "Juni ist die Regenzeit."
       }
     ]
   },
@@ -12695,6 +16425,11 @@ window.VOCAB_N5 = [
         "japanese": "どの季節が好きですか。",
         "romaji": "Dono kisetsu ga suki desu ka.",
         "german": "Welche Jahreszeit mögen Sie?"
+      },
+      {
+        "japanese": "日本には四つの季節があります。",
+        "romaji": "Nihon ni wa yottsu no kisetsu ga arimasu.",
+        "german": "In Japan gibt es vier Jahreszeiten."
       }
     ]
   },
@@ -12712,6 +16447,11 @@ window.VOCAB_N5 = [
         "japanese": "酢を少し入れます。",
         "romaji": "Su o sukoshi iremasu.",
         "german": "Ich gebe ein wenig Essig dazu."
+      },
+      {
+        "japanese": "酢を少し入れてください。",
+        "romaji": "Su o sukoshi irete kudasai.",
+        "german": "Bitte geben Sie etwas Essig hinzu."
       }
     ]
   },
@@ -12725,6 +16465,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Essen",
     "examples": [
+      {
+        "japanese": "小麦粉でパンを作ります。",
+        "romaji": "Komugiko de pan o tsukurimasu.",
+        "german": "Ich mache Brot aus Weizenmehl."
+      },
       {
         "japanese": "小麦粉でパンを作ります。",
         "romaji": "Komugiko de pan o tsukurimasu.",
@@ -12746,6 +16491,11 @@ window.VOCAB_N5 = [
         "japanese": "ケーキを食べましょう。",
         "romaji": "Keeki o tabemashou.",
         "german": "Lass uns Kuchen essen."
+      },
+      {
+        "japanese": "誕生日にケーキを作りました。",
+        "romaji": "Tanjoubi ni keeki o tsukurimashita.",
+        "german": "Zum Geburtstag habe ich einen Kuchen gebacken."
       }
     ]
   },
@@ -12763,6 +16513,11 @@ window.VOCAB_N5 = [
         "japanese": "味噌汁が温かいです。",
         "romaji": "Misoshiru ga atatakai desu.",
         "german": "Die Misosuppe ist warm."
+      },
+      {
+        "japanese": "毎朝味噌汁を飲みます。",
+        "romaji": "Maiasa misoshiru o nomimasu.",
+        "german": "Jeden Morgen trinke ich Misosuppe."
       }
     ]
   },
@@ -12780,6 +16535,11 @@ window.VOCAB_N5 = [
         "japanese": "おかずを作りました。",
         "romaji": "Okazu o tsukurimashita.",
         "german": "Ich habe Beilagen gemacht."
+      },
+      {
+        "japanese": "今日のおかずは何ですか。",
+        "romaji": "Kyou no okazu wa nan desu ka.",
+        "german": "Was ist heute die Beilage?"
       }
     ]
   },
@@ -12797,6 +16557,11 @@ window.VOCAB_N5 = [
         "japanese": "飴をなめます。",
         "romaji": "Ame o namemasu.",
         "german": "Ich lutsche ein Bonbon."
+      },
+      {
+        "japanese": "子供に飴をあげました。",
+        "romaji": "Kodomo ni ame o agemashita.",
+        "german": "Ich habe dem Kind ein Bonbon gegeben."
       }
     ]
   },
@@ -12814,6 +16579,11 @@ window.VOCAB_N5 = [
         "japanese": "煎餅を食べます。",
         "romaji": "Senbei o tabemasu.",
         "german": "Ich esse Reiscracker."
+      },
+      {
+        "japanese": "おじいさんが煎餅を食べています。",
+        "romaji": "Ojiisan ga senbei o tabete imasu.",
+        "german": "Der Großvater isst Reiscracker."
       }
     ]
   },
@@ -12827,6 +16597,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Essen",
     "examples": [
+      {
+        "japanese": "お正月に餅を食べます。",
+        "romaji": "Oshougatsu ni mochi o tabemasu.",
+        "german": "An Neujahr isst man Reiskuchen."
+      },
       {
         "japanese": "お正月に餅を食べます。",
         "romaji": "Oshougatsu ni mochi o tabemasu.",
@@ -12848,6 +16623,11 @@ window.VOCAB_N5 = [
         "japanese": "林檎を一つください。",
         "romaji": "Ringo o hitotsu kudasai.",
         "german": "Einen Apfel bitte."
+      },
+      {
+        "japanese": "林檎は赤いです。",
+        "romaji": "Ringo wa akai desu.",
+        "german": "Der Apfel ist rot."
       }
     ]
   },
@@ -12865,6 +16645,11 @@ window.VOCAB_N5 = [
         "japanese": "冬は蜜柑がおいしいです。",
         "romaji": "Fuyu wa mikan ga oishii desu.",
         "german": "Im Winter sind Mandarinen lecker."
+      },
+      {
+        "japanese": "冬に蜜柑をよく食べます。",
+        "romaji": "Fuyu ni mikan o yoku tabemasu.",
+        "german": "Im Winter esse ich oft Mandarinen."
       }
     ]
   },
@@ -12882,6 +16667,11 @@ window.VOCAB_N5 = [
         "japanese": "苺が好きです。",
         "romaji": "Ichigo ga suki desu.",
         "german": "Ich mag Erdbeeren."
+      },
+      {
+        "japanese": "苺のケーキを食べたいです。",
+        "romaji": "Ichigo no keeki o tabetai desu.",
+        "german": "Ich möchte Erdbeerkuchen essen."
       }
     ]
   },
@@ -12899,6 +16689,11 @@ window.VOCAB_N5 = [
         "japanese": "夏は西瓜を食べます。",
         "romaji": "Natsu wa suika o tabemasu.",
         "german": "Im Sommer esse ich Wassermelone."
+      },
+      {
+        "japanese": "夏は西瓜がおいしいです。",
+        "romaji": "Natsu wa suika ga oishii desu.",
+        "german": "Im Sommer sind Wassermelonen lecker."
       }
     ]
   },
@@ -12916,6 +16711,11 @@ window.VOCAB_N5 = [
         "japanese": "葡萄を買いました。",
         "romaji": "Budou o kaimashita.",
         "german": "Ich habe Trauben gekauft."
+      },
+      {
+        "japanese": "秋には葡萄がおいしいです。",
+        "romaji": "Aki ni wa budou ga oishii desu.",
+        "german": "Im Herbst sind Trauben lecker."
       }
     ]
   },
@@ -12933,6 +16733,11 @@ window.VOCAB_N5 = [
         "japanese": "桃がおいしいです。",
         "romaji": "Momo ga oishii desu.",
         "german": "Der Pfirsich ist lecker."
+      },
+      {
+        "japanese": "桃が大好きです。",
+        "romaji": "Momo ga daisuki desu.",
+        "german": "Ich liebe Pfirsiche."
       }
     ]
   },
@@ -12950,6 +16755,11 @@ window.VOCAB_N5 = [
         "japanese": "梨の季節です。",
         "romaji": "Nashi no kisetsu desu.",
         "german": "Es ist Birnensaison."
+      },
+      {
+        "japanese": "日本の梨は大きいです。",
+        "romaji": "Nihon no nashi wa ookii desu.",
+        "german": "Japanische Birnen sind groß."
       }
     ]
   },
@@ -12967,6 +16777,11 @@ window.VOCAB_N5 = [
         "japanese": "人参を切ります。",
         "romaji": "Ninjin o kirimasu.",
         "german": "Ich schneide die Karotte."
+      },
+      {
+        "japanese": "カレーに人参を入れます。",
+        "romaji": "Karee ni ninjin o iremasu.",
+        "german": "Ich tue Karotten in das Curry."
       }
     ]
   },
@@ -12984,6 +16799,11 @@ window.VOCAB_N5 = [
         "japanese": "玉葱を炒めます。",
         "romaji": "Tamanegi o itamemasu.",
         "german": "Ich brate die Zwiebel an."
+      },
+      {
+        "japanese": "玉葱を切ると涙が出ます。",
+        "romaji": "Tamanegi o kiru to namida ga demasu.",
+        "german": "Wenn man Zwiebeln schneidet, kommen einem die Tränen."
       }
     ]
   },
@@ -13001,6 +16821,11 @@ window.VOCAB_N5 = [
         "japanese": "大根おろしを作ります。",
         "romaji": "Daikon oroshi o tsukurimasu.",
         "german": "Ich mache geriebenen Rettich."
+      },
+      {
+        "japanese": "大根おろしが好きです。",
+        "romaji": "Daikon oroshi ga suki desu.",
+        "german": "Ich mag geriebenen Rettich."
       }
     ]
   },
@@ -13018,6 +16843,11 @@ window.VOCAB_N5 = [
         "japanese": "茄子を焼きます。",
         "romaji": "Nasu o yakimasu.",
         "german": "Ich grille die Aubergine."
+      },
+      {
+        "japanese": "茄子の天ぷらが好きです。",
+        "romaji": "Nasu no tempura ga suki desu.",
+        "german": "Ich mag Auberginen-Tempura."
       }
     ]
   },
@@ -13035,6 +16865,11 @@ window.VOCAB_N5 = [
         "japanese": "胡瓜のサラダを作ります。",
         "romaji": "Kyuuri no sarada o tsukurimasu.",
         "german": "Ich mache Gurkensalat."
+      },
+      {
+        "japanese": "サラダに胡瓜を入れます。",
+        "romaji": "Sarada ni kyuuri o iremasu.",
+        "german": "Ich tue Gurke in den Salat."
       }
     ]
   },
@@ -13052,6 +16887,11 @@ window.VOCAB_N5 = [
         "japanese": "豆腐を買います。",
         "romaji": "Toufu o kaimasu.",
         "german": "Ich kaufe Tofu."
+      },
+      {
+        "japanese": "味噌汁に豆腐を入れます。",
+        "romaji": "Misoshiru ni toufu o iremasu.",
+        "german": "Ich tue Tofu in die Misosuppe."
       }
     ]
   },
@@ -13069,6 +16909,11 @@ window.VOCAB_N5 = [
         "japanese": "海苔でおにぎりを包みます。",
         "romaji": "Nori de onigiri o tsutsumimasu.",
         "german": "Ich wickle das Onigiri in Seetang."
+      },
+      {
+        "japanese": "おにぎりに海苔を巻きます。",
+        "romaji": "Onigiri ni nori o makimasu.",
+        "german": "Ich wickle Seetang um den Reisball."
       }
     ]
   },
@@ -13086,6 +16931,11 @@ window.VOCAB_N5 = [
         "japanese": "南瓜の煮物を作ります。",
         "romaji": "Kabocha no nimono o tsukurimasu.",
         "german": "Ich mache geschmorten Kürbis."
+      },
+      {
+        "japanese": "南瓜のスープを作りました。",
+        "romaji": "Kabocha no suupu o tsukurimashita.",
+        "german": "Ich habe Kürbissuppe gemacht."
       }
     ]
   },
@@ -13103,6 +16953,11 @@ window.VOCAB_N5 = [
         "japanese": "白菜を鍋に入れます。",
         "romaji": "Hakusai o nabe ni iremasu.",
         "german": "Ich gebe Chinakohl in den Topf."
+      },
+      {
+        "japanese": "鍋に白菜を入れます。",
+        "romaji": "Nabe ni hakusai o iremasu.",
+        "german": "Ich tue Chinakohl in den Eintopf."
       }
     ]
   },
@@ -13120,6 +16975,11 @@ window.VOCAB_N5 = [
         "japanese": "葱を刻みます。",
         "romaji": "Negi o kizamimasu.",
         "german": "Ich hacke die Frühlingszwiebeln."
+      },
+      {
+        "japanese": "ラーメンに葱をのせます。",
+        "romaji": "Raamen ni negi o nosemasu.",
+        "german": "Ich lege Frühlingszwiebeln auf die Ramen."
       }
     ]
   },
@@ -13137,6 +16997,11 @@ window.VOCAB_N5 = [
         "japanese": "蓮根のきんぴらを作ります。",
         "romaji": "Renkon no kinpira o tsukurimasu.",
         "german": "Ich mache gebratene Lotuswurzel."
+      },
+      {
+        "japanese": "蓮根の天ぷらがおいしいです。",
+        "romaji": "Renkon no tempura ga oishii desu.",
+        "german": "Lotuswurzel-Tempura ist lecker."
       }
     ]
   },
@@ -13154,6 +17019,11 @@ window.VOCAB_N5 = [
         "japanese": "牛蒡をサラダにします。",
         "romaji": "Gobou o sarada ni shimasu.",
         "german": "Ich mache Salat mit Klettenwurzel."
+      },
+      {
+        "japanese": "牛蒡はきんぴらにします。",
+        "romaji": "Gobou wa kinpira ni shimasu.",
+        "german": "Klettenwurzel mache ich als Kinpira."
       }
     ]
   },
@@ -13171,6 +17041,11 @@ window.VOCAB_N5 = [
         "japanese": "椎茸を焼きます。",
         "romaji": "Shiitake o yakimasu.",
         "german": "Ich grille Shiitake-Pilze."
+      },
+      {
+        "japanese": "椎茸は秋に採れます。",
+        "romaji": "Shiitake wa aki ni toremasu.",
+        "german": "Shiitake-Pilze werden im Herbst geerntet."
       }
     ]
   },
@@ -13188,6 +17063,11 @@ window.VOCAB_N5 = [
         "japanese": "鍋料理を作りましょう。",
         "romaji": "Nabe ryouri o tsukurimashou.",
         "german": "Lass uns einen Eintopf machen."
+      },
+      {
+        "japanese": "冬は鍋料理がおいしいです。",
+        "romaji": "Fuyu wa nabe ryouri ga oishii desu.",
+        "german": "Im Winter ist Eintopf lecker."
       }
     ]
   },
@@ -13205,6 +17085,11 @@ window.VOCAB_N5 = [
         "japanese": "フライパンで炒めます。",
         "romaji": "Furaipan de itamemasu.",
         "german": "Ich brate in der Pfanne."
+      },
+      {
+        "japanese": "フライパンで卵を焼きます。",
+        "romaji": "Furaipan de tamago o yakimasu.",
+        "german": "Ich brate ein Ei in der Pfanne."
       }
     ]
   },
@@ -13222,6 +17107,11 @@ window.VOCAB_N5 = [
         "japanese": "まな板の上で切ります。",
         "romaji": "Manaita no ue de kirimasu.",
         "german": "Ich schneide auf dem Schneidebrett."
+      },
+      {
+        "japanese": "まな板の上で野菜を切ります。",
+        "romaji": "Manaita no ue de yasai o kirimasu.",
+        "german": "Ich schneide Gemüse auf dem Schneidebrett."
       }
     ]
   },
@@ -13239,6 +17129,11 @@ window.VOCAB_N5 = [
         "japanese": "包丁で切ります。",
         "romaji": "Houchou de kirimasu.",
         "german": "Ich schneide mit dem Küchenmesser."
+      },
+      {
+        "japanese": "包丁で魚を切ります。",
+        "romaji": "Houchou de sakana o kirimasu.",
+        "german": "Ich schneide den Fisch mit dem Küchenmesser."
       }
     ]
   },
@@ -13255,6 +17150,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "お玉でスープをすくいます。",
         "romaji": "Otama de suupu o sukuimasu.",
+        "german": "Ich schöpfe Suppe mit der Kelle."
+      },
+      {
+        "japanese": "お玉でスープをよそいます。",
+        "romaji": "Otama de suupu o yosoimasu.",
         "german": "Ich schöpfe Suppe mit der Kelle."
       }
     ]
@@ -13273,6 +17173,11 @@ window.VOCAB_N5 = [
         "japanese": "栓抜きはありますか。",
         "romaji": "Sennuki wa arimasu ka.",
         "german": "Haben Sie einen Flaschenöffner?"
+      },
+      {
+        "japanese": "栓抜きでビンを開けます。",
+        "romaji": "Sen'nuki de bin o akemasu.",
+        "german": "Ich öffne die Flasche mit dem Flaschenöffner."
       }
     ]
   },
@@ -13290,6 +17195,11 @@ window.VOCAB_N5 = [
         "japanese": "蛇口を閉めてください。",
         "romaji": "Jaguchi o shimete kudasai.",
         "german": "Bitte schließen Sie den Wasserhahn."
+      },
+      {
+        "japanese": "蛇口から水が出ません。",
+        "romaji": "Jaguchi kara mizu ga demasen.",
+        "german": "Aus dem Wasserhahn kommt kein Wasser."
       }
     ]
   },
@@ -13307,6 +17217,11 @@ window.VOCAB_N5 = [
         "japanese": "電球を替えます。",
         "romaji": "Denkyuu o kaemasu.",
         "german": "Ich wechsle die Glühbirne."
+      },
+      {
+        "japanese": "電球が切れました。",
+        "romaji": "Denkyuu ga kiremashita.",
+        "german": "Die Glühbirne ist durchgebrannt."
       }
     ]
   },
@@ -13320,6 +17235,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Wohnen",
     "examples": [
+      {
+        "japanese": "コンセントに差してください。",
+        "romaji": "Konsento ni sashite kudasai.",
+        "german": "Bitte stecken Sie es in die Steckdose."
+      },
       {
         "japanese": "コンセントに差してください。",
         "romaji": "Konsento ni sashite kudasai.",
@@ -13341,6 +17261,11 @@ window.VOCAB_N5 = [
         "japanese": "スイッチを入れてください。",
         "romaji": "Suitchi o irete kudasai.",
         "german": "Bitte schalten Sie es ein."
+      },
+      {
+        "japanese": "スイッチを押してください。",
+        "romaji": "Suitchi o oshite kudasai.",
+        "german": "Bitte drücken Sie den Schalter."
       }
     ]
   },
@@ -13358,6 +17283,11 @@ window.VOCAB_N5 = [
         "japanese": "掃除機をかけます。",
         "romaji": "Soujiki o kakemasu.",
         "german": "Ich sauge Staub."
+      },
+      {
+        "japanese": "掃除機で部屋を掃除します。",
+        "romaji": "Soujiki de heya o souji shimasu.",
+        "german": "Ich sauge das Zimmer mit dem Staubsauger."
       }
     ]
   },
@@ -13375,6 +17305,11 @@ window.VOCAB_N5 = [
         "japanese": "アイロンをかけます。",
         "romaji": "Airon o kakemasu.",
         "german": "Ich bügle."
+      },
+      {
+        "japanese": "アイロンでシャツをかけます。",
+        "romaji": "Airon de shatsu o kakemasu.",
+        "german": "Ich bügle das Hemd mit dem Bügeleisen."
       }
     ]
   },
@@ -13392,6 +17327,11 @@ window.VOCAB_N5 = [
         "japanese": "電子レンジで温めます。",
         "romaji": "Denshi renji de atatamemasu.",
         "german": "Ich wärme es in der Mikrowelle."
+      },
+      {
+        "japanese": "電子レンジで温めてください。",
+        "romaji": "Denshi renji de atatamete kudasai.",
+        "german": "Bitte wärmen Sie es in der Mikrowelle auf."
       }
     ]
   },
@@ -13405,6 +17345,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Wohnen",
     "examples": [
+      {
+        "japanese": "炊飯器でご飯を炊きます。",
+        "romaji": "Suihanki de gohan o takimasu.",
+        "german": "Ich koche Reis im Reiskocher."
+      },
       {
         "japanese": "炊飯器でご飯を炊きます。",
         "romaji": "Suihanki de gohan o takimasu.",
@@ -13426,6 +17371,11 @@ window.VOCAB_N5 = [
         "japanese": "物干しに洗濯物を干します。",
         "romaji": "Monohoshi ni sentakumono o hoshimasu.",
         "german": "Ich hänge die Wäsche auf den Ständer."
+      },
+      {
+        "japanese": "物干しに洗濯物を干します。",
+        "romaji": "Monohoshi ni sentakumono o hoshimasu.",
+        "german": "Ich hänge die Wäsche auf den Wäscheständer."
       }
     ]
   },
@@ -13443,6 +17393,11 @@ window.VOCAB_N5 = [
         "japanese": "洗面台で顔を洗います。",
         "romaji": "Senmendai de kao o araimasu.",
         "german": "Ich wasche mir das Gesicht am Waschbecken."
+      },
+      {
+        "japanese": "洗面台で顔を洗います。",
+        "romaji": "Senmendai de kao o araimasu.",
+        "german": "Ich wasche mir am Waschbecken das Gesicht."
       }
     ]
   },
@@ -13460,6 +17415,11 @@ window.VOCAB_N5 = [
         "japanese": "浴槽にお湯を入れます。",
         "romaji": "Yokusou ni oyu o iremasu.",
         "german": "Ich lasse Wasser in die Badewanne."
+      },
+      {
+        "japanese": "浴槽にお湯を入れます。",
+        "romaji": "Yokusou ni oyu o iremasu.",
+        "german": "Ich fülle die Badewanne mit heißem Wasser."
       }
     ]
   },
@@ -13477,6 +17437,11 @@ window.VOCAB_N5 = [
         "japanese": "便器を掃除します。",
         "romaji": "Benki o souji shimasu.",
         "german": "Ich putze die Toilette."
+      },
+      {
+        "japanese": "トイレの便器を掃除しました。",
+        "romaji": "Toire no benki o souji shimashita.",
+        "german": "Ich habe die Toilettenschüssel geputzt."
       }
     ]
   },
@@ -13494,6 +17459,11 @@ window.VOCAB_N5 = [
         "japanese": "ベランダで花を育てます。",
         "romaji": "Beranda de hana o sodatemasu.",
         "german": "Ich züchte Blumen auf dem Balkon."
+      },
+      {
+        "japanese": "ベランダで洗濯物を干します。",
+        "romaji": "Beranda de sentakumono o hoshimasu.",
+        "german": "Ich hänge die Wäsche auf dem Balkon auf."
       }
     ]
   },
@@ -13507,6 +17477,11 @@ window.VOCAB_N5 = [
     "level": "N5",
     "category": "Wohnen",
     "examples": [
+      {
+        "japanese": "カーテンを開けてください。",
+        "romaji": "Kaaten o akete kudasai.",
+        "german": "Bitte öffnen Sie den Vorhang."
+      },
       {
         "japanese": "カーテンを開けてください。",
         "romaji": "Kaaten o akete kudasai.",
@@ -13528,6 +17503,11 @@ window.VOCAB_N5 = [
         "japanese": "絨毯の上に座ります。",
         "romaji": "Juutan no ue ni suwarimasu.",
         "german": "Ich setze mich auf den Teppich."
+      },
+      {
+        "japanese": "新しい絨毯を買いました。",
+        "romaji": "Atarashii juutan o kaimashita.",
+        "german": "Ich habe einen neuen Teppich gekauft."
       }
     ]
   },
@@ -13545,6 +17525,11 @@ window.VOCAB_N5 = [
         "japanese": "花瓶に花を活けます。",
         "romaji": "Kabin ni hana o ikemasu.",
         "german": "Ich stelle Blumen in die Vase."
+      },
+      {
+        "japanese": "花瓶に花を入れました。",
+        "romaji": "Kabin ni hana o iremashita.",
+        "german": "Ich habe Blumen in die Vase gestellt."
       }
     ]
   },
@@ -13562,6 +17547,11 @@ window.VOCAB_N5 = [
         "japanese": "目覚まし時計をセットします。",
         "romaji": "Mezamashi dokei o setto shimasu.",
         "german": "Ich stelle den Wecker."
+      },
+      {
+        "japanese": "目覚まし時計が鳴りました。",
+        "romaji": "Mezamashi dokei ga narimashita.",
+        "german": "Der Wecker hat geklingelt."
       }
     ]
   },
@@ -13579,6 +17569,11 @@ window.VOCAB_N5 = [
         "japanese": "体温計で熱を測ります。",
         "romaji": "Taionkei de netsu o hakarimasu.",
         "german": "Ich messe mit dem Thermometer Fieber."
+      },
+      {
+        "japanese": "体温計で熱を測ります。",
+        "romaji": "Taionkei de netsu o hakarimasu.",
+        "german": "Ich messe die Temperatur mit dem Fieberthermometer."
       }
     ]
   },
@@ -13596,6 +17591,11 @@ window.VOCAB_N5 = [
         "japanese": "体重計に乗ります。",
         "romaji": "Taijuukei ni norimasu.",
         "german": "Ich steige auf die Waage."
+      },
+      {
+        "japanese": "毎朝体重計に乗ります。",
+        "romaji": "Maiasa taijuukei ni norimasu.",
+        "german": "Jeden Morgen stelle ich mich auf die Waage."
       }
     ]
   },
@@ -13612,6 +17612,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "毎日日記を書きます。",
         "romaji": "Mainichi nikki o kakimasu.",
+        "german": "Ich schreibe jeden Tag Tagebuch."
+      },
+      {
+        "japanese": "毎日日記を書いています。",
+        "romaji": "Mainichi nikki o kaite imasu.",
         "german": "Ich schreibe jeden Tag Tagebuch."
       }
     ]
@@ -13630,6 +17635,11 @@ window.VOCAB_N5 = [
         "japanese": "漫画を読むのが好きです。",
         "romaji": "Manga o yomu no ga suki desu.",
         "german": "Ich lese gerne Manga."
+      },
+      {
+        "japanese": "日本の漫画は面白いです。",
+        "romaji": "Nihon no manga wa omoshiroi desu.",
+        "german": "Japanische Manga sind interessant."
       }
     ]
   },
@@ -13647,6 +17657,11 @@ window.VOCAB_N5 = [
         "japanese": "小説を読んでいます。",
         "romaji": "Shousetsu o yonde imasu.",
         "german": "Ich lese einen Roman."
+      },
+      {
+        "japanese": "この小説を読んでいます。",
+        "romaji": "Kono shousetsu o yonde imasu.",
+        "german": "Ich lese diesen Roman."
       }
     ]
   },
@@ -13664,6 +17679,11 @@ window.VOCAB_N5 = [
         "japanese": "葉書を送ります。",
         "romaji": "Hagaki o okurimasu.",
         "german": "Ich schicke eine Postkarte."
+      },
+      {
+        "japanese": "友達に葉書を送りました。",
+        "romaji": "Tomodachi ni hagaki o okurimashita.",
+        "german": "Ich habe meinem Freund eine Postkarte geschickt."
       }
     ]
   },
@@ -13681,6 +17701,11 @@ window.VOCAB_N5 = [
         "japanese": "小包を送りたいです。",
         "romaji": "Kozutsumi o okuritai desu.",
         "german": "Ich möchte ein Päckchen schicken."
+      },
+      {
+        "japanese": "小包が届きました。",
+        "romaji": "Kozutsumi ga todokimashita.",
+        "german": "Ein Päckchen ist angekommen."
       }
     ]
   },
@@ -13698,6 +17723,11 @@ window.VOCAB_N5 = [
         "japanese": "印鑑を押してください。",
         "romaji": "Inkan o oshite kudasai.",
         "german": "Bitte drücken Sie Ihren Stempel."
+      },
+      {
+        "japanese": "書類に印鑑を押してください。",
+        "romaji": "Shorui ni inkan o oshite kudasai.",
+        "german": "Bitte drücken Sie Ihren Stempel auf das Dokument."
       }
     ]
   },
@@ -13715,6 +17745,11 @@ window.VOCAB_N5 = [
         "japanese": "両替をお願いします。",
         "romaji": "Ryougae o onegai shimasu.",
         "german": "Bitte wechseln Sie Geld."
+      },
+      {
+        "japanese": "銀行で両替をしました。",
+        "romaji": "Ginkou de ryougae o shimashita.",
+        "german": "Ich habe in der Bank Geld gewechselt."
       }
     ]
   },
@@ -13732,6 +17767,11 @@ window.VOCAB_N5 = [
         "japanese": "お守りを買いました。",
         "romaji": "Omamori o kaimashita.",
         "german": "Ich habe einen Glücksbringer gekauft."
+      },
+      {
+        "japanese": "神社でお守りを買いました。",
+        "romaji": "Jinja de omamori o kaimashita.",
+        "german": "Ich habe am Schrein einen Glücksbringer gekauft."
       }
     ]
   },
@@ -13749,6 +17789,11 @@ window.VOCAB_N5 = [
         "japanese": "絵葉書を送りました。",
         "romaji": "Ehagaki o okurimashita.",
         "german": "Ich habe eine Ansichtskarte geschickt."
+      },
+      {
+        "japanese": "旅行先から絵葉書を送りました。",
+        "romaji": "Ryokousaki kara ehagaki o okurimashita.",
+        "german": "Ich habe vom Reiseziel eine Ansichtskarte geschickt."
       }
     ]
   },
@@ -13766,6 +17811,11 @@ window.VOCAB_N5 = [
         "japanese": "自動販売機でジュースを買います。",
         "romaji": "Jidou hanbaiki de juusu o kaimasu.",
         "german": "Ich kaufe Saft am Automaten."
+      },
+      {
+        "japanese": "自動販売機で飲み物を買いました。",
+        "romaji": "Jidouhanbaiki de nomimono o kaimashita.",
+        "german": "Ich habe am Automaten ein Getränk gekauft."
       }
     ]
   },
@@ -13783,6 +17833,11 @@ window.VOCAB_N5 = [
         "japanese": "大きいブランケットをロフトに上げる。",
         "romaji": "Ookii buranketto o rofuto ni ageru.",
         "german": "Ich hebe eine große Decke auf den Dachboden."
+      },
+      {
+        "japanese": "手を上げてください。",
+        "romaji": "Te o agete kudasai.",
+        "german": "Bitte heben Sie die Hand."
       }
     ]
   },
@@ -13800,6 +17855,11 @@ window.VOCAB_N5 = [
         "japanese": "力いっぱいレバーを下げて！",
         "romaji": "Chikaraippai rebaa o sagete!",
         "german": "Drücke den Hebel so fest wie möglich herunter!"
+      },
+      {
+        "japanese": "少し温度を下げてください。",
+        "romaji": "Sukoshi ondo o sagete kudasai.",
+        "german": "Bitte senken Sie die Temperatur etwas."
       }
     ]
   },
@@ -13817,6 +17877,11 @@ window.VOCAB_N5 = [
         "japanese": "みそラーメン下さい。",
         "romaji": "Miso raamen kudasai.",
         "german": "Eine Miso-Ramen, bitte."
+      },
+      {
+        "japanese": "お水を下さい。",
+        "romaji": "Omizu o kudasai.",
+        "german": "Bitte geben Sie mir Wasser."
       }
     ]
   },
@@ -13833,6 +17898,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "入り口は、どこ？",
         "romaji": "Irikuchi wa, doko?",
+        "german": "Wo ist der Eingang?"
+      },
+      {
+        "japanese": "入り口はどこですか。",
+        "romaji": "Iriguchi wa doko desu ka.",
         "german": "Wo ist der Eingang?"
       }
     ]
@@ -13851,6 +17921,11 @@ window.VOCAB_N5 = [
         "japanese": "大したことじゃないよ。",
         "romaji": "Taishita koto ja nai yo.",
         "german": "Das ist keine große Sache."
+      },
+      {
+        "japanese": "大したことありません。",
+        "romaji": "Taishita koto arimasen.",
+        "german": "Es ist nichts Besonderes."
       }
     ]
   },
@@ -13868,6 +17943,11 @@ window.VOCAB_N5 = [
         "japanese": "あっ、ふじ山だ！",
         "romaji": "A, Fujisan da!",
         "german": "Oh, das ist der Berg Fuji!"
+      },
+      {
+        "japanese": "いつかふじ山に登りたいです。",
+        "romaji": "Itsuka Fujisan ni noboritai desu.",
+        "german": "Eines Tages möchte ich den Berg Fuji besteigen."
       }
     ]
   },
@@ -13885,6 +17965,11 @@ window.VOCAB_N5 = [
         "japanese": "これ、ほんとうに人工コアラ？",
         "romaji": "Kore, hontou ni jinkou koara?",
         "german": "Ist das wirklich ein künstlicher Koala?"
+      },
+      {
+        "japanese": "これは人工の花です。",
+        "romaji": "Kore wa jinkou no hana desu.",
+        "german": "Das ist eine künstliche Blume."
       }
     ]
   },
@@ -13902,6 +17987,11 @@ window.VOCAB_N5 = [
         "japanese": "力いっぱいがんばりました！",
         "romaji": "Chikaraippai ganbarimashita!",
         "german": "Wir haben unser Bestes gegeben!"
+      },
+      {
+        "japanese": "力いっぱい走りました。",
+        "romaji": "Chikaraippai hashirimashita.",
+        "german": "Ich bin mit voller Kraft gerannt."
       }
     ]
   },
@@ -13919,6 +18009,11 @@ window.VOCAB_N5 = [
         "japanese": "ルームメイトはロフトに上る。",
         "romaji": "Ruumumeito wa rofuto ni noboru.",
         "german": "Mein Mitbewohner steigt zum Dachboden hinauf."
+      },
+      {
+        "japanese": "階段を上ります。",
+        "romaji": "Kaidan o noborimasu.",
+        "german": "Ich gehe die Treppe hinauf."
       }
     ]
   },
@@ -13936,6 +18031,11 @@ window.VOCAB_N5 = [
         "japanese": "夕べ、月をみた。",
         "romaji": "Yuube, tsuki o mita.",
         "german": "Ich habe gestern Abend den Mond gesehen."
+      },
+      {
+        "japanese": "夕べ友達と食事をしました。",
+        "romaji": "Yuube tomodachi to shokuji o shimashita.",
+        "german": "Gestern Abend habe ich mit einem Freund gegessen."
       }
     ]
   },
@@ -13953,6 +18053,11 @@ window.VOCAB_N5 = [
         "japanese": "白のドレスの女の子がレイチェルです。",
         "romaji": "Shiro no doresu no onnanoko ga reicheru desu.",
         "german": "Das Mädchen im weißen Kleid ist Rachel."
+      },
+      {
+        "japanese": "女の子が歌を歌っています。",
+        "romaji": "Onna no ko ga uta o utatte imasu.",
+        "german": "Ein Mädchen singt ein Lied."
       }
     ]
   },
@@ -13970,6 +18075,11 @@ window.VOCAB_N5 = [
         "japanese": "そっちは女子トイレですよ。",
         "romaji": "Sotchi wa joshi toire desu yo.",
         "german": "Die Damentoilette ist dort drüben."
+      },
+      {
+        "japanese": "女子トイレはどこですか。",
+        "romaji": "Joshi toire wa doko desu ka.",
+        "german": "Wo ist die Damentoilette?"
       }
     ]
   },
@@ -13987,6 +18097,11 @@ window.VOCAB_N5 = [
         "japanese": "わたしは五才です。",
         "romaji": "Watashi wa gosai desu.",
         "german": "Ich bin fünf Jahre alt."
+      },
+      {
+        "japanese": "おばあさんは九十才です。",
+        "romaji": "Obaasan wa kyuujussai desu.",
+        "german": "Die Großmutter ist neunzig Jahre alt."
       }
     ]
   },
@@ -14004,6 +18119,11 @@ window.VOCAB_N5 = [
         "japanese": "このカレー、中々おいしいですね。",
         "romaji": "Kono karee, nakanaka oishiidesu ne.",
         "german": "Dieses Curry ist ziemlich lecker."
+      },
+      {
+        "japanese": "中々面白い本ですね。",
+        "romaji": "Nakanaka omoshiroi hon desu ne.",
+        "german": "Ein ziemlich interessantes Buch, nicht wahr?"
       }
     ]
   },
@@ -14021,6 +18141,11 @@ window.VOCAB_N5 = [
         "japanese": "五月一日にニューヨークへかえりました。",
         "romaji": "Gogatsu ichinichi ni Nyuuyouku e kaerimashita.",
         "german": "Am 1. Mai bin ich nach New York zurückgekehrt."
+      },
+      {
+        "japanese": "五月は過ごしやすいです。",
+        "romaji": "Gogatsu wa sugoshiyasui desu.",
+        "german": "Im Mai ist es angenehm."
       }
     ]
   },
@@ -14038,6 +18163,11 @@ window.VOCAB_N5 = [
         "japanese": "六月にアメリカにいきました。",
         "romaji": "Rokugatsu ni Amerika ni ikimashita.",
         "german": "Im Juni bin ich in die Vereinigten Staaten gereist."
+      },
+      {
+        "japanese": "六月は雨が多いです。",
+        "romaji": "Rokugatsu wa ame ga ooi desu.",
+        "german": "Im Juni regnet es viel."
       }
     ]
   },
@@ -14055,6 +18185,11 @@ window.VOCAB_N5 = [
         "japanese": "このドレスは五千円でした。",
         "romaji": "Kono doresu wa go sen'en deshita.",
         "german": "Dieses Kleid hat 5.000 Yen gekostet."
+      },
+      {
+        "japanese": "これは五百円です。",
+        "romaji": "Kore wa gohyaku en desu.",
+        "german": "Das kostet fünfhundert Yen."
       }
     ]
   },
@@ -14072,6 +18207,11 @@ window.VOCAB_N5 = [
         "japanese": "十月に五十才になります。",
         "romaji": "Juugatsu ni go juusai ni narimasu.",
         "german": "Im Oktober werde ich fünfzig Jahre alt."
+      },
+      {
+        "japanese": "十月は紅葉の季節です。",
+        "romaji": "Juugatsu wa kouyou no kisetsu desu.",
+        "german": "Oktober ist die Jahreszeit des Laubfärbens."
       }
     ]
   },
@@ -14089,6 +18229,11 @@ window.VOCAB_N5 = [
         "japanese": "ウェディングパーティーは一月でした。",
         "romaji": "Uedeingu paateii wa ichigatsu deshita.",
         "german": "Die Hochzeitsfeier war im Januar."
+      },
+      {
+        "japanese": "一月はとても寒いです。",
+        "romaji": "Ichigatsu wa totemo samui desu.",
+        "german": "Im Januar ist es sehr kalt."
       }
     ]
   },
@@ -14106,6 +18251,11 @@ window.VOCAB_N5 = [
         "japanese": "バレンタインデーは二月だよ。",
         "romaji": "Barentaindee wa nigatsu da yo.",
         "german": "Der Valentinstag ist im Februar."
+      },
+      {
+        "japanese": "二月は一番短い月です。",
+        "romaji": "Nigatsu wa ichiban mijikai tsuki desu.",
+        "german": "Der Februar ist der kürzeste Monat."
       }
     ]
   },
@@ -14123,6 +18273,11 @@ window.VOCAB_N5 = [
         "japanese": "子犬は、かわいい。",
         "romaji": "Koinu wa, kawaii.",
         "german": "Der Welpe ist süß."
+      },
+      {
+        "japanese": "かわいい子犬ですね。",
+        "romaji": "Kawaii koinu desu ne.",
+        "german": "Ein süßer Welpe, nicht wahr?"
       }
     ]
   },
@@ -14140,6 +18295,11 @@ window.VOCAB_N5 = [
         "japanese": "「おはよう！」と、王子がいった。",
         "romaji": "Ohayou! To, ouji ga itta.",
         "german": "\"Guten Morgen!\", sagte der Prinz."
+      },
+      {
+        "japanese": "王子様がお城に住んでいます。",
+        "romaji": "Oujisama ga oshiro ni sunde imasu.",
+        "german": "Der Prinz wohnt im Schloss."
       }
     ]
   },
@@ -14157,6 +18317,11 @@ window.VOCAB_N5 = [
         "japanese": "それは、女王のネックレスです。",
         "romaji": "Sore wa, joou no nekkuresu desu.",
         "german": "Das ist die Halskette der Königin."
+      },
+      {
+        "japanese": "女王はとても美しいです。",
+        "romaji": "Joou wa totemo utsukushii desu.",
+        "german": "Die Königin ist sehr schön."
       }
     ]
   },
@@ -14174,6 +18339,11 @@ window.VOCAB_N5 = [
         "japanese": "王女はいつでも正しい。",
         "romaji": "Oujo wa itsu demo tadashii.",
         "german": "Die Prinzessin hat immer Recht."
+      },
+      {
+        "japanese": "王女は優しい人です。",
+        "romaji": "Oujo wa yasashii hito desu.",
+        "german": "Die Prinzessin ist eine freundliche Person."
       }
     ]
   },
@@ -14191,6 +18361,11 @@ window.VOCAB_N5 = [
         "japanese": "四月一日はエイプリルフールです。",
         "romaji": "Shigatsu ichinichi wa eipurirufuuru desu.",
         "german": "Der 1. April ist der Aprilscherztag."
+      },
+      {
+        "japanese": "四月から新学期が始まります。",
+        "romaji": "Shigatsu kara shingakki ga hajimarimasu.",
+        "german": "Ab April beginnt das neue Schuljahr."
       }
     ]
   },
@@ -14208,6 +18383,11 @@ window.VOCAB_N5 = [
         "japanese": "日本のカレーはおいしいです。",
         "romaji": "Nippon no karee wa oishiidesu.",
         "german": "Japanisches Curry ist köstlich."
+      },
+      {
+        "japanese": "日本に行ったことがありますか。",
+        "romaji": "Nihon ni itta koto ga arimasu ka.",
+        "german": "Waren Sie schon einmal in Japan?"
       }
     ]
   },
@@ -14225,6 +18405,11 @@ window.VOCAB_N5 = [
         "japanese": "タスクはシステムエラーを正すことです。",
         "romaji": "Tasuku wa shisutemu eraa o tadasu koto desu.",
         "german": "Meine Aufgabe ist es, Systemfehler zu korrigieren."
+      },
+      {
+        "japanese": "間違いを正しました。",
+        "romaji": "Machigai o tadashimashita.",
+        "german": "Ich habe den Fehler korrigiert."
       }
     ]
   },
@@ -14242,6 +18427,11 @@ window.VOCAB_N5 = [
         "japanese": "なんだ、この玉？",
         "romaji": "Nan da, kono tama?",
         "german": "Was ist das für eine Kugel?"
+      },
+      {
+        "japanese": "子供が玉で遊んでいます。",
+        "romaji": "Kodomo ga tama de asonde imasu.",
+        "german": "Das Kind spielt mit einer Kugel."
       }
     ]
   },
@@ -14259,6 +18449,11 @@ window.VOCAB_N5 = [
         "japanese": "その丸い玉ねぎ下さい。",
         "romaji": "Sono marui tamanegi kudasai.",
         "german": "Bitte geben Sie mir die runde Zwiebel."
+      },
+      {
+        "japanese": "玉ねぎを買ってきてください。",
+        "romaji": "Tamanegi o katte kite kudasai.",
+        "german": "Bitte kaufen Sie Zwiebeln."
       }
     ]
   },
@@ -14276,6 +18471,11 @@ window.VOCAB_N5 = [
         "japanese": "日本で白人のパートナーとくらしてます。",
         "romaji": "Nippon de hakujin no paatonaa to kurashitemasu.",
         "german": "Ich lebe in Japan mit einem weißen Partner."
+      },
+      {
+        "japanese": "あの白人の方はアメリカ人です。",
+        "romaji": "Ano hakujin no kata wa Amerikajin desu.",
+        "german": "Jene weiße Person ist Amerikaner."
       }
     ]
   },
@@ -14293,6 +18493,11 @@ window.VOCAB_N5 = [
         "japanese": "サーモンは目玉もおいしいですよ。",
         "romaji": "Saamon wa medama mo oishiidesu yo.",
         "german": "Lachsaugen sind auch lecker."
+      },
+      {
+        "japanese": "目玉焼きを作りました。",
+        "romaji": "Medamayaki o tsukurimashita.",
+        "german": "Ich habe ein Spiegelei gemacht."
       }
     ]
   },
@@ -14310,6 +18515,11 @@ window.VOCAB_N5 = [
         "japanese": "出口にたくさんの人々がいた。",
         "romaji": "Deguchi ni takusan no hitobito ga ita.",
         "german": "Am Ausgang waren viele Menschen."
+      },
+      {
+        "japanese": "たくさんの人々が来ました。",
+        "romaji": "Takusan no hitobito ga kimashita.",
+        "german": "Viele Menschen sind gekommen."
       }
     ]
   },
@@ -14327,6 +18537,11 @@ window.VOCAB_N5 = [
         "japanese": "水中にコイがたくさんいる。",
         "romaji": "Suichuu ni koi ga takusan iru.",
         "german": "Es gibt viele Koi-Fische im Wasser."
+      },
+      {
+        "japanese": "水中で泳ぎます。",
+        "romaji": "Suichuu de oyogimasu.",
+        "german": "Ich schwimme unter Wasser."
       }
     ]
   },
@@ -14344,6 +18559,11 @@ window.VOCAB_N5 = [
         "japanese": "ジャケットの左右にはポケットがあります。",
         "romaji": "Jaketto no sayuu ni wa poketto ga arimasu.",
         "german": "Die Jacke hat Taschen auf der linken und rechten Seite."
+      },
+      {
+        "japanese": "左右を確認してください。",
+        "romaji": "Sayuu o kakunin shite kudasai.",
+        "german": "Bitte schauen Sie nach links und rechts."
       }
     ]
   },
@@ -14361,6 +18581,11 @@ window.VOCAB_N5 = [
         "japanese": "ミホちゃん、おはよう！",
         "romaji": "Mihochan, ohayou!",
         "german": "Guten Morgen, Miho-chan!"
+      },
+      {
+        "japanese": "友達に「おはよう」と言いました。",
+        "romaji": "Tomodachi ni 'ohayou' to iimashita.",
+        "german": "Ich sagte zum Freund 'Guten Morgen'."
       }
     ]
   },
@@ -14378,6 +18603,11 @@ window.VOCAB_N5 = [
         "japanese": "アメリカ人ですか？",
         "romaji": "Amerikajin desu ka?",
         "german": "Sind Sie Amerikaner?"
+      },
+      {
+        "japanese": "クラスにアメリカ人の学生がいます。",
+        "romaji": "Kurasu ni Amerikajin no gakusei ga imasu.",
+        "german": "In der Klasse gibt es einen amerikanischen Studenten."
       }
     ]
   },
@@ -14395,6 +18625,11 @@ window.VOCAB_N5 = [
         "japanese": "二人のフランス人がいる。",
         "romaji": "Ninin no Furansujin ga iru.",
         "german": "Da sind zwei Franzosen."
+      },
+      {
+        "japanese": "フランス人の友達がいます。",
+        "romaji": "Furansujin no tomodachi ga imasu.",
+        "german": "Ich habe einen französischen Freund."
       }
     ]
   },
@@ -14412,6 +18647,11 @@ window.VOCAB_N5 = [
         "japanese": "ビー玉は小さい丸い玉です。",
         "romaji": "Biidama wa chiisai marui tama desu.",
         "german": "Murmeln sind kleine, runde Kugeln."
+      },
+      {
+        "japanese": "子供がビー玉で遊んでいます。",
+        "romaji": "Kodomo ga biidama de asonde imasu.",
+        "german": "Das Kind spielt mit Murmeln."
       }
     ]
   },
@@ -14429,6 +18669,11 @@ window.VOCAB_N5 = [
         "japanese": "今月は大切なテストがあります。",
         "romaji": "Kongetsu wa taisetsu na tesuto ga arimasu.",
         "german": "Diesen Monat gibt es einen wichtigen Test."
+      },
+      {
+        "japanese": "今月は忙しいです。",
+        "romaji": "Kongetsu wa isogashii desu.",
+        "german": "Diesen Monat bin ich beschäftigt."
       }
     ]
   },
@@ -14446,6 +18691,11 @@ window.VOCAB_N5 = [
         "japanese": "マイケルさんは、父の友人です。",
         "romaji": "Maikerusan wa, chichi no yuujin desu.",
         "german": "Michael ist ein Freund meines Vaters."
+      },
+      {
+        "japanese": "友人に会いました。",
+        "romaji": "Yuujin ni aimashita.",
+        "german": "Ich habe einen Freund getroffen."
       }
     ]
   },
@@ -14463,6 +18713,11 @@ window.VOCAB_N5 = [
         "japanese": "このアパート、戸口のデザインがかわいいですね。",
         "romaji": "Kono apaato, toguchi no dezain ga kawaiidesu ne.",
         "german": "Das Design des Türeingangs dieser Wohnung ist hübsch."
+      },
+      {
+        "japanese": "戸口に立っている人は誰ですか。",
+        "romaji": "Toguchi ni tatte iru hito wa dare desu ka.",
+        "german": "Wer ist die Person, die am Eingang steht?"
       }
     ]
   },
@@ -14480,6 +18735,11 @@ window.VOCAB_N5 = [
         "japanese": "このベンツは中古です。",
         "romaji": "Kono bentsu wa chuuko desu.",
         "german": "Dieser Benz ist gebraucht."
+      },
+      {
+        "japanese": "中古の車を買いました。",
+        "romaji": "Chuuko no kuruma o kaimashita.",
+        "german": "Ich habe ein gebrauchtes Auto gekauft."
       }
     ]
   },
@@ -14497,6 +18757,11 @@ window.VOCAB_N5 = [
         "japanese": "外人カップルとダブルデートをした。",
         "romaji": "Gaijin kappuru to daburu deeto o shita.",
         "german": "Wir hatten ein Doppeldate mit einem ausländischen Paar."
+      },
+      {
+        "japanese": "このクラスに外人がいます。",
+        "romaji": "Kono kurasu ni gaijin ga imasu.",
+        "german": "In dieser Klasse gibt es einen Ausländer."
       }
     ]
   },
@@ -14514,6 +18779,11 @@ window.VOCAB_N5 = [
         "japanese": "市立プールは三ドルで入れるよ。",
         "romaji": "Shiritsu puuru wa sandoru de ireru yo.",
         "german": "Man kann für drei Dollar ins städtische Schwimmbad."
+      },
+      {
+        "japanese": "市立の図書館に行きます。",
+        "romaji": "Shiritsu no toshokan ni ikimasu.",
+        "german": "Ich gehe in die städtische Bibliothek."
       }
     ]
   },
@@ -14531,6 +18801,11 @@ window.VOCAB_N5 = [
         "japanese": "今はシアトル市にすんでいます。",
         "romaji": "Ima wa Shiatorushi ni sunde imasu.",
         "german": "Ich lebe jetzt in Seattle."
+      },
+      {
+        "japanese": "シアトル市に住んでいます。",
+        "romaji": "Shiatoru-shi ni sunde imasu.",
+        "german": "Ich wohne in der Stadt Seattle."
       }
     ]
   },
@@ -14548,6 +18823,11 @@ window.VOCAB_N5 = [
         "japanese": "これはフィットネストレーニングに用いるマシンです。",
         "romaji": "Kore wa fyittonesutoreeningu ni mochiiru mashin desu.",
         "german": "Das ist eine Maschine für Fitnesstraining."
+      },
+      {
+        "japanese": "この道具を用いてください。",
+        "romaji": "Kono dougu o mochiite kudasai.",
+        "german": "Bitte verwenden Sie dieses Werkzeug."
       }
     ]
   },
@@ -14565,6 +18845,11 @@ window.VOCAB_N5 = [
         "japanese": "人生ってすばらしい。",
         "romaji": "Jinsei tte subarashii.",
         "german": "Das Leben ist wunderbar."
+      },
+      {
+        "japanese": "人生は楽しいです。",
+        "romaji": "Jinsei wa tanoshii desu.",
+        "german": "Das Leben macht Spaß."
       }
     ]
   },
@@ -14582,6 +18867,11 @@ window.VOCAB_N5 = [
         "japanese": "ジェニーさんはイギリス人です。",
         "romaji": "Jeniisan wa Igirisujin desu.",
         "german": "Jenny ist Britin."
+      },
+      {
+        "japanese": "イギリス人の先生です。",
+        "romaji": "Igirisujin no sensei desu.",
+        "german": "Es ist ein britischer Lehrer."
       }
     ]
   },
@@ -14598,6 +18888,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "今日は、おげんきですか？",
         "romaji": "Kyou wa, o genki desu ka?",
+        "german": "Hallo, wie geht es Ihnen?"
+      },
+      {
+        "japanese": "「今日は、元気ですか。」",
+        "romaji": "Konnichi wa, genki desu ka.",
         "german": "Hallo, wie geht es Ihnen?"
       }
     ]
@@ -14616,6 +18911,11 @@ window.VOCAB_N5 = [
         "japanese": "大人しい犬ですね。",
         "romaji": "Otonashii inu desu ne.",
         "german": "Das ist ein ruhiger Hund."
+      },
+      {
+        "japanese": "うちの犬は大人しいです。",
+        "romaji": "Uchi no inu wa otonashii desu.",
+        "german": "Unser Hund ist brav."
       }
     ]
   },
@@ -14633,6 +18933,11 @@ window.VOCAB_N5 = [
         "japanese": "戸をノックした。",
         "romaji": "To o nokku shita.",
         "german": "Ich habe an die Tür geklopft."
+      },
+      {
+        "japanese": "戸を閉めてください。",
+        "romaji": "To o shimete kudasai.",
+        "german": "Bitte schließen Sie die Tür."
       }
     ]
   },
@@ -14650,6 +18955,11 @@ window.VOCAB_N5 = [
         "japanese": "あの女の人？マミさんだよ。",
         "romaji": "Ano onna no hito? Mamisan da yo.",
         "german": "Die Frau dort drüben? Das ist Mami."
+      },
+      {
+        "japanese": "あの女の人は田中さんの奥さんです。",
+        "romaji": "Ano onna no hito wa Tanaka-san no okusan desu.",
+        "german": "Jene Frau ist Herr Tanakas Ehefrau."
       }
     ]
   },
@@ -14667,6 +18977,11 @@ window.VOCAB_N5 = [
         "japanese": "日本にそのウィルスを広げたのは水だった。",
         "romaji": "Nippon ni sono uirusu o hirogeta no wa mizu datta.",
         "german": "Es war das Wasser, das den Virus in Japan verbreitet hat."
+      },
+      {
+        "japanese": "地図を広げて見ました。",
+        "romaji": "Chizu o hirogete mimashita.",
+        "german": "Ich habe die Karte aufgebreitet und angesehen."
       }
     ]
   },
@@ -14684,6 +18999,11 @@ window.VOCAB_N5 = [
         "japanese": "山びこだ！きこえる？",
         "romaji": "Yamabiko da! Kikoeru?",
         "german": "Das ist ein Bergecho. Kannst du es hören?"
+      },
+      {
+        "japanese": "山で山びこが聞こえました。",
+        "romaji": "Yama de yamabiko ga kikoemashita.",
+        "german": "Im Berg hörte ich ein Echo."
       }
     ]
   },
@@ -14701,6 +19021,11 @@ window.VOCAB_N5 = [
         "japanese": "本はテーブルの上にあります。",
         "romaji": "Hon wa teeburu no ue ni arimasu.",
         "german": "Das Buch liegt auf dem Tisch."
+      },
+      {
+        "japanese": "テーブルの上にりんごがあります。",
+        "romaji": "Teeburu no ue ni ringo ga arimasu.",
+        "german": "Auf dem Tisch liegt ein Apfel."
       }
     ]
   },
@@ -14718,6 +19043,11 @@ window.VOCAB_N5 = [
         "japanese": "ベッドの下にはマンガがたくさんあります。",
         "romaji": "Beddo no shita ni wa manga ga takusan arimasu.",
         "german": "Unter dem Bett liegen viele Manga."
+      },
+      {
+        "japanese": "ベッドの下に猫がいます。",
+        "romaji": "Beddo no shita ni neko ga imasu.",
+        "german": "Unter dem Bett ist eine Katze."
       }
     ]
   },
@@ -14735,6 +19065,11 @@ window.VOCAB_N5 = [
         "japanese": "そして、ふじ山から日の出をみました。",
         "romaji": "Soshite, Fujisan kara hinode o mimashita.",
         "german": "Dann habe ich den Sonnenaufgang vom Berg Fuji aus beobachtet."
+      },
+      {
+        "japanese": "日の出を見に行きました。",
+        "romaji": "Hinode o mi ni ikimashita.",
+        "german": "Ich bin losgegangen, um den Sonnenaufgang zu sehen."
       }
     ]
   },
@@ -14751,6 +19086,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "生ビール、一つ下さい。",
         "romaji": "Namabiiru, hitotsu kudasai.",
+        "german": "Ein Fassbier, bitte."
+      },
+      {
+        "japanese": "生ビールを一杯ください。",
+        "romaji": "Nama biiru o ippai kudasai.",
         "german": "Ein Fassbier, bitte."
       }
     ]
@@ -14769,6 +19109,11 @@ window.VOCAB_N5 = [
         "japanese": "北口にいるよ！",
         "romaji": "Kitaguchi ni iru yo!",
         "german": "Ich bin am Nordausgang!"
+      },
+      {
+        "japanese": "北口で待ち合わせしましょう。",
+        "romaji": "Kitaguchi de machiawase shimashou.",
+        "german": "Lass uns uns am Nordausgang treffen."
       }
     ]
   },
@@ -14786,6 +19131,11 @@ window.VOCAB_N5 = [
         "japanese": "これがふじ山です。",
         "romaji": "Kore ga Fujisan desu.",
         "german": "Das hier ist der Berg Fuji."
+      },
+      {
+        "japanese": "これは何ですか。",
+        "romaji": "Kore wa nan desu ka.",
+        "german": "Was ist das?"
       }
     ]
   },
@@ -14803,6 +19153,11 @@ window.VOCAB_N5 = [
         "japanese": "リンゴジュース、二つ下さい。",
         "romaji": "Ringo juusu, futatsu kudasai.",
         "german": "Zwei Apfelsäfte, bitte."
+      },
+      {
+        "japanese": "リンゴジュースを飲みます。",
+        "romaji": "Ringo juusu o nomimasu.",
+        "german": "Ich trinke Apfelsaft."
       }
     ]
   },
@@ -14820,6 +19175,11 @@ window.VOCAB_N5 = [
         "japanese": "女はランプの明かりの下に立った。",
         "romaji": "Onna wa ranpu no akari no shita ni tatta.",
         "german": "Die Frau stand unter dem Licht der Lampe."
+      },
+      {
+        "japanese": "部屋の明かりをつけました。",
+        "romaji": "Heya no akari o tsukemashita.",
+        "german": "Ich habe das Licht im Zimmer angemacht."
       }
     ]
   },
@@ -14837,6 +19197,11 @@ window.VOCAB_N5 = [
         "japanese": "右手に力が入らないんです。",
         "romaji": "Migite ni chikara ga hairanai n desu.",
         "german": "Meine rechte Hand fühlt sich schwach an."
+      },
+      {
+        "japanese": "右手でペンを持ちます。",
+        "romaji": "Migite de pen o mochimasu.",
+        "german": "Ich halte den Stift in der rechten Hand."
       }
     ]
   },
@@ -14854,6 +19219,11 @@ window.VOCAB_N5 = [
         "japanese": "左手でスプーンをもった。",
         "romaji": "Hidarite de supuun o motta.",
         "german": "Ich hielt einen Löffel mit der linken Hand."
+      },
+      {
+        "japanese": "左手でドアを開けました。",
+        "romaji": "Hidarite de doa o akemashita.",
+        "german": "Ich habe die Tür mit der linken Hand geöffnet."
       }
     ]
   },
@@ -14871,6 +19241,11 @@ window.VOCAB_N5 = [
         "japanese": "このジェネレーションを生きる人々にメッセージはありますか？",
         "romaji": "Kono jenereeshon o ikiru hitobito ni messeeji wa arimasu ka?",
         "german": "Haben Sie eine Botschaft für die Menschen dieser Generation?"
+      },
+      {
+        "japanese": "魚は水の中で生きています。",
+        "romaji": "Sakana wa mizu no naka de ikite imasu.",
+        "german": "Fische leben im Wasser."
       }
     ]
   },
@@ -14888,6 +19263,11 @@ window.VOCAB_N5 = [
         "japanese": "しばらく、このクラスは休止です。",
         "romaji": "Shibaraku, kono kurasu wa kyuushi desu.",
         "german": "Diese Kurse sind vorübergehend eingestellt."
+      },
+      {
+        "japanese": "工事のため一時休止です。",
+        "romaji": "Kouji no tame ichiji kyuushi desu.",
+        "german": "Wegen Bauarbeiten vorübergehend geschlossen."
       }
     ]
   },
@@ -14905,6 +19285,11 @@ window.VOCAB_N5 = [
         "japanese": "休日はワインをのみます。",
         "romaji": "Kyuujitsu wa wain o nomimasu.",
         "german": "An freien Tagen trinke ich Wein."
+      },
+      {
+        "japanese": "明日は休日です。",
+        "romaji": "Ashita wa kyuujitsu desu.",
+        "german": "Morgen ist ein Feiertag."
       }
     ]
   },
@@ -14922,6 +19307,11 @@ window.VOCAB_N5 = [
         "japanese": "先ず、トマトを切ります。",
         "romaji": "Mazu, tomato o kirimasu.",
         "german": "Zuerst die Tomaten schneiden."
+      },
+      {
+        "japanese": "先ず手を洗ってください。",
+        "romaji": "Mazu te o aratte kudasai.",
+        "german": "Bitte waschen Sie zuerst Ihre Hände."
       }
     ]
   },
@@ -14939,6 +19329,11 @@ window.VOCAB_N5 = [
         "japanese": "先々月、キューバにいきました。",
         "romaji": "Sakizaki tsuki, Kyuuba ni ikimashita.",
         "german": "Vorletzten Monat bin ich nach Kuba gereist."
+      },
+      {
+        "japanese": "先々月に引っ越しました。",
+        "romaji": "Sensengetsu ni hikkoshimashita.",
+        "german": "Ich bin vorletzten Monat umgezogen."
       }
     ]
   },
@@ -14956,6 +19351,11 @@ window.VOCAB_N5 = [
         "japanese": "先月は六月でした。",
         "romaji": "Sengetsu wa rokugatsu deshita.",
         "german": "Letzter Monat war Juni."
+      },
+      {
+        "japanese": "先月日本に行きました。",
+        "romaji": "Sengetsu Nihon ni ikimashita.",
+        "german": "Letzten Monat bin ich nach Japan gefahren."
       }
     ]
   },
@@ -14972,6 +19372,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "先日はどうもありがとうございました。",
         "romaji": "Senjitsu wa doumo arigatou gozaimashi ta.",
+        "german": "Vielen Dank für neulich."
+      },
+      {
+        "japanese": "先日はありがとうございました。",
+        "romaji": "Senjitsu wa arigatou gozaimashita.",
         "german": "Vielen Dank für neulich."
       }
     ]
@@ -14990,6 +19395,11 @@ window.VOCAB_N5 = [
         "japanese": "父はフリスビーの名人です。",
         "romaji": "Chichi wa furisubii no meijin desu.",
         "german": "Mein Vater ist ein Frisbee-Experte."
+      },
+      {
+        "japanese": "あの人は料理の名人です。",
+        "romaji": "Ano hito wa ryouri no meijin desu.",
+        "german": "Jene Person ist ein Meisterkoch."
       }
     ]
   },
@@ -15007,6 +19417,11 @@ window.VOCAB_N5 = [
         "japanese": "名字は「田中」です。",
         "romaji": "Myouji wa Tanaka desu.",
         "german": "Mein Nachname ist \"Tanaka\"."
+      },
+      {
+        "japanese": "名字を教えてください。",
+        "romaji": "Myouji o oshiete kudasai.",
+        "german": "Bitte sagen Sie mir Ihren Nachnamen."
       }
     ]
   },
@@ -15024,6 +19439,11 @@ window.VOCAB_N5 = [
         "japanese": "女の子は、おこって口を一文字にむすびました。",
         "romaji": "Onnanoko wa, okotte kuchi o hitomoji ni musubimashita.",
         "german": "Das Mädchen wurde wütend und presste die Lippen zu einer geraden Linie zusammen."
+      },
+      {
+        "japanese": "漢字を一文字ずつ書きます。",
+        "romaji": "Kanji o ichimoji zutsu kakimasu.",
+        "german": "Ich schreibe die Kanji jeweils ein Zeichen."
       }
     ]
   },
@@ -15041,6 +19461,11 @@ window.VOCAB_N5 = [
         "japanese": "２０１１年に、日本にいきました。",
         "romaji": "Nisenjuuichinen ni, Nippon ni ikimashita.",
         "german": "Im Jahr 2011 bin ich nach Japan gereist."
+      },
+      {
+        "japanese": "２０１１年に日本に行きました。",
+        "romaji": "Nisenjuuichinen ni Nihon ni ikimashita.",
+        "german": "Im Jahr 2011 bin ich nach Japan gefahren."
       }
     ]
   },
@@ -15058,6 +19483,11 @@ window.VOCAB_N5 = [
         "japanese": "年内に牛の赤ちゃんが生まれます。",
         "romaji": "Nennai ni ushi no akachan ga umaremasu.",
         "german": "Bis Ende des Jahres wird ein Kalb geboren."
+      },
+      {
+        "japanese": "年内に終わらせます。",
+        "romaji": "Nennai ni owarasemasu.",
+        "german": "Ich werde es bis Jahresende fertig machen."
       }
     ]
   },
@@ -15075,6 +19505,11 @@ window.VOCAB_N5 = [
         "japanese": "一年生の子は手を上げて下さい。",
         "romaji": "Ichinensei no ko wa te o agete kudasai.",
         "german": "Erstklässler, bitte hebt die Hand."
+      },
+      {
+        "japanese": "私は一年生です。",
+        "romaji": "Watashi wa ichinensei desu.",
+        "german": "Ich bin Erstklässler."
       }
     ]
   },
@@ -15092,6 +19527,11 @@ window.VOCAB_N5 = [
         "japanese": "早々にメールありがとうございます。",
         "romaji": "Sousou ni meeru arigatou gozaimasu.",
         "german": "Vielen Dank für Ihre schnelle E-Mail-Antwort."
+      },
+      {
+        "japanese": "帰ったら早々に宿題をしなさい。",
+        "romaji": "Kaettara sousou ni shukudai o shinasai.",
+        "german": "Mach deine Hausaufgaben sofort, wenn du nach Hause kommst."
       }
     ]
   },
@@ -15109,6 +19549,11 @@ window.VOCAB_N5 = [
         "japanese": "父はテーブルの上のチョコレートを一気にたべた。",
         "romaji": "Chichi wa teeburu no ue no chokoreeto o ikkini tabeta.",
         "german": "Mein Vater hat die Schokolade auf dem Tisch auf einmal gegessen."
+      },
+      {
+        "japanese": "水を一気に飲みました。",
+        "romaji": "Mizu o ikki ni nomimashita.",
+        "german": "Ich habe das Wasser auf einmal getrunken."
       }
     ]
   },
@@ -15126,6 +19571,11 @@ window.VOCAB_N5 = [
         "japanese": "今日の母は気分がいいです。",
         "romaji": "Kyou no haha wa kibun ga iidesu.",
         "german": "Mama ist heute gut gelaunt."
+      },
+      {
+        "japanese": "今日は気分がいいです。",
+        "romaji": "Kyou wa kibun ga ii desu.",
+        "german": "Heute bin ich gut gelaunt."
       }
     ]
   },
@@ -15143,6 +19593,11 @@ window.VOCAB_N5 = [
         "japanese": "いつになったら、本気を出すんですか。",
         "romaji": "Itsu ni nattara, honki o dasu n desu ka.",
         "german": "Wann werden Sie es endlich ernst meinen?"
+      },
+      {
+        "japanese": "本気で言っていますか。",
+        "romaji": "Honki de itte imasu ka.",
+        "german": "Meinen Sie das ernst?"
       }
     ]
   },
@@ -15160,6 +19615,11 @@ window.VOCAB_N5 = [
         "japanese": "よく平気でいられますね。",
         "romaji": "Yoku heiki de i raremasu ne.",
         "german": "Wie können Sie immer so gelassen sein?"
+      },
+      {
+        "japanese": "大丈夫、平気ですよ。",
+        "romaji": "Daijoubu, heiki desu yo.",
+        "german": "Alles gut, mir geht es gut."
       }
     ]
   },
@@ -15177,6 +19637,11 @@ window.VOCAB_N5 = [
         "japanese": "ニックって一本気なところがあるよね。",
         "romaji": "Nikku tte ippongi na tokoro ga aru yo ne.",
         "german": "Nick hat eine zielstrebige Seite."
+      },
+      {
+        "japanese": "彼は一本気な人です。",
+        "romaji": "Kare wa ipponki na hito desu.",
+        "german": "Er ist ein zielstrebiger Mensch."
       }
     ]
   },
@@ -15194,6 +19659,11 @@ window.VOCAB_N5 = [
         "japanese": "あ！竹の子が土から出てる！",
         "romaji": "A! Takenoko ga do kara de teru!",
         "german": "Oh! Ein Bambussprössling ragt aus dem Boden!"
+      },
+      {
+        "japanese": "竹の子の季節ですね。",
+        "romaji": "Takenoko no kisetsu desu ne.",
+        "german": "Es ist die Jahreszeit der Bambussprösslinge, nicht wahr?"
       }
     ]
   },
@@ -15211,6 +19681,11 @@ window.VOCAB_N5 = [
         "japanese": "一人の村人が川に入った。",
         "romaji": "Ichinin no murabito ga kawa ni haitta.",
         "german": "Ein Dorfbewohner ging in den Fluss."
+      },
+      {
+        "japanese": "村人がお祭りを準備しています。",
+        "romaji": "Murabito ga omatsuri o junbi shite imasu.",
+        "german": "Die Dorfbewohner bereiten das Fest vor."
       }
     ]
   },
@@ -15228,6 +19703,11 @@ window.VOCAB_N5 = [
         "japanese": "人に見せるほどのキッチンじゃないですよ。",
         "romaji": "Hito ni miseru hodo no kitchin ja naidesu yo.",
         "german": "Das ist keine Küche, die ich anderen zeigen würde."
+      },
+      {
+        "japanese": "写真を見せてください。",
+        "romaji": "Shashin o misete kudasai.",
+        "german": "Bitte zeigen Sie mir das Foto."
       }
     ]
   },
@@ -15245,6 +19725,11 @@ window.VOCAB_N5 = [
         "japanese": "このチャートの見方、分かる？",
         "romaji": "Kono chaato no mikata, wakaru?",
         "german": "Weißt du, wie man dieses Diagramm liest?"
+      },
+      {
+        "japanese": "見方を変えてみましょう。",
+        "romaji": "Mikata o kaete mimashou.",
+        "german": "Lassen Sie uns die Sichtweise ändern."
       }
     ]
   },
@@ -15262,6 +19747,11 @@ window.VOCAB_N5 = [
         "japanese": "川には、たくさん貝がいる。",
         "romaji": "Kawa ni wa, takusan kai ga iru.",
         "german": "Es gibt viele Muscheln im Fluss."
+      },
+      {
+        "japanese": "海で貝を拾いました。",
+        "romaji": "Umi de kai o hiroimashita.",
+        "german": "Ich habe am Meer Muscheln gesammelt."
       }
     ]
   },
@@ -15279,6 +19769,11 @@ window.VOCAB_N5 = [
         "japanese": "このエリアでは去年、水が不足しました。",
         "romaji": "Kono eria de wa kyonen, mizu ga fusoku shimashita.",
         "german": "Letztes Jahr gab es in diesem Gebiet einen Wassermangel."
+      },
+      {
+        "japanese": "人手が不足しています。",
+        "romaji": "Hitode ga fusoku shite imasu.",
+        "german": "Es herrscht Personalmangel."
       }
     ]
   },
@@ -15296,6 +19791,11 @@ window.VOCAB_N5 = [
         "japanese": "車内に人々がたくさんいます。",
         "romaji": "Shanai ni hitobito ga takusan imasu.",
         "german": "Es sind viele Menschen im Wagen."
+      },
+      {
+        "japanese": "車内ではお静かにお願いします。",
+        "romaji": "Shanai de wa oshizuka ni onegai shimasu.",
+        "german": "Bitte seien Sie leise im Fahrzeug."
       }
     ]
   },
@@ -15313,6 +19813,11 @@ window.VOCAB_N5 = [
         "japanese": "母は日本で生まれたアメリカ人の二世です。",
         "romaji": "Haha wa Nippon de umareta Amerikajin no nisei desu.",
         "german": "Meine Mutter ist eine Amerikanerin zweiter Generation, die in Japan geboren wurde."
+      },
+      {
+        "japanese": "彼は日系二世です。",
+        "romaji": "Kare wa nikkei nisei desu.",
+        "german": "Er ist japanischer Abstammung der zweiten Generation."
       }
     ]
   },
@@ -15330,6 +19835,11 @@ window.VOCAB_N5 = [
         "japanese": "チャールズ三世がイギリスの王になりました。",
         "romaji": "Chaaruzu sansei ga Igirisu no ou ni narimashita.",
         "german": "Charles III. ist König von England geworden."
+      },
+      {
+        "japanese": "エリザベス三世はいません。",
+        "romaji": "Erizabesu sansei wa imasen.",
+        "german": "Es gibt keine Elisabeth die Dritte."
       }
     ]
   },
@@ -15347,6 +19857,11 @@ window.VOCAB_N5 = [
         "japanese": "不正アクセスは主にヨーロッパからでした。",
         "romaji": "Fusei akusesu wa omo ni Youroppa kara deshita.",
         "german": "Der unbefugte Zugriff kam hauptsächlich aus Europa."
+      },
+      {
+        "japanese": "この会社は主に車を作っています。",
+        "romaji": "Kono kaisha wa omo ni kuruma o tsukutte imasu.",
+        "german": "Diese Firma stellt hauptsächlich Autos her."
       }
     ]
   },
@@ -15364,6 +19879,11 @@ window.VOCAB_N5 = [
         "japanese": "この人は、わたしの主人です。",
         "romaji": "Kono hito wa, watashi no shujin desu.",
         "german": "Diese Person ist mein Ehemann."
+      },
+      {
+        "japanese": "主人は今出かけています。",
+        "romaji": "Shujin wa ima dekakete imasu.",
+        "german": "Mein Mann ist gerade unterwegs."
       }
     ]
   },
@@ -15381,6 +19901,11 @@ window.VOCAB_N5 = [
         "japanese": "左がマミ、中央がジェニー、右がマイケルです。",
         "romaji": "Hidari ga mami, chuuou ga jenii, migi ga Maikeru desu.",
         "german": "Links ist Mami, in der Mitte Jenny und rechts Michael."
+      },
+      {
+        "japanese": "部屋の中央にテーブルがあります。",
+        "romaji": "Heya no chuuou ni teeburu ga arimasu.",
+        "german": "In der Mitte des Zimmers steht ein Tisch."
       }
     ]
   },
@@ -15398,6 +19923,11 @@ window.VOCAB_N5 = [
         "japanese": "あの山、平らですね。",
         "romaji": "Ano yama, taira desu ne.",
         "german": "Dieser Berg ist flach."
+      },
+      {
+        "japanese": "この道は平らです。",
+        "romaji": "Kono michi wa taira desu.",
+        "german": "Dieser Weg ist flach."
       }
     ]
   },
@@ -15415,6 +19945,11 @@ window.VOCAB_N5 = [
         "japanese": "平日のディナーは主にカレーです。",
         "romaji": "Heijitsu no deinaa wa omo ni karee desu.",
         "german": "An Wochentagen esse ich hauptsächlich Curry zum Abendessen."
+      },
+      {
+        "japanese": "平日は仕事があります。",
+        "romaji": "Heijitsu wa shigoto ga arimasu.",
+        "german": "An Wochentagen habe ich Arbeit."
       }
     ]
   },
@@ -15432,6 +19967,11 @@ window.VOCAB_N5 = [
         "japanese": "力いっぱいの一打でしたね。",
         "romaji": "Chikaraippai no ichida deshita ne.",
         "german": "Das war ein kraftvoller Schlag."
+      },
+      {
+        "japanese": "一打で決めました。",
+        "romaji": "Ichiuchi de kimemashita.",
+        "german": "Ich habe es mit einem Schlag entschieden."
       }
     ]
   },
@@ -15449,6 +19989,11 @@ window.VOCAB_N5 = [
         "japanese": "バーのテーブルの上には小皿がたくさんあった。",
         "romaji": "Baa no teeburu no ue ni wa kozara ga takusan atta.",
         "german": "Auf dem Bartisch standen viele kleine Teller."
+      },
+      {
+        "japanese": "小皿に醤油を入れます。",
+        "romaji": "Kozara ni shouyu o iremasu.",
+        "german": "Ich gieße Sojasauce auf den kleinen Teller."
       }
     ]
   },
@@ -15466,6 +20011,11 @@ window.VOCAB_N5 = [
         "japanese": "お礼にビールをもらいました。",
         "romaji": "Orei ni biiru o moraimashita.",
         "german": "Als Dankeschön habe ich ein Bier bekommen."
+      },
+      {
+        "japanese": "お礼を言いたいです。",
+        "romaji": "Orei o iitai desu.",
+        "german": "Ich möchte mich bedanken."
       }
     ]
   },
@@ -15483,6 +20033,11 @@ window.VOCAB_N5 = [
         "japanese": "これは不正サイトです。",
         "romaji": "Kore wa fusei saito desu.",
         "german": "Das ist eine betrügerische Website."
+      },
+      {
+        "japanese": "不正は許されません。",
+        "romaji": "Fusei wa yurusaremasen.",
+        "german": "Betrug wird nicht geduldet."
       }
     ]
   },
@@ -15500,6 +20055,11 @@ window.VOCAB_N5 = [
         "japanese": "この子牛は、まだまだ小さい赤ちゃんです。",
         "romaji": "Kono ko ushi wa, madamada chiisai akachan desu.",
         "german": "Dieses Kalb ist noch ein kleines Baby."
+      },
+      {
+        "japanese": "牧場に子牛がいます。",
+        "romaji": "Bokujou ni koushi ga imasu.",
+        "german": "Auf der Farm gibt es Kälber."
       }
     ]
   },
@@ -15517,6 +20077,11 @@ window.VOCAB_N5 = [
         "japanese": "これは母の大切な宝石です。",
         "romaji": "Kore wa haha no taisetsu na houseki desu.",
         "german": "Das ist der kostbare Edelstein meiner Mutter."
+      },
+      {
+        "japanese": "この宝石はきれいですね。",
+        "romaji": "Kono houseki wa kirei desu ne.",
+        "german": "Dieser Edelstein ist schön, nicht wahr?"
       }
     ]
   },
@@ -15534,6 +20099,11 @@ window.VOCAB_N5 = [
         "japanese": "半分じゃなくて丸ごと一つ下さい。",
         "romaji": "Hanbun ja naku te marugoto hitotsu kudasai.",
         "german": "Bitte geben Sie mir das Ganze, nicht nur die Hälfte."
+      },
+      {
+        "japanese": "りんごを丸ごと食べました。",
+        "romaji": "Ringo o marugoto tabemashita.",
+        "german": "Ich habe den Apfel im Ganzen gegessen."
       }
     ]
   },
@@ -15551,6 +20121,11 @@ window.VOCAB_N5 = [
         "japanese": "きたない大気のせいでアレルギーになりました。",
         "romaji": "Kitanai taiki no sei de arerugii ni narimashita.",
         "german": "Wegen der verschmutzten Luft habe ich eine Allergie entwickelt."
+      },
+      {
+        "japanese": "大気がきれいです。",
+        "romaji": "Taiki ga kirei desu.",
+        "german": "Die Atmosphäre ist sauber."
       }
     ]
   },
@@ -15568,6 +20143,11 @@ window.VOCAB_N5 = [
         "japanese": "女王は、よく「そうね」と口にする。",
         "romaji": "Joou wa, yoku sou ne to kuchi ni suru.",
         "german": "Die Königin sagt oft \"da hast du Recht\"."
+      },
+      {
+        "japanese": "彼はその話を口にしません。",
+        "romaji": "Kare wa sono hanashi o kuchi ni shimasen.",
+        "german": "Er erwähnt diese Geschichte nicht."
       }
     ]
   },
@@ -15585,6 +20165,11 @@ window.VOCAB_N5 = [
         "japanese": "カナダは北アメリカにあります。",
         "romaji": "Kanada wa kita Amerika ni arimasu.",
         "german": "Kanada liegt in Nordamerika."
+      },
+      {
+        "japanese": "北アメリカは広いです。",
+        "romaji": "Kita Amerika wa hiroi desu.",
+        "german": "Nordamerika ist weitläufig."
       }
     ]
   },
@@ -15602,6 +20187,11 @@ window.VOCAB_N5 = [
         "japanese": "プレゼントのネクタイ、どれにする？",
         "romaji": "Purezento no nekutai, dore ni suru?",
         "german": "Welche dieser Krawatten soll ich als Geschenk nehmen?"
+      },
+      {
+        "japanese": "どれがあなたの本ですか。",
+        "romaji": "Dore ga anata no hon desu ka.",
+        "german": "Welches ist Ihr Buch?"
       }
     ]
   },
@@ -15619,6 +20209,11 @@ window.VOCAB_N5 = [
         "japanese": "うん、そうしよう！",
         "romaji": "Un, sou shiyou!",
         "german": "Ja, lass uns das machen!"
+      },
+      {
+        "japanese": "「うん、そうだね。」",
+        "romaji": "Un, sou da ne.",
+        "german": "Ja, genau."
       }
     ]
   },
@@ -15636,6 +20231,11 @@ window.VOCAB_N5 = [
         "japanese": "毎日ボトルに水を入れる。",
         "romaji": "Mainichi botoru ni mizu o ireru.",
         "german": "Ich fülle jeden Tag Wasser in eine Flasche."
+      },
+      {
+        "japanese": "かばんに本を入れました。",
+        "romaji": "Kaban ni hon o iremashita.",
+        "german": "Ich habe ein Buch in die Tasche getan."
       }
     ]
   },
@@ -15653,6 +20253,11 @@ window.VOCAB_N5 = [
         "japanese": "リサイクルのゴミを出す日です。",
         "romaji": "Risaikuru no gomi o dasu hi desu.",
         "german": "Heute ist der Tag, an dem der Recyclingmüll rausgestellt wird."
+      },
+      {
+        "japanese": "かばんから財布を出しました。",
+        "romaji": "Kaban kara saifu o dashimashita.",
+        "german": "Ich habe die Brieftasche aus der Tasche genommen."
       }
     ]
   },
@@ -15670,6 +20275,11 @@ window.VOCAB_N5 = [
         "japanese": "お金は不正を生む。",
         "romaji": "Okane wa fusei o umu.",
         "german": "Geld erzeugt Betrug."
+      },
+      {
+        "japanese": "猫が子猫を生みました。",
+        "romaji": "Neko ga koneko o umimashita.",
+        "german": "Die Katze hat Kätzchen geboren."
       }
     ]
   },
@@ -15687,6 +20297,11 @@ window.VOCAB_N5 = [
         "japanese": "ブックスタンドは本を立てるためのものです。",
         "romaji": "Bukku sutando wa hon o tateru tame no mono desu.",
         "german": "Ein Buchständer dient dazu, Bücher aufzustellen."
+      },
+      {
+        "japanese": "テントを立てました。",
+        "romaji": "Tento o tatemashita.",
+        "german": "Ich habe ein Zelt aufgestellt."
       }
     ]
   },
@@ -15704,6 +20319,11 @@ window.VOCAB_N5 = [
         "japanese": "この字は太字にしてください。",
         "romaji": "Kono ji wa futoji ni shite kudasai.",
         "german": "Bitte machen Sie dieses Zeichen fett."
+      },
+      {
+        "japanese": "太字で名前を書いてください。",
+        "romaji": "Futoji de namae o kaite kudasai.",
+        "german": "Bitte schreiben Sie den Namen in Fettdruck."
       }
     ]
   },
@@ -15721,6 +20341,11 @@ window.VOCAB_N5 = [
         "japanese": "カードをよく交ぜて下さい。",
         "romaji": "Kaado o yoku mazete kudasai.",
         "german": "Bitte mischen Sie die Karten gut durch."
+      },
+      {
+        "japanese": "砂糖と牛乳を交ぜました。",
+        "romaji": "Satou to gyuunyuu o mazemashita.",
+        "german": "Ich habe Zucker und Milch gemischt."
       }
     ]
   },
@@ -15738,6 +20363,11 @@ window.VOCAB_N5 = [
         "japanese": "夕べは、月光がとてもきれいでした。",
         "romaji": "Yuube wa, gekkou ga totemo kirei deshita.",
         "german": "Das Mondlicht war gestern Abend sehr schön."
+      },
+      {
+        "japanese": "月光がきれいですね。",
+        "romaji": "Gekkou ga kirei desu ne.",
+        "german": "Das Mondlicht ist schön, nicht wahr?"
       }
     ]
   },
@@ -15755,6 +20385,11 @@ window.VOCAB_N5 = [
         "japanese": "このアパートは日光がよく入る。",
         "romaji": "Kono apaato wa nikkou ga yoku hairu.",
         "german": "Diese Wohnung bekommt viel Sonnenlicht."
+      },
+      {
+        "japanese": "日光は体にいいです。",
+        "romaji": "Nikkou wa karada ni ii desu.",
+        "german": "Sonnenlicht ist gut für den Körper."
       }
     ]
   },
@@ -15772,6 +20407,11 @@ window.VOCAB_N5 = [
         "japanese": "DVDとCDが同日にリリースされた。",
         "romaji": "DVD to CD ga doujitsu ni ririisu sa reta.",
         "german": "Die DVD und die CD wurden am selben Tag veröffentlicht."
+      },
+      {
+        "japanese": "同日に二つの試験がありました。",
+        "romaji": "Doujitsu ni futatsu no shiken ga arimashita.",
+        "german": "Am selben Tag gab es zwei Prüfungen."
       }
     ]
   },
@@ -15789,6 +20429,11 @@ window.VOCAB_N5 = [
         "japanese": "テーブルの上で、コインが回る。",
         "romaji": "Teeburu no ue de, koin ga mawaru.",
         "german": "Die Münze dreht sich auf dem Tisch."
+      },
+      {
+        "japanese": "地球は太陽の周りを回っています。",
+        "romaji": "Chikyuu wa taiyou no mawari o mawatte imasu.",
+        "german": "Die Erde dreht sich um die Sonne."
       }
     ]
   },
@@ -15806,6 +20451,11 @@ window.VOCAB_N5 = [
         "japanese": "今回は、やめておきます。",
         "romaji": "Konkai wa, yamete okimasu.",
         "german": "Dieses Mal lasse ich es sein."
+      },
+      {
+        "japanese": "今回のテストは難しかったです。",
+        "romaji": "Konkai no tesuto wa muzukashikatta desu.",
+        "german": "Der Test war dieses Mal schwierig."
       }
     ]
   },
@@ -15823,6 +20473,11 @@ window.VOCAB_N5 = [
         "japanese": "あのミーティングに行くのは毎回この三人です。",
         "romaji": "Ano miiteingu ni iku no wa maikai kono sannin desu.",
         "german": "Die drei, die jedes Mal zu dem Treffen gehen, sind diese hier."
+      },
+      {
+        "japanese": "毎回遅刻しないでください。",
+        "romaji": "Maikai chikoku shinaide kudasai.",
+        "german": "Bitte kommen Sie nicht jedes Mal zu spät."
       }
     ]
   },
@@ -15840,6 +20495,11 @@ window.VOCAB_N5 = [
         "japanese": "テレビが当たるらしいよ。",
         "romaji": "Terebi ga atarurashii yo.",
         "german": "Anscheinend kann man einen Fernseher gewinnen."
+      },
+      {
+        "japanese": "宝くじが当たりました。",
+        "romaji": "Takarakuji ga atarimashita.",
+        "german": "Ich habe in der Lotterie gewonnen."
       }
     ]
   },
@@ -15857,6 +20517,11 @@ window.VOCAB_N5 = [
         "japanese": "「当たり！」という文字が目に入った。",
         "romaji": "Atari! Toiu moji ga me ni haitta.",
         "german": "Das Wort \"Volltreffer!\" fiel mir ins Auge."
+      },
+      {
+        "japanese": "今日は当たりの日ですね。",
+        "romaji": "Kyou wa atari no hi desu ne.",
+        "german": "Heute ist ein Glückstag, nicht wahr?"
       }
     ]
   },
@@ -15874,6 +20539,11 @@ window.VOCAB_N5 = [
         "japanese": "このワークショップは毎月ありますか？",
         "romaji": "Kono waakushoppu wa maitsuki arimasu ka?",
         "german": "Findet dieser Workshop jeden Monat statt?"
+      },
+      {
+        "japanese": "毎月本を三冊読みます。",
+        "romaji": "Maitsuki hon o sansatsu yomimasu.",
+        "german": "Ich lese jeden Monat drei Bücher."
       }
     ]
   },
@@ -15891,6 +20561,11 @@ window.VOCAB_N5 = [
         "japanese": "毎年四月に花見をします。",
         "romaji": "Maitoshi shigatsu ni hanami o shimasu.",
         "german": "Jedes Jahr im April mache ich Kirschblütenschau."
+      },
+      {
+        "japanese": "毎年お花見に行きます。",
+        "romaji": "Maitoshi ohanami ni ikimasu.",
+        "german": "Jedes Jahr gehe ich zum Kirschblütenfest."
       }
     ]
   },
@@ -15908,6 +20583,11 @@ window.VOCAB_N5 = [
         "japanese": "牛肉は平気ですか？",
         "romaji": "Gyuuniku wa heiki desu ka?",
         "german": "Ist Rindfleisch in Ordnung?"
+      },
+      {
+        "japanese": "牛肉が高くなりました。",
+        "romaji": "Gyuuniku ga takaku narimashita.",
+        "german": "Rindfleisch ist teurer geworden."
       }
     ]
   },
@@ -15925,6 +20605,11 @@ window.VOCAB_N5 = [
         "japanese": "男は自分だけだった。",
         "romaji": "Otoko wa jibun dake datta.",
         "german": "Ich war der einzige Mann dort."
+      },
+      {
+        "japanese": "自分のことは自分でします。",
+        "romaji": "Jibun no koto wa jibun de shimasu.",
+        "german": "Ich erledige meine eigenen Sachen selbst."
       }
     ]
   },
@@ -15942,6 +20627,11 @@ window.VOCAB_N5 = [
         "japanese": "あの水色のバッグがほしいんですが。",
         "romaji": "Ano mizuiro no baggu ga hoshii n desu ga.",
         "german": "Ich hätte gerne die hellblaue Tasche."
+      },
+      {
+        "japanese": "水色のシャツを着ています。",
+        "romaji": "Mizuiro no shatsu o kite imasu.",
+        "german": "Ich trage ein hellblaues Hemd."
       }
     ]
   },
@@ -15959,6 +20649,11 @@ window.VOCAB_N5 = [
         "japanese": "このバスはシアトル行きです。",
         "romaji": "Kono basu wa Shiatoruiki desu.",
         "german": "Dieser Bus fährt nach Seattle."
+      },
+      {
+        "japanese": "東京行きの電車に乗ります。",
+        "romaji": "Toukyou yuki no densha ni norimasu.",
+        "german": "Ich steige in den Zug Richtung Tokio."
       }
     ]
   },
@@ -15976,6 +20671,11 @@ window.VOCAB_N5 = [
         "japanese": "何千回もエラーが出た。",
         "romaji": "Nan senkai mo eraa ga deta.",
         "german": "Wir haben Tausende von Fehlern erhalten."
+      },
+      {
+        "japanese": "何千人もの人が来ました。",
+        "romaji": "Nanzennnin mo no hito ga kimashita.",
+        "german": "Tausende von Menschen sind gekommen."
       }
     ]
   },
@@ -15993,6 +20693,11 @@ window.VOCAB_N5 = [
         "japanese": "何月生まれですか？",
         "romaji": "Nani tsuki umare desu ka?",
         "german": "In welchem Monat sind Sie geboren?"
+      },
+      {
+        "japanese": "何月に日本に来ましたか。",
+        "romaji": "Nangatsu ni Nihon ni kimashita ka.",
+        "german": "In welchem Monat sind Sie nach Japan gekommen?"
       }
     ]
   },
@@ -16010,6 +20715,11 @@ window.VOCAB_N5 = [
         "japanese": "人生は学ぶことが多いです。",
         "romaji": "Jinsei wa manabu koto ga ooidesu.",
         "german": "Im Leben gibt es so viel zu lernen."
+      },
+      {
+        "japanese": "大学で経済学を学びました。",
+        "romaji": "Daigaku de keizaigaku o manabimashita.",
+        "german": "Ich habe an der Universität Wirtschaft gelernt."
       }
     ]
   },
@@ -16027,6 +20737,11 @@ window.VOCAB_N5 = [
         "japanese": "兄は一つ上の学年です。",
         "romaji": "Ani wa hitotsujou no gakunen desu.",
         "german": "Mein Bruder ist ein Schuljahr über mir."
+      },
+      {
+        "japanese": "私は三学年です。",
+        "romaji": "Watashi wa sangakunen desu.",
+        "german": "Ich bin im dritten Schuljahr."
       }
     ]
   },
@@ -16044,6 +20759,11 @@ window.VOCAB_N5 = [
         "japanese": "ロボット工学のクラスに入りたい。",
         "romaji": "Robotto kougaku no kurasu ni hairitai.",
         "german": "Ich möchte einen Robotik-Kurs belegen."
+      },
+      {
+        "japanese": "工学を勉強しています。",
+        "romaji": "Kougaku o benkyou shite imasu.",
+        "german": "Ich studiere Ingenieurwesen."
       }
     ]
   },
@@ -16061,6 +20781,11 @@ window.VOCAB_N5 = [
         "japanese": "それは金玉ではありません。",
         "romaji": "Sore wa kingyoku de wa arimasen.",
         "german": "Das ist kein Hoden."
+      },
+      {
+        "japanese": "子供が金玉を見つけました。",
+        "romaji": "Kodomo ga kindama o mitsukemashita.",
+        "german": "Das Kind hat goldene Kugeln gefunden."
       }
     ]
   },
@@ -16078,6 +20803,11 @@ window.VOCAB_N5 = [
         "japanese": "どうしても水は体内から出る。",
         "romaji": "Doushitemo mizu wa tainai kara deru.",
         "german": "Wasser verlässt den Körper auf jeden Fall."
+      },
+      {
+        "japanese": "体内の水分が大切です。",
+        "romaji": "Tainai no suibun ga taisetsu desu.",
+        "german": "Feuchtigkeit im Körper ist wichtig."
       }
     ]
   },
@@ -16095,6 +20825,11 @@ window.VOCAB_N5 = [
         "japanese": "「サイコ」はヒッチコックの大作だ。",
         "romaji": "Saiko wa hitchikokku no taisaku da.",
         "german": "\"Psycho\" ist Hitchcocks Meisterwerk."
+      },
+      {
+        "japanese": "この映画は大作ですね。",
+        "romaji": "Kono eiga wa taisaku desu ne.",
+        "german": "Dieser Film ist ein Meisterwerk, nicht wahr?"
       }
     ]
   },
@@ -16112,6 +20847,11 @@ window.VOCAB_N5 = [
         "japanese": "つい大声が出てしまった。",
         "romaji": "Tsui oogoe ga dete shimatta.",
         "german": "Ich habe unwillkürlich die Stimme erhoben."
+      },
+      {
+        "japanese": "大声で話さないでください。",
+        "romaji": "Oogoe de hanasanaide kudasai.",
+        "german": "Bitte sprechen Sie nicht mit lauter Stimme."
       }
     ]
   },
@@ -16129,6 +20869,11 @@ window.VOCAB_N5 = [
         "japanese": "あの二人は兄弟です。",
         "romaji": "Ano ninin wa kyoudai desu.",
         "german": "Die zwei sind Brüder."
+      },
+      {
+        "japanese": "兄弟は二人います。",
+        "romaji": "Kyoudai wa futari imasu.",
+        "german": "Ich habe zwei Geschwister."
       }
     ]
   },
@@ -16146,6 +20891,11 @@ window.VOCAB_N5 = [
         "japanese": "ピアノのコンクールは来月ですか？",
         "romaji": "Piano no konkuuru wa raigetsu desu ka?",
         "german": "Ist der Klavierwettbewerb nächsten Monat?"
+      },
+      {
+        "japanese": "来月から新しい仕事を始めます。",
+        "romaji": "Raigetsu kara atarashii shigoto o hajimemasu.",
+        "german": "Ab nächstem Monat beginne ich eine neue Arbeit."
       }
     ]
   },
@@ -16163,6 +20913,11 @@ window.VOCAB_N5 = [
         "japanese": "古来から、あの山は「ふじ山」という名だ。",
         "romaji": "Korai kara, ano yama wa Fujisan toiu na da.",
         "german": "Seit alters her heißt dieser Berg \"Berg Fuji\"."
+      },
+      {
+        "japanese": "この伝統は古来から続いています。",
+        "romaji": "Kono dentou wa korai kara tsuzuite imasu.",
+        "german": "Diese Tradition besteht seit alters her."
       }
     ]
   },
@@ -16180,6 +20935,11 @@ window.VOCAB_N5 = [
         "japanese": "マイケルは、父の三十年来の友人です。",
         "romaji": "Maikeru wa, chichi no san juunenrai no yuujin desu.",
         "german": "Michael ist ein dreißigjähriger Freund meines Vaters."
+      },
+      {
+        "japanese": "十年来の友人です。",
+        "romaji": "Juunnenrai no yuujin desu.",
+        "german": "Er ist ein Freund seit zehn Jahren."
       }
     ]
   },
@@ -16197,6 +20957,11 @@ window.VOCAB_N5 = [
         "japanese": "社内にデザイナーがいます。",
         "romaji": "Shanai ni dezainaa ga imasu.",
         "german": "Die Firma hat firmeninterne Designer."
+      },
+      {
+        "japanese": "社内のルールを守ってください。",
+        "romaji": "Shanai no ruuru o mamotte kudasai.",
+        "german": "Bitte befolgen Sie die firmeninternen Regeln."
       }
     ]
   },
@@ -16214,6 +20979,11 @@ window.VOCAB_N5 = [
         "japanese": "入社したばかりです。",
         "romaji": "Nyuusha shita bakari desu.",
         "german": "Ich bin gerade erst in eine Firma eingetreten."
+      },
+      {
+        "japanese": "来年入社する予定です。",
+        "romaji": "Rainen nyuusha suru yotei desu.",
+        "german": "Ich plane, nächstes Jahr in die Firma einzutreten."
       }
     ]
   },
@@ -16231,6 +21001,11 @@ window.VOCAB_N5 = [
         "japanese": "そのチーズは三角でした。",
         "romaji": "Sono chiizu wa sankaku deshita.",
         "german": "Der Käse war dreieckig."
+      },
+      {
+        "japanese": "この形は三角です。",
+        "romaji": "Kono katachi wa sankaku desu.",
+        "german": "Diese Form ist ein Dreieck."
       }
     ]
   },
@@ -16248,6 +21023,11 @@ window.VOCAB_N5 = [
         "japanese": "わたしのキーボードのキーは四角です。",
         "romaji": "Watashi no kiiboudo no kii wa shikaku desu.",
         "german": "Die Tasten meiner Tastatur sind quadratisch."
+      },
+      {
+        "japanese": "この箱は四角です。",
+        "romaji": "Kono hako wa shikaku desu.",
+        "german": "Diese Schachtel ist viereckig."
       }
     ]
   },
@@ -16265,6 +21045,11 @@ window.VOCAB_N5 = [
         "japanese": "スタッフは「ありがとうございました」と、言う。",
         "romaji": "Sutaffu wa arigatou gozaimashi ta to, iu.",
         "german": "Das Personal sagt: \"Vielen Dank.\""
+      },
+      {
+        "japanese": "はっきり言ってください。",
+        "romaji": "Hakkiri itte kudasai.",
+        "german": "Bitte sagen Sie es deutlich."
       }
     ]
   },
@@ -16282,6 +21067,11 @@ window.VOCAB_N5 = [
         "japanese": "走行スピードを下げてください。",
         "romaji": "Soukou supiido o sagete kudasai.",
         "german": "Bitte reduzieren Sie die Fahrgeschwindigkeit."
+      },
+      {
+        "japanese": "高速道路を走行しています。",
+        "romaji": "Kousoku douro o soukou shite imasu.",
+        "german": "Wir fahren auf der Autobahn."
       }
     ]
   },
@@ -16299,6 +21089,11 @@ window.VOCAB_N5 = [
         "japanese": "このレストランは近日オープンする。",
         "romaji": "Kono resutoran wa kinjitsu oupun suru.",
         "german": "Dieses Restaurant eröffnet demnächst."
+      },
+      {
+        "japanese": "近日中にお知らせします。",
+        "romaji": "Kinjitsuchuu ni oshirase shimasu.",
+        "german": "Wir werden Sie in Kürze benachrichtigen."
       }
     ]
   },
@@ -16316,6 +21111,11 @@ window.VOCAB_N5 = [
         "japanese": "近年、日本のウィスキーがトレンドです。",
         "romaji": "Kinnen, Nippon no uisukii ga torendo desu.",
         "german": "In den letzten Jahren liegt japanischer Whisky im Trend."
+      },
+      {
+        "japanese": "近年、外国人観光客が増えました。",
+        "romaji": "Kinnen, gaikokujin kankoukyaku ga fuemashita.",
+        "german": "In letzter Zeit haben die ausländischen Touristen zugenommen."
       }
     ]
   },
@@ -16333,6 +21133,11 @@ window.VOCAB_N5 = [
         "japanese": "２０１８年に男の子が生まれました。",
         "romaji": "Nisenjuuhachinen ni otokonoko ga umaremashita.",
         "german": "Im Jahr 2018 wurde ein Junge geboren."
+      },
+      {
+        "japanese": "男の子が二人遊んでいます。",
+        "romaji": "Otoko no ko ga futari asonde imasu.",
+        "german": "Zwei Jungen spielen."
       }
     ]
   },
@@ -16350,6 +21155,11 @@ window.VOCAB_N5 = [
         "japanese": "キャベツの中に毛虫がいた。",
         "romaji": "Kyabetsu no naka ni kemushi ga ita.",
         "german": "Im Kohl war eine Raupe."
+      },
+      {
+        "japanese": "庭に毛虫がいます。",
+        "romaji": "Niwa ni kemushi ga imasu.",
+        "german": "Im Garten gibt es Raupen."
       }
     ]
   },
@@ -16367,6 +21177,11 @@ window.VOCAB_N5 = [
         "japanese": "父は下町で生まれた。",
         "romaji": "Chichi wa shitamachi de umareta.",
         "german": "Mein Vater wurde in der Innenstadt geboren."
+      },
+      {
+        "japanese": "下町を散歩しました。",
+        "romaji": "Shitamachi o sanpo shimashita.",
+        "german": "Ich bin durch die Innenstadt spaziert."
       }
     ]
   },
@@ -16384,6 +21199,11 @@ window.VOCAB_N5 = [
         "japanese": "田中先生は男の人です。",
         "romaji": "Tanaka sensei wa otoko no hito desu.",
         "german": "Tanaka-Sensei ist ein Mann."
+      },
+      {
+        "japanese": "あの男の人は先生です。",
+        "romaji": "Ano otoko no hito wa sensei desu.",
+        "german": "Jener Mann ist ein Lehrer."
       }
     ]
   },
@@ -16401,6 +21221,11 @@ window.VOCAB_N5 = [
         "japanese": "今まで、ありがとう。",
         "romaji": "Ima made, arigatou.",
         "german": "Danke für alles bis jetzt."
+      },
+      {
+        "japanese": "今まで何をしていましたか。",
+        "romaji": "Ima made nani o shite imashita ka.",
+        "german": "Was haben Sie bis jetzt gemacht?"
       }
     ]
   },
@@ -16418,6 +21243,11 @@ window.VOCAB_N5 = [
         "japanese": "ピンク色の毛糸を下さい。",
         "romaji": "Pinkuiro no keito o kudasai.",
         "german": "Bitte geben Sie mir rosa Wolle."
+      },
+      {
+        "japanese": "毛糸でマフラーを編みました。",
+        "romaji": "Keito de mafuraa o amimashita.",
+        "german": "Ich habe mit Wolle einen Schal gestrickt."
       }
     ]
   },
@@ -16435,6 +21265,11 @@ window.VOCAB_N5 = [
         "japanese": "今すぐスーパーにいってきます。",
         "romaji": "Ima sugu suupaa ni itte kimasu.",
         "german": "Ich gehe jetzt sofort zum Supermarkt."
+      },
+      {
+        "japanese": "今すぐ来てください。",
+        "romaji": "Ima sugu kite kudasai.",
+        "german": "Kommen Sie bitte sofort."
       }
     ]
   },
@@ -16452,6 +21287,11 @@ window.VOCAB_N5 = [
         "japanese": "あの山は、このクマの里なんです。",
         "romaji": "Ano yama wa, kono kuma no sato na n desu.",
         "german": "Dieser Berg ist die Heimat dieses Bären."
+      },
+      {
+        "japanese": "お盆に里帰りします。",
+        "romaji": "Obon ni satogaeri shimasu.",
+        "german": "Zu Obon fahre ich in die Heimat zurück."
       }
     ]
   },
@@ -16469,6 +21309,11 @@ window.VOCAB_N5 = [
         "japanese": "ちょっと里心がついちゃったんです。",
         "romaji": "Chotto satogokoro ga tsui chatta n desu.",
         "german": "Ich habe ein bisschen Heimweh."
+      },
+      {
+        "japanese": "里心がついて泣きました。",
+        "romaji": "Satogokoro ga tsuite nakimashita.",
+        "german": "Ich bekam Heimweh und weinte."
       }
     ]
   },
@@ -16486,6 +21331,11 @@ window.VOCAB_N5 = [
         "japanese": "それは本当ですか？",
         "romaji": "Sore wa hontou desu ka?",
         "german": "Ist das wahr?"
+      },
+      {
+        "japanese": "本当のことを言ってください。",
+        "romaji": "Hontou no koto o itte kudasai.",
+        "german": "Bitte sagen Sie die Wahrheit."
       }
     ]
   },
@@ -16503,6 +21353,11 @@ window.VOCAB_N5 = [
         "japanese": "あのコインパーキング、空車あるかな？",
         "romaji": "Ano koin paakingu, kuusha aru ka na?",
         "german": "Ob es auf diesem Parkplatz wohl einen freien Platz gibt?"
+      },
+      {
+        "japanese": "空車のタクシーが来ました。",
+        "romaji": "Kuusha no takushii ga kimashita.",
+        "german": "Ein freies Taxi kam."
       }
     ]
   },
@@ -16520,6 +21375,11 @@ window.VOCAB_N5 = [
         "japanese": "主人は一生のパートナーです。",
         "romaji": "Shujin wa isshou no paatonaa desu.",
         "german": "Mein Ehemann ist mein Partner fürs Leben."
+      },
+      {
+        "japanese": "一生の思い出になりました。",
+        "romaji": "Isshou no omoide ni narimashita.",
+        "german": "Es wurde eine Erinnerung fürs ganze Leben."
       }
     ]
   },
@@ -16537,6 +21397,11 @@ window.VOCAB_N5 = [
         "japanese": "あの子の仕草は、まるで大人の仕草だ。",
         "romaji": "Ano ko no shigusa wa, marude otona no shigusa da.",
         "german": "Die Gesten dieses Kindes sind wie die eines Erwachsenen."
+      },
+      {
+        "japanese": "猫の仕草がかわいいです。",
+        "romaji": "Neko no shigusa ga kawaii desu.",
+        "german": "Die Gesten der Katze sind niedlich."
       }
     ]
   },
@@ -16554,6 +21419,11 @@ window.VOCAB_N5 = [
         "japanese": "「出る」の「て形」は「出て」です。",
         "romaji": "Deru no te katachi wa dete desu.",
         "german": "Die Te-Form von \"deru\" ist \"dete\"."
+      },
+      {
+        "japanese": "この皿は丸い形です。",
+        "romaji": "Kono sara wa marui katachi desu.",
+        "german": "Dieser Teller hat eine runde Form."
       }
     ]
   },
@@ -16571,6 +21441,11 @@ window.VOCAB_N5 = [
         "japanese": "わたしは日本人ですが、生まれはサンフランシスコです。",
         "romaji": "Watashi wa nipponjin desu ga, umare wa Sanfuranshisuko desu.",
         "german": "Ich bin Japaner, aber geboren in San Francisco."
+      },
+      {
+        "japanese": "生まれはどちらですか。",
+        "romaji": "Umare wa dochira desu ka.",
+        "german": "Woher kommen Sie?"
       }
     ]
   },
@@ -16588,6 +21463,11 @@ window.VOCAB_N5 = [
         "japanese": "その他のゴミはリサイクルして下さい。",
         "romaji": "Sonota no gomi wa risaikuru shite kudasai.",
         "german": "Bitte recyceln Sie den restlichen Müll."
+      },
+      {
+        "japanese": "「その他のご質問はありますか。」",
+        "romaji": "Sonota no goshitsumon wa arimasu ka.",
+        "german": "Haben Sie sonstige Fragen?"
       }
     ]
   },
@@ -16605,6 +21485,11 @@ window.VOCAB_N5 = [
         "japanese": "エレベーターは西口にあります。",
         "romaji": "Erebeetaa wa nishiguchi ni arimasu.",
         "german": "Der Aufzug befindet sich am Westausgang."
+      },
+      {
+        "japanese": "西口で待ち合わせしましょう。",
+        "romaji": "Nishiguchi de machiawase shimashou.",
+        "german": "Lass uns uns am Westausgang treffen."
       }
     ]
   },
@@ -16622,6 +21507,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は三日月です。",
         "romaji": "Kyou wa mikazuki desu.",
         "german": "Heute gibt es eine Mondsichel."
+      },
+      {
+        "japanese": "三日月がきれいですね。",
+        "romaji": "Mikazuki ga kirei desu ne.",
+        "german": "Die Mondsichel ist schön, nicht wahr?"
       }
     ]
   },
@@ -16639,6 +21529,11 @@ window.VOCAB_N5 = [
         "japanese": "それ、おもしろそうだね！",
         "romaji": "Sore, omoshirosouda ne!",
         "german": "Das sieht lustig aus!"
+      },
+      {
+        "japanese": "それはいくらですか。",
+        "romaji": "Sore wa ikura desu ka.",
+        "german": "Wie viel kostet das?"
       }
     ]
   },
@@ -16656,6 +21551,11 @@ window.VOCAB_N5 = [
         "japanese": "今、デパートのトイレにいる。",
         "romaji": "Ima, depaato no toire ni iru.",
         "german": "Ich bin gerade auf der Toilette des Kaufhauses."
+      },
+      {
+        "japanese": "デパートで服を買いました。",
+        "romaji": "Depaato de fuku o kaimashita.",
+        "german": "Ich habe im Kaufhaus Kleidung gekauft."
       }
     ]
   },
@@ -16673,6 +21573,11 @@ window.VOCAB_N5 = [
         "japanese": "これ、あなたのブログですか？",
         "romaji": "Kore, anata no burogu desu ka?",
         "german": "Ist das Ihr Blog?"
+      },
+      {
+        "japanese": "あなたのお名前は何ですか。",
+        "romaji": "Anata no onamae wa nan desu ka.",
+        "german": "Wie heißen Sie?"
       }
     ]
   },
@@ -16690,6 +21595,11 @@ window.VOCAB_N5 = [
         "japanese": "パパはテニスが上手い。",
         "romaji": "Papa wa tenisu ga umai.",
         "german": "Papa ist gut im Tennis."
+      },
+      {
+        "japanese": "上手いですね！",
+        "romaji": "Umai desu ne!",
+        "german": "Das ist geschickt!"
       }
     ]
   },
@@ -16707,6 +21617,11 @@ window.VOCAB_N5 = [
         "japanese": "あの男は三十代です。",
         "romaji": "Ano otoko wa san juudai desu.",
         "german": "Der Mann dort drüben ist in seinen Dreißigern."
+      },
+      {
+        "japanese": "彼は三十代です。",
+        "romaji": "Kare wa sanjuudai desu.",
+        "german": "Er ist in den Dreißigern."
       }
     ]
   },
@@ -16724,6 +21639,11 @@ window.VOCAB_N5 = [
         "japanese": "本の代金はカードではらいます。",
         "romaji": "Hon no daikin wa kaado de haraimasu.",
         "german": "Ich möchte die Bücher mit Karte bezahlen."
+      },
+      {
+        "japanese": "代金を払ってください。",
+        "romaji": "Daikin o haratte kudasai.",
+        "german": "Bitte bezahlen Sie den Preis."
       }
     ]
   },
@@ -16741,6 +21661,11 @@ window.VOCAB_N5 = [
         "japanese": "この糸は、すぐに切れる。",
         "romaji": "Kono ito wa, sugu ni kireru.",
         "german": "Diese Fäden reißen leicht."
+      },
+      {
+        "japanese": "糸が切れてしまいました。",
+        "romaji": "Ito ga kirete shimaimashita.",
+        "german": "Der Faden ist gerissen."
       }
     ]
   },
@@ -16758,6 +21683,11 @@ window.VOCAB_N5 = [
         "japanese": "タイトルは、全て大文字でおねがいします。",
         "romaji": "Taitoru wa, subete daimonji de onegai shimasu.",
         "german": "Bitte alles in Großbuchstaben für den Titel."
+      },
+      {
+        "japanese": "名前は大文字で書いてください。",
+        "romaji": "Namae wa oomoji de kaite kudasai.",
+        "german": "Bitte schreiben Sie den Namen in Großbuchstaben."
       }
     ]
   },
@@ -16775,6 +21705,11 @@ window.VOCAB_N5 = [
         "japanese": "「ありがとう」と耳打ちした。",
         "romaji": "Arigatou to mimiuchi shita.",
         "german": "\"Danke\", flüsterte ich ins Ohr."
+      },
+      {
+        "japanese": "友達に秘密を耳打ちしました。",
+        "romaji": "Tomodachi ni himitsu o mimiuchi shimashita.",
+        "german": "Ich habe meinem Freund ein Geheimnis ins Ohr geflüstert."
       }
     ]
   },
@@ -16792,6 +21727,11 @@ window.VOCAB_N5 = [
         "japanese": "サワークリームをヨーグルトで代用しました。",
         "romaji": "Sawaakuriimu o youguruto de daiyou shimashita.",
         "german": "Ich habe Sauerrahm durch Joghurt ersetzt."
+      },
+      {
+        "japanese": "バターの代用にマーガリンを使います。",
+        "romaji": "Bataa no daiyou ni maagarin o tsukaimasu.",
+        "german": "Statt Butter verwende ich Margarine."
       }
     ]
   },
@@ -16809,6 +21749,11 @@ window.VOCAB_N5 = [
         "japanese": "父はビデオに写るのがきらいです。",
         "romaji": "Chichi wa bideo ni utsuru no ga kirai desu.",
         "german": "Mein Vater mag es nicht, in Videos aufzutauchen."
+      },
+      {
+        "japanese": "写真にきれいに写りました。",
+        "romaji": "Shashin ni kirei ni utsurimashita.",
+        "german": "Ich bin schön auf dem Foto abgebildet."
       }
     ]
   },
@@ -16826,6 +21771,11 @@ window.VOCAB_N5 = [
         "japanese": "ホテルでミーティングを行うつもりです。",
         "romaji": "Hoteru de miiteingu o okonau tsumori desu.",
         "german": "Ich beabsichtige, ein Meeting im Hotel durchzuführen."
+      },
+      {
+        "japanese": "来月イベントを行います。",
+        "romaji": "Raigetsu ibento o okonaimasu.",
+        "german": "Nächsten Monat führen wir ein Event durch."
       }
     ]
   },
@@ -16843,6 +21793,11 @@ window.VOCAB_N5 = [
         "japanese": "その車両は地下に入った。",
         "romaji": "Sono sharyou wa chika ni haitta.",
         "german": "Das Fahrzeug fuhr in den Untergrund."
+      },
+      {
+        "japanese": "地下に駐車場があります。",
+        "romaji": "Chika ni chuushajou ga arimasu.",
+        "german": "Im Untergeschoss gibt es einen Parkplatz."
       }
     ]
   },
@@ -16860,6 +21815,11 @@ window.VOCAB_N5 = [
         "japanese": "両手を上げて、バンザイをしました。",
         "romaji": "Ryoute o agete, banzai o shimashita.",
         "german": "Sie hoben beide Hände und riefen Banzai."
+      },
+      {
+        "japanese": "両手で持ってください。",
+        "romaji": "Ryoute de motte kudasai.",
+        "german": "Bitte halten Sie es mit beiden Händen."
       }
     ]
   },
@@ -16877,6 +21837,11 @@ window.VOCAB_N5 = [
         "japanese": "両日のスケジュールをメールして下さい。",
         "romaji": "Ryoujitsu no sukejuuru o meeru shite kudasai.",
         "german": "Bitte mailen Sie den Zeitplan für beide Tage."
+      },
+      {
+        "japanese": "両日とも天気がよかったです。",
+        "romaji": "Ryoujitsu to mo tenki ga yokatta desu.",
+        "german": "An beiden Tagen war das Wetter gut."
       }
     ]
   },
@@ -16894,6 +21859,11 @@ window.VOCAB_N5 = [
         "japanese": "父も母も、両方ともフランス人です。",
         "romaji": "Chichi mo haha mo, ryouhou tomo Furansujin desu.",
         "german": "Sowohl mein Vater als auch meine Mutter sind Franzosen."
+      },
+      {
+        "japanese": "両方食べたいです。",
+        "romaji": "Ryouhou tabetai desu.",
+        "german": "Ich möchte beides essen."
       }
     ]
   },
@@ -16911,6 +21881,11 @@ window.VOCAB_N5 = [
         "japanese": "玉ねぎは全て切りますか？",
         "romaji": "Tamanegi wa subete kirimasu ka?",
         "german": "Soll ich die ganze Zwiebel schneiden?"
+      },
+      {
+        "japanese": "全て終わりました。",
+        "romaji": "Subete owarimashita.",
+        "german": "Alles ist fertig."
       }
     ]
   },
@@ -16928,6 +21903,11 @@ window.VOCAB_N5 = [
         "japanese": "会社まで全力で走りました。",
         "romaji": "Kaisha made zenryoku de hashirimashita.",
         "german": "Ich bin mit voller Kraft zur Firma gerannt."
+      },
+      {
+        "japanese": "全力で走りました。",
+        "romaji": "Zenryoku de hashirimashita.",
+        "german": "Ich bin mit voller Kraft gerannt."
       }
     ]
   },
@@ -16945,6 +21925,11 @@ window.VOCAB_N5 = [
         "japanese": "全日本の人口は主にアジア人です。",
         "romaji": "Zennihon no jinkou wa omo ni Ajiajin desu.",
         "german": "Die Bevölkerung ganz Japans ist hauptsächlich asiatisch."
+      },
+      {
+        "japanese": "全日本選手権が始まります。",
+        "romaji": "Zen Nihon senshuken ga hajimarimasu.",
+        "german": "Die Gesamtjapanische Meisterschaft beginnt."
       }
     ]
   },
@@ -16962,6 +21947,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は一日、平安な日でした。",
         "romaji": "Kyou wa ichinichi, heian na hi deshita.",
         "german": "Heute war ein friedlicher Tag."
+      },
+      {
+        "japanese": "平安な時代でした。",
+        "romaji": "Heian na jidai deshita.",
+        "german": "Es war eine friedliche Zeit."
       }
     ]
   },
@@ -16979,6 +21969,11 @@ window.VOCAB_N5 = [
         "japanese": "九州に行ったことはありますか？",
         "romaji": "Kyuushuu ni itta koto wa arimasu ka?",
         "german": "Waren Sie schon einmal in Kyushu?"
+      },
+      {
+        "japanese": "九州に旅行に行きました。",
+        "romaji": "Kyuushuu ni ryokou ni ikimashita.",
+        "german": "Ich bin nach Kyushu gereist."
       }
     ]
   },
@@ -16996,6 +21991,11 @@ window.VOCAB_N5 = [
         "japanese": "本州の人口は何人ですか？",
         "romaji": "Honshuu no jinkou wa nannin desu ka?",
         "german": "Wie groß ist die Bevölkerung von Honshu?"
+      },
+      {
+        "japanese": "本州は一番大きい島です。",
+        "romaji": "Honshuu wa ichiban ookii shima desu.",
+        "german": "Honshu ist die größte Insel."
       }
     ]
   },
@@ -17013,6 +22013,11 @@ window.VOCAB_N5 = [
         "japanese": "これはジャズの名曲です。",
         "romaji": "Kore wa jazu no meikyoku desu.",
         "german": "Das ist ein Jazz-Meisterwerk."
+      },
+      {
+        "japanese": "この名曲を聴いてください。",
+        "romaji": "Kono meikyoku o kiite kudasai.",
+        "german": "Bitte hören Sie dieses Meisterwerk."
       }
     ]
   },
@@ -17030,6 +22035,11 @@ window.VOCAB_N5 = [
         "japanese": "マヨネーズなら、まだ少し有る。",
         "romaji": "Mayoneezu nara, mada sukoshi aru.",
         "german": "Wir haben noch etwas Mayonnaise."
+      },
+      {
+        "japanese": "冷蔵庫にまだ牛乳が有ります。",
+        "romaji": "Reizouko ni mada gyuunyuu ga arimasu.",
+        "german": "Im Kühlschrank ist noch Milch."
       }
     ]
   },
@@ -17047,6 +22057,11 @@ window.VOCAB_N5 = [
         "japanese": "二人の死体は、山で見つかった。",
         "romaji": "Ninin no shitai wa, yama de mitsukatta.",
         "german": "Die Leichen der zwei wurden in den Bergen gefunden."
+      },
+      {
+        "japanese": "道に死体がありました。",
+        "romaji": "Michi ni shitai ga arimashita.",
+        "german": "Auf der Straße lag eine Leiche."
       }
     ]
   },
@@ -17064,6 +22079,11 @@ window.VOCAB_N5 = [
         "japanese": "今回のフライトで、死亡した人はいませんでした。",
         "romaji": "Konkai no furaito de, shibou shita hito wa imasendeshita.",
         "german": "Bei diesem Flug ist niemand gestorben."
+      },
+      {
+        "japanese": "事故で一人が死亡しました。",
+        "romaji": "Jiko de hitori ga shibou shimashita.",
+        "german": "Bei dem Unfall ist eine Person gestorben."
       }
     ]
   },
@@ -17081,6 +22101,11 @@ window.VOCAB_N5 = [
         "japanese": "クリスマスプレゼントに、羊毛のブランケットをもらいました。",
         "romaji": "Kurisumasu purezento ni, youmou no buranketto o moraimashita.",
         "german": "Ich habe eine Wolldecke als Weihnachtsgeschenk bekommen."
+      },
+      {
+        "japanese": "このセーターは羊毛でできています。",
+        "romaji": "Kono seetaa wa youmou de dekite imasu.",
+        "german": "Dieser Pullover ist aus Wolle."
       }
     ]
   },
@@ -17098,6 +22123,11 @@ window.VOCAB_N5 = [
         "japanese": "中国の人口は日本よりも大きい。",
         "romaji": "Chuugoku no jinkou wa Nippon yori mo ookii.",
         "german": "Chinas Bevölkerung ist größer als die von Japan."
+      },
+      {
+        "japanese": "中国は大きい国です。",
+        "romaji": "Chuugoku wa ookii kuni desu.",
+        "german": "China ist ein großes Land."
       }
     ]
   },
@@ -17115,6 +22145,11 @@ window.VOCAB_N5 = [
         "japanese": "今、全国でインフルエンザの人が多いです。",
         "romaji": "Ima, zenkoku de infuruenza no hito ga ooidesu.",
         "german": "Derzeit gibt es landesweit viele Menschen mit Grippe."
+      },
+      {
+        "japanese": "全国で雨が降っています。",
+        "romaji": "Zenkoku de ame ga futte imasu.",
+        "german": "Im ganzen Land regnet es."
       }
     ]
   },
@@ -17132,6 +22167,11 @@ window.VOCAB_N5 = [
         "japanese": "四国にはまだ行ったことがありません。",
         "romaji": "Shikoku ni wa mada okonatta koto ga arimasen.",
         "german": "Ich war noch nie in Shikoku."
+      },
+      {
+        "japanese": "四国にはお遍路があります。",
+        "romaji": "Shikoku ni wa ohenro ga arimasu.",
+        "german": "Auf Shikoku gibt es die Pilgertour."
       }
     ]
   },
@@ -17149,6 +22189,11 @@ window.VOCAB_N5 = [
         "japanese": "まだ外国に行ったことがありません。",
         "romaji": "Mada gaikoku ni itta koto ga arimasen.",
         "german": "Ich war noch nie im Ausland."
+      },
+      {
+        "japanese": "外国に行ったことがありますか。",
+        "romaji": "Gaikoku ni itta koto ga arimasu ka.",
+        "german": "Waren Sie schon einmal im Ausland?"
       }
     ]
   },
@@ -17166,6 +22211,11 @@ window.VOCAB_N5 = [
         "japanese": "六月に外国人の友人が日本に来ます。",
         "romaji": "Rokugatsu ni gaikokujin no yuujin ga Nippon ni kimasu.",
         "german": "Im Juni kommen meine ausländischen Freunde nach Japan."
+      },
+      {
+        "japanese": "この町に外国人が多いです。",
+        "romaji": "Kono machi ni gaikokujin ga ooi desu.",
+        "german": "In dieser Stadt gibt es viele Ausländer."
       }
     ]
   },
@@ -17183,6 +22233,11 @@ window.VOCAB_N5 = [
         "japanese": "主人は米国にいます。",
         "romaji": "Shujin wa Beikoku ni imasu.",
         "german": "Mein Mann ist in den Vereinigten Staaten."
+      },
+      {
+        "japanese": "米国の大統領が来ました。",
+        "romaji": "Beikoku no daitouryou ga kimashita.",
+        "german": "Der Präsident der Vereinigten Staaten kam."
       }
     ]
   },
@@ -17200,6 +22255,11 @@ window.VOCAB_N5 = [
         "japanese": "あの二人って姉妹みたいだよね。",
         "romaji": "Ano ninin tte shimai mitai da yo ne.",
         "german": "Die beiden sind wie Schwestern."
+      },
+      {
+        "japanese": "姉妹がいますか。",
+        "romaji": "Shimai ga imasu ka.",
+        "german": "Haben Sie Schwestern?"
       }
     ]
   },
@@ -17217,6 +22277,11 @@ window.VOCAB_N5 = [
         "japanese": "後でホテルに来て下さい。",
         "romaji": "Atode hoteru ni kite kudasai.",
         "german": "Bitte kommen Sie später ins Hotel."
+      },
+      {
+        "japanese": "後で電話します。",
+        "romaji": "Ato de denwa shimasu.",
+        "german": "Ich rufe später an."
       }
     ]
   },
@@ -17234,6 +22299,11 @@ window.VOCAB_N5 = [
         "japanese": "海外に行きたいなぁ。",
         "romaji": "Kaigai ni ikitai naa.",
         "german": "Ich möchte ins Ausland reisen."
+      },
+      {
+        "japanese": "海外旅行がしたいです。",
+        "romaji": "Kaigai ryokou ga shitai desu.",
+        "german": "Ich möchte eine Auslandsreise machen."
       }
     ]
   },
@@ -17251,6 +22321,11 @@ window.VOCAB_N5 = [
         "japanese": "私のカバンは茶色です。",
         "romaji": "Watashi no kaban wa chairo desu.",
         "german": "Meine Tasche ist braun."
+      },
+      {
+        "japanese": "茶色の靴を買いました。",
+        "romaji": "Chairo no kutsu o kaimashita.",
+        "german": "Ich habe braune Schuhe gekauft."
       }
     ]
   },
@@ -17268,6 +22343,11 @@ window.VOCAB_N5 = [
         "japanese": "先月、会社を首になりました。",
         "romaji": "Sengetsu, kaisha o kubi ni narimashita.",
         "german": "Letzten Monat wurde ich von der Firma gefeuert."
+      },
+      {
+        "japanese": "彼は会社を首になりました。",
+        "romaji": "Kare wa kaisha o kubi ni narimashita.",
+        "german": "Er wurde von der Firma gefeuert."
       }
     ]
   },
@@ -17285,6 +22365,11 @@ window.VOCAB_N5 = [
         "japanese": "去年、母が亡くなった。",
         "romaji": "Kyonen, haha ga nakunatta.",
         "german": "Letztes Jahr ist meine Mutter gestorben."
+      },
+      {
+        "japanese": "おじいさんが亡くなりました。",
+        "romaji": "Ojiisan ga nakunarimashita.",
+        "german": "Der Großvater ist gestorben."
       }
     ]
   },
@@ -17302,6 +22387,11 @@ window.VOCAB_N5 = [
         "japanese": "Eメールアドレスは、全て小文字で入力して下さい。",
         "romaji": "E meeruadoresu wa, subete komoji de nyuuryoku shite kudasai.",
         "german": "Bitte geben Sie Ihre E-Mail-Adresse in Kleinbuchstaben ein."
+      },
+      {
+        "japanese": "パスワードは小文字で入力してください。",
+        "romaji": "Pasuwaado wa komoji de nyuuryoku shite kudasai.",
+        "german": "Bitte geben Sie das Passwort in Kleinbuchstaben ein."
       }
     ]
   },
@@ -17319,6 +22409,11 @@ window.VOCAB_N5 = [
         "japanese": "十一月と十二月は、冬休みです。",
         "romaji": "Juuichigatsu to juunigatsu wa, fuyuyasumi desu.",
         "german": "November und Dezember sind Winterferien."
+      },
+      {
+        "japanese": "冬休みにスキーに行きます。",
+        "romaji": "Fuyuyasumi ni sukii ni ikimasu.",
+        "german": "In den Winterferien gehe ich Ski fahren."
       }
     ]
   },
@@ -17336,6 +22431,11 @@ window.VOCAB_N5 = [
         "japanese": "やっとJLPTN1にごうかくすることが出来ました。",
         "romaji": "Yatto JLPTN 1 ni go u kakusuru koto ga dekimashita.",
         "german": "Ich konnte endlich die JLPT N1 bestehen."
+      },
+      {
+        "japanese": "料理が出来ました。",
+        "romaji": "Ryouri ga dekimashita.",
+        "german": "Das Essen ist fertig."
       }
     ]
   },
@@ -17353,6 +22453,11 @@ window.VOCAB_N5 = [
         "japanese": "兄は、とても早口です。",
         "romaji": "Ani wa, totemo hayakuchi desu.",
         "german": "Mein Bruder spricht sehr schnell."
+      },
+      {
+        "japanese": "あの人は早口ですね。",
+        "romaji": "Ano hito wa hayakuchi desu ne.",
+        "german": "Diese Person spricht schnell, nicht wahr?"
       }
     ]
   },
@@ -17370,6 +22475,11 @@ window.VOCAB_N5 = [
         "japanese": "お金が十円足りないんです。",
         "romaji": "Okane ga juuen tarinai n desu.",
         "german": "Mir fehlen zehn Yen."
+      },
+      {
+        "japanese": "お金が足りないので買えません。",
+        "romaji": "Okane ga tarinai node kaemasen.",
+        "german": "Das Geld reicht nicht, deshalb kann ich es nicht kaufen."
       }
     ]
   },
@@ -17387,6 +22497,11 @@ window.VOCAB_N5 = [
         "japanese": "元パートナーは、私より年上です。",
         "romaji": "Moto paatonaa wa, watashi yori toshiue desu.",
         "german": "Mein ehemaliger Partner ist aelter als ich."
+      },
+      {
+        "japanese": "彼は私より年上です。",
+        "romaji": "Kare wa watashi yori toshiue desu.",
+        "german": "Er ist älter als ich."
       }
     ]
   },
@@ -17404,6 +22519,11 @@ window.VOCAB_N5 = [
         "japanese": "今年はダイエットをしたいです。",
         "romaji": "Kotoshi wa daietto o shitaidesu.",
         "german": "Dieses Jahr möchte ich eine Diät machen."
+      },
+      {
+        "japanese": "今年は暑い夏でした。",
+        "romaji": "Kotoshi wa atsui natsu deshita.",
+        "german": "Dieses Jahr war es ein heißer Sommer."
       }
     ]
   },
@@ -17421,6 +22541,11 @@ window.VOCAB_N5 = [
         "japanese": "このクラスは年下の子が多いです。",
         "romaji": "Kono kurasu wa toshishita no ko ga ooidesu.",
         "german": "In dieser Klasse gibt es viele juengere Kinder."
+      },
+      {
+        "japanese": "弟は三歳年下です。",
+        "romaji": "Otouto wa sansai toshishita desu.",
+        "german": "Mein jüngerer Bruder ist drei Jahre jünger."
       }
     ]
   },
@@ -17438,6 +22563,11 @@ window.VOCAB_N5 = [
         "japanese": "東口にはコンビニがありますか？",
         "romaji": "Higashiguchi ni wa konbini ga arimasu ka?",
         "german": "Gibt es am Ostausgang einen Convenience-Store?"
+      },
+      {
+        "japanese": "東口から出てください。",
+        "romaji": "Higashiguchi kara dete kudasai.",
+        "german": "Bitte gehen Sie durch den Ostausgang."
       }
     ]
   },
@@ -17455,6 +22585,11 @@ window.VOCAB_N5 = [
         "japanese": "こっちを向いてください。",
         "romaji": "Kotchi o muite kudasai.",
         "german": "Bitte drehen Sie sich hierher."
+      },
+      {
+        "japanese": "こちらを向いてください。",
+        "romaji": "Kochira o muite kudasai.",
+        "german": "Bitte schauen Sie hierher."
       }
     ]
   },
@@ -17472,6 +22607,11 @@ window.VOCAB_N5 = [
         "japanese": "私生活のストレスが大きい。",
         "romaji": "Shiseikatsu no sutoresu ga ookii.",
         "german": "Der Stress aus meinem Privatleben ist gross."
+      },
+      {
+        "japanese": "私生活は大切にしたいです。",
+        "romaji": "Shiseikatsu wa taisetsu ni shitai desu.",
+        "german": "Ich möchte mein Privatleben schätzen."
       }
     ]
   },
@@ -17489,6 +22629,11 @@ window.VOCAB_N5 = [
         "japanese": "私立の大学に入りたいです。",
         "romaji": "Shiritsu no daigaku ni hairitaidesu.",
         "german": "Ich möchte an einer privaten Universität studieren."
+      },
+      {
+        "japanese": "これは私立の学校です。",
+        "romaji": "Kore wa shiritsu no gakkou desu.",
+        "german": "Das ist eine Privatschule."
       }
     ]
   },
@@ -17506,6 +22651,11 @@ window.VOCAB_N5 = [
         "japanese": "両足、もっと広がる？",
         "romaji": "Ryouashi, motto hirogaru?",
         "german": "Kannst du beide Beine weiter spreizen?"
+      },
+      {
+        "japanese": "噂が広がりました。",
+        "romaji": "Uwasa ga hirogarimashita.",
+        "german": "Das Gerücht hat sich verbreitet."
       }
     ]
   },
@@ -17523,6 +22673,11 @@ window.VOCAB_N5 = [
         "japanese": "私は豚肉を食べません。",
         "romaji": "Watashi wa butaniku o tabemasen.",
         "german": "Ich esse kein Schweinefleisch."
+      },
+      {
+        "japanese": "豚肉でカツを作りましょう。",
+        "romaji": "Butaniku de katsu o tsukurimashou.",
+        "german": "Lass uns ein Schnitzel aus Schweinefleisch machen."
       }
     ]
   },
@@ -17540,6 +22695,11 @@ window.VOCAB_N5 = [
         "japanese": "宝くじはインターネットで手に入ります。",
         "romaji": "Takarakuji wa intaanetto de te ni hairimasu.",
         "german": "Die Lotterie ist im Internet erhältlich."
+      },
+      {
+        "japanese": "宝くじを買いました。",
+        "romaji": "Takarakuji o kaimashita.",
+        "german": "Ich habe ein Lotterielos gekauft."
       }
     ]
   },
@@ -17557,6 +22717,11 @@ window.VOCAB_N5 = [
         "japanese": "あと一歩でゴールです。",
         "romaji": "Ato ippo de gouru desu.",
         "german": "Das Ziel ist nur noch einen Schritt entfernt."
+      },
+      {
+        "japanese": "一歩ずつ前に進みましょう。",
+        "romaji": "Ippo zutsu mae ni susumimashou.",
+        "german": "Lass uns Schritt für Schritt vorangehen."
       }
     ]
   },
@@ -17574,6 +22739,11 @@ window.VOCAB_N5 = [
         "japanese": "車両は大きいですね。",
         "romaji": "Sharyou wa ookiidesu ne.",
         "german": "Dieses Fahrzeug ist gross."
+      },
+      {
+        "japanese": "この電車は十車両です。",
+        "romaji": "Kono densha wa juu sharyou desu.",
+        "german": "Dieser Zug hat zehn Wagen."
       }
     ]
   },
@@ -17591,6 +22761,11 @@ window.VOCAB_N5 = [
         "japanese": "平日は早く会社に行きます。",
         "romaji": "Heijitsu wa hayaku kaisha ni ikimasu.",
         "german": "Unter der Woche gehe ich frueh zur Arbeit."
+      },
+      {
+        "japanese": "早く来てください。",
+        "romaji": "Hayaku kite kudasai.",
+        "german": "Bitte kommen Sie schnell."
       }
     ]
   },
@@ -17608,6 +22783,11 @@ window.VOCAB_N5 = [
         "japanese": "社長室をノックした。",
         "romaji": "Shachoushitsu o nokku shita.",
         "german": "Ich klopfte an das Buero des Praesidenten."
+      },
+      {
+        "japanese": "会議室はどこですか。",
+        "romaji": "Kaigishitsu wa doko desu ka.",
+        "german": "Wo ist der Konferenzraum?"
       }
     ]
   },
@@ -17625,6 +22805,11 @@ window.VOCAB_N5 = [
         "japanese": "草地の上に大きな木があった。",
         "romaji": "Kusachi no ue ni ookina ki ga atta.",
         "german": "Auf der Wiese stand ein grosser Baum."
+      },
+      {
+        "japanese": "草地に座りましょう。",
+        "romaji": "Kusachi ni suwarimashou.",
+        "german": "Lass uns auf die Wiese setzen."
       }
     ]
   },
@@ -17642,6 +22827,11 @@ window.VOCAB_N5 = [
         "japanese": "今のイギリスの国王はチャールズ三世です。",
         "romaji": "Ima no Igirisu no kokuou wa Chaaruzu sansei desu.",
         "german": "Der aktuelle britische König ist Charles III."
+      },
+      {
+        "japanese": "あの国の国王は有名です。",
+        "romaji": "Ano kuni no kokuou wa yuumei desu.",
+        "german": "Der König jenes Landes ist berühmt."
       }
     ]
   },
@@ -17659,6 +22849,11 @@ window.VOCAB_N5 = [
         "japanese": "月は、水星より小さい。",
         "romaji": "Tsuki wa, suisei yori chiisai.",
         "german": "Der Mond ist kleiner als Merkur."
+      },
+      {
+        "japanese": "水星は太陽に一番近い星です。",
+        "romaji": "Suisei wa taiyou ni ichiban chikai hoshi desu.",
+        "german": "Merkur ist der der Sonne nächste Planet."
       }
     ]
   },
@@ -17676,6 +22871,11 @@ window.VOCAB_N5 = [
         "japanese": "あそこに見えるのが、金星です。",
         "romaji": "Asoko ni mieru no ga, kinboshi desu.",
         "german": "Was man dort sehen kann, ist die Venus."
+      },
+      {
+        "japanese": "今夜金星が見えます。",
+        "romaji": "Konya kinsei ga miemasu.",
+        "german": "Heute Abend ist die Venus sichtbar."
       }
     ]
   },
@@ -17693,6 +22893,11 @@ window.VOCAB_N5 = [
         "japanese": "この木にはキノコが生える。",
         "romaji": "Kono ki ni wa kinoko ga haeru.",
         "german": "An diesem Baum wachsen Pilze."
+      },
+      {
+        "japanese": "庭に草が生えました。",
+        "romaji": "Niwa ni kusa ga haemashita.",
+        "german": "Im Garten ist Gras gewachsen."
       }
     ]
   },
@@ -17710,6 +22915,11 @@ window.VOCAB_N5 = [
         "japanese": "土星は大きいです。",
         "romaji": "Dosei wa ookiidesu.",
         "german": "Saturn ist gross."
+      },
+      {
+        "japanese": "土星は輪があります。",
+        "romaji": "Dosei wa wa ga arimasu.",
+        "german": "Saturn hat Ringe."
       }
     ]
   },
@@ -17727,6 +22937,11 @@ window.VOCAB_N5 = [
         "japanese": "この町は、とても活気があります。",
         "romaji": "Kono machi wa, totemo kakki ga arimasu.",
         "german": "Diese Stadt ist sehr lebhaft."
+      },
+      {
+        "japanese": "この町は活気があります。",
+        "romaji": "Kono machi wa kakki ga arimasu.",
+        "german": "Diese Stadt ist lebhaft."
       }
     ]
   },
@@ -17744,6 +22959,11 @@ window.VOCAB_N5 = [
         "japanese": "地中には、たくさんの虫がいます。",
         "romaji": "Chichuu ni wa, takusan no mushi ga imasu.",
         "german": "Unter der Erde gibt es viele Insekten."
+      },
+      {
+        "japanese": "地中に水道管があります。",
+        "romaji": "Chichuu ni suidoukan ga arimasu.",
+        "german": "Unterirdisch gibt es Wasserleitungen."
       }
     ]
   },
@@ -17761,6 +22981,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は一人で出社ですか？",
         "romaji": "Kyou wa ichinin de shussha desu ka?",
         "german": "Gehen Sie heute allein ins Buero?"
+      },
+      {
+        "japanese": "毎朝八時に出社します。",
+        "romaji": "Maiasa hachiji ni shussha shimasu.",
+        "german": "Ich gehe jeden Morgen um acht Uhr zur Arbeit."
       }
     ]
   },
@@ -17778,6 +23003,11 @@ window.VOCAB_N5 = [
         "japanese": "元パートナーからテキストがきた。",
         "romaji": "Moto paatonaa kara tekisuto ga kita.",
         "german": "Ich habe eine Nachricht von meinem Ex-Partner bekommen."
+      },
+      {
+        "japanese": "彼女は元パートナーに会いました。",
+        "romaji": "Kanojo wa moto paatonaa ni aimashita.",
+        "german": "Sie hat ihren Ex-Partner getroffen."
       }
     ]
   },
@@ -17795,6 +23025,11 @@ window.VOCAB_N5 = [
         "japanese": "オレンジ色の石ころが川に入った。",
         "romaji": "Orenjishoku no ishikoro ga kawa ni haitta.",
         "german": "Ein orangefarbener Stein fiel in den Fluss."
+      },
+      {
+        "japanese": "子供が石ころを拾いました。",
+        "romaji": "Kodomo ga ishikoro o hiroimashita.",
+        "german": "Das Kind hat einen Kieselstein aufgehoben."
       }
     ]
   },
@@ -17812,6 +23047,11 @@ window.VOCAB_N5 = [
         "japanese": "いいよ、他の人にしてもらうから！",
         "romaji": "Ii yo, ta no hito ni shite morau kara!",
         "german": "Schon gut, ich lasse es jemand anderen machen!"
+      },
+      {
+        "japanese": "他の人に聞いてください。",
+        "romaji": "Hoka no hito ni kiite kudasai.",
+        "german": "Bitte fragen Sie jemand anderen."
       }
     ]
   },
@@ -17829,6 +23069,11 @@ window.VOCAB_N5 = [
         "japanese": "一千万ドルがほしいなぁ。",
         "romaji": "Ichi sen mandoru ga hoshii naa.",
         "german": "Ich wünsche mir zehn Millionen Dollar."
+      },
+      {
+        "japanese": "一千万円は大金です。",
+        "romaji": "Issenman en wa taikin desu.",
+        "german": "Zehn Millionen Yen sind ein großer Betrag."
       }
     ]
   },
@@ -17846,6 +23091,11 @@ window.VOCAB_N5 = [
         "japanese": "この人、だれ？",
         "romaji": "Kono hito, dare?",
         "german": "Wer ist das?"
+      },
+      {
+        "japanese": "この映画は面白いです。",
+        "romaji": "Kono eiga wa omoshiroi desu.",
+        "german": "Dieser Film ist interessant."
       }
     ]
   },
@@ -17863,6 +23113,11 @@ window.VOCAB_N5 = [
         "japanese": "あれ、エミリーじゃない？",
         "romaji": "Are, Emirii ja nai?",
         "german": "Ist das nicht Emily dort drueben?"
+      },
+      {
+        "japanese": "あれは何ですか。",
+        "romaji": "Are wa nan desu ka.",
+        "german": "Was ist das dort drüben?"
       }
     ]
   },
@@ -17880,6 +23135,11 @@ window.VOCAB_N5 = [
         "japanese": "このパン、５ドルだって。",
         "romaji": "Kono pan, godoru datte.",
         "german": "Dieses Brot kostet angeblich 5 Dollar."
+      },
+      {
+        "japanese": "百ドルは何円ですか。",
+        "romaji": "Hyaku doru wa nan en desu ka.",
+        "german": "Wie viel Yen sind hundert Dollar?"
       }
     ]
   },
@@ -17897,6 +23157,11 @@ window.VOCAB_N5 = [
         "japanese": "どの子がマリアちゃん？",
         "romaji": "Dono ko ga mariachan?",
         "german": "Welches Kind ist Maria?"
+      },
+      {
+        "japanese": "どの本が欲しいですか。",
+        "romaji": "Dono hon ga hoshii desu ka.",
+        "german": "Welches Buch möchten Sie?"
       }
     ]
   },
@@ -17914,6 +23179,11 @@ window.VOCAB_N5 = [
         "japanese": "お金がぜんぜんない。",
         "romaji": "Okane ga zenzen nai.",
         "german": "Ich habe überhaupt kein Geld."
+      },
+      {
+        "japanese": "今日は時間がないです。",
+        "romaji": "Kyou wa jikan ga nai desu.",
+        "german": "Heute habe ich keine Zeit."
       }
     ]
   },
@@ -17931,6 +23201,11 @@ window.VOCAB_N5 = [
         "japanese": "あ、カバンがない！",
         "romaji": "A, kaban ga nai!",
         "german": "Oh, ich habe meine Tasche nicht!"
+      },
+      {
+        "japanese": "カバンを忘れてきました。",
+        "romaji": "Kaban o wasurete kimashita.",
+        "german": "Ich habe meine Tasche vergessen."
       }
     ]
   },
@@ -17948,6 +23223,11 @@ window.VOCAB_N5 = [
         "japanese": "私は西ヨーロッパに行きたいです。",
         "romaji": "Watashi wa nishi Youroppa ni ikitaidesu.",
         "german": "Ich möchte nach Westeuropa reisen."
+      },
+      {
+        "japanese": "西ヨーロッパを旅行したいです。",
+        "romaji": "Nishi Yooroppa o ryokou shitai desu.",
+        "german": "Ich möchte Westeuropa bereisen."
       }
     ]
   },
@@ -17965,6 +23245,11 @@ window.VOCAB_N5 = [
         "japanese": "パスタを二人で分ける。",
         "romaji": "Pasuta o ninin de wakeru.",
         "german": "Wir teilen die Pasta zu zweit."
+      },
+      {
+        "japanese": "ケーキを三つに分けましょう。",
+        "romaji": "Keeki o mittsu ni wakemashou.",
+        "german": "Lass uns den Kuchen in drei Stücke teilen."
       }
     ]
   },
@@ -17982,6 +23267,11 @@ window.VOCAB_N5 = [
         "japanese": "ジェニーとシフトを代わる。",
         "romaji": "Jenii to shifuto o kawaru.",
         "german": "Ich tausche die Schicht mit Jenny."
+      },
+      {
+        "japanese": "先生が代わりました。",
+        "romaji": "Sensei ga kawarimashita.",
+        "german": "Der Lehrer hat gewechselt."
       }
     ]
   },
@@ -17999,6 +23289,11 @@ window.VOCAB_N5 = [
         "japanese": "大学に入学する考えはありません。",
         "romaji": "Daigaku ni nyuugaku suru kangae wa arimasen.",
         "german": "Ich habe nicht vor, an der Universität zu studieren."
+      },
+      {
+        "japanese": "いい考えがあります。",
+        "romaji": "Ii kangae ga arimasu.",
+        "german": "Ich habe eine gute Idee."
       }
     ]
   },
@@ -18016,6 +23311,11 @@ window.VOCAB_N5 = [
         "japanese": "ビル・ゲイツ氏はシアトルの生まれです。",
         "romaji": "Biru Geitsushi wa Shiatoru no umare desu.",
         "german": "Herr Bill Gates wurde in Seattle geboren."
+      },
+      {
+        "japanese": "田中氏がスピーチをしました。",
+        "romaji": "Tanaka-shi ga supiichi o shimashita.",
+        "german": "Herr Tanaka hielt eine Rede."
       }
     ]
   },
@@ -18033,6 +23333,11 @@ window.VOCAB_N5 = [
         "japanese": "氏名を入力して下さい。",
         "romaji": "Shimei o nyuuryoku shite kudasai.",
         "german": "Bitte geben Sie Ihren vollstaendigen Namen ein."
+      },
+      {
+        "japanese": "氏名を記入してください。",
+        "romaji": "Shimei o kinyuu shite kudasai.",
+        "german": "Bitte tragen Sie Ihren vollständigen Namen ein."
       }
     ]
   },
@@ -18050,6 +23355,11 @@ window.VOCAB_N5 = [
         "japanese": "おつりは、全て千円札でもらえますか？",
         "romaji": "O tsuri wa, subete sen'ensatsu de moraemasu ka?",
         "german": "Kann ich das Wechselgeld komplett in Tausend-Yen-Scheinen bekommen?"
+      },
+      {
+        "japanese": "一万円札を崩してください。",
+        "romaji": "Ichiman en satsu o kuzushite kudasai.",
+        "german": "Bitte wechseln Sie den Zehntausend-Yen-Schein."
       }
     ]
   },
@@ -18067,6 +23377,11 @@ window.VOCAB_N5 = [
         "japanese": "千円札のおつりが不足しています。",
         "romaji": "Sen'ensatsu no o tsuri ga fusoku shite imasu.",
         "german": "Wir haben nicht genug Tausend-Yen-Scheine als Wechselgeld."
+      },
+      {
+        "japanese": "千円札がありますか。",
+        "romaji": "Sen en satsu ga arimasu ka.",
+        "german": "Haben Sie einen Tausend-Yen-Schein?"
       }
     ]
   },
@@ -18084,6 +23399,11 @@ window.VOCAB_N5 = [
         "japanese": "この辺は、人が少ないです。",
         "romaji": "Kono atari wa, hito ga sukunaidesu.",
         "german": "In dieser Gegend gibt es nicht viele Leute."
+      },
+      {
+        "japanese": "この辺にコンビニはありますか。",
+        "romaji": "Kono hen ni konbini wa arimasu ka.",
+        "german": "Gibt es in dieser Gegend einen Konbini?"
       }
     ]
   },
@@ -18101,6 +23421,11 @@ window.VOCAB_N5 = [
         "japanese": "ホットドッグにケチャップ付ける？",
         "romaji": "Hottodoggu ni kechappu tsukeru?",
         "german": "Möchtest du Ketchup auf deinen Hotdog?"
+      },
+      {
+        "japanese": "名札を付けてください。",
+        "romaji": "Nafuda o tsukete kudasai.",
+        "german": "Bitte bringen Sie das Namensschild an."
       }
     ]
   },
@@ -18118,6 +23443,11 @@ window.VOCAB_N5 = [
         "japanese": "一万円以上のホテルでもいいですよ。",
         "romaji": "Ichi man'en ijou no hoteru demo iidesu yo.",
         "german": "Ein Hotel ab zehntausend Yen ist auch in Ordnung."
+      },
+      {
+        "japanese": "十八歳以上の方だけ入れます。",
+        "romaji": "Juuhassai ijou no kata dake hairemasu.",
+        "german": "Nur Personen ab achtzehn Jahren dürfen eintreten."
       }
     ]
   },
@@ -18135,6 +23465,11 @@ window.VOCAB_N5 = [
         "japanese": "そんなにジャンプすると体力を失うよ。",
         "romaji": "Sonnani janpu suru to tairyoku o ushinau yo.",
         "german": "Wenn du so viel springst, verlierst du deine Körperkraft."
+      },
+      {
+        "japanese": "大切なものを失いたくないです。",
+        "romaji": "Taisetsu na mono o ushinaitaku nai desu.",
+        "german": "Ich möchte nichts Wichtiges verlieren."
       }
     ]
   },
@@ -18152,6 +23487,11 @@ window.VOCAB_N5 = [
         "japanese": "なんて失礼な男だ。",
         "romaji": "Nante shitsurei na otoko da.",
         "german": "Was für ein unhöflicher Mann."
+      },
+      {
+        "japanese": "失礼ですが、お名前は何ですか。",
+        "romaji": "Shitsurei desu ga, onamae wa nan desu ka.",
+        "german": "Entschuldigen Sie, wie heißen Sie?"
       }
     ]
   },
@@ -18169,6 +23509,11 @@ window.VOCAB_N5 = [
         "japanese": "お母さんは、ダイエットに必死だ。",
         "romaji": "Okaasan wa, daietto ni hisshi da.",
         "german": "Mama ist verzweifelt beim Abnehmen."
+      },
+      {
+        "japanese": "必死に勉強しました。",
+        "romaji": "Hisshi ni benkyou shimashita.",
+        "german": "Ich habe verzweifelt gelernt."
       }
     ]
   },
@@ -18186,6 +23531,11 @@ window.VOCAB_N5 = [
         "japanese": "未来のことは分かりません。",
         "romaji": "Mirai no koto wa wakarimasen.",
         "german": "Ich kenne die Zukunft nicht."
+      },
+      {
+        "japanese": "未来のことはわかりません。",
+        "romaji": "Mirai no koto wa wakarimasen.",
+        "german": "Über die Zukunft weiß man nichts."
       }
     ]
   },
@@ -18203,6 +23553,11 @@ window.VOCAB_N5 = [
         "japanese": "日本では年末にソバを食べます。",
         "romaji": "Nippon de wa nenmatsu ni soba o tabemasu.",
         "german": "In Japan isst man am Jahresende Buchweizennudeln."
+      },
+      {
+        "japanese": "年末は忙しいです。",
+        "romaji": "Nenmatsu wa isogashii desu.",
+        "german": "Am Jahresende ist es geschäftig."
       }
     ]
   },
@@ -18220,6 +23575,11 @@ window.VOCAB_N5 = [
         "japanese": "月末までに、このアパートを出ます。",
         "romaji": "Getsumatsu made ni, kono apaato o demasu.",
         "german": "Bis Ende des Monats werde ich diese Wohnung verlassen."
+      },
+      {
+        "japanese": "月末までにお金を払ってください。",
+        "romaji": "Getsumatsu made ni okane o haratte kudasai.",
+        "german": "Bitte bezahlen Sie bis zum Monatsende."
       }
     ]
   },
@@ -18237,6 +23597,11 @@ window.VOCAB_N5 = [
         "japanese": "高校まで、車で行けば十分ですよ。",
         "romaji": "Koukou made, kuruma de ike ba juubun desu yo.",
         "german": "Mit dem Auto braucht man nur 10 Minuten zur Oberschule."
+      },
+      {
+        "japanese": "高校の友達に会いました。",
+        "romaji": "Koukou no tomodachi ni aimashita.",
+        "german": "Ich habe einen Freund aus der Oberschule getroffen."
       }
     ]
   },
@@ -18254,6 +23619,11 @@ window.VOCAB_N5 = [
         "japanese": "七月と八月は夏休みです。",
         "romaji": "Shichigatsu to hachigatsu wa natsuyasumi desu.",
         "german": "Juli und August sind Sommerferien."
+      },
+      {
+        "japanese": "夏休みに海に行きたいです。",
+        "romaji": "Natsuyasumi ni umi ni ikitai desu.",
+        "german": "In den Sommerferien möchte ich ans Meer fahren."
       }
     ]
   },
@@ -18271,6 +23641,11 @@ window.VOCAB_N5 = [
         "japanese": "虫がキライなことが、私の弱点です。",
         "romaji": "Mushi ga kirai na koto ga, watashi no jakuten desu.",
         "german": "Meine Schwaeche ist, dass ich Insekten nicht ausstehen kann."
+      },
+      {
+        "japanese": "数学は私の弱点です。",
+        "romaji": "Suugaku wa watashi no jakuten desu.",
+        "german": "Mathematik ist meine Schwäche."
       }
     ]
   },
@@ -18288,6 +23663,11 @@ window.VOCAB_N5 = [
         "japanese": "今、もう二時半ですよ。",
         "romaji": "Ima, mou nijihan desu yo.",
         "german": "Es ist jetzt schon halb drei."
+      },
+      {
+        "japanese": "二時半に会いましょう。",
+        "romaji": "Nijihan ni aimashou.",
+        "german": "Treffen wir uns um halb drei."
       }
     ]
   },
@@ -18305,6 +23685,11 @@ window.VOCAB_N5 = [
         "japanese": "二つのライトが同時に明るくなった。",
         "romaji": "Futatsu no raito ga doujini akaruku natta.",
         "german": "Die beiden Lichter wurden gleichzeitig hell."
+      },
+      {
+        "japanese": "二つの電車が同時に来ました。",
+        "romaji": "Futatsu no densha ga douji ni kimashita.",
+        "german": "Zwei Züge kamen gleichzeitig."
       }
     ]
   },
@@ -18322,6 +23707,11 @@ window.VOCAB_N5 = [
         "japanese": "このヘアドライヤーは、かなり強力だ。",
         "romaji": "Kono hea doraiyaa wa, kanari kyouryoku da.",
         "german": "Dieser Haartrockner ist ziemlich stark."
+      },
+      {
+        "japanese": "この薬は強力です。",
+        "romaji": "Kono kusuri wa kyouryoku desu.",
+        "german": "Dieses Medikament ist stark."
       }
     ]
   },
@@ -18339,6 +23729,11 @@ window.VOCAB_N5 = [
         "japanese": "地理を学ぶために大学へ行きました。",
         "romaji": "Chiri o manabu tame ni daigaku e ikimashita.",
         "german": "Ich bin an die Universität gegangen, um Geographie zu lernen."
+      },
+      {
+        "japanese": "地理の授業が好きです。",
+        "romaji": "Chiri no jugyou ga suki desu.",
+        "german": "Ich mag den Geographieunterricht."
       }
     ]
   },
@@ -18356,6 +23751,11 @@ window.VOCAB_N5 = [
         "japanese": "空に、たくさんの風船が見えます。",
         "romaji": "Sora ni, takusan no fuusen ga miemasu.",
         "german": "Man kann viele Luftballons am Himmel sehen."
+      },
+      {
+        "japanese": "子供が風船を持っています。",
+        "romaji": "Kodomo ga fuusen o motte imasu.",
+        "german": "Das Kind hält einen Luftballon."
       }
     ]
   },
@@ -18373,6 +23773,11 @@ window.VOCAB_N5 = [
         "japanese": "先週は、私の会社はお休みでした。",
         "romaji": "Senshuu wa, watashi no kaisha wa o yasumi deshita.",
         "german": "Letzte Woche hatte meine Firma geschlossen."
+      },
+      {
+        "japanese": "先週は忙しかったです。",
+        "romaji": "Senshuu wa isogashikatta desu.",
+        "german": "Letzte Woche war ich beschäftigt."
       }
     ]
   },
@@ -18390,6 +23795,11 @@ window.VOCAB_N5 = [
         "japanese": "今週は大きなテストがあります。",
         "romaji": "Konshuu wa ookina tesuto ga arimasu.",
         "german": "Diese Woche gibt es einen grossen Test."
+      },
+      {
+        "japanese": "今週の金曜日は暇ですか。",
+        "romaji": "Konshuu no kinyoubi wa hima desu ka.",
+        "german": "Sind Sie diesen Freitag frei?"
       }
     ]
   },
@@ -18407,6 +23817,11 @@ window.VOCAB_N5 = [
         "japanese": "週末は、ベッドかソファの上にいます。",
         "romaji": "Shuumatsu wa, beddo ka sofua no ue ni imasu.",
         "german": "Am Wochenende bin ich auf dem Bett oder Sofa."
+      },
+      {
+        "japanese": "週末に何をしますか。",
+        "romaji": "Shuumatsu ni nani o shimasu ka.",
+        "german": "Was machen Sie am Wochenende?"
       }
     ]
   },
@@ -18424,6 +23839,11 @@ window.VOCAB_N5 = [
         "japanese": "これは、金魚ですか？コイですか？",
         "romaji": "Kore wa, kingyo desu ka? Koi desu ka?",
         "german": "Ist das ein Goldfisch? Oder ein Karpfen?"
+      },
+      {
+        "japanese": "お祭りで金魚すくいをしました。",
+        "romaji": "Omatsuri de kingyo sukui o shimashita.",
+        "german": "Beim Fest habe ich Goldfischfangen gespielt."
       }
     ]
   },
@@ -18441,6 +23861,11 @@ window.VOCAB_N5 = [
         "japanese": "白鳥の羽は、白くてきれいです。",
         "romaji": "Hakuchou no hane wa, shirokute kirei desu.",
         "german": "Schwanenfedern sind weiß und schön."
+      },
+      {
+        "japanese": "湖に白鳥がいます。",
+        "romaji": "Mizuumi ni hakuchou ga imasu.",
+        "german": "Im See gibt es Schwäne."
       }
     ]
   },
@@ -18458,6 +23883,11 @@ window.VOCAB_N5 = [
         "japanese": "私のレインコートは黄色です。",
         "romaji": "Watashi no reinkouto wa kiiro desu.",
         "german": "Mein Regenmantel ist gelb."
+      },
+      {
+        "japanese": "黄色い花がきれいです。",
+        "romaji": "Kiiroi hana ga kirei desu.",
+        "german": "Die gelben Blumen sind schön."
       }
     ]
   },
@@ -18475,6 +23905,11 @@ window.VOCAB_N5 = [
         "japanese": "トロントには、大きな黒人のコミュニティがあります。",
         "romaji": "Toronto ni wa, ookina kokujin no komyunitei ga arimasu.",
         "german": "In Toronto gibt es eine grosse schwarze Gemeinschaft."
+      },
+      {
+        "japanese": "クラスに黒人の学生がいます。",
+        "romaji": "Kurasu ni kokujin no gakusei ga imasu.",
+        "german": "In der Klasse gibt es einen schwarzen Studenten."
       }
     ]
   },
@@ -18492,6 +23927,11 @@ window.VOCAB_N5 = [
         "japanese": "これは私の妹の人形です。",
         "romaji": "Kore wa watashi no imouto no ningyou desu.",
         "german": "Das ist die Puppe meiner kleinen Schwester."
+      },
+      {
+        "japanese": "娘に人形を買ってあげました。",
+        "romaji": "Musume ni ningyou o katte agemashita.",
+        "german": "Ich habe meiner Tochter eine Puppe gekauft."
       }
     ]
   },
@@ -18509,6 +23949,11 @@ window.VOCAB_N5 = [
         "japanese": "このテーブルは、林さんの手作りです。",
         "romaji": "Kono teeburu wa, Hayashisan no tezukuri desu.",
         "german": "Dieser Tisch wurde von Hayashi handgefertigt."
+      },
+      {
+        "japanese": "これは手作りのお菓子です。",
+        "romaji": "Kore wa tezukuri no okashi desu.",
+        "german": "Das sind handgemachte Süßigkeiten."
       }
     ]
   },
@@ -18526,6 +23971,11 @@ window.VOCAB_N5 = [
         "japanese": "南口から出るとすぐにお茶の店があります。",
         "romaji": "Minamiguchi kara deru to sugu ni ocha no mise ga arimasu.",
         "german": "Direkt nach dem Suedausgang gibt es ein Teegeschaeft."
+      },
+      {
+        "japanese": "南口で会いましょう。",
+        "romaji": "Minamiguchi de aimashou.",
+        "german": "Treffen wir uns am Südausgang."
       }
     ]
   },
@@ -18543,6 +23993,11 @@ window.VOCAB_N5 = [
         "japanese": "ここのスタッフは大体、大学生です。",
         "romaji": "Koko no sutaffu wa daitai, daigakusei desu.",
         "german": "Die meisten Mitarbeiter hier sind Studenten."
+      },
+      {
+        "japanese": "姉は大学生です。",
+        "romaji": "Ane wa daigakusei desu.",
+        "german": "Meine ältere Schwester ist Studentin."
       }
     ]
   },
@@ -18560,6 +24015,11 @@ window.VOCAB_N5 = [
         "japanese": "先生が「すみません」の言い方を正してくれました。",
         "romaji": "Sensei ga sumimasen no iikata o tadashite kuremashita.",
         "german": "Der Lehrer hat meine Art, 'Entschuldigung' zu sagen, korrigiert."
+      },
+      {
+        "japanese": "もっと丁寧な言い方をしてください。",
+        "romaji": "Motto teinei na iikata o shite kudasai.",
+        "german": "Bitte verwenden Sie eine höflichere Ausdrucksweise."
       }
     ]
   },
@@ -18577,6 +24037,11 @@ window.VOCAB_N5 = [
         "japanese": "パトカーは先回りして白い車に向かった。",
         "romaji": "Patokaa wa sakimawari shite shiroi kuruma ni mukatta.",
         "german": "Der Streifenwagen fuhr voraus und steuerte auf das weisse Auto zu."
+      },
+      {
+        "japanese": "先回りして待っていました。",
+        "romaji": "Sakimawari shite matte imashita.",
+        "german": "Ich bin vorausgeeilt und habe gewartet."
       }
     ]
   },
@@ -18594,6 +24059,11 @@ window.VOCAB_N5 = [
         "japanese": "近々、会いましょう。",
         "romaji": "Chikajika, aimashou.",
         "german": "Lass uns bald treffen."
+      },
+      {
+        "japanese": "近々引っ越す予定です。",
+        "romaji": "Chikajika hikkosu yotei desu.",
+        "german": "Ich habe vor, bald umzuziehen."
       }
     ]
   },
@@ -18611,6 +24081,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は青空が広がっている。",
         "romaji": "Kyou wa aozora ga hirogatte iru.",
         "german": "Heute breitet sich der blaue Himmel aus."
+      },
+      {
+        "japanese": "今日は青空が広がっています。",
+        "romaji": "Kyou wa aozora ga hirogatte imasu.",
+        "german": "Heute breitet sich ein blauer Himmel aus."
       }
     ]
   },
@@ -18628,6 +24103,11 @@ window.VOCAB_N5 = [
         "japanese": "その兄弟は、まだ二人とも小学生です。",
         "romaji": "Sono kyoudai wa, mada ninin tomo shougakusei desu.",
         "german": "Beide Brueder sind noch Grundschueler."
+      },
+      {
+        "japanese": "弟は小学生です。",
+        "romaji": "Otouto wa shougakusei desu.",
+        "german": "Mein jüngerer Bruder ist Grundschüler."
       }
     ]
   },
@@ -18645,6 +24125,11 @@ window.VOCAB_N5 = [
         "japanese": "私の子は、今中学生です。",
         "romaji": "Watashi no ko wa, kon chuugakusei desu.",
         "german": "Mein Kind ist jetzt Mittelschueler."
+      },
+      {
+        "japanese": "姉は中学生の時テニスをしていました。",
+        "romaji": "Ane wa chuugakusei no toki tenisu o shite imashita.",
+        "german": "Meine ältere Schwester spielte in der Mittelschule Tennis."
       }
     ]
   },
@@ -18662,6 +24147,11 @@ window.VOCAB_N5 = [
         "japanese": "今年、不人気だったアニメは有りますか？",
         "romaji": "Kotoshi, funinki datta anime wa arimasu ka?",
         "german": "Gibt es Anime, die dieses Jahr unbeliebt waren?"
+      },
+      {
+        "japanese": "この歌手は不人気になりました。",
+        "romaji": "Kono kashu wa funinki ni narimashita.",
+        "german": "Dieser Sänger ist unbeliebt geworden."
       }
     ]
   },
@@ -18679,6 +24169,11 @@ window.VOCAB_N5 = [
         "japanese": "こうやってハートの形を切り取るんです。",
         "romaji": "Kou yatte haato no katachi o kiritoru n desu.",
         "german": "So schneidet man die Herzform aus."
+      },
+      {
+        "japanese": "新聞の記事を切り取りました。",
+        "romaji": "Shinbun no kiji o kiritorimashita.",
+        "german": "Ich habe den Zeitungsartikel ausgeschnitten."
       }
     ]
   },
@@ -18696,6 +24191,11 @@ window.VOCAB_N5 = [
         "japanese": "男が、マイケルのカバンからスマホを取り出すのを見たよ。",
         "romaji": "Otoko ga, Maikeru no kaban kara suma ho o toridasu no o mita yo.",
         "german": "Ich sah einen Mann das Smartphone aus Michaels Tasche nehmen."
+      },
+      {
+        "japanese": "箱から本を取り出しました。",
+        "romaji": "Hako kara hon o toridashimashita.",
+        "german": "Ich habe ein Buch aus der Kiste herausgenommen."
       }
     ]
   },
@@ -18713,6 +24213,11 @@ window.VOCAB_N5 = [
         "japanese": "どうして象のハナは長いの？",
         "romaji": "Doushite zou no Hana wa nagai no?",
         "german": "Warum haben Elefanten lange Ruessel?"
+      },
+      {
+        "japanese": "動物園で象を見ました。",
+        "romaji": "Doubutsuen de zou o mimashita.",
+        "german": "Ich habe im Zoo einen Elefanten gesehen."
       }
     ]
   },
@@ -18730,6 +24235,11 @@ window.VOCAB_N5 = [
         "japanese": "一丁目のコンビニはオープンしたばかりです。",
         "romaji": "Ichichoume no konbini wa oupun shita bakari desu.",
         "german": "Der Convenience-Store im ersten Viertel hat gerade eroeffnet."
+      },
+      {
+        "japanese": "三丁目の交差点を右に曲がります。",
+        "romaji": "Sanchoume no kousaten o migi ni magarimasu.",
+        "german": "Ich biege an der Kreuzung des dritten Viertels rechts ab."
       }
     ]
   },
@@ -18747,6 +24257,11 @@ window.VOCAB_N5 = [
         "japanese": "三日の午後三時に、ここで会いましょう。",
         "romaji": "Sannichi no gogo sanji ni, koko de aimashou.",
         "german": "Wir sehen uns hier am 3. um 15 Uhr."
+      },
+      {
+        "japanese": "今何時ですか。",
+        "romaji": "Ima nanji desu ka.",
+        "german": "Wie spät ist es?"
       }
     ]
   },
@@ -18764,6 +24279,11 @@ window.VOCAB_N5 = [
         "japanese": "タクシーを見たら、右手を大きく上げて下さいね。",
         "romaji": "Takushii o mitara, migite o ookiku agete kudasai ne.",
         "german": "Wenn Sie ein Taxi sehen, heben Sie bitte die rechte Hand hoch."
+      },
+      {
+        "japanese": "字を大きく書いてください。",
+        "romaji": "Ji o ookiku kaite kudasai.",
+        "german": "Bitte schreiben Sie die Zeichen groß."
       }
     ]
   },
@@ -18781,6 +24301,11 @@ window.VOCAB_N5 = [
         "japanese": "船体は大きかった。",
         "romaji": "Sentai wa ookikatta.",
         "german": "Der Schiffsrumpf war gross."
+      },
+      {
+        "japanese": "船体が大きいですね。",
+        "romaji": "Sentai ga ookii desu ne.",
+        "german": "Der Schiffsrumpf ist groß, nicht wahr?"
       }
     ]
   },
@@ -18798,6 +24323,11 @@ window.VOCAB_N5 = [
         "japanese": "こちらが302号室です。",
         "romaji": "Kochira ga 302goushitsu desu.",
         "german": "Dies ist Zimmer 302."
+      },
+      {
+        "japanese": "三〇五号室はどこですか。",
+        "romaji": "Sanmaru go goushitsu wa doko desu ka.",
+        "german": "Wo ist Zimmer 305?"
       }
     ]
   },
@@ -18815,6 +24345,11 @@ window.VOCAB_N5 = [
         "japanese": "こんな日は、大空を見上げよう。",
         "romaji": "Konna hi wa, oozora o miageyou.",
         "german": "An einem solchen Tag schauen wir zum weiten Himmel hinauf."
+      },
+      {
+        "japanese": "大空を見ると気持ちがいいです。",
+        "romaji": "Oozora o miru to kimochi ga ii desu.",
+        "german": "Wenn man den weiten Himmel sieht, fühlt man sich gut."
       }
     ]
   },
@@ -18832,6 +24367,11 @@ window.VOCAB_N5 = [
         "japanese": "雨の日はクラスを休む人が見当たる。",
         "romaji": "Ame no hi wa kurasu o yasumu hito ga miataru.",
         "german": "An Regentagen sieht man Leute, die nicht zum Unterricht kommen."
+      },
+      {
+        "japanese": "鍵がどこにも見当たりません。",
+        "romaji": "Kagi ga doko ni mo miatarimasen.",
+        "german": "Der Schlüssel ist nirgends zu finden."
       }
     ]
   },
@@ -18849,6 +24389,11 @@ window.VOCAB_N5 = [
         "japanese": "これが、三角形のおにぎりの作り方です。",
         "romaji": "Kore ga, sankakkei no onigiri no tsukurikata desu.",
         "german": "So macht man ein dreieckiges Reisbaellchen."
+      },
+      {
+        "japanese": "この看板は三角形です。",
+        "romaji": "Kono kanban wa sankakkei desu.",
+        "german": "Dieses Schild hat eine Dreiecksform."
       }
     ]
   },
@@ -18866,6 +24411,11 @@ window.VOCAB_N5 = [
         "japanese": "「立つ」の活用形が分かりません。",
         "romaji": "Tatsu no katsuyougata ga wakarimasen.",
         "german": "Ich kenne die Konjugationsformen von 'tatsu' nicht."
+      },
+      {
+        "japanese": "動詞の活用形を覚えてください。",
+        "romaji": "Doushi no katsuyoukei o oboete kudasai.",
+        "german": "Bitte lernen Sie die Konjugationsformen der Verben."
       }
     ]
   },
@@ -18883,6 +24433,11 @@ window.VOCAB_N5 = [
         "japanese": "一体どうなっているんだ。",
         "romaji": "Ittai dou natte iru n da.",
         "german": "Was zum Teufel ist hier los?"
+      },
+      {
+        "japanese": "一体何が起きたのですか。",
+        "romaji": "Ittai nani ga okita no desu ka.",
+        "german": "Was um alles in der Welt ist passiert?"
       }
     ]
   },
@@ -18900,6 +24455,11 @@ window.VOCAB_N5 = [
         "japanese": "「ありがとう」と小声で言いました。",
         "romaji": "Arigatou to kogoe de iimashita.",
         "german": "'Danke', fluesterte ich."
+      },
+      {
+        "japanese": "小声で話してください。",
+        "romaji": "Kogoe de hanashite kudasai.",
+        "german": "Bitte sprechen Sie leise."
       }
     ]
   },
@@ -18917,6 +24477,11 @@ window.VOCAB_N5 = [
         "japanese": "海王星は色が青いです。",
         "romaji": "Kaiousei wa iro ga aoidesu.",
         "german": "Die Farbe von Neptun ist blau."
+      },
+      {
+        "japanese": "海王星は太陽から遠いです。",
+        "romaji": "Kaiousei wa taiyou kara tooi desu.",
+        "german": "Neptun ist weit von der Sonne entfernt."
       }
     ]
   },
@@ -18934,6 +24499,11 @@ window.VOCAB_N5 = [
         "japanese": "五千円以下の中古のテレビはありますか？",
         "romaji": "Go sen'en ika no chuuko no terebi wa arimasu ka?",
         "german": "Gibt es einen gebrauchten Fernseher für 5.000 Yen oder weniger?"
+      },
+      {
+        "japanese": "十歳以下の子供は無料です。",
+        "romaji": "Jussai ika no kodomo wa muryou desu.",
+        "german": "Kinder unter zehn Jahren sind kostenlos."
       }
     ]
   },
@@ -18951,6 +24521,11 @@ window.VOCAB_N5 = [
         "japanese": "町民は毎年みんなで花見に行く。",
         "romaji": "Choumin wa maitoshi minna de hanami ni iku.",
         "german": "Die Stadtbewohner gehen jedes Jahr zusammen Kirschblüten anschauen."
+      },
+      {
+        "japanese": "町民がお祭りに参加します。",
+        "romaji": "Choumin ga omatsuri ni sanka shimasu.",
+        "german": "Die Stadtbewohner nehmen am Fest teil."
       }
     ]
   },
@@ -18968,6 +24543,11 @@ window.VOCAB_N5 = [
         "japanese": "次のクラスは来週です。",
         "romaji": "Tsugi no kurasu wa raishuu desu.",
         "german": "Der nächste Kurs ist nächste Woche."
+      },
+      {
+        "japanese": "来週の予定を教えてください。",
+        "romaji": "Raishuu no yotei o oshiete kudasai.",
+        "german": "Bitte sagen Sie mir die Pläne für nächste Woche."
       }
     ]
   },
@@ -18985,6 +24565,11 @@ window.VOCAB_N5 = [
         "japanese": "以後は、このアドレスにメールして下さい。",
         "romaji": "Igo wa, kono adoresu ni meeru shite kudasai.",
         "german": "Bitte schreiben Sie ab jetzt an diese Adresse."
+      },
+      {
+        "japanese": "以後気をつけます。",
+        "romaji": "Igo ki o tsukemasu.",
+        "german": "Von nun an werde ich aufpassen."
       }
     ]
   },
@@ -19002,6 +24587,11 @@ window.VOCAB_N5 = [
         "japanese": "一斤のパンは6枚切りか8枚切りで売られていることが多い。",
         "romaji": "Ichikin no pan wa 6maigiri ka 8maigiri de ura rete iru koto ga ooi.",
         "german": "Brotlaibe werden oft in Scheiben zu sechs oder acht verkauft."
+      },
+      {
+        "japanese": "食パンを一斤ください。",
+        "romaji": "Shokupan o ikkin kudasai.",
+        "german": "Einen Laib Brot, bitte."
       }
     ]
   },
@@ -19019,6 +24609,11 @@ window.VOCAB_N5 = [
         "japanese": "このパンは、二斤で五百円です。",
         "romaji": "Kono pan wa, nikin de go hyakuen desu.",
         "german": "Dieses Brot kostet 500 Yen für zwei Laibe."
+      },
+      {
+        "japanese": "パンを二斤注文しました。",
+        "romaji": "Pan o nikin chuumon shimashita.",
+        "german": "Ich habe zwei Laib Brot bestellt."
       }
     ]
   },
@@ -19036,6 +24631,11 @@ window.VOCAB_N5 = [
         "japanese": "火星には水がありますか？",
         "romaji": "Kasei ni wa mizu ga arimasu ka?",
         "german": "Gibt es Wasser auf dem Mars?"
+      },
+      {
+        "japanese": "火星は赤い星です。",
+        "romaji": "Kasei wa akai hoshi desu.",
+        "german": "Mars ist ein roter Planet."
       }
     ]
   },
@@ -19053,6 +24653,11 @@ window.VOCAB_N5 = [
         "japanese": "木星を見たことありますか？",
         "romaji": "Mokusei o mita koto arimasu ka?",
         "german": "Haben Sie schon einmal Jupiter gesehen?"
+      },
+      {
+        "japanese": "木星は一番大きい惑星です。",
+        "romaji": "Mokusei wa ichiban ookii wakusei desu.",
+        "german": "Jupiter ist der größte Planet."
       }
     ]
   },
@@ -19070,6 +24675,11 @@ window.VOCAB_N5 = [
         "japanese": "この町は、人里に近い。",
         "romaji": "Kono machi wa, hitozato ni chikai.",
         "german": "Diese Stadt liegt nahe an menschlicher Besiedlung."
+      },
+      {
+        "japanese": "人里離れた場所です。",
+        "romaji": "Hitozato hanareta basho desu.",
+        "german": "Es ist ein Ort abseits der Siedlungen."
       }
     ]
   },
@@ -19087,6 +24697,11 @@ window.VOCAB_N5 = [
         "japanese": "大体、二分くらいかかります。",
         "romaji": "Daitai, nifun kurai kakarimasu.",
         "german": "Es dauert ungefaehr zwei Minuten."
+      },
+      {
+        "japanese": "あと十分で着きます。",
+        "romaji": "Ato juppun de tsukimasu.",
+        "german": "In zehn Minuten bin ich da."
       }
     ]
   },
@@ -19104,6 +24719,11 @@ window.VOCAB_N5 = [
         "japanese": "このスーツのジャケットには内ポケットがありません。",
         "romaji": "Kono suutsu no jaketto ni wa uchi poketto ga arimasen.",
         "german": "Diese Anzugjacke hat keine Innentasche."
+      },
+      {
+        "japanese": "内ポケットに財布を入れています。",
+        "romaji": "Uchipoketto ni saifu o irete imasu.",
+        "german": "Ich habe die Brieftasche in der Innentasche."
       }
     ]
   },
@@ -19121,6 +24741,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は、ナポレオン三世について学びましょう。",
         "romaji": "Kyou wa, Naporeon sansei nitsuite manabimashou.",
         "german": "Heute lernen wir über Napoleon den Dritten."
+      },
+      {
+        "japanese": "ナポレオン三世は有名な皇帝でした。",
+        "romaji": "Naporeon sansei wa yuumei na koutei deshita.",
+        "german": "Napoleon III. war ein berühmter Kaiser."
       }
     ]
   },
@@ -19138,6 +24763,11 @@ window.VOCAB_N5 = [
         "japanese": "その人、有名人だよ。",
         "romaji": "Sono hito, yuumeijin da yo.",
         "german": "Diese Person ist beruehmt."
+      },
+      {
+        "japanese": "その本を見せてください。",
+        "romaji": "Sono hon o misete kudasai.",
+        "german": "Bitte zeigen Sie mir das Buch."
       }
     ]
   },
@@ -19155,6 +24785,11 @@ window.VOCAB_N5 = [
         "japanese": "あの人、どこかで見たことある気がする。",
         "romaji": "Ano hito, doko ka de mita koto aru ki ga suru.",
         "german": "Ich glaube, ich habe diese Person dort irgendwo schon mal gesehen."
+      },
+      {
+        "japanese": "あの山は富士山です。",
+        "romaji": "Ano yama wa Fujisan desu.",
+        "german": "Jener Berg ist der Fuji."
       }
     ]
   },
@@ -19172,6 +24807,11 @@ window.VOCAB_N5 = [
         "japanese": "カクレクマノミは海水魚です。",
         "romaji": "Kakurekumanomi wa kaisuigyo desu.",
         "german": "Der Clownfisch ist ein Salzwasserfisch."
+      },
+      {
+        "japanese": "水族館で海水魚を見ました。",
+        "romaji": "Suizokukan de kaisuigyo o mimashita.",
+        "german": "Im Aquarium habe ich Salzwasserfische gesehen."
       }
     ]
   },
@@ -19189,6 +24829,11 @@ window.VOCAB_N5 = [
         "japanese": "北国のくらしはどうですか？",
         "romaji": "Kitaguni no kurashi wa dou desu ka?",
         "german": "Wie ist das Leben im noerdlichen Land?"
+      },
+      {
+        "japanese": "北国の冬は寒いです。",
+        "romaji": "Kitaguni no fuyu wa samui desu.",
+        "german": "Der Winter im Norden ist kalt."
       }
     ]
   },
@@ -19206,6 +24851,11 @@ window.VOCAB_N5 = [
         "japanese": "西日がまぶしくて、テレビが見えません。",
         "romaji": "Nishibi ga mabushikute, terebi ga miemasen.",
         "german": "Die Abendsonne ist so hell, dass ich den Fernseher nicht sehen kann."
+      },
+      {
+        "japanese": "西日が眩しいです。",
+        "romaji": "Nishinichi ga mabushii desu.",
+        "german": "Die Abendsonne blendet."
       }
     ]
   },
@@ -19223,6 +24873,11 @@ window.VOCAB_N5 = [
         "japanese": "東アジアにはたくさんの山があります。",
         "romaji": "Higashiajia ni wa takusan no yama ga arimasu.",
         "german": "In Ostasien gibt es viele Berge."
+      },
+      {
+        "japanese": "東アジアの文化に興味があります。",
+        "romaji": "Higashi Ajia no bunka ni kyoumi ga arimasu.",
+        "german": "Ich interessiere mich für die Kultur Ostasiens."
       }
     ]
   },
@@ -19240,6 +24895,11 @@ window.VOCAB_N5 = [
         "japanese": "もうすぐラマダーンが明ける。",
         "romaji": "Mousugu ramadaan ga akeru.",
         "german": "Bald ist der Ramadan vorbei."
+      },
+      {
+        "japanese": "夜が明けました。",
+        "romaji": "Yoru ga akemashita.",
+        "german": "Die Nacht ist zu Ende gegangen."
       }
     ]
   },
@@ -19257,6 +24917,11 @@ window.VOCAB_N5 = [
         "japanese": "円いフリスビーを子犬にプレゼントした。",
         "romaji": "Marui furisubii o koinu ni purezento shita.",
         "german": "Ich habe einem Welpen eine runde Frisbee geschenkt."
+      },
+      {
+        "japanese": "この石は円い形です。",
+        "romaji": "Kono ishi wa marui katachi desu.",
+        "german": "Dieser Stein hat eine runde Form."
       }
     ]
   },
@@ -19274,6 +24939,11 @@ window.VOCAB_N5 = [
         "japanese": "兄弟を目の色で見分ける。",
         "romaji": "Kyoudai o me no iro de miwakeru.",
         "german": "Ich unterscheide die Brueder an ihrer Augenfarbe."
+      },
+      {
+        "japanese": "双子を見分けるのは難しいです。",
+        "romaji": "Futago o miwakeru no wa muzukashii desu.",
+        "german": "Zwillinge zu unterscheiden ist schwierig."
       }
     ]
   },
@@ -19291,6 +24961,11 @@ window.VOCAB_N5 = [
         "japanese": "次回は、いつですか？",
         "romaji": "Jikai wa, itsudesu ka?",
         "german": "Wann ist das nächste Mal?"
+      },
+      {
+        "japanese": "次回も頑張りましょう。",
+        "romaji": "Jikai mo ganbarimashou.",
+        "german": "Lass uns auch nächstes Mal unser Bestes geben."
       }
     ]
   },
@@ -19308,6 +24983,11 @@ window.VOCAB_N5 = [
         "japanese": "さっきテレビで中東のニュースを見ました。",
         "romaji": "Sakki terebi de Chuutou no nyuusu o mimashita.",
         "german": "Ich habe gerade Nachrichten über den Nahen Osten im Fernsehen gesehen."
+      },
+      {
+        "japanese": "中東に行ったことがありますか。",
+        "romaji": "Chuutou ni itta koto ga arimasu ka.",
+        "german": "Waren Sie schon einmal im Nahen Osten?"
       }
     ]
   },
@@ -19325,6 +25005,11 @@ window.VOCAB_N5 = [
         "japanese": "日が出て、辺りが明るくなってきました。",
         "romaji": "Hi ga dete, atari ga akaruku natte kimashita.",
         "german": "Die Sonne geht auf und es wird heller in der Umgebung."
+      },
+      {
+        "japanese": "この辺りは静かですね。",
+        "romaji": "Kono atari wa shizuka desu ne.",
+        "german": "Diese Umgebung ist ruhig, nicht wahr?"
       }
     ]
   },
@@ -19342,6 +25027,11 @@ window.VOCAB_N5 = [
         "japanese": "たくさんの車が通る。",
         "romaji": "Takusan no kuruma ga tooru.",
         "german": "Viele Autos fahren vorbei."
+      },
+      {
+        "japanese": "この道を通って学校に行きます。",
+        "romaji": "Kono michi o tootte gakkou ni ikimasu.",
+        "german": "Ich gehe diesen Weg entlang zur Schule."
       }
     ]
   },
@@ -19359,6 +25049,11 @@ window.VOCAB_N5 = [
         "japanese": "スポーツカーは、高い馬力を持っています。",
         "romaji": "Supoutsukaa wa, takai bariki o motte imasu.",
         "german": "Sportwagen haben eine hohe Pferdestärke."
+      },
+      {
+        "japanese": "この車は馬力がありますね。",
+        "romaji": "Kono kuruma wa bariki ga arimasu ne.",
+        "german": "Dieses Auto hat viel Pferdestärke, nicht wahr?"
       }
     ]
   },
@@ -19376,6 +25071,11 @@ window.VOCAB_N5 = [
         "japanese": "このアパートには、たくさんの住人がいます。",
         "romaji": "Kono apaato ni wa, takusan no juunin ga imasu.",
         "german": "In dieser Wohnung gibt es viele Bewohner."
+      },
+      {
+        "japanese": "このマンションの住人です。",
+        "romaji": "Kono manshon no juunin desu.",
+        "german": "Ich bin Bewohner dieses Wohnhauses."
       }
     ]
   },
@@ -19393,6 +25093,11 @@ window.VOCAB_N5 = [
         "japanese": "医大に入るにはお金がかかります。",
         "romaji": "Idai ni hairu ni wa okane ga kakarimasu.",
         "german": "Es kostet Geld, an einer medizinischen Universität zu studieren."
+      },
+      {
+        "japanese": "医大に入りたいです。",
+        "romaji": "Idai ni hairitai desu.",
+        "german": "Ich möchte an der medizinischen Universität studieren."
       }
     ]
   },
@@ -19410,6 +25115,11 @@ window.VOCAB_N5 = [
         "japanese": "大学では医学を学びます。",
         "romaji": "Daigaku de wa igaku o manabimasu.",
         "german": "An der Universität studiere ich Medizin."
+      },
+      {
+        "japanese": "医学を勉強しています。",
+        "romaji": "Igaku o benkyou shite imasu.",
+        "german": "Ich studiere Medizin."
       }
     ]
   },
@@ -19427,6 +25137,11 @@ window.VOCAB_N5 = [
         "japanese": "この町はかつて君主国だったそうです。",
         "romaji": "Kono machi wa katsute kunshukoku datta sou desu.",
         "german": "Diese Stadt war einst eine Monarchie."
+      },
+      {
+        "japanese": "イギリスは君主国です。",
+        "romaji": "Igirisu wa kunshukoku desu.",
+        "german": "Großbritannien ist eine Monarchie."
       }
     ]
   },
@@ -19444,6 +25159,11 @@ window.VOCAB_N5 = [
         "japanese": "マイケル君には兄弟がいません。",
         "romaji": "Maikerukun ni wa kyoudai ga imasen.",
         "german": "Michael hat keine Geschwister."
+      },
+      {
+        "japanese": "山田君、おはようございます。",
+        "romaji": "Yamada-kun, ohayou gozaimasu.",
+        "german": "Guten Morgen, Yamada!"
       }
     ]
   },
@@ -19461,6 +25181,11 @@ window.VOCAB_N5 = [
         "japanese": "ドルに対する円のレートは、今いくらですか？",
         "romaji": "Doru nitaisuru en no reeto wa, kon ikura desu ka?",
         "german": "Wie hoch ist der Wechselkurs des Yen gegenüber dem Dollar?"
+      },
+      {
+        "japanese": "この問題に対して意見があります。",
+        "romaji": "Kono mondai ni taishite iken ga arimasu.",
+        "german": "Ich habe eine Meinung zu diesem Problem."
       }
     ]
   },
@@ -19478,6 +25203,11 @@ window.VOCAB_N5 = [
         "japanese": "東京支局からポートランドの本社にもどって下さい。",
         "romaji": "Toukyou shikyoku kara poutorando no honsha ni modotte kudasai.",
         "german": "Bitte kehren Sie von der Zweigstelle in Tokio zur Zentrale in Portland zurück."
+      },
+      {
+        "japanese": "新聞社の支局で働いています。",
+        "romaji": "Shinbunsha no shikyoku de hataraite imasu.",
+        "german": "Ich arbeite in der Zweigstelle der Zeitung."
       }
     ]
   },
@@ -19495,6 +25225,11 @@ window.VOCAB_N5 = [
         "japanese": "今日、役人が来ましたよ。",
         "romaji": "Kyou, yakunin ga kimashita yo.",
         "german": "Heute kam ein Beamter."
+      },
+      {
+        "japanese": "あの役人はとても真面目です。",
+        "romaji": "Ano yakunin wa totemo majime desu.",
+        "german": "Jener Beamte ist sehr gewissenhaft."
       }
     ]
   },
@@ -19512,6 +25247,11 @@ window.VOCAB_N5 = [
         "japanese": "この学校の先生になることは、大役ですよ。",
         "romaji": "Kono gakkou no sensei ni naru koto wa, taiyaku desu yo.",
         "german": "Lehrer an dieser Schule zu sein, ist eine grosse Aufgabe."
+      },
+      {
+        "japanese": "大役を任されました。",
+        "romaji": "Taiyaku o makasaremashita.",
+        "german": "Mir wurde eine wichtige Aufgabe anvertraut."
       }
     ]
   },
@@ -19529,6 +25269,11 @@ window.VOCAB_N5 = [
         "japanese": "心身のために毎日ヨガをしましょう。",
         "romaji": "Shinshin no tame ni mainichi yoga o shimashou.",
         "german": "Lass uns jeden Tag Yoga für Körper und Geist machen."
+      },
+      {
+        "japanese": "心身ともに健康です。",
+        "romaji": "Shinshin tomo ni kenkou desu.",
+        "german": "Ich bin an Körper und Geist gesund."
       }
     ]
   },
@@ -19546,6 +25291,11 @@ window.VOCAB_N5 = [
         "japanese": "一日に一回、全身にスプレーして下さい。",
         "romaji": "Ichinichi ni ichikai, zenshin ni supuree shite kudasai.",
         "german": "Bitte besprühen Sie einmal täglich den ganzen Körper."
+      },
+      {
+        "japanese": "全身が筋肉痛です。",
+        "romaji": "Zenshin ga kinnikutsuu desu.",
+        "german": "Mein ganzer Körper hat Muskelkater."
       }
     ]
   },
@@ -19563,6 +25313,11 @@ window.VOCAB_N5 = [
         "japanese": "両者の考えが同じじゃない。",
         "romaji": "Ryousha no kangae ga onaji ja nai.",
         "german": "Die Ansichten beider Seiten sind nicht gleich."
+      },
+      {
+        "japanese": "両者の意見を聞きました。",
+        "romaji": "Ryousha no iken o kikimashita.",
+        "german": "Ich habe die Meinungen beider Seiten gehört."
       }
     ]
   },
@@ -19580,6 +25335,11 @@ window.VOCAB_N5 = [
         "japanese": "この本の作者に会いたいです。",
         "romaji": "Kono hon no sakusha ni aitaidesu.",
         "german": "Ich möchte den Autor dieses Buches treffen."
+      },
+      {
+        "japanese": "この本の作者は有名です。",
+        "romaji": "Kono hon no sakusha wa yuumei desu.",
+        "german": "Der Autor dieses Buches ist berühmt."
       }
     ]
   },
@@ -19597,6 +25357,11 @@ window.VOCAB_N5 = [
         "japanese": "父は心理学の学者です。",
         "romaji": "Chichi wa shinrigaku no gakusha desu.",
         "german": "Mein Vater ist ein Gelehrter der Psychologie."
+      },
+      {
+        "japanese": "あの人は有名な学者です。",
+        "romaji": "Ano hito wa yuumei na gakusha desu.",
+        "german": "Jene Person ist ein berühmter Gelehrter."
       }
     ]
   },
@@ -19614,6 +25379,11 @@ window.VOCAB_N5 = [
         "japanese": "あの男の人は有名な工学者です。",
         "romaji": "Ano otoko no hito wa yuumei na kougakusha desu.",
         "german": "Dieser Mann ist ein beruehmter Ingenieur."
+      },
+      {
+        "japanese": "工学者が新しい機械を作りました。",
+        "romaji": "Kougakusha ga atarashii kikai o tsukurimashita.",
+        "german": "Der Ingenieur hat eine neue Maschine gebaut."
       }
     ]
   },
@@ -19631,6 +25401,11 @@ window.VOCAB_N5 = [
         "japanese": "土の中から死体が見えたのが、この場所です。",
         "romaji": "Do no naka kara shitai ga mieta no ga, kono basho desu.",
         "german": "Hier ist die Stelle, wo die Leiche aus der Erde sichtbar war."
+      },
+      {
+        "japanese": "待ち合わせの場所はどこですか。",
+        "romaji": "Machiawase no basho wa doko desu ka.",
+        "german": "Wo ist der Treffpunkt?"
       }
     ]
   },
@@ -19648,6 +25423,11 @@ window.VOCAB_N5 = [
         "japanese": "入場する前にチケットを買って下さい。",
         "romaji": "Nyuujou suru mae ni chiketto o katte kudasai.",
         "german": "Bitte kaufen Sie eine Eintrittskarte, bevor Sie eintreten."
+      },
+      {
+        "japanese": "入場料は五百円です。",
+        "romaji": "Nyuujouryou wa gohyaku en desu.",
+        "german": "Der Eintrittspreis beträgt fünfhundert Yen."
       }
     ]
   },
@@ -19665,6 +25445,11 @@ window.VOCAB_N5 = [
         "japanese": "ここじゃなくて、どこか他所の店に行こうよ。",
         "romaji": "Koko ja naku te, doko ka yoso no mise ni ikou yo.",
         "german": "Nicht hier, lass uns woanders hingehen."
+      },
+      {
+        "japanese": "他所のことは気にしないでください。",
+        "romaji": "Yoso no koto wa ki ni shinaide kudasai.",
+        "german": "Kümmern Sie sich nicht um andere Sachen."
       }
     ]
   },
@@ -19682,6 +25467,11 @@ window.VOCAB_N5 = [
         "japanese": "毎日の朝ごはんはベーコンとパンです。",
         "romaji": "Mainichi no asa gohan wa beekon to pan desu.",
         "german": "Mein tägliches Frühstück ist Speck und Brot."
+      },
+      {
+        "japanese": "毎朝朝ごはんを食べます。",
+        "romaji": "Maiasa asagohan o tabemasu.",
+        "german": "Jeden Morgen esse ich Frühstück."
       }
     ]
   },
@@ -19699,6 +25489,11 @@ window.VOCAB_N5 = [
         "japanese": "明るい朝日の中、ヨガをします。",
         "romaji": "Akarui asahi no naka, yoga o shimasu.",
         "german": "Ich mache Yoga im hellen Morgensonnenschein."
+      },
+      {
+        "japanese": "朝日がきれいですね。",
+        "romaji": "Asahi ga kirei desu ne.",
+        "german": "Die Morgensonne ist schön, nicht wahr?"
       }
     ]
   },
@@ -19716,6 +25511,11 @@ window.VOCAB_N5 = [
         "japanese": "休みの日は、茶道の教室に行きます。",
         "romaji": "Yasumi no hi wa, sadou no kyoushitsu ni ikimasu.",
         "german": "An meinen freien Tagen gehe ich zum Teezeremonie-Unterricht."
+      },
+      {
+        "japanese": "この道を歩きましょう。",
+        "romaji": "Kono michi o arukimashou.",
+        "german": "Lass uns diesen Weg gehen."
       }
     ]
   },
@@ -19733,6 +25533,11 @@ window.VOCAB_N5 = [
         "japanese": "JLPTまで、あと一日。時間が足りません。",
         "romaji": "JLPT made, ato ichinichi. Jikan ga tarimasen.",
         "german": "Noch ein Tag bis zur JLPT. Ich habe nicht genug Zeit."
+      },
+      {
+        "japanese": "時間がないので急ぎます。",
+        "romaji": "Jikan ga nai node isogimasu.",
+        "german": "Ich habe keine Zeit, deshalb beeile ich mich."
       }
     ]
   },
@@ -19750,6 +25555,11 @@ window.VOCAB_N5 = [
         "japanese": "コンビニは２４時間いつでも行くことが出来ます。",
         "romaji": "Konbini wa ni yonjikan itsu demo iku koto ga dekimasu.",
         "german": "Man kann jederzeit in den Convenience-Store gehen, 24 Stunden am Tag."
+      },
+      {
+        "japanese": "三時間待ちました。",
+        "romaji": "Sanjikan machimashita.",
+        "german": "Ich habe drei Stunden gewartet."
       }
     ]
   },
@@ -19767,6 +25577,11 @@ window.VOCAB_N5 = [
         "japanese": "人間は主に水で出来ています。",
         "romaji": "Ningen wa omo ni mizu de dekite imasu.",
         "german": "Menschen bestehen hauptsaechlich aus Wasser."
+      },
+      {
+        "japanese": "人間は水が必要です。",
+        "romaji": "Ningen wa mizu ga hitsuyou desu.",
+        "german": "Menschen brauchen Wasser."
       }
     ]
   },
@@ -19784,6 +25599,11 @@ window.VOCAB_N5 = [
         "japanese": "自分の家は安心できる空間の一つです。",
         "romaji": "Jibun no ie wa anshin dekiru kuukan no hitotsu desu.",
         "german": "Das eigene Zuhause ist ein Ort, an dem man sich sicher fuehlen kann."
+      },
+      {
+        "japanese": "広い空間が好きです。",
+        "romaji": "Hiroi kuukan ga suki desu.",
+        "german": "Ich mag weite Räume."
       }
     ]
   },
@@ -19801,6 +25621,11 @@ window.VOCAB_N5 = [
         "japanese": "数字を入力するのが下手です。",
         "romaji": "Suuji o nyuuryoku suru no ga heta desu.",
         "german": "Ich bin nicht gut im Eingeben von Zahlen."
+      },
+      {
+        "japanese": "数字を書いてください。",
+        "romaji": "Suuji o kaite kudasai.",
+        "german": "Bitte schreiben Sie die Zahl."
       }
     ]
   },
@@ -19818,6 +25643,11 @@ window.VOCAB_N5 = [
         "japanese": "この会社のスタッフの人数は二十人です。",
         "romaji": "Kono kaisha no sutaffu no ninzuu wa ni juunin desu.",
         "german": "Die Mitarbeiterzahl dieser Firma beträgt zwanzig Personen."
+      },
+      {
+        "japanese": "参加者の人数を教えてください。",
+        "romaji": "Sankasha no ninzuu o oshiete kudasai.",
+        "german": "Bitte sagen Sie mir die Teilnehmerzahl."
       }
     ]
   },
@@ -19835,6 +25665,11 @@ window.VOCAB_N5 = [
         "japanese": "今回の点数は百点でした。",
         "romaji": "Konkai no tensuu wa hyakuten deshita.",
         "german": "Die Punktzahl diesmal war 100 Punkte."
+      },
+      {
+        "japanese": "テストの点数はいくつですか。",
+        "romaji": "Tesuto no tensuu wa ikutsu desu ka.",
+        "german": "Wie viele Punkte haben Sie beim Test?"
       }
     ]
   },
@@ -19852,6 +25687,11 @@ window.VOCAB_N5 = [
         "japanese": "東京は大きい町です。",
         "romaji": "Toukyou wa ookii machi desu.",
         "german": "Tokio ist eine grosse Stadt."
+      },
+      {
+        "japanese": "東京に住んでいます。",
+        "romaji": "Toukyou ni sunde imasu.",
+        "german": "Ich wohne in Tokio."
       }
     ]
   },
@@ -19869,6 +25709,11 @@ window.VOCAB_N5 = [
         "japanese": "山の向こうには何が見えますか？",
         "romaji": "Yama no mukou ni wa nani ga miemasu ka?",
         "german": "Was kann man auf der anderen Seite der Berge sehen?"
+      },
+      {
+        "japanese": "向こうに山が見えます。",
+        "romaji": "Mukou ni yama ga miemasu.",
+        "german": "Drüben kann man die Berge sehen."
       }
     ]
   },
@@ -19886,6 +25731,11 @@ window.VOCAB_N5 = [
         "japanese": "これは、全米で人気の大作です。",
         "romaji": "Kore wa, Zenbei de ninki no taisaku desu.",
         "german": "Dies ist ein beliebter Blockbuster in ganz Amerika."
+      },
+      {
+        "japanese": "全米で大人気の映画です。",
+        "romaji": "Zenbei de daininki no eiga desu.",
+        "german": "Ein in ganz Amerika sehr beliebter Film."
       }
     ]
   },
@@ -19903,6 +25753,11 @@ window.VOCAB_N5 = [
         "japanese": "それ以上、川に近づくな！",
         "romaji": "Sore ijou, kawa ni chikazuku na!",
         "german": "Komm dem Fluss nicht naeher!"
+      },
+      {
+        "japanese": "春が近づいてきました。",
+        "romaji": "Haru ga chikaduite kimashita.",
+        "german": "Der Frühling nähert sich."
       }
     ]
   },
@@ -19920,6 +25775,11 @@ window.VOCAB_N5 = [
         "japanese": "田中先生はお休みなので、代わりの先生が来ます。",
         "romaji": "Tanaka sensei wa o yasumi na node, kawari no sensei ga kimasu.",
         "german": "Herr Tanaka hat frei, also kommt ein Vertretungslehrer."
+      },
+      {
+        "japanese": "その代わりに何をしましょうか。",
+        "romaji": "Sono kawari ni nani o shimashou ka.",
+        "german": "Was sollen wir stattdessen tun?"
       }
     ]
   },
@@ -19937,6 +25797,11 @@ window.VOCAB_N5 = [
         "japanese": "あなたと全く同じ考えです。",
         "romaji": "Anata to mattaku onaji kangae desu.",
         "german": "Ich habe genau die gleiche Idee wie du."
+      },
+      {
+        "japanese": "全く問題ありません。",
+        "romaji": "Mattaku mondai arimasen.",
+        "german": "Überhaupt kein Problem."
       }
     ]
   },
@@ -19954,6 +25819,11 @@ window.VOCAB_N5 = [
         "japanese": "この前、木の上に毛虫がいたんです。",
         "romaji": "Kono mae, ki no ue ni kemushi ga ita n desu.",
         "german": "Neulich war eine Raupe auf dem Baum."
+      },
+      {
+        "japanese": "この前の日曜日に映画を見ました。",
+        "romaji": "Kono mae no nichiyoubi ni eiga o mimashita.",
+        "german": "Letzten Sonntag habe ich einen Film gesehen."
       }
     ]
   },
@@ -19971,6 +25841,11 @@ window.VOCAB_N5 = [
         "japanese": "お知らせの紙がポストに入ってました。",
         "romaji": "Oshirase no kami ga posuto ni haittemashita.",
         "german": "Im Briefkasten lag ein Flyer."
+      },
+      {
+        "japanese": "大切なお知らせがあります。",
+        "romaji": "Taisetsu na oshirase ga arimasu.",
+        "german": "Es gibt eine wichtige Mitteilung."
       }
     ]
   },
@@ -19988,6 +25863,11 @@ window.VOCAB_N5 = [
         "japanese": "工作が出来上がるのに、三日かかりました。",
         "romaji": "Kousaku ga dekiagaru noni, sannichi kakarimashita.",
         "german": "Es dauerte drei Tage, bis das Bastelprojekt fertig war."
+      },
+      {
+        "japanese": "料理が出来上がりました。",
+        "romaji": "Ryouri ga dekiagarimashita.",
+        "german": "Das Essen ist fertig geworden."
       }
     ]
   },
@@ -20005,6 +25885,11 @@ window.VOCAB_N5 = [
         "japanese": "白い毛の中に黒い毛が交じる。",
         "romaji": "Shiroi ke no naka ni kuroi ke ga majiru.",
         "german": "Schwarze Haare mischen sich unter die weissen."
+      },
+      {
+        "japanese": "いろいろな色が交じっています。",
+        "romaji": "Iroiro na iro ga majitte imasu.",
+        "german": "Verschiedene Farben sind gemischt."
       }
     ]
   },
@@ -20022,6 +25907,11 @@ window.VOCAB_N5 = [
         "japanese": "うちの犬は、雪を見ると走り回る。",
         "romaji": "Uchi no inu wa, yuki o miru to hashirimawaru.",
         "german": "Mein Hund rennt herum, wenn er Schnee sieht."
+      },
+      {
+        "japanese": "子供たちが走り回っています。",
+        "romaji": "Kodomotachi ga hashirimawatte imasu.",
+        "german": "Die Kinder rennen herum."
       }
     ]
   },
@@ -20039,6 +25929,11 @@ window.VOCAB_N5 = [
         "japanese": "父は安いお茶と高いお茶を当てるのが上手です。",
         "romaji": "Chichi wa yasui ocha to takai ocha o ateru no ga jouzu desu.",
         "german": "Mein Vater ist gut darin zu erraten, ob Tee billig oder teuer ist."
+      },
+      {
+        "japanese": "答えを当ててください。",
+        "romaji": "Kotae o atete kudasai.",
+        "german": "Bitte erraten Sie die Antwort."
       }
     ]
   },
@@ -20056,6 +25951,11 @@ window.VOCAB_N5 = [
         "japanese": "女も男もメイクで化けることが出来る。",
         "romaji": "Onna mo otoko mo meiku de bakeru koto ga dekiru.",
         "german": "Sowohl Frauen als auch Männer können sich mit Make-up verwandeln."
+      },
+      {
+        "japanese": "狐が人に化けると言います。",
+        "romaji": "Kitsune ga hito ni bakeru to iimasu.",
+        "german": "Man sagt, Füchse verwandeln sich in Menschen."
       }
     ]
   },
@@ -20073,6 +25973,11 @@ window.VOCAB_N5 = [
         "japanese": "ノックの音の後、ドアノブを回す音がした。",
         "romaji": "Nokku no oto no nochi, doa nobu o mawasu oto ga shita.",
         "german": "Nach dem Klopfen hörte man das Geräusch der Türklinke."
+      },
+      {
+        "japanese": "ハンドルを右に回してください。",
+        "romaji": "Handoru o migi ni mawashite kudasai.",
+        "german": "Bitte drehen Sie das Lenkrad nach rechts."
       }
     ]
   },
@@ -20090,6 +25995,11 @@ window.VOCAB_N5 = [
         "japanese": "私自身はコーヒーもお茶も両方のみます。",
         "romaji": "Watashi jishin wa kouhii mo ocha mo ryouhou nomi masu.",
         "german": "Ich persönlich trinke sowohl Kaffee als auch Tee."
+      },
+      {
+        "japanese": "私自身がやります。",
+        "romaji": "Watashi jishin ga yarimasu.",
+        "german": "Ich selbst werde es tun."
       }
     ]
   },
@@ -20107,6 +26017,11 @@ window.VOCAB_N5 = [
         "japanese": "私立大学に入学したいです。",
         "romaji": "Shiritsu daigaku ni nyuugaku shitaidesu.",
         "german": "Ich möchte an einer Privatuniversität studieren."
+      },
+      {
+        "japanese": "私立大学の学費は高いです。",
+        "romaji": "Shiritsu daigaku no gakuhi wa takai desu.",
+        "german": "Die Studiengebühren der Privatuniversität sind hoch."
       }
     ]
   },
@@ -20124,6 +26039,11 @@ window.VOCAB_N5 = [
         "japanese": "その活用形は、前回のクラスで学びました。",
         "romaji": "Sono katsuyougata wa, zenkai no kurasu de manabimashita.",
         "german": "Die Konjugationsform habe ich im letzten Unterricht gelernt."
+      },
+      {
+        "japanese": "前回の授業を復習しましょう。",
+        "romaji": "Zenkai no jugyou o fukushuu shimashou.",
+        "german": "Lassen Sie uns die letzte Unterrichtsstunde wiederholen."
       }
     ]
   },
@@ -20141,6 +26061,11 @@ window.VOCAB_N5 = [
         "japanese": "ここは、地上のフロアです。",
         "romaji": "Koko wa, chijou no furoa desu.",
         "german": "Dies ist ein oberirdisches Stockwerk."
+      },
+      {
+        "japanese": "地上五階、地下二階のビルです。",
+        "romaji": "Chijou gokai, chika nikai no biru desu.",
+        "german": "Ein Gebäude mit fünf Stockwerken über und zwei unter der Erde."
       }
     ]
   },
@@ -20158,6 +26083,11 @@ window.VOCAB_N5 = [
         "japanese": "もう少し後ろに向けることは出来ますか？",
         "romaji": "Mousukoshi ushiro ni mukeru koto wa dekimasu ka?",
         "german": "Können Sie es noch etwas weiter nach hinten richten?"
+      },
+      {
+        "japanese": "カメラを向けないでください。",
+        "romaji": "Kamera o mukenaide kudasai.",
+        "german": "Bitte richten Sie die Kamera nicht auf mich."
       }
     ]
   },
@@ -20175,6 +26105,11 @@ window.VOCAB_N5 = [
         "japanese": "お前は一体ここで何してるんだ？",
         "romaji": "Omae wa ittai koko de nani shi teru n da?",
         "german": "Was zum Teufel machst du hier?"
+      },
+      {
+        "japanese": "お前はどう思う？",
+        "romaji": "Omae wa dou omou?",
+        "german": "Was denkst du?"
       }
     ]
   },
@@ -20192,6 +26127,11 @@ window.VOCAB_N5 = [
         "japanese": "地中海にはキレイなビーチが広がっています。",
         "romaji": "Chichuukai ni wa kirei na biichi ga hirogatte imasu.",
         "german": "Am Mittelmeer erstreckt sich ein wunderschöner Strand."
+      },
+      {
+        "japanese": "地中海は美しい海です。",
+        "romaji": "Chichuukai wa utsukushii umi desu.",
+        "german": "Das Mittelmeer ist ein schönes Meer."
       }
     ]
   },
@@ -20209,6 +26149,11 @@ window.VOCAB_N5 = [
         "japanese": "一日も早く水道から水が出るようにしたいんです。",
         "romaji": "Ichinichi mo hayaku suidou kara mizu ga deru you ni shitai n desu.",
         "german": "Ich möchte so schnell wie möglich fließendes Wasser haben."
+      },
+      {
+        "japanese": "水道の水が出ません。",
+        "romaji": "Suidou no mizu ga demasen.",
+        "german": "Aus der Wasserleitung kommt kein Wasser."
       }
     ]
   },
@@ -20226,6 +26171,11 @@ window.VOCAB_N5 = [
         "japanese": "夜は車のヘッドライトを点ける。",
         "romaji": "Yoru wa kuruma no heddoraito o ten keru.",
         "german": "Nachts schalte ich die Autoscheinwerfer ein."
+      },
+      {
+        "japanese": "テレビを点けてください。",
+        "romaji": "Terebi o tsukete kudasai.",
+        "german": "Bitte schalten Sie den Fernseher ein."
       }
     ]
   },
@@ -20243,6 +26193,11 @@ window.VOCAB_N5 = [
         "japanese": "毎日、ディナーを作るのは、お父さんの役目です。",
         "romaji": "Mainichi, deinaa o tsukuru no wa, otousan no yakume desu.",
         "german": "Jeden Tag das Abendessen zu kochen ist Papas Aufgabe."
+      },
+      {
+        "japanese": "大切な役目を任されました。",
+        "romaji": "Taisetsu na yakume o makasaremashita.",
+        "german": "Mir wurde eine wichtige Aufgabe übertragen."
       }
     ]
   },
@@ -20260,6 +26215,11 @@ window.VOCAB_N5 = [
         "japanese": "このシャツはコットン生地で出来ています。",
         "romaji": "Kono shatsu wa kotton kiji de dekite imasu.",
         "german": "Dieses Hemd ist aus Baumwollstoff."
+      },
+      {
+        "japanese": "この生地は柔らかいです。",
+        "romaji": "Kono kiji wa yawarakai desu.",
+        "german": "Dieser Stoff ist weich."
       }
     ]
   },
@@ -20277,6 +26237,11 @@ window.VOCAB_N5 = [
         "japanese": "中学では九科目学びます。",
         "romaji": "Chuugaku de wa kyuu kamoku manabimasu.",
         "german": "In der Mittelschule lernt man neun Faecher."
+      },
+      {
+        "japanese": "好きな科目は何ですか。",
+        "romaji": "Suki na kamoku wa nan desu ka.",
+        "german": "Was ist Ihr Lieblingsfach?"
       }
     ]
   },
@@ -20294,6 +26259,11 @@ window.VOCAB_N5 = [
         "japanese": "日本に来てから、数年です。",
         "romaji": "Nippon ni kite kara, suunen desu.",
         "german": "Es sind einige Jahre, seitdem ich nach Japan kam."
+      },
+      {
+        "japanese": "数年後にまた会いましょう。",
+        "romaji": "Suunengo ni mata aimashou.",
+        "german": "Treffen wir uns in einigen Jahren wieder."
       }
     ]
   },
@@ -20311,6 +26281,11 @@ window.VOCAB_N5 = [
         "japanese": "絵文字を交ぜて、メッセージを入力しましょう。",
         "romaji": "Emoji o mazete, messeeji o nyuuryoku shimashou.",
         "german": "Geben Sie eine Nachricht mit Emojis ein."
+      },
+      {
+        "japanese": "メッセージに絵文字を使います。",
+        "romaji": "Messeeji ni emoji o tsukaimasu.",
+        "german": "Ich verwende Emoji in Nachrichten."
       }
     ]
   },
@@ -20328,6 +26303,11 @@ window.VOCAB_N5 = [
         "japanese": "父は、プロの投手です。",
         "romaji": "Chichi wa, puro no toushu desu.",
         "german": "Mein Vater ist ein professioneller Werfer."
+      },
+      {
+        "japanese": "あの投手は速い球を投げます。",
+        "romaji": "Ano toushu wa hayai tama o nagemasu.",
+        "german": "Jener Werfer wirft schnelle Bälle."
       }
     ]
   },
@@ -20345,6 +26325,11 @@ window.VOCAB_N5 = [
         "japanese": "でも、できないよ。",
         "romaji": "Demo, dekinai yo.",
         "german": "Aber ich kann nicht."
+      },
+      {
+        "japanese": "高いです。でも、おいしいです。",
+        "romaji": "Takai desu. Demo, oishii desu.",
+        "german": "Es ist teuer. Aber es ist lecker."
       }
     ]
   },
@@ -20362,6 +26347,11 @@ window.VOCAB_N5 = [
         "japanese": "ここで食べよう！",
         "romaji": "Koko de tabeyou!",
         "german": "Lass uns hier essen!"
+      },
+      {
+        "japanese": "ここに座ってください。",
+        "romaji": "Koko ni suwatte kudasai.",
+        "german": "Bitte setzen Sie sich hier hin."
       }
     ]
   },
@@ -20379,6 +26369,11 @@ window.VOCAB_N5 = [
         "japanese": "今日はおやつにマフィンを食べた。",
         "romaji": "Kyou wa o yatsu ni mafyin o tabeta.",
         "german": "Heute habe ich als Snack einen Muffin gegessen."
+      },
+      {
+        "japanese": "三時におやつを食べます。",
+        "romaji": "Sanji ni oyatsu o tabemasu.",
+        "german": "Um drei Uhr esse ich einen Snack."
       }
     ]
   },
@@ -20396,6 +26391,11 @@ window.VOCAB_N5 = [
         "japanese": "もしもし、山川です。",
         "romaji": "Moshimoshi, yamakawa desu.",
         "german": "Hallo, hier ist Yamakawa."
+      },
+      {
+        "japanese": "電話で「もしもし」と言います。",
+        "romaji": "Denwa de 'moshimoshi' to iimasu.",
+        "german": "Am Telefon sagt man 'Moshimoshi'."
       }
     ]
   },
@@ -20413,6 +26413,11 @@ window.VOCAB_N5 = [
         "japanese": "二人のライバルがついに対決することになった。",
         "romaji": "Ninin no raibaru ga tsuini taiketsu suru koto ni natta.",
         "german": "Die beiden Rivalen werden sich endlich gegenüberstehen."
+      },
+      {
+        "japanese": "二つのチームが対決しました。",
+        "romaji": "Futatsu no chiimu ga taiketsu shimashita.",
+        "german": "Zwei Teams standen sich gegenüber."
       }
     ]
   },
@@ -20430,6 +26435,11 @@ window.VOCAB_N5 = [
         "japanese": "南アフリカではラグビーがとても人気です。",
         "romaji": "Minamiafurika de wa ragubii ga totemo ninki desu.",
         "german": "Rugby ist in Südafrika sehr beliebt."
+      },
+      {
+        "japanese": "南アフリカに行ってみたいです。",
+        "romaji": "Minami Afurika ni itte mitai desu.",
+        "german": "Ich möchte gerne nach Südafrika reisen."
       }
     ]
   },
@@ -20447,6 +26457,11 @@ window.VOCAB_N5 = [
         "japanese": "つめたい北風がふいています。",
         "romaji": "Tsumetai kitakaze ga fuite imasu.",
         "german": "Ein kalter Nordwind weht."
+      },
+      {
+        "japanese": "冬は北風が冷たいです。",
+        "romaji": "Fuyu wa kitakaze ga tsumetai desu.",
+        "german": "Im Winter ist der Nordwind kalt."
       }
     ]
   },
@@ -20464,6 +26479,11 @@ window.VOCAB_N5 = [
         "japanese": "今日の夜明けの空はピンクでした。",
         "romaji": "Kyou no yoake no sora wa pinku deshita.",
         "german": "Der Himmel bei Tagesanbruch war heute rosa."
+      },
+      {
+        "japanese": "夜明けに目が覚めました。",
+        "romaji": "Yoake ni me ga samemashita.",
+        "german": "Ich bin bei Morgendämmerung aufgewacht."
       }
     ]
   },
@@ -20481,6 +26501,11 @@ window.VOCAB_N5 = [
         "japanese": "ハート形の風船を買いました。",
         "romaji": "Haatogata no fuusen o kaimashita.",
         "german": "Ich habe einen herzförmigen Luftballon gekauft."
+      },
+      {
+        "japanese": "ハート形のチョコレートを買いました。",
+        "romaji": "Haatogata no chokoreeto o kaimashita.",
+        "german": "Ich habe herzförmige Schokolade gekauft."
       }
     ]
   },
@@ -20498,6 +26523,11 @@ window.VOCAB_N5 = [
         "japanese": "先ず、本の目次を見て下さい。",
         "romaji": "Mazu, hon no mokuji o mite kudasai.",
         "german": "Bitte schauen Sie zuerst ins Inhaltsverzeichnis des Buches."
+      },
+      {
+        "japanese": "本の目次を見てください。",
+        "romaji": "Hon no mokuji o mite kudasai.",
+        "german": "Bitte schauen Sie ins Inhaltsverzeichnis."
       }
     ]
   },
@@ -20515,6 +26545,11 @@ window.VOCAB_N5 = [
         "japanese": "サケは海魚ですか？それとも川魚ですか？",
         "romaji": "Sake wa umigyo desu ka? Soretomo kawagyo desu ka?",
         "german": "Ist Lachs ein Salzwasserfisch? Oder ein Suesswasserfisch?"
+      },
+      {
+        "japanese": "この市場には海魚が多いです。",
+        "romaji": "Kono ichiba ni wa umizakana ga ooi desu.",
+        "german": "Auf diesem Markt gibt es viele Meeresfische."
       }
     ]
   },
@@ -20532,6 +26567,11 @@ window.VOCAB_N5 = [
         "japanese": "私、和風スイーツがすきなんです。",
         "romaji": "Watashi, wafuu suiitsu ga suki na n desu.",
         "german": "Ich mag japanische Suessspeisen."
+      },
+      {
+        "japanese": "和風のレストランに行きました。",
+        "romaji": "Wafuu no resutoran ni ikimashita.",
+        "german": "Ich bin in ein japanisches Restaurant gegangen."
       }
     ]
   },
@@ -20549,6 +26589,11 @@ window.VOCAB_N5 = [
         "japanese": "この和室にアンティークのソファを買いたいと思っています。",
         "romaji": "Kono washitsu ni anteiiku no sofua o kaitai to omotte imasu.",
         "german": "Ich möchte ein antikes Sofa für dieses japanische Zimmer kaufen."
+      },
+      {
+        "japanese": "この旅館には和室があります。",
+        "romaji": "Kono ryokan ni wa washitsu ga arimasu.",
+        "german": "In dieser Herberge gibt es ein japanisches Zimmer."
       }
     ]
   },
@@ -20566,6 +26611,11 @@ window.VOCAB_N5 = [
         "japanese": "キモノなどの和服は、日本の文化の一部です。",
         "romaji": "Kimono nado no wafuku wa, Nippon no bunka no ichibu desu.",
         "german": "Japanische Kleidung wie Kimono ist ein Teil der japanischen Kultur."
+      },
+      {
+        "japanese": "結婚式で和服を着ました。",
+        "romaji": "Kekkonshiki de wafuku o kimashita.",
+        "german": "Ich habe bei der Hochzeit japanische Kleidung getragen."
       }
     ]
   },
@@ -20583,6 +26633,11 @@ window.VOCAB_N5 = [
         "japanese": "九州の名物は何ですか？",
         "romaji": "Kyuushuu no meibutsu wa nani desu ka?",
         "german": "Was sind Kyushus regionale Spezialitäten?"
+      },
+      {
+        "japanese": "この町の名物は何ですか。",
+        "romaji": "Kono machi no meibutsu wa nan desu ka.",
+        "german": "Was ist die Spezialität dieser Stadt?"
       }
     ]
   },
@@ -20600,6 +26655,11 @@ window.VOCAB_N5 = [
         "japanese": "食べすぎて苦しい。",
         "romaji": "Tabe sugite kurushii.",
         "german": "Ich habe so viel gegessen, dass mir schlecht ist."
+      },
+      {
+        "japanese": "長い間走って苦しいです。",
+        "romaji": "Nagai aida hashitte kurushii desu.",
+        "german": "Ich bin lange gerannt und es ist anstrengend."
       }
     ]
   },
@@ -20617,6 +26677,11 @@ window.VOCAB_N5 = [
         "japanese": "客室は広く、ベッドが二つありました。",
         "romaji": "Kyakushitsu wa hiroku, beddo ga futatsu arimashita.",
         "german": "Das Gästezimmer war groß und hatte zwei Betten."
+      },
+      {
+        "japanese": "ホテルの客室は広いです。",
+        "romaji": "Hoteru no kyakushitsu wa hiroi desu.",
+        "german": "Die Hotelzimmer sind geräumig."
       }
     ]
   },
@@ -20634,6 +26699,11 @@ window.VOCAB_N5 = [
         "japanese": "小さい時は、大人になったらケーキ屋さんになりたいと思ってました。",
         "romaji": "Chiisai toki wa, otona ni nattara keekiyasan ni naritai to omottemashita.",
         "german": "Als ich klein war, wollte ich als Erwachsener in einer Konditorei arbeiten."
+      },
+      {
+        "japanese": "あの花屋はきれいです。",
+        "romaji": "Ano hanaya wa kirei desu.",
+        "german": "Jener Blumenladen ist hübsch."
       }
     ]
   },
@@ -20651,6 +26721,11 @@ window.VOCAB_N5 = [
         "japanese": "肉屋さんで牛肉を四百グラム買いました。",
         "romaji": "Nikuyasan de gyuuniku o yon hyakuguramu kaimashita.",
         "german": "Ich habe beim Metzger 400 Gramm Rindfleisch gekauft."
+      },
+      {
+        "japanese": "肉屋で牛肉を買いました。",
+        "romaji": "Nikuya de gyuuniku o kaimashita.",
+        "german": "Ich habe in der Metzgerei Rindfleisch gekauft."
       }
     ]
   },
@@ -20668,6 +26743,11 @@ window.VOCAB_N5 = [
         "japanese": "この町には古い茶屋があります。",
         "romaji": "Kono machi ni wa furui chaya ga arimasu.",
         "german": "Diese Stadt hat ein altes Teehaus."
+      },
+      {
+        "japanese": "京都の茶屋でお茶を飲みました。",
+        "romaji": "Kyouto no chaya de ocha o nomimashita.",
+        "german": "Ich habe in einem Teehaus in Kyoto Tee getrunken."
       }
     ]
   },
@@ -20685,6 +26765,11 @@ window.VOCAB_N5 = [
         "japanese": "魚屋さんで生のサーモンを買いました。",
         "romaji": "Sakanayasan de nama no saamon o kaimashita.",
         "german": "Wir haben im Fischladen rohen Lachs gekauft."
+      },
+      {
+        "japanese": "魚屋で新鮮な魚を買いました。",
+        "romaji": "Sakanaya de shinsen na sakana o kaimashita.",
+        "german": "Ich habe im Fischladen frischen Fisch gekauft."
       }
     ]
   },
@@ -20702,6 +26787,11 @@ window.VOCAB_N5 = [
         "japanese": "私の友人は名古屋でデザイナーをしています。",
         "romaji": "Watashi no yuujin wa Nagoya de dezainaa o shite imasu.",
         "german": "Mein Freund arbeitet als Designer in Nagoya."
+      },
+      {
+        "japanese": "名古屋に行ったことがありますか。",
+        "romaji": "Nagoya ni itta koto ga arimasu ka.",
+        "german": "Waren Sie schon einmal in Nagoya?"
       }
     ]
   },
@@ -20719,6 +26809,11 @@ window.VOCAB_N5 = [
         "japanese": "毎度、同じエラーが出るんですよ。",
         "romaji": "Maido, onaji eraa ga deru n desu yo.",
         "german": "Jedes Mal bekomme ich denselben Fehler."
+      },
+      {
+        "japanese": "毎度ありがとうございます。",
+        "romaji": "Maido arigatou gozaimasu.",
+        "german": "Vielen Dank jedes Mal."
       }
     ]
   },
@@ -20736,6 +26831,11 @@ window.VOCAB_N5 = [
         "japanese": "正しい角度にするのに時間がかかりました。",
         "romaji": "Tadashii kakudo ni suru no ni jikan ga kakarimashita.",
         "german": "Es hat eine Weile gedauert, den richtigen Winkel einzustellen."
+      },
+      {
+        "japanese": "この角度から写真を撮りましょう。",
+        "romaji": "Kono kakudo kara shashin o torimashou.",
+        "german": "Lass uns ein Foto aus diesem Winkel machen."
       }
     ]
   },
@@ -20753,6 +26853,11 @@ window.VOCAB_N5 = [
         "japanese": "東京の夏は、三十度以上になる日が多いです。",
         "romaji": "Toukyou no natsu wa, san juudo ijou ni naru hi ga ooidesu.",
         "german": "Im Sommer gibt es in Tokio viele Tage, an denen es über dreißig Grad wird."
+      },
+      {
+        "japanese": "今日は三十度です。",
+        "romaji": "Kyou wa sanjuudo desu.",
+        "german": "Heute sind es dreißig Grad."
       }
     ]
   },
@@ -20770,6 +26875,11 @@ window.VOCAB_N5 = [
         "japanese": "今日から「手作りチーズケーキ」の発売です！",
         "romaji": "Kyou kara tezukuri chiizu keeki no hatsubai desu!",
         "german": "Ab heute ist der Hausgemachte Käsekuchen im Verkauf!"
+      },
+      {
+        "japanese": "新しい本が発売されました。",
+        "romaji": "Atarashii hon ga hatsubai saremashita.",
+        "german": "Ein neues Buch ist erschienen."
       }
     ]
   },
@@ -20787,6 +26897,11 @@ window.VOCAB_N5 = [
         "japanese": "何県の出身ですか。",
         "romaji": "Nani ken no shusshin desu ka.",
         "german": "Aus welcher Präfektur kommst du?"
+      },
+      {
+        "japanese": "大阪府と京都府と兵庫県に行きました。",
+        "romaji": "Oosaka-fu to Kyouto-fu to Hyougo-ken ni ikimashita.",
+        "german": "Ich bin nach Osaka, Kyoto und in die Präfektur Hyogo gefahren."
       }
     ]
   },
@@ -20804,6 +26919,11 @@ window.VOCAB_N5 = [
         "japanese": "あの女の人は、とてもエレガントな美人ですね。",
         "romaji": "Ano onna no hito wa, totemo ereganto na bijin desu ne.",
         "german": "Diese Frau ist eine sehr elegante Schönheit."
+      },
+      {
+        "japanese": "あの女性は美人ですね。",
+        "romaji": "Ano josei wa bijin desu ne.",
+        "german": "Jene Frau ist eine Schönheit, nicht wahr?"
       }
     ]
   },
@@ -20821,6 +26941,11 @@ window.VOCAB_N5 = [
         "japanese": "勝負は引き分けだった。",
         "romaji": "Shoubu wa hikiwake datta.",
         "german": "Der Wettkampf endete unentschieden."
+      },
+      {
+        "japanese": "二つのチームが勝負しました。",
+        "romaji": "Futatsu no chiimu ga shoubu shimashita.",
+        "german": "Zwei Teams haben gegeneinander gekämpft."
       }
     ]
   },
@@ -20838,6 +26963,11 @@ window.VOCAB_N5 = [
         "japanese": "このレースの勝者はお金がもらえますよ。",
         "romaji": "Kono reesu no shousha wa okane ga moraemasu yo.",
         "german": "Die Gewinner dieses Rennens bekommen Geld."
+      },
+      {
+        "japanese": "勝者にトロフィーをあげます。",
+        "romaji": "Shousha ni torofii o agemasu.",
+        "german": "Dem Gewinner wird eine Trophäe überreicht."
       }
     ]
   },
@@ -20855,6 +26985,11 @@ window.VOCAB_N5 = [
         "japanese": "プロポーズ必勝の本が今年のベストセラーになりそうです。",
         "romaji": "Puropouzu hisshou no hon ga kotoshi no besutoseraa ni narisoudesu.",
         "german": "Das Buch über erfolgreiche Heiratsanträge wird wohl dieses Jahr ein Bestseller."
+      },
+      {
+        "japanese": "この試合は必勝です。",
+        "romaji": "Kono shiai wa hisshou desu.",
+        "german": "Dieses Spiel müssen wir unbedingt gewinnen."
       }
     ]
   },
@@ -20871,6 +27006,11 @@ window.VOCAB_N5 = [
       {
         "japanese": "今回のテストは、楽勝だったね。",
         "romaji": "Konkai no tesuto wa, rakushou datta ne.",
+        "german": "Dieser Test war ein Kinderspiel."
+      },
+      {
+        "japanese": "このテストは楽勝でした。",
+        "romaji": "Kono tesuto wa rakushou deshita.",
         "german": "Dieser Test war ein Kinderspiel."
       }
     ]
@@ -20889,6 +27029,11 @@ window.VOCAB_N5 = [
         "japanese": "アンナさんの体重は、何キロですか？",
         "romaji": "Annasan no taijuu wa, nankiro desu ka?",
         "german": "Wie viel Kilogramm wiegt Anna?"
+      },
+      {
+        "japanese": "最近体重が増えました。",
+        "romaji": "Saikin taijuu ga fuemashita.",
+        "german": "In letzter Zeit habe ich zugenommen."
       }
     ]
   },
@@ -20906,6 +27051,11 @@ window.VOCAB_N5 = [
         "japanese": "分からない文字の下に、二重のラインを引いて下さい。",
         "romaji": "Wakaranai moji no shita ni, nijuu no rain o hiite kudasai.",
         "german": "Bitte ziehen Sie eine doppelte Linie unter Zeichen, bei denen Sie unsicher sind."
+      },
+      {
+        "japanese": "二重の意味があります。",
+        "romaji": "Nijuu no imi ga arimasu.",
+        "german": "Es hat eine doppelte Bedeutung."
       }
     ]
   },
@@ -20923,6 +27073,11 @@ window.VOCAB_N5 = [
         "japanese": "もう全ての仮名を学びましたか？",
         "romaji": "Mou subete no kamei o manabimashita ka?",
         "german": "Haben Sie schon alle Kana gelernt?"
+      },
+      {
+        "japanese": "仮名で名前を書いてください。",
+        "romaji": "Kana de namae o kaite kudasai.",
+        "german": "Bitte schreiben Sie Ihren Namen in Kana."
       }
     ]
   },
@@ -20940,6 +27095,11 @@ window.VOCAB_N5 = [
         "japanese": "ペルーは南米の国の一つです。",
         "romaji": "Peruu wa Nanbei no kuni no hitotsu desu.",
         "german": "Peru ist eines der Länder in Südamerika."
+      },
+      {
+        "japanese": "南米を旅行したいです。",
+        "romaji": "Nanbei o ryokou shitai desu.",
+        "german": "Ich möchte Südamerika bereisen."
       }
     ]
   },
@@ -20957,6 +27117,11 @@ window.VOCAB_N5 = [
         "japanese": "パーティで色々な人と交わるのが下手なんです。",
         "romaji": "Paatei de iroiro na hito to majiwaru no ga heta na n desu.",
         "german": "Ich bin nicht gut darin, mich auf Partys unter verschiedene Leute zu mischen."
+      },
+      {
+        "japanese": "二つの道が交わっています。",
+        "romaji": "Futatsu no michi ga majiwatte imasu.",
+        "german": "Zwei Straßen kreuzen sich."
       }
     ]
   },
@@ -20974,6 +27139,11 @@ window.VOCAB_N5 = [
         "japanese": "私は小学校の先生です。",
         "romaji": "Watashi wa shougakkou no sensei desu.",
         "german": "Ich bin Grundschullehrer."
+      },
+      {
+        "japanese": "小学校の近くに住んでいます。",
+        "romaji": "Shougakkou no chikaku ni sunde imasu.",
+        "german": "Ich wohne in der Nähe einer Grundschule."
       }
     ]
   },
@@ -20991,6 +27161,11 @@ window.VOCAB_N5 = [
         "japanese": "ストーブの火に気を付けて下さい。",
         "romaji": "Sutoubu no hi ni ki o tsukete kudasai.",
         "german": "Bitte passen Sie auf das Feuer am Herd auf."
+      },
+      {
+        "japanese": "「気を付けて帰ってください。」",
+        "romaji": "Ki o tsukete kaette kudasai.",
+        "german": "Passen Sie auf dem Heimweg auf."
       }
     ]
   },
@@ -21008,6 +27183,11 @@ window.VOCAB_N5 = [
         "japanese": "私の弟は高校生です。",
         "romaji": "Watashi no otouto wa koukousei desu.",
         "german": "Mein kleiner Bruder ist Oberschüler."
+      },
+      {
+        "japanese": "息子は高校生です。",
+        "romaji": "Musuko wa koukousei desu.",
+        "german": "Mein Sohn ist Oberschüler."
       }
     ]
   },
@@ -21025,6 +27205,11 @@ window.VOCAB_N5 = [
         "japanese": "このコンビニには中学校の生徒がよく来ます。",
         "romaji": "Kono konbini ni wa chuugakkou no seito ga yoku kimasu.",
         "german": "Mittelschüler kommen oft in diesen Konbini."
+      },
+      {
+        "japanese": "弟は中学校に通っています。",
+        "romaji": "Otouto wa chuugakkou ni kayotte imasu.",
+        "german": "Mein jüngerer Bruder geht in die Mittelschule."
       }
     ]
   },
@@ -21042,6 +27227,11 @@ window.VOCAB_N5 = [
         "japanese": "この手紙には、まだ切手が付いてないですよ。",
         "romaji": "Kono tegami ni wa, mada kitte ga tsui tenaidesu yo.",
         "german": "Auf diesem Brief ist noch keine Briefmarke."
+      },
+      {
+        "japanese": "電気が付いていますね。",
+        "romaji": "Denki ga tsuite imasu ne.",
+        "german": "Das Licht ist an, nicht wahr?"
       }
     ]
   },
@@ -21059,6 +27249,11 @@ window.VOCAB_N5 = [
         "japanese": "私の母を見付けることが出来ますか？",
         "romaji": "Watashi no haha o mitsukeru koto ga dekimasu ka?",
         "german": "Können Sie meine Mutter finden?"
+      },
+      {
+        "japanese": "やっと仕事を見付けました。",
+        "romaji": "Yatto shigoto o mitsukemashita.",
+        "german": "Endlich habe ich eine Arbeit gefunden."
       }
     ]
   },
@@ -21076,6 +27271,11 @@ window.VOCAB_N5 = [
         "japanese": "弟は弱虫だと言われている。",
         "romaji": "Otouto wa yowamushi da to iwa rete iru.",
         "german": "Man sagt, mein jüngerer Bruder sei ein Feigling."
+      },
+      {
+        "japanese": "あの子は弱虫ですね。",
+        "romaji": "Ano ko wa yowamushi desu ne.",
+        "german": "Dieses Kind ist ein Feigling, nicht wahr?"
       }
     ]
   },
@@ -21093,6 +27293,11 @@ window.VOCAB_N5 = [
         "japanese": "主人は弱々しい体ながら全力で走った。",
         "romaji": "Shujin wa yowayowashii karada nagara zenryoku de hashitta.",
         "german": "Mein Mann rannte mit voller Kraft, trotz seines schwächlichen Körpers."
+      },
+      {
+        "japanese": "弱々しい光が見えます。",
+        "romaji": "Yowayowashii hikari ga miemasu.",
+        "german": "Man sieht ein schwaches Licht."
       }
     ]
   },
@@ -21110,6 +27315,11 @@ window.VOCAB_N5 = [
         "japanese": "マグカップの口の所が欠けてしまった。",
         "romaji": "Magukappu no kuchi no tokoro ga kakete shimatta.",
         "german": "Der Rand der Tasse ist abgebrochen."
+      },
+      {
+        "japanese": "お皿の端が欠けました。",
+        "romaji": "Osara no hashi ga kakemashita.",
+        "german": "Der Rand des Tellers ist abgebrochen."
       }
     ]
   },
@@ -21127,6 +27337,11 @@ window.VOCAB_N5 = [
         "japanese": "七十年前、テレビは白黒でした。",
         "romaji": "Nana juunen mae, terebi wa shirokuro deshita.",
         "german": "Vor siebzig Jahren war das Fernsehen schwarzweiß."
+      },
+      {
+        "japanese": "白黒の写真です。",
+        "romaji": "Shirokuro no shashin desu.",
+        "german": "Es ist ein Schwarzweißfoto."
       }
     ]
   },
@@ -21144,6 +27359,11 @@ window.VOCAB_N5 = [
         "japanese": "すごくいい映像ですね。",
         "romaji": "Sugoku ii eizou desu ne.",
         "german": "Das ist sehr schönes Filmmaterial."
+      },
+      {
+        "japanese": "テレビで映像を見ました。",
+        "romaji": "Terebi de eizou o mimashita.",
+        "german": "Ich habe das Filmmaterial im Fernsehen gesehen."
       }
     ]
   },
@@ -21161,6 +27381,11 @@ window.VOCAB_N5 = [
         "japanese": "おもしろい画像ですね。",
         "romaji": "Omoshiroi gazou desu ne.",
         "german": "Das ist ein interessantes Bild."
+      },
+      {
+        "japanese": "画像をダウンロードしました。",
+        "romaji": "Gazou o daunroodo shimashita.",
+        "german": "Ich habe das Bild heruntergeladen."
       }
     ]
   },
@@ -21178,6 +27403,11 @@ window.VOCAB_N5 = [
         "japanese": "高いクオリティを保持するのは工場にとって大切なことです。",
         "romaji": "Takai kuoritei o hoji suru no wa koujou nitotte taisetsu na koto desu.",
         "german": "Es ist wichtig für die Fabrik, hohe Qualität aufrechtzuerhalten."
+      },
+      {
+        "japanese": "健康を保持することが大切です。",
+        "romaji": "Kenkou o hoji suru koto ga taisetsu desu.",
+        "german": "Es ist wichtig, die Gesundheit aufrechtzuerhalten."
       }
     ]
   },
@@ -21195,6 +27425,11 @@ window.VOCAB_N5 = [
         "japanese": "さっき生保のセールスマネジャーが家に来ましたよ。",
         "romaji": "Sakki seiho no seerusu manejaa ga ie ni kimashita yo.",
         "german": "Vorhin kam ein Vertriebsleiter für Lebensversicherungen nach Hause."
+      },
+      {
+        "japanese": "生保に入っていますか。",
+        "romaji": "Seiho ni haitte imasu ka.",
+        "german": "Haben Sie eine Lebensversicherung?"
       }
     ]
   },
@@ -21212,6 +27447,11 @@ window.VOCAB_N5 = [
         "japanese": "体力を保つには毎日トレーニングしなくてはいけません。",
         "romaji": "Tairyoku o tamotsu ni wa mainichi toreeningu shinakute wa ikemasen.",
         "german": "Um die körperliche Kraft zu bewahren, muss man jeden Tag trainieren."
+      },
+      {
+        "japanese": "きれいな状態を保ってください。",
+        "romaji": "Kirei na joutai o tamotte kudasai.",
+        "german": "Bitte halten Sie es in sauberem Zustand."
       }
     ]
   },
@@ -21229,6 +27469,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は、やり方を試みる。",
         "romaji": "Kyou wa, yarikata o kokoromiru.",
         "german": "Heute werde ich diese Methode ausprobieren."
+      },
+      {
+        "japanese": "新しいレシピを試みました。",
+        "romaji": "Atarashii reshipi o kokoromimashita.",
+        "german": "Ich habe ein neues Rezept ausprobiert."
       }
     ]
   },
@@ -21246,6 +27491,11 @@ window.VOCAB_N5 = [
         "japanese": "先ずは何も言わないで試食してみて。",
         "romaji": "Mazu wa nani mo iwanaide shishoku shite mite.",
         "german": "Probiere es erst mal, ohne etwas zu sagen."
+      },
+      {
+        "japanese": "デパートで試食しました。",
+        "romaji": "Depaato de shishoku shimashita.",
+        "german": "Ich habe im Kaufhaus eine Kostprobe genommen."
       }
     ]
   },
@@ -21263,6 +27513,11 @@ window.VOCAB_N5 = [
         "japanese": "日本の生活とアメリカの生活じゃ、いい対比にならないよ。",
         "romaji": "Nippon no seikatsu to Amerika no seikatsu ja, ii taihi ni naranai yo.",
         "german": "Das japanische und das amerikanische Leben lassen sich nicht gut vergleichen."
+      },
+      {
+        "japanese": "二つの商品を対比しました。",
+        "romaji": "Futatsu no shouhin o taihi shimashita.",
+        "german": "Ich habe zwei Produkte verglichen."
       }
     ]
   },
@@ -21280,6 +27535,11 @@ window.VOCAB_N5 = [
         "japanese": "それでは、発表します。スピーチコンテストの勝者は田中さんです！",
         "romaji": "Soredeha, happyou shimasu. Supiichi kontesuto no shousha wa Tanakasan desu!",
         "german": "Nun zur Bekanntgabe: Der Gewinner des Redewettbewerbs ist Herr Tanaka!"
+      },
+      {
+        "japanese": "新商品を発表しました。",
+        "romaji": "Shinshouhin o happyou shimashita.",
+        "german": "Ein neues Produkt wurde vorgestellt."
       }
     ]
   },
@@ -21297,6 +27557,11 @@ window.VOCAB_N5 = [
         "japanese": "データは全てを表す。",
         "romaji": "Deeta wa subete o arawasu.",
         "german": "Die Daten zeigen alles."
+      },
+      {
+        "japanese": "この絵は何を表していますか。",
+        "romaji": "Kono e wa nani o arawashite imasu ka.",
+        "german": "Was drückt dieses Bild aus?"
       }
     ]
   },
@@ -21314,6 +27579,11 @@ window.VOCAB_N5 = [
         "japanese": "出発まで五分です。",
         "romaji": "Shuppatsu made gofun desu.",
         "german": "Es sind noch fünf Minuten bis zur Abfahrt."
+      },
+      {
+        "japanese": "電車は九時に出発します。",
+        "romaji": "Densha wa kuji ni shuppatsu shimasu.",
+        "german": "Der Zug fährt um neun Uhr ab."
       }
     ]
   },
@@ -21331,6 +27601,11 @@ window.VOCAB_N5 = [
         "japanese": "やっぱりオデンには辛子でしょ。",
         "romaji": "Yappari oden ni wa karashi desho.",
         "german": "Zu Oden gehört doch Senf, oder?"
+      },
+      {
+        "japanese": "辛子をつけて食べますか。",
+        "romaji": "Karashi o tsukete tabemasu ka.",
+        "german": "Essen Sie es mit Senf?"
       }
     ]
   },
@@ -21348,6 +27623,11 @@ window.VOCAB_N5 = [
         "japanese": "先日、友人と本屋に行きました。",
         "romaji": "Senjitsu, yuujin to hon'ya ni ikimashita.",
         "german": "Neulich bin ich mit einem Freund in die Buchhandlung gegangen."
+      },
+      {
+        "japanese": "本屋で新しい小説を買いました。",
+        "romaji": "Honya de atarashii shousetsu o kaimashita.",
+        "german": "Ich habe in der Buchhandlung einen neuen Roman gekauft."
       }
     ]
   },
@@ -21365,6 +27645,11 @@ window.VOCAB_N5 = [
         "japanese": "子犬は天使みたいでした。",
         "romaji": "Koinu wa tenshi mitai deshita.",
         "german": "Der Welpe war wie ein Engel."
+      },
+      {
+        "japanese": "あの絵の天使はきれいですね。",
+        "romaji": "Ano e no tenshi wa kirei desu ne.",
+        "german": "Der Engel auf jenem Bild ist schön, nicht wahr?"
       }
     ]
   },
@@ -21382,6 +27667,11 @@ window.VOCAB_N5 = [
         "japanese": "新年に大きいセールを行います。",
         "romaji": "Shinnen ni ookii seeru o okonaimasu.",
         "german": "Wir werden im neuen Jahr einen großen Ausverkauf veranstalten."
+      },
+      {
+        "japanese": "新年おめでとうございます。",
+        "romaji": "Shinnen omedetou gozaimasu.",
+        "german": "Frohes neues Jahr!"
       }
     ]
   },
@@ -21399,6 +27689,11 @@ window.VOCAB_N5 = [
         "japanese": "工学と心理学の学者の対談のイベントに行きました。",
         "romaji": "Kougaku to shinrigaku no gakusha no taidan no ibento ni ikimashita.",
         "german": "Ich war bei einer Veranstaltung mit Gesprächen zwischen Ingenieurs- und Psychologiewissenschaftlern."
+      },
+      {
+        "japanese": "テレビで対談を見ました。",
+        "romaji": "Terebi de taidan o mimashita.",
+        "german": "Ich habe ein Gespräch im Fernsehen gesehen."
       }
     ]
   },
@@ -21416,6 +27711,11 @@ window.VOCAB_N5 = [
         "japanese": "母は足が不自由なので、車を使うことが多いです。",
         "romaji": "Haha wa ashi ga fujiyuu na node, kuruma o tsukau koto ga ooidesu.",
         "german": "Meine Mutter hat eine Gehbehinderung, deshalb benutzt sie oft das Auto."
+      },
+      {
+        "japanese": "足が不自由な方もいます。",
+        "romaji": "Ashi ga fujiyuu na kata mo imasu.",
+        "german": "Es gibt auch Menschen mit Gehbehinderung."
       }
     ]
   },
@@ -21433,6 +27733,11 @@ window.VOCAB_N5 = [
         "japanese": "「毎日全力で生きる」というのは、父からの教えです。",
         "romaji": "Mainichi zenryoku de ikiru toiu no wa, chichi kara no oshie desu.",
         "german": "Jeden Tag mit voller Kraft leben ist eine Lehre meines Vaters."
+      },
+      {
+        "japanese": "先生の教えを大切にしています。",
+        "romaji": "Sensei no oshie o taisetsu ni shite imasu.",
+        "german": "Ich schätze die Lehre des Lehrers."
       }
     ]
   },
@@ -21450,6 +27755,11 @@ window.VOCAB_N5 = [
         "japanese": "この付近に、コンビニはありますか？",
         "romaji": "Kono fukin ni, konbini wa arimasu ka?",
         "german": "Gibt es in dieser Umgebung einen Konbini?"
+      },
+      {
+        "japanese": "駅の付近にホテルがあります。",
+        "romaji": "Eki no fukin ni hoteru ga arimasu.",
+        "german": "In der Nähe des Bahnhofs gibt es ein Hotel."
       }
     ]
   },
@@ -21467,6 +27777,11 @@ window.VOCAB_N5 = [
         "japanese": "マイケルは魚よりも泳ぎが上手です。",
         "romaji": "Maikeru wa sakana yori mo oyogi ga jouzu desu.",
         "german": "Michael schwimmt besser als ein Fisch!"
+      },
+      {
+        "japanese": "彼は泳ぎが上手です。",
+        "romaji": "Kare wa oyogi ga jouzu desu.",
+        "german": "Er ist gut im Schwimmen."
       }
     ]
   },
@@ -21484,6 +27799,11 @@ window.VOCAB_N5 = [
         "japanese": "ガラスは光を通します。",
         "romaji": "Garasu wa hikari o tooshimasu.",
         "german": "Glas lässt Licht hindurch."
+      },
+      {
+        "japanese": "お客様をお部屋に通してください。",
+        "romaji": "Okyakusama o oheya ni tooshite kudasai.",
+        "german": "Bitte führen Sie den Gast ins Zimmer."
       }
     ]
   },
@@ -21501,6 +27821,11 @@ window.VOCAB_N5 = [
         "japanese": "すみません。このクーポンの使用の仕方が分からないんです。",
         "romaji": "Sumimasen. Kono kuupon no shiyou no shikata ga wakaranai n desu.",
         "german": "Entschuldigung, ich weiß nicht, wie man diesen Coupon verwendet."
+      },
+      {
+        "japanese": "この機械は使用中です。",
+        "romaji": "Kono kikai wa shiyouchuu desu.",
+        "german": "Diese Maschine ist in Benutzung."
       }
     ]
   },
@@ -21518,6 +27843,11 @@ window.VOCAB_N5 = [
         "japanese": "カレーはいつも辛口を買います。",
         "romaji": "Karee wa itsumo karakuchi o kaimasu.",
         "german": "Beim Curry kaufe ich immer die scharfe Variante."
+      },
+      {
+        "japanese": "辛口のカレーが好きです。",
+        "romaji": "Karakuchi no karee ga suki desu.",
+        "german": "Ich mag scharfes Curry."
       }
     ]
   },
@@ -21535,6 +27865,11 @@ window.VOCAB_N5 = [
         "japanese": "私はマレーシア出身です。",
         "romaji": "Watashi wa Mareeshia shusshin desu.",
         "german": "Ich komme aus Malaysia."
+      },
+      {
+        "japanese": "出身はどこですか。",
+        "romaji": "Shusshin wa doko desu ka.",
+        "german": "Woher kommen Sie?"
       }
     ]
   },
@@ -21552,6 +27887,11 @@ window.VOCAB_N5 = [
         "japanese": "ラグビーなど、多くのスポーツで交代のルールがあります。",
         "romaji": "Ragubii nado, ooku no supoutsu de koutai no ruuru ga arimasu.",
         "german": "In vielen Sportarten wie Rugby gibt es Regeln für Auswechslungen."
+      },
+      {
+        "japanese": "選手が交代しました。",
+        "romaji": "Senshu ga koutai shimashita.",
+        "german": "Der Spieler wurde ausgewechselt."
       }
     ]
   },
@@ -21569,6 +27909,11 @@ window.VOCAB_N5 = [
         "japanese": "そこで先生に会ったよ。",
         "romaji": "Sokode sensei ni atta yo.",
         "german": "Dort habe ich meinen Lehrer getroffen."
+      },
+      {
+        "japanese": "そこに座ってください。",
+        "romaji": "Soko ni suwatte kudasai.",
+        "german": "Bitte setzen Sie sich dorthin."
       }
     ]
   },
@@ -21586,6 +27931,11 @@ window.VOCAB_N5 = [
         "japanese": "私のうちは、あそこだよ。",
         "romaji": "Watashi no uchi wa, asoko da yo.",
         "german": "Mein Haus ist dort drüben."
+      },
+      {
+        "japanese": "あそこにお店があります。",
+        "romaji": "Asoko ni omise ga arimasu.",
+        "german": "Dort drüben gibt es ein Geschäft."
       }
     ]
   },
@@ -21603,6 +27953,11 @@ window.VOCAB_N5 = [
         "japanese": "一ヶ月で五キロやせました。",
         "romaji": "Ichikagetsu de gokiro yasemashita.",
         "german": "Ich habe in einem Monat fünf Kilo abgenommen."
+      },
+      {
+        "japanese": "五キロ走りました。",
+        "romaji": "Gokiro hashirimashita.",
+        "german": "Ich bin fünf Kilometer gerannt."
       }
     ]
   },
@@ -21620,6 +27975,11 @@ window.VOCAB_N5 = [
         "japanese": "あとはそのまま来た道を下るだけだ。",
         "romaji": "Ato wa sonomama kita michi o kudaru dake da.",
         "german": "Danach gehen wir einfach den Weg zurück hinunter."
+      },
+      {
+        "japanese": "坂を下りました。",
+        "romaji": "Saka o orimashita.",
+        "german": "Ich bin den Hügel hinuntergestiegen."
       }
     ]
   },
@@ -21637,6 +27997,11 @@ window.VOCAB_N5 = [
         "japanese": "海外から年金を受け取る方法ってありますか？",
         "romaji": "Kaigai kara nenkin o uketoru houhou tte arimasu ka?",
         "german": "Gibt es eine Möglichkeit, eine Rente aus dem Ausland zu empfangen?"
+      },
+      {
+        "japanese": "荷物を受け取りました。",
+        "romaji": "Nimotsu o uketorimashita.",
+        "german": "Ich habe das Paket empfangen."
       }
     ]
   },
@@ -21654,6 +28019,11 @@ window.VOCAB_N5 = [
         "japanese": "ここで十分間休みましょう。",
         "romaji": "Koko de juppunkan yasumimashou.",
         "german": "Lassen Sie uns hier zehn Minuten ausruhen."
+      },
+      {
+        "japanese": "十分間休憩しましょう。",
+        "romaji": "Juppunkan kyuukei shimashou.",
+        "german": "Lass uns zehn Minuten Pause machen."
       }
     ]
   },
@@ -21671,6 +28041,11 @@ window.VOCAB_N5 = [
         "japanese": "南国は一年中あたたかいです。",
         "romaji": "Nangoku wa ichinenjuu atatakaidesu.",
         "german": "Tropische Länder sind das ganze Jahr über warm."
+      },
+      {
+        "japanese": "南国は暖かいです。",
+        "romaji": "Nangoku wa atatakai desu.",
+        "german": "Tropische Länder sind warm."
       }
     ]
   },
@@ -21688,6 +28063,11 @@ window.VOCAB_N5 = [
         "japanese": "あたたかい南風がふいています。",
         "romaji": "Atatakai minamikaze ga fuite imasu.",
         "german": "Ein warmer Südwind weht."
+      },
+      {
+        "japanese": "今日は南風が吹いています。",
+        "romaji": "Kyou wa minamikaze ga fuite imasu.",
+        "german": "Heute weht ein Südwind."
       }
     ]
   },
@@ -21705,6 +28085,11 @@ window.VOCAB_N5 = [
         "japanese": "車は、南東の方に行った。",
         "romaji": "Kuruma wa, nantou no hou ni itta.",
         "german": "Das Auto fuhr in südöstliche Richtung."
+      },
+      {
+        "japanese": "この部屋は南東向きです。",
+        "romaji": "Kono heya wa nantou muki desu.",
+        "german": "Dieses Zimmer zeigt nach Südosten."
       }
     ]
   },
@@ -21722,6 +28107,11 @@ window.VOCAB_N5 = [
         "japanese": "日本では、犬をタクシーに乗せることは出来ますか？",
         "romaji": "Nippon de wa, inu o takushii ni noseru koto wa dekimasu ka?",
         "german": "Kann man in Japan einen Hund im Taxi mitnehmen?"
+      },
+      {
+        "japanese": "子供を車に乗せました。",
+        "romaji": "Kodomo o kuruma ni nosemashita.",
+        "german": "Ich habe das Kind ins Auto gesetzt."
       }
     ]
   },
@@ -21739,6 +28129,11 @@ window.VOCAB_N5 = [
         "japanese": "インターネットの速度がおそすぎてイライラしています。",
         "romaji": "Intaanetto no sokudo ga oso sugite iraira shite imasu.",
         "german": "Die Internetgeschwindigkeit ist so langsam, dass es mich wahnsinnig macht."
+      },
+      {
+        "japanese": "速度を落としてください。",
+        "romaji": "Sokudo o otoshite kudasai.",
+        "german": "Bitte verlangsamen Sie die Geschwindigkeit."
       }
     ]
   },
@@ -21756,6 +28151,11 @@ window.VOCAB_N5 = [
         "japanese": "私はトーフグ学院で心理学を学んでいます。",
         "romaji": "Watashi wa tou fugu gakuin de shinrigaku o manande imasu.",
         "german": "Ich studiere Psychologie am Tofugu-Institut."
+      },
+      {
+        "japanese": "この学院で日本語を学びます。",
+        "romaji": "Kono gakuin de nihongo o manabimasu.",
+        "german": "Ich lerne an dieser Akademie Japanisch."
       }
     ]
   },
@@ -21773,6 +28173,11 @@ window.VOCAB_N5 = [
         "japanese": "この電車は終点まで走行します。",
         "romaji": "Kono densha wa shuuten made soukou shimasu.",
         "german": "Dieser Zug fährt bis zur Endstation."
+      },
+      {
+        "japanese": "このバスの終点は東京駅です。",
+        "romaji": "Kono basu no shuuten wa Toukyou eki desu.",
+        "german": "Die Endstation dieses Busses ist der Bahnhof Tokio."
       }
     ]
   },
@@ -21790,6 +28195,11 @@ window.VOCAB_N5 = [
         "japanese": "ミーティングは終了しました。",
         "romaji": "Miiteingu wa shuuryou shimashita.",
         "german": "Die Besprechung ist beendet."
+      },
+      {
+        "japanese": "試合が終了しました。",
+        "romaji": "Shiai ga shuuryou shimashita.",
+        "german": "Das Spiel ist zu Ende."
       }
     ]
   },
@@ -21807,6 +28217,11 @@ window.VOCAB_N5 = [
         "japanese": "最終のバスはいつ出発ですか？",
         "romaji": "Saishuu no basu wa itsu shuppatsu desu ka?",
         "german": "Wann fährt der letzte Bus ab?"
+      },
+      {
+        "japanese": "これが最終のバスです。",
+        "romaji": "Kore ga saishuu no basu desu.",
+        "german": "Das ist der letzte Bus."
       }
     ]
   },
@@ -21824,6 +28239,11 @@ window.VOCAB_N5 = [
         "japanese": "ボールが転がる音がした。",
         "romaji": "Bouru ga korogaru oto ga shita.",
         "german": "Man hörte das Geräusch eines rollenden Balls."
+      },
+      {
+        "japanese": "ボールが転がっています。",
+        "romaji": "Booru ga korogatte imasu.",
+        "german": "Der Ball rollt."
       }
     ]
   },
@@ -21841,6 +28261,11 @@ window.VOCAB_N5 = [
         "japanese": "父は毎日、会社と家の間を車かバイクで運転する。",
         "romaji": "Chichi wa mainichi, kaisha to ie no ma o kuruma ka baiku de unten suru.",
         "german": "Mein Vater fährt jeden Tag mit dem Auto oder Motorrad zwischen Firma und Zuhause."
+      },
+      {
+        "japanese": "父が車を運転しています。",
+        "romaji": "Chichi ga kuruma o unten shite imasu.",
+        "german": "Mein Vater fährt das Auto."
       }
     ]
   },
@@ -21858,6 +28283,11 @@ window.VOCAB_N5 = [
         "japanese": "車は、走る時にタイヤが回転します。",
         "romaji": "Kuruma wa, hashiru toki ni taiya ga kaiten shimasu.",
         "german": "Wenn das Auto fährt, drehen sich die Reifen."
+      },
+      {
+        "japanese": "この椅子は回転します。",
+        "romaji": "Kono isu wa kaiten shimasu.",
+        "german": "Dieser Stuhl dreht sich."
       }
     ]
   },
@@ -21875,6 +28305,11 @@ window.VOCAB_N5 = [
         "japanese": "もう少し前に進んで下さい。",
         "romaji": "Mousukoshi mae ni susunde kudasai.",
         "german": "Bitte gehen Sie noch ein kleines Stück weiter nach vorn."
+      },
+      {
+        "japanese": "まっすぐ前に進んでください。",
+        "romaji": "Massugu mae ni susunde kudasai.",
+        "german": "Bitte gehen Sie geradeaus weiter."
       }
     ]
   },
@@ -21892,6 +28327,11 @@ window.VOCAB_N5 = [
         "japanese": "道の工事が進行しています。",
         "romaji": "Michi no kouji ga shinkou shite imasu.",
         "german": "Der Straßenbau schreitet voran."
+      },
+      {
+        "japanese": "工事が順調に進行しています。",
+        "romaji": "Kouji ga junchou ni shinkou shite imasu.",
+        "german": "Die Bauarbeiten machen gute Fortschritte."
       }
     ]
   },
@@ -21909,6 +28349,11 @@ window.VOCAB_N5 = [
         "japanese": "去年の夏、青葉が美しい山へ行きました。",
         "romaji": "Kyonen no natsu, aoba ga utsukushii yama e ikimashita.",
         "german": "Letzten Sommer sind wir zu einem Berg mit schönem frischem Laub gegangen."
+      },
+      {
+        "japanese": "初夏の青葉がきれいです。",
+        "romaji": "Shoka no aoba ga kirei desu.",
+        "german": "Das frische Laub im Frühsommer ist schön."
       }
     ]
   },
@@ -21926,6 +28371,11 @@ window.VOCAB_N5 = [
         "japanese": "宝くじが当たるなんて、運がいいよ。",
         "romaji": "Takarakuji ga ataru nante, un ga ii yo.",
         "german": "Im Lotto zu gewinnen ist ein Glücksfall."
+      },
+      {
+        "japanese": "今日は運がいいですね。",
+        "romaji": "Kyou wa un ga ii desu ne.",
+        "german": "Heute haben Sie Glück, nicht wahr?"
       }
     ]
   },
@@ -21943,6 +28393,11 @@ window.VOCAB_N5 = [
         "japanese": "新しいドラマの公開は今年の三月です。",
         "romaji": "Atarashii dorama no koukai wa kotoshi no sangatsu desu.",
         "german": "Das neue Drama wird im März dieses Jahres veröffentlicht."
+      },
+      {
+        "japanese": "新しい映画が公開されました。",
+        "romaji": "Atarashii eiga ga koukai saremashita.",
+        "german": "Ein neuer Film wurde veröffentlicht."
       }
     ]
   },
@@ -21960,6 +28415,11 @@ window.VOCAB_N5 = [
         "japanese": "私は社長ですが、開業したばかりで、お金がありません。",
         "romaji": "Watashi wa shachou desu ga, kaigyou shita bakari de, okane ga arimasen.",
         "german": "Ich bin Firmenchef, aber ich habe gerade erst gegründet und habe kein Geld."
+      },
+      {
+        "japanese": "この店は来月開業します。",
+        "romaji": "Kono mise wa raigetsu kaigyou shimasu.",
+        "german": "Dieses Geschäft eröffnet nächsten Monat."
       }
     ]
   },
@@ -21977,6 +28437,11 @@ window.VOCAB_N5 = [
         "japanese": "今日は集金の日です。",
         "romaji": "Kyou wa shuukin no hi desu.",
         "german": "Heute ist der Tag des Geldeinzugs."
+      },
+      {
+        "japanese": "毎月集金に来ます。",
+        "romaji": "Maitsuki shuukin ni kimasu.",
+        "german": "Jeden Monat kommt jemand zum Geldeinzug."
       }
     ]
   },
@@ -21994,6 +28459,11 @@ window.VOCAB_N5 = [
         "japanese": "線路には、何があっても入らないで下さい。",
         "romaji": "Senro ni wa, nani ga atte mo hairanaide kudasai.",
         "german": "Betreten Sie auf keinen Fall die Gleise."
+      },
+      {
+        "japanese": "線路の近くに住んでいます。",
+        "romaji": "Senro no chikaku ni sunde imasu.",
+        "german": "Ich wohne in der Nähe der Gleise."
       }
     ]
   },
@@ -22011,6 +28481,11 @@ window.VOCAB_N5 = [
         "japanese": "学校で、むかしの農民のくらしを学びました。",
         "romaji": "Gakkou de, mukashi no noumin no kurashi o manabimashita.",
         "german": "In der Schule haben wir über das Leben der Bauern in früheren Zeiten gelernt."
+      },
+      {
+        "japanese": "あの農民はお米を作っています。",
+        "romaji": "Ano noumin wa okome o tsukutte imasu.",
+        "german": "Jener Bauer baut Reis an."
       }
     ]
   },
@@ -22028,6 +28503,11 @@ window.VOCAB_N5 = [
         "japanese": "うちの社長はトライアスロンの後に出社するような鉄人です。",
         "romaji": "Uchi no shachou wa toraiasuron no nochi ni shussha suru you na tetsujin desu.",
         "german": "Unser Chef ist ein harter Kerl, der nach einem Triathlon noch zur Arbeit kommt."
+      },
+      {
+        "japanese": "あの人は鉄人のように強いです。",
+        "romaji": "Ano hito wa tetsujin no you ni tsuyoi desu.",
+        "german": "Jene Person ist stark wie ein Eisenmann."
       }
     ]
   },
@@ -22045,6 +28525,11 @@ window.VOCAB_N5 = [
         "japanese": "大人になったら、電鉄会社に入社したいです。",
         "romaji": "Otona ni nattara, dentetsu kaisha ni nyuusha shitaidesu.",
         "german": "Wenn ich erwachsen bin, möchte ich bei einer Eisenbahngesellschaft arbeiten."
+      },
+      {
+        "japanese": "この電鉄は便利です。",
+        "romaji": "Kono dentetsu wa benri desu.",
+        "german": "Diese Eisenbahnlinie ist praktisch."
       }
     ]
   },
@@ -22062,6 +28547,11 @@ window.VOCAB_N5 = [
         "japanese": "算数の先生は、田中先生です。",
         "romaji": "Sansuu no sensei wa, Tanaka sensei desu.",
         "german": "Der Rechenlehrer ist Herr Tanaka."
+      },
+      {
+        "japanese": "算数の宿題をしましょう。",
+        "romaji": "Sansuu no shukudai o shimashou.",
+        "german": "Lass uns die Rechenaufgaben machen."
       }
     ]
   },
@@ -22079,6 +28569,11 @@ window.VOCAB_N5 = [
         "japanese": "週に一回、日本語の教室に通っています。",
         "romaji": "Shuu ni ichikai, nihongo no kyoushitsu ni kayotte imasu.",
         "german": "Ich gehe einmal pro Woche zum Japanischunterricht."
+      },
+      {
+        "japanese": "日本語を勉強しています。",
+        "romaji": "Nihongo o benkyou shite imasu.",
+        "german": "Ich lerne Japanisch."
       }
     ]
   },
@@ -22096,6 +28591,11 @@ window.VOCAB_N5 = [
         "japanese": "フランス語を学ぶために大学に行きました。",
         "romaji": "Furansugo o manabu tame ni daigaku ni ikimashita.",
         "german": "Ich bin an die Universität gegangen, um Französisch zu lernen."
+      },
+      {
+        "japanese": "フランス語が少し話せます。",
+        "romaji": "Furansugo ga sukoshi hanasemasu.",
+        "german": "Ich kann ein wenig Französisch sprechen."
       }
     ]
   },
@@ -22113,6 +28613,11 @@ window.VOCAB_N5 = [
         "japanese": "友人にスペイン語を教えてあげました。",
         "romaji": "Yuujin ni Supeingo o oshiete agemashita.",
         "german": "Ich habe meinem Freund Spanisch beigebracht."
+      },
+      {
+        "japanese": "スペイン語を勉強したいです。",
+        "romaji": "Supeingo o benkyou shitai desu.",
+        "german": "Ich möchte Spanisch lernen."
       }
     ]
   },
@@ -22130,6 +28635,11 @@ window.VOCAB_N5 = [
         "japanese": "今日の調子はどうですか？",
         "romaji": "Kyou no choushi wa dou desu ka?",
         "german": "Wie geht es dir heute?"
+      },
+      {
+        "japanese": "体の調子はどうですか。",
+        "romaji": "Karada no choushi wa dou desu ka.",
+        "german": "Wie geht es Ihnen gesundheitlich?"
       }
     ]
   },
@@ -22147,6 +28657,11 @@ window.VOCAB_N5 = [
         "japanese": "先生は、重要なポイントを強調しました。",
         "romaji": "Sensei wa, juuyou na pointo o kyouchou shimashita.",
         "german": "Der Lehrer hat die wichtigen Punkte betont."
+      },
+      {
+        "japanese": "この言葉を強調してください。",
+        "romaji": "Kono kotoba o kyouchou shite kudasai.",
+        "german": "Bitte betonen Sie dieses Wort."
       }
     ]
   },
@@ -22164,6 +28679,11 @@ window.VOCAB_N5 = [
         "japanese": "まだ親しい友人にしか話してないの。",
         "romaji": "Mada shitashii yuujin ni shika hanashi tenai no.",
         "german": "Ich habe es bisher nur engen Freunden erzählt."
+      },
+      {
+        "japanese": "彼とは親しい友達です。",
+        "romaji": "Kare to wa shitashii tomodachi desu.",
+        "german": "Er ist ein enger Freund."
       }
     ]
   },
@@ -22181,6 +28701,11 @@ window.VOCAB_N5 = [
         "japanese": "この前より、顔付きがリラックスしてるね。",
         "romaji": "Kono mae yori, kaotsuki ga rirakkusu shi teru ne.",
         "german": "Du siehst entspannter aus als vorher."
+      },
+      {
+        "japanese": "怖い顔付きをしていますね。",
+        "romaji": "Kowai kaotsuki o shite imasu ne.",
+        "german": "Sie machen ein furchterregendes Gesicht."
       }
     ]
   },
@@ -22198,6 +28723,11 @@ window.VOCAB_N5 = [
         "japanese": "アルツハイマー病のせいで、色々な事を思い出せない時があります。",
         "romaji": "Arutsuhaimaabyou no sei de, iroiro na koto o omoidasenai toki ga arimasu.",
         "german": "Wegen der Alzheimer-Krankheit kann ich mich manchmal an verschiedene Dinge nicht erinnern."
+      },
+      {
+        "japanese": "どんな病気ですか。",
+        "romaji": "Donna byouki desu ka.",
+        "german": "Was für eine Krankheit ist es?"
       }
     ]
   },
@@ -22215,6 +28745,11 @@ window.VOCAB_N5 = [
         "japanese": "病人や、ケガ人はいますか？",
         "romaji": "Byounin ya, kegajin wa imasu ka?",
         "german": "Ist jemand krank oder verletzt?"
+      },
+      {
+        "japanese": "病人を病院に連れて行きました。",
+        "romaji": "Byounin o byouin ni tsurete ikimashita.",
+        "german": "Ich habe den Kranken ins Krankenhaus gebracht."
       }
     ]
   },
@@ -22232,6 +28767,11 @@ window.VOCAB_N5 = [
         "japanese": "かき氷は夏に食べるのが最高です。",
         "romaji": "Kakigoori wa natsu ni taberu no ga saikou desu.",
         "german": "Rasiereis schmeckt im Sommer am besten."
+      },
+      {
+        "japanese": "今日の天気は最高です。",
+        "romaji": "Kyou no tenki wa saikou desu.",
+        "german": "Das Wetter heute ist das Beste."
       }
     ]
   },
@@ -22249,6 +28789,11 @@ window.VOCAB_N5 = [
         "japanese": "パンダが次々に竹を食べました。",
         "romaji": "Panda ga tsugitsugi ni take o tabemashita.",
         "german": "Der Panda fraß einen Bambus nach dem anderen."
+      },
+      {
+        "japanese": "問題が次々と出てきました。",
+        "romaji": "Mondai ga tsugitsugi to dete kimashita.",
+        "german": "Die Probleme kamen eins nach dem anderen."
       }
     ]
   },
@@ -22266,6 +28811,11 @@ window.VOCAB_N5 = [
         "japanese": "このパーツ、金に代える？",
         "romaji": "Kono paatsu, kin ni kaeru?",
         "german": "Sollen wir dieses Teil durch Gold ersetzen?"
+      },
+      {
+        "japanese": "古い部品を新しいものに代えました。",
+        "romaji": "Furui buhin o atarashii mono ni kaemashita.",
+        "german": "Ich habe das alte Teil durch ein neues ersetzt."
       }
     ]
   },
@@ -22283,6 +28833,11 @@ window.VOCAB_N5 = [
         "japanese": "町民の中には、目医者に通っている人も多いです。",
         "romaji": "Choumin no naka ni wa, meisha ni kayotte iru hito mo ooidesu.",
         "german": "Viele Bewohner dieser Stadt gehen zum Augenarzt."
+      },
+      {
+        "japanese": "目医者に行かなければなりません。",
+        "romaji": "Meisha ni ikanakereba narimasen.",
+        "german": "Ich muss zum Augenarzt gehen."
       }
     ]
   },
@@ -22300,6 +28855,11 @@ window.VOCAB_N5 = [
         "japanese": "右に曲がって一番目の部屋に入ってください。",
         "romaji": "Migi ni magatte ichibanme no heya ni haitte kudasai.",
         "german": "Bitte biegen Sie rechts ab und betreten Sie den ersten Raum."
+      },
+      {
+        "japanese": "一番目に名前を呼ばれました。",
+        "romaji": "Ichibanme ni namae o yobaremashita.",
+        "german": "Mein Name wurde als Erstes aufgerufen."
       }
     ]
   },
@@ -22317,6 +28877,11 @@ window.VOCAB_N5 = [
         "japanese": "明日のデートが楽しみです。",
         "romaji": "Ashita no deeto ga tanoshimi desu.",
         "german": "Ich freue mich auf das Date morgen."
+      },
+      {
+        "japanese": "旅行が楽しみです。",
+        "romaji": "Ryokou ga tanoshimi desu.",
+        "german": "Ich freue mich auf die Reise."
       }
     ]
   },
@@ -22334,6 +28899,11 @@ window.VOCAB_N5 = [
         "japanese": "このカレーは、日本人向けのスパイスを使ってます。",
         "romaji": "Kono karee wa, nipponjinmuke no supaisu o tsukattemasu.",
         "german": "Dieses Curry verwendet Gewürze, die für Japaner gedacht sind."
+      },
+      {
+        "japanese": "この本は子供向けです。",
+        "romaji": "Kono hon wa kodomo muke desu.",
+        "german": "Dieses Buch ist für Kinder gedacht."
       }
     ]
   },
@@ -22351,6 +28921,11 @@ window.VOCAB_N5 = [
         "japanese": "きっと助かるよ。平気。",
         "romaji": "Kitto tasukaru yo. Heiki.",
         "german": "Ihnen wird bestimmt geholfen. Keine Sorge."
+      },
+      {
+        "japanese": "みんなが助かりました。",
+        "romaji": "Minna ga tasukarimashita.",
+        "german": "Alle wurden gerettet."
       }
     ]
   },
@@ -22368,6 +28943,11 @@ window.VOCAB_N5 = [
         "japanese": "夏はかき氷を食べたり花火を楽しむシーズンです。",
         "romaji": "Natsu wa kakigoori o tabe tari hanabi o tanoshimu shiizun desu.",
         "german": "Der Sommer ist die Jahreszeit, um Rasiereis zu essen und Feuerwerk zu genießen."
+      },
+      {
+        "japanese": "旅行を楽しみましょう。",
+        "romaji": "Ryokou o tanoshimimashou.",
+        "german": "Lass uns die Reise genießen."
       }
     ]
   },
@@ -22385,6 +28965,11 @@ window.VOCAB_N5 = [
         "japanese": "人に対して小石を投げ付けるなんて、失礼だろ！",
         "romaji": "Hito nitaishite koishi o nagetsukeru nante, shitsurei daro!",
         "german": "Es ist unhöflich, Kieselsteine auf Leute zu werfen!"
+      },
+      {
+        "japanese": "ボールを投げ付けないでください。",
+        "romaji": "Booru o nagetsuke naide kudasai.",
+        "german": "Bitte werfen Sie den Ball nicht auf Leute."
       }
     ]
   },
@@ -22402,6 +28987,11 @@ window.VOCAB_N5 = [
         "japanese": "日本では、タヌキは人間を化かす生物だと言われている。",
         "romaji": "Nippon de wa, tanuki wa ningen o bakasu seibutsu da to iwa rete iru.",
         "german": "In Japan gelten Tanuki als Wesen, die Menschen verzaubern."
+      },
+      {
+        "japanese": "狐が人を化かすと言います。",
+        "romaji": "Kitsune ga hito o bakasu to iimasu.",
+        "german": "Man sagt, Füchse verzaubern Menschen."
       }
     ]
   },
@@ -22419,6 +29009,11 @@ window.VOCAB_N5 = [
         "japanese": "コウイチの赤ちゃんの名前が決定したら、すぐにお知らせしますね。",
         "romaji": "Kou ichi no akachan no namae ga kettei shitara, sugu ni oshirase shimasu ne.",
         "german": "Sobald der Name für Koichis Baby feststeht, sage ich dir sofort Bescheid."
+      },
+      {
+        "japanese": "会議で計画を決定しました。",
+        "romaji": "Kaigi de keikaku o kettei shimashita.",
+        "german": "Wir haben in der Besprechung den Plan beschlossen."
       }
     ]
   },
@@ -22436,6 +29031,11 @@ window.VOCAB_N5 = [
         "japanese": "この国では、日本人に出会うチャンスがあまりない。",
         "romaji": "Kono kuni de wa, nipponjin ni deau chansu ga amari nai.",
         "german": "In diesem Land gibt es nicht viele Gelegenheiten, Japaner zu treffen."
+      },
+      {
+        "japanese": "旅行先で友達に出会いました。",
+        "romaji": "Ryokousaki de tomodachi ni deaimashita.",
+        "german": "Ich habe auf der Reise zufällig einen Freund getroffen."
       }
     ]
   },
@@ -22453,6 +29053,11 @@ window.VOCAB_N5 = [
         "japanese": "四月に私鉄の会社に入社しました。",
         "romaji": "Shigatsu ni shitetsu no kaisha ni nyuusha shimashita.",
         "german": "Im April bin ich bei einer Privatbahngesellschaft eingetreten."
+      },
+      {
+        "japanese": "私鉄で通勤しています。",
+        "romaji": "Shitetsu de tsuukin shite imasu.",
+        "german": "Ich pendle mit der Privatbahn zur Arbeit."
       }
     ]
   },
@@ -22470,6 +29075,11 @@ window.VOCAB_N5 = [
         "japanese": "うちの犬は要求が多い。",
         "romaji": "Uchi no inu wa youkyuu ga ooi.",
         "german": "Unser Hund hat viele Forderungen."
+      },
+      {
+        "japanese": "労働者が要求を出しました。",
+        "romaji": "Roudousha ga youkyuu o dashimashita.",
+        "german": "Die Arbeiter haben eine Forderung gestellt."
       }
     ]
   },
@@ -22487,6 +29097,11 @@ window.VOCAB_N5 = [
         "japanese": "私大に入学したいと思っています。",
         "romaji": "Shidai ni nyuugaku shitai to omotte imasu.",
         "german": "Ich möchte mich an einer Privatuniversität einschreiben."
+      },
+      {
+        "japanese": "姉は私大に通っています。",
+        "romaji": "Ane wa shidai ni kayotte imasu.",
+        "german": "Meine ältere Schwester geht auf eine Privatuniversität."
       }
     ]
   },
@@ -22504,6 +29119,11 @@ window.VOCAB_N5 = [
         "japanese": "イベントの開始時間は何時ですか？",
         "romaji": "Ibento no kaishi jikan wa nanji desu ka?",
         "german": "Um wie viel Uhr beginnt die Veranstaltung?"
+      },
+      {
+        "japanese": "授業が開始しました。",
+        "romaji": "Jugyou ga kaishi shimashita.",
+        "german": "Der Unterricht hat begonnen."
       }
     ]
   },
@@ -22521,6 +29141,11 @@ window.VOCAB_N5 = [
         "japanese": "このドレスは、体の曲線をキレイに見せてくれる。",
         "romaji": "Kono doresu wa, karada no kyokusen o kirei ni misete kureru.",
         "german": "Dieses Kleid lässt die Körperkurven schön aussehen."
+      },
+      {
+        "japanese": "この道は曲線が多いです。",
+        "romaji": "Kono michi wa kyokusen ga ooi desu.",
+        "german": "Diese Straße hat viele Kurven."
       }
     ]
   },
@@ -22538,6 +29163,11 @@ window.VOCAB_N5 = [
         "japanese": "色々な言語を学ぶために海外へ行きました。",
         "romaji": "Iroiro na gengo o manabu tame ni kaigai e ikimashita.",
         "german": "Ich bin ins Ausland gegangen, um verschiedene Sprachen zu lernen."
+      },
+      {
+        "japanese": "新しい言語を学ぶのは楽しいです。",
+        "romaji": "Atarashii gengo o manabu no wa tanoshii desu.",
+        "german": "Eine neue Sprache zu lernen macht Spaß."
       }
     ]
   },
@@ -22555,6 +29185,11 @@ window.VOCAB_N5 = [
         "japanese": "東京ディズニーリゾートは、千葉県にあります。",
         "romaji": "Toukyou deizunii rizouto wa, Chibaken ni arimasu.",
         "german": "Das Tokyo Disney Resort befindet sich in der Präfektur Chiba."
+      },
+      {
+        "japanese": "千葉に住んでいる友達がいます。",
+        "romaji": "Chiba ni sunde iru tomodachi ga imasu.",
+        "german": "Ich habe einen Freund, der in Chiba wohnt."
       }
     ]
   },
@@ -22572,6 +29207,11 @@ window.VOCAB_N5 = [
         "japanese": "思わず本音を口にしてしまいました。",
         "romaji": "Omowazu honne o kuchi ni shite shimaimashita.",
         "german": "Ich habe unwillkürlich meine wahren Absichten ausgesprochen."
+      },
+      {
+        "japanese": "思わず笑ってしまいました。",
+        "romaji": "Omowazu waratte shimaimashita.",
+        "german": "Ich musste unwillkürlich lachen."
       }
     ]
   },
@@ -22589,6 +29229,11 @@ window.VOCAB_N5 = [
         "japanese": "この立ち飲み屋は、生ビールが安くて、おつまみもおいしいですよ。",
         "romaji": "Kono tachi nomiya wa, namabiiru ga yasukute, o tsumami mo oishiidesu yo.",
         "german": "Diese Stehbar hat günstiges Fassbier und leckere Knabbereien."
+      },
+      {
+        "japanese": "駅の近くに立ち飲みの店があります。",
+        "romaji": "Eki no chikaku ni tachinomi no mise ga arimasu.",
+        "german": "In der Nähe des Bahnhofs gibt es eine Stehbar."
       }
     ]
   },
@@ -22606,6 +29251,11 @@ window.VOCAB_N5 = [
         "japanese": "これからクリーニングの作業をします。",
         "romaji": "Korekara kuriiningu no sagyou o shimasu.",
         "german": "Ich werde jetzt mit der Reinigungsarbeit beginnen."
+      },
+      {
+        "japanese": "作業が終わりました。",
+        "romaji": "Sagyou ga owarimashita.",
+        "german": "Die Arbeit ist erledigt."
       }
     ]
   },
@@ -22623,6 +29273,11 @@ window.VOCAB_N5 = [
         "japanese": "この日が当たらないアパートに住んでたら、心が病むよ。",
         "romaji": "Kono hi ga ataranai apaato ni sundetara, kokoro ga yamu yo.",
         "german": "Wenn du in einer Wohnung ohne Sonnenlicht wohnst, wirst du seelisch krank."
+      },
+      {
+        "japanese": "長い間病んでいました。",
+        "romaji": "Nagai aida yande imashita.",
+        "german": "Er war lange krank."
       }
     ]
   },
@@ -22640,6 +29295,11 @@ window.VOCAB_N5 = [
         "japanese": "今日の朝、役場に行ってきました。",
         "romaji": "Kyou no asa, yakuba ni itte kimashita.",
         "german": "Ich war heute Morgen im Rathaus."
+      },
+      {
+        "japanese": "役場に届を出しました。",
+        "romaji": "Yakuba ni todoke o dashimashita.",
+        "german": "Ich habe beim Rathaus eine Meldung eingereicht."
       }
     ]
   },
@@ -22657,6 +29317,11 @@ window.VOCAB_N5 = [
         "japanese": "姉に対する父の口調は強かった。",
         "romaji": "Ane nitaisuru chichi no kuchou wa tsuyokatta.",
         "german": "Der Tonfall meines Vaters gegenüber meiner Schwester war streng."
+      },
+      {
+        "japanese": "優しい口調で話してください。",
+        "romaji": "Yasashii kuchou de hanashite kudasai.",
+        "german": "Bitte sprechen Sie in einem freundlichen Ton."
       }
     ]
   },
@@ -22674,6 +29339,11 @@ window.VOCAB_N5 = [
         "japanese": "青森の農場で生のトウモロコシを食べました。",
         "romaji": "Aomori no noujou de nama no toumorokoshi o tabemashita.",
         "german": "Wir haben auf einem Bauernhof in Aomori rohen Mais gegessen."
+      },
+      {
+        "japanese": "大きな農場で働いています。",
+        "romaji": "Ookina noujou de hataraite imasu.",
+        "german": "Ich arbeite auf einem großen Bauernhof."
       }
     ]
   },
@@ -22691,6 +29361,11 @@ window.VOCAB_N5 = [
         "japanese": "今朝になってから「あ！テスト今日じゃん！」って思い出したんです。",
         "romaji": "Kesa ni natte kara a! Tesuto kyou jan! Tte omoidashita n desu.",
         "german": "Heute Morgen fiel mir ein: Oh! Die Prüfung ist heute!"
+      },
+      {
+        "japanese": "今朝は寒かったですね。",
+        "romaji": "Kesa wa samukatta desu ne.",
+        "german": "Heute Morgen war es kalt, nicht wahr?"
       }
     ]
   },
@@ -22708,6 +29383,11 @@ window.VOCAB_N5 = [
         "japanese": "私の兄は、足し算が上手で早いです。",
         "romaji": "Watashi no ani wa, tashizan ga jouzu de hayaidesu.",
         "german": "Mein Bruder ist gut und schnell im Addieren."
+      },
+      {
+        "japanese": "まず足し算を習いましょう。",
+        "romaji": "Mazu tashizan o naraimashou.",
+        "german": "Lernen wir zuerst die Addition."
       }
     ]
   },
@@ -22725,6 +29405,11 @@ window.VOCAB_N5 = [
         "japanese": "もちろん、わたしは引き算ができます！",
         "romaji": "Mochiron, watashi wa hikizan ga dekimasu!",
         "german": "Natürlich kann ich subtrahieren!"
+      },
+      {
+        "japanese": "次は引き算を練習しましょう。",
+        "romaji": "Tsugi wa hikizan o renshuu shimashou.",
+        "german": "Als Nächstes üben wir die Subtraktion."
       }
     ]
   },
@@ -22742,6 +29427,11 @@ window.VOCAB_N5 = [
         "japanese": "人が来ると、セキュリティのためのライトが点くんです。",
         "romaji": "Hito ga kuru to, sekyuritei no tame no raito ga tsuku n desu.",
         "german": "Wenn jemand kommt, geht das Sicherheitslicht an."
+      },
+      {
+        "japanese": "スイッチを押すと電気が点きます。",
+        "romaji": "Suitchi o osu to denki ga tsukimasu.",
+        "german": "Wenn man den Schalter drückt, geht das Licht an."
       }
     ]
   },
@@ -22759,6 +29449,11 @@ window.VOCAB_N5 = [
         "japanese": "山道を歩くのは体力が必要だ。",
         "romaji": "Sandou o aruku no wa tairyoku ga hitsuyou da.",
         "german": "Auf einem Bergweg zu laufen erfordert körperliche Ausdauer."
+      },
+      {
+        "japanese": "山道を歩くのは楽しいです。",
+        "romaji": "Yamamichi o aruku no wa tanoshii desu.",
+        "german": "Auf dem Bergweg zu wandern macht Spaß."
       }
     ]
   },
@@ -22776,6 +29471,11 @@ window.VOCAB_N5 = [
         "japanese": "このUFOは、今、高度3万3000フィートのところにいる。",
         "romaji": "Kono ufuo wa, ima, koudo 3 man 3000fyiito no tokoro ni iru.",
         "german": "Dieses UFO befindet sich jetzt auf einer Höhe von 33.000 Fuß."
+      },
+      {
+        "japanese": "飛行機は高度一万メートルで飛んでいます。",
+        "romaji": "Hikouki wa koudo ichiman meetoru de tonde imasu.",
+        "german": "Das Flugzeug fliegt in einer Höhe von zehntausend Metern."
       }
     ]
   },
@@ -22793,6 +29493,11 @@ window.VOCAB_N5 = [
         "japanese": "こちらに回答を入力してください。",
         "romaji": "Kochira ni kaitou o nyuuryoku shite kudasai.",
         "german": "Bitte geben Sie hier Ihre Antwort ein."
+      },
+      {
+        "japanese": "アンケートに回答してください。",
+        "romaji": "Ankeeto ni kaitou shite kudasai.",
+        "german": "Bitte beantworten Sie die Umfrage."
       }
     ]
   },
@@ -22810,6 +29515,11 @@ window.VOCAB_N5 = [
         "japanese": "あ、タバコのにおいがする。",
         "romaji": "A, tabako no nioi ga suru.",
         "german": "Oh, ich rieche Zigarettenrauch."
+      },
+      {
+        "japanese": "ここでタバコを吸わないでください。",
+        "romaji": "Koko de tabako o suwanaide kudasai.",
+        "german": "Bitte rauchen Sie hier keine Zigaretten."
       }
     ]
   },
@@ -22827,6 +29537,11 @@ window.VOCAB_N5 = [
         "japanese": "あのレストランのサービス、ビミョーじゃない？",
         "romaji": "Ano resutoran no saabisu, bimyou ja nai?",
         "german": "Der Service in dem Restaurant ist nicht so toll, oder?"
+      },
+      {
+        "japanese": "このレストランのサービスはいいですね。",
+        "romaji": "Kono resutoran no saabisu wa ii desu ne.",
+        "german": "Der Service in diesem Restaurant ist gut, nicht wahr?"
       }
     ]
   },
@@ -22844,6 +29559,11 @@ window.VOCAB_N5 = [
         "japanese": "しかし、それはウソだった。",
         "romaji": "Shikashi, sore wa uso datta.",
         "german": "Jedoch war das eine Lüge."
+      },
+      {
+        "japanese": "日本語は難しいです。しかし面白いです。",
+        "romaji": "Nihongo wa muzukashii desu. Shikashi omoshiroi desu.",
+        "german": "Japanisch ist schwierig. Jedoch ist es interessant."
       }
     ]
   },
@@ -22861,6 +29581,11 @@ window.VOCAB_N5 = [
         "japanese": "うちの会社は、あそこのオフィスビルに入ってるんだよ。",
         "romaji": "Uchi no kaisha wa, asoko no ofyisu biru ni hai teru n da yo.",
         "german": "Meine Firma ist in dem Bürogebäude dort drüben."
+      },
+      {
+        "japanese": "あのビルは高いですね。",
+        "romaji": "Ano biru wa takai desu ne.",
+        "german": "Jenes Gebäude ist hoch, nicht wahr?"
       }
     ]
   },
@@ -22878,6 +29603,11 @@ window.VOCAB_N5 = [
         "japanese": "アップルパイのレシピは、おばあちゃんに教わるといいよ。",
         "romaji": "Appurupai no reshipi wa, o baachan ni osowaru to ii yo.",
         "german": "Du solltest das Apfelkuchenrezept von Oma lernen."
+      },
+      {
+        "japanese": "先生に日本語を教わりました。",
+        "romaji": "Sensei ni nihongo o osowarimashita.",
+        "german": "Ich habe vom Lehrer Japanisch gelernt."
       }
     ]
   },
@@ -22895,6 +29625,11 @@ window.VOCAB_N5 = [
         "japanese": "どうせすぐブームは去るよ。",
         "romaji": "Douse sugu buumu wa saru yo.",
         "german": "Der Trend wird sowieso bald vorbei sein."
+      },
+      {
+        "japanese": "友達が去年この町を去りました。",
+        "romaji": "Tomodachi ga kyonen kono machi o sarimashita.",
+        "german": "Mein Freund hat letztes Jahr diese Stadt verlassen."
       }
     ]
   },
@@ -22912,6 +29647,11 @@ window.VOCAB_N5 = [
         "japanese": "明後日の予定を教えてもらえますか？",
         "romaji": "Myougonichi no yotei o oshiete moraemasu ka?",
         "german": "Könnten Sie mir die Pläne für übermorgen mitteilen?"
+      },
+      {
+        "japanese": "明後日から旅行に行きます。",
+        "romaji": "Asatte kara ryokou ni ikimasu.",
+        "german": "Übermorgen fahre ich auf Reisen."
       }
     ]
   },
@@ -22929,6 +29669,11 @@ window.VOCAB_N5 = [
         "japanese": "テストで一ヶ所だけミスをしてしまった。",
         "romaji": "Tesuto de ichikasho dake misu o shite shimatta.",
         "german": "Ich habe im Test nur an einer Stelle einen Fehler gemacht."
+      },
+      {
+        "japanese": "一ヶ所に集まってください。",
+        "romaji": "Ikkasho ni atsumatte kudasai.",
+        "german": "Bitte versammeln Sie sich an einer Stelle."
       }
     ]
   },
@@ -22946,6 +29691,11 @@ window.VOCAB_N5 = [
         "japanese": "紙に直線を引いてください。",
         "romaji": "Kami ni chokusen o hiite kudasai.",
         "german": "Bitte zeichnen Sie eine gerade Linie auf das Papier."
+      },
+      {
+        "japanese": "直線を定規で引いてください。",
+        "romaji": "Chokusen o jougi de hiite kudasai.",
+        "german": "Bitte ziehen Sie mit dem Lineal eine gerade Linie."
       }
     ]
   },
@@ -22963,6 +29713,11 @@ window.VOCAB_N5 = [
         "japanese": "車はゆっくり直進していた。",
         "romaji": "Kuruma wa yukkuri chokushin shite ita.",
         "german": "Das Auto fuhr langsam geradeaus."
+      },
+      {
+        "japanese": "この道を直進してください。",
+        "romaji": "Kono michi o chokushin shite kudasai.",
+        "german": "Bitte fahren Sie auf dieser Straße geradeaus."
       }
     ]
   }

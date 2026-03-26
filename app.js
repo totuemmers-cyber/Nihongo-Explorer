@@ -371,16 +371,43 @@
       }
     }
 
-    // No overlay open — "/" focuses search
+    // Skip shortcuts when typing in an input
+    var ae = document.activeElement;
+    if (ae && (ae.tagName === 'INPUT' || ae.tagName === 'SELECT' || ae.tagName === 'TEXTAREA')) {
+      if (e.key === 'Escape') { ae.blur(); return; }
+      return;
+    }
+
+    // Help overlay toggle
+    if (e.key === '?') {
+      e.preventDefault();
+      toggleHelpOverlay();
+      return;
+    }
+
+    // Tab switching: 1-8
+    var tabKeys = ['1', '2', '3', '4', '5', '6', '7', '8'];
+    var tabNames = ['kana', 'radicals', 'kanji', 'vocab', 'onomatopoeia', 'grammar', 'counters', 'quiz'];
+    var keyIdx = tabKeys.indexOf(e.key);
+    if (keyIdx !== -1) {
+      e.preventDefault();
+      switchTab(tabNames[keyIdx]);
+      return;
+    }
+
+    // Random entry: r
+    if (e.key === 'r') {
+      randomBtn.click();
+      return;
+    }
+
+    // Focus search: /
     if (e.key === '/') {
       var tab = app.activeTab;
       if (tab === 'kana') return;
       if (app.sections[tab] && app.sections[tab].dom.search) {
-        var input = app.sections[tab].dom.search;
-        if (document.activeElement !== input) {
-          e.preventDefault();
-          input.focus();
-        }
+        e.preventDefault();
+        app.sections[tab].dom.search.focus();
       }
     }
   });
@@ -551,6 +578,24 @@
         cell.style.borderColor = isDark ? colors[rowKey].darkBorder : colors[rowKey].border;
       }
     });
+  }
+
+  // === HELP OVERLAY ===
+  function toggleHelpOverlay() {
+    var overlay = document.getElementById('help-overlay');
+    if (!overlay) return;
+    var isHidden = overlay.classList.contains('hidden');
+    overlay.classList.toggle('hidden', !isHidden);
+    document.body.style.overflow = isHidden ? 'hidden' : '';
+  }
+
+  var helpOverlay = document.getElementById('help-overlay');
+  if (helpOverlay) {
+    helpOverlay.addEventListener('click', function (e) {
+      if (e.target === helpOverlay) toggleHelpOverlay();
+    });
+    var helpCloseBtn = document.getElementById('help-close');
+    if (helpCloseBtn) helpCloseBtn.addEventListener('click', toggleHelpOverlay);
   }
 
   // === INIT ===
