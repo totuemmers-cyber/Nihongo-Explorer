@@ -1,4 +1,4 @@
-// Yojijukugo (四字熟語) Data — 50 entries
+// Yojijukugo (四字熟語) Data — 249 entries
 // Categories: Lebensweisheit, Charakter, Handlung, Natur, Gefühle, Beziehungen, Erfolg
 
 window.YOJIJUKUGO_DATA = [
@@ -1814,6 +1814,1284 @@ window.YOJIJUKUGO_DATA = [
     "category": "Erfolg",
     "examples": [
       { "japanese": "初志貫徹で、十年かけて夢を実現した。", "romaji": "Shoshi kantetsu de, jūnen kakete yume o jitsugen shita.", "german": "Er hielt an seinem ursprünglichen Vorsatz fest und verwirklichte seinen Traum in zehn Jahren." }
+    ]
+  },
+
+  // =============================================
+  // === ERWEITERUNG: N4 LEVEL (~20 Einträge) ===
+  // =============================================
+  {
+    "word": "一生懸命",
+    "reading": "いっしょうけんめい",
+    "romaji": "isshō kenmei",
+    "meaning": "Mit aller Kraft; sein Bestes geben",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "一生懸命に日本語を勉強しています。", "romaji": "Isshō kenmei ni nihongo o benkyō shite imasu.", "german": "Ich lerne mit aller Kraft Japanisch." },
+      { "japanese": "一生懸命に走ったが、間に合わなかった。", "romaji": "Isshō kenmei ni hashitta ga, ma ni awanakatta.", "german": "Ich rannte mit aller Kraft, aber ich schaffte es nicht rechtzeitig." }
+    ]
+  },
+  {
+    "word": "大丈夫",
+    "reading": "だいじょうぶ",
+    "romaji": "daijōbu",
+    "meaning": "In Ordnung; kein Problem; es wird schon",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "心配しないで、大丈夫だよ。", "romaji": "Shinpai shinaide, daijōbu da yo.", "german": "Mach dir keine Sorgen, es ist alles in Ordnung." }
+    ]
+  },
+  {
+    "word": "元気一杯",
+    "reading": "げんきいっぱい",
+    "romaji": "genki ippai",
+    "meaning": "Voller Energie; vor Lebensfreude sprühend",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "子供たちは元気一杯に遊んでいる。", "romaji": "Kodomotachi wa genki ippai ni asonde iru.", "german": "Die Kinder spielen voller Energie." }
+    ]
+  },
+  {
+    "word": "年中無休",
+    "reading": "ねんじゅうむきゅう",
+    "romaji": "nenjū mukyū",
+    "meaning": "Ganzjährig ohne Ruhetag; jeden Tag geöffnet",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "このコンビニは年中無休で営業している。", "romaji": "Kono konbini wa nenjū mukyū de eigyō shite iru.", "german": "Dieser Konbini hat das ganze Jahr über ohne Ruhetag geöffnet." }
+    ]
+  },
+  {
+    "word": "自己紹介",
+    "reading": "じこしょうかい",
+    "romaji": "jiko shōkai",
+    "meaning": "Selbstvorstellung; sich vorstellen",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "まず自己紹介をしてください。", "romaji": "Mazu jiko shōkai o shite kudasai.", "german": "Bitte stellen Sie sich zunächst vor." }
+    ]
+  },
+  {
+    "word": "四季折々",
+    "reading": "しきおりおり",
+    "romaji": "shiki oriori",
+    "meaning": "Im Wechsel der vier Jahreszeiten; zu jeder Jahreszeit",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "日本は四季折々の美しさがある。", "romaji": "Nihon wa shiki oriori no utsukushisa ga aru.", "german": "Japan hat zu jeder Jahreszeit seine eigene Schönheit." }
+    ]
+  },
+  {
+    "word": "毎日毎日",
+    "reading": "まいにちまいにち",
+    "romaji": "mainichi mainichi",
+    "meaning": "Tag für Tag; jeden einzelnen Tag",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "毎日毎日同じ仕事で疲れた。", "romaji": "Mainichi mainichi onaji shigoto de tsukareta.", "german": "Tag für Tag die gleiche Arbeit — ich bin erschöpft." }
+    ]
+  },
+  {
+    "word": "起立礼着",
+    "reading": "きりつれいちゃく",
+    "romaji": "kiritsu rei chaku",
+    "meaning": "Aufstehen, Verbeugung, Setzen (Schulritual)",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "授業の始まりに起立礼着をする。", "romaji": "Jugyō no hajimari ni kiritsu rei chaku o suru.", "german": "Zu Beginn des Unterrichts steht man auf, verbeugt sich und setzt sich." }
+    ]
+  },
+  {
+    "word": "家族全員",
+    "reading": "かぞくぜんいん",
+    "romaji": "kazoku zen'in",
+    "meaning": "Die ganze Familie; alle Familienmitglieder",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Beziehungen",
+    "examples": [
+      { "japanese": "お正月は家族全員で集まる。", "romaji": "O-shōgatsu wa kazoku zen'in de atsumaru.", "german": "An Neujahr versammelt sich die ganze Familie." }
+    ]
+  },
+  {
+    "word": "一人暮らし",
+    "reading": "ひとりぐらし",
+    "romaji": "hitori gurashi",
+    "meaning": "Allein leben; Einpersonenhaushalt",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "大学から一人暮らしを始めた。", "romaji": "Daigaku kara hitori gurashi o hajimeta.", "german": "Seit der Universität lebe ich allein." }
+    ]
+  },
+  {
+    "word": "世界一周",
+    "reading": "せかいいっしゅう",
+    "romaji": "sekai isshū",
+    "meaning": "Weltreise; einmal um die Welt",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "いつか世界一周の旅をしたい。", "romaji": "Itsuka sekai isshū no tabi o shitai.", "german": "Eines Tages möchte ich eine Weltreise machen." }
+    ]
+  },
+  {
+    "word": "大切気持",
+    "reading": "たいせつきもち",
+    "romaji": "taisetsu kimochi",
+    "meaning": "Wertvolle Gefühle; Gefühle wertschätzen",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "相手の気持ちを大切にしよう。", "romaji": "Aite no kimochi o taisetsu ni shiyō.", "german": "Lass uns die Gefühle des anderen wertschätzen." }
+    ]
+  },
+  {
+    "word": "今日明日",
+    "reading": "きょうあす",
+    "romaji": "kyō asu",
+    "meaning": "Heute oder morgen; in allernächster Zeit",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "今日明日中にお返事します。", "romaji": "Kyō asu-chū ni ohenji shimasu.", "german": "Ich werde Ihnen heute oder morgen antworten." }
+    ]
+  },
+  {
+    "word": "春夏秋冬",
+    "reading": "しゅんかしゅうとう",
+    "romaji": "shunka shūtō",
+    "meaning": "Frühling, Sommer, Herbst und Winter; die vier Jahreszeiten",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "日本には春夏秋冬がはっきりしている。", "romaji": "Nihon ni wa shunka shūtō ga hakkiri shite iru.", "german": "In Japan sind die vier Jahreszeiten deutlich voneinander unterschieden." }
+    ]
+  },
+  {
+    "word": "正正堂堂",
+    "reading": "せいせいどうどう",
+    "romaji": "seisei dōdō",
+    "meaning": "Fair und offen; aufrecht und ehrlich",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "正正堂堂と戦おう。", "romaji": "Seisei dōdō to tatakōu.", "german": "Lass uns fair und offen kämpfen." }
+    ]
+  },
+  {
+    "word": "自分自身",
+    "reading": "じぶんじしん",
+    "romaji": "jibun jishin",
+    "meaning": "Man selbst; sich selbst",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "自分自身を信じることが大切だ。", "romaji": "Jibun jishin o shinjiru koto ga taisetsu da.", "german": "Es ist wichtig, an sich selbst zu glauben." }
+    ]
+  },
+  {
+    "word": "安全第一",
+    "reading": "あんぜんだいいち",
+    "romaji": "anzen daiichi",
+    "meaning": "Sicherheit geht vor; Safety first",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "工事現場では安全第一だ。", "romaji": "Kōji genba de wa anzen daiichi da.", "german": "Auf der Baustelle geht Sicherheit vor." }
+    ]
+  },
+  {
+    "word": "東西南北",
+    "reading": "とうざいなんぼく",
+    "romaji": "tōzai nanboku",
+    "meaning": "Osten, Westen, Süden, Norden; alle Himmelsrichtungen",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "東西南北どこへ行っても人がいる。", "romaji": "Tōzai nanboku doko e itte mo hito ga iru.", "german": "Egal in welche Himmelsrichtung man geht, überall sind Menschen." }
+    ]
+  },
+  {
+    "word": "右左右左",
+    "reading": "みぎひだりみぎひだり",
+    "romaji": "migi hidari migi hidari",
+    "meaning": "Rechts, links, rechts, links (beim Überqueren der Straße schauen)",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "道を渡る時は右左右左を確認してね。", "romaji": "Michi o wataru toki wa migi hidari migi hidari o kakunin shite ne.", "german": "Schau beim Überqueren der Straße nach rechts, links, rechts, links." }
+    ]
+  },
+  {
+    "word": "有言実行",
+    "reading": "ゆうげんじっこう",
+    "romaji": "yūgen jikkō",
+    "meaning": "Was man sagt, auch tun; Wort halten und handeln",
+    "type": "Yojijukugo",
+    "level": "N4",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "彼は有言実行の人だから信頼できる。", "romaji": "Kare wa yūgen jikkō no hito da kara shinrai dekiru.", "german": "Er hält immer sein Wort, deshalb kann man ihm vertrauen." }
+    ]
+  },
+
+  // =============================================
+  // === ERWEITERUNG: N3 LEVEL (~32 Einträge) ===
+  // =============================================
+  {
+    "word": "一心同体",
+    "reading": "いっしんどうたい",
+    "romaji": "isshin dōtai",
+    "meaning": "Ein Herz und eine Seele; untrennbar verbunden",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Beziehungen",
+    "examples": [
+      { "japanese": "あの夫婦は一心同体だ。", "romaji": "Ano fūfu wa isshin dōtai da.", "german": "Dieses Ehepaar ist ein Herz und eine Seele." }
+    ]
+  },
+  {
+    "word": "言行不一致",
+    "reading": "げんこうふいっち",
+    "romaji": "genkō fuitchi",
+    "meaning": "Worte und Taten stimmen nicht überein; Heuchelei",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼は言行不一致だから信用できない。", "romaji": "Kare wa genkō fuitchi da kara shin'yō dekinai.", "german": "Seine Worte und Taten stimmen nicht überein, deshalb kann man ihm nicht vertrauen." }
+    ]
+  },
+  {
+    "word": "自由奔放",
+    "reading": "じゆうほんぽう",
+    "romaji": "jiyū honpō",
+    "meaning": "Frei und ungezwungen; nach eigenem Willen lebend",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼女は自由奔放に生きている。", "romaji": "Kanojo wa jiyū honpō ni ikite iru.", "german": "Sie lebt frei und ungezwungen." }
+    ]
+  },
+  {
+    "word": "天地無用",
+    "reading": "てんちむよう",
+    "romaji": "tenchi muyō",
+    "meaning": "Nicht stürzen! Oben und Unten nicht vertauschen (auf Paketen)",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "この箱には天地無用と書いてある。", "romaji": "Kono hako ni wa tenchi muyō to kaite aru.", "german": "Auf dieser Kiste steht: Nicht stürzen!" }
+    ]
+  },
+  {
+    "word": "時期尚早",
+    "reading": "じきしょうそう",
+    "romaji": "jiki shōsō",
+    "meaning": "Es ist noch zu früh; der Zeitpunkt ist noch nicht reif",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "結婚を考えるのは時期尚早だ。", "romaji": "Kekkon o kangaeru no wa jiki shōsō da.", "german": "Über Heirat nachzudenken ist noch zu früh." }
+    ]
+  },
+  {
+    "word": "全力投球",
+    "reading": "ぜんりょくとうきゅう",
+    "romaji": "zenryoku tōkyū",
+    "meaning": "Mit voller Kraft werfen; alles geben",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "このプロジェクトには全力投球で取り組む。", "romaji": "Kono purojekuto ni wa zenryoku tōkyū de torikumu.", "german": "An diesem Projekt arbeite ich mit vollem Einsatz." }
+    ]
+  },
+  {
+    "word": "自然体",
+    "reading": "しぜんたい",
+    "romaji": "shizentai",
+    "meaning": "Natürliche Haltung; ungezwungen und authentisch sein",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "面接では自然体でいることが大切だ。", "romaji": "Mensetsu de wa shizentai de iru koto ga taisetsu da.", "german": "Beim Vorstellungsgespräch ist es wichtig, natürlich und ungezwungen zu sein." }
+    ]
+  },
+  {
+    "word": "意味不明",
+    "reading": "いみふめい",
+    "romaji": "imi fumei",
+    "meaning": "Unverständlich; keinen Sinn ergeben",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "彼の説明は意味不明だった。", "romaji": "Kare no setsumei wa imi fumei datta.", "german": "Seine Erklärung ergab keinen Sinn." }
+    ]
+  },
+  {
+    "word": "自画自賛",
+    "reading": "じがじさん",
+    "romaji": "jiga jisan",
+    "meaning": "Eigenlob; sich selbst auf die Schulter klopfen",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "自画自賛だけど、今日の料理はうまくできた。", "romaji": "Jiga jisan da kedo, kyō no ryōri wa umaku dekita.", "german": "Es ist Eigenlob, aber das Essen heute ist mir gut gelungen." }
+    ]
+  },
+  {
+    "word": "大人気",
+    "reading": "だいにんき",
+    "romaji": "daininki",
+    "meaning": "Äußerst beliebt; sehr populär",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "この漫画は若者に大人気だ。", "romaji": "Kono manga wa wakamono ni daininki da.", "german": "Dieser Manga ist bei jungen Leuten äußerst beliebt." }
+    ]
+  },
+  {
+    "word": "賛否両論",
+    "reading": "さんぴりょうろん",
+    "romaji": "sanpi ryōron",
+    "meaning": "Geteilte Meinungen; Pro und Kontra",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "この法律は賛否両論を呼んでいる。", "romaji": "Kono hōritsu wa sanpi ryōron o yonde iru.", "german": "Dieses Gesetz ruft geteilte Meinungen hervor." }
+    ]
+  },
+  {
+    "word": "一言半句",
+    "reading": "いちごんはんく",
+    "romaji": "ichigon hanku",
+    "meaning": "Jedes einzelne Wort; nicht ein einziges Wort",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "先生の話を一言半句も聞き漏らさなかった。", "romaji": "Sensei no hanashi o ichigon hanku mo kikimora sanakatta.", "german": "Ich habe kein einziges Wort des Lehrers verpasst." }
+    ]
+  },
+  {
+    "word": "弱音を吐く",
+    "reading": "よわねをはく",
+    "romaji": "yowane o haku",
+    "meaning": "Schwäche zeigen; jammern; aufgeben wollen",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "弱音を吐かないで、最後まで頑張ろう。", "romaji": "Yowane o hakanaide, saigo made ganbarō.", "german": "Zeig keine Schwäche und gib bis zum Ende dein Bestes." }
+    ]
+  },
+  {
+    "word": "責任感",
+    "reading": "せきにんかん",
+    "romaji": "sekininkan",
+    "meaning": "Verantwortungsbewusstsein; Pflichtgefühl",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼女は責任感が強い人だ。", "romaji": "Kanojo wa sekininkan ga tsuyoi hito da.", "german": "Sie ist eine Person mit starkem Verantwortungsbewusstsein." }
+    ]
+  },
+  {
+    "word": "共同作業",
+    "reading": "きょうどうさぎょう",
+    "romaji": "kyōdō sagyō",
+    "meaning": "Gemeinschaftsarbeit; Zusammenarbeit",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "このプロジェクトは共同作業で進めている。", "romaji": "Kono purojekuto wa kyōdō sagyō de susumete iru.", "german": "Dieses Projekt wird in Gemeinschaftsarbeit vorangetrieben." }
+    ]
+  },
+  {
+    "word": "自己責任",
+    "reading": "じこせきにん",
+    "romaji": "jiko sekinin",
+    "meaning": "Eigenverantwortung; auf eigene Gefahr",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "投資は自己責任で行ってください。", "romaji": "Tōshi wa jiko sekinin de okonatte kudasai.", "german": "Investitionen erfolgen auf eigene Verantwortung." }
+    ]
+  },
+  {
+    "word": "感謝感激",
+    "reading": "かんしゃかんげき",
+    "romaji": "kansha kangeki",
+    "meaning": "Tiefe Dankbarkeit und Rührung",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "皆さんの応援に感謝感激です。", "romaji": "Minasan no ōen ni kansha kangeki desu.", "german": "Ich bin zutiefst dankbar und gerührt über die Unterstützung aller." }
+    ]
+  },
+  {
+    "word": "真剣勝負",
+    "reading": "しんけんしょうぶ",
+    "romaji": "shinken shōbu",
+    "meaning": "Ernster Wettkampf; es geht um alles",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "明日の試合は真剣勝負だ。", "romaji": "Ashita no shiai wa shinken shōbu da.", "german": "Das Spiel morgen ist ein ernsthafter Wettkampf — es geht um alles." }
+    ]
+  },
+  {
+    "word": "全身全霊",
+    "reading": "ぜんしんぜんれい",
+    "romaji": "zenshin zenrei",
+    "meaning": "Mit Leib und Seele; mit ganzer Kraft und ganzem Herzen",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "全身全霊を込めて演奏した。", "romaji": "Zenshin zenrei o komete ensō shita.", "german": "Ich spielte mit Leib und Seele." }
+    ]
+  },
+  {
+    "word": "有頂天",
+    "reading": "うちょうてん",
+    "romaji": "uchōten",
+    "meaning": "Im siebten Himmel; außer sich vor Freude",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "合格の知らせに有頂天になった。", "romaji": "Gōkaku no shirase ni uchōten ni natta.", "german": "Bei der Nachricht über das Bestehen war ich im siebten Himmel." }
+    ]
+  },
+  {
+    "word": "紆余曲折",
+    "reading": "うよきょくせつ",
+    "romaji": "uyo kyokusetsu",
+    "meaning": "Viele Umwege und Wendungen; ein verschlungener Weg",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "紆余曲折を経て、ようやく夢が叶った。", "romaji": "Uyo kyokusetsu o hete, yōyaku yume ga kanatta.", "german": "Nach vielen Umwegen ging endlich mein Traum in Erfüllung." }
+    ]
+  },
+  {
+    "word": "手前味噌",
+    "reading": "てまえみそ",
+    "romaji": "temae miso",
+    "meaning": "Eigenlob; seine eigene Leistung loben",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "手前味噌ですが、うちの製品は品質がいい。", "romaji": "Temae miso desu ga, uchi no seihin wa hinshitsu ga ii.", "german": "Es klingt nach Eigenlob, aber unsere Produkte haben eine hohe Qualität." }
+    ]
+  },
+  {
+    "word": "四方八方",
+    "reading": "しほうはっぽう",
+    "romaji": "shihō happō",
+    "meaning": "In alle Richtungen; überallhin",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "四方八方に探したが、見つからなかった。", "romaji": "Shihō happō ni sagashita ga, mitsukaranakatta.", "german": "Ich habe in alle Richtungen gesucht, aber nichts gefunden." }
+    ]
+  },
+  {
+    "word": "相思相愛",
+    "reading": "そうしそうあい",
+    "romaji": "sōshi sōai",
+    "meaning": "Gegenseitige Liebe; beide lieben einander",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Beziehungen",
+    "examples": [
+      { "japanese": "二人は相思相愛のカップルだ。", "romaji": "Futari wa sōshi sōai no kappuru da.", "german": "Die beiden sind ein Paar, das sich gegenseitig liebt." }
+    ]
+  },
+  {
+    "word": "一方通行",
+    "reading": "いっぽうつうこう",
+    "romaji": "ippō tsūkō",
+    "meaning": "Einbahnstraße; einseitig",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "この道は一方通行です。", "romaji": "Kono michi wa ippō tsūkō desu.", "german": "Diese Straße ist eine Einbahnstraße." },
+      { "japanese": "彼の愛は一方通行だった。", "romaji": "Kare no ai wa ippō tsūkō datta.", "german": "Seine Liebe war einseitig." }
+    ]
+  },
+  {
+    "word": "海外旅行",
+    "reading": "かいがいりょこう",
+    "romaji": "kaigai ryokō",
+    "meaning": "Auslandsreise; Reise ins Ausland",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "来年は海外旅行に行きたい。", "romaji": "Rainen wa kaigai ryokō ni ikitai.", "german": "Nächstes Jahr möchte ich eine Auslandsreise machen." }
+    ]
+  },
+  {
+    "word": "経験豊富",
+    "reading": "けいけんほうふ",
+    "romaji": "keiken hōfu",
+    "meaning": "Erfahrungsreich; mit reicher Erfahrung",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "経験豊富なガイドが案内してくれる。", "romaji": "Keiken hōfu na gaido ga annai shite kureru.", "german": "Ein erfahrener Reiseführer zeigt uns den Weg." }
+    ]
+  },
+  {
+    "word": "一念発起",
+    "reading": "いちねんほっき",
+    "romaji": "ichinen hokki",
+    "meaning": "Einen festen Entschluss fassen; sich entschließen, etwas zu ändern",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "一念発起してダイエットを始めた。", "romaji": "Ichinen hokki shite daietto o hajimeta.", "german": "Ich fasste den festen Entschluss, eine Diät zu beginnen." }
+    ]
+  },
+  {
+    "word": "単純明快",
+    "reading": "たんじゅんめいかい",
+    "romaji": "tanjun meikai",
+    "meaning": "Einfach und klar verständlich",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "彼の説明はいつも単純明快だ。", "romaji": "Kare no setsumei wa itsumo tanjun meikai da.", "german": "Seine Erklärungen sind immer einfach und klar verständlich." }
+    ]
+  },
+  {
+    "word": "天下一品",
+    "reading": "てんかいっぴん",
+    "romaji": "tenka ippin",
+    "meaning": "Unvergleichlich; das Beste der Welt",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Erfolg",
+    "examples": [
+      { "japanese": "祖母の料理は天下一品だ。", "romaji": "Sobo no ryōri wa tenka ippin da.", "german": "Das Essen meiner Großmutter ist unvergleichlich gut." }
+    ]
+  },
+  {
+    "word": "完全試合",
+    "reading": "かんぜんしあい",
+    "romaji": "kanzen shiai",
+    "meaning": "Perfektes Spiel; makellose Leistung",
+    "type": "Yojijukugo",
+    "level": "N3",
+    "category": "Erfolg",
+    "examples": [
+      { "japanese": "投手が完全試合を達成した。", "romaji": "Tōshu ga kanzen shiai o tassei shita.", "german": "Der Werfer erzielte ein perfektes Spiel." }
+    ]
+  },
+
+  // =============================================
+  // === ERWEITERUNG: N2 LEVEL (~29 Einträge) ===
+  // =============================================
+  {
+    "word": "異文化交流",
+    "reading": "いぶんかこうりゅう",
+    "romaji": "ibunka kōryū",
+    "meaning": "Interkultureller Austausch",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Beziehungen",
+    "examples": [
+      { "japanese": "留学は異文化交流の良い機会だ。", "romaji": "Ryūgaku wa ibunka kōryū no yoi kikai da.", "german": "Ein Auslandsstudium ist eine gute Gelegenheit für interkulturellen Austausch." }
+    ]
+  },
+  {
+    "word": "一刻千金",
+    "reading": "いっこくせんきん",
+    "romaji": "ikkoku senkin",
+    "meaning": "Jeder Augenblick ist Gold wert; kostbare Zeit",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "春宵一刻千金の値あり。", "romaji": "Shunshō ikkoku senkin no atai ari.", "german": "Ein Frühlingsabend ist Gold wert." }
+    ]
+  },
+  {
+    "word": "言外之意",
+    "reading": "げんがいのい",
+    "romaji": "gengai no i",
+    "meaning": "Zwischen den Zeilen lesen; unausgesprochene Bedeutung",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "彼の言外之意を汲み取る必要がある。", "romaji": "Kare no gengai no i o kumitoru hitsuyō ga aru.", "german": "Man muss seine unausgesprochene Bedeutung verstehen." }
+    ]
+  },
+  {
+    "word": "孤立無援",
+    "reading": "こりつむえん",
+    "romaji": "koritsu muen",
+    "meaning": "Allein und ohne Hilfe; völlig isoliert",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "孤立無援の状態で戦い続けた。", "romaji": "Koritsu muen no jōtai de tatakai tsuzuketa.", "german": "Er kämpfte weiter, obwohl er allein und ohne Hilfe war." }
+    ]
+  },
+  {
+    "word": "才能開花",
+    "reading": "さいのうかいか",
+    "romaji": "sainō kaika",
+    "meaning": "Sein Talent entfalten; zur Blüte kommen",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Erfolg",
+    "examples": [
+      { "japanese": "彼女はついに才能開花して、世界的に認められた。", "romaji": "Kanojo wa tsui ni sainō kaika shite, sekaiteki ni mitomerareta.", "german": "Sie entfaltete endlich ihr Talent und wurde weltweit anerkannt." }
+    ]
+  },
+  {
+    "word": "心身一如",
+    "reading": "しんしんいちにょ",
+    "romaji": "shinshin ichinyo",
+    "meaning": "Einheit von Körper und Geist",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "武道では心身一如が大切だ。", "romaji": "Budō de wa shinshin ichinyo ga taisetsu da.", "german": "In den Kampfkünsten ist die Einheit von Körper und Geist wichtig." }
+    ]
+  },
+  {
+    "word": "徹頭徹尾",
+    "reading": "てっとうてつび",
+    "romaji": "tettō tetsubi",
+    "meaning": "Von Anfang bis Ende; durch und durch; kompromisslos",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼は徹頭徹尾、自分の信念を貫いた。", "romaji": "Kare wa tettō tetsubi, jibun no shinnen o tsuranuita.", "german": "Er hielt von Anfang bis Ende an seiner Überzeugung fest." }
+    ]
+  },
+  {
+    "word": "南船北馬",
+    "reading": "なんせんほくば",
+    "romaji": "nansen hokuba",
+    "meaning": "Ständig unterwegs sein; viel reisen",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "彼は南船北馬の生活を送っている。", "romaji": "Kare wa nansen hokuba no seikatsu o okutte iru.", "german": "Er führt ein Leben, in dem er ständig unterwegs ist." }
+    ]
+  },
+  {
+    "word": "無知蒙昧",
+    "reading": "むちもうまい",
+    "romaji": "muchi mōmai",
+    "meaning": "Unwissend und ungebildet; in Dunkelheit tappend",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "無知蒙昧な偏見にとらわれてはいけない。", "romaji": "Muchi mōmai na henken ni torawarete wa ikenai.", "german": "Man darf sich nicht von unwissenden Vorurteilen leiten lassen." }
+    ]
+  },
+  {
+    "word": "面目躍如",
+    "reading": "めんもくやくじょ",
+    "romaji": "menmoku yakujo",
+    "meaning": "Seinem Ruf gerecht werden; sein Ansehen bestätigen",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Erfolg",
+    "examples": [
+      { "japanese": "彼は面目躍如の活躍を見せた。", "romaji": "Kare wa menmoku yakujo no katsuyaku o miseta.", "german": "Er zeigte eine Leistung, die seinem Ruf gerecht wurde." }
+    ]
+  },
+  {
+    "word": "落花流水",
+    "reading": "らっかりゅうすい",
+    "romaji": "rakka ryūsui",
+    "meaning": "Gegenseitige Zuneigung; fallende Blüten und fließendes Wasser",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Beziehungen",
+    "examples": [
+      { "japanese": "二人の関係は落花流水の如くだ。", "romaji": "Futari no kankei wa rakka ryūsui no gotoku da.", "german": "Die Beziehung der beiden ist wie fallende Blüten und fließendes Wasser — natürlich zueinander hingezogen." }
+    ]
+  },
+  {
+    "word": "臥薪嘗胆",
+    "reading": "がしんしょうたん",
+    "romaji": "gashin shōtan",
+    "meaning": "Entbehrungen auf sich nehmen, um ein Ziel zu erreichen; Rachegelüste nähren",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "臥薪嘗胆の思いでリベンジに挑む。", "romaji": "Gashin shōtan no omoi de ribenji ni idomu.", "german": "Mit dem Willen, Entbehrungen zu ertragen, stellt er sich der Revanche." }
+    ]
+  },
+  {
+    "word": "一騎当千",
+    "reading": "いっきとうせん",
+    "romaji": "ikki tōsen",
+    "meaning": "Ein Krieger, der tausend aufwiegt; überragend stark",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Erfolg",
+    "examples": [
+      { "japanese": "彼女は一騎当千のプログラマーだ。", "romaji": "Kanojo wa ikki tōsen no puroguramā da.", "german": "Sie ist eine überragend starke Programmiererin." }
+    ]
+  },
+  {
+    "word": "大胆不敵",
+    "reading": "だいたんふてき",
+    "romaji": "daitan futeki",
+    "meaning": "Kühn und furchtlos; tollkühn",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼の大胆不敵な行動に周囲は驚いた。", "romaji": "Kare no daitan futeki na kōdō ni shūi wa odoroita.", "german": "Alle waren überrascht über sein kühnes und furchtloses Handeln." }
+    ]
+  },
+  {
+    "word": "不撓不屈",
+    "reading": "ふとうふくつ",
+    "romaji": "futō fukutsu",
+    "meaning": "Unbeugsam und unerschütterlich; eiserner Wille",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "不撓不屈の精神で困難を乗り越えた。", "romaji": "Futō fukutsu no seishin de konnan o norikoeta.", "german": "Mit unbeugsamem Geist überwand er die Schwierigkeiten." }
+    ]
+  },
+  {
+    "word": "立身出世",
+    "reading": "りっしんしゅっせ",
+    "romaji": "risshin shusse",
+    "meaning": "Karriere machen; es zu etwas bringen; sozialer Aufstieg",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Erfolg",
+    "examples": [
+      { "japanese": "立身出世を夢見て上京した。", "romaji": "Risshin shusse o yumemite jōkyō shita.", "german": "Er zog nach Tokio, um den Traum vom sozialen Aufstieg zu verwirklichen." }
+    ]
+  },
+  {
+    "word": "表裏一体",
+    "reading": "ひょうりいったい",
+    "romaji": "hyōri ittai",
+    "meaning": "Zwei Seiten derselben Medaille; untrennbar verbunden",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "自由と責任は表裏一体だ。", "romaji": "Jiyū to sekinin wa hyōri ittai da.", "german": "Freiheit und Verantwortung sind zwei Seiten derselben Medaille." }
+    ]
+  },
+  {
+    "word": "文武両道",
+    "reading": "ぶんぶりょうどう",
+    "romaji": "bunbu ryōdō",
+    "meaning": "Sowohl in Studien als auch im Sport gut; Bildung und Kampfkunst beherrschen",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼は文武両道の学生だ。", "romaji": "Kare wa bunbu ryōdō no gakusei da.", "german": "Er ist ein Student, der sowohl in den Studien als auch im Sport gut ist." }
+    ]
+  },
+  {
+    "word": "温厚篤実",
+    "reading": "おんこうとくじつ",
+    "romaji": "onkō tokujitsu",
+    "meaning": "Warmherzig und aufrichtig; gutmütig und verlässlich",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼は温厚篤実な人柄で周囲に信頼されている。", "romaji": "Kare wa onkō tokujitsu na hitogara de shūi ni shinrai sarete iru.", "german": "Er wird wegen seines warmherzigen und aufrichtigen Charakters von allen geschätzt." }
+    ]
+  },
+  {
+    "word": "当意即妙",
+    "reading": "とういそくみょう",
+    "romaji": "tōi sokumyō",
+    "meaning": "Schlagfertig; geistesgegenwärtig und treffend reagieren",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼女の当意即妙な答えに皆が笑った。", "romaji": "Kanojo no tōi sokumyō na kotae ni mina ga waratta.", "german": "Alle lachten über ihre schlagfertige Antwort." }
+    ]
+  },
+  {
+    "word": "一蹴両断",
+    "reading": "いっしゅうりょうだん",
+    "romaji": "isshū ryōdan",
+    "meaning": "Etwas mit einem Fußtritt abweisen; entschieden ablehnen",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "その提案は一蹴両断された。", "romaji": "Sono teian wa isshū ryōdan sareta.", "german": "Der Vorschlag wurde entschieden abgelehnt." }
+    ]
+  },
+  {
+    "word": "一罰百戒",
+    "reading": "いちばつひゃっかい",
+    "romaji": "ichibatsu hyakkai",
+    "meaning": "Einen bestrafen, um hundert zu warnen; ein abschreckendes Beispiel statuieren",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "一罰百戒の意味を込めて厳しく処罰した。", "romaji": "Ichibatsu hyakkai no imi o komete kibishiku shobatsu shita.", "german": "Man bestrafte ihn streng, um ein abschreckendes Beispiel zu statuieren." }
+    ]
+  },
+  {
+    "word": "外柔内剛",
+    "reading": "がいじゅうないごう",
+    "romaji": "gaijū naigō",
+    "meaning": "Außen sanft, innen stark; sanft im Auftreten, aber mit starkem Willen",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼女は外柔内剛な人だ。", "romaji": "Kanojo wa gaijū naigō na hito da.", "german": "Sie wirkt sanft, hat aber einen starken inneren Willen." }
+    ]
+  },
+  {
+    "word": "画竜点睛",
+    "reading": "がりょうてんせい",
+    "romaji": "garyō tensei",
+    "meaning": "Den letzten Schliff geben; das i-Tüpfelchen setzen",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "最後の仕上げが画竜点睛だ。", "romaji": "Saigo no shiage ga garyō tensei da.", "german": "Der letzte Schliff ist das i-Tüpfelchen." }
+    ]
+  },
+  {
+    "word": "質疑応答",
+    "reading": "しつぎおうとう",
+    "romaji": "shitsugi ōtō",
+    "meaning": "Fragen und Antworten; Fragerunde",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "プレゼンの後に質疑応答の時間がある。", "romaji": "Purezen no ato ni shitsugi ōtō no jikan ga aru.", "german": "Nach der Präsentation gibt es eine Fragerunde." }
+    ]
+  },
+  {
+    "word": "粒粒辛苦",
+    "reading": "りゅうりゅうしんく",
+    "romaji": "ryūryū shinku",
+    "meaning": "Mühevolle Arbeit Korn für Korn; fleißige Kleinarbeit",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "この作品は粒粒辛苦の結晶だ。", "romaji": "Kono sakuhin wa ryūryū shinku no kesshō da.", "german": "Dieses Werk ist das Ergebnis mühevoller Arbeit." }
+    ]
+  },
+  {
+    "word": "天下泰平",
+    "reading": "てんかたいへい",
+    "romaji": "tenka taihei",
+    "meaning": "Frieden unter dem Himmel; alles ist friedlich und ruhig",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "天下泰平の世の中が続くことを願う。", "romaji": "Tenka taihei no yononaka ga tsuzuku koto o negau.", "german": "Ich wünsche mir, dass die friedliche Welt anhält." }
+    ]
+  },
+  {
+    "word": "自然消滅",
+    "reading": "しぜんしょうめつ",
+    "romaji": "shizen shōmetsu",
+    "meaning": "Von selbst erlöschen; im Sande verlaufen",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Beziehungen",
+    "examples": [
+      { "japanese": "連絡を取らないうちに友情が自然消滅した。", "romaji": "Renraku o toranai uchi ni yūjō ga shizen shōmetsu shita.", "german": "Da wir keinen Kontakt hielten, verlief die Freundschaft im Sande." }
+    ]
+  },
+  {
+    "word": "一難去ってまた一難",
+    "reading": "いちなんさってまたいちなん",
+    "romaji": "ichinan satte mata ichinan",
+    "meaning": "Ein Unglück kommt selten allein; kaum ist eine Schwierigkeit überwunden, kommt die nächste",
+    "type": "Yojijukugo",
+    "level": "N2",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "車が壊れた後に財布をなくした。一難去ってまた一難だ。", "romaji": "Kuruma ga kowareta ato ni saifu o nakushita. Ichinan satte mata ichinan da.", "german": "Nachdem das Auto kaputt ging, verlor ich mein Portemonnaie. Ein Unglück kommt selten allein." }
+    ]
+  },
+
+  // =============================================
+  // === ERWEITERUNG: N1 LEVEL (~25 Einträge) ===
+  // =============================================
+  {
+    "word": "傲岸不遜",
+    "reading": "ごうがんふそん",
+    "romaji": "gōgan fuson",
+    "meaning": "Hochmütig und anmaßend; überheblich",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "彼の傲岸不遜な態度は周囲の反感を買った。", "romaji": "Kare no gōgan fuson na taido wa shūi no hankan o katta.", "german": "Sein hochmütiges und anmaßendes Verhalten zog den Unmut der Umgebung auf sich." }
+    ]
+  },
+  {
+    "word": "曖昧模糊",
+    "reading": "あいまいもこ",
+    "romaji": "aimai moko",
+    "meaning": "Vage und unklar; verschwommen und undeutlich",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "その計画は曖昧模糊としていて具体性に欠ける。", "romaji": "Sono keikaku wa aimai moko to shite ite gutaisei ni kakeru.", "german": "Dieser Plan ist vage und unklar und es fehlt ihm an Konkretheit." }
+    ]
+  },
+  {
+    "word": "意馬心猿",
+    "reading": "いばしんえん",
+    "romaji": "iba shin'en",
+    "meaning": "Unstillbare Begierden; das Herz ist wie ein wildes Pferd und ein Affe",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "試験前は意馬心猿で集中できない。", "romaji": "Shiken mae wa iba shin'en de shūchū dekinai.", "german": "Vor der Prüfung kann ich mich nicht konzentrieren, weil meine Gedanken wild umherspringen." }
+    ]
+  },
+  {
+    "word": "換骨奪胎",
+    "reading": "かんこつだったい",
+    "romaji": "kankotsu dattai",
+    "meaning": "Etwas Altes in neuer Form wiederbeleben; die Essenz übernehmen und neu gestalten",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "古典作品を換骨奪胎して現代風にアレンジした。", "romaji": "Koten sakuhin o kankotsu dattai shite gendaifū ni arenji shita.", "german": "Man hat das klassische Werk in neuer Form wiederbelebt und modern arrangiert." }
+    ]
+  },
+  {
+    "word": "疾風怒濤",
+    "reading": "しっぷうどとう",
+    "romaji": "shippū dotō",
+    "meaning": "Sturm und Drang; stürmisch und wild",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "疾風怒濤の時代を生き抜いた。", "romaji": "Shippū dotō no jidai o ikinuita.", "german": "Er überlebte die stürmische Zeit von Sturm und Drang." }
+    ]
+  },
+  {
+    "word": "大言壮語",
+    "reading": "たいげんそうご",
+    "romaji": "taigen sōgo",
+    "meaning": "Große Worte machen; prahlen; den Mund zu voll nehmen",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "大言壮語ばかりで行動が伴わない。", "romaji": "Taigen sōgo bakari de kōdō ga tomonawanai.", "german": "Er macht nur große Worte, ohne dass Taten folgen." }
+    ]
+  },
+  {
+    "word": "風光明媚",
+    "reading": "ふうこうめいび",
+    "romaji": "fūkō meibi",
+    "meaning": "Malerisch schöne Landschaft; landschaftlich reizvoll",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "この地方は風光明媚で観光客が多い。", "romaji": "Kono chihō wa fūkō meibi de kankōkyaku ga ōi.", "german": "Diese Region hat eine malerisch schöne Landschaft und zieht viele Touristen an." }
+    ]
+  },
+  {
+    "word": "乾坤一擲",
+    "reading": "けんこんいってき",
+    "romaji": "kenkon itteki",
+    "meaning": "Alles auf eine Karte setzen; ein gewagtes Spiel",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "乾坤一擲の勝負に出た。", "romaji": "Kenkon itteki no shōbu ni deta.", "german": "Er setzte alles auf eine Karte." }
+    ]
+  },
+  {
+    "word": "泰山北斗",
+    "reading": "たいざんほくと",
+    "romaji": "taizan hokuto",
+    "meaning": "Unangefochtene Autorität; eine Kapazität auf einem Gebiet",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Erfolg",
+    "examples": [
+      { "japanese": "彼はこの分野の泰山北斗だ。", "romaji": "Kare wa kono bun'ya no taizan hokuto da.", "german": "Er ist die unangefochtene Autorität auf diesem Gebiet." }
+    ]
+  },
+  {
+    "word": "虚心坦懐",
+    "reading": "きょしんたんかい",
+    "romaji": "kyoshin tankai",
+    "meaning": "Mit offenem und vorurteilsfreiem Herzen; unbefangen",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "虚心坦懐に意見を聞くべきだ。", "romaji": "Kyoshin tankai ni iken o kiku beki da.", "german": "Man sollte mit offenem Herzen und ohne Vorurteile zuhören." }
+    ]
+  },
+  {
+    "word": "金城湯池",
+    "reading": "きんじょうとうち",
+    "romaji": "kinjō tōchi",
+    "meaning": "Uneinnehmbare Festung; unangreifbare Stellung",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Erfolg",
+    "examples": [
+      { "japanese": "その企業は業界で金城湯池の地位を築いた。", "romaji": "Sono kigyō wa gyōkai de kinjō tōchi no chii o kizuita.", "german": "Das Unternehmen hat sich eine unangreifbare Stellung in der Branche aufgebaut." }
+    ]
+  },
+  {
+    "word": "百花繚乱",
+    "reading": "ひゃっかりょうらん",
+    "romaji": "hyakka ryōran",
+    "meaning": "Hundert Blumen in voller Blüte; eine Fülle von Talenten oder Stilen",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Natur",
+    "examples": [
+      { "japanese": "百花繚乱の芸術シーンが広がっている。", "romaji": "Hyakka ryōran no geijutsu shīn ga hirogatte iru.", "german": "Es breitet sich eine Fülle von Kunststilen aus." }
+    ]
+  },
+  {
+    "word": "厚顔無恥",
+    "reading": "こうがんむち",
+    "romaji": "kōgan muchi",
+    "meaning": "Schamlos und unverschämt; dickhäutig",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Charakter",
+    "examples": [
+      { "japanese": "あの厚顔無恥な態度には呆れる。", "romaji": "Ano kōgan muchi na taido ni wa akireru.", "german": "Über dieses schamlose Verhalten kann man nur den Kopf schütteln." }
+    ]
+  },
+  {
+    "word": "孟母三遷",
+    "reading": "もうぼさんせん",
+    "romaji": "mōbo sansen",
+    "meaning": "Dreimal umziehen wie die Mutter des Menzius; das Umfeld für die Kindererziehung wählen",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "子供の教育のために引っ越したのは、まさに孟母三遷だ。", "romaji": "Kodomo no kyōiku no tame ni hikkoshita no wa, masa ni mōbo sansen da.", "german": "Für die Bildung des Kindes umzuziehen ist genau wie die Mutter des Menzius." }
+    ]
+  },
+  {
+    "word": "呵呵大笑",
+    "reading": "かかたいしょう",
+    "romaji": "kaka taishō",
+    "meaning": "Laut und herzhaft lachen; schallendes Gelächter",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "彼の冗談に全員が呵呵大笑した。", "romaji": "Kare no jōdan ni zen'in ga kaka taishō shita.", "german": "Über seinen Witz brachen alle in schallendes Gelächter aus." }
+    ]
+  },
+  {
+    "word": "心頭滅却",
+    "reading": "しんとうめっきゃく",
+    "romaji": "shintō mekkyaku",
+    "meaning": "Alle Gedanken auslöschen; absolute innere Ruhe finden",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "心頭滅却すれば火もまた涼し。", "romaji": "Shintō mekkyaku sureba hi mo mata suzushi.", "german": "Wer alle Gedanken auslöscht, dem erscheint sogar Feuer kühl." }
+    ]
+  },
+  {
+    "word": "勧善懲悪",
+    "reading": "かんぜんちょうあく",
+    "romaji": "kanzen chōaku",
+    "meaning": "Das Gute belohnen und das Böse bestrafen",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "勧善懲悪をテーマにした時代劇が人気だ。", "romaji": "Kanzen chōaku o tēma ni shita jidaigeki ga ninki da.", "german": "Historiendramen mit dem Thema Gut gegen Böse sind beliebt." }
+    ]
+  },
+  {
+    "word": "深謀遠慮",
+    "reading": "しんぼうえんりょ",
+    "romaji": "shinbō enryo",
+    "meaning": "Weitblickend und vorausschauend planen; kluge Voraussicht",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "彼の深謀遠慮のおかげで会社は危機を免れた。", "romaji": "Kare no shinbō enryo no okage de kaisha wa kiki o manukareta.", "german": "Dank seiner vorausschauenden Planung konnte die Firma die Krise abwenden." }
+    ]
+  },
+  {
+    "word": "傍目八目",
+    "reading": "おかめはちもく",
+    "romaji": "okame hachimoku",
+    "meaning": "Zuschauer sehen mehr als Spieler; Außenstehende haben den besseren Überblick",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "当事者より傍目八目で冷静に判断できる。", "romaji": "Tōjisha yori okame hachimoku de reisei ni handan dekiru.", "german": "Als Außenstehender kann man nüchterner urteilen als der Betroffene selbst." }
+    ]
+  },
+  {
+    "word": "有為転変",
+    "reading": "ういてんぺん",
+    "romaji": "ui tenpen",
+    "meaning": "Der Wandel aller Dinge; Unbeständigkeit des Lebens",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "有為転変の世を生きるには、柔軟さが必要だ。", "romaji": "Ui tenpen no yo o ikiru ni wa, jūnanasa ga hitsuyō da.", "german": "Um in einer sich ständig wandelnden Welt zu leben, braucht man Flexibilität." }
+    ]
+  },
+  {
+    "word": "閑話休題",
+    "reading": "かんわきゅうだい",
+    "romaji": "kanwa kyūdai",
+    "meaning": "Nun aber zurück zum Thema; Abschweifung beenden",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "閑話休題、本題に戻りましょう。", "romaji": "Kanwa kyūdai, hondai ni modorimasho.", "german": "Nun aber zurück zum Thema, kommen wir zur Hauptsache." }
+    ]
+  },
+  {
+    "word": "錦上添花",
+    "reading": "きんじょうてんか",
+    "romaji": "kinjō tenka",
+    "meaning": "Dem Brokat noch Blumen hinzufügen; das Gute noch besser machen",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Erfolg",
+    "examples": [
+      { "japanese": "優勝に加えてMVPも獲得し、錦上添花だ。", "romaji": "Yūshō ni kuwaete MVP mo kakutoku shi, kinjō tenka da.", "german": "Neben dem Sieg gewann er auch den MVP-Preis — das Sahnehäubchen obendrauf." }
+    ]
+  },
+  {
+    "word": "九死一生",
+    "reading": "きゅうしいっしょう",
+    "romaji": "kyūshi isshō",
+    "meaning": "Dem Tod knapp entronnen; mit knapper Not dem Tod entkommen",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Erfolg",
+    "examples": [
+      { "japanese": "九死一生を得て生還した。", "romaji": "Kyūshi isshō o ete seikan shita.", "german": "Er entrann knapp dem Tod und kehrte lebend zurück." }
+    ]
+  },
+  {
+    "word": "多事多難",
+    "reading": "たじたなん",
+    "romaji": "taji tanan",
+    "meaning": "Voller Sorgen und Schwierigkeiten; turbulent",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Lebensweisheit",
+    "examples": [
+      { "japanese": "多事多難な一年だったが、乗り越えた。", "romaji": "Taji tanan na ichinen datta ga, norikoeta.", "german": "Es war ein turbulentes Jahr voller Schwierigkeiten, aber ich habe es überstanden." }
+    ]
+  },
+  {
+    "word": "粗製乱造",
+    "reading": "そせいらんぞう",
+    "romaji": "sosei ranzō",
+    "meaning": "Billig und schlampig produzieren; Massenware minderer Qualität",
+    "type": "Yojijukugo",
+    "level": "N1",
+    "category": "Handlung",
+    "examples": [
+      { "japanese": "粗製乱造の製品では消費者の信頼を得られない。", "romaji": "Sosei ranzō no seihin de wa shōhisha no shinrai o erarenai.", "german": "Mit billig und schlampig hergestellten Produkten kann man das Vertrauen der Verbraucher nicht gewinnen." }
     ]
   }
 ];

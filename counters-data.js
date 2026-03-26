@@ -28,6 +28,7 @@ window.COUNTERS_DATA = {
       meaning: 'Menschen, Personen',
       usage: 'Zum Zählen von Personen',
       category: 'Menschen',
+      level: 'N5',
       questionWord: { kanji: '何人', reading: 'なんにん', romaji: 'nannin' },
       counts: [
         { num: 1, kanji: '一人', reading: 'ひとり', romaji: 'hitori', shift: true },
@@ -59,6 +60,7 @@ window.COUNTERS_DATA = {
       meaning: 'Personen (formell)',
       usage: 'Formelles Zählen von Personen (Reservierungen, Formulare, Ankündigungen)',
       category: 'Menschen',
+      level: 'N3',
       questionWord: { kanji: '何名', reading: 'なんめい', romaji: 'nanmei' },
       counts: [
         { num: 1, kanji: '一名', reading: 'いちめい', romaji: 'ichimei', shift: false },
@@ -89,6 +91,7 @@ window.COUNTERS_DATA = {
       meaning: 'Universalzähler',
       usage: 'Allgemeiner Zähler für Dinge (1-10), wenn man den spezifischen Zähler nicht kennt',
       category: 'Objekte',
+      level: 'N5',
       questionWord: { kanji: 'いくつ', reading: 'いくつ', romaji: 'ikutsu' },
       counts: [
         { num: 1, kanji: '一つ', reading: 'ひとつ', romaji: 'hitotsu', shift: true },
@@ -117,6 +120,7 @@ window.COUNTERS_DATA = {
       meaning: 'Kleine Objekte, allgemeiner Zähler',
       usage: 'Kleine, kompakte Gegenstände (Äpfel, Eier, Bälle usw.)',
       category: 'Objekte',
+      level: 'N5',
       questionWord: { kanji: '何個', reading: 'なんこ', romaji: 'nanko' },
       counts: [
         { num: 1, kanji: '一個', reading: 'いっこ', romaji: 'ikko', shift: true },
@@ -145,6 +149,7 @@ window.COUNTERS_DATA = {
       meaning: 'Flache Dinge',
       usage: 'Papier, Teller, T-Shirts, Tickets, Scheiben, Blätter',
       category: 'Objekte',
+      level: 'N5',
       questionWord: { kanji: '何枚', reading: 'なんまい', romaji: 'nanmai' },
       counts: [
         { num: 1, kanji: '一枚', reading: 'いちまい', romaji: 'ichimai', shift: false },
@@ -173,6 +178,7 @@ window.COUNTERS_DATA = {
       meaning: 'Lange, zylindrische Objekte',
       usage: 'Stifte, Flaschen, Regenschirme, Bäume, Filme, Telefonanrufe',
       category: 'Objekte',
+      level: 'N5',
       questionWord: { kanji: '何本', reading: 'なんぼん', romaji: 'nanbon' },
       counts: [
         { num: 1, kanji: '一本', reading: 'いっぽん', romaji: 'ippon', shift: true },
@@ -201,6 +207,7 @@ window.COUNTERS_DATA = {
       meaning: 'Maschinen, Fahrzeuge',
       usage: 'Autos, Computer, Fernseher, Waschmaschinen',
       category: 'Objekte',
+      level: 'N5',
       questionWord: { kanji: '何台', reading: 'なんだい', romaji: 'nandai' },
       counts: [
         { num: 1, kanji: '一台', reading: 'いちだい', romaji: 'ichidai', shift: false },
@@ -229,6 +236,7 @@ window.COUNTERS_DATA = {
       meaning: 'Bücher, gebundene Werke',
       usage: 'Bücher, Hefte, Magazine, Notizbücher',
       category: 'Objekte',
+      level: 'N5',
       questionWord: { kanji: '何冊', reading: 'なんさつ', romaji: 'nansatsu' },
       counts: [
         { num: 1, kanji: '一冊', reading: 'いっさつ', romaji: 'issatsu', shift: true },
@@ -257,6 +265,7 @@ window.COUNTERS_DATA = {
       meaning: 'Getränke, Gefäße',
       usage: 'Tassen, Gläser, Schüsseln (Kaffee, Tee, Reis, Bier)',
       category: 'Objekte',
+      level: 'N5',
       questionWord: { kanji: '何杯', reading: 'なんばい', romaji: 'nanbai' },
       counts: [
         { num: 1, kanji: '一杯', reading: 'いっぱい', romaji: 'ippai', shift: true },
@@ -285,6 +294,7 @@ window.COUNTERS_DATA = {
       meaning: 'Yen (Währung)',
       usage: 'Japanische Währung, Geldbeträge',
       category: 'Objekte',
+      level: 'N5',
       questionWord: { kanji: '何円', reading: 'なんえん', romaji: 'nan\'en' },
       counts: [
         { num: 1, kanji: '一円', reading: 'いちえん', romaji: 'ichien', shift: false },
@@ -317,6 +327,7 @@ window.COUNTERS_DATA = {
       meaning: 'Nummer, Reihenfolge',
       usage: 'Ordnungszahlen, Rangfolge, Nummern (Hausnummern, Busse, Züge)',
       category: 'Objekte',
+      level: 'N5',
       questionWord: { kanji: '何番', reading: 'なんばん', romaji: 'nanban' },
       counts: [
         { num: 1, kanji: '一番', reading: 'いちばん', romaji: 'ichiban', shift: false },
@@ -345,6 +356,7 @@ window.COUNTERS_DATA = {
       meaning: 'Schuhe, Socken (Paare)',
       usage: 'Paarweise getragene Fußbekleidung (Schuhe, Socken, Strümpfe, Stiefel)',
       category: 'Objekte',
+      level: 'N4',
       questionWord: { kanji: '何足', reading: 'なんぞく', romaji: 'nanzoku' },
       counts: [
         { num: 1, kanji: '一足', reading: 'いっそく', romaji: 'issoku', shift: true },
@@ -373,6 +385,7 @@ window.COUNTERS_DATA = {
       meaning: 'Kleidungsstücke',
       usage: 'Anzüge, Kleider, Hemden, Jacken – Oberbekleidung',
       category: 'Objekte',
+      level: 'N4',
       questionWord: { kanji: '何着', reading: 'なんちゃく', romaji: 'nanchaku' },
       counts: [
         { num: 1, kanji: '一着', reading: 'いっちゃく', romaji: 'icchaku', shift: true },
@@ -401,6 +414,7 @@ window.COUNTERS_DATA = {
       meaning: 'Häuser, Geschäfte',
       usage: 'Gebäude, Häuser, Läden, Restaurants',
       category: 'Objekte',
+      level: 'N3',
       questionWord: { kanji: '何軒', reading: 'なんげん', romaji: 'nangen' },
       counts: [
         { num: 1, kanji: '一軒', reading: 'いっけん', romaji: 'ikken', shift: true },
@@ -431,6 +445,7 @@ window.COUNTERS_DATA = {
       meaning: 'Briefe, Dokumente',
       usage: 'Briefe, E-Mails, Postkarten, Dokumente, Bewerbungen',
       category: 'Objekte',
+      level: 'N3',
       questionWord: { kanji: '何通', reading: 'なんつう', romaji: 'nantsū' },
       counts: [
         { num: 1, kanji: '一通', reading: 'いっつう', romaji: 'ittsū', shift: true },
@@ -459,6 +474,7 @@ window.COUNTERS_DATA = {
       meaning: 'Fälle, Angelegenheiten',
       usage: 'Vorfälle, Fälle, Beschwerden, Nachrichten, Angelegenheiten',
       category: 'Objekte',
+      level: 'N3',
       questionWord: { kanji: '何件', reading: 'なんけん', romaji: 'nanken' },
       counts: [
         { num: 1, kanji: '一件', reading: 'いっけん', romaji: 'ikken', shift: true },
@@ -487,6 +503,7 @@ window.COUNTERS_DATA = {
       meaning: 'Musikstücke, Lieder',
       usage: 'Lieder, Songs, Musikstücke, Kompositionen',
       category: 'Objekte',
+      level: 'N3',
       questionWord: { kanji: '何曲', reading: 'なんきょく', romaji: 'nankyoku' },
       counts: [
         { num: 1, kanji: '一曲', reading: 'いっきょく', romaji: 'ikkyoku', shift: true },
@@ -515,6 +532,7 @@ window.COUNTERS_DATA = {
       meaning: 'Punkte, Gegenstände (formal)',
       usage: 'Prüfungspunkte, Bewertungen, Ausstellungsstücke, Waren',
       category: 'Objekte',
+      level: 'N3',
       questionWord: { kanji: '何点', reading: 'なんてん', romaji: 'nanten' },
       counts: [
         { num: 1, kanji: '一点', reading: 'いってん', romaji: 'itten', shift: true },
@@ -545,6 +563,7 @@ window.COUNTERS_DATA = {
       meaning: 'Zehntel, Prozentangaben',
       usage: 'Angaben in 10%-Schritten (1割 = 10%, 3割 = 30%)',
       category: 'Objekte',
+      level: 'N2',
       questionWord: { kanji: '何割', reading: 'なんわり', romaji: 'nanwari' },
       counts: [
         { num: 1, kanji: '一割', reading: 'いちわり', romaji: 'ichiwari', shift: false },
@@ -573,6 +592,7 @@ window.COUNTERS_DATA = {
       meaning: 'Exemplare, Kopien',
       usage: 'Zeitungen, Zeitschriften, Kopien, gedruckte Materialien',
       category: 'Objekte',
+      level: 'N2',
       questionWord: { kanji: '何部', reading: 'なんぶ', romaji: 'nanbu' },
       counts: [
         { num: 1, kanji: '一部', reading: 'いちぶ', romaji: 'ichibu', shift: false },
@@ -603,6 +623,7 @@ window.COUNTERS_DATA = {
       meaning: 'Kleine Tiere',
       usage: 'Katzen, Hunde, Fische, Insekten, kleine bis mittelgroße Tiere',
       category: 'Tiere',
+      level: 'N5',
       questionWord: { kanji: '何匹', reading: 'なんびき', romaji: 'nanbiki' },
       counts: [
         { num: 1, kanji: '一匹', reading: 'いっぴき', romaji: 'ippiki', shift: true },
@@ -631,6 +652,7 @@ window.COUNTERS_DATA = {
       meaning: 'Vögel, Hasen',
       usage: 'Vögel, Hühner, Hasen (historisch als „Flügeltiere" gezählt)',
       category: 'Tiere',
+      level: 'N2',
       questionWord: { kanji: '何羽', reading: 'なんわ', romaji: 'nanwa' },
       counts: [
         { num: 1, kanji: '一羽', reading: 'いちわ', romaji: 'ichiwa', shift: false },
@@ -659,6 +681,7 @@ window.COUNTERS_DATA = {
       meaning: 'Große Tiere',
       usage: 'Pferde, Kühe, Elefanten, Wale – große Tiere',
       category: 'Tiere',
+      level: 'N2',
       questionWord: { kanji: '何頭', reading: 'なんとう', romaji: 'nantō' },
       counts: [
         { num: 1, kanji: '一頭', reading: 'いっとう', romaji: 'ittō', shift: true },
@@ -689,6 +712,7 @@ window.COUNTERS_DATA = {
       meaning: 'Stockwerke',
       usage: 'Gebäudestockwerke, Etagen',
       category: 'Objekte',
+      level: 'N5',
       questionWord: { kanji: '何階', reading: 'なんがい', romaji: 'nangai' },
       counts: [
         { num: 1, kanji: '一階', reading: 'いっかい', romaji: 'ikkai', shift: true },
@@ -719,6 +743,7 @@ window.COUNTERS_DATA = {
       meaning: 'Häufigkeit, Mal',
       usage: 'Anzahl der Male, Wiederholungen',
       category: 'Zeit',
+      level: 'N5',
       questionWord: { kanji: '何回', reading: 'なんかい', romaji: 'nankai' },
       counts: [
         { num: 1, kanji: '一回', reading: 'いっかい', romaji: 'ikkai', shift: true },
@@ -747,6 +772,7 @@ window.COUNTERS_DATA = {
       meaning: 'Alter (Jahre)',
       usage: 'Lebensalter von Personen',
       category: 'Zeit',
+      level: 'N5',
       questionWord: { kanji: '何歳', reading: 'なんさい', romaji: 'nansai' },
       counts: [
         { num: 1, kanji: '一歳', reading: 'いっさい', romaji: 'issai', shift: true },
@@ -777,6 +803,7 @@ window.COUNTERS_DATA = {
       meaning: 'Uhrzeit (Stunden)',
       usage: 'Volle Stunden bei der Uhrzeitangabe',
       category: 'Zeit',
+      level: 'N5',
       questionWord: { kanji: '何時', reading: 'なんじ', romaji: 'nanji' },
       counts: [
         { num: 1, kanji: '一時', reading: 'いちじ', romaji: 'ichiji', shift: false },
@@ -807,6 +834,7 @@ window.COUNTERS_DATA = {
       meaning: 'Minuten',
       usage: 'Minutenangaben bei Uhrzeiten und Zeitdauern',
       category: 'Zeit',
+      level: 'N5',
       questionWord: { kanji: '何分', reading: 'なんぷん', romaji: 'nanpun' },
       counts: [
         { num: 1, kanji: '一分', reading: 'いっぷん', romaji: 'ippun', shift: true },
@@ -837,6 +865,7 @@ window.COUNTERS_DATA = {
       meaning: 'Tage',
       usage: 'Tage des Monats (Datum) und Zeitdauer in Tagen',
       category: 'Zeit',
+      level: 'N5',
       questionWord: { kanji: '何日', reading: 'なんにち', romaji: 'nannichi' },
       counts: [
         { num: 1, kanji: '一日', reading: 'ついたち', romaji: 'tsuitachi', shift: true },
@@ -870,6 +899,7 @@ window.COUNTERS_DATA = {
       meaning: 'Wochen (Dauer)',
       usage: 'Zeitdauer in Wochen',
       category: 'Zeit',
+      level: 'N5',
       questionWord: { kanji: '何週間', reading: 'なんしゅうかん', romaji: 'nanshūkan' },
       counts: [
         { num: 1, kanji: '一週間', reading: 'いっしゅうかん', romaji: 'isshūkan', shift: true },
@@ -898,6 +928,7 @@ window.COUNTERS_DATA = {
       meaning: 'Monate (Dauer)',
       usage: 'Zeitdauer in Monaten',
       category: 'Zeit',
+      level: 'N5',
       questionWord: { kanji: '何ヶ月', reading: 'なんかげつ', romaji: 'nankagetsu' },
       counts: [
         { num: 1, kanji: '一ヶ月', reading: 'いっかげつ', romaji: 'ikkagetsu', shift: true },
@@ -926,6 +957,7 @@ window.COUNTERS_DATA = {
       meaning: 'Jahre (Dauer/Jahreszahl)',
       usage: 'Zeitdauer in Jahren, Jahreszahlen, Schuljahre',
       category: 'Zeit',
+      level: 'N5',
       questionWord: { kanji: '何年', reading: 'なんねん', romaji: 'nannen' },
       counts: [
         { num: 1, kanji: '一年', reading: 'いちねん', romaji: 'ichinen', shift: false },
@@ -956,6 +988,7 @@ window.COUNTERS_DATA = {
       meaning: 'Übernachtungen',
       usage: 'Hotelübernachtungen, Reisedauer in Nächten',
       category: 'Zeit',
+      level: 'N4',
       questionWord: { kanji: '何泊', reading: 'なんぱく', romaji: 'nanpaku' },
       counts: [
         { num: 1, kanji: '一泊', reading: 'いっぱく', romaji: 'ippaku', shift: true },
@@ -984,6 +1017,7 @@ window.COUNTERS_DATA = {
       meaning: 'Grad, Mal (Häufigkeit)',
       usage: 'Temperatur, Winkel, Häufigkeit (formeller als 回)',
       category: 'Zeit',
+      level: 'N4',
       questionWord: { kanji: '何度', reading: 'なんど', romaji: 'nando' },
       counts: [
         { num: 1, kanji: '一度', reading: 'いちど', romaji: 'ichido', shift: false },
@@ -1012,6 +1046,7 @@ window.COUNTERS_DATA = {
       meaning: 'Mahlzeiten',
       usage: 'Mahlzeiten pro Tag, inkludierte Mahlzeiten bei Reisen',
       category: 'Zeit',
+      level: 'N3',
       questionWord: { kanji: '何食', reading: 'なんしょく', romaji: 'nanshoku' },
       counts: [
         { num: 1, kanji: '一食', reading: 'いっしょく', romaji: 'isshoku', shift: true },
@@ -1043,6 +1078,7 @@ window.COUNTERS_DATA = {
       meaning: 'Scheiben, Stücke',
       usage: 'Geschnittene Dinge (Fisch, Brot, Fleisch, Kuchen)',
       category: 'Essen & Trinken',
+      level: 'N4',
       questionWord: { kanji: '何切れ', reading: 'なんきれ', romaji: 'nankire' },
       counts: [
         { num: 1, kanji: '一切れ', reading: 'ひときれ', romaji: 'hitokire', shift: true },
@@ -1071,6 +1107,7 @@ window.COUNTERS_DATA = {
       meaning: 'Körner, kleine runde Dinge',
       usage: 'Reiskörner, Perlen, Samen, Tabletten',
       category: 'Essen & Trinken',
+      level: 'N2',
       questionWord: { kanji: '何粒', reading: 'なんつぶ', romaji: 'nantsubu' },
       counts: [
         { num: 1, kanji: '一粒', reading: 'ひとつぶ', romaji: 'hitotsubu', shift: true },
@@ -1099,6 +1136,7 @@ window.COUNTERS_DATA = {
       meaning: 'Teller, Portionen',
       usage: 'Teller/Portionen von Essen (besonders Sushi, Tapas)',
       category: 'Essen & Trinken',
+      level: 'N4',
       questionWord: { kanji: '何皿', reading: 'なんさら', romaji: 'nansara' },
       counts: [
         { num: 1, kanji: '一皿', reading: 'ひとさら', romaji: 'hitosara', shift: true },
@@ -1127,6 +1165,7 @@ window.COUNTERS_DATA = {
       meaning: 'Blöcke, Portionen',
       usage: 'Tofu-Blöcke, Portionen',
       category: 'Essen & Trinken',
+      level: 'N4',
       questionWord: { kanji: '何丁', reading: 'なんちょう', romaji: 'nanchō' },
       counts: [
         { num: 1, kanji: '一丁', reading: 'いっちょう', romaji: 'itchō', shift: true },
@@ -1155,6 +1194,7 @@ window.COUNTERS_DATA = {
       meaning: 'Dosen',
       usage: 'Getränkedosen, Konservendosen',
       category: 'Essen & Trinken',
+      level: 'N3',
       questionWord: { kanji: '何缶', reading: 'なんかん', romaji: 'nankan' },
       counts: [
         { num: 1, kanji: '一缶', reading: 'いっかん', romaji: 'ikkan', shift: true },
@@ -1183,6 +1223,7 @@ window.COUNTERS_DATA = {
       meaning: 'Flaschen',
       usage: 'Flaschen (Wein, Bier, Milch, Wasser)',
       category: 'Essen & Trinken',
+      level: 'N3',
       questionWord: { kanji: '何瓶', reading: 'なんびん', romaji: 'nanbin' },
       counts: [
         { num: 1, kanji: '一瓶', reading: 'いちびん', romaji: 'ichibin', shift: false },
@@ -1211,6 +1252,7 @@ window.COUNTERS_DATA = {
       meaning: 'Bissen, Anteile',
       usage: 'Bissen beim Essen; auch Bankkonten, Spenden, Loseinteilungen',
       category: 'Essen & Trinken',
+      level: 'N3',
       questionWord: { kanji: '何口', reading: 'なんくち', romaji: 'nankuchi' },
       counts: [
         { num: 1, kanji: '一口', reading: 'ひとくち', romaji: 'hitokuchi', shift: true },
@@ -1239,6 +1281,7 @@ window.COUNTERS_DATA = {
       meaning: 'Essstäbchenpaare, Mahlzeiten',
       usage: 'Paare von Essstäbchen; formelle Mahlzeiten-Sets',
       category: 'Essen & Trinken',
+      level: 'N4',
       questionWord: { kanji: '何膳', reading: 'なんぜん', romaji: 'nanzen' },
       counts: [
         { num: 1, kanji: '一膳', reading: 'いちぜん', romaji: 'ichizen', shift: false },
@@ -1267,6 +1310,7 @@ window.COUNTERS_DATA = {
       meaning: 'Kugeln, runde Objekte',
       usage: 'Runde Dinge (Kohl, Zwiebeln, Wollknäuel)',
       category: 'Essen & Trinken',
+      level: 'N4',
       questionWord: { kanji: '何玉', reading: 'なんたま', romaji: 'nantama' },
       counts: [
         { num: 1, kanji: '一玉', reading: 'ひとたま', romaji: 'hitotama', shift: true },
@@ -1298,6 +1342,7 @@ window.COUNTERS_DATA = {
       meaning: 'Zimmer (formal)',
       usage: 'Hotelzimmer, Krankenhauszimmer, Büros (formell)',
       category: 'Gebäude & Räume',
+      level: 'N3',
       questionWord: { kanji: '何室', reading: 'なんしつ', romaji: 'nanshitsu' },
       counts: [
         { num: 1, kanji: '一室', reading: 'いっしつ', romaji: 'isshitsu', shift: true },
@@ -1326,6 +1371,7 @@ window.COUNTERS_DATA = {
       meaning: 'Gebäude, Gebäudetrakte',
       usage: 'Gebäude, Wohnblöcke, Gebäudekomplexe',
       category: 'Gebäude & Räume',
+      level: 'N3',
       questionWord: { kanji: '何棟', reading: 'なんとう', romaji: 'nantō' },
       counts: [
         { num: 1, kanji: '一棟', reading: 'いっとう', romaji: 'ittō', shift: true },
@@ -1354,6 +1400,7 @@ window.COUNTERS_DATA = {
       meaning: 'Sitzplätze',
       usage: 'Sitzplätze (Restaurant, Theater, Flugzeug)',
       category: 'Gebäude & Räume',
+      level: 'N3',
       questionWord: { kanji: '何席', reading: 'なんせき', romaji: 'nanseki' },
       counts: [
         { num: 1, kanji: '一席', reading: 'いっせき', romaji: 'isseki', shift: true },
@@ -1382,6 +1429,7 @@ window.COUNTERS_DATA = {
       meaning: 'Räume (traditionell)',
       usage: 'Traditionelle japanische Räume, Zimmerangabe in Immobilien',
       category: 'Gebäude & Räume',
+      level: 'N2',
       questionWord: { kanji: '何間', reading: 'なんま', romaji: 'nanma' },
       counts: [
         { num: 1, kanji: '一間', reading: 'ひとま', romaji: 'hitoma', shift: true },
@@ -1410,6 +1458,7 @@ window.COUNTERS_DATA = {
       meaning: 'Tatami-Matten (Raumgröße)',
       usage: 'Raumgröße in Tatami-Einheiten (1畳 ≈ 1,65 m²)',
       category: 'Gebäude & Räume',
+      level: 'N3',
       questionWord: { kanji: '何畳', reading: 'なんじょう', romaji: 'nanjō' },
       counts: [
         { num: 1, kanji: '一畳', reading: 'いちじょう', romaji: 'ichijō', shift: false },
@@ -1440,6 +1489,7 @@ window.COUNTERS_DATA = {
       meaning: 'Orte, Stellen',
       usage: 'Orte, Standorte, Stellen (z.B. Fehler im Text, Touristenattraktionen)',
       category: 'Gebäude & Räume',
+      level: 'N3',
       questionWord: { kanji: '何ヶ所', reading: 'なんかしょ', romaji: 'nankasho' },
       counts: [
         { num: 1, kanji: '一ヶ所', reading: 'いっかしょ', romaji: 'ikkasho', shift: true },
@@ -1471,6 +1521,7 @@ window.COUNTERS_DATA = {
       meaning: 'Flüge, Postlieferungen',
       usage: 'Flüge, Busverbindungen, Postlieferungen',
       category: 'Transport',
+      level: 'N3',
       questionWord: { kanji: '何便', reading: 'なんびん', romaji: 'nanbin' },
       counts: [
         { num: 1, kanji: '一便', reading: 'いちびん', romaji: 'ichibin', shift: false },
@@ -1499,6 +1550,7 @@ window.COUNTERS_DATA = {
       meaning: 'Zugwaggons',
       usage: 'Eisenbahnwaggons, Straßenbahnwagen',
       category: 'Transport',
+      level: 'N2',
       questionWord: { kanji: '何両', reading: 'なんりょう', romaji: 'nanryō' },
       counts: [
         { num: 1, kanji: '一両', reading: 'いちりょう', romaji: 'ichiryō', shift: false },
@@ -1530,6 +1582,7 @@ window.COUNTERS_DATA = {
       meaning: 'Schriftzeichen',
       usage: 'Buchstaben, Schriftzeichen, Zeichen',
       category: 'Sprache & Schrift',
+      level: 'N3',
       questionWord: { kanji: '何字', reading: 'なんじ', romaji: 'nanji' },
       counts: [
         { num: 1, kanji: '一字', reading: 'いちじ', romaji: 'ichiji', shift: false },
@@ -1558,6 +1611,7 @@ window.COUNTERS_DATA = {
       meaning: 'Wörter',
       usage: 'Wörter (beim Zählen von Vokabular)',
       category: 'Sprache & Schrift',
+      level: 'N3',
       questionWord: { kanji: '何語', reading: 'なんご', romaji: 'nango' },
       counts: [
         { num: 1, kanji: '一語', reading: 'いちご', romaji: 'ichigo', shift: false },
@@ -1586,6 +1640,7 @@ window.COUNTERS_DATA = {
       meaning: 'Sätze',
       usage: 'Sätze (in Texten, Übungen)',
       category: 'Sprache & Schrift',
+      level: 'N3',
       questionWord: { kanji: '何文', reading: 'なんぶん', romaji: 'nanbun' },
       counts: [
         { num: 1, kanji: '一文', reading: 'いちぶん', romaji: 'ichibun', shift: false },
@@ -1614,6 +1669,7 @@ window.COUNTERS_DATA = {
       meaning: 'Zeilen',
       usage: 'Textzeilen, Programmzeilen',
       category: 'Sprache & Schrift',
+      level: 'N3',
       questionWord: { kanji: '何行', reading: 'なんぎょう', romaji: 'nangyō' },
       counts: [
         { num: 1, kanji: '一行', reading: 'いちぎょう', romaji: 'ichigyō', shift: false },
@@ -1642,6 +1698,7 @@ window.COUNTERS_DATA = {
       meaning: 'Seiten',
       usage: 'Buchseiten, Dokumentenseiten',
       category: 'Sprache & Schrift',
+      level: 'N4',
       questionWord: { kanji: '何ページ', reading: 'なんページ', romaji: 'nan pēji' },
       counts: [
         { num: 1, kanji: '一ページ', reading: 'いちページ', romaji: 'ichi pēji', shift: false },
@@ -1670,6 +1727,7 @@ window.COUNTERS_DATA = {
       meaning: 'Kapitel',
       usage: 'Buchkapitel, Abschnitte',
       category: 'Sprache & Schrift',
+      level: 'N2',
       questionWord: { kanji: '何章', reading: 'なんしょう', romaji: 'nanshō' },
       counts: [
         { num: 1, kanji: '一章', reading: 'いっしょう', romaji: 'isshō', shift: true },
@@ -1698,6 +1756,7 @@ window.COUNTERS_DATA = {
       meaning: 'Bände',
       usage: 'Manga-Bände, Buchreihen, Filmserien',
       category: 'Sprache & Schrift',
+      level: 'N2',
       questionWord: { kanji: '何巻', reading: 'なんかん', romaji: 'nankan' },
       counts: [
         { num: 1, kanji: '一巻', reading: 'いっかん', romaji: 'ikkan', shift: true },
@@ -1726,6 +1785,7 @@ window.COUNTERS_DATA = {
       meaning: 'Episoden, Geschichten',
       usage: 'TV-Episoden, Anime-Folgen, Geschichten, Manga-Kapitel',
       category: 'Sprache & Schrift',
+      level: 'N2',
       questionWord: { kanji: '何話', reading: 'なんわ', romaji: 'nanwa' },
       counts: [
         { num: 1, kanji: '一話', reading: 'いちわ', romaji: 'ichiwa', shift: false },
@@ -1756,6 +1816,7 @@ window.COUNTERS_DATA = {
       meaning: 'Fragen, Aufgaben',
       usage: 'Testfragen, Prüfungsaufgaben, Quizfragen',
       category: 'Sprache & Schrift',
+      level: 'N3',
       questionWord: { kanji: '何問', reading: 'なんもん', romaji: 'nanmon' },
       counts: [
         { num: 1, kanji: '一問', reading: 'いちもん', romaji: 'ichimon', shift: false },
@@ -1784,6 +1845,7 @@ window.COUNTERS_DATA = {
       meaning: 'Lektionen',
       usage: 'Lektionen in Lehrbüchern, Kapitel in Sprachkursen',
       category: 'Sprache & Schrift',
+      level: 'N4',
       questionWord: { kanji: '何課', reading: 'なんか', romaji: 'nanka' },
       counts: [
         { num: 1, kanji: '一課', reading: 'いっか', romaji: 'ikka', shift: true },
@@ -1814,6 +1876,7 @@ window.COUNTERS_DATA = {
       meaning: 'Gruppen, Sets',
       usage: 'Gruppen, Paare, Sets, Schulklassen',
       category: 'Gruppen & Mengen',
+      level: 'N3',
       questionWord: { kanji: '何組', reading: 'なんくみ', romaji: 'nankumi' },
       counts: [
         { num: 1, kanji: '一組', reading: 'ひとくみ', romaji: 'hitokumi', shift: true },
@@ -1842,6 +1905,7 @@ window.COUNTERS_DATA = {
       meaning: 'Bündel',
       usage: 'Blumensträuße, Papierstapel, Geldscheinbündel, Strohbündel',
       category: 'Gruppen & Mengen',
+      level: 'N3',
       questionWord: { kanji: '何束', reading: 'なんたば', romaji: 'nantaba' },
       counts: [
         { num: 1, kanji: '一束', reading: 'ひとたば', romaji: 'hitotaba', shift: true },
@@ -1870,6 +1934,7 @@ window.COUNTERS_DATA = {
       meaning: 'Tüten, Beutel',
       usage: 'Plastiktüten, Papiertüten, Beutel mit Lebensmitteln',
       category: 'Gruppen & Mengen',
+      level: 'N3',
       questionWord: { kanji: '何袋', reading: 'なんふくろ', romaji: 'nanfukuro' },
       counts: [
         { num: 1, kanji: '一袋', reading: 'ひとふくろ', romaji: 'hitofukuro', shift: true },
@@ -1898,6 +1963,7 @@ window.COUNTERS_DATA = {
       meaning: 'Schachteln, Kartons',
       usage: 'Kisten, Schachteln, Kartons mit Waren',
       category: 'Gruppen & Mengen',
+      level: 'N3',
       questionWord: { kanji: '何箱', reading: 'なんはこ', romaji: 'nanhako' },
       counts: [
         { num: 1, kanji: '一箱', reading: 'ひとはこ', romaji: 'hitohako', shift: true },
@@ -1926,6 +1992,7 @@ window.COUNTERS_DATA = {
       meaning: 'Reihen',
       usage: 'Warteschlangen, Sitzreihen, Tabellenzeilen',
       category: 'Gruppen & Mengen',
+      level: 'N2',
       questionWord: { kanji: '何列', reading: 'なんれつ', romaji: 'nanretsu' },
       counts: [
         { num: 1, kanji: '一列', reading: 'いちれつ', romaji: 'ichiretsu', shift: false },
@@ -1954,6 +2021,7 @@ window.COUNTERS_DATA = {
       meaning: 'Länder',
       usage: 'Anzahl von Ländern, Nationen',
       category: 'Gruppen & Mengen',
+      level: 'N3',
       questionWord: { kanji: '何ヶ国', reading: 'なんかこく', romaji: 'nankakoku' },
       counts: [
         { num: 1, kanji: '一ヶ国', reading: 'いっかこく', romaji: 'ikkakoku', shift: true },
@@ -1982,6 +2050,7 @@ window.COUNTERS_DATA = {
       meaning: 'Arten, Sorten',
       usage: 'Arten, Typen, Sorten, Spezies',
       category: 'Gruppen & Mengen',
+      level: 'N2',
       questionWord: { kanji: '何種', reading: 'なんしゅ', romaji: 'nanshu' },
       counts: [
         { num: 1, kanji: '一種', reading: 'いっしゅ', romaji: 'isshu', shift: true },
@@ -2012,6 +2081,7 @@ window.COUNTERS_DATA = {
       meaning: 'Schüsse, Abschüsse',
       usage: 'Schüsse, Kugeln, Feuerwerk, Raketen',
       category: 'Ereignisse',
+      level: 'N2',
       questionWord: { kanji: '何発', reading: 'なんぱつ', romaji: 'nanpatsu' },
       counts: [
         { num: 1, kanji: '一発', reading: 'いっぱつ', romaji: 'ippatsu', shift: true },
@@ -2040,6 +2110,7 @@ window.COUNTERS_DATA = {
       meaning: 'Schritte',
       usage: 'Schritte beim Gehen, Schrittzähler',
       category: 'Ereignisse',
+      level: 'N3',
       questionWord: { kanji: '何歩', reading: 'なんぽ', romaji: 'nanpo' },
       counts: [
         { num: 1, kanji: '一歩', reading: 'いっぽ', romaji: 'ippo', shift: true },
@@ -2068,6 +2139,7 @@ window.COUNTERS_DATA = {
       meaning: 'Siege',
       usage: 'Siege in Sportwettbewerben, Spielen, Turnieren',
       category: 'Ereignisse',
+      level: 'N2',
       questionWord: { kanji: '何勝', reading: 'なんしょう', romaji: 'nanshō' },
       counts: [
         { num: 1, kanji: '一勝', reading: 'いっしょう', romaji: 'isshō', shift: true },
@@ -2096,6 +2168,7 @@ window.COUNTERS_DATA = {
       meaning: 'Niederlagen',
       usage: 'Niederlagen in Sportwettbewerben, Spielen, Turnieren',
       category: 'Ereignisse',
+      level: 'N2',
       questionWord: { kanji: '何敗', reading: 'なんぱい', romaji: 'nanpai' },
       counts: [
         { num: 1, kanji: '一敗', reading: 'いっぱい', romaji: 'ippai', shift: true },
@@ -2124,6 +2197,7 @@ window.COUNTERS_DATA = {
       meaning: 'Stufen, Ränge',
       usage: 'Treppenstufen, Regale, Kampfkunst-Ränge (Judo, Karate), Go-Ränge',
       category: 'Ereignisse',
+      level: 'N3',
       questionWord: { kanji: '何段', reading: 'なんだん', romaji: 'nandan' },
       counts: [
         { num: 1, kanji: '一段', reading: 'いちだん', romaji: 'ichidan', shift: false },
@@ -2152,6 +2226,7 @@ window.COUNTERS_DATA = {
       meaning: 'Runden, Umrundungen',
       usage: 'Runden auf der Rennstrecke, Umrundungen, Läufe um etwas',
       category: 'Ereignisse',
+      level: 'N2',
       questionWord: { kanji: '何周', reading: 'なんしゅう', romaji: 'nanshū' },
       counts: [
         { num: 1, kanji: '一周', reading: 'いっしゅう', romaji: 'isshū', shift: true },
@@ -2180,6 +2255,7 @@ window.COUNTERS_DATA = {
       meaning: 'Bases (Baseball)',
       usage: 'Bases im Baseball',
       category: 'Ereignisse',
+      level: 'N1',
       questionWord: { kanji: '何塁', reading: 'なんるい', romaji: 'nanrui' },
       counts: [
         { num: 1, kanji: '一塁', reading: 'いちるい', romaji: 'ichirui', shift: false },
@@ -2210,6 +2286,7 @@ window.COUNTERS_DATA = {
       meaning: 'Blumen, Räder',
       usage: 'Blumen (einzelne Blüten), Räder, Ringe',
       category: 'Natur',
+      level: 'N2',
       questionWord: { kanji: '何輪', reading: 'なんりん', romaji: 'nanrin' },
       counts: [
         { num: 1, kanji: '一輪', reading: 'いちりん', romaji: 'ichirin', shift: false },
@@ -2238,6 +2315,7 @@ window.COUNTERS_DATA = {
       meaning: 'Pflanzen, Sträucher',
       usage: 'Pflanzen, Sträucher, Büsche, Aktien (Finanzwelt)',
       category: 'Natur',
+      level: 'N2',
       questionWord: { kanji: '何株', reading: 'なんかぶ', romaji: 'nankabu' },
       counts: [
         { num: 1, kanji: '一株', reading: 'ひとかぶ', romaji: 'hitokabu', shift: true },
@@ -2268,6 +2346,7 @@ window.COUNTERS_DATA = {
       meaning: 'Tabletten, Pillen',
       usage: 'Tabletten, Pillen, Kapseln, Medikamente',
       category: 'Medizin',
+      level: 'N2',
       questionWord: { kanji: '何錠', reading: 'なんじょう', romaji: 'nanjō' },
       counts: [
         { num: 1, kanji: '一錠', reading: 'いちじょう', romaji: 'ichijō', shift: false },
@@ -2296,6 +2375,7 @@ window.COUNTERS_DATA = {
       meaning: 'Tropfen',
       usage: 'Augentropfen, Medizintropfen, Flüssigkeitstropfen',
       category: 'Medizin',
+      level: 'N1',
       questionWord: { kanji: '何滴', reading: 'なんてき', romaji: 'nanteki' },
       counts: [
         { num: 1, kanji: '一滴', reading: 'いってき', romaji: 'itteki', shift: true },
@@ -2326,6 +2406,7 @@ window.COUNTERS_DATA = {
       meaning: 'Unterrichtsstunden',
       usage: 'Unterrichtsstunden, Vorlesungen, Manga-Panels',
       category: 'Zeit',
+      level: 'N3',
       questionWord: { kanji: '何コマ', reading: 'なんこま', romaji: 'nankoma' },
       counts: [
         { num: 1, kanji: '一コマ', reading: 'ひとこま', romaji: 'hitokoma', shift: true },
@@ -2354,6 +2435,7 @@ window.COUNTERS_DATA = {
       meaning: 'Sekunden',
       usage: 'Sekunden (Zeiteinheit), Stoppuhr, Countdowns',
       category: 'Zeit',
+      level: 'N5',
       questionWord: { kanji: '何秒', reading: 'なんびょう', romaji: 'nanbyō' },
       counts: [
         { num: 1, kanji: '一秒', reading: 'いちびょう', romaji: 'ichibyō', shift: false },
@@ -2384,6 +2466,7 @@ window.COUNTERS_DATA = {
       meaning: 'Portionen',
       usage: 'Portionen für eine bestimmte Anzahl von Personen (beim Kochen, im Restaurant)',
       category: 'Essen & Trinken',
+      level: 'N3',
       questionWord: { kanji: '何人前', reading: 'なんにんまえ', romaji: 'nanninmae' },
       counts: [
         { num: 1, kanji: '一人前', reading: 'いちにんまえ', romaji: 'ichininmae', shift: false },
@@ -2412,6 +2495,7 @@ window.COUNTERS_DATA = {
       meaning: 'Löffel (Maßeinheit)',
       usage: 'Löffel als Kochmaßeinheit (大さじ = Esslöffel, 小さじ = Teelöffel)',
       category: 'Essen & Trinken',
+      level: 'N3',
       questionWord: { kanji: '何さじ', reading: 'なんさじ', romaji: 'nansaji' },
       counts: [
         { num: 1, kanji: '一さじ', reading: 'ひとさじ', romaji: 'hitosaji', shift: true },
@@ -2442,6 +2526,7 @@ window.COUNTERS_DATA = {
       meaning: 'Haushalte',
       usage: 'Haushalte, Familienhaushalte (Statistik, Verwaltung)',
       category: 'Menschen',
+      level: 'N2',
       questionWord: { kanji: '何世帯', reading: 'なんせたい', romaji: 'nansetai' },
       counts: [
         { num: 1, kanji: '一世帯', reading: 'いっせたい', romaji: 'issetai', shift: true },
@@ -2461,6 +2546,1282 @@ window.COUNTERS_DATA = {
         { japanese: '二世帯住宅に住んでいます。', romaji: 'Nisetai jūtaku ni sunde imasu.', german: 'Wir wohnen in einem Zweifamilienhaus.' }
       ],
       notes: 'Folgt dem s-Lautverschiebungsmuster: 1→いっせたい, 8→はっせたい, 10→じゅっせたい. 二世帯住宅 (にせたいじゅうたく) = Zweifamilienhaus ist ein häufiger Ausdruck in Japan.'
+    },
+
+    // ===== NEUE EINTRÄGE =====
+
+    // ===== TRANSPORT (Fortsetzung) =====
+    {
+      id: 'seki-ship',
+      kanji: '隻',
+      reading: 'せき',
+      romaji: 'seki',
+      meaning: 'Schiffe, Boote',
+      usage: 'Schiffe, Boote, Kriegsschiffe',
+      category: 'Transport',
+      level: 'N2',
+      questionWord: { kanji: '何隻', reading: 'なんせき', romaji: 'nanseki' },
+      counts: [
+        { num: 1, kanji: '一隻', reading: 'いっせき', romaji: 'isseki', shift: true },
+        { num: 2, kanji: '二隻', reading: 'にせき', romaji: 'niseki', shift: false },
+        { num: 3, kanji: '三隻', reading: 'さんせき', romaji: 'sanseki', shift: false },
+        { num: 4, kanji: '四隻', reading: 'よんせき', romaji: 'yonseki', shift: false },
+        { num: 5, kanji: '五隻', reading: 'ごせき', romaji: 'goseki', shift: false },
+        { num: 6, kanji: '六隻', reading: 'ろくせき', romaji: 'rokuseki', shift: false },
+        { num: 7, kanji: '七隻', reading: 'ななせき', romaji: 'nanaseki', shift: false },
+        { num: 8, kanji: '八隻', reading: 'はっせき', romaji: 'hasseki', shift: true },
+        { num: 9, kanji: '九隻', reading: 'きゅうせき', romaji: 'kyūseki', shift: false },
+        { num: 10, kanji: '十隻', reading: 'じゅっせき', romaji: 'jusseki', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '港に船が三隻停まっています。', romaji: 'Minato ni fune ga sanseki tomatte imasu.', german: 'Im Hafen liegen drei Schiffe.' },
+        { japanese: '一隻の漁船が出港しました。', romaji: 'Isseki no gyosen ga shukkō shimashita.', german: 'Ein Fischerboot hat den Hafen verlassen.' }
+      ],
+      notes: 'Wird für größere Schiffe und Boote verwendet. Für kleine Boote kann auch 艘 (そう) verwendet werden.'
+    },
+    {
+      id: 'ki-plane',
+      kanji: '機',
+      reading: 'き',
+      romaji: 'ki',
+      meaning: 'Flugzeuge',
+      usage: 'Flugzeuge, Kampfflugzeuge, Hubschrauber',
+      category: 'Transport',
+      level: 'N2',
+      questionWord: { kanji: '何機', reading: 'なんき', romaji: 'nanki' },
+      counts: [
+        { num: 1, kanji: '一機', reading: 'いっき', romaji: 'ikki', shift: true },
+        { num: 2, kanji: '二機', reading: 'にき', romaji: 'niki', shift: false },
+        { num: 3, kanji: '三機', reading: 'さんき', romaji: 'sanki', shift: false },
+        { num: 4, kanji: '四機', reading: 'よんき', romaji: 'yonki', shift: false },
+        { num: 5, kanji: '五機', reading: 'ごき', romaji: 'goki', shift: false },
+        { num: 6, kanji: '六機', reading: 'ろっき', romaji: 'rokki', shift: true },
+        { num: 7, kanji: '七機', reading: 'ななき', romaji: 'nanaki', shift: false },
+        { num: 8, kanji: '八機', reading: 'はっき', romaji: 'hakki', shift: true },
+        { num: 9, kanji: '九機', reading: 'きゅうき', romaji: 'kyūki', shift: false },
+        { num: 10, kanji: '十機', reading: 'じゅっき', romaji: 'jukki', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '空港に飛行機が五機駐機しています。', romaji: 'Kūkō ni hikōki ga goki chūki shite imasu.', german: 'Am Flughafen stehen fünf Flugzeuge.' },
+        { japanese: 'ヘリコプターが二機飛んでいます。', romaji: 'Herikoptā ga niki tonde imasu.', german: 'Zwei Hubschrauber fliegen.' }
+      ],
+      notes: 'Wird für Flugzeuge und Hubschrauber verwendet. Lautverschiebungen bei 1, 6, 8, 10.'
+    },
+
+    // ===== OBJEKTE (Fortsetzung) =====
+    {
+      id: 'ko-time',
+      kanji: '時間',
+      reading: 'じかん',
+      romaji: 'jikan',
+      meaning: 'Stunden (Dauer)',
+      usage: 'Zeitdauer in Stunden',
+      category: 'Zeit',
+      level: 'N5',
+      questionWord: { kanji: '何時間', reading: 'なんじかん', romaji: 'nanjikan' },
+      counts: [
+        { num: 1, kanji: '一時間', reading: 'いちじかん', romaji: 'ichijikan', shift: false },
+        { num: 2, kanji: '二時間', reading: 'にじかん', romaji: 'nijikan', shift: false },
+        { num: 3, kanji: '三時間', reading: 'さんじかん', romaji: 'sanjikan', shift: false },
+        { num: 4, kanji: '四時間', reading: 'よじかん', romaji: 'yojikan', shift: true },
+        { num: 5, kanji: '五時間', reading: 'ごじかん', romaji: 'gojikan', shift: false },
+        { num: 6, kanji: '六時間', reading: 'ろくじかん', romaji: 'rokujikan', shift: false },
+        { num: 7, kanji: '七時間', reading: 'しちじかん / ななじかん', romaji: 'shichijikan / nanajikan', shift: false },
+        { num: 8, kanji: '八時間', reading: 'はちじかん', romaji: 'hachijikan', shift: false },
+        { num: 9, kanji: '九時間', reading: 'くじかん', romaji: 'kujikan', shift: true },
+        { num: 10, kanji: '十時間', reading: 'じゅうじかん', romaji: 'jūjikan', shift: false }
+      ],
+      specialCounts: [
+        { num: 24, kanji: '二十四時間', reading: 'にじゅうよじかん', romaji: 'nijūyojikan', note: '24 Stunden = ein ganzer Tag' }
+      ],
+      examples: [
+        { japanese: '毎日八時間寝ています。', romaji: 'Mainichi hachijikan nete imasu.', german: 'Ich schlafe jeden Tag acht Stunden.' },
+        { japanese: '東京から大阪まで二時間半かかります。', romaji: 'Tōkyō kara Ōsaka made nijikan han kakarimasu.', german: 'Von Tokyo nach Osaka dauert es zweieinhalb Stunden.' }
+      ],
+      notes: '4時間 = よじかん (nicht よんじかん), 9時間 = くじかん (nicht きゅうじかん). Gleiche Ausnahmen wie bei der Uhrzeit (時).'
+    },
+    {
+      id: 'gatsu',
+      kanji: '月',
+      reading: 'がつ',
+      romaji: 'gatsu',
+      meaning: 'Monate (Monatsnamen)',
+      usage: 'Monatsnamen (Januar bis Dezember)',
+      category: 'Zeit',
+      level: 'N5',
+      questionWord: { kanji: '何月', reading: 'なんがつ', romaji: 'nangatsu' },
+      counts: [
+        { num: 1, kanji: '一月', reading: 'いちがつ', romaji: 'ichigatsu', shift: false },
+        { num: 2, kanji: '二月', reading: 'にがつ', romaji: 'nigatsu', shift: false },
+        { num: 3, kanji: '三月', reading: 'さんがつ', romaji: 'sangatsu', shift: false },
+        { num: 4, kanji: '四月', reading: 'しがつ', romaji: 'shigatsu', shift: true },
+        { num: 5, kanji: '五月', reading: 'ごがつ', romaji: 'gogatsu', shift: false },
+        { num: 6, kanji: '六月', reading: 'ろくがつ', romaji: 'rokugatsu', shift: false },
+        { num: 7, kanji: '七月', reading: 'しちがつ', romaji: 'shichigatsu', shift: true },
+        { num: 8, kanji: '八月', reading: 'はちがつ', romaji: 'hachigatsu', shift: false },
+        { num: 9, kanji: '九月', reading: 'くがつ', romaji: 'kugatsu', shift: true },
+        { num: 10, kanji: '十月', reading: 'じゅうがつ', romaji: 'jūgatsu', shift: false }
+      ],
+      specialCounts: [
+        { num: 11, kanji: '十一月', reading: 'じゅういちがつ', romaji: 'jūichigatsu', note: 'November' },
+        { num: 12, kanji: '十二月', reading: 'じゅうにがつ', romaji: 'jūnigatsu', note: 'Dezember' }
+      ],
+      examples: [
+        { japanese: '桜は三月か四月に咲きます。', romaji: 'Sakura wa sangatsu ka shigatsu ni sakimasu.', german: 'Kirschblüten blühen im März oder April.' },
+        { japanese: '日本では四月が新学期です。', romaji: 'Nihon de wa shigatsu ga shingakki desu.', german: 'In Japan beginnt das neue Schuljahr im April.' }
+      ],
+      notes: '4月 = しがつ (nicht よんがつ), 7月 = しちがつ (nicht なながつ), 9月 = くがつ (nicht きゅうがつ). Nicht verwechseln mit ヶ月 (かげつ) = Dauer in Monaten!'
+    },
+
+    // ===== SPRACHE & SCHRIFT (Fortsetzung) =====
+    {
+      id: 'ku-verse',
+      kanji: '句',
+      reading: 'く',
+      romaji: 'ku',
+      meaning: 'Verse, Phrasen',
+      usage: 'Haiku, Senryū, Redewendungen, Phrasen',
+      category: 'Sprache & Schrift',
+      level: 'N2',
+      questionWord: { kanji: '何句', reading: 'なんく', romaji: 'nanku' },
+      counts: [
+        { num: 1, kanji: '一句', reading: 'いっく', romaji: 'ikku', shift: true },
+        { num: 2, kanji: '二句', reading: 'にく', romaji: 'niku', shift: false },
+        { num: 3, kanji: '三句', reading: 'さんく', romaji: 'sanku', shift: false },
+        { num: 4, kanji: '四句', reading: 'よんく', romaji: 'yonku', shift: false },
+        { num: 5, kanji: '五句', reading: 'ごく', romaji: 'goku', shift: false },
+        { num: 6, kanji: '六句', reading: 'ろっく', romaji: 'rokku', shift: true },
+        { num: 7, kanji: '七句', reading: 'ななく', romaji: 'nanaku', shift: false },
+        { num: 8, kanji: '八句', reading: 'はっく', romaji: 'hakku', shift: true },
+        { num: 9, kanji: '九句', reading: 'きゅうく', romaji: 'kyūku', shift: false },
+        { num: 10, kanji: '十句', reading: 'じゅっく', romaji: 'jukku', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '松尾芭蕉の俳句を三句暗記しました。', romaji: 'Matsuo Bashō no haiku o sanku anki shimashita.', german: 'Ich habe drei Haiku von Matsuo Bashō auswendig gelernt.' },
+        { japanese: '一句詠んでみてください。', romaji: 'Ikku yonde mite kudasai.', german: 'Versuchen Sie, einen Vers zu dichten.' }
+      ],
+      notes: '俳句 (はいく) = Haiku enthält das Kanji 句. Wird für japanische Kurzgedichte und Redewendungen verwendet.'
+    },
+    // ===== NATUR (Fortsetzung) =====
+    // ===== EREIGNISSE (Fortsetzung) =====
+    {
+      id: 'kyoku-game',
+      kanji: '局',
+      reading: 'きょく',
+      romaji: 'kyoku',
+      meaning: 'Spielpartien',
+      usage: 'Partien (Shōgi, Go, Schach)',
+      category: 'Ereignisse',
+      level: 'N2',
+      questionWord: { kanji: '何局', reading: 'なんきょく', romaji: 'nankyoku' },
+      counts: [
+        { num: 1, kanji: '一局', reading: 'いっきょく', romaji: 'ikkyoku', shift: true },
+        { num: 2, kanji: '二局', reading: 'にきょく', romaji: 'nikyoku', shift: false },
+        { num: 3, kanji: '三局', reading: 'さんきょく', romaji: 'sankyoku', shift: false },
+        { num: 4, kanji: '四局', reading: 'よんきょく', romaji: 'yonkyoku', shift: false },
+        { num: 5, kanji: '五局', reading: 'ごきょく', romaji: 'gokyoku', shift: false },
+        { num: 6, kanji: '六局', reading: 'ろっきょく', romaji: 'rokkyoku', shift: true },
+        { num: 7, kanji: '七局', reading: 'ななきょく', romaji: 'nanakyoku', shift: false },
+        { num: 8, kanji: '八局', reading: 'はっきょく', romaji: 'hakkyoku', shift: true },
+        { num: 9, kanji: '九局', reading: 'きゅうきょく', romaji: 'kyūkyoku', shift: false },
+        { num: 10, kanji: '十局', reading: 'じゅっきょく', romaji: 'jukkyoku', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '将棋を三局指しました。', romaji: 'Shōgi o sankyoku sashimashita.', german: 'Ich habe drei Partien Shōgi gespielt.' },
+        { japanese: '七番勝負の第五局です。', romaji: 'Nanaban shōbu no daigokyoku desu.', german: 'Es ist die fünfte Partie eines Sieben-Spiele-Matches.' }
+      ],
+      notes: 'Wird hauptsächlich für Brettspiele wie Shōgi und Go verwendet. 局 bedeutet auch „Amt/Büro" (郵便局 = Postamt).'
+    },
+    {
+      id: 'ten-trial',
+      kanji: '戦',
+      reading: 'せん',
+      romaji: 'sen',
+      meaning: 'Wettkämpfe, Spiele',
+      usage: 'Sportspiele, Wettkämpfe, Matches',
+      category: 'Ereignisse',
+      level: 'N3',
+      questionWord: { kanji: '何戦', reading: 'なんせん', romaji: 'nansen' },
+      counts: [
+        { num: 1, kanji: '一戦', reading: 'いっせん', romaji: 'issen', shift: true },
+        { num: 2, kanji: '二戦', reading: 'にせん', romaji: 'nisen', shift: false },
+        { num: 3, kanji: '三戦', reading: 'さんせん', romaji: 'sansen', shift: false },
+        { num: 4, kanji: '四戦', reading: 'よんせん', romaji: 'yonsen', shift: false },
+        { num: 5, kanji: '五戦', reading: 'ごせん', romaji: 'gosen', shift: false },
+        { num: 6, kanji: '六戦', reading: 'ろくせん', romaji: 'rokusen', shift: false },
+        { num: 7, kanji: '七戦', reading: 'ななせん', romaji: 'nanasen', shift: false },
+        { num: 8, kanji: '八戦', reading: 'はっせん', romaji: 'hassen', shift: true },
+        { num: 9, kanji: '九戦', reading: 'きゅうせん', romaji: 'kyūsen', shift: false },
+        { num: 10, kanji: '十戦', reading: 'じゅっせん', romaji: 'jussen', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '今シーズンは十戦して七勝しました。', romaji: 'Kon shīzun wa jussen shite nanashō shimashita.', german: 'Diese Saison habe ich zehn Spiele bestritten und sieben gewonnen.' },
+        { japanese: '初戦に勝ちました。', romaji: 'Shosen ni kachimashita.', german: 'Ich habe das erste Spiel gewonnen.' }
+      ],
+      notes: '初戦 (しょせん) = erstes Spiel, 決勝戦 (けっしょうせん) = Finale. Häufig in Sportnachrichten verwendet.'
+    },
+    // ===== GRUPPEN & MENGEN (Fortsetzung) =====
+    {
+      id: 'go-pair',
+      kanji: '合',
+      reading: 'ごう',
+      romaji: 'gō',
+      meaning: 'Hohlmaß, Reisportionen',
+      usage: 'Reis (1合 ≈ 180ml), Sake, traditionelles japanisches Hohlmaß',
+      category: 'Essen & Trinken',
+      level: 'N4',
+      questionWord: { kanji: '何合', reading: 'なんごう', romaji: 'nangō' },
+      counts: [
+        { num: 1, kanji: '一合', reading: 'いちごう', romaji: 'ichigō', shift: false },
+        { num: 2, kanji: '二合', reading: 'にごう', romaji: 'nigō', shift: false },
+        { num: 3, kanji: '三合', reading: 'さんごう', romaji: 'sangō', shift: false },
+        { num: 4, kanji: '四合', reading: 'よんごう', romaji: 'yongō', shift: false },
+        { num: 5, kanji: '五合', reading: 'ごごう', romaji: 'gogō', shift: false },
+        { num: 6, kanji: '六合', reading: 'ろくごう', romaji: 'rokugō', shift: false },
+        { num: 7, kanji: '七合', reading: 'ななごう', romaji: 'nanagō', shift: false },
+        { num: 8, kanji: '八合', reading: 'はちごう', romaji: 'hachigō', shift: false },
+        { num: 9, kanji: '九合', reading: 'きゅうごう', romaji: 'kyūgō', shift: false },
+        { num: 10, kanji: '十合', reading: 'じゅうごう', romaji: 'jūgō', shift: false }
+      ],
+      specialCounts: [
+        { num: 5, kanji: '五合目', reading: 'ごごうめ', romaji: 'gogōme', note: 'Fünfte Station (z.B. beim Fuji-Aufstieg)' }
+      ],
+      examples: [
+        { japanese: 'ご飯を三合炊きました。', romaji: 'Gohan o sangō takimashita.', german: 'Ich habe drei Portionen Reis gekocht.' },
+        { japanese: '富士山の五合目まで行きました。', romaji: 'Fujisan no gogōme made ikimashita.', german: 'Ich bin bis zur fünften Station des Fuji gegangen.' }
+      ],
+      notes: '1合 ≈ 180ml. Bei der Bergbesteigung des Fuji markiert 合 die Stationen von 一合目 bis 十合目 (Gipfel). 一升 (いっしょう) = 10合.'
+    },
+    {
+      id: 'hai-double',
+      kanji: '倍',
+      reading: 'ばい',
+      romaji: 'bai',
+      meaning: 'Faches, Vielfaches',
+      usage: 'Multiplikationen, Vergleiche (doppelt, dreifach usw.)',
+      category: 'Gruppen & Mengen',
+      level: 'N3',
+      questionWord: { kanji: '何倍', reading: 'なんばい', romaji: 'nanbai' },
+      counts: [
+        { num: 1, kanji: '一倍', reading: 'いちばい', romaji: 'ichibai', shift: false },
+        { num: 2, kanji: '二倍', reading: 'にばい', romaji: 'nibai', shift: false },
+        { num: 3, kanji: '三倍', reading: 'さんばい', romaji: 'sanbai', shift: false },
+        { num: 4, kanji: '四倍', reading: 'よんばい', romaji: 'yonbai', shift: false },
+        { num: 5, kanji: '五倍', reading: 'ごばい', romaji: 'gobai', shift: false },
+        { num: 6, kanji: '六倍', reading: 'ろくばい', romaji: 'rokubai', shift: false },
+        { num: 7, kanji: '七倍', reading: 'ななばい', romaji: 'nanabai', shift: false },
+        { num: 8, kanji: '八倍', reading: 'はちばい', romaji: 'hachibai', shift: false },
+        { num: 9, kanji: '九倍', reading: 'きゅうばい', romaji: 'kyūbai', shift: false },
+        { num: 10, kanji: '十倍', reading: 'じゅうばい', romaji: 'jūbai', shift: false }
+      ],
+      specialCounts: [
+        { num: 100, kanji: '百倍', reading: 'ひゃくばい', romaji: 'hyakubai', note: 'Hundertfach' }
+      ],
+      examples: [
+        { japanese: '東京の家賃は田舎の三倍です。', romaji: 'Tōkyō no yachin wa inaka no sanbai desu.', german: 'Die Miete in Tokyo ist dreimal so hoch wie auf dem Land.' },
+        { japanese: '二倍の量を注文しました。', romaji: 'Nibai no ryō o chūmon shimashita.', german: 'Ich habe die doppelte Menge bestellt.' }
+      ],
+      notes: 'Keine Lautverschiebungen. Sehr häufig im Alltag: 二倍 = doppelt, 三倍 = dreifach. 人一倍 (ひといちばい) = „mehr als andere".'
+    },
+
+    // ===== OBJEKTE (Fortsetzung) =====
+    {
+      id: 'cho-long',
+      kanji: '丁目',
+      reading: 'ちょうめ',
+      romaji: 'chōme',
+      meaning: 'Straßenblock (Adresse)',
+      usage: 'Stadtblöcke in japanischen Adressen',
+      category: 'Gebäude & Räume',
+      level: 'N4',
+      questionWord: { kanji: '何丁目', reading: 'なんちょうめ', romaji: 'nanchōme' },
+      counts: [
+        { num: 1, kanji: '一丁目', reading: 'いっちょうめ', romaji: 'itchōme', shift: true },
+        { num: 2, kanji: '二丁目', reading: 'にちょうめ', romaji: 'nichōme', shift: false },
+        { num: 3, kanji: '三丁目', reading: 'さんちょうめ', romaji: 'sanchōme', shift: false },
+        { num: 4, kanji: '四丁目', reading: 'よんちょうめ', romaji: 'yonchōme', shift: false },
+        { num: 5, kanji: '五丁目', reading: 'ごちょうめ', romaji: 'gochōme', shift: false },
+        { num: 6, kanji: '六丁目', reading: 'ろくちょうめ', romaji: 'rokuchōme', shift: false },
+        { num: 7, kanji: '七丁目', reading: 'ななちょうめ', romaji: 'nanachōme', shift: false },
+        { num: 8, kanji: '八丁目', reading: 'はっちょうめ', romaji: 'hatchōme', shift: true },
+        { num: 9, kanji: '九丁目', reading: 'きゅうちょうめ', romaji: 'kyūchōme', shift: false },
+        { num: 10, kanji: '十丁目', reading: 'じゅっちょうめ', romaji: 'jutchōme', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '住所は新宿区歌舞伎町一丁目です。', romaji: 'Jūsho wa Shinjuku-ku Kabukichō itchōme desu.', german: 'Die Adresse ist Kabukichō 1-chōme, Bezirk Shinjuku.' },
+        { japanese: '三丁目の角にコンビニがあります。', romaji: 'Sanchōme no kado ni konbini ga arimasu.', german: 'An der Ecke des dritten Blocks gibt es einen Konbini.' }
+      ],
+      notes: 'Teil des japanischen Adresssystems: 区 (く) → 町 (まち/ちょう) → 丁目 → 番地. „三丁目の夕日" ist ein berühmter japanischer Film.'
+    },
+    // ===== MEDIZIN (Fortsetzung) =====
+    // ===== MENSCHEN (Fortsetzung) =====
+    // ===== GEBÄUDE & RÄUME (Fortsetzung) =====
+    {
+      id: 'ko-door',
+      kanji: '戸',
+      reading: 'こ',
+      romaji: 'ko',
+      meaning: 'Wohneinheiten',
+      usage: 'Wohnungen, Häuser (in Statistiken und Immobilien)',
+      category: 'Gebäude & Räume',
+      level: 'N2',
+      questionWord: { kanji: '何戸', reading: 'なんこ', romaji: 'nanko' },
+      counts: [
+        { num: 1, kanji: '一戸', reading: 'いっこ', romaji: 'ikko', shift: true },
+        { num: 2, kanji: '二戸', reading: 'にこ', romaji: 'niko', shift: false },
+        { num: 3, kanji: '三戸', reading: 'さんこ', romaji: 'sanko', shift: false },
+        { num: 4, kanji: '四戸', reading: 'よんこ', romaji: 'yonko', shift: false },
+        { num: 5, kanji: '五戸', reading: 'ごこ', romaji: 'goko', shift: false },
+        { num: 6, kanji: '六戸', reading: 'ろっこ', romaji: 'rokko', shift: true },
+        { num: 7, kanji: '七戸', reading: 'ななこ', romaji: 'nanako', shift: false },
+        { num: 8, kanji: '八戸', reading: 'はっこ', romaji: 'hakko', shift: true },
+        { num: 9, kanji: '九戸', reading: 'きゅうこ', romaji: 'kyūko', shift: false },
+        { num: 10, kanji: '十戸', reading: 'じゅっこ', romaji: 'jukko', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '台風で五十戸が停電しました。', romaji: 'Taifū de gojukko ga teiden shimashita.', german: 'Durch den Taifun hatten fünfzig Haushalte Stromausfall.' },
+        { japanese: '一戸建てに住みたいです。', romaji: 'Ikkodate ni sumitai desu.', german: 'Ich möchte in einem Einfamilienhaus wohnen.' }
+      ],
+      notes: '一戸建て (いっこだて) = Einfamilienhaus ist ein sehr häufiger Ausdruck. Wird in Nachrichten und Statistiken für Wohneinheiten verwendet.'
+    },
+
+    // ===== OBJEKTE (Fortsetzung) =====
+    // ===== ESSEN & TRINKEN (Fortsetzung) =====
+    {
+      id: 'kan-roll',
+      kanji: '貫',
+      reading: 'かん',
+      romaji: 'kan',
+      meaning: 'Sushi-Stücke',
+      usage: 'Stücke von Nigiri-Sushi',
+      category: 'Essen & Trinken',
+      level: 'N3',
+      questionWord: { kanji: '何貫', reading: 'なんかん', romaji: 'nankan' },
+      counts: [
+        { num: 1, kanji: '一貫', reading: 'いっかん', romaji: 'ikkan', shift: true },
+        { num: 2, kanji: '二貫', reading: 'にかん', romaji: 'nikan', shift: false },
+        { num: 3, kanji: '三貫', reading: 'さんかん', romaji: 'sankan', shift: false },
+        { num: 4, kanji: '四貫', reading: 'よんかん', romaji: 'yonkan', shift: false },
+        { num: 5, kanji: '五貫', reading: 'ごかん', romaji: 'gokan', shift: false },
+        { num: 6, kanji: '六貫', reading: 'ろっかん', romaji: 'rokkan', shift: true },
+        { num: 7, kanji: '七貫', reading: 'ななかん', romaji: 'nanakan', shift: false },
+        { num: 8, kanji: '八貫', reading: 'はっかん', romaji: 'hakkan', shift: true },
+        { num: 9, kanji: '九貫', reading: 'きゅうかん', romaji: 'kyūkan', shift: false },
+        { num: 10, kanji: '十貫', reading: 'じゅっかん', romaji: 'jukkan', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'マグロを二貫ください。', romaji: 'Maguro o nikan kudasai.', german: 'Zwei Stück Thunfisch-Sushi, bitte.' },
+        { japanese: '今日は十貫も食べました。', romaji: 'Kyō wa jukkan mo tabemashita.', german: 'Heute habe ich ganze zehn Stück Sushi gegessen.' }
+      ],
+      notes: 'Wird speziell für Nigiri-Sushi verwendet. In Sushi-Restaurants wird oft in Paaren bestellt (二貫 = ein Paar).'
+    },
+    // ===== ZEIT (Fortsetzung) =====
+    {
+      id: 'ki-season',
+      kanji: '期',
+      reading: 'き',
+      romaji: 'ki',
+      meaning: 'Perioden, Staffeln',
+      usage: 'Geschäftsquartale, Anime-Staffeln, Amtsperioden',
+      category: 'Zeit',
+      level: 'N3',
+      questionWord: { kanji: '何期', reading: 'なんき', romaji: 'nanki' },
+      counts: [
+        { num: 1, kanji: '一期', reading: 'いっき', romaji: 'ikki', shift: true },
+        { num: 2, kanji: '二期', reading: 'にき', romaji: 'niki', shift: false },
+        { num: 3, kanji: '三期', reading: 'さんき', romaji: 'sanki', shift: false },
+        { num: 4, kanji: '四期', reading: 'よんき', romaji: 'yonki', shift: false },
+        { num: 5, kanji: '五期', reading: 'ごき', romaji: 'goki', shift: false },
+        { num: 6, kanji: '六期', reading: 'ろっき', romaji: 'rokki', shift: true },
+        { num: 7, kanji: '七期', reading: 'ななき', romaji: 'nanaki', shift: false },
+        { num: 8, kanji: '八期', reading: 'はっき', romaji: 'hakki', shift: true },
+        { num: 9, kanji: '九期', reading: 'きゅうき', romaji: 'kyūki', shift: false },
+        { num: 10, kanji: '十期', reading: 'じゅっき', romaji: 'jukki', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'このアニメの二期が始まりました。', romaji: 'Kono anime no niki ga hajimarimashita.', german: 'Die zweite Staffel dieses Anime hat begonnen.' },
+        { japanese: '社長は三期目に入りました。', romaji: 'Shachō wa sankime ni hairimashita.', german: 'Der Firmenchef ist in seine dritte Amtszeit eingetreten.' }
+      ],
+      notes: 'Häufig für Anime-Staffeln und Geschäftsperioden verwendet. 一期一会 (いちごいちえ) = „einmalige Begegnung" (berühmtes japanisches Konzept).'
+    },
+    // ===== TIERE (Fortsetzung) =====
+    // ===== TRANSPORT (Fortsetzung) =====
+    {
+      id: 'sen-line',
+      kanji: '線',
+      reading: 'せん',
+      romaji: 'sen',
+      meaning: 'Linien, Bahnlinien',
+      usage: 'Zuglinien, Bahnlinien, Straßen',
+      category: 'Transport',
+      level: 'N4',
+      questionWord: { kanji: '何線', reading: 'なんせん', romaji: 'nansen' },
+      counts: [
+        { num: 1, kanji: '一線', reading: 'いっせん', romaji: 'issen', shift: true },
+        { num: 2, kanji: '二線', reading: 'にせん', romaji: 'nisen', shift: false },
+        { num: 3, kanji: '三線', reading: 'さんせん', romaji: 'sansen', shift: false },
+        { num: 4, kanji: '四線', reading: 'よんせん', romaji: 'yonsen', shift: false },
+        { num: 5, kanji: '五線', reading: 'ごせん', romaji: 'gosen', shift: false },
+        { num: 6, kanji: '六線', reading: 'ろくせん', romaji: 'rokusen', shift: false },
+        { num: 7, kanji: '七線', reading: 'ななせん', romaji: 'nanasen', shift: false },
+        { num: 8, kanji: '八線', reading: 'はっせん', romaji: 'hassen', shift: true },
+        { num: 9, kanji: '九線', reading: 'きゅうせん', romaji: 'kyūsen', shift: false },
+        { num: 10, kanji: '十線', reading: 'じゅっせん', romaji: 'jussen', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '東京駅は何線も通っています。', romaji: 'Tōkyō-eki wa nansen mo tōtte imasu.', german: 'Durch den Bahnhof Tokyo laufen viele Linien.' },
+        { japanese: '山手線に乗り換えてください。', romaji: 'Yamanote-sen ni norikaete kudasai.', german: 'Bitte steigen Sie in die Yamanote-Linie um.' }
+      ],
+      notes: 'Wird für Zug- und U-Bahnlinien verwendet. Berühmte Linien: 山手線 (やまのてせん), 中央線 (ちゅうおうせん), 東海道線 (とうかいどうせん).'
+    },
+    {
+      id: 'eki',
+      kanji: '駅',
+      reading: 'えき',
+      romaji: 'eki',
+      meaning: 'Bahnhöfe, Haltestellen',
+      usage: 'Bahnhöfe, Stationen auf einer Strecke',
+      category: 'Transport',
+      level: 'N4',
+      questionWord: { kanji: '何駅', reading: 'なんえき', romaji: 'nan\'eki' },
+      counts: [
+        { num: 1, kanji: '一駅', reading: 'ひとえき', romaji: 'hitoeki', shift: true },
+        { num: 2, kanji: '二駅', reading: 'ふたえき', romaji: 'futaeki', shift: true },
+        { num: 3, kanji: '三駅', reading: 'さんえき', romaji: 'san\'eki', shift: false },
+        { num: 4, kanji: '四駅', reading: 'よんえき', romaji: 'yon\'eki', shift: false },
+        { num: 5, kanji: '五駅', reading: 'ごえき', romaji: 'goeki', shift: false },
+        { num: 6, kanji: '六駅', reading: 'ろくえき', romaji: 'rokueki', shift: false },
+        { num: 7, kanji: '七駅', reading: 'ななえき', romaji: 'nanaeki', shift: false },
+        { num: 8, kanji: '八駅', reading: 'はちえき', romaji: 'hachieki', shift: false },
+        { num: 9, kanji: '九駅', reading: 'きゅうえき', romaji: 'kyūeki', shift: false },
+        { num: 10, kanji: '十駅', reading: 'じゅうえき', romaji: 'jūeki', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'ここから三駅です。', romaji: 'Koko kara san\'eki desu.', german: 'Von hier sind es drei Stationen.' },
+        { japanese: '一駅歩きましょう。', romaji: 'Hitoeki arukimashō.', german: 'Lass uns eine Station zu Fuß gehen.' }
+      ],
+      notes: '1 und 2 verwenden die kun-Lesungen ひとえき und ふたえき. Sehr nützlich bei der Navigation im japanischen Bahnsystem.'
+    },
+
+    // ===== TIERE (Fortsetzung) =====
+    {
+      id: 'sou-boat',
+      kanji: '艘',
+      reading: 'そう',
+      romaji: 'sō',
+      meaning: 'Kleine Boote',
+      usage: 'Ruderboote, Kanus, kleine Boote',
+      category: 'Transport',
+      level: 'N1',
+      questionWord: { kanji: '何艘', reading: 'なんそう', romaji: 'nansō' },
+      counts: [
+        { num: 1, kanji: '一艘', reading: 'いっそう', romaji: 'issō', shift: true },
+        { num: 2, kanji: '二艘', reading: 'にそう', romaji: 'nisō', shift: false },
+        { num: 3, kanji: '三艘', reading: 'さんそう', romaji: 'sansō', shift: false },
+        { num: 4, kanji: '四艘', reading: 'よんそう', romaji: 'yonsō', shift: false },
+        { num: 5, kanji: '五艘', reading: 'ごそう', romaji: 'gosō', shift: false },
+        { num: 6, kanji: '六艘', reading: 'ろくそう', romaji: 'rokusō', shift: false },
+        { num: 7, kanji: '七艘', reading: 'ななそう', romaji: 'nanasō', shift: false },
+        { num: 8, kanji: '八艘', reading: 'はっそう', romaji: 'hassō', shift: true },
+        { num: 9, kanji: '九艘', reading: 'きゅうそう', romaji: 'kyūsō', shift: false },
+        { num: 10, kanji: '十艘', reading: 'じゅっそう', romaji: 'jussō', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '湖にボートが二艘浮かんでいます。', romaji: 'Mizuumi ni bōto ga nisō ukande imasu.', german: 'Auf dem See schwimmen zwei Boote.' },
+        { japanese: '一艘の小舟で川を渡りました。', romaji: 'Issō no kobune de kawa o watarimashita.', german: 'Wir überquerten den Fluss mit einem kleinen Boot.' }
+      ],
+      notes: 'Wird eher literarisch oder in der Seefahrt für kleine Boote verwendet. In der Alltagssprache wird oft 隻 für alle Schiffstypen benutzt.'
+    },
+    // ===== SPRACHE & SCHRIFT (Fortsetzung) =====
+    {
+      id: 'hen-stories',
+      kanji: '編',
+      reading: 'へん',
+      romaji: 'hen',
+      meaning: 'Erzählungen, Teile',
+      usage: 'Erzählungen, Teile eines Werks (前編 = erster Teil, 後編 = zweiter Teil)',
+      category: 'Sprache & Schrift',
+      level: 'N2',
+      questionWord: { kanji: '何編', reading: 'なんへん', romaji: 'nanhen' },
+      counts: [
+        { num: 1, kanji: '一編', reading: 'いっぺん', romaji: 'ippen', shift: true },
+        { num: 2, kanji: '二編', reading: 'にへん', romaji: 'nihen', shift: false },
+        { num: 3, kanji: '三編', reading: 'さんべん', romaji: 'sanben', shift: true },
+        { num: 4, kanji: '四編', reading: 'よんへん', romaji: 'yonhen', shift: false },
+        { num: 5, kanji: '五編', reading: 'ごへん', romaji: 'gohen', shift: false },
+        { num: 6, kanji: '六編', reading: 'ろっぺん', romaji: 'roppen', shift: true },
+        { num: 7, kanji: '七編', reading: 'ななへん', romaji: 'nanahen', shift: false },
+        { num: 8, kanji: '八編', reading: 'はっぺん', romaji: 'happen', shift: true },
+        { num: 9, kanji: '九編', reading: 'きゅうへん', romaji: 'kyūhen', shift: false },
+        { num: 10, kanji: '十編', reading: 'じゅっぺん', romaji: 'juppen', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '短編小説を三編読みました。', romaji: 'Tanpen shōsetsu o sanben yomimashita.', german: 'Ich habe drei Kurzgeschichten gelesen.' },
+        { japanese: 'この映画は前編と後編に分かれています。', romaji: 'Kono eiga wa zenpen to kōhen ni wakarete imasu.', german: 'Dieser Film ist in zwei Teile aufgeteilt.' }
+      ],
+      notes: '前編 (ぜんぺん) = erster Teil, 後編 (こうへん) = zweiter Teil, 短編 (たんぺん) = Kurzgeschichte, 長編 (ちょうへん) = Roman/Langfassung.'
+    },
+    {
+      id: 'setsu-verse',
+      kanji: '節',
+      reading: 'せつ',
+      romaji: 'setsu',
+      meaning: 'Abschnitte, Strophen',
+      usage: 'Liedstrophen, Textabschnitte, Spieltage (Sport)',
+      category: 'Sprache & Schrift',
+      level: 'N2',
+      questionWord: { kanji: '何節', reading: 'なんせつ', romaji: 'nansetsu' },
+      counts: [
+        { num: 1, kanji: '一節', reading: 'いっせつ', romaji: 'issetsu', shift: true },
+        { num: 2, kanji: '二節', reading: 'にせつ', romaji: 'nisetsu', shift: false },
+        { num: 3, kanji: '三節', reading: 'さんせつ', romaji: 'sansetsu', shift: false },
+        { num: 4, kanji: '四節', reading: 'よんせつ', romaji: 'yonsetsu', shift: false },
+        { num: 5, kanji: '五節', reading: 'ごせつ', romaji: 'gosetsu', shift: false },
+        { num: 6, kanji: '六節', reading: 'ろくせつ', romaji: 'rokusetsu', shift: false },
+        { num: 7, kanji: '七節', reading: 'ななせつ', romaji: 'nanasetsu', shift: false },
+        { num: 8, kanji: '八節', reading: 'はっせつ', romaji: 'hassetsu', shift: true },
+        { num: 9, kanji: '九節', reading: 'きゅうせつ', romaji: 'kyūsetsu', shift: false },
+        { num: 10, kanji: '十節', reading: 'じゅっせつ', romaji: 'jussetsu', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'この歌は三節あります。', romaji: 'Kono uta wa sansetsu arimasu.', german: 'Dieses Lied hat drei Strophen.' },
+        { japanese: '第二節を歌ってください。', romaji: 'Dainisetsu o utatte kudasai.', german: 'Bitte singen Sie die zweite Strophe.' }
+      ],
+      notes: 'Wird für Abschnitte in Texten, Strophen in Liedern und Paragraphen in akademischen Texten verwendet. Im Sport auch für Spieltage in einer Liga.'
+    },
+
+    // ===== MENSCHEN (Fortsetzung) =====
+    {
+      id: 'tai-body',
+      kanji: '体',
+      reading: 'たい',
+      romaji: 'tai',
+      meaning: 'Körper, Statuen',
+      usage: 'Buddhistische Statuen, Puppen, Roboter, Leichname',
+      category: 'Menschen',
+      level: 'N1',
+      questionWord: { kanji: '何体', reading: 'なんたい', romaji: 'nantai' },
+      counts: [
+        { num: 1, kanji: '一体', reading: 'いったい', romaji: 'ittai', shift: true },
+        { num: 2, kanji: '二体', reading: 'にたい', romaji: 'nitai', shift: false },
+        { num: 3, kanji: '三体', reading: 'さんたい', romaji: 'santai', shift: false },
+        { num: 4, kanji: '四体', reading: 'よんたい', romaji: 'yontai', shift: false },
+        { num: 5, kanji: '五体', reading: 'ごたい', romaji: 'gotai', shift: false },
+        { num: 6, kanji: '六体', reading: 'ろくたい', romaji: 'rokutai', shift: false },
+        { num: 7, kanji: '七体', reading: 'ななたい', romaji: 'nanatai', shift: false },
+        { num: 8, kanji: '八体', reading: 'はったい', romaji: 'hattai', shift: true },
+        { num: 9, kanji: '九体', reading: 'きゅうたい', romaji: 'kyūtai', shift: false },
+        { num: 10, kanji: '十体', reading: 'じゅったい', romaji: 'juttai', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'この寺には仏像が三体あります。', romaji: 'Kono tera ni wa butsuzō ga santai arimasu.', german: 'In diesem Tempel gibt es drei Buddha-Statuen.' },
+        { japanese: 'ロボットが二体展示されています。', romaji: 'Robotto ga nitai tenji sarete imasu.', german: 'Zwei Roboter werden ausgestellt.' }
+      ],
+      notes: '一体 (いったい) wird auch als Adverb „überhaupt" verwendet: 一体何が起きたの？= Was ist überhaupt passiert? Wird für Statuen, Leichname und Roboter/Puppen verwendet.'
+    },
+
+    // ===== MEDIZIN (Fortsetzung) =====
+    {
+      id: 'fuku-dose',
+      kanji: '服',
+      reading: 'ふく',
+      romaji: 'fuku',
+      meaning: 'Dosen (Medizin)',
+      usage: 'Medikamentendosen, Einnahmen',
+      category: 'Medizin',
+      level: 'N2',
+      questionWord: { kanji: '何服', reading: 'なんぷく', romaji: 'nanpuku' },
+      counts: [
+        { num: 1, kanji: '一服', reading: 'いっぷく', romaji: 'ippuku', shift: true },
+        { num: 2, kanji: '二服', reading: 'にふく', romaji: 'nifuku', shift: false },
+        { num: 3, kanji: '三服', reading: 'さんぷく', romaji: 'sanpuku', shift: true },
+        { num: 4, kanji: '四服', reading: 'よんふく', romaji: 'yonfuku', shift: false },
+        { num: 5, kanji: '五服', reading: 'ごふく', romaji: 'gofuku', shift: false },
+        { num: 6, kanji: '六服', reading: 'ろっぷく', romaji: 'roppuku', shift: true },
+        { num: 7, kanji: '七服', reading: 'ななふく', romaji: 'nanafuku', shift: false },
+        { num: 8, kanji: '八服', reading: 'はっぷく', romaji: 'happuku', shift: true },
+        { num: 9, kanji: '九服', reading: 'きゅうふく', romaji: 'kyūfuku', shift: false },
+        { num: 10, kanji: '十服', reading: 'じゅっぷく', romaji: 'juppuku', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '漢方薬を一服飲みました。', romaji: 'Kanpōyaku o ippuku nomimashita.', german: 'Ich habe eine Dosis chinesische Medizin eingenommen.' },
+        { japanese: '一服して休憩しましょう。', romaji: 'Ippuku shite kyūkei shimashō.', german: 'Lass uns eine Pause machen.' }
+      ],
+      notes: '一服 (いっぷく) bedeutet auch umgangssprachlich „eine (Rauch-)Pause machen". Wird für pulverförmige oder pflanzliche Medikamente verwendet.'
+    },
+
+    // ===== NATUR (Fortsetzung) =====
+    {
+      id: 'za-peak',
+      kanji: '座',
+      reading: 'ざ',
+      romaji: 'za',
+      meaning: 'Berge, Sternbilder',
+      usage: 'Berge, Berggipfel, Sternbilder',
+      category: 'Natur',
+      level: 'N1',
+      questionWord: { kanji: '何座', reading: 'なんざ', romaji: 'nanza' },
+      counts: [
+        { num: 1, kanji: '一座', reading: 'いちざ', romaji: 'ichiza', shift: false },
+        { num: 2, kanji: '二座', reading: 'にざ', romaji: 'niza', shift: false },
+        { num: 3, kanji: '三座', reading: 'さんざ', romaji: 'sanza', shift: false },
+        { num: 4, kanji: '四座', reading: 'よんざ', romaji: 'yonza', shift: false },
+        { num: 5, kanji: '五座', reading: 'ござ', romaji: 'goza', shift: false },
+        { num: 6, kanji: '六座', reading: 'ろくざ', romaji: 'rokuza', shift: false },
+        { num: 7, kanji: '七座', reading: 'ななざ', romaji: 'nanaza', shift: false },
+        { num: 8, kanji: '八座', reading: 'はちざ', romaji: 'hachiza', shift: false },
+        { num: 9, kanji: '九座', reading: 'きゅうざ', romaji: 'kyūza', shift: false },
+        { num: 10, kanji: '十座', reading: 'じゅうざ', romaji: 'jūza', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '今年は三座に登りました。', romaji: 'Kotoshi wa sanza ni noborimashita.', german: 'Dieses Jahr habe ich drei Berge bestiegen.' },
+        { japanese: 'オリオン座が見えます。', romaji: 'Orion-za ga miemasu.', german: 'Man kann das Sternbild Orion sehen.' }
+      ],
+      notes: 'Keine Lautverschiebungen. 日本百名山 = 100 berühmte Berge Japans. Für Sternbilder: オリオン座, さそり座 usw.'
+    },
+
+    // ===== ZEIT (Fortsetzung) =====
+    {
+      id: 'ban-night',
+      kanji: '晩',
+      reading: 'ばん',
+      romaji: 'ban',
+      meaning: 'Nächte, Abende',
+      usage: 'Nächte (Dauer), Abende',
+      category: 'Zeit',
+      level: 'N4',
+      questionWord: { kanji: '何晩', reading: 'なんばん', romaji: 'nanban' },
+      counts: [
+        { num: 1, kanji: '一晩', reading: 'ひとばん', romaji: 'hitoban', shift: true },
+        { num: 2, kanji: '二晩', reading: 'ふたばん', romaji: 'futaban', shift: true },
+        { num: 3, kanji: '三晩', reading: 'さんばん', romaji: 'sanban', shift: false },
+        { num: 4, kanji: '四晩', reading: 'よんばん', romaji: 'yonban', shift: false },
+        { num: 5, kanji: '五晩', reading: 'ごばん', romaji: 'goban', shift: false },
+        { num: 6, kanji: '六晩', reading: 'ろくばん', romaji: 'rokuban', shift: false },
+        { num: 7, kanji: '七晩', reading: 'ななばん', romaji: 'nanaban', shift: false },
+        { num: 8, kanji: '八晩', reading: 'はちばん', romaji: 'hachiban', shift: false },
+        { num: 9, kanji: '九晩', reading: 'きゅうばん', romaji: 'kyūban', shift: false },
+        { num: 10, kanji: '十晩', reading: 'じゅうばん', romaji: 'jūban', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '一晩中勉強しました。', romaji: 'Hitobanjū benkyō shimashita.', german: 'Ich habe die ganze Nacht gelernt.' },
+        { japanese: '友達の家に二晩泊まりました。', romaji: 'Tomodachi no ie ni futaban tomarimashita.', german: 'Ich habe zwei Nächte bei meinem Freund übernachtet.' }
+      ],
+      notes: '1 und 2 verwenden die kun-Lesungen ひとばん und ふたばん. 一晩中 (ひとばんじゅう) = „die ganze Nacht hindurch".'
+    },
+
+    // ===== ESSEN & TRINKEN (Fortsetzung) =====
+    {
+      id: 'pak-pack',
+      kanji: 'パック',
+      reading: 'パック',
+      romaji: 'pakku',
+      meaning: 'Packungen',
+      usage: 'Milchpackungen, Saftpackungen, Fertigpackungen',
+      category: 'Essen & Trinken',
+      level: 'N4',
+      questionWord: { kanji: '何パック', reading: 'なんパック', romaji: 'nanpakku' },
+      counts: [
+        { num: 1, kanji: '一パック', reading: 'いちパック', romaji: 'ichipakku', shift: false },
+        { num: 2, kanji: '二パック', reading: 'にパック', romaji: 'nipakku', shift: false },
+        { num: 3, kanji: '三パック', reading: 'さんパック', romaji: 'sanpakku', shift: false },
+        { num: 4, kanji: '四パック', reading: 'よんパック', romaji: 'yonpakku', shift: false },
+        { num: 5, kanji: '五パック', reading: 'ごパック', romaji: 'gopakku', shift: false },
+        { num: 6, kanji: '六パック', reading: 'ろくパック', romaji: 'rokupakku', shift: false },
+        { num: 7, kanji: '七パック', reading: 'ななパック', romaji: 'nanapakku', shift: false },
+        { num: 8, kanji: '八パック', reading: 'はちパック', romaji: 'hachipakku', shift: false },
+        { num: 9, kanji: '九パック', reading: 'きゅうパック', romaji: 'kyūpakku', shift: false },
+        { num: 10, kanji: '十パック', reading: 'じゅうパック', romaji: 'jūpakku', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '牛乳を二パック買いました。', romaji: 'Gyūnyū o nipakku kaimashita.', german: 'Ich habe zwei Packungen Milch gekauft.' },
+        { japanese: '納豆は三パック入りです。', romaji: 'Nattō wa sanpakku iri desu.', german: 'Natto wird im Dreierpack verkauft.' }
+      ],
+      notes: 'Lehnwort aus dem Englischen „pack". Da es ein Katakana-Zählwort ist, gibt es keine Lautverschiebungen. Sehr häufig im Supermarkt.'
+    },
+
+    // ===== OBJEKTE (Fortsetzung) =====
+    {
+      id: 'men-face',
+      kanji: '面',
+      reading: 'めん',
+      romaji: 'men',
+      meaning: 'Flächen, Oberflächen',
+      usage: 'Spiegel, Tennisplätze, Zeitungsseiten, Wandflächen',
+      category: 'Objekte',
+      level: 'N2',
+      questionWord: { kanji: '何面', reading: 'なんめん', romaji: 'nanmen' },
+      counts: [
+        { num: 1, kanji: '一面', reading: 'いちめん', romaji: 'ichimen', shift: false },
+        { num: 2, kanji: '二面', reading: 'にめん', romaji: 'nimen', shift: false },
+        { num: 3, kanji: '三面', reading: 'さんめん', romaji: 'sanmen', shift: false },
+        { num: 4, kanji: '四面', reading: 'よんめん', romaji: 'yonmen', shift: false },
+        { num: 5, kanji: '五面', reading: 'ごめん', romaji: 'gomen', shift: false },
+        { num: 6, kanji: '六面', reading: 'ろくめん', romaji: 'rokumen', shift: false },
+        { num: 7, kanji: '七面', reading: 'ななめん', romaji: 'nanamen', shift: false },
+        { num: 8, kanji: '八面', reading: 'はちめん', romaji: 'hachimen', shift: false },
+        { num: 9, kanji: '九面', reading: 'きゅうめん', romaji: 'kyūmen', shift: false },
+        { num: 10, kanji: '十面', reading: 'じゅうめん', romaji: 'jūmen', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'テニスコートが三面あります。', romaji: 'Tenisu kōto ga sanmen arimasu.', german: 'Es gibt drei Tennisplätze.' },
+        { japanese: '新聞の一面に載りました。', romaji: 'Shinbun no ichimen ni norimashita.', german: 'Es stand auf der Titelseite der Zeitung.' }
+      ],
+      notes: 'Keine Lautverschiebungen. 一面 (いちめん) bedeutet auch „eine Seite" oder die Titelseite einer Zeitung.'
+    },
+
+    // ===== GRUPPEN & MENGEN (Fortsetzung) =====
+    {
+      id: 'sou-layer',
+      kanji: '層',
+      reading: 'そう',
+      romaji: 'sō',
+      meaning: 'Schichten, Ebenen',
+      usage: 'Schichten (Kuchen, Geologie), Bevölkerungsschichten',
+      category: 'Gruppen & Mengen',
+      level: 'N2',
+      questionWord: { kanji: '何層', reading: 'なんそう', romaji: 'nansō' },
+      counts: [
+        { num: 1, kanji: '一層', reading: 'いっそう', romaji: 'issō', shift: true },
+        { num: 2, kanji: '二層', reading: 'にそう', romaji: 'nisō', shift: false },
+        { num: 3, kanji: '三層', reading: 'さんそう', romaji: 'sansō', shift: false },
+        { num: 4, kanji: '四層', reading: 'よんそう', romaji: 'yonsō', shift: false },
+        { num: 5, kanji: '五層', reading: 'ごそう', romaji: 'gosō', shift: false },
+        { num: 6, kanji: '六層', reading: 'ろくそう', romaji: 'rokusō', shift: false },
+        { num: 7, kanji: '七層', reading: 'ななそう', romaji: 'nanasō', shift: false },
+        { num: 8, kanji: '八層', reading: 'はっそう', romaji: 'hassō', shift: true },
+        { num: 9, kanji: '九層', reading: 'きゅうそう', romaji: 'kyūsō', shift: false },
+        { num: 10, kanji: '十層', reading: 'じゅっそう', romaji: 'jussō', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '三層のケーキを焼きました。', romaji: 'Sansō no kēki o yakimashita.', german: 'Ich habe einen dreischichtigen Kuchen gebacken.' },
+        { japanese: '一層努力する必要があります。', romaji: 'Issō doryoku suru hitsuyō ga arimasu.', german: 'Es ist nötig, sich noch mehr anzustrengen.' }
+      ],
+      notes: '一層 (いっそう) wird auch als Adverb „noch mehr, umso mehr" verwendet.'
+    },
+
+    // ===== EREIGNISSE (Fortsetzung) =====
+    {
+      id: 'shiai',
+      kanji: '試合',
+      reading: 'しあい',
+      romaji: 'shiai',
+      meaning: 'Spiele, Matches',
+      usage: 'Sportspiele, Wettkämpfe',
+      category: 'Ereignisse',
+      level: 'N4',
+      questionWord: { kanji: '何試合', reading: 'なんしあい', romaji: 'nanshiai' },
+      counts: [
+        { num: 1, kanji: '一試合', reading: 'いちしあい', romaji: 'ichishiai', shift: false },
+        { num: 2, kanji: '二試合', reading: 'にしあい', romaji: 'nishiai', shift: false },
+        { num: 3, kanji: '三試合', reading: 'さんしあい', romaji: 'sanshiai', shift: false },
+        { num: 4, kanji: '四試合', reading: 'よんしあい', romaji: 'yonshiai', shift: false },
+        { num: 5, kanji: '五試合', reading: 'ごしあい', romaji: 'goshiai', shift: false },
+        { num: 6, kanji: '六試合', reading: 'ろくしあい', romaji: 'rokushiai', shift: false },
+        { num: 7, kanji: '七試合', reading: 'ななしあい', romaji: 'nanashiai', shift: false },
+        { num: 8, kanji: '八試合', reading: 'はちしあい', romaji: 'hachishiai', shift: false },
+        { num: 9, kanji: '九試合', reading: 'きゅうしあい', romaji: 'kyūshiai', shift: false },
+        { num: 10, kanji: '十試合', reading: 'じゅうしあい', romaji: 'jūshiai', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '今日は三試合あります。', romaji: 'Kyō wa sanshiai arimasu.', german: 'Heute gibt es drei Spiele.' },
+        { japanese: '一試合目は午前中です。', romaji: 'Ichishiai-me wa gozenchū desu.', german: 'Das erste Spiel ist vormittags.' }
+      ],
+      notes: 'Keine Lautverschiebungen. 試合 ist der allgemeine Ausdruck für Sportspiele im Japanischen.'
+    },
+
+    // ===== GEBÄUDE & RÄUME (Fortsetzung) =====
+    {
+      id: 'heya',
+      kanji: '部屋',
+      reading: 'へや',
+      romaji: 'heya',
+      meaning: 'Zimmer (informell)',
+      usage: 'Zimmer in Hotels, Wohnungen (informeller als 室)',
+      category: 'Gebäude & Räume',
+      level: 'N4',
+      questionWord: { kanji: '何部屋', reading: 'なんべや', romaji: 'nanbeya' },
+      counts: [
+        { num: 1, kanji: '一部屋', reading: 'ひとへや', romaji: 'hitoheya', shift: true },
+        { num: 2, kanji: '二部屋', reading: 'ふたへや', romaji: 'futaheya', shift: true },
+        { num: 3, kanji: '三部屋', reading: 'さんべや', romaji: 'sanbeya', shift: false },
+        { num: 4, kanji: '四部屋', reading: 'よんべや', romaji: 'yonbeya', shift: false },
+        { num: 5, kanji: '五部屋', reading: 'ごへや', romaji: 'goheya', shift: false },
+        { num: 6, kanji: '六部屋', reading: 'ろくへや', romaji: 'rokuheya', shift: false },
+        { num: 7, kanji: '七部屋', reading: 'ななへや', romaji: 'nanaheya', shift: false },
+        { num: 8, kanji: '八部屋', reading: 'はちへや', romaji: 'hachiheya', shift: false },
+        { num: 9, kanji: '九部屋', reading: 'きゅうへや', romaji: 'kyūheya', shift: false },
+        { num: 10, kanji: '十部屋', reading: 'じゅうへや', romaji: 'jūheya', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'このマンションは三部屋あります。', romaji: 'Kono manshon wa sanbeya arimasu.', german: 'Diese Wohnung hat drei Zimmer.' },
+        { japanese: '一部屋空いていますか。', romaji: 'Hitoheya aite imasu ka.', german: 'Ist ein Zimmer frei?' }
+      ],
+      notes: '1 und 2 verwenden die kun-Lesungen ひとへや und ふたへや. Informeller als 室. Im Sumo bedeutet 部屋 einen Trainingsverein/Stall.'
+    },
+
+    // ===== OBJEKTE (Fortsetzung) =====
+    {
+      id: 'maku',
+      kanji: '幕',
+      reading: 'まく',
+      romaji: 'maku',
+      meaning: 'Akte (Theater)',
+      usage: 'Akte in Theaterstücken, Opern',
+      category: 'Ereignisse',
+      level: 'N2',
+      questionWord: { kanji: '何幕', reading: 'なんまく', romaji: 'nanmaku' },
+      counts: [
+        { num: 1, kanji: '一幕', reading: 'ひとまく', romaji: 'hitomaku', shift: true },
+        { num: 2, kanji: '二幕', reading: 'ふたまく', romaji: 'futamaku', shift: true },
+        { num: 3, kanji: '三幕', reading: 'さんまく', romaji: 'sanmaku', shift: false },
+        { num: 4, kanji: '四幕', reading: 'よんまく', romaji: 'yonmaku', shift: false },
+        { num: 5, kanji: '五幕', reading: 'ごまく', romaji: 'gomaku', shift: false },
+        { num: 6, kanji: '六幕', reading: 'ろくまく', romaji: 'rokumaku', shift: false },
+        { num: 7, kanji: '七幕', reading: 'ななまく', romaji: 'nanamaku', shift: false },
+        { num: 8, kanji: '八幕', reading: 'はちまく', romaji: 'hachimaku', shift: false },
+        { num: 9, kanji: '九幕', reading: 'きゅうまく', romaji: 'kyūmaku', shift: false },
+        { num: 10, kanji: '十幕', reading: 'じゅうまく', romaji: 'jūmaku', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'この劇は三幕構成です。', romaji: 'Kono geki wa sanmaku kōsei desu.', german: 'Dieses Theaterstück hat drei Akte.' },
+        { japanese: '第一幕が始まりました。', romaji: 'Daiichimaku ga hajimarimashita.', german: 'Der erste Akt hat begonnen.' }
+      ],
+      notes: '1 und 2 verwenden die kun-Lesungen ひとまく und ふたまく. 幕間 (まくあい) = Pause zwischen den Akten.'
+    },
+    {
+      id: 'sho-place',
+      kanji: '位',
+      reading: 'い',
+      romaji: 'i',
+      meaning: 'Plätze, Ränge',
+      usage: 'Platzierungen, Rangfolge, Bestenlisten',
+      category: 'Ereignisse',
+      level: 'N3',
+      questionWord: { kanji: '何位', reading: 'なんい', romaji: 'nan\'i' },
+      counts: [
+        { num: 1, kanji: '一位', reading: 'いちい', romaji: 'ichii', shift: false },
+        { num: 2, kanji: '二位', reading: 'にい', romaji: 'nii', shift: false },
+        { num: 3, kanji: '三位', reading: 'さんい', romaji: 'san\'i', shift: false },
+        { num: 4, kanji: '四位', reading: 'よんい', romaji: 'yon\'i', shift: false },
+        { num: 5, kanji: '五位', reading: 'ごい', romaji: 'goi', shift: false },
+        { num: 6, kanji: '六位', reading: 'ろくい', romaji: 'rokui', shift: false },
+        { num: 7, kanji: '七位', reading: 'なない', romaji: 'nanai', shift: false },
+        { num: 8, kanji: '八位', reading: 'はちい', romaji: 'hachii', shift: false },
+        { num: 9, kanji: '九位', reading: 'きゅうい', romaji: 'kyūi', shift: false },
+        { num: 10, kanji: '十位', reading: 'じゅうい', romaji: 'jūi', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'マラソンで三位になりました。', romaji: 'Marason de san\'i ni narimashita.', german: 'Beim Marathon bin ich Dritter geworden.' },
+        { japanese: '日本の人口は世界で十一位です。', romaji: 'Nihon no jinkō wa sekai de jūichii desu.', german: 'Japans Bevölkerung liegt weltweit auf Platz elf.' }
+      ],
+      notes: 'Keine Lautverschiebungen. 第一位 (だいいちい) = erster Platz. Wird für Ranglisten, Sportergebnisse und Statistiken verwendet.'
+    },
+    {
+      id: 'sedai',
+      kanji: '世代',
+      reading: 'せだい',
+      romaji: 'sedai',
+      meaning: 'Generationen',
+      usage: 'Generationen (Familie, Technologie)',
+      category: 'Zeit',
+      level: 'N2',
+      questionWord: { kanji: '何世代', reading: 'なんせだい', romaji: 'nansedai' },
+      counts: [
+        { num: 1, kanji: '一世代', reading: 'いちせだい', romaji: 'ichisedai', shift: false },
+        { num: 2, kanji: '二世代', reading: 'にせだい', romaji: 'nisedai', shift: false },
+        { num: 3, kanji: '三世代', reading: 'さんせだい', romaji: 'sansedai', shift: false },
+        { num: 4, kanji: '四世代', reading: 'よんせだい', romaji: 'yonsedai', shift: false },
+        { num: 5, kanji: '五世代', reading: 'ごせだい', romaji: 'gosedai', shift: false },
+        { num: 6, kanji: '六世代', reading: 'ろくせだい', romaji: 'rokusedai', shift: false },
+        { num: 7, kanji: '七世代', reading: 'ななせだい', romaji: 'nanasedai', shift: false },
+        { num: 8, kanji: '八世代', reading: 'はちせだい', romaji: 'hachisedai', shift: false },
+        { num: 9, kanji: '九世代', reading: 'きゅうせだい', romaji: 'kyūsedai', shift: false },
+        { num: 10, kanji: '十世代', reading: 'じゅうせだい', romaji: 'jūsedai', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '三世代が一緒に住んでいます。', romaji: 'Sansedai ga issho ni sunde imasu.', german: 'Drei Generationen wohnen zusammen.' },
+        { japanese: '第五世代のスマートフォンです。', romaji: 'Daigosedai no sumātofon desu.', german: 'Es ist ein Smartphone der fünften Generation.' }
+      ],
+      notes: 'Keine Lautverschiebungen. Wird sowohl für Familiengenerationen als auch für Technologiegenerationen verwendet.'
+    },
+
+    // ===== WEITERE NEUE EINTRÄGE =====
+    {
+      id: 'jou-lock',
+      kanji: '錠',
+      reading: 'じょう',
+      romaji: 'jō',
+      meaning: 'Schlösser',
+      usage: 'Türschlösser, Vorhängeschlösser',
+      category: 'Objekte',
+      level: 'N2',
+      questionWord: { kanji: '何錠', reading: 'なんじょう', romaji: 'nanjō' },
+      counts: [
+        { num: 1, kanji: '一錠', reading: 'いちじょう', romaji: 'ichijō', shift: false },
+        { num: 2, kanji: '二錠', reading: 'にじょう', romaji: 'nijō', shift: false },
+        { num: 3, kanji: '三錠', reading: 'さんじょう', romaji: 'sanjō', shift: false },
+        { num: 4, kanji: '四錠', reading: 'よんじょう', romaji: 'yonjō', shift: false },
+        { num: 5, kanji: '五錠', reading: 'ごじょう', romaji: 'gojō', shift: false },
+        { num: 6, kanji: '六錠', reading: 'ろくじょう', romaji: 'rokujō', shift: false },
+        { num: 7, kanji: '七錠', reading: 'ななじょう', romaji: 'nanajō', shift: false },
+        { num: 8, kanji: '八錠', reading: 'はちじょう', romaji: 'hachijō', shift: false },
+        { num: 9, kanji: '九錠', reading: 'きゅうじょう', romaji: 'kyūjō', shift: false },
+        { num: 10, kanji: '十錠', reading: 'じゅうじょう', romaji: 'jūjō', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'ドアに鍵を二錠かけました。', romaji: 'Doa ni kagi o nijō kakemashita.', german: 'Ich habe zwei Schlösser an der Tür abgeschlossen.' },
+        { japanese: '自転車に一錠つけています。', romaji: 'Jitensha ni ichijō tsukete imasu.', german: 'Am Fahrrad habe ich ein Schloss.' }
+      ],
+      notes: 'Gleiche Lesung wie 錠 für Tabletten, aber hier für Schlösser. Der Kontext klärt die Bedeutung.'
+    },
+    {
+      id: 'sao-pole',
+      kanji: '竿',
+      reading: 'さお',
+      romaji: 'sao',
+      meaning: 'Stangen, Angelruten',
+      usage: 'Angelruten, Wäschestangen, Bambusstangen',
+      category: 'Objekte',
+      level: 'N2',
+      questionWord: { kanji: '何竿', reading: 'なんざお', romaji: 'nanzao' },
+      counts: [
+        { num: 1, kanji: '一竿', reading: 'ひとさお', romaji: 'hitosao', shift: true },
+        { num: 2, kanji: '二竿', reading: 'ふたさお', romaji: 'futasao', shift: true },
+        { num: 3, kanji: '三竿', reading: 'さんざお', romaji: 'sanzao', shift: false },
+        { num: 4, kanji: '四竿', reading: 'よんさお', romaji: 'yonsao', shift: false },
+        { num: 5, kanji: '五竿', reading: 'ごさお', romaji: 'gosao', shift: false },
+        { num: 6, kanji: '六竿', reading: 'ろくさお', romaji: 'rokusao', shift: false },
+        { num: 7, kanji: '七竿', reading: 'ななさお', romaji: 'nanasao', shift: false },
+        { num: 8, kanji: '八竿', reading: 'はちさお', romaji: 'hachisao', shift: false },
+        { num: 9, kanji: '九竿', reading: 'きゅうさお', romaji: 'kyūsao', shift: false },
+        { num: 10, kanji: '十竿', reading: 'じゅうさお', romaji: 'jūsao', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '釣り竿を二竿持っています。', romaji: 'Tsurizao o futasao motte imasu.', german: 'Ich besitze zwei Angelruten.' },
+        { japanese: '物干し竿を一竿買いました。', romaji: 'Monohoshizao o hitosao kaimashita.', german: 'Ich habe eine Wäschestange gekauft.' }
+      ],
+      notes: '1 und 2 verwenden die kun-Lesungen ひとさお und ふたさお. Wird auch für Tansu-Schränke (箪笥) verwendet: 一竿 = ein Schrank.'
+    },
+    {
+      id: 'tsui-pair',
+      kanji: '対',
+      reading: 'つい',
+      romaji: 'tsui',
+      meaning: 'Paare (zusammengehörig)',
+      usage: 'Zusammengehörige Paare (Vasen, Ohrringe, Figuren)',
+      category: 'Gruppen & Mengen',
+      level: 'N2',
+      questionWord: { kanji: '何対', reading: 'なんつい', romaji: 'nantsui' },
+      counts: [
+        { num: 1, kanji: '一対', reading: 'いっつい', romaji: 'ittsui', shift: true },
+        { num: 2, kanji: '二対', reading: 'につい', romaji: 'nitsui', shift: false },
+        { num: 3, kanji: '三対', reading: 'さんつい', romaji: 'santsui', shift: false },
+        { num: 4, kanji: '四対', reading: 'よんつい', romaji: 'yontsui', shift: false },
+        { num: 5, kanji: '五対', reading: 'ごつい', romaji: 'gotsui', shift: false },
+        { num: 6, kanji: '六対', reading: 'ろくつい', romaji: 'rokutsui', shift: false },
+        { num: 7, kanji: '七対', reading: 'ななつい', romaji: 'nanatsui', shift: false },
+        { num: 8, kanji: '八対', reading: 'はっつい', romaji: 'hattsui', shift: true },
+        { num: 9, kanji: '九対', reading: 'きゅうつい', romaji: 'kyūtsui', shift: false },
+        { num: 10, kanji: '十対', reading: 'じゅっつい', romaji: 'juttsui', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '一対の花瓶が飾ってあります。', romaji: 'Ittsui no kabin ga kazatte arimasu.', german: 'Ein Paar Vasen ist aufgestellt.' },
+        { japanese: 'イヤリングを一対買いました。', romaji: 'Iyaringu o ittsui kaimashita.', german: 'Ich habe ein Paar Ohrringe gekauft.' }
+      ],
+      notes: '一対 (いっつい) = ein zusammengehöriges Paar. Anders als 組 (Set/Gruppe) betont 対 die symmetrische Paarung.'
+    },
+    {
+      id: 'ketsu-blood',
+      kanji: '滴',
+      reading: 'てき',
+      romaji: 'teki',
+      meaning: 'Tropfen (Infusion)',
+      usage: 'Infusionstropfen, Bluttropfen (medizinisch)',
+      category: 'Medizin',
+      level: 'N2',
+      questionWord: { kanji: '何滴', reading: 'なんてき', romaji: 'nanteki' },
+      counts: [
+        { num: 1, kanji: '一滴', reading: 'いってき', romaji: 'itteki', shift: true },
+        { num: 2, kanji: '二滴', reading: 'にてき', romaji: 'niteki', shift: false },
+        { num: 3, kanji: '三滴', reading: 'さんてき', romaji: 'santeki', shift: false },
+        { num: 4, kanji: '四滴', reading: 'よんてき', romaji: 'yonteki', shift: false },
+        { num: 5, kanji: '五滴', reading: 'ごてき', romaji: 'goteki', shift: false },
+        { num: 6, kanji: '六滴', reading: 'ろくてき', romaji: 'rokuteki', shift: false },
+        { num: 7, kanji: '七滴', reading: 'ななてき', romaji: 'nanateki', shift: false },
+        { num: 8, kanji: '八滴', reading: 'はってき', romaji: 'hatteki', shift: true },
+        { num: 9, kanji: '九滴', reading: 'きゅうてき', romaji: 'kyūteki', shift: false },
+        { num: 10, kanji: '十滴', reading: 'じゅってき', romaji: 'jutteki', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '点滴を一滴ずつ落としています。', romaji: 'Tenteki o itteki zutsu otoshite imasu.', german: 'Die Infusion tropft Tropfen für Tropfen.' },
+        { japanese: '血液を一滴採取しました。', romaji: 'Ketsueki o itteki saishu shimashita.', german: 'Ein Tropfen Blut wurde entnommen.' }
+      ],
+      notes: '点滴 (てんてき) = Infusion. Gleicher Zähler wie 滴 für Augentropfen, hier im Kontext von Infusionen und Blutentnahme.'
+    },
+    {
+      id: 'kago-basket',
+      kanji: '籠',
+      reading: 'かご',
+      romaji: 'kago',
+      meaning: 'Körbe',
+      usage: 'Einkaufskörbe, Wäschekörbe, Obstkörbe',
+      category: 'Gruppen & Mengen',
+      level: 'N3',
+      questionWord: { kanji: '何籠', reading: 'なんかご', romaji: 'nankago' },
+      counts: [
+        { num: 1, kanji: '一籠', reading: 'ひとかご', romaji: 'hitokago', shift: true },
+        { num: 2, kanji: '二籠', reading: 'ふたかご', romaji: 'futakago', shift: true },
+        { num: 3, kanji: '三籠', reading: 'さんかご', romaji: 'sankago', shift: false },
+        { num: 4, kanji: '四籠', reading: 'よんかご', romaji: 'yonkago', shift: false },
+        { num: 5, kanji: '五籠', reading: 'ごかご', romaji: 'gokago', shift: false },
+        { num: 6, kanji: '六籠', reading: 'ろくかご', romaji: 'rokukago', shift: false },
+        { num: 7, kanji: '七籠', reading: 'ななかご', romaji: 'nanakago', shift: false },
+        { num: 8, kanji: '八籠', reading: 'はちかご', romaji: 'hachikago', shift: false },
+        { num: 9, kanji: '九籠', reading: 'きゅうかご', romaji: 'kyūkago', shift: false },
+        { num: 10, kanji: '十籠', reading: 'じゅうかご', romaji: 'jūkago', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'いちごを二籠買いました。', romaji: 'Ichigo o futakago kaimashita.', german: 'Ich habe zwei Körbe Erdbeeren gekauft.' },
+        { japanese: '洗濯物が一籠たまっています。', romaji: 'Sentakumono ga hitokago tamatte imasu.', german: 'Ein Korb Wäsche hat sich angesammelt.' }
+      ],
+      notes: '1 und 2 verwenden die kun-Lesungen ひとかご und ふたかご. Wird für Körbe mit Inhalt verwendet.'
+    },
+    {
+      id: 'rin-dose',
+      kanji: '輪',
+      reading: 'りん',
+      romaji: 'rin',
+      meaning: 'Ringe, Kreise',
+      usage: 'Ringe, Kränze, Kreise (z.B. Olympische Ringe)',
+      category: 'Objekte',
+      level: 'N2',
+      questionWord: { kanji: '何輪', reading: 'なんりん', romaji: 'nanrin' },
+      counts: [
+        { num: 1, kanji: '一輪', reading: 'いちりん', romaji: 'ichirin', shift: false },
+        { num: 2, kanji: '二輪', reading: 'にりん', romaji: 'nirin', shift: false },
+        { num: 3, kanji: '三輪', reading: 'さんりん', romaji: 'sanrin', shift: false },
+        { num: 4, kanji: '四輪', reading: 'よんりん', romaji: 'yonrin', shift: false },
+        { num: 5, kanji: '五輪', reading: 'ごりん', romaji: 'gorin', shift: false },
+        { num: 6, kanji: '六輪', reading: 'ろくりん', romaji: 'rokurin', shift: false },
+        { num: 7, kanji: '七輪', reading: 'ななりん', romaji: 'nanarin', shift: false },
+        { num: 8, kanji: '八輪', reading: 'はちりん', romaji: 'hachirin', shift: false },
+        { num: 9, kanji: '九輪', reading: 'きゅうりん', romaji: 'kyūrin', shift: false },
+        { num: 10, kanji: '十輪', reading: 'じゅうりん', romaji: 'jūrin', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '結婚指輪を一輪もらいました。', romaji: 'Kekkon yubiwa o ichirin moraimashita.', german: 'Ich habe einen Ehering bekommen.' },
+        { japanese: '一輪車に乗れますか。', romaji: 'Ichirinsha ni noremasu ka.', german: 'Können Sie Einrad fahren?' }
+      ],
+      notes: '一輪車 (いちりんしゃ) = Einrad, 二輪車 (にりんしゃ) = Motorrad, 四輪車 (よんりんしゃ) = Auto. 輪 wird sowohl für Blumen als auch für Räder und Ringe verwendet.'
+    },
+    {
+      id: 'jikan-lesson',
+      kanji: '時限',
+      reading: 'じげん',
+      romaji: 'jigen',
+      meaning: 'Unterrichtsstunden',
+      usage: 'Schulstunden, Unterrichtsperioden',
+      category: 'Zeit',
+      level: 'N4',
+      questionWord: { kanji: '何時限', reading: 'なんじげん', romaji: 'nanjigen' },
+      counts: [
+        { num: 1, kanji: '一時限', reading: 'いちじげん', romaji: 'ichijigen', shift: false },
+        { num: 2, kanji: '二時限', reading: 'にじげん', romaji: 'nijigen', shift: false },
+        { num: 3, kanji: '三時限', reading: 'さんじげん', romaji: 'sanjigen', shift: false },
+        { num: 4, kanji: '四時限', reading: 'よじげん', romaji: 'yojigen', shift: false },
+        { num: 5, kanji: '五時限', reading: 'ごじげん', romaji: 'gojigen', shift: false },
+        { num: 6, kanji: '六時限', reading: 'ろくじげん', romaji: 'rokujigen', shift: false },
+        { num: 7, kanji: '七時限', reading: 'ななじげん', romaji: 'nanajigen', shift: false },
+        { num: 8, kanji: '八時限', reading: 'はちじげん', romaji: 'hachijigen', shift: false },
+        { num: 9, kanji: '九時限', reading: 'きゅうじげん', romaji: 'kyūjigen', shift: false },
+        { num: 10, kanji: '十時限', reading: 'じゅうじげん', romaji: 'jūjigen', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '今日は六時限まで授業があります。', romaji: 'Kyō wa rokujigen made jugyō ga arimasu.', german: 'Heute habe ich Unterricht bis zur sechsten Stunde.' },
+        { japanese: '三時限目は数学です。', romaji: 'Sanjigenme wa sūgaku desu.', german: 'Die dritte Stunde ist Mathematik.' }
+      ],
+      notes: 'Keine Lautverschiebungen. Wird hauptsächlich an Schulen und Universitäten verwendet. 目 (め) wird als Ordnungszahl-Suffix angehängt.'
+    },
+    {
+      id: 'ken-pref',
+      kanji: '県',
+      reading: 'けん',
+      romaji: 'ken',
+      meaning: 'Präfekturen',
+      usage: 'Japanische Präfekturen',
+      category: 'Gruppen & Mengen',
+      level: 'N4',
+      questionWord: { kanji: '何県', reading: 'なんけん', romaji: 'nanken' },
+      counts: [
+        { num: 1, kanji: '一県', reading: 'いっけん', romaji: 'ikken', shift: true },
+        { num: 2, kanji: '二県', reading: 'にけん', romaji: 'niken', shift: false },
+        { num: 3, kanji: '三県', reading: 'さんけん', romaji: 'sanken', shift: false },
+        { num: 4, kanji: '四県', reading: 'よんけん', romaji: 'yonken', shift: false },
+        { num: 5, kanji: '五県', reading: 'ごけん', romaji: 'goken', shift: false },
+        { num: 6, kanji: '六県', reading: 'ろっけん', romaji: 'rokken', shift: true },
+        { num: 7, kanji: '七県', reading: 'ななけん', romaji: 'nanaken', shift: false },
+        { num: 8, kanji: '八県', reading: 'はっけん', romaji: 'hakken', shift: true },
+        { num: 9, kanji: '九県', reading: 'きゅうけん', romaji: 'kyūken', shift: false },
+        { num: 10, kanji: '十県', reading: 'じゅっけん', romaji: 'jukken', shift: true }
+      ],
+      specialCounts: [
+        { num: 47, kanji: '四十七県', reading: 'よんじゅうななけん', romaji: 'yonjūnanaken', note: 'Japan hat 47 Präfekturen (都道府県)' }
+      ],
+      examples: [
+        { japanese: '関東地方には七県あります。', romaji: 'Kantō chihō ni wa nanaken arimasu.', german: 'In der Kantō-Region gibt es sieben Präfekturen.' },
+        { japanese: '全国四十七都道府県を旅しました。', romaji: 'Zenkoku yonjūnana todōfuken o tabi shimashita.', german: 'Ich bin durch alle 47 Präfekturen Japans gereist.' }
+      ],
+      notes: 'Japan hat 47 Verwaltungseinheiten: 1都 (Tokyo), 1道 (Hokkaido), 2府 (Osaka, Kyoto), 43県. Zusammen: 都道府県 (とどうふけん).'
+    },
+    {
+      id: 'tsu-port',
+      kanji: '港',
+      reading: 'こう',
+      romaji: 'kō',
+      meaning: 'Häfen',
+      usage: 'Häfen, Flughäfen (空港)',
+      category: 'Transport',
+      level: 'N3',
+      questionWord: { kanji: '何港', reading: 'なんこう', romaji: 'nankō' },
+      counts: [
+        { num: 1, kanji: '一港', reading: 'いっこう', romaji: 'ikkō', shift: true },
+        { num: 2, kanji: '二港', reading: 'にこう', romaji: 'nikō', shift: false },
+        { num: 3, kanji: '三港', reading: 'さんこう', romaji: 'sankō', shift: false },
+        { num: 4, kanji: '四港', reading: 'よんこう', romaji: 'yonkō', shift: false },
+        { num: 5, kanji: '五港', reading: 'ごこう', romaji: 'gokō', shift: false },
+        { num: 6, kanji: '六港', reading: 'ろっこう', romaji: 'rokkō', shift: true },
+        { num: 7, kanji: '七港', reading: 'ななこう', romaji: 'nanakō', shift: false },
+        { num: 8, kanji: '八港', reading: 'はっこう', romaji: 'hakkō', shift: true },
+        { num: 9, kanji: '九港', reading: 'きゅうこう', romaji: 'kyūkō', shift: false },
+        { num: 10, kanji: '十港', reading: 'じゅっこう', romaji: 'jukkō', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '日本には重要な港が五港あります。', romaji: 'Nihon ni wa jūyō na minato ga gokō arimasu.', german: 'In Japan gibt es fünf wichtige Häfen.' },
+        { japanese: '三港を巡るクルーズです。', romaji: 'Sankō o meguru kurūzu desu.', german: 'Es ist eine Kreuzfahrt mit Anläufen in drei Häfen.' }
+      ],
+      notes: 'Wird für Häfen (港) und auch für Flughäfen (空港) verwendet. 五港 (ごこう) ist historisch bekannt als die fünf Vertragshäfen der Meiji-Zeit.'
+    },
+    {
+      id: 'cho-bill',
+      kanji: '帳',
+      reading: 'ちょう',
+      romaji: 'chō',
+      meaning: 'Notizbücher, Hefte',
+      usage: 'Notizbücher, Kontobücher, Adressbücher',
+      category: 'Objekte',
+      level: 'N3',
+      questionWord: { kanji: '何帳', reading: 'なんちょう', romaji: 'nanchō' },
+      counts: [
+        { num: 1, kanji: '一帳', reading: 'いっちょう', romaji: 'itchō', shift: true },
+        { num: 2, kanji: '二帳', reading: 'にちょう', romaji: 'nichō', shift: false },
+        { num: 3, kanji: '三帳', reading: 'さんちょう', romaji: 'sanchō', shift: false },
+        { num: 4, kanji: '四帳', reading: 'よんちょう', romaji: 'yonchō', shift: false },
+        { num: 5, kanji: '五帳', reading: 'ごちょう', romaji: 'gochō', shift: false },
+        { num: 6, kanji: '六帳', reading: 'ろくちょう', romaji: 'rokuchō', shift: false },
+        { num: 7, kanji: '七帳', reading: 'ななちょう', romaji: 'nanachō', shift: false },
+        { num: 8, kanji: '八帳', reading: 'はっちょう', romaji: 'hatchō', shift: true },
+        { num: 9, kanji: '九帳', reading: 'きゅうちょう', romaji: 'kyūchō', shift: false },
+        { num: 10, kanji: '十帳', reading: 'じゅっちょう', romaji: 'jutchō', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '通帳を二帳持っています。', romaji: 'Tsūchō o nichō motte imasu.', german: 'Ich habe zwei Bankbücher.' },
+        { japanese: '手帳を一帳買いました。', romaji: 'Techō o itchō kaimashita.', german: 'Ich habe ein Notizbuch gekauft.' }
+      ],
+      notes: '通帳 (つうちょう) = Bankbuch, 手帳 (てちょう) = Notizbuch/Terminplaner, 帳面 (ちょうめん) = Heft.'
+    },
+    {
+      id: 'haba-width',
+      kanji: '泊',
+      reading: 'はく',
+      romaji: 'haku',
+      meaning: 'Ankerplätze',
+      usage: 'Schiffsankerplätze, Anlegestellen',
+      category: 'Transport',
+      level: 'N1',
+      questionWord: { kanji: '何泊', reading: 'なんぱく', romaji: 'nanpaku' },
+      counts: [
+        { num: 1, kanji: '一泊', reading: 'いっぱく', romaji: 'ippaku', shift: true },
+        { num: 2, kanji: '二泊', reading: 'にはく', romaji: 'nihaku', shift: false },
+        { num: 3, kanji: '三泊', reading: 'さんぱく', romaji: 'sanpaku', shift: true },
+        { num: 4, kanji: '四泊', reading: 'よんはく', romaji: 'yonhaku', shift: false },
+        { num: 5, kanji: '五泊', reading: 'ごはく', romaji: 'gohaku', shift: false },
+        { num: 6, kanji: '六泊', reading: 'ろっぱく', romaji: 'roppaku', shift: true },
+        { num: 7, kanji: '七泊', reading: 'ななはく', romaji: 'nanahaku', shift: false },
+        { num: 8, kanji: '八泊', reading: 'はっぱく', romaji: 'happaku', shift: true },
+        { num: 9, kanji: '九泊', reading: 'きゅうはく', romaji: 'kyūhaku', shift: false },
+        { num: 10, kanji: '十泊', reading: 'じゅっぱく', romaji: 'juppaku', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'クルーズ船が三泊寄港します。', romaji: 'Kurūzu-sen ga sanpaku kikō shimasu.', german: 'Das Kreuzfahrtschiff legt drei Mal an.' },
+        { japanese: '長期間の船旅で何泊もしました。', romaji: 'Chōkikan no funatabi de nanpaku mo shimashita.', german: 'Bei der langen Schiffsreise haben wir viele Nächte verbracht.' }
+      ],
+      notes: 'Gleicher Zähler wie 泊 für Hotelübernachtungen, hier im Kontext der Schifffahrt für Ankerplätze.'
+    },
+    {
+      id: 'tsu-island',
+      kanji: '島',
+      reading: 'とう',
+      romaji: 'tō',
+      meaning: 'Inseln',
+      usage: 'Inseln, Inselgruppen',
+      category: 'Natur',
+      level: 'N3',
+      questionWord: { kanji: '何島', reading: 'なんとう', romaji: 'nantō' },
+      counts: [
+        { num: 1, kanji: '一島', reading: 'いっとう', romaji: 'ittō', shift: true },
+        { num: 2, kanji: '二島', reading: 'にとう', romaji: 'nitō', shift: false },
+        { num: 3, kanji: '三島', reading: 'さんとう', romaji: 'santō', shift: false },
+        { num: 4, kanji: '四島', reading: 'よんとう', romaji: 'yontō', shift: false },
+        { num: 5, kanji: '五島', reading: 'ごとう', romaji: 'gotō', shift: false },
+        { num: 6, kanji: '六島', reading: 'ろくとう', romaji: 'rokutō', shift: false },
+        { num: 7, kanji: '七島', reading: 'ななとう', romaji: 'nanatō', shift: false },
+        { num: 8, kanji: '八島', reading: 'はっとう', romaji: 'hattō', shift: true },
+        { num: 9, kanji: '九島', reading: 'きゅうとう', romaji: 'kyūtō', shift: false },
+        { num: 10, kanji: '十島', reading: 'じゅっとう', romaji: 'juttō', shift: true }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '日本は六千以上の島からなっています。', romaji: 'Nihon wa rokusen ijō no shima kara natte imasu.', german: 'Japan besteht aus über sechstausend Inseln.' },
+        { japanese: '三島を回るツアーに参加しました。', romaji: 'Santō o mawaru tsuā ni sanka shimashita.', german: 'Ich habe an einer Tour zu drei Inseln teilgenommen.' }
+      ],
+      notes: 'Japan ist ein Inselstaat. 本州 (ほんしゅう), 北海道 (ほっかいどう), 九州 (きゅうしゅう), 四国 (しこく) sind die vier Hauptinseln.'
     }
   ]
 };

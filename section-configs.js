@@ -744,6 +744,12 @@ SECTION_CONFIGS.counters = {
   },
   filterGroups: [
     {
+      stateKey: 'level',
+      selector: '.counter-level',
+      dataAttr: 'data-clevel',
+      defaultValue: 'all'
+    },
+    {
       stateKey: 'category',
       selector: '.counter-cat',
       dataAttr: 'data-ccat',
@@ -764,6 +770,7 @@ SECTION_CONFIGS.counters = {
   },
 
   filterFn: function (c, query, filters) {
+    if (filters.level !== 'all' && c.level !== filters.level) return false;
     if (filters.category !== 'all' && c.category !== filters.category) return false;
     if (query) {
       var matchKanji = c.kanji.indexOf(query) !== -1;
@@ -1005,6 +1012,12 @@ SECTION_CONFIGS.onomatopoeia = {
   },
   filterGroups: [
     {
+      stateKey: 'level',
+      selector: '.ono-level',
+      dataAttr: 'data-olevel',
+      defaultValue: 'all'
+    },
+    {
       stateKey: 'category',
       selector: '.ono-cat',
       dataAttr: 'data-ocat',
@@ -1022,6 +1035,7 @@ SECTION_CONFIGS.onomatopoeia = {
   batchSize: 0,
 
   filterFn: function (o, query, filters) {
+    if (filters.level !== 'all' && o.level !== filters.level) return false;
     if (filters.category !== 'all' && o.category !== filters.category) return false;
     if (filters.pattern !== 'all' && o.pattern !== filters.pattern) return false;
     if (query) {
