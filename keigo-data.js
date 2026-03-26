@@ -3540,5 +3540,440 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "恐縮ですが und 恐れ入りますが sind im Geschäftsalltag austauschbar. 恐縮ですが hat einen etwas stärkeren Beiklang von Schuldgefühl. Die Verstärkung mit 大変 oder die Formalisierung mit 存じます sind übliche Steigerungen.",
     "related": ["keigo-business-oisogashii", "keigo-teinei-osoreirimashitsuki"]
+  },
+  {
+    "id": "keigo-bikago-omizu",
+    "pattern": "お水（おみず）",
+    "level": "N4",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Wasser (höflich)",
+    "explanation": "お水 ist die höfliche Form von 水 (Wasser). Das Präfix お ist hier optional, aber in den meisten alltäglichen Situationen üblich, besonders in Restaurants, beim Anbieten von Getränken oder wenn man höflich um Wasser bittet. Ohne お klingt 水 eher sachlich oder direkt.",
+    "formation": "お + 水（みず）",
+    "examples": [
+      {
+        "japanese": "お水をください。",
+        "romaji": "Omizu wo kudasai.",
+        "german": "Wasser bitte."
+      },
+      {
+        "japanese": "お水をお持ちしましょうか。",
+        "romaji": "Omizu wo omochi shimashō ka.",
+        "german": "Soll ich Ihnen Wasser bringen?"
+      },
+      {
+        "japanese": "冷たいお水がありますよ。",
+        "romaji": "Tsumetai omizu ga arimasu yo.",
+        "german": "Es gibt kaltes Wasser."
+      }
+    ],
+    "notes": "お水 wird im Alltag fast immer mit お verwendet, besonders von Frauen und im höflichen Sprachgebrauch. In wissenschaftlichen oder technischen Kontexten wird eher 水 ohne Präfix benutzt. In Restaurants ist お水 die Standardbezeichnung.",
+    "related": ["keigo-bikago-ocha", "keigo-bikago-obi"]
+  },
+  {
+    "id": "keigo-bikago-ocha",
+    "pattern": "お茶（おちゃ）",
+    "level": "N4",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Tee (praktisch immer mit お)",
+    "explanation": "お茶 ist eines der bekanntesten Beispiele für 美化語, bei dem das お-Präfix so fest eingebunden ist, dass es praktisch als Pflicht gilt. 茶 ohne お klingt unnatürlich und wird fast nur in zusammengesetzten Wörtern wie 茶道 (sadō, Teezeremonie) oder 緑茶 (ryokucha, Grüntee) ohne お verwendet.",
+    "formation": "お + 茶（ちゃ）— Präfix praktisch obligatorisch",
+    "examples": [
+      {
+        "japanese": "お茶でもいかがですか。",
+        "romaji": "Ocha demo ikaga desu ka.",
+        "german": "Möchten Sie vielleicht eine Tasse Tee?"
+      },
+      {
+        "japanese": "お茶を入れますね。",
+        "romaji": "Ocha wo iremasu ne.",
+        "german": "Ich mache Tee, ja?"
+      },
+      {
+        "japanese": "毎朝お茶を飲みます。",
+        "romaji": "Maiasa ocha wo nomimasu.",
+        "german": "Ich trinke jeden Morgen Tee."
+      }
+    ],
+    "notes": "お茶 ist ein Paradebeispiel für ein Wort, bei dem das お-Präfix obligatorisch geworden ist. Selbst in ungezwungener Sprache sagt man お茶 und nicht 茶 allein. Das Wort zeigt, wie 美化語 über die Zeit zu einem festen Bestandteil des Wortschatzes werden kann.",
+    "related": ["keigo-bikago-omizu", "keigo-bikago-obi"]
+  },
+  {
+    "id": "keigo-bikago-okane",
+    "pattern": "お金（おかね）",
+    "level": "N4",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Geld (immer mit お)",
+    "explanation": "お金 ist die Standardform für „Geld“ im Japanischen. Das お-Präfix ist hier obligatorisch – 金 (かね) allein wird kaum verwendet und klingt roh oder unhöflich. 金 wird nur in Komposita wie 金額 (kingaku, Geldbetrag) oder 金持ち (kanemochi, reiche Person) ohne お benutzt.",
+    "formation": "お + 金（かね）— Präfix obligatorisch",
+    "examples": [
+      {
+        "japanese": "お金が足りません。",
+        "romaji": "Okane ga tarimasen.",
+        "german": "Das Geld reicht nicht."
+      },
+      {
+        "japanese": "お金を貯めています。",
+        "romaji": "Okane wo tamete imasu.",
+        "german": "Ich spare Geld."
+      },
+      {
+        "japanese": "お金のことは心配しないでください。",
+        "romaji": "Okane no koto wa shinpai shinaide kudasai.",
+        "german": "Machen Sie sich keine Sorgen wegen des Geldes."
+      }
+    ],
+    "notes": "お金 ist eines der Wörter, bei denen das お-Präfix so fest verwurzelt ist, dass viele Japaner es gar nicht mehr als Höflichkeitspräfix wahrnehmen. In der Umgangssprache und sogar in unhöflichen Kontexten wird お金 mit お verwendet.",
+    "related": ["keigo-bikago-otsuri", "keigo-bikago-obi"]
+  },
+  {
+    "id": "keigo-bikago-onamae",
+    "pattern": "お名前（おなまえ）",
+    "level": "N4",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Name (höflich, bei Fragen an andere)",
+    "explanation": "お名前 ist die höfliche Form von 名前 (Name). Das お-Präfix wird besonders verwendet, wenn man nach dem Namen einer anderen Person fragt oder über den Namen einer respektierten Person spricht. Beim Sprechen über den eigenen Namen wird お weggelassen: 名前は田中です。",
+    "formation": "お + 名前（なまえ）— Präfix bei anderen Personen üblich",
+    "examples": [
+      {
+        "japanese": "お名前をお願いします。",
+        "romaji": "Onamae wo onegai shimasu.",
+        "german": "Ihren Namen bitte."
+      },
+      {
+        "japanese": "お名前は何とおっしゃいますか。",
+        "romaji": "Onamae wa nan to osshaimasu ka.",
+        "german": "Wie lautet Ihr Name? (sehr höflich)"
+      },
+      {
+        "japanese": "こちらにお名前をご記入ください。",
+        "romaji": "Kochira ni onamae wo gokinyū kudasai.",
+        "german": "Bitte tragen Sie hier Ihren Namen ein."
+      }
+    ],
+    "notes": "お名前 zeigt den Unterschied zwischen 美化語 und 尊敬語: Wenn man den Namen des Gegenübers meint, dient お als Respektbezeugung (尊敬語-Funktion). Wenn man allgemein über Namen spricht, ist es 美化語. Den eigenen Namen nennt man ohne お, da man sich selbst nicht ehrt.",
+    "related": ["keigo-bikago-obi", "keigo-sonkeigo-ossharu"]
+  },
+  {
+    "id": "keigo-bikago-onaka",
+    "pattern": "お腹（おなか）",
+    "level": "N4",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Bauch / Magen (immer mit お)",
+    "explanation": "お腹 ist die Standardform für „Bauch“ oder „Magen“ im Alltag. Das お-Präfix ist hier obligatorisch – 腹（はら）allein wird zwar in manchen Redewendungen verwendet (腹が立つ = wütend werden), aber als Körperteil sagt man immer お腹. Besonders in der bekannten Phrase お腹が空いた (Ich habe Hunger) ist お unverzichtbar.",
+    "formation": "お + 腹（なか）— Präfix obligatorisch im Alltag",
+    "examples": [
+      {
+        "japanese": "お腹が空きました。",
+        "romaji": "Onaka ga sukimashita.",
+        "german": "Ich habe Hunger."
+      },
+      {
+        "japanese": "お腹がいっぱいです。",
+        "romaji": "Onaka ga ippai desu.",
+        "german": "Ich bin satt."
+      },
+      {
+        "japanese": "お腹の調子が悪いんです。",
+        "romaji": "Onaka no chōshi ga warui n desu.",
+        "german": "Mir geht es nicht gut mit dem Magen."
+      }
+    ],
+    "notes": "お腹 ist ein weiteres Beispiel, bei dem das お-Präfix so fest mit dem Wort verschmolzen ist, dass es nicht mehr als Höflichkeitsform wahrgenommen wird. Die Lesung なか (statt はら) wird ausschließlich mit お verwendet. 腹（はら）ohne お klingt maskulin-derb.",
+    "related": ["keigo-bikago-obi", "keigo-bikago-gohan"]
+  },
+  {
+    "id": "keigo-bikago-obentou",
+    "pattern": "お弁当（おべんとう）",
+    "level": "N4",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Lunchbox / Bento (höflich)",
+    "explanation": "お弁当 ist die höfliche Form von 弁当 (Lunchbox). Das お-Präfix ist hier weit verbreitet und in den meisten Alltagssituationen üblich. 弁当 ohne お wird in zusammengesetzten Wörtern wie 弁当箱 (bentōbako, Lunchbox-Behälter) oder in sachlichen Kontexten (Speisekarten, Geschäftsbeschreibungen) verwendet.",
+    "formation": "お + 弁当（べんとう）— Präfix in der Alltagssprache üblich",
+    "examples": [
+      {
+        "japanese": "今日はお弁当を持ってきました。",
+        "romaji": "Kyō wa obentō wo motte kimashita.",
+        "german": "Ich habe heute ein Bento mitgebracht."
+      },
+      {
+        "japanese": "お弁当を買いに行きましょう。",
+        "romaji": "Obentō wo kai ni ikimashō.",
+        "german": "Lass uns ein Bento kaufen gehen."
+      },
+      {
+        "japanese": "毎日お弁当を作っています。",
+        "romaji": "Mainichi obentō wo tsukutte imasu.",
+        "german": "Ich mache jeden Tag ein Bento."
+      }
+    ],
+    "notes": "お弁当 wird im Alltag fast immer mit お verwendet, besonders in der gesprochenen Sprache. Auf Schildern und Speisekarten in Geschäften sieht man manchmal 弁当 ohne お. Die japanische Bento-Kultur ist tief verwurzelt, und お弁当 ist ein Alltagswort, das jeder Japanischlernende kennen sollte.",
+    "related": ["keigo-bikago-ocha", "keigo-bikago-obi"]
+  },
+  {
+    "id": "keigo-bikago-omiyage",
+    "pattern": "お土産（おみやげ）",
+    "level": "N4",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Mitbringsel / Souvenir (immer mit お)",
+    "explanation": "お土産 ist die Standardbezeichnung für „Mitbringsel“ oder „Souvenir“. Das お-Präfix ist hier praktisch obligatorisch – 土産（みやげ）allein wird fast nur in Komposita wie 土産物（みやげもの）oder 土産話（みやげばなし, Reisegeschichten）verwendet. Die Kultur des お土産-Kaufens ist in Japan tief verwurzelt.",
+    "formation": "お + 土産（みやげ）— Präfix praktisch obligatorisch",
+    "examples": [
+      {
+        "japanese": "旅行のお土産を買いました。",
+        "romaji": "Ryokō no omiyage wo kaimashita.",
+        "german": "Ich habe ein Reisemitbringsel gekauft."
+      },
+      {
+        "japanese": "これ、京都のお土産です。どうぞ。",
+        "romaji": "Kore, Kyōto no omiyage desu. Dōzo.",
+        "german": "Das ist ein Mitbringsel aus Kyoto. Bitte sehr."
+      },
+      {
+        "japanese": "お土産を選ぶのに時間がかかりました。",
+        "romaji": "Omiyage wo erabu no ni jikan ga kakarimashita.",
+        "german": "Es hat lange gedauert, ein Mitbringsel auszusuchen."
+      }
+    ],
+    "notes": "In Japan ist es üblich, Kollegen und Freunden お土産 von Reisen mitzubringen. An Bahnhöfen und Flughäfen gibt es große お土産-Abteilungen. Das Wort wird praktisch nie ohne お benutzt und ist ein hervorragendes Beispiel für ein kulturell tief verankertes 美化語.",
+    "related": ["keigo-bikago-obi", "keigo-bikago-omatsuri"]
+  },
+  {
+    "id": "keigo-bikago-omatsuri",
+    "pattern": "お祭り（おまつり）",
+    "level": "N4",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Fest / Festival (immer mit お)",
+    "explanation": "お祭り ist die übliche Bezeichnung für „Fest“ oder „Festival“ im Japanischen. Das お-Präfix ist hier fest integriert – 祭り（まつり）ohne お wird zwar in einigen Komposita wie 夏祭り（なつまつり, Sommerfest）oder 火祭り（ひまつり, Feuerfest）verwendet, aber als eigenständiges Wort sagt man fast immer お祭り.",
+    "formation": "お + 祭り（まつり）— Präfix als eigenständiges Wort obligatorisch",
+    "examples": [
+      {
+        "japanese": "今週末、お祭りがありますよ。",
+        "romaji": "Konshūmatsu, omatsuri ga arimasu yo.",
+        "german": "Dieses Wochenende gibt es ein Fest."
+      },
+      {
+        "japanese": "お祭りで浴衣を着ました。",
+        "romaji": "Omatsuri de yukata wo kimashita.",
+        "german": "Ich habe beim Fest einen Yukata getragen."
+      },
+      {
+        "japanese": "子供たちがお祭りを楽しみにしています。",
+        "romaji": "Kodomotachi ga omatsuri wo tanoshimi ni shite imasu.",
+        "german": "Die Kinder freuen sich auf das Fest."
+      }
+    ],
+    "notes": "お祭り hat seinen Ursprung in der Verehrung der Götter (祭る = verehren, Kami huldigen). Das お-Präfix zeigt ursprünglich Ehrfurcht vor dem religiösen Charakter des Festes. In zusammengesetzten Wörtern wie 夏祭り oder 花祭り fällt das お weg.",
+    "related": ["keigo-bikago-obi", "keigo-bikago-omiyage"]
+  },
+  {
+    "id": "keigo-bikago-gohan",
+    "pattern": "ご飯（ごはん）",
+    "level": "N3",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Reis / Mahlzeit (immer mit ご)",
+    "explanation": "ご飯 ist die Standardbezeichnung für „gekochten Reis“ und allgemein für „Mahlzeit“. Das ご-Präfix ist hier vollständig obligatorisch – 飯（めし）ohne Präfix ist eine derbe, maskuline Variante, die in der höflichen Sprache vermieden wird. ご飯 ist eines der wichtigsten Beispiele für ein ご-美化語.",
+    "formation": "ご + 飯（はん）— Präfix obligatorisch in normaler Sprache",
+    "examples": [
+      {
+        "japanese": "ご飯を食べましたか。",
+        "romaji": "Gohan wo tabemashita ka.",
+        "german": "Haben Sie schon gegessen?"
+      },
+      {
+        "japanese": "ご飯ができましたよ。",
+        "romaji": "Gohan ga dekimashita yo.",
+        "german": "Das Essen ist fertig."
+      },
+      {
+        "japanese": "朝ご飯は何を食べますか。",
+        "romaji": "Asagohan wa nani wo tabemasu ka.",
+        "german": "Was essen Sie zum Frühstück?"
+      }
+    ],
+    "notes": "ご飯 wird sowohl für „Reis“ als auch für „Mahlzeit“ verwendet (朝ご飯 = Frühstück, 昼ご飯 = Mittagessen, 晩ご飯 = Abendessen). 飯（めし）ohne ご klingt derb und wird hauptsächlich von Männern in informeller Sprache benutzt. ご飯 ist ein Beweis dafür, dass Reis im Zentrum der japanischen Esskultur steht.",
+    "related": ["keigo-bikago-ocha", "keigo-bikago-obi"]
+  },
+  {
+    "id": "keigo-bikago-gokazoku",
+    "pattern": "ご家族（ごかぞく）",
+    "level": "N3",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Familie (höflich, für die Familie anderer)",
+    "explanation": "ご家族 ist die höfliche Bezeichnung für die Familie einer anderen Person. Das ご-Präfix wird hier verwendet, weil 家族 ein sino-japanisches Wort (漢語) ist. Wichtig: ご家族 wird nur für die Familie des Gegenübers oder dritter Personen benutzt – für die eigene Familie sagt man einfach 家族.",
+    "formation": "ご + 家族（かぞく）— Präfix bei anderer Personen Familie",
+    "examples": [
+      {
+        "japanese": "ご家族はお元気ですか。",
+        "romaji": "Gokazoku wa ogenki desu ka.",
+        "german": "Geht es Ihrer Familie gut?"
+      },
+      {
+        "japanese": "ご家族の皆様によろしくお伝えください。",
+        "romaji": "Gokazoku no minasama ni yoroshiku otsutae kudasai.",
+        "german": "Bitte grüßen Sie Ihre Familie von mir."
+      },
+      {
+        "japanese": "ご家族でいらっしゃいますか。",
+        "romaji": "Gokazoku de irasshaimasu ka.",
+        "german": "Sind Sie mit Ihrer Familie hier?"
+      }
+    ],
+    "notes": "Die Unterscheidung zwischen ご家族 (für andere) und 家族 (für sich selbst) ist ein grundlegendes Prinzip des Keigo: Man ehrt die Dinge anderer und bescheidet die eigenen. Ähnlich: ご主人 (Ihr Ehemann) vs. 主人/夫 (mein Mann), ご両親 (Ihre Eltern) vs. 両親/父と母 (meine Eltern).",
+    "related": ["keigo-bikago-obi", "keigo-bikago-gojuusho"]
+  },
+  {
+    "id": "keigo-bikago-gojuusho",
+    "pattern": "ご住所（ごじゅうしょ）",
+    "level": "N3",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Adresse (höflich, bei Fragen an andere)",
+    "explanation": "ご住所 ist die höfliche Form von 住所 (Adresse). Das ご-Präfix wird verwendet, weil 住所 ein sino-japanisches Wort ist. Wie bei お名前 wird ご住所 hauptsächlich benutzt, wenn man nach der Adresse einer anderen Person fragt oder in Formularen höflich um Eingabe bittet.",
+    "formation": "ご + 住所（じゅうしょ）— Präfix bei Fragen an andere",
+    "examples": [
+      {
+        "japanese": "ご住所をお教えいただけますか。",
+        "romaji": "Gojūsho wo ooshie itadakemasu ka.",
+        "german": "Könnten Sie mir Ihre Adresse mitteilen?"
+      },
+      {
+        "japanese": "こちらにご住所をご記入ください。",
+        "romaji": "Kochira ni gojūsho wo gokinyū kudasai.",
+        "german": "Bitte tragen Sie hier Ihre Adresse ein."
+      },
+      {
+        "japanese": "ご住所の変更はございますか。",
+        "romaji": "Gojūsho no henkō wa gozaimasu ka.",
+        "german": "Gibt es eine Änderung Ihrer Adresse?"
+      }
+    ],
+    "notes": "ご住所 folgt dem gleichen Muster wie お名前: Man verwendet das Höflichkeitspräfix, wenn man sich auf die Daten des Gegenübers bezieht. Über die eigene Adresse spricht man ohne Präfix: 住所は東京です。In Formularen wird oft ご住所 gedruckt, um Höflichkeit gegenüber dem Ausfüllenden zu zeigen.",
+    "related": ["keigo-bikago-onamae", "keigo-bikago-obi"]
+  },
+  {
+    "id": "keigo-bikago-prefix-rules",
+    "pattern": "お/ご-Präfix-Regeln (和語 vs. 漢語)",
+    "level": "N3",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Regeln für die Verwendung von お (japanisch) und ご (sino-japanisch)",
+    "explanation": "Die Grundregel für 美化語-Präfixe lautet: お wird vor 和語 (native japanische Wörter, meist Kun-Lesung) gesetzt, ご vor 漢語 (sino-japanische Wörter, meist On-Lesung). Es gibt jedoch Ausnahmen: Einige 漢語 nehmen お statt ご (z.B. お電話, お料理, お返事), und Katakana-Wörter (Fremdwörter) erhalten in der Regel kein Präfix.",
+    "formation": "お + 和語（Kun-Lesung）／ ご + 漢語（On-Lesung）／ Ausnahmen beachten",
+    "examples": [
+      {
+        "japanese": "お花、お水、お酒 → 和語 (japanisch) → お",
+        "romaji": "Ohana, omizu, osake → Wago → o",
+        "german": "Blumen, Wasser, Sake → japanische Wörter → お"
+      },
+      {
+        "japanese": "ご家族、ご住所、ご意見 → 漢語 (sino-japanisch) → ご",
+        "romaji": "Gokazoku, gojūsho, goiken → Kango → go",
+        "german": "Familie, Adresse, Meinung → sino-japanische Wörter → ご"
+      },
+      {
+        "japanese": "お電話、お料理、お返事 → 漢語だけど「お」を使う例外",
+        "romaji": "Odenwa, oryōri, ohenji → Kango, aber Ausnahme mit „o“",
+        "german": "Telefon, Kochen, Antwort → sino-japanisch, aber Ausnahme mit お"
+      }
+    ],
+    "notes": "Die Unterscheidung 和語→お / 漢語→ご ist eine hilfreiche Faustregel, aber kein absolutes Gesetz. Viele häufig verwendete 漢語 nehmen お (お電話, お料理, お食事, お返事, お天気). Fremdwörter (Katakana) erhalten normalerweise kein Präfix – おコーヒー oder おビール gelten als umgangssprachlich/scherzhaft. Im Zweifel hilft es, sich gebräuchliche Kombinationen einzuprägen.",
+    "related": ["keigo-bikago-obi", "keigo-bikago-gohan"]
+  },
+  {
+    "id": "keigo-bikago-otearai",
+    "pattern": "お手洗い（おてあらい）",
+    "level": "N3",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Toilette / Waschraum (höflich, immer mit お)",
+    "explanation": "お手洗い ist die höfliche Standardbezeichnung für „Toilette“ oder „Waschraum“. Wörtlich bedeutet es „Händewaschen“ (手を洗う). Das お-Präfix ist hier obligatorisch – 手洗い allein wird kaum im Sinne von „Toilette“ verwendet. お手洗い ist die bevorzugte Form in höflicher Sprache und die übliche Angabe auf Wegweisern in öffentlichen Gebäuden.",
+    "formation": "お + 手洗い（てあらい）— Präfix obligatorisch",
+    "examples": [
+      {
+        "japanese": "お手洗いはどこですか。",
+        "romaji": "Otearai wa doko desu ka.",
+        "german": "Wo ist die Toilette?"
+      },
+      {
+        "japanese": "お手洗いに行ってまいります。",
+        "romaji": "Otearai ni itte mairimasu.",
+        "german": "Ich gehe kurz zur Toilette. (sehr höflich)"
+      },
+      {
+        "japanese": "お手洗いはあちらでございます。",
+        "romaji": "Otearai wa achira de gozaimasu.",
+        "german": "Die Toilette ist dort drüben."
+      }
+    ],
+    "notes": "Japanisch hat mehrere Wörter für „Toilette“ mit unterschiedlichem Höflichkeitsgrad: トイレ (neutral, am häufigsten), お手洗い (höflich), 化粧室（けしょうしつ, „Schminkzimmer“, sehr höflich, in Kaufhäusern), お手水（おちょうず, traditionell/religiös). お手洗い ist die sicherste Wahl in höflicher Konversation.",
+    "related": ["keigo-bikago-obi", "keigo-teinei-degozaimasu"]
+  },
+  {
+    "id": "keigo-bikago-gochisou",
+    "pattern": "ご馳走（ごちそう）",
+    "level": "N3",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Festmahl / Bewirtung / Einladung zum Essen (immer mit ご)",
+    "explanation": "ご馳走 bedeutet „Festmahl“ oder „üppiges Essen“ und ist vor allem durch die Redewendung ご馳走様でした (Danke für das Essen) bekannt. Das ご-Präfix ist obligatorisch – 馳走 ohne ご wird nicht verwendet. Die Kanji 馳走 bedeuten wörtlich „umherrennen“, was darauf anspielt, dass der Gastgeber sich Mühe gibt, Zutaten zu beschaffen.",
+    "formation": "ご + 馳走（ちそう）— Präfix obligatorisch",
+    "examples": [
+      {
+        "japanese": "ご馳走様でした。",
+        "romaji": "Gochisōsama deshita.",
+        "german": "Danke für das Essen. (nach dem Essen gesagt)"
+      },
+      {
+        "japanese": "今日は私がご馳走します。",
+        "romaji": "Kyō wa watashi ga gochisō shimasu.",
+        "german": "Heute lade ich ein. (Ich bezahle.)"
+      },
+      {
+        "japanese": "すごいご馳走ですね！",
+        "romaji": "Sugoi gochisō desu ne!",
+        "german": "Was für ein tolles Festmahl!"
+      }
+    ],
+    "notes": "ご馳走様でした ist eine der wichtigsten japanischen Tischmanieren – man sagt es nach jeder Mahlzeit, ob zu Hause, im Restaurant oder wenn man eingeladen wird. Das Gegenstück vor dem Essen ist いただきます. ご馳走する bedeutet „jemanden einladen/freihalten“ und ist ein nützlicher Ausdruck im Alltag.",
+    "related": ["keigo-bikago-gohan", "keigo-bikago-obi"]
+  },
+  {
+    "id": "keigo-bikago-otsuri",
+    "pattern": "お釣り（おつり）",
+    "level": "N3",
+    "category": "Keigo",
+    "subcategory": "美化語",
+    "meaning": "Wechselgeld / Rückgeld (immer mit お)",
+    "explanation": "お釣り ist die Standardbezeichnung für „Wechselgeld“. Das お-Präfix ist hier obligatorisch – 釣り（つり）allein bedeutet „Angeln“ oder „Fischen“ und wird ohne お nicht im Sinne von „Wechselgeld“ verwendet. お釣り ist ein unverzichtbares Wort für den Alltag in Japan, besonders beim Einkaufen.",
+    "formation": "お + 釣り（つり）— Präfix obligatorisch für „Wechselgeld“",
+    "examples": [
+      {
+        "japanese": "お釣りをお確かめください。",
+        "romaji": "Otsuri wo otashikame kudasai.",
+        "german": "Bitte überprüfen Sie Ihr Wechselgeld."
+      },
+      {
+        "japanese": "お釣りは結構です。",
+        "romaji": "Otsuri wa kekkō desu.",
+        "german": "Das Wechselgeld können Sie behalten."
+      },
+      {
+        "japanese": "千円からお預かりします。お釣りは三百円です。",
+        "romaji": "Sen'en kara oazukari shimasu. Otsuri wa sanbyaku en desu.",
+        "german": "Ich nehme tausend Yen entgegen. Ihr Wechselgeld beträgt dreihundert Yen."
+      }
+    ],
+    "notes": "お釣り hört man ständig an japanischen Kassen. Obwohl Japan zunehmend bargeldloses Bezahlen einführt, ist Bargeld nach wie vor weit verbreitet. Die Kassenphrase お釣りは○○円です gehört zum täglichen Sprachgebrauch. Ohne お bedeutet 釣り ausschließlich „Angeln“.",
+    "related": ["keigo-bikago-okane", "keigo-bikago-obi"]
   }
 ]);

@@ -3627,6 +3627,426 @@
           tip: 'Die zwei Bedeutungen lassen sich leicht unterscheiden: Wenn ein Verb davor steht (変わる, 進む) → parallele Veränderung. Wenn ein Nomen davor steht (指示, ルール, 命令) → Anweisung/Regel folgen.'
         }
       ]
+    },
+
+    // ===================== LEKTION 81 =====================
+    {
+      id: 'lesson-81',
+      number: 81,
+      title: '質問のことば',
+      subtitle: 'Fragewörter — 何・誰・どこ・いつ・どう・なぜ',
+      level: 'N5',
+      intro: 'Fragen stellen ist der schnellste Weg, eine Sprache zu lernen — und im Japanischen sind Fragewörter erfreulich unkompliziert. Anders als im Deutschen musst du keine Satzstellung umdrehen: Das Fragewort rutscht einfach an die Stelle der gesuchten Information, und am Satzende kommt か. In dieser Lektion lernst du die wichtigsten Fragewörter kennen und siehst, wie flexibel sie einsetzbar sind. Trau dich ruhig, viel zu fragen — Japaner freuen sich über jede Frage, die auf Japanisch kommt!',
+      sections: [
+        {
+          heading: '何・誰・どこ・いつ — Was, Wer, Wo, Wann',
+          text: 'Die vier Grundfragen decken den Großteil aller Alltagssituationen ab. <strong>何 (なに/なん)</strong> fragt nach Dingen („was?"), <strong>誰 (だれ)</strong> nach Personen („wer?"), <strong>どこ</strong> nach Orten („wo/wohin?") und <strong>いつ</strong> nach Zeitpunkten („wann?"). Beachte: 何 wird vor bestimmten Lauten zu なん (z.B. 何ですか = なんですか), vor Partikeln bleibt es oft なに (何を = なにを). Das Fragewort steht genau dort im Satz, wo normalerweise die Antwort stehen würde.',
+          examples: [
+            { jp: 'これは何ですか。', romaji: 'Kore wa nan desu ka.', de: 'Was ist das?' },
+            { jp: '誰が来ましたか。', romaji: 'Dare ga kimashita ka.', de: 'Wer ist gekommen?' },
+            { jp: 'トイレはどこですか。', romaji: 'Toire wa doko desu ka.', de: 'Wo ist die Toilette?' },
+          ],
+          tip: 'いつ braucht kein に, wenn es als Fragewort steht: いつ行きますか (Wann gehst du?) — aber die Antwort braucht oft に: 三時に行きます.'
+        },
+        {
+          heading: 'どう・なぜ/どうして — Wie und Warum',
+          text: '<strong>どう</strong> fragt nach der Art und Weise („wie?") oder nach einer Meinung/Bewertung. <strong>なぜ</strong> und <strong>どうして</strong> fragen beide nach dem Grund („warum?"), wobei どうして etwas weicher und gesprächiger klingt, während なぜ eher schriftlich oder formell wirkt. Im Alltag hört man oft auch なんで, das noch lockerer ist. Die Antwort auf eine Warum-Frage enthält typischerweise から (weil) am Satzende.',
+          examples: [
+            { jp: '日本語はどうですか。', romaji: 'Nihongo wa dō desu ka.', de: 'Wie ist Japanisch (so für dich)?' },
+            { jp: 'どうして遅れましたか。', romaji: 'Dōshite okuremashita ka.', de: 'Warum hast du dich verspätet?' },
+            { jp: 'なぜ日本語を勉強していますか。', romaji: 'Naze nihongo o benkyō shite imasu ka.', de: 'Warum lernst du Japanisch?' },
+          ],
+          tip: 'どう vs どうやって: どう fragt allgemein nach dem „Wie" (Zustand/Meinung), どうやって fragt nach der konkreten Methode (wie genau macht man das?).'
+        },
+        {
+          heading: 'いくら・いくつ — Wie viel / Wie viele',
+          text: '<strong>いくら</strong> fragt nach dem Preis („wie viel kostet es?") und ist eines der nützlichsten Wörter beim Einkaufen. <strong>いくつ</strong> fragt nach der Anzahl („wie viele?") oder nach dem Alter (bei Kindern). Beide Wörter sind unverzichtbar im Alltag. Bei spezifischeren Mengenangaben verwendet man Zählwörter: 何人 (なんにん, wie viele Personen), 何個 (なんこ, wie viele Stück), 何枚 (なんまい, wie viele flache Dinge).',
+          examples: [
+            { jp: 'これはいくらですか。', romaji: 'Kore wa ikura desu ka.', de: 'Wie viel kostet das?' },
+            { jp: 'りんごはいくつありますか。', romaji: 'Ringo wa ikutsu arimasu ka.', de: 'Wie viele Äpfel gibt es?' },
+            { jp: '何人で行きますか。', romaji: 'Nannin de ikimasu ka.', de: 'Mit wie vielen Personen geht ihr?' },
+          ],
+          tip: 'いくつですか kann auch „Wie alt bist du?" bedeuten — aber nur bei kleinen Kindern. Bei Erwachsenen fragt man höflicher: おいくつですか oder 何歳ですか (なんさいですか).'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 82 =====================
+    {
+      id: 'lesson-82',
+      number: 82,
+      title: 'いる & ある',
+      subtitle: '存在動詞 — Existenzverben',
+      level: 'N5',
+      intro: 'Wo im Deutschen ein einziges „es gibt" reicht, unterscheidet Japanisch streng zwischen Lebendigem und Nicht-Lebendigem. いる ist für alles, was sich aus eigenem Antrieb bewegen kann — Menschen, Tiere, Insekten. ある ist für alles andere — Bücher, Gebäude, Ideen, Termine. Dieses Konzept klingt zunächst ungewohnt, wird aber schnell zur zweiten Natur. Diese beiden Verben gehören zu den häufigsten Wörtern im Japanischen überhaupt, also lohnt es sich, sie gründlich zu verinnerlichen.',
+      sections: [
+        {
+          heading: 'いる — Für Lebewesen',
+          text: '<strong>いる</strong> (höflich: います) drückt die Existenz oder den Aufenthaltsort von <strong>belebten Wesen</strong> aus — Menschen, Tiere, Fische, Insekten. Die Grundstruktur ist: <strong>Ort に + Lebewesen が + います</strong> (an Ort X gibt es Y) oder <strong>Lebewesen は + Ort に + います</strong> (Y ist an Ort X). Die Verneinung ist いません, die Vergangenheit いました.',
+          examples: [
+            { jp: '庭に猫がいます。', romaji: 'Niwa ni neko ga imasu.', de: 'Im Garten ist eine Katze.' },
+            { jp: '田中さんは教室にいます。', romaji: 'Tanaka-san wa kyōshitsu ni imasu.', de: 'Tanaka ist im Klassenzimmer.' },
+            { jp: '兄弟はいますか。', romaji: 'Kyōdai wa imasu ka.', de: 'Hast du Geschwister? (Wörtlich: Gibt es Geschwister?)' },
+          ],
+          tip: 'Auch Roboter und Geister: Figuren, denen man eine Art Eigenleben zuschreibt, nutzen oft いる — z.B. ロボットがいる. Im Zweifelsfall: Kann es sich von selbst bewegen? → いる.'
+        },
+        {
+          heading: 'ある — Für Gegenstände und Abstraktes',
+          text: '<strong>ある</strong> (höflich: あります) ist für <strong>unbelebte Dinge</strong> — Gegenstände, Gebäude, Pflanzen, abstrakte Konzepte und auch Termine oder Ereignisse. Die Struktur ist identisch zu いる, nur das Verb wechselt: <strong>Ort に + Ding が + あります</strong>. Die Verneinung ist ありません, die Vergangenheit ありました. Wichtig: Auch Pflanzen nutzen ある, obwohl sie „leben" — sie bewegen sich nicht eigenständig.',
+          examples: [
+            { jp: '机の上に本があります。', romaji: 'Tsukue no ue ni hon ga arimasu.', de: 'Auf dem Tisch liegt ein Buch.' },
+            { jp: 'コンビニはあそこにあります。', romaji: 'Konbini wa asoko ni arimasu.', de: 'Der Konbini ist dort drüben.' },
+            { jp: '明日テストがあります。', romaji: 'Ashita tesuto ga arimasu.', de: 'Morgen gibt es einen Test.' },
+          ],
+          tip: 'ある wird auch für Ereignisse benutzt: パーティーがある (es gibt eine Party), 会議がある (es gibt ein Meeting). Obwohl Menschen dabei sind, ist das Ereignis selbst unbelebt.'
+        },
+        {
+          heading: 'Verneinung und häufige Muster',
+          text: 'Die Verneinung funktioniert bei beiden Verben regelmäßig: いません / ありません (höflich) bzw. いない / ない (casual). Ein besonders nützliches Muster ist die Frage <strong>〜はありますか</strong> (haben Sie...?), die man beim Einkaufen ständig braucht. Auch die Kombination mit も (auch/sogar) ist wichtig: 何もない (es gibt nichts), 誰もいない (es ist niemand da).',
+          examples: [
+            { jp: '冷蔵庫に何もありません。', romaji: 'Reizōko ni nani mo arimasen.', de: 'Im Kühlschrank ist nichts.' },
+            { jp: '部屋に誰もいません。', romaji: 'Heya ni dare mo imasen.', de: 'Im Zimmer ist niemand.' },
+            { jp: 'すみません、Sサイズはありますか。', romaji: 'Sumimasen, esu-saizu wa arimasu ka.', de: 'Entschuldigung, haben Sie Größe S?' },
+          ],
+          tip: 'Merkhilfe: Fragewort + も + Verneinung = totale Verneinung. 何も (nichts), 誰も (niemand), どこにも (nirgendwo). Das funktioniert mit allen Fragewörtern!'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 83 =====================
+    {
+      id: 'lesson-83',
+      number: 83,
+      title: '数え方の基本',
+      subtitle: 'Zählwörter — つ・人・個・枚・本・杯',
+      level: 'N5',
+      intro: 'Japanisch zählt nicht einfach „eins, zwei, drei" — man braucht fast immer ein Zählwort (助数詞, じょすうし), das zur Form oder Art des gezählten Objekts passt. Flache Dinge werden anders gezählt als runde, lange anders als kleine. Das klingt zunächst überwältigend, aber keine Panik: Mit dem universellen つ-Zähler und einer Handvoll weiterer Zählwörter kommst du im Alltag bestens zurecht. Japaner verwenden selbst oft den つ-Zähler, wenn sie gerade nicht wissen, welches spezielle Zählwort passt.',
+      sections: [
+        {
+          heading: 'Der つ-Zähler — Dein Rettungsring',
+          text: 'Der <strong>つ-Zähler</strong> (ひとつ, ふたつ, みっつ...) verwendet die alt-japanischen Zahlen und funktioniert als <strong>universeller Zähler</strong> für fast alles — besonders wenn man das spezifische Zählwort nicht kennt. Er geht von ひとつ (1) bis とお (10); darüber hinaus wechselt man auf spezifische Zähler oder nutzt einfach die sino-japanischen Zahlen. Die Formen klingen anfangs ungewohnt, weil sie komplett anders als いち, に, さん sind.',
+          examples: [
+            { jp: 'りんごをみっつください。', romaji: 'Ringo o mittsu kudasai.', de: 'Drei Äpfel, bitte.' },
+            { jp: 'ひとつだけ質問があります。', romaji: 'Hitotsu dake shitsumon ga arimasu.', de: 'Ich habe nur eine Frage.' },
+            { jp: 'ケーキをふたつ買いました。', romaji: 'Kēki o futatsu kaimashita.', de: 'Ich habe zwei Kuchen gekauft.' },
+          ],
+          tip: 'Die Reihe auswendig lernen: ひとつ, ふたつ, みっつ, よっつ, いつつ, むっつ, ななつ, やっつ, ここのつ, とお. Ab 11 gibt es keine つ-Form mehr — dann nimmt man spezifische Zähler.'
+        },
+        {
+          heading: '人・個・枚 — Personen, Stücke, flache Dinge',
+          text: '<strong>人 (にん/り)</strong> zählt Personen — aber Vorsicht: 一人 (ひとり) und 二人 (ふたり) sind unregelmäßig, ab drei wird es regelmäßig (三人 = さんにん). <strong>個 (こ)</strong> zählt kleine, kompakte, runde Dinge wie Eier, Äpfel, Bonbons. <strong>枚 (まい)</strong> zählt flache, dünne Dinge wie Papier, Teller, T-Shirts, Tickets, Pizzen. Diese drei Zähler decken zusammen mit つ schon einen Großteil des Alltags ab.',
+          examples: [
+            { jp: '三人で食べに行きました。', romaji: 'Sannin de tabe ni ikimashita.', de: 'Wir sind zu dritt essen gegangen.' },
+            { jp: '卵を六個買いました。', romaji: 'Tamago o rokko kaimashita.', de: 'Ich habe sechs Eier gekauft.' },
+            { jp: '切符を二枚ください。', romaji: 'Kippu o nimai kudasai.', de: 'Zwei Fahrkarten, bitte.' },
+          ],
+          tip: 'Bei 個 gibt es Lautveränderungen: いっこ (1), ろっこ (6), はっこ (8), じゅっこ (10). Diese sogenannten „促音変化" (Lautverdoppelungen) kommen bei vielen Zählwörtern vor.'
+        },
+        {
+          heading: '本・杯 — Lange Dinge und Getränke',
+          text: '<strong>本 (ほん/ぼん/ぽん)</strong> zählt lange, dünne Dinge — Stifte, Flaschen, Bäume, Regenschirme, Filme, Telefonanrufe und sogar Zuglinien. Die Aussprache wechselt: いっぽん, にほん, さんぼん, よんほん... <strong>杯 (はい/ばい/ぱい)</strong> zählt Gefäße mit Inhalt — Tassen, Gläser, Schüsseln. Auch hier wechselt die Aussprache: いっぱい, にはい, さんばい. Um nach der Anzahl zu fragen, setzt man 何 (なん) vor das Zählwort: 何本 (なんぼん), 何杯 (なんばい), 何人 (なんにん).',
+          examples: [
+            { jp: 'ペンを三本持っています。', romaji: 'Pen o sanbon motte imasu.', de: 'Ich habe drei Stifte.' },
+            { jp: 'コーヒーを一杯飲みました。', romaji: 'Kōhī o ippai nomimashita.', de: 'Ich habe eine Tasse Kaffee getrunken.' },
+            { jp: '何人来ますか。', romaji: 'Nannin kimasu ka.', de: 'Wie viele Personen kommen?' },
+          ],
+          tip: 'Wenn du das passende Zählwort vergisst, nimm einfach den つ-Zähler oder die bloße Zahl — man wird dich trotzdem verstehen. Perfektion kommt mit der Zeit!'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 84 =====================
+    {
+      id: 'lesson-84',
+      number: 84,
+      title: '時間の表現',
+      subtitle: 'Zeitausdrücke — 前に・後で・時・ごろ・まで・から・間',
+      level: 'N5',
+      intro: 'Zeit spielt in jeder Sprache eine zentrale Rolle, und Japanisch hat ein elegantes System, um zeitliche Beziehungen auszudrücken. In dieser Lektion lernst du die wichtigsten Zeitwörter und -partikel kennen — von „bevor" über „nachdem" bis hin zu „während". Mit diesen Bausteinen kannst du erzählen, was du wann gemacht hast, was du als Nächstes vorhast und wie dein Tagesablauf aussieht. Die gute Nachricht: Die meisten Formen folgen klaren, logischen Mustern.',
+      sections: [
+        {
+          heading: '前に・後で — Vorher und Nachher',
+          text: '<strong>前に (まえに)</strong> bedeutet „bevor" oder „vor" und wird entweder an ein Verb in der Grundform (辞書形) oder an ein Nomen + の angehängt. <strong>後で (あとで)</strong> bedeutet „nachdem" oder „nach" und folgt auf die た-Form eines Verbs oder auf ein Nomen + の. Beide sind unverzichtbar, um zeitliche Abfolgen zu beschreiben. Beachte: 前に kann auch räumlich „vor" bedeuten (建物の前に = vor dem Gebäude).',
+          examples: [
+            { jp: '寝る前に歯を磨きます。', romaji: 'Neru mae ni ha o migakimasu.', de: 'Bevor ich schlafe, putze ich mir die Zähne.' },
+            { jp: '食べた後でコーヒーを飲みます。', romaji: 'Tabeta ato de kōhī o nomimasu.', de: 'Nachdem ich gegessen habe, trinke ich Kaffee.' },
+            { jp: '授業の前に予習します。', romaji: 'Jugyō no mae ni yoshū shimasu.', de: 'Vor dem Unterricht bereite ich mich vor.' },
+          ],
+          tip: '前に nimmt die Grundform (辞書形), nicht die ます-Form: 食べる前に (richtig), 食べます前に (falsch). 後で nimmt die た-Form: 食べた後で (richtig).'
+        },
+        {
+          heading: '時・ごろ — Zeitpunkt und ungefähre Zeit',
+          text: '<strong>時 (とき)</strong> bedeutet „als" oder „wenn" und wird an Verben, Adjektive oder Nomen + の angehängt: 子供の時 (als ich ein Kind war), 暇な時 (wenn ich frei bin), 食べる時 (wenn ich esse). <strong>ごろ</strong> bedeutet „ungefähr (um)" bei Uhrzeiten und Zeitangaben: 三時ごろ (ungefähr um drei). Verwechsle ごろ nicht mit ぐらい — ごろ ist für Zeitpunkte, ぐらい für Zeitdauern und Mengen.',
+          examples: [
+            { jp: '日本にいた時、毎日ラーメンを食べました。', romaji: 'Nihon ni ita toki, mainichi rāmen o tabemashita.', de: 'Als ich in Japan war, habe ich jeden Tag Ramen gegessen.' },
+            { jp: '七時ごろ起きます。', romaji: 'Shichi-ji goro okimasu.', de: 'Ich stehe ungefähr um sieben auf.' },
+            { jp: '暇な時、映画を見ます。', romaji: 'Hima na toki, eiga o mimasu.', de: 'Wenn ich frei bin, schaue ich Filme.' },
+          ],
+          tip: '時 ist extrem vielseitig — Vergangenheit vor 時 (食べた時 = als ich aß) und Gegenwart vor 時 (食べる時 = wenn ich esse/bevor ich esse). Der Tempus vor 時 beeinflusst die Bedeutung!'
+        },
+        {
+          heading: 'から・まで・間 — Von, Bis, Während',
+          text: '<strong>から</strong> markiert den Startpunkt einer Zeitspanne („ab/von/seit"), <strong>まで</strong> den Endpunkt („bis"). Zusammen bilden sie das Paar: 九時から五時まで (von 9 bis 5). <strong>間 (あいだ)</strong> bedeutet „während" oder „in der Zeitspanne" und wird oft mit に kombiniert (間に = während [eines Zeitraums], irgendwann innerhalb). Ohne に betont 間 die gesamte Dauer: 夏休みの間 (die gesamten Sommerferien über).',
+          examples: [
+            { jp: '月曜日から金曜日まで働きます。', romaji: 'Getsuyōbi kara kinyōbi made hatarakimasu.', de: 'Ich arbeite von Montag bis Freitag.' },
+            { jp: '授業は何時までですか。', romaji: 'Jugyō wa nanji made desu ka.', de: 'Bis wann geht der Unterricht?' },
+            { jp: '寝ている間に雪が降りました。', romaji: 'Nete iru aida ni yuki ga furimashita.', de: 'Während ich schlief, hat es geschneit.' },
+          ],
+          tip: 'から kann auch „weil" bedeuten (Grund), nicht nur „ab" (Zeit). Der Kontext macht es klar: 時間がないから (weil ich keine Zeit habe) vs 三時から (ab drei Uhr).'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 85 =====================
+    {
+      id: 'lesson-85',
+      number: 85,
+      title: 'もう & まだ',
+      subtitle: 'Schon, noch, noch nicht, nicht mehr',
+      level: 'N5',
+      intro: 'Zwei kleine Wörter, vier große Bedeutungen — もう und まだ gehören zu den Wörtern, die man vom ersten Tag an braucht. „Hast du schon gegessen?" „Nein, noch nicht." „Lernst du noch?" „Nein, nicht mehr." Solche Sätze sind im Alltag allgegenwärtig, und das Schöne ist: Die Logik hinter もう und まだ ist kristallklar, wenn man sie einmal als System versteht. Es geht immer um die Frage, ob ein erwarteter Zustandswechsel bereits stattgefunden hat — oder eben noch nicht.',
+      sections: [
+        {
+          heading: 'もう + Vergangenheit — „Schon gemacht"',
+          text: '<strong>もう</strong> kombiniert mit einer <strong>positiven Vergangenheitsform</strong> bedeutet „schon, bereits". Es signalisiert, dass eine erwartete Handlung abgeschlossen ist. Die Frage もう〜ましたか (Hast du schon...?) ist eine der häufigsten Alltagsfragen überhaupt. Auf die Frage もう食べましたか antwortet man entweder はい、もう食べました (Ja, schon) oder いいえ、まだです (Nein, noch nicht).',
+          examples: [
+            { jp: 'もう宿題をしましたか。', romaji: 'Mō shukudai o shimashita ka.', de: 'Hast du die Hausaufgaben schon gemacht?' },
+            { jp: 'はい、もうしました。', romaji: 'Hai, mō shimashita.', de: 'Ja, hab ich schon.' },
+            { jp: 'もう昼ごはんを食べました。', romaji: 'Mō hirugohan o tabemashita.', de: 'Ich habe schon Mittagessen gegessen.' },
+          ],
+          tip: 'もう kann auch „bald / gleich" bedeuten, wenn es mit Gegenwart/Zukunft kombiniert wird: もう行きます (Ich gehe jetzt gleich), もうすぐ来ます (Er kommt gleich). Hier drückt もう eine unmittelbar bevorstehende Veränderung aus.'
+        },
+        {
+          heading: 'まだ — „Noch" und „Noch nicht"',
+          text: '<strong>まだ + positive Form</strong> bedeutet „noch, immer noch" — ein Zustand dauert an, der irgendwann enden wird. <strong>まだ + negative Form</strong> (oder einfach まだです) bedeutet „noch nicht" — etwas Erwartetes ist noch nicht eingetreten. まだです ist die Standard-Kurzantwort auf もう〜ましたか-Fragen und extrem häufig im Alltag.',
+          examples: [
+            { jp: 'まだ雨が降っています。', romaji: 'Mada ame ga futte imasu.', de: 'Es regnet immer noch.' },
+            { jp: 'まだ食べていません。', romaji: 'Mada tabete imasen.', de: 'Ich habe noch nicht gegessen.' },
+            { jp: 'レポートはまだですか。', romaji: 'Repōto wa mada desu ka.', de: 'Ist der Bericht noch nicht fertig?' },
+          ],
+          tip: 'まだ + ている = ein Zustand dauert an (まだ寝ている = schläft noch). まだ + ていない = eine erwartete Handlung steht noch aus (まだ寝ていない = ist noch nicht eingeschlafen).'
+        },
+        {
+          heading: 'もう + Verneinung — „Nicht mehr"',
+          text: '<strong>もう + negative Form</strong> bedeutet „nicht mehr / nicht länger" — ein Zustand, der früher bestand, ist jetzt vorbei. Das ist die vierte und letzte Kombination des Systems. Zusammengefasst ergibt sich ein elegantes Viereck: もう+positiv = schon; まだ+positiv = noch/immer noch; まだ+negativ = noch nicht; もう+negativ = nicht mehr. Dieses System ist vollkommen symmetrisch und logisch.',
+          examples: [
+            { jp: 'もうお酒は飲みません。', romaji: 'Mō osake wa nomimasen.', de: 'Ich trinke keinen Alkohol mehr.' },
+            { jp: 'もう子供じゃありません。', romaji: 'Mō kodomo ja arimasen.', de: 'Ich bin kein Kind mehr.' },
+            { jp: 'あの店はもうありません。', romaji: 'Ano mise wa mō arimasen.', de: 'Den Laden gibt es nicht mehr.' },
+          ],
+          tip: 'Das Vierer-System auf einen Blick: もう＋肯定 = schon ✓ | まだ＋肯定 = noch ↔ | まだ＋否定 = noch nicht ✗→ | もう＋否定 = nicht mehr ←✗. Lerne dieses Muster als Einheit — es kommt in jeder JLPT-Prüfung vor!'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 86 =====================
+    {
+      id: 'lesson-86',
+      number: 86,
+      title: '比較の基本',
+      subtitle: 'Vergleiche — より・ほう・一番',
+      level: 'N5',
+      intro: 'Vergleichen gehört zu den grundlegendsten Dingen, die wir in einer Sprache tun: Was ist größer, was schmeckt besser, wer ist schneller? Im Japanischen funktionieren Vergleiche anders als im Deutschen — es gibt keine Steigerungsformen wie „größer" oder „am größten". Stattdessen nutzt man Konstruktionen mit より (als), ほう (Seite/Alternative) und 一番 (Nummer eins). Klingt ungewohnt, ist aber letztlich einfacher als das deutsche System mit seinen unregelmäßigen Formen.',
+      sections: [
+        {
+          heading: 'AはBより〜 — A ist [mehr] als B',
+          text: 'Die Grundstruktur des Vergleichs ist <strong>A は B より + Adjektiv + です</strong>. Das bedeutet: „A ist [adjektiv]-er als B." Das Adjektiv bleibt in seiner Grundform — kein „-er" nötig! より bedeutet wörtlich so etwas wie „von B aus gesehen" oder „verglichen mit B". Die Reihenfolge ist flexibel, aber A は B より ist die häufigste Anordnung.',
+          examples: [
+            { jp: '東京は大阪より大きいです。', romaji: 'Tōkyō wa Ōsaka yori ōkii desu.', de: 'Tokyo ist größer als Osaka.' },
+            { jp: '夏は冬より好きです。', romaji: 'Natsu wa fuyu yori suki desu.', de: 'Den Sommer mag ich lieber als den Winter.' },
+            { jp: '日本語は英語より難しいです。', romaji: 'Nihongo wa eigo yori muzukashii desu.', de: 'Japanisch ist schwieriger als Englisch.' },
+          ],
+          tip: 'Im Japanischen ändert sich das Adjektiv NIE: 大きい bleibt 大きい, egal ob Grundform oder Vergleich. Nur der Kontext (より) zeigt, dass verglichen wird.'
+        },
+        {
+          heading: 'AのほうがBより〜 — Betonte Vergleiche',
+          text: 'Wenn du betonen willst, welche Seite im Vergleich hervorsticht, nutzt du <strong>A のほうが B より + Adjektiv</strong>. ほう bedeutet „Seite" oder „Alternative" und macht den Vergleich expliziter. Diese Form ist besonders häufig in Antworten auf Vergleichsfragen. Man kann den より-Teil auch weglassen, wenn der Vergleichspartner aus dem Kontext klar ist: Aのほうが好きです (Ich mag A lieber).',
+          examples: [
+            { jp: '電車のほうがバスより速いです。', romaji: 'Densha no hō ga basu yori hayai desu.', de: 'Die Bahn ist schneller als der Bus.' },
+            { jp: 'こっちのほうが安いです。', romaji: 'Kotchi no hō ga yasui desu.', de: 'Dieses hier ist günstiger.' },
+            { jp: '紅茶のほうが好きです。', romaji: 'Kōcha no hō ga suki desu.', de: 'Ich mag Tee lieber (als das andere).' },
+          ],
+          tip: 'ほう wird oft in Empfehlungen verwendet: こっちのほうがいいですよ (Dieses hier ist besser!). Sehr nützlich beim Einkaufen und Entscheiden.'
+        },
+        {
+          heading: '一番 & どちらが〜 — Superlativ und Vergleichsfragen',
+          text: '<strong>一番 (いちばん)</strong> bedeutet „am meisten / Nummer eins" und wird direkt vor das Adjektiv gesetzt, um den Superlativ auszudrücken: 一番 + Adjektiv. Für Vergleichsfragen zwischen zwei Dingen nutzt man <strong>どちらが〜ですか</strong> (Welches von beiden ist...?). Bei drei oder mehr Dingen fragt man mit <strong>どれが一番〜ですか</strong> oder <strong>何が一番〜ですか</strong>.',
+          examples: [
+            { jp: '日本で一番高い山は富士山です。', romaji: 'Nihon de ichiban takai yama wa Fuji-san desu.', de: 'Der höchste Berg in Japan ist der Fuji.' },
+            { jp: 'コーヒーと紅茶とどちらが好きですか。', romaji: 'Kōhī to kōcha to dochira ga suki desu ka.', de: 'Was magst du lieber, Kaffee oder Tee?' },
+            { jp: '何が一番おいしかったですか。', romaji: 'Nani ga ichiban oishikatta desu ka.', de: 'Was war am leckersten?' },
+          ],
+          tip: '一番 kann auch als „am liebsten" verwendet werden: 一番好きな食べ物は何ですか (Was ist dein Lieblingsessen?). Und: で markiert den Rahmen des Superlativs — クラスで一番 (in der Klasse am meisten), 世界で一番 (auf der Welt am meisten).'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 87 =====================
+    {
+      id: 'lesson-87',
+      number: 87,
+      title: 'あげる・もらう・くれる 入門',
+      subtitle: 'Geben & Empfangen — Die Perspektive zählt',
+      level: 'N5',
+      intro: 'Im Deutschen gibt es ein „geben" und ein „bekommen" — fertig. Japanisch hingegen hat gleich drei Grundverben fürs Geben und Empfangen, und die Wahl hängt davon ab, wer gibt, wer empfängt und aus wessen Perspektive erzählt wird. Das klingt anfangs verwirrend, aber es steckt ein wunderschönes System dahinter, das Respekt und soziale Beziehungen in die Sprache einwebt. Fangen wir mit den Grundlagen an — die höflicheren Varianten kommen in späteren Lektionen.',
+      sections: [
+        {
+          heading: 'あげる — Ich gebe (weg von mir)',
+          text: '<strong>あげる</strong> bedeutet „geben" und wird verwendet, wenn der Sprecher (oder jemand aus der Gruppe des Sprechers) etwas an eine andere Person gibt. Die Richtung geht <strong>weg vom Sprecher</strong>. Die Grundstruktur ist: <strong>Geber は Empfänger に Objekt を あげる</strong>. あげる kann auch verwendet werden, wenn eine dritte Person einer anderen dritten Person etwas gibt — solange es nicht „an mich" gerichtet ist.',
+          examples: [
+            { jp: '友達に本をあげました。', romaji: 'Tomodachi ni hon o agemashita.', de: 'Ich habe meinem Freund ein Buch gegeben.' },
+            { jp: '母は妹にケーキをあげました。', romaji: 'Haha wa imōto ni kēki o agemashita.', de: 'Meine Mutter hat meiner Schwester Kuchen gegeben.' },
+            { jp: '田中さんに何をあげますか。', romaji: 'Tanaka-san ni nani o agemasu ka.', de: 'Was gibst du Tanaka?' },
+          ],
+          tip: 'Wichtig: Sage NIE 私にあげる für „jemand gibt MIR etwas" — dafür brauchst du くれる. あげる geht immer weg vom Sprecher!'
+        },
+        {
+          heading: 'くれる — Jemand gibt mir (zu mir hin)',
+          text: '<strong>くれる</strong> bedeutet ebenfalls „geben", aber die Richtung ist umgekehrt: Jemand gibt dem Sprecher (oder seiner In-Group) etwas. Die Bewegung geht <strong>zum Sprecher hin</strong>. くれる enthält immer eine Nuance der Dankbarkeit — der Sprecher empfindet die Gabe als freundliche Geste. Die Struktur ist: <strong>Geber が/は (私に) Objekt を くれる</strong>. Das 私に wird oft weggelassen, weil es durch くれる schon klar ist.',
+          examples: [
+            { jp: '友達が本をくれました。', romaji: 'Tomodachi ga hon o kuremashita.', de: 'Mein Freund hat mir ein Buch gegeben.' },
+            { jp: '先生は丁寧に説明してくれました。', romaji: 'Sensei wa teinei ni setsumei shite kuremashita.', de: 'Der Lehrer hat (mir) freundlicherweise genau erklärt.' },
+            { jp: '誰がこれをくれましたか。', romaji: 'Dare ga kore o kuremashita ka.', de: 'Wer hat mir das gegeben?' },
+          ],
+          tip: 'くれる drückt immer Dankbarkeit aus. 〜てくれる (jemand tut etwas für mich) ist eines der häufigsten und wichtigsten Muster im Japanischen — es zeigt, dass man die Handlung des anderen wertschätzt.'
+        },
+        {
+          heading: 'もらう — Ich empfange (ich bekomme)',
+          text: '<strong>もらう</strong> bedeutet „bekommen/empfangen" und wird aus der Perspektive des Empfängers verwendet. Die Struktur ist: <strong>Empfänger は Geber に/から Objekt を もらう</strong>. Im Gegensatz zu くれる (wo der Geber im Fokus steht) steht bei もらう der Empfänger im Mittelpunkt. Auch もらう enthält eine Nuance der Dankbarkeit. Mit に oder から markiert man die Quelle.',
+          examples: [
+            { jp: '友達に本をもらいました。', romaji: 'Tomodachi ni hon o moraimashita.', de: 'Ich habe von meinem Freund ein Buch bekommen.' },
+            { jp: '誕生日に何をもらいましたか。', romaji: 'Tanjōbi ni nani o moraimashita ka.', de: 'Was hast du zum Geburtstag bekommen?' },
+            { jp: '会社からボーナスをもらいました。', romaji: 'Kaisha kara bōnasu o moraimashita.', de: 'Ich habe von der Firma einen Bonus bekommen.' },
+          ],
+          tip: 'Einfache Merkhilfe: あげる = ↑ weg von mir, くれる = ↓ zu mir hin, もらう = ← ich nehme entgegen. Denk an den Pfeil und du wählst immer richtig!'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 88 =====================
+    {
+      id: 'lesson-88',
+      number: 88,
+      title: '～ましょう・～ませんか',
+      subtitle: 'Vorschläge & Einladungen — Zusammen etwas tun',
+      level: 'N5',
+      intro: 'Wie schlägt man auf Japanisch vor, gemeinsam etwas zu tun? Wie lädt man höflich ein? Und wie bietet man Hilfe an? In dieser Lektion lernst du drei eng verwandte Formen kennen, die alle auf der ます-Form aufbauen. Der Unterschied zwischen ihnen liegt in der Nuance: von der lockeren Aufforderung über die höfliche Einladung bis zum zuvorkommenden Hilfsangebot. Alle drei Formen sind extrem häufig im Alltag und in der JLPT-Prüfung.',
+      sections: [
+        {
+          heading: '～ましょう — „Lass uns...!"',
+          text: '<strong>～ましょう</strong> wird gebildet, indem man ます durch ましょう ersetzt. Es drückt einen <strong>Vorschlag oder eine gemeinsame Absicht</strong> aus — „Lass uns X tun!" Der Sprecher geht dabei davon aus, dass der andere mitmacht. Es ist energisch, positiv und etwas direkter als ～ませんか. Man verwendet es, wenn man sich relativ sicher ist, dass der andere einverstanden ist.',
+          examples: [
+            { jp: '一緒に食べましょう。', romaji: 'Issho ni tabemashō.', de: 'Lass uns zusammen essen!' },
+            { jp: '映画を見ましょう。', romaji: 'Eiga o mimashō.', de: 'Lass uns einen Film schauen!' },
+            { jp: 'そろそろ帰りましょう。', romaji: 'Sorosoro kaerimashō.', de: 'Lass uns so langsam nach Hause gehen.' },
+          ],
+          tip: 'ましょう klingt entschlossen — wie „Los geht\'s!" Wenn du höflicher und vorsichtiger einladen willst, nimm ませんか.'
+        },
+        {
+          heading: '～ませんか — „Möchten Sie nicht...?"',
+          text: '<strong>～ませんか</strong> wird gebildet, indem man ます durch ませんか ersetzt. Wörtlich ist es eine verneinte Frage: „Tun Sie es nicht?" Aber pragmatisch ist es eine <strong>höfliche Einladung</strong>: „Möchten Sie nicht...? Hätten Sie Lust...?" Es ist zurückhaltender als ましょう und lässt dem Gegenüber die Freiheit, abzulehnen. Daher ist es die bevorzugte Form, wenn man jemanden einlädt, den man nicht so gut kennt.',
+          examples: [
+            { jp: '一緒にお茶を飲みませんか。', romaji: 'Issho ni ocha o nomimasen ka.', de: 'Möchten Sie nicht zusammen Tee trinken?' },
+            { jp: '今度カラオケに行きませんか。', romaji: 'Kondo karaoke ni ikimasen ka.', de: 'Wollen wir nächstes Mal Karaoke gehen?' },
+            { jp: '週末、映画を見ませんか。', romaji: 'Shūmatsu, eiga o mimasen ka.', de: 'Wollen wir am Wochenende einen Film schauen?' },
+          ],
+          tip: 'ませんか ist DIE Form für Einladungen und Verabredungen. In der JLPT-Hörverständnis-Prüfung kommt sie ständig vor!'
+        },
+        {
+          heading: '～ましょうか — „Soll ich...?"',
+          text: '<strong>～ましょうか</strong> (ましょう + か) hat zwei Bedeutungen: (1) <strong>Hilfsangebot</strong>: „Soll ich X für Sie tun?" — hier bietet der Sprecher freundlich seine Hilfe an. (2) <strong>Gemeinsame Entscheidung</strong>: „Sollen wir X tun?" — hier sucht der Sprecher Zustimmung für einen gemeinsamen Plan. Die Bedeutung ergibt sich aus dem Kontext.',
+          examples: [
+            { jp: '荷物を持ちましょうか。', romaji: 'Nimotsu o mochimashō ka.', de: 'Soll ich das Gepäck tragen?' },
+            { jp: '窓を開けましょうか。', romaji: 'Mado o akemashō ka.', de: 'Soll ich das Fenster öffnen?' },
+            { jp: '何時に会いましょうか。', romaji: 'Nanji ni aimashō ka.', de: 'Um wie viel Uhr sollen wir uns treffen?' },
+          ],
+          tip: 'Unterschied auf den Punkt: ましょう = „Los!" (Entschluss), ませんか = „Wie wäre es?" (Einladung), ましょうか = „Soll ich / Sollen wir?" (Angebot/Frage). Alle drei sind höflich, aber in verschiedenen Situationen passend.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 89 =====================
+    {
+      id: 'lesson-89',
+      number: 89,
+      title: '～ながら・～たり～たりする',
+      subtitle: 'Gleichzeitig & abwechselnd — Mehrere Aktionen',
+      level: 'N5',
+      intro: 'Manchmal tut man zwei Dinge gleichzeitig, manchmal macht man abwechselnd dies und das. Japanisch hat für beide Situationen elegante Strukturen: ながら für gleichzeitige Handlungen und たり〜たりする für eine lose Aufzählung von Aktivitäten. Beide Formen sind im Alltag extrem nützlich und werden schon ab N5 erwartet. Wenn du beschreiben willst, wie dein Tag aussieht oder was du so in deiner Freizeit machst, wirst du diese Formen ständig brauchen.',
+      sections: [
+        {
+          heading: '～ながら — Zwei Dinge gleichzeitig',
+          text: '<strong>～ながら</strong> drückt aus, dass zwei Handlungen <strong>gleichzeitig</strong> stattfinden — wie „während" im Deutschen. Die Bildung ist einfach: <strong>Verb-ます-Stamm + ながら + Haupthandlung</strong>. Wichtig: Die Haupthandlung (= das Wichtigere) steht am Satzende, die Nebenhandlung (= das Nebenbei) steht vor ながら. Beide Handlungen müssen vom selben Subjekt ausgeführt werden.',
+          examples: [
+            { jp: '音楽を聴きながら勉強します。', romaji: 'Ongaku o kikinagara benkyō shimasu.', de: 'Ich lerne, während ich Musik höre.' },
+            { jp: '歩きながら電話しないでください。', romaji: 'Arukinagara denwa shinaide kudasai.', de: 'Bitte telefoniere nicht beim Gehen.' },
+            { jp: 'テレビを見ながらご飯を食べます。', romaji: 'Terebi o minagara gohan o tabemasu.', de: 'Ich esse, während ich fernsehe.' },
+          ],
+          tip: 'Die Nebenhandlung vor ながら ist die WENIGER wichtige Tätigkeit. 歌いながら料理する = Ich koche (Hauptsache) und singe dabei (nebenbei). Die Reihenfolge zählt!'
+        },
+        {
+          heading: '～たり～たりする — Dies und das tun',
+          text: '<strong>～たり～たりする</strong> zählt <strong>mehrere Handlungen lose auf</strong>, ohne Anspruch auf Vollständigkeit — wie „unter anderem X und Y machen". Die Bildung: <strong>Verb た-Form + り</strong> für jede Aktivität, am Ende steht <strong>する</strong> (します). Man listet meistens zwei bis drei Aktivitäten auf, aber auch eine einzige たり-Form ist möglich (dann bedeutet es „so etwas wie X tun"). Die Form funktioniert auch mit Adjektiven und Nomen.',
+          examples: [
+            { jp: '週末は本を読んだり映画を見たりします。', romaji: 'Shūmatsu wa hon o yondari eiga o mitari shimasu.', de: 'Am Wochenende lese ich Bücher, schaue Filme und so weiter.' },
+            { jp: '日本で寿司を食べたり温泉に入ったりしました。', romaji: 'Nihon de sushi o tabetari onsen ni haittari shimashita.', de: 'In Japan habe ich unter anderem Sushi gegessen und in Onsen gebadet.' },
+            { jp: '天気は暑かったり寒かったりします。', romaji: 'Tenki wa atsukattari samukattari shimasu.', de: 'Das Wetter ist mal heiß, mal kalt.' },
+          ],
+          tip: 'Vergiss das する am Ende nicht! 読んだり見たり... → 読んだり見たりします。Das する trägt die Zeitform (します, しました, したい etc.).'
+        },
+        {
+          heading: 'ながら vs たり〜たりする — Der Unterschied',
+          text: 'Beide Formen beschreiben mehrere Handlungen, aber auf grundlegend verschiedene Weise: <strong>ながら</strong> = zwei Dinge <strong>gleichzeitig</strong> (Musik hören UND lernen, zur selben Zeit). <strong>たり〜たりする</strong> = mehrere Dinge <strong>abwechselnd oder aufzählend</strong> (lesen, fernsehen, spazieren — nicht unbedingt zur selben Zeit). Bei ながら muss das Subjekt identisch sein; bei たり nicht zwingend, wenn es ein übergreifendes Thema gibt.',
+          examples: [
+            { jp: 'コーヒーを飲みながら新聞を読みます。', romaji: 'Kōhī o nominagara shinbun o yomimasu.', de: 'Ich lese Zeitung, während ich Kaffee trinke. (gleichzeitig)' },
+            { jp: '休みの日は買い物をしたり掃除をしたりします。', romaji: 'Yasumi no hi wa kaimono o shitari sōji o shitari shimasu.', de: 'An freien Tagen gehe ich einkaufen, putze und so. (abwechselnd)' },
+            { jp: '散歩したり写真を撮ったりして楽しみました。', romaji: 'Sanpo shitari shashin o tottari shite tanoshimimashita.', de: 'Ich hatte Spaß mit Spazierengehen, Fotografieren und so weiter.' },
+          ],
+          tip: 'Eselsbrücke: ながら = gleichzeitig (multitasking), たり = nacheinander oder lose aufgezählt (Liste). Wenn du „unter anderem" sagen willst, nimm たり!'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 90 =====================
+    {
+      id: 'lesson-90',
+      number: 90,
+      title: '～すぎる・～やすい・～にくい',
+      subtitle: 'Zu viel, leicht zu, schwer zu — Verben & Adjektive modifizieren',
+      level: 'N5',
+      intro: 'Wie sagt man „zu teuer", „leicht zu verstehen" oder „schwer zu lesen"? Im Japanischen hängt man dafür einfach Suffixe an den Verbstamm oder Adjektivstamm — kein Umschreiben nötig. Diese drei Formen sind unglaublich praktisch und gehören zum absoluten Grundwortschatz. Du wirst sie täglich brauchen: beim Einkaufen (高すぎる!), beim Lernen (わかりやすい!), beim Essen (食べにくい...). In dieser Lektion lernst du alle drei kennen und vermeidest die typischen Anfängerfehler.',
+      sections: [
+        {
+          heading: '～すぎる — Zu viel / Übertreiben',
+          text: '<strong>～すぎる</strong> bedeutet „zu viel / zu sehr" und drückt aus, dass etwas das angemessene Maß überschreitet. Die Bildung: <strong>Verb-ます-Stamm + すぎる</strong> (食べすぎる = zu viel essen) oder <strong>い-Adjektiv ohne い + すぎる</strong> (高すぎる = zu teuer) oder <strong>な-Adjektiv + すぎる</strong> (静かすぎる = zu ruhig). すぎる verhält sich selbst wie ein る-Verb und kann konjugiert werden: すぎます, すぎた, すぎない.',
+          examples: [
+            { jp: '昨日、食べすぎました。', romaji: 'Kinō, tabesugimashita.', de: 'Gestern habe ich zu viel gegessen.' },
+            { jp: 'このバッグは高すぎます。', romaji: 'Kono baggu wa takasugimasu.', de: 'Diese Tasche ist zu teuer.' },
+            { jp: '昨夜、飲みすぎて頭が痛いです。', romaji: 'Sakuya, nomisugite atama ga itai desu.', de: 'Ich habe gestern Abend zu viel getrunken und habe Kopfschmerzen.' },
+          ],
+          tip: 'Häufiger Fehler: 高いすぎる (falsch!) — das い muss weg! Richtig: 高すぎる. Bei な-Adjektiven fällt な weg: 静か＋すぎる = 静かすぎる. Und: いい/良い wird zu よすぎる (nicht いすぎる).'
+        },
+        {
+          heading: '～やすい — Leicht zu tun',
+          text: '<strong>～やすい</strong> bedeutet „leicht zu / einfach zu" und beschreibt, dass eine Handlung ohne Mühe möglich ist. Die Bildung ist simpel: <strong>Verb-ます-Stamm + やすい</strong>. Das Ergebnis verhält sich wie ein い-Adjektiv: わかりやすい (leicht verständlich), 使いやすい (benutzerfreundlich), 読みやすい (leicht zu lesen). Man kann es also normal steigern und verneinen: やすくない, やすかった.',
+          examples: [
+            { jp: 'この本は読みやすいです。', romaji: 'Kono hon wa yomiyasui desu.', de: 'Dieses Buch ist leicht zu lesen.' },
+            { jp: 'この辞書は使いやすいです。', romaji: 'Kono jisho wa tsukaiyasui desu.', de: 'Dieses Wörterbuch ist benutzerfreundlich.' },
+            { jp: '先生の説明はわかりやすかったです。', romaji: 'Sensei no setsumei wa wakariyasukatta desu.', de: 'Die Erklärung des Lehrers war leicht verständlich.' },
+          ],
+          tip: 'やすい kann auch „dazu neigen" bedeuten: 風邪をひきやすい (man wird leicht erkältet), 忘れやすい (man vergisst leicht). Kontext entscheidet, ob es um Einfachheit oder Tendenz geht.'
+        },
+        {
+          heading: '～にくい — Schwer zu tun',
+          text: '<strong>～にくい</strong> ist das Gegenteil von やすい und bedeutet „schwer zu / schwierig zu". Die Bildung ist identisch: <strong>Verb-ます-Stamm + にくい</strong>. Auch にくい verhält sich wie ein い-Adjektiv. Wichtig: にくい beschreibt eine <strong>objektive Schwierigkeit</strong> — die Sache selbst ist schwer zu tun. Wenn es eher um ein <strong>psychologisches Unbehagen</strong> geht (z.B. etwas Peinliches zu sagen), nutzt man stattdessen づらい — aber das kommt erst in höheren Levels.',
+          examples: [
+            { jp: 'この漢字は覚えにくいです。', romaji: 'Kono kanji wa oboenikui desu.', de: 'Dieses Kanji ist schwer zu merken.' },
+            { jp: 'この靴は歩きにくいです。', romaji: 'Kono kutsu wa arukinikui desu.', de: 'Diese Schuhe sind unbequem zum Laufen.' },
+            { jp: '小さい字は読みにくいです。', romaji: 'Chīsai ji wa yominikui desu.', de: 'Kleine Schrift ist schwer zu lesen.' },
+          ],
+          tip: 'Das Trio auf einen Blick: すぎる = zu viel (Übermaß), やすい = leicht (einfach/neigend), にくい = schwer (objektiv schwierig). Alle drei werden an den ます-Stamm gehängt: 食べ＋すぎる, 食べ＋やすい, 食べ＋にくい. Einmal den Stamm kennen, dreimal anwenden!'
+        }
+      ]
     }
   ];
 
