@@ -150,6 +150,7 @@
             { jp: '食べます', romaji: 'tabemasu', de: 'esse / werde essen (Gegenwart/Zukunft, höflich)' },
             { jp: '食べません', romaji: 'tabemasen', de: 'esse nicht (Verneinung, höflich)' },
             { jp: '食べました', romaji: 'tabemashita', de: 'habe gegessen (Vergangenheit, höflich)' },
+            { jp: '昨日は食べませんでした。', romaji: 'Kinō wa tabemasen deshita.', de: 'Gestern habe ich nicht gegessen. (Vergangenheit + Verneinung)' },
           ],
           tip: 'Beachte: Japanisch unterscheidet grammatisch nicht zwischen Gegenwart und Zukunft. 食べます heißt sowohl „ich esse" als auch „ich werde essen" — der Kontext klärt den Rest.'
         },
@@ -160,6 +161,7 @@
             { jp: '学生です', romaji: 'gakusei desu', de: 'ist Student (Gegenwart, höflich)' },
             { jp: '学生じゃありません', romaji: 'gakusei ja arimasen', de: 'ist nicht Student (Verneinung, höflich)' },
             { jp: '学生でした', romaji: 'gakusei deshita', de: 'war Student (Vergangenheit, höflich)' },
+            { jp: '学生じゃありませんでした。', romaji: 'Gakusei ja arimasen deshita.', de: 'Ich war kein Student. (Vergangenheit + Verneinung)' },
           ]
         },
         {
@@ -191,6 +193,7 @@
             { jp: '大きい (ōkii)', romaji: '', de: 'groß' },
             { jp: '高い → 高くない', romaji: 'takai → takakunai', de: 'teuer → nicht teuer (い → くない)' },
             { jp: '高い → 高かった', romaji: 'takai → takakatta', de: 'teuer → war teuer (い → かった)' },
+            { jp: '昨日は暑くなかった。', romaji: 'Kinō wa atsukunakatta.', de: 'Gestern war es nicht heiß. (い → くなかった)' },
           ],
           tip: 'Die Adverbform (い → く) ist super nützlich: 早く起きる (früh aufstehen), 大きくなる (groß werden), 安く買う (günstig kaufen). Sie verwandelt das Adjektiv in ein „wie"-Wort.'
         },
@@ -260,6 +263,8 @@
             { jp: 'う・つ・る → って', romaji: '(u/tsu/ru → tte)', de: '買う→買って, 待つ→待って, 帰る→帰って' },
             { jp: 'む・ぶ・ぬ → んで', romaji: '(mu/bu/nu → nde)', de: '飲む→飲んで, 遊ぶ→遊んで, 死ぬ→死んで' },
             { jp: 'く → いて', romaji: '(ku → ite)', de: '書く→書いて, 聞く→聞いて' },
+            { jp: '話す → 話して', romaji: 'hanasu → hanashite', de: 'す → して (s-Reihe)' },
+            { jp: '泳ぐ → 泳いで', romaji: 'oyogu → oyoide', de: 'ぐ → いで (stimmhaft! vgl. く → いて)' },
           ],
           tip: 'Ausnahme: 行く (iku) wird zu 行って (itte), nicht 行いて. Das ist die einzige Ausnahme in dieser Kategorie — und sie kommt so oft vor, dass man sie automatisch lernt.'
         },
@@ -369,6 +374,8 @@
             { jp: '食べます → 食べません', romaji: 'tabemasu → tabemasen', de: 'esse nicht (höflich)' },
             { jp: '食べる → 食べない', romaji: 'taberu → tabenai', de: 'esse nicht (casual, る-Verb: る → ない)' },
             { jp: '行く → 行かない', romaji: 'iku → ikanai', de: 'gehe nicht (casual, く → かない)' },
+            { jp: 'する → しない', romaji: 'suru → shinai', de: 'machen → nicht machen (unregelmäßig)' },
+            { jp: 'ある → ない', romaji: 'aru → nai', de: 'es gibt → es gibt nicht (Sonderfall: NICHT あらない!)' },
           ],
           tip: 'Zwei Sonderfälle: ある (existieren) wird zu ない (nicht あらない!) — das ist die einzige Ausnahme bei う-Verben. Und する/来る: する → しない, 来る → 来ない (こない).'
         },
@@ -541,6 +548,7 @@
             { jp: '食べれば', romaji: 'tabereba', de: 'wenn man isst (る → れば)' },
             { jp: '行けば', romaji: 'ikeba', de: 'wenn man geht (く → けば)' },
             { jp: '安ければ、買います。', romaji: 'Yasukereba, kaimasu.', de: 'Wenn es günstig ist, kaufe ich es. (い → ければ)' },
+            { jp: '行かなければ、後悔します。', romaji: 'Ikanakereba, kōkai shimasu.', de: 'Wenn du nicht gehst, wirst du es bereuen. (ない → なければ)' },
           ]
         },
         {
@@ -648,6 +656,8 @@
             { jp: '食べる → 食べさせる', romaji: 'taberu → tabesaseru', de: 'essen lassen (る-Verb)' },
             { jp: '飲む → 飲ませる', romaji: 'nomu → nomaseru', de: 'trinken lassen (む → ませる)' },
             { jp: '行く → 行かせる', romaji: 'iku → ikaseru', de: 'gehen lassen (く → かせる)' },
+            { jp: 'する → させる', romaji: 'suru → saseru', de: 'machen → machen lassen (unregelmäßig)' },
+            { jp: '来る → 来させる', romaji: 'kuru → kosaseru', de: 'kommen → kommen lassen (unregelmäßig)' },
           ],
           tip: 'Umgangssprachlich wird der Kausativ oft verkürzt: 行かせる → 行かす, 食べさせる → 食べさす. Diese Kurzformen hörst du besonders in Kansai (Osaka/Kyoto) sehr häufig.'
         },
@@ -1274,6 +1284,7 @@
             { jp: '忘れちゃった。', romaji: 'Wasurechatta.', de: 'Hab\'s vergessen. (= 忘れてしまった)' },
             { jp: '全部食べちゃった。', romaji: 'Zenbu tabechatta.', de: 'Hab alles aufgegessen. (= 食べてしまった)' },
             { jp: '壊れちゃった。', romaji: 'Kowarechatta.', de: 'Es ist kaputtgegangen. (= 壊れてしまった)' },
+            { jp: '全部飲んじゃった。', romaji: 'Zenbu nonjatta.', de: 'Hab alles ausgetrunken. (飲んでしまった → 飲んじゃった, で→じゃ)' },
           ],
           tip: 'In formellen Situationen: ～てしまう. Im Alltag mit Freunden: ～ちゃう. In Manga und Anime: fast immer ～ちゃう.'
         }
@@ -4023,6 +4034,7 @@
             { jp: '昨日、食べすぎました。', romaji: 'Kinō, tabesugimashita.', de: 'Gestern habe ich zu viel gegessen.' },
             { jp: 'このバッグは高すぎます。', romaji: 'Kono baggu wa takasugimasu.', de: 'Diese Tasche ist zu teuer.' },
             { jp: '昨夜、飲みすぎて頭が痛いです。', romaji: 'Sakuya, nomisugite atama ga itai desu.', de: 'Ich habe gestern Abend zu viel getrunken und habe Kopfschmerzen.' },
+            { jp: 'この部屋は静かすぎます。', romaji: 'Kono heya wa shizukasugimasu.', de: 'Dieses Zimmer ist zu ruhig. (な-Adjektiv + すぎる)' },
           ],
           tip: 'Häufiger Fehler: 高いすぎる (falsch!) — das い muss weg! Richtig: 高すぎる. Bei な-Adjektiven fällt な weg: 静か＋すぎる = 静かすぎる. Und: いい/良い wird zu よすぎる (nicht いすぎる).'
         },
