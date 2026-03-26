@@ -1,4 +1,4 @@
-// Idioms & Proverbs / Redewendungen & Sprichwörter Data — 249 entries
+// Idioms & Proverbs / Redewendungen & Sprichwörter Data — 308 entries
 // Types: Redewendung (慣用句), Sprichwort (ことわざ)
 
 window.IDIOMS_DATA = [
@@ -3043,6 +3043,720 @@ window.IDIOMS_DATA = [
     "category": "Lebensweisheit",
     "examples": [
       { "japanese": "息子から連絡がないけど、便りのないのは良い便りだろう。", "romaji": "Musuko kara renraku ga nai kedo, tayori no nai no wa yoi tayori darō.", "german": "Mein Sohn meldet sich nicht, aber keine Nachricht ist gute Nachricht." }
+    ]
+  },
+  // =============================================
+  // === N5 REDEWENDUNGEN — Körper / Alltag ===
+  // =============================================
+  {
+    "word": "手を出す",
+    "reading": "てをだす",
+    "romaji": "te o dasu",
+    "meaning": "die Hand anlegen; sich einmischen; zuschlagen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "知らないことに手を出さないほうがいい。", "romaji": "Shiranai koto ni te o dasanai hō ga ii.", "german": "Man sollte sich nicht in Dinge einmischen, von denen man nichts versteht." }
+    ]
+  },
+  {
+    "word": "目を覚ます",
+    "reading": "めをさます",
+    "romaji": "me o samasu",
+    "meaning": "aufwachen; zur Besinnung kommen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "朝六時に目を覚ました。", "romaji": "Asa roku-ji ni me o samashita.", "german": "Ich bin um sechs Uhr morgens aufgewacht." }
+    ]
+  },
+  {
+    "word": "頭に来る",
+    "reading": "あたまにくる",
+    "romaji": "atama ni kuru",
+    "meaning": "wütend werden, sauer werden",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "あの人の態度には頭に来る。", "romaji": "Ano hito no taido ni wa atama ni kuru.", "german": "Sein Verhalten macht mich wütend." }
+    ]
+  },
+  {
+    "word": "目を引く",
+    "reading": "めをひく",
+    "romaji": "me o hiku",
+    "meaning": "ins Auge fallen, Aufmerksamkeit erregen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "赤いドレスが目を引いた。", "romaji": "Akai doresu ga me o hiita.", "german": "Das rote Kleid fiel ins Auge." }
+    ]
+  },
+  {
+    "word": "気が付く",
+    "reading": "きがつく",
+    "romaji": "ki ga tsuku",
+    "meaning": "bemerken, merken",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "間違いに気が付いた。", "romaji": "Machigai ni ki ga tsuita.", "german": "Ich habe den Fehler bemerkt." }
+    ]
+  },
+  {
+    "word": "気になる",
+    "reading": "きになる",
+    "romaji": "ki ni naru",
+    "meaning": "sich Sorgen machen; neugierig sein",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "試験の結果が気になる。", "romaji": "Shiken no kekka ga ki ni naru.", "german": "Ich bin gespannt auf das Prüfungsergebnis." }
+    ]
+  },
+  {
+    "word": "邪魔になる",
+    "reading": "じゃまになる",
+    "romaji": "jama ni naru",
+    "meaning": "im Weg sein, hinderlich sein",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "この荷物が邪魔になっている。", "romaji": "Kono nimotsu ga jama ni natte iru.", "german": "Dieses Gepäck ist im Weg." }
+    ]
+  },
+  {
+    "word": "手を借りる",
+    "reading": "てをかりる",
+    "romaji": "te o kariru",
+    "meaning": "sich helfen lassen, jemandes Hilfe in Anspruch nehmen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "友達の手を借りて引っ越しをした。", "romaji": "Tomodachi no te o karite hikkoshi o shita.", "german": "Ich habe mir beim Umzug von einem Freund helfen lassen." }
+    ]
+  },
+  {
+    "word": "口にする",
+    "reading": "くちにする",
+    "romaji": "kuchi ni suru",
+    "meaning": "essen/trinken; aussprechen, erwähnen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "その話は口にしないでください。", "romaji": "Sono hanashi wa kuchi ni shinaide kudasai.", "german": "Bitte sprechen Sie nicht darüber." }
+    ]
+  },
+  {
+    "word": "耳に入る",
+    "reading": "みみにはいる",
+    "romaji": "mimi ni hairu",
+    "meaning": "zu Ohren kommen, hören",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "変な噂が耳に入った。", "romaji": "Hen na uwasa ga mimi ni haitta.", "german": "Ein seltsames Gerücht ist mir zu Ohren gekommen." }
+    ]
+  },
+  {
+    "word": "目に入る",
+    "reading": "めにはいる",
+    "romaji": "me ni hairu",
+    "meaning": "ins Auge fallen, erblicken",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "きれいな花が目に入った。", "romaji": "Kirei na hana ga me ni haitta.", "german": "Eine schöne Blume fiel mir ins Auge." }
+    ]
+  },
+  {
+    "word": "手を上げる",
+    "reading": "てをあげる",
+    "romaji": "te o ageru",
+    "meaning": "die Hand heben; aufgeben; handgreiflich werden",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "質問がある人は手を上げてください。", "romaji": "Shitsumon ga aru hito wa te o agete kudasai.", "german": "Wer eine Frage hat, bitte die Hand heben." }
+    ]
+  },
+  {
+    "word": "足が速い",
+    "reading": "あしがはやい",
+    "romaji": "ashi ga hayai",
+    "meaning": "schnellfüßig sein; schnell verderben (Lebensmittel)",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "この魚は足が速いから早く食べて。", "romaji": "Kono sakana wa ashi ga hayai kara hayaku tabete.", "german": "Dieser Fisch verdirbt schnell, also iss ihn bald." }
+    ]
+  },
+  {
+    "word": "気を使う",
+    "reading": "きをつかう",
+    "romaji": "ki o tsukau",
+    "meaning": "Rücksicht nehmen, aufmerksam sein",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "お客さんに気を使って疲れた。", "romaji": "Okyaku-san ni ki o tsukatte tsukareta.", "german": "Ich bin müde, weil ich mich um die Gäste gekümmert habe." }
+    ]
+  },
+  {
+    "word": "顔を洗う",
+    "reading": "かおをあらう",
+    "romaji": "kao o arau",
+    "meaning": "sich das Gesicht waschen; sich bessern, sich ändern",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "毎朝顔を洗ってから朝ご飯を食べる。", "romaji": "Maiasa kao o aratte kara asa-gohan o taberu.", "german": "Jeden Morgen wasche ich mir das Gesicht, bevor ich frühstücke." }
+    ]
+  },
+  {
+    "word": "名前を出す",
+    "reading": "なまえをだす",
+    "romaji": "namae o dasu",
+    "meaning": "jemandes Namen nennen, erwähnen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "会議で彼の名前を出さないでください。", "romaji": "Kaigi de kare no namae o dasanaide kudasai.", "german": "Bitte nennen Sie seinen Namen nicht in der Besprechung." }
+    ]
+  },
+  {
+    "word": "力になる",
+    "reading": "ちからになる",
+    "romaji": "chikara ni naru",
+    "meaning": "jemandem helfen, eine Stütze sein",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "困った時に力になってくれた。", "romaji": "Komatta toki ni chikara ni natte kureta.", "german": "Er hat mir geholfen, als ich in Schwierigkeiten war." }
+    ]
+  },
+  {
+    "word": "時間がかかる",
+    "reading": "じかんがかかる",
+    "romaji": "jikan ga kakaru",
+    "meaning": "Zeit brauchen, lange dauern",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "駅まで三十分時間がかかる。", "romaji": "Eki made sanjuppun jikan ga kakaru.", "german": "Bis zum Bahnhof braucht man dreißig Minuten." }
+    ]
+  },
+  {
+    "word": "お金がかかる",
+    "reading": "おかねがかかる",
+    "romaji": "okane ga kakaru",
+    "meaning": "Geld kosten, teuer sein",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Geld",
+    "examples": [
+      { "japanese": "子供の教育にはお金がかかる。", "romaji": "Kodomo no kyōiku ni wa okane ga kakaru.", "german": "Die Ausbildung der Kinder kostet viel Geld." }
+    ]
+  },
+  {
+    "word": "お世話になる",
+    "reading": "おせわになる",
+    "romaji": "osewa ni naru",
+    "meaning": "jemandem zur Last fallen; Hilfe empfangen (höflich)",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "いつもお世話になっております。", "romaji": "Itsumo osewa ni natte orimasu.", "german": "Vielen Dank, dass Sie sich immer um mich kümmern. (Standardgruß)" }
+    ]
+  },
+  {
+    "word": "返事をする",
+    "reading": "へんじをする",
+    "romaji": "henji o suru",
+    "meaning": "antworten, eine Antwort geben",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "先生に返事をしなさい。", "romaji": "Sensei ni henji o shinasai.", "german": "Antworte dem Lehrer." }
+    ]
+  },
+  {
+    "word": "席を外す",
+    "reading": "せきをはずす",
+    "romaji": "seki o hazusu",
+    "meaning": "den Platz verlassen, kurz weg sein",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "田中さんは席を外しています。", "romaji": "Tanaka-san wa seki o hazushite imasu.", "german": "Herr Tanaka ist gerade nicht am Platz." }
+    ]
+  },
+  {
+    "word": "道を聞く",
+    "reading": "みちをきく",
+    "romaji": "michi o kiku",
+    "meaning": "nach dem Weg fragen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "駅への道を聞いた。", "romaji": "Eki e no michi o kiita.", "german": "Ich habe nach dem Weg zum Bahnhof gefragt." }
+    ]
+  },
+  {
+    "word": "電話をかける",
+    "reading": "でんわをかける",
+    "romaji": "denwa o kakeru",
+    "meaning": "telefonieren, anrufen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "母に電話をかけた。", "romaji": "Haha ni denwa o kaketa.", "german": "Ich habe meine Mutter angerufen." }
+    ]
+  },
+  {
+    "word": "お茶を入れる",
+    "reading": "おちゃをいれる",
+    "romaji": "ocha o ireru",
+    "meaning": "Tee zubereiten, Tee aufgießen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "お客さんにお茶を入れた。", "romaji": "Okyaku-san ni ocha o ireta.", "german": "Ich habe den Gästen Tee zubereitet." }
+    ]
+  },
+  {
+    "word": "約束を守る",
+    "reading": "やくそくをまもる",
+    "romaji": "yakusoku o mamoru",
+    "meaning": "ein Versprechen halten",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "約束を守ることは大切だ。", "romaji": "Yakusoku o mamoru koto wa taisetsu da.", "german": "Es ist wichtig, Versprechen zu halten." }
+    ]
+  },
+  {
+    "word": "写真を撮る",
+    "reading": "しゃしんをとる",
+    "romaji": "shashin o toru",
+    "meaning": "ein Foto machen, fotografieren",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "一緒に写真を撮りましょう。", "romaji": "Issho ni shashin o torimashō.", "german": "Lass uns zusammen ein Foto machen." }
+    ]
+  },
+  {
+    "word": "散歩をする",
+    "reading": "さんぽをする",
+    "romaji": "sanpo o suru",
+    "meaning": "spazieren gehen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "毎朝公園で散歩をする。", "romaji": "Maiasa kōen de sanpo o suru.", "german": "Jeden Morgen gehe ich im Park spazieren." }
+    ]
+  },
+  {
+    "word": "買い物をする",
+    "reading": "かいものをする",
+    "romaji": "kaimono o suru",
+    "meaning": "einkaufen gehen",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "週末にスーパーで買い物をする。", "romaji": "Shūmatsu ni sūpā de kaimono o suru.", "german": "Am Wochenende gehe ich im Supermarkt einkaufen." }
+    ]
+  },
+  {
+    "word": "風邪を引く",
+    "reading": "かぜをひく",
+    "romaji": "kaze o hiku",
+    "meaning": "sich erkälten",
+    "type": "Redewendung",
+    "level": "N5",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "寒いから風邪を引かないようにね。", "romaji": "Samui kara kaze o hikanai yō ni ne.", "german": "Es ist kalt, also pass auf, dass du dich nicht erkältest." }
+    ]
+  },
+  // =============================================
+  // === N4 REDEWENDUNGEN — Körper ===
+  // =============================================
+  {
+    "word": "心を込める",
+    "reading": "こころをこめる",
+    "romaji": "kokoro o komeru",
+    "meaning": "mit Herz und Seele machen, sein Herz hineinstecken",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "心を込めて手紙を書いた。", "romaji": "Kokoro o komete tegami o kaita.", "german": "Ich habe den Brief mit ganzem Herzen geschrieben." }
+    ]
+  },
+  {
+    "word": "力を入れる",
+    "reading": "ちからをいれる",
+    "romaji": "chikara o ireru",
+    "meaning": "sich anstrengen, sich auf etwas konzentrieren",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "会社は新商品の開発に力を入れている。", "romaji": "Kaisha wa shin-shōhin no kaihatsu ni chikara o irete iru.", "german": "Die Firma konzentriert sich auf die Entwicklung neuer Produkte." }
+    ]
+  },
+  {
+    "word": "道を開く",
+    "reading": "みちをひらく",
+    "romaji": "michi o hiraku",
+    "meaning": "einen Weg eröffnen, den Weg bahnen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "努力が新しい道を開いた。", "romaji": "Doryoku ga atarashii michi o hiraita.", "german": "Die Anstrengung hat einen neuen Weg eröffnet." }
+    ]
+  },
+  {
+    "word": "話が早い",
+    "reading": "はなしがはやい",
+    "romaji": "hanashi ga hayai",
+    "meaning": "schnell zur Sache kommen, unkompliziert sein",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "彼は話が早いから助かる。", "romaji": "Kare wa hanashi ga hayai kara tasukaru.", "german": "Er kommt schnell zur Sache, das ist hilfreich." }
+    ]
+  },
+  {
+    "word": "頭を下げる",
+    "reading": "あたまをさげる",
+    "romaji": "atama o sageru",
+    "meaning": "sich verbeugen; sich demütigen, um Entschuldigung bitten",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "失敗して上司に頭を下げた。", "romaji": "Shippai shite jōshi ni atama o sageta.", "german": "Nach dem Fehler habe ich mich beim Chef entschuldigt." }
+    ]
+  },
+  {
+    "word": "目を通す",
+    "reading": "めをとおす",
+    "romaji": "me o tōsu",
+    "meaning": "durchlesen, überfliegen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "書類に目を通してください。", "romaji": "Shorui ni me o tōshite kudasai.", "german": "Bitte lesen Sie die Unterlagen durch." }
+    ]
+  },
+  {
+    "word": "手を打つ",
+    "reading": "てをうつ",
+    "romaji": "te o utsu",
+    "meaning": "Maßnahmen ergreifen; sich einigen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "問題が大きくなる前に手を打とう。", "romaji": "Mondai ga ōkiku naru mae ni te o utō.", "german": "Lass uns Maßnahmen ergreifen, bevor das Problem größer wird." }
+    ]
+  },
+  {
+    "word": "口を開く",
+    "reading": "くちをひらく",
+    "romaji": "kuchi o hiraku",
+    "meaning": "den Mund öffnen, zu sprechen beginnen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "彼はなかなか口を開かなかった。", "romaji": "Kare wa nakanaka kuchi o hirakanakatta.", "german": "Er wollte lange nicht den Mund aufmachen." }
+    ]
+  },
+  {
+    "word": "腰を据える",
+    "reading": "こしをすえる",
+    "romaji": "koshi o sueru",
+    "meaning": "sich niederlassen; sich ernsthaft einer Sache widmen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "腰を据えて勉強しよう。", "romaji": "Koshi o suete benkyō shiyō.", "german": "Lass uns uns ernsthaft hinsetzen und lernen." }
+    ]
+  },
+  {
+    "word": "足を伸ばす",
+    "reading": "あしをのばす",
+    "romaji": "ashi o nobasu",
+    "meaning": "die Beine ausstrecken; einen Abstecher machen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "京都まで足を伸ばした。", "romaji": "Kyōto made ashi o nobashita.", "german": "Ich habe einen Abstecher nach Kyoto gemacht." }
+    ]
+  },
+  {
+    "word": "肩を落とす",
+    "reading": "かたをおとす",
+    "romaji": "kata o otosu",
+    "meaning": "die Schultern hängen lassen, enttäuscht sein",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "試験に落ちて肩を落とした。", "romaji": "Shiken ni ochite kata o otoshita.", "german": "Ich habe die Prüfung nicht bestanden und war sehr enttäuscht." }
+    ]
+  },
+  {
+    "word": "首を傾げる",
+    "reading": "くびをかしげる",
+    "romaji": "kubi o kashigeru",
+    "meaning": "den Kopf schief legen, zweifeln, stutzig werden",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "彼の説明に首を傾げた。", "romaji": "Kare no setsumei ni kubi o kashigeta.", "german": "Ich war skeptisch bei seiner Erklärung." }
+    ]
+  },
+  {
+    "word": "心が弾む",
+    "reading": "こころがはずむ",
+    "romaji": "kokoro ga hazumu",
+    "meaning": "das Herz hüpft, fröhlich und aufgeregt sein",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "旅行の計画を立てると心が弾む。", "romaji": "Ryokō no keikaku o tateru to kokoro ga hazumu.", "german": "Wenn ich Reisepläne mache, hüpft mein Herz vor Freude." }
+    ]
+  },
+  {
+    "word": "心を打つ",
+    "reading": "こころをうつ",
+    "romaji": "kokoro o utsu",
+    "meaning": "das Herz berühren, ergreifen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "彼女のスピーチは心を打った。", "romaji": "Kanojo no supīchi wa kokoro o utta.", "german": "Ihre Rede hat mich tief berührt." }
+    ]
+  },
+  {
+    "word": "気を落とす",
+    "reading": "きをおとす",
+    "romaji": "ki o otosu",
+    "meaning": "den Mut verlieren, entmutigt sein",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "気を落とさないで、次があるよ。", "romaji": "Ki o otosanaide, tsugi ga aru yo.", "german": "Verlier nicht den Mut, es gibt ein nächstes Mal." }
+    ]
+  },
+  {
+    "word": "気が進まない",
+    "reading": "きがすすまない",
+    "romaji": "ki ga susumanai",
+    "meaning": "keine Lust haben, sich nicht aufraffen können",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "今日は外出する気が進まない。", "romaji": "Kyō wa gaishutsu suru ki ga susumanai.", "german": "Heute habe ich keine Lust auszugehen." }
+    ]
+  },
+  {
+    "word": "気を取り直す",
+    "reading": "きをとりなおす",
+    "romaji": "ki o torinaosu",
+    "meaning": "sich zusammenreißen, neuen Mut fassen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "失敗したけど気を取り直してもう一度やろう。", "romaji": "Shippai shita kedo ki o torinaoshite mō ichido yarō.", "german": "Es ist schiefgegangen, aber lass uns neuen Mut fassen und es nochmal versuchen." }
+    ]
+  },
+  {
+    "word": "顔が売れる",
+    "reading": "かおがうれる",
+    "romaji": "kao ga ureru",
+    "meaning": "bekannt sein, ein bekanntes Gesicht sein",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "彼はこの町で顔が売れている。", "romaji": "Kare wa kono machi de kao ga urete iru.", "german": "Er ist in dieser Stadt ein bekanntes Gesicht." }
+    ]
+  },
+  {
+    "word": "手を回す",
+    "reading": "てをまわす",
+    "romaji": "te o mawasu",
+    "meaning": "Vorbereitungen treffen, hinter den Kulissen arrangieren",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Arbeit",
+    "examples": [
+      { "japanese": "彼は先に手を回して準備していた。", "romaji": "Kare wa saki ni te o mawashite junbi shite ita.", "german": "Er hatte im Voraus alles hinter den Kulissen vorbereitet." }
+    ]
+  },
+  {
+    "word": "手がかかる",
+    "reading": "てがかかる",
+    "romaji": "te ga kakaru",
+    "meaning": "viel Mühe machen, aufwendig sein",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "小さい子供は手がかかる。", "romaji": "Chiisai kodomo wa te ga kakaru.", "german": "Kleine Kinder machen viel Arbeit." }
+    ]
+  },
+  {
+    "word": "手に負えない",
+    "reading": "てにおえない",
+    "romaji": "te ni oenai",
+    "meaning": "nicht zu bewältigen sein, unkontrollierbar sein",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "この問題は私の手に負えない。", "romaji": "Kono mondai wa watashi no te ni oenai.", "german": "Dieses Problem übersteigt meine Fähigkeiten." }
+    ]
+  },
+  {
+    "word": "顔を合わせる",
+    "reading": "かおをあわせる",
+    "romaji": "kao o awaseru",
+    "meaning": "sich begegnen, sich gegenüberstehen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "毎日電車で同じ人と顔を合わせる。", "romaji": "Mainichi densha de onaji hito to kao o awaseru.", "german": "Ich begegne jeden Tag derselben Person in der Bahn." }
+    ]
+  },
+  {
+    "word": "息を抜く",
+    "reading": "いきをぬく",
+    "romaji": "iki o nuku",
+    "meaning": "eine Pause einlegen, durchatmen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Alltag",
+    "examples": [
+      { "japanese": "たまには息を抜くことも大切だ。", "romaji": "Tama ni wa iki o nuku koto mo taisetsu da.", "german": "Es ist auch wichtig, ab und zu eine Pause einzulegen." }
+    ]
+  },
+  {
+    "word": "腹を決める",
+    "reading": "はらをきめる",
+    "romaji": "hara o kimeru",
+    "meaning": "sich entschließen, einen Entschluss fassen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "腹を決めて転職した。", "romaji": "Hara o kimete tenshoku shita.", "german": "Ich habe mich entschlossen und den Job gewechselt." }
+    ]
+  },
+  {
+    "word": "鳥肌が立つ",
+    "reading": "とりはだがたつ",
+    "romaji": "torihada ga tatsu",
+    "meaning": "eine Gänsehaut bekommen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "怖い話を聞いて鳥肌が立った。", "romaji": "Kowai hanashi o kiite torihada ga tatta.", "german": "Ich bekam eine Gänsehaut, als ich die Gruselgeschichte hörte." }
+    ]
+  },
+  {
+    "word": "耳を疑う",
+    "reading": "みみをうたがう",
+    "romaji": "mimi o utagau",
+    "meaning": "seinen Ohren nicht trauen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "そのニュースを聞いて耳を疑った。", "romaji": "Sono nyūsu o kiite mimi o utagatta.", "german": "Als ich die Nachricht hörte, traute ich meinen Ohren nicht." }
+    ]
+  },
+  {
+    "word": "目を閉じる",
+    "reading": "めをとじる",
+    "romaji": "me o tojiru",
+    "meaning": "die Augen schließen; etwas ignorieren",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Körper",
+    "examples": [
+      { "japanese": "目を閉じてゆっくり深呼吸してください。", "romaji": "Me o tojite yukkuri shinkokyū shite kudasai.", "german": "Schließen Sie die Augen und atmen Sie langsam tief durch." }
+    ]
+  },
+  {
+    "word": "涙を流す",
+    "reading": "なみだをながす",
+    "romaji": "namida o nagasu",
+    "meaning": "Tränen vergießen, weinen",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "映画を見て涙を流した。", "romaji": "Eiga o mite namida o nagashita.", "german": "Ich habe beim Film Tränen vergossen." }
+    ]
+  },
+  {
+    "word": "胸が一杯になる",
+    "reading": "むねがいっぱいになる",
+    "romaji": "mune ga ippai ni naru",
+    "meaning": "überwältigt sein, das Herz ist voll",
+    "type": "Redewendung",
+    "level": "N4",
+    "category": "Gefühle",
+    "examples": [
+      { "japanese": "卒業式で胸が一杯になった。", "romaji": "Sotsugyō-shiki de mune ga ippai ni natta.", "german": "Bei der Abschlussfeier war ich überwältigt vor Rührung." }
     ]
   }
 ];
