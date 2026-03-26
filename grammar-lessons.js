@@ -98,7 +98,8 @@
             { jp: '図書館で勉強します。', romaji: 'Toshokan de benkyō shimasu.', de: 'Ich lerne in der Bibliothek. (Ort der Handlung)' },
             { jp: '箸で食べます。', romaji: 'Hashi de tabemasu.', de: 'Ich esse mit Stäbchen. (Werkzeug)' },
             { jp: '日本語で話してください。', romaji: 'Nihongo de hanashite kudasai.', de: 'Bitte sprich auf Japanisch. (Mittel/Sprache)' },
-          ]
+          ],
+          tip: 'で kann auch <strong>Ursache</strong> und <strong>Umfang</strong> ausdrücken: 病気で休む (wegen Krankheit fehlen), 三人で食べた (zu dritt gegessen). Diese Bedeutungen leiten sich alle vom Grundgedanken ab: で beschreibt die Umstände, unter denen etwas geschieht.'
         },
         {
           heading: 'に vs で — Der Klassiker',
@@ -139,7 +140,8 @@
             { jp: '食べます。', romaji: 'Tabemasu.', de: 'Ich esse.' },
             { jp: '日本語を勉強します。', romaji: 'Nihongo o benkyō shimasu.', de: 'Ich lerne Japanisch.' },
             { jp: '毎日走ります。', romaji: 'Mainichi hashirimasu.', de: 'Ich laufe jeden Tag.' },
-          ]
+          ],
+          tip: 'Die zwei wichtigsten unregelmäßigen Verben in der ます-Form: する → します und くる (来る) → きます. Alle する-Verben folgen dem gleichen Muster: 勉強する → 勉強します, 運動する → 運動します.'
         },
         {
           heading: 'Die vier Grundformen',
@@ -199,7 +201,8 @@
             { jp: '静かな町', romaji: 'shizuka na machi', de: 'eine ruhige Stadt (な vor Nomen)' },
             { jp: '静かです → 静かじゃないです', romaji: 'shizuka desu → shizuka ja nai desu', de: 'ruhig → nicht ruhig' },
             { jp: '静かでした → 静かじゃなかったです', romaji: 'shizuka deshita → shizuka ja nakatta desu', de: 'war ruhig → war nicht ruhig' },
-          ]
+          ],
+          tip: 'Die tückischsten な-Adjektive, die wie い-Adjektive aussehen: きれい(な) = schön, 有名(な) = berühmt, 嫌い(な) = verhasst. Sie enden auf い, konjugieren aber NICHT wie い-Adjektive. きれくない ist falsch — きれいじゃない ist richtig!'
         },
         {
           heading: 'Vor Nomen: Der Unterschied',
@@ -386,7 +389,8 @@
             { jp: '静かだ → 静かじゃない', romaji: 'shizuka da → shizuka ja nai', de: 'nicht ruhig (casual)' },
             { jp: '静かです → 静かじゃありません', romaji: 'shizuka desu → shizuka ja arimasen', de: 'nicht ruhig (höflich)' },
             { jp: '学生です → 学生じゃありません', romaji: 'gakusei desu → gakusei ja arimasen', de: 'bin kein Student (höflich)' },
-          ]
+          ],
+          tip: 'ではない ist die formellere/schriftliche Variante, じゃない die lässige/gesprochene — beide bedeuten dasselbe. In Aufsätzen und formellen Reden: ではありません. Im Gespräch mit Freunden: じゃない.'
         },
         {
           heading: 'Noch nicht: まだ～ていない',
@@ -436,7 +440,8 @@
             { jp: '新しい車がほしい。', romaji: 'Atarashii kuruma ga hoshii.', de: 'Ich hätte gern ein neues Auto.' },
             { jp: '何がほしいですか。', romaji: 'Nani ga hoshii desu ka.', de: 'Was hättest du gern?' },
             { jp: '時間がほしかった。', romaji: 'Jikan ga hoshikatta.', de: 'Ich hätte gern (mehr) Zeit gehabt.' },
-          ]
+          ],
+          tip: 'Wie bei たい gilt auch bei ほしい: Benutze es nicht, um zu beschreiben, was ANDERE wollen. Für dritte Personen sagt man ほしがっている (er/sie zeigt den Wunsch nach...). „Er will ein Auto" = 彼は車をほしがっている, nicht 彼は車がほしい.'
         },
         {
           heading: 'てほしい — „Ich will, dass jemand..."',
@@ -613,6 +618,16 @@
             { jp: '日本語は世界中で学ばれている。', romaji: 'Nihongo wa sekaijū de manabarete iru.', de: 'Japanisch wird auf der ganzen Welt gelernt.' },
           ],
           tip: 'In Nachrichten (ニュース) wirst du das Passiv extrem häufig hören: 逮捕された (wurde verhaftet), 発表された (wurde bekanntgegeben), 開催される (wird veranstaltet). Wenn du Nachrichten verstehen willst, ist das Passiv unverzichtbar.'
+        },
+        {
+          heading: 'Passiv als Respektform (尊敬語)',
+          text: 'Die Passivform ～られる hat im Japanischen noch eine völlig andere Funktion: Sie kann <strong>Respekt gegenüber dem Handelnden</strong> ausdrücken und gehört damit zur Höflichkeitssprache (敬語, keigo). Die Form ist identisch mit dem Passiv — 来られる kann also „gekommen werden" (Passiv) ODER „kommen" (respektvoll) bedeuten. Entscheidend ist der Kontext: Wenn das Subjekt eine Person ist, der man Respekt entgegenbringt (Chef, Lehrer, Kunde), und die Handlung keinen leidenden Aspekt hat, handelt es sich um die Respektform. Diese Verwendung ist besonders im Geschäftsjapanisch allgegenwärtig.',
+          examples: [
+            { jp: '社長は何時に来られますか。', romaji: 'Shachō wa nanji ni koraremasu ka.', de: 'Um wie viel Uhr kommt der Firmenchef? (respektvoll)' },
+            { jp: '先生はもう帰られました。', romaji: 'Sensei wa mō kaeraremashita.', de: 'Der Lehrer ist bereits nach Hause gegangen. (respektvoll)' },
+            { jp: 'お客様がお料理を注文されました。', romaji: 'Okyakusama ga oryōri o chūmon saremashita.', de: 'Der Kunde hat das Essen bestellt. (respektvoll)' }
+          ],
+          tip: 'Wie unterscheidet man Passiv und Respektform? Achte auf das Subjekt: Wenn eine ranghöhere Person (先生, 社長, お客様) etwas aktiv tut, ist es die Respektform. Wenn jemand etwas erleidet oder betroffen ist, ist es Passiv. Bei Zweifelsfällen hilft der Kontext — 先生が来られた ist fast immer respektvoll gemeint, weil ein Lehrer wohl kaum „gekommen wird".'
         }
       ]
     },
@@ -695,7 +710,8 @@
             { jp: '友達が本をくれた。', romaji: 'Tomodachi ga hon o kureta.', de: 'Mein Freund hat mir ein Buch gegeben. (Wie nett!)' },
             { jp: '母がお弁当を作ってくれた。', romaji: 'Haha ga obentō o tsukutte kureta.', de: 'Meine Mutter hat mir ein Bento gemacht. (Dankbarkeit!)' },
             { jp: '先輩がコーヒーをおごってくれた。', romaji: 'Senpai ga kōhī o ogotte kureta.', de: 'Mein Senpai hat mir einen Kaffee spendiert.' },
-          ]
+          ],
+          tip: 'くれる drückt immer Dankbarkeit mit aus — der Geber hat freiwillig oder aus Freundlichkeit gehandelt. Es wird ausschließlich aus der Perspektive des Sprechers (oder seiner In-Group) verwendet: Jemand gibt MIR/UNS etwas.'
         },
         {
           heading: 'もらう — Ich bekomme (von jemandem)',
@@ -704,7 +720,8 @@
             { jp: '友達に本をもらった。', romaji: 'Tomodachi ni hon o moratta.', de: 'Ich habe von meinem Freund ein Buch bekommen.' },
             { jp: '先生に日本語を教えてもらった。', romaji: 'Sensei ni nihongo o oshiete moratta.', de: 'Ich habe mir vom Lehrer Japanisch beibringen lassen.' },
             { jp: '彼から手紙をもらった。', romaji: 'Kare kara tegami o moratta.', de: 'Ich habe einen Brief von ihm bekommen.' },
-          ]
+          ],
+          tip: 'Der feine Unterschied zu くれる: もらう impliziert, dass der Empfänger die Initiative ergriffen oder um den Gefallen gebeten hat. Bei くれる hat der Geber von sich aus gehandelt. 教えてくれた = er hat mir (von sich aus) erklärt. 教えてもらった = ich habe mir erklären lassen (ich habe darum gebeten).'
         },
         {
           heading: 'Als Gefallen: てあげる / てくれる / てもらう',
@@ -824,7 +841,8 @@
             { jp: '毎朝ジョギングしています。', romaji: 'Maiasa jogingu shite imasu.', de: 'Ich jogge jeden Morgen. (Gewohnheit)' },
             { jp: 'あの店でいつも買い物している。', romaji: 'Ano mise de itsumo kaimono shite iru.', de: 'Ich kaufe immer in dem Laden ein.' },
             { jp: '最近、日本語を勉強している。', romaji: 'Saikin, nihongo o benkyō shite iru.', de: 'In letzter Zeit lerne ich Japanisch.' },
-          ]
+          ],
+          tip: 'Unterscheide ている für Gewohnheit vs. einfache Gegenwart: 毎日走っている (ich laufe jeden Tag — betont die laufende Gewohnheit) vs. 毎日走る (ich laufe jeden Tag — allgemeine Aussage oder Vorhaben). ている macht die Gewohnheit lebendiger und betont, dass man es tatsächlich regelmäßig praktiziert.'
         },
         {
           heading: 'Beruf & Zugehörigkeit',
@@ -1347,11 +1365,22 @@
           ]
         },
         {
+          heading: 'ことにする vs ようにする — Entscheidung vs Gewohnheit',
+          text: 'Beide Formen klingen ähnlich, drücken aber etwas Grundverschiedenes aus:<ul class="lesson-rules"><li><strong>ことにする</strong> → Der <strong>Moment der Entscheidung</strong>: „Ich habe beschlossen!" — ein klarer Schnitt.</li><li><strong>ようにする</strong> → Die <strong>anhaltende Bemühung</strong>: „Ich achte darauf..." — ein fortlaufender Prozess.</li></ul>ことにする markiert den Zeitpunkt, an dem man sich festlegt. ようにする beschreibt die tägliche Disziplin, etwas durchzuhalten. Oft folgt auf ein ことにする im echten Leben ein ようにしている — erst der Entschluss, dann die Umsetzung.',
+          examples: [
+            { jp: '毎日運動することにした。', romaji: 'Mainichi undō suru koto ni shita.', de: 'Ich habe beschlossen, täglich Sport zu treiben. (Der Moment des Entschlusses)' },
+            { jp: '毎日運動するようにしている。', romaji: 'Mainichi undō suru yō ni shite iru.', de: 'Ich achte darauf, täglich Sport zu treiben. (Die laufende Bemühung)' },
+            { jp: '甘いものを食べないことにした。', romaji: 'Amai mono o tabenai koto ni shita.', de: 'Ich habe beschlossen, nichts Süßes mehr zu essen. (Klarer Schnitt — ab jetzt!)' }
+          ],
+          tip: 'ことにする klingt entschlossener — wie ein Strich unter eine Diskussion. ようにする klingt nach einem Prozess, der Disziplin erfordert. Im Alltag wird oft beides kombiniert: 「甘いものを食べないことにして、毎日野菜を食べるようにしている。」'
+        },
+        {
           heading: 'Vergleich: する vs なる',
           text: 'Die Kernfrage ist immer: <strong>Wer hat entschieden?</strong><ul class="lesson-rules"><li><strong>ことにする</strong> → ICH habe entschieden (aktiv, persönlich)</li><li><strong>ことになる</strong> → ES hat sich ergeben (passiv, von außen)</li><li><strong>ことにしている</strong> → ICH halte mich an diese Regel (feste Gewohnheit)</li><li><strong>ことになっている</strong> → Es ist Regel/Vorschrift, dass... (allgemeine Norm)</li></ul>',
           examples: [
             { jp: '日本では靴を脱ぐことになっている。', romaji: 'Nihon de wa kutsu o nugu koto ni natte iru.', de: 'In Japan ist es Brauch, die Schuhe auszuziehen.' },
-            { jp: '会社では残業しないことになっている。', romaji: 'Kaisha de wa zangyō shinai koto ni natte iru.', de: 'In der Firma gilt die Regel, keine Überstunden zu machen.' }
+            { jp: '会社では残業しないことになっている。', romaji: 'Kaisha de wa zangyō shinai koto ni natte iru.', de: 'In der Firma gilt die Regel, keine Überstunden zu machen.' },
+            { jp: '転勤することになったので、引っ越します。', romaji: 'Tenkin suru koto ni natta node, hikkoshimasu.', de: 'Da beschlossen wurde, dass ich versetzt werde, ziehe ich um.' }
           ]
         }
       ]
@@ -1629,48 +1658,40 @@
     {
       id: 'lesson-31',
       number: 31,
-      title: '～ようにする / ～ようになる',
-      subtitle: 'Gewohnheiten ändern / Fähigkeiten entwickeln',
-      level: 'N3',
-      intro: 'Im Leben geht es oft darum, sich zu verändern — sei es durch bewusste Anstrengung oder durch natürliche Entwicklung. Im Japanischen drücken ～ようにする und ～ようになる genau diese zwei Seiten derselben Medaille aus. Das eine beschreibt den aktiven Versuch, etwas zu ändern: „Ich achte darauf, dass..." Das andere beschreibt den Moment, in dem eine Fähigkeit oder Gewohnheit sich von selbst einstellt: „Es ist so geworden, dass..." Zusammen bilden sie eines der nützlichsten Grammatikpaare auf dem Weg zur Mittelstufe.',
+      title: '～てもいい / ～てはいけない',
+      subtitle: 'Erlaubnisse & Verbote',
+      level: 'N4',
+      intro: 'Darf ich? Darfst du nicht! Muss ich? — Drei der häufigsten Fragen im Alltag, und das Japanische hat elegante Konstruktionen dafür. ～てもいい gibt grünes Licht, ～てはいけない zieht die rote Karte, und ～なくてもいい nimmt den Druck raus. Diese drei Formen gehören zum absoluten Grundwortschatz und tauchen in praktisch jeder Alltagssituation auf — vom Klassenzimmer über das Büro bis zum Restaurant. Wer sie sicher beherrscht, kann Erlaubnisse einholen, Regeln verstehen und höflich Grenzen setzen. Besonders wichtig: Der Unterschied zwischen „du darfst nicht" und „du musst nicht" ist im Japanischen glasklar — anders als im Deutschen, wo er gerne verwechselt wird.',
       sections: [
         {
-          heading: 'ようにする — Bewusste Anstrengung',
-          text: 'Verb-Wörterbuchform + ようにする bedeutet „sich bemühen, etwas zu tun" oder „darauf achten, etwas zu tun". Es drückt einen <strong>bewussten Vorsatz</strong> aus — man nimmt sich aktiv vor, eine Gewohnheit zu ändern oder ein bestimmtes Verhalten beizubehalten. Im Deutschen: „Ich achte darauf, ...", „Ich versuche, ...".',
+          heading: '～てもいい — Erlaubnis: „Du darfst..."',
+          text: 'Die て-Form + もいい drückt eine <strong>Erlaubnis</strong> aus: „Es ist in Ordnung, wenn du..." Im Deutschen: „Du darfst...", „Es ist okay, wenn..." Als Frage (～てもいいですか) wird daraus eine höfliche Bitte um Erlaubnis. Die Konstruktion ist denkbar einfach: Man nimmt die て-Form des Verbs und hängt もいい (oder höflicher もいいですか) an. Das いい kann in formellem Kontext durch よろしい ersetzt werden.',
           examples: [
-            { jp: '毎日野菜を食べるようにしている。', romaji: 'Mainichi yasai o taberu yō ni shite iru.', de: 'Ich achte darauf, jeden Tag Gemüse zu essen.' },
-            { jp: '遅刻しないようにしています。', romaji: 'Chikoku shinai yō ni shite imasu.', de: 'Ich achte darauf, nicht zu spät zu kommen.' },
-            { jp: '毎朝早く起きるようにした。', romaji: 'Maiasa hayaku okiru yō ni shita.', de: 'Ich habe angefangen, jeden Morgen früh aufzustehen.' }
+            { jp: 'ここに座ってもいいですか。', romaji: 'Koko ni suwatte mo ii desu ka.', de: 'Darf ich mich hier hinsetzen?' },
+            { jp: '写真を撮ってもいいですよ。', romaji: 'Shashin o totte mo ii desu yo.', de: 'Sie dürfen ruhig Fotos machen.' },
+            { jp: '明日は来なくてもいいですか。', romaji: 'Ashita wa konakute mo ii desu ka.', de: 'Ist es in Ordnung, wenn ich morgen nicht komme?' }
           ],
-          tip: 'ようにしている (Verlaufsform) betont die anhaltende Bemühung: „Ich achte seit einiger Zeit darauf..." — ようにした (Vergangenheit) betont den Entschluss: „Ich habe beschlossen, dass...".'
+          tip: 'In sehr formellen Situationen ersetzt man いい durch よろしい: 質問してもよろしいでしょうか (Dürfte ich eine Frage stellen?). Das klingt deutlich respektvoller und wird bei Vorgesetzten oder Kunden verwendet.'
         },
         {
-          heading: 'ようになる — Natürliche Veränderung',
-          text: 'Verb-Wörterbuchform + ようになる beschreibt eine <strong>allmähliche, natürliche Veränderung</strong> — etwas, das man vorher nicht konnte oder tat, ist jetzt möglich oder zur Gewohnheit geworden. Es betont nicht die Anstrengung, sondern das <em>Ergebnis</em>. Im Deutschen: „Es ist so geworden, dass...", „Mittlerweile kann ich...".',
+          heading: '～てはいけない / ～てはだめ — Verbot: „Du darfst nicht..."',
+          text: 'Die て-Form + はいけない (oder はだめ) drückt ein <strong>Verbot</strong> aus: „Du darfst nicht...", „Man darf nicht...". はいけない ist die neutrale bis formelle Variante und wird in Regeln, Vorschriften und von Autoritätspersonen verwendet. はだめ ist die umgangssprachliche Variante — lockerer, aber genauso bestimmt. In der gesprochenen Sprache wird ては oft zu ちゃ (nach て-Laut) bzw. じゃ (nach で-Laut) verkürzt: 食べちゃだめ, 飲んじゃだめ.',
           examples: [
-            { jp: '日本語が少し話せるようになった。', romaji: 'Nihongo ga sukoshi hanaseru yō ni natta.', de: 'Ich kann jetzt ein wenig Japanisch sprechen.' },
-            { jp: '納豆が食べられるようになりました。', romaji: 'Nattō ga taberareru yō ni narimashita.', de: 'Ich kann jetzt Nattō essen. (Vorher konnte ich es nicht.)' },
-            { jp: '漢字が読めるようになってきた。', romaji: 'Kanji ga yomeru yō ni natte kita.', de: 'Ich kann allmählich Kanji lesen.' }
+            { jp: 'ここでタバコを吸ってはいけません。', romaji: 'Koko de tabako o sutte wa ikemasen.', de: 'Hier darf man nicht rauchen.' },
+            { jp: '試験中に辞書を使ってはいけない。', romaji: 'Shikenchū ni jisho o tsukatte wa ikenai.', de: 'Während der Prüfung darf man kein Wörterbuch benutzen.' },
+            { jp: '走っちゃだめだよ！', romaji: 'Hashiccha dame da yo!', de: 'Du darfst nicht rennen!' }
           ],
-          tip: 'ようになってきた fügt eine extra Nuance hinzu: Die Veränderung ist noch im Gange, sie „kommt gerade".'
+          tip: '～てはいけない ist ein echtes Verbot (Regel/Vorschrift), während ～ないでください eine höfliche Bitte ist. „Hier darf man nicht rauchen" (てはいけない) vs. „Bitte rauchen Sie hier nicht" (ないでください) — der Unterschied zwischen Gesetz und Höflichkeit.'
         },
         {
-          heading: 'Verneinung: ～ないようにする / ～なくなる',
-          text: 'Die verneinte Form von ようにする ist ～ないようにする: „darauf achten, etwas NICHT zu tun". Bei ようになる wird die Verneinung zu ～なくなる: „aufgehört haben, etwas zu tun" oder „nicht mehr können".',
+          heading: '～なくてもいい — Nicht nötig: „Du musst nicht..."',
+          text: 'Die ない-Form (ohne い) + くてもいい bedeutet: „Du musst nicht...", „Es ist nicht nötig, dass..." Das ist ein entscheidender Unterschied zu ～てはいけない! <strong>てはいけない = Verbot</strong> (du darfst nicht), <strong>なくてもいい = keine Pflicht</strong> (du musst nicht, darfst aber). Im Deutschen wird „du musst nicht" und „du darfst nicht" im Alltag manchmal vermischt — im Japanischen sind die Formen glasklar getrennt. Wer den Unterschied beherrscht, vermeidet peinliche Missverständnisse.',
           examples: [
-            { jp: '夜遅くスマホを見ないようにしている。', romaji: 'Yoru osoku sumaho o minai yō ni shite iru.', de: 'Ich achte darauf, abends nicht mehr aufs Handy zu schauen.' },
-            { jp: '最近コーヒーを飲まなくなった。', romaji: 'Saikin kōhī o nomanaku natta.', de: 'In letzter Zeit trinke ich keinen Kaffee mehr.' },
-            { jp: '子供が泣かなくなった。', romaji: 'Kodomo ga nakanaku natta.', de: 'Das Kind weint nicht mehr.' }
-          ]
-        },
-        {
-          heading: 'Vergleich: する vs なる',
-          text: 'Der Kernunterschied ist <strong>Kontrolle vs. Resultat</strong>:<ul class="lesson-rules"><li><strong>ようにする</strong> → Aktive Bemühung: „Ich VERSUCHE, ..."</li><li><strong>ようになる</strong> → Passives Ergebnis: „Es IST so geworden, dass..."</li></ul>Oft beschreibt ようにする den Anfang eines Prozesses und ようになる das Ergebnis.',
-          examples: [
-            { jp: '毎日走るようにしたら、5キロ走れるようになった。', romaji: 'Mainichi hashiru yō ni shitara, go-kiro hashireru yō ni natta.', de: 'Nachdem ich angefangen habe, jeden Tag zu laufen, konnte ich 5 km laufen.' },
-            { jp: '日本語を毎日聞くようにしていたら、聞き取れるようになってきた。', romaji: 'Nihongo o mainichi kiku yō ni shite itara, kikitoreru yō ni natte kita.', de: 'Weil ich darauf geachtet habe, jeden Tag Japanisch zu hören, kann ich es allmählich verstehen.' }
+            { jp: '明日は早く来なくてもいいですよ。', romaji: 'Ashita wa hayaku konakute mo ii desu yo.', de: 'Du musst morgen nicht früh kommen. (Aber du darfst, wenn du willst.)' },
+            { jp: '全部食べなくてもいいよ。', romaji: 'Zenbu tabenakute mo ii yo.', de: 'Du musst nicht alles aufessen.' },
+            { jp: '無理しなくてもいいですよ。', romaji: 'Muri shinakute mo ii desu yo.', de: 'Du musst dich nicht überanstrengen.' }
           ],
-          tip: 'Merke dir: する = Schweiß, なる = Ergebnis. „Ich habe trainiert (ようにした) und kann es jetzt (ようになった)."'
+          tip: 'Vergleiche: 食べてはいけない = „Du darfst nicht essen!" (Verbot) vs. 食べなくてもいい = „Du musst nicht essen." (Keine Pflicht, aber erlaubt). Dieser Unterschied ist auf dem JLPT ein beliebter Stolperstein!'
         }
       ]
     },
@@ -1679,39 +1700,40 @@
     {
       id: 'lesson-32',
       number: 32,
-      title: '～ことにする / ～ことになる',
-      subtitle: 'Entscheidungen treffen / Ergebnisse',
+      title: '～ばかりか / ～のみならず',
+      subtitle: 'Nicht nur... sondern auch',
       level: 'N3',
-      intro: 'Entscheidungen fallen nicht immer aus freien Stücken. Manchmal entscheidet man selbst, manchmal wird es für einen entschieden. Genau diesen Unterschied fangen ～ことにする und ～ことになる ein. Das eine ist der Moment des „Ich habe beschlossen!", das andere das „Es wurde beschlossen" oder „Es hat sich so ergeben". Diese Grammatik taucht im Alltag ständig auf — von der Restaurantwahl bis zur Jobentscheidung. Und der feine Unterschied zum ähnlichen ようにする/ようになる-Paar macht das Ganze besonders spannend.',
+      intro: 'Wenn man sagen will, dass etwas über das Erwartete hinausgeht — „Nicht nur X, sondern sogar Y!" — braucht man ～ばかりか oder ～のみならず. Beide drücken eine Steigerung aus, aber in unterschiedlichen Registern. ～ばかりか ist die lebendige, gesprochene Form mit einem Hauch Überraschung, während ～のみならず in Zeitungsartikeln und Reden zu Hause ist. Zusammen mit dem neutralen ～だけでなく bilden sie ein Dreierteam, das du je nach Situation einsetzen kannst.',
       sections: [
         {
-          heading: 'ことにする — Eigene Entscheidung',
-          text: 'Verb-Wörterbuchform / ない-Form + ことにする drückt eine <strong>bewusste, persönliche Entscheidung</strong> aus. Im Deutschen: „Ich habe beschlossen, ...", „Ich habe mich entschieden, ...". Der Fokus liegt auf dem Moment der Entscheidung.',
+          heading: '～ばかりか — Nicht nur X, sondern sogar Y',
+          text: '～ばかりか betont eine <strong>überraschende Steigerung</strong>: Nicht nur das eine, sondern sogar noch etwas Stärkeres kommt dazu. Es ist umgangssprachlich bis neutral und wird im Alltag häufig verwendet. Bildung: Verb / i-Adjektiv / na-Adjektiv (+ な/である) / Nomen + ばかりか. Im Nachsatz folgt oft さらに, も oder sogar まで, um die Eskalation zu unterstreichen.',
           examples: [
-            { jp: '来月から日本語を習うことにした。', romaji: 'Raigetsu kara nihongo o narau koto ni shita.', de: 'Ich habe beschlossen, ab nächstem Monat Japanisch zu lernen.' },
-            { jp: '今日は早く寝ることにする。', romaji: 'Kyō wa hayaku neru koto ni suru.', de: 'Ich habe mich entschieden, heute früh ins Bett zu gehen.' },
-            { jp: 'もうお酒を飲まないことにした。', romaji: 'Mō osake o nomanai koto ni shita.', de: 'Ich habe beschlossen, keinen Alkohol mehr zu trinken.' }
+            { jp: '彼は英語ばかりか、フランス語も話せる。', romaji: 'Kare wa eigo bakari ka, furansugo mo hanaseru.', de: 'Er spricht nicht nur Englisch, sondern auch Französisch.' },
+            { jp: '雨が降っているばかりか、風まで強くなってきた。', romaji: 'Ame ga futte iru bakari ka, kaze made tsuyoku natte kita.', de: 'Es regnet nicht nur, sondern es wird sogar windig.' },
+            { jp: 'この店は安いばかりか、味もいい。', romaji: 'Kono mise wa yasui bakari ka, aji mo ii.', de: 'Dieses Restaurant ist nicht nur günstig, sondern auch lecker.' }
           ],
-          tip: 'ことにしている bedeutet „Ich habe es mir zur Regel gemacht, ..." — eine Entscheidung, die man dauerhaft beibehält.'
+          tip: 'ばかりか kann auch negative Steigerungen ausdrücken: 「遅刻したばかりか、宿題も忘れた。」(Er kam nicht nur zu spät, sondern hat sogar die Hausaufgaben vergessen.) — die Eskalation funktioniert in beide Richtungen.'
         },
         {
-          heading: 'ことになる — Äußere Umstände / Ergebnis',
-          text: 'Verb-Wörterbuchform + ことになる bedeutet, dass etwas <strong>entschieden wurde oder sich so ergeben hat</strong> — oft durch äußere Umstände, eine Gruppe oder eine Institution. Im Deutschen: „Es wurde beschlossen, ...", „Es hat sich ergeben, dass...".',
+          heading: '～のみならず — Formelles „Nicht nur..."',
+          text: '～のみならず ist die <strong>formelle, schriftsprachliche</strong> Variante von ～ばかりか. Man findet sie in Nachrichtenartikeln, akademischen Texten und offiziellen Reden. Bildung: Nomen / Verb (Wörterbuchform) + のみならず. Die Bedeutung ist identisch mit ばかりか, der Ton aber deutlich gehobener.',
           examples: [
-            { jp: '来年日本に転勤することになった。', romaji: 'Rainen Nihon ni tenkin suru koto ni natta.', de: 'Es wurde entschieden, dass ich nächstes Jahr nach Japan versetzt werde.' },
-            { jp: '新しいルールで、ここでタバコを吸えないことになった。', romaji: 'Atarashii rūru de, koko de tabako o suenai koto ni natta.', de: 'Laut der neuen Regel darf man hier nicht mehr rauchen.' },
-            { jp: '会議は来週に延期されることになりました。', romaji: 'Kaigi wa raishū ni enki sareru koto ni narimashita.', de: 'Es wurde entschieden, die Besprechung auf nächste Woche zu verschieben.' }
-          ]
+            { jp: 'この問題は日本のみならず、世界中で議論されている。', romaji: 'Kono mondai wa Nihon nomi narazu, sekaijū de giron sarete iru.', de: 'Dieses Problem wird nicht nur in Japan, sondern weltweit diskutiert.' },
+            { jp: '彼女は学業のみならず、スポーツでも優れている。', romaji: 'Kanojo wa gakugyō nomi narazu, supōtsu de mo sugurete iru.', de: 'Sie ist nicht nur im Studium, sondern auch im Sport hervorragend.' },
+            { jp: '環境汚染は健康のみならず、経済にも影響を与える。', romaji: 'Kankyō osen wa kenkō nomi narazu, keizai ni mo eikyō o ataeru.', de: 'Umweltverschmutzung wirkt sich nicht nur auf die Gesundheit, sondern auch auf die Wirtschaft aus.' }
+          ],
+          tip: 'のみならず klingt in alltäglichen Gesprächen übertrieben und steif — verwende es nur in schriftlichen oder formellen Kontexten. Im Gespräch unter Freunden wäre ばかりか oder だけじゃなくて natürlicher.'
         },
         {
-          heading: 'ことにする vs ようにする — Der feine Unterschied',
-          text: 'Beide drücken eine Art Entscheidung aus, aber:<ul class="lesson-rules"><li><strong>ことにする</strong> → Einmalige, klare Entscheidung: „Ich habe beschlossen!"</li><li><strong>ようにする</strong> → Anhaltende Bemühung: „Ich achte darauf..."</li></ul>ことにする ist der Moment des Entschlusses, ようにする ist die tägliche Umsetzung.',
+          heading: 'Vergleich: ばかりか vs のみならず vs だけでなく',
+          text: 'Alle drei bedeuten „nicht nur... sondern auch", unterscheiden sich aber in Register und Nuance:<ul class="lesson-rules"><li><strong>だけでなく</strong> → Neutral, passt überall. Die sichere Standardwahl.</li><li><strong>ばかりか</strong> → Umgangssprachlich bis neutral. Betont <strong>Überraschung und Eskalation</strong> — „Nicht nur das, sondern sogar DAS!"</li><li><strong>のみならず</strong> → Formell/schriftlich. Sachlich, objektiv — typisch für Nachrichten und Aufsätze.</li></ul>',
           examples: [
-            { jp: '毎日運動することにした。', romaji: 'Mainichi undō suru koto ni shita.', de: 'Ich habe beschlossen, täglich Sport zu treiben. (Entschluss)' },
-            { jp: '毎日運動するようにしている。', romaji: 'Mainichi undō suru yō ni shite iru.', de: 'Ich achte darauf, täglich Sport zu treiben. (Bemühung)' },
-            { jp: '甘いものを食べないことにした。', romaji: 'Amai mono o tabenai koto ni shita.', de: 'Ich habe beschlossen, nichts Süßes mehr zu essen. (Klarer Schnitt)' }
+            { jp: '彼は日本語だけでなく、中国語もできる。', romaji: 'Kare wa nihongo dake de naku, chūgokugo mo dekiru.', de: 'Er kann nicht nur Japanisch, sondern auch Chinesisch. (Neutral)' },
+            { jp: '成績が悪いばかりか、授業もサボっている。', romaji: 'Seiseki ga warui bakari ka, jugyō mo sabotte iru.', de: 'Die Noten sind nicht nur schlecht, er schwänzt sogar den Unterricht. (Eskalation!)' },
+            { jp: '本校は国内のみならず海外でも高い評価を得ている。', romaji: 'Honkō wa kokunai nomi narazu kaigai de mo takai hyōka o ete iru.', de: 'Unsere Schule genießt nicht nur im Inland, sondern auch im Ausland hohes Ansehen. (Formell)' }
           ],
-          tip: 'ことにする klingt entschlossener — wie ein Strich unter eine Diskussion. ようにする klingt nach einem Prozess, der Disziplin erfordert.'
+          tip: 'Faustregel für die JLPT-Prüfung: Wenn in der Aufgabe ein formeller Text steht, ist のみならず oft die richtige Antwort. Bei emotionaler Steigerung in der Umgangssprache passt ばかりか. Und だけでなく geht im Zweifel immer.'
         }
       ]
     },
@@ -1851,47 +1873,39 @@
     {
       id: 'lesson-36',
       number: 36,
-      title: '～てしまう / ちゃう',
-      subtitle: 'Bedauern und Vollendung',
+      title: '～にしては / ～わりに',
+      subtitle: 'Erwartungen & Widersprüche',
       level: 'N3',
-      intro: 'てしまう ist einer jener Ausdrücke, die das Japanische so ausdrucksstark machen. Mit einem einzigen Verb-Suffix kann man sagen: „Ich habe es leider getan" oder „Ich habe es vollständig erledigt" — Bedauern und Stolz in derselben Konstruktion! In der Umgangssprache wird てしまう zu ちゃう verkürzt, und でしまう zu じゃう. Diese Kurzformen hört man ständig in Anime, Dramen und im täglichen Gespräch. Wer sie versteht und benutzt, klingt sofort natürlicher.',
+      intro: 'Menschen haben Erwartungen — und die Realität weicht ständig davon ab. Im Japanischen gibt es zwei elegante Konstruktionen, um genau diese Diskrepanz auszudrücken: ～にしては und ～わりに. Beide sagen im Kern: „Eigentlich hätte ich X erwartet, aber Y ist der Fall." Der Unterschied liegt im Grad der Überraschung und in der Nuance. にしては betont das Unerwartete stärker — es ist fast immer überraschend. わりに ist neutraler und drückt eher ein Missverhältnis aus. Wer diese beiden Formen beherrscht, kann differenziert über Erwartungen, Enttäuschungen und angenehme Überraschungen sprechen — eine Fähigkeit, die im JLPT N3 und im Alltag gleichermaßen gefragt ist.',
       sections: [
         {
-          heading: 'てしまう — Bedauern: „Leider habe ich..."',
-          text: 'Die häufigste Verwendung von てしまう drückt <strong>Bedauern über etwas Unbeabsichtigtes</strong> aus. Es passierte, obwohl man es nicht wollte. Im Deutschen: „Ich habe leider...", „Mir ist versehentlich...".',
+          heading: '～にしては — „Für einen.../Dafür, dass..."',
+          text: 'Nomen / Verb (普通形) + にしては drückt aus, dass das Ergebnis <strong>im Widerspruch zur Erwartung</strong> steht. Man weiß, was normalerweise zu erwarten wäre, und stellt fest, dass die Realität anders aussieht. Im Deutschen: „Für einen...", „Dafür, dass...". Entscheidend: にしては impliziert <strong>immer</strong>, dass das Ergebnis überraschend ist — es weicht deutlich von der Norm ab. Die Überraschung kann positiv oder negativ sein.',
           examples: [
-            { jp: '電車の中で寝てしまった。', romaji: 'Densha no naka de nete shimatta.', de: 'Ich bin leider im Zug eingeschlafen.' },
-            { jp: '大事な書類をなくしてしまった。', romaji: 'Daiji na shorui o nakushite shimatta.', de: 'Ich habe leider wichtige Dokumente verloren.' },
-            { jp: 'つい食べ過ぎてしまいました。', romaji: 'Tsui tabesugite shimaimashita.', de: 'Ich habe leider zu viel gegessen.' },
+            { jp: '子供にしては、よく知っているね。', romaji: 'Kodomo ni shite wa, yoku shitte iru ne.', de: 'Für ein Kind weißt du erstaunlich viel.' },
+            { jp: '日本に5年住んでいるにしては、日本語があまり上手じゃない。', romaji: 'Nihon ni go-nen sunde iru ni shite wa, nihongo ga amari jōzu ja nai.', de: 'Dafür, dass er seit 5 Jahren in Japan lebt, ist sein Japanisch nicht besonders gut.' },
+            { jp: '初めてにしては、上手にできましたね。', romaji: 'Hajimete ni shite wa, jōzu ni dekimashita ne.', de: 'Dafür, dass es das erste Mal war, hast du es gut gemacht.' }
           ],
-          tip: 'つい (unwillkürlich) + てしまう ist eine häufige Kombination: „Ich konnte nicht anders und habe...".'
+          tip: 'にしては setzt immer einen klaren Maßstab voraus: „Für X (= den Maßstab) ist Y überraschend." Ohne erkennbaren Maßstab klingt der Satz unnatürlich.'
         },
         {
-          heading: 'てしまう — Vollendung: „Komplett erledigt!"',
-          text: 'Die zweite Bedeutung ist <strong>vollständige Erledigung</strong> — etwas ist komplett, endgültig, fertig. Kein Bedauern, sondern Betonung der Abgeschlossenheit. Im Deutschen: „Ich habe es komplett...", „Alles fertig!".',
+          heading: '～わりに(は) — „Im Verhältnis zu.../Obwohl..."',
+          text: 'Nomen の / な-Adj. な / い-Adj. / Verb (普通形) + わりに(は) drückt ein <strong>Missverhältnis</strong> aus — das Ergebnis steht nicht im erwarteten Verhältnis zur Voraussetzung. Im Deutschen: „Im Verhältnis zu...", „Obwohl..., trotzdem...". Anders als にしては muss die Überraschung nicht so stark sein. わりに beschreibt eher eine <strong>proportionale Abweichung</strong>: Man erwartet, dass A zu B führt, aber das Ergebnis ist unverhältnismäßig. わりに kann sowohl positive als auch negative Abweichungen ausdrücken.',
           examples: [
-            { jp: 'この本をもう読んでしまった。', romaji: 'Kono hon o mō yonde shimatta.', de: 'Ich habe dieses Buch schon fertig gelesen.' },
-            { jp: '宿題を全部やってしまおう。', romaji: 'Shukudai o zenbu yatte shimaō.', de: 'Lass uns die Hausaufgaben komplett erledigen!' },
-            { jp: 'ケーキを全部食べてしまった。', romaji: 'Kēki o zenbu tabete shimatta.', de: 'Ich habe den ganzen Kuchen aufgegessen.' }
+            { jp: 'この店は値段のわりに、おいしい。', romaji: 'Kono mise wa nedan no wari ni, oishii.', de: 'Dieses Restaurant ist im Verhältnis zum Preis lecker. (= günstig und trotzdem gut)' },
+            { jp: '一生懸命勉強したわりに、成績が上がらなかった。', romaji: 'Isshōkenmei benkyō shita wari ni, seiseki ga agaranakatta.', de: 'Obwohl ich fleißig gelernt habe, sind meine Noten nicht besser geworden.' },
+            { jp: '忙しいと言っているわりに、よく遊びに行っている。', romaji: 'Isogashii to itte iru wari ni, yoku asobi ni itte iru.', de: 'Obwohl er sagt, er sei beschäftigt, geht er oft aus.' }
           ]
         },
         {
-          heading: 'Umgangssprache: ちゃう / じゃう',
-          text: 'In der gesprochenen Sprache wird てしまう fast immer zu <strong>ちゃう</strong> verkürzt, und でしまう zu <strong>じゃう</strong>. Die Vergangenheit wird entsprechend ちゃった / じゃった. Diese Formen klingen locker und natürlich.',
+          heading: 'Vergleich: にしては vs わりに',
+          text: 'Beide drücken eine Abweichung von der Erwartung aus, aber mit unterschiedlicher Nuance:<ul class="lesson-rules"><li><strong>にしては</strong> → Starke Überraschung: „Für X ist das Ergebnis unerwartet!" Bezieht sich auf eine <em>Kategorie</em> oder <em>Eigenschaft</em> als Maßstab.</li><li><strong>わりに</strong> → Proportionales Missverhältnis: „Im Verhältnis zu X stimmt Y nicht." Eher sachlich, weniger überrascht.</li></ul>Ein Beispiel macht den Unterschied klar: „Für einen Anfänger ist das gut" (にしては — überraschend!) vs. „Obwohl er viel übt, ist er nicht so gut" (わりに — Missverhältnis).',
           examples: [
-            { jp: '食べちゃった。', romaji: 'Tabechatta.', de: 'Hab\'s gegessen. (Ups!)' },
-            { jp: '忘れちゃった！', romaji: 'Wasurechatta!', de: 'Hab\'s vergessen!' },
-            { jp: '壊れちゃった。', romaji: 'Kowarechatta.', de: 'Es ist kaputtgegangen.' },
+            { jp: '安いにしては、品質がいい。', romaji: 'Yasui ni shite wa, hinshitsu ga ii.', de: 'Dafür, dass es billig ist, ist die Qualität gut. (= überraschend gut!)' },
+            { jp: '安いわりに、品質がいい。', romaji: 'Yasui wari ni, hinshitsu ga ii.', de: 'Im Verhältnis zum günstigen Preis ist die Qualität gut. (= sachliche Feststellung)' },
+            { jp: '年齢にしては若く見える。', romaji: 'Nenrei ni shite wa wakaku mieru.', de: 'Für sein Alter sieht er jung aus. (= Überraschung über die Erscheinung)' }
           ],
-          tip: 'ちゃダメ / じゃダメ = „Du darfst nicht...!" — eine sehr häufige Konstruktion im Alltag, besonders mit Kindern.'
-        },
-        {
-          heading: 'Bedauern oder Vollendung? Kontext entscheidet',
-          text: 'Die gleiche Form kann beide Bedeutungen haben — der Kontext und der Tonfall entscheiden:<ul class="lesson-rules"><li>Negative Verben / ungewollte Ereignisse → <strong>Bedauern</strong></li><li>Positive Ergebnisse / Abschluss → <strong>Vollendung</strong></li></ul>',
-          examples: [
-            { jp: 'ケーキを食べちゃった。', romaji: 'Kēki o tabechatta.', de: '(Bedauern:) Ich habe den Kuchen leider gegessen... (z.B. obwohl er für jemand anderen war)' },
-            { jp: 'ケーキを食べちゃった。', romaji: 'Kēki o tabechatta.', de: '(Vollendung:) Ich habe den Kuchen komplett aufgegessen! (stolz/zufrieden)' }
-          ]
+          tip: 'Faustregel: Wenn du „Wow, das hätte ich nicht erwartet!" sagen willst, nimm にしては. Wenn du eher „Hmm, das passt nicht zusammen" meinst, nimm わりに.'
         }
       ]
     },
@@ -1900,48 +1914,40 @@
     {
       id: 'lesson-37',
       number: 37,
-      title: 'Passiv (受身形)',
-      subtitle: '～れる・られる im Passiv',
+      title: '～べき / ～べきではない',
+      subtitle: 'Sollte / Sollte nicht',
       level: 'N3',
-      intro: 'Das Passiv im Japanischen ist ein faszinierendes Tier — es funktioniert grundlegend anders als im Deutschen. Während das deutsche Passiv neutral ist („Das Buch wurde gelesen"), hat das japanische Passiv oft eine emotionale Komponente: Es drückt aus, dass jemandem etwas angetan wurde, dass man von einer Handlung betroffen ist. Es gibt sogar ein „Leidenspassiv", das im Deutschen gar nicht existiert. Wer das japanische Passiv meistert, versteht eine ganz neue Perspektive auf Ereignisse — die Sicht des Betroffenen.',
+      intro: '„Das sollte man tun" — aber wie stark ist dieses „sollte"? Im Japanischen gibt es dafür ～べき, und es ist kein leiser Vorschlag. ～べき drückt eine starke moralische oder logische Überzeugung aus: „Das ist das Richtige." Es steht zwischen dem sanften ～ほうがいい (freundlicher Rat) und dem strengen ～なければならない (externe Pflicht). Wenn jemand べき verwendet, meint er es ernst — es geht um Prinzipien, Verantwortung und das, was man als richtig empfindet.',
       sections: [
         {
-          heading: 'Bildung des Passivs',
-          text: 'Die Passivform wird gebildet, indem man bei <strong>u-Verben</strong> die letzte Silbe durch die a-Reihe + れる ersetzt, und bei <strong>ru-Verben</strong> る durch られる. Die irregulären Verben: する → される, くる → こられる.',
+          heading: '～べきだ — Man sollte...',
+          text: 'Verb (Wörterbuchform) + べきだ drückt eine <strong>starke moralische oder logische Empfehlung</strong> aus. Es ist kein freundlicher Tipp, sondern eine klare Überzeugung: „Das ist das Richtige!" Bildung: Verb-Wörterbuchform + べきだ. Wichtige Ausnahme: Bei する gibt es zwei Formen — するべき und すべき (etwas formeller). べき wird nicht für triviale Alltagsentscheidungen benutzt — es geht immer um etwas Bedeutsames.',
           examples: [
-            { jp: '読む → 読まれる', romaji: 'yomu → yomareru', de: 'lesen → gelesen werden' },
-            { jp: '食べる → 食べられる', romaji: 'taberu → taberareru', de: 'essen → gegessen werden' },
-            { jp: '書く → 書かれる', romaji: 'kaku → kakareru', de: 'schreiben → geschrieben werden' },
+            { jp: '学生は毎日勉強するべきだ。', romaji: 'Gakusei wa mainichi benkyō suru beki da.', de: 'Studenten sollten jeden Tag lernen. (Starke Überzeugung)' },
+            { jp: '約束は守るべきだ。', romaji: 'Yakusoku wa mamoru beki da.', de: 'Versprechen sollte man halten. (Moralisches Prinzip)' },
+            { jp: '大切なことは自分で決めるべきだ。', romaji: 'Taisetsu na koto wa jibun de kimeru beki da.', de: 'Wichtige Dinge sollte man selbst entscheiden.' }
           ],
-          tip: 'Bei ru-Verben ist die Passivform identisch mit der Potenzialform (られる). Im gesprochenen Japanisch wird bei der Potenzialform oft das ら weggelassen (食べれる), aber beim Passiv bleibt es erhalten.'
+          tip: 'べき stammt vom klassischen japanischen Hilfsverb べし und klingt daher etwas gehobener. In der modernen Umgangssprache hört man auch べきだよ oder べきじゃない, aber in Aufsätzen und Reden ist べきだ / べきである die Standardform.'
         },
         {
-          heading: 'Direktes Passiv — Neutrale Beschreibung',
-          text: 'Das direkte Passiv funktioniert ähnlich wie im Deutschen. Das Objekt wird zum Subjekt, der Handelnde wird mit に markiert. Häufig in formellen Texten, Nachrichten und Beschreibungen.',
+          heading: '～べきではない — Man sollte nicht...',
+          text: 'Verb (Wörterbuchform) + べきではない drückt eine <strong>starke negative Empfehlung</strong> aus: „Das sollte man auf keinen Fall tun." In formellen Kontexten wird べきではない bevorzugt, in der Umgangssprache hört man auch べきじゃない. Achtung: Die Verneinung steht bei べき, nicht beim Verb — also 行くべきではない (nicht: 行かないべき).',
           examples: [
-            { jp: 'この小説は夏目漱石に書かれた。', romaji: 'Kono shōsetsu wa Natsume Sōseki ni kakareta.', de: 'Dieser Roman wurde von Natsume Sōseki geschrieben.' },
-            { jp: '新しい駅が建てられた。', romaji: 'Atarashii eki ga taterareta.', de: 'Ein neuer Bahnhof wurde gebaut.' },
-            { jp: '英語は世界中で話されている。', romaji: 'Eigo wa sekaijū de hanasarete iru.', de: 'Englisch wird weltweit gesprochen.' }
-          ]
-        },
-        {
-          heading: 'Leidenspassiv (迷惑の受身) — Die japanische Spezialität',
-          text: 'Das <strong>Leidenspassiv</strong> ist einzigartig im Japanischen. Es drückt aus, dass der Sprecher von einer Handlung <strong>negativ betroffen</strong> ist — auch wenn die Handlung nicht direkt an ihm verübt wurde. Im Deutschen gibt es kein echtes Äquivalent; man müsste umschreiben: „Mir wurde angetan, dass...".',
-          examples: [
-            { jp: '電車の中で足を踏まれた。', romaji: 'Densha no naka de ashi o fumareta.', de: 'Mir wurde im Zug auf den Fuß getreten.' },
-            { jp: '隣の人にタバコを吸われた。', romaji: 'Tonari no hito ni tabako o suwareta.', de: 'Die Person neben mir hat geraucht. (Und es hat mich gestört!)' },
-            { jp: '雨に降られて、びしょ濡れになった。', romaji: 'Ame ni furarete, bisho-nure ni natta.', de: 'Ich wurde vom Regen erwischt und bin durchnässt.' },
+            { jp: '他人の秘密を話すべきではない。', romaji: 'Tanin no himitsu o hanasu beki de wa nai.', de: 'Man sollte die Geheimnisse anderer nicht verraten.' },
+            { jp: '子どもの前で喧嘩するべきではない。', romaji: 'Kodomo no mae de kenka suru beki de wa nai.', de: 'Man sollte nicht vor Kindern streiten.' },
+            { jp: '簡単にあきらめるべきではない。', romaji: 'Kantan ni akirameru beki de wa nai.', de: 'Man sollte nicht so leicht aufgeben.' }
           ],
-          tip: 'Das Leidenspassiv wird sogar mit intransitiven Verben gebildet — 雨に降られた (vom Regen „geregnet werden") ist grammatisch korrekt und sehr natürlich!'
+          tip: 'Vorsicht bei der Wortstellung: Es heißt 食べるべきではない (sollte nicht essen), NICHT 食べないべきだ. Die Verneinung bezieht sich auf べき, nicht auf das Verb davor.'
         },
         {
-          heading: 'Passiv in der Höflichkeitssprache',
-          text: 'Die Passivform wird auch als <strong>Höflichkeitsform</strong> verwendet, besonders in der Keigo-Sprache. In diesem Fall drückt sie keinen leidenden Aspekt aus, sondern Respekt gegenüber dem Handelnden.',
+          heading: 'Vergleich: べき vs ほうがいい vs なければならない',
+          text: 'Alle drei drücken eine Art „sollen" aus, aber die Stärke und der Ton unterscheiden sich erheblich:<ul class="lesson-rules"><li><strong>～ほうがいい</strong> → Sanfter Rat, freundlicher Vorschlag: „Es wäre besser, wenn du..." — kein Druck.</li><li><strong>～べきだ</strong> → Starke moralische/logische Überzeugung: „Man sollte..." — der Sprecher ist überzeugt, dass es das Richtige ist.</li><li><strong>～なければならない</strong> → Externe Pflicht, Regel oder Zwang: „Man muss..." — es gibt keine Wahl.</li></ul>',
           examples: [
-            { jp: '先生が来られました。', romaji: 'Sensei ga koraremashita.', de: 'Der Lehrer ist gekommen. (respektvoll)' },
-            { jp: '社長はもう帰られました。', romaji: 'Shachō wa mō kaeraremashita.', de: 'Der Firmenchef ist bereits nach Hause gegangen. (respektvoll)' },
-            { jp: 'お客様が注文されました。', romaji: 'Okyakusama ga chūmon saremashita.', de: 'Der Kunde hat bestellt. (respektvoll)' }
-          ]
+            { jp: '野菜を食べたほうがいいよ。', romaji: 'Yasai o tabeta hō ga ii yo.', de: 'Du solltest Gemüse essen. (Freundlicher Rat unter Freunden)' },
+            { jp: '政治家は国民の声を聞くべきだ。', romaji: 'Seijika wa kokumin no koe o kiku beki da.', de: 'Politiker sollten auf die Stimme des Volkes hören. (Starke Überzeugung)' },
+            { jp: '税金を払わなければならない。', romaji: 'Zeikin o harawanakereba naranai.', de: 'Man muss Steuern zahlen. (Gesetzliche Pflicht — keine Wahl)' }
+          ],
+          tip: 'べき ist unangemessen für banale Alltagsdinge: 「傘を持っていくべきだ」 klingt übertrieben — dafür passt ほうがいい besser. Reserviere べき für Themen mit moralischem Gewicht: Ehrlichkeit, Verantwortung, gesellschaftliche Pflichten.'
         }
       ]
     },
@@ -1950,48 +1956,40 @@
     {
       id: 'lesson-38',
       number: 38,
-      title: '～わけだ / ～わけがない / ～わけにはいかない',
-      subtitle: 'Logische Schlüsse',
-      level: 'N2',
-      intro: 'わけ bedeutet wörtlich „Grund" oder „Erklärung" — und genau das tut es in der Grammatik: Es erklärt, begründet und zieht Schlüsse. Die drei Varianten わけだ, わけがない und わけにはいかない decken ein ganzes Spektrum ab: von „Kein Wunder!" über „Das kann nicht sein!" bis „Ich kann es mir nicht leisten, das zu tun." Wer diese drei Formen meistert, kann Argumente aufbauen, Schlüsse ziehen und logische Zusammenhänge elegant ausdrücken — unverzichtbar für jeden, der auf N2-Niveau kommunizieren möchte.',
+      title: '～きり / ～っぱなし',
+      subtitle: 'Nur noch / So gelassen',
+      level: 'N3',
+      intro: 'Manche Zustände ändern sich einfach nicht — und manche Dinge werden einfach so gelassen, wie sie sind. Im Japanischen gibt es zwei ausdrucksstarke Konstruktionen für genau diese Situationen: ～きり (auch ～っきり) beschreibt, dass seit einem bestimmten Moment nichts mehr passiert ist — „Seitdem... nichts mehr." ～っぱなし beschreibt, dass etwas in einem Zustand belassen wurde — oft nachlässig oder achtlos. Zusammen mit dem bereits bekannten ～ばかり bilden sie ein Dreiergespann, das verschiedene Facetten von „nur das / immer noch / so gelassen" abdeckt. Diese Formen verleihen dem Japanischen eine emotionale Tiefe, die im Deutschen oft mehrerer Umschreibungen bedarf.',
       sections: [
         {
-          heading: 'わけだ — Logische Schlussfolgerung',
-          text: 'わけだ drückt aus, dass eine <strong>Schlussfolgerung logisch und nachvollziehbar</strong> ist. Im Deutschen: „Kein Wunder, dass...", „Das heißt also...", „Deshalb also...". Es verbindet Ursache und Wirkung.',
+          heading: '～きり / ～っきり — „Nur noch.../Seit..."',
+          text: 'Verb た-Form + きり (oder っきり) drückt aus, dass <strong>seit einer bestimmten Handlung nichts mehr passiert ist</strong>. Der Zustand hat sich seitdem nicht verändert. Im Deutschen: „Seit...", „Seitdem... nicht mehr", „Nur noch...". きり betont die Endgültigkeit oder das Ausbleiben einer erwarteten Veränderung. Bei Nomen und Zahlen bedeutet きり „nur": 二人きり (nur zu zweit), これっきり (nur dieses eine Mal). Die Doppelkonsonanten-Variante っきり ist umgangssprachlicher und emotional stärker.',
           examples: [
-            { jp: '毎日3時間練習しているのか。上手なわけだ。', romaji: 'Mainichi san-jikan renshū shite iru no ka. Jōzu na wake da.', de: 'Du übst jeden Tag drei Stunden? Kein Wunder, dass du so gut bist.' },
-            { jp: '30年も住んでいるなら、町のことをよく知っているわけだ。', romaji: 'Sanjū-nen mo sunde iru nara, machi no koto o yoku shitte iru wake da.', de: 'Wenn du seit 30 Jahren hier wohnst, dann kennst du die Stadt natürlich gut.' },
-            { jp: '1ドルが150円か。日本は安いわけだ。', romaji: 'Ichi-doru ga hyaku-gojū-en ka. Nihon wa yasui wake da.', de: '1 Dollar ist 150 Yen? Kein Wunder, dass Japan günstig ist.' }
-          ]
-        },
-        {
-          heading: 'わけがない — Unmöglich!',
-          text: 'わけがない drückt eine <strong>starke Verneinung</strong> aus — etwas ist logisch unmöglich oder absurd. Im Deutschen: „Es gibt keinen Grund, warum...", „Das kann doch nicht sein!" Emotionaler und umgangssprachlicher als はずがない.',
-          examples: [
-            { jp: 'あんな高い車が買えるわけがない。', romaji: 'Anna takai kuruma ga kaeru wake ga nai.', de: 'Es ist völlig ausgeschlossen, dass ich mir so ein teures Auto leisten kann.' },
-            { jp: '一日で日本語が話せるようになるわけがない。', romaji: 'Ichinichi de nihongo ga hanaseru yō ni naru wake ga nai.', de: 'Es ist unmöglich, an einem Tag Japanisch sprechen zu lernen.' },
-            { jp: '彼女がそんなことを言うわけがない。', romaji: 'Kanojo ga sonna koto o iu wake ga nai.', de: 'Es ist ausgeschlossen, dass sie so etwas gesagt hat.' }
+            { jp: '彼は出かけたきり、帰ってこない。', romaji: 'Kare wa dekaketa kiri, kaette konai.', de: 'Er ist weggegangen und seitdem nicht zurückgekommen.' },
+            { jp: 'あの日会ったきり、連絡がない。', romaji: 'Ano hi atta kiri, renraku ga nai.', de: 'Seit dem Tag, als wir uns getroffen haben, kein Kontakt mehr.' },
+            { jp: '二人きりで話したい。', romaji: 'Futari kiri de hanashitai.', de: 'Ich möchte nur zu zweit (unter vier Augen) reden.' }
           ],
-          tip: 'わけない (ohne が) bedeutet etwas ganz anderes: „kinderleicht"! この問題はわけない = „Diese Aufgabe ist ein Kinderspiel."'
+          tip: 'きり betont immer: „Seit damals hat sich nichts geändert." Es schwingt oft Bedauern oder Sehnsucht mit — der Kontakt, der nie wieder kam, die Person, die nie zurückkehrte.'
         },
         {
-          heading: 'わけにはいかない — Das kann ich mir nicht leisten',
-          text: 'わけにはいかない drückt aus, dass man etwas aus <strong>sozialen, moralischen oder praktischen Gründen nicht tun kann</strong>, auch wenn man es vielleicht möchte. Im Deutschen: „Ich kann es mir nicht leisten, ...", „Es geht nicht, dass...".',
+          heading: '～っぱなし — „Einfach so gelassen..."',
+          text: 'Verb ます-Stamm + っぱなし beschreibt, dass etwas <strong>in einem Zustand belassen wurde</strong>, ohne es zu korrigieren oder abzuschließen. Im Deutschen: „... stehen/liegen/offen gelassen", „Die ganze Zeit über...". っぱなし kommt von 放す (hanasu, loslassen) und trägt fast immer eine <strong>negative Konnotation</strong>: Nachlässigkeit, Vergesslichkeit oder Rücksichtslosigkeit. Es wird auch verwendet, wenn jemand die ganze Zeit in einem Zustand verharrt — „die ganze Zeit gestanden / gesessen".',
           examples: [
-            { jp: '約束したから、行かないわけにはいかない。', romaji: 'Yakusoku shita kara, ikanai wake ni wa ikanai.', de: 'Ich habe es versprochen, also kann ich nicht NICHT hingehen.' },
-            { jp: '明日試験だから、遊んでいるわけにはいかない。', romaji: 'Ashita shiken da kara, asonde iru wake ni wa ikanai.', de: 'Morgen ist Prüfung, also kann ich nicht einfach herumspielen.' },
-            { jp: '上司に頼まれたら、断るわけにはいかない。', romaji: 'Jōshi ni tanomaretara, kotowaru wake ni wa ikanai.', de: 'Wenn der Chef mich bittet, kann ich nicht ablehnen.' }
+            { jp: 'ドアを開けっぱなしにしないで。', romaji: 'Doa o akeppanashi ni shinaide.', de: 'Lass die Tür nicht offen stehen.' },
+            { jp: '水を出しっぱなしにしていた。', romaji: 'Mizu o dashippanashi ni shite ita.', de: 'Ich hatte das Wasser die ganze Zeit laufen lassen.' },
+            { jp: '電車で2時間立ちっぱなしだった。', romaji: 'Densha de ni-jikan tachippanashi datta.', de: 'Ich habe in der Bahn zwei Stunden lang die ganze Zeit gestanden.' }
           ],
-          tip: 'ないわけにはいかない (doppelte Verneinung) = „Ich MUSS es tun" — man kann nicht NICHT handeln, also muss man handeln.'
+          tip: 'っぱなし impliziert fast immer Kritik oder Unbehagen: Tür offen gelassen, Licht angelassen, Wasser laufen lassen — es schwingt ein „Das hätte man nicht so lassen sollen!" mit.'
         },
         {
-          heading: 'わけではない — Teilverneinung',
-          text: 'わけではない ist die <strong>sanfte Verneinung</strong>: „Es ist nicht so, dass..." Man verneint nicht komplett, sondern schränkt ein. Im Deutschen: „Es ist nicht so, dass...", „Das heißt nicht, dass...".',
+          heading: 'Vergleich: きり vs っぱなし vs ばかり',
+          text: 'Alle drei können „nur" oder „immer noch" bedeuten, aber mit unterschiedlichem Fokus:<ul class="lesson-rules"><li><strong>きり</strong> → „Seit damals nichts mehr." Fokus auf den <em>Wendepunkt</em>, nach dem sich nichts änderte. Oft mit Bedauern.</li><li><strong>っぱなし</strong> → „So gelassen, wie es ist." Fokus auf den <em>unveränderten Zustand</em>, den jemand nicht korrigiert hat. Oft mit Kritik.</li><li><strong>ばかり</strong> → „Immer nur das." Fokus auf die <em>Wiederholung oder Ausschließlichkeit</em>. Kann neutral oder genervt sein.</li></ul>',
           examples: [
-            { jp: '嫌いなわけではないが、あまり食べない。', romaji: 'Kirai na wake de wa nai ga, amari tabenai.', de: 'Es ist nicht so, dass ich es nicht mag, aber ich esse es selten.' },
-            { jp: '日本語が分からないわけではないが、難しい文章は無理だ。', romaji: 'Nihongo ga wakaranai wake de wa nai ga, muzukashii bunshō wa muri da.', de: 'Es ist nicht so, dass ich kein Japanisch verstehe, aber schwierige Texte schaffe ich nicht.' },
-            { jp: '反対しているわけではありません。', romaji: 'Hantai shite iru wake de wa arimasen.', de: 'Es ist nicht so, dass ich dagegen bin.' }
-          ]
+            { jp: '会ったきり連絡がない。', romaji: 'Atta kiri renraku ga nai.', de: 'Seit dem Treffen kein Kontakt mehr. (Wendepunkt → Stille)' },
+            { jp: 'テレビをつけっぱなしで寝てしまった。', romaji: 'Terebi o tsukeppanashi de nete shimatta.', de: 'Ich bin eingeschlafen und habe den Fernseher angelassen. (Zustand → Nachlässigkeit)' },
+            { jp: '最近、仕事ばかりしている。', romaji: 'Saikin, shigoto bakari shite iru.', de: 'In letzter Zeit mache ich nur noch Arbeit. (Wiederholung → Ausschließlichkeit)' }
+          ],
+          tip: 'Eselsbrücke: きり = „Seit dem Moment — Funkstille." っぱなし = „Einfach so gelassen — typisch!" ばかり = „Immer nur das eine — langsam nervt es."'
         }
       ]
     },
