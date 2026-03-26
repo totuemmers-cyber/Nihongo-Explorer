@@ -21,8 +21,6 @@
             { jp: '私は学生です。', romaji: 'Watashi wa gakusei desu.', de: 'Ich bin Student. (Wörtlich: Was mich betrifft — Student.)' },
             { jp: '東京は大きいです。', romaji: 'Tōkyō wa ōkii desu.', de: 'Tokyo ist groß. (Was Tokyo betrifft — groß.)' },
             { jp: '今日は暑いですね。', romaji: 'Kyō wa atsui desu ne.', de: 'Heute ist es heiß, oder? (Was heute betrifft...)' },
-            { jp: '日本語は難しいですか。', romaji: 'Nihongo wa muzukashii desu ka.', de: 'Ist Japanisch schwer? (Was Japanisch betrifft — schwer?)' },
-            { jp: 'この映画は面白かったです。', romaji: 'Kono eiga wa omoshirokatta desu.', de: 'Dieser Film war interessant. (Was diesen Film betrifft...)' }
           ]
         },
         {
@@ -32,8 +30,6 @@
             { jp: '誰が来ましたか。', romaji: 'Dare ga kimashita ka.', de: 'Wer ist gekommen? (Wir suchen die Identität.)' },
             { jp: '田中さんが来ました。', romaji: 'Tanaka-san ga kimashita.', de: 'Tanaka ist gekommen! (Neue Info: Es ist Tanaka!)' },
             { jp: '雨が降っています。', romaji: 'Ame ga futte imasu.', de: 'Es regnet. (Der Regen fällt — Naturereignis.)' },
-            { jp: 'あそこに猫がいます。', romaji: 'Asoko ni neko ga imasu.', de: 'Da drüben ist eine Katze. (Existenz = が)' },
-            { jp: '何が好きですか。', romaji: 'Nani ga suki desu ka.', de: 'Was magst du? (Was genau ist das Gemochte?)' }
           ]
         },
         {
@@ -43,7 +39,6 @@
             { jp: '私は猫が好きです。', romaji: 'Watashi wa neko ga suki desu.', de: 'Ich mag Katzen. (Was mich betrifft: Katzen sind das, was mir gefällt.)' },
             { jp: '日本は食べ物がおいしいです。', romaji: 'Nihon wa tabemono ga oishii desu.', de: 'In Japan ist das Essen lecker. (Was Japan betrifft: Essen = lecker.)' },
             { jp: '私は頭が痛いです。', romaji: 'Watashi wa atama ga itai desu.', de: 'Mir tut der Kopf weh. (Was mich betrifft: der Kopf = schmerzt.)' },
-            { jp: '田中さんは英語ができます。', romaji: 'Tanaka-san wa eigo ga dekimasu.', de: 'Tanaka kann Englisch. (Was Tanaka betrifft: Englisch = möglich.)' }
           ]
         },
         {
@@ -83,8 +78,6 @@
             { jp: '本を読みます。', romaji: 'Hon o yomimasu.', de: 'Ich lese ein Buch.' },
             { jp: '水を飲みました。', romaji: 'Mizu o nomimashita.', de: 'Ich habe Wasser getrunken.' },
             { jp: '映画を見ましょう。', romaji: 'Eiga o mimashō.', de: 'Lass uns einen Film schauen!' },
-            { jp: '手紙を書いています。', romaji: 'Tegami o kaite imasu.', de: 'Ich schreibe gerade einen Brief.' },
-            { jp: '新しい靴を買いたい。', romaji: 'Atarashii kutsu o kaitai.', de: 'Ich will neue Schuhe kaufen.' }
           ],
           tip: 'を markiert auch Orte, die man <strong>durchquert oder verlässt</strong>. Das ist eine Sonderbedeutung, die oft überrascht: 公園を歩く (durch den Park gehen), 家を出る (das Haus verlassen), 橋を渡る (eine Brücke überqueren). Hier ist der Ort quasi das „Objekt" der Bewegung.'
         },
@@ -95,9 +88,6 @@
             { jp: '学校に行きます。', romaji: 'Gakkō ni ikimasu.', de: 'Ich gehe zur Schule. (Ziel einer Bewegung)' },
             { jp: '東京に住んでいます。', romaji: 'Tōkyō ni sunde imasu.', de: 'Ich wohne in Tokyo. (Ort des Wohnens/Existierens)' },
             { jp: '七時に起きます。', romaji: 'Shichi-ji ni okimasu.', de: 'Ich stehe um sieben Uhr auf. (Konkreter Zeitpunkt)' },
-            { jp: '友達にプレゼントをあげました。', romaji: 'Tomodachi ni purezento o agemashita.', de: 'Ich habe einem Freund ein Geschenk gegeben. (Empfänger)' },
-            { jp: '椅子に座ってください。', romaji: 'Isu ni suwatte kudasai.', de: 'Bitte setz dich auf den Stuhl. (Ziel der Bewegung)' },
-            { jp: '壁に絵がかけてあります。', romaji: 'Kabe ni e ga kakete arimasu.', de: 'An der Wand hängt ein Bild. (Ort der Existenz)' }
           ],
           tip: 'Zeitangaben mit に: Konkrete Zeitpunkte (Uhrzeiten, Wochentage, Daten) brauchen に. Relative Zeitangaben wie 今日, 明日, 来週 brauchen KEIN に, weil sie schon eine zeitliche Beziehung zum „Jetzt" ausdrücken.'
         },
@@ -108,8 +98,6 @@
             { jp: '図書館で勉強します。', romaji: 'Toshokan de benkyō shimasu.', de: 'Ich lerne in der Bibliothek. (Ort der Handlung)' },
             { jp: '箸で食べます。', romaji: 'Hashi de tabemasu.', de: 'Ich esse mit Stäbchen. (Werkzeug)' },
             { jp: '日本語で話してください。', romaji: 'Nihongo de hanashite kudasai.', de: 'Bitte sprich auf Japanisch. (Mittel/Sprache)' },
-            { jp: '台風で電車が止まりました。', romaji: 'Taifū de densha ga tomarimashita.', de: 'Wegen des Taifuns haben die Züge angehalten. (Ursache)' },
-            { jp: '三人でピザを食べた。', romaji: 'Sannin de piza o tabeta.', de: 'Wir haben zu dritt Pizza gegessen. (Rahmen/Anzahl)' }
           ]
         },
         {
@@ -119,7 +107,6 @@
             { jp: '公園に猫がいます。', romaji: 'Kōen ni neko ga imasu.', de: 'Im Park ist eine Katze. (に = sie existiert dort, ruhig)' },
             { jp: '公園で遊びます。', romaji: 'Kōen de asobimasu.', de: 'Ich spiele im Park. (で = ich tue aktiv etwas dort)' },
             { jp: '駅に着きました。', romaji: 'Eki ni tsukimashita.', de: 'Ich bin am Bahnhof angekommen. (に = Zielpunkt)' },
-            { jp: '駅で友達に会いました。', romaji: 'Eki de tomodachi ni aimashita.', de: 'Ich habe am Bahnhof einen Freund getroffen. (で = Ort des Treffens)' }
           ],
           tip: 'Eselsbrücke: に ist wie eine Stecknadel auf der Karte — ein fester Punkt, an dem etwas existiert oder ankommt. で ist wie eine Bühne — ein Ort, an dem etwas aufgeführt wird. Wenn du dir das merkst, liegst du fast immer richtig.'
         }
@@ -142,8 +129,6 @@
             { jp: '学生です。', romaji: 'Gakusei desu.', de: 'Ich bin Student.' },
             { jp: 'これは本です。', romaji: 'Kore wa hon desu.', de: 'Das ist ein Buch.' },
             { jp: '静かです。', romaji: 'Shizuka desu.', de: 'Es ist ruhig. (な-Adjektiv + です)' },
-            { jp: '今日は月曜日です。', romaji: 'Kyō wa getsuyōbi desu.', de: 'Heute ist Montag.' },
-            { jp: '田中さんは先生です。', romaji: 'Tanaka-san wa sensei desu.', de: 'Herr Tanaka ist Lehrer.' }
           ],
           tip: 'Bei い-Adjektiven ist です optional und rein höflich — es verändert die Grammatik nicht. 大きいです = 大きい + Höflichkeit. Man sagt NICHT 大きいだ — das wäre doppelt gemoppelt und falsch.'
         },
@@ -154,8 +139,6 @@
             { jp: '食べます。', romaji: 'Tabemasu.', de: 'Ich esse.' },
             { jp: '日本語を勉強します。', romaji: 'Nihongo o benkyō shimasu.', de: 'Ich lerne Japanisch.' },
             { jp: '毎日走ります。', romaji: 'Mainichi hashirimasu.', de: 'Ich laufe jeden Tag.' },
-            { jp: '六時に起きます。', romaji: 'Roku-ji ni okimasu.', de: 'Ich stehe um sechs Uhr auf.' },
-            { jp: '電車で会社に行きます。', romaji: 'Densha de kaisha ni ikimasu.', de: 'Ich fahre mit dem Zug zur Arbeit.' }
           ]
         },
         {
@@ -165,7 +148,6 @@
             { jp: '食べます', romaji: 'tabemasu', de: 'esse / werde essen (Gegenwart/Zukunft, höflich)' },
             { jp: '食べません', romaji: 'tabemasen', de: 'esse nicht (Verneinung, höflich)' },
             { jp: '食べました', romaji: 'tabemashita', de: 'habe gegessen (Vergangenheit, höflich)' },
-            { jp: '食べませんでした', romaji: 'tabemasen deshita', de: 'habe nicht gegessen (Verg. + Verneinung, höflich)' }
           ],
           tip: 'Beachte: Japanisch unterscheidet grammatisch nicht zwischen Gegenwart und Zukunft. 食べます heißt sowohl „ich esse" als auch „ich werde essen" — der Kontext klärt den Rest.'
         },
@@ -176,7 +158,6 @@
             { jp: '学生です', romaji: 'gakusei desu', de: 'ist Student (Gegenwart, höflich)' },
             { jp: '学生じゃありません', romaji: 'gakusei ja arimasen', de: 'ist nicht Student (Verneinung, höflich)' },
             { jp: '学生でした', romaji: 'gakusei deshita', de: 'war Student (Vergangenheit, höflich)' },
-            { jp: '学生じゃありませんでした', romaji: 'gakusei ja arimasen deshita', de: 'war nicht Student (Verg. + Verneinung, höflich)' }
           ]
         },
         {
@@ -186,7 +167,6 @@
             { jp: '食べる → 食べます', romaji: 'taberu → tabemasu', de: 'essen (casual → höflich)' },
             { jp: '高い → 高いです', romaji: 'takai → takai desu', de: 'teuer (casual → höflich)' },
             { jp: '学生だ → 学生です', romaji: 'gakusei da → gakusei desu', de: 'Student (casual → höflich)' },
-            { jp: '行かない → 行きません', romaji: 'ikanai → ikimasen', de: 'nicht gehen (casual → höflich)' }
           ],
           tip: 'Merke: Die Kurzform brauchst du trotzdem — sie kommt in Nebensätzen (と思う, から, のに...), Zitaten und Konditionalen ständig vor. Du lernst sie also sowieso bald, auch wenn du im Hauptsatz bei ます/です bleibst!'
         }
@@ -209,8 +189,6 @@
             { jp: '大きい (ōkii)', romaji: '', de: 'groß' },
             { jp: '高い → 高くない', romaji: 'takai → takakunai', de: 'teuer → nicht teuer (い → くない)' },
             { jp: '高い → 高かった', romaji: 'takai → takakatta', de: 'teuer → war teuer (い → かった)' },
-            { jp: '高い → 高くなかった', romaji: 'takai → takakunakatta', de: 'teuer → war nicht teuer (い → くなかった)' },
-            { jp: '高い → 高く', romaji: 'takai → takaku', de: 'teuer → teuer (Adverbform: い → く)' }
           ],
           tip: 'Die Adverbform (い → く) ist super nützlich: 早く起きる (früh aufstehen), 大きくなる (groß werden), 安く買う (günstig kaufen). Sie verwandelt das Adjektiv in ein „wie"-Wort.'
         },
@@ -221,7 +199,6 @@
             { jp: '静かな町', romaji: 'shizuka na machi', de: 'eine ruhige Stadt (な vor Nomen)' },
             { jp: '静かです → 静かじゃないです', romaji: 'shizuka desu → shizuka ja nai desu', de: 'ruhig → nicht ruhig' },
             { jp: '静かでした → 静かじゃなかったです', romaji: 'shizuka deshita → shizuka ja nakatta desu', de: 'war ruhig → war nicht ruhig' },
-            { jp: '静かに話す', romaji: 'shizuka ni hanasu', de: 'ruhig sprechen (Adverb: な-Adj. + に)' }
           ]
         },
         {
@@ -231,8 +208,6 @@
             { jp: '大きい家', romaji: 'ōkii ie', de: 'großes Haus (い bleibt einfach stehen)' },
             { jp: 'きれいな花', romaji: 'kirei na hana', de: 'schöne Blume (な verbindet)' },
             { jp: '新しい車', romaji: 'atarashii kuruma', de: 'neues Auto (い-Adjektiv)' },
-            { jp: '有名な人', romaji: 'yūmei na hito', de: 'berühmte Person (な-Adjektiv)' },
-            { jp: '暑い日 vs 元気な子供', romaji: 'atsui hi vs genki na kodomo', de: 'heißer Tag vs fröhliches Kind' }
           ]
         },
         {
@@ -242,7 +217,6 @@
             { jp: '大きくて新しい家', romaji: 'ōkikute atarashii ie', de: 'ein großes und neues Haus (い → くて)' },
             { jp: '静かできれいな町', romaji: 'shizuka de kirei na machi', de: 'eine ruhige und schöne Stadt (な → で)' },
             { jp: 'この料理は安くておいしいです。', romaji: 'Kono ryōri wa yasukute oishii desu.', de: 'Dieses Gericht ist günstig und lecker.' },
-            { jp: '彼女は親切で優しい人です。', romaji: 'Kanojo wa shinsetsu de yasashii hito desu.', de: 'Sie ist eine freundliche und nette Person.' }
           ]
         },
         {
@@ -252,8 +226,6 @@
             { jp: 'きれい（な）', romaji: 'kirei (na)', de: 'schön / sauber — NICHT きれくない!' },
             { jp: '有名（な）', romaji: 'yūmei (na)', de: 'berühmt — sieht aus wie い, ist aber な' },
             { jp: '嫌い（な）', romaji: 'kirai (na)', de: 'verhasst — auch ein な-Adjektiv!' },
-            { jp: '元気（な）', romaji: 'genki (na)', de: 'gesund / munter — endet auf い, ist な' },
-            { jp: '大丈夫（な）', romaji: 'daijōbu (na)', de: 'in Ordnung — ebenfalls な' }
           ],
           tip: 'Faustregel für Fallen: Wenn das い Teil eines längeren Wortblocks ist (z.B. きれい = きれ+い, aber das い ist kein eigenständiges Suffix), ist es wahrscheinlich ein な-Adjektiv. Echte い-Adjektive haben ein い, das man „anfassen und verändern" kann. Im Zweifel: nachschlagen!'
         }
@@ -276,8 +248,6 @@
             { jp: '食べる → 食べて', romaji: 'taberu → tabete', de: 'essen' },
             { jp: '見る → 見て', romaji: 'miru → mite', de: 'sehen' },
             { jp: '起きる → 起きて', romaji: 'okiru → okite', de: 'aufstehen' },
-            { jp: '着る → 着て', romaji: 'kiru → kite', de: 'anziehen' },
-            { jp: '出る → 出て', romaji: 'deru → dete', de: 'herauskommen' }
           ]
         },
         {
@@ -287,8 +257,6 @@
             { jp: 'う・つ・る → って', romaji: '(u/tsu/ru → tte)', de: '買う→買って, 待つ→待って, 帰る→帰って' },
             { jp: 'む・ぶ・ぬ → んで', romaji: '(mu/bu/nu → nde)', de: '飲む→飲んで, 遊ぶ→遊んで, 死ぬ→死んで' },
             { jp: 'く → いて', romaji: '(ku → ite)', de: '書く→書いて, 聞く→聞いて' },
-            { jp: 'ぐ → いで', romaji: '(gu → ide)', de: '泳ぐ→泳いで, 脱ぐ→脱いで' },
-            { jp: 'す → して', romaji: '(su → shite)', de: '話す→話して, 消す→消して' }
           ],
           tip: 'Ausnahme: 行く (iku) wird zu 行って (itte), nicht 行いて. Das ist die einzige Ausnahme in dieser Kategorie — und sie kommt so oft vor, dass man sie automatisch lernt.'
         },
@@ -299,7 +267,6 @@
             { jp: 'する → して', romaji: 'suru → shite', de: 'machen' },
             { jp: '来る → 来て（きて）', romaji: 'kuru → kite', de: 'kommen' },
             { jp: '勉強する → 勉強して', romaji: 'benkyō suru → benkyō shite', de: 'lernen (する-Verb → して)' },
-            { jp: '持ってくる → 持ってきて', romaji: 'motte kuru → motte kite', de: 'mitbringen (来る-Verb → きて)' }
           ]
         },
         {
@@ -309,8 +276,6 @@
             { jp: '窓を開けてください。', romaji: 'Mado o akete kudasai.', de: 'Bitte öffne das Fenster. (Bitte: て + ください)' },
             { jp: '今、食べています。', romaji: 'Ima, tabete imasu.', de: 'Ich esse gerade. (Verlaufsform: て + いる)' },
             { jp: '写真を撮ってもいいですか。', romaji: 'Shashin o totte mo ii desu ka.', de: 'Darf ich ein Foto machen? (Erlaubnis: て + もいい)' },
-            { jp: 'ここで食べてはいけません。', romaji: 'Koko de tabete wa ikemasen.', de: 'Hier darf man nicht essen. (Verbot: て + はいけない)' },
-            { jp: '朝起きて、顔を洗って、朝ごはんを食べます。', romaji: 'Asa okite, kao o aratte, asagohan o tabemasu.', de: 'Morgens stehe ich auf, wasche mein Gesicht und frühstücke. (Aufzählung)' }
           ]
         },
         {
@@ -320,7 +285,6 @@
             { jp: '傘を持っていきます。', romaji: 'Kasa o motte ikimasu.', de: 'Ich nehme einen Schirm mit. (て + いく = und dann losgehen)' },
             { jp: '友達が手伝ってくれました。', romaji: 'Tomodachi ga tetsudatte kuremashita.', de: 'Mein Freund hat mir geholfen. (て + くれる = als Gefallen für mich)' },
             { jp: '食べてみたい。', romaji: 'Tabete mitai.', de: 'Ich möchte es mal probieren. (て + みる = ausprobieren)' },
-            { jp: '全部食べてしまいました。', romaji: 'Zenbu tabete shimaimashita.', de: 'Ich habe alles aufgegessen. (て + しまう = vollständig/leider getan)' }
           ],
           tip: 'Die て-Form ist wie das Alphabet: Sie ist an sich keine Aussage, aber ohne sie kannst du fast nichts schreiben. Investiere die Zeit, die Bildungsregeln zu verinnerlichen — es zahlt sich hundertfach aus.'
         }
@@ -343,10 +307,6 @@
             { jp: '食べて → 食べた', romaji: 'tabete → tabeta', de: 'gegessen (る-Verb)' },
             { jp: '買って → 買った', romaji: 'katte → katta', de: 'gekauft (う→って→った)' },
             { jp: '飲んで → 飲んだ', romaji: 'nonde → nonda', de: 'getrunken (む→んで→んだ)' },
-            { jp: '書いて → 書いた', romaji: 'kaite → kaita', de: 'geschrieben (く→いて→いた)' },
-            { jp: '話して → 話した', romaji: 'hanashite → hanashita', de: 'gesprochen (す→して→した)' },
-            { jp: 'して → した', romaji: 'shite → shita', de: 'gemacht (unregelmäßig)' },
-            { jp: '来て → 来た（きた）', romaji: 'kite → kita', de: 'gekommen (unregelmäßig)' }
           ]
         },
         {
@@ -356,7 +316,6 @@
             { jp: '食べます → 食べました', romaji: 'tabemasu → tabemashita', de: 'habe gegessen (höflich)' },
             { jp: '行きます → 行きました', romaji: 'ikimasu → ikimashita', de: 'bin gegangen (höflich)' },
             { jp: '食べます → 食べませんでした', romaji: 'tabemasu → tabemasen deshita', de: 'habe nicht gegessen (höflich, verneint)' },
-            { jp: '行きます → 行きませんでした', romaji: 'ikimasu → ikimasen deshita', de: 'bin nicht gegangen (höflich, verneint)' }
           ],
           tip: 'Die た-Form (Kurzform Vergangenheit) brauchst du trotzdem: in Nebensätzen, vor のに, から, と思う und vielen anderen Konstruktionen steht immer die Kurzform. Also: ました für den Hauptsatz, た für den Nebensatz.'
         },
@@ -367,9 +326,6 @@
             { jp: '高い → 高かった', romaji: 'takai → takakatta', de: 'war teuer (い-Adj.: い → かった)' },
             { jp: '高い → 高くなかった', romaji: 'takai → takakunakatta', de: 'war nicht teuer (い → くなかった)' },
             { jp: 'おいしい → おいしかったです', romaji: 'oishii → oishikatta desu', de: 'war lecker (höflich)' },
-            { jp: '静かだ → 静かだった', romaji: 'shizuka da → shizuka datta', de: 'war ruhig (な-Adj.: だ → だった)' },
-            { jp: '静かだ → 静かじゃなかった', romaji: 'shizuka da → shizuka ja nakatta', de: 'war nicht ruhig' },
-            { jp: '元気でした → 元気じゃなかったです', romaji: 'genki deshita → genki ja nakatta desu', de: 'war munter → war nicht munter (höflich)' }
           ]
         },
         {
@@ -379,7 +335,6 @@
             { jp: '学生です → 学生でした', romaji: 'gakusei desu → gakusei deshita', de: 'war Student (höflich)' },
             { jp: '学生だ → 学生だった', romaji: 'gakusei da → gakusei datta', de: 'war Student (casual)' },
             { jp: '休みじゃなかったです。', romaji: 'Yasumi ja nakatta desu.', de: 'Es war kein freier Tag.' },
-            { jp: '昨日は日曜日でした。', romaji: 'Kinō wa nichiyōbi deshita.', de: 'Gestern war Sonntag.' }
           ]
         },
         {
@@ -411,9 +366,6 @@
             { jp: '食べます → 食べません', romaji: 'tabemasu → tabemasen', de: 'esse nicht (höflich)' },
             { jp: '食べる → 食べない', romaji: 'taberu → tabenai', de: 'esse nicht (casual, る-Verb: る → ない)' },
             { jp: '行く → 行かない', romaji: 'iku → ikanai', de: 'gehe nicht (casual, く → かない)' },
-            { jp: '飲む → 飲まない', romaji: 'nomu → nomanai', de: 'trinke nicht (casual, む → まない)' },
-            { jp: '話す → 話さない', romaji: 'hanasu → hanasanai', de: 'spreche nicht (casual, す → さない)' },
-            { jp: '待つ → 待たない', romaji: 'matsu → matanai', de: 'warte nicht (casual, つ → たない)' }
           ],
           tip: 'Zwei Sonderfälle: ある (existieren) wird zu ない (nicht あらない!) — das ist die einzige Ausnahme bei う-Verben. Und する/来る: する → しない, 来る → 来ない (こない).'
         },
@@ -424,8 +376,6 @@
             { jp: '高い → 高くない', romaji: 'takai → takakunai', de: 'nicht teuer' },
             { jp: '暑い → 暑くないです', romaji: 'atsui → atsukunai desu', de: 'nicht heiß (höflich)' },
             { jp: 'おいしい → おいしくなかった', romaji: 'oishii → oishikunakatta', de: 'war nicht lecker (Vergangenheit)' },
-            { jp: '難しい → 難しくない', romaji: 'muzukashii → muzukashikunai', de: 'nicht schwer' },
-            { jp: '寒い → 寒くなかったです', romaji: 'samui → samukunakatta desu', de: 'war nicht kalt (höflich, Vergangenheit)' }
           ],
           tip: 'Sonderfall: いい (gut) wird zu よくない, NICHT いくない! Das liegt daran, dass いい historisch von よい abstammt. Alle Konjugationen von いい basieren auf よ-: よくない, よかった, よくなかった.'
         },
@@ -436,8 +386,6 @@
             { jp: '静かだ → 静かじゃない', romaji: 'shizuka da → shizuka ja nai', de: 'nicht ruhig (casual)' },
             { jp: '静かです → 静かじゃありません', romaji: 'shizuka desu → shizuka ja arimasen', de: 'nicht ruhig (höflich)' },
             { jp: '学生です → 学生じゃありません', romaji: 'gakusei desu → gakusei ja arimasen', de: 'bin kein Student (höflich)' },
-            { jp: '好きじゃなかったです。', romaji: 'Suki ja nakatta desu.', de: 'Ich mochte es nicht. (Vergangenheit, höflich)' },
-            { jp: '日曜日じゃなかった。', romaji: 'Nichiyōbi ja nakatta.', de: 'Es war nicht Sonntag. (casual, Vergangenheit)' }
           ]
         },
         {
@@ -447,7 +395,6 @@
             { jp: 'まだ食べていません。', romaji: 'Mada tabete imasen.', de: 'Ich habe noch nicht gegessen. (höflich)' },
             { jp: 'まだ決めていない。', romaji: 'Mada kimete inai.', de: 'Ich habe mich noch nicht entschieden. (casual)' },
             { jp: '宿題はまだやっていません。', romaji: 'Shukudai wa mada yatte imasen.', de: 'Die Hausaufgaben habe ich noch nicht gemacht.' },
-            { jp: 'まだ日本に行ったことがない。', romaji: 'Mada Nihon ni itta koto ga nai.', de: 'Ich war noch nie in Japan. (Erfahrung, die fehlt)' }
           ],
           tip: 'Verwechsle まだ～ていない (noch nicht getan) nicht mit もう～ない (nicht mehr). もう食べない = ich esse nicht mehr / ich werde nicht mehr essen. まだ食べていない = ich habe noch nicht gegessen.'
         },
@@ -479,9 +426,6 @@
             { jp: '食べたい。', romaji: 'Tabetai.', de: 'Ich will essen.' },
             { jp: '日本に行きたいです。', romaji: 'Nihon ni ikitai desu.', de: 'Ich möchte nach Japan fahren. (höflich)' },
             { jp: '何が飲みたいですか。', romaji: 'Nani ga nomitai desu ka.', de: 'Was möchtest du trinken?' },
-            { jp: '映画が見たかった。', romaji: 'Eiga ga mitakatta.', de: 'Ich wollte einen Film sehen. (Vergangenheit)' },
-            { jp: '今日は何もしたくない。', romaji: 'Kyō wa nanimo shitakunai.', de: 'Heute will ich gar nichts machen. (Verneinung)' },
-            { jp: 'もっと早く起きたかったのに。', romaji: 'Motto hayaku okitakatta noni.', de: 'Ich wollte eigentlich früher aufstehen...' }
           ],
           tip: 'Wichtige Kulturnotiz: たい benutzt man nur für die <strong>eigenen Wünsche</strong> oder in direkten Fragen an den Gesprächspartner. Über die Wünsche dritter Personen sagt man たがっている (er/sie zeigt den Wunsch zu...) oder umschreibt mit ようだ/らしい. Direkt zu sagen „Er will..." gilt als anmaßend, weil man nicht in den Kopf anderer Leute schauen kann.'
         },
@@ -492,8 +436,6 @@
             { jp: '新しい車がほしい。', romaji: 'Atarashii kuruma ga hoshii.', de: 'Ich hätte gern ein neues Auto.' },
             { jp: '何がほしいですか。', romaji: 'Nani ga hoshii desu ka.', de: 'Was hättest du gern?' },
             { jp: '時間がほしかった。', romaji: 'Jikan ga hoshikatta.', de: 'Ich hätte gern (mehr) Zeit gehabt.' },
-            { jp: '子供の頃、犬がほしかった。', romaji: 'Kodomo no koro, inu ga hoshikatta.', de: 'Als Kind wollte ich einen Hund haben.' },
-            { jp: '何もほしくないです。', romaji: 'Nanimo hoshikunai desu.', de: 'Ich möchte nichts. (Verneinung)' }
           ]
         },
         {
@@ -503,7 +445,6 @@
             { jp: '来てほしい。', romaji: 'Kite hoshii.', de: 'Ich will, dass du kommst.' },
             { jp: '先生に説明してほしいです。', romaji: 'Sensei ni setsumei shite hoshii desu.', de: 'Ich möchte, dass der Lehrer es erklärt.' },
             { jp: '静かにしてほしい。', romaji: 'Shizuka ni shite hoshii.', de: 'Ich will, dass du still bist.' },
-            { jp: 'もう少し待ってほしいんですが。', romaji: 'Mō sukoshi matte hoshii n desu ga.', de: 'Ich würde gerne, dass Sie noch etwas warten. (vorsichtig höflich)' }
           ]
         },
         {
@@ -513,8 +454,6 @@
             { jp: '日本語ができます。', romaji: 'Nihongo ga dekimasu.', de: 'Ich kann Japanisch. (Nomen + が + できる)' },
             { jp: '泳ぐことができます。', romaji: 'Oyogu koto ga dekimasu.', de: 'Ich kann schwimmen. (Verb + こと + が + できる)' },
             { jp: '料理ができません。', romaji: 'Ryōri ga dekimasen.', de: 'Ich kann nicht kochen.' },
-            { jp: 'ここで写真を撮ることができますか。', romaji: 'Koko de shashin o toru koto ga dekimasu ka.', de: 'Kann man hier Fotos machen?' },
-            { jp: '予約ができました。', romaji: 'Yoyaku ga dekimashita.', de: 'Ich konnte reservieren. / Die Reservierung hat geklappt.' }
           ],
           tip: 'Neben ことができる gibt es auch die <strong>Potentialform</strong> (食べる → 食べられる, 読む → 読める). Die ist kürzer und wird im Alltag häufiger benutzt — sie kommt in Lektion 14 ausführlich dran. Für den Anfang ist できる der sicherste Weg.'
         }
@@ -537,8 +476,6 @@
             { jp: '暑いから、窓を開けました。', romaji: 'Atsui kara, mado o akemashita.', de: 'Weil es heiß ist, habe ich das Fenster geöffnet.' },
             { jp: '明日テストがあるから、今日勉強します。', romaji: 'Ashita tesuto ga aru kara, kyō benkyō shimasu.', de: 'Weil morgen ein Test ist, lerne ich heute.' },
             { jp: 'おなかがすいたから、何か食べよう。', romaji: 'Onaka ga suita kara, nanika tabeyō.', de: 'Ich hab Hunger, also lass uns was essen.' },
-            { jp: '危ないですから、気をつけてください。', romaji: 'Abunai desu kara, ki o tsukete kudasai.', de: 'Es ist gefährlich, also pass bitte auf.' },
-            { jp: 'もう遅いから、帰ります。', romaji: 'Mō osoi kara, kaerimasu.', de: 'Es ist schon spät, also gehe ich nach Hause.' }
           ]
         },
         {
@@ -548,7 +485,6 @@
             { jp: '雨が降っているので、傘を持っていきます。', romaji: 'Ame ga futte iru node, kasa o motte ikimasu.', de: 'Da es regnet, nehme ich einen Schirm mit.' },
             { jp: '電車が遅れたので、遅刻しました。', romaji: 'Densha ga okureta node, chikoku shimashita.', de: 'Da der Zug Verspätung hatte, kam ich zu spät.' },
             { jp: '明日は休みなので、ゆっくりします。', romaji: 'Ashita wa yasumi na node, yukkuri shimasu.', de: 'Da morgen frei ist, mache ich es ruhig.' },
-            { jp: '体調が悪いので、今日は休みます。', romaji: 'Taichō ga warui node, kyō wa yasumimasu.', de: 'Da es mir nicht gut geht, bleibe ich heute zuhause.' }
           ],
           tip: 'Faustregel: から klingt wie „weil ICH finde..." (subjektiv, bestimmt), ので klingt wie „da ja bekanntlich..." (objektiv, zurückhaltend). Im beruflichen Kontext und gegenüber Älteren ist ので die sicherere Wahl. In einer E-Mail an den Chef: lieber ので als から.'
         },
@@ -559,8 +495,6 @@
             { jp: '日本語は難しいけど、楽しいです。', romaji: 'Nihongo wa muzukashii kedo, tanoshii desu.', de: 'Japanisch ist schwer, aber es macht Spaß.' },
             { jp: '買いたいけど、お金がない。', romaji: 'Kaitai kedo, okane ga nai.', de: 'Ich will es kaufen, aber ich hab kein Geld.' },
             { jp: 'すみませんが、ちょっといいですか。', romaji: 'Sumimasen ga, chotto ii desu ka.', de: 'Entschuldigung, hätten Sie kurz Zeit? (が als weiche Überleitung)' },
-            { jp: '明日のパーティーなんですけど…', romaji: 'Ashita no pātī nan desu kedo...', de: 'Wegen der Party morgen... (kein Gegensatz, nur Einleitung)' },
-            { jp: '高かったけど、おいしかったよ。', romaji: 'Takakatta kedo, oishikatta yo.', de: 'War zwar teuer, aber lecker.' }
           ]
         },
         {
@@ -570,8 +504,6 @@
             { jp: '勉強したのに、テストに落ちた。', romaji: 'Benkyō shita noni, tesuto ni ochita.', de: 'Obwohl ich gelernt habe, bin ich durchgefallen!' },
             { jp: '約束したのに、来なかった。', romaji: 'Yakusoku shita noni, konakatta.', de: 'Obwohl er es versprochen hat, ist er nicht gekommen!' },
             { jp: 'せっかく作ったのに、誰も食べない。', romaji: 'Sekkaku tsukutta noni, daremo tabenai.', de: 'Ich hab mir die Mühe gemacht es zu kochen, und keiner isst es!' },
-            { jp: '高いのに、全然おいしくなかった。', romaji: 'Takai noni, zenzen oishikunakatta.', de: 'Obwohl es teuer war, hat es überhaupt nicht geschmeckt!' },
-            { jp: '休みなのに、仕事をしなければならない。', romaji: 'Yasumi na noni, shigoto o shinakereba naranai.', de: 'Obwohl frei ist, muss ich arbeiten!' }
           ],
           tip: 'Kurzvergleich: けど = neutrales „aber" (ohne Wertung). のに = frustriertes „obwohl!" (immer mit emotionalem Unterton). Beide können am Satzende stehen und den zweiten Teil weglassen: 「頑張ったのに…」= „Obwohl ich mich so angestrengt habe..." (den Rest kann sich der Hörer denken).'
         }
@@ -594,8 +526,6 @@
             { jp: '雨が降ったら、家にいます。', romaji: 'Ame ga futtara, ie ni imasu.', de: 'Wenn es regnet, bleibe ich zuhause.' },
             { jp: '安かったら、買います。', romaji: 'Yasukattara, kaimasu.', de: 'Wenn es billig ist, kaufe ich es.' },
             { jp: '日本に行ったら、寿司を食べたい。', romaji: 'Nihon ni ittara, sushi o tabetai.', de: 'Wenn ich nach Japan fahre, will ich Sushi essen.' },
-            { jp: '暇だったら、遊びに来てください。', romaji: 'Hima dattara, asobi ni kite kudasai.', de: 'Wenn du Zeit hast, komm doch vorbei.' },
-            { jp: '家に帰ったら、電話してね。', romaji: 'Ie ni kaettara, denwa shite ne.', de: 'Ruf mich an, wenn du zuhause angekommen bist.' }
           ],
           tip: 'たら ist der sicherste Weg, „wenn" zu sagen. Wenn du unsicher bist, welche Form du nehmen sollst — nimm たら. Damit machst du in 95% der Fälle nichts falsch.'
         },
@@ -606,9 +536,6 @@
             { jp: '食べれば', romaji: 'tabereba', de: 'wenn man isst (る → れば)' },
             { jp: '行けば', romaji: 'ikeba', de: 'wenn man geht (く → けば)' },
             { jp: '安ければ、買います。', romaji: 'Yasukereba, kaimasu.', de: 'Wenn es günstig ist, kaufe ich es. (い → ければ)' },
-            { jp: '練習すれば、上手になります。', romaji: 'Renshū sureba, jōzu ni narimasu.', de: 'Wenn man übt, wird man gut. (Allgemeine Wahrheit)' },
-            { jp: '聞けばわかります。', romaji: 'Kikeba wakarimasu.', de: 'Wenn du fragst, wirst du es verstehen.' },
-            { jp: '時間があれば、手伝います。', romaji: 'Jikan ga areba, tetsudaimasu.', de: 'Wenn ich Zeit habe, helfe ich.' }
           ]
         },
         {
@@ -618,7 +545,6 @@
             { jp: 'このボタンを押すと、ドアが開きます。', romaji: 'Kono botan o osu to, doa ga akimasu.', de: 'Wenn man diesen Knopf drückt, öffnet sich die Tür. (Mechanismus)' },
             { jp: '春になると、桜が咲きます。', romaji: 'Haru ni naru to, sakura ga sakimasu.', de: 'Wenn es Frühling wird, blühen die Kirschblüten. (Naturgesetz)' },
             { jp: '右に曲がると、駅があります。', romaji: 'Migi ni magaru to, eki ga arimasu.', de: 'Wenn du rechts abbiegst, ist da ein Bahnhof. (Wegbeschreibung)' },
-            { jp: '甘いものを食べると、元気になる。', romaji: 'Amai mono o taberu to, genki ni naru.', de: 'Wenn ich Süßes esse, werde ich wieder munter. (Persönliche Gewohnheit)' }
           ],
           tip: 'と passt NICHT für Bitten, Vorschläge oder Wünsche. „Wenn es regnet, nimm einen Schirm mit" geht nicht mit と (Schirm-mitnehmen ist eine Willenshandlung). Dafür brauchst du たら. Merke: と = automatisch, keine Willenskontrolle im Ergebnis.'
         },
@@ -629,8 +555,6 @@
             { jp: '日本に行くなら、京都がおすすめです。', romaji: 'Nihon ni iku nara, Kyōto ga osusume desu.', de: 'Wenn du nach Japan fährst, empfehle ich Kyoto.' },
             { jp: '暇なら、手伝ってくれない？', romaji: 'Hima nara, tetsudatte kurenai?', de: 'Wenn du Zeit hast — könntest du mir helfen?' },
             { jp: 'それなら、大丈夫です。', romaji: 'Sore nara, daijōbu desu.', de: 'Wenn das so ist, dann ist es okay.' },
-            { jp: 'A: 明日、東京に行くんだ。', romaji: 'Ashita, Tōkyō ni iku n da.', de: 'Ich fahre morgen nach Tokyo.' },
-            { jp: 'B: 東京に行くなら、お土産を買ってきて。', romaji: 'Tōkyō ni iku nara, omiyage o katte kite.', de: 'Wenn du nach Tokyo fährst, bring mir ein Souvenir mit.' }
           ]
         },
         {
@@ -658,10 +582,6 @@
             { jp: '食べる → 食べられる', romaji: 'taberu → taberareru', de: 'gegessen werden (る-Verb)' },
             { jp: '読む → 読まれる', romaji: 'yomu → yomareru', de: 'gelesen werden (む → まれる)' },
             { jp: '言う → 言われる', romaji: 'iu → iwareru', de: 'gesagt werden / bekommen (う → われる)' },
-            { jp: '書く → 書かれる', romaji: 'kaku → kakareru', de: 'geschrieben werden (く → かれる)' },
-            { jp: '取る → 取られる', romaji: 'toru → torareru', de: 'genommen werden (る → られる, u-Verb!)' },
-            { jp: 'する → される', romaji: 'suru → sareru', de: 'gemacht werden (unregelmäßig)' },
-            { jp: '来る → 来られる（こられる）', romaji: 'kuru → korareru', de: 'gekommen werden (unregelmäßig)' }
           ],
           tip: 'Bei る-Verben sieht die Passivform identisch aus wie die Potentialform (食べられる = „gegessen werden" ODER „essen können"). Der Kontext macht immer klar, was gemeint ist. Im Alltag wird für die Potentialform oft ら weggelassen (食べれる), wodurch die Verwechslungsgefahr sinkt.'
         },
@@ -672,8 +592,6 @@
             { jp: '先生に褒められました。', romaji: 'Sensei ni homeraremashita.', de: 'Ich wurde vom Lehrer gelobt.' },
             { jp: 'この本は多くの人に読まれています。', romaji: 'Kono hon wa ōku no hito ni yomarete imasu.', de: 'Dieses Buch wird von vielen Leuten gelesen.' },
             { jp: 'この曲は世界中で愛されている。', romaji: 'Kono kyoku wa sekaijū de aisarete iru.', de: 'Dieses Lied wird auf der ganzen Welt geliebt.' },
-            { jp: '犯人は警察に捕まえられた。', romaji: 'Hannin wa keisatsu ni tsukamaerareta.', de: 'Der Täter wurde von der Polizei gefasst.' },
-            { jp: '新しい法律が作られた。', romaji: 'Atarashii hōritsu ga tsukurareta.', de: 'Ein neues Gesetz wurde geschaffen.' }
           ]
         },
         {
@@ -683,9 +601,6 @@
             { jp: '雨に降られた。', romaji: 'Ame ni furareta.', de: 'Es hat mich geregnet. (= Ich wurde vom Regen erwischt — nervig!)' },
             { jp: '電車で足を踏まれた。', romaji: 'Densha de ashi o fumareta.', de: 'Mir wurde im Zug auf den Fuß getreten.' },
             { jp: '隣の人にたばこを吸われた。', romaji: 'Tonari no hito ni tabako o suwareta.', de: 'Der Typ neben mir hat geraucht. (Und ich musste es ertragen!)' },
-            { jp: '赤ちゃんに泣かれて、眠れなかった。', romaji: 'Akachan ni nakarete, nemurenakatta.', de: 'Das Baby hat geweint und ich konnte nicht schlafen. (Baby weinen = mein Leid)' },
-            { jp: '彼女に先に帰られた。', romaji: 'Kanojo ni saki ni kaerareta.', de: 'Sie ist vor mir nach Hause gegangen. (Und ich war davon betroffen!)' },
-            { jp: '友達に秘密を話された。', romaji: 'Tomodachi ni himitsu o hanasareta.', de: 'Mein Freund hat mein Geheimnis weitererzählt. (Ärgerlich!)' }
           ],
           tip: 'Das Leidenspassiv ist einer der Gründe, warum japanische Sätze manchmal seltsam wirken, wenn man sie wörtlich übersetzt. Es gibt dem Sprecher die Rolle des „Betroffenen" — und das ist im Japanischen völlig normal. Achte auf den emotionalen Unterton: Wenn jemand 降られた sagt statt einfach 降った, steckt immer ein „und das war blöd für mich!" dahinter.'
         },
@@ -696,8 +611,6 @@
             { jp: 'このビルは1960年に建てられました。', romaji: 'Kono biru wa 1960-nen ni tateraremashita.', de: 'Dieses Gebäude wurde 1960 erbaut. (Typisch für Reiseführer)' },
             { jp: '会議は来週に延期されました。', romaji: 'Kaigi wa raishū ni enki saremashita.', de: 'Die Besprechung wurde auf nächste Woche verschoben.' },
             { jp: '日本語は世界中で学ばれている。', romaji: 'Nihongo wa sekaijū de manabarete iru.', de: 'Japanisch wird auf der ganzen Welt gelernt.' },
-            { jp: 'お客様のご意見は大切にされています。', romaji: 'Okyakusama no goiken wa taisetsu ni sarete imasu.', de: 'Die Meinungen unserer Kunden werden wertgeschätzt. (Geschäftssprache)' },
-            { jp: '富士山は「日本の象徴」と言われている。', romaji: 'Fujisan wa "Nihon no shōchō" to iwarete iru.', de: 'Der Fuji wird als „Symbol Japans" bezeichnet.' }
           ],
           tip: 'In Nachrichten (ニュース) wirst du das Passiv extrem häufig hören: 逮捕された (wurde verhaftet), 発表された (wurde bekanntgegeben), 開催される (wird veranstaltet). Wenn du Nachrichten verstehen willst, ist das Passiv unverzichtbar.'
         }
@@ -720,10 +633,6 @@
             { jp: '食べる → 食べさせる', romaji: 'taberu → tabesaseru', de: 'essen lassen (る-Verb)' },
             { jp: '飲む → 飲ませる', romaji: 'nomu → nomaseru', de: 'trinken lassen (む → ませる)' },
             { jp: '行く → 行かせる', romaji: 'iku → ikaseru', de: 'gehen lassen (く → かせる)' },
-            { jp: '読む → 読ませる', romaji: 'yomu → yomaseru', de: 'lesen lassen (む → ませる)' },
-            { jp: '待つ → 待たせる', romaji: 'matsu → mataseru', de: 'warten lassen (つ → たせる)' },
-            { jp: 'する → させる', romaji: 'suru → saseru', de: 'machen lassen (unregelmäßig)' },
-            { jp: '来る → 来させる（こさせる）', romaji: 'kuru → kosaseru', de: 'kommen lassen (unregelmäßig)' }
           ],
           tip: 'Umgangssprachlich wird der Kausativ oft verkürzt: 行かせる → 行かす, 食べさせる → 食べさす. Diese Kurzformen hörst du besonders in Kansai (Osaka/Kyoto) sehr häufig.'
         },
@@ -734,8 +643,6 @@
             { jp: '先生は学生にレポートを書かせた。', romaji: 'Sensei wa gakusei ni repōto o kakaseta.', de: 'Der Lehrer ließ die Studenten einen Bericht schreiben. (Zwang)' },
             { jp: '母は子供を公園で遊ばせた。', romaji: 'Haha wa kodomo o kōen de asobaseta.', de: 'Die Mutter ließ das Kind im Park spielen. (Erlaubnis)' },
             { jp: '部長は社員に残業させた。', romaji: 'Buchō wa shain ni zangyō saseta.', de: 'Der Abteilungsleiter ließ die Angestellten Überstunden machen. (Zwang)' },
-            { jp: '好きなようにさせてください。', romaji: 'Suki na yō ni sasete kudasai.', de: 'Bitte lass mich machen, wie ich will. (Erlaubnis erbeten)' },
-            { jp: '父は私を一人で旅行させてくれた。', romaji: 'Chichi wa watashi o hitori de ryokō sasete kureta.', de: 'Mein Vater hat mich allein reisen lassen. (Erlaubnis, mit Dankbarkeit)' }
           ],
           tip: 'Faustregeln für die Partikel: <strong>Transitives Verb</strong> → veranlasste Person mit に (先生が学生<strong>に</strong>書かせる). <strong>Intransitives Verb</strong> → veranlasste Person mit を (母が子供<strong>を</strong>遊ばせる). Warum? Bei transitiven Verben hat das Objekt schon を — zwei を im selben Satz klingt unnatürlich.'
         },
@@ -746,7 +653,6 @@
             { jp: '考えさせてください。', romaji: 'Kangaesasete kudasai.', de: 'Bitte lassen Sie mich darüber nachdenken.' },
             { jp: '自己紹介させてください。', romaji: 'Jiko shōkai sasete kudasai.', de: 'Erlauben Sie mir, mich vorzustellen.' },
             { jp: '少し休ませてください。', romaji: 'Sukoshi yasumasete kudasai.', de: 'Bitte lassen Sie mich kurz ausruhen.' },
-            { jp: '写真を撮らせてください。', romaji: 'Shashin o torasete kudasai.', de: 'Bitte erlauben Sie mir, ein Foto zu machen.' }
           ],
           tip: 'させていただく ist die noch höflichere Variante und begegnet dir in formellen E-Mails und Geschäftsjapanisch ständig. 説明させていただきます = „Erlauben Sie, dass ich erkläre" (超höflich). Manche Japaner übertreiben es mit させていただく — in Comedyshows wird das gerne parodiert.'
         },
@@ -757,8 +663,6 @@
             { jp: '野菜を食べさせられた。', romaji: 'Yasai o tabesaserareta.', de: 'Ich wurde gezwungen, Gemüse zu essen. (Als Kind, typisch!)' },
             { jp: '毎日残業させられている。', romaji: 'Mainichi zangyō saserarete iru.', de: 'Ich werde jeden Tag zu Überstunden gezwungen.' },
             { jp: '長い時間待たされた。', romaji: 'Nagai jikan matasareta.', de: 'Ich wurde lange warten gelassen. (verkürzte Form: 待たせられた → 待たされた)' },
-            { jp: '歌を歌わせられた。', romaji: 'Uta o utawaserareta.', de: 'Ich wurde gezwungen zu singen. (z.B. beim Karaoke)' },
-            { jp: '学生は毎週テストを受けさせられる。', romaji: 'Gakusei wa maishū tesuto o ukesaserareru.', de: 'Die Studenten werden jede Woche gezwungen, Tests zu schreiben.' }
           ],
           tip: 'Das Kausativ-Passiv hat eine verkürzte Form bei う-Verben: 行かせられる → 行かされる, 飲ませられる → 飲まされる, 待たせられる → 待たされた. Die Kurzform ist im Alltag viel häufiger. Bei る-Verben gibt es keine Kurzform: 食べさせられる bleibt so.'
         }
@@ -781,7 +685,6 @@
             { jp: '友達にプレゼントをあげた。', romaji: 'Tomodachi ni purezento o ageta.', de: 'Ich habe meinem Freund ein Geschenk gegeben.' },
             { jp: '妹にチョコレートをあげました。', romaji: 'Imōto ni chokorēto o agemashita.', de: 'Ich habe meiner kleinen Schwester Schokolade gegeben.' },
             { jp: '犬にえさをあげる。', romaji: 'Inu ni esa o ageru.', de: 'Ich gebe dem Hund Futter.' },
-            { jp: '彼女に花をあげたい。', romaji: 'Kanojo ni hana o agetai.', de: 'Ich möchte meiner Freundin Blumen schenken.' }
           ],
           tip: 'Vorsicht: „Ich gebe DIR (dem Gesprächspartner)" mit あげる kann herablassend klingen. Besser ist oft, die Perspektive zu wechseln und ein anderes Verb zu wählen.'
         },
@@ -792,7 +695,6 @@
             { jp: '友達が本をくれた。', romaji: 'Tomodachi ga hon o kureta.', de: 'Mein Freund hat mir ein Buch gegeben. (Wie nett!)' },
             { jp: '母がお弁当を作ってくれた。', romaji: 'Haha ga obentō o tsukutte kureta.', de: 'Meine Mutter hat mir ein Bento gemacht. (Dankbarkeit!)' },
             { jp: '先輩がコーヒーをおごってくれた。', romaji: 'Senpai ga kōhī o ogotte kureta.', de: 'Mein Senpai hat mir einen Kaffee spendiert.' },
-            { jp: '誰がこれをくれたの？', romaji: 'Dare ga kore o kureta no?', de: 'Wer hat mir das gegeben?' }
           ]
         },
         {
@@ -802,7 +704,6 @@
             { jp: '友達に本をもらった。', romaji: 'Tomodachi ni hon o moratta.', de: 'Ich habe von meinem Freund ein Buch bekommen.' },
             { jp: '先生に日本語を教えてもらった。', romaji: 'Sensei ni nihongo o oshiete moratta.', de: 'Ich habe mir vom Lehrer Japanisch beibringen lassen.' },
             { jp: '彼から手紙をもらった。', romaji: 'Kare kara tegami o moratta.', de: 'Ich habe einen Brief von ihm bekommen.' },
-            { jp: '誕生日に何をもらいましたか。', romaji: 'Tanjōbi ni nani o moraimashita ka.', de: 'Was hast du zum Geburtstag bekommen?' }
           ]
         },
         {
@@ -812,8 +713,6 @@
             { jp: '荷物を持ってあげた。', romaji: 'Nimotsu o motte ageta.', de: 'Ich habe (ihm/ihr) das Gepäck getragen. (Ich tue den Gefallen)' },
             { jp: '道を教えてくれた。', romaji: 'Michi o oshiete kureta.', de: 'Er/sie hat mir den Weg erklärt. (Jemand tut MIR den Gefallen)' },
             { jp: '友達に手伝ってもらった。', romaji: 'Tomodachi ni tetsudatte moratta.', de: 'Ich habe einen Freund gebeten mir zu helfen. (Ich empfange den Gefallen)' },
-            { jp: '妹に漢字を教えてあげた。', romaji: 'Imōto ni kanji o oshiete ageta.', de: 'Ich habe meiner kleinen Schwester Kanji beigebracht. (Gefallen von mir)' },
-            { jp: '彼が駅まで送ってくれた。', romaji: 'Kare ga eki made okutte kureta.', de: 'Er hat mich zum Bahnhof gebracht. (Wie nett von ihm!)' }
           ],
           tip: 'Faustregel: あげる = von mir weg, くれる = zu mir hin, もらう = ich empfange. Denk an Pfeile: あげる → (weg), くれる ← (her), もらう ← (empfangen). Im Alltag ist てくれる die häufigste Form — Japaner drücken damit ständig Dankbarkeit aus.'
         },
@@ -824,8 +723,6 @@
             { jp: '先生にお土産をさしあげた。', romaji: 'Sensei ni omiyage o sashiageta.', de: 'Ich habe dem Lehrer ein Souvenir gegeben. (bescheiden-höflich)' },
             { jp: '先生が本をくださった。', romaji: 'Sensei ga hon o kudasatta.', de: 'Der Lehrer hat mir ein Buch gegeben. (ehrerbietig)' },
             { jp: '先生に教えていただいた。', romaji: 'Sensei ni oshiete itadaita.', de: 'Ich durfte vom Lehrer lernen. (bescheiden-höflich)' },
-            { jp: '説明してくださってありがとうございます。', romaji: 'Setsumei shite kudasatte arigatō gozaimasu.', de: 'Vielen Dank, dass Sie es mir erklärt haben.' },
-            { jp: '少々お待ちいただけますか。', romaji: 'Shōshō omachi itadakemasu ka.', de: 'Könnten Sie bitte einen Moment warten? (Geschäftssprache)' }
           ],
           tip: 'Die berühmte Floskel ください (bitte geben Sie mir / bitte tun Sie) ist tatsächlich die て-Form + くださる → くださって → ください. Du benutzt also bereits keigo, ohne es zu wissen! Und いただきます vor dem Essen? Das kommt von いただく = „ich empfange bescheiden" — du bedankst dich demütig für das Essen.'
         }
@@ -848,7 +745,6 @@
             { jp: '食べる → 食べられる', romaji: 'taberu → taberareru', de: 'essen können' },
             { jp: '見る → 見られる', romaji: 'miru → mirareru', de: 'sehen können' },
             { jp: '起きる → 起きられる', romaji: 'okiru → okirareru', de: 'aufstehen können' },
-            { jp: '着る → 着られる', romaji: 'kiru → kirareru', de: 'anziehen können' }
           ],
           tip: 'In der Umgangssprache lassen viele Japaner das ら weg: 食べれる statt 食べられる, 見れる statt 見られる. Das heißt „ら抜き言葉" (ra-nuki kotoba) und ist grammatisch nicht ganz korrekt, aber extrem verbreitet — besonders bei jüngeren Sprechern. In formellen Situationen und Prüfungen solltest du das ら aber beibehalten.'
         },
@@ -859,10 +755,6 @@
             { jp: '読む → 読める', romaji: 'yomu → yomeru', de: 'lesen können (む → める)' },
             { jp: '書く → 書ける', romaji: 'kaku → kakeru', de: 'schreiben können (く → ける)' },
             { jp: '話す → 話せる', romaji: 'hanasu → hanaseru', de: 'sprechen können (す → せる)' },
-            { jp: '泳ぐ → 泳げる', romaji: 'oyogu → oyogeru', de: 'schwimmen können (ぐ → げる)' },
-            { jp: '遊ぶ → 遊べる', romaji: 'asobu → asoberu', de: 'spielen können (ぶ → べる)' },
-            { jp: '持つ → 持てる', romaji: 'motsu → moteru', de: 'halten/tragen können (つ → てる)' },
-            { jp: '買う → 買える', romaji: 'kau → kaeru', de: 'kaufen können (う → える)' }
           ]
         },
         {
@@ -881,7 +773,6 @@
             { jp: '漢字が読める。', romaji: 'Kanji ga yomeru.', de: 'Ich kann Kanji lesen. (が = traditionell korrekt)' },
             { jp: '漢字を読める。', romaji: 'Kanji o yomeru.', de: 'Ich kann Kanji lesen. (を = umgangssprachlich auch OK)' },
             { jp: '日本語が話せます。', romaji: 'Nihongo ga hanasemasu.', de: 'Ich kann Japanisch sprechen.' },
-            { jp: 'ピアノが弾ける。', romaji: 'Piano ga hikeru.', de: 'Ich kann Klavier spielen.' }
           ]
         },
         {
@@ -891,9 +782,6 @@
             { jp: '漢字が読めますか。', romaji: 'Kanji ga yomemasu ka.', de: 'Kannst du Kanji lesen?' },
             { jp: 'ここでは写真が撮れません。', romaji: 'Koko de wa shashin ga toremasen.', de: 'Hier kann man keine Fotos machen.' },
             { jp: '日本語が少し話せます。', romaji: 'Nihongo ga sukoshi hanasemasu.', de: 'Ich kann ein bisschen Japanisch sprechen.' },
-            { jp: '明日来られる？', romaji: 'Ashita korareru?', de: 'Kannst du morgen kommen? (casual)' },
-            { jp: '今日は早く帰れそうだ。', romaji: 'Kyō wa hayaku kaeresō da.', de: 'Heute kann ich wohl früh nach Hause.' },
-            { jp: 'このアプリで電車の時間が調べられます。', romaji: 'Kono apuri de densha no jikan ga shiraberaremasu.', de: 'Mit dieser App kann man die Zugzeiten nachschlagen.' }
           ],
           tip: 'Vergleich: ことができる vs. Potentialform — beide bedeuten „können", aber die Potentialform ist kürzer und natürlicher im gesprochenen Japanisch. 泳ぐことができる (formell, schriftlich) vs. 泳げる (kurz, alltäglich). Für den JLPT solltest du beide beherrschen.'
         }
@@ -916,8 +804,6 @@
             { jp: '今、本を読んでいます。', romaji: 'Ima, hon o yonde imasu.', de: 'Ich lese gerade ein Buch.' },
             { jp: '雨が降っている。', romaji: 'Ame ga futte iru.', de: 'Es regnet (gerade).' },
             { jp: '電話で話しています。', romaji: 'Denwa de hanashite imasu.', de: 'Ich telefoniere gerade.' },
-            { jp: '子供たちが外で遊んでいる。', romaji: 'Kodomotachi ga soto de asonde iru.', de: 'Die Kinder spielen draußen.' },
-            { jp: '何を食べてるの？', romaji: 'Nani o tabeteru no?', de: 'Was isst du gerade? (verkürzte Form)' }
           ],
           tip: 'Die Verkürzung てる statt ている ist in der Umgangssprache Standard. 食べている → 食べてる, 読んでいる → 読んでる, している → してる. In der ます-Form: 食べています → 食べてます. Benutze die volle Form für formelle Situationen und Prüfungen.'
         },
@@ -928,9 +814,6 @@
             { jp: '窓が開いている。', romaji: 'Mado ga aite iru.', de: 'Das Fenster ist offen. (nicht: öffnet sich gerade)' },
             { jp: '結婚しています。', romaji: 'Kekkon shite imasu.', de: 'Ich bin verheiratet. (nicht: ich heirate gerade)' },
             { jp: 'もう届いている。', romaji: 'Mō todoite iru.', de: 'Es ist schon angekommen. (Zustand: da)' },
-            { jp: '電気がついている。', romaji: 'Denki ga tsuite iru.', de: 'Das Licht ist an.' },
-            { jp: 'メガネをかけている人', romaji: 'Megane o kakete iru hito', de: 'Eine Person, die eine Brille trägt. (Zustand, nicht Handlung)' },
-            { jp: '道が曲がっている。', romaji: 'Michi ga magatte iru.', de: 'Die Straße ist gebogen/kurvig.' }
           ],
           tip: 'Das ist der häufigste Stolperstein: 死んでいる heißt „ist tot" (Zustand), nicht „stirbt gerade". 座っている heißt „sitzt" (Zustand), nicht „setzt sich gerade hin". Ob ている eine Handlung oder einen Zustand beschreibt, hängt vom Verbtyp ab: <strong>Handlungsverben</strong> (essen, lesen, laufen) → laufende Handlung. <strong>Zustandswechselverben</strong> (ankommen, sterben, heiraten) → resultierender Zustand.'
         },
@@ -941,8 +824,6 @@
             { jp: '毎朝ジョギングしています。', romaji: 'Maiasa jogingu shite imasu.', de: 'Ich jogge jeden Morgen. (Gewohnheit)' },
             { jp: 'あの店でいつも買い物している。', romaji: 'Ano mise de itsumo kaimono shite iru.', de: 'Ich kaufe immer in dem Laden ein.' },
             { jp: '最近、日本語を勉強している。', romaji: 'Saikin, nihongo o benkyō shite iru.', de: 'In letzter Zeit lerne ich Japanisch.' },
-            { jp: '毎晩寝る前に本を読んでいます。', romaji: 'Maiban neru mae ni hon o yonde imasu.', de: 'Ich lese jeden Abend vor dem Schlafen ein Buch.' },
-            { jp: '週に三回ジムに通っている。', romaji: 'Shū ni sankai jimu ni kayotte iru.', de: 'Ich gehe dreimal pro Woche ins Fitnessstudio.' }
           ]
         },
         {
@@ -952,8 +833,6 @@
             { jp: '大学で教えています。', romaji: 'Daigaku de oshiete imasu.', de: 'Ich unterrichte an der Uni. (= Das ist mein Job)' },
             { jp: '東京に住んでいます。', romaji: 'Tōkyō ni sunde imasu.', de: 'Ich wohne in Tokyo. (Dauerzustand)' },
             { jp: '日本の会社で働いている。', romaji: 'Nihon no kaisha de hataraite iru.', de: 'Ich arbeite bei einer japanischen Firma.' },
-            { jp: 'トヨタに勤めています。', romaji: 'Toyota ni tsutomete imasu.', de: 'Ich bin bei Toyota angestellt.' },
-            { jp: '日本語学校に通っています。', romaji: 'Nihongo gakkō ni kayotte imasu.', de: 'Ich besuche eine Japanisch-Sprachschule.' }
           ]
         },
         {
@@ -963,8 +842,6 @@
             { jp: 'その話は知っています。', romaji: 'Sono hanashi wa shitte imasu.', de: 'Diese Geschichte kenne ich.' },
             { jp: '田中さんを知っていますか。', romaji: 'Tanaka-san o shitte imasu ka.', de: 'Kennen Sie Herrn Tanaka?' },
             { jp: 'いいえ、知りません。', romaji: 'Iie, shirimasen.', de: 'Nein, ich kenne ihn nicht. (NICHT: 知っていません)' },
-            { jp: 'この漢字の読み方を知っている？', romaji: 'Kono kanji no yomikata o shitte iru?', de: 'Weißt du, wie man dieses Kanji liest?' },
-            { jp: 'もう聞いている。', romaji: 'Mō kiite iru.', de: 'Ich habe schon davon gehört. (= Ich weiß Bescheid)' }
           ],
           tip: 'Die Verneinung von 知っている ist 知らない — niemals 知っていない. Das ist eine der wenigen festen Ausnahmen und wird in jedem JLPT-Test abgefragt. Auch 持っている (haben/besitzen) verhält sich ähnlich als Zustand: 車を持っている = „Ich habe ein Auto" (Dauerzustand des Besitzens).'
         }
@@ -987,10 +864,6 @@
             { jp: '雨が降りそうです。', romaji: 'Ame ga furisō desu.', de: 'Es sieht nach Regen aus. (Ich sehe die dunklen Wolken.)' },
             { jp: 'このケーキはおいしそう！', romaji: 'Kono kēki wa oishisō!', de: 'Der Kuchen sieht lecker aus!' },
             { jp: '眠そうですね。', romaji: 'Nemusō desu ne.', de: 'Du siehst müde aus.' },
-            { jp: '荷物が落ちそうだ。', romaji: 'Nimotsu ga ochisō da.', de: 'Das Gepäck sieht aus, als würde es gleich fallen.' },
-            { jp: 'この仕事は大変そうだ。', romaji: 'Kono shigoto wa taihensō da.', de: 'Diese Arbeit sieht anstrengend aus.' },
-            { jp: '彼女は元気そうでした。', romaji: 'Kanojo wa genkisō deshita.', de: 'Sie sah munter aus.' },
-            { jp: 'もうすぐ届きそうだ。', romaji: 'Mō sugu todokisō da.', de: 'Es sieht so aus, als würde es gleich ankommen.' }
           ],
           tip: 'Aufpassen bei Sonderformen: いい wird zu よさそう (nicht いさそう!), und ない wird zu なさそう. Diese beiden Ausnahmen werden in der JLPT-Prüfung gerne abgefragt.'
         },
@@ -1010,9 +883,6 @@
             { jp: '彼は忙しいようです。', romaji: 'Kare wa isogashii yō desu.', de: 'Er scheint beschäftigt zu sein. (Ich schließe das aus verschiedenen Hinweisen.)' },
             { jp: '誰もいないみたい。', romaji: 'Daremo inai mitai.', de: 'Es scheint, als wäre niemand da.' },
             { jp: '電車が遅れているようだ。', romaji: 'Densha ga okurete iru yō da.', de: 'Der Zug scheint Verspätung zu haben.' },
-            { jp: '風邪を引いたようです。', romaji: 'Kaze o hiita yō desu.', de: 'Es scheint, als hätte ich mich erkältet. (Mehrere Symptome deuten darauf hin.)' },
-            { jp: 'どうやら成功したみたいだ。', romaji: 'Dōyara seikō shita mitai da.', de: 'Es sieht ganz so aus, als hätte es geklappt.' },
-            { jp: '彼女は日本人のようです。', romaji: 'Kanojo wa nihonjin no yō desu.', de: 'Sie scheint Japanerin zu sein. (の vor ようだ bei Nomen)' }
           ],
           tip: 'ようだ kann auch für Vergleiche verwendet werden: 雪のように白い (weiß wie Schnee). In diesem Fall bedeutet es „wie" und nicht „es scheint" — der Kontext macht den Unterschied klar.'
         },
@@ -1023,9 +893,6 @@
             { jp: '明日は雨らしい。', romaji: 'Ashita wa ame rashii.', de: 'Morgen soll es angeblich regnen.' },
             { jp: 'あの店はおいしいらしいですよ。', romaji: 'Ano mise wa oishii rashii desu yo.', de: 'Das Restaurant soll gut sein, habe ich gehört.' },
             { jp: '田中さんは来月結婚するらしい。', romaji: 'Tanaka-san wa raigetsu kekkon suru rashii.', de: 'Tanaka heiratet angeblich nächsten Monat.' },
-            { jp: '新しいプロジェクトは難しいらしい。', romaji: 'Atarashii purojekuto wa muzukashii rashii.', de: 'Das neue Projekt soll schwierig sein. (Habe ich von Kollegen gehört.)' },
-            { jp: '北海道は冬がとても寒いらしい。', romaji: 'Hokkaidō wa fuyu ga totemo samui rashii.', de: 'In Hokkaido soll es im Winter sehr kalt sein.' },
-            { jp: '彼は会社を辞めたらしいよ。', romaji: 'Kare wa kaisha o yameta rashii yo.', de: 'Er soll angeblich die Firma verlassen haben.' }
           ]
         },
         {
@@ -1072,9 +939,6 @@
             { jp: '昨日買った本', romaji: 'kinō katta hon', de: 'das Buch, das ich gestern gekauft habe' },
             { jp: '日本語を話す人', romaji: 'nihongo o hanasu hito', de: 'eine Person, die Japanisch spricht' },
             { jp: '母が作ったケーキ', romaji: 'haha ga tsukutta kēki', de: 'der Kuchen, den meine Mutter gemacht hat' },
-            { jp: '東京に住んでいる友達', romaji: 'Tōkyō ni sunde iru tomodachi', de: 'ein Freund, der in Tokyo wohnt' },
-            { jp: '去年見た映画', romaji: 'kyonen mita eiga', de: 'der Film, den ich letztes Jahr gesehen habe' },
-            { jp: '毎朝飲むコーヒー', romaji: 'maiasa nomu kōhī', de: 'der Kaffee, den ich jeden Morgen trinke' }
           ],
           tip: 'Denk daran: Im Japanischen steht die Beschreibung IMMER vor dem Nomen. Das gilt für einzelne Adjektive (大きい猫) genauso wie für ganze Nebensätze (昨日見つけた猫). Es ist dasselbe Prinzip!'
         },
@@ -1085,8 +949,6 @@
             { jp: '昨日買った本はおもしろかった。', romaji: 'Kinō katta hon wa omoshirokatta.', de: 'Das Buch, das ich gestern gekauft habe, war interessant.' },
             { jp: '駅の前にある店で食べましょう。', romaji: 'Eki no mae ni aru mise de tabemashō.', de: 'Lass uns in dem Laden essen, der vor dem Bahnhof ist.' },
             { jp: '私が住んでいる町は小さいです。', romaji: 'Watashi ga sunde iru machi wa chiisai desu.', de: 'Die Stadt, in der ich wohne, ist klein.' },
-            { jp: '日本で撮った写真を見せてください。', romaji: 'Nihon de totta shashin o misete kudasai.', de: 'Bitte zeig mir die Fotos, die du in Japan gemacht hast.' },
-            { jp: '先生が説明したことが分かりましたか。', romaji: 'Sensei ga setsumei shita koto ga wakarimashita ka.', de: 'Hast du verstanden, was der Lehrer erklärt hat?' }
           ]
         },
         {
@@ -1096,7 +958,6 @@
             { jp: '田中さんが作った料理', romaji: 'Tanaka-san ga tsukutta ryōri', de: 'das Essen, das Tanaka gemacht hat (Nomen = Objekt im Nebensatz)' },
             { jp: '料理を作った人', romaji: 'ryōri o tsukutta hito', de: 'die Person, die das Essen gemacht hat (Nomen = Subjekt im Nebensatz)' },
             { jp: '友達と行ったレストラン', romaji: 'tomodachi to itta resutoran', de: 'das Restaurant, in das ich mit Freunden gegangen bin (Nomen = Ort)' },
-            { jp: '一緒に勉強した友達', romaji: 'issho ni benkyō shita tomodachi', de: 'der Freund, mit dem ich zusammen gelernt habe (Nomen = Begleitung)' }
           ]
         },
         {
@@ -1106,7 +967,6 @@
             { jp: '友達がくれた花はきれいだ。', romaji: 'Tomodachi ga kureta hana wa kirei da.', de: 'Die Blumen, die mir mein Freund gegeben hat, sind schön.' },
             { jp: '先週見た映画の名前を忘れた。', romaji: 'Senshū mita eiga no namae o wasureta.', de: 'Ich habe den Namen des Films vergessen, den ich letzte Woche gesehen habe.' },
             { jp: '日本に行ったことがありますか。', romaji: 'Nihon ni itta koto ga arimasu ka.', de: 'Warst du schon mal in Japan? (wörtl.: Gibt es die Tatsache, dass du nach Japan gingst?)' },
-            { jp: '彼が言ったことは本当だった。', romaji: 'Kare ga itta koto wa hontō datta.', de: 'Was er gesagt hat, war wahr.' }
           ],
           tip: 'Tipp zum Lesen langer Sätze: Suche zuerst das Hauptnomen — alles davor ist der Nebensatz, der es beschreibt. Dann finde das Hauptverb am Satzende. Zwischen dem beschriebenen Nomen und dem Hauptverb steckt der Kern des Satzes.'
         },
@@ -1138,9 +998,6 @@
             { jp: '日本語を勉強するために、日本に来ました。', romaji: 'Nihongo o benkyō suru tame ni, Nihon ni kimashita.', de: 'Ich bin nach Japan gekommen, um Japanisch zu lernen.' },
             { jp: '試験に受かるために、毎日勉強しています。', romaji: 'Shiken ni ukaru tame ni, mainichi benkyō shite imasu.', de: 'Ich lerne jeden Tag, um die Prüfung zu bestehen.' },
             { jp: '家族のために働いています。', romaji: 'Kazoku no tame ni hataraite imasu.', de: 'Ich arbeite für meine Familie. (Nomen + のために)' },
-            { jp: '健康のために野菜を食べています。', romaji: 'Kenkō no tame ni yasai o tabete imasu.', de: 'Ich esse Gemüse für die Gesundheit.' },
-            { jp: '新しい車を買うために、貯金しています。', romaji: 'Atarashii kuruma o kau tame ni, chokin shite imasu.', de: 'Ich spare, um ein neues Auto zu kaufen.' },
-            { jp: '夢を叶えるために、努力している。', romaji: 'Yume o kanaeru tame ni, doryoku shite iru.', de: 'Ich gebe mein Bestes, um meinen Traum zu verwirklichen.' }
           ],
           tip: 'ために klingt sehr zielstrebig und entschlossen. Wenn du es benutzt, signalisierst du: „Ich habe ein konkretes Ziel und handle bewusst darauf hin."'
         },
@@ -1151,9 +1008,6 @@
             { jp: '日本語が話せるように、毎日練習しています。', romaji: 'Nihongo ga hanaseru yō ni, mainichi renshū shite imasu.', de: 'Ich übe jeden Tag, damit ich Japanisch sprechen kann.' },
             { jp: '遅刻しないように、早く起きました。', romaji: 'Chikoku shinai yō ni, hayaku okimashita.', de: 'Ich bin früh aufgestanden, damit ich nicht zu spät komme.' },
             { jp: '忘れないように、メモしました。', romaji: 'Wasurenai yō ni, memo shimashita.', de: 'Ich habe es aufgeschrieben, damit ich es nicht vergesse.' },
-            { jp: '風邪を引かないように、暖かくしてね。', romaji: 'Kaze o hikanai yō ni, atatakaku shite ne.', de: 'Zieh dich warm an, damit du dich nicht erkältest.' },
-            { jp: '子供にも分かるように説明した。', romaji: 'Kodomo ni mo wakaru yō ni setsumei shita.', de: 'Ich habe es so erklärt, dass auch Kinder es verstehen.' },
-            { jp: '合格できるように頑張ります。', romaji: 'Gōkaku dekiru yō ni ganbarimasu.', de: 'Ich werde mein Bestes tun, damit ich bestehe.' }
           ]
         },
         {
@@ -1172,7 +1026,6 @@
             { jp: '漢字が読めるようになりました。', romaji: 'Kanji ga yomeru yō ni narimashita.', de: 'Ich kann jetzt Kanji lesen. (Vorher konnte ich es nicht.)' },
             { jp: '毎日運動するようになった。', romaji: 'Mainichi undō suru yō ni natta.', de: 'Ich habe angefangen, jeden Tag Sport zu machen.' },
             { jp: '日本の食べ物が好きになるようになった。', romaji: 'Nihon no tabemono ga suki ni naru yō ni natta.', de: 'Ich habe angefangen, japanisches Essen zu mögen.' },
-            { jp: '朝早く起きられるようになった。', romaji: 'Asa hayaku okirareru yō ni natta.', de: 'Ich kann jetzt morgens früh aufstehen. (Konnte ich vorher nicht.)' }
           ]
         },
         {
@@ -1204,8 +1057,6 @@
             { jp: '「暑い」と言いました。', romaji: '„Atsui" to iimashita.', de: 'Er/sie sagte: „Es ist heiß." (Direktes Zitat)' },
             { jp: '明日来ると言った。', romaji: 'Ashita kuru to itta.', de: 'Er/sie hat gesagt, dass er/sie morgen kommt. (Indirektes Zitat)' },
             { jp: '母は「早く寝なさい」と言いました。', romaji: 'Haha wa „hayaku nenasai" to iimashita.', de: 'Meine Mutter sagte: „Geh früh ins Bett!"' },
-            { jp: '先生は試験は来週だと言った。', romaji: 'Sensei wa shiken wa raishū da to itta.', de: 'Der Lehrer hat gesagt, die Prüfung sei nächste Woche.' },
-            { jp: '友達に「ありがとう」と言った。', romaji: 'Tomodachi ni „arigatō" to itta.', de: 'Ich habe zu meinem Freund „Danke" gesagt.' }
           ]
         },
         {
@@ -1215,9 +1066,6 @@
             { jp: '「桜」という花を知っていますか。', romaji: '„Sakura" to iu hana o shitte imasu ka.', de: 'Kennst du die Blume namens „Sakura"?' },
             { jp: 'ラーメンという食べ物', romaji: 'rāmen to iu tabemono', de: 'ein Essen namens Ramen' },
             { jp: '彼が来ないということは知らなかった。', romaji: 'Kare ga konai to iu koto wa shiranakatta.', de: 'Ich wusste nicht, dass er nicht kommt. (ということ = die Tatsache, dass)' },
-            { jp: '「おもてなし」というのは日本の文化です。', romaji: '„Omotenashi" to iu no wa Nihon no bunka desu.', de: '„Omotenashi" (Gastfreundschaft) ist japanische Kultur. (というのは = was X betrifft)' },
-            { jp: '田中という人から電話がありました。', romaji: 'Tanaka to iu hito kara denwa ga arimashita.', de: 'Es gab einen Anruf von einer Person namens Tanaka.' },
-            { jp: 'つまり、行かないということですか。', romaji: 'Tsumari, ikanai to iu koto desu ka.', de: 'Heißt das also, du gehst nicht?' }
           ],
           tip: 'ということ ist einer der nützlichsten Ausdrücke überhaupt. Er verwandelt einen ganzen Satz in ein Nomen: „die Tatsache/Sache, dass...". Absolut unverzichtbar ab N4-Niveau.'
         },
@@ -1228,9 +1076,6 @@
             { jp: '明日テストだって。', romaji: 'Ashita tesuto da tte.', de: 'Morgen ist angeblich Test. (Hörensagen = と言っていた)' },
             { jp: 'ラーメンって何？', romaji: 'Rāmen tte nani?', de: 'Was ist Ramen? (= ラーメンというのは何?)' },
             { jp: '田中さんって優しいよね。', romaji: 'Tanaka-san tte yasashii yo ne.', de: 'Tanaka ist ja echt nett, oder? (って als Themenmarkierer)' },
-            { jp: '何て言った？', romaji: 'Nan te itta?', de: 'Was hast du gesagt? (て = と in der Umgangssprache)' },
-            { jp: '日本語って難しいよね。', romaji: 'Nihongo tte muzukashii yo ne.', de: 'Japanisch ist schon schwer, ne? (って = というのは)' },
-            { jp: '来週引っ越すんだって！', romaji: 'Raishū hikkosu n da tte!', de: 'Angeblich zieht er nächste Woche um!' }
           ],
           tip: 'って ist extrem häufig in der Umgangssprache. Wenn du japanische Untertitel liest oder Anime schaust, wirst du es in fast jedem Dialog hören. Gewöhne dich daran, es als „flexibles Universalwerkzeug" zu sehen!'
         },
@@ -1241,8 +1086,6 @@
             { jp: '明日は雨だと思います。', romaji: 'Ashita wa ame da to omoimasu.', de: 'Ich denke, morgen regnet es.' },
             { jp: 'この映画はおもしろいと思う。', romaji: 'Kono eiga wa omoshiroi to omou.', de: 'Ich finde diesen Film interessant.' },
             { jp: '日本に行きたいと思っています。', romaji: 'Nihon ni ikitai to omotte imasu.', de: 'Ich denke daran, nach Japan zu fahren. (Laufender Gedanke/Wunsch)' },
-            { jp: 'それは間違いだと思う。', romaji: 'Sore wa machigai da to omou.', de: 'Ich glaube, das ist ein Fehler.' },
-            { jp: '彼女は来ないと思います。', romaji: 'Kanojo wa konai to omoimasu.', de: 'Ich glaube nicht, dass sie kommt.' }
           ],
           tip: '„Ich glaube nicht, dass..." = ～ないと思う (die Verneinung steht VOR と思う, nicht danach). ～と思わない (ich denke nicht) klingt dagegen viel stärker und ablehnender.'
         },
@@ -1253,7 +1096,6 @@
             { jp: '明日テストがあると聞きました。', romaji: 'Ashita tesuto ga aru to kikimashita.', de: 'Ich habe gehört, dass morgen ein Test ist. (と聞く = hören, dass)' },
             { jp: '将来医者になろうと決めた。', romaji: 'Shōrai isha ni narō to kimeta.', de: 'Ich habe beschlossen, in Zukunft Arzt zu werden. (と決める = beschließen)' },
             { jp: '彼に手伝ってほしいと頼んだ。', romaji: 'Kare ni tetsudatte hoshii to tanonda.', de: 'Ich habe ihn gebeten, mir zu helfen. (と頼む = bitten)' },
-            { jp: '合格したと信じています。', romaji: 'Gōkaku shita to shinjite imasu.', de: 'Ich glaube, dass ich bestanden habe. (と信じる = glauben)' }
           ]
         }
       ]
@@ -1290,9 +1132,6 @@
             { jp: '先生はもう帰られました。', romaji: 'Sensei wa mō kaeraremashita.', de: 'Der Lehrer ist schon gegangen. (Passivform als Respekt)' },
             { jp: '社長はこちらにいらっしゃいます。', romaji: 'Shachō wa kochira ni irasshaimasu.', de: 'Der Firmenchef ist hier. (いらっしゃる = sein/gehen/kommen, respektvoll)' },
             { jp: '何を召し上がりますか。', romaji: 'Nani o meshiagarimasu ka.', de: 'Was möchten Sie essen/trinken? (召し上がる = essen/trinken, respektvoll)' },
-            { jp: '先生がお書きになった本です。', romaji: 'Sensei ga okaki ni natta hon desu.', de: 'Das ist ein Buch, das der Lehrer geschrieben hat. (お + Stamm + になる)' },
-            { jp: 'お客様はもうお帰りになりましたか。', romaji: 'Okyakusama wa mō okaeri ni narimashita ka.', de: 'Ist der Kunde schon gegangen? (お + Stamm + になる)' },
-            { jp: '部長は何とおっしゃいましたか。', romaji: 'Buchō wa nan to osshaimashita ka.', de: 'Was hat der Abteilungsleiter gesagt? (おっしゃる = sagen, respektvoll)' }
           ],
           tip: 'Das Muster お + ます-Stamm + になる ist dein Joker! Es funktioniert mit fast jedem Verb: お読みになる (lesen), お使いになる (benutzen), お待ちになる (warten)... Damit kannst du auch Verben respektvoll machen, für die es kein spezielles Respekt-Verb gibt.'
         },
@@ -1303,9 +1142,6 @@
             { jp: '明日、伺います。', romaji: 'Ashita, ukagaimasu.', de: 'Ich werde morgen vorbeikommen. (伺う = gehen/fragen, bescheiden)' },
             { jp: '資料を拝見しました。', romaji: 'Shiryō o haiken shimashita.', de: 'Ich habe die Unterlagen eingesehen. (拝見する = sehen, bescheiden)' },
             { jp: '私が参ります。', romaji: 'Watashi ga mairimasu.', de: 'Ich werde kommen/gehen. (参る = gehen/kommen, bescheiden)' },
-            { jp: '荷物をお持ちします。', romaji: 'Nimotsu o omochi shimasu.', de: 'Ich trage Ihnen das Gepäck. (お + Stamm + する)' },
-            { jp: 'ご連絡いたします。', romaji: 'Gorenraku itashimasu.', de: 'Ich werde mich bei Ihnen melden. (いたす = する, bescheiden)' },
-            { jp: '先生にお聞きしたいことがあります。', romaji: 'Sensei ni okiki shitai koto ga arimasu.', de: 'Ich hätte gerne dem Lehrer etwas gefragt. (お + Stamm + する)' }
           ],
           tip: 'Wichtige Falle: 謙譲語 niemals für die Handlungen anderer verwenden! Zu sagen „Der Kunde 参ります" wäre ein grober Fehler — du würdest den Kunden „erniedrigen" statt zu respektieren.'
         },
@@ -1321,8 +1157,6 @@
             { jp: 'いらっしゃいませ！', romaji: 'Irasshaimase!', de: 'Willkommen! (Hörst du in jedem Geschäft und Restaurant.)' },
             { jp: '少々お待ちください。', romaji: 'Shōshō omachi kudasai.', de: 'Bitte warten Sie einen Moment.' },
             { jp: 'こちらでよろしいでしょうか。', romaji: 'Kochira de yoroshii deshō ka.', de: 'Ist das hier in Ordnung für Sie? (よろしい = höfliches いい)' },
-            { jp: 'かしこまりました。', romaji: 'Kashikomarimashita.', de: 'Verstanden. / Sehr wohl. (Sehr formell, z.B. im Hotel)' },
-            { jp: 'お会計はレジでお願いいたします。', romaji: 'Okaikei wa reji de onegai itashimasu.', de: 'Die Bezahlung bitte an der Kasse.' }
           ]
         },
         {
@@ -1332,7 +1166,6 @@
             { jp: '✗ 先生が申しました', romaji: '(falsch: kenjōgo für den Lehrer)', de: 'Falsch! 申す ist bescheiden — damit senkst du den Lehrer.' },
             { jp: '✓ 先生がおっしゃいました', romaji: 'Sensei ga osshaimashita.', de: 'Richtig! おっしゃる ist respektvoll — der Lehrer wird hochgehoben.' },
             { jp: '✗ 私がいらっしゃいます', romaji: '(falsch: sonkeigo für sich selbst)', de: 'Falsch! いらっしゃる ist Respektsprache — damit hebst du dich selbst hoch.' },
-            { jp: '✓ 私が参ります', romaji: 'Watashi ga mairimasu.', de: 'Richtig! 参る ist bescheiden — du senkst dich selbst.' }
           ],
           tip: 'Fürs Erste reicht es völlig, wenn du die です/ます-Form sicher beherrschst und die häufigsten Keigo-Wörter erkennst, wenn du sie hörst. Aktiv verwenden musst du Keigo erst, wenn du in einem japanischen Unternehmen arbeitest oder sehr formelle Situationen meistern willst. Die meisten Japaner werden es sehr schätzen, wenn du überhaupt die ます-Form korrekt benutzt!'
         }
@@ -1374,7 +1207,6 @@
             { jp: '毎日練習するようにした。', romaji: 'Mainichi renshū suru yō ni shita.', de: 'Ich habe mich entschieden, jeden Tag zu üben. (Absicht)' },
             { jp: 'そのおかげで上手に弾けるようになった。', romaji: 'Sono okage de jōzu ni hikeru yō ni natta.', de: 'Dadurch kann ich jetzt gut spielen. (Ergebnis)' },
             { jp: '甘いものを食べないようにしている。', romaji: 'Amai mono o tabenai yō ni shite iru.', de: 'Ich achte darauf, keine Süßigkeiten zu essen. (Absicht)' },
-            { jp: '体重が減るようになった。', romaji: 'Taijū ga heru yō ni natta.', de: 'Mein Gewicht ist runtergegangen. (Ergebnis)' }
           ]
         },
         {
@@ -1405,7 +1237,6 @@
             { jp: '財布を忘れてしまった。', romaji: 'Saifu o wasurete shimatta.', de: 'Ich habe dummerweise mein Portemonnaie vergessen.' },
             { jp: '大事なファイルを消してしまった。', romaji: 'Daiji na fairu o keshite shimatta.', de: 'Ich habe leider eine wichtige Datei gelöscht.' },
             { jp: 'せっかくのケーキを落としてしまった。', romaji: 'Sekkaku no kēki o otoshite shimatta.', de: 'Ich habe den Kuchen fallen lassen (obwohl er extra war).' },
-            { jp: 'また遅刻してしまいました。', romaji: 'Mata chikoku shite shimaimashita.', de: 'Ich bin leider schon wieder zu spät gekommen.' }
           ]
         },
         {
@@ -1425,8 +1256,6 @@
             { jp: '忘れちゃった。', romaji: 'Wasurechatta.', de: 'Hab\'s vergessen. (= 忘れてしまった)' },
             { jp: '全部食べちゃった。', romaji: 'Zenbu tabechatta.', de: 'Hab alles aufgegessen. (= 食べてしまった)' },
             { jp: '壊れちゃった。', romaji: 'Kowarechatta.', de: 'Es ist kaputtgegangen. (= 壊れてしまった)' },
-            { jp: '飲んじゃった。', romaji: 'Nonjatta.', de: 'Hab\'s getrunken. (= 飲んでしまった)' },
-            { jp: '泣いちゃいそう。', romaji: 'Naichai sō.', de: 'Ich glaube, ich fange gleich an zu weinen.' }
           ],
           tip: 'In formellen Situationen: ～てしまう. Im Alltag mit Freunden: ～ちゃう. In Manga und Anime: fast immer ～ちゃう.'
         }
@@ -1593,7 +1422,6 @@
             { jp: '友人として忠告する。', romaji: 'Yūjin to shite chūkoku suru.', de: 'Als Freund rate ich dir davon ab.' },
             { jp: '東京は首都として発展してきた。', romaji: 'Tōkyō wa shuto to shite hatten shite kita.', de: 'Tokyo hat sich als Hauptstadt entwickelt.' },
             { jp: '留学生として日本に来ました。', romaji: 'Ryūgakusei to shite Nihon ni kimashita.', de: 'Ich kam als Austauschstudent nach Japan.' },
-            { jp: 'これは冗談としても面白くない。', romaji: 'Kore wa jōdan to shite mo omoshirokunai.', de: 'Das ist nicht mal als Witz lustig.' }
           ]
         },
         {
@@ -1613,7 +1441,6 @@
             { jp: '教師として生徒を指導する。', romaji: 'Kyōshi to shite seito o shidō suru.', de: 'Als Lehrer leite ich die Schüler an. (Meine Rolle)' },
             { jp: '教師にとって生徒の成長が一番嬉しい。', romaji: 'Kyōshi ni totte seito no seichō ga ichiban ureshii.', de: 'Für einen Lehrer ist das Wachstum der Schüler am erfreulichsten. (Meine Perspektive)' },
             { jp: '彼は俳優としては有名だ。', romaji: 'Kare wa haiyū to shite wa yūmei da.', de: 'Als Schauspieler ist er berühmt. (In dieser Rolle)' },
-            { jp: '彼にとって一番大事なのは家族だ。', romaji: 'Kare ni totte ichiban daiji na no wa kazoku da.', de: 'Für ihn ist Familie das Wichtigste. (Aus seiner Sicht)' }
           ]
         }
       ]
@@ -1694,7 +1521,6 @@
             { jp: '環境問題について考える。', romaji: 'Kankyō mondai ni tsuite kangaeru.', de: 'Über Umweltprobleme nachdenken. (Thema)' },
             { jp: '環境問題に対して行動を起こす。', romaji: 'Kankyō mondai ni taishite kōdō o okosu.', de: 'Gegenüber Umweltproblemen Maßnahmen ergreifen. (Ziel einer Aktion)' },
             { jp: '日本語について質問がある。', romaji: 'Nihongo ni tsuite shitsumon ga aru.', de: 'Ich habe eine Frage über Japanisch. (Thema der Frage)' },
-            { jp: '外国人に対して親切だ。', romaji: 'Gaikokujin ni taishite shinsetsu da.', de: 'Er ist gegenüber Ausländern freundlich. (Ziel der Freundlichkeit)' }
           ],
           tip: 'Verwandte Formen: に関して (formeller als について), に対する + Nomen (als Adjektiv: „die Haltung gegenüber...").'
         }
@@ -1785,7 +1611,6 @@
             { jp: '好きだからこそ厳しく言うんだ。', romaji: 'Suki da kara koso kibishiku iu n da.', de: 'Gerade WEIL ich dich mag, sage ich es dir direkt.' },
             { jp: '大変だからこそやりがいがある。', romaji: 'Taihen da kara koso yarigai ga aru.', de: 'Gerade WEIL es schwer ist, lohnt es sich.' },
             { jp: '経験があるからこそ言えることだ。', romaji: 'Keiken ga aru kara koso ieru koto da.', de: 'Gerade WEIL ich Erfahrung habe, kann ich das sagen.' },
-            { jp: '一人だからこそ自由にできる。', romaji: 'Hitori da kara koso jiyū ni dekiru.', de: 'Gerade WEIL man allein ist, kann man frei handeln.' }
           ]
         },
         {
@@ -1957,7 +1782,6 @@
             { jp: '彼はもう着いたはずだ。', romaji: 'Kare wa mō tsuita hazu da.', de: 'Er müsste eigentlich schon angekommen sein.' },
             { jp: '予約したから、席があるはずです。', romaji: 'Yoyaku shita kara, seki ga aru hazu desu.', de: 'Weil ich reserviert habe, sollten Plätze da sein.' },
             { jp: 'この道が正しいはずだ。', romaji: 'Kono michi ga tadashii hazu da.', de: 'Dieser Weg müsste der richtige sein.' },
-            { jp: '彼女は日本語が上手なはずだ。五年も住んでいたから。', romaji: 'Kanojo wa nihongo ga jōzu na hazu da. Go-nen mo sunde ita kara.', de: 'Sie müsste gut Japanisch können. Sie hat schließlich fünf Jahre dort gelebt.' }
           ]
         },
         {
@@ -2039,7 +1863,6 @@
             { jp: '電車の中で寝てしまった。', romaji: 'Densha no naka de nete shimatta.', de: 'Ich bin leider im Zug eingeschlafen.' },
             { jp: '大事な書類をなくしてしまった。', romaji: 'Daiji na shorui o nakushite shimatta.', de: 'Ich habe leider wichtige Dokumente verloren.' },
             { jp: 'つい食べ過ぎてしまいました。', romaji: 'Tsui tabesugite shimaimashita.', de: 'Ich habe leider zu viel gegessen.' },
-            { jp: '秘密を言ってしまった！', romaji: 'Himitsu o itte shimatta!', de: 'Ich habe das Geheimnis verraten! (Oops!)' }
           ],
           tip: 'つい (unwillkürlich) + てしまう ist eine häufige Kombination: „Ich konnte nicht anders und habe...".'
         },
@@ -2059,7 +1882,6 @@
             { jp: '食べちゃった。', romaji: 'Tabechatta.', de: 'Hab\'s gegessen. (Ups!)' },
             { jp: '忘れちゃった！', romaji: 'Wasurechatta!', de: 'Hab\'s vergessen!' },
             { jp: '壊れちゃった。', romaji: 'Kowarechatta.', de: 'Es ist kaputtgegangen.' },
-            { jp: '飲んじゃダメ！', romaji: 'Nonja dame!', de: 'Du darfst das nicht trinken!' }
           ],
           tip: 'ちゃダメ / じゃダメ = „Du darfst nicht...!" — eine sehr häufige Konstruktion im Alltag, besonders mit Kindern.'
         },
@@ -2090,7 +1912,6 @@
             { jp: '読む → 読まれる', romaji: 'yomu → yomareru', de: 'lesen → gelesen werden' },
             { jp: '食べる → 食べられる', romaji: 'taberu → taberareru', de: 'essen → gegessen werden' },
             { jp: '書く → 書かれる', romaji: 'kaku → kakareru', de: 'schreiben → geschrieben werden' },
-            { jp: 'する → される　／　くる → こられる', romaji: 'suru → sareru / kuru → korareru', de: 'machen → gemacht werden / kommen → gekommen werden' }
           ],
           tip: 'Bei ru-Verben ist die Passivform identisch mit der Potenzialform (られる). Im gesprochenen Japanisch wird bei der Potenzialform oft das ら weggelassen (食べれる), aber beim Passiv bleibt es erhalten.'
         },
@@ -2110,7 +1931,6 @@
             { jp: '電車の中で足を踏まれた。', romaji: 'Densha no naka de ashi o fumareta.', de: 'Mir wurde im Zug auf den Fuß getreten.' },
             { jp: '隣の人にタバコを吸われた。', romaji: 'Tonari no hito ni tabako o suwareta.', de: 'Die Person neben mir hat geraucht. (Und es hat mich gestört!)' },
             { jp: '雨に降られて、びしょ濡れになった。', romaji: 'Ame ni furarete, bisho-nure ni natta.', de: 'Ich wurde vom Regen erwischt und bin durchnässt.' },
-            { jp: '彼女に泣かれて困った。', romaji: 'Kanojo ni nakarete komatta.', de: 'Sie hat geweint und das hat mich in Verlegenheit gebracht.' }
           ],
           tip: 'Das Leidenspassiv wird sogar mit intransitiven Verben gebildet — 雨に降られた (vom Regen „geregnet werden") ist grammatisch korrekt und sehr natürlich!'
         },
@@ -2331,7 +2151,6 @@
             { jp: '彼は怒りっぽい。', romaji: 'Kare wa okorippoi.', de: 'Er ist leicht reizbar / wird schnell wütend.' },
             { jp: 'この色は白っぽい。', romaji: 'Kono iro wa shiroppoi.', de: 'Diese Farbe ist weißlich.' },
             { jp: '最近忘れっぽくなった。', romaji: 'Saikin wasureppoku natta.', de: 'In letzter Zeit vergesse ich leicht Dinge.' },
-            { jp: '大人っぽい服を着ている。', romaji: 'Otonappoi fuku o kite iru.', de: 'Sie trägt erwachsen wirkende Kleidung.' }
           ],
           tip: 'っぽい wird wie ein い-Adjektiv konjugiert: っぽくない, っぽかった, etc. Es kann sowohl neutral als auch leicht negativ sein.'
         },
@@ -2431,7 +2250,6 @@
             { jp: '証拠がある以上、認めざるを得ない。', romaji: 'Shōko ga aru ijō, mitomezaru o enai.', de: 'Angesichts der Beweise kann ich es nicht leugnen.' },
             { jp: '会社の方針なので、従わざるを得ない。', romaji: 'Kaisha no hōshin na node, shitagawazaru o enai.', de: 'Da es die Firmenpolitik ist, muss ich mich fügen.' },
             { jp: '電車が止まったので、タクシーを使わざるを得なかった。', romaji: 'Densha ga tomatta node, takushī o tsukawazaru o enakatta.', de: 'Weil der Zug ausfiel, musste ich notgedrungen ein Taxi nehmen.' },
-            { jp: '延期せざるを得ない状況だ。', romaji: 'Enki sezaru o enai jōkyō da.', de: 'Es ist eine Situation, in der wir nicht umhinkommen, zu verschieben.' }
           ],
           tip: 'ざる ist die klassische Verneinungsform (ず → ざる vor を). する wird zu せざる, nicht しざる. Dieses Muster ist eine der wenigen Stellen, wo klassisches Japanisch im modernen Sprachgebrauch überlebt hat.'
         },
@@ -2523,7 +2341,6 @@
             { jp: '私の意見にすぎません。', romaji: 'Watashi no iken ni sugimasen.', de: 'Es ist lediglich meine Meinung.' },
             { jp: 'これは噂にすぎない。', romaji: 'Kore wa uwasa ni suginai.', de: 'Das ist nur ein Gerücht.' },
             { jp: '彼はまだ学生にすぎない。', romaji: 'Kare wa mada gakusei ni suginai.', de: 'Er ist immer noch nur ein Student.' },
-            { jp: '始めたばかりにすぎないのだから、焦るな。', romaji: 'Hajimeta bakari ni suginai no da kara, aseru na.', de: 'Du hast gerade erst angefangen, also hab keine Eile.' }
           ]
         },
         {
@@ -2554,7 +2371,6 @@
             { jp: '一秒たりとも無駄にしたくない。', romaji: 'Ichibyō taritomo muda ni shitaku nai.', de: 'Ich möchte nicht einmal eine einzige Sekunde verschwenden.' },
             { jp: '一歩たりとも動くな！', romaji: 'Ippo taritomo ugoku na!', de: 'Beweg dich nicht einen einzigen Schritt!' },
             { jp: '一円たりとも貸さない。', romaji: 'Ichien taritomo kasanai.', de: 'Ich werde nicht einmal einen einzigen Yen verleihen.' },
-            { jp: '一日たりとも忘れたことはない。', romaji: 'Ichinichi taritomo wasureta koto wa nai.', de: 'Nicht einen einzigen Tag habe ich es vergessen.' }
           ],
           tip: 'たりとも steht fast immer nach einer Mengenangabe mit „eins" (一秒, 一歩, 一円, 一日) und wird immer von einer Verneinung gefolgt.'
         },
@@ -2565,7 +2381,6 @@
             { jp: '名前すら知らない。', romaji: 'Namae sura shiranai.', de: 'Ich kenne nicht einmal den Namen.' },
             { jp: '子供ですら解ける問題だ。', romaji: 'Kodomo de sura tokeru mondai da.', de: 'Es ist eine Aufgabe, die selbst ein Kind lösen kann.' },
             { jp: '彼は挨拶すらしなかった。', romaji: 'Kare wa aisatsu sura shinakatta.', de: 'Er hat nicht einmal gegrüßt.' },
-            { jp: '想像すらできない。', romaji: 'Sōzō sura dekinai.', de: 'Ich kann es mir nicht einmal vorstellen.' }
           ],
           tip: 'すら klingt literarischer und dramatischer als さえ. In der Alltagssprache verwendet man eher さえ, in Texten und Reden すら.'
         },
@@ -2598,7 +2413,6 @@
             { jp: '本日をもって閉店いたします。', romaji: 'Honjitsu o motte heiten itashimasu.', de: 'Zum heutigen Tag schließen wir unser Geschäft.' },
             { jp: '書面をもってお知らせいたします。', romaji: 'Shomen o motte oshirase itashimasu.', de: 'Wir informieren Sie hiermit schriftlich.' },
             { jp: '誠意をもって対応する。', romaji: 'Seii o motte taiō suru.', de: 'Mit Aufrichtigkeit handeln.' },
-            { jp: '今回の件をもって、契約を終了とさせていただきます。', romaji: 'Konkai no ken o motte, keiyaku o shūryō to sasete itadakimasu.', de: 'Mit diesem Vorfall beenden wir den Vertrag.' }
           ],
           tip: '本日をもって (zum heutigen Tag) ist eine sehr häufige Wendung in Geschäftsankündigungen — Schließungen, Kündigungen, letzte Arbeitstage.'
         },
@@ -2700,7 +2514,6 @@
             { jp: '入るべからず。', romaji: 'Hairu bekarazu.', de: 'Betreten verboten!' },
             { jp: '忘るべからず。', romaji: 'Wasuru bekarazu.', de: 'Vergiss es niemals! / Nie vergessen!' },
             { jp: '初心忘るべからず。', romaji: 'Shoshin wasuru bekarazu.', de: 'Vergiss niemals den Anfängergeist! (Berühmtes Sprichwort)' },
-            { jp: 'ここにゴミを捨てるべからず。', romaji: 'Koko ni gomi o suteru bekarazu.', de: 'Das Wegwerfen von Müll ist hier verboten.' }
           ],
           tip: '初心忘るべからず ist eines der bekanntesten japanischen Sprichwörter. Es stammt von Zeami, dem Begründer des Nō-Theaters, und wird heute noch oft zitiert — in Ansprachen, Motivationsreden und als Lebensweisheit.'
         },
@@ -2732,7 +2545,6 @@
             { jp: '彼は貧しいながらも、幸せに暮らしている。', romaji: 'Kare wa mazushii nagara mo, shiawase ni kurashite iru.', de: 'Obwohl er arm ist, lebt er glücklich.' },
             { jp: '小さいながらも、この会社は世界的に有名だ。', romaji: 'Chiisai nagara mo, kono kaisha wa sekaiteki ni yūmei da.', de: 'Obwohl sie klein ist, ist diese Firma weltweit bekannt.' },
             { jp: '子供ながらも、その少年は驚くべき才能を持っている。', romaji: 'Kodomo nagara mo, sono shōnen wa odoroku beki sainō wo motte iru.', de: 'Obwohl er ein Kind ist, besitzt dieser Junge ein erstaunliches Talent.' },
-            { jp: '残念ながらも、今回は参加を見送ることにした。', romaji: 'Zannen nagara mo, konkai wa sanka wo miokuru koto ni shita.', de: 'Obwohl es bedauerlich ist, habe ich beschlossen, diesmal auf die Teilnahme zu verzichten.' }
           ],
           tip: 'Merke: ～ながらも betont, dass zwei Eigenschaften gleichzeitig existieren, die eigentlich im Widerspruch stehen. Das も verstärkt den konzessiven Charakter — ohne も (also nur ～ながら) kann es auch einfach „während" bedeuten.'
         },
@@ -2743,7 +2555,6 @@
             { jp: '体に悪いと知りつつも、タバコをやめられない。', romaji: 'Karada ni warui to shiri tsutsu mo, tabako wo yamerarenai.', de: 'Obwohl ich weiß, dass es schlecht für den Körper ist, kann ich mit dem Rauchen nicht aufhören.' },
             { jp: '申し訳ないと思いつつも、彼の頼みを断った。', romaji: 'Mōshiwakenai to omoi tsutsu mo, kare no tanomi wo kotowatta.', de: 'Obwohl ich es für unverzeihlich hielt, lehnte ich seine Bitte ab.' },
             { jp: '危険を感じつつも、彼女は前に進み続けた。', romaji: 'Kiken wo kanji tsutsu mo, kanojo wa mae ni susumi tsuzuketa.', de: 'Obwohl sie die Gefahr spürte, ging sie weiter voran.' },
-            { jp: '反対されつつも、自分の信念を貫いた。', romaji: 'Hantai sare tsutsu mo, jibun no shinnen wo tsuranui ta.', de: 'Obwohl man sich mir widersetzte, hielt ich an meiner Überzeugung fest.' }
           ],
           tip: '～つつも impliziert fast immer ein Bewusstsein des Widerspruchs. Wenn du sagen willst „Ich weiß es eigentlich besser, aber...", ist ～つつも die perfekte Wahl.'
         },
@@ -2754,7 +2565,6 @@
             { jp: '日本語を何年も勉強したものの、まだ流暢に話せない。', romaji: 'Nihongo wo nannen mo benkyō shita mono no, mada ryūchō ni hanasenai.', de: 'Obwohl ich jahrelang Japanisch gelernt habe, kann ich es immer noch nicht fließend sprechen.' },
             { jp: '新しいパソコンを買ったものの、使い方がよくわからない。', romaji: 'Atarashii pasokon wo katta mono no, tsukaikata ga yoku wakaranai.', de: 'Ich habe zwar einen neuen Computer gekauft, weiß aber nicht genau, wie man ihn benutzt.' },
             { jp: '転職したいと思っているものの、なかなか行動に移せない。', romaji: 'Tenshoku shitai to omotte iru mono no, nakanaka kōdō ni utsusenai.', de: 'Ich möchte zwar den Job wechseln, kann es aber nicht in die Tat umsetzen.' },
-            { jp: '彼の言うことはもっともであるものの、現実的ではない。', romaji: 'Kare no iu koto wa mottomo de aru mono no, genjitsuteki de wa nai.', de: 'Was er sagt, ist zwar berechtigt, aber nicht realistisch.' }
           ],
           tip: 'Vergleich: ～ものの fokussiert auf das enttäuschende Ergebnis, ～ながらも auf den gleichzeitigen Widerspruch, und ～つつも auf das bewusste Handeln gegen besseres Wissen.'
         },
@@ -2785,7 +2595,6 @@
             { jp: '交渉は決裂に至った。', romaji: 'Kōshō wa ketsuretsu ni itatta.', de: 'Die Verhandlungen sind zum Scheitern gekommen.' },
             { jp: '事態が悪化し、ついに辞任に至った。', romaji: 'Jitai ga akka shi, tsui ni jinin ni itatta.', de: 'Die Lage verschlechterte sich und führte schließlich zum Rücktritt.' },
             { jp: 'この計画に至った経緯を説明いたします。', romaji: 'Kono keikaku ni itatta keii wo setsumei itashimasu.', de: 'Ich werde die Umstände erläutern, die zu diesem Plan geführt haben.' },
-            { jp: '大企業から中小企業に至るまで、すべてが影響を受けた。', romaji: 'Daikigyō kara chūshō kigyō ni itaru made, subete ga eikyō wo uketa.', de: 'Von Großunternehmen bis hin zu kleinen und mittleren Betrieben — alle waren betroffen.' }
           ],
           tip: '～に至る hat einen sachlichen, berichtenden Ton. Verwende es, wenn du eine Kette von Ereignissen beschreibst, die zu einem Ergebnis geführt hat.'
         },
@@ -2796,7 +2605,6 @@
             { jp: '病状が深刻になるに至って、ようやく医者に行った。', romaji: 'Byōjō ga shinkoku ni naru ni itatte, yōyaku isha ni itta.', de: 'Erst als der Krankheitszustand ernst wurde, ging er endlich zum Arzt.' },
             { jp: '会社が倒産するに至って、初めて問題の深刻さに気づいた。', romaji: 'Kaisha ga tōsan suru ni itatte, hajimete mondai no shinkokusa ni kizuita.', de: 'Erst als die Firma bankrott ging, wurde einem das Ausmaß des Problems bewusst.' },
             { jp: '事態がここに至って、もう後戻りはできない。', romaji: 'Jitai ga koko ni itatte, mō atomodori wa dekinai.', de: 'Nun, da die Lage diesen Punkt erreicht hat, gibt es kein Zurück mehr.' },
-            { jp: '証拠を突きつけられるに至っても、彼は犯行を否認し続けた。', romaji: 'Shōko wo tsukitsukerareru ni itatte mo, kare wa hankō wo hinin shi tsuzuketa.', de: 'Selbst als man ihm die Beweise vorlegte, leugnete er die Tat weiterhin.' }
           ],
           tip: '～に至って enthält fast immer die Nuance „erst jetzt, wo es so weit ist". Es impliziert oft eine Kritik: Warum hat man nicht früher gehandelt?'
         },
@@ -2828,7 +2636,6 @@
             { jp: '親の心配をよそに、息子は危険な旅に出かけた。', romaji: 'Oya no shinpai wo yoso ni, musuko wa kiken na tabi ni dekaketa.', de: 'Ohne Rücksicht auf die Sorgen seiner Eltern machte sich der Sohn auf eine gefährliche Reise.' },
             { jp: '周囲の反対をよそに、彼女は独立して起業した。', romaji: 'Shūi no hantai wo yoso ni, kanojo wa dokuritsu shite kigyō shita.', de: 'Ungeachtet des Widerstands ihres Umfelds machte sie sich selbstständig.' },
             { jp: '国民の不安をよそに、政府は計画を推し進めた。', romaji: 'Kokumin no fuan wo yoso ni, seifu wa keikaku wo oshisusumeta.', de: 'Ohne Rücksicht auf die Ängste der Bevölkerung trieb die Regierung den Plan voran.' },
-            { jp: '被災者の苦しみをよそに、彼は豪華な生活を続けた。', romaji: 'Hisaisha no kurushimi wo yoso ni, kare wa gōka na seikatsu wo tsuzuketa.', de: 'Ohne Rücksicht auf das Leid der Katastrophenopfer führte er sein luxuriöses Leben fort.' }
           ],
           tip: '～をよそに wird fast immer kritisch verwendet. Es impliziert: „Diese Person hätte sich kümmern sollen, hat es aber nicht getan." Typische Nomen davor: 心配 (Sorge), 反対 (Widerstand), 批判 (Kritik), 期待 (Erwartung).'
         },
@@ -2839,7 +2646,6 @@
             { jp: '厳しい批判をものともせず、彼は研究を続けた。', romaji: 'Kibishii hihan wo mono to mo sezu, kare wa kenkyū wo tsuzuketa.', de: 'Ohne sich von der harten Kritik beeindrucken zu lassen, setzte er seine Forschung fort.' },
             { jp: '大雨をものともせず、選手たちは試合を戦い抜いた。', romaji: 'Ōame wo mono to mo sezu, senshutachi wa shiai wo tatakai nuita.', de: 'Unbeeindruckt vom starken Regen kämpften die Spieler das Spiel bis zum Ende.' },
             { jp: '病気をものともせず、彼女はフルマラソンを完走した。', romaji: 'Byōki wo mono to mo sezu, kanojo wa furu marason wo kansō shita.', de: 'Ohne sich von ihrer Krankheit aufhalten zu lassen, lief sie den gesamten Marathon.' },
-            { jp: '周囲の偏見をものともせず、彼は夢を追い続けた。', romaji: 'Shūi no henken wo mono to mo sezu, kare wa yume wo oitsuzuketa.', de: 'Ohne sich von den Vorurteilen seines Umfelds beirren zu lassen, verfolgte er weiter seinen Traum.' }
           ],
           tip: '～をものともせず wird für heldenhafte oder bewundernswerte Handlungen verwendet. Typische Nomen davor: 困難 (Schwierigkeiten), 逆境 (Widrigkeiten), 反対 (Widerstand), 痛み (Schmerz).'
         },
@@ -2850,7 +2656,6 @@
             { jp: '自らの危険を顧みず、彼は子供を川から救い出した。', romaji: 'Mizukara no kiken wo kaerimizu, kare wa kodomo wo kawa kara sukuidashita.', de: 'Ohne seine eigene Sicherheit zu bedenken, rettete er das Kind aus dem Fluss.' },
             { jp: '家族の反対を顧みず、彼女は海外に移住した。', romaji: 'Kazoku no hantai wo kaerimizu, kanojo wa kaigai ni ijū shita.', de: 'Ohne den Widerstand ihrer Familie zu beachten, wanderte sie ins Ausland aus.' },
             { jp: '健康を顧みず、彼は連日深夜まで働き続けた。', romaji: 'Kenkō wo kaerimizu, kare wa renjitsu shin\'ya made hataraki tsuzuketa.', de: 'Ohne auf seine Gesundheit zu achten, arbeitete er Tag für Tag bis spät in die Nacht.' },
-            { jp: '自分の立場を顧みず、上司に反論した。', romaji: 'Jibun no tachiba wo kaerimizu, jōshi ni hanron shita.', de: 'Ohne seine eigene Position zu bedenken, widersprach er seinem Vorgesetzten.' }
           ],
           tip: 'Vergleich: ～をよそに = kritisch (Gleichgültigkeit), ～をものともせず = bewundernd (Stärke), ～を顧みず = entschlossen (Opferbereitschaft). Alle drei werden mit Nomen + を konstruiert.'
         }
@@ -2872,7 +2677,6 @@
             { jp: '皆様のご成功を願ってやみません。', romaji: 'Minasama no go-seikō wo negatte yamimasen.', de: 'Ich wünsche Ihnen allen von ganzem Herzen Erfolg.' },
             { jp: '世界平和が実現することを祈ってやまない。', romaji: 'Sekai heiwa ga jitsugen suru koto wo inotte yamanai.', de: 'Ich bete unaufhörlich dafür, dass der Weltfrieden Wirklichkeit wird.' },
             { jp: '彼女の才能を尊敬してやまない。', romaji: 'Kanojo no sainō wo sonkei shite yamanai.', de: 'Ich bewundere ihr Talent von ganzem Herzen.' },
-            { jp: '故郷を愛してやまない人々がこの祭りを守り続けている。', romaji: 'Furusato wo ai shite yamanai hitobito ga kono matsuri wo mamori tsuzukete iru.', de: 'Menschen, die ihre Heimat unaufhörlich lieben, bewahren dieses Fest weiter.' }
           ],
           tip: 'In der höflichen Form wird やまない zu やみません. Dieser Ausdruck wird fast ausschließlich mit positiven Gefühlen verwendet — Wünsche, Hoffnungen, Liebe, Respekt.'
         },
@@ -2883,7 +2687,6 @@
             { jp: '皆様のご支援には感謝にたえません。', romaji: 'Minasama no go-shien ni wa kansha ni taemasen.', de: 'Für Ihre Unterstützung bin ich Ihnen unendlich dankbar.' },
             { jp: 'このような結果になり、慚愧にたえない。', romaji: 'Kono yō na kekka ni nari, zangi ni taenai.', de: 'Dass es zu einem solchen Ergebnis kam, erfüllt mich mit tiefer Scham.' },
             { jp: '彼の演説は聞くにたえない内容だった。', romaji: 'Kare no enzetsu wa kiku ni taenai naiyō datta.', de: 'Seine Rede hatte einen Inhalt, der nicht anzuhören war.' },
-            { jp: '被害者の状況を見るにたえない。', romaji: 'Higaisha no jōkyō wo miru ni taenai.', de: 'Die Situation der Opfer ist kaum mit anzusehen.' }
           ],
           tip: 'Mit Gefühlsnomen (感謝、感慨、慚愧) bedeutet es „überwältigende Emotion". Mit Verben wie 聞く、見る、読む bedeutet es „so schlecht, dass man es nicht ertragen kann".'
         },
@@ -2894,7 +2697,6 @@
             { jp: '被災地の方々の苦しみは想像にかたくない。', romaji: 'Hisaichi no katagata no kurushimi wa sōzō ni kataku nai.', de: 'Das Leid der Menschen im Katastrophengebiet ist leicht vorstellbar.' },
             { jp: '彼がどれほど悔しかったか、推察にかたくない。', romaji: 'Kare ga dore hodo kuyashikatta ka, suisatsu ni kataku nai.', de: 'Es ist nicht schwer zu erahnen, wie frustriert er gewesen sein muss.' },
             { jp: 'この決定が大きな影響を及ぼすことは予想にかたくない。', romaji: 'Kono kettei ga ōkina eikyō wo oyobosu koto wa yosō ni kataku nai.', de: 'Es ist leicht vorherzusehen, dass diese Entscheidung große Auswirkungen haben wird.' },
-            { jp: '長年の努力が報われた喜びは察するにかたくない。', romaji: 'Naganen no doryoku ga mukuwareta yorokobi wa sassuru ni kataku nai.', de: 'Die Freude darüber, dass sich jahrelange Mühe ausgezahlt hat, ist leicht nachzuempfinden.' }
           ],
           tip: 'Die häufigste Kombination ist 想像にかたくない. Merke dir diesen Ausdruck als feste Wendung — er erscheint regelmäßig in der N1-Prüfung.'
         }
@@ -2916,7 +2718,6 @@
             { jp: 'あの人にお金を貸したが最後、二度と返ってこない。', romaji: 'Ano hito ni okane wo kashita ga saigo, nido to kaette konai.', de: 'Wenn du dieser Person einmal Geld leihst, bekommst du es nie wieder zurück.' },
             { jp: 'このゲームを始めたが最後、何時間も止められなくなる。', romaji: 'Kono gēmu wo hajimeta ga saigo, nanjikan mo tomerarenaku naru.', de: 'Wenn man dieses Spiel einmal anfängt, kann man stundenlang nicht mehr aufhören.' },
             { jp: '彼女に秘密を話したが最後、全員に知れ渡る。', romaji: 'Kanojo ni himitsu wo hanashita ga saigo, zen\'in ni shirewataru.', de: 'Wenn man ihr einmal ein Geheimnis erzählt, erfährt es jeder.' },
-            { jp: 'この沼に足を踏み入れたが最後、抜け出せなくなる。', romaji: 'Kono numa ni ashi wo fumiire ta ga saigo, nukedasenaku naru.', de: 'Wenn man einmal in diesen Sumpf hineintritt, kommt man nicht mehr heraus.' }
           ],
           tip: '～たが最後 wird immer mit negativen Konsequenzen verwendet. Es ist eine Warnung: „Tu das bloß nicht, denn sonst..." Ähnlich wie ～たら最後.'
         },
@@ -2927,7 +2728,6 @@
             { jp: 'ベルが鳴るが早いか、生徒たちは教室を飛び出した。', romaji: 'Beru ga naru ga hayai ka, seitotachi wa kyōshitsu wo tobidashita.', de: 'Kaum hatte die Glocke geläutet, stürmten die Schüler aus dem Klassenzimmer.' },
             { jp: '彼はドアを開けるが早いか、部屋に駆け込んだ。', romaji: 'Kare wa doa wo akeru ga hayai ka, heya ni kakekonda.', de: 'Kaum hatte er die Tür geöffnet, stürmte er ins Zimmer.' },
             { jp: '母の姿を見るが早いか、子供は泣き出した。', romaji: 'Haha no sugata wo miru ga hayai ka, kodomo wa nakidashita.', de: 'Kaum hatte das Kind seine Mutter erblickt, fing es an zu weinen.' },
-            { jp: '合図が出るが早いか、選手たちは一斉にスタートした。', romaji: 'Aizu ga deru ga hayai ka, senshutachi wa issei ni sutāto shita.', de: 'Kaum war das Zeichen gegeben, starteten die Athleten gleichzeitig.' }
           ],
           tip: '～が早いか beschreibt beobachtete Szenen — man erzählt, was man bei anderen gesehen hat. Es wird nicht für eigene Handlungen verwendet.'
         },
@@ -2938,7 +2738,6 @@
             { jp: '目が覚めるや否や、彼は携帯電話を確認した。', romaji: 'Me ga sameru ya ina ya, kare wa keitai denwa wo kakunin shita.', de: 'Kaum war er aufgewacht, überprüfte er sein Handy.' },
             { jp: '試合終了の笛が鳴るや否や、観客は立ち上がった。', romaji: 'Shiai shūryō no fue ga naru ya ina ya, kankyaku wa tachiagatta.', de: 'Kaum ertönte der Schlusspfiff, sprangen die Zuschauer auf.' },
             { jp: '電車のドアが開くや否や、乗客がなだれ込んだ。', romaji: 'Densha no doa ga hiraku ya ina ya, jōkyaku ga nadarekonda.', de: 'Kaum öffneten sich die Zugtüren, strömten die Fahrgäste hinein.' },
-            { jp: 'ニュースを聞くや否や、彼女は現場に駆けつけた。', romaji: 'Nyūsu wo kiku ya ina ya, kanojo wa genba ni kaketsuketa.', de: 'Kaum hatte sie die Nachricht gehört, eilte sie zum Ort des Geschehens.' }
           ],
           tip: '～や否や verwendet immer die Wörterbuchform des Verbs. Es klingt sehr literarisch und elegant.'
         },
@@ -2949,7 +2748,6 @@
             { jp: '彼は部屋に入るなり、ソファに倒れ込んだ。', romaji: 'Kare wa heya ni hairu nari, sofa ni taorekonda.', de: 'Kaum betrat er das Zimmer, ließ er sich auf das Sofa fallen.' },
             { jp: '電話に出るなり、彼女は怒鳴り始めた。', romaji: 'Denwa ni deru nari, kanojo wa donari hajimeta.', de: 'Sobald sie den Hörer abnahm, fing sie an zu schreien.' },
             { jp: '彼は私の顔を見るなり、泣き出した。', romaji: 'Kare wa watashi no kao wo miru nari, nakidashita.', de: 'Sobald er mein Gesicht sah, brach er in Tränen aus.' },
-            { jp: '社長は会議室に入るなり、全員を叱りつけた。', romaji: 'Shachō wa kaigishitsu ni hairu nari, zen\'in wo shikaritsuketa.', de: 'Kaum betrat der Firmenchef den Konferenzraum, schimpfte er alle aus.' }
           ],
           tip: 'Merke die Unterschiede: ～たが最後 = negative Konsequenz, ～が早いか = beobachtete schnelle Handlung, ～や否や = sofortige Reaktion, ～なり = überraschende sofortige Handlung derselben Person.'
         }
@@ -2971,7 +2769,6 @@
             { jp: '光陰矢のごとし。', romaji: 'Kōin ya no gotoshi.', de: 'Die Zeit vergeht wie ein Pfeil. (Sprichwort)' },
             { jp: '彼は風のごとく駆け抜けた。', romaji: 'Kare wa kaze no gotoku kakenuketa.', de: 'Er raste hindurch wie der Wind.' },
             { jp: '水のごとき透明感のある声だった。', romaji: 'Mizu no gotoki tōmeikan no aru koe datta.', de: 'Es war eine Stimme von kristallener Klarheit, gleich dem Wasser.' },
-            { jp: '嵐のごとく押し寄せる感情を抑えきれなかった。', romaji: 'Arashi no gotoku oshiyoseru kanjō wo osaekirenakatta.', de: 'Die Gefühle, die wie ein Sturm hereinbrachen, konnte er nicht mehr zurückhalten.' }
           ],
           tip: 'ごとく = adverbial (vor Verben), ごとき = attributiv (vor Nomen), ごとし = am Satzende (prädikativ). Diese drei sind die drei Formen desselben klassischen Wortes.'
         },
@@ -2982,7 +2779,6 @@
             { jp: '私ごときが意見を述べるのは恐れ多い。', romaji: 'Watashi gotoki ga iken wo noberu no wa osore ōi.', de: 'Es wäre anmaßend, wenn jemand wie ich eine Meinung äußern würde.' },
             { jp: 'お前ごときに何がわかる。', romaji: 'Omae gotoki ni nani ga wakaru.', de: 'Was kann jemand wie du schon verstehen?' },
             { jp: '素人ごときが口を出すな。', romaji: 'Shirōto gotoki ga kuchi wo dasu na.', de: 'Ein Laie wie du soll sich nicht einmischen.' },
-            { jp: '私ごときにこのような大役は務まりません。', romaji: 'Watashi gotoki ni kono yō na taiyaku wa tsutomarimesen.', de: 'Eine so bedeutende Aufgabe ist für jemand Unbedeutenden wie mich nicht zu bewältigen.' }
           ],
           tip: 'Auf sich selbst bezogen = extreme Bescheidenheit. Auf andere bezogen = Geringschätzung. Der Kontext macht den Unterschied deutlich.'
         },
@@ -2993,8 +2789,6 @@
             { jp: '理由のいかんによらず、暴力は許されない。', romaji: 'Riyū no ikan ni yorazu, bōryoku wa yurusarenai.', de: 'Ungeachtet der Gründe ist Gewalt nicht zu dulden.' },
             { jp: '結果のいかんにかかわらず、全力を尽くすべきだ。', romaji: 'Kekka no ikan ni kakawarazu, zenryoku wo tsukusu beki da.', de: 'Unabhängig vom Ergebnis sollte man sein Bestes geben.' },
             { jp: '国籍のいかんを問わず、すべての市民に適用される。', romaji: 'Kokuseki no ikan wo towazu, subete no shimin ni tekiyō sareru.', de: 'Ungeachtet der Staatsangehörigkeit gilt dies für alle Bürger.' },
-            { jp: '事情のいかんによらず、期限は延長できません。', romaji: 'Jijō no ikan ni yorazu, kigen wa enchō dekimasen.', de: 'Ungeachtet der Umstände kann die Frist nicht verlängert werden.' },
-            { jp: '成功するか否かは、努力いかんにかかっている。', romaji: 'Seikō suru ka ina ka wa, doryoku ikan ni kakatte iru.', de: 'Ob man Erfolg hat oder nicht, hängt davon ab, wie man sich anstrengt.' }
           ],
           tip: '～いかんによらず/にかかわらず = „egal wie" (Ergebnis ist fest). ～いかんにかかっている/によって = „hängt davon ab, wie" (Ergebnis ist variabel). Beachte den wichtigen Bedeutungsunterschied!'
         }
@@ -3016,7 +2810,6 @@
             { jp: 'あの運転は危険極まりない。', romaji: 'Ano unten wa kiken kiwamarinai.', de: 'Dieses Fahrverhalten ist äußerst gefährlich.' },
             { jp: '彼の態度は失礼極まる。', romaji: 'Kare no taido wa shitsurei kiwamaru.', de: 'Sein Verhalten ist im höchsten Maße unhöflich.' },
             { jp: 'そのような発言は不謹慎極まりない。', romaji: 'Sono yō na hatsugen wa fukinsin kiwamarinai.', de: 'Solche Äußerungen sind äußerst taktlos.' },
-            { jp: '彼女の歌声は感動的極まりないものだった。', romaji: 'Kanojo no utagoe wa kandōteki kiwamarinai mono datta.', de: 'Ihre Singstimme war überaus bewegend.' }
           ],
           tip: '極まりない und 極まる sind austauschbar, wobei 極まりない etwas häufiger verwendet wird. Beachte: Es wird nur mit な-Adjektiven verwendet, nicht mit い-Adjektiven.'
         },
@@ -3027,7 +2820,6 @@
             { jp: 'この料理は贅沢の極みだ。', romaji: 'Kono ryōri wa zeitaku no kiwami da.', de: 'Dieses Gericht ist der Gipfel des Luxus.' },
             { jp: '疲労の極みに達して、彼はその場に倒れた。', romaji: 'Hirō no kiwami ni tasshite, kare wa sono ba ni taoreta.', de: 'Am Gipfel der Erschöpfung angekommen, brach er an Ort und Stelle zusammen.' },
             { jp: '優勝の瞬間、感極まって涙を流した。', romaji: 'Yūshō no shunkan, kan kiwamatte namida wo nagashita.', de: 'Im Moment des Sieges wurde er von seinen Gefühlen überwältigt und vergoss Tränen.' },
-            { jp: '技術の極みとも言える作品だ。', romaji: 'Gijutsu no kiwami to mo ieru sakuhin da.', de: 'Es ist ein Werk, das man als den Höhepunkt der Handwerkskunst bezeichnen kann.' }
           ],
           tip: '～の極み klingt sehr poetisch und feierlich. Es wird oft in Reden, Bewertungen und literarischen Beschreibungen verwendet.'
         },
@@ -3038,7 +2830,6 @@
             { jp: 'お招きいただき、光栄の至りでございます。', romaji: 'Omaneki itadaki, kōei no itari de gozaimasu.', de: 'Es ist mir die höchste Ehre, eingeladen worden zu sein.' },
             { jp: 'お忙しいところ恐縮の至りですが、お願いがございます。', romaji: 'Oisogashii tokoro kyōshuku no itari desu ga, onegai ga gozaimasu.', de: 'Es ist mir äußerst unangenehm, Sie in Ihrer beschäftigten Zeit zu stören, aber ich habe eine Bitte.' },
             { jp: 'あの頃の失敗は若気の至りだった。', romaji: 'Ano koro no shippai wa wakage no itari datta.', de: 'Die Fehler von damals waren Jugendtorheiten.' },
-            { jp: '自分の無知を思うと赤面の至りです。', romaji: 'Jibun no muchi wo omou to sekimen no itari desu.', de: 'Wenn ich an meine Unwissenheit denke, ist es zum Erröten.' }
           ],
           tip: '～の至り kommt fast nur in festen Wendungen vor. Lerne diese als Ganzes auswendig — besonders 光栄の至り und 若気の至り erscheinen häufig in der N1-Prüfung.'
         },
@@ -3049,7 +2840,6 @@
             { jp: '海外で活躍している彼が羨ましい限りだ。', romaji: 'Kaigai de katsuyaku shite iru kare ga urayamashii kagiri da.', de: 'Ich beneide ihn, der im Ausland so erfolgreich ist, auf das Äußerste.' },
             { jp: '皆様のご支援をいただけるとは、心強い限りです。', romaji: 'Minasama no go-shien wo itadakeru to wa, kokorozuyoi kagiri desu.', de: 'Dass ich Ihre Unterstützung erhalten kann, ist äußerst ermutigend.' },
             { jp: '息子が無事に戻ってきて、嬉しい限りだ。', romaji: 'Musuko ga buji ni modotte kite, ureshii kagiri da.', de: 'Dass mein Sohn wohlbehalten zurückgekehrt ist, macht mich unendlich froh.' },
-            { jp: 'このような素晴らしい賞をいただけるとは、喜ばしい限りです。', romaji: 'Kono yō na subarashii shō wo itadakeru to wa, yorokobashii kagiri desu.', de: 'Dass ich einen so wunderbaren Preis erhalten kann, ist höchst erfreulich.' }
           ],
           tip: 'Vergleich: ～極まりない = objektive Extrembewertung (な-Adj.), ～の極み = poetischer Höhepunkt, ～の至り = feste formelle Wendungen, ～限りだ = persönliches Extrem-Gefühl (い/な-Adj.).'
         }
@@ -3071,8 +2861,6 @@
             { jp: '本会議は東京において開催される。', romaji: 'Hon kaigi wa Tōkyō ni oite kaisai sareru.', de: 'Diese Konferenz wird in Tokio abgehalten.' },
             { jp: '現代社会における技術の役割は計り知れない。', romaji: 'Gendai shakai ni okeru gijutsu no yakuwari wa hakarishirenai.', de: 'Die Rolle der Technologie in der modernen Gesellschaft ist unermesslich.' },
             { jp: '教育の分野において、日本は高い水準を維持している。', romaji: 'Kyōiku no bun\'ya ni oite, Nihon wa takai suijun wo iji shite iru.', de: 'Im Bereich der Bildung hält Japan ein hohes Niveau aufrecht.' },
-            { jp: '歴史における最大の転換点のひとつだった。', romaji: 'Rekishi ni okeru saidai no tenkanten no hitotsu datta.', de: 'Es war einer der größten Wendepunkte in der Geschichte.' },
-            { jp: '本件においては、慎重な対応が求められる。', romaji: 'Honken ni oite wa, shinchō na taiō ga motomerareru.', de: 'In dieser Angelegenheit ist eine behutsame Vorgehensweise erforderlich.' }
           ],
           tip: '～において = ～で (formell). ～における = ～での (formell, vor Nomen). Diese Umwandlung hilft beim Verständnis: 学校で → 学校において, 学校での → 学校における.'
         },
@@ -3083,7 +2871,6 @@
             { jp: '現実に即した対策を講じる必要がある。', romaji: 'Genjitsu ni sokushita taisaku wo kōjiru hitsuyō ga aru.', de: 'Es ist notwendig, realitätsnahe Gegenmaßnahmen zu ergreifen.' },
             { jp: '時代に即して、法律を改正すべきだ。', romaji: 'Jidai ni sokushite, hōritsu wo kaisei subeki da.', de: 'Man sollte die Gesetze entsprechend der Zeit reformieren.' },
             { jp: '地域の実情に即した教育が求められている。', romaji: 'Chiiki no jitsujō ni sokushita kyōiku ga motomerarete iru.', de: 'Es wird eine Bildung gefordert, die den tatsächlichen Verhältnissen der Region entspricht.' },
-            { jp: 'データに即して判断を下すべきである。', romaji: 'Dēta ni sokushite handan wo kudasu beki de aru.', de: 'Man sollte auf Grundlage der Daten urteilen.' }
           ],
           tip: '～に即して betont die Verbindung zur Realität. Es wird oft verwendet, wenn man kritisiert, dass etwas zu theoretisch ist, und fordert, sich an die Wirklichkeit anzupassen.'
         },
@@ -3094,7 +2881,6 @@
             { jp: 'パートタイムの社員も正社員に準じた待遇を受ける。', romaji: 'Pāto taimu no shain mo seishain ni junjita taigū wo ukeru.', de: 'Auch Teilzeitmitarbeiter erhalten eine Behandlung entsprechend der Festangestellten.' },
             { jp: '前例に準じて処理してください。', romaji: 'Zenrei ni junjite shori shite kudasai.', de: 'Bitte bearbeiten Sie es gemäß dem Präzedenzfall.' },
             { jp: '管理職に準ずる立場の社員も対象となる。', romaji: 'Kanrishoku ni junzuru tachiba no shain mo taishō to naru.', de: 'Auch Mitarbeiter in einer Stellung, die einer Führungsposition entspricht, fallen darunter.' },
-            { jp: '本規則は国際基準に準じて策定された。', romaji: 'Hon kisoku wa kokusai kijun ni junjite sakutei sareta.', de: 'Diese Verordnung wurde gemäß internationaler Standards erstellt.' }
           ],
           tip: 'Unterschied: ～に即して = an die Realität angepasst (flexibel). ～に準じて = gemäß einem bestehenden Standard (regelbasiert). Beides ist formell, aber der Bezugspunkt ist verschieden.'
         },
@@ -3105,8 +2891,6 @@
             { jp: '書面をもってご連絡いたします。', romaji: 'Shomen wo motte go-renraku itashimasu.', de: 'Wir werden Sie schriftlich benachrichtigen.' },
             { jp: '本日をもって、このサービスは終了いたします。', romaji: 'Honjitsu wo motte, kono sābisu wa shūryō itashimasu.', de: 'Mit dem heutigen Tag wird dieser Service eingestellt.' },
             { jp: '誠意をもって対応させていただきます。', romaji: 'Seii wo motte taiō sasete itadakimasu.', de: 'Wir werden mit Aufrichtigkeit darauf reagieren.' },
-            { jp: '多数決をもって決定する。', romaji: 'Tasūketsu wo motte kettei suru.', de: 'Es wird durch Mehrheitsbeschluss entschieden.' },
-            { jp: '以上をもちまして、本日の会議を終了いたします。', romaji: 'Ijō wo mochimashite, honjitsu no kaigi wo shūryō itashimasu.', de: 'Hiermit beenden wir die heutige Konferenz.' }
           ],
           tip: 'Die höfliche Form をもちまして wird besonders häufig am Ende von Veranstaltungen und Zeremonien verwendet: 以上をもちまして... (Hiermit...). Lerne diese Wendung als feste Formel.'
         }
@@ -3129,7 +2913,6 @@
             { jp: '人口の増加に伴って、住宅問題が深刻になっている。', romaji: 'Jinkō no zōka ni tomonatte, jūtaku mondai ga shinkoku ni natte iru.', de: 'Mit dem Bevölkerungswachstum wird das Wohnungsproblem immer ernster.' },
             { jp: '経済の発展に伴い、環境破壊も進んだ。', romaji: 'Keizai no hatten ni tomonai, kankyō hakai mo susunda.', de: 'Einhergehend mit der wirtschaftlichen Entwicklung schritt auch die Umweltzerstörung voran.' },
             { jp: '台風に伴う大雨に警戒してください。', romaji: 'Taifū ni tomonau ōame ni keikai shite kudasai.', de: 'Bitte seien Sie auf der Hut vor dem starken Regen, der mit dem Taifun einhergeht.' },
-            { jp: '高齢化に伴って、介護の需要が増えている。', romaji: 'Kōreika ni tomonatte, kaigo no juyō ga fuete iru.', de: 'Mit der Überalterung steigt die Nachfrage nach Pflege.' }
           ],
           tip: '～に伴って kann auch mit einmaligen Ereignissen verwendet werden (z. B. 引っ越しに伴って = „im Zuge des Umzugs"), nicht nur mit graduellen Veränderungen.'
         },
@@ -3140,7 +2923,6 @@
             { jp: '年を取るにつれて、体力が落ちてくる。', romaji: 'Toshi wo toru ni tsurete, tairyoku ga ochite kuru.', de: 'Je älter man wird, desto mehr lässt die Körperkraft nach.' },
             { jp: '日本語を勉強するにつれて、日本文化にも興味が出てきた。', romaji: 'Nihongo wo benkyō suru ni tsurete, Nihon bunka ni mo kyōmi ga dete kita.', de: 'Je mehr ich Japanisch lerne, desto mehr interessiere ich mich auch für die japanische Kultur.' },
             { jp: '春が近づくにつれて、日が長くなってきた。', romaji: 'Haru ga chikazuku ni tsurete, hi ga nagaku natte kita.', de: 'Je näher der Frühling rückt, desto länger werden die Tage.' },
-            { jp: '時間がたつにつれて、痛みが和らいできた。', romaji: 'Jikan ga tatsu ni tsurete, itami ga yaraaide kita.', de: 'Mit der Zeit ließ der Schmerz allmählich nach.' }
           ],
           tip: 'Merke: ～につれて = immer graduelle, parallele Veränderung. ～に伴って = kann auch einmalige Ereignisse oder Begleiterscheinungen beschreiben.'
         },
@@ -3173,7 +2955,6 @@
             { jp: '留学をきっかけに、日本語を勉強し始めた。', romaji: 'Ryūgaku wo kikkake ni, Nihongo wo benkyō shi hajimeta.', de: 'Das Auslandsstudium war der Anlass, Japanisch zu lernen.' },
             { jp: '友達に誘われたのをきっかけに、テニスを始めた。', romaji: 'Tomodachi ni sasowareta no wo kikkake ni, tenisu wo hajimeta.', de: 'Dass mich ein Freund einlud, war der Anlass, mit Tennis anzufangen.' },
             { jp: '病気をきっかけに、健康に気をつけるようになった。', romaji: 'Byōki wo kikkake ni, kenkō ni ki wo tsukeru yō ni natta.', de: 'Die Krankheit war der Anlass, auf meine Gesundheit zu achten.' },
-            { jp: '映画を見たのをきっかけに、その国に旅行したくなった。', romaji: 'Eiga wo mita no wo kikkake ni, sono kuni ni ryokō shitaku natta.', de: 'Nachdem ich den Film gesehen hatte, wollte ich in das Land reisen.' }
           ],
           tip: 'きっかけ wird auch als eigenständiges Nomen sehr häufig verwendet: 「日本語を勉強するきっかけは何ですか」 (Was war der Anlass, Japanisch zu lernen?) — eine beliebte Gesprächsfrage!'
         },
@@ -3184,7 +2965,6 @@
             { jp: 'オリンピックを契機に、インフラが大幅に整備された。', romaji: 'Orinpikku wo keiki ni, infura ga ōhaba ni seibi sareta.', de: 'Die Olympischen Spiele waren der Anlass für einen umfassenden Ausbau der Infrastruktur.' },
             { jp: '震災を契機として、防災意識が高まった。', romaji: 'Shinsai wo keiki to shite, bōsai ishiki ga takamatta.', de: 'Die Erdbebenkatastrophe war der Wendepunkt, an dem das Katastrophenbewusstsein stieg.' },
             { jp: '法改正を契機に、働き方が大きく変わった。', romaji: 'Hō kaisei wo keiki ni, hatarakikata ga ōkiku kawatta.', de: 'Die Gesetzesänderung war der Anlass für eine grundlegende Veränderung der Arbeitsweise.' },
-            { jp: '退職を契機に、田舎に移住することにした。', romaji: 'Taishoku wo keiki ni, inaka ni ijū suru koto ni shita.', de: 'Den Ruhestand nahm ich zum Anlass, aufs Land zu ziehen.' }
           ],
           tip: 'を契機に klingt formell und gewichtig — verwende es für große Ereignisse und gesellschaftliche Veränderungen. Für persönliche Erlebnisse im Alltag ist をきっかけに natürlicher.'
         }
@@ -3207,7 +2987,6 @@
             { jp: '調査結果に基づいて、新しい方針を決定した。', romaji: 'Chōsa kekka ni motozuite, atarashii hōshin wo kettei shita.', de: 'Auf Grundlage der Untersuchungsergebnisse wurde eine neue Richtlinie beschlossen.' },
             { jp: '法律に基づき、適切な措置を講じる。', romaji: 'Hōritsu ni motozuki, tekisetsu na sochi wo kōjiru.', de: 'Auf Grundlage des Gesetzes werden angemessene Maßnahmen ergriffen.' },
             { jp: '長年の経験に基づいて、アドバイスをさせていただきます。', romaji: 'Naganen no keiken ni motozuite, adobaisu wo sasete itadakimasu.', de: 'Ich erlaube mir, Ihnen auf Grundlage langjähriger Erfahrung einen Rat zu geben.' },
-            { jp: '事実に基づいた報道が求められている。', romaji: 'Jijitsu ni motozuita hōdō ga motomerarete iru.', de: 'Es wird eine auf Tatsachen basierende Berichterstattung gefordert.' }
           ],
           tip: 'Die attributive Form ～に基づいた/に基づく steht direkt vor einem Nomen: 「データに基づいた判断」 (eine datenbasierte Entscheidung). Beide Formen (に基づいた und に基づく) sind korrekt.'
         },
@@ -3240,7 +3019,6 @@
             { jp: '年齢を問わず、どなたでもご参加いただけます。', romaji: 'Nenrei wo towazu, donata demo go-sanka itadakemasu.', de: 'Ungeachtet des Alters kann jeder teilnehmen.' },
             { jp: '経験の有無を問わず募集しています。', romaji: 'Keiken no umu wo towazu boshū shite imasu.', de: 'Wir suchen Mitarbeiter, unabhängig davon, ob Erfahrung vorhanden ist.' },
             { jp: '性別を問わず、能力のある人を採用する。', romaji: 'Seibetsu wo towazu, nōryoku no aru hito wo saiyō suru.', de: 'Ungeachtet des Geschlechts werden fähige Leute eingestellt.' },
-            { jp: 'このサービスは時間を問わず利用できる。', romaji: 'Kono sābisu wa jikan wo towazu riyō dekiru.', de: 'Dieser Service kann unabhängig von der Uhrzeit genutzt werden.' }
           ],
           tip: '～を問わず wird besonders gerne in Stellenanzeigen verwendet. Merke dir Kombinationen wie 年齢を問わず, 経験を問わず, 男女を問わず — sie kommen regelmäßig in der N2-Prüfung vor.'
         },
@@ -3251,7 +3029,6 @@
             { jp: '天候にかかわらず、イベントは開催されます。', romaji: 'Tenkō ni kakawarazu, ibento wa kaisai saremasu.', de: 'Ungeachtet des Wetters findet die Veranstaltung statt.' },
             { jp: '賛成するかしないかにかかわらず、この計画は進められる。', romaji: 'Sansei suru ka shinai ka ni kakawarazu, kono keikaku wa susumerareru.', de: 'Egal ob man zustimmt oder nicht, dieser Plan wird vorangetrieben.' },
             { jp: '結果にかかわらず、全力を尽くしたことに意味がある。', romaji: 'Kekka ni kakawarazu, zenryoku wo tsukushita koto ni imi ga aru.', de: 'Ungeachtet des Ergebnisses hat es Sinn, sein Bestes gegeben zu haben.' },
-            { jp: '理由のいかんにかかわらず、遅刻は認められない。', romaji: 'Riyū no ikan ni kakawarazu, chikoku wa mitomerarenai.', de: 'Ungeachtet des Grundes wird Verspätung nicht akzeptiert.' }
           ],
           tip: 'Unterschied: ～を問わず hebt Kategorien auf (Alter, Geschlecht, Erfahrung). ～にかかわらず ist breiter einsetzbar und kann auch mit Sätzen stehen (ob X oder nicht).'
         }
@@ -3274,7 +3051,6 @@
             { jp: '日本で生活する上で、日本語は不可欠だ。', romaji: 'Nihon de seikatsu suru ue de, Nihongo wa fukaketsu da.', de: 'Für das Leben in Japan ist Japanisch unverzichtbar.' },
             { jp: '契約する上で、注意すべき点がいくつかあります。', romaji: 'Keiyaku suru ue de, chūi subeki ten ga ikutsuka arimasu.', de: 'Beim Abschluss eines Vertrags gibt es einige Punkte, auf die man achten sollte.' },
             { jp: '仕事の上で大切なのは、コミュニケーション能力だ。', romaji: 'Shigoto no ue de taisetsu na no wa, komyunikēshon nōryoku da.', de: 'Im Berufsleben ist Kommunikationsfähigkeit das Wichtigste.' },
-            { jp: '健康の上で、睡眠は非常に重要です。', romaji: 'Kenkō no ue de, suimin wa hijō ni jūyō desu.', de: 'In Bezug auf die Gesundheit ist Schlaf äußerst wichtig.' }
           ],
           tip: 'Diese Bedeutung von ～上で lässt sich oft mit „beim..." oder „für..." übersetzen. Achte auf den Kontext — wenn es um einen Bereich oder Aspekt geht, ist es diese Bedeutung.'
         },
@@ -3317,7 +3093,6 @@
             { jp: '能力に応じて、給料が決まります。', romaji: 'Nōryoku ni ōjite, kyūryō ga kimarimasu.', de: 'Das Gehalt wird entsprechend der Fähigkeiten festgelegt.' },
             { jp: 'お客様のニーズに応じたサービスを提供します。', romaji: 'Okyakusama no nīzu ni ōjita sābisu wo teikyō shimasu.', de: 'Wir bieten einen an die Bedürfnisse der Kunden angepassten Service.' },
             { jp: '状況に応じて、計画を変更する場合があります。', romaji: 'Jōkyō ni ōjite, keikaku wo henkō suru baai ga arimasu.', de: 'Je nach Situation kann der Plan geändert werden.' },
-            { jp: '年齢に応じた運動をすることが大切です。', romaji: 'Nenrei ni ōjita undō wo suru koto ga taisetsu desu.', de: 'Es ist wichtig, dem Alter entsprechend Sport zu treiben.' }
           ],
           tip: 'に応じて betont die <em>Flexibilität</em> — es geht immer darum, dass sich etwas an wechselnde Bedingungen anpasst. Wenn die Bedingung sich ändert, ändert sich auch das Ergebnis.'
         },
@@ -3350,8 +3125,6 @@
             { jp: '交渉は三日間にわたって行われた。', romaji: 'Kōshō wa mikkakan ni watatte okonawareta.', de: 'Die Verhandlungen erstreckten sich über drei Tage.' },
             { jp: '広い範囲にわたって被害が出た。', romaji: 'Hiroi han\'i ni watatte higai ga deta.', de: 'Über einen weiten Bereich hinweg gab es Schäden.' },
             { jp: '彼は長年にわたり、この分野で研究を続けてきた。', romaji: 'Kare wa naganen ni watari, kono bun\'ya de kenkyū wo tsuzukete kita.', de: 'Er hat sich über viele Jahre hinweg in diesem Bereich der Forschung gewidmet.' },
-            { jp: '報告書は100ページにわたる大作だった。', romaji: 'Hōkokusho wa hyaku pēji ni wataru taisaku datta.', de: 'Der Bericht war ein umfangreiches Werk, das sich über 100 Seiten erstreckte.' },
-            { jp: '全国にわたって停電が発生した。', romaji: 'Zenkoku ni watatte teiden ga hassei shita.', de: 'Landesweit kam es zu Stromausfällen.' }
           ],
           tip: '～にわたって betont immer, dass etwas <em>groß, lang oder umfangreich</em> ist. Es wäre unnatürlich zu sagen „5分にわたって" — der Zeitraum oder Umfang muss beeindruckend sein.'
         },
@@ -3384,8 +3157,6 @@
             { jp: '新しい法案をめぐって、激しい議論が行われている。', romaji: 'Atarashii hōan wo megutte, hageshii giron ga okonawarete iru.', de: 'Um den neuen Gesetzentwurf wird heftig debattiert.' },
             { jp: '領土問題をめぐる対立は長年続いている。', romaji: 'Ryōdo mondai wo meguru tairitsu wa naganen tsuzuite iru.', de: 'Der Konflikt um das Territorialproblem dauert seit Jahren an.' },
             { jp: '遺産をめぐって、兄弟が争っている。', romaji: 'Isan wo megutte, kyōdai ga arasotte iru.', de: 'Um das Erbe streiten sich die Geschwister.' },
-            { jp: '環境問題をめぐる国際会議が開かれた。', romaji: 'Kankyō mondai wo meguru kokusai kaigi ga hirakareta.', de: 'Es wurde eine internationale Konferenz zum Thema Umweltprobleme abgehalten.' },
-            { jp: 'このプロジェクトをめぐって、社内で意見が分かれている。', romaji: 'Kono purojekuto wo megutte, shanai de iken ga wakarete iru.', de: 'Bezüglich dieses Projekts gehen die Meinungen innerhalb der Firma auseinander.' }
           ],
           tip: '～をめぐって impliziert <em>immer</em> Meinungsverschiedenheiten oder Konflikte. Verwende es nicht für neutrale Themen — dafür gibt es ～について oder ～に関して.'
         },
@@ -3418,7 +3189,6 @@
             { jp: '開会式に先立って、関係者による打ち合わせが行われた。', romaji: 'Kaikaishiki ni sakidatte, kankeisha ni yoru uchiawase ga okonawareta.', de: 'Im Vorfeld der Eröffnungsfeier fand eine Besprechung der Beteiligten statt.' },
             { jp: '発売に先立ち、試作品が公開された。', romaji: 'Hatsubai ni sakidachi, shisakuhin ga kōkai sareta.', de: 'Vor dem Verkaufsstart wurde ein Prototyp der Öffentlichkeit vorgestellt.' },
             { jp: '出発に先立って、安全確認を行ってください。', romaji: 'Shuppatsu ni sakidatte, anzen kakunin wo okonatte kudasai.', de: 'Bitte führen Sie vor der Abfahrt eine Sicherheitsüberprüfung durch.' },
-            { jp: '工事に先立つ住民説明会が来週開かれる。', romaji: 'Kōji ni sakidatsu jūmin setsumeikai ga raishū hirakareru.', de: 'Die Anwohner-Informationsveranstaltung vor den Bauarbeiten findet nächste Woche statt.' }
           ],
           tip: '～に先立って klingt formell und geplant. Für einfaches „bevor" im Alltag verwende ～前に. ～に先立って impliziert: „Als wichtige Vorbereitung vor dem großen Ereignis..."'
         },
@@ -3451,7 +3221,6 @@
             { jp: 'インターネットを通じて、世界中の人とつながれる。', romaji: 'Intānetto wo tsūjite, sekaijū no hito to tsunagareru.', de: 'Durch das Internet kann man sich mit Menschen auf der ganzen Welt verbinden.' },
             { jp: '友人を通して、彼と知り合った。', romaji: 'Yūjin wo tōshite, kare to shiraiatta.', de: 'Ich habe ihn über einen Freund kennengelernt.' },
             { jp: 'ボランティア活動を通じて、多くのことを学んだ。', romaji: 'Borantia katsudō wo tsūjite, ōku no koto wo mananda.', de: 'Durch die Freiwilligenarbeit habe ich viel gelernt.' },
-            { jp: 'この経験を通して、自分の弱さに気づいた。', romaji: 'Kono keiken wo tōshite, jibun no yowasa ni kizuita.', de: 'Durch diese Erfahrung wurde mir meine eigene Schwäche bewusst.' }
           ],
           tip: 'Bei der Bedeutung „durch/mittels" sind を通じて und を通して fast immer austauschbar. を通じて klingt etwas formeller.'
         },
@@ -3484,7 +3253,6 @@
             { jp: '入学に際して、いくつかの書類を提出してください。', romaji: 'Nyūgaku ni saishite, ikutsuka no shorui wo teishutsu shite kudasai.', de: 'Bei der Einschreibung reichen Sie bitte einige Dokumente ein.' },
             { jp: '海外旅行に際し、保険に加入することをお勧めします。', romaji: 'Kaigai ryokō ni saishi, hoken ni kanyū suru koto wo osusume shimasu.', de: 'Anlässlich einer Auslandsreise empfehlen wir Ihnen, eine Versicherung abzuschließen.' },
             { jp: '新しい事業を始めるに際して、市場調査を行った。', romaji: 'Atarashii jigyō wo hajimeru ni saishite, shijō chōsa wo okonatta.', de: 'Anlässlich des Starts eines neuen Geschäfts wurde eine Marktanalyse durchgeführt.' },
-            { jp: '退職に際しての挨拶を述べさせていただきます。', romaji: 'Taishoku ni saishite no aisatsu wo nobesasete itadakimasu.', de: 'Erlauben Sie mir, anlässlich meines Ausscheidens eine Grußrede zu halten.' }
           ],
           tip: '～に際して wird fast nur für wichtige, formelle Anlässe verwendet. Für alltägliche Situationen wie „beim Einkaufen" oder „wenn ich nach Hause komme" ist ～時に natürlicher.'
         },
@@ -3517,7 +3285,6 @@
             { jp: '成功するかどうかは、努力次第だ。', romaji: 'Seikō suru ka dō ka wa, doryoku shidai da.', de: 'Ob man Erfolg hat oder nicht, hängt von der Anstrengung ab.' },
             { jp: 'やり方次第で、結果は大きく変わる。', romaji: 'Yarikata shidai de, kekka wa ōkiku kawaru.', de: 'Je nach Vorgehensweise ändert sich das Ergebnis erheblich.' },
             { jp: '考え方次第で、困難もチャンスに変わる。', romaji: 'Kangaekata shidai de, konnan mo chansu ni kawaru.', de: 'Je nach Denkweise kann auch eine Schwierigkeit zur Chance werden.' },
-            { jp: '天気次第で、予定を変更するかもしれない。', romaji: 'Tenki shidai de, yotei wo henkō suru kamo shirenai.', de: 'Je nach Wetter ändern wir vielleicht den Plan.' }
           ],
           tip: '～次第で betont die vollständige Abhängigkeit: „Alles steht und fällt mit X." Es ist stärker als に応じて, das eher flexible Anpassung ausdrückt.'
         },
@@ -3528,7 +3295,6 @@
             { jp: '届き次第、ご連絡いたします。', romaji: 'Todoki shidai, go-renraku itashimasu.', de: 'Sobald es eintrifft, werden wir Sie benachrichtigen.' },
             { jp: '決まり次第、メールでお知らせします。', romaji: 'Kimari shidai, mēru de oshirase shimasu.', de: 'Sobald es entschieden ist, informieren wir Sie per E-Mail.' },
             { jp: '準備ができ次第、出発しましょう。', romaji: 'Junbi ga deki shidai, shuppatsu shimashō.', de: 'Sobald die Vorbereitungen fertig sind, brechen wir auf.' },
-            { jp: '新しい情報が入り次第、お伝えします。', romaji: 'Atarashii jōhō ga hairi shidai, otsutae shimasu.', de: 'Sobald neue Informationen vorliegen, teilen wir sie Ihnen mit.' }
           ],
           tip: 'Verb-Stamm + 次第 ist sehr praktisch im Geschäftsjapanisch. Es drückt Bereitschaft und Schnelligkeit aus — „Ich warte nur noch auf X und handle dann sofort."'
         }
@@ -3551,8 +3317,6 @@
             { jp: '先生に聞いたところ、テストは来週だそうだ。', romaji: 'Sensei ni kiita tokoro, tesuto wa raishū da sō da.', de: 'Als ich den Lehrer fragte, sagte er, die Prüfung sei nächste Woche.' },
             { jp: '薬を飲んだところ、すぐに熱が下がった。', romaji: 'Kusuri wo nonda tokoro, sugu ni netsu ga sagatta.', de: 'Als ich die Medizin nahm, sank das Fieber sofort.' },
             { jp: '調べたところ、その情報は間違いだった。', romaji: 'Shirabeta tokoro, sono jōhō wa machigai datta.', de: 'Als ich es überprüfte, stellte sich heraus, dass die Information falsch war.' },
-            { jp: '新しいレストランに行ったところ、とてもおいしかった。', romaji: 'Atarashii resutoran ni itta tokoro, totemo oishikatta.', de: 'Als ich das neue Restaurant besuchte, war es überraschend lecker.' },
-            { jp: '電話をかけたところ、留守だった。', romaji: 'Denwa wo kaketa tokoro, rusu datta.', de: 'Als ich anrief, war niemand zu Hause.' }
           ],
           tip: '～たところ ≠ ～た時に! ～た時に ist neutral (als ich...). ～たところ impliziert ein Ergebnis, das man durch die Handlung herausgefunden oder erfahren hat — oft mit einem Moment der Überraschung.'
         },
@@ -3585,7 +3349,6 @@
             { jp: '日本語を3年勉強したものの、まだ上手に話せない。', romaji: 'Nihongo wo sannen benkyō shita mono no, mada jōzu ni hanasenai.', de: 'Obwohl ich drei Jahre Japanisch gelernt habe, kann ich es immer noch nicht gut sprechen.' },
             { jp: '新しいパソコンを買ったものの、使い方がわからない。', romaji: 'Atarashii pasokon wo katta mono no, tsukaikata ga wakaranai.', de: 'Ich habe zwar einen neuen Computer gekauft, weiß aber nicht, wie man ihn benutzt.' },
             { jp: '資格は取ったものの、就職先が見つからない。', romaji: 'Shikaku wa totta mono no, shūshokusaki ga mitsukaranai.', de: 'Zwar habe ich die Qualifikation erworben, aber ich finde keine Arbeitsstelle.' },
-            { jp: '計画は立てたものの、実行に移す時間がない。', romaji: 'Keikaku wa tateta mono no, jikkō ni utsusu jikan ga nai.', de: 'Ich habe zwar einen Plan gemacht, habe aber keine Zeit, ihn umzusetzen.' }
           ],
           tip: '～ものの drückt oft Frustration oder Enttäuschung aus: „Ich habe mir so Mühe gegeben, aber trotzdem..." Es ist formeller als ～けど und wird häufig in Schrifttexten verwendet.'
         },
@@ -3596,7 +3359,6 @@
             { jp: '春とはいえ、まだ寒い日が続いている。', romaji: 'Haru to wa ie, mada samui hi ga tsuzuite iru.', de: 'Auch wenn es Frühling ist, dauern die kalten Tage noch an.' },
             { jp: '子供とはいえ、礼儀は守るべきだ。', romaji: 'Kodomo to wa ie, reigi wa mamoru beki da.', de: 'Auch wenn es ein Kind ist, sollte es Anstand wahren.' },
             { jp: '安全だとはいえ、油断は禁物だ。', romaji: 'Anzen da to wa ie, yudan wa kinmotsu da.', de: 'Auch wenn es sicher ist, ist Unachtsamkeit verboten.' },
-            { jp: '経験があるとはいえ、慎重に進めるべきだ。', romaji: 'Keiken ga aru to wa ie, shinchō ni susumeru beki da.', de: 'Auch wenn man Erfahrung hat, sollte man vorsichtig vorgehen.' }
           ],
           tip: '～とはいえ ist eleganter und analytischer als ～ものの. Es wird oft verwendet, um eine verbreitete Meinung einzuräumen und dann eine differenziertere Sichtweise hinzuzufügen.'
         }
@@ -3619,7 +3381,6 @@
             { jp: '具合が悪くても、今日は休むわけにはいかない。', romaji: 'Guai ga warukutemo, kyō wa yasumu wake ni wa ikanai.', de: 'Auch wenn es mir schlecht geht, kann ich heute nicht einfach fehlen.' },
             { jp: '秘密を聞いたので、他の人に話すわけにはいかない。', romaji: 'Himitsu wo kiita node, hoka no hito ni hanasu wake ni wa ikanai.', de: 'Da ich das Geheimnis erfahren habe, kann ich es nicht einfach anderen erzählen.' },
             { jp: 'みんなが頑張っているのに、一人だけ帰るわけにはいかない。', romaji: 'Minna ga ganbatte iru no ni, hitori dake kaeru wake ni wa ikanai.', de: 'Wenn alle sich anstrengen, kann ich nicht als Einziger nach Hause gehen.' },
-            { jp: '大事な試験の前に、遊んでいるわけにはいかない。', romaji: 'Daiji na shiken no mae ni, asonde iru wake ni wa ikanai.', de: 'Vor einer wichtigen Prüfung kann ich nicht einfach herumhängen.' }
           ],
           tip: '～わけにはいかない ≠ ～できない! できない = physische/technische Unfähigkeit. わけにはいかない = soziale/moralische Unmöglichkeit. „Ich könnte schon, aber ich darf/sollte nicht."'
         },
@@ -3652,7 +3413,6 @@
             { jp: '証拠がそろっている以上、認めざるを得ない。', romaji: 'Shōko ga sorotte iru ijō, mitomezaru wo enai.', de: 'Angesichts der vorliegenden Beweise bleibt nichts anderes übrig, als es anzuerkennen.' },
             { jp: '予算の関係で、計画を変更せざるを得なかった。', romaji: 'Yosan no kankei de, keikaku wo henkō sezaru wo enakatta.', de: 'Aus Budgetgründen blieb uns nichts anderes übrig, als den Plan zu ändern.' },
             { jp: '体調が悪く、参加を断念せざるを得ない。', romaji: 'Taichō ga waruku, sanka wo dannen sezaru wo enai.', de: 'Da es mir gesundheitlich schlecht geht, muss ich leider auf die Teilnahme verzichten.' },
-            { jp: '電車が止まったので、タクシーを使わざるを得なかった。', romaji: 'Densha ga tomatta node, takushī wo tsukawazaru wo enakatta.', de: 'Da der Zug ausfiel, blieb mir nichts anderes übrig, als ein Taxi zu nehmen.' }
           ],
           tip: 'Achtung bei する: Die Form ist せざるを得ない, NICHT しざるを得ない. Das ist eine der häufigsten Fehlerquellen in der N2-Prüfung!'
         },
@@ -3685,7 +3445,6 @@
             { jp: 'その件については、お答えしかねます。', romaji: 'Sono ken ni tsuite wa, okotae shikanemasu.', de: 'Zu dieser Angelegenheit kann ich leider keine Auskunft geben.' },
             { jp: 'ご要望には応じかねます。', romaji: 'Go-yōbō ni wa ōjikanemasu.', de: 'Ihrem Wunsch kann ich leider nicht entsprechen.' },
             { jp: 'この条件では、賛成しかねます。', romaji: 'Kono jōken de wa, sansei shikanemasu.', de: 'Unter diesen Bedingungen kann ich leider nicht zustimmen.' },
-            { jp: '返品は受け付けかねますので、ご了承ください。', romaji: 'Henpin wa uketsuke kanemasu node, go-ryōshō kudasai.', de: 'Rückgaben können wir leider nicht annehmen, bitte haben Sie Verständnis.' }
           ],
           tip: '～かねます ist die Standard-Höflichkeitsform im Kundenservice und Geschäftsleben. Wo ein Deutscher „leider nicht möglich" sagt, sagt der Japaner ～かねます.'
         },
@@ -3696,7 +3455,6 @@
             { jp: 'そんな無理をしたら、倒れかねないよ。', romaji: 'Sonna muri wo shitara, taore kanenai yo.', de: 'Wenn du dich so überanstrengst, könntest du zusammenbrechen.' },
             { jp: 'この問題を放置すれば、大事故になりかねない。', romaji: 'Kono mondai wo hōchi sureba, dai jiko ni narikanenai.', de: 'Wenn man dieses Problem ignoriert, könnte es zu einem schweren Unfall kommen.' },
             { jp: '不注意な発言は、誤解を招きかねない。', romaji: 'Fuchūi na hatsugen wa, gokai wo maneki kanenai.', de: 'Unvorsichtige Äußerungen könnten zu Missverständnissen führen.' },
-            { jp: 'このままでは、会社がつぶれかねない。', romaji: 'Kono mama de wa, kaisha ga tsubure kanenai.', de: 'So wie es ist, könnte die Firma zugrunde gehen.' }
           ],
           tip: 'Eselsbrücke: かねる = „kann nicht" (höflich). かねない = „kann durchaus" (Warnung). Die Verneinung kehrt die Bedeutung komplett um — das ist ein typischer N2-Stolperstein!'
         }
@@ -3719,8 +3477,6 @@
             { jp: '彼は怒りっぽい性格だ。', romaji: 'Kare wa okorippoi seikaku da.', de: 'Er hat ein aufbrausendes Temperament. (Neigt zum Wütendwerden)' },
             { jp: 'この色は白っぽい。', romaji: 'Kono iro wa shiroppoi.', de: 'Diese Farbe ist weißlich. (Wirkt weiß)' },
             { jp: '最近、忘れっぽくなった。', romaji: 'Saikin, wasureppoku natta.', de: 'In letzter Zeit bin ich vergesslich geworden.' },
-            { jp: 'あの人は子供っぽい。', romaji: 'Ano hito wa kodomoppoi.', de: 'Diese Person ist kindisch/kindlich.' },
-            { jp: '彼女は飽きっぽくて、趣味が長続きしない。', romaji: 'Kanojo wa akippokute, shumi ga nagatsuzuki shinai.', de: 'Sie wird schnell gelangweilt und ihre Hobbys halten nicht lange.' }
           ],
           tip: 'っぽい bei Farben = „-lich" (weißlich, bläulich). Bei Personen = oft negativ (kindisch, vergesslich, aufbrausend). Bei Materialien = „wirkt wie" (安っぽい = wirkt billig).'
         },
@@ -3731,7 +3487,6 @@
             { jp: '彼は遅刻しがちだ。', romaji: 'Kare wa chikoku shigachi da.', de: 'Er neigt dazu, zu spät zu kommen.' },
             { jp: '冬は風邪を引きがちだ。', romaji: 'Fuyu wa kaze wo hikigachi da.', de: 'Im Winter neigt man dazu, sich zu erkälten.' },
             { jp: '留守がちで、なかなか会えない。', romaji: 'Rusu gachi de, nakanaka aenai.', de: 'Er ist häufig nicht zu Hause, sodass man ihn schwer treffen kann.' },
-            { jp: '忙しいと、食事を抜きがちになる。', romaji: 'Isogashii to, shokuji wo nukigachi ni naru.', de: 'Wenn man beschäftigt ist, neigt man dazu, Mahlzeiten auszulassen.' }
           ],
           tip: '～がち beschreibt immer etwas Unerwünschtes. Man sagt nicht 「成功しがち」 (neigt zum Erfolg) — das wäre unnatürlich. Es geht immer um problematische Tendenzen.'
         },
@@ -3742,7 +3497,6 @@
             { jp: '最近、太り気味だ。', romaji: 'Saikin, futorigimi da.', de: 'In letzter Zeit habe ich etwas zugenommen.' },
             { jp: '風邪気味なので、早めに寝ます。', romaji: 'Kaze gimi na node, hayame ni nemasu.', de: 'Da ich eine leichte Erkältung habe, gehe ich früh schlafen.' },
             { jp: 'このプロジェクトは遅れ気味だ。', romaji: 'Kono purojekuto wa okure gimi da.', de: 'Dieses Projekt hat etwas Verspätung.' },
-            { jp: '最近、疲れ気味で集中できない。', romaji: 'Saikin, tsukare gimi de shūchū dekinai.', de: 'In letzter Zeit bin ich etwas müde und kann mich nicht konzentrieren.' }
           ],
           tip: 'Vergleich: っぽい = Eindruck/Anschein (wirkt wie X). がち = häufige negative Tendenz (neigt zu X). 気味 = leichter Zustand (etwas X, ein Hauch von X).'
         }
@@ -3765,7 +3519,6 @@
             { jp: '本日に限り、全品20%オフです。', romaji: 'Honjitsu ni kagiri, zenpin nijū pāsento ofu desu.', de: 'Nur heute: 20% Rabatt auf alle Artikel.' },
             { jp: '会員に限り、特別な割引があります。', romaji: 'Kaiin ni kagiri, tokubetsu na waribiki ga arimasu.', de: 'Nur für Mitglieder gibt es einen besonderen Rabatt.' },
             { jp: '一人一回に限って、応募できます。', romaji: 'Hitori ikkai ni kagitte, ōbo dekimasu.', de: 'Man kann sich nur einmal pro Person bewerben.' },
-            { jp: '未成年に限り、入場料は無料です。', romaji: 'Miseinen ni kagiri, nyūjōryō wa muryō desu.', de: 'Nur für Minderjährige ist der Eintritt frei.' }
           ],
           tip: '～に限り ist formeller als ～だけ und wird besonders in Werbeaktionen, Regelwerken und offiziellen Ankündigungen verwendet.'
         },
@@ -3776,7 +3529,6 @@
             { jp: '傘を持っていない日に限って、雨が降る。', romaji: 'Kasa wo motte inai hi ni kagitte, ame ga furu.', de: 'Ausgerechnet an dem Tag, an dem ich keinen Schirm dabeihabe, regnet es.' },
             { jp: '急いでいる時に限って、電車が遅れる。', romaji: 'Isoide iru toki ni kagitte, densha ga okureru.', de: 'Ausgerechnet wenn man es eilig hat, kommt der Zug zu spät.' },
             { jp: 'うちの子に限って、そんなことはしない。', romaji: 'Uchi no ko ni kagitte, sonna koto wa shinai.', de: 'Ausgerechnet mein Kind würde so etwas nie tun. (Typische Elternaussage)' },
-            { jp: '大事な日に限って、体調が悪くなる。', romaji: 'Daiji na hi ni kagitte, taichō ga waruku naru.', de: 'Ausgerechnet an wichtigen Tagen werde ich krank.' }
           ],
           tip: 'Die ironische Bedeutung von ～に限って beschreibt das Gefühl: „Es passiert immer genau dann, wenn es am schlimmsten ist!" Achte in der Prüfung auf den Kontext, um die zwei Bedeutungen zu unterscheiden.'
         }
@@ -3799,7 +3551,6 @@
             { jp: 'この教科書は初心者向けです。', romaji: 'Kono kyōkasho wa shoshinsha muke desu.', de: 'Dieses Lehrbuch ist für Anfänger konzipiert.' },
             { jp: '子供向けのアニメが人気だ。', romaji: 'Kodomo muke no anime ga ninki da.', de: 'Anime für Kinder ist beliebt.' },
             { jp: '外国人向けの日本語コースに申し込んだ。', romaji: 'Gaikokujin muke no Nihongo kōsu ni mōshikonda.', de: 'Ich habe mich für einen Japanischkurs für Ausländer angemeldet.' },
-            { jp: '高齢者向けのスマートフォンが発売された。', romaji: 'Kōreisha muke no sumātofon ga hatsubai sareta.', de: 'Ein speziell für ältere Menschen entwickeltes Smartphone wurde auf den Markt gebracht.' }
           ],
           tip: '～向け impliziert immer eine bewusste Entscheidung: Jemand hat dieses Produkt/Angebot gezielt für diese Zielgruppe gemacht.'
         },
@@ -3810,7 +3561,6 @@
             { jp: 'この仕事は几帳面な人向きだ。', romaji: 'Kono shigoto wa kichōmen na hito muki da.', de: 'Diese Arbeit ist für sorgfältige Menschen geeignet.' },
             { jp: 'この辛い料理は子供向きではない。', romaji: 'Kono karai ryōri wa kodomo muki de wa nai.', de: 'Dieses scharfe Essen ist nicht für Kinder geeignet.' },
             { jp: '南向きの部屋は明るくて暖かい。', romaji: 'Minami muki no heya wa akarukute atatakai.', de: 'Ein nach Süden ausgerichtetes Zimmer ist hell und warm.' },
-            { jp: 'この映画は大人向きの内容だ。', romaji: 'Kono eiga wa otona muki no naiyō da.', de: 'Dieser Film hat einen Inhalt, der für Erwachsene geeignet ist.' }
           ],
           tip: 'Unterschied: 子供向けの本 = ein Buch, das speziell für Kinder geschrieben wurde. 子供向きの本 = ein Buch, das zufällig auch für Kinder passend ist. 向け = gezielt konzipiert. 向き = natürlich passend.'
         }
@@ -3833,7 +3583,6 @@
             { jp: '長い話し合いの末に、ようやく合意に達した。', romaji: 'Nagai hanashiai no sue ni, yōyaku gōi ni tasshita.', de: 'Nach langen Gesprächen wurde endlich eine Einigung erzielt.' },
             { jp: '悩んだ末に、転職することに決めた。', romaji: 'Nayanda sue ni, tenshoku suru koto ni kimeta.', de: 'Nach langem Überlegen habe ich mich entschieden, den Job zu wechseln.' },
             { jp: '試行錯誤の末、ようやく解決策を見つけた。', romaji: 'Shikō sakugo no sue, yōyaku kaiketsusaku wo mitsuketa.', de: 'Nach vielem Ausprobieren fand ich endlich eine Lösung.' },
-            { jp: '何度も失敗した末に、ついに成功した。', romaji: 'Nando mo shippai shita sue ni, tsui ni seikō shita.', de: 'Nach vielen Fehlschlägen hatte ich schließlich Erfolg.' }
           ],
           tip: '～末に wird oft mit Wörtern wie ようやく (endlich) und ついに (schließlich) kombiniert, die das Gefühl der Erleichterung nach langer Anstrengung verstärken.'
         },
@@ -3844,7 +3593,6 @@
             { jp: '散々迷ったあげく、何も買わなかった。', romaji: 'Sanzan mayotta ageku, nani mo kawanakatta.', de: 'Nach endlosem Hin und Her habe ich am Ende nichts gekauft.' },
             { jp: '長時間議論したあげく、結論が出なかった。', romaji: 'Chōjikan giron shita ageku, ketsuron ga denakatta.', de: 'Nach stundenlanger Diskussion kam kein Ergebnis heraus.' },
             { jp: '口論のあげく、二人は別れてしまった。', romaji: 'Kōron no ageku, futari wa wakarete shimatta.', de: 'Nach ständigem Streit haben sich die beiden schließlich getrennt.' },
-            { jp: '苦労したあげく、計画は失敗に終わった。', romaji: 'Kurō shita ageku, keikaku wa shippai ni owatta.', de: 'Trotz aller Mühen endete der Plan als Fehlschlag.' }
           ],
           tip: 'Merke: ～末に = Ergebnis nach Anstrengung (neutral/positiv möglich). ～あげく = Ergebnis nach Anstrengung (fast immer negativ/enttäuschend). In der Prüfung achte auf die Stimmung des Satzes!'
         }
@@ -3867,7 +3615,6 @@
             { jp: '高度が上がるにしたがって、気温が下がる。', romaji: 'Kōdo ga agaru ni shitagatte, kion ga sagaru.', de: 'Je höher die Höhe steigt, desto mehr sinkt die Temperatur.' },
             { jp: '都市化が進むにしたがって、緑地が減少している。', romaji: 'Toshika ga susumu ni shitagatte, ryokuchi ga genshō shite iru.', de: 'Je weiter die Urbanisierung voranschreitet, desto mehr nehmen die Grünflächen ab.' },
             { jp: '日本語が上手になるにしたがって、日本の文化も深く理解できるようになった。', romaji: 'Nihongo ga jōzu ni naru ni shitagatte, Nihon no bunka mo fukaku rikai dekiru yō ni natta.', de: 'Je besser mein Japanisch wurde, desto tiefer konnte ich auch die japanische Kultur verstehen.' },
-            { jp: '時代が変わるにしたがって、人々の価値観も変化する。', romaji: 'Jidai ga kawaru ni shitagatte, hitobito no kachikan mo henka suru.', de: 'Mit dem Wandel der Zeiten verändern sich auch die Wertvorstellungen der Menschen.' }
           ],
           tip: 'にしたがって, につれて und に伴って überschneiden sich in der Bedeutung „je mehr... desto..." Bei graduellen Veränderungen sind alle drei oft austauschbar.'
         },
@@ -3878,7 +3625,6 @@
             { jp: '医者の指示にしたがって、薬を飲んでください。', romaji: 'Isha no shiji ni shitagatte, kusuri wo nonde kudasai.', de: 'Bitte nehmen Sie die Medizin gemäß den Anweisungen des Arztes ein.' },
             { jp: 'ルールに従い、行動してください。', romaji: 'Rūru ni shitagai, kōdō shite kudasai.', de: 'Bitte handeln Sie gemäß den Regeln.' },
             { jp: '案内表示にしたがって進んでください。', romaji: 'Annai hyōji ni shitagatte susunde kudasai.', de: 'Bitte folgen Sie den Hinweisschildern.' },
-            { jp: '上司の命令に従い、報告書を作成した。', romaji: 'Jōshi no meirei ni shitagai, hōkokusho wo sakusei shita.', de: 'Gemäß der Anweisung des Vorgesetzten erstellte ich einen Bericht.' }
           ],
           tip: 'Die zwei Bedeutungen lassen sich leicht unterscheiden: Wenn ein Verb davor steht (変わる, 進む) → parallele Veränderung. Wenn ein Nomen davor steht (指示, ルール, 命令) → Anweisung/Regel folgen.'
         }
