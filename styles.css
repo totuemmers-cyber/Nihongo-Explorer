@@ -80,6 +80,19 @@
   --vt-partikel: #14b8a6;
   --vt-partikel-bg: #f0fdfa;
   --vt-partikel-border: #99f6e4;
+  --vt-yojijukugo: #7c3aed;
+  --vt-yojijukugo-bg: #f5f3ff;
+  --vt-yojijukugo-border: #c4b5fd;
+  --vt-redewendung: #d97706;
+  --vt-redewendung-bg: #fffbeb;
+  --vt-redewendung-border: #fde68a;
+  --vt-sprichwort: #0891b2;
+  --vt-sprichwort-bg: #ecfeff;
+  --vt-sprichwort-border: #a5f3fc;
+  /* Keigo grammar category */
+  --cat-keigo: #e11d48;
+  --cat-keigo-bg: #fff1f2;
+  --cat-keigo-border: #fecdd3;
   /* Onomatopoeia categories */
   --oc-geräusche: #3b82f6;
   --oc-geräusche-bg: #eff6ff;
@@ -127,6 +140,14 @@
   --vt-ausdruck-border: #be185d;
   --vt-partikel-bg: #134e4a;
   --vt-partikel-border: #0d9488;
+  --vt-yojijukugo-bg: #4c1d95;
+  --vt-yojijukugo-border: #5b21b6;
+  --vt-redewendung-bg: #78350f;
+  --vt-redewendung-border: #b45309;
+  --vt-sprichwort-bg: #164e63;
+  --vt-sprichwort-border: #0891b2;
+  --cat-keigo-bg: #881337;
+  --cat-keigo-border: #9f1239;
   --oc-geräusche-bg: #1e3a5f;
   --oc-geräusche-border: #2563eb;
   --oc-zustände-bg: #064e3b;
@@ -1137,6 +1158,12 @@ main {
   border-color: var(--cat-satzstrukturen);
 }
 
+.filter-btn.cat-keigo:hover, .filter-btn.cat-keigo.active {
+  background: var(--cat-keigo);
+  color: white;
+  border-color: var(--cat-keigo);
+}
+
 /* === GRAMMAR GRID === */
 .grammar-grid {
   display: grid;
@@ -1207,6 +1234,12 @@ main {
   background: var(--cat-satzstrukturen-bg);
   color: var(--cat-satzstrukturen);
   border: 1px solid var(--cat-satzstrukturen-border);
+}
+
+.grammar-card-category.Keigo, .grammar-category-badge.Keigo {
+  background: var(--cat-keigo-bg);
+  color: var(--cat-keigo);
+  border: 1px solid var(--cat-keigo-border);
 }
 
 .grammar-card-meaning {
@@ -1715,6 +1748,24 @@ main {
   border-color: var(--vt-partikel);
 }
 
+.filter-btn.vt-yojijukugo:hover, .filter-btn.vt-yojijukugo.active {
+  background: var(--vt-yojijukugo);
+  color: white;
+  border-color: var(--vt-yojijukugo);
+}
+
+.filter-btn.vt-redewendung:hover, .filter-btn.vt-redewendung.active {
+  background: var(--vt-redewendung);
+  color: white;
+  border-color: var(--vt-redewendung);
+}
+
+.filter-btn.vt-sprichwort:hover, .filter-btn.vt-sprichwort.active {
+  background: var(--vt-sprichwort);
+  color: white;
+  border-color: var(--vt-sprichwort);
+}
+
 /* === VOCAB GRID === */
 .vocab-grid {
   display: grid;
@@ -1810,6 +1861,24 @@ main {
   background: var(--vt-partikel-bg);
   color: var(--vt-partikel);
   border: 1px solid var(--vt-partikel-border);
+}
+
+.vocab-type-badge.Yojijukugo {
+  background: var(--vt-yojijukugo-bg);
+  color: var(--vt-yojijukugo);
+  border: 1px solid var(--vt-yojijukugo-border);
+}
+
+.vocab-type-badge.Redewendung {
+  background: var(--vt-redewendung-bg);
+  color: var(--vt-redewendung);
+  border: 1px solid var(--vt-redewendung-border);
+}
+
+.vocab-type-badge.Sprichwort {
+  background: var(--vt-sprichwort-bg);
+  color: var(--vt-sprichwort);
+  border: 1px solid var(--vt-sprichwort-border);
 }
 
 /* === VOCAB DETAIL === */
