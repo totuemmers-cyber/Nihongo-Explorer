@@ -2714,6 +2714,403 @@
           ]
         }
       ]
+    },
+
+// ===================== LEKTION 51 =====================
+    {
+      id: 'lesson-51',
+      number: 51,
+      title: '～ながらも / ～つつも / ～ものの',
+      subtitle: 'Zugeständnis und Widerspruch',
+      level: 'N1',
+      intro: 'In dieser Lektion beschäftigen wir uns mit drei wichtigen konzessiven Ausdrücken der japanischen Sprache, die alle eine Form von „obwohl" oder „trotzdem" ausdrücken. Obwohl sie sich in ihrer Grundbedeutung ähneln, unterscheiden sie sich in Nuance, Formalität und Verwendungskontext erheblich. ～ながらも betont einen inneren Widerspruch zwischen zwei gleichzeitig bestehenden Zuständen, ～つつも drückt aus, dass man sich einer Sache bewusst ist, aber dennoch anders handelt, und ～ものの markiert eine Erwartung, die im zweiten Satzteil enttäuscht wird. Das Beherrschen dieser drei Formen ist für das N1-Niveau unverzichtbar, da sie in formellen Texten, Zeitungsartikeln und literarischen Werken häufig vorkommen.',
+      sections: [
+        {
+          heading: '～ながらも — Obwohl / Trotz (innerer Widerspruch)',
+          text: '～ながらも wird an die Stammform von Verben, an Adjektive oder Nomen angehängt und drückt aus, dass zwei widersprüchliche Zustände oder Eigenschaften gleichzeitig bestehen. Es betont einen <strong>inhärenten Widerspruch</strong> — etwas ist so, obwohl man das Gegenteil erwarten würde. Bei い-Adjektiven wird die Grundform verwendet (小さいながらも), bei な-Adjektiven der Stamm (残念ながらも), und bei Nomen wird das Nomen direkt angehängt (子供ながらも). Diese Form hat einen leicht <em>literarischen</em> Beiklang und wird sowohl schriftlich als auch mündlich in gehobener Sprache verwendet.',
+          examples: [
+            { jp: '彼は貧しいながらも、幸せに暮らしている。', romaji: 'Kare wa mazushii nagara mo, shiawase ni kurashite iru.', de: 'Obwohl er arm ist, lebt er glücklich.' },
+            { jp: '小さいながらも、この会社は世界的に有名だ。', romaji: 'Chiisai nagara mo, kono kaisha wa sekaiteki ni yūmei da.', de: 'Obwohl sie klein ist, ist diese Firma weltweit bekannt.' },
+            { jp: '子供ながらも、その少年は驚くべき才能を持っている。', romaji: 'Kodomo nagara mo, sono shōnen wa odoroku beki sainō wo motte iru.', de: 'Obwohl er ein Kind ist, besitzt dieser Junge ein erstaunliches Talent.' },
+            { jp: '残念ながらも、今回は参加を見送ることにした。', romaji: 'Zannen nagara mo, konkai wa sanka wo miokuru koto ni shita.', de: 'Obwohl es bedauerlich ist, habe ich beschlossen, diesmal auf die Teilnahme zu verzichten.' }
+          ],
+          tip: 'Merke: ～ながらも betont, dass zwei Eigenschaften gleichzeitig existieren, die eigentlich im Widerspruch stehen. Das も verstärkt den konzessiven Charakter — ohne も (also nur ～ながら) kann es auch einfach „während" bedeuten.'
+        },
+        {
+          heading: '～つつも — Obwohl man weiß / Obwohl man es tut (bewusster Widerspruch)',
+          text: '～つつも wird an die Verb-Stammform (ます-Form ohne ます) angehängt und drückt aus, dass jemand sich einer Sache <strong>bewusst ist</strong>, aber trotzdem anders handelt oder fühlt. Es enthält oft eine Nuance von <em>Selbstvorwurf</em> oder <em>innerem Konflikt</em> — man weiß, was richtig wäre, tut aber das Gegenteil. Diese Form ist formeller als ～ながらも und kommt besonders in der Schriftsprache, in Essays und in introspektiven Texten vor. Sie wird <strong>nur mit Verben</strong> verwendet, nicht mit Adjektiven oder Nomen.',
+          examples: [
+            { jp: '体に悪いと知りつつも、タバコをやめられない。', romaji: 'Karada ni warui to shiri tsutsu mo, tabako wo yamerarenai.', de: 'Obwohl ich weiß, dass es schlecht für den Körper ist, kann ich mit dem Rauchen nicht aufhören.' },
+            { jp: '申し訳ないと思いつつも、彼の頼みを断った。', romaji: 'Mōshiwakenai to omoi tsutsu mo, kare no tanomi wo kotowatta.', de: 'Obwohl ich es für unverzeihlich hielt, lehnte ich seine Bitte ab.' },
+            { jp: '危険を感じつつも、彼女は前に進み続けた。', romaji: 'Kiken wo kanji tsutsu mo, kanojo wa mae ni susumi tsuzuketa.', de: 'Obwohl sie die Gefahr spürte, ging sie weiter voran.' },
+            { jp: '反対されつつも、自分の信念を貫いた。', romaji: 'Hantai sare tsutsu mo, jibun no shinnen wo tsuranui ta.', de: 'Obwohl man sich mir widersetzte, hielt ich an meiner Überzeugung fest.' }
+          ],
+          tip: '～つつも impliziert fast immer ein Bewusstsein des Widerspruchs. Wenn du sagen willst „Ich weiß es eigentlich besser, aber...", ist ～つつも die perfekte Wahl.'
+        },
+        {
+          heading: '～ものの — Zwar..., aber / Obwohl (enttäuschte Erwartung)',
+          text: '～ものの wird an die einfache Form (Verben, い-Adjektive in Grundform, な-Adjektive + な, Nomen + である) angehängt und drückt aus, dass etwas zwar der Fall ist, das erwartete Ergebnis aber <strong>nicht eintritt</strong>. Es hat die Nuance einer <em>enttäuschten Erwartung</em>: Die Situation im ersten Satzteil würde normalerweise zu einem bestimmten Ergebnis führen, aber der zweite Satzteil zeigt, dass es anders kam. ～ものの ist stilistisch neutral bis leicht formell und wird sowohl gesprochen als auch geschrieben häufig verwendet.',
+          examples: [
+            { jp: '日本語を何年も勉強したものの、まだ流暢に話せない。', romaji: 'Nihongo wo nannen mo benkyō shita mono no, mada ryūchō ni hanasenai.', de: 'Obwohl ich jahrelang Japanisch gelernt habe, kann ich es immer noch nicht fließend sprechen.' },
+            { jp: '新しいパソコンを買ったものの、使い方がよくわからない。', romaji: 'Atarashii pasokon wo katta mono no, tsukaikata ga yoku wakaranai.', de: 'Ich habe zwar einen neuen Computer gekauft, weiß aber nicht genau, wie man ihn benutzt.' },
+            { jp: '転職したいと思っているものの、なかなか行動に移せない。', romaji: 'Tenshoku shitai to omotte iru mono no, nakanaka kōdō ni utsusenai.', de: 'Ich möchte zwar den Job wechseln, kann es aber nicht in die Tat umsetzen.' },
+            { jp: '彼の言うことはもっともであるものの、現実的ではない。', romaji: 'Kare no iu koto wa mottomo de aru mono no, genjitsuteki de wa nai.', de: 'Was er sagt, ist zwar berechtigt, aber nicht realistisch.' }
+          ],
+          tip: 'Vergleich: ～ものの fokussiert auf das enttäuschende Ergebnis, ～ながらも auf den gleichzeitigen Widerspruch, und ～つつも auf das bewusste Handeln gegen besseres Wissen.'
+        },
+        {
+          heading: 'Nuancenvergleich und Zusammenfassung',
+          text: 'Alle drei Ausdrücke bedeuten „obwohl", unterscheiden sich aber in ihrer Perspektive. <strong>～ながらも</strong> stellt einen objektiven Widerspruch zwischen zwei Zuständen fest und kann mit Verben, Adjektiven und Nomen verwendet werden. <strong>～つつも</strong> betont das subjektive Bewusstsein des Sprechers über den Widerspruch und wird nur mit Verben benutzt — es hat oft eine selbstkritische Note. <strong>～ものの</strong> drückt aus, dass das Ergebnis hinter der Erwartung zurückbleibt, und ist die vielseitigste der drei Formen. In formellen Texten werden alle drei häufig verwendet, wobei ～つつも am literarischsten wirkt.',
+          examples: [
+            { jp: '努力しながらも、結果が出なかった。', romaji: 'Doryoku shi nagara mo, kekka ga denakatta.', de: '(Objektiv:) Obwohl er sich anstrengte, gab es keine Ergebnisse.' },
+            { jp: '努力すべきだと分かりつつも、怠けてしまった。', romaji: 'Doryoku subeki da to wakari tsutsu mo, namakete shimatta.', de: '(Bewusst:) Obwohl ich wusste, dass ich mich anstrengen sollte, war ich faul.' },
+            { jp: '努力したものの、結果が出なかった。', romaji: 'Doryoku shita mono no, kekka ga denakatta.', de: '(Enttäuschung:) Ich habe mich zwar angestrengt, aber es gab keine Ergebnisse.' }
+          ]
+        }
+      ]
+    },
+    // ===================== LEKTION 52 =====================
+    {
+      id: 'lesson-52',
+      number: 52,
+      title: '～に至る / ～に至って / ～に至っては',
+      subtitle: 'Bis hin zu... / Als es soweit war...',
+      level: 'N1',
+      intro: 'Diese Lektion behandelt drei eng verwandte Ausdrücke, die alle auf dem Verb 至る (itaru, „erreichen, gelangen") basieren. Sie beschreiben eine Entwicklung, die einen bestimmten Punkt erreicht — sei es einen Höhepunkt, einen Wendepunkt oder einen extremen Fall. ～に至る beschreibt den Prozess, der zu einem bestimmten Punkt führt, ～に至って markiert den Moment, an dem eine entscheidende Veränderung eintritt, und ～に至っては hebt einen besonders extremen oder erwähnenswerten Fall hervor. Diese Ausdrücke sind typisch für formelle Schriftsprache, Nachrichtentexte und akademische Abhandlungen und gehören zum Kernwortschatz der N1-Prüfung.',
+      sections: [
+        {
+          heading: '～に至る / ～に至るまで — Bis hin zu / Dazu kommen, dass',
+          text: '～に至る beschreibt einen Prozess oder eine Entwicklung, die schließlich einen bestimmten Punkt <strong>erreicht</strong>. Es betont den Weg oder die Kette von Ereignissen, die zu diesem Ergebnis geführt haben. In der Form ～に至るまで bedeutet es „bis hin zu" und betont die <em>Reichweite</em> oder den <em>Umfang</em> von etwas. Die nominalisierte Form ～に至った経緯 (ni itatta keii) bedeutet „die Umstände, die dazu geführt haben" und ist ein sehr häufiger Ausdruck in formellen Berichten.',
+          examples: [
+            { jp: '交渉は決裂に至った。', romaji: 'Kōshō wa ketsuretsu ni itatta.', de: 'Die Verhandlungen sind zum Scheitern gekommen.' },
+            { jp: '事態が悪化し、ついに辞任に至った。', romaji: 'Jitai ga akka shi, tsui ni jinin ni itatta.', de: 'Die Lage verschlechterte sich und führte schließlich zum Rücktritt.' },
+            { jp: 'この計画に至った経緯を説明いたします。', romaji: 'Kono keikaku ni itatta keii wo setsumei itashimasu.', de: 'Ich werde die Umstände erläutern, die zu diesem Plan geführt haben.' },
+            { jp: '大企業から中小企業に至るまで、すべてが影響を受けた。', romaji: 'Daikigyō kara chūshō kigyō ni itaru made, subete ga eikyō wo uketa.', de: 'Von Großunternehmen bis hin zu kleinen und mittleren Betrieben — alle waren betroffen.' }
+          ],
+          tip: '～に至る hat einen sachlichen, berichtenden Ton. Verwende es, wenn du eine Kette von Ereignissen beschreibst, die zu einem Ergebnis geführt hat.'
+        },
+        {
+          heading: '～に至って / ～に至っても — Als es soweit war / Selbst als es soweit war',
+          text: '～に至って markiert einen <strong>Wendepunkt</strong>: Es beschreibt den Moment, an dem eine Situation so weit fortgeschritten ist, dass endlich eine Reaktion oder Erkenntnis eintritt. Die Nuance ist oft „erst als es so weit kam" — es impliziert, dass die Reaktion <em>zu spät</em> oder <em>erst im letzten Moment</em> erfolgte. Die negative Variante ～に至っても bedeutet „selbst als es so weit war" und drückt aus, dass <strong>nicht einmal</strong> in dieser extremen Situation eine erwartete Reaktion erfolgte.',
+          examples: [
+            { jp: '病状が深刻になるに至って、ようやく医者に行った。', romaji: 'Byōjō ga shinkoku ni naru ni itatte, yōyaku isha ni itta.', de: 'Erst als der Krankheitszustand ernst wurde, ging er endlich zum Arzt.' },
+            { jp: '会社が倒産するに至って、初めて問題の深刻さに気づいた。', romaji: 'Kaisha ga tōsan suru ni itatte, hajimete mondai no shinkokusa ni kizuita.', de: 'Erst als die Firma bankrott ging, wurde einem das Ausmaß des Problems bewusst.' },
+            { jp: '事態がここに至って、もう後戻りはできない。', romaji: 'Jitai ga koko ni itatte, mō atomodori wa dekinai.', de: 'Nun, da die Lage diesen Punkt erreicht hat, gibt es kein Zurück mehr.' },
+            { jp: '証拠を突きつけられるに至っても、彼は犯行を否認し続けた。', romaji: 'Shōko wo tsukitsukerareru ni itatte mo, kare wa hankō wo hinin shi tsuzuketa.', de: 'Selbst als man ihm die Beweise vorlegte, leugnete er die Tat weiterhin.' }
+          ],
+          tip: '～に至って enthält fast immer die Nuance „erst jetzt, wo es so weit ist". Es impliziert oft eine Kritik: Warum hat man nicht früher gehandelt?'
+        },
+        {
+          heading: '～に至っては — Was... betrifft / Besonders im Fall von',
+          text: '～に至っては hebt einen <strong>besonders extremen oder bemerkenswerten Fall</strong> innerhalb einer Reihe hervor. Es wird verwendet, um zu sagen: „Wenn es um X geht, dann ist es besonders schlimm / extrem / bemerkenswert." Der Ausdruck impliziert, dass es schon andere Fälle gibt, aber dieser eine ist der <em>extremste</em>. Er wird häufig in negativen Kontexten verwendet, kann aber auch neutral sein, wenn er einfach einen herausragenden Fall markiert.',
+          examples: [
+            { jp: '成績はどの科目も悪かったが、数学に至っては赤点だった。', romaji: 'Seiseki wa dono kamoku mo warukatta ga, sūgaku ni itatte wa akaten datta.', de: 'Die Noten waren in jedem Fach schlecht, aber in Mathematik war es sogar eine Fünf.' },
+            { jp: '社員の遅刻が多いが、田中に至っては毎日遅刻している。', romaji: 'Shain no chikoku ga ōi ga, Tanaka ni itatte wa mainichi chikoku shite iru.', de: 'Viele Mitarbeiter kommen zu spät, aber was Tanaka betrifft, kommt er jeden Tag zu spät.' },
+            { jp: '物価が上がっているが、住宅価格に至っては倍になっている。', romaji: 'Bukka ga agatte iru ga, jūtaku kakaku ni itatte wa bai ni natte iru.', de: 'Die Preise steigen, aber was die Immobilienpreise betrifft, haben sie sich verdoppelt.' }
+          ],
+          tip: '～に至っては wird oft nach einem allgemeinen negativen Zustand verwendet, um den schlimmsten Einzelfall hervorzuheben. Die Struktur ist: „A ist schon schlecht, aber bei B ist es am schlimmsten."'
+        }
+      ]
+    },
+    // ===================== LEKTION 53 =====================
+    {
+      id: 'lesson-53',
+      number: 53,
+      title: '～をよそに / ～をものともせず / ～を顧みず',
+      subtitle: 'Ignorieren und Trotzdem',
+      level: 'N1',
+      intro: 'In dieser Lektion lernen wir drei kraftvolle N1-Ausdrücke, die alle beschreiben, dass jemand etwas ignoriert, missachtet oder sich davon nicht beeindrucken lässt. Obwohl sie alle eine Form des „Nicht-Beachtens" ausdrücken, unterscheiden sich ihre Nuancen erheblich: ～をよそに hat oft eine kritische Note und impliziert Gleichgültigkeit gegenüber den Sorgen anderer, ～をものともせず drückt bewundernswerte Stärke und Tapferkeit aus, und ～を顧みず beschreibt die Entschlossenheit, Risiken oder Konsequenzen in Kauf zu nehmen. Diese Ausdrücke verleihen Texten eine gehobene, oft literarische Qualität.',
+      sections: [
+        {
+          heading: '～をよそに — Ungeachtet / Ohne Rücksicht auf (kritisch)',
+          text: '～をよそに bedeutet wörtlich „etwas beiseitelassen" und drückt aus, dass jemand die Sorgen, Gefühle oder Erwartungen anderer <strong>ignoriert</strong> und sein eigenes Ding macht. Dieser Ausdruck hat fast immer eine <em>kritische</em> oder <em>vorwurfsvolle</em> Nuance — der Sprecher missbilligt, dass die betroffene Person so gleichgültig ist. Das よそ bedeutet „anderer Ort" oder „anderswo" und suggeriert, dass die Person die Angelegenheiten anderer als „nicht ihre Sache" betrachtet. Die Konstruktion ist: <strong>Nomen + をよそに</strong>.',
+          examples: [
+            { jp: '親の心配をよそに、息子は危険な旅に出かけた。', romaji: 'Oya no shinpai wo yoso ni, musuko wa kiken na tabi ni dekaketa.', de: 'Ohne Rücksicht auf die Sorgen seiner Eltern machte sich der Sohn auf eine gefährliche Reise.' },
+            { jp: '周囲の反対をよそに、彼女は独立して起業した。', romaji: 'Shūi no hantai wo yoso ni, kanojo wa dokuritsu shite kigyō shita.', de: 'Ungeachtet des Widerstands ihres Umfelds machte sie sich selbstständig.' },
+            { jp: '国民の不安をよそに、政府は計画を推し進めた。', romaji: 'Kokumin no fuan wo yoso ni, seifu wa keikaku wo oshisusumeta.', de: 'Ohne Rücksicht auf die Ängste der Bevölkerung trieb die Regierung den Plan voran.' },
+            { jp: '被災者の苦しみをよそに、彼は豪華な生活を続けた。', romaji: 'Hisaisha no kurushimi wo yoso ni, kare wa gōka na seikatsu wo tsuzuketa.', de: 'Ohne Rücksicht auf das Leid der Katastrophenopfer führte er sein luxuriöses Leben fort.' }
+          ],
+          tip: '～をよそに wird fast immer kritisch verwendet. Es impliziert: „Diese Person hätte sich kümmern sollen, hat es aber nicht getan." Typische Nomen davor: 心配 (Sorge), 反対 (Widerstand), 批判 (Kritik), 期待 (Erwartung).'
+        },
+        {
+          heading: '～をものともせず — Sich nicht beeindrucken lassen von (bewundernd)',
+          text: '～をものともせず drückt aus, dass jemand sich von Schwierigkeiten, Hindernissen oder widrigen Umständen <strong>nicht einschüchtern</strong> lässt und mutig voranschreitet. Im Gegensatz zu ～をよそに hat dieser Ausdruck eine <em>positive, bewundernde</em> Nuance — die beschriebene Person zeigt Stärke und Entschlossenheit. ものともしない bedeutet wörtlich „etwas nicht als etwas betrachten" (also: es für nichts halten). Die Konstruktion ist: <strong>Nomen + をものともせず</strong>.',
+          examples: [
+            { jp: '厳しい批判をものともせず、彼は研究を続けた。', romaji: 'Kibishii hihan wo mono to mo sezu, kare wa kenkyū wo tsuzuketa.', de: 'Ohne sich von der harten Kritik beeindrucken zu lassen, setzte er seine Forschung fort.' },
+            { jp: '大雨をものともせず、選手たちは試合を戦い抜いた。', romaji: 'Ōame wo mono to mo sezu, senshutachi wa shiai wo tatakai nuita.', de: 'Unbeeindruckt vom starken Regen kämpften die Spieler das Spiel bis zum Ende.' },
+            { jp: '病気をものともせず、彼女はフルマラソンを完走した。', romaji: 'Byōki wo mono to mo sezu, kanojo wa furu marason wo kansō shita.', de: 'Ohne sich von ihrer Krankheit aufhalten zu lassen, lief sie den gesamten Marathon.' },
+            { jp: '周囲の偏見をものともせず、彼は夢を追い続けた。', romaji: 'Shūi no henken wo mono to mo sezu, kare wa yume wo oitsuzuketa.', de: 'Ohne sich von den Vorurteilen seines Umfelds beirren zu lassen, verfolgte er weiter seinen Traum.' }
+          ],
+          tip: '～をものともせず wird für heldenhafte oder bewundernswerte Handlungen verwendet. Typische Nomen davor: 困難 (Schwierigkeiten), 逆境 (Widrigkeiten), 反対 (Widerstand), 痛み (Schmerz).'
+        },
+        {
+          heading: '～を顧みず — Ohne Rücksicht auf / Ohne zu bedenken (entschlossen)',
+          text: '～を顧みず bedeutet wörtlich „ohne zurückzublicken auf" und drückt aus, dass jemand Risiken, seine eigene Sicherheit oder Konsequenzen <strong>bewusst in Kauf nimmt</strong>. 顧みる (kaerimiru) heißt „zurückblicken, bedenken, berücksichtigen", und die Verneinung ず ist die klassisch-japanische Form von ない. Dieser Ausdruck ist neutral bis positiv — er beschreibt Entschlossenheit und Opferbereitschaft. Die Konstruktion ist: <strong>Nomen + を顧みず</strong>.',
+          examples: [
+            { jp: '自らの危険を顧みず、彼は子供を川から救い出した。', romaji: 'Mizukara no kiken wo kaerimizu, kare wa kodomo wo kawa kara sukuidashita.', de: 'Ohne seine eigene Sicherheit zu bedenken, rettete er das Kind aus dem Fluss.' },
+            { jp: '家族の反対を顧みず、彼女は海外に移住した。', romaji: 'Kazoku no hantai wo kaerimizu, kanojo wa kaigai ni ijū shita.', de: 'Ohne den Widerstand ihrer Familie zu beachten, wanderte sie ins Ausland aus.' },
+            { jp: '健康を顧みず、彼は連日深夜まで働き続けた。', romaji: 'Kenkō wo kaerimizu, kare wa renjitsu shin\'ya made hataraki tsuzuketa.', de: 'Ohne auf seine Gesundheit zu achten, arbeitete er Tag für Tag bis spät in die Nacht.' },
+            { jp: '自分の立場を顧みず、上司に反論した。', romaji: 'Jibun no tachiba wo kaerimizu, jōshi ni hanron shita.', de: 'Ohne seine eigene Position zu bedenken, widersprach er seinem Vorgesetzten.' }
+          ],
+          tip: 'Vergleich: ～をよそに = kritisch (Gleichgültigkeit), ～をものともせず = bewundernd (Stärke), ～を顧みず = entschlossen (Opferbereitschaft). Alle drei werden mit Nomen + を konstruiert.'
+        }
+      ]
+    },
+    // ===================== LEKTION 54 =====================
+    {
+      id: 'lesson-54',
+      number: 54,
+      title: '～てやまない / ～にたえない / ～にかたくない',
+      subtitle: 'Unaufhörliche Gefühle',
+      level: 'N1',
+      intro: 'Diese Lektion widmet sich drei gehobenen Ausdrucksformen, die intensive, oft überwältigende Emotionen beschreiben. Sie sind typisch für formelle Reden, Briefe und literarische Texte und verleihen dem Gesagten eine feierliche, ernsthafte Atmosphäre. ～てやまない drückt ein Gefühl aus, das niemals aufhört, ～にたえない beschreibt etwas, das so intensiv ist, dass man es kaum ertragen kann (positiv oder negativ), und ～にかたくない bedeutet, dass etwas leicht vorstellbar ist, weil die Umstände so offensichtlich sind. Das Beherrschen dieser Ausdrücke ermöglicht es, in formellen Situationen nuancierte Emotionen auszudrücken.',
+      sections: [
+        {
+          heading: '～てやまない — Unaufhörlich / Von ganzem Herzen',
+          text: 'やまない kommt vom Verb 止む (yamu, „aufhören") in der verneinten Form. ～てやまない bedeutet also wörtlich „es hört nicht auf zu..." und drückt ein Gefühl aus, das <strong>niemals nachlässt</strong>. Es wird mit Verben des Fühlens und Wünschens verwendet: 願う (wünschen), 望む (hoffen), 祈る (beten), 愛する (lieben), 尊敬する (respektieren). Die Konstruktion ist: <strong>Verb (て-Form) + やまない</strong>. Dieser Ausdruck ist sehr formell und wird häufig in Reden, Grußworten und offiziellen Ansprachen verwendet.',
+          examples: [
+            { jp: '皆様のご成功を願ってやみません。', romaji: 'Minasama no go-seikō wo negatte yamimasen.', de: 'Ich wünsche Ihnen allen von ganzem Herzen Erfolg.' },
+            { jp: '世界平和が実現することを祈ってやまない。', romaji: 'Sekai heiwa ga jitsugen suru koto wo inotte yamanai.', de: 'Ich bete unaufhörlich dafür, dass der Weltfrieden Wirklichkeit wird.' },
+            { jp: '彼女の才能を尊敬してやまない。', romaji: 'Kanojo no sainō wo sonkei shite yamanai.', de: 'Ich bewundere ihr Talent von ganzem Herzen.' },
+            { jp: '故郷を愛してやまない人々がこの祭りを守り続けている。', romaji: 'Furusato wo ai shite yamanai hitobito ga kono matsuri wo mamori tsuzukete iru.', de: 'Menschen, die ihre Heimat unaufhörlich lieben, bewahren dieses Fest weiter.' }
+          ],
+          tip: 'In der höflichen Form wird やまない zu やみません. Dieser Ausdruck wird fast ausschließlich mit positiven Gefühlen verwendet — Wünsche, Hoffnungen, Liebe, Respekt.'
+        },
+        {
+          heading: '～にたえない — Unerträglich / Kaum zu ertragen',
+          text: '～にたえない (に堪えない) bedeutet wörtlich „man kann es nicht ertragen" und hat zwei unterschiedliche Verwendungen. <strong>Erstens</strong> kann es eine so starke Emotion beschreiben, dass sie kaum auszuhalten ist — sowohl positiv (Dankbarkeit, Freude) als auch negativ (Scham, Bedauern). <strong>Zweitens</strong> kann es bedeuten, dass etwas so schlecht ist, dass es „nicht wert ist" (z. B. 聞くにたえない = „nicht anzuhören"). Die Konstruktion ist: <strong>Nomen + にたえない</strong> oder <strong>Verb (辞書形) + にたえない</strong>.',
+          examples: [
+            { jp: '皆様のご支援には感謝にたえません。', romaji: 'Minasama no go-shien ni wa kansha ni taemasen.', de: 'Für Ihre Unterstützung bin ich Ihnen unendlich dankbar.' },
+            { jp: 'このような結果になり、慚愧にたえない。', romaji: 'Kono yō na kekka ni nari, zangi ni taenai.', de: 'Dass es zu einem solchen Ergebnis kam, erfüllt mich mit tiefer Scham.' },
+            { jp: '彼の演説は聞くにたえない内容だった。', romaji: 'Kare no enzetsu wa kiku ni taenai naiyō datta.', de: 'Seine Rede hatte einen Inhalt, der nicht anzuhören war.' },
+            { jp: '被害者の状況を見るにたえない。', romaji: 'Higaisha no jōkyō wo miru ni taenai.', de: 'Die Situation der Opfer ist kaum mit anzusehen.' }
+          ],
+          tip: 'Mit Gefühlsnomen (感謝、感慨、慚愧) bedeutet es „überwältigende Emotion". Mit Verben wie 聞く、見る、読む bedeutet es „so schlecht, dass man es nicht ertragen kann".'
+        },
+        {
+          heading: '～にかたくない — Nicht schwer zu... / Leicht vorstellbar',
+          text: '～にかたくない (に難くない) bedeutet wörtlich „es ist nicht schwer zu..." und drückt aus, dass etwas <strong>leicht vorstellbar</strong> oder <strong>leicht nachvollziehbar</strong> ist, auch wenn man es nicht selbst erlebt hat. Es wird mit einer begrenzten Anzahl von Verben verwendet: 想像する (sich vorstellen), 推察する (vermuten), 理解する (verstehen), 予想する (erwarten). Die Konstruktion ist: <strong>Verb-Stammform + にかたくない</strong>. Dieser Ausdruck ist sehr formell und wird in schriftlichen Texten, Kommentaren und formellen Analysen verwendet.',
+          examples: [
+            { jp: '被災地の方々の苦しみは想像にかたくない。', romaji: 'Hisaichi no katagata no kurushimi wa sōzō ni kataku nai.', de: 'Das Leid der Menschen im Katastrophengebiet ist leicht vorstellbar.' },
+            { jp: '彼がどれほど悔しかったか、推察にかたくない。', romaji: 'Kare ga dore hodo kuyashikatta ka, suisatsu ni kataku nai.', de: 'Es ist nicht schwer zu erahnen, wie frustriert er gewesen sein muss.' },
+            { jp: 'この決定が大きな影響を及ぼすことは予想にかたくない。', romaji: 'Kono kettei ga ōkina eikyō wo oyobosu koto wa yosō ni kataku nai.', de: 'Es ist leicht vorherzusehen, dass diese Entscheidung große Auswirkungen haben wird.' },
+            { jp: '長年の努力が報われた喜びは察するにかたくない。', romaji: 'Naganen no doryoku ga mukuwareta yorokobi wa sassuru ni kataku nai.', de: 'Die Freude darüber, dass sich jahrelange Mühe ausgezahlt hat, ist leicht nachzuempfinden.' }
+          ],
+          tip: 'Die häufigste Kombination ist 想像にかたくない. Merke dir diesen Ausdruck als feste Wendung — er erscheint regelmäßig in der N1-Prüfung.'
+        }
+      ]
+    },
+    // ===================== LEKTION 55 =====================
+    {
+      id: 'lesson-55',
+      number: 55,
+      title: '～たが最後 / ～が早いか / ～や否や / ～なり',
+      subtitle: 'Im selben Moment',
+      level: 'N1',
+      intro: 'Diese Lektion behandelt vier Ausdrücke, die alle beschreiben, dass eine zweite Handlung sofort nach der ersten eintritt — praktisch im selben Augenblick. Obwohl sie sich in der Grundbedeutung ähneln, unterscheiden sich ihre Nuancen erheblich. ～たが最後 bedeutet, dass nach der ersten Handlung kein Zurück mehr möglich ist (negative Konsequenz), ～が早いか betont die blitzschnelle Abfolge aus der Beobachterperspektive, ～や否や drückt eine unmittelbare Reaktion aus, und ～なり beschreibt eine sofortige, oft unerwartete Handlung. Diese Formen gehören zum gehobenen Sprachregister und sind besonders in der Literatur und in der N1-Prüfung von Bedeutung.',
+      sections: [
+        {
+          heading: '～たが最後 — Wenn einmal..., dann... (kein Zurück)',
+          text: '～たが最後 (た + が + 最後) bedeutet wörtlich „wenn es das letzte Mal war, dass..." und drückt aus, dass nach einer bestimmten Handlung ein <strong>unumkehrbarer, negativer Zustand</strong> eintritt. Es enthält die Nuance: „Wenn du das einmal tust, ist es vorbei." Die erste Handlung löst eine Kettenreaktion aus, die nicht mehr gestoppt werden kann. Die Konstruktion ist: <strong>Verb (た-Form) + が最後</strong>. Der zweite Satzteil beschreibt immer eine negative oder unerwünschte Konsequenz.',
+          examples: [
+            { jp: 'あの人にお金を貸したが最後、二度と返ってこない。', romaji: 'Ano hito ni okane wo kashita ga saigo, nido to kaette konai.', de: 'Wenn du dieser Person einmal Geld leihst, bekommst du es nie wieder zurück.' },
+            { jp: 'このゲームを始めたが最後、何時間も止められなくなる。', romaji: 'Kono gēmu wo hajimeta ga saigo, nanjikan mo tomerarenaku naru.', de: 'Wenn man dieses Spiel einmal anfängt, kann man stundenlang nicht mehr aufhören.' },
+            { jp: '彼女に秘密を話したが最後、全員に知れ渡る。', romaji: 'Kanojo ni himitsu wo hanashita ga saigo, zen\'in ni shirewataru.', de: 'Wenn man ihr einmal ein Geheimnis erzählt, erfährt es jeder.' },
+            { jp: 'この沼に足を踏み入れたが最後、抜け出せなくなる。', romaji: 'Kono numa ni ashi wo fumiire ta ga saigo, nukedasenaku naru.', de: 'Wenn man einmal in diesen Sumpf hineintritt, kommt man nicht mehr heraus.' }
+          ],
+          tip: '～たが最後 wird immer mit negativen Konsequenzen verwendet. Es ist eine Warnung: „Tu das bloß nicht, denn sonst..." Ähnlich wie ～たら最後.'
+        },
+        {
+          heading: '～が早いか — Kaum dass... / In dem Moment, als...',
+          text: '～が早いか bedeutet wörtlich „ob es schnell war" und beschreibt, dass die zweite Handlung so schnell auf die erste folgt, dass sie <strong>praktisch gleichzeitig</strong> stattfindet. Es wird aus der <em>Beobachterperspektive</em> verwendet — der Sprecher beschreibt, was er bei jemand anderem beobachtet hat. Die Konstruktion ist: <strong>Verb (辞書形/た形) + が早いか</strong>. Die zweite Handlung ist oft überraschend, energisch oder impulsiv.',
+          examples: [
+            { jp: 'ベルが鳴るが早いか、生徒たちは教室を飛び出した。', romaji: 'Beru ga naru ga hayai ka, seitotachi wa kyōshitsu wo tobidashita.', de: 'Kaum hatte die Glocke geläutet, stürmten die Schüler aus dem Klassenzimmer.' },
+            { jp: '彼はドアを開けるが早いか、部屋に駆け込んだ。', romaji: 'Kare wa doa wo akeru ga hayai ka, heya ni kakekonda.', de: 'Kaum hatte er die Tür geöffnet, stürmte er ins Zimmer.' },
+            { jp: '母の姿を見るが早いか、子供は泣き出した。', romaji: 'Haha no sugata wo miru ga hayai ka, kodomo wa nakidashita.', de: 'Kaum hatte das Kind seine Mutter erblickt, fing es an zu weinen.' },
+            { jp: '合図が出るが早いか、選手たちは一斉にスタートした。', romaji: 'Aizu ga deru ga hayai ka, senshutachi wa issei ni sutāto shita.', de: 'Kaum war das Zeichen gegeben, starteten die Athleten gleichzeitig.' }
+          ],
+          tip: '～が早いか beschreibt beobachtete Szenen — man erzählt, was man bei anderen gesehen hat. Es wird nicht für eigene Handlungen verwendet.'
+        },
+        {
+          heading: '～や否や — Kaum... als auch schon...',
+          text: '～や否や (やいなや) bedeutet wörtlich „ob es... oder ob es nicht..." und drückt aus, dass die zweite Handlung <strong>sofort und unmittelbar</strong> auf die erste folgt. Es betont die Schnelligkeit und Unmittelbarkeit der Reaktion. Die Konstruktion ist: <strong>Verb (辞書形) + や否や</strong>. Im Vergleich zu ～が早いか ist ～や否や etwas formeller und wird häufiger in der Schriftsprache verwendet. Es kann sowohl für eigene als auch für beobachtete Handlungen verwendet werden.',
+          examples: [
+            { jp: '目が覚めるや否や、彼は携帯電話を確認した。', romaji: 'Me ga sameru ya ina ya, kare wa keitai denwa wo kakunin shita.', de: 'Kaum war er aufgewacht, überprüfte er sein Handy.' },
+            { jp: '試合終了の笛が鳴るや否や、観客は立ち上がった。', romaji: 'Shiai shūryō no fue ga naru ya ina ya, kankyaku wa tachiagatta.', de: 'Kaum ertönte der Schlusspfiff, sprangen die Zuschauer auf.' },
+            { jp: '電車のドアが開くや否や、乗客がなだれ込んだ。', romaji: 'Densha no doa ga hiraku ya ina ya, jōkyaku ga nadarekonda.', de: 'Kaum öffneten sich die Zugtüren, strömten die Fahrgäste hinein.' },
+            { jp: 'ニュースを聞くや否や、彼女は現場に駆けつけた。', romaji: 'Nyūsu wo kiku ya ina ya, kanojo wa genba ni kaketsuketa.', de: 'Kaum hatte sie die Nachricht gehört, eilte sie zum Ort des Geschehens.' }
+          ],
+          tip: '～や否や verwendet immer die Wörterbuchform des Verbs. Es klingt sehr literarisch und elegant.'
+        },
+        {
+          heading: '～なり — Sobald... sofort... (unerwartet)',
+          text: '～なり beschreibt, dass jemand <strong>sofort nach einer Handlung</strong> etwas Unerwartetes tut. Es hat die Nuance, dass die zweite Handlung <em>überraschend</em> oder <em>unerwartet</em> ist — oft impulsiv oder unhöflich. Die Konstruktion ist: <strong>Verb (辞書形) + なり</strong>. Ein wichtiges Merkmal: Das Subjekt der ersten und zweiten Handlung muss <strong>dieselbe Person</strong> sein (in der Regel eine dritte Person, nicht der Sprecher selbst). Dieser Ausdruck wird fast ausschließlich in erzählendem Kontext verwendet.',
+          examples: [
+            { jp: '彼は部屋に入るなり、ソファに倒れ込んだ。', romaji: 'Kare wa heya ni hairu nari, sofa ni taorekonda.', de: 'Kaum betrat er das Zimmer, ließ er sich auf das Sofa fallen.' },
+            { jp: '電話に出るなり、彼女は怒鳴り始めた。', romaji: 'Denwa ni deru nari, kanojo wa donari hajimeta.', de: 'Sobald sie den Hörer abnahm, fing sie an zu schreien.' },
+            { jp: '彼は私の顔を見るなり、泣き出した。', romaji: 'Kare wa watashi no kao wo miru nari, nakidashita.', de: 'Sobald er mein Gesicht sah, brach er in Tränen aus.' },
+            { jp: '社長は会議室に入るなり、全員を叱りつけた。', romaji: 'Shachō wa kaigishitsu ni hairu nari, zen\'in wo shikaritsuketa.', de: 'Kaum betrat der Firmenchef den Konferenzraum, schimpfte er alle aus.' }
+          ],
+          tip: 'Merke die Unterschiede: ～たが最後 = negative Konsequenz, ～が早いか = beobachtete schnelle Handlung, ～や否や = sofortige Reaktion, ～なり = überraschende sofortige Handlung derselben Person.'
+        }
+      ]
+    },
+    // ===================== LEKTION 56 =====================
+    {
+      id: 'lesson-56',
+      number: 56,
+      title: '～ごとき / ～ごとく / ～いかんによらず / ～いかんにかかわらず',
+      subtitle: 'Wie... / Ungeachtet...',
+      level: 'N1',
+      intro: 'In dieser Lektion behandeln wir zwei wichtige Gruppen von N1-Grammatik. Die erste Gruppe — ～ごとき und ～ごとく — stammt aus dem klassischen Japanisch und wird für poetische, literarische Vergleiche verwendet. Sie entsprechen dem modernen ～ような / ～ように, klingen aber wesentlich gehobener und feierlicher. Die zweite Gruppe — ～いかんによらず und ～いかんにかかわらず — drückt aus, dass etwas ungeachtet der Umstände gilt. Das Wort いかん (如何) bedeutet „wie, auf welche Weise" und ist ein Schlüsselwort für formelle japanische Ausdrucksweisen. Beide Gruppen sind in formellen Texten, literarischen Werken und offiziellen Dokumenten allgegenwärtig.',
+      sections: [
+        {
+          heading: '～ごとく / ～ごとき — Wie / Gleich wie (klassischer Vergleich)',
+          text: '～ごとく und ～ごとき stammen vom klassisch-japanischen Wort 如し (gotoshi, „gleich wie"). <strong>～ごとく</strong> wird adverbial verwendet (modifiziert ein Verb), während <strong>～ごとき</strong> attributiv verwendet wird (modifiziert ein Nomen). Die Konstruktion ist: <strong>Nomen + の + ごとく/ごとき</strong> oder <strong>Verb (が) + ごとく/ごとき</strong>. Diese Formen sind wesentlich literarischer als ～のように/～のような und werden in poetischen Texten, Sprichwörtern, Reden und dramatischen Beschreibungen verwendet. In der Umgangssprache kommen sie praktisch nicht vor.',
+          examples: [
+            { jp: '光陰矢のごとし。', romaji: 'Kōin ya no gotoshi.', de: 'Die Zeit vergeht wie ein Pfeil. (Sprichwort)' },
+            { jp: '彼は風のごとく駆け抜けた。', romaji: 'Kare wa kaze no gotoku kakenuketa.', de: 'Er raste hindurch wie der Wind.' },
+            { jp: '水のごとき透明感のある声だった。', romaji: 'Mizu no gotoki tōmeikan no aru koe datta.', de: 'Es war eine Stimme von kristallener Klarheit, gleich dem Wasser.' },
+            { jp: '嵐のごとく押し寄せる感情を抑えきれなかった。', romaji: 'Arashi no gotoku oshiyoseru kanjō wo osaekirenakatta.', de: 'Die Gefühle, die wie ein Sturm hereinbrachen, konnte er nicht mehr zurückhalten.' }
+          ],
+          tip: 'ごとく = adverbial (vor Verben), ごとき = attributiv (vor Nomen), ごとし = am Satzende (prädikativ). Diese drei sind die drei Formen desselben klassischen Wortes.'
+        },
+        {
+          heading: '～ごとき als Bescheidenheit oder Geringschätzung',
+          text: '～ごとき hat eine besondere Verwendung, um Bescheidenheit oder Geringschätzung auszudrücken. Wenn man es auf <strong>sich selbst</strong> bezieht, drückt es extreme <em>Bescheidenheit</em> aus: „Jemand wie ich (der nichts wert ist)." Wenn man es auf <strong>andere</strong> bezieht, kann es <em>Verachtung</em> oder <em>Geringschätzung</em> ausdrücken: „Jemand wie du (der es nicht wert ist)." Diese Verwendung ist sehr formell und kommt besonders in historischen Dramen, Romanen und formellen Reden vor.',
+          examples: [
+            { jp: '私ごときが意見を述べるのは恐れ多い。', romaji: 'Watashi gotoki ga iken wo noberu no wa osore ōi.', de: 'Es wäre anmaßend, wenn jemand wie ich eine Meinung äußern würde.' },
+            { jp: 'お前ごときに何がわかる。', romaji: 'Omae gotoki ni nani ga wakaru.', de: 'Was kann jemand wie du schon verstehen?' },
+            { jp: '素人ごときが口を出すな。', romaji: 'Shirōto gotoki ga kuchi wo dasu na.', de: 'Ein Laie wie du soll sich nicht einmischen.' },
+            { jp: '私ごときにこのような大役は務まりません。', romaji: 'Watashi gotoki ni kono yō na taiyaku wa tsutomarimesen.', de: 'Eine so bedeutende Aufgabe ist für jemand Unbedeutenden wie mich nicht zu bewältigen.' }
+          ],
+          tip: 'Auf sich selbst bezogen = extreme Bescheidenheit. Auf andere bezogen = Geringschätzung. Der Kontext macht den Unterschied deutlich.'
+        },
+        {
+          heading: '～いかんによらず / ～いかんにかかわらず — Ungeachtet / Unabhängig von',
+          text: 'いかん (如何) bedeutet „wie, auf welche Weise" und ist die Grundlage für mehrere formelle Ausdrücke. <strong>～いかんによらず</strong> und <strong>～いかんにかかわらず</strong> bedeuten beide „ungeachtet" oder „unabhängig von" und drücken aus, dass ein Ergebnis <strong>nicht von den Umständen abhängt</strong>. Die Konstruktion ist: <strong>Nomen + のいかんによらず/にかかわらず</strong> oder <strong>Nomen + いかんによらず/にかかわらず</strong>. Diese Ausdrücke sind extrem formell und kommen vor allem in offiziellen Dokumenten, Verträgen, Regelwerken und Geschäftskommunikation vor. Eine kürzere Variante ist ～いかんを問わず.',
+          examples: [
+            { jp: '理由のいかんによらず、暴力は許されない。', romaji: 'Riyū no ikan ni yorazu, bōryoku wa yurusarenai.', de: 'Ungeachtet der Gründe ist Gewalt nicht zu dulden.' },
+            { jp: '結果のいかんにかかわらず、全力を尽くすべきだ。', romaji: 'Kekka no ikan ni kakawarazu, zenryoku wo tsukusu beki da.', de: 'Unabhängig vom Ergebnis sollte man sein Bestes geben.' },
+            { jp: '国籍のいかんを問わず、すべての市民に適用される。', romaji: 'Kokuseki no ikan wo towazu, subete no shimin ni tekiyō sareru.', de: 'Ungeachtet der Staatsangehörigkeit gilt dies für alle Bürger.' },
+            { jp: '事情のいかんによらず、期限は延長できません。', romaji: 'Jijō no ikan ni yorazu, kigen wa enchō dekimasen.', de: 'Ungeachtet der Umstände kann die Frist nicht verlängert werden.' },
+            { jp: '成功するか否かは、努力いかんにかかっている。', romaji: 'Seikō suru ka ina ka wa, doryoku ikan ni kakatte iru.', de: 'Ob man Erfolg hat oder nicht, hängt davon ab, wie man sich anstrengt.' }
+          ],
+          tip: '～いかんによらず/にかかわらず = „egal wie" (Ergebnis ist fest). ～いかんにかかっている/によって = „hängt davon ab, wie" (Ergebnis ist variabel). Beachte den wichtigen Bedeutungsunterschied!'
+        }
+      ]
+    },
+    // ===================== LEKTION 57 =====================
+    {
+      id: 'lesson-57',
+      number: 57,
+      title: '～極まりない / ～の極み / ～の至り / ～限りだ',
+      subtitle: 'Das Äußerste',
+      level: 'N1',
+      intro: 'In dieser Lektion beschäftigen wir uns mit vier Ausdrücken, die alle den höchsten Grad oder das Extrem einer Eigenschaft oder eines Gefühls beschreiben. Sie bedeuten alle ungefähr „äußerst, im höchsten Maße, der Gipfel von...", unterscheiden sich aber in Verwendung und Nuance. ～極まりない ist ein starker Ausdruck für extreme Eigenschaften, ～の極み beschreibt den absoluten Höhepunkt eines Zustands, ～の至り drückt tiefe persönliche Empfindungen aus (besonders in festen Wendungen), und ～限りだ beschreibt ein Gefühl, das stärker nicht sein könnte. Diese Ausdrücke sind für die N1-Prüfung essentiell und verleihen formellen Texten und Reden besonderen Nachdruck.',
+      sections: [
+        {
+          heading: '～極まりない / ～極まる — Äußerst / Im höchsten Maße',
+          text: '～極まりない (きわまりない) und ～極まる (きわまる) bedeuten „äußerst" oder „grenzenlos" und drücken aus, dass eine Eigenschaft ihr <strong>absolutes Maximum</strong> erreicht hat. 極まる bedeutet „an die Grenze kommen", und die Verneinung 極まりない bedeutet paradoxerweise dasselbe — „es gibt keine Grenze, so extrem ist es". Die Konstruktion ist: <strong>な-Adjektiv (Stamm) + 極まりない/極まる</strong>. Dieser Ausdruck wird häufig mit negativen Adjektiven verwendet (gefährlich, unhöflich, dumm), kann aber auch positiv sein.',
+          examples: [
+            { jp: 'あの運転は危険極まりない。', romaji: 'Ano unten wa kiken kiwamarinai.', de: 'Dieses Fahrverhalten ist äußerst gefährlich.' },
+            { jp: '彼の態度は失礼極まる。', romaji: 'Kare no taido wa shitsurei kiwamaru.', de: 'Sein Verhalten ist im höchsten Maße unhöflich.' },
+            { jp: 'そのような発言は不謹慎極まりない。', romaji: 'Sono yō na hatsugen wa fukinsin kiwamarinai.', de: 'Solche Äußerungen sind äußerst taktlos.' },
+            { jp: '彼女の歌声は感動的極まりないものだった。', romaji: 'Kanojo no utagoe wa kandōteki kiwamarinai mono datta.', de: 'Ihre Singstimme war überaus bewegend.' }
+          ],
+          tip: '極まりない und 極まる sind austauschbar, wobei 極まりない etwas häufiger verwendet wird. Beachte: Es wird nur mit な-Adjektiven verwendet, nicht mit い-Adjektiven.'
+        },
+        {
+          heading: '～の極み — Der Gipfel von / Der Inbegriff von',
+          text: '～の極み (きわみ) bedeutet „der Gipfel" oder „der Inbegriff" und beschreibt den <strong>absoluten Höhepunkt</strong> eines Zustands oder einer Eigenschaft. Es wird als feste Wendung mit bestimmten Nomen verwendet und hat einen sehr feierlichen, gehobenen Klang. Die Konstruktion ist: <strong>Nomen + の極み</strong>. Besonders häufige Verbindungen sind: 贅沢の極み (der Gipfel des Luxus), 疲労の極み (völlige Erschöpfung), 幸せの極み (das höchste Glück). In der Alltagssprache kennt man es auch als Teil von 感極まる (von Emotionen überwältigt werden).',
+          examples: [
+            { jp: 'この料理は贅沢の極みだ。', romaji: 'Kono ryōri wa zeitaku no kiwami da.', de: 'Dieses Gericht ist der Gipfel des Luxus.' },
+            { jp: '疲労の極みに達して、彼はその場に倒れた。', romaji: 'Hirō no kiwami ni tasshite, kare wa sono ba ni taoreta.', de: 'Am Gipfel der Erschöpfung angekommen, brach er an Ort und Stelle zusammen.' },
+            { jp: '優勝の瞬間、感極まって涙を流した。', romaji: 'Yūshō no shunkan, kan kiwamatte namida wo nagashita.', de: 'Im Moment des Sieges wurde er von seinen Gefühlen überwältigt und vergoss Tränen.' },
+            { jp: '技術の極みとも言える作品だ。', romaji: 'Gijutsu no kiwami to mo ieru sakuhin da.', de: 'Es ist ein Werk, das man als den Höhepunkt der Handwerkskunst bezeichnen kann.' }
+          ],
+          tip: '～の極み klingt sehr poetisch und feierlich. Es wird oft in Reden, Bewertungen und literarischen Beschreibungen verwendet.'
+        },
+        {
+          heading: '～の至り — Tiefe Empfindung (formelle Wendungen)',
+          text: '～の至り (いたり) bedeutet wörtlich „das Äußerste von" und wird in <strong>festen Wendungen</strong> verwendet, um tiefe persönliche Empfindungen auszudrücken, besonders in formellen Situationen wie Reden, Briefen und offiziellen Anlässen. 至り kommt vom Verb 至る (itaru, „erreichen") und bedeutet hier „der höchste Grad". Die wichtigsten festen Verbindungen sind: 光栄の至り (die höchste Ehre), 恐縮の至り (es ist mir äußerst unangenehm), 若気の至り (Jugendtorheit), 赤面の至り (zum Erröten). Die Konstruktion ist: <strong>Nomen + の至り</strong>.',
+          examples: [
+            { jp: 'お招きいただき、光栄の至りでございます。', romaji: 'Omaneki itadaki, kōei no itari de gozaimasu.', de: 'Es ist mir die höchste Ehre, eingeladen worden zu sein.' },
+            { jp: 'お忙しいところ恐縮の至りですが、お願いがございます。', romaji: 'Oisogashii tokoro kyōshuku no itari desu ga, onegai ga gozaimasu.', de: 'Es ist mir äußerst unangenehm, Sie in Ihrer beschäftigten Zeit zu stören, aber ich habe eine Bitte.' },
+            { jp: 'あの頃の失敗は若気の至りだった。', romaji: 'Ano koro no shippai wa wakage no itari datta.', de: 'Die Fehler von damals waren Jugendtorheiten.' },
+            { jp: '自分の無知を思うと赤面の至りです。', romaji: 'Jibun no muchi wo omou to sekimen no itari desu.', de: 'Wenn ich an meine Unwissenheit denke, ist es zum Erröten.' }
+          ],
+          tip: '～の至り kommt fast nur in festen Wendungen vor. Lerne diese als Ganzes auswendig — besonders 光栄の至り und 若気の至り erscheinen häufig in der N1-Prüfung.'
+        },
+        {
+          heading: '～限りだ — So... wie nur möglich (persönliche Empfindung)',
+          text: '～限りだ (かぎりだ) drückt aus, dass ein Gefühl so stark ist, dass es <strong>stärker nicht sein könnte</strong>. Es wird verwendet, um persönliche, subjektive Empfindungen zu beschreiben — der Sprecher fühlt etwas im höchsten Maße. Die Konstruktion ist: <strong>い-Adjektiv + 限りだ</strong> oder <strong>な-Adjektiv + な + 限りだ</strong>. Typische Adjektive sind: うらやましい (beneidenswert), 心強い (ermutigend), うれしい (erfreulich), 残念な (bedauerlich), 心細い (ängstlich, unsicher).',
+          examples: [
+            { jp: '海外で活躍している彼が羨ましい限りだ。', romaji: 'Kaigai de katsuyaku shite iru kare ga urayamashii kagiri da.', de: 'Ich beneide ihn, der im Ausland so erfolgreich ist, auf das Äußerste.' },
+            { jp: '皆様のご支援をいただけるとは、心強い限りです。', romaji: 'Minasama no go-shien wo itadakeru to wa, kokorozuyoi kagiri desu.', de: 'Dass ich Ihre Unterstützung erhalten kann, ist äußerst ermutigend.' },
+            { jp: '息子が無事に戻ってきて、嬉しい限りだ。', romaji: 'Musuko ga buji ni modotte kite, ureshii kagiri da.', de: 'Dass mein Sohn wohlbehalten zurückgekehrt ist, macht mich unendlich froh.' },
+            { jp: 'このような素晴らしい賞をいただけるとは、喜ばしい限りです。', romaji: 'Kono yō na subarashii shō wo itadakeru to wa, yorokobashii kagiri desu.', de: 'Dass ich einen so wunderbaren Preis erhalten kann, ist höchst erfreulich.' }
+          ],
+          tip: 'Vergleich: ～極まりない = objektive Extrembewertung (な-Adj.), ～の極み = poetischer Höhepunkt, ～の至り = feste formelle Wendungen, ～限りだ = persönliches Extrem-Gefühl (い/な-Adj.).'
+        }
+      ]
+    },
+    // ===================== LEKTION 58 =====================
+    {
+      id: 'lesson-58',
+      number: 58,
+      title: 'N1 Formales Schriftjapanisch',
+      subtitle: 'Offiziell, förmlich, unverzichtbar',
+      level: 'N1',
+      intro: 'Diese abschließende Lektion behandelt fünf formelle Ausdrücke, die in offiziellen Dokumenten, Nachrichtenartikeln, akademischen Texten und Geschäftskorrespondenz allgegenwärtig sind. Sie bilden das Rückgrat des gehobenen Schriftjapanisch und sind für das Verständnis formeller Texte unerlässlich. ～において/における markiert den Rahmen oder Kontext einer Aussage, ～に即して bedeutet „in Übereinstimmung mit" der Realität, ～に準じて bedeutet „gemäß" einer Regel oder einem Standard, und ～をもって gibt das Mittel, den Zeitpunkt oder den Grund an. Diese Ausdrücke erscheinen in nahezu jedem N1-Lesetext und sind für eine erfolgreiche Prüfung unverzichtbar.',
+      sections: [
+        {
+          heading: '～において / ～における — In / Bei / Im Bereich von',
+          text: '～において und ～における sind die formellen Entsprechungen von ～で (Ort, Bereich, Zeitpunkt). <strong>～において</strong> wird adverbial verwendet (am Ende einer Bestimmung), während <strong>～における</strong> attributiv verwendet wird (vor einem Nomen). Sie markieren den <em>Rahmen</em>, <em>Kontext</em> oder <em>Bereich</em>, in dem etwas stattfindet — sei es ein physischer Ort, ein Fachgebiet, eine Zeitperiode oder eine Situation. Die Konstruktion ist: <strong>Nomen + において/における</strong>. Diese Ausdrücke sind in Nachrichtenartikeln, akademischen Texten und offiziellen Dokumenten extrem häufig.',
+          examples: [
+            { jp: '本会議は東京において開催される。', romaji: 'Hon kaigi wa Tōkyō ni oite kaisai sareru.', de: 'Diese Konferenz wird in Tokio abgehalten.' },
+            { jp: '現代社会における技術の役割は計り知れない。', romaji: 'Gendai shakai ni okeru gijutsu no yakuwari wa hakarishirenai.', de: 'Die Rolle der Technologie in der modernen Gesellschaft ist unermesslich.' },
+            { jp: '教育の分野において、日本は高い水準を維持している。', romaji: 'Kyōiku no bun\'ya ni oite, Nihon wa takai suijun wo iji shite iru.', de: 'Im Bereich der Bildung hält Japan ein hohes Niveau aufrecht.' },
+            { jp: '歴史における最大の転換点のひとつだった。', romaji: 'Rekishi ni okeru saidai no tenkanten no hitotsu datta.', de: 'Es war einer der größten Wendepunkte in der Geschichte.' },
+            { jp: '本件においては、慎重な対応が求められる。', romaji: 'Honken ni oite wa, shinchō na taiō ga motomerareru.', de: 'In dieser Angelegenheit ist eine behutsame Vorgehensweise erforderlich.' }
+          ],
+          tip: '～において = ～で (formell). ～における = ～での (formell, vor Nomen). Diese Umwandlung hilft beim Verständnis: 学校で → 学校において, 学校での → 学校における.'
+        },
+        {
+          heading: '～に即して / ～に即した — In Übereinstimmung mit / Entsprechend der Realität',
+          text: '～に即して (にそくして) bedeutet „in Übereinstimmung mit" oder „angepasst an" und betont, dass etwas auf der <strong>tatsächlichen Realität, Praxis oder konkreten Umständen</strong> basiert — nicht auf Theorie oder Idealvorstellungen. 即する (sokusuru) bedeutet „entsprechen, sich anpassen". <strong>～に即して</strong> wird adverbial verwendet, <strong>～に即した</strong> attributiv (vor einem Nomen). Die Konstruktion ist: <strong>Nomen + に即して/に即した</strong>. Typische Nomen sind: 現実 (Realität), 実態 (tatsächlicher Zustand), 実情 (reale Umstände), 法律 (Gesetz).',
+          examples: [
+            { jp: '現実に即した対策を講じる必要がある。', romaji: 'Genjitsu ni sokushita taisaku wo kōjiru hitsuyō ga aru.', de: 'Es ist notwendig, realitätsnahe Gegenmaßnahmen zu ergreifen.' },
+            { jp: '時代に即して、法律を改正すべきだ。', romaji: 'Jidai ni sokushite, hōritsu wo kaisei subeki da.', de: 'Man sollte die Gesetze entsprechend der Zeit reformieren.' },
+            { jp: '地域の実情に即した教育が求められている。', romaji: 'Chiiki no jitsujō ni sokushita kyōiku ga motomerarete iru.', de: 'Es wird eine Bildung gefordert, die den tatsächlichen Verhältnissen der Region entspricht.' },
+            { jp: 'データに即して判断を下すべきである。', romaji: 'Dēta ni sokushite handan wo kudasu beki de aru.', de: 'Man sollte auf Grundlage der Daten urteilen.' }
+          ],
+          tip: '～に即して betont die Verbindung zur Realität. Es wird oft verwendet, wenn man kritisiert, dass etwas zu theoretisch ist, und fordert, sich an die Wirklichkeit anzupassen.'
+        },
+        {
+          heading: '～に準じて / ～に準ずる — Gemäß / Entsprechend (einem Standard)',
+          text: '～に準じて (にじゅんじて) bedeutet „gemäß", „entsprechend" oder „analog zu" und drückt aus, dass etwas nach einem bestimmten <strong>Standard, einer Regel oder einem Vorbild</strong> behandelt wird. 準じる (junjiru) bedeutet „sich richten nach, entsprechen". Im Gegensatz zu ～に即して, das sich auf die Realität bezieht, bezieht sich ～に準じて auf <strong>Regeln, Normen und bestehende Systeme</strong>. <strong>～に準ずる</strong> ist die attributive Form (vor Nomen). Die Konstruktion ist: <strong>Nomen + に準じて/に準ずる</strong>. Dieser Ausdruck ist besonders häufig in Verträgen, Arbeitsrichtlinien und Gesetzestexten.',
+          examples: [
+            { jp: 'パートタイムの社員も正社員に準じた待遇を受ける。', romaji: 'Pāto taimu no shain mo seishain ni junjita taigū wo ukeru.', de: 'Auch Teilzeitmitarbeiter erhalten eine Behandlung entsprechend der Festangestellten.' },
+            { jp: '前例に準じて処理してください。', romaji: 'Zenrei ni junjite shori shite kudasai.', de: 'Bitte bearbeiten Sie es gemäß dem Präzedenzfall.' },
+            { jp: '管理職に準ずる立場の社員も対象となる。', romaji: 'Kanrishoku ni junzuru tachiba no shain mo taishō to naru.', de: 'Auch Mitarbeiter in einer Stellung, die einer Führungsposition entspricht, fallen darunter.' },
+            { jp: '本規則は国際基準に準じて策定された。', romaji: 'Hon kisoku wa kokusai kijun ni junjite sakutei sareta.', de: 'Diese Verordnung wurde gemäß internationaler Standards erstellt.' }
+          ],
+          tip: 'Unterschied: ～に即して = an die Realität angepasst (flexibel). ～に準じて = gemäß einem bestehenden Standard (regelbasiert). Beides ist formell, aber der Bezugspunkt ist verschieden.'
+        },
+        {
+          heading: '～をもって — Mit / Durch / Ab (Mittel, Zeitpunkt, Grund)',
+          text: '～をもって ist ein vielseitiger formeller Ausdruck mit drei Hauptbedeutungen. <strong>Erstens</strong> gibt er das <em>Mittel</em> oder die <em>Methode</em> an: „mit, durch" (formelle Version von ～で). <strong>Zweitens</strong> markiert er einen <em>Zeitpunkt</em>: „ab, mit" — besonders bei offiziellen Terminen und Fristen. <strong>Drittens</strong> gibt er den <em>Grund</em> oder die <em>Grundlage</em> an. Die Konstruktion ist: <strong>Nomen + をもって</strong>. Dieser Ausdruck ist in Geschäftsbriefen, offiziellen Ankündigungen und formellen Mitteilungen äußerst verbreitet.',
+          examples: [
+            { jp: '書面をもってご連絡いたします。', romaji: 'Shomen wo motte go-renraku itashimasu.', de: 'Wir werden Sie schriftlich benachrichtigen.' },
+            { jp: '本日をもって、このサービスは終了いたします。', romaji: 'Honjitsu wo motte, kono sābisu wa shūryō itashimasu.', de: 'Mit dem heutigen Tag wird dieser Service eingestellt.' },
+            { jp: '誠意をもって対応させていただきます。', romaji: 'Seii wo motte taiō sasete itadakimasu.', de: 'Wir werden mit Aufrichtigkeit darauf reagieren.' },
+            { jp: '多数決をもって決定する。', romaji: 'Tasūketsu wo motte kettei suru.', de: 'Es wird durch Mehrheitsbeschluss entschieden.' },
+            { jp: '以上をもちまして、本日の会議を終了いたします。', romaji: 'Ijō wo mochimashite, honjitsu no kaigi wo shūryō itashimasu.', de: 'Hiermit beenden wir die heutige Konferenz.' }
+          ],
+          tip: 'Die höfliche Form をもちまして wird besonders häufig am Ende von Veranstaltungen und Zeremonien verwendet: 以上をもちまして... (Hiermit...). Lerne diese Wendung als feste Formel.'
+        }
+      ]
     }
   ];
 
