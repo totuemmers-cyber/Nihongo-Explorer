@@ -448,34 +448,53 @@ body {
   border-color: var(--text);
 }
 
-.filter-btn.n5:hover, .filter-btn.n5.active {
-  background: var(--n5);
-  color: white;
-  border-color: var(--n5);
-}
+/* Color-coded filter buttons: set --btn-color, then one generic rule applies */
+.filter-btn.n5 { --btn-color: var(--n5); }
+.filter-btn.n4 { --btn-color: var(--n4); }
+.filter-btn.n3 { --btn-color: var(--n3); }
+.filter-btn.n2 { --btn-color: var(--n2); }
+.filter-btn.n1 { --btn-color: var(--n1); }
 
-.filter-btn.n4:hover, .filter-btn.n4.active {
-  background: var(--n4);
-  color: white;
-  border-color: var(--n4);
-}
+.filter-btn.cat-partikel { --btn-color: var(--cat-partikel); }
+.filter-btn.cat-verben { --btn-color: var(--cat-verben); }
+.filter-btn.cat-adjektive { --btn-color: var(--cat-adjektive); }
+.filter-btn.cat-satzstrukturen { --btn-color: var(--cat-satzstrukturen); }
+.filter-btn.cat-keigo { --btn-color: var(--cat-keigo); }
 
-.filter-btn.n3:hover, .filter-btn.n3.active {
-  background: var(--n3);
-  color: white;
-  border-color: var(--n3);
-}
+.filter-btn.vt-nomen { --btn-color: var(--vt-nomen); }
+.filter-btn.vt-verb { --btn-color: var(--vt-verb); }
+.filter-btn.vt-adjektiv { --btn-color: var(--vt-adjektiv); }
+.filter-btn.vt-adverb { --btn-color: var(--vt-adverb); }
+.filter-btn.vt-ausdruck { --btn-color: var(--vt-ausdruck); }
+.filter-btn.vt-partikel { --btn-color: var(--vt-partikel); }
+.filter-btn.vt-yojijukugo { --btn-color: var(--vt-yojijukugo); }
+.filter-btn.vt-redewendung { --btn-color: var(--vt-redewendung); }
+.filter-btn.vt-sprichwort { --btn-color: var(--vt-sprichwort); }
 
-.filter-btn.n2:hover, .filter-btn.n2.active {
-  background: var(--n2);
-  color: white;
-  border-color: var(--n2);
-}
+.filter-btn.oc-geräusche { --btn-color: var(--oc-geräusche); }
+.filter-btn.oc-zustände { --btn-color: var(--oc-zustände); }
+.filter-btn.oc-gefühle { --btn-color: var(--oc-gefühle); }
+.filter-btn.oc-bewegung { --btn-color: var(--oc-bewegung); }
 
-.filter-btn.n1:hover, .filter-btn.n1.active {
-  background: var(--n1);
+.filter-btn.cc-menschen { --btn-color: var(--cc-menschen); }
+.filter-btn.cc-objekte { --btn-color: var(--cc-objekte); }
+.filter-btn.cc-tiere { --btn-color: var(--cc-tiere); }
+.filter-btn.cc-zeit { --btn-color: var(--cc-zeit); }
+.filter-btn.cc-essen { --btn-color: var(--vt-ausdruck); }
+.filter-btn.cc-gebaeude { --btn-color: var(--cat-satzstrukturen); }
+.filter-btn.cc-transport { --btn-color: var(--n1); }
+.filter-btn.cc-sprache { --btn-color: var(--cat-verben); }
+.filter-btn.cc-gruppen { --btn-color: var(--oc-zustände); }
+.filter-btn.cc-ereignisse { --btn-color: var(--oc-gefühle); }
+.filter-btn.cc-natur { --btn-color: var(--n5); }
+.filter-btn.cc-medizin { --btn-color: var(--n2); }
+
+/* Generic rule for color-coded filter buttons (those with --btn-color set) */
+.filter-btn:where(.n5,.n4,.n3,.n2,.n1,.cat-partikel,.cat-verben,.cat-adjektive,.cat-satzstrukturen,.cat-keigo,.vt-nomen,.vt-verb,.vt-adjektiv,.vt-adverb,.vt-ausdruck,.vt-partikel,.vt-yojijukugo,.vt-redewendung,.vt-sprichwort,.oc-geräusche,.oc-zustände,.oc-gefühle,.oc-bewegung,.cc-menschen,.cc-objekte,.cc-tiere,.cc-zeit,.cc-essen,.cc-gebaeude,.cc-transport,.cc-sprache,.cc-gruppen,.cc-ereignisse,.cc-natur,.cc-medizin):hover,
+.filter-btn:where(.n5,.n4,.n3,.n2,.n1,.cat-partikel,.cat-verben,.cat-adjektive,.cat-satzstrukturen,.cat-keigo,.vt-nomen,.vt-verb,.vt-adjektiv,.vt-adverb,.vt-ausdruck,.vt-partikel,.vt-yojijukugo,.vt-redewendung,.vt-sprichwort,.oc-geräusche,.oc-zustände,.oc-gefühle,.oc-bewegung,.cc-menschen,.cc-objekte,.cc-tiere,.cc-zeit,.cc-essen,.cc-gebaeude,.cc-transport,.cc-sprache,.cc-gruppen,.cc-ereignisse,.cc-natur,.cc-medizin).active {
+  background: var(--btn-color);
   color: white;
-  border-color: var(--n1);
+  border-color: var(--btn-color);
 }
 
 .sort-controls select {
@@ -1088,6 +1107,53 @@ main {
   background: rgba(99, 102, 241, 0.08);
 }
 
+/* === KANA TOGGLE === */
+.kana-toggle {
+  display: flex;
+  gap: 4px;
+  padding: 8px 0 12px;
+  justify-content: center;
+}
+
+.kana-toggle-btn {
+  padding: 8px 20px;
+  border: 2px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-jp);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.kana-toggle-btn:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.kana-toggle-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* Both mode: two characters stacked */
+.kana-both .kana-cell-inner {
+  gap: 0;
+}
+
+.kana-char-h {
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+
+.kana-char-k {
+  font-size: 0.95rem;
+  opacity: 0.7;
+}
+
 /* === TAB BAR === */
 .tab-bar {
   display: flex;
@@ -1133,36 +1199,7 @@ main {
   background: rgba(99,102,241,0.08);
 }
 
-/* === GRAMMAR CATEGORY FILTER BUTTONS === */
-.filter-btn.cat-partikel:hover, .filter-btn.cat-partikel.active {
-  background: var(--cat-partikel);
-  color: white;
-  border-color: var(--cat-partikel);
-}
-
-.filter-btn.cat-verben:hover, .filter-btn.cat-verben.active {
-  background: var(--cat-verben);
-  color: white;
-  border-color: var(--cat-verben);
-}
-
-.filter-btn.cat-adjektive:hover, .filter-btn.cat-adjektive.active {
-  background: var(--cat-adjektive);
-  color: white;
-  border-color: var(--cat-adjektive);
-}
-
-.filter-btn.cat-satzstrukturen:hover, .filter-btn.cat-satzstrukturen.active {
-  background: var(--cat-satzstrukturen);
-  color: white;
-  border-color: var(--cat-satzstrukturen);
-}
-
-.filter-btn.cat-keigo:hover, .filter-btn.cat-keigo.active {
-  background: var(--cat-keigo);
-  color: white;
-  border-color: var(--cat-keigo);
-}
+/* Grammar/vocab/ono/counter filter button colors now handled by generic --btn-color rule above */
 
 /* === GRAMMAR GRID === */
 .grammar-grid {
@@ -1711,61 +1748,6 @@ main {
   }
 }
 
-/* === VOCAB TYPE FILTER BUTTONS === */
-.filter-btn.vt-nomen:hover, .filter-btn.vt-nomen.active {
-  background: var(--vt-nomen);
-  color: white;
-  border-color: var(--vt-nomen);
-}
-
-.filter-btn.vt-verb:hover, .filter-btn.vt-verb.active {
-  background: var(--vt-verb);
-  color: white;
-  border-color: var(--vt-verb);
-}
-
-.filter-btn.vt-adjektiv:hover, .filter-btn.vt-adjektiv.active {
-  background: var(--vt-adjektiv);
-  color: white;
-  border-color: var(--vt-adjektiv);
-}
-
-.filter-btn.vt-adverb:hover, .filter-btn.vt-adverb.active {
-  background: var(--vt-adverb);
-  color: white;
-  border-color: var(--vt-adverb);
-}
-
-.filter-btn.vt-ausdruck:hover, .filter-btn.vt-ausdruck.active {
-  background: var(--vt-ausdruck);
-  color: white;
-  border-color: var(--vt-ausdruck);
-}
-
-.filter-btn.vt-partikel:hover, .filter-btn.vt-partikel.active {
-  background: var(--vt-partikel);
-  color: white;
-  border-color: var(--vt-partikel);
-}
-
-.filter-btn.vt-yojijukugo:hover, .filter-btn.vt-yojijukugo.active {
-  background: var(--vt-yojijukugo);
-  color: white;
-  border-color: var(--vt-yojijukugo);
-}
-
-.filter-btn.vt-redewendung:hover, .filter-btn.vt-redewendung.active {
-  background: var(--vt-redewendung);
-  color: white;
-  border-color: var(--vt-redewendung);
-}
-
-.filter-btn.vt-sprichwort:hover, .filter-btn.vt-sprichwort.active {
-  background: var(--vt-sprichwort);
-  color: white;
-  border-color: var(--vt-sprichwort);
-}
-
 /* === VOCAB GRID === */
 .vocab-grid {
   display: grid;
@@ -2019,35 +2001,6 @@ main {
   border: 1px solid var(--border);
 }
 
-/* === FILTER BUTTON CATEGORY COLORS === */
-.filter-btn.oc-geräusche.active,
-.filter-btn.oc-geräusche:hover {
-  background: var(--oc-geräusche);
-  color: white;
-  border-color: var(--oc-geräusche);
-}
-
-.filter-btn.oc-zustände.active,
-.filter-btn.oc-zustände:hover {
-  background: var(--oc-zustände);
-  color: white;
-  border-color: var(--oc-zustände);
-}
-
-.filter-btn.oc-gefühle.active,
-.filter-btn.oc-gefühle:hover {
-  background: var(--oc-gefühle);
-  color: white;
-  border-color: var(--oc-gefühle);
-}
-
-.filter-btn.oc-bewegung.active,
-.filter-btn.oc-bewegung:hover {
-  background: var(--oc-bewegung);
-  color: white;
-  border-color: var(--oc-bewegung);
-}
-
 /* === ONOMATOPOEIA DETAIL === */
 .ono-detail-panel {
   max-width: 650px;
@@ -2136,6 +2089,24 @@ main {
 }
 
 /* === RESPONSIVE === */
+@media (max-width: 640px) {
+  .tab-bar {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .tab-bar::-webkit-scrollbar {
+    display: none;
+  }
+  .tab-btn {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+}
+
 @media (max-width: 479px) {
   .grammar-grid, .vocab-grid, .ono-grid {
     grid-template-columns: 1fr;
@@ -2146,6 +2117,10 @@ main {
   .tab-btn {
     padding: 8px 12px;
     font-size: 0.8rem;
+  }
+  .kana-toggle-btn {
+    padding: 6px 14px;
+    font-size: 0.85rem;
   }
 }
 
@@ -2463,31 +2438,6 @@ main {
   --cc-zeit: var(--n3);
   --cc-zeit-bg: var(--n3-bg);
   --cc-zeit-border: var(--n3-border);
-}
-
-/* Filter buttons */
-.filter-btn.cc-menschen:hover, .filter-btn.cc-menschen.active {
-  background: var(--cc-menschen);
-  color: white;
-  border-color: var(--cc-menschen);
-}
-
-.filter-btn.cc-objekte:hover, .filter-btn.cc-objekte.active {
-  background: var(--cc-objekte);
-  color: white;
-  border-color: var(--cc-objekte);
-}
-
-.filter-btn.cc-tiere:hover, .filter-btn.cc-tiere.active {
-  background: var(--cc-tiere);
-  color: white;
-  border-color: var(--cc-tiere);
-}
-
-.filter-btn.cc-zeit:hover, .filter-btn.cc-zeit.active {
-  background: var(--cc-zeit);
-  color: white;
-  border-color: var(--cc-zeit);
 }
 
 /* Basic numbers section */

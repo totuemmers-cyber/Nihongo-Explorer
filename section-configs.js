@@ -48,6 +48,41 @@ function getKanjiByRadical() {
   return _kanjiByRadical;
 }
 
+// === Shared Card & Detail Utilities ===
+
+function createBaseCard(className, innerHTML, index, section) {
+  var card = document.createElement('div');
+  card.className = className;
+  card.tabIndex = 0;
+  card.setAttribute('role', 'button');
+  card.innerHTML = innerHTML;
+  function activate() {
+    if (window.app) window.app.playTick();
+    section.openDetail(index);
+  }
+  card.addEventListener('click', activate);
+  card.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
+  });
+  return card;
+}
+
+var speakSvgHtml = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
+
+function createSpeakButton(headerSelector, text) {
+  var header = document.querySelector(headerSelector);
+  var oldBtn = header.querySelector('.btn-speak');
+  if (oldBtn) oldBtn.remove();
+  var speakBtn = document.createElement('button');
+  speakBtn.className = 'btn btn-icon btn-speak';
+  speakBtn.title = 'Aussprache';
+  speakBtn.innerHTML = speakSvgHtml;
+  speakBtn.addEventListener('click', function () {
+    if (window.app) window.app.speakJP(text);
+  });
+  header.appendChild(speakBtn);
+}
+
 function renderExamplesOrEmpty(elementId, examples) {
   var el = document.getElementById(elementId);
   if (examples && examples.length > 0) {
@@ -181,23 +216,11 @@ SECTION_CONFIGS.kanji = {
   },
 
   createCard: function (k, index, section) {
-    var card = document.createElement('div');
-    card.className = 'kanji-card';
-    card.tabIndex = 0;
-    card.setAttribute('role', 'button');
-    card.innerHTML =
+    return createBaseCard('kanji-card',
       '<span class="card-level ' + k.jlpt + '">' + k.jlpt + '</span>' +
       '<span class="card-kanji">' + k.kanji + '</span>' +
-      '<span class="card-meaning">' + k.meanings[0] + '</span>';
-    function activate() {
-      if (window.app) window.app.playTick();
-      section.openDetail(index);
-    }
-    card.addEventListener('click', activate);
-    card.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
-    });
-    return card;
+      '<span class="card-meaning">' + k.meanings[0] + '</span>',
+      index, section);
   },
 
   openDetail: function (k, dom, section) {
@@ -403,17 +426,12 @@ SECTION_CONFIGS.grammar = {
   },
 
   createCard: function (g, index, section) {
-    var card = document.createElement('div');
-    card.className = 'grammar-card';
-    card.tabIndex = 0;
-    card.setAttribute('role', 'button');
-
     var exampleText = '';
     if (g.examples && g.examples.length > 0) {
       exampleText = g.examples[0].japanese;
     }
 
-    card.innerHTML =
+    var card = createBaseCard('grammar-card',
       '<div class="grammar-card-header">' +
         '<span class="grammar-card-pattern">' + g.pattern + '</span>' +
         '<div class="grammar-card-badges">' +
@@ -422,16 +440,8 @@ SECTION_CONFIGS.grammar = {
         '</div>' +
       '</div>' +
       '<div class="grammar-card-meaning">' + g.meaning + '</div>' +
-      (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : '');
-
-    function activate() {
-      if (window.app) window.app.playTick();
-      section.openDetail(index);
-    }
-    card.addEventListener('click', activate);
-    card.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
-    });
+      (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : ''),
+      index, section);
     return card;
   },
 
@@ -563,12 +573,7 @@ SECTION_CONFIGS.vocab = {
   },
 
   createCard: function (v, index, section) {
-    var card = document.createElement('div');
-    card.className = 'vocab-card';
-    card.tabIndex = 0;
-    card.setAttribute('role', 'button');
-
-    card.innerHTML =
+    return createBaseCard('vocab-card',
       '<div class="vocab-card-header">' +
         '<span class="vocab-card-word">' + v.word + '</span>' +
         '<div class="vocab-card-badges">' +
@@ -577,17 +582,8 @@ SECTION_CONFIGS.vocab = {
         '</div>' +
       '</div>' +
       '<div class="vocab-card-reading">' + (v.reading || '') + '</div>' +
-      '<div class="vocab-card-meaning">' + v.meaning + '</div>';
-
-    function activate() {
-      if (window.app) window.app.playTick();
-      section.openDetail(index);
-    }
-    card.addEventListener('click', activate);
-    card.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
-    });
-    return card;
+      '<div class="vocab-card-meaning">' + v.meaning + '</div>',
+      index, section);
   },
 
   openDetail: function (v, dom, section) {
@@ -600,17 +596,7 @@ SECTION_CONFIGS.vocab = {
     typeBadge.className = 'vocab-type-badge ' + v.type;
 
     // Speak button
-    var header = document.querySelector('.vocab-detail-header');
-    var oldBtn = header.querySelector('.btn-speak');
-    if (oldBtn) oldBtn.remove();
-    var speakBtn = document.createElement('button');
-    speakBtn.className = 'btn btn-icon btn-speak';
-    speakBtn.title = 'Aussprache';
-    speakBtn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
-    speakBtn.addEventListener('click', function () {
-      if (window.app) window.app.speakJP(v.word);
-    });
-    header.appendChild(speakBtn);
+    createSpeakButton('.vocab-detail-header', v.word);
 
     document.getElementById('vocab-detail-reading').textContent = v.reading || '';
     document.getElementById('vocab-detail-romaji').textContent = v.romaji || '';
@@ -789,11 +775,6 @@ SECTION_CONFIGS.counters = {
   sortFn: null,
 
   createCard: function (c, index, section) {
-    var card = document.createElement('div');
-    card.className = 'counter-card';
-    card.tabIndex = 0;
-    card.setAttribute('role', 'button');
-
     var previewHtml = '';
     if (c.counts) {
       var previews = c.counts.slice(0, 5).map(function (ct) {
@@ -803,24 +784,15 @@ SECTION_CONFIGS.counters = {
       previewHtml = '<div class="counter-card-preview">' + previews.join('') + '</div>';
     }
 
-    card.innerHTML =
+    return createBaseCard('counter-card',
       '<div class="counter-card-header">' +
         '<span class="counter-card-kanji">' + c.kanji + '</span>' +
         '<span class="counter-card-badge ' + c.category + '">' + c.category + '</span>' +
       '</div>' +
       '<div class="counter-card-reading">' + c.reading + ' (' + c.romaji + ')</div>' +
       '<div class="counter-card-meaning">' + c.meaning + '</div>' +
-      previewHtml;
-
-    function activate() {
-      if (window.app) window.app.playTick();
-      section.openDetail(index);
-    }
-    card.addEventListener('click', activate);
-    card.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
-    });
-    return card;
+      previewHtml,
+      index, section);
   },
 
   openDetail: function (c, dom, section) {
@@ -940,27 +912,13 @@ SECTION_CONFIGS.radicals = {
   sortFn: null,
 
   createCard: function (r, index, section) {
-    var card = document.createElement('div');
-    card.className = 'radical-card';
-    card.tabIndex = 0;
-    card.setAttribute('role', 'button');
-
-    card.innerHTML =
+    return createBaseCard('radical-card',
       '<span class="radical-card-number">#' + r.number + '</span>' +
       '<span class="radical-card-strokes">' + r.strokes + '\u753B</span>' +
       '<span class="radical-card-char">' + r.radical + '</span>' +
       '<span class="radical-card-meaning">' + r.meaning + '</span>' +
-      '<span class="radical-card-reading">' + r.reading + '</span>';
-
-    function activate() {
-      if (window.app) window.app.playTick();
-      section.openDetail(index);
-    }
-    card.addEventListener('click', activate);
-    card.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
-    });
-    return card;
+      '<span class="radical-card-reading">' + r.reading + '</span>',
+      index, section);
   },
 
   openDetail: function (r, dom, section) {
@@ -1078,28 +1036,14 @@ SECTION_CONFIGS.onomatopoeia = {
   },
 
   createCard: function (o, index, section) {
-    var card = document.createElement('div');
-    card.className = 'ono-card';
-    card.tabIndex = 0;
-    card.setAttribute('role', 'button');
-
-    card.innerHTML =
+    return createBaseCard('ono-card',
       '<div class="ono-card-header">' +
         '<span class="ono-card-word">' + o.word + '</span>' +
         '<span class="ono-category-badge ' + o.category + '">' + o.category + '</span>' +
       '</div>' +
       '<div class="ono-card-reading">' + (o.reading || '') + '</div>' +
-      '<div class="ono-card-meaning">' + o.meaning + '</div>';
-
-    function activate() {
-      if (window.app) window.app.playTick();
-      section.openDetail(index);
-    }
-    card.addEventListener('click', activate);
-    card.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
-    });
-    return card;
+      '<div class="ono-card-meaning">' + o.meaning + '</div>',
+      index, section);
   },
 
   openDetail: function (o, dom, section) {
@@ -1112,17 +1056,7 @@ SECTION_CONFIGS.onomatopoeia = {
     patBadge.className = 'ono-pattern-badge';
 
     // Speak button
-    var header = document.querySelector('.ono-detail-header');
-    var oldBtn = header.querySelector('.btn-speak');
-    if (oldBtn) oldBtn.remove();
-    var speakBtn = document.createElement('button');
-    speakBtn.className = 'btn btn-icon btn-speak';
-    speakBtn.title = 'Aussprache';
-    speakBtn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
-    speakBtn.addEventListener('click', function () {
-      if (window.app) window.app.speakJP(o.word);
-    });
-    header.appendChild(speakBtn);
+    createSpeakButton('.ono-detail-header', o.word);
 
     document.getElementById('ono-detail-reading').textContent = o.reading || '';
     document.getElementById('ono-detail-romaji').textContent = o.romaji || '';

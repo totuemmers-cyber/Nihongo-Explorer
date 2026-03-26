@@ -34,13 +34,9 @@
         </div>
       </div>
       <nav class="tab-bar">
-        <button class="tab-btn active" data-tab="hiragana">
+        <button class="tab-btn active" data-tab="kana">
           <span class="tab-icon-kana">あ</span>
-          Hiragana
-        </button>
-        <button class="tab-btn" data-tab="katakana">
-          <span class="tab-icon-kana">ア</span>
-          Katakana
+          Kana
         </button>
         <button class="tab-btn" data-tab="radicals">
           <span class="tab-icon-kana">部</span>
@@ -330,13 +326,14 @@
           <p>Keine Radikale gefunden.</p>
         </div>
       </div>
-      <!-- Hiragana Tab Content -->
-      <div id="hiragana-tab" class="tab-panel">
-        <div id="hiragana-content" class="kana-content"></div>
-      </div>
-      <!-- Katakana Tab Content -->
-      <div id="katakana-tab" class="tab-panel hidden">
-        <div id="katakana-content" class="kana-content"></div>
+      <!-- Kana Tab Content -->
+      <div id="kana-tab" class="tab-panel">
+        <div class="kana-toggle">
+          <button class="kana-toggle-btn active" data-kana="hiragana">Hiragana</button>
+          <button class="kana-toggle-btn" data-kana="katakana">Katakana</button>
+          <button class="kana-toggle-btn" data-kana="both">Beide</button>
+        </div>
+        <div id="kana-content" class="kana-content"></div>
       </div>
       <!-- Quiz Tab Content -->
       <div id="quiz-tab" class="tab-panel hidden">
