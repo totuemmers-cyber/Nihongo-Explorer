@@ -165,7 +165,7 @@
   function updateCount() {
     var tab = app.activeTab;
     if (tab === 'kana') {
-      var kanaLabels = { hiragana: 'Hiragana', katakana: 'Katakana', both: 'Hiragana & Katakana' };
+      var kanaLabels = { hiragana: 'Hiragana', katakana: 'Katakana' };
       itemCountEl.textContent = kanaLabels[activeKanaMode] || 'Kana';
     } else if (tab === 'quiz') {
       itemCountEl.textContent = 'Quiz';
@@ -390,7 +390,7 @@
   // ==========================================
   function buildKanaTable(rows, mode, colHeaders, isYoon) {
     var table = document.createElement('table');
-    table.className = 'kana-table' + (isYoon ? ' yoon-table' : '') + (mode === 'both' ? ' kana-both' : '');
+    table.className = 'kana-table' + (isYoon ? ' yoon-table' : '');
 
     var thead = document.createElement('thead');
     var headerRow = document.createElement('tr');
@@ -430,21 +430,10 @@
           inner.style.background = isDark ? rowColor.darkBg : rowColor.bg;
           inner.style.borderColor = isDark ? rowColor.darkBorder : rowColor.border;
 
-          if (mode === 'both') {
-            var hSpan = document.createElement('span');
-            hSpan.className = 'kana-char kana-char-h';
-            hSpan.textContent = ch.h;
-            var kSpan = document.createElement('span');
-            kSpan.className = 'kana-char kana-char-k';
-            kSpan.textContent = ch.k;
-            inner.appendChild(hSpan);
-            inner.appendChild(kSpan);
-          } else {
-            var charSpan = document.createElement('span');
-            charSpan.className = 'kana-char';
-            charSpan.textContent = mode === 'hiragana' ? ch.h : ch.k;
-            inner.appendChild(charSpan);
-          }
+          var charSpan = document.createElement('span');
+          charSpan.className = 'kana-char';
+          charSpan.textContent = mode === 'hiragana' ? ch.h : ch.k;
+          inner.appendChild(charSpan);
 
           var romajiSpan = document.createElement('span');
           romajiSpan.className = 'kana-romaji';
