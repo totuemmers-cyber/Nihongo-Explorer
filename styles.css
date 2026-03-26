@@ -560,6 +560,10 @@ body {
   flex-wrap: wrap;
 }
 
+.level-filters + .level-filters {
+  margin-left: 10px;
+}
+
 .filter-btn {
   padding: 4px 12px;
   border: 2px solid var(--border);
@@ -2110,7 +2114,7 @@ main {
 
 /* === ONOMATOPOEIA CATEGORY BADGES === */
 .ono-category-badge {
-  font-size: 0.65rem;
+  font-size: 0.58rem;
   font-weight: 700;
   padding: 2px 8px;
   border-radius: var(--radius-pill);
@@ -2140,6 +2144,25 @@ main {
   background: var(--oc-bewegung-bg);
   color: var(--oc-bewegung);
   border: 1px solid var(--oc-bewegung-border);
+}
+
+.ono-card-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.ono-pattern-badge-sm {
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+  background: var(--bg);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
 }
 
 /* === ONOMATOPOEIA PATTERN BADGE === */
