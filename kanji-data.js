@@ -19859,6 +19859,10 @@ window.KANJI_DATA = [
       {
         "radical": "阝",
         "meaning": "Hügel"
+      },
+      {
+        "radical": "坴",
+        "meaning": "Gebärmutter"
       }
     ],
     "jlpt": "N3",
@@ -51838,6 +51842,53 @@ window.KANJI_DATA = [
         "word": "溜飲を下げる",
         "reading": "りゅういんをさげる",
         "meaning": "Genugtuung empfinden"
+      }
+    ]
+  },
+  {
+    "kanji": "橋",
+    "meanings": [
+      "Brücke"
+    ],
+    "kun": [
+      {
+        "kana": "はし",
+        "romaji": "hashi"
+      }
+    ],
+    "on": [
+      {
+        "kana": "キョウ",
+        "romaji": "kyou"
+      }
+    ],
+    "components": [
+      {
+        "radical": "木",
+        "meaning": "Baum"
+      },
+      {
+        "radical": "喬",
+        "meaning": "hoch"
+      }
+    ],
+    "jlpt": "N2",
+    "strokes": 16,
+    "examples": [
+      {
+        "word": "橋",
+        "reading": "はし",
+        "meaning": "Brücke"
+      },
+      {
+        "word": "鉄橋",
+        "reading": "てっきょう",
+        "meaning": "Eisenbrücke"
+      },
+      {
+        "word": "歩道橋",
+        "reading": "ほどうきょう",
+        "meaning": "Fußgängerbrücke"
       }
     ]
   }
