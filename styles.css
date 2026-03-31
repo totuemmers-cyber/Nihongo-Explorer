@@ -142,18 +142,19 @@ kbd {
 }
 
 :root {
-  --bg: #e8ecf4;
-  --bg-card: #f5f6fa;
-  --bg-header: rgba(232,236,244,0.88);
+  --bg: #eef1f8;
+  --bg-card: #ffffff;
+  --bg-header: rgba(238,241,248,0.6);
   --text: #1a1a2e;
   --text-secondary: #64748b;
   --border: #e2e8f0;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.04);
-  --shadow-lg: 0 12px 40px rgba(0,0,0,0.12), 0 4px 12px rgba(0,0,0,0.06);
-  --shadow-hover: 0 8px 24px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.06);
-  --radius: 16px;
-  --radius-sm: 10px;
+  --shadow-sm: 0 2px 6px rgba(0,0,0,0.06), 0 1px 3px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.05);
+  --shadow-lg: 0 16px 48px rgba(0,0,0,0.14), 0 6px 16px rgba(0,0,0,0.08);
+  --shadow-hover: 0 12px 32px rgba(0,0,0,0.14), 0 4px 12px rgba(0,0,0,0.08);
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 24px;
   --radius-pill: 50px;
   --n5: #10b981;
   --n5-bg: #ecfdf5;
@@ -236,12 +237,18 @@ kbd {
   --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-jp: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif;
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
 }
 
 [data-theme="dark"] {
-  --bg: #0f172a;
-  --bg-card: #1e293b;
-  --bg-header: rgba(15,23,42,0.9);
+  --bg: #0c1220;
+  --bg-card: #1a2436;
+  --bg-header: rgba(12,18,32,0.75);
   --text: #f1f5f9;
   --text-secondary: #94a3b8;
   --border: #334155;
@@ -305,10 +312,14 @@ body {
   top: 0;
   z-index: 100;
   background: var(--bg-header);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
   padding: 0 16px;
+}
+
+[data-theme="dark"] .header {
+  border-bottom-color: rgba(255,255,255,0.06);
 }
 
 .header-hero {
@@ -539,8 +550,8 @@ body {
 .filters {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 2px 0;
+  gap: var(--space-2);
+  padding: var(--space-1) 0;
   flex-wrap: wrap;
 }
 
@@ -563,7 +574,7 @@ body {
 }
 
 .filter-btn {
-  padding: 4px 12px;
+  padding: var(--space-1) var(--space-3);
   border: 2px solid var(--border);
   border-radius: var(--radius-pill);
   background: transparent;
@@ -572,19 +583,21 @@ body {
   font-size: 0.82rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background var(--transition), color var(--transition), border-color var(--transition);
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .filter-btn:hover {
   border-color: var(--text-secondary);
   color: var(--text);
   transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 .filter-btn.active {
   background: var(--text);
   color: var(--bg);
   border-color: var(--text);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* Color-coded filter buttons: set --btn-color, then one generic rule applies */
@@ -690,7 +703,8 @@ main {
   border-radius: var(--radius);
   cursor: pointer;
   position: relative;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06), 0 1px 3px rgba(0,0,0,0.04);
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   display: flex;
   flex-direction: column;
@@ -699,9 +713,29 @@ main {
 
 .kanji-card:hover, .grammar-card:hover, .vocab-card:hover,
 .ono-card:hover, .counter-card:hover, .radical-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
-  border-color: transparent;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.10), 0 4px 12px rgba(0,0,0,0.06);
+  border-color: rgba(0,0,0,0.02);
+}
+
+[data-theme="dark"] .kanji-card,
+[data-theme="dark"] .grammar-card,
+[data-theme="dark"] .vocab-card,
+[data-theme="dark"] .ono-card,
+[data-theme="dark"] .counter-card,
+[data-theme="dark"] .radical-card {
+  border-color: rgba(255,255,255,0.06);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+[data-theme="dark"] .kanji-card:hover,
+[data-theme="dark"] .grammar-card:hover,
+[data-theme="dark"] .vocab-card:hover,
+[data-theme="dark"] .ono-card:hover,
+[data-theme="dark"] .counter-card:hover,
+[data-theme="dark"] .radical-card:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3), 0 2px 8px rgba(0,0,0,0.2);
+  border-color: rgba(255,255,255,0.04);
 }
 
 .kanji-card {
@@ -827,12 +861,12 @@ main {
 
 .detail-panel {
   background: var(--bg-card);
-  border-radius: var(--radius) var(--radius) 0 0;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   width: 100%;
   max-width: 600px;
   max-height: 90vh;
   overflow-y: auto;
-  padding: 24px;
+  padding: var(--space-5);
   position: relative;
   animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   box-shadow: var(--shadow-lg);
@@ -983,13 +1017,28 @@ main {
 
 /* Components & Examples */
 .detail-section {
-  margin-bottom: 20px;
+  margin-bottom: var(--space-5);
+  animation: detailFadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+.detail-section:nth-child(1) { animation-delay: 0.05s; }
+.detail-section:nth-child(2) { animation-delay: 0.1s; }
+.detail-section:nth-child(3) { animation-delay: 0.15s; }
+.detail-section:nth-child(4) { animation-delay: 0.2s; }
+.detail-section:nth-child(5) { animation-delay: 0.25s; }
+.detail-section:nth-child(6) { animation-delay: 0.3s; }
+.detail-section:nth-child(7) { animation-delay: 0.35s; }
+.detail-section:nth-child(8) { animation-delay: 0.4s; }
+
+@keyframes detailFadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .detail-section h3 {
   font-size: 0.85rem;
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: var(--space-2);
 }
 
 .component-list {
@@ -1281,10 +1330,22 @@ main {
 /* === TAB BAR === */
 .tab-bar {
   display: flex;
-  gap: 4px;
-  padding: 4px 0 0;
+  gap: var(--space-1);
+  padding: var(--space-1) 0 0;
   border-bottom: 2px solid var(--border);
   flex-wrap: wrap;
+  position: relative;
+}
+
+.tab-indicator {
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px 2px 0 0;
+  transition: left 0.3s cubic-bezier(0.16, 1, 0.3, 1), width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .tab-icon-kana {
@@ -1297,8 +1358,8 @@ main {
 .tab-btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 10px 20px;
+  gap: var(--space-2);
+  padding: var(--space-3) 20px;
   border: none;
   background: transparent;
   color: var(--text-secondary);
@@ -1319,7 +1380,7 @@ main {
 
 .tab-btn.active {
   color: var(--accent);
-  border-bottom-color: var(--accent);
+  border-bottom-color: transparent;
   background: rgba(99,102,241,0.08);
 }
 
@@ -2319,14 +2380,14 @@ main {
   }
 
   .detail-panel {
-    border-radius: var(--radius);
+    border-radius: var(--radius-lg);
     margin: auto;
     max-height: 85vh;
   }
 
   .detail-overlay {
     align-items: center;
-    padding: 20px;
+    padding: var(--space-5);
   }
 
   @keyframes slideUp {

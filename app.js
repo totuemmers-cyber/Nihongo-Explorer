@@ -121,6 +121,7 @@
     tabBtns.forEach(function (btn) {
       btn.classList.toggle('active', btn.getAttribute('data-tab') === tab);
     });
+    moveTabIndicator();
 
     // Toggle controls and tab panels for sections
     sectionNames.forEach(function (name) {
@@ -150,16 +151,32 @@
 
   // Cache static DOM collections
   var tabBtns = document.querySelectorAll('.tab-btn');
+  var tabIndicator = document.querySelector('.tab-indicator');
   var tabPanels = {};
   sectionNames.forEach(function (name) {
     tabPanels[name] = document.getElementById(name + '-tab');
   });
+
+  function moveTabIndicator() {
+    var activeBtn = document.querySelector('.tab-btn.active');
+    if (activeBtn && tabIndicator) {
+      var bar = activeBtn.parentElement;
+      var barRect = bar.getBoundingClientRect();
+      var btnRect = activeBtn.getBoundingClientRect();
+      tabIndicator.style.left = (btnRect.left - barRect.left + bar.scrollLeft) + 'px';
+      tabIndicator.style.width = btnRect.width + 'px';
+    }
+  }
 
   tabBtns.forEach(function (btn) {
     btn.addEventListener('click', function () {
       switchTab(this.getAttribute('data-tab'));
     });
   });
+
+  // Position indicator on load & resize
+  moveTabIndicator();
+  window.addEventListener('resize', moveTabIndicator);
 
   // === COUNT UPDATE ===
   function updateCount() {
