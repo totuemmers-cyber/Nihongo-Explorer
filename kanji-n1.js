@@ -1,4 +1,4 @@
-window.KANJI_N1 = [
+window.KANJI_N1_DATA = [
   {"kanji": "斬", "meanings": ["schneiden", "hacken"], "kun": [{"kana": "き.る", "romaji": "ki.ru"}], "on": [{"kana": "ザン", "romaji": "zan"}], "components": [{"radical": "車", "meaning": "Wagen"}, {"radical": "斤", "meaning": "Axt"}], "jlpt": "N1", "strokes": 11, "examples": [{"word": "斬新", "reading": "ざんしん", "meaning": "neuartig"}]},
   {"kanji": "曾", "meanings": ["einst", "früher"], "kun": [{"kana": "かつ.て", "romaji": "katsu.te"}], "on": [{"kana": "ソウ", "romaji": "sou"}, {"kana": "ゾ", "romaji": "zo"}], "components": [{"radical": "日", "meaning": "Tag"}], "jlpt": "N1", "strokes": 12, "examples": [{"word": "曾て", "reading": "かつて", "meaning": "einst"}]},
   {"kanji": "粧", "meanings": ["Schminke", "Kosmetik"], "kun": [], "on": [{"kana": "ショウ", "romaji": "shō"}], "components": [{"radical": "米", "meaning": "Reis"}, {"radical": "庄", "meaning": "Anwesen"}], "jlpt": "N1", "strokes": 12, "examples": [{"word": "化粧", "reading": "けしょう", "meaning": "Schminke/Make-up"}, {"word": "化粧品", "reading": "けしょうひん", "meaning": "Kosmetikprodukt"}]},
