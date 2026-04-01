@@ -510,7 +510,8 @@
   function speakJP(text) {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
-      var utterance = new SpeechSynthesisUtterance(text);
+      var clean = text.replace(/[.\-]/g, '');
+      var utterance = new SpeechSynthesisUtterance(clean);
       utterance.lang = 'ja-JP';
       utterance.rate = 0.8;
       utterance.volume = 0.8;
