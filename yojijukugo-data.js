@@ -1834,18 +1834,6 @@ window.YOJIJUKUGO_DATA = [
     ]
   },
   {
-    "word": "大丈夫",
-    "reading": "だいじょうぶ",
-    "romaji": "daijōbu",
-    "meaning": "In Ordnung; kein Problem; es wird schon",
-    "type": "Yojijukugo",
-    "level": "N4",
-    "category": "Alltag",
-    "examples": [
-      { "japanese": "心配しないで、大丈夫だよ。", "romaji": "Shinpai shinaide, daijōbu da yo.", "german": "Mach dir keine Sorgen, es ist alles in Ordnung." }
-    ]
-  },
-  {
     "word": "元気一杯",
     "reading": "げんきいっぱい",
     "romaji": "genki ippai",
@@ -1867,18 +1855,6 @@ window.YOJIJUKUGO_DATA = [
     "category": "Alltag",
     "examples": [
       { "japanese": "このコンビニは年中無休で営業している。", "romaji": "Kono konbini wa nenjū mukyū de eigyō shite iru.", "german": "Dieser Konbini hat das ganze Jahr über ohne Ruhetag geöffnet." }
-    ]
-  },
-  {
-    "word": "自己紹介",
-    "reading": "じこしょうかい",
-    "romaji": "jiko shōkai",
-    "meaning": "Selbstvorstellung; sich vorstellen",
-    "type": "Yojijukugo",
-    "level": "N4",
-    "category": "Alltag",
-    "examples": [
-      { "japanese": "まず自己紹介をしてください。", "romaji": "Mazu jiko shōkai o shite kudasai.", "german": "Bitte stellen Sie sich zunächst vor." }
     ]
   },
   {
@@ -1927,18 +1903,6 @@ window.YOJIJUKUGO_DATA = [
     "category": "Beziehungen",
     "examples": [
       { "japanese": "お正月は家族全員で集まる。", "romaji": "O-shōgatsu wa kazoku zen'in de atsumaru.", "german": "An Neujahr versammelt sich die ganze Familie." }
-    ]
-  },
-  {
-    "word": "一人暮らし",
-    "reading": "ひとりぐらし",
-    "romaji": "hitori gurashi",
-    "meaning": "Allein leben; Einpersonenhaushalt",
-    "type": "Yojijukugo",
-    "level": "N4",
-    "category": "Alltag",
-    "examples": [
-      { "japanese": "大学から一人暮らしを始めた。", "romaji": "Daigaku kara hitori gurashi o hajimeta.", "german": "Seit der Universität lebe ich allein." }
     ]
   },
   {
@@ -2114,18 +2078,6 @@ window.YOJIJUKUGO_DATA = [
     ]
   },
   {
-    "word": "時期尚早",
-    "reading": "じきしょうそう",
-    "romaji": "jiki shōsō",
-    "meaning": "Es ist noch zu früh; der Zeitpunkt ist noch nicht reif",
-    "type": "Yojijukugo",
-    "level": "N3",
-    "category": "Lebensweisheit",
-    "examples": [
-      { "japanese": "結婚を考えるのは時期尚早だ。", "romaji": "Kekkon o kangaeru no wa jiki shōsō da.", "german": "Über Heirat nachzudenken ist noch zu früh." }
-    ]
-  },
-  {
     "word": "全力投球",
     "reading": "ぜんりょくとうきゅう",
     "romaji": "zenryoku tōkyū",
@@ -2159,18 +2111,6 @@ window.YOJIJUKUGO_DATA = [
     "category": "Alltag",
     "examples": [
       { "japanese": "彼の説明は意味不明だった。", "romaji": "Kare no setsumei wa imi fumei datta.", "german": "Seine Erklärung ergab keinen Sinn." }
-    ]
-  },
-  {
-    "word": "自画自賛",
-    "reading": "じがじさん",
-    "romaji": "jiga jisan",
-    "meaning": "Eigenlob; sich selbst auf die Schulter klopfen",
-    "type": "Yojijukugo",
-    "level": "N3",
-    "category": "Charakter",
-    "examples": [
-      { "japanese": "自画自賛だけど、今日の料理はうまくできた。", "romaji": "Jiga jisan da kedo, kyō no ryōri wa umaku dekita.", "german": "Es ist Eigenlob, aber das Essen heute ist mir gut gelungen." }
     ]
   },
   {
@@ -2303,18 +2243,6 @@ window.YOJIJUKUGO_DATA = [
     "category": "Gefühle",
     "examples": [
       { "japanese": "合格の知らせに有頂天になった。", "romaji": "Gōkaku no shirase ni uchōten ni natta.", "german": "Bei der Nachricht über das Bestehen war ich im siebten Himmel." }
-    ]
-  },
-  {
-    "word": "紆余曲折",
-    "reading": "うよきょくせつ",
-    "romaji": "uyo kyokusetsu",
-    "meaning": "Viele Umwege und Wendungen; ein verschlungener Weg",
-    "type": "Yojijukugo",
-    "level": "N3",
-    "category": "Lebensweisheit",
-    "examples": [
-      { "japanese": "紆余曲折を経て、ようやく夢が叶った。", "romaji": "Uyo kyokusetsu o hete, yōyaku yume ga kanatta.", "german": "Nach vielen Umwegen ging endlich mein Traum in Erfüllung." }
     ]
   },
   {
@@ -2936,18 +2864,6 @@ window.YOJIJUKUGO_DATA = [
     "category": "Natur",
     "examples": [
       { "japanese": "百花繚乱の芸術シーンが広がっている。", "romaji": "Hyakka ryōran no geijutsu shīn ga hirogatte iru.", "german": "Es breitet sich eine Fülle von Kunststilen aus." }
-    ]
-  },
-  {
-    "word": "厚顔無恥",
-    "reading": "こうがんむち",
-    "romaji": "kōgan muchi",
-    "meaning": "Schamlos und unverschämt; dickhäutig",
-    "type": "Yojijukugo",
-    "level": "N1",
-    "category": "Charakter",
-    "examples": [
-      { "japanese": "あの厚顔無恥な態度には呆れる。", "romaji": "Ano kōgan muchi na taido ni wa akireru.", "german": "Über dieses schamlose Verhalten kann man nur den Kopf schütteln." }
     ]
   },
   {

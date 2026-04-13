@@ -74,6 +74,11 @@ function toggleBookmark(sectionName, itemId) {
   return idx === -1;
 }
 
+function getItemId(item, fallback) {
+  if (item && item.id) return item.id;
+  return fallback;
+}
+
 // === Shared Card & Detail Utilities ===
 
 function createBaseCard(className, innerHTML, index, section, itemId) {
@@ -111,7 +116,14 @@ function createBaseCard(className, innerHTML, index, section, itemId) {
   return card;
 }
 
-var speakSvgHtml = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
+function getSpeakSvgHtml(size) {
+  var iconSize = size || 18;
+  return '<svg class="icon-speaker" width="' + iconSize + '" height="' + iconSize + '" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+    '<path d="M11 5L6 9H2v6h4l5 4V5z"/>' +
+    '<path d="M15.5 8.5a5 5 0 0 1 0 7"/>' +
+    '<path d="M19 5a10 10 0 0 1 0 14"/>' +
+  '</svg>';
+}
 
 function createSpeakButton(headerSelector, text) {
   var header = document.querySelector(headerSelector);
@@ -120,7 +132,7 @@ function createSpeakButton(headerSelector, text) {
   var speakBtn = document.createElement('button');
   speakBtn.className = 'btn btn-icon btn-speak';
   speakBtn.title = 'Aussprache';
-  speakBtn.innerHTML = speakSvgHtml;
+  speakBtn.innerHTML = getSpeakSvgHtml(18);
   speakBtn.addEventListener('click', function () {
     if (window.app) window.app.speakJP(text);
   });
@@ -446,7 +458,7 @@ SECTION_CONFIGS.kanji = {
     document.getElementById('detail-strokes').textContent = k.strokes + ' Striche';
 
     // Speak button SVG (reused for readings)
-    var speakSvg = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>';
+    var speakSvg = getSpeakSvgHtml(14);
 
     function buildReadingItems(container, readings, cls) {
       container.innerHTML = readings.map(function (r) {
@@ -758,7 +770,7 @@ SECTION_CONFIGS.vocab = {
   batchSize: 100,
 
   filterFn: function (v, query, filters) {
-    if (filters.bookmarks === 'starred' && !isBookmarked('vocab', v.word + '|' + (v.reading || ''))) return false;
+    if (filters.bookmarks === 'starred' && !isBookmarked('vocab', getItemId(v, v.word + '|' + (v.reading || '')))) return false;
     if (filters.level !== 'all' && v.level !== filters.level) return false;
     if (filters.type !== 'all' && v.type !== filters.type) return false;
     if (query) {
@@ -810,7 +822,7 @@ SECTION_CONFIGS.vocab = {
       '</div>' +
       '<div class="vocab-card-reading">' + (v.reading || '') + renderPitchBadge(v.reading || '', v.pitch) + '</div>' +
       '<div class="vocab-card-meaning">' + v.meaning + '</div>',
-      index, section, v.word + '|' + (v.reading || ''));
+      index, section, getItemId(v, v.word + '|' + (v.reading || '')));
   },
 
   openDetail: function (v, dom, section) {
@@ -824,7 +836,7 @@ SECTION_CONFIGS.vocab = {
 
     // Speak button
     createSpeakButton('.vocab-detail-header', v.word);
-    createDetailBookmark('.vocab-detail-header', 'vocab', v.word + '|' + (v.reading || ''));
+    createDetailBookmark('.vocab-detail-header', 'vocab', getItemId(v, v.word + '|' + (v.reading || '')));
 
     document.getElementById('vocab-detail-reading').textContent = v.reading || '';
     var pitchEl = document.getElementById('vocab-detail-pitch');
@@ -908,7 +920,7 @@ SECTION_CONFIGS.vocab = {
 
           // Lazy-load conjugation table on first expand
           if (!conjBody.classList.contains('collapsed') && !conjContainer.querySelector('.conjugation-table')) {
-            var speakSvg = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>';
+            var speakSvg = getSpeakSvgHtml(14);
 
             var forms = result.forms;
             var basicKeys = ['dictionary','polite','negative','negPolite','past','pastPolite','pastNeg','pastNegPolite','te'];
@@ -1254,7 +1266,7 @@ SECTION_CONFIGS.onomatopoeia = {
   batchSize: 0,
 
   filterFn: function (o, query, filters) {
-    if (filters.bookmarks === 'starred' && !isBookmarked('onomatopoeia', o.word)) return false;
+    if (filters.bookmarks === 'starred' && !isBookmarked('onomatopoeia', getItemId(o, o.word))) return false;
     if (filters.level !== 'all' && o.level !== filters.level) return false;
     if (filters.category !== 'all' && o.category !== filters.category) return false;
     if (query) {
@@ -1307,7 +1319,7 @@ SECTION_CONFIGS.onomatopoeia = {
       '</div>' +
       '<div class="ono-card-reading">' + (o.reading || '') + renderPitchBadge(o.reading || '', o.pitch) + '</div>' +
       '<div class="ono-card-meaning">' + o.meaning + '</div>',
-      index, section, o.word);
+      index, section, getItemId(o, o.word));
   },
 
   openDetail: function (o, dom, section) {
@@ -1321,7 +1333,7 @@ SECTION_CONFIGS.onomatopoeia = {
 
     // Speak button
     createSpeakButton('.ono-detail-header', o.word);
-    createDetailBookmark('.ono-detail-header', 'onomatopoeia', o.word);
+    createDetailBookmark('.ono-detail-header', 'onomatopoeia', getItemId(o, o.word));
 
     document.getElementById('ono-detail-reading').textContent = o.reading || '';
     var onoPitchEl = document.getElementById('ono-detail-pitch');

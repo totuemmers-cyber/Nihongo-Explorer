@@ -682,30 +682,6 @@ window.IDIOMS_DATA = [
     ]
   },
   {
-    "word": "役に立つ",
-    "reading": "やくにたつ",
-    "romaji": "yaku ni tatsu",
-    "meaning": "nützlich sein, von Nutzen sein",
-    "type": "Redewendung",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      { "japanese": "この辞書はとても役に立ちます。", "romaji": "Kono jisho wa totemo yaku ni tachimasu.", "german": "Dieses Wörterbuch ist sehr nützlich." }
-    ]
-  },
-  {
-    "word": "間に合う",
-    "reading": "まにあう",
-    "romaji": "ma ni au",
-    "meaning": "rechtzeitig schaffen, es noch schaffen",
-    "type": "Redewendung",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      { "japanese": "急げばバスに間に合うよ。", "romaji": "Isogeba basu ni ma ni au yo.", "german": "Wenn du dich beeilst, schaffst du noch den Bus." }
-    ]
-  },
-  {
     "word": "邪魔をする",
     "reading": "じゃまをする",
     "romaji": "jama o suru",
@@ -751,18 +727,6 @@ window.IDIOMS_DATA = [
     "category": "Gefühle",
     "examples": [
       { "japanese": "子どもたちはゲームに夢中になっている。", "romaji": "Kodomotachi wa gēmu ni muchū ni natte iru.", "german": "Die Kinder sind ganz vertieft in ihr Spiel." }
-    ]
-  },
-  {
-    "word": "我慢する",
-    "reading": "がまんする",
-    "romaji": "gaman suru",
-    "meaning": "aushalten, sich gedulden, ertragen",
-    "type": "Redewendung",
-    "level": "N4",
-    "category": "Gefühle",
-    "examples": [
-      { "japanese": "痛くても我慢してください。", "romaji": "Itakutemo gaman shite kudasai.", "german": "Bitte halte es aus, auch wenn es wehtut." }
     ]
   },
   {
@@ -1219,18 +1183,6 @@ window.IDIOMS_DATA = [
     "category": "Beziehungen",
     "examples": [
       { "japanese": "彼とは初めて会った時から気が合った。", "romaji": "Kare to wa hajimete atta toki kara ki ga atta.", "german": "Ich habe mich mit ihm vom ersten Treffen an gut verstanden." }
-    ]
-  },
-{
-    "word": "気にする",
-    "reading": "きにする",
-    "romaji": "ki ni suru",
-    "meaning": "Sich Sorgen machen, sich etwas zu Herzen nehmen",
-    "type": "Redewendung",
-    "level": "N4",
-    "category": "Gefühle",
-    "examples": [
-      { "japanese": "そんな小さいことを気にしないで。", "romaji": "Sonna chīsai koto o ki ni shinaide.", "german": "Mach dir keine Sorgen wegen solcher Kleinigkeiten." }
     ]
   },
 {
@@ -1790,30 +1742,6 @@ window.IDIOMS_DATA = [
     ]
   },
   {
-    "word": "寝坊する",
-    "reading": "ねぼうする",
-    "romaji": "nebō suru",
-    "meaning": "verschlafen, zu lang schlafen",
-    "type": "Redewendung",
-    "level": "N4",
-    "category": "Alltag",
-    "examples": [
-      { "japanese": "今朝寝坊して、授業に遅刻した。", "romaji": "Kesa nebō shite, jugyō ni chikoku shita.", "german": "Ich habe heute Morgen verschlafen und bin zu spät zum Unterricht gekommen." }
-    ]
-  },
-  {
-    "word": "道に迷う",
-    "reading": "みちにまよう",
-    "romaji": "michi ni mayou",
-    "meaning": "sich verlaufen, den Weg nicht finden",
-    "type": "Redewendung",
-    "level": "N4",
-    "category": "Alltag",
-    "examples": [
-      { "japanese": "初めての街で道に迷ってしまった。", "romaji": "Hajimete no machi de michi ni mayotte shimatta.", "german": "In der fremden Stadt habe ich mich verlaufen." }
-    ]
-  },
-  {
     "word": "手間がかかる",
     "reading": "てまがかかる",
     "romaji": "tema ga kakaru",
@@ -1971,18 +1899,6 @@ window.IDIOMS_DATA = [
     "category": "Arbeit",
     "examples": [
       { "japanese": "毎日仕事に追われて、休む暇もない。", "romaji": "Mainichi shigoto ni owarete, yasumu hima mo nai.", "german": "Jeden Tag bin ich mit Arbeit überhäuft und habe keine Zeit zum Ausruhen." }
-    ]
-  },
-  {
-    "word": "首になる",
-    "reading": "くびになる",
-    "romaji": "kubi ni naru",
-    "meaning": "gefeuert werden, entlassen werden",
-    "type": "Redewendung",
-    "level": "N3",
-    "category": "Arbeit",
-    "examples": [
-      { "japanese": "遅刻ばかりして首になった。", "romaji": "Chikoku bakari shite kubi ni natta.", "german": "Er kam ständig zu spät und wurde gefeuert." }
     ]
   },
   {
@@ -3145,18 +3061,6 @@ window.IDIOMS_DATA = [
     ]
   },
   {
-    "word": "口にする",
-    "reading": "くちにする",
-    "romaji": "kuchi ni suru",
-    "meaning": "essen/trinken; aussprechen, erwähnen",
-    "type": "Redewendung",
-    "level": "N5",
-    "category": "Körper",
-    "examples": [
-      { "japanese": "その話は口にしないでください。", "romaji": "Sono hanashi wa kuchi ni shinaide kudasai.", "german": "Bitte sprechen Sie nicht darüber." }
-    ]
-  },
-  {
     "word": "耳に入る",
     "reading": "みみにはいる",
     "romaji": "mimi ni hairu",
@@ -3274,18 +3178,6 @@ window.IDIOMS_DATA = [
     "category": "Geld",
     "examples": [
       { "japanese": "子供の教育にはお金がかかる。", "romaji": "Kodomo no kyōiku ni wa okane ga kakaru.", "german": "Die Ausbildung der Kinder kostet viel Geld." }
-    ]
-  },
-  {
-    "word": "お世話になる",
-    "reading": "おせわになる",
-    "romaji": "osewa ni naru",
-    "meaning": "jemandem zur Last fallen; Hilfe empfangen (höflich)",
-    "type": "Redewendung",
-    "level": "N5",
-    "category": "Alltag",
-    "examples": [
-      { "japanese": "いつもお世話になっております。", "romaji": "Itsumo osewa ni natte orimasu.", "german": "Vielen Dank, dass Sie sich immer um mich kümmern. (Standardgruß)" }
     ]
   },
   {

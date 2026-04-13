@@ -113,6 +113,146 @@
   var quizDataLoaded = false;
   var quizDataPromise = null;
   var grammarLessonsPromise = null;
+  var INTENTIONAL_VOCAB_OVERLAP_KEYS = {
+    '一期一会|いちごいちえ': 1,
+    '一石二鳥|いっせきにちょう': 1,
+    '自業自得|じごうじとく': 1,
+    '以心伝心|いしんでんしん': 1
+  };
+  var CORE_VOCAB_PREFERRED_KEYS = {
+    '大丈夫|だいじょうぶ': 1,
+    '自己紹介|じこしょうかい': 1,
+    '一人暮らし|ひとりぐらし': 1,
+    '役に立つ|やくにたつ': 1,
+    '間に合う|まにあう': 1,
+    '我慢する|がまんする': 1,
+    '気にする|きにする': 1,
+    '寝坊する|ねぼうする': 1,
+    '道に迷う|みちにまよう': 1,
+    '首になる|くびになる': 1,
+    '口にする|くちにする': 1,
+    'お世話になる|おせわになる': 1
+  };
+
+  function getEntryKey(item) {
+    return (item.word || '') + '|' + (item.reading || '');
+  }
+
+  function createSourceScopedItems(source, items) {
+    var scoped = [];
+    for (var i = 0; i < items.length; i++) {
+      var item = items[i];
+      if (!item) continue;
+      var next = {};
+      for (var key in item) {
+        if (item.hasOwnProperty(key)) next[key] = item[key];
+      }
+      next.id = source + ':' + i;
+      next.source = source;
+      next.studyLens = source === 'idioms' ? 'idiom' : (source === 'yojijukugo' ? 'yojijukugo' : 'vocab');
+      next.mergeKey = getEntryKey(next);
+      scoped.push(next);
+    }
+    return scoped;
+  }
+
+  function getSourcePriority(item) {
+    var key = item.mergeKey || getEntryKey(item);
+    var source = item.source || '';
+    var isCore = source.indexOf('vocab-') === 0;
+    if (CORE_VOCAB_PREFERRED_KEYS[key]) {
+      if (isCore) return 40;
+      if (source === 'idioms') return 20;
+      if (source === 'yojijukugo') return 10;
+      return 0;
+    }
+    if (source === 'idioms') return 40;
+    if (source === 'yojijukugo') return 30;
+    if (isCore) return 20;
+    return 10;
+  }
+
+  function getEntryRichness(item) {
+    var score = 0;
+    if (item.meaning) score += item.meaning.length;
+    if (item.notes) score += item.notes.length;
+    if (item.explanation) score += item.explanation.length;
+    if (item.examples && item.examples.length) score += item.examples.length * 25;
+    if (item.type === 'Redewendung' || item.type === 'Sprichwort' || item.type === 'Yojijukugo') score += 20;
+    return score;
+  }
+
+  function dedupeSpecialistItems(items, keyFn) {
+    var byKey = {};
+    var result = [];
+    for (var i = 0; i < items.length; i++) {
+      var item = items[i];
+      var key = keyFn(item);
+      if (!key) {
+        result.push(item);
+        continue;
+      }
+      var existing = byKey[key];
+      if (!existing || getEntryRichness(item) > getEntryRichness(existing)) {
+        byKey[key] = item;
+      }
+    }
+    for (var j = 0; j < items.length; j++) {
+      var current = items[j];
+      var currentKey = keyFn(current);
+      if (!currentKey || byKey[currentKey] === current) {
+        result.push(current);
+      }
+    }
+    return result;
+  }
+
+  function mergeVocabSources(sources) {
+    var groups = {};
+    var merged = [];
+    var ordered = [];
+    for (var i = 0; i < sources.length; i++) {
+      var source = sources[i];
+      var scopedItems = createSourceScopedItems(source.name, source.items);
+      for (var j = 0; j < scopedItems.length; j++) {
+        var item = scopedItems[j];
+        ordered.push(item);
+        if (!groups[item.mergeKey]) groups[item.mergeKey] = [];
+        groups[item.mergeKey].push(item);
+      }
+    }
+
+    for (var k = 0; k < ordered.length; k++) {
+      var candidate = ordered[k];
+      var key = candidate.mergeKey;
+      var grouped = groups[key];
+      if (!grouped) continue;
+
+      if (INTENTIONAL_VOCAB_OVERLAP_KEYS[key]) {
+        merged.push(candidate);
+        continue;
+      }
+
+      var best = grouped[0];
+      for (var n = 1; n < grouped.length; n++) {
+        var contender = grouped[n];
+        var contenderPriority = getSourcePriority(contender);
+        var bestPriority = getSourcePriority(best);
+        if (contenderPriority > bestPriority ||
+            (contenderPriority === bestPriority && getEntryRichness(contender) > getEntryRichness(best))) {
+          best = contender;
+        }
+      }
+
+      if (best === candidate) {
+        merged.push(candidate);
+      }
+
+      delete groups[key];
+    }
+
+    return merged;
+  }
 
   var sectionLoaders = {
     kanji: {
@@ -143,23 +283,26 @@
       message: 'Lade Vokabel-Daten...',
       hydrate: function () {
         var vocabSources = [
-          window.VOCAB_N5 || [],
-          window.VOCAB_N4 || [],
-          window.VOCAB_N3 || [],
-          window.VOCAB_N2 || [],
-          window.VOCAB_N1 || [],
-          window.YOJIJUKUGO_DATA || [],
-          window.IDIOMS_DATA || []
+          { name: 'vocab-n5', items: window.VOCAB_N5 || [] },
+          { name: 'vocab-n4', items: window.VOCAB_N4 || [] },
+          { name: 'vocab-n3', items: window.VOCAB_N3 || [] },
+          { name: 'vocab-n2', items: window.VOCAB_N2 || [] },
+          { name: 'vocab-n1', items: window.VOCAB_N1 || [] },
+          { name: 'yojijukugo', items: dedupeSpecialistItems(window.YOJIJUKUGO_DATA || [], getEntryKey) },
+          { name: 'idioms', items: window.IDIOMS_DATA || [] }
         ];
         if (window.applyVocabCorrections) window.applyVocabCorrections();
-        app.sections.vocab.setItems([].concat.apply([], vocabSources));
+        app.sections.vocab.setItems(mergeVocabSources(vocabSources));
       }
     },
     onomatopoeia: {
       scripts: ['onomatopoeia-data.js'],
       message: 'Lade Lautmalerei-Daten...',
       hydrate: function () {
-        app.sections.onomatopoeia.setItems(window.ONOMATOPOEIA_DATA || []);
+        var items = dedupeSpecialistItems(window.ONOMATOPOEIA_DATA || [], function (item) {
+          return item.word || '';
+        });
+        app.sections.onomatopoeia.setItems(createSourceScopedItems('onomatopoeia', items));
       }
     },
     counters: {
