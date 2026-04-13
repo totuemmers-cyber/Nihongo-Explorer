@@ -301,15 +301,31 @@
 
   // 7. Kanji Radical: kanji → radical
   function genKanjiRadical(level) {
+    var radicals = window.KANGXI_RADICALS || [];
+    var radicalMap = {};
+    for (var i = 0; i < radicals.length; i++) radicalMap[radicals[i].radical] = radicals[i];
+
     var pool = getLevelPool(getKanjiByLevel, level).filter(function (k) {
-      return k.components && k.components.length > 0;
+      if (!k.components || !k.components.length) return false;
+      for (var i = 0; i < k.components.length; i++) {
+        if (radicalMap[k.components[i].radical]) return true;
+      }
+      return false;
     });
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var comp = item.components[0];
-    var correctAnswer = comp.radical + ' (' + comp.meaning + ')';
-    // Build distractor pool from all radicals
-    var radicals = window.KANGXI_RADICALS || [];
+    var comp = null;
+    for (var j = 0; j < item.components.length; j++) {
+      if (radicalMap[item.components[j].radical]) {
+        comp = item.components[j];
+        break;
+      }
+    }
+    if (!comp) return null;
+
+    var radicalInfo = radicalMap[comp.radical];
+    var correctMeaning = radicalInfo && radicalInfo.meaning ? radicalInfo.meaning : comp.meaning;
+    var correctAnswer = comp.radical + ' (' + correctMeaning + ')';
     var distractorPool = radicals.filter(function (r) { return r.radical !== comp.radical; });
     var distrs = shuffle(distractorPool).slice(0, 3).map(function (r) {
       return r.radical + ' (' + r.meaning + ')';

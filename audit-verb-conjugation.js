@@ -9,7 +9,8 @@ const DATA_FILES = [
   'vocab-n1.js',
   'yojijukugo-data.js',
   'idioms-data.js',
-  'conjugation.js'
+  'conjugation.js',
+  'vocab-corrections.js'
 ];
 
 const ctx = { window: {}, console };
