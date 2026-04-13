@@ -122,17 +122,21 @@
     }
   }
 
-  var SOURCES = [
-    window.VOCAB_N5,
-    window.VOCAB_N4,
-    window.VOCAB_N3,
-    window.VOCAB_N2,
-    window.VOCAB_N1,
-    window.YOJIJUKUGO_DATA,
-    window.IDIOMS_DATA
-  ];
+  window.applyVocabCorrections = function () {
+    var sources = [
+      window.VOCAB_N5,
+      window.VOCAB_N4,
+      window.VOCAB_N3,
+      window.VOCAB_N2,
+      window.VOCAB_N1,
+      window.YOJIJUKUGO_DATA,
+      window.IDIOMS_DATA
+    ];
 
-  for (var i = 0; i < SOURCES.length; i++) {
-    applyCorrections(SOURCES[i]);
-  }
+    for (var i = 0; i < sources.length; i++) {
+      applyCorrections(sources[i]);
+    }
+  };
+
+  window.applyVocabCorrections();
 })();

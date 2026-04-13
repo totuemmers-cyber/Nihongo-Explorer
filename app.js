@@ -14,6 +14,8 @@
     setRadicalFilter: setRadicalFilter,
     clearRadicalFilter: clearRadicalFilter,
     openRadicalInTab: openRadicalInTab,
+    ensureSectionLoaded: ensureSectionLoaded,
+    ensureGrammarLessonsLoaded: ensureGrammarLessonsLoaded,
     renderBasicNumbers: renderBasicNumbers,
     speakJP: speakJP
   };
@@ -98,7 +100,85 @@
   var soundToggle = document.getElementById('sound-toggle');
   var radicalFilter = document.getElementById('radical-filter');
   var radicalFilterName = document.getElementById('radical-filter-name');
-  var loadingEl = document.getElementById('loading');
+  var loadingEls = {
+    kanji: document.getElementById('kanji-loading'),
+    grammar: document.getElementById('grammar-loading'),
+    vocab: document.getElementById('vocab-loading'),
+    onomatopoeia: document.getElementById('ono-loading'),
+    counters: document.getElementById('counters-loading'),
+    radicals: document.getElementById('radicals-loading'),
+    quiz: document.getElementById('quiz-loading')
+  };
+  var scriptState = { loaded: {}, pending: {} };
+  var quizDataLoaded = false;
+  var quizDataPromise = null;
+  var grammarLessonsPromise = null;
+
+  var sectionLoaders = {
+    kanji: {
+      scripts: ['kangxi-radicals-data.js', 'kanji-data.js', 'kanji-n1.js'],
+      message: 'Lade Kanji-Daten...',
+      hydrate: function () {
+        var items = [];
+        if (window.KANJI_DATA) {
+          items = window.KANJI_DATA.slice();
+          if (window.KANJI_N1_DATA) items = items.concat(window.KANJI_N1_DATA);
+        }
+        if (window.resetSectionLookups) window.resetSectionLookups();
+        app.sections.kanji.setItems(items);
+        if (!app.sections.radicals.isLoaded && window.KANGXI_RADICALS) {
+          app.sections.radicals.setItems(window.KANGXI_RADICALS);
+        }
+      }
+    },
+    grammar: {
+      scripts: ['grammar-data.js', 'grammar-n2.js', 'grammar-n1.js'],
+      message: 'Lade Grammatik-Daten...',
+      hydrate: function () {
+        app.sections.grammar.setItems(window.GRAMMAR_DATA || []);
+      }
+    },
+    vocab: {
+      scripts: ['vocab-n5.js', 'vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js', 'keigo-data.js'],
+      message: 'Lade Vokabel-Daten...',
+      hydrate: function () {
+        var vocabSources = [
+          window.VOCAB_N5 || [],
+          window.VOCAB_N4 || [],
+          window.VOCAB_N3 || [],
+          window.VOCAB_N2 || [],
+          window.VOCAB_N1 || [],
+          window.YOJIJUKUGO_DATA || [],
+          window.IDIOMS_DATA || []
+        ];
+        if (window.applyVocabCorrections) window.applyVocabCorrections();
+        app.sections.vocab.setItems([].concat.apply([], vocabSources));
+      }
+    },
+    onomatopoeia: {
+      scripts: ['onomatopoeia-data.js'],
+      message: 'Lade Lautmalerei-Daten...',
+      hydrate: function () {
+        app.sections.onomatopoeia.setItems(window.ONOMATOPOEIA_DATA || []);
+      }
+    },
+    counters: {
+      scripts: ['counters-data.js'],
+      message: 'Lade Zählwort-Daten...',
+      hydrate: function () {
+        var counters = window.COUNTERS_DATA && window.COUNTERS_DATA.counters ? window.COUNTERS_DATA.counters : [];
+        app.sections.counters.setItems(counters);
+      }
+    },
+    radicals: {
+      scripts: ['kangxi-radicals-data.js'],
+      message: 'Lade Radikal-Daten...',
+      hydrate: function () {
+        if (window.resetSectionLookups) window.resetSectionLookups();
+        app.sections.radicals.setItems(window.KANGXI_RADICALS || []);
+      }
+    }
+  };
 
   // Tab panels and controls that are not section-managed (kana, quiz)
   var kanaTab = document.getElementById('kana-tab');
@@ -112,6 +192,125 @@
   sectionNames.forEach(function (name) {
     app.sections[name] = new Section(SECTION_CONFIGS[name]);
   });
+
+  function setLoadingVisible(name, visible, message) {
+    var loadingEl = loadingEls[name];
+    if (!loadingEl) return;
+    if (message) {
+      var label = loadingEl.querySelector('span');
+      if (label) label.textContent = message;
+    }
+    loadingEl.classList.toggle('hidden', !visible);
+  }
+
+  function loadScript(src) {
+    if (scriptState.loaded[src]) {
+      return Promise.resolve();
+    }
+    if (scriptState.pending[src]) {
+      return scriptState.pending[src];
+    }
+
+    scriptState.pending[src] = new Promise(function (resolve, reject) {
+      var script = document.createElement('script');
+      script.src = src;
+      script.async = false;
+      script.onload = function () {
+        scriptState.loaded[src] = true;
+        delete scriptState.pending[src];
+        resolve();
+      };
+      script.onerror = function () {
+        delete scriptState.pending[src];
+        reject(new Error('Script konnte nicht geladen werden: ' + src));
+      };
+      document.body.appendChild(script);
+    });
+
+    return scriptState.pending[src];
+  }
+
+  function loadScripts(sources) {
+    var promise = Promise.resolve();
+    sources.forEach(function (src) {
+      promise = promise.then(function () {
+        return loadScript(src);
+      });
+    });
+    return promise;
+  }
+
+  function ensureSectionLoaded(name) {
+    if (name === 'quiz') return ensureQuizDataLoaded();
+
+    var section = app.sections[name];
+    var loader = sectionLoaders[name];
+    if (!section || !loader) return Promise.resolve();
+    if (section.isLoaded) return Promise.resolve();
+    if (section._loadPromise) return section._loadPromise;
+
+    section.isLoading = true;
+    setLoadingVisible(name, true, loader.message);
+
+    section._loadPromise = loadScripts(loader.scripts)
+      .then(function () {
+        loader.hydrate();
+      })
+      .catch(function (err) {
+        section._loadPromise = null;
+        console.error(err);
+        throw err;
+      })
+      .finally(function () {
+        section.isLoading = false;
+        setLoadingVisible(name, false);
+      });
+
+    return section._loadPromise;
+  }
+
+  function ensureQuizDataLoaded() {
+    if (quizDataLoaded) return Promise.resolve();
+    if (quizDataPromise) return quizDataPromise;
+
+    setLoadingVisible('quiz', true, 'Lade Quiz-Daten...');
+    quizDataPromise = Promise.all([
+      ensureSectionLoaded('kanji'),
+      ensureSectionLoaded('grammar'),
+      ensureSectionLoaded('vocab')
+    ]).then(function () {
+      quizDataLoaded = true;
+    }).catch(function (err) {
+      quizDataPromise = null;
+      throw err;
+    }).finally(function () {
+      setLoadingVisible('quiz', false);
+    });
+
+    return quizDataPromise;
+  }
+
+  function ensureGrammarLessonsLoaded() {
+    if (window.__grammarLessonsInitialized) {
+      return Promise.resolve();
+    }
+    if (grammarLessonsPromise) {
+      return grammarLessonsPromise;
+    }
+
+    setLoadingVisible('grammar', true, 'Lade Grammatik-Lektionen...');
+    grammarLessonsPromise = loadScript('grammar-lessons.js')
+      .catch(function (err) {
+        grammarLessonsPromise = null;
+        console.error(err);
+        throw err;
+      })
+      .finally(function () {
+        setLoadingVisible('grammar', false);
+      });
+
+    return grammarLessonsPromise;
+  }
 
   // === TAB SYSTEM ===
   function switchTab(tab) {
@@ -140,12 +339,29 @@
     if (tab === 'kana') {
       renderKana();
       updateKanaDarkMode();
-    } else if (tab === 'quiz') {
-      if (window.QuizModule) window.QuizModule.onTabActivate();
-    } else if (app.sections[tab] && app.sections[tab].config.onTabActivate) {
-      app.sections[tab].config.onTabActivate(app.sections[tab]);
+      updateCount();
+      return;
     }
 
+    if (tab === 'quiz') {
+      ensureQuizDataLoaded().then(function () {
+        if (app.activeTab !== 'quiz') return;
+        if (window.QuizModule) window.QuizModule.onTabActivate();
+        updateCount();
+      });
+      updateCount();
+      return;
+    }
+
+    if (app.sections[tab]) {
+      ensureSectionLoaded(tab).then(function () {
+        if (app.activeTab !== tab) return;
+        if (app.sections[tab].config.onTabActivate) {
+          app.sections[tab].config.onTabActivate(app.sections[tab]);
+        }
+        updateCount();
+      });
+    }
     updateCount();
   }
 
@@ -185,60 +401,11 @@
       var kanaLabels = { hiragana: 'Hiragana', katakana: 'Katakana' };
       itemCountEl.textContent = kanaLabels[activeKanaMode] || 'Kana';
     } else if (tab === 'quiz') {
-      itemCountEl.textContent = 'Quiz';
+      itemCountEl.textContent = quizDataLoaded ? 'Quiz' : 'Lädt…';
     } else if (app.sections[tab]) {
       var sec = app.sections[tab];
-      itemCountEl.textContent = sec.filteredItems.length + sec.config.countLabel;
+      itemCountEl.textContent = sec.isLoaded ? (sec.filteredItems.length + sec.config.countLabel) : 'Lädt…';
     }
-  }
-
-  // === LOAD DATA ===
-  function loadData() {
-    // Kanji
-    var kanjiData = [];
-    if (window.KANJI_DATA) {
-      kanjiData = window.KANJI_DATA;
-      if (window.KANJI_N1_DATA) kanjiData = kanjiData.concat(window.KANJI_N1_DATA);
-      loadingEl.classList.add('hidden');
-    }
-    app.sections.kanji.setItems(kanjiData);
-
-    // Grammar
-    if (window.GRAMMAR_DATA) {
-      app.sections.grammar.setItems(window.GRAMMAR_DATA);
-    }
-
-    // Vocab
-    var vocabSources = [
-      window.VOCAB_N5 || [],
-      window.VOCAB_N4 || [],
-      window.VOCAB_N3 || [],
-      window.VOCAB_N2 || [],
-      window.VOCAB_N1 || [],
-      window.YOJIJUKUGO_DATA || [],
-      window.IDIOMS_DATA || []
-    ];
-    var allVocab = [].concat.apply([], vocabSources);
-    if (allVocab.length > 0) {
-      app.sections.vocab.setItems(allVocab);
-    }
-
-    // Onomatopoeia
-    if (window.ONOMATOPOEIA_DATA) {
-      app.sections.onomatopoeia.setItems(window.ONOMATOPOEIA_DATA);
-    }
-
-    // Counters
-    if (window.COUNTERS_DATA && window.COUNTERS_DATA.counters) {
-      app.sections.counters.setItems(window.COUNTERS_DATA.counters);
-    }
-
-    // Radicals
-    if (window.KANGXI_RADICALS) {
-      app.sections.radicals.setItems(window.KANGXI_RADICALS);
-    }
-
-    updateCount();
   }
 
   // === RADICAL FILTER (kanji-specific, managed in app) ===
@@ -260,16 +427,18 @@
   // === OPEN RADICAL IN TAB (cross-section) ===
   function openRadicalInTab(radicalChar) {
     switchTab('radicals');
-    var radSec = app.sections.radicals;
-    radSec.resetFilterGroup('strokes');
-    radSec.dom.search.value = '';
-    radSec.applyFilters();
-    for (var i = 0; i < radSec.filteredItems.length; i++) {
-      if (radSec.filteredItems[i].radical === radicalChar) {
-        radSec.openDetail(i);
-        break;
+    ensureSectionLoaded('radicals').then(function () {
+      var radSec = app.sections.radicals;
+      radSec.resetFilterGroup('strokes');
+      radSec.dom.search.value = '';
+      radSec.applyFilters();
+      for (var i = 0; i < radSec.filteredItems.length; i++) {
+        if (radSec.filteredItems[i].radical === radicalChar) {
+          radSec.openDetail(i);
+          break;
+        }
       }
-    }
+    });
   }
 
   // === BASIC NUMBERS (counters section) ===
@@ -366,9 +535,11 @@
     var tab = app.activeTab;
     if (app.sections[tab]) {
       var sec = app.sections[tab];
-      if (sec.filteredItems.length === 0) return;
-      var idx = Math.floor(Math.random() * sec.filteredItems.length);
-      sec.openDetail(idx);
+      ensureSectionLoaded(tab).then(function () {
+        if (sec.filteredItems.length === 0) return;
+        var idx = Math.floor(Math.random() * sec.filteredItems.length);
+        sec.openDetail(idx);
+      });
     }
   });
 
@@ -625,11 +796,33 @@
     if (helpCloseBtn) helpCloseBtn.addEventListener('click', toggleHelpOverlay);
   }
 
+  var grammarViewToggle = document.getElementById('grammar-view-toggle');
+  if (grammarViewToggle) {
+    grammarViewToggle.addEventListener('click', function (e) {
+      var btn = e.target.closest('.gl-view-btn');
+      if (!btn || btn.getAttribute('data-view') !== 'lessons' || window.__grammarLessonsInitialized) {
+        return;
+      }
+
+      e.preventDefault();
+      e.stopPropagation();
+      if (btn.disabled) return;
+
+      btn.disabled = true;
+      ensureGrammarLessonsLoaded().then(function () {
+        btn.disabled = false;
+        if (window.__grammarLessonsInitialized) btn.click();
+      }).catch(function () {
+        btn.disabled = false;
+      });
+    });
+  }
+
   // === INIT ===
   initTheme();
-  loadData();
   renderKana();
   updateKanaDarkMode();
   if (typeof initBookmarkToggles === 'function') initBookmarkToggles();
   if (typeof initSelectFilters === 'function') initSelectFilters();
+  updateCount();
 })();
