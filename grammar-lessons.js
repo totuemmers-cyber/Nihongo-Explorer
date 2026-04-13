@@ -4217,6 +4217,8 @@
   }
 
   function initLessons() {
+    if (window.__grammarLessonsInitialized) return;
+
     var grammarControls = document.getElementById('grammar-controls');
     var grammarGrid = document.getElementById('grammar-grid');
     var grammarNoResults = document.getElementById('grammar-no-results');
@@ -4224,17 +4226,20 @@
     if (!grammarControls || !grammarTab) return;
 
     // --- View Toggle ---
-    var toggleRow = document.createElement('div');
-    toggleRow.className = 'gl-view-toggle';
-    toggleRow.innerHTML =
-      '<button class="gl-view-btn active" data-view="reference">' +
-        '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h8"/></svg>' +
-        'Nachschlagen</button>' +
-      '<button class="gl-view-btn" data-view="lessons">' +
-        '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>' +
-        'Lektionen</button>';
-
-    grammarControls.insertBefore(toggleRow, grammarControls.firstChild);
+    var toggleRow = document.getElementById('grammar-view-toggle');
+    if (!toggleRow) {
+      toggleRow = document.createElement('div');
+      toggleRow.id = 'grammar-view-toggle';
+      toggleRow.className = 'gl-view-toggle';
+      toggleRow.innerHTML =
+        '<button class="gl-view-btn active" data-view="reference">' +
+          '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h8"/></svg>' +
+          'Nachschlagen</button>' +
+        '<button class="gl-view-btn" data-view="lessons">' +
+          '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>' +
+          'Lektionen</button>';
+      grammarControls.insertBefore(toggleRow, grammarControls.firstChild);
+    }
 
     // Tag original grammar controls for toggle logic
     var origSearchBar = grammarControls.querySelector('.search-bar');
@@ -4347,6 +4352,8 @@
         }
       });
     });
+
+    window.__grammarLessonsInitialized = true;
   }
 
   // Init when DOM is ready

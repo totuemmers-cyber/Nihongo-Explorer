@@ -48,6 +48,12 @@ function getKanjiByRadical() {
   return _kanjiByRadical;
 }
 
+window.resetSectionLookups = function () {
+  _kanjiByChar = null;
+  _radicalSet = null;
+  _kanjiByRadical = null;
+};
+
 // === Bookmark Utilities ===
 
 function getBookmarks(sectionName) {
@@ -854,6 +860,15 @@ SECTION_CONFIGS.vocab = {
       kanjiLinksEl.innerHTML = renderKanjiTags(kanjiChars);
       attachKanjiNavigation(kanjiLinksEl, section);
       kanjiSection.classList.remove('hidden');
+    } else if (window.app && window.app.sections.kanji && !window.app.sections.kanji.isLoaded) {
+      kanjiSection.classList.remove('hidden');
+      kanjiLinksEl.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Kanji-Links werden geladen...</span>';
+      window.app.ensureSectionLoaded('kanji').then(function () {
+        if (section.currentDetailIndex === -1) return;
+        var current = section.filteredItems[section.currentDetailIndex];
+        if (!current || current.word !== v.word || current.reading !== v.reading) return;
+        section.config.openDetail(current, dom, section);
+      });
     } else {
       kanjiSection.classList.add('hidden');
     }
@@ -1183,6 +1198,14 @@ SECTION_CONFIGS.radicals = {
     if (matchingKanji.length > 0) {
       kanjiList.innerHTML = renderKanjiTags(matchingKanji);
       attachKanjiNavigation(kanjiList, section);
+    } else if (window.app && window.app.sections.kanji && !window.app.sections.kanji.isLoaded) {
+      kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Kanji werden geladen...</span>';
+      window.app.ensureSectionLoaded('kanji').then(function () {
+        if (section.currentDetailIndex === -1) return;
+        var current = section.filteredItems[section.currentDetailIndex];
+        if (!current || current.number !== r.number) return;
+        section.config.openDetail(current, dom, section);
+      });
     } else {
       kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Keine Kanji mit diesem Radikal in der Datenbank gefunden.</span>';
     }

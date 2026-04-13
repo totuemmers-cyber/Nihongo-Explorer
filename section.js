@@ -16,6 +16,8 @@ function Section(config) {
   this.scrollObserver = null;
   this.searchTimeout = null;
   this.initialized = false;
+  this.isLoaded = false;
+  this.isLoading = false;
 
   // Resolve DOM elements from config.dom (map of key -> element ID)
   this.dom = {};
@@ -39,6 +41,8 @@ function Section(config) {
 
 Section.prototype.setItems = function (items) {
   this.allItems = items;
+  this.isLoaded = true;
+  this.isLoading = false;
   this.applyFilters();
 };
 
