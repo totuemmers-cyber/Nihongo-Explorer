@@ -388,6 +388,15 @@
       }
     }
 
+    var helpOverlay = document.getElementById('help-overlay');
+    if (helpOverlay && !helpOverlay.classList.contains('hidden')) {
+      if (e.key === 'Escape' || e.key === '?') {
+        e.preventDefault();
+        toggleHelpOverlay();
+      }
+      return;
+    }
+
     // Skip shortcuts when typing in an input
     var ae = document.activeElement;
     if (ae && (ae.tagName === 'INPUT' || ae.tagName === 'SELECT' || ae.tagName === 'TEXTAREA')) {
