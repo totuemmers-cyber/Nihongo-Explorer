@@ -44596,6 +44596,23 @@ window.VOCAB_N3 = [
     ]
   },
   {
+    "word": "平行",
+    "reading": "へいこう",
+    "romaji": "heikou",
+    "pitch": 0,
+    "meaning": "parallel",
+    "type": "Nomen",
+    "level": "N3",
+    "category": "Wissenschaft",
+    "examples": [
+      {
+        "japanese": "この二つの線は平行です。",
+        "romaji": "Kono futatsu no sen wa heikou desu.",
+        "german": "Diese beiden Linien sind parallel."
+      }
+    ]
+  },
+  {
     "word": "景観",
     "reading": "けいかん",
     "romaji": "keikan",
