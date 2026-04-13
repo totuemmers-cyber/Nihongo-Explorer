@@ -2210,24 +2210,6 @@ window.ONOMATOPOEIA_DATA = [
     "notes": "ガランとした = gähnend leer. Impliziert ungewohnte Leere."
   },
   {
-    "word": "ギトギト",
-    "reading": "ぎとぎと",
-    "romaji": "gitogito",
-    "pitch": 1,
-    "meaning": "Schmierig-fettig, ölig",
-    "category": "Zustände",
-    "categoryJP": "擬態語",
-    "pattern": "ABAB",
-    "level": "N2",
-    "usage": "な-Adjektiv, する, の",
-    "explanation": "Beschreibt eine unangenehm fettige, schmierige Oberfläche — stärker und negativer als ベタベタ.",
-    "examples": [
-  { "japanese": "ギトギトのラーメンが好きだ。", "romaji": "Gitogito no rāmen ga suki da.", "german": "Ich mag fettiges Ramen." }
-    ],
-    "related": ["ベタベタ", "ヌルヌル"],
-    "notes": "Stärker als ベタベタ (klebrig). Typisch für öliges Essen oder fettige Haut."
-  },
-  {
     "word": "ヒンヤリ",
     "reading": "ひんやり",
     "romaji": "hinyari",
@@ -2719,24 +2701,6 @@ window.ONOMATOPOEIA_DATA = [
     ],
     "related": ["トコトコ", "ヨロヨロ"],
     "notes": "Süß/niedlich konnotiert. ヨロヨロ = wankend (eher besorgniserregend)."
-  },
-  {
-    "word": "ゴシゴシ",
-    "reading": "ごしごし",
-    "romaji": "goshigoshi",
-    "pitch": 1,
-    "meaning": "Kräftig schrubben, reiben",
-    "category": "Bewegung",
-    "categoryJP": "擬容語",
-    "pattern": "ABAB",
-    "level": "N3",
-    "usage": "Adverb",
-    "explanation": "Beschreibt kräftiges Schrubben oder Reiben, z.B. beim Putzen oder Händewaschen.",
-    "examples": [
-  { "japanese": "汚れをゴシゴシこする。", "romaji": "Yogore o goshigoshi kosuru.", "german": "Den Schmutz kräftig schrubben." }
-    ],
-    "related": [],
-    "notes": "Immer mit Kraftaufwand. Sanfter: そっと拭く (sachte wischen)."
   },
 
   // =============================================
