@@ -199,6 +199,44 @@
     aru: '五段動詞'
   };
 
+  var SURU_SUFFIX = 'する';
+  var SURU_INFLECTIONS = [
+    'する', 'した', 'して', 'します', 'しました',
+    'しない', 'しません', 'している', 'しています',
+    'していた', 'される', 'された', 'させる',
+    'させられる', 'すれば', 'したら', 'しよう',
+    'したい', 'しろ'
+  ];
+  var NON_VERB_CATEGORIES = {
+    'Art und Weise': 1,
+    'Zeit': 1,
+    'Eigenschaften': 1,
+    'Ort': 1
+  };
+
+  function isLikelyGermanVerbMeaning(meaning) {
+    if (!meaning || typeof meaning !== 'string') return false;
+    var first = meaning.split(/[,\s/()]+/)[0] || '';
+    first = first.toLowerCase();
+    if (!first) return false;
+    return /(en|eln|ern|ieren|igen|ßen|hen|ten)$/.test(first);
+  }
+
+  function hasSuruExample(word, examples) {
+    if (!word || !examples || !examples.length) return false;
+    var text = examples.map(function (ex) {
+      return ex && ex.japanese ? ex.japanese : '';
+    }).join('\n');
+    for (var i = 0; i < SURU_INFLECTIONS.length; i++) {
+      if (text.indexOf(word + SURU_INFLECTIONS[i]) !== -1) return true;
+    }
+    return false;
+  }
+
+  function endsWithSuru(text) {
+    return typeof text === 'string' && text.slice(-2) === SURU_SUFFIX;
+  }
+
   window.conjugateVerb = function (reading) {
     var group = detectVerbGroup(reading);
     if (!group) return null;
@@ -223,6 +261,52 @@
       group: group,
       groupLabel: GROUP_LABELS[group] || group,
       forms: forms
+    };
+  };
+
+  window.resolveVocabVerbConjugation = function (item) {
+    if (!item || item.type !== 'Verb' || !item.reading) return null;
+
+    var direct = window.conjugateVerb(item.reading);
+    if (direct) {
+      return {
+        reading: item.reading,
+        result: direct,
+        normalized: false
+      };
+    }
+
+    if (item.conjugationReading) {
+      var explicit = window.conjugateVerb(item.conjugationReading);
+      if (explicit) {
+        return {
+          reading: item.conjugationReading,
+          result: explicit,
+          normalized: item.conjugationReading !== item.reading
+        };
+      }
+    }
+
+    if (endsWithSuru(item.reading) || endsWithSuru(item.word)) return null;
+
+    var candidateReading = item.reading + SURU_SUFFIX;
+    var candidate = window.conjugateVerb(candidateReading);
+    if (!candidate) return null;
+
+    var hasExampleEvidence = hasSuruExample(item.word, item.examples);
+    var hasMeaningEvidence = isLikelyGermanVerbMeaning(item.meaning);
+    if (!hasExampleEvidence && !hasMeaningEvidence) {
+      return null;
+    }
+
+    if (!hasMeaningEvidence && item.category && NON_VERB_CATEGORIES[item.category]) {
+      return null;
+    }
+
+    return {
+      reading: candidateReading,
+      result: candidate,
+      normalized: true
     };
   };
 })();
