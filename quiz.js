@@ -88,10 +88,15 @@
     return sec ? sec.allItems : [];
   }
 
+  function resolveVerbConjugation(item) {
+    if (!window.resolveVocabVerbConjugation) return null;
+    return window.resolveVocabVerbConjugation(item);
+  }
+
   function getVerbsForConjugation(level) {
     var vocab = level ? getVocabByLevel(level) : getAllVocab();
     return vocab.filter(function (v) {
-      return v.type === 'Verb' && v.reading && window.conjugateVerb && window.conjugateVerb(v.reading);
+      return !!resolveVerbConjugation(v);
     });
   }
 
@@ -392,8 +397,9 @@
     var verbs = getVerbsForConjugation(level);
     if (verbs.length < 1) return null;
     var item = pickRandom(verbs);
-    var result = window.conjugateVerb(item.reading);
-    if (!result || !result.forms) return null;
+    var resolved = resolveVerbConjugation(item);
+    if (!resolved || !resolved.result || !resolved.result.forms) return null;
+    var result = resolved.result;
     var formKey = pickRandom(CONJ_FORM_KEYS);
     var targetForm = result.forms[formKey];
     if (!targetForm) return null;
@@ -421,7 +427,7 @@
       promptMain: item.word || item.reading,
       promptSub: item.meaning + ' (' + result.groupLabel + ')',
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: item.reading + ' → ' + targetForm.label + ': ' + targetForm.japanese
+      explanation: resolved.reading + ' → ' + targetForm.label + ': ' + targetForm.japanese
     };
   }
 
