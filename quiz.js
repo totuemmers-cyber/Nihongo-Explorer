@@ -75,6 +75,171 @@
   var LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
   var CONJ_FORM_KEYS = ['polite','negative','past','te','potential','passive','causative','conditional','volitional','imperative'];
+  var STRICT_BEGINNER_LEVELS = { N5: true, N4: true };
+  var STRICT_ALLOWED_LEVELS = {
+    N5: ['N5'],
+    N4: ['N4', 'N5']
+  };
+  var JAPANESE_CHAR_RE = /[\u3000-\u30ff\u3400-\u9faf\uff00-\uff9f]/;
+  var KANJI_RE = /[\u3400-\u9faf]/;
+  var beginnerReplacementCache = {};
+  var beginnerSanitizationCache = {};
+
+  function isStrictBeginnerLevel(level) {
+    return !!STRICT_BEGINNER_LEVELS[level];
+  }
+
+  function hasJapaneseText(text) {
+    return !!(text && JAPANESE_CHAR_RE.test(text));
+  }
+
+  function hasKanji(text) {
+    return !!(text && KANJI_RE.test(text));
+  }
+
+  function getAllowedLevels(level) {
+    return STRICT_ALLOWED_LEVELS[level] ? STRICT_ALLOWED_LEVELS[level].slice() : [level];
+  }
+
+  function dedupePoolByKey(pool, keyFn) {
+    var seen = {};
+    var unique = [];
+    for (var i = 0; i < pool.length; i++) {
+      var key = keyFn(pool[i]);
+      if (!key || seen[key]) continue;
+      seen[key] = true;
+      unique.push(pool[i]);
+    }
+    return unique;
+  }
+
+  function getStrictLevelPool(getByLevel, level, keyFn) {
+    var allowed = getAllowedLevels(level);
+    var pool = [];
+    for (var i = 0; i < allowed.length; i++) {
+      pool = pool.concat(getByLevel(allowed[i]));
+    }
+    return keyFn ? dedupePoolByKey(pool, keyFn) : pool;
+  }
+
+  function buildBeginnerReplacementEntries(level) {
+    if (beginnerReplacementCache[level]) return beginnerReplacementCache[level];
+
+    var vocabPool = getStrictLevelPool(getVocabByLevel, level, function (item) {
+      return (item.word || '') + '|' + (item.reading || '');
+    });
+    var replacementMap = {};
+    var entries = [];
+
+    for (var i = 0; i < vocabPool.length; i++) {
+      var item = vocabPool[i];
+      if (!item.word || !item.reading || item.word === item.reading || !hasKanji(item.word)) continue;
+      if (!replacementMap[item.word]) replacementMap[item.word] = item.reading;
+    }
+
+    for (var source in replacementMap) {
+      if (!Object.prototype.hasOwnProperty.call(replacementMap, source)) continue;
+      entries.push({ source: source, target: replacementMap[source] });
+    }
+
+    entries.sort(function (a, b) {
+      return b.source.length - a.source.length;
+    });
+    beginnerReplacementCache[level] = entries;
+    return entries;
+  }
+
+  function replaceAllPlain(text, search, replacement) {
+    return text.split(search).join(replacement);
+  }
+
+  function uniqueStrings(values) {
+    var seen = {};
+    var out = [];
+    for (var i = 0; i < values.length; i++) {
+      var value = values[i];
+      if (!value || seen[value]) continue;
+      seen[value] = true;
+      out.push(value);
+    }
+    return out;
+  }
+
+  function sanitizeJapaneseForBeginnerLevel(text, level, preserveTokens) {
+    if (!isStrictBeginnerLevel(level) || !hasJapaneseText(text)) return text;
+
+    var tokens = uniqueStrings(preserveTokens || []).sort(function (a, b) {
+      return b.length - a.length;
+    });
+    var cacheKey = level + '|' + text + '|' + tokens.join('\u0001');
+    if (Object.prototype.hasOwnProperty.call(beginnerSanitizationCache, cacheKey)) {
+      return beginnerSanitizationCache[cacheKey];
+    }
+
+    var quickValidationText = text;
+    for (var q = 0; q < tokens.length; q++) {
+      quickValidationText = replaceAllPlain(quickValidationText, tokens[q], '');
+    }
+    if (!hasKanji(quickValidationText)) {
+      beginnerSanitizationCache[cacheKey] = text;
+      return text;
+    }
+
+    var sanitized = text;
+    var placeholders = [];
+    for (var i = 0; i < tokens.length; i++) {
+      var token = tokens[i];
+      if (sanitized.indexOf(token) === -1) continue;
+      var placeholder = '<<Q' + i + '>>';
+      sanitized = replaceAllPlain(sanitized, token, placeholder);
+      placeholders.push({ placeholder: placeholder, value: token });
+    }
+
+    var replacements = buildBeginnerReplacementEntries(level);
+    for (var j = 0; j < replacements.length; j++) {
+      if (sanitized.indexOf(replacements[j].source) !== -1) {
+        sanitized = replaceAllPlain(sanitized, replacements[j].source, replacements[j].target);
+      }
+    }
+
+    for (var k = 0; k < placeholders.length; k++) {
+      sanitized = replaceAllPlain(sanitized, placeholders[k].placeholder, placeholders[k].value);
+    }
+
+    var validationText = sanitized;
+    for (var m = 0; m < tokens.length; m++) {
+      validationText = replaceAllPlain(validationText, tokens[m], '');
+    }
+
+    var result = hasKanji(validationText) ? null : sanitized;
+    beginnerSanitizationCache[cacheKey] = result;
+    return result;
+  }
+
+  function finalizeQuestion(question, level, meta) {
+    if (!question) return null;
+
+    var next = Object.assign({}, question);
+    var auditMeta = Object.assign({}, meta || {});
+    var preserveTokens = auditMeta.preserveTokens || [];
+
+    if (isStrictBeginnerLevel(level)) {
+      if (next.promptMain && hasJapaneseText(next.promptMain)) {
+        next.promptMain = sanitizeJapaneseForBeginnerLevel(next.promptMain, level, preserveTokens);
+        if (!next.promptMain) return null;
+      }
+      if (next.promptSub && hasJapaneseText(next.promptSub)) {
+        next.promptSub = sanitizeJapaneseForBeginnerLevel(next.promptSub, level, preserveTokens);
+        if (!next.promptSub) return null;
+      }
+      if (next.explanation && hasJapaneseText(next.explanation)) {
+        next.explanation = sanitizeJapaneseForBeginnerLevel(next.explanation, level, preserveTokens) || '';
+      }
+    }
+
+    next.auditMeta = auditMeta;
+    return next;
+  }
 
   // ==========================================================
   // B: DATA ACCESSORS
@@ -216,11 +381,29 @@
     return text.replace(needle, '\uFF3F\uFF3F\uFF3F');
   }
 
+  function getConjugationGroupLabel(result, level) {
+    if (!result) return '';
+    if (!isStrictBeginnerLevel(level)) return result.groupLabel || '';
+    var kanaLabels = {
+      godan: 'ごだんどうし',
+      ichidan: 'いちだんどうし',
+      suru: 'するどうし',
+      kuru: 'くるどうし',
+      aru: 'ある'
+    };
+    return kanaLabels[result.group] || result.groupLabel || '';
+  }
+
   // ==========================================================
   // D: QUESTION GENERATORS
   // ==========================================================
 
   function getLevelPool(getByLevel, level) {
+    if (isStrictBeginnerLevel(level)) {
+      return getStrictLevelPool(getByLevel, level, function (item) {
+        return (item.id || item.kanji || item.word || item.pattern || '') + '|' + (item.reading || item.jlpt || item.level || '');
+      });
+    }
     var pool = getByLevel(level);
     if (pool.length < 10) {
       // Expand to adjacent levels
@@ -239,14 +422,17 @@
     var distractors = generateDistractors(item, pool, 3, function (v) { return v.meaning; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.meaning, distractors);
-    return {
+    return finalizeQuestion({
       type: 'vocabMeaning', level: level,
       prompt: 'Was bedeutet dieses Wort?',
       promptMain: item.word,
       promptSub: item.reading,
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.word + ' (' + item.reading + ') = ' + item.meaning
-    };
+    }, level, {
+      sourceLevel: item.level,
+      preserveTokens: [item.word]
+    });
   }
 
   // 2. Vocab Reading: kanji word → reading
@@ -257,14 +443,17 @@
     var distractors = generateDistractors(item, pool, 3, function (v) { return v.reading; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.reading, distractors);
-    return {
+    return finalizeQuestion({
       type: 'vocabReading', level: level,
       prompt: 'Wie liest man dieses Wort?',
       promptMain: item.word,
       promptSub: item.meaning,
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.word + ' wird ' + item.reading + ' gelesen'
-    };
+    }, level, {
+      sourceLevel: item.level,
+      preserveTokens: [item.word]
+    });
   }
 
   // 3. Vocab Reverse: meaning → word
@@ -275,14 +464,17 @@
     var distractors = generateDistractors(item, pool, 3, function (v) { return v.word; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.word, distractors);
-    return {
+    return finalizeQuestion({
       type: 'vocabReverse', level: level,
       prompt: 'Welches Wort bedeutet:',
       promptMain: item.meaning,
       promptSub: '',
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.meaning + ' = ' + item.word + ' (' + item.reading + ')'
-    };
+    }, level, {
+      sourceLevel: item.level,
+      preserveTokens: [item.word]
+    });
   }
 
   // 4. Vocab Context: sentence with blank → word
@@ -290,7 +482,10 @@
     var pool = getLevelPool(getVocabByLevel, level).filter(function (v) {
       if (!v.examples || v.examples.length === 0) return false;
       for (var i = 0; i < v.examples.length; i++) {
-        if (buildSingleBlankSentence(v.examples[i].japanese, v.word)) return true;
+        var sentence = buildSingleBlankSentence(v.examples[i].japanese, v.word);
+        if (!sentence) continue;
+        if (!isStrictBeginnerLevel(level)) return true;
+        if (sanitizeJapaneseForBeginnerLevel(sentence, level, [])) return true;
       }
       return false;
     });
@@ -298,7 +493,11 @@
     var item = pickRandom(pool);
     var ex = null;
     for (var i = 0; i < item.examples.length; i++) {
-      if (buildSingleBlankSentence(item.examples[i].japanese, item.word)) { ex = item.examples[i]; break; }
+      var candidate = buildSingleBlankSentence(item.examples[i].japanese, item.word);
+      if (!candidate) continue;
+      if (isStrictBeginnerLevel(level) && !sanitizeJapaneseForBeginnerLevel(candidate, level, [])) continue;
+      ex = item.examples[i];
+      break;
     }
     if (!ex) return null;
     var sentence = buildSingleBlankSentence(ex.japanese, item.word);
@@ -306,14 +505,16 @@
     var distractors = generateDistractors(item, pool, 3, function (v) { return v.word; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.word, distractors);
-    return {
+    return finalizeQuestion({
       type: 'vocabContext', level: level,
       prompt: 'Welches Wort passt in die Lücke?',
       promptMain: sentence,
       promptSub: ex.german,
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.word + ' (' + item.reading + ') — ' + ex.japanese
-    };
+    }, level, {
+      sourceLevel: item.level
+    });
   }
 
   // 5. Kanji Meaning: kanji → meaning
@@ -325,14 +526,17 @@
     var distractors = generateDistractors(item, pool, 3, function (k) { return k.meanings[0]; });
     if (distractors.length < 3) return null;
     var c = buildChoices(correctMeaning, distractors);
-    return {
+    return finalizeQuestion({
       type: 'kanjiMeaning', level: level,
       prompt: 'Was bedeutet dieses Kanji?',
       promptMain: item.kanji,
       promptSub: '',
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.kanji + ' = ' + item.meanings.join(', ')
-    };
+    }, level, {
+      sourceLevel: item.jlpt,
+      preserveTokens: [item.kanji]
+    });
   }
 
   // 6. Kanji Reading: kanji → reading
@@ -355,14 +559,17 @@
     });
     if (distractors.length < 3) return null;
     var c = buildChoices(correctReading, distractors);
-    return {
+    return finalizeQuestion({
       type: 'kanjiReading', level: level,
       prompt: 'Wie kann man dieses Kanji lesen?',
       promptMain: item.kanji,
       promptSub: item.meanings[0],
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.kanji + ': ' + readings.join(', ')
-    };
+    }, level, {
+      sourceLevel: item.jlpt,
+      preserveTokens: [item.kanji]
+    });
   }
 
   // 7. Kanji Radical: kanji → radical
@@ -383,14 +590,17 @@
     });
     if (distrs.length < 3) return null;
     var c = buildChoices(correctAnswer, distrs);
-    return {
+    return finalizeQuestion({
       type: 'kanjiRadical', level: level,
       prompt: 'Welches Radikal ist in diesem Kanji enthalten?',
       promptMain: item.kanji,
       promptSub: item.meanings[0],
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.kanji + ' hat als Prim\u00e4rradikal ' + correctAnswer
-    };
+    }, level, {
+      sourceLevel: item.jlpt,
+      preserveTokens: [item.kanji]
+    });
   }
 
   // 8. Grammar Meaning: pattern → meaning
@@ -401,14 +611,17 @@
     var distractors = generateDistractors(item, pool, 3, function (g) { return g.meaning; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.meaning, distractors);
-    return {
+    return finalizeQuestion({
       type: 'grammarMeaning', level: level,
       prompt: 'Was bedeutet dieses Grammatikmuster?',
       promptMain: item.pattern,
       promptSub: item.formation || '',
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.pattern + ' = ' + item.meaning
-    };
+    }, level, {
+      sourceLevel: item.level,
+      preserveTokens: [item.pattern]
+    });
   }
 
   // 9. Grammar Cloze: sentence blank → pattern
@@ -416,7 +629,10 @@
     var pool = getLevelPool(getGrammarByLevel, level).filter(function (g) {
       if (!g.examples || g.examples.length === 0) return false;
       for (var i = 0; i < g.examples.length; i++) {
-        if (buildSingleBlankSentence(g.examples[i].japanese, g.pattern)) return true;
+        var sentence = buildSingleBlankSentence(g.examples[i].japanese, g.pattern);
+        if (!sentence) continue;
+        if (!isStrictBeginnerLevel(level)) return true;
+        if (sanitizeJapaneseForBeginnerLevel(sentence, level, [])) return true;
       }
       return false;
     });
@@ -424,7 +640,11 @@
     var item = pickRandom(pool);
     var ex = null;
     for (var i = 0; i < item.examples.length; i++) {
-      if (buildSingleBlankSentence(item.examples[i].japanese, item.pattern)) { ex = item.examples[i]; break; }
+      var candidate = buildSingleBlankSentence(item.examples[i].japanese, item.pattern);
+      if (!candidate) continue;
+      if (isStrictBeginnerLevel(level) && !sanitizeJapaneseForBeginnerLevel(candidate, level, [])) continue;
+      ex = item.examples[i];
+      break;
     }
     if (!ex) return null;
     var sentence = buildSingleBlankSentence(ex.japanese, item.pattern);
@@ -432,14 +652,16 @@
     var distractors = generateDistractors(item, pool, 3, function (g) { return g.pattern; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.pattern, distractors);
-    return {
+    return finalizeQuestion({
       type: 'grammarCloze', level: level,
       prompt: 'Welches Grammatikmuster passt in die Lücke?',
       promptMain: sentence,
       promptSub: ex.german,
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.pattern + ' — ' + ex.japanese
-    };
+    }, level, {
+      sourceLevel: item.level
+    });
   }
 
   // 10. Grammar Formation: meaning → formation
@@ -450,14 +672,17 @@
     var distractors = generateDistractors(item, pool, 3, function (g) { return g.formation; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.formation, distractors);
-    return {
+    return finalizeQuestion({
       type: 'grammarFormation', level: level,
       prompt: 'Wie wird dieses Muster gebildet?',
       promptMain: item.pattern,
       promptSub: item.meaning,
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.pattern + ': ' + item.formation
-    };
+    }, level, {
+      sourceLevel: item.level,
+      preserveTokens: [item.pattern]
+    });
   }
 
   // 11. Conjugation: verb + target form → conjugated
@@ -499,14 +724,17 @@
     distractorValues = shuffle(distractorValues);
     if (distractorValues.length < 3) return null;
     var c = buildChoices(targetForm.japanese, distractorValues.slice(0, 3));
-    return {
+    return finalizeQuestion({
       type: 'conjugation', level: level,
       prompt: targetForm.label + ' von:',
       promptMain: item.word || item.reading,
-      promptSub: item.meaning + ' (' + result.groupLabel + ')',
+      promptSub: item.meaning + ' (' + getConjugationGroupLabel(result, level) + ')',
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: resolved.reading + ' → ' + targetForm.label + ': ' + targetForm.japanese
-    };
+    }, level, {
+      sourceLevel: item.level,
+      preserveTokens: [item.word || item.reading]
+    });
   }
 
   var GENERATORS = {
