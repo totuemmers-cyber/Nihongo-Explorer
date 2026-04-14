@@ -944,6 +944,17 @@
     var parts = renderQuestionCard(question, questionArea);
     panel.appendChild(questionArea);
 
+    // Action buttons
+    var actions = el('div', 'quiz-browse-actions');
+    var nextBtn = el('button', 'quiz-btn quiz-btn-next hidden', 'Nächste Frage');
+    nextBtn.id = 'quiz-test-next-btn';
+    nextBtn.addEventListener('click', function () {
+      testState.currentQuestion++;
+      renderTestQuestion();
+    });
+    actions.appendChild(nextBtn);
+    panel.appendChild(actions);
+
     renderChoiceButtons(question, parts.choicesDiv, function (idx) {
       // Lock answer
       showFeedback(parts.choicesDiv, idx, question.correctIndex);
@@ -960,11 +971,8 @@
         parts.explDiv.classList.remove('hidden');
       }
 
-      // Auto-advance after delay
-      setTimeout(function () {
-        testState.currentQuestion++;
-        renderTestQuestion();
-      }, 800);
+      // Reveal the manual advance action after the answer is shown.
+      nextBtn.classList.remove('hidden');
     });
   }
 
@@ -1206,7 +1214,14 @@
 
     // Enter to reveal/advance in browse mode
     if (e.key === 'Enter') {
-      if (!testState.active) {
+      if (testState.active) {
+        var testNextBtn = document.getElementById('quiz-test-next-btn');
+        if (testNextBtn && !testNextBtn.classList.contains('hidden')) {
+          testNextBtn.click();
+          e.preventDefault();
+          return true;
+        }
+      } else {
         var revealBtn = document.getElementById('quiz-reveal-btn');
         var nextBtn = document.getElementById('quiz-next-btn');
         if (revealBtn && !revealBtn.classList.contains('hidden')) {
