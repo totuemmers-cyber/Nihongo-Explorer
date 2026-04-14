@@ -4657,6 +4657,322 @@
           tip: 'Wenn die Folge gut ist, passt せいで fast nie. Wenn die Folge schlecht ist, passt おかげで fast nie. Genau diese Wertung ist der Kern.'
         }
       ]
+    },
+
+    // ===================== LEKTION 109 =====================
+    {
+      id: 'lesson-109',
+      number: 109,
+      title: 'ようだ・らしい・みたいだ・そうだ',
+      subtitle: 'N3-Kontrast — Eindruck, Hörensagen, typische Eigenschaft',
+      level: 'N3',
+      intro: 'Diese vier Formen tauchen schon früher auf, aber erst auf N3 muss man sie sauber gegeneinander abgrenzen können. Alle drücken Unsicherheit oder indirekte Information aus, aber sie tun das aus unterschiedlichen Quellen und mit unterschiedlicher Nuance.',
+      sections: [
+        {
+          heading: 'ようだ und みたいだ — Eindruck und Vergleich',
+          text: '<strong>ようだ</strong> klingt neutraler und etwas schriftlicher, <strong>みたいだ</strong> gesprochener und subjektiver. Beide drücken einen Eindruck, Vergleich oder eine aus Beobachtung abgeleitete Vermutung aus. Inhaltlich sind sie oft nah, stilistisch aber nicht identisch.',
+          examples: [
+            { jp: '外は雨のようです。', romaji: 'Soto wa ame no yō desu.', de: 'Draußen scheint es zu regnen.' },
+            { jp: '彼は本当に先生みたいです。', romaji: 'Kare wa hontō ni sensei mitai desu.', de: 'Er wirkt wirklich wie ein Lehrer.' },
+            { jp: 'この町は昔より静かなようだ。', romaji: 'Kono machi wa mukashi yori shizuka na yō da.', de: 'Diese Stadt scheint ruhiger zu sein als früher.' },
+          ],
+          tip: 'ようだ passt besser in erklärende oder schriftlichere Sätze, みたいだ besser in lockere Gespräche.'
+        },
+        {
+          heading: 'らしい — Hörensagen oder typische Eigenschaft',
+          text: '<strong>らしい</strong> hat zwei Hauptfunktionen: Es kann Hörensagen ausdrücken („anscheinend“) oder eine typische Eigenschaft („typisch für“) markieren. Gerade diese Doppelfunktion macht らしい zu einem typischen N3-Fall.',
+          examples: [
+            { jp: '田中さんは今日は来ないらしいです。', romaji: 'Tanaka-san wa kyō wa konai rashii desu.', de: 'Anscheinend kommt Tanaka heute nicht.' },
+            { jp: 'あの人は本当に子どもらしいですね。', romaji: 'Ano hito wa hontō ni kodomo rashii desu ne.', de: 'Diese Person ist wirklich sehr kindlich / typisch Kind.' },
+            { jp: '春らしい天気になりました。', romaji: 'Haru rashii tenki ni narimashita.', de: 'Es ist frühlingshaft geworden.' },
+          ],
+          tip: 'Wenn らしい „typisch“ bedeutet, ist es nicht bloß Vermutung, sondern Charakterisierung.'
+        },
+        {
+          heading: 'そうだ — Hörensagen vs. Aussehen',
+          text: '<strong>そうだ</strong> bleibt eine typische Verwechslungsstelle. Als Hörensagen bedeutet es „ich habe gehört“. Als 様態-そう beschreibt es den sichtbaren Eindruck: „sieht ... aus“. Beide Formen klingen gleich, werden aber anders gebildet und anders begründet.',
+          examples: [
+            { jp: 'ニュースによると、台風が来るそうです。', romaji: 'Nyūsu ni yoru to, taifū ga kuru sō desu.', de: 'Laut Nachrichten soll ein Taifun kommen.' },
+            { jp: 'このケーキはおいしそうです。', romaji: 'Kono kēki wa oishisō desu.', de: 'Dieser Kuchen sieht lecker aus.' },
+            { jp: '彼はとても疲れていそうだ。', romaji: 'Kare wa totemo tsukarete isō da.', de: 'Er sieht sehr müde aus.' },
+          ],
+          tip: 'N3-relevant ist nicht nur die Einzelbedeutung, sondern die sichere Unterscheidung zwischen Quelle der Information und wahrgenommener Erscheinung.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 110 =====================
+    {
+      id: 'lesson-110',
+      number: 110,
+      title: 'わけだ・わけではない・ということだ',
+      subtitle: 'Schlussfolgerung und Umformulierung — etwas logisch einordnen',
+      level: 'N3',
+      intro: 'Auf N3 wird Sprache abstrakter. Man sagt nicht mehr nur, was passiert, sondern erklärt, was logisch daraus folgt, was damit gemeint ist oder was gerade nicht pauschal behauptet werden soll. Genau dafür sind わけだ, わけではない und ということだ zentral.',
+      sections: [
+        {
+          heading: 'わけだ — „das heißt also“, „kein Wunder“',
+          text: '<strong>わけだ</strong> drückt eine logische Folgerung oder Einsicht aus. Der Sprecher ordnet eine Information ein und macht klar: Wenn das stimmt, ist das Ergebnis verständlich oder logisch.',
+          examples: [
+            { jp: '毎日三時間勉強しているなら、上手になるわけだ。', romaji: 'Mainichi sanjikan benkyō shite iru nara, jōzu ni naru wake da.', de: 'Wenn du jeden Tag drei Stunden lernst, ist es logisch, dass du besser wirst.' },
+            { jp: '今日は祝日です。だから銀行が閉まっているわけです。', romaji: 'Kyō wa shukujitsu desu. Dakara ginkō ga shimatte iru wake desu.', de: 'Heute ist Feiertag. Deshalb ist die Bank natürlich geschlossen.' },
+          ],
+          tip: 'わけだ ist nicht bloß „also“, sondern eine begründete logische Einordnung.'
+        },
+        {
+          heading: 'わけではない — nicht unbedingt / nicht pauschal',
+          text: 'Mit <strong>～わけではない</strong> grenzt man eine Aussage ein: „es ist nicht so, dass ...“ oder „nicht unbedingt“. Diese Struktur ist typisch, wenn man pauschale Schlussfolgerungen zurücknimmt.',
+          examples: [
+            { jp: '高いものが全部いいわけではありません。', romaji: 'Takai mono ga zenbu ii wake de wa arimasen.', de: 'Es ist nicht so, dass alles Teure gut ist.' },
+            { jp: '日本人だからといって、みんな寿司が好きなわけではない。', romaji: 'Nihonjin da kara to itte, minna sushi ga suki na wake de wa nai.', de: 'Nur weil jemand Japaner ist, heißt das nicht, dass alle Sushi mögen.' },
+          ],
+          tip: 'わけではない verneint oft nicht den ganzen Inhalt, sondern eine zu starke Verallgemeinerung.'
+        },
+        {
+          heading: 'ということだ — Hörensagen oder Zusammenfassung',
+          text: '<strong>ということだ</strong> kann Information wiedergeben („es heißt, dass ...“) oder eine Aussage zusammenfassend umformulieren („das bedeutet also ...“). Auf N3 muss man beide Lesarten aus dem Kontext erkennen.',
+          examples: [
+            { jp: '天気予報では、明日は雪だということです。', romaji: 'Tenki yohō de wa, ashita wa yuki da to iu koto desu.', de: 'Laut Wetterbericht soll es morgen schneien.' },
+            { jp: '電車が止まった。つまり、今日は会社に遅れるということだ。', romaji: 'Densha ga tomatta. Tsumari, kyō wa kaisha ni okureru to iu koto da.', de: 'Der Zug ist stehen geblieben. Das heißt also, dass ich heute zu spät zur Arbeit komme.' },
+          ],
+          tip: 'Wenn ということだ wie indirekte Rede wirkt, ist es Hörensagen. Wenn es etwas aus Vorigem ableitet, ist es Zusammenfassung oder Schlussfolgerung.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 111 =====================
+    {
+      id: 'lesson-111',
+      number: 111,
+      title: 'うちに・間に・たびに',
+      subtitle: 'N3-Zeitmuster — während, solange, jedes Mal wenn',
+      level: 'N3',
+      intro: 'Diese drei Formen beziehen sich alle auf wiederkehrende oder begrenzte Zeiträume, aber sie funktionieren nicht gleich. Auf N3 geht es darum, fein zu unterscheiden, ob sich innerhalb eines Zeitfensters etwas ändert, ob etwas während eines Zustands geschieht oder ob jede Wiederholung eines Ereignisses gemeint ist.',
+      sections: [
+        {
+          heading: 'うちに — solange noch, bevor sich etwas ändert',
+          text: '<strong>うちに</strong> beschreibt ein Zeitfenster, in dem man etwas tun sollte, bevor sich die Situation verändert. Oft steckt eine Idee von „solange noch ...“ oder „bevor es zu spät ist“ darin.',
+          examples: [
+            { jp: '若いうちに、いろいろ経験したほうがいい。', romaji: 'Wakai uchi ni, iroiro keiken shita hō ga ii.', de: 'Solange man jung ist, sollte man verschiedene Erfahrungen machen.' },
+            { jp: '熱いうちに食べてください。', romaji: 'Atsui uchi ni tabete kudasai.', de: 'Bitte iss es, solange es noch heiß ist.' },
+          ],
+          tip: 'うちに enthält oft einen impliziten Wandel: später ist die Gelegenheit vorbei oder die Bedingungen ändern sich.'
+        },
+        {
+          heading: '間に — während eines Zeitraums',
+          text: '<strong>間に</strong> markiert ein Ereignis oder eine Handlung, die innerhalb eines laufenden Zeitraums stattfindet. Der Fokus liegt stärker auf dem Zeitraum selbst als bei うちに.',
+          examples: [
+            { jp: '留守の間に、荷物が届きました。', romaji: 'Rusu no aida ni, nimotsu ga todokimashita.', de: 'Während ich weg war, wurde ein Paket geliefert.' },
+            { jp: '日本に住んでいる間に、たくさん友だちができました。', romaji: 'Nihon ni sunde iru aida ni, takusan tomodachi ga dekimashita.', de: 'Während ich in Japan lebte, habe ich viele Freunde gefunden.' },
+          ],
+          tip: 'Wenn ein konkretes Ereignis mitten in einem Zeitraum passiert, ist 間に oft die natürliche Wahl.'
+        },
+        {
+          heading: 'たびに — jedes Mal wenn',
+          text: '<strong>たびに</strong> drückt Wiederholung aus: Immer wenn X passiert, folgt Y. Es ist regelmäßiger und allgemeiner als ein einmaliger Zeitzusammenhang.',
+          examples: [
+            { jp: 'この歌を聞くたびに、学生時代を思い出します。', romaji: 'Kono uta o kiku tabi ni, gakusei jidai o omoidasu.', de: 'Jedes Mal, wenn ich dieses Lied höre, denke ich an meine Studienzeit.' },
+            { jp: '会うたびに、彼は元気になります。', romaji: 'Au tabi ni, kare wa genki ni narimasu.', de: 'Jedes Mal, wenn wir uns treffen, wird er besser gelaunt.' },
+          ],
+          tip: 'たびに beschreibt keine einmalige Situation, sondern ein wiederholtes Muster.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 112 =====================
+    {
+      id: 'lesson-112',
+      number: 112,
+      title: 'こと・の の使い分け',
+      subtitle: 'Nominalisierung auf N3 — abstrakt, konkret, subjektiv',
+      level: 'N3',
+      intro: 'Sowohl こと als auch の können aus einem Satzteil ein Nomen machen. Auf N5/N4 reicht oft ein grobes Gefühl, aber auf N3 muss man präziser werden: Wann klingt こと natürlicher, wann の, und was ändert sich an Ton und Perspektive?',
+      sections: [
+        {
+          heading: 'こと — abstrakt, allgemein, formeller',
+          text: '<strong>こと</strong> wirkt abstrakter und wird oft für Regeln, Tatsachen, Konzepte oder formellere Aussagen verwendet. Es passt gut, wenn die Handlung als Idee oder Sachverhalt behandelt wird.',
+          examples: [
+            { jp: '外国語を学ぶことは大切です。', romaji: 'Gaikokugo o manabu koto wa taisetsu desu.', de: 'Es ist wichtig, Fremdsprachen zu lernen.' },
+            { jp: '約束を守ることが必要です。', romaji: 'Yakusoku o mamoru koto ga hitsuyō desu.', de: 'Es ist notwendig, Versprechen zu halten.' },
+          ],
+          tip: 'In Regeln, Vorschriften und allgemeinen Aussagen ist こと oft natürlicher als の.'
+        },
+        {
+          heading: 'の — konkreter, wahrnehmbarer, persönlicher',
+          text: '<strong>の</strong> wirkt konkreter und näher an einem beobachtbaren Ereignis. Es wird oft benutzt, wenn es um direkte Wahrnehmung, persönliche Erfahrung oder emotional nähere Situationen geht.',
+          examples: [
+            { jp: '子どもが公園で遊んでいるのを見ました。', romaji: 'Kodomo ga kōen de asonde iru no o mimashita.', de: 'Ich habe gesehen, wie Kinder im Park spielen.' },
+            { jp: '彼が笑うのが好きです。', romaji: 'Kare ga warau no ga suki desu.', de: 'Ich mag es, wenn er lacht.' },
+          ],
+          tip: 'Bei Verben der Wahrnehmung wie 見る, 聞く, 感じる ist の sehr häufig.'
+        },
+        {
+          heading: 'Grenzfälle und Stilgefühl',
+          text: 'In manchen Sätzen sind beide möglich, aber nicht mit exakt demselben Ton. こと klingt oft sachlicher oder formeller, の persönlicher oder unmittelbarer. Genau dieses Stilgefühl wird ab N3 wichtig.',
+          examples: [
+            { jp: '日本語を勉強することが楽しいです。', romaji: 'Nihongo o benkyō suru koto ga tanoshii desu.', de: 'Japanisch zu lernen macht Spaß. (etwas sachlicher)' },
+            { jp: '日本語を勉強するのが楽しいです。', romaji: 'Nihongo o benkyō suru no ga tanoshii desu.', de: 'Japanisch zu lernen macht Spaß. (etwas persönlicher)' },
+          ],
+          tip: 'Die grammatische Möglichkeit allein reicht nicht. Auf N3 zählt, welche Form in der Situation natürlicher klingt.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 113 =====================
+    {
+      id: 'lesson-113',
+      number: 113,
+      title: '受け身・使役・使役受け身',
+      subtitle: 'N3-Systematik — etwas erleiden, veranlassen, dazu gezwungen werden',
+      level: 'N3',
+      intro: 'Passiv und Kausativ kennt man schon aus N4. Auf N3 reicht das aber nicht mehr. Jetzt geht es darum, die drei verwandten Systeme zusammen zu sehen: Passiv, Kausativ und Kausativ-Passiv. Wer diese Beziehungen versteht, macht weniger Form- und Bedeutungsfehler.',
+      sections: [
+        {
+          heading: '受け身 — etwas erfahren oder betroffen sein',
+          text: 'Die Passivform beschreibt nicht nur „etwas wird getan“, sondern im Japanischen oft auch, dass jemand von einer Handlung betroffen ist. Diese Betroffenheit ist für das japanische Passiv zentral.',
+          examples: [
+            { jp: '私は先生にほめられました。', romaji: 'Watashi wa sensei ni homeraremashita.', de: 'Ich wurde vom Lehrer gelobt.' },
+            { jp: '弟にケーキを食べられました。', romaji: 'Otōto ni kēki o taberaremashita.', de: 'Mein kleiner Bruder hat mir den Kuchen weggegessen.' },
+          ],
+          tip: 'Gerade das „Leidenspassiv“ ist ein klassischer N3-Punkt: Der Sprecher ist betroffen, auch wenn die Handlung nicht direkt auf ihn gerichtet ist.'
+        },
+        {
+          heading: '使役 — jemanden etwas tun lassen / veranlassen',
+          text: 'Mit der Kausativform veranlasst oder erlaubt man, dass jemand etwas tut. Ob eher „lassen“ oder „zwingen“ gemeint ist, hängt stark vom Kontext ab.',
+          examples: [
+            { jp: '先生は学生に本を読ませました。', romaji: 'Sensei wa gakusei ni hon o yomasemashita.', de: 'Der Lehrer ließ die Schüler ein Buch lesen.' },
+            { jp: '母は子どもを早く寝させました。', romaji: 'Haha wa kodomo o hayaku nesasemashita.', de: 'Die Mutter ließ das Kind früh schlafen gehen.' },
+          ],
+          tip: 'Bei Kausativsätzen ist die Rollenverteilung wichtig: Wer veranlasst, wer handelt tatsächlich?'
+        },
+        {
+          heading: '使役受け身 — dazu gezwungen werden',
+          text: 'Die Kausativ-Passivform verbindet beide Ideen: Jemand wird dazu gebracht oder gezwungen, etwas zu tun. Sie ist formell komplexer, aber in N3-Lesetexten und Hörverstehen sehr relevant.',
+          examples: [
+            { jp: '私は父に野菜を食べさせられました。', romaji: 'Watashi wa chichi ni yasai o tabesaseraremashita.', de: 'Mein Vater zwang mich dazu, Gemüse zu essen.' },
+            { jp: '学生たちは毎日漢字を書かせられています。', romaji: 'Gakuseitachi wa mainichi kanji o kakasarete imasu.', de: 'Die Studenten werden jeden Tag dazu gebracht, Kanji zu schreiben.' },
+          ],
+          tip: 'N3-Ziel ist nicht nur die Bildung, sondern das sichere Erkennen der Beziehung zwischen den drei Formen und ihrer jeweiligen Perspektive.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 114 =====================
+    {
+      id: 'lesson-114',
+      number: 114,
+      title: 'ものの・にもかかわらず・くせに',
+      subtitle: 'Konzessive N3-Muster — obwohl, trotz, und trotzdem mit Haltung',
+      level: 'N3',
+      intro: 'Alle drei Formen verbinden zwei Inhalte, die nicht gut zusammenpassen: Etwas gilt, aber das erwartete Ergebnis tritt nicht ein. Auf N3 muss man jedoch mehr können als nur „obwohl“ übersetzen. Entscheidend sind Stil, Stärke und Haltung des Sprechers.',
+      sections: [
+        {
+          heading: 'ものの — formell und zurückhaltend',
+          text: '<strong>ものの</strong> bedeutet „zwar ... aber“ oder „obwohl“, klingt aber eher schriftlich und zurückhaltend. Es passt gut zu sachlichen Texten, Erklärungen und formelleren Aussagen, bei denen der Sprecher nüchtern bleibt.',
+          examples: [
+            { jp: '日本語は勉強しているものの、まだ十分に話せません。', romaji: 'Nihongo wa benkyō shite iru mono no, mada jūbun ni hanasemasen.', de: 'Ich lerne zwar Japanisch, kann es aber noch nicht gut genug sprechen.' },
+            { jp: '春になったものの、まだ寒い日が続いています。', romaji: 'Haru ni natta mono no, mada samui hi ga tsuzuite imasu.', de: 'Es ist zwar Frühling geworden, aber die kalten Tage dauern noch an.' },
+          ],
+          tip: 'ものの klingt eher beobachtend als emotional. Für Vorwürfe ist es fast nie die beste Wahl.'
+        },
+        {
+          heading: 'にもかかわらず — trotz, entgegen der Erwartung',
+          text: '<strong>にもかかわらず</strong> ist stärker und formeller. Es markiert einen klaren Widerspruch zwischen Tatsache und Ergebnis. Der Ausdruck passt besonders gut in schriftliche Sprache, Berichte und argumentierende Texte.',
+          examples: [
+            { jp: '雨にもかかわらず、多くの人が来ました。', romaji: 'Ame ni mo kakawarazu, ōku no hito ga kimashita.', de: 'Trotz des Regens sind viele Leute gekommen.' },
+            { jp: '彼は病気だったにもかかわらず、仕事を続けた。', romaji: 'Kare wa byōki datta ni mo kakawarazu, shigoto o tsuzuketa.', de: 'Obwohl er krank war, arbeitete er weiter.' },
+          ],
+          tip: 'にもかかわらず ist sachlich stark und eher schriftsprachlich. Es klingt schwerer als のに.'
+        },
+        {
+          heading: 'くせに — trotz ...! mit Kritik oder Ärger',
+          text: '<strong>くせに</strong> bedeutet ebenfalls „obwohl“, trägt aber fast immer eine negative Haltung des Sprechers: Vorwurf, Ärger, Kritik oder Spott. Genau diese emotionale Färbung macht くせに prüfungsrelevant.',
+          examples: [
+            { jp: '知らないくせに、知っているふりをしている。', romaji: 'Shiranai kuse ni, shitte iru furi o shite iru.', de: 'Obwohl er es nicht weiß, tut er so, als wüsste er es.' },
+            { jp: '彼は学生のくせに、毎日高い店で食べている。', romaji: 'Kare wa gakusei no kuse ni, mainichi takai mise de tabete iru.', de: 'Obwohl er Student ist, isst er jeden Tag in teuren Restaurants.' },
+          ],
+          tip: 'くせに ist subjektiv und oft scharf. In höflichen Situationen sollte man vorsichtig damit sein.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 115 =====================
+    {
+      id: 'lesson-115',
+      number: 115,
+      title: 'ところだ・ところで・ところを',
+      subtitle: 'N3-Zeitpunkt und Situation — gerade, in dem Moment, obwohl gerade',
+      level: 'N3',
+      intro: 'Die ところ-Gruppe gehört zu den klassischen N3-Stolpersteinen. Die Formen sehen ähnlich aus, drücken aber unterschiedliche Momente, Übergänge und situative Einbettungen aus. Genau hier reicht reines Auswendiglernen nicht mehr.',
+      sections: [
+        {
+          heading: '～ところだ — kurz vor, gerade dabei, gerade fertig',
+          text: '<strong>ところだ</strong> markiert den Zeitpunkt einer Handlung sehr präzise. Wörterbuchform + ところだ bedeutet „kurz davor sein“, ているところだ „gerade dabei sein“, たところだ „gerade abgeschlossen haben“.',
+          examples: [
+            { jp: 'これから出かけるところです。', romaji: 'Kore kara dekakeru tokoro desu.', de: 'Ich bin gerade im Begriff, auszugehen.' },
+            { jp: '今、昼ご飯を食べているところです。', romaji: 'Ima, hirugohan o tabete iru tokoro desu.', de: 'Ich esse gerade Mittag.' },
+            { jp: 'さっき家に帰ったところです。', romaji: 'Sakki ie ni kaetta tokoro desu.', de: 'Ich bin gerade eben nach Hause gekommen.' },
+          ],
+          tip: 'Auf N3 ist wichtig, dass jede Verbform vor ところ einen anderen Zeitpunkt markiert.'
+        },
+        {
+          heading: '～ところで — selbst wenn / übrigens / genau dann',
+          text: '<strong>ところで</strong> hat mehrere Funktionen, die man aus dem Kontext erkennen muss. Als Satzverbindung heißt es oft „übrigens“. In Mustern wie ～たところで bedeutet es „selbst wenn ...“, oft mit der Nuance, dass das Ergebnis wenig bringt.',
+          examples: [
+            { jp: '今から急いだところで、もう間に合わない。', romaji: 'Ima kara isoida tokoro de, mō maniau nai.', de: 'Selbst wenn wir uns jetzt beeilen, schaffen wir es nicht mehr rechtzeitig.' },
+            { jp: 'ところで、来週の会議は何時ですか。', romaji: 'Tokoro de, raishū no kaigi wa nanji desu ka.', de: 'Übrigens, um wie viel Uhr ist die Besprechung nächste Woche?' },
+          ],
+          tip: 'Die Funktion „übrigens“ ist sehr häufig im Gespräch, die Konditionalbedeutung eher typisch für N3-Grammatikfragen.'
+        },
+        {
+          heading: '～ところを — obwohl gerade / in dem Moment, in dem',
+          text: '<strong>ところを</strong> beschreibt eine Situation, in der jemand gerade beschäftigt oder in einem bestimmten Zustand ist, und dann etwas anderes passiert. Häufig klingt eine leichte Entschuldigung oder Rücksichtnahme mit.',
+          examples: [
+            { jp: 'お忙しいところを、ありがとうございます。', romaji: 'Oisogashii tokoro o, arigatō gozaimasu.', de: 'Vielen Dank, obwohl Sie gerade beschäftigt sind.' },
+            { jp: '寝ているところを起こしてしまって、すみません。', romaji: 'Nete iru tokoro o okoshite shimatte, sumimasen.', de: 'Entschuldigung, dass ich dich geweckt habe, obwohl du gerade geschlafen hast.' },
+          ],
+          tip: 'ところを ist oft in höflichen Formeln zu finden und beschreibt ein störendes Eingreifen in eine laufende Situation.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 116 =====================
+    {
+      id: 'lesson-116',
+      number: 116,
+      title: 'べきだ・わけにはいかない・ざるをえない',
+      subtitle: 'Pflicht, Unmöglichkeit, äußerer Zwang — drei Arten von „müssen“',
+      level: 'N3',
+      intro: 'Auf N3 reicht ein einfaches ～なければならない nicht mehr. Jetzt muss man unterscheiden, ob etwas moralisch geboten ist, ob man etwas sozial oder situativ nicht tun kann oder ob man praktisch keine Wahl hat. Diese drei Muster decken genau diese Unterschiede ab.',
+      sections: [
+        {
+          heading: 'べきだ — man sollte, es wäre richtig',
+          text: '<strong>べきだ</strong> drückt eine normative Bewertung aus: Etwas ist moralisch, logisch oder sozial gesehen das Richtige. Es klingt stärker und wertender als ほうがいい.',
+          examples: [
+            { jp: '約束は守るべきです。', romaji: 'Yakusoku wa mamoru beki desu.', de: 'Versprechen sollte man halten.' },
+            { jp: 'もっと早く相談するべきだった。', romaji: 'Motto hayaku sōdan suru beki datta.', de: 'Ich hätte früher Rat einholen sollen.' },
+          ],
+          tip: 'べきだ ist oft allgemeiner und normativer als ein einfacher Rat. Es klingt schnell stark oder kritisch.'
+        },
+        {
+          heading: 'わけにはいかない — man kann nicht einfach ...',
+          text: '<strong>～わけにはいかない</strong> bedeutet, dass man etwas aus sozialen, moralischen oder situativen Gründen nicht tun kann. Nicht weil es physisch unmöglich wäre, sondern weil die Umstände es nicht erlauben.',
+          examples: [
+            { jp: '明日は試験があるから、休むわけにはいかない。', romaji: 'Ashita wa shiken ga aru kara, yasumu wake ni wa ikanai.', de: 'Morgen ist eine Prüfung, also kann ich nicht einfach fehlen.' },
+            { jp: 'みんなが働いているのに、私だけ帰るわけにはいきません。', romaji: 'Minna ga hataraite iru noni, watashi dake kaeru wake ni wa ikimasen.', de: 'Alle arbeiten noch, da kann ich nicht einfach als Einziger gehen.' },
+          ],
+          tip: 'Der Kern ist sozialer oder innerer Zwang, nicht reine Unmöglichkeit.'
+        },
+        {
+          heading: 'ざるをえない — man ist gezwungen',
+          text: '<strong>～ざるをえない</strong> ist eine formellere Struktur für „man kommt nicht umhin, man muss wohl“. Sie drückt aus, dass äußere Umstände praktisch keine andere Wahl lassen.',
+          examples: [
+            { jp: '電車が止まったので、タクシーを使わざるをえなかった。', romaji: 'Densha ga tomatta node, takushī o tsukawazaru o enakatta.', de: 'Da der Zug stehen geblieben ist, musste ich wohl ein Taxi nehmen.' },
+            { jp: 'この状況では、計画を変えざるをえません。', romaji: 'Kono jōkyō de wa, keikaku o kae zaru o emasen.', de: 'In dieser Situation bleibt uns nichts anderes übrig, als den Plan zu ändern.' },
+          ],
+          tip: 'ざるをえない wirkt formeller als なければならない und betont eher den Zwang durch Umstände als eine Regel.'
+        }
+      ]
     }
   ];
 
