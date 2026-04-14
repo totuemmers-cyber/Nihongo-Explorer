@@ -16016,28 +16016,6 @@ window.VOCAB_N4 = [
     ]
   },
   {
-    "word": "高級",
-    "reading": "こうきゅう",
-    "romaji": "koukyuu",
-    "pitch": 0,
-    "meaning": "hochwertig",
-    "type": "Adjektiv",
-    "level": "N4",
-    "category": "Eigenschaften",
-    "examples": [
-      {
-        "japanese": "こんな高級なプレゼントもらえません。",
-        "romaji": "Konna koukyuu na purezento moraemasen.",
-        "german": "Ich kann ein so hochwertiges Geschenk nicht annehmen."
-      },
-      {
-        "japanese": "高級な料理を食べました。",
-        "romaji": "Koukyuu na ryouri o tabemashita.",
-        "german": "Ich habe ein hochwertiges Essen genossen."
-      }
-    ]
-  },
-  {
     "word": "初級",
     "reading": "しょきゅう",
     "romaji": "shokyuu",
@@ -17002,28 +16980,6 @@ window.VOCAB_N4 = [
         "japanese": "礼儀を欠く行動はよくないです。",
         "romaji": "Reigi o kaku koudou wa yoku nai desu.",
         "german": "Unhöfliches Verhalten ist nicht gut."
-      }
-    ]
-  },
-  {
-    "word": "直前",
-    "reading": "ちょくぜん",
-    "romaji": "chokuzen",
-    "pitch": 0,
-    "meaning": "kurz davor",
-    "type": "Verb",
-    "level": "N4",
-    "category": "Zeit",
-    "examples": [
-      {
-        "japanese": "出発の直前に雨がふりだした。",
-        "romaji": "Shuppatsu no chokuzen ni ame ga furidashita.",
-        "german": "Kurz vor der Abfahrt fing es an zu regnen."
-      },
-      {
-        "japanese": "出発の直前に雨が降りました。",
-        "romaji": "Shuppatsu no chokuzen ni ame ga furimashita.",
-        "german": "Kurz vor der Abfahrt fing es an zu regnen."
       }
     ]
   },
@@ -27412,28 +27368,6 @@ window.VOCAB_N4 = [
     ]
   },
   {
-    "word": "高等",
-    "reading": "こうとう",
-    "romaji": "koutou",
-    "pitch": 0,
-    "meaning": "höher",
-    "type": "Adjektiv",
-    "level": "N4",
-    "category": "Bildung",
-    "examples": [
-      {
-        "japanese": "あなたの国の高等教育について教えてください。",
-        "romaji": "Anata no kuni no koutou kyouiku nitsuite oshiete kudasai.",
-        "german": "Erzählen Sie mir bitte über die höhere Bildung in Ihrem Land."
-      },
-      {
-        "japanese": "高等教育を受けました。",
-        "romaji": "Koutou kyouiku o ukemashita.",
-        "german": "Ich habe höhere Bildung genossen."
-      }
-    ]
-  },
-  {
     "word": "辞書形",
     "reading": "じしょけい",
     "romaji": "jishokei",
@@ -30356,6 +30290,28 @@ window.VOCAB_N4 = [
         "japanese": "台風で水害が発生しました。",
         "romaji": "Taifuu de suigai ga hassei shimashita.",
         "german": "Durch den Taifun ist ein Hochwasserschaden entstanden."
+      }
+    ]
+  },
+  {
+    "word": "回答",
+    "reading": "かいとう",
+    "romaji": "kaitou",
+    "pitch": 0,
+    "meaning": "Antwort",
+    "type": "Nomen",
+    "level": "N4",
+    "category": "Kommunikation",
+    "examples": [
+      {
+        "japanese": "こちらに回答を入力してください。",
+        "romaji": "Kochira ni kaitou o nyuuryoku shite kudasai.",
+        "german": "Bitte geben Sie hier Ihre Antwort ein."
+      },
+      {
+        "japanese": "アンケートに回答してください。",
+        "romaji": "Ankeeto ni kaitou shite kudasai.",
+        "german": "Bitte beantworten Sie die Umfrage."
       }
     ]
   }

@@ -39166,5 +39166,27 @@ window.VOCAB_N2 = [
         "german": "Sind die Bohnen gut durchgekocht?"
       }
     ]
+  },
+  {
+    "word": "線路",
+    "reading": "せんろ",
+    "romaji": "senro",
+    "pitch": 1,
+    "meaning": "Gleis",
+    "type": "Nomen",
+    "level": "N2",
+    "category": "Verkehr",
+    "examples": [
+      {
+        "japanese": "線路には、何があっても入らないで下さい。",
+        "romaji": "Senro ni wa, nani ga atte mo hairanaide kudasai.",
+        "german": "Betreten Sie auf keinen Fall die Gleise."
+      },
+      {
+        "japanese": "線路の近くに住んでいます。",
+        "romaji": "Senro no chikaku ni sunde imasu.",
+        "german": "Ich wohne in der Nähe der Gleise."
+      }
+    ]
   }
 ];
