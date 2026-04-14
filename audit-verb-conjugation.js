@@ -9,7 +9,9 @@ const DATA_FILES = [
   'vocab-n1.js',
   'yojijukugo-data.js',
   'idioms-data.js',
+  'app-constants.js',
   'conjugation.js',
+  'vocab-correction-rules.js',
   'vocab-corrections.js'
 ];
 

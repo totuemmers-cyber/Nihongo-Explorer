@@ -151,6 +151,24 @@
     };
   }
 
+  function countOccurrences(text, needle) {
+    if (!text || !needle) return 0;
+    var count = 0;
+    var fromIndex = 0;
+    while (true) {
+      var idx = text.indexOf(needle, fromIndex);
+      if (idx === -1) break;
+      count++;
+      fromIndex = idx + needle.length;
+    }
+    return count;
+  }
+
+  function buildSingleBlankSentence(text, needle) {
+    if (countOccurrences(text, needle) !== 1) return null;
+    return text.replace(needle, '\uFF3F\uFF3F\uFF3F');
+  }
+
   // ==========================================================
   // D: QUESTION GENERATORS
   // ==========================================================
@@ -225,7 +243,7 @@
     var pool = getLevelPool(getVocabByLevel, level).filter(function (v) {
       if (!v.examples || v.examples.length === 0) return false;
       for (var i = 0; i < v.examples.length; i++) {
-        if (v.examples[i].japanese && v.examples[i].japanese.indexOf(v.word) !== -1) return true;
+        if (buildSingleBlankSentence(v.examples[i].japanese, v.word)) return true;
       }
       return false;
     });
@@ -233,10 +251,11 @@
     var item = pickRandom(pool);
     var ex = null;
     for (var i = 0; i < item.examples.length; i++) {
-      if (item.examples[i].japanese.indexOf(item.word) !== -1) { ex = item.examples[i]; break; }
+      if (buildSingleBlankSentence(item.examples[i].japanese, item.word)) { ex = item.examples[i]; break; }
     }
     if (!ex) return null;
-    var sentence = ex.japanese.replace(item.word, '\uFF3F\uFF3F\uFF3F');
+    var sentence = buildSingleBlankSentence(ex.japanese, item.word);
+    if (!sentence) return null;
     var distractors = generateDistractors(item, pool, 3, function (v) { return v.word; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.word, distractors);
@@ -302,31 +321,16 @@
   // 7. Kanji Radical: kanji → radical
   function genKanjiRadical(level) {
     var radicals = window.KANGXI_RADICALS || [];
-    var radicalMap = {};
-    for (var i = 0; i < radicals.length; i++) radicalMap[radicals[i].radical] = radicals[i];
-
     var pool = getLevelPool(getKanjiByLevel, level).filter(function (k) {
-      if (!k.components || !k.components.length) return false;
-      for (var i = 0; i < k.components.length; i++) {
-        if (radicalMap[k.components[i].radical]) return true;
-      }
-      return false;
+      return !!(window.getPrimaryKanjiRadical && window.getPrimaryKanjiRadical(k));
     });
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var comp = null;
-    for (var j = 0; j < item.components.length; j++) {
-      if (radicalMap[item.components[j].radical]) {
-        comp = item.components[j];
-        break;
-      }
-    }
-    if (!comp) return null;
+    var radicalInfo = window.getPrimaryKanjiRadical ? window.getPrimaryKanjiRadical(item) : null;
+    if (!radicalInfo) return null;
 
-    var radicalInfo = radicalMap[comp.radical];
-    var correctMeaning = radicalInfo && radicalInfo.meaning ? radicalInfo.meaning : comp.meaning;
-    var correctAnswer = comp.radical + ' (' + correctMeaning + ')';
-    var distractorPool = radicals.filter(function (r) { return r.radical !== comp.radical; });
+    var correctAnswer = radicalInfo.radical + ' (' + radicalInfo.meaning + ')';
+    var distractorPool = radicals.filter(function (r) { return r.radical !== radicalInfo.radical; });
     var distrs = shuffle(distractorPool).slice(0, 3).map(function (r) {
       return r.radical + ' (' + r.meaning + ')';
     });
@@ -338,7 +342,7 @@
       promptMain: item.kanji,
       promptSub: item.meanings[0],
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: item.kanji + ' enthält ' + correctAnswer
+      explanation: item.kanji + ' hat als Prim\u00e4rradikal ' + correctAnswer
     };
   }
 
@@ -365,7 +369,7 @@
     var pool = getLevelPool(getGrammarByLevel, level).filter(function (g) {
       if (!g.examples || g.examples.length === 0) return false;
       for (var i = 0; i < g.examples.length; i++) {
-        if (g.examples[i].japanese && g.examples[i].japanese.indexOf(g.pattern) !== -1) return true;
+        if (buildSingleBlankSentence(g.examples[i].japanese, g.pattern)) return true;
       }
       return false;
     });
@@ -373,10 +377,11 @@
     var item = pickRandom(pool);
     var ex = null;
     for (var i = 0; i < item.examples.length; i++) {
-      if (item.examples[i].japanese.indexOf(item.pattern) !== -1) { ex = item.examples[i]; break; }
+      if (buildSingleBlankSentence(item.examples[i].japanese, item.pattern)) { ex = item.examples[i]; break; }
     }
     if (!ex) return null;
-    var sentence = ex.japanese.replace(item.pattern, '\uFF3F\uFF3F\uFF3F');
+    var sentence = buildSingleBlankSentence(ex.japanese, item.pattern);
+    if (!sentence) return null;
     var distractors = generateDistractors(item, pool, 3, function (g) { return g.pattern; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.pattern, distractors);
@@ -416,27 +421,37 @@
     var resolved = resolveVerbConjugation(item);
     if (!resolved || !resolved.result || !resolved.result.forms) return null;
     var result = resolved.result;
-    var formKey = pickRandom(CONJ_FORM_KEYS);
+    var viableFormKeys = CONJ_FORM_KEYS.filter(function (key) {
+      if (!result.forms[key]) return false;
+      var seen = {};
+      var uniqueCount = 0;
+      for (var formName in result.forms) {
+        if (!result.forms[formName]) continue;
+        var japanese = result.forms[formName].japanese;
+        if (seen[japanese]) continue;
+        seen[japanese] = true;
+        uniqueCount++;
+      }
+      return uniqueCount >= 4;
+    });
+    if (!viableFormKeys.length) return null;
+    var formKey = pickRandom(viableFormKeys);
     var targetForm = result.forms[formKey];
     if (!targetForm) return null;
-    // Distractors: other forms of the SAME verb
-    var otherKeys = CONJ_FORM_KEYS.filter(function (k) { return k !== formKey && result.forms[k]; });
-    var distrs = shuffle(otherKeys).slice(0, 3).map(function (k) { return result.forms[k].japanese; });
-    if (distrs.length < 3) return null;
-    // Ensure no duplicates with correct
-    distrs = distrs.filter(function (d) { return d !== targetForm.japanese; });
-    while (distrs.length < 3) {
-      // Pull from remaining forms
-      for (var k in result.forms) {
-        if (k !== 'dictionary' && k !== formKey && result.forms[k].japanese !== targetForm.japanese) {
-          var val = result.forms[k].japanese;
-          if (distrs.indexOf(val) === -1) { distrs.push(val); break; }
-        }
-      }
-      if (distrs.length < 3) distrs.push('\u2014');
-      break;
+    var distractorValues = [];
+    var seenValues = {};
+
+    for (var key in result.forms) {
+      if (!result.forms[key] || key === formKey) continue;
+      var value = result.forms[key].japanese;
+      if (!value || value === targetForm.japanese || seenValues[value]) continue;
+      seenValues[value] = true;
+      distractorValues.push(value);
     }
-    var c = buildChoices(targetForm.japanese, distrs.slice(0, 3));
+
+    distractorValues = shuffle(distractorValues);
+    if (distractorValues.length < 3) return null;
+    var c = buildChoices(targetForm.japanese, distractorValues.slice(0, 3));
     return {
       type: 'conjugation', level: level,
       prompt: targetForm.label + ' von:',
@@ -1153,6 +1168,11 @@
   window.QuizModule = {
     onTabActivate: onTabActivate,
     handleKey: handleQuizKey,
-    isTestActive: function () { return testState.active; }
+    isTestActive: function () { return testState.active; },
+    audit: {
+      generateQuestion: generateQuestion,
+      questionTypes: QUESTION_TYPES,
+      levels: LEVELS
+    }
   };
 })();
