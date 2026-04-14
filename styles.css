@@ -4264,7 +4264,7 @@ body {
 }
 
 .header-actions {
-  gap: 10px;
+  gap: 12px;
 }
 
 .badge-count {
@@ -4305,6 +4305,18 @@ body {
   border: 1px solid var(--border);
   background: var(--bg-card);
   box-shadow: none;
+}
+
+#sound-toggle,
+#theme-toggle {
+  width: 42px;
+  height: 42px;
+}
+
+#sound-toggle svg,
+#theme-toggle svg {
+  width: 20px;
+  height: 20px;
 }
 
 .btn-icon:hover,
@@ -4355,6 +4367,17 @@ body {
   margin: 8px 0 4px;
 }
 
+.bm-toggle {
+  right: 34px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 1.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #search-input,
 #grammar-search-input,
 #vocab-search-input,
@@ -4367,6 +4390,7 @@ body {
   border-width: 1px;
   border-color: var(--border);
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.35);
+  padding-right: 76px;
 }
 
 #search-input:focus,
