@@ -49,10 +49,40 @@ Section.prototype.setItems = function (items) {
 Section.prototype.applyFilters = function () {
   var query = this.dom.search ? this.dom.search.value.trim().toLowerCase() : '';
   var self = this;
-  this.filteredItems = this.allItems.filter(function (item) {
-    return self.config.filterFn(item, query, self.filters, self);
-  });
-  this.sort();
+  this._usingSearchRanking = false;
+
+  if (query && this.config.searchScoreFn) {
+    var scoredItems = [];
+    for (var i = 0; i < this.allItems.length; i++) {
+      var item = this.allItems[i];
+      if (!this.config.filterFn(item, '', this.filters, this)) continue;
+      var match = this.config.searchScoreFn(item, query, this);
+      if (!match) continue;
+      scoredItems.push({ item: item, match: match });
+    }
+
+    var activeItems = scoredItems;
+    var compareFn = this.config.searchCompareFn;
+
+    activeItems.sort(function (a, b) {
+      if (a.match.score !== b.match.score) return b.match.score - a.match.score;
+      if (compareFn) return compareFn(a.item, b.item, self.currentSort);
+      return 0;
+    });
+
+    activeItems = activeItems.slice(0, this.config.searchResultLimit || 8);
+
+    this.filteredItems = activeItems.map(function (entry) {
+      return entry.item;
+    });
+    this._usingSearchRanking = true;
+  } else {
+    this.filteredItems = this.allItems.filter(function (item) {
+      return self.config.filterFn(item, query, self.filters, self);
+    });
+    this.sort();
+  }
+
   this.renderedCount = 0;
   if (this.dom.grid) this.dom.grid.innerHTML = '';
   this.render();

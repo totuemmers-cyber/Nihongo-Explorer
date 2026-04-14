@@ -84,6 +84,69 @@ function getItemId(item, fallback) {
   return fallback;
 }
 
+function normalizeSearchText(text) {
+  return String(text || '').trim().toLowerCase();
+}
+
+function getTextMatchRank(text, query) {
+  var value = normalizeSearchText(text);
+  if (!value || !query) return null;
+  if (value === query) return 3;
+  if (value.indexOf(query) === 0) return 2;
+  if (value.indexOf(query) !== -1) return 1;
+  return null;
+}
+
+function getBestArrayMatchRank(values, query) {
+  if (!values || !values.length) return null;
+  var best = null;
+  for (var i = 0; i < values.length; i++) {
+    var rank = getTextMatchRank(values[i], query);
+    if (rank !== null && (best === null || rank > best)) best = rank;
+  }
+  return best;
+}
+
+function getReadingFieldMatchRank(readings, query) {
+  if (!readings || !readings.length) return null;
+  var best = null;
+  for (var i = 0; i < readings.length; i++) {
+    var reading = readings[i];
+    var kanaRank = getTextMatchRank(reading.kana, query);
+    var romajiRank = getTextMatchRank(reading.romaji, query);
+    var rank = kanaRank;
+    if (romajiRank !== null && (rank === null || romajiRank > rank)) rank = romajiRank;
+    if (rank !== null && (best === null || rank > best)) best = rank;
+  }
+  return best;
+}
+
+function getKanjiExampleMatchRank(examples, query) {
+  if (!examples || !examples.length) return null;
+  var best = null;
+  for (var i = 0; i < examples.length; i++) {
+    var ex = examples[i];
+    var rank = getBestArrayMatchRank([ex.word, ex.reading, ex.meaning], query);
+    if (rank !== null && (best === null || rank > best)) best = rank;
+  }
+  return best;
+}
+
+function compareKanjiSearchItems(a, b) {
+  var la = LEVEL_ORDER[a.jlpt] !== undefined ? LEVEL_ORDER[a.jlpt] : 9;
+  var lb = LEVEL_ORDER[b.jlpt] !== undefined ? LEVEL_ORDER[b.jlpt] : 9;
+  if (la !== lb) return la - lb;
+  if (a.strokes !== b.strokes) return a.strokes - b.strokes;
+  return a.kanji.localeCompare(b.kanji, 'ja');
+}
+
+function compareVocabSearchItems(a, b) {
+  var la = LEVEL_ORDER[a.level] !== undefined ? LEVEL_ORDER[a.level] : 9;
+  var lb = LEVEL_ORDER[b.level] !== undefined ? LEVEL_ORDER[b.level] : 9;
+  if (la !== lb) return la - lb;
+  return a.word.localeCompare(b.word, 'ja');
+}
+
 // === Shared Card & Detail Utilities ===
 
 function createBaseCard(className, innerHTML, index, section, itemId) {
@@ -420,6 +483,7 @@ SECTION_CONFIGS.kanji = {
   countLabel: ' Kanji',
   defaultSort: 'jlpt',
   batchSize: 80,
+  searchResultLimit: 8,
 
   filterFn: function (k, query, filters, section) {
     if (filters.bookmarks === 'starred' && !isBookmarked('kanji', k.kanji)) return false;
@@ -430,25 +494,46 @@ SECTION_CONFIGS.kanji = {
       });
       if (!hasRadical) return false;
     }
-    if (query) {
-      var matchKanji = k.kanji === query;
-      var matchMeaning = k.meanings.some(function (m) {
-        return m.toLowerCase().indexOf(query) !== -1;
-      });
-      var matchKun = k.kun && k.kun.some(function (r) {
-        return r.kana.indexOf(query) !== -1 || r.romaji.toLowerCase().indexOf(query) !== -1;
-      });
-      var matchOn = k.on && k.on.some(function (r) {
-        return r.kana.indexOf(query) !== -1 || r.romaji.toLowerCase().indexOf(query) !== -1;
-      });
-      var matchExample = k.examples && k.examples.some(function (ex) {
-        return ex.word.indexOf(query) !== -1 || ex.reading.indexOf(query) !== -1 ||
-          ex.meaning.toLowerCase().indexOf(query) !== -1;
-      });
-      if (!matchKanji && !matchMeaning && !matchKun && !matchOn && !matchExample) return false;
-    }
     return true;
   },
+
+  searchScoreFn: function (k, query) {
+    var kanjiRank = getTextMatchRank(k.kanji, query);
+    var meaningRank = getBestArrayMatchRank(k.meanings, query);
+    var kunRank = getReadingFieldMatchRank(k.kun, query);
+    var onRank = getReadingFieldMatchRank(k.on, query);
+    var readingRank = kunRank;
+    if (onRank !== null && (readingRank === null || onRank > readingRank)) readingRank = onRank;
+    var exampleRank = getKanjiExampleMatchRank(k.examples, query);
+
+    if (kanjiRank === null && meaningRank === null && readingRank === null && exampleRank === null) {
+      return null;
+    }
+
+    var best = 0;
+    if (kanjiRank === 3) best = Math.max(best, 1000);
+    else if (kanjiRank === 2) best = Math.max(best, 800);
+    else if (kanjiRank === 1) best = Math.max(best, 680);
+
+    if (readingRank === 3) best = Math.max(best, 950);
+    else if (readingRank === 2) best = Math.max(best, 760);
+    else if (readingRank === 1) best = Math.max(best, 640);
+
+    if (meaningRank === 3) best = Math.max(best, 900);
+    else if (meaningRank === 2) best = Math.max(best, 720);
+    else if (meaningRank === 1) best = Math.max(best, 600);
+
+    if (exampleRank === 3) best = Math.max(best, 850);
+    else if (exampleRank === 2) best = Math.max(best, 540);
+    else if (exampleRank === 1) best = Math.max(best, 500);
+
+    return {
+      score: best,
+      isExact: best >= 850
+    };
+  },
+
+  searchCompareFn: compareKanjiSearchItems,
 
   sortFn: function (items, sortKey) {
     items.sort(function (a, b) {
@@ -797,21 +882,54 @@ SECTION_CONFIGS.vocab = {
   countLabel: ' Vokabeln',
   defaultSort: 'level',
   batchSize: 100,
+  searchResultLimit: 8,
 
   filterFn: function (v, query, filters) {
     if (filters.bookmarks === 'starred' && !isBookmarked('vocab', getItemId(v, v.word + '|' + (v.reading || '')))) return false;
     if (filters.level !== 'all' && v.level !== filters.level) return false;
     if (filters.type !== 'all' && v.type !== filters.type) return false;
-    if (query) {
-      var matchWord = v.word.indexOf(query) !== -1;
-      var matchReading = v.reading && v.reading.indexOf(query) !== -1;
-      var matchRomaji = v.romaji && v.romaji.toLowerCase().indexOf(query) !== -1;
-      var matchMeaning = v.meaning.toLowerCase().indexOf(query) !== -1;
-      var matchCategory = v.category && v.category.toLowerCase().indexOf(query) !== -1;
-      if (!matchWord && !matchReading && !matchRomaji && !matchMeaning && !matchCategory) return false;
-    }
     return true;
   },
+
+  searchScoreFn: function (v, query) {
+    var wordRank = getTextMatchRank(v.word, query);
+    var readingRank = getTextMatchRank(v.reading, query);
+    var romajiRank = getTextMatchRank(v.romaji, query);
+    var meaningRank = getTextMatchRank(v.meaning, query);
+    var categoryRank = getTextMatchRank(v.category, query);
+
+    if (wordRank === null && readingRank === null && romajiRank === null && meaningRank === null && categoryRank === null) {
+      return null;
+    }
+
+    var best = 0;
+    if (wordRank === 3) best = Math.max(best, 1000);
+    else if (wordRank === 2) best = Math.max(best, 800);
+    else if (wordRank === 1) best = Math.max(best, 620);
+
+    if (readingRank === 3) best = Math.max(best, 950);
+    else if (readingRank === 2) best = Math.max(best, 760);
+    else if (readingRank === 1) best = Math.max(best, 600);
+
+    if (romajiRank === 3) best = Math.max(best, 930);
+    else if (romajiRank === 2) best = Math.max(best, 740);
+    else if (romajiRank === 1) best = Math.max(best, 580);
+
+    if (meaningRank === 3) best = Math.max(best, 900);
+    else if (meaningRank === 2) best = Math.max(best, 700);
+    else if (meaningRank === 1) best = Math.max(best, 560);
+
+    if (categoryRank === 3) best = Math.max(best, 500);
+    else if (categoryRank === 2) best = Math.max(best, 460);
+    else if (categoryRank === 1) best = Math.max(best, 420);
+
+    return {
+      score: best,
+      isExact: best >= 900
+    };
+  },
+
+  searchCompareFn: compareVocabSearchItems,
 
   sortFn: function (items, sortKey) {
     var types = getAppConstants().VOCAB_TYPES;
