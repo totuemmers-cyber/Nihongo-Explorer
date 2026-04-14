@@ -6027,7 +6027,9 @@
 
     viewBtns.forEach(function (btn) {
       btn.addEventListener('click', function () {
-        if (window.app) window.app.playTick();
+        if (window.app && typeof window.app.playSwoosh === 'function') {
+          window.app.playSwoosh();
+        }
         var view = this.getAttribute('data-view');
         viewBtns.forEach(function (b) { b.classList.toggle('active', b === btn); });
 
