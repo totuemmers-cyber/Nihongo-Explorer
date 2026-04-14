@@ -24,26 +24,51 @@
 
   var TYPE_IDS = Object.keys(QUESTION_TYPES);
 
+  var JLPT_PASS_MARKS = {
+    N1: 100,
+    N2: 90,
+    N3: 95,
+    N4: 90,
+    N5: 80
+  };
+
+  var JLPT_SCORING_SECTIONS = {
+    N1: [
+      { key: 'languageKnowledgeReading', label: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', max: 60, passMark: 19 }
+    ],
+    N2: [
+      { key: 'languageKnowledgeReading', label: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', max: 60, passMark: 19 }
+    ],
+    N3: [
+      { key: 'vocabulary', label: 'Sprachwissen (Wortschatz)', max: 60, passMark: 19 },
+      { key: 'grammarReading', label: 'Sprachwissen (Grammatik)・Leseverständnis', max: 60, passMark: 19 }
+    ],
+    N4: [
+      { key: 'languageKnowledgeReading', label: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', max: 120, passMark: 38 }
+    ],
+    N5: [
+      { key: 'languageKnowledgeReading', label: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', max: 120, passMark: 38 }
+    ]
+  };
+
   var TEST_CONFIGS = {
     N5: { sections: [
-      { name: 'Sprachwissen (文字・語彙・文法)', count: 45, time: 25, types: ['vocabMeaning','vocabReading','vocabReverse','kanjiMeaning','kanjiReading','grammarMeaning','grammarFormation','conjugation'] },
-      { name: 'Grammatik & Leseverständnis (文法・読解)', count: 35, time: 50, types: ['grammarCloze','vocabContext','grammarMeaning','vocabMeaning','conjugation'] }
+      { name: 'Sprachwissen (Wortschatz)', count: 45, time: 20, scoringKey: 'languageKnowledgeReading', types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext'] },
+      { name: 'Sprachwissen (Grammatik)・Leseverständnis', count: 35, time: 40, scoringKey: 'languageKnowledgeReading', types: ['grammarMeaning','grammarCloze','grammarFormation','vocabContext'] }
     ]},
     N4: { sections: [
-      { name: 'Sprachwissen (文字・語彙・文法)', count: 50, time: 30, types: ['vocabMeaning','vocabReading','vocabReverse','kanjiMeaning','kanjiReading','grammarMeaning','grammarFormation','conjugation'] },
-      { name: 'Grammatik & Leseverständnis (文法・読解)', count: 40, time: 60, types: ['grammarCloze','vocabContext','grammarMeaning','vocabMeaning','conjugation'] }
+      { name: 'Sprachwissen (Wortschatz)', count: 50, time: 25, scoringKey: 'languageKnowledgeReading', types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext'] },
+      { name: 'Sprachwissen (Grammatik)・Leseverständnis', count: 40, time: 55, scoringKey: 'languageKnowledgeReading', types: ['grammarMeaning','grammarCloze','grammarFormation','vocabContext'] }
     ]},
     N3: { sections: [
-      { name: 'Sprachwissen (文字・語彙・文法)', count: 55, time: 30, types: ['vocabMeaning','vocabReading','vocabReverse','kanjiMeaning','kanjiReading','kanjiRadical','grammarMeaning','grammarFormation','conjugation'] },
-      { name: 'Grammatik & Leseverständnis (文法・読解)', count: 50, time: 70, types: ['grammarCloze','vocabContext','grammarMeaning','vocabMeaning','conjugation'] }
+      { name: 'Sprachwissen (Wortschatz)', count: 55, time: 30, scoringKey: 'vocabulary', types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext'] },
+      { name: 'Sprachwissen (Grammatik)・Leseverständnis', count: 50, time: 70, scoringKey: 'grammarReading', types: ['grammarMeaning','grammarCloze','grammarFormation','vocabContext'] }
     ]},
     N2: { sections: [
-      { name: 'Sprachwissen (文字・語彙・文法)', count: 60, time: 55, types: ['vocabMeaning','vocabReading','vocabReverse','kanjiMeaning','kanjiReading','kanjiRadical','grammarMeaning','grammarCloze','grammarFormation','conjugation'] },
-      { name: 'Leseverständnis (読解)', count: 45, time: 50, types: ['vocabContext','grammarCloze','grammarMeaning','vocabMeaning'] }
+      { name: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', count: 60, time: 105, scoringKey: 'languageKnowledgeReading', types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext','grammarMeaning','grammarCloze','grammarFormation'] }
     ]},
     N1: { sections: [
-      { name: 'Sprachwissen (文字・語彙・文法)', count: 65, time: 55, types: ['vocabMeaning','vocabReading','vocabReverse','kanjiMeaning','kanjiReading','kanjiRadical','grammarMeaning','grammarCloze','grammarFormation','conjugation'] },
-      { name: 'Leseverständnis (読解)', count: 50, time: 55, types: ['vocabContext','grammarCloze','grammarMeaning','vocabMeaning'] }
+      { name: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', count: 65, time: 110, scoringKey: 'languageKnowledgeReading', types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext','grammarMeaning','grammarCloze','grammarFormation'] }
     ]}
   };
 
@@ -86,6 +111,28 @@
   function getAllGrammar() {
     var sec = window.app && window.app.sections.grammar;
     return sec ? sec.allItems : [];
+  }
+
+  function getTestConfig(level) {
+    return TEST_CONFIGS[level] || null;
+  }
+
+  function getScoringSections(level) {
+    return JLPT_SCORING_SECTIONS[level] || [];
+  }
+
+  function getSectionTotals(level) {
+    var scoring = getScoringSections(level);
+    var total = 0;
+    scoring.forEach(function (s) {
+      total += s.max;
+    });
+    var overallPassMark = JLPT_PASS_MARKS[level] || 0;
+    return {
+      overallPassMark: overallPassMark,
+      simulatedOfficialMax: total,
+      scoringSections: scoring
+    };
   }
 
   function resolveVerbConjugation(item) {
@@ -738,7 +785,7 @@
     var setup = el('div', 'quiz-test-setup');
     var title = el('h2', 'quiz-setup-title', 'JLPT Prüfungsmodus');
     setup.appendChild(title);
-    var desc = el('p', 'quiz-setup-desc', 'Wähle ein Level für die simulierte JLPT-Prüfung (ohne Hörverstehen). Jede Sektion muss mit mindestens 50% (N5/N4) bzw. 55% (N3–N1) bestanden werden.');
+    var desc = el('p', 'quiz-setup-desc', 'Wähle ein Level für die JLPT-nahe Prüfung ohne Hörverstehen. Die Auswertung nutzt die offiziellen Abschnittsnamen, Zeitbudgets und JLPT-Passmarken, hochgerechnet auf die sichtbaren Testabschnitte.');
     setup.appendChild(desc);
 
     var levelGrid = el('div', 'quiz-test-level-grid');
@@ -751,7 +798,7 @@
       var badge = el('div', 'quiz-test-level-badge ' + lv.toLowerCase(), lv);
       card.appendChild(badge);
       var info = el('div', 'quiz-test-level-info');
-      info.innerHTML = '<span>' + total + ' Fragen</span><span>' + totalTime + ' Minuten</span><span>' + cfg.sections.length + ' Sektionen</span>';
+      info.innerHTML = '<span>' + total + ' Fragen</span><span>' + totalTime + ' Minuten</span><span>' + (cfg.sections.length === 1 ? '1 sichtbarer Abschnitt' : cfg.sections.length + ' sichtbare Abschnitte') + '</span>';
       card.appendChild(info);
       card.addEventListener('click', function () { startTest(lv); });
       levelGrid.appendChild(card);
@@ -766,7 +813,7 @@
   }
 
   function startTest(level) {
-    var cfg = TEST_CONFIGS[level];
+    var cfg = getTestConfig(level);
     if (!cfg) return;
 
     testState.active = true;
@@ -798,6 +845,7 @@
       testState.sections.push({
         name: sec.name,
         time: sec.time,
+        scoringKey: sec.scoringKey,
         questions: questions,
         answers: [],
         score: 0
@@ -866,7 +914,7 @@
 
     // Header bar
     var header = el('div', 'quiz-test-header');
-    var secLabel = el('span', 'quiz-test-section-label', 'Sektion ' + (testState.currentSection + 1) + ': ' + secData.name);
+    var secLabel = el('span', 'quiz-test-section-label', 'Abschnitt ' + (testState.currentSection + 1) + ': ' + secData.name);
     header.appendChild(secLabel);
     var progress = el('span', 'quiz-test-progress', (qIdx + 1) + ' / ' + secData.questions.length);
     header.appendChild(progress);
@@ -934,26 +982,20 @@
     panel.innerHTML = '';
 
     var inter = el('div', 'quiz-interstitial');
-    var title = el('h2', 'quiz-inter-title', 'Sektion ' + (testState.currentSection + 1) + ' abgeschlossen');
+    var title = el('h2', 'quiz-inter-title', 'Abschnitt ' + (testState.currentSection + 1) + ' abgeschlossen');
     inter.appendChild(title);
     var secName = el('p', 'quiz-inter-name', secData.name);
     inter.appendChild(secName);
 
-    var score = secData.score;
-    var total = secData.questions.length;
-    var pct = total > 0 ? Math.round(score / total * 100) : 0;
-    var interPassThreshold = (testState.level === 'N3' || testState.level === 'N2' || testState.level === 'N1') ? 55 : 50;
-    var passed = pct >= interPassThreshold;
-
-    var scoreEl = el('div', 'quiz-inter-score' + (passed ? ' passed' : ' failed'));
-    scoreEl.innerHTML = '<span class="score-big">' + score + ' / ' + total + '</span><span class="score-pct">' + pct + '%</span>';
+    var scoreEl = el('div', 'quiz-inter-score');
+    scoreEl.textContent = 'Dieser Abschnitt ist abgeschlossen. Die Auswertung erfolgt am Ende der Prüfung.';
     inter.appendChild(scoreEl);
 
-    var statusEl = el('div', 'quiz-inter-status ' + (passed ? 'passed' : 'failed'), passed ? 'Bestanden' : 'Nicht bestanden');
+    var statusEl = el('div', 'quiz-inter-status', 'Weiter zum nächsten Abschnitt');
     inter.appendChild(statusEl);
 
     if (testState.currentSection < testState.sections.length - 1) {
-      var nextBtn = el('button', 'quiz-btn quiz-btn-next', 'Weiter zur nächsten Sektion');
+      var nextBtn = el('button', 'quiz-btn quiz-btn-next', 'Weiter zum nächsten Abschnitt');
       nextBtn.addEventListener('click', function () {
         startTestSection(testState.currentSection + 1);
       });
@@ -978,39 +1020,86 @@
     var title = el('h2', 'quiz-results-title', 'Prüfungsergebnis — ' + testState.level);
     results.appendChild(title);
 
-    var totalScore = 0, totalQuestions = 0;
+    var config = getSectionTotals(testState.level);
+    var scoringSections = config.scoringSections;
+    var groups = {};
+    testState.sections.forEach(function (sec) {
+      var key = sec.scoringKey || sec.name;
+      if (!groups[key]) {
+        groups[key] = {
+          key: key,
+          label: '',
+          max: 0,
+          passMark: 0,
+          correct: 0,
+          rawQuestions: 0,
+          sections: []
+        };
+      }
+      groups[key].correct += sec.score;
+      groups[key].rawQuestions += sec.questions.length;
+      groups[key].sections.push(sec);
+    });
+
+    scoringSections.forEach(function (section) {
+      if (!groups[section.key]) {
+        groups[section.key] = {
+          key: section.key,
+          label: section.label,
+          max: section.max,
+          passMark: section.passMark,
+          correct: 0,
+          rawQuestions: 0,
+          sections: []
+        };
+      }
+      groups[section.key].label = section.label;
+      groups[section.key].max = section.max;
+      groups[section.key].passMark = section.passMark;
+    });
+
+    var scoringKeys = scoringSections.map(function (s) { return s.key; });
+    var scoringTotal = 0;
+    var scaledTotal = 0;
     var allPassed = true;
-    var passThreshold = (testState.level === 'N3' || testState.level === 'N2' || testState.level === 'N1') ? 55 : 50;
 
     // Per-section breakdown
     var breakdown = el('div', 'quiz-results-breakdown');
-    testState.sections.forEach(function (sec, idx) {
-      var total = sec.questions.length;
-      var score = sec.score;
-      var pct = total > 0 ? Math.round(score / total * 100) : 0;
-      var passed = pct >= passThreshold;
+    scoringKeys.forEach(function (key, idx) {
+      var section = scoringSections[idx];
+      var group = groups[key];
+      var score = group ? group.correct : 0;
+      var rawMax = group ? group.rawQuestions : 0;
+      var officialScore = rawMax > 0 ? Math.round(score / rawMax * section.max) : 0;
+      var passed = officialScore >= section.passMark;
       if (!passed) allPassed = false;
-      totalScore += score;
-      totalQuestions += total;
+      scoringTotal += officialScore;
 
       var row = el('div', 'quiz-result-row');
       row.innerHTML =
-        '<span class="result-section-name">Sektion ' + (idx + 1) + ': ' + sec.name + '</span>' +
-        '<span class="result-score">' + score + '/' + total + '</span>' +
-        '<span class="result-pct">' + pct + '%</span>' +
+        '<span class="result-section-name">' + section.label + '</span>' +
+        '<span class="result-score">' + officialScore + '/' + section.max + '</span>' +
+        '<span class="result-pct">' + (rawMax > 0 ? Math.round(score / rawMax * 100) : 0) + '%</span>' +
         '<span class="result-status ' + (passed ? 'passed' : 'failed') + '">' + (passed ? 'Bestanden' : 'Nicht best.') + '</span>';
       breakdown.appendChild(row);
     });
     results.appendChild(breakdown);
 
-    var totalPct = totalQuestions > 0 ? Math.round(totalScore / totalQuestions * 100) : 0;
+    var simulatedMax = config.simulatedOfficialMax || 0;
+    if (simulatedMax > 0) {
+      scaledTotal = Math.round(scoringTotal / simulatedMax * 180);
+    }
+    var totalPct = Math.round(scaledTotal / 180 * 100);
+    var overallPassMark = config.overallPassMark || 0;
+    var overallPassed = allPassed && scaledTotal >= overallPassMark;
 
     // Overall
-    var overall = el('div', 'quiz-results-overall' + (allPassed ? ' passed' : ' failed'));
+    var overall = el('div', 'quiz-results-overall' + (overallPassed ? ' passed' : ' failed'));
     overall.innerHTML =
-      '<div class="overall-score">' + totalScore + ' / ' + totalQuestions + ' (' + totalPct + '%)</div>' +
-      '<div class="overall-status">' + (allPassed ? 'BESTANDEN' : 'NICHT BESTANDEN') + '</div>' +
-      (allPassed ? '' : '<div class="overall-note">Mindestens ' + passThreshold + '% pro Sektion erforderlich</div>');
+      '<div class="overall-score">' + scaledTotal + ' / 180 (' + totalPct + '%)</div>' +
+      '<div class="overall-status">' + (overallPassed ? 'BESTANDEN' : 'NICHT BESTANDEN') + '</div>' +
+      '<div class="overall-note">Hörverstehen ist aus technischen Gründen nicht simuliert; die Punktzahl wird auf die JLPT-Skala hochgerechnet.</div>' +
+      (!overallPassed ? '<div class="overall-note">Erforderlich: mindestens ' + overallPassMark + ' Punkte und keine unter dem Sectional Pass Mark liegenden Teilbereiche.</div>' : '');
     results.appendChild(overall);
 
     // Detail review toggle
@@ -1024,7 +1113,7 @@
 
     // Build review
     testState.sections.forEach(function (sec, sIdx) {
-      var secHeader = el('h3', 'quiz-review-section-header', 'Sektion ' + (sIdx + 1) + ': ' + sec.name);
+      var secHeader = el('h3', 'quiz-review-section-header', 'Abschnitt ' + (sIdx + 1) + ': ' + sec.name);
       detailDiv.appendChild(secHeader);
 
       sec.questions.forEach(function (q, qIdx) {
@@ -1089,7 +1178,7 @@
     testCard.innerHTML =
       '<div class="quiz-card-icon">\u8A66</div>' +
       '<h3>Pr\u00fcfungsmodus</h3>' +
-      '<p>Simulierte JLPT-Pr\u00fcfung mit Sektionen, Timer und realistischer Bewertung nach offiziellem Format.</p>';
+      '<p>JLPT-nahe Prüfung ohne Hörverstehen mit offiziellen Abschnittsnamen, Zeitbudgets und hochgerechneter Bewertung.</p>';
     testCard.addEventListener('click', showTestSetup);
     cards.appendChild(testCard);
 
