@@ -895,7 +895,7 @@
   document.querySelectorAll('.kana-toggle-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var mode = this.getAttribute('data-kana');
-      playTick();
+      playSwoosh();
       if (activeKanaMode === mode) return;
       activeKanaMode = mode;
       _lastKanaMode = null;
