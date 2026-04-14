@@ -5682,6 +5682,293 @@
           tip: 'Beide Formen sind höflicher als ～てください. Für N4 ist wichtig, sie sicher zu erkennen und ungefähr stilistisch einzuordnen.'
         }
       ]
+    },
+
+    // ===================== LEKTION 140 =====================
+    {
+      id: 'lesson-140',
+      number: 140,
+      learningOrder: 11.5,
+      title: '～ている',
+      subtitle: 'Gerade tun und als Zustand bestehen',
+      level: 'N5',
+      intro: '～ている gehört zu den wichtigsten N5-Strukturen überhaupt. Es bedeutet nicht nur „gerade etwas tun“, sondern oft auch, dass ein Zustand als Ergebnis einer Handlung besteht. Genau dieser Unterschied ist für JLPT-Aufgaben zentral.',
+      sections: [
+        {
+          heading: 'Verlaufsform',
+          text: '<strong>て-Form + いる</strong> bedeutet oft, dass eine Handlung gerade im Verlauf ist. Im höflichen Stil wird daraus meist ～ています.',
+          examples: [
+            { jp: '今、日本語を勉強しています。', romaji: 'Ima, nihongo o benkyō shite imasu.', de: 'Ich lerne gerade Japanisch.' },
+            { jp: '母は電話で話しています。', romaji: 'Haha wa denwa de hanashite imasu.', de: 'Meine Mutter telefoniert gerade.' },
+          ],
+          tip: 'Bei momentanen Handlungen passt im Deutschen oft „gerade“.'
+        },
+        {
+          heading: 'Zustand als Ergebnis',
+          text: 'Viele Verben beschreiben mit ～ている keinen laufenden Vorgang, sondern einen Zustand, der schon eingetreten ist. Das ist bei Bewegungs- und Zustandsverben besonders wichtig.',
+          examples: [
+            { jp: '田中さんは東京に住んでいます。', romaji: 'Tanaka-san wa Tōkyō ni sunde imasu.', de: 'Tanaka wohnt in Tokio.' },
+            { jp: '父は眼鏡をかけています。', romaji: 'Chichi wa megane o kakete imasu.', de: 'Mein Vater trägt eine Brille.' },
+            { jp: 'ドアが開いています。', romaji: 'Doa ga aite imasu.', de: 'Die Tür ist offen.' },
+          ],
+          tip: '住んでいる, 知っている, 持っている und 結婚している sind typische JLPT-Fälle mit Zustandsbedeutung.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 141 =====================
+    {
+      id: 'lesson-141',
+      number: 141,
+      learningOrder: 18.25,
+      title: '～くなる・～になる',
+      subtitle: 'Sich verändern – etwas wird anders',
+      level: 'N5',
+      intro: 'Mit ～くなる und ～になる beschreibt man Veränderungen. Die Struktur ist früh wichtig, weil sie direkt mit Adjektiven, Nomen und Alltagsthemen wie Wetter, Sprache, Alter oder Gesundheit verbunden ist.',
+      sections: [
+        {
+          heading: 'い-Adjektive + ～くなる',
+          text: 'Bei <strong>い-Adjektiven</strong> wird das い zu く und dann folgt なる. So beschreibt man, dass etwas „... wird“.',
+          examples: [
+            { jp: '寒くなりました。', romaji: 'Samuku narimashita.', de: 'Es ist kalt geworden.' },
+            { jp: '日本語が少し上手になりました。', romaji: 'Nihongo ga sukoshi jōzu ni narimashita.', de: 'Mein Japanisch ist ein bisschen besser geworden.' },
+          ],
+          tip: 'Bei い-Adjektiven immer an い → く denken: 高い → 高くなる.'
+        },
+        {
+          heading: 'な-Adjektive und Nomen + ～になる',
+          text: 'Bei <strong>な-Adjektiven und Nomen</strong> verwendet man に + なる. Auch damit beschreibt man eine Veränderung des Zustands.',
+          examples: [
+            { jp: '部屋が静かになりました。', romaji: 'Heya ga shizuka ni narimashita.', de: 'Das Zimmer ist ruhig geworden.' },
+            { jp: '先生になりたいです。', romaji: 'Sensei ni naritai desu.', de: 'Ich möchte Lehrer werden.' },
+            { jp: 'もう十時になりました。', romaji: 'Mō jūji ni narimashita.', de: 'Es ist schon zehn Uhr geworden.' },
+          ],
+          tip: '～にする bedeutet „etwas bewusst so machen“, ～になる bedeutet „es wird so“.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 142 =====================
+    {
+      id: 'lesson-142',
+      number: 142,
+      learningOrder: 20.25,
+      title: '～のは～です',
+      subtitle: 'Handlungen nominalisieren und gezielt hervorheben',
+      level: 'N5',
+      intro: 'Mit ～のは～です macht man aus einer Handlung ein Thema oder hebt gezielt hervor, worum es geht. Das Muster ist für einfache Definitionen, Vorlieben und Kontraste sehr nützlich und kommt im JLPT regelmäßig vor.',
+      sections: [
+        {
+          heading: 'Grundmuster',
+          text: '<strong>Verb / Satz + のは + Nomen / Adjektiv + です</strong> bedeutet grob: „Das ... ist ...“. Damit wird die ganze Handlung vor の zu einem thematischen Block.',
+          examples: [
+            { jp: '私の趣味は本を読むのです。', romaji: 'Watashi no shumi wa hon o yomu no desu.', de: 'Mein Hobby ist das Lesen von Büchern.' },
+            { jp: '難しいのは漢字です。', romaji: 'Muzukashii no wa kanji desu.', de: 'Das Schwierige sind die Kanji.' },
+          ],
+          tip: 'Das Muster ähnelt ～のが好き, aber hier geht es nicht um Vorlieben, sondern um Benennung oder Hervorhebung.'
+        },
+        {
+          heading: 'Kontrast und Fokus',
+          text: 'Sehr oft nutzt man ～のは～です, um in mehreren Möglichkeiten genau eine Sache hervorzuheben oder zu kontrastieren.',
+          examples: [
+            { jp: '好きなのは音楽ですが、得意なのは絵です。', romaji: 'Suki na no wa ongaku desu ga, tokui na no wa e desu.', de: 'Was ich mag, ist Musik, aber gut kann ich Zeichnen.' },
+            { jp: '毎日するのは復習です。', romaji: 'Mainichi suru no wa fukushū desu.', de: 'Was ich jeden Tag mache, ist Wiederholung.' },
+          ],
+          tip: 'In JLPT-Aufgaben ist oft wichtig, welcher Teil vor und welcher Teil nach のは steht.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 143 =====================
+    {
+      id: 'lesson-143',
+      number: 143,
+      learningOrder: 4.75,
+      title: '意向形 ～よう・～おう',
+      subtitle: 'Lass uns … / ich werde …',
+      level: 'N4',
+      intro: 'Die Volitionalform ist die kurze Form für Absicht, Selbstaufforderung und gemeinsames Vorhaben. Sie ist auf N4 wichtig, weil sie sowohl in direkter Kommunikation als auch in Mustern wie ～と思う oder ～とする weiterverwendet wird.',
+      sections: [
+        {
+          heading: 'Bildung',
+          text: 'Bei う-Verben wechselt die letzte Silbe in die お-Reihe + う, bei る-Verben wird る zu よう. する wird zu しよう, 来る zu こよう.',
+          examples: [
+            { jp: '行く → 行こう', romaji: 'Iku → ikō', de: 'gehen → lass uns gehen / ich werde gehen' },
+            { jp: '食べる → 食べよう', romaji: 'Taberu → tabeyō', de: 'essen → lass uns essen / ich werde essen' },
+            { jp: '勉強する → 勉強しよう', romaji: 'Benkyō suru → benkyō shiyō', de: 'lernen → lass uns lernen' },
+          ],
+          tip: 'Die Volitionalform ist nicht dasselbe wie ～ましょう. ～ましょう ist höflicher, ～よう direkter und kürzer.'
+        },
+        {
+          heading: 'Typische Verwendung',
+          text: 'Die Form drückt gemeinsames Vorhaben oder eigene Absicht aus. In lockeren Gesprächen ist sie sehr häufig.',
+          examples: [
+            { jp: '今日は早く寝よう。', romaji: 'Kyō wa hayaku neyō.', de: 'Heute werde ich früh schlafen gehen.' },
+            { jp: '週末はいっしょに出かけよう。', romaji: 'Shūmatsu wa issho ni dekakeyō.', de: 'Lass uns am Wochenende zusammen ausgehen.' },
+          ],
+          tip: 'Für JLPT ist wichtig, die Volitionalform auch dann zu erkennen, wenn sie nicht wie ein Vorschlag, sondern wie eine innere Entscheidung klingt.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 144 =====================
+    {
+      id: 'lesson-144',
+      number: 144,
+      learningOrder: 11.25,
+      title: '～らしい・～そうだ（伝聞）',
+      subtitle: 'Anschein und Hörensagen sauber trennen',
+      level: 'N4',
+      intro: 'Diese beiden Muster sehen ähnlich aus, bedeuten aber nicht dasselbe. ～そうだ（伝聞） gibt wieder, was man gehört hat. ～らしい drückt eher ein typisches Bild oder eine auf Information beruhende Einschätzung aus. Für N4 ist diese Trennung sehr wichtig.',
+      sections: [
+        {
+          heading: '～そうだ（伝聞）',
+          text: '<strong>普通形 + そうだ</strong> bedeutet „ich habe gehört, dass ...“. Der Sprecher gibt Information weiter, ohne sie als eigene Beobachtung darzustellen.',
+          examples: [
+            { jp: '天気予報によると、明日は雪だそうです。', romaji: 'Tenki yohō ni yoru to, ashita wa yuki da sō desu.', de: 'Laut Wetterbericht soll es morgen schneien.' },
+            { jp: '山田さんは来月結婚するそうです。', romaji: 'Yamada-san wa raigetsu kekkon suru sō desu.', de: 'Ich habe gehört, dass Yamada nächsten Monat heiratet.' },
+          ],
+          tip: 'Nicht verwechseln mit 様態の～そうだ: おいしそう ist Eindruck, 来るそうだ ist Hörensagen.'
+        },
+        {
+          heading: '～らしい',
+          text: '<strong>普通形 + らしい</strong> bedeutet je nach Kontext „anscheinend“ oder „typisch für“. Oft basiert es auf mehreren Informationen oder auf einem allgemeinen Eindruck.',
+          examples: [
+            { jp: 'あの人は日本人らしいです。', romaji: 'Ano hito wa nihonjin rashii desu.', de: 'Diese Person scheint Japaner zu sein.' },
+            { jp: '今日は春らしい天気ですね。', romaji: 'Kyō wa haru rashii tenki desu ne.', de: 'Heute ist richtig frühlingshaftes Wetter.' },
+          ],
+          tip: '～らしい kann auch „typisch“ bedeuten. Genau diese zweite Bedeutung ist ein häufiger Stolperpunkt.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 145 =====================
+    {
+      id: 'lesson-145',
+      number: 145,
+      learningOrder: 9.75,
+      title: '～ことがある',
+      subtitle: 'Manchmal geschieht etwas',
+      level: 'N4',
+      intro: 'Diese N4-Struktur darf nicht mit ～たことがある für Erfahrung verwechselt werden. ～ことがある bedeutet hier, dass etwas gelegentlich vorkommt oder manchmal der Fall ist.',
+      sections: [
+        {
+          heading: 'Gelegentlichkeit ausdrücken',
+          text: '<strong>普通形 + ことがある</strong> bedeutet „es kommt vor, dass ...“ oder „manchmal ...“. Sehr oft steht ein Adverb wie ときどき oder たまに dazu.',
+          examples: [
+            { jp: '忙しい時は朝ご飯を食べないことがあります。', romaji: 'Isogashii toki wa asagohan o tabenai koto ga arimasu.', de: 'Wenn ich beschäftigt bin, kommt es vor, dass ich nicht frühstücke.' },
+            { jp: 'たまにこの駅で有名な人を見ることがあります。', romaji: 'Tama ni kono eki de yūmei na hito o miru koto ga arimasu.', de: 'Manchmal sieht man an diesem Bahnhof berühmte Leute.' },
+          ],
+          tip: '～たことがある = schon einmal erlebt. ～ことがある = kommt manchmal vor. Die Zeiten sind der Schlüssel.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 146 =====================
+    {
+      id: 'lesson-146',
+      number: 146,
+      learningOrder: 13.6,
+      title: '～に対して',
+      subtitle: 'Gegenüber und im Kontrast zu',
+      level: 'N4',
+      intro: '～に対して ist für N4 ein nützliches Vergleichs- und Gegenüber-Muster. Es verbindet zwei Dinge oder Personen, die einander gegenübergestellt oder kontrastiert werden.',
+      sections: [
+        {
+          heading: 'Grundbedeutung',
+          text: '<strong>Nomen + に対して</strong> bedeutet „gegenüber“, „im Gegensatz zu“ oder „in Bezug auf“. Oft stellt man damit zwei Seiten direkt nebeneinander.',
+          examples: [
+            { jp: '兄は外向的なのに対して、弟は静かです。', romaji: 'Ani wa gaikō-teki na no ni taishite, otōto wa shizuka desu.', de: 'Im Gegensatz zu meinem älteren Bruder ist mein jüngerer Bruder ruhig.' },
+            { jp: '先生は学生に対してとても親切です。', romaji: 'Sensei wa gakusei ni taishite totemo shinsetsu desu.', de: 'Der Lehrer ist den Schülern gegenüber sehr freundlich.' },
+          ],
+          tip: 'Für N4 reicht es, ～に対して als „gegenüber / im Gegensatz zu“ sicher zu erkennen. Die abstrakteren N2/N3-Nuancen können später kommen.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 147 =====================
+    {
+      id: 'lesson-147',
+      number: 147,
+      learningOrder: 14.25,
+      title: '～っぽい・～かける・～出す',
+      subtitle: 'Wirkt wie, halb angefangen, plötzlich anfangen',
+      level: 'N4',
+      intro: 'Diese drei Muster sind produktiv und in Alltagssprache sehr häufig. Sie helfen, Nuancen von „wirkt irgendwie“, „halb begonnen“ und „plötzlich einsetzen“ kurz und natürlich auszudrücken.',
+      sections: [
+        {
+          heading: '～っぽい',
+          text: '<strong>Nomen / Verb-Stamm + っぽい</strong> bedeutet „wirkt wie“, „hat etwas von“ oder auch „neigt zu“. Die Form ist relativ umgangssprachlich.',
+          examples: [
+            { jp: 'あの人は子どもっぽいです。', romaji: 'Ano hito wa kodomo-ppoi desu.', de: 'Diese Person wirkt kindlich.' },
+            { jp: '忘れっぽいので、メモします。', romaji: 'Wasureppoi node, memo shimasu.', de: 'Ich neige zum Vergessen, deshalb mache ich mir Notizen.' },
+          ],
+          tip: '～っぽい ist oft alltagssprachlicher und leichter als ein längerer erklärender Satz.'
+        },
+        {
+          heading: '～かける und ～出す',
+          text: '<strong>Verb-Stamm + かける</strong> bedeutet, dass etwas angefangen, aber noch nicht zu Ende geführt ist. <strong>Verb-Stamm + 出す</strong> bedeutet, dass etwas plötzlich einsetzt oder beginnt.',
+          examples: [
+            { jp: '読みかけの本が机の上にあります。', romaji: 'Yomikake no hon ga tsukue no ue ni arimasu.', de: 'Ein halbgelesenes Buch liegt auf dem Tisch.' },
+            { jp: '子どもが急に泣き出しました。', romaji: 'Kodomo ga kyū ni naki-dashimashita.', de: 'Das Kind fing plötzlich an zu weinen.' },
+          ],
+          tip: '～かける = angefangen, noch nicht fertig. ～出す = Beginn setzt ein.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 148 =====================
+    {
+      id: 'lesson-148',
+      number: 148,
+      learningOrder: 14.5,
+      title: '～直す・～合う・～てすむ／～ずにすむ',
+      subtitle: 'Noch einmal tun, gegenseitig tun, ohne etwas auszukommen',
+      level: 'N4',
+      intro: 'Diese drei Gruppen sind für N4 praktisch, weil sie aus einfachen Verben sofort neue Bedeutungen machen. Genau solche produktiven Muster tauchen in JLPT-Aufgaben häufig auf.',
+      sections: [
+        {
+          heading: '～直す und ～合う',
+          text: '<strong>Verb-Stamm + 直す</strong> bedeutet „noch einmal tun / korrigieren“. <strong>Verb-Stamm + 合う</strong> bedeutet „etwas miteinander / gegenseitig tun“.',
+          examples: [
+            { jp: 'もう一度書き直してください。', romaji: 'Mō ichido kaki-naoshite kudasai.', de: 'Bitte schreiben Sie es noch einmal neu.' },
+            { jp: '友だちとよく話し合います。', romaji: 'Tomodachi to yoku hanashiaimasu.', de: 'Ich bespreche Dinge oft mit Freunden.' },
+          ],
+          tip: '～合う hat oft die Nuance, dass beide Seiten aktiv beteiligt sind.'
+        },
+        {
+          heading: '～てすむ / ～ずにすむ',
+          text: '<strong>て-Form + すむ</strong> bedeutet, dass etwas ausreicht oder genügt. <strong>～ずにすむ</strong> bedeutet, dass man um etwas Unangenehmes herumkommt.',
+          examples: [
+            { jp: 'メールで連絡すれば、電話しなくてすみます。', romaji: 'Mēru de renraku sureba, denwa shinakute sumimasu.', de: 'Wenn man per Mail Bescheid gibt, muss man nicht telefonieren.' },
+            { jp: '早く出たので、電車に遅れずにすみました。', romaji: 'Hayaku deta node, densha ni okurezu ni sumimashita.', de: 'Weil ich früh losgegangen bin, bin ich um eine Verspätung herumgekommen.' },
+          ],
+          tip: '～ずにすむ hat oft die Nuance von Erleichterung: „zum Glück musste ich nicht ...“.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 149 =====================
+    {
+      id: 'lesson-149',
+      number: 149,
+      learningOrder: 14.75,
+      title: '～ふりをする',
+      subtitle: 'So tun als ob',
+      level: 'N4',
+      intro: 'Mit ～ふりをする beschreibt man Verhalten, das nur gespielt oder vorgetäuscht ist. Das Muster ist für Dialoge, Lesetexte und typische Alltagssituationen auf N4 sehr nützlich.',
+      sections: [
+        {
+          heading: 'Grundmuster',
+          text: '<strong>普通形 + ふりをする</strong> bedeutet „so tun, als ob ...“. Sehr häufig steht davor auch ein Adjektiv oder eine Verbform.',
+          examples: [
+            { jp: '知っているふりをしないでください。', romaji: 'Shitte iru furi o shinaide kudasai.', de: 'Bitte tu nicht so, als wüsstest du es.' },
+            { jp: '彼は聞こえないふりをしました。', romaji: 'Kare wa kikoenai furi o shimashita.', de: 'Er tat so, als würde er es nicht hören.' },
+            { jp: '元気なふりをしていますが、本当は疲れています。', romaji: 'Genki na furi o shite imasu ga, hontō wa tsukarete imasu.', de: 'Ich tue so, als wäre ich fit, aber eigentlich bin ich müde.' },
+          ],
+          tip: '～ふりをする beschreibt gespieltes Verhalten, nicht die Realität.'
+        }
+      ]
     }
   ];
 
