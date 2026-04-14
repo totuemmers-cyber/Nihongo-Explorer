@@ -109,6 +109,7 @@
     radicals: document.getElementById('radicals-loading'),
     quiz: document.getElementById('quiz-loading')
   };
+  var sectionErrorState = {};
   var scriptState = { loaded: {}, pending: {} };
   var quizDataLoaded = false;
   var quizDataPromise = null;
@@ -272,14 +273,14 @@
       }
     },
     grammar: {
-      scripts: ['grammar-data.js', 'grammar-n2.js', 'grammar-n1.js'],
+      scripts: ['grammar-data.js', 'grammar-n2.js', 'grammar-n1.js', 'keigo-data.js'],
       message: 'Lade Grammatik-Daten...',
       hydrate: function () {
         app.sections.grammar.setItems(window.GRAMMAR_DATA || []);
       }
     },
     vocab: {
-      scripts: ['vocab-n5.js', 'vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js', 'keigo-data.js'],
+      scripts: ['vocab-n5.js', 'vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js'],
       message: 'Lade Vokabel-Daten...',
       hydrate: function () {
         var vocabSources = [
@@ -336,6 +337,69 @@
     app.sections[name] = new Section(SECTION_CONFIGS[name]);
   });
 
+  function getSectionHost(name) {
+    if (name === 'kana') return kanaTab;
+    if (name === 'quiz') return quizTab;
+    return tabPanels[name] || null;
+  }
+
+  function getSectionErrorEl(name) {
+    var host = getSectionHost(name);
+    if (!host) return null;
+
+    var existing = host.querySelector('.section-error');
+    if (existing) return existing;
+
+    var errorEl = document.createElement('div');
+    errorEl.className = 'section-error hidden';
+
+    var textEl = document.createElement('div');
+    textEl.className = 'section-error-text';
+    errorEl.appendChild(textEl);
+
+    var retryBtn = document.createElement('button');
+    retryBtn.className = 'btn btn-pill section-error-retry';
+    retryBtn.type = 'button';
+    retryBtn.textContent = 'Erneut versuchen';
+    errorEl.appendChild(retryBtn);
+
+    host.insertBefore(errorEl, host.firstChild);
+    return errorEl;
+  }
+
+  function clearSectionError(name) {
+    sectionErrorState[name] = null;
+    var errorEl = getSectionErrorEl(name);
+    if (!errorEl) return;
+    errorEl.classList.add('hidden');
+    var retryBtn = errorEl.querySelector('.section-error-retry');
+    if (retryBtn) retryBtn.onclick = null;
+  }
+
+  function showSectionError(name, message, retryFn) {
+    sectionErrorState[name] = { message: message, retry: retryFn };
+    var errorEl = getSectionErrorEl(name);
+    if (!errorEl) return;
+
+    var textEl = errorEl.querySelector('.section-error-text');
+    if (textEl) textEl.textContent = message;
+
+    var retryBtn = errorEl.querySelector('.section-error-retry');
+    if (retryBtn) {
+      retryBtn.onclick = function () {
+        clearSectionError(name);
+        retryFn();
+      };
+    }
+
+    errorEl.classList.remove('hidden');
+  }
+
+  function shouldBlockScriptLoad(src) {
+    var blocklist = window.__NIHONGO_TEST_BLOCK_SCRIPTS;
+    return Array.isArray(blocklist) && blocklist.indexOf(src) !== -1;
+  }
+
   function setLoadingVisible(name, visible, message) {
     var loadingEl = loadingEls[name];
     if (!loadingEl) return;
@@ -352,6 +416,9 @@
     }
     if (scriptState.pending[src]) {
       return scriptState.pending[src];
+    }
+    if (shouldBlockScriptLoad(src)) {
+      return Promise.reject(new Error('Script wurde absichtlich blockiert: ' + src));
     }
 
     scriptState.pending[src] = new Promise(function (resolve, reject) {
@@ -392,16 +459,25 @@
     if (section.isLoaded) return Promise.resolve();
     if (section._loadPromise) return section._loadPromise;
 
+    clearSectionError(name);
     section.isLoading = true;
     setLoadingVisible(name, true, loader.message);
 
     section._loadPromise = loadScripts(loader.scripts)
       .then(function () {
         loader.hydrate();
+        clearSectionError(name);
       })
       .catch(function (err) {
         section._loadPromise = null;
         console.error(err);
+        showSectionError(name, loader.message.replace('Lade', 'Fehler beim Laden von').replace('...', '.') + ' Bitte erneut versuchen.', function () {
+          ensureSectionLoaded(name).then(function () {
+            if (app.activeTab === name && app.sections[name] && app.sections[name].config.onTabActivate) {
+              app.sections[name].config.onTabActivate(app.sections[name]);
+            }
+          }).catch(function () {});
+        });
         throw err;
       })
       .finally(function () {
@@ -441,11 +517,18 @@
       return grammarLessonsPromise;
     }
 
+    clearSectionError('grammar');
     setLoadingVisible('grammar', true, 'Lade Grammatik-Lektionen...');
     grammarLessonsPromise = loadScript('grammar-lessons.js')
+      .then(function () {
+        clearSectionError('grammar');
+      })
       .catch(function (err) {
         grammarLessonsPromise = null;
         console.error(err);
+        showSectionError('grammar', 'Grammatik-Lektionen konnten nicht geladen werden. Bitte erneut versuchen.', function () {
+          ensureGrammarLessonsLoaded().catch(function () {});
+        });
         throw err;
       })
       .finally(function () {
@@ -491,6 +574,8 @@
         if (app.activeTab !== 'quiz') return;
         if (window.QuizModule) window.QuizModule.onTabActivate();
         updateCount();
+      }).catch(function () {
+        updateCount();
       });
       updateCount();
       return;
@@ -502,6 +587,8 @@
         if (app.sections[tab].config.onTabActivate) {
           app.sections[tab].config.onTabActivate(app.sections[tab]);
         }
+        updateCount();
+      }).catch(function () {
         updateCount();
       });
     }
@@ -581,7 +668,7 @@
           break;
         }
       }
-    });
+    }).catch(function () {});
   }
 
   // === BASIC NUMBERS (counters section) ===
@@ -682,7 +769,7 @@
         if (sec.filteredItems.length === 0) return;
         var idx = Math.floor(Math.random() * sec.filteredItems.length);
         sec.openDetail(idx);
-      });
+      }).catch(function () {});
     }
   });
 

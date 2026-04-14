@@ -3,6 +3,11 @@
   "private": true,
   "scripts": {
     "audit:data": "node audit-data.js",
-    "audit:verbs": "node audit-verb-conjugation.js"
+    "audit:verbs": "node audit-verb-conjugation.js",
+    "lint": "node scripts/lint.js",
+    "test:smoke": "node scripts/smoke-test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
   }
 }

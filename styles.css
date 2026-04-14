@@ -4697,7 +4697,39 @@ body {
   border-color: var(--n2-border);
 }
 
+.section-error {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border: 1px solid color-mix(in srgb, var(--n2-border) 70%, var(--border));
+  border-left-width: 4px;
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--n2-bg) 70%, var(--bg-card));
+  color: var(--text);
+}
+
+.section-error.hidden {
+  display: none;
+}
+
+.section-error-text {
+  flex: 1;
+  font-size: 0.95rem;
+}
+
+.section-error-retry {
+  flex: 0 0 auto;
+}
+
 @media (max-width: 640px) {
+  .section-error {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   .hero-tagline {
     display: none;
   }
