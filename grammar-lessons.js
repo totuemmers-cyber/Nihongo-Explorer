@@ -4973,8 +4973,792 @@
           tip: 'ざるをえない wirkt formeller als なければならない und betont eher den Zwang durch Umstände als eine Regel.'
         }
       ]
+    },
+
+    // ===================== LEKTION 117 =====================
+    {
+      id: 'lesson-117',
+      number: 117,
+      title: 'あまり～ない・ばかりか・どころか',
+      subtitle: 'Grad und Kontrast — nicht besonders, nicht nur, ganz im Gegenteil',
+      level: 'N3',
+      intro: 'Diese drei Muster arbeiten alle mit Erwartung und Abweichung, aber auf sehr unterschiedliche Weise. あまり～ない schwächt eine Aussage ab, ばかりか erweitert sie überraschend, und どころか kehrt die Erwartung oft komplett um. Genau deshalb sind sie typische N3-Kontraststrukturen.',
+      sections: [
+        {
+          heading: 'あまり～ない — nicht besonders, nicht viel',
+          text: '<strong>あまり + negative Form</strong> bedeutet „nicht besonders“ oder „nicht viel“. Es wirkt meist weicher als eine harte Verneinung und beschreibt einen niedrigen Grad statt eines absoluten Neins.',
+          examples: [
+            { jp: '最近、あまりテレビを見ません。', romaji: 'Saikin, amari terebi o mimasen.', de: 'In letzter Zeit schaue ich nicht besonders viel fern.' },
+            { jp: 'この料理はあまり好きじゃありません。', romaji: 'Kono ryōri wa amari suki ja arimasen.', de: 'Dieses Gericht mag ich nicht besonders.' },
+            { jp: '今日はあまり寒くないですね。', romaji: 'Kyō wa amari samukunai desu ne.', de: 'Heute ist es nicht besonders kalt, oder?' },
+          ],
+          tip: 'あまり steht klassisch mit einer Verneinung. Genau diese Kombination wird oft direkt abgefragt.'
+        },
+        {
+          heading: 'ばかりか — nicht nur ..., sondern sogar',
+          text: '<strong>ばかりか</strong> bedeutet „nicht nur ..., sondern auch / sogar“. Es fügt überraschend zusätzliche Information hinzu und klingt eher schriftlich oder gehoben. Die Nuance ist stärker als bei だけでなく.',
+          examples: [
+            { jp: '彼は日本語ばかりか、中国語も話せます。', romaji: 'Kare wa Nihongo bakari ka, Chūgokugo mo hanasemasu.', de: 'Er spricht nicht nur Japanisch, sondern auch Chinesisch.' },
+            { jp: 'その店は高いばかりか、サービスも悪い。', romaji: 'Sono mise wa takai bakari ka, sābisu mo warui.', de: 'Dieser Laden ist nicht nur teuer, sondern hat auch schlechten Service.' },
+          ],
+          tip: 'ばかりか trägt oft eine stärkere Überraschungs- oder Kritiknuance als bloßes „auch“.'
+        },
+        {
+          heading: 'どころか — ganz im Gegenteil',
+          text: '<strong>どころか</strong> markiert, dass die Erwartung völlig danebenliegt. Statt „nicht nur“ bedeutet es oft eher „von wegen“ oder „ganz im Gegenteil“. Das Muster ist stark kontrastiv.',
+          examples: [
+            { jp: '忙しいどころか、今日は一日中ひまです。', romaji: 'Isogashii dokoro ka, kyō wa ichinichijū hima desu.', de: 'Von beschäftigt kann keine Rede sein, ich bin heute den ganzen Tag frei.' },
+            { jp: '彼は日本に十年住んでいるから、日本語が下手どころか、とても上手だ。', romaji: 'Kare wa Nihon ni jūnen sunde iru kara, Nihongo ga heta dokoro ka, totemo jōzu da.', de: 'Er lebt seit zehn Jahren in Japan, also ist sein Japanisch ganz im Gegenteil sehr gut.' },
+          ],
+          tip: 'どころか korrigiert eine falsche Annahme viel stärker als でも oder しかし.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 118 =====================
+    {
+      id: 'lesson-118',
+      number: 118,
+      title: 'に違いない・はずだ・はずがない',
+      subtitle: 'Schlussfolgerung auf N3 — sicher, erwartet, unmöglich',
+      level: 'N3',
+      intro: 'Diese drei Muster bilden eine klare Skala der Schlussfolgerung. はずだ drückt Erwartung aus, に違いない fast sichere Überzeugung, und はずがない verneint eine Erwartung entschieden. Auf N3 ist die feine Abstufung wichtiger als die grobe Übersetzung.',
+      sections: [
+        {
+          heading: 'はずだ — es müsste so sein',
+          text: '<strong>はずだ</strong> bedeutet, dass der Sprecher auf Grundlage von Wissen oder Logik erwartet, dass etwas zutrifft. Es ist stark, aber nicht absolut. Die Aussage bleibt eine Schlussfolgerung.',
+          examples: [
+            { jp: '田中さんは今ごろ家に着いているはずです。', romaji: 'Tanaka-san wa imagoro ie ni tsuite iru hazu desu.', de: 'Tanaka müsste inzwischen zu Hause angekommen sein.' },
+            { jp: '今日は日曜日だから、銀行は休みのはずだ。', romaji: 'Kyō wa nichiyōbi da kara, ginkō wa yasumi no hazu da.', de: 'Heute ist Sonntag, also müsste die Bank geschlossen sein.' },
+          ],
+          tip: 'はずだ ist Erwartung aus Grundwissen, nicht bloß ein vages Gefühl.'
+        },
+        {
+          heading: 'に違いない — es ist sicher so',
+          text: '<strong>に違いない</strong> bedeutet „muss unbedingt so sein“ oder „es besteht kaum Zweifel“. Es wirkt stärker und subjektiv überzeugter als はずだ.',
+          examples: [
+            { jp: 'あの店の前にたくさん人が並んでいる。きっとおいしいに違いない。', romaji: 'Ano mise no mae ni takusan hito ga narande iru. Kitto oishii ni chigainai.', de: 'Vor diesem Laden stehen viele Leute an. Der muss sicher gut sein.' },
+            { jp: '彼がそんなことを言ったなら、何か理由があるに違いない。', romaji: 'Kare ga sonna koto o itta nara, nanika riyū ga aru ni chigainai.', de: 'Wenn er so etwas gesagt hat, muss es sicher einen Grund geben.' },
+          ],
+          tip: 'に違いない klingt oft entschiedener und persönlicher als はずだ.'
+        },
+        {
+          heading: 'はずがない — das kann unmöglich stimmen',
+          text: '<strong>はずがない</strong> ist die negative Gegenform zu einer Erwartung. Der Sprecher hält etwas aufgrund von Wissen oder Logik für unmöglich.',
+          examples: [
+            { jp: 'あの人が約束を忘れるはずがない。', romaji: 'Ano hito ga yakusoku o wasureru hazu ga nai.', de: 'Es ist unmöglich, dass diese Person ein Versprechen vergisst.' },
+            { jp: 'まだ九時ですから、店が閉まっているはずがありません。', romaji: 'Mada kuji desu kara, mise ga shimatte iru hazu ga arimasen.', de: 'Es ist erst neun Uhr, also kann der Laden unmöglich schon geschlossen sein.' },
+          ],
+          tip: 'Die drei Formen sollte man als System lernen: erwartet, sehr sicher, unmöglich.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 119 =====================
+    {
+      id: 'lesson-119',
+      number: 119,
+      title: 'ことは～が・ないことはない・なくはない',
+      subtitle: 'Abgeschwächte Einräumung — irgendwie ja, aber nicht ganz',
+      level: 'N3',
+      intro: 'Diese Strukturen sind typisch N3, weil sie nicht mehr nur Fakten ausdrücken, sondern Haltung, Zurückhaltung und feine Abstufung. Der Sprecher sagt nicht schlicht ja oder nein, sondern räumt etwas ein und relativiert es sofort wieder.',
+      sections: [
+        {
+          heading: 'ことは～が — zwar ..., aber',
+          text: '<strong>Verb/Adjektiv + ことは～が</strong> räumt eine Tatsache ein, signalisiert aber direkt, dass noch ein Vorbehalt folgt. Es klingt oft vorsichtig, diplomatisch oder etwas reserviert.',
+          examples: [
+            { jp: '日本語は分かることは分かりますが、速くは話せません。', romaji: 'Nihongo wa wakaru koto wa wakarimasu ga, hayaku wa hanasemasen.', de: 'Japanisch verstehe ich schon, aber schnell sprechen kann ich nicht.' },
+            { jp: '行きたいことは行きたいんですが、時間がありません。', romaji: 'Ikitai koto wa ikitai n desu ga, jikan ga arimasen.', de: 'Ich würde schon gern hingehen, aber ich habe keine Zeit.' },
+          ],
+          tip: 'Die Wiederholung desselben Ausdrucks ist kein Fehler, sondern Teil der Struktur.'
+        },
+        {
+          heading: 'ないことはない — nicht völlig unmöglich',
+          text: '<strong>ないことはない</strong> bedeutet, dass etwas nicht komplett ausgeschlossen ist. Die Nuance ist meist: „es geht schon irgendwie, aber ideal ist es nicht“. Es ist eine abgeschwächte positive Einräumung.',
+          examples: [
+            { jp: '一人でもできないことはないですが、少し大変です。', romaji: 'Hitori demo dekinai koto wa nai desu ga, sukoshi taihen desu.', de: 'Allein geht es schon irgendwie, aber es ist etwas anstrengend.' },
+            { jp: 'その案も悪くないことはない。', romaji: 'Sono an mo warukunai koto wa nai.', de: 'Dieser Vorschlag ist nicht völlig schlecht.' },
+          ],
+          tip: 'ないことはない ist oft zurückhaltend zustimmend, aber selten enthusiastisch.'
+        },
+        {
+          heading: 'なくはない — kompakter und umgangssprachlicher',
+          text: '<strong>なくはない</strong> ist eine kürzere, etwas gesprochene Variante von ないことはない. Die Bedeutung ist ähnlich: „nicht ganz unmöglich“ oder „man könnte schon sagen, dass ...“.',
+          examples: [
+            { jp: 'この店、少し高いけど、行けなくはない。', romaji: 'Kono mise, sukoshi takai kedo, ikenaku wa nai.', de: 'Dieser Laden ist zwar etwas teuer, aber man kann schon hingehen.' },
+            { jp: '食べられなくはないけど、また買いたいとは思わない。', romaji: 'Taberarenaku wa nai kedo, mata kaitai to wa omowanai.', de: 'Man kann es schon essen, aber ich würde es nicht noch einmal kaufen wollen.' },
+          ],
+          tip: 'なくはない klingt natürlicher in lockererer Sprache, ないことはない etwas vollständiger und erklärender.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 120 =====================
+    {
+      id: 'lesson-120',
+      number: 120,
+      learningOrder: 13.5,
+      title: '～に行く',
+      subtitle: 'Zweck einer Bewegung — irgendwohin gehen, um etwas zu tun',
+      level: 'N5',
+      intro: 'Mit ～に行く verbindet man Bewegung mit einem Zweck. Diese Form ist im Alltag extrem häufig: essen gehen, einkaufen gehen, Freunde treffen gehen. Für Anfänger ist sie ein wichtiger Schritt von einfachen Verbformen hin zu kleinen Satzmustern.',
+      sections: [
+        {
+          heading: 'Grundstruktur',
+          text: 'Die Standardform ist <strong>Verb-Stamm + に行く</strong>. Der Stamm steht also vor に, nicht die Wörterbuchform. Die Bedeutung ist: „gehen, um ... zu tun“. Statt 行く kann auch 来る oder 帰る stehen.',
+          examples: [
+            { jp: '友だちと映画を見に行きます。', romaji: 'Tomodachi to eiga o mi ni ikimasu.', de: 'Ich gehe mit einem Freund einen Film schauen.' },
+            { jp: 'パンを買いに行きました。', romaji: 'Pan o kai ni ikimashita.', de: 'Ich bin Brot kaufen gegangen.' },
+            { jp: '図書館へ勉強しに来ました。', romaji: 'Toshokan e benkyō shi ni kimashita.', de: 'Ich bin in die Bibliothek gekommen, um zu lernen.' },
+          ],
+          tip: 'Wichtig ist der Verb-Stamm: 食べに行く, 見に行く, 買いに行く, 勉強しに行く.'
+        },
+        {
+          heading: 'Bewegung plus Ziel',
+          text: 'Vor dem Bewegungsverb steht oft noch ein Ort mit へ oder に. So kombiniert man Zielort und Zweck in einem Satz. Diese Struktur ist für Alltagssätze besonders produktiv.',
+          examples: [
+            { jp: '週末にレストランへ食べに行きます。', romaji: 'Shūmatsu ni resutoran e tabe ni ikimasu.', de: 'Am Wochenende gehe ich ins Restaurant essen.' },
+            { jp: '駅に友だちを迎えに行きます。', romaji: 'Eki ni tomodachi o mukae ni ikimasu.', de: 'Ich gehe zum Bahnhof, um einen Freund abzuholen.' },
+          ],
+          tip: 'Viele Lehrbücher behandeln ～に行く früh, weil es mehrere Grundlagen verbindet: Verb-Stamm, Partikel und Bewegungsverben.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 121 =====================
+    {
+      id: 'lesson-121',
+      number: 121,
+      learningOrder: 14.5,
+      title: '～前に・～後で・～時・～てから',
+      subtitle: 'Zeitabfolge auf N5 — bevor, nachdem, wenn, erst dann',
+      level: 'N5',
+      intro: 'Diese Zeitmuster gehören zum Kernbestand der Anfängergrammatik. Sie helfen dabei, Ereignisse in eine Reihenfolge zu bringen und sind eine Voraussetzung für natürliches Erzählen über Alltag und Routine.',
+      sections: [
+        {
+          heading: '～前に und ～後で',
+          text: '<strong>Verb im Wörterbuch + 前に</strong> bedeutet „bevor man ...“. <strong>Verb in der た-Form + 後で</strong> bedeutet „nachdem man ...“. Die Zeitlogik steckt also direkt in der Verbform.',
+          examples: [
+            { jp: '寝る前に本を読みます。', romaji: 'Neru mae ni hon o yomimasu.', de: 'Ich lese vor dem Schlafengehen ein Buch.' },
+            { jp: 'ご飯を食べた後で、散歩しました。', romaji: 'Gohan o tabeta ato de, sanpo shimashita.', de: 'Nachdem ich gegessen hatte, bin ich spazieren gegangen.' },
+          ],
+          tip: 'Vor 前に steht die Wörterbuchform, vor 後で meistens die た-Form. Genau das wird oft verwechselt.'
+        },
+        {
+          heading: '～時 und ～てから',
+          text: '<strong>～時</strong> markiert den Zeitpunkt „wenn / als“. Je nach Verbform vor 時 kann die Handlung vorher oder gleichzeitig gemeint sein. <strong>～てから</strong> bedeutet klar „erst nachdem ...“ und legt die Reihenfolge stärker fest als 後で.',
+          examples: [
+            { jp: '日本へ行く時、カメラを買いました。', romaji: 'Nihon e iku toki, kamera o kaimashita.', de: 'Als ich nach Japan fuhr, habe ich eine Kamera gekauft.' },
+            { jp: '家に帰ってから宿題をします。', romaji: 'Ie ni kaette kara shukudai o shimasu.', de: 'Erst nachdem ich nach Hause gekommen bin, mache ich Hausaufgaben.' },
+            { jp: '子どもの時、よく川で遊びました。', romaji: 'Kodomo no toki, yoku kawa de asobimashita.', de: 'Als ich ein Kind war, habe ich oft am Fluss gespielt.' },
+          ],
+          tip: '～てから betont die Reihenfolge stärker als 後で. Es klingt oft wie „und erst dann“.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 122 =====================
+    {
+      id: 'lesson-122',
+      number: 122,
+      learningOrder: 19.5,
+      title: '～なくてもいい・～なければならない',
+      subtitle: 'Nicht müssen und müssen — Pflicht sauber ausdrücken',
+      level: 'N5',
+      intro: 'Wer über Regeln und Verpflichtungen sprechen will, braucht auf N5 zwei Gegenspieler: ～なくてもいい für „nicht müssen“ und ～なければならない für „müssen“. Gerade weil sich beide Formen ähnlich sehen, sollten sie früh als Paar gelernt werden.',
+      sections: [
+        {
+          heading: '～なくてもいい — nicht müssen',
+          text: '<strong>ない-Form ohne い + くてもいい</strong> bedeutet, dass etwas nicht notwendig ist. Es heißt nicht „darf nicht“, sondern nur „man braucht es nicht zu tun“.',
+          examples: [
+            { jp: '今日は来なくてもいいです。', romaji: 'Kyō wa konakute mo ii desu.', de: 'Du musst heute nicht kommen.' },
+            { jp: '全部食べなくてもいいですよ。', romaji: 'Zenbu tabenakute mo ii desu yo.', de: 'Du musst nicht alles essen.' },
+          ],
+          tip: 'Nicht verwechseln: ～なくてもいい = nicht müssen, ～てはいけない = nicht dürfen.'
+        },
+        {
+          heading: '～なければならない — müssen',
+          text: '<strong>ない-Form ohne い + ければならない</strong> drückt Pflicht oder Notwendigkeit aus. Die Form ist länger als im Deutschen, aber sehr häufig und grundlegend.',
+          examples: [
+            { jp: '毎日漢字を勉強しなければなりません。', romaji: 'Mainichi kanji o benkyō shinakereba narimasen.', de: 'Ich muss jeden Tag Kanji lernen.' },
+            { jp: '明日は早く起きなければならない。', romaji: 'Ashita wa hayaku okinakereba naranai.', de: 'Ich muss morgen früh aufstehen.' },
+          ],
+          tip: 'Die Struktur ist formal recht lang. Viele Lernende verstehen sie leichter, wenn sie sie zuerst als festen Block lernen.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 123 =====================
+    {
+      id: 'lesson-123',
+      number: 123,
+      learningOrder: 22.5,
+      title: 'か・どんな・でしょう',
+      subtitle: 'Fragen und vorsichtige Vermutung auf N5',
+      level: 'N5',
+      intro: 'Diese drei Bausteine sind sehr häufig, aber oft zu implizit gelernt. Mit か bildet man Fragen, mit どんな fragt man nach Art oder Typ, und mit でしょう formuliert man vorsichtige Vermutung oder sucht Zustimmung.',
+      sections: [
+        {
+          heading: 'か und どんな',
+          text: '<strong>か</strong> ist die Standard-Fragepartikel am Satzende. <strong>どんな</strong> fragt nach der Art oder Beschaffenheit eines Nomens: „was für ein ...?“ Zusammen sind beide für einfache Gespräche unverzichtbar.',
+          examples: [
+            { jp: 'これは何ですか。', romaji: 'Kore wa nan desu ka.', de: 'Was ist das?' },
+            { jp: 'どんな音楽が好きですか。', romaji: 'Donna ongaku ga suki desu ka.', de: 'Was für Musik magst du?' },
+            { jp: '田中さんはどんな人ですか。', romaji: 'Tanaka-san wa donna hito desu ka.', de: 'Was für ein Mensch ist Tanaka?' },
+          ],
+          tip: 'どんな steht direkt vor dem Nomen: どんな本, どんな先生, どんな料理.'
+        },
+        {
+          heading: 'でしょう — vorsichtige Vermutung',
+          text: '<strong>でしょう</strong> bedeutet je nach Kontext „wahrscheinlich“, „nicht wahr?“ oder eine höfliche abgeschwächte Vermutung. Auf N5 reicht es, die Grundfunktion als vorsichtige Aussage oder Zustimmungsfrage sicher zu erkennen.',
+          examples: [
+            { jp: '明日は雨でしょう。', romaji: 'Ashita wa ame deshō.', de: 'Morgen wird es wohl regnen.' },
+            { jp: 'この本は高いでしょう？', romaji: 'Kono hon wa takai deshō?', de: 'Dieses Buch ist teuer, oder?' },
+          ],
+          tip: 'でしょう klingt weicher als eine harte Behauptung. Genau deshalb ist es im höflichen Alltagsjapanisch so häufig.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 124 =====================
+    {
+      id: 'lesson-124',
+      number: 124,
+      learningOrder: 5.5,
+      title: '～てしまう・～ちゃう',
+      subtitle: 'Abschluss und Bedauern — ganz fertig oder leider passiert',
+      level: 'N4',
+      intro: '～てしまう ist eines der häufigsten N4-Muster, weil es zwei sehr nützliche Bedeutungen verbindet: vollständigen Abschluss und unerwünschtes Geschehen. Die umgangssprachliche Form ～ちゃう / ～じゃう ist im Alltag besonders wichtig.',
+      sections: [
+        {
+          heading: 'Ganz fertig / vollständig tun',
+          text: 'Mit <strong>て-Form + しまう</strong> kann man ausdrücken, dass eine Handlung vollständig abgeschlossen wurde. Je nach Kontext klingt das neutral oder leicht betont.',
+          examples: [
+            { jp: '宿題をもうしてしまいました。', romaji: 'Shukudai o mō shite shimaimashita.', de: 'Ich habe die Hausaufgaben schon komplett gemacht.' },
+            { jp: 'この本は一日で読んでしまった。', romaji: 'Kono hon wa ichinichi de yonde shimatta.', de: 'Ich habe dieses Buch in einem Tag ausgelesen.' },
+          ],
+          tip: 'Diese neutrale Abschlussbedeutung wird oft übersehen, weil viele zuerst nur die Bedauernsbedeutung lernen.'
+        },
+        {
+          heading: 'Leider passiert / aus Versehen',
+          text: 'Sehr häufig drückt ～てしまう Bedauern, Pech oder einen unerwünschten Ausgang aus. In gesprochener Sprache wird daraus oft ～ちゃう oder ～じゃう.',
+          examples: [
+            { jp: '財布を忘れてしまいました。', romaji: 'Saifu o wasurete shimaimashita.', de: 'Ich habe leider meinen Geldbeutel vergessen.' },
+            { jp: 'ケーキを全部食べちゃった。', romaji: 'Kēki o zenbu tabechatta.', de: 'Ich habe den Kuchen leider ganz aufgegessen.' },
+          ],
+          tip: '～ちゃう ist umgangssprachlich, aber extrem häufig. Für natürliches Hörverstehen auf N4 sollte man es sicher erkennen.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 125 =====================
+    {
+      id: 'lesson-125',
+      number: 125,
+      learningOrder: 8.5,
+      title: '～ても・～でも・～かどうか',
+      subtitle: 'Auch wenn und ob — Offenheit und Unsicherheit ausdrücken',
+      level: 'N4',
+      intro: 'Mit diesen Formen löst man drei sehr praktische Kommunikationsaufgaben: Zugeständnisse machen, Beispiele offen lassen und Unsicherheit zwischen zwei Möglichkeiten ausdrücken. Genau deshalb gehören sie in eine eigene N4-Lektion.',
+      sections: [
+        {
+          heading: '～ても / ～でも — auch wenn',
+          text: '<strong>Verb in der て-Form + も</strong> und <strong>Nomen/な-Adjektiv + でも</strong> bedeuten „auch wenn“ oder „selbst wenn“. Die Form zeigt, dass das Ergebnis trotz einer Bedingung gilt.',
+          examples: [
+            { jp: '雨が降っても行きます。', romaji: 'Ame ga futte mo ikimasu.', de: 'Auch wenn es regnet, gehe ich.' },
+            { jp: '日曜日でも働きます。', romaji: 'Nichiyōbi demo hatarakimasu.', de: 'Ich arbeite sogar sonntags / auch wenn Sonntag ist.' },
+          ],
+          tip: '～ても beschreibt keine normale Bedingung wie たら oder ば, sondern eine Bedingung, die das Ergebnis gerade nicht verhindert.'
+        },
+        {
+          heading: '～かどうか — ob oder nicht',
+          text: '<strong>普通形 + かどうか</strong> bedeutet „ob ... oder nicht“. Die Struktur macht aus einer Ja/Nein-Frage einen eingebetteten Nebensatz.',
+          examples: [
+            { jp: '彼が来るかどうか分かりません。', romaji: 'Kare ga kuru ka dō ka wakarimasen.', de: 'Ich weiß nicht, ob er kommt.' },
+            { jp: 'この店が開いているかどうか調べます。', romaji: 'Kono mise ga aite iru ka dō ka shirabemasu.', de: 'Ich prüfe, ob dieser Laden geöffnet ist.' },
+          ],
+          tip: '～かどうか ist besonders häufig mit Verben wie 知る, 分かる, 聞く, 決める.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 126 =====================
+    {
+      id: 'lesson-126',
+      number: 126,
+      learningOrder: 6.5,
+      title: '～たばかり・～ところだ',
+      subtitle: 'Gerade eben und genau im Moment',
+      level: 'N4',
+      intro: 'Beide Muster beziehen sich auf zeitliche Nähe, aber aus unterschiedlichen Blickwinkeln. ～たばかり blickt auf etwas zurück, das gerade passiert ist, während ～ところだ einen sehr genauen Zeitpunkt rund um eine Handlung markiert.',
+      sections: [
+        {
+          heading: '～たばかり — gerade erst getan',
+          text: '<strong>Verb in der た-Form + ばかり</strong> bedeutet „gerade erst getan“. Wichtig ist dabei eher das Gefühl von zeitlicher Nähe als die objektive Uhrzeit.',
+          examples: [
+            { jp: 'さっき食べたばかりです。', romaji: 'Sakki tabeta bakari desu.', de: 'Ich habe gerade erst gegessen.' },
+            { jp: '日本へ来たばかりなので、まだ友だちが少ないです。', romaji: 'Nihon e kita bakari na node, mada tomodachi ga sukunai desu.', de: 'Ich bin erst kürzlich nach Japan gekommen, deshalb habe ich noch wenige Freunde.' },
+          ],
+          tip: 'ばかり ist subjektiv. Auch etwas, das vor einigen Tagen passiert ist, kann als ～たばかり empfunden werden.'
+        },
+        {
+          heading: '～ところだ — kurz davor, gerade dabei, gerade fertig',
+          text: '<strong>Wörterbuchform / ている / た + ところだ</strong> markiert sehr präzise, ob eine Handlung bevorsteht, gerade läuft oder eben abgeschlossen ist.',
+          examples: [
+            { jp: '今から出かけるところです。', romaji: 'Ima kara dekakeru tokoro desu.', de: 'Ich bin gerade im Begriff loszugehen.' },
+            { jp: '今、電話しているところです。', romaji: 'Ima, denwa shite iru tokoro desu.', de: 'Ich telefoniere gerade.' },
+            { jp: '今、帰ったところです。', romaji: 'Ima, kaetta tokoro desu.', de: 'Ich bin gerade eben zurückgekommen.' },
+          ],
+          tip: '～ところだ ist zeitlich präziser als ～たばかり. Für N4 reicht es, die drei Zeitpunkte sicher auseinanderzuhalten.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 127 =====================
+    {
+      id: 'lesson-127',
+      number: 127,
+      learningOrder: 7.5,
+      title: '～始める・～続ける・～終わる',
+      subtitle: 'Phasen einer Handlung — anfangen, weitermachen, beenden',
+      level: 'N4',
+      intro: 'Diese drei Verbkombinationen sind typische N4-Bausteine, weil sie sehr produktiv sind und direkt an den Verb-Stamm angeschlossen werden. Sie helfen, Handlungen als Prozess zu beschreiben.',
+      sections: [
+        {
+          heading: 'Beginn, Fortsetzung, Abschluss',
+          text: 'Die Bildung ist jeweils <strong>Verb-Stamm + 始める / 続ける / 終わる</strong>. Damit beschreibt man, dass eine Handlung beginnt, andauert oder abgeschlossen wird.',
+          examples: [
+            { jp: '雨が降り始めました。', romaji: 'Ame ga furihajimemashita.', de: 'Es hat angefangen zu regnen.' },
+            { jp: '彼は三時間話し続けました。', romaji: 'Kare wa sanjikan hanashitsuzukemashita.', de: 'Er hat drei Stunden lang weitergeredet.' },
+            { jp: '本を読み終わったら、寝ます。', romaji: 'Hon o yomiowattara, nemasu.', de: 'Wenn ich das Buch zu Ende gelesen habe, gehe ich schlafen.' },
+          ],
+          tip: 'Diese drei Hilfsverben sind sehr produktiv. Wer den Verb-Stamm sicher beherrscht, kann sofort viele neue Ausdrücke bilden.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 128 =====================
+    {
+      id: 'lesson-128',
+      number: 128,
+      learningOrder: 15.5,
+      title: '～てほしい・～させてください・～させてもらう',
+      subtitle: 'Wunsch, Erlaubnis und sich etwas erlauben lassen',
+      level: 'N4',
+      intro: 'Diese drei Formen sind wichtig, weil sie soziale Interaktion präziser machen: wünschen, dass jemand etwas tut, um Erlaubnis bitten, selbst etwas tun zu dürfen. Gerade auf N4 wird damit die Ausdrucksweise deutlich natürlicher.',
+      sections: [
+        {
+          heading: '～てほしい — wollen, dass jemand etwas tut',
+          text: '<strong>Person に + て-Form + ほしい</strong> bedeutet, dass der Sprecher möchte, dass jemand eine Handlung ausführt. Es ist etwas anderes als ～たい, das den eigenen Wunsch beschreibt.',
+          examples: [
+            { jp: '母に少し休んでほしいです。', romaji: 'Haha ni sukoshi yasunde hoshii desu.', de: 'Ich möchte, dass meine Mutter sich etwas ausruht.' },
+            { jp: '先生にもう一度説明してほしい。', romaji: 'Sensei ni mō ichido setsumei shite hoshii.', de: 'Ich möchte, dass der Lehrer es noch einmal erklärt.' },
+          ],
+          tip: '～てほしい drückt den Wunsch des Sprechers aus, nicht die Verpflichtung des anderen.'
+        },
+        {
+          heading: '～させてください / ～させてもらう',
+          text: '<strong>～させてください</strong> bedeutet „lassen Sie mich bitte ...“. <strong>～させてもらう</strong> bedeutet, dass man die Erlaubnis oder Gelegenheit erhält, etwas zu tun. Beide bauen auf der Kausativform auf.',
+          examples: [
+            { jp: '先に帰らせてください。', romaji: 'Saki ni kaerasete kudasai.', de: 'Bitte lassen Sie mich früher nach Hause gehen.' },
+            { jp: '今日は発表させてもらいました。', romaji: 'Kyō wa happyō sasete moraimashita.', de: 'Heute durfte ich präsentieren.' },
+          ],
+          tip: '～させてもらう klingt oft dankbar oder demütig, weil die Erlaubnis des anderen mitschwingt.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 129 =====================
+    {
+      id: 'lesson-129',
+      number: 129,
+      learningOrder: 9.5,
+      title: '～ばよかった・～たらどう',
+      subtitle: 'Rückblickender Rat und Vorschlag',
+      level: 'N4',
+      intro: 'Diese beiden Strukturen drücken Rat aus, aber aus zwei verschiedenen Perspektiven: einmal rückblickend mit Bedauern, einmal als aktueller Vorschlag. Genau dieser Unterschied ist didaktisch wichtig.',
+      sections: [
+        {
+          heading: '～ばよかった — hätte sollen',
+          text: '<strong>Verb in der ば-Form + よかった</strong> bedeutet, dass etwas im Nachhinein besser gewesen wäre. Es drückt Bedauern oder rückblickenden Rat aus.',
+          examples: [
+            { jp: 'もっと早く寝ればよかった。', romaji: 'Motto hayaku nereba yokatta.', de: 'Ich hätte früher schlafen sollen.' },
+            { jp: '傘を持ってくればよかったです。', romaji: 'Kasa o motte kureba yokatta desu.', de: 'Ich hätte einen Regenschirm mitbringen sollen.' },
+          ],
+          tip: 'Die Form schaut zurück. Sie ist kein aktueller Vorschlag, sondern ein nachträgliches Urteil.'
+        },
+        {
+          heading: '～たらどう — wie wäre es, wenn',
+          text: '<strong>Verb in der たら-Form + どう</strong> ist ein Vorschlag: „Wie wäre es, wenn du ...?“ Die Form klingt meist direkt, aber alltagstauglich.',
+          examples: [
+            { jp: '少し休んだらどうですか。', romaji: 'Sukoshi yasundara dō desu ka.', de: 'Wie wäre es, wenn du dich etwas ausruhst?' },
+            { jp: '先生に聞いたらどう？', romaji: 'Sensei ni kiitara dō?', de: 'Wie wäre es, wenn du den Lehrer fragst?' },
+          ],
+          tip: '～たらどう ist gegenwartsbezogen, ～ばよかった rückblickend. Genau diese zeitliche Perspektive trennt beide Formen.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 130 =====================
+    {
+      id: 'lesson-130',
+      number: 130,
+      learningOrder: 12.5,
+      title: '～だけでなく・～ばかり・～ほど～ない',
+      subtitle: 'Erweitern, Begrenzen, Vergleichen',
+      level: 'N4',
+      intro: 'Diese drei Muster sind typische N4-Strukturen für Umfang und Vergleich. Man erweitert eine Aussage, grenzt sie stark ein oder formuliert einen negativen Vergleich. Gerade in Lesetexten kommen solche Unterschiede häufig vor.',
+      sections: [
+        {
+          heading: '～だけでなく und ～ばかり',
+          text: '<strong>～だけでなく</strong> bedeutet „nicht nur ..., sondern auch“. <strong>～ばかり</strong> bedeutet „nichts als / nur“. Beide arbeiten mit Umfang, aber in entgegengesetzter Richtung.',
+          examples: [
+            { jp: '彼は日本語だけでなく、中国語も話せます。', romaji: 'Kare wa Nihongo dake de naku, Chūgokugo mo hanasemasu.', de: 'Er spricht nicht nur Japanisch, sondern auch Chinesisch.' },
+            { jp: '最近、甘い物ばかり食べています。', romaji: 'Saikin, amai mono bakari tabete imasu.', de: 'In letzter Zeit esse ich nur süße Sachen.' },
+          ],
+          tip: 'ばかり klingt oft stärker und subjektiver als だけ.'
+        },
+        {
+          heading: '～ほど～ない — nicht so ... wie',
+          text: '<strong>A は B ほど ～ない</strong> bedeutet „A ist nicht so ... wie B“. Das Muster ist ein negativer Vergleich und ergänzt die bekannten Komparativformen mit より.',
+          examples: [
+            { jp: '今日は昨日ほど寒くないです。', romaji: 'Kyō wa kinō hodo samukunai desu.', de: 'Heute ist es nicht so kalt wie gestern.' },
+            { jp: '電車はバスほど遅くありません。', romaji: 'Densha wa basu hodo osoku arimasen.', de: 'Der Zug ist nicht so langsam wie der Bus.' },
+          ],
+          tip: '～ほど～ない ist eine feste Vergleichsform. Sie sollte als Ganzes erkannt werden, nicht Wort für Wort.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 131 =====================
+    {
+      id: 'lesson-131',
+      number: 131,
+      learningOrder: 13.5,
+      title: '～によると・～について',
+      subtitle: 'Informationsquelle und Thema — laut, bezüglich',
+      level: 'N4',
+      intro: 'Diese beiden Muster gehören zu typischen Übergangsstrukturen vom alltäglichen Gespräch zu etwas sachlicherer Sprache. Mit ～によると nennt man eine Informationsquelle, mit ～について ein Thema oder einen Gegenstand der Rede.',
+      sections: [
+        {
+          heading: '～によると — laut, gemäß',
+          text: '<strong>Nomen + によると</strong> markiert die Quelle einer Information: „laut ...“. Die Struktur ist sehr häufig in Nachrichten, Berichten und indirekten Aussagen.',
+          examples: [
+            { jp: '天気予報によると、明日は晴れです。', romaji: 'Tenki yohō ni yoru to, ashita wa hare desu.', de: 'Laut Wetterbericht wird es morgen sonnig.' },
+            { jp: '友だちの話によると、その店は安いそうです。', romaji: 'Tomodachi no hanashi ni yoru to, sono mise wa yasui sō desu.', de: 'Laut meinem Freund soll dieser Laden günstig sein.' },
+          ],
+          tip: '～によると steht oft zusammen mit Hörensagenstrukturen wie そうだ oder ということだ.'
+        },
+        {
+          heading: '～について — über, bezüglich',
+          text: '<strong>Nomen + について</strong> bedeutet „über, bezüglich“. Es markiert das Thema einer Erklärung, Diskussion oder Untersuchung.',
+          examples: [
+            { jp: '日本の文化について勉強しています。', romaji: 'Nihon no bunka ni tsuite benkyō shite imasu.', de: 'Ich lerne über japanische Kultur.' },
+            { jp: 'この問題について話しましょう。', romaji: 'Kono mondai ni tsuite hanashimashō.', de: 'Lass uns über dieses Problem sprechen.' },
+          ],
+          tip: '～について ist sachlicher als bloß ～のこと. Genau das macht es zu einem wichtigen N4-Baustein.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 132 =====================
+    {
+      id: 'lesson-132',
+      number: 132,
+      learningOrder: 4.5,
+      title: '～方',
+      subtitle: 'Wie man etwas tut — Art und Weise erklären',
+      level: 'N4',
+      intro: '～方 ist ein kleines, aber sehr nützliches N4-Muster. Es macht aus einer Handlung ein Nomen im Sinn von „Art und Weise, wie man etwas macht“. Dadurch kann man sehr einfach nach Anleitungen fragen oder Dinge erklären.',
+      sections: [
+        {
+          heading: 'Grundbildung',
+          text: 'Die Form ist <strong>Verb-Stamm + 方</strong>. Sie bedeutet „die Art, ... zu tun“ oder „wie man ... macht“. Bei する-Verben wird meist direkt mit dem Sinojapanischen Nomen gearbeitet, zum Beispiel 使い方, 読み方, 書き方.',
+          examples: [
+            { jp: 'この漢字の読み方を教えてください。', romaji: 'Kono kanji no yomikata o oshiete kudasai.', de: 'Bitte erklären Sie mir, wie man dieses Kanji liest.' },
+            { jp: 'このアプリの使い方が分かりません。', romaji: 'Kono apuri no tsukaikata ga wakarimasen.', de: 'Ich weiß nicht, wie man diese App benutzt.' },
+            { jp: '箸の持ち方を練習しています。', romaji: 'Hashi no mochikata o renshū shite imasu.', de: 'Ich übe, wie man Stäbchen hält.' },
+          ],
+          tip: '～方 ist kein vollständiger Satz, sondern ein Nomen. Deshalb kann es mit を, が, は und anderen Partikeln verwendet werden.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 133 =====================
+    {
+      id: 'lesson-133',
+      number: 133,
+      learningOrder: 6.25,
+      title: '～ずに・～ないで',
+      subtitle: 'Ohne zu ... — etwas auslassen oder bewusst nicht tun',
+      level: 'N4',
+      intro: 'Beide Muster bedeuten meist „ohne zu ...“, aber sie klingen nicht gleich. ～ないで ist alltagssprachlich und sehr häufig, ～ずに wirkt etwas schriftlicher oder formeller. Auf N4 sollte man beide sicher erkennen.',
+      sections: [
+        {
+          heading: '～ないで — ohne zu ...',
+          text: '<strong>ない-Form + で</strong> drückt aus, dass eine Handlung nicht getan wird und stattdessen etwas anderes passiert. Die Form ist in Gesprächen sehr häufig.',
+          examples: [
+            { jp: '朝ご飯を食べないで学校へ行きました。', romaji: 'Asagohan o tabenai de gakkō e ikimashita.', de: 'Ich bin ohne Frühstück zur Schule gegangen.' },
+            { jp: '何も言わないで帰ってしまった。', romaji: 'Nanimo iwanai de kaette shimatta.', de: 'Er ist gegangen, ohne etwas zu sagen.' },
+          ],
+          tip: '～ないで kann je nach Kontext auch wie eine negative Bitte wirken, deshalb immer den Satzkontext beachten.'
+        },
+        {
+          heading: '～ずに — formelleres „ohne zu“',
+          text: '<strong>ない-Form ohne ない + ずに</strong> hat fast dieselbe Kernbedeutung, klingt aber schriftlicher oder etwas gehobener. Nur bei する wird zu せずに.',
+          examples: [
+            { jp: '傘を持たずに出かけました。', romaji: 'Kasa o motazu ni dekakemashita.', de: 'Ich bin ohne Regenschirm weggegangen.' },
+            { jp: '彼は何もせずに一日を過ごした。', romaji: 'Kare wa nani mo sezu ni ichinichi o sugoshita.', de: 'Er hat den Tag verbracht, ohne etwas zu tun.' },
+          ],
+          tip: 'Für N4 reicht: ～ないで ist alltagssprachlich, ～ずに etwas formeller. Inhaltlich liegen sie nah beieinander.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 134 =====================
+    {
+      id: 'lesson-134',
+      number: 134,
+      learningOrder: 9.25,
+      title: '～ことになっている',
+      subtitle: 'Regeln und festgelegte Abläufe',
+      level: 'N4',
+      intro: '～ことになっている wirkt ähnlich wie ～ことになる, ist aber nicht dasselbe. Hier geht es nicht um eine einmalige Entscheidung, sondern um eine bestehende Regel, Vereinbarung oder vorgesehene Ordnung.',
+      sections: [
+        {
+          heading: 'Bestehende Regeln',
+          text: '<strong>Verb + ことになっている</strong> bedeutet, dass etwas als Regel, Plan oder offizieller Ablauf festgelegt ist. Der Sprecher beschreibt also eine bestehende Ordnung, nicht seine persönliche Entscheidung.',
+          examples: [
+            { jp: 'この図書館では大きい声で話さないことになっています。', romaji: 'Kono toshokan de wa ōkii koe de hanasanai koto ni natte imasu.', de: 'In dieser Bibliothek gilt die Regel, nicht laut zu sprechen.' },
+            { jp: '会議は毎週月曜日にあることになっています。', romaji: 'Kaigi wa maishū getsuyōbi ni aru koto ni natte imasu.', de: 'Es ist vorgesehen, dass die Besprechung jeden Montag stattfindet.' },
+          ],
+          tip: '～ことにする = ich entscheide. ～ことになる = es wurde entschieden. ～ことになっている = es ist als Regel oder System so festgelegt.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 135 =====================
+    {
+      id: 'lesson-135',
+      number: 135,
+      learningOrder: 13.75,
+      title: '～として・～にとって・～によって',
+      subtitle: 'Rolle, Perspektive und Mittel',
+      level: 'N4',
+      intro: 'Diese drei Partikelmuster sind für N4 wichtig, weil sie Perspektive und Funktion präziser machen. Man spricht über eine Rolle, über die Sichtweise einer Person oder über Ursache, Mittel und Unterschiede je nach Fall.',
+      sections: [
+        {
+          heading: '～として und ～にとって',
+          text: '<strong>～として</strong> bedeutet „als, in der Rolle von“. <strong>～にとって</strong> bedeutet „für, aus der Sicht von“. Beide Strukturen setzen einen Bezugsrahmen, aber nicht denselben.',
+          examples: [
+            { jp: '私は学生としてこの問題を考えます。', romaji: 'Watashi wa gakusei toshite kono mondai o kangaemasu.', de: 'Ich denke über dieses Problem als Student nach.' },
+            { jp: '私にとって家族が一番大切です。', romaji: 'Watashi ni totte kazoku ga ichiban taisetsu desu.', de: 'Für mich ist Familie am wichtigsten.' },
+          ],
+          tip: 'として beschreibt die Rolle, にとって die Perspektive oder Bewertung.'
+        },
+        {
+          heading: '～によって — je nach / durch',
+          text: '<strong>～によって</strong> kann Mittel, Ursache oder Unterschied je nach Fall ausdrücken. Auf N4 reicht es, die häufige Bedeutung „je nach ...“ und die instrumentelle Bedeutung sicher zu erkennen.',
+          examples: [
+            { jp: '人によって考え方が違います。', romaji: 'Hito ni yotte kangaekata ga chigaimasu.', de: 'Je nach Person unterscheidet sich die Denkweise.' },
+            { jp: 'この歌は多くの人によって愛されています。', romaji: 'Kono uta wa ōku no hito ni yotte aisarete imasu.', de: 'Dieses Lied wird von vielen Menschen geliebt.' },
+          ],
+          tip: '～によって ist vielseitig. Für N4 ist „je nach ...“ eine der wichtigsten Lesarten.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 136 =====================
+    {
+      id: 'lesson-136',
+      number: 136,
+      learningOrder: 12.75,
+      title: '～さえ・～こそ',
+      subtitle: 'Starke Betonung — sogar und gerade',
+      level: 'N4',
+      intro: 'Mit ～さえ und ～こそ lenkt man die Aufmerksamkeit sehr gezielt. Beide wirken klein, verändern aber die Aussage stark. Genau deshalb sind sie typische N4-Partikel mit großer Wirkung.',
+      sections: [
+        {
+          heading: '～さえ — sogar, selbst',
+          text: '<strong>～さえ</strong> bedeutet „sogar“ oder „selbst“. Es hebt etwas hervor, das normalerweise nicht erwartet würde. Dadurch bekommt der Satz oft eine Überraschungs- oder Grenznuance.',
+          examples: [
+            { jp: '子どもでさえ知っています。', romaji: 'Kodomo de sae shitte imasu.', de: 'Sogar Kinder wissen das.' },
+            { jp: '忙しくて、水さえ飲んでいません。', romaji: 'Isogashikute, mizu sae nonde imasen.', de: 'Ich bin so beschäftigt, dass ich nicht einmal Wasser getrunken habe.' },
+          ],
+          tip: '～さえ wird oft benutzt, um eine Untergrenze zu markieren: nicht einmal X.'
+        },
+        {
+          heading: '～こそ — gerade, genau',
+          text: '<strong>～こそ</strong> betont: gerade X, genau X. Es hebt ein Element besonders stark hervor und klingt oft überzeugter oder emotionaler als は oder が.',
+          examples: [
+            { jp: '今こそ勉強する時です。', romaji: 'Ima koso benkyō suru toki desu.', de: 'Jetzt gerade ist die Zeit zu lernen.' },
+            { jp: 'あなたこそ本当に親切です。', romaji: 'Anata koso hontō ni shinsetsu desu.', de: 'Gerade Sie sind wirklich freundlich.' },
+          ],
+          tip: '～こそ hebt positiv oder kontrastiv hervor. Es sagt nicht nur „dieses“, sondern „genau dieses“.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 137 =====================
+    {
+      id: 'lesson-137',
+      number: 137,
+      learningOrder: 15.25,
+      title: '命令形・～なさい',
+      subtitle: 'Starke Aufforderungen — Befehl und schulische Anweisung',
+      level: 'N4',
+      intro: 'Diese Formen sollte man auf N4 vor allem verstehen und situativ richtig einordnen. Sie sind viel stärker als höfliche Bitten und deshalb pragmatisch sensibel. Die Frage ist nicht nur, wie sie gebildet werden, sondern wann sie natürlich oder unhöflich wirken.',
+      sections: [
+        {
+          heading: '命令形 — direkter Befehl',
+          text: 'Die <strong>命令形</strong> ist eine direkte Befehlsform. Sie wirkt stark, oft hart, und wird vor allem in bestimmten sozialen Rollen, in Warnungen oder in emotionalen Situationen verwendet.',
+          examples: [
+            { jp: '早く来い。', romaji: 'Hayaku koi.', de: 'Komm schnell!' },
+            { jp: 'やめろ！', romaji: 'Yamero!', de: 'Hör auf!' },
+          ],
+          tip: 'Die Form sollte früh erkannt werden, auch wenn man sie selbst meist nicht aktiv verwenden sollte.'
+        },
+        {
+          heading: '～なさい — etwas weicher, aber immer noch autoritär',
+          text: '<strong>Verb-Stamm + なさい</strong> klingt weicher als der reine Imperativ, bleibt aber eine klare Anweisung. Typisch ist die Verwendung durch Eltern, Lehrer oder andere Personen in übergeordneter Position.',
+          examples: [
+            { jp: '早く寝なさい。', romaji: 'Hayaku nenasai.', de: 'Geh früh schlafen.' },
+            { jp: '教科書を開きなさい。', romaji: 'Kyōkasho o hirakinasai.', de: 'Schlagt das Lehrbuch auf.' },
+          ],
+          tip: '～なさい ist höflicher als die reine Befehlsform, aber nicht neutral. Es passt nur in bestimmte Hierarchien.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 138 =====================
+    {
+      id: 'lesson-138',
+      number: 138,
+      learningOrder: 10.5,
+      title: '～くする・～にする',
+      subtitle: 'Etwas verändern — etwas adjektivisch machen',
+      level: 'N4',
+      intro: 'Mit diesen beiden Strukturen beschreibt man, dass man etwas in einen anderen Zustand bringt. Sie bauen direkt auf den Adjektiven auf und sind für alltagsnahe Aussagen sehr praktisch: leiser machen, kürzer machen, sauber machen.',
+      sections: [
+        {
+          heading: '～くする und ～にする',
+          text: 'Bei い-Adjektiven nimmt man <strong>くする</strong>, bei な-Adjektiven und Nomen <strong>にする</strong>. Die Bedeutung ist: „etwas so machen, in diesen Zustand bringen“.',
+          examples: [
+            { jp: '音を小さくしてください。', romaji: 'Oto o chiisaku shite kudasai.', de: 'Bitte machen Sie den Ton leiser.' },
+            { jp: '部屋をきれいにしました。', romaji: 'Heya o kirei ni shimashita.', de: 'Ich habe das Zimmer sauber gemacht.' },
+            { jp: '会議の時間を三時にします。', romaji: 'Kaigi no jikan o sanji ni shimasu.', de: 'Wir legen die Besprechung auf drei Uhr fest.' },
+          ],
+          tip: 'Nicht verwechseln mit ～くなる / ～になる. する ist bewusstes Verändern, なる beschreibt eher eine Veränderung als Ergebnis.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 139 =====================
+    {
+      id: 'lesson-139',
+      number: 139,
+      learningOrder: 15.75,
+      title: '～ていただけませんか・～てくださいませんか',
+      subtitle: 'Sehr höfliche Bitten',
+      level: 'N4',
+      intro: 'Diese beiden Formen gehören zu den wichtigsten höflichen Bitten unterhalb der fortgeschrittenen Keigo-Welt. Sie bauen auf schon bekannten て-Formen auf, sind aber viel vorsichtiger und respektvoller als ～てください.',
+      sections: [
+        {
+          heading: '～ていただけませんか',
+          text: '<strong>て-Form + いただけませんか</strong> bedeutet sehr höflich „Könnten Sie bitte ...?“. Die Form drückt aus, dass der Sprecher die Handlung des anderen demütig erbeten möchte.',
+          examples: [
+            { jp: 'もう一度説明していただけませんか。', romaji: 'Mō ichido setsumei shite itadakemasen ka.', de: 'Könnten Sie es bitte noch einmal erklären?' },
+            { jp: 'ここに名前を書いていただけませんか。', romaji: 'Koko ni namae o kaite itadakemasen ka.', de: 'Könnten Sie bitte hier Ihren Namen schreiben?' },
+          ],
+          tip: 'いただく ist die demütige Perspektive von „bekommen“. Genau deshalb klingt die Bitte besonders höflich.'
+        },
+        {
+          heading: '～てくださいませんか',
+          text: '<strong>て-Form + くださいませんか</strong> ist ebenfalls sehr höflich und etwas klassischer oder formeller. Die Funktion ist fast dieselbe: eine respektvolle Bitte formulieren.',
+          examples: [
+            { jp: '少し待ってくださいませんか。', romaji: 'Sukoshi matte kudasaimasen ka.', de: 'Könnten Sie bitte einen Moment warten?' },
+            { jp: '住所を教えてくださいませんか。', romaji: 'Jūsho o oshiete kudasaimasen ka.', de: 'Könnten Sie mir bitte die Adresse sagen?' },
+          ],
+          tip: 'Beide Formen sind höflicher als ～てください. Für N4 ist wichtig, sie sicher zu erkennen und ungefähr stilistisch einzuordnen.'
+        }
+      ]
     }
   ];
+
+  // Render lessons by level progression (N5 -> N1) and didactic order, not file order.
+  // Future additions should set `learningOrder` within their level when they need a
+  // specific position; otherwise they fall back behind the curated order of that level.
+  var LEVEL_DISPLAY_ORDER = ['N5', 'N5/N4', 'N4', 'N4/N3', 'N3', 'N3/N2', 'N2', 'N2/N1', 'N1'];
+  var LEVEL_DISPLAY_INDEX = {};
+  LEVEL_DISPLAY_ORDER.forEach(function (level, index) {
+    LEVEL_DISPLAY_INDEX[level] = index;
+  });
+
+  var DIDACTIC_ORDER_BY_LEVEL = {
+    'N5': [
+      'lesson-3', 'lesson-1', 'lesson-2', 'lesson-103', 'lesson-104',
+      'lesson-81', 'lesson-82', 'lesson-4', 'lesson-7', 'lesson-6',
+      'lesson-5', 'lesson-91', 'lesson-88', 'lesson-83', 'lesson-84',
+      'lesson-85', 'lesson-86', 'lesson-95', 'lesson-96', 'lesson-87',
+      'lesson-92', 'lesson-93', 'lesson-94', 'lesson-89', 'lesson-90'
+    ],
+    'N5/N4': [
+      'lesson-8', 'lesson-9'
+    ],
+    'N4': [
+      'lesson-31', 'lesson-14', 'lesson-15', 'lesson-98', 'lesson-99',
+      'lesson-97', 'lesson-100', 'lesson-101', 'lesson-10', 'lesson-105',
+      'lesson-102', 'lesson-106', 'lesson-108', 'lesson-13', 'lesson-11',
+      'lesson-12', 'lesson-107'
+    ],
+    'N4/N3': [
+      'lesson-17', 'lesson-18', 'lesson-16', 'lesson-19', 'lesson-20'
+    ],
+    'N3': [
+      'lesson-112', 'lesson-111', 'lesson-115', 'lesson-22', 'lesson-24',
+      'lesson-21', 'lesson-35', 'lesson-33', 'lesson-34', 'lesson-118',
+      'lesson-109', 'lesson-110', 'lesson-25', 'lesson-23', 'lesson-32',
+      'lesson-117', 'lesson-36', 'lesson-114', 'lesson-37', 'lesson-116',
+      'lesson-119', 'lesson-38', 'lesson-113'
+    ]
+  };
+
+  var DIDACTIC_ORDER_INDEX = {};
+  Object.keys(DIDACTIC_ORDER_BY_LEVEL).forEach(function (level) {
+    DIDACTIC_ORDER_INDEX[level] = {};
+    DIDACTIC_ORDER_BY_LEVEL[level].forEach(function (lessonId, index) {
+      DIDACTIC_ORDER_INDEX[level][lessonId] = index;
+    });
+  });
+
+  LESSONS.forEach(function (lesson, index) {
+    lesson.originalNumber = lesson.number;
+    lesson._fileIndex = index;
+  });
+
+  LESSONS.sort(function (a, b) {
+    var aLevelIndex = Object.prototype.hasOwnProperty.call(LEVEL_DISPLAY_INDEX, a.level) ? LEVEL_DISPLAY_INDEX[a.level] : 999;
+    var bLevelIndex = Object.prototype.hasOwnProperty.call(LEVEL_DISPLAY_INDEX, b.level) ? LEVEL_DISPLAY_INDEX[b.level] : 999;
+    var levelDelta = aLevelIndex - bLevelIndex;
+    if (levelDelta !== 0) return levelDelta;
+
+    var aLevelOrder = DIDACTIC_ORDER_INDEX[a.level] || {};
+    var bLevelOrder = DIDACTIC_ORDER_INDEX[b.level] || {};
+    var aDidactic = typeof a.learningOrder === 'number' ? a.learningOrder : aLevelOrder[a.id];
+    var bDidactic = typeof b.learningOrder === 'number' ? b.learningOrder : bLevelOrder[b.id];
+
+    var aHasDidactic = typeof aDidactic === 'number';
+    var bHasDidactic = typeof bDidactic === 'number';
+    if (aHasDidactic && bHasDidactic && aDidactic !== bDidactic) return aDidactic - bDidactic;
+    if (aHasDidactic !== bHasDidactic) return aHasDidactic ? -1 : 1;
+
+    if (a.originalNumber !== b.originalNumber) return a.originalNumber - b.originalNumber;
+    return a._fileIndex - b._fileIndex;
+  });
+
+  LESSONS.forEach(function (lesson, index) {
+    lesson.number = index + 1;
+  });
 
   // =====================================================
   // === RENDERING & UI LOGIC ===
