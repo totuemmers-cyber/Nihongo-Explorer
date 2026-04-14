@@ -25398,23 +25398,6 @@ window.VOCAB_N1 = [
     ]
   },
   {
-    "word": "国語",
-    "reading": "こくご",
-    "romaji": "kokugo",
-    "pitch": 0,
-    "meaning": "Landessprache; Japanisch (als Fach)",
-    "type": "Nomen",
-    "level": "N1",
-    "category": "Sprache",
-    "examples": [
-      {
-        "japanese": "国語教育の在り方について議論が交わされた。",
-        "romaji": "Kokugo kyōiku no arikata ni tsuite giron ga kawasareta.",
-        "german": "Es wurde über die Gestaltung des Japanischunterrichts diskutiert."
-      }
-    ]
-  },
-  {
     "word": "国語学",
     "reading": "こくごがく",
     "romaji": "kokugogaku",

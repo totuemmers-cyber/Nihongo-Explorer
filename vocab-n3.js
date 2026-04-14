@@ -55015,5 +55015,154 @@ window.VOCAB_N3 = [
         "german": "Ich habe gehört, dass diese Firma in letzter Zeit sehr gut läuft."
       }
     ]
+  },
+  {
+    "word": "学者",
+    "reading": "がくしゃ",
+    "romaji": "gakusha",
+    "pitch": 0,
+    "meaning": "Gelehrter",
+    "type": "Nomen",
+    "level": "N3",
+    "category": "Wissenschaft",
+    "examples": [
+      {
+        "japanese": "父は心理学の学者です。",
+        "romaji": "Chichi wa shinrigaku no gakusha desu.",
+        "german": "Mein Vater ist ein Gelehrter der Psychologie."
+      },
+      {
+        "japanese": "あの人は有名な学者です。",
+        "romaji": "Ano hito wa yuumei na gakusha desu.",
+        "german": "Jene Person ist ein berühmter Gelehrter."
+      }
+    ]
+  },
+  {
+    "word": "角度",
+    "reading": "かくど",
+    "romaji": "kakudo",
+    "pitch": 1,
+    "meaning": "Winkel",
+    "type": "Nomen",
+    "level": "N3",
+    "category": "Wissenschaft",
+    "examples": [
+      {
+        "japanese": "正しい角度にするのに時間がかかりました。",
+        "romaji": "Tadashii kakudo ni suru no ni jikan ga kakarimashita.",
+        "german": "Es hat eine Weile gedauert, den richtigen Winkel einzustellen."
+      },
+      {
+        "japanese": "この角度から写真を撮りましょう。",
+        "romaji": "Kono kakudo kara shashin o torimashou.",
+        "german": "Lass uns ein Foto aus diesem Winkel machen."
+      }
+    ]
+  },
+  {
+    "word": "高度",
+    "reading": "こうど",
+    "romaji": "koudo",
+    "pitch": 1,
+    "meaning": "Höhe",
+    "type": "Nomen",
+    "level": "N3",
+    "category": "Geographie",
+    "examples": [
+      {
+        "japanese": "このUFOは、今、高度3万3000フィートのところにいる。",
+        "romaji": "Kono ufuo wa, ima, koudo 3 man 3000fyiito no tokoro ni iru.",
+        "german": "Dieses UFO befindet sich jetzt auf einer Höhe von 33.000 Fuß."
+      },
+      {
+        "japanese": "飛行機は高度一万メートルで飛んでいます。",
+        "romaji": "Hikouki wa koudo ichiman meetoru de tonde imasu.",
+        "german": "Das Flugzeug fliegt in einer Höhe von zehntausend Metern."
+      }
+    ]
+  },
+  {
+    "word": "直前",
+    "reading": "ちょくぜん",
+    "romaji": "chokuzen",
+    "pitch": 0,
+    "meaning": "kurz davor",
+    "type": "Nomen",
+    "level": "N3",
+    "category": "Zeit",
+    "examples": [
+      {
+        "japanese": "出発の直前に雨がふりだした。",
+        "romaji": "Shuppatsu no chokuzen ni ame ga furidashita.",
+        "german": "Kurz vor der Abfahrt fing es an zu regnen."
+      },
+      {
+        "japanese": "出発の直前に雨が降りました。",
+        "romaji": "Shuppatsu no chokuzen ni ame ga furimashita.",
+        "german": "Kurz vor der Abfahrt fing es an zu regnen."
+      }
+    ]
+  },
+  {
+    "word": "高級",
+    "reading": "こうきゅう",
+    "romaji": "koukyuu",
+    "pitch": 0,
+    "meaning": "hochwertig",
+    "type": "Adjektiv",
+    "level": "N3",
+    "category": "Eigenschaften",
+    "examples": [
+      {
+        "japanese": "こんな高級なプレゼントもらえません。",
+        "romaji": "Konna koukyuu na purezento moraemasen.",
+        "german": "Ich kann ein so hochwertiges Geschenk nicht annehmen."
+      },
+      {
+        "japanese": "高級な料理を食べました。",
+        "romaji": "Koukyuu na ryouri o tabemashita.",
+        "german": "Ich habe ein hochwertiges Essen genossen."
+      }
+    ]
+  },
+  {
+    "word": "高等",
+    "reading": "こうとう",
+    "romaji": "koutou",
+    "pitch": 0,
+    "meaning": "höher",
+    "type": "Adjektiv",
+    "level": "N3",
+    "category": "Bildung",
+    "examples": [
+      {
+        "japanese": "あなたの国の高等教育について教えてください。",
+        "romaji": "Anata no kuni no koutou kyouiku nitsuite oshiete kudasai.",
+        "german": "Erzählen Sie mir bitte über die höhere Bildung in Ihrem Land."
+      },
+      {
+        "japanese": "高等教育を受けました。",
+        "romaji": "Koutou kyouiku o ukemashita.",
+        "german": "Ich habe höhere Bildung genossen."
+      }
+    ]
+  },
+  {
+    "word": "国語",
+    "reading": "こくご",
+    "romaji": "kokugo",
+    "pitch": 0,
+    "meaning": "Landessprache; Japanisch (als Fach)",
+    "type": "Nomen",
+    "level": "N3",
+    "category": "Sprache",
+    "examples": [
+      {
+        "japanese": "国語教育の在り方について議論が交わされた。",
+        "romaji": "Kokugo kyōiku no arikata ni tsuite giron ga kawasareta.",
+        "german": "Es wurde über die Gestaltung des Japanischunterrichts diskutiert."
+      }
+    ]
   }
 ];

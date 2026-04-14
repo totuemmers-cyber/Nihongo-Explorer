@@ -25344,28 +25344,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "学者",
-    "reading": "がくしゃ",
-    "romaji": "gakusha",
-    "pitch": 0,
-    "meaning": "Gelehrter",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Wissenschaft",
-    "examples": [
-      {
-        "japanese": "父は心理学の学者です。",
-        "romaji": "Chichi wa shinrigaku no gakusha desu.",
-        "german": "Mein Vater ist ein Gelehrter der Psychologie."
-      },
-      {
-        "japanese": "あの人は有名な学者です。",
-        "romaji": "Ano hito wa yuumei na gakusha desu.",
-        "german": "Jene Person ist ein berühmter Gelehrter."
-      }
-    ]
-  },
-  {
     "word": "工学者",
     "reading": "こうがくしゃ",
     "romaji": "kougakusha",
@@ -26814,28 +26792,6 @@ window.VOCAB_N5 = [
         "japanese": "毎度ありがとうございます。",
         "romaji": "Maido arigatou gozaimasu.",
         "german": "Vielen Dank jedes Mal."
-      }
-    ]
-  },
-  {
-    "word": "角度",
-    "reading": "かくど",
-    "romaji": "kakudo",
-    "pitch": 1,
-    "meaning": "Winkel",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Wissenschaft",
-    "examples": [
-      {
-        "japanese": "正しい角度にするのに時間がかかりました。",
-        "romaji": "Tadashii kakudo ni suru no ni jikan ga kakarimashita.",
-        "german": "Es hat eine Weile gedauert, den richtigen Winkel einzustellen."
-      },
-      {
-        "japanese": "この角度から写真を撮りましょう。",
-        "romaji": "Kono kakudo kara shashin o torimashou.",
-        "german": "Lass uns ein Foto aus diesem Winkel machen."
       }
     ]
   },
@@ -28446,28 +28402,6 @@ window.VOCAB_N5 = [
     ]
   },
   {
-    "word": "線路",
-    "reading": "せんろ",
-    "romaji": "senro",
-    "pitch": 1,
-    "meaning": "Gleis",
-    "type": "Nomen",
-    "level": "N5",
-    "category": "Verkehr",
-    "examples": [
-      {
-        "japanese": "線路には、何があっても入らないで下さい。",
-        "romaji": "Senro ni wa, nani ga atte mo hairanaide kudasai.",
-        "german": "Betreten Sie auf keinen Fall die Gleise."
-      },
-      {
-        "japanese": "線路の近くに住んでいます。",
-        "romaji": "Senro no chikaku ni sunde imasu.",
-        "german": "Ich wohne in der Nähe der Gleise."
-      }
-    ]
-  },
-  {
     "word": "農民",
     "reading": "のうみん",
     "romaji": "noumin",
@@ -29454,50 +29388,6 @@ window.VOCAB_N5 = [
         "japanese": "山道を歩くのは楽しいです。",
         "romaji": "Yamamichi o aruku no wa tanoshii desu.",
         "german": "Auf dem Bergweg zu wandern macht Spaß."
-      }
-    ]
-  },
-  {
-    "word": "高度",
-    "reading": "こうど",
-    "romaji": "koudo",
-    "pitch": 1,
-    "meaning": "Höhe",
-    "type": "Adjektiv",
-    "level": "N5",
-    "category": "Geographie",
-    "examples": [
-      {
-        "japanese": "このUFOは、今、高度3万3000フィートのところにいる。",
-        "romaji": "Kono ufuo wa, ima, koudo 3 man 3000fyiito no tokoro ni iru.",
-        "german": "Dieses UFO befindet sich jetzt auf einer Höhe von 33.000 Fuß."
-      },
-      {
-        "japanese": "飛行機は高度一万メートルで飛んでいます。",
-        "romaji": "Hikouki wa koudo ichiman meetoru de tonde imasu.",
-        "german": "Das Flugzeug fliegt in einer Höhe von zehntausend Metern."
-      }
-    ]
-  },
-  {
-    "word": "回答",
-    "reading": "かいとう",
-    "romaji": "kaitou",
-    "pitch": 0,
-    "meaning": "Antwort",
-    "type": "Verb",
-    "level": "N5",
-    "category": "Kommunikation",
-    "examples": [
-      {
-        "japanese": "こちらに回答を入力してください。",
-        "romaji": "Kochira ni kaitou o nyuuryoku shite kudasai.",
-        "german": "Bitte geben Sie hier Ihre Antwort ein."
-      },
-      {
-        "japanese": "アンケートに回答してください。",
-        "romaji": "Ankeeto ni kaitou shite kudasai.",
-        "german": "Bitte beantworten Sie die Umfrage."
       }
     ]
   },
