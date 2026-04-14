@@ -12,6 +12,14 @@ var _kanjiByChar = null;
 var _radicalSet = null;
 var _kanjiByRadical = null;
 
+function getAppConstants() {
+  return window.NIHONGO_CONSTANTS || {
+    VOCAB_TYPES: ['Nomen', 'Verb', 'Adjektiv', 'Adverb', 'Ausdruck', 'Partikel', 'Yojijukugo', 'Redewendung', 'Sprichwort'],
+    COUNTER_CATEGORIES: ['Menschen', 'Objekte', 'Tiere', 'Zeit', 'Essen & Trinken', 'Gebäude & Räume', 'Transport', 'Sprache & Schrift', 'Gruppen & Mengen', 'Ereignisse', 'Natur', 'Medizin'],
+    CANONICAL_RADICAL_COUNT: 214
+  };
+}
+
 function getKanjiByChar() {
   if (!_kanjiByChar) {
     _kanjiByChar = {};
@@ -36,13 +44,10 @@ function getKanjiByRadical() {
     var items = window.app && window.app.sections.kanji ? window.app.sections.kanji.allItems : [];
     for (var i = 0; i < items.length; i++) {
       var k = items[i];
-      if (k.components) {
-        for (var j = 0; j < k.components.length; j++) {
-          var rad = k.components[j].radical;
-          if (!_kanjiByRadical[rad]) _kanjiByRadical[rad] = [];
-          _kanjiByRadical[rad].push(k);
-        }
-      }
+      var primary = window.getPrimaryKanjiRadical ? window.getPrimaryKanjiRadical(k) : null;
+      if (!primary) continue;
+      if (!_kanjiByRadical[primary.radical]) _kanjiByRadical[primary.radical] = [];
+      _kanjiByRadical[primary.radical].push(k);
     }
   }
   return _kanjiByRadical;
@@ -279,8 +284,31 @@ function initBookmarkToggles() {
 }
 
 // Wire select-based filters (vocab type dropdown, counter category dropdown)
+function populateManagedSelect(select, values, allLabel) {
+  if (!select) return;
+
+  var currentValue = select.value || 'all';
+  select.innerHTML = '';
+
+  var allOption = document.createElement('option');
+  allOption.value = 'all';
+  allOption.textContent = allLabel;
+  select.appendChild(allOption);
+
+  for (var i = 0; i < values.length; i++) {
+    var option = document.createElement('option');
+    option.value = values[i];
+    option.textContent = values[i];
+    select.appendChild(option);
+  }
+
+  select.value = values.indexOf(currentValue) !== -1 ? currentValue : 'all';
+}
+
 function initSelectFilters() {
+  var constants = getAppConstants();
   var vocabTypeSelect = document.getElementById('vocab-type-select');
+  populateManagedSelect(vocabTypeSelect, constants.VOCAB_TYPES, 'Alle Wortarten');
   if (vocabTypeSelect) {
     vocabTypeSelect.addEventListener('change', function () {
       if (window.app && window.app.sections.vocab) {
@@ -290,6 +318,7 @@ function initSelectFilters() {
     });
   }
   var counterCatSelect = document.getElementById('counter-cat-select');
+  populateManagedSelect(counterCatSelect, constants.COUNTER_CATEGORIES, 'Alle Kategorien');
   if (counterCatSelect) {
     counterCatSelect.addEventListener('change', function () {
       if (window.app && window.app.sections.counters) {
@@ -785,7 +814,9 @@ SECTION_CONFIGS.vocab = {
   },
 
   sortFn: function (items, sortKey) {
-    var typeOrder = { 'Nomen': 0, 'Verb': 1, 'Adjektiv': 2, 'Adverb': 3, 'Partikel': 4, 'Ausdruck': 5, 'Yojijukugo': 6, 'Redewendung': 7, 'Sprichwort': 8 };
+    var types = getAppConstants().VOCAB_TYPES;
+    var typeOrder = {};
+    for (var i = 0; i < types.length; i++) typeOrder[types[i]] = i;
     items.sort(function (a, b) {
       if (sortKey === 'level') {
         var la = LEVEL_ORDER[a.level] !== undefined ? LEVEL_ORDER[a.level] : 9;
@@ -1188,7 +1219,7 @@ SECTION_CONFIGS.radicals = {
 
   openDetail: function (r, dom, section) {
     document.getElementById('radical-detail-char').textContent = r.radical;
-    document.getElementById('radical-detail-number').textContent = '#' + r.number + ' von 214';
+    document.getElementById('radical-detail-number').textContent = '#' + r.number + ' von ' + getAppConstants().CANONICAL_RADICAL_COUNT;
     document.getElementById('radical-detail-meaning').textContent = r.meaning;
     document.getElementById('radical-detail-reading').innerHTML =
       r.reading + '<span class="romaji"> (' + r.romaji + ')</span>';
