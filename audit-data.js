@@ -19,6 +19,7 @@ const FILES = [
   'counters-data.js',
   'kangxi-radicals-data.js',
   'conjugation.js',
+  'vocab-correction-rules.js',
   'vocab-corrections.js'
 ];
 
@@ -219,15 +220,41 @@ const verbs = vocab.filter(function (item) {
   return item.type === 'Verb' && item.reading;
 });
 
-const unresolvedVerbs = verbs.filter(function (item) {
-  return !ctx.resolveVocabVerbConjugation(item);
-}).map(function (item) {
-  return {
+const directVerbResolutions = [];
+const normalizedVerbResolutions = [];
+const unresolvedVerbs = [];
+
+verbs.forEach(function (item) {
+  const directResult = ctx.conjugateVerb(item.reading);
+  const resolved = ctx.resolveVocabVerbConjugation(item);
+
+  if (directResult) {
+    directVerbResolutions.push({
+      word: item.word,
+      reading: item.reading,
+      level: item.level,
+      meaning: item.meaning
+    });
+    return;
+  }
+
+  if (resolved) {
+    normalizedVerbResolutions.push({
+      word: item.word,
+      reading: item.reading,
+      normalizedReading: resolved.reading,
+      level: item.level,
+      meaning: item.meaning
+    });
+    return;
+  }
+
+  unresolvedVerbs.push({
     word: item.word,
     reading: item.reading,
     level: item.level,
     meaning: item.meaning
-  };
+  });
 });
 
 const malformed = []
@@ -278,6 +305,12 @@ const report = {
     onomatopoeia: onomatopoeia.length,
     counters: counters.length,
     verbs: verbs.length
+  },
+  verbResolution: {
+    direct: directVerbResolutions.length,
+    normalized: normalizedVerbResolutions.length,
+    unresolved: unresolvedVerbs.length,
+    normalizedSample: normalizedVerbResolutions.slice(0, 25)
   },
   duplicates: {
     kanji: findSameSourceDuplicates(kanji, function (item) { return item.kanji; }),

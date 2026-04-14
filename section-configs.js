@@ -147,14 +147,26 @@ function compareVocabSearchItems(a, b) {
   return a.word.localeCompare(b.word, 'ja');
 }
 
+function appendElement(parent, tagName, className, text) {
+  var el = document.createElement(tagName);
+  if (className) el.className = className;
+  if (text !== undefined && text !== null) el.textContent = text;
+  parent.appendChild(el);
+  return el;
+}
+
 // === Shared Card & Detail Utilities ===
 
-function createBaseCard(className, innerHTML, index, section, itemId) {
+function createBaseCard(className, content, index, section, itemId) {
   var card = document.createElement('div');
   card.className = className;
   card.tabIndex = 0;
   card.setAttribute('role', 'button');
-  card.innerHTML = innerHTML;
+  if (typeof content === 'function') {
+    content(card);
+  } else if (content) {
+    card.innerHTML = content;
+  }
   function activate() {
     if (window.app) window.app.playTick();
     section.openDetail(index);
@@ -394,16 +406,17 @@ function initSelectFilters() {
 
 function renderExamplesOrEmpty(elementId, examples) {
   var el = document.getElementById(elementId);
+  el.textContent = '';
   if (examples && examples.length > 0) {
-    el.innerHTML = examples.map(function (ex) {
-      return '<div class="grammar-example-item">' +
-        '<div class="grammar-example-jp">' + ex.japanese + '</div>' +
-        '<div class="grammar-example-romaji">' + ex.romaji + '</div>' +
-        '<div class="grammar-example-german">' + ex.german + '</div>' +
-      '</div>';
-    }).join('');
+    for (var i = 0; i < examples.length; i++) {
+      var ex = examples[i];
+      var item = appendElement(el, 'div', 'grammar-example-item');
+      appendElement(item, 'div', 'grammar-example-jp', ex.japanese);
+      appendElement(item, 'div', 'grammar-example-romaji', ex.romaji);
+      appendElement(item, 'div', 'grammar-example-german', ex.german);
+    }
   } else {
-    el.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
+    appendElement(el, 'div', 'no-reading', 'Keine Beispiele');
   }
 }
 
@@ -418,12 +431,15 @@ function toggleNotes(sectionId, notesId, text) {
   }
 }
 
-function renderKanjiTags(kanjiItems) {
-  return kanjiItems.map(function (k) {
-    return '<span class="component-tag" data-kanji="' + k.kanji + '">' +
-      '<span class="comp-radical">' + k.kanji + '</span>' +
-      '<span class="comp-meaning">' + k.meanings[0] + '</span></span>';
-  }).join('');
+function renderKanjiTags(container, kanjiItems) {
+  container.textContent = '';
+  for (var i = 0; i < kanjiItems.length; i++) {
+    var k = kanjiItems[i];
+    var tag = appendElement(container, 'span', 'component-tag');
+    tag.setAttribute('data-kanji', k.kanji);
+    appendElement(tag, 'span', 'comp-radical', k.kanji);
+    appendElement(tag, 'span', 'comp-meaning', k.meanings[0]);
+  }
 }
 
 function navigateToKanji(targetKanji, currentSection) {
@@ -483,7 +499,7 @@ SECTION_CONFIGS.kanji = {
   countLabel: ' Kanji',
   defaultSort: 'jlpt',
   batchSize: 80,
-  searchResultLimit: 8,
+  searchResultLimit: 24,
 
   filterFn: function (k, query, filters, section) {
     if (filters.bookmarks === 'starred' && !isBookmarked('kanji', k.kanji)) return false;
@@ -554,11 +570,11 @@ SECTION_CONFIGS.kanji = {
   },
 
   createCard: function (k, index, section) {
-    return createBaseCard('kanji-card',
-      '<span class="card-level ' + k.jlpt + '">' + k.jlpt + '</span>' +
-      '<span class="card-kanji">' + k.kanji + '</span>' +
-      '<span class="card-meaning">' + k.meanings[0] + '</span>',
-      index, section, k.kanji);
+    return createBaseCard('kanji-card', function (card) {
+      appendElement(card, 'span', 'card-level ' + k.jlpt, k.jlpt);
+      appendElement(card, 'span', 'card-kanji', k.kanji);
+      appendElement(card, 'span', 'card-meaning', k.meanings[0]);
+    }, index, section, k.kanji);
   },
 
   openDetail: function (k, dom, section) {
@@ -777,17 +793,15 @@ SECTION_CONFIGS.grammar = {
       exampleText = g.examples[0].japanese;
     }
 
-    var card = createBaseCard('grammar-card',
-      '<div class="grammar-card-header">' +
-        '<span class="grammar-card-pattern">' + g.pattern + '</span>' +
-        '<div class="grammar-card-badges">' +
-          '<span class="card-level ' + g.level + '">' + g.level + '</span>' +
-          '<span class="grammar-card-category ' + g.category + '">' + g.category + '</span>' +
-        '</div>' +
-      '</div>' +
-      '<div class="grammar-card-meaning">' + g.meaning + '</div>' +
-      (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : ''),
-      index, section, g.id);
+    var card = createBaseCard('grammar-card', function (root) {
+      var header = appendElement(root, 'div', 'grammar-card-header');
+      appendElement(header, 'span', 'grammar-card-pattern', g.pattern);
+      var badges = appendElement(header, 'div', 'grammar-card-badges');
+      appendElement(badges, 'span', 'card-level ' + g.level, g.level);
+      appendElement(badges, 'span', 'grammar-card-category ' + g.category, g.category);
+      appendElement(root, 'div', 'grammar-card-meaning', g.meaning);
+      if (exampleText) appendElement(root, 'div', 'grammar-card-example', exampleText);
+    }, index, section, g.id);
     return card;
   },
 
@@ -882,7 +896,7 @@ SECTION_CONFIGS.vocab = {
   countLabel: ' Vokabeln',
   defaultSort: 'level',
   batchSize: 100,
-  searchResultLimit: 8,
+  searchResultLimit: 32,
 
   filterFn: function (v, query, filters) {
     if (filters.bookmarks === 'starred' && !isBookmarked('vocab', getItemId(v, v.word + '|' + (v.reading || '')))) return false;
@@ -961,17 +975,20 @@ SECTION_CONFIGS.vocab = {
   },
 
   createCard: function (v, index, section) {
-    return createBaseCard('vocab-card',
-      '<div class="vocab-card-header">' +
-        '<span class="vocab-card-word">' + v.word + '</span>' +
-        '<div class="vocab-card-badges">' +
-          '<span class="card-level ' + v.level + '">' + v.level + '</span>' +
-          '<span class="vocab-type-badge ' + v.type + '">' + v.type + '</span>' +
-        '</div>' +
-      '</div>' +
-      '<div class="vocab-card-reading">' + (v.reading || '') + renderPitchBadge(v.reading || '', v.pitch) + '</div>' +
-      '<div class="vocab-card-meaning">' + v.meaning + '</div>',
-      index, section, getItemId(v, v.word + '|' + (v.reading || '')));
+    return createBaseCard('vocab-card', function (root) {
+      var header = appendElement(root, 'div', 'vocab-card-header');
+      appendElement(header, 'span', 'vocab-card-word', v.word);
+      var badges = appendElement(header, 'div', 'vocab-card-badges');
+      appendElement(badges, 'span', 'card-level ' + v.level, v.level);
+      appendElement(badges, 'span', 'vocab-type-badge ' + v.type, v.type);
+
+      var reading = appendElement(root, 'div', 'vocab-card-reading', v.reading || '');
+      if (v.pitch !== undefined && v.pitch !== null && v.pitch >= 0) {
+        appendElement(reading, 'span', 'pitch-badge', getPitchLabel(v.pitch, getPitchMorae(v.reading || '').length));
+      }
+
+      appendElement(root, 'div', 'vocab-card-meaning', v.meaning);
+    }, index, section, getItemId(v, v.word + '|' + (v.reading || '')));
   },
 
   openDetail: function (v, dom, section) {
@@ -1018,7 +1035,7 @@ SECTION_CONFIGS.vocab = {
     }
 
     if (kanjiChars.length > 0) {
-      kanjiLinksEl.innerHTML = renderKanjiTags(kanjiChars);
+      renderKanjiTags(kanjiLinksEl, kanjiChars);
       attachKanjiNavigation(kanjiLinksEl, section);
       kanjiSection.classList.remove('hidden');
     } else if (window.app && window.app.sections.kanji && !window.app.sections.kanji.isLoaded) {
@@ -1191,15 +1208,22 @@ SECTION_CONFIGS.counters = {
       previewHtml = '<div class="counter-card-preview">' + previews.join('') + '</div>';
     }
 
-    return createBaseCard('counter-card',
-      '<div class="counter-card-header">' +
-        '<span class="counter-card-kanji">' + c.kanji + '</span>' +
-        '<span class="counter-card-badge ' + c.category + '">' + c.category + '</span>' +
-      '</div>' +
-      '<div class="counter-card-reading">' + c.reading + ' (' + c.romaji + ')</div>' +
-      '<div class="counter-card-meaning">' + c.meaning + '</div>' +
-      previewHtml,
-      index, section, c.id);
+    return createBaseCard('counter-card', function (root) {
+      var header = appendElement(root, 'div', 'counter-card-header');
+      appendElement(header, 'span', 'counter-card-kanji', c.kanji);
+      appendElement(header, 'span', 'counter-card-badge ' + c.category, c.category);
+      appendElement(root, 'div', 'counter-card-reading', c.reading + ' (' + c.romaji + ')');
+      appendElement(root, 'div', 'counter-card-meaning', c.meaning);
+
+      if (c.counts) {
+        var preview = appendElement(root, 'div', 'counter-card-preview');
+        var previews = c.counts.slice(0, 5);
+        for (var i = 0; i < previews.length; i++) {
+          var cls = previews[i].shift ? 'counter-card-preview-item has-shift' : 'counter-card-preview-item';
+          appendElement(preview, 'span', cls, previews[i].kanji);
+        }
+      }
+    }, index, section, c.id);
   },
 
   openDetail: function (c, dom, section) {
@@ -1326,13 +1350,13 @@ SECTION_CONFIGS.radicals = {
   sortFn: null,
 
   createCard: function (r, index, section) {
-    return createBaseCard('radical-card',
-      '<span class="radical-card-number">#' + r.number + '</span>' +
-      '<span class="radical-card-strokes">' + r.strokes + '\u753B</span>' +
-      '<span class="radical-card-char">' + r.radical + '</span>' +
-      '<span class="radical-card-meaning">' + r.meaning + '</span>' +
-      '<span class="radical-card-reading">' + r.reading + '</span>',
-      index, section, '' + r.number);
+    return createBaseCard('radical-card', function (card) {
+      appendElement(card, 'span', 'radical-card-number', '#' + r.number);
+      appendElement(card, 'span', 'radical-card-strokes', r.strokes + '\u753B');
+      appendElement(card, 'span', 'radical-card-char', r.radical);
+      appendElement(card, 'span', 'radical-card-meaning', r.meaning);
+      appendElement(card, 'span', 'radical-card-reading', r.reading);
+    }, index, section, '' + r.number);
   },
 
   openDetail: function (r, dom, section) {
@@ -1357,7 +1381,7 @@ SECTION_CONFIGS.radicals = {
     var matchingKanji = getKanjiByRadical()[r.radical] || [];
 
     if (matchingKanji.length > 0) {
-      kanjiList.innerHTML = renderKanjiTags(matchingKanji);
+      renderKanjiTags(kanjiList, matchingKanji);
       attachKanjiNavigation(kanjiList, section);
     } else if (window.app && window.app.sections.kanji && !window.app.sections.kanji.isLoaded) {
       kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Kanji werden geladen...</span>';
@@ -1458,17 +1482,20 @@ SECTION_CONFIGS.onomatopoeia = {
   },
 
   createCard: function (o, index, section) {
-    return createBaseCard('ono-card',
-      '<div class="ono-card-header">' +
-        '<span class="ono-card-word">' + o.word + '</span>' +
-        '<div class="ono-card-badges">' +
-          '<span class="ono-category-badge ' + o.category + '">' + o.category + '</span>' +
-          (o.pattern ? '<span class="ono-pattern-badge-sm">' + o.pattern + '</span>' : '') +
-        '</div>' +
-      '</div>' +
-      '<div class="ono-card-reading">' + (o.reading || '') + renderPitchBadge(o.reading || '', o.pitch) + '</div>' +
-      '<div class="ono-card-meaning">' + o.meaning + '</div>',
-      index, section, getItemId(o, o.word));
+    return createBaseCard('ono-card', function (root) {
+      var header = appendElement(root, 'div', 'ono-card-header');
+      appendElement(header, 'span', 'ono-card-word', o.word);
+      var badges = appendElement(header, 'div', 'ono-card-badges');
+      appendElement(badges, 'span', 'ono-category-badge ' + o.category, o.category);
+      if (o.pattern) appendElement(badges, 'span', 'ono-pattern-badge-sm', o.pattern);
+
+      var reading = appendElement(root, 'div', 'ono-card-reading', o.reading || '');
+      if (o.pitch !== undefined && o.pitch !== null && o.pitch >= 0) {
+        appendElement(reading, 'span', 'pitch-badge', getPitchLabel(o.pitch, getPitchMorae(o.reading || '').length));
+      }
+
+      appendElement(root, 'div', 'ono-card-meaning', o.meaning);
+    }, index, section, getItemId(o, o.word));
   },
 
   openDetail: function (o, dom, section) {
