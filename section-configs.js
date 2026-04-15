@@ -1001,7 +1001,7 @@ SECTION_CONFIGS.vocab = {
     typeBadge.className = 'vocab-type-badge ' + v.type;
 
     // Speak button
-    createSpeakButton('.vocab-detail-header', v.word);
+    createSpeakButton('.vocab-detail-header', v.reading || v.word);
     createDetailBookmark('.vocab-detail-header', 'vocab', getItemId(v, v.word + '|' + (v.reading || '')));
 
     document.getElementById('vocab-detail-reading').textContent = v.reading || '';
