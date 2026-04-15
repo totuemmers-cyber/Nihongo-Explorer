@@ -5984,8 +5984,8 @@
   var DIDACTIC_ORDER_BY_LEVEL = {
     'N5': [
       'lesson-3', 'lesson-1', 'lesson-2', 'lesson-103', 'lesson-104',
-      'lesson-81', 'lesson-82', 'lesson-4', 'lesson-7', 'lesson-6',
-      'lesson-5', 'lesson-91', 'lesson-88', 'lesson-83', 'lesson-84',
+      'lesson-81', 'lesson-82', 'lesson-4', 'lesson-5', 'lesson-6',
+      'lesson-7', 'lesson-88', 'lesson-91', 'lesson-83', 'lesson-84',
       'lesson-85', 'lesson-86', 'lesson-95', 'lesson-96', 'lesson-87',
       'lesson-92', 'lesson-93', 'lesson-94', 'lesson-89', 'lesson-90'
     ],
