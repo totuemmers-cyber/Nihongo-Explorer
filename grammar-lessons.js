@@ -5970,6 +5970,213 @@
         }
       ]
     }
+    ,
+
+    // ===================== LEKTION 150 =====================
+    {
+      id: 'lesson-150',
+      number: 150,
+      learningOrder: 3,
+      title: 'こと vs の',
+      subtitle: 'Zwei Arten zu nominalisieren',
+      level: 'N5/N4',
+      intro: 'Sehr viele N5- und N4-Muster verwenden こと oder の, ohne dass frueh einmal systematisch erklaert wird, warum mal das eine und mal das andere steht. Genau deshalb ist diese Lektion wichtig: こと wirkt meist abstrakter und allgemeiner, の oft konkreter, unmittelbarer oder staerker an eine beobachtete Handlung gebunden.',
+      sections: [
+        {
+          heading: 'Die Grundidee',
+          text: '<strong>こと</strong> und <strong>の</strong> machen aus einer Handlung oder einem ganzen Satz etwas nomenaehnliches. So kann man ueber „das Tun“, „die Tatsache, dass ...“ oder „das Ereignis“ sprechen. Der Unterschied ist nicht absolut, aber als N5/N4-Regel hilft: こと klingt abstrakter, の konkreter und naeher an einer realen Szene.',
+          examples: [
+            { jp: '日本語を勉強することは大切です。', romaji: 'Nihongo o benkyo suru koto wa taisetsu desu.', de: 'Japanisch zu lernen ist wichtig.' },
+            { jp: '子どもが外で遊ぶのを見るのが好きです。', romaji: 'Kodomo ga soto de asobu no o miru no ga suki desu.', de: 'Ich sehe Kindern gern beim Draussenspielen zu.' }
+          ],
+          tip: 'Merksatz fuer den Einstieg: こと = eher „die Sache / das Tun“, の = eher „das konkrete Geschehen vor Augen“.'
+        },
+        {
+          heading: 'Wann こと besonders natuerlich ist',
+          text: '<strong>こと</strong> passt oft, wenn etwas allgemein, abstrakt oder regelhaft klingt. Deshalb begegnet es sehr haeufig in Mustern wie ことができる, ことにする, ことになる oder たことがある. Dort geht es weniger um eine konkret beobachtete Szene als um Faehigkeit, Erfahrung, Entscheidung oder Regel.',
+          examples: [
+            { jp: '漢字を読むことができます。', romaji: 'Kanji o yomu koto ga dekimasu.', de: 'Ich kann Kanji lesen.' },
+            { jp: '日本へ行ったことがあります。', romaji: 'Nihon e itta koto ga arimasu.', de: 'Ich war schon einmal in Japan.' },
+            { jp: '毎朝走ることにしています。', romaji: 'Maiasa hashiru koto ni shite imasu.', de: 'Ich mache es mir zur Regel, jeden Morgen zu laufen.' }
+          ],
+          tip: 'Wenn die Form schon als festes Grammatikmuster gelernt wird, ist oft automatisch こと vorgesehen.'
+        },
+        {
+          heading: 'Wann の besonders natuerlich ist',
+          text: '<strong>の</strong> klingt oft natuerlicher, wenn eine Handlung als konkrete, wahrnehmbare Sache bewertet, beobachtet oder emotional kommentiert wird. Deshalb steht es sehr haeufig bei 好き, 上手, 下手, 見る, 聞く oder in Fokusmustern wie のは～です.',
+          examples: [
+            { jp: '音楽を聞くのが好きです。', romaji: 'Ongaku o kiku no ga suki desu.', de: 'Ich hoere gern Musik.' },
+            { jp: '彼が走っているのを見ました。', romaji: 'Kare ga hashitte iru no o mimashita.', de: 'Ich habe gesehen, wie er lief.' },
+            { jp: '難しいのは発音です。', romaji: 'Muzukashii no wa hatsuon desu.', de: 'Das Schwierige ist die Aussprache.' }
+          ],
+          tip: 'Wenn du innerlich „die Szene“ oder „das, was ich sehe/hoere“ mitdenkst, ist の oft die bessere Wahl.'
+        },
+        {
+          heading: 'Typische Lernpaare',
+          text: 'Deutschsprachige Lernende stolpern oft ueber Paare, die aehnlich aussehen, aber nicht gleich funktionieren. <strong>～のが好き</strong> ist ein sehr haeufiges Muster. <strong>～ことが好き</strong> klingt in vielen Standardsituationen schwerer oder unnatuerlicher. Umgekehrt ist bei ことができる fast immer こと zu erwarten.',
+          examples: [
+            { jp: '本を読むのが好きです。', romaji: 'Hon o yomu no ga suki desu.', de: 'Ich lese gern Buecher.' },
+            { jp: '本を読むことができます。', romaji: 'Hon o yomu koto ga dekimasu.', de: 'Ich kann Buecher lesen.' },
+            { jp: '説明することはできますが、上手に話すのは難しいです。', romaji: 'Setsumei suru koto wa dekimasu ga, jozu ni hanasu no wa muzukashii desu.', de: 'Ich kann es erklaeren, aber fluessig zu sprechen ist schwierig.' }
+          ],
+          tip: 'Die Frage ist oft nicht „welches Wort heisst was?“, sondern „welche Art von Inhalt wird nominalisiert: Faehigkeit/Regel oder konkrete Handlung?“'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 151 =====================
+    {
+      id: 'lesson-151',
+      number: 151,
+      learningOrder: 13.1,
+      title: '～てあげる・～てくれる・～てもらう',
+      subtitle: 'Gefallen tun und Perspektive zeigen',
+      level: 'N4',
+      intro: 'Diese drei Muster gehoeren zu den wichtigsten sozial-perspektivischen Strukturen im Japanischen. Sie sagen nicht nur, dass eine Handlung passiert, sondern auch, wer wem den Gefallen tut und aus wessen Sicht die Situation erzaehlt wird. Genau das macht sie zu mehr als einer Wiederholung von あげる・くれる・もらう.',
+      sections: [
+        {
+          heading: '～てあげる — ich tue jemandem den Gefallen',
+          text: '<strong>て-Form + あげる</strong> bedeutet, dass der Sprecher oder eine andere Person jemandem eine Handlung als Gefallen zukommen laesst. Der Blick geht also vom Handelnden weg zur anderen Person.',
+          examples: [
+            { jp: '友だちに宿題を手伝ってあげました。', romaji: 'Tomodachi ni shukudai o tetsudatte agemashita.', de: 'Ich habe meinem Freund bei den Hausaufgaben geholfen.' },
+            { jp: '妹に漢字を教えてあげる。', romaji: 'Imoto ni kanji o oshiete ageru.', de: 'Ich erklaere meiner kleinen Schwester die Kanji.' }
+          ],
+          tip: '～てあげる klingt nicht immer neutral. Je nach Kontext kann mitschwingen, dass man sich selbst als Wohltäter darstellt.'
+        },
+        {
+          heading: '～てくれる — jemand tut mir oder meiner Gruppe etwas',
+          text: '<strong>て-Form + くれる</strong> bedeutet, dass jemand dem Sprecher oder seiner nahen Gruppe etwas Gutes tut. Genau deshalb steckt oft Dankbarkeit oder positive Wertung mit drin. Diese Perspektive ist im Alltag extrem wichtig.',
+          examples: [
+            { jp: '友だちが駅まで送ってくれました。', romaji: 'Tomodachi ga eki made okutte kuremashita.', de: 'Ein Freund hat mich bis zum Bahnhof gebracht.' },
+            { jp: '先生が丁寧に説明してくれました。', romaji: 'Sensei ga teinei ni setsumei shite kuremashita.', de: 'Der Lehrer hat es mir freundlich erklaert.' }
+          ],
+          tip: 'Wenn du Dankbarkeit oder Nutzen fuer den Sprecher ausdruecken willst, ist ～てくれる oft die natuerlichste Form.'
+        },
+        {
+          heading: '～てもらう — ich bekomme den Gefallen',
+          text: '<strong>て-Form + もらう</strong> beschreibt dieselbe Art von Situation aus der Perspektive des Empfaengers. Der Fokus liegt also darauf, dass man eine Handlung als Gefallen erhaelt. Diese Form ist oft nuetzlich, wenn man die eigene Erfahrung in den Mittelpunkt stellen will.',
+          examples: [
+            { jp: '友だちに荷物を持ってもらいました。', romaji: 'Tomodachi ni nimotsu o motte moraimashita.', de: 'Ich habe meinen Freund die Taschen tragen lassen / Er hat mir die Taschen getragen.' },
+            { jp: '日本人の友だちに作文を見てもらいました。', romaji: 'Nihonjin no tomodachi ni sakubun o mite moraimashita.', de: 'Ich habe einen japanischen Freund meinen Aufsatz anschauen lassen.' }
+          ],
+          tip: '～てもらう ist oft natuerlicher, wenn du ueber die Hilfe sprichst, die du bekommen hast.'
+        },
+        {
+          heading: 'Der eigentliche Lernkern: Perspektive',
+          text: 'Die Handlung selbst kann dieselbe sein, aber die Perspektive aendert sich. <strong>～てあげる</strong> blickt vom Gebenden aus, <strong>～てくれる</strong> vom Nutzen fuer mich oder meine Gruppe, <strong>～てもらう</strong> vom Empfangen des Gefallens. Genau diese Perspektivwahl macht japanische Saetze natuerlich oder unnatuerlich.',
+          examples: [
+            { jp: '私は友だちに道を教えてあげました。', romaji: 'Watashi wa tomodachi ni michi o oshiete agemashita.', de: 'Ich habe meinem Freund den Weg erklaert.' },
+            { jp: '友だちが道を教えてくれました。', romaji: 'Tomodachi ga michi o oshiete kuremashita.', de: 'Mein Freund hat mir den Weg erklaert.' },
+            { jp: '友だちに道を教えてもらいました。', romaji: 'Tomodachi ni michi o oshiete moraimashita.', de: 'Ich habe mir von meinem Freund den Weg erklaeren lassen.' }
+          ],
+          tip: 'Die haeufigste Fehlerquelle ist nicht die Form, sondern die falsche Perspektive im Satz.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 152 =====================
+    {
+      id: 'lesson-152',
+      number: 152,
+      learningOrder: 11.25,
+      title: '～そうだ・～そうな・～そうに',
+      subtitle: 'Sichtbarer Eindruck und wie etwas wirkt',
+      level: 'N4',
+      intro: 'Diese Lektion behandelt nur die Sichtbarkeits- oder Eindruckslesart von そう. Das ist didaktisch wichtig, weil dieselbe Lautform auch als Hoerensagen vorkommt. Hier geht es aber nicht um „ich habe gehoert“, sondern um den Eindruck: etwas sieht so aus, wirkt so oder scheint aufgrund direkter Beobachtung so zu sein.',
+      sections: [
+        {
+          heading: 'Die Grundidee von 様態そう',
+          text: '<strong>～そうだ</strong> in dieser Lesart drueckt einen sichtbaren oder unmittelbar wahrnehmbaren Eindruck aus. Der Sprecher urteilt also nach Aussehen, Verhalten oder Stimmung. Das Muster ist auf N4 extrem haeufig, weil man damit sehr natuerlich reagieren kann: lecker aussehend, traurig wirkend, gleich regnend.',
+          examples: [
+            { jp: 'このケーキはおいしそうです。', romaji: 'Kono keki wa oishiso desu.', de: 'Dieser Kuchen sieht lecker aus.' },
+            { jp: '雨が降りそうです。', romaji: 'Ame ga furiso desu.', de: 'Es sieht so aus, als ob es regnen wird.' },
+            { jp: '彼はとても元気そうです。', romaji: 'Kare wa totemo genkiso desu.', de: 'Er sieht sehr fit aus.' }
+          ],
+          tip: 'Die Frage ist immer: urteile ich aus direkter Beobachtung? Wenn ja, ist dieses そう sehr oft passend.'
+        },
+        {
+          heading: 'Bildung mit Verben und Adjektiven',
+          text: 'Bei <strong>Verben</strong> steht meist der ます-Stamm vor そう: 降ります → 降りそう. Bei <strong>i-Adjektiven</strong> faellt das い weg: おいしい → おいしそう. Bei <strong>na-Adjektiven</strong> nimmt man den Stamm direkt: 元気そう. Genau diese regelmaessige Bildung macht das Muster produktiv und alltagstauglich.',
+          examples: [
+            { jp: 'この本は難しそうです。', romaji: 'Kono hon wa muzukashiso desu.', de: 'Dieses Buch sieht schwierig aus.' },
+            { jp: 'その仕事は大変そうです。', romaji: 'Sono shigoto wa taihenso desu.', de: 'Diese Arbeit wirkt anstrengend.' },
+            { jp: '子どもが泣きそうです。', romaji: 'Kodomo ga nakiso desu.', de: 'Das Kind sieht aus, als ob es gleich weinen wuerde.' }
+          ],
+          tip: 'Nicht mit der Hoerensagen-Form verwechseln: 来そう = wirkt, als kaeme jemand gleich; 来るそうだ = ich habe gehoert, dass jemand kommt.'
+        },
+        {
+          heading: '～そうな vor Nomen und ～そうに als Adverb',
+          text: 'Weil dieses そう wie ein na-Adjektiv funktioniert, kann man es auch vor Nomen und adverbial benutzen. <strong>～そうな + Nomen</strong> bedeutet etwa „ein ... aussehendes X“, <strong>～そうに + Verb</strong> beschreibt, wie jemand etwas tut oder wirkt.',
+          examples: [
+            { jp: 'おいしそうなラーメンですね。', romaji: 'Oishiso na ramen desu ne.', de: 'Das sieht nach leckerem Ramen aus.' },
+            { jp: '彼女は楽しそうに話しています。', romaji: 'Kanojo wa tanoshiso ni hanashite imasu.', de: 'Sie spricht so, als haette sie Spass.' },
+            { jp: '彼は悲しそうな顔をしています。', romaji: 'Kare wa kanashiso na kao o shite imasu.', de: 'Er macht ein traurig wirkendes Gesicht.' }
+          ],
+          tip: 'Ein guter Lerntrick: そうな haengt an Nomen, そうに modifiziert Verben oder die Art und Weise.'
+        },
+        {
+          heading: 'Abgrenzung zu そうだ (伝聞), らしい, ようだ, みたいだ',
+          text: '<strong>様態そう</strong> basiert auf direkter Beobachtung. <strong>伝聞そうだ</strong> gibt Gehoertes weiter. <strong>らしい</strong> klingt eher nach typischer Eigenschaft oder informierter Einschaetzung. <strong>ようだ / みたいだ</strong> sind Schlussfolgerungen oder Vergleiche und oft etwas breiter als ein rein visueller Eindruck.',
+          examples: [
+            { jp: 'おいしそうです。', romaji: 'Oishiso desu.', de: 'Es sieht lecker aus.' },
+            { jp: 'おいしいそうです。', romaji: 'Oishii so desu.', de: 'Ich habe gehoert, dass es lecker ist.' },
+            { jp: 'あの人は先生らしいです。', romaji: 'Ano hito wa sensei rashii desu.', de: 'Es heisst / es wirkt so, als waere die Person Lehrer.' }
+          ],
+          tip: 'Bei JLPT-Aufgaben ist die Schluesselfrage oft: sehe ich es gerade oder gebe ich eine Information weiter?'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 153 =====================
+    {
+      id: 'lesson-153',
+      number: 153,
+      learningOrder: 13.6,
+      title: '～がる',
+      subtitle: 'Gefuehle anderer an ihrem Verhalten erkennen',
+      level: 'N4',
+      intro: 'Mit ～がる beschreibt man nicht den eigenen inneren Zustand, sondern wie jemand anderes sichtbar reagiert oder etwas zu empfinden scheint. Genau deshalb ist die Form auf N4 wichtig: Man lernt, zwischen direkter Selbstbeschreibung und beobachtbarem Verhalten anderer sauber zu unterscheiden.',
+      sections: [
+        {
+          heading: 'Die Grundidee',
+          text: '<strong>～がる</strong> haengt sich typischerweise an Adjektive oder Zustandswoerter und zeigt, dass jemand ein Gefuehl oder eine Reaktion nach aussen hin erkennen laesst. Der Sprecher behauptet also nicht einfach, die andere Person „ist innerlich so“, sondern: sie zeigt dieses Verhalten.',
+          examples: [
+            { jp: '弟は犬を怖がります。', romaji: 'Ototo wa inu o kowagarimasu.', de: 'Mein kleiner Bruder hat Angst vor Hunden / zeigt Angst vor Hunden.' },
+            { jp: '子どもがその音を嫌がっています。', romaji: 'Kodomo ga sono oto o iyagatte imasu.', de: 'Das Kind zeigt, dass es dieses Geraeusch nicht mag.' }
+          ],
+          tip: '～がる ist besonders nuetzlich, wenn du nicht in den Kopf der anderen Person schauen willst, sondern ihr Verhalten beschreibst.'
+        },
+        {
+          heading: 'Typische Formen: 怖がる, 嫌がる, 欲しがる',
+          text: 'Einige Woerter kommen mit ～がる besonders haeufig vor. Dazu gehoeren <strong>怖がる</strong>, <strong>嫌がる</strong> und <strong>欲しがる</strong>. Gerade 欲しがる ist wichtig, weil man bei anderen Personen nicht einfach ほしい benutzen sollte.',
+          examples: [
+            { jp: '娘は注射を怖がっています。', romaji: 'Musume wa chusha o kowagatte imasu.', de: 'Meine Tochter hat sichtbar Angst vor Spritzen.' },
+            { jp: '彼は新しいスマホを欲しがっています。', romaji: 'Kare wa atarashii sumaho o hoshigatte imasu.', de: 'Er zeigt, dass er ein neues Smartphone haben will.' },
+            { jp: 'その猫は抱かれるのを嫌がる。', romaji: 'Sono neko wa dakareru no o iyagaru.', de: 'Diese Katze mag es nicht, hochgehoben zu werden.' }
+          ],
+          tip: '欲しがる ist fuer andere Personen oft die natuerlichere Wahl als einfach ほしい.'
+        },
+        {
+          heading: 'Der Kontrast zu ～たい, ～ほしい und ～たがる',
+          text: '<strong>～たい</strong> und <strong>～ほしい</strong> benutzt man in erster Linie fuer die eigenen Wuensche oder sehr direkte Fragen. Bei anderen Personen ist das oft zu direkt. Dafuer gibt es sichtbare Wunschformen wie <strong>～たがる</strong> und die breitere Reaktionsform <strong>～がる</strong>. ～たがる gehoert also funktional in dieselbe Familie, aber speziell fuer Verben im Wunschbereich.',
+          examples: [
+            { jp: '私は帰りたいです。', romaji: 'Watashi wa kaeritai desu.', de: 'Ich will nach Hause.' },
+            { jp: '彼は帰りたがっています。', romaji: 'Kare wa kaeritagatte imasu.', de: 'Er zeigt, dass er nach Hause will.' },
+            { jp: '彼は新しい本を欲しがっています。', romaji: 'Kare wa atarashii hon o hoshigatte imasu.', de: 'Er scheint dieses neue Buch haben zu wollen.' }
+          ],
+          tip: 'Selbstwunsch und beobachteter Wunsch duerfen nicht vermischt werden. Genau dafuer braucht man diese Formenfamilie.'
+        },
+        {
+          heading: 'Typische Lernfallen',
+          text: 'Viele Lernende sagen ueber andere Personen direkt ～たい oder ～ほしい, obwohl Japanisch hier zurueckhaltender ist. Eine zweite Fehlerquelle ist, ～がる zu benutzen, obwohl gar kein beobachtbares Verhalten vorliegt. Die Form lebt von sichtbaren Anzeichen, Reaktionen oder Gewohnheiten.',
+          examples: [
+            { jp: '子どもは暗い部屋を怖がります。', romaji: 'Kodomo wa kurai heya o kowagarimasu.', de: 'Kinder haben oft Angst vor dunklen Zimmern.' },
+            { jp: '彼は人前で話すのを嫌がっています。', romaji: 'Kare wa hitomae de hanasu no o iyagatte imasu.', de: 'Er zeigt, dass er nicht gern vor Leuten spricht.' }
+          ],
+          tip: 'Ein guter Kontrollsatz ist: „Woran sehe ich das?“ Wenn es sichtbare Anzeichen gibt, passt ～がる oft gut.'
+        }
+      ]
+    }
   ];
 
   // Render lessons by level progression (N5 -> N1) and didactic order, not file order.
@@ -5984,19 +6191,26 @@
   var DIDACTIC_ORDER_BY_LEVEL = {
     'N5': [
       'lesson-3', 'lesson-1', 'lesson-2', 'lesson-103', 'lesson-104',
-      'lesson-81', 'lesson-82', 'lesson-4', 'lesson-5', 'lesson-6',
-      'lesson-7', 'lesson-88', 'lesson-91', 'lesson-83', 'lesson-84',
-      'lesson-85', 'lesson-86', 'lesson-95', 'lesson-96', 'lesson-87',
-      'lesson-92', 'lesson-93', 'lesson-94', 'lesson-89', 'lesson-90'
+      'lesson-81', 'lesson-82', 'lesson-4', 'lesson-5', 'lesson-140',
+      'lesson-6', 'lesson-7', 'lesson-88', 'lesson-91', 'lesson-120',
+      'lesson-121', 'lesson-83', 'lesson-84', 'lesson-85', 'lesson-86',
+      'lesson-95', 'lesson-96', 'lesson-141', 'lesson-122', 'lesson-123',
+      'lesson-142', 'lesson-87', 'lesson-92', 'lesson-93', 'lesson-94',
+      'lesson-89', 'lesson-90'
     ],
     'N5/N4': [
-      'lesson-8', 'lesson-9'
+      'lesson-8', 'lesson-9', 'lesson-150'
     ],
     'N4': [
       'lesson-31', 'lesson-14', 'lesson-15', 'lesson-98', 'lesson-99',
       'lesson-97', 'lesson-100', 'lesson-101', 'lesson-10', 'lesson-105',
-      'lesson-102', 'lesson-106', 'lesson-108', 'lesson-13', 'lesson-11',
-      'lesson-12', 'lesson-107'
+      'lesson-102', 'lesson-106', 'lesson-152', 'lesson-108', 'lesson-13', 'lesson-151',
+      'lesson-11', 'lesson-12', 'lesson-107', 'lesson-124', 'lesson-125',
+      'lesson-153', 'lesson-126', 'lesson-127', 'lesson-128', 'lesson-129', 'lesson-130',
+      'lesson-131', 'lesson-132', 'lesson-133', 'lesson-134', 'lesson-135',
+      'lesson-136', 'lesson-137', 'lesson-138', 'lesson-139', 'lesson-143',
+      'lesson-144', 'lesson-145', 'lesson-146', 'lesson-147', 'lesson-148',
+      'lesson-149'
     ],
     'N4/N3': [
       'lesson-17', 'lesson-18', 'lesson-16', 'lesson-19', 'lesson-20'
@@ -6276,6 +6490,142 @@
           { jp: '新人は最初の一週間、先輩と行動することになっています。', romaji: 'Shinjin wa saisho no isshukan, senpai to kodo suru koto ni natte imasu.', de: 'Für Neue gilt die Regel, in der ersten Woche mit einem Senior zusammenzuarbeiten.' }
         ],
         tip: 'Denk in Perspektiven: Entscheidung treffen, Entscheidung entstehen, Entscheidung als Regel bestehen.'
+      }
+    ]
+  });
+
+  overrideLesson('lesson-135', {
+    title: '～として・～にとって・～によって',
+    subtitle: 'Rolle, Perspektive und je nach Fall',
+    intro: 'Diese drei Muster wirken auf den ersten Blick aehnlich sachlich, leisten aber unterschiedliche Dinge. Mit ～として beschreibt man eine Rolle oder Funktion, mit ～にとって eine Bewertung aus einer bestimmten Sicht, und mit ～によって aendert man je nach Fall Mittel, Ursache oder Unterschiede. Der eigentliche Lernkern ist also nicht die Form, sondern der Blickwinkel.',
+    sections: [
+      {
+        heading: '～として — als, in der Rolle von',
+        text: '<strong>Nomen + として</strong> beschreibt eine Rolle, Eigenschaft oder Funktion. Man sagt also, in welcher Eigenschaft jemand handelt oder beurteilt wird. Das passt gut zu Berufen, Positionen und Kategorien.',
+        examples: [
+          { jp: '私は学生としてこの問題を考えます。', romaji: 'Watashi wa gakusei toshite kono mondai o kangaemasu.', de: 'Ich denke ueber dieses Problem als Student nach.' },
+          { jp: '彼は作家として有名です。', romaji: 'Kare wa sakka toshite yumei desu.', de: 'Er ist als Schriftsteller bekannt.' }
+        ],
+        tip: 'Frage bei ～として: In welcher Rolle oder Eigenschaft wird jemand gesehen?'
+      },
+      {
+        heading: '～にとって — fuer, aus der Sicht von',
+        text: '<strong>Nomen + にとって</strong> markiert eine Perspektive oder Bewertungsbasis. Es geht also darum, wie etwas fuer eine bestimmte Person oder Gruppe wirkt. Gerade bei wichtig, einfach, schwierig oder wertvoll ist die Form sehr haeufig.',
+        examples: [
+          { jp: '私にとって家族が一番大切です。', romaji: 'Watashi ni totte kazoku ga ichiban taisetsu desu.', de: 'Fuer mich ist Familie am wichtigsten.' },
+          { jp: '子どもにとってこの本は難しいです。', romaji: 'Kodomo ni totte kono hon wa muzukashii desu.', de: 'Fuer Kinder ist dieses Buch schwierig.' }
+        ],
+        tip: '～にとって sagt nicht, was etwas IST, sondern wie es fuer jemanden bewertet wird.'
+      },
+      {
+        heading: '～によって — je nach / durch / von',
+        text: '<strong>Nomen + によって</strong> ist vielseitig. Auf N4 sind drei Lesarten wichtig: „je nach“, „durch / mittels“ und bei Passivsaetzen „von“. Das Muster muss also immer aus dem Kontext gelesen werden, nicht aus einer einzigen Vokabeluebersetzung.',
+        examples: [
+          { jp: '人によって考え方が違います。', romaji: 'Hito ni yotte kangaekata ga chigaimasu.', de: 'Je nach Person unterscheidet sich die Denkweise.' },
+          { jp: 'この歌は多くの人によって愛されています。', romaji: 'Kono uta wa oku no hito ni yotte aisarete imasu.', de: 'Dieses Lied wird von vielen Menschen geliebt.' },
+          { jp: 'インターネットによって情報を調べます。', romaji: 'Intanetto ni yotte joho o shirabemasu.', de: 'Ich recherchiere mit Hilfe des Internets.' }
+        ],
+        tip: 'Auf N4 reicht es nicht, nur „je nach“ zu kennen. Passiv mit „von“ ist ebenfalls sehr haeufig.'
+      },
+      {
+        heading: 'Die entscheidende Abgrenzung',
+        text: '<strong>～として</strong> = Rolle. <strong>～にとって</strong> = Bewertung aus Sicht von. <strong>～によって</strong> = Unterschied, Mittel oder Agens. Wer diese drei Fragen auseinanderhaelt, verwechselt die Muster viel seltener: In welcher Rolle? Fuer wen? Wodurch oder je nach was?',
+        examples: [
+          { jp: '先生として話します。', romaji: 'Sensei toshite hanashimasu.', de: 'Ich spreche als Lehrer.' },
+          { jp: '先生にとって大事なことです。', romaji: 'Sensei ni totte daiji na koto desu.', de: 'Das ist fuer den Lehrer wichtig.' },
+          { jp: '先生によって説明が違います。', romaji: 'Sensei ni yotte setsumei ga chigaimasu.', de: 'Je nach Lehrer ist die Erklaerung anders.' }
+        ],
+        tip: 'Ein guter Lerntrick: Rolle, Perspektive, Ausloeser.'
+      }
+    ]
+  });
+
+  overrideLesson('lesson-136', {
+    title: '～さえ・～こそ',
+    subtitle: 'Sogar und gerade dieses eine',
+    intro: 'Mit diesen beiden Partikeln wird eine Aussage nicht laenger, aber deutlich schaerfer. ～さえ markiert oft eine ueberraschende Untergrenze oder ein „sogar“, waehrend ～こそ gezielt hervorhebt: gerade dieses, genau hier, ausgerechnet jetzt. Ihr didaktischer Wert liegt in der Betonung, nicht in der Grundinformation.',
+    sections: [
+      {
+        heading: '～さえ — sogar, selbst, nicht einmal',
+        text: '<strong>Nomen + さえ</strong> hebt etwas hervor, das schon an der Grenze liegt: sogar X, selbst X oder in der Verneinung nicht einmal X. Dadurch bekommt der Satz oft eine Nuance von Ueberraschung, Minimalgrenze oder starker Einschränkung.',
+        examples: [
+          { jp: '子どもでさえ知っています。', romaji: 'Kodomo de sae shitte imasu.', de: 'Sogar Kinder wissen das.' },
+          { jp: '忙しくて、水さえ飲んでいません。', romaji: 'Isogashikute, mizu sae nonde imasen.', de: 'Ich bin so beschaeftigt, dass ich nicht einmal Wasser getrunken habe.' }
+        ],
+        tip: 'Gerade in negativen Saetzen ist ～さえ sehr stark: „nicht einmal X“.'
+      },
+      {
+        heading: '～こそ — gerade, genau, ausgerechnet',
+        text: '<strong>Nomen + こそ</strong> setzt einen starken Fokus auf genau dieses Element. Die Aussage klingt dadurch oft engagierter, emotionaler oder kontrastiver als mit は oder が. Man hebt etwas nicht nur hervor, sondern praesentiert es als den eigentlichen Kern.',
+        examples: [
+          { jp: '今こそ勉強する時です。', romaji: 'Ima koso benkyo suru toki desu.', de: 'Gerade jetzt ist die Zeit zu lernen.' },
+          { jp: 'あなたこそ本当に親切です。', romaji: 'Anata koso honto ni shinsetsu desu.', de: 'Gerade Sie sind wirklich freundlich.' }
+        ],
+        tip: '～こそ klingt oft ueberzeugt oder emotional. Es ist mehr als nur ein neutrales Thema.'
+      },
+      {
+        heading: 'Wie sich beide unterscheiden',
+        text: '<strong>～さえ</strong> zieht eine Grenze nach unten oder nach aussen: sogar dieses Unerwartete. <strong>～こそ</strong> zeigt auf einen Kernpunkt: genau dieses Element ist entscheidend. Beide betonen, aber nicht in derselben Richtung.',
+        examples: [
+          { jp: '名前さえ分かれば大丈夫です。', romaji: 'Namae sae wakareba daijobu desu.', de: 'Wenn wir nur den Namen kennen, ist alles in Ordnung.' },
+          { jp: '努力こそ大切です。', romaji: 'Doryoku koso taisetsu desu.', de: 'Gerade Anstrengung ist wichtig.' }
+        ],
+        tip: 'Ein guter Kontrast: ～さえ = sogar / wenigstens, ～こそ = genau das.'
+      },
+      {
+        heading: 'Typische Lernfallen',
+        text: 'Lernende verwechseln ～さえ oft mit einem neutralen „auch“, obwohl die Partikel staerker und grenzmarkierend ist. Bei ～こそ wird haeufig nur „besonders“ gelernt, obwohl es oft gezielte Gegenueberstellung oder Nachdruck ausdrueckt. Beide brauchen also Kontextgefuehl, nicht nur Woerterbuchwissen.',
+        examples: [
+          { jp: '時間さえあれば行けます。', romaji: 'Jikan sae areba ikemasu.', de: 'Wenn ich wenigstens Zeit haette, koennte ich gehen.' },
+          { jp: '今こそ変わるべきです。', romaji: 'Ima koso kawaru beki desu.', de: 'Gerade jetzt sollte man sich aendern.' }
+        ],
+        tip: 'Nicht fragen „wie uebersetze ich das Wort?“, sondern „welche Art von Betonung bringt es in diesen Satz?“'
+      }
+    ]
+  });
+
+  overrideLesson('lesson-137', {
+    title: '命令形・～なさい',
+    subtitle: 'Direkte Befehle und autoritaere Anweisungen',
+    intro: 'Diese Formen sollte man auf N4 vor allem sicher erkennen und pragmatisch einordnen. Sie sind deutlich staerker als hoefliche Bitten und wirken schnell hart oder hierarchisch. Genau deshalb reicht reine Formenlehre hier nicht; man muss wissen, wann die Form natuerlich, grob oder typisch fuer bestimmte Rollen ist.',
+    sections: [
+      {
+        heading: '命令形 — direkter Befehl',
+        text: 'Die <strong>命令形</strong> ist eine direkte Befehlsform. Sie kommt oft in Warnungen, emotionalen Ausrufen, Militaer-/Sportton, Manga, Filmen oder sehr rauen Gespraechen vor. Im normalen hoeflichen Alltag sollte man sie nur selten selbst aktiv benutzen.',
+        examples: [
+          { jp: '早く来い。', romaji: 'Hayaku koi.', de: 'Komm schnell!' },
+          { jp: 'やめろ！', romaji: 'Yamero!', de: 'Hoer auf!' },
+          { jp: '急げ！', romaji: 'Isole!', de: 'Beeil dich!' }
+        ],
+        tip: 'Fuer Lernende ist Verstehen wichtiger als aktiver Gebrauch. Die Form klingt schnell hart.'
+      },
+      {
+        heading: '～なさい — weicher, aber immer noch von oben nach unten',
+        text: '<strong>Verb-Stamm + なさい</strong> ist milder als die reine Befehlsform, bleibt aber eine klare Anweisung. Typisch ist die Verwendung durch Eltern, Lehrer oder Personen mit formaler Autoritaet. Gegenueber Gleichgestellten oder Fremden kann sie schnell bevormundend wirken.',
+        examples: [
+          { jp: '早く寝なさい。', romaji: 'Hayaku nenasai.', de: 'Geh frueh schlafen.' },
+          { jp: '教科書を開きなさい。', romaji: 'Kyokasho o hirakinasai.', de: 'Schlagt das Lehrbuch auf.' }
+        ],
+        tip: '～なさい ist nicht neutral-hoeflich. Es setzt eine Hierarchie oder Erziehungsrolle voraus.'
+      },
+      {
+        heading: 'Abgrenzung zu ～てください',
+        text: '<strong>～てください</strong> ist eine hoefliche Bitte. <strong>～なさい</strong> ist eine Anweisung. <strong>命令形</strong> ist ein echter Befehl. Genau diese soziale Abstufung ist der Kern der Lektion und fuer natuerliches Japanisch wichtiger als die reine Konjugation.',
+        examples: [
+          { jp: '座ってください。', romaji: 'Suwatte kudasai.', de: 'Bitte setzen Sie sich.' },
+          { jp: '座りなさい。', romaji: 'Suwarinasai.', de: 'Setz dich hin.' },
+          { jp: '座れ。', romaji: 'Suware.', de: 'Hinsetzen.' }
+        ],
+        tip: 'Wenn du die Hoehe der sozialen Spannung hoerst, hast du die Lektion verstanden.'
+      },
+      {
+        heading: 'Typische natuerliche Kontexte',
+        text: 'In Warnschildern, Sport, Anime, militärischem Ton, elterlichen Anweisungen oder Klassenzimmern wirken diese Formen oft natuerlich. In normalen freundlichen Alltagsgespraechen dagegen sind sie meist zu stark. Deshalb muss man immer Kontext und Beziehung mitlesen.',
+        examples: [
+          { jp: '入るな。', romaji: 'Hairu na.', de: 'Nicht eintreten.' },
+          { jp: 'ちゃんとしなさい。', romaji: 'Chanto shinasai.', de: 'Benehm dich ordentlich.' }
+        ],
+        tip: 'Diese Lektion ist stark pragmatisch: dieselbe Form kann passend, streng oder unhoeflich wirken, je nach Szene.'
       }
     ]
   });
@@ -6983,7 +7333,7 @@
   overrideLesson('lesson-148', {
     title: '～直す・～合う・～てすむ／～ずにすむ',
     subtitle: 'Wiederholen, gegenseitig tun und glimpflich auskommen',
-    intro: 'Diese Lektion ist didaktisch wichtig, weil sie drei sehr produktive Muster zusammenbringt, die leicht zu knapp erklärt werden. Dabei steckt viel echter Sprachwert darin: etwas korrigierend noch einmal tun, etwas wechselseitig tun oder mit wenig Schaden aus einer Situation herauskommen. Genau deshalb braucht diese Lektion mehr als nur eine Formtabelle.',
+    intro: 'Diese Lektion ist didaktisch wichtig, weil sie mehrere sehr produktive Verbzusatzmuster zusammenbringt, die leicht zu knapp erklaert werden. Dabei steckt viel echter Sprachwert darin: etwas korrigierend noch einmal tun, etwas wechselseitig tun, etwas ganz zu Ende bringen oder mit wenig Schaden aus einer Situation herauskommen.',
     sections: [
       {
         heading: '～直す — noch einmal tun und dabei korrigieren',
@@ -7004,6 +7354,16 @@
         tip: 'Nicht jedes Verb passt natürlich zu ～合う. Es funktioniert am besten, wenn Gegenseitigkeit wirklich sinnvoll ist.'
       },
       {
+        heading: '～切る — ganz zu Ende tun',
+        text: '<strong>Verb-Stamm + 切る</strong> bedeutet, dass man eine Handlung vollstaendig zu Ende bringt. Dabei steckt oft ein Gefuehl von Konsequenz, Vollendung oder Durchhalten mit drin. Gerade bei Dingen wie lesen, aufessen, aufbrauchen oder durchhalten ist das Muster sehr natuerlich.',
+        examples: [
+          { jp: 'この本を一日で読み切りました。', romaji: 'Kono hon o ichinichi de yomikirimashita.', de: 'Ich habe dieses Buch in einem Tag komplett zu Ende gelesen.' },
+          { jp: '水を全部使い切ってしまいました。', romaji: 'Mizu o zenbu tsukaikitte shimaimashita.', de: 'Ich habe das Wasser ganz aufgebraucht.' },
+          { jp: '最後まで走り切った。', romaji: 'Saigo made hashirikitta.', de: 'Ich habe das Rennen bis zum Ende durchgezogen.' }
+        ],
+        tip: '～切る betont die Vollendung selbst. Es ist oft staerker und entschlossener als ein neutrales „fertig machen“.'
+      },
+      {
         heading: '～てすむ / ～ずにすむ — glimpflich davonkommen',
         text: '<strong>てすむ</strong> und <strong>ずにすむ</strong> bedeuten, dass eine Sache ausreicht oder dass man ohne etwas Schwierigeres auskommt. Oft steckt die Idee drin: Zum Glück reicht das, oder man muss etwas Unangenehmes nicht tun.',
         examples: [
@@ -7014,19 +7374,21 @@
       },
       {
         heading: 'Wann welches Muster?',
-        text: '<strong>～直す</strong> nimmt denselben Vorgang noch einmal in Angriff. <strong>～合う</strong> verbindet mehrere Beteiligte in einer wechselseitigen Handlung. <strong>～てすむ / ～ずにすむ</strong> beschreibt ein Ergebnis, bei dem eine einfachere Lösung genügt oder etwas Unangenehmes vermieden wird.',
+        text: '<strong>～直す</strong> nimmt denselben Vorgang noch einmal in Angriff. <strong>～合う</strong> verbindet mehrere Beteiligte in einer wechselseitigen Handlung. <strong>～切る</strong> bringt etwas ganz bis zum Ende. <strong>～てすむ / ～ずにすむ</strong> beschreibt ein Ergebnis, bei dem eine einfachere Loesung genuegt oder etwas Unangenehmes vermieden wird.',
         examples: [
           { jp: '答えをもう一度見直して、書き直しました。', romaji: 'Kotae o mo ichido minaoshite, kakinaoshimashita.', de: 'Ich habe die Antwort noch einmal geprüft und neu geschrieben.' },
           { jp: '家族で生活費を出し合っています。', romaji: 'Kazoku de seikatsuhi o dashiatte imasu.', de: 'In meiner Familie legen wir alle gemeinsam Geld für die Lebenshaltungskosten zusammen.' },
+          { jp: '昼休みに弁当を食べ切りました。', romaji: 'Hiruyasumi ni bento o tabekirimashita.', de: 'Ich habe mein Bento in der Mittagspause ganz aufgegessen.' },
           { jp: 'タクシーを使ったので、遅刻せずに済みました。', romaji: 'Takushi o tsukatta no de, chikoku sezu ni sumimashita.', de: 'Weil ich ein Taxi genommen habe, kam ich zum Glück nicht zu spät.' }
         ],
-        tip: 'Die drei Muster teilen keine Bedeutung. Sie teilen nur, dass sie aus einfachen Verben sehr produktive neue Nuancen machen.'
+        tip: 'Die Muster teilen keine Bedeutung. Sie teilen nur, dass sie aus einfachen Verben sehr produktive neue Nuancen machen.'
       },
       {
         heading: 'Typische Lernfallen',
-        text: 'Viele Lernende lesen <strong>～直す</strong> zu mechanisch als "wiederholen", obwohl oft Verbesserung gemeint ist. Bei <strong>～合う</strong> wird manchmal vergessen, dass Gegenseitigkeit semantisch passen muss. Und <strong>～ずにすむ</strong> wird leicht zu wörtlich analysiert, obwohl der echte Sinn oft "zum Glück nicht müssen" ist.',
+        text: 'Viele Lernende lesen <strong>～直す</strong> zu mechanisch als "wiederholen", obwohl oft Verbesserung gemeint ist. Bei <strong>～合う</strong> wird manchmal vergessen, dass Gegenseitigkeit semantisch passen muss. <strong>～切る</strong> wird leicht mit bloßer Vergangenheit verwechselt, obwohl die Vollendung entscheidend ist. Und <strong>～ずにすむ</strong> wird leicht zu wörtlich analysiert, obwohl der echte Sinn oft "zum Glueck nicht muessen" ist.',
         examples: [
           { jp: '考え直した結果、行かないことにしました。', romaji: 'Kangaenaoshita kekka, ikanai koto ni shimashita.', de: 'Nachdem ich noch einmal darüber nachgedacht habe, habe ich beschlossen nicht zu gehen.' },
+          { jp: '全部食べ切るのは大変でした。', romaji: 'Zenbu tabekiru no wa taihen deshita.', de: 'Alles komplett aufzuessen war anstrengend.' },
           { jp: '少し話し合えば、けんかせずに済んだかもしれません。', romaji: 'Sukoshi hanashiaeba, kenka sezu ni sunda kamo shiremasen.', de: 'Wenn wir etwas miteinander gesprochen hätten, hätten wir den Streit vielleicht vermeiden können.' }
         ],
         tip: 'Bei ～ずにすむ lohnt sich fast immer die Kontrollfrage: Was musste am Ende gerade nicht passieren?'
@@ -7102,12 +7464,40 @@
     });
   });
 
+  function buildLessonSearchText(lesson) {
+    var parts = [lesson.title, lesson.subtitle, lesson.intro];
+    lesson.sections.forEach(function (section) {
+      parts.push(section.heading, section.text, section.tip);
+      if (section.examples) {
+        section.examples.forEach(function (example) {
+          parts.push(example.jp, example.romaji, example.de);
+        });
+      }
+    });
+    return parts.filter(Boolean).join(' ').toLowerCase();
+  }
+
+  LESSONS.forEach(function (lesson) {
+    lesson._searchText = buildLessonSearchText(lesson);
+    lesson._renderedContent = null;
+  });
+
   // =====================================================
   // === RENDERING & UI LOGIC ===
   // =====================================================
 
   var lessonsContainer = null;
   var currentOpen = null;
+  var lessonCards = [];
+
+  function ensureLessonBodyRendered(lesson, body) {
+    if (body.getAttribute('data-rendered') === 'true') return;
+    if (!lesson._renderedContent) {
+      lesson._renderedContent = renderLessonContent(lesson);
+    }
+    body.innerHTML = lesson._renderedContent;
+    body.setAttribute('data-rendered', 'true');
+  }
 
   function renderLessonCard(lesson) {
     var card = document.createElement('div');
@@ -7133,8 +7523,7 @@
     // Body (expandable)
     var body = document.createElement('div');
     body.className = 'gl-card-body collapsed';
-
-    body.innerHTML = renderLessonContent(lesson);
+    body.setAttribute('data-rendered', 'false');
 
     function toggle() {
       if (window.app) window.app.playTick();
@@ -7151,6 +7540,7 @@
           currentOpen.previousElementSibling.querySelector('.gl-card-chevron').classList.remove('open');
           currentOpen.previousElementSibling.setAttribute('aria-expanded', 'false');
         }
+        ensureLessonBodyRendered(lesson, body);
         body.classList.remove('collapsed');
         header.querySelector('.gl-card-chevron').classList.add('open');
         header.setAttribute('aria-expanded', 'true');
@@ -7218,36 +7608,16 @@
   function lessonMatchesQuery(lesson, q) {
     if (!q) return true;
     var lower = q.toLowerCase();
-    // Search title, subtitle, intro
-    if (lesson.title.toLowerCase().indexOf(lower) !== -1) return true;
-    if (lesson.subtitle.toLowerCase().indexOf(lower) !== -1) return true;
-    if (lesson.intro.toLowerCase().indexOf(lower) !== -1) return true;
-    // Search sections
-    for (var i = 0; i < lesson.sections.length; i++) {
-      var sec = lesson.sections[i];
-      if (sec.heading && sec.heading.toLowerCase().indexOf(lower) !== -1) return true;
-      if (sec.text && sec.text.toLowerCase().indexOf(lower) !== -1) return true;
-      if (sec.tip && sec.tip.toLowerCase().indexOf(lower) !== -1) return true;
-      if (sec.examples) {
-        for (var j = 0; j < sec.examples.length; j++) {
-          var ex = sec.examples[j];
-          if (ex.jp && ex.jp.indexOf(q) !== -1) return true;
-          if (ex.romaji && ex.romaji.toLowerCase().indexOf(lower) !== -1) return true;
-          if (ex.de && ex.de.toLowerCase().indexOf(lower) !== -1) return true;
-        }
-      }
-    }
-    return false;
+    return lesson._searchText.indexOf(lower) !== -1;
   }
 
   function filterLessons() {
     if (!lessonsContainer) return;
-    var cards = lessonsContainer.querySelectorAll('.gl-card');
     var count = 0;
-    for (var i = 0; i < cards.length; i++) {
+    for (var i = 0; i < lessonCards.length; i++) {
       var lesson = LESSONS[i];
       var show = lessonMatchesLevel(lesson, lessonLevel) && lessonMatchesQuery(lesson, lessonQuery);
-      cards[i].classList.toggle('hidden', !show);
+      lessonCards[i].classList.toggle('hidden', !show);
       if (show) count++;
     }
     var countEl = document.getElementById('gl-count');
@@ -7347,10 +7717,15 @@
     lessonsContainer = document.createElement('div');
     lessonsContainer.id = 'grammar-lessons';
     lessonsContainer.className = 'gl-container hidden';
+    lessonCards = [];
 
+    var lessonsFragment = document.createDocumentFragment();
     LESSONS.forEach(function (lesson) {
-      lessonsContainer.appendChild(renderLessonCard(lesson));
+      var card = renderLessonCard(lesson);
+      lessonCards.push(card);
+      lessonsFragment.appendChild(card);
     });
+    lessonsContainer.appendChild(lessonsFragment);
 
     // No results message
     var noRes = document.createElement('div');
