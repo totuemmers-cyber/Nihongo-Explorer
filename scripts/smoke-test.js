@@ -53,6 +53,7 @@ function click(element, window) {
 
 async function run() {
   const html = fs.readFileSync(INDEX_PATH, 'utf8');
+  const spokenTexts = [];
   const dom = new JSDOM(html, {
     url: 'file:///' + INDEX_PATH.replace(/\\/g, '/'),
     runScripts: 'dangerously',
@@ -107,7 +108,9 @@ async function run() {
       window.SpeechSynthesisUtterance = function (text) { this.text = text; };
       window.speechSynthesis = {
         cancel() {},
-        speak() {}
+        speak(utterance) {
+          spokenTexts.push(utterance && utterance.text ? utterance.text : '');
+        }
       };
       window.IntersectionObserver = function (callback) {
         this.observe = function () {
@@ -151,6 +154,26 @@ async function run() {
   await waitFor(function () {
     return !document.getElementById('vocab-detail-overlay').classList.contains('hidden');
   }, { description: 'vocab overlay open' });
+
+  vocabSearch.value = '言葉つき';
+  vocabSearch.dispatchEvent(new window.Event('input', { bubbles: true }));
+  await waitFor(function () {
+    const firstCard = document.querySelector('#vocab-grid .vocab-card');
+    return firstCard && firstCard.textContent.indexOf('言葉つき') !== -1;
+  }, { description: 'target vocab search result' });
+
+  click(document.querySelector('#vocab-grid .vocab-card'), window);
+  await waitFor(function () {
+    return document.getElementById('vocab-detail-word').textContent.indexOf('言葉つき') !== -1;
+  }, { description: 'target vocab detail open' });
+
+  spokenTexts.length = 0;
+  click(document.querySelector('.vocab-detail-header .btn-speak'), window);
+  await waitFor(function () {
+    return spokenTexts.length > 0;
+  }, { description: 'vocab speech playback' });
+  assert(spokenTexts[spokenTexts.length - 1] === 'ことばつき', 'Expected vocab speech to use reading, got: ' + spokenTexts[spokenTexts.length - 1]);
+
   click(document.getElementById('vocab-close-detail'), window);
   await waitFor(function () {
     return document.getElementById('vocab-detail-overlay').classList.contains('hidden');

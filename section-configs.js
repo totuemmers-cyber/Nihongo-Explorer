@@ -205,16 +205,26 @@ function getSpeakSvgHtml(size) {
   '</svg>';
 }
 
-function createSpeakButton(headerSelector, text) {
+function resolveSpeakText(config) {
+  if (typeof config === 'string') return config;
+  if (!config || typeof config !== 'object') return '';
+  if (config.speechText) return config.speechText;
+
+  var item = config.item || config;
+  return item.reading || item.kana || item.word || '';
+}
+
+function createSpeakButton(headerSelector, config) {
   var header = document.querySelector(headerSelector);
   var oldBtn = header.querySelector('.btn-speak');
   if (oldBtn) oldBtn.remove();
+  var speechText = resolveSpeakText(config);
   var speakBtn = document.createElement('button');
   speakBtn.className = 'btn btn-icon btn-speak';
   speakBtn.title = 'Aussprache';
   speakBtn.innerHTML = getSpeakSvgHtml(18);
   speakBtn.addEventListener('click', function () {
-    if (window.app) window.app.speakJP(text);
+    if (window.app) window.app.speakJP(speechText);
   });
   header.appendChild(speakBtn);
 }
@@ -1001,7 +1011,7 @@ SECTION_CONFIGS.vocab = {
     typeBadge.className = 'vocab-type-badge ' + v.type;
 
     // Speak button
-    createSpeakButton('.vocab-detail-header', v.reading || v.word);
+    createSpeakButton('.vocab-detail-header', v);
     createDetailBookmark('.vocab-detail-header', 'vocab', getItemId(v, v.word + '|' + (v.reading || '')));
 
     document.getElementById('vocab-detail-reading').textContent = v.reading || '';
@@ -1508,7 +1518,7 @@ SECTION_CONFIGS.onomatopoeia = {
     patBadge.className = 'ono-pattern-badge';
 
     // Speak button
-    createSpeakButton('.ono-detail-header', o.word);
+    createSpeakButton('.ono-detail-header', o);
     createDetailBookmark('.ono-detail-header', 'onomatopoeia', getItemId(o, o.word));
 
     document.getElementById('ono-detail-reading').textContent = o.reading || '';
