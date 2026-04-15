@@ -263,8 +263,8 @@
             { jp: 'う・つ・る → って', romaji: '(u/tsu/ru → tte)', de: '買う→買って, 待つ→待って, 帰る→帰って' },
             { jp: 'む・ぶ・ぬ → んで', romaji: '(mu/bu/nu → nde)', de: '飲む→飲んで, 遊ぶ→遊んで, 死ぬ→死んで' },
             { jp: 'く → いて', romaji: '(ku → ite)', de: '書く→書いて, 聞く→聞いて' },
-            { jp: '話す → 話して', romaji: 'hanasu → hanashite', de: 'す → して (s-Reihe)' },
             { jp: '泳ぐ → 泳いで', romaji: 'oyogu → oyoide', de: 'ぐ → いで (stimmhaft! vgl. く → いて)' },
+            { jp: '話す → 話して', romaji: 'hanasu → hanashite', de: 'す → して (s-Reihe)' },
           ],
           tip: 'Ausnahme: 行く (iku) wird zu 行って (itte), nicht 行いて. Das ist die einzige Ausnahme in dieser Kategorie — und sie kommt so oft vor, dass man sie automatisch lernt.'
         },
@@ -306,7 +306,7 @@
       title: 'Vergangenheit mit た',
       subtitle: 'Was gestern war',
       level: 'N5',
-      intro: 'Die Vergangenheit im Japanischen ist erstaunlich unkompliziert — vor allem, wenn du die て-Form aus Lektion 5 schon kennst. Denn die た-Form folgt exakt dem gleichen Lautmuster. Einfach て durch た ersetzen (und で durch だ), fertig. Das bedeutet: Wer die て-Form kann, bekommt die Vergangenheit quasi geschenkt. Und das Beste: Japanisch unterscheidet nicht zwischen Präteritum und Perfekt — た deckt beides ab.',
+      intro: 'Die Vergangenheit im Japanischen ist erstaunlich unkompliziert — vor allem, wenn du die て-Form aus [[lesson:lesson-5]] schon kennst. Denn die た-Form folgt exakt dem gleichen Lautmuster. Einfach て durch た ersetzen (und で durch だ), fertig. Das bedeutet: Wer die て-Form kann, bekommt die Vergangenheit quasi geschenkt. Und das Beste: Japanisch unterscheidet nicht zwischen Präteritum und Perfekt — た deckt beides ab.',
       sections: [
         {
           heading: 'た-Form = て-Form, nur mit た',
@@ -467,7 +467,7 @@
             { jp: '泳ぐことができます。', romaji: 'Oyogu koto ga dekimasu.', de: 'Ich kann schwimmen. (Verb + こと + が + できる)' },
             { jp: '料理ができません。', romaji: 'Ryōri ga dekimasen.', de: 'Ich kann nicht kochen.' },
           ],
-          tip: 'Neben ことができる gibt es auch die <strong>Potentialform</strong> (食べる → 食べられる, 読む → 読める). Die ist kürzer und wird im Alltag häufiger benutzt — sie kommt in Lektion 14 ausführlich dran. Für den Anfang ist できる der sicherste Weg.'
+          tip: 'Neben ことができる gibt es auch die <strong>Potentialform</strong> (食べる → 食べられる, 読む → 読める). Die ist kürzer und wird im Alltag häufiger benutzt — sie kommt in [[lesson:lesson-14]] ausführlich dran. Für den Anfang ist できる der sicherste Weg.'
         }
       ]
     },
@@ -763,7 +763,7 @@
       title: 'Potentialform',
       subtitle: 'Was du alles kannst',
       level: 'N4',
-      intro: 'In Lektion 8 hast du できる kennengelernt — den allgemeinen Weg, „können" auszudrücken. Aber für „können" gibt es eine elegantere und im Alltag viel häufigere Lösung: die Potentialform. Damit wird jedes Verb direkt zum „Können"-Verb — kurz, knackig, und im Alltag allgegenwärtig. Statt des umständlichen 泳ぐことができる sagst du einfach 泳げる. Die Potentialform ist eines der wichtigsten Werkzeuge für natürlich klingendes Japanisch und kommt in praktisch jedem Gespräch vor.',
+      intro: 'In [[lesson:lesson-8]] hast du できる kennengelernt — den allgemeinen Weg, „können" auszudrücken. Aber für „können" gibt es eine elegantere und im Alltag viel häufigere Lösung: die Potentialform. Damit wird jedes Verb direkt zum „Können"-Verb — kurz, knackig, und im Alltag allgegenwärtig. Statt des umständlichen 泳ぐことができる sagst du einfach 泳げる. Die Potentialform ist eines der wichtigsten Werkzeuge für natürlich klingendes Japanisch und kommt in praktisch jedem Gespräch vor.',
       sections: [
         {
           heading: 'Bildung: る-Verben',
@@ -2012,7 +2012,7 @@
       title: '～ものだ / ～ものではない',
       subtitle: 'Allgemeine Wahrheiten und Erinnerungen (Vertiefung)',
       level: 'N2',
-      intro: 'Du hast ものだ bereits in Lektion 29 kennengelernt. Jetzt vertiefen wir die fortgeschritteneren Nuancen — insbesondere ～ものがある (Eindruck), ～というものだ (wahre Natur) und die emotionale Ausrufform ～ものだ/もんだ. Diese Konstruktionen machen den Unterschied zwischen einem soliden N3-Niveau und einem natürlich klingenden N2-Sprecher. ものだ ist wie ein Schweizer Taschenmesser der japanischen Grammatik — je mehr Verwendungen du kennst, desto vielseitiger wirst du.',
+      intro: 'Du hast ものだ bereits in [[lesson:lesson-29]] kennengelernt. Jetzt vertiefen wir die fortgeschritteneren Nuancen — insbesondere ～ものがある (Eindruck), ～というものだ (wahre Natur) und die emotionale Ausrufform ～ものだ/もんだ. Diese Konstruktionen machen den Unterschied zwischen einem soliden N3-Niveau und einem natürlich klingenden N2-Sprecher. ものだ ist wie ein Schweizer Taschenmesser der japanischen Grammatik — je mehr Verwendungen du kennst, desto vielseitiger wirst du.',
       sections: [
         {
           heading: 'ものがある — Starker Eindruck',
@@ -6045,6 +6045,29 @@
 
   LESSONS.forEach(function (lesson, index) {
     lesson.number = index + 1;
+  });
+
+  function resolveLessonReferencePlaceholders(text, numberById) {
+    if (!text || typeof text !== 'string') return text;
+    return text.replace(/\[\[lesson:(lesson-\d+)\]\]/g, function (_, lessonId) {
+      var lessonNumber = numberById[lessonId];
+      return lessonNumber ? ('Lektion ' + lessonNumber) : 'dieser Lektion';
+    });
+  }
+
+  var lessonNumberById = {};
+  LESSONS.forEach(function (lesson) {
+    lessonNumberById[lesson.id] = lesson.number;
+  });
+
+  LESSONS.forEach(function (lesson) {
+    lesson.intro = resolveLessonReferencePlaceholders(lesson.intro, lessonNumberById);
+    lesson.subtitle = resolveLessonReferencePlaceholders(lesson.subtitle, lessonNumberById);
+    lesson.sections.forEach(function (section) {
+      section.heading = resolveLessonReferencePlaceholders(section.heading, lessonNumberById);
+      section.text = resolveLessonReferencePlaceholders(section.text, lessonNumberById);
+      section.tip = resolveLessonReferencePlaceholders(section.tip, lessonNumberById);
+    });
   });
 
   // =====================================================
