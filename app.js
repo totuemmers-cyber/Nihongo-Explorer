@@ -114,6 +114,10 @@
   var quizDataLoaded = false;
   var quizDataPromise = null;
   var grammarLessonsPromise = null;
+  var jpSpeechVoice = null;
+  var jpSpeechInitStarted = false;
+  var jpSpeechSpeakTimer = null;
+  var jpSpeechRequestId = 0;
   var INTENTIONAL_VOCAB_OVERLAP_KEYS = {
     '一期一会|いちごいちえ': 1,
     '一石二鳥|いっせきにちょう': 1,
@@ -918,15 +922,86 @@
   }
 
   function speakJP(text) {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      var clean = text.replace(/[.\-]/g, '');
+    if (!('speechSynthesis' in window) || !text) return;
+
+    var clean = text.replace(/[.\-]/g, '').trim();
+    if (!clean) return;
+
+    ensureJpSpeechInitialized();
+
+    jpSpeechRequestId += 1;
+    var requestId = jpSpeechRequestId;
+    var synth = window.speechSynthesis;
+
+    if (jpSpeechSpeakTimer) {
+      clearTimeout(jpSpeechSpeakTimer);
+      jpSpeechSpeakTimer = null;
+    }
+
+    try {
+      synth.cancel();
+    } catch (e) {}
+
+    jpSpeechSpeakTimer = setTimeout(function () {
+      if (requestId !== jpSpeechRequestId) return;
+
       var utterance = new SpeechSynthesisUtterance(clean);
       utterance.lang = 'ja-JP';
       utterance.rate = 0.8;
       utterance.volume = 0.8;
-      window.speechSynthesis.speak(utterance);
+
+      var selectedVoice = jpSpeechVoice || pickJapaneseVoice(synth.getVoices ? synth.getVoices() : []);
+      if (selectedVoice) {
+        utterance.voice = selectedVoice;
+        if (selectedVoice.lang) utterance.lang = selectedVoice.lang;
+      }
+
+      try {
+        if (typeof synth.resume === 'function') synth.resume();
+      } catch (e) {}
+
+      try {
+        synth.speak(utterance);
+      } catch (e) {}
+    }, 60);
+  }
+
+  function pickJapaneseVoice(voices) {
+    if (!voices || !voices.length) return null;
+    var exactMatch = null;
+    var genericMatch = null;
+    for (var i = 0; i < voices.length; i++) {
+      var voice = voices[i];
+      if (!voice || !voice.lang) continue;
+      var lang = String(voice.lang).toLowerCase();
+      if (!exactMatch && lang === 'ja-jp') exactMatch = voice;
+      if (!genericMatch && lang.indexOf('ja') === 0) genericMatch = voice;
     }
+    return exactMatch || genericMatch || null;
+  }
+
+  function cacheJapaneseVoice() {
+    if (!('speechSynthesis' in window) || typeof window.speechSynthesis.getVoices !== 'function') return;
+    var voices = window.speechSynthesis.getVoices();
+    var selected = pickJapaneseVoice(voices);
+    if (selected) jpSpeechVoice = selected;
+  }
+
+  function ensureJpSpeechInitialized() {
+    if (!('speechSynthesis' in window)) return;
+    var synth = window.speechSynthesis;
+
+    if (!jpSpeechInitStarted) {
+      jpSpeechInitStarted = true;
+      cacheJapaneseVoice();
+      if ('onvoiceschanged' in synth) {
+        synth.onvoiceschanged = cacheJapaneseVoice;
+      }
+    }
+
+    try {
+      if (typeof synth.resume === 'function') synth.resume();
+    } catch (e) {}
   }
 
   function createKanaSection(title, icon, rows, mode, colHeaders, isYoon) {

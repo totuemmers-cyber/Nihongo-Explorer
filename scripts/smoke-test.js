@@ -107,7 +107,15 @@ async function run() {
       window.cancelAnimationFrame = function (id) { clearTimeout(id); };
       window.SpeechSynthesisUtterance = function (text) { this.text = text; };
       window.speechSynthesis = {
+        _voices: [{ name: 'Test Japanese', lang: 'ja-JP' }],
+        speaking: false,
+        pending: false,
+        onvoiceschanged: null,
         cancel() {},
+        getVoices() {
+          return this._voices.slice();
+        },
+        resume() {},
         speak(utterance) {
           spokenTexts.push(utterance && utterance.text ? utterance.text : '');
         }
@@ -173,6 +181,14 @@ async function run() {
     return spokenTexts.length > 0;
   }, { description: 'vocab speech playback' });
   assert(spokenTexts[spokenTexts.length - 1] === 'ことばつき', 'Expected vocab speech to use reading, got: ' + spokenTexts[spokenTexts.length - 1]);
+
+  spokenTexts.length = 0;
+  window.app.speakJP('か');
+  window.app.speakJP('かな');
+  await waitFor(function () {
+    return spokenTexts.length > 0;
+  }, { description: 'latest speech request playback' });
+  assert(spokenTexts[spokenTexts.length - 1] === 'かな', 'Expected latest speech request to win, got: ' + spokenTexts[spokenTexts.length - 1]);
 
   click(document.getElementById('vocab-close-detail'), window);
   await waitFor(function () {
