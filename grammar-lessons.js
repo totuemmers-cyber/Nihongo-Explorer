@@ -263,8 +263,8 @@
             { jp: 'う・つ・る → って', romaji: '(u/tsu/ru → tte)', de: '買う→買って, 待つ→待って, 帰る→帰って' },
             { jp: 'む・ぶ・ぬ → んで', romaji: '(mu/bu/nu → nde)', de: '飲む→飲んで, 遊ぶ→遊んで, 死ぬ→死んで' },
             { jp: 'く → いて', romaji: '(ku → ite)', de: '書く→書いて, 聞く→聞いて' },
-            { jp: '泳ぐ → 泳いで', romaji: 'oyogu → oyoide', de: 'ぐ → いで (stimmhaft! vgl. く → いて)' },
-            { jp: '話す → 話して', romaji: 'hanasu → hanashite', de: 'す → して (s-Reihe)' },
+            { jp: 'ぐ → いで', romaji: '(gu → ide)', de: '泳ぐ→泳いで, 急ぐ→急いで' },
+            { jp: 'す → して', romaji: '(su → shite)', de: '話す→話して, 消す→消して' },
           ],
           tip: 'Ausnahme: 行く (iku) wird zu 行って (itte), nicht 行いて. Das ist die einzige Ausnahme in dieser Kategorie — und sie kommt so oft vor, dass man sie automatisch lernt.'
         },
