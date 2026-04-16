@@ -1450,10 +1450,10 @@
     {
       id: 'lesson-26',
       number: 26,
-      title: '～として & ～にとって',
-      subtitle: 'Rollen und Perspektiven',
+      title: '～として・～にとって・～によって',
+      subtitle: 'Rollen, Perspektiven und je nach Fall Mittel',
       level: 'N3/N2',
-      intro: 'Japanisch kann sehr präzise ausdrücken, aus welcher Perspektive oder in welcher Rolle jemand etwas tut oder erlebt. ～として bedeutet „als" (in einer bestimmten Eigenschaft), während ～にとって „für" (aus der Sicht von) bedeutet. Beide Ausdrücke klingen auf den ersten Blick ähnlich, aber sie beleuchten ganz unterschiedliche Aspekte einer Situation.',
+      intro: 'Japanisch kann sehr präzise ausdrücken, aus welcher Perspektive oder in welcher Rolle jemand etwas tut oder erlebt. ～として bedeutet „als" (in einer bestimmten Eigenschaft), ～にとって „für" (aus der Sicht von), und ～によって markiert je nach Kontext Mittel, Ursache oder Unterschiede. Diese Ausdrücke klingen auf den ersten Blick ähnlich sachlich, beleuchten aber unterschiedliche Aspekte einer Situation.',
       sections: [
         {
           heading: 'として — „Als" (in einer Rolle)',
@@ -1475,11 +1475,22 @@
           tip: 'にとって steht immer vor einer Bewertung (gut/schlecht/wichtig/schwierig...). Es leitet ein: „Aus DIESER Perspektive ist es SO."'
         },
         {
+          heading: 'によって — „Je nach", „durch", „von"',
+          text: 'によって ist vielseitiger als die beiden anderen Muster. Es kann <strong>Unterschiede je nach Fall</strong>, ein <strong>Mittel oder eine Ursache</strong> und im Passiv auch den <strong>Urheber</strong> markieren. Für den Alltag ist besonders die Bedeutung „je nach ..." wichtig.',
+          examples: [
+            { jp: '人によって考え方が違う。', romaji: 'Hito ni yotte kangaekata ga chigau.', de: 'Je nach Person unterscheidet sich die Denkweise.' },
+            { jp: 'この歌は多くの人によって愛されている。', romaji: 'Kono uta wa ōku no hito ni yotte aisarete iru.', de: 'Dieses Lied wird von vielen Menschen geliebt.' },
+            { jp: '台風によって電車が止まった。', romaji: 'Taifū ni yotte densha ga tomatta.', de: 'Durch den Taifun wurden die Züge angehalten.' }
+          ],
+          tip: 'Merke dir als sichere Startpunkte: 人によって = je nach Person, ～によって作られた = von ... gemacht, ～によって変わる = verändert sich durch/je nach ...'
+        },
+        {
           heading: 'Der Unterschied in der Praxis',
-          text: 'Der Kern: <strong>として = objektive Rolle</strong> (was bin ich?), <strong>にとって = subjektive Perspektive</strong> (wie sehe ich es?). Man kann beide über die gleiche Person verwenden, aber sie beleuchten unterschiedliche Aspekte.',
+          text: 'Der Kern: <strong>として = objektive Rolle</strong> (was bin ich?), <strong>にとって = subjektive Perspektive</strong> (wie sehe ich es?), <strong>によって = Bedingung, Mittel oder Urheber</strong> (wodurch / je nach was / von wem?). Man kann dieselbe Situation mit verschiedenen Blickwinkeln beschreiben, aber die Muster beantworten unterschiedliche Fragen.',
           examples: [
             { jp: '教師として生徒を指導する。', romaji: 'Kyōshi to shite seito o shidō suru.', de: 'Als Lehrer leite ich die Schüler an. (Meine Rolle)' },
             { jp: '教師にとって生徒の成長が一番嬉しい。', romaji: 'Kyōshi ni totte seito no seichō ga ichiban ureshii.', de: 'Für einen Lehrer ist das Wachstum der Schüler am erfreulichsten. (Meine Perspektive)' },
+            { jp: '教師によって教え方が違う。', romaji: 'Kyōshi ni yotte oshiekata ga chigau.', de: 'Je nach Lehrer unterscheidet sich die Art zu unterrichten. (Der Unterschied hängt vom Träger ab)' },
             { jp: '彼は俳優としては有名だ。', romaji: 'Kare wa haiyū to shite wa yūmei da.', de: 'Als Schauspieler ist er berühmt. (In dieser Rolle)' },
           ]
         }
@@ -1538,11 +1549,12 @@
       sections: [
         {
           heading: 'に対して — Gegenüber, im Gegensatz zu',
-          text: 'に対して hat zwei Hauptbedeutungen: 1) <strong>„gegenüber"</strong> — eine Handlung oder Haltung, die auf jemanden/etwas gerichtet ist. 2) <strong>„im Gegensatz zu"</strong> — ein direkter Kontrast zwischen zwei Dingen.',
+          text: 'に対して hat zwei Hauptbedeutungen: 1) <strong>„gegenüber"</strong> — eine Handlung oder Haltung, die auf jemanden/etwas gerichtet ist. 2) <strong>„im Gegensatz zu"</strong> — ein direkter Kontrast zwischen zwei Dingen. In sachlicher Sprache taucht außerdem oft die Lesart <strong>„in Bezug auf / als Reaktion auf"</strong> auf.',
           examples: [
             { jp: '先生は生徒に対して厳しい。', romaji: 'Sensei wa seito ni taishite kibishii.', de: 'Der Lehrer ist gegenüber den Schülern streng.' },
             { jp: '彼のやり方に対して反対意見が出た。', romaji: 'Kare no yarikata ni taishite hantai iken ga deta.', de: 'Gegenüber seiner Vorgehensweise kam Widerspruch auf.' },
-            { jp: '男性の平均寿命が81歳であるのに対して、女性は87歳だ。', romaji: 'Dansei no heikin jumyō ga 81-sai de aru no ni taishite, josei wa 87-sai da.', de: 'Während die durchschnittliche Lebenserwartung der Männer 81 Jahre beträgt, liegt die der Frauen bei 87.' }
+            { jp: '男性の平均寿命が81歳であるのに対して、女性は87歳だ。', romaji: 'Dansei no heikin jumyō ga 81-sai de aru no ni taishite, josei wa 87-sai da.', de: 'Während die durchschnittliche Lebenserwartung der Männer 81 Jahre beträgt, liegt die der Frauen bei 87.' },
+            { jp: 'その質問に対して、彼はすぐ答えました。', romaji: 'Sono shitsumon ni taishite, kare wa sugu kotaemashita.', de: 'Auf diese Frage antwortete er sofort.' }
           ]
         },
         {
@@ -3771,19 +3783,20 @@
       id: 'lesson-84',
       number: 84,
       title: '時間の表現',
-      subtitle: 'Zeitausdrücke — 前に・後で・時・ごろ・まで・から・間',
+      subtitle: 'Zeitausdrücke — 前に・後で・時・てから・ごろ・まで・から・間',
       level: 'N5',
-      intro: 'Zeit spielt in jeder Sprache eine zentrale Rolle, und Japanisch hat ein elegantes System, um zeitliche Beziehungen auszudrücken. In dieser Lektion lernst du die wichtigsten Zeitwörter und -partikel kennen — von „bevor" über „nachdem" bis hin zu „während". Mit diesen Bausteinen kannst du erzählen, was du wann gemacht hast, was du als Nächstes vorhast und wie dein Tagesablauf aussieht. Die gute Nachricht: Die meisten Formen folgen klaren, logischen Mustern.',
+      intro: 'Zeit spielt in jeder Sprache eine zentrale Rolle, und Japanisch hat ein elegantes System, um zeitliche Beziehungen auszudrücken. In dieser Lektion lernst du die wichtigsten Zeitwörter und -partikel kennen — von „bevor" über „nachdem" und „erst dann" bis hin zu „während". Mit diesen Bausteinen kannst du erzählen, was du wann gemacht hast, was du als Nächstes vorhast und wie dein Tagesablauf aussieht. Die gute Nachricht: Die meisten Formen folgen klaren, logischen Mustern.',
       sections: [
         {
-          heading: '前に・後で — Vorher und Nachher',
-          text: '<strong>前に (まえに)</strong> bedeutet „bevor" oder „vor" und wird entweder an ein Verb in der Grundform (辞書形) oder an ein Nomen + の angehängt. <strong>後で (あとで)</strong> bedeutet „nachdem" oder „nach" und folgt auf die た-Form eines Verbs oder auf ein Nomen + の. Beide sind unverzichtbar, um zeitliche Abfolgen zu beschreiben. Beachte: 前に kann auch räumlich „vor" bedeuten (建物の前に = vor dem Gebäude).',
+          heading: '前に・後で・てから — Vorher, Nachher und erst dann',
+          text: '<strong>前に (まえに)</strong> bedeutet „bevor" oder „vor" und wird entweder an ein Verb in der Grundform (辞書形) oder an ein Nomen + の angehängt. <strong>後で (あとで)</strong> bedeutet „nachdem" oder „nach" und folgt auf die た-Form eines Verbs oder auf ein Nomen + の. <strong>～てから</strong> bedeutet ebenfalls „nachdem", betont aber die Reihenfolge stärker: erst A, dann B. Diese drei Muster sind unverzichtbar, um zeitliche Abfolgen zu beschreiben. Beachte: 前に kann auch räumlich „vor" bedeuten (建物の前に = vor dem Gebäude).',
           examples: [
             { jp: '寝る前に歯を磨きます。', romaji: 'Neru mae ni ha o migakimasu.', de: 'Bevor ich schlafe, putze ich mir die Zähne.' },
             { jp: '食べた後でコーヒーを飲みます。', romaji: 'Tabeta ato de kōhī o nomimasu.', de: 'Nachdem ich gegessen habe, trinke ich Kaffee.' },
+            { jp: '家に帰ってから宿題をします。', romaji: 'Ie ni kaette kara shukudai o shimasu.', de: 'Erst nachdem ich nach Hause gekommen bin, mache ich Hausaufgaben.' },
             { jp: '授業の前に予習します。', romaji: 'Jugyō no mae ni yoshū shimasu.', de: 'Vor dem Unterricht bereite ich mich vor.' },
           ],
-          tip: '前に nimmt die Grundform (辞書形), nicht die ます-Form: 食べる前に (richtig), 食べます前に (falsch). 後で nimmt die た-Form: 食べた後で (richtig).'
+          tip: '前に nimmt die Grundform (辞書形), nicht die ます-Form: 食べる前に (richtig), 食べます前に (falsch). 後で nimmt die た-Form: 食べた後で. ～てから klingt oft stärker nach „und erst dann".'
         },
         {
           heading: '時・ごろ — Zeitpunkt und ungefähre Zeit',
@@ -5125,38 +5138,6 @@
       ]
     },
 
-    // ===================== LEKTION 121 =====================
-    {
-      id: 'lesson-121',
-      number: 121,
-      learningOrder: 14.5,
-      title: '～前に・～後で・～時・～てから',
-      subtitle: 'Zeitabfolge auf N5 — bevor, nachdem, wenn, erst dann',
-      level: 'N5',
-      intro: 'Diese Zeitmuster gehören zum Kernbestand der Anfängergrammatik. Sie helfen dabei, Ereignisse in eine Reihenfolge zu bringen und sind eine Voraussetzung für natürliches Erzählen über Alltag und Routine.',
-      sections: [
-        {
-          heading: '～前に und ～後で',
-          text: '<strong>Verb im Wörterbuch + 前に</strong> bedeutet „bevor man ...“. <strong>Verb in der た-Form + 後で</strong> bedeutet „nachdem man ...“. Die Zeitlogik steckt also direkt in der Verbform.',
-          examples: [
-            { jp: '寝る前に本を読みます。', romaji: 'Neru mae ni hon o yomimasu.', de: 'Ich lese vor dem Schlafengehen ein Buch.' },
-            { jp: 'ご飯を食べた後で、散歩しました。', romaji: 'Gohan o tabeta ato de, sanpo shimashita.', de: 'Nachdem ich gegessen hatte, bin ich spazieren gegangen.' },
-          ],
-          tip: 'Vor 前に steht die Wörterbuchform, vor 後で meistens die た-Form. Genau das wird oft verwechselt.'
-        },
-        {
-          heading: '～時 und ～てから',
-          text: '<strong>～時</strong> markiert den Zeitpunkt „wenn / als“. Je nach Verbform vor 時 kann die Handlung vorher oder gleichzeitig gemeint sein. <strong>～てから</strong> bedeutet klar „erst nachdem ...“ und legt die Reihenfolge stärker fest als 後で.',
-          examples: [
-            { jp: '日本へ行く時、カメラを買いました。', romaji: 'Nihon e iku toki, kamera o kaimashita.', de: 'Als ich nach Japan fuhr, habe ich eine Kamera gekauft.' },
-            { jp: '家に帰ってから宿題をします。', romaji: 'Ie ni kaette kara shukudai o shimasu.', de: 'Erst nachdem ich nach Hause gekommen bin, mache ich Hausaufgaben.' },
-            { jp: '子どもの時、よく川で遊びました。', romaji: 'Kodomo no toki, yoku kawa de asobimashita.', de: 'Als ich ein Kind war, habe ich oft am Fluss gespielt.' },
-          ],
-          tip: '～てから betont die Reihenfolge stärker als 後で. Es klingt oft wie „und erst dann“.'
-        }
-      ]
-    },
-
     // ===================== LEKTION 122 =====================
     {
       id: 'lesson-122',
@@ -5515,59 +5496,6 @@
       ]
     },
 
-    // ===================== LEKTION 134 =====================
-    {
-      id: 'lesson-134',
-      number: 134,
-      learningOrder: 9.25,
-      title: '～ことになっている',
-      subtitle: 'Regeln und festgelegte Abläufe',
-      level: 'N4',
-      intro: '～ことになっている wirkt ähnlich wie ～ことになる, ist aber nicht dasselbe. Hier geht es nicht um eine einmalige Entscheidung, sondern um eine bestehende Regel, Vereinbarung oder vorgesehene Ordnung.',
-      sections: [
-        {
-          heading: 'Bestehende Regeln',
-          text: '<strong>Verb + ことになっている</strong> bedeutet, dass etwas als Regel, Plan oder offizieller Ablauf festgelegt ist. Der Sprecher beschreibt also eine bestehende Ordnung, nicht seine persönliche Entscheidung.',
-          examples: [
-            { jp: 'この図書館では大きい声で話さないことになっています。', romaji: 'Kono toshokan de wa ōkii koe de hanasanai koto ni natte imasu.', de: 'In dieser Bibliothek gilt die Regel, nicht laut zu sprechen.' },
-            { jp: '会議は毎週月曜日にあることになっています。', romaji: 'Kaigi wa maishū getsuyōbi ni aru koto ni natte imasu.', de: 'Es ist vorgesehen, dass die Besprechung jeden Montag stattfindet.' },
-          ],
-          tip: '～ことにする = ich entscheide. ～ことになる = es wurde entschieden. ～ことになっている = es ist als Regel oder System so festgelegt.'
-        }
-      ]
-    },
-
-    // ===================== LEKTION 135 =====================
-    {
-      id: 'lesson-135',
-      number: 135,
-      learningOrder: 13.75,
-      title: '～として・～にとって・～によって',
-      subtitle: 'Rolle, Perspektive und Mittel',
-      level: 'N4',
-      intro: 'Diese drei Partikelmuster sind für N4 wichtig, weil sie Perspektive und Funktion präziser machen. Man spricht über eine Rolle, über die Sichtweise einer Person oder über Ursache, Mittel und Unterschiede je nach Fall.',
-      sections: [
-        {
-          heading: '～として und ～にとって',
-          text: '<strong>～として</strong> bedeutet „als, in der Rolle von“. <strong>～にとって</strong> bedeutet „für, aus der Sicht von“. Beide Strukturen setzen einen Bezugsrahmen, aber nicht denselben.',
-          examples: [
-            { jp: '私は学生としてこの問題を考えます。', romaji: 'Watashi wa gakusei toshite kono mondai o kangaemasu.', de: 'Ich denke über dieses Problem als Student nach.' },
-            { jp: '私にとって家族が一番大切です。', romaji: 'Watashi ni totte kazoku ga ichiban taisetsu desu.', de: 'Für mich ist Familie am wichtigsten.' },
-          ],
-          tip: 'として beschreibt die Rolle, にとって die Perspektive oder Bewertung.'
-        },
-        {
-          heading: '～によって — je nach / durch',
-          text: '<strong>～によって</strong> kann Mittel, Ursache oder Unterschied je nach Fall ausdrücken. Auf N4 reicht es, die häufige Bedeutung „je nach ...“ und die instrumentelle Bedeutung sicher zu erkennen.',
-          examples: [
-            { jp: '人によって考え方が違います。', romaji: 'Hito ni yotte kangaekata ga chigaimasu.', de: 'Je nach Person unterscheidet sich die Denkweise.' },
-            { jp: 'この歌は多くの人によって愛されています。', romaji: 'Kono uta wa ōku no hito ni yotte aisarete imasu.', de: 'Dieses Lied wird von vielen Menschen geliebt.' },
-          ],
-          tip: '～によって ist vielseitig. Für N4 ist „je nach ...“ eine der wichtigsten Lesarten.'
-        }
-      ]
-    },
-
     // ===================== LEKTION 136 =====================
     {
       id: 'lesson-136',
@@ -5684,38 +5612,6 @@
       ]
     },
 
-    // ===================== LEKTION 140 =====================
-    {
-      id: 'lesson-140',
-      number: 140,
-      learningOrder: 11.5,
-      title: '～ている',
-      subtitle: 'Gerade tun und als Zustand bestehen',
-      level: 'N5',
-      intro: '～ている gehört zu den wichtigsten N5-Strukturen überhaupt. Es bedeutet nicht nur „gerade etwas tun“, sondern oft auch, dass ein Zustand als Ergebnis einer Handlung besteht. Genau dieser Unterschied ist für JLPT-Aufgaben zentral.',
-      sections: [
-        {
-          heading: 'Verlaufsform',
-          text: '<strong>て-Form + いる</strong> bedeutet oft, dass eine Handlung gerade im Verlauf ist. Im höflichen Stil wird daraus meist ～ています.',
-          examples: [
-            { jp: '今、日本語を勉強しています。', romaji: 'Ima, nihongo o benkyō shite imasu.', de: 'Ich lerne gerade Japanisch.' },
-            { jp: '母は電話で話しています。', romaji: 'Haha wa denwa de hanashite imasu.', de: 'Meine Mutter telefoniert gerade.' },
-          ],
-          tip: 'Bei momentanen Handlungen passt im Deutschen oft „gerade“.'
-        },
-        {
-          heading: 'Zustand als Ergebnis',
-          text: 'Viele Verben beschreiben mit ～ている keinen laufenden Vorgang, sondern einen Zustand, der schon eingetreten ist. Das ist bei Bewegungs- und Zustandsverben besonders wichtig.',
-          examples: [
-            { jp: '田中さんは東京に住んでいます。', romaji: 'Tanaka-san wa Tōkyō ni sunde imasu.', de: 'Tanaka wohnt in Tokio.' },
-            { jp: '父は眼鏡をかけています。', romaji: 'Chichi wa megane o kakete imasu.', de: 'Mein Vater trägt eine Brille.' },
-            { jp: 'ドアが開いています。', romaji: 'Doa ga aite imasu.', de: 'Die Tür ist offen.' },
-          ],
-          tip: '住んでいる, 知っている, 持っている und 結婚している sind typische JLPT-Fälle mit Zustandsbedeutung.'
-        }
-      ]
-    },
-
     // ===================== LEKTION 141 =====================
     {
       id: 'lesson-141',
@@ -5811,37 +5707,6 @@
       ]
     },
 
-    // ===================== LEKTION 144 =====================
-    {
-      id: 'lesson-144',
-      number: 144,
-      learningOrder: 11.25,
-      title: '～らしい・～そうだ（伝聞）',
-      subtitle: 'Anschein und Hörensagen sauber trennen',
-      level: 'N4',
-      intro: 'Diese beiden Muster sehen ähnlich aus, bedeuten aber nicht dasselbe. ～そうだ（伝聞） gibt wieder, was man gehört hat. ～らしい drückt eher ein typisches Bild oder eine auf Information beruhende Einschätzung aus. Für N4 ist diese Trennung sehr wichtig.',
-      sections: [
-        {
-          heading: '～そうだ（伝聞）',
-          text: '<strong>普通形 + そうだ</strong> bedeutet „ich habe gehört, dass ...“. Der Sprecher gibt Information weiter, ohne sie als eigene Beobachtung darzustellen.',
-          examples: [
-            { jp: '天気予報によると、明日は雪だそうです。', romaji: 'Tenki yohō ni yoru to, ashita wa yuki da sō desu.', de: 'Laut Wetterbericht soll es morgen schneien.' },
-            { jp: '山田さんは来月結婚するそうです。', romaji: 'Yamada-san wa raigetsu kekkon suru sō desu.', de: 'Ich habe gehört, dass Yamada nächsten Monat heiratet.' },
-          ],
-          tip: 'Nicht verwechseln mit 様態の～そうだ: おいしそう ist Eindruck, 来るそうだ ist Hörensagen.'
-        },
-        {
-          heading: '～らしい',
-          text: '<strong>普通形 + らしい</strong> bedeutet je nach Kontext „anscheinend“ oder „typisch für“. Oft basiert es auf mehreren Informationen oder auf einem allgemeinen Eindruck.',
-          examples: [
-            { jp: 'あの人は日本人らしいです。', romaji: 'Ano hito wa nihonjin rashii desu.', de: 'Diese Person scheint Japaner zu sein.' },
-            { jp: '今日は春らしい天気ですね。', romaji: 'Kyō wa haru rashii tenki desu ne.', de: 'Heute ist richtig frühlingshaftes Wetter.' },
-          ],
-          tip: '～らしい kann auch „typisch“ bedeuten. Genau diese zweite Bedeutung ist ein häufiger Stolperpunkt.'
-        }
-      ]
-    },
-
     // ===================== LEKTION 145 =====================
     {
       id: 'lesson-145',
@@ -5860,28 +5725,6 @@
             { jp: 'たまにこの駅で有名な人を見ることがあります。', romaji: 'Tama ni kono eki de yūmei na hito o miru koto ga arimasu.', de: 'Manchmal sieht man an diesem Bahnhof berühmte Leute.' },
           ],
           tip: '～たことがある = schon einmal erlebt. ～ことがある = kommt manchmal vor. Die Zeiten sind der Schlüssel.'
-        }
-      ]
-    },
-
-    // ===================== LEKTION 146 =====================
-    {
-      id: 'lesson-146',
-      number: 146,
-      learningOrder: 13.6,
-      title: '～に対して',
-      subtitle: 'Gegenüber und im Kontrast zu',
-      level: 'N4',
-      intro: '～に対して ist für N4 ein nützliches Vergleichs- und Gegenüber-Muster. Es verbindet zwei Dinge oder Personen, die einander gegenübergestellt oder kontrastiert werden.',
-      sections: [
-        {
-          heading: 'Grundbedeutung',
-          text: '<strong>Nomen + に対して</strong> bedeutet „gegenüber“, „im Gegensatz zu“ oder „in Bezug auf“. Oft stellt man damit zwei Seiten direkt nebeneinander.',
-          examples: [
-            { jp: '兄は外向的なのに対して、弟は静かです。', romaji: 'Ani wa gaikō-teki na no ni taishite, otōto wa shizuka desu.', de: 'Im Gegensatz zu meinem älteren Bruder ist mein jüngerer Bruder ruhig.' },
-            { jp: '先生は学生に対してとても親切です。', romaji: 'Sensei wa gakusei ni taishite totemo shinsetsu desu.', de: 'Der Lehrer ist den Schülern gegenüber sehr freundlich.' },
-          ],
-          tip: 'Für N4 reicht es, ～に対して als „gegenüber / im Gegensatz zu“ sicher zu erkennen. Die abstrakteren N2/N3-Nuancen können später kommen.'
         }
       ]
     },
@@ -6024,109 +5867,6 @@
       ]
     },
 
-    // ===================== LEKTION 151 =====================
-    {
-      id: 'lesson-151',
-      number: 151,
-      learningOrder: 13.1,
-      title: '～てあげる・～てくれる・～てもらう',
-      subtitle: 'Gefallen tun und Perspektive zeigen',
-      level: 'N4',
-      intro: 'Diese drei Muster gehoeren zu den wichtigsten sozial-perspektivischen Strukturen im Japanischen. Sie sagen nicht nur, dass eine Handlung passiert, sondern auch, wer wem den Gefallen tut und aus wessen Sicht die Situation erzaehlt wird. Genau das macht sie zu mehr als einer Wiederholung von あげる・くれる・もらう.',
-      sections: [
-        {
-          heading: '～てあげる — ich tue jemandem den Gefallen',
-          text: '<strong>て-Form + あげる</strong> bedeutet, dass der Sprecher oder eine andere Person jemandem eine Handlung als Gefallen zukommen laesst. Der Blick geht also vom Handelnden weg zur anderen Person.',
-          examples: [
-            { jp: '友だちに宿題を手伝ってあげました。', romaji: 'Tomodachi ni shukudai o tetsudatte agemashita.', de: 'Ich habe meinem Freund bei den Hausaufgaben geholfen.' },
-            { jp: '妹に漢字を教えてあげる。', romaji: 'Imoto ni kanji o oshiete ageru.', de: 'Ich erklaere meiner kleinen Schwester die Kanji.' }
-          ],
-          tip: '～てあげる klingt nicht immer neutral. Je nach Kontext kann mitschwingen, dass man sich selbst als Wohltäter darstellt.'
-        },
-        {
-          heading: '～てくれる — jemand tut mir oder meiner Gruppe etwas',
-          text: '<strong>て-Form + くれる</strong> bedeutet, dass jemand dem Sprecher oder seiner nahen Gruppe etwas Gutes tut. Genau deshalb steckt oft Dankbarkeit oder positive Wertung mit drin. Diese Perspektive ist im Alltag extrem wichtig.',
-          examples: [
-            { jp: '友だちが駅まで送ってくれました。', romaji: 'Tomodachi ga eki made okutte kuremashita.', de: 'Ein Freund hat mich bis zum Bahnhof gebracht.' },
-            { jp: '先生が丁寧に説明してくれました。', romaji: 'Sensei ga teinei ni setsumei shite kuremashita.', de: 'Der Lehrer hat es mir freundlich erklaert.' }
-          ],
-          tip: 'Wenn du Dankbarkeit oder Nutzen fuer den Sprecher ausdruecken willst, ist ～てくれる oft die natuerlichste Form.'
-        },
-        {
-          heading: '～てもらう — ich bekomme den Gefallen',
-          text: '<strong>て-Form + もらう</strong> beschreibt dieselbe Art von Situation aus der Perspektive des Empfaengers. Der Fokus liegt also darauf, dass man eine Handlung als Gefallen erhaelt. Diese Form ist oft nuetzlich, wenn man die eigene Erfahrung in den Mittelpunkt stellen will.',
-          examples: [
-            { jp: '友だちに荷物を持ってもらいました。', romaji: 'Tomodachi ni nimotsu o motte moraimashita.', de: 'Ich habe meinen Freund die Taschen tragen lassen / Er hat mir die Taschen getragen.' },
-            { jp: '日本人の友だちに作文を見てもらいました。', romaji: 'Nihonjin no tomodachi ni sakubun o mite moraimashita.', de: 'Ich habe einen japanischen Freund meinen Aufsatz anschauen lassen.' }
-          ],
-          tip: '～てもらう ist oft natuerlicher, wenn du ueber die Hilfe sprichst, die du bekommen hast.'
-        },
-        {
-          heading: 'Der eigentliche Lernkern: Perspektive',
-          text: 'Die Handlung selbst kann dieselbe sein, aber die Perspektive aendert sich. <strong>～てあげる</strong> blickt vom Gebenden aus, <strong>～てくれる</strong> vom Nutzen fuer mich oder meine Gruppe, <strong>～てもらう</strong> vom Empfangen des Gefallens. Genau diese Perspektivwahl macht japanische Saetze natuerlich oder unnatuerlich.',
-          examples: [
-            { jp: '私は友だちに道を教えてあげました。', romaji: 'Watashi wa tomodachi ni michi o oshiete agemashita.', de: 'Ich habe meinem Freund den Weg erklaert.' },
-            { jp: '友だちが道を教えてくれました。', romaji: 'Tomodachi ga michi o oshiete kuremashita.', de: 'Mein Freund hat mir den Weg erklaert.' },
-            { jp: '友だちに道を教えてもらいました。', romaji: 'Tomodachi ni michi o oshiete moraimashita.', de: 'Ich habe mir von meinem Freund den Weg erklaeren lassen.' }
-          ],
-          tip: 'Die haeufigste Fehlerquelle ist nicht die Form, sondern die falsche Perspektive im Satz.'
-        }
-      ]
-    },
-
-    // ===================== LEKTION 152 =====================
-    {
-      id: 'lesson-152',
-      number: 152,
-      learningOrder: 11.25,
-      title: '～そうだ・～そうな・～そうに',
-      subtitle: 'Sichtbarer Eindruck und wie etwas wirkt',
-      level: 'N4',
-      intro: 'Diese Lektion behandelt nur die Sichtbarkeits- oder Eindruckslesart von そう. Das ist didaktisch wichtig, weil dieselbe Lautform auch als Hoerensagen vorkommt. Hier geht es aber nicht um „ich habe gehoert“, sondern um den Eindruck: etwas sieht so aus, wirkt so oder scheint aufgrund direkter Beobachtung so zu sein.',
-      sections: [
-        {
-          heading: 'Die Grundidee von 様態そう',
-          text: '<strong>～そうだ</strong> in dieser Lesart drueckt einen sichtbaren oder unmittelbar wahrnehmbaren Eindruck aus. Der Sprecher urteilt also nach Aussehen, Verhalten oder Stimmung. Das Muster ist auf N4 extrem haeufig, weil man damit sehr natuerlich reagieren kann: lecker aussehend, traurig wirkend, gleich regnend.',
-          examples: [
-            { jp: 'このケーキはおいしそうです。', romaji: 'Kono keki wa oishiso desu.', de: 'Dieser Kuchen sieht lecker aus.' },
-            { jp: '雨が降りそうです。', romaji: 'Ame ga furiso desu.', de: 'Es sieht so aus, als ob es regnen wird.' },
-            { jp: '彼はとても元気そうです。', romaji: 'Kare wa totemo genkiso desu.', de: 'Er sieht sehr fit aus.' }
-          ],
-          tip: 'Die Frage ist immer: urteile ich aus direkter Beobachtung? Wenn ja, ist dieses そう sehr oft passend.'
-        },
-        {
-          heading: 'Bildung mit Verben und Adjektiven',
-          text: 'Bei <strong>Verben</strong> steht meist der ます-Stamm vor そう: 降ります → 降りそう. Bei <strong>i-Adjektiven</strong> faellt das い weg: おいしい → おいしそう. Bei <strong>na-Adjektiven</strong> nimmt man den Stamm direkt: 元気そう. Genau diese regelmaessige Bildung macht das Muster produktiv und alltagstauglich.',
-          examples: [
-            { jp: 'この本は難しそうです。', romaji: 'Kono hon wa muzukashiso desu.', de: 'Dieses Buch sieht schwierig aus.' },
-            { jp: 'その仕事は大変そうです。', romaji: 'Sono shigoto wa taihenso desu.', de: 'Diese Arbeit wirkt anstrengend.' },
-            { jp: '子どもが泣きそうです。', romaji: 'Kodomo ga nakiso desu.', de: 'Das Kind sieht aus, als ob es gleich weinen wuerde.' }
-          ],
-          tip: 'Nicht mit der Hoerensagen-Form verwechseln: 来そう = wirkt, als kaeme jemand gleich; 来るそうだ = ich habe gehoert, dass jemand kommt.'
-        },
-        {
-          heading: '～そうな vor Nomen und ～そうに als Adverb',
-          text: 'Weil dieses そう wie ein na-Adjektiv funktioniert, kann man es auch vor Nomen und adverbial benutzen. <strong>～そうな + Nomen</strong> bedeutet etwa „ein ... aussehendes X“, <strong>～そうに + Verb</strong> beschreibt, wie jemand etwas tut oder wirkt.',
-          examples: [
-            { jp: 'おいしそうなラーメンですね。', romaji: 'Oishiso na ramen desu ne.', de: 'Das sieht nach leckerem Ramen aus.' },
-            { jp: '彼女は楽しそうに話しています。', romaji: 'Kanojo wa tanoshiso ni hanashite imasu.', de: 'Sie spricht so, als haette sie Spass.' },
-            { jp: '彼は悲しそうな顔をしています。', romaji: 'Kare wa kanashiso na kao o shite imasu.', de: 'Er macht ein traurig wirkendes Gesicht.' }
-          ],
-          tip: 'Ein guter Lerntrick: そうな haengt an Nomen, そうに modifiziert Verben oder die Art und Weise.'
-        },
-        {
-          heading: 'Abgrenzung zu そうだ (伝聞), らしい, ようだ, みたいだ',
-          text: '<strong>様態そう</strong> basiert auf direkter Beobachtung. <strong>伝聞そうだ</strong> gibt Gehoertes weiter. <strong>らしい</strong> klingt eher nach typischer Eigenschaft oder informierter Einschaetzung. <strong>ようだ / みたいだ</strong> sind Schlussfolgerungen oder Vergleiche und oft etwas breiter als ein rein visueller Eindruck.',
-          examples: [
-            { jp: 'おいしそうです。', romaji: 'Oishiso desu.', de: 'Es sieht lecker aus.' },
-            { jp: 'おいしいそうです。', romaji: 'Oishii so desu.', de: 'Ich habe gehoert, dass es lecker ist.' },
-            { jp: 'あの人は先生らしいです。', romaji: 'Ano hito wa sensei rashii desu.', de: 'Es heisst / es wirkt so, als waere die Person Lehrer.' }
-          ],
-          tip: 'Bei JLPT-Aufgaben ist die Schluesselfrage oft: sehe ich es gerade oder gebe ich eine Information weiter?'
-        }
-      ]
-    },
-
     // ===================== LEKTION 153 =====================
     {
       id: 'lesson-153',
@@ -6191,9 +5931,9 @@
   var DIDACTIC_ORDER_BY_LEVEL = {
     'N5': [
       'lesson-3', 'lesson-1', 'lesson-2', 'lesson-103', 'lesson-104',
-      'lesson-81', 'lesson-82', 'lesson-4', 'lesson-5', 'lesson-140',
+      'lesson-81', 'lesson-82', 'lesson-4', 'lesson-5',
       'lesson-6', 'lesson-7', 'lesson-88', 'lesson-91', 'lesson-120',
-      'lesson-121', 'lesson-83', 'lesson-84', 'lesson-85', 'lesson-86',
+      'lesson-83', 'lesson-84', 'lesson-85', 'lesson-86',
       'lesson-95', 'lesson-96', 'lesson-141', 'lesson-122', 'lesson-123',
       'lesson-142', 'lesson-87', 'lesson-92', 'lesson-93', 'lesson-94',
       'lesson-89', 'lesson-90'
@@ -6204,12 +5944,12 @@
     'N4': [
       'lesson-31', 'lesson-14', 'lesson-15', 'lesson-98', 'lesson-99',
       'lesson-97', 'lesson-100', 'lesson-101', 'lesson-10', 'lesson-105',
-      'lesson-102', 'lesson-106', 'lesson-152', 'lesson-108', 'lesson-13', 'lesson-151',
+      'lesson-102', 'lesson-106', 'lesson-108', 'lesson-13',
       'lesson-11', 'lesson-12', 'lesson-107', 'lesson-124', 'lesson-125',
       'lesson-153', 'lesson-126', 'lesson-127', 'lesson-128', 'lesson-129', 'lesson-130',
-      'lesson-131', 'lesson-132', 'lesson-133', 'lesson-134', 'lesson-135',
+      'lesson-131', 'lesson-132', 'lesson-133',
       'lesson-136', 'lesson-137', 'lesson-138', 'lesson-139', 'lesson-143',
-      'lesson-144', 'lesson-145', 'lesson-146', 'lesson-147', 'lesson-148',
+      'lesson-145', 'lesson-147', 'lesson-148',
       'lesson-149'
     ],
     'N4/N3': [
@@ -6458,88 +6198,6 @@
     ]
   });
 
-  overrideLesson('lesson-134', {
-    title: '～ことになっている',
-    subtitle: 'Regeln und festgelegte Abläufe',
-    intro: '～ことになっている wirkt ähnlich wie ～ことになる, ist aber nicht dasselbe. Hier geht es nicht um eine einmalige Entscheidung, sondern um eine bestehende Regel, Vereinbarung oder vorgesehene Ordnung. Genau deshalb begegnet dir die Form oft auf Schildern, in Hausordnungen, Kursregeln, Fahrplänen und offiziellen Abläufen.',
-    sections: [
-      {
-        heading: 'Bestehende Regeln',
-        text: '<strong>Verb + ことになっている</strong> bedeutet, dass etwas als Regel, Plan oder offizieller Ablauf festgelegt ist. Der Sprecher beschreibt also eine bestehende Ordnung, nicht seine persönliche Entscheidung.',
-        examples: [
-          { jp: 'この図書館では大きい声で話さないことになっています。', romaji: 'Kono toshokan de wa okii koe de hanasanai koto ni natte imasu.', de: 'In dieser Bibliothek gilt die Regel, nicht laut zu sprechen.' },
-          { jp: '会議は毎週月曜日にあることになっています。', romaji: 'Kaigi wa maishu getsuyobi ni aru koto ni natte imasu.', de: 'Es ist vorgesehen, dass die Besprechung jeden Montag stattfindet.' }
-        ],
-        tip: '～ことにする = ich entscheide. ～ことになる = es wurde entschieden. ～ことになっている = es ist als Regel oder System so festgelegt.'
-      },
-      {
-        heading: 'Wann die Form natürlich klingt',
-        text: 'Die Struktur klingt besonders natürlich, wenn die Regel nicht nur heute einmal gilt, sondern als wiederkehrender oder institutioneller Rahmen verstanden wird. Darum passt sie gut zu Schulregeln, Firmenabläufen, Hausordnungen und offiziellen Programmen. Für spontane Entscheidungen ist sie meist zu schwer.',
-        examples: [
-          { jp: 'この会社では九時までに出社することになっています。', romaji: 'Kono kaisha de wa kuji made ni shussha suru koto ni natte imasu.', de: 'In dieser Firma gilt, dass man bis neun Uhr bei der Arbeit sein muss.' },
-          { jp: '旅行の二日目は自由行動ということになっています。', romaji: 'Ryoko no futsukame wa jiyu kodo to iu koto ni natte imasu.', de: 'Am zweiten Reisetag ist freie Zeit vorgesehen.' }
-        ],
-        tip: 'Wenn du im Deutschen „es ist vorgesehen, dass ...“ oder „es gilt, dass ...“ sagen würdest, ist ～ことになっている oft passend.'
-      },
-      {
-        heading: 'Der wichtige Kontrast: ことにする / ことになる / ことになっている',
-        text: 'Diese drei Formen werden ständig verwechselt, weil sie ähnlich aussehen, aber verschiedene Perspektiven haben. <strong>ことにする</strong> ist die eigene Entscheidung. <strong>ことになる</strong> ist das Ergebnis einer Entscheidung oder Entwicklung. <strong>ことになっている</strong> beschreibt den Zustand, in dem diese Entscheidung inzwischen als Regel oder Vorgabe gilt.',
-        examples: [
-          { jp: '毎朝走ることにしました。', romaji: 'Maiasa hashiru koto ni shimashita.', de: 'Ich habe beschlossen, jeden Morgen zu laufen.' },
-          { jp: '来月から大阪へ行くことになりました。', romaji: 'Raigetsu kara Osaka e iku koto ni narimashita.', de: 'Es wurde entschieden / es hat sich ergeben, dass ich ab nächstem Monat nach Osaka gehe.' },
-          { jp: '新人は最初の一週間、先輩と行動することになっています。', romaji: 'Shinjin wa saisho no isshukan, senpai to kodo suru koto ni natte imasu.', de: 'Für Neue gilt die Regel, in der ersten Woche mit einem Senior zusammenzuarbeiten.' }
-        ],
-        tip: 'Denk in Perspektiven: Entscheidung treffen, Entscheidung entstehen, Entscheidung als Regel bestehen.'
-      }
-    ]
-  });
-
-  overrideLesson('lesson-135', {
-    title: '～として・～にとって・～によって',
-    subtitle: 'Rolle, Perspektive und je nach Fall',
-    intro: 'Diese drei Muster wirken auf den ersten Blick aehnlich sachlich, leisten aber unterschiedliche Dinge. Mit ～として beschreibt man eine Rolle oder Funktion, mit ～にとって eine Bewertung aus einer bestimmten Sicht, und mit ～によって aendert man je nach Fall Mittel, Ursache oder Unterschiede. Der eigentliche Lernkern ist also nicht die Form, sondern der Blickwinkel.',
-    sections: [
-      {
-        heading: '～として — als, in der Rolle von',
-        text: '<strong>Nomen + として</strong> beschreibt eine Rolle, Eigenschaft oder Funktion. Man sagt also, in welcher Eigenschaft jemand handelt oder beurteilt wird. Das passt gut zu Berufen, Positionen und Kategorien.',
-        examples: [
-          { jp: '私は学生としてこの問題を考えます。', romaji: 'Watashi wa gakusei toshite kono mondai o kangaemasu.', de: 'Ich denke ueber dieses Problem als Student nach.' },
-          { jp: '彼は作家として有名です。', romaji: 'Kare wa sakka toshite yumei desu.', de: 'Er ist als Schriftsteller bekannt.' }
-        ],
-        tip: 'Frage bei ～として: In welcher Rolle oder Eigenschaft wird jemand gesehen?'
-      },
-      {
-        heading: '～にとって — fuer, aus der Sicht von',
-        text: '<strong>Nomen + にとって</strong> markiert eine Perspektive oder Bewertungsbasis. Es geht also darum, wie etwas fuer eine bestimmte Person oder Gruppe wirkt. Gerade bei wichtig, einfach, schwierig oder wertvoll ist die Form sehr haeufig.',
-        examples: [
-          { jp: '私にとって家族が一番大切です。', romaji: 'Watashi ni totte kazoku ga ichiban taisetsu desu.', de: 'Fuer mich ist Familie am wichtigsten.' },
-          { jp: '子どもにとってこの本は難しいです。', romaji: 'Kodomo ni totte kono hon wa muzukashii desu.', de: 'Fuer Kinder ist dieses Buch schwierig.' }
-        ],
-        tip: '～にとって sagt nicht, was etwas IST, sondern wie es fuer jemanden bewertet wird.'
-      },
-      {
-        heading: '～によって — je nach / durch / von',
-        text: '<strong>Nomen + によって</strong> ist vielseitig. Auf N4 sind drei Lesarten wichtig: „je nach“, „durch / mittels“ und bei Passivsaetzen „von“. Das Muster muss also immer aus dem Kontext gelesen werden, nicht aus einer einzigen Vokabeluebersetzung.',
-        examples: [
-          { jp: '人によって考え方が違います。', romaji: 'Hito ni yotte kangaekata ga chigaimasu.', de: 'Je nach Person unterscheidet sich die Denkweise.' },
-          { jp: 'この歌は多くの人によって愛されています。', romaji: 'Kono uta wa oku no hito ni yotte aisarete imasu.', de: 'Dieses Lied wird von vielen Menschen geliebt.' },
-          { jp: 'インターネットによって情報を調べます。', romaji: 'Intanetto ni yotte joho o shirabemasu.', de: 'Ich recherchiere mit Hilfe des Internets.' }
-        ],
-        tip: 'Auf N4 reicht es nicht, nur „je nach“ zu kennen. Passiv mit „von“ ist ebenfalls sehr haeufig.'
-      },
-      {
-        heading: 'Die entscheidende Abgrenzung',
-        text: '<strong>～として</strong> = Rolle. <strong>～にとって</strong> = Bewertung aus Sicht von. <strong>～によって</strong> = Unterschied, Mittel oder Agens. Wer diese drei Fragen auseinanderhaelt, verwechselt die Muster viel seltener: In welcher Rolle? Fuer wen? Wodurch oder je nach was?',
-        examples: [
-          { jp: '先生として話します。', romaji: 'Sensei toshite hanashimasu.', de: 'Ich spreche als Lehrer.' },
-          { jp: '先生にとって大事なことです。', romaji: 'Sensei ni totte daiji na koto desu.', de: 'Das ist fuer den Lehrer wichtig.' },
-          { jp: '先生によって説明が違います。', romaji: 'Sensei ni yotte setsumei ga chigaimasu.', de: 'Je nach Lehrer ist die Erklaerung anders.' }
-        ],
-        tip: 'Ein guter Lerntrick: Rolle, Perspektive, Ausloeser.'
-      }
-    ]
-  });
-
   overrideLesson('lesson-136', {
     title: '～さえ・～こそ',
     subtitle: 'Sogar und gerade dieses eine',
@@ -6626,53 +6284,6 @@
           { jp: 'ちゃんとしなさい。', romaji: 'Chanto shinasai.', de: 'Benehm dich ordentlich.' }
         ],
         tip: 'Diese Lektion ist stark pragmatisch: dieselbe Form kann passend, streng oder unhoeflich wirken, je nach Szene.'
-      }
-    ]
-  });
-
-  overrideLesson('lesson-140', {
-    title: '～ている',
-    subtitle: 'Gerade tun und als Zustand bestehen',
-    intro: '～ている gehört zu den wichtigsten N5-Strukturen überhaupt. Es bedeutet nicht nur „gerade etwas tun“, sondern oft auch, dass ein Zustand als Ergebnis einer Handlung besteht. Genau dieser Unterschied ist für JLPT-Aufgaben zentral und einer der häufigsten Punkte, an denen Lernende zu wörtlich aus dem Deutschen oder Englischen übersetzen.',
-    sections: [
-      {
-        heading: 'Verlaufsform',
-        text: '<strong>て-Form + いる</strong> bedeutet oft, dass eine Handlung gerade im Verlauf ist. Im höflichen Stil wird daraus meist ～ています. Diese Lesart passt besonders gut zu aktiven, sichtbaren Tätigkeiten: lernen, lesen, essen, arbeiten, telefonieren.',
-        examples: [
-          { jp: '今、日本語を勉強しています。', romaji: 'Ima, nihongo o benkyo shite imasu.', de: 'Ich lerne gerade Japanisch.' },
-          { jp: '母は電話で話しています。', romaji: 'Haha wa denwa de hanashite imasu.', de: 'Meine Mutter telefoniert gerade.' },
-          { jp: '子どもたちは外で遊んでいます。', romaji: 'Kodomotachi wa soto de asonde imasu.', de: 'Die Kinder spielen gerade draußen.' }
-        ],
-        tip: 'Bei momentanen Handlungen passt im Deutschen oft „gerade“.'
-      },
-      {
-        heading: 'Zustand als Ergebnis',
-        text: 'Viele Verben beschreiben mit ～ている keinen laufenden Vorgang, sondern einen Zustand, der schon eingetreten ist. Das ist bei Bewegungs- und Zustandsverben besonders wichtig. Die Handlung ist dann nicht „gerade im Gange“, sondern ihr Ergebnis ist jetzt sichtbar oder gültig.',
-        examples: [
-          { jp: '田中さんは東京に住んでいます。', romaji: 'Tanaka-san wa Tokyo ni sunde imasu.', de: 'Tanaka wohnt in Tokio.' },
-          { jp: '父は眼鏡をかけています。', romaji: 'Chichi wa megane o kakete imasu.', de: 'Mein Vater trägt eine Brille.' },
-          { jp: 'ドアが開いています。', romaji: 'Doa ga aite imasu.', de: 'Die Tür ist offen.' }
-        ],
-        tip: '住んでいる, 知っている, 持っている und 結婚している sind typische JLPT-Fälle mit Zustandsbedeutung.'
-      },
-      {
-        heading: 'Wie du die richtige Lesart erkennst',
-        text: 'Frag dich bei ～ている immer: <strong>Kann man diese Handlung als sichtbaren laufenden Prozess beobachten?</strong> Wenn ja, ist oft die Verlaufsbedeutung gemeint. Wenn nicht, beschreibt ～ている eher einen Zustand. „Ich esse“ kann man beobachten. „Ich wohne“ oder „ich weiß“ sind dagegen eher stabile Zustände.',
-        examples: [
-          { jp: 'ご飯を食べています。', romaji: 'Gohan o tabete imasu.', de: 'Ich esse gerade.' },
-          { jp: '日本に住んでいます。', romaji: 'Nihon ni sunde imasu.', de: 'Ich wohne in Japan.' },
-          { jp: 'そのことを知っています。', romaji: 'Sono koto o shitte imasu.', de: 'Ich weiß das.' }
-        ],
-        tip: 'Wenn „gerade“ im Deutschen seltsam klingt, steckt oft eine Zustandsbedeutung dahinter.'
-      },
-      {
-        heading: 'Typische Fehler deutscher Lerner',
-        text: 'Der größte Fehler ist, jedes ～ている automatisch mit „-ing“ zu übersetzen. Dadurch entstehen falsche Bilder wie „ich bin wohnend“ oder „ich bin wissend“. Ebenso wichtig: Die negative Form ～ていない kann je nach Verb „tut gerade nicht“ oder „ist noch nicht in diesem Zustand“ bedeuten.',
-        examples: [
-          { jp: 'まだ結婚していません。', romaji: 'Mada kekkon shite imasen.', de: 'Ich bin noch nicht verheiratet.' },
-          { jp: '今は働いていません。', romaji: 'Ima wa hataraite imasen.', de: 'Ich arbeite im Moment nicht.' }
-        ],
-        tip: 'Bei ～ている immer mitdenken: Prozess oder Resultat? Genau daran entscheidet sich die Übersetzung.'
       }
     ]
   });
@@ -6802,41 +6413,6 @@
           { jp: '彼は急に怒ることがあります。', romaji: 'Kare wa kyu ni okoru koto ga arimasu.', de: 'Es kommt vor, dass er plötzlich wütend wird.' }
         ],
         tip: 'Die Form ist oft etwas erklärender und distanzierter als ein nacktes ときどき.'
-      }
-    ]
-  });
-
-  overrideLesson('lesson-146', {
-    title: '～に対して',
-    subtitle: 'Gegenüber und im Kontrast zu',
-    intro: '～に対して ist für N4 ein nützliches Vergleichs- und Gegenüber-Muster. Es verbindet Dinge, Personen oder Themen, die zueinander in Beziehung gesetzt werden. Gerade weil die deutsche Übersetzung je nach Kontext schwankt, braucht die Form mehr als nur eine Vokabelgleichung.',
-    sections: [
-      {
-        heading: 'Gegenüber einer Person oder Gruppe',
-        text: '<strong>Nomen + に対して</strong> kann „gegenüber“ im sozialen Sinn bedeuten. Dann beschreibt es, wie jemand auf eine Person oder Gruppe bezogen handelt oder empfindet.',
-        examples: [
-          { jp: '先生は学生に対してとても親切です。', romaji: 'Sensei wa gakusei ni taishite totemo shinsetsu desu.', de: 'Der Lehrer ist den Schülern gegenüber sehr freundlich.' },
-          { jp: '会社はお客様に対して丁寧でなければなりません。', romaji: 'Kaisha wa okyakusama ni taishite teinei de nakereba narimasen.', de: 'Eine Firma muss Kunden gegenüber höflich sein.' }
-        ],
-        tip: 'Hier ist die Übersetzung „gegenüber“ oft am natürlichsten.'
-      },
-      {
-        heading: 'Im Kontrast zu',
-        text: 'Sehr häufig wird ～に対して kontrastiv benutzt: A steht so, <strong>während / im Gegensatz dazu</strong> B anders ist. Gerade in schriftlicherem Japanisch ist diese Lesart sehr wichtig.',
-        examples: [
-          { jp: '兄は外向的なのに対して、弟は静かです。', romaji: 'Ani wa gaikoteki na no ni taishite, ototo wa shizuka desu.', de: 'Im Gegensatz zu meinem älteren Bruder ist mein jüngerer Bruder ruhig.' },
-          { jp: '都会の夏は暑いのに対して、この町の夏は涼しいです。', romaji: 'Tokai no natsu wa atsui no ni taishite, kono machi no natsu wa suzushii desu.', de: 'Im Gegensatz zum Sommer in der Großstadt ist der Sommer in dieser Stadt kühl.' }
-        ],
-        tip: 'Wenn zwei Dinge ausdrücklich nebeneinandergestellt werden, ist „im Gegensatz zu“ oft die beste Lesart.'
-      },
-      {
-        heading: 'In Bezug auf / gegenüber einem Thema',
-        text: '～に対して kann auch „in Bezug auf“ bedeuten. Dann geht es weniger um Kontrast als um einen Zielpunkt oder Themenbezug. Diese Lesart ist sachlicher und taucht oft in Berichten oder Erklärungen auf.',
-        examples: [
-          { jp: 'この問題に対して、二つの考え方があります。', romaji: 'Kono mondai ni taishite, futatsu no kangaekata ga arimasu.', de: 'Zu diesem Problem gibt es zwei Sichtweisen.' },
-          { jp: 'その質問に対して、彼はすぐ答えました。', romaji: 'Sono shitsumon ni taishite, kare wa sugu kotaemashita.', de: 'Auf diese Frage antwortete er sofort.' }
-        ],
-        tip: 'Wenn „auf“ oder „zu“ im Deutschen besser klingt als „gegenüber“, bist du oft in dieser Lesart.'
       }
     ]
   });
@@ -7237,50 +6813,6 @@
           { jp: 'もう少しゆっくり話してくださいませんか。', romaji: 'Mo sukoshi yukkuri hanashite kudasaimasen ka.', de: 'Würden Sie bitte etwas langsamer sprechen?' }
         ],
         tip: 'Ein höfliches Muster ist nur dann gut, wenn es zur Situation passt. Zu viel Höflichkeit kann auch Distanz erzeugen.'
-      }
-    ]
-  });
-
-  overrideLesson('lesson-144', {
-    title: '～らしい・～そうだ（伝聞）',
-    subtitle: 'Hörensagen und typische Einschätzung trennen',
-    intro: 'Diese beiden Formen sehen ähnlich aus, sind aber funktional verschieden. ～そうだ（伝聞） gibt wieder, was man gehört oder gelesen hat. ～らしい kann ebenfalls auf Information beruhen, trägt aber oft stärker den Sinn von "scheint so zu sein" oder "typisch für". Genau diese Diagnose muss sitzen.',
-    sections: [
-      {
-        heading: '～そうだ（伝聞） — man hat gehört, dass ...',
-        text: '<strong>普通形 + そうだ</strong> in dieser Lesart ist reines Hörensagen. Der Sprecher übernimmt eine Information aus einer Quelle und gibt sie weiter. Persönliche Einschätzung tritt dabei eher in den Hintergrund.',
-        examples: [
-          { jp: '田中さんは来週結婚するそうです。', romaji: 'Tanaka-san wa raishu kekkon suru so desu.', de: 'Ich habe gehört, dass Tanaka nächste Woche heiratet.' },
-          { jp: '天気予報によると、午後から雨だそうです。', romaji: 'Tenkiyoho ni yoru to, gogo kara ame da so desu.', de: 'Dem Wetterbericht zufolge soll es ab dem Nachmittag regnen.' }
-        ],
-        tip: 'Ein gutes Signal ist eine erkennbare Quelle: Nachrichten, Lehrer, Freunde, Bericht.'
-      },
-      {
-        heading: '～らしい — scheint so / typisch',
-        text: '<strong>普通形 + らしい</strong> kann auf Information beruhen, klingt aber oft wie eine zusammenfassende Einschätzung: Es scheint so zu sein, es wirkt typisch dafür, oder nach allem was man weiß, passt dieses Bild. Genau deshalb ist ～らしい nicht bloß ein Synonym für Hörensagen.',
-        examples: [
-          { jp: '彼は本当に親切らしいです。', romaji: 'Kare wa honto ni shinsetsu rashii desu.', de: 'Er scheint wirklich freundlich zu sein.' },
-          { jp: '今日は春らしい天気ですね。', romaji: 'Kyo wa haru rashii tenki desu ne.', de: 'Heute ist wirklich frühlingshaftes Wetter.' }
-        ],
-        tip: 'Bei "typisch für" oder "ganz so wie" ist ～らしい besonders häufig.'
-      },
-      {
-        heading: 'Hörensagen vs. Einschätzung',
-        text: '<strong>～そうだ</strong> sagt: Ich gebe weiter, was ich gehört habe. <strong>～らしい</strong> sagt eher: Nach dem, was man weiß oder wie es wirkt, scheint das passend zu sein. Die Trennlinie ist also Quelle gegen Einschätzung oder Typizität.',
-        examples: [
-          { jp: '山田さんは病気だそうです。', romaji: 'Yamada-san wa byoki da so desu.', de: 'Ich habe gehört, dass Yamada krank ist.' },
-          { jp: '山田さんは今日は元気がないらしいです。', romaji: 'Yamada-san wa kyo wa genki ga nai rashii desu.', de: 'Es scheint, dass Yamada heute nicht fit ist.' }
-        ],
-        tip: 'Wenn der Satz wie eine Nachricht klingt, passt oft ～そうだ. Wenn er wie eine Einschätzung klingt, eher ～らしい.'
-      },
-      {
-        heading: 'Typische Fehler',
-        text: 'Viele Lernende setzen beide Formen überall ein, wo im Deutschen "anscheinend" oder "ich habe gehört" steht. Das führt zu ungenauer Kommunikation. Gerade bei JLPT-Aufgaben entscheidet oft ein kleines Signalwort im Kontext darüber, welche Lesart verlangt ist.',
-        examples: [
-          { jp: 'この店はおいしいそうです。', romaji: 'Kono mise wa oishii so desu.', de: 'Ich habe gehört, dass dieses Restaurant gut ist.' },
-          { jp: 'この店はおいしいらしいです。', romaji: 'Kono mise wa oishii rashii desu.', de: 'Dieses Restaurant scheint wohl gut zu sein.' }
-        ],
-        tip: 'Beide Sätze können ähnlich übersetzt werden, aber die innere Haltung des Sprechers ist nicht dieselbe.'
       }
     ]
   });
