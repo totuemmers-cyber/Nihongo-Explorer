@@ -43729,6 +43729,23 @@ window.VOCAB_N3 = [
     ]
   },
   {
+    "word": "予習",
+    "reading": "よしゅう",
+    "romaji": "yoshuu",
+    "pitch": 0,
+    "meaning": "Vorbereitung, Vorlernen",
+    "type": "Nomen",
+    "level": "N3",
+    "category": "Bildung",
+    "examples": [
+      {
+        "japanese": "授業の前に予習をします。",
+        "romaji": "Jugyou no mae ni yoshuu o shimasu.",
+        "german": "Ich bereite mich vor dem Unterricht vor."
+      }
+    ]
+  },
+  {
     "word": "怪事件",
     "reading": "かいじけん",
     "romaji": "kaijiken",
