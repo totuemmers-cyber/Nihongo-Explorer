@@ -20,6 +20,7 @@ const FILES = [
   'kangxi-radicals-data.js',
   'conjugation.js',
   'vocab-correction-rules.js',
+  'vocab-example-overrides.js',
   'vocab-corrections.js'
 ];
 
@@ -302,7 +303,10 @@ const malformed = []
 const vocabMergeAudit = auditMergedVocab(normalizedVocabSources);
 const normalizationChanges = ctx.getVocabNormalizationChanges
   ? ctx.getVocabNormalizationChanges(rawVocabSources)
-  : { levelChanged: [], typeChanged: [], excluded: [] };
+  : { levelChanged: [], typeChanged: [], excluded: [], exampleChanged: [] };
+const exampleOverrideAudit = ctx.getVocabExampleOverrideAudit
+  ? ctx.getVocabExampleOverrideAudit(rawVocabSources)
+  : { byLevel: {}, malformed: [], invalidTeaching: [] };
 
 const report = {
   totals: {
@@ -324,9 +328,18 @@ const report = {
     levelChanged: normalizationChanges.levelChanged.length,
     typeChanged: normalizationChanges.typeChanged.length,
     excluded: normalizationChanges.excluded.length,
+    exampleChanged: normalizationChanges.exampleChanged.length,
     levelChangedSample: normalizationChanges.levelChanged.slice(0, 25),
     typeChangedSample: normalizationChanges.typeChanged.slice(0, 25),
-    excludedSample: normalizationChanges.excluded.slice(0, 25)
+    excludedSample: normalizationChanges.excluded.slice(0, 25),
+    exampleChangedSample: normalizationChanges.exampleChanged.slice(0, 25)
+  },
+  exampleOverrides: {
+    byLevel: exampleOverrideAudit.byLevel,
+    malformed: exampleOverrideAudit.malformed.length,
+    malformedSample: exampleOverrideAudit.malformed.slice(0, 25),
+    invalidTeaching: exampleOverrideAudit.invalidTeaching.length,
+    invalidTeachingSample: exampleOverrideAudit.invalidTeaching.slice(0, 25)
   },
   duplicates: {
     kanji: findSameSourceDuplicates(kanji, function (item) { return item.kanji; }),

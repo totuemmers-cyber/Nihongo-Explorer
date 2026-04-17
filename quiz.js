@@ -381,6 +381,11 @@
     return text.replace(needle, '\uFF3F\uFF3F\uFF3F');
   }
 
+  function getOrderedExamples(item) {
+    if (window.getOrderedVocabExamples) return window.getOrderedVocabExamples(item);
+    return item && item.examples ? item.examples.slice() : [];
+  }
+
   function getConjugationGroupLabel(result, level) {
     if (!result) return '';
     if (!isStrictBeginnerLevel(level)) return result.groupLabel || '';
@@ -481,8 +486,9 @@
   function genVocabContext(level) {
     var pool = getLevelPool(getVocabByLevel, level).filter(function (v) {
       if (!v.examples || v.examples.length === 0) return false;
-      for (var i = 0; i < v.examples.length; i++) {
-        var sentence = buildSingleBlankSentence(v.examples[i].japanese, v.word);
+      var examples = getOrderedExamples(v);
+      for (var i = 0; i < examples.length; i++) {
+        var sentence = buildSingleBlankSentence(examples[i].japanese, v.word);
         if (!sentence) continue;
         if (!isStrictBeginnerLevel(level)) return true;
         if (sanitizeJapaneseForBeginnerLevel(sentence, level, [])) return true;
@@ -492,11 +498,12 @@
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
     var ex = null;
-    for (var i = 0; i < item.examples.length; i++) {
-      var candidate = buildSingleBlankSentence(item.examples[i].japanese, item.word);
+    var orderedExamples = getOrderedExamples(item);
+    for (var i = 0; i < orderedExamples.length; i++) {
+      var candidate = buildSingleBlankSentence(orderedExamples[i].japanese, item.word);
       if (!candidate) continue;
       if (isStrictBeginnerLevel(level) && !sanitizeJapaneseForBeginnerLevel(candidate, level, [])) continue;
-      ex = item.examples[i];
+      ex = orderedExamples[i];
       break;
     }
     if (!ex) return null;
