@@ -13,6 +13,61 @@
     return (item.word || '') + '|' + (item.reading || '');
   }
 
+  function cloneExamples(examples) {
+    if (!examples || !examples.length) return [];
+    var next = [];
+    for (var i = 0; i < examples.length; i++) {
+      next.push(cloneItem(examples[i]));
+    }
+    return next;
+  }
+
+  function countOccurrences(text, needle) {
+    if (!text || !needle) return 0;
+    var count = 0;
+    var fromIndex = 0;
+    while (true) {
+      var idx = text.indexOf(needle, fromIndex);
+      if (idx === -1) break;
+      count++;
+      fromIndex = idx + needle.length;
+    }
+    return count;
+  }
+
+  function getExampleOverride(sourceName, item) {
+    var overrides = window.VOCAB_EXAMPLE_OVERRIDES;
+    var sourceOverrides = overrides && overrides[sourceName];
+    return sourceOverrides ? sourceOverrides[itemKey(item)] : null;
+  }
+
+  function getExampleKindOrder(kind) {
+    if (kind === 'teaching') return 0;
+    if (kind === 'natural') return 1;
+    return 2;
+  }
+
+  function sortExamplesForUse(examples) {
+    if (!examples || examples.length < 2) return examples || [];
+    var decorated = [];
+    for (var i = 0; i < examples.length; i++) {
+      decorated.push({ example: examples[i], index: i });
+    }
+    decorated.sort(function (a, b) {
+      var orderA = getExampleKindOrder(a.example.kind);
+      var orderB = getExampleKindOrder(b.example.kind);
+      if (orderA !== orderB) return orderA - orderB;
+      return a.index - b.index;
+    });
+    var sorted = [];
+    for (var j = 0; j < decorated.length; j++) sorted.push(decorated[j].example);
+    return sorted;
+  }
+
+  function normalizeExamples(examples) {
+    return sortExamplesForUse(cloneExamples(examples));
+  }
+
   function getGlobalRule(item) {
     var rules = window.VOCAB_CORRECTION_RULES && window.VOCAB_CORRECTION_RULES.explicit;
     return rules ? rules[itemKey(item)] : null;
@@ -50,11 +105,19 @@
     if (sourceRule && sourceRule.exclude) return null;
     applyRule(normalized, sourceRule);
 
+    var exampleOverride = getExampleOverride(sourceName, item);
+    if (exampleOverride && exampleOverride.examples) {
+      normalized.__rawExamples = cloneExamples(item.examples || []);
+      normalized.examples = normalizeExamples(exampleOverride.examples);
+      normalized.__exampleOverrideApplied = true;
+    }
+
     normalized.__normalized =
       normalized.word !== normalized.__rawWord ||
       normalized.reading !== normalized.__rawReading ||
       normalized.level !== normalized.__rawLevel ||
-      normalized.type !== normalized.__rawType;
+      normalized.type !== normalized.__rawType ||
+      !!normalized.__exampleOverrideApplied;
 
     return normalized;
   }
@@ -110,13 +173,114 @@
     return flattenSources(window.getNormalizedVocabSources(sources));
   };
 
+  window.getOrderedVocabExamples = function (item) {
+    if (!item || !item.examples) return [];
+    return sortExamplesForUse(item.examples.slice());
+  };
+
+  window.getVocabExampleOverrideAudit = function (sources) {
+    var rawSources = sources || buildDefaultSources();
+    var normalizedSources = window.getNormalizedVocabSources(rawSources);
+    var levels = { N5: 1, N4: 1, N3: 1, N2: 1, N1: 1 };
+    var summaryByLevel = {};
+    var malformed = [];
+    var invalidTeaching = [];
+
+    for (var level in levels) {
+      if (levels.hasOwnProperty(level)) {
+        summaryByLevel[level] = {
+          total: 0,
+          curated: 0,
+          withTeaching: 0,
+          withNatural: 0,
+          withTeachingAndNatural: 0,
+          teachingContextReady: 0
+        };
+      }
+    }
+
+    for (var i = 0; i < rawSources.length; i++) {
+      var sourceName = rawSources[i].name;
+      var sourceOverrides = window.VOCAB_EXAMPLE_OVERRIDES && window.VOCAB_EXAMPLE_OVERRIDES[sourceName];
+      if (sourceOverrides) {
+        for (var entryKey in sourceOverrides) {
+          if (!sourceOverrides.hasOwnProperty(entryKey)) continue;
+          var override = sourceOverrides[entryKey];
+          if (!override || !override.examples || !override.examples.length) {
+            malformed.push({ source: sourceName, key: entryKey, issue: 'missing-examples' });
+            continue;
+          }
+
+          var teachingCount = 0;
+          for (var j = 0; j < override.examples.length; j++) {
+            var ex = override.examples[j];
+            if (!ex || !ex.kind || !ex.japanese || !ex.romaji || !ex.german) {
+              malformed.push({ source: sourceName, key: entryKey, issue: 'missing-fields', index: j });
+              continue;
+            }
+            if (ex.kind !== 'teaching' && ex.kind !== 'natural') {
+              malformed.push({ source: sourceName, key: entryKey, issue: 'unknown-kind', index: j, kind: ex.kind });
+            }
+            if (ex.kind === 'teaching') teachingCount++;
+          }
+          if (teachingCount !== 1) {
+            malformed.push({ source: sourceName, key: entryKey, issue: 'invalid-teaching-count', count: teachingCount });
+          }
+        }
+      }
+
+      var items = normalizedSources[i].items || [];
+      for (var k = 0; k < items.length; k++) {
+        var item = items[k];
+        var levelSummary = summaryByLevel[item.level];
+        if (!levelSummary) continue;
+        levelSummary.total++;
+        if (!item.__exampleOverrideApplied) continue;
+
+        levelSummary.curated++;
+        var orderedExamples = window.getOrderedVocabExamples(item);
+        var hasTeaching = false;
+        var hasNatural = false;
+        var teachingReady = false;
+        for (var m = 0; m < orderedExamples.length; m++) {
+          var example = orderedExamples[m];
+          if (example.kind === 'teaching') {
+            hasTeaching = true;
+            if (countOccurrences(example.japanese || '', item.word || '') === 1) teachingReady = true;
+          }
+          if (example.kind === 'natural') hasNatural = true;
+        }
+
+        if (hasTeaching) levelSummary.withTeaching++;
+        if (hasNatural) levelSummary.withNatural++;
+        if (hasTeaching && hasNatural) levelSummary.withTeachingAndNatural++;
+        if (teachingReady) levelSummary.teachingContextReady++;
+        else if (hasTeaching) {
+          invalidTeaching.push({
+            source: item.__sourceName || sourceName,
+            word: item.word,
+            reading: item.reading,
+            level: item.level
+          });
+        }
+      }
+    }
+
+    return {
+      byLevel: summaryByLevel,
+      malformed: malformed,
+      invalidTeaching: invalidTeaching
+    };
+  };
+
   window.getVocabNormalizationChanges = function (sources) {
     var rawSources = sources || buildDefaultSources();
     var normalizedSources = window.getNormalizedVocabSources(rawSources);
     var changes = {
       levelChanged: [],
       typeChanged: [],
-      excluded: []
+      excluded: [],
+      exampleChanged: []
     };
 
     for (var i = 0; i < rawSources.length; i++) {
@@ -156,6 +320,14 @@
             reading: normalized.reading,
             from: normalized.__rawType,
             to: normalized.type
+          });
+        }
+        if (normalized.__exampleOverrideApplied) {
+          changes.exampleChanged.push({
+            source: rawSources[i].name,
+            word: normalized.word,
+            reading: normalized.reading,
+            level: normalized.level
           });
         }
       }

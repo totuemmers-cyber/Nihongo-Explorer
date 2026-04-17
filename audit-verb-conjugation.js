@@ -12,6 +12,7 @@ const DATA_FILES = [
   'app-constants.js',
   'conjugation.js',
   'vocab-correction-rules.js',
+  'vocab-example-overrides.js',
   'vocab-corrections.js'
 ];
 

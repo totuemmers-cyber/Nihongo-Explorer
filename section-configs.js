@@ -421,6 +421,9 @@ function renderExamplesOrEmpty(elementId, examples) {
     for (var i = 0; i < examples.length; i++) {
       var ex = examples[i];
       var item = appendElement(el, 'div', 'grammar-example-item');
+      if (ex.kind === 'teaching' || ex.kind === 'natural') {
+        appendElement(item, 'div', 'grammar-example-kind', ex.kind === 'teaching' ? 'Lernbeispiel' : 'Natürlicher Gebrauch');
+      }
       appendElement(item, 'div', 'grammar-example-jp', ex.japanese);
       appendElement(item, 'div', 'grammar-example-romaji', ex.romaji);
       appendElement(item, 'div', 'grammar-example-german', ex.german);

@@ -23,6 +23,7 @@ const DATA_FILES = [
   'app-constants.js',
   'conjugation.js',
   'vocab-correction-rules.js',
+  'vocab-example-overrides.js',
   'vocab-corrections.js',
   'grammar-lessons.js',
   'quiz.js'
@@ -226,6 +227,18 @@ function auditExternalCoverage(ctx, level, pageTexts) {
   };
 }
 
+function rawVocabSourcesFromContext(ctx) {
+  return [
+    { name: 'vocab-n5', items: ctx.VOCAB_N5 || [] },
+    { name: 'vocab-n4', items: ctx.VOCAB_N4 || [] },
+    { name: 'vocab-n3', items: ctx.VOCAB_N3 || [] },
+    { name: 'vocab-n2', items: ctx.VOCAB_N2 || [] },
+    { name: 'vocab-n1', items: ctx.VOCAB_N1 || [] },
+    { name: 'yojijukugo', items: ctx.YOJIJUKUGO_DATA || [] },
+    { name: 'idioms', items: ctx.IDIOMS_DATA || [] }
+  ];
+}
+
 async function main() {
   const ctx = loadContext();
   const external = {};
@@ -245,12 +258,20 @@ async function main() {
     auditExternalCoverage(ctx, 'N5', external.N5),
     auditExternalCoverage(ctx, 'N4', external.N4)
   ];
+  const curatedExamples = ctx.getVocabExampleOverrideAudit
+    ? ctx.getVocabExampleOverrideAudit(rawVocabSourcesFromContext(ctx))
+    : { byLevel: {}, malformed: [], invalidTeaching: [] };
 
   console.log(JSON.stringify({
     sources: SOURCE_URLS,
     sourceErrors: sourceErrors,
     beginnerQuestions: beginnerQuestions,
-    coverage: coverage
+    coverage: coverage,
+    curatedExamples: {
+      byLevel: curatedExamples.byLevel,
+      malformed: curatedExamples.malformed,
+      invalidTeaching: curatedExamples.invalidTeaching
+    }
   }, null, 2));
 }
 
