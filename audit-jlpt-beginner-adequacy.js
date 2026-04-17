@@ -75,14 +75,22 @@ function loadContext() {
     vm.runInNewContext(fs.readFileSync(file, 'utf8'), ctx, { filename: file });
   });
 
-  ctx.app.sections.vocab.allItems = []
-    .concat(ctx.VOCAB_N5 || [])
-    .concat(ctx.VOCAB_N4 || [])
-    .concat(ctx.VOCAB_N3 || [])
-    .concat(ctx.VOCAB_N2 || [])
-    .concat(ctx.VOCAB_N1 || [])
-    .concat(ctx.YOJIJUKUGO_DATA || [])
-    .concat(ctx.IDIOMS_DATA || []);
+  var rawVocabSources = [
+    { name: 'vocab-n5', items: ctx.VOCAB_N5 || [] },
+    { name: 'vocab-n4', items: ctx.VOCAB_N4 || [] },
+    { name: 'vocab-n3', items: ctx.VOCAB_N3 || [] },
+    { name: 'vocab-n2', items: ctx.VOCAB_N2 || [] },
+    { name: 'vocab-n1', items: ctx.VOCAB_N1 || [] },
+    { name: 'yojijukugo', items: ctx.YOJIJUKUGO_DATA || [] },
+    { name: 'idioms', items: ctx.IDIOMS_DATA || [] }
+  ];
+  var normalizedVocabSources = ctx.getNormalizedVocabSources
+    ? ctx.getNormalizedVocabSources(rawVocabSources)
+    : rawVocabSources;
+
+  ctx.app.sections.vocab.allItems = normalizedVocabSources.reduce(function (all, source) {
+    return all.concat(source.items || []);
+  }, []);
   ctx.app.sections.kanji.allItems = []
     .concat(ctx.KANJI_DATA || [])
     .concat(ctx.KANJI_N1 || []);
@@ -182,7 +190,9 @@ function auditQuestionGeneration(ctx) {
 }
 
 function auditExternalCoverage(ctx, level, pageTexts) {
-  const vocab = level === 'N5' ? (ctx.VOCAB_N5 || []) : (ctx.VOCAB_N4 || []);
+  const vocab = ctx.app.sections.vocab.allItems.filter(function (item) {
+    return item.level === level;
+  });
   const normalizedPages = pageTexts.map(normalizeJapanese);
   const missing = [];
   const matched = [];

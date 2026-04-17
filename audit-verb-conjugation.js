@@ -22,14 +22,21 @@ DATA_FILES.forEach(function (file) {
   vm.runInNewContext(fs.readFileSync(file, 'utf8'), ctx, { filename: file });
 });
 
-const allVocab = []
-  .concat(ctx.VOCAB_N5 || [])
-  .concat(ctx.VOCAB_N4 || [])
-  .concat(ctx.VOCAB_N3 || [])
-  .concat(ctx.VOCAB_N2 || [])
-  .concat(ctx.VOCAB_N1 || [])
-  .concat(ctx.YOJIJUKUGO_DATA || [])
-  .concat(ctx.IDIOMS_DATA || []);
+const rawSources = [
+  { name: 'vocab-n5', items: ctx.VOCAB_N5 || [] },
+  { name: 'vocab-n4', items: ctx.VOCAB_N4 || [] },
+  { name: 'vocab-n3', items: ctx.VOCAB_N3 || [] },
+  { name: 'vocab-n2', items: ctx.VOCAB_N2 || [] },
+  { name: 'vocab-n1', items: ctx.VOCAB_N1 || [] },
+  { name: 'yojijukugo', items: ctx.YOJIJUKUGO_DATA || [] },
+  { name: 'idioms', items: ctx.IDIOMS_DATA || [] }
+];
+const normalizedSources = ctx.getNormalizedVocabSources
+  ? ctx.getNormalizedVocabSources(rawSources)
+  : rawSources;
+const allVocab = normalizedSources.reduce(function (all, source) {
+  return all.concat(source.items || []);
+}, []);
 
 const verbs = allVocab.filter(function (item) {
   return item.type === 'Verb' && item.reading;

@@ -261,5 +261,27 @@ window.VOCAB_CORRECTION_RULES = {
     "\u8001\u8870|\u308d\u3046\u3059\u3044": {"type":"Nomen"},
     "\u62c9\u81f4|\u3089\u3061": {"type":"Nomen"},
     "\u98af\u3068|\u3055\u3063\u3068": {"type":"Adverb"}
+  },
+  bySource: {
+    "vocab-n5": {
+      "\u5165\u793e|\u306b\u3085\u3046\u3057\u3083": {"level":"N2","conjugationReading":"\u306b\u3085\u3046\u3057\u3083\u3059\u308b"},
+      "\u51fa\u793e|\u3057\u3085\u3063\u3057\u3083": {"level":"N2","conjugationReading":"\u3057\u3085\u3063\u3057\u3083\u3059\u308b"},
+      "\u5148\u56de\u308a|\u3055\u304d\u307e\u308f\u308a": {"level":"N2","conjugationReading":"\u3055\u304d\u307e\u308f\u308a\u3059\u308b"},
+      "\u4fdd\u6301|\u307b\u3058": {"level":"N1","conjugationReading":"\u307b\u3058\u3059\u308b"},
+      "\u5bfe\u6bd4|\u305f\u3044\u3072": {"level":"N1","conjugationReading":"\u305f\u3044\u3072\u3059\u308b"},
+      "\u516c\u958b|\u3053\u3046\u304b\u3044": {"level":"N2","conjugationReading":"\u3053\u3046\u304b\u3044\u3059\u308b"},
+      "\u76f4\u9032|\u3061\u3087\u304f\u3057\u3093": {"level":"N2","conjugationReading":"\u3061\u3087\u304f\u3057\u3093\u3059\u308b"}
+    },
+    "vocab-n4": {
+      "\u6c7a\u5fc3|\u3051\u3063\u3057\u3093": {"level":"N2","conjugationReading":"\u3051\u3063\u3057\u3093\u3059\u308b"},
+      "\u5165\u6240|\u306b\u3085\u3046\u3057\u3087": {"level":"N1","conjugationReading":"\u306b\u3085\u3046\u3057\u3087\u3059\u308b"},
+      "\u4ed5\u8fd4\u3057|\u3057\u304b\u3048\u3057": {"level":"N2","conjugationReading":"\u3057\u304b\u3048\u3057\u3059\u308b"},
+      "\u4fdd\u6301\u3059\u308b|\u307b\u3058\u3059\u308b": {"level":"N1"},
+      "\u9589\u5e97|\u3078\u3044\u3066\u3093": {"level":"N3","conjugationReading":"\u3078\u3044\u3066\u3093\u3059\u308b"},
+      "\u958b\u9589|\u304b\u3044\u3078\u3044": {"level":"N1","conjugationReading":"\u304b\u3044\u3078\u3044\u3059\u308b"},
+      "\u4e8c\u679a\u820c|\u306b\u307e\u3044\u3058\u305f": {"level":"N1","type":"Nomen"},
+      "\u8ca1\u95a5|\u3056\u3044\u3070\u3064": {"level":"N1","type":"Nomen"},
+      "\u6587\u5316\u4eba\u985e\u5b66|\u3076\u3093\u304b\u3058\u3093\u308b\u3044\u304c\u304f": {"level":"N1"}
+    }
   }
 };
