@@ -203,14 +203,27 @@ const grammar = []
   .concat(ctx.GRAMMAR_DATA || [])
   .concat(ctx.GRAMMAR_N2 || [])
   .concat(ctx.GRAMMAR_N1 || []);
-const coreVocab = []
-  .concat(ctx.VOCAB_N5 || [])
-  .concat(ctx.VOCAB_N4 || [])
-  .concat(ctx.VOCAB_N3 || [])
-  .concat(ctx.VOCAB_N2 || [])
-  .concat(ctx.VOCAB_N1 || []);
-const yojijukugo = ctx.YOJIJUKUGO_DATA || [];
-const idioms = ctx.IDIOMS_DATA || [];
+const rawVocabSources = [
+  { name: 'vocab-n5', items: ctx.VOCAB_N5 || [] },
+  { name: 'vocab-n4', items: ctx.VOCAB_N4 || [] },
+  { name: 'vocab-n3', items: ctx.VOCAB_N3 || [] },
+  { name: 'vocab-n2', items: ctx.VOCAB_N2 || [] },
+  { name: 'vocab-n1', items: ctx.VOCAB_N1 || [] },
+  { name: 'yojijukugo', items: ctx.YOJIJUKUGO_DATA || [] },
+  { name: 'idioms', items: ctx.IDIOMS_DATA || [] }
+];
+const normalizedVocabSources = ctx.getNormalizedVocabSources
+  ? ctx.getNormalizedVocabSources(rawVocabSources)
+  : rawVocabSources;
+const coreVocab = normalizedVocabSources
+  .filter(function (source) { return source.name.indexOf('vocab-') === 0; })
+  .reduce(function (all, source) { return all.concat(source.items || []); }, []);
+const yojijukugo = normalizedVocabSources
+  .filter(function (source) { return source.name === 'yojijukugo'; })
+  .reduce(function (all, source) { return all.concat(source.items || []); }, []);
+const idioms = normalizedVocabSources
+  .filter(function (source) { return source.name === 'idioms'; })
+  .reduce(function (all, source) { return all.concat(source.items || []); }, []);
 const vocab = coreVocab.concat(yojijukugo).concat(idioms);
 const radicals = ctx.KANGXI_RADICALS || [];
 const onomatopoeia = ctx.ONOMATOPOEIA_DATA || [];
@@ -286,15 +299,10 @@ const malformed = []
     { issue: 'missing-kanji', test: function (item) { return !!item.kanji; }, key: function (item) { return item.id; } }
   ]));
 
-const vocabMergeAudit = auditMergedVocab([
-  { name: 'vocab-n5', items: ctx.VOCAB_N5 || [] },
-  { name: 'vocab-n4', items: ctx.VOCAB_N4 || [] },
-  { name: 'vocab-n3', items: ctx.VOCAB_N3 || [] },
-  { name: 'vocab-n2', items: ctx.VOCAB_N2 || [] },
-  { name: 'vocab-n1', items: ctx.VOCAB_N1 || [] },
-  { name: 'yojijukugo', items: yojijukugo },
-  { name: 'idioms', items: idioms }
-]);
+const vocabMergeAudit = auditMergedVocab(normalizedVocabSources);
+const normalizationChanges = ctx.getVocabNormalizationChanges
+  ? ctx.getVocabNormalizationChanges(rawVocabSources)
+  : { levelChanged: [], typeChanged: [], excluded: [] };
 
 const report = {
   totals: {
@@ -311,6 +319,14 @@ const report = {
     normalized: normalizedVerbResolutions.length,
     unresolved: unresolvedVerbs.length,
     normalizedSample: normalizedVerbResolutions.slice(0, 25)
+  },
+  normalization: {
+    levelChanged: normalizationChanges.levelChanged.length,
+    typeChanged: normalizationChanges.typeChanged.length,
+    excluded: normalizationChanges.excluded.length,
+    levelChangedSample: normalizationChanges.levelChanged.slice(0, 25),
+    typeChangedSample: normalizationChanges.typeChanged.slice(0, 25),
+    excludedSample: normalizationChanges.excluded.slice(0, 25)
   },
   duplicates: {
     kanji: findSameSourceDuplicates(kanji, function (item) { return item.kanji; }),

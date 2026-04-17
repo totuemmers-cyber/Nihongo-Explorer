@@ -287,7 +287,7 @@
       scripts: ['vocab-n5.js', 'vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js'],
       message: 'Lade Vokabel-Daten...',
       hydrate: function () {
-        var vocabSources = [
+        var rawVocabSources = [
           { name: 'vocab-n5', items: window.VOCAB_N5 || [] },
           { name: 'vocab-n4', items: window.VOCAB_N4 || [] },
           { name: 'vocab-n3', items: window.VOCAB_N3 || [] },
@@ -296,7 +296,9 @@
           { name: 'yojijukugo', items: dedupeSpecialistItems(window.YOJIJUKUGO_DATA || [], getEntryKey) },
           { name: 'idioms', items: window.IDIOMS_DATA || [] }
         ];
-        if (window.applyVocabCorrections) window.applyVocabCorrections();
+        var vocabSources = window.getNormalizedVocabSources
+          ? window.getNormalizedVocabSources(rawVocabSources)
+          : rawVocabSources;
         app.sections.vocab.setItems(mergeVocabSources(vocabSources));
       }
     },
