@@ -2,7 +2,11 @@
   "name": "nihongo-explorer",
   "private": true,
   "scripts": {
+    "test": "npm run lint && npm run audit:data && npm run audit:verbs && npm run audit:quiz && npm run audit:radicals && npm run test:smoke",
     "audit:data": "node audit-data.js",
+    "audit:beginner": "node audit-jlpt-beginner-adequacy.js",
+    "audit:quiz": "node audit-quiz-quality.js",
+    "audit:radicals": "node audit-kanji-radicals.js",
     "audit:verbs": "node audit-verb-conjugation.js",
     "lint": "node scripts/lint.js",
     "test:smoke": "node scripts/smoke-test.js"

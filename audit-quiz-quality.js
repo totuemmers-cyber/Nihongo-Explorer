@@ -68,7 +68,7 @@ ctx.app.sections.vocab.allItems = normalizedVocabSources.reduce(function (all, s
 }, []);
 ctx.app.sections.kanji.allItems = []
   .concat(ctx.KANJI_DATA || [])
-  .concat(ctx.KANJI_N1 || []);
+  .concat(ctx.KANJI_N1_DATA || []);
 ctx.app.sections.grammar.allItems = (ctx.GRAMMAR_DATA || []);
 
 const audit = ctx.QuizModule && ctx.QuizModule.audit;
@@ -106,12 +106,19 @@ types.forEach(function (typeId) {
   });
 });
 
+const failingCombinations = report.filter(function (entry) {
+  return entry.generated !== 100 ||
+    entry.nulls > 0 ||
+    entry.placeholders > 0 ||
+    entry.duplicateChoiceSets > 0;
+});
+
 console.log(JSON.stringify({
   counts: {
     combinations: report.length,
-    failingCombinations: report.filter(function (entry) {
-      return entry.nulls || entry.placeholders || entry.duplicateChoiceSets;
-    }).length
+    failingCombinations: failingCombinations.length
   },
   report: report
 }, null, 2));
+
+process.exit(failingCombinations.length > 0 ? 1 : 0);

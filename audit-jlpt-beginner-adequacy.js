@@ -94,7 +94,7 @@ function loadContext() {
   }, []);
   ctx.app.sections.kanji.allItems = []
     .concat(ctx.KANJI_DATA || [])
-    .concat(ctx.KANJI_N1 || []);
+    .concat(ctx.KANJI_N1_DATA || []);
   ctx.app.sections.grammar.allItems = ctx.GRAMMAR_DATA || [];
   return ctx;
 }
@@ -262,7 +262,7 @@ async function main() {
     ? ctx.getVocabExampleOverrideAudit(rawVocabSourcesFromContext(ctx))
     : { byLevel: {}, malformed: [], invalidTeaching: [] };
 
-  console.log(JSON.stringify({
+  const report = {
     sources: SOURCE_URLS,
     sourceErrors: sourceErrors,
     beginnerQuestions: beginnerQuestions,
@@ -272,7 +272,18 @@ async function main() {
       malformed: curatedExamples.malformed,
       invalidTeaching: curatedExamples.invalidTeaching
     }
-  }, null, 2));
+  };
+
+  console.log(JSON.stringify(report, null, 2));
+
+  const hasQuestionErrors = beginnerQuestions.some(function (entry) {
+    return entry.generated === 0 || entry.leakingKanji > 0 || entry.missingMeta > 0;
+  });
+  const hasCuratedExampleErrors =
+    curatedExamples.malformed.length > 0 ||
+    curatedExamples.invalidTeaching.length > 0;
+
+  process.exit(sourceErrors.length > 0 || hasQuestionErrors || hasCuratedExampleErrors ? 1 : 0);
 }
 
 main().catch(function (err) {

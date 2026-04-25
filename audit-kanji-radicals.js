@@ -17,7 +17,13 @@ DATA_FILES.forEach(function (file) {
 
 const allKanji = []
   .concat(ctx.KANJI_DATA || [])
-  .concat(ctx.KANJI_N1 || []);
+  .concat(ctx.KANJI_N1_DATA || []);
+
+const THRESHOLDS = {
+  minCanonicalRadicalPool: 214,
+  maxNoCanonical: 540,
+  maxMissingPrimary: 635
+};
 
 const missingPrimary = [];
 const noCanonical = [];
@@ -48,7 +54,7 @@ allKanji.forEach(function (item) {
   }
 });
 
-console.log(JSON.stringify({
+const report = {
   counts: {
     kanji: allKanji.length,
     canonicalRadicalPool: (ctx.KANGXI_RADICALS || []).length,
@@ -56,6 +62,16 @@ console.log(JSON.stringify({
     noCanonical: noCanonical.length,
     missingPrimary: missingPrimary.length
   },
+  thresholds: THRESHOLDS,
   missingPrimarySample: missingPrimary.slice(0, 100),
   noCanonicalSample: noCanonical.slice(0, 50)
-}, null, 2));
+};
+
+console.log(JSON.stringify(report, null, 2));
+
+const hasRegression =
+  report.counts.canonicalRadicalPool < THRESHOLDS.minCanonicalRadicalPool ||
+  report.counts.noCanonical > THRESHOLDS.maxNoCanonical ||
+  report.counts.missingPrimary > THRESHOLDS.maxMissingPrimary;
+
+process.exit(hasRegression ? 1 : 0);

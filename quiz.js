@@ -381,6 +381,34 @@
     return text.replace(needle, '\uFF3F\uFF3F\uFF3F');
   }
 
+  function getGrammarPatternVariants(pattern) {
+    var raw = String(pattern || '').split(/[\/／]/);
+    var variants = [];
+    var seen = {};
+    for (var i = 0; i < raw.length; i++) {
+      var value = raw[i]
+        .replace(/[～~]/g, '')
+        .replace(/\s+/g, '')
+        .trim();
+      if (!value || seen[value]) continue;
+      seen[value] = true;
+      variants.push(value);
+    }
+    return variants;
+  }
+
+  function buildGrammarBlankSentence(text, pattern) {
+    var variants = getGrammarPatternVariants(pattern);
+    var match = null;
+    for (var i = 0; i < variants.length; i++) {
+      var variant = variants[i];
+      if (countOccurrences(text, variant) !== 1) continue;
+      if (match) return null;
+      match = variant;
+    }
+    return match ? text.replace(match, '\uFF3F\uFF3F\uFF3F') : null;
+  }
+
   function getOrderedExamples(item) {
     if (window.getOrderedVocabExamples) return window.getOrderedVocabExamples(item);
     return item && item.examples ? item.examples.slice() : [];
@@ -636,7 +664,7 @@
     var pool = getLevelPool(getGrammarByLevel, level).filter(function (g) {
       if (!g.examples || g.examples.length === 0) return false;
       for (var i = 0; i < g.examples.length; i++) {
-        var sentence = buildSingleBlankSentence(g.examples[i].japanese, g.pattern);
+        var sentence = buildGrammarBlankSentence(g.examples[i].japanese, g.pattern);
         if (!sentence) continue;
         if (!isStrictBeginnerLevel(level)) return true;
         if (sanitizeJapaneseForBeginnerLevel(sentence, level, [])) return true;
@@ -647,14 +675,14 @@
     var item = pickRandom(pool);
     var ex = null;
     for (var i = 0; i < item.examples.length; i++) {
-      var candidate = buildSingleBlankSentence(item.examples[i].japanese, item.pattern);
+      var candidate = buildGrammarBlankSentence(item.examples[i].japanese, item.pattern);
       if (!candidate) continue;
       if (isStrictBeginnerLevel(level) && !sanitizeJapaneseForBeginnerLevel(candidate, level, [])) continue;
       ex = item.examples[i];
       break;
     }
     if (!ex) return null;
-    var sentence = buildSingleBlankSentence(ex.japanese, item.pattern);
+    var sentence = buildGrammarBlankSentence(ex.japanese, item.pattern);
     if (!sentence) return null;
     var distractors = generateDistractors(item, pool, 3, function (g) { return g.pattern; });
     if (distractors.length < 3) return null;
