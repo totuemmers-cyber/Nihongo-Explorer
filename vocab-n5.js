@@ -26511,8 +26511,8 @@ window.VOCAB_N5 = [
   },
   {
     "word": "海魚",
-    "reading": "うみざかな",
-    "romaji": "umizakana",
+    "reading": "かいぎょ",
+    "romaji": "kaigyo",
     "pitch": 0,
     "meaning": "Meeresfisch",
     "type": "Nomen",
@@ -26521,12 +26521,12 @@ window.VOCAB_N5 = [
     "examples": [
       {
         "japanese": "サケは海魚ですか？それとも川魚ですか？",
-        "romaji": "Sake wa umigyo desu ka? Soretomo kawagyo desu ka?",
+        "romaji": "Sake wa kaigyo desu ka? Soretomo kawagyo desu ka?",
         "german": "Ist Lachs ein Salzwasserfisch? Oder ein Suesswasserfisch?"
       },
       {
         "japanese": "この市場には海魚が多いです。",
-        "romaji": "Kono ichiba ni wa umizakana ga ooi desu.",
+        "romaji": "Kono ichiba ni wa kaigyo ga ooi desu.",
         "german": "Auf diesem Markt gibt es viele Meeresfische."
       }
     ]

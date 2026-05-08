@@ -36295,23 +36295,6 @@ window.VOCAB_N3 = [
     ]
   },
   {
-    "word": "御籤",
-    "reading": "おみくじ",
-    "romaji": "omikuji",
-    "pitch": 0,
-    "meaning": "Losorakel (Schrein)",
-    "type": "Nomen",
-    "level": "N3",
-    "category": "Alltag",
-    "examples": [
-      {
-        "japanese": "御籤を引きました。",
-        "romaji": "Omikuji o hikimashita.",
-        "german": "Ich habe ein Losorakel gezogen."
-      }
-    ]
-  },
-  {
     "word": "参道",
     "reading": "さんどう",
     "romaji": "sandou",

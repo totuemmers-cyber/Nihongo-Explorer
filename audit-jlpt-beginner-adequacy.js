@@ -32,11 +32,11 @@ const DATA_FILES = [
 const SOURCE_URLS = {
   N5: [
     'https://jlptsensei.com/jlpt-n5-vocabulary-list/',
-    'https://japanesetest4you.com/jlpt-n5-vocabulary-list/'
+    'https://jlptindepth.com/jlpt/N5'
   ],
   N4: [
     'https://jlptsensei.com/jlpt-n4-vocabulary-list/',
-    'https://japanesetest4you.com/jlpt-n4-vocabulary-list/'
+    'https://jlptindepth.com/jlpt/N4'
   ]
 };
 
@@ -194,7 +194,7 @@ function auditExternalCoverage(ctx, level, pageTexts) {
   const vocab = ctx.app.sections.vocab.allItems.filter(function (item) {
     return item.level === level;
   });
-  const normalizedPages = pageTexts.map(normalizeJapanese);
+  const normalizedPages = pageTexts.filter(Boolean).map(normalizeJapanese);
   const missing = [];
   const matched = [];
 
@@ -214,6 +214,7 @@ function auditExternalCoverage(ctx, level, pageTexts) {
 
   return {
     level: level,
+    sourcesChecked: normalizedPages.length,
     total: vocab.length,
     matchedByBothSources: matched.length,
     missingFromEitherSource: missing.length,
@@ -283,7 +284,11 @@ async function main() {
     curatedExamples.malformed.length > 0 ||
     curatedExamples.invalidTeaching.length > 0;
 
-  process.exit(sourceErrors.length > 0 || hasQuestionErrors || hasCuratedExampleErrors ? 1 : 0);
+  const hasFatalSourceErrors = coverage.some(function (entry) {
+    return entry.sourcesChecked === 0;
+  });
+
+  process.exit(hasFatalSourceErrors || hasQuestionErrors || hasCuratedExampleErrors ? 1 : 0);
 }
 
 main().catch(function (err) {

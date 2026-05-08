@@ -1,9 +1,9 @@
-// Onomatopoeia / Lautmalerei Data — 319 entries
+// Onomatopoeia / Lautmalerei Data; 319 entries
 // Categories: Geräusche (擬音語), Zustände (擬態語), Gefühle (擬情語), Bewegung (擬容語)
 
 window.ONOMATOPOEIA_DATA = [
   // =============================================
-  // === GERÄUSCHE (擬音語) — Actual Sounds ===
+  // === GERÄUSCHE (擬音語); Actual Sounds ===
   // =============================================
   {
     "word": "ドンドン",
@@ -200,7 +200,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb",
-    "explanation": "Beschreibt ein leichtes, rhythmisches Klopfen — leiser und sanfter als ドンドン.",
+    "explanation": "Beschreibt ein leichtes, rhythmisches Klopfen; leiser und sanfter als ドンドン.",
     "examples": [
   { "japanese": "肩をトントンと叩いた。", "romaji": "Kata o tonton to tataita.", "german": "Ich klopfte jemandem leicht auf die Schulter." }
     ],
@@ -236,7 +236,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
-    "explanation": "Beschreibt sanften, leisen Regen — feiner Nieselregen.",
+    "explanation": "Beschreibt sanften, leisen Regen; feiner Nieselregen.",
     "examples": [
   { "japanese": "雨がシトシト降っている。", "romaji": "Ame ga shitoshito futte iru.", "german": "Es nieselt leise." }
     ],
@@ -463,7 +463,7 @@ window.ONOMATOPOEIA_DATA = [
   },
 
   // =============================================
-  // === ZUSTÄNDE (擬態語) — States/Conditions ===
+  // === ZUSTÄNDE (擬態語); States/Conditions ===
   // =============================================
   {
     "word": "キラキラ",
@@ -476,7 +476,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N4",
     "usage": "Adverb, する",
-    "explanation": "Beschreibt funkelndes, glitzerndes Licht — wie Sterne, Schmuck oder Augen.",
+    "explanation": "Beschreibt funkelndes, glitzerndes Licht; wie Sterne, Schmuck oder Augen.",
     "examples": [
   { "japanese": "星がキラキラ光っている。", "romaji": "Hoshi ga kirakira hikatte iru.", "german": "Die Sterne funkeln." }
     ],
@@ -715,7 +715,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する, の",
-    "explanation": "Beschreibt eine glitschige, schleimige Oberfläche — wie nasser Fisch oder Algen.",
+    "explanation": "Beschreibt eine glitschige, schleimige Oberfläche; wie nasser Fisch oder Algen.",
     "examples": [
   { "japanese": "魚がヌルヌルして掴めない。", "romaji": "Sakana ga nurunuru shite tsukamenai.", "german": "Der Fisch ist so glitschig, dass ich ihn nicht greifen kann." }
     ],
@@ -879,7 +879,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, の",
-    "explanation": "Beschreibt etwas Steifes, Starres — körperlich oder vor Nervosität.",
+    "explanation": "Beschreibt etwas Steifes, Starres; körperlich oder vor Nervosität.",
     "examples": [
   { "japanese": "緊張でコチコチになった。", "romaji": "Kinchou de kochikochi ni natta.", "german": "Vor Nervosität ganz steif geworden." }
     ],
@@ -897,7 +897,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する, の",
-    "explanation": "Beschreibt weiche, nachgiebige Textur — wie Babywangen oder Gummibärchen.",
+    "explanation": "Beschreibt weiche, nachgiebige Textur; wie Babywangen oder Gummibärchen.",
     "examples": [
   { "japanese": "赤ちゃんのほっぺがプニプニしている。", "romaji": "Akachan no hoppe ga punipuni shite iru.", "german": "Die Babywangen sind weich und mollig." }
     ],
@@ -924,7 +924,7 @@ window.ONOMATOPOEIA_DATA = [
   },
 
   // =============================================
-  // === GEFÜHLE (擬情語) — Emotions ===
+  // === GEFÜHLE (擬情語); Emotions ===
   // =============================================
   {
     "word": "ワクワク",
@@ -1318,7 +1318,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
-    "explanation": "Beschreibt nervöse Unruhe, Zappeligkeit — kann nicht stillsitzen.",
+    "explanation": "Beschreibt nervöse Unruhe, Zappeligkeit; kann nicht stillsitzen.",
     "examples": [
   { "japanese": "面接前でソワソワしている。", "romaji": "Mensetsu mae de sowasowa shite iru.", "german": "Vor dem Bewerbungsgespräch bin ich ganz unruhig." }
     ],
@@ -1381,7 +1381,7 @@ window.ONOMATOPOEIA_DATA = [
   },
 
   // =============================================
-  // === BEWEGUNG (擬容語) — Movement/Manner ===
+  // === BEWEGUNG (擬容語); Movement/Manner ===
   // =============================================
   {
     "word": "ノロノロ",
@@ -1412,7 +1412,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
-    "explanation": "Beschreibt müheloses, fließendes Tun — Sprechen, Lesen, Schreiben.",
+    "explanation": "Beschreibt müheloses, fließendes Tun; Sprechen, Lesen, Schreiben.",
     "examples": [
   { "japanese": "漢字をスラスラ読める。", "romaji": "Kanji o surasura yomeru.", "german": "Kanji fließend lesen können." }
     ],
@@ -1540,7 +1540,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
-    "explanation": "Beschreibt hektisches, rastloses Verhalten — immer in Eile.",
+    "explanation": "Beschreibt hektisches, rastloses Verhalten; immer in Eile.",
     "examples": [
   { "japanese": "いつもセカセカ動いている。", "romaji": "Itsumo sekaseka ugoite iru.", "german": "Er ist immer hektisch unterwegs." }
     ],
@@ -1612,7 +1612,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N2",
     "usage": "Adverb, する",
-    "explanation": "Beschreibt schwaches, wankendes Gehen — stärker als フラフラ.",
+    "explanation": "Beschreibt schwaches, wankendes Gehen; stärker als フラフラ.",
     "examples": [
   { "japanese": "お酒を飲みすぎてヨロヨロ歩く。", "romaji": "Osake o nomisugite yoroyoro aruku.", "german": "Nach zu viel Alkohol wankend gehen." }
     ],
@@ -1859,7 +1859,7 @@ window.ONOMATOPOEIA_DATA = [
   { "japanese": "授業中にペチャクチャしゃべらないで。", "romaji": "Jugyō-chū ni pechakucha shaberanaide.", "german": "Hör auf, im Unterricht zu quatschen." }
     ],
     "related": ["ブツブツ", "ボソボソ"],
-    "notes": "Oft leicht negativ konnotiert — impliziert, dass das Reden störend ist."
+    "notes": "Oft leicht negativ konnotiert; impliziert, dass das Reden störend ist."
   },
   {
     "word": "ブツブツ",
@@ -2110,7 +2110,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABり",
     "level": "N3",
     "usage": "Adverb, する",
-    "explanation": "Beschreibt einen schlaffen, kraftlosen Zustand — als hätte jemand keine Energie mehr übrig.",
+    "explanation": "Beschreibt einen schlaffen, kraftlosen Zustand; als hätte jemand keine Energie mehr übrig.",
     "examples": [
   { "japanese": "暑さでグッタリしている。", "romaji": "Atsusa de guttari shite iru.", "german": "Vor Hitze bin ich völlig schlapp." }
     ],
@@ -2220,7 +2220,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABり",
     "level": "N2",
     "usage": "Adverb, する",
-    "explanation": "Beschreibt eine angenehme, leichte Kühle — nicht kalt, sondern erfrischend.",
+    "explanation": "Beschreibt eine angenehme, leichte Kühle; nicht kalt, sondern erfrischend.",
     "examples": [
   { "japanese": "地下室はヒンヤリしていて気持ちいい。", "romaji": "Chikashitsu wa hinyari shite ite kimochi ii.", "german": "Im Keller ist es angenehm kühl." }
     ],
@@ -2238,7 +2238,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する, の",
-    "explanation": "Beschreibt angenehme, wohlige Wärme — typisch für Frühlingswetter oder ein warmes Bad.",
+    "explanation": "Beschreibt angenehme, wohlige Wärme; typisch für Frühlingswetter oder ein warmes Bad.",
     "examples": [
   { "japanese": "春のポカポカ陽気が気持ちいい。", "romaji": "Haru no pokapoka yōki ga kimochi ii.", "german": "Das wohlig warme Frühlingswetter ist angenehm." }
     ],
@@ -2514,7 +2514,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
-    "explanation": "Beschreibt heimliches, verstohlenes Verhalten — man versucht, nicht bemerkt zu werden.",
+    "explanation": "Beschreibt heimliches, verstohlenes Verhalten; man versucht, nicht bemerkt zu werden.",
     "examples": [
   { "japanese": "彼はコソコソと部屋を出ていった。", "romaji": "Kare wa kosokoso to heya o dete itta.", "german": "Er schlich sich heimlich aus dem Zimmer." }
     ],
@@ -2568,7 +2568,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb, する",
-    "explanation": "Beschreibt die Kaubewegung beim Essen — langsames, genüssliches Kauen.",
+    "explanation": "Beschreibt die Kaubewegung beim Essen; langsames, genüssliches Kauen.",
     "examples": [
   { "japanese": "パンをモグモグ食べている。", "romaji": "Pan o mogumogu tabete iru.", "german": "Er isst gemütlich sein Brot und kaut vor sich hin." }
     ],
@@ -2622,7 +2622,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "level": "N3",
     "usage": "Adverb",
-    "explanation": "Beschreibt eine geschmeidige, mühelose Fortbewegung — im Wasser, durch Menschenmengen oder bei Aufgaben.",
+    "explanation": "Beschreibt eine geschmeidige, mühelose Fortbewegung; im Wasser, durch Menschenmengen oder bei Aufgaben.",
     "examples": [
   { "japanese": "魚がスイスイ泳いでいる。", "romaji": "Sakana ga suisui oyoide iru.", "german": "Die Fische gleiten geschmeidig durchs Wasser." }
     ],
@@ -4544,7 +4544,7 @@ window.ONOMATOPOEIA_DATA = [
   },
 
   // =============================================
-  // === WEITERE EINTRÄGE — Balancing JLPT ===
+  // === WEITERE EINTRÄGE; Balancing JLPT ===
   // =============================================
 
   // --- N5 (~20 Einträge) ---
@@ -4595,7 +4595,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb",
     "level": "N5",
-    "explanation": "Beschreibt das Zirpen von Zikaden im Sommer — eines der typischsten Sommergeräusche Japans.",
+    "explanation": "Beschreibt das Zirpen von Zikaden im Sommer; eines der typischsten Sommergeräusche Japans.",
     "examples": [
       { "japanese": "セミがミンミン鳴いている。", "romaji": "Semi ga minmin naite iru.", "german": "Die Zikaden zirpen." }
     ],
@@ -4721,7 +4721,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb",
     "level": "N5",
-    "explanation": "Beschreibt ein tiefes, kräftiges Froschquaken — tiefer als ケロケロ.",
+    "explanation": "Beschreibt ein tiefes, kräftiges Froschquaken; tiefer als ケロケロ.",
     "examples": [
       { "japanese": "田んぼでカエルがゲコゲコ鳴いている。", "romaji": "Tanbo de kaeru ga gekogeko naite iru.", "german": "Im Reisfeld quaken die Frösche." }
     ],
@@ -4887,7 +4887,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb",
     "level": "N5",
-    "explanation": "Beschreibt ein hohes Quietschen oder Kreischen — Bremsen, Türen, Affen.",
+    "explanation": "Beschreibt ein hohes Quietschen oder Kreischen; Bremsen, Türen, Affen.",
     "examples": [
       { "japanese": "ブレーキがキーキー鳴る。", "romaji": "Bureeki ga kiikii naru.", "german": "Die Bremsen quietschen." },
       { "japanese": "猿がキーキー鳴いている。", "romaji": "Saru ga kiikii naite iru.", "german": "Die Affen kreischen." }
@@ -4926,7 +4926,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb",
     "level": "N4",
-    "explanation": "Beschreibt lautes, unangenehmes Geschrei — negativer als キャーキャー.",
+    "explanation": "Beschreibt lautes, unangenehmes Geschrei; negativer als キャーキャー.",
     "examples": [
       { "japanese": "子供がギャーギャー泣いている。", "romaji": "Kodomo ga gyaagyaa naite iru.", "german": "Das Kind heult lautstark." }
     ],
@@ -5186,7 +5186,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABり",
     "usage": "Adverb, した",
     "level": "N2",
-    "explanation": "Beschreibt etwas, das scharf und klar erkennbar ist — Konturen, Farben, Erinnerungen.",
+    "explanation": "Beschreibt etwas, das scharf und klar erkennbar ist; Konturen, Farben, Erinnerungen.",
     "examples": [
       { "japanese": "富士山がクッキリ見える。", "romaji": "Fujisan ga kukkiri mieru.", "german": "Der Fuji ist gestochen scharf zu sehen." }
     ],
@@ -5280,7 +5280,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb",
     "level": "N1",
-    "explanation": "Beschreibt zaghaftes, ängstliches Verhalten — man traut sich kaum etwas zu sagen oder zu tun.",
+    "explanation": "Beschreibt zaghaftes, ängstliches Verhalten; man traut sich kaum etwas zu sagen oder zu tun.",
     "examples": [
       { "japanese": "おずおずと手を挙げた。", "romaji": "Ozuozu to te o ageta.", "german": "Zaghaft hob ich die Hand." },
       { "japanese": "彼女はおずおずと話し始めた。", "romaji": "Kanojo wa ozuozu to hanashi hajimeta.", "german": "Sie begann schüchtern zu sprechen." }
@@ -5299,7 +5299,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "Sonstige",
     "usage": "Adverb, の, な",
     "level": "N1",
-    "explanation": "Beschreibt wirres, zusammenhangloses Sprechen — man verhaspelt sich und kann keinen klaren Satz bilden.",
+    "explanation": "Beschreibt wirres, zusammenhangloses Sprechen; man verhaspelt sich und kann keinen klaren Satz bilden.",
     "examples": [
       { "japanese": "しどろもどろの言い訳をした。", "romaji": "Shidoromodoro no iiwake o shita.", "german": "Er stammelte eine wirre Entschuldigung." },
       { "japanese": "質問にしどろもどろになった。", "romaji": "Shitsumon ni shidoromodoro ni natta.", "german": "Bei der Frage geriet ich ins Stammeln." }
@@ -5318,7 +5318,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "Sonstige",
     "usage": "Adverb",
     "level": "N1",
-    "explanation": "Beschreibt unnötiges Hin- und Herreden, Ausreden und Widerspruch — wird oft in Aufforderungen verwendet, damit aufzuhören.",
+    "explanation": "Beschreibt unnötiges Hin- und Herreden, Ausreden und Widerspruch; wird oft in Aufforderungen verwendet, damit aufzuhören.",
     "examples": [
       { "japanese": "つべこべ言わずにやりなさい。", "romaji": "Tsubekobe iwazu ni yarinasai.", "german": "Hör auf, Ausreden zu suchen, und mach es einfach." }
     ],
@@ -5342,7 +5342,7 @@ window.ONOMATOPOEIA_DATA = [
       { "japanese": "しゃにむに突き進む。", "romaji": "Shanimuni tsuki susumu.", "german": "Rücksichtslos voranstürmen." }
     ],
     "related": ["がむしゃら"],
-    "notes": "Literarisch; aus dem Wort 遮二無二 (しゃにむに) — 'egal ob zwei oder nichts'."
+    "notes": "Literarisch; aus dem Wort 遮二無二 (しゃにむに); 'egal ob zwei oder nichts'."
   },
   {
     "word": "つらつら",
@@ -5415,7 +5415,7 @@ window.ONOMATOPOEIA_DATA = [
       { "japanese": "うやむやな返事をした。", "romaji": "Uyamuya na henji o shita.", "german": "Er gab eine vage Antwort." }
     ],
     "related": ["あいまい", "ぼんやり"],
-    "notes": "Kanji: 有耶無耶 — 'gibt es oder gibt es nicht'."
+    "notes": "Kanji: 有耶無耶; 'gibt es oder gibt es nicht'."
   },
   {
     "word": "こせこせ",
@@ -5446,7 +5446,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb",
     "level": "N1",
-    "explanation": "Beschreibt ein tiefes, inniges Gefühl — man empfindet etwas von Herzen und mit Nachdruck.",
+    "explanation": "Beschreibt ein tiefes, inniges Gefühl; man empfindet etwas von Herzen und mit Nachdruck.",
     "examples": [
       { "japanese": "秋の夜にしみじみと故郷を思い出した。", "romaji": "Aki no yoru ni shimijimi to furusato o omoidashita.", "german": "In der Herbstnacht dachte ich tief bewegt an meine Heimat." },
       { "japanese": "しみじみ感じた。", "romaji": "Shimijimi kanjita.", "german": "Ich empfand es zutiefst." }
@@ -5471,7 +5471,7 @@ window.ONOMATOPOEIA_DATA = [
       { "japanese": "がむしゃらに突き進む。", "romaji": "Gamushara ni tsuki susumu.", "german": "Verbissen voranstürmen." }
     ],
     "related": ["しゃにむに", "ガツガツ"],
-    "notes": "Kanji: 我武者羅 — kann positiv (entschlossen) oder negativ (rücksichtslos) sein."
+    "notes": "Kanji: 我武者羅; kann positiv (entschlossen) oder negativ (rücksichtslos) sein."
   },
   {
     "word": "つくづく",
@@ -5484,7 +5484,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb",
     "level": "N1",
-    "explanation": "Beschreibt tiefes, nachhaltiges Empfinden — man erkennt etwas mit voller Überzeugung.",
+    "explanation": "Beschreibt tiefes, nachhaltiges Empfinden; man erkennt etwas mit voller Überzeugung.",
     "examples": [
       { "japanese": "つくづく思ったが、日本語は難しい。", "romaji": "Tsukuzuku omotta ga, nihongo wa muzukashii.", "german": "Ich habe wirklich eingesehen, dass Japanisch schwer ist." },
       { "japanese": "つくづく嫌になった。", "romaji": "Tsukuzuku iya ni natta.", "german": "Ich hatte es wirklich gründlich satt." }
@@ -5503,7 +5503,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "Sonstige",
     "usage": "Adverb",
     "level": "N1",
-    "explanation": "Beschreibt furchtsames, ängstliches Verhalten — man tut etwas mit großer Vorsicht aus Angst.",
+    "explanation": "Beschreibt furchtsames, ängstliches Verhalten; man tut etwas mit großer Vorsicht aus Angst.",
     "examples": [
       { "japanese": "おっかなびっくり吊り橋を渡った。", "romaji": "Okkanabikkuri tsuribashi o watatta.", "german": "Angstvoll überquerte ich die Hängebrücke." }
     ],
@@ -5558,7 +5558,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "Sonstige",
     "usage": "Verb (く-Endung)",
     "level": "N1",
-    "explanation": "Beschreibt das Herumtrödeln oder Stocken bei einer Aufgabe — man kommt nicht voran.",
+    "explanation": "Beschreibt das Herumtrödeln oder Stocken bei einer Aufgabe; man kommt nicht voran.",
     "examples": [
       { "japanese": "出発の準備にもたついた。", "romaji": "Shuppatsu no junbi ni motatsuita.", "german": "Bei den Abfahrtsvorbereitungen trödelte ich herum." }
     ],
@@ -5594,7 +5594,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "Sonstige",
     "usage": "Adverb",
     "level": "N1",
-    "explanation": "Beschreibt aalglatte Ausweichmanöver — jemand windet sich geschickt aus jeder Verantwortung.",
+    "explanation": "Beschreibt aalglatte Ausweichmanöver; jemand windet sich geschickt aus jeder Verantwortung.",
     "examples": [
       { "japanese": "質問にぬらりくらりと答えをかわした。", "romaji": "Shitsumon ni nurarikurari to kotae o kawashita.", "german": "Er wich den Fragen aalglatt aus." }
     ],
@@ -5631,7 +5631,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "Sonstige",
     "usage": "Adverb (mit する)",
     "level": "N1",
-    "explanation": "Beschreibt übermäßiges Verwöhnen, Verhätscheln und Schmeicheln — meist in der Form ちやほやする.",
+    "explanation": "Beschreibt übermäßiges Verwöhnen, Verhätscheln und Schmeicheln; meist in der Form ちやほやする.",
     "examples": [
       { "japanese": "彼女はみんなにちやほやされている。", "romaji": "Kanojo wa minna ni chiyahoya sarete iru.", "german": "Sie wird von allen verwöhnt und umschmeichelt." }
     ],
@@ -5649,7 +5649,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb, する",
     "level": "N1",
-    "explanation": "Beschreibt ratloses, verwirrendes Herumstehen — man weiß nicht, was man tun soll.",
+    "explanation": "Beschreibt ratloses, verwirrendes Herumstehen; man weiß nicht, was man tun soll.",
     "examples": [
       { "japanese": "道に迷ってまごまごしていた。", "romaji": "Michi ni mayotte magomago shite ita.", "german": "Ich hatte mich verirrt und stand ratlos herum." }
     ],
@@ -5667,7 +5667,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb",
     "level": "N1",
-    "explanation": "Beschreibt unverblümtes, rücksichtsloses Reden — man sagt, was man denkt, ohne Rücksicht auf Gefühle.",
+    "explanation": "Beschreibt unverblümtes, rücksichtsloses Reden; man sagt, was man denkt, ohne Rücksicht auf Gefühle.",
     "examples": [
       { "japanese": "彼はずけずけとものを言う。", "romaji": "Kare wa zukezuke to mono o iu.", "german": "Er sagt unverblümt, was er denkt." }
     ],
@@ -5703,7 +5703,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb",
     "level": "N1",
-    "explanation": "Beschreibt furchtvolles, ängstliches Handeln — man tut etwas mit großer Angst.",
+    "explanation": "Beschreibt furchtvolles, ängstliches Handeln; man tut etwas mit großer Angst.",
     "examples": [
       { "japanese": "こわごわ暗い部屋に入った。", "romaji": "Kowagowa kurai heya ni haitta.", "german": "Furchtsam betrat ich das dunkle Zimmer." }
     ],
@@ -5740,12 +5740,12 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb, する",
     "level": "N1",
-    "explanation": "Beschreibt rastloses, gehetztes Arbeiten ohne Pause — man rackert sich ab.",
+    "explanation": "Beschreibt rastloses, gehetztes Arbeiten ohne Pause; man rackert sich ab.",
     "examples": [
       { "japanese": "あくせく働いても、給料は増えない。", "romaji": "Akuseku hataraite mo, kyuuryou wa fuenai.", "german": "Auch wenn man sich abschuftet, steigt das Gehalt nicht." }
     ],
     "related": ["セカセカ", "バタバタ"],
-    "notes": "Kanji: 齷齪; negativ konnotiert — betont die Sinnlosigkeit der Hektik."
+    "notes": "Kanji: 齷齪; negativ konnotiert; betont die Sinnlosigkeit der Hektik."
   },
   {
     "word": "しゃちほこばる",
@@ -5831,7 +5831,7 @@ window.ONOMATOPOEIA_DATA = [
     "pattern": "ABAB",
     "usage": "Adverb",
     "level": "N1",
-    "explanation": "Beschreibt undeutliches, genuscheles Sprechen — oft mit etwas im Mund.",
+    "explanation": "Beschreibt undeutliches, genuscheles Sprechen; oft mit etwas im Mund.",
     "examples": [
       { "japanese": "もごもごと言い訳を始めた。", "romaji": "Mogomogo to iiwake o hajimeta.", "german": "Er fing an, undeutlich Entschuldigungen zu murmeln." },
       { "japanese": "口をもごもごさせている。", "romaji": "Kuchi o mogomogo sasete iru.", "german": "Er bewegt undeutlich den Mund." }

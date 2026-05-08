@@ -11884,8 +11884,8 @@ window.VOCAB_N1 = [
   },
   {
     "word": "荷送人",
-    "reading": "にだしにん",
-    "romaji": "nidashininn",
+    "reading": "におくりにん",
+    "romaji": "niokurinin",
     "pitch": 0,
     "meaning": "Absender; Versender",
     "type": "Nomen",
@@ -11894,7 +11894,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "荷送人が輸出書類を準備する責任がある。",
-        "romaji": "Nidashininn ga yushutsu shorui wo junbi suru sekinin ga aru.",
+        "romaji": "Niokurinin ga yushutsu shorui o junbi suru sekinin ga aru.",
         "german": "Der Absender ist für die Vorbereitung der Exportdokumente verantwortlich."
       }
     ]
@@ -38846,8 +38846,8 @@ window.VOCAB_N1 = [
   },
   {
     "word": "日長",
-    "reading": "にっちょう",
-    "romaji": "nitchō",
+    "reading": "ひなが",
+    "romaji": "hinaga",
     "pitch": 0,
     "meaning": "Tageslänge",
     "type": "Nomen",
@@ -38856,7 +38856,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "日長の変化が植物の開花を制御する。",
-        "romaji": "Nitchō no henka ga shokubutsu no kaika wo seigyo suru.",
+        "romaji": "Hinaga no henka ga shokubutsu no kaika o seigyo suru.",
         "german": "Veränderungen der Tageslänge steuern die Blüte der Pflanzen."
       }
     ]
@@ -45051,8 +45051,8 @@ window.VOCAB_N1 = [
   },
   {
     "word": "恤む",
-    "reading": "あわれむ",
-    "romaji": "awaremu",
+    "reading": "めぐむ",
+    "romaji": "megumu",
     "pitch": 3,
     "meaning": "bemitleiden, erbarmen",
     "type": "Verb",
@@ -45061,7 +45061,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "弱い者を恤む心が大切だ。",
-        "romaji": "Yowai mono o awaremu kokoro ga taisetsu da.",
+        "romaji": "Yowai mono o megumu kokoro ga taisetsu da.",
         "german": "Ein mitfühlendes Herz für die Schwachen ist wichtig."
       }
     ]
@@ -49216,8 +49216,8 @@ window.VOCAB_N1 = [
   },
   {
     "word": "面目を施す",
-    "reading": "めんもくをほどこす",
-    "romaji": "menmoku o hodokosu",
+    "reading": "めんぼくをほどこす",
+    "romaji": "menboku o hodokosu",
     "pitch": 0,
     "meaning": "sein Ansehen wahren, Ehre einlegen",
     "type": "Ausdruck",
@@ -49226,7 +49226,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "見事な成績で面目を施した。",
-        "romaji": "Migoto na seiseki de menmoku o hodokoshita.",
+        "romaji": "Migoto na seiseki de menboku o hodokoshita.",
         "german": "Man legte mit hervorragenden Ergebnissen Ehre ein."
       }
     ]
