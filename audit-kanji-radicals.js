@@ -22,7 +22,7 @@ const allKanji = []
 const THRESHOLDS = {
   minCanonicalRadicalPool: 214,
   maxNoCanonical: 540,
-  maxMissingPrimary: 635
+  maxMissingPrimary: 0   // After the first-component heuristic, every kanji with ≥1 canonical radical must have a primary
 };
 
 const missingPrimary = [];
@@ -60,11 +60,13 @@ const report = {
     canonicalRadicalPool: (ctx.KANGXI_RADICALS || []).length,
     explicitPrimary: explicitPrimary.length,
     noCanonical: noCanonical.length,
-    missingPrimary: missingPrimary.length
+    missingPrimary: missingPrimary.length,
+    assignedPrimary: allKanji.length - noCanonical.length - missingPrimary.length
   },
   thresholds: THRESHOLDS,
-  missingPrimarySample: missingPrimary.slice(0, 100),
-  noCanonicalSample: noCanonical.slice(0, 50)
+  missingPrimarySample: missingPrimary.slice(0, 50),
+  noCanonicalSample: noCanonical.slice(0, 30),
+  note: "missingPrimary now only counts kanji that have 0 canonical radicals (the 540 are expected). All others receive a primary via the first-component heuristic or explicit override."
 };
 
 console.log(JSON.stringify(report, null, 2));

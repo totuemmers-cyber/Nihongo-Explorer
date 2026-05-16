@@ -607,9 +607,10 @@
     });
   }
 
-  // 7. Kanji Radical: kanji → radical
+  // 7. Kanji Radical: kanji → (one of its) radical
   function genKanjiRadical(level) {
     var radicals = window.KANGXI_RADICALS || [];
+    // Only kanji that have at least one canonical radical component can participate.
     var pool = getLevelPool(getKanjiByLevel, level).filter(function (k) {
       return !!(window.getPrimaryKanjiRadical && window.getPrimaryKanjiRadical(k));
     });
@@ -631,7 +632,7 @@
       promptMain: item.kanji,
       promptSub: item.meanings[0],
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: item.kanji + ' hat als Prim\u00e4rradikal ' + correctAnswer
+      explanation: item.kanji + ' enth\u00e4lt als Radikal ' + correctAnswer
     }, level, {
       sourceLevel: item.jlpt,
       preserveTokens: [item.kanji]

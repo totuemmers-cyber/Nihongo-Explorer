@@ -1389,15 +1389,55 @@ SECTION_CONFIGS.radicals = {
       explanationEl.style.display = 'none';
     }
 
-    // Find kanji that use this radical (O(1) lookup via index)
+    // Primary list (O(1) via index built from getPrimaryKanjiRadical)
     var kanjiList = document.getElementById('radical-detail-kanji-list');
     var matchingKanji = getKanjiByRadical()[r.radical] || [];
+    var secondarySection = document.getElementById('radical-detail-secondary-section');
+    var secondaryList = document.getElementById('radical-detail-kanji-secondary');
 
-    if (matchingKanji.length > 0) {
-      renderKanjiTags(kanjiList, matchingKanji);
-      attachKanjiNavigation(kanjiList, section);
+    var renderPrimary = function (items) {
+      if (items.length > 0) {
+        renderKanjiTags(kanjiList, items);
+        attachKanjiNavigation(kanjiList, section);
+      } else {
+        kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Keine Kanji mit diesem Radikal als Primärradikal gefunden.</span>';
+      }
+    };
+
+    var renderSecondary = function (items) {
+      if (!secondarySection || !secondaryList) return;
+      if (items.length > 0) {
+        secondarySection.classList.remove('hidden');
+        renderKanjiTags(secondaryList, items);
+        attachKanjiNavigation(secondaryList, section);
+      } else {
+        secondarySection.classList.add('hidden');
+      }
+    };
+
+    // Build secondary list (kanji that contain the radical in any component but have a different primary)
+    var buildSecondary = function (allKanjiItems) {
+      var sec = [];
+      var primarySet = new Set((getKanjiByRadical()[r.radical] || []).map(function (k) { return k.kanji; }));
+      for (var j = 0; j < allKanjiItems.length; j++) {
+        var k = allKanjiItems[j];
+        if (primarySet.has(k.kanji)) continue;
+        var hasIt = k.components && k.components.some(function (c) { return c.radical === r.radical; });
+        if (hasIt) sec.push(k);
+      }
+      return sec;
+    };
+
+    if (matchingKanji.length > 0 || (window.app && window.app.sections.kanji && window.app.sections.kanji.isLoaded)) {
+      renderPrimary(matchingKanji);
+
+      // Secondary list (only meaningful once kanji data is present)
+      var kanjiItems = (window.app && window.app.sections.kanji) ? window.app.sections.kanji.allItems : [];
+      var secondary = buildSecondary(kanjiItems);
+      renderSecondary(secondary);
     } else if (window.app && window.app.sections.kanji && !window.app.sections.kanji.isLoaded) {
       kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Kanji werden geladen...</span>';
+      secondarySection && secondarySection.classList.add('hidden');
       window.app.ensureSectionLoaded('kanji').then(function () {
         if (section.currentDetailIndex === -1) return;
         var current = section.filteredItems[section.currentDetailIndex];
@@ -1406,6 +1446,7 @@ SECTION_CONFIGS.radicals = {
       });
     } else {
       kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Keine Kanji mit diesem Radikal in der Datenbank gefunden.</span>';
+      secondarySection && secondarySection.classList.add('hidden');
     }
   }
 };
