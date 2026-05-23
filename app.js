@@ -501,12 +501,16 @@
     section.isLoading = true;
     setLoadingVisible(name, true, loader.message);
 
-    section._loadPromise = loadScripts(loader.initialScripts || loader.scripts || [])
+    section._initialLoadPromise = loadScripts(loader.initialScripts || loader.scripts || [])
       .then(function () {
         if (loader.hydrateInitial) loader.hydrateInitial();
         else if (loader.hydrate) loader.hydrate();
         clearSectionError(name);
         setLoadingVisible(name, false);
+      });
+
+    section._loadPromise = section._initialLoadPromise
+      .then(function () {
         if (loader.backgroundScripts && loader.backgroundScripts.length) {
           return loadScriptGroup(loader.backgroundScripts).then(function () {
             if (loader.hydrateBackground) loader.hydrateBackground();
@@ -516,6 +520,7 @@
         section.isComplete = true;
       })
       .catch(function (err) {
+        section._initialLoadPromise = null;
         section._loadPromise = null;
         console.error(err);
         showSectionError(name, loader.message.replace('Lade', 'Fehler beim Laden von').replace('...', '.') + ' Bitte erneut versuchen.', function () {
@@ -533,6 +538,14 @@
       });
 
     return section._loadPromise;
+  }
+
+  function ensureSectionInitialLoaded(name) {
+    var section = app.sections[name];
+    if (!section) return Promise.resolve();
+    if (section.isLoaded) return Promise.resolve();
+    ensureSectionLoaded(name).catch(function () {});
+    return section._initialLoadPromise || section._loadPromise || Promise.resolve();
   }
 
   function ensureQuizDataLoaded() {
@@ -590,7 +603,35 @@
   }
 
   // === TAB SYSTEM ===
+  function setTabVisibility(tab) {
+    sectionNames.forEach(function (name) {
+      var sec = app.sections[name];
+      if (sec.dom.controls) sec.dom.controls.classList.toggle('hidden', tab !== name);
+      if (tabPanels[name]) tabPanels[name].classList.toggle('hidden', tab !== name);
+    });
+    kanaTab.classList.toggle('hidden', tab !== 'kana');
+    if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
+  }
+
+  function showSectionTabWhenReady(tab) {
+    var section = app.sections[tab];
+    if (!section) return;
+
+    ensureSectionInitialLoaded(tab).then(function () {
+      if (app.activeTab !== tab) return;
+      setTabVisibility(tab);
+      if (section.config.onTabActivate) {
+        section.config.onTabActivate(section);
+      }
+      updateCount();
+    }).catch(function () {
+      if (app.activeTab === tab) setTabVisibility(tab);
+      updateCount();
+    });
+  }
+
   function switchTab(tab) {
+    var pendingSection = app.sections[tab] && !app.sections[tab].isLoaded;
     app.activeTab = tab;
     playSwoosh();
 
@@ -599,18 +640,9 @@
     });
     moveTabIndicator();
 
-    // Toggle controls and tab panels for sections
-    sectionNames.forEach(function (name) {
-      var sec = app.sections[name];
-      if (sec.dom.controls) sec.dom.controls.classList.toggle('hidden', tab !== name);
-      if (tabPanels[name]) tabPanels[name].classList.toggle('hidden', tab !== name);
-    });
-
-    // Kana tab (no Section instance)
-    kanaTab.classList.toggle('hidden', tab !== 'kana');
-
-    // Quiz tab (no Section instance)
-    if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
+    if (!pendingSection) {
+      setTabVisibility(tab);
+    }
 
     // Tab activate hooks
     if (tab === 'kana') {
@@ -627,15 +659,19 @@
     }
 
     if (app.sections[tab]) {
-      ensureSectionLoaded(tab).then(function () {
-        if (app.activeTab !== tab) return;
-        if (app.sections[tab].config.onTabActivate) {
-          app.sections[tab].config.onTabActivate(app.sections[tab]);
-        }
-        updateCount();
-      }).catch(function () {
-        updateCount();
-      });
+      if (pendingSection) {
+        showSectionTabWhenReady(tab);
+      } else {
+        ensureSectionLoaded(tab).then(function () {
+          if (app.activeTab !== tab) return;
+          if (app.sections[tab].config.onTabActivate) {
+            app.sections[tab].config.onTabActivate(app.sections[tab]);
+          }
+          updateCount();
+        }).catch(function () {
+          updateCount();
+        });
+      }
     }
     updateCount();
   }
