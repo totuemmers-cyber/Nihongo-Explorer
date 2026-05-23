@@ -540,14 +540,6 @@
     return section._loadPromise;
   }
 
-  function ensureSectionInitialLoaded(name) {
-    var section = app.sections[name];
-    if (!section) return Promise.resolve();
-    if (section.isLoaded) return Promise.resolve();
-    ensureSectionLoaded(name).catch(function () {});
-    return section._initialLoadPromise || section._loadPromise || Promise.resolve();
-  }
-
   function ensureQuizDataLoaded() {
     if (quizDataLoaded) return Promise.resolve();
     if (quizDataPromise) return quizDataPromise;
@@ -617,7 +609,7 @@
     var section = app.sections[tab];
     if (!section) return;
 
-    ensureSectionInitialLoaded(tab).then(function () {
+    ensureSectionLoaded(tab).then(function () {
       if (app.activeTab !== tab) return;
       setTabVisibility(tab);
       if (section.config.onTabActivate) {
