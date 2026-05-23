@@ -15,6 +15,8 @@
     clearRadicalFilter: clearRadicalFilter,
     openRadicalInTab: openRadicalInTab,
     ensureSectionLoaded: ensureSectionLoaded,
+    ensureQuizDataLoaded: ensureQuizDataLoaded,
+    isQuizDataLoaded: isQuizDataLoaded,
     ensureGrammarLessonsLoaded: ensureGrammarLessonsLoaded,
     renderBasicNumbers: renderBasicNumbers,
     speakJP: speakJP
@@ -259,53 +261,76 @@
     return merged;
   }
 
+  function getNormalizedVocabSourcesFromGlobals(sourceNames) {
+    var allSources = {
+      'vocab-n5': { name: 'vocab-n5', items: window.VOCAB_N5 || [] },
+      'vocab-n4': { name: 'vocab-n4', items: window.VOCAB_N4 || [] },
+      'vocab-n3': { name: 'vocab-n3', items: window.VOCAB_N3 || [] },
+      'vocab-n2': { name: 'vocab-n2', items: window.VOCAB_N2 || [] },
+      'vocab-n1': { name: 'vocab-n1', items: window.VOCAB_N1 || [] },
+      yojijukugo: { name: 'yojijukugo', items: dedupeSpecialistItems(window.YOJIJUKUGO_DATA || [], getEntryKey) },
+      idioms: { name: 'idioms', items: window.IDIOMS_DATA || [] }
+    };
+    var rawSources = [];
+    for (var i = 0; i < sourceNames.length; i++) {
+      rawSources.push(allSources[sourceNames[i]]);
+    }
+    return window.getNormalizedVocabSources
+      ? window.getNormalizedVocabSources(rawSources)
+      : rawSources;
+  }
+
+  function buildMergedVocabForSources(sourceNames) {
+    return mergeVocabSources(getNormalizedVocabSourcesFromGlobals(sourceNames));
+  }
+
   var sectionLoaders = {
     kanji: {
-      scripts: ['kangxi-radicals-data.js', 'kanji-data.js', 'kanji-n1.js'],
+      initialScripts: ['kangxi-radicals-data.js', 'kanji-data.js'],
+      backgroundScripts: ['kanji-n1.js'],
       message: 'Lade Kanji-Daten...',
-      hydrate: function () {
-        var items = [];
-        if (window.KANJI_DATA) {
-          items = window.KANJI_DATA.slice();
-          if (window.KANJI_N1_DATA) items = items.concat(window.KANJI_N1_DATA);
-        }
+      hydrateInitial: function () {
         if (window.resetSectionLookups) window.resetSectionLookups();
-        app.sections.kanji.setItems(items);
+        app.sections.kanji.setItems(window.KANJI_DATA ? window.KANJI_DATA.slice() : []);
         if (!app.sections.radicals.isLoaded && window.KANGXI_RADICALS) {
           app.sections.radicals.setItems(window.KANGXI_RADICALS);
+        }
+      },
+      hydrateBackground: function () {
+        if (window.KANJI_N1_DATA) {
+          app.sections.kanji.appendItems(window.KANJI_N1_DATA);
+          if (window.resetSectionLookups) window.resetSectionLookups();
         }
       }
     },
     grammar: {
-      scripts: ['grammar-data.js', 'grammar-n2.js', 'grammar-n1.js', 'keigo-data.js'],
+      initialScripts: ['grammar-data.js'],
+      backgroundScripts: ['grammar-n2.js', 'grammar-n1.js', 'keigo-data.js'],
       message: 'Lade Grammatik-Daten...',
-      hydrate: function () {
+      hydrateInitial: function () {
+        app.sections.grammar.setItems(window.GRAMMAR_DATA || []);
+      },
+      hydrateBackground: function () {
         app.sections.grammar.setItems(window.GRAMMAR_DATA || []);
       }
     },
     vocab: {
-      scripts: ['vocab-n5.js', 'vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js'],
+      initialScripts: ['vocab-n5.js'],
+      backgroundScripts: ['vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js'],
       message: 'Lade Vokabel-Daten...',
-      hydrate: function () {
-        var rawVocabSources = [
-          { name: 'vocab-n5', items: window.VOCAB_N5 || [] },
-          { name: 'vocab-n4', items: window.VOCAB_N4 || [] },
-          { name: 'vocab-n3', items: window.VOCAB_N3 || [] },
-          { name: 'vocab-n2', items: window.VOCAB_N2 || [] },
-          { name: 'vocab-n1', items: window.VOCAB_N1 || [] },
-          { name: 'yojijukugo', items: dedupeSpecialistItems(window.YOJIJUKUGO_DATA || [], getEntryKey) },
-          { name: 'idioms', items: window.IDIOMS_DATA || [] }
-        ];
-        var vocabSources = window.getNormalizedVocabSources
-          ? window.getNormalizedVocabSources(rawVocabSources)
-          : rawVocabSources;
-        app.sections.vocab.setItems(mergeVocabSources(vocabSources));
+      hydrateInitial: function () {
+        app.sections.vocab.setItems(buildMergedVocabForSources(['vocab-n5']));
+      },
+      hydrateBackground: function () {
+        app.sections.vocab.setItems(buildMergedVocabForSources([
+          'vocab-n5', 'vocab-n4', 'vocab-n3', 'vocab-n2', 'vocab-n1', 'yojijukugo', 'idioms'
+        ]));
       }
     },
     onomatopoeia: {
-      scripts: ['onomatopoeia-data.js'],
+      initialScripts: ['onomatopoeia-data.js'],
       message: 'Lade Lautmalerei-Daten...',
-      hydrate: function () {
+      hydrateInitial: function () {
         var items = dedupeSpecialistItems(window.ONOMATOPOEIA_DATA || [], function (item) {
           return item.word || '';
         });
@@ -313,17 +338,17 @@
       }
     },
     counters: {
-      scripts: ['counters-data.js'],
+      initialScripts: ['counters-data.js'],
       message: 'Lade Zählwort-Daten...',
-      hydrate: function () {
+      hydrateInitial: function () {
         var counters = window.COUNTERS_DATA && window.COUNTERS_DATA.counters ? window.COUNTERS_DATA.counters : [];
         app.sections.counters.setItems(counters);
       }
     },
     radicals: {
-      scripts: ['kangxi-radicals-data.js'],
+      initialScripts: ['kangxi-radicals-data.js'],
       message: 'Lade Radikal-Daten...',
-      hydrate: function () {
+      hydrateInitial: function () {
         if (window.resetSectionLookups) window.resetSectionLookups();
         app.sections.radicals.setItems(window.KANGXI_RADICALS || []);
       }
@@ -456,23 +481,38 @@
     return promise;
   }
 
+  function loadScriptGroup(sources) {
+    if (!sources || sources.length === 0) return Promise.resolve();
+    return Promise.all(sources.map(function (src) {
+      return loadScript(src);
+    }));
+  }
+
   function ensureSectionLoaded(name) {
     if (name === 'quiz') return ensureQuizDataLoaded();
 
     var section = app.sections[name];
     var loader = sectionLoaders[name];
     if (!section || !loader) return Promise.resolve();
-    if (section.isLoaded) return Promise.resolve();
+    if (section.isComplete) return Promise.resolve();
     if (section._loadPromise) return section._loadPromise;
 
     clearSectionError(name);
     section.isLoading = true;
     setLoadingVisible(name, true, loader.message);
 
-    section._loadPromise = loadScripts(loader.scripts)
+    section._loadPromise = loadScripts(loader.initialScripts || loader.scripts || [])
       .then(function () {
-        loader.hydrate();
+        if (loader.hydrateInitial) loader.hydrateInitial();
+        else if (loader.hydrate) loader.hydrate();
         clearSectionError(name);
+        if (loader.backgroundScripts && loader.backgroundScripts.length) {
+          return loadScriptGroup(loader.backgroundScripts).then(function () {
+            if (loader.hydrateBackground) loader.hydrateBackground();
+            section.isComplete = true;
+          });
+        }
+        section.isComplete = true;
       })
       .catch(function (err) {
         section._loadPromise = null;
@@ -513,6 +553,10 @@
     });
 
     return quizDataPromise;
+  }
+
+  function isQuizDataLoaded() {
+    return quizDataLoaded;
   }
 
   function ensureGrammarLessonsLoaded() {
@@ -576,13 +620,7 @@
     }
 
     if (tab === 'quiz') {
-      ensureQuizDataLoaded().then(function () {
-        if (app.activeTab !== 'quiz') return;
-        if (window.QuizModule) window.QuizModule.onTabActivate();
-        updateCount();
-      }).catch(function () {
-        updateCount();
-      });
+      if (window.QuizModule) window.QuizModule.onTabActivate();
       updateCount();
       return;
     }
@@ -637,7 +675,7 @@
       var kanaLabels = { hiragana: 'Hiragana', katakana: 'Katakana' };
       itemCountEl.textContent = kanaLabels[activeKanaMode] || 'Kana';
     } else if (tab === 'quiz') {
-      itemCountEl.textContent = quizDataLoaded ? 'Quiz' : 'Lädt…';
+      itemCountEl.textContent = 'Quiz';
     } else if (app.sections[tab]) {
       var sec = app.sections[tab];
       itemCountEl.textContent = sec.isLoaded ? (sec.filteredItems.length + sec.config.countLabel) : 'Lädt…';

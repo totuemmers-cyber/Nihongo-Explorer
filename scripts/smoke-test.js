@@ -140,6 +140,24 @@ async function run() {
     return window.app && window.QuizModule && document.getElementById('kana-content').children.length > 0;
   }, { description: 'initial app boot' });
 
+  assert(window.app.sections.vocab.isLoaded === false, 'Vocab should not be loaded during initial boot');
+  assert(window.app.sections.kanji.isLoaded === false, 'Kanji should not be loaded during initial boot');
+  assert(window.app.sections.grammar.isLoaded === false, 'Grammar should not be loaded during initial boot');
+
+  click(document.querySelector('[data-tab="quiz"]'), window);
+  await waitFor(function () {
+    return document.querySelector('#quiz-content .quiz-home-card.browse') &&
+      window.app.sections.vocab.isLoaded === false &&
+      window.app.sections.kanji.isLoaded === false &&
+      window.app.sections.grammar.isLoaded === false;
+  }, { description: 'quiz home without data preload' });
+
+  click(document.querySelector('#quiz-content .quiz-home-card.browse'), window);
+  await waitFor(function () {
+    return document.querySelector('#quiz-question-area .quiz-question-card') &&
+      window.app.isQuizDataLoaded() === true;
+  }, { description: 'quiz browse lazy data load' });
+
   click(document.querySelector('[data-tab="kanji"]'), window);
   await waitFor(function () {
     return document.getElementById('kanji-grid').children.length > 0;

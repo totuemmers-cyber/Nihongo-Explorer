@@ -14,10 +14,14 @@ function Section(config) {
   this.renderedCount = 0;
   this.isRendering = false;
   this.scrollObserver = null;
+  this.scrollSentinel = null;
+  this.renderTimer = null;
+  this.renderGeneration = 0;
   this.searchTimeout = null;
   this.initialized = false;
   this.isLoaded = false;
   this.isLoading = false;
+  this.isComplete = false;
 
   // Resolve DOM elements from config.dom (map of key -> element ID)
   this.dom = {};
@@ -40,7 +44,16 @@ function Section(config) {
 // --- Public Methods ---
 
 Section.prototype.setItems = function (items) {
-  this.allItems = items;
+  this.allItems = this._prepareItems(items || []);
+  this.isLoaded = true;
+  this.isLoading = false;
+  this.applyFilters();
+};
+
+Section.prototype.appendItems = function (items) {
+  var nextItems = this._prepareItems(items || []);
+  if (!nextItems.length) return;
+  this.allItems = this.allItems.concat(nextItems);
   this.isLoaded = true;
   this.isLoading = false;
   this.applyFilters();
@@ -50,6 +63,7 @@ Section.prototype.applyFilters = function () {
   var query = this.dom.search ? this.dom.search.value.trim().toLowerCase() : '';
   var self = this;
   this._usingSearchRanking = false;
+  this._resetRenderState();
 
   if (query && this.config.searchScoreFn) {
     var scoredItems = [];
@@ -121,6 +135,7 @@ Section.prototype._renderAll = function () {
 
 Section.prototype.renderBatch = function () {
   if (this.isRendering) return;
+  if (!this.dom.grid) return;
   this.isRendering = true;
 
   var end = Math.min(this.renderedCount + this.batchSize, this.filteredItems.length);
@@ -139,22 +154,65 @@ Section.prototype.renderBatch = function () {
   }
 
   if (this.renderedCount < this.filteredItems.length) {
-    this._setupScrollObserver();
+    this._scheduleScrollObserver();
   }
+};
+
+Section.prototype._prepareItems = function (items) {
+  if (!this.config.prepareItem) return items;
+  for (var i = 0; i < items.length; i++) {
+    this.config.prepareItem(items[i]);
+  }
+  return items;
+};
+
+Section.prototype._resetRenderState = function () {
+  this.renderGeneration += 1;
+  this.isRendering = false;
+  if (this.renderTimer) {
+    if (window.cancelIdleCallback) window.cancelIdleCallback(this.renderTimer);
+    else clearTimeout(this.renderTimer);
+    this.renderTimer = null;
+  }
+  if (this.scrollObserver) {
+    this.scrollObserver.disconnect();
+    this.scrollObserver = null;
+  }
+  if (this.scrollSentinel && this.scrollSentinel.parentNode) {
+    this.scrollSentinel.parentNode.removeChild(this.scrollSentinel);
+  }
+  this.scrollSentinel = null;
+};
+
+Section.prototype._scheduleScrollObserver = function () {
+  var self = this;
+  var generation = this.renderGeneration;
+  var schedule = window.requestIdleCallback || function (cb) { return setTimeout(cb, 0); };
+  this.renderTimer = schedule(function () {
+    self.renderTimer = null;
+    if (generation !== self.renderGeneration) return;
+    self._setupScrollObserver();
+  });
 };
 
 Section.prototype._setupScrollObserver = function () {
   if (this.scrollObserver) this.scrollObserver.disconnect();
+  if (!this.dom.grid || this.renderedCount >= this.filteredItems.length) return;
 
   var sentinel = document.createElement('div');
   sentinel.className = 'scroll-sentinel';
   this.dom.grid.appendChild(sentinel);
+  this.scrollSentinel = sentinel;
 
   var self = this;
+  var generation = this.renderGeneration;
   this.scrollObserver = new IntersectionObserver(function (entries) {
+    if (generation !== self.renderGeneration) return;
     if (entries[0].isIntersecting) {
       self.scrollObserver.disconnect();
+      self.scrollObserver = null;
       sentinel.remove();
+      self.scrollSentinel = null;
       self.renderBatch();
     }
   }, { rootMargin: '200px' });

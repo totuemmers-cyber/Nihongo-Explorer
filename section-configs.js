@@ -88,6 +88,20 @@ function normalizeSearchText(text) {
   return String(text || '').trim().toLowerCase();
 }
 
+function buildSearchText(parts) {
+  var values = [];
+  for (var i = 0; i < parts.length; i++) {
+    var value = parts[i];
+    if (!value) continue;
+    if (Array.isArray(value)) {
+      values = values.concat(value);
+    } else {
+      values.push(value);
+    }
+  }
+  return normalizeSearchText(values.join(' '));
+}
+
 function getTextMatchRank(text, query) {
   var value = normalizeSearchText(text);
   if (!value || !query) return null;
@@ -757,24 +771,23 @@ SECTION_CONFIGS.grammar = {
   ],
   countLabel: ' Grammatik',
   defaultSort: 'category',
-  batchSize: 0,
+  batchSize: 80,
+
+  prepareItem: function (g) {
+    var examples = [];
+    if (g.examples) {
+      for (var i = 0; i < g.examples.length; i++) {
+        examples.push(g.examples[i].japanese, g.examples[i].german, g.examples[i].romaji);
+      }
+    }
+    g.__searchText = buildSearchText([g.pattern, g.meaning, g.explanation, g.formation, examples]);
+  },
 
   filterFn: function (g, query, filters) {
     if (filters.bookmarks === 'starred' && !isBookmarked('grammar', g.id)) return false;
     if (filters.level !== 'all' && g.level !== filters.level) return false;
     if (filters.category !== 'all' && g.category !== filters.category) return false;
-    if (query) {
-      var matchPattern = g.pattern.toLowerCase().indexOf(query) !== -1;
-      var matchMeaning = g.meaning.toLowerCase().indexOf(query) !== -1;
-      var matchExplanation = g.explanation.toLowerCase().indexOf(query) !== -1;
-      var matchFormation = g.formation.toLowerCase().indexOf(query) !== -1;
-      var matchExample = g.examples && g.examples.some(function (ex) {
-        return ex.japanese.toLowerCase().indexOf(query) !== -1 ||
-          ex.german.toLowerCase().indexOf(query) !== -1 ||
-          ex.romaji.toLowerCase().indexOf(query) !== -1;
-      });
-      if (!matchPattern && !matchMeaning && !matchExplanation && !matchFormation && !matchExample) return false;
-    }
+    if (query && (!g.__searchText || g.__searchText.indexOf(query) === -1)) return false;
     return true;
   },
 
@@ -911,6 +924,14 @@ SECTION_CONFIGS.vocab = {
   batchSize: 100,
   searchResultLimit: 32,
 
+  prepareItem: function (v) {
+    v.__wordSearch = normalizeSearchText(v.word);
+    v.__readingSearch = normalizeSearchText(v.reading);
+    v.__romajiSearch = normalizeSearchText(v.romaji);
+    v.__meaningSearch = normalizeSearchText(v.meaning);
+    v.__categorySearch = normalizeSearchText(v.category);
+  },
+
   filterFn: function (v, query, filters) {
     if (filters.bookmarks === 'starred' && !isBookmarked('vocab', getItemId(v, v.word + '|' + (v.reading || '')))) return false;
     if (filters.level !== 'all' && v.level !== filters.level) return false;
@@ -919,11 +940,11 @@ SECTION_CONFIGS.vocab = {
   },
 
   searchScoreFn: function (v, query) {
-    var wordRank = getTextMatchRank(v.word, query);
-    var readingRank = getTextMatchRank(v.reading, query);
-    var romajiRank = getTextMatchRank(v.romaji, query);
-    var meaningRank = getTextMatchRank(v.meaning, query);
-    var categoryRank = getTextMatchRank(v.category, query);
+    var wordRank = getTextMatchRank(v.__wordSearch || v.word, query);
+    var readingRank = getTextMatchRank(v.__readingSearch || v.reading, query);
+    var romajiRank = getTextMatchRank(v.__romajiSearch || v.romaji, query);
+    var meaningRank = getTextMatchRank(v.__meaningSearch || v.meaning, query);
+    var categoryRank = getTextMatchRank(v.__categorySearch || v.category, query);
 
     if (wordRank === null && readingRank === null && romajiRank === null && meaningRank === null && categoryRank === null) {
       return null;
@@ -1180,7 +1201,7 @@ SECTION_CONFIGS.counters = {
   ],
   countLabel: ' Z\u00e4hlw\u00f6rter',
   defaultSort: null,
-  batchSize: 0,
+  batchSize: 80,
 
   onTabActivate: function (section) {
     if (!section.initialized) {
@@ -1191,21 +1212,21 @@ SECTION_CONFIGS.counters = {
     }
   },
 
+  prepareItem: function (c) {
+    var counts = [];
+    if (c.counts) {
+      for (var i = 0; i < c.counts.length; i++) {
+        counts.push(c.counts[i].reading, c.counts[i].romaji, c.counts[i].kanji);
+      }
+    }
+    c.__searchText = buildSearchText([c.kanji, c.reading, c.romaji, c.meaning, c.usage, counts]);
+  },
+
   filterFn: function (c, query, filters) {
     if (filters.bookmarks === 'starred' && !isBookmarked('counters', c.id)) return false;
     if (filters.level !== 'all' && c.level !== filters.level) return false;
     if (filters.category !== 'all' && c.category !== filters.category) return false;
-    if (query) {
-      var matchKanji = c.kanji.indexOf(query) !== -1;
-      var matchReading = c.reading.indexOf(query) !== -1;
-      var matchRomaji = c.romaji.toLowerCase().indexOf(query) !== -1;
-      var matchMeaning = c.meaning.toLowerCase().indexOf(query) !== -1;
-      var matchUsage = c.usage.toLowerCase().indexOf(query) !== -1;
-      var matchCounts = c.counts && c.counts.some(function (ct) {
-        return ct.reading.indexOf(query) !== -1 || ct.romaji.toLowerCase().indexOf(query) !== -1 || ct.kanji.indexOf(query) !== -1;
-      });
-      if (!matchKanji && !matchReading && !matchRomaji && !matchMeaning && !matchUsage && !matchCounts) return false;
-    }
+    if (query && (!c.__searchText || c.__searchText.indexOf(query) === -1)) return false;
     return true;
   },
 
@@ -1337,7 +1358,11 @@ SECTION_CONFIGS.radicals = {
   ],
   countLabel: ' Radikale',
   defaultSort: null,
-  batchSize: 0,
+  batchSize: 80,
+
+  prepareItem: function (r) {
+    r.__searchText = buildSearchText([r.radical, r.meaning, r.reading, r.romaji, r.number, r.explanation]);
+  },
 
   filterFn: function (r, query, filters) {
     if (filters.bookmarks === 'starred' && !isBookmarked('radicals', '' + r.number)) return false;
@@ -1348,15 +1373,7 @@ SECTION_CONFIGS.radicals = {
         if (r.strokes !== parseInt(filters.strokes)) return false;
       }
     }
-    if (query) {
-      var matchRadical = r.radical.indexOf(query) !== -1;
-      var matchMeaning = r.meaning.toLowerCase().indexOf(query) !== -1;
-      var matchReading = r.reading.indexOf(query) !== -1;
-      var matchRomaji = r.romaji.toLowerCase().indexOf(query) !== -1;
-      var matchNumber = ('' + r.number) === query;
-      var matchExplanation = r.explanation && r.explanation.toLowerCase().indexOf(query) !== -1;
-      if (!matchRadical && !matchMeaning && !matchReading && !matchRomaji && !matchNumber && !matchExplanation) return false;
-    }
+    if (query && (!r.__searchText || r.__searchText.indexOf(query) === -1)) return false;
     return true;
   },
 
@@ -1490,25 +1507,23 @@ SECTION_CONFIGS.onomatopoeia = {
   ],
   countLabel: ' Lautmalerei',
   defaultSort: 'category',
-  batchSize: 0,
+  batchSize: 80,
+
+  prepareItem: function (o) {
+    var examples = [];
+    if (o.examples) {
+      for (var i = 0; i < o.examples.length; i++) {
+        examples.push(o.examples[i].japanese, o.examples[i].german, o.examples[i].romaji);
+      }
+    }
+    o.__searchText = buildSearchText([o.word, o.reading, o.romaji, o.meaning, o.explanation, examples]);
+  },
 
   filterFn: function (o, query, filters) {
     if (filters.bookmarks === 'starred' && !isBookmarked('onomatopoeia', getItemId(o, o.word))) return false;
     if (filters.level !== 'all' && o.level !== filters.level) return false;
     if (filters.category !== 'all' && o.category !== filters.category) return false;
-    if (query) {
-      var matchWord = o.word.indexOf(query) !== -1;
-      var matchReading = o.reading && o.reading.indexOf(query) !== -1;
-      var matchRomaji = o.romaji && o.romaji.toLowerCase().indexOf(query) !== -1;
-      var matchMeaning = o.meaning.toLowerCase().indexOf(query) !== -1;
-      var matchExplanation = o.explanation && o.explanation.toLowerCase().indexOf(query) !== -1;
-      var matchExample = o.examples && o.examples.some(function (ex) {
-        return ex.japanese.indexOf(query) !== -1 ||
-          ex.german.toLowerCase().indexOf(query) !== -1 ||
-          ex.romaji.toLowerCase().indexOf(query) !== -1;
-      });
-      if (!matchWord && !matchReading && !matchRomaji && !matchMeaning && !matchExplanation && !matchExample) return false;
-    }
+    if (query && (!o.__searchText || o.__searchText.indexOf(query) === -1)) return false;
     return true;
   },
 

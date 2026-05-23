@@ -811,6 +811,43 @@
     return e;
   }
 
+  function ensureDom() {
+    if (!dom.quizContent) {
+      dom.quizPanel = document.getElementById('quiz-tab');
+      dom.quizContent = document.getElementById('quiz-content');
+    }
+    return !!dom.quizContent;
+  }
+
+  function hasQuizDataReady() {
+    return !!(window.app && window.app.isQuizDataLoaded && window.app.isQuizDataLoaded());
+  }
+
+  function showQuizLoading(message) {
+    if (!ensureDom()) return;
+    dom.quizContent.innerHTML = '<div class="quiz-no-data">' + message + '</div>';
+  }
+
+  function showQuizLoadError() {
+    if (!ensureDom()) return;
+    dom.quizContent.innerHTML = '<div class="quiz-no-data">Quiz-Daten konnten nicht geladen werden. Bitte erneut versuchen.</div>';
+  }
+
+  function ensureQuizDataReady(message, callback) {
+    if (hasQuizDataReady()) {
+      callback();
+      return;
+    }
+    showQuizLoading(message || 'Lade Quiz-Daten...');
+    if (!window.app || !window.app.ensureQuizDataLoaded) {
+      showQuizLoadError();
+      return;
+    }
+    window.app.ensureQuizDataLoaded().then(function () {
+      callback();
+    }).catch(showQuizLoadError);
+  }
+
   function formatTime(seconds) {
     var m = Math.floor(seconds / 60);
     var s = seconds % 60;
@@ -1077,6 +1114,13 @@
   }
 
   function startTest(level) {
+    if (!hasQuizDataReady()) {
+      ensureQuizDataReady('Lade Quiz-Daten...', function () {
+        startTest(level);
+      });
+      return;
+    }
+
     var cfg = getTestConfig(level);
     if (!cfg) return;
 
@@ -1442,7 +1486,9 @@
       '<div class="quiz-card-icon">\u7DF4</div>' +
       '<h3>Übungsmodus</h3>' +
       '<p>Frei üben nach Fragetyp und Level. Kein Timer, kein Scoring.</p>';
-    browseCard.addEventListener('click', initBrowseMode);
+    browseCard.addEventListener('click', function () {
+      ensureQuizDataReady('Lade Quiz-Daten...', initBrowseMode);
+    });
     cards.appendChild(browseCard);
 
     // Test card
@@ -1522,11 +1568,7 @@
   // ==========================================================
 
   function onTabActivate() {
-    if (!dom.quizContent) {
-      dom.quizPanel = document.getElementById('quiz-tab');
-      dom.quizContent = document.getElementById('quiz-content');
-    }
-    if (!dom.quizContent) return;
+    if (!ensureDom()) return;
     // Show home screen if not in active test
     if (!testState.active) {
       showHomeScreen();

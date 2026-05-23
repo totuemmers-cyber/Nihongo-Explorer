@@ -9,7 +9,8 @@
     "audit:radicals": "node audit-kanji-radicals.js",
     "audit:verbs": "node audit-verb-conjugation.js",
     "lint": "node scripts/lint.js",
-    "test:smoke": "node scripts/smoke-test.js"
+    "test:smoke": "node scripts/smoke-test.js",
+    "perf:smoke": "node scripts/perf-smoke.js"
   },
   "devDependencies": {
     "jsdom": "^26.1.0"
