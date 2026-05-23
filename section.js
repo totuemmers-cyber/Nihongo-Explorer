@@ -43,26 +43,28 @@ function Section(config) {
 
 // --- Public Methods ---
 
-Section.prototype.setItems = function (items) {
+Section.prototype.setItems = function (items, options) {
   this.allItems = this._prepareItems(items || []);
   this.isLoaded = true;
   this.isLoading = false;
-  this.applyFilters();
+  this.applyFilters(options);
 };
 
-Section.prototype.appendItems = function (items) {
+Section.prototype.appendItems = function (items, options) {
   var nextItems = this._prepareItems(items || []);
   if (!nextItems.length) return;
   this.allItems = this.allItems.concat(nextItems);
   this.isLoaded = true;
   this.isLoading = false;
-  this.applyFilters();
+  this.applyFilters(options);
 };
 
-Section.prototype.applyFilters = function () {
+Section.prototype.applyFilters = function (options) {
+  options = options || {};
   var query = this.dom.search ? this.dom.search.value.trim().toLowerCase() : '';
   var self = this;
   this._usingSearchRanking = false;
+  this._preserveGridUntilRendered = !!options.preserveGrid;
   this._resetRenderState();
 
   if (query && this.config.searchScoreFn) {
@@ -98,7 +100,7 @@ Section.prototype.applyFilters = function () {
   }
 
   this.renderedCount = 0;
-  if (this.dom.grid) this.dom.grid.innerHTML = '';
+  if (this.dom.grid && !this._preserveGridUntilRendered) this.dom.grid.innerHTML = '';
   this.render();
   if (window.app && typeof window.app.updateCount === 'function') {
     window.app.updateCount();
@@ -122,12 +124,17 @@ Section.prototype.render = function () {
 Section.prototype._renderAll = function () {
   var grid = this.dom.grid;
   if (!grid) return;
-  grid.innerHTML = '';
   var fragment = document.createDocumentFragment();
   for (var i = 0; i < this.filteredItems.length; i++) {
     fragment.appendChild(this.config.createCard(this.filteredItems[i], i, this));
   }
-  grid.appendChild(fragment);
+  if (this._preserveGridUntilRendered) {
+    grid.replaceChildren(fragment);
+  } else {
+    grid.innerHTML = '';
+    grid.appendChild(fragment);
+  }
+  this._preserveGridUntilRendered = false;
   if (this.dom.noResults) {
     this.dom.noResults.classList.toggle('hidden', this.filteredItems.length > 0);
   }
@@ -145,7 +152,12 @@ Section.prototype.renderBatch = function () {
     fragment.appendChild(this.config.createCard(this.filteredItems[i], i, this));
   }
 
-  this.dom.grid.appendChild(fragment);
+  if (this._preserveGridUntilRendered && this.renderedCount === 0) {
+    this.dom.grid.replaceChildren(fragment);
+    this._preserveGridUntilRendered = false;
+  } else {
+    this.dom.grid.appendChild(fragment);
+  }
   this.renderedCount = end;
   this.isRendering = false;
 

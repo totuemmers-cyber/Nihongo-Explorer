@@ -298,7 +298,7 @@
       },
       hydrateBackground: function () {
         if (window.KANJI_N1_DATA) {
-          app.sections.kanji.appendItems(window.KANJI_N1_DATA);
+          app.sections.kanji.appendItems(window.KANJI_N1_DATA, { preserveGrid: true });
           if (window.resetSectionLookups) window.resetSectionLookups();
         }
       }
@@ -311,7 +311,7 @@
         app.sections.grammar.setItems(window.GRAMMAR_DATA || []);
       },
       hydrateBackground: function () {
-        app.sections.grammar.setItems(window.GRAMMAR_DATA || []);
+        app.sections.grammar.setItems(window.GRAMMAR_DATA || [], { preserveGrid: true });
       }
     },
     vocab: {
@@ -324,7 +324,7 @@
       hydrateBackground: function () {
         app.sections.vocab.setItems(buildMergedVocabForSources([
           'vocab-n5', 'vocab-n4', 'vocab-n3', 'vocab-n2', 'vocab-n1', 'yojijukugo', 'idioms'
-        ]));
+        ]), { preserveGrid: true });
       }
     },
     onomatopoeia: {
@@ -506,6 +506,7 @@
         if (loader.hydrateInitial) loader.hydrateInitial();
         else if (loader.hydrate) loader.hydrate();
         clearSectionError(name);
+        setLoadingVisible(name, false);
         if (loader.backgroundScripts && loader.backgroundScripts.length) {
           return loadScriptGroup(loader.backgroundScripts).then(function () {
             if (loader.hydrateBackground) loader.hydrateBackground();
