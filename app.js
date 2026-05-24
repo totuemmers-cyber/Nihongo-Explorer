@@ -358,6 +358,7 @@
   // Tab panels and controls that are not section-managed (kana, quiz)
   var kanaTab = document.getElementById('kana-tab');
   var quizTab = document.getElementById('quiz-tab');
+  var reviewTab = document.getElementById('review-tab');
   var activeKanaMode = 'hiragana';
 
   // Section names that have controls + tab panels
@@ -371,6 +372,7 @@
   function getSectionHost(name) {
     if (name === 'kana') return kanaTab;
     if (name === 'quiz') return quizTab;
+    if (name === 'review') return reviewTab;
     return tabPanels[name] || null;
   }
 
@@ -603,6 +605,7 @@
     });
     kanaTab.classList.toggle('hidden', tab !== 'kana');
     if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
+    if (reviewTab) reviewTab.classList.toggle('hidden', tab !== 'review');
   }
 
   function showSectionTabWhenReady(tab) {
@@ -646,6 +649,12 @@
 
     if (tab === 'quiz') {
       if (window.QuizModule) window.QuizModule.onTabActivate();
+      updateCount();
+      return;
+    }
+
+    if (tab === 'review') {
+      if (window.SRSUI) window.SRSUI.onTabActivate();
       updateCount();
       return;
     }
@@ -705,6 +714,13 @@
       itemCountEl.textContent = kanaLabels[activeKanaMode] || 'Kana';
     } else if (tab === 'quiz') {
       itemCountEl.textContent = 'Quiz';
+    } else if (tab === 'review') {
+      itemCountEl.textContent = 'Review';
+      if (window.SRSUI && window.SRSUI.getDueCount) {
+        window.SRSUI.getDueCount().then(function (due) {
+          if (app.activeTab === 'review') itemCountEl.textContent = due + ' f\u00e4llig';
+        }).catch(function () {});
+      }
     } else if (app.sections[tab]) {
       var sec = app.sections[tab];
       itemCountEl.textContent = sec.isLoaded ? (sec.filteredItems.length + sec.config.countLabel) : 'Lädt…';
@@ -885,9 +901,9 @@
       return;
     }
 
-    // Tab switching: 1-8
-    var tabKeys = ['1', '2', '3', '4', '5', '6', '7', '8'];
-    var tabNames = ['kana', 'radicals', 'kanji', 'vocab', 'onomatopoeia', 'grammar', 'counters', 'quiz'];
+    // Tab switching: 1-9
+    var tabKeys = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    var tabNames = ['kana', 'radicals', 'kanji', 'vocab', 'onomatopoeia', 'grammar', 'counters', 'quiz', 'review'];
     var keyIdx = tabKeys.indexOf(e.key);
     if (keyIdx !== -1) {
       e.preventDefault();
@@ -1200,4 +1216,5 @@
   if (typeof initBookmarkToggles === 'function') initBookmarkToggles();
   if (typeof initSelectFilters === 'function') initSelectFilters();
   updateCount();
+  if (window.SRSUI && window.SRSUI.updateReviewBadge) window.SRSUI.updateReviewBadge();
 })();

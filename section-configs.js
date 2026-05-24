@@ -350,6 +350,11 @@ function createDetailBookmark(headerSelector, sectionName, itemId) {
   header.appendChild(btn);
 }
 
+function createDetailReviewControl(headerSelector, sectionName, item) {
+  if (!window.SRSUI || !window.SRSUI.mountDetailControl) return;
+  window.SRSUI.mountDetailControl(headerSelector, sectionName, item);
+}
+
 // Wire bookmark toggle buttons (single button that toggles between 'all' and 'starred')
 function initBookmarkToggles() {
   document.querySelectorAll('.bm-toggle').forEach(function (btn) {
@@ -610,6 +615,7 @@ SECTION_CONFIGS.kanji = {
     jlptEl.textContent = k.jlpt;
     jlptEl.className = 'detail-jlpt-badge ' + k.jlpt;
     createDetailBookmark('.detail-kanji-display', 'kanji', k.kanji);
+    createDetailReviewControl('.detail-kanji-display', 'kanji', k);
 
     document.getElementById('detail-meanings').textContent = k.meanings.join(', ');
     document.getElementById('detail-strokes').textContent = k.strokes + ' Striche';
@@ -839,6 +845,7 @@ SECTION_CONFIGS.grammar = {
     var catBadge = document.getElementById('grammar-detail-category');
     catBadge.textContent = g.category;
     catBadge.className = 'grammar-category-badge ' + g.category;
+    createDetailReviewControl('.grammar-detail-header', 'grammar', g);
     document.getElementById('grammar-detail-meaning').textContent = g.meaning;
     document.getElementById('grammar-detail-formation').textContent = g.formation;
     document.getElementById('grammar-detail-explanation').textContent = g.explanation;
@@ -1037,6 +1044,7 @@ SECTION_CONFIGS.vocab = {
     // Speak button
     createSpeakButton('.vocab-detail-header', v);
     createDetailBookmark('.vocab-detail-header', 'vocab', getItemId(v, v.word + '|' + (v.reading || '')));
+    createDetailReviewControl('.vocab-detail-header', 'vocab', v);
 
     document.getElementById('vocab-detail-reading').textContent = v.reading || '';
     var pitchEl = document.getElementById('vocab-detail-pitch');
@@ -1265,6 +1273,7 @@ SECTION_CONFIGS.counters = {
     var catBadge = document.getElementById('counter-detail-cat');
     catBadge.textContent = c.category;
     catBadge.className = 'counter-category-badge ' + c.category;
+    createDetailReviewControl('.counter-detail-header', 'counters', c);
 
     document.getElementById('counter-detail-reading').textContent = c.reading + ' (' + c.romaji + ')';
     document.getElementById('counter-detail-meaning').textContent = c.meaning;
@@ -1579,6 +1588,7 @@ SECTION_CONFIGS.onomatopoeia = {
     // Speak button
     createSpeakButton('.ono-detail-header', o);
     createDetailBookmark('.ono-detail-header', 'onomatopoeia', getItemId(o, o.word));
+    createDetailReviewControl('.ono-detail-header', 'onomatopoeia', o);
 
     document.getElementById('ono-detail-reading').textContent = o.reading || '';
     var onoPitchEl = document.getElementById('ono-detail-pitch');

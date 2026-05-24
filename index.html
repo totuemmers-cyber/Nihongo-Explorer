@@ -67,6 +67,11 @@
           <span class="tab-icon-kana">試</span>
           Quiz
         </button>
+        <button class="tab-btn" data-tab="review">
+          <span class="tab-icon-kana">復</span>
+          Review
+          <span id="review-due-badge" class="review-due-badge hidden"></span>
+        </button>
         <div class="tab-indicator"></div>
       </nav>
       <!-- Kanji Tab Controls -->
@@ -362,6 +367,10 @@
           <span>Lade Quiz-Daten...</span>
         </div>
       </div>
+      <!-- Review Tab Content -->
+      <div id="review-tab" class="tab-panel hidden">
+        <div id="review-content" class="review-content"></div>
+      </div>
     </main>
 
     <div id="detail-overlay" class="detail-overlay hidden">
@@ -626,7 +635,7 @@
       <button id="help-close" class="btn-close" title="Schließen">&times;</button>
       <h2>Tastenkürzel</h2>
       <div class="help-shortcuts">
-        <div class="help-row"><kbd>1</kbd>–<kbd>8</kbd><span>Tab wechseln</span></div>
+        <div class="help-row"><kbd>1</kbd>–<kbd>9</kbd><span>Tab wechseln</span></div>
         <div class="help-row"><kbd>/</kbd><span>Suche fokussieren</span></div>
         <div class="help-row"><kbd>r</kbd><span>Zufälliger Eintrag</span></div>
         <div class="help-row"><kbd>?</kbd><span>Diese Hilfe anzeigen</span></div>
@@ -645,6 +654,9 @@
   <script src="section.js"></script>
   <script src="section-configs.js"></script>
   <script src="quiz.js"></script>
+  <script src="srs-scheduler.js"></script>
+  <script src="srs-store.js"></script>
+  <script src="srs-ui.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

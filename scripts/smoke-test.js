@@ -200,6 +200,43 @@ async function run() {
   }, { description: 'vocab speech playback' });
   assert(spokenTexts[spokenTexts.length - 1] === 'ことばつき', 'Expected vocab speech to use reading, got: ' + spokenTexts[spokenTexts.length - 1]);
 
+  await waitFor(function () {
+    return document.querySelector('.vocab-detail-header .srs-detail-control');
+  }, { description: 'vocab SRS detail control' });
+  click(document.querySelector('.vocab-detail-header .srs-detail-control'), window);
+  await waitFor(function () {
+    var btn = document.querySelector('.vocab-detail-header .srs-detail-control');
+    return btn && btn.textContent.indexOf('Review:') !== -1;
+  }, { description: 'vocab item added to review' });
+  click(document.getElementById('vocab-close-detail'), window);
+  await waitFor(function () {
+    return document.getElementById('vocab-detail-overlay').classList.contains('hidden');
+  }, { description: 'vocab overlay close before review' });
+
+  click(document.querySelector('[data-tab="review"]'), window);
+  await waitFor(function () {
+    return document.querySelector('#review-content .review-stat') &&
+      document.getElementById('review-content').textContent.indexOf('Active cards') !== -1;
+  }, { description: 'review home renders' });
+  click(Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
+    return btn.textContent.indexOf('Study all active') !== -1;
+  }), window);
+  await waitFor(function () {
+    return document.querySelector('#review-content .review-card-wrap');
+  }, { description: 'review card renders' });
+  click(document.querySelector('#review-content .quiz-btn-reveal'), window);
+  await waitFor(function () {
+    return !document.querySelector('#review-content .review-grade-row').classList.contains('hidden');
+  }, { description: 'review answer revealed' });
+  click(document.querySelector('#review-content .grade-good'), window);
+  await waitFor(function () {
+    return document.querySelector('#review-content .review-card-wrap') ||
+      (document.querySelector('#review-content .review-stat') &&
+        document.getElementById('review-content').textContent.indexOf('Active cards') !== -1);
+  }, { description: 'review grade saved' });
+
+  click(document.querySelector('[data-tab="vocab"]'), window);
+
   spokenTexts.length = 0;
   window.app.speakJP('か');
   window.app.speakJP('かな');
