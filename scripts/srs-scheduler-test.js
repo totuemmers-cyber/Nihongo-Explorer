@@ -47,4 +47,53 @@ assert(['Mature', 'Mastered'].includes(mature.state), 'Repeated Easy grades shou
 const queue = scheduler.sortQueue([good, again], now + scheduler.constants.DAY_MS);
 assert(queue[0].cardKey === again.cardKey, 'Relearning cards should be prioritized first');
 
-console.log('SRS scheduler test passed.');
+const storage = new Map();
+global.localStorage = {
+  getItem(key) {
+    return storage.has(key) ? storage.get(key) : null;
+  },
+  setItem(key, value) {
+    storage.set(String(key), String(value));
+  },
+  removeItem(key) {
+    storage.delete(key);
+  },
+  clear() {
+    storage.clear();
+  }
+};
+global.window = { SRSScheduler: scheduler };
+require('../srs-store.js');
+
+const secondCard = scheduler.createCard(Object.assign({}, spec, {
+  cardKey: spec.itemKey + '#reverse',
+  promptType: 'reverse',
+  label: 'Aktive Erinnerung'
+}), now);
+
+window.SRSStore.putCards([card, secondCard], { skipBackup: true })
+  .then(function () {
+    return window.SRSStore.setItemSuspended(spec.itemKey, true, { skipBackup: true });
+  })
+  .then(function (cards) {
+    assert(cards.length === 2, 'Suspending an item should update all item cards');
+    assert(cards.every(function (c) { return c.suspended === true; }), 'All item cards should be suspended');
+    assert(scheduler.getStatus(cards).label === 'Ausgesetzt', 'Suspended cards should report Ausgesetzt status');
+    return window.SRSStore.setItemSuspended(spec.itemKey, false, { skipBackup: true });
+  })
+  .then(function (cards) {
+    assert(cards.every(function (c) { return c.suspended === false; }), 'Reactivated cards should not be suspended');
+    return window.SRSStore.deleteCardsByItem(spec.itemKey, { skipBackup: true });
+  })
+  .then(function (deleted) {
+    assert(deleted.length === 2, 'Deleting an item should delete all item cards');
+    return window.SRSStore.getCardsByItem(spec.itemKey);
+  })
+  .then(function (cards) {
+    assert(cards.length === 0, 'Deleted item should no longer have SRS cards');
+    console.log('SRS scheduler test passed.');
+  })
+  .catch(function (error) {
+    console.error(error.stack || String(error));
+    process.exit(1);
+  });

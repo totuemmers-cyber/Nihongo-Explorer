@@ -206,8 +206,30 @@ async function run() {
   click(document.querySelector('.vocab-detail-header .srs-detail-control'), window);
   await waitFor(function () {
     var btn = document.querySelector('.vocab-detail-header .srs-detail-control');
-    return btn && btn.textContent.indexOf('Review:') !== -1;
+    return btn && btn.textContent.indexOf('Wiederholung:') !== -1;
   }, { description: 'vocab item added to review' });
+  await waitFor(function () {
+    return Array.from(document.querySelectorAll('.srs-popover button')).some(function (btn) {
+      return btn.textContent.indexOf('Aussetzen') !== -1;
+    });
+  }, { description: 'review popover suspend action' });
+  click(Array.from(document.querySelectorAll('.srs-popover button')).find(function (btn) {
+    return btn.textContent.indexOf('Aussetzen') !== -1;
+  }), window);
+  await waitFor(function () {
+    var btn = document.querySelector('.vocab-detail-header .srs-detail-control');
+    return btn && btn.textContent.indexOf('Ausgesetzt') !== -1 &&
+      Array.from(document.querySelectorAll('.srs-popover button')).some(function (popBtn) {
+        return popBtn.textContent.indexOf('Wieder aktivieren') !== -1;
+      });
+  }, { description: 'vocab item suspended from review' });
+  click(Array.from(document.querySelectorAll('.srs-popover button')).find(function (btn) {
+    return btn.textContent.indexOf('Wieder aktivieren') !== -1;
+  }), window);
+  await waitFor(function () {
+    var btn = document.querySelector('.vocab-detail-header .srs-detail-control');
+    return btn && btn.textContent.indexOf('Wiederholung:') !== -1 && btn.textContent.indexOf('Ausgesetzt') === -1;
+  }, { description: 'vocab item reactivated for review' });
   click(document.getElementById('vocab-close-detail'), window);
   await waitFor(function () {
     return document.getElementById('vocab-detail-overlay').classList.contains('hidden');
@@ -216,10 +238,10 @@ async function run() {
   click(document.querySelector('[data-tab="review"]'), window);
   await waitFor(function () {
     return document.querySelector('#review-content .review-stat') &&
-      document.getElementById('review-content').textContent.indexOf('Active cards') !== -1;
+      document.getElementById('review-content').textContent.indexOf('Aktive Karten') !== -1;
   }, { description: 'review home renders' });
   click(Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
-    return btn.textContent.indexOf('Study all active') !== -1;
+    return btn.textContent.indexOf('Alle aktiven Karten üben') !== -1;
   }), window);
   await waitFor(function () {
     return document.querySelector('#review-content .review-card-wrap');
@@ -232,8 +254,21 @@ async function run() {
   await waitFor(function () {
     return document.querySelector('#review-content .review-card-wrap') ||
       (document.querySelector('#review-content .review-stat') &&
-        document.getElementById('review-content').textContent.indexOf('Active cards') !== -1);
+        document.getElementById('review-content').textContent.indexOf('Aktive Karten') !== -1);
   }, { description: 'review grade saved' });
+  if (document.querySelector('#review-content .review-card-wrap')) {
+    click(Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
+      return btn.textContent.indexOf('Aus Wiederholung entfernen') !== -1;
+    }), window);
+    await waitFor(function () {
+      var stats = Array.from(document.querySelectorAll('#review-content .review-stat'));
+      return stats.some(function (stat) {
+        return stat.textContent.indexOf('Aktive Karten') !== -1 &&
+          stat.querySelector('.review-stat-value') &&
+          stat.querySelector('.review-stat-value').textContent === '0';
+      });
+    }, { description: 'review item removed during review' });
+  }
 
   click(document.querySelector('[data-tab="vocab"]'), window);
 

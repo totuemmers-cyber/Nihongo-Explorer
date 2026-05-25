@@ -153,6 +153,59 @@
     });
   }
 
+  function setItemSuspended(itemKey, suspended, options) {
+    options = options || {};
+    return getCardsByItem(itemKey).then(function (cards) {
+      if (!cards.length) return [];
+      var timestamp = new Date().toISOString();
+      var updated = cards.map(function (card) {
+        var next = clone(card);
+        next.suspended = Boolean(suspended);
+        next.updatedAt = timestamp;
+        return next;
+      });
+      return putCards(updated, options).then(function () {
+        return updated;
+      });
+    });
+  }
+
+  function deleteCardsByItem(itemKey, options) {
+    options = options || {};
+    return openDb().then(function (db) {
+      if (!db) {
+        var state = loadFallback();
+        var deleted = [];
+        Object.keys(state.cards).forEach(function (cardKey) {
+          var card = state.cards[cardKey];
+          if (card && card.itemKey === itemKey) {
+            deleted.push(clone(card));
+            delete state.cards[cardKey];
+          }
+        });
+        if (deleted.length) {
+          saveFallback();
+          if (!options.skipBackup) scheduleBackup();
+        }
+        return deleted;
+      }
+
+      var index = getStore(db, CARD_STORE).index('itemKey');
+      return reqToPromise(index.getAll(itemKey)).then(function (cards) {
+        if (!cards.length) return [];
+        var tx = db.transaction(CARD_STORE, 'readwrite');
+        var store = tx.objectStore(CARD_STORE);
+        cards.forEach(function (card) {
+          store.delete(card.cardKey);
+        });
+        return txComplete(tx).then(function () {
+          if (!options.skipBackup) scheduleBackup();
+          return cards;
+        });
+      });
+    });
+  }
+
   function addEvent(event, options) {
     options = options || {};
     return openDb().then(function (db) {
@@ -232,10 +285,10 @@
 
   function validateBackup(data) {
     if (!data || data.kind !== 'srs-backup' || !Array.isArray(data.cards) || !Array.isArray(data.events)) {
-      throw new Error('Die Datei ist kein gueltiges Nihongo Explorer SRS-Backup.');
+      throw new Error('Die Datei ist kein gültiges Nihongo Explorer SRS-Backup.');
     }
     if (!data.schemaVersion || data.schemaVersion > BACKUP_SCHEMA_VERSION) {
-      throw new Error('Diese Backup-Version wird von dieser App-Version nicht unterstuetzt.');
+      throw new Error('Diese Backup-Version wird von dieser App-Version nicht unterstützt.');
     }
     return data;
   }
@@ -335,12 +388,12 @@
 
   function connectBackupFile() {
     if (!canUseFileBackup()) {
-      return Promise.reject(new Error('Automatische Datei-Backups werden von diesem Browser nicht unterstuetzt.'));
+      return Promise.reject(new Error('Automatische Datei-Backups werden von diesem Browser nicht unterstützt.'));
     }
 
     return window.showSaveFilePicker({
       suggestedName: 'nihongo-explorer-srs-backup.json',
-      types: [{ description: 'JSON backup', accept: { 'application/json': ['.json'] } }]
+      types: [{ description: 'JSON-Sicherung', accept: { 'application/json': ['.json'] } }]
     }).then(function (handle) {
       return setMeta('backupHandle', handle).then(function () {
         return writeBackupNow();
@@ -350,8 +403,8 @@
 
   function getBackupStatus() {
     return getMeta('backupHandle').then(function (handle) {
-      if (handle) return { mode: 'file', label: 'Auto-backup verbunden' };
-      if (canUseFileBackup()) return { mode: 'available', label: 'Auto-backup nicht verbunden' };
+      if (handle) return { mode: 'file', label: 'Automatische Sicherung verbunden' };
+      if (canUseFileBackup()) return { mode: 'available', label: 'Automatische Sicherung nicht verbunden' };
       return { mode: 'manual', label: 'Manueller Export erforderlich' };
     });
   }
@@ -368,7 +421,7 @@
     return getMeta('backupHandle').then(function (handle) {
       if (!handle || typeof handle.createWritable !== 'function') return null;
       return requestHandlePermission(handle).then(function (allowed) {
-        if (!allowed) throw new Error('Backup-Datei braucht erneut Berechtigung.');
+        if (!allowed) throw new Error('Sicherungsdatei braucht erneut Berechtigung.');
         return exportData().then(function (data) {
           return handle.createWritable().then(function (writable) {
             return writable.write(JSON.stringify(data, null, 2)).then(function () {
@@ -403,6 +456,8 @@
     getAllCards: getAllCards,
     getCardsByItem: getCardsByItem,
     putCards: putCards,
+    setItemSuspended: setItemSuspended,
+    deleteCardsByItem: deleteCardsByItem,
     addEvent: addEvent,
     getAllEvents: getAllEvents,
     getSettings: getSettings,

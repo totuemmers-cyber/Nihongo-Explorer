@@ -11,6 +11,22 @@
   var revealed = false;
   var detailRefreshCallbacks = {};
 
+  var STATE_LABELS = {
+    New: 'Neu',
+    Learning: 'Lernen',
+    Relearning: 'Wiederlernen',
+    Review: 'Wiederholung',
+    Mature: 'Gefestigt',
+    Mastered: 'Gemeistert'
+  };
+
+  var GRADE_LABELS = {
+    Again: 'Nochmal',
+    Hard: 'Schwer',
+    Good: 'Gut',
+    Easy: 'Leicht'
+  };
+
   var PROMPT_LABELS = {
     meaning: 'Bedeutung',
     reading: 'Lesung',
@@ -18,10 +34,10 @@
     context: 'Kontext',
     radical: 'Radikal',
     formation: 'Bildung',
-    cloze: 'Lueckentext',
+    cloze: 'Lückentext',
     conjugation: 'Konjugation',
     question: 'Fragewort',
-    countForms: 'Zaehlen',
+    countForms: 'Zählen',
     usage: 'Verwendung'
   };
 
@@ -114,7 +130,7 @@
     var ex = firstExample(item);
     if (ex && ex.japanese && item.word && ex.japanese.indexOf(item.word) !== -1) {
       specs.push(makeCardSpec('vocab', item, 'context', 'Kontext', {
-        prompt: 'Welches Wort passt in die Luecke?',
+        prompt: 'Welches Wort passt in die Lücke?',
         promptMain: ex.japanese.split(item.word).join('___'),
         promptSub: ex.german || '',
         answer: item.word + (item.reading ? ' (' + item.reading + ')' : ''),
@@ -171,7 +187,7 @@
     }));
     if (item.components && item.components.length) {
       specs.push(makeCardSpec('kanji', item, 'radical', 'Radikal', {
-        prompt: 'Welches Haupt-Radikal oder welche Komponente gehoert dazu?',
+        prompt: 'Welches Haupt-Radikal oder welche Komponente gehört dazu?',
         promptMain: item.kanji,
         promptSub: (item.meanings || []).join(', '),
         answer: formatComponents(item.components),
@@ -216,8 +232,8 @@
     }
     var ex = firstExample(item);
     if (ex && ex.japanese) {
-      specs.push(makeCardSpec('grammar', item, 'cloze', 'Lueckentext', {
-        prompt: 'Welche Grammatikstruktur passt in die Luecke?',
+      specs.push(makeCardSpec('grammar', item, 'cloze', 'Lückentext', {
+        prompt: 'Welche Grammatikstruktur passt in die Lücke?',
         promptMain: buildGrammarCloze(ex.japanese, item.pattern),
         promptSub: ex.german || '',
         answer: item.pattern,
@@ -242,13 +258,13 @@
   function getCounterSpecs(item) {
     var specs = [];
     specs.push(makeCardSpec('counters', item, 'meaning', 'Bedeutung', {
-      prompt: 'Wofuer verwendet man dieses Zaehlwort?',
+      prompt: 'Wofür verwendet man dieses Zählwort?',
       promptMain: item.kanji,
       promptSub: item.reading || '',
       answer: item.meaning || '',
       extra: item.usage || '',
       speechText: item.reading || item.kanji,
-      typeLabel: 'Zaehlwort'
+      typeLabel: 'Zählwort'
     }));
     if (item.questionWord) {
       specs.push(makeCardSpec('counters', item, 'question', 'Fragewort', {
@@ -258,17 +274,17 @@
         answer: item.questionWord.kanji + ' / ' + item.questionWord.reading,
         extra: item.questionWord.romaji || '',
         speechText: item.questionWord.reading,
-        typeLabel: 'Zaehlwort'
+        typeLabel: 'Zählwort'
       }));
     }
     if (item.counts && item.counts.length) {
-      specs.push(makeCardSpec('counters', item, 'countForms', 'Zaehlen', {
+      specs.push(makeCardSpec('counters', item, 'countForms', 'Zählen', {
         prompt: 'Nenne wichtige Formen von 1 bis 10.',
         promptMain: item.kanji,
         promptSub: item.meaning || '',
         answer: item.counts.map(function (c) { return c.num + ': ' + c.kanji + ' (' + c.reading + ')'; }).join('\n'),
         extra: item.specialCounts && item.specialCounts.length ? 'Sonderformen vorhanden' : '',
-        typeLabel: 'Zaehlwort'
+        typeLabel: 'Zählwort'
       }));
     }
     return specs;
@@ -334,7 +350,7 @@
     if (old) old.remove();
 
     var itemKey = getItemKey(sectionName, item);
-    var btn = el('button', 'srs-detail-control srs-status-loading', 'Review');
+    var btn = el('button', 'srs-detail-control srs-status-loading', 'Wiederholung');
     btn.type = 'button';
     header.appendChild(btn);
 
@@ -363,11 +379,11 @@
   function refreshDetailButton(btn, sectionName, item) {
     getItemStatus(sectionName, item).then(function (status) {
       btn.className = 'srs-detail-control srs-status-' + status.className;
-      btn.textContent = status.label === 'Not in Review' ? 'Add to Review' : 'Review: ' + status.label;
-      btn.setAttribute('data-in-review', status.label === 'Not in Review' ? 'false' : 'true');
+      btn.textContent = status.className === 'not-in-review' ? 'Zur Wiederholung hinzufügen' : 'Wiederholung: ' + status.label;
+      btn.setAttribute('data-in-review', status.className === 'not-in-review' ? 'false' : 'true');
     }).catch(function () {
       btn.className = 'srs-detail-control srs-status-error';
-      btn.textContent = 'Review unavailable';
+      btn.textContent = 'Wiederholung nicht verfügbar';
     });
   }
 
@@ -380,8 +396,8 @@
     var old = document.querySelector('.srs-popover');
     if (old) old.remove();
     var pop = el('div', 'srs-popover');
-    pop.appendChild(el('div', 'srs-popover-title', 'Review status'));
-    pop.appendChild(el('div', 'srs-popover-line', 'Loading...'));
+    pop.appendChild(el('div', 'srs-popover-title', 'Wiederholungsstatus'));
+    pop.appendChild(el('div', 'srs-popover-line', 'Lädt...'));
     document.body.appendChild(pop);
 
     var rect = anchor.getBoundingClientRect();
@@ -390,24 +406,45 @@
 
     window.SRSStore.getCardsByItem(getItemKey(sectionName, item)).then(function (cards) {
       pop.innerHTML = '';
-      pop.appendChild(el('div', 'srs-popover-title', 'Review status'));
+      pop.appendChild(el('div', 'srs-popover-title', 'Wiederholungsstatus'));
       if (!cards.length) {
-        pop.appendChild(el('div', 'srs-popover-line', 'Not in Review'));
+        pop.appendChild(el('div', 'srs-popover-line', 'Nicht in Wiederholung'));
         return;
       }
       cards.forEach(function (card) {
         var line = el('div', 'srs-popover-line');
-        line.textContent = card.label + ': ' + card.state + formatDue(card);
+        line.textContent = card.label + ': ' + formatState(card.state) + formatDue(card);
         pop.appendChild(line);
       });
       var actions = el('div', 'srs-popover-actions');
-      var reviewNow = el('button', 'srs-small-btn', 'Review now');
-      reviewNow.addEventListener('click', function () {
-        pop.remove();
-        if (window.app) window.app.switchTab('review');
-        loadQueue(cards, true);
+      var activeCards = cards.filter(function (card) { return !card.suspended; });
+      if (activeCards.length) {
+        var reviewNow = el('button', 'srs-small-btn', 'Jetzt wiederholen');
+        reviewNow.addEventListener('click', function () {
+          pop.remove();
+          if (window.app) window.app.switchTab('review');
+          loadQueue(activeCards, true);
+        });
+        actions.appendChild(reviewNow);
+
+        var suspend = el('button', 'srs-small-btn', 'Aussetzen');
+        suspend.addEventListener('click', function () {
+          updateItemSuspended(anchor, sectionName, item, true);
+        });
+        actions.appendChild(suspend);
+      } else {
+        var reactivate = el('button', 'srs-small-btn', 'Wieder aktivieren');
+        reactivate.addEventListener('click', function () {
+          updateItemSuspended(anchor, sectionName, item, false);
+        });
+        actions.appendChild(reactivate);
+      }
+
+      var remove = el('button', 'srs-small-btn', 'Aus Wiederholung entfernen');
+      remove.addEventListener('click', function () {
+        removeItemFromReview(anchor, sectionName, item);
       });
-      actions.appendChild(reviewNow);
+      actions.appendChild(remove);
       pop.appendChild(actions);
     });
 
@@ -420,12 +457,37 @@
     }
   }
 
+  function updateItemSuspended(anchor, sectionName, item, suspended) {
+    var itemKey = getItemKey(sectionName, item);
+    window.SRSStore.setItemSuspended(itemKey, suspended).then(function () {
+      notifyDetailRefresh(itemKey);
+      showDetailPopover(anchor, sectionName, item);
+      if (window.app) window.app.playPop();
+    });
+  }
+
+  function removeItemFromReview(anchor, sectionName, item) {
+    if (!window.confirm('Diesen Eintrag aus der Wiederholung entfernen? Der Lernfortschritt dieser Karten wird gelöscht.')) {
+      return;
+    }
+    var itemKey = getItemKey(sectionName, item);
+    window.SRSStore.deleteCardsByItem(itemKey).then(function () {
+      notifyDetailRefresh(itemKey);
+      showDetailPopover(anchor, sectionName, item);
+      if (window.app) window.app.playTick();
+    });
+  }
+
   function formatDue(card) {
-    if (card.suspended) return ' (suspended)';
+    if (card.suspended) return ' (ausgesetzt)';
     if (!card.dueAt) return '';
     var due = new Date(card.dueAt).getTime();
-    if (due <= Date.now()) return ' (due)';
-    return ' (next: ' + new Date(card.dueAt).toLocaleDateString() + ')';
+    if (due <= Date.now()) return ' (fällig)';
+    return ' (nächste Wiederholung: ' + new Date(card.dueAt).toLocaleDateString() + ')';
+  }
+
+  function formatState(state) {
+    return STATE_LABELS[state] || state || '';
   }
 
   function onTabActivate() {
@@ -454,8 +516,8 @@
     panel.innerHTML = '';
     var shell = el('div', 'review-shell');
     var header = el('div', 'review-header');
-    header.appendChild(el('div', 'review-title', 'Review'));
-    header.appendChild(el('div', 'review-subtitle', 'Spaced repetition for due, weak, and new cards.'));
+    header.appendChild(el('div', 'review-title', 'Wiederholen'));
+    header.appendChild(el('div', 'review-subtitle', 'Verteilte Wiederholung für fällige, schwache und neue Karten.'));
     shell.appendChild(header);
 
     Promise.all([window.SRSStore.getAllCards(), window.SRSStore.getBackupStatus()]).then(function (parts) {
@@ -466,32 +528,32 @@
       var weakCards = activeCards.filter(function (card) { return (card.lapses || 0) > 0 || card.state === 'Relearning'; });
 
       var stats = el('div', 'review-stats');
-      stats.appendChild(statCard('Due', dueCards.length));
-      stats.appendChild(statCard('Active cards', activeCards.length));
-      stats.appendChild(statCard('Weak', weakCards.length));
-      stats.appendChild(statCard('Backup', backup.label));
+      stats.appendChild(statCard('Fällig', dueCards.length));
+      stats.appendChild(statCard('Aktive Karten', activeCards.length));
+      stats.appendChild(statCard('Schwach', weakCards.length));
+      stats.appendChild(statCard('Sicherung', backup.label));
       shell.appendChild(stats);
 
       var actions = el('div', 'review-actions');
-      var startBtn = el('button', 'quiz-btn quiz-btn-next', dueCards.length ? 'Review due cards' : 'No cards due');
+      var startBtn = el('button', 'quiz-btn quiz-btn-next', dueCards.length ? 'Fällige Karten wiederholen' : 'Keine Karten fällig');
       startBtn.disabled = dueCards.length === 0;
       startBtn.addEventListener('click', function () { loadQueue(dueCards); });
       actions.appendChild(startBtn);
 
-      var allBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Study all active');
+      var allBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Alle aktiven Karten üben');
       allBtn.disabled = activeCards.length === 0;
       allBtn.addEventListener('click', function () { loadQueue(activeCards, true); });
       actions.appendChild(allBtn);
 
-      var settingsBtn = el('button', 'quiz-btn quiz-btn-back', 'Backup & settings');
+      var settingsBtn = el('button', 'quiz-btn quiz-btn-back', 'Sicherung & Einstellungen');
       settingsBtn.addEventListener('click', renderSettings);
       actions.appendChild(settingsBtn);
       shell.appendChild(actions);
 
       var hint = el('div', 'review-empty-hint');
       hint.textContent = activeCards.length
-        ? 'Add more cards from detail pages, or review weak/due cards here.'
-        : 'Open a vocab, kanji, grammar, counter, or onomatopoeia detail page and choose Add to Review.';
+        ? 'Füge weitere Karten aus Detailseiten hinzu oder wiederhole hier schwache und fällige Karten.'
+        : 'Öffne eine Detailseite für Vokabeln, Kanji, Grammatik, Zählwörter oder Lautmalerei und wähle Zur Wiederholung hinzufügen.';
       shell.appendChild(hint);
     });
 
@@ -535,7 +597,7 @@
     wrap.appendChild(meta);
 
     var q = currentCard.question || {};
-    wrap.appendChild(el('p', 'quiz-prompt', q.prompt || 'Review this card'));
+    wrap.appendChild(el('p', 'quiz-prompt', q.prompt || 'Diese Karte wiederholen'));
     if (q.promptMain) {
       var main = el('div', 'quiz-prompt-main' + (/[\u3000-\u9faf\u3040-\u30ff\uff00-\uff9f]/.test(q.promptMain) ? ' jp' : ''), q.promptMain);
       wrap.appendChild(main);
@@ -547,7 +609,7 @@
     wrap.appendChild(answer);
 
     var actions = el('div', 'quiz-browse-actions');
-    var revealBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Show answer');
+    var revealBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Antwort anzeigen');
     revealBtn.addEventListener('click', function () {
       revealed = true;
       answer.classList.remove('hidden');
@@ -559,28 +621,36 @@
 
     var gradeRow = el('div', 'review-grade-row hidden');
     ['Again', 'Hard', 'Good', 'Easy'].forEach(function (grade) {
-      var btn = el('button', 'review-grade-btn grade-' + grade.toLowerCase(), grade);
+      var btn = el('button', 'review-grade-btn grade-' + grade.toLowerCase(), GRADE_LABELS[grade] || grade);
       btn.addEventListener('click', function () { gradeCurrentCard(grade); });
       gradeRow.appendChild(btn);
     });
     actions.appendChild(gradeRow);
 
-    var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Back');
+    var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
     backBtn.addEventListener('click', renderHome);
     actions.appendChild(backBtn);
+
+    var suspendBtn = el('button', 'quiz-btn quiz-btn-back', 'Eintrag aussetzen');
+    suspendBtn.addEventListener('click', suspendCurrentItem);
+    actions.appendChild(suspendBtn);
+
+    var removeBtn = el('button', 'quiz-btn quiz-btn-back', 'Aus Wiederholung entfernen');
+    removeBtn.addEventListener('click', removeCurrentItemFromReview);
+    actions.appendChild(removeBtn);
     wrap.appendChild(actions);
 
     panel.appendChild(wrap);
   }
 
   function appendAnswer(container, q) {
-    container.appendChild(el('div', 'review-answer-label', 'Answer'));
+    container.appendChild(el('div', 'review-answer-label', 'Antwort'));
     String(q.answer || '').split('\n').forEach(function (line) {
       container.appendChild(el('div', 'review-answer-main', line));
     });
     if (q.extra) container.appendChild(el('div', 'review-answer-extra', q.extra));
     if (q.speechText) {
-      var speak = el('button', 'srs-small-btn', 'Play audio');
+      var speak = el('button', 'srs-small-btn', 'Aussprache abspielen');
       speak.addEventListener('click', function () {
         if (window.app) window.app.speakJP(q.speechText);
       });
@@ -605,35 +675,66 @@
     });
   }
 
+  function removeQueuedItem(itemKey) {
+    queue = queue.filter(function (card) {
+      return card.itemKey !== itemKey;
+    });
+  }
+
+  function suspendCurrentItem() {
+    if (!currentCard) return;
+    var itemKey = currentCard.itemKey;
+    window.SRSStore.setItemSuspended(itemKey, true).then(function () {
+      removeQueuedItem(itemKey);
+      notifyDetailRefresh(itemKey);
+      if (window.app) window.app.playTick();
+      renderNextReview();
+    });
+  }
+
+  function removeCurrentItemFromReview() {
+    if (!currentCard) return;
+    var itemKey = currentCard.itemKey;
+    if (!window.confirm('Diesen Eintrag aus der Wiederholung entfernen? Der Lernfortschritt dieser Karten wird gelöscht.')) {
+      return;
+    }
+    window.SRSStore.deleteCardsByItem(itemKey).then(function () {
+      removeQueuedItem(itemKey);
+      notifyDetailRefresh(itemKey);
+      if (window.app) window.app.playTick();
+      renderNextReview();
+    });
+  }
+
   function renderSettings() {
     if (!ensurePanel()) return;
     panel.innerHTML = '';
     var shell = el('div', 'review-shell');
-    shell.appendChild(el('div', 'review-title', 'Backup & settings'));
+    shell.appendChild(el('div', 'review-title', 'Sicherung & Einstellungen'));
 
     var backupBox = el('div', 'review-settings-box');
-    backupBox.appendChild(el('h3', null, 'Backup'));
-    var status = el('div', 'review-backup-status', 'Checking backup status...');
+    backupBox.appendChild(el('h3', null, 'Sicherung'));
+    var status = el('div', 'review-backup-status', 'Sicherungsstatus wird geprüft...');
     backupBox.appendChild(status);
 
-    var connect = el('button', 'quiz-btn quiz-btn-next', 'Connect automatic backup file');
+    var connect = el('button', 'quiz-btn quiz-btn-next', 'Automatische Sicherungsdatei verbinden');
     connect.addEventListener('click', function () {
-      status.textContent = 'Connecting...';
+      status.textContent = 'Verbindung wird hergestellt...';
       window.SRSStore.connectBackupFile().then(function () {
-        status.textContent = 'Automatic backup file connected and saved.';
+        status.textContent = 'Automatische Sicherungsdatei verbunden und gespeichert.';
       }).catch(function (err) {
-        status.textContent = err.message || 'Automatic backup could not be connected.';
+        status.textContent = err.message || 'Automatische Sicherung konnte nicht verbunden werden.';
       });
     });
     backupBox.appendChild(connect);
 
-    var exportBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Export backup now');
+    var exportBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Sicherung jetzt exportieren');
     exportBtn.addEventListener('click', function () {
       window.SRSStore.downloadBackup();
     });
     backupBox.appendChild(exportBtn);
 
-    var importLabel = el('label', 'quiz-btn quiz-btn-back', 'Import backup');
+    var importLabel = el('label', 'quiz-btn quiz-btn-back', 'Sicherung importieren');
     var importInput = document.createElement('input');
     importInput.type = 'file';
     importInput.accept = 'application/json,.json';
@@ -641,14 +742,14 @@
     importInput.addEventListener('change', function () {
       var file = importInput.files && importInput.files[0];
       if (!file) return;
-      status.textContent = 'Importing...';
+      status.textContent = 'Import wird ausgeführt...';
       window.SRSStore.readBackupFile(file).then(function (data) {
         return window.SRSStore.importData(data, 'merge');
       }).then(function () {
-        status.textContent = 'Backup imported and merged.';
+        status.textContent = 'Sicherung importiert und zusammengeführt.';
         updateReviewBadge();
       }).catch(function (err) {
-        status.textContent = err.message || 'Import failed.';
+        status.textContent = err.message || 'Import fehlgeschlagen.';
       });
     });
     importLabel.appendChild(importInput);
@@ -656,7 +757,7 @@
 
     shell.appendChild(backupBox);
 
-    var back = el('button', 'quiz-btn quiz-btn-back', 'Back to Review');
+    var back = el('button', 'quiz-btn quiz-btn-back', 'Zurück zur Wiederholung');
     back.addEventListener('click', renderHome);
     shell.appendChild(back);
     panel.appendChild(shell);

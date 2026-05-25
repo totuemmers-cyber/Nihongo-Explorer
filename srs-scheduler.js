@@ -115,7 +115,7 @@
   }
 
   function getStatus(cards, now) {
-    if (!cards || cards.length === 0) return { label: 'Not in Review', className: 'not-in-review', due: 0 };
+    if (!cards || cards.length === 0) return { label: 'Nicht in Wiederholung', className: 'not-in-review', due: 0 };
     var due = 0;
     var weak = 0;
     var learning = 0;
@@ -132,12 +132,12 @@
       if (c.state === 'Mastered') mastered++;
     }
 
-    if (active === 0) return { label: 'Suspended', className: 'suspended', due: 0 };
-    if (due > 0) return { label: due + ' Due', className: 'due', due: due };
-    if (weak > 0) return { label: 'Weak', className: 'weak', due: 0 };
-    if (learning > 0) return { label: 'Learning', className: 'learning', due: 0 };
-    if (mastered === active) return { label: 'Mastered', className: 'mastered', due: 0 };
-    return { label: 'Familiar', className: 'familiar', due: 0 };
+    if (active === 0) return { label: 'Ausgesetzt', className: 'suspended', due: 0 };
+    if (due > 0) return { label: due + ' fällig', className: 'due', due: due };
+    if (weak > 0) return { label: 'Schwach', className: 'weak', due: 0 };
+    if (learning > 0) return { label: 'Lernen', className: 'learning', due: 0 };
+    if (mastered === active) return { label: 'Gemeistert', className: 'mastered', due: 0 };
+    return { label: 'Vertraut', className: 'familiar', due: 0 };
   }
 
   function sortQueue(cards, now) {

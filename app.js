@@ -715,7 +715,7 @@
     } else if (tab === 'quiz') {
       itemCountEl.textContent = 'Quiz';
     } else if (tab === 'review') {
-      itemCountEl.textContent = 'Review';
+      itemCountEl.textContent = 'Wiederholen';
       if (window.SRSUI && window.SRSUI.getDueCount) {
         window.SRSUI.getDueCount().then(function (due) {
           if (app.activeTab === 'review') itemCountEl.textContent = due + ' f\u00e4llig';
