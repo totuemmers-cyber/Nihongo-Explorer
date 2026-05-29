@@ -785,6 +785,17 @@
     });
   }
 
+  // Launch a study session into the existing review runner. `cards` is an array
+  // of stored SRS cards; pass includeNotDue=true to drill them all regardless of
+  // due date (used by the Lernpfad for freshly introduced New cards).
+  function startSession(cards, includeNotDue) {
+    if (window.app && window.app.activeTab !== 'review') window.app.switchTab('review');
+    // Defer to a macrotask: switchTab triggers the review tab's own renderHome
+    // (gated on a separate init promise). Running loadQueue after the microtask
+    // queue drains guarantees renderNextReview takes over the panel last.
+    setTimeout(function () { loadQueue(cards || [], includeNotDue); }, 0);
+  }
+
   window.SRSUI = {
     onTabActivate: onTabActivate,
     addItem: addItem,
@@ -792,6 +803,8 @@
     mountDetailControl: mountDetailControl,
     getItemKey: getItemKey,
     getCardSpecs: getCardSpecs,
+    getCardsByItem: function (sectionName, item) { return window.SRSStore.getCardsByItem(getItemKey(sectionName, item)); },
+    startSession: startSession,
     updateReviewBadge: updateReviewBadge,
     getDueCount: getDueCount,
     _test: {

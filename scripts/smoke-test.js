@@ -322,6 +322,36 @@ async function run() {
     return window.__grammarLessonsInitialized === true;
   }, { description: 'grammar lessons retry success' });
 
+  // === Lernpfad (Learning Path) ===
+  click(document.querySelector('[data-tab="path"]'), window);
+  await waitFor(function () {
+    return document.querySelector('#path-content .path-focus') &&
+      document.querySelector('#path-content .path-level-row') &&
+      document.querySelector('#path-content .path-next-item');
+  }, { description: 'Lernpfad page renders with progress and recommendations' });
+  assert(document.querySelector('#path-content .path-focus-level').textContent.length > 0,
+    'Lernpfad shows a current level');
+
+  const learnBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
+    return btn.textContent.indexOf('Heute lernen') !== -1;
+  });
+  assert(learnBtn, 'Lernpfad has a "Heute lernen" button');
+  assert(!learnBtn.disabled, 'Lernpfad "Heute lernen" is enabled when content is available');
+
+  click(learnBtn, window);
+  await waitFor(function () {
+    return window.app.activeTab === 'review' &&
+      document.querySelector('#review-content .review-card-wrap');
+  }, { description: 'Lernpfad launches a study session into the review runner' });
+
+  let pathCount = 0;
+  for (let i = 0; i < 40 && pathCount === 0; i++) {
+    const sp = await window.SRSStore.getPathState();
+    pathCount = sp && sp.newDaily ? sp.newDaily.count : 0;
+    if (pathCount === 0) await new Promise(function (r) { setTimeout(r, 25); });
+  }
+  assert(pathCount > 0, 'Lernpfad records new items studied in pathState');
+
   dom.window.close();
   console.log('Smoke test passed.');
 }

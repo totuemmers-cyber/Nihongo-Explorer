@@ -35,6 +35,10 @@
         </div>
       </div>
       <nav class="tab-bar" aria-label="Hauptnavigation">
+        <button class="tab-btn" data-tab="path">
+          <span class="tab-icon-kana">道</span>
+          Lernpfad
+        </button>
         <button class="tab-btn active" data-tab="kana">
           <span class="tab-icon-kana">あ</span>
           Kana
@@ -367,6 +371,10 @@
           <span>Lade Quiz-Daten...</span>
         </div>
       </div>
+      <!-- Lernpfad Tab Content -->
+      <div id="path-tab" class="tab-panel hidden">
+        <div id="path-content" class="review-content"></div>
+      </div>
       <!-- Wiederholen Tab Content -->
       <div id="review-tab" class="tab-panel hidden">
         <div id="review-content" class="review-content"></div>
@@ -636,6 +644,7 @@
       <h2>Tastenkürzel</h2>
       <div class="help-shortcuts">
         <div class="help-row"><kbd>1</kbd>–<kbd>9</kbd><span>Tab wechseln</span></div>
+        <div class="help-row"><kbd>p</kbd><span>Lernpfad</span></div>
         <div class="help-row"><kbd>/</kbd><span>Suche fokussieren</span></div>
         <div class="help-row"><kbd>r</kbd><span>Zufälliger Eintrag</span></div>
         <div class="help-row"><kbd>?</kbd><span>Diese Hilfe anzeigen</span></div>
@@ -657,6 +666,7 @@
   <script src="srs-scheduler.js"></script>
   <script src="srs-store.js"></script>
   <script src="srs-ui.js"></script>
+  <script src="learning-path.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

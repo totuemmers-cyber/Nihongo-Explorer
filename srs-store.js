@@ -256,7 +256,7 @@
   }
 
   function exportData() {
-    return Promise.all([getAllCards(), getAllEvents(), getSettings()]).then(function (parts) {
+    return Promise.all([getAllCards(), getAllEvents(), getSettings(), getMeta('pathState')]).then(function (parts) {
       return {
         schemaVersion: BACKUP_SCHEMA_VERSION,
         app: 'Nihongo Explorer',
@@ -265,7 +265,8 @@
         settings: parts[2],
         cards: parts[0],
         events: parts[1],
-        bookmarks: collectBookmarks()
+        bookmarks: collectBookmarks(),
+        pathState: parts[3] || null
       };
     });
   }
@@ -309,6 +310,8 @@
       });
     }).then(function () {
       if (data.settings) return saveSettings(Object.assign({}, window.SRSScheduler.getDefaultSettings(), data.settings));
+    }).then(function () {
+      if (data.pathState) return setMeta('pathState', data.pathState);
     }).then(function () {
       restoreBookmarks(data.bookmarks);
       scheduleBackup();
@@ -462,6 +465,8 @@
     getAllEvents: getAllEvents,
     getSettings: getSettings,
     saveSettings: saveSettings,
+    getPathState: function () { return getMeta('pathState'); },
+    savePathState: function (state) { return setMeta('pathState', state).then(scheduleBackup); },
     exportData: exportData,
     importData: importData,
     downloadBackup: downloadBackup,

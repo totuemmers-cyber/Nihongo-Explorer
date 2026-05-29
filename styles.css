@@ -1354,6 +1354,141 @@ main {
   padding: 1.5rem;
 }
 
+/* === Lernpfad (Learning Path) === */
+.path-focus,
+.path-progress,
+.path-next,
+.path-adjust {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-card);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.path-focus-label,
+.path-section-title {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.path-focus-level {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.path-level-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.path-level-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.path-level-count {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.path-bar {
+  display: flex;
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--border);
+}
+
+.path-bar-seg {
+  height: 100%;
+}
+
+.path-bar-seg.seg-mastered { background: #2e9e5b; }
+.path-bar-seg.seg-familiar { background: var(--accent); }
+.path-bar-seg.seg-learning { background: #d99a2b; }
+
+.path-next-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.6rem;
+}
+
+.path-next-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  padding: 0.65rem 0.75rem;
+  cursor: pointer;
+  text-align: left;
+  color: var(--text);
+}
+
+.path-next-item:hover {
+  border-color: var(--accent);
+}
+
+.path-next-main {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.path-next-main.jp {
+  font-family: var(--font-jp);
+}
+
+.path-next-sub {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.path-chip {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  background: var(--border);
+  color: var(--text-secondary);
+}
+
+.path-chip-kanji { background: rgba(46, 158, 91, 0.18); color: #2e9e5b; }
+.path-chip-vocab { background: rgba(64, 120, 220, 0.18); color: var(--accent); }
+.path-chip-grammar { background: rgba(217, 154, 43, 0.2); color: #d99a2b; }
+
+.path-adjust-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.path-adjust-label {
+  font-weight: 600;
+}
+
+.path-target-select {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  padding: 0.4rem 0.6rem;
+}
+
 .review-shell,
 .review-card-wrap {
   display: flex;

@@ -359,6 +359,7 @@
   var kanaTab = document.getElementById('kana-tab');
   var quizTab = document.getElementById('quiz-tab');
   var reviewTab = document.getElementById('review-tab');
+  var pathTab = document.getElementById('path-tab');
   var activeKanaMode = 'hiragana';
 
   // Section names that have controls + tab panels
@@ -373,6 +374,7 @@
     if (name === 'kana') return kanaTab;
     if (name === 'quiz') return quizTab;
     if (name === 'review') return reviewTab;
+    if (name === 'path') return pathTab;
     return tabPanels[name] || null;
   }
 
@@ -606,6 +608,7 @@
     kanaTab.classList.toggle('hidden', tab !== 'kana');
     if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
     if (reviewTab) reviewTab.classList.toggle('hidden', tab !== 'review');
+    if (pathTab) pathTab.classList.toggle('hidden', tab !== 'path');
   }
 
   function showSectionTabWhenReady(tab) {
@@ -655,6 +658,12 @@
 
     if (tab === 'review') {
       if (window.SRSUI) window.SRSUI.onTabActivate();
+      updateCount();
+      return;
+    }
+
+    if (tab === 'path') {
+      if (window.LearningPath) window.LearningPath.onTabActivate();
       updateCount();
       return;
     }
@@ -712,6 +721,8 @@
     if (tab === 'kana') {
       var kanaLabels = { hiragana: 'Hiragana', katakana: 'Katakana' };
       itemCountEl.textContent = kanaLabels[activeKanaMode] || 'Kana';
+    } else if (tab === 'path') {
+      itemCountEl.textContent = 'Lernpfad';
     } else if (tab === 'quiz') {
       itemCountEl.textContent = 'Quiz';
     } else if (tab === 'review') {
@@ -908,6 +919,13 @@
     if (keyIdx !== -1) {
       e.preventDefault();
       switchTab(tabNames[keyIdx]);
+      return;
+    }
+
+    // Lernpfad: p
+    if (e.key === 'p') {
+      e.preventDefault();
+      switchTab('path');
       return;
     }
 
@@ -1217,4 +1235,12 @@
   if (typeof initSelectFilters === 'function') initSelectFilters();
   updateCount();
   if (window.SRSUI && window.SRSUI.updateReviewBadge) window.SRSUI.updateReviewBadge();
+
+  // Default landing: returning learners (any SRS history / saved path) start on the
+  // Lernpfad; first-time users stay on the Kana chart.
+  if (window.LearningPath && window.LearningPath.shouldLandHere) {
+    window.LearningPath.shouldLandHere().then(function (yes) {
+      if (yes && app.activeTab === 'kana') switchTab('path');
+    }).catch(function () {});
+  }
 })();
