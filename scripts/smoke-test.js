@@ -103,6 +103,7 @@ async function run() {
       };
       window.confirm = function () { return true; };
       window.scrollTo = function () {};
+      window.Element.prototype.scrollIntoView = function () {};
       window.requestAnimationFrame = function (cb) { return setTimeout(cb, 0); };
       window.cancelAnimationFrame = function (id) { clearTimeout(id); };
       window.SpeechSynthesisUtterance = function (text) { this.text = text; };
@@ -331,6 +332,35 @@ async function run() {
   }, { description: 'Lernpfad page renders with progress and recommendations' });
   assert(document.querySelector('#path-content .path-focus-level').textContent.length > 0,
     'Lernpfad shows a current level');
+
+  // Progress rows are labelled and a legend explains the segment colours
+  const levelBadge = document.querySelector('#path-content .path-level-badge');
+  assert(levelBadge && levelBadge.textContent.length > 0,
+    'Lernpfad progress rows show a JLPT level label');
+  assert(document.querySelector('#path-content .path-legend .path-legend-item'),
+    'Lernpfad shows a segment legend');
+
+  // Grammar lessons block renders lessons for the current level
+  await waitFor(function () {
+    return document.querySelector('#path-content .path-lessons .path-lesson-item');
+  }, { description: 'Lernpfad grammar-lessons block renders lessons' });
+
+  const lessonOpen = document.querySelector('#path-content .path-lesson-open');
+  assert(lessonOpen, 'Lernpfad lesson row has an open button');
+  click(lessonOpen, window);
+  await waitFor(function () {
+    return window.app.activeTab === 'grammar' &&
+      document.querySelector('.gl-card-body:not(.collapsed)');
+  }, { description: 'clicking a Lernpfad lesson opens it in the Lektionen view' });
+  const afterRead = await window.SRSStore.getPathState();
+  assert(afterRead && Array.isArray(afterRead.readLessons) && afterRead.readLessons.length > 0,
+    'opening a lesson marks it read in pathState');
+
+  // Back to the Lernpfad for the study-session flow
+  click(document.querySelector('[data-tab="path"]'), window);
+  await waitFor(function () {
+    return document.querySelector('#path-content .path-focus');
+  }, { description: 'return to Lernpfad after opening a lesson' });
 
   const learnBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
     return btn.textContent.indexOf('Heute lernen') !== -1;

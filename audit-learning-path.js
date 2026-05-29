@@ -167,5 +167,15 @@ const defaultSettings = { dailyNewLimit: 20, dailyReviewLimit: 120 };
   check('T5 interleave favours higher weight', bCount >= aCount);
 })();
 
+// === T6: grammar-lesson level matching (incl. combined levels like "N5/N4") ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  check('T6 single-level lesson matches its level', eng.lessonMatchesLevel({ level: 'N5' }, 'N5'));
+  check('T6 single-level lesson does not match other level', !eng.lessonMatchesLevel({ level: 'N5' }, 'N4'));
+  check('T6 combined lesson matches first level', eng.lessonMatchesLevel({ level: 'N5/N4' }, 'N5'));
+  check('T6 combined lesson matches second level', eng.lessonMatchesLevel({ level: 'N5/N4' }, 'N4'));
+  check('T6 combined lesson does not match unrelated level', !eng.lessonMatchesLevel({ level: 'N5/N4' }, 'N3'));
+})();
+
 console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
 process.exit(failures.length > 0 ? 1 : 0);

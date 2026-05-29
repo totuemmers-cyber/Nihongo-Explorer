@@ -1358,6 +1358,7 @@ main {
 .path-focus,
 .path-progress,
 .path-next,
+.path-lessons,
 .path-adjust {
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -1487,6 +1488,142 @@ main {
   background: var(--bg);
   color: var(--text);
   padding: 0.4rem 0.6rem;
+}
+
+/* Inline JLPT pill for the progress rows (not the absolutely-positioned .card-level) */
+.path-level-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.path-level-badge.N5 { background: var(--n5-bg); color: var(--n5); border: 1px solid var(--n5-border); }
+.path-level-badge.N4 { background: var(--n4-bg); color: var(--n4); border: 1px solid var(--n4-border); }
+.path-level-badge.N3 { background: var(--n3-bg); color: var(--n3); border: 1px solid var(--n3-border); }
+.path-level-badge.N2 { background: var(--n2-bg); color: var(--n2); border: 1px solid var(--n2-border); }
+.path-level-badge.N1 { background: var(--n1-bg); color: var(--n1); border: 1px solid var(--n1-border); }
+
+.path-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.path-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.path-legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.path-legend-dot.seg-mastered { background: #2e9e5b; }
+.path-legend-dot.seg-familiar { background: var(--accent); }
+.path-legend-dot.seg-learning { background: #d99a2b; }
+
+/* Grammar lessons block */
+.path-lessons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.path-lesson-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  padding: 0.5rem 0.65rem;
+}
+
+.path-lesson-item.is-next {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent) inset;
+}
+
+.path-lesson-item.is-read {
+  opacity: 0.72;
+}
+
+.path-lesson-open {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex: 1;
+  min-width: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+  color: var(--text);
+}
+
+.path-lesson-num {
+  flex: none;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 999px;
+  background: var(--border);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.path-lesson-titles {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.path-lesson-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.path-lesson-title {
+  font-weight: 600;
+}
+
+.path-lesson-sub {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+}
+
+.path-lesson-next-tag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+}
+
+.path-lesson-check {
+  color: #2e9e5b;
+  font-weight: 700;
+}
+
+.path-lesson-toggle {
+  flex: none;
 }
 
 .review-shell,

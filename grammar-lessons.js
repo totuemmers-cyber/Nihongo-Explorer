@@ -7305,6 +7305,33 @@
     window.__grammarLessonsInitialized = true;
   }
 
+  // --- Public API (used by the Lernpfad to surface and open lessons) ---
+  function getLessons() {
+    return LESSONS.map(function (l) {
+      return { id: l.id, number: l.number, title: l.title, subtitle: l.subtitle, level: l.level };
+    });
+  }
+
+  function openLesson(id) {
+    var lessonsBtn = document.querySelector('#grammar-view-toggle [data-view="lessons"]');
+    if (lessonsBtn && !lessonsBtn.classList.contains('active')) {
+      lessonsBtn.click();
+    }
+    if (!lessonsContainer) return false;
+    var card = lessonsContainer.querySelector('[data-lesson="' + id + '"]');
+    if (!card) return false;
+    var header = card.querySelector('.gl-card-header');
+    var body = card.querySelector('.gl-card-body');
+    if (header && body && body.classList.contains('collapsed')) {
+      header.click(); // reuse the card toggle: expands + scrolls into view
+    } else if (header) {
+      setTimeout(function () { header.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 50);
+    }
+    return true;
+  }
+
+  window.GrammarLessons = { getLessons: getLessons, openLesson: openLesson };
+
   // Init when DOM is ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initLessons);

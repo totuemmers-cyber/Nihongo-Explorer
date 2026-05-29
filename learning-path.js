@@ -61,6 +61,7 @@
       kanaDone: !!p.kanaDone,
       targetLevel: LEVELS.indexOf(p.targetLevel) !== -1 ? p.targetLevel : 'N1',
       skippedItems: Array.isArray(p.skippedItems) ? p.skippedItems : [],
+      readLessons: Array.isArray(p.readLessons) ? p.readLessons : [],
       newDaily: daily,
       lastSessionAt: p.lastSessionAt || null
     };
@@ -344,6 +345,7 @@
       shell.appendChild(buildFocus(model));
       shell.appendChild(buildProgress(model));
       shell.appendChild(buildNextUp(model));
+      shell.appendChild(buildLessons(model));
       shell.appendChild(buildAdjust(model));
 
       panel.appendChild(shell);
@@ -395,10 +397,20 @@
   function buildProgress(model) {
     var box = el('div', 'path-progress');
     box.appendChild(el('div', 'path-section-title', 'Fortschritt nach JLPT-Stufe'));
+
+    var legend = el('div', 'path-legend');
+    [['seg-mastered', 'Gemeistert'], ['seg-familiar', 'Vertraut'], ['seg-learning', 'Lernen']].forEach(function (pair) {
+      var item = el('div', 'path-legend-item');
+      item.appendChild(el('span', 'path-legend-dot ' + pair[0]));
+      item.appendChild(el('span', null, pair[1]));
+      legend.appendChild(item);
+    });
+    box.appendChild(legend);
+
     model.progress.levels.forEach(function (lv) {
       var row = el('div', 'path-level-row');
       var head = el('div', 'path-level-head');
-      head.appendChild(el('span', 'card-level ' + lv.level, lv.level));
+      head.appendChild(el('span', 'path-level-badge ' + lv.level, lv.level));
       head.appendChild(el('span', 'path-level-count', lv.done + ' / ' + lv.total));
       row.appendChild(head);
 
@@ -448,6 +460,105 @@
     var skip = el('button', 'srs-small-btn', 'Das kann ich schon');
     skip.addEventListener('click', function () { skipPicks(model); });
     box.appendChild(skip);
+    return box;
+  }
+
+  function lessonMatchesLevel(lesson, level) {
+    return String(lesson.level || '').split('/').indexOf(level) !== -1;
+  }
+
+  function markLessonRead(model, id) {
+    if (model.path.readLessons.indexOf(id) === -1) {
+      model.path.readLessons.push(id);
+      window.SRSStore.savePathState(model.path).catch(function () {});
+    }
+  }
+
+  function openLessonFromPath(id, model) {
+    markLessonRead(model, id);
+    if (window.app) window.app.switchTab('grammar');
+    if (window.app && window.app.ensureGrammarLessonsLoaded) {
+      window.app.ensureGrammarLessonsLoaded().then(function () {
+        if (window.GrammarLessons) window.GrammarLessons.openLesson(id);
+      }).catch(function () {});
+    }
+  }
+
+  function toggleLessonRead(model, id) {
+    var i = model.path.readLessons.indexOf(id);
+    if (i === -1) model.path.readLessons.push(id); else model.path.readLessons.splice(i, 1);
+    window.SRSStore.savePathState(model.path).then(render).catch(render);
+    if (window.app) window.app.playTick();
+  }
+
+  function populateLessons(body, model) {
+    body.innerHTML = '';
+    if (!window.GrammarLessons || !window.GrammarLessons.getLessons) {
+      body.appendChild(el('div', 'review-empty-hint', 'Lektionen nicht verfügbar.'));
+      return;
+    }
+    var level = model.progress.currentLevel;
+    var read = model.path.readLessons || [];
+    var lessons = window.GrammarLessons.getLessons().filter(function (l) {
+      return lessonMatchesLevel(l, level);
+    });
+    if (!lessons.length) {
+      body.appendChild(el('div', 'review-empty-hint', 'Keine Lektionen für ' + level + '.'));
+      return;
+    }
+
+    var list = el('div', 'path-lessons-list');
+    var nextMarked = false;
+    lessons.forEach(function (l) {
+      var isRead = read.indexOf(l.id) !== -1;
+      var isNext = !isRead && !nextMarked;
+      if (isNext) nextMarked = true;
+
+      var row = el('div', 'path-lesson-item' + (isNext ? ' is-next' : '') + (isRead ? ' is-read' : ''));
+
+      var openBtn = el('button', 'path-lesson-open');
+      openBtn.appendChild(el('span', 'path-lesson-num', String(l.number)));
+      var titles = el('div', 'path-lesson-titles');
+      var titleRow = el('div', 'path-lesson-title-row');
+      if (isNext) titleRow.appendChild(el('span', 'path-lesson-next-tag', 'Nächste'));
+      if (isRead) titleRow.appendChild(el('span', 'path-lesson-check', '✓'));
+      titleRow.appendChild(el('span', 'path-lesson-title', l.title));
+      titles.appendChild(titleRow);
+      if (l.subtitle) titles.appendChild(el('span', 'path-lesson-sub', l.subtitle));
+      openBtn.appendChild(titles);
+      openBtn.appendChild(el('span', 'path-chip path-chip-grammar', l.level));
+      openBtn.addEventListener('click', function () { openLessonFromPath(l.id, model); });
+      row.appendChild(openBtn);
+
+      var toggle = el('button', 'srs-small-btn path-lesson-toggle', isRead ? 'Ungelesen' : 'Gelesen');
+      toggle.addEventListener('click', function (e) {
+        e.stopPropagation();
+        toggleLessonRead(model, l.id);
+      });
+      row.appendChild(toggle);
+
+      list.appendChild(row);
+    });
+    body.appendChild(list);
+  }
+
+  function buildLessons(model) {
+    var box = el('div', 'path-lessons');
+    box.appendChild(el('div', 'path-section-title', 'Grammatiklektionen'));
+    var body = el('div', 'path-lessons-body');
+    box.appendChild(body);
+
+    if (!window.app || !window.app.ensureGrammarLessonsLoaded) {
+      body.appendChild(el('div', 'review-empty-hint', 'Lektionen nicht verfügbar.'));
+      return box;
+    }
+    body.appendChild(el('div', 'review-empty-hint', 'Lektionen werden geladen…'));
+    window.app.ensureGrammarLessonsLoaded().then(function () {
+      populateLessons(body, model);
+    }).catch(function () {
+      body.innerHTML = '';
+      body.appendChild(el('div', 'review-empty-hint', 'Lektionen konnten nicht geladen werden.'));
+    });
     return box;
   }
 
@@ -505,7 +616,8 @@
       vocabUnlocked: vocabUnlocked,
       interleave: interleave,
       itemKeyOf: itemKeyOf,
-      itemStatus: itemStatus
+      itemStatus: itemStatus,
+      lessonMatchesLevel: lessonMatchesLevel
     }
   };
 })();
