@@ -430,10 +430,15 @@
   }
 
   function getBackupStatus() {
-    return getMeta('backupHandle').then(function (handle) {
-      if (handle) return { mode: 'file', label: 'Automatische Sicherung verbunden' };
-      if (canUseFileBackup()) return { mode: 'available', label: 'Automatische Sicherung nicht verbunden' };
-      return { mode: 'manual', label: 'Manueller Export erforderlich' };
+    return Promise.all([getMeta('backupHandle'), getMeta('lastBackupAt'), getMeta('lastBackupError')]).then(function (parts) {
+      var handle = parts[0];
+      var base;
+      if (handle) base = { mode: 'file', label: 'Automatische Sicherung verbunden' };
+      else if (canUseFileBackup()) base = { mode: 'available', label: 'Automatische Sicherung nicht verbunden' };
+      else base = { mode: 'manual', label: 'Manueller Export erforderlich' };
+      base.lastBackupAt = parts[1] || null;
+      base.lastError = parts[2] || null;
+      return base;
     });
   }
 
@@ -448,16 +453,24 @@
   function writeBackupNow() {
     return getMeta('backupHandle').then(function (handle) {
       if (!handle || typeof handle.createWritable !== 'function') return null;
-      return requestHandlePermission(handle).then(function (allowed) {
+      var work = requestHandlePermission(handle).then(function (allowed) {
         if (!allowed) throw new Error('Sicherungsdatei braucht erneut Berechtigung.');
         return exportData().then(function (data) {
           return handle.createWritable().then(function (writable) {
             return writable.write(JSON.stringify(data, null, 2)).then(function () {
               return writable.close();
-            }).then(function () {
-              return setMeta('lastBackupAt', new Date().toISOString());
             });
           });
+        });
+      });
+      // Record success/failure so silent backup breakage becomes visible in settings.
+      return work.then(function () {
+        return setMeta('lastBackupAt', new Date().toISOString());
+      }).then(function () {
+        return setMeta('lastBackupError', null);
+      }).catch(function (err) {
+        return setMeta('lastBackupError', (err && err.message) || 'Sicherung fehlgeschlagen').then(function () {
+          throw err;
         });
       });
     });

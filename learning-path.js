@@ -71,8 +71,10 @@
   function ladderFromClassName(className) {
     if (className === 'mastered') return 'mastered';
     if (className === 'familiar') return 'familiar';
-    if (className === 'not-in-review' || className === 'suspended') return 'new';
-    return 'learning'; // due | weak | learning
+    if (className === 'not-in-review') return 'new';
+    // 'suspended' falls through to 'learning' so suspended items count as in-progress
+    // and are NOT re-recommended as new by pickNewItems (which selects status 'new').
+    return 'learning'; // due | weak | learning | suspended
   }
 
   function mapFromCards(cards, path) {
@@ -98,7 +100,10 @@
   }
 
   function itemKeyOf(section, item) {
-    return window.SRSUI.getItemKey(section, item);
+    if (item && item.__lpKey) return item.__lpKey;
+    var key = window.SRSUI.getItemKey(section, item);
+    if (item) item.__lpKey = key;
+    return key;
   }
 
   function itemStatus(section, item, map) {
@@ -146,7 +151,7 @@
     var w = v.word || '';
     for (var i = 0; i < w.length; i++) {
       var code = w.charCodeAt(i);
-      if (code >= 0x4E00 && code <= 0x9FFF) {
+      if (code >= 0x3400 && code <= 0x9FFF) { // CJK Unified + Ext-A
         var k = kanjiIndex[w[i]];
         if (!k) continue; // kanji absent from dataset -> can't gate on it
         if (itemStatus('kanji', k, map) === 'new') return false;
@@ -261,22 +266,44 @@
     });
   }
 
+  // Estimate how many SRS cards a set of picks will create (each item -> N cards).
+  function estimateCards(picks) {
+    if (!picks || !window.SRSUI || !window.SRSUI.getCardSpecs) return 0;
+    var n = 0;
+    picks.forEach(function (p) {
+      var specs = window.SRSUI.getCardSpecs(p.section, p.item);
+      n += (specs && specs.length) || 1;
+    });
+    return n;
+  }
+
   // --- Session launch ("Heute lernen") ---
-  function startToday(model) {
+  var launching = false;
+  function startToday(model, btn) {
+    if (launching) return Promise.resolve(); // guard against double-clicks
+    launching = true;
+    if (btn) btn.disabled = true;
     var picks = model.picks;
-    var adds = picks.map(function (p) { return window.SRSUI.addItem(p.section, p.item); });
-    Promise.all(adds).then(function (cardLists) {
-      var newCards = [];
-      cardLists.forEach(function (cs) { if (cs) newCards = newCards.concat(cs); });
-      if (picks.length) {
-        model.path.newDaily.count += picks.length;
-        model.path.lastSessionAt = new Date().toISOString();
-        window.SRSStore.savePathState(model.path).catch(function () {});
-      }
-      var session = model.due.concat(newCards);
-      if (!session.length) { render(); return; }
-      window.SRSUI.startSession(session, true);
-    }).catch(function () {});
+    return Promise.all(picks.map(function (p) { return window.SRSUI.addItem(p.section, p.item); }))
+      .then(function (cardLists) {
+        var newCards = [];
+        cardLists.forEach(function (cs) { if (cs) newCards = newCards.concat(cs); });
+        if (picks.length) {
+          model.path.newDaily.count += picks.length;
+          model.path.lastSessionAt = new Date().toISOString();
+          return window.SRSStore.savePathState(model.path).then(function () { return newCards; });
+        }
+        return newCards;
+      })
+      .then(function (newCards) {
+        var session = model.due.concat(newCards);
+        if (!session.length) { render(); return; }
+        window.SRSUI.startSession(session, true);
+      })
+      .catch(function () {
+        if (btn) { btn.disabled = false; btn.textContent = 'Fehler — bitte erneut versuchen'; }
+      })
+      .then(function () { launching = false; });
   }
 
   function skipPicks(model) {
@@ -365,14 +392,17 @@
 
     var dueCount = model.due.length;
     var newCount = model.picks.length;
+    var cardEstimate = estimateCards(model.picks);
 
     var actions = el('div', 'review-actions');
     var learnBtn = el('button', 'quiz-btn quiz-btn-next',
-      'Heute lernen — ' + newCount + ' neu · ' + dueCount + ' Wiederholungen');
+      'Heute lernen — ' + newCount + ' neue Einträge' +
+      (cardEstimate ? ' (~' + cardEstimate + ' Karten)' : '') +
+      ' · ' + dueCount + ' Wiederholungen');
     learnBtn.disabled = (newCount + dueCount) === 0;
     learnBtn.addEventListener('click', function () {
       if (window.app) window.app.playPop();
-      startToday(model);
+      startToday(model, learnBtn);
     });
     actions.appendChild(learnBtn);
 
@@ -588,7 +618,7 @@
     var actions = el('div', 'review-actions');
 
     var dailyBtn = el('button', 'quiz-btn quiz-btn-back',
-      'Tagesfortschritt zurücksetzen (' + model.path.newDaily.count + ' heute)');
+      'Tagesfortschritt zurücksetzen (' + model.path.newDaily.count + ' Einträge heute)');
     dailyBtn.disabled = model.path.newDaily.count === 0;
     dailyBtn.addEventListener('click', function () {
       model.path.newDaily = { date: todayStr(), count: 0 };
@@ -614,9 +644,66 @@
       .catch(function () { return false; });
   }
 
+  // --- Data-hygiene self-check ---
+  var SRS_SECTIONS = ['vocab', 'kanji', 'grammar', 'counters', 'onomatopoeia'];
+
+  function ensureAllSrsSections() {
+    if (!window.app || !window.app.ensureSectionLoaded) return Promise.resolve();
+    return Promise.all(SRS_SECTIONS.map(function (s) {
+      return window.app.ensureSectionLoaded(s).catch(function () {});
+    }));
+  }
+
+  // Set of all currently-valid itemKeys, only for sections that are actually loaded.
+  function validItemKeySet() {
+    var set = {};
+    SRS_SECTIONS.forEach(function (s) {
+      var sec = window.app && window.app.sections[s];
+      if (!sec || !sec.allItems || !sec.allItems.length) return;
+      sec.allItems.forEach(function (it) { set[itemKeyOf(s, it)] = true; });
+    });
+    return set;
+  }
+
+  function runDiagnostics() {
+    return ensureAllSrsSections().then(function () {
+      return window.SRSStore.getAllCards();
+    }).then(function (cards) {
+      var valid = validItemKeySet();
+      var loaded = {};
+      SRS_SECTIONS.forEach(function (s) {
+        var sec = window.app && window.app.sections[s];
+        loaded[s] = !!(sec && sec.allItems && sec.allItems.length);
+      });
+      var active = 0, suspended = 0, mastered = 0, orphanSet = {};
+      (cards || []).forEach(function (c) {
+        if (!c) return;
+        if (c.suspended) suspended++; else active++;
+        if (c.state === 'Mastered') mastered++;
+        // Only flag as orphan if its section is loaded (so the universe is known).
+        if (loaded[c.section] && !valid[c.itemKey]) orphanSet[c.itemKey] = true;
+      });
+      return {
+        active: active, suspended: suspended, mastered: mastered,
+        orphaned: Object.keys(orphanSet).length, orphanKeys: Object.keys(orphanSet)
+      };
+    });
+  }
+
+  function pruneOrphans() {
+    return runDiagnostics().then(function (diag) {
+      if (!diag.orphanKeys.length) return 0;
+      return Promise.all(diag.orphanKeys.map(function (key) {
+        return window.SRSStore.deleteCardsByItem(key);
+      })).then(function () { return diag.orphanKeys.length; });
+    });
+  }
+
   window.LearningPath = {
     onTabActivate: onTabActivate,
     shouldLandHere: shouldLandHere,
+    runDiagnostics: runDiagnostics,
+    pruneOrphans: pruneOrphans,
     // exposed for audit/testing
     _engine: {
       LEVELS: LEVELS,

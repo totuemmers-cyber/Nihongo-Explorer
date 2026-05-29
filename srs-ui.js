@@ -672,6 +672,14 @@
         else window.app.playPop();
       }
       renderNextReview();
+    }).catch(function () {
+      // Save failed (e.g. storage quota): keep the current card, don't advance,
+      // and tell the user so the grade isn't silently lost.
+      if (!panel) return;
+      var wrap = panel.querySelector('.review-card-wrap');
+      if (wrap && !wrap.querySelector('.review-error')) {
+        wrap.appendChild(el('div', 'review-error', 'Speichern fehlgeschlagen. Bitte erneut bewerten.'));
+      }
     });
   }
 
@@ -769,28 +777,91 @@
       }
       resetBtn.disabled = true;
       resetStatus.textContent = 'Fortschritt wird zurückgesetzt...';
-      window.SRSStore.resetProgress().then(function () {
-        queue = [];
-        currentCard = null;
-        updateReviewBadge();
-        if (window.app) window.app.playPop();
-        renderSettings();
-      }).catch(function (err) {
-        resetBtn.disabled = false;
-        resetStatus.textContent = (err && err.message) || 'Zurücksetzen fehlgeschlagen.';
-      });
+      window.SRSStore.resetProgress()
+        .then(function () { return window.SRSStore.getBackupStatus(); })
+        .then(function (backup) {
+          var connected = backup.mode === 'file';
+          // Flush the wipe to the connected backup file so it can't silently restore.
+          var flush = connected ? window.SRSStore.writeBackupNow().catch(function () {}) : Promise.resolve();
+          return flush.then(function () { return connected; });
+        })
+        .then(function (connected) {
+          queue = [];
+          currentCard = null;
+          updateReviewBadge();
+          if (window.app) window.app.playPop();
+          resetBtn.disabled = false;
+          resetStatus.textContent = connected
+            ? 'Fortschritt und verbundene Sicherung zurückgesetzt.'
+            : 'Fortschritt zurückgesetzt.';
+          window.SRSStore.getBackupStatus().then(function (b) { status.textContent = formatBackupLabel(b); });
+        })
+        .catch(function (err) {
+          resetBtn.disabled = false;
+          resetStatus.textContent = (err && err.message) || 'Zurücksetzen fehlgeschlagen.';
+        });
     });
     dangerBox.appendChild(resetBtn);
     dangerBox.appendChild(resetStatus);
     shell.appendChild(dangerBox);
+
+    var diagBox = el('div', 'review-settings-box');
+    diagBox.appendChild(el('h3', null, 'Fortschritt prüfen'));
+    var diagStatus = el('div', 'review-backup-status', '');
+    var diagBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Fortschritt prüfen');
+    var pruneBtn = el('button', 'quiz-btn quiz-btn-back hidden', 'Verwaiste Karten entfernen');
+    diagBtn.addEventListener('click', function () {
+      if (!window.LearningPath || !window.LearningPath.runDiagnostics) {
+        diagStatus.textContent = 'Diagnose nicht verfügbar.';
+        return;
+      }
+      diagBtn.disabled = true;
+      diagStatus.textContent = 'Prüfe...';
+      window.LearningPath.runDiagnostics().then(function (d) {
+        diagBtn.disabled = false;
+        diagStatus.textContent = 'Aktive Karten: ' + d.active + ' · Ausgesetzt: ' + d.suspended +
+          ' · Gemeistert: ' + d.mastered + ' · Verwaist: ' + d.orphaned;
+        if (d.orphaned > 0) {
+          pruneBtn.classList.remove('hidden');
+          pruneBtn.textContent = 'Verwaiste Karten entfernen (' + d.orphaned + ')';
+        } else {
+          pruneBtn.classList.add('hidden');
+        }
+      }).catch(function () {
+        diagBtn.disabled = false;
+        diagStatus.textContent = 'Diagnose fehlgeschlagen.';
+      });
+    });
+    pruneBtn.addEventListener('click', function () {
+      pruneBtn.disabled = true;
+      window.LearningPath.pruneOrphans().then(function (n) {
+        pruneBtn.disabled = false;
+        pruneBtn.classList.add('hidden');
+        updateReviewBadge();
+        diagStatus.textContent = n + ' verwaiste Karten entfernt.';
+      }).catch(function () {
+        pruneBtn.disabled = false;
+        diagStatus.textContent = 'Entfernen fehlgeschlagen.';
+      });
+    });
+    diagBox.appendChild(diagBtn);
+    diagBox.appendChild(pruneBtn);
+    diagBox.appendChild(diagStatus);
+    shell.appendChild(diagBox);
 
     var back = el('button', 'quiz-btn quiz-btn-back', 'Zurück zur Wiederholung');
     back.addEventListener('click', renderHome);
     shell.appendChild(back);
     panel.appendChild(shell);
 
+    function formatBackupLabel(b) {
+      if (b.lastError) return b.label + ' — Sicherung fehlgeschlagen: ' + b.lastError;
+      if (b.lastBackupAt) return b.label + ' — letzte Sicherung: ' + new Date(b.lastBackupAt).toLocaleString();
+      return b.label;
+    }
+
     window.SRSStore.getBackupStatus().then(function (backup) {
-      status.textContent = backup.label;
+      status.textContent = formatBackupLabel(backup);
       connect.disabled = backup.mode === 'manual';
     });
   }
@@ -815,12 +886,18 @@
   // Launch a study session into the existing review runner. `cards` is an array
   // of stored SRS cards; pass includeNotDue=true to drill them all regardless of
   // due date (used by the Lernpfad for freshly introduced New cards).
+  var sessionTimer = null;
   function startSession(cards, includeNotDue) {
     if (window.app && window.app.activeTab !== 'review') window.app.switchTab('review');
     // Defer to a macrotask: switchTab triggers the review tab's own renderHome
     // (gated on a separate init promise). Running loadQueue after the microtask
     // queue drains guarantees renderNextReview takes over the panel last.
-    setTimeout(function () { loadQueue(cards || [], includeNotDue); }, 0);
+    // Clear any pending launch so two rapid calls can't both clobber the queue.
+    if (sessionTimer) clearTimeout(sessionTimer);
+    sessionTimer = setTimeout(function () {
+      sessionTimer = null;
+      loadQueue(cards || [], includeNotDue);
+    }, 0);
   }
 
   window.SRSUI = {

@@ -367,6 +367,8 @@ async function run() {
   });
   assert(learnBtn, 'Lernpfad has a "Heute lernen" button');
   assert(!learnBtn.disabled, 'Lernpfad "Heute lernen" is enabled when content is available');
+  assert(learnBtn.textContent.indexOf('neue Einträge') !== -1 && learnBtn.textContent.indexOf('Karten') !== -1,
+    'focus CTA honestly labels items + card estimate ("neue Einträge … Karten")');
 
   click(learnBtn, window);
   await waitFor(function () {
@@ -416,6 +418,18 @@ async function run() {
       return btn.textContent.indexOf('Gesamten Fortschritt zurücksetzen') !== -1;
     });
   }, { description: 'settings page shows the reset button' });
+
+  // Diagnostics self-check shows counts for the cards added earlier
+  const diagBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
+    return btn.textContent === 'Fortschritt prüfen';
+  });
+  assert(diagBtn, 'settings page has a "Fortschritt prüfen" button');
+  click(diagBtn, window);
+  await waitFor(function () {
+    var box = diagBtn.parentElement;
+    return box && box.textContent.indexOf('Aktive Karten:') !== -1;
+  }, { description: 'diagnostics reports card counts' });
+
   const resetBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
     return btn.textContent.indexOf('Gesamten Fortschritt zurücksetzen') !== -1;
   });
@@ -431,6 +445,10 @@ async function run() {
   await waitFor(function () {
     return document.getElementById('review-due-badge').classList.contains('hidden');
   }, { description: 'due badge is cleared after a full reset' });
+  await waitFor(function () {
+    return document.querySelector('#review-content .review-danger-box') &&
+      document.querySelector('#review-content .review-danger-box').textContent.indexOf('zurückgesetzt') !== -1;
+  }, { description: 'reset reports an honest status message' });
 
   dom.window.close();
   console.log('Smoke test passed.');

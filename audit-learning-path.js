@@ -86,7 +86,11 @@ function makeContext(cards, settings, pathState) {
     getAllCards: function () { return Promise.resolve(cards.slice()); },
     getSettings: function () { return Promise.resolve(settings); },
     getPathState: function () { return Promise.resolve(pathState); },
-    savePathState: function () { return Promise.resolve(); }
+    savePathState: function () { return Promise.resolve(); },
+    deleteCardsByItem: function (key) {
+      for (var i = cards.length - 1; i >= 0; i--) { if (cards[i].itemKey === key) cards.splice(i, 1); }
+      return Promise.resolve();
+    }
   };
   window.app = {
     sections: sections,
@@ -201,9 +205,40 @@ function makeStoreContext() {
   check('T6 combined lesson does not match unrelated level', !eng.lessonMatchesLevel({ level: 'N5/N4' }, 'N3'));
 })();
 
+// === T9: a fully-suspended item is in-progress (not 'new') and not re-picked ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const suspended = makeCard('kanji', KANJI[2], 'Review', DAY * 5, 0); // 人, not due
+  suspended.suspended = true;
+  const map = eng.mapFromCards([suspended], eng.normalizePath(null));
+  check('T9 suspended item is not counted as new', eng.itemStatus('kanji', KANJI[2], map) !== 'new');
+  const q = eng.frontierQueues('N5', map);
+  const newKanji = q.newKanji.map(function (p) { return p.item.kanji; });
+  check('T9 suspended kanji is not offered as a new pick', newKanji.indexOf('人') === -1);
+})();
+
 function finish() {
   console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
   process.exit(failures.length > 0 ? 1 : 0);
+}
+
+// === T10: runDiagnostics detects orphans; pruneOrphans removes them ===
+function diagnosticsTest() {
+  const valid = makeCard('kanji', KANJI[0], 'New', 0); // 一 — in dataset
+  const orphan = { cardKey: 'kanji:絶#meaning', itemKey: 'kanji:絶', section: 'kanji', state: 'New', dueAt: new Date().toISOString(), lapses: 0, suspended: false };
+  const { window } = makeContext([valid, orphan], defaultSettings, null);
+  const LP = window.LearningPath;
+  return LP.runDiagnostics().then(function (d) {
+    check('T10 diagnostics counts active cards', d.active === 2);
+    check('T10 diagnostics flags the orphan', d.orphaned === 1 && d.orphanKeys.indexOf('kanji:絶') !== -1);
+    check('T10 diagnostics does not flag a valid card', d.orphanKeys.indexOf('kanji:一') === -1);
+    return LP.pruneOrphans();
+  }).then(function (n) {
+    check('T10 pruneOrphans removes the orphan', n === 1);
+    return LP.runDiagnostics();
+  }).then(function (d2) {
+    check('T10 no orphans remain after prune', d2.orphaned === 0);
+  });
 }
 
 // === T7/T8: resetProgress + export/import round-trip on the real SRSStore ===
@@ -240,7 +275,8 @@ function finish() {
     .then(function (p) {
       check('T8 import restores the card', p[0].length === 1);
       check('T8 import restores pathState', !!p[1] && p[1].newDaily.count === 5 && p[1].readLessons.length === 1);
-      finish();
+      return diagnosticsTest();
     })
+    .then(function () { finish(); })
     .catch(function (e) { failures.push('store-tests-threw: ' + (e && e.message)); finish(); });
 })();
