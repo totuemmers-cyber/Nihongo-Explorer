@@ -102,6 +102,30 @@ function makeContext(cards, settings, pathState) {
 
 const defaultSettings = { dailyNewLimit: 20, dailyReviewLimit: 120 };
 
+// Build a context that loads the REAL srs-store.js (localStorage-fallback mode, no
+// indexedDB) so reset / export / import are exercised for real.
+function fakeLocalStorage() {
+  var s = {};
+  return {
+    getItem: function (k) { return Object.prototype.hasOwnProperty.call(s, k) ? s[k] : null; },
+    setItem: function (k, v) { s[k] = String(v); },
+    removeItem: function (k) { delete s[k]; },
+    clear: function () { s = {}; }
+  };
+}
+
+function makeStoreContext() {
+  const window = {};
+  const context = {
+    window, console, Promise, Date, Math, JSON, setTimeout, clearTimeout,
+    localStorage: fakeLocalStorage(), navigator: {}
+  };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'srs-scheduler.js'), 'utf8'), context, { filename: 'srs-scheduler.js' });
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'srs-store.js'), 'utf8'), context, { filename: 'srs-store.js' });
+  return window.SRSStore;
+}
+
 // === T1: cold start — gate blocks kanji-bearing vocab while their kanji are new ===
 (function () {
   const { eng } = makeContext([], defaultSettings, null);
@@ -177,5 +201,46 @@ const defaultSettings = { dailyNewLimit: 20, dailyReviewLimit: 120 };
   check('T6 combined lesson does not match unrelated level', !eng.lessonMatchesLevel({ level: 'N5/N4' }, 'N3'));
 })();
 
-console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
-process.exit(failures.length > 0 ? 1 : 0);
+function finish() {
+  console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
+  process.exit(failures.length > 0 ? 1 : 0);
+}
+
+// === T7/T8: resetProgress + export/import round-trip on the real SRSStore ===
+(function () {
+  const store = makeStoreContext();
+  const card = {
+    cardKey: 'kanji:一#meaning', itemKey: 'kanji:一', section: 'kanji',
+    state: 'New', dueAt: new Date().toISOString(), lapses: 0, suspended: false,
+    updatedAt: new Date().toISOString()
+  };
+  let backup = null;
+  store.putCards([card])
+    .then(function () { return store.savePathState({ schemaV: 1, readLessons: ['lesson-1'], skippedItems: [], newDaily: { date: 'seed', count: 5 } }); })
+    .then(function () { return Promise.all([store.getAllCards(), store.getPathState()]); })
+    .then(function (p) {
+      check('T7 seeded card present', p[0].length === 1);
+      check('T7 seeded pathState present', !!p[1] && p[1].readLessons.length === 1 && p[1].newDaily.count === 5);
+      return store.exportData();
+    })
+    .then(function (data) {
+      backup = data;
+      check('T8 export includes the card', Array.isArray(data.cards) && data.cards.length === 1);
+      check('T8 export includes pathState', !!data.pathState && data.pathState.newDaily.count === 5);
+      return store.resetProgress();
+    })
+    .then(function () { return Promise.all([store.getAllCards(), store.getPathState(), store.getSettings()]); })
+    .then(function (p) {
+      check('T7 reset clears cards', p[0].length === 0);
+      check('T7 reset clears pathState', p[1] === null);
+      check('T7 reset keeps settings', !!p[2] && typeof p[2].dailyNewLimit === 'number');
+      return store.importData(backup, 'merge');
+    })
+    .then(function () { return Promise.all([store.getAllCards(), store.getPathState()]); })
+    .then(function (p) {
+      check('T8 import restores the card', p[0].length === 1);
+      check('T8 import restores pathState', !!p[1] && p[1].newDaily.count === 5 && p[1].readLessons.length === 1);
+      finish();
+    })
+    .catch(function (e) { failures.push('store-tests-threw: ' + (e && e.message)); finish(); });
+})();

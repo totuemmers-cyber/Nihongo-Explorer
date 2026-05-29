@@ -244,7 +244,11 @@
   function clearAll() {
     return openDb().then(function (db) {
       if (!db) {
-        fallbackState = { cards: {}, events: {}, meta: {} };
+        var state = loadFallback();
+        state.cards = {};
+        state.events = {};
+        // Preserve meta (settings, backup handle, pathState) — matches the
+        // IndexedDB branch, which only clears the card + event stores.
         saveFallback();
         return;
       }
@@ -252,6 +256,27 @@
       tx.objectStore(CARD_STORE).clear();
       tx.objectStore(EVENT_STORE).clear();
       return txComplete(tx);
+    });
+  }
+
+  function deleteMeta(key) {
+    return openDb().then(function (db) {
+      if (!db) {
+        delete loadFallback().meta[key];
+        saveFallback();
+        return;
+      }
+      return reqToPromise(getStore(db, META_STORE, 'readwrite').delete(key));
+    });
+  }
+
+  // Reset learning progress only: clears all SRS cards + events and the Lernpfad
+  // pathState (daily counter, read lessons, skipped items). Keeps settings,
+  // bookmarks, and the connected backup file, and does not auto-overwrite that
+  // file (the on-disk save survives until the next study action).
+  function resetProgress() {
+    return clearAll().then(function () {
+      return deleteMeta('pathState');
     });
   }
 
@@ -467,6 +492,8 @@
     saveSettings: saveSettings,
     getPathState: function () { return getMeta('pathState'); },
     savePathState: function (state) { return setMeta('pathState', state).then(scheduleBackup); },
+    deleteMeta: deleteMeta,
+    resetProgress: resetProgress,
     exportData: exportData,
     importData: importData,
     downloadBackup: downloadBackup,

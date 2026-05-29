@@ -382,6 +382,56 @@ async function run() {
   }
   assert(pathCount > 0, 'Lernpfad records new items studied in pathState');
 
+  // === Daily reset (Lernpfad) refills today's new-item budget ===
+  click(document.querySelector('[data-tab="path"]'), window);
+  await waitFor(function () {
+    return document.querySelector('#path-content .path-adjust');
+  }, { description: 'Lernpfad adjust block renders' });
+  const dailyBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
+    return btn.textContent.indexOf('Tagesfortschritt zurücksetzen') !== -1;
+  });
+  assert(dailyBtn, 'Lernpfad has a daily-reset button');
+  assert(!dailyBtn.disabled, 'daily-reset is enabled after new items were studied today');
+  click(dailyBtn, window);
+  let dailyCount = -1;
+  for (let i = 0; i < 40 && dailyCount !== 0; i++) {
+    const sp = await window.SRSStore.getPathState();
+    dailyCount = sp && sp.newDaily ? sp.newDaily.count : -1;
+    if (dailyCount !== 0) await new Promise(function (r) { setTimeout(r, 25); });
+  }
+  assert(dailyCount === 0, 'daily reset clears today\'s new-item count');
+
+  // === Full reset (review settings) wipes learning progress ===
+  click(document.querySelector('[data-tab="review"]'), window);
+  await waitFor(function () {
+    return document.querySelector('#review-content .review-stat');
+  }, { description: 'review home renders before settings' });
+  const settingsBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
+    return btn.textContent.indexOf('Sicherung & Einstellungen') !== -1;
+  });
+  assert(settingsBtn, 'review home has a settings button');
+  click(settingsBtn, window);
+  await waitFor(function () {
+    return Array.from(document.querySelectorAll('#review-content button')).some(function (btn) {
+      return btn.textContent.indexOf('Gesamten Fortschritt zurücksetzen') !== -1;
+    });
+  }, { description: 'settings page shows the reset button' });
+  const resetBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
+    return btn.textContent.indexOf('Gesamten Fortschritt zurücksetzen') !== -1;
+  });
+  click(resetBtn, window); // window.confirm is stubbed to true
+  let resetCards = -1, resetPath = 'x';
+  for (let i = 0; i < 80 && !(resetCards === 0 && resetPath === null); i++) {
+    resetCards = (await window.SRSStore.getAllCards()).length;
+    resetPath = await window.SRSStore.getPathState();
+    if (!(resetCards === 0 && resetPath === null)) await new Promise(function (r) { setTimeout(r, 25); });
+  }
+  assert(resetCards === 0, 'full reset clears all SRS cards');
+  assert(resetPath === null, 'full reset clears pathState');
+  await waitFor(function () {
+    return document.getElementById('review-due-badge').classList.contains('hidden');
+  }, { description: 'due badge is cleared after a full reset' });
+
   dom.window.close();
   console.log('Smoke test passed.');
 }

@@ -585,9 +585,22 @@
     row.appendChild(select);
     box.appendChild(row);
 
+    var actions = el('div', 'review-actions');
+
+    var dailyBtn = el('button', 'quiz-btn quiz-btn-back',
+      'Tagesfortschritt zurücksetzen (' + model.path.newDaily.count + ' heute)');
+    dailyBtn.disabled = model.path.newDaily.count === 0;
+    dailyBtn.addEventListener('click', function () {
+      model.path.newDaily = { date: todayStr(), count: 0 };
+      window.SRSStore.savePathState(model.path).then(render).catch(render);
+      if (window.app) window.app.playTick();
+    });
+    actions.appendChild(dailyBtn);
+
     var settingsBtn = el('button', 'quiz-btn quiz-btn-back', 'Sicherung & Einstellungen');
     settingsBtn.addEventListener('click', function () { if (window.app) window.app.switchTab('review'); });
-    box.appendChild(settingsBtn);
+    actions.appendChild(settingsBtn);
+    box.appendChild(actions);
     return box;
   }
 

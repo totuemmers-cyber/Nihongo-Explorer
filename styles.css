@@ -1626,6 +1626,27 @@ main {
   flex: none;
 }
 
+/* Destructive actions */
+.review-danger-box {
+  border-color: rgba(192, 57, 43, 0.4);
+}
+
+.quiz-btn-danger {
+  background: #c0392b;
+  color: #fff;
+  border-color: #c0392b;
+}
+
+.quiz-btn-danger:hover {
+  background: #a93226;
+  border-color: #a93226;
+}
+
+.quiz-btn-danger:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
 .review-shell,
 .review-card-wrap {
   display: flex;

@@ -757,6 +757,33 @@
 
     shell.appendChild(backupBox);
 
+    var dangerBox = el('div', 'review-settings-box review-danger-box');
+    dangerBox.appendChild(el('h3', null, 'Gefahrenzone'));
+    dangerBox.appendChild(el('div', 'review-backup-status',
+      'Tipp: Exportiere zuerst eine Sicherung (oben). Das Zurücksetzen löscht deinen gesamten Lernfortschritt unwiderruflich.'));
+    var resetStatus = el('div', 'review-backup-status');
+    var resetBtn = el('button', 'quiz-btn quiz-btn-danger', 'Gesamten Fortschritt zurücksetzen');
+    resetBtn.addEventListener('click', function () {
+      if (!window.confirm('Gesamten Lernfortschritt zurücksetzen?\n\nAlle Wiederholungs-Karten, der Verlauf und der Lernpfad-Status (Tageszähler, gelesene Lektionen, übersprungene Einträge) werden gelöscht. Lesezeichen und Einstellungen bleiben erhalten.\n\nDies kann nicht rückgängig gemacht werden.')) {
+        return;
+      }
+      resetBtn.disabled = true;
+      resetStatus.textContent = 'Fortschritt wird zurückgesetzt...';
+      window.SRSStore.resetProgress().then(function () {
+        queue = [];
+        currentCard = null;
+        updateReviewBadge();
+        if (window.app) window.app.playPop();
+        renderSettings();
+      }).catch(function (err) {
+        resetBtn.disabled = false;
+        resetStatus.textContent = (err && err.message) || 'Zurücksetzen fehlgeschlagen.';
+      });
+    });
+    dangerBox.appendChild(resetBtn);
+    dangerBox.appendChild(resetStatus);
+    shell.appendChild(dangerBox);
+
     var back = el('button', 'quiz-btn quiz-btn-back', 'Zurück zur Wiederholung');
     back.addEventListener('click', renderHome);
     shell.appendChild(back);
