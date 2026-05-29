@@ -1626,6 +1626,25 @@ main {
   flex: none;
 }
 
+.path-lessons-more {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.path-lessons-more-link {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.path-lessons-more-link:hover {
+  text-decoration: underline;
+}
+
 /* Destructive actions */
 .review-danger-box {
   border-color: rgba(192, 57, 43, 0.4);

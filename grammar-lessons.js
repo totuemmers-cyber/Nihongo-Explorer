@@ -7312,11 +7312,17 @@
     });
   }
 
-  function openLesson(id) {
+  // Activate the "Lektionen" view (without targeting a specific lesson).
+  function openLessonsView() {
     var lessonsBtn = document.querySelector('#grammar-view-toggle [data-view="lessons"]');
     if (lessonsBtn && !lessonsBtn.classList.contains('active')) {
       lessonsBtn.click();
     }
+    return true;
+  }
+
+  function openLesson(id) {
+    openLessonsView();
     if (!lessonsContainer) return false;
     var card = lessonsContainer.querySelector('[data-lesson="' + id + '"]');
     if (!card) return false;
@@ -7330,7 +7336,7 @@
     return true;
   }
 
-  window.GrammarLessons = { getLessons: getLessons, openLesson: openLesson };
+  window.GrammarLessons = { getLessons: getLessons, openLesson: openLesson, openLessonsView: openLessonsView };
 
   // Init when DOM is ready
   if (document.readyState === 'loading') {

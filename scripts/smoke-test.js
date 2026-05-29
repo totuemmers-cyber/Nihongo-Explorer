@@ -340,10 +340,15 @@ async function run() {
   assert(document.querySelector('#path-content .path-legend .path-legend-item'),
     'Lernpfad shows a segment legend');
 
-  // Grammar lessons block renders lessons for the current level
+  // Grammar lessons block renders the next few lessons (capped at 3) + a "see all" link
   await waitFor(function () {
     return document.querySelector('#path-content .path-lessons .path-lesson-item');
   }, { description: 'Lernpfad grammar-lessons block renders lessons' });
+  assert(document.querySelectorAll('#path-content .path-lessons .path-lesson-item').length <= 3,
+    'Lernpfad shows at most 3 grammar lessons');
+  assert(Array.from(document.querySelectorAll('#path-content .path-lessons-more-link')).some(function (b) {
+    return b.textContent.indexOf('Alle Lektionen ansehen') !== -1;
+  }), 'Lernpfad has an "Alle Lektionen ansehen" link');
 
   const lessonOpen = document.querySelector('#path-content .path-lesson-open');
   assert(lessonOpen, 'Lernpfad lesson row has an open button');

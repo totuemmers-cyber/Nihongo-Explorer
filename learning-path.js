@@ -521,6 +521,17 @@
     if (window.app) window.app.playTick();
   }
 
+  function openAllLessons() {
+    if (window.app) window.app.switchTab('grammar');
+    if (window.app && window.app.ensureGrammarLessonsLoaded) {
+      window.app.ensureGrammarLessonsLoaded().then(function () {
+        if (window.GrammarLessons && window.GrammarLessons.openLessonsView) window.GrammarLessons.openLessonsView();
+      }).catch(function () {});
+    }
+  }
+
+  var LESSONS_SHOWN = 3;
+
   function populateLessons(body, model) {
     body.innerHTML = '';
     if (!window.GrammarLessons || !window.GrammarLessons.getLessons) {
@@ -537,39 +548,52 @@
       return;
     }
 
-    var list = el('div', 'path-lessons-list');
-    var nextMarked = false;
-    lessons.forEach(function (l) {
-      var isRead = read.indexOf(l.id) !== -1;
-      var isNext = !isRead && !nextMarked;
-      if (isNext) nextMarked = true;
+    // Show only the next few unread lessons (already in didactic order).
+    var unread = lessons.filter(function (l) { return read.indexOf(l.id) === -1; });
+    var readCount = lessons.length - unread.length;
 
-      var row = el('div', 'path-lesson-item' + (isNext ? ' is-next' : '') + (isRead ? ' is-read' : ''));
+    if (!unread.length) {
+      body.appendChild(el('div', 'review-empty-hint', 'Alle Lektionen für ' + level + ' gelesen ✓'));
+    } else {
+      var shown = unread.slice(0, LESSONS_SHOWN);
+      var list = el('div', 'path-lessons-list');
+      shown.forEach(function (l, idx) {
+        var isNext = idx === 0;
+        var row = el('div', 'path-lesson-item' + (isNext ? ' is-next' : ''));
 
-      var openBtn = el('button', 'path-lesson-open');
-      openBtn.appendChild(el('span', 'path-lesson-num', String(l.number)));
-      var titles = el('div', 'path-lesson-titles');
-      var titleRow = el('div', 'path-lesson-title-row');
-      if (isNext) titleRow.appendChild(el('span', 'path-lesson-next-tag', 'Nächste'));
-      if (isRead) titleRow.appendChild(el('span', 'path-lesson-check', '✓'));
-      titleRow.appendChild(el('span', 'path-lesson-title', l.title));
-      titles.appendChild(titleRow);
-      if (l.subtitle) titles.appendChild(el('span', 'path-lesson-sub', l.subtitle));
-      openBtn.appendChild(titles);
-      openBtn.appendChild(el('span', 'path-chip path-chip-grammar', l.level));
-      openBtn.addEventListener('click', function () { openLessonFromPath(l.id, model); });
-      row.appendChild(openBtn);
+        var openBtn = el('button', 'path-lesson-open');
+        openBtn.appendChild(el('span', 'path-lesson-num', String(l.number)));
+        var titles = el('div', 'path-lesson-titles');
+        var titleRow = el('div', 'path-lesson-title-row');
+        if (isNext) titleRow.appendChild(el('span', 'path-lesson-next-tag', 'Nächste'));
+        titleRow.appendChild(el('span', 'path-lesson-title', l.title));
+        titles.appendChild(titleRow);
+        if (l.subtitle) titles.appendChild(el('span', 'path-lesson-sub', l.subtitle));
+        openBtn.appendChild(titles);
+        openBtn.appendChild(el('span', 'path-chip path-chip-grammar', l.level));
+        openBtn.addEventListener('click', function () { openLessonFromPath(l.id, model); });
+        row.appendChild(openBtn);
 
-      var toggle = el('button', 'srs-small-btn path-lesson-toggle', isRead ? 'Ungelesen' : 'Gelesen');
-      toggle.addEventListener('click', function (e) {
-        e.stopPropagation();
-        toggleLessonRead(model, l.id);
+        var toggle = el('button', 'srs-small-btn path-lesson-toggle', 'Gelesen');
+        toggle.addEventListener('click', function (e) {
+          e.stopPropagation();
+          toggleLessonRead(model, l.id);
+        });
+        row.appendChild(toggle);
+
+        list.appendChild(row);
       });
-      row.appendChild(toggle);
+      body.appendChild(list);
+    }
 
-      list.appendChild(row);
-    });
-    body.appendChild(list);
+    // Footer: link to the full Lektionen view + a small progress summary.
+    var more = el('div', 'path-lessons-more');
+    var link = el('button', 'path-lessons-more-link', 'Alle Lektionen ansehen');
+    link.addEventListener('click', openAllLessons);
+    more.appendChild(link);
+    more.appendChild(el('span', 'path-lessons-more-count',
+      ' (' + readCount + ' gelesen · ' + lessons.length + ' gesamt)'));
+    body.appendChild(more);
   }
 
   function buildLessons(model) {
