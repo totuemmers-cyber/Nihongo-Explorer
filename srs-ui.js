@@ -322,13 +322,27 @@
     return [];
   }
 
+  // Each new sibling card unlocks one day after the previous one, so adding a
+  // single item (which expands into several cards) doesn't flood the queue. The
+  // first/primary card (e.g. "Bedeutung") is always ready immediately.
+  var SIBLING_STAGGER_DAYS = 1;
+
   function addItem(sectionName, item) {
     var specs = getCardSpecs(sectionName, item);
     return window.SRSStore.getCardsByItem(getItemKey(sectionName, item)).then(function (existing) {
       var byKey = {};
       existing.forEach(function (card) { byKey[card.cardKey] = card; });
+      var dayMs = (window.SRSScheduler.constants && window.SRSScheduler.constants.DAY_MS) || 86400000;
+      var now = Date.now();
+      var created = 0;
       var cards = specs.map(function (spec) {
-        return byKey[spec.cardKey] || window.SRSScheduler.createCard(spec);
+        if (byKey[spec.cardKey]) return byKey[spec.cardKey];
+        var card = window.SRSScheduler.createCard(spec, now);
+        if (created > 0) {
+          card.dueAt = new Date(now + created * SIBLING_STAGGER_DAYS * dayMs).toISOString();
+        }
+        created++;
+        return card;
       });
       return window.SRSStore.putCards(cards).then(function () {
         notifyDetailRefresh(getItemKey(sectionName, item));

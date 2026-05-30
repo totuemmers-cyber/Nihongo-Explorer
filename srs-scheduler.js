@@ -111,6 +111,18 @@
 
   function isDue(card, now) {
     if (!card || card.suspended || card.orphaned) return false;
+    // New cards are *introduced* (via the daily new-card budget), not "due" for
+    // review. Keeping them out of the due set means the badge/stats reflect real
+    // review debt instead of jumping by every freshly added card.
+    if (card.state === 'New') return false;
+    return new Date(card.dueAt || 0).getTime() <= (now || Date.now());
+  }
+
+  // A New card that is ready to be introduced now. Sibling cards of an item are
+  // created with a staggered dueAt, so they only become ready on later days.
+  function isNewReady(card, now) {
+    if (!card || card.suspended || card.orphaned) return false;
+    if (card.state !== 'New') return false;
     return new Date(card.dueAt || 0).getTime() <= (now || Date.now());
   }
 
@@ -181,6 +193,7 @@
     applyGrade: applyGrade,
     makeReviewEvent: makeReviewEvent,
     isDue: isDue,
+    isNewReady: isNewReady,
     getStatus: getStatus,
     sortQueue: sortQueue,
     constants: {

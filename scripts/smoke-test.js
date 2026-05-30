@@ -382,8 +382,8 @@ async function run() {
   });
   assert(learnBtn, 'Lernpfad has a "Heute lernen" button');
   assert(!learnBtn.disabled, 'Lernpfad "Heute lernen" is enabled when content is available');
-  assert(learnBtn.textContent.indexOf('neue Einträge') !== -1 && learnBtn.textContent.indexOf('Karten') !== -1,
-    'focus CTA honestly labels items + card estimate ("neue Einträge … Karten")');
+  assert(learnBtn.textContent.indexOf('neue Karten') !== -1 && learnBtn.textContent.indexOf('Wiederholungen') !== -1,
+    'focus CTA labels new cards + reviews ("… neue Karten · … Wiederholungen")');
 
   click(learnBtn, window);
   await waitFor(function () {

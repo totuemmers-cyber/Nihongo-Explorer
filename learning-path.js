@@ -263,25 +263,23 @@
       var map = mapFromCards(cards, path);
       var progress = computeProgress(map, path);
       var due = dueSorted(cards, settings.dailyReviewLimit);
+      // The daily "new" budget is measured in cards: each introduction is a single
+      // card (a primary, or a sibling unlocked on a later day). Already-created New
+      // cards that are ready (staggered siblings whose day has come, or manually
+      // added items) form a backlog that is consumed before brand-new items start.
       var budget = newBudget({ settings: settings, path: path }, due.length);
-      var picks = pickNewItems(progress.currentLevel, map, budget);
+      var newReady = window.SRSScheduler.sortQueue(
+        cards.filter(function (c) { return window.SRSScheduler.isNewReady(c); })
+      );
+      var itemsToStart = Math.max(0, budget - newReady.length);
+      var picks = pickNewItems(progress.currentLevel, map, itemsToStart);
       return {
         cards: cards, settings: settings, path: path, map: map,
         progress: progress, due: due, picks: picks,
+        newReady: newReady, budget: budget,
         suppressedNew: due.length >= settings.dailyReviewLimit
       };
     });
-  }
-
-  // Estimate how many SRS cards a set of picks will create (each item -> N cards).
-  function estimateCards(picks) {
-    if (!picks || !window.SRSUI || !window.SRSUI.getCardSpecs) return 0;
-    var n = 0;
-    picks.forEach(function (p) {
-      var specs = window.SRSUI.getCardSpecs(p.section, p.item);
-      n += (specs && specs.length) || 1;
-    });
-    return n;
   }
 
   // --- Session launch ("Heute lernen") ---
@@ -293,17 +291,25 @@
     var picks = model.picks;
     return Promise.all(picks.map(function (p) { return window.SRSUI.addItem(p.section, p.item); }))
       .then(function (cardLists) {
-        var newCards = [];
-        cardLists.forEach(function (cs) { if (cs) newCards = newCards.concat(cs); });
-        if (picks.length) {
-          model.path.newDaily.count += picks.length;
+        // Of the freshly created cards, only the ready-now ones (primaries) join
+        // today's session; staggered siblings wait for their day.
+        var newlyReady = [];
+        cardLists.forEach(function (cs) {
+          (cs || []).forEach(function (c) {
+            if (window.SRSScheduler.isNewReady(c)) newlyReady.push(c);
+          });
+        });
+        // Today's new cards = ready backlog + new primaries, capped by the budget.
+        var newCardsToday = (model.newReady || []).concat(newlyReady).slice(0, Math.max(0, model.budget));
+        if (newCardsToday.length) {
+          model.path.newDaily.count += newCardsToday.length;
           model.path.lastSessionAt = new Date().toISOString();
-          return window.SRSStore.savePathState(model.path).then(function () { return newCards; });
+          return window.SRSStore.savePathState(model.path).then(function () { return newCardsToday; });
         }
-        return newCards;
+        return newCardsToday;
       })
-      .then(function (newCards) {
-        var session = model.due.concat(newCards);
+      .then(function (newCardsToday) {
+        var session = model.due.concat(newCardsToday);
         if (!session.length) { render(); return; }
         window.SRSUI.startSession(session, true);
       })
@@ -387,8 +393,10 @@
     box.appendChild(el('div', 'path-focus-level', model.progress.currentLevel));
 
     var dueCount = model.due.length;
-    var newCount = model.picks.length;
-    var cardEstimate = estimateCards(model.picks);
+    // New cards introduced today = ready backlog + freshly started items, capped
+    // by the daily card budget. This is what the session will actually contain,
+    // so the label matches reality (no more "20 Einträge" turning into 61 cards).
+    var newToday = Math.min(Math.max(0, model.budget), (model.newReady || []).length + model.picks.length);
 
     // Review status, folded in from the former Wiederholen home screen.
     var cards = model.cards || [];
@@ -397,16 +405,15 @@
 
     var stats = el('div', 'review-stats');
     stats.appendChild(statCard('Fällig', dueCount));
+    stats.appendChild(statCard('Neu heute', newToday));
     stats.appendChild(statCard('Aktive Karten', activeCards.length));
     stats.appendChild(statCard('Schwach', weakCards.length));
     box.appendChild(stats);
 
     var actions = el('div', 'review-actions');
     var learnBtn = el('button', 'quiz-btn quiz-btn-next',
-      'Heute lernen — ' + newCount + ' neue Einträge' +
-      (cardEstimate ? ' (~' + cardEstimate + ' Karten)' : '') +
-      ' · ' + dueCount + ' Wiederholungen');
-    learnBtn.disabled = (newCount + dueCount) === 0;
+      'Heute lernen — ' + newToday + ' neue Karten · ' + dueCount + ' Wiederholungen');
+    learnBtn.disabled = (newToday + dueCount) === 0;
     learnBtn.addEventListener('click', function () {
       if (window.app) window.app.playPop();
       startToday(model, learnBtn);
@@ -431,7 +438,7 @@
     if (model.suppressedNew) {
       box.appendChild(el('div', 'review-empty-hint',
         'Viele Karten fällig — erst Wiederholungen aufholen, dann gibt es wieder neue Inhalte.'));
-    } else if (newCount === 0 && model.path.newDaily.count > 0) {
+    } else if (newToday === 0 && model.path.newDaily.count > 0) {
       box.appendChild(el('div', 'review-empty-hint',
         'Tagesziel für neue Karten erreicht (' + model.path.newDaily.count + '). Morgen geht es weiter.'));
     }
@@ -656,7 +663,7 @@
     var actions = el('div', 'review-actions');
 
     var dailyBtn = el('button', 'quiz-btn quiz-btn-back',
-      'Tagesfortschritt zurücksetzen (' + model.path.newDaily.count + ' Einträge heute)');
+      'Tagesfortschritt zurücksetzen (' + model.path.newDaily.count + ' neue Karten heute)');
     dailyBtn.disabled = model.path.newDaily.count === 0;
     dailyBtn.addEventListener('click', function () {
       model.path.newDaily = { date: todayStr(), count: 0 };
