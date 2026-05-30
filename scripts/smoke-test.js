@@ -404,6 +404,14 @@ async function run() {
   await waitFor(function () {
     return document.querySelector('#path-content .path-adjust');
   }, { description: 'Lernpfad adjust block renders' });
+
+  // Now that progress exists but no backup is connected (jsdom = "manual" mode),
+  // the Lernpfad surfaces a prominent data-loss warning with an export action.
+  const backupWarning = document.querySelector('#path-content .path-backup-warning');
+  assert(backupWarning, 'Lernpfad warns when progress is not backed up');
+  assert(Array.from(backupWarning.querySelectorAll('button')).some(function (b) {
+    return b.textContent.indexOf('exportieren') !== -1;
+  }), 'backup warning offers an export action');
   const dailyBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
     return btn.textContent.indexOf('Tagesfortschritt zurücksetzen') !== -1;
   });

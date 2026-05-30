@@ -1378,6 +1378,42 @@ main {
   letter-spacing: 0.03em;
 }
 
+.path-backup-warning {
+  border: 1px solid var(--n4-border);
+  border-radius: 8px;
+  background: var(--n4-bg);
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.path-backup-warning.is-error {
+  border-color: var(--n2-border);
+  background: var(--n2-bg);
+}
+
+.path-backup-warning-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.path-backup-warning-text {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.path-backup-warning-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .path-focus-level {
   font-size: 2rem;
   font-weight: 700;

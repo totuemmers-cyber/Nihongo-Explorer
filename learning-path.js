@@ -254,12 +254,14 @@
       return Promise.all([
         window.SRSStore.getAllCards(),
         window.SRSStore.getSettings(),
-        window.SRSStore.getPathState()
+        window.SRSStore.getPathState(),
+        window.SRSStore.getBackupStatus().catch(function () { return null; })
       ]);
     }).then(function (parts) {
       var cards = parts[0] || [];
       var settings = parts[1];
       var path = normalizePath(parts[2]);
+      var backup = parts[3];
       var map = mapFromCards(cards, path);
       var progress = computeProgress(map, path);
       var due = dueSorted(cards, settings.dailyReviewLimit);
@@ -276,7 +278,7 @@
       return {
         cards: cards, settings: settings, path: path, map: map,
         progress: progress, due: due, picks: picks,
-        newReady: newReady, budget: budget,
+        newReady: newReady, budget: budget, backup: backup,
         suppressedNew: due.length >= settings.dailyReviewLimit
       };
     });
@@ -371,6 +373,9 @@
       header.appendChild(el('div', 'review-subtitle', 'Dein nächster Schritt — dynamisch aus deinem Fortschritt berechnet.'));
       shell.appendChild(header);
 
+      var warning = buildBackupWarning(model);
+      if (warning) shell.appendChild(warning);
+
       shell.appendChild(buildFocus(model));
       shell.appendChild(buildProgress(model));
       shell.appendChild(buildNextUp(model));
@@ -385,6 +390,62 @@
       shell.appendChild(el('div', 'review-subtitle', 'Lernpfad konnte nicht geladen werden.'));
       panel.appendChild(shell);
     });
+  }
+
+  // Prominent banner when there is progress worth protecting but it is not
+  // safely backed up. IndexedDB can be wiped by "clear site data" (and is
+  // auto-evicted on iOS/Safari), so a connected backup file is the only thing
+  // that survives — nudge for it here instead of hiding it in settings.
+  function buildBackupWarning(model) {
+    var backup = model.backup || {};
+    var hasProgress = !!(model.cards && model.cards.length);
+    if (!hasProgress) return null;                          // nothing to lose yet
+    if (backup.mode === 'file' && !backup.lastError) return null; // connected & healthy
+
+    var box = el('div', 'path-backup-warning');
+    var head = el('div', 'path-backup-warning-head');
+
+    if (backup.mode === 'file' && backup.lastError) {
+      box.className += ' is-error';
+      head.textContent = '⚠️ Automatische Sicherung fehlgeschlagen';
+      box.appendChild(head);
+      box.appendChild(el('div', 'path-backup-warning-text',
+        'Die letzte Sicherung schlug fehl (' + backup.lastError + '). Dein Fortschritt liegt nur im Browser — bitte erneut verbinden oder exportieren.'));
+    } else if (backup.mode === 'manual') {
+      head.textContent = '⚠️ Kein automatisches Backup möglich';
+      box.appendChild(head);
+      box.appendChild(el('div', 'path-backup-warning-text',
+        'Dieser Browser unterstützt keine automatische Sicherungsdatei. Exportiere regelmäßig eine Sicherung — sonst geht dein Fortschritt beim Löschen der Websitedaten verloren.'));
+    } else {
+      head.textContent = '⚠️ Kein Backup verbunden';
+      box.appendChild(head);
+      box.appendChild(el('div', 'path-backup-warning-text',
+        'Dein Fortschritt liegt nur im Browser und geht beim Löschen der Websitedaten (oder automatisch auf iOS/Safari) verloren. Verbinde eine Sicherungsdatei — danach wird automatisch gesichert.'));
+    }
+
+    var actions = el('div', 'path-backup-warning-actions');
+    if (backup.mode !== 'manual' && window.SRSStore.canUseFileBackup && window.SRSStore.canUseFileBackup()) {
+      var connectBtn = el('button', 'quiz-btn quiz-btn-next', 'Sicherung verbinden');
+      connectBtn.addEventListener('click', function () {
+        connectBtn.disabled = true;
+        window.SRSStore.connectBackupFile().then(function () {
+          if (window.app) window.app.playPop();
+          render();
+        }).catch(function (err) {
+          connectBtn.disabled = false;
+          head.textContent = '⚠️ ' + ((err && err.message) || 'Verbinden fehlgeschlagen');
+        });
+      });
+      actions.appendChild(connectBtn);
+    }
+    var exportBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Jetzt exportieren');
+    exportBtn.addEventListener('click', function () {
+      window.SRSStore.downloadBackup();
+      if (window.app) window.app.playTick();
+    });
+    actions.appendChild(exportBtn);
+    box.appendChild(actions);
+    return box;
   }
 
   function buildFocus(model) {
