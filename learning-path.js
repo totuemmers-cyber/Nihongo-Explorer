@@ -317,24 +317,13 @@
     if (window.app) window.app.playTick();
   }
 
-  // Best-effort: jump to an item's detail overlay in its own section.
+  // Open a to-learn item's detail overlay IN PLACE (no tab switch). The overlays are
+  // top-level, so they render over the Lernpfad and closing them returns here directly.
   function openItemDetail(section, item) {
     var sec = window.app.sections[section];
     if (!sec) return;
-    window.app.switchTab(section);
     window.app.ensureSectionLoaded(section).then(function () {
-      if (sec.dom.search) {
-        sec.dom.search.value = section === 'kanji' ? item.kanji : (item.word || item.pattern || '');
-        if (sec.dom.clearSearch) sec.dom.clearSearch.classList.add('visible');
-      }
-      sec.applyFilters();
-      for (var i = 0; i < sec.filteredItems.length; i++) {
-        var it = sec.filteredItems[i];
-        var hit = (section === 'kanji' && it.kanji === item.kanji) ||
-          (section === 'grammar' && it.id === item.id) ||
-          (section === 'vocab' && it.word === item.word && it.reading === item.reading);
-        if (hit) { sec.openDetail(i); return; }
-      }
+      sec.showItem(item);
     }).catch(function () {});
   }
 

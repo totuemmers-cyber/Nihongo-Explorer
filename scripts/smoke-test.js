@@ -138,20 +138,32 @@ async function run() {
   });
 
   await waitFor(function () {
-    return window.app && window.QuizModule && document.getElementById('kana-content').children.length > 0;
+    return window.app && window.QuizModule && window.LearningPath;
   }, { description: 'initial app boot' });
 
-  assert(window.app.sections.vocab.isLoaded === false, 'Vocab should not be loaded during initial boot');
-  assert(window.app.sections.kanji.isLoaded === false, 'Kanji should not be loaded during initial boot');
-  assert(window.app.sections.grammar.isLoaded === false, 'Grammar should not be loaded during initial boot');
+  // Default landing is the Lernpfad (which loads its sections to compute progress).
+  await waitFor(function () {
+    return window.app.activeTab === 'path' &&
+      document.querySelector('#path-content .path-next-item');
+  }, { description: 'app lands on the Lernpfad with recommendations', timeoutMs: 20000 });
+
+  // Clicking a to-learn item opens its detail overlay IN PLACE (no tab switch),
+  // and closing returns straight to the Lernpfad.
+  click(document.querySelector('#path-content .path-next-item'), window);
+  await waitFor(function () {
+    return document.querySelector('.detail-overlay:not(.hidden)');
+  }, { description: 'to-learn item opens a detail overlay' });
+  assert(window.app.activeTab === 'path', 'opening a to-learn item stays on the Lernpfad');
+  document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
+  await waitFor(function () {
+    return !document.querySelector('.detail-overlay:not(.hidden)');
+  }, { description: 'closing the overlay returns to the Lernpfad' });
+  assert(window.app.activeTab === 'path', 'still on the Lernpfad after closing the overlay');
 
   click(document.querySelector('[data-tab="quiz"]'), window);
   await waitFor(function () {
-    return document.querySelector('#quiz-content .quiz-home-card.browse') &&
-      window.app.sections.vocab.isLoaded === false &&
-      window.app.sections.kanji.isLoaded === false &&
-      window.app.sections.grammar.isLoaded === false;
-  }, { description: 'quiz home without data preload' });
+    return document.querySelector('#quiz-content .quiz-home-card.browse');
+  }, { description: 'quiz home renders' });
 
   click(document.querySelector('#quiz-content .quiz-home-card.browse'), window);
   await waitFor(function () {
@@ -308,20 +320,14 @@ async function run() {
     return document.getElementById('grammar-grid').children.length > 0;
   }, { description: 'grammar section load' });
 
-  window.__NIHONGO_TEST_BLOCK_SCRIPTS = ['grammar-lessons.js'];
+  // Grammar lessons are already initialized — the Lernpfad landing loads them for the
+  // Grammatiklektionen block. Verify the Lektionen view renders lesson cards.
+  assert(window.__grammarLessonsInitialized === true,
+    'grammar lessons are initialized via the Lernpfad landing');
   click(document.querySelector('#grammar-view-toggle [data-view="lessons"]'), window);
   await waitFor(function () {
-    const error = document.querySelector('#grammar-tab .section-error');
-    return error && error.textContent.indexOf('Erneut versuchen') !== -1;
-  }, { description: 'grammar lessons failure UI' });
-  await waitFor(function () {
-    return window.__grammarLessonsInitialized !== true;
-  }, { description: 'grammar lessons failure cleanup' });
-  delete window.__NIHONGO_TEST_BLOCK_SCRIPTS;
-  await window.app.ensureGrammarLessonsLoaded();
-  await waitFor(function () {
-    return window.__grammarLessonsInitialized === true;
-  }, { description: 'grammar lessons retry success' });
+    return document.querySelector('#grammar-tab .gl-card[data-lesson]');
+  }, { description: 'grammar lessons view renders lesson cards' });
 
   // === Lernpfad (Learning Path) ===
   click(document.querySelector('[data-tab="path"]'), window);

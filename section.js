@@ -247,6 +247,24 @@ Section.prototype.openDetail = function (index) {
   if (this.dom.closeBtn) this.dom.closeBtn.focus();
 };
 
+// Open the detail overlay for a specific item, regardless of the active tab or the
+// current filter. If the item is in the filtered view, use openDetail (keeps prev/next
+// navigation); otherwise open the overlay directly with navigation disabled. Used by
+// the Lernpfad so a to-learn item opens in place and closing returns to the Lernpfad.
+Section.prototype.showItem = function (item) {
+  if (!item) return false;
+  var idx = this.filteredItems.indexOf(item);
+  if (idx !== -1) { this.openDetail(idx); return true; }
+  this._triggerEl = document.activeElement;
+  this.currentDetailIndex = -1;
+  this.config.openDetail(item, this.dom, this);
+  if (this.dom.overlay) this.dom.overlay.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+  if (window.app && typeof window.app.playPop === 'function') window.app.playPop();
+  if (this.dom.closeBtn) this.dom.closeBtn.focus();
+  return true;
+};
+
 Section.prototype.closeDetail = function () {
   if (this.dom.overlay) this.dom.overlay.classList.add('hidden');
   document.body.style.overflow = '';

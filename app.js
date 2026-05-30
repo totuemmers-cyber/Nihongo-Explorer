@@ -1236,11 +1236,6 @@
   updateCount();
   if (window.SRSUI && window.SRSUI.updateReviewBadge) window.SRSUI.updateReviewBadge();
 
-  // Default landing: returning learners (any SRS history / saved path) start on the
-  // Lernpfad; first-time users stay on the Kana chart.
-  if (window.LearningPath && window.LearningPath.shouldLandHere) {
-    window.LearningPath.shouldLandHere().then(function (yes) {
-      if (yes && app.activeTab === 'kana') switchTab('path');
-    }).catch(function () {});
-  }
+  // Default landing: always open the Lernpfad (cold-start users get N5 onboarding).
+  switchTab('path');
 })();
