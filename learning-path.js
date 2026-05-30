@@ -462,7 +462,11 @@
       var row = el('div', 'path-level-row');
       var head = el('div', 'path-level-head');
       head.appendChild(el('span', 'path-level-badge ' + lv.level, lv.level));
-      head.appendChild(el('span', 'path-level-count', lv.done + ' / ' + lv.total));
+      // Count items that are at least in progress (matches the filled bar), so the
+      // number moves the moment you start learning — even before an item's
+      // staggered sibling cards are all introduced and it counts as "familiar".
+      var started = lv.mastered + lv.familiar + lv.learning;
+      head.appendChild(el('span', 'path-level-count', started + ' / ' + lv.total));
       row.appendChild(head);
 
       var bar = el('div', 'path-bar');
