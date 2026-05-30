@@ -1537,7 +1537,18 @@ main {
 .path-adjust-row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.6rem;
+}
+
+.path-adjust .path-target-select {
+  min-width: 8rem;
+}
+
+.path-adjust-hint {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.35;
 }
 
 .path-adjust-label {

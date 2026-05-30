@@ -67,6 +67,7 @@
       schemaV: 1,
       kanaDone: !!p.kanaDone,
       targetLevel: LEVELS.indexOf(p.targetLevel) !== -1 ? p.targetLevel : 'N1',
+      startLevel: LEVELS.indexOf(p.startLevel) !== -1 ? p.startLevel : 'N5',
       skippedItems: Array.isArray(p.skippedItems) ? p.skippedItems : [],
       readLessons: Array.isArray(p.readLessons) ? p.readLessons : [],
       newDaily: daily,
@@ -99,6 +100,20 @@
     (path.skippedItems || []).forEach(function (key) {
       if (map[key] !== 'mastered') map[key] = 'familiar';
     });
+    // Everything below the chosen starting level counts as already known, so the
+    // path skips those levels and their kanji don't gate higher-level vocab.
+    var startIdx = LEVELS.indexOf(path.startLevel || 'N5');
+    if (startIdx > 0 && window.app && window.app.sections) {
+      SECTIONS.forEach(function (s) {
+        var items = (window.app.sections[s] && window.app.sections[s].allItems) || [];
+        items.forEach(function (it) {
+          if (LEVELS.indexOf(levelOf(s, it)) < startIdx) {
+            var key = itemKeyOf(s, it);
+            if (map[key] !== 'mastered') map[key] = 'familiar';
+          }
+        });
+      });
+    }
     return map;
   }
 
@@ -714,28 +729,55 @@
     return box;
   }
 
-  function buildAdjust(model) {
-    var box = el('div', 'path-adjust');
+  var NEW_PER_DAY_OPTIONS = [5, 10, 15, 20, 30, 40, 50];
+  var REVIEWS_PER_DAY_OPTIONS = [50, 100, 120, 150, 200, 300, 9999];
+
+  function makeSelectRow(labelText, id, options, currentValue, formatOption, onChange) {
     var row = el('div', 'path-adjust-row');
-
-    var label = el('label', 'path-adjust-label', 'Zielniveau');
-    label.setAttribute('for', 'path-target-select');
+    var label = el('label', 'path-adjust-label', labelText);
+    label.setAttribute('for', id);
     row.appendChild(label);
-
     var select = el('select', 'path-target-select');
-    select.id = 'path-target-select';
-    LEVELS.forEach(function (L) {
-      var opt = el('option', null, L);
-      opt.value = L;
-      if (L === model.progress.targetLevel) opt.selected = true;
+    select.id = id;
+    options.forEach(function (val) {
+      var opt = el('option', null, formatOption ? formatOption(val) : String(val));
+      opt.value = String(val);
+      if (String(val) === String(currentValue)) opt.selected = true;
       select.appendChild(opt);
     });
-    select.addEventListener('change', function () {
-      model.path.targetLevel = select.value;
-      window.SRSStore.savePathState(model.path).then(render).catch(render);
-    });
+    select.addEventListener('change', function () { onChange(select.value); });
     row.appendChild(select);
-    box.appendChild(row);
+    return row;
+  }
+
+  function buildAdjust(model) {
+    var box = el('div', 'path-adjust');
+    box.appendChild(el('div', 'path-section-title', 'So lerne ich'));
+
+    // Pace: how many new cards to introduce per day (the daily new-card budget).
+    box.appendChild(makeSelectRow('Neue Karten pro Tag', 'path-new-per-day',
+      NEW_PER_DAY_OPTIONS, model.settings.dailyNewLimit, null, function (value) {
+        model.settings.dailyNewLimit = parseInt(value, 10) || 20;
+        window.SRSStore.saveSettings(model.settings).then(render).catch(render);
+      }));
+
+    // Pace: cap on reviews per day; above it, new cards pause until you catch up.
+    box.appendChild(makeSelectRow('Wiederholungen pro Tag (max.)', 'path-reviews-per-day',
+      REVIEWS_PER_DAY_OPTIONS, model.settings.dailyReviewLimit,
+      function (v) { return v >= 9999 ? 'Unbegrenzt' : String(v); },
+      function (value) {
+        model.settings.dailyReviewLimit = parseInt(value, 10) || 120;
+        window.SRSStore.saveSettings(model.settings).then(render).catch(render);
+      }));
+
+    // Starting level: treat everything below as already known and begin here.
+    box.appendChild(makeSelectRow('Startniveau', 'path-start-level',
+      LEVELS, model.path.startLevel || 'N5', null, function (value) {
+        model.path.startLevel = value;
+        window.SRSStore.savePathState(model.path).then(render).catch(render);
+      }));
+    box.appendChild(el('div', 'path-adjust-hint',
+      'Stufen unter dem Startniveau gelten als bekannt — neue Inhalte starten ab hier. Höhere Stufen folgen automatisch.'));
 
     var actions = el('div', 'review-actions');
 

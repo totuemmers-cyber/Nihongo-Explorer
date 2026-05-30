@@ -228,6 +228,17 @@ function makeStoreContext(storage) {
   check('T9 suspended kanji is not offered as a new pick', newKanji.indexOf('人') === -1);
 })();
 
+// === T13: startLevel treats lower levels as known and starts the path there ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const path = eng.normalizePath({ startLevel: 'N4' });
+  const map = eng.mapFromCards([], path);
+  check('T13 below-start item is treated as familiar', eng.itemStatus('kanji', KANJI[0], map) === 'familiar'); // 一 (N5)
+  check('T13 at-start item stays new', eng.itemStatus('kanji', KANJI[3], map) === 'new'); // 会 (N4)
+  const progress = eng.computeProgress(map, path);
+  check('T13 current level starts at the chosen start level', progress.currentLevel === 'N4');
+})();
+
 function finish() {
   console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
   process.exit(failures.length > 0 ? 1 : 0);
