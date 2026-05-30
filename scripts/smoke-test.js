@@ -248,12 +248,15 @@ async function run() {
     return document.getElementById('vocab-detail-overlay').classList.contains('hidden');
   }, { description: 'vocab overlay close before review' });
 
-  click(document.querySelector('[data-tab="review"]'), window);
+  // The review home is now folded into the Lernpfad dashboard: its stats and the
+  // "Alle aktiven Karten üben" action live in #path-content, while the review
+  // session itself still runs on the (nav-less) #review-content surface.
+  click(document.querySelector('[data-tab="path"]'), window);
   await waitFor(function () {
-    return document.querySelector('#review-content .review-stat') &&
-      document.getElementById('review-content').textContent.indexOf('Aktive Karten') !== -1;
-  }, { description: 'review home renders' });
-  click(Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
+    return document.querySelector('#path-content .review-stat') &&
+      document.getElementById('path-content').textContent.indexOf('Aktive Karten') !== -1;
+  }, { description: 'learning path shows review stats' });
+  click(Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
     return btn.textContent.indexOf('Alle aktiven Karten üben') !== -1;
   }), window);
   await waitFor(function () {
@@ -266,15 +269,16 @@ async function run() {
   click(document.querySelector('#review-content .grade-good'), window);
   await waitFor(function () {
     return document.querySelector('#review-content .review-card-wrap') ||
-      (document.querySelector('#review-content .review-stat') &&
-        document.getElementById('review-content').textContent.indexOf('Aktive Karten') !== -1);
+      (document.querySelector('#path-content .review-stat') &&
+        document.getElementById('path-content').textContent.indexOf('Aktive Karten') !== -1);
   }, { description: 'review grade saved' });
   if (document.querySelector('#review-content .review-card-wrap')) {
     click(Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
       return btn.textContent.indexOf('Aus Wiederholung entfernen') !== -1;
     }), window);
+    // Emptying the queue returns to the Lernpfad, where the stats now read 0.
     await waitFor(function () {
-      var stats = Array.from(document.querySelectorAll('#review-content .review-stat'));
+      var stats = Array.from(document.querySelectorAll('#path-content .review-stat'));
       return stats.some(function (stat) {
         return stat.textContent.indexOf('Aktive Karten') !== -1 &&
           stat.querySelector('.review-stat-value') &&
@@ -415,14 +419,12 @@ async function run() {
   assert(dailyCount === 0, 'daily reset clears today\'s new-item count');
 
   // === Full reset (review settings) wipes learning progress ===
-  click(document.querySelector('[data-tab="review"]'), window);
-  await waitFor(function () {
-    return document.querySelector('#review-content .review-stat');
-  }, { description: 'review home renders before settings' });
-  const settingsBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
+  // Settings are reached from the Lernpfad's "Sicherung & Einstellungen" button,
+  // which opens the settings screen on the #review-content surface.
+  const settingsBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
     return btn.textContent.indexOf('Sicherung & Einstellungen') !== -1;
   });
-  assert(settingsBtn, 'review home has a settings button');
+  assert(settingsBtn, 'learning path has a settings button');
   click(settingsBtn, window);
   await waitFor(function () {
     return Array.from(document.querySelectorAll('#review-content button')).some(function (btn) {

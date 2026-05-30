@@ -583,7 +583,7 @@
     if (!ensurePanel()) return;
     if (!queue.length) {
       updateReviewBadge();
-      renderHome();
+      returnToPath();
       return;
     }
     currentCard = queue.shift();
@@ -849,8 +849,8 @@
     diagBox.appendChild(diagStatus);
     shell.appendChild(diagBox);
 
-    var back = el('button', 'quiz-btn quiz-btn-back', 'Zurück zur Wiederholung');
-    back.addEventListener('click', renderHome);
+    var back = el('button', 'quiz-btn quiz-btn-back', 'Zurück zum Lernpfad');
+    back.addEventListener('click', returnToPath);
     shell.appendChild(back);
     panel.appendChild(shell);
 
@@ -900,8 +900,31 @@
     }, 0);
   }
 
+  // After a session ends (or a settings flow closes), return the learner to the
+  // Lernpfad dashboard — the review tab no longer has its own nav entry, so the
+  // path is the single home surface for both learning and reviewing.
+  function returnToPath() {
+    if (window.app && window.app.switchTab) window.app.switchTab('path');
+    else renderHome();
+  }
+
+  // Open the backup & settings screen directly. The settings live on the (now
+  // nav-less) review tab; switchTab('review') runs the review tab's own
+  // onTabActivate -> renderHome via an init promise, so we defer renderSettings
+  // to a macrotask to win that race (same pattern as startSession).
+  var settingsTimer = null;
+  function openSettings() {
+    if (window.app && window.app.activeTab !== 'review') window.app.switchTab('review');
+    if (settingsTimer) clearTimeout(settingsTimer);
+    settingsTimer = setTimeout(function () {
+      settingsTimer = null;
+      init().then(renderSettings);
+    }, 0);
+  }
+
   window.SRSUI = {
     onTabActivate: onTabActivate,
+    openSettings: openSettings,
     addItem: addItem,
     getItemStatus: getItemStatus,
     mountDetailControl: mountDetailControl,

@@ -31,6 +31,13 @@
     return /[　-龯぀-ヿ＀-ﾟ]/.test(text || '');
   }
 
+  function statCard(label, value) {
+    var card = el('div', 'review-stat');
+    card.appendChild(el('span', 'review-stat-value', value));
+    card.appendChild(el('span', 'review-stat-label', label));
+    return card;
+  }
+
   // --- Data loading ---
   function ensureData() {
     if (!window.app || !window.app.ensureSectionLoaded) return Promise.resolve();
@@ -383,6 +390,17 @@
     var newCount = model.picks.length;
     var cardEstimate = estimateCards(model.picks);
 
+    // Review status, folded in from the former Wiederholen home screen.
+    var cards = model.cards || [];
+    var activeCards = cards.filter(function (c) { return !c.suspended; });
+    var weakCards = activeCards.filter(function (c) { return (c.lapses || 0) > 0 || c.state === 'Relearning'; });
+
+    var stats = el('div', 'review-stats');
+    stats.appendChild(statCard('Fällig', dueCount));
+    stats.appendChild(statCard('Aktive Karten', activeCards.length));
+    stats.appendChild(statCard('Schwach', weakCards.length));
+    box.appendChild(stats);
+
     var actions = el('div', 'review-actions');
     var learnBtn = el('button', 'quiz-btn quiz-btn-next',
       'Heute lernen — ' + newCount + ' neue Einträge' +
@@ -401,6 +419,13 @@
       window.SRSUI.startSession(model.due, true);
     });
     actions.appendChild(reviewBtn);
+
+    var practiceBtn = el('button', 'quiz-btn quiz-btn-back', 'Alle aktiven Karten üben (' + activeCards.length + ')');
+    practiceBtn.disabled = activeCards.length === 0;
+    practiceBtn.addEventListener('click', function () {
+      window.SRSUI.startSession(activeCards, true);
+    });
+    actions.appendChild(practiceBtn);
     box.appendChild(actions);
 
     if (model.suppressedNew) {
@@ -641,7 +666,10 @@
     actions.appendChild(dailyBtn);
 
     var settingsBtn = el('button', 'quiz-btn quiz-btn-back', 'Sicherung & Einstellungen');
-    settingsBtn.addEventListener('click', function () { if (window.app) window.app.switchTab('review'); });
+    settingsBtn.addEventListener('click', function () {
+      if (window.SRSUI && window.SRSUI.openSettings) window.SRSUI.openSettings();
+      else if (window.app) window.app.switchTab('review');
+    });
     actions.appendChild(settingsBtn);
     box.appendChild(actions);
     return box;
