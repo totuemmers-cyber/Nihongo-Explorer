@@ -148,8 +148,9 @@ async function run() {
   }, { description: 'app lands on the Lernpfad with recommendations', timeoutMs: 20000 });
 
   // Clicking a to-learn item opens its detail overlay IN PLACE (no tab switch),
-  // and closing returns straight to the Lernpfad.
-  click(document.querySelector('#path-content .path-next-item'), window);
+  // and closing returns straight to the Lernpfad. The card's main area is the
+  // .path-next-open button (the ✓ "kenne ich" control sits beside it).
+  click(document.querySelector('#path-content .path-next-item .path-next-open'), window);
   await waitFor(function () {
     return document.querySelector('.detail-overlay:not(.hidden)');
   }, { description: 'to-learn item opens a detail overlay' });
@@ -342,6 +343,13 @@ async function run() {
   }, { description: 'Lernpfad page renders with progress and recommendations' });
   assert(document.querySelector('#path-content .path-focus-level').textContent.length > 0,
     'Lernpfad shows a current level');
+
+  // Each recommendation carries a per-item "kenne ich" (✓) control, and the focus
+  // block shows the daily new-card goal as a gauge bar.
+  assert(document.querySelector('#path-content .path-next-item .path-next-known'),
+    'recommendations have a per-item "kenne ich" control');
+  assert(document.querySelector('#path-content .path-focus .path-stat-bar'),
+    'focus block shows the daily new-card goal as a gauge');
 
   // Progress rows are labelled and a legend explains the segment colours
   const levelBadge = document.querySelector('#path-content .path-level-badge');

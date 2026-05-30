@@ -38,6 +38,25 @@
     return card;
   }
 
+  // A stat that doubles as a goal gauge: "8 / 20" plus a slim fill bar.
+  function progressStatCard(label, done, total) {
+    var card = el('div', 'review-stat');
+    card.appendChild(el('span', 'review-stat-value', done + ' / ' + total));
+    card.appendChild(el('span', 'review-stat-label', label));
+    var bar = el('div', 'path-stat-bar');
+    var fill = el('div', 'path-stat-bar-fill');
+    fill.style.width = (total > 0 ? Math.min(100, Math.round(done / total * 100)) : 0) + '%';
+    bar.appendChild(fill);
+    card.appendChild(bar);
+    return card;
+  }
+
+  // Rough session-length estimate. New cards take longer to digest than reviews;
+  // these per-card seconds are deliberately coarse — it only sets expectations.
+  function estimateMinutes(newCount, dueCount) {
+    return Math.max(1, Math.round((newCount * 12 + dueCount * 7) / 60));
+  }
+
   // --- Data loading ---
   function ensureData() {
     if (!window.app || !window.app.ensureSectionLoaded) return Promise.resolve();
@@ -55,9 +74,14 @@
   }
 
   // --- pathState helpers ---
-  function todayStr() {
-    var d = new Date();
+  function dayStr(d) {
     return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate();
+  }
+  function todayStr() { return dayStr(new Date()); }
+  function yesterdayStr() {
+    var d = new Date();
+    d.setDate(d.getDate() - 1);
+    return dayStr(d);
   }
 
   function normalizePath(p) {
@@ -71,8 +95,37 @@
       skippedItems: Array.isArray(p.skippedItems) ? p.skippedItems : [],
       readLessons: Array.isArray(p.readLessons) ? p.readLessons : [],
       newDaily: daily,
-      lastSessionAt: p.lastSessionAt || null
+      lastSessionAt: p.lastSessionAt || null,
+      // Motivation tracking: a daily streak and the highest level already announced.
+      streakCount: typeof p.streakCount === 'number' ? p.streakCount : 0,
+      streakLastDay: p.streakLastDay || null,
+      seenLevel: LEVELS.indexOf(p.seenLevel) !== -1 ? p.seenLevel : null
     };
+  }
+
+  // The streak the learner can currently see. Alive if they studied today or
+  // yesterday (yesterday = not yet extended today); otherwise it has lapsed to 0.
+  function currentStreak(path) {
+    var last = path.streakLastDay;
+    if (!last) return 0;
+    if (last === todayStr() || last === yesterdayStr()) return path.streakCount || 0;
+    return 0;
+  }
+
+  // Record that the learner studied today, extending or restarting the streak.
+  // Mutates path; caller persists. No-op if today was already counted.
+  function markStudyDay(path) {
+    var today = todayStr();
+    if (path.streakLastDay === today) return;
+    path.streakCount = (path.streakLastDay === yesterdayStr()) ? (path.streakCount || 0) + 1 : 1;
+    path.streakLastDay = today;
+  }
+
+  // Mark + persist a study day for review/practice launches that bypass startToday.
+  function recordStudyStart(path) {
+    markStudyDay(path);
+    path.lastSessionAt = new Date().toISOString();
+    window.SRSStore.savePathState(path).catch(function () {});
   }
 
   // --- Mastery derivation ---
@@ -169,17 +222,22 @@
   }
 
   // --- Kanji -> vocab prerequisite gate ---
-  function vocabUnlocked(v, kanjiIndex, map) {
-    var w = v.word || '';
+  // The kanji (still 'new') inside a word that keep it gated. Empty => unlocked.
+  function blockingKanji(v, kanjiIndex, map) {
+    var w = v.word || '', out = [];
     for (var i = 0; i < w.length; i++) {
       var code = w.charCodeAt(i);
       if (code >= 0x3400 && code <= 0x9FFF) { // CJK Unified + Ext-A
         var k = kanjiIndex[w[i]];
         if (!k) continue; // kanji absent from dataset -> can't gate on it
-        if (itemStatus('kanji', k, map) === 'new') return false;
+        if (itemStatus('kanji', k, map) === 'new') out.push(w[i]);
       }
     }
-    return true;
+    return out;
+  }
+
+  function vocabUnlocked(v, kanjiIndex, map) {
+    return blockingKanji(v, kanjiIndex, map).length === 0;
   }
 
   function grammarCompare(a, b) {
@@ -279,6 +337,23 @@
       var backup = parts[3];
       var map = mapFromCards(cards, path);
       var progress = computeProgress(map, path);
+      // Detect a level-up since the last time the path was rendered. First run after
+      // this feature ships (seenLevel == null) adopts the current level silently so
+      // existing learners aren't congratulated for progress they already made.
+      var leveledUp = null;
+      var curIdx = LEVELS.indexOf(progress.currentLevel);
+      var seenIdx = LEVELS.indexOf(path.seenLevel);
+      if (seenIdx < 0) {
+        path.seenLevel = progress.currentLevel;
+      } else if (curIdx > seenIdx) {
+        leveledUp = progress.currentLevel;
+        path.seenLevel = progress.currentLevel;
+      } else if (curIdx < seenIdx) {
+        path.seenLevel = progress.currentLevel; // moved down (e.g. start level lowered)
+      }
+      if (path.seenLevel !== (parts[2] && parts[2].seenLevel)) {
+        window.SRSStore.savePathState(path).catch(function () {});
+      }
       var due = dueSorted(cards, settings.dailyReviewLimit);
       // The daily "new" budget is measured in cards: each introduction is a single
       // card (a primary, or a sibling unlocked on a later day). Already-created New
@@ -290,11 +365,21 @@
       );
       var itemsToStart = Math.max(0, budget - newReady.length);
       var picks = pickNewItems(progress.currentLevel, map, itemsToStart);
+      // A short preview of vocab still gated by not-yet-learned kanji, so the path
+      // explains *why* it isn't suggesting these yet instead of silently hiding them.
+      var suppressedNew = due.length >= settings.dailyReviewLimit;
+      var waiting = [];
+      if (!suppressedNew) {
+        var kanjiIndex = (typeof getKanjiByChar === 'function') ? getKanjiByChar() : {};
+        waiting = frontierQueues(progress.currentLevel, map).waitVocab.slice(0, 4).map(function (p) {
+          return { section: 'vocab', item: p.item, blocking: blockingKanji(p.item, kanjiIndex, map) };
+        });
+      }
       return {
         cards: cards, settings: settings, path: path, map: map,
-        progress: progress, due: due, picks: picks,
+        progress: progress, due: due, picks: picks, waiting: waiting,
         newReady: newReady, budget: budget, backup: backup,
-        suppressedNew: due.length >= settings.dailyReviewLimit
+        suppressedNew: suppressedNew, leveledUp: leveledUp
       };
     });
   }
@@ -318,12 +403,15 @@
         });
         // Today's new cards = ready backlog + new primaries, capped by the budget.
         var newCardsToday = (model.newReady || []).concat(newlyReady).slice(0, Math.max(0, model.budget));
-        if (newCardsToday.length) {
-          model.path.newDaily.count += newCardsToday.length;
-          model.path.lastSessionAt = new Date().toISOString();
-          return window.SRSStore.savePathState(model.path).then(function () { return newCardsToday; });
-        }
-        return newCardsToday;
+        if (newCardsToday.length) model.path.newDaily.count += newCardsToday.length;
+        // A session is starting (the button is disabled when there is nothing to do),
+        // so always record it for the streak + last-session time.
+        model.path.lastSessionAt = new Date().toISOString();
+        markStudyDay(model.path);
+        return window.SRSStore.savePathState(model.path).then(
+          function () { return newCardsToday; },
+          function () { return newCardsToday; }
+        );
       })
       .then(function (newCardsToday) {
         var session = model.due.concat(newCardsToday);
@@ -336,9 +424,21 @@
       .then(function () { launching = false; });
   }
 
+  // Mark a single suggested item as already known. The granular, low-stakes
+  // counterpart to skipPicks — no dialog, just remove this one and re-render.
+  function skipOne(model, section, item) {
+    var key = itemKeyOf(section, item);
+    if (model.path.skippedItems.indexOf(key) === -1) model.path.skippedItems.push(key);
+    window.SRSStore.savePathState(model.path).then(render).catch(render);
+    if (window.app) window.app.playTick();
+  }
+
+  // Mark every current suggestion as already known. This is the broad stroke, so
+  // it keeps a confirmation (there is no un-skip UI); the per-item ✓ is the safe
+  // default for "I know this one".
   function skipPicks(model) {
     if (!model.picks.length) return;
-    if (!window.confirm('Diese ' + model.picks.length + ' Einträge als „kann ich schon“ markieren und überspringen?')) return;
+    if (!window.confirm('Alle ' + model.picks.length + ' Vorschläge als „kenne ich schon“ markieren?')) return;
     model.picks.forEach(function (p) {
       var key = itemKeyOf(p.section, p.item);
       if (model.path.skippedItems.indexOf(key) === -1) model.path.skippedItems.push(key);
@@ -390,6 +490,11 @@
 
       var warning = buildBackupWarning(model);
       if (warning) shell.appendChild(warning);
+
+      if (model.leveledUp) {
+        shell.appendChild(buildLevelUp(model));
+        if (window.app && window.app.playPop) window.app.playPop();
+      }
 
       shell.appendChild(buildFocus(model));
       shell.appendChild(buildNextUp(model));
@@ -467,10 +572,34 @@
     return box;
   }
 
+  function buildLevelUp(model) {
+    var box = el('div', 'path-levelup');
+    box.appendChild(el('div', 'path-levelup-head', '🎉 Stufe ' + model.leveledUp + ' erreicht!'));
+    box.appendChild(el('div', 'path-levelup-text',
+      'Du hast genug der vorherigen Stufe gemeistert — neue Inhalte auf ' + model.leveledUp + ' sind jetzt freigeschaltet.'));
+    return box;
+  }
+
+  function buildDoneCard(model) {
+    var box = el('div', 'path-done');
+    box.appendChild(el('div', 'path-done-head', '✓ Tagesziel erreicht'));
+    var streak = currentStreak(model.path);
+    box.appendChild(el('div', 'path-done-text', streak > 1
+      ? 'Stark — ' + streak + ' Tage in Folge. Komm morgen wieder, um die Serie zu halten.'
+      : 'Für heute ist alles erledigt. Morgen geht es weiter.'));
+    return box;
+  }
+
   function buildFocus(model) {
     var box = el('div', 'path-focus');
     box.appendChild(el('div', 'path-focus-label', 'Aktuelle Stufe'));
     box.appendChild(el('div', 'path-focus-level', model.progress.currentLevel));
+
+    var streak = currentStreak(model.path);
+    if (streak > 0) {
+      box.appendChild(el('div', 'path-streak',
+        '🔥 ' + streak + (streak === 1 ? ' Tag' : ' Tage') + ' in Folge'));
+    }
 
     var dueCount = model.due.length;
     // New cards introduced today = ready backlog + freshly started items, capped
@@ -493,14 +622,16 @@
 
     var stats = el('div', 'review-stats');
     stats.appendChild(statCard('Fällig', dueCount));
-    stats.appendChild(statCard('Neu heute', newToday));
+    // "Neu heute" as a goal gauge: introduced today vs. the daily new-card target.
+    stats.appendChild(progressStatCard('Neu heute', model.path.newDaily.count, model.settings.dailyNewLimit));
     stats.appendChild(statCard('Aktive Karten', activeCards.length));
     stats.appendChild(statCard('Schwach', weakCards.length));
     box.appendChild(stats);
 
     var actions = el('div', 'review-actions');
-    var learnBtn = el('button', 'quiz-btn quiz-btn-next',
-      'Heute lernen — ' + newToday + ' neue Karten · ' + dueCount + ' Wiederholungen');
+    var learnLabel = 'Heute lernen — ' + newToday + ' neue Karten · ' + dueCount + ' Wiederholungen';
+    if (newToday + dueCount > 0) learnLabel += ' · ~' + estimateMinutes(newToday, dueCount) + ' Min';
+    var learnBtn = el('button', 'quiz-btn quiz-btn-next', learnLabel);
     learnBtn.disabled = (newToday + dueCount) === 0;
     learnBtn.addEventListener('click', function () {
       if (window.app) window.app.playPop();
@@ -511,6 +642,7 @@
     var reviewBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Nur Wiederholen (' + dueCount + ')');
     reviewBtn.disabled = dueCount === 0;
     reviewBtn.addEventListener('click', function () {
+      recordStudyStart(model.path);
       window.SRSUI.startSession(model.due, true);
     });
     actions.appendChild(reviewBtn);
@@ -518,6 +650,7 @@
     var practiceBtn = el('button', 'quiz-btn quiz-btn-back', 'Alle aktiven Karten üben (' + activeCards.length + ')');
     practiceBtn.disabled = activeCards.length === 0;
     practiceBtn.addEventListener('click', function () {
+      recordStudyStart(model.path);
       window.SRSUI.startSession(activeCards, true);
     });
     actions.appendChild(practiceBtn);
@@ -526,9 +659,12 @@
     if (model.suppressedNew) {
       box.appendChild(el('div', 'review-empty-hint',
         'Viele Karten fällig — erst Wiederholungen aufholen, dann gibt es wieder neue Inhalte.'));
+    } else if (dueCount === 0 && newToday === 0 && model.path.newDaily.count > 0) {
+      // Nothing left for today and work was done — celebrate instead of a flat line.
+      box.appendChild(buildDoneCard(model));
     } else if (newToday === 0 && model.path.newDaily.count > 0) {
       box.appendChild(el('div', 'review-empty-hint',
-        'Tagesziel für neue Karten erreicht (' + model.path.newDaily.count + '). Morgen geht es weiter.'));
+        'Tagesziel für neue Karten erreicht (' + model.path.newDaily.count + '). Es bleiben noch Wiederholungen.'));
     }
     return box;
   }
@@ -573,36 +709,73 @@
     return box;
   }
 
+  var TYPE_LABEL = { kanji: 'Kanji', vocab: 'Vokabel', grammar: 'Grammatik' };
+
+  // One card in the "Als Nächstes" grid. opts.lockedNote (string) renders a
+  // greyed-out, non-skippable preview that explains why the item is still waiting.
+  function nextItemCard(p, model, opts) {
+    opts = opts || {};
+    var it = p.item;
+    var card = el('div', 'path-next-item' + (opts.lockedNote ? ' is-locked' : ''));
+
+    var open = el('button', 'path-next-open');
+    open.appendChild(el('span', 'path-chip path-chip-' + p.section, TYPE_LABEL[p.section] || p.section));
+    var main = p.section === 'kanji' ? it.kanji : (it.word || it.pattern || '');
+    open.appendChild(el('span', 'path-next-main' + (isJp(main) ? ' jp' : ''), main));
+    var sub = p.section === 'kanji' ? (it.meanings || []).join(', ') : (it.meaning || '');
+    if (sub) open.appendChild(el('span', 'path-next-sub', sub));
+    if (opts.lockedNote) open.appendChild(el('span', 'path-next-wait', opts.lockedNote));
+    open.addEventListener('click', function () { openItemDetail(p.section, it); });
+    card.appendChild(open);
+
+    if (!opts.lockedNote) {
+      var known = el('button', 'path-next-known', '✓');
+      known.title = 'Kenne ich schon';
+      known.setAttribute('aria-label', 'Kenne ich schon');
+      known.addEventListener('click', function (e) {
+        e.stopPropagation();
+        skipOne(model, p.section, it);
+      });
+      card.appendChild(known);
+    }
+    return card;
+  }
+
   function buildNextUp(model) {
     var box = el('div', 'path-next');
-    var title = el('div', 'path-section-title', 'Als Nächstes');
-    box.appendChild(title);
+    box.appendChild(el('div', 'path-section-title', 'Als Nächstes'));
 
-    if (!model.picks.length) {
+    var waiting = model.waiting || [];
+
+    if (!model.picks.length && !waiting.length) {
       box.appendChild(el('div', 'review-empty-hint',
         model.suppressedNew ? 'Neue Inhalte pausiert, bis die Wiederholungen aufgeholt sind.'
           : 'Aktuell keine neuen Inhalte vorgeschlagen.'));
       return box;
     }
 
-    var list = el('div', 'path-next-list');
-    var typeLabel = { kanji: 'Kanji', vocab: 'Vokabel', grammar: 'Grammatik' };
-    model.picks.forEach(function (p) {
-      var it = p.item;
-      var card = el('button', 'path-next-item');
-      card.appendChild(el('span', 'path-chip path-chip-' + p.section, typeLabel[p.section] || p.section));
-      var main = p.section === 'kanji' ? it.kanji : (it.word || it.pattern || '');
-      card.appendChild(el('span', 'path-next-main' + (isJp(main) ? ' jp' : ''), main));
-      var sub = p.section === 'kanji' ? (it.meanings || []).join(', ') : (it.meaning || '');
-      if (sub) card.appendChild(el('span', 'path-next-sub', sub));
-      card.addEventListener('click', function () { openItemDetail(p.section, it); });
-      list.appendChild(card);
-    });
-    box.appendChild(list);
+    if (model.picks.length) {
+      var list = el('div', 'path-next-list');
+      model.picks.forEach(function (p) { list.appendChild(nextItemCard(p, model)); });
+      box.appendChild(list);
 
-    var skip = el('button', 'srs-small-btn', 'Das kann ich schon');
-    skip.addEventListener('click', function () { skipPicks(model); });
-    box.appendChild(skip);
+      var skip = el('button', 'srs-small-btn', 'Alle als bekannt');
+      skip.addEventListener('click', function () { skipPicks(model); });
+      box.appendChild(skip);
+    }
+
+    // "Bald verfügbar" — vocab whose kanji you still need to learn first.
+    if (waiting.length) {
+      box.appendChild(el('div', 'path-next-subtitle', 'Bald verfügbar'));
+      var wlist = el('div', 'path-next-list');
+      waiting.forEach(function (w) {
+        var note = (w.blocking && w.blocking.length)
+          ? 'Wartet auf Kanji ' + w.blocking.join(' ')
+          : 'Wartet auf Voraussetzungen';
+        wlist.appendChild(nextItemCard({ section: w.section, item: w.item }, model, { lockedNote: note }));
+      });
+      box.appendChild(wlist);
+    }
     return box;
   }
 
@@ -771,8 +944,20 @@
       }));
 
     // Starting level: treat everything below as already known and begin here.
+    // Confirm first — it reclassifies every lower level as "vertraut" and visibly
+    // shifts the progress bars, and there is no per-item undo for that sweep.
     box.appendChild(makeSelectRow('Startniveau', 'path-start-level',
       LEVELS, model.path.startLevel || 'N5', null, function (value) {
+        var prev = model.path.startLevel || 'N5';
+        if (value === prev) return;
+        var raising = LEVELS.indexOf(value) > LEVELS.indexOf(prev);
+        var msg = raising
+          ? 'Startniveau auf ' + value + ' setzen?\n\nAlle Stufen unter ' + value
+            + ' gelten dann als „vertraut“ und die Fortschrittsanzeige ändert sich entsprechend. '
+            + 'Höhere Stufen folgen automatisch.'
+          : 'Startniveau auf ' + value + ' senken?\n\nStufen ab ' + value
+            + ' werden wieder als Lernstoff behandelt.';
+        if (!window.confirm(msg)) { render(); return; } // re-render restores the saved value
         model.path.startLevel = value;
         window.SRSStore.savePathState(model.path).then(render).catch(render);
       }));
@@ -881,10 +1066,13 @@
       pickNewItems: pickNewItems,
       newBudget: newBudget,
       vocabUnlocked: vocabUnlocked,
+      blockingKanji: blockingKanji,
       interleave: interleave,
       itemKeyOf: itemKeyOf,
       itemStatus: itemStatus,
-      lessonMatchesLevel: lessonMatchesLevel
+      lessonMatchesLevel: lessonMatchesLevel,
+      currentStreak: currentStreak,
+      markStudyDay: markStudyDay
     }
   };
 })();

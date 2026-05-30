@@ -239,6 +239,50 @@ function makeStoreContext(storage) {
   check('T13 current level starts at the chosen start level', progress.currentLevel === 'N4');
 })();
 
+// === T14: daily streak — extend, lapse, and stay idempotent within a day ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const dayStr = function (d) { return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); };
+  const yesterday = (function () { const d = new Date(); d.setDate(d.getDate() - 1); return dayStr(d); })();
+
+  // Fresh learner: first study day starts the streak at 1.
+  const fresh = eng.normalizePath(null);
+  eng.markStudyDay(fresh);
+  check('T14 first study day starts streak at 1', fresh.streakCount === 1);
+  check('T14 fresh streak is visible today', eng.currentStreak(fresh) === 1);
+
+  // Studying again the same day must not double-count.
+  eng.markStudyDay(fresh);
+  check('T14 same-day study is idempotent', fresh.streakCount === 1);
+
+  // Continuing from yesterday extends the streak.
+  const cont = eng.normalizePath({ streakLastDay: yesterday, streakCount: 5 });
+  check('T14 yesterday streak is still alive', eng.currentStreak(cont) === 5);
+  eng.markStudyDay(cont);
+  check('T14 continuing from yesterday extends the streak', cont.streakCount === 6);
+
+  // A gap of several days lapses the visible streak to 0.
+  const lapsed = eng.normalizePath({ streakLastDay: '2000-1-1', streakCount: 9 });
+  check('T14 a multi-day gap lapses the streak', eng.currentStreak(lapsed) === 0);
+})();
+
+// === T15: blockingKanji reports exactly the not-yet-learned kanji of a word ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const idx = {};
+  KANJI.forEach(function (k) { idx[k.kanji] = k; });
+
+  const coldMap = eng.mapFromCards([], eng.normalizePath(null));
+  check('T15 kana-only word has no blockers', eng.blockingKanji(VOCAB[0], idx, coldMap).length === 0); // かばん
+  const blockers = eng.blockingKanji(VOCAB[1], idx, coldMap); // 人
+  check('T15 kanji-bearing word is blocked by its kanji', blockers.length === 1 && blockers[0] === '人');
+
+  // Once the kanji is introduced, the word is no longer blocked.
+  const warm = makeContext([makeCard('kanji', KANJI[2], 'New', 0)], defaultSettings, null);
+  const warmMap = warm.eng.mapFromCards([makeCard('kanji', KANJI[2], 'New', 0)], warm.eng.normalizePath(null));
+  check('T15 word unblocks once its kanji is introduced', warm.eng.blockingKanji(VOCAB[1], idx, warmMap).length === 0);
+})();
+
 function finish() {
   console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
   process.exit(failures.length > 0 ? 1 : 0);
