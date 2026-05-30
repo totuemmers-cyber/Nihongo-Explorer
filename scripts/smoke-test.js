@@ -412,6 +412,11 @@ async function run() {
   assert(Array.from(backupWarning.querySelectorAll('button')).some(function (b) {
     return b.textContent.indexOf('exportieren') !== -1;
   }), 'backup warning offers an export action');
+
+  // The "So lerne ich" block exposes pace (new cards/day) and start-level controls.
+  assert(document.getElementById('path-new-per-day'), 'Lernpfad has a daily new-card pace control');
+  assert(document.getElementById('path-start-level'), 'Lernpfad has a start-level control');
+
   const dailyBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
     return btn.textContent.indexOf('Tagesfortschritt zurücksetzen') !== -1;
   });
