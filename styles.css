@@ -1726,6 +1726,89 @@ main {
 .path-legend-dot.seg-familiar { background: var(--accent); }
 .path-legend-dot.seg-learning { background: #d99a2b; }
 
+/* Extra status colours shared with the Statistik deck breakdown */
+.path-bar-seg.seg-new { background: var(--border); }
+.path-legend-dot.seg-new { background: var(--border); }
+.path-bar-seg.seg-suspended { background: #8a8a8a; }
+.path-legend-dot.seg-suspended { background: #8a8a8a; }
+
+/* === Statistik dashboard === */
+.stats-heatmap {
+  display: flex;
+  gap: 3px;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.stats-heat-col {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.stats-heat-cell {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background: var(--border);
+  flex: none;
+}
+
+.stats-heat-cell.heat-0 { background: var(--border); }
+.stats-heat-cell.heat-1 { background: rgba(46, 158, 91, 0.35); }
+.stats-heat-cell.heat-2 { background: rgba(46, 158, 91, 0.55); }
+.stats-heat-cell.heat-3 { background: rgba(46, 158, 91, 0.78); }
+.stats-heat-cell.heat-4 { background: #2e9e5b; }
+
+.stats-heat-legend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.stats-heat-legend .stats-heat-cell { display: inline-block; }
+
+.stats-forecast {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.stats-forecast-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stats-forecast-label {
+  width: 3.5rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.stats-forecast-track {
+  flex: 1;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--border);
+  overflow: hidden;
+}
+
+.stats-forecast-fill {
+  height: 100%;
+  background: var(--accent);
+}
+
+.stats-forecast-count {
+  width: 2.5rem;
+  text-align: right;
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
 /* Grammar lessons block */
 .path-lessons-list {
   display: flex;

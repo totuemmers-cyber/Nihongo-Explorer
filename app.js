@@ -360,6 +360,7 @@
   var quizTab = document.getElementById('quiz-tab');
   var reviewTab = document.getElementById('review-tab');
   var pathTab = document.getElementById('path-tab');
+  var statsTab = document.getElementById('stats-tab');
   var activeKanaMode = 'hiragana';
 
   // Section names that have controls + tab panels
@@ -375,6 +376,7 @@
     if (name === 'quiz') return quizTab;
     if (name === 'review') return reviewTab;
     if (name === 'path') return pathTab;
+    if (name === 'stats') return statsTab;
     return tabPanels[name] || null;
   }
 
@@ -609,6 +611,7 @@
     if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
     if (reviewTab) reviewTab.classList.toggle('hidden', tab !== 'review');
     if (pathTab) pathTab.classList.toggle('hidden', tab !== 'path');
+    if (statsTab) statsTab.classList.toggle('hidden', tab !== 'stats');
   }
 
   function showSectionTabWhenReady(tab) {
@@ -664,6 +667,12 @@
 
     if (tab === 'path') {
       if (window.LearningPath) window.LearningPath.onTabActivate();
+      updateCount();
+      return;
+    }
+
+    if (tab === 'stats') {
+      if (window.Stats) window.Stats.onTabActivate();
       updateCount();
       return;
     }
@@ -926,6 +935,13 @@
     if (e.key === 'p') {
       e.preventDefault();
       switchTab('path');
+      return;
+    }
+
+    // Statistik: s
+    if (e.key === 's') {
+      e.preventDefault();
+      switchTab('stats');
       return;
     }
 

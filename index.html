@@ -72,6 +72,10 @@
           <span class="tab-icon-kana">試</span>
           Quiz
         </button>
+        <button class="tab-btn" data-tab="stats">
+          <span class="tab-icon-kana">統</span>
+          Statistik
+        </button>
         <div class="tab-indicator"></div>
       </nav>
       <!-- Kanji Tab Controls -->
@@ -375,6 +379,10 @@
       <div id="review-tab" class="tab-panel hidden">
         <div id="review-content" class="review-content"></div>
       </div>
+      <!-- Statistik Tab Content -->
+      <div id="stats-tab" class="tab-panel hidden">
+        <div id="stats-content" class="review-content"></div>
+      </div>
     </main>
 
     <div id="detail-overlay" class="detail-overlay hidden">
@@ -641,6 +649,7 @@
       <div class="help-shortcuts">
         <div class="help-row"><kbd>1</kbd>–<kbd>9</kbd><span>Tab wechseln</span></div>
         <div class="help-row"><kbd>p</kbd><span>Lernpfad</span></div>
+        <div class="help-row"><kbd>s</kbd><span>Statistik</span></div>
         <div class="help-row"><kbd>/</kbd><span>Suche fokussieren</span></div>
         <div class="help-row"><kbd>r</kbd><span>Zufälliger Eintrag</span></div>
         <div class="help-row"><kbd>?</kbd><span>Diese Hilfe anzeigen</span></div>
@@ -663,6 +672,7 @@
   <script src="srs-store.js"></script>
   <script src="srs-ui.js"></script>
   <script src="learning-path.js"></script>
+  <script src="stats.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

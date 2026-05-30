@@ -464,6 +464,16 @@ async function run() {
     return box && box.textContent.indexOf('Aktive Karten:') !== -1;
   }, { description: 'diagnostics reports card counts' });
 
+  // === Statistik dashboard renders from the existing card/event data ===
+  click(document.querySelector('[data-tab="stats"]'), window);
+  await waitFor(function () {
+    return document.querySelector('#stats-content .review-stats') &&
+      document.querySelector('#stats-content .stats-heatmap') &&
+      document.querySelector('#stats-content .stats-forecast');
+  }, { description: 'Statistik tab renders summary, activity heatmap and forecast' });
+  // The settings DOM stays in #review-content (just hidden behind the Statistik tab),
+  // so its reset button is still queryable below — no need to re-open settings.
+
   const resetBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
     return btn.textContent.indexOf('Gesamten Fortschritt zurücksetzen') !== -1;
   });
