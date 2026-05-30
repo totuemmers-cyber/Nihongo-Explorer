@@ -11,6 +11,10 @@
   var META_STORE = 'meta';
   var FALLBACK_KEY = 'nihongo-srs-fallback-v1';
   var BACKUP_SCHEMA_VERSION = 1;
+  // Cap the review-history log so it can't grow without bound (it would bloat the
+  // DB, the localStorage fallback, and every backup file). Only the most recent
+  // events are kept; cards remain the source of truth for scheduling.
+  var EVENT_CAP = 2000;
   var dbPromise = null;
   var pendingBackupTimer = null;
   var fallbackState = null;
@@ -84,9 +88,10 @@
 
   function saveFallback() {
     if (!fallbackState) return;
-    try {
-      localStorage.setItem(FALLBACK_KEY, JSON.stringify(fallbackState));
-    } catch (e) {}
+    // Intentionally NOT swallowing errors: a failed write (e.g. localStorage
+    // quota in fallback mode) must surface so callers can warn the user, the
+    // same way the IndexedDB path rejects its transaction on failure.
+    localStorage.setItem(FALLBACK_KEY, JSON.stringify(fallbackState));
   }
 
   function getMeta(key) {
@@ -228,6 +233,41 @@
         return Object.keys(events).map(function (key) { return clone(events[key]); });
       }
       return reqToPromise(getStore(db, EVENT_STORE).getAll());
+    });
+  }
+
+  // Keep only the most recent `max` events; delete the older ones. Runs once per
+  // session on init (cheap, since the over-cap case is rare).
+  function pruneEvents(max) {
+    return getAllEvents().then(function (events) {
+      if (!events || events.length <= max) return 0;
+      var sorted = events.slice().sort(function (a, b) {
+        return new Date(b.reviewedAt || 0).getTime() - new Date(a.reviewedAt || 0).getTime();
+      });
+      var toDelete = sorted.slice(max); // everything older than the newest `max`
+      return openDb().then(function (db) {
+        if (!db) {
+          var state = loadFallback();
+          toDelete.forEach(function (e) { delete state.events[e.eventId]; });
+          saveFallback();
+          return toDelete.length;
+        }
+        var tx = db.transaction(EVENT_STORE, 'readwrite');
+        var store = tx.objectStore(EVENT_STORE);
+        toDelete.forEach(function (e) { store.delete(e.eventId); });
+        return txComplete(tx).then(function () { return toDelete.length; });
+      });
+    });
+  }
+
+  var eventsPruned = false;
+  function initStore() {
+    return openDb().then(function (db) {
+      if (!eventsPruned) {
+        eventsPruned = true;
+        pruneEvents(EVENT_CAP).catch(function () {}); // best-effort, don't block init
+      }
+      return db;
     });
   }
 
@@ -493,7 +533,8 @@
   }
 
   window.SRSStore = {
-    init: openDb,
+    init: initStore,
+    pruneEvents: pruneEvents,
     getAllCards: getAllCards,
     getCardsByItem: getCardsByItem,
     putCards: putCards,

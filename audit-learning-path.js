@@ -118,11 +118,22 @@ function fakeLocalStorage() {
   };
 }
 
-function makeStoreContext() {
+// A localStorage whose writes always fail (simulates quota exhaustion).
+function throwingLocalStorage() {
+  var s = {};
+  return {
+    getItem: function (k) { return Object.prototype.hasOwnProperty.call(s, k) ? s[k] : null; },
+    setItem: function () { throw new Error('QuotaExceededError'); },
+    removeItem: function (k) { delete s[k]; },
+    clear: function () { s = {}; }
+  };
+}
+
+function makeStoreContext(storage) {
   const window = {};
   const context = {
     window, console, Promise, Date, Math, JSON, setTimeout, clearTimeout,
-    localStorage: fakeLocalStorage(), navigator: {}
+    localStorage: storage || fakeLocalStorage(), navigator: {}
   };
   vm.createContext(context);
   vm.runInContext(fs.readFileSync(path.join(__dirname, 'srs-scheduler.js'), 'utf8'), context, { filename: 'srs-scheduler.js' });
@@ -241,6 +252,43 @@ function diagnosticsTest() {
   });
 }
 
+// === T11: pruneEvents keeps only the most recent events ===
+function pruneTest() {
+  const store = makeStoreContext();
+  const mk = function (id, daysAgo) {
+    return { eventId: id, cardKey: 'k#m', itemKey: 'k', reviewedAt: new Date(Date.now() - daysAgo * DAY).toISOString() };
+  };
+  // e0 is newest (0 days ago) ... e4 is oldest (4 days ago)
+  return Promise.all([0, 1, 2, 3, 4].map(function (i) { return store.addEvent(mk('e' + i, i)); }))
+    .then(function () { return store.pruneEvents(3); })
+    .then(function (deleted) {
+      check('T11 pruneEvents deletes the overflow', deleted === 2);
+      return store.getAllEvents();
+    })
+    .then(function (events) {
+      check('T11 pruneEvents keeps exactly the cap', events.length === 3);
+      const ids = events.map(function (e) { return e.eventId; });
+      check('T11 pruneEvents keeps the newest events',
+        ids.indexOf('e0') !== -1 && ids.indexOf('e1') !== -1 && ids.indexOf('e2') !== -1);
+      check('T11 pruneEvents drops the oldest events',
+        ids.indexOf('e3') === -1 && ids.indexOf('e4') === -1);
+    });
+}
+
+// === T12: a failed fallback write rejects (surfaces) instead of being swallowed ===
+function fallbackErrorTest() {
+  const store = makeStoreContext(throwingLocalStorage());
+  const card = {
+    cardKey: 'kanji:一#meaning', itemKey: 'kanji:一', section: 'kanji',
+    state: 'New', dueAt: new Date().toISOString(), updatedAt: new Date().toISOString()
+  };
+  return store.putCards([card]).then(function () {
+    check('T12 putCards rejects when the fallback write fails', false);
+  }, function () {
+    check('T12 putCards rejects when the fallback write fails', true);
+  });
+}
+
 // === T7/T8: resetProgress + export/import round-trip on the real SRSStore ===
 (function () {
   const store = makeStoreContext();
@@ -277,6 +325,8 @@ function diagnosticsTest() {
       check('T8 import restores pathState', !!p[1] && p[1].newDaily.count === 5 && p[1].readLessons.length === 1);
       return diagnosticsTest();
     })
+    .then(function () { return pruneTest(); })
+    .then(function () { return fallbackErrorTest(); })
     .then(function () { finish(); })
     .catch(function (e) { failures.push('store-tests-threw: ' + (e && e.message)); finish(); });
 })();
