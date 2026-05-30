@@ -221,6 +221,18 @@
     return { levels: levels, currentLevel: current, targetLevel: target };
   }
 
+  // Decide whether a level-up is worth celebrating. Only a rise ABOVE a stored
+  // baseline counts; a null baseline (first run, or after a Startniveau change that
+  // resets it) is adopted silently, so settings tweaks never trigger a false banner.
+  function decideLevelUp(prevSeenLevel, currentLevel) {
+    var seenIdx = LEVELS.indexOf(prevSeenLevel);
+    var curIdx = LEVELS.indexOf(currentLevel);
+    return {
+      leveledUp: (seenIdx >= 0 && curIdx > seenIdx) ? currentLevel : null,
+      seenLevel: currentLevel
+    };
+  }
+
   // --- Kanji -> vocab prerequisite gate ---
   // The kanji (still 'new') inside a word that keep it gated. Empty => unlocked.
   function blockingKanji(v, kanjiIndex, map) {
@@ -271,7 +283,7 @@
       (vocabUnlocked(v, kanjiIndex, map) ? gatedVocab : waitVocab).push({ section: 'vocab', item: v });
     });
 
-    return { newKanji: newKanji, newGrammar: newGrammar, gatedVocab: gatedVocab, waitVocab: waitVocab };
+    return { newKanji: newKanji, newGrammar: newGrammar, gatedVocab: gatedVocab, waitVocab: waitVocab, kanjiIndex: kanjiIndex };
   }
 
   // Weighted round-robin: pull up to `budget` items across queues by weight.
@@ -292,9 +304,11 @@
     return result;
   }
 
-  function pickNewItems(level, map, budget) {
+  // `queues` is optional: pass a pre-computed frontierQueues(level, map) to avoid
+  // recomputing it (loadModel already needs the queues for the waiting preview).
+  function pickNewItems(level, map, budget, queues) {
     if (budget <= 0) return [];
-    var q = frontierQueues(level, map);
+    var q = queues || frontierQueues(level, map);
     var items = interleave(
       [q.newKanji.slice(), q.gatedVocab.slice(), q.newGrammar.slice()],
       [MIX_WEIGHTS.kanji, MIX_WEIGHTS.vocab, MIX_WEIGHTS.grammar],
@@ -337,21 +351,15 @@
       var backup = parts[3];
       var map = mapFromCards(cards, path);
       var progress = computeProgress(map, path);
-      // Detect a level-up since the last time the path was rendered. First run after
-      // this feature ships (seenLevel == null) adopts the current level silently so
-      // existing learners aren't congratulated for progress they already made.
-      var leveledUp = null;
-      var curIdx = LEVELS.indexOf(progress.currentLevel);
-      var seenIdx = LEVELS.indexOf(path.seenLevel);
-      if (seenIdx < 0) {
-        path.seenLevel = progress.currentLevel;
-      } else if (curIdx > seenIdx) {
-        leveledUp = progress.currentLevel;
-        path.seenLevel = progress.currentLevel;
-      } else if (curIdx < seenIdx) {
-        path.seenLevel = progress.currentLevel; // moved down (e.g. start level lowered)
-      }
-      if (path.seenLevel !== (parts[2] && parts[2].seenLevel)) {
+      // Level-up detection. Persist the re-based seenLevel only when a baseline
+      // already existed or a real level-up fired — never write a phantom pathState
+      // just because a brand-new user opened the tab (a null baseline adopts the
+      // current level in memory and gets persisted on their first real action).
+      var prevSeen = parts[2] ? parts[2].seenLevel : null;
+      var lv = decideLevelUp(path.seenLevel, progress.currentLevel);
+      var leveledUp = lv.leveledUp;
+      path.seenLevel = lv.seenLevel;
+      if (path.seenLevel !== prevSeen && (prevSeen != null || leveledUp)) {
         window.SRSStore.savePathState(path).catch(function () {});
       }
       var due = dueSorted(cards, settings.dailyReviewLimit);
@@ -364,17 +372,16 @@
         cards.filter(function (c) { return window.SRSScheduler.isNewReady(c); })
       );
       var itemsToStart = Math.max(0, budget - newReady.length);
-      var picks = pickNewItems(progress.currentLevel, map, itemsToStart);
+      // Compute the frontier once and reuse it for both picks and the waiting preview
+      // (pickNewItems only reads slices of the queues, so they stay intact here).
+      var queues = frontierQueues(progress.currentLevel, map);
+      var picks = pickNewItems(progress.currentLevel, map, itemsToStart, queues);
       // A short preview of vocab still gated by not-yet-learned kanji, so the path
       // explains *why* it isn't suggesting these yet instead of silently hiding them.
       var suppressedNew = due.length >= settings.dailyReviewLimit;
-      var waiting = [];
-      if (!suppressedNew) {
-        var kanjiIndex = (typeof getKanjiByChar === 'function') ? getKanjiByChar() : {};
-        waiting = frontierQueues(progress.currentLevel, map).waitVocab.slice(0, 4).map(function (p) {
-          return { section: 'vocab', item: p.item, blocking: blockingKanji(p.item, kanjiIndex, map) };
-        });
-      }
+      var waiting = suppressedNew ? [] : queues.waitVocab.slice(0, 4).map(function (p) {
+        return { section: 'vocab', item: p.item, blocking: blockingKanji(p.item, queues.kanjiIndex, map) };
+      });
       return {
         cards: cards, settings: settings, path: path, map: map,
         progress: progress, due: due, picks: picks, waiting: waiting,
@@ -403,20 +410,20 @@
         });
         // Today's new cards = ready backlog + new primaries, capped by the budget.
         var newCardsToday = (model.newReady || []).concat(newlyReady).slice(0, Math.max(0, model.budget));
+        var session = model.due.concat(newCardsToday);
+        // Only count the day toward the streak once there is a real session to run —
+        // an empty/stale launch must not pad the streak or the daily counter.
+        if (!session.length) { render(); return null; }
         if (newCardsToday.length) model.path.newDaily.count += newCardsToday.length;
-        // A session is starting (the button is disabled when there is nothing to do),
-        // so always record it for the streak + last-session time.
         model.path.lastSessionAt = new Date().toISOString();
         markStudyDay(model.path);
         return window.SRSStore.savePathState(model.path).then(
-          function () { return newCardsToday; },
-          function () { return newCardsToday; }
+          function () { return session; },
+          function () { return session; }
         );
       })
-      .then(function (newCardsToday) {
-        var session = model.due.concat(newCardsToday);
-        if (!session.length) { render(); return; }
-        window.SRSUI.startSession(session, true);
+      .then(function (session) {
+        if (session) window.SRSUI.startSession(session, true);
       })
       .catch(function () {
         if (btn) { btn.disabled = false; btn.textContent = 'Fehler — bitte erneut versuchen'; }
@@ -622,8 +629,10 @@
 
     var stats = el('div', 'review-stats');
     stats.appendChild(statCard('Fällig', dueCount));
-    // "Neu heute" as a goal gauge: introduced today vs. the daily new-card target.
-    stats.appendChild(progressStatCard('Neu heute', model.path.newDaily.count, model.settings.dailyNewLimit));
+    // Daily goal gauge: new cards introduced today vs. the daily target. Labelled
+    // "Tagesziel" (not "Neu heute") so it doesn't clash with the button's
+    // this-session new-card count.
+    stats.appendChild(progressStatCard('Tagesziel', model.path.newDaily.count, model.settings.dailyNewLimit));
     stats.appendChild(statCard('Aktive Karten', activeCards.length));
     stats.appendChild(statCard('Schwach', weakCards.length));
     box.appendChild(stats);
@@ -959,6 +968,9 @@
             + ' werden wieder als Lernstoff behandelt.';
         if (!window.confirm(msg)) { render(); return; } // re-render restores the saved value
         model.path.startLevel = value;
+        // Reset the level-up baseline: the resulting currentLevel jump is a settings
+        // effect, not learning, so the next render adopts it silently (no false banner).
+        model.path.seenLevel = null;
         window.SRSStore.savePathState(model.path).then(render).catch(render);
       }));
     box.appendChild(el('div', 'path-adjust-hint',
@@ -1072,7 +1084,8 @@
       itemStatus: itemStatus,
       lessonMatchesLevel: lessonMatchesLevel,
       currentStreak: currentStreak,
-      markStudyDay: markStudyDay
+      markStudyDay: markStudyDay,
+      decideLevelUp: decideLevelUp
     }
   };
 })();

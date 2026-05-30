@@ -283,6 +283,27 @@ function makeStoreContext(storage) {
   check('T15 word unblocks once its kanji is introduced', warm.eng.blockingKanji(VOCAB[1], idx, warmMap).length === 0);
 })();
 
+// === T16: level-up only fires above a stored baseline (no settings-driven banners) ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+
+  // No baseline yet (fresh user / after a Startniveau reset): adopt silently.
+  const fresh = eng.decideLevelUp(null, 'N4');
+  check('T16 null baseline adopts current level silently', fresh.leveledUp === null && fresh.seenLevel === 'N4');
+
+  // Genuine rise above a stored baseline celebrates and re-bases.
+  const up = eng.decideLevelUp('N5', 'N4');
+  check('T16 rising above the baseline fires the banner', up.leveledUp === 'N4' && up.seenLevel === 'N4');
+
+  // Same level: nothing to celebrate.
+  const same = eng.decideLevelUp('N4', 'N4');
+  check('T16 same level does not fire', same.leveledUp === null && same.seenLevel === 'N4');
+
+  // Moving down (e.g. start level lowered) re-bases without a banner.
+  const down = eng.decideLevelUp('N3', 'N4');
+  check('T16 moving down re-bases without a banner', down.leveledUp === null && down.seenLevel === 'N4');
+})();
+
 function finish() {
   console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
   process.exit(failures.length > 0 ? 1 : 0);
