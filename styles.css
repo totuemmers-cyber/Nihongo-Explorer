@@ -1354,6 +1354,30 @@ main {
   padding: 1.5rem;
 }
 
+/* The Lernpfad dashboard uses the full width like the section tabs (the capped,
+   centered .review-content layout is kept only for the single-card review
+   session). Hero blocks span the full width; the overview panels tile across
+   the remaining space instead of leaving a large unused margin. */
+#path-content {
+  max-width: none;
+  margin: 0;
+  padding: 20px 16px 60px;
+}
+
+#path-content .review-shell {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+
+#path-content .review-header,
+#path-content .path-backup-warning,
+#path-content .path-focus,
+#path-content .path-next {
+  grid-column: 1 / -1;
+}
+
 /* === Lernpfad (Learning Path) === */
 .path-focus,
 .path-progress,

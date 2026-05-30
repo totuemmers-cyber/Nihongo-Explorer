@@ -377,8 +377,8 @@
       if (warning) shell.appendChild(warning);
 
       shell.appendChild(buildFocus(model));
-      shell.appendChild(buildProgress(model));
       shell.appendChild(buildNextUp(model));
+      shell.appendChild(buildProgress(model));
       shell.appendChild(buildLessons(model));
       shell.appendChild(buildAdjust(model));
 
