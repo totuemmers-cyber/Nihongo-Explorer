@@ -2016,9 +2016,54 @@ main {
 }
 
 .review-answer.hidden,
-.review-grade-row.hidden {
+.review-grade-row.hidden,
+.review-input-row.hidden {
   display: none;
 }
+
+/* Typed-answer review mode */
+.review-input-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.review-answer-input {
+  flex: 1 1 14rem;
+  min-width: 10rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.review-answer-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.review-answer-input.shake {
+  animation: review-shake 0.4s;
+  border-color: #d99a2b;
+}
+
+@keyframes review-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+.review-input-feedback {
+  font-size: 0.9rem;
+  min-height: 1.2em;
+}
+
+.review-input-feedback.is-correct { color: #2e9e5b; font-weight: 700; }
+.review-input-feedback.is-near { color: #d99a2b; }
+.review-input-feedback.is-wrong { color: var(--n2, #d9534f); }
 
 .review-answer-label {
   color: var(--text-secondary);

@@ -9,6 +9,8 @@
   var queue = [];
   var currentCard = null;
   var revealed = false;
+  var answerMode = 'reveal';   // 'reveal' = self-grade; 'type' = typed answer + checking
+  var session = null;          // per-session tally for the end-of-session summary
   var detailRefreshCallbacks = {};
 
   var STATE_LABELS = {
@@ -583,10 +585,14 @@
 
   function loadQueue(cards, includeNotDue) {
     init().then(function () {
+      return window.SRSStore.getSettings();
+    }).then(function (settings) {
+      answerMode = (settings && settings.answerMode) || 'reveal';
       var selected = includeNotDue ? cards.slice() : cards.filter(function (card) {
         return window.SRSScheduler.isDue(card);
       });
       queue = window.SRSScheduler.sortQueue(selected);
+      session = { reviewed: 0, correct: 0, again: 0 };
       currentCard = null;
       revealed = false;
       renderNextReview();
@@ -597,6 +603,7 @@
     if (!ensurePanel()) return;
     if (!queue.length) {
       updateReviewBadge();
+      if (session && session.reviewed > 0) { renderSummary(); return; }
       returnToPath();
       return;
     }
@@ -623,15 +630,6 @@
     wrap.appendChild(answer);
 
     var actions = el('div', 'quiz-browse-actions');
-    var revealBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Antwort anzeigen');
-    revealBtn.addEventListener('click', function () {
-      revealed = true;
-      answer.classList.remove('hidden');
-      revealBtn.classList.add('hidden');
-      gradeRow.classList.remove('hidden');
-      if (q.speechText && window.app) window.app.speakJP(q.speechText);
-    });
-    actions.appendChild(revealBtn);
 
     var gradeRow = el('div', 'review-grade-row hidden');
     ['Again', 'Hard', 'Good', 'Easy'].forEach(function (grade) {
@@ -639,7 +637,75 @@
       btn.addEventListener('click', function () { gradeCurrentCard(grade); });
       gradeRow.appendChild(btn);
     });
-    actions.appendChild(gradeRow);
+
+    function revealAnswer(showGrades) {
+      revealed = true;
+      answer.classList.remove('hidden');
+      if (showGrades) gradeRow.classList.remove('hidden');
+      if (q.speechText && window.app) window.app.speakJP(q.speechText);
+    }
+
+    var typed = answerMode === 'type' && window.AnswerCheck && window.AnswerCheck.isCheckable(currentCard);
+    if (typed) {
+      var acc = window.AnswerCheck.acceptedAnswers(currentCard);
+      var inputRow = el('div', 'review-input-row');
+      var input = el('input', 'review-answer-input');
+      input.type = 'text';
+      input.setAttribute('autocomplete', 'off');
+      input.setAttribute('autocapitalize', 'off');
+      input.setAttribute('spellcheck', 'false');
+      input.placeholder = (acc && acc.kind === 'kana') ? 'Antwort (Rōmaji oder Kana)…' : 'Antwort…';
+      var feedback = el('div', 'review-input-feedback');
+      var checkBtn = el('button', 'quiz-btn quiz-btn-next', 'Prüfen');
+      var showBtn = el('button', 'quiz-btn quiz-btn-back', 'Antwort zeigen');
+
+      function submitTyped() {
+        if (revealed) return;
+        var res = window.AnswerCheck.checkAnswer(input.value, currentCard);
+        if (!res) { revealAnswer(true); inputRow.classList.add('hidden'); return; }
+        if (res.correct) {
+          feedback.textContent = 'Richtig ✓';
+          feedback.className = 'review-input-feedback is-correct';
+          input.disabled = true;
+          revealAnswer(false);
+          gradeCurrentCard('Good');
+        } else if (res.near) {
+          feedback.textContent = 'Fast richtig – Tippfehler? Bitte korrigieren.';
+          feedback.className = 'review-input-feedback is-near';
+          input.classList.add('shake');
+          setTimeout(function () { input.classList.remove('shake'); }, 400);
+          input.focus();
+          input.select();
+        } else {
+          feedback.textContent = 'Nicht ganz – sieh dir die Antwort an und bewerte selbst.';
+          feedback.className = 'review-input-feedback is-wrong';
+          inputRow.classList.add('hidden');
+          revealAnswer(true);
+        }
+      }
+
+      checkBtn.addEventListener('click', submitTyped);
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') { e.preventDefault(); submitTyped(); }
+      });
+      showBtn.addEventListener('click', function () { inputRow.classList.add('hidden'); revealAnswer(true); });
+
+      inputRow.appendChild(input);
+      inputRow.appendChild(checkBtn);
+      inputRow.appendChild(showBtn);
+      actions.appendChild(inputRow);
+      actions.appendChild(feedback);
+      actions.appendChild(gradeRow);
+      setTimeout(function () { input.focus(); }, 0);
+    } else {
+      var revealBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Antwort anzeigen');
+      revealBtn.addEventListener('click', function () {
+        revealBtn.classList.add('hidden');
+        revealAnswer(true);
+      });
+      actions.appendChild(revealBtn);
+      actions.appendChild(gradeRow);
+    }
 
     var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
     backBtn.addEventListener('click', renderHome);
@@ -672,6 +738,54 @@
     }
   }
 
+  function dayStr(d) { return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
+  function streakOf(path) {
+    if (!path || !path.streakLastDay) return 0;
+    var today = dayStr(new Date());
+    var y = new Date(); y.setDate(y.getDate() - 1);
+    if (path.streakLastDay === today || path.streakLastDay === dayStr(y)) return path.streakCount || 0;
+    return 0;
+  }
+
+  // End-of-session summary shown when the queue empties (1C). Mirrors WaniKani/Bunpro:
+  // accuracy + counts + the current streak, then a single button back to the Lernpfad.
+  function renderSummary() {
+    if (!ensurePanel()) return;
+    var s = session || { reviewed: 0, correct: 0, again: 0 };
+    session = null;
+    panel.innerHTML = '';
+    var shell = el('div', 'review-shell');
+    var header = el('div', 'review-header');
+    header.appendChild(el('div', 'review-title', 'Session abgeschlossen'));
+    header.appendChild(el('div', 'review-subtitle', 'Gut gemacht — hier ist dein Ergebnis.'));
+    shell.appendChild(header);
+
+    var rate = s.reviewed ? Math.round(s.correct / s.reviewed * 100) : 0;
+    var stats = el('div', 'review-stats');
+    stats.appendChild(statCard('Karten', s.reviewed));
+    stats.appendChild(statCard('Richtig', rate + '%'));
+    stats.appendChild(statCard('Nochmal', s.again));
+    shell.appendChild(stats);
+
+    var actions = el('div', 'review-actions');
+    var cont = el('button', 'quiz-btn quiz-btn-next', 'Weiter zum Lernpfad');
+    cont.addEventListener('click', returnToPath);
+    actions.appendChild(cont);
+    shell.appendChild(actions);
+
+    // Streak (set by the Lernpfad when the session launched) — inserted once known.
+    window.SRSStore.getPathState().then(function (p) {
+      var streak = streakOf(p);
+      if (streak > 0) {
+        shell.insertBefore(el('div', 'review-empty-hint',
+          '🔥 ' + streak + (streak === 1 ? ' Tag' : ' Tage') + ' in Folge'), actions);
+      }
+    }).catch(function () {});
+
+    panel.appendChild(shell);
+    if (window.app && window.app.playPop) window.app.playPop();
+  }
+
   function gradeCurrentCard(grade) {
     if (!currentCard) return;
     var previous = currentCard;
@@ -681,6 +795,10 @@
       return window.SRSStore.addEvent(event);
     }).then(function () {
       notifyDetailRefresh(next.itemKey);
+      if (session) {
+        session.reviewed++;
+        if (grade === 'Again') session.again++; else session.correct++;
+      }
       if (window.app) {
         if (grade === 'Again') window.app.playTick();
         else window.app.playPop();
@@ -733,6 +851,33 @@
     panel.innerHTML = '';
     var shell = el('div', 'review-shell');
     shell.appendChild(el('div', 'review-title', 'Sicherung & Einstellungen'));
+
+    var learnBox = el('div', 'review-settings-box');
+    learnBox.appendChild(el('h3', null, 'Lernen'));
+    learnBox.appendChild(el('div', 'review-backup-status',
+      'Antwortmodus beim Wiederholen: selbst aufdecken und bewerten, oder die Antwort tippen und automatisch prüfen lassen.'));
+    window.SRSStore.getSettings().then(function (settings) {
+      var row = el('div', 'path-adjust-row');
+      var label = el('label', 'path-adjust-label', 'Antwortmodus');
+      label.setAttribute('for', 'srs-answer-mode');
+      var sel = el('select', 'path-target-select');
+      sel.id = 'srs-answer-mode';
+      [['reveal', 'Selbstkontrolle (aufdecken)'], ['type', 'Tippen & prüfen']].forEach(function (opt) {
+        var o = el('option', null, opt[1]);
+        o.value = opt[0];
+        if ((settings.answerMode || 'reveal') === opt[0]) o.selected = true;
+        sel.appendChild(o);
+      });
+      sel.addEventListener('change', function () {
+        settings.answerMode = sel.value;
+        answerMode = sel.value;
+        window.SRSStore.saveSettings(settings).catch(function () {});
+      });
+      row.appendChild(label);
+      row.appendChild(sel);
+      learnBox.appendChild(row);
+    });
+    shell.appendChild(learnBox);
 
     var backupBox = el('div', 'review-settings-box');
     backupBox.appendChild(el('h3', null, 'Sicherung'));

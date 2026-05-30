@@ -29,7 +29,8 @@
       dailyNewLimit: 20,
       dailyReviewLimit: 120,
       autoAddMissedQuizItems: false,
-      backupBookmarks: true
+      backupBookmarks: true,
+      answerMode: 'reveal' // 'reveal' = self-grade; 'type' = typed answer with checking
     };
   }
 

@@ -399,6 +399,67 @@ async function run() {
       document.querySelector('#review-content .review-card-wrap');
   }, { description: 'Lernpfad launches a study session into the review runner' });
 
+  // === 1C: drive the self-grade session to completion -> end-of-session summary ===
+  async function advanceCard() {
+    const wrap = document.querySelector('#review-content .review-card-wrap');
+    if (!wrap) return false;
+    const revealBtn = Array.from(wrap.querySelectorAll('button')).find(function (b) { return b.textContent === 'Antwort anzeigen'; });
+    if (revealBtn && !revealBtn.classList.contains('hidden')) click(revealBtn, window);
+    const before = (wrap.querySelector('.quiz-prompt-main') || {}).textContent;
+    const goodBtn = wrap.querySelector('.review-grade-btn.grade-good');
+    assert(goodBtn, 'review card exposes a grade button');
+    click(goodBtn, window);
+    await waitFor(function () {
+      const w = document.querySelector('#review-content .review-card-wrap');
+      return !w || (w.querySelector('.quiz-prompt-main') || {}).textContent !== before;
+    }, { description: 'review advances after grading', timeoutMs: 5000 });
+    return true;
+  }
+  let drainGuard = 0;
+  while (document.querySelector('#review-content .review-card-wrap') && drainGuard < 120) {
+    drainGuard++;
+    await advanceCard();
+  }
+  await waitFor(function () {
+    const t = document.querySelector('#review-content .review-title');
+    return t && t.textContent.indexOf('Session abgeschlossen') !== -1;
+  }, { description: 'finished session shows an end-of-session summary' });
+  assert(document.querySelector('#review-content .review-stats'), 'summary shows result stats');
+  const contBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (b) {
+    return b.textContent.indexOf('Weiter zum Lernpfad') !== -1;
+  });
+  assert(contBtn, 'summary offers a "Weiter zum Lernpfad" button');
+  click(contBtn, window);
+  await waitFor(function () {
+    return window.app.activeTab === 'path' &&
+      Array.from(document.querySelectorAll('#path-content button')).some(function (b) { return b.textContent.indexOf('Alle aktiven Karten üben') !== -1; });
+  }, { description: 'summary returns to the Lernpfad' });
+
+  // === 1A: typed answer mode shows an input for checkable cards ===
+  const typeSettings = await window.SRSStore.getSettings();
+  typeSettings.answerMode = 'type';
+  await window.SRSStore.saveSettings(typeSettings);
+  const drillBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (b) {
+    return b.textContent.indexOf('Alle aktiven Karten üben') !== -1;
+  });
+  assert(drillBtn && !drillBtn.disabled, 'Lernpfad offers a drill over all active cards');
+  click(drillBtn, window);
+  await waitFor(function () { return document.querySelector('#review-content .review-card-wrap'); }, { description: 'typed drill starts' });
+  let sawInput = false, typeGuard = 0;
+  while (typeGuard < 80) {
+    typeGuard++;
+    const w = document.querySelector('#review-content .review-card-wrap');
+    if (!w) break;
+    if (w.querySelector('.review-answer-input')) { sawInput = true; break; }
+    if (!(await advanceCard())) break; // non-checkable card -> grade past it
+  }
+  assert(sawInput, 'typed answer mode shows an input field for a checkable card');
+  click(document.querySelector('[data-tab="path"]'), window); // abandon the drill
+  await waitFor(function () { return document.querySelector('#path-content .path-adjust'); }, { description: 'back on the Lernpfad after the typed drill' });
+  // Restore self-grade mode so later steps are unaffected.
+  typeSettings.answerMode = 'reveal';
+  await window.SRSStore.saveSettings(typeSettings);
+
   let pathCount = 0;
   for (let i = 0; i < 40 && pathCount === 0; i++) {
     const sp = await window.SRSStore.getPathState();
