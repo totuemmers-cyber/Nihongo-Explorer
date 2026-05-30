@@ -378,9 +378,13 @@
 
       shell.appendChild(buildFocus(model));
       shell.appendChild(buildNextUp(model));
-      shell.appendChild(buildProgress(model));
-      shell.appendChild(buildLessons(model));
-      shell.appendChild(buildAdjust(model));
+
+      // Progress, lessons and target level share one flush, equal-height row.
+      var overview = el('div', 'path-overview');
+      overview.appendChild(buildProgress(model));
+      overview.appendChild(buildLessons(model));
+      overview.appendChild(buildAdjust(model));
+      shell.appendChild(overview);
 
       panel.appendChild(shell);
     }).catch(function () {
