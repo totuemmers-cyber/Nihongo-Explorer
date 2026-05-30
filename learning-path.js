@@ -399,8 +399,16 @@
     var newToday = Math.min(Math.max(0, model.budget), (model.newReady || []).length + model.picks.length);
 
     // Review status, folded in from the former Wiederholen home screen.
+    // "Active" = cards actually in your rotation. Staggered New siblings whose day
+    // hasn't come yet are upcoming, not active, so they don't inflate the count
+    // (adding 20 items creates ~61 cards, but only the introduced ones are active).
+    var nowMs = Date.now();
     var cards = model.cards || [];
-    var activeCards = cards.filter(function (c) { return !c.suspended; });
+    var activeCards = cards.filter(function (c) {
+      if (c.suspended) return false;
+      if (c.state === 'New' && new Date(c.dueAt || 0).getTime() > nowMs) return false;
+      return true;
+    });
     var weakCards = activeCards.filter(function (c) { return (c.lapses || 0) > 0 || c.state === 'Relearning'; });
 
     var stats = el('div', 'review-stats');
