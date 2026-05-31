@@ -1397,7 +1397,7 @@ main {
 .path-lessons,
 .path-adjust {
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: var(--bg-card);
   padding: 1.25rem;
   display: flex;
@@ -1459,7 +1459,7 @@ main {
 
 .path-backup-warning {
   border: 1px solid var(--n4-border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: var(--n4-bg);
   padding: 1rem 1.25rem;
   display: flex;
@@ -1515,7 +1515,7 @@ main {
 
 .path-done {
   border: 1px solid #2e9e5b;
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: rgba(46, 158, 91, 0.12);
   padding: 0.85rem 1rem;
   display: flex;
@@ -1537,7 +1537,7 @@ main {
 
 .path-levelup {
   border: 1px solid var(--accent);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: linear-gradient(135deg, rgba(64, 120, 220, 0.16), rgba(46, 158, 91, 0.16));
   padding: 1rem 1.25rem;
   display: flex;
@@ -1621,7 +1621,7 @@ main {
 .path-next-item {
   position: relative;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: var(--bg);
 }
 
@@ -1731,7 +1731,7 @@ main {
 
 .path-target-select {
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: var(--bg);
   color: var(--text);
   padding: 0.4rem 0.6rem;
@@ -1917,7 +1917,7 @@ main {
   align-items: center;
   gap: 0.6rem;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: var(--bg);
   padding: 0.5rem 0.65rem;
 }
@@ -2080,7 +2080,7 @@ main {
 .review-settings-box,
 .review-answer {
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: var(--bg-card);
   padding: 1rem;
 }
@@ -2130,7 +2130,7 @@ main {
   min-width: 10rem;
   padding: 0.55rem 0.75rem;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: var(--bg);
   color: var(--text);
   font-size: 1.1rem;
@@ -2250,7 +2250,7 @@ main {
   z-index: 2000;
   width: min(320px, calc(100vw - 16px));
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: var(--bg-card);
   box-shadow: var(--shadow-lg);
   padding: 0.9rem;
@@ -2373,7 +2373,7 @@ main {
 
 /* === GRAMMAR CARDS === */
 .grammar-card {
-  padding: 14px;
+  padding: var(--card-pad);
   gap: 6px;
   overflow: hidden;
 }
@@ -2951,7 +2951,7 @@ main {
 
 /* === VOCAB CARDS === */
 .vocab-card {
-  padding: 14px;
+  padding: var(--card-pad);
   gap: 4px;
   overflow: hidden;
 }
@@ -5057,6 +5057,7 @@ main {
   --radius-sm: 10px;
   --radius: 16px;
   --radius-lg: 26px;
+  --card-pad: 16px;
   --accent: #275df4;
   --accent-hover: #1d4ed8;
   --gradient: linear-gradient(135deg, #275df4 0%, #4f46e5 60%, #7c3aed 100%);
@@ -5418,7 +5419,7 @@ body {
 .ono-card,
 .counter-card,
 .radical-card {
-  padding: 16px;
+  padding: var(--card-pad);
   gap: 8px;
 }
 
