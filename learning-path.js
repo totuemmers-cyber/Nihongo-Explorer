@@ -239,6 +239,36 @@
     return map[itemKeyOf(section, item)] || 'new';
   }
 
+  // itemKey -> {section, item} across the learnable sections. Used to map an
+  // already-created backlog card (a ready New sibling) back to a displayable item.
+  function buildItemIndex() {
+    var idx = {};
+    SECTIONS.forEach(function (s) {
+      var sec = window.app.sections[s];
+      var items = (sec && sec.allItems) || [];
+      for (var i = 0; i < items.length; i++) idx[itemKeyOf(s, items[i])] = { section: s, item: items[i] };
+    });
+    return idx;
+  }
+
+  // The items already queued to be learned today: ready New sibling cards (the
+  // backlog consumed before brand-new picks), deduped per item and mapped back to
+  // their dataset item. Capped at the daily budget so the preview matches the
+  // session "Heute lernen" will actually run.
+  function readyToLearn(newReady, budget) {
+    var out = [], seen = {}, cap = Math.max(0, budget || 0);
+    if (!newReady || !newReady.length || cap === 0) return out;
+    var idx = buildItemIndex();
+    for (var i = 0; i < newReady.length && out.length < cap; i++) {
+      var c = newReady[i];
+      if (seen[c.itemKey]) continue;
+      seen[c.itemKey] = true;
+      var hit = idx[c.itemKey];
+      if (hit) out.push(hit);
+    }
+    return out;
+  }
+
   // --- Progress per level (single pass over all items) ---
   function computeProgress(map, path) {
     var byLevel = {};
@@ -456,10 +486,14 @@
       var waiting = suppressedNew ? [] : queues.waitVocab.slice(0, 4).map(function (p) {
         return { section: 'vocab', item: p.item, blocking: blockingKanji(p.item, queues.kanjiIndex, map) };
       });
+      // Items already queued for today (ready New backlog), shown alongside the
+      // brand-new picks so the pensum reflects the full set "Heute lernen" runs —
+      // not just the few brand-new items left after the backlog eats the budget.
+      var readyItems = suppressedNew ? [] : readyToLearn(newReady, budget);
       return {
         cards: cards, settings: settings, path: path, map: map,
         progress: progress, due: due, picks: picks, waiting: waiting,
-        newReady: newReady, budget: budget, backup: backup,
+        readyItems: readyItems, newReady: newReady, budget: budget, backup: backup,
         suppressedNew: suppressedNew, leveledUp: leveledUp
       };
     });
@@ -858,14 +892,18 @@
     card.appendChild(open);
 
     if (!opts.lockedNote) {
-      var known = el('button', 'path-next-known', '✓');
-      known.title = 'Kenne ich schon';
-      known.setAttribute('aria-label', 'Kenne ich schon');
-      known.addEventListener('click', function (e) {
-        e.stopPropagation();
-        skipOne(model, p.section, it);
-      });
-      card.appendChild(known);
+      // opts.noSkip: an already-started item (a ready backlog card) — no "kenne ich
+      // schon" affordance, since a card for it already exists in the SRS rotation.
+      if (!opts.noSkip) {
+        var known = el('button', 'path-next-known', '✓');
+        known.title = 'Kenne ich schon';
+        known.setAttribute('aria-label', 'Kenne ich schon');
+        known.addEventListener('click', function (e) {
+          e.stopPropagation();
+          skipOne(model, p.section, it);
+        });
+        card.appendChild(known);
+      }
 
       // For a grammar item with an explaining lesson the learner hasn't read yet,
       // offer a non-blocking nudge to read it first (a button can't nest inside the
@@ -891,15 +929,27 @@
     box.appendChild(el('div', 'path-section-title', 'Tägliches Lernpensum'));
 
     var waiting = model.waiting || [];
+    var ready = model.readyItems || [];
 
-    if (!model.picks.length && !waiting.length) {
+    if (!ready.length && !model.picks.length && !waiting.length) {
       box.appendChild(el('div', 'review-empty-hint',
         model.suppressedNew ? 'Neue Inhalte pausiert, bis die Wiederholungen aufgeholt sind.'
           : 'Aktuell keine neuen Inhalte vorgeschlagen.'));
       return box;
     }
 
+    // Items already queued for today (ready backlog) come first — they are learned
+    // before brand-new items — followed by the brand-new suggestions. Without this
+    // the pensum collapses to the few brand-new picks while a large ready backlog
+    // (staggered sibling cards that came due) stays hidden.
+    if (ready.length) {
+      var rlist = el('div', 'path-next-list');
+      ready.forEach(function (p) { rlist.appendChild(nextItemCard(p, model, { noSkip: true })); });
+      box.appendChild(rlist);
+    }
+
     if (model.picks.length) {
+      if (ready.length) box.appendChild(el('div', 'path-next-subtitle', 'Neu vorgeschlagen'));
       var list = el('div', 'path-next-list');
       model.picks.forEach(function (p) { list.appendChild(nextItemCard(p, model)); });
       box.appendChild(list);
@@ -1376,6 +1426,7 @@
       pickNewItems: pickNewItems,
       newBudget: newBudget,
       assembleSession: assembleSession,
+      readyToLearn: readyToLearn,
       vocabUnlocked: vocabUnlocked,
       blockingKanji: blockingKanji,
       interleave: interleave,

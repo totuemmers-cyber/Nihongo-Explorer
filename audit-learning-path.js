@@ -401,6 +401,25 @@ function makeStoreContext(storage) {
   check('T21 an unlinked grammar item yields no lesson (no wrong guess)', none === null);
 })();
 
+// === T22: the ready New backlog surfaces in the pensum (deduped, budget-capped) ===
+(function () {
+  // Two ready New sibling cards for 人 (same item) + one for 一. The pensum must
+  // show each item once so a ready backlog no longer hides behind the brand-new picks.
+  const cards = [
+    makeCard('kanji', KANJI[2], 'New', 0), // 人 ready
+    makeCard('kanji', KANJI[2], 'New', 0), // 人 sibling — same itemKey, deduped
+    makeCard('kanji', KANJI[0], 'New', 0)  // 一 ready
+  ];
+  const { eng } = makeContext(cards, defaultSettings, null);
+  const ready = eng.readyToLearn(cards, 20);
+  const keys = ready.map(function (p) { return eng.itemKeyOf(p.section, p.item); });
+  check('T22 ready backlog dedupes siblings to one item per key',
+    keys.filter(function (k) { return k === 'kanji:人'; }).length === 1);
+  check('T22 ready backlog maps cards back to their dataset item', keys.indexOf('kanji:一') !== -1);
+  check('T22 ready backlog respects the budget cap', eng.readyToLearn(cards, 1).length === 1);
+  check('T22 ready backlog is empty when the budget is 0', eng.readyToLearn(cards, 0).length === 0);
+})();
+
 function finish() {
   console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
   process.exit(failures.length > 0 ? 1 : 0);
