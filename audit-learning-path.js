@@ -308,6 +308,24 @@ function makeStoreContext(storage) {
   check('T16 moving down re-bases without a banner', down.leveledUp === null && down.seenLevel === 'N4');
 })();
 
+// === T17: a level does not advance when its items have only been reviewed once ===
+(function () {
+  // Every N5 item as a single Review card with reps=1 (introduced once, not yet
+  // survived a real review). With FAMILIAR_MIN_REPS=2 these are "learning", so the
+  // level must NOT reach the 0.9 familiar-or-better advance ratio.
+  function young(section, item) { return makeCard(section, item, 'Review', DAY, 0, 1); }
+  const cards = [];
+  KANJI.filter(function (k) { return k.jlpt === 'N5'; }).forEach(function (k) { cards.push(young('kanji', k)); });
+  VOCAB.filter(function (v) { return v.level === 'N5'; }).forEach(function (v) { cards.push(young('vocab', v)); });
+  GRAMMAR.filter(function (g) { return g.level === 'N5'; }).forEach(function (g) { cards.push(young('grammar', g)); });
+  const { eng } = makeContext(cards, defaultSettings, null);
+  const map = eng.mapFromCards(cards, eng.normalizePath(null));
+  const progress = eng.computeProgress(map, eng.normalizePath(null));
+  check('T17 reps=1 items are not familiar', eng.itemStatus('kanji', KANJI[0], map) === 'learning');
+  check('T17 ratio stays below advance threshold', progress.levels[0].ratio < 0.9);
+  check('T17 level does not advance on once-reviewed items', progress.currentLevel === 'N5');
+})();
+
 function finish() {
   console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
   process.exit(failures.length > 0 ? 1 : 0);
