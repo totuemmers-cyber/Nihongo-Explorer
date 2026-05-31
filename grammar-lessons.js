@@ -5916,6 +5916,131 @@
           tip: 'Ein guter Kontrollsatz ist: „Woran sehe ich das?“ Wenn es sichtbare Anzeichen gibt, passt ～がる oft gut.'
         }
       ]
+    },
+
+    // ===================== LEKTION 154 =====================
+    {
+      id: 'lesson-154',
+      number: 154,
+      title: 'こそあど — Dies, das, jenes',
+      subtitle: 'Das Demonstrativsystem',
+      level: 'N5',
+      intro: 'これ, それ, あれ — „dies, das, jenes". Japanisch ordnet Hinweiswörter nicht nach „nah/fern" wie das Deutsche, sondern nach <strong>drei Zonen</strong>: bei mir, bei dir, und weg von uns beiden. Dazu kommt eine Fragereihe (ど…). Wenn du dieses Raster einmal verstanden hast, bekommst du auf einen Schlag Dutzende Wörter geschenkt — denn sie folgen alle demselben Muster: こ・そ・あ・ど.',
+      sections: [
+        {
+          heading: 'Die こそあど-Logik',
+          text: 'Vier Präfixe steuern alles: <strong>こ</strong> = nah beim Sprecher („hier bei mir"), <strong>そ</strong> = nah beim Hörer oder gerade Erwähntes („da bei dir"), <strong>あ</strong> = entfernt von beiden, oft auch gemeinsames Wissen („das dort drüben / das von damals"), <strong>ど</strong> = die Frage („welch-/wo?"). An dieses Präfix wird je nach Bedeutung eine feste Endung gehängt — und schon hast du eine ganze Wortfamilie.',
+          examples: [
+            { jp: 'これは私のです。', romaji: 'Kore wa watashi no desu.', de: 'Das (hier bei mir) ist meins.' },
+            { jp: 'それを取ってください。', romaji: 'Sore o totte kudasai.', de: 'Reich mir bitte das (da bei dir).' },
+            { jp: 'あれは何ですか。', romaji: 'Are wa nan desu ka.', de: 'Was ist das (dort drüben)?' }
+          ]
+        },
+        {
+          heading: 'これ・それ・あれ・どれ — die Dinge',
+          text: 'Diese Reihe steht <strong>für sich allein</strong> wie ein Pronomen — sie ersetzt ein Ding, das man nicht nennt oder zeigt. これ = „das hier", それ = „das da", あれ = „das dort", どれ = „welches (von mehreren)?". Wichtig: diese Wörter stehen <em>nie direkt vor einem Nomen</em>.',
+          examples: [
+            { jp: 'これはいくらですか。', romaji: 'Kore wa ikura desu ka.', de: 'Wie viel kostet das hier?' },
+            { jp: 'それはいいですね。', romaji: 'Sore wa ii desu ne.', de: 'Das (was du hast/sagst) ist gut, nicht?' },
+            { jp: 'どれがあなたの傘ですか。', romaji: 'Dore ga anata no kasa desu ka.', de: 'Welcher (davon) ist dein Schirm?' }
+          ],
+          tip: 'どれ fragt nach einer Auswahl aus <strong>drei oder mehr</strong> Dingen. Bei nur zweien nimmt man どちら / どっち („welches von beiden?").'
+        },
+        {
+          heading: 'この・その・あの・どの — vor einem Nomen',
+          text: 'Diese Reihe ist das Gegenstück: sie steht <strong>immer direkt vor einem Nomen</strong> und kann nicht allein stehen. この本 = „dieses Buch", その傘 = „der Schirm da", あの人 = „die Person dort / jene Person", どの電車 = „welcher Zug?". Hier passiert der häufigste Anfängerfehler — siehe Tipp.',
+          examples: [
+            { jp: 'この本はおもしろいです。', romaji: 'Kono hon wa omoshiroi desu.', de: 'Dieses Buch ist interessant.' },
+            { jp: 'その店は休みです。', romaji: 'Sono mise wa yasumi desu.', de: 'Der Laden (da) hat geschlossen.' },
+            { jp: 'どの電車に乗りますか。', romaji: 'Dono densha ni norimasu ka.', de: 'In welchen Zug steigst du?' }
+          ],
+          tip: 'Der Klassiker: <strong>これ braucht KEIN Nomen, この braucht IMMER eins.</strong> Falsch: ✗ これ本. Richtig: ✓ これは本です („Das ist ein Buch") oder ✓ この本 („dieses Buch").'
+        },
+        {
+          heading: 'ここ・そこ・あそこ・どこ — Orte',
+          text: 'Für Orte gibt es die Platz-Reihe: ここ = „hier", そこ = „da (bei dir)", あそこ = „dort drüben", どこ = „wo?". Höflicher und zugleich für <em>Richtungen</em> nutzt man こちら・そちら・あちら・どちら (lässig auch こっち・そっち・あっち・どっち).',
+          examples: [
+            { jp: 'トイレはどこですか。', romaji: 'Toire wa doko desu ka.', de: 'Wo ist die Toilette?' },
+            { jp: 'ここで待っています。', romaji: 'Koko de matte imasu.', de: 'Ich warte hier.' },
+            { jp: 'あそこに駅があります。', romaji: 'Asoko ni eki ga arimasu.', de: 'Dort drüben ist ein Bahnhof.' }
+          ],
+          tip: 'こちら & Co. wirken höflicher und bezeichnen auch Personen/Richtungen: „こちらは田中さんです" stellt jemanden höflich vor („Das hier ist Herr Tanaka").'
+        },
+        {
+          heading: 'こう・そう・ああ・どう & こんな…',
+          text: 'Auch „Art und Weise" folgt dem Muster: こう = „so (auf diese Weise)", そう = „so (wie gesagt)", ああ = „so (auf jene Art)", どう = „wie?". Und für „so eine Art von…" gibt es こんな・そんな・あんな・どんな direkt vor einem Nomen.',
+          examples: [
+            { jp: 'どうやって作りますか。', romaji: 'Dō yatte tsukurimasu ka.', de: 'Wie macht man das?' },
+            { jp: 'そう思います。', romaji: 'Sō omoimasu.', de: 'Das denke ich (auch).' },
+            { jp: 'どんな音楽が好きですか。', romaji: 'Donna ongaku ga suki desu ka.', de: 'Welche Art von Musik magst du?' }
+          ]
+        },
+        {
+          heading: 'Das ganze Raster auf einen Blick',
+          text: 'Alles folgt demselben Schema — einmal verstanden, nie wieder vergessen:<ul class="lesson-rules"><li><strong>Ding:</strong> これ・それ・あれ・どれ</li><li><strong>+ Nomen:</strong> この・その・あの・どの</li><li><strong>Ort:</strong> ここ・そこ・あそこ・どこ</li><li><strong>Richtung/höflich:</strong> こちら・そちら・あちら・どちら</li><li><strong>Art:</strong> こう・そう・ああ・どう</li><li><strong>so ein… :</strong> こんな・そんな・あんな・どんな</li></ul>こ = bei mir · そ = bei dir / gerade gesagt · あ = weg von beiden / gemeinsam bekannt · ど = Frage.',
+          examples: [
+            { jp: 'あの店、覚えていますか。', romaji: 'Ano mise, oboete imasu ka.', de: 'Erinnerst du dich an den Laden (von damals)? (あ = gemeinsames Wissen)' },
+            { jp: 'それはどういう意味ですか。', romaji: 'Sore wa dō iu imi desu ka.', de: 'Was bedeutet das? (それ = das gerade Gesagte)' }
+          ],
+          tip: 'Merksatz für あ: Es ist „das, was wir beide kennen, aber gerade nicht vor uns haben" — die Erinnerung, der ferne Berg, der Laden von neulich.'
+        }
+      ]
+    },
+
+    // ===================== LEKTION 155 =====================
+    {
+      id: 'lesson-155',
+      number: 155,
+      title: '自動詞 & 他動詞',
+      subtitle: 'Geschieht von selbst — oder man tut es',
+      level: 'N4',
+      intro: 'Japanisch hat oft <strong>zwei verwandte Verben</strong> für eine Situation: eines, bei dem etwas „von selbst" passiert (自動詞, intransitiv), und eines, bei dem jemand es <em>aktiv tut</em> (他動詞, transitiv). 開く („aufgehen") und 開ける („öffnen") sind so ein Paar. Im Deutschen verschwimmt das oft zu einem Wort — im Japanischen entscheidet die Wahl über die ganze Satzstruktur, vor allem über die Partikel.',
+      sections: [
+        {
+          heading: 'Der Kernunterschied',
+          text: '<strong>他動詞 (transitiv)</strong>: Jemand tut etwas mit einem Objekt — es gibt einen „Täter" und ein を-Objekt. <strong>自動詞 (intransitiv)</strong>: Etwas geschieht von selbst, der Fokus liegt auf dem Vorgang, das Betroffene steht mit が. Faustfrage: „Tut das jemand absichtlich?" → 他動詞. „Passiert das einfach?" → 自動詞.',
+          examples: [
+            { jp: 'ドアが開きました。', romaji: 'Doa ga akimashita.', de: 'Die Tür ging auf. (自 — von selbst, z.B. durch Wind)' },
+            { jp: '私がドアを開けました。', romaji: 'Watashi ga doa o akemashita.', de: 'Ich habe die Tür geöffnet. (他 — jemand tut es)' }
+          ]
+        },
+        {
+          heading: 'Die が/を-Regel',
+          text: 'Die wichtigste praktische Folge: <strong>自動詞 nehmen が</strong> (kein を-Objekt), <strong>他動詞 nehmen を</strong>. Genau hier passiert der häufigste Fehler — viele hängen aus Gewohnheit を an ein intransitives Verb. Merke: 自動詞 + を gibt es (fast) nie.',
+          examples: [
+            { jp: '電気がつきました。', romaji: 'Denki ga tsukimashita.', de: 'Das Licht ging an. (自 + が)' },
+            { jp: '電気をつけました。', romaji: 'Denki o tsukemashita.', de: 'Ich machte das Licht an. (他 + を)' },
+            { jp: 'お皿が落ちた。', romaji: 'Osara ga ochita.', de: 'Der Teller fiel herunter. (自)' }
+          ],
+          tip: 'Falsch: ✗ 電気をつきました. Richtig: ✓ 電気がつきました (自) oder ✓ 電気をつけました (他).'
+        },
+        {
+          heading: 'Häufige Paare',
+          text: 'Viele Paare folgen erkennbaren Mustern — lerne sie am besten zu zweit:<ul class="lesson-rules"><li>開く aku / 開ける akeru — aufgehen / öffnen</li><li>閉まる shimaru / 閉める shimeru — zugehen / schließen</li><li>始まる hajimaru / 始める hajimeru — beginnen (von selbst / tun)</li><li>入る hairu / 入れる ireru — hineingehen / hineintun</li><li>出る deru / 出す dasu — herauskommen / herausholen</li><li>つく tsuku / つける tsukeru — angehen / anmachen</li><li>消える kieru / 消す kesu — verlöschen / löschen, ausmachen</li><li>落ちる ochiru / 落とす otosu — fallen / fallen lassen</li><li>止まる tomaru / 止める tomeru — anhalten / (etwas) anhalten</li><li>変わる kawaru / 変える kaeru — sich ändern / ändern</li></ul>',
+          examples: [
+            { jp: '授業が始まります。', romaji: 'Jugyō ga hajimarimasu.', de: 'Der Unterricht beginnt. (自)' },
+            { jp: '先生が授業を始めます。', romaji: 'Sensei ga jugyō o hajimemasu.', de: 'Der Lehrer beginnt den Unterricht. (他)' }
+          ]
+        },
+        {
+          heading: 'Zustand: 〜ている vs 〜てある',
+          text: 'Hier verzahnt sich das Thema mit der て-Form. <strong>自動詞 + ている</strong> beschreibt einen <em>Zustand</em>, der einfach besteht: 窓が開いている — „das Fenster ist offen". <strong>他動詞 + てある</strong> betont, dass jemand diesen Zustand <em>absichtlich herbeigeführt</em> hat: 窓が開けてある — „das Fenster wurde (extra) geöffnet und steht nun offen". Beide übersetzt man oft gleich, doch der Unterton ist verschieden.',
+          examples: [
+            { jp: '窓が閉まっています。', romaji: 'Mado ga shimatte imasu.', de: 'Das Fenster ist zu. (自 + ている — schlichter Zustand)' },
+            { jp: '窓が閉めてあります。', romaji: 'Mado ga shimete arimasu.', de: 'Das Fenster ist (bewusst) zugemacht. (他 + てある — jemand hat es getan)' }
+          ],
+          tip: '～てある signalisiert immer eine Absicht im Hintergrund: jemand hat etwas vorbereitet oder erledigt. ～ている bei einem 自動詞 ist dagegen rein beschreibend.'
+        },
+        {
+          heading: 'Muster & Faustregeln',
+          text: 'Die Endungen geben oft (nicht immer!) einen Hinweis:<ul class="lesson-rules"><li>～aる ist häufig <strong>intransitiv</strong>: 閉<strong>まる</strong>, 始<strong>まる</strong>, 止<strong>まる</strong></li><li>～eる ist oft das <strong>transitive</strong> Gegenstück: 閉<strong>める</strong>, 始<strong>める</strong>, 止<strong>める</strong></li><li>～す ist fast immer <strong>transitiv</strong>: 出<strong>す</strong>, 消<strong>す</strong>, 落と<strong>す</strong></li></ul>Aber Vorsicht: Es gibt genug Ausnahmen (出る ist 自, つく ist 自). Die Muster helfen beim Raten, ersetzen aber nicht das paarweise Lernen.',
+          examples: [
+            { jp: '車が止まった。', romaji: 'Kuruma ga tomatta.', de: 'Das Auto hielt an. (自, ～まる)' },
+            { jp: '警官が車を止めた。', romaji: 'Keikan ga kuruma o tometa.', de: 'Der Polizist hielt das Auto an. (他, ～める)' }
+          ],
+          tip: 'Lern die Paare wie Vokabel-Duos statt einzeln — 開く ⇄ 開ける zusammen. Dann sitzt sowohl die Bedeutung als auch die Partikel.'
+        }
+      ]
     }
   ];
 
@@ -5931,7 +6056,7 @@
   var DIDACTIC_ORDER_BY_LEVEL = {
     'N5': [
       'lesson-3', 'lesson-1', 'lesson-2', 'lesson-103', 'lesson-104',
-      'lesson-81', 'lesson-82', 'lesson-4', 'lesson-5',
+      'lesson-81', 'lesson-154', 'lesson-82', 'lesson-4', 'lesson-5',
       'lesson-6', 'lesson-7', 'lesson-88', 'lesson-91', 'lesson-120',
       'lesson-83', 'lesson-84', 'lesson-85', 'lesson-86',
       'lesson-95', 'lesson-96', 'lesson-141', 'lesson-122', 'lesson-123',
@@ -5942,7 +6067,7 @@
       'lesson-8', 'lesson-9', 'lesson-150'
     ],
     'N4': [
-      'lesson-31', 'lesson-14', 'lesson-15', 'lesson-98', 'lesson-99',
+      'lesson-31', 'lesson-14', 'lesson-15', 'lesson-155', 'lesson-98', 'lesson-99',
       'lesson-97', 'lesson-100', 'lesson-101', 'lesson-10', 'lesson-105',
       'lesson-102', 'lesson-106', 'lesson-108', 'lesson-13',
       'lesson-11', 'lesson-12', 'lesson-107', 'lesson-124', 'lesson-125',
