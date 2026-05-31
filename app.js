@@ -704,6 +704,7 @@
   var tabBtns = document.querySelectorAll('.tab-btn');
   var tabIndicator = document.querySelector('.tab-indicator');
   var subtabBar = document.getElementById('subtab-bar');
+  var subtabAside = document.getElementById('subtab-aside');
   var tabPanels = {};
   sectionNames.forEach(function (name) {
     tabPanels[name] = document.getElementById(name + '-tab');
@@ -730,6 +731,13 @@
       b.classList.toggle('hidden', !inGroup);
       b.classList.toggle('active', inGroup && b.getAttribute('data-tab') === tab);
     });
+    // Per-section secondary controls (e.g. Kana's Hiragana/Katakana) shown at the
+    // right of the bar — only the one for the active section, if any.
+    if (subtabAside) {
+      subtabAside.querySelectorAll('.subtab-aside-item').forEach(function (item) {
+        item.classList.toggle('active', item.getAttribute('data-for') === tab);
+      });
+    }
   }
 
   tabBtns.forEach(function (btn) {

@@ -5737,13 +5737,40 @@ body {
 .subtab-bar {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 12px;
   padding: 8px 0 0;
+}
+
+/* Left zone: the group's section buttons (scrolls if it runs out of room). */
+.subtab-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
   overflow-x: auto;
   scrollbar-width: none;
 }
 
-.subtab-bar::-webkit-scrollbar { display: none; }
+.subtab-group::-webkit-scrollbar { display: none; }
+
+/* Right zone: the active section's own secondary selection, if it has one. */
+.subtab-aside {
+  margin-left: auto;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.subtab-aside-item { display: none; }
+.subtab-aside-item.active { display: flex; align-items: center; }
+
+/* Kana's Hiragana/Katakana toggle, now inline in the aside — drop the old
+   top-bar separator/margins it had when it sat above the kana grid. */
+.subtab-aside .kana-toggle {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
 
 .subtab-btn {
   display: inline-flex;

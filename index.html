@@ -65,6 +65,7 @@
         <div class="tab-indicator"></div>
       </nav>
       <nav class="subtab-bar hidden" id="subtab-bar" aria-label="Unternavigation">
+        <div class="subtab-group">
         <button class="subtab-btn" data-group="schrift" data-tab="kana">
           <span class="tab-icon-kana">あ</span>
           Kana
@@ -89,6 +90,15 @@
           <span class="tab-icon-kana">数</span>
           Zahlen
         </button>
+        </div>
+        <div class="subtab-aside" id="subtab-aside">
+          <div class="subtab-aside-item" data-for="kana">
+            <div class="kana-toggle gl-view-toggle">
+              <button class="kana-toggle-btn gl-view-btn active" data-kana="hiragana">Hiragana</button>
+              <button class="kana-toggle-btn gl-view-btn" data-kana="katakana">Katakana</button>
+            </div>
+          </div>
+        </div>
       </nav>
       <!-- Kanji Tab Controls -->
       <div id="kanji-controls" class="tab-content hidden">
@@ -369,10 +379,6 @@
       </div>
       <!-- Kana Tab Content -->
       <div id="kana-tab" class="tab-panel">
-        <div class="kana-toggle gl-view-toggle">
-          <button class="kana-toggle-btn gl-view-btn active" data-kana="hiragana">Hiragana</button>
-          <button class="kana-toggle-btn gl-view-btn" data-kana="katakana">Katakana</button>
-        </div>
         <div id="kana-content" class="kana-content"></div>
       </div>
       <!-- Quiz Tab Content -->

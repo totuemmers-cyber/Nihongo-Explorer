@@ -186,6 +186,8 @@ async function run() {
       window.app.activeTab === 'kana';
   }, { description: 'Schrift group opens its subnav and its default section' });
   assert(document.querySelector('.subtab-btn[data-tab="kanji"]'), 'Schrift subnav offers Kanji');
+  assert(document.querySelector('.subtab-aside-item[data-for="kana"].active'),
+    'Kana shows its Hiragana/Katakana toggle to the right of the subnav');
 
   click(document.querySelector('[data-tab="quiz"]'), window);
   await waitFor(function () {
