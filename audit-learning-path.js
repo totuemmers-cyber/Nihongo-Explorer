@@ -365,6 +365,20 @@ function fallbackErrorTest() {
   });
 }
 
+// === T14: the gate-relaxation branch must not duplicate grammar picks ===
+(function () {
+  // Mark every N5 kanji non-new so newKanji is empty -> relaxation path is taken.
+  const cards = KANJI.filter(function (k) { return k.jlpt === 'N5'; })
+    .map(function (k) { return makeCard('kanji', k, 'Review', DAY * 5); });
+  const { eng } = makeContext(cards, defaultSettings, null);
+  const map = eng.mapFromCards(cards, eng.normalizePath(null));
+  const picks = eng.pickNewItems('N5', map, 20); // budget far exceeds available -> relax
+  const keys = picks.map(function (p) { return eng.itemKeyOf(p.section, p.item); });
+  const seen = {};
+  const dup = keys.filter(function (k) { return seen[k] ? true : (seen[k] = 1, false); });
+  check('T14 relaxation does not duplicate picks', dup.length === 0);
+})();
+
 // === T7/T8: resetProgress + export/import round-trip on the real SRSStore ===
 (function () {
   const store = makeStoreContext();

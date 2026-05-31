@@ -314,11 +314,14 @@
       [MIX_WEIGHTS.kanji, MIX_WEIGHTS.vocab, MIX_WEIGHTS.grammar],
       budget
     );
-    // Relax the gate only once there are no more new kanji to introduce at this level.
+    // Relax the gate only once there are no more new kanji to introduce at this
+    // level. Grammar is already fully consumed in the first pass (interleave only
+    // stops early when every queue is empty), so re-adding it here would duplicate
+    // picks — only the kanji-gated vocab (waitVocab) remains to offer.
     if (items.length < budget && !q.newKanji.length) {
       items = items.concat(interleave(
-        [q.waitVocab.slice(), q.newGrammar.slice()],
-        [MIX_WEIGHTS.vocab, MIX_WEIGHTS.grammar],
+        [q.waitVocab.slice()],
+        [MIX_WEIGHTS.vocab],
         budget - items.length
       ));
     }
