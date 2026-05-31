@@ -9,7 +9,7 @@
 
 set -uo pipefail
 
-BACKUP_BRANCH="claude/repeat-learning-path-integration-L7zew"
+BACKUP_BRANCH="backup/main-pre-push"
 
 # The hook receives the tool-call JSON on stdin.
 payload="$(cat)"
