@@ -663,6 +663,17 @@
       window.SRSUI.startSession(activeCards, true);
     });
     actions.appendChild(practiceBtn);
+
+    // Focused drill over the weak cards (lapsed or relearning) — the items most at
+    // risk of becoming leeches.
+    if (weakCards.length) {
+      var weakBtn = el('button', 'quiz-btn quiz-btn-back', 'Schwache Karten üben (' + weakCards.length + ')');
+      weakBtn.addEventListener('click', function () {
+        recordStudyStart(model.path);
+        window.SRSUI.startSession(weakCards, true);
+      });
+      actions.appendChild(weakBtn);
+    }
     box.appendChild(actions);
 
     if (model.suppressedNew) {
@@ -998,6 +1009,96 @@
     return box;
   }
 
+  // --- First-run onboarding (2C) ---
+  var onboardingShown = false;
+
+  // Show a one-time setup modal for brand-new users (no cards, no pathState):
+  // pick a start level + daily pace and explain the learn -> review -> progress loop.
+  function maybeShowOnboarding() {
+    if (onboardingShown || !window.SRSStore) return Promise.resolve();
+    return init().then(function () {
+      return Promise.all([
+        window.SRSStore.getAllCards().catch(function () { return []; }),
+        window.SRSStore.getPathState().catch(function () { return null; })
+      ]);
+    }).then(function (parts) {
+      var cards = parts[0] || [];
+      if ((cards && cards.length) || parts[1]) return; // returning user -> skip
+      onboardingShown = true;
+      showOnboarding();
+    }).catch(function () {});
+  }
+
+  function showOnboarding() {
+    var overlay = el('div', 'onboarding-overlay');
+    var box = el('div', 'onboarding-panel');
+    box.appendChild(el('div', 'onboarding-title', 'Willkommen bei Nihongo Explorer'));
+    box.appendChild(el('div', 'onboarding-text',
+      'So funktioniert dein Lernpfad: Jeden Tag schlägt er dir neue Karten vor (Kanji, Vokabeln, '
+      + 'Grammatik). Du lernst sie, wiederholst sie im optimalen Abstand (SRS) und verfolgst deinen '
+      + 'Fortschritt. Du kannst alles jederzeit in „So lerne ich“ anpassen.'));
+
+    var form = el('div', 'onboarding-form');
+    var levelSel = el('select', 'path-target-select');
+    LEVELS.forEach(function (lv) {
+      var o = el('option', null, lv);
+      o.value = lv;
+      if (lv === 'N5') o.selected = true;
+      levelSel.appendChild(o);
+    });
+    var levelRow = el('div', 'path-adjust-row');
+    var levelLabel = el('label', 'path-adjust-label', 'Startniveau');
+    levelRow.appendChild(levelLabel);
+    levelRow.appendChild(levelSel);
+    form.appendChild(levelRow);
+
+    var paceSel = el('select', 'path-target-select');
+    NEW_PER_DAY_OPTIONS.forEach(function (val) {
+      var o = el('option', null, String(val));
+      o.value = String(val);
+      if (val === 20) o.selected = true;
+      paceSel.appendChild(o);
+    });
+    var paceRow = el('div', 'path-adjust-row');
+    paceRow.appendChild(el('label', 'path-adjust-label', 'Neue Karten pro Tag'));
+    paceRow.appendChild(paceSel);
+    form.appendChild(paceRow);
+    box.appendChild(form);
+
+    box.appendChild(el('div', 'path-adjust-hint',
+      'Stufen unter dem Startniveau gelten als bekannt. Alles lässt sich später ändern.'));
+
+    function finish() {
+      var path = normalizePath(null);
+      path.startLevel = levelSel.value;
+      path.seenLevel = null; // baseline adopted silently on first render
+      var pace = parseInt(paceSel.value, 10) || 20;
+      var savePath = window.SRSStore.savePathState(path);
+      var saveSettings = window.SRSStore.getSettings().then(function (s) {
+        s.dailyNewLimit = pace;
+        return window.SRSStore.saveSettings(s);
+      });
+      Promise.all([savePath, saveSettings]).then(function () {
+        if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+        render();
+      }).catch(function () {
+        if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+        render();
+      });
+      if (window.app) window.app.playPop();
+    }
+
+    var actions = el('div', 'review-actions');
+    var startBtn = el('button', 'quiz-btn quiz-btn-next', 'Lernpfad starten');
+    startBtn.addEventListener('click', finish);
+    actions.appendChild(startBtn);
+    box.appendChild(actions);
+
+    overlay.appendChild(box);
+    document.body.appendChild(overlay);
+    setTimeout(function () { startBtn.focus(); }, 0);
+  }
+
   // True if the learner has any history -> the app should land on the Lernpfad.
   function shouldLandHere() {
     if (!window.SRSStore) return Promise.resolve(false);
@@ -1066,6 +1167,7 @@
   window.LearningPath = {
     onTabActivate: onTabActivate,
     shouldLandHere: shouldLandHere,
+    maybeShowOnboarding: maybeShowOnboarding,
     runDiagnostics: runDiagnostics,
     pruneOrphans: pruneOrphans,
     // exposed for audit/testing

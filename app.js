@@ -1252,6 +1252,17 @@
   updateCount();
   if (window.SRSUI && window.SRSUI.updateReviewBadge) window.SRSUI.updateReviewBadge();
 
-  // Default landing: always open the Lernpfad (cold-start users get N5 onboarding).
+  // Default landing: always open the Lernpfad; brand-new users get a setup modal.
   switchTab('path');
+  if (window.LearningPath && window.LearningPath.maybeShowOnboarding) {
+    window.LearningPath.maybeShowOnboarding();
+  }
+
+  // Register the service worker for offline/installable PWA support. Guarded so it
+  // is skipped on file:// (where SWs don't run) and where the API is unavailable.
+  if ('serviceWorker' in navigator && location.protocol.indexOf('http') === 0) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('sw.js').catch(function () {});
+    });
+  }
 })();

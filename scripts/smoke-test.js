@@ -147,6 +147,21 @@ async function run() {
       document.querySelector('#path-content .path-next-item');
   }, { description: 'app lands on the Lernpfad with recommendations', timeoutMs: 20000 });
 
+  // === 2C: a brand-new user gets a first-run onboarding modal; complete it ===
+  await waitFor(function () {
+    return document.querySelector('.onboarding-overlay');
+  }, { description: 'first-run onboarding modal appears' });
+  const onbStart = Array.from(document.querySelectorAll('.onboarding-overlay button')).find(function (b) {
+    return b.textContent.indexOf('Lernpfad starten') !== -1;
+  });
+  assert(onbStart, 'onboarding offers a start button');
+  click(onbStart, window);
+  await waitFor(function () {
+    return !document.querySelector('.onboarding-overlay');
+  }, { description: 'onboarding closes after starting' });
+  const onbPath = await window.SRSStore.getPathState();
+  assert(onbPath && onbPath.startLevel, 'onboarding writes a pathState (so it does not reappear)');
+
   // Clicking a to-learn item opens its detail overlay IN PLACE (no tab switch),
   // and closing returns straight to the Lernpfad. The card's main area is the
   // .path-next-open button (the ✓ "kenne ich" control sits beside it).

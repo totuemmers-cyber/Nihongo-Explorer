@@ -11,6 +11,7 @@
   var MIN_EASE = 1.3;
   var MASTERED_INTERVAL_DAYS = 180;
   var MATURE_INTERVAL_DAYS = 30;
+  var LEECH_LAPSES = 8; // a card failed this many times is a "leech" (chronic problem)
 
   function nowIso(now) {
     return new Date(now || Date.now()).toISOString();
@@ -30,7 +31,8 @@
       dailyReviewLimit: 120,
       autoAddMissedQuizItems: false,
       backupBookmarks: true,
-      answerMode: 'reveal' // 'reveal' = self-grade; 'type' = typed answer with checking
+      answerMode: 'reveal', // 'reveal' = self-grade; 'type' = typed answer with checking
+      autoSuspendLeeches: false // auto-suspend cards that lapse >= LEECH_LAPSES times
     };
   }
 
@@ -82,6 +84,7 @@
       next.intervalDays = 0;
       next.lapses = lapses + 1;
       next.dueAt = addMs(baseNow, 10 * MINUTE_MS);
+      next.leech = next.lapses >= LEECH_LAPSES;
       return next;
     }
 
@@ -108,6 +111,12 @@
 
     next.dueAt = addMs(baseNow, next.intervalDays * DAY_MS);
     return next;
+  }
+
+  // A leech is a card that has lapsed too many times — a chronic problem worth
+  // surfacing or auto-suspending so it stops dragging down the daily queue.
+  function isLeech(card) {
+    return !!card && (card.lapses || 0) >= LEECH_LAPSES;
   }
 
   function isDue(card, now) {
@@ -195,13 +204,15 @@
     makeReviewEvent: makeReviewEvent,
     isDue: isDue,
     isNewReady: isNewReady,
+    isLeech: isLeech,
     getStatus: getStatus,
     sortQueue: sortQueue,
     constants: {
       DAY_MS: DAY_MS,
       DEFAULT_EASE: DEFAULT_EASE,
       MASTERED_INTERVAL_DAYS: MASTERED_INTERVAL_DAYS,
-      MATURE_INTERVAL_DAYS: MATURE_INTERVAL_DAYS
+      MATURE_INTERVAL_DAYS: MATURE_INTERVAL_DAYS,
+      LEECH_LAPSES: LEECH_LAPSES
     }
   };
 

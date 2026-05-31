@@ -37,6 +37,17 @@ const again = scheduler.applyGrade(good, 'Again', now);
 assert(again.state === 'Relearning', 'Again should move card to Relearning');
 assert(again.lapses === 1, 'Again should increment lapses');
 assert(new Date(again.dueAt).getTime() > now, 'Again should schedule a short relearning delay');
+assert(again.leech === false, 'A single lapse is not a leech');
+assert(scheduler.isLeech(again) === false, 'isLeech is false below the threshold');
+
+// Leech detection: repeated failures cross the LEECH_LAPSES threshold.
+let lapsing = good;
+for (let i = 0; i < scheduler.constants.LEECH_LAPSES; i++) {
+  lapsing = scheduler.applyGrade(lapsing, 'Again', now + i * scheduler.constants.DAY_MS);
+}
+assert(lapsing.lapses >= scheduler.constants.LEECH_LAPSES, 'Repeated Again should accumulate lapses');
+assert(scheduler.isLeech(lapsing) === true, 'A card past the lapse threshold is a leech');
+assert(lapsing.leech === true, 'applyGrade flags a leech on the Again branch');
 
 let mature = good;
 for (let i = 0; i < 10; i++) {

@@ -10,6 +10,7 @@
   var currentCard = null;
   var revealed = false;
   var answerMode = 'reveal';   // 'reveal' = self-grade; 'type' = typed answer + checking
+  var autoSuspendLeeches = false; // auto-suspend chronic-fail cards on "Again"
   var session = null;          // per-session tally for the end-of-session summary
   var detailRefreshCallbacks = {};
 
@@ -588,11 +589,12 @@
       return window.SRSStore.getSettings();
     }).then(function (settings) {
       answerMode = (settings && settings.answerMode) || 'reveal';
+      autoSuspendLeeches = !!(settings && settings.autoSuspendLeeches);
       var selected = includeNotDue ? cards.slice() : cards.filter(function (card) {
         return window.SRSScheduler.isDue(card);
       });
       queue = window.SRSScheduler.sortQueue(selected);
-      session = { reviewed: 0, correct: 0, again: 0 };
+      session = { reviewed: 0, correct: 0, again: 0, leeches: 0 };
       currentCard = null;
       revealed = false;
       renderNextReview();
@@ -767,6 +769,12 @@
     stats.appendChild(statCard('Nochmal', s.again));
     shell.appendChild(stats);
 
+    if (s.leeches) {
+      shell.appendChild(el('div', 'review-empty-hint',
+        s.leeches + (s.leeches === 1 ? ' hartnäckige Karte ausgesetzt' : ' hartnäckige Karten ausgesetzt')
+        + ' — du kannst sie in den Details wieder aktivieren.'));
+    }
+
     var actions = el('div', 'review-actions');
     var cont = el('button', 'quiz-btn quiz-btn-next', 'Weiter zum Lernpfad');
     cont.addEventListener('click', returnToPath);
@@ -790,6 +798,13 @@
     if (!currentCard) return;
     var previous = currentCard;
     var next = window.SRSScheduler.applyGrade(previous, grade);
+    // Auto-suspend leeches: a card that keeps failing is parked so it stops
+    // dominating the queue. Opt-in (off by default) to avoid surprising removals.
+    var leechSuspended = false;
+    if (grade === 'Again' && autoSuspendLeeches && !next.suspended && window.SRSScheduler.isLeech(next)) {
+      next.suspended = true;
+      leechSuspended = true;
+    }
     var event = window.SRSScheduler.makeReviewEvent(next, previous, grade);
     window.SRSStore.putCards([next]).then(function () {
       return window.SRSStore.addEvent(event);
@@ -798,7 +813,9 @@
       if (session) {
         session.reviewed++;
         if (grade === 'Again') session.again++; else session.correct++;
+        if (leechSuspended) session.leeches++;
       }
+      if (leechSuspended) removeQueuedItem(next.itemKey); // drop its siblings from this run
       if (window.app) {
         if (grade === 'Again') window.app.playTick();
         else window.app.playPop();
@@ -876,6 +893,22 @@
       row.appendChild(label);
       row.appendChild(sel);
       learnBox.appendChild(row);
+
+      var leechRow = el('div', 'path-adjust-row');
+      var leechLabel = el('label', 'path-adjust-label', 'Hartnäckige Karten automatisch aussetzen');
+      leechLabel.setAttribute('for', 'srs-leech-toggle');
+      var leechToggle = document.createElement('input');
+      leechToggle.type = 'checkbox';
+      leechToggle.id = 'srs-leech-toggle';
+      leechToggle.checked = !!settings.autoSuspendLeeches;
+      leechToggle.addEventListener('change', function () {
+        settings.autoSuspendLeeches = leechToggle.checked;
+        autoSuspendLeeches = leechToggle.checked;
+        window.SRSStore.saveSettings(settings).catch(function () {});
+      });
+      leechRow.appendChild(leechLabel);
+      leechRow.appendChild(leechToggle);
+      learnBox.appendChild(leechRow);
     });
     shell.appendChild(learnBox);
 
