@@ -734,7 +734,7 @@
 
   var TYPE_LABEL = { kanji: 'Kanji', vocab: 'Vokabel', grammar: 'Grammatik' };
 
-  // One card in the "Als Nächstes" grid. opts.lockedNote (string) renders a
+  // One card in the "Tägliches Lernpensum" grid. opts.lockedNote (string) renders a
   // greyed-out, non-skippable preview that explains why the item is still waiting.
   function nextItemCard(p, model, opts) {
     opts = opts || {};
@@ -766,7 +766,7 @@
 
   function buildNextUp(model) {
     var box = el('div', 'path-next');
-    box.appendChild(el('div', 'path-section-title', 'Als Nächstes'));
+    box.appendChild(el('div', 'path-section-title', 'Tägliches Lernpensum'));
 
     var waiting = model.waiting || [];
 
