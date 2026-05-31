@@ -6041,6 +6041,54 @@
           tip: 'Lern die Paare wie Vokabel-Duos statt einzeln — 開く ⇄ 開ける zusammen. Dann sitzt sowohl die Bedeutung als auch die Partikel.'
         }
       ]
+    },
+
+    // ===================== LEKTION 156 =====================
+    {
+      id: 'lesson-156',
+      number: 156,
+      title: '〜場合（は）',
+      subtitle: 'Für den Fall, dass…',
+      level: 'N4',
+      intro: '〜場合 (ばあい) heißt „im Fall, dass…" / „falls…". Anders als die allgemeinen Konditionale たら・ば・と・なら behandelt 場合 eine Situation wie <strong>einen von mehreren möglichen Fällen</strong> — genau wie in einer Anleitung oder Hausordnung: „Im Brandfall…", „Bei Regen…". Deshalb klingt es förmlicher und taucht oft in Regeln, Hinweisen und geschriebenem Japanisch auf.',
+      sections: [
+        {
+          heading: 'Die Grundidee',
+          text: '場合 ist eigentlich das Nomen „Fall / Situation". Vorangestellt beschreibt es die Bedingung, unter der etwas gilt. Übersetzen lässt es sich mit „im Falle von…", „falls…", „wenn…". Der Beiklang ist sachlich-aufzählend: <em>für diesen bestimmten Fall</em> gilt Folgendes (im Gegensatz zu anderen Fällen).',
+          examples: [
+            { jp: '火事の場合は、エレベーターを使わないでください。', romaji: 'Kaji no baai wa, erebētā o tsukawanaide kudasai.', de: 'Im Brandfall benutzen Sie bitte nicht den Aufzug.' },
+            { jp: '雨の場合は、試合を中止します。', romaji: 'Ame no baai wa, shiai o chūshi shimasu.', de: 'Bei Regen wird das Spiel abgesagt.' },
+            { jp: '遅れる場合は、連絡してください。', romaji: 'Okureru baai wa, renraku shite kudasai.', de: 'Falls Sie sich verspäten, geben Sie bitte Bescheid.' }
+          ]
+        },
+        {
+          heading: 'Anschluss an die Wortarten',
+          text: 'Vor 場合 steht das Wort in der <strong>Bestimmungsform</strong> (wie vor einem Nomen):<ul class="lesson-rules"><li><strong>Verb:</strong> Wörterbuchform / verneint / Vergangenheit + 場合 — 行く場合・行かない場合・行った場合</li><li><strong>い-Adjektiv:</strong> direkt — 高い場合</li><li><strong>な-Adjektiv:</strong> + な — 必要な場合</li><li><strong>Nomen:</strong> + の — 地震の場合</li></ul>Das は nach 場合 ist häufig, aber nicht zwingend — es hebt die Bedingung als Thema hervor.',
+          examples: [
+            { jp: '分からない場合は、質問してください。', romaji: 'Wakaranai baai wa, shitsumon shite kudasai.', de: 'Falls Sie etwas nicht verstehen, fragen Sie bitte.' },
+            { jp: '必要な場合は、コピーを取ってください。', romaji: 'Hitsuyō na baai wa, kopī o totte kudasai.', de: 'Bei Bedarf machen Sie bitte eine Kopie.' },
+            { jp: '都合が悪い場合は、早めにお知らせください。', romaji: 'Tsugō ga warui baai wa, hayame ni oshirase kudasai.', de: 'Falls es Ihnen nicht passt, sagen Sie bitte frühzeitig Bescheid.' }
+          ]
+        },
+        {
+          heading: '〜る場合 vs 〜た場合',
+          text: 'Wie bei vielen Mustern macht die Zeitform vor 場合 einen feinen Unterschied. <strong>〜る場合</strong> = „im Fall, dass man (etwas) tut" — die Handlung steht noch bevor. <strong>〜た場合</strong> = „falls (etwas) eingetreten ist" — es betont den bereits erfolgten Zustand, oft bei hypothetischen Folgen.',
+          examples: [
+            { jp: '予約する場合は、電話してください。', romaji: 'Yoyaku suru baai wa, denwa shite kudasai.', de: 'Wenn Sie reservieren möchten, rufen Sie bitte an. (Handlung steht bevor)' },
+            { jp: '予約した場合は、キャンセルできません。', romaji: 'Yoyaku shita baai wa, kyanseru dekimasen.', de: 'Falls Sie reserviert haben, können Sie nicht stornieren. (bereits geschehen)' }
+          ],
+          tip: 'In Anleitungen und Verträgen begegnet dir oft 〜た場合: „故障した場合は…" („im Falle eines Defekts…"). Die た-Form macht den eingetretenen Zustand zur Bedingung.'
+        },
+        {
+          heading: '場合 vs たら・なら',
+          text: 'Alle drücken Bedingungen aus, aber mit unterschiedlichem Ton. <strong>場合</strong> = sachlich, aufzählend, „in diesem Fall (von mehreren)" — typisch für Regeln und Schriftsprache. <strong>たら</strong> = allgemein „wenn/sobald…, dann" im Alltag. <strong>なら</strong> = reagiert auf etwas Gesagtes („wenn das so ist…"). Wo たら gesprochen-natürlich klingt, wirkt 場合 nüchtern und regelhaft.',
+          examples: [
+            { jp: '東京に行く場合は、新幹線が便利です。', romaji: 'Tōkyō ni iku baai wa, shinkansen ga benri desu.', de: 'Falls man nach Tokyo fährt, ist der Shinkansen praktisch. (sachlich, ein Fall)' },
+            { jp: '東京に行ったら、連絡するね。', romaji: 'Tōkyō ni ittara, renraku suru ne.', de: 'Wenn ich nach Tokyo komme, melde ich mich. (alltäglich, zeitlich)' }
+          ],
+          tip: 'Faustregel: Klingt es wie ein Punkt in einer Hausordnung oder Anleitung? → 場合. Ist es lockere Alltagssprache? → eher たら.'
+        }
+      ]
     }
   ];
 
@@ -6069,7 +6117,7 @@
     'N4': [
       'lesson-31', 'lesson-14', 'lesson-15', 'lesson-155', 'lesson-98', 'lesson-99',
       'lesson-97', 'lesson-100', 'lesson-101', 'lesson-10', 'lesson-105',
-      'lesson-102', 'lesson-106', 'lesson-108', 'lesson-13',
+      'lesson-102', 'lesson-156', 'lesson-106', 'lesson-108', 'lesson-13',
       'lesson-11', 'lesson-12', 'lesson-107', 'lesson-124', 'lesson-125',
       'lesson-153', 'lesson-126', 'lesson-127', 'lesson-128', 'lesson-129', 'lesson-130',
       'lesson-131', 'lesson-132', 'lesson-133',
