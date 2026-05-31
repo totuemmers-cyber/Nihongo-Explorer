@@ -487,6 +487,28 @@
     panel.appendChild(shell);
   }
 
+  // Collapsible Statistik dashboard, folded in at the bottom so it doesn't need
+  // its own menu entry. Rendered lazily (and refreshed) only when expanded, so
+  // opening the Lernpfad — the default landing tab — stays cheap.
+  function buildStatsSection() {
+    var box = el('div', 'path-stats');
+    var header = el('div', 'path-stats-header');
+    header.innerHTML = '<span class="path-section-title">Statistik</span>' +
+      '<svg class="toggle-icon collapsed" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+    var body = el('div', 'path-stats-body collapsed');
+    header.addEventListener('click', function () {
+      if (window.app && window.app.playTick) window.app.playTick();
+      var icon = header.querySelector('.toggle-icon');
+      var collapsed = body.classList.toggle('collapsed');
+      if (icon) icon.classList.toggle('collapsed');
+      // Render (or refresh) the dashboard each time it is opened.
+      if (!collapsed && window.Stats && window.Stats.renderInto) window.Stats.renderInto(body);
+    });
+    box.appendChild(header);
+    box.appendChild(body);
+    return box;
+  }
+
   function render() {
     if (!ensurePanel()) return;
     loadModel().then(function (model) {
@@ -515,6 +537,8 @@
       overview.appendChild(buildLessons(model));
       overview.appendChild(buildAdjust(model));
       shell.appendChild(overview);
+
+      shell.appendChild(buildStatsSection());
 
       panel.appendChild(shell);
     }).catch(function () {

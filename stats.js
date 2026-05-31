@@ -12,6 +12,9 @@
   var DAY_MS = 24 * 60 * 60 * 1000;
   var HEATMAP_WEEKS = 26;
   var panel = null;
+  // When embedded (e.g. inside the Lernpfad's collapsible Statistik section) the
+  // host already provides a heading, so we skip our own big title.
+  var embedded = false;
 
   // --- DOM helper (mirrors learning-path.js / srs-ui.js) ---
   function el(tag, cls, text) {
@@ -140,12 +143,24 @@
   // ====================================================================
 
   function ensurePanel() {
-    panel = document.getElementById('stats-content');
+    // Don't clobber a container set explicitly via renderInto().
+    if (!panel) panel = document.getElementById('stats-content');
     return panel;
   }
 
   function onTabActivate() {
+    embedded = false;
     if (!ensurePanel()) return;
+    renderLoading();
+    (window.SRSStore ? window.SRSStore.init().catch(function () {}) : Promise.resolve()).then(render);
+  }
+
+  // Render the dashboard into an arbitrary container (used by the Lernpfad's
+  // collapsible Statistik section so the standalone tab can be retired).
+  function renderInto(container) {
+    if (!container) return;
+    embedded = true;
+    panel = container;
     renderLoading();
     (window.SRSStore ? window.SRSStore.init().catch(function () {}) : Promise.resolve()).then(render);
   }
@@ -153,7 +168,7 @@
   function renderLoading() {
     panel.innerHTML = '';
     var shell = el('div', 'review-shell');
-    shell.appendChild(el('div', 'review-title', 'Statistik'));
+    if (!embedded) shell.appendChild(el('div', 'review-title', 'Statistik'));
     shell.appendChild(el('div', 'review-subtitle', 'Auswertung wird geladen…'));
     panel.appendChild(shell);
   }
@@ -175,7 +190,7 @@
       var shell = el('div', 'review-shell');
 
       var header = el('div', 'review-header');
-      header.appendChild(el('div', 'review-title', 'Statistik'));
+      if (!embedded) header.appendChild(el('div', 'review-title', 'Statistik'));
       header.appendChild(el('div', 'review-subtitle', 'Dein Lernverlauf — aus deinem Wiederholungs-Log berechnet.'));
       shell.appendChild(header);
 
@@ -372,6 +387,7 @@
 
   window.Stats = {
     onTabActivate: onTabActivate,
+    renderInto: renderInto,
     _engine: {
       activityByDay: activityByDay,
       longestStreak: longestStreak,

@@ -540,15 +540,21 @@ async function run() {
     return box && box.textContent.indexOf('Aktive Karten:') !== -1;
   }, { description: 'diagnostics reports card counts' });
 
-  // === Statistik dashboard renders from the existing card/event data ===
-  click(document.querySelector('[data-tab="stats"]'), window);
+  // === Statistik dashboard is folded into the Lernpfad as a collapsible section ===
+  click(document.querySelector('[data-tab="path"]'), window);
+  let statsHeader;
   await waitFor(function () {
-    return document.querySelector('#stats-content .review-stats') &&
-      document.querySelector('#stats-content .stats-heatmap') &&
-      document.querySelector('#stats-content .stats-forecast');
-  }, { description: 'Statistik tab renders summary, activity heatmap and forecast' });
-  // The settings DOM stays in #review-content (just hidden behind the Statistik tab),
-  // so its reset button is still queryable below — no need to re-open settings.
+    statsHeader = document.querySelector('#path-content .path-stats-header');
+    return !!statsHeader;
+  }, { description: 'Lernpfad shows a collapsible Statistik section' });
+  click(statsHeader, window); // expand → renders lazily
+  await waitFor(function () {
+    return document.querySelector('#path-content .review-stats') &&
+      document.querySelector('#path-content .stats-heatmap') &&
+      document.querySelector('#path-content .stats-forecast');
+  }, { description: 'Lernpfad Statistik section renders summary, activity heatmap and forecast' });
+  // The settings DOM lives in #review-content (just hidden), so its reset button
+  // is still queryable below — no need to re-open settings.
 
   const resetBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
     return btn.textContent.indexOf('Gesamten Fortschritt zurücksetzen') !== -1;

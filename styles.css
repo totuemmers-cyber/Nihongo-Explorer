@@ -1404,6 +1404,36 @@ main {
   letter-spacing: 0.03em;
 }
 
+/* Collapsible Statistik section folded into the bottom of the Lernpfad. */
+.path-stats {
+  margin-top: 18px;
+  border-top: 1px solid var(--border-color, rgba(128, 128, 128, 0.2));
+  padding-top: 6px;
+}
+
+.path-stats-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+  padding: 8px 0;
+}
+
+.path-stats-header .toggle-icon {
+  margin-left: auto;
+  transition: transform 0.25s ease;
+  color: var(--text-secondary);
+}
+
+.path-stats-header .toggle-icon.collapsed {
+  transform: rotate(-90deg);
+}
+
+.path-stats-body.collapsed {
+  display: none;
+}
+
 .path-backup-warning {
   border: 1px solid var(--n4-border);
   border-radius: 8px;
