@@ -179,6 +179,16 @@ kbd {
   --accent: #6366f1;
   --accent-hover: #4f46e5;
   --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
+  /* Semantic danger/destructive (was hardcoded #c0392b in several places) */
+  --danger: #c0392b;
+  --danger-hover: #a93226;
+  /* Lernpfad chips (tokenized so dark mode + palette stay adjustable in one place) */
+  --path-chip-kanji-bg: rgba(46, 158, 91, 0.18);
+  --path-chip-kanji-color: #2e9e5b;
+  --path-chip-vocab-bg: rgba(64, 120, 220, 0.18);
+  --path-chip-vocab-color: var(--accent);
+  --path-chip-grammar-bg: rgba(217, 154, 43, 0.2);
+  --path-chip-grammar-color: #d99a2b;
   /* Grammar categories (shared palette with JLPT levels) */
   --cat-partikel: #3b82f6;
   --cat-partikel-bg: #eff6ff;
@@ -1681,9 +1691,9 @@ main {
   color: var(--text-secondary);
 }
 
-.path-chip-kanji { background: rgba(46, 158, 91, 0.18); color: #2e9e5b; }
-.path-chip-vocab { background: rgba(64, 120, 220, 0.18); color: var(--accent); }
-.path-chip-grammar { background: rgba(217, 154, 43, 0.2); color: #d99a2b; }
+.path-chip-kanji { background: var(--path-chip-kanji-bg); color: var(--path-chip-kanji-color); }
+.path-chip-vocab { background: var(--path-chip-vocab-bg); color: var(--path-chip-vocab-color); }
+.path-chip-grammar { background: var(--path-chip-grammar-bg); color: var(--path-chip-grammar-color); }
 
 .path-adjust-row {
   display: flex;
@@ -2001,14 +2011,14 @@ main {
 }
 
 .quiz-btn-danger {
-  background: #c0392b;
+  background: var(--danger);
   color: #fff;
-  border-color: #c0392b;
+  border-color: var(--danger);
 }
 
 .quiz-btn-danger:hover {
-  background: #a93226;
-  border-color: #a93226;
+  background: var(--danger-hover);
+  border-color: var(--danger-hover);
 }
 
 .quiz-btn-danger:disabled {
@@ -2017,7 +2027,7 @@ main {
 }
 
 .review-error {
-  color: #c0392b;
+  color: var(--danger);
   font-weight: 600;
   margin-top: 0.5rem;
 }
