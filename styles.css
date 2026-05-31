@@ -1440,8 +1440,21 @@ main {
   transform: rotate(-90deg);
 }
 
+/* Slide open like the other collapsibles. Grid-rows animation handles the
+   dashboard's variable height without a max-height cap that could clip it. */
+.path-stats-body {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
 .path-stats-body.collapsed {
-  display: none;
+  grid-template-rows: 0fr;
+}
+
+.path-stats-body > * {
+  min-height: 0;
+  overflow: hidden;
 }
 
 .path-backup-warning {
@@ -2720,10 +2733,12 @@ main {
   flex-shrink: 0;
   color: var(--text-secondary);
   transition: transform 0.25s ease;
+  /* Match the other collapsibles: point sideways when closed, down when open. */
+  transform: rotate(-90deg);
 }
 
 .gl-card-chevron.open {
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
 .gl-card-body {
