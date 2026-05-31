@@ -176,6 +176,17 @@ async function run() {
   }, { description: 'closing the overlay returns to the Lernpfad' });
   assert(window.app.activeTab === 'path', 'still on the Lernpfad after closing the overlay');
 
+  // Two-level navigation: reference sections live under group tabs (Schrift/Wortschatz).
+  assert(document.querySelector('[data-group="schrift"]'), 'top nav has the Schrift group');
+  assert(document.getElementById('subtab-bar').classList.contains('hidden'),
+    'subnav is hidden on the Lernpfad');
+  click(document.querySelector('[data-group="schrift"]'), window);
+  await waitFor(function () {
+    return !document.getElementById('subtab-bar').classList.contains('hidden') &&
+      window.app.activeTab === 'kana';
+  }, { description: 'Schrift group opens its subnav and its default section' });
+  assert(document.querySelector('.subtab-btn[data-tab="kanji"]'), 'Schrift subnav offers Kanji');
+
   click(document.querySelector('[data-tab="quiz"]'), window);
   await waitFor(function () {
     return document.querySelector('#quiz-content .quiz-home-card.browse');

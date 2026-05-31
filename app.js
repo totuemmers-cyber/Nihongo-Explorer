@@ -628,14 +628,28 @@
     });
   }
 
+  // Two-level navigation: some top tabs are groups that hold several sections.
+  // The sections themselves are unchanged — this only governs the nav chrome.
+  var TAB_GROUPS = { schrift: ['kana', 'radicals', 'kanji'], wortschatz: ['vocab', 'onomatopoeia', 'counters'] };
+  var SECTION_GROUP = {};
+  Object.keys(TAB_GROUPS).forEach(function (g) {
+    TAB_GROUPS[g].forEach(function (s) { SECTION_GROUP[s] = g; });
+  });
+  var lastInGroup = { schrift: 'kana', wortschatz: 'vocab' };
+
   function switchTab(tab) {
     var pendingSection = app.sections[tab] && !app.sections[tab].isLoaded;
     app.activeTab = tab;
     playSwoosh();
 
+    var group = SECTION_GROUP[tab] || null;
+    if (group) lastInGroup[group] = tab;
     tabBtns.forEach(function (btn) {
-      btn.classList.toggle('active', btn.getAttribute('data-tab') === tab);
+      var active = btn.getAttribute('data-tab') === tab ||
+        (group !== null && btn.getAttribute('data-group') === group);
+      btn.classList.toggle('active', active);
     });
+    updateSubnav(group, tab);
     moveTabIndicator();
 
     if (!pendingSection) {
@@ -689,6 +703,7 @@
   // Cache static DOM collections
   var tabBtns = document.querySelectorAll('.tab-btn');
   var tabIndicator = document.querySelector('.tab-indicator');
+  var subtabBar = document.getElementById('subtab-bar');
   var tabPanels = {};
   sectionNames.forEach(function (name) {
     tabPanels[name] = document.getElementById(name + '-tab');
@@ -705,7 +720,28 @@
     }
   }
 
+  // Show the secondary bar for the active group and mark the active member.
+  function updateSubnav(group, tab) {
+    if (!subtabBar) return;
+    if (!group) { subtabBar.classList.add('hidden'); return; }
+    subtabBar.classList.remove('hidden');
+    subtabBar.querySelectorAll('.subtab-btn').forEach(function (b) {
+      var inGroup = b.getAttribute('data-group') === group;
+      b.classList.toggle('hidden', !inGroup);
+      b.classList.toggle('active', inGroup && b.getAttribute('data-tab') === tab);
+    });
+  }
+
   tabBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var group = this.getAttribute('data-group');
+      if (group) switchTab(lastInGroup[group] || TAB_GROUPS[group][0]);
+      else switchTab(this.getAttribute('data-tab'));
+    });
+  });
+
+  // Secondary (group member) navigation.
+  document.querySelectorAll('.subtab-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
       switchTab(this.getAttribute('data-tab'));
     });

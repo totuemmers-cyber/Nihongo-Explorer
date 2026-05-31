@@ -41,44 +41,54 @@
         </div>
       </div>
       <nav class="tab-bar" aria-label="Hauptnavigation">
-        <button class="tab-btn" data-tab="path">
+        <button class="tab-btn active" data-tab="path">
           <span class="tab-icon-kana">道</span>
           Lernpfad
           <span id="review-due-badge" class="review-due-badge hidden"></span>
         </button>
-        <button class="tab-btn active" data-tab="kana">
-          <span class="tab-icon-kana">あ</span>
-          Kana
+        <button class="tab-btn" data-group="schrift">
+          <span class="tab-icon-kana">字</span>
+          Schrift
         </button>
-        <button class="tab-btn" data-tab="radicals">
-          <span class="tab-icon-kana">部</span>
-          Radikale
-        </button>
-        <button class="tab-btn" data-tab="kanji">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h8"/></svg>
-          Kanji
-        </button>
-        <button class="tab-btn" data-tab="vocab">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-          Vokabeln
-        </button>
-        <button class="tab-btn" data-tab="onomatopoeia">
-          <span class="tab-icon-kana">擬</span>
-          Lautmalerei
+        <button class="tab-btn" data-group="wortschatz">
+          <span class="tab-icon-kana">語</span>
+          Wortschatz
         </button>
         <button class="tab-btn" data-tab="grammar">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
           Grammatik
-        </button>
-        <button class="tab-btn" data-tab="counters">
-          <span class="tab-icon-kana">数</span>
-          Zahlen
         </button>
         <button class="tab-btn" data-tab="quiz">
           <span class="tab-icon-kana">試</span>
           Quiz
         </button>
         <div class="tab-indicator"></div>
+      </nav>
+      <nav class="subtab-bar hidden" id="subtab-bar" aria-label="Unternavigation">
+        <button class="subtab-btn" data-group="schrift" data-tab="kana">
+          <span class="tab-icon-kana">あ</span>
+          Kana
+        </button>
+        <button class="subtab-btn" data-group="schrift" data-tab="radicals">
+          <span class="tab-icon-kana">部</span>
+          Radikale
+        </button>
+        <button class="subtab-btn" data-group="schrift" data-tab="kanji">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h8"/></svg>
+          Kanji
+        </button>
+        <button class="subtab-btn" data-group="wortschatz" data-tab="vocab">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          Vokabeln
+        </button>
+        <button class="subtab-btn" data-group="wortschatz" data-tab="onomatopoeia">
+          <span class="tab-icon-kana">擬</span>
+          Lautmalerei
+        </button>
+        <button class="subtab-btn" data-group="wortschatz" data-tab="counters">
+          <span class="tab-icon-kana">数</span>
+          Zahlen
+        </button>
       </nav>
       <!-- Kanji Tab Controls -->
       <div id="kanji-controls" class="tab-content hidden">

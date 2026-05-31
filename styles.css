@@ -5732,3 +5732,50 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* === Sekundäre Navigation (Gruppen-Unterzeile: Schrift / Wortschatz) === */
+.subtab-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 0 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.subtab-bar::-webkit-scrollbar { display: none; }
+
+.subtab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  border-radius: var(--radius-pill);
+  font-family: var(--font);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.subtab-btn .tab-icon-kana {
+  font-family: var(--font-jp);
+  font-size: 0.95em;
+  line-height: 1;
+}
+
+.subtab-btn:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.subtab-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
