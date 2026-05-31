@@ -406,6 +406,17 @@ async function run() {
   const afterRead = await window.SRSStore.getPathState();
   assert(afterRead && Array.isArray(afterRead.readLessons) && afterRead.readLessons.length > 0,
     'opening a lesson marks it read in pathState');
+  // Reading a lesson is study activity: it keeps the daily streak alive...
+  const todayKey = (function () { const d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); })();
+  assert(afterRead.streakLastDay === todayKey, 'reading a lesson records the day toward the streak');
+  // ...and logs a gradeless activity event (counts in the heatmap, excluded from accuracy).
+  let lessonEv = null;
+  for (let i = 0; i < 40 && !lessonEv; i++) {
+    const evs = await window.SRSStore.getAllEvents();
+    lessonEv = evs.find(function (e) { return e && e.type === 'lesson'; });
+    if (!lessonEv) await new Promise(function (r) { setTimeout(r, 25); });
+  }
+  assert(lessonEv && !lessonEv.grade, 'reading a lesson logs a gradeless activity event');
 
   // Back to the Lernpfad for the study-session flow
   click(document.querySelector('[data-tab="path"]'), window);

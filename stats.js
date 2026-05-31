@@ -74,6 +74,7 @@
     var total = 0, correct = 0, bySection = {};
     (events || []).forEach(function (e) {
       if (!e || !e.reviewedAt) return;
+      if (!e.grade) return; // skip non-review activity (e.g. lesson reads)
       var t = new Date(e.reviewedAt).getTime();
       if (isNaN(t) || t < cutoff) return;
       total++;

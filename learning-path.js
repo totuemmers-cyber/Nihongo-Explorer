@@ -830,9 +830,25 @@
     return String(lesson.level || '').split('/').indexOf(level) !== -1;
   }
 
+  // Reading a lesson is genuine study: keep the daily streak alive and log a
+  // lightweight activity event. The event carries no `grade`, so it counts in
+  // the activity heatmap but is excluded from the accuracy stats.
+  function recordLessonActivity(path, id) {
+    markStudyDay(path);
+    if (window.SRSStore && window.SRSStore.addEvent) {
+      window.SRSStore.addEvent({
+        eventId: 'lesson-' + Date.now() + '-' + Math.random().toString(36).slice(2),
+        type: 'lesson',
+        lessonId: id,
+        reviewedAt: Date.now()
+      }).catch(function () {});
+    }
+  }
+
   function markLessonRead(model, id) {
     if (model.path.readLessons.indexOf(id) === -1) {
       model.path.readLessons.push(id);
+      recordLessonActivity(model.path, id);
       window.SRSStore.savePathState(model.path).catch(function () {});
     }
   }
@@ -849,7 +865,12 @@
 
   function toggleLessonRead(model, id) {
     var i = model.path.readLessons.indexOf(id);
-    if (i === -1) model.path.readLessons.push(id); else model.path.readLessons.splice(i, 1);
+    if (i === -1) {
+      model.path.readLessons.push(id);
+      recordLessonActivity(model.path, id);
+    } else {
+      model.path.readLessons.splice(i, 1);
+    }
     window.SRSStore.savePathState(model.path).then(render).catch(render);
     if (window.app) window.app.playTick();
   }
@@ -884,6 +905,22 @@
     // Show only the next few unread lessons (already in didactic order).
     var unread = lessons.filter(function (l) { return read.indexOf(l.id) === -1; });
     var readCount = lessons.length - unread.length;
+
+    // Lesson progress for this level, surfaced as a bar in the same style as the
+    // JLPT progress rows so it reads as a first-class metric, not a side count.
+    var prog = el('div', 'path-level-row');
+    var phead = el('div', 'path-level-head');
+    phead.appendChild(el('span', 'path-level-badge ' + level, level));
+    phead.appendChild(el('span', 'path-level-count', readCount + ' / ' + lessons.length + ' gelesen'));
+    prog.appendChild(phead);
+    var pbar = el('div', 'path-bar');
+    if (lessons.length && readCount) {
+      var pseg = el('div', 'path-bar-seg seg-mastered');
+      pseg.style.width = (readCount / lessons.length * 100) + '%';
+      pbar.appendChild(pseg);
+    }
+    prog.appendChild(pbar);
+    body.appendChild(prog);
 
     if (!unread.length) {
       body.appendChild(el('div', 'review-empty-hint', 'Alle Lektionen für ' + level + ' gelesen ✓'));
