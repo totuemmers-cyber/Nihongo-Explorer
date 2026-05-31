@@ -11,7 +11,6 @@
   // --- Configuration ---
   var LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1'];
   var SECTIONS = ['kanji', 'vocab', 'grammar'];
-  var UNIT_SIZE = { kanji: 15, vocab: 20, grammar: 8 };
   var LEVEL_ADVANCE_RATIO = 0.9; // familiar-or-better ratio to move past a level
   // Weighted round-robin mix when assembling a batch of new items.
   var MIX_WEIGHTS = { kanji: 1, vocab: 1.3, grammar: 0.6 };
@@ -84,9 +83,39 @@
     return dayStr(d);
   }
 
+  // Parse a dayStr() value ("YYYY-M-D") into a comparable integer (YYYYMMDD), or
+  // null if it isn't a valid day string (legacy/garbage values like "old").
+  function parseDay(s) {
+    var m = /^(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(String(s || ''));
+    if (!m) return null;
+    return (+m[1]) * 10000 + (+m[2]) * 100 + (+m[3]);
+  }
+
+  // True if calendar day `a` is strictly earlier than `b`. An unparseable `a`
+  // counts as "earlier" so a stale/garbage stored date still triggers a reset;
+  // a future `a` (device clock moved backward) counts as NOT earlier, so callers
+  // can refuse to zero a counter or lapse a streak on a backward clock change.
+  function dayBefore(a, b) {
+    var pa = parseDay(a), pb = parseDay(b);
+    if (pa === null) return true;
+    if (pb === null) return false;
+    return pa < pb;
+  }
+
   function normalizePath(p) {
     p = p || {};
-    var daily = (p.newDaily && p.newDaily.date === todayStr()) ? p.newDaily : { date: todayStr(), count: 0 };
+    // Daily-new counter. Reset to 0 only when the stored day is strictly in the
+    // PAST — a genuine new day. If the device clock moved backward (stored day now
+    // reads as today or the future), carry the counter forward under today's date
+    // instead of zeroing it, so the daily limit can't be bypassed by time travel.
+    var daily;
+    if (p.newDaily && p.newDaily.date === todayStr()) {
+      daily = p.newDaily;
+    } else if (p.newDaily && !dayBefore(p.newDaily.date, todayStr())) {
+      daily = { date: todayStr(), count: (typeof p.newDaily.count === 'number' ? p.newDaily.count : 0) };
+    } else {
+      daily = { date: todayStr(), count: 0 };
+    }
     return {
       schemaV: 1,
       kanaDone: !!p.kanaDone,
@@ -108,7 +137,10 @@
   function currentStreak(path) {
     var last = path.streakLastDay;
     if (!last) return 0;
-    if (last === todayStr() || last === yesterdayStr()) return path.streakCount || 0;
+    // Alive if the last study day is yesterday, today, or — after a backward clock
+    // change — a day that now reads as the future. Only a genuine gap (last day
+    // strictly before yesterday) lapses the streak to 0.
+    if (last === yesterdayStr() || !dayBefore(last, todayStr())) return path.streakCount || 0;
     return 0;
   }
 
@@ -116,16 +148,38 @@
   // Mutates path; caller persists. No-op if today was already counted.
   function markStudyDay(path) {
     var today = todayStr();
-    if (path.streakLastDay === today) return;
+    // Already counted today, or the clock moved back and the last study day now
+    // reads as today/future — leave the streak untouched rather than restarting it.
+    if (path.streakLastDay && !dayBefore(path.streakLastDay, today)) return;
     path.streakCount = (path.streakLastDay === yesterdayStr()) ? (path.streakCount || 0) + 1 : 1;
     path.streakLastDay = today;
+  }
+
+  // Sticky flag: a pathState write has failed since the last successful save. The
+  // next render surfaces a banner so a silent storage failure (e.g. quota, evicted
+  // IndexedDB) can't quietly drop a skip, a streak, or the daily counter.
+  var pathSaveFailed = false;
+
+  // Persist pathState without ever rejecting: on failure it warns to the console and
+  // sets pathSaveFailed so render() can show the banner. Returns a promise that always
+  // resolves, so callers can chain `.then(render)` for both the success and failure path.
+  function savePathStateSafe(path) {
+    if (!window.SRSStore || !window.SRSStore.savePathState) return Promise.resolve();
+    return window.SRSStore.savePathState(path).then(function () {
+      pathSaveFailed = false;
+    }, function (err) {
+      pathSaveFailed = true;
+      if (window.console && console.warn) {
+        console.warn('Lernpfad: Fortschritt konnte nicht gespeichert werden.', err);
+      }
+    });
   }
 
   // Mark + persist a study day for review/practice launches that bypass startToday.
   function recordStudyStart(path) {
     markStudyDay(path);
     path.lastSessionAt = new Date().toISOString();
-    window.SRSStore.savePathState(path).catch(function () {});
+    savePathStateSafe(path);
   }
 
   // --- Mastery derivation ---
@@ -237,13 +291,18 @@
   // The kanji (still 'new') inside a word that keep it gated. Empty => unlocked.
   function blockingKanji(v, kanjiIndex, map) {
     var w = v.word || '', out = [];
-    for (var i = 0; i < w.length; i++) {
-      var code = w.charCodeAt(i);
-      if (code >= 0x3400 && code <= 0x9FFF) { // CJK Unified + Ext-A
-        var k = kanjiIndex[w[i]];
-        if (!k) continue; // kanji absent from dataset -> can't gate on it
-        if (itemStatus('kanji', k, map) === 'new') out.push(w[i]);
-      }
+    // Iterate by code point (not UTF-16 unit) so rare kanji in the supplementary
+    // planes (CJK Ext-B+, stored as surrogate pairs) are gated too, not skipped.
+    for (var i = 0; i < w.length;) {
+      var cp = w.codePointAt(i);
+      var ch = String.fromCodePoint(cp);
+      i += ch.length; // 2 for a surrogate pair, 1 otherwise
+      var isCjk = (cp >= 0x3400 && cp <= 0x9FFF) ||   // CJK Unified + Ext-A (BMP)
+        (cp >= 0x20000 && cp <= 0x2FA1F);             // Ext-B..F + Compat Ideographs Supplement
+      if (!isCjk) continue;
+      var k = kanjiIndex[ch];
+      if (!k) continue; // kanji absent from dataset -> can't gate on it
+      if (itemStatus('kanji', k, map) === 'new') out.push(ch);
     }
     return out;
   }
@@ -338,6 +397,18 @@
     return window.SRSScheduler.sortQueue(due).slice(0, limit);
   }
 
+  // Assemble today's session from the due queue plus the available new-card supply
+  // (ready backlog + freshly-introduced primaries), capped by the daily-new budget.
+  // Side-effect-free so the budget accounting can be unit-tested without the store.
+  // Returns { session, newCount } where newCount is how many NEW cards the session
+  // contains — exactly the amount the daily counter should advance by (so the same
+  // card is never counted twice, and the cap is never exceeded).
+  function assembleSession(due, newReady, newlyReady, budget) {
+    var cap = Math.max(0, budget || 0);
+    var newCardsToday = (newReady || []).concat(newlyReady || []).slice(0, cap);
+    return { session: (due || []).concat(newCardsToday), newCount: newCardsToday.length };
+  }
+
   // --- Model assembly ---
   function loadModel() {
     return ensureData().then(function () {
@@ -363,7 +434,7 @@
       var leveledUp = lv.leveledUp;
       path.seenLevel = lv.seenLevel;
       if (path.seenLevel !== prevSeen && (prevSeen != null || leveledUp)) {
-        window.SRSStore.savePathState(path).catch(function () {});
+        savePathStateSafe(path);
       }
       var due = dueSorted(cards, settings.dailyReviewLimit);
       // The daily "new" budget is measured in cards: each introduction is a single
@@ -412,18 +483,15 @@
           });
         });
         // Today's new cards = ready backlog + new primaries, capped by the budget.
-        var newCardsToday = (model.newReady || []).concat(newlyReady).slice(0, Math.max(0, model.budget));
-        var session = model.due.concat(newCardsToday);
+        var asm = assembleSession(model.due, model.newReady, newlyReady, model.budget);
+        var session = asm.session;
         // Only count the day toward the streak once there is a real session to run —
         // an empty/stale launch must not pad the streak or the daily counter.
         if (!session.length) { render(); return null; }
-        if (newCardsToday.length) model.path.newDaily.count += newCardsToday.length;
+        if (asm.newCount) model.path.newDaily.count += asm.newCount;
         model.path.lastSessionAt = new Date().toISOString();
         markStudyDay(model.path);
-        return window.SRSStore.savePathState(model.path).then(
-          function () { return session; },
-          function () { return session; }
-        );
+        return savePathStateSafe(model.path).then(function () { return session; });
       })
       .then(function (session) {
         if (session) window.SRSUI.startSession(session, true);
@@ -439,7 +507,7 @@
   function skipOne(model, section, item) {
     var key = itemKeyOf(section, item);
     if (model.path.skippedItems.indexOf(key) === -1) model.path.skippedItems.push(key);
-    window.SRSStore.savePathState(model.path).then(render).catch(render);
+    savePathStateSafe(model.path).then(render);
     if (window.app) window.app.playTick();
   }
 
@@ -453,7 +521,7 @@
       var key = itemKeyOf(p.section, p.item);
       if (model.path.skippedItems.indexOf(key) === -1) model.path.skippedItems.push(key);
     });
-    window.SRSStore.savePathState(model.path).then(render).catch(render);
+    savePathStateSafe(model.path).then(render);
     if (window.app) window.app.playTick();
   }
 
@@ -520,6 +588,8 @@
       header.appendChild(el('div', 'review-subtitle', 'Dein nächster Schritt — dynamisch aus deinem Fortschritt berechnet.'));
       shell.appendChild(header);
 
+      if (pathSaveFailed) shell.appendChild(buildSaveErrorBanner());
+
       var warning = buildBackupWarning(model);
       if (warning) shell.appendChild(warning);
 
@@ -548,6 +618,18 @@
       shell.appendChild(el('div', 'review-subtitle', 'Lernpfad konnte nicht geladen werden.'));
       panel.appendChild(shell);
     });
+  }
+
+  // Banner shown after a pathState write failed (quota, evicted IndexedDB, …). The
+  // change survived in memory for this session but was not persisted — make that
+  // visible instead of letting the next reload silently lose it.
+  function buildSaveErrorBanner() {
+    var box = el('div', 'path-backup-warning is-error');
+    box.appendChild(el('div', 'path-backup-warning-head', '⚠️ Fortschritt konnte nicht gespeichert werden'));
+    box.appendChild(el('div', 'path-backup-warning-text',
+      'Eine Änderung wurde nur im Arbeitsspeicher gehalten und ging beim letzten Speichern verloren. '
+      + 'Prüfe den Speicherplatz des Browsers und exportiere zur Sicherheit eine Sicherung.'));
+    return box;
   }
 
   // Prominent banner when there is progress worth protecting but it is not
@@ -784,6 +866,22 @@
         skipOne(model, p.section, it);
       });
       card.appendChild(known);
+
+      // For a grammar item with an explaining lesson the learner hasn't read yet,
+      // offer a non-blocking nudge to read it first (a button can't nest inside the
+      // open <button>, so it lives as its own row at the bottom of the card).
+      if (p.section === 'grammar') {
+        var lesson = lessonForGrammar(it);
+        if (lesson && (model.path.readLessons || []).indexOf(lesson.id) === -1) {
+          var hint = el('button', 'path-next-lesson-hint', '💡 Lektion: ' + lesson.title);
+          hint.title = 'Erklärende Lektion lesen';
+          hint.addEventListener('click', function (e) {
+            e.stopPropagation();
+            openLessonFromPath(lesson.id, model);
+          });
+          card.appendChild(hint);
+        }
+      }
     }
     return card;
   }
@@ -830,6 +928,36 @@
     return String(lesson.level || '').split('/').indexOf(level) !== -1;
   }
 
+  // Index of grammar-item -> teaching lesson, built from each lesson's optional
+  // `grammarIds` (grammar item ids) and `patterns` (exact pattern strings). Memoized
+  // and rebuilt only when getLessons() returns a different array, so the per-render
+  // grammar-card lookup is cheap.
+  var _lessonGrammarIndex = null;
+  var _lessonGrammarSource = null;
+  function lessonGrammarIndex() {
+    if (!window.GrammarLessons || !window.GrammarLessons.getLessons) return null;
+    var lessons = window.GrammarLessons.getLessons();
+    if (_lessonGrammarIndex && _lessonGrammarSource === lessons) return _lessonGrammarIndex;
+    var byId = {}, byPattern = {};
+    (lessons || []).forEach(function (l) {
+      (l.grammarIds || []).forEach(function (gid) { if (!byId[gid]) byId[gid] = l; });
+      (l.patterns || []).forEach(function (pt) { if (!byPattern[pt]) byPattern[pt] = l; });
+    });
+    _lessonGrammarSource = lessons;
+    _lessonGrammarIndex = { byId: byId, byPattern: byPattern };
+    return _lessonGrammarIndex;
+  }
+
+  // The grammar lesson (if any) that teaches a given grammar item — matched by
+  // explicit grammar id first, then exact pattern. Returns null when nothing links,
+  // so the path stays silent rather than guessing a wrong lesson.
+  function lessonForGrammar(item) {
+    if (!item) return null;
+    var idx = lessonGrammarIndex();
+    if (!idx) return null;
+    return (item.id && idx.byId[item.id]) || (item.pattern && idx.byPattern[item.pattern]) || null;
+  }
+
   // Reading a lesson is genuine study: keep the daily streak alive and log a
   // lightweight activity event. The event carries no `grade`, so it counts in
   // the activity heatmap but is excluded from the accuracy stats.
@@ -841,7 +969,11 @@
         type: 'lesson',
         lessonId: id,
         reviewedAt: Date.now()
-      }).catch(function () {});
+      }).catch(function (err) {
+        if (window.console && console.warn) {
+          console.warn('Lernpfad: Lektionsereignis konnte nicht gespeichert werden.', err);
+        }
+      });
     }
   }
 
@@ -849,7 +981,7 @@
     if (model.path.readLessons.indexOf(id) === -1) {
       model.path.readLessons.push(id);
       recordLessonActivity(model.path, id);
-      window.SRSStore.savePathState(model.path).catch(function () {});
+      savePathStateSafe(model.path);
     }
   }
 
@@ -871,7 +1003,7 @@
     } else {
       model.path.readLessons.splice(i, 1);
     }
-    window.SRSStore.savePathState(model.path).then(render).catch(render);
+    savePathStateSafe(model.path).then(render);
     if (window.app) window.app.playTick();
   }
 
@@ -1046,7 +1178,7 @@
         // Reset the level-up baseline: the resulting currentLevel jump is a settings
         // effect, not learning, so the next render adopts it silently (no false banner).
         model.path.seenLevel = null;
-        window.SRSStore.savePathState(model.path).then(render).catch(render);
+        savePathStateSafe(model.path).then(render);
       }));
     box.appendChild(el('div', 'path-adjust-hint',
       'Stufen unter dem Startniveau gelten als bekannt — neue Inhalte starten ab hier. Höhere Stufen folgen automatisch.'));
@@ -1058,7 +1190,7 @@
     dailyBtn.disabled = model.path.newDaily.count === 0;
     dailyBtn.addEventListener('click', function () {
       model.path.newDaily = { date: todayStr(), count: 0 };
-      window.SRSStore.savePathState(model.path).then(render).catch(render);
+      savePathStateSafe(model.path).then(render);
       if (window.app) window.app.playTick();
     });
     actions.appendChild(dailyBtn);
@@ -1137,7 +1269,7 @@
       path.startLevel = levelSel.value;
       path.seenLevel = null; // baseline adopted silently on first render
       var pace = parseInt(paceSel.value, 10) || 20;
-      var savePath = window.SRSStore.savePathState(path);
+      var savePath = savePathStateSafe(path);
       var saveSettings = window.SRSStore.getSettings().then(function (s) {
         s.dailyNewLimit = pace;
         return window.SRSStore.saveSettings(s);
@@ -1243,12 +1375,15 @@
       frontierQueues: frontierQueues,
       pickNewItems: pickNewItems,
       newBudget: newBudget,
+      assembleSession: assembleSession,
       vocabUnlocked: vocabUnlocked,
       blockingKanji: blockingKanji,
       interleave: interleave,
       itemKeyOf: itemKeyOf,
       itemStatus: itemStatus,
       lessonMatchesLevel: lessonMatchesLevel,
+      lessonForGrammar: lessonForGrammar,
+      dayBefore: dayBefore,
       currentStreak: currentStreak,
       markStudyDay: markStudyDay,
       decideLevelUp: decideLevelUp

@@ -326,6 +326,81 @@ function makeStoreContext(storage) {
   check('T17 level does not advance on once-reviewed items', progress.currentLevel === 'N5');
 })();
 
+// === T18: assembleSession spends the daily budget correctly (startToday core) ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const due = ['d1', 'd2'];
+  // Budget covers the whole new supply: every new card is included and counted once.
+  const a1 = eng.assembleSession(due, ['n1'], ['n2', 'n3'], 5);
+  check('T18 session = due + all new when budget allows', a1.session.length === 5);
+  check('T18 newCount equals the new cards added (no double-count)', a1.newCount === 3);
+  // Budget caps the supply: surplus new cards are dropped and the counter never
+  // exceeds the budget (staggered siblings can't inflate the daily count).
+  const a2 = eng.assembleSession(due, ['n1'], ['n2', 'n3'], 2);
+  check('T18 budget caps the new cards introduced', a2.newCount === 2);
+  check('T18 capped session keeps all due + only the capped new', a2.session.length === 4);
+  // Suppressed (budget 0): due still run, but no new cards are counted.
+  const a3 = eng.assembleSession(due, ['n1'], [], 0);
+  check('T18 budget 0 runs due only and counts no new', a3.newCount === 0 && a3.session.length === 2);
+  // No due and no supply -> empty session (startToday guards on this so the streak
+  // and daily counter are never padded by an empty launch).
+  const a4 = eng.assembleSession([], [], [], 5);
+  check('T18 empty session has zero length and zero new', a4.session.length === 0 && a4.newCount === 0);
+})();
+
+// === T19: the kanji gate covers supplementary-plane (surrogate-pair) kanji ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const astral = String.fromCodePoint(0x20BB7); // 𠮷 — CJK Ext-B, stored as a surrogate pair
+  const idx = {};
+  idx[astral] = { kanji: astral, jlpt: 'N5', strokes: 6 };
+  const coldMap = eng.mapFromCards([], eng.normalizePath(null));
+  const blockers = eng.blockingKanji({ word: astral }, idx, coldMap);
+  check('T19 supplementary-plane kanji gates its word (not skipped)', blockers.indexOf(astral) !== -1);
+})();
+
+// === T20: daily counter + streak survive a backward clock change ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const dayStr = function (d) { return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); };
+  const tomorrow = (function () { const d = new Date(); d.setDate(d.getDate() + 1); return dayStr(d); })();
+
+  // Stored day reads as the FUTURE (device clock moved back): carry the counter
+  // forward instead of zeroing it, so the daily new limit can't be bypassed.
+  const carried = eng.normalizePath({ newDaily: { date: tomorrow, count: 7 } });
+  check('T20 a future daily date keeps the counter (no bypass)', carried.newDaily.count === 7);
+  check('T20 a future daily date is re-stamped to today', carried.newDaily.date === (function () { return dayStr(new Date()); })());
+
+  // The streak must not lapse or reset on a backward clock change.
+  const streak = eng.normalizePath({ streakLastDay: tomorrow, streakCount: 4 });
+  check('T20 a future streak day is still alive', eng.currentStreak(streak) === 4);
+  eng.markStudyDay(streak);
+  check('T20 studying after a backward clock change does not reset the streak', streak.streakCount === 4);
+
+  // Regression guard: a genuine past day still resets the daily counter (T4 path).
+  const reset = eng.normalizePath({ newDaily: { date: '2000-1-1', count: 7 } });
+  check('T20 a genuine past day still resets the daily counter', reset.newDaily.count === 0);
+})();
+
+// === T21: grammar items resolve to the lesson that teaches them ===
+(function () {
+  const { window, eng } = makeContext([], defaultSettings, null);
+  window.GrammarLessons = {
+    getLessons: function () {
+      return [
+        { id: 'lesson-1', title: 'は vs が', level: 'N5', grammarIds: ['wa', 'ga'] },
+        { id: 'lesson-x', title: 'Muster', level: 'N5', patterns: ['を'] }
+      ];
+    }
+  };
+  const byId = eng.lessonForGrammar({ id: 'wa', pattern: 'は' });
+  check('T21 grammar item maps to its lesson by id', !!byId && byId.id === 'lesson-1');
+  const byPattern = eng.lessonForGrammar({ id: 'unmapped', pattern: 'を' });
+  check('T21 grammar item maps to its lesson by pattern fallback', !!byPattern && byPattern.id === 'lesson-x');
+  const none = eng.lessonForGrammar({ id: 'nope', pattern: 'ない' });
+  check('T21 an unlinked grammar item yields no lesson (no wrong guess)', none === null);
+})();
+
 function finish() {
   console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
   process.exit(failures.length > 0 ? 1 : 0);

@@ -6179,6 +6179,38 @@
     lessonById[lesson.id] = lesson;
   });
 
+  // Link lessons to the grammar items (by GRAMMAR_DATA id) they teach. The Lernpfad
+  // uses this to nudge "read this lesson first" when a linked grammar pattern is
+  // recommended as a new card. Conservative, high-confidence N5 mappings only;
+  // unlisted lessons simply produce no hint. Extend per level over time.
+  var LESSON_GRAMMAR = {
+    'lesson-1': ['wa', 'ga'],
+    'lesson-2': ['wo', 'ni', 'de'],
+    'lesson-103': ['e', 'to', 'mo', 'ya'],
+    'lesson-104': ['no', 'ne', 'yo'],
+    'lesson-82': ['ga-aru', 'ga-iru'],
+    'lesson-4': ['i-adj-present', 'i-adj-negative', 'i-adj-past', 'i-adj-past-negative',
+      'na-adj-present', 'na-adj-negative', 'na-adj-past', 'na-adj-past-negative'],
+    'lesson-5': ['te-form', 'te-connective'],
+    'lesson-91': ['te-kudasai', 'naide-kudasai'],
+    'lesson-88': ['mashou', 'mashou-ka'],
+    'lesson-120': ['ni-iku'],
+    'lesson-85': ['mou', 'mada'],
+    'lesson-86': ['yori', 'no-hou-ga', 'ichiban'],
+    'lesson-95': ['dake', 'shika-nai'],
+    'lesson-122': ['nakutemo-ii', 'nakereba-naranai'],
+    'lesson-96': ['no-ga-suki'],
+    'lesson-142': ['no-wa-desu'],
+    'lesson-92': ['ta-koto-ga-aru'],
+    'lesson-93': ['n-desu'],
+    'lesson-94': ['to-omoimasu', 'tsumori'],
+    'lesson-89': ['tari-tari'],
+    'lesson-141': ['ku-naru-ni-naru']
+  };
+  Object.keys(LESSON_GRAMMAR).forEach(function (id) {
+    if (lessonById[id]) lessonById[id].grammarIds = LESSON_GRAMMAR[id];
+  });
+
   function overrideLesson(id, patch) {
     var lesson = lessonById[id];
     if (!lesson) return;
@@ -7481,7 +7513,7 @@
   // --- Public API (used by the Lernpfad to surface and open lessons) ---
   function getLessons() {
     return LESSONS.map(function (l) {
-      return { id: l.id, number: l.number, title: l.title, subtitle: l.subtitle, level: l.level };
+      return { id: l.id, number: l.number, title: l.title, subtitle: l.subtitle, level: l.level, grammarIds: l.grammarIds };
     });
   }
 

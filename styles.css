@@ -1679,6 +1679,27 @@ main {
   font-style: italic;
 }
 
+.path-next-lesson-hint {
+  display: block;
+  width: 100%;
+  border: none;
+  border-top: 1px solid var(--border);
+  background: var(--path-chip-grammar-bg);
+  color: var(--path-chip-grammar-color);
+  text-align: left;
+  padding: 0.4rem 0.75rem;
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-bottom-left-radius: var(--radius-sm);
+  border-bottom-right-radius: var(--radius-sm);
+}
+
+.path-next-lesson-hint:hover {
+  filter: brightness(1.05);
+  text-decoration: underline;
+}
+
 .path-next-main {
   font-size: 1.15rem;
   font-weight: 600;
