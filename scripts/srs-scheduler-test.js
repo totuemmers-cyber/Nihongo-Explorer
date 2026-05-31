@@ -31,11 +31,12 @@ assert(good.reps === 1, 'Good grade should increment reps');
 
 // FAMILIAR_MIN_REPS: an item is only "familiar" once each card has survived a
 // real review (reps >= 2). One Good (reps 1, Review) keeps it "learning".
-assert(scheduler.getStatus([good]).className === 'learning',
+// Evaluate with an explicit `now` so the not-yet-due cards aren't seen as due.
+assert(scheduler.getStatus([good], now).className === 'learning',
   'A card reviewed only once should keep the item in learning, not familiar');
 const twiceGood = scheduler.applyGrade(good, 'Good', now + scheduler.constants.DAY_MS);
 assert(twiceGood.reps === 2, 'precondition: second Good gives reps 2');
-assert(scheduler.getStatus([twiceGood]).className === 'familiar',
+assert(scheduler.getStatus([twiceGood], now + scheduler.constants.DAY_MS).className === 'familiar',
   'A card reviewed twice should make the item familiar');
 
 const hard = scheduler.applyGrade(good, 'Hard', now);
