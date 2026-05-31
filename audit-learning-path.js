@@ -43,11 +43,15 @@ function getItemKey(section, item) {
   return section + ':' + normalizeKeyText(item.id || item.word || item.kanji);
 }
 
-function makeCard(section, item, state, dueOffsetMs, lapses) {
+function makeCard(section, item, state, dueOffsetMs, lapses, reps) {
   return {
     itemKey: getItemKey(section, item),
     section: section,
     state: state,
+    // Cards past the learning phase default to reps=2 so "Review" represents a
+    // genuinely familiar item (survived a real review), matching FAMILIAR_MIN_REPS.
+    reps: (typeof reps === 'number') ? reps
+      : (state === 'Review' || state === 'Mature' || state === 'Mastered') ? 2 : 0,
     dueAt: new Date(Date.now() + (dueOffsetMs || 0)).toISOString(),
     lapses: lapses || 0,
     suspended: false

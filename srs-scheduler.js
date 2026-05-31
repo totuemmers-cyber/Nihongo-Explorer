@@ -11,7 +11,11 @@
   var MIN_EASE = 1.3;
   var MASTERED_INTERVAL_DAYS = 180;
   var MATURE_INTERVAL_DAYS = 30;
-  var LEECH_LAPSES = 8; // a card failed this many times is a "leech" (chronic problem)
+  var LEECH_LAPSES = 8;
+  // An item only counts as "familiar" (toward level-up) once each of its cards has
+  // survived at least one real review — i.e. been answered correctly twice, not
+  // just introduced once. A Review card with fewer reps is still "young".
+  var FAMILIAR_MIN_REPS = 2; // a card failed this many times is a "leech" (chronic problem)
 
   function nowIso(now) {
     return new Date(now || Date.now()).toISOString();
@@ -143,6 +147,7 @@
     var learning = 0;
     var mastered = 0;
     var active = 0;
+    var young = 0; // introduced but reviewed only once (reps < 2) — not yet "familiar"
 
     for (var i = 0; i < cards.length; i++) {
       var c = cards[i];
@@ -151,13 +156,17 @@
       if (isDue(c, now)) due++;
       if ((c.lapses || 0) > 0 || c.state === 'Relearning') weak++;
       if (c.state === 'New' || c.state === 'Learning' || c.state === 'Relearning') learning++;
+      else if ((c.reps || 0) < 2) young++; // Review/Mature/Mastered but only one review so far
       if (c.state === 'Mastered') mastered++;
     }
 
     if (active === 0) return { label: 'Ausgesetzt', className: 'suspended', due: 0 };
     if (due > 0) return { label: due + ' fällig', className: 'due', due: due };
     if (weak > 0) return { label: 'Schwach', className: 'weak', due: 0 };
-    if (learning > 0) return { label: 'Lernen', className: 'learning', due: 0 };
+    // An item is only "familiar" once every card has survived at least one spaced
+    // repetition (reps >= 2). A card reviewed just once is still being learned, so
+    // it must not count toward the level-advance ratio.
+    if (learning > 0 || young > 0) return { label: 'Lernen', className: 'learning', due: 0 };
     if (mastered === active) return { label: 'Gemeistert', className: 'mastered', due: 0 };
     return { label: 'Vertraut', className: 'familiar', due: 0 };
   }
