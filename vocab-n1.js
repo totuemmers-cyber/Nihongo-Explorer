@@ -1672,7 +1672,7 @@ window.VOCAB_N1 = [
     "pitch": 1,
     "meaning": "Botschafter",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Politik",
     "examples": [
       {
@@ -2930,7 +2930,7 @@ window.VOCAB_N1 = [
     "pitch": 0,
     "meaning": "Demonstration",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Politik",
     "examples": [
       {
@@ -3304,7 +3304,7 @@ window.VOCAB_N1 = [
     "pitch": 1,
     "meaning": "Gouverneur (einer Präfektur)",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Verwaltung",
     "examples": [
       {
@@ -5310,7 +5310,7 @@ window.VOCAB_N1 = [
     "pitch": 0,
     "meaning": "Steuererklärung; Meldung",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Verwaltung",
     "examples": [
       {
@@ -8302,7 +8302,7 @@ window.VOCAB_N1 = [
     "pitch": 0,
     "meaning": "Emission; Ausgabe",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Finanzen",
     "examples": [
       {
@@ -19964,7 +19964,7 @@ window.VOCAB_N1 = [
     "pitch": 0,
     "meaning": "Studienabbruch; Exmatrikulation",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Bildung",
     "examples": [
       {
@@ -20576,7 +20576,7 @@ window.VOCAB_N1 = [
     "pitch": 0,
     "meaning": "Schulweg; Pendeln zur Schule",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Bildung",
     "examples": [
       {
@@ -20627,7 +20627,7 @@ window.VOCAB_N1 = [
     "pitch": 0,
     "meaning": "Weiterführendes Studium",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Bildung",
     "examples": [
       {
@@ -25166,7 +25166,7 @@ window.VOCAB_N1 = [
     "pitch": 0,
     "meaning": "Zitat; Zitieren",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Bildung",
     "examples": [
       {
@@ -31150,7 +31150,7 @@ window.VOCAB_N1 = [
     "pitch": 2,
     "meaning": "gut aussehen; zur Geltung kommen",
     "type": "Verb",
-    "level": "N1",
+    "level": "N3",
     "category": "Kultur",
     "examples": [
       {
@@ -39276,7 +39276,7 @@ window.VOCAB_N1 = [
     "pitch": 0,
     "meaning": "Umzug",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Alltag",
     "examples": [
       {
@@ -39327,7 +39327,7 @@ window.VOCAB_N1 = [
     "pitch": 1,
     "meaning": "Hausarbeit",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Alltag",
     "examples": [
       {
@@ -52230,7 +52230,7 @@ window.VOCAB_N1 = [
     "pitch": 0,
     "meaning": "zufällig; per Zufall; gelegentlich",
     "type": "Adverb",
-    "level": "N1",
+    "level": "N3",
     "category": "Alltag",
     "examples": [
       {
@@ -53250,7 +53250,7 @@ window.VOCAB_N1 = [
     "pitch": 0,
     "meaning": "Buchhaltung; Abrechnung; Kasse",
     "type": "Nomen",
-    "level": "N1",
+    "level": "N3",
     "category": "Arbeit",
     "examples": [
       {
@@ -54253,7 +54253,7 @@ window.VOCAB_N1 = [
     "pitch": 2,
     "meaning": "Größe",
     "type": "Adjektiv",
-    "level": "N1",
+    "level": "N3",
     "category": "Eigenschaften",
     "examples": [
       {

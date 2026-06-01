@@ -3394,7 +3394,7 @@ window.VOCAB_N4 = [
     "pitch": 4,
     "meaning": "nostalgisch",
     "type": "Adjektiv",
-    "level": "N4",
+    "level": "N2",
     "category": "Gefühle",
     "examples": [
       {
@@ -4186,7 +4186,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "ungern tun, ablehnen",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Gefühle",
     "examples": [
       {
@@ -4362,7 +4362,7 @@ window.VOCAB_N4 = [
     "pitch": 3,
     "meaning": "Zähneputzen, Zahnpasta",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Körper",
     "examples": [
       {
@@ -4758,7 +4758,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Beerdigung",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Menschen",
     "examples": [
       {
@@ -4846,7 +4846,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "heiße Quelle, Thermalbad",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Reisen",
     "examples": [
       {
@@ -4934,7 +4934,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "leichter Sommerkimono",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -5066,7 +5066,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Sumo (Ringen)",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Freizeit",
     "examples": [
       {
@@ -5308,7 +5308,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "Heimat, Heimatort",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Ort",
     "examples": [
       {
@@ -5352,7 +5352,7 @@ window.VOCAB_N4 = [
     "pitch": 1,
     "meaning": "Herbstlaub",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Natur",
     "examples": [
       {
@@ -5506,7 +5506,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Notizbuch, Terminkalender",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -5550,7 +5550,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Frist, Deadline",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Arbeit",
     "examples": [
       {
@@ -5858,7 +5858,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Versicherung",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -6320,7 +6320,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "in Kontakt kommen, grenzen an",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Menschen",
     "examples": [
       {
@@ -6804,7 +6804,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "erstmal, zur Sicherheit",
     "type": "Adverb",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -8036,7 +8036,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Höflichkeitssprache",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -8278,7 +8278,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Debatte, Diskussion",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -8410,7 +8410,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Statistik",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Arbeit",
     "examples": [
       {
@@ -8894,7 +8894,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Zoll",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Reisen",
     "examples": [
       {
@@ -8960,7 +8960,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Himmelsrichtung",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Ort",
     "examples": [
       {
@@ -8982,7 +8982,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Erkennungszeichen, Orientierungspunkt",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Ort",
     "examples": [
       {
@@ -9004,7 +9004,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Schild, Hinweiszeichen",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Reisen",
     "examples": [
       {
@@ -9158,7 +9158,7 @@ window.VOCAB_N4 = [
     "pitch": 1,
     "meaning": "Batterie",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -9290,7 +9290,7 @@ window.VOCAB_N4 = [
     "pitch": 3,
     "meaning": "Vorschule",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -9312,7 +9312,7 @@ window.VOCAB_N4 = [
     "pitch": 1,
     "meaning": "Nachhilfeschule",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -10192,7 +10192,7 @@ window.VOCAB_N4 = [
     "pitch": 3,
     "meaning": "zurückblicken, sich umdrehen",
     "type": "Verb",
-    "level": "N4",
+    "level": "N1",
     "category": "Bewegung",
     "examples": [
       {
@@ -10588,7 +10588,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Blutdruck",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Körper",
     "examples": [
       {
@@ -10654,7 +10654,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Gymnastik, Turnen",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Freizeit",
     "examples": [
       {
@@ -11248,7 +11248,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Umsteigen",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Reisen",
     "examples": [
       {
@@ -11270,7 +11270,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "einfache Fahrt",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Reisen",
     "examples": [
       {
@@ -11292,7 +11292,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Hin- und Rückfahrt",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Reisen",
     "examples": [
       {
@@ -11358,7 +11358,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Monatskarte, Zeitkarte",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Reisen",
     "examples": [
       {
@@ -11402,7 +11402,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Fahrkartenkontrolle, Schranke",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Reisen",
     "examples": [
       {
@@ -11556,7 +11556,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Geschäftsreise, Dienstreise",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Arbeit",
     "examples": [
       {
@@ -11842,7 +11842,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "springen, hüpfen",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Bewegung",
     "examples": [
       {
@@ -11864,7 +11864,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "tauchen, untertauchen",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Freizeit",
     "examples": [
       {
@@ -11908,7 +11908,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "streicheln",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -11930,7 +11930,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "einklemmen, dazwischenstecken",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -11952,7 +11952,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "abziehen, ablösen",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -11974,7 +11974,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "auswringen, auspressen",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -12018,7 +12018,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "nähen",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -12040,7 +12040,7 @@ window.VOCAB_N4 = [
     "pitch": 1,
     "meaning": "stricken, häkeln",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Freizeit",
     "examples": [
       {
@@ -12062,7 +12062,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "färben",
     "type": "Verb",
-    "level": "N4",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -12150,7 +12150,7 @@ window.VOCAB_N4 = [
     "pitch": 1,
     "meaning": "anrichten, aufhäufen",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Essen",
     "examples": [
       {
@@ -12216,7 +12216,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "anschwellen, sich aufblähen",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -12590,7 +12590,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Fächer",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -12634,7 +12634,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Geta (Holzsandalen)",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -12854,7 +12854,7 @@ window.VOCAB_N4 = [
     "pitch": 5,
     "meaning": "hektisch, geschäftig",
     "type": "Adjektiv",
-    "level": "N4",
+    "level": "N2",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -14196,7 +14196,7 @@ window.VOCAB_N4 = [
     "pitch": 4,
     "meaning": "verwöhnen",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Menschen",
     "examples": [
       {
@@ -14240,7 +14240,7 @@ window.VOCAB_N4 = [
     "pitch": 1,
     "meaning": "Klagen, Nöergeln",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -14306,7 +14306,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Ausrede, Entschuldigung",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -14328,7 +14328,7 @@ window.VOCAB_N4 = [
     "pitch": 4,
     "meaning": "Selbstgespräch",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Menschen",
     "examples": [
       {
@@ -14922,7 +14922,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "Kinn",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Körper",
     "examples": [
       {
@@ -16022,7 +16022,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Anfängerstufe",
     "type": "Adjektiv",
-    "level": "N4",
+    "level": "N2",
     "category": "Bildung",
     "examples": [
       {
@@ -16066,7 +16066,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Oberstufe",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Bildung",
     "examples": [
       {
@@ -17056,7 +17056,7 @@ window.VOCAB_N4 = [
     "pitch": 3,
     "meaning": "guter Freund",
     "type": "Adjektiv",
-    "level": "N4",
+    "level": "N2",
     "category": "Menschen",
     "examples": [
       {
@@ -17738,7 +17738,7 @@ window.VOCAB_N4 = [
     "pitch": 1,
     "meaning": "Dampf",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Natur",
     "examples": [
       {
@@ -17782,7 +17782,7 @@ window.VOCAB_N4 = [
     "pitch": 1,
     "meaning": "kurzfristig",
     "type": "Adjektiv",
-    "level": "N4",
+    "level": "N2",
     "category": "Zeit",
     "examples": [
       {
@@ -18442,7 +18442,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Feiertag",
     "type": "Adjektiv",
-    "level": "N4",
+    "level": "N2",
     "category": "Zeit",
     "examples": [
       {
@@ -18684,7 +18684,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "Gefäß",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -18706,7 +18706,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Geschirr",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -19388,7 +19388,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Preisgeld",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Finanzen",
     "examples": [
       {
@@ -19410,7 +19410,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Rad",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Verkehr",
     "examples": [
       {
@@ -20576,7 +20576,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "mühsam",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Art und Weise",
     "examples": [
       {
@@ -20664,7 +20664,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Holz",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Industrie",
     "examples": [
       {
@@ -20686,7 +20686,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Bauholz",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Industrie",
     "examples": [
       {
@@ -21324,7 +21324,7 @@ window.VOCAB_N4 = [
     "pitch": 1,
     "meaning": "Brunnen",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Ort",
     "examples": [
       {
@@ -22688,7 +22688,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "robust",
     "type": "Adjektiv",
-    "level": "N4",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -24668,7 +24668,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Waffe",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Politik",
     "examples": [
       {
@@ -24690,7 +24690,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Soldat",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Beruf",
     "examples": [
       {
@@ -26582,7 +26582,7 @@ window.VOCAB_N4 = [
     "pitch": 2,
     "meaning": "Bogen",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -26648,7 +26648,7 @@ window.VOCAB_N4 = [
     "pitch": 3,
     "meaning": "Blattanzahl",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Alltag",
     "examples": [
       {
@@ -27154,7 +27154,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Dampfschiff",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Verkehr",
     "examples": [
       {
@@ -27308,7 +27308,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "hart werden",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Zustand",
     "examples": [
       {
@@ -28012,7 +28012,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "gewalttätig",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -28056,7 +28056,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "eingelegte Pflaume",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Essen",
     "examples": [
       {
@@ -28760,7 +28760,7 @@ window.VOCAB_N4 = [
     "pitch": 4,
     "meaning": "ändern",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Handlung",
     "examples": [
       {
@@ -29486,7 +29486,7 @@ window.VOCAB_N4 = [
     "pitch": 3,
     "meaning": "Unglück",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N2",
     "category": "Abstrakt",
     "examples": [
       {
@@ -29574,7 +29574,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Verhältnis",
     "type": "Nomen",
-    "level": "N4",
+    "level": "N1",
     "category": "Wissenschaft",
     "examples": [
       {
@@ -29728,7 +29728,7 @@ window.VOCAB_N4 = [
     "pitch": 0,
     "meaning": "Vorbeugung",
     "type": "Verb",
-    "level": "N4",
+    "level": "N2",
     "category": "Handlung",
     "examples": [
       {

@@ -1604,7 +1604,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "tatsächlicher Zustand",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -1655,7 +1655,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Grundlage, Beleg",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -1672,7 +1672,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Beweis",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -1859,7 +1859,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Konzept, Begriff",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -1876,7 +1876,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Definition",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -1893,7 +1893,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Voraussetzung, Prämisse",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -2250,7 +2250,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Ertrag, Einnahmen",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -2284,7 +2284,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Kürzung, Reduzierung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -2386,7 +2386,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Wohlfahrt, Sozialfürsorge",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -2403,7 +2403,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Pflege (von Alten/Kranken)",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Körper",
     "examples": [
       {
@@ -2522,7 +2522,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Vorurteil",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -2743,7 +2743,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Verhandlung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -2828,7 +2828,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "begleiten, mit sich bringen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -3321,7 +3321,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "streng, genau",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -3440,7 +3440,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "kühn, mutig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -3984,7 +3984,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "ernähren, versorgen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -4018,7 +4018,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "umstürzen, widerlegen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -4120,7 +4120,7 @@ window.VOCAB_N3 = [
     "pitch": 4,
     "meaning": "berücksichtigen, basierend auf",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -4341,7 +4341,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "bisher, herkömmlich",
     "type": "Adverb",
-    "level": "N3",
+    "level": "N1",
     "category": "Zeit",
     "examples": [
       {
@@ -4392,7 +4392,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "pauschal, generell",
     "type": "Adverb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -4630,7 +4630,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Erfüllung, Bereicherung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -5191,7 +5191,7 @@ window.VOCAB_N3 = [
     "pitch": 4,
     "meaning": "sich beschäftigen mit",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -5310,7 +5310,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "treiben, schweben",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -5327,7 +5327,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "verfallen, verwesen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -5361,7 +5361,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "sich erstrecken, erreichen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -5429,7 +5429,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "häufig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Zeit",
     "examples": [
       {
@@ -5752,7 +5752,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Katastrophe, Naturkatastrophe",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -5803,7 +5803,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Maßnahme, Reaktion",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -5956,7 +5956,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "neben, nebenbei",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -5973,7 +5973,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Vorbild, Muster",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -6007,7 +6007,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Symbol",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -6143,7 +6143,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Rücksicht, Berücksichtigung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -6177,7 +6177,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Maßnahme",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -6211,7 +6211,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Bereitstellung, Angebot",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -6262,7 +6262,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Förderung, Beschleunigung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -6279,7 +6279,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Unterdrückung, Eindämmung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -6296,7 +6296,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Lockerung, Milderung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -6636,7 +6636,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Vergütung, Honorar",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -7129,7 +7129,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Zelle",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Körper",
     "examples": [
       {
@@ -7724,7 +7724,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "auslaufen, durchsickern",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -8183,7 +8183,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Stamm (Baum)",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -8251,7 +8251,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Klippe, Steilwand",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -8319,7 +8319,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Tsunami",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -8336,7 +8336,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Hochwasser, Überschwemmung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -8370,7 +8370,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Evakuierung, Flucht",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -8472,7 +8472,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Kompromiss",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -8574,7 +8574,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Strafe",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -8676,7 +8676,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "ungeduldig/nervös werden",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -8931,7 +8931,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Planung, Projekt",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -8965,7 +8965,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Finanzierung, Darlehen",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -9101,7 +9101,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Veranda (japanisch)",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Wohnen",
     "examples": [
       {
@@ -9390,7 +9390,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Fahrpreis",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Reisen",
     "examples": [
       {
@@ -9781,7 +9781,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "Puls",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Körper",
     "examples": [
       {
@@ -9849,7 +9849,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "anschwellen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Körper",
     "examples": [
       {
@@ -9917,7 +9917,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Durchfall",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Körper",
     "examples": [
       {
@@ -10053,7 +10053,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Infektion, Ansteckung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Körper",
     "examples": [
       {
@@ -10359,7 +10359,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Planet",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -10410,7 +10410,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Umlaufbahn, Orbit",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -10767,7 +10767,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Schwiegersohn",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Familie",
     "examples": [
       {
@@ -11277,7 +11277,7 @@ window.VOCAB_N3 = [
     "pitch": 5,
     "meaning": "lästig, umständlich",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -11328,7 +11328,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "flink, schnell",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -11396,7 +11396,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "glatt, geschmeidig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -11464,7 +11464,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "schlicht, einfach, natürlich",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -11600,7 +11600,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "vage, unklar",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -11855,7 +11855,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "bewusst, absichtlich, gewagt",
     "type": "Adverb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -12110,7 +12110,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "heimlich, geheim",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -12127,7 +12127,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "gesund, kräftig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Körper",
     "examples": [
       {
@@ -12178,7 +12178,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "glänzend, prächtig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -12195,7 +12195,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "sanft, locker, langsam",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -12467,7 +12467,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "herausfordern, sich stellen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -12552,7 +12552,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Ehre, Ruhm",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -12977,7 +12977,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Gleichgewicht, Balance",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -13198,7 +13198,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Monopol",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -13266,7 +13266,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Aussicht, Perspektive",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -13283,7 +13283,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Effizienz",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -13538,7 +13538,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Erfassung, Verständnis",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -13640,7 +13640,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "einzigartig, originell",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -13691,7 +13691,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "universell, allgemeingültig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -13963,7 +13963,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Wandel, Entwicklung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -14031,7 +14031,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Ruine, historische Stätte",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Reisen",
     "examples": [
       {
@@ -14133,7 +14133,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Vertrag, Abkommen",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -14150,7 +14150,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Konflikt, Streitigkeit",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -14286,7 +14286,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Dienst, Ehrenamt",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -14320,7 +14320,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Kinderbetreuung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -14337,7 +14337,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Entvölkerung (ländlich)",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -14422,7 +14422,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Wiederaufbau",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -14473,7 +14473,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Entsorgung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -14507,7 +14507,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Verschwendung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -14660,7 +14660,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Fesselung, Einschränkung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -14881,7 +14881,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Korrektur, Behebung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -15357,7 +15357,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Inspektion, Überprüfung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -15476,7 +15476,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Material, Rohstoff",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -15493,7 +15493,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Faser, Textil",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -15527,7 +15527,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Keramik, Töpferware",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -15986,7 +15986,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Wortschatz",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -16173,7 +16173,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Korrektur, Berichtigung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -16241,7 +16241,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Detail, Einzelheit",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -16258,7 +16258,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Umriss, grober Überblick",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -16326,7 +16326,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Zweck, Absicht",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -16360,7 +16360,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Wille, Ambition, Ziel",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -16394,7 +16394,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Sehnsucht, Bewunderung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -16411,7 +16411,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Anhaftung, Besessenheit",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -16598,7 +16598,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "verehren, lieben",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -16989,7 +16989,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "stur, hartnäckig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -17074,7 +17074,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "ehrlich, aufrichtig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -17159,7 +17159,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "unschuldig, arglos",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -17176,7 +17176,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "düster, trübsinnig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -17584,7 +17584,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "verfolgen, zurückverfolgen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Bewegung",
     "examples": [
       {
@@ -17873,7 +17873,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Schmetterling",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -18774,7 +18774,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Entsendung, Zeitarbeit",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -19097,7 +19097,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Namensliste",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -19250,7 +19250,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Verlust, Verlorengehen",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -19743,7 +19743,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "durchdringen, berühren",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -19947,7 +19947,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Training, Übung (spirituell)",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -20270,7 +20270,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Masse, Bevölkerung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -20287,7 +20287,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Menschenmenge",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -20508,7 +20508,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Geist, Gespenst",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -20610,7 +20610,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Aktie",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -20729,7 +20729,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Kooperation, Partnerschaft",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -20746,7 +20746,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Umfang, Größenordnung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -21052,7 +21052,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Heimweh, Nostalgie",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -21171,7 +21171,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "ermutigen, aufmuntern",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -22310,7 +22310,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Pflichtgefühl, soziale Verpflichtung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -22378,7 +22378,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Lebenssinn",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -22395,7 +22395,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "ordentlich, gewissenhaft",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -22463,7 +22463,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "feige, ängstlich",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -22480,7 +22480,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "mutig, tapfer",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -22514,7 +22514,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "leichtsinnig, unüberlegt",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -22650,7 +22650,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "schwanken, wanken",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Bewegung",
     "examples": [
       {
@@ -22667,7 +22667,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "sich färben",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -22820,7 +22820,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "veranstalten",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -22837,7 +22837,7 @@ window.VOCAB_N3 = [
     "pitch": 4,
     "meaning": "sich begeistern, lebhaft werden",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -22973,7 +22973,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Samurai",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -23381,7 +23381,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "großartig, prächtig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -23398,7 +23398,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "grandios, majestätisch",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -23449,7 +23449,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "lebhaft, lebendig (Farbe)",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Farben",
     "examples": [
       {
@@ -23500,7 +23500,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "eng verbunden",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -23602,7 +23602,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Vermutung, Spekulation",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -23619,7 +23619,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Förderung, Vorantreiben",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -23636,7 +23636,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Ausschluss, Beseitigung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -23687,7 +23687,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Integration, Zusammenführung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -23704,7 +23704,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Trennung, Separation",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -23755,7 +23755,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Zusammenbruch, Zerfall",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -23772,7 +23772,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Sicherstellung, Sicherung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -23874,7 +23874,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Stagnation",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -23925,7 +23925,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Strategie, Plan",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -24520,7 +24520,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Einrichtung, Anlage",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Ort",
     "examples": [
       {
@@ -24554,7 +24554,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Zugeständnis, Nachgeben",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -24605,7 +24605,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Behinderung, Störung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -24639,7 +24639,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Wohlstand, Blüte",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -24724,7 +24724,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Verachtung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -24758,7 +24758,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Schwermut, Depression",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -24775,7 +24775,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Einsamkeit",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -25030,7 +25030,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "auffordern, antreiben",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -25047,7 +25047,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "verhindern, blockieren",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -25064,7 +25064,7 @@ window.VOCAB_N3 = [
     "pitch": 4,
     "meaning": "bedrohen, gefährden",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -25081,7 +25081,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "ertragen, aushalten",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -25115,7 +25115,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "bedauern, sparsam sein mit",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Gefühle",
     "examples": [
       {
@@ -25166,7 +25166,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "sich bemühen, fleißig sein",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -25183,7 +25183,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "sich begeben, hingehen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Bewegung",
     "examples": [
       {
@@ -25200,7 +25200,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "feucht werden, profitieren",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -25217,7 +25217,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "sich verzerren, verbogen werden",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -25285,7 +25285,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "bestreiten, versorgen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -25336,7 +25336,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "betrügen, täuschen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Menschen",
     "examples": [
       {
@@ -25540,7 +25540,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Buchrezension",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -26798,7 +26798,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Überflutung, Überschwemmung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -27563,7 +27563,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Renovierung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Wohnen",
     "examples": [
       {
@@ -27835,7 +27835,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Deich, Damm",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Ort",
     "examples": [
       {
@@ -27869,7 +27869,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Wasserquelle",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -27937,7 +27937,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Pier, Anlegestelle",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Ort",
     "examples": [
       {
@@ -28107,7 +28107,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Gewebe, Textil",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -28124,7 +28124,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Stickerei",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -28753,7 +28753,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "60. Geburtstag",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Zeit",
     "examples": [
       {
@@ -28787,7 +28787,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Kalender (traditionell)",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Zeit",
     "examples": [
       {
@@ -30402,7 +30402,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Inkrafttreten",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -30776,7 +30776,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Unterhalt, Versorgung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Familie",
     "examples": [
       {
@@ -30793,7 +30793,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Abzug, Freibetrag",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -31031,7 +31031,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Schulden, Verbindlichkeiten",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -31082,7 +31082,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Zahlungsverzug",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -31133,7 +31133,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Gerichtsverfahren, Klage",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -31507,7 +31507,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Rettung, Hilfe",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -31864,7 +31864,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Überbevölkerung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -32323,7 +32323,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Sanktion",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -32646,7 +32646,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Geschmack, Reiz, Atmosphäre",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -32969,7 +32969,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Enthüllung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -34567,7 +34567,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Leinen, Hanf",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -35026,7 +35026,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Einsichtnahme, Durchsicht",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -35468,7 +35468,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "Gezeiten, Strömung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -35519,7 +35519,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Rundfächer",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -35655,7 +35655,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Drehbuch",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -35978,7 +35978,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Auslage, Ausstellung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -37746,7 +37746,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Go-Brett",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -41746,7 +41746,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Aufzeichnung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Kommunikation",
     "examples": [
       {
@@ -42613,7 +42613,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Modell",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -42800,7 +42800,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Zugehörigkeit",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Organisation",
     "examples": [
       {
@@ -43004,7 +43004,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Ruhestand",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Alltag",
     "examples": [
       {
@@ -43276,7 +43276,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Resonanz",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Kommunikation",
     "examples": [
       {
@@ -43616,7 +43616,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Gründung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Organisation",
     "examples": [
       {
@@ -43633,7 +43633,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Ermutigung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Kommunikation",
     "examples": [
       {
@@ -43769,7 +43769,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "ich",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Sprache",
     "examples": [
       {
@@ -43956,7 +43956,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Riesenmonster",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Kultur",
     "examples": [
       {
@@ -44279,7 +44279,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "stören",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Emotion",
     "examples": [
       {
@@ -44415,7 +44415,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Diktatur",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Politik",
     "examples": [
       {
@@ -44823,7 +44823,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Beschäftigung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Arbeit",
     "examples": [
       {
@@ -44908,7 +44908,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Versuchung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Emotion",
     "examples": [
       {
@@ -45180,7 +45180,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "extrem",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -45333,7 +45333,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Druck",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Gesundheit",
     "examples": [
       {
@@ -45588,7 +45588,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Logik",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Abstrakt",
     "examples": [
       {
@@ -46302,7 +46302,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Gestik",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Kommunikation",
     "examples": [
       {
@@ -46455,7 +46455,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "nützlich",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -46846,7 +46846,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "tropfen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Zustand",
     "examples": [
       {
@@ -46897,7 +46897,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Strand",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -47118,7 +47118,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Veranstalter",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Organisation",
     "examples": [
       {
@@ -47356,7 +47356,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "hinzufügen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Essen",
     "examples": [
       {
@@ -47373,7 +47373,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "intensiv",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -47390,7 +47390,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "heftig",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -47594,7 +47594,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "dringend",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Zustand",
     "examples": [
       {
@@ -47662,7 +47662,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Landstraße",
     "type": "Partikel",
-    "level": "N3",
+    "level": "N1",
     "category": "Verkehr",
     "examples": [
       {
@@ -47866,7 +47866,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Überwachung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Recht",
     "examples": [
       {
@@ -47883,7 +47883,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Werbung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Kommunikation",
     "examples": [
       {
@@ -48019,7 +48019,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Suche",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Recht",
     "examples": [
       {
@@ -48172,7 +48172,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "knapp",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -48818,7 +48818,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Besichtigung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Freizeit",
     "examples": [
       {
@@ -48852,7 +48852,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Armut",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Finanzen",
     "examples": [
       {
@@ -48869,7 +48869,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Kauf",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Handel",
     "examples": [
       {
@@ -48886,7 +48886,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Einkauf",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Wirtschaft",
     "examples": [
       {
@@ -48903,7 +48903,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Abonnement",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Medien",
     "examples": [
       {
@@ -50263,7 +50263,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Friedhof",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Ort",
     "examples": [
       {
@@ -51045,7 +51045,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Augapfel",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Körper",
     "examples": [
       {
@@ -51555,7 +51555,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "auslaufen lassen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Handlung",
     "examples": [
       {
@@ -51895,7 +51895,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Erklärung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Politik",
     "examples": [
       {
@@ -51929,7 +51929,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Ratschlag",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Kommunikation",
     "examples": [
       {
@@ -51980,7 +51980,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "manipulieren",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Handlung",
     "examples": [
       {
@@ -52099,7 +52099,7 @@ window.VOCAB_N3 = [
     "pitch": 2,
     "meaning": "unreif",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -52116,7 +52116,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Reife",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Wissenschaft",
     "examples": [
       {
@@ -52150,7 +52150,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Gegengeschlecht",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Gesellschaft",
     "examples": [
       {
@@ -53272,7 +53272,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "schrumpfen",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Bewegung",
     "examples": [
       {
@@ -53442,7 +53442,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Reflexion",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Natur",
     "examples": [
       {
@@ -53476,7 +53476,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Strahlung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Wissenschaft",
     "examples": [
       {
@@ -53527,7 +53527,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Schlussfolgerung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Wissenschaft",
     "examples": [
       {
@@ -53595,7 +53595,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Küste",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Geographie",
     "examples": [
       {
@@ -53629,7 +53629,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Bahnstrecke",
     "type": "Adjektiv",
-    "level": "N3",
+    "level": "N1",
     "category": "Verkehr",
     "examples": [
       {
@@ -53680,7 +53680,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Stromquelle",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Technik",
     "examples": [
       {
@@ -54037,7 +54037,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "mit Leib und Seele",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Eigenschaften",
     "examples": [
       {
@@ -54139,7 +54139,7 @@ window.VOCAB_N3 = [
     "pitch": 3,
     "meaning": "sich zufriedengeben",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Zustand",
     "examples": [
       {
@@ -54258,7 +54258,7 @@ window.VOCAB_N3 = [
     "pitch": 0,
     "meaning": "Zerstörung",
     "type": "Verb",
-    "level": "N3",
+    "level": "N1",
     "category": "Handlung",
     "examples": [
       {
@@ -54581,7 +54581,7 @@ window.VOCAB_N3 = [
     "pitch": 1,
     "meaning": "Handlung",
     "type": "Nomen",
-    "level": "N3",
+    "level": "N1",
     "category": "Abstrakt",
     "examples": [
       {

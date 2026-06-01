@@ -1349,7 +1349,7 @@ window.VOCAB_N2 = [
     "pitch": 0,
     "meaning": "Kirche",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N4",
     "category": "Religion",
     "examples": [
       {
@@ -4035,7 +4035,7 @@ window.VOCAB_N2 = [
     "pitch": 0,
     "meaning": "Glas",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N4",
     "category": "Industrie",
     "examples": [
       {
@@ -6109,7 +6109,7 @@ window.VOCAB_N2 = [
     "pitch": 0,
     "meaning": "Forschungslabor",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N4",
     "category": "Bildung",
     "examples": [
       {
@@ -6177,7 +6177,7 @@ window.VOCAB_N2 = [
     "pitch": 1,
     "meaning": "Literatur",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N4",
     "category": "Kultur",
     "examples": [
       {
@@ -6432,7 +6432,7 @@ window.VOCAB_N2 = [
     "pitch": 1,
     "meaning": "Konzert",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N4",
     "category": "Kunst",
     "examples": [
       {
@@ -6908,7 +6908,7 @@ window.VOCAB_N2 = [
     "pitch": 0,
     "meaning": "Radio",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N5",
     "category": "Medien",
     "examples": [
       {
@@ -7010,7 +7010,7 @@ window.VOCAB_N2 = [
     "pitch": 1,
     "meaning": "Nachrichten",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N5",
     "category": "Medien",
     "examples": [
       {
@@ -8914,7 +8914,7 @@ window.VOCAB_N2 = [
     "pitch": 2,
     "meaning": "abschreiben",
     "type": "Verb",
-    "level": "N2",
+    "level": "N4",
     "category": "Alltag",
     "examples": [
       {
@@ -10563,7 +10563,7 @@ window.VOCAB_N2 = [
     "pitch": 0,
     "meaning": "anfangen, beginnen",
     "type": "Verb",
-    "level": "N2",
+    "level": "N4",
     "category": "Alltag",
     "examples": [
       {
@@ -13164,7 +13164,7 @@ window.VOCAB_N2 = [
     "pitch": 2,
     "meaning": "fast; beinahe; größtenteils",
     "type": "Adverb",
-    "level": "N2",
+    "level": "N4",
     "category": "Alltag",
     "examples": [
       {
@@ -14796,7 +14796,7 @@ window.VOCAB_N2 = [
     "pitch": 2,
     "meaning": "Mietwohnung; Apartment",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N5",
     "category": "Wohnen",
     "examples": [
       {
@@ -15408,7 +15408,7 @@ window.VOCAB_N2 = [
     "pitch": 1,
     "meaning": "Butter",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N5",
     "category": "Essen",
     "examples": [
       {
@@ -15765,7 +15765,7 @@ window.VOCAB_N2 = [
     "pitch": 4,
     "meaning": "Koffer; Reisekoffer",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N4",
     "category": "Reisen",
     "examples": [
       {
@@ -18264,7 +18264,7 @@ window.VOCAB_N2 = [
     "pitch": 0,
     "meaning": "Tankstelle",
     "type": "Nomen",
-    "level": "N2",
+    "level": "N4",
     "category": "Verkehr",
     "examples": [
       {
@@ -26101,7 +26101,7 @@ window.VOCAB_N2 = [
     "pitch": 1,
     "meaning": "beißen",
     "type": "Verb",
-    "level": "N2",
+    "level": "N4",
     "category": "Handlung",
     "examples": [
       {
@@ -29909,7 +29909,7 @@ window.VOCAB_N2 = [
     "pitch": 1,
     "meaning": "Lüge",
     "type": "Adjektiv",
-    "level": "N2",
+    "level": "N4",
     "category": "Kommunikation",
     "examples": [
       {

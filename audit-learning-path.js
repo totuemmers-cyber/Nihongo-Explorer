@@ -572,6 +572,31 @@ function foundationalGrammarTest() {
   return Promise.resolve();
 }
 
+// === T25: vocab JLPT re-leveling anchors (corroborated reference + kanji) hold ===
+// Locks in the one-time re-level (scripts/relevel-vocab.js): a few high-confidence
+// promotions/demotions stay put, and core beginner words are NOT wrongly promoted
+// (guards against re-introducing the naive-reference error こんにちは/ジュース -> N3).
+function vocabRelevelTest() {
+  const ctx = { window: {}, console };
+  vm.createContext(ctx);
+  ['vocab-n5', 'vocab-n4', 'vocab-n3', 'vocab-n2', 'vocab-n1'].forEach(function (f) {
+    vm.runInContext(fs.readFileSync(path.join(__dirname, f + '.js'), 'utf8'), ctx, { filename: f + '.js' });
+  });
+  const V = [].concat(ctx.window.VOCAB_N5, ctx.window.VOCAB_N4, ctx.window.VOCAB_N3, ctx.window.VOCAB_N2, ctx.window.VOCAB_N1);
+  const lvl = {};
+  V.forEach(function (v) { if (lvl[v.word] === undefined) lvl[v.word] = v.level; });
+  // promotions away from N5 (genuinely harder words)
+  check('T25 地球 promoted to N3', lvl['地球'] === 'N3');
+  check('T25 黒板 promoted to N3', lvl['黒板'] === 'N3');
+  // demotions of over-leveled everyday loanwords back to beginner
+  check('T25 ラジオ demoted to N5', lvl['ラジオ'] === 'N5');
+  check('T25 ニュース demoted to N5', lvl['ニュース'] === 'N5');
+  // core beginner words must stay N5 (the naive reference wrongly pushed these up)
+  check('T25 こんにちは stays N5', lvl['こんにちは'] === 'N5');
+  check('T25 ジュース stays N5', lvl['ジュース'] === 'N5');
+  return Promise.resolve();
+}
+
 // === T10: runDiagnostics detects orphans; pruneOrphans removes them ===
 function diagnosticsTest() {
   const valid = makeCard('kanji', KANJI[0], 'New', 0); // 一 — in dataset
@@ -682,6 +707,7 @@ function fallbackErrorTest() {
     .then(function () { return fallbackErrorTest(); })
     .then(function () { return noteNewCardTest(); })
     .then(function () { return foundationalGrammarTest(); })
+    .then(function () { return vocabRelevelTest(); })
     .then(function () { finish(); })
     .catch(function (e) { failures.push('store-tests-threw: ' + (e && e.message)); finish(); });
 })();
