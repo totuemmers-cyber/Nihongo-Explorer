@@ -809,6 +809,12 @@
     window.SRSStore.putCards([next]).then(function () {
       return window.SRSStore.addEvent(event);
     }).then(function () {
+      // A card leaving the New state is a new card actually being introduced — count
+      // it toward today's Lernpfad goal now (not when the session was assembled), so
+      // aborting "Heute lernen" before reviewing never inflates the Tagesziel.
+      if (previous.state === 'New' && window.LearningPath && window.LearningPath.noteNewCardIntroduced) {
+        window.LearningPath.noteNewCardIntroduced();
+      }
       notifyDetailRefresh(next.itemKey);
       if (session) {
         session.reviewed++;

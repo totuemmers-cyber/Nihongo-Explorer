@@ -475,6 +475,41 @@ function finish() {
   process.exit(failures.length > 0 ? 1 : 0);
 }
 
+// === T23: a new card counts toward the Tagesziel when reviewed, not at launch ===
+// noteNewCardIntroduced reads the freshest pathState, bumps today's counter by one
+// and persists. This is what srs-ui calls on a card's New->* transition, so an
+// aborted session can never inflate the counter (which would happen if it were
+// advanced up-front at session assembly). Uses a stateful store so the persisted
+// increment is observable, and fires several in a burst to prove no lost updates.
+function noteNewCardTest() {
+  const today = (function () { const d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); })();
+  let stored = { schemaV: 1, newDaily: { date: today, count: 5 }, streakCount: 3, streakLastDay: today };
+  const sections = { kanji: { allItems: KANJI.slice() }, vocab: { allItems: VOCAB.slice() }, grammar: { allItems: GRAMMAR.slice() } };
+  const window = {};
+  const context = { window, console, Promise, Date, Math, JSON, setTimeout, module: undefined, getKanjiByChar: function () { return {}; } };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'srs-scheduler.js'), 'utf8'), context, { filename: 'srs-scheduler.js' });
+  window.SRSUI = { getItemKey: getItemKey, addItem: function () { return Promise.resolve([]); }, startSession: function () {} };
+  window.SRSStore = {
+    init: function () { return Promise.resolve(); },
+    getAllCards: function () { return Promise.resolve([]); },
+    getSettings: function () { return Promise.resolve(defaultSettings); },
+    getPathState: function () { return Promise.resolve(stored); },
+    savePathState: function (p) { stored = p; return Promise.resolve(); }
+  };
+  window.app = { sections: sections, ensureSectionLoaded: function () { return Promise.resolve(); }, playTick: function () {}, playPop: function () {}, switchTab: function () {} };
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'learning-path.js'), 'utf8'), context, { filename: 'learning-path.js' });
+  const LP = window.LearningPath;
+  return LP.noteNewCardIntroduced().then(function () {
+    check('T23 reviewing a new card bumps the daily counter', stored.newDaily.count === 6);
+    // Burst of grades: the serialized chain must not lose updates.
+    return Promise.all([LP.noteNewCardIntroduced(), LP.noteNewCardIntroduced(), LP.noteNewCardIntroduced()]);
+  }).then(function () {
+    check('T23 a burst of new-card reviews counts each one (no lost updates)', stored.newDaily.count === 9);
+    check('T23 counting a new card leaves the streak untouched', stored.streakCount === 3);
+  });
+}
+
 // === T10: runDiagnostics detects orphans; pruneOrphans removes them ===
 function diagnosticsTest() {
   const valid = makeCard('kanji', KANJI[0], 'New', 0); // 一 — in dataset
@@ -583,6 +618,7 @@ function fallbackErrorTest() {
     })
     .then(function () { return pruneTest(); })
     .then(function () { return fallbackErrorTest(); })
+    .then(function () { return noteNewCardTest(); })
     .then(function () { finish(); })
     .catch(function (e) { failures.push('store-tests-threw: ' + (e && e.message)); finish(); });
 })();

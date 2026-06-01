@@ -182,6 +182,26 @@
     savePathStateSafe(path);
   }
 
+  // Count one new card toward today's Tagesziel — the moment it is actually
+  // introduced (first reviewed), not when the session was assembled. srs-ui calls
+  // this on a card's New->* transition, so launching "Heute lernen" and aborting
+  // before reviewing never inflates the daily counter. Reads the freshest pathState
+  // straight from the store (normalizePath resets the counter on a new day) and is
+  // serialized so a burst of new-card grades can't lose increments through
+  // overlapping get-modify-save cycles.
+  var newCountChain = Promise.resolve();
+  function noteNewCardIntroduced() {
+    newCountChain = newCountChain.then(function () {
+      if (!window.SRSStore || !window.SRSStore.getPathState) return;
+      return window.SRSStore.getPathState().then(function (raw) {
+        var path = normalizePath(raw);
+        path.newDaily.count += 1;
+        return savePathStateSafe(path);
+      });
+    }).catch(function () {});
+    return newCountChain;
+  }
+
   // --- Mastery derivation ---
   function ladderFromClassName(className) {
     if (className === 'mastered') return 'mastered';
@@ -533,9 +553,12 @@
         var asm = assembleSession(model.due, model.newReady, newlyReady, model.budget);
         var session = asm.session;
         // Only count the day toward the streak once there is a real session to run —
-        // an empty/stale launch must not pad the streak or the daily counter.
+        // an empty/stale launch must not pad the streak.
         if (!session.length) { render(); return null; }
-        if (asm.newCount) model.path.newDaily.count += asm.newCount;
+        // NB: the daily-new counter is NOT advanced here. New cards are only counted
+        // toward the Tagesziel as they are actually reviewed for the first time (see
+        // noteNewCardIntroduced, called from srs-ui on the New->* transition), so
+        // launching "Heute lernen" and aborting before reviewing never inflates it.
         model.path.lastSessionAt = new Date().toISOString();
         markStudyDay(model.path);
         return savePathStateSafe(model.path).then(function () { return session; });
@@ -1429,6 +1452,7 @@
     maybeShowOnboarding: maybeShowOnboarding,
     runDiagnostics: runDiagnostics,
     pruneOrphans: pruneOrphans,
+    noteNewCardIntroduced: noteNewCardIntroduced,
     // exposed for audit/testing
     _engine: {
       LEVELS: LEVELS,
