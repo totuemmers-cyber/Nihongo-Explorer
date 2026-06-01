@@ -7597,5 +7597,188 @@ window.GRAMMAR_DATA = [
     "related": [
       "n4-ni-totte"
     ]
+  },
+  {
+    "id": "kosoado-pronoun",
+    "pattern": "これ/それ/あれ/どれ",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Demonstrativpronomen: dies / das / das dort / welches",
+    "explanation": "これ・それ・あれ・どれ stehen für sich allein (ohne Nomen) und zeigen auf Dinge. これ = beim Sprecher, それ = beim Hörer, あれ = von beiden entfernt, どれ = Frage „welches?“.",
+    "formation": "こ/そ/あ/ど + れ → これ・それ・あれ・どれ",
+    "examples": [
+      { "japanese": "これは本です。", "romaji": "Kore wa hon desu.", "german": "Das ist ein Buch." },
+      { "japanese": "それは何ですか。", "romaji": "Sore wa nan desu ka.", "german": "Was ist das (bei dir)?" }
+    ],
+    "notes": "Für Nomen-Begleiter (この本) siehe この/その/あの, für Orte (ここ) siehe ここ/そこ/あそこ.",
+    "related": ["kosoado-adnominal", "kosoado-place"]
+  },
+  {
+    "id": "kosoado-adnominal",
+    "pattern": "この/その/あの/どの",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Demonstrative Begleiter (+ Nomen): dieser / jener / welcher",
+    "explanation": "この・その・あの・どの stehen immer direkt vor einem Nomen und bestimmen es näher. Gleiche Zonenlogik wie これ/それ/あれ.",
+    "formation": "こ/そ/あ/ど + の + Nomen → この本・その人・あの店・どの電車",
+    "examples": [
+      { "japanese": "この本は面白いです。", "romaji": "Kono hon wa omoshiroi desu.", "german": "Dieses Buch ist interessant." },
+      { "japanese": "どの電車に乗りますか。", "romaji": "Dono densha ni norimasu ka.", "german": "In welchen Zug steigen Sie ein?" }
+    ],
+    "notes": "Nie allein verwenden — immer mit folgendem Nomen (im Gegensatz zu これ).",
+    "related": ["kosoado-pronoun", "kosoado-place"]
+  },
+  {
+    "id": "kosoado-place",
+    "pattern": "ここ/そこ/あそこ/どこ",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Ortsdemonstrativa: hier / da / dort / wo",
+    "explanation": "Ortsangaben nach derselben こそあど-Logik. どこ ist das Fragewort „wo?“.",
+    "formation": "こ/そ + こ, あ + そこ, ど + こ → ここ・そこ・あそこ・どこ",
+    "examples": [
+      { "japanese": "トイレはどこですか。", "romaji": "Toire wa doko desu ka.", "german": "Wo ist die Toilette?" },
+      { "japanese": "ここで待ってください。", "romaji": "Koko de matte kudasai.", "german": "Bitte warten Sie hier." }
+    ],
+    "notes": "Höflichere Variante: こちら・そちら・あちら・どちら.",
+    "related": ["kosoado-pronoun", "kosoado-adnominal"]
+  },
+  {
+    "id": "question-words",
+    "pattern": "何/誰/いつ/どこ",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Fragewörter: was / wer / wann / wo",
+    "explanation": "Mit Fragewörtern bildet man Inhaltsfragen. Die Satzstellung bleibt wie in der Aussage; am Ende steht meist か. Das Fragewort ersetzt einfach den erfragten Teil.",
+    "formation": "Fragewort + Partikel … か  (何を, 誰が, いつ, どこで …)",
+    "examples": [
+      { "japanese": "何を食べますか。", "romaji": "Nani o tabemasu ka.", "german": "Was isst du?" },
+      { "japanese": "誰が来ますか。", "romaji": "Dare ga kimasu ka.", "german": "Wer kommt?" }
+    ],
+    "notes": "Wichtige Fragewörter: 何(なに/なん)、誰(だれ)、いつ、どこ、なぜ/どうして、どう、いくら、いくつ.",
+    "related": ["kosoado-place"]
+  },
+  {
+    "id": "wo-kudasai",
+    "pattern": "～をください",
+    "level": "N5",
+    "category": "Verben",
+    "meaning": "Nomen + bitte (um etwas bitten / etwas haben wollen)",
+    "explanation": "Mit 〜をください bittet man höflich darum, etwas zu bekommen. Für Handlungen („bitte tun“) nimmt man stattdessen die て-Form + ください.",
+    "formation": "Nomen + を + ください",
+    "examples": [
+      { "japanese": "水をください。", "romaji": "Mizu o kudasai.", "german": "Wasser, bitte." },
+      { "japanese": "これを三つください。", "romaji": "Kore o mittsu kudasai.", "german": "Davon bitte drei (Stück)." }
+    ],
+    "notes": "Verb-Variante: 〜てください (z. B. 待ってください = bitte warten).",
+    "related": ["te-kudasai"]
+  },
+  {
+    "id": "masenka",
+    "pattern": "～ませんか",
+    "level": "N5",
+    "category": "Verben",
+    "meaning": "Einladung/Vorschlag: Wollen wir nicht …? / Möchten Sie nicht …?",
+    "explanation": "〜ませんか lädt höflich ein oder schlägt etwas vor. Es klingt zurückhaltender als 〜ましょう, weil es als Frage formuliert ist. Zustimmung antwortet oft mit 〜ましょう.",
+    "formation": "Verb-ます-Stamm + ませんか",
+    "examples": [
+      { "japanese": "一緒に行きませんか。", "romaji": "Issho ni ikimasen ka.", "german": "Wollen wir nicht zusammen gehen?" },
+      { "japanese": "お茶を飲みませんか。", "romaji": "Ocha o nomimasen ka.", "german": "Möchten Sie nicht einen Tee trinken?" }
+    ],
+    "notes": "Vergleiche 〜ましょう (Lass uns …) und 〜ましょうか (Sollen wir …?).",
+    "related": ["mashou", "mashou-ka"]
+  },
+  {
+    "id": "adj-te-form",
+    "pattern": "～くて/～で",
+    "level": "N5",
+    "category": "Adjektive",
+    "meaning": "Adjektive verbinden („… und …“)",
+    "explanation": "Um zwei Eigenschaften aneinanderzureihen, bringt man das erste Adjektiv in die て-Form. So verbindet man Adjektive innerhalb eines Satzes, ohne ihn zu beenden.",
+    "formation": "い-Adjektiv: 〜い → 〜くて   ·   な-Adjektiv / Nomen: + で",
+    "examples": [
+      { "japanese": "この部屋は広くて明るいです。", "romaji": "Kono heya wa hirokute akarui desu.", "german": "Dieses Zimmer ist groß und hell." },
+      { "japanese": "彼は親切で有名です。", "romaji": "Kare wa shinsetsu de yūmei desu.", "german": "Er ist freundlich und berühmt." }
+    ],
+    "notes": "Unregelmäßig: いい → よくて. Verneint: 〜くなくて.",
+    "related": ["i-adj-present", "te-form"]
+  },
+  {
+    "id": "dewa-arimasen",
+    "pattern": "じゃありません/ではありません",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Formelle Verneinung der Kopula („ist nicht“)",
+    "explanation": "Die höfliche Verneinung von です. ではありません ist förmlich/schriftlich, じゃありません ist die gesprochene Form. Ganz salopp: じゃない.",
+    "formation": "Nomen / な-Adjektiv + じゃ(では)ありません",
+    "examples": [
+      { "japanese": "学生じゃありません。", "romaji": "Gakusei ja arimasen.", "german": "Ich bin kein Student." },
+      { "japanese": "これは私のではありません。", "romaji": "Kore wa watashi no de wa arimasen.", "german": "Das ist nicht meins." }
+    ],
+    "notes": "Vergangenheit: じゃ(では)ありませんでした. Salopp: じゃない.",
+    "related": ["desu", "ja-nai"]
+  },
+  {
+    "id": "plain-form",
+    "pattern": "普通形 (辞書形・た・ない)",
+    "level": "N5",
+    "category": "Verben",
+    "meaning": "Kurzform/Plain Form: lockere, nicht-höfliche Verbformen",
+    "explanation": "Die Kurzform (普通形) spricht man unter Freunden und Familie. Sie ist außerdem die Basis sehr vieler weiterer Muster (vor の, と思う, でしょう, in Relativsätzen …). Vier Grundformen: Wörterbuchform (Gegenwart), ない (Verneinung), た (Vergangenheit), なかった (verneinte Vergangenheit).",
+    "formation": "食べる (Gegenwart) · 食べない (Verneinung) · 食べた (Vergangenheit) · 食べなかった (verneinte Vergangenheit)",
+    "notes": "Höfliches Gegenstück: die ～ます-Formen. Die Kurzform ist Voraussetzung für die meisten N4-Muster.",
+    "related": ["ta-koto-ga-aru", "to-omoimasu"]
+  },
+  {
+    "id": "da-copula",
+    "pattern": "だ/だった",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Plain-Kopula („sein“ in der Kurzform)",
+    "explanation": "だ ist die Kurzform von です. Sie wird im lockeren Sprechen und vor vielen Grammatikmustern (z. B. だと思う, だろう) verwendet. Am Satzende fällt だ in gesprochener Sprache oft weg.",
+    "formation": "Nomen / な-Adjektiv + だ (Gegenwart) / だった (Vergangenheit); verneint: じゃない / じゃなかった",
+    "notes": "Höflich: です/でした. Vor einem Nomen wird ein な-Adjektiv zu な, nicht だ.",
+    "related": ["desu", "ja-nai"]
+  },
+  {
+    "id": "baai",
+    "pattern": "～場合",
+    "level": "N4",
+    "category": "Satzstrukturen",
+    "meaning": "im Falle, dass … / falls …",
+    "explanation": "〜場合 (ばあい) behandelt eine Situation als einen von mehreren möglichen Fällen — typisch für Regeln, Hinweise und Anleitungen. Förmlicher als die allgemeinen Konditionale たら・ば・と・なら.",
+    "formation": "Verb(Wörterbuch/た/ない)・い-Adj + 場合 · な-Adj + な + 場合 · Nomen + の + 場合",
+    "examples": [
+      { "japanese": "火事の場合は、エレベーターを使わないでください。", "romaji": "Kaji no baai wa, erebētā o tsukawanaide kudasai.", "german": "Im Brandfall benutzen Sie bitte nicht den Aufzug." },
+      { "japanese": "遅れる場合は、連絡してください。", "romaji": "Okureru baai wa, renraku shite kudasai.", "german": "Falls Sie sich verspäten, geben Sie bitte Bescheid." }
+    ],
+    "notes": "Das は nach 場合 ist häufig, aber nicht zwingend.",
+    "related": []
+  },
+  {
+    "id": "mieru-kikoeru",
+    "pattern": "見える/聞こえる",
+    "level": "N4",
+    "category": "Verben",
+    "meaning": "sichtbar / hörbar sein (unwillkürlich wahrnehmen)",
+    "explanation": "見える („zu sehen sein“) und 聞こえる („zu hören sein“) beschreiben eine spontane, unwillkürliche Wahrnehmung — etwas ist von selbst sicht- oder hörbar. Das wahrgenommene Ding steht mit が.",
+    "formation": "Nomen + が + 見える / 聞こえる",
+    "examples": [
+      { "japanese": "ここから海が見える。", "romaji": "Koko kara umi ga mieru.", "german": "Von hier aus ist das Meer zu sehen." },
+      { "japanese": "電車の音が聞こえる。", "romaji": "Densha no oto ga kikoeru.", "german": "Man hört das Geräusch des Zuges." }
+    ],
+    "notes": "Unterschied zu 見られる/聞ける (Potential, bewusst möglich): 見える/聞こえる geschieht von selbst.",
+    "related": []
+  },
+  {
+    "id": "jidoushi-tadoushi",
+    "pattern": "自動詞/他動詞",
+    "level": "N4",
+    "category": "Verben",
+    "meaning": "Intransitive vs. transitive Verben",
+    "explanation": "Japanisch hat oft Verbpaare: ein intransitives Verb (自動詞, etwas geschieht von selbst, Subjekt mit が) und ein transitives Verb (他動詞, jemand tut es, Objekt mit を). Beispiele: 開く(あく)/開ける(あける); 閉まる/閉める; 始まる/始める; 出る/出す.",
+    "formation": "自動詞: Nomen + が + Verb (ドアが開く)  ·  他動詞: Nomen + を + Verb (ドアを開ける)",
+    "notes": "Faustregel: viele 自動詞 enden auf -aru, viele 他動詞 auf -eru/-su — die Paare lernt man aber am besten einzeln.",
+    "related": []
   }
 ];

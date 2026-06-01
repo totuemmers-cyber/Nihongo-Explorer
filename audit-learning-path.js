@@ -510,6 +510,68 @@ function noteNewCardTest() {
   });
 }
 
+// === T24: foundational grammar points exist, drill cleanly and link to lessons ===
+// Loads the REAL grammar-data.js + grammar-lessons.js. Guards that the promoted
+// foundational concepts (こそあど, Fragewörter, をください, ませんか, Adjektiv-て-Form,
+// formelle Verneinung, Plain-Forms, N4-場合/見える聞こえる/自他動詞) stay present, that
+// every lesson->grammar link resolves (no typos), and that the concept-only entries
+// produce no degenerate cloze (no examples => getGrammarSpecs builds no cloze card).
+function foundationalGrammarTest() {
+  const ctx = {
+    window: {}, console, Math, JSON, setTimeout,
+    document: { createElement: function () { return { style: {}, appendChild: function () {} }; }, getElementById: function () { return null; }, addEventListener: function () {} },
+    navigator: {}
+  };
+  vm.createContext(ctx);
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'grammar-data.js'), 'utf8'), ctx, { filename: 'grammar-data.js' });
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'grammar-lessons.js'), 'utf8'), ctx, { filename: 'grammar-lessons.js' });
+
+  const data = ctx.window.GRAMMAR_DATA || [];
+  const byId = {};
+  data.forEach(function (g) { byId[g.id] = g; });
+
+  const required = ['kosoado-pronoun', 'kosoado-adnominal', 'kosoado-place', 'question-words',
+    'wo-kudasai', 'masenka', 'adj-te-form', 'dewa-arimasen', 'plain-form', 'da-copula',
+    'baai', 'mieru-kikoeru', 'jidoushi-tadoushi'];
+  const missing = required.filter(function (id) { return !byId[id]; });
+  check('T24 foundational grammar points are present', missing.length === 0);
+
+  // Concept-only entries must carry no examples, so getGrammarSpecs makes no cloze card.
+  const conceptOnly = ['plain-form', 'da-copula', 'jidoushi-tadoushi'];
+  const withExamples = conceptOnly.filter(function (id) { return byId[id] && byId[id].examples && byId[id].examples.length; });
+  check('T24 concept-only entries have no cloze examples', withExamples.length === 0);
+
+  // Example-bearing new entries must contain a cloze-matchable pattern variant.
+  function clozes(g) {
+    var ex = g.examples && g.examples[0];
+    if (!ex) return true; // concept entry, fine
+    var variants = String(g.pattern || '').split(/[\/／]/).map(function (v) { return v.replace(/[～~]/g, '').replace(/\s+/g, '').trim(); }).filter(Boolean);
+    return variants.some(function (v) { return ex.japanese.indexOf(v) !== -1; });
+  }
+  const degenerate = required.filter(function (id) { return byId[id] && !clozes(byId[id]); });
+  check('T24 example-bearing entries cloze cleanly (no degenerate blanks)', degenerate.length === 0);
+
+  // Every lesson->grammar link must resolve to a real grammar id (catch typos).
+  const GL = ctx.window.GrammarLessons;
+  const lessons = (GL && GL.getLessons) ? GL.getLessons() : [];
+  check('T24 grammar lessons loaded', lessons.length > 0);
+  const broken = [];
+  lessons.forEach(function (l) {
+    (l.grammarIds || []).forEach(function (gid) { if (!byId[gid]) broken.push(l.id + '->' + gid); });
+  });
+  check('T24 all lesson->grammar links resolve', broken.length === 0);
+
+  // The foundational lessons actually carry the new links (read-before-quiz nudge).
+  function linked(lessonId, grammarId) {
+    var l = lessons.filter(function (x) { return x.id === lessonId; })[0];
+    return !!l && (l.grammarIds || []).indexOf(grammarId) !== -1;
+  }
+  check('T24 こそあど lesson links its demonstratives', linked('lesson-154', 'kosoado-pronoun'));
+  check('T24 Fragewörter lesson links question-words', linked('lesson-81', 'question-words'));
+  check('T24 場合 lesson links baai', linked('lesson-156', 'baai'));
+  return Promise.resolve();
+}
+
 // === T10: runDiagnostics detects orphans; pruneOrphans removes them ===
 function diagnosticsTest() {
   const valid = makeCard('kanji', KANJI[0], 'New', 0); // 一 — in dataset
@@ -619,6 +681,7 @@ function fallbackErrorTest() {
     .then(function () { return pruneTest(); })
     .then(function () { return fallbackErrorTest(); })
     .then(function () { return noteNewCardTest(); })
+    .then(function () { return foundationalGrammarTest(); })
     .then(function () { finish(); })
     .catch(function (e) { failures.push('store-tests-threw: ' + (e && e.message)); finish(); });
 })();

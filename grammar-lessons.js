@@ -6186,14 +6186,18 @@
   var LESSON_GRAMMAR = {
     'lesson-1': ['wa', 'ga'],
     'lesson-2': ['wo', 'ni', 'de'],
+    'lesson-3': ['da-copula'],
+    'lesson-6': ['plain-form'],
+    'lesson-7': ['dewa-arimasen'],
     'lesson-103': ['e', 'to', 'mo', 'ya'],
     'lesson-104': ['no', 'ne', 'yo'],
     'lesson-82': ['ga-aru', 'ga-iru'],
+    'lesson-81': ['question-words'],
     'lesson-4': ['i-adj-present', 'i-adj-negative', 'i-adj-past', 'i-adj-past-negative',
-      'na-adj-present', 'na-adj-negative', 'na-adj-past', 'na-adj-past-negative'],
+      'na-adj-present', 'na-adj-negative', 'na-adj-past', 'na-adj-past-negative', 'adj-te-form'],
     'lesson-5': ['te-form', 'te-connective'],
-    'lesson-91': ['te-kudasai', 'naide-kudasai'],
-    'lesson-88': ['mashou', 'mashou-ka'],
+    'lesson-91': ['te-kudasai', 'naide-kudasai', 'wo-kudasai'],
+    'lesson-88': ['mashou', 'mashou-ka', 'masenka'],
     'lesson-120': ['ni-iku'],
     'lesson-85': ['mou', 'mada'],
     'lesson-86': ['yori', 'no-hou-ga', 'ichiban'],
@@ -6205,7 +6209,10 @@
     'lesson-93': ['n-desu'],
     'lesson-94': ['to-omoimasu', 'tsumori'],
     'lesson-89': ['tari-tari'],
-    'lesson-141': ['ku-naru-ni-naru']
+    'lesson-141': ['ku-naru-ni-naru'],
+    'lesson-154': ['kosoado-pronoun', 'kosoado-adnominal', 'kosoado-place'],
+    'lesson-155': ['jidoushi-tadoushi'],
+    'lesson-156': ['baai']
   };
   Object.keys(LESSON_GRAMMAR).forEach(function (id) {
     if (lessonById[id]) lessonById[id].grammarIds = LESSON_GRAMMAR[id];
