@@ -291,7 +291,11 @@
     var levels = LEVELS.map(function (L) {
       var b = byLevel[L];
       b.done = b.mastered + b.familiar;
-      b.ratio = b.total ? b.done / b.total : 0;
+      // A level with no items is vacuously complete (ratio 1), not 0% done. Treating
+      // an empty level as incomplete would pin currentLevel on it forever — and since
+      // frontierQueues for an empty level yields nothing, the learner would be shown
+      // no new content and could never advance (e.g. if a section failed to load).
+      b.ratio = b.total ? b.done / b.total : 1;
       return b;
     });
 
@@ -376,19 +380,28 @@
   }
 
   // Weighted round-robin: pull up to `budget` items across queues by weight.
+  // Smooth weighted round-robin (the nginx scheme): each round every non-empty
+  // queue accumulates its weight, the highest-accumulator queue is picked, and the
+  // picked queue is debited by the *total* weight in play this round. Debiting by the
+  // total (not a flat 1) is what keeps the distribution proportional — debiting by 1
+  // let the accumulators drift upward unbounded and starved the lowest-weight queue
+  // entirely (e.g. grammar at weight 0.6 never got picked while kanji/vocab remained,
+  // so grammar was only ever introduced after every kanji and vocab ran out). Summing
+  // the total over only the non-empty queues keeps it correct as queues deplete.
   function interleave(queues, weights, budget) {
     var result = [];
     var acc = weights.map(function () { return 0; });
     while (result.length < budget) {
-      var pick = -1, best = -Infinity;
+      var total = 0, pick = -1, best = -Infinity;
       for (var i = 0; i < queues.length; i++) {
         if (!queues[i].length) continue;
+        total += weights[i];
         acc[i] += weights[i];
         if (acc[i] > best) { best = acc[i]; pick = i; }
       }
       if (pick === -1) break;
       result.push(queues[pick].shift());
-      acc[pick] -= 1;
+      acc[pick] -= total;
     }
     return result;
   }

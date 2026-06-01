@@ -188,6 +188,41 @@ function makeStoreContext(storage) {
   check('T3 current level advances to N4', progress.currentLevel === 'N4');
 })();
 
+// === T3b: an empty level is vacuously complete and never pins currentLevel ===
+(function () {
+  // N5 fully familiar; N4 has zero items in every section (e.g. a section that did
+  // not load). The empty N4 must count as complete (ratio 1) so currentLevel moves
+  // on instead of stalling on a level that can offer nothing.
+  const cards = [];
+  KANJI.filter(function (k) { return k.jlpt === 'N5'; }).forEach(function (k) { cards.push(makeCard('kanji', k, 'Review', DAY * 5)); });
+  VOCAB.filter(function (v) { return v.level === 'N5'; }).forEach(function (v) { cards.push(makeCard('vocab', v, 'Review', DAY * 5)); });
+  GRAMMAR.filter(function (g) { return g.level === 'N5'; }).forEach(function (g) { cards.push(makeCard('grammar', g, 'Review', DAY * 5)); });
+  // Drop every N4 item so N4 is empty; the next non-empty incomplete level is N4's
+  // own dataset (the synthetic set has N4 items), so build a custom empty-N4 context.
+  const emptyN4 = {
+    kanji: { allItems: KANJI.filter(function (k) { return k.jlpt !== 'N4'; }) },
+    vocab: { allItems: VOCAB.filter(function (v) { return v.level !== 'N4'; }) },
+    grammar: { allItems: GRAMMAR.filter(function (g) { return g.level !== 'N4'; }) }
+  };
+  const window = {};
+  const context = {
+    window, console, Promise, Date, Math, JSON, setTimeout, module: undefined,
+    getKanjiByChar: function () { const idx = {}; emptyN4.kanji.allItems.forEach(function (k) { idx[k.kanji] = k; }); return idx; }
+  };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'srs-scheduler.js'), 'utf8'), context, { filename: 'srs-scheduler.js' });
+  window.SRSUI = { getItemKey: getItemKey, addItem: function () { return Promise.resolve([]); }, startSession: function () {} };
+  window.SRSStore = { init: function () { return Promise.resolve(); }, getAllCards: function () { return Promise.resolve(cards.slice()); }, getSettings: function () { return Promise.resolve(defaultSettings); }, getPathState: function () { return Promise.resolve(null); }, savePathState: function () { return Promise.resolve(); } };
+  window.app = { sections: emptyN4, ensureSectionLoaded: function () { return Promise.resolve(); }, playTick: function () {}, playPop: function () {}, switchTab: function () {} };
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'learning-path.js'), 'utf8'), context, { filename: 'learning-path.js' });
+  const eng = window.LearningPath._engine;
+  const map = eng.mapFromCards(cards, eng.normalizePath(null));
+  const progress = eng.computeProgress(map, eng.normalizePath(null));
+  const n4 = progress.levels[eng.LEVELS.indexOf('N4')];
+  check('T3b empty level counts as complete (ratio 1)', n4.total === 0 && n4.ratio === 1);
+  check('T3b currentLevel does not stall on the empty level', progress.currentLevel !== 'N4');
+})();
+
 // === T4: daily-new budget + review suppression ===
 (function () {
   const { eng } = makeContext([], defaultSettings, null);
@@ -208,6 +243,21 @@ function makeStoreContext(storage) {
   const aCount = out.length - bCount;
   check('T5 interleave respects budget', out.length === 4);
   check('T5 interleave favours higher weight', bCount >= aCount);
+
+  // Regression: the lowest-weight queue must NOT be starved when three queues
+  // compete. With the real mix weights (kanji 1, vocab 1.3, grammar 0.6) over a full
+  // budget, grammar used to get 0 picks — debiting the picked queue by a flat 1 (not
+  // the total weight) let kanji/vocab dominate, so grammar was only ever introduced
+  // after every kanji and vocab in the level had run out.
+  const kq = []; const vq = []; const gq = [];
+  for (let i = 0; i < 40; i++) { kq.push('k' + i); vq.push('v' + i); gq.push('g' + i); }
+  const mix = eng.interleave([kq.slice(), vq.slice(), gq.slice()], [1, 1.3, 0.6], 20);
+  const gPicks = mix.filter(function (x) { return String(x).charAt(0) === 'g'; }).length;
+  const vPicks = mix.filter(function (x) { return String(x).charAt(0) === 'v'; }).length;
+  const kPicks = mix.length - gPicks - vPicks;
+  check('T5 mix fills the whole budget', mix.length === 20);
+  check('T5 lowest-weight queue (grammar) is not starved', gPicks >= 2);
+  check('T5 mix stays ordered by weight (vocab >= kanji >= grammar)', vPicks >= kPicks && kPicks >= gPicks);
 })();
 
 // === T6: grammar-lesson level matching (incl. combined levels like "N5/N4") ===
