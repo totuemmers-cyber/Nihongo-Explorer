@@ -682,7 +682,11 @@ function makeGrammarContext(grammarItems, lessons) {
   return { window: window, eng: window.LearningPath._engine };
 }
 
-// === T26: grammar QUESTIONS are plentiful (not hard-capped at the lesson count) ===
+// === T26: new grammar patterns are only introduced as fast as they're taught ===
+// A brand-new pattern may only be quizzed on the day it's taught, so the number of
+// NEW patterns introduced per batch is bounded by the lesson cap (2). Question
+// volume still grows via reviews + extra card types of already-taught patterns,
+// which are NOT limited here.
 (function () {
   const GRAM = [];
   for (let i = 0; i < 10; i++) GRAM.push({ id: 'g' + i, pattern: 'p' + i, level: 'N5', category: 'Partikel', meaning: 'm' + i });
@@ -690,8 +694,7 @@ function makeGrammarContext(grammarItems, lessons) {
   const map = eng.mapFromCards([], eng.normalizePath(null));
   const picks = eng.pickNewItems('N5', map, 20); // budget far exceeds the grammar supply
   const grammarPicks = picks.filter(function (p) { return p.section === 'grammar'; });
-  check('T26 grammar questions are no longer limited to the lesson count (>2)', grammarPicks.length > 2);
-  check('T26 grammar questions respect the generous batch cap (<=8)', grammarPicks.length <= 8);
+  check('T26 new grammar patterns are capped to the lesson cap (no untaught intros)', grammarPicks.length === 2);
 })();
 
 // === T27: lesson-first steps are emitted for unread lessons of in-session grammar ===

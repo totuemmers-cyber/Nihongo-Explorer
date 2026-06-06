@@ -14,16 +14,14 @@
   var LEVEL_ADVANCE_RATIO = 0.9; // familiar-or-better ratio to move past a level
   // Weighted round-robin mix when assembling a batch of new items.
   var MIX_WEIGHTS = { kanji: 1, vocab: 1.3, grammar: 0.6 };
-  // Two independent grammar limits:
-  //  - MAX_NEW_GRAMMAR caps how many brand-new grammar PATTERNS (i.e. grammar
-  //    questions/flashcards) are introduced per batch. Kept generous so grammar
-  //    practice can be plentiful.
-  //  - MAX_NEW_GRAMMAR_LESSONS caps how many teaching LESSONS are shown per session.
-  //    Lessons are heavier than questions, so only a couple per day even when more
-  //    new patterns are introduced; the extra patterns are practiced as questions.
-  // Reviews of already-started grammar are never limited by either.
-  var MAX_NEW_GRAMMAR = 8;
+  // Grammar lessons taught per session (kept light).
   var MAX_NEW_GRAMMAR_LESSONS = 2;
+  // A brand-new grammar pattern may only be QUIZZED on the day it is TAUGHT, so we
+  // never introduce more new patterns than we teach: the new-pattern intro cap is the
+  // lesson cap. This does NOT limit grammar question volume overall — already-learned
+  // patterns (their due reviews and additional card types) flow without limit, so
+  // grammar practice still grows over time; only *untaught* new patterns are blocked.
+  var MAX_NEW_GRAMMAR = MAX_NEW_GRAMMAR_LESSONS;
 
   var initialized = false;
   var panel = null;
