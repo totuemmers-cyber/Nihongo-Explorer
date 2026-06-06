@@ -2076,6 +2076,20 @@ main {
   gap: 1rem;
 }
 
+/* Lesson-first step inside a "Heute lernen" session: the lesson is taught inline
+   before its grammar flashcards. Reuses the .gl-* lesson markup; this just frames
+   and scrolls it so a long lesson stays inside the review panel. */
+.review-lesson-content {
+  max-height: min(56vh, 560px);
+  overflow-y: auto;
+  text-align: left;
+  padding: 0.25rem 0.25rem 0.25rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.review-lesson-content .gl-intro { margin-top: 0.5rem; }
+.review-lesson-step .quiz-prompt-main { color: var(--accent); }
+
 .review-header {
   display: flex;
   flex-direction: column;

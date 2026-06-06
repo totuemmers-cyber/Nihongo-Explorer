@@ -439,9 +439,23 @@ async function run() {
   }, { description: 'Lernpfad launches a study session into the review runner' });
 
   // === 1C: drive the self-grade session to completion -> end-of-session summary ===
+  let sawLessonStep = false;
   async function advanceCard() {
     const wrap = document.querySelector('#review-content .review-card-wrap');
     if (!wrap) return false;
+    // Lesson-first steps are taught, not graded: continue past them.
+    if (wrap.classList.contains('review-lesson-step')) {
+      sawLessonStep = true;
+      const contBtn = Array.from(wrap.querySelectorAll('button')).find(function (b) { return b.textContent.indexOf('Verstanden') !== -1; });
+      assert(contBtn, 'lesson-first step offers a "Verstanden — weiter" button');
+      const beforeLesson = wrap.textContent;
+      click(contBtn, window);
+      await waitFor(function () {
+        const w = document.querySelector('#review-content .review-card-wrap');
+        return !w || w.textContent !== beforeLesson;
+      }, { description: 'lesson step advances after continue', timeoutMs: 5000 });
+      return true;
+    }
     const revealBtn = Array.from(wrap.querySelectorAll('button')).find(function (b) { return b.textContent === 'Antwort anzeigen'; });
     if (revealBtn && !revealBtn.classList.contains('hidden')) click(revealBtn, window);
     const before = (wrap.querySelector('.quiz-prompt-main') || {}).textContent;

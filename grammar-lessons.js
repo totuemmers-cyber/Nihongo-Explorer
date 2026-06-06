@@ -7548,7 +7548,27 @@
     return true;
   }
 
-  window.GrammarLessons = { getLessons: getLessons, openLesson: openLesson, openLessonsView: openLessonsView };
+  // Full lesson record by id (reuses the id->lesson map built above; the records
+  // carry the resolved intro/sections used by renderLessonContent).
+  function getLessonRecord(id) {
+    return (lessonById && lessonById[id]) || null;
+  }
+
+  // Rendered lesson HTML for inline use outside the Lektionen view (e.g. the
+  // Lernpfad weaves it into "Heute lernen" so a new pattern is taught before it is
+  // tested). Reuses the exact same markup/styling as the full viewer.
+  function renderContent(id) {
+    var lesson = getLessonRecord(id);
+    return lesson ? renderLessonContent(lesson) : '';
+  }
+
+  window.GrammarLessons = {
+    getLessons: getLessons,
+    getLessonById: getLessonRecord,
+    renderContent: renderContent,
+    openLesson: openLesson,
+    openLessonsView: openLessonsView
+  };
 
   // Init when DOM is ready
   if (document.readyState === 'loading') {

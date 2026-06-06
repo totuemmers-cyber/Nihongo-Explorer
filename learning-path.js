@@ -14,6 +14,11 @@
   var LEVEL_ADVANCE_RATIO = 0.9; // familiar-or-better ratio to move past a level
   // Weighted round-robin mix when assembling a batch of new items.
   var MIX_WEIGHTS = { kanji: 1, vocab: 1.3, grammar: 0.6 };
+  // Cap on brand-new grammar patterns suggested in one batch. Each new pattern is
+  // taught (lesson-first) before it is tested, so introducing several at once floods
+  // a single "Heute lernen" with untaught grammar. Reviews of already-started
+  // grammar are unaffected — only fresh introductions are limited.
+  var MAX_NEW_GRAMMAR = 2;
 
   var initialized = false;
   var panel = null;
@@ -200,6 +205,26 @@
       });
     }).catch(function () {});
     return newCountChain;
+  }
+
+  // Mark a lesson read from inside a running session (the lesson-first step in
+  // "Heute lernen"). Mirrors noteNewCardIntroduced: a serialized, fresh
+  // get-modify-save so it can't lose writes, and it keeps the streak alive. srs-ui
+  // calls this when the learner advances past an in-session lesson card.
+  var lessonReadChain = Promise.resolve();
+  function noteLessonReadById(id) {
+    lessonReadChain = lessonReadChain.then(function () {
+      if (!window.SRSStore || !window.SRSStore.getPathState) return;
+      return window.SRSStore.getPathState().then(function (raw) {
+        var path = normalizePath(raw);
+        if (path.readLessons.indexOf(id) === -1) {
+          path.readLessons.push(id);
+          recordLessonActivity(path, id);
+        }
+        return savePathStateSafe(path);
+      });
+    }).catch(function () {});
+    return lessonReadChain;
   }
 
   // --- Mastery derivation ---
@@ -432,7 +457,7 @@
     if (budget <= 0) return [];
     var q = queues || frontierQueues(level, map);
     var items = interleave(
-      [q.newKanji.slice(), q.gatedVocab.slice(), q.newGrammar.slice()],
+      [q.newKanji.slice(), q.gatedVocab.slice(), q.newGrammar.slice(0, MAX_NEW_GRAMMAR)],
       [MIX_WEIGHTS.kanji, MIX_WEIGHTS.vocab, MIX_WEIGHTS.grammar],
       budget
     );
@@ -561,7 +586,15 @@
         // launching "Heute lernen" and aborting before reviewing never inflates it.
         model.path.lastSessionAt = new Date().toISOString();
         markStudyDay(model.path);
-        return savePathStateSafe(model.path).then(function () { return session; });
+        return savePathStateSafe(model.path).then(function () {
+          // Teach before testing: weave an unread lesson in front of each new
+          // grammar pattern. The runner re-orders by SRS priority but keeps each
+          // lesson directly before its pattern's first card.
+          return ensureLessonsLoaded().then(function () {
+            var steps = lessonStepsForSession(model, session);
+            return steps.length ? steps.concat(session) : session;
+          });
+        });
       })
       .then(function (session) {
         if (session) window.SRSUI.startSession(session, true);
@@ -1044,6 +1077,46 @@
     return (item.id && idx.byId[item.id]) || (item.pattern && idx.byPattern[item.pattern]) || null;
   }
 
+  // Lesson-first steps for a freshly assembled session: for each new grammar pattern
+  // actually present in the session whose teaching lesson is still unread, emit one
+  // lesson step that the runner shows immediately before that pattern's first card.
+  // Pure (no I/O) so the weaving is unit-testable; deduped per lesson so two patterns
+  // sharing a lesson teach it once. Returns [] when grammar lessons aren't loaded.
+  function lessonStepsForSession(model, session) {
+    var inSession = {};
+    (session || []).forEach(function (c) {
+      if (c && c.section === 'grammar' && c.itemKey) inSession[c.itemKey] = true;
+    });
+    var read = (model.path && model.path.readLessons) || [];
+    var seen = {};
+    var steps = [];
+    ((model.picks) || []).forEach(function (p) {
+      if (p.section !== 'grammar') return;
+      var key = itemKeyOf('grammar', p.item);
+      if (!inSession[key]) return;
+      var lesson = lessonForGrammar(p.item);
+      if (!lesson || read.indexOf(lesson.id) !== -1 || seen[lesson.id]) return;
+      seen[lesson.id] = true;
+      steps.push({
+        kind: 'lesson',
+        lessonId: lesson.id,
+        title: lesson.title,
+        subtitle: lesson.subtitle || '',
+        level: lesson.level || '',
+        precedesItemKey: key,
+        itemKey: 'lesson:' + lesson.id
+      });
+    });
+    return steps;
+  }
+
+  function ensureLessonsLoaded() {
+    if (window.app && window.app.ensureGrammarLessonsLoaded) {
+      return window.app.ensureGrammarLessonsLoaded().catch(function () {});
+    }
+    return Promise.resolve();
+  }
+
   // Reading a lesson is genuine study: keep the daily streak alive and log a
   // lightweight activity event. The event carries no `grade`, so it counts in
   // the activity heatmap but is excluded from the accuracy stats.
@@ -1453,6 +1526,7 @@
     runDiagnostics: runDiagnostics,
     pruneOrphans: pruneOrphans,
     noteNewCardIntroduced: noteNewCardIntroduced,
+    noteLessonReadById: noteLessonReadById,
     // exposed for audit/testing
     _engine: {
       LEVELS: LEVELS,
@@ -1471,6 +1545,7 @@
       itemStatus: itemStatus,
       lessonMatchesLevel: lessonMatchesLevel,
       lessonForGrammar: lessonForGrammar,
+      lessonStepsForSession: lessonStepsForSession,
       dayBefore: dayBefore,
       currentStreak: currentStreak,
       markStudyDay: markStudyDay,

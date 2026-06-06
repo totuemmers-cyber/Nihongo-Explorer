@@ -667,6 +667,69 @@ function fallbackErrorTest() {
   check('T14 relaxation does not duplicate picks', dup.length === 0);
 })();
 
+// Build a fresh engine context with a custom grammar set + optional GrammarLessons.
+function makeGrammarContext(grammarItems, lessons) {
+  const sections = { kanji: { allItems: [] }, vocab: { allItems: [] }, grammar: { allItems: grammarItems.slice() } };
+  const window = {};
+  const context = { window, console, Promise, Date, Math, JSON, setTimeout, module: undefined, getKanjiByChar: function () { return {}; } };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'srs-scheduler.js'), 'utf8'), context, { filename: 'srs-scheduler.js' });
+  window.SRSUI = { getItemKey: getItemKey, addItem: function () { return Promise.resolve([]); }, startSession: function () {} };
+  window.SRSStore = { init: function () { return Promise.resolve(); }, getAllCards: function () { return Promise.resolve([]); }, getSettings: function () { return Promise.resolve(defaultSettings); }, getPathState: function () { return Promise.resolve(null); }, savePathState: function () { return Promise.resolve(); } };
+  window.app = { sections: sections, ensureSectionLoaded: function () { return Promise.resolve(); }, playTick: function () {}, playPop: function () {}, switchTab: function () {} };
+  if (lessons) window.GrammarLessons = { getLessons: function () { return lessons.slice(); } };
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'learning-path.js'), 'utf8'), context, { filename: 'learning-path.js' });
+  return { window: window, eng: window.LearningPath._engine };
+}
+
+// === T26: brand-new grammar introductions are capped per batch (lesson-first pace) ===
+(function () {
+  const GRAM = [];
+  for (let i = 0; i < 5; i++) GRAM.push({ id: 'g' + i, pattern: 'p' + i, level: 'N5', category: 'Partikel', meaning: 'm' + i });
+  const { eng } = makeGrammarContext(GRAM, null);
+  const map = eng.mapFromCards([], eng.normalizePath(null));
+  const picks = eng.pickNewItems('N5', map, 20); // budget far exceeds the grammar supply
+  const grammarPicks = picks.filter(function (p) { return p.section === 'grammar'; });
+  check('T26 new grammar is capped at 2 per batch even when more is available', grammarPicks.length === 2);
+})();
+
+// === T27: lesson-first steps are emitted for unread lessons of in-session grammar ===
+(function () {
+  const GRAM = [
+    { id: 'wa', pattern: 'は', level: 'N5', category: 'Partikel', meaning: 'Thema' },
+    { id: 'wo', pattern: 'を', level: 'N5', category: 'Partikel', meaning: 'Objekt' },
+    { id: 'ga', pattern: 'が', level: 'N5', category: 'Partikel', meaning: 'Subjekt' }
+  ];
+  const lessons = [
+    { id: 'lesson-1', title: 'は vs が', subtitle: '', level: 'N5', grammarIds: ['wa', 'ga'] },
+    { id: 'lesson-2', title: 'を', subtitle: '', level: 'N5', grammarIds: ['wo'] }
+  ];
+  const { eng } = makeGrammarContext(GRAM, lessons);
+  const k = function (id) { return 'grammar:' + id; };
+  const picks = [
+    { section: 'grammar', item: GRAM[0] }, // wa
+    { section: 'grammar', item: GRAM[1] }, // wo
+    { section: 'grammar', item: GRAM[2] }  // ga
+  ];
+  // Session has wa + ga (not wo); lesson-2 (を) already read.
+  const session = [
+    { section: 'grammar', itemKey: k('wa') },
+    { section: 'grammar', itemKey: k('ga') },
+    { section: 'kanji', itemKey: 'kanji:x' }
+  ];
+  const steps = eng.lessonStepsForSession({ picks: picks, path: { readLessons: ['lesson-2'] } }, session);
+  check('T27 one step per unread lesson, deduped across shared patterns', steps.length === 1);
+  check('T27 the step targets the shared lesson', steps[0].lessonId === 'lesson-1');
+  check('T27 the step is woven before one of its grammar cards', steps[0].precedesItemKey === k('wa') || steps[0].precedesItemKey === k('ga'));
+  check('T27 the step is tagged as a lesson (so the runner teaches, not grades)', steps[0].kind === 'lesson');
+  // A grammar pattern not present in the session contributes no step.
+  check('T27 grammar absent from the session contributes no step',
+    steps.filter(function (s) { return s.precedesItemKey === k('wo'); }).length === 0);
+  // When every linked lesson is already read, no steps are emitted.
+  const allRead = eng.lessonStepsForSession({ picks: picks, path: { readLessons: ['lesson-1', 'lesson-2'] } }, session);
+  check('T27 fully-read lessons yield no steps', allRead.length === 0);
+})();
+
 // === T7/T8: resetProgress + export/import round-trip on the real SRSStore ===
 (function () {
   const store = makeStoreContext();
