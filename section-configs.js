@@ -371,7 +371,8 @@ function initBookmarkToggles() {
           // Trigger the filter system
           var sectionMap = {
             'kanji-bm': 'kanji', 'grammar-bm': 'grammar', 'vocab-bm': 'vocab',
-            'counter-bm': 'counters', 'radical-bm': 'radicals', 'ono-bm': 'onomatopoeia'
+            'counter-bm': 'counters', 'radical-bm': 'radicals', 'ono-bm': 'onomatopoeia',
+            'reading-bm': 'reading'
           };
           var secName = sectionMap[cls];
           if (secName && window.app && window.app.sections[secName]) {
