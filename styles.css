@@ -5916,6 +5916,11 @@ body {
 }
 
 /* --- Reading detail overlay --- */
+/* Wider than the default detail panel so longer passages wrap less often. */
+.reading-detail-panel {
+  max-width: 760px;
+}
+
 .reading-detail-header {
   display: flex;
   align-items: center;
@@ -6019,11 +6024,15 @@ body {
   gap: 4px;
 }
 
+/* Stable grid so long sentences never jumble the controls: a fixed play
+   column, a flexible text column that wraps cleanly, a fixed translate-button
+   column, and the translation on its own full-width row underneath. */
 .reading-sentence {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 4px 2px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: start;
+  column-gap: 8px;
+  row-gap: 2px;
   padding: 8px 10px;
   border-radius: var(--radius-sm);
   transition: background var(--transition);
@@ -6034,9 +6043,11 @@ body {
 }
 
 .reading-sent-text {
+  grid-column: 2;
+  min-width: 0;
   font-family: var(--font-jp);
   font-size: 1.25rem;
-  line-height: 2.1;
+  line-height: 2.0;
   color: var(--text);
 }
 
@@ -6075,6 +6086,8 @@ body {
 
 /* Per-sentence audio + translation controls */
 .reading-sent-play {
+  grid-column: 1;
+  margin-top: 5px;
   flex-shrink: 0;
   width: 26px;
   height: 26px;
@@ -6086,7 +6099,6 @@ body {
   background: var(--bg-card);
   color: var(--text-secondary);
   cursor: pointer;
-  align-self: center;
   transition: background var(--transition), color var(--transition), border-color var(--transition);
 }
 
@@ -6097,8 +6109,9 @@ body {
 }
 
 .reading-sent-trans-btn {
+  grid-column: 3;
+  margin-top: 7px;
   flex-shrink: 0;
-  align-self: center;
   font-size: 0.66rem;
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -6119,11 +6132,11 @@ body {
 }
 
 .reading-sent-trans {
-  flex-basis: 100%;
+  grid-column: 2 / -1;
   font-size: 0.85rem;
   color: var(--text-secondary);
   line-height: 1.5;
-  padding: 2px 0 4px 36px;
+  padding: 2px 0 4px;
 }
 
 .reading-sent-trans.hidden {
