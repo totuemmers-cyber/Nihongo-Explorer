@@ -3996,5 +3996,4058 @@ window.READING_DATA = [
         "de": "Denn ein einziges Buch kann sogar ein Leben verändern."
       }
     ]
+  },
+  {
+    "id": "r-watashi-no-ichinichi",
+    "title": "わたしの 一日",
+    "titleReading": "わたしのいちにち",
+    "titleDe": "Mein Tagesablauf",
+    "level": "N5",
+    "category": "Tagesablauf",
+    "summary": "Ein einfacher Text über einen ganz normalen Schultag von morgens bis abends.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "わたし", "g": "ich" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "学校", "r": "がっこう", "g": "Schule" },
+          { "s": "へ", "g": "(nach/zu)" },
+          { "s": "あるいて", "g": "zu Fuß" },
+          { "s": "いきます", "g": "gehe" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "わたしは学校へあるいていきます。",
+        "romaji": "Watashi wa gakkou e aruite ikimasu.",
+        "de": "Ich gehe zu Fuß zur Schule."
+      },
+      {
+        "tokens": [
+          { "s": "学校", "r": "がっこう", "g": "Schule" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "八時", "r": "はちじ", "g": "8 Uhr" },
+          { "s": "に", "g": "(um)" },
+          { "s": "はじまります", "g": "beginnt" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "学校は八時にはじまります。",
+        "romaji": "Gakkou wa hachiji ni hajimarimasu.",
+        "de": "Die Schule beginnt um 8 Uhr."
+      },
+      {
+        "tokens": [
+          { "s": "午前", "r": "ごぜん", "g": "Vormittag" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "日本語", "r": "にほんご", "g": "Japanisch" },
+          { "s": "と", "g": "und" },
+          { "s": "数学", "r": "すうがく", "g": "Mathematik" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "勉強", "r": "べんきょう", "g": "lernen" },
+          { "s": "します", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "午前は日本語と数学を勉強します。",
+        "romaji": "Gozen wa nihongo to suugaku o benkyou shimasu.",
+        "de": "Vormittags lerne ich Japanisch und Mathematik."
+      },
+      {
+        "tokens": [
+          { "s": "昼", "r": "ひる", "g": "Mittag" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "友だち", "r": "ともだち", "g": "Freunde" },
+          { "s": "と", "g": "mit" },
+          { "s": "昼ごはん", "r": "ひるごはん", "g": "Mittagessen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "たべます", "g": "esse" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "昼に友だちと昼ごはんをたべます。",
+        "romaji": "Hiru ni tomodachi to hirugohan o tabemasu.",
+        "de": "Mittags esse ich mit Freunden zu Mittag."
+      },
+      {
+        "tokens": [
+          { "s": "午後", "r": "ごご", "g": "Nachmittag" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "クラブ", "g": "Club / AG" },
+          { "s": "で", "g": "(in/bei)" },
+          { "s": "サッカー", "g": "Fußball" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "します", "g": "mache" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "午後はクラブでサッカーをします。",
+        "romaji": "Gogo wa kurabu de sakkaa o shimasu.",
+        "de": "Nachmittags spiele ich in der AG Fußball."
+      },
+      {
+        "tokens": [
+          { "s": "家", "r": "いえ", "g": "Zuhause" },
+          { "s": "に", "g": "(nach)" },
+          { "s": "帰って", "r": "かえって", "g": "zurück und" },
+          { "s": "、", "p": true },
+          { "s": "テレビ", "g": "Fernsehen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "見", "r": "み", "g": "sehen" },
+          { "s": "ます", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "家に帰って、テレビを見ます。",
+        "romaji": "Ie ni kaette, terebi o mimasu.",
+        "de": "Ich gehe nach Hause und sehe fern."
+      },
+      {
+        "tokens": [
+          { "s": "夜", "r": "よる", "g": "Abend / Nacht" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "十時", "r": "じゅうじ", "g": "10 Uhr" },
+          { "s": "に", "g": "(um)" },
+          { "s": "ねます", "g": "schlafe" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "夜は十時にねます。",
+        "romaji": "Yoru wa juuji ni nemasu.",
+        "de": "Abends gehe ich um 10 Uhr schlafen."
+      }
+    ]
+  },
+  {
+    "id": "r-kyou-no-tenki",
+    "title": "きょうの てんき",
+    "titleReading": "きょうのてんき",
+    "titleDe": "Das Wetter heute",
+    "level": "N5",
+    "category": "Wetter",
+    "summary": "Ein kurzer Text über das Wetter und passende Kleidung an verschiedenen Tagen.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "今日", "r": "きょう", "g": "Heute" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "いい", "g": "gut" },
+          { "s": "てんき", "g": "Wetter" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "今日はいいてんきです。",
+        "romaji": "Kyou wa ii tenki desu.",
+        "de": "Heute ist schönes Wetter."
+      },
+      {
+        "tokens": [
+          { "s": "空", "r": "そら", "g": "Himmel" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "あおくて", "g": "blau und" },
+          { "s": "、", "p": true },
+          { "s": "かぜ", "g": "Wind" },
+          { "s": "も", "g": "auch" },
+          { "s": "きもちいい", "g": "angenehm" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "空があおくて、かぜもきもちいいです。",
+        "romaji": "Sora ga aokute, kaze mo kimochi ii desu.",
+        "de": "Der Himmel ist blau und auch der Wind ist angenehm."
+      },
+      {
+        "tokens": [
+          { "s": "昨日", "r": "きのう", "g": "Gestern" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "あめ", "g": "Regen" },
+          { "s": "でした", "g": "war" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "昨日はあめでした。",
+        "romaji": "Kinou wa ame deshita.",
+        "de": "Gestern hat es geregnet."
+      },
+      {
+        "tokens": [
+          { "s": "さむかった", "g": "kalt (war)" },
+          { "s": "ので", "g": "weil" },
+          { "s": "、", "p": true },
+          { "s": "コート", "g": "Mantel" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "きました", "g": "zog an" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "さむかったので、コートをきました。",
+        "romaji": "Samukatta node, kooto o kimashita.",
+        "de": "Weil es kalt war, zog ich einen Mantel an."
+      },
+      {
+        "tokens": [
+          { "s": "明日", "r": "あした", "g": "Morgen" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "くもり", "g": "bewölkt" },
+          { "s": "でしょう", "g": "wohl" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "明日はくもりでしょう。",
+        "romaji": "Ashita wa kumori deshou.",
+        "de": "Morgen wird es wohl bewölkt sein."
+      },
+      {
+        "tokens": [
+          { "s": "かさ", "g": "Schirm" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "もって", "g": "nehmen und" },
+          { "s": "いきます", "g": "gehe" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "かさをもっていきます。",
+        "romaji": "Kasa o motte ikimasu.",
+        "de": "Ich nehme einen Schirm mit."
+      },
+      {
+        "tokens": [
+          { "s": "はやく", "g": "schnell / bald" },
+          { "s": "はれる", "g": "aufklaren" },
+          { "s": "と", "g": "(wenn)" },
+          { "s": "いい", "g": "gut" },
+          { "s": "です", "g": "ist" },
+          { "s": "ね", "g": "nicht wahr" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "はやくはれるといいですね。",
+        "romaji": "Hayaku hareru to ii desu ne.",
+        "de": "Schön wäre es, wenn es bald aufklart."
+      }
+    ]
+  },
+  {
+    "id": "r-watashi-no-neko",
+    "title": "わたしの ねこ",
+    "titleReading": "わたしのねこ",
+    "titleDe": "Meine Katze",
+    "level": "N5",
+    "category": "Haustier",
+    "summary": "Eine kleine Vorstellung des eigenen Haustiers: Name, Aussehen und Lieblingsplätze.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "わたし", "g": "ich" },
+          { "s": "の", "g": "(von)" },
+          { "s": "うち", "g": "Zuhause" },
+          { "s": "に", "g": "(in)" },
+          { "s": "ねこ", "g": "Katze" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "います", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "わたしのうちにねこがいます。",
+        "romaji": "Watashi no uchi ni neko ga imasu.",
+        "de": "Bei mir zu Hause gibt es eine Katze."
+      },
+      {
+        "tokens": [
+          { "s": "名前", "r": "なまえ", "g": "Name" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "タマ", "g": "Tama" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "名前はタマです。",
+        "romaji": "Namae wa Tama desu.",
+        "de": "Sie heißt Tama."
+      },
+      {
+        "tokens": [
+          { "s": "しろくて", "g": "weiß und" },
+          { "s": "、", "p": true },
+          { "s": "目", "r": "め", "g": "Augen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "あおい", "g": "blau" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しろくて、目があおいです。",
+        "romaji": "Shirokute, me ga aoi desu.",
+        "de": "Sie ist weiß und hat blaue Augen."
+      },
+      {
+        "tokens": [
+          { "s": "タマ", "g": "Tama" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "まどべ", "g": "am Fenster" },
+          { "s": "で", "g": "(an)" },
+          { "s": "ねる", "g": "schlafen" },
+          { "s": "の", "g": "(das)" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "すき", "g": "mag" },
+          { "s": "です", "g": "(tut)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "タマはまどべでねるのがすきです。",
+        "romaji": "Tama wa madobe de neru no ga suki desu.",
+        "de": "Tama schläft gern am Fenster."
+      },
+      {
+        "tokens": [
+          { "s": "毎日", "r": "まいにち", "g": "jeden Tag" },
+          { "s": "いっしょ", "g": "zusammen" },
+          { "s": "に", "g": "(mit)" },
+          { "s": "あそびます", "g": "spiele" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "毎日いっしょにあそびます。",
+        "romaji": "Mainichi issho ni asobimasu.",
+        "de": "Jeden Tag spiele ich mit ihr."
+      },
+      {
+        "tokens": [
+          { "s": "とても", "g": "sehr" },
+          { "s": "かわいくて", "g": "niedlich und" },
+          { "s": "、", "p": true },
+          { "s": "大切", "r": "たいせつ", "g": "wichtig / lieb" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "かぞく", "g": "Familie" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "とてもかわいくて、大切なかぞくです。",
+        "romaji": "Totemo kawaikute, taisetsu na kazoku desu.",
+        "de": "Sie ist sehr niedlich und ein liebes Familienmitglied."
+      }
+    ]
+  },
+  {
+    "id": "r-shumi-wa-ongaku",
+    "title": "しゅみは おんがく",
+    "titleReading": "しゅみはおんがく",
+    "titleDe": "Mein Hobby ist Musik",
+    "level": "N5",
+    "category": "Hobby",
+    "summary": "Ein einfacher Text über ein Lieblingshobby und warum es Freude macht.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "わたし", "g": "ich" },
+          { "s": "の", "g": "(von)" },
+          { "s": "しゅみ", "g": "Hobby" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "おんがく", "g": "Musik" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "わたしのしゅみはおんがくです。",
+        "romaji": "Watashi no shumi wa ongaku desu.",
+        "de": "Mein Hobby ist Musik."
+      },
+      {
+        "tokens": [
+          { "s": "毎日", "r": "まいにち", "g": "jeden Tag" },
+          { "s": "ギター", "g": "Gitarre" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "れんしゅう", "g": "üben" },
+          { "s": "します", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "毎日ギターをれんしゅうします。",
+        "romaji": "Mainichi gitaa o renshuu shimasu.",
+        "de": "Jeden Tag übe ich Gitarre."
+      },
+      {
+        "tokens": [
+          { "s": "むずかしい", "g": "schwierig" },
+          { "s": "です", "g": "ist" },
+          { "s": "が", "g": "aber" },
+          { "s": "、", "p": true },
+          { "s": "とても", "g": "sehr" },
+          { "s": "たのしい", "g": "schön / spaßig" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "むずかしいですが、とてもたのしいです。",
+        "romaji": "Muzukashii desu ga, totemo tanoshii desu.",
+        "de": "Es ist schwierig, aber es macht viel Spaß."
+      },
+      {
+        "tokens": [
+          { "s": "日曜日", "r": "にちようび", "g": "Sonntag" },
+          { "s": "に", "g": "(am)" },
+          { "s": "友だち", "r": "ともだち", "g": "Freunde" },
+          { "s": "と", "g": "mit" },
+          { "s": "歌", "r": "うた", "g": "Lied / singen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "うたいます", "g": "singe" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "日曜日に友だちと歌をうたいます。",
+        "romaji": "Nichiyoubi ni tomodachi to uta o utaimasu.",
+        "de": "Sonntags singe ich mit Freunden."
+      },
+      {
+        "tokens": [
+          { "s": "来年", "r": "らいねん", "g": "nächstes Jahr" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "ピアノ", "g": "Klavier" },
+          { "s": "も", "g": "auch" },
+          { "s": "ならいたい", "g": "lernen möchten" },
+          { "s": "です", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "来年はピアノもならいたいです。",
+        "romaji": "Rainen wa piano mo naraitai desu.",
+        "de": "Nächstes Jahr möchte ich auch Klavier lernen."
+      },
+      {
+        "tokens": [
+          { "s": "おんがく", "g": "Musik" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "わたし", "g": "ich" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "元気", "r": "げんき", "g": "munter / froh" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "します", "g": "macht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "おんがくはわたしを元気にします。",
+        "romaji": "Ongaku wa watashi o genki ni shimasu.",
+        "de": "Musik macht mich fröhlich."
+      }
+    ]
+  },
+  {
+    "id": "r-suupaa-de-kaimono",
+    "title": "スーパーで かいもの",
+    "titleReading": "スーパーでかいもの",
+    "titleDe": "Im Supermarkt",
+    "level": "N5",
+    "category": "Alltag",
+    "summary": "Ein alltäglicher Text über einen kleinen Einkauf für das Abendessen.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "今日", "r": "きょう", "g": "Heute" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "スーパー", "g": "Supermarkt" },
+          { "s": "へ", "g": "(zu)" },
+          { "s": "いきました", "g": "ging" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "今日はスーパーへいきました。",
+        "romaji": "Kyou wa suupaa e ikimashita.",
+        "de": "Heute bin ich in den Supermarkt gegangen."
+      },
+      {
+        "tokens": [
+          { "s": "夕ごはん", "r": "ゆうごはん", "g": "Abendessen" },
+          { "s": "の", "g": "(von)" },
+          { "s": "やさい", "g": "Gemüse" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "かいました", "g": "kaufte" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "夕ごはんのやさいをかいました。",
+        "romaji": "Yuugohan no yasai o kaimashita.",
+        "de": "Ich habe Gemüse fürs Abendessen gekauft."
+      },
+      {
+        "tokens": [
+          { "s": "トマト", "g": "Tomaten" },
+          { "s": "と", "g": "und" },
+          { "s": "たまご", "g": "Eier" },
+          { "s": "と", "g": "und" },
+          { "s": "ぎゅうにゅう", "g": "Milch" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "ひつよう", "g": "nötig" },
+          { "s": "でした", "g": "war" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "トマトとたまごとぎゅうにゅうがひつようでした。",
+        "romaji": "Tomato to tamago to gyuunyuu ga hitsuyou deshita.",
+        "de": "Tomaten, Eier und Milch waren nötig."
+      },
+      {
+        "tokens": [
+          { "s": "くだもの", "g": "Obst" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "やすかった", "g": "billig (war)" },
+          { "s": "ので", "g": "weil" },
+          { "s": "、", "p": true },
+          { "s": "たくさん", "g": "viel" },
+          { "s": "かいました", "g": "kaufte" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "くだものはやすかったので、たくさんかいました。",
+        "romaji": "Kudamono wa yasukatta node, takusan kaimashita.",
+        "de": "Weil das Obst billig war, habe ich viel gekauft."
+      },
+      {
+        "tokens": [
+          { "s": "ぜんぶ", "g": "insgesamt" },
+          { "s": "で", "g": "(für)" },
+          { "s": "せんえん", "g": "1000 Yen" },
+          { "s": "でした", "g": "war" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "ぜんぶでせんえんでした。",
+        "romaji": "Zenbu de sen'en deshita.",
+        "de": "Insgesamt waren es 1000 Yen."
+      },
+      {
+        "tokens": [
+          { "s": "家", "r": "いえ", "g": "Zuhause" },
+          { "s": "に", "g": "(nach)" },
+          { "s": "帰って", "r": "かえって", "g": "zurück und" },
+          { "s": "、", "p": true },
+          { "s": "カレー", "g": "Curry" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "つくります", "g": "koche" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "家に帰って、カレーをつくります。",
+        "romaji": "Ie ni kaette, karee o tsukurimasu.",
+        "de": "Zu Hause koche ich dann Curry."
+      }
+    ]
+  },
+  {
+    "id": "r-hajimete-no-shinkansen",
+    "title": "はじめての しんかんせん",
+    "titleReading": "はじめてのしんかんせん",
+    "titleDe": "Meine erste Shinkansen-Fahrt",
+    "level": "N4",
+    "category": "Reise",
+    "summary": "Ein Erlebnisbericht über die erste Fahrt mit dem Hochgeschwindigkeitszug nach Kyoto.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "先週", "r": "せんしゅう", "g": "letzte Woche" },
+          { "s": "、", "p": true },
+          { "s": "家族", "r": "かぞく", "g": "Familie" },
+          { "s": "と", "g": "mit" },
+          { "s": "京都", "r": "きょうと", "g": "Kyoto" },
+          { "s": "へ", "g": "(nach)" },
+          { "s": "行", "r": "い", "g": "fahren / gehen" },
+          { "s": "きました", "g": "(tat)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "先週、家族と京都へ行きました。",
+        "romaji": "Senshuu, kazoku to Kyouto e ikimashita.",
+        "de": "Letzte Woche bin ich mit meiner Familie nach Kyoto gefahren."
+      },
+      {
+        "tokens": [
+          { "s": "東京駅", "r": "とうきょうえき", "g": "Bahnhof Tokio" },
+          { "s": "で", "g": "(an)" },
+          { "s": "はじめて", "g": "zum ersten Mal" },
+          { "s": "新幹線", "r": "しんかんせん", "g": "Shinkansen" },
+          { "s": "に", "g": "(in)" },
+          { "s": "乗", "r": "の", "g": "einsteigen" },
+          { "s": "りました", "g": "(tat)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "東京駅ではじめて新幹線に乗りました。",
+        "romaji": "Toukyou-eki de hajimete shinkansen ni norimashita.",
+        "de": "Am Bahnhof Tokio bin ich zum ersten Mal in den Shinkansen eingestiegen."
+      },
+      {
+        "tokens": [
+          { "s": "電車", "r": "でんしゃ", "g": "Zug" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "とても", "g": "sehr" },
+          { "s": "はやくて", "g": "schnell und" },
+          { "s": "、", "p": true },
+          { "s": "びっくり", "g": "überrascht" },
+          { "s": "しました", "g": "(war)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "電車がとてもはやくて、びっくりしました。",
+        "romaji": "Densha ga totemo hayakute, bikkuri shimashita.",
+        "de": "Der Zug war sehr schnell, da war ich überrascht."
+      },
+      {
+        "tokens": [
+          { "s": "窓", "r": "まど", "g": "Fenster" },
+          { "s": "から", "g": "(von)" },
+          { "s": "山", "r": "やま", "g": "Berge" },
+          { "s": "や", "g": "und (u.a.)" },
+          { "s": "町", "r": "まち", "g": "Städte" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "見", "r": "み", "g": "sehen" },
+          { "s": "えました", "g": "(konnte)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "窓から山や町が見えました。",
+        "romaji": "Mado kara yama ya machi ga miemashita.",
+        "de": "Aus dem Fenster konnte ich Berge und Städte sehen."
+      },
+      {
+        "tokens": [
+          { "s": "富士山", "r": "ふじさん", "g": "Fuji-Berg" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "見", "r": "み", "g": "sehen" },
+          { "s": "えた", "g": "(konnte)" },
+          { "s": "とき", "g": "als" },
+          { "s": "、", "p": true },
+          { "s": "みんな", "g": "alle" },
+          { "s": "で", "g": "(zusammen)" },
+          { "s": "写真", "r": "しゃしん", "g": "Foto" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "とりました", "g": "machten" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "富士山が見えたとき、みんなで写真をとりました。",
+        "romaji": "Fujisan ga mieta toki, minna de shashin o torimashita.",
+        "de": "Als der Fuji zu sehen war, haben alle zusammen Fotos gemacht."
+      },
+      {
+        "tokens": [
+          { "s": "二時間", "r": "にじかん", "g": "zwei Stunden" },
+          { "s": "ぐらい", "g": "etwa" },
+          { "s": "で", "g": "(in)" },
+          { "s": "京都", "r": "きょうと", "g": "Kyoto" },
+          { "s": "に", "g": "(in)" },
+          { "s": "つきました", "g": "kamen an" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "二時間ぐらいで京都につきました。",
+        "romaji": "Nijikan gurai de Kyouto ni tsukimashita.",
+        "de": "In etwa zwei Stunden kamen wir in Kyoto an."
+      },
+      {
+        "tokens": [
+          { "s": "はやくて", "g": "schnell und" },
+          { "s": "楽", "r": "らく", "g": "bequem" },
+          { "s": "だった", "g": "(war)" },
+          { "s": "ので", "g": "weil" },
+          { "s": "、", "p": true },
+          { "s": "また", "g": "wieder" },
+          { "s": "乗", "r": "の", "g": "fahren" },
+          { "s": "りたい", "g": "möchten" },
+          { "s": "です", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "はやくて楽だったので、また乗りたいです。",
+        "romaji": "Hayakute raku datta node, mata noritai desu.",
+        "de": "Weil es schnell und bequem war, möchte ich wieder damit fahren."
+      },
+      {
+        "tokens": [
+          { "s": "旅行", "r": "りょこう", "g": "Reise" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "とても", "g": "sehr" },
+          { "s": "いい", "g": "gut" },
+          { "s": "思い出", "r": "おもいで", "g": "Erinnerung" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "なりました", "g": "wurde" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "旅行はとてもいい思い出になりました。",
+        "romaji": "Ryokou wa totemo ii omoide ni narimashita.",
+        "de": "Die Reise wurde zu einer sehr schönen Erinnerung."
+      }
+    ]
+  },
+  {
+    "id": "r-natsumatsuri",
+    "title": "なつまつり",
+    "titleReading": "なつまつり",
+    "titleDe": "Das Sommerfest",
+    "level": "N4",
+    "category": "Kultur",
+    "summary": "Ein Bericht über einen Abend auf dem örtlichen Sommerfest mit Yukata und Feuerwerk.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "夏", "r": "なつ", "g": "Sommer" },
+          { "s": "の", "g": "(von)" },
+          { "s": "夜", "r": "よる", "g": "Abend" },
+          { "s": "、", "p": true },
+          { "s": "町", "r": "まち", "g": "Stadt" },
+          { "s": "の", "g": "(von)" },
+          { "s": "まつり", "g": "Fest" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "行", "r": "い", "g": "gehen" },
+          { "s": "きました", "g": "(tat)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "夏の夜、町のまつりに行きました。",
+        "romaji": "Natsu no yoru, machi no matsuri ni ikimashita.",
+        "de": "An einem Sommerabend bin ich zum Stadtfest gegangen."
+      },
+      {
+        "tokens": [
+          { "s": "友だち", "r": "ともだち", "g": "Freunde" },
+          { "s": "と", "g": "mit" },
+          { "s": "ゆかた", "g": "Yukata" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "きて", "g": "tragen und" },
+          { "s": "でかけました", "g": "gingen aus" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "友だちとゆかたをきてでかけました。",
+        "romaji": "Tomodachi to yukata o kite dekakemashita.",
+        "de": "Mit Freunden zog ich einen Yukata an und ging hin."
+      },
+      {
+        "tokens": [
+          { "s": "まつり", "g": "Fest" },
+          { "s": "には", "g": "(beim)" },
+          { "s": "屋台", "r": "やたい", "g": "Imbissstände" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "たくさん", "g": "viele" },
+          { "s": "ならんで", "g": "aufgereiht" },
+          { "s": "いました", "g": "waren" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "まつりには屋台がたくさんならんでいました。",
+        "romaji": "Matsuri ni wa yatai ga takusan narande imashita.",
+        "de": "Auf dem Fest standen viele Imbissstände in einer Reihe."
+      },
+      {
+        "tokens": [
+          { "s": "やきそば", "g": "Yakisoba" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "食", "r": "た", "g": "essen" },
+          { "s": "べて", "g": "und" },
+          { "s": "、", "p": true },
+          { "s": "かきごおり", "g": "Wassereis" },
+          { "s": "も", "g": "auch" },
+          { "s": "食", "r": "た", "g": "essen" },
+          { "s": "べました", "g": "(tat)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "やきそばを食べて、かきごおりも食べました。",
+        "romaji": "Yakisoba o tabete, kakigoori mo tabemashita.",
+        "de": "Ich aß Yakisoba und auch Wassereis."
+      },
+      {
+        "tokens": [
+          { "s": "金魚", "r": "きんぎょ", "g": "Goldfische" },
+          { "s": "すくい", "g": "-fangen" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "むずかしかった", "g": "schwierig (war)" },
+          { "s": "です", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "金魚すくいはむずかしかったです。",
+        "romaji": "Kingyo sukui wa muzukashikatta desu.",
+        "de": "Goldfische zu fangen war schwierig."
+      },
+      {
+        "tokens": [
+          { "s": "夜", "r": "よる", "g": "Nacht" },
+          { "s": "の", "g": "(am)" },
+          { "s": "八時", "r": "はちじ", "g": "8 Uhr" },
+          { "s": "ごろ", "g": "etwa" },
+          { "s": "、", "p": true },
+          { "s": "花火", "r": "はなび", "g": "Feuerwerk" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "はじまりました", "g": "begann" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "夜の八時ごろ、花火がはじまりました。",
+        "romaji": "Yoru no hachiji goro, hanabi ga hajimarimashita.",
+        "de": "Gegen acht Uhr abends begann das Feuerwerk."
+      },
+      {
+        "tokens": [
+          { "s": "空", "r": "そら", "g": "Himmel" },
+          { "s": "に", "g": "(am)" },
+          { "s": "大", "r": "おお", "g": "groß" },
+          { "s": "きな", "g": "(Adjektiv)" },
+          { "s": "花", "r": "はな", "g": "Blume(n)" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "さいて", "g": "blühen und" },
+          { "s": "、", "p": true },
+          { "s": "とても", "g": "sehr" },
+          { "s": "きれい", "g": "schön" },
+          { "s": "でした", "g": "war" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "空に大きな花がさいて、とてもきれいでした。",
+        "romaji": "Sora ni ookina hana ga saite, totemo kirei deshita.",
+        "de": "Am Himmel erblühten große Blumen, es war sehr schön."
+      },
+      {
+        "tokens": [
+          { "s": "にぎやか", "g": "lebhaft" },
+          { "s": "で", "g": "und" },
+          { "s": "たのしい", "g": "schön" },
+          { "s": "夏", "r": "なつ", "g": "Sommer" },
+          { "s": "の", "g": "(von)" },
+          { "s": "思い出", "r": "おもいで", "g": "Erinnerung" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "できました", "g": "entstand" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "にぎやかでたのしい夏の思い出ができました。",
+        "romaji": "Nigiyaka de tanoshii natsu no omoide ga dekimashita.",
+        "de": "Es entstand eine lebhafte, schöne Sommererinnerung."
+      }
+    ]
+  },
+  {
+    "id": "r-haha-no-ryouri",
+    "title": "はは の りょうり",
+    "titleReading": "ははのりょうり",
+    "titleDe": "Das Essen meiner Mutter",
+    "level": "N4",
+    "category": "Essen",
+    "summary": "Ein warmherziger Text über Lieblingsgerichte aus der Kindheit und das Kochenlernen.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "わたし", "g": "ich" },
+          { "s": "の", "g": "(von)" },
+          { "s": "母", "r": "はは", "g": "Mutter" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "料理", "r": "りょうり", "g": "Kochen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "上手", "r": "じょうず", "g": "geschickt / gut" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "わたしの母は料理が上手です。",
+        "romaji": "Watashi no haha wa ryouri ga jouzu desu.",
+        "de": "Meine Mutter kann gut kochen."
+      },
+      {
+        "tokens": [
+          { "s": "子ども", "r": "こども", "g": "Kind" },
+          { "s": "の", "g": "(von)" },
+          { "s": "ころ", "g": "Zeit" },
+          { "s": "から", "g": "(von)" },
+          { "s": "いちばん", "g": "am meisten" },
+          { "s": "好", "r": "す", "g": "mögen" },
+          { "s": "きな", "g": "(Adjektiv)" },
+          { "s": "料理", "r": "りょうり", "g": "Gericht" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "にくじゃが", "g": "Nikujaga" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "子どものころからいちばん好きな料理はにくじゃがです。",
+        "romaji": "Kodomo no koro kara ichiban sukina ryouri wa nikujaga desu.",
+        "de": "Seit meiner Kindheit ist mein Lieblingsgericht Nikujaga."
+      },
+      {
+        "tokens": [
+          { "s": "じゃがいも", "g": "Kartoffeln" },
+          { "s": "と", "g": "und" },
+          { "s": "肉", "r": "にく", "g": "Fleisch" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "あまく", "g": "süß" },
+          { "s": "煮た", "r": "にた", "g": "köcheln" },
+          { "s": "料理", "r": "りょうり", "g": "Gericht" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "じゃがいもと肉をあまく煮た料理です。",
+        "romaji": "Jagaimo to niku o amaku nita ryouri desu.",
+        "de": "Es ist ein Gericht aus süß geschmorten Kartoffeln und Fleisch."
+      },
+      {
+        "tokens": [
+          { "s": "家", "r": "いえ", "g": "Zuhause" },
+          { "s": "に", "g": "(nach)" },
+          { "s": "帰る", "r": "かえる", "g": "zurückkommen" },
+          { "s": "と", "g": "wenn" },
+          { "s": "、", "p": true },
+          { "s": "いつも", "g": "immer" },
+          { "s": "いい", "g": "gut" },
+          { "s": "においが", "g": "Geruch" },
+          { "s": "します", "g": "(macht)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "家に帰ると、いつもいいにおいがします。",
+        "romaji": "Ie ni kaeru to, itsumo ii nioi ga shimasu.",
+        "de": "Wenn ich nach Hause komme, riecht es immer gut."
+      },
+      {
+        "tokens": [
+          { "s": "先月", "r": "せんげつ", "g": "letzten Monat" },
+          { "s": "から", "g": "(von)" },
+          { "s": "わたし", "g": "ich" },
+          { "s": "も", "g": "auch" },
+          { "s": "料理", "r": "りょうり", "g": "Kochen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "ならい", "g": "lernen" },
+          { "s": "はじめました", "g": "habe begonnen" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "先月からわたしも料理をならいはじめました。",
+        "romaji": "Sengetsu kara watashi mo ryouri o naraihajimemashita.",
+        "de": "Seit letztem Monat habe auch ich angefangen, kochen zu lernen."
+      },
+      {
+        "tokens": [
+          { "s": "最初", "r": "さいしょ", "g": "am Anfang" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "しっぱい", "g": "Misserfolg" },
+          { "s": "ばかり", "g": "nur" },
+          { "s": "でした", "g": "war" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "最初はしっぱいばかりでした。",
+        "romaji": "Saisho wa shippai bakari deshita.",
+        "de": "Am Anfang ging nur alles schief."
+      },
+      {
+        "tokens": [
+          { "s": "でも", "g": "aber" },
+          { "s": "、", "p": true },
+          { "s": "母", "r": "はは", "g": "Mutter" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "やさしく", "g": "freundlich" },
+          { "s": "教", "r": "おし", "g": "beibringen" },
+          { "s": "えて", "g": "und" },
+          { "s": "くれました", "g": "(tat für mich)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "でも、母がやさしく教えてくれました。",
+        "romaji": "Demo, haha ga yasashiku oshiete kuremashita.",
+        "de": "Aber meine Mutter hat es mir geduldig beigebracht."
+      },
+      {
+        "tokens": [
+          { "s": "いつか", "g": "eines Tages" },
+          { "s": "母", "r": "はは", "g": "Mutter" },
+          { "s": "の", "g": "(von)" },
+          { "s": "味", "r": "あじ", "g": "Geschmack" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "つくれる", "g": "kochen können" },
+          { "s": "ように", "g": "damit" },
+          { "s": "なりたい", "g": "werden möchte" },
+          { "s": "です", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "いつか母の味をつくれるようになりたいです。",
+        "romaji": "Itsuka haha no aji o tsukureru you ni naritai desu.",
+        "de": "Eines Tages möchte ich den Geschmack meiner Mutter treffen können."
+      }
+    ]
+  },
+  {
+    "id": "r-tegami-de-arigatou",
+    "title": "てがみ で ありがとう",
+    "titleReading": "てがみでありがとう",
+    "titleDe": "Ein Dankesbrief",
+    "level": "N4",
+    "category": "Brief",
+    "summary": "Ein höflicher Brief an einen Lehrer, in dem man sich für die Unterstützung bedankt.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "田中", "r": "たなか", "g": "Tanaka" },
+          { "s": "先生", "r": "せんせい", "g": "Lehrer" },
+          { "s": "、", "p": true },
+          { "s": "おげんき", "g": "wohlauf" },
+          { "s": "ですか", "g": "sind Sie?" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "田中先生、おげんきですか。",
+        "romaji": "Tanaka-sensei, ogenki desu ka.",
+        "de": "Herr Tanaka, geht es Ihnen gut?"
+      },
+      {
+        "tokens": [
+          { "s": "去年", "r": "きょねん", "g": "letztes Jahr" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "たいへん", "g": "sehr" },
+          { "s": "おせわ", "g": "Fürsorge" },
+          { "s": "に", "g": "(bei)" },
+          { "s": "なりました", "g": "geworden" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "去年はたいへんおせわになりました。",
+        "romaji": "Kyonen wa taihen osewa ni narimashita.",
+        "de": "Letztes Jahr haben Sie sich sehr um mich gekümmert."
+      },
+      {
+        "tokens": [
+          { "s": "日本語", "r": "にほんご", "g": "Japanisch" },
+          { "s": "の", "g": "(von)" },
+          { "s": "勉強", "r": "べんきょう", "g": "Lernen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "むずかしくて", "g": "schwierig und" },
+          { "s": "、", "p": true },
+          { "s": "なんども", "g": "viele Male" },
+          { "s": "やめたく", "g": "aufhören wollen" },
+          { "s": "なりました", "g": "wurde" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "日本語の勉強がむずかしくて、なんどもやめたくなりました。",
+        "romaji": "Nihongo no benkyou ga muzukashikute, nandomo yametaku narimashita.",
+        "de": "Das Japanischlernen war schwer und oft wollte ich aufgeben."
+      },
+      {
+        "tokens": [
+          { "s": "でも", "g": "aber" },
+          { "s": "、", "p": true },
+          { "s": "先生", "r": "せんせい", "g": "Lehrer" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "いつも", "g": "immer" },
+          { "s": "応援", "r": "おうえん", "g": "Unterstützung" },
+          { "s": "して", "g": "(tat)" },
+          { "s": "くれました", "g": "für mich" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "でも、先生がいつも応援してくれました。",
+        "romaji": "Demo, sensei ga itsumo ouen shite kuremashita.",
+        "de": "Aber Sie haben mich immer unterstützt."
+      },
+      {
+        "tokens": [
+          { "s": "おかげ", "g": "dank" },
+          { "s": "で", "g": "(dessen)" },
+          { "s": "、", "p": true },
+          { "s": "試験", "r": "しけん", "g": "Prüfung" },
+          { "s": "に", "g": "(in)" },
+          { "s": "合格", "r": "ごうかく", "g": "bestehen" },
+          { "s": "できました", "g": "konnte" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "おかげで、試験に合格できました。",
+        "romaji": "Okage de, shiken ni goukaku dekimashita.",
+        "de": "Dank Ihrer Hilfe habe ich die Prüfung bestanden."
+      },
+      {
+        "tokens": [
+          { "s": "本当", "r": "ほんとう", "g": "wirklich" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "ありがとう", "g": "danke" },
+          { "s": "ございました", "g": "(höflich)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "本当にありがとうございました。",
+        "romaji": "Hontou ni arigatou gozaimashita.",
+        "de": "Ich danke Ihnen von Herzen."
+      },
+      {
+        "tokens": [
+          { "s": "来月", "r": "らいげつ", "g": "nächsten Monat" },
+          { "s": "から", "g": "(von)" },
+          { "s": "大学", "r": "だいがく", "g": "Universität" },
+          { "s": "で", "g": "(an)" },
+          { "s": "新", "r": "あたら", "g": "neu" },
+          { "s": "しい", "g": "(Adjektiv)" },
+          { "s": "生活", "r": "せいかつ", "g": "Leben" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "はじまります", "g": "beginnt" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "来月から大学で新しい生活がはじまります。",
+        "romaji": "Raigetsu kara daigaku de atarashii seikatsu ga hajimarimasu.",
+        "de": "Ab nächstem Monat beginnt mein neues Leben an der Universität."
+      },
+      {
+        "tokens": [
+          { "s": "先生", "r": "せんせい", "g": "Lehrer" },
+          { "s": "も", "g": "auch" },
+          { "s": "どうぞ", "g": "bitte" },
+          { "s": "おからだ", "g": "Gesundheit" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "大切", "r": "たいせつ", "g": "sorgsam" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "先生もどうぞおからだを大切に。",
+        "romaji": "Sensei mo douzo okarada o taisetsu ni.",
+        "de": "Passen auch Sie gut auf sich auf."
+      }
+    ]
+  },
+  {
+    "id": "r-suiei-no-renshuu",
+    "title": "すいえいの れんしゅう",
+    "titleReading": "すいえいのれんしゅう",
+    "titleDe": "Schwimmtraining",
+    "level": "N4",
+    "category": "Sport",
+    "summary": "Ein Erlebnisbericht über das Schwimmenlernen und das Gefühl, ein Ziel zu erreichen.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "わたし", "g": "ich" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "むかし", "g": "früher" },
+          { "s": "水", "r": "みず", "g": "Wasser" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "苦手", "r": "にがて", "g": "nicht gut / unbeliebt" },
+          { "s": "でした", "g": "war" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "わたしはむかし水が苦手でした。",
+        "romaji": "Watashi wa mukashi mizu ga nigate deshita.",
+        "de": "Früher mochte ich Wasser nicht."
+      },
+      {
+        "tokens": [
+          { "s": "でも", "g": "aber" },
+          { "s": "、", "p": true },
+          { "s": "泳", "r": "およ", "g": "schwimmen" },
+          { "s": "げる", "g": "können" },
+          { "s": "ように", "g": "damit" },
+          { "s": "なりたくて", "g": "werden wollte, und" },
+          { "s": "、", "p": true },
+          { "s": "教室", "r": "きょうしつ", "g": "Kurs" },
+          { "s": "に", "g": "(in)" },
+          { "s": "はいりました", "g": "trat ein" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "でも、泳げるようになりたくて、教室にはいりました。",
+        "romaji": "Demo, oyogeru you ni naritakute, kyoushitsu ni hairimashita.",
+        "de": "Aber ich wollte schwimmen können und meldete mich zu einem Kurs an."
+      },
+      {
+        "tokens": [
+          { "s": "最初", "r": "さいしょ", "g": "am Anfang" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "顔", "r": "かお", "g": "Gesicht" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "水", "r": "みず", "g": "Wasser" },
+          { "s": "に", "g": "(ins)" },
+          { "s": "つける", "g": "tauchen" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "も", "g": "sogar" },
+          { "s": "こわかった", "g": "furchterregend (war)" },
+          { "s": "です", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "最初は顔を水につけることもこわかったです。",
+        "romaji": "Saisho wa kao o mizu ni tsukeru koto mo kowakatta desu.",
+        "de": "Anfangs hatte ich sogar Angst, das Gesicht ins Wasser zu tauchen."
+      },
+      {
+        "tokens": [
+          { "s": "先生", "r": "せんせい", "g": "Lehrer" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "やさしく", "g": "geduldig" },
+          { "s": "教", "r": "おし", "g": "beibringen" },
+          { "s": "えて", "g": "und" },
+          { "s": "くれた", "g": "(tat für mich)" },
+          { "s": "ので", "g": "weil" },
+          { "s": "、", "p": true },
+          { "s": "だんだん", "g": "allmählich" },
+          { "s": "なれました", "g": "gewöhnte mich" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "先生がやさしく教えてくれたので、だんだんなれました。",
+        "romaji": "Sensei ga yasashiku oshiete kureta node, dandan naremashita.",
+        "de": "Weil der Lehrer es geduldig erklärte, gewöhnte ich mich allmählich daran."
+      },
+      {
+        "tokens": [
+          { "s": "三か月", "r": "さんかげつ", "g": "drei Monate" },
+          { "s": "後", "r": "ご", "g": "nach" },
+          { "s": "、", "p": true },
+          { "s": "やっと", "g": "endlich" },
+          { "s": "二十", "r": "にじゅう", "g": "zwanzig" },
+          { "s": "メートル", "g": "Meter" },
+          { "s": "泳", "r": "およ", "g": "schwimmen" },
+          { "s": "げました", "g": "konnte" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "三か月後、やっと二十メートル泳げました。",
+        "romaji": "Sankagetsu go, yatto nijuu meetoru oyogemashita.",
+        "de": "Nach drei Monaten konnte ich endlich zwanzig Meter schwimmen."
+      },
+      {
+        "tokens": [
+          { "s": "できた", "g": "geschafft" },
+          { "s": "とき", "g": "als" },
+          { "s": "、", "p": true },
+          { "s": "とても", "g": "sehr" },
+          { "s": "うれしくて", "g": "froh und" },
+          { "s": "、", "p": true },
+          { "s": "涙", "r": "なみだ", "g": "Tränen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "でました", "g": "kamen" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "できたとき、とてもうれしくて、涙がでました。",
+        "romaji": "Dekita toki, totemo ureshikute, namida ga demashita.",
+        "de": "Als ich es schaffte, war ich so froh, dass mir Tränen kamen."
+      },
+      {
+        "tokens": [
+          { "s": "今", "r": "いま", "g": "jetzt" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "泳ぐ", "r": "およぐ", "g": "schwimmen" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "だいすき", "g": "sehr lieb" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "今では泳ぐことがだいすきです。",
+        "romaji": "Ima de wa oyogu koto ga daisuki desu.",
+        "de": "Heute schwimme ich für mein Leben gern."
+      },
+      {
+        "tokens": [
+          { "s": "苦手", "r": "にがて", "g": "Schwäche" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "こと", "g": "Sache" },
+          { "s": "も", "g": "auch" },
+          { "s": "、", "p": true },
+          { "s": "続", "r": "つづ", "g": "fortsetzen" },
+          { "s": "ければ", "g": "wenn man" },
+          { "s": "できる", "g": "schaffen kann" },
+          { "s": "ように", "g": "dazu" },
+          { "s": "なる", "g": "wird" },
+          { "s": "と", "g": "(dass)" },
+          { "s": "思", "r": "おも", "g": "denken" },
+          { "s": "います", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "苦手なことも、続ければできるようになると思います。",
+        "romaji": "Nigate na koto mo, tsuzukereba dekiru you ni naru to omoimasu.",
+        "de": "Auch was einem schwerfällt, schafft man, wenn man dranbleibt."
+      }
+    ]
+  },
+  {
+    "id": "r-okane-no-tsukaikata",
+    "title": "お金 の つかいかた",
+    "titleReading": "おかねのつかいかた",
+    "titleDe": "Der Umgang mit Geld",
+    "level": "N3",
+    "category": "Geld",
+    "summary": "Ein Text über das Sparen, Taschengeld und das Abwägen zwischen Wunsch und Bedarf.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "高校生", "r": "こうこうせい", "g": "Oberschüler" },
+          { "s": "の", "g": "(von)" },
+          { "s": "時", "r": "とき", "g": "Zeit" },
+          { "s": "から", "g": "(von)" },
+          { "s": "、", "p": true },
+          { "s": "わたし", "g": "ich" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "毎月", "r": "まいつき", "g": "jeden Monat" },
+          { "s": "お金", "r": "おかね", "g": "Geld" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "ためて", "g": "sparen und" },
+          { "s": "います", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "高校生の時から、わたしは毎月お金をためています。",
+        "romaji": "Koukousei no toki kara, watashi wa maitsuki okane o tamete imasu.",
+        "de": "Seit der Oberschule spare ich jeden Monat Geld."
+      },
+      {
+        "tokens": [
+          { "s": "親", "r": "おや", "g": "Eltern" },
+          { "s": "から", "g": "(von)" },
+          { "s": "もらう", "g": "bekommen" },
+          { "s": "おこづかい", "g": "Taschengeld" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "あまり", "g": "nicht sehr" },
+          { "s": "多く", "r": "おおく", "g": "viel" },
+          { "s": "ありません", "g": "ist nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "親からもらうおこづかいはあまり多くありません。",
+        "romaji": "Oya kara morau okozukai wa amari ooku arimasen.",
+        "de": "Das Taschengeld von meinen Eltern ist nicht besonders viel."
+      },
+      {
+        "tokens": [
+          { "s": "だから", "g": "deshalb" },
+          { "s": "、", "p": true },
+          { "s": "本当", "r": "ほんとう", "g": "wirklich" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "必要", "r": "ひつよう", "g": "nötig" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "もの", "g": "Dinge" },
+          { "s": "だけ", "g": "nur" },
+          { "s": "買う", "r": "かう", "g": "kaufen" },
+          { "s": "ように", "g": "(darauf)" },
+          { "s": "気を", "r": "きを", "g": "acht-" },
+          { "s": "つけて", "g": "geben und" },
+          { "s": "います", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "だから、本当に必要なものだけ買うように気をつけています。",
+        "romaji": "Dakara, hontou ni hitsuyou na mono dake kau you ni ki o tsukete imasu.",
+        "de": "Deshalb achte ich darauf, nur wirklich Nötiges zu kaufen."
+      },
+      {
+        "tokens": [
+          { "s": "欲", "r": "ほ", "g": "wollen" },
+          { "s": "しい", "g": "(Adjektiv)" },
+          { "s": "もの", "g": "Dinge" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "あって", "g": "geben und" },
+          { "s": "も", "g": "auch" },
+          { "s": "、", "p": true },
+          { "s": "すぐ", "g": "sofort" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "買", "r": "か", "g": "kaufen" },
+          { "s": "わない", "g": "nicht" },
+          { "s": "ように", "g": "(darauf)" },
+          { "s": "して", "g": "(tue)" },
+          { "s": "います", "g": "(ich)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "欲しいものがあっても、すぐには買わないようにしています。",
+        "romaji": "Hoshii mono ga atte mo, sugu ni wa kawanai you ni shite imasu.",
+        "de": "Selbst wenn ich etwas will, kaufe ich es nicht sofort."
+      },
+      {
+        "tokens": [
+          { "s": "一週間", "r": "いっしゅうかん", "g": "eine Woche" },
+          { "s": "考", "r": "かんが", "g": "überlegen" },
+          { "s": "えて", "g": "und" },
+          { "s": "も", "g": "auch" },
+          { "s": "まだ", "g": "noch" },
+          { "s": "欲しけれ", "r": "ほしけれ", "g": "wollen" },
+          { "s": "ば", "g": "wenn" },
+          { "s": "、", "p": true },
+          { "s": "それ", "g": "das" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "必要", "r": "ひつよう", "g": "nötig" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "もの", "g": "Sache" },
+          { "s": "だ", "g": "ist" },
+          { "s": "と", "g": "(Objekt)" },
+          { "s": "思", "r": "おも", "g": "denken" },
+          { "s": "います", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "一週間考えてもまだ欲しければ、それは必要なものだと思います。",
+        "romaji": "Isshuukan kangaete mo mada hoshikereba, sore wa hitsuyou na mono da to omoimasu.",
+        "de": "Wenn ich es nach einer Woche noch will, ist es wohl etwas Nötiges."
+      },
+      {
+        "tokens": [
+          { "s": "こうして", "g": "so" },
+          { "s": "、", "p": true },
+          { "s": "むだ", "g": "Verschwendung" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "買い物", "r": "かいもの", "g": "Käufe" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "減", "r": "へ", "g": "abnehmen" },
+          { "s": "りました", "g": "(tat)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "こうして、むだな買い物が減りました。",
+        "romaji": "Koushite, muda na kaimono ga herimashita.",
+        "de": "So sind meine unnötigen Käufe weniger geworden."
+      },
+      {
+        "tokens": [
+          { "s": "お金", "r": "おかね", "g": "Geld" },
+          { "s": "の", "g": "(von)" },
+          { "s": "使い", "r": "つかい", "g": "verwenden" },
+          { "s": "方", "r": "かた", "g": "Art" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "考える", "r": "かんがえる", "g": "nachdenken" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "大切", "r": "たいせつ", "g": "wichtig" },
+          { "s": "だ", "g": "ist" },
+          { "s": "と", "g": "(Objekt)" },
+          { "s": "学", "r": "まな", "g": "lernen" },
+          { "s": "びました", "g": "(tat)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "お金の使い方を考えることは大切だと学びました。",
+        "romaji": "Okane no tsukaikata o kangaeru koto wa taisetsu da to manabimashita.",
+        "de": "Ich habe gelernt, wie wichtig es ist, über den Umgang mit Geld nachzudenken."
+      },
+      {
+        "tokens": [
+          { "s": "ためた", "g": "gesparte" },
+          { "s": "お金", "r": "おかね", "g": "Geld" },
+          { "s": "で", "g": "(mit)" },
+          { "s": "、", "p": true },
+          { "s": "来年", "r": "らいねん", "g": "nächstes Jahr" },
+          { "s": "旅行", "r": "りょこう", "g": "Reise" },
+          { "s": "に", "g": "(auf)" },
+          { "s": "行", "r": "い", "g": "gehen" },
+          { "s": "きたい", "g": "möchte" },
+          { "s": "です", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "ためたお金で、来年旅行に行きたいです。",
+        "romaji": "Tameta okane de, rainen ryokou ni ikitai desu.",
+        "de": "Mit dem gesparten Geld möchte ich nächstes Jahr verreisen."
+      }
+    ]
+  },
+  {
+    "id": "r-suimin-no-taisetsusa",
+    "title": "すいみん の たいせつさ",
+    "titleReading": "すいみんのたいせつさ",
+    "titleDe": "Wie wichtig Schlaf ist",
+    "level": "N3",
+    "category": "Gesundheit",
+    "summary": "Ein Text über die Bedeutung von gutem Schlaf für Konzentration und Gesundheit.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "現代", "r": "げんだい", "g": "Gegenwart" },
+          { "s": "の", "g": "(von)" },
+          { "s": "わたしたち", "g": "wir" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "つい", "g": "leicht" },
+          { "s": "夜", "r": "よる", "g": "Nacht" },
+          { "s": "おそく", "g": "spät" },
+          { "s": "まで", "g": "bis" },
+          { "s": "起", "r": "お", "g": "wach (bleiben)" },
+          { "s": "きて", "g": "und" },
+          { "s": "しまいます", "g": "tun (unbeabsichtigt)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "現代のわたしたちは、つい夜おそくまで起きてしまいます。",
+        "romaji": "Gendai no watashitachi wa, tsui yoru osoku made okite shimaimasu.",
+        "de": "Wir heute bleiben leicht bis spät in die Nacht wach."
+      },
+      {
+        "tokens": [
+          { "s": "スマホ", "g": "Smartphone" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "見", "r": "み", "g": "sehen" },
+          { "s": "て", "g": "und" },
+          { "s": "いる", "g": "sein" },
+          { "s": "うち", "g": "während" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "、", "p": true },
+          { "s": "時間", "r": "じかん", "g": "Zeit" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "すぎて", "g": "vergeht und" },
+          { "s": "しまう", "g": "tut" },
+          { "s": "から", "g": "weil" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "スマホを見ているうちに、時間がすぎてしまうからです。",
+        "romaji": "Sumaho o mite iru uchi ni, jikan ga sugite shimau kara desu.",
+        "de": "Das liegt daran, dass beim Blick aufs Handy die Zeit verfliegt."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "、", "p": true },
+          { "s": "睡眠", "r": "すいみん", "g": "Schlaf" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "足", "r": "た", "g": "ausreichen" },
+          { "s": "りない", "g": "nicht" },
+          { "s": "と", "g": "wenn" },
+          { "s": "、", "p": true },
+          { "s": "昼間", "r": "ひるま", "g": "tagsüber" },
+          { "s": "集中", "r": "しゅうちゅう", "g": "Konzentration" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "できません", "g": "gelingt nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし、睡眠が足りないと、昼間集中ができません。",
+        "romaji": "Shikashi, suimin ga tarinai to, hiruma shuuchuu ga dekimasen.",
+        "de": "Aber bei zu wenig Schlaf kann man sich tagsüber nicht konzentrieren."
+      },
+      {
+        "tokens": [
+          { "s": "体", "r": "からだ", "g": "Körper" },
+          { "s": "の", "g": "(von)" },
+          { "s": "調子", "r": "ちょうし", "g": "Zustand" },
+          { "s": "も", "g": "(Themenpartikel)" },
+          { "s": "悪く", "r": "わるく", "g": "schlecht" },
+          { "s": "なって", "g": "wird und" },
+          { "s": "、", "p": true },
+          { "s": "病気", "r": "びょうき", "g": "Krankheit" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "なり", "g": "werden" },
+          { "s": "やすく", "g": "leicht" },
+          { "s": "なります", "g": "wird" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "体の調子も悪くなって、病気になりやすくなります。",
+        "romaji": "Karada no choushi mo waruku natte, byouki ni nar(i)yasuku narimasu.",
+        "de": "Auch der Körper leidet, und man wird leichter krank."
+      },
+      {
+        "tokens": [
+          { "s": "研究", "r": "けんきゅう", "g": "Forschung" },
+          { "s": "に", "g": "(von)" },
+          { "s": "よると", "g": "laut" },
+          { "s": "、", "p": true },
+          { "s": "大人", "r": "おとな", "g": "Erwachsene" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "七時間", "r": "ななじかん", "g": "sieben Stunden" },
+          { "s": "ぐらい", "g": "etwa" },
+          { "s": "眠る", "r": "ねむる", "g": "schlafen" },
+          { "s": "の", "g": "(das)" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "よい", "g": "gut" },
+          { "s": "そう", "g": "(angeblich)" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "研究によると、大人は七時間ぐらい眠るのがよいそうです。",
+        "romaji": "Kenkyuu ni yoru to, otona wa nanajikan gurai nemuru no ga yoi sou desu.",
+        "de": "Laut Forschung sollen Erwachsene etwa sieben Stunden schlafen."
+      },
+      {
+        "tokens": [
+          { "s": "よく", "g": "gut" },
+          { "s": "眠る", "r": "ねむる", "g": "schlafen" },
+          { "s": "ために", "g": "um zu" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "寝る", "r": "ねる", "g": "schlafen gehen" },
+          { "s": "前", "r": "まえ", "g": "vor" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "スマホ", "g": "Smartphone" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "見", "r": "み", "g": "ansehen" },
+          { "s": "ない", "g": "nicht" },
+          { "s": "ほうが", "g": "besser" },
+          { "s": "いい", "g": "ist" },
+          { "s": "です", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "よく眠るためには、寝る前にスマホを見ないほうがいいです。",
+        "romaji": "Yoku nemuru tame ni wa, neru mae ni sumaho o minai hou ga ii desu.",
+        "de": "Für guten Schlaf sieht man vor dem Schlafengehen besser nicht aufs Handy."
+      },
+      {
+        "tokens": [
+          { "s": "わたし", "g": "ich" },
+          { "s": "も", "g": "auch" },
+          { "s": "最近", "r": "さいきん", "g": "seit Kurzem" },
+          { "s": "、", "p": true },
+          { "s": "早く", "r": "はやく", "g": "früh" },
+          { "s": "寝る", "r": "ねる", "g": "schlafen gehen" },
+          { "s": "ように", "g": "(darauf)" },
+          { "s": "して", "g": "achte" },
+          { "s": "います", "g": "(ich)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "わたしも最近、早く寝るようにしています。",
+        "romaji": "Watashi mo saikin, hayaku neru you ni shite imasu.",
+        "de": "Auch ich achte in letzter Zeit darauf, früh schlafen zu gehen."
+      },
+      {
+        "tokens": [
+          { "s": "すると", "g": "daraufhin" },
+          { "s": "、", "p": true },
+          { "s": "朝", "r": "あさ", "g": "Morgen" },
+          { "s": "気持ち", "r": "きもち", "g": "Gefühl" },
+          { "s": "よく", "g": "angenehm" },
+          { "s": "起", "r": "お", "g": "aufstehen" },
+          { "s": "きられる", "g": "können" },
+          { "s": "ように", "g": "(dazu)" },
+          { "s": "なりました", "g": "geworden" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "すると、朝気持ちよく起きられるようになりました。",
+        "romaji": "Suru to, asa kimochi yoku okirareru you ni narimashita.",
+        "de": "Seitdem kann ich morgens angenehm aufstehen."
+      }
+    ]
+  },
+  {
+    "id": "r-sns-tono-tsukiai",
+    "title": "SNS との つきあい",
+    "titleReading": "エスエヌエスとのつきあい",
+    "titleDe": "Der Umgang mit sozialen Medien",
+    "level": "N3",
+    "category": "Gesellschaft",
+    "summary": "Ein Text über Vor- und Nachteile sozialer Netzwerke und einen bewussten Umgang damit.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "今", "r": "いま", "g": "heute" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "多くの", "r": "おおくの", "g": "viele" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "SNS", "g": "soziale Medien" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "使", "r": "つか", "g": "nutzen" },
+          { "s": "って", "g": "und" },
+          { "s": "います", "g": "(tun)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "今では、多くの人がSNSを使っています。",
+        "romaji": "Ima de wa, ooku no hito ga esuenuesu o tsukatte imasu.",
+        "de": "Heute nutzen viele Menschen soziale Medien."
+      },
+      {
+        "tokens": [
+          { "s": "遠く", "r": "とおく", "g": "weit" },
+          { "s": "の", "g": "(von)" },
+          { "s": "友だち", "r": "ともだち", "g": "Freunde" },
+          { "s": "と", "g": "mit" },
+          { "s": "かんたん", "g": "einfach" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "連絡", "r": "れんらく", "g": "Kontakt" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "とれる", "g": "halten können" },
+          { "s": "の", "g": "(das)" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "べんり", "g": "praktisch" },
+          { "s": "です", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "遠くの友だちとかんたんに連絡がとれるのはべんりです。",
+        "romaji": "Tooku no tomodachi to kantan ni renraku ga toreru no wa benri desu.",
+        "de": "Praktisch ist, dass man mit fernen Freunden leicht in Kontakt bleibt."
+      },
+      {
+        "tokens": [
+          { "s": "世界", "r": "せかい", "g": "Welt" },
+          { "s": "中", "r": "じゅう", "g": "überall" },
+          { "s": "の", "g": "(von)" },
+          { "s": "情報", "r": "じょうほう", "g": "Informationen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "すぐ", "g": "sofort" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "知る", "r": "しる", "g": "erfahren" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "も", "g": "auch" },
+          { "s": "できます", "g": "kann man" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "世界中の情報をすぐに知ることもできます。",
+        "romaji": "Sekaijuu no jouhou o sugu ni shiru koto mo dekimasu.",
+        "de": "Auch erfährt man sofort Nachrichten aus aller Welt."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "、", "p": true },
+          { "s": "いい", "g": "gute" },
+          { "s": "こと", "g": "Dinge" },
+          { "s": "ばかり", "g": "nur" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "ありません", "g": "ist es nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし、いいことばかりではありません。",
+        "romaji": "Shikashi, ii koto bakari de wa arimasen.",
+        "de": "Es ist jedoch nicht nur Gutes."
+      },
+      {
+        "tokens": [
+          { "s": "他人", "r": "たにん", "g": "andere" },
+          { "s": "の", "g": "(von)" },
+          { "s": "生活", "r": "せいかつ", "g": "Leben" },
+          { "s": "と", "g": "(Objekt)" },
+          { "s": "自分", "r": "じぶん", "g": "sich selbst" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "比", "r": "くら", "g": "vergleichen" },
+          { "s": "べて", "g": "und" },
+          { "s": "、", "p": true },
+          { "s": "つらく", "g": "bedrückt" },
+          { "s": "なる", "g": "werden" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "も", "g": "auch" },
+          { "s": "います", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "他人の生活と自分を比べて、つらくなる人もいます。",
+        "romaji": "Tanin no seikatsu to jibun o kurabete, tsuraku naru hito mo imasu.",
+        "de": "Manche vergleichen ihr Leben mit anderen und werden traurig."
+      },
+      {
+        "tokens": [
+          { "s": "また", "g": "außerdem" },
+          { "s": "、", "p": true },
+          { "s": "長い", "r": "ながい", "g": "lange" },
+          { "s": "時間", "r": "じかん", "g": "Zeit" },
+          { "s": "使う", "r": "つかう", "g": "nutzen" },
+          { "s": "と", "g": "wenn" },
+          { "s": "、", "p": true },
+          { "s": "目", "r": "め", "g": "Augen" },
+          { "s": "や", "g": "und" },
+          { "s": "心", "r": "こころ", "g": "Geist" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "つかれて", "g": "ermüden und" },
+          { "s": "しまいます", "g": "(tun)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "また、長い時間使うと、目や心がつかれてしまいます。",
+        "romaji": "Mata, nagai jikan tsukau to, me ya kokoro ga tsukarete shimaimasu.",
+        "de": "Außerdem ermüden bei langer Nutzung Augen und Geist."
+      },
+      {
+        "tokens": [
+          { "s": "だいじ", "g": "wichtig" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "の", "g": "(ist es)" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "時間", "r": "じかん", "g": "Zeit" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "決", "r": "き", "g": "festlegen" },
+          { "s": "めて", "g": "und" },
+          { "s": "使う", "r": "つかう", "g": "nutzen" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "だ", "g": "ist" },
+          { "s": "と", "g": "(Objekt)" },
+          { "s": "思", "r": "おも", "g": "denken" },
+          { "s": "います", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "だいじなのは、時間を決めて使うことだと思います。",
+        "romaji": "Daiji na no wa, jikan o kimete tsukau koto da to omoimasu.",
+        "de": "Wichtig ist, glaube ich, sie mit festgelegter Zeit zu nutzen."
+      },
+      {
+        "tokens": [
+          { "s": "べんり", "g": "praktisch" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "どうぐ", "g": "Werkzeug" },
+          { "s": "だから", "g": "weil" },
+          { "s": "こそ", "g": "gerade" },
+          { "s": "、", "p": true },
+          { "s": "上手", "r": "じょうず", "g": "geschickt" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "付き合", "r": "つきあ", "g": "umgehen" },
+          { "s": "いたい", "g": "möchte" },
+          { "s": "です", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "べんりなどうぐだからこそ、上手に付き合いたいです。",
+        "romaji": "Benri na dougu dakara koso, jouzu ni tsukiaitai desu.",
+        "de": "Gerade weil es ein nützliches Werkzeug ist, will ich klug damit umgehen."
+      }
+    ]
+  },
+  {
+    "id": "r-borantia-taiken",
+    "title": "ボランティア たいけん",
+    "titleReading": "ボランティアたいけん",
+    "titleDe": "Meine Erfahrung als Freiwilliger",
+    "level": "N3",
+    "category": "Ehrenamt",
+    "summary": "Ein Erlebnisbericht über die Teilnahme an einer Reinigungsaktion im Stadtpark.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "先月", "r": "せんげつ", "g": "letzten Monat" },
+          { "s": "、", "p": true },
+          { "s": "町", "r": "まち", "g": "Stadt" },
+          { "s": "の", "g": "(von)" },
+          { "s": "公園", "r": "こうえん", "g": "Park" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "掃除する", "r": "そうじする", "g": "reinigen" },
+          { "s": "ボランティア", "g": "Freiwilligenarbeit" },
+          { "s": "に", "g": "(an)" },
+          { "s": "参加", "r": "さんか", "g": "teilnehmen" },
+          { "s": "しました", "g": "(tat)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "先月、町の公園を掃除するボランティアに参加しました。",
+        "romaji": "Sengetsu, machi no kouen o souji suru borantia ni sanka shimashita.",
+        "de": "Letzten Monat nahm ich an einer Freiwilligenaktion teil, um den Stadtpark zu säubern."
+      },
+      {
+        "tokens": [
+          { "s": "朝", "r": "あさ", "g": "Morgen" },
+          { "s": "早く", "r": "はやく", "g": "früh" },
+          { "s": "から", "g": "(von)" },
+          { "s": "、", "p": true },
+          { "s": "いろいろ", "g": "verschieden" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "年", "r": "とし", "g": "Alter" },
+          { "s": "の", "g": "(von)" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "集", "r": "あつ", "g": "sich versammeln" },
+          { "s": "まりました", "g": "(taten)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "朝早くから、いろいろな年の人が集まりました。",
+        "romaji": "Asa hayaku kara, iroiro na toshi no hito ga atsumarimashita.",
+        "de": "Schon früh am Morgen kamen Menschen aller Altersgruppen zusammen."
+      },
+      {
+        "tokens": [
+          { "s": "最初", "r": "さいしょ", "g": "zuerst" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "知", "r": "し", "g": "kennen" },
+          { "s": "らない", "g": "nicht" },
+          { "s": "人", "r": "ひと", "g": "Leuten" },
+          { "s": "ばかり", "g": "nur" },
+          { "s": "で", "g": "(unter)" },
+          { "s": "、", "p": true },
+          { "s": "少し", "r": "すこし", "g": "etwas" },
+          { "s": "緊張", "r": "きんちょう", "g": "Anspannung" },
+          { "s": "しました", "g": "(war)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "最初は知らない人ばかりで、少し緊張しました。",
+        "romaji": "Saisho wa shiranai hito bakari de, sukoshi kinchou shimashita.",
+        "de": "Zuerst kannte ich niemanden und war etwas angespannt."
+      },
+      {
+        "tokens": [
+          { "s": "でも", "g": "aber" },
+          { "s": "、", "p": true },
+          { "s": "いっしょ", "g": "zusammen" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "作業", "r": "さぎょう", "g": "Arbeit" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "する", "g": "tun" },
+          { "s": "うち", "g": "während" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "すぐ", "g": "schnell" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "仲良く", "r": "なかよく", "g": "vertraut" },
+          { "s": "なりました", "g": "wurde" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "でも、いっしょに作業をするうちにすぐに仲良くなりました。",
+        "romaji": "Demo, issho ni sagyou o suru uchi ni sugu ni nakayoku narimashita.",
+        "de": "Aber bei der gemeinsamen Arbeit wurden wir schnell vertraut."
+      },
+      {
+        "tokens": [
+          { "s": "公園", "r": "こうえん", "g": "Park" },
+          { "s": "には", "g": "(im)" },
+          { "s": "おもった", "g": "gedacht" },
+          { "s": "より", "g": "als" },
+          { "s": "ずっと", "g": "viel" },
+          { "s": "多くの", "r": "おおくの", "g": "viel" },
+          { "s": "ごみ", "g": "Müll" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "ありました", "g": "war" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "公園にはおもったよりずっと多くのごみがありました。",
+        "romaji": "Kouen ni wa omotta yori zutto ooku no gomi ga arimashita.",
+        "de": "Im Park lag viel mehr Müll, als ich gedacht hatte."
+      },
+      {
+        "tokens": [
+          { "s": "二時間", "r": "にじかん", "g": "zwei Stunden" },
+          { "s": "で", "g": "(in)" },
+          { "s": "公園", "r": "こうえん", "g": "Park" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "すっかり", "g": "völlig" },
+          { "s": "きれい", "g": "sauber" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "なりました", "g": "wurde" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "二時間で公園はすっかりきれいになりました。",
+        "romaji": "Nijikan de kouen wa sukkari kirei ni narimashita.",
+        "de": "In zwei Stunden wurde der Park völlig sauber."
+      },
+      {
+        "tokens": [
+          { "s": "自分", "r": "じぶん", "g": "selbst" },
+          { "s": "の", "g": "(von)" },
+          { "s": "住む", "r": "すむ", "g": "wohnen" },
+          { "s": "町", "r": "まち", "g": "Stadt" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "好き", "r": "すき", "g": "lieb" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "なった", "g": "wurde" },
+          { "s": "ような", "g": "wie" },
+          { "s": "気", "r": "き", "g": "Gefühl" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "しました", "g": "(hatte)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "自分の住む町が好きになったような気がしました。",
+        "romaji": "Jibun no sumu machi ga suki ni natta you na ki ga shimashita.",
+        "de": "Mir war, als hätte ich meine Stadt lieber gewonnen."
+      },
+      {
+        "tokens": [
+          { "s": "これ", "g": "das" },
+          { "s": "から", "g": "von nun an" },
+          { "s": "も", "g": "auch" },
+          { "s": "こういう", "g": "solche" },
+          { "s": "活動", "r": "かつどう", "g": "Aktivitäten" },
+          { "s": "に", "g": "(an)" },
+          { "s": "参加", "r": "さんか", "g": "teilnehmen" },
+          { "s": "したい", "g": "möchte" },
+          { "s": "と", "g": "(Objekt)" },
+          { "s": "思", "r": "おも", "g": "denken" },
+          { "s": "います", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "これからもこういう活動に参加したいと思います。",
+        "romaji": "Kore kara mo kou iu katsudou ni sanka shitai to omoimasu.",
+        "de": "Auch künftig möchte ich an solchen Aktionen teilnehmen."
+      }
+    ]
+  },
+  {
+    "id": "r-inaka-to-tokai",
+    "title": "いなか と とかい",
+    "titleReading": "いなかととかい",
+    "titleDe": "Land und Stadt",
+    "level": "N3",
+    "category": "Wohnen",
+    "summary": "Ein vergleichender Text über das Leben auf dem Land und in der Großstadt.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "わたし", "g": "ich" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "小さい", "r": "ちいさい", "g": "klein" },
+          { "s": "時", "r": "とき", "g": "Zeit" },
+          { "s": "から", "g": "(von)" },
+          { "s": "十八", "r": "じゅうはち", "g": "achtzehn" },
+          { "s": "歳", "r": "さい", "g": "Jahre" },
+          { "s": "まで", "g": "bis" },
+          { "s": "、", "p": true },
+          { "s": "いなか", "g": "Land" },
+          { "s": "に", "g": "(auf)" },
+          { "s": "住", "r": "す", "g": "wohnen" },
+          { "s": "んで", "g": "und" },
+          { "s": "いました", "g": "(tat)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "わたしは小さい時から十八歳まで、いなかに住んでいました。",
+        "romaji": "Watashi wa chiisai toki kara juuhassai made, inaka ni sunde imashita.",
+        "de": "Von klein auf bis achtzehn habe ich auf dem Land gewohnt."
+      },
+      {
+        "tokens": [
+          { "s": "自然", "r": "しぜん", "g": "Natur" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "多", "r": "おお", "g": "viel" },
+          { "s": "くて", "g": "und" },
+          { "s": "、", "p": true },
+          { "s": "空気", "r": "くうき", "g": "Luft" },
+          { "s": "も", "g": "auch" },
+          { "s": "きれい", "g": "sauber" },
+          { "s": "でした", "g": "war" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "自然が多くて、空気もきれいでした。",
+        "romaji": "Shizen ga ookute, kuuki mo kirei deshita.",
+        "de": "Es gab viel Natur und auch die Luft war rein."
+      },
+      {
+        "tokens": [
+          { "s": "でも", "g": "aber" },
+          { "s": "、", "p": true },
+          { "s": "店", "r": "みせ", "g": "Geschäfte" },
+          { "s": "や", "g": "und" },
+          { "s": "電車", "r": "でんしゃ", "g": "Züge" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "少", "r": "すく", "g": "wenig" },
+          { "s": "なくて", "g": "und" },
+          { "s": "、", "p": true },
+          { "s": "ふべん", "g": "unpraktisch" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "こと", "g": "Dinge" },
+          { "s": "も", "g": "auch" },
+          { "s": "ありました", "g": "gab es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "でも、店や電車が少なくて、ふべんなこともありました。",
+        "romaji": "Demo, mise ya densha ga sukunakute, fuben na koto mo arimashita.",
+        "de": "Aber es gab wenige Geschäfte und Züge, was manchmal unpraktisch war."
+      },
+      {
+        "tokens": [
+          { "s": "大学", "r": "だいがく", "g": "Universität" },
+          { "s": "の", "g": "(von)" },
+          { "s": "時", "r": "とき", "g": "Zeit" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "、", "p": true },
+          { "s": "東京", "r": "とうきょう", "g": "Tokio" },
+          { "s": "に引っ", "r": "にひっ", "g": "(nach)" },
+          { "s": "越", "r": "こ", "g": "umziehen" },
+          { "s": "しました", "g": "(tat)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "大学の時に、東京に引っ越しました。",
+        "romaji": "Daigaku no toki ni, Toukyou ni hikkoshimashita.",
+        "de": "Während der Uni bin ich nach Tokio gezogen."
+      },
+      {
+        "tokens": [
+          { "s": "都会", "r": "とかい", "g": "Großstadt" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "にぎやか", "g": "lebhaft" },
+          { "s": "で", "g": "und" },
+          { "s": "、", "p": true },
+          { "s": "なんでも", "g": "alles" },
+          { "s": "すぐ", "g": "sofort" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "手", "r": "て", "g": "Hand" },
+          { "s": "に", "g": "(in)" },
+          { "s": "はいります", "g": "bekommt man" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "都会はにぎやかで、なんでもすぐに手にはいります。",
+        "romaji": "Tokai wa nigiyaka de, nandemo sugu ni te ni hairimasu.",
+        "de": "Die Großstadt ist lebhaft, und man bekommt alles sofort."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "、", "p": true },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "多", "r": "おお", "g": "viel" },
+          { "s": "すぎて", "g": "zu und" },
+          { "s": "、", "p": true },
+          { "s": "つかれる", "g": "ermüden" },
+          { "s": "こと", "g": "Dinge" },
+          { "s": "も", "g": "auch" },
+          { "s": "あります", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし、人が多すぎて、つかれることもあります。",
+        "romaji": "Shikashi, hito ga oosugite, tsukareru koto mo arimasu.",
+        "de": "Aber es sind so viele Menschen, dass es manchmal ermüdet."
+      },
+      {
+        "tokens": [
+          { "s": "どちらにも", "g": "beide" },
+          { "s": "いい", "g": "gute" },
+          { "s": "ところ", "g": "Seiten" },
+          { "s": "と", "g": "und" },
+          { "s": "悪い", "r": "わるい", "g": "schlechte" },
+          { "s": "ところ", "g": "Seiten" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "ある", "g": "gibt es" },
+          { "s": "と", "g": "(Objekt)" },
+          { "s": "思", "r": "おも", "g": "denken" },
+          { "s": "います", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "どちらにもいいところと悪いところがあると思います。",
+        "romaji": "Dochira ni mo ii tokoro to warui tokoro ga aru to omoimasu.",
+        "de": "Beide haben gute und schlechte Seiten, finde ich."
+      },
+      {
+        "tokens": [
+          { "s": "将来", "r": "しょうらい", "g": "Zukunft" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "両方", "r": "りょうほう", "g": "beides" },
+          { "s": "の", "g": "(von)" },
+          { "s": "いい", "g": "Gutes" },
+          { "s": "ところ", "g": "Seiten" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "ある", "g": "haben" },
+          { "s": "町", "r": "まち", "g": "Stadt" },
+          { "s": "に", "g": "(in)" },
+          { "s": "住", "r": "す", "g": "wohnen" },
+          { "s": "みたい", "g": "möchte" },
+          { "s": "です", "g": "(tue)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "将来は、両方のいいところがある町に住みたいです。",
+        "romaji": "Shourai wa, ryouhou no ii tokoro ga aru machi ni sumitai desu.",
+        "de": "In Zukunft möchte ich in einer Stadt leben, die das Beste von beidem hat."
+      }
+    ]
+  },
+  {
+    "id": "r-kankou-koregai",
+    "title": "かんこう の これから",
+    "titleReading": "かんこうのこれから",
+    "titleDe": "Die Zukunft des Tourismus",
+    "level": "N2",
+    "category": "Tourismus",
+    "summary": "Ein Essay über den wachsenden Tourismus in Japan und das Problem der Überlastung beliebter Orte.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "近年", "r": "きんねん", "g": "in den letzten Jahren" },
+          { "s": "、", "p": true },
+          { "s": "日本", "r": "にほん", "g": "Japan" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "訪れる", "r": "おとずれる", "g": "besuchen" },
+          { "s": "外国人", "r": "がいこくじん", "g": "Ausländer" },
+          { "s": "の", "g": "(von)" },
+          { "s": "数", "r": "かず", "g": "Zahl" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "大きく", "r": "おおきく", "g": "stark" },
+          { "s": "増", "r": "ふ", "g": "zunehmen" },
+          { "s": "えた", "g": "(ist)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "近年、日本を訪れる外国人の数が大きく増えた。",
+        "romaji": "Kinnen, Nihon o otozureru gaikokujin no kazu ga ookiku fueta.",
+        "de": "In den letzten Jahren ist die Zahl der ausländischen Japan-Besucher stark gestiegen."
+      },
+      {
+        "tokens": [
+          { "s": "観光", "r": "かんこう", "g": "Tourismus" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "地域", "r": "ちいき", "g": "Region" },
+          { "s": "の", "g": "(von)" },
+          { "s": "経済", "r": "けいざい", "g": "Wirtschaft" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "支える", "r": "ささえる", "g": "stützen" },
+          { "s": "大切", "r": "たいせつ", "g": "wichtig" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "力", "r": "ちから", "g": "Kraft" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "なって", "g": "geworden" },
+          { "s": "いる", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "観光は地域の経済を支える大切な力になっている。",
+        "romaji": "Kankou wa chiiki no keizai o sasaeru taisetsu na chikara ni natte iru.",
+        "de": "Tourismus ist zu einer wichtigen Stütze der regionalen Wirtschaft geworden."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "、", "p": true },
+          { "s": "有名", "r": "ゆうめい", "g": "berühmt" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "観光地", "r": "かんこうち", "g": "Sehenswürdigkeit" },
+          { "s": "に", "g": "(an)" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "集中", "r": "しゅうちゅう", "g": "sich konzentrieren" },
+          { "s": "しすぎる", "g": "zu sehr" },
+          { "s": "という", "g": "sogenanntes" },
+          { "s": "問題", "r": "もんだい", "g": "Problem" },
+          { "s": "も", "g": "(Themenpartikel)" },
+          { "s": "起", "r": "お", "g": "entstehen" },
+          { "s": "きて", "g": "und" },
+          { "s": "いる", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし、有名な観光地に人が集中しすぎるという問題も起きている。",
+        "romaji": "Shikashi, yuumei na kankouchi ni hito ga shuuchuu shisugiru to iu mondai mo okite iru.",
+        "de": "Doch entsteht auch das Problem, dass sich zu viele an berühmten Orten drängen."
+      },
+      {
+        "tokens": [
+          { "s": "道", "r": "みち", "g": "Straßen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "混み", "r": "こみ", "g": "voll" },
+          { "s": "、", "p": true },
+          { "s": "そこ", "g": "dort" },
+          { "s": "に", "g": "(an)" },
+          { "s": "住む", "r": "すむ", "g": "wohnen" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "の", "g": "(von)" },
+          { "s": "生活", "r": "せいかつ", "g": "Leben" },
+          { "s": "に", "g": "(auf)" },
+          { "s": "影響", "r": "えいきょう", "g": "Auswirkung" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "出る", "r": "でる", "g": "entstehen" },
+          { "s": "こと", "g": "Fälle" },
+          { "s": "も", "g": "auch" },
+          { "s": "ある", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "道が混み、そこに住む人の生活に影響が出ることもある。",
+        "romaji": "Michi ga komi, soko ni sumu hito no seikatsu ni eikyou ga deru koto mo aru.",
+        "de": "Die Straßen sind verstopft, was das Leben der Anwohner beeinträchtigt."
+      },
+      {
+        "tokens": [
+          { "s": "また", "g": "außerdem" },
+          { "s": "、", "p": true },
+          { "s": "一部", "r": "いちぶ", "g": "manche" },
+          { "s": "の", "g": "(von)" },
+          { "s": "観光客", "r": "かんこうきゃく", "g": "Touristen" },
+          { "s": "の", "g": "(von)" },
+          { "s": "行動", "r": "こうどう", "g": "Verhalten" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "問題", "r": "もんだい", "g": "Problem" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "なる", "g": "wird" },
+          { "s": "こと", "g": "Fälle" },
+          { "s": "も", "g": "auch" },
+          { "s": "少", "r": "すく", "g": "wenig" },
+          { "s": "なくない", "g": "nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "また、一部の観光客の行動が問題になることも少なくない。",
+        "romaji": "Mata, ichibu no kankoukyaku no koudou ga mondai ni naru koto mo sukunakunai.",
+        "de": "Auch das Verhalten mancher Touristen wird nicht selten zum Problem."
+      },
+      {
+        "tokens": [
+          { "s": "こうした", "g": "solche" },
+          { "s": "課題", "r": "かだい", "g": "Herausforderungen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "解決する", "r": "かいけつする", "g": "lösen" },
+          { "s": "ために", "g": "um zu" },
+          { "s": "、", "p": true },
+          { "s": "地域", "r": "ちいき", "g": "Region" },
+          { "s": "ごと", "g": "je" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "工夫", "r": "くふう", "g": "Maßnahmen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "求", "r": "もと", "g": "gefordert" },
+          { "s": "められて", "g": "werden und" },
+          { "s": "いる", "g": "sind" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "こうした課題を解決するために、地域ごとに工夫が求められている。",
+        "romaji": "Koushita kadai o kaiketsu suru tame ni, chiiki goto ni kufuu ga motomerarete iru.",
+        "de": "Um diese Aufgaben zu lösen, sind regionale Maßnahmen gefragt."
+      },
+      {
+        "tokens": [
+          { "s": "例えば", "r": "たとえば", "g": "zum Beispiel" },
+          { "s": "、", "p": true },
+          { "s": "入場", "r": "にゅうじょう", "g": "Eintritt" },
+          { "s": "の", "g": "(von)" },
+          { "s": "人数", "r": "にんずう", "g": "Personenzahl" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "制限", "r": "せいげん", "g": "beschränken" },
+          { "s": "したり", "g": "etwa" },
+          { "s": "、", "p": true },
+          { "s": "観光", "r": "かんこう", "g": "Touristen-" },
+          { "s": "税", "r": "ぜい", "g": "steuer" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "集", "r": "あつ", "g": "erheben" },
+          { "s": "めたりする", "g": "etwa" },
+          { "s": "方法", "r": "ほうほう", "g": "Methoden" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "ある", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "例えば、入場の人数を制限したり、観光税を集めたりする方法がある。",
+        "romaji": "Tatoeba, nyuujou no ninzuu o seigen shitari, kankouzei o atsumetari suru houhou ga aru.",
+        "de": "So gibt es etwa Besucherobergrenzen oder eine Touristensteuer."
+      },
+      {
+        "tokens": [
+          { "s": "観光", "r": "かんこう", "g": "Tourismus" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "楽しむ", "r": "たのしむ", "g": "genießen" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "と", "g": "und" },
+          { "s": "そこ", "g": "dort" },
+          { "s": "で", "g": "(in)" },
+          { "s": "暮らす", "r": "くらす", "g": "leben" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "の", "g": "(von)" },
+          { "s": "両方", "r": "りょうほう", "g": "beide" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "満足", "r": "まんぞく", "g": "zufrieden" },
+          { "s": "できる", "g": "sein können" },
+          { "s": "形", "r": "かたち", "g": "Form" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "理想", "r": "りそう", "g": "Ideal" },
+          { "s": "だ", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "観光を楽しむ人とそこで暮らす人の両方が満足できる形が理想だ。",
+        "romaji": "Kankou o tanoshimu hito to soko de kurasu hito no ryouhou ga manzoku dekiru katachi ga risou da.",
+        "de": "Ideal ist eine Form, mit der Besucher wie Einheimische zufrieden sind."
+      }
+    ]
+  },
+  {
+    "id": "r-kyouiku-no-katachi",
+    "title": "きょういく の かたち",
+    "titleReading": "きょういくのかたち",
+    "titleDe": "Wandel in der Bildung",
+    "level": "N2",
+    "category": "Bildung",
+    "summary": "Ein Essay über veränderte Lernformen und die Rolle der Technik im modernen Unterricht.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "教育", "r": "きょういく", "g": "Bildung" },
+          { "s": "の", "g": "(von)" },
+          { "s": "形", "r": "かたち", "g": "Form" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "時代", "r": "じだい", "g": "Zeit" },
+          { "s": "とともに", "g": "mit" },
+          { "s": "大きく", "r": "おおきく", "g": "stark" },
+          { "s": "変", "r": "か", "g": "sich verändern" },
+          { "s": "わって", "g": "und" },
+          { "s": "きた", "g": "(ist)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "教育の形は、時代とともに大きく変わってきた。",
+        "romaji": "Kyouiku no katachi wa, jidai to tomo ni ookiku kawatte kita.",
+        "de": "Die Form der Bildung hat sich mit der Zeit stark gewandelt."
+      },
+      {
+        "tokens": [
+          { "s": "むかし", "g": "früher" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "先生", "r": "せんせい", "g": "Lehrer" },
+          { "s": "の", "g": "(von)" },
+          { "s": "話", "r": "はなし", "g": "Erklärungen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "聞く", "r": "きく", "g": "hören" },
+          { "s": "だけ", "g": "nur" },
+          { "s": "の", "g": "(von)" },
+          { "s": "授業", "r": "じゅぎょう", "g": "Unterricht" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "ふつう", "g": "üblich" },
+          { "s": "だった", "g": "war" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "むかしは先生の話を聞くだけの授業がふつうだった。",
+        "romaji": "Mukashi wa sensei no hanashi o kiku dake no jugyou ga futsuu datta.",
+        "de": "Früher war ein Unterricht üblich, in dem man nur dem Lehrer zuhörte."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "最近", "r": "さいきん", "g": "in letzter Zeit" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "生徒", "r": "せいと", "g": "Schüler" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "自分", "r": "じぶん", "g": "selbst" },
+          { "s": "で", "g": "(von)" },
+          { "s": "考え", "r": "かんがえ", "g": "denken" },
+          { "s": "、", "p": true },
+          { "s": "話し合う", "r": "はなしあう", "g": "reden" },
+          { "s": "授業", "r": "じゅぎょう", "g": "Unterricht" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "増", "r": "ふ", "g": "zunehmen" },
+          { "s": "えて", "g": "und" },
+          { "s": "きた", "g": "(ist)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし最近は、生徒が自分で考え、話し合う授業が増えてきた。",
+        "romaji": "Shikashi saikin wa, seito ga jibun de kangae, hanashiau jugyou ga fuete kita.",
+        "de": "In letzter Zeit nimmt jedoch Unterricht zu, in dem Schüler selbst denken und diskutieren."
+      },
+      {
+        "tokens": [
+          { "s": "また", "g": "außerdem" },
+          { "s": "、", "p": true },
+          { "s": "パソコン", "g": "Computer" },
+          { "s": "や", "g": "und" },
+          { "s": "タブレット", "g": "Tablets" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "使う", "r": "つかう", "g": "benutzen" },
+          { "s": "学校", "r": "がっこう", "g": "Schulen" },
+          { "s": "も", "g": "auch" },
+          { "s": "多く", "r": "おおく", "g": "viel" },
+          { "s": "なった", "g": "geworden" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "また、パソコンやタブレットを使う学校も多くなった。",
+        "romaji": "Mata, pasokon ya taburetto o tsukau gakkou mo ooku natta.",
+        "de": "Auch nutzen mehr Schulen Computer und Tablets."
+      },
+      {
+        "tokens": [
+          { "s": "インターネット", "g": "Internet" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "使", "r": "つか", "g": "nutzen" },
+          { "s": "えば", "g": "wenn" },
+          { "s": "、", "p": true },
+          { "s": "家", "r": "いえ", "g": "Zuhause" },
+          { "s": "に", "g": "(in)" },
+          { "s": "いて", "g": "sein und" },
+          { "s": "も", "g": "auch" },
+          { "s": "世界", "r": "せかい", "g": "Welt" },
+          { "s": "中", "r": "じゅう", "g": "überall" },
+          { "s": "の", "g": "(von)" },
+          { "s": "授業", "r": "じゅぎょう", "g": "Unterricht" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "受", "r": "う", "g": "besuchen" },
+          { "s": "けられる", "g": "kann man" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "インターネットを使えば、家にいても世界中の授業を受けられる。",
+        "romaji": "Intaanetto o tsukaeba, ie ni ite mo sekaijuu no jugyou o ukerareru.",
+        "de": "Mit dem Internet kann man von zu Hause Unterricht aus aller Welt besuchen."
+      },
+      {
+        "tokens": [
+          { "s": "ただし", "g": "allerdings" },
+          { "s": "、", "p": true },
+          { "s": "便利", "r": "べんり", "g": "praktisch" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "なった", "g": "geworden" },
+          { "s": "一方で", "r": "いっぽうで", "g": "andererseits" },
+          { "s": "、", "p": true },
+          { "s": "新しい", "r": "あたらしい", "g": "neu" },
+          { "s": "問題", "r": "もんだい", "g": "Probleme" },
+          { "s": "も", "g": "(Themenpartikel)" },
+          { "s": "生", "r": "う", "g": "entstehen" },
+          { "s": "まれて", "g": "und" },
+          { "s": "いる", "g": "sind" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "ただし、便利になった一方で、新しい問題も生まれている。",
+        "romaji": "Tadashi, benri ni natta ippou de, atarashii mondai mo umarete iru.",
+        "de": "Doch während es praktischer wurde, entstehen auch neue Probleme."
+      },
+      {
+        "tokens": [
+          { "s": "画面", "r": "がめん", "g": "Bildschirm" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "見る", "r": "みる", "g": "sehen" },
+          { "s": "時間", "r": "じかん", "g": "Zeit" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "長く", "r": "ながく", "g": "lang" },
+          { "s": "なり", "g": "wird und" },
+          { "s": "、", "p": true },
+          { "s": "健康への", "r": "けんこうへの", "g": "Gesundheit" },
+          { "s": "影響", "r": "えいきょう", "g": "Auswirkung" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "心配する", "r": "しんぱいする", "g": "sorgen" },
+          { "s": "声", "r": "こえ", "g": "Stimmen" },
+          { "s": "も", "g": "auch" },
+          { "s": "ある", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "画面を見る時間が長くなり、健康への影響を心配する声もある。",
+        "romaji": "Gamen o miru jikan ga nagaku nari, kenkou e no eikyou o shinpai suru koe mo aru.",
+        "de": "Die Bildschirmzeit wird länger, und manche sorgen sich um die Gesundheit."
+      },
+      {
+        "tokens": [
+          { "s": "技術", "r": "ぎじゅつ", "g": "Technik" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "どう", "g": "wie" },
+          { "s": "生かすかが", "r": "いかすかが", "g": "nutzbar machen" },
+          { "s": "、", "p": true },
+          { "s": "これから", "g": "künftig" },
+          { "s": "の", "g": "(von)" },
+          { "s": "教育", "r": "きょういく", "g": "Bildung" },
+          { "s": "の", "g": "(von)" },
+          { "s": "大きな", "r": "おおきな", "g": "große" },
+          { "s": "課題", "r": "かだい", "g": "Aufgabe" },
+          { "s": "だ", "g": "ist" },
+          { "s": "ろう", "g": "wohl" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "技術をどう生かすかが、これからの教育の大きな課題だろう。",
+        "romaji": "Gijutsu o dou ikasu ka ga, kore kara no kyouiku no ookina kadai darou.",
+        "de": "Wie man die Technik sinnvoll nutzt, dürfte die große Aufgabe künftiger Bildung sein."
+      }
+    ]
+  },
+  {
+    "id": "r-shoku-no-henka",
+    "title": "しょく の へんか",
+    "titleReading": "しょくのへんか",
+    "titleDe": "Der Wandel der Ernährung",
+    "level": "N2",
+    "category": "Ernährung",
+    "summary": "Ein Essay über veränderte Essgewohnheiten in Japan und die Frage gesunder Ernährung.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "日本人", "r": "にほんじん", "g": "Japaner" },
+          { "s": "の", "g": "(von)" },
+          { "s": "食事", "r": "しょくじ", "g": "Ernährung" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "この", "g": "diesen" },
+          { "s": "数十年", "r": "すうじゅうねん", "g": "Jahrzehnten" },
+          { "s": "で", "g": "(in)" },
+          { "s": "大きく", "r": "おおきく", "g": "stark" },
+          { "s": "変", "r": "か", "g": "sich wandeln" },
+          { "s": "わった", "g": "(hat)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "日本人の食事は、この数十年で大きく変わった。",
+        "romaji": "Nihonjin no shokuji wa, kono suujuunen de ookiku kawatta.",
+        "de": "Die Ernährung der Japaner hat sich in den letzten Jahrzehnten stark gewandelt."
+      },
+      {
+        "tokens": [
+          { "s": "むかし", "g": "früher" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "米", "r": "こめ", "g": "Reis" },
+          { "s": "や", "g": "und" },
+          { "s": "魚", "r": "さかな", "g": "Fisch" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "中心", "r": "ちゅうしん", "g": "Mittelpunkt" },
+          { "s": "とした", "g": "als" },
+          { "s": "和食", "r": "わしょく", "g": "japanische Küche" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "多", "r": "おお", "g": "häufig" },
+          { "s": "かった", "g": "war" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "むかしは米や魚を中心とした和食が多かった。",
+        "romaji": "Mukashi wa kome ya sakana o chuushin to shita washoku ga ookatta.",
+        "de": "Früher überwog die japanische Küche mit Reis und Fisch."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "今", "r": "いま", "g": "heute" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "肉", "r": "にく", "g": "Fleisch" },
+          { "s": "や", "g": "und" },
+          { "s": "油", "r": "あぶら", "g": "Öl" },
+          { "s": "の", "g": "(von)" },
+          { "s": "多い", "r": "おおい", "g": "viel" },
+          { "s": "洋食", "r": "ようしょく", "g": "westliches Essen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "食べる", "r": "たべる", "g": "essen" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "増", "r": "ふ", "g": "zunehmen" },
+          { "s": "えた", "g": "(sind)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし今では、肉や油の多い洋食を食べる人が増えた。",
+        "romaji": "Shikashi ima de wa, niku ya abura no ooi youshoku o taberu hito ga fueta.",
+        "de": "Heute aber essen mehr Menschen westliche, fett- und fleischreiche Kost."
+      },
+      {
+        "tokens": [
+          { "s": "外食", "r": "がいしょく", "g": "auswärts essen" },
+          { "s": "や", "g": "und" },
+          { "s": "一人", "r": "ひとり", "g": "allein" },
+          { "s": "で", "g": "(von)" },
+          { "s": "食べる", "r": "たべる", "g": "essen" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "も", "g": "(Themenpartikel)" },
+          { "s": "増", "r": "ふ", "g": "zunehmen" },
+          { "s": "えて", "g": "und" },
+          { "s": "いる", "g": "sind" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "外食や一人で食べる人も増えている。",
+        "romaji": "Gaishoku ya hitori de taberu hito mo fuete iru.",
+        "de": "Auch Auswärtsessen und alleine Essen nehmen zu."
+      },
+      {
+        "tokens": [
+          { "s": "こうした", "g": "solche" },
+          { "s": "変化", "r": "へんか", "g": "Veränderungen" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "わたしたち", "g": "unsere" },
+          { "s": "の", "g": "(von)" },
+          { "s": "健康", "r": "けんこう", "g": "Gesundheit" },
+          { "s": "に", "g": "(auf)" },
+          { "s": "大きな", "r": "おおきな", "g": "große" },
+          { "s": "影響", "r": "えいきょう", "g": "Auswirkung" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "与", "r": "あた", "g": "geben" },
+          { "s": "えている", "g": "und" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "こうした変化は、わたしたちの健康に大きな影響を与えている。",
+        "romaji": "Koushita henka wa, watashitachi no kenkou ni ookina eikyou o ataete iru.",
+        "de": "Solche Veränderungen wirken sich stark auf unsere Gesundheit aus."
+      },
+      {
+        "tokens": [
+          { "s": "栄養", "r": "えいよう", "g": "Nährstoffe" },
+          { "s": "の", "g": "(von)" },
+          { "s": "バランス", "g": "Balance" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "崩", "r": "くず", "g": "aus dem Gleichgewicht geraten" },
+          { "s": "れて", "g": "und" },
+          { "s": "、", "p": true },
+          { "s": "生活", "r": "せいかつ", "g": "Lebens-" },
+          { "s": "習慣", "r": "しゅうかん", "g": "gewohnheits-" },
+          { "s": "病", "r": "びょう", "g": "krankheit" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "増えている", "r": "ふえている", "g": "zunehmen" },
+          { "s": "という", "g": "sogenannte" },
+          { "s": "指摘", "r": "してき", "g": "Hinweise" },
+          { "s": "も", "g": "auch" },
+          { "s": "ある", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "栄養のバランスが崩れて、生活習慣病が増えているという指摘もある。",
+        "romaji": "Eiyou no baransu ga kuzurete, seikatsu shuukanbyou ga fuete iru to iu shiteki mo aru.",
+        "de": "Manche weisen darauf hin, dass die Nährstoffbalance kippt und Zivilisationskrankheiten zunehmen."
+      },
+      {
+        "tokens": [
+          { "s": "だからこそ", "g": "gerade deshalb" },
+          { "s": "、", "p": true },
+          { "s": "自分", "r": "じぶん", "g": "selbst" },
+          { "s": "の", "g": "(von)" },
+          { "s": "食べる", "r": "たべる", "g": "essen" },
+          { "s": "もの", "g": "Dinge" },
+          { "s": "に", "g": "(auf)" },
+          { "s": "関心", "r": "かんしん", "g": "Interesse" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "持つ", "r": "もつ", "g": "haben" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "大切", "r": "たいせつ", "g": "wichtig" },
+          { "s": "だ", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "だからこそ、自分の食べるものに関心を持つことが大切だ。",
+        "romaji": "Dakara koso, jibun no taberu mono ni kanshin o motsu koto ga taisetsu da.",
+        "de": "Gerade deshalb ist es wichtig, sich für das eigene Essen zu interessieren."
+      },
+      {
+        "tokens": [
+          { "s": "伝統", "r": "でんとう", "g": "Tradition" },
+          { "s": "と", "g": "und" },
+          { "s": "便利さ", "r": "べんりさ", "g": "Bequemlichkeit" },
+          { "s": "の", "g": "(von)" },
+          { "s": "両方", "r": "りょうほう", "g": "beides" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "生かした", "r": "いかした", "g": "nutzen" },
+          { "s": "食", "r": "しょく", "g": "Ernährungs-" },
+          { "s": "生活", "r": "せいかつ", "g": "weise" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "望", "r": "のぞ", "g": "wünschen" },
+          { "s": "ましい", "g": "wäre wünschenswert" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "伝統と便利さの両方を生かした食生活が望ましい。",
+        "romaji": "Dentou to benrisa no ryouhou o ikashita shokuseikatsu ga nozomashii.",
+        "de": "Wünschenswert ist eine Ernährung, die Tradition und Bequemlichkeit verbindet."
+      }
+    ]
+  },
+  {
+    "id": "r-chiiki-no-kasseika",
+    "title": "ちいき の かっせいか",
+    "titleReading": "ちいきのかっせいか",
+    "titleDe": "Die Belebung der Regionen",
+    "level": "N2",
+    "category": "Gesellschaft",
+    "summary": "Ein Essay über die Abwanderung aus ländlichen Regionen und Ideen zu ihrer Wiederbelebung.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "地方", "r": "ちほう", "g": "ländliche Regionen" },
+          { "s": "の", "g": "(von)" },
+          { "s": "町", "r": "まち", "g": "Städte" },
+          { "s": "や", "g": "und" },
+          { "s": "村", "r": "むら", "g": "Dörfer" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "人口", "r": "じんこう", "g": "Bevölkerung" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "減り", "r": "へり", "g": "abnehmen" },
+          { "s": "続けている", "r": "つづけている", "g": "fortlaufend" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "地方の町や村では、人口が減り続けている。",
+        "romaji": "Chihou no machi ya mura de wa, jinkou ga heritsuzukete iru.",
+        "de": "In ländlichen Städten und Dörfern sinkt die Bevölkerung weiter."
+      },
+      {
+        "tokens": [
+          { "s": "若者", "r": "わかもの", "g": "junge Menschen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "仕事", "r": "しごと", "g": "Arbeit" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "求", "r": "もと", "g": "suchen" },
+          { "s": "めて", "g": "und" },
+          { "s": "都市", "r": "とし", "g": "Städte" },
+          { "s": "に", "g": "(in)" },
+          { "s": "出", "r": "で", "g": "gehen" },
+          { "s": "ていく", "g": "und" },
+          { "s": "から", "g": "weil" },
+          { "s": "だ", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "若者が仕事を求めて都市に出ていくからだ。",
+        "romaji": "Wakamono ga shigoto o motomete toshi ni dete iku kara da.",
+        "de": "Das liegt daran, dass junge Leute für Arbeit in die Städte ziehen."
+      },
+      {
+        "tokens": [
+          { "s": "その", "g": "dies" },
+          { "s": "結果", "r": "けっか", "g": "Folge" },
+          { "s": "、", "p": true },
+          { "s": "店", "r": "みせ", "g": "Geschäfte" },
+          { "s": "や", "g": "und" },
+          { "s": "学校", "r": "がっこう", "g": "Schulen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "なくなり", "g": "verschwinden und" },
+          { "s": "、", "p": true },
+          { "s": "地域", "r": "ちいき", "g": "Region" },
+          { "s": "の", "g": "(von)" },
+          { "s": "元気", "r": "げんき", "g": "Lebendigkeit" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "なくなっていく", "g": "verschwindet und" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "その結果、店や学校がなくなり、地域の元気がなくなっていく。",
+        "romaji": "Sono kekka, mise ya gakkou ga nakunari, chiiki no genki ga nakunatte iku.",
+        "de": "In der Folge verschwinden Läden und Schulen, und die Region erlahmt."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "、", "p": true },
+          { "s": "最近", "r": "さいきん", "g": "in letzter Zeit" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "地方", "r": "ちほう", "g": "ländliche Region" },
+          { "s": "の", "g": "(von)" },
+          { "s": "魅力", "r": "みりょく", "g": "Reiz" },
+          { "s": "に気", "r": "にき", "g": "(an)" },
+          { "s": "づく", "g": "bemerken" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "も", "g": "(Themenpartikel)" },
+          { "s": "増", "r": "ふ", "g": "zunehmen" },
+          { "s": "えて", "g": "und" },
+          { "s": "きた", "g": "(sind)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし、最近は地方の魅力に気づく人も増えてきた。",
+        "romaji": "Shikashi, saikin wa chihou no miryoku ni kizuku hito mo fuete kita.",
+        "de": "Doch in letzter Zeit erkennen mehr Menschen den Reiz des Landlebens."
+      },
+      {
+        "tokens": [
+          { "s": "自然", "r": "しぜん", "g": "Natur" },
+          { "s": "の", "g": "(von)" },
+          { "s": "中", "r": "なか", "g": "inmitten" },
+          { "s": "で", "g": "(in)" },
+          { "s": "子育て", "r": "こそだて", "g": "Kinder erziehen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "したい", "g": "möchten" },
+          { "s": "家族", "r": "かぞく", "g": "Familien" },
+          { "s": "や", "g": "und" },
+          { "s": "、", "p": true },
+          { "s": "田舎", "r": "いなか", "g": "Land" },
+          { "s": "で", "g": "(auf)" },
+          { "s": "働", "r": "はたら", "g": "arbeiten" },
+          { "s": "きたい", "g": "möchten" },
+          { "s": "若者", "r": "わかもの", "g": "junge Leute" },
+          { "s": "も", "g": "auch" },
+          { "s": "いる", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "自然の中で子育てをしたい家族や、田舎で働きたい若者もいる。",
+        "romaji": "Shizen no naka de kosodate o shitai kazoku ya, inaka de hatarakitai wakamono mo iru.",
+        "de": "Es gibt Familien, die in der Natur Kinder erziehen, und Junge, die auf dem Land arbeiten wollen."
+      },
+      {
+        "tokens": [
+          { "s": "地域", "r": "ちいき", "g": "Region" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "活かす", "r": "いかす", "g": "beleben" },
+          { "s": "ために", "g": "um zu" },
+          { "s": "、", "p": true },
+          { "s": "インターネット", "g": "Internet" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "使", "r": "つか", "g": "nutzen" },
+          { "s": "って", "g": "und" },
+          { "s": "特産品", "r": "とくさんひん", "g": "regionale Produkte" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "売る", "r": "うる", "g": "verkaufen" },
+          { "s": "試み", "r": "こころみ", "g": "Versuche" },
+          { "s": "も", "g": "auch" },
+          { "s": "始まっている", "r": "はじまっている", "g": "beginnen" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "地域を活かすために、インターネットを使って特産品を売る試みも始まっている。",
+        "romaji": "Chiiki o ikasu tame ni, intaanetto o tsukatte tokusanhin o uru kokoromi mo hajimatte iru.",
+        "de": "Zur Belebung der Region beginnen auch Versuche, regionale Produkte online zu verkaufen."
+      },
+      {
+        "tokens": [
+          { "s": "地域", "r": "ちいき", "g": "Region" },
+          { "s": "の", "g": "(von)" },
+          { "s": "伝統", "r": "でんとう", "g": "Traditionen" },
+          { "s": "や", "g": "und" },
+          { "s": "文化", "r": "ぶんか", "g": "Kultur" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "生かした", "r": "いかした", "g": "nutzen" },
+          { "s": "観光", "r": "かんこう", "g": "Tourismus" },
+          { "s": "も", "g": "auch" },
+          { "s": "注目", "r": "ちゅうもく", "g": "Beachtung" },
+          { "s": "されている", "g": "wird und" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "地域の伝統や文化を生かした観光も注目されている。",
+        "romaji": "Chiiki no dentou ya bunka o ikashita kankou mo chuumoku sarete iru.",
+        "de": "Auch ein Tourismus, der Tradition und Kultur der Region nutzt, findet Beachtung."
+      },
+      {
+        "tokens": [
+          { "s": "それぞれ", "g": "jede" },
+          { "s": "の", "g": "(von)" },
+          { "s": "地域", "r": "ちいき", "g": "Region" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "自分", "r": "じぶん", "g": "eigene" },
+          { "s": "らしさ", "g": "Eigenheit" },
+          { "s": "を大切に", "r": "をたいせつに", "g": "(Objekt)" },
+          { "s": "する", "g": "schätzt" },
+          { "s": "ことが", "g": "(das)" },
+          { "s": "、", "p": true },
+          { "s": "再生への第", "r": "さいせいへのだい", "g": "Wiederbelebung" },
+          { "s": "一歩", "r": "いっぽ", "g": "erster Schritt" },
+          { "s": "に", "g": "(zu)" },
+          { "s": "なる", "g": "wird" },
+          { "s": "だろう", "g": "wohl" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "それぞれの地域が自分らしさを大切にすることが、再生への第一歩になるだろう。",
+        "romaji": "Sorezore no chiiki ga jibun rashisa o taisetsu ni suru koto ga, saisei e no daiippo ni naru darou.",
+        "de": "Wenn jede Region ihre Eigenart pflegt, ist das wohl der erste Schritt zur Wiederbelebung."
+      }
+    ]
+  },
+  {
+    "id": "r-jouhou-tono-tsukiai",
+    "title": "じょうほう との つきあい",
+    "titleReading": "じょうほうとのつきあい",
+    "titleDe": "Der Umgang mit Information",
+    "level": "N2",
+    "category": "Medien",
+    "summary": "Ein Essay über die Flut an Informationen und die Fähigkeit, Verlässliches zu erkennen.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "現代", "r": "げんだい", "g": "Gegenwart" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "情報", "r": "じょうほう", "g": "Information" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "あふれて", "g": "überquellen und" },
+          { "s": "いる", "g": "sind" },
+          { "s": "時代", "r": "じだい", "g": "Zeitalter" },
+          { "s": "だ", "g": "ist" },
+          { "s": "と", "g": "(Objekt)" },
+          { "s": "言", "r": "い", "g": "sagen" },
+          { "s": "われる", "g": "man" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "現代は、情報があふれている時代だと言われる。",
+        "romaji": "Gendai wa, jouhou ga afurete iru jidai da to iwareru.",
+        "de": "Man sagt, die Gegenwart sei ein Zeitalter der Informationsflut."
+      },
+      {
+        "tokens": [
+          { "s": "スマホ", "g": "Smartphone" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "あれば", "g": "wenn man hat" },
+          { "s": "、", "p": true },
+          { "s": "だれでも", "g": "jeder" },
+          { "s": "いつでも", "g": "jederzeit" },
+          { "s": "情報", "r": "じょうほう", "g": "Informationen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "手", "r": "て", "g": "Hand" },
+          { "s": "に", "g": "(in)" },
+          { "s": "入", "r": "い", "g": "bekommen" },
+          { "s": "れられる", "g": "kann" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "スマホがあれば、だれでもいつでも情報を手に入れられる。",
+        "romaji": "Sumaho ga areba, dare demo itsu demo jouhou o te ni irerareru.",
+        "de": "Mit einem Smartphone kann jeder jederzeit an Informationen kommen."
+      },
+      {
+        "tokens": [
+          { "s": "これ", "g": "dies" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "とても", "g": "sehr" },
+          { "s": "便利", "r": "べんり", "g": "praktisch" },
+          { "s": "だ", "g": "ist" },
+          { "s": "が", "g": "aber" },
+          { "s": "、", "p": true },
+          { "s": "問題", "r": "もんだい", "g": "Problem" },
+          { "s": "も", "g": "auch" },
+          { "s": "ある", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "これはとても便利だが、問題もある。",
+        "romaji": "Kore wa totemo benri da ga, mondai mo aru.",
+        "de": "Das ist sehr praktisch, hat aber auch Probleme."
+      },
+      {
+        "tokens": [
+          { "s": "インターネット", "g": "Internet" },
+          { "s": "の", "g": "(von)" },
+          { "s": "情報", "r": "じょうほう", "g": "Informationen" },
+          { "s": "の", "g": "(von)" },
+          { "s": "中には", "r": "なかには", "g": "darunter" },
+          { "s": "、", "p": true },
+          { "s": "正", "r": "ただ", "g": "richtig" },
+          { "s": "しくない", "g": "nicht" },
+          { "s": "もの", "g": "Dinge" },
+          { "s": "も", "g": "auch" },
+          { "s": "多く", "r": "おおく", "g": "viele" },
+          { "s": "含", "r": "ふく", "g": "enthalten" },
+          { "s": "まれている", "g": "sind und" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "インターネットの情報の中には、正しくないものも多く含まれている。",
+        "romaji": "Intaanetto no jouhou no naka ni wa, tadashikunai mono mo ooku fukumarete iru.",
+        "de": "Unter den Informationen im Internet ist auch viel Falsches."
+      },
+      {
+        "tokens": [
+          { "s": "うそ", "g": "Lüge" },
+          { "s": "の", "g": "(von)" },
+          { "s": "情報", "r": "じょうほう", "g": "Information" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "本当", "r": "ほんとう", "g": "Wahrheit" },
+          { "s": "の", "g": "(von)" },
+          { "s": "話", "r": "はなし", "g": "Geschichte" },
+          { "s": "の", "g": "(von)" },
+          { "s": "ように", "g": "wie" },
+          { "s": "広がる", "r": "ひろがる", "g": "sich verbreiten" },
+          { "s": "こと", "g": "Fälle" },
+          { "s": "も", "g": "auch" },
+          { "s": "ある", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "うその情報が本当の話のように広がることもある。",
+        "romaji": "Uso no jouhou ga hontou no hanashi no you ni hirogaru koto mo aru.",
+        "de": "Manchmal verbreiten sich Falschmeldungen wie wahre Geschichten."
+      },
+      {
+        "tokens": [
+          { "s": "だから", "g": "deshalb" },
+          { "s": "、", "p": true },
+          { "s": "情報", "r": "じょうほう", "g": "Information" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "そのまま", "g": "einfach so" },
+          { "s": "信じるの", "r": "しんじるの", "g": "glauben" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "なく", "g": "nicht" },
+          { "s": "、", "p": true },
+          { "s": "自分", "r": "じぶん", "g": "selbst" },
+          { "s": "で", "g": "(von)" },
+          { "s": "確かめる", "r": "たしかめる", "g": "prüfen" },
+          { "s": "力", "r": "ちから", "g": "Fähigkeit" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "必要", "r": "ひつよう", "g": "nötig" },
+          { "s": "だ", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "だから、情報をそのまま信じるのではなく、自分で確かめる力が必要だ。",
+        "romaji": "Dakara, jouhou o sono mama shinjiru no de wa naku, jibun de tashikameru chikara ga hitsuyou da.",
+        "de": "Deshalb braucht man die Fähigkeit, nicht alles zu glauben, sondern selbst zu prüfen."
+      },
+      {
+        "tokens": [
+          { "s": "いくつか", "g": "mehrere" },
+          { "s": "の", "g": "(von)" },
+          { "s": "情報", "r": "じょうほう", "g": "Quellen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "比", "r": "くら", "g": "vergleichen" },
+          { "s": "べたり", "g": "etwa" },
+          { "s": "、", "p": true },
+          { "s": "だれ", "g": "wer" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "書いたか", "r": "かいたか", "g": "geschrieben" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "調", "r": "しら", "g": "prüfen" },
+          { "s": "べたりする", "g": "etwa" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "大切", "r": "たいせつ", "g": "wichtig" },
+          { "s": "だ", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "いくつかの情報を比べたり、だれが書いたかを調べたりすることが大切だ。",
+        "romaji": "Ikutsu ka no jouhou o kurabetari, dare ga kaita ka o shirabetari suru koto ga taisetsu da.",
+        "de": "Wichtig ist, mehrere Quellen zu vergleichen und zu prüfen, wer etwas geschrieben hat."
+      },
+      {
+        "tokens": [
+          { "s": "情報", "r": "じょうほう", "g": "Information" },
+          { "s": "に振り", "r": "にふり", "g": "(von)" },
+          { "s": "回されるの", "r": "まわされるの", "g": "sich herumtreiben lassen" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "なく", "g": "nicht" },
+          { "s": "、", "p": true },
+          { "s": "上手", "r": "じょうず", "g": "geschickt" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "付き合う", "r": "つきあう", "g": "umgehen" },
+          { "s": "力", "r": "ちから", "g": "Fähigkeit" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "身に", "r": "みに", "g": "sich aneignen" },
+          { "s": "つけたい", "g": "möchte" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "情報に振り回されるのではなく、上手に付き合う力を身につけたい。",
+        "romaji": "Jouhou ni furimawasareru no de wa naku, jouzu ni tsukiau chikara o mi ni tsuketai.",
+        "de": "Statt sich von Information treiben zu lassen, will ich lernen, klug mit ihr umzugehen."
+      }
+    ]
+  },
+  {
+    "id": "r-jinkou-chinou-no-rinri",
+    "title": "人工知能 と 倫理",
+    "titleReading": "じんこうちのうとりんり",
+    "titleDe": "Künstliche Intelligenz und Ethik",
+    "level": "N1",
+    "category": "Ethik",
+    "summary": "Ein anspruchsvoller Essay über die ethischen Fragen, die mit der Verbreitung von KI einhergehen.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "人工知能", "r": "じんこうちのう", "g": "künstliche Intelligenz" },
+          { "s": "の", "g": "(von)" },
+          { "s": "発達", "r": "はったつ", "g": "Entwicklung" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "わたしたち", "g": "unser" },
+          { "s": "の", "g": "(von)" },
+          { "s": "生活", "r": "せいかつ", "g": "Leben" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "便利", "r": "べんり", "g": "bequem" },
+          { "s": "にする", "g": "(Adverb)" },
+          { "s": "一方で", "r": "いっぽうで", "g": "andererseits" },
+          { "s": "、", "p": true },
+          { "s": "新たな", "r": "あたらたな", "g": "neue" },
+          { "s": "問い", "r": "とい", "g": "Fragen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "わたしたちに突き", "r": "わたしたちにつき", "g": "uns" },
+          { "s": "付", "r": "つ", "g": "vor Augen führen" },
+          { "s": "けている", "g": "und" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "人工知能の発達は、わたしたちの生活を便利にする一方で、新たな問いをわたしたちに突き付けている。",
+        "romaji": "Jinkou chinou no hattatsu wa, watashitachi no seikatsu o benri ni suru ippou de, aratana toi o watashitachi ni tsukitsukete iru.",
+        "de": "Die Entwicklung der KI macht unser Leben bequemer, stellt uns aber zugleich vor neue Fragen."
+      },
+      {
+        "tokens": [
+          { "s": "例えば", "r": "たとえば", "g": "zum Beispiel" },
+          { "s": "、", "p": true },
+          { "s": "自動", "r": "じどう", "g": "automatisch" },
+          { "s": "で", "g": "(von)" },
+          { "s": "走る", "r": "はしる", "g": "fahren" },
+          { "s": "車", "r": "くるま", "g": "Autos" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "事故", "r": "じこ", "g": "Unfall" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "起こした", "r": "おこした", "g": "verursachen" },
+          { "s": "時", "r": "とき", "g": "Fall" },
+          { "s": "、", "p": true },
+          { "s": "だれ", "g": "wer" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "責任", "r": "せきにん", "g": "Verantwortung" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "負うの", "r": "おうの", "g": "tragen" },
+          { "s": "だろうか", "g": "wohl" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "例えば、自動で走る車が事故を起こした時、だれが責任を負うのだろうか。",
+        "romaji": "Tatoeba, jidou de hashiru kuruma ga jiko o okoshita toki, dare ga sekinin o ou no darou ka.",
+        "de": "Wer etwa trägt die Verantwortung, wenn ein selbstfahrendes Auto einen Unfall verursacht?"
+      },
+      {
+        "tokens": [
+          { "s": "機械", "r": "きかい", "g": "Maschine" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "下す", "r": "くだす", "g": "treffen" },
+          { "s": "判断", "r": "はんだん", "g": "Entscheidung" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "本当", "r": "ほんとう", "g": "wirklich" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "公平", "r": "こうへい", "g": "fair" },
+          { "s": "だ", "g": "ist" },
+          { "s": "と", "g": "(Objekt)" },
+          { "s": "言い", "r": "いい", "g": "sagen" },
+          { "s": "切", "r": "き", "g": "mit Bestimmtheit" },
+          { "s": "れるの", "g": "können" },
+          { "s": "だろうか", "g": "wohl" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "機械が下す判断は、本当に公平だと言い切れるのだろうか。",
+        "romaji": "Kikai ga kudasu handan wa, hontou ni kouhei da to iikireru no darou ka.",
+        "de": "Lässt sich wirklich behaupten, dass die Urteile einer Maschine fair sind?"
+      },
+      {
+        "tokens": [
+          { "s": "人工知能", "r": "じんこうちのう", "g": "KI" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "過去", "r": "かこ", "g": "Vergangenheit" },
+          { "s": "の", "g": "(von)" },
+          { "s": "膨大", "r": "ぼうだい", "g": "riesig" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "データ", "g": "Daten" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "学ぶ", "r": "まなぶ", "g": "lernen" },
+          { "s": "が", "g": "aber" },
+          { "s": "、", "p": true },
+          { "s": "その", "g": "diese" },
+          { "s": "データ", "g": "Daten" },
+          { "s": "に", "g": "(von)" },
+          { "s": "偏り", "r": "かたより", "g": "Verzerrung" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "あれば", "g": "wenn es gibt" },
+          { "s": "、", "p": true },
+          { "s": "判断", "r": "はんだん", "g": "Urteile" },
+          { "s": "も", "g": "auch" },
+          { "s": "偏", "r": "かたよ", "g": "sich verzerren" },
+          { "s": "ってしまう", "g": "und" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "人工知能は過去の膨大なデータを学ぶが、そのデータに偏りがあれば、判断も偏ってしまう。",
+        "romaji": "Jinkou chinou wa kako no boudai na deeta o manabu ga, sono deeta ni katayori ga areba, handan mo katayotte shimau.",
+        "de": "KI lernt aus gewaltigen Datenmengen; sind diese verzerrt, verzerren sich auch ihre Urteile."
+      },
+      {
+        "tokens": [
+          { "s": "つまり", "g": "das heißt" },
+          { "s": "、", "p": true },
+          { "s": "人間", "r": "にんげん", "g": "Mensch" },
+          { "s": "の", "g": "(von)" },
+          { "s": "持つ", "r": "もつ", "g": "tragen" },
+          { "s": "偏見", "r": "へんけん", "g": "Vorurteile" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "、", "p": true },
+          { "s": "そのまま", "g": "unverändert" },
+          { "s": "技術", "r": "ぎじゅつ", "g": "Technik" },
+          { "s": "の", "g": "(von)" },
+          { "s": "中に", "r": "なかに", "g": "in" },
+          { "s": "入り込む", "r": "はいりこむ", "g": "eindringen" },
+          { "s": "恐れ", "r": "おそれ", "g": "Gefahr" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "ある", "g": "besteht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "つまり、人間の持つ偏見が、そのまま技術の中に入り込む恐れがある。",
+        "romaji": "Tsumari, ningen no motsu henken ga, sono mama gijutsu no naka ni hairikomu osore ga aru.",
+        "de": "Mit anderen Worten: Es droht, dass menschliche Vorurteile direkt in die Technik einfließen."
+      },
+      {
+        "tokens": [
+          { "s": "だからこそ", "g": "gerade deshalb" },
+          { "s": "、", "p": true },
+          { "s": "技術", "r": "ぎじゅつ", "g": "Technik" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "作る", "r": "つくる", "g": "schaffen" },
+          { "s": "側", "r": "がわ", "g": "Seite" },
+          { "s": "の", "g": "(von)" },
+          { "s": "責任", "r": "せきにん", "g": "Verantwortung" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "重い", "r": "おもい", "g": "schwer" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "だからこそ、技術を作る側の責任は重い。",
+        "romaji": "Dakara koso, gijutsu o tsukuru gawa no sekinin wa omoi.",
+        "de": "Gerade deshalb ist die Verantwortung der Entwickler groß."
+      },
+      {
+        "tokens": [
+          { "s": "効率", "r": "こうりつ", "g": "Effizienz" },
+          { "s": "や", "g": "und" },
+          { "s": "利益", "r": "りえき", "g": "Profit" },
+          { "s": "だけ", "g": "nur" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "追い求めるの", "r": "おいもとめるの", "g": "verfolgen" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "なく", "g": "nicht" },
+          { "s": "、", "p": true },
+          { "s": "人間", "r": "にんげん", "g": "Mensch" },
+          { "s": "の", "g": "(von)" },
+          { "s": "尊厳", "r": "そんげん", "g": "Würde" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "どう", "g": "wie" },
+          { "s": "守るか", "r": "まもるか", "g": "schützen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "問", "r": "と", "g": "fragen" },
+          { "s": "わなければならない", "g": "muss man" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "効率や利益だけを追い求めるのではなく、人間の尊厳をどう守るかを問わなければならない。",
+        "romaji": "Kouritsu ya rieki dake o oimotomeru no de wa naku, ningen no songen o dou mamoru ka o towanakereba naranai.",
+        "de": "Man darf nicht nur Effizienz und Profit verfolgen, sondern muss fragen, wie die Menschenwürde zu wahren ist."
+      },
+      {
+        "tokens": [
+          { "s": "技術", "r": "ぎじゅつ", "g": "Technik" },
+          { "s": "そのもの", "g": "selbst" },
+          { "s": "に", "g": "(an sich)" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "善悪", "r": "ぜんあく", "g": "Gut und Böse" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "ない", "g": "hat nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "技術そのものには善悪がない。",
+        "romaji": "Gijutsu sono mono ni wa zen'aku ga nai.",
+        "de": "Die Technik selbst kennt kein Gut und Böse."
+      },
+      {
+        "tokens": [
+          { "s": "それ", "g": "sie" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "どう", "g": "wie" },
+          { "s": "使うか", "r": "つかうか", "g": "nutzen" },
+          { "s": "、", "p": true },
+          { "s": "その", "g": "dieses" },
+          { "s": "問い", "r": "とい", "g": "Fragen" },
+          { "s": "こそ", "g": "gerade" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "、", "p": true },
+          { "s": "わたしたち", "g": "wir" },
+          { "s": "人間", "r": "にんげん", "g": "Menschen" },
+          { "s": "に", "g": "(an)" },
+          { "s": "残された", "r": "のこされた", "g": "übrig bleiben" },
+          { "s": "課題なの", "r": "かだいなの", "g": "Aufgabe" },
+          { "s": "だ", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "それをどう使うか、その問いこそが、わたしたち人間に残された課題なのだ。",
+        "romaji": "Sore o dou tsukau ka, sono toi koso ga, watashitachi ningen ni nokosareta kadai na no da.",
+        "de": "Wie wir sie nutzen — eben diese Frage ist die Aufgabe, die uns Menschen bleibt."
+      }
+    ]
+  },
+  {
+    "id": "r-kioku-to-rekishi",
+    "title": "記憶 と 歴史",
+    "titleReading": "きおくとれきし",
+    "titleDe": "Erinnerung und Geschichte",
+    "level": "N1",
+    "category": "Geschichte",
+    "summary": "Ein reflektierender Essay über den Unterschied zwischen persönlicher Erinnerung und überlieferter Geschichte.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "歴史", "r": "れきし", "g": "Geschichte" },
+          { "s": "と", "g": "und" },
+          { "s": "記憶", "r": "きおく", "g": "Erinnerung" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "似", "r": "に", "g": "ähneln" },
+          { "s": "ている", "g": "und" },
+          { "s": "ようで", "g": "scheinen, doch" },
+          { "s": "、", "p": true },
+          { "s": "実", "r": "じつ", "g": "tatsächlich" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "異なる", "r": "ことなる", "g": "sich unterscheiden" },
+          { "s": "もの", "g": "Dinge" },
+          { "s": "だ", "g": "sind" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "歴史と記憶は、似ているようで、実は異なるものだ。",
+        "romaji": "Rekishi to kioku wa, nite iru you de, jitsu wa kotonaru mono da.",
+        "de": "Geschichte und Erinnerung scheinen ähnlich, sind in Wahrheit aber verschieden."
+      },
+      {
+        "tokens": [
+          { "s": "記憶", "r": "きおく", "g": "Erinnerung" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "個人", "r": "こじん", "g": "Einzelne" },
+          { "s": "の", "g": "(von)" },
+          { "s": "心", "r": "こころ", "g": "Herz" },
+          { "s": "の", "g": "(von)" },
+          { "s": "中に", "r": "なかに", "g": "in" },
+          { "s": "生き", "r": "いき", "g": "leben" },
+          { "s": "、", "p": true },
+          { "s": "しばしば", "g": "oft" },
+          { "s": "感情", "r": "かんじょう", "g": "Gefühle" },
+          { "s": "と", "g": "mit" },
+          { "s": "ともに", "g": "zusammen" },
+          { "s": "語られる", "r": "かたられる", "g": "erzählt werden" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "記憶は個人の心の中に生き、しばしば感情とともに語られる。",
+        "romaji": "Kioku wa kojin no kokoro no naka ni iki, shibashiba kanjou to tomo ni katarareru.",
+        "de": "Erinnerung lebt im Herzen des Einzelnen und wird oft mit Gefühl erzählt."
+      },
+      {
+        "tokens": [
+          { "s": "一方", "r": "いっぽう", "g": "andererseits" },
+          { "s": "、", "p": true },
+          { "s": "歴史", "r": "れきし", "g": "Geschichte" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "多くの", "r": "おおくの", "g": "viele" },
+          { "s": "記録", "r": "きろく", "g": "Aufzeichnungen" },
+          { "s": "や", "g": "und" },
+          { "s": "証言", "r": "しょうげん", "g": "Zeugnisse" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "集め", "r": "あつめ", "g": "sammeln" },
+          { "s": "、", "p": true },
+          { "s": "客観的", "r": "きゃっかんてき", "g": "objektiv" },
+          { "s": "に組み", "r": "にくみ", "g": "(Adverb)" },
+          { "s": "立てようと", "r": "たてようと", "g": "aufbauen" },
+          { "s": "する", "g": "versucht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "一方、歴史は多くの記録や証言を集め、客観的に組み立てようとする。",
+        "romaji": "Ippou, rekishi wa ooku no kiroku ya shougen o atsume, kyakkanteki ni kumitateyou to suru.",
+        "de": "Geschichte dagegen sammelt viele Aufzeichnungen und Zeugnisse und sucht sie objektiv zu ordnen."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "、", "p": true },
+          { "s": "歴史", "r": "れきし", "g": "Geschichte" },
+          { "s": "も", "g": "auch" },
+          { "s": "結局", "r": "けっきょく", "g": "letztlich" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "人間", "r": "にんげん", "g": "Mensch" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "書くもので", "r": "かくもので", "g": "schreiben" },
+          { "s": "ある", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし、歴史も結局は人間が書くものである。",
+        "romaji": "Shikashi, rekishi mo kekkyoku wa ningen ga kaku mono de aru.",
+        "de": "Doch auch Geschichte wird letztlich von Menschen geschrieben."
+      },
+      {
+        "tokens": [
+          { "s": "どの", "g": "welche" },
+          { "s": "事実", "r": "じじつ", "g": "Tatsachen" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "選び", "r": "えらび", "g": "auswählen" },
+          { "s": "、", "p": true },
+          { "s": "どう", "g": "wie" },
+          { "s": "解釈するか", "r": "かいしゃくするか", "g": "deuten" },
+          { "s": "に", "g": "(bei)" },
+          { "s": "よって", "g": "je" },
+          { "s": "、", "p": true },
+          { "s": "描かれる", "r": "えがかれる", "g": "gezeichnet werden" },
+          { "s": "姿", "r": "すがた", "g": "Bild" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "変", "r": "か", "g": "sich ändern" },
+          { "s": "わってくる", "g": "und" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "どの事実を選び、どう解釈するかによって、描かれる姿は変わってくる。",
+        "romaji": "Dono jijitsu o erabi, dou kaishaku suru ka ni yotte, egakareru sugata wa kawatte kuru.",
+        "de": "Je nachdem, welche Fakten man wählt und wie man sie deutet, ändert sich das Bild."
+      },
+      {
+        "tokens": [
+          { "s": "つまり", "g": "das heißt" },
+          { "s": "、", "p": true },
+          { "s": "完全", "r": "かんぜん", "g": "vollkommen" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "中立", "r": "ちゅうりつ", "g": "neutral" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "歴史", "r": "れきし", "g": "Geschichte" },
+          { "s": "など", "g": "etwa" },
+          { "s": "存在しないの", "r": "そんざいしないの", "g": "existieren" },
+          { "s": "かもしれない", "g": "vielleicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "つまり、完全に中立な歴史など存在しないのかもしれない。",
+        "romaji": "Tsumari, kanzen ni chuuritsu na rekishi nado sonzai shinai no kamoshirenai.",
+        "de": "Vielleicht existiert also gar keine völlig neutrale Geschichte."
+      },
+      {
+        "tokens": [
+          { "s": "だからこそ", "g": "gerade deshalb" },
+          { "s": "、", "p": true },
+          { "s": "わたしたち", "g": "wir" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "一つ", "r": "ひとつ", "g": "eine" },
+          { "s": "の", "g": "(von)" },
+          { "s": "見方", "r": "みかた", "g": "Sichtweise" },
+          { "s": "だけ", "g": "nur" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "信じるの", "r": "しんじるの", "g": "glauben" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "なく", "g": "nicht" },
+          { "s": "、", "p": true },
+          { "s": "複数", "r": "ふくすう", "g": "mehrere" },
+          { "s": "の", "g": "(von)" },
+          { "s": "声", "r": "こえ", "g": "Stimmen" },
+          { "s": "に", "g": "(auf)" },
+          { "s": "耳", "r": "みみ", "g": "Ohr" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "傾ける", "r": "かたむける", "g": "lauschen" },
+          { "s": "必要", "r": "ひつよう", "g": "nötig" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "ある", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "だからこそ、わたしたちは一つの見方だけを信じるのではなく、複数の声に耳を傾ける必要がある。",
+        "romaji": "Dakara koso, watashitachi wa hitotsu no mikata dake o shinjiru no de wa naku, fukusuu no koe ni mimi o katamukeru hitsuyou ga aru.",
+        "de": "Gerade deshalb sollten wir nicht nur einer Sicht glauben, sondern mehreren Stimmen lauschen."
+      },
+      {
+        "tokens": [
+          { "s": "過去", "r": "かこ", "g": "Vergangenheit" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "問い", "r": "とい", "g": "befragen" },
+          { "s": "直す", "r": "なおす", "g": "erneut" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "現在", "r": "げんざい", "g": "Gegenwart" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "理解する", "r": "りかいする", "g": "verstehen" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "に", "g": "(mit)" },
+          { "s": "も", "g": "auch" },
+          { "s": "つながっている", "g": "verbunden ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "過去を問い直すことは、現在を理解することにもつながっている。",
+        "romaji": "Kako o toinaosu koto wa, genzai o rikai suru koto ni mo tsunagatte iru.",
+        "de": "Die Vergangenheit neu zu befragen, hängt auch damit zusammen, die Gegenwart zu verstehen."
+      },
+      {
+        "tokens": [
+          { "s": "歴史", "r": "れきし", "g": "Geschichte" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "学ぶと", "r": "まなぶと", "g": "lernen" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "過去", "r": "かこ", "g": "Vergangenheit" },
+          { "s": "の", "g": "(von)" },
+          { "s": "中に", "r": "なかに", "g": "in" },
+          { "s": "未来への", "r": "みらいへの", "g": "Zukunft" },
+          { "s": "ヒント", "g": "Hinweise" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "探す", "r": "さがす", "g": "suchen" },
+          { "s": "営みなの", "r": "いとなみなの", "g": "Tätigkeit" },
+          { "s": "だろう", "g": "wohl" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "歴史を学ぶとは、過去の中に未来へのヒントを探す営みなのだろう。",
+        "romaji": "Rekishi o manabu to wa, kako no naka ni mirai e no hinto o sagasu itonami na no darou.",
+        "de": "Geschichte zu lernen heißt wohl, in der Vergangenheit nach Hinweisen für die Zukunft zu suchen."
+      }
+    ]
+  },
+  {
+    "id": "r-seibutsu-tayousei",
+    "title": "生物 多様性",
+    "titleReading": "せいぶつたようせい",
+    "titleDe": "Die Vielfalt des Lebens",
+    "level": "N1",
+    "category": "Wissenschaft",
+    "summary": "Ein wissenschaftlich gefärbter Essay über die Bedeutung der biologischen Vielfalt für das Gleichgewicht der Natur.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "この", "g": "dieser" },
+          { "s": "地球", "r": "ちきゅう", "g": "Erde" },
+          { "s": "に", "g": "(auf)" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "数え", "r": "かぞえ", "g": "zählen" },
+          { "s": "切", "r": "き", "g": "vollständig" },
+          { "s": "れない", "g": "nicht" },
+          { "s": "ほど", "g": "so viele" },
+          { "s": "の", "g": "(von)" },
+          { "s": "生き", "r": "いき", "g": "Lebe-" },
+          { "s": "物", "r": "もの", "g": "wesen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "暮らしている", "r": "くらしている", "g": "leben" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "この地球には、数え切れないほどの生き物が暮らしている。",
+        "romaji": "Kono chikyuu ni wa, kazoekirenai hodo no ikimono ga kurashite iru.",
+        "de": "Auf dieser Erde leben unzählige Lebewesen."
+      },
+      {
+        "tokens": [
+          { "s": "それぞれ", "g": "jedes" },
+          { "s": "の", "g": "(von)" },
+          { "s": "生き", "r": "いき", "g": "Lebe-" },
+          { "s": "物", "r": "もの", "g": "wesen" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "たがいに", "g": "einander" },
+          { "s": "支え合い", "r": "ささえあい", "g": "stützen" },
+          { "s": "ながら", "g": "während" },
+          { "s": "、", "p": true },
+          { "s": "一つ", "r": "ひとつ", "g": "ein" },
+          { "s": "の", "g": "(von)" },
+          { "s": "大きな", "r": "おおきな", "g": "große" },
+          { "s": "仕組み", "r": "しくみ", "g": "Gefüge" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "作", "r": "つく", "g": "bilden" },
+          { "s": "っている", "g": "und" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "それぞれの生き物は、たがいに支え合いながら、一つの大きな仕組みを作っている。",
+        "romaji": "Sorezore no ikimono wa, tagai ni sasaeai nagara, hitotsu no ookina shikumi o tsukutte iru.",
+        "de": "Jedes Lebewesen stützt das andere und bildet so ein großes Gefüge."
+      },
+      {
+        "tokens": [
+          { "s": "これ", "g": "das" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "生物", "r": "せいぶつ", "g": "biologische" },
+          { "s": "多様性と", "r": "たようせいと", "g": "Vielfalt" },
+          { "s": "呼ぶ", "r": "よぶ", "g": "nennen" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "これを生物多様性と呼ぶ。",
+        "romaji": "Kore o seibutsu tayousei to yobu.",
+        "de": "Dies nennt man biologische Vielfalt."
+      },
+      {
+        "tokens": [
+          { "s": "一つ", "r": "ひとつ", "g": "eine" },
+          { "s": "の", "g": "(von)" },
+          { "s": "種", "r": "しゅ", "g": "Art" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "姿", "r": "すがた", "g": "Erscheinung" },
+          { "s": "を消", "r": "をけ", "g": "(Objekt)" },
+          { "s": "す", "g": "verschwinden" },
+          { "s": "と", "g": "wenn" },
+          { "s": "、", "p": true },
+          { "s": "それ", "g": "das" },
+          { "s": "と", "g": "damit" },
+          { "s": "関わる", "r": "かかわる", "g": "verbunden" },
+          { "s": "他", "r": "ほか", "g": "andere" },
+          { "s": "の", "g": "(von)" },
+          { "s": "生き", "r": "いき", "g": "Lebe-" },
+          { "s": "物", "r": "もの", "g": "wesen" },
+          { "s": "に", "g": "(auf)" },
+          { "s": "も", "g": "auch" },
+          { "s": "影響", "r": "えいきょう", "g": "Auswirkung" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "広", "r": "ひろ", "g": "sich ausbreiten" },
+          { "s": "がっていく", "g": "und" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "一つの種が姿を消すと、それと関わる他の生き物にも影響が広がっていく。",
+        "romaji": "Hitotsu no shu ga sugata o kesu to, sore to kakawaru hoka no ikimono ni mo eikyou ga hirogatte iku.",
+        "de": "Verschwindet eine Art, breitet sich die Wirkung auch auf die mit ihr verbundenen Arten aus."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "、", "p": true },
+          { "s": "人間", "r": "にんげん", "g": "Mensch" },
+          { "s": "の", "g": "(von)" },
+          { "s": "活動", "r": "かつどう", "g": "Aktivität" },
+          { "s": "によって", "g": "(durch)" },
+          { "s": "、", "p": true },
+          { "s": "多くの", "r": "おおくの", "g": "viele" },
+          { "s": "生き", "r": "いき", "g": "Lebe-" },
+          { "s": "物", "r": "もの", "g": "wesen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "急速", "r": "きゅうそく", "g": "rasch" },
+          { "s": "に", "g": "(Adverb)" },
+          { "s": "減", "r": "へ", "g": "abnehmen" },
+          { "s": "っている", "g": "und" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし、人間の活動によって、多くの生き物が急速に減っている。",
+        "romaji": "Shikashi, ningen no katsudou ni yotte, ooku no ikimono ga kyuusoku ni hette iru.",
+        "de": "Doch durch menschliches Handeln nehmen viele Lebewesen rasch ab."
+      },
+      {
+        "tokens": [
+          { "s": "森林", "r": "しんりん", "g": "Wälder" },
+          { "s": "の", "g": "(von)" },
+          { "s": "破壊", "r": "はかい", "g": "Zerstörung" },
+          { "s": "や", "g": "und" },
+          { "s": "気候", "r": "きこう", "g": "Klima" },
+          { "s": "の", "g": "(von)" },
+          { "s": "変動", "r": "へんどう", "g": "Wandel" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "、", "p": true },
+          { "s": "生き", "r": "いき", "g": "Lebe-" },
+          { "s": "物", "r": "もの", "g": "wesen" },
+          { "s": "の", "g": "(von)" },
+          { "s": "住む", "r": "すむ", "g": "Wohn-" },
+          { "s": "場所", "r": "ばしょ", "g": "raum" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "奪", "r": "うば", "g": "rauben" },
+          { "s": "っているの", "g": "und" },
+          { "s": "だ", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "森林の破壊や気候の変動が、生き物の住む場所を奪っているのだ。",
+        "romaji": "Shinrin no hakai ya kikou no hendou ga, ikimono no sumu basho o ubatte iru no da.",
+        "de": "Waldzerstörung und Klimawandel rauben den Lebewesen ihren Lebensraum."
+      },
+      {
+        "tokens": [
+          { "s": "生物", "r": "せいぶつ", "g": "biologische" },
+          { "s": "多様性", "r": "たようせい", "g": "Vielfalt" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "守る", "r": "まもる", "g": "schützen" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "単に", "r": "たんに", "g": "bloß" },
+          { "s": "自然", "r": "しぜん", "g": "Natur" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "守る", "r": "まもる", "g": "schützen" },
+          { "s": "だけ", "g": "nur" },
+          { "s": "の", "g": "(von)" },
+          { "s": "話", "r": "はなし", "g": "Sache" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "ない", "g": "ist nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "生物多様性を守ることは、単に自然を守るだけの話ではない。",
+        "romaji": "Seibutsu tayousei o mamoru koto wa, tan ni shizen o mamoru dake no hanashi de wa nai.",
+        "de": "Die Vielfalt zu schützen ist nicht bloß eine Frage des Naturschutzes."
+      },
+      {
+        "tokens": [
+          { "s": "わたしたち", "g": "wir" },
+          { "s": "人間", "r": "にんげん", "g": "Menschen" },
+          { "s": "の", "g": "(von)" },
+          { "s": "食", "r": "しょく", "g": "Nahrung" },
+          { "s": "や", "g": "und" },
+          { "s": "健康", "r": "けんこう", "g": "Gesundheit" },
+          { "s": "も", "g": "auch" },
+          { "s": "、", "p": true },
+          { "s": "豊かな", "r": "ゆたかな", "g": "reich" },
+          { "s": "自然", "r": "しぜん", "g": "Natur" },
+          { "s": "に", "g": "(von)" },
+          { "s": "支えられて", "r": "ささえられて", "g": "getragen" },
+          { "s": "いる", "g": "sind" },
+          { "s": "からだ", "g": "denn" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "わたしたち人間の食や健康も、豊かな自然に支えられているからだ。",
+        "romaji": "Watashitachi ningen no shoku ya kenkou mo, yutaka na shizen ni sasaerarete iru kara da.",
+        "de": "Denn auch unsere Nahrung und Gesundheit ruhen auf einer reichen Natur."
+      },
+      {
+        "tokens": [
+          { "s": "未来", "r": "みらい", "g": "Zukunft" },
+          { "s": "の", "g": "(von)" },
+          { "s": "世代", "r": "せだい", "g": "Generationen" },
+          { "s": "に", "g": "(an)" },
+          { "s": "この", "g": "dieses" },
+          { "s": "豊かさ", "r": "ゆたかさ", "g": "reiche" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "残す", "r": "のこす", "g": "hinterlassen" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "こそ", "g": "gerade" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "、", "p": true },
+          { "s": "今", "r": "いま", "g": "heute" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "生きる", "r": "いきる", "g": "leben" },
+          { "s": "わたしたち", "g": "uns" },
+          { "s": "の", "g": "(von)" },
+          { "s": "務め", "r": "つとめ", "g": "Pflicht" },
+          { "s": "だ", "g": "ist" },
+          { "s": "ろう", "g": "wohl" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "未来の世代にこの豊かさを残すことこそが、今を生きるわたしたちの務めだろう。",
+        "romaji": "Mirai no sedai ni kono yutakasa o nokosu koto koso ga, ima o ikiru watashitachi no tsutome darou.",
+        "de": "Diesen Reichtum kommenden Generationen zu bewahren, ist wohl die Pflicht von uns Heutigen."
+      }
+    ]
+  },
+  {
+    "id": "r-minshushugi-to-taiwa",
+    "title": "民主主義 と 対話",
+    "titleReading": "みんしゅしゅぎとたいわ",
+    "titleDe": "Demokratie und Dialog",
+    "level": "N1",
+    "category": "Gesellschaft",
+    "summary": "Ein anspruchsvoller Essay über die Bedeutung von Dialog und Geduld für eine funktionierende Demokratie.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "民主主義と", "r": "みんしゅしゅぎと", "g": "Demokratie" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "ただ", "g": "bloß" },
+          { "s": "多数", "r": "たすう", "g": "Mehrheit" },
+          { "s": "の", "g": "(von)" },
+          { "s": "意見", "r": "いけん", "g": "Meinung" },
+          { "s": "に", "g": "(nach)" },
+          { "s": "従うこと", "r": "したがうこと", "g": "sich richten" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "ない", "g": "ist nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "民主主義とは、ただ多数の意見に従うことではない。",
+        "romaji": "Minshushugi to wa, tada tasuu no iken ni shitagau koto de wa nai.",
+        "de": "Demokratie heißt nicht bloß, sich der Mehrheit zu fügen."
+      },
+      {
+        "tokens": [
+          { "s": "異なる", "r": "ことなる", "g": "sich unterscheiden" },
+          { "s": "考え", "r": "かんがえ", "g": "Ansichten" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "持つ", "r": "もつ", "g": "haben" },
+          { "s": "人々", "r": "ひとびと", "g": "Menschen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "、", "p": true },
+          { "s": "たがい", "g": "einander" },
+          { "s": "の", "g": "(von)" },
+          { "s": "声", "r": "こえ", "g": "Stimme" },
+          { "s": "に", "g": "(auf)" },
+          { "s": "耳", "r": "みみ", "g": "Ohr" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "傾ける", "r": "かたむける", "g": "lauschen" },
+          { "s": "こと", "g": "(das)" },
+          { "s": "から", "g": "von" },
+          { "s": "はじまる", "g": "beginnt" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "異なる考えを持つ人々が、たがいの声に耳を傾けることからはじまる。",
+        "romaji": "Kotonaru kangae o motsu hitobito ga, tagai no koe ni mimi o katamukeru koto kara hajimaru.",
+        "de": "Sie beginnt damit, dass Menschen verschiedener Ansichten einander zuhören."
+      },
+      {
+        "tokens": [
+          { "s": "意見", "r": "いけん", "g": "Meinungen" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "対立するの", "r": "たいりつするの", "g": "aufeinanderprallen" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "決して", "r": "けっして", "g": "keineswegs" },
+          { "s": "悪いこと", "r": "わるいこと", "g": "schlecht" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "ない", "g": "ist nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "意見が対立するのは、決して悪いことではない。",
+        "romaji": "Iken ga tairitsu suru no wa, kesshite warui koto de wa nai.",
+        "de": "Dass Meinungen aufeinanderprallen, ist keineswegs schlecht."
+      },
+      {
+        "tokens": [
+          { "s": "むしろ", "g": "vielmehr" },
+          { "s": "、", "p": true },
+          { "s": "そこ", "g": "dort" },
+          { "s": "から", "g": "(von)" },
+          { "s": "新しい", "r": "あたらしい", "g": "neue" },
+          { "s": "考え", "r": "かんがえ", "g": "Gedanken" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "生まれること", "r": "うまれること", "g": "entstehen" },
+          { "s": "も", "g": "auch" },
+          { "s": "少なく", "r": "すくなく", "g": "wenig" },
+          { "s": "ない", "g": "nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "むしろ、そこから新しい考えが生まれることも少なくない。",
+        "romaji": "Mushiro, soko kara atarashii kangae ga umareru koto mo sukunaku nai.",
+        "de": "Im Gegenteil, daraus entstehen nicht selten neue Gedanken."
+      },
+      {
+        "tokens": [
+          { "s": "問題なの", "r": "もんだいなの", "g": "Problem" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "対立", "r": "たいりつ", "g": "Gegensatz" },
+          { "s": "そのもの", "g": "selbst" },
+          { "s": "よりも", "g": "als" },
+          { "s": "、", "p": true },
+          { "s": "相手", "r": "あいて", "g": "Gegenüber" },
+          { "s": "の", "g": "(von)" },
+          { "s": "話", "r": "はなし", "g": "Worte" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "聞こうと", "r": "きこうと", "g": "hören" },
+          { "s": "しない", "g": "nicht wollen" },
+          { "s": "態度", "r": "たいど", "g": "Haltung" },
+          { "s": "だ", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "問題なのは、対立そのものよりも、相手の話を聞こうとしない態度だ。",
+        "romaji": "Mondai na no wa, tairitsu sono mono yori mo, aite no hanashi o kikou to shinai taido da.",
+        "de": "Das Problem ist weniger der Gegensatz selbst als die Haltung, dem anderen nicht zuhören zu wollen."
+      },
+      {
+        "tokens": [
+          { "s": "自分", "r": "じぶん", "g": "sich selbst" },
+          { "s": "と", "g": "(von)" },
+          { "s": "違う", "r": "ちがう", "g": "sich unterscheiden" },
+          { "s": "立場", "r": "たちば", "g": "Standpunkt" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "はじめ", "g": "von vornherein" },
+          { "s": "から", "g": "(von)" },
+          { "s": "否定", "r": "ひてい", "g": "ablehnen" },
+          { "s": "してしまえ", "g": "und" },
+          { "s": "ば", "g": "wenn" },
+          { "s": "、", "p": true },
+          { "s": "対話", "r": "たいわ", "g": "Dialog" },
+          { "s": "は成り", "r": "はなり", "g": "(Themenpartikel)" },
+          { "s": "立", "r": "た", "g": "zustande kommen" },
+          { "s": "たない", "g": "nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "自分と違う立場をはじめから否定してしまえば、対話は成り立たない。",
+        "romaji": "Jibun to chigau tachiba o hajime kara hitei shite shimaeba, taiwa wa naritatanai.",
+        "de": "Wer abweichende Standpunkte von vornherein verwirft, mit dem kommt kein Dialog zustande."
+      },
+      {
+        "tokens": [
+          { "s": "民主主義", "r": "みんしゅしゅぎ", "g": "Demokratie" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "時間", "r": "じかん", "g": "Zeit" },
+          { "s": "も", "g": "auch" },
+          { "s": "手間", "r": "てま", "g": "Mühe" },
+          { "s": "も", "g": "auch" },
+          { "s": "かかる", "g": "kostet" },
+          { "s": "、", "p": true },
+          { "s": "面倒", "r": "めんどう", "g": "umständlich" },
+          { "s": "な", "g": "(Adjektiv)" },
+          { "s": "仕組み", "r": "しくみ", "g": "Ordnung" },
+          { "s": "かもしれない", "g": "vielleicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "民主主義は、時間も手間もかかる、面倒な仕組みかもしれない。",
+        "romaji": "Minshushugi wa, jikan mo tema mo kakaru, mendou na shikumi kamoshirenai.",
+        "de": "Demokratie ist vielleicht eine umständliche Ordnung, die Zeit und Mühe kostet."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "、", "p": true },
+          { "s": "その", "g": "dieser" },
+          { "s": "面倒", "r": "めんどう", "g": "umständliche" },
+          { "s": "な", "g": "(von)" },
+          { "s": "過程", "r": "かてい", "g": "Prozess" },
+          { "s": "こそ", "g": "gerade" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "、", "p": true },
+          { "s": "力", "r": "ちから", "g": "Macht" },
+          { "s": "の", "g": "(von)" },
+          { "s": "強い", "r": "つよい", "g": "starken" },
+          { "s": "者", "r": "もの", "g": "Einzelnen" },
+          { "s": "だけ", "g": "allein" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "決める", "r": "きめる", "g": "entscheiden" },
+          { "s": "社会", "r": "しゃかい", "g": "Gesellschaft" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "防いで", "r": "ふせいで", "g": "verhindern" },
+          { "s": "きた", "g": "hat" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし、その面倒な過程こそが、力の強い者だけが決める社会を防いできた。",
+        "romaji": "Shikashi, sono mendou na katei koso ga, chikara no tsuyoi mono dake ga kimeru shakai o fuseide kita.",
+        "de": "Doch gerade dieser mühsame Prozess hat eine Gesellschaft verhindert, in der nur die Mächtigen entscheiden."
+      },
+      {
+        "tokens": [
+          { "s": "対話", "r": "たいわ", "g": "Dialog" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "続ける", "r": "つづける", "g": "fortsetzen" },
+          { "s": "という", "g": "das" },
+          { "s": "忍耐", "r": "にんたい", "g": "Geduld" },
+          { "s": "こそ", "g": "gerade" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "、", "p": true },
+          { "s": "自由", "r": "じゆう", "g": "Freiheit" },
+          { "s": "な", "g": "(von)" },
+          { "s": "社会", "r": "しゃかい", "g": "Gesellschaft" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "支える", "r": "ささえる", "g": "tragen" },
+          { "s": "根なの", "r": "ねなの", "g": "Wurzel" },
+          { "s": "だ", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "対話を続けるという忍耐こそが、自由な社会を支える根なのだ。",
+        "romaji": "Taiwa o tsuzukeru to iu nintai koso ga, jiyuu na shakai o sasaeru ne na no da.",
+        "de": "Gerade die Geduld, den Dialog fortzusetzen, ist die Wurzel einer freien Gesellschaft."
+      }
+    ]
+  },
+  {
+    "id": "r-geijutsu-no-chikara",
+    "title": "芸術 の 力",
+    "titleReading": "げいじゅつのちから",
+    "titleDe": "Die Kraft der Kunst",
+    "level": "N1",
+    "category": "Kunst",
+    "summary": "Ein nachdenklicher Essay über die Frage, warum Kunst trotz ihrer scheinbaren Nutzlosigkeit für den Menschen unentbehrlich ist.",
+    "sentences": [
+      {
+        "tokens": [
+          { "s": "芸術", "r": "げいじゅつ", "g": "Kunst" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "直接", "r": "ちょくせつ", "g": "unmittelbar" },
+          { "s": "役に立つ", "r": "やくにたつ", "g": "nützen" },
+          { "s": "もの", "g": "etwas" },
+          { "s": "では", "g": "(Themenpartikel)" },
+          { "s": "ないと", "g": "ist nicht" },
+          { "s": "しばしば", "g": "oft" },
+          { "s": "言", "r": "い", "g": "sagen" },
+          { "s": "われる", "g": "man" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "芸術は、直接役に立つものではないとしばしば言われる。",
+        "romaji": "Geijutsu wa, chokusetsu yaku ni tatsu mono de wa nai to shibashiba iwareru.",
+        "de": "Oft heißt es, Kunst sei nichts unmittelbar Nützliches."
+      },
+      {
+        "tokens": [
+          { "s": "確かに", "r": "たしかに", "g": "gewiss" },
+          { "s": "、", "p": true },
+          { "s": "一枚", "r": "いちまい", "g": "ein" },
+          { "s": "の", "g": "(von)" },
+          { "s": "絵", "r": "え", "g": "Bild" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "の", "g": "(von)" },
+          { "s": "腹", "r": "はら", "g": "Bauch" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "満たすわけ", "r": "みたすわけ", "g": "füllen" },
+          { "s": "ではない", "g": "(Themenpartikel)" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "確かに、一枚の絵が人の腹を満たすわけではない。",
+        "romaji": "Tashika ni, ichimai no e ga hito no hara o mitasu wake de wa nai.",
+        "de": "Gewiss füllt ein einzelnes Bild niemandem den Magen."
+      },
+      {
+        "tokens": [
+          { "s": "しかし", "g": "jedoch" },
+          { "s": "、", "p": true },
+          { "s": "人間", "r": "にんげん", "g": "Mensch" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "太古", "r": "たいこ", "g": "Urzeit" },
+          { "s": "の", "g": "(von)" },
+          { "s": "昔", "r": "むかし", "g": "längst vergangen" },
+          { "s": "から", "g": "(von)" },
+          { "s": "、", "p": true },
+          { "s": "絵", "r": "え", "g": "Bilder" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "描き", "r": "えがき", "g": "malen" },
+          { "s": "、", "p": true },
+          { "s": "歌", "r": "うた", "g": "Lieder" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "歌い", "r": "うたい", "g": "singen" },
+          { "s": "続けて", "r": "つづけて", "g": "fortwährend" },
+          { "s": "きた", "g": "hat" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "しかし、人間は太古の昔から、絵を描き、歌を歌い続けてきた。",
+        "romaji": "Shikashi, ningen wa taiko no mukashi kara, e o egaki, uta o utai tsuzukete kita.",
+        "de": "Doch seit Urzeiten malt der Mensch Bilder und singt Lieder."
+      },
+      {
+        "tokens": [
+          { "s": "それ", "g": "das" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "なぜ", "g": "warum" },
+          { "s": "だろうか", "g": "wohl" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "それはなぜだろうか。",
+        "romaji": "Sore wa naze darou ka.",
+        "de": "Warum wohl ist das so?"
+      },
+      {
+        "tokens": [
+          { "s": "芸術", "r": "げいじゅつ", "g": "Kunst" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "言葉", "r": "ことば", "g": "Worte" },
+          { "s": "だけ", "g": "allein" },
+          { "s": "では", "g": "(von)" },
+          { "s": "表", "r": "あらわ", "g": "ausdrücken" },
+          { "s": "せない", "g": "nicht können" },
+          { "s": "感情", "r": "かんじょう", "g": "Gefühle" },
+          { "s": "や", "g": "und" },
+          { "s": "思い", "r": "おもい", "g": "Gedanken" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "、", "p": true },
+          { "s": "形", "r": "かたち", "g": "Form" },
+          { "s": "や", "g": "und" },
+          { "s": "音", "r": "おと", "g": "Klang" },
+          { "s": "に", "g": "(in)" },
+          { "s": "変", "r": "か", "g": "verwandeln" },
+          { "s": "えて", "g": "und" },
+          { "s": "伝える", "r": "つたえる", "g": "übermitteln" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "芸術は、言葉だけでは表せない感情や思いを、形や音に変えて伝える。",
+        "romaji": "Geijutsu wa, kotoba dake de wa arawasenai kanjou ya omoi o, katachi ya oto ni kaete tsutaeru.",
+        "de": "Kunst verwandelt Gefühle, die Worte nicht fassen, in Form und Klang."
+      },
+      {
+        "tokens": [
+          { "s": "そして", "g": "und" },
+          { "s": "、", "p": true },
+          { "s": "それ", "g": "sie" },
+          { "s": "に", "g": "(daran)" },
+          { "s": "触れた", "r": "ふれた", "g": "berühren" },
+          { "s": "人", "r": "ひと", "g": "Menschen" },
+          { "s": "の", "g": "(von)" },
+          { "s": "心", "r": "こころ", "g": "Herz" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "動", "r": "うご", "g": "bewegen" },
+          { "s": "かし", "g": "und" },
+          { "s": "、", "p": true },
+          { "s": "時に", "r": "ときに", "g": "manchmal" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "生きる", "r": "いきる", "g": "leben" },
+          { "s": "力", "r": "ちから", "g": "Kraft" },
+          { "s": "さえ", "g": "sogar" },
+          { "s": "与える", "r": "あたえる", "g": "geben" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "そして、それに触れた人の心を動かし、時には生きる力さえ与える。",
+        "romaji": "Soshite, sore ni fureta hito no kokoro o ugokashi, toki ni wa ikiru chikara sae ataeru.",
+        "de": "Und sie bewegt das Herz dessen, der ihr begegnet, und gibt mitunter sogar Lebenskraft."
+      },
+      {
+        "tokens": [
+          { "s": "苦しい", "r": "くるしい", "g": "Leid" },
+          { "s": "時", "r": "とき", "g": "Zeit" },
+          { "s": "に", "g": "(in)" },
+          { "s": "聞いた", "r": "きいた", "g": "hören" },
+          { "s": "一つ", "r": "ひとつ", "g": "ein" },
+          { "s": "の", "g": "(von)" },
+          { "s": "曲", "r": "きょく", "g": "Lied" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "、", "p": true },
+          { "s": "だれか", "g": "jemandem" },
+          { "s": "の", "g": "(von)" },
+          { "s": "心", "r": "こころ", "g": "Herz" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "救うこと", "r": "すくうこと", "g": "retten" },
+          { "s": "も", "g": "auch" },
+          { "s": "ある", "g": "gibt es" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "苦しい時に聞いた一つの曲が、だれかの心を救うこともある。",
+        "romaji": "Kurushii toki ni kiita hitotsu no kyoku ga, dare ka no kokoro o sukuu koto mo aru.",
+        "de": "Ein Lied, in schwerer Stunde gehört, kann ein Herz retten."
+      },
+      {
+        "tokens": [
+          { "s": "つまり", "g": "das heißt" },
+          { "s": "芸術", "r": "げいじゅつ", "g": "Kunst" },
+          { "s": "の", "g": "(von)" },
+          { "s": "価値", "r": "かち", "g": "Wert" },
+          { "s": "は", "g": "(Themenpartikel)" },
+          { "s": "、", "p": true },
+          { "s": "役に立つかどう", "r": "やくにたつかどう", "g": "Nutzen" },
+          { "s": "か", "g": "ob oder nicht" },
+          { "s": "という", "g": "das" },
+          { "s": "物差し", "r": "ものさし", "g": "Maßstab" },
+          { "s": "では", "g": "(von)" },
+          { "s": "測", "r": "はか", "g": "messen" },
+          { "s": "れない", "g": "kann man nicht" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "つまり芸術の価値は、役に立つかどうかという物差しでは測れない。",
+        "romaji": "Tsumari geijutsu no kachi wa, yaku ni tatsu ka dou ka to iu monosashi de wa hakarenai.",
+        "de": "Der Wert der Kunst lässt sich also nicht am Maßstab der Nützlichkeit messen."
+      },
+      {
+        "tokens": [
+          { "s": "役に立た", "r": "やくにたた", "g": "Nutzen" },
+          { "s": "ない", "g": "nutzlos" },
+          { "s": "ように", "g": "scheinbar" },
+          { "s": "見える", "r": "みえる", "g": "aussehen" },
+          { "s": "もの", "g": "das" },
+          { "s": "の", "g": "(von)" },
+          { "s": "中に", "r": "なかに", "g": "darin" },
+          { "s": "こそ", "g": "gerade" },
+          { "s": "、", "p": true },
+          { "s": "人間", "r": "にんげん", "g": "Mensch" },
+          { "s": "を", "g": "(Objekt)" },
+          { "s": "人間", "r": "にんげん", "g": "Mensch" },
+          { "s": "らしく", "g": "-haft" },
+          { "s": "する", "g": "machen" },
+          { "s": "何か", "r": "なにか", "g": "etwas" },
+          { "s": "が", "g": "(Subjekt)" },
+          { "s": "宿", "r": "やど", "g": "wohnen" },
+          { "s": "っているの", "g": "und" },
+          { "s": "だ", "g": "ist" },
+          { "s": "。", "p": true }
+        ],
+        "jp": "役に立たないように見えるものの中にこそ、人間を人間らしくする何かが宿っているのだ。",
+        "romaji": "Yaku ni tatanai you ni mieru mono no naka ni koso, ningen o ningen rashiku suru nanika ga yadotte iru no da.",
+        "de": "Gerade in dem scheinbar Nutzlosen wohnt etwas, das den Menschen zum Menschen macht."
+      }
+    ]
   }
 ];
