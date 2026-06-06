@@ -333,7 +333,7 @@ body {
   padding: 0 16px;
 }
 
-[data-theme="dark"] .header {
+[data-mode="dark"] .header {
   border-bottom-color: rgba(255,255,255,0.06);
 }
 
@@ -474,7 +474,7 @@ body {
   transition: background var(--transition), color var(--transition), border-color var(--transition);
 }
 
-[data-theme="dark"] .btn-pill {
+[data-mode="dark"] .btn-pill {
   background: var(--bg-card);
 }
 
@@ -498,8 +498,8 @@ body {
 
 /* Theme toggle icons */
 .icon-moon { display: none; }
-[data-theme="dark"] .icon-sun { display: none; }
-[data-theme="dark"] .icon-moon { display: block; }
+[data-mode="dark"] .icon-sun { display: none; }
+[data-mode="dark"] .icon-moon { display: block; }
 
 /* === SEARCH BAR === */
 .search-bar {
@@ -754,22 +754,22 @@ main {
   border-color: rgba(0,0,0,0.02);
 }
 
-[data-theme="dark"] .kanji-card,
-[data-theme="dark"] .grammar-card,
-[data-theme="dark"] .vocab-card,
-[data-theme="dark"] .ono-card,
-[data-theme="dark"] .counter-card,
-[data-theme="dark"] .radical-card {
+[data-mode="dark"] .kanji-card,
+[data-mode="dark"] .grammar-card,
+[data-mode="dark"] .vocab-card,
+[data-mode="dark"] .ono-card,
+[data-mode="dark"] .counter-card,
+[data-mode="dark"] .radical-card {
   border-color: rgba(255,255,255,0.06);
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
-[data-theme="dark"] .kanji-card:hover,
-[data-theme="dark"] .grammar-card:hover,
-[data-theme="dark"] .vocab-card:hover,
-[data-theme="dark"] .ono-card:hover,
-[data-theme="dark"] .counter-card:hover,
-[data-theme="dark"] .radical-card:hover {
+[data-mode="dark"] .kanji-card:hover,
+[data-mode="dark"] .grammar-card:hover,
+[data-mode="dark"] .vocab-card:hover,
+[data-mode="dark"] .ono-card:hover,
+[data-mode="dark"] .counter-card:hover,
+[data-mode="dark"] .radical-card:hover {
   box-shadow: 0 8px 24px rgba(0,0,0,0.3), 0 2px 8px rgba(0,0,0,0.2);
   border-color: rgba(255,255,255,0.04);
 }
@@ -1202,7 +1202,7 @@ main {
   font-size: 0.8rem;
 }
 
-[data-theme="dark"] .stroke-order-svg {
+[data-mode="dark"] .stroke-order-svg {
   filter: invert(0.85) hue-rotate(180deg);
 }
 
@@ -1327,7 +1327,7 @@ main {
   height: 28px;
 }
 
-[data-theme="dark"] .conjugation-table tbody tr:hover {
+[data-mode="dark"] .conjugation-table tbody tr:hover {
   background: rgba(99, 102, 241, 0.08);
 }
 
@@ -5158,13 +5158,10 @@ main {
   --cc-zeit-border: #c4b5fd;
 }
 
-[data-theme="dark"] {
-  --bg: #0d1524;
-  --bg-card: #152033;
-  --bg-header: rgba(13, 21, 36, 0.84);
-  --text: #ecf3ff;
-  --text-secondary: #9eb0ca;
-  --border: #2c3b55;
+/* Shared dark-mode layer: badge/chip palettes + shadows.
+   Surface colours (bg, text, border, accent, gradient) are supplied per theme
+   in the MULTI-THEME SYSTEM block at the end of this file. */
+[data-mode="dark"] {
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.18);
   --shadow-md: 0 12px 28px rgba(0, 0, 0, 0.28);
   --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.42);
@@ -5743,7 +5740,7 @@ body {
     background: linear-gradient(to right, rgba(245, 247, 251, 0), var(--bg-header));
   }
 
-  [data-theme="dark"] .tab-bar::after {
+  [data-mode="dark"] .tab-bar::after {
     background: linear-gradient(to right, rgba(13, 21, 36, 0), var(--bg-header));
   }
 }
@@ -6205,4 +6202,275 @@ body {
   font-size: 0.85rem;
   color: var(--text);
   line-height: 1.4;
+}
+
+/* ==========================================================================
+   MULTI-THEME SYSTEM
+   --------------------------------------------------------------------------
+   Each theme sets only its surface + accent + gradient identity.
+   Dark themes additionally carry [data-mode="dark"] (set on <html> by JS),
+   which supplies the shared dark badge palette + shadows defined above.
+   Light themes inherit the badge/shadow defaults from :root.
+   These blocks are last in the cascade so they win over the base :root /
+   [data-mode="dark"] surface values.
+   ========================================================================== */
+
+/* --- Dark: Mitternacht (default) --- */
+[data-theme="mitternacht"] {
+  --bg: #0d1524;
+  --bg-card: #152033;
+  --bg-header: rgba(13, 21, 36, 0.84);
+  --text: #ecf3ff;
+  --text-secondary: #9eb0ca;
+  --border: #2c3b55;
+  --accent: #275df4;
+  --accent-hover: #1d4ed8;
+  --gradient: linear-gradient(135deg, #275df4 0%, #4f46e5 60%, #7c3aed 100%);
+}
+
+/* --- Dark: Sora (ocean / cyan) --- */
+[data-theme="sora"] {
+  --bg: #061a26;
+  --bg-card: #0c2836;
+  --bg-header: rgba(6, 26, 38, 0.85);
+  --text: #e6f7ff;
+  --text-secondary: #8fb6c8;
+  --border: #1d4256;
+  --accent: #22b8d8;
+  --accent-hover: #0e97b8;
+  --gradient: linear-gradient(135deg, #22d3ee 0%, #0ea5e9 55%, #2563eb 100%);
+}
+
+/* --- Dark: Matcha (green tea) --- */
+[data-theme="matcha"] {
+  --bg: #0d1a12;
+  --bg-card: #16271c;
+  --bg-header: rgba(13, 26, 18, 0.85);
+  --text: #ecf6ee;
+  --text-secondary: #9bbfa5;
+  --border: #284030;
+  --accent: #46b06a;
+  --accent-hover: #2f9553;
+  --gradient: linear-gradient(135deg, #6ee7a8 0%, #34d399 55%, #0f9d6b 100%);
+}
+
+/* --- Dark: Sakura (night cherry / rose on plum) --- */
+[data-theme="sakura"] {
+  --bg: #1a1019;
+  --bg-card: #271826;
+  --bg-header: rgba(26, 16, 25, 0.85);
+  --text: #fbeef6;
+  --text-secondary: #c79fb8;
+  --border: #3e2638;
+  --accent: #ec6f9e;
+  --accent-hover: #d8487f;
+  --gradient: linear-gradient(135deg, #f9a8d4 0%, #f472b6 55%, #db2777 100%);
+}
+
+/* --- Dark: Momiji (autumn maple / amber on warm brown) --- */
+[data-theme="momiji"] {
+  --bg: #1a1109;
+  --bg-card: #281a0f;
+  --bg-header: rgba(26, 17, 9, 0.85);
+  --text: #fdf0e2;
+  --text-secondary: #c9a888;
+  --border: #412c18;
+  --accent: #f0883e;
+  --accent-hover: #e06a1f;
+  --gradient: linear-gradient(135deg, #fcd34d 0%, #fb923c 55%, #ea580c 100%);
+}
+
+/* --- Dark: Budō (grape / violet) --- */
+[data-theme="budo"] {
+  --bg: #140f20;
+  --bg-card: #1f1733;
+  --bg-header: rgba(20, 15, 32, 0.85);
+  --text: #f1ebfb;
+  --text-secondary: #b3a3cf;
+  --border: #34284f;
+  --accent: #a78bfa;
+  --accent-hover: #8b5cf6;
+  --gradient: linear-gradient(135deg, #c4b5fd 0%, #a78bfa 55%, #7c3aed 100%);
+}
+
+/* --- Dark: Sumi (ink monochrome) --- */
+[data-theme="sumi"] {
+  --bg: #131416;
+  --bg-card: #1e2023;
+  --bg-header: rgba(19, 20, 22, 0.85);
+  --text: #ededee;
+  --text-secondary: #9a9ca0;
+  --border: #34373c;
+  --accent: #b8bcc4;
+  --accent-hover: #9a9ea6;
+  --gradient: linear-gradient(135deg, #d4d7dd 0%, #a8acb4 55%, #7c8089 100%);
+}
+
+/* --- Light: Yuki (snow / cool crisp) --- */
+[data-theme="yuki"] {
+  --bg: #f5f7fb;
+  --bg-card: #ffffff;
+  --bg-header: rgba(245, 247, 251, 0.82);
+  --text: #172033;
+  --text-secondary: #5f6f86;
+  --border: #d9e1ee;
+  --accent: #275df4;
+  --accent-hover: #1d4ed8;
+  --gradient: linear-gradient(135deg, #275df4 0%, #4f46e5 60%, #7c3aed 100%);
+}
+
+/* --- Light: Washi (warm paper / terracotta) --- */
+[data-theme="washi"] {
+  --bg: #f3ece0;
+  --bg-card: #fdf9f2;
+  --bg-header: rgba(243, 236, 224, 0.85);
+  --text: #2e2519;
+  --text-secondary: #7a6b54;
+  --border: #e2d6c2;
+  --accent: #bf5a2e;
+  --accent-hover: #a3461f;
+  --gradient: linear-gradient(135deg, #e8a44c 0%, #d97a3d 55%, #bf5a2e 100%);
+}
+
+/* --- Light: Hinode (sunrise / coral) --- */
+[data-theme="hinode"] {
+  --bg: #fff3ee;
+  --bg-card: #fffdfc;
+  --bg-header: rgba(255, 243, 238, 0.85);
+  --text: #2a1c1a;
+  --text-secondary: #8a6a64;
+  --border: #f3d9cf;
+  --accent: #f43f5e;
+  --accent-hover: #e11d48;
+  --gradient: linear-gradient(135deg, #fb923c 0%, #f43f5e 55%, #ec4899 100%);
+}
+
+/* === THEME PICKER OVERLAY === */
+.theme-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  max-width: 560px;
+  width: 92%;
+  max-height: 86vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: var(--shadow-lg);
+}
+
+.theme-panel h2 {
+  margin-bottom: 4px;
+  font-size: 1.2rem;
+}
+
+.theme-panel-sub {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  margin-bottom: 18px;
+}
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.theme-card {
+  --sw-bg: #0d1524;
+  --sw-card: #152033;
+  --sw-accent: #275df4;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0;
+  cursor: pointer;
+  background: var(--bg-card);
+  overflow: hidden;
+  text-align: left;
+  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+  font-family: var(--font);
+  color: var(--text);
+}
+
+.theme-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--text-secondary);
+}
+
+.theme-card.active {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent);
+}
+
+.theme-card-preview {
+  height: 64px;
+  background: var(--sw-bg);
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 12px;
+}
+
+.theme-card-chip {
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  background: var(--sw-card);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
+.theme-card-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--sw-accent);
+}
+
+.theme-card-grad {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 9px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--sw-grad);
+}
+
+.theme-card-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 9px 11px 10px;
+}
+
+.theme-card-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.theme-card-jp {
+  font-family: var(--font-jp);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.theme-card-mode {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  padding: 1px 7px;
+}
+
+.theme-card.active .theme-card-name {
+  color: var(--accent);
+}
+
+@media (max-width: 480px) {
+  .theme-grid { grid-template-columns: repeat(2, 1fr); }
 }

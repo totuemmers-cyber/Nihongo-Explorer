@@ -879,29 +879,123 @@
   }
 
   // === THEME ===
-  function initTheme() {
-    var saved = localStorage.getItem('kanji-theme');
-    if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
+  // Each theme defines its mode (drives the shared dark/light layer in CSS) plus
+  // swatch colours used to render the live preview cards in the picker. The full
+  // palette lives in styles.css under "MULTI-THEME SYSTEM".
+  var THEMES = [
+    { id: 'mitternacht', name: 'Mitternacht', jp: '真夜中', mode: 'dark',  bg: '#0d1524', card: '#152033', accent: '#275df4', grad: 'linear-gradient(135deg,#275df4,#7c3aed)' },
+    { id: 'sora',        name: 'Sora',        jp: '空',     mode: 'dark',  bg: '#061a26', card: '#0c2836', accent: '#22b8d8', grad: 'linear-gradient(135deg,#22d3ee,#2563eb)' },
+    { id: 'matcha',      name: 'Matcha',      jp: '抹茶',   mode: 'dark',  bg: '#0d1a12', card: '#16271c', accent: '#46b06a', grad: 'linear-gradient(135deg,#6ee7a8,#0f9d6b)' },
+    { id: 'sakura',      name: 'Sakura',      jp: '桜',     mode: 'dark',  bg: '#1a1019', card: '#271826', accent: '#ec6f9e', grad: 'linear-gradient(135deg,#f9a8d4,#db2777)' },
+    { id: 'momiji',      name: 'Momiji',      jp: '紅葉',   mode: 'dark',  bg: '#1a1109', card: '#281a0f', accent: '#f0883e', grad: 'linear-gradient(135deg,#fcd34d,#ea580c)' },
+    { id: 'budo',        name: 'Budō',        jp: '葡萄',   mode: 'dark',  bg: '#140f20', card: '#1f1733', accent: '#a78bfa', grad: 'linear-gradient(135deg,#c4b5fd,#7c3aed)' },
+    { id: 'sumi',        name: 'Sumi',        jp: '墨',     mode: 'dark',  bg: '#131416', card: '#1e2023', accent: '#b8bcc4', grad: 'linear-gradient(135deg,#d4d7dd,#7c8089)' },
+    { id: 'yuki',        name: 'Yuki',        jp: '雪',     mode: 'light', bg: '#f5f7fb', card: '#ffffff', accent: '#275df4', grad: 'linear-gradient(135deg,#275df4,#7c3aed)' },
+    { id: 'washi',       name: 'Washi',       jp: '和紙',   mode: 'light', bg: '#f3ece0', card: '#fdf9f2', accent: '#bf5a2e', grad: 'linear-gradient(135deg,#e8a44c,#bf5a2e)' },
+    { id: 'hinode',      name: 'Hinode',      jp: '日の出', mode: 'light', bg: '#fff3ee', card: '#fffdfc', accent: '#f43f5e', grad: 'linear-gradient(135deg,#fb923c,#ec4899)' }
+  ];
+  var DEFAULT_THEME = 'mitternacht';
+  var THEME_KEY = 'nihongo-theme';
+
+  function getTheme(id) {
+    for (var i = 0; i < THEMES.length; i++) if (THEMES[i].id === id) return THEMES[i];
+    return null;
   }
 
-  function toggleTheme() {
-    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    if (isDark) {
-      document.documentElement.removeAttribute('data-theme');
-      localStorage.setItem('kanji-theme', 'light');
-    } else {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('kanji-theme', 'dark');
-    }
+  function currentThemeId() {
+    return document.documentElement.getAttribute('data-theme') || DEFAULT_THEME;
+  }
+
+  function applyTheme(id) {
+    var theme = getTheme(id) || getTheme(DEFAULT_THEME);
+    var root = document.documentElement;
+    root.setAttribute('data-theme', theme.id);
+    root.setAttribute('data-mode', theme.mode);
+    localStorage.setItem(THEME_KEY, theme.id);
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', theme.bg);
     setTimeout(updateKanaDarkMode, 50);
+    markActiveThemeCard();
+  }
+
+  function initTheme() {
+    var saved = localStorage.getItem(THEME_KEY);
+    if (!saved) {
+      // Migrate the old binary light/dark preference; default stays dark.
+      var legacy = localStorage.getItem('kanji-theme');
+      saved = legacy === 'light' ? 'yuki' : DEFAULT_THEME;
+    }
+    if (!getTheme(saved)) saved = DEFAULT_THEME;
+    applyTheme(saved);
+  }
+
+  // === THEME PICKER ===
+  var themeOverlay = document.getElementById('theme-overlay');
+  var themeGrid = document.getElementById('theme-grid');
+
+  function buildThemeGrid() {
+    if (!themeGrid || themeGrid.childElementCount) return;
+    THEMES.forEach(function (t) {
+      var card = document.createElement('button');
+      card.className = 'theme-card';
+      card.type = 'button';
+      card.setAttribute('data-theme-id', t.id);
+      card.setAttribute('aria-label', t.name + ' (' + (t.mode === 'dark' ? 'Dunkel' : 'Hell') + ')');
+      card.style.setProperty('--sw-bg', t.bg);
+      card.style.setProperty('--sw-card', t.card);
+      card.style.setProperty('--sw-accent', t.accent);
+      card.style.setProperty('--sw-grad', t.grad);
+      card.innerHTML =
+        '<span class="theme-card-preview">' +
+          '<span class="theme-card-chip"></span>' +
+          '<span class="theme-card-dot"></span>' +
+          '<span class="theme-card-grad"></span>' +
+        '</span>' +
+        '<span class="theme-card-meta">' +
+          '<span><span class="theme-card-name">' + t.name + '</span> ' +
+          '<span class="theme-card-jp">' + t.jp + '</span></span>' +
+          '<span class="theme-card-mode">' + (t.mode === 'dark' ? 'Dunkel' : 'Hell') + '</span>' +
+        '</span>';
+      card.addEventListener('click', function () {
+        playTick();
+        applyTheme(t.id);
+      });
+      themeGrid.appendChild(card);
+    });
+  }
+
+  function markActiveThemeCard() {
+    if (!themeGrid) return;
+    var active = currentThemeId();
+    var cards = themeGrid.querySelectorAll('.theme-card');
+    cards.forEach(function (c) {
+      c.classList.toggle('active', c.getAttribute('data-theme-id') === active);
+    });
+  }
+
+  function openThemePicker() {
+    if (!themeOverlay) return;
+    buildThemeGrid();
+    markActiveThemeCard();
+    themeOverlay.classList.remove('hidden');
+  }
+
+  function closeThemePicker() {
+    if (themeOverlay) themeOverlay.classList.add('hidden');
   }
 
   themeToggle.addEventListener('click', function () {
     playTick();
-    toggleTheme();
+    openThemePicker();
   });
+
+  if (themeOverlay) {
+    themeOverlay.addEventListener('click', function (e) {
+      if (e.target === themeOverlay) closeThemePicker();
+    });
+    var themeCloseBtn = document.getElementById('theme-close');
+    if (themeCloseBtn) themeCloseBtn.addEventListener('click', closeThemePicker);
+  }
 
   // === SOUND TOGGLE ===
   if (soundToggle) {
@@ -949,6 +1043,14 @@
       if (e.key === 'Escape' || e.key === '?') {
         e.preventDefault();
         toggleHelpOverlay();
+      }
+      return;
+    }
+
+    if (themeOverlay && !themeOverlay.classList.contains('hidden')) {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        closeThemePicker();
       }
       return;
     }
@@ -1030,7 +1132,7 @@
 
     var tbody = document.createElement('tbody');
     var colors = window.KANA_DATA.rowColors;
-    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var isDark = document.documentElement.getAttribute('data-mode') === 'dark';
 
     rows.forEach(function (rowData) {
       var tr = document.createElement('tr');
@@ -1317,7 +1419,7 @@
   });
 
   function updateKanaDarkMode() {
-    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var isDark = document.documentElement.getAttribute('data-mode') === 'dark';
     var colors = window.KANA_DATA ? window.KANA_DATA.rowColors : null;
     if (!colors) return;
 

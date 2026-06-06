@@ -9,7 +9,7 @@
 // NOTE: service workers do not run from file:// — this only activates when the app
 // is served over http(s) (e.g. GitHub Pages).
 // ============================================================
-var VERSION = 'v2';
+var VERSION = 'v3';
 var CACHE = 'nihongo-' + VERSION;
 
 // Eagerly-loaded app shell (data files are cached at runtime as they're fetched).
