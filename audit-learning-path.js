@@ -730,6 +730,30 @@ function makeGrammarContext(grammarItems, lessons) {
   check('T27 fully-read lessons yield no steps', allRead.length === 0);
 })();
 
+// === T28: unlinked new grammar still teaches a lesson via level fallback ===
+(function () {
+  // N3 grammar with NO lesson link (the real state above N5). The next unread
+  // lesson for the level must be taught anyway, so "Heute lernen" never tests a
+  // pattern with no lesson shown first.
+  const GRAM = [{ id: 'n3a', pattern: 'P1', level: 'N3', category: 'Satzstrukturen', meaning: 'm' }];
+  const lessons = [
+    { id: 'lx', number: 5, title: 'N3 Lektion A', subtitle: '', level: 'N3', grammarIds: [] },
+    { id: 'ly', number: 6, title: 'N3 Lektion B', subtitle: '', level: 'N3', grammarIds: [] }
+  ];
+  const { eng } = makeGrammarContext(GRAM, lessons);
+  const k = 'grammar:n3a';
+  const session = [{ section: 'grammar', itemKey: k }];
+  const model = { picks: [{ section: 'grammar', item: GRAM[0] }], path: { readLessons: [] }, progress: { currentLevel: 'N3' } };
+  const steps = eng.lessonStepsForSession(model, session);
+  check('T28 unlinked new grammar still teaches a lesson (level fallback)', steps.length === 1);
+  check('T28 fallback uses the next unread level lesson by number', steps[0].lessonId === 'lx');
+  check('T28 fallback lesson is shown up front (no precedes)', steps[0].precedesItemKey === null);
+  const steps2 = eng.lessonStepsForSession({ picks: model.picks, path: { readLessons: ['lx'] }, progress: { currentLevel: 'N3' } }, session);
+  check('T28 a read fallback lesson advances to the next one', steps2.length === 1 && steps2[0].lessonId === 'ly');
+  const noNew = eng.lessonStepsForSession({ picks: [], path: { readLessons: [] }, progress: { currentLevel: 'N3' } }, []);
+  check('T28 no new grammar -> no lesson steps', noNew.length === 0);
+})();
+
 // === T7/T8: resetProgress + export/import round-trip on the real SRSStore ===
 (function () {
   const store = makeStoreContext();

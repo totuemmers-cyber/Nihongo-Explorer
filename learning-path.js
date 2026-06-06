@@ -1077,36 +1077,69 @@
     return (item.id && idx.byId[item.id]) || (item.pattern && idx.byPattern[item.pattern]) || null;
   }
 
-  // Lesson-first steps for a freshly assembled session: for each new grammar pattern
-  // actually present in the session whose teaching lesson is still unread, emit one
-  // lesson step that the runner shows immediately before that pattern's first card.
-  // Pure (no I/O) so the weaving is unit-testable; deduped per lesson so two patterns
-  // sharing a lesson teach it once. Returns [] when grammar lessons aren't loaded.
+  function lessonStepObj(lesson, precedesKey) {
+    return {
+      kind: 'lesson',
+      lessonId: lesson.id,
+      title: lesson.title,
+      subtitle: lesson.subtitle || '',
+      level: lesson.level || '',
+      precedesItemKey: precedesKey || null,
+      itemKey: 'lesson:' + lesson.id
+    };
+  }
+
+  // Unread lessons for a level in didactic (number) order, skipping any already
+  // chosen this session. Used as the fallback when a new grammar pattern has no
+  // explicit lesson link (most levels above N5 link no patterns yet).
+  function unreadLevelLessons(level, read, seen) {
+    if (!window.GrammarLessons || !window.GrammarLessons.getLessons) return [];
+    return (window.GrammarLessons.getLessons() || []).filter(function (l) {
+      return lessonMatchesLevel(l, level) && read.indexOf(l.id) === -1 && !seen[l.id];
+    }).sort(function (a, b) { return (a.number || 0) - (b.number || 0); });
+  }
+
+  // Lesson-first steps for a freshly assembled session. For every NEW grammar pattern
+  // introduced in this session we teach a lesson before testing it:
+  //   1) the lesson explicitly linked to the pattern (placed before its card), or
+  //   2) — when no link exists (true for most levels above N5) — the next unread
+  //      lesson for the current level, so a lesson is ALWAYS taught when new grammar
+  //      is learned, not only where per-pattern links happen to exist.
+  // Capped at the number of new grammar patterns introduced, deduped per lesson.
+  // Pure (no I/O) so it's unit-testable; returns [] when no new grammar / no lessons.
   function lessonStepsForSession(model, session) {
     var inSession = {};
     (session || []).forEach(function (c) {
       if (c && c.section === 'grammar' && c.itemKey) inSession[c.itemKey] = true;
     });
+    // New grammar patterns actually present in this session, in pick order.
+    var newGrammar = ((model.picks) || []).filter(function (p) {
+      return p.section === 'grammar' && inSession[itemKeyOf('grammar', p.item)];
+    });
+    if (!newGrammar.length) return [];
+
     var read = (model.path && model.path.readLessons) || [];
     var seen = {};
     var steps = [];
-    ((model.picks) || []).forEach(function (p) {
-      if (p.section !== 'grammar') return;
-      var key = itemKeyOf('grammar', p.item);
-      if (!inSession[key]) return;
+
+    // 1) Pattern-linked lessons, placed before the pattern they teach.
+    newGrammar.forEach(function (p) {
       var lesson = lessonForGrammar(p.item);
       if (!lesson || read.indexOf(lesson.id) !== -1 || seen[lesson.id]) return;
       seen[lesson.id] = true;
-      steps.push({
-        kind: 'lesson',
-        lessonId: lesson.id,
-        title: lesson.title,
-        subtitle: lesson.subtitle || '',
-        level: lesson.level || '',
-        precedesItemKey: key,
-        itemKey: 'lesson:' + lesson.id
-      });
+      steps.push(lessonStepObj(lesson, itemKeyOf('grammar', p.item)));
     });
+
+    // 2) Fallback: top up to one lesson per new grammar pattern with the next unread
+    //    lessons for the current level (shown at the front of the session).
+    var level = model.progress && model.progress.currentLevel;
+    if (level && steps.length < newGrammar.length) {
+      var fill = unreadLevelLessons(level, read, seen);
+      for (var i = 0; i < fill.length && steps.length < newGrammar.length; i++) {
+        seen[fill[i].id] = true;
+        steps.push(lessonStepObj(fill[i], null));
+      }
+    }
     return steps;
   }
 

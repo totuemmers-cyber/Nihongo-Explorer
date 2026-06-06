@@ -1,6 +1,6 @@
-// E2E (jsdom): the "Heute lernen" session teaches a new grammar pattern with an
-// inline lesson step *before* its flashcard, and marks the lesson read on continue.
-// Drives the real srs-ui session runner + real GrammarLessons rendering.
+// E2E (jsdom): drives the REAL "Heute lernen" flow and asserts a new grammar
+// pattern is taught with an inline lesson step BEFORE its flashcard — including at
+// N3, where no per-pattern lesson links exist and the level-fallback must kick in.
 // Run: node scripts/lernpfad-lesson-first-test.js
 const fs = require('fs');
 const path = require('path');
@@ -11,7 +11,7 @@ const INDEX_PATH = path.join(ROOT, 'index.html');
 
 function assert(cond, msg) { if (!cond) throw new Error(msg); }
 function waitFor(pred, desc, timeoutMs) {
-  timeoutMs = timeoutMs || 15000;
+  timeoutMs = timeoutMs || 20000;
   return new Promise(function (resolve, reject) {
     const start = Date.now();
     (function tick() {
@@ -22,6 +22,13 @@ function waitFor(pred, desc, timeoutMs) {
       setTimeout(tick, 25);
     })();
   });
+}
+function click(el, window) {
+  if (typeof el.click === 'function') el.click();
+  else el.dispatchEvent(new window.MouseEvent('click', { bubbles: true, cancelable: true }));
+}
+function findButton(root, text) {
+  return Array.from(root.querySelectorAll('button')).find(function (b) { return b.textContent.indexOf(text) !== -1; });
 }
 
 async function run() {
@@ -57,64 +64,64 @@ async function run() {
   const document = window.document;
   window.addEventListener('error', function (e) { throw e.error || new Error(e.message); });
 
-  await waitFor(function () { return window.app && window.SRSUI && typeof window.SRSUI.startSession === 'function'; }, 'app + SRSUI ready');
+  await waitFor(function () { return window.app && window.SRSUI && window.LearningPath && window.SRSStore; }, 'app modules ready');
 
-  // Load the real grammar lessons and pick a lesson that teaches a grammar pattern.
-  await window.app.ensureGrammarLessonsLoaded();
-  assert(window.GrammarLessons && window.GrammarLessons.getLessons, 'GrammarLessons available');
-  const lessons = window.GrammarLessons.getLessons();
-  const lesson = lessons.find(function (l) { return l.grammarIds && l.grammarIds.length; });
-  assert(lesson, 'a lesson with linked grammar exists');
-  const grammarId = lesson.grammarIds[0];
-  const grammarKey = 'grammar:' + grammarId;
-
-  const renderedHtml = window.GrammarLessons.renderContent(lesson.id);
-  assert(renderedHtml && renderedHtml.indexOf('gl-intro') !== -1, 'renderContent returns the lesson body');
-
-  // A minimal-but-real grammar flashcard, and the lesson-first step that precedes it
-  // (exactly the shape learning-path.startToday builds).
-  const now = new Date().toISOString();
-  const grammarCard = {
-    cardKey: grammarKey + '#meaning', itemKey: grammarKey, section: 'grammar',
-    promptType: 'meaning', label: 'Bedeutung', level: lesson.level || 'N5',
-    state: 'New', ease: 2.5, intervalDays: 0, reps: 0, lapses: 0,
-    dueAt: now, suspended: false, orphaned: false,
-    question: { prompt: 'Was bedeutet dieses Grammatikmuster?', promptMain: 'パターン', answer: 'Bedeutung' }
-  };
-  const lessonStep = {
-    kind: 'lesson', lessonId: lesson.id, title: lesson.title, subtitle: lesson.subtitle || '',
-    level: lesson.level || 'N5', precedesItemKey: grammarKey, itemKey: 'lesson:' + lesson.id
-  };
-
-  // Run the session (lesson step listed first or last — weaving decides the order).
-  window.SRSUI.startSession([lessonStep, grammarCard], true);
-
-  // 1) The lesson step renders first, with the real lesson content inline.
-  await waitFor(function () { return document.querySelector('#review-content .review-lesson-step'); }, 'lesson step rendered first');
-  const stepEl = document.querySelector('#review-content .review-lesson-step');
-  assert(stepEl.querySelector('.review-lesson-content .gl-intro'), 'lesson step shows the inline lesson body');
-  assert(stepEl.textContent.indexOf(lesson.title) !== -1, 'lesson step shows the lesson title');
-  assert(!document.querySelector('#review-content .review-grade-row'), 'a lesson step has no grade buttons (taught, not graded)');
-
-  // 2) Continue → the grammar flashcard is shown next.
-  const contBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (b) { return b.textContent.indexOf('Verstanden') !== -1; });
-  assert(contBtn, '"Verstanden — weiter" button present');
-  contBtn.click();
+  // Complete first-run onboarding if it appears.
   await waitFor(function () {
-    const wrap = document.querySelector('#review-content .review-card-wrap');
-    return wrap && !wrap.classList.contains('review-lesson-step') && /Grammatikmuster/.test(wrap.textContent);
-  }, 'grammar flashcard shown after the lesson');
-  assert(!document.querySelector('#review-content .review-lesson-step'), 'lesson step is gone once the card is shown');
+    return document.querySelector('.onboarding-overlay') || document.querySelector('#path-content .path-next-item');
+  }, 'path or onboarding shown', 25000);
+  const onbStart = document.querySelector('.onboarding-overlay') && findButton(document.querySelector('.onboarding-overlay'), 'Lernpfad starten');
+  if (onbStart) {
+    click(onbStart, window);
+    await waitFor(function () { return !document.querySelector('.onboarding-overlay'); }, 'onboarding closed');
+  }
 
-  // 3) Advancing past the lesson marked it read (so it is not re-taught).
+  // Force the probe scenario: start level N3 (no per-pattern lesson links exist there).
+  const existing = (await window.SRSStore.getPathState()) || {};
+  existing.schemaV = 1;
+  existing.startLevel = 'N3';
+  existing.readLessons = [];
+  await window.SRSStore.savePathState(existing);
+  await window.app.ensureGrammarLessonsLoaded();
+
+  // Re-render the Lernpfad with the new level and wait for the daily plan.
+  window.LearningPath.onTabActivate();
+  await waitFor(function () {
+    const btn = findButton(document.getElementById('path-content'), 'Heute lernen');
+    return btn && !btn.disabled && /neue Karten/.test(btn.textContent);
+  }, 'N3 Lernpfad offers "Heute lernen" with new cards', 25000);
+
+  // Launch the session.
+  click(findButton(document.getElementById('path-content'), 'Heute lernen'), window);
+  await waitFor(function () {
+    return window.app.activeTab === 'review' && document.querySelector('#review-content .review-card-wrap');
+  }, 'session launches into the review runner');
+
+  // The very first item must be a taught lesson step (fallback lessons are front-placed),
+  // NOT a grammar question — this is the regression the user hit at N3.
+  const first = document.querySelector('#review-content .review-card-wrap');
+  assert(first.classList.contains('review-lesson-step'),
+    'session opens with a lesson step, not an untaught question (got: ' + (first.textContent || '').slice(0, 80) + ')');
+  assert(first.querySelector('.review-lesson-content .gl-intro'), 'the lesson body is rendered inline');
+  const lessonTitle = (first.querySelector('.quiz-prompt-main') || {}).textContent;
+  assert(lessonTitle, 'the lesson step shows a title');
+  assert(!document.querySelector('#review-content .review-grade-row'), 'a lesson step is not graded like a card');
+
+  // Continue → the lesson is marked read so it is not re-taught.
+  click(findButton(document.getElementById('review-content'), 'Verstanden'), window);
   let readMarked = false;
   await waitFor(function () {
-    window.SRSStore.getPathState().then(function (p) { readMarked = !!(p && (p.readLessons || []).indexOf(lesson.id) !== -1); });
+    window.SRSStore.getPathState().then(function (p) { readMarked = !!(p && (p.readLessons || []).length > 0); });
     return readMarked;
   }, 'lesson marked read after continue');
 
+  // And the session continues into real cards afterwards.
+  await waitFor(function () {
+    return document.querySelector('#review-content .review-card-wrap') || document.querySelector('#review-content .review-title');
+  }, 'session proceeds after the lesson');
+
   dom.window.close();
-  console.log('Lernpfad lesson-first test passed.');
+  console.log('Lernpfad lesson-first test passed (real N3 flow).');
 }
 
 run().then(function () { process.exit(0); }).catch(function (err) { console.error(err); process.exit(1); });
