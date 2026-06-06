@@ -5827,3 +5827,364 @@ body {
   border-color: var(--accent);
   color: #fff;
 }
+
+/* ==========================================================================
+   READING (Lesestücke) SECTION
+   ========================================================================== */
+
+.reading-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+/* --- Reading cards (mirror the shared card chrome) --- */
+.reading-card {
+  position: relative;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  padding: var(--card-pad);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  animation: fadeIn 0.3s ease;
+}
+
+.reading-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+  border-color: color-mix(in srgb, var(--accent) 18%, var(--border));
+}
+
+.reading-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.reading-card-title {
+  font-family: var(--font-jp);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+.reading-card-subtitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.reading-card-summary {
+  font-size: 0.82rem;
+  color: var(--text);
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+.reading-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-top: 2px;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
+.reading-card-cat {
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--accent) 10%, var(--bg-card));
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border));
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* --- Reading detail overlay --- */
+.reading-detail-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.reading-detail-title {
+  font-family: var(--font-jp);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.reading-category-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--accent) 10%, var(--bg-card));
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border));
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.reading-detail-subtitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.reading-detail-meta {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+.reading-detail-summary {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.6;
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-left: 3px solid color-mix(in srgb, var(--accent) 40%, var(--border));
+  background: color-mix(in srgb, var(--accent) 5%, var(--bg-card));
+  border-radius: var(--radius-sm);
+}
+
+/* --- Reading toolbar --- */
+.reading-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.reading-toolbar-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text);
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+
+.reading-toolbar-btn:hover {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+
+.reading-toolbar-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.reading-toolbar-btn .tab-icon-kana {
+  font-family: var(--font-jp);
+  font-weight: 700;
+}
+
+.reading-hint {
+  margin-top: 12px;
+  font-size: 0.76rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* --- Reading text body --- */
+.reading-text {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reading-sentence {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 2px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  transition: background var(--transition);
+}
+
+.reading-sentence.speaking {
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg-card));
+}
+
+.reading-sent-text {
+  font-family: var(--font-jp);
+  font-size: 1.25rem;
+  line-height: 2.1;
+  color: var(--text);
+}
+
+/* Per-word tokens: tappable for a reading/gloss popover */
+.reading-token {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0 1px;
+  transition: background var(--transition), color var(--transition);
+}
+
+.reading-token:hover,
+.reading-token:focus-visible {
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color: var(--accent);
+  outline: none;
+}
+
+.reading-punct {
+  font-family: var(--font-jp);
+  font-size: 1.25rem;
+  color: var(--text);
+}
+
+/* Furigana: hidden unless the body carries .furigana-on */
+.reading-text ruby rt {
+  font-size: 0.5em;
+  color: var(--text-secondary);
+  font-weight: 600;
+  transition: opacity var(--transition);
+}
+
+.reading-text:not(.furigana-on) ruby rt {
+  visibility: hidden;
+}
+
+/* Per-sentence audio + translation controls */
+.reading-sent-play {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  align-self: center;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.reading-sent-play:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.reading-sent-trans-btn {
+  flex-shrink: 0;
+  align-self: center;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.reading-sent-trans-btn:hover,
+.reading-sent-trans-btn.active {
+  background: color-mix(in srgb, var(--accent) 14%, var(--bg-card));
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+  color: var(--accent);
+}
+
+.reading-sent-trans {
+  flex-basis: 100%;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  padding: 2px 0 4px 36px;
+}
+
+.reading-sent-trans.hidden {
+  display: none;
+}
+
+/* --- Tap-to-gloss popover --- */
+.reading-gloss-popover {
+  position: fixed;
+  z-index: 1200;
+  min-width: 140px;
+  max-width: 260px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, var(--border));
+  box-shadow: var(--shadow-hover);
+  animation: fadeIn 0.15s ease;
+}
+
+.reading-gloss-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.reading-gloss-word {
+  font-family: var(--font-jp);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.reading-gloss-speak {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+}
+
+.reading-gloss-speak:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.reading-gloss-reading {
+  margin-top: 4px;
+  font-family: var(--font-jp);
+  font-size: 0.9rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.reading-gloss-meaning {
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.4;
+}

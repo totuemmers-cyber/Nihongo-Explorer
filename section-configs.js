@@ -1643,3 +1643,394 @@ SECTION_CONFIGS.onomatopoeia = {
     }
   }
 };
+
+// ==========================================
+// === READING (Lesestücke) CONFIG ===
+// ==========================================
+// Pre-tokenized reading passages with per-word furigana, tap-to-gloss popovers
+// and sentence-level + whole-text audio (Satori/LingQ-style helpers reusing the
+// existing TTS engine). See reading-data.js for the token format.
+
+var ReadingDetail = (function () {
+  var FURIGANA_KEY = 'reading-furigana';
+  var current = null;
+  var section = null;
+  var isPlayingAll = false;
+  var translateAll = false;
+  var toolbarWired = false;
+  var glossPopover = null;
+
+  function el(id) { return document.getElementById(id); }
+  function furiganaOn() { return localStorage.getItem(FURIGANA_KEY) !== 'off'; }
+  function setFuriganaOn(on) { localStorage.setItem(FURIGANA_KEY, on ? 'on' : 'off'); }
+
+  // --- Tap-to-gloss popover (LingQ-style word lookup) ---
+  function hideGloss() {
+    if (glossPopover) { glossPopover.remove(); glossPopover = null; }
+    document.removeEventListener('click', hideGloss, true);
+    window.removeEventListener('scroll', hideGloss, true);
+  }
+
+  function showGloss(tok, anchor) {
+    hideGloss();
+    var pop = document.createElement('div');
+    pop.className = 'reading-gloss-popover';
+
+    var head = document.createElement('div');
+    head.className = 'reading-gloss-head';
+    appendElement(head, 'span', 'reading-gloss-word', tok.s);
+    var speak = document.createElement('button');
+    speak.className = 'reading-gloss-speak';
+    speak.title = 'Aussprache';
+    speak.setAttribute('aria-label', 'Aussprache');
+    speak.innerHTML = getSpeakSvgHtml(16);
+    speak.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (window.app) window.app.speakJP(tok.r || tok.s);
+    });
+    head.appendChild(speak);
+    pop.appendChild(head);
+
+    if (tok.r) appendElement(pop, 'div', 'reading-gloss-reading', tok.r);
+    appendElement(pop, 'div', 'reading-gloss-meaning', tok.g || '—');
+
+    pop.addEventListener('click', function (e) { e.stopPropagation(); });
+    document.body.appendChild(pop);
+
+    // Position under the tapped word, nudged to stay inside the viewport.
+    var rect = anchor.getBoundingClientRect();
+    pop.style.top = (rect.bottom + 8) + 'px';
+    pop.style.left = rect.left + 'px';
+    var pr = pop.getBoundingClientRect();
+    if (pr.right > window.innerWidth - 8) {
+      pop.style.left = Math.max(8, window.innerWidth - pr.width - 8) + 'px';
+    }
+    if (pr.bottom > window.innerHeight - 8) {
+      pop.style.top = Math.max(8, rect.top - pr.height - 8) + 'px';
+    }
+    glossPopover = pop;
+
+    setTimeout(function () {
+      document.addEventListener('click', hideGloss, true);
+      window.addEventListener('scroll', hideGloss, true);
+    }, 0);
+    if (window.app) window.app.playTick();
+  }
+
+  // --- Token / sentence rendering ---
+  function renderToken(tok) {
+    if (tok.p) {
+      var punct = document.createElement('span');
+      punct.className = 'reading-punct';
+      punct.textContent = tok.s;
+      return punct;
+    }
+    var span = document.createElement('span');
+    span.className = 'reading-token';
+    if (tok.r) {
+      var ruby = document.createElement('ruby');
+      ruby.appendChild(document.createTextNode(tok.s));
+      var rt = document.createElement('rt');
+      rt.textContent = tok.r;
+      ruby.appendChild(rt);
+      span.appendChild(ruby);
+    } else {
+      span.textContent = tok.s;
+    }
+    span.tabIndex = 0;
+    span.setAttribute('role', 'button');
+    span.addEventListener('click', function (e) {
+      e.stopPropagation();
+      showGloss(tok, span);
+    });
+    span.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showGloss(tok, span); }
+    });
+    return span;
+  }
+
+  function renderSentence(s, idx) {
+    var wrap = document.createElement('div');
+    wrap.className = 'reading-sentence';
+    wrap.setAttribute('data-idx', idx);
+
+    var play = document.createElement('button');
+    play.className = 'reading-sent-play';
+    play.title = 'Satz vorlesen';
+    play.setAttribute('aria-label', 'Satz vorlesen');
+    play.innerHTML = getSpeakSvgHtml(15);
+    play.addEventListener('click', function (e) {
+      e.stopPropagation();
+      playSentence(idx);
+    });
+    wrap.appendChild(play);
+
+    var line = document.createElement('span');
+    line.className = 'reading-sent-text';
+    for (var j = 0; j < s.tokens.length; j++) {
+      line.appendChild(renderToken(s.tokens[j]));
+    }
+    wrap.appendChild(line);
+
+    var de = document.createElement('div');
+    de.className = 'reading-sent-trans hidden';
+    de.textContent = s.de;
+
+    var transBtn = document.createElement('button');
+    transBtn.className = 'reading-sent-trans-btn';
+    transBtn.title = 'Übersetzung zeigen';
+    transBtn.textContent = 'DE';
+    transBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var nowHidden = de.classList.toggle('hidden');
+      transBtn.classList.toggle('active', !nowHidden);
+      if (window.app) window.app.playTick();
+    });
+    wrap.appendChild(transBtn);
+    wrap.appendChild(de);
+    return wrap;
+  }
+
+  function renderBody(r) {
+    var body = el('reading-detail-text');
+    if (!body) return;
+    body.innerHTML = '';
+    body.classList.toggle('furigana-on', furiganaOn());
+    for (var i = 0; i < r.sentences.length; i++) {
+      body.appendChild(renderSentence(r.sentences[i], i));
+    }
+  }
+
+  // --- Playback (whole text + single sentence) ---
+  function setActiveSentence(idx) {
+    var body = el('reading-detail-text');
+    if (!body) return;
+    var prev = body.querySelector('.reading-sentence.speaking');
+    if (prev) prev.classList.remove('speaking');
+    if (idx >= 0) {
+      var node = body.querySelector('.reading-sentence[data-idx="' + idx + '"]');
+      if (node) {
+        node.classList.add('speaking');
+        if (node.scrollIntoView) node.scrollIntoView({ block: 'nearest' });
+      }
+    }
+  }
+
+  function updatePlayAllBtn() {
+    var btn = el('reading-play-all');
+    if (!btn) return;
+    btn.classList.toggle('active', isPlayingAll);
+    var label = btn.querySelector('.reading-toolbar-label');
+    if (label) label.textContent = isPlayingAll ? 'Stopp' : 'Vorlesen';
+  }
+
+  function playAll() {
+    if (!current || !window.app || !window.app.speakJPSequence) return;
+    if (isPlayingAll) { stopPlayback(); return; }
+    var texts = current.sentences.map(function (s) { return s.jp; });
+    isPlayingAll = true;
+    updatePlayAllBtn();
+    window.app.speakJPSequence(texts, {
+      onSentence: function (i) { setActiveSentence(i); },
+      onEnd: function () { isPlayingAll = false; setActiveSentence(-1); updatePlayAllBtn(); }
+    });
+  }
+
+  function playSentence(idx) {
+    if (!current || !window.app || !window.app.speakJPSequence) return;
+    isPlayingAll = false;
+    updatePlayAllBtn();
+    window.app.speakJPSequence([current.sentences[idx].jp], {
+      onSentence: function () { setActiveSentence(idx); },
+      onEnd: function () { setActiveSentence(-1); }
+    });
+  }
+
+  function stopPlayback() {
+    isPlayingAll = false;
+    if (window.app && window.app.cancelSpeech) window.app.cancelSpeech();
+    setActiveSentence(-1);
+    updatePlayAllBtn();
+    hideGloss();
+  }
+
+  // --- Toolbar (furigana toggle, play-all, translate-all) ---
+  function updateFuriganaBtn() {
+    var btn = el('reading-furigana-toggle');
+    if (!btn) return;
+    var on = furiganaOn();
+    btn.classList.toggle('active', on);
+    var label = btn.querySelector('.reading-toolbar-label');
+    if (label) label.textContent = on ? 'Furigana an' : 'Furigana aus';
+  }
+
+  function updateTranslateBtn() {
+    var btn = el('reading-translate-toggle');
+    if (!btn) return;
+    btn.classList.toggle('active', translateAll);
+    var label = btn.querySelector('.reading-toolbar-label');
+    if (label) label.textContent = translateAll ? 'Übersetzung an' : 'Übersetzung';
+  }
+
+  function applyTranslateAll() {
+    var body = el('reading-detail-text');
+    if (!body) return;
+    body.querySelectorAll('.reading-sentence').forEach(function (node) {
+      var de = node.querySelector('.reading-sent-trans');
+      var btn = node.querySelector('.reading-sent-trans-btn');
+      if (de) de.classList.toggle('hidden', !translateAll);
+      if (btn) btn.classList.toggle('active', translateAll);
+    });
+  }
+
+  function wireToolbar() {
+    if (toolbarWired) return;
+    toolbarWired = true;
+
+    var fb = el('reading-furigana-toggle');
+    if (fb) fb.addEventListener('click', function () {
+      var on = !furiganaOn();
+      setFuriganaOn(on);
+      var body = el('reading-detail-text');
+      if (body) body.classList.toggle('furigana-on', on);
+      updateFuriganaBtn();
+      if (window.app) window.app.playTick();
+    });
+
+    var pa = el('reading-play-all');
+    if (pa) pa.addEventListener('click', function () { playAll(); });
+
+    var tt = el('reading-translate-toggle');
+    if (tt) tt.addEventListener('click', function () {
+      translateAll = !translateAll;
+      applyTranslateAll();
+      updateTranslateBtn();
+      if (window.app) window.app.playTick();
+    });
+  }
+
+  // Stop audio and close the popover whenever the overlay is dismissed. The base
+  // Section routes the close button, backdrop click and Escape through closeDetail,
+  // so wrapping it once covers every path.
+  function patchClose(sec) {
+    if (sec.__readingClosePatched) return;
+    sec.__readingClosePatched = true;
+    var orig = sec.closeDetail.bind(sec);
+    sec.closeDetail = function () { stopPlayback(); orig(); };
+  }
+
+  function open(r, sec) {
+    section = sec;
+    current = r;
+    patchClose(sec);
+    stopPlayback();
+
+    el('reading-detail-title').textContent = r.title;
+    el('reading-detail-subtitle').textContent = r.titleDe || '';
+    var levelBadge = el('reading-detail-level');
+    levelBadge.textContent = r.level;
+    levelBadge.className = 'detail-jlpt-badge ' + r.level;
+    el('reading-detail-category').textContent = r.category;
+    el('reading-detail-meta').textContent =
+      r.wordCount + ' Wörter · ~' + r.minutes + ' Min Lesezeit';
+    el('reading-detail-summary').textContent = r.summary;
+
+    createDetailBookmark('.reading-detail-header', 'reading', r.id);
+
+    renderBody(r);
+    wireToolbar();
+    translateAll = false;
+    updateFuriganaBtn();
+    updateTranslateBtn();
+  }
+
+  return { open: open };
+})();
+
+SECTION_CONFIGS.reading = {
+  name: 'reading',
+  dom: {
+    controls: 'reading-controls',
+    grid: 'reading-grid',
+    search: 'reading-search-input',
+    clearSearch: 'reading-clear-search',
+    sort: 'reading-sort-select',
+    noResults: 'reading-no-results',
+    overlay: 'reading-detail-overlay',
+    closeBtn: 'reading-close-detail',
+    prevBtn: 'prev-reading',
+    nextBtn: 'next-reading'
+  },
+  filterGroups: [
+    {
+      stateKey: 'bookmarks',
+      selector: '.reading-bm',
+      dataAttr: 'data-bm',
+      defaultValue: 'all'
+    },
+    {
+      stateKey: 'level',
+      selector: '.reading-level',
+      dataAttr: 'data-rlevel',
+      defaultValue: 'all'
+    }
+  ],
+  countLabel: ' Lesestücke',
+  defaultSort: 'level',
+  batchSize: 30,
+
+  prepareItem: function (r) {
+    if (r.__prepared) return;
+    var words = 0;
+    var jpParts = [];
+    var deParts = [];
+    for (var i = 0; i < r.sentences.length; i++) {
+      var s = r.sentences[i];
+      jpParts.push(s.jp);
+      deParts.push(s.de);
+      for (var j = 0; j < s.tokens.length; j++) {
+        if (!s.tokens[j].p) words++;
+      }
+    }
+    r.wordCount = words;
+    r.minutes = Math.max(1, Math.round(words / 90));
+    r.__searchText = buildSearchText([r.title, r.titleDe, r.summary, r.category, jpParts, deParts]);
+    r.__prepared = true;
+  },
+
+  filterFn: function (r, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('reading', r.id)) return false;
+    if (filters.level !== 'all' && r.level !== filters.level) return false;
+    if (query && (!r.__searchText || r.__searchText.indexOf(query) === -1)) return false;
+    return true;
+  },
+
+  sortFn: function (items, sortKey) {
+    items.sort(function (a, b) {
+      if (sortKey === 'alpha') return a.title.localeCompare(b.title, 'ja');
+      if (sortKey === 'length') return a.wordCount - b.wordCount;
+      var la = LEVEL_ORDER[a.level] !== undefined ? LEVEL_ORDER[a.level] : 9;
+      var lb = LEVEL_ORDER[b.level] !== undefined ? LEVEL_ORDER[b.level] : 9;
+      if (la !== lb) return la - lb;
+      return a.wordCount - b.wordCount;
+    });
+  },
+
+  createCard: function (r, index, section) {
+    return createBaseCard('reading-card', function (root) {
+      var header = appendElement(root, 'div', 'reading-card-header');
+      appendElement(header, 'span', 'reading-card-title', r.title);
+      appendElement(header, 'span', 'card-level ' + r.level, r.level);
+      appendElement(root, 'div', 'reading-card-subtitle', r.titleDe);
+      appendElement(root, 'div', 'reading-card-summary', r.summary);
+      var meta = appendElement(root, 'div', 'reading-card-meta');
+      appendElement(meta, 'span', 'reading-card-cat', r.category);
+      appendElement(meta, 'span', null, r.wordCount + ' Wörter');
+      appendElement(meta, 'span', null, '~' + r.minutes + ' Min');
+    }, index, section, r.id);
+  },
+
+  openDetail: function (r, dom, section) {
+    ReadingDetail.open(r, section);
+  }
+};
