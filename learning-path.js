@@ -1102,14 +1102,12 @@
     }).sort(function (a, b) { return (a.number || 0) - (b.number || 0); });
   }
 
-  // Lesson-first steps for a freshly assembled session. New grammar patterns supply
-  // plenty of QUESTIONS, but only a couple of LESSONS are taught per session
-  // (MAX_NEW_GRAMMAR_LESSONS) so reading stays light while practice can be heavy.
-  // For the patterns that do get a lesson we teach either:
-  //   1) the lesson explicitly linked to the pattern (placed before its card), or
-  //   2) — when no link exists (true for most levels above N5) — the next unread
-  //      lesson for the current level (front of session).
-  // Capped overall, deduped per lesson. Pure (no I/O) so it's unit-testable.
+  // Lesson-first steps for a freshly assembled session. Every new grammar pattern in
+  // the session is taught right before its OWN question (just-in-time), never at the
+  // session start — each lesson step carries the grammar card it precedes. The lesson
+  // is the one explicitly linked to the pattern, or — where no link exists (most
+  // levels above N5) — the next unread lesson for the current level. Capped at
+  // MAX_NEW_GRAMMAR_LESSONS, deduped. Pure (no I/O) so it's unit-testable.
   function lessonStepsForSession(model, session) {
     var inSession = {};
     (session || []).forEach(function (c) {
@@ -1123,26 +1121,26 @@
     var maxLessons = Math.min(newGrammar.length, MAX_NEW_GRAMMAR_LESSONS);
 
     var read = (model.path && model.path.readLessons) || [];
-    var seen = {};
+    var level = model.progress && model.progress.currentLevel;
+    var used = {};
+    var fill = null;
     var steps = [];
 
-    // 1) Pattern-linked lessons, placed before the pattern they teach.
+    // Assign one lesson per new grammar pattern, always placed before that pattern's
+    // own card. Prefer the pattern's linked lesson; otherwise fall back to the next
+    // unread level lesson — but still glued to a grammar question, not front-loaded.
     for (var i = 0; i < newGrammar.length && steps.length < maxLessons; i++) {
+      var key = itemKeyOf('grammar', newGrammar[i].item);
       var lesson = lessonForGrammar(newGrammar[i].item);
-      if (!lesson || read.indexOf(lesson.id) !== -1 || seen[lesson.id]) continue;
-      seen[lesson.id] = true;
-      steps.push(lessonStepObj(lesson, itemKeyOf('grammar', newGrammar[i].item)));
-    }
-
-    // 2) Fallback: top up to the lesson cap with the next unread lessons for the
-    //    current level (shown at the front of the session).
-    var level = model.progress && model.progress.currentLevel;
-    if (level && steps.length < maxLessons) {
-      var fill = unreadLevelLessons(level, read, seen);
-      for (var j = 0; j < fill.length && steps.length < maxLessons; j++) {
-        seen[fill[j].id] = true;
-        steps.push(lessonStepObj(fill[j], null));
+      if (lesson && (read.indexOf(lesson.id) !== -1 || used[lesson.id])) lesson = null;
+      if (!lesson && level) {
+        if (!fill) fill = unreadLevelLessons(level, read, used);
+        while (fill.length && used[fill[0].id]) fill.shift();
+        lesson = fill.length ? fill.shift() : null;
       }
+      if (!lesson) continue;
+      used[lesson.id] = true;
+      steps.push(lessonStepObj(lesson, key));
     }
     return steps;
   }

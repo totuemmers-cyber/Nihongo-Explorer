@@ -751,7 +751,7 @@ function makeGrammarContext(grammarItems, lessons) {
   const steps = eng.lessonStepsForSession(model, session);
   check('T28 unlinked new grammar still teaches a lesson (level fallback)', steps.length === 1);
   check('T28 fallback uses the next unread level lesson by number', steps[0].lessonId === 'lx');
-  check('T28 fallback lesson is shown up front (no precedes)', steps[0].precedesItemKey === null);
+  check('T28 fallback lesson is glued to the grammar question (not front-loaded)', steps[0].precedesItemKey === k);
   const steps2 = eng.lessonStepsForSession({ picks: model.picks, path: { readLessons: ['lx'] }, progress: { currentLevel: 'N3' } }, session);
   check('T28 a read fallback lesson advances to the next one', steps2.length === 1 && steps2[0].lessonId === 'ly');
   const noNew = eng.lessonStepsForSession({ picks: [], path: { readLessons: [] }, progress: { currentLevel: 'N3' } }, []);

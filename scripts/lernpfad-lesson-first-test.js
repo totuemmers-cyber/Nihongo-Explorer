@@ -97,31 +97,57 @@ async function run() {
     return window.app.activeTab === 'review' && document.querySelector('#review-content .review-card-wrap');
   }, 'session launches into the review runner');
 
-  // The very first item must be a taught lesson step (fallback lessons are front-placed),
-  // NOT a grammar question — this is the regression the user hit at N3.
-  const first = document.querySelector('#review-content .review-card-wrap');
-  assert(first.classList.contains('review-lesson-step'),
-    'session opens with a lesson step, not an untaught question (got: ' + (first.textContent || '').slice(0, 80) + ')');
-  assert(first.querySelector('.review-lesson-content .gl-intro'), 'the lesson body is rendered inline');
-  const lessonTitle = (first.querySelector('.quiz-prompt-main') || {}).textContent;
-  assert(lessonTitle, 'the lesson step shows a title');
-  assert(!document.querySelector('#review-content .review-grade-row'), 'a lesson step is not graded like a card');
+  // Drive the whole session. Lessons must be JUST-IN-TIME: every lesson step is
+  // immediately followed by a grammar question, and none is front-loaded at the
+  // start detached from the day's grammar.
+  let sawLesson = false;
+  let expectGrammarNext = false;
+  let guard = 0;
+  while (document.querySelector('#review-content .review-card-wrap') && guard < 100) {
+    guard++;
+    const wrap = document.querySelector('#review-content .review-card-wrap');
+    if (wrap.classList.contains('review-lesson-step')) {
+      sawLesson = true;
+      assert(wrap.querySelector('.review-lesson-content .gl-intro'), 'lesson step renders the lesson body inline');
+      assert(!wrap.querySelector('.review-grade-row'), 'a lesson step is not graded like a card');
+      const before = wrap.textContent;
+      click(findButton(document.getElementById('review-content'), 'Verstanden'), window);
+      expectGrammarNext = true;
+      await waitFor(function () {
+        const w = document.querySelector('#review-content .review-card-wrap');
+        return !w || w.textContent !== before;
+      }, 'lesson advances after continue', 6000);
+      continue;
+    }
+    // A normal flashcard.
+    if (expectGrammarNext) {
+      assert(/Grammatik/.test(wrap.textContent),
+        'a lesson is immediately followed by its grammar question (just-in-time, not front-loaded)');
+      expectGrammarNext = false;
+    }
+    const revealBtn = Array.from(wrap.querySelectorAll('button')).find(function (b) { return b.textContent === 'Antwort anzeigen'; });
+    if (revealBtn) click(revealBtn, window);
+    const before = (wrap.querySelector('.quiz-prompt-main') || {}).textContent;
+    const good = wrap.querySelector('.review-grade-btn.grade-good');
+    assert(good, 'flashcard exposes a grade button');
+    click(good, window);
+    await waitFor(function () {
+      const w = document.querySelector('#review-content .review-card-wrap');
+      return !w || w.classList.contains('review-lesson-step') || (w.querySelector('.quiz-prompt-main') || {}).textContent !== before;
+    }, 'card advances after grading', 6000);
+  }
 
-  // Continue → the lesson is marked read so it is not re-taught.
-  click(findButton(document.getElementById('review-content'), 'Verstanden'), window);
+  assert(sawLesson, 'a new grammar pattern was taught with a lesson during the session');
+
+  // The lesson(s) were marked read (so they are not re-taught tomorrow).
   let readMarked = false;
   await waitFor(function () {
     window.SRSStore.getPathState().then(function (p) { readMarked = !!(p && (p.readLessons || []).length > 0); });
     return readMarked;
-  }, 'lesson marked read after continue');
-
-  // And the session continues into real cards afterwards.
-  await waitFor(function () {
-    return document.querySelector('#review-content .review-card-wrap') || document.querySelector('#review-content .review-title');
-  }, 'session proceeds after the lesson');
+  }, 'lesson marked read');
 
   dom.window.close();
-  console.log('Lernpfad lesson-first test passed (real N3 flow).');
+  console.log('Lernpfad lesson-first test passed (just-in-time, no front-loading).');
 }
 
 run().then(function () { process.exit(0); }).catch(function (err) { console.error(err); process.exit(1); });
