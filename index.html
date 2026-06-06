@@ -58,6 +58,10 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
           Grammatik
         </button>
+        <button class="tab-btn" data-tab="reading">
+          <span class="tab-icon-kana">読</span>
+          Lesen
+        </button>
         <button class="tab-btn" data-tab="quiz">
           <span class="tab-icon-kana">試</span>
           Quiz
@@ -307,6 +311,32 @@
           </div>
         </div>
       </div>
+      <!-- Reading (Lesestücke) Tab Controls -->
+      <div id="reading-controls" class="tab-content hidden">
+        <div class="search-bar">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="reading-search-input" placeholder="Suche nach Titel, Inhalt, Wörtern..." autocomplete="off">
+          <button id="reading-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button class="filter-btn reading-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn reading-level active" data-rlevel="all">Alle</button>
+            <button class="filter-btn reading-level n5" data-rlevel="N5">N5</button>
+            <button class="filter-btn reading-level n4" data-rlevel="N4">N4</button>
+            <button class="filter-btn reading-level n3" data-rlevel="N3">N3</button>
+            <button class="filter-btn reading-level n2" data-rlevel="N2">N2</button>
+            <button class="filter-btn reading-level n1" data-rlevel="N1">N1</button>
+          </div>
+          <div class="sort-controls">
+            <select id="reading-sort-select">
+              <option value="level">Nach Level</option>
+              <option value="length">Nach Länge</option>
+              <option value="alpha">Alphabetisch (Titel)</option>
+            </select>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main id="main-content">
@@ -375,6 +405,17 @@
         <div id="radicals-loading" class="loading hidden">
           <div class="loading-spinner"></div>
           <span>Lade Radikal-Daten...</span>
+        </div>
+      </div>
+      <!-- Reading (Lesestücke) Tab Content -->
+      <div id="reading-tab" class="tab-panel hidden">
+        <div id="reading-grid" class="reading-grid"></div>
+        <div id="reading-no-results" class="no-results hidden">
+          <p>Keine Lesestücke gefunden.</p>
+        </div>
+        <div id="reading-loading" class="loading hidden">
+          <div class="loading-spinner"></div>
+          <span>Lade Lesestücke...</span>
         </div>
       </div>
       <!-- Kana Tab Content -->
@@ -651,6 +692,47 @@
             <div id="radical-detail-kanji-secondary" class="component-list"></div>
             <div class="secondary-note">Diese Kanji enthalten das Radikal als Komponente, haben aber ein anderes Primärradikal.</div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reading (Lesestücke) Detail Overlay -->
+    <div id="reading-detail-overlay" class="detail-overlay hidden">
+      <div class="detail-panel reading-detail-panel">
+        <button id="reading-close-detail" class="btn-close" title="Schließen">&times;</button>
+        <div class="detail-nav">
+          <button id="prev-reading" class="btn btn-nav" title="Vorheriges Lesestück">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button id="next-reading" class="btn btn-nav" title="Nächstes Lesestück">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="detail-content">
+          <div class="reading-detail-header">
+            <span id="reading-detail-title" class="reading-detail-title"></span>
+            <span id="reading-detail-level" class="detail-jlpt-badge"></span>
+            <span id="reading-detail-category" class="reading-category-badge"></span>
+          </div>
+          <div id="reading-detail-subtitle" class="reading-detail-subtitle"></div>
+          <div id="reading-detail-meta" class="reading-detail-meta"></div>
+          <div id="reading-detail-summary" class="reading-detail-summary"></div>
+          <div class="reading-toolbar">
+            <button id="reading-play-all" class="btn reading-toolbar-btn" title="Ganzen Text vorlesen">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
+              <span class="reading-toolbar-label">Vorlesen</span>
+            </button>
+            <button id="reading-furigana-toggle" class="btn reading-toolbar-btn" title="Furigana ein-/ausblenden">
+              <span class="tab-icon-kana">読</span>
+              <span class="reading-toolbar-label">Furigana an</span>
+            </button>
+            <button id="reading-translate-toggle" class="btn reading-toolbar-btn" title="Alle Übersetzungen ein-/ausblenden">
+              <span class="tab-icon-kana">訳</span>
+              <span class="reading-toolbar-label">Übersetzung</span>
+            </button>
+          </div>
+          <div class="reading-hint">Tippe ein Wort an, um Lesung und Bedeutung zu sehen. Mit „DE" zeigst du die Satzübersetzung.</div>
+          <div id="reading-detail-text" class="reading-text furigana-on"></div>
         </div>
       </div>
     </div>

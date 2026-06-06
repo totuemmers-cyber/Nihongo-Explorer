@@ -19,7 +19,9 @@
     isQuizDataLoaded: isQuizDataLoaded,
     ensureGrammarLessonsLoaded: ensureGrammarLessonsLoaded,
     renderBasicNumbers: renderBasicNumbers,
-    speakJP: speakJP
+    speakJP: speakJP,
+    speakJPSequence: speakJPSequence,
+    cancelSpeech: cancelSpeech
   };
 
   // === SOUND ENGINE (Web Audio API) ===
@@ -109,6 +111,7 @@
     onomatopoeia: document.getElementById('ono-loading'),
     counters: document.getElementById('counters-loading'),
     radicals: document.getElementById('radicals-loading'),
+    reading: document.getElementById('reading-loading'),
     quiz: document.getElementById('quiz-loading')
   };
   var sectionErrorState = {};
@@ -120,6 +123,7 @@
   var jpSpeechInitStarted = false;
   var jpSpeechSpeakTimer = null;
   var jpSpeechRequestId = 0;
+  var jpSpeechQueueId = 0;
   var INTENTIONAL_VOCAB_OVERLAP_KEYS = {
     '一期一会|いちごいちえ': 1,
     '一石二鳥|いっせきにちょう': 1,
@@ -352,6 +356,13 @@
         if (window.resetSectionLookups) window.resetSectionLookups();
         app.sections.radicals.setItems(window.KANGXI_RADICALS || []);
       }
+    },
+    reading: {
+      initialScripts: ['reading-data.js'],
+      message: 'Lade Lesestücke...',
+      hydrateInitial: function () {
+        app.sections.reading.setItems(window.READING_DATA ? window.READING_DATA.slice() : []);
+      }
     }
   };
 
@@ -363,7 +374,7 @@
   var activeKanaMode = 'hiragana';
 
   // Section names that have controls + tab panels
-  var sectionNames = ['kanji', 'grammar', 'vocab', 'onomatopoeia', 'counters', 'radicals'];
+  var sectionNames = ['kanji', 'grammar', 'vocab', 'onomatopoeia', 'counters', 'radicals', 'reading'];
 
   // === INSTANTIATE SECTIONS ===
   sectionNames.forEach(function (name) {
@@ -1084,6 +1095,7 @@
     ensureJpSpeechInitialized();
 
     jpSpeechRequestId += 1;
+    jpSpeechQueueId += 1; // a single utterance request supersedes any running sequence
     var requestId = jpSpeechRequestId;
     var synth = window.speechSynthesis;
 
@@ -1118,6 +1130,86 @@
         synth.speak(utterance);
       } catch (e) {}
     }, 60);
+  }
+
+  // Stop any in-flight single utterance or sentence sequence and invalidate their ids.
+  function cancelSpeech() {
+    jpSpeechRequestId += 1;
+    jpSpeechQueueId += 1;
+    if (jpSpeechSpeakTimer) {
+      clearTimeout(jpSpeechSpeakTimer);
+      jpSpeechSpeakTimer = null;
+    }
+    if (!('speechSynthesis' in window)) return;
+    try { window.speechSynthesis.cancel(); } catch (e) {}
+  }
+
+  // Speak an array of strings one after another, chaining via each utterance's
+  // onend so the next sentence starts when the previous finishes. Callbacks:
+  //   onStart()          -> before the first sentence
+  //   onSentence(index)  -> when sentence `index` begins speaking
+  //   onEnd()            -> after the last sentence (or if cancelled/aborted)
+  // Powers the reading section's "whole text" and per-sentence playback.
+  function speakJPSequence(texts, opts) {
+    opts = opts || {};
+    if (!('speechSynthesis' in window) || !texts || !texts.length) {
+      if (opts.onEnd) opts.onEnd();
+      return;
+    }
+
+    ensureJpSpeechInitialized();
+    cancelSpeech();
+
+    var synth = window.speechSynthesis;
+    jpSpeechQueueId += 1;
+    var queueId = jpSpeechQueueId;
+    var list = texts.slice();
+    var idx = 0;
+
+    function speakNext() {
+      if (queueId !== jpSpeechQueueId) return;
+      if (idx >= list.length) {
+        if (opts.onEnd) opts.onEnd();
+        return;
+      }
+      var i = idx;
+      var clean = String(list[i] || '').replace(/[.\-]/g, '').trim();
+      if (!clean) { idx += 1; speakNext(); return; }
+
+      var utterance = new SpeechSynthesisUtterance(clean);
+      utterance.lang = 'ja-JP';
+      utterance.rate = 0.85;
+      utterance.volume = 0.9;
+
+      var voice = jpSpeechVoice || pickJapaneseVoice(synth.getVoices ? synth.getVoices() : []);
+      if (voice) {
+        utterance.voice = voice;
+        if (voice.lang) utterance.lang = voice.lang;
+      }
+
+      utterance.onstart = function () {
+        if (queueId === jpSpeechQueueId && opts.onSentence) opts.onSentence(i);
+      };
+      utterance.onend = function () {
+        if (queueId !== jpSpeechQueueId) return;
+        idx += 1;
+        speakNext();
+      };
+      utterance.onerror = function () {
+        if (queueId !== jpSpeechQueueId) return;
+        idx += 1;
+        speakNext();
+      };
+
+      try { if (typeof synth.resume === 'function') synth.resume(); } catch (e) {}
+      try { synth.speak(utterance); } catch (e) {}
+    }
+
+    if (opts.onStart) opts.onStart();
+    jpSpeechSpeakTimer = setTimeout(function () {
+      jpSpeechSpeakTimer = null;
+      speakNext();
+    }, 80);
   }
 
   function pickJapaneseVoice(voices) {
