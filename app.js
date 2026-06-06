@@ -952,9 +952,11 @@
           '<span class="theme-card-grad"></span>' +
         '</span>' +
         '<span class="theme-card-meta">' +
-          '<span><span class="theme-card-name">' + t.name + '</span> ' +
-          '<span class="theme-card-jp">' + t.jp + '</span></span>' +
-          '<span class="theme-card-mode">' + (t.mode === 'dark' ? 'Dunkel' : 'Hell') + '</span>' +
+          '<span class="theme-card-name">' + t.name + '</span>' +
+          '<span class="theme-card-row2">' +
+            '<span class="theme-card-jp">' + t.jp + '</span>' +
+            '<span class="theme-card-mode">' + (t.mode === 'dark' ? 'Dunkel' : 'Hell') + '</span>' +
+          '</span>' +
         '</span>';
       card.addEventListener('click', function () {
         playTick();
