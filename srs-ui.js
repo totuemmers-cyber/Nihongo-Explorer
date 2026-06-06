@@ -590,15 +590,105 @@
     }).then(function (settings) {
       answerMode = (settings && settings.answerMode) || 'reveal';
       autoSuspendLeeches = !!(settings && settings.autoSuspendLeeches);
-      var selected = includeNotDue ? cards.slice() : cards.filter(function (card) {
+      // The Lernpfad may mix in non-card "lesson" steps (teach-before-test). They
+      // must not go through isDue/sortQueue, so split them out and weave them back in
+      // directly before the grammar card each one teaches.
+      var lessonSteps = [];
+      var cardItems = [];
+      (cards || []).forEach(function (it) {
+        if (it && it.kind === 'lesson') lessonSteps.push(it); else cardItems.push(it);
+      });
+      var selected = includeNotDue ? cardItems.slice() : cardItems.filter(function (card) {
         return window.SRSScheduler.isDue(card);
       });
-      queue = window.SRSScheduler.sortQueue(selected);
+      queue = weaveLessonSteps(window.SRSScheduler.sortQueue(selected), lessonSteps);
       session = { reviewed: 0, correct: 0, again: 0, leeches: 0 };
       currentCard = null;
       revealed = false;
       renderNextReview();
     });
+  }
+
+  // Insert each lesson step immediately before the first queued card of the grammar
+  // pattern it teaches (matched by itemKey). Steps whose pattern card isn't in the
+  // queue still get shown, at the front, so a lesson is never silently dropped.
+  function weaveLessonSteps(sortedCards, lessonSteps) {
+    if (!lessonSteps || !lessonSteps.length) return sortedCards;
+    var pending = {};
+    var leftover = [];
+    lessonSteps.forEach(function (step) {
+      if (step.precedesItemKey) (pending[step.precedesItemKey] = pending[step.precedesItemKey] || []).push(step);
+      else leftover.push(step);
+    });
+    var out = [];
+    var insertedFor = {};
+    sortedCards.forEach(function (card) {
+      var key = card.itemKey;
+      if (key && pending[key] && !insertedFor[key]) {
+        pending[key].forEach(function (step) { out.push(step); });
+        insertedFor[key] = true;
+      }
+      out.push(card);
+    });
+    // Any lesson whose pattern card never appeared (e.g. budget trimmed it) is shown
+    // up front rather than lost.
+    Object.keys(pending).forEach(function (key) {
+      if (!insertedFor[key]) pending[key].forEach(function (step) { leftover.push(step); });
+    });
+    return leftover.concat(out);
+  }
+
+  // A lesson-first step in the session: render the grammar lesson inline, then a
+  // single "Verstanden — weiter" to continue into its flashcards. Reuses the exact
+  // lesson markup/styling from the Lektionen view.
+  function renderLessonStep(step) {
+    revealed = false;
+    panel.innerHTML = '';
+    var wrap = el('div', 'review-card-wrap review-lesson-step');
+    var meta = el('div', 'quiz-badges');
+    meta.appendChild(el('span', 'quiz-type-badge', 'Lektion'));
+    if (step.level) {
+      var lvl = String(step.level).split('/')[0];
+      meta.appendChild(el('span', 'quiz-level-badge ' + lvl.toLowerCase(), step.level));
+    }
+    wrap.appendChild(meta);
+    wrap.appendChild(el('p', 'quiz-prompt', 'Neue Grammatik — lies die Lektion, bevor du sie übst.'));
+    wrap.appendChild(el('div', 'quiz-prompt-main', step.title));
+    if (step.subtitle) wrap.appendChild(el('p', 'quiz-prompt-sub', step.subtitle));
+
+    var content = el('div', 'review-lesson-content');
+    var html = (window.GrammarLessons && window.GrammarLessons.renderContent)
+      ? window.GrammarLessons.renderContent(step.lessonId) : '';
+    if (html) content.innerHTML = html;
+    else content.appendChild(el('div', 'review-empty-hint', 'Lektion nicht verfügbar.'));
+    wrap.appendChild(content);
+
+    var actions = el('div', 'quiz-browse-actions');
+    var contBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Verstanden — weiter');
+    contBtn.addEventListener('click', function () {
+      if (window.LearningPath && window.LearningPath.noteLessonReadById) window.LearningPath.noteLessonReadById(step.lessonId);
+      if (window.app) window.app.playPop();
+      renderNextReview();
+    });
+    actions.appendChild(contBtn);
+
+    var openBtn = el('button', 'quiz-btn quiz-btn-back', 'Ganze Lektion öffnen');
+    openBtn.addEventListener('click', function () {
+      if (window.LearningPath && window.LearningPath.noteLessonReadById) window.LearningPath.noteLessonReadById(step.lessonId);
+      if (window.app && window.app.ensureGrammarLessonsLoaded) {
+        window.app.ensureGrammarLessonsLoaded().then(function () {
+          if (window.GrammarLessons && window.GrammarLessons.openLesson) window.GrammarLessons.openLesson(step.lessonId);
+        }).catch(function () {});
+      }
+    });
+    actions.appendChild(openBtn);
+
+    var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
+    backBtn.addEventListener('click', renderHome);
+    actions.appendChild(backBtn);
+
+    wrap.appendChild(actions);
+    panel.appendChild(wrap);
   }
 
   function renderNextReview() {
@@ -611,6 +701,8 @@
     }
     currentCard = queue.shift();
     revealed = false;
+    // Lesson-first steps are taught inline, not graded like cards.
+    if (currentCard && currentCard.kind === 'lesson') { renderLessonStep(currentCard); return; }
     panel.innerHTML = '';
 
     var wrap = el('div', 'review-card-wrap');
