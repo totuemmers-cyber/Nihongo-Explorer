@@ -682,15 +682,16 @@ function makeGrammarContext(grammarItems, lessons) {
   return { window: window, eng: window.LearningPath._engine };
 }
 
-// === T26: brand-new grammar introductions are capped per batch (lesson-first pace) ===
+// === T26: grammar QUESTIONS are plentiful (not hard-capped at the lesson count) ===
 (function () {
   const GRAM = [];
-  for (let i = 0; i < 5; i++) GRAM.push({ id: 'g' + i, pattern: 'p' + i, level: 'N5', category: 'Partikel', meaning: 'm' + i });
+  for (let i = 0; i < 10; i++) GRAM.push({ id: 'g' + i, pattern: 'p' + i, level: 'N5', category: 'Partikel', meaning: 'm' + i });
   const { eng } = makeGrammarContext(GRAM, null);
   const map = eng.mapFromCards([], eng.normalizePath(null));
   const picks = eng.pickNewItems('N5', map, 20); // budget far exceeds the grammar supply
   const grammarPicks = picks.filter(function (p) { return p.section === 'grammar'; });
-  check('T26 new grammar is capped at 2 per batch even when more is available', grammarPicks.length === 2);
+  check('T26 grammar questions are no longer limited to the lesson count (>2)', grammarPicks.length > 2);
+  check('T26 grammar questions respect the generous batch cap (<=8)', grammarPicks.length <= 8);
 })();
 
 // === T27: lesson-first steps are emitted for unread lessons of in-session grammar ===
@@ -752,6 +753,19 @@ function makeGrammarContext(grammarItems, lessons) {
   check('T28 a read fallback lesson advances to the next one', steps2.length === 1 && steps2[0].lessonId === 'ly');
   const noNew = eng.lessonStepsForSession({ picks: [], path: { readLessons: [] }, progress: { currentLevel: 'N3' } }, []);
   check('T28 no new grammar -> no lesson steps', noNew.length === 0);
+})();
+
+// === T29: many new grammar questions still cap lessons at 1-2 per session ===
+(function () {
+  const GRAM = [];
+  for (let i = 0; i < 5; i++) GRAM.push({ id: 'n3-' + i, pattern: 'P' + i, level: 'N3', category: 'Satzstrukturen', meaning: 'm' + i });
+  const lessons = [];
+  for (let i = 0; i < 5; i++) lessons.push({ id: 'L' + i, number: i + 1, title: 'N3 ' + i, subtitle: '', level: 'N3', grammarIds: [] });
+  const { eng } = makeGrammarContext(GRAM, lessons);
+  const picks = GRAM.map(function (g) { return { section: 'grammar', item: g }; });
+  const session = GRAM.map(function (g) { return { section: 'grammar', itemKey: 'grammar:' + g.id }; });
+  const steps = eng.lessonStepsForSession({ picks: picks, path: { readLessons: [] }, progress: { currentLevel: 'N3' } }, session);
+  check('T29 five new grammar questions still yield at most 2 lessons', steps.length === 2);
 })();
 
 // === T7/T8: resetProgress + export/import round-trip on the real SRSStore ===

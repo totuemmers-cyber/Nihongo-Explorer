@@ -14,11 +14,16 @@
   var LEVEL_ADVANCE_RATIO = 0.9; // familiar-or-better ratio to move past a level
   // Weighted round-robin mix when assembling a batch of new items.
   var MIX_WEIGHTS = { kanji: 1, vocab: 1.3, grammar: 0.6 };
-  // Cap on brand-new grammar patterns suggested in one batch. Each new pattern is
-  // taught (lesson-first) before it is tested, so introducing several at once floods
-  // a single "Heute lernen" with untaught grammar. Reviews of already-started
-  // grammar are unaffected — only fresh introductions are limited.
-  var MAX_NEW_GRAMMAR = 2;
+  // Two independent grammar limits:
+  //  - MAX_NEW_GRAMMAR caps how many brand-new grammar PATTERNS (i.e. grammar
+  //    questions/flashcards) are introduced per batch. Kept generous so grammar
+  //    practice can be plentiful.
+  //  - MAX_NEW_GRAMMAR_LESSONS caps how many teaching LESSONS are shown per session.
+  //    Lessons are heavier than questions, so only a couple per day even when more
+  //    new patterns are introduced; the extra patterns are practiced as questions.
+  // Reviews of already-started grammar are never limited by either.
+  var MAX_NEW_GRAMMAR = 8;
+  var MAX_NEW_GRAMMAR_LESSONS = 2;
 
   var initialized = false;
   var panel = null;
@@ -1099,14 +1104,14 @@
     }).sort(function (a, b) { return (a.number || 0) - (b.number || 0); });
   }
 
-  // Lesson-first steps for a freshly assembled session. For every NEW grammar pattern
-  // introduced in this session we teach a lesson before testing it:
+  // Lesson-first steps for a freshly assembled session. New grammar patterns supply
+  // plenty of QUESTIONS, but only a couple of LESSONS are taught per session
+  // (MAX_NEW_GRAMMAR_LESSONS) so reading stays light while practice can be heavy.
+  // For the patterns that do get a lesson we teach either:
   //   1) the lesson explicitly linked to the pattern (placed before its card), or
   //   2) — when no link exists (true for most levels above N5) — the next unread
-  //      lesson for the current level, so a lesson is ALWAYS taught when new grammar
-  //      is learned, not only where per-pattern links happen to exist.
-  // Capped at the number of new grammar patterns introduced, deduped per lesson.
-  // Pure (no I/O) so it's unit-testable; returns [] when no new grammar / no lessons.
+  //      lesson for the current level (front of session).
+  // Capped overall, deduped per lesson. Pure (no I/O) so it's unit-testable.
   function lessonStepsForSession(model, session) {
     var inSession = {};
     (session || []).forEach(function (c) {
@@ -1117,27 +1122,28 @@
       return p.section === 'grammar' && inSession[itemKeyOf('grammar', p.item)];
     });
     if (!newGrammar.length) return [];
+    var maxLessons = Math.min(newGrammar.length, MAX_NEW_GRAMMAR_LESSONS);
 
     var read = (model.path && model.path.readLessons) || [];
     var seen = {};
     var steps = [];
 
     // 1) Pattern-linked lessons, placed before the pattern they teach.
-    newGrammar.forEach(function (p) {
-      var lesson = lessonForGrammar(p.item);
-      if (!lesson || read.indexOf(lesson.id) !== -1 || seen[lesson.id]) return;
+    for (var i = 0; i < newGrammar.length && steps.length < maxLessons; i++) {
+      var lesson = lessonForGrammar(newGrammar[i].item);
+      if (!lesson || read.indexOf(lesson.id) !== -1 || seen[lesson.id]) continue;
       seen[lesson.id] = true;
-      steps.push(lessonStepObj(lesson, itemKeyOf('grammar', p.item)));
-    });
+      steps.push(lessonStepObj(lesson, itemKeyOf('grammar', newGrammar[i].item)));
+    }
 
-    // 2) Fallback: top up to one lesson per new grammar pattern with the next unread
-    //    lessons for the current level (shown at the front of the session).
+    // 2) Fallback: top up to the lesson cap with the next unread lessons for the
+    //    current level (shown at the front of the session).
     var level = model.progress && model.progress.currentLevel;
-    if (level && steps.length < newGrammar.length) {
+    if (level && steps.length < maxLessons) {
       var fill = unreadLevelLessons(level, read, seen);
-      for (var i = 0; i < fill.length && steps.length < newGrammar.length; i++) {
-        seen[fill[i].id] = true;
-        steps.push(lessonStepObj(fill[i], null));
+      for (var j = 0; j < fill.length && steps.length < maxLessons; j++) {
+        seen[fill[j].id] = true;
+        steps.push(lessonStepObj(fill[j], null));
       }
     }
     return steps;
