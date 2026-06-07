@@ -1459,6 +1459,61 @@ main {
   overflow: hidden;
 }
 
+/* Collapsible "Weitere Übungen" panel in the focus block. Keeps the primary
+   "Heute lernen" CTA uncluttered; secondary drills live one tap away. Mirrors
+   the .path-stats collapsible. */
+.path-drills {
+  border-top: 1px solid var(--border);
+}
+
+.path-drills-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+  padding: 8px 0;
+}
+
+.path-drills-header .toggle-icon {
+  margin-left: auto;
+  transition: transform 0.25s ease;
+  color: var(--text-secondary);
+}
+
+.path-drills-header .toggle-icon.collapsed {
+  transform: rotate(-90deg);
+}
+
+.path-drills-body {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.path-drills-body.collapsed {
+  grid-template-rows: 0fr;
+}
+
+.path-drills-body > * {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.path-drills-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-top: 0.4rem;
+}
+
+.path-drills-hint {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-top: -0.2rem;
+}
+
 .path-backup-warning {
   border: 1px solid var(--n4-border);
   border-radius: var(--radius-sm);

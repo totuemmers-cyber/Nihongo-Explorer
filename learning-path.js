@@ -855,6 +855,9 @@
     stats.appendChild(statCard('Schwach', weakCards.length));
     box.appendChild(stats);
 
+    // Primary action stands alone: on a normal day "Heute lernen" is the whole
+    // routine (new cards + due reviews + woven-in lessons), so it gets the focus
+    // block to itself.
     var actions = el('div', 'review-actions');
     var learnLabel = 'Heute lernen — ' + newToday + ' neue Karten · ' + dueCount + ' Wiederholungen';
     if (newToday + dueCount > 0) learnLabel += ' · ~' + estimateMinutes(newToday, dueCount) + ' Min';
@@ -865,34 +868,15 @@
       startToday(model, learnBtn);
     });
     actions.appendChild(learnBtn);
-
-    var reviewBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Nur Wiederholen (' + dueCount + ')');
-    reviewBtn.disabled = dueCount === 0;
-    reviewBtn.addEventListener('click', function () {
-      recordStudyStart(model.path);
-      window.SRSUI.startSession(model.due, true);
-    });
-    actions.appendChild(reviewBtn);
-
-    var practiceBtn = el('button', 'quiz-btn quiz-btn-back', 'Alle aktiven Karten üben (' + activeCards.length + ')');
-    practiceBtn.disabled = activeCards.length === 0;
-    practiceBtn.addEventListener('click', function () {
-      recordStudyStart(model.path);
-      window.SRSUI.startSession(activeCards, true);
-    });
-    actions.appendChild(practiceBtn);
-
-    // Focused drill over the weak cards (lapsed or relearning) — the items most at
-    // risk of becoming leeches.
-    if (weakCards.length) {
-      var weakBtn = el('button', 'quiz-btn quiz-btn-back', 'Schwache Karten üben (' + weakCards.length + ')');
-      weakBtn.addEventListener('click', function () {
-        recordStudyStart(model.path);
-        window.SRSUI.startSession(weakCards, true);
-      });
-      actions.appendChild(weakBtn);
-    }
     box.appendChild(actions);
+
+    // Everything else is situational — reviews-only maintenance days and
+    // off-schedule drills — so it's folded into a collapsed "Weitere Übungen"
+    // panel instead of competing with the primary CTA. Only shown once there are
+    // cards in rotation to practise.
+    if (activeCards.length) {
+      box.appendChild(buildMoreDrills(model, activeCards, weakCards, dueCount));
+    }
 
     if (model.suppressedNew) {
       box.appendChild(el('div', 'review-empty-hint',
@@ -904,6 +888,62 @@
       box.appendChild(el('div', 'review-empty-hint',
         'Tagesziel für neue Karten erreicht (' + model.path.newDaily.count + '). Es bleiben noch Wiederholungen.'));
     }
+    return box;
+  }
+
+  // Collapsible panel of secondary study modes, folded in below the primary
+  // "Heute lernen" CTA so they don't distract from it. Collapsed by default.
+  function buildMoreDrills(model, activeCards, weakCards, dueCount) {
+    var box = el('div', 'path-drills');
+    var header = el('div', 'path-drills-header');
+    header.innerHTML = '<span class="path-section-title">Weitere Übungen</span>' +
+      '<svg class="toggle-icon collapsed" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+    var body = el('div', 'path-drills-body collapsed');
+    header.addEventListener('click', function () {
+      if (window.app && window.app.playTick) window.app.playTick();
+      var icon = header.querySelector('.toggle-icon');
+      body.classList.toggle('collapsed');
+      if (icon) icon.classList.toggle('collapsed');
+    });
+
+    var inner = el('div', 'path-drills-inner');
+
+    // Reviews only — the "maintenance day" option (skip new material).
+    var reviewBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Nur Wiederholen (' + dueCount + ')');
+    reviewBtn.disabled = dueCount === 0;
+    reviewBtn.addEventListener('click', function () {
+      recordStudyStart(model.path);
+      window.SRSUI.startSession(model.due, true);
+    });
+    inner.appendChild(reviewBtn);
+
+    // Off-schedule drill over the whole active deck. Counts as real reviews, so it
+    // shifts the SRS schedule of not-yet-due cards — flag that so it isn't a
+    // surprise.
+    var practiceBtn = el('button', 'quiz-btn quiz-btn-back', 'Alle aktiven Karten üben (' + activeCards.length + ')');
+    practiceBtn.disabled = activeCards.length === 0;
+    practiceBtn.addEventListener('click', function () {
+      recordStudyStart(model.path);
+      window.SRSUI.startSession(activeCards, true);
+    });
+    inner.appendChild(practiceBtn);
+    inner.appendChild(el('div', 'path-drills-hint',
+      'Zählt als echte Wiederholung — fällige und noch nicht fällige Karten werden neu eingeplant.'));
+
+    // Focused drill over the weak cards (lapsed or relearning) — the items most at
+    // risk of becoming leeches.
+    if (weakCards.length) {
+      var weakBtn = el('button', 'quiz-btn quiz-btn-back', 'Schwache Karten üben (' + weakCards.length + ')');
+      weakBtn.addEventListener('click', function () {
+        recordStudyStart(model.path);
+        window.SRSUI.startSession(weakCards, true);
+      });
+      inner.appendChild(weakBtn);
+    }
+
+    body.appendChild(inner);
+    box.appendChild(header);
+    box.appendChild(body);
     return box;
   }
 
