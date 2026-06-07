@@ -371,7 +371,6 @@
   var quizTab = document.getElementById('quiz-tab');
   var reviewTab = document.getElementById('review-tab');
   var pathTab = document.getElementById('path-tab');
-  var kanjiduelTab = document.getElementById('kanjiduel-tab');
   var activeKanaMode = 'hiragana';
 
   // Section names that have controls + tab panels
@@ -387,7 +386,6 @@
     if (name === 'quiz') return quizTab;
     if (name === 'review') return reviewTab;
     if (name === 'path') return pathTab;
-    if (name === 'kanjiduel') return kanjiduelTab;
     return tabPanels[name] || null;
   }
 
@@ -622,7 +620,6 @@
     if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
     if (reviewTab) reviewTab.classList.toggle('hidden', tab !== 'review');
     if (pathTab) pathTab.classList.toggle('hidden', tab !== 'path');
-    if (kanjiduelTab) kanjiduelTab.classList.toggle('hidden', tab !== 'kanjiduel');
   }
 
   function showSectionTabWhenReady(tab) {
@@ -653,10 +650,6 @@
 
   function switchTab(tab) {
     var pendingSection = app.sections[tab] && !app.sections[tab].isLoaded;
-    // Stop the Kanji-Duell render loop + audio when leaving its tab.
-    if (app.activeTab === 'kanjiduel' && tab !== 'kanjiduel' && window.KanjiDuelModule) {
-      window.KanjiDuelModule.onTabDeactivate();
-    }
     app.activeTab = tab;
     playSwoosh();
 
@@ -696,16 +689,6 @@
 
     if (tab === 'path') {
       if (window.LearningPath) window.LearningPath.onTabActivate();
-      updateCount();
-      return;
-    }
-
-    if (tab === 'kanjiduel') {
-      if (window.KanjiDuelModule) window.KanjiDuelModule.onTabActivate();
-      // Kanji-Daten werden lazy geladen: sobald sie da sind, den Pool auffrischen.
-      ensureSectionLoaded('kanji').then(function () {
-        if (app.activeTab === 'kanjiduel' && window.KanjiDuelModule) window.KanjiDuelModule.refreshData();
-      }).catch(function () {});
       updateCount();
       return;
     }
@@ -797,8 +780,6 @@
       itemCountEl.textContent = 'Lernpfad';
     } else if (tab === 'quiz') {
       itemCountEl.textContent = 'Quiz';
-    } else if (tab === 'kanjiduel') {
-      itemCountEl.textContent = 'Kanji-Duell';
     } else if (tab === 'review') {
       itemCountEl.textContent = 'Wiederholen';
       if (window.SRSUI && window.SRSUI.getDueCount) {
@@ -1090,9 +1071,9 @@
       return;
     }
 
-    // Tab switching: 1-9, 0
-    var tabKeys = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
-    var tabNames = ['kana', 'radicals', 'kanji', 'vocab', 'onomatopoeia', 'grammar', 'counters', 'quiz', 'kanjiduel', 'review'];
+    // Tab switching: 1-9
+    var tabKeys = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    var tabNames = ['kana', 'radicals', 'kanji', 'vocab', 'onomatopoeia', 'grammar', 'counters', 'quiz', 'review'];
     var keyIdx = tabKeys.indexOf(e.key);
     if (keyIdx !== -1) {
       e.preventDefault();
