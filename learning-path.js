@@ -705,16 +705,19 @@
       }
 
       shell.appendChild(buildFocus(model));
+
+      // Statistik sits above the daily pensum so the high-level overview comes
+      // before today's to-do list (collapsed by default, so it stays unobtrusive).
+      shell.appendChild(buildStatsSection());
+
       shell.appendChild(buildNextUp(model));
 
-      // Progress, lessons and target level share one flush, equal-height row.
+      // Progress (incl. the slim lesson-reading strip) and target level share one
+      // flush, equal-height row.
       var overview = el('div', 'path-overview');
       overview.appendChild(buildProgress(model));
-      overview.appendChild(buildLessons(model));
       overview.appendChild(buildAdjust(model));
       shell.appendChild(overview);
-
-      shell.appendChild(buildStatsSection());
 
       panel.appendChild(shell);
     }).catch(function () {
@@ -941,7 +944,75 @@
       row.appendChild(bar);
       box.appendChild(row);
     });
+
+    box.appendChild(buildLessonStrip(model));
     return box;
+  }
+
+  // Compact lesson-reading progress, folded into the Fortschritt card. The full
+  // lesson list used to live in its own "Grammatiklektionen" box, but the lessons
+  // are now pushed contextually (the 💡 hint on each grammar item in the daily
+  // pensum), so all that remains worth surfacing here is the reading progress for
+  // the current level plus a link into the full Lektionen view.
+  function buildLessonStrip(model) {
+    var strip = el('div', 'path-lesson-strip');
+    var head = el('div', 'path-lesson-strip-head');
+    head.appendChild(el('span', 'path-section-title', 'Grammatiklektionen'));
+    var link = el('button', 'path-lessons-more-link', 'Alle ansehen');
+    link.addEventListener('click', openAllLessons);
+    head.appendChild(link);
+    strip.appendChild(head);
+
+    var body = el('div', 'path-lesson-strip-body');
+    strip.appendChild(body);
+
+    if (!window.app || !window.app.ensureGrammarLessonsLoaded) {
+      body.appendChild(el('div', 'review-empty-hint', 'Lektionen nicht verfügbar.'));
+      return strip;
+    }
+    body.appendChild(el('div', 'review-empty-hint', 'Lektionen werden geladen…'));
+    window.app.ensureGrammarLessonsLoaded().then(function () {
+      populateLessonStrip(body, model);
+    }).catch(function () {
+      body.innerHTML = '';
+      body.appendChild(el('div', 'review-empty-hint', 'Lektionen konnten nicht geladen werden.'));
+    });
+    return strip;
+  }
+
+  function populateLessonStrip(body, model) {
+    body.innerHTML = '';
+    if (!window.GrammarLessons || !window.GrammarLessons.getLessons) {
+      body.appendChild(el('div', 'review-empty-hint', 'Lektionen nicht verfügbar.'));
+      return;
+    }
+    var level = model.progress.currentLevel;
+    var read = model.path.readLessons || [];
+    var lessons = window.GrammarLessons.getLessons().filter(function (l) {
+      return lessonMatchesLevel(l, level);
+    });
+    if (!lessons.length) {
+      body.appendChild(el('div', 'review-empty-hint', 'Keine Lektionen für ' + level + '.'));
+      return;
+    }
+    var readCount = lessons.filter(function (l) { return read.indexOf(l.id) !== -1; }).length;
+
+    // Same row style as the JLPT progress bars so lesson reading reads as a
+    // first-class metric, not a side count.
+    var row = el('div', 'path-level-row');
+    var head = el('div', 'path-level-head');
+    head.appendChild(el('span', 'path-level-badge ' + level, level));
+    head.appendChild(el('span', 'path-level-count', readCount + ' / ' + lessons.length + ' gelesen'));
+    row.appendChild(head);
+
+    var bar = el('div', 'path-bar');
+    if (lessons.length && readCount) {
+      var seg = el('div', 'path-bar-seg seg-mastered');
+      seg.style.width = (readCount / lessons.length * 100) + '%';
+      bar.appendChild(seg);
+    }
+    row.appendChild(bar);
+    body.appendChild(row);
   }
 
   var TYPE_LABEL = { kanji: 'Kanji', vocab: 'Vokabel', grammar: 'Grammatik' };
@@ -1189,18 +1260,6 @@
     }
   }
 
-  function toggleLessonRead(model, id) {
-    var i = model.path.readLessons.indexOf(id);
-    if (i === -1) {
-      model.path.readLessons.push(id);
-      recordLessonActivity(model.path, id);
-    } else {
-      model.path.readLessons.splice(i, 1);
-    }
-    savePathStateSafe(model.path).then(render);
-    if (window.app) window.app.playTick();
-  }
-
   function openAllLessons() {
     if (window.app) window.app.switchTab('grammar');
     if (window.app && window.app.ensureGrammarLessonsLoaded) {
@@ -1208,108 +1267,6 @@
         if (window.GrammarLessons && window.GrammarLessons.openLessonsView) window.GrammarLessons.openLessonsView();
       }).catch(function () {});
     }
-  }
-
-  var LESSONS_SHOWN = 3;
-
-  function populateLessons(body, model) {
-    body.innerHTML = '';
-    if (!window.GrammarLessons || !window.GrammarLessons.getLessons) {
-      body.appendChild(el('div', 'review-empty-hint', 'Lektionen nicht verfügbar.'));
-      return;
-    }
-    var level = model.progress.currentLevel;
-    var read = model.path.readLessons || [];
-    var lessons = window.GrammarLessons.getLessons().filter(function (l) {
-      return lessonMatchesLevel(l, level);
-    });
-    if (!lessons.length) {
-      body.appendChild(el('div', 'review-empty-hint', 'Keine Lektionen für ' + level + '.'));
-      return;
-    }
-
-    // Show only the next few unread lessons (already in didactic order).
-    var unread = lessons.filter(function (l) { return read.indexOf(l.id) === -1; });
-    var readCount = lessons.length - unread.length;
-
-    // Lesson progress for this level, surfaced as a bar in the same style as the
-    // JLPT progress rows so it reads as a first-class metric, not a side count.
-    var prog = el('div', 'path-level-row');
-    var phead = el('div', 'path-level-head');
-    phead.appendChild(el('span', 'path-level-badge ' + level, level));
-    phead.appendChild(el('span', 'path-level-count', readCount + ' / ' + lessons.length + ' gelesen'));
-    prog.appendChild(phead);
-    var pbar = el('div', 'path-bar');
-    if (lessons.length && readCount) {
-      var pseg = el('div', 'path-bar-seg seg-mastered');
-      pseg.style.width = (readCount / lessons.length * 100) + '%';
-      pbar.appendChild(pseg);
-    }
-    prog.appendChild(pbar);
-    body.appendChild(prog);
-
-    if (!unread.length) {
-      body.appendChild(el('div', 'review-empty-hint', 'Alle Lektionen für ' + level + ' gelesen ✓'));
-    } else {
-      var shown = unread.slice(0, LESSONS_SHOWN);
-      var list = el('div', 'path-lessons-list');
-      shown.forEach(function (l, idx) {
-        var isNext = idx === 0;
-        var row = el('div', 'path-lesson-item' + (isNext ? ' is-next' : ''));
-
-        var openBtn = el('button', 'path-lesson-open');
-        openBtn.appendChild(el('span', 'path-lesson-num', String(l.number)));
-        var titles = el('div', 'path-lesson-titles');
-        var titleRow = el('div', 'path-lesson-title-row');
-        if (isNext) titleRow.appendChild(el('span', 'path-lesson-next-tag', 'Nächste'));
-        titleRow.appendChild(el('span', 'path-lesson-title', l.title));
-        titles.appendChild(titleRow);
-        if (l.subtitle) titles.appendChild(el('span', 'path-lesson-sub', l.subtitle));
-        openBtn.appendChild(titles);
-        openBtn.appendChild(el('span', 'path-chip path-chip-grammar', l.level));
-        openBtn.addEventListener('click', function () { openLessonFromPath(l.id, model); });
-        row.appendChild(openBtn);
-
-        var toggle = el('button', 'srs-small-btn path-lesson-toggle', 'Gelesen');
-        toggle.addEventListener('click', function (e) {
-          e.stopPropagation();
-          toggleLessonRead(model, l.id);
-        });
-        row.appendChild(toggle);
-
-        list.appendChild(row);
-      });
-      body.appendChild(list);
-    }
-
-    // Footer: link to the full Lektionen view + a small progress summary.
-    var more = el('div', 'path-lessons-more');
-    var link = el('button', 'path-lessons-more-link', 'Alle Lektionen ansehen');
-    link.addEventListener('click', openAllLessons);
-    more.appendChild(link);
-    more.appendChild(el('span', 'path-lessons-more-count',
-      ' (' + readCount + ' gelesen · ' + lessons.length + ' gesamt)'));
-    body.appendChild(more);
-  }
-
-  function buildLessons(model) {
-    var box = el('div', 'path-lessons');
-    box.appendChild(el('div', 'path-section-title', 'Grammatiklektionen'));
-    var body = el('div', 'path-lessons-body');
-    box.appendChild(body);
-
-    if (!window.app || !window.app.ensureGrammarLessonsLoaded) {
-      body.appendChild(el('div', 'review-empty-hint', 'Lektionen nicht verfügbar.'));
-      return box;
-    }
-    body.appendChild(el('div', 'review-empty-hint', 'Lektionen werden geladen…'));
-    window.app.ensureGrammarLessonsLoaded().then(function () {
-      populateLessons(body, model);
-    }).catch(function () {
-      body.innerHTML = '';
-      body.appendChild(el('div', 'review-empty-hint', 'Lektionen konnten nicht geladen werden.'));
-    });
-    return box;
   }
 
   var NEW_PER_DAY_OPTIONS = [5, 10, 15, 20, 30, 40, 50];

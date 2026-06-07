@@ -386,23 +386,27 @@ async function run() {
   assert(document.querySelector('#path-content .path-legend .path-legend-item'),
     'Lernpfad shows a segment legend');
 
-  // Grammar lessons block renders the next few lessons (capped at 3) + a "see all" link
+  // Lesson reading is folded into the Fortschritt card as a slim progress strip
+  // (the standalone Grammatiklektionen box was retired — lessons now surface
+  // contextually in the daily pensum). Verify the strip shows reading progress
+  // for the level + an "Alle ansehen" link into the full Lektionen view.
   await waitFor(function () {
-    return document.querySelector('#path-content .path-lessons .path-lesson-item');
-  }, { description: 'Lernpfad grammar-lessons block renders lessons' });
-  assert(document.querySelectorAll('#path-content .path-lessons .path-lesson-item').length <= 3,
-    'Lernpfad shows at most 3 grammar lessons');
-  assert(Array.from(document.querySelectorAll('#path-content .path-lessons-more-link')).some(function (b) {
-    return b.textContent.indexOf('Alle Lektionen ansehen') !== -1;
-  }), 'Lernpfad has an "Alle Lektionen ansehen" link');
+    return document.querySelector('#path-content .path-lesson-strip .path-level-row');
+  }, { description: 'Lernpfad lesson-reading strip renders progress' });
+  assert(Array.from(document.querySelectorAll('#path-content .path-lesson-strip .path-lessons-more-link')).some(function (b) {
+    return b.textContent.indexOf('Alle ansehen') !== -1;
+  }), 'Lernpfad lesson strip has an "Alle ansehen" link');
 
-  const lessonOpen = document.querySelector('#path-content .path-lesson-open');
-  assert(lessonOpen, 'Lernpfad lesson row has an open button');
-  click(lessonOpen, window);
+  // Lessons are taught in-flow: a grammar item in the daily pensum offers a 💡
+  // hint to read its explaining lesson. Opening it marks the lesson read, opens
+  // it in the Lektionen view, and (below) keeps the streak alive + logs activity.
+  const lessonHint = document.querySelector('#path-content .path-next-lesson-hint');
+  assert(lessonHint, 'Lernpfad pensum offers a 💡 lesson hint for a grammar item');
+  click(lessonHint, window);
   await waitFor(function () {
     return window.app.activeTab === 'grammar' &&
       document.querySelector('.gl-card-body:not(.collapsed)');
-  }, { description: 'clicking a Lernpfad lesson opens it in the Lektionen view' });
+  }, { description: 'clicking a Lernpfad lesson hint opens it in the Lektionen view' });
   const afterRead = await window.SRSStore.getPathState();
   assert(afterRead && Array.isArray(afterRead.readLessons) && afterRead.readLessons.length > 0,
     'opening a lesson marks it read in pathState');

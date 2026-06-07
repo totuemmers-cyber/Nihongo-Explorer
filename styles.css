@@ -1382,7 +1382,7 @@ main {
    screens. The hero blocks above (focus, "Als Nächstes") stay full width. */
 .path-overview {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   align-items: stretch;
 }
@@ -1397,7 +1397,6 @@ main {
 .path-focus,
 .path-progress,
 .path-next,
-.path-lessons,
 .path-adjust {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -1929,103 +1928,29 @@ main {
   font-variant-numeric: tabular-nums;
 }
 
-/* Grammar lessons block */
-.path-lessons-list {
+/* Slim lesson-reading strip, folded into the Fortschritt card. The full lesson
+   list was retired once lessons started surfacing contextually in the daily
+   pensum (the 💡 hint); all that remains here is reading progress + a link. */
+.path-lesson-strip {
+  margin-top: 0.35rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--border);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.path-lesson-item {
+.path-lesson-strip-head {
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  justify-content: space-between;
   gap: 0.6rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  background: var(--bg);
-  padding: 0.5rem 0.65rem;
 }
 
-.path-lesson-item.is-next {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent) inset;
-}
-
-.path-lesson-item.is-read {
-  opacity: 0.72;
-}
-
-.path-lesson-open {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  flex: 1;
-  min-width: 0;
-  border: none;
-  background: none;
-  cursor: pointer;
-  text-align: left;
-  color: var(--text);
-}
-
-.path-lesson-num {
-  flex: none;
-  width: 1.7rem;
-  height: 1.7rem;
-  border-radius: 999px;
-  background: var(--border);
-  color: var(--text-secondary);
-  font-size: 0.8rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.path-lesson-titles {
+.path-lesson-strip-body {
   display: flex;
   flex-direction: column;
-  min-width: 0;
-}
-
-.path-lesson-title-row {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.path-lesson-title {
-  font-weight: 600;
-}
-
-.path-lesson-sub {
-  color: var(--text-secondary);
-  font-size: 0.82rem;
-}
-
-.path-lesson-next-tag {
-  font-size: 0.68rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  padding: 0.1rem 0.4rem;
-  border-radius: 999px;
-  background: var(--accent);
-  color: #fff;
-}
-
-.path-lesson-check {
-  color: #2e9e5b;
-  font-weight: 700;
-}
-
-.path-lesson-toggle {
-  flex: none;
-}
-
-.path-lessons-more {
-  font-size: 0.85rem;
-  color: var(--text-secondary);
+  gap: 0.5rem;
 }
 
 .path-lessons-more-link {
