@@ -523,10 +523,15 @@ function foundationalGrammarTest() {
     navigator: {}
   };
   vm.createContext(ctx);
+  // Load every grammar level: lesson->grammar links now span N5-N1 (the Lernpfad
+  // teaches the linked lesson before a new pattern at every level), so the link-resolves
+  // check below must see the full id universe, not just the N5-N3 set in grammar-data.js.
   vm.runInContext(fs.readFileSync(path.join(__dirname, 'grammar-data.js'), 'utf8'), ctx, { filename: 'grammar-data.js' });
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'grammar-n2.js'), 'utf8'), ctx, { filename: 'grammar-n2.js' });
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'grammar-n1.js'), 'utf8'), ctx, { filename: 'grammar-n1.js' });
   vm.runInContext(fs.readFileSync(path.join(__dirname, 'grammar-lessons.js'), 'utf8'), ctx, { filename: 'grammar-lessons.js' });
 
-  const data = ctx.window.GRAMMAR_DATA || [];
+  const data = [].concat(ctx.window.GRAMMAR_DATA || [], ctx.window.GRAMMAR_N2 || [], ctx.window.GRAMMAR_N1 || []);
   const byId = {};
   data.forEach(function (g) { byId[g.id] = g; });
 
@@ -569,6 +574,26 @@ function foundationalGrammarTest() {
   check('T24 こそあど lesson links its demonstratives', linked('lesson-154', 'kosoado-pronoun'));
   check('T24 Fragewörter lesson links question-words', linked('lesson-81', 'question-words'));
   check('T24 場合 lesson links baai', linked('lesson-156', 'baai'));
+
+  // Lesson-first now reaches every level: grammar above N5 must be linked to the lesson
+  // that teaches it, not left to the "next unread lesson" fallback. Spot-check one
+  // representative pattern per level lands on a lesson whose title names it.
+  check('T24 N4 ～てしまう links its lesson', linked('lesson-124', 'te-shimau'));
+  check('T24 N4 passive links the Passiv lesson', linked('lesson-11', 'n4-rareru'));
+  check('T24 N3 ～うちに links its time-pattern lesson', linked('lesson-111', 'n3-uchi-ni'));
+  check('T24 N2 ～を通じて links its lesson', linked('lesson-68', 'n2-wo-tsujite'));
+  check('T24 N1 ～や否や links its lesson', linked('lesson-55', 'n1-ya-inaya'));
+
+  // Coverage guard: each level N4-N1 must have a substantial share of its grammar linked
+  // to a teaching lesson (regression tripwire if the derivation or a data move breaks it).
+  var linkedSet = {};
+  lessons.forEach(function (l) { (l.grammarIds || []).forEach(function (gid) { linkedSet[gid] = true; }); });
+  ['N4', 'N3', 'N2', 'N1'].forEach(function (L) {
+    var items = data.filter(function (g) { return g.level === L; });
+    var linkedCount = items.filter(function (g) { return linkedSet[g.id]; }).length;
+    check('T24 ' + L + ' grammar is linked to lessons (>=15%)',
+      items.length > 0 && (linkedCount / items.length) >= 0.15);
+  });
   return Promise.resolve();
 }
 

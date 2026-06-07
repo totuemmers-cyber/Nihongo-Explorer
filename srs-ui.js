@@ -664,6 +664,10 @@
     wrap.appendChild(content);
 
     var actions = el('div', 'quiz-browse-actions');
+    // The full lesson is already rendered inline above, so a single "continue" is all
+    // that is needed. (A former "Ganze Lektion öffnen" button was removed: it called
+    // GrammarLessons.openLesson without switching to the grammar tab, so it operated on
+    // hidden DOM and did nothing visible while the session ran in the review tab.)
     var contBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Verstanden — weiter');
     contBtn.addEventListener('click', function () {
       if (window.LearningPath && window.LearningPath.noteLessonReadById) window.LearningPath.noteLessonReadById(step.lessonId);
@@ -671,17 +675,6 @@
       renderNextReview();
     });
     actions.appendChild(contBtn);
-
-    var openBtn = el('button', 'quiz-btn quiz-btn-back', 'Ganze Lektion öffnen');
-    openBtn.addEventListener('click', function () {
-      if (window.LearningPath && window.LearningPath.noteLessonReadById) window.LearningPath.noteLessonReadById(step.lessonId);
-      if (window.app && window.app.ensureGrammarLessonsLoaded) {
-        window.app.ensureGrammarLessonsLoaded().then(function () {
-          if (window.GrammarLessons && window.GrammarLessons.openLesson) window.GrammarLessons.openLesson(step.lessonId);
-        }).catch(function () {});
-      }
-    });
-    actions.appendChild(openBtn);
 
     var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
     backBtn.addEventListener('click', renderHome);

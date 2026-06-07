@@ -83,12 +83,27 @@
     next.updatedAt = timestamp;
 
     if (grade === 'Again') {
-      next.state = 'Relearning';
-      next.ease = clamp(ease - 0.2, MIN_EASE, 3.0);
+      // A lapse is only a lapse once the card has actually been learned. Failing a card
+      // that has graduated to spaced review (Review/Mature/Mastered) — or one already
+      // in the relearning cycle — is a genuine lapse: it goes to Relearning and the
+      // lapse counter rises. But failing a card that is still in the introductory phase
+      // (New on first sight, or Learning) is NOT a lapse — not knowing brand-new
+      // material the first time is the expected case. Counting it would inflate the
+      // "Schwach" set and, because Mastered requires lapses === 0, would permanently bar
+      // an item from ever being "Gemeistert". Such a card simply stays in Learning with
+      // its lapse counter and ease untouched.
+      var inLearningPhase = (card.state === 'New' || card.state === 'Learning');
       next.intervalDays = 0;
-      next.lapses = lapses + 1;
       next.dueAt = addMs(baseNow, 10 * MINUTE_MS);
-      next.leech = next.lapses >= LEECH_LAPSES;
+      if (inLearningPhase) {
+        next.state = 'Learning';
+        // ease and lapses left unchanged — a learning-phase miss carries no penalty.
+      } else {
+        next.state = 'Relearning';
+        next.ease = clamp(ease - 0.2, MIN_EASE, 3.0);
+        next.lapses = lapses + 1;
+      }
+      next.leech = (next.lapses || 0) >= LEECH_LAPSES;
       return next;
     }
 
