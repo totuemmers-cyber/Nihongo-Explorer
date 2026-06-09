@@ -17,11 +17,35 @@
     return !!(card && CHECKABLE[card.promptType]);
   }
 
+  // Long-vowel mark: expand ー to the preceding kana's vowel (こーひー -> こおひい),
+  // so "koohii" and "ko-hi-" both match a katakana loanword's reading.
+  var VOWEL_ROWS = {
+    'あ': 'あぁかがさざただなはばぱまゃやらゎわ',
+    'い': 'いぃきぎしじちぢにひびぴみり',
+    'う': 'うぅくぐすずつづぬふぶぷむゅゆる',
+    'え': 'えぇけげせぜてでねへべぺめれ',
+    'お': 'おぉこごそぞとどのほぼぽもょよろを'
+  };
+  function expandChoon(s) {
+    var out = '';
+    for (var i = 0; i < s.length; i++) {
+      var c = s.charAt(i);
+      if (c === 'ー' && out) {
+        var prev = out.charAt(out.length - 1);
+        for (var vowel in VOWEL_ROWS) {
+          if (VOWEL_ROWS[vowel].indexOf(prev) >= 0) { c = vowel; break; }
+        }
+      }
+      out += c;
+    }
+    return out;
+  }
+
   // Katakana -> hiragana + drop spaces, so kana comparison is script-insensitive.
   function normKana(s) {
-    return String(s == null ? '' : s).replace(/\s+/g, '').replace(/[ァ-ヶ]/g, function (c) {
+    return expandChoon(String(s == null ? '' : s).replace(/\s+/g, '').replace(/[ァ-ヶ]/g, function (c) {
       return String.fromCharCode(c.charCodeAt(0) - 0x60);
-    });
+    }));
   }
 
   // German/meaning text: lowercase, drop parentheticals & punctuation, collapse spaces.
@@ -44,11 +68,32 @@
     }).filter(Boolean);
   }
 
+  // Kanji "Lesung" cards store a display block ("Kun: ひと-, ひと.つ\nOn: イチ, イツ");
+  // any single listed reading counts as correct. "." marks the okurigana boundary
+  // (stem and full form both accepted), "-" is a prefix/suffix marker (dropped).
+  function kanjiReadingAnswers(s) {
+    var answers = [];
+    function add(a) { if (a && answers.indexOf(a) < 0) answers.push(a); }
+    String(s == null ? '' : s).split(/\n/).forEach(function (line) {
+      line.replace(/^\s*(?:Kun|On)\s*:\s*/i, '').split(/[,、・]/).forEach(function (part) {
+        var r = part.replace(/[\s\-]/g, '');
+        if (!r) return; // "-" placeholder for no readings
+        add(normKana(r.replace(/\./g, '')));
+        var dot = r.indexOf('.');
+        if (dot > 0) add(normKana(r.slice(0, dot)));
+      });
+    });
+    return answers;
+  }
+
   // -> { kind: 'kana'|'text', answers: [normalised] } or null when not checkable.
   function acceptedAnswers(card) {
     if (!isCheckable(card)) return null;
     var q = (card && card.question) || {};
-    if (card.promptType === 'reading') return { kind: 'kana', answers: [normKana(q.answer)].filter(Boolean) };
+    if (card.promptType === 'reading') {
+      if (card.section === 'kanji') return { kind: 'kana', answers: kanjiReadingAnswers(q.answer) };
+      return { kind: 'kana', answers: [normKana(q.answer)].filter(Boolean) };
+    }
     if (card.promptType === 'cloze') return { kind: 'kana', answers: splitPatternVariants(q.answer) };
     return { kind: 'text', answers: splitMeanings(q.answer) }; // meaning
   }

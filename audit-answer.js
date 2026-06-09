@@ -66,6 +66,28 @@ const { RK, AC } = load();
   check('A4 second variant via kana', AC.checkAnswer('ので', card).correct === true);
 })();
 
+// === A6: kanji reading cards accept any single kun/on reading ===
+(function () {
+  const card = { promptType: 'reading', section: 'kanji', question: { answer: 'Kun: ひと-, ひと.つ\nOn: イチ, イツ' } };
+  check('A6 kun stem via romaji', AC.checkAnswer('hito', card).correct === true);
+  check('A6 kun full form (okurigana)', AC.checkAnswer('hitotsu', card).correct === true);
+  check('A6 on reading via romaji', AC.checkAnswer('ichi', card).correct === true);
+  check('A6 on reading via katakana', AC.checkAnswer('イツ', card).correct === true);
+  check('A6 unrelated reading is wrong', AC.checkAnswer('sora', card).correct === false);
+  const noKun = { promptType: 'reading', section: 'kanji', question: { answer: 'Kun: -\nOn: ゴ' } };
+  check('A6 "-" placeholder is not an answer', AC.checkAnswer('-', noKun).correct === false);
+  check('A6 on-only card accepts reading', AC.checkAnswer('go', noKun).correct === true);
+})();
+
+// === A7: long-vowel mark ー matches doubled-vowel typing ===
+(function () {
+  const card = { promptType: 'reading', section: 'vocab', question: { answer: 'コーヒー' } };
+  check('A7 doubled vowels match choon', AC.checkAnswer('koohii', card).correct === true);
+  check('A7 hyphen choon still matches', AC.checkAnswer('ko-hi-', card).correct === true);
+  check('A7 katakana input matches', AC.checkAnswer('コーヒー', card).correct === true);
+  check('A7 unrelated is wrong', AC.checkAnswer('ocha', card).correct === false);
+})();
+
 // === A5: non-checkable cards return null (caller falls back to self-grading) ===
 (function () {
   check('A5 reverse not checkable', AC.checkAnswer('x', { promptType: 'reverse', question: { answer: 'a (b)' } }) === null);

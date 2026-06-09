@@ -9,12 +9,13 @@
 // NOTE: service workers do not run from file:// — this only activates when the app
 // is served over http(s) (e.g. GitHub Pages).
 // ============================================================
-var VERSION = 'v6';
+var VERSION = 'v7';
 var CACHE = 'nihongo-' + VERSION;
 
 // Eagerly-loaded app shell (data files are cached at runtime as they're fetched).
 var SHELL = [
   './', './index.html', './styles.css', './manifest.json', './icon.svg',
+  './icon-180.png', './icon-192.png', './icon-512.png', './icon-maskable-512.png',
   './kana-data.js', './app-constants.js', './conjugation.js',
   './vocab-correction-rules.js', './vocab-example-overrides.js', './vocab-corrections.js',
   './section.js', './section-configs.js', './quiz.js',
