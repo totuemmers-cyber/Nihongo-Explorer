@@ -52,6 +52,10 @@ function makeCard(section, item, state, dueOffsetMs, lapses, reps) {
     // genuinely familiar item (survived a real review), matching FAMILIAR_MIN_REPS.
     reps: (typeof reps === 'number') ? reps
       : (state === 'Review' || state === 'Mature' || state === 'Mastered') ? 2 : 0,
+    // Graduated cards also need a real day interval: "familiar" requires having
+    // survived a spaced review (intervalDays > 1), since the same-day learning
+    // step makes reps alone insufficient proof of spacing.
+    intervalDays: state === 'Mastered' ? 180 : state === 'Mature' ? 30 : state === 'Review' ? 3 : 0,
     dueAt: new Date(Date.now() + (dueOffsetMs || 0)).toISOString(),
     lapses: lapses || 0,
     suspended: false

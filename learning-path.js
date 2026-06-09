@@ -237,6 +237,20 @@
     return newCountChain;
   }
 
+  // Counterpart to noteNewCardIntroduced for the session runner's undo: taking
+  // back the grade that introduced a new card frees its Tagesziel slot again.
+  function noteNewCardUndone() {
+    newCountChain = newCountChain.then(function () {
+      if (!window.SRSStore || !window.SRSStore.getPathState) return;
+      return window.SRSStore.getPathState().then(function (raw) {
+        var path = normalizePath(raw);
+        path.newDaily.count = Math.max(0, path.newDaily.count - 1);
+        return savePathStateSafe(path);
+      });
+    }).catch(function () {});
+    return newCountChain;
+  }
+
   // Mark a lesson read from inside a running session (the lesson-first step in
   // "Heute lernen"). Mirrors noteNewCardIntroduced: a serialized, fresh
   // get-modify-save so it can't lose writes, and it keeps the streak alive. srs-ui
@@ -1897,6 +1911,7 @@
     runDiagnostics: runDiagnostics,
     pruneOrphans: pruneOrphans,
     noteNewCardIntroduced: noteNewCardIntroduced,
+    noteNewCardUndone: noteNewCardUndone,
     noteLessonReadById: noteLessonReadById,
     // exposed for audit/testing
     _engine: {

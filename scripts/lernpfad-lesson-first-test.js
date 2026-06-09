@@ -106,7 +106,8 @@ async function run() {
   let expectGrammarNext = false;
   let expectItemNext = null;
   let guard = 0;
-  while (document.querySelector('#review-content .review-card-wrap') && guard < 100) {
+  // Generous guard: same-day learning steps re-queue new/failed cards within the session.
+  while (document.querySelector('#review-content .review-card-wrap') && guard < 300) {
     guard++;
     const wrap = document.querySelector('#review-content .review-card-wrap');
     if (wrap.classList.contains('review-lesson-step')) {

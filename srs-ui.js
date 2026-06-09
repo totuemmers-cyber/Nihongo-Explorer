@@ -8,6 +8,7 @@
   var panel = null;
   var queue = [];
   var currentCard = null;
+  var lastGrade = null;        // one-level undo snapshot (cleared per session/screen flow)
   var revealed = false;
   var answerMode = 'reveal';   // 'reveal' = self-grade; 'type' = typed answer + checking
   var autoSuspendLeeches = false; // auto-suspend chronic-fail cards on "Again"
@@ -530,6 +531,7 @@
 
   function renderHome() {
     if (!ensurePanel()) return;
+    lastGrade = null;
     panel.innerHTML = '';
     var shell = el('div', 'review-shell');
     var header = el('div', 'review-header');
@@ -605,6 +607,7 @@
       queue = weaveLessonSteps(window.SRSScheduler.sortQueue(selected), lessonSteps);
       session = { reviewed: 0, correct: 0, again: 0, leeches: 0 };
       currentCard = null;
+      lastGrade = null;
       revealed = false;
       renderNextReview();
     });
@@ -680,9 +683,47 @@
     var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
     backBtn.addEventListener('click', renderHome);
     actions.appendChild(backBtn);
+    appendUndoButton(actions);
 
     wrap.appendChild(actions);
     panel.appendChild(wrap);
+  }
+
+  // Resolve a vocab card back to its dataset item (for metadata the persisted
+  // question doesn't carry, e.g. pitch accent). Only works once the vocab
+  // section is loaded — callers skip silently otherwise.
+  var _vocabByKey = null;
+  var _vocabByKeySource = null;
+  function vocabItemForCard(card) {
+    if (!card || card.section !== 'vocab' || !card.itemKey) return null;
+    var sec = window.app && window.app.sections && window.app.sections.vocab;
+    var items = sec && sec.allItems;
+    if (!items || !items.length) return null;
+    if (!_vocabByKey || _vocabByKeySource !== items) {
+      _vocabByKey = {};
+      _vocabByKeySource = items;
+      for (var i = 0; i < items.length; i++) _vocabByKey[getItemKey('vocab', items[i])] = items[i];
+    }
+    return _vocabByKey[card.itemKey] || null;
+  }
+
+  // Pitch-accent diagram (reuses the global renderPitchSVG from section-configs).
+  function pitchRow(reading, pitch) {
+    if (typeof renderPitchSVG !== 'function' || pitch === undefined || pitch === null || !reading) return null;
+    var svg = renderPitchSVG(reading, pitch);
+    if (!svg) return null;
+    var row = el('div', 'review-pitch');
+    row.innerHTML = svg;
+    return row;
+  }
+
+  // Small "take back the last answer" affordance, shown on the screen after a
+  // grade. Appended to whichever step renders next (card, lesson or intro).
+  function appendUndoButton(actions) {
+    if (!lastGrade) return;
+    var undoBtn = el('button', 'quiz-btn quiz-btn-back review-undo-btn', '↩ Letzte Antwort zurücknehmen');
+    undoBtn.addEventListener('click', undoLastGrade);
+    actions.appendChild(undoBtn);
   }
 
   // Teach-before-test for vocab/kanji: a compact, ungraded presentation of a
@@ -727,6 +768,13 @@
       var reading = it.reading && it.reading !== it.word ? it.reading : '';
       fact('Lesung', reading + (it.romaji ? (reading ? ' · ' : '') + it.romaji : ''), !!reading);
       fact('Bedeutung', it.meaning || '');
+      var pitch = pitchRow(it.reading, it.pitch);
+      if (pitch) {
+        var pitchFact = el('div', 'review-intro-fact');
+        pitchFact.appendChild(el('span', 'review-intro-fact-label', 'Pitch-Akzent'));
+        pitchFact.appendChild(pitch);
+        facts.appendChild(pitchFact);
+      }
     }
     wrap.appendChild(facts);
 
@@ -755,6 +803,7 @@
     var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
     backBtn.addEventListener('click', renderHome);
     actions.appendChild(backBtn);
+    appendUndoButton(actions);
 
     wrap.appendChild(actions);
     panel.appendChild(wrap);
@@ -793,6 +842,13 @@
 
     var answer = el('div', 'review-answer hidden');
     appendAnswer(answer, q);
+    // Pitch-accent diagram for vocab answers (looked up from the dataset, since
+    // persisted card questions don't carry it).
+    var vocabItem = vocabItemForCard(currentCard);
+    if (vocabItem) {
+      var pitch = pitchRow(vocabItem.reading, vocabItem.pitch);
+      if (pitch) answer.appendChild(pitch);
+    }
     wrap.appendChild(answer);
 
     var actions = el('div', 'quiz-browse-actions');
@@ -883,6 +939,8 @@
       actions.appendChild(gradeRow);
     }
 
+    appendUndoButton(actions);
+
     var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
     backBtn.addEventListener('click', renderHome);
     actions.appendChild(backBtn);
@@ -929,6 +987,7 @@
     if (!ensurePanel()) return;
     var s = session || { reviewed: 0, correct: 0, again: 0 };
     session = null;
+    lastGrade = null;
     panel.innerHTML = '';
     var shell = el('div', 'review-shell');
     var header = el('div', 'review-header');
@@ -986,7 +1045,8 @@
       // A card leaving the New state is a new card actually being introduced — count
       // it toward today's Lernpfad goal now (not when the session was assembled), so
       // aborting "Heute lernen" before reviewing never inflates the Tagesziel.
-      if (previous.state === 'New' && window.LearningPath && window.LearningPath.noteNewCardIntroduced) {
+      var countedNewIntro = previous.state === 'New';
+      if (countedNewIntro && window.LearningPath && window.LearningPath.noteNewCardIntroduced) {
         window.LearningPath.noteNewCardIntroduced();
       }
       notifyDetailRefresh(next.itemKey);
@@ -996,6 +1056,20 @@
         if (leechSuspended) session.leeches++;
       }
       if (leechSuspended) removeQueuedItem(next.itemKey); // drop its siblings from this run
+      // Short-step cards (same-day learning pass, relearning after a miss) come
+      // back later in THIS session instead of silently waiting until tomorrow.
+      if (!leechSuspended && (next.state === 'Learning' || next.state === 'Relearning')
+        && new Date(next.dueAt || 0).getTime() - Date.now() < 30 * 60 * 1000) {
+        queue.push(next);
+      }
+      // One-level undo snapshot for the next screen.
+      lastGrade = {
+        card: previous,
+        grade: grade,
+        eventId: event.eventId,
+        countedNewIntro: countedNewIntro,
+        cardKey: next.cardKey
+      };
       if (window.app) {
         if (grade === 'Again') window.app.playTick();
         else window.app.playPop();
@@ -1010,6 +1084,34 @@
         wrap.appendChild(el('div', 'review-error', 'Speichern fehlgeschlagen. Bitte erneut bewerten.'));
       }
     });
+  }
+
+  // Take back the most recent grade: restore the pre-grade card, drop its review
+  // event, roll back the counters, and show the card again. One level deep — a
+  // mis-tap is noticed immediately or not at all. (Sibling cards dropped by a
+  // leech auto-suspend are not re-queued; the restored card itself is.)
+  function undoLastGrade() {
+    if (!lastGrade) return;
+    var snap = lastGrade;
+    lastGrade = null;
+    window.SRSStore.putCards([snap.card]).then(function () {
+      return window.SRSStore.deleteEvent ? window.SRSStore.deleteEvent(snap.eventId) : null;
+    }).then(function () {
+      if (snap.countedNewIntro && window.LearningPath && window.LearningPath.noteNewCardUndone) {
+        window.LearningPath.noteNewCardUndone();
+      }
+      if (session) {
+        session.reviewed = Math.max(0, session.reviewed - 1);
+        if (snap.grade === 'Again') session.again = Math.max(0, session.again - 1);
+        else session.correct = Math.max(0, session.correct - 1);
+      }
+      // Drop the re-queued short-step copy of this card, then show it again.
+      queue = queue.filter(function (c) { return !c || c.cardKey !== snap.cardKey || c.kind; });
+      queue.unshift(snap.card);
+      notifyDetailRefresh(snap.card.itemKey);
+      if (window.app) window.app.playTick();
+      renderNextReview();
+    }).catch(function () {});
   }
 
   function removeQueuedItem(itemKey) {

@@ -226,6 +226,22 @@
     });
   }
 
+  // Remove a single review event (used by the session runner's one-level undo).
+  function deleteEvent(eventId, options) {
+    options = options || {};
+    return openDb().then(function (db) {
+      if (!db) {
+        delete loadFallback().events[eventId];
+        saveFallback();
+        if (!options.skipBackup) scheduleBackup();
+        return;
+      }
+      return reqToPromise(getStore(db, EVENT_STORE, 'readwrite').delete(eventId)).then(function () {
+        if (!options.skipBackup) scheduleBackup();
+      });
+    });
+  }
+
   function getAllEvents() {
     return openDb().then(function (db) {
       if (!db) {
@@ -541,6 +557,7 @@
     setItemSuspended: setItemSuspended,
     deleteCardsByItem: deleteCardsByItem,
     addEvent: addEvent,
+    deleteEvent: deleteEvent,
     getAllEvents: getAllEvents,
     getSettings: getSettings,
     saveSettings: saveSettings,

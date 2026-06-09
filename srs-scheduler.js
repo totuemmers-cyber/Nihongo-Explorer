@@ -64,7 +64,8 @@
     };
   }
 
-  function applyGrade(card, grade, now) {
+  // rng is injectable so tests can pin the interval fuzz (rng of 0.5 = no offset).
+  function applyGrade(card, grade, now, rng) {
     var next = {};
     for (var key in card) {
       if (Object.prototype.hasOwnProperty.call(card, key)) next[key] = card[key];
@@ -101,22 +102,57 @@
         next.state = 'Relearning';
         next.ease = clamp(ease - 0.2, MIN_EASE, 3.0);
         next.lapses = lapses + 1;
+        // Soft lapse: remember half the lost interval. When the card clears the
+        // relearning step it resumes there instead of restarting from one day —
+        // a mature card that slips once shouldn't repeat months of climbing
+        // (WaniKani drops stages, Anki keeps a configurable fraction; full reset
+        // was the harshest policy of all the major systems).
+        next.resumeIntervalDays = Math.max(1, Math.round(interval * 0.5));
       }
       next.leech = (next.lapses || 0) >= LEECH_LAPSES;
       return next;
     }
 
+    // Teach-then-confirm: passing a brand-new card once does NOT schedule it for
+    // tomorrow — it enters a short same-day learning step (the session runner
+    // re-queues it), and only the second pass graduates it to a real interval.
+    // "Easy" skips the step (the learner explicitly said it's trivial).
+    if (card.state === 'New' && grade !== 'Easy') {
+      if (grade === 'Hard') next.ease = clamp(ease - 0.1, MIN_EASE, 3.0);
+      next.state = 'Learning';
+      next.intervalDays = 0;
+      next.dueAt = addMs(baseNow, 10 * MINUTE_MS);
+      return next;
+    }
+
+    // A card coming out of Relearning resumes at the remembered fraction of its
+    // pre-lapse interval instead of starting over.
+    var resume = (card.state === 'Relearning' && typeof next.resumeIntervalDays === 'number')
+      ? next.resumeIntervalDays : null;
+    delete next.resumeIntervalDays;
+
     if (grade === 'Hard') {
       next.ease = clamp(ease - 0.1, MIN_EASE, 3.0);
-      next.intervalDays = Math.max(1, Math.round(interval > 0 ? interval * 1.2 : 1));
+      if (resume) next.intervalDays = Math.max(1, Math.round(resume * 0.8));
+      else next.intervalDays = Math.max(1, Math.round(interval > 0 ? interval * 1.2 : 1));
     } else if (grade === 'Easy') {
       next.ease = clamp(ease + 0.12, MIN_EASE, 3.0);
-      next.intervalDays = Math.max(3, Math.round(interval > 0 ? interval * (ease + 0.45) : 4));
+      if (resume) next.intervalDays = Math.max(3, resume);
+      else next.intervalDays = Math.max(3, Math.round(interval > 0 ? interval * (ease + 0.45) : 4));
     } else {
       next.ease = ease;
-      if (interval <= 0) next.intervalDays = 1;
+      if (resume) next.intervalDays = resume;
+      else if (interval <= 0) next.intervalDays = 1;
       else if (interval === 1) next.intervalDays = 3;
       else next.intervalDays = Math.max(2, Math.round(interval * ease));
+    }
+
+    // Fuzz: spread intervals of 3+ days by ±5% (at least ±1 day) so cards learned
+    // together don't stay clumped on the same future days forever.
+    if (next.intervalDays >= 3) {
+      var r = (typeof rng === 'function' ? rng : Math.random)();
+      var spread = Math.max(1, Math.round(next.intervalDays * 0.05));
+      next.intervalDays = Math.max(1, next.intervalDays + Math.round((r * 2 - 1) * spread));
     }
 
     if (next.intervalDays >= MASTERED_INTERVAL_DAYS && next.lapses === 0) {
@@ -187,7 +223,10 @@
       // and freeze level advancement forever.
       if (isWeak(c)) weak++;
       if (c.state === 'New' || c.state === 'Learning' || c.state === 'Relearning') learning++;
-      else if ((c.reps || 0) < FAMILIAR_MIN_REPS) young++; // Review/Mature/Mastered but only one review so far
+      // "Young" = graduated but not yet past a real spaced review: too few reps, or
+      // still on the freshly-graduated one-day interval (the same-day learning step
+      // gives reps 2 within one session, so reps alone no longer proves spacing).
+      else if ((c.reps || 0) < FAMILIAR_MIN_REPS || (c.intervalDays || 0) <= 1) young++;
       if (c.state === 'Mastered') mastered++;
     }
 

@@ -24,20 +24,33 @@ const card = scheduler.createCard(spec, now);
 assert(card.state === 'New', 'New card should start in New state');
 assert(card.dueAt === new Date(now).toISOString(), 'New card should be due immediately');
 
-const good = scheduler.applyGrade(card, 'Good', now);
-assert(good.state === 'Review', 'Good grade should move card to Review');
-assert(good.intervalDays === 1, 'First Good should schedule one day');
-assert(good.reps === 1, 'Good grade should increment reps');
+// Teach-then-confirm: the first pass on a brand-new card is a same-day learning
+// step (the runner re-queues it within the session); only the second pass
+// graduates the card to a real day interval.
+const step = scheduler.applyGrade(card, 'Good', now);
+assert(step.state === 'Learning', 'First Good on a New card enters the learning step');
+assert(step.intervalDays === 0, 'Learning step has no day interval yet');
+assert(new Date(step.dueAt).getTime() === now + 10 * 60 * 1000, 'Learning step is due ten minutes later');
+assert(step.reps === 1, 'First pass increments reps');
 
-// FAMILIAR_MIN_REPS: an item is only "familiar" once each card has survived a
-// real review (reps >= 2). One Good (reps 1, Review) keeps it "learning".
-// Evaluate with an explicit `now` so the not-yet-due cards aren't seen as due.
+const good = scheduler.applyGrade(step, 'Good', now + 10 * 60 * 1000);
+assert(good.state === 'Review', 'Second Good graduates the card');
+assert(good.intervalDays === 1, 'Graduation schedules one day');
+assert(good.reps === 2, 'Second pass increments reps');
+
+// Easy skips the learning step (the learner explicitly said it's trivial).
+const easyNew = scheduler.applyGrade(card, 'Easy', now, () => 0.5);
+assert(easyNew.state === 'Review' && easyNew.intervalDays === 4, 'Easy on a New card graduates directly');
+
+// "Familiar" needs a survived spaced review. The same-day step already gives
+// reps 2, so reps alone no longer proves spacing: a freshly graduated one-day
+// card is still "learning"; the first real follow-up review makes it familiar.
 assert(scheduler.getStatus([good], now).className === 'learning',
-  'A card reviewed only once should keep the item in learning, not familiar');
-const twiceGood = scheduler.applyGrade(good, 'Good', now + scheduler.constants.DAY_MS);
-assert(twiceGood.reps === 2, 'precondition: second Good gives reps 2');
-assert(scheduler.getStatus([twiceGood], now + scheduler.constants.DAY_MS).className === 'familiar',
-  'A card reviewed twice should make the item familiar');
+  'A freshly graduated one-day card keeps the item in learning, not familiar');
+const reviewed = scheduler.applyGrade(good, 'Good', now + scheduler.constants.DAY_MS, () => 0.5);
+assert(reviewed.intervalDays === 3, 'precondition: follow-up Good gives three days');
+assert(scheduler.getStatus([reviewed], now + scheduler.constants.DAY_MS).className === 'familiar',
+  'A card past a real spaced review makes the item familiar');
 
 const hard = scheduler.applyGrade(good, 'Hard', now);
 assert(hard.intervalDays >= 1, 'Hard should preserve at least a one-day interval');
@@ -61,9 +74,31 @@ assert(lapsing.leech === true, 'applyGrade flags a leech on the Again branch');
 
 let mature = good;
 for (let i = 0; i < 10; i++) {
-  mature = scheduler.applyGrade(mature, 'Easy', now + i * scheduler.constants.DAY_MS);
+  mature = scheduler.applyGrade(mature, 'Easy', now + i * scheduler.constants.DAY_MS, () => 0.5);
 }
 assert(['Mature', 'Mastered'].includes(mature.state), 'Repeated Easy grades should mature the card');
+
+// Soft lapse: a mature card that slips resumes at half its old interval after
+// clearing the relearning step, instead of restarting from one day.
+const big = Object.assign({}, reviewed, { state: 'Mature', intervalDays: 100, lapses: 0 });
+const slipped = scheduler.applyGrade(big, 'Again', now);
+assert(slipped.state === 'Relearning' && slipped.resumeIntervalDays === 50,
+  'A lapse remembers half the lost interval');
+const resumed = scheduler.applyGrade(slipped, 'Good', now, () => 0.5);
+assert(resumed.intervalDays === 50, 'Clearing relearning resumes at the remembered interval');
+assert(resumed.resumeIntervalDays === undefined, 'The resume marker is consumed');
+const resumedHard = scheduler.applyGrade(slipped, 'Hard', now, () => 0.5);
+assert(resumedHard.intervalDays === 40, 'Hard out of relearning resumes at a reduced fraction');
+
+// Fuzz: intervals of 3+ days spread by up to ±5% (at least ±1 day) so cards
+// learned together drift apart; an rng of 0.5 means no offset.
+const fuzzBase = scheduler.applyGrade(reviewed, 'Good', now + 4 * scheduler.constants.DAY_MS, () => 0.5);
+const fuzzLo = scheduler.applyGrade(reviewed, 'Good', now + 4 * scheduler.constants.DAY_MS, () => 0);
+const fuzzHi = scheduler.applyGrade(reviewed, 'Good', now + 4 * scheduler.constants.DAY_MS, () => 1);
+assert(fuzzLo.intervalDays < fuzzBase.intervalDays && fuzzHi.intervalDays > fuzzBase.intervalDays,
+  'Fuzz spreads intervals around the base');
+assert(fuzzHi.intervalDays - fuzzBase.intervalDays <= Math.max(1, Math.round(fuzzBase.intervalDays * 0.05)),
+  'Fuzz stays within five percent (at least one day)');
 
 // Weakness is current difficulty, not a lifetime-lapse brand. A card that lapsed
 // once but has since climbed back to a mature interval must NOT count as weak —

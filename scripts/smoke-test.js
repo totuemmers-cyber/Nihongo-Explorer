@@ -476,7 +476,8 @@ async function run() {
     return true;
   }
   let drainGuard = 0;
-  while (document.querySelector('#review-content .review-card-wrap') && drainGuard < 120) {
+  // Generous guard: same-day learning steps re-queue new/failed cards within the session.
+  while (document.querySelector('#review-content .review-card-wrap') && drainGuard < 300) {
     drainGuard++;
     await advanceCard();
   }
