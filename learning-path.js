@@ -1744,7 +1744,14 @@
       window.SRSStore.connectBackupFile().then(function () {
         status.textContent = 'Automatische Sicherungsdatei verbunden und gespeichert.';
       }).catch(function (err) {
-        status.textContent = err.message || 'Automatische Sicherung konnte nicht verbunden werden.';
+        // Cancelling the file picker is not an error — quietly restore the status.
+        if (err && err.name === 'AbortError') {
+          window.SRSStore.getBackupStatus().then(function (b) {
+            status.textContent = formatBackupLabel(b);
+          }).catch(function () { status.textContent = ''; });
+          return;
+        }
+        status.textContent = (err && err.message) || 'Automatische Sicherung konnte nicht verbunden werden.';
       });
     });
     inner.appendChild(connect);
