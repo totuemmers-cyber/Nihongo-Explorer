@@ -26,7 +26,7 @@ npx serve .
 ### Tests
 
 ```sh
-npm ci
+npm install
 npm test
 ```
 
