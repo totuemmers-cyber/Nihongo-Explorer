@@ -1397,7 +1397,8 @@ main {
 .path-focus,
 .path-progress,
 .path-next,
-.path-adjust {
+.path-adjust,
+.path-settings-row {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   background: var(--bg-card);
@@ -1405,6 +1406,18 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
+}
+
+/* Standalone card for the backup/maintenance collapsibles: the first panel
+   needs no separator line against the card edge. */
+.path-settings-row {
+  gap: 0;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.path-settings-row .path-drills:first-child {
+  border-top: none;
 }
 
 .path-focus-label,

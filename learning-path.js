@@ -886,6 +886,14 @@
       overview.appendChild(buildAdjust(model));
       shell.appendChild(overview);
 
+      // Backup & maintenance live in their own full-width row BELOW the overview:
+      // expanding a collapsed panel inside the equal-height grid would stretch the
+      // Fortschritt box next to it, so they grow here without moving anything else.
+      var settingsRow = el('div', 'path-settings-row');
+      settingsRow.appendChild(buildBackupPanel(model));
+      settingsRow.appendChild(buildMaintenancePanel(model));
+      shell.appendChild(settingsRow);
+
       // Statistik closes the page as a static section (no longer collapsible).
       shell.appendChild(buildStatsSection());
 
@@ -1932,12 +1940,6 @@
     if ((model.path.skippedItems || []).length) {
       box.appendChild(buildSkippedPanel(model));
     }
-
-    // Rarely-needed controls live in collapsed panels, so "So lerne ich" is the
-    // single settings surface (the former standalone "Sicherung & Einstellungen"
-    // screen on the nav-less review tab is gone).
-    box.appendChild(buildBackupPanel(model));
-    box.appendChild(buildMaintenancePanel(model));
     return box;
   }
 
