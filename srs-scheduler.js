@@ -33,7 +33,6 @@
     return {
       dailyNewLimit: 20,
       dailyReviewLimit: 120,
-      backupBookmarks: true,
       answerMode: 'reveal', // 'reveal' = self-grade; 'type' = typed answer with checking
       autoSuspendLeeches: false // auto-suspend cards that lapse >= LEECH_LAPSES times
     };

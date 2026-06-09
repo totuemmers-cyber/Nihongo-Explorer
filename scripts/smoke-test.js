@@ -586,43 +586,36 @@ async function run() {
     return b.textContent.indexOf('exportieren') !== -1;
   }), 'backup warning offers an export action');
 
-  // The "So lerne ich" block exposes pace (new cards/day) and start-level controls.
+  // === "So lerne ich" is now the single settings surface ===
+  // Everyday controls are visible; backup and maintenance live in collapsed
+  // panels. The former standalone settings screen and the daily-reset button
+  // are gone.
   assert(document.getElementById('path-new-per-day'), 'Lernpfad has a daily new-card pace control');
   assert(document.getElementById('path-start-level'), 'Lernpfad has a start-level control');
-
-  const dailyBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
-    return btn.textContent.indexOf('Tagesfortschritt zurücksetzen') !== -1;
-  });
-  assert(dailyBtn, 'Lernpfad has a daily-reset button');
-  assert(!dailyBtn.disabled, 'daily-reset is enabled after new items were studied today');
-  click(dailyBtn, window);
-  let dailyCount = -1;
-  for (let i = 0; i < 40 && dailyCount !== 0; i++) {
-    const sp = await window.SRSStore.getPathState();
-    dailyCount = sp && sp.newDaily ? sp.newDaily.count : -1;
-    if (dailyCount !== 0) await new Promise(function (r) { setTimeout(r, 25); });
-  }
-  assert(dailyCount === 0, 'daily reset clears today\'s new-item count');
-
-  // === Full reset (review settings) wipes learning progress ===
-  // Settings are reached from the Lernpfad's "Sicherung & Einstellungen" button,
-  // which opens the settings screen on the #review-content surface.
-  const settingsBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
+  assert(document.getElementById('path-answer-mode'), 'Lernpfad has an answer-mode control');
+  assert(!Array.from(document.querySelectorAll('#path-content button')).some(function (btn) {
     return btn.textContent.indexOf('Sicherung & Einstellungen') !== -1;
-  });
-  assert(settingsBtn, 'learning path has a settings button');
-  click(settingsBtn, window);
-  await waitFor(function () {
-    return Array.from(document.querySelectorAll('#review-content button')).some(function (btn) {
-      return btn.textContent.indexOf('Gesamten Fortschritt zurücksetzen') !== -1;
-    });
-  }, { description: 'settings page shows the reset button' });
+  }), 'the standalone settings button is gone');
+  assert(!Array.from(document.querySelectorAll('#path-content button')).some(function (btn) {
+    return btn.textContent.indexOf('Tagesfortschritt zurücksetzen') !== -1;
+  }), 'the daily-reset button is gone');
 
-  // Diagnostics self-check shows counts for the cards added earlier
-  const diagBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
+  function findPanelHeader(title) {
+    return Array.from(document.querySelectorAll('#path-content .path-drills-header')).find(function (h) {
+      return h.textContent.indexOf(title) !== -1;
+    });
+  }
+  assert(findPanelHeader('Sicherung'), 'Lernpfad has a collapsed Sicherung panel');
+
+  // Maintenance panel: diagnostics self-check shows counts for the cards added earlier.
+  const maintHeader = findPanelHeader('Wartung');
+  assert(maintHeader, 'Lernpfad has a collapsed Wartung panel');
+  click(maintHeader, window);
+  const diagBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
     return btn.textContent === 'Fortschritt prüfen';
   });
-  assert(diagBtn, 'settings page has a "Fortschritt prüfen" button');
+  assert(diagBtn, 'Wartung panel has a "Fortschritt prüfen" button');
+  assert(document.getElementById('path-leech-toggle'), 'Wartung panel has the leech auto-suspend toggle');
   click(diagBtn, window);
   await waitFor(function () {
     var box = diagBtn.parentElement;
@@ -642,12 +635,15 @@ async function run() {
       document.querySelector('#path-content .stats-heatmap') &&
       document.querySelector('#path-content .stats-forecast');
   }, { description: 'Lernpfad Statistik section renders summary, activity heatmap and forecast' });
-  // The settings DOM lives in #review-content (just hidden), so its reset button
-  // is still queryable below — no need to re-open settings.
-
-  const resetBtn = Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
+  // === Full reset (Wartung panel) wipes learning progress ===
+  // The tab switch above re-rendered the Lernpfad, so re-open the panel.
+  const maintHeader2 = findPanelHeader('Wartung');
+  assert(maintHeader2, 'Wartung panel survives a re-render');
+  click(maintHeader2, window);
+  const resetBtn = Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
     return btn.textContent.indexOf('Gesamten Fortschritt zurücksetzen') !== -1;
   });
+  assert(resetBtn, 'Wartung panel has the full-reset button');
   click(resetBtn, window); // window.confirm is stubbed to true
   let resetCards = -1, resetPath = 'x';
   for (let i = 0; i < 80 && !(resetCards === 0 && resetPath === null); i++) {
@@ -660,10 +656,6 @@ async function run() {
   await waitFor(function () {
     return document.getElementById('review-due-badge').classList.contains('hidden');
   }, { description: 'due badge is cleared after a full reset' });
-  await waitFor(function () {
-    return document.querySelector('#review-content .review-danger-box') &&
-      document.querySelector('#review-content .review-danger-box').textContent.indexOf('zurückgesetzt') !== -1;
-  }, { description: 'reset reports an honest status message' });
 
   dom.window.close();
   console.log('Smoke test passed.');

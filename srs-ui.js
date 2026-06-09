@@ -566,9 +566,6 @@
       allBtn.addEventListener('click', function () { loadQueue(activeCards, true); });
       actions.appendChild(allBtn);
 
-      var settingsBtn = el('button', 'quiz-btn quiz-btn-back', 'Sicherung & Einstellungen');
-      settingsBtn.addEventListener('click', renderSettings);
-      actions.appendChild(settingsBtn);
       shell.appendChild(actions);
 
       var hint = el('div', 'review-empty-hint');
@@ -685,7 +682,7 @@
     actions.appendChild(contBtn);
 
     var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
-    backBtn.addEventListener('click', renderHome);
+    backBtn.addEventListener('click', returnToPath);
     actions.appendChild(backBtn);
     appendUndoButton(actions);
 
@@ -805,7 +802,7 @@
     actions.appendChild(contBtn);
 
     var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
-    backBtn.addEventListener('click', renderHome);
+    backBtn.addEventListener('click', returnToPath);
     actions.appendChild(backBtn);
     appendUndoButton(actions);
 
@@ -946,7 +943,7 @@
     appendUndoButton(actions);
 
     var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
-    backBtn.addEventListener('click', renderHome);
+    backBtn.addEventListener('click', returnToPath);
     actions.appendChild(backBtn);
 
     var suspendBtn = el('button', 'quiz-btn quiz-btn-back', 'Eintrag aussetzen');
@@ -1189,201 +1186,6 @@
     });
   }
 
-  function renderSettings() {
-    if (!ensurePanel()) return;
-    panel.innerHTML = '';
-    var shell = el('div', 'review-shell');
-    shell.appendChild(el('div', 'review-title', 'Sicherung & Einstellungen'));
-
-    var learnBox = el('div', 'review-settings-box');
-    learnBox.appendChild(el('h3', null, 'Lernen'));
-    learnBox.appendChild(el('div', 'review-backup-status',
-      'Antwortmodus beim Wiederholen: selbst aufdecken und bewerten, oder die Antwort tippen und automatisch prüfen lassen.'));
-    window.SRSStore.getSettings().then(function (settings) {
-      var row = el('div', 'path-adjust-row');
-      var label = el('label', 'path-adjust-label', 'Antwortmodus');
-      label.setAttribute('for', 'srs-answer-mode');
-      var sel = el('select', 'path-target-select');
-      sel.id = 'srs-answer-mode';
-      [['reveal', 'Selbstkontrolle (aufdecken)'], ['type', 'Tippen & prüfen']].forEach(function (opt) {
-        var o = el('option', null, opt[1]);
-        o.value = opt[0];
-        if ((settings.answerMode || 'reveal') === opt[0]) o.selected = true;
-        sel.appendChild(o);
-      });
-      sel.addEventListener('change', function () {
-        settings.answerMode = sel.value;
-        answerMode = sel.value;
-        window.SRSStore.saveSettings(settings).catch(function () {});
-      });
-      row.appendChild(label);
-      row.appendChild(sel);
-      learnBox.appendChild(row);
-
-      var leechRow = el('div', 'path-adjust-row');
-      var leechLabel = el('label', 'path-adjust-label', 'Hartnäckige Karten automatisch aussetzen');
-      leechLabel.setAttribute('for', 'srs-leech-toggle');
-      var leechToggle = document.createElement('input');
-      leechToggle.type = 'checkbox';
-      leechToggle.id = 'srs-leech-toggle';
-      leechToggle.checked = !!settings.autoSuspendLeeches;
-      leechToggle.addEventListener('change', function () {
-        settings.autoSuspendLeeches = leechToggle.checked;
-        autoSuspendLeeches = leechToggle.checked;
-        window.SRSStore.saveSettings(settings).catch(function () {});
-      });
-      leechRow.appendChild(leechLabel);
-      leechRow.appendChild(leechToggle);
-      learnBox.appendChild(leechRow);
-    });
-    shell.appendChild(learnBox);
-
-    var backupBox = el('div', 'review-settings-box');
-    backupBox.appendChild(el('h3', null, 'Sicherung'));
-    var status = el('div', 'review-backup-status', 'Sicherungsstatus wird geprüft...');
-    backupBox.appendChild(status);
-
-    var connect = el('button', 'quiz-btn quiz-btn-next', 'Automatische Sicherungsdatei verbinden');
-    connect.addEventListener('click', function () {
-      status.textContent = 'Verbindung wird hergestellt...';
-      window.SRSStore.connectBackupFile().then(function () {
-        status.textContent = 'Automatische Sicherungsdatei verbunden und gespeichert.';
-      }).catch(function (err) {
-        status.textContent = err.message || 'Automatische Sicherung konnte nicht verbunden werden.';
-      });
-    });
-    backupBox.appendChild(connect);
-
-    var exportBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Sicherung jetzt exportieren');
-    exportBtn.addEventListener('click', function () {
-      window.SRSStore.downloadBackup();
-    });
-    backupBox.appendChild(exportBtn);
-
-    var importLabel = el('label', 'quiz-btn quiz-btn-back', 'Sicherung importieren');
-    var importInput = document.createElement('input');
-    importInput.type = 'file';
-    importInput.accept = 'application/json,.json';
-    importInput.className = 'hidden';
-    importInput.addEventListener('change', function () {
-      var file = importInput.files && importInput.files[0];
-      if (!file) return;
-      status.textContent = 'Import wird ausgeführt...';
-      window.SRSStore.readBackupFile(file).then(function (data) {
-        return window.SRSStore.importData(data, 'merge');
-      }).then(function () {
-        status.textContent = 'Sicherung importiert und zusammengeführt.';
-        updateReviewBadge();
-      }).catch(function (err) {
-        status.textContent = err.message || 'Import fehlgeschlagen.';
-      });
-    });
-    importLabel.appendChild(importInput);
-    backupBox.appendChild(importLabel);
-
-    shell.appendChild(backupBox);
-
-    var dangerBox = el('div', 'review-settings-box review-danger-box');
-    dangerBox.appendChild(el('h3', null, 'Gefahrenzone'));
-    dangerBox.appendChild(el('div', 'review-backup-status',
-      'Tipp: Exportiere zuerst eine Sicherung (oben). Das Zurücksetzen löscht deinen gesamten Lernfortschritt unwiderruflich.'));
-    var resetStatus = el('div', 'review-backup-status');
-    var resetBtn = el('button', 'quiz-btn quiz-btn-danger', 'Gesamten Fortschritt zurücksetzen');
-    resetBtn.addEventListener('click', function () {
-      if (!window.confirm('Gesamten Lernfortschritt zurücksetzen?\n\nAlle Wiederholungs-Karten, der Verlauf und der Lernpfad-Status (Tageszähler, gelesene Lektionen, übersprungene Einträge) werden gelöscht. Lesezeichen und Einstellungen bleiben erhalten.\n\nDies kann nicht rückgängig gemacht werden.')) {
-        return;
-      }
-      resetBtn.disabled = true;
-      resetStatus.textContent = 'Fortschritt wird zurückgesetzt...';
-      window.SRSStore.resetProgress()
-        .then(function () { return window.SRSStore.getBackupStatus(); })
-        .then(function (backup) {
-          var connected = backup.mode === 'file';
-          // Flush the wipe to the connected backup file so it can't silently restore.
-          var flush = connected ? window.SRSStore.writeBackupNow().catch(function () {}) : Promise.resolve();
-          return flush.then(function () { return connected; });
-        })
-        .then(function (connected) {
-          queue = [];
-          currentCard = null;
-          updateReviewBadge();
-          if (window.app) window.app.playPop();
-          resetBtn.disabled = false;
-          resetStatus.textContent = connected
-            ? 'Fortschritt und verbundene Sicherung zurückgesetzt.'
-            : 'Fortschritt zurückgesetzt.';
-          window.SRSStore.getBackupStatus().then(function (b) { status.textContent = formatBackupLabel(b); });
-        })
-        .catch(function (err) {
-          resetBtn.disabled = false;
-          resetStatus.textContent = (err && err.message) || 'Zurücksetzen fehlgeschlagen.';
-        });
-    });
-    dangerBox.appendChild(resetBtn);
-    dangerBox.appendChild(resetStatus);
-    shell.appendChild(dangerBox);
-
-    var diagBox = el('div', 'review-settings-box');
-    diagBox.appendChild(el('h3', null, 'Fortschritt prüfen'));
-    var diagStatus = el('div', 'review-backup-status', '');
-    var diagBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Fortschritt prüfen');
-    var pruneBtn = el('button', 'quiz-btn quiz-btn-back hidden', 'Verwaiste Karten entfernen');
-    diagBtn.addEventListener('click', function () {
-      if (!window.LearningPath || !window.LearningPath.runDiagnostics) {
-        diagStatus.textContent = 'Diagnose nicht verfügbar.';
-        return;
-      }
-      diagBtn.disabled = true;
-      diagStatus.textContent = 'Prüfe...';
-      window.LearningPath.runDiagnostics().then(function (d) {
-        diagBtn.disabled = false;
-        diagStatus.textContent = 'Aktive Karten: ' + d.active + ' · Ausgesetzt: ' + d.suspended +
-          ' · Gemeistert: ' + d.mastered + ' · Verwaist: ' + d.orphaned;
-        if (d.orphaned > 0) {
-          pruneBtn.classList.remove('hidden');
-          pruneBtn.textContent = 'Verwaiste Karten entfernen (' + d.orphaned + ')';
-        } else {
-          pruneBtn.classList.add('hidden');
-        }
-      }).catch(function () {
-        diagBtn.disabled = false;
-        diagStatus.textContent = 'Diagnose fehlgeschlagen.';
-      });
-    });
-    pruneBtn.addEventListener('click', function () {
-      pruneBtn.disabled = true;
-      window.LearningPath.pruneOrphans().then(function (n) {
-        pruneBtn.disabled = false;
-        pruneBtn.classList.add('hidden');
-        updateReviewBadge();
-        diagStatus.textContent = n + ' verwaiste Karten entfernt.';
-      }).catch(function () {
-        pruneBtn.disabled = false;
-        diagStatus.textContent = 'Entfernen fehlgeschlagen.';
-      });
-    });
-    diagBox.appendChild(diagBtn);
-    diagBox.appendChild(pruneBtn);
-    diagBox.appendChild(diagStatus);
-    shell.appendChild(diagBox);
-
-    var back = el('button', 'quiz-btn quiz-btn-back', 'Zurück zum Lernpfad');
-    back.addEventListener('click', returnToPath);
-    shell.appendChild(back);
-    panel.appendChild(shell);
-
-    function formatBackupLabel(b) {
-      if (b.lastError) return b.label + ' — Sicherung fehlgeschlagen: ' + b.lastError;
-      if (b.lastBackupAt) return b.label + ' — letzte Sicherung: ' + new Date(b.lastBackupAt).toLocaleString();
-      return b.label;
-    }
-
-    window.SRSStore.getBackupStatus().then(function (backup) {
-      status.textContent = formatBackupLabel(backup);
-      connect.disabled = backup.mode === 'manual';
-    });
-  }
-
   function updateReviewBadge() {
     var badge = document.getElementById('review-due-badge');
     if (!badge || !window.SRSStore || !window.SRSScheduler) return;
@@ -1427,23 +1229,8 @@
     else renderHome();
   }
 
-  // Open the backup & settings screen directly. The settings live on the (now
-  // nav-less) review tab; switchTab('review') runs the review tab's own
-  // onTabActivate -> renderHome via an init promise, so we defer renderSettings
-  // to a macrotask to win that race (same pattern as startSession).
-  var settingsTimer = null;
-  function openSettings() {
-    if (window.app && window.app.activeTab !== 'review') window.app.switchTab('review');
-    if (settingsTimer) clearTimeout(settingsTimer);
-    settingsTimer = setTimeout(function () {
-      settingsTimer = null;
-      init().then(renderSettings);
-    }, 0);
-  }
-
   window.SRSUI = {
     onTabActivate: onTabActivate,
-    openSettings: openSettings,
     addItem: addItem,
     getItemStatus: getItemStatus,
     mountDetailControl: mountDetailControl,

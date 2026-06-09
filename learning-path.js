@@ -1700,6 +1700,181 @@
     return row;
   }
 
+  // Shared collapsed-by-default panel (same look as "Weitere Übungen" /
+  // "Übersprungen"). Returns { box, inner } — append rows to inner.
+  function collapsiblePanel(title) {
+    var box = el('div', 'path-drills');
+    var header = el('div', 'path-drills-header');
+    var titleSpan = el('span', 'path-section-title', title);
+    header.appendChild(titleSpan);
+    header.insertAdjacentHTML('beforeend',
+      '<svg class="toggle-icon collapsed" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>');
+    var body = el('div', 'path-drills-body collapsed');
+    header.addEventListener('click', function () {
+      if (window.app && window.app.playTick) window.app.playTick();
+      var icon = header.querySelector('.toggle-icon');
+      body.classList.toggle('collapsed');
+      if (icon) icon.classList.toggle('collapsed');
+    });
+    var inner = el('div', 'path-drills-inner');
+    body.appendChild(inner);
+    box.appendChild(header);
+    box.appendChild(body);
+    return { box: box, inner: inner };
+  }
+
+  function formatBackupLabel(b) {
+    if (b.lastError) return b.label + ' — Sicherung fehlgeschlagen: ' + b.lastError;
+    if (b.lastBackupAt) return b.label + ' — letzte Sicherung: ' + new Date(b.lastBackupAt).toLocaleString();
+    return b.label;
+  }
+
+  // Backup controls, folded into "So lerne ich" (migrated from the former
+  // standalone "Sicherung & Einstellungen" screen on the nav-less review tab).
+  function buildBackupPanel(model) {
+    var panel = collapsiblePanel('Sicherung');
+    var inner = panel.inner;
+
+    var status = el('div', 'path-settings-status', 'Sicherungsstatus wird geprüft...');
+    inner.appendChild(status);
+
+    var connect = el('button', 'quiz-btn quiz-btn-next', 'Automatische Sicherungsdatei verbinden');
+    connect.addEventListener('click', function () {
+      status.textContent = 'Verbindung wird hergestellt...';
+      window.SRSStore.connectBackupFile().then(function () {
+        status.textContent = 'Automatische Sicherungsdatei verbunden und gespeichert.';
+      }).catch(function (err) {
+        status.textContent = err.message || 'Automatische Sicherung konnte nicht verbunden werden.';
+      });
+    });
+    inner.appendChild(connect);
+
+    var exportBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Sicherung jetzt exportieren');
+    exportBtn.addEventListener('click', function () { window.SRSStore.downloadBackup(); });
+    inner.appendChild(exportBtn);
+
+    var importLabel = el('label', 'quiz-btn quiz-btn-back', 'Sicherung importieren');
+    var importInput = document.createElement('input');
+    importInput.type = 'file';
+    importInput.accept = 'application/json,.json';
+    importInput.className = 'hidden';
+    importInput.addEventListener('change', function () {
+      var file = importInput.files && importInput.files[0];
+      if (!file) return;
+      status.textContent = 'Import wird ausgeführt...';
+      window.SRSStore.readBackupFile(file).then(function (data) {
+        return window.SRSStore.importData(data, 'merge');
+      }).then(function () {
+        if (window.SRSUI && window.SRSUI.updateReviewBadge) window.SRSUI.updateReviewBadge();
+        render();
+      }).catch(function (err) {
+        status.textContent = (err && err.message) || 'Import fehlgeschlagen.';
+      });
+    });
+    importLabel.appendChild(importInput);
+    inner.appendChild(importLabel);
+
+    window.SRSStore.getBackupStatus().then(function (backup) {
+      status.textContent = formatBackupLabel(backup);
+      connect.disabled = backup.mode === 'manual';
+    }).catch(function () { status.textContent = 'Sicherungsstatus nicht verfügbar.'; });
+
+    return panel.box;
+  }
+
+  // Maintenance & advanced controls, folded into "So lerne ich": leech
+  // auto-suspend, the progress diagnostics, and the full-reset danger zone.
+  function buildMaintenancePanel(model) {
+    var panel = collapsiblePanel('Wartung');
+    var inner = panel.inner;
+
+    // Leech auto-suspend (advanced review behavior).
+    var leechRow = el('div', 'path-adjust-row');
+    var leechLabel = el('label', 'path-adjust-label', 'Hartnäckige Karten automatisch aussetzen');
+    leechLabel.setAttribute('for', 'path-leech-toggle');
+    var leechToggle = document.createElement('input');
+    leechToggle.type = 'checkbox';
+    leechToggle.id = 'path-leech-toggle';
+    leechToggle.checked = !!model.settings.autoSuspendLeeches;
+    leechToggle.addEventListener('change', function () {
+      model.settings.autoSuspendLeeches = leechToggle.checked;
+      window.SRSStore.saveSettings(model.settings).catch(function () {});
+    });
+    leechRow.appendChild(leechLabel);
+    leechRow.appendChild(leechToggle);
+    inner.appendChild(leechRow);
+
+    // Diagnostics: orphaned-card check + prune.
+    var diagStatus = el('div', 'path-settings-status', '');
+    var diagBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Fortschritt prüfen');
+    var pruneBtn = el('button', 'quiz-btn quiz-btn-back hidden', 'Verwaiste Karten entfernen');
+    diagBtn.addEventListener('click', function () {
+      diagBtn.disabled = true;
+      diagStatus.textContent = 'Prüfe...';
+      runDiagnostics().then(function (d) {
+        diagBtn.disabled = false;
+        diagStatus.textContent = 'Aktive Karten: ' + d.active + ' · Ausgesetzt: ' + d.suspended +
+          ' · Gemeistert: ' + d.mastered + ' · Verwaist: ' + d.orphaned;
+        if (d.orphaned > 0) {
+          pruneBtn.classList.remove('hidden');
+          pruneBtn.textContent = 'Verwaiste Karten entfernen (' + d.orphaned + ')';
+        } else {
+          pruneBtn.classList.add('hidden');
+        }
+      }).catch(function () {
+        diagBtn.disabled = false;
+        diagStatus.textContent = 'Diagnose fehlgeschlagen.';
+      });
+    });
+    pruneBtn.addEventListener('click', function () {
+      pruneBtn.disabled = true;
+      pruneOrphans().then(function (n) {
+        if (window.SRSUI && window.SRSUI.updateReviewBadge) window.SRSUI.updateReviewBadge();
+        diagStatus.textContent = n + ' verwaiste Karten entfernt.';
+        pruneBtn.disabled = false;
+        pruneBtn.classList.add('hidden');
+      }).catch(function () {
+        pruneBtn.disabled = false;
+        diagStatus.textContent = 'Entfernen fehlgeschlagen.';
+      });
+    });
+    inner.appendChild(diagBtn);
+    inner.appendChild(pruneBtn);
+    inner.appendChild(diagStatus);
+
+    // Danger zone: full reset.
+    inner.appendChild(el('div', 'path-settings-status path-danger-hint',
+      'Tipp: Exportiere zuerst eine Sicherung. Das Zurücksetzen löscht deinen gesamten Lernfortschritt unwiderruflich.'));
+    var resetBtn = el('button', 'quiz-btn quiz-btn-danger', 'Gesamten Fortschritt zurücksetzen');
+    var resetStatus = el('div', 'path-settings-status');
+    resetBtn.addEventListener('click', function () {
+      if (!window.confirm('Gesamten Lernfortschritt zurücksetzen?\n\nAlle Wiederholungs-Karten, der Verlauf und der Lernpfad-Status (Tageszähler, gelesene Lektionen, übersprungene Einträge) werden gelöscht. Lesezeichen und Einstellungen bleiben erhalten.\n\nDies kann nicht rückgängig gemacht werden.')) {
+        return;
+      }
+      resetBtn.disabled = true;
+      resetStatus.textContent = 'Fortschritt wird zurückgesetzt...';
+      window.SRSStore.resetProgress()
+        .then(function () { return window.SRSStore.getBackupStatus(); })
+        .then(function (backup) {
+          // Flush the wipe to the connected backup file so it can't silently restore.
+          if (backup.mode === 'file') return window.SRSStore.writeBackupNow().catch(function () {});
+        })
+        .then(function () {
+          if (window.SRSUI && window.SRSUI.updateReviewBadge) window.SRSUI.updateReviewBadge();
+          if (window.app) window.app.playPop();
+          render(); // fresh, empty Lernpfad is the feedback
+        })
+        .catch(function (err) {
+          resetBtn.disabled = false;
+          resetStatus.textContent = (err && err.message) || 'Zurücksetzen fehlgeschlagen.';
+        });
+    });
+    inner.appendChild(resetBtn);
+    inner.appendChild(resetStatus);
+
+    return panel.box;
+  }
+
   function buildAdjust(model) {
     var box = el('div', 'path-adjust');
     box.appendChild(el('div', 'path-section-title', 'So lerne ich'));
@@ -1718,6 +1893,16 @@
       function (value) {
         model.settings.dailyReviewLimit = parseInt(value, 10) || 120;
         window.SRSStore.saveSettings(model.settings).then(render).catch(render);
+      }));
+
+    // How answers are checked in review sessions (loadQueue re-reads this on
+    // every session start, so no further sync is needed).
+    box.appendChild(makeSelectRow('Antwortmodus', 'path-answer-mode',
+      ['reveal', 'type'], model.settings.answerMode || 'reveal',
+      function (v) { return v === 'type' ? 'Tippen & prüfen' : 'Selbstkontrolle (aufdecken)'; },
+      function (value) {
+        model.settings.answerMode = value;
+        window.SRSStore.saveSettings(model.settings).catch(function () {});
       }));
 
     // Starting level: treat everything below as already known and begin here.
@@ -1748,25 +1933,11 @@
       box.appendChild(buildSkippedPanel(model));
     }
 
-    var actions = el('div', 'review-actions');
-
-    var dailyBtn = el('button', 'quiz-btn quiz-btn-back',
-      'Tagesfortschritt zurücksetzen (' + model.path.newDaily.count + ' neue Karten heute)');
-    dailyBtn.disabled = model.path.newDaily.count === 0;
-    dailyBtn.addEventListener('click', function () {
-      model.path.newDaily = { date: todayStr(), count: 0 };
-      savePathStateSafe(model.path).then(render);
-      if (window.app) window.app.playTick();
-    });
-    actions.appendChild(dailyBtn);
-
-    var settingsBtn = el('button', 'quiz-btn quiz-btn-back', 'Sicherung & Einstellungen');
-    settingsBtn.addEventListener('click', function () {
-      if (window.SRSUI && window.SRSUI.openSettings) window.SRSUI.openSettings();
-      else if (window.app) window.app.switchTab('review');
-    });
-    actions.appendChild(settingsBtn);
-    box.appendChild(actions);
+    // Rarely-needed controls live in collapsed panels, so "So lerne ich" is the
+    // single settings surface (the former standalone "Sicherung & Einstellungen"
+    // screen on the nav-less review tab is gone).
+    box.appendChild(buildBackupPanel(model));
+    box.appendChild(buildMaintenancePanel(model));
     return box;
   }
 

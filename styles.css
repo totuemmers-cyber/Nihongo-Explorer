@@ -1657,6 +1657,23 @@ main {
   line-height: 1.45;
 }
 
+.path-settings-status {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.path-danger-hint {
+  margin-top: 0.4rem;
+}
+
+/* The import control is a <label> styled as a button (wraps a hidden file input). */
+.path-drills-inner > label.quiz-btn {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
 .path-skipped-row {
   display: flex;
   align-items: center;
