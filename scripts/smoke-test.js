@@ -622,19 +622,13 @@ async function run() {
     return box && box.textContent.indexOf('Aktive Karten:') !== -1;
   }, { description: 'diagnostics reports card counts' });
 
-  // === Statistik dashboard is folded into the Lernpfad as a collapsible section ===
+  // === Statistik dashboard is a static section at the bottom of the Lernpfad ===
   click(document.querySelector('[data-tab="path"]'), window);
-  let statsHeader;
   await waitFor(function () {
-    statsHeader = document.querySelector('#path-content .path-stats-header');
-    return !!statsHeader;
-  }, { description: 'Lernpfad shows a collapsible Statistik section' });
-  click(statsHeader, window); // expand → renders lazily
-  await waitFor(function () {
-    return document.querySelector('#path-content .review-stats') &&
+    return document.querySelector('#path-content .path-stats-header') &&
       document.querySelector('#path-content .stats-heatmap') &&
       document.querySelector('#path-content .stats-forecast');
-  }, { description: 'Lernpfad Statistik section renders summary, activity heatmap and forecast' });
+  }, { description: 'Lernpfad renders the static Statistik section with heatmap and forecast' });
   // === Full reset (Wartung panel) wipes learning progress ===
   // The tab switch above re-rendered the Lernpfad, so re-open the panel.
   const maintHeader2 = findPanelHeader('Wartung');

@@ -839,20 +839,14 @@
   // Collapsible Statistik dashboard, folded in at the bottom so it doesn't need
   // its own menu entry. Rendered lazily (and refreshed) only when expanded, so
   // opening the Lernpfad — the default landing tab — stays cheap.
+  // Static stats dashboard at the bottom of the Lernpfad (used to be a
+  // collapsible above the pensum; now always rendered, no toggle).
   function buildStatsSection() {
     var box = el('div', 'path-stats');
-    var header = el('div', 'path-stats-header');
-    header.innerHTML = '<span class="path-section-title">Statistik</span>' +
-      '<svg class="toggle-icon collapsed" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
-    var body = el('div', 'path-stats-body collapsed');
-    header.addEventListener('click', function () {
-      if (window.app && window.app.playTick) window.app.playTick();
-      var icon = header.querySelector('.toggle-icon');
-      var collapsed = body.classList.toggle('collapsed');
-      if (icon) icon.classList.toggle('collapsed');
-      // Render (or refresh) the dashboard each time it is opened.
-      if (!collapsed && window.Stats && window.Stats.renderInto) window.Stats.renderInto(body);
-    });
+    var header = el('div', 'path-stats-header is-static');
+    header.appendChild(el('span', 'path-section-title', 'Statistik'));
+    var body = el('div', 'path-stats-body');
+    if (window.Stats && window.Stats.renderInto) window.Stats.renderInto(body);
     box.appendChild(header);
     box.appendChild(body);
     return box;
@@ -883,10 +877,6 @@
 
       if (model.paceSuggestion) shell.appendChild(buildPaceNudge(model));
 
-      // Statistik sits above the daily pensum so the high-level overview comes
-      // before today's to-do list (collapsed by default, so it stays unobtrusive).
-      shell.appendChild(buildStatsSection());
-
       shell.appendChild(buildNextUp(model));
 
       // Progress (incl. the slim lesson-reading strip) and target level share one
@@ -895,6 +885,9 @@
       overview.appendChild(buildProgress(model));
       overview.appendChild(buildAdjust(model));
       shell.appendChild(overview);
+
+      // Statistik closes the page as a static section (no longer collapsible).
+      shell.appendChild(buildStatsSection());
 
       panel.appendChild(shell);
     }).catch(function () {
