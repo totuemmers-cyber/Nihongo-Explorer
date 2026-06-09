@@ -504,6 +504,115 @@ function makeStoreContext(storage) {
   check('T22 ready backlog is empty when the budget is 0', eng.readyToLearn(cards, 0).length === 0);
 })();
 
+// === T30: streakInfo — count plus whether today is already secured ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const dayStr = function (d) { return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); };
+  const today = dayStr(new Date());
+  const yesterday = (function () { const d = new Date(); d.setDate(d.getDate() - 1); return dayStr(d); })();
+  const tomorrow = (function () { const d = new Date(); d.setDate(d.getDate() + 1); return dayStr(d); })();
+
+  let s = eng.streakInfo(eng.normalizePath({ streakLastDay: today, streakCount: 5 }));
+  check('T30 studied today -> secured', s.count === 5 && s.securedToday === true);
+  s = eng.streakInfo(eng.normalizePath({ streakLastDay: yesterday, streakCount: 5 }));
+  check('T30 studied yesterday -> alive but open', s.count === 5 && s.securedToday === false);
+  s = eng.streakInfo(eng.normalizePath({ streakLastDay: tomorrow, streakCount: 3 }));
+  check('T30 clock-back (future last day) -> secured, not lapsed', s.count === 3 && s.securedToday === true);
+  s = eng.streakInfo(eng.normalizePath(null));
+  check('T30 no history -> zero and open', s.count === 0 && s.securedToday === false);
+})();
+
+// === T31: catchUpPlan — backlog recovery estimate and chunk size ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  let p = eng.catchUpPlan(240, 120);
+  check('T31 240 due at 120/day -> 2 days, 30er chunk', p.days === 2 && p.chunk === 30);
+  p = eng.catchUpPlan(125, 120);
+  check('T31 just over one day rounds up', p.days === 2);
+  p = eng.catchUpPlan(20, 120);
+  check('T31 small backlog -> 1 day, chunk capped at backlog', p.days === 1 && p.chunk === 20);
+  p = eng.catchUpPlan(100, 0);
+  check('T31 zero limit does not divide by zero', isFinite(p.days) && p.days >= 1);
+})();
+
+// === T32: un-skip — removing a skipped key makes the item learnable again ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const skipped = eng.normalizePath({ skippedItems: ['kanji:人'] });
+  let map = eng.mapFromCards([], skipped);
+  check('T32 skipped kanji counts as familiar', eng.itemStatus('kanji', KANJI[2], map) === 'familiar');
+  check('T32 skipped kanji not offered as new',
+    eng.frontierQueues('N5', map).newKanji.every(function (p) { return p.item.kanji !== '人'; }));
+
+  // Un-skip: drop the key, re-derive -> new again and back in the frontier.
+  skipped.skippedItems.splice(skipped.skippedItems.indexOf('kanji:人'), 1);
+  map = eng.mapFromCards([], skipped);
+  check('T32 un-skipped kanji is new again', eng.itemStatus('kanji', KANJI[2], map) === 'new');
+  check('T32 un-skipped kanji re-enters the frontier',
+    eng.frontierQueues('N5', map).newKanji.some(function (p) { return p.item.kanji === '人'; }));
+
+  // Resolution for the panel: real keys resolve, stale keys survive as removable rows.
+  const entries = eng.resolveSkippedItems(eng.normalizePath({ skippedItems: ['kanji:人', 'kanji:絶'] }));
+  check('T32 known key resolves to its item',
+    entries.length === 2 && entries[0].section === 'kanji' && entries[0].item && entries[0].item.kanji === '人');
+  check('T32 stale key resolves with item null', entries[1].item === null && entries[1].key === 'kanji:絶');
+})();
+
+// === T33: topBlockingKanji — which kanji unlock the most waiting vocab ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const map = eng.mapFromCards([], eng.normalizePath(null));
+  const q = eng.frontierQueues('N5', map);
+  // Cold start: 人(ひと) waits on 人, 一(いち) waits on 一.
+  let top = eng.topBlockingKanji(q.waitVocab, q.kanjiIndex, map, 3);
+  check('T33 every blocker resolved with count', top.length === 2 && top.every(function (b) {
+    return b.count === 1 && b.item && b.item.kanji === b.char;
+  }));
+  check('T33 topK caps the list', eng.topBlockingKanji(q.waitVocab, q.kanjiIndex, map, 1).length === 1);
+
+  // A second word blocked by 人 pushes it to the top.
+  const wait2 = q.waitVocab.concat([{ section: 'vocab', item: { word: '二人', reading: 'ふたり', level: 'N5', meaning: 'zwei Personen' } }]);
+  top = eng.topBlockingKanji(wait2, q.kanjiIndex, map, 3);
+  check('T33 most-blocking kanji sorts first', top[0].char === '人' && top[0].count === 2);
+})();
+
+// === T34: pacingSuggestion — adaptive nudge with dead band, sample floor, snooze ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const now = Date.now();
+  const settings = { dailyNewLimit: 20, dailyReviewLimit: 120 };
+  const path = eng.normalizePath(null);
+  check('T34 paceSnoozeUntil migrates to 0', path.paceSnoozeUntil === 0);
+  check('T34 paceSnoozeUntil preserved', eng.normalizePath({ paceSnoozeUntil: 123 }).paceSnoozeUntil === 123);
+
+  let s = eng.pacingSuggestion({ total: 50, correct: 30 }, 0, 100, 10, false, settings, path, now);
+  check('T34 low accuracy suggests lowering', !!s && s.action === 'lower' && s.from === 20 && s.to === 15);
+  s = eng.pacingSuggestion({ total: 50, correct: 45 }, 30, 100, 10, false, settings, path, now);
+  check('T34 weak-card bloat alone suggests lowering', !!s && s.action === 'lower');
+  s = eng.pacingSuggestion({ total: 50, correct: 43 }, 5, 100, 10, false, settings, path, now);
+  check('T34 dead band stays quiet', s === null);
+  s = eng.pacingSuggestion({ total: 10, correct: 2 }, 0, 10, 0, false, settings, path, now);
+  check('T34 too small a sample stays quiet', s === null);
+  s = eng.pacingSuggestion({ total: 50, correct: 30 }, 0, 100, 10, false, settings,
+    eng.normalizePath({ paceSnoozeUntil: now + 1000 }), now);
+  check('T34 active snooze suppresses the nudge', s === null);
+  s = eng.pacingSuggestion({ total: 50, correct: 30 }, 0, 100, 10, false, settings,
+    eng.normalizePath({ paceSnoozeUntil: now - 1000 }), now);
+  check('T34 expired snooze fires again', !!s && s.action === 'lower');
+
+  s = eng.pacingSuggestion({ total: 50, correct: 48 }, 0, 100, 0, true, settings, path, now);
+  check('T34 cruising suggests raising', !!s && s.action === 'raise' && s.to === 30);
+  s = eng.pacingSuggestion({ total: 50, correct: 48 }, 0, 100, 5, true, settings, path, now);
+  check('T34 raise blocked by a backlog', s === null);
+  s = eng.pacingSuggestion({ total: 50, correct: 48 }, 0, 100, 0, false, settings, path, now);
+  check('T34 raise blocked when Tagesziel not hit', s === null);
+
+  s = eng.pacingSuggestion({ total: 50, correct: 20 }, 0, 100, 10, false, { dailyNewLimit: 5 }, path, now);
+  check('T34 floor: 5/day never lowers further', s === null);
+  s = eng.pacingSuggestion({ total: 50, correct: 50 }, 0, 100, 0, true, { dailyNewLimit: 50 }, path, now);
+  check('T34 ceiling: 50/day never raises further', s === null);
+})();
+
 function finish() {
   console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
   process.exit(failures.length > 0 ? 1 : 0);

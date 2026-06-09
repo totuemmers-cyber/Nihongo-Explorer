@@ -22,6 +22,18 @@
   // patterns (their due reviews and additional card types) flow without limit, so
   // grammar practice still grows over time; only *untaught* new patterns are blocked.
   var MAX_NEW_GRAMMAR = MAX_NEW_GRAMMAR_LESSONS;
+  // Size of the low-friction "Aufholen" session offered when a review backlog has
+  // suppressed new content — a digestible bite instead of the full daily wall.
+  var CATCHUP_CHUNK = 30;
+  // Adaptive pacing nudge: only judge once there is a real sample, suggest lowering
+  // the daily-new pace when the trailing week goes badly (or the weak set bloats),
+  // and suggest raising it only when everything is green. The dead band between the
+  // two accuracy thresholds plus a one-week snooze keep the nudge from nagging.
+  var PACE_MIN_SAMPLE = 30;
+  var PACE_LOWER_ACC = 0.75;
+  var PACE_WEAK_RATIO = 0.25;
+  var PACE_RAISE_ACC = 0.92;
+  var PACE_SNOOZE_MS = 7 * 24 * 60 * 60 * 1000;
 
   var initialized = false;
   var panel = null;
@@ -136,7 +148,10 @@
       // Motivation tracking: a daily streak and the highest level already announced.
       streakCount: typeof p.streakCount === 'number' ? p.streakCount : 0,
       streakLastDay: p.streakLastDay || null,
-      seenLevel: LEVELS.indexOf(p.seenLevel) !== -1 ? p.seenLevel : null
+      seenLevel: LEVELS.indexOf(p.seenLevel) !== -1 ? p.seenLevel : null,
+      // Pacing nudge snooze (ms epoch, 0 = never snoozed): set on apply AND dismiss
+      // so the suggestion stays quiet for a week either way.
+      paceSnoozeUntil: typeof p.paceSnoozeUntil === 'number' ? p.paceSnoozeUntil : 0
     };
   }
 
@@ -150,6 +165,17 @@
     // strictly before yesterday) lapses the streak to 0.
     if (last === yesterdayStr() || !dayBefore(last, todayStr())) return path.streakCount || 0;
     return 0;
+  }
+
+  // Streak plus whether TODAY already counts toward it — so the UI can say
+  // "heute gesichert" vs "heute noch offen" instead of leaving the learner to
+  // guess if their streak is safe. Clock-back safe via the same dayBefore idiom
+  // as markStudyDay: a last-study day reading as today/future counts as secured.
+  function streakInfo(path) {
+    return {
+      count: currentStreak(path),
+      securedToday: !!(path.streakLastDay && !dayBefore(path.streakLastDay, todayStr()))
+    };
   }
 
   // Record that the learner studied today, extending or restarting the streak.
@@ -299,6 +325,19 @@
     return idx;
   }
 
+  // Resolve skipped itemKeys back to displayable items for the un-skip panel.
+  // Stale keys (item no longer in the dataset) resolve with item: null so they
+  // can still be listed and removed (data hygiene).
+  function resolveSkippedItems(path) {
+    var keys = (path && path.skippedItems) || [];
+    if (!keys.length) return [];
+    var idx = buildItemIndex();
+    return keys.map(function (key) {
+      var hit = idx[key];
+      return { key: key, section: hit ? hit.section : null, item: hit ? hit.item : null };
+    });
+  }
+
   // The items already queued to be learned today: ready New sibling cards (the
   // backlog consumed before brand-new picks), deduped per item and mapped back to
   // their dataset item. Capped at the daily budget so the preview matches the
@@ -393,6 +432,23 @@
     return blockingKanji(v, kanjiIndex, map).length === 0;
   }
 
+  // The kanji blocking the most waiting vocab, so the path can answer "which
+  // kanji should I learn to unlock the most words?". Computed over the FULL
+  // waiting queue (not the 4-item preview). -> [{ char, item, count }]
+  function topBlockingKanji(waitVocab, kanjiIndex, map, topK) {
+    var counts = {};
+    (waitVocab || []).forEach(function (p) {
+      blockingKanji(p.item, kanjiIndex, map).forEach(function (ch) {
+        counts[ch] = (counts[ch] || 0) + 1;
+      });
+    });
+    return Object.keys(counts).map(function (ch) {
+      return { char: ch, item: kanjiIndex[ch], count: counts[ch] };
+    }).sort(function (a, b) {
+      return b.count - a.count || a.char.localeCompare(b.char, 'ja');
+    }).slice(0, topK || 3);
+  }
+
   function grammarCompare(a, b) {
     var order = { 'Partikel': 0, 'Verben': 1, 'Adjektive': 2, 'Satzstrukturen': 3, 'Keigo': 4 };
     var ca = order[a.category] !== undefined ? order[a.category] : 9;
@@ -483,9 +539,40 @@
     return Math.max(0, model.settings.dailyNewLimit - model.path.newDaily.count);
   }
 
-  function dueSorted(cards, limit) {
-    var due = cards.filter(function (c) { return window.SRSScheduler.isDue(c); });
-    return window.SRSScheduler.sortQueue(due).slice(0, limit);
+  // Recovery plan for a review backlog: how many days of capped sessions until
+  // it is cleared (a floor — tomorrow's newly-due cards add more, hence "mind."
+  // in the UI copy), plus the size of the low-friction catch-up bite.
+  function catchUpPlan(dueTotal, dailyReviewLimit) {
+    var total = Math.max(0, dueTotal || 0);
+    var limit = Math.max(1, dailyReviewLimit || 1);
+    return {
+      days: Math.max(1, Math.ceil(total / limit)),
+      chunk: Math.min(CATCHUP_CHUNK, total)
+    };
+  }
+
+  // Suggest adjusting the daily-new pace based on the trailing week. acc is the
+  // Stats.accuracy shape ({ total, correct }) over 7 days; goalHit means today's
+  // Tagesziel was reached. Returns { action: 'lower'|'raise', from, to } or null.
+  // Hysteresis: the 75–92% dead band, a 30-review minimum sample, and a one-week
+  // snooze (written on both apply and dismiss) keep this from firing daily.
+  function pacingSuggestion(acc, weakCount, activeCount, dueTotal, goalHit, settings, path, nowMs) {
+    if (((path && path.paceSnoozeUntil) || 0) > nowMs) return null;
+    if (!acc || acc.total < PACE_MIN_SAMPLE) return null;
+    var rate = acc.correct / acc.total;
+    var weakRatio = activeCount ? weakCount / activeCount : 0;
+    var cur = settings.dailyNewLimit;
+    var i = NEW_PER_DAY_OPTIONS.indexOf(cur);
+    if (rate < PACE_LOWER_ACC || weakRatio > PACE_WEAK_RATIO) {
+      if (i > 0) return { action: 'lower', from: cur, to: NEW_PER_DAY_OPTIONS[i - 1] };
+      return null; // already at the floor
+    }
+    if (rate > PACE_RAISE_ACC && dueTotal === 0 && goalHit) {
+      if (i !== -1 && i < NEW_PER_DAY_OPTIONS.length - 1) {
+        return { action: 'raise', from: cur, to: NEW_PER_DAY_OPTIONS[i + 1] };
+      }
+    }
+    return null;
   }
 
   // Assemble today's session from the due queue plus the available new-card supply
@@ -507,13 +594,18 @@
         window.SRSStore.getAllCards(),
         window.SRSStore.getSettings(),
         window.SRSStore.getPathState(),
-        window.SRSStore.getBackupStatus().catch(function () { return null; })
+        window.SRSStore.getBackupStatus().catch(function () { return null; }),
+        // Review events feed the pacing nudge; guarded because the audit VM's
+        // store stub doesn't implement getAllEvents.
+        (window.SRSStore.getAllEvents ? window.SRSStore.getAllEvents() : Promise.resolve([]))
+          .catch(function () { return []; })
       ]);
     }).then(function (parts) {
       var cards = parts[0] || [];
       var settings = parts[1];
       var path = normalizePath(parts[2]);
       var backup = parts[3];
+      var events = parts[4] || [];
       var map = mapFromCards(cards, path);
       var progress = computeProgress(map, path);
       // Level-up detection. Persist the re-based seenLevel only when a baseline
@@ -527,7 +619,10 @@
       if (path.seenLevel !== prevSeen && (prevSeen != null || leveledUp)) {
         savePathStateSafe(path);
       }
-      var due = dueSorted(cards, settings.dailyReviewLimit);
+      // Due queue: session-capped at the daily review limit, but keep the uncapped
+      // total so the catch-up plan can tell the learner the true backlog size.
+      var dueAll = cards.filter(function (c) { return window.SRSScheduler.isDue(c); });
+      var due = window.SRSScheduler.sortQueue(dueAll).slice(0, settings.dailyReviewLimit);
       // The daily "new" budget is measured in cards: each introduction is a single
       // card (a primary, or a sibling unlocked on a later day). Already-created New
       // cards that are ready (staggered siblings whose day has come, or manually
@@ -551,9 +646,28 @@
       // brand-new picks so the pensum reflects the full set "Heute lernen" runs —
       // not just the few brand-new items left after the backlog eats the budget.
       var readyItems = suppressedNew ? [] : readyToLearn(newReady, budget);
+      // Active rotation + weak subset (shared by the focus stats, the drills panel
+      // and the pacing nudge). Staggered New siblings whose day hasn't come yet are
+      // upcoming, not active, so they don't inflate the count.
+      var nowMs = Date.now();
+      var activeCards = cards.filter(function (c) {
+        if (!c || c.suspended) return false;
+        if (c.state === 'New' && new Date(c.dueAt || 0).getTime() > nowMs) return false;
+        return true;
+      });
+      var weakCards = activeCards.filter(function (c) { return window.SRSScheduler.isWeak(c); });
+      var acc7 = (window.Stats && window.Stats.accuracy) ? window.Stats.accuracy(events, 7) : null;
+      var paceSuggestion = pacingSuggestion(
+        acc7, weakCards.length, activeCards.length, dueAll.length,
+        path.newDaily.count >= settings.dailyNewLimit, settings, path, nowMs
+      );
       return {
         cards: cards, settings: settings, path: path, map: map,
-        progress: progress, due: due, picks: picks, waiting: waiting,
+        progress: progress, due: due, dueTotal: dueAll.length, picks: picks,
+        waiting: waiting, waitTotal: suppressedNew ? 0 : queues.waitVocab.length,
+        topBlockers: suppressedNew ? [] : topBlockingKanji(queues.waitVocab, queues.kanjiIndex, map, 3),
+        kanjiIndex: queues.kanjiIndex,
+        activeCards: activeCards, weakCards: weakCards, paceSuggestion: paceSuggestion,
         readyItems: readyItems, newReady: newReady, budget: budget, backup: backup,
         suppressedNew: suppressedNew, leveledUp: leveledUp
       };
@@ -618,8 +732,8 @@
   }
 
   // Mark every current suggestion as already known. This is the broad stroke, so
-  // it keeps a confirmation (there is no un-skip UI); the per-item ✓ is the safe
-  // default for "I know this one".
+  // it keeps a confirmation; the per-item ✓ is the safe default for "I know this
+  // one". Recoverable via the "Übersprungen" panel in "So lerne ich".
   function skipPicks(model) {
     if (!model.picks.length) return;
     if (!window.confirm('Alle ' + model.picks.length + ' Vorschläge als „kenne ich schon“ markieren?')) return;
@@ -706,6 +820,8 @@
 
       shell.appendChild(buildFocus(model));
 
+      if (model.paceSuggestion) shell.appendChild(buildPaceNudge(model));
+
       // Statistik sits above the daily pensum so the high-level overview comes
       // before today's to-do list (collapsed by default, so it stays unobtrusive).
       shell.appendChild(buildStatsSection());
@@ -727,6 +843,47 @@
       shell.appendChild(el('div', 'review-subtitle', 'Lernpfad konnte nicht geladen werden.'));
       panel.appendChild(shell);
     });
+  }
+
+  // Dismissible pacing suggestion (see pacingSuggestion for the trigger logic).
+  // Both buttons write a one-week snooze so the card stays quiet either way.
+  function buildPaceNudge(model) {
+    var s = model.paceSuggestion;
+    var box = el('div', 'path-pace-nudge');
+    box.appendChild(el('div', 'path-pace-nudge-head',
+      s.action === 'lower' ? 'Gerade anspruchsvoll?' : 'Läuft rund!'));
+    box.appendChild(el('div', 'path-pace-nudge-text',
+      s.action === 'lower'
+        ? 'Deine Trefferquote der letzten 7 Tage liegt unter ' + Math.round(PACE_LOWER_ACC * 100)
+          + ' % oder viele Karten sind schwach. Weniger neue Karten pro Tag schaffen Luft zum Festigen.'
+        : 'Über ' + Math.round(PACE_RAISE_ACC * 100)
+          + ' % Trefferquote, kein Rückstand, Tagesziel erreicht — du könntest das Tempo erhöhen.'));
+
+    function snooze() { model.path.paceSnoozeUntil = Date.now() + PACE_SNOOZE_MS; }
+
+    var actions = el('div', 'review-actions');
+    var applyBtn = el('button', 'quiz-btn quiz-btn-next',
+      'Neue Karten/Tag auf ' + s.to + (s.action === 'lower' ? ' senken' : ' erhöhen'));
+    applyBtn.addEventListener('click', function () {
+      if (window.app) window.app.playPop();
+      model.settings.dailyNewLimit = s.to;
+      snooze();
+      Promise.all([
+        window.SRSStore.saveSettings(model.settings).catch(function () {}),
+        savePathStateSafe(model.path)
+      ]).then(render);
+    });
+    actions.appendChild(applyBtn);
+
+    var laterBtn = el('button', 'srs-small-btn', 'Später');
+    laterBtn.addEventListener('click', function () {
+      if (window.app) window.app.playTick();
+      snooze();
+      savePathStateSafe(model.path).then(render);
+    });
+    actions.appendChild(laterBtn);
+    box.appendChild(actions);
+    return box;
   }
 
   // Banner shown after a pathState write failed (quota, evicted IndexedDB, …). The
@@ -820,10 +977,11 @@
     box.appendChild(el('div', 'path-focus-label', 'Aktuelle Stufe'));
     box.appendChild(el('div', 'path-focus-level', model.progress.currentLevel));
 
-    var streak = currentStreak(model.path);
-    if (streak > 0) {
-      box.appendChild(el('div', 'path-streak',
-        '🔥 ' + streak + (streak === 1 ? ' Tag' : ' Tage') + ' in Folge'));
+    var streak = streakInfo(model.path);
+    if (streak.count > 0) {
+      var streakText = '🔥 ' + streak.count + (streak.count === 1 ? ' Tag' : ' Tage') + ' in Folge'
+        + (streak.securedToday ? ' · heute gesichert ✓' : ' — heute noch offen');
+      box.appendChild(el('div', 'path-streak ' + (streak.securedToday ? 'is-secured' : 'is-open'), streakText));
     }
 
     var dueCount = model.due.length;
@@ -833,17 +991,10 @@
     var newToday = Math.min(Math.max(0, model.budget), (model.newReady || []).length + model.picks.length);
 
     // Review status, folded in from the former Wiederholen home screen.
-    // "Active" = cards actually in your rotation. Staggered New siblings whose day
-    // hasn't come yet are upcoming, not active, so they don't inflate the count
-    // (adding 20 items creates ~61 cards, but only the introduced ones are active).
-    var nowMs = Date.now();
-    var cards = model.cards || [];
-    var activeCards = cards.filter(function (c) {
-      if (c.suspended) return false;
-      if (c.state === 'New' && new Date(c.dueAt || 0).getTime() > nowMs) return false;
-      return true;
-    });
-    var weakCards = activeCards.filter(function (c) { return window.SRSScheduler.isWeak(c); });
+    // "Active" = cards actually in your rotation (computed in loadModel, shared
+    // with the drills panel and the pacing nudge).
+    var activeCards = model.activeCards || [];
+    var weakCards = model.weakCards || [];
 
     var stats = el('div', 'review-stats');
     stats.appendChild(statCard('Fällig', dueCount));
@@ -859,7 +1010,11 @@
     // routine (new cards + due reviews + woven-in lessons), so it gets the focus
     // block to itself.
     var actions = el('div', 'review-actions');
-    var learnLabel = 'Heute lernen — ' + newToday + ' neue Karten · ' + dueCount + ' Wiederholungen';
+    // In catch-up mode "Heute lernen — 0 neue Karten" reads like a bug; name the
+    // session what it actually is.
+    var learnLabel = model.suppressedNew
+      ? 'Wiederholungen aufholen — ' + dueCount + ' Karten'
+      : 'Heute lernen — ' + newToday + ' neue Karten · ' + dueCount + ' Wiederholungen';
     if (newToday + dueCount > 0) learnLabel += ' · ~' + estimateMinutes(newToday, dueCount) + ' Min';
     var learnBtn = el('button', 'quiz-btn quiz-btn-next', learnLabel);
     learnBtn.disabled = (newToday + dueCount) === 0;
@@ -879,14 +1034,42 @@
     }
 
     if (model.suppressedNew) {
-      box.appendChild(el('div', 'review-empty-hint',
-        'Viele Karten fällig — erst Wiederholungen aufholen, dann gibt es wieder neue Inhalte.'));
+      box.appendChild(buildCatchUp(model, dueCount));
     } else if (dueCount === 0 && newToday === 0 && model.path.newDaily.count > 0) {
       // Nothing left for today and work was done — celebrate instead of a flat line.
       box.appendChild(buildDoneCard(model));
     } else if (newToday === 0 && model.path.newDaily.count > 0) {
       box.appendChild(el('div', 'review-empty-hint',
         'Tagesziel für neue Karten erreicht (' + model.path.newDaily.count + '). Es bleiben noch Wiederholungen.'));
+    }
+    return box;
+  }
+
+  // Catch-up plan shown instead of the flat "viele Karten fällig" hint when a
+  // review backlog has suppressed new content: the true backlog size, a floor
+  // estimate of the recovery time, and a digestible chunk session so the full
+  // daily wall isn't the only entry point.
+  function buildCatchUp(model, dueCount) {
+    var box = el('div', 'path-catchup');
+    var plan = catchUpPlan(model.dueTotal, model.settings.dailyReviewLimit);
+    box.appendChild(el('div', 'review-empty-hint',
+      'Viele Karten fällig — insgesamt ' + model.dueTotal + '. Bei max. '
+      + model.settings.dailyReviewLimit + ' Wiederholungen pro Tag bist du in mind. '
+      + plan.days + (plan.days === 1 ? ' Tag' : ' Tagen')
+      + ' aufgeholt, dann gibt es wieder neue Inhalte.'));
+    // Only offer the bite-sized session when it's actually smaller than the
+    // primary CTA — otherwise it would just duplicate it.
+    if (plan.chunk > 0 && plan.chunk < dueCount) {
+      var chunkBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Aufholen: ' + plan.chunk + ' Karten');
+      chunkBtn.addEventListener('click', function () {
+        if (window.app) window.app.playPop();
+        recordStudyStart(model.path);
+        // model.due is already priority-sorted, so the first slice is the right one.
+        window.SRSUI.startSession(model.due.slice(0, plan.chunk), true);
+      });
+      var actions = el('div', 'review-actions');
+      actions.appendChild(chunkBtn);
+      box.appendChild(actions);
     }
     return box;
   }
@@ -1061,11 +1244,14 @@
   var TYPE_LABEL = { kanji: 'Kanji', vocab: 'Vokabel', grammar: 'Grammatik' };
 
   // One card in the "Tägliches Lernpensum" grid. opts.lockedNote (string) renders a
-  // greyed-out, non-skippable preview that explains why the item is still waiting.
+  // greyed-out, non-skippable preview that explains why the item is still waiting;
+  // opts.blocking (array of kanji chars) additionally renders the blocking kanji as
+  // clickable chips so the learner can jump straight to what unlocks the word.
   function nextItemCard(p, model, opts) {
     opts = opts || {};
     var it = p.item;
-    var card = el('div', 'path-next-item' + (opts.lockedNote ? ' is-locked' : ''));
+    var locked = !!(opts.lockedNote || (opts.blocking && opts.blocking.length));
+    var card = el('div', 'path-next-item' + (locked ? ' is-locked' : ''));
 
     var open = el('button', 'path-next-open');
     open.appendChild(el('span', 'path-chip path-chip-' + p.section, TYPE_LABEL[p.section] || p.section));
@@ -1077,7 +1263,26 @@
     open.addEventListener('click', function () { openItemDetail(p.section, it); });
     card.appendChild(open);
 
-    if (!opts.lockedNote) {
+    // Blocking kanji as chips (a button can't nest inside the open <button>, so
+    // they live as their own row — same placement as the lesson hint).
+    if (opts.blocking && opts.blocking.length) {
+      var blockRow = el('div', 'path-next-blockers');
+      blockRow.appendChild(el('span', 'path-next-wait', 'Wartet auf Kanji:'));
+      opts.blocking.forEach(function (ch) {
+        var k = model.kanjiIndex && model.kanjiIndex[ch];
+        if (!k) { blockRow.appendChild(el('span', 'path-next-main jp', ch)); return; }
+        var chip = el('button', 'path-blocker-chip jp', ch);
+        chip.title = 'Kanji ' + ch + ' ansehen';
+        chip.addEventListener('click', function (e) {
+          e.stopPropagation();
+          openItemDetail('kanji', k);
+        });
+        blockRow.appendChild(chip);
+      });
+      card.appendChild(blockRow);
+    }
+
+    if (!locked) {
       // opts.noSkip: an already-started item (a ready backlog card) — no "kenne ich
       // schon" affordance, since a card for it already exists in the SRS rotation.
       if (!opts.noSkip) {
@@ -1148,14 +1353,39 @@
     // "Bald verfügbar" — vocab whose kanji you still need to learn first.
     if (waiting.length) {
       box.appendChild(el('div', 'path-next-subtitle', 'Bald verfügbar'));
+
+      // Which kanji unlock the most waiting words — the actionable answer to
+      // "what should I learn to get at these?", computed over the FULL queue.
+      var blockers = model.topBlockers || [];
+      if (blockers.length) {
+        var topRow = el('div', 'path-next-top-blockers');
+        topRow.appendChild(el('span', 'path-next-wait', 'Schaltet am meisten frei:'));
+        blockers.forEach(function (b) {
+          var chip = el('button', 'path-blocker-chip jp',
+            b.char + ' (' + b.count + (b.count === 1 ? ' Wort' : ' Wörter') + ')');
+          chip.title = 'Kanji ' + b.char + ' ansehen';
+          chip.addEventListener('click', function () {
+            if (b.item) openItemDetail('kanji', b.item);
+          });
+          topRow.appendChild(chip);
+        });
+        box.appendChild(topRow);
+      }
+
       var wlist = el('div', 'path-next-list');
       waiting.forEach(function (w) {
-        var note = (w.blocking && w.blocking.length)
-          ? 'Wartet auf Kanji ' + w.blocking.join(' ')
-          : 'Wartet auf Voraussetzungen';
-        wlist.appendChild(nextItemCard({ section: w.section, item: w.item }, model, { lockedNote: note }));
+        var hasBlocking = !!(w.blocking && w.blocking.length);
+        wlist.appendChild(nextItemCard({ section: w.section, item: w.item }, model, {
+          blocking: hasBlocking ? w.blocking : null,
+          lockedNote: hasBlocking ? null : 'Wartet auf Voraussetzungen'
+        }));
       });
       box.appendChild(wlist);
+
+      if ((model.waitTotal || 0) > waiting.length) {
+        box.appendChild(el('div', 'path-next-more',
+          '+' + (model.waitTotal - waiting.length) + ' weitere warten auf Kanji'));
+      }
     }
     return box;
   }
@@ -1377,6 +1607,10 @@
     box.appendChild(el('div', 'path-adjust-hint',
       'Stufen unter dem Startniveau gelten als bekannt — neue Inhalte starten ab hier. Höhere Stufen folgen automatisch.'));
 
+    if ((model.path.skippedItems || []).length) {
+      box.appendChild(buildSkippedPanel(model));
+    }
+
     var actions = el('div', 'review-actions');
 
     var dailyBtn = el('button', 'quiz-btn quiz-btn-back',
@@ -1396,6 +1630,66 @@
     });
     actions.appendChild(settingsBtn);
     box.appendChild(actions);
+    return box;
+  }
+
+  // Collapsible recovery list for "kenne ich schon" marks (same pattern as the
+  // drills panel). Restoring an item removes it from skippedItems so it counts as
+  // new again and re-enters the suggestions. Note: items below the Startniveau
+  // stay "vertraut" via the start-level sweep even after restoring — expected.
+  function buildSkippedPanel(model) {
+    var entries = resolveSkippedItems(model.path);
+    var box = el('div', 'path-drills path-skipped');
+    var header = el('div', 'path-drills-header');
+    header.innerHTML = '<span class="path-section-title">Übersprungen (' + entries.length + ')</span>' +
+      '<svg class="toggle-icon collapsed" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+    var body = el('div', 'path-drills-body collapsed');
+    header.addEventListener('click', function () {
+      if (window.app && window.app.playTick) window.app.playTick();
+      var icon = header.querySelector('.toggle-icon');
+      body.classList.toggle('collapsed');
+      if (icon) icon.classList.toggle('collapsed');
+    });
+
+    var inner = el('div', 'path-drills-inner');
+    inner.appendChild(el('div', 'path-drills-hint',
+      'Als „kenne ich schon" markierte Einträge. Sie zählen als vertraut — hier kannst du sie zurückholen.'));
+
+    function unskip(key) {
+      var i = model.path.skippedItems.indexOf(key);
+      if (i !== -1) model.path.skippedItems.splice(i, 1);
+      savePathStateSafe(model.path).then(render);
+      if (window.app) window.app.playTick();
+    }
+
+    entries.forEach(function (entry) {
+      var row = el('div', 'path-skipped-row' + (entry.item ? '' : ' is-stale'));
+      if (entry.item) {
+        var it = entry.item;
+        var open = el('button', 'path-skipped-open');
+        open.appendChild(el('span', 'path-chip path-chip-' + entry.section, TYPE_LABEL[entry.section] || entry.section));
+        var main = entry.section === 'kanji' ? it.kanji : (it.word || it.pattern || '');
+        open.appendChild(el('span', 'path-next-main' + (isJp(main) ? ' jp' : ''), main));
+        var sub = entry.section === 'kanji' ? (it.meanings || []).join(', ') : (it.meaning || '');
+        if (sub) open.appendChild(el('span', 'path-next-sub', sub));
+        open.addEventListener('click', function () { openItemDetail(entry.section, it); });
+        row.appendChild(open);
+        var restore = el('button', 'srs-small-btn', 'Wieder lernen');
+        restore.addEventListener('click', function () { unskip(entry.key); });
+        row.appendChild(restore);
+      } else {
+        // No longer in the dataset — still removable for hygiene.
+        row.appendChild(el('span', 'path-skipped-stale-key', entry.key + ' — nicht mehr im Datensatz'));
+        var remove = el('button', 'srs-small-btn', 'Entfernen');
+        remove.addEventListener('click', function () { unskip(entry.key); });
+        row.appendChild(remove);
+      }
+      inner.appendChild(row);
+    });
+
+    body.appendChild(inner);
+    box.appendChild(header);
+    box.appendChild(body);
     return box;
   }
 
@@ -1583,8 +1877,13 @@
       lessonStepsForSession: lessonStepsForSession,
       dayBefore: dayBefore,
       currentStreak: currentStreak,
+      streakInfo: streakInfo,
       markStudyDay: markStudyDay,
-      decideLevelUp: decideLevelUp
+      decideLevelUp: decideLevelUp,
+      catchUpPlan: catchUpPlan,
+      pacingSuggestion: pacingSuggestion,
+      resolveSkippedItems: resolveSkippedItems,
+      topBlockingKanji: topBlockingKanji
     }
   };
 })();

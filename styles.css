@@ -1570,6 +1570,115 @@ main {
   padding: 0.2rem 0.6rem;
 }
 
+.path-streak.is-secured {
+  color: #2e9e5b;
+  background: rgba(46, 158, 91, 0.12);
+}
+
+.path-catchup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.path-pace-nudge {
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.path-pace-nudge-head {
+  font-weight: 700;
+}
+
+.path-pace-nudge-text {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.45;
+}
+
+.path-skipped-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.35rem 0.6rem;
+}
+
+.path-skipped-open {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 0.55rem;
+  min-width: 0;
+  border: none;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  padding: 0.15rem 0;
+}
+
+.path-skipped-open:hover .path-next-main {
+  text-decoration: underline;
+}
+
+.path-skipped-row.is-stale {
+  color: var(--text-secondary);
+}
+
+.path-skipped-stale-key {
+  flex: 1;
+  font-size: 0.8rem;
+  word-break: break-all;
+}
+
+.path-next-blockers,
+.path-next-top-blockers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.path-next-blockers {
+  border-top: 1px solid var(--border);
+  padding: 0.4rem 0.75rem;
+}
+
+.path-blocker-chip {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-card);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 0.15rem 0.6rem;
+  cursor: pointer;
+}
+
+.path-blocker-chip.jp {
+  font-family: var(--font-jp);
+}
+
+.path-blocker-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.path-next-more {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
 .path-done {
   border: 1px solid #2e9e5b;
   border-radius: var(--radius-sm);
