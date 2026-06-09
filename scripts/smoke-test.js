@@ -444,20 +444,23 @@ async function run() {
 
   // === 1C: drive the self-grade session to completion -> end-of-session summary ===
   let sawLessonStep = false;
+  let sawIntroStep = false;
   async function advanceCard() {
     const wrap = document.querySelector('#review-content .review-card-wrap');
     if (!wrap) return false;
-    // Lesson-first steps are taught, not graded: continue past them.
-    if (wrap.classList.contains('review-lesson-step')) {
-      sawLessonStep = true;
+    // Teach-before-test steps (grammar lessons, vocab/kanji intros) are taught,
+    // not graded: continue past them.
+    if (wrap.classList.contains('review-lesson-step') || wrap.classList.contains('review-intro-step')) {
+      if (wrap.classList.contains('review-lesson-step')) sawLessonStep = true;
+      else sawIntroStep = true;
       const contBtn = Array.from(wrap.querySelectorAll('button')).find(function (b) { return b.textContent.indexOf('Verstanden') !== -1; });
-      assert(contBtn, 'lesson-first step offers a "Verstanden — weiter" button');
-      const beforeLesson = wrap.textContent;
+      assert(contBtn, 'teach-before-test step offers a "Verstanden — weiter" button');
+      const beforeStep = wrap.textContent;
       click(contBtn, window);
       await waitFor(function () {
         const w = document.querySelector('#review-content .review-card-wrap');
-        return !w || w.textContent !== beforeLesson;
-      }, { description: 'lesson step advances after continue', timeoutMs: 5000 });
+        return !w || w.textContent !== beforeStep;
+      }, { description: 'teach-before-test step advances after continue', timeoutMs: 5000 });
       return true;
     }
     const revealBtn = Array.from(wrap.querySelectorAll('button')).find(function (b) { return b.textContent === 'Antwort anzeigen'; });

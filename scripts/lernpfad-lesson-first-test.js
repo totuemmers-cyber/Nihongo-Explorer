@@ -99,9 +99,12 @@ async function run() {
 
   // Drive the whole session. Lessons must be JUST-IN-TIME: every lesson step is
   // immediately followed by a grammar question, and none is front-loaded at the
-  // start detached from the day's grammar.
+  // start detached from the day's grammar. New vocab/kanji are introduced by an
+  // ungraded intro step immediately before their own first question.
   let sawLesson = false;
+  let sawIntro = false;
   let expectGrammarNext = false;
+  let expectItemNext = null;
   let guard = 0;
   while (document.querySelector('#review-content .review-card-wrap') && guard < 100) {
     guard++;
@@ -119,11 +122,30 @@ async function run() {
       }, 'lesson advances after continue', 6000);
       continue;
     }
+    if (wrap.classList.contains('review-intro-step')) {
+      sawIntro = true;
+      assert(!wrap.querySelector('.review-grade-row'), 'an intro step is not graded like a card');
+      const introMain = (wrap.querySelector('.quiz-prompt-main') || {}).textContent || '';
+      assert(introMain, 'intro step presents the item');
+      const before = wrap.textContent;
+      click(findButton(document.getElementById('review-content'), 'Verstanden'), window);
+      expectItemNext = introMain;
+      await waitFor(function () {
+        const w = document.querySelector('#review-content .review-card-wrap');
+        return !w || w.textContent !== before;
+      }, 'intro advances after continue', 6000);
+      continue;
+    }
     // A normal flashcard.
     if (expectGrammarNext) {
       assert(/Grammatik/.test(wrap.textContent),
         'a lesson is immediately followed by its grammar question (just-in-time, not front-loaded)');
       expectGrammarNext = false;
+    }
+    if (expectItemNext) {
+      assert(wrap.textContent.indexOf(expectItemNext) !== -1,
+        'an intro is immediately followed by a question about the same item');
+      expectItemNext = null;
     }
     const revealBtn = Array.from(wrap.querySelectorAll('button')).find(function (b) { return b.textContent === 'Antwort anzeigen'; });
     if (revealBtn) click(revealBtn, window);
@@ -133,11 +155,13 @@ async function run() {
     click(good, window);
     await waitFor(function () {
       const w = document.querySelector('#review-content .review-card-wrap');
-      return !w || w.classList.contains('review-lesson-step') || (w.querySelector('.quiz-prompt-main') || {}).textContent !== before;
+      return !w || w.classList.contains('review-lesson-step') || w.classList.contains('review-intro-step')
+        || (w.querySelector('.quiz-prompt-main') || {}).textContent !== before;
     }, 'card advances after grading', 6000);
   }
 
   assert(sawLesson, 'a new grammar pattern was taught with a lesson during the session');
+  assert(sawIntro, 'new vocab/kanji were introduced with an intro step during the session');
 
   // The lesson(s) were marked read (so they are not re-taught tomorrow).
   let readMarked = false;

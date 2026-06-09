@@ -70,10 +70,11 @@
     return card;
   }
 
-  // Rough session-length estimate. New cards take longer to digest than reviews;
-  // these per-card seconds are deliberately coarse — it only sets expectations.
+  // Rough session-length estimate. New cards take longer than reviews (each one
+  // now starts with an intro step to read); these per-card seconds are
+  // deliberately coarse — it only sets expectations.
   function estimateMinutes(newCount, dueCount) {
-    return Math.max(1, Math.round((newCount * 12 + dueCount * 7) / 60));
+    return Math.max(1, Math.round((newCount * 18 + dueCount * 7) / 60));
   }
 
   // --- Data loading ---
@@ -705,10 +706,12 @@
         markStudyDay(model.path);
         return savePathStateSafe(model.path).then(function () {
           // Teach before testing: weave an unread lesson in front of each new
-          // grammar pattern. The runner re-orders by SRS priority but keeps each
-          // lesson directly before its pattern's first card.
+          // grammar pattern, and an intro card in front of each never-seen vocab/
+          // kanji item. The runner re-orders by SRS priority but keeps each step
+          // directly before its item's first card.
           return ensureLessonsLoaded().then(function () {
-            var steps = lessonStepsForSession(model, session);
+            var steps = lessonStepsForSession(model, session)
+              .concat(introStepsForSession(model, session));
             return steps.length ? steps.concat(session) : session;
           });
         });
@@ -1436,6 +1439,45 @@
     };
   }
 
+  function introStepObj(section, item, precedesKey) {
+    return {
+      kind: 'intro',
+      section: section,
+      item: item,
+      level: levelOf(section, item) || '',
+      precedesItemKey: precedesKey,
+      itemKey: 'intro:' + precedesKey
+    };
+  }
+
+  // Teach-before-test for vocab and kanji: a presentation step woven in directly
+  // before the first question of an item the learner has NEVER reviewed. The
+  // grammar counterpart is the lesson step; vocab/kanji get a compact intro card
+  // instead (word/kanji, readings, meaning, example). An item counts as unseen
+  // when none of its cards has ever been reviewed — so a staggered sibling on a
+  // later day gets no second intro, but a never-reviewed primary (aborted
+  // session) does. Pure (no I/O) so it's unit-testable.
+  function introStepsForSession(model, session) {
+    var reviewedItems = {};
+    ((model && model.cards) || []).forEach(function (c) {
+      if (c && c.itemKey && ((c.reps || 0) > 0 || c.lastReviewedAt)) reviewedItems[c.itemKey] = true;
+    });
+    var idx = null;
+    var seen = {};
+    var steps = [];
+    (session || []).forEach(function (c) {
+      if (!c || c.kind || c.state !== 'New') return;
+      if (c.section !== 'vocab' && c.section !== 'kanji') return;
+      if (!c.itemKey || seen[c.itemKey] || reviewedItems[c.itemKey]) return;
+      seen[c.itemKey] = true;
+      if (!idx) idx = buildItemIndex();
+      var hit = idx[c.itemKey];
+      if (!hit) return; // item no longer in the dataset -> nothing to present
+      steps.push(introStepObj(hit.section, hit.item, c.itemKey));
+    });
+    return steps;
+  }
+
   // Unread lessons for a level in didactic (number) order, skipping any already
   // chosen this session. Used as the fallback when a new grammar pattern has no
   // explicit lesson link (most levels above N5 link no patterns yet).
@@ -1875,6 +1917,7 @@
       lessonMatchesLevel: lessonMatchesLevel,
       lessonForGrammar: lessonForGrammar,
       lessonStepsForSession: lessonStepsForSession,
+      introStepsForSession: introStepsForSession,
       dayBefore: dayBefore,
       currentStreak: currentStreak,
       streakInfo: streakInfo,

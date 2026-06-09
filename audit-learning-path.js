@@ -613,6 +613,43 @@ function makeStoreContext(storage) {
   check('T34 ceiling: 50/day never raises further', s === null);
 })();
 
+// === T35: intro steps — never-seen vocab/kanji get a teach-before-test card ===
+(function () {
+  const freshVocab = makeCard('vocab', VOCAB[0], 'New');          // かばん, never reviewed
+  const freshKanji = makeCard('kanji', KANJI[0], 'New');          // 一, never reviewed
+  const freshGrammar = makeCard('grammar', GRAMMAR[0], 'New');    // covered by lesson steps
+  const { eng } = makeContext([], defaultSettings, null);
+
+  let steps = eng.introStepsForSession({ cards: [] }, [freshVocab, freshKanji, freshGrammar]);
+  check('T35 one intro per never-seen vocab/kanji, none for grammar',
+    steps.length === 2 && steps.every(function (s) { return s.kind === 'intro'; }));
+  check('T35 intro precedes its own card and resolves the item',
+    steps[0].precedesItemKey === freshVocab.itemKey && steps[0].item.word === 'かばん' &&
+    steps[1].precedesItemKey === freshKanji.itemKey && steps[1].item.kanji === '一');
+
+  // A sibling of an already-reviewed item gets no second intro…
+  const reviewedPrimary = makeCard('vocab', VOCAB[0], 'Learning', 0, 0, 1);
+  reviewedPrimary.lastReviewedAt = new Date().toISOString();
+  steps = eng.introStepsForSession({ cards: [reviewedPrimary] }, [freshVocab]);
+  check('T35 reviewed item gets no second intro', steps.length === 0);
+
+  // …but a never-reviewed primary (aborted session) still does.
+  const abortedPrimary = makeCard('vocab', VOCAB[0], 'New');
+  steps = eng.introStepsForSession({ cards: [abortedPrimary] }, [freshVocab]);
+  check('T35 never-reviewed primary still gets an intro', steps.length === 1);
+
+  // Two cards of the same item in one session -> a single intro.
+  steps = eng.introStepsForSession({ cards: [] }, [freshVocab, makeCard('vocab', VOCAB[0], 'New')]);
+  check('T35 deduped per item', steps.length === 1);
+
+  // Due (non-New) cards and lesson steps are ignored.
+  steps = eng.introStepsForSession({ cards: [] }, [
+    makeCard('vocab', VOCAB[1], 'Review', -1000),
+    { kind: 'lesson', itemKey: 'lesson:x' }
+  ]);
+  check('T35 due cards and steps are ignored', steps.length === 0);
+})();
+
 function finish() {
   console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
   process.exit(failures.length > 0 ? 1 : 0);

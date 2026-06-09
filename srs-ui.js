@@ -590,13 +590,14 @@
     }).then(function (settings) {
       answerMode = (settings && settings.answerMode) || 'reveal';
       autoSuspendLeeches = !!(settings && settings.autoSuspendLeeches);
-      // The Lernpfad may mix in non-card "lesson" steps (teach-before-test). They
-      // must not go through isDue/sortQueue, so split them out and weave them back in
-      // directly before the grammar card each one teaches.
+      // The Lernpfad may mix in non-card steps (teach-before-test): grammar
+      // "lesson" steps and vocab/kanji "intro" steps. They must not go through
+      // isDue/sortQueue, so split them out and weave them back in directly before
+      // the card each one introduces.
       var lessonSteps = [];
       var cardItems = [];
       (cards || []).forEach(function (it) {
-        if (it && it.kind === 'lesson') lessonSteps.push(it); else cardItems.push(it);
+        if (it && it.kind) lessonSteps.push(it); else cardItems.push(it);
       });
       var selected = includeNotDue ? cardItems.slice() : cardItems.filter(function (card) {
         return window.SRSScheduler.isDue(card);
@@ -684,6 +685,83 @@
     panel.appendChild(wrap);
   }
 
+  // Teach-before-test for vocab/kanji: a compact, ungraded presentation of a
+  // never-seen item (the counterpart to renderLessonStep for grammar), shown
+  // directly before the item's first question.
+  function renderIntroStep(step) {
+    revealed = false;
+    panel.innerHTML = '';
+    var it = step.item || {};
+    var isKanji = step.section === 'kanji';
+    var wrap = el('div', 'review-card-wrap review-intro-step');
+
+    var meta = el('div', 'quiz-badges');
+    meta.appendChild(el('span', 'quiz-type-badge', 'Neu'));
+    if (step.level) meta.appendChild(el('span', 'quiz-level-badge ' + String(step.level).toLowerCase(), step.level));
+    wrap.appendChild(meta);
+
+    wrap.appendChild(el('p', 'quiz-prompt', isKanji
+      ? 'Neues Kanji — präg es dir ein, bevor du es übst.'
+      : 'Neue Vokabel — präg sie dir ein, bevor du sie übst.'));
+    wrap.appendChild(el('div', 'quiz-prompt-main jp', isKanji ? it.kanji : (it.word || '')));
+
+    var facts = el('div', 'review-intro-facts');
+    function fact(label, value, jp) {
+      if (!value) return;
+      var row = el('div', 'review-intro-fact');
+      row.appendChild(el('span', 'review-intro-fact-label', label));
+      row.appendChild(el('span', 'review-intro-fact-value' + (jp ? ' jp' : ''), value));
+      facts.appendChild(row);
+    }
+    if (isKanji) {
+      fact('Bedeutung', (it.meanings || []).join(', '));
+      var kun = (it.kun || []).map(function (r) { return r.kana; }).filter(Boolean).join(', ');
+      var on = (it.on || []).map(function (r) { return r.kana; }).filter(Boolean).join(', ');
+      fact('Kun-Lesung', kun, true);
+      fact('On-Lesung', on, true);
+      fact('Komponenten', (it.components || []).map(function (c) {
+        return c.radical + (c.meaning ? ' (' + c.meaning + ')' : '');
+      }).join('、'), true);
+      if (it.strokes) fact('Striche', String(it.strokes));
+    } else {
+      var reading = it.reading && it.reading !== it.word ? it.reading : '';
+      fact('Lesung', reading + (it.romaji ? (reading ? ' · ' : '') + it.romaji : ''), !!reading);
+      fact('Bedeutung', it.meaning || '');
+    }
+    wrap.appendChild(facts);
+
+    // One or two examples so the item is seen in context before the question.
+    var examples = (it.examples || []).slice(0, isKanji ? 2 : 1);
+    examples.forEach(function (ex) {
+      var box = el('div', 'review-intro-example');
+      if (isKanji) {
+        box.appendChild(el('div', 'review-intro-example-jp jp', (ex.word || '') + (ex.reading ? '（' + ex.reading + '）' : '')));
+        if (ex.meaning) box.appendChild(el('div', 'review-intro-example-de', ex.meaning));
+      } else {
+        box.appendChild(el('div', 'review-intro-example-jp jp', ex.japanese || ex.jp || ''));
+        if (ex.german) box.appendChild(el('div', 'review-intro-example-de', ex.german));
+      }
+      if (box.textContent) wrap.appendChild(box);
+    });
+
+    var actions = el('div', 'quiz-browse-actions');
+    var contBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Verstanden — weiter');
+    contBtn.addEventListener('click', function () {
+      if (window.app) window.app.playPop();
+      renderNextReview();
+    });
+    actions.appendChild(contBtn);
+
+    var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
+    backBtn.addEventListener('click', renderHome);
+    actions.appendChild(backBtn);
+
+    wrap.appendChild(actions);
+    panel.appendChild(wrap);
+
+    if (!isKanji && it.word && window.app && window.app.speakJP) window.app.speakJP(it.word);
+  }
+
   function renderNextReview() {
     if (!ensurePanel()) return;
     if (!queue.length) {
@@ -694,8 +772,9 @@
     }
     currentCard = queue.shift();
     revealed = false;
-    // Lesson-first steps are taught inline, not graded like cards.
+    // Teach-before-test steps are presented inline, not graded like cards.
     if (currentCard && currentCard.kind === 'lesson') { renderLessonStep(currentCard); return; }
+    if (currentCard && currentCard.kind === 'intro') { renderIntroStep(currentCard); return; }
     panel.innerHTML = '';
 
     var wrap = el('div', 'review-card-wrap');
