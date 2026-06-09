@@ -1581,6 +1581,61 @@ main {
   gap: 0.5rem;
 }
 
+.path-forecast {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.path-forecast-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.path-forecast-row {
+  display: flex;
+  gap: 0.45rem;
+  align-items: flex-end;
+}
+
+.path-forecast-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.path-forecast-count {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  min-height: 0.9rem;
+}
+
+.path-forecast-bar {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: flex-end;
+  background: var(--path-bar-bg, rgba(99, 102, 241, 0.08));
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.path-forecast-fill {
+  width: 100%;
+  background: var(--accent);
+  opacity: 0.75;
+  border-radius: 4px 4px 0 0;
+}
+
+.path-forecast-day {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+}
+
 .path-pace-nudge {
   border: 1px solid var(--border);
   border-left: 3px solid var(--accent);

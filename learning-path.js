@@ -103,6 +103,11 @@
     d.setDate(d.getDate() - 1);
     return dayStr(d);
   }
+  function dayBeforeYesterdayStr() {
+    var d = new Date();
+    d.setDate(d.getDate() - 2);
+    return dayStr(d);
+  }
 
   // Parse a dayStr() value ("YYYY-M-D") into a comparable integer (YYYYMMDD), or
   // null if it isn't a valid day string (legacy/garbage values like "old").
@@ -149,6 +154,9 @@
       // Motivation tracking: a daily streak and the highest level already announced.
       streakCount: typeof p.streakCount === 'number' ? p.streakCount : 0,
       streakLastDay: p.streakLastDay || null,
+      // Streak shields: earned every full week of consecutive study (max 2 banked),
+      // each one bridges exactly one missed day instead of resetting the streak.
+      streakShields: typeof p.streakShields === 'number' ? Math.max(0, Math.min(2, p.streakShields)) : 0,
       seenLevel: LEVELS.indexOf(p.seenLevel) !== -1 ? p.seenLevel : null,
       // Pacing nudge snooze (ms epoch, 0 = never snoozed): set on apply AND dismiss
       // so the suggestion stays quiet for a week either way.
@@ -172,10 +180,21 @@
   // "heute gesichert" vs "heute noch offen" instead of leaving the learner to
   // guess if their streak is safe. Clock-back safe via the same dayBefore idiom
   // as markStudyDay: a last-study day reading as today/future counts as secured.
+  // With a banked shield, a streak that missed exactly yesterday is still shown
+  // as rescuable (shieldPending) — studying today bridges the gap.
   function streakInfo(path) {
+    var count = currentStreak(path);
+    var shields = (path && path.streakShields) || 0;
+    var shieldPending = false;
+    if (count === 0 && shields > 0 && path && path.streakLastDay === dayBeforeYesterdayStr()) {
+      count = path.streakCount || 0;
+      shieldPending = count > 0;
+    }
     return {
-      count: currentStreak(path),
-      securedToday: !!(path.streakLastDay && !dayBefore(path.streakLastDay, todayStr()))
+      count: count,
+      securedToday: !!(path && path.streakLastDay && !dayBefore(path.streakLastDay, todayStr())),
+      shields: shields,
+      shieldPending: shieldPending
     };
   }
 
@@ -186,7 +205,19 @@
     // Already counted today, or the clock moved back and the last study day now
     // reads as today/future — leave the streak untouched rather than restarting it.
     if (path.streakLastDay && !dayBefore(path.streakLastDay, today)) return;
-    path.streakCount = (path.streakLastDay === yesterdayStr()) ? (path.streakCount || 0) + 1 : 1;
+    if (path.streakLastDay === yesterdayStr()) {
+      path.streakCount = (path.streakCount || 0) + 1;
+    } else if (path.streakLastDay === dayBeforeYesterdayStr() && (path.streakShields || 0) > 0) {
+      // A banked shield bridges exactly one missed day: the streak continues.
+      path.streakShields -= 1;
+      path.streakCount = (path.streakCount || 0) + 1;
+    } else {
+      path.streakCount = 1;
+    }
+    // Every full week of consecutive study banks a shield (capped).
+    if (path.streakCount > 0 && path.streakCount % 7 === 0) {
+      path.streakShields = Math.min(2, (path.streakShields || 0) + 1);
+    }
     path.streakLastDay = today;
   }
 
@@ -554,6 +585,19 @@
     return Math.max(0, model.settings.dailyNewLimit - model.path.newDaily.count);
   }
 
+  // Sibling burying: only ONE card per item per session (the highest-priority
+  // one, so the input must already be sortQueue-ordered) — a second card of the
+  // same item would leak the answer the first one just revealed. Buried siblings
+  // stay due and surface in the next session.
+  function burySiblings(sortedDue) {
+    var seen = {};
+    return (sortedDue || []).filter(function (c) {
+      if (!c || !c.itemKey || seen[c.itemKey]) return false;
+      seen[c.itemKey] = true;
+      return true;
+    });
+  }
+
   // Recovery plan for a review backlog: how many days of capped sessions until
   // it is cleared (a floor — tomorrow's newly-due cards add more, hence "mind."
   // in the UI copy), plus the size of the low-friction catch-up bite.
@@ -637,7 +681,7 @@
       // Due queue: session-capped at the daily review limit, but keep the uncapped
       // total so the catch-up plan can tell the learner the true backlog size.
       var dueAll = cards.filter(function (c) { return window.SRSScheduler.isDue(c); });
-      var due = window.SRSScheduler.sortQueue(dueAll).slice(0, settings.dailyReviewLimit);
+      var due = burySiblings(window.SRSScheduler.sortQueue(dueAll)).slice(0, settings.dailyReviewLimit);
       // The daily "new" budget is measured in cards: each introduction is a single
       // card (a primary, or a sibling unlocked on a later day). Already-created New
       // cards that are ready (staggered siblings whose day has come, or manually
@@ -996,8 +1040,15 @@
 
     var streak = streakInfo(model.path);
     if (streak.count > 0) {
-      var streakText = '🔥 ' + streak.count + (streak.count === 1 ? ' Tag' : ' Tage') + ' in Folge'
-        + (streak.securedToday ? ' · heute gesichert ✓' : ' — heute noch offen');
+      var streakText;
+      if (streak.shieldPending) {
+        streakText = '🔥 ' + streak.count + (streak.count === 1 ? ' Tag' : ' Tage')
+          + ' — 🛡 lerne heute, um die Serie zu retten';
+      } else {
+        streakText = '🔥 ' + streak.count + (streak.count === 1 ? ' Tag' : ' Tage') + ' in Folge'
+          + (streak.securedToday ? ' · heute gesichert ✓' : ' — heute noch offen');
+        if (streak.shields > 0) streakText += ' · 🛡×' + streak.shields;
+      }
       box.appendChild(el('div', 'path-streak ' + (streak.securedToday ? 'is-secured' : 'is-open'), streakText));
     }
 
@@ -1022,6 +1073,12 @@
     stats.appendChild(statCard('Aktive Karten', activeCards.length));
     stats.appendChild(statCard('Schwach', weakCards.length));
     box.appendChild(stats);
+
+    // 7-day review forecast (WaniKani/Bunpro-style dashboard strip). Guarded:
+    // the audit VM doesn't load stats.js.
+    if (window.Stats && window.Stats.forecast) {
+      box.appendChild(buildForecastStrip(window.Stats.forecast(model.cards, Date.now(), 7)));
+    }
 
     // Primary action stands alone: on a normal day "Heute lernen" is the whole
     // routine (new cards + due reviews + woven-in lessons), so it gets the focus
@@ -1059,6 +1116,33 @@
       box.appendChild(el('div', 'review-empty-hint',
         'Tagesziel für neue Karten erreicht (' + model.path.newDaily.count + '). Es bleiben noch Wiederholungen.'));
     }
+    return box;
+  }
+
+  // Compact 7-day review forecast strip (data from Stats.forecast: bucket 0 =
+  // today incl. overdue shown via the Fällig stat, 1 = tomorrow, …).
+  function buildForecastStrip(fc) {
+    var box = el('div', 'path-forecast');
+    box.appendChild(el('div', 'path-forecast-title', 'Wiederholungen der nächsten 7 Tage'));
+    var row = el('div', 'path-forecast-row');
+    var buckets = (fc && fc.buckets) || [];
+    var max = 1;
+    buckets.forEach(function (n) { if (n > max) max = n; });
+    var labels = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+    for (var i = 0; i < buckets.length; i++) {
+      var d = new Date();
+      d.setDate(d.getDate() + i);
+      var col = el('div', 'path-forecast-col');
+      col.appendChild(el('span', 'path-forecast-count', buckets[i] ? String(buckets[i]) : ''));
+      var bar = el('div', 'path-forecast-bar');
+      var fill = el('div', 'path-forecast-fill');
+      fill.style.height = Math.max(buckets[i] ? 8 : 2, Math.round(buckets[i] / max * 100)) + '%';
+      bar.appendChild(fill);
+      col.appendChild(bar);
+      col.appendChild(el('span', 'path-forecast-day', i === 0 ? 'Heute' : labels[d.getDay()]));
+      row.appendChild(col);
+    }
+    box.appendChild(row);
     return box;
   }
 
@@ -1117,21 +1201,18 @@
     });
     inner.appendChild(reviewBtn);
 
-    // Off-schedule drill over the whole active deck. Counts as real reviews, so it
-    // shifts the SRS schedule of not-yet-due cards — flag that so it isn't a
-    // surprise. Ready New cards are intentionally included (the learner explicitly
-    // asked to drill everything in rotation): each introduction is still recorded by
-    // noteNewCardIntroduced, so the Tagesziel counter stays accurate and the
-    // "Heute lernen" budget self-limits afterward.
+    // Off-schedule drills run as CRAM: free practice that never moves SRS
+    // schedules or logs events (like Bunpro's Cram / WaniKani's Extra Study).
+    // Only "Nur Wiederholen" above grades for real, since those cards are due.
     var practiceBtn = el('button', 'quiz-btn quiz-btn-back', 'Alle aktiven Karten üben (' + activeCards.length + ')');
     practiceBtn.disabled = activeCards.length === 0;
     practiceBtn.addEventListener('click', function () {
       recordStudyStart(model.path);
-      window.SRSUI.startSession(activeCards, true);
+      window.SRSUI.startSession(activeCards, true, { cram: true });
     });
     inner.appendChild(practiceBtn);
     inner.appendChild(el('div', 'path-drills-hint',
-      'Zählt als echte Wiederholung — fällige und noch nicht fällige Karten werden neu eingeplant.'));
+      'Freies Üben — verändert keine SRS-Termine. Falsche Karten kommen sofort wieder dran.'));
 
     // Focused drill over the weak cards (lapsed or relearning) — the items most at
     // risk of becoming leeches.
@@ -1139,7 +1220,7 @@
       var weakBtn = el('button', 'quiz-btn quiz-btn-back', 'Schwache Karten üben (' + weakCards.length + ')');
       weakBtn.addEventListener('click', function () {
         recordStudyStart(model.path);
-        window.SRSUI.startSession(weakCards, true);
+        window.SRSUI.startSession(weakCards, true, { cram: true });
       });
       inner.appendChild(weakBtn);
     }
@@ -1939,6 +2020,7 @@
       markStudyDay: markStudyDay,
       decideLevelUp: decideLevelUp,
       catchUpPlan: catchUpPlan,
+      burySiblings: burySiblings,
       pacingSuggestion: pacingSuggestion,
       resolveSkippedItems: resolveSkippedItems,
       topBlockingKanji: topBlockingKanji

@@ -285,6 +285,10 @@ async function run() {
     return document.querySelector('#path-content .review-stat') &&
       document.getElementById('path-content').textContent.indexOf('Aktive Karten') !== -1;
   }, { description: 'learning path shows review stats' });
+  // The all-active drill is CRAM: grading must not move any SRS schedule.
+  const cardsBeforeCram = (await window.SRSStore.getAllCards()).map(function (c) {
+    return c.cardKey + '@' + c.updatedAt;
+  }).sort().join('|');
   click(Array.from(document.querySelectorAll('#path-content button')).find(function (btn) {
     return btn.textContent.indexOf('Alle aktiven Karten üben') !== -1;
   }), window);
@@ -300,7 +304,11 @@ async function run() {
     return document.querySelector('#review-content .review-card-wrap') ||
       (document.querySelector('#path-content .review-stat') &&
         document.getElementById('path-content').textContent.indexOf('Aktive Karten') !== -1);
-  }, { description: 'review grade saved' });
+  }, { description: 'review grade handled' });
+  const cardsAfterCram = (await window.SRSStore.getAllCards()).map(function (c) {
+    return c.cardKey + '@' + c.updatedAt;
+  }).sort().join('|');
+  assert(cardsAfterCram === cardsBeforeCram, 'grading in a cram drill does not touch any card schedule');
   if (document.querySelector('#review-content .review-card-wrap')) {
     click(Array.from(document.querySelectorAll('#review-content button')).find(function (btn) {
       return btn.textContent.indexOf('Aus Wiederholung entfernen') !== -1;

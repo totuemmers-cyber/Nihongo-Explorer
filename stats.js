@@ -389,6 +389,8 @@
   window.Stats = {
     onTabActivate: onTabActivate,
     renderInto: renderInto,
+    forecast: forecast, // consumed by the Lernpfad's 7-day mini forecast
+
     _engine: {
       activityByDay: activityByDay,
       longestStreak: longestStreak,

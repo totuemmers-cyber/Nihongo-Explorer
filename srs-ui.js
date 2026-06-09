@@ -9,6 +9,8 @@
   var queue = [];
   var currentCard = null;
   var lastGrade = null;        // one-level undo snapshot (cleared per session/screen flow)
+  var sessionCram = false;     // cram = free practice, nothing persisted, no schedule impact
+  var missedCards = [];        // cards graded Again this session (for "Fehler nochmal üben")
   var revealed = false;
   var answerMode = 'reveal';   // 'reveal' = self-grade; 'type' = typed answer + checking
   var autoSuspendLeeches = false; // auto-suspend chronic-fail cards on "Again"
@@ -586,12 +588,14 @@
     return card;
   }
 
-  function loadQueue(cards, includeNotDue) {
+  function loadQueue(cards, includeNotDue, opts) {
     init().then(function () {
       return window.SRSStore.getSettings();
     }).then(function (settings) {
       answerMode = (settings && settings.answerMode) || 'reveal';
       autoSuspendLeeches = !!(settings && settings.autoSuspendLeeches);
+      sessionCram = !!(opts && opts.cram);
+      missedCards = [];
       // The Lernpfad may mix in non-card steps (teach-before-test): grammar
       // "lesson" steps and vocab/kanji "intro" steps. They must not go through
       // isDue/sortQueue, so split them out and weave them back in directly before
@@ -1012,6 +1016,17 @@
     var cont = el('button', 'quiz-btn quiz-btn-next', 'Weiter zum Lernpfad');
     cont.addEventListener('click', returnToPath);
     actions.appendChild(cont);
+
+    // Re-drill this session's mistakes without touching the schedule (cram).
+    if (missedCards.length) {
+      var missed = missedCards.slice();
+      var redoBtn = el('button', 'quiz-btn quiz-btn-reveal',
+        'Fehler nochmal üben (' + missed.length + ')');
+      redoBtn.addEventListener('click', function () {
+        startSession(missed, true, { cram: true });
+      });
+      actions.appendChild(redoBtn);
+    }
     shell.appendChild(actions);
 
     // Streak (set by the Lernpfad when the session launched) — inserted once known.
@@ -1027,9 +1042,37 @@
     if (window.app && window.app.playPop) window.app.playPop();
   }
 
+  function noteMissed(card) {
+    for (var i = 0; i < missedCards.length; i++) {
+      if (missedCards[i].cardKey === card.cardKey) return;
+    }
+    missedCards.push(card);
+  }
+
   function gradeCurrentCard(grade) {
     if (!currentCard) return;
     var previous = currentCard;
+
+    // Cram: free practice. Nothing is persisted, no event is logged, no schedule
+    // moves — only the session tally advances. A missed card is re-queued so the
+    // learner drills it until it sticks.
+    if (sessionCram) {
+      if (session) {
+        session.reviewed++;
+        if (grade === 'Again') session.again++; else session.correct++;
+      }
+      if (grade === 'Again') {
+        noteMissed(previous);
+        queue.push(previous);
+      }
+      if (window.app) {
+        if (grade === 'Again') window.app.playTick();
+        else window.app.playPop();
+      }
+      renderNextReview();
+      return;
+    }
+
     var next = window.SRSScheduler.applyGrade(previous, grade);
     // Auto-suspend leeches: a card that keeps failing is parked so it stops
     // dominating the queue. Opt-in (off by default) to avoid surprising removals.
@@ -1056,6 +1099,7 @@
         if (leechSuspended) session.leeches++;
       }
       if (leechSuspended) removeQueuedItem(next.itemKey); // drop its siblings from this run
+      if (grade === 'Again') noteMissed(next);
       // Short-step cards (same-day learning pass, relearning after a miss) come
       // back later in THIS session instead of silently waiting until tomorrow.
       if (!leechSuspended && (next.state === 'Learning' || next.state === 'Relearning')
@@ -1361,7 +1405,8 @@
   // of stored SRS cards; pass includeNotDue=true to drill them all regardless of
   // due date (used by the Lernpfad for freshly introduced New cards).
   var sessionTimer = null;
-  function startSession(cards, includeNotDue) {
+  // opts.cram: free practice — nothing is persisted and no schedule moves.
+  function startSession(cards, includeNotDue, opts) {
     if (window.app && window.app.activeTab !== 'review') window.app.switchTab('review');
     // Defer to a macrotask: switchTab triggers the review tab's own renderHome
     // (gated on a separate init promise). Running loadQueue after the microtask
@@ -1370,7 +1415,7 @@
     if (sessionTimer) clearTimeout(sessionTimer);
     sessionTimer = setTimeout(function () {
       sessionTimer = null;
-      loadQueue(cards || [], includeNotDue);
+      loadQueue(cards || [], includeNotDue, opts);
     }, 0);
   }
 

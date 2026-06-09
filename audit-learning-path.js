@@ -654,6 +654,59 @@ function makeStoreContext(storage) {
   check('T35 due cards and steps are ignored', steps.length === 0);
 })();
 
+// === T36: sibling burying — one card per item per session ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const a1 = makeCard('vocab', VOCAB[0], 'Review', -2000);
+  const a2 = Object.assign(makeCard('vocab', VOCAB[0], 'Review', -1000), { cardKey: 'x#reading' });
+  const b = makeCard('kanji', KANJI[0], 'Review', -500);
+  const buried = eng.burySiblings([a1, a2, b]);
+  check('T36 only one card per item survives', buried.length === 2);
+  check('T36 the first (highest-priority) sibling wins', buried[0] === a1 && buried[1] === b);
+  check('T36 empty input is safe', eng.burySiblings(null).length === 0);
+})();
+
+// === T37: streak shields — earned weekly, bridge exactly one missed day ===
+(function () {
+  const { eng } = makeContext([], defaultSettings, null);
+  const dayStr = function (d) { return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); };
+  const offset = function (n) { const d = new Date(); d.setDate(d.getDate() + n); return dayStr(d); };
+
+  check('T37 streakShields migrates to 0', eng.normalizePath(null).streakShields === 0);
+  check('T37 streakShields clamped to 2', eng.normalizePath({ streakShields: 9 }).streakShields === 2);
+
+  // Earning: the 7th consecutive day banks a shield.
+  let p = eng.normalizePath({ streakCount: 6, streakLastDay: offset(-1) });
+  eng.markStudyDay(p);
+  check('T37 a full week banks a shield', p.streakCount === 7 && p.streakShields === 1);
+
+  // Cap: at 2 shields, a further week banks nothing extra.
+  p = eng.normalizePath({ streakCount: 13, streakLastDay: offset(-1), streakShields: 2 });
+  eng.markStudyDay(p);
+  check('T37 shields cap at two', p.streakCount === 14 && p.streakShields === 2);
+
+  // Bridging: exactly one missed day is covered by a shield.
+  p = eng.normalizePath({ streakCount: 10, streakLastDay: offset(-2), streakShields: 1 });
+  eng.markStudyDay(p);
+  check('T37 a shield bridges one missed day', p.streakCount === 11 && p.streakShields === 0);
+
+  // No shield -> the same gap resets the streak.
+  p = eng.normalizePath({ streakCount: 10, streakLastDay: offset(-2), streakShields: 0 });
+  eng.markStudyDay(p);
+  check('T37 without a shield the streak resets', p.streakCount === 1);
+
+  // A two-day gap is not bridgeable.
+  p = eng.normalizePath({ streakCount: 10, streakLastDay: offset(-3), streakShields: 2 });
+  eng.markStudyDay(p);
+  check('T37 a longer gap resets despite shields', p.streakCount === 1 && p.streakShields === 2);
+
+  // Display: a one-day gap with a banked shield shows the streak as rescuable.
+  const info = eng.streakInfo(eng.normalizePath({ streakCount: 10, streakLastDay: offset(-2), streakShields: 1 }));
+  check('T37 streakInfo flags the rescuable streak', info.count === 10 && info.shieldPending === true);
+  const lost = eng.streakInfo(eng.normalizePath({ streakCount: 10, streakLastDay: offset(-2), streakShields: 0 }));
+  check('T37 streakInfo shows zero without a shield', lost.count === 0 && lost.shieldPending === false);
+})();
+
 function finish() {
   console.log(JSON.stringify({ passed: failures.length === 0, failures: failures }, null, 2));
   process.exit(failures.length > 0 ? 1 : 0);
