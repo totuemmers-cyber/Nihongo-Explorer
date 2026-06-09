@@ -1741,7 +1741,8 @@
     inner.appendChild(el('div', 'path-drills-hint',
       'Dein Fortschritt liegt nur in diesem Browser — er kann durch das Löschen der '
       + 'Browserdaten oder (auf iOS) automatisch verloren gehen. Exportiere darum regelmäßig '
-      + 'eine Sicherung oder verbinde eine automatische Sicherungsdatei (nur Desktop-Chrome). '
+      + 'eine Sicherung oder verbinde eine automatische Sicherungsdatei (Chromium-Browser wie '
+      + 'Chrome oder Edge, nur Desktop). '
       + 'Mit „Importieren" stellst du eine Sicherung wieder her oder ziehst auf ein neues Gerät um.'));
 
     var status = el('div', 'path-settings-status', 'Sicherungsstatus wird geprüft...');
