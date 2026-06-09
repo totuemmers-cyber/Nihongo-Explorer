@@ -830,11 +830,21 @@
         var res = window.AnswerCheck.checkAnswer(input.value, currentCard);
         if (!res) { revealAnswer(true); inputRow.classList.add('hidden'); return; }
         if (res.correct) {
+          // Confirm before moving on: show the verdict + full answer and wait for
+          // an explicit "Weiter" instead of jumping straight to the next card.
+          // The grade is applied on continue, so the moment of feedback costs
+          // nothing in scheduling terms.
           feedback.textContent = 'Richtig ✓';
           feedback.className = 'review-input-feedback is-correct';
           input.disabled = true;
+          checkBtn.classList.add('hidden');
+          showBtn.classList.add('hidden');
           revealAnswer(false);
-          gradeCurrentCard('Good');
+          var nextBtn = el('button', 'quiz-btn quiz-btn-next', 'Weiter');
+          nextBtn.addEventListener('click', function () { gradeCurrentCard('Good'); });
+          inputRow.appendChild(nextBtn);
+          // Focus so Enter (the key that submitted) also continues.
+          setTimeout(function () { nextBtn.focus(); }, 0);
         } else if (res.near) {
           feedback.textContent = 'Fast richtig – Tippfehler? Bitte korrigieren.';
           feedback.className = 'review-input-feedback is-near';

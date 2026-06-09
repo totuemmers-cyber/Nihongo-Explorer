@@ -505,15 +505,50 @@ async function run() {
   assert(drillBtn && !drillBtn.disabled, 'Lernpfad offers a drill over all active cards');
   click(drillBtn, window);
   await waitFor(function () { return document.querySelector('#review-content .review-card-wrap'); }, { description: 'typed drill starts' });
-  let sawInput = false, typeGuard = 0;
+  let sawInput = false, confirmedTyped = false, typeGuard = 0;
   while (typeGuard < 80) {
     typeGuard++;
     const w = document.querySelector('#review-content .review-card-wrap');
     if (!w) break;
-    if (w.querySelector('.review-answer-input')) { sawInput = true; break; }
+    const input = w.querySelector('.review-answer-input');
+    if (input) {
+      sawInput = true;
+      if (input.placeholder === 'Antwort…') {
+        // A meaning card: type the first synonym of the (hidden, already-in-DOM)
+        // answer and verify a correct answer is CONFIRMED (Richtig ✓ + Weiter)
+        // instead of auto-advancing to the next card.
+        const answerLine = (w.querySelector('.review-answer-main') || {}).textContent || '';
+        input.value = answerLine.split(/[,;\/、]/)[0].trim();
+        click(Array.from(w.querySelectorAll('button')).find(function (b) { return b.textContent === 'Prüfen'; }), window);
+        const fb = w.querySelector('.review-input-feedback');
+        assert(fb && fb.classList.contains('is-correct'), 'correct typed answer shows Richtig-feedback');
+        assert(document.querySelector('#review-content .review-card-wrap') === w,
+          'correct typed answer does not auto-advance');
+        const weiter = Array.from(w.querySelectorAll('button')).find(function (b) { return b.textContent === 'Weiter'; });
+        assert(weiter, 'correct typed answer offers a Weiter button');
+        const beforeTyped = (w.querySelector('.quiz-prompt-main') || {}).textContent;
+        click(weiter, window);
+        await waitFor(function () {
+          const n = document.querySelector('#review-content .review-card-wrap');
+          return !n || (n.querySelector('.quiz-prompt-main') || {}).textContent !== beforeTyped;
+        }, { description: 'typed card advances after Weiter', timeoutMs: 5000 });
+        confirmedTyped = true;
+        break;
+      }
+      // A kana-typed card: reveal + self-grade past it and keep looking.
+      click(Array.from(w.querySelectorAll('button')).find(function (b) { return b.textContent === 'Antwort zeigen'; }), window);
+      const beforeKana = (w.querySelector('.quiz-prompt-main') || {}).textContent;
+      click(w.querySelector('.review-grade-btn.grade-good'), window);
+      await waitFor(function () {
+        const n = document.querySelector('#review-content .review-card-wrap');
+        return !n || (n.querySelector('.quiz-prompt-main') || {}).textContent !== beforeKana;
+      }, { description: 'kana card advances after grading', timeoutMs: 5000 });
+      continue;
+    }
     if (!(await advanceCard())) break; // non-checkable card -> grade past it
   }
   assert(sawInput, 'typed answer mode shows an input field for a checkable card');
+  assert(confirmedTyped, 'typed mode confirms a correct answer before continuing');
   click(document.querySelector('[data-tab="path"]'), window); // abandon the drill
   await waitFor(function () { return document.querySelector('#path-content .path-adjust'); }, { description: 'back on the Lernpfad after the typed drill' });
   // Restore self-grade mode so later steps are unaffected.
