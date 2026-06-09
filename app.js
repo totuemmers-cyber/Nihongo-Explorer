@@ -890,9 +890,19 @@
     { id: 'momiji',      name: 'Momiji',      jp: '紅葉',   mode: 'dark',  bg: '#1a1109', card: '#281a0f', accent: '#f0883e', grad: 'linear-gradient(135deg,#fcd34d,#ea580c)' },
     { id: 'budo',        name: 'Budō',        jp: '葡萄',   mode: 'dark',  bg: '#140f20', card: '#1f1733', accent: '#a78bfa', grad: 'linear-gradient(135deg,#c4b5fd,#7c3aed)' },
     { id: 'sumi',        name: 'Sumi',        jp: '墨',     mode: 'dark',  bg: '#131416', card: '#1e2023', accent: '#b8bcc4', grad: 'linear-gradient(135deg,#d4d7dd,#7c8089)' },
+    { id: 'shinkai',     name: 'Shinkai',     jp: '深海',   mode: 'dark',  bg: '#06181c', card: '#0c2a30', accent: '#2dd4bf', grad: 'linear-gradient(135deg,#5eead4,#0d9488)' },
+    { id: 'kurenai',     name: 'Kurenai',     jp: '紅',     mode: 'dark',  bg: '#190b0d', card: '#271215', accent: '#f2415a', grad: 'linear-gradient(135deg,#fb7185,#be123c)' },
+    { id: 'yamabuki',    name: 'Yamabuki',    jp: '山吹',   mode: 'dark',  bg: '#181405', card: '#26200c', accent: '#eab308', grad: 'linear-gradient(135deg,#fde047,#ca8a04)' },
+    { id: 'ume',         name: 'Ume',         jp: '梅',     mode: 'dark',  bg: '#170b18', card: '#251128', accent: '#d946ef', grad: 'linear-gradient(135deg,#f0abfc,#a21caf)' },
+    { id: 'yoru',        name: 'Yoru',        jp: '夜',     mode: 'dark',  bg: '#050505', card: '#121214', accent: '#38bdf8', grad: 'linear-gradient(135deg,#7dd3fc,#0284c7)' },
     { id: 'yuki',        name: 'Yuki',        jp: '雪',     mode: 'light', bg: '#f5f7fb', card: '#ffffff', accent: '#275df4', grad: 'linear-gradient(135deg,#275df4,#7c3aed)' },
     { id: 'washi',       name: 'Washi',       jp: '和紙',   mode: 'light', bg: '#f3ece0', card: '#fdf9f2', accent: '#bf5a2e', grad: 'linear-gradient(135deg,#e8a44c,#bf5a2e)' },
-    { id: 'hinode',      name: 'Hinode',      jp: '日の出', mode: 'light', bg: '#fff3ee', card: '#fffdfc', accent: '#f43f5e', grad: 'linear-gradient(135deg,#fb923c,#ec4899)' }
+    { id: 'hinode',      name: 'Hinode',      jp: '日の出', mode: 'light', bg: '#fff3ee', card: '#fffdfc', accent: '#f43f5e', grad: 'linear-gradient(135deg,#fb923c,#ec4899)' },
+    { id: 'wakaba',      name: 'Wakaba',      jp: '若葉',   mode: 'light', bg: '#eff7ee', card: '#ffffff', accent: '#16a34a', grad: 'linear-gradient(135deg,#4ade80,#15803d)' },
+    { id: 'mizu',        name: 'Mizu',        jp: '水',     mode: 'light', bg: '#edf6fa', card: '#ffffff', accent: '#0891b2', grad: 'linear-gradient(135deg,#67e8f9,#0891b2)' },
+    { id: 'fuji',        name: 'Fuji',        jp: '藤',     mode: 'light', bg: '#f3f1fb', card: '#ffffff', accent: '#7c5cdb', grad: 'linear-gradient(135deg,#c4b5fd,#7c3aed)' },
+    { id: 'kinari',      name: 'Kinari',      jp: '生成り', mode: 'light', bg: '#f6f1e7', card: '#fffdf8', accent: '#a08a5e', grad: 'linear-gradient(135deg,#d4c08a,#8a7349)' },
+    { id: 'momo',        name: 'Momo',        jp: '桃',     mode: 'light', bg: '#fdf0f4', card: '#fffcfd', accent: '#ec4899', grad: 'linear-gradient(135deg,#f9a8d4,#db2777)' }
   ];
   var DEFAULT_THEME = 'mitternacht';
   var THEME_KEY = 'nihongo-theme';

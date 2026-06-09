@@ -6300,6 +6300,71 @@ body {
   --gradient: linear-gradient(135deg, #d4d7dd 0%, #a8acb4 55%, #7c8089 100%);
 }
 
+/* --- Dark: Shinkai (deep sea / teal) --- */
+[data-theme="shinkai"] {
+  --bg: #06181c;
+  --bg-card: #0c2a30;
+  --bg-header: rgba(6, 24, 28, 0.85);
+  --text: #e6fbf9;
+  --text-secondary: #88b9b9;
+  --border: #194048;
+  --accent: #2dd4bf;
+  --accent-hover: #14b8a6;
+  --gradient: linear-gradient(135deg, #5eead4 0%, #2dd4bf 55%, #0d9488 100%);
+}
+
+/* --- Dark: Kurenai (crimson / deep red) --- */
+[data-theme="kurenai"] {
+  --bg: #190b0d;
+  --bg-card: #271215;
+  --bg-header: rgba(25, 11, 13, 0.85);
+  --text: #fdecec;
+  --text-secondary: #cb9a9a;
+  --border: #43222a;
+  --accent: #f2415a;
+  --accent-hover: #d61f3f;
+  --gradient: linear-gradient(135deg, #fb7185 0%, #f2415a 55%, #be123c 100%);
+}
+
+/* --- Dark: Yamabuki (golden / amber-yellow) --- */
+[data-theme="yamabuki"] {
+  --bg: #181405;
+  --bg-card: #26200c;
+  --bg-header: rgba(24, 20, 5, 0.85);
+  --text: #fbf6e3;
+  --text-secondary: #c8b888;
+  --border: #3b3318;
+  --accent: #eab308;
+  --accent-hover: #ca8a04;
+  --gradient: linear-gradient(135deg, #fde047 0%, #facc15 55%, #ca8a04 100%);
+}
+
+/* --- Dark: Ume (plum blossom / magenta) --- */
+[data-theme="ume"] {
+  --bg: #170b18;
+  --bg-card: #251128;
+  --bg-header: rgba(23, 11, 24, 0.85);
+  --text: #fbecfb;
+  --text-secondary: #c298c5;
+  --border: #3c2240;
+  --accent: #d946ef;
+  --accent-hover: #c026d3;
+  --gradient: linear-gradient(135deg, #f0abfc 0%, #d946ef 55%, #a21caf 100%);
+}
+
+/* --- Dark: Yoru (night / true black OLED) --- */
+[data-theme="yoru"] {
+  --bg: #050505;
+  --bg-card: #121214;
+  --bg-header: rgba(5, 5, 5, 0.88);
+  --text: #f4f5f7;
+  --text-secondary: #8b8e96;
+  --border: #26282d;
+  --accent: #38bdf8;
+  --accent-hover: #0ea5e9;
+  --gradient: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 55%, #0284c7 100%);
+}
+
 /* --- Light: Yuki (snow / cool crisp) --- */
 [data-theme="yuki"] {
   --bg: #f5f7fb;
@@ -6337,6 +6402,71 @@ body {
   --accent: #f43f5e;
   --accent-hover: #e11d48;
   --gradient: linear-gradient(135deg, #fb923c 0%, #f43f5e 55%, #ec4899 100%);
+}
+
+/* --- Light: Wakaba (young leaf / fresh green) --- */
+[data-theme="wakaba"] {
+  --bg: #eff7ee;
+  --bg-card: #ffffff;
+  --bg-header: rgba(239, 247, 238, 0.85);
+  --text: #1a2913;
+  --text-secondary: #5d7350;
+  --border: #d6e6cf;
+  --accent: #16a34a;
+  --accent-hover: #15803d;
+  --gradient: linear-gradient(135deg, #4ade80 0%, #22c55e 55%, #15803d 100%);
+}
+
+/* --- Light: Mizu (water / pale aqua) --- */
+[data-theme="mizu"] {
+  --bg: #edf6fa;
+  --bg-card: #ffffff;
+  --bg-header: rgba(237, 246, 250, 0.85);
+  --text: #102a33;
+  --text-secondary: #4f7884;
+  --border: #cfe6ee;
+  --accent: #0891b2;
+  --accent-hover: #0e7490;
+  --gradient: linear-gradient(135deg, #67e8f9 0%, #22d3ee 55%, #0891b2 100%);
+}
+
+/* --- Light: Fuji (wisteria / soft lavender) --- */
+[data-theme="fuji"] {
+  --bg: #f3f1fb;
+  --bg-card: #ffffff;
+  --bg-header: rgba(243, 241, 251, 0.85);
+  --text: #211c33;
+  --text-secondary: #6b6486;
+  --border: #ddd7f0;
+  --accent: #7c5cdb;
+  --accent-hover: #6841c9;
+  --gradient: linear-gradient(135deg, #c4b5fd 0%, #a78bfa 55%, #7c3aed 100%);
+}
+
+/* --- Light: Kinari (natural / unbleached cream) --- */
+[data-theme="kinari"] {
+  --bg: #f6f1e7;
+  --bg-card: #fffdf8;
+  --bg-header: rgba(246, 241, 231, 0.85);
+  --text: #2c281f;
+  --text-secondary: #7c7361;
+  --border: #e6dccb;
+  --accent: #a08a5e;
+  --accent-hover: #87724a;
+  --gradient: linear-gradient(135deg, #d4c08a 0%, #b89b66 55%, #8a7349 100%);
+}
+
+/* --- Light: Momo (peach / soft pink) --- */
+[data-theme="momo"] {
+  --bg: #fdf0f4;
+  --bg-card: #fffcfd;
+  --bg-header: rgba(253, 240, 244, 0.85);
+  --text: #321f29;
+  --text-secondary: #8a6776;
+  --border: #f5d6e1;
+  --accent: #ec4899;
+  --accent-hover: #db2777;
+  --gradient: linear-gradient(135deg, #f9a8d4 0%, #f472b6 55%, #db2777 100%);
 }
 
 /* === THEME PICKER OVERLAY === */
