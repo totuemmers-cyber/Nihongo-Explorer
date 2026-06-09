@@ -15,7 +15,7 @@
   // An item only counts as "familiar" (toward level-up) once each of its cards has
   // survived at least one real review — i.e. been answered correctly twice, not
   // just introduced once. A Review card with fewer reps is still "young".
-  var FAMILIAR_MIN_REPS = 2; // a card failed this many times is a "leech" (chronic problem)
+  var FAMILIAR_MIN_REPS = 2;
 
   function nowIso(now) {
     return new Date(now || Date.now()).toISOString();
@@ -33,7 +33,6 @@
     return {
       dailyNewLimit: 20,
       dailyReviewLimit: 120,
-      autoAddMissedQuizItems: false,
       backupBookmarks: true,
       answerMode: 'reveal', // 'reveal' = self-grade; 'type' = typed answer with checking
       autoSuspendLeeches: false // auto-suspend cards that lapse >= LEECH_LAPSES times
@@ -138,6 +137,20 @@
     return !!card && (card.lapses || 0) >= LEECH_LAPSES;
   }
 
+  // "Weak" = the card is *currently* struggling, not that it ever lapsed. `lapses`
+  // is a lifetime counter that never resets, so a card that lapsed once but has
+  // since climbed back to a mature interval is no longer weak. `state` is the
+  // canonical maturity signal (applyGrade promotes to Mature only at
+  // MATURE_INTERVAL_DAYS), so a lapsed card counts as weak only while it has not yet
+  // recovered to Mature/Mastered. Keep this the single source of truth for weakness
+  // (getStatus + the Lernpfad/Wiederholen stats) so the displayed "Schwach" count
+  // and the level-advance classification can't drift apart.
+  function isWeak(card) {
+    if (!card) return false;
+    if (card.state === 'Relearning') return true;
+    return (card.lapses || 0) > 0 && card.state !== 'Mature' && card.state !== 'Mastered';
+  }
+
   function isDue(card, now) {
     if (!card || card.suspended || card.orphaned) return false;
     // New cards are *introduced* (via the daily new-card budget), not "due" for
@@ -169,9 +182,12 @@
       if (!c || c.suspended) continue;
       active++;
       if (isDue(c, now)) due++;
-      if ((c.lapses || 0) > 0 || c.state === 'Relearning') weak++;
+      // Weakness is *current* difficulty (see isWeak), not a lifetime-lapse brand —
+      // otherwise a single post-graduation slip would bar the item from "familiar"
+      // and freeze level advancement forever.
+      if (isWeak(c)) weak++;
       if (c.state === 'New' || c.state === 'Learning' || c.state === 'Relearning') learning++;
-      else if ((c.reps || 0) < 2) young++; // Review/Mature/Mastered but only one review so far
+      else if ((c.reps || 0) < FAMILIAR_MIN_REPS) young++; // Review/Mature/Mastered but only one review so far
       if (c.state === 'Mastered') mastered++;
     }
 
@@ -229,6 +245,7 @@
     isDue: isDue,
     isNewReady: isNewReady,
     isLeech: isLeech,
+    isWeak: isWeak,
     getStatus: getStatus,
     sortQueue: sortQueue,
     constants: {

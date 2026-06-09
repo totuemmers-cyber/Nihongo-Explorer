@@ -188,6 +188,40 @@ function makeStoreContext(storage) {
   check('T3 current level advances to N4', progress.currentLevel === 'N4');
 })();
 
+// === T3c: a past lapse must NOT bar an item from familiar / level advancement ===
+(function () {
+  // Every N5 item is Mature and not due, but each carries a single past lapse
+  // (lifetime `lapses` never resets). A recovered mature card must still count as
+  // familiar — otherwise one post-graduation slip would freeze the level forever.
+  const cards = [];
+  KANJI.filter(function (k) { return k.jlpt === 'N5'; }).forEach(function (k) { cards.push(makeCard('kanji', k, 'Mature', DAY * 40, 1)); });
+  VOCAB.filter(function (v) { return v.level === 'N5'; }).forEach(function (v) { cards.push(makeCard('vocab', v, 'Mature', DAY * 40, 1)); });
+  GRAMMAR.filter(function (g) { return g.level === 'N5'; }).forEach(function (g) { cards.push(makeCard('grammar', g, 'Mature', DAY * 40, 1)); });
+  const { eng } = makeContext(cards, defaultSettings, null);
+  const map = eng.mapFromCards(cards, eng.normalizePath(null));
+  check('T3c lapsed-but-mature item still counts as familiar', eng.itemStatus('kanji', KANJI[0], map) === 'familiar');
+  const progress = eng.computeProgress(map, eng.normalizePath(null));
+  check('T3c lapsed-but-mature N5 still reaches the advance ratio', progress.levels[0].ratio >= 0.9);
+  check('T3c level advances past a level whose items lapsed once', progress.currentLevel === 'N4');
+})();
+
+// === T3d: an isolated post-graduation lapse must not demote a completed level ===
+(function () {
+  // N5 fully mature (advanced to N4); one N5 kanji lapsed once but stayed mature.
+  // The current level must NOT drop back to N5 — a demotion would halt new N4
+  // content (frontierQueues only draws from currentLevel) and re-fire the banner.
+  const cards = [];
+  KANJI.filter(function (k) { return k.jlpt === 'N5'; }).forEach(function (k, i) {
+    cards.push(makeCard('kanji', k, 'Mature', DAY * 40, i === 0 ? 1 : 0));
+  });
+  VOCAB.filter(function (v) { return v.level === 'N5'; }).forEach(function (v) { cards.push(makeCard('vocab', v, 'Mature', DAY * 40, 0)); });
+  GRAMMAR.filter(function (g) { return g.level === 'N5'; }).forEach(function (g) { cards.push(makeCard('grammar', g, 'Mature', DAY * 40, 0)); });
+  const { eng } = makeContext(cards, defaultSettings, null);
+  const map = eng.mapFromCards(cards, eng.normalizePath(null));
+  const progress = eng.computeProgress(map, eng.normalizePath(null));
+  check('T3d a single past lapse does not demote the completed level', progress.currentLevel === 'N4');
+})();
+
 // === T3b: an empty level is vacuously complete and never pins currentLevel ===
 (function () {
   // N5 fully familiar; N4 has zero items in every section (e.g. a section that did

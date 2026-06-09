@@ -843,7 +843,7 @@
       if (c.state === 'New' && new Date(c.dueAt || 0).getTime() > nowMs) return false;
       return true;
     });
-    var weakCards = activeCards.filter(function (c) { return (c.lapses || 0) > 0 || c.state === 'Relearning'; });
+    var weakCards = activeCards.filter(function (c) { return window.SRSScheduler.isWeak(c); });
 
     var stats = el('div', 'review-stats');
     stats.appendChild(statCard('Fällig', dueCount));
@@ -919,7 +919,10 @@
 
     // Off-schedule drill over the whole active deck. Counts as real reviews, so it
     // shifts the SRS schedule of not-yet-due cards — flag that so it isn't a
-    // surprise.
+    // surprise. Ready New cards are intentionally included (the learner explicitly
+    // asked to drill everything in rotation): each introduction is still recorded by
+    // noteNewCardIntroduced, so the Tagesziel counter stays accurate and the
+    // "Heute lernen" budget self-limits afterward.
     var practiceBtn = el('button', 'quiz-btn quiz-btn-back', 'Alle aktiven Karten üben (' + activeCards.length + ')');
     practiceBtn.disabled = activeCards.length === 0;
     practiceBtn.addEventListener('click', function () {

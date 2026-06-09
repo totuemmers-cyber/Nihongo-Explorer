@@ -65,6 +65,28 @@ for (let i = 0; i < 10; i++) {
 }
 assert(['Mature', 'Mastered'].includes(mature.state), 'Repeated Easy grades should mature the card');
 
+// Weakness is current difficulty, not a lifetime-lapse brand. A card that lapsed
+// once but has since climbed back to a mature interval must NOT count as weak —
+// otherwise a single post-graduation slip would permanently bar the item from
+// "familiar" and freeze level advancement.
+const recovered = {
+  state: 'Mature', reps: 5, lapses: 1,
+  intervalDays: scheduler.constants.MATURE_INTERVAL_DAYS + 10,
+  dueAt: new Date(now + 40 * scheduler.constants.DAY_MS).toISOString(),
+  suspended: false
+};
+assert(scheduler.isWeak(recovered) === false, 'A recovered mature card is not weak despite a past lapse');
+assert(scheduler.getStatus([recovered], now).className === 'familiar',
+  'A lapsed-but-recovered mature card counts as familiar (so it counts toward level advance)');
+// But a card still relearning, or lapsed and still on a short interval, IS weak.
+assert(scheduler.isWeak({ state: 'Relearning', lapses: 1, intervalDays: 0 }) === true,
+  'A relearning card is weak');
+assert(scheduler.isWeak({ state: 'Review', lapses: 1, intervalDays: 3 }) === true,
+  'A lapsed card still on a short interval is weak');
+assert(scheduler.getStatus([{ state: 'Review', reps: 3, lapses: 1, intervalDays: 3,
+  dueAt: new Date(now + scheduler.constants.DAY_MS).toISOString(), suspended: false }], now)
+  .className === 'weak', 'A recently-lapsed short-interval card reports the item as weak');
+
 const queue = scheduler.sortQueue([good, again], now + scheduler.constants.DAY_MS);
 assert(queue[0].cardKey === again.cardKey, 'Relearning cards should be prioritized first');
 

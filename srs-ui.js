@@ -542,7 +542,7 @@
       var backup = parts[1];
       var dueCards = cards.filter(function (card) { return window.SRSScheduler.isDue(card); });
       var activeCards = cards.filter(function (card) { return !card.suspended; });
-      var weakCards = activeCards.filter(function (card) { return (card.lapses || 0) > 0 || card.state === 'Relearning'; });
+      var weakCards = activeCards.filter(function (card) { return window.SRSScheduler.isWeak(card); });
 
       var stats = el('div', 'review-stats');
       stats.appendChild(statCard('Fällig', dueCards.length));
