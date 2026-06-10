@@ -9,7 +9,7 @@
 // NOTE: service workers do not run from file:// — this only activates when the app
 // is served over http(s) (e.g. GitHub Pages).
 // ============================================================
-var VERSION = 'v23';
+var VERSION = 'v22';
 var CACHE = 'nihongo-' + VERSION;
 
 // Eagerly-loaded app shell (data files are cached at runtime as they're fetched).
@@ -20,8 +20,7 @@ var SHELL = [
   './vocab-correction-rules.js', './vocab-example-overrides.js', './vocab-corrections.js',
   './section.js', './section-configs.js', './quiz.js',
   './srs-scheduler.js', './srs-store.js', './romaji-kana.js', './answer-check.js',
-  './srs-ui.js', './learning-path.js', './stats.js', './app.js',
-  './vendor/supabase.min.js', './sync.js', './datenschutz.html'
+  './srs-ui.js', './learning-path.js', './stats.js', './app.js'
 ];
 
 self.addEventListener('install', function (event) {
