@@ -21,7 +21,8 @@
     renderBasicNumbers: renderBasicNumbers,
     speakJP: speakJP,
     speakJPSequence: speakJPSequence,
-    cancelSpeech: cancelSpeech
+    cancelSpeech: cancelSpeech,
+    canSpeakJP: canSpeakJP
   };
 
   // === SOUND ENGINE (Web Audio API) ===
@@ -1345,6 +1346,20 @@
     var voices = window.speechSynthesis.getVoices();
     var selected = pickJapaneseVoice(voices);
     if (selected) jpSpeechVoice = selected;
+  }
+
+  // Whether audio-fronted cards (Hören) may be offered: speech synthesis must
+  // exist and, once the voice list has loaded, contain a Japanese voice. An empty
+  // list means voices haven't loaded yet — assume yes rather than withhold the
+  // variant on every first render.
+  function canSpeakJP() {
+    if (!('speechSynthesis' in window)) return false;
+    ensureJpSpeechInitialized();
+    if (jpSpeechVoice) return true;
+    var voices = [];
+    try { voices = window.speechSynthesis.getVoices() || []; } catch (e) {}
+    if (!voices.length) return true;
+    return !!pickJapaneseVoice(voices);
   }
 
   function ensureJpSpeechInitialized() {

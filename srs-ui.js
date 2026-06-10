@@ -108,6 +108,7 @@
       promptSub: item.reading || '',
       answer: item.meaning || '',
       extra: item.romaji || '',
+      speechText: item.reading || item.word,
       typeLabel: 'Vokabel'
     }));
 
@@ -708,6 +709,25 @@
     return _vocabByKey[card.itemKey] || null;
   }
 
+  // Listening variant (Hören): on alternating reviews of a graduated vocab
+  // meaning card the word is played via TTS instead of shown, so it gets
+  // recognized by ear as well as by eye. Same card, same scheduling — only the
+  // retrieval cue changes. Returns the text to speak, or '' for the text front.
+  function listeningSpeechFor(card, q) {
+    if (!card || card.section !== 'vocab' || card.promptType !== 'meaning') return '';
+    // Only graduated cards: first exposures and relearning keep the visual anchor.
+    if (card.state !== 'Review' && card.state !== 'Mature' && card.state !== 'Mastered') return '';
+    if ((card.reps || 0) % 2 !== 1) return '';
+    if (!window.app || !window.app.speakJP) return '';
+    if (window.app.canSpeakJP && !window.app.canSpeakJP()) return '';
+    if (q && q.speechText) return q.speechText;
+    // Cards persisted before meaning specs carried speechText: look the item up
+    // (returns '' when the vocab section isn't loaded — card then shows normally).
+    var item = vocabItemForCard(card);
+    if (!item) return '';
+    return item.reading || item.word || '';
+  }
+
   // Pitch-accent diagram (reuses the global renderPitchSVG from section-configs).
   function pitchRow(reading, pitch) {
     if (typeof renderPitchSVG !== 'function' || pitch === undefined || pitch === null || !reading) return null;
@@ -828,18 +848,48 @@
     panel.innerHTML = '';
 
     var wrap = el('div', 'review-card-wrap');
+    var q = currentCard.question || {};
+    var listenText = listeningSpeechFor(currentCard, q);
+
     var meta = el('div', 'quiz-badges');
-    meta.appendChild(el('span', 'quiz-type-badge', currentCard.label || currentCard.promptType));
+    meta.appendChild(el('span', 'quiz-type-badge', listenText ? 'H\u00f6ren' : (currentCard.label || currentCard.promptType)));
     if (currentCard.level) meta.appendChild(el('span', 'quiz-level-badge ' + String(currentCard.level).toLowerCase(), currentCard.level));
     wrap.appendChild(meta);
 
-    var q = currentCard.question || {};
-    wrap.appendChild(el('p', 'quiz-prompt', q.prompt || 'Diese Karte wiederholen'));
+    wrap.appendChild(el('p', 'quiz-prompt', listenText ? 'Was bedeutet das geh\u00f6rte Wort?' : (q.prompt || 'Diese Karte wiederholen')));
+    // On the listening front the word and reading stay in the DOM but hidden;
+    // they come back on reveal (or via "Wort anzeigen").
+    var hiddenPromptEls = [];
     if (q.promptMain) {
       var main = el('div', 'quiz-prompt-main' + (/[\u3000-\u9faf\u3040-\u30ff\uff00-\uff9f]/.test(q.promptMain) ? ' jp' : ''), q.promptMain);
+      if (listenText) { main.classList.add('hidden'); hiddenPromptEls.push(main); }
       wrap.appendChild(main);
     }
-    if (q.promptSub) wrap.appendChild(el('p', 'quiz-prompt-sub', q.promptSub));
+    if (q.promptSub) {
+      var sub = el('p', 'quiz-prompt-sub', q.promptSub);
+      if (listenText) { sub.classList.add('hidden'); hiddenPromptEls.push(sub); }
+      wrap.appendChild(sub);
+    }
+
+    function showPromptText() {
+      while (hiddenPromptEls.length) hiddenPromptEls.pop().classList.remove('hidden');
+    }
+
+    if (listenText) {
+      var listenRow = el('div', 'review-listen-row');
+      var playBtn = el('button', 'quiz-btn quiz-btn-reveal review-listen-play', '\u25b6 Anh\u00f6ren');
+      playBtn.addEventListener('click', function () { window.app.speakJP(listenText); });
+      listenRow.appendChild(playBtn);
+      // Escape hatch for situations where audio isn't viable (train, no headphones):
+      // turns the card back into a normal visual meaning card.
+      var showWordBtn = el('button', 'srs-small-btn', 'Wort anzeigen');
+      showWordBtn.addEventListener('click', function () {
+        showPromptText();
+        showWordBtn.classList.add('hidden');
+      });
+      listenRow.appendChild(showWordBtn);
+      wrap.appendChild(listenRow);
+    }
 
     var answer = el('div', 'review-answer hidden');
     appendAnswer(answer, q);
@@ -863,9 +913,11 @@
 
     function revealAnswer(showGrades) {
       revealed = true;
+      showPromptText();
       answer.classList.remove('hidden');
       if (showGrades) gradeRow.classList.remove('hidden');
-      if (q.speechText && window.app) window.app.speakJP(q.speechText);
+      var speech = q.speechText || listenText;
+      if (speech && window.app) window.app.speakJP(speech);
     }
 
     var typed = answerMode === 'type' && window.AnswerCheck && window.AnswerCheck.isCheckable(currentCard);
@@ -956,6 +1008,8 @@
     wrap.appendChild(actions);
 
     panel.appendChild(wrap);
+
+    if (listenText) window.app.speakJP(listenText);
   }
 
   function appendAnswer(container, q) {

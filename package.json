@@ -2,7 +2,7 @@
   "name": "nihongo-explorer",
   "private": true,
   "scripts": {
-    "test": "npm run lint && npm run audit:data && npm run audit:verbs && npm run audit:quiz && npm run audit:radicals && npm run audit:path && npm run audit:stats && npm run audit:answer && npm run test:srs && npm run test:smoke && npm run test:lesson-first",
+    "test": "npm run lint && npm run audit:data && npm run audit:verbs && npm run audit:quiz && npm run audit:radicals && npm run audit:path && npm run audit:stats && npm run audit:answer && npm run test:srs && npm run test:smoke && npm run test:lesson-first && npm run test:listening",
     "audit:data": "node audit-data.js",
     "audit:beginner": "node audit-jlpt-beginner-adequacy.js",
     "audit:quiz": "node audit-quiz-quality.js",
@@ -15,6 +15,7 @@
     "test:srs": "node scripts/srs-scheduler-test.js",
     "test:smoke": "node scripts/smoke-test.js",
     "test:lesson-first": "node scripts/lernpfad-lesson-first-test.js",
+    "test:listening": "node scripts/listening-variant-test.js",
     "perf:smoke": "node scripts/perf-smoke.js"
   },
   "devDependencies": {
