@@ -523,5 +523,349 @@ window.READING_QUESTIONS = {
       options: ['Wieder auf dem Land', 'Mitten in Tokio', 'In einer Stadt mit dem Besten von Land und Stadt'],
       correct: 2
     }
+  ],
+
+  // --- N2 ---
+  'r-jinkou-chinou-to-shakai': [
+    {
+      q: 'Wovor fürchten sich manche Menschen?',
+      options: ['Dass Arbeitsplätze verschwinden könnten', 'Dass KI zu teuer wird', 'Dass Roboter krank werden'],
+      correct: 0
+    },
+    {
+      q: 'Welche Gegenmeinung nennt der Text?',
+      options: ['KI sollte verboten werden', 'Durch KI entstehen neue Berufe', 'KI ist nur eine Mode'],
+      correct: 1
+    },
+    {
+      q: 'Was ist die Kernaussage des Textes?',
+      options: ['KI wird den Menschen ersetzen', 'KI sollte nur in Fabriken arbeiten', 'Am Ende entscheidet der Mensch, wie KI eingesetzt wird'],
+      correct: 2
+    }
+  ],
+  'r-shoushi-koureika': [
+    {
+      q: 'Welche zwei Entwicklungen beschreibt der Text?',
+      options: ['Weniger Kinder, mehr alte Menschen', 'Mehr Kinder, weniger alte Menschen', 'Mehr Geburten, mehr Hochzeiten'],
+      correct: 0
+    },
+    {
+      q: 'Welche Ursache wird genannt?',
+      options: ['Zu kleine Wohnungen', 'Die hohen Kosten der Kindererziehung', 'Zu lange Arbeitszeiten'],
+      correct: 1
+    },
+    {
+      q: 'Was tut die Regierung?',
+      options: ['Sie senkt die Steuern', 'Sie baut mehr Schulen', 'Sie fördert Maßnahmen zur Unterstützung der Kindererziehung'],
+      correct: 2
+    }
+  ],
+  'r-chikyuu-ondanka': [
+    {
+      q: 'Was gilt als Hauptursache der Erderwärmung?',
+      options: ['Die Zunahme von Gasen wie Kohlendioxid', 'Zu viele Autos in den Städten', 'Das Schmelzen des Eises'],
+      correct: 0
+    },
+    {
+      q: 'Welche Folge nennt der Text?',
+      options: ['Die Winter werden länger', 'Manche Tiere verlieren ihren Lebensraum', 'Es gibt weniger Regen'],
+      correct: 1
+    },
+    {
+      q: 'Was können Einzelne laut Text tun?',
+      options: ['Mehr Bäume pflanzen', 'Weniger fliegen', 'Keinen Strom verschwenden und Fahrrad statt Auto fahren'],
+      correct: 2
+    }
+  ],
+  'r-washoku-no-miryoku': [
+    {
+      q: 'Was geschah 2013 mit der japanischen Küche?',
+      options: ['Sie wurde ins UNESCO-Weltkulturerbe aufgenommen', 'Sie wurde weltweit am beliebtesten', 'Sie bekam ein eigenes Museum'],
+      correct: 0
+    },
+    {
+      q: 'Was ist ein Merkmal der japanischen Küche?',
+      options: ['Viele scharfe Gewürze', 'Den natürlichen Geschmack zu schätzen', 'Große Portionen'],
+      correct: 1
+    },
+    {
+      q: 'Welche Entwicklung beschreibt der Text bei jüngeren Generationen?',
+      options: ['Sie kochen mehr zu Hause', 'Sie essen mehr Fisch', 'Immer mehr mögen westliches Essen'],
+      correct: 2
+    }
+  ],
+  'r-hatarakikata-no-henka': [
+    {
+      q: 'Was kann man bei Remote-Arbeit einsparen?',
+      options: ['Die Pendelzeit', 'Die Miete', 'Das Mittagessen'],
+      correct: 0
+    },
+    {
+      q: 'Welches Problem nennt der Text?',
+      options: ['Die Arbeit dauert länger', 'Das Internet ist zu langsam', 'Manche können sich zu Hause nicht konzentrieren'],
+      correct: 2
+    },
+    {
+      q: 'Wie sieht der Text die Zukunft der Arbeit?',
+      options: ['Alle werden von zu Hause arbeiten', 'Man wird die zu sich passende Arbeitsweise wählen können', 'Büros werden verschwinden'],
+      correct: 1
+    }
+  ],
+  'r-kankou-koregai': [
+    {
+      q: 'Wofür ist der Tourismus wichtig geworden?',
+      options: ['Für die regionale Wirtschaft', 'Für die Bahnunternehmen', 'Für die Hauptstadt'],
+      correct: 0
+    },
+    {
+      q: 'Welches Problem entsteht an berühmten Orten?',
+      options: ['Die Preise sinken', 'Zu viele Menschen drängen sich dort', 'Die Geschäfte schließen'],
+      correct: 1
+    },
+    {
+      q: 'Welche Maßnahmen nennt der Text?',
+      options: ['Mehr Hotels und Flughäfen', 'Werbung im Ausland', 'Besucherobergrenzen und eine Touristensteuer'],
+      correct: 2
+    }
+  ],
+  'r-kyouiku-no-katachi': [
+    {
+      q: 'Wie war der Unterricht früher üblicherweise?',
+      options: ['Man hörte nur dem Lehrer zu', 'Schüler diskutierten viel', 'Jeder lernte mit dem Tablet'],
+      correct: 0
+    },
+    {
+      q: 'Was nimmt laut Text in letzter Zeit zu?',
+      options: ['Unterricht mit mehr Hausaufgaben', 'Unterricht, in dem Schüler selbst denken und diskutieren', 'Unterricht am Abend'],
+      correct: 1
+    },
+    {
+      q: 'Welche Sorge wird genannt?',
+      options: ['Die Schüler werden zu laut', 'Die Lehrer werden arbeitslos', 'Die längere Bildschirmzeit schadet der Gesundheit'],
+      correct: 2
+    }
+  ],
+  'r-shoku-no-henka': [
+    {
+      q: 'Was überwog früher in der japanischen Ernährung?',
+      options: ['Japanische Küche mit Reis und Fisch', 'Fleisch und Brot', 'Westliche Gerichte'],
+      correct: 0
+    },
+    {
+      q: 'Was nimmt laut Text zu?',
+      options: ['Gemeinsames Kochen', 'Auswärtsessen und alleine Essen', 'Vegetarische Ernährung'],
+      correct: 1
+    },
+    {
+      q: 'Welche Ernährung hält der Text für wünschenswert?',
+      options: ['Eine rein traditionelle', 'Eine möglichst schnelle', 'Eine, die Tradition und Bequemlichkeit verbindet'],
+      correct: 2
+    }
+  ],
+  'r-chiiki-no-kasseika': [
+    {
+      q: 'Warum sinkt die Bevölkerung auf dem Land?',
+      options: ['Junge Leute ziehen für Arbeit in die Städte', 'Die Mieten sind zu hoch', 'Das Klima ist zu rau'],
+      correct: 0
+    },
+    {
+      q: 'Welche neuen Versuche zur Belebung gibt es?',
+      options: ['Neue Autobahnen bauen', 'Regionale Produkte online verkaufen', 'Mehr Fabriken ansiedeln'],
+      correct: 1
+    },
+    {
+      q: 'Was ist laut Text der erste Schritt zur Wiederbelebung?',
+      options: ['Mehr Geld vom Staat', 'Größere Schulen', 'Dass jede Region ihre Eigenart pflegt'],
+      correct: 2
+    }
+  ],
+  'r-jouhou-tono-tsukiai': [
+    {
+      q: 'Welches Problem hat das Informationszeitalter laut Text?',
+      options: ['Im Internet ist auch viel Falsches', 'Informationen sind zu teuer', 'Es gibt zu wenige Nachrichten'],
+      correct: 0
+    },
+    {
+      q: 'Welche Fähigkeit braucht man heute?',
+      options: ['Schneller zu lesen', 'Nicht alles zu glauben, sondern selbst zu prüfen', 'Mehr Geräte zu bedienen'],
+      correct: 1
+    },
+    {
+      q: 'Was empfiehlt der Text konkret?',
+      options: ['Nur eine vertrauenswürdige Zeitung lesen', 'Das Internet meiden', 'Mehrere Quellen vergleichen und den Verfasser prüfen'],
+      correct: 2
+    }
+  ],
+
+  // --- N1 ---
+  'r-gengo-to-shikou': [
+    {
+      q: 'Was ist Sprache laut Text über die Kommunikation hinaus?',
+      options: ['Die Grundlage unserer Wahrnehmung und unseres Denkens', 'Ein reines Schulfach', 'Ein Mittel zur Unterhaltung'],
+      correct: 0
+    },
+    {
+      q: 'Was fällt schwer, wenn es für ein Konzept kein Wort gibt?',
+      options: ['Es zu übersetzen', 'Es bewusst wahrzunehmen', 'Es aufzuschreiben'],
+      correct: 1
+    },
+    {
+      q: 'Worin liegt laut Text der Sinn des Sprachenlernens?',
+      options: ['Im beruflichen Vorteil', 'Im Bestehen von Prüfungen', 'Darin, eine neue Denkweise zu gewinnen und Selbstverständliches zu hinterfragen'],
+      correct: 2
+    }
+  ],
+  'r-dentou-no-keishou': [
+    {
+      q: 'Was ist ein Hauptgrund für die kritische Lage der traditionellen Kultur?',
+      options: ['Der Mangel an Nachfolgern', 'Zu strenge Gesetze', 'Fehlendes Interesse der Touristen'],
+      correct: 0
+    },
+    {
+      q: 'Was machen manche Handwerker in den letzten Jahren?',
+      options: ['Sie ziehen in die Städte', 'Sie verbreiten ihre Werke über das Internet weltweit', 'Sie geben ihr Handwerk auf'],
+      correct: 1
+    },
+    {
+      q: 'Wie soll man laut Text mit Tradition umgehen?',
+      options: ['Sie unverändert bewahren', 'Sie durch Neues ersetzen', 'Sie bewahren und zugleich mit der Zeit verändern'],
+      correct: 2
+    }
+  ],
+  'r-uchuu-kaihatsu': [
+    {
+      q: 'Was hat die Kosten der Raumfahrt stark gesenkt?',
+      options: ['Wiederverwendbare Raketen', 'Staatliche Förderung', 'Kleinere Satelliten'],
+      correct: 0
+    },
+    {
+      q: 'Wer steigt heute neben den Staaten in die Raumfahrt ein?',
+      options: ['Universitäten', 'Private Unternehmen', 'Internationale Organisationen'],
+      correct: 1
+    },
+    {
+      q: 'Welche kritische Stimme nennt der Text?',
+      options: ['Raumfahrt sei technisch unmöglich', 'Raumfahrt sei nur Unterhaltung', 'Man dürfe die Probleme der Erde nicht vernachlässigen'],
+      correct: 2
+    }
+  ],
+  'r-guroobaruka-to-tayousei': [
+    {
+      q: 'Wozu führen kulturelle Unterschiede mitunter?',
+      options: ['Zu Missverständnissen oder Konflikten', 'Zu höheren Preisen', 'Zu weniger Reisen'],
+      correct: 0
+    },
+    {
+      q: 'Welche Haltung ist laut Text wichtig?',
+      options: ['Die eigene Kultur aufzugeben', 'Unterschiede anzuerkennen und einander zu respektieren', 'Konflikte zu vermeiden, indem man sich anpasst'],
+      correct: 1
+    },
+    {
+      q: 'Was bewirkt Vielfalt laut Text?',
+      options: ['Sie verhindert jede Zusammenarbeit', 'Sie macht Gesellschaften gleichförmiger', 'Sie erzeugt Reibung, bringt aber neue Werte hervor'],
+      correct: 2
+    }
+  ],
+  'r-dokusho-no-igi': [
+    {
+      q: 'Was ist laut Text schneller, wenn es nur ums Informieren geht?',
+      options: ['Das Internet', 'Das Buch', 'Das Fernsehen'],
+      correct: 0
+    },
+    {
+      q: 'Was erlebt man beim ruhigen Lesen eines Buches?',
+      options: ['Man spart Zeit', 'Man folgt den Gedanken des Autors und begegnet anderen Werten', 'Man lernt schneller Vokabeln'],
+      correct: 1
+    },
+    {
+      q: 'Warum sollte man sich gerade heute Zeit zum Lesen nehmen?',
+      options: ['Weil Bücher billiger geworden sind', 'Weil das Internet unzuverlässig ist', 'Weil der Alltag hektisch ist und ein Buch ein Leben verändern kann'],
+      correct: 2
+    }
+  ],
+  'r-jinkou-chinou-no-rinri': [
+    {
+      q: 'Welche Beispielfrage stellt der Text zu selbstfahrenden Autos?',
+      options: ['Wer bei einem Unfall die Verantwortung trägt', 'Wie schnell sie fahren dürfen', 'Wie teuer sie sein werden'],
+      correct: 0
+    },
+    {
+      q: 'Was passiert, wenn die Lerndaten der KI verzerrt sind?',
+      options: ['Die KI wird langsamer', 'Auch ihre Urteile verzerren sich', 'Die KI hört auf zu lernen'],
+      correct: 1
+    },
+    {
+      q: 'Was ist die Kernaussage des Textes?',
+      options: ['Technik ist von Natur aus gefährlich', 'KI sollte nicht weiterentwickelt werden', 'Die Technik kennt kein Gut und Böse — wie wir sie nutzen, bleibt unsere Aufgabe'],
+      correct: 2
+    }
+  ],
+  'r-kioku-to-rekishi': [
+    {
+      q: 'Wie unterscheidet der Text Erinnerung und Geschichte?',
+      options: ['Erinnerung ist persönlich und gefühlsbetont, Geschichte sucht objektiv zu ordnen', 'Erinnerung ist immer genauer als Geschichte', 'Geschichte handelt nur von Kriegen'],
+      correct: 0
+    },
+    {
+      q: 'Warum gibt es vielleicht keine völlig neutrale Geschichte?',
+      options: ['Weil alte Aufzeichnungen verloren gehen', 'Weil Menschen wählen und deuten, was berichtet wird', 'Weil sich niemand für die Vergangenheit interessiert'],
+      correct: 1
+    },
+    {
+      q: 'Was heißt es laut Text, Geschichte zu lernen?',
+      options: ['Jahreszahlen auswendig zu können', 'Einer einzigen Sicht zu folgen', 'In der Vergangenheit nach Hinweisen für die Zukunft zu suchen'],
+      correct: 2
+    }
+  ],
+  'r-seibutsu-tayousei': [
+    {
+      q: 'Was passiert, wenn eine Art verschwindet?',
+      options: ['Die Wirkung breitet sich auf verbundene Arten aus', 'Nichts, andere Arten ersetzen sie', 'Die Natur erholt sich schneller'],
+      correct: 0
+    },
+    {
+      q: 'Was raubt den Lebewesen ihren Lebensraum?',
+      options: ['Zu viele Zoos', 'Waldzerstörung und Klimawandel', 'Lange Winter'],
+      correct: 1
+    },
+    {
+      q: 'Warum geht uns die Vielfalt laut Text direkt an?',
+      options: ['Weil Nationalparks Geld kosten', 'Weil Tiere schön anzusehen sind', 'Weil auch unsere Nahrung und Gesundheit auf reicher Natur ruhen'],
+      correct: 2
+    }
+  ],
+  'r-minshushugi-to-taiwa': [
+    {
+      q: 'Womit beginnt Demokratie laut Text?',
+      options: ['Damit, dass Menschen verschiedener Ansichten einander zuhören', 'Mit Wahlen alle vier Jahre', 'Mit der Entscheidung der Mehrheit'],
+      correct: 0
+    },
+    {
+      q: 'Was ist laut Text das eigentliche Problem?',
+      options: ['Dass Meinungen aufeinanderprallen', 'Die Haltung, dem anderen nicht zuhören zu wollen', 'Dass Politik zu langsam ist'],
+      correct: 1
+    },
+    {
+      q: 'Was ist die Wurzel einer freien Gesellschaft?',
+      options: ['Starke Anführer', 'Schnelle Entscheidungen', 'Die Geduld, den Dialog fortzusetzen'],
+      correct: 2
+    }
+  ],
+  'r-geijutsu-no-chikara': [
+    {
+      q: 'Was verwandelt Kunst laut Text in Form und Klang?',
+      options: ['Gefühle, die Worte nicht fassen können', 'Politische Meinungen', 'Wissenschaftliche Erkenntnisse'],
+      correct: 0
+    },
+    {
+      q: 'Welches Beispiel für die Kraft der Kunst nennt der Text?',
+      options: ['Ein Bild, das teuer verkauft wird', 'Ein Lied, das in schwerer Stunde ein Herz retten kann', 'Ein Museum, das Touristen anzieht'],
+      correct: 1
+    },
+    {
+      q: 'Wie lässt sich der Wert der Kunst laut Text messen?',
+      options: ['Am Marktpreis', 'An der Zahl der Besucher', 'Nicht am Maßstab der Nützlichkeit'],
+      correct: 2
+    }
   ]
 };

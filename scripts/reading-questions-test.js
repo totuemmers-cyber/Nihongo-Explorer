@@ -165,6 +165,11 @@ async function run() {
   await waitFor(function () {
     return document.getElementById('reading-grid').children.length > 0;
   }, { description: 'reading section load' });
+  // All 50 passages ship with questions now, so the "passage without questions"
+  // code path needs a synthetic case: strip one passage's questions at runtime.
+  assert(window.READING_QUESTIONS && window.READING_QUESTIONS['r-chikyuu-ondanka'],
+    'questions data loaded with the reading section');
+  delete window.READING_QUESTIONS['r-chikyuu-ondanka'];
   const search = document.getElementById('reading-search-input');
   search.value = 'Mein Morgen';
   search.dispatchEvent(new window.Event('input', { bubbles: true }));
@@ -224,7 +229,7 @@ async function run() {
   assert(!document.querySelector('#reading-detail-questions .reading-quiz-q.locked'),
     'reset clears all answers');
 
-  // A passage without questions (N2+, not yet covered) shows no block.
+  // A passage without questions (synthetically stripped above) shows no block.
   document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
   await waitFor(function () {
     return document.getElementById('reading-detail-overlay').classList.contains('hidden');
