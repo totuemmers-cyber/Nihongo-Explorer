@@ -2399,6 +2399,37 @@ main {
   display: none;
 }
 
+/* Lernpfad reading strip: one recommended passage under the progress row */
+.path-reading-next {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.path-reading-next:hover {
+  border-color: var(--text-secondary);
+}
+
+.path-reading-next-title {
+  font-weight: 600;
+}
+
+.path-reading-next-meta {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
 /* Hörmodus (audio-first): text stays in flow but is unreadable + untappable */
 .reading-text.listen-hidden {
   filter: blur(10px);

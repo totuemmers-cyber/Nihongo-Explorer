@@ -2102,6 +2102,11 @@ var ReadingDetail = (function () {
 
     renderBody(r);
     renderQuestions(r);
+    // Reading counts toward the Lernpfad's reading progress, whichever route
+    // opened the passage (Lesen tab, Lernpfad strip, bookmark).
+    if (window.LearningPath && window.LearningPath.notePassageReadById) {
+      window.LearningPath.notePassageReadById(r.id);
+    }
     wireToolbar();
     translateAll = false;
     textHidden = listenFirstOn();

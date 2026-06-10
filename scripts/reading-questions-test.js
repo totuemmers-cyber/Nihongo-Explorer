@@ -299,6 +299,51 @@ async function run() {
   assert(!document.querySelector('#reading-listen-notice .reading-listen-bar'),
     'toggle off removes the notice bar');
 
+  // === Lernpfad reading strip ===
+  // Opening passages above marked them read; the strip counts the N5 one.
+  document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
+  await waitFor(function () {
+    return document.getElementById('reading-detail-overlay').classList.contains('hidden');
+  }, { description: 'passage closes before the Lernpfad check' });
+  const pathAfterReads = await window.SRSStore.getPathState();
+  assert(pathAfterReads && Array.isArray(pathAfterReads.readPassages) &&
+    pathAfterReads.readPassages.indexOf('r-watashi-no-asa') !== -1,
+    'opening a passage marks it read in pathState');
+
+  click(document.querySelector('[data-tab="path"]'), window);
+  await waitFor(function () {
+    const count = document.querySelector('#path-content .path-reading-strip .path-level-count');
+    return count && count.textContent.indexOf('gelesen') !== -1;
+  }, { description: 'Lernpfad shows the reading strip' });
+  const stripCount = document.querySelector('#path-content .path-reading-strip .path-level-count');
+  assert(stripCount.textContent.indexOf('1 / 10 gelesen') !== -1,
+    'strip counts the read N5 passage, got: ' + stripCount.textContent);
+
+  // The recommendation is the first UNREAD passage of the level.
+  const nextBtn = document.querySelector('#path-content .path-reading-next');
+  assert(nextBtn, 'strip recommends a next passage');
+  assert(nextBtn.textContent.indexOf('Mein Morgen') === -1,
+    'an already-read passage is not recommended');
+
+  // Opening it stays on the Lernpfad (overlay in place) and marks it read.
+  const recommendedTitle = nextBtn.querySelector('.path-reading-next-title').textContent;
+  click(nextBtn, window);
+  await waitFor(function () {
+    return !document.getElementById('reading-detail-overlay').classList.contains('hidden');
+  }, { description: 'recommended passage opens in place' });
+  assert(window.app.activeTab === 'path', 'opening from the strip stays on the Lernpfad');
+  assert(document.getElementById('reading-detail-subtitle').textContent === recommendedTitle,
+    'the recommended passage is the one that opens');
+  // Two passages were already read (Mein Morgen, Verhalten im Zug); the
+  // recommendation makes three.
+  let readCount2 = 0;
+  for (let i = 0; i < 40 && readCount2 < 3; i++) {
+    const ps = await window.SRSStore.getPathState();
+    readCount2 = (ps && ps.readPassages ? ps.readPassages.length : 0);
+    if (readCount2 < 3) await new Promise(function (r) { setTimeout(r, 25); });
+  }
+  assert(readCount2 === 3, 'opening the recommended passage marks it read too, got ' + readCount2);
+
   dom.window.close();
   console.log('Reading questions test passed.');
 }

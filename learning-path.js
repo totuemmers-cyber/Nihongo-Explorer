@@ -149,6 +149,7 @@
       startLevel: LEVELS.indexOf(p.startLevel) !== -1 ? p.startLevel : 'N5',
       skippedItems: Array.isArray(p.skippedItems) ? p.skippedItems : [],
       readLessons: Array.isArray(p.readLessons) ? p.readLessons : [],
+      readPassages: Array.isArray(p.readPassages) ? p.readPassages : [],
       newDaily: daily,
       lastSessionAt: p.lastSessionAt || null,
       // Motivation tracking: a daily streak and the highest level already announced.
@@ -1271,7 +1272,84 @@
     });
 
     box.appendChild(buildLessonStrip(model));
+    box.appendChild(buildReadingStrip(model));
     return box;
+  }
+
+  // Compact reading progress for the current level, same look as the lesson
+  // strip: a progress row plus ONE recommended unread passage. Passages open in
+  // place (overlay over the Lernpfad) and are marked read by the reading section
+  // itself, so progress also counts when the learner reads from the Lesen tab.
+  function buildReadingStrip(model) {
+    var strip = el('div', 'path-lesson-strip path-reading-strip');
+    var head = el('div', 'path-lesson-strip-head');
+    head.appendChild(el('span', 'path-section-title', 'Lesestücke'));
+    var link = el('button', 'path-lessons-more-link', 'Alle ansehen');
+    link.addEventListener('click', function () {
+      if (window.app) window.app.switchTab('reading');
+    });
+    head.appendChild(link);
+    strip.appendChild(head);
+
+    var body = el('div', 'path-lesson-strip-body');
+    strip.appendChild(body);
+
+    if (!window.app || !window.app.ensureSectionLoaded) {
+      body.appendChild(el('div', 'review-empty-hint', 'Lesestücke nicht verfügbar.'));
+      return strip;
+    }
+    body.appendChild(el('div', 'review-empty-hint', 'Lesestücke werden geladen…'));
+    window.app.ensureSectionLoaded('reading').then(function () {
+      populateReadingStrip(body, model);
+    }).catch(function () {
+      body.innerHTML = '';
+      body.appendChild(el('div', 'review-empty-hint', 'Lesestücke nicht verfügbar.'));
+    });
+    return strip;
+  }
+
+  function populateReadingStrip(body, model) {
+    body.innerHTML = '';
+    var level = model.progress.currentLevel;
+    var read = model.path.readPassages || [];
+    var passages = (window.READING_DATA || []).filter(function (p) {
+      return p.level === level;
+    });
+    if (!passages.length) {
+      body.appendChild(el('div', 'review-empty-hint', 'Keine Lesestücke für ' + level + '.'));
+      return;
+    }
+    var readCount = passages.filter(function (p) { return read.indexOf(p.id) !== -1; }).length;
+
+    var row = el('div', 'path-level-row');
+    var head = el('div', 'path-level-head');
+    head.appendChild(el('span', 'path-level-badge ' + level, level));
+    head.appendChild(el('span', 'path-level-count', readCount + ' / ' + passages.length + ' gelesen'));
+    row.appendChild(head);
+
+    var bar = el('div', 'path-bar');
+    if (readCount) {
+      var seg = el('div', 'path-bar-seg seg-mastered');
+      seg.style.width = (readCount / passages.length * 100) + '%';
+      bar.appendChild(seg);
+    }
+    row.appendChild(bar);
+    body.appendChild(row);
+
+    var next = passages.filter(function (p) { return read.indexOf(p.id) === -1; })[0];
+    if (!next) {
+      body.appendChild(el('div', 'review-empty-hint', 'Alle Lesestücke dieses Levels gelesen — stark!'));
+      return;
+    }
+    var open = el('button', 'path-reading-next');
+    open.appendChild(el('span', 'path-reading-next-title', next.titleDe || next.title));
+    open.appendChild(el('span', 'path-reading-next-meta',
+      next.category + ' · ' + next.title));
+    open.addEventListener('click', function () {
+      if (window.app) window.app.playPop();
+      openItemDetail('reading', next);
+    });
+    body.appendChild(open);
   }
 
   // Compact lesson-reading progress, folded into the Fortschritt card. The full
@@ -1651,6 +1729,43 @@
         }
       });
     }
+  }
+
+  // Reading a passage is study activity, exactly like reading a lesson: it keeps
+  // the streak alive and logs a gradeless event (heatmap yes, accuracy no).
+  function recordPassageActivity(path, id) {
+    markStudyDay(path);
+    if (window.SRSStore && window.SRSStore.addEvent) {
+      window.SRSStore.addEvent({
+        eventId: 'reading-' + Date.now() + '-' + Math.random().toString(36).slice(2),
+        type: 'reading',
+        passageId: id,
+        reviewedAt: Date.now()
+      }).catch(function (err) {
+        if (window.console && console.warn) {
+          console.warn('Lernpfad: Leseereignis konnte nicht gespeichert werden.', err);
+        }
+      });
+    }
+  }
+
+  // Called by the reading section whenever a passage detail opens (any route, not
+  // just from the Lernpfad), so reading progress counts wherever it happens.
+  // Serialized get-modify-save like noteLessonReadById so writes can't get lost.
+  var passageReadChain = Promise.resolve();
+  function notePassageReadById(id) {
+    passageReadChain = passageReadChain.then(function () {
+      if (!window.SRSStore || !window.SRSStore.getPathState) return;
+      return window.SRSStore.getPathState().then(function (raw) {
+        var path = normalizePath(raw);
+        if (path.readPassages.indexOf(id) === -1) {
+          path.readPassages.push(id);
+          recordPassageActivity(path, id);
+        }
+        return savePathStateSafe(path);
+      });
+    }).catch(function () {});
+    return passageReadChain;
   }
 
   function markLessonRead(model, id) {
@@ -2176,6 +2291,7 @@
     noteNewCardIntroduced: noteNewCardIntroduced,
     noteNewCardUndone: noteNewCardUndone,
     noteLessonReadById: noteLessonReadById,
+    notePassageReadById: notePassageReadById,
     // exposed for audit/testing
     _engine: {
       LEVELS: LEVELS,
