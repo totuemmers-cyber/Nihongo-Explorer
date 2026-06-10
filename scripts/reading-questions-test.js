@@ -224,21 +224,21 @@ async function run() {
   assert(!document.querySelector('#reading-detail-questions .reading-quiz-q.locked'),
     'reset clears all answers');
 
-  // A passage without questions (N3+, not yet covered) shows no block.
+  // A passage without questions (N2+, not yet covered) shows no block.
   document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
   await waitFor(function () {
     return document.getElementById('reading-detail-overlay').classList.contains('hidden');
   }, { description: 'passage overlay closes' });
-  search.value = 'Verhalten im Zug';
+  search.value = 'Erwärmung';
   search.dispatchEvent(new window.Event('input', { bubbles: true }));
   await waitFor(function () {
     const card = document.querySelector('#reading-grid .reading-card');
-    return card && card.textContent.indexOf('Verhalten im Zug') !== -1;
-  }, { description: 'N3 passage search result' });
+    return card && card.textContent.indexOf('Erwärmung') !== -1;
+  }, { description: 'N2 passage search result' });
   click(document.querySelector('#reading-grid .reading-card'), window);
   await waitFor(function () {
     return !document.getElementById('reading-detail-overlay').classList.contains('hidden');
-  }, { description: 'N3 passage opens' });
+  }, { description: 'N2 passage opens' });
   assert(!document.querySelector('#reading-detail-questions .reading-quiz'),
     'passage without questions shows no block');
 
@@ -275,7 +275,7 @@ async function run() {
   document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
   await waitFor(function () {
     return document.getElementById('reading-detail-overlay').classList.contains('hidden');
-  }, { description: 'N3 passage closes' });
+  }, { description: 'N2 passage closes' });
   search.value = 'Mein Morgen';
   search.dispatchEvent(new window.Event('input', { bubbles: true }));
   await waitFor(function () {
@@ -334,7 +334,7 @@ async function run() {
   assert(window.app.activeTab === 'path', 'opening from the strip stays on the Lernpfad');
   assert(document.getElementById('reading-detail-subtitle').textContent === recommendedTitle,
     'the recommended passage is the one that opens');
-  // Two passages were already read (Mein Morgen, Verhalten im Zug); the
+  // Two passages were already read (Mein Morgen, Die globale Erwärmung); the
   // recommendation makes three.
   let readCount2 = 0;
   for (let i = 0; i < 40 && readCount2 < 3; i++) {

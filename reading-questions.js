@@ -351,5 +351,177 @@ window.READING_QUESTIONS = {
       options: ['Man braucht Talent zum Schwimmen', 'Wer dranbleibt, schafft auch Schwieriges', 'Schwimmen ist nichts für sie'],
       correct: 1
     }
+  ],
+
+  // --- N3 ---
+  'r-sumaho-to-seikatsu': [
+    {
+      q: 'Welches Problem nennt der Text?',
+      options: ['Smartphones sind zu teuer', 'Die Augen ermüden bei langem Blick auf den Bildschirm', 'Die Akkus halten nicht lange'],
+      correct: 1
+    },
+    {
+      q: 'Was ist laut Text sehr gefährlich?',
+      options: ['Beim Gehen das Smartphone zu benutzen', 'Im Zug Musik zu hören', 'Abends Nachrichten zu lesen'],
+      correct: 0
+    },
+    {
+      q: 'Was ist die Hauptaussage des Textes?',
+      options: ['Man sollte Smartphones abschaffen', 'Smartphones sind nur für junge Leute', 'Das Smartphone ist nützlich, aber die Art der Nutzung ist entscheidend'],
+      correct: 2
+    }
+  ],
+  'r-densha-no-manaa': [
+    {
+      q: 'Was darf man im Zug nicht tun?',
+      options: ['Mails schreiben', 'Spiele spielen', 'Mit dem Handy telefonieren'],
+      correct: 2
+    },
+    {
+      q: 'Was macht man mit dem Rucksack, wenn der Zug voll ist?',
+      options: ['Man trägt ihn vorne', 'Man stellt ihn auf den Boden', 'Man legt ihn ins Gepäckfach'],
+      correct: 0
+    },
+    {
+      q: 'Warum sollte man auf Reisen aufpassen?',
+      options: ['Weil Züge im Ausland teurer sind', 'Weil die Regeln je nach Land unterschiedlich sind', 'Weil Züge im Ausland oft verspätet sind'],
+      correct: 1
+    }
+  ],
+  'r-kenkou-na-seikatsu': [
+    {
+      q: 'Was ist laut Text die Grundlage der Gesundheit?',
+      options: ['Viel Sport', 'Eine ausgewogene Ernährung', 'Genug Vitamintabletten'],
+      correct: 1
+    },
+    {
+      q: 'Was machen manche Leute, statt den Aufzug zu nehmen?',
+      options: ['Sie benutzen die Treppe', 'Sie gehen zu Fuß zur Arbeit', 'Sie fahren Fahrrad'],
+      correct: 0
+    },
+    {
+      q: 'Was passiert, wenn man zu wenig schläft?',
+      options: ['Man bekommt mehr Hunger', 'Man wird schneller alt', 'Der Kopf arbeitet am nächsten Tag nicht'],
+      correct: 2
+    }
+  ],
+  'r-hajimete-no-arubaito': [
+    {
+      q: 'Wo jobbt die Person?',
+      options: ['In einem Café', 'In einem Konbini', 'In einer Buchhandlung'],
+      correct: 0
+    },
+    {
+      q: 'Was war am Anfang schwer?',
+      options: ['Früh aufzustehen', 'Sich die Bestellungen zu merken', 'Die Kasse zu bedienen'],
+      correct: 1
+    },
+    {
+      q: 'Wer hat der Person geholfen?',
+      options: ['Ein Freund von der Uni', 'Der Chef', 'Eine erfahrene Kollegin'],
+      correct: 2
+    }
+  ],
+  'r-gomi-to-risaikuru': [
+    {
+      q: 'Was wird recycelt?',
+      options: ['Brennbarer Müll', 'PET-Flaschen und Dosen', 'Altes Geschirr'],
+      correct: 1
+    },
+    {
+      q: 'Was passiert, wenn man die Trennregeln nicht befolgt?',
+      options: ['Der Müll wird nicht abgeholt', 'Man zahlt eine Strafe', 'Die Stadt schickt einen Brief'],
+      correct: 0
+    },
+    {
+      q: 'Was schützt laut Text die Umwelt?',
+      options: ['Nur große Firmen', 'Die Regierung allein', 'Die kleinen Bemühungen jedes Einzelnen'],
+      correct: 2
+    }
+  ],
+  'r-okane-no-tsukaikata': [
+    {
+      q: 'Seit wann spart die Person Geld?',
+      options: ['Seit der Grundschule', 'Seit der Oberschule', 'Seit der Universität'],
+      correct: 1
+    },
+    {
+      q: 'Was macht die Person, wenn sie etwas kaufen will?',
+      options: ['Sie wartet eine Woche und prüft, ob sie es noch will', 'Sie kauft es sofort', 'Sie fragt ihre Eltern um Erlaubnis'],
+      correct: 0
+    },
+    {
+      q: 'Was möchte die Person mit dem gesparten Geld machen?',
+      options: ['Ein Auto kaufen', 'Einen Computer kaufen', 'Verreisen'],
+      correct: 2
+    }
+  ],
+  'r-suimin-no-taisetsusa': [
+    {
+      q: 'Wie lange sollen Erwachsene laut Forschung schlafen?',
+      options: ['Etwa fünf Stunden', 'Etwa neun Stunden', 'Etwa sieben Stunden'],
+      correct: 2
+    },
+    {
+      q: 'Was sollte man vor dem Schlafengehen besser nicht tun?',
+      options: ['Aufs Handy schauen', 'Ein Buch lesen', 'Etwas Warmes trinken'],
+      correct: 0
+    },
+    {
+      q: 'Was passiert tagsüber bei zu wenig Schlaf?',
+      options: ['Man hat mehr Energie', 'Man kann sich nicht konzentrieren', 'Man bekommt bessere Laune'],
+      correct: 1
+    }
+  ],
+  'r-sns-tono-tsukiai': [
+    {
+      q: 'Was ist laut Text ein Vorteil sozialer Medien?',
+      options: ['Man bleibt leicht mit fernen Freunden in Kontakt', 'Man schläft besser', 'Man spart Geld'],
+      correct: 0
+    },
+    {
+      q: 'Warum werden manche Menschen traurig?',
+      options: ['Sie bekommen zu wenige Nachrichten', 'Sie verlieren ihre Freunde', 'Sie vergleichen ihr Leben mit dem anderer'],
+      correct: 2
+    },
+    {
+      q: 'Was hält die Person für wichtig?',
+      options: ['Soziale Medien ganz zu meiden', 'Sie nur zu festgelegten Zeiten zu nutzen', 'Mehrere Konten zu haben'],
+      correct: 1
+    }
+  ],
+  'r-borantia-taiken': [
+    {
+      q: 'Was war das Ziel der Freiwilligenaktion?',
+      options: ['Bäume zu pflanzen', 'Den Stadtpark zu säubern', 'Geld für die Stadt zu sammeln'],
+      correct: 1
+    },
+    {
+      q: 'Wie lange dauerte es, bis der Park sauber war?',
+      options: ['Zwei Stunden', 'Eine Stunde', 'Einen ganzen Tag'],
+      correct: 0
+    },
+    {
+      q: 'Wie fühlte sich die Person nach der Aktion?',
+      options: ['Sie war enttäuscht', 'Sie war nur müde', 'Sie hatte ihre Stadt lieber gewonnen'],
+      correct: 2
+    }
+  ],
+  'r-inaka-to-tokai': [
+    {
+      q: 'Wie lange lebte die Person auf dem Land?',
+      options: ['Bis sie achtzehn war', 'Bis sie fünfzehn war', 'Bis sie zwanzig war'],
+      correct: 0
+    },
+    {
+      q: 'Was war auf dem Land manchmal unpraktisch?',
+      options: ['Die Luft war schlecht', 'Es gab wenige Geschäfte und Züge', 'Es gab zu viele Menschen'],
+      correct: 1
+    },
+    {
+      q: 'Wo möchte die Person in Zukunft leben?',
+      options: ['Wieder auf dem Land', 'Mitten in Tokio', 'In einer Stadt mit dem Besten von Land und Stadt'],
+      correct: 2
+    }
   ]
 };
