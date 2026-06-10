@@ -4,7 +4,7 @@ const { spawnSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const CHECK_EXTENSIONS = new Set(['.js', '.html', '.css']);
-const IGNORE_DIRS = new Set(['.git', 'node_modules', 'scripts']);
+const IGNORE_DIRS = new Set(['.git', 'node_modules', 'scripts', 'vendor']);
 const MOJIBAKE_PATTERN = /(?:Ã.|â.|ã[\u0080-\u00BF]|æ[\u0080-\u00BF]|å[\u0080-\u00BF])/;
 
 function walk(dir, files) {

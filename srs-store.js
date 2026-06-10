@@ -333,6 +333,10 @@
   function resetProgress() {
     return clearAll().then(function () {
       return deleteMeta('pathState');
+    }).then(function () {
+      // Replace the cloud copy too — a reset that silently survives on the
+      // server would just merge itself back on the next sync.
+      if (window.SRSSync && window.SRSSync.notifyLocalChange) window.SRSSync.notifyLocalChange();
     });
   }
 
@@ -499,6 +503,9 @@
   }
 
   function scheduleBackup() {
+    // Single choke point for "local state changed": also wake the optional
+    // cloud sync (sync.js), which debounces its own upload.
+    if (window.SRSSync && window.SRSSync.notifyLocalChange) window.SRSSync.notifyLocalChange();
     if (pendingBackupTimer) clearTimeout(pendingBackupTimer);
     pendingBackupTimer = setTimeout(function () {
       pendingBackupTimer = null;

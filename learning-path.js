@@ -892,6 +892,8 @@
       // Fortschritt box next to it, so they grow here without moving anything else.
       var settingsRow = el('div', 'path-settings-row');
       settingsRow.appendChild(buildBackupPanel(model));
+      var syncPanel = buildSyncPanel(model);
+      if (syncPanel) settingsRow.appendChild(syncPanel);
       settingsRow.appendChild(buildMaintenancePanel(model));
       shell.appendChild(settingsRow);
 
@@ -1914,6 +1916,148 @@
     return panel.box;
   }
 
+  function formatSyncLabel(s) {
+    var base = s.signedIn ? 'Angemeldet als ' + s.email : 'Nicht angemeldet.';
+    if (s.lastError) return base + ' — ' + s.lastError;
+    if (s.signedIn && s.pending) return base + ' — Synchronisierung ausstehend…';
+    if (s.signedIn && s.lastSyncAt) return base + ' — zuletzt synchronisiert: ' + new Date(s.lastSyncAt).toLocaleString();
+    return base;
+  }
+
+  // Optional cloud sync (Supabase), folded into "So lerne ich" next to the
+  // backup panel. Renders nothing when sync.js is missing or not configured —
+  // the app then behaves exactly as before.
+  function buildSyncPanel(model) {
+    if (!window.SRSSync || !window.SRSSync.isAvailable()) return null;
+    var panel = collapsiblePanel('Cloud-Sync (optional)');
+    var inner = panel.inner;
+    var sync = window.SRSSync;
+
+    inner.appendChild(el('div', 'path-drills-hint',
+      'Optional: Melde dich mit deiner E-Mail-Adresse an, um deinen Lernfortschritt '
+      + 'auf mehreren Geräten zu synchronisieren. Die App funktioniert auch ohne Konto '
+      + 'vollständig — alle Daten bleiben dann nur auf diesem Gerät. '
+      + 'Gespeichert werden nur deine E-Mail-Adresse und dein Lernfortschritt.'));
+
+    var status = el('div', 'path-settings-status', formatSyncLabel(sync.getStatus()));
+
+    if (!sync.getStatus().signedIn) {
+      var emailInput = document.createElement('input');
+      emailInput.type = 'email';
+      emailInput.className = 'review-answer-input';
+      emailInput.placeholder = 'E-Mail-Adresse';
+      emailInput.autocomplete = 'email';
+      inner.appendChild(emailInput);
+
+      var requestBtn = el('button', 'quiz-btn quiz-btn-next', 'Anmelde-Code anfordern');
+      inner.appendChild(requestBtn);
+
+      var codeInput = document.createElement('input');
+      codeInput.type = 'text';
+      codeInput.className = 'review-answer-input hidden';
+      codeInput.placeholder = '6-stelliger Code aus der E-Mail';
+      codeInput.inputMode = 'numeric';
+      codeInput.autocomplete = 'one-time-code';
+      inner.appendChild(codeInput);
+
+      var verifyBtn = el('button', 'quiz-btn quiz-btn-next hidden', 'Anmelden');
+      inner.appendChild(verifyBtn);
+
+      requestBtn.addEventListener('click', function () {
+        var email = emailInput.value.trim();
+        if (!email || email.indexOf('@') === -1) {
+          status.textContent = 'Bitte eine gültige E-Mail-Adresse eingeben.';
+          return;
+        }
+        requestBtn.disabled = true;
+        status.textContent = 'Code wird gesendet…';
+        sync.requestCode(email).then(function () {
+          requestBtn.disabled = false;
+          codeInput.classList.remove('hidden');
+          verifyBtn.classList.remove('hidden');
+          status.textContent = 'Code gesendet — bitte E-Mail-Postfach prüfen (ggf. Spam-Ordner).';
+          codeInput.focus();
+        }).catch(function (err) {
+          requestBtn.disabled = false;
+          status.textContent = (err && err.message) || 'Code konnte nicht gesendet werden.';
+        });
+      });
+
+      verifyBtn.addEventListener('click', function () {
+        var email = emailInput.value.trim();
+        var token = codeInput.value.trim();
+        if (!token) {
+          status.textContent = 'Bitte den Code aus der E-Mail eingeben.';
+          return;
+        }
+        verifyBtn.disabled = true;
+        status.textContent = 'Anmeldung läuft…';
+        sync.verifyCode(email, token).then(function () {
+          if (window.SRSUI && window.SRSUI.updateReviewBadge) window.SRSUI.updateReviewBadge();
+          if (window.app && window.app.playPop) window.app.playPop();
+          render(); // re-render shows the signed-in panel + any merged progress
+        }).catch(function (err) {
+          verifyBtn.disabled = false;
+          status.textContent = (err && err.message) || 'Anmeldung fehlgeschlagen.';
+        });
+      });
+    } else {
+      var syncBtn = el('button', 'quiz-btn quiz-btn-next', 'Jetzt synchronisieren');
+      syncBtn.addEventListener('click', function () {
+        syncBtn.disabled = true;
+        status.textContent = 'Synchronisierung läuft…';
+        sync.syncNow().then(function () {
+          syncBtn.disabled = false;
+          status.textContent = formatSyncLabel(sync.getStatus());
+          if (window.SRSUI && window.SRSUI.updateReviewBadge) window.SRSUI.updateReviewBadge();
+        }).catch(function (err) {
+          syncBtn.disabled = false;
+          status.textContent = (err && err.message) || 'Synchronisierung fehlgeschlagen.';
+        });
+      });
+      inner.appendChild(syncBtn);
+
+      var signOutBtn = el('button', 'quiz-btn quiz-btn-back', 'Abmelden');
+      signOutBtn.addEventListener('click', function () {
+        signOutBtn.disabled = true;
+        sync.signOut().then(render);
+      });
+      inner.appendChild(signOutBtn);
+
+      inner.appendChild(el('div', 'path-settings-status path-danger-hint',
+        'Konto löschen entfernt deine Daten dauerhaft vom Server. '
+        + 'Der Fortschritt auf diesem Gerät bleibt erhalten. '
+        + 'Hinweis: Wird der Fortschritt auf einem Gerät zurückgesetzt, können andere '
+        + 'angemeldete Geräte ihre lokale Kopie wieder hochladen.'));
+      var deleteBtn = el('button', 'quiz-btn quiz-btn-danger', 'Konto & Cloud-Daten löschen');
+      deleteBtn.addEventListener('click', function () {
+        if (!window.confirm('Konto und alle Cloud-Daten dauerhaft löschen?\n\nDein Lernfortschritt auf diesem Gerät bleibt erhalten, aber die Synchronisierung wird beendet und die Server-Kopie gelöscht.\n\nDies kann nicht rückgängig gemacht werden.')) {
+          return;
+        }
+        deleteBtn.disabled = true;
+        status.textContent = 'Konto wird gelöscht…';
+        sync.deleteAccount().then(render).catch(function (err) {
+          deleteBtn.disabled = false;
+          status.textContent = (err && err.message) || 'Konto konnte nicht gelöscht werden.';
+        });
+      });
+      inner.appendChild(deleteBtn);
+    }
+
+    inner.appendChild(status);
+
+    var privacy = el('div', 'path-drills-hint');
+    var privacyLink = document.createElement('a');
+    privacyLink.href = 'datenschutz.html';
+    privacyLink.target = '_blank';
+    privacyLink.rel = 'noopener';
+    privacyLink.textContent = 'Datenschutzerklärung';
+    privacy.appendChild(privacyLink);
+    inner.appendChild(privacy);
+
+    return panel.box;
+  }
+
   // Maintenance & advanced controls, folded into "So lerne ich": leech
   // auto-suspend, the progress diagnostics, and the full-reset danger zone.
   function buildMaintenancePanel(model) {
@@ -2281,6 +2425,15 @@
       })).then(function () { return diag.orphanKeys.length; });
     });
   }
+
+  // After a cloud pull merged remote progress into local state, refresh the
+  // review badge and — if the Lernpfad tab is showing — the whole view.
+  // (Guarded: the audit harness runs this file with a window stub.)
+  if (window.addEventListener) window.addEventListener('srs-sync-applied', function () {
+    if (window.SRSUI && window.SRSUI.updateReviewBadge) window.SRSUI.updateReviewBadge();
+    var tab = document.querySelector('.tab-btn[data-tab="path"]');
+    if (tab && tab.classList.contains('active') && ensurePanel()) render();
+  });
 
   window.LearningPath = {
     onTabActivate: onTabActivate,
