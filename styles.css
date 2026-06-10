@@ -5643,10 +5643,7 @@ main {
 }
 
 body {
-  background:
-    radial-gradient(circle at top left, rgba(39, 93, 244, 0.06), transparent 28%),
-    radial-gradient(circle at top right, rgba(124, 58, 237, 0.05), transparent 24%),
-    var(--bg);
+  background: var(--bg);
 }
 
 .header {
@@ -7046,4 +7043,413 @@ body {
 
 @media (max-width: 480px) {
   .theme-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ==========================================
+   LIQUID GLASS SYSTEM
+   Translucent material layer over all 18 themes.
+   Tokens derive from each theme's --bg / --bg-card / --accent
+   via color-mix() on <html>, so no per-theme tuning is needed.
+   ========================================== */
+
+:root {
+  /* surfaces */
+  --glass-bg:        color-mix(in srgb, var(--bg-card) 72%, transparent); /* cards, controls */
+  --glass-bg-strong: color-mix(in srgb, var(--bg-card) 84%, transparent); /* sheets, panels */
+  --glass-chrome:    color-mix(in srgb, var(--bg) 58%, transparent);      /* header chrome */
+  /* edges & light */
+  --glass-border:    color-mix(in srgb, var(--accent) 10%, rgba(255,255,255,0.55));
+  --glass-highlight: rgba(255,255,255,0.75);
+  --glass-sheen:     linear-gradient(160deg, rgba(255,255,255,0.38), rgba(255,255,255,0) 42%);
+  /* depth */
+  --glass-blur: 20px;
+  --glass-blur-strong: 28px;
+  --glass-shadow: 0 8px 32px color-mix(in srgb, var(--accent) 10%, rgba(15,23,42,0.10));
+  --glass-glow: 0 4px 18px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+[data-mode="dark"] {
+  --glass-bg:        color-mix(in srgb, var(--bg-card) 64%, transparent);
+  --glass-bg-strong: color-mix(in srgb, var(--bg-card) 80%, transparent);
+  --glass-chrome:    color-mix(in srgb, var(--bg) 55%, transparent);
+  --glass-border:    color-mix(in srgb, var(--accent) 14%, rgba(255,255,255,0.12));
+  --glass-highlight: rgba(255,255,255,0.12);
+  --glass-sheen:     linear-gradient(160deg, rgba(255,255,255,0.07), rgba(255,255,255,0) 42%);
+  --glass-shadow: 0 8px 32px rgba(0,0,0,0.35), 0 0 24px color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+/* --- Background mesh: soft accent-tinted blobs the glass can refract --- */
+body::before {
+  content: '';
+  position: fixed;
+  inset: -10%;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(42% 36% at 12% 10%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 70%),
+    radial-gradient(36% 30% at 88% 6%,  color-mix(in srgb, var(--accent-hover) 11%, transparent), transparent 70%),
+    radial-gradient(48% 42% at 72% 92%, color-mix(in srgb, var(--accent) 9%, transparent), transparent 70%);
+}
+
+[data-mode="dark"] body::before {
+  background:
+    radial-gradient(42% 36% at 12% 10%, color-mix(in srgb, var(--accent) 17%, transparent), transparent 70%),
+    radial-gradient(36% 30% at 88% 6%,  color-mix(in srgb, var(--accent-hover) 14%, transparent), transparent 70%),
+    radial-gradient(48% 42% at 72% 92%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 70%);
+}
+
+/* --- Semantic tints: one translucent recipe for every chip family,
+       both modes, all themes (replaces the solid pastel -bg/-border) --- */
+:root {
+  --tint-bg-pct: 12%;
+  --tint-border-pct: 38%;
+
+  --n5-bg: color-mix(in srgb, var(--n5) var(--tint-bg-pct), transparent);
+  --n5-border: color-mix(in srgb, var(--n5) var(--tint-border-pct), transparent);
+  --n4-bg: color-mix(in srgb, var(--n4) var(--tint-bg-pct), transparent);
+  --n4-border: color-mix(in srgb, var(--n4) var(--tint-border-pct), transparent);
+  --n3-bg: color-mix(in srgb, var(--n3) var(--tint-bg-pct), transparent);
+  --n3-border: color-mix(in srgb, var(--n3) var(--tint-border-pct), transparent);
+  --n2-bg: color-mix(in srgb, var(--n2) var(--tint-bg-pct), transparent);
+  --n2-border: color-mix(in srgb, var(--n2) var(--tint-border-pct), transparent);
+  --n1-bg: color-mix(in srgb, var(--n1) var(--tint-bg-pct), transparent);
+  --n1-border: color-mix(in srgb, var(--n1) var(--tint-border-pct), transparent);
+  --counter-shift-bg: color-mix(in srgb, var(--counter-shift) var(--tint-bg-pct), transparent);
+  --counter-shift-border: color-mix(in srgb, var(--counter-shift) var(--tint-border-pct), transparent);
+
+  --cat-partikel-bg: color-mix(in srgb, var(--cat-partikel) var(--tint-bg-pct), transparent);
+  --cat-partikel-border: color-mix(in srgb, var(--cat-partikel) var(--tint-border-pct), transparent);
+  --cat-verben-bg: color-mix(in srgb, var(--cat-verben) var(--tint-bg-pct), transparent);
+  --cat-verben-border: color-mix(in srgb, var(--cat-verben) var(--tint-border-pct), transparent);
+  --cat-adjektive-bg: color-mix(in srgb, var(--cat-adjektive) var(--tint-bg-pct), transparent);
+  --cat-adjektive-border: color-mix(in srgb, var(--cat-adjektive) var(--tint-border-pct), transparent);
+  --cat-satzstrukturen-bg: color-mix(in srgb, var(--cat-satzstrukturen) var(--tint-bg-pct), transparent);
+  --cat-satzstrukturen-border: color-mix(in srgb, var(--cat-satzstrukturen) var(--tint-border-pct), transparent);
+  --cat-keigo-bg: color-mix(in srgb, var(--cat-keigo) var(--tint-bg-pct), transparent);
+  --cat-keigo-border: color-mix(in srgb, var(--cat-keigo) var(--tint-border-pct), transparent);
+
+  --vt-nomen-bg: color-mix(in srgb, var(--vt-nomen) var(--tint-bg-pct), transparent);
+  --vt-nomen-border: color-mix(in srgb, var(--vt-nomen) var(--tint-border-pct), transparent);
+  --vt-verb-bg: color-mix(in srgb, var(--vt-verb) var(--tint-bg-pct), transparent);
+  --vt-verb-border: color-mix(in srgb, var(--vt-verb) var(--tint-border-pct), transparent);
+  --vt-adjektiv-bg: color-mix(in srgb, var(--vt-adjektiv) var(--tint-bg-pct), transparent);
+  --vt-adjektiv-border: color-mix(in srgb, var(--vt-adjektiv) var(--tint-border-pct), transparent);
+  --vt-adverb-bg: color-mix(in srgb, var(--vt-adverb) var(--tint-bg-pct), transparent);
+  --vt-adverb-border: color-mix(in srgb, var(--vt-adverb) var(--tint-border-pct), transparent);
+  --vt-ausdruck-bg: color-mix(in srgb, var(--vt-ausdruck) var(--tint-bg-pct), transparent);
+  --vt-ausdruck-border: color-mix(in srgb, var(--vt-ausdruck) var(--tint-border-pct), transparent);
+  --vt-partikel-bg: color-mix(in srgb, var(--vt-partikel) var(--tint-bg-pct), transparent);
+  --vt-partikel-border: color-mix(in srgb, var(--vt-partikel) var(--tint-border-pct), transparent);
+  --vt-yojijukugo-bg: color-mix(in srgb, var(--vt-yojijukugo) var(--tint-bg-pct), transparent);
+  --vt-yojijukugo-border: color-mix(in srgb, var(--vt-yojijukugo) var(--tint-border-pct), transparent);
+  --vt-redewendung-bg: color-mix(in srgb, var(--vt-redewendung) var(--tint-bg-pct), transparent);
+  --vt-redewendung-border: color-mix(in srgb, var(--vt-redewendung) var(--tint-border-pct), transparent);
+  --vt-sprichwort-bg: color-mix(in srgb, var(--vt-sprichwort) var(--tint-bg-pct), transparent);
+  --vt-sprichwort-border: color-mix(in srgb, var(--vt-sprichwort) var(--tint-border-pct), transparent);
+
+  --oc-geräusche-bg: color-mix(in srgb, var(--oc-geräusche) var(--tint-bg-pct), transparent);
+  --oc-geräusche-border: color-mix(in srgb, var(--oc-geräusche) var(--tint-border-pct), transparent);
+  --oc-zustände-bg: color-mix(in srgb, var(--oc-zustände) var(--tint-bg-pct), transparent);
+  --oc-zustände-border: color-mix(in srgb, var(--oc-zustände) var(--tint-border-pct), transparent);
+  --oc-gefühle-bg: color-mix(in srgb, var(--oc-gefühle) var(--tint-bg-pct), transparent);
+  --oc-gefühle-border: color-mix(in srgb, var(--oc-gefühle) var(--tint-border-pct), transparent);
+  --oc-bewegung-bg: color-mix(in srgb, var(--oc-bewegung) var(--tint-bg-pct), transparent);
+  --oc-bewegung-border: color-mix(in srgb, var(--oc-bewegung) var(--tint-border-pct), transparent);
+
+  --cc-menschen-bg: color-mix(in srgb, var(--cc-menschen) var(--tint-bg-pct), transparent);
+  --cc-menschen-border: color-mix(in srgb, var(--cc-menschen) var(--tint-border-pct), transparent);
+  --cc-objekte-bg: color-mix(in srgb, var(--cc-objekte) var(--tint-bg-pct), transparent);
+  --cc-objekte-border: color-mix(in srgb, var(--cc-objekte) var(--tint-border-pct), transparent);
+  --cc-tiere-bg: color-mix(in srgb, var(--cc-tiere) var(--tint-bg-pct), transparent);
+  --cc-tiere-border: color-mix(in srgb, var(--cc-tiere) var(--tint-border-pct), transparent);
+  --cc-zeit-bg: color-mix(in srgb, var(--cc-zeit) var(--tint-bg-pct), transparent);
+  --cc-zeit-border: color-mix(in srgb, var(--cc-zeit) var(--tint-border-pct), transparent);
+}
+
+[data-mode="dark"] {
+  --tint-bg-pct: 16%;
+  --tint-border-pct: 44%;
+}
+
+/* --- Header: frosted chrome --- */
+.header {
+  background: var(--glass-chrome);
+  backdrop-filter: blur(var(--glass-blur)) saturate(1.6);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.6);
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 var(--glass-highlight),
+              0 12px 32px color-mix(in srgb, var(--accent) 6%, transparent);
+}
+
+[data-mode="dark"] .header {
+  border-bottom-color: var(--glass-border);
+}
+
+/* --- Tab bar: glass segmented control (underline -> sliding pill) --- */
+.tab-bar {
+  border-bottom: none;
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-pill);
+  padding: 4px;
+  gap: 2px;
+  margin: 6px 0 10px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tab-bar::-webkit-scrollbar { display: none; }
+
+.tab-indicator {
+  top: 4px;
+  bottom: 4px;
+  height: auto;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--accent) 16%, var(--glass-bg));
+  box-shadow: inset 0 1px 0 var(--glass-highlight);
+  z-index: 0;
+}
+
+.tab-btn {
+  position: relative;
+  z-index: 1;
+  border-bottom: none;
+  margin-bottom: 0;
+  border-radius: var(--radius-pill);
+  padding: 8px 18px;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+
+.tab-btn:hover {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+.tab-btn.active {
+  background: transparent;
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .tab-bar::after,
+  [data-mode="dark"] .tab-bar::after {
+    background: linear-gradient(to right, transparent, var(--bg));
+    border-radius: 0 var(--radius-pill) var(--radius-pill) 0;
+  }
+}
+
+/* --- Cards: translucent glass, no per-card blur (perf) --- */
+.kanji-card, .grammar-card, .vocab-card, .ono-card, .counter-card, .radical-card {
+  background: var(--glass-sheen);
+  background-color: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 18px;
+  box-shadow: inset 0 1px 0 0 var(--glass-highlight), var(--glass-shadow);
+}
+
+.kanji-card:hover, .grammar-card:hover, .vocab-card:hover,
+.ono-card:hover, .counter-card:hover, .radical-card:hover {
+  border-color: color-mix(in srgb, var(--accent) 30%, var(--glass-border));
+  box-shadow: inset 0 1px 0 0 var(--glass-highlight),
+              0 16px 40px color-mix(in srgb, var(--accent) 16%, rgba(0,0,0,0.10));
+}
+
+[data-mode="dark"] .kanji-card,
+[data-mode="dark"] .grammar-card,
+[data-mode="dark"] .vocab-card,
+[data-mode="dark"] .ono-card,
+[data-mode="dark"] .counter-card,
+[data-mode="dark"] .radical-card {
+  border-color: var(--glass-border);
+  box-shadow: inset 0 1px 0 0 var(--glass-highlight), var(--glass-shadow);
+}
+
+[data-mode="dark"] .kanji-card:hover,
+[data-mode="dark"] .grammar-card:hover,
+[data-mode="dark"] .vocab-card:hover,
+[data-mode="dark"] .ono-card:hover,
+[data-mode="dark"] .counter-card:hover,
+[data-mode="dark"] .radical-card:hover {
+  border-color: color-mix(in srgb, var(--accent) 30%, var(--glass-border));
+  box-shadow: inset 0 1px 0 0 var(--glass-highlight),
+              0 16px 40px rgba(0,0,0,0.45);
+}
+
+/* --- Sheets & panels: real frosted glass (few instances, blur is fine) --- */
+.detail-overlay,
+.onboarding-overlay {
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(10px) saturate(1.2);
+  -webkit-backdrop-filter: blur(10px) saturate(1.2);
+}
+
+.detail-panel {
+  background: var(--bg-card);
+  background: var(--glass-bg-strong);
+  backdrop-filter: blur(var(--glass-blur-strong)) saturate(1.5);
+  -webkit-backdrop-filter: blur(var(--glass-blur-strong)) saturate(1.5);
+  border: 1px solid var(--glass-border);
+  border-bottom: none;
+  box-shadow: inset 0 1px 0 var(--glass-highlight), 0 -24px 80px rgba(0,0,0,0.35);
+}
+
+.detail-panel::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 36px;
+  height: 5px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--text) 25%, transparent);
+  pointer-events: none;
+}
+
+.help-panel, .onboarding-panel, .theme-panel {
+  background: var(--bg-card);
+  background: var(--glass-bg-strong);
+  backdrop-filter: blur(var(--glass-blur-strong)) saturate(1.5);
+  -webkit-backdrop-filter: blur(var(--glass-blur-strong)) saturate(1.5);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 var(--glass-highlight), var(--glass-shadow);
+}
+
+/* --- Buttons & controls --- */
+.btn, .btn-icon {
+  background: var(--bg-card);
+  background-color: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 var(--glass-highlight);
+}
+
+.btn:hover {
+  box-shadow: inset 0 1px 0 var(--glass-highlight), var(--glass-shadow);
+}
+
+.btn-icon:hover {
+  background-color: color-mix(in srgb, var(--accent) 12%, var(--glass-bg));
+}
+
+.btn-gradient {
+  background: var(--gradient);
+  border: none;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.35);
+}
+
+.btn-gradient:hover {
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.35), var(--glass-glow);
+}
+
+.btn-pill,
+[data-mode="dark"] .btn-pill {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 var(--glass-highlight);
+}
+
+.btn-close {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 var(--glass-highlight);
+}
+
+/* --- Search inputs --- */
+#search-input,
+#grammar-search-input,
+#vocab-search-input,
+#ono-search-input,
+#counters-search-input,
+#radicals-search-input,
+#reading-search-input,
+#gl-search {
+  border: 1px solid var(--glass-border);
+  padding: 13px 41px 13px 43px;
+  background: var(--bg-card);
+  background-color: var(--glass-bg);
+  box-shadow: inset 0 1px 0 var(--glass-highlight);
+}
+
+#search-input:focus,
+#grammar-search-input:focus,
+#vocab-search-input:focus,
+#ono-search-input:focus,
+#counters-search-input:focus,
+#radicals-search-input:focus,
+#reading-search-input:focus,
+#gl-search:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent),
+              inset 0 1px 0 var(--glass-highlight);
+}
+
+/* --- Filter pills --- */
+.filter-btn {
+  border-width: 1px;
+  padding: calc(var(--space-1) + 1px) calc(var(--space-3) + 1px);
+  border-color: var(--glass-border);
+  background: color-mix(in srgb, var(--bg-card) 40%, transparent);
+}
+
+.filter-btn.active {
+  box-shadow: 0 2px 12px color-mix(in srgb, var(--btn-color, var(--text)) 40%, transparent),
+              inset 0 1px 0 rgba(255,255,255,0.25);
+}
+
+/* --- Selects --- */
+.sort-controls select {
+  border: 1px solid var(--glass-border);
+  background: var(--bg-card);
+  background-color: var(--glass-bg);
+  box-shadow: inset 0 1px 0 var(--glass-highlight);
+}
+
+/* --- Subtab buttons --- */
+.subtab-btn {
+  border-color: var(--glass-border);
+  background: var(--glass-bg);
+  box-shadow: inset 0 1px 0 var(--glass-highlight);
+}
+
+/* --- Scrollbars: slim glass pills --- */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--text) 22%, transparent);
+  border-radius: 999px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+* {
+  scrollbar-color: color-mix(in srgb, var(--text) 22%, transparent) transparent;
+}
+
+/* --- Theme picker cards (preview swatches stay solid: they preview palettes) --- */
+.theme-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 var(--glass-highlight);
+}
+
+/* --- Accessibility: collapse glass to solid surfaces on request --- */
+@media (prefers-reduced-transparency: reduce) {
+  :root, [data-mode="dark"] {
+    --glass-bg: var(--bg-card);
+    --glass-bg-strong: var(--bg-card);
+    --glass-chrome: var(--bg);
+    --glass-blur: 0px;
+    --glass-blur-strong: 0px;
+    --glass-sheen: none;
+  }
+
+  body::before { display: none; }
 }
