@@ -11,11 +11,18 @@
 //   - every token whose surface contains kanji carries a reading (r)
 // And across the whole set:
 //   - the per-level passage count is balanced (equal for every level present)
+//
+// Also validates window.READING_QUESTIONS in reading-questions.js:
+//   - every key refers to an existing passage id
+//   - each entry is a non-empty array of {q, options, correct}
+//   - options has 2-4 unique non-empty strings, correct index is in range
+//   - levels are covered completely or not at all (no half-questioned level)
 
 'use strict';
 
 global.window = {};
 require('../reading-data.js');
+require('../reading-questions.js');
 
 var data = window.READING_DATA;
 var errors = [];
@@ -98,7 +105,65 @@ if (min !== max) {
   errors.push('Per-level passage counts are unbalanced: ' + JSON.stringify(perLevel));
 }
 
+// --- Comprehension questions (reading-questions.js) ---
+var questions = window.READING_QUESTIONS || {};
+var byId = {};
+data.forEach(function (p) { byId[p.id] = p; });
+var questionedPerLevel = {};
+var questionCount = 0;
+
+Object.keys(questions).forEach(function (id) {
+  var where = 'questions["' + id + '"]';
+  var passage = byId[id];
+  if (!passage) {
+    errors.push(where + ': no passage with this id exists');
+    return;
+  }
+  questionedPerLevel[passage.level] = (questionedPerLevel[passage.level] || 0) + 1;
+
+  var list = questions[id];
+  if (!Array.isArray(list) || !list.length) {
+    errors.push(where + ': must be a non-empty array');
+    return;
+  }
+  list.forEach(function (q, qi) {
+    var qw = where + '[' + qi + ']';
+    questionCount++;
+    if (!q || typeof q.q !== 'string' || !q.q.trim()) {
+      errors.push(qw + ': missing/empty question text "q"');
+    }
+    if (!Array.isArray(q.options) || q.options.length < 2 || q.options.length > 4) {
+      errors.push(qw + ': options must be an array of 2-4 choices');
+      return;
+    }
+    var seen = {};
+    q.options.forEach(function (opt, oi) {
+      if (typeof opt !== 'string' || !opt.trim()) {
+        errors.push(qw + ' option[' + oi + ']: empty option');
+      } else if (seen[opt]) {
+        errors.push(qw + ': duplicate option "' + opt + '"');
+      }
+      seen[opt] = true;
+    });
+    if (typeof q.correct !== 'number' || q.correct !== Math.floor(q.correct) ||
+        q.correct < 0 || q.correct >= q.options.length) {
+      errors.push(qw + ': "correct" must be a valid index into options');
+    }
+  });
+});
+
+// A level is either fully covered or not started — a half-questioned level
+// would look broken in the UI (some passages with the block, some without).
+Object.keys(questionedPerLevel).forEach(function (level) {
+  if (questionedPerLevel[level] !== perLevel[level]) {
+    errors.push('Level ' + level + ': ' + questionedPerLevel[level] + ' of ' +
+      perLevel[level] + ' passages have questions — cover the level completely or not at all');
+  }
+});
+
 console.log('Passages: ' + data.length + '  per level: ' + JSON.stringify(perLevel));
+console.log('Questions: ' + questionCount + ' across ' + Object.keys(questions).length +
+  ' passages  per level: ' + JSON.stringify(questionedPerLevel));
 if (errors.length) {
   console.error('\nFAIL (' + errors.length + ' issue(s)):');
   errors.forEach(function (e) { console.error('  - ' + e); });

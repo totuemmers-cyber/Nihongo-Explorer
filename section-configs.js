@@ -1802,6 +1802,100 @@ var ReadingDetail = (function () {
     }
   }
 
+  // --- Comprehension questions (Verständnis prüfen) ---
+  // Multiple choice after the passage text, JLPT-Dokkai style. Collapsed by
+  // default so pure reading stays uncluttered; passages without questions in
+  // READING_QUESTIONS simply don't get the block. Answering locks a question
+  // and reveals the correct option; the score line appears once all are done.
+  function renderQuestions(r) {
+    var box = el('reading-detail-questions');
+    if (!box) return;
+    box.innerHTML = '';
+    var questions = (window.READING_QUESTIONS && window.READING_QUESTIONS[r.id]) || [];
+    if (!questions.length) return;
+
+    var wrap = document.createElement('div');
+    wrap.className = 'reading-quiz';
+
+    var header = document.createElement('button');
+    header.className = 'reading-quiz-header';
+    header.setAttribute('aria-expanded', 'false');
+    appendElement(header, 'span', 'reading-quiz-title',
+      'Verständnis prüfen (' + questions.length + ' Fragen)');
+    appendElement(header, 'span', 'reading-quiz-chevron', '▸');
+    wrap.appendChild(header);
+
+    var body = document.createElement('div');
+    body.className = 'reading-quiz-body collapsed';
+    wrap.appendChild(body);
+
+    header.addEventListener('click', function () {
+      var collapsed = body.classList.toggle('collapsed');
+      header.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+      header.querySelector('.reading-quiz-chevron').textContent = collapsed ? '▸' : '▾';
+      if (window.app) window.app.playTick();
+    });
+
+    var answered = 0;
+    var correctCount = 0;
+    var scoreLine = document.createElement('div');
+    scoreLine.className = 'reading-quiz-score hidden';
+
+    questions.forEach(function (question, qi) {
+      var qBox = document.createElement('div');
+      qBox.className = 'reading-quiz-q';
+      appendElement(qBox, 'div', 'reading-quiz-q-text', (qi + 1) + '. ' + question.q);
+
+      var optWrap = document.createElement('div');
+      optWrap.className = 'reading-quiz-opts';
+      var optBtns = [];
+      question.options.forEach(function (opt, oi) {
+        var btn = document.createElement('button');
+        btn.className = 'reading-quiz-opt';
+        btn.textContent = opt;
+        btn.addEventListener('click', function () {
+          if (qBox.classList.contains('locked')) return;
+          qBox.classList.add('locked');
+          var right = oi === question.correct;
+          btn.classList.add(right ? 'is-correct' : 'is-wrong');
+          optBtns[question.correct].classList.add('is-correct');
+          answered++;
+          if (right) correctCount++;
+          if (window.app) { if (right) window.app.playPop(); else window.app.playTick(); }
+          if (answered === questions.length) {
+            scoreLine.textContent = correctCount === questions.length
+              ? 'Alle ' + questions.length + ' richtig — sehr gut!'
+              : correctCount + ' von ' + questions.length + ' richtig.';
+            scoreLine.classList.remove('hidden');
+          }
+        });
+        optBtns.push(btn);
+        optWrap.appendChild(btn);
+      });
+      qBox.appendChild(optWrap);
+      body.appendChild(qBox);
+    });
+
+    body.appendChild(scoreLine);
+
+    var resetBtn = document.createElement('button');
+    resetBtn.className = 'quiz-btn quiz-btn-back reading-quiz-reset';
+    resetBtn.textContent = 'Nochmal versuchen';
+    resetBtn.addEventListener('click', function () {
+      renderQuestions(r);
+      var reopened = box.querySelector('.reading-quiz-body');
+      var reHeader = box.querySelector('.reading-quiz-header');
+      if (reopened) reopened.classList.remove('collapsed');
+      if (reHeader) {
+        reHeader.setAttribute('aria-expanded', 'true');
+        reHeader.querySelector('.reading-quiz-chevron').textContent = '▾';
+      }
+    });
+    body.appendChild(resetBtn);
+
+    box.appendChild(wrap);
+  }
+
   // --- Playback (whole text + single sentence) ---
   function setActiveSentence(idx) {
     var body = el('reading-detail-text');
@@ -1939,6 +2033,7 @@ var ReadingDetail = (function () {
     createDetailBookmark('.reading-detail-header', 'reading', r.id);
 
     renderBody(r);
+    renderQuestions(r);
     wireToolbar();
     translateAll = false;
     updateFuriganaBtn();

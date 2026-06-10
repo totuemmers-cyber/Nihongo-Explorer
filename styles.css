@@ -2399,6 +2399,101 @@ main {
   display: none;
 }
 
+/* Reading comprehension questions (Verständnis prüfen) */
+.reading-quiz {
+  margin-top: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.reading-quiz-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  background: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reading-quiz-chevron {
+  color: var(--text-secondary);
+}
+
+.reading-quiz-body {
+  padding: 0 0.9rem 0.9rem;
+}
+
+.reading-quiz-body.collapsed {
+  display: none;
+}
+
+.reading-quiz-q {
+  margin-top: 0.8rem;
+}
+
+.reading-quiz-q-text {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.reading-quiz-opts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.reading-quiz-opt {
+  text-align: left;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.reading-quiz-opt:hover {
+  border-color: var(--text-secondary);
+}
+
+.reading-quiz-q.locked .reading-quiz-opt {
+  cursor: default;
+  opacity: 0.75;
+}
+
+.reading-quiz-q.locked .reading-quiz-opt.is-correct {
+  border-color: #2e9e5b;
+  color: #2e9e5b;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.reading-quiz-q.locked .reading-quiz-opt.is-wrong {
+  border-color: var(--danger);
+  color: var(--danger);
+  opacity: 1;
+}
+
+.reading-quiz-score {
+  margin-top: 0.9rem;
+  font-weight: 700;
+}
+
+.reading-quiz-score.hidden {
+  display: none;
+}
+
+.reading-quiz-reset {
+  margin-top: 0.6rem;
+}
+
 /* Listening variant (Hören) on vocab meaning cards */
 .review-listen-row {
   display: flex;

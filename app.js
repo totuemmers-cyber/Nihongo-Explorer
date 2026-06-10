@@ -359,7 +359,7 @@
       }
     },
     reading: {
-      initialScripts: ['reading-data.js'],
+      initialScripts: ['reading-data.js', 'reading-questions.js'],
       message: 'Lade Lesestücke...',
       hydrateInitial: function () {
         app.sections.reading.setItems(window.READING_DATA ? window.READING_DATA.slice() : []);
