@@ -224,21 +224,21 @@ async function run() {
   assert(!document.querySelector('#reading-detail-questions .reading-quiz-q.locked'),
     'reset clears all answers');
 
-  // A passage without questions (N4+) shows no block.
+  // A passage without questions (N3+, not yet covered) shows no block.
   document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
   await waitFor(function () {
     return document.getElementById('reading-detail-overlay').classList.contains('hidden');
   }, { description: 'passage overlay closes' });
-  search.value = 'Bibliothek';
+  search.value = 'Verhalten im Zug';
   search.dispatchEvent(new window.Event('input', { bubbles: true }));
   await waitFor(function () {
     const card = document.querySelector('#reading-grid .reading-card');
-    return card && card.textContent.indexOf('Bibliothek') !== -1;
-  }, { description: 'N4 passage search result' });
+    return card && card.textContent.indexOf('Verhalten im Zug') !== -1;
+  }, { description: 'N3 passage search result' });
   click(document.querySelector('#reading-grid .reading-card'), window);
   await waitFor(function () {
     return !document.getElementById('reading-detail-overlay').classList.contains('hidden');
-  }, { description: 'N4 passage opens' });
+  }, { description: 'N3 passage opens' });
   assert(!document.querySelector('#reading-detail-questions .reading-quiz'),
     'passage without questions shows no block');
 
@@ -275,7 +275,7 @@ async function run() {
   document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
   await waitFor(function () {
     return document.getElementById('reading-detail-overlay').classList.contains('hidden');
-  }, { description: 'N4 passage closes' });
+  }, { description: 'N3 passage closes' });
   search.value = 'Mein Morgen';
   search.dispatchEvent(new window.Event('input', { bubbles: true }));
   await waitFor(function () {

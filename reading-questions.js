@@ -179,5 +179,177 @@ window.READING_QUESTIONS = {
       options: ['Curry', 'Sushi', 'Ramen', 'Suppe'],
       correct: 0
     }
+  ],
+
+  // --- N4 ---
+  'r-yoru-no-toshokan': [
+    {
+      q: 'Wer kommt nachts in die Bibliothek?',
+      options: ['Ein Hund', 'Ein alter Mann', 'Eine Katze'],
+      correct: 2
+    },
+    {
+      q: 'Wie heißt die Katze?',
+      options: ['Tora', 'Tama', 'Momo'],
+      correct: 0
+    },
+    {
+      q: 'Wer liest manchmal mit?',
+      options: ['Ein Vogel', 'Eine kleine Maus', 'Ein Kind', 'Eine zweite Katze'],
+      correct: 1
+    }
+  ],
+  'r-ohanami': [
+    {
+      q: 'Was bedeutet Hanami?',
+      options: ['Im Park grillen', 'Kirschblüten ansehen und genießen', 'Lampions aufhängen'],
+      correct: 1
+    },
+    {
+      q: 'Wie lange blühen die Kirschblüten ungefähr?',
+      options: ['Etwa eine Woche', 'Etwa einen Monat', 'Den ganzen Frühling'],
+      correct: 0
+    },
+    {
+      q: 'Was machen die Leute beim Hanami?',
+      options: ['Sie schwimmen im Fluss', 'Sie zünden Feuerwerk', 'Sie essen Bento und unterhalten sich'],
+      correct: 2
+    }
+  ],
+  'r-tomodachi-e-no-tegami': [
+    {
+      q: 'Wozu lädt die Person Hiroshi ein?',
+      options: ['Zu einem Geburtstag', 'Zu einem Fest', 'Zu einer Bergwanderung'],
+      correct: 1
+    },
+    {
+      q: 'Was kann man auf dem Fest sehen?',
+      options: ['Ein Feuerwerk', 'Einen Umzug', 'Kirschblüten'],
+      correct: 0
+    },
+    {
+      q: 'Was soll Hiroshi tun, wenn er kommen kann?',
+      options: ['Karten kaufen', 'Essen mitbringen', 'Bescheid geben'],
+      correct: 2
+    }
+  ],
+  'r-pengin-no-sekai': [
+    {
+      q: 'Was können Pinguine nicht?',
+      options: ['Schwimmen', 'Fliegen', 'Laufen'],
+      correct: 1
+    },
+    {
+      q: 'Wo leben viele Pinguine?',
+      options: ['An kalten Orten', 'Nur in warmen Ländern', 'Im Wald'],
+      correct: 0
+    },
+    {
+      q: 'Wie schützen sich die Babys vor der Kälte?',
+      options: ['Sie verstecken sich im Schnee', 'Sie bleiben im Wasser', 'Sie klettern auf die Füße der Eltern'],
+      correct: 2
+    }
+  ],
+  'r-hajimete-no-yamanobori': [
+    {
+      q: 'Wie war der Bergweg?',
+      options: ['Leichter als gedacht', 'Genau wie erwartet', 'Anstrengender als gedacht'],
+      correct: 2
+    },
+    {
+      q: 'Wie lange ging die Person bis zum Gipfel?',
+      options: ['Eine Stunde', 'Drei Stunden', 'Fünf Stunden'],
+      correct: 1
+    },
+    {
+      q: 'Was möchte die Person als Nächstes tun?',
+      options: ['Einen höheren Berg besteigen', 'Nie wieder wandern', 'Alleine wandern gehen'],
+      correct: 0
+    }
+  ],
+  'r-hajimete-no-shinkansen': [
+    {
+      q: 'Wohin ist die Familie gefahren?',
+      options: ['Nach Tokio', 'Nach Osaka', 'Nach Kyoto'],
+      correct: 2
+    },
+    {
+      q: 'Was haben alle fotografiert?',
+      options: ['Den Fuji', 'Den Bahnhof', 'Das Meer', 'Den Zug'],
+      correct: 0
+    },
+    {
+      q: 'Wie lange dauerte die Fahrt ungefähr?',
+      options: ['Eine Stunde', 'Zwei Stunden', 'Vier Stunden'],
+      correct: 1
+    }
+  ],
+  'r-natsumatsuri': [
+    {
+      q: 'Was zogen die Freunde für das Fest an?',
+      options: ['Einen Anzug', 'Einen Yukata', 'Sportkleidung'],
+      correct: 1
+    },
+    {
+      q: 'Was war schwierig?',
+      options: ['Goldfische zu fangen', 'Yakisoba zu essen', 'Einen Platz zu finden'],
+      correct: 0
+    },
+    {
+      q: 'Wann begann das Feuerwerk?',
+      options: ['Gegen sechs Uhr', 'Gegen zehn Uhr', 'Gegen acht Uhr'],
+      correct: 2
+    }
+  ],
+  'r-haha-no-ryouri': [
+    {
+      q: 'Was ist das Lieblingsgericht der Person?',
+      options: ['Sushi', 'Nikujaga', 'Curry', 'Ramen'],
+      correct: 1
+    },
+    {
+      q: 'Was ist Nikujaga?',
+      options: ['Süß geschmorte Kartoffeln mit Fleisch', 'Gebratener Fisch', 'Eine kalte Suppe'],
+      correct: 0
+    },
+    {
+      q: 'Was macht die Person seit letztem Monat?',
+      options: ['Sie arbeitet im Restaurant', 'Sie schreibt ein Kochbuch', 'Sie lernt kochen'],
+      correct: 2
+    }
+  ],
+  'r-tegami-de-arigatou': [
+    {
+      q: 'An wen richtet sich der Brief?',
+      options: ['An einen Lehrer', 'An die Mutter', 'An einen Mitschüler'],
+      correct: 0
+    },
+    {
+      q: 'Wofür bedankt sich die Person?',
+      options: ['Für ein Geschenk', 'Für die Unterstützung beim Japanischlernen', 'Für eine Einladung'],
+      correct: 1
+    },
+    {
+      q: 'Was beginnt nächsten Monat?',
+      options: ['Eine lange Reise', 'Ein neuer Job', 'Das neue Leben an der Universität'],
+      correct: 2
+    }
+  ],
+  'r-suiei-no-renshuu': [
+    {
+      q: 'Wovor hatte die Person anfangs Angst?',
+      options: ['Das Gesicht ins Wasser zu tauchen', 'Vor tiefem Wasser', 'Vor kaltem Wasser'],
+      correct: 0
+    },
+    {
+      q: 'Wie weit konnte die Person nach drei Monaten schwimmen?',
+      options: ['Zehn Meter', 'Fünfzig Meter', 'Zwanzig Meter'],
+      correct: 2
+    },
+    {
+      q: 'Was denkt die Person heute?',
+      options: ['Man braucht Talent zum Schwimmen', 'Wer dranbleibt, schafft auch Schwieriges', 'Schwimmen ist nichts für sie'],
+      correct: 1
+    }
   ]
 };
