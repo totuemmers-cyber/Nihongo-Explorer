@@ -1654,16 +1654,22 @@ SECTION_CONFIGS.onomatopoeia = {
 
 var ReadingDetail = (function () {
   var FURIGANA_KEY = 'reading-furigana';
+  var LISTEN_KEY = 'reading-listen-first';
   var current = null;
   var section = null;
   var isPlayingAll = false;
   var translateAll = false;
   var toolbarWired = false;
   var glossPopover = null;
+  // Whether the current passage's text is hidden by the Hörmodus. Follows the
+  // persistent toggle on open, but "Text anzeigen" reveals just this passage.
+  var textHidden = false;
 
   function el(id) { return document.getElementById(id); }
   function furiganaOn() { return localStorage.getItem(FURIGANA_KEY) !== 'off'; }
   function setFuriganaOn(on) { localStorage.setItem(FURIGANA_KEY, on ? 'on' : 'off'); }
+  function listenFirstOn() { return localStorage.getItem(LISTEN_KEY) === 'on'; }
+  function setListenFirstOn(on) { localStorage.setItem(LISTEN_KEY, on ? 'on' : 'off'); }
 
   // --- Tap-to-gloss popover (LingQ-style word lookup) ---
   function hideGloss() {
@@ -1800,6 +1806,58 @@ var ReadingDetail = (function () {
     for (var i = 0; i < r.sentences.length; i++) {
       body.appendChild(renderSentence(r.sentences[i], i));
     }
+  }
+
+  // --- Hörmodus (audio-first / listen-before-reading) ---
+  // With the persistent toolbar toggle on, a passage opens with its text
+  // blurred: listen first (existing whole-text playback), answer the
+  // comprehension questions below, then reveal the text to compare. This is
+  // the JLPT-Chōkai-style use of the passages. "Text anzeigen" reveals only
+  // the current passage; the toggle itself stays on for the next one.
+  function applyTextHidden() {
+    var body = el('reading-detail-text');
+    if (body) body.classList.toggle('listen-hidden', textHidden);
+    renderListenNotice();
+  }
+
+  function renderListenNotice() {
+    var box = el('reading-listen-notice');
+    if (!box) return;
+    box.innerHTML = '';
+    if (!textHidden || !current) return;
+
+    var notice = document.createElement('div');
+    notice.className = 'reading-listen-bar';
+    var hasQuestions = !!(window.READING_QUESTIONS && window.READING_QUESTIONS[current.id]);
+    appendElement(notice, 'div', 'reading-listen-text', hasQuestions
+      ? 'Hörmodus: Höre den Text zuerst und beantworte die Fragen. Danach kannst du den Text zum Vergleichen einblenden.'
+      : 'Hörmodus: Höre den Text zuerst, bevor du ihn liest.');
+
+    var actions = document.createElement('div');
+    actions.className = 'reading-listen-actions';
+    var playBtn = document.createElement('button');
+    playBtn.className = 'quiz-btn quiz-btn-reveal';
+    playBtn.textContent = '▶ Anhören';
+    playBtn.addEventListener('click', function () { playAll(); });
+    actions.appendChild(playBtn);
+
+    var showBtn = document.createElement('button');
+    showBtn.className = 'quiz-btn quiz-btn-back';
+    showBtn.textContent = 'Text anzeigen';
+    showBtn.addEventListener('click', function () {
+      textHidden = false;
+      applyTextHidden();
+      if (window.app) window.app.playTick();
+    });
+    actions.appendChild(showBtn);
+    notice.appendChild(actions);
+    box.appendChild(notice);
+  }
+
+  function updateListenBtn() {
+    var btn = el('reading-listen-toggle');
+    if (!btn) return;
+    btn.classList.toggle('active', listenFirstOn());
   }
 
   // --- Comprehension questions (Verständnis prüfen) ---
@@ -2002,6 +2060,16 @@ var ReadingDetail = (function () {
       updateTranslateBtn();
       if (window.app) window.app.playTick();
     });
+
+    var lt = el('reading-listen-toggle');
+    if (lt) lt.addEventListener('click', function () {
+      var on = !listenFirstOn();
+      setListenFirstOn(on);
+      textHidden = on;
+      applyTextHidden();
+      updateListenBtn();
+      if (window.app) window.app.playTick();
+    });
   }
 
   // Stop audio and close the popover whenever the overlay is dismissed. The base
@@ -2036,8 +2104,11 @@ var ReadingDetail = (function () {
     renderQuestions(r);
     wireToolbar();
     translateAll = false;
+    textHidden = listenFirstOn();
+    applyTextHidden();
     updateFuriganaBtn();
     updateTranslateBtn();
+    updateListenBtn();
   }
 
   return { open: open };

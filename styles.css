@@ -2399,6 +2399,35 @@ main {
   display: none;
 }
 
+/* Hörmodus (audio-first): text stays in flow but is unreadable + untappable */
+.reading-text.listen-hidden {
+  filter: blur(10px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.reading-listen-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin: 0.75rem 0;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.reading-listen-text {
+  flex: 1 1 16rem;
+  color: var(--text-secondary);
+}
+
+.reading-listen-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
 /* Reading comprehension questions (Verständnis prüfen) */
 .reading-quiz {
   margin-top: 1.25rem;

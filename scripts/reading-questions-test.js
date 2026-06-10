@@ -57,6 +57,7 @@ function click(element, window) {
 
 async function run() {
   const html = fs.readFileSync(INDEX_PATH, 'utf8');
+  const spokenTexts = [];
   const dom = new JSDOM(html, {
     url: 'file:///' + INDEX_PATH.replace(/\\/g, '/'),
     runScripts: 'dangerously',
@@ -120,7 +121,9 @@ async function run() {
           return this._voices.slice();
         },
         resume() {},
-        speak() {}
+        speak(utterance) {
+          spokenTexts.push(utterance && utterance.text ? utterance.text : '');
+        }
       };
       window.IntersectionObserver = function (callback) {
         this.observe = function () {
@@ -238,6 +241,63 @@ async function run() {
   }, { description: 'N4 passage opens' });
   assert(!document.querySelector('#reading-detail-questions .reading-quiz'),
     'passage without questions shows no block');
+
+  // === Hörmodus (audio-first) ===
+  // Toggling it hides the current passage's text and shows the notice bar.
+  const textEl = document.getElementById('reading-detail-text');
+  assert(!textEl.classList.contains('listen-hidden'), 'text starts visible');
+  click(document.getElementById('reading-listen-toggle'), window);
+  assert(textEl.classList.contains('listen-hidden'), 'Hörmodus hides the text');
+  let notice = document.querySelector('#reading-listen-notice .reading-listen-bar');
+  assert(notice, 'Hörmodus shows the notice bar');
+  assert(notice.textContent.indexOf('bevor du ihn liest') !== -1,
+    'passage without questions gets the plain listen hint');
+
+  // "Anhören" plays the passage via the existing TTS sequence.
+  spokenTexts.length = 0;
+  click(Array.from(notice.querySelectorAll('button')).find(function (b) {
+    return b.textContent.indexOf('Anhören') !== -1;
+  }), window);
+  await waitFor(function () {
+    return spokenTexts.length > 0;
+  }, { description: 'Hörmodus playback speaks the passage' });
+
+  // "Text anzeigen" reveals only this passage; the toggle stays on.
+  click(Array.from(notice.querySelectorAll('button')).find(function (b) {
+    return b.textContent === 'Text anzeigen';
+  }), window);
+  assert(!textEl.classList.contains('listen-hidden'), 'Text anzeigen reveals the text');
+  assert(!document.querySelector('#reading-listen-notice .reading-listen-bar'),
+    'notice bar disappears after reveal');
+
+  // The mode is persistent: the next passage opens hidden again, and a passage
+  // with questions mentions them in the notice.
+  document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
+  await waitFor(function () {
+    return document.getElementById('reading-detail-overlay').classList.contains('hidden');
+  }, { description: 'N4 passage closes' });
+  search.value = 'Mein Morgen';
+  search.dispatchEvent(new window.Event('input', { bubbles: true }));
+  await waitFor(function () {
+    const card = document.querySelector('#reading-grid .reading-card');
+    return card && card.textContent.indexOf('Mein Morgen') !== -1;
+  }, { description: 'N5 passage search result again' });
+  click(document.querySelector('#reading-grid .reading-card'), window);
+  await waitFor(function () {
+    return !document.getElementById('reading-detail-overlay').classList.contains('hidden');
+  }, { description: 'N5 passage reopens' });
+  assert(textEl.classList.contains('listen-hidden'), 'Hörmodus persists for the next passage');
+  notice = document.querySelector('#reading-listen-notice .reading-listen-bar');
+  assert(notice && notice.textContent.indexOf('beantworte die Fragen') !== -1,
+    'passage with questions mentions them in the notice');
+  assert(document.querySelector('#reading-detail-questions .reading-quiz'),
+    'question block is available while the text is hidden');
+
+  // Toggling the mode off reveals the text again.
+  click(document.getElementById('reading-listen-toggle'), window);
+  assert(!textEl.classList.contains('listen-hidden'), 'toggle off reveals the text');
+  assert(!document.querySelector('#reading-listen-notice .reading-listen-bar'),
+    'toggle off removes the notice bar');
 
   dom.window.close();
   console.log('Reading questions test passed.');
