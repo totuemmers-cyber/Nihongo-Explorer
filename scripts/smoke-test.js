@@ -134,6 +134,7 @@ async function run() {
   const document = window.document;
 
   window.addEventListener('error', function (event) {
+    if (window.closed) return;
     throw event.error || new Error(event.message);
   });
 

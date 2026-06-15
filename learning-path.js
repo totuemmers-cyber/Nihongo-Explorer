@@ -10,6 +10,7 @@
 
   // --- Configuration ---
   var LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1'];
+  var LEVEL_MAP = { N5: 0, N4: 1, N3: 2, N2: 3, N1: 4 };
   var SECTIONS = ['kanji', 'vocab', 'grammar'];
   var LEVEL_ADVANCE_RATIO = 0.9; // familiar-or-better ratio to move past a level
   // Weighted round-robin mix when assembling a batch of new items.
@@ -328,20 +329,8 @@
     (path.skippedItems || []).forEach(function (key) {
       if (map[key] !== 'mastered') map[key] = 'familiar';
     });
-    // Everything below the chosen starting level counts as already known, so the
-    // path skips those levels and their kanji don't gate higher-level vocab.
-    var startIdx = LEVELS.indexOf(path.startLevel || 'N5');
-    if (startIdx > 0 && window.app && window.app.sections) {
-      SECTIONS.forEach(function (s) {
-        var items = (window.app.sections[s] && window.app.sections[s].allItems) || [];
-        items.forEach(function (it) {
-          if (LEVELS.indexOf(levelOf(s, it)) < startIdx) {
-            var key = itemKeyOf(s, it);
-            if (map[key] !== 'mastered') map[key] = 'familiar';
-          }
-        });
-      });
-    }
+    // Attach start level index for O(1) status check of below-startLevel items
+    map.__startIdx = LEVELS.indexOf(path.startLevel || 'N5');
     return map;
   }
 
@@ -357,7 +346,17 @@
   }
 
   function itemStatus(section, item, map) {
-    return map[itemKeyOf(section, item)] || 'new';
+    var status = map[itemKeyOf(section, item)];
+    if (status) return status;
+    var startIdx = map.__startIdx;
+    if (startIdx > 0) {
+      var itemLevel = levelOf(section, item);
+      var lvlIdx = LEVEL_MAP[itemLevel];
+      if (lvlIdx !== undefined && lvlIdx < startIdx) {
+        return 'familiar';
+      }
+    }
+    return 'new';
   }
 
   // itemKey -> {section, item} across the learnable sections. Used to map an
@@ -458,25 +457,60 @@
   // --- Kanji -> vocab prerequisite gate ---
   // The kanji (still 'new') inside a word that keep it gated. Empty => unlocked.
   function blockingKanji(v, kanjiIndex, map) {
-    var w = v.word || '', out = [];
-    // Iterate by code point (not UTF-16 unit) so rare kanji in the supplementary
-    // planes (CJK Ext-B+, stored as surrogate pairs) are gated too, not skipped.
-    for (var i = 0; i < w.length;) {
-      var cp = w.codePointAt(i);
-      var ch = String.fromCodePoint(cp);
-      i += ch.length; // 2 for a surrogate pair, 1 otherwise
-      var isCjk = (cp >= 0x3400 && cp <= 0x9FFF) ||   // CJK Unified + Ext-A (BMP)
-        (cp >= 0x20000 && cp <= 0x2FA1F);             // Ext-B..F + Compat Ideographs Supplement
-      if (!isCjk) continue;
+    var chars;
+    if (v && v.__kanjiChars) {
+      chars = v.__kanjiChars;
+    } else if (v) {
+      var w = v.word || '';
+      chars = [];
+      for (var i = 0; i < w.length;) {
+        var cp = w.codePointAt(i);
+        var ch = String.fromCodePoint(cp);
+        i += ch.length; // 2 for a surrogate pair, 1 otherwise
+        var isCjk = (cp >= 0x3400 && cp <= 0x9FFF) ||   // CJK Unified + Ext-A (BMP)
+          (cp >= 0x20000 && cp <= 0x2FA1F);             // Ext-B..F + Compat Ideographs Supplement
+        if (!isCjk) continue;
+        if (kanjiIndex[ch]) chars.push(ch);
+      }
+      v.__kanjiChars = chars;
+    } else {
+      chars = [];
+    }
+    var out = [];
+    for (var j = 0; j < chars.length; j++) {
+      var ch = chars[j];
       var k = kanjiIndex[ch];
-      if (!k) continue; // kanji absent from dataset -> can't gate on it
       if (itemStatus('kanji', k, map) === 'new') out.push(ch);
     }
     return out;
   }
 
   function vocabUnlocked(v, kanjiIndex, map) {
-    return blockingKanji(v, kanjiIndex, map).length === 0;
+    var chars;
+    if (v && v.__kanjiChars) {
+      chars = v.__kanjiChars;
+    } else if (v) {
+      var w = v.word || '';
+      chars = [];
+      for (var i = 0; i < w.length;) {
+        var cp = w.codePointAt(i);
+        var ch = String.fromCodePoint(cp);
+        i += ch.length; // 2 for a surrogate pair, 1 otherwise
+        var isCjk = (cp >= 0x3400 && cp <= 0x9FFF) ||   // CJK Unified + Ext-A (BMP)
+          (cp >= 0x20000 && cp <= 0x2FA1F);             // Ext-B..F + Compat Ideographs Supplement
+        if (!isCjk) continue;
+        if (kanjiIndex[ch]) chars.push(ch);
+      }
+      v.__kanjiChars = chars;
+    } else {
+      chars = [];
+    }
+    for (var j = 0; j < chars.length; j++) {
+      var ch = chars[j];
+      var k = kanjiIndex[ch];
+      if (itemStatus('kanji', k, map) === 'new') return false;
+    }
+    return true;
   }
 
   // The kanji blocking the most waiting vocab, so the path can answer "which
@@ -819,6 +853,7 @@
 
   // --- Rendering ---
   function ensurePanel() {
+    if (typeof document === 'undefined') return null;
     panel = document.getElementById('path-content');
     return panel;
   }
@@ -1300,8 +1335,10 @@
     }
     body.appendChild(el('div', 'review-empty-hint', 'Lesestücke werden geladen…'));
     window.app.ensureSectionLoaded('reading').then(function () {
+      if (typeof window === 'undefined' || window.closed) return;
       populateReadingStrip(body, model);
     }).catch(function () {
+      if (typeof window === 'undefined' || window.closed || typeof document === 'undefined') return;
       body.innerHTML = '';
       body.appendChild(el('div', 'review-empty-hint', 'Lesestücke nicht verfügbar.'));
     });
@@ -1375,8 +1412,10 @@
     }
     body.appendChild(el('div', 'review-empty-hint', 'Lektionen werden geladen…'));
     window.app.ensureGrammarLessonsLoaded().then(function () {
+      if (typeof window === 'undefined' || window.closed) return;
       populateLessonStrip(body, model);
     }).catch(function () {
+      if (typeof window === 'undefined' || window.closed || typeof document === 'undefined') return;
       body.innerHTML = '';
       body.appendChild(el('div', 'review-empty-hint', 'Lektionen konnten nicht geladen werden.'));
     });

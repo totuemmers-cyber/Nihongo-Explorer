@@ -528,6 +528,7 @@
   }
 
   function ensurePanel() {
+    if (typeof document === 'undefined') return null;
     panel = document.getElementById('review-content');
     return panel;
   }
@@ -1171,6 +1172,7 @@
       }
       renderNextReview();
     }).catch(function () {
+      if (typeof window === 'undefined' || window.closed || typeof document === 'undefined') return;
       // Save failed (e.g. storage quota): keep the current card, don't advance,
       // and tell the user so the grade isn't silently lost.
       if (!panel) return;

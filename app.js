@@ -383,6 +383,7 @@
   });
 
   function getSectionHost(name) {
+    if (typeof document === 'undefined') return null;
     if (name === 'kana') return kanaTab;
     if (name === 'quiz') return quizTab;
     if (name === 'review') return reviewTab;
@@ -538,6 +539,7 @@
       .catch(function (err) {
         section._initialLoadPromise = null;
         section._loadPromise = null;
+        if (typeof window === 'undefined' || window.closed) return;
         console.error(err);
         showSectionError(name, loader.message.replace('Lade', 'Fehler beim Laden von').replace('...', '.') + ' Bitte erneut versuchen.', function () {
           ensureSectionLoaded(name).then(function () {
@@ -549,6 +551,7 @@
         throw err;
       })
       .finally(function () {
+        if (typeof window === 'undefined' || window.closed) return;
         section.isLoading = false;
         setLoadingVisible(name, false);
       });
@@ -569,8 +572,10 @@
       quizDataLoaded = true;
     }).catch(function (err) {
       quizDataPromise = null;
+      if (typeof window === 'undefined' || window.closed) return;
       throw err;
     }).finally(function () {
+      if (typeof window === 'undefined' || window.closed) return;
       setLoadingVisible('quiz', false);
     });
 
@@ -593,10 +598,12 @@
     setLoadingVisible('grammar', true, 'Lade Grammatik-Lektionen...');
     grammarLessonsPromise = loadScript('grammar-lessons.js')
       .then(function () {
+        if (typeof window === 'undefined' || window.closed) return;
         clearSectionError('grammar');
       })
       .catch(function (err) {
         grammarLessonsPromise = null;
+        if (typeof window === 'undefined' || window.closed) return;
         console.error(err);
         showSectionError('grammar', 'Grammatik-Lektionen konnten nicht geladen werden. Bitte erneut versuchen.', function () {
           ensureGrammarLessonsLoaded().catch(function () {});
@@ -604,6 +611,7 @@
         throw err;
       })
       .finally(function () {
+        if (typeof window === 'undefined' || window.closed) return;
         setLoadingVisible('grammar', false);
       });
 

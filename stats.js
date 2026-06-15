@@ -144,6 +144,7 @@
   // ====================================================================
 
   function ensurePanel() {
+    if (typeof document === 'undefined') return null;
     // Don't clobber a container set explicitly via renderInto().
     if (!panel) panel = document.getElementById('stats-content');
     return panel;
@@ -213,6 +214,7 @@
 
       panel.appendChild(shell);
     }).catch(function () {
+      if (typeof window === 'undefined' || window.closed || typeof document === 'undefined') return;
       panel.innerHTML = '';
       var shell = el('div', 'review-shell');
       shell.appendChild(el('div', 'review-title', 'Statistik'));

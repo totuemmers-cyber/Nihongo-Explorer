@@ -812,6 +812,7 @@
   }
 
   function ensureDom() {
+    if (typeof document === 'undefined') return false;
     if (!dom.quizContent) {
       dom.quizPanel = document.getElementById('quiz-tab');
       dom.quizContent = document.getElementById('quiz-content');

@@ -112,6 +112,7 @@ async function run() {
   const timings = {};
 
   window.addEventListener('error', function (event) {
+    if (window.closed) return;
     throw event.error || new Error(event.message);
   });
 

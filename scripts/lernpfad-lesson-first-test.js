@@ -62,7 +62,7 @@ async function run() {
 
   const window = dom.window;
   const document = window.document;
-  window.addEventListener('error', function (e) { throw e.error || new Error(e.message); });
+  window.addEventListener('error', function (e) { if (window.closed) return; throw e.error || new Error(e.message); });
 
   await waitFor(function () { return window.app && window.SRSUI && window.LearningPath && window.SRSStore; }, 'app modules ready');
 
