@@ -245,10 +245,30 @@
   // B: DATA ACCESSORS
   // ==========================================================
 
-  function getVocabByLevel(level) {
-    var sec = window.app && window.app.sections.vocab;
+  // Level pools are read once per question (a 100-question test would otherwise
+  // re-filter the full section array, ~12k vocab items, hundreds of times).
+  // Memoize per section keyed by allItems identity; setItems/appendItems both
+  // assign a fresh allItems array, so the cache self-invalidates on hydrate.
+  // The returned arrays are only ever read/filtered/concatenated by callers
+  // (never mutated in place), so sharing them is safe.
+  var _byLevelCache = {};
+  function getByLevelCached(cacheKey, sec, levelOf, level) {
     if (!sec) return [];
-    return sec.allItems.filter(function (v) { return v.level === level; });
+    var items = sec.allItems;
+    var entry = _byLevelCache[cacheKey];
+    if (!entry || entry.items !== items) {
+      entry = { items: items, byLevel: {} };
+      _byLevelCache[cacheKey] = entry;
+    }
+    if (entry.byLevel[level] === undefined) {
+      entry.byLevel[level] = items.filter(function (it) { return levelOf(it) === level; });
+    }
+    return entry.byLevel[level];
+  }
+
+  function getVocabByLevel(level) {
+    return getByLevelCached('vocab', window.app && window.app.sections.vocab,
+      function (v) { return v.level; }, level);
   }
 
   function getAllVocab() {
@@ -257,9 +277,8 @@
   }
 
   function getKanjiByLevel(level) {
-    var sec = window.app && window.app.sections.kanji;
-    if (!sec) return [];
-    return sec.allItems.filter(function (k) { return k.jlpt === level; });
+    return getByLevelCached('kanji', window.app && window.app.sections.kanji,
+      function (k) { return k.jlpt; }, level);
   }
 
   function getAllKanji() {
@@ -268,9 +287,8 @@
   }
 
   function getGrammarByLevel(level) {
-    var sec = window.app && window.app.sections.grammar;
-    if (!sec) return [];
-    return sec.allItems.filter(function (g) { return g.level === level; });
+    return getByLevelCached('grammar', window.app && window.app.sections.grammar,
+      function (g) { return g.level; }, level);
   }
 
   function getAllGrammar() {

@@ -69,7 +69,15 @@
   function getItemKey(sectionName, item) {
     if (!item) return sectionName + ':unknown';
     if (sectionName === 'kanji') return 'kanji:' + item.kanji;
-    if (sectionName === 'vocab') return 'vocab:' + (item.source || 'vocab') + ':' + normalizeKeyText(item.word) + '|' + normalizeKeyText(item.reading);
+    if (sectionName === 'vocab') {
+      // Key on the pre-correction word/reading (__rawWord/__rawReading, set in
+      // normalizeItem) so that a future correction rule that rewrites a word or
+      // reading cannot silently orphan the user's existing SRS progress card.
+      // For uncorrected items raw === current, so existing keys are unchanged.
+      var vWord = (item.__rawWord != null) ? item.__rawWord : item.word;
+      var vReading = (item.__rawReading != null) ? item.__rawReading : item.reading;
+      return 'vocab:' + (item.source || 'vocab') + ':' + normalizeKeyText(vWord) + '|' + normalizeKeyText(vReading);
+    }
     if (sectionName === 'grammar') return 'grammar:' + (item.id || (item.level + '|' + item.pattern));
     if (sectionName === 'counters') return 'counter:' + (item.id || (item.kanji + '|' + item.reading));
     if (sectionName === 'onomatopoeia') return 'onomatopoeia:' + normalizeKeyText(item.word) + '|' + normalizeKeyText(item.reading);

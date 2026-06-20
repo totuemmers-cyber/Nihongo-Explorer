@@ -346,11 +346,16 @@ Section.prototype._initEvents = function () {
   for (var i = 0; i < groups.length; i++) {
     (function (group) {
       controlsEl.querySelectorAll(group.selector).forEach(function (btn) {
+        // Expose the toggle state to assistive tech (the buttons only carry a
+        // visual .active class otherwise).
+        btn.setAttribute('aria-pressed', btn.classList.contains('active') ? 'true' : 'false');
         btn.addEventListener('click', function () {
           controlsEl.querySelectorAll(group.selector).forEach(function (b) {
             b.classList.remove('active');
+            b.setAttribute('aria-pressed', 'false');
           });
           this.classList.add('active');
+          this.setAttribute('aria-pressed', 'true');
           self.filters[group.stateKey] = this.getAttribute(group.dataAttr);
           if (window.app && typeof window.app.playSwoosh === 'function') {
             window.app.playSwoosh();

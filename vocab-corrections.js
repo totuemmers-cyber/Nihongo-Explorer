@@ -157,14 +157,27 @@
     return normalizeList(sourceName, list);
   };
 
+  // Normalizing a source deep-clones and rule-processes every item, which is
+  // expensive for the large core vocab files. Cache the normalized output per
+  // source name, keyed by the raw array's identity: the underlying VOCAB_N*
+  // globals are loaded once and never mutated, so a cache hit is safe. This
+  // avoids re-normalizing N5 on the background hydrate and on every merge call.
+  var _normCache = {};
+
   window.getNormalizedVocabSources = function (sources) {
     var sourceList = sources || buildDefaultSources();
     var normalized = [];
     for (var i = 0; i < sourceList.length; i++) {
-      normalized.push({
-        name: sourceList[i].name,
-        items: normalizeList(sourceList[i].name, sourceList[i].items || [])
-      });
+      var name = sourceList[i].name;
+      var rawItems = sourceList[i].items || [];
+      var cached = _normCache[name];
+      if (cached && cached.raw === rawItems) {
+        normalized.push({ name: name, items: cached.items });
+      } else {
+        var normItems = normalizeList(name, rawItems);
+        _normCache[name] = { raw: rawItems, items: normItems };
+        normalized.push({ name: name, items: normItems });
+      }
     }
     return normalized;
   };

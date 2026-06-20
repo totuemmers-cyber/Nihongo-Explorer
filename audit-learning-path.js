@@ -38,7 +38,11 @@ const GRAMMAR = [
 function normalizeKeyText(v) { return String(v || '').trim().replace(/\s+/g, ' '); }
 function getItemKey(section, item) {
   if (section === 'kanji') return 'kanji:' + item.kanji;
-  if (section === 'vocab') return 'vocab:' + (item.source || 'vocab') + ':' + normalizeKeyText(item.word) + '|' + normalizeKeyText(item.reading);
+  if (section === 'vocab') {
+    var vWord = (item.__rawWord != null) ? item.__rawWord : item.word;
+    var vReading = (item.__rawReading != null) ? item.__rawReading : item.reading;
+    return 'vocab:' + (item.source || 'vocab') + ':' + normalizeKeyText(vWord) + '|' + normalizeKeyText(vReading);
+  }
   if (section === 'grammar') return 'grammar:' + (item.id || (item.level + '|' + item.pattern));
   return section + ':' + normalizeKeyText(item.id || item.word || item.kanji);
 }

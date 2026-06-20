@@ -7,6 +7,20 @@ var SECTION_CONFIGS = {};
 
 var LEVEL_ORDER = { 'N5': 0, 'N4': 1, 'N3': 2, 'N2': 3, 'N1': 4 };
 
+// Escape a data value before interpolating it into an innerHTML string or a
+// double-quoted data-* attribute. The content data is curated, but German
+// meaning/notes strings contain quotes and ampersands that would otherwise
+// corrupt the surrounding markup (and break the data-* attributes the click
+// wiring depends on). Covers &, <, > and both quote styles.
+function escapeHtml(value) {
+  return String(value == null ? '' : value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 // Lazy-built lookup indexes for O(1) access (built once on first use)
 var _kanjiByChar = null;
 var _radicalSet = null;
@@ -61,6 +75,16 @@ window.resetSectionLookups = function () {
 
 // === Bookmark Utilities ===
 
+// localStorage.setItem throws in private-browsing mode and on quota-exceeded.
+// Unguarded, that turns a preference toggle (theme, sound, bookmark) into a
+// thrown error that can abort the surrounding handler. Swallow the failure —
+// the in-memory state is already updated; only persistence is lost.
+function safeLocalSet(key, value) {
+  try { localStorage.setItem(key, value); return true; }
+  catch (e) { return false; }
+}
+window.safeLocalSet = safeLocalSet;
+
 function getBookmarks(sectionName) {
   try { return JSON.parse(localStorage.getItem('bookmarks-' + sectionName) || '[]'); }
   catch (e) { return []; }
@@ -75,7 +99,7 @@ function toggleBookmark(sectionName, itemId) {
   var idx = bk.indexOf(itemId);
   if (idx === -1) bk.push(itemId);
   else bk.splice(idx, 1);
-  localStorage.setItem('bookmarks-' + sectionName, JSON.stringify(bk));
+  safeLocalSet('bookmarks-' + sectionName, JSON.stringify(bk));
   return idx === -1;
 }
 
@@ -627,9 +651,9 @@ SECTION_CONFIGS.kanji = {
     function buildReadingItems(container, readings, cls) {
       container.innerHTML = readings.map(function (r) {
         return '<div class="reading-item ' + cls + '">' +
-          '<div class="reading-text"><span class="kana">' + r.kana +
-          '</span><span class="romaji">' + r.romaji + '</span></div>' +
-          '<button class="btn btn-icon btn-speak btn-speak-sm" title="Aussprache" data-kana="' + r.kana + '">' + speakSvg + '</button></div>';
+          '<div class="reading-text"><span class="kana" lang="ja">' + escapeHtml(r.kana) +
+          '</span><span class="romaji">' + escapeHtml(r.romaji) + '</span></div>' +
+          '<button class="btn btn-icon btn-speak btn-speak-sm" title="Aussprache" data-kana="' + escapeHtml(r.kana) + '">' + speakSvg + '</button></div>';
       }).join('');
       container.querySelectorAll('.btn-speak').forEach(function (btn) {
         btn.addEventListener('click', function () {
@@ -661,9 +685,9 @@ SECTION_CONFIGS.kanji = {
       detailComponents.innerHTML = k.components.map(function (c) {
         var isKangxi = radicals[c.radical];
         var cls = isKangxi ? 'component-tag radical-link' : 'component-tag';
-        return '<span class="' + cls + '" data-radical="' + c.radical + '">' +
-          '<span class="comp-radical">' + c.radical + '</span>' +
-          '<span class="comp-meaning">' + c.meaning + '</span></span>';
+        return '<span class="' + cls + '" data-radical="' + escapeHtml(c.radical) + '">' +
+          '<span class="comp-radical">' + escapeHtml(c.radical) + '</span>' +
+          '<span class="comp-meaning">' + escapeHtml(c.meaning) + '</span></span>';
       }).join('');
 
       detailComponents.querySelectorAll('.component-tag').forEach(function (tag) {
@@ -688,9 +712,9 @@ SECTION_CONFIGS.kanji = {
     if (k.examples && k.examples.length > 0) {
       detailExamples.innerHTML = k.examples.map(function (ex) {
         return '<div class="example-item">' +
-          '<span class="example-word">' + ex.word + '</span> ' +
-          '<span class="example-reading">' + ex.reading + '</span>' +
-          '<div class="example-meaning">' + ex.meaning + '</div></div>';
+          '<span class="example-word" lang="ja">' + escapeHtml(ex.word) + '</span> ' +
+          '<span class="example-reading" lang="ja">' + escapeHtml(ex.reading) + '</span>' +
+          '<div class="example-meaning">' + escapeHtml(ex.meaning) + '</div></div>';
       }).join('');
     } else {
       detailExamples.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
@@ -861,7 +885,7 @@ SECTION_CONFIGS.grammar = {
       relatedEl.innerHTML = g.related.map(function (relId) {
         var relGrammar = section.allItems.find(function (item) { return item.id === relId; });
         if (!relGrammar) return '';
-        return '<span class="grammar-related-tag" data-id="' + relId + '">' + relGrammar.pattern + '</span>';
+        return '<span class="grammar-related-tag" data-id="' + escapeHtml(relId) + '">' + escapeHtml(relGrammar.pattern) + '</span>';
       }).filter(function (s) { return s.length > 0; }).join('');
 
       relatedEl.querySelectorAll('.grammar-related-tag').forEach(function (tag) {
@@ -1143,9 +1167,9 @@ SECTION_CONFIGS.vocab = {
                 var f = forms[keys[i]];
                 if (!f) continue;
                 html += '<tr>' +
-                  '<td class="conj-label">' + f.label + '</td>' +
-                  '<td class="conj-form">' + f.japanese + '</td>' +
-                  '<td class="conj-speak"><button class="btn btn-icon btn-speak btn-speak-sm" title="Aussprache" data-text="' + f.japanese + '">' + speakSvg + '</button></td>' +
+                  '<td class="conj-label">' + escapeHtml(f.label) + '</td>' +
+                  '<td class="conj-form" lang="ja">' + escapeHtml(f.japanese) + '</td>' +
+                  '<td class="conj-speak"><button class="btn btn-icon btn-speak btn-speak-sm" title="Aussprache" data-text="' + escapeHtml(f.japanese) + '">' + speakSvg + '</button></td>' +
                 '</tr>';
               }
               html += '</tbody></table></div>';
@@ -1246,7 +1270,7 @@ SECTION_CONFIGS.counters = {
     if (c.counts) {
       var previews = c.counts.slice(0, 5).map(function (ct) {
         var cls = ct.shift ? 'counter-card-preview-item has-shift' : 'counter-card-preview-item';
-        return '<span class="' + cls + '">' + ct.kanji + '</span>';
+        return '<span class="' + cls + '">' + escapeHtml(ct.kanji) + '</span>';
       });
       previewHtml = '<div class="counter-card-preview">' + previews.join('') + '</div>';
     }
@@ -1284,9 +1308,9 @@ SECTION_CONFIGS.counters = {
     var questionEl = document.getElementById('counter-detail-question');
     if (c.questionWord) {
       questionEl.innerHTML =
-        '<span class="counter-question-kanji">' + c.questionWord.kanji + '</span>' +
-        '<span class="counter-question-reading">' + c.questionWord.reading + '</span>' +
-        '<span class="counter-question-romaji">' + c.questionWord.romaji + '</span>';
+        '<span class="counter-question-kanji">' + escapeHtml(c.questionWord.kanji) + '</span>' +
+        '<span class="counter-question-reading">' + escapeHtml(c.questionWord.reading) + '</span>' +
+        '<span class="counter-question-romaji">' + escapeHtml(c.questionWord.romaji) + '</span>';
     } else {
       questionEl.innerHTML = '';
     }
@@ -1299,13 +1323,13 @@ SECTION_CONFIGS.counters = {
       c.counts.forEach(function (ct) {
         var rowClass = ct.shift ? ' class="shift-row"' : '';
         var readingHtml = ct.shift
-          ? '<span class="shift-highlight">' + ct.reading + '</span>'
-          : ct.reading;
+          ? '<span class="shift-highlight">' + escapeHtml(ct.reading) + '</span>'
+          : escapeHtml(ct.reading);
         tableHtml += '<tr' + rowClass + '>' +
-          '<td class="ct-num">' + ct.num + '</td>' +
-          '<td class="ct-kanji">' + ct.kanji + '</td>' +
+          '<td class="ct-num">' + escapeHtml(ct.num) + '</td>' +
+          '<td class="ct-kanji">' + escapeHtml(ct.kanji) + '</td>' +
           '<td class="ct-reading">' + readingHtml + '</td>' +
-          '<td class="ct-romaji">' + ct.romaji + '</td>' +
+          '<td class="ct-romaji">' + escapeHtml(ct.romaji) + '</td>' +
         '</tr>';
       });
       tableHtml += '</tbody></table>';
@@ -1320,10 +1344,10 @@ SECTION_CONFIGS.counters = {
     if (c.specialCounts && c.specialCounts.length > 0) {
       specialEl.innerHTML = c.specialCounts.map(function (sc) {
         return '<div class="counter-special-item">' +
-          '<span class="cs-kanji">' + sc.kanji + '</span>' +
-          '<span class="cs-reading">' + sc.reading + '</span>' +
-          '<span class="cs-romaji">' + sc.romaji + '</span>' +
-          (sc.note ? '<span class="cs-note">' + sc.note + '</span>' : '') +
+          '<span class="cs-kanji">' + escapeHtml(sc.kanji) + '</span>' +
+          '<span class="cs-reading">' + escapeHtml(sc.reading) + '</span>' +
+          '<span class="cs-romaji">' + escapeHtml(sc.romaji) + '</span>' +
+          (sc.note ? '<span class="cs-note">' + escapeHtml(sc.note) + '</span>' : '') +
         '</div>';
       }).join('');
       specialSection.classList.remove('hidden');
@@ -1615,8 +1639,8 @@ SECTION_CONFIGS.onomatopoeia = {
     if (o.related && o.related.length > 0) {
       relatedEl.innerHTML = o.related.map(function (relWord) {
         var found = section.allItems.some(function (item) { return item.word === relWord; });
-        if (!found) return '<span class="ono-related-tag disabled">' + relWord + '</span>';
-        return '<span class="ono-related-tag" data-word="' + relWord + '">' + relWord + '</span>';
+        if (!found) return '<span class="ono-related-tag disabled">' + escapeHtml(relWord) + '</span>';
+        return '<span class="ono-related-tag" data-word="' + escapeHtml(relWord) + '">' + escapeHtml(relWord) + '</span>';
       }).join('');
 
       relatedEl.querySelectorAll('.ono-related-tag:not(.disabled)').forEach(function (tag) {
@@ -1667,9 +1691,9 @@ var ReadingDetail = (function () {
 
   function el(id) { return document.getElementById(id); }
   function furiganaOn() { return localStorage.getItem(FURIGANA_KEY) !== 'off'; }
-  function setFuriganaOn(on) { localStorage.setItem(FURIGANA_KEY, on ? 'on' : 'off'); }
+  function setFuriganaOn(on) { safeLocalSet(FURIGANA_KEY, on ? 'on' : 'off'); }
   function listenFirstOn() { return localStorage.getItem(LISTEN_KEY) === 'on'; }
-  function setListenFirstOn(on) { localStorage.setItem(LISTEN_KEY, on ? 'on' : 'off'); }
+  function setListenFirstOn(on) { safeLocalSet(LISTEN_KEY, on ? 'on' : 'off'); }
 
   // --- Tap-to-gloss popover (LingQ-style word lookup) ---
   function hideGloss() {

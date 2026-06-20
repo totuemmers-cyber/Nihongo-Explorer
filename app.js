@@ -266,6 +266,18 @@
     return merged;
   }
 
+  // dedupeSpecialistItems builds a fresh array each call; cache it by the raw
+  // global's identity so the downstream normalization cache (keyed by array
+  // identity) can actually hit for yojijukugo across hydrate/merge calls.
+  var _yojiDedupeCache = null;
+  function getDedupedYojijukugo() {
+    var raw = window.YOJIJUKUGO_DATA || [];
+    if (!_yojiDedupeCache || _yojiDedupeCache.raw !== raw) {
+      _yojiDedupeCache = { raw: raw, items: dedupeSpecialistItems(raw, getEntryKey) };
+    }
+    return _yojiDedupeCache.items;
+  }
+
   function getNormalizedVocabSourcesFromGlobals(sourceNames) {
     var allSources = {
       'vocab-n5': { name: 'vocab-n5', items: window.VOCAB_N5 || [] },
@@ -273,7 +285,7 @@
       'vocab-n3': { name: 'vocab-n3', items: window.VOCAB_N3 || [] },
       'vocab-n2': { name: 'vocab-n2', items: window.VOCAB_N2 || [] },
       'vocab-n1': { name: 'vocab-n1', items: window.VOCAB_N1 || [] },
-      yojijukugo: { name: 'yojijukugo', items: dedupeSpecialistItems(window.YOJIJUKUGO_DATA || [], getEntryKey) },
+      yojijukugo: { name: 'yojijukugo', items: getDedupedYojijukugo() },
       idioms: { name: 'idioms', items: window.IDIOMS_DATA || [] }
     };
     var rawSources = [];
@@ -930,7 +942,7 @@
     var root = document.documentElement;
     root.setAttribute('data-theme', theme.id);
     root.setAttribute('data-mode', theme.mode);
-    localStorage.setItem(THEME_KEY, theme.id);
+    if (window.safeLocalSet) window.safeLocalSet(THEME_KEY, theme.id);
     var meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.setAttribute('content', theme.bg);
     setTimeout(updateKanaDarkMode, 50);
@@ -1023,7 +1035,7 @@
     soundToggle.classList.toggle('active', soundEnabled);
     soundToggle.addEventListener('click', function () {
       soundEnabled = !soundEnabled;
-      localStorage.setItem('kanji-sound', soundEnabled ? 'on' : 'off');
+      if (window.safeLocalSet) window.safeLocalSet('kanji-sound', soundEnabled ? 'on' : 'off');
       soundToggle.classList.toggle('active', soundEnabled);
       if (soundEnabled) playPop();
     });

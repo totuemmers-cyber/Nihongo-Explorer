@@ -361,13 +361,31 @@
 
   // itemKey -> {section, item} across the learnable sections. Used to map an
   // already-created backlog card (a ready New sibling) back to a displayable item.
+  // Memoized by the sections' allItems identity: it is called up to 3x per
+  // loadModel render (resolveSkippedItems, readyToLearn, introStepsForSession)
+  // and would otherwise re-scan all kanji+vocab+grammar items each time.
+  // setItems/appendItems assign fresh allItems arrays, so the cache invalidates
+  // automatically when data is (back)loaded.
+  var _itemIndexCache = null;
+  var EMPTY_ARRAY = [];
   function buildItemIndex() {
-    var idx = {};
-    SECTIONS.forEach(function (s) {
+    var arrays = SECTIONS.map(function (s) {
       var sec = window.app.sections[s];
-      var items = (sec && sec.allItems) || [];
+      return (sec && sec.allItems) || EMPTY_ARRAY;
+    });
+    if (_itemIndexCache) {
+      var same = true;
+      for (var a = 0; a < arrays.length; a++) {
+        if (_itemIndexCache.arrays[a] !== arrays[a]) { same = false; break; }
+      }
+      if (same) return _itemIndexCache.idx;
+    }
+    var idx = {};
+    SECTIONS.forEach(function (s, si) {
+      var items = arrays[si];
       for (var i = 0; i < items.length; i++) idx[itemKeyOf(s, items[i])] = { section: s, item: items[i] };
     });
+    _itemIndexCache = { arrays: arrays, idx: idx };
     return idx;
   }
 
