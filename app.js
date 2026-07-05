@@ -832,6 +832,9 @@
 
   // === OPEN RADICAL IN TAB (cross-section) ===
   function openRadicalInTab(radicalChar) {
+    // Accept variant forms (氵, 亻, ⻖, …) and resolve to the canonical char.
+    var radicalMap = window.getCanonicalRadicalMap ? window.getCanonicalRadicalMap() : {};
+    if (radicalMap[radicalChar]) radicalChar = radicalMap[radicalChar].radical;
     switchTab('radicals');
     ensureSectionLoaded('radicals').then(function () {
       var radSec = app.sections.radicals;

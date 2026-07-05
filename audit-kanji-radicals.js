@@ -21,13 +21,19 @@ const allKanji = []
 
 const THRESHOLDS = {
   minCanonicalRadicalPool: 214,
-  maxNoCanonical: 540,
-  maxMissingPrimary: 0   // After the first-component heuristic, every kanji with ≥1 canonical radical must have a primary
+  // Since the radical variant mapping (氵→水 etc.) only kanji whose components
+  // carry no Kangxi radical at all remain unlinked (numerals like 五, and
+  // self-referential single-component entries). All of them still get a
+  // primary radical via KANJI_PRIMARY_RADICAL_OVERRIDES.
+  maxNoCanonical: 45,
+  maxMissingPrimary: 0,  // Every kanji with ≥1 canonical radical must have a primary
+  maxNoPrimary: 0        // Every kanji must resolve to a primary radical (heuristic, self-radical rule or override)
 };
 
 const missingPrimary = [];
 const noCanonical = [];
 const explicitPrimary = [];
+const noPrimary = [];
 
 allKanji.forEach(function (item) {
   const radicals = ctx.getCanonicalRadicalsForKanji ? ctx.getCanonicalRadicalsForKanji(item) : [];
@@ -38,6 +44,10 @@ allKanji.forEach(function (item) {
       kanji: item.kanji,
       primaryRadical: primary ? primary.radical : null
     });
+  }
+
+  if (!primary) {
+    noPrimary.push({ kanji: item.kanji, meaning: item.meanings && item.meanings[0] });
   }
 
   if (!radicals.length) {
@@ -61,12 +71,14 @@ const report = {
     explicitPrimary: explicitPrimary.length,
     noCanonical: noCanonical.length,
     missingPrimary: missingPrimary.length,
-    assignedPrimary: allKanji.length - noCanonical.length - missingPrimary.length
+    noPrimary: noPrimary.length,
+    assignedPrimary: allKanji.length - noPrimary.length
   },
   thresholds: THRESHOLDS,
   missingPrimarySample: missingPrimary.slice(0, 50),
   noCanonicalSample: noCanonical.slice(0, 30),
-  note: "missingPrimary now only counts kanji that have 0 canonical radicals (the 540 are expected). All others receive a primary via the first-component heuristic or explicit override."
+  noPrimarySample: noPrimary.slice(0, 30),
+  note: "noCanonical counts kanji whose components contain no Kangxi radical (incl. variant forms); these still get a primary via override. noPrimary counts kanji with no primary at all and must stay 0."
 };
 
 console.log(JSON.stringify(report, null, 2));
@@ -74,6 +86,7 @@ console.log(JSON.stringify(report, null, 2));
 const hasRegression =
   report.counts.canonicalRadicalPool < THRESHOLDS.minCanonicalRadicalPool ||
   report.counts.noCanonical > THRESHOLDS.maxNoCanonical ||
-  report.counts.missingPrimary > THRESHOLDS.maxMissingPrimary;
+  report.counts.missingPrimary > THRESHOLDS.maxMissingPrimary ||
+  report.counts.noPrimary > THRESHOLDS.maxNoPrimary;
 
 process.exit(hasRegression ? 1 : 0);

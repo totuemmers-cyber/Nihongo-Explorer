@@ -23,7 +23,6 @@ function escapeHtml(value) {
 
 // Lazy-built lookup indexes for O(1) access (built once on first use)
 var _kanjiByChar = null;
-var _radicalSet = null;
 var _kanjiByRadical = null;
 
 function getAppConstants() {
@@ -43,15 +42,6 @@ function getKanjiByChar() {
   return _kanjiByChar;
 }
 
-function getRadicalSet() {
-  if (!_radicalSet) {
-    _radicalSet = {};
-    var items = window.app && window.app.sections.radicals ? window.app.sections.radicals.allItems : [];
-    for (var i = 0; i < items.length; i++) _radicalSet[items[i].radical] = true;
-  }
-  return _radicalSet;
-}
-
 function getKanjiByRadical() {
   if (!_kanjiByRadical) {
     _kanjiByRadical = {};
@@ -69,7 +59,6 @@ function getKanjiByRadical() {
 
 window.resetSectionLookups = function () {
   _kanjiByChar = null;
-  _radicalSet = null;
   _kanjiByRadical = null;
 };
 
@@ -678,12 +667,13 @@ SECTION_CONFIGS.kanji = {
       detailOn.innerHTML = '<div class="no-reading">Keine On-Lesung</div>';
     }
 
-    // Components / Radicals
+    // Components / Radicals — variant forms (氵, 亻, ⻖, …) resolve to their
+    // canonical Kangxi radical via getCanonicalRadicalMap and link to it.
     var detailComponents = document.getElementById('detail-components');
     if (k.components && k.components.length > 0) {
-      var radicals = getRadicalSet();
+      var radicalMap = window.getCanonicalRadicalMap ? window.getCanonicalRadicalMap() : {};
       detailComponents.innerHTML = k.components.map(function (c) {
-        var isKangxi = radicals[c.radical];
+        var isKangxi = !!radicalMap[c.radical];
         var cls = isKangxi ? 'component-tag radical-link' : 'component-tag';
         return '<span class="' + cls + '" data-radical="' + escapeHtml(c.radical) + '">' +
           '<span class="comp-radical">' + escapeHtml(c.radical) + '</span>' +
@@ -693,10 +683,10 @@ SECTION_CONFIGS.kanji = {
       detailComponents.querySelectorAll('.component-tag').forEach(function (tag) {
         tag.addEventListener('click', function () {
           var radical = this.getAttribute('data-radical');
-          var isKangxi = radicals[radical];
+          var canonical = radicalMap[radical];
           section.closeDetail();
-          if (isKangxi) {
-            if (window.app) window.app.openRadicalInTab(radical);
+          if (canonical) {
+            if (window.app) window.app.openRadicalInTab(canonical.radical);
           } else {
             if (window.app) window.app.setRadicalFilter(radical,
               tag.querySelector('.comp-meaning').textContent);
@@ -1466,14 +1456,20 @@ SECTION_CONFIGS.radicals = {
       }
     };
 
-    // Build secondary list (kanji that contain the radical in any component but have a different primary)
+    // Build secondary list (kanji that contain the radical in any component but
+    // have a different primary). Component chars are resolved through the
+    // canonical map so variant forms (氵 → 水 etc.) match too.
     var buildSecondary = function (allKanjiItems) {
       var sec = [];
+      var radicalMap = window.getCanonicalRadicalMap ? window.getCanonicalRadicalMap() : {};
       var primarySet = new Set((getKanjiByRadical()[r.radical] || []).map(function (k) { return k.kanji; }));
       for (var j = 0; j < allKanjiItems.length; j++) {
         var k = allKanjiItems[j];
         if (primarySet.has(k.kanji)) continue;
-        var hasIt = k.components && k.components.some(function (c) { return c.radical === r.radical; });
+        var hasIt = k.components && k.components.some(function (c) {
+          var canonical = radicalMap[c.radical];
+          return canonical && canonical.radical === r.radical;
+        });
         if (hasIt) sec.push(k);
       }
       return sec;

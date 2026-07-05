@@ -172,7 +172,9 @@ Zusätzlich umgesetzt: Beispiel 军 (vereinfachtes Chinesisch) bei #14 → 軍; 
 3. Namen/Bedeutungen aus 1.4 (はこがまえ usw.).
 4. `kanji-data.js`/`kanji-n1.js`: Fixes aus Tabelle 2.1 (衷, 瀕, 牙, 旅, 化, 詫, 昆, 4 Beispielwörter, 搖/曾-Varianten) und Komponenten-Beschriftungen.
 
-### Phase 2 — Strukturfixes (mittlerer Aufwand, größter Nutzen)
+### Phase 2 — Strukturfixes (mittlerer Aufwand, größter Nutzen) ✅ umgesetzt (2026-07-05)
+
+Umsetzung: Varianten-Tabelle `KANJI_RADICAL_VARIANTS` in `app-constants.js` (inkl. Lazy-Load-sicherem Cache); Selbst-Radikal-Regel in `getPrimaryKanjiRadical`; die 41 mehrdeutigen `阝`-Komponenten in den Kanji-Daten nach ⻏ (rechts, 邑) / ⻖ (links, 阜) aufgeteilt (隷 hatte fälschlich ein 阝 — entfernt); ~60 wörterbuch-verifizierte Einträge in `KANJI_PRIMARY_RADICAL_OVERRIDES` (klassische Ausnahmen wie 初→刀, 酒→酉, 化→匕, 愛→心, 染→木 sowie alle komponentenlosen Kanji wie 五/九/世); Komponentenfixes 剤 (齊→斉) und 服 (⺼→月); UI-Konsumenten (`section-configs.js` Komponenten-Tags + Sekundärliste, `app.js` openRadicalInTab) lösen Variantenformen jetzt kanonisch auf. Ergebnis: `noCanonical` 540 → 40 (Schwellwert auf 45 verschärft), **alle 2 446 Kanji haben ein Primärradikal** (neuer Audit-Schwellwert `maxNoPrimary: 0`); alle 653 Primärradikal-Änderungen wurden gruppiert reviewt.
 
 5. Varianten-Mapping in `getCanonicalRadicalMap()` (3.1) — als Daten (`variants: []` pro Radikal-Eintrag) oder als Tabelle in `app-constants.js`.
 6. Selbst-Radikal-Regel bzw. Overrides für die 29 Kanji (3.2).
