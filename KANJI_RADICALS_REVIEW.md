@@ -180,7 +180,9 @@ Umsetzung: Varianten-Tabelle `KANJI_RADICAL_VARIANTS` in `app-constants.js` (ink
 6. Selbst-Radikal-Regel bzw. Overrides für die 29 Kanji (3.2).
 7. `audit-kanji-radicals.js`: `maxNoCanonical` von 540 auf den neuen Ist-Wert (+kleiner Puffer) senken, damit Regressionen auffallen.
 
-### Phase 3 — Politik-Entscheidungen & Kür
+### Phase 3 — Politik-Entscheidungen & Kür ✅ umgesetzt (2026-07-05)
+
+Umsetzung: **Strichzahl-Politik festgelegt** — die Strichzahl folgt der mitgelieferten Stroke-Order-Animation (AnimCJK, entspricht der amtlichen Druckform); die 26 Glyphenvarianten-Kanji wurden angeglichen und `scripts/stroke-count-test.js` (Teil von `npm test`) sichert die Übereinstimmung aller 2 446 Kanji dauerhaft ab. **Lesungs-Bereinigung:** Rendaku-On-Lesungen entfernt (山 ザン, 済 ザイ, 旛 バン), する-Verben aus Kun entfernt (屈 くっ.する → かが.める ergänzt, 瀕 ひん.する), Namenslesungen entfernt (亮 あきら, 斐 あや), Duplikat-Kun 呆 ぼう → ほ.ける, 噌-Bedeutung um »Miso (in 味噌)« ergänzt. **Externes Prüfskript:** `npm run audit:kanji-external` (manuell, lädt KANJIDIC-Referenz in gitignorierten Cache; EDRDG CC BY-SA-Attribution im Skriptkopf) validiert Lesungen/JLPT mit dokumentierter Whitelist der 46 geprüften, bewusst abweichenden Einträge — läuft aktuell fehlerfrei.
 
 8. Strichzahl-Politik für Glyphenvarianten festlegen (Empfehlung: an SVGs/amtliche Zählung angleichen, 26 Einträge).
 9. Rendaku-/Nanori-/する-Lesungen bereinigen oder kennzeichnen (2.2).

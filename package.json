@@ -2,7 +2,7 @@
   "name": "nihongo-explorer",
   "private": true,
   "scripts": {
-    "test": "npm run lint && npm run audit:data && npm run audit:verbs && npm run audit:quiz && npm run audit:radicals && npm run audit:path && npm run audit:stats && npm run audit:answer && npm run audit:reading && npm run test:srs && npm run test:vocab-key && npm run test:hardening && npm run test:smoke && npm run test:lesson-first && npm run test:listening && npm run test:reading-questions",
+    "test": "npm run lint && npm run audit:data && npm run audit:verbs && npm run audit:quiz && npm run audit:radicals && npm run audit:path && npm run audit:stats && npm run audit:answer && npm run audit:reading && npm run test:srs && npm run test:vocab-key && npm run test:hardening && npm run test:smoke && npm run test:lesson-first && npm run test:listening && npm run test:reading-questions && npm run test:strokes",
     "audit:reading": "node scripts/validate-reading.js",
     "audit:data": "node audit-data.js",
     "audit:beginner": "node audit-jlpt-beginner-adequacy.js",
@@ -12,6 +12,7 @@
     "audit:stats": "node audit-stats.js",
     "audit:answer": "node audit-answer.js",
     "audit:verbs": "node audit-verb-conjugation.js",
+    "audit:kanji-external": "node scripts/validate-kanji-external.js",
     "lint": "node scripts/lint.js",
     "test:srs": "node scripts/srs-scheduler-test.js",
     "test:vocab-key": "node scripts/vocab-key-stability-test.js",
@@ -20,6 +21,7 @@
     "test:lesson-first": "node scripts/lernpfad-lesson-first-test.js",
     "test:listening": "node scripts/listening-variant-test.js",
     "test:reading-questions": "node scripts/reading-questions-test.js",
+    "test:strokes": "node scripts/stroke-count-test.js",
     "perf:smoke": "node scripts/perf-smoke.js"
   },
   "devDependencies": {
