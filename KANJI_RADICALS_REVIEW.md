@@ -163,7 +163,9 @@ Die „erste-Komponente“-Heuristik liefert z. B.: 見→目, 貝→目, 赤→
 
 ## Korrekturplan
 
-### Phase 1 — Mechanische Datenfixes (geringes Risiko, hoher Faktengewinn)
+### Phase 1 — Mechanische Datenfixes (geringes Risiko, hoher Faktengewinn) ✅ umgesetzt (2026-07-05)
+
+Zusätzlich umgesetzt: Beispiel 军 (vereinfachtes Chinesisch) bei #14 → 軍; 亲 bei #8 → 亡; Eintrag 搖 entfernt (揺 existiert); 曾 → 曽 inkl. neuem Stroke-Order-SVG (26365.svg aus AnimCJK); Komponenten von 揺/遥 korrigiert (referenzierten die Kyūjitai-Einträge). Hinweis: Strichzahlen 瀕=19 und 牙=4 folgen Kanjipedia/KanjiVG; die KANJIDIC-Ableitung nennt 20/5 (Variantenzählung).
 
 1. `kangxi-radicals-data.js`: Radikal-Zeichen #54 → 廴, #63 → 戸, #162 → 辶; Strichzahlen #199 → 7, #213 → 11; Glyphen #210 → 斉 (8), #211 → 歯 (12).
 2. Alle falschen Beispiel-Kanji gemäß Tabelle 1.3 ersetzen/entfernen (inkl. 鸡, 體, 爸); betroffene Erklärungssätze mitkorrigieren (insb. #43 komplett neu).
