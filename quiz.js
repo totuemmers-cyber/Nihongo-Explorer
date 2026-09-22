@@ -190,6 +190,235 @@
     return result;
   }
 
+  // Example sentences carry authored romaji, so beginner prompts take kanji readings from it.
+  // Substituting vocabulary readings misreads compounds and inflections (九時 as きゅうとき,
+  // 行きます as ゆきます). Kana in the sentence anchor an alignment against the spelled-out
+  // romaji; each kanji run receives the kana between its anchors. Ambiguous alignments and
+  // readings romaji cannot settle (macron vowels, ず/づ) are resolved from vocabulary or rejected.
+  var LONG_VOWEL = '̄';
+  var KANJI_RUN_CHAR_RE = /[㐀-龯々〆ヶ]/;
+  var ROMAJI_SYLLABLES = (function () {
+    var table = {};
+    var rows = {
+      '': 'あいうえお', k: 'かきくけこ', g: 'がぎぐげご', s: 'さしすせそ', z: 'ざじずぜぞ',
+      t: 'たちつてと', d: 'だぢづでど', n: 'なにぬねの', h: 'はひふへほ', b: 'ばびぶべぼ',
+      p: 'ぱぴぷぺぽ', m: 'まみむめも', r: 'らりるれろ'
+    };
+    Object.keys(rows).forEach(function (consonant) {
+      for (var i = 0; i < 5; i++) table[consonant + 'aiueo'[i]] = rows[consonant][i];
+    });
+    ['k', 'g', 'n', 'h', 'b', 'p', 'm', 'r'].forEach(function (consonant) {
+      var stem = table[consonant + 'i'];
+      table[consonant + 'ya'] = stem + 'ゃ';
+      table[consonant + 'yu'] = stem + 'ゅ';
+      table[consonant + 'yo'] = stem + 'ょ';
+    });
+    [['sh', 'し'], ['ch', 'ち'], ['j', 'じ']].forEach(function (pair) {
+      table[pair[0] + 'i'] = pair[1];
+      table[pair[0] + 'a'] = pair[1] + 'ゃ';
+      table[pair[0] + 'u'] = pair[1] + 'ゅ';
+      table[pair[0] + 'o'] = pair[1] + 'ょ';
+      table[pair[0] + 'e'] = pair[1] + 'ぇ';
+    });
+    var extra = {
+      tsu: 'つ', fu: 'ふ', ti: 'てぃ', di: 'でぃ', tu: 'とぅ', du: 'どぅ', tsa: 'つぁ',
+      fa: 'ふぁ', fi: 'ふぃ', fe: 'ふぇ', fo: 'ふぉ', ya: 'や', yu: 'ゆ', yo: 'よ', ye: 'いぇ',
+      wa: 'わ', wo: 'を', wi: 'うぃ', we: 'うぇ', vu: 'ゔ', va: 'ゔぁ', vi: 'ゔぃ', ve: 'ゔぇ', vo: 'ゔぉ'
+    };
+    Object.keys(extra).forEach(function (key) { table[key] = extra[key]; });
+    return table;
+  })();
+  var KANA_VOWELS = (function () {
+    var vowels = {};
+    var rows = ['あかがさざただなはばぱまやらわゃぁ', 'いきぎしじちぢにひびぴみりぃ', 'うくぐすずつづぬふぶぷむゆるゔゅぅ',
+      'えけげせぜてでねへべぺめれぇ', 'おこごそぞとどのほぼぽもよろをょぉ'];
+    for (var v = 0; v < rows.length; v++) {
+      for (var i = 0; i < rows[v].length; i++) vowels[rows[v][i]] = 'aiueo'[v];
+    }
+    return vowels;
+  })();
+  var VOWEL_KANA = { a: 'あ', i: 'い', u: 'う', e: 'え', o: 'お' };
+  // Second kana of a long vowel spelled with a macron: ō is おう or おお, ē is えい or ええ.
+  var LONG_VOWEL_KANA = { a: 'あ', i: 'い', u: 'う', e: 'いえ', o: 'うお' };
+  var KANA_SPELLING_VARIANTS = { 'は': 'わ', 'を': 'お', 'へ': 'え', 'づ': 'ず', 'ぢ': 'じ',
+    'ぁ': 'あ', 'ぃ': 'い', 'ぅ': 'う', 'ぇ': 'え', 'ぉ': 'お' };
+  var romajiKanaCache = {};
+  var vocabReadingIndex = null;
+  var vocabReadingIndexSize = -1;
+
+  function toHiragana(text) {
+    return text.replace(/[ァ-ヶ]/g, function (ch) {
+      return String.fromCharCode(ch.charCodeAt(0) - 0x60);
+    });
+  }
+
+  function romajiToKanaUnits(romaji) {
+    var words = String(romaji || '').toLowerCase().normalize('NFD').replace(/̂/g, LONG_VOWEL)
+      .split(/[^a-z̄']+/);
+    var units = [];
+    for (var w = 0; w < words.length; w++) {
+      var word = words[w];
+      var i = 0;
+      while (i < word.length) {
+        var ch = word[i];
+        var next = word[i + 1] || '';
+        if (ch === LONG_VOWEL) { units.push(LONG_VOWEL); i++; continue; }
+        if (ch === "'") { i++; continue; }
+        if (ch === 'n' && !/[aiueoy]/.test(next)) { units.push('ん'); i++; continue; }
+        if (ch === 'm' && /[bmp]/.test(next)) { units.push('ん'); i++; continue; }
+        if ((ch === next && /[bcdfghjkpqrstvwz]/.test(ch)) || (ch === 't' && word.substr(i + 1, 2) === 'ch')) {
+          units.push('っ'); i++; continue;
+        }
+        var matched = false;
+        for (var len = 3; len >= 1 && !matched; len--) {
+          var kana = ROMAJI_SYLLABLES[word.substr(i, len)];
+          if (!kana) continue;
+          for (var k = 0; k < kana.length; k++) units.push(kana[k]);
+          i += len;
+          matched = true;
+        }
+        if (!matched) return null;
+      }
+    }
+    return units;
+  }
+
+  function vowelBefore(units, index) {
+    for (var i = index - 1; i >= 0; i--) {
+      if (units[i] !== LONG_VOWEL) return KANA_VOWELS[units[i]] || '';
+    }
+    return '';
+  }
+
+  function kanaMatchesUnit(kana, units, index) {
+    var unit = units[index];
+    if (kana === unit || KANA_SPELLING_VARIANTS[kana] === unit) return true;
+    var vowel = vowelBefore(units, index);
+    if (unit === LONG_VOWEL) return kana === 'ー' || (!!vowel && LONG_VOWEL_KANA[vowel].indexOf(kana) !== -1);
+    return kana === 'ー' && !!vowel && VOWEL_KANA[vowel] === unit;
+  }
+
+  function tokenizeForRomaji(text, keepTokens) {
+    var tokens = [];
+    var i = 0;
+    while (i < text.length) {
+      var keep = null;
+      for (var t = 0; t < keepTokens.length && !keep; t++) {
+        if (keepTokens[t] && text.indexOf(keepTokens[t], i) === i) keep = keepTokens[t];
+      }
+      if (keep) { tokens.push({ wild: true, out: keep }); i += keep.length; continue; }
+      var ch = text[i];
+      if (KANJI_RUN_CHAR_RE.test(ch)) {
+        var end = i;
+        while (end < text.length && KANJI_RUN_CHAR_RE.test(text[end])) end++;
+        tokens.push({ wild: true, source: text.slice(i, end), following: text.slice(end) });
+        i = end;
+        continue;
+      }
+      if (/[ぁ-ゖァ-ヺー]/.test(ch)) { tokens.push({ kana: toHiragana(ch), out: ch }); i++; continue; }
+      // Digits and Latin letters have no dependable kana counterpart in the romaji.
+      if (/[0-9A-Za-z０-９Ａ-Ｚａ-ｚ]/.test(ch)) return null;
+      tokens.push({ out: ch });
+      i++;
+    }
+    return tokens;
+  }
+
+  function getVocabReadingIndex() {
+    var vocab = getAllVocab();
+    if (vocabReadingIndex && vocabReadingIndexSize === vocab.length) return vocabReadingIndex;
+    vocabReadingIndex = {};
+    vocabReadingIndexSize = vocab.length;
+    vocab.forEach(function (item) {
+      if (!item.word || !item.reading || !hasKanji(item.word)) return;
+      var readings = vocabReadingIndex[item.word] || (vocabReadingIndex[item.word] = []);
+      if (readings.indexOf(item.reading) === -1) readings.push(item.reading);
+    });
+    return vocabReadingIndex;
+  }
+
+  function readingMatchesUnits(reading, units, start, end) {
+    if (reading.length !== end - start) return false;
+    for (var i = 0; i < reading.length; i++) {
+      if (!kanaMatchesUnit(reading[i], units, start + i)) return false;
+    }
+    return true;
+  }
+
+  // The vocabulary spelling decides what romaji leaves open; otherwise only plain readings are used.
+  function resolveKanjiReading(token, units, start, end) {
+    var index = getVocabReadingIndex();
+    for (var suffixLength = 0; suffixLength <= 4 && suffixLength <= token.following.length; suffixLength++) {
+      var suffix = token.following.slice(0, suffixLength);
+      if (hasKanji(suffix)) break;
+      var readings = index[token.source + suffix] || [];
+      for (var r = 0; r < readings.length; r++) {
+        var reading = toHiragana(readings[r]);
+        var okurigana = toHiragana(suffix);
+        if (reading.slice(reading.length - okurigana.length) !== okurigana) continue;
+        var stem = reading.slice(0, reading.length - okurigana.length);
+        if (stem && readingMatchesUnits(stem, units, start, end)) return stem;
+      }
+    }
+    var plain = units.slice(start, end).join('');
+    return plain.indexOf(LONG_VOWEL) === -1 && plain.indexOf('ず') === -1 ? plain : null;
+  }
+
+  function kanaFromRomaji(text, romaji, keepTokens) {
+    var keep = uniqueStrings(keepTokens || []).sort(function (a, b) { return b.length - a.length; });
+    var cacheKey = text + '\u0001' + romaji + '\u0001' + keep.join('\u0002');
+    if (Object.prototype.hasOwnProperty.call(romajiKanaCache, cacheKey)) return romajiKanaCache[cacheKey];
+    var result = null;
+    var tokens = tokenizeForRomaji(text, keep);
+    var units = tokens && romajiToKanaUnits(romaji);
+    if (tokens && units) {
+      var memo = {};
+      // Number of complete alignments from (token, unit), capped at 2; only a unique one is used.
+      var countFrom = function (t, p) {
+        var key = t + ':' + p;
+        if (Object.prototype.hasOwnProperty.call(memo, key)) return memo[key];
+        var total = 0;
+        var token = tokens[t];
+        if (!token) total = p === units.length ? 1 : 0;
+        else if (!token.wild) {
+          if (token.kana === undefined) total = countFrom(t + 1, p);
+          else if (p < units.length && kanaMatchesUnit(token.kana, units, p)) total = countFrom(t + 1, p + 1);
+        } else if (p < units.length && !/[ゃゅょぁぃぅぇぉっん]/.test(units[p]) && units[p] !== LONG_VOWEL) {
+          for (var q = p + 1; q <= units.length && total < 2; q++) total += countFrom(t + 1, q);
+        }
+        memo[key] = Math.min(total, 2);
+        return memo[key];
+      };
+      if (countFrom(0, 0) === 1) {
+        var out = '';
+        var p = 0;
+        for (var t = 0; t < tokens.length && out !== null; t++) {
+          var token = tokens[t];
+          if (!token.wild) {
+            out += token.out;
+            if (token.kana !== undefined) p++;
+            continue;
+          }
+          var q = p + 1;
+          while (q <= units.length && countFrom(t + 1, q) === 0) q++;
+          if (q > units.length) { out = null; break; }
+          var reading = token.source ? resolveKanjiReading(token, units, p, q) : token.out;
+          out = reading === null ? null : out + reading;
+          p = q;
+        }
+        result = out;
+      }
+    }
+    romajiKanaCache[cacheKey] = result;
+    return result;
+  }
+
+  // Beginner levels need a kana rendering; other levels keep the original sentence.
+  function beginnerSentence(text, romaji, level, keepTokens) {
+    if (!isStrictBeginnerLevel(level) || !hasKanji(text)) return text;
+    return romaji ? kanaFromRomaji(text, romaji, keepTokens) : null;
+  }
+
   function finalizeQuestion(question, level, meta) {
     if (!question) return null;
 
@@ -206,7 +435,8 @@
         next.promptSub = sanitizeJapaneseForBeginnerLevel(next.promptSub, level, preserveTokens);
         if (!next.promptSub) return null;
       }
-      if (next.explanation && hasJapaneseText(next.explanation)) {
+      // explanationReady marks explanations already rendered for beginners; guessing readings again would corrupt them.
+      if (next.explanation && hasJapaneseText(next.explanation) && !auditMeta.explanationReady) {
         next.explanation = sanitizeJapaneseForBeginnerLevel(next.explanation, level, preserveTokens) || next.explanation;
       }
     }
@@ -485,44 +715,41 @@
 
   // 4. Vocab Context: sentence with blank → word
   function genVocabContext(level) {
+    var BLANK = '＿＿＿';
+    function blankPrompt(example, word) {
+      var sentence = buildSingleBlankSentence(example.japanese, word);
+      return sentence && beginnerSentence(sentence, example.romaji, level, [BLANK]);
+    }
     var pool = getLevelPool(getVocabByLevel, level).filter(function (v) {
       if (!v.examples || v.examples.length === 0) return false;
-      var examples = getOrderedExamples(v);
-      for (var i = 0; i < examples.length; i++) {
-        var sentence = buildSingleBlankSentence(examples[i].japanese, v.word);
-        if (!sentence) continue;
-        if (!isStrictBeginnerLevel(level)) return true;
-        if (sanitizeJapaneseForBeginnerLevel(sentence, level, [])) return true;
-      }
-      return false;
+      return getOrderedExamples(v).some(function (example) { return !!blankPrompt(example, v.word); });
     });
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
     var ex = null;
+    var sentence = null;
     var orderedExamples = getOrderedExamples(item);
-    for (var i = 0; i < orderedExamples.length; i++) {
-      var candidate = buildSingleBlankSentence(orderedExamples[i].japanese, item.word);
-      if (!candidate) continue;
-      if (isStrictBeginnerLevel(level) && !sanitizeJapaneseForBeginnerLevel(candidate, level, [])) continue;
-      ex = orderedExamples[i];
-      break;
+    for (var i = 0; i < orderedExamples.length && !ex; i++) {
+      sentence = blankPrompt(orderedExamples[i], item.word);
+      if (sentence) ex = orderedExamples[i];
     }
     if (!ex) return null;
-    var sentence = buildSingleBlankSentence(ex.japanese, item.word);
-    if (!sentence) return null;
     var distractors = generateDistractors(item, pool, 3, function (v) { return v.word; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.word, distractors);
     if (!c) return null;
+    // Without a unique full-sentence alignment, the entry's reading fills the kana prompt's gap.
+    var solved = beginnerSentence(ex.japanese, ex.romaji, level, []) || sentence.replace(BLANK, item.reading);
     return finalizeQuestion({
       type: 'vocabContext', level: level,
       prompt: 'Welches Wort passt in die Lücke?',
       promptMain: sentence,
       promptSub: ex.german,
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: item.word + ' (' + item.reading + ') — ' + ex.japanese
+      explanation: item.word + ' (' + item.reading + ') — ' + solved
     }, level, {
-      sourceLevel: item.level
+      sourceLevel: item.level,
+      explanationReady: true
     });
   }
 
@@ -775,13 +1002,13 @@
     var pool = getOnomatopoeiaByLevel(level);
     var candidates = pool.filter(function (o) {
       return o.examples && o.examples.some(function (ex) {
-        return !isStrictBeginnerLevel(level) || sanitizeJapaneseForBeginnerLevel(ex.japanese, level, [o.word]);
+        return !!beginnerSentence(ex.japanese, ex.romaji, level, []);
       });
     });
     if (candidates.length < 4) return null;
     var item = pickRandom(candidates);
     var ex = pickRandom(item.examples.filter(function (example) {
-      return !isStrictBeginnerLevel(level) || sanitizeJapaneseForBeginnerLevel(example.japanese, level, [item.word]);
+      return !!beginnerSentence(example.japanese, example.romaji, level, []);
     }));
     var distractors = generateDistractors(item, candidates, 3, function (o) { return o.meaning; });
     if (distractors.length < 3) return null;
@@ -790,7 +1017,7 @@
     return finalizeQuestion({
       type: 'onomatopoeiaContext', level: level,
       prompt: 'Was bedeutet die Lautmalerei in diesem Satz?',
-      promptMain: ex.japanese,
+      promptMain: beginnerSentence(ex.japanese, ex.romaji, level, []),
       promptSub: item.word,
       choices: choices.choices, correctIndex: choices.correctIndex,
       explanation: ex.german + ' — ' + item.meaning
@@ -1135,21 +1362,30 @@
     testState.answers = [];
     testState.sections = [];
 
-    // Pre-generate all questions
+    // Pre-generate all questions; a test asks each question at most once while the pools allow it.
+    var askedQuestions = {};
+    function questionKey(question) {
+      return [question.type, question.promptMain, question.promptSub, (question.choices || [])[question.correctIndex]].join('\u0001');
+    }
+    function generateTestQuestion(typeId, types) {
+      var repeat = null;
+      for (var attempt = 0; attempt < 12; attempt++) {
+        var question = generateQuestion(typeId, level);
+        // Fallback: try other types
+        for (var t = 0; !question && t < types.length; t++) question = generateQuestion(types[t], level);
+        if (!question) return repeat;
+        if (!askedQuestions[questionKey(question)]) return question;
+        repeat = repeat || question;
+      }
+      return repeat;
+    }
     for (var s = 0; s < cfg.sections.length; s++) {
       var sec = cfg.sections[s];
       var questions = [];
       for (var q = 0; q < sec.count; q++) {
-        var typeId = sec.types[q % sec.types.length];
-        var question = generateQuestion(typeId, level);
-        // Fallback: try other types
-        if (!question) {
-          for (var t = 0; t < sec.types.length; t++) {
-            question = generateQuestion(sec.types[t], level);
-            if (question) break;
-          }
-        }
+        var question = generateTestQuestion(sec.types[q % sec.types.length], sec.types);
         if (question) {
+          askedQuestions[questionKey(question)] = true;
           questions.push(question);
         }
       }
@@ -1479,6 +1715,11 @@
         e.preventDefault();
         return true;
       }
+      // While a question is on screen, digits belong to its choices, not to tab switching.
+      if (dom.quizContent.querySelector('.quiz-choice-btn')) {
+        e.preventDefault();
+        return true;
+      }
     }
 
     // Enter to reveal/advance in browse mode
@@ -1557,6 +1798,7 @@
     isTestActive: function () { return testState.active; },
     audit: {
       finalizeQuestion: finalizeQuestion,
+      kanaFromRomaji: kanaFromRomaji,
       generateQuestion: generateQuestion,
       buildChoices: buildChoices,
       generateQuestionForSource: function (type, level, sourceId, exampleIndex) {

@@ -147,6 +147,28 @@ function stripPreservedTokens(text, preserveTokens) {
   return next;
 }
 
+// Beginner sentences are read from their authored romaji. These inputs were misread when
+// readings were substituted from vocabulary entries; null marks inputs that must be rejected.
+const ROMAJI_READING_FIXTURES = [
+  ['上げてください。', 'Agete kudasai.', 'あげてください。'],
+  ['日本人です。', 'Nihonjin desu.', 'にほんじんです。'],
+  ['どこに行きますか。', 'Doko ni ikimasu ka.', 'どこにいきますか。'],
+  ['バスは九時に出発します。', 'Basu wa kuji ni shuppatsu shimasu.', 'バスはくじにしゅっぱつします。'],
+  ['今日は暑いです。', 'Kyou wa atsui desu.', 'きょうはあついです。'],
+  ['教室に学生が二十人います。', 'Kyoushitsu ni gakusei ga nijuunin imasu.', 'きょうしつにがくせいがにじゅうにんいます。'],
+  ['東京に行きます。', 'Tōkyō ni ikimasu.', 'とうきょうにいきます。'],
+  ['コーヒーを飲みます。', 'Koohii o nomimasu.', 'コーヒーをのみます。'],
+  ['猫がいます。', 'Neko wa imasu.', null],
+  ['9時に出ます。', 'Kuji ni demasu.', null]
+];
+
+function auditRomajiReadings(ctx) {
+  return ROMAJI_READING_FIXTURES.map(function (fixture) {
+    const actual = ctx.QuizModule.audit.kanaFromRomaji(fixture[0], fixture[1], []);
+    return { japanese: fixture[0], expected: fixture[2], actual: actual };
+  }).filter(function (row) { return row.actual !== row.expected; });
+}
+
 function auditQuestionGeneration(ctx) {
   const audit = ctx.QuizModule && ctx.QuizModule.audit;
   if (!audit) throw new Error('Quiz audit hooks are not available.');
@@ -274,10 +296,13 @@ async function main() {
     ? ctx.getVocabExampleOverrideAudit(rawVocabSourcesFromContext(ctx))
     : { byLevel: {}, malformed: [], invalidTeaching: [] };
 
+  const romajiReadingFailures = auditRomajiReadings(ctx);
+
   console.log(JSON.stringify({
     sources: SOURCE_URLS,
     sourceErrors: sourceErrors,
     beginnerQuestions: beginnerQuestions,
+    romajiReadingFailures: romajiReadingFailures,
     coverage: coverage,
     curatedExamples: {
       byLevel: curatedExamples.byLevel,
@@ -289,8 +314,8 @@ async function main() {
   const failures = beginnerQuestions.filter(function (row) {
     return row.generated === 0 || row.leakingPromptKanji > 0 || row.missingMeta > 0;
   });
-  if (failures.length || curatedExamples.malformed.length || curatedExamples.invalidTeaching.length) {
-    console.error('Beginner adequacy audit failed: ' + JSON.stringify(failures));
+  if (failures.length || romajiReadingFailures.length || curatedExamples.malformed.length || curatedExamples.invalidTeaching.length) {
+    console.error('Beginner adequacy audit failed: ' + JSON.stringify(failures.concat(romajiReadingFailures)));
     process.exit(1);
   }
 }

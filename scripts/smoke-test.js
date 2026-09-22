@@ -389,10 +389,18 @@ async function run() {
   click(document.getElementById('quiz-start-test'), window);
   let answered = 0;
   let correct = 0;
+  const askedQuestions = new Set();
   while (!document.querySelector('.quiz-results')) {
     const choice = document.querySelector('.quiz-choice-btn:not([disabled])');
     if (choice) {
       click(choice, window);
+      // Distractors are drawn afresh, so the prompt and its correct answer identify a question.
+      const question = ['.quiz-prompt', '.quiz-prompt-main', '.quiz-prompt-sub', '.quiz-choice-btn.correct'].map(function (selector) {
+        const node = document.querySelector(selector);
+        return node ? node.textContent : '';
+      }).join('|').replace(/\|[1-4](?=[^|]*$)/, '|');
+      assert(!askedQuestions.has(question), 'Timed test repeated a question: ' + question);
+      askedQuestions.add(question);
       answered++;
       if (choice.classList.contains('correct')) correct++;
       click(document.getElementById('quiz-test-next-btn'), window);

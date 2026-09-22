@@ -276,6 +276,8 @@ async function run() {
     assert(d.querySelector('.quiz-feedback').textContent.includes('Richtige Antwort:'));
     assert(choices[1].disabled);
     assert.equal(d.activeElement.id, 'quiz-next-btn');
+    // After answering, digits still belong to the question instead of switching sections.
+    assert(key(w, d.body, '1').defaultPrevented); assert.equal(app.activeTab, 'quiz');
     d.getElementById('quiz-next-btn').click(); await delay(10);
     assert(d.activeElement.matches('.quiz-prompt'), 'New question focus was not announced');
     type.value = 'conjugation'; type.dispatchEvent(new w.Event('change', { bubbles: true }));
@@ -305,6 +307,20 @@ async function run() {
     w.history.back();
     await until(() => app.activeTab === 'kana', 'confirmed timed exit through history');
     assert.equal(intervals.size, 0);
+
+    // The JLPT sort starts at N5; number keys follow the sidebar, also beside the open detail pane.
+    const kanjiSection = app.sections.kanji;
+    app.switchTab('kanji'); await app.ensureSectionLoaded('kanji');
+    Object.keys(kanjiSection.filters).forEach(name => { kanjiSection.filters[name] = 'all'; });
+    kanjiSection.dom.search.value = ''; kanjiSection.currentSort = 'jlpt'; kanjiSection.applyFilters();
+    assert(kanjiSection.filteredItems.some(k => k.jlpt === 'N1'), 'Sort check needs every level');
+    assert.equal(kanjiSection.filteredItems[0].jlpt, 'N5', 'JLPT sort must start with N5');
+    kanjiSection.dom.grid.querySelector('.entry-open').click();
+    assert(kanjiSection.isOverlayOpen() && kanjiSection.dom.overlay.classList.contains('as-pane'));
+    key(w, d.body, '3'); assert.equal(app.activeTab, 'counters');
+    key(w, d.body, '8'); assert.equal(app.activeTab, 'reading');
+    key(w, d.body, '0'); assert.equal(app.activeTab, 'quiz');
+    app.switchTab('kana');
 
     // Shortcut modifiers and Japanese IME composition must never change sections.
     key(w, d.body, '3', { ctrlKey: true }); key(w, d.body, '4', { isComposing: true });

@@ -822,7 +822,9 @@
         if (e.key === 'Escape') sec.closeDetail();
         if (e.key === 'ArrowLeft' && !focused.matches('button, a, input, select, textarea')) sec.navigateDetail(-1);
         if (e.key === 'ArrowRight' && !focused.matches('button, a, input, select, textarea')) sec.navigateDetail(1);
-        return;
+        // A modal detail keeps the keyboard; the wide-screen side pane leaves the global shortcuts active.
+        if (e.key === 'Escape' || e.key === 'ArrowLeft' || e.key === 'ArrowRight' || !sec.dom.overlay.classList.contains('as-pane')) return;
+        break;
       }
     }
 
@@ -849,13 +851,11 @@
       return;
     }
 
-    // Tab switching: 1-8
-    var tabKeys = ['1', '2', '3', '4', '5', '6', '7', '8'];
-    var tabNames = ['kana', 'radicals', 'kanji', 'vocab', 'onomatopoeia', 'grammar', 'counters', 'quiz'];
-    var keyIdx = tabKeys.indexOf(e.key);
-    if (keyIdx !== -1) {
+    // Tab switching: 1-9 and 0 follow the sidebar order
+    var keyIdx = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'].indexOf(e.key);
+    if (keyIdx !== -1 && tabBtns[keyIdx]) {
       e.preventDefault();
-      switchTab(tabNames[keyIdx]);
+      switchTab(tabBtns[keyIdx].getAttribute('data-tab'));
       return;
     }
 

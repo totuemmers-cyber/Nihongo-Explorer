@@ -570,10 +570,7 @@ SECTION_CONFIGS.kanji = {
   sortFn: function (items, sortKey) {
     items.sort(function (a, b) {
       if (sortKey === 'jlpt') {
-        var la = LEVEL_ORDER[a.jlpt] || 9;
-        var lb = LEVEL_ORDER[b.jlpt] || 9;
-        if (la !== lb) return la - lb;
-        return a.strokes - b.strokes;
+        return compareKanjiSearchItems(a, b);
       }
       if (sortKey === 'strokes') {
         return a.strokes - b.strokes;
