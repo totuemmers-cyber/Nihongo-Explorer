@@ -12,7 +12,25 @@ for(const k of kanji){
   assert(fs.existsSync(file),'Stroke asset missing: '+k.kanji);
   const svg=fs.readFileSync(file,'utf8');
   assert(/<svg\b/.test(svg)&&/<path\b/.test(svg),'Invalid stroke asset: '+k.kanji);
+  // The stated count must match the strokes the diagram animates (KanjiVG -sN or AnimCJK dN ids).
+  const drawn=new Set(Array.from(svg.matchAll(svg.includes('kvg:')?/id="kvg:[0-9a-f]+-s(\d+)"/g:/id="z\d+d(\d+)[a-z]?"/g),m=>m[1])).size;
+  assert.equal(k.strokes,drawn,'Stroke count differs from its diagram: '+k.kanji);
 }
+// Jōyō coverage against KANJIDIC2 (scripts/joyo-kanji.json). The 2010 table permits these
+// tolerated forms (許容字体); the data uses them for the listed official glyphs.
+const joyo=JSON.parse(fs.readFileSync(path.join(__dirname,'joyo-kanji.json'),'utf8'));
+const TOLERATED_FORMS={'剝':'剥','𠮟':'叱','頰':'頬'};
+const kanjiByChar=new Map(kanji.map(k=>[k.kanji,k]));
+assert.equal(joyo.kanji.length,2136,'Jōyō reference must list 2,136 kanji');
+const missingJoyo=joyo.kanji.filter(j=>!kanjiByChar.has(j.kanji)&&!kanjiByChar.has(TOLERATED_FORMS[j.kanji])).map(j=>j.kanji);
+assert.deepEqual(missingJoyo,[],'Missing Jōyō kanji: '+missingJoyo.join(''));
+// KANJIDIC2 counts the official glyph, so tolerated forms rely on the diagram check above.
+for(const j of joyo.kanji){
+  const k=kanjiByChar.get(j.kanji);
+  if(k)assert(j.strokeCounts.includes(k.strokes),'Unattested Jōyō stroke count: '+k.kanji+' '+k.strokes);
+}
+const joyoChars=new Set(joyo.kanji.map(j=>TOLERATED_FORMS[j.kanji]||j.kanji));
+const nonJoyo=kanji.filter(k=>!joyoChars.has(k.kanji)).length;
 const grammarIds=new Set(c.GRAMMAR_DATA.map(g=>g.id));
 let clozePatterns=0,excluded=0,related=0;
 for(const g of c.GRAMMAR_DATA){
@@ -55,4 +73,4 @@ const newLessons=c.GRAMMAR_LESSONS.filter(l=>l.id.startsWith('lesson-n1-'));
 assert.equal(newLessons.length,6);
 for(const lesson of c.GRAMMAR_LESSONS){for(const id of lesson.grammarIds||[])assert(grammarIds.has(id),'Lesson target missing: '+id);}
 for(const l of newLessons){assert(l.sections.length>=2&&l.grammarIds.length>=2,'Thin lesson '+l.id);for(const s of l.sections)assert(s.examples.length>=2,'Missing lesson contrast '+l.id);}
-console.log(JSON.stringify({kanji:kanji.length,missingStrokeAssets:0,missingPrimaryRadicals:0,grammarPatterns:c.GRAMMAR_DATA.length,clozePatterns,explainedClozeExclusions:excluded,grammarLinks:related,brokenGrammarLinks:0,onomatopoeia:ono.length,newOnomatopoeia:ono.filter(o=>o.editorialBatch).length,brokenOnomatopoeiaLinks:0,enrichedVocabulary:enriched.length,enrichedByLevel:Object.fromEntries(['N3','N2','N1'].map(l=>[l,enriched.filter(v=>v.level===l).length])),newN1Lessons:newLessons.length},null,2));
+console.log(JSON.stringify({kanji:kanji.length,missingStrokeAssets:0,missingPrimaryRadicals:0,strokeCountMismatches:0,joyo:joyo.kanji.length,missingJoyo:missingJoyo.length,nonJoyo,grammarPatterns:c.GRAMMAR_DATA.length,clozePatterns,explainedClozeExclusions:excluded,grammarLinks:related,brokenGrammarLinks:0,onomatopoeia:ono.length,newOnomatopoeia:ono.filter(o=>o.editorialBatch).length,brokenOnomatopoeiaLinks:0,enrichedVocabulary:enriched.length,enrichedByLevel:Object.fromEntries(['N3','N2','N1'].map(l=>[l,enriched.filter(v=>v.level===l).length])),newN1Lessons:newLessons.length},null,2));

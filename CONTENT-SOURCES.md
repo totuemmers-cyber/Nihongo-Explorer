@@ -52,6 +52,26 @@ choice is stored on each entry. Script variants are mapped to the app's inventor
 The inventory errors at Kangxi numbers 54, 96 and 162 were corrected to 廴, 玉 and
 辵, with the corresponding stroke counts corrected where necessary.
 
+## KANJIDIC2 and Jōyō coverage
+
+`scripts/joyo-kanji.json` lists the 2,136 Jōyō kanji (KANJIDIC2 grades 1–6 and 8)
+with every stroke count KANJIDIC2 attests. KANJIDIC2 is published by the Electronic
+Dictionary Research and Development Group under CC BY-SA 4.0
+(http://www.edrdg.org/kanjidic/kanjidic2.xml.gz, database version 2026-265).
+`node scripts/build-joyo-reference.cjs` regenerates the list from the cached archive.
+
+`node scripts/complete-joyo-kanji.cjs` is idempotent. Each kanji's stroke count
+follows its bundled stroke-order diagram when KANJIDIC2 attests that count (39
+entries corrected, e.g. 浄 11→9, 離 18→19). It also added the 27 Jōyō kanji that
+were missing (batch `2026-09-joyo`, all N1): 乞唾嚇堆塑塞妖妬憬摯斑曽楼潰濫玩稽股臼艶苛虞諧貌采釜錮.
+Their German meanings, readings and example words are original teaching text, checked
+against KANJIDIC2 and JMdict; their KanjiVG diagrams and radicals follow the rules
+above. 剝, 𠮟 and 頰 are covered by the tolerated forms 剥, 叱 and 頬 (許容字体) already
+in the data. The 338 other non-Jōyō kanji remain.
+
+`npm run audit:content` asserts complete Jōyō coverage, stroke counts that match
+each diagram, and KANJIDIC2-attested counts for Jōyō entries.
+
 ## Reproduction and checks
 
 Run `node scripts/edit-content.cjs` for the TSV edits, and

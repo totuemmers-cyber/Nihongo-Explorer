@@ -50,7 +50,7 @@ module.exports = function auditQuizReview(ctx, audit) {
     const accepted = new Set(item.meanings.map(normalize));
     assert(question.choices.every((c,i) => i === question.correctIndex || !accepted.has(normalize(c))), item.kanji);
   }
-  assert.equal(kanji.length,2447);
+  assert.equal(kanji.length,2474);
   // Include NFKC, case and repeated-whitespace collisions in a concentrated pool.
   const fixture = [
     {kanji:'前',jlpt:'N5',meanings:['vor','vorher','A B']},
