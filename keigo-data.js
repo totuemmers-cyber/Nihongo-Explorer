@@ -1,3 +1,4 @@
+// Teaching data; editorial sources in scripts/.
 window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   {
     "id": "keigo-sonkeigo-oninaru",
@@ -12,7 +13,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "先生はもうお帰りになりました。",
         "romaji": "Sensei wa mō okaeri ni narimashita.",
-        "german": "Der Lehrer ist bereits nach Hause gegangen."
+        "german": "Der Lehrer ist bereits nach Hause gegangen.",
+        "cloze": {
+          "start": 5,
+          "answer": "お帰りになりました",
+          "quiz": {
+            "level": "N4",
+            "japanese": "先生はもうお帰りになりました。",
+            "german": "Der Lehrer ist bereits nach Hause gegangen.",
+            "start": 5,
+            "answer": "お帰りになりました",
+            "acceptedAnswers": [
+              "お帰りになりました",
+              "帰られました"
+            ],
+            "distractors": [
+              {
+                "text": "お帰りをなりました",
+                "reason": "Die ehrende Konstruktion verwendet に."
+              },
+              {
+                "text": "お帰りになりませんでした",
+                "reason": "Dies verneint die Heimkehr."
+              },
+              {
+                "text": "お帰るになりました",
+                "reason": "お～になる verwendet den Verbstamm."
+              }
+            ],
+            "promptKana": "せんせいはもう＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "社長はこの本をお読みになりましたか。",
@@ -44,7 +75,38 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "部長は何時に来られますか。",
         "romaji": "Buchō wa nanji ni koraremasu ka.",
-        "german": "Um wie viel Uhr kommt der Abteilungsleiter?"
+        "german": "Um wie viel Uhr kommt der Abteilungsleiter?",
+        "cloze": {
+          "start": 6,
+          "answer": "来られます",
+          "quiz": {
+            "level": "N4",
+            "japanese": "部長は何時に来られますか。",
+            "german": "Um wie viel Uhr kommt der Abteilungsleiter?",
+            "start": 6,
+            "answer": "来られます",
+            "acceptedAnswers": [
+              "来られます",
+              "いらっしゃいます",
+              "お越しになります"
+            ],
+            "distractors": [
+              {
+                "text": "来るられます",
+                "reason": "Die ehrende Form von 来る lautet 来られます."
+              },
+              {
+                "text": "来られるます",
+                "reason": "ます folgt nicht der Wörterbuchform."
+              },
+              {
+                "text": "来られました",
+                "reason": "Dies fragt nach Vergangenheit statt der bevorstehenden Ankunft."
+              }
+            ],
+            "promptKana": "ぶちょうはなんじに＿＿＿か。"
+          }
+        }
       },
       {
         "japanese": "先生はもう帰られました。",
@@ -76,7 +138,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "田中先生はいらっしゃいますか。",
         "romaji": "Tanaka-sensei wa irasshaimasu ka.",
-        "german": "Ist Herr/Frau Tanaka da?"
+        "german": "Ist Herr/Frau Tanaka da?",
+        "cloze": {
+          "start": 5,
+          "answer": "いらっしゃいます",
+          "quiz": {
+            "level": "N4",
+            "japanese": "田中先生はいらっしゃいますか。",
+            "german": "Ist Herr/Frau Tanaka da?",
+            "start": 5,
+            "answer": "いらっしゃいます",
+            "acceptedAnswers": [
+              "いらっしゃいます",
+              "おいでになります"
+            ],
+            "distractors": [
+              {
+                "text": "いらっしゃるます",
+                "reason": "Die höfliche Form lautet いらっしゃいます."
+              },
+              {
+                "text": "いらっしゃいませんた",
+                "reason": "Dies ist keine Verbform."
+              },
+              {
+                "text": "いらっしゃいました",
+                "reason": "Dies fragt nach vergangener statt aktueller Anwesenheit."
+              }
+            ],
+            "promptKana": "たなかせんせいは＿＿＿か。"
+          }
+        }
       },
       {
         "japanese": "明日のパーティーにいらっしゃいますか。",
@@ -108,7 +200,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "先生がおっしゃったとおりにします。",
         "romaji": "Sensei ga osshatta tōri ni shimasu.",
-        "german": "Ich werde es so machen, wie der Lehrer gesagt hat."
+        "german": "Ich werde es so machen, wie der Lehrer gesagt hat.",
+        "cloze": {
+          "start": 3,
+          "answer": "おっしゃった",
+          "quiz": {
+            "level": "N4",
+            "japanese": "先生がおっしゃったとおりにします。",
+            "german": "Ich werde es so machen, wie der Lehrer gesagt hat.",
+            "start": 3,
+            "answer": "おっしゃった",
+            "acceptedAnswers": [
+              "おっしゃった",
+              "言われた"
+            ],
+            "distractors": [
+              {
+                "text": "おっしゃりました",
+                "reason": "Vor とおり steht hier die einfache Form; zudem lautet die höfliche Form おっしゃいました."
+              },
+              {
+                "text": "おっしゃるた",
+                "reason": "Dies ist keine Vergangenheitsform."
+              },
+              {
+                "text": "おっしゃらなかった",
+                "reason": "Dies verneint, dass die Lehrperson es gesagt hat."
+              }
+            ],
+            "promptKana": "せんせいが＿＿＿とおりにします。"
+          }
+        }
       },
       {
         "japanese": "部長は何とおっしゃいましたか。",
@@ -135,7 +257,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "どうぞ召し上がってください。",
         "romaji": "Dōzo meshiagatte kudasai.",
-        "german": "Bitte greifen Sie zu. / Bitte essen/trinken Sie."
+        "german": "Bitte greifen Sie zu. / Bitte essen/trinken Sie.",
+        "cloze": {
+          "start": 3,
+          "answer": "召し上がって",
+          "quiz": {
+            "level": "N3",
+            "japanese": "どうぞ召し上がってください。",
+            "german": "Bitte greifen Sie zu. / Bitte essen/trinken Sie.",
+            "start": 3,
+            "answer": "召し上がって",
+            "acceptedAnswers": [
+              "召し上がって"
+            ],
+            "distractors": [
+              {
+                "text": "召し上がった",
+                "reason": "Vor ください braucht man die て-Form."
+              },
+              {
+                "text": "召し上がります",
+                "reason": "Die ます-Form passt nicht vor ください."
+              },
+              {
+                "text": "召し上がらないで",
+                "reason": "Dies fordert zum Nichtessen auf."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "コーヒーを召し上がりますか。",
@@ -166,7 +316,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "この資料をご覧になりましたか。",
         "romaji": "Kono shiryō o goran ni narimashita ka.",
-        "german": "Haben Sie sich diese Unterlagen angesehen?"
+        "german": "Haben Sie sich diese Unterlagen angesehen?",
+        "cloze": {
+          "start": 5,
+          "answer": "ご覧になりました",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この資料をご覧になりましたか。",
+            "german": "Haben Sie sich diese Unterlagen angesehen?",
+            "start": 5,
+            "answer": "ご覧になりました",
+            "acceptedAnswers": [
+              "ご覧になりました"
+            ],
+            "distractors": [
+              {
+                "text": "ご覧をなりました",
+                "reason": "Die ehrende Wendung verwendet に."
+              },
+              {
+                "text": "ご覧になるました",
+                "reason": "Dies ist keine höfliche Vergangenheit."
+              },
+              {
+                "text": "ご覧になりる",
+                "reason": "Dies ist keine Verbform."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "どうぞご覧ください。",
@@ -191,11 +369,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "この言葉をご存じですか。",
+        "cloze": {
+          "start": 5,
+          "answer": "ご存じ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この言葉をご存じですか。",
+            "german": "Kennen Sie dieses Wort?",
+            "start": 5,
+            "answer": "ご存じ",
+            "acceptedAnswers": [
+              "ご存じ",
+              "ご存知"
+            ],
+            "distractors": [
+              {
+                "text": "ご存じます",
+                "reason": "存じ als nominale ehrende Form erhält hier nicht ます vor です."
+              },
+              {
+                "text": "ご存じな",
+                "reason": "Vor です steht hier kein な."
+              },
+              {
+                "text": "ご存じを",
+                "reason": "を kann hier nicht vor です stehen."
+              }
+            ]
+          }
+        },
         "romaji": "Kono kotoba o gozonji desu ka.",
         "german": "Kennen Sie dieses Wort?"
       },
       {
         "japanese": "ご存じのとおり、来月から新しいルールが始まります。",
+        "cloze": {
+          "start": 0,
+          "answer": "ご存じ"
+        },
         "romaji": "Gozonji no tōri, raigetsu kara atarashii rūru ga hajimarimasu.",
         "german": "Wie Sie wissen, beginnen ab nächsten Monat die neuen Regeln."
       }
@@ -219,7 +430,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "何をなさいますか。",
         "romaji": "Nani o nasaimasu ka.",
-        "german": "Was möchten Sie tun?"
+        "german": "Was möchten Sie tun?",
+        "cloze": {
+          "start": 2,
+          "answer": "なさいます",
+          "quiz": {
+            "level": "N3",
+            "japanese": "何をなさいますか。",
+            "german": "Was möchten Sie tun?",
+            "start": 2,
+            "answer": "なさいます",
+            "acceptedAnswers": [
+              "なさいます"
+            ],
+            "distractors": [
+              {
+                "text": "なさるます",
+                "reason": "Die höfliche Form lautet なさいます."
+              },
+              {
+                "text": "なさいますた",
+                "reason": "Dies ist keine Verbform."
+              },
+              {
+                "text": "なさるでした",
+                "reason": "Dies ist keine höfliche Verbform."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "先生は研究をなさっています。",
@@ -250,7 +489,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "先生が辞書をくださいました。",
         "romaji": "Sensei ga jisho o kudasaimashita.",
-        "german": "Der Lehrer hat mir ein Wörterbuch gegeben."
+        "german": "Der Lehrer hat mir ein Wörterbuch gegeben.",
+        "cloze": {
+          "start": 6,
+          "answer": "くださいました",
+          "quiz": {
+            "level": "N4",
+            "japanese": "先生が辞書をくださいました。",
+            "german": "Der Lehrer hat mir ein Wörterbuch gegeben.",
+            "start": 6,
+            "answer": "くださいました",
+            "acceptedAnswers": [
+              "くださいました"
+            ],
+            "distractors": [
+              {
+                "text": "くださるました",
+                "reason": "Die höfliche Vergangenheit lautet くださいました."
+              },
+              {
+                "text": "くださいませんでした",
+                "reason": "Dies verneint das Geschenk."
+              },
+              {
+                "text": "くださりますた",
+                "reason": "Dies ist keine höfliche Vergangenheitsform."
+              }
+            ],
+            "promptKana": "せんせいがじしょを＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "部長がアドバイスをくださいました。",
@@ -278,7 +546,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お待ちくださいませ。",
         "romaji": "Omachi kudasaimase.",
-        "german": "Bitte warten Sie. (sehr höflich)"
+        "german": "Bitte warten Sie. (sehr höflich)",
+        "cloze": {
+          "start": 0,
+          "answer": "お待ちください",
+          "quiz": {
+            "level": "N3",
+            "japanese": "お待ちくださいませ。",
+            "german": "Bitte warten Sie. (sehr höflich)",
+            "start": 0,
+            "answer": "お待ちください",
+            "acceptedAnswers": [
+              "お待ちください"
+            ],
+            "distractors": [
+              {
+                "text": "お待つください",
+                "reason": "Die ehrende Bitte verlangt den Verbstamm."
+              },
+              {
+                "text": "お待ちくださる",
+                "reason": "Vor ませ braucht man die höfliche Stammform."
+              },
+              {
+                "text": "お待ちくださいた",
+                "reason": "Dies ist keine Bitteform."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "先生がお教えくださいました。",
@@ -310,7 +606,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お荷物をお持ちします。",
         "romaji": "Onimotsu o omochi shimasu.",
-        "german": "Ich trage Ihr Gepäck."
+        "german": "Ich trage Ihr Gepäck.",
+        "cloze": {
+          "start": 4,
+          "answer": "お持ちします",
+          "quiz": {
+            "level": "N4",
+            "japanese": "お荷物をお持ちします。",
+            "german": "Ich trage Ihr Gepäck.",
+            "start": 4,
+            "answer": "お持ちします",
+            "acceptedAnswers": [
+              "お持ちします",
+              "お持ちいたします"
+            ],
+            "distractors": [
+              {
+                "text": "お持つします",
+                "reason": "お～する braucht den Verbstamm 持ち."
+              },
+              {
+                "text": "お持ちしません",
+                "reason": "Dies verneint das Tragen."
+              },
+              {
+                "text": "お持ちするます",
+                "reason": "Die höfliche Endung lautet します."
+              }
+            ],
+            "promptKana": "おにもつを＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "後ほどご連絡いたします。",
@@ -342,7 +668,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "すぐに参ります。",
         "romaji": "Sugu ni mairimasu.",
-        "german": "Ich komme sofort."
+        "german": "Ich komme sofort.",
+        "cloze": {
+          "start": 3,
+          "answer": "参ります",
+          "quiz": {
+            "level": "N4",
+            "japanese": "すぐに参ります。",
+            "german": "Ich komme sofort.",
+            "start": 3,
+            "answer": "参ります",
+            "acceptedAnswers": [
+              "参ります"
+            ],
+            "distractors": [
+              {
+                "text": "参るます",
+                "reason": "Die höfliche Form lautet 参ります."
+              },
+              {
+                "text": "参りません",
+                "reason": "Dies verneint das Kommen."
+              },
+              {
+                "text": "参りました",
+                "reason": "Dies berichtet Vergangenheit statt sofortiges Kommen."
+              }
+            ],
+            "promptKana": "すぐに＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "明日、御社に参ります。",
@@ -374,7 +729,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "田中と申します。",
         "romaji": "Tanaka to mōshimasu.",
-        "german": "Mein Name ist Tanaka."
+        "german": "Mein Name ist Tanaka.",
+        "cloze": {
+          "start": 3,
+          "answer": "申します",
+          "quiz": {
+            "level": "N4",
+            "japanese": "田中と申します。",
+            "german": "Mein Name ist Tanaka.",
+            "start": 3,
+            "answer": "申します",
+            "acceptedAnswers": [
+              "申します",
+              "いいます"
+            ],
+            "distractors": [
+              {
+                "text": "申すます",
+                "reason": "Die höfliche Form lautet 申します."
+              },
+              {
+                "text": "申しません",
+                "reason": "Dies verneint die Namensangabe."
+              },
+              {
+                "text": "申すでした",
+                "reason": "Dies ist keine höfliche Verbform."
+              }
+            ],
+            "promptKana": "たなかと＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "一言申してもよろしいでしょうか。",
@@ -401,7 +786,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "一つ申し上げたいことがあります。",
         "romaji": "Hitotsu mōshiagetai koto ga arimasu.",
-        "german": "Es gibt eine Sache, die ich Ihnen mitteilen möchte."
+        "german": "Es gibt eine Sache, die ich Ihnen mitteilen möchte.",
+        "cloze": {
+          "start": 2,
+          "answer": "申し上げたい",
+          "quiz": {
+            "level": "N3",
+            "japanese": "一つ申し上げたいことがあります。",
+            "german": "Es gibt eine Sache, die ich Ihnen mitteilen möchte.",
+            "start": 2,
+            "answer": "申し上げたい",
+            "acceptedAnswers": [
+              "申し上げたい"
+            ],
+            "distractors": [
+              {
+                "text": "申し上げたいな",
+                "reason": "たい bestimmt こと ohne な."
+              },
+              {
+                "text": "申し上げるたい",
+                "reason": "たい folgt dem Verbstamm."
+              },
+              {
+                "text": "申し上げたくない",
+                "reason": "Dies verneint den Mitteilungswunsch."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "お礼を申し上げます。",
@@ -433,7 +846,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "いただきます。",
         "romaji": "Itadakimasu.",
-        "german": "Guten Appetit. (wörtl.: Ich empfange bescheiden.)"
+        "german": "Guten Appetit. (wörtl.: Ich empfange bescheiden.)",
+        "cloze": {
+          "start": 0,
+          "answer": "いただきます",
+          "quiz": {
+            "level": "N4",
+            "japanese": "いただきます。",
+            "german": "Guten Appetit. (wörtl.: Ich empfange bescheiden.)",
+            "start": 0,
+            "answer": "いただきます",
+            "acceptedAnswers": [
+              "いただきます"
+            ],
+            "distractors": [
+              {
+                "text": "いただくます",
+                "reason": "Die höfliche Form lautet いただきます."
+              },
+              {
+                "text": "いただきません",
+                "reason": "Dies verneint die Annahme, statt die Mahlzeit zu beginnen."
+              },
+              {
+                "text": "いただくでした",
+                "reason": "Dies ist keine höfliche Verbform."
+              }
+            ],
+            "promptKana": "＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "先生にこの本をいただきました。",
@@ -466,7 +908,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お名刺を拝見してもよろしいですか。",
         "romaji": "Omeishi o haiken shite mo yoroshii desu ka.",
-        "german": "Darf ich mir Ihre Visitenkarte ansehen?"
+        "german": "Darf ich mir Ihre Visitenkarte ansehen?",
+        "cloze": {
+          "start": 4,
+          "answer": "拝見して",
+          "quiz": {
+            "level": "N3",
+            "japanese": "お名刺を拝見してもよろしいですか。",
+            "german": "Darf ich mir Ihre Visitenkarte ansehen?",
+            "start": 4,
+            "answer": "拝見して",
+            "acceptedAnswers": [
+              "拝見して"
+            ],
+            "distractors": [
+              {
+                "text": "拝見した",
+                "reason": "Vor もよろしい braucht man die て-Form."
+              },
+              {
+                "text": "拝見します",
+                "reason": "Die ます-Form passt nicht vor も."
+              },
+              {
+                "text": "拝見する",
+                "reason": "Die Wörterbuchform passt nicht vor もよろしい."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "資料を拝見いたしました。",
@@ -492,7 +962,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "その件は存じております。",
         "romaji": "Sono ken wa zonjite orimasu.",
-        "german": "Ich bin über diese Angelegenheit informiert."
+        "german": "Ich bin über diese Angelegenheit informiert.",
+        "cloze": {
+          "start": 4,
+          "answer": "存じております",
+          "quiz": {
+            "level": "N3",
+            "japanese": "その件は存じております。",
+            "german": "Ich bin über diese Angelegenheit informiert.",
+            "start": 4,
+            "answer": "存じております",
+            "acceptedAnswers": [
+              "存じております"
+            ],
+            "distractors": [
+              {
+                "text": "存じておるます",
+                "reason": "Die höfliche Form lautet おります."
+              },
+              {
+                "text": "存じておりません",
+                "reason": "Dies verneint das Wissen."
+              },
+              {
+                "text": "存じるております",
+                "reason": "存じる bildet die て-Form 存じて."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "私もそのように存じます。",
@@ -524,7 +1022,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "山田先生のことは存じ上げております。",
         "romaji": "Yamada-sensei no koto wa zonjiagete orimasu.",
-        "german": "Ich kenne Herrn/Frau Professor Yamada."
+        "german": "Ich kenne Herrn/Frau Professor Yamada.",
+        "cloze": {
+          "start": 8,
+          "answer": "存じ上げております",
+          "quiz": {
+            "level": "N2",
+            "japanese": "山田先生のことは存じ上げております。",
+            "german": "Ich kenne Herrn/Frau Professor Yamada.",
+            "start": 8,
+            "answer": "存じ上げております",
+            "acceptedAnswers": [
+              "存じ上げております"
+            ],
+            "distractors": [
+              {
+                "text": "存じ上げておりません",
+                "reason": "Dies verneint, die Person zu kennen."
+              },
+              {
+                "text": "存じ上げるおります",
+                "reason": "おります benötigt die て-Verbindung."
+              },
+              {
+                "text": "存じ上げておりますた",
+                "reason": "Die höfliche Vergangenheit endet mit ました."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "お名前はかねてより存じ上げております。",
@@ -551,7 +1077,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "私がいたします。",
         "romaji": "Watashi ga itashimasu.",
-        "german": "Ich werde es erledigen."
+        "german": "Ich werde es erledigen.",
+        "cloze": {
+          "start": 2,
+          "answer": "いたします",
+          "quiz": {
+            "level": "N4",
+            "japanese": "私がいたします。",
+            "german": "Ich werde es erledigen.",
+            "start": 2,
+            "answer": "いたします",
+            "acceptedAnswers": [
+              "いたします",
+              "します"
+            ],
+            "distractors": [
+              {
+                "text": "いたすます",
+                "reason": "Die höfliche Form lautet いたします."
+              },
+              {
+                "text": "いたしません",
+                "reason": "Dies verneint das Erledigen."
+              },
+              {
+                "text": "いたすでした",
+                "reason": "Dies ist keine höfliche Verbform."
+              }
+            ],
+            "promptKana": "わたしが＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "確認いたします。",
@@ -583,7 +1139,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "先生にお花を差し上げました。",
         "romaji": "Sensei ni ohana o sashiagemashita.",
-        "german": "Ich habe dem Lehrer Blumen überreicht."
+        "german": "Ich habe dem Lehrer Blumen überreicht.",
+        "cloze": {
+          "start": 6,
+          "answer": "差し上げました",
+          "quiz": {
+            "level": "N3",
+            "japanese": "先生にお花を差し上げました。",
+            "german": "Ich habe dem Lehrer Blumen überreicht.",
+            "start": 6,
+            "answer": "差し上げました",
+            "acceptedAnswers": [
+              "差し上げました"
+            ],
+            "distractors": [
+              {
+                "text": "差し上げるました",
+                "reason": "Dies ist keine höfliche Vergangenheit."
+              },
+              {
+                "text": "差し上げませんでした",
+                "reason": "Dies verneint die Überreichung."
+              },
+              {
+                "text": "差し上げますた",
+                "reason": "Dies ist keine Vergangenheitsform."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "何か差し上げましょうか。",
@@ -615,7 +1199,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "明日、お伺いしてもよろしいですか。",
         "romaji": "Ashita, oukagai shite mo yoroshii desu ka.",
-        "german": "Darf ich Sie morgen besuchen?"
+        "german": "Darf ich Sie morgen besuchen?",
+        "cloze": {
+          "start": 3,
+          "answer": "お伺いして",
+          "quiz": {
+            "level": "N4",
+            "japanese": "明日、お伺いしてもよろしいですか。",
+            "german": "Darf ich Sie morgen besuchen?",
+            "start": 3,
+            "answer": "お伺いして",
+            "acceptedAnswers": [
+              "お伺いして",
+              "伺って"
+            ],
+            "distractors": [
+              {
+                "text": "お伺いした",
+                "reason": "Vor もよろしい ist hier die て-Form nötig."
+              },
+              {
+                "text": "お伺いします",
+                "reason": "Die ます-Form passt nicht vor もよろしい."
+              },
+              {
+                "text": "お伺いする",
+                "reason": "Die Wörterbuchform passt nicht vor もよろしい."
+              }
+            ],
+            "promptKana": "あした、＿＿＿もよろしいですか。"
+          }
+        }
       },
       {
         "japanese": "一つ伺いたいのですが。",
@@ -647,7 +1261,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "田中はただいま外出しております。",
         "romaji": "Tanaka wa tadaima gaishutsu shite orimasu.",
-        "german": "Herr/Frau Tanaka ist gerade außer Haus."
+        "german": "Herr/Frau Tanaka ist gerade außer Haus.",
+        "cloze": {
+          "start": 11,
+          "answer": "おります",
+          "quiz": {
+            "level": "N4",
+            "japanese": "田中はただいま外出しております。",
+            "german": "Herr/Frau Tanaka ist gerade außer Haus.",
+            "start": 11,
+            "answer": "おります",
+            "acceptedAnswers": [
+              "おります",
+              "います"
+            ],
+            "distractors": [
+              {
+                "text": "おるます",
+                "reason": "Die höfliche Form lautet おります."
+              },
+              {
+                "text": "おりました",
+                "reason": "Dies berichtet Vergangenheit statt derzeitiger Abwesenheit."
+              },
+              {
+                "text": "おりません",
+                "reason": "Dies verneint das Außer-Haus-Sein."
+              }
+            ],
+            "promptKana": "たなかはただいまがいしゅつして＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "東京に住んでおります。",
@@ -677,11 +1321,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "こちらが会議室でございます。",
+        "cloze": {
+          "start": 7,
+          "answer": "でございます",
+          "quiz": {
+            "level": "N3",
+            "japanese": "こちらが会議室でございます。",
+            "german": "Dies hier ist der Konferenzraum.",
+            "start": 7,
+            "answer": "でございます",
+            "acceptedAnswers": [
+              "でございます"
+            ],
+            "distractors": [
+              {
+                "text": "でござるます",
+                "reason": "Die höfliche Form lautet ございます."
+              },
+              {
+                "text": "でございません",
+                "reason": "Dies verneint die Raumidentifikation."
+              },
+              {
+                "text": "をございます",
+                "reason": "Die Kopula beginnt hier mit で."
+              }
+            ]
+          }
+        },
         "romaji": "Kochira ga kaigishitsu de gozaimasu.",
         "german": "Dies hier ist der Konferenzraum."
       },
       {
         "japanese": "お手洗いはあちらでございます。",
+        "cloze": {
+          "start": 8,
+          "answer": "でございます"
+        },
         "romaji": "Otearai wa achira de gozaimasu.",
         "german": "Die Toilette befindet sich dort drüben."
       },
@@ -709,6 +1385,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "もう少しゆっくり話していただけませんか。",
+        "cloze": {
+          "start": 10,
+          "answer": "ていただけませんか",
+          "quiz": {
+            "level": "N3",
+            "japanese": "もう少しゆっくり話していただけませんか。",
+            "german": "Könnten Sie bitte etwas langsamer sprechen?",
+            "start": 10,
+            "answer": "ていただけませんか",
+            "acceptedAnswers": [
+              "ていただけませんか"
+            ],
+            "distractors": [
+              {
+                "text": "たいただけませんか",
+                "reason": "いただく folgt der て-Form."
+              },
+              {
+                "text": "ていただけるませんか",
+                "reason": "Dies ist keine höfliche Verbform."
+              },
+              {
+                "text": "ていただけませんた",
+                "reason": "Dies ist keine Frageform."
+              }
+            ]
+          }
+        },
         "romaji": "Mō sukoshi yukkuri hanashite itadakemasen ka.",
         "german": "Könnten Sie bitte etwas langsamer sprechen?"
       },
@@ -719,6 +1423,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "お名前を教えていただけませんか。",
+        "cloze": {
+          "start": 6,
+          "answer": "ていただけませんか"
+        },
         "romaji": "Onamae o oshiete itadakemasen ka.",
         "german": "Könnten Sie mir bitte Ihren Namen nennen?"
       }
@@ -742,7 +1450,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "本日は休ませていただきます。",
         "romaji": "Honjitsu wa yasumasete itadakimasu.",
-        "german": "Ich erlaube mir, heute frei zu nehmen."
+        "german": "Ich erlaube mir, heute frei zu nehmen.",
+        "cloze": {
+          "start": 3,
+          "answer": "休ませていただきます",
+          "quiz": {
+            "level": "N3",
+            "japanese": "本日は休ませていただきます。",
+            "german": "Ich erlaube mir, heute frei zu nehmen.",
+            "start": 3,
+            "answer": "休ませていただきます",
+            "acceptedAnswers": [
+              "休ませていただきます"
+            ],
+            "distractors": [
+              {
+                "text": "休ませたいただきます",
+                "reason": "いただく folgt der て-Form."
+              },
+              {
+                "text": "休ませていただきません",
+                "reason": "Dies verneint die angekündigte Freistellung."
+              },
+              {
+                "text": "休むさせていただきます",
+                "reason": "Die Kausativform lautet 休ませる."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "私が説明させていただきます。",
@@ -773,11 +1509,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お忙しいところ恐れ入りますが、ご確認いただけますでしょうか。",
+        "cloze": {
+          "start": 0,
+          "answer": "お忙しいところ恐れ入りますが",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お忙しいところ恐れ入りますが、ご確認いただけますでしょうか。",
+            "german": "Ich bitte um Verzeihung für die Störung, aber könnten Sie das bitte überprüfen?",
+            "start": 0,
+            "answer": "お忙しいところ恐れ入りますが",
+            "acceptedAnswers": [
+              "お忙しいところ恐れ入りますが",
+              "お忙しいところ恐縮ですが"
+            ],
+            "distractors": [
+              {
+                "text": "お忙しいところ恐れ入るますが",
+                "reason": "ます benötigt den Verbstamm 入り."
+              },
+              {
+                "text": "お忙しいところ恐れ入りますを",
+                "reason": "を verbindet hier nicht die Bitte mit der Einleitung."
+              },
+              {
+                "text": "お忙しいところ恐れ入りますな",
+                "reason": "な bildet hier keinen Anschluss an die Bitte."
+              }
+            ]
+          }
+        },
         "romaji": "Oisogashii tokoro osoreirimasu ga, gokakunin itadakemasu deshō ka.",
         "german": "Ich bitte um Verzeihung für die Störung, aber könnten Sie das bitte überprüfen?"
       },
       {
         "japanese": "お忙しいところ恐れ入りますが、少々お時間をいただけませんか。",
+        "cloze": {
+          "start": 0,
+          "answer": "お忙しいところ恐れ入りますが"
+        },
         "romaji": "Oisogashii tokoro osoreirimasu ga, shōshō ojikan o itadakemasen ka.",
         "german": "Entschuldigen Sie die Störung, aber könnten Sie mir etwas Zeit widmen?"
       }
@@ -800,11 +1569,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "いつもお世話になっております。ABC株式会社の田中です。",
+        "cloze": {
+          "start": 3,
+          "answer": "お世話になっております",
+          "quiz": {
+            "level": "N3",
+            "japanese": "いつもお世話になっております。ABC株式会社の田中です。",
+            "german": "Vielen Dank für die fortlaufende Zusammenarbeit. Hier spricht Tanaka von der ABC AG.",
+            "start": 3,
+            "answer": "お世話になっております",
+            "acceptedAnswers": [
+              "お世話になっております"
+            ],
+            "distractors": [
+              {
+                "text": "お世話になっておるます",
+                "reason": "Die höfliche Form lautet おります."
+              },
+              {
+                "text": "お世話をなっております",
+                "reason": "Die Wendung verwendet に."
+              },
+              {
+                "text": "お世話になっておりません",
+                "reason": "Dies verneint die fortlaufende Unterstützung."
+              }
+            ]
+          }
+        },
         "romaji": "Itsumo osewa ni natte orimasu. ABC kabushiki gaisha no Tanaka desu.",
         "german": "Vielen Dank für die fortlaufende Zusammenarbeit. Hier spricht Tanaka von der ABC AG."
       },
       {
         "japanese": "お世話になっております。先日の件について連絡いたしました。",
+        "cloze": {
+          "start": 0,
+          "answer": "お世話になっております"
+        },
         "romaji": "Osewa ni natte orimasu. Senjitsu no ken ni tsuite renraku itashimashita.",
         "german": "Danke für Ihre Unterstützung. Ich melde mich bezüglich der Angelegenheit neulich."
       },
@@ -820,7 +1621,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       "keigo-business-oisogashii"
     ]
   },
-{
+  {
     "id": "keigo-sonkeigo-okudasai",
     "pattern": "お～ください",
     "level": "N4",
@@ -833,7 +1634,38 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "こちらにお座りください。",
         "romaji": "Kochira ni osuwari kudasai.",
-        "german": "Bitte setzen Sie sich hierhin."
+        "german": "Bitte setzen Sie sich hierhin.",
+        "cloze": {
+          "start": 4,
+          "answer": "お座りください",
+          "quiz": {
+            "level": "N4",
+            "japanese": "こちらにお座りください。",
+            "german": "Bitte setzen Sie sich hierhin.",
+            "start": 4,
+            "answer": "お座りください",
+            "acceptedAnswers": [
+              "お座りください",
+              "お掛けください",
+              "座ってください"
+            ],
+            "distractors": [
+              {
+                "text": "お座るください",
+                "reason": "Die Bitte verwendet den Stamm 座り."
+              },
+              {
+                "text": "お座りません",
+                "reason": "Dies ist keine korrekte Bitte."
+              },
+              {
+                "text": "お座りくださいました",
+                "reason": "Dies berichtet Vergangenheit statt zum Sitzen aufzufordern."
+              }
+            ],
+            "promptKana": "こちらに＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "少々お待ちください。",
@@ -847,7 +1679,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Dies ist eine der am häufigsten verwendeten Keigo-Formen im Alltag. Bei sino-japanischen Wörtern wird statt お das Präfix ご verwendet (z.B. ご連絡ください).",
-    "related": ["keigo-sonkeigo-kudasaru", "keigo-sonkeigo-oninaru"]
+    "related": [
+      "keigo-sonkeigo-kudasaru",
+      "keigo-sonkeigo-oninaru"
+    ]
   },
   {
     "id": "keigo-sonkeigo-teirassharu",
@@ -862,7 +1697,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "社長は今、会議室で待っていらっしゃいます。",
         "romaji": "Shachō wa ima, kaigishitsu de matte irasshaimasu.",
-        "german": "Der Geschäftsführer wartet gerade im Konferenzraum."
+        "german": "Der Geschäftsführer wartet gerade im Konferenzraum.",
+        "cloze": {
+          "start": 9,
+          "answer": "待っていらっしゃいます",
+          "quiz": {
+            "level": "N3",
+            "japanese": "社長は今、会議室で待っていらっしゃいます。",
+            "german": "Der Geschäftsführer wartet gerade im Konferenzraum.",
+            "start": 9,
+            "answer": "待っていらっしゃいます",
+            "acceptedAnswers": [
+              "待っていらっしゃいます"
+            ],
+            "distractors": [
+              {
+                "text": "待ったいらっしゃいます",
+                "reason": "いらっしゃる folgt hier der て-Form."
+              },
+              {
+                "text": "待っていらっしゃいません",
+                "reason": "Dies verneint das Warten."
+              },
+              {
+                "text": "待っていらっしゃるます",
+                "reason": "Die höfliche Form lautet いらっしゃいます."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "先生はもう帰っていらっしゃいますか。",
@@ -876,7 +1739,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Diese Form klingt natürlicher und höflicher als die ～ている-Form. In der gesprochenen Sprache wird いらっしゃる oft zu いらっしゃいます verkürzt.",
-    "related": ["keigo-sonkeigo-irassharu", "keigo-sonkeigo-oninaru"]
+    "related": [
+      "keigo-sonkeigo-irassharu",
+      "keigo-sonkeigo-oninaru"
+    ]
   },
   {
     "id": "keigo-sonkeigo-omieninaru",
@@ -891,7 +1757,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "山田部長がお見えになりました。",
         "romaji": "Yamada buchō ga omie ni narimashita.",
-        "german": "Abteilungsleiter Yamada ist eingetroffen."
+        "german": "Abteilungsleiter Yamada ist eingetroffen.",
+        "cloze": {
+          "start": 5,
+          "answer": "お見えになりました",
+          "quiz": {
+            "level": "N2",
+            "japanese": "山田部長がお見えになりました。",
+            "german": "Abteilungsleiter Yamada ist eingetroffen.",
+            "start": 5,
+            "answer": "お見えになりました",
+            "acceptedAnswers": [
+              "お見えになりました",
+              "お越しになりました"
+            ],
+            "distractors": [
+              {
+                "text": "お見えになるました",
+                "reason": "Die höfliche Vergangenheit wird mit なりました gebildet."
+              },
+              {
+                "text": "お見えになりた",
+                "reason": "Die einfache Vergangenheit von なる lautet なった."
+              },
+              {
+                "text": "お見えになりませんでした",
+                "reason": "Dies verneint das Eintreffen."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "お客様がお見えになったら、すぐにお通しください。",
@@ -905,7 +1800,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お見えになる wird besonders häufig an Empfangsschaltern und in der Hotelbranche verwendet. Es klingt formeller als いらっしゃる.",
-    "related": ["keigo-sonkeigo-irassharu", "keigo-sonkeigo-okoshininaru"]
+    "related": [
+      "keigo-sonkeigo-irassharu",
+      "keigo-sonkeigo-okoshininaru"
+    ]
   },
   {
     "id": "keigo-sonkeigo-okoshininaru",
@@ -918,9 +1816,39 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "formation": "お越しになる (feste Verbindung) / お越しください (als Bitte)",
     "examples": [
       {
-        "japanese": "本日はお越しいただきありがとうございます。",
-        "romaji": "Honjitsu wa okoshi itadaki arigatō gozaimasu.",
-        "german": "Vielen Dank, dass Sie heute gekommen sind."
+        "japanese": "先生は何時にお越しになりましたか。",
+        "romaji": "Sensei wa nanji ni okoshi ni narimashita ka.",
+        "german": "Um wie viel Uhr ist die Lehrperson gekommen?",
+        "cloze": {
+          "start": 6,
+          "answer": "お越しになりました",
+          "quiz": {
+            "level": "N2",
+            "japanese": "先生は何時にお越しになりましたか。",
+            "german": "Um wie viel Uhr ist die Lehrperson gekommen?",
+            "start": 6,
+            "answer": "お越しになりました",
+            "acceptedAnswers": [
+              "お越しになりました",
+              "お見えになりました",
+              "いらっしゃいました"
+            ],
+            "distractors": [
+              {
+                "text": "お越しになるました",
+                "reason": "Die höfliche Vergangenheit lautet なりました."
+              },
+              {
+                "text": "お越しになりた",
+                "reason": "Die einfache Vergangenheit von なる lautet なった."
+              },
+              {
+                "text": "お越しにならないました",
+                "reason": "Die höfliche Verneinung wird nicht mit ないました gebildet."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "ぜひ弊社にお越しください。",
@@ -934,7 +1862,11 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お越しください wird sehr häufig auf Veranstaltungseinladungen und in Geschäfts-E-Mails verwendet. Die Kombination お越しいただく ist eine besonders höfliche Mischform aus Sonkeigo und Kenjōgo.",
-    "related": ["keigo-sonkeigo-irassharu", "keigo-sonkeigo-omieninaru", "keigo-sonkeigo-oideninaru"]
+    "related": [
+      "keigo-sonkeigo-irassharu",
+      "keigo-sonkeigo-omieninaru",
+      "keigo-sonkeigo-oideninaru"
+    ]
   },
   {
     "id": "keigo-sonkeigo-oideninaru",
@@ -949,7 +1881,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "明日の会議においでになりますか。",
         "romaji": "Ashita no kaigi ni oide ni narimasu ka.",
-        "german": "Werden Sie zur Besprechung morgen kommen?"
+        "german": "Werden Sie zur Besprechung morgen kommen?",
+        "cloze": {
+          "start": 6,
+          "answer": "おいでになります",
+          "quiz": {
+            "level": "N2",
+            "japanese": "明日の会議においでになりますか。",
+            "german": "Werden Sie zur Besprechung morgen kommen?",
+            "start": 6,
+            "answer": "おいでになります",
+            "acceptedAnswers": [
+              "おいでになります",
+              "いらっしゃいます",
+              "お越しになります"
+            ],
+            "distractors": [
+              {
+                "text": "おいでになるます",
+                "reason": "ます benötigt den Stamm なり."
+              },
+              {
+                "text": "おいでになりますた",
+                "reason": "Die höfliche Vergangenheit endet mit ました."
+              },
+              {
+                "text": "おいでにならないます",
+                "reason": "ない erhält kein angehängtes ます."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "社長は今、東京においでになります。",
@@ -963,7 +1925,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "おいでになる kann je nach Kontext drei verschiedene Verben ersetzen (行く、来る、いる). Es klingt etwas weicher und weniger förmlich als いらっしゃる, wird aber dennoch als vollwertiges Sonkeigo angesehen.",
-    "related": ["keigo-sonkeigo-irassharu", "keigo-sonkeigo-okoshininaru"]
+    "related": [
+      "keigo-sonkeigo-irassharu",
+      "keigo-sonkeigo-okoshininaru"
+    ]
   },
   {
     "id": "keigo-sonkeigo-omotomeninaru",
@@ -978,7 +1943,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "こちらの商品はどちらでお求めになりましたか。",
         "romaji": "Kochira no shōhin wa dochira de omotome ni narimashita ka.",
-        "german": "Wo haben Sie dieses Produkt erworben?"
+        "german": "Wo haben Sie dieses Produkt erworben?",
+        "cloze": {
+          "start": 11,
+          "answer": "お求めになりました",
+          "quiz": {
+            "level": "N2",
+            "japanese": "こちらの商品はどちらでお求めになりましたか。",
+            "german": "Wo haben Sie dieses Produkt erworben?",
+            "start": 11,
+            "answer": "お求めになりました",
+            "acceptedAnswers": [
+              "お求めになりました",
+              "お買いになりました"
+            ],
+            "distractors": [
+              {
+                "text": "お求めになるました",
+                "reason": "Die höfliche Vergangenheit lautet なりました."
+              },
+              {
+                "text": "お求めになりた",
+                "reason": "Die einfache Vergangenheit von なる lautet なった."
+              },
+              {
+                "text": "お求めにならないます",
+                "reason": "ない erhält kein angehängtes ます."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "お求めになりやすい価格でご提供しております。",
@@ -992,7 +1986,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "In Kaufhäusern und gehobenen Geschäften wird お求めになる standardmäßig statt 買う verwendet. Die kürzere Form お求めください wird oft auf Werbematerialien benutzt.",
-    "related": ["keigo-sonkeigo-oninaru", "keigo-sonkeigo-goriyouninaru"]
+    "related": [
+      "keigo-sonkeigo-oninaru",
+      "keigo-sonkeigo-goriyouninaru"
+    ]
   },
   {
     "id": "keigo-sonkeigo-goriyouninaru",
@@ -1007,7 +2004,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "エレベーターをご利用になりますか。",
         "romaji": "Erebētā wo goriyō ni narimasu ka.",
-        "german": "Möchten Sie den Aufzug benutzen?"
+        "german": "Möchten Sie den Aufzug benutzen?",
+        "cloze": {
+          "start": 7,
+          "answer": "ご利用になります",
+          "quiz": {
+            "level": "N3",
+            "japanese": "エレベーターをご利用になりますか。",
+            "german": "Möchten Sie den Aufzug benutzen?",
+            "start": 7,
+            "answer": "ご利用になります",
+            "acceptedAnswers": [
+              "ご利用になります"
+            ],
+            "distractors": [
+              {
+                "text": "ご利用をなります",
+                "reason": "Die ehrende Wendung verwendet に."
+              },
+              {
+                "text": "ご利用になるます",
+                "reason": "Dies ist keine höfliche Form."
+              },
+              {
+                "text": "ご利用になりますた",
+                "reason": "Dies ist keine Verbform."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "当サービスをご利用いただきありがとうございます。",
@@ -1021,7 +2046,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご利用ください hört man ständig in Zügen, Flughäfen und Geschäften. Es ist eine der am häufigsten vorkommenden Sonkeigo-Formen im japanischen Alltag.",
-    "related": ["keigo-sonkeigo-oninaru", "keigo-sonkeigo-okudasai"]
+    "related": [
+      "keigo-sonkeigo-oninaru",
+      "keigo-sonkeigo-okudasai"
+    ]
   },
   {
     "id": "keigo-kenjougo-haishakusuru",
@@ -1036,7 +2064,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お手洗いを拝借してもよろしいでしょうか。",
         "romaji": "Otearai wo haishaku shite mo yoroshii deshō ka.",
-        "german": "Dürfte ich wohl Ihre Toilette benutzen?"
+        "german": "Dürfte ich wohl Ihre Toilette benutzen?",
+        "cloze": {
+          "start": 5,
+          "answer": "拝借して",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お手洗いを拝借してもよろしいでしょうか。",
+            "german": "Dürfte ich wohl Ihre Toilette benutzen?",
+            "start": 5,
+            "answer": "拝借して",
+            "acceptedAnswers": [
+              "拝借して",
+              "お借りして"
+            ],
+            "distractors": [
+              {
+                "text": "拝借した",
+                "reason": "Vor もよろしい steht die て-Form."
+              },
+              {
+                "text": "拝借する",
+                "reason": "Vor もよろしい steht die て-Form."
+              },
+              {
+                "text": "拝借します",
+                "reason": "Die finite Höflichkeitsform passt nicht vor もよろしい."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "少々お時間を拝借できますでしょうか。",
@@ -1050,7 +2107,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "拝借する wird nicht nur für physische Gegenstände, sondern auch abstrakt verwendet (z.B. お時間を拝借する = sich Zeit nehmen dürfen). Mit いたします am Ende wird es noch höflicher.",
-    "related": ["keigo-kenjougo-haikensuru", "keigo-kenjougo-haidokusuru"]
+    "related": [
+      "keigo-kenjougo-haikensuru",
+      "keigo-kenjougo-haidokusuru"
+    ]
   },
   {
     "id": "keigo-kenjougo-haidokusuru",
@@ -1065,7 +2125,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "先生のご著書を拝読いたしました。",
         "romaji": "Sensei no gochosho wo haidoku itashimashita.",
-        "german": "Ich habe Ihr Buch gelesen (bescheiden)."
+        "german": "Ich habe Ihr Buch gelesen (bescheiden).",
+        "cloze": {
+          "start": 7,
+          "answer": "拝読いたしました",
+          "quiz": {
+            "level": "N2",
+            "japanese": "先生のご著書を拝読いたしました。",
+            "german": "Ich habe Ihr Buch gelesen (bescheiden).",
+            "start": 7,
+            "answer": "拝読いたしました",
+            "acceptedAnswers": [
+              "拝読いたしました",
+              "読ませていただきました"
+            ],
+            "distractors": [
+              {
+                "text": "拝読いたしませんでした",
+                "reason": "Dies verneint das Lesen."
+              },
+              {
+                "text": "拝読いたすました",
+                "reason": "ます benötigt den Stamm いたし."
+              },
+              {
+                "text": "拝読いたしましたます",
+                "reason": "Die Höflichkeitsendungen können nicht verdoppelt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "メールを拝読しました。ご提案について検討いたします。",
@@ -1079,7 +2168,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "拝読する gehört zur Gruppe der 拝～する-Kenjōgo-Verben (拝見する、拝借する、拝読する). Sie alle drücken aus, dass man die Handlung einer höhergestellten Person gegenüber bescheiden ausführt.",
-    "related": ["keigo-kenjougo-haikensuru", "keigo-kenjougo-haishakusuru"]
+    "related": [
+      "keigo-kenjougo-haikensuru",
+      "keigo-kenjougo-haishakusuru"
+    ]
   },
   {
     "id": "keigo-kenjougo-omenikakaru",
@@ -1094,7 +2186,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お目にかかれて光栄です。",
         "romaji": "Ome ni kakarete kōei desu.",
-        "german": "Es ist mir eine Ehre, Sie zu treffen."
+        "german": "Es ist mir eine Ehre, Sie zu treffen.",
+        "cloze": {
+          "start": 0,
+          "answer": "お目にかかれて",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お目にかかれて光栄です。",
+            "german": "Es ist mir eine Ehre, Sie zu treffen.",
+            "start": 0,
+            "answer": "お目にかかれて",
+            "acceptedAnswers": [
+              "お目にかかれて",
+              "お会いできて"
+            ],
+            "distractors": [
+              {
+                "text": "お目にかかれた",
+                "reason": "Die finite Vergangenheit verbindet hier nicht mit 光栄です."
+              },
+              {
+                "text": "お目にかかるます",
+                "reason": "ます benötigt den Stamm かかり."
+              },
+              {
+                "text": "お目にかかれます",
+                "reason": "Die finite Höflichkeitsform verbindet hier nicht mit 光栄です."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "またお目にかかれる日を楽しみにしております。",
@@ -1108,7 +2229,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お目にかかる ist formeller als お会いする und wird besonders bei Erstbegegnungen oder in sehr höflichen Kontexten verwendet. Die Phrase お目にかかれて光栄です ist eine klassische Begrüßungsformel.",
-    "related": ["keigo-kenjougo-ukagau", "keigo-kenjougo-omenikakeru"]
+    "related": [
+      "keigo-kenjougo-ukagau",
+      "keigo-kenjougo-omenikakeru"
+    ]
   },
   {
     "id": "keigo-kenjougo-omenikakeru",
@@ -1132,12 +2256,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "近いうちに完成品をお目にかけることができると存じます。",
+        "cloze": {
+          "start": 9,
+          "answer": "お目にかける",
+          "quiz": {
+            "level": "N2",
+            "japanese": "近いうちに完成品をお目にかけることができると存じます。",
+            "german": "Ich denke, dass ich Ihnen bald das fertige Produkt zeigen kann.",
+            "start": 9,
+            "answer": "お目にかける",
+            "acceptedAnswers": [
+              "お目にかける",
+              "ご覧に入れる"
+            ],
+            "distractors": [
+              {
+                "text": "お目にかけます",
+                "reason": "Vor こと steht die einfache Verbform."
+              },
+              {
+                "text": "お目にかけて",
+                "reason": "Die て-Form kann hier こと nicht attributiv bestimmen."
+              },
+              {
+                "text": "お目にかけるます",
+                "reason": "ます wird nicht an かける angehängt."
+              }
+            ]
+          }
+        },
         "romaji": "Chikai uchi ni kansei-hin wo ome ni kakeru koto ga dekiru to zonjimasu.",
         "german": "Ich denke, dass ich Ihnen bald das fertige Produkt zeigen kann."
       }
     ],
     "notes": "お目にかける ist das Gegenstück zu お目にかかる (treffen). かける = darbieten, かかる = begegnen. Diese beiden Formen werden oft verwechselt, daher ist es wichtig, den Unterschied zu kennen.",
-    "related": ["keigo-kenjougo-omenikakaru", "keigo-kenjougo-haikensuru"]
+    "related": [
+      "keigo-kenjougo-omenikakaru",
+      "keigo-kenjougo-haikensuru"
+    ]
   },
   {
     "id": "keigo-kenjougo-uketamawaru",
@@ -1152,7 +2308,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ご注文を承りました。",
         "romaji": "Gochūmon wo uketamawarimashita.",
-        "german": "Ich habe Ihre Bestellung entgegengenommen."
+        "german": "Ich habe Ihre Bestellung entgegengenommen.",
+        "cloze": {
+          "start": 4,
+          "answer": "承りました",
+          "quiz": {
+            "level": "N2",
+            "japanese": "ご注文を承りました。",
+            "german": "Ich habe Ihre Bestellung entgegengenommen.",
+            "start": 4,
+            "answer": "承りました",
+            "acceptedAnswers": [
+              "承りました",
+              "お受けしました"
+            ],
+            "distractors": [
+              {
+                "text": "承りませんでした",
+                "reason": "Dies verneint die Annahme der Bestellung."
+              },
+              {
+                "text": "承るました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm 承り."
+              },
+              {
+                "text": "承りましたます",
+                "reason": "Die Höflichkeitsendungen können nicht verdoppelt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "ご予約を承ります。お名前をお願いいたします。",
@@ -1166,7 +2351,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "承る ist eines der formellsten Kenjōgo-Verben und wird besonders in der Dienstleistungsbranche verwendet. Es klingt professioneller als お聞きする oder お受けする.",
-    "related": ["keigo-kenjougo-itadaku", "keigo-kenjougo-choudaisuru"]
+    "related": [
+      "keigo-kenjougo-itadaku",
+      "keigo-kenjougo-choudaisuru"
+    ]
   },
   {
     "id": "keigo-kenjougo-kashikomarimashita",
@@ -1180,22 +2368,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "かしこまりました。すぐにお持ちいたします。",
+        "cloze": {
+          "start": 0,
+          "answer": "かしこまりました",
+          "quiz": {
+            "level": "N3",
+            "japanese": "かしこまりました。すぐにお持ちいたします。",
+            "german": "Selbstverständlich. Ich bringe es sofort.",
+            "start": 0,
+            "answer": "かしこまりました",
+            "acceptedAnswers": [
+              "かしこまりました"
+            ],
+            "distractors": [
+              {
+                "text": "かしこまるました",
+                "reason": "Die höfliche Vergangenheit lautet かしこまりました."
+              },
+              {
+                "text": "かしこまりますた",
+                "reason": "Dies ist keine Verbform."
+              },
+              {
+                "text": "かしこまりません",
+                "reason": "Dies verweigert statt den Auftrag anzunehmen."
+              }
+            ]
+          }
+        },
         "romaji": "Kashikomarimashita. Sugu ni omochi itashimasu.",
         "german": "Selbstverständlich. Ich bringe es sofort."
       },
       {
         "japanese": "かしこまりました。変更を承ります。",
+        "cloze": {
+          "start": 0,
+          "answer": "かしこまりました"
+        },
         "romaji": "Kashikomarimashita. Henkō wo uketamawarimasu.",
         "german": "Verstanden. Ich nehme die Änderung entgegen."
       },
       {
         "japanese": "14時にご予約ですね。かしこまりました。",
+        "cloze": {
+          "start": 11,
+          "answer": "かしこまりました"
+        },
         "romaji": "Jūyo-ji ni goyoyaku desu ne. Kashikomarimashita.",
         "german": "Reservierung um 14 Uhr, richtig? Selbstverständlich."
       }
     ],
     "notes": "Die Höflichkeitsstufen für „verstanden“ sind: 分かった → 分かりました → 承知しました → かしこまりました. かしこまりました ist die höchste Stufe und wird fast ausschließlich von Servicepersonal gegenüber Kunden verwendet.",
-    "related": ["keigo-kenjougo-uketamawaru", "keigo-kenjougo-itasu"]
+    "related": [
+      "keigo-kenjougo-uketamawaru",
+      "keigo-kenjougo-itasu"
+    ]
   },
   {
     "id": "keigo-kenjougo-choudaisuru",
@@ -1210,7 +2437,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お名刺を頂戴できますでしょうか。",
         "romaji": "Omeishi wo chōdai dekimasu deshō ka.",
-        "german": "Dürfte ich wohl Ihre Visitenkarte erhalten?"
+        "german": "Dürfte ich wohl Ihre Visitenkarte erhalten?",
+        "cloze": {
+          "start": 4,
+          "answer": "頂戴できます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お名刺を頂戴できますでしょうか。",
+            "german": "Dürfte ich wohl Ihre Visitenkarte erhalten?",
+            "start": 4,
+            "answer": "頂戴できます",
+            "acceptedAnswers": [
+              "頂戴できます",
+              "いただけます"
+            ],
+            "distractors": [
+              {
+                "text": "頂戴できるます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "頂戴できますた",
+                "reason": "Die höfliche Vergangenheit endet mit ました."
+              },
+              {
+                "text": "頂戴できないました",
+                "reason": "Die höfliche Verneinung wird nicht mit ないました gebildet."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "お時間を頂戴し、ありがとうございます。",
@@ -1224,7 +2480,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "頂戴 wird auch als eigenständiges Wort ohne する in der Kindersprache verwendet (ちょうだい = gib mir bitte). Im Geschäftsleben ist お名刺を頂戴できますか eine Standardformel beim Austausch von Visitenkarten.",
-    "related": ["keigo-kenjougo-itadaku", "keigo-kenjougo-uketamawaru"]
+    "related": [
+      "keigo-kenjougo-itadaku",
+      "keigo-kenjougo-uketamawaru"
+    ]
   },
   {
     "id": "keigo-business-shitsureiitashimasu",
@@ -1238,22 +2497,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お先に失礼いたします。",
+        "cloze": {
+          "start": 3,
+          "answer": "失礼いたします",
+          "quiz": {
+            "level": "N3",
+            "japanese": "お先に失礼いたします。",
+            "german": "Entschuldigen Sie, dass ich vor Ihnen gehe. (Verabschiedung beim Feierabend)",
+            "start": 3,
+            "answer": "失礼いたします",
+            "acceptedAnswers": [
+              "失礼いたします"
+            ],
+            "distractors": [
+              {
+                "text": "失礼いたすます",
+                "reason": "Die höfliche Form lautet いたします."
+              },
+              {
+                "text": "失礼いたしません",
+                "reason": "Dies verneint die Verabschiedung."
+              },
+              {
+                "text": "失礼いたしますた",
+                "reason": "Dies ist keine Verbform."
+              }
+            ]
+          }
+        },
         "romaji": "Osaki ni shitsurei itashimasu.",
         "german": "Entschuldigen Sie, dass ich vor Ihnen gehe. (Verabschiedung beim Feierabend)"
       },
       {
         "japanese": "それでは、失礼いたします。",
+        "cloze": {
+          "start": 5,
+          "answer": "失礼いたします"
+        },
         "romaji": "Sore dewa, shitsurei itashimasu.",
         "german": "Dann verabschiede ich mich. (Zum Abschied am Telefon)"
       },
       {
         "japanese": "失礼いたします。書類をお届けに参りました。",
+        "cloze": {
+          "start": 0,
+          "answer": "失礼いたします"
+        },
         "romaji": "Shitsurei itashimasu. Shorui wo otodoke ni mairimashita.",
         "german": "Entschuldigen Sie die Störung. Ich bin gekommen, um die Dokumente zu überbringen."
       }
     ],
     "notes": "お先に失礼いたします ist die Standardphrase, wenn man das Büro vor den Kollegen verlässt. Am Telefon sagt man 失礼いたします vor dem Auflegen. Die Vergangenheitsform 失礼いたしました wird als Entschuldigung für eine bereits begangene Unhöflichkeit verwendet.",
-    "related": ["keigo-kenjougo-itasu", "keigo-business-osoreirimasuga"]
+    "related": [
+      "keigo-kenjougo-itasu",
+      "keigo-business-osoreirimasuga"
+    ]
   },
   {
     "id": "keigo-business-osoreirimasuga",
@@ -1267,22 +2565,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "恐れ入りますが、お名前をもう一度お聞かせいただけますか。",
+        "cloze": {
+          "start": 0,
+          "answer": "恐れ入りますが",
+          "quiz": {
+            "level": "N2",
+            "japanese": "恐れ入りますが、お名前をもう一度お聞かせいただけますか。",
+            "german": "Entschuldigen Sie bitte, aber könnten Sie mir Ihren Namen noch einmal nennen?",
+            "start": 0,
+            "answer": "恐れ入りますが",
+            "acceptedAnswers": [
+              "恐れ入りますが",
+              "恐縮ですが"
+            ],
+            "distractors": [
+              {
+                "text": "恐れ入るますが",
+                "reason": "ます benötigt den Stamm 入り."
+              },
+              {
+                "text": "恐れ入りますを",
+                "reason": "を kann hier die folgende Bitte nicht anschließen."
+              },
+              {
+                "text": "恐れ入りますな",
+                "reason": "な verbindet hier nicht mit der folgenden Bitte."
+              }
+            ]
+          }
+        },
         "romaji": "Osore irimasu ga, onamae wo mō ichido okikase itadakemasu ka.",
         "german": "Entschuldigen Sie bitte, aber könnten Sie mir Ihren Namen noch einmal nennen?"
       },
       {
         "japanese": "恐れ入りますが、こちらにご記入いただけますでしょうか。",
+        "cloze": {
+          "start": 0,
+          "answer": "恐れ入りますが"
+        },
         "romaji": "Osore irimasu ga, kochira ni gokinyū itadakemasu deshō ka.",
         "german": "Es tut mir leid, aber könnten Sie bitte hier eintragen?"
       },
       {
         "japanese": "恐れ入りますが、少々お待ちいただけますか。",
+        "cloze": {
+          "start": 0,
+          "answer": "恐れ入りますが"
+        },
         "romaji": "Osore irimasu ga, shōshō omachi itadakemasu ka.",
         "german": "Entschuldigen Sie bitte, aber könnten Sie einen Moment warten?"
       }
     ],
     "notes": "恐れ入りますが gehört zu den sogenannten クッション言葉 (Kissenwörter), die im Japanischen verwendet werden, um Bitten und Fragen abzufedern. Andere Kissenwörter sind: お手数ですが、申し訳ございませんが.",
-    "related": ["keigo-business-otesuu", "keigo-teinei-itadakemasenka"]
+    "related": [
+      "keigo-business-otesuu",
+      "keigo-teinei-itadakemasenka"
+    ]
   },
   {
     "id": "keigo-business-yoroshiku",
@@ -1296,22 +2634,63 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "今後ともよろしくお願いいたします。",
+        "cloze": {
+          "start": 4,
+          "answer": "よろしくお願いいたします",
+          "quiz": {
+            "level": "N4",
+            "japanese": "今後ともよろしくお願いいたします。",
+            "german": "Ich bitte Sie auch weiterhin um Ihre freundliche Unterstützung.",
+            "start": 4,
+            "answer": "よろしくお願いいたします",
+            "acceptedAnswers": [
+              "よろしくお願いいたします",
+              "よろしくお願いします"
+            ],
+            "distractors": [
+              {
+                "text": "よろしくお願いするます",
+                "reason": "Die höfliche Form lautet お願いします."
+              },
+              {
+                "text": "よろしくお願いをいたすます",
+                "reason": "いたすます ist keine höfliche Verbform."
+              },
+              {
+                "text": "よろしくお願いいたしません",
+                "reason": "Dies verneint die Bitte."
+              }
+            ],
+            "promptKana": "こんごとも＿＿＿。"
+          }
+        },
         "romaji": "Kongo tomo yoroshiku onegai itashimasu.",
         "german": "Ich bitte Sie auch weiterhin um Ihre freundliche Unterstützung."
       },
       {
         "japanese": "ご対応のほど、何卒よろしくお願いいたします。",
+        "cloze": {
+          "start": 9,
+          "answer": "よろしくお願いいたします"
+        },
         "romaji": "Gotaiō no hodo, nanitozo yoroshiku onegai itashimasu.",
         "german": "Ich bitte Sie inständig um Ihre Bearbeitung dieser Angelegenheit."
       },
       {
         "japanese": "引き続きよろしくお願いいたします。",
+        "cloze": {
+          "start": 4,
+          "answer": "よろしくお願いいたします"
+        },
         "romaji": "Hikitsuzuki yoroshiku onegai itashimasu.",
         "german": "Ich bitte weiterhin um Ihre geschätzte Zusammenarbeit."
       }
     ],
     "notes": "Fast jede geschäftliche E-Mail in Japan endet mit einer Variation von よろしくお願いいたします. Mit 何卒 (nanitozo) davor wird die Bitte noch dringender und formeller. Diese Phrase hat keine direkte deutsche Entsprechung.",
-    "related": ["keigo-business-osewani", "keigo-kenjougo-itasu"]
+    "related": [
+      "keigo-business-osewani",
+      "keigo-kenjougo-itasu"
+    ]
   },
   {
     "id": "keigo-business-gokakunin",
@@ -1325,6 +2704,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "添付ファイルをご確認ください。",
+        "cloze": {
+          "start": 7,
+          "answer": "ご確認ください",
+          "quiz": {
+            "level": "N3",
+            "japanese": "添付ファイルをご確認ください。",
+            "german": "Bitte prüfen Sie die angehängte Datei.",
+            "start": 7,
+            "answer": "ご確認ください",
+            "acceptedAnswers": [
+              "ご確認ください"
+            ],
+            "distractors": [
+              {
+                "text": "ご確認くださる",
+                "reason": "Dies ist eine Aussage statt einer Bitte."
+              },
+              {
+                "text": "ご確認くださいた",
+                "reason": "Dies ist keine Bitteform."
+              },
+              {
+                "text": "ご確認くださいませんでした",
+                "reason": "Dies verneint eine vergangene Prüfung statt dazu aufzufordern."
+              }
+            ]
+          }
+        },
         "romaji": "Tenpu fairu wo gokakunin kudasai.",
         "german": "Bitte prüfen Sie die angehängte Datei."
       },
@@ -1340,7 +2747,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご確認ください ist eine der häufigsten Phrasen in geschäftlichen E-Mails. Die höflichere Frageform ご確認いただけますでしょうか wird verwendet, wenn man den Empfänger nicht direkt auffordern möchte.",
-    "related": ["keigo-sonkeigo-okudasai", "keigo-business-gosashuu"]
+    "related": [
+      "keigo-sonkeigo-okudasai",
+      "keigo-business-gosashuu"
+    ]
   },
   {
     "id": "keigo-business-gokentou",
@@ -1354,11 +2764,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "こちらの企画をご検討いただければ幸いです。",
+        "cloze": {
+          "start": 7,
+          "answer": "ご検討いただければ幸いです",
+          "quiz": {
+            "level": "N2",
+            "japanese": "こちらの企画をご検討いただければ幸いです。",
+            "german": "Ich wäre Ihnen dankbar, wenn Sie diesen Entwurf in Erwägung ziehen könnten.",
+            "start": 7,
+            "answer": "ご検討いただければ幸いです",
+            "acceptedAnswers": [
+              "ご検討いただければ幸いです"
+            ],
+            "distractors": [
+              {
+                "text": "ご検討いただければ幸いを",
+                "reason": "を kann die Bitte nicht abschließen."
+              },
+              {
+                "text": "ご検討いただければ幸います",
+                "reason": "ます kann nicht direkt an 幸い angehängt werden."
+              },
+              {
+                "text": "ご検討いただけるれば幸いです",
+                "reason": "Die Bedingung lautet いただければ."
+              }
+            ]
+          }
+        },
         "romaji": "Kochira no kikaku wo gokentō itadakereba saiwai desu.",
         "german": "Ich wäre Ihnen dankbar, wenn Sie diesen Entwurf in Erwägung ziehen könnten."
       },
       {
         "japanese": "お見積もりをお送りいたしますので、ご検討いただければ幸いです。",
+        "cloze": {
+          "start": 17,
+          "answer": "ご検討いただければ幸いです"
+        },
         "romaji": "Omitsumori wo ookuriitashimasu node, gokentō itadakereba saiwai desu.",
         "german": "Ich sende Ihnen das Angebot zu; ich wäre dankbar, wenn Sie es prüfen könnten."
       },
@@ -1369,7 +2811,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Diese Phrase wird häufig am Ende von Geschäftsvorschlägen und Angeboten verwendet. Die Variante mit 存じます statt です am Ende klingt noch demütiger. 前向きに (positiv/wohlwollend) wird oft hinzugefügt, um eine positive Prüfung anzuregen.",
-    "related": ["keigo-kenjougo-itadaku", "keigo-kenjougo-zonjiru"]
+    "related": [
+      "keigo-kenjougo-itadaku",
+      "keigo-kenjougo-zonjiru"
+    ]
   },
   {
     "id": "keigo-business-nokenni",
@@ -1383,11 +2828,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "先日のお見積もりの件につきまして、ご連絡いたします。",
+        "cloze": {
+          "start": 8,
+          "answer": "の件につきまして",
+          "quiz": {
+            "level": "N2",
+            "japanese": "先日のお見積もりの件につきまして、ご連絡いたします。",
+            "german": "Ich kontaktiere Sie bezüglich des Kostenvoranschlags vom neulichen Tag.",
+            "start": 8,
+            "answer": "の件につきまして",
+            "acceptedAnswers": [
+              "の件につきまして",
+              "の件について"
+            ],
+            "distractors": [
+              {
+                "text": "の件につきます",
+                "reason": "Die finite Form kann hier nicht mit ご連絡いたします verbunden werden."
+              },
+              {
+                "text": "の件をつきまして",
+                "reason": "Der Bezug verlangt に."
+              },
+              {
+                "text": "の件につくまして",
+                "reason": "まして wird nicht an die Wörterbuchform angehängt."
+              }
+            ]
+          }
+        },
         "romaji": "Senjitsu no omitsumori no ken ni tsukimashite, gorenraku itashimasu.",
         "german": "Ich kontaktiere Sie bezüglich des Kostenvoranschlags vom neulichen Tag."
       },
       {
         "japanese": "来月の会議の件につきまして、ご相談がございます。",
+        "cloze": {
+          "start": 5,
+          "answer": "の件につきまして"
+        },
         "romaji": "Raigetsu no kaigi no ken ni tsukimashite, gosōdan ga gozaimasu.",
         "german": "Bezüglich der Besprechung nächsten Monat hätte ich eine Angelegenheit zu besprechen."
       },
@@ -1398,7 +2876,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "～の件につきまして ist besonders häufig in E-Mail-Betreffzeilen und am Anfang von geschäftlichen Mitteilungen. Die kürzere Form ～につきまして kann auch ohne 件 verwendet werden.",
-    "related": ["keigo-business-osewani", "keigo-kenjougo-moushiageru"]
+    "related": [
+      "keigo-business-osewani",
+      "keigo-kenjougo-moushiageru"
+    ]
   },
   {
     "id": "keigo-business-gofumeina",
@@ -1412,22 +2893,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "ご不明な点がございましたら、お気軽にお問い合わせください。",
+        "cloze": {
+          "start": 0,
+          "answer": "ご不明な点がございましたら",
+          "quiz": {
+            "level": "N2",
+            "japanese": "ご不明な点がございましたら、お気軽にお問い合わせください。",
+            "german": "Sollten Sie Fragen haben, zögern Sie bitte nicht, sich an uns zu wenden.",
+            "start": 0,
+            "answer": "ご不明な点がございましたら",
+            "acceptedAnswers": [
+              "ご不明な点がございましたら",
+              "ご不明な点がありましたら"
+            ],
+            "distractors": [
+              {
+                "text": "ご不明な点がございますたら",
+                "reason": "Die Bedingung lautet ございましたら."
+              },
+              {
+                "text": "ご不明な点をごございましたら",
+                "reason": "を und ご bilden hier keine Existenzkonstruktion."
+              },
+              {
+                "text": "ご不明な点がございましてたら",
+                "reason": "Die て-Form wird nicht mit たら kombiniert."
+              }
+            ]
+          }
+        },
         "romaji": "Gofumei na ten ga gozaimashitara, okigaru ni otoiawase kudasai.",
         "german": "Sollten Sie Fragen haben, zögern Sie bitte nicht, sich an uns zu wenden."
       },
       {
         "japanese": "ご不明な点がございましたら、担当の佐藤までご連絡ください。",
+        "cloze": {
+          "start": 0,
+          "answer": "ご不明な点がございましたら"
+        },
         "romaji": "Gofumei na ten ga gozaimashitara, tantō no Satō made gorenraku kudasai.",
         "german": "Bei Unklarheiten wenden Sie sich bitte an den zuständigen Herrn/Frau Satō."
       },
       {
         "japanese": "ご不明な点がございましたら、何なりとお申し付けください。",
+        "cloze": {
+          "start": 0,
+          "answer": "ご不明な点がございましたら"
+        },
         "romaji": "Gofumei na ten ga gozaimashitara, nan nari to omōshitsuke kudasai.",
         "german": "Sollten Sie irgendwelche Fragen haben, teilen Sie uns diese bitte ohne Zögern mit."
       }
     ],
     "notes": "Diese Phrase ist in geschäftlichen E-Mails fast obligatorisch und steht typischerweise kurz vor der Abschlussformel. Varianten sind: ご質問がございましたら (bei Fragen) und ご不明点等ございましたら (bei Unklarheiten o.Ä.).",
-    "related": ["keigo-business-okigaruni", "keigo-teinei-degozaimasu"]
+    "related": [
+      "keigo-business-okigaruni",
+      "keigo-teinei-degozaimasu"
+    ]
   },
   {
     "id": "keigo-business-toriisogi",
@@ -1441,6 +2962,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "取り急ぎご連絡いたします。会議の日程が変更になりました。",
+        "cloze": {
+          "start": 0,
+          "answer": "取り急ぎご連絡いたします",
+          "quiz": {
+            "level": "N2",
+            "japanese": "取り急ぎご連絡いたします。会議の日程が変更になりました。",
+            "german": "Ich teile Ihnen eilig mit: Der Termin der Besprechung hat sich geändert.",
+            "start": 0,
+            "answer": "取り急ぎご連絡いたします",
+            "acceptedAnswers": [
+              "取り急ぎご連絡いたします"
+            ],
+            "distractors": [
+              {
+                "text": "取り急ぎご連絡いたしません",
+                "reason": "Dies verneint die Kontaktaufnahme."
+              },
+              {
+                "text": "取り急ぎご連絡いたすます",
+                "reason": "ます benötigt den Stamm いたし."
+              },
+              {
+                "text": "取り急ぎご連絡いたしまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Toriisogi gorenraku itashimasu. Kaigi no nittei ga henkō ni narimashita.",
         "german": "Ich teile Ihnen eilig mit: Der Termin der Besprechung hat sich geändert."
       },
@@ -1456,7 +3005,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "取り急ぎ wird oft als Entschuldigung für eine kurze E-Mail verwendet. Die verkürzte Form 取り急ぎご報告まで (nur bis zum eiligen Bericht) wird ebenfalls häufig verwendet und ist etwas informeller.",
-    "related": ["keigo-business-osewani", "keigo-kenjougo-itasu"]
+    "related": [
+      "keigo-business-osewani",
+      "keigo-kenjougo-itasu"
+    ]
   },
   {
     "id": "keigo-business-otesuu",
@@ -1470,6 +3022,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お手数をおかけしますが、書類にご署名をお願いいたします。",
+        "cloze": {
+          "start": 0,
+          "answer": "お手数をおかけしますが",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お手数をおかけしますが、書類にご署名をお願いいたします。",
+            "german": "Entschuldigen Sie die Umstände, aber ich bitte Sie, die Dokumente zu unterschreiben.",
+            "start": 0,
+            "answer": "お手数をおかけしますが",
+            "acceptedAnswers": [
+              "お手数をおかけしますが"
+            ],
+            "distractors": [
+              {
+                "text": "お手数をおかけするますが",
+                "reason": "ます benötigt den Stamm し."
+              },
+              {
+                "text": "お手数をおかけしますを",
+                "reason": "を schließt hier nicht die Bitte an."
+              },
+              {
+                "text": "お手数をおかけしますな",
+                "reason": "な verbindet hier nicht die Einleitung mit der Bitte."
+              }
+            ]
+          }
+        },
         "romaji": "Otesū wo okake shimasu ga, shorui ni goshomei wo onegai itashimasu.",
         "german": "Entschuldigen Sie die Umstände, aber ich bitte Sie, die Dokumente zu unterschreiben."
       },
@@ -1485,7 +3065,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お手数をおかけしますが ist eines der häufigsten Kissenwörter in geschäftlichen E-Mails. Es wird vor praktisch jeder Bitte verwendet, die dem Empfänger Arbeit verursacht. Die kürzere Form お手数ですが ist ebenfalls sehr verbreitet.",
-    "related": ["keigo-business-osoreirimasuga", "keigo-business-oisogashii"]
+    "related": [
+      "keigo-business-osoreirimasuga",
+      "keigo-business-oisogashii"
+    ]
   },
   {
     "id": "keigo-business-gosashuu",
@@ -1499,6 +3082,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "請求書を添付いたしましたので、ご査収ください。",
+        "cloze": {
+          "start": 15,
+          "answer": "ご査収ください",
+          "quiz": {
+            "level": "N1",
+            "japanese": "請求書を添付いたしましたので、ご査収ください。",
+            "german": "Ich habe die Rechnung angehängt; bitte prüfen und übernehmen Sie diese.",
+            "start": 15,
+            "answer": "ご査収ください",
+            "acceptedAnswers": [
+              "ご査収ください"
+            ],
+            "distractors": [
+              {
+                "text": "ご査収するください",
+                "reason": "ください wird nicht an する angehängt."
+              },
+              {
+                "text": "ご査収くださいまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "ご査収くださるました",
+                "reason": "Die höfliche Vergangenheit benötigt den Verbstamm."
+              }
+            ]
+          }
+        },
         "romaji": "Seikyūsho wo tenpu itashimashita node, gosashū kudasai.",
         "german": "Ich habe die Rechnung angehängt; bitte prüfen und übernehmen Sie diese."
       },
@@ -1509,12 +3120,19 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "契約書を同封いたしましたので、ご査収くださいますようお願い申し上げます。",
+        "cloze": {
+          "start": 15,
+          "answer": "ご査収ください"
+        },
         "romaji": "Keiyakusho wo dōfū itashimashita node, gosashū kudasaimasu yō onegai mōshiagemasu.",
         "german": "Ich habe den Vertrag beigelegt; ich bitte Sie höflichst um Prüfung und Annahme."
       }
     ],
     "notes": "ご査収ください wird fast ausschließlich in der schriftlichen Geschäftskommunikation verwendet und klingt in der gesprochenen Sprache unnatürlich. Es ist eine der formellsten Übermittlungsphrasen im Japanischen.",
-    "related": ["keigo-business-gokakunin", "keigo-business-goryoushou"]
+    "related": [
+      "keigo-business-gokakunin",
+      "keigo-business-goryoushou"
+    ]
   },
   {
     "id": "keigo-business-goryoushou",
@@ -1528,11 +3146,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "あらかじめご了承ください。",
+        "cloze": {
+          "start": 5,
+          "answer": "ご了承ください",
+          "quiz": {
+            "level": "N2",
+            "japanese": "あらかじめご了承ください。",
+            "german": "Bitte haben Sie im Voraus Verständnis dafür.",
+            "start": 5,
+            "answer": "ご了承ください",
+            "acceptedAnswers": [
+              "ご了承ください",
+              "ご了承願います"
+            ],
+            "distractors": [
+              {
+                "text": "ご了承くださる",
+                "reason": "Die Aussage über Gewähren formuliert hier nicht die Bitte."
+              },
+              {
+                "text": "ご了承くださいまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "ご了承くださるください",
+                "reason": "ください wird nicht an die Wörterbuchform angehängt."
+              }
+            ]
+          }
+        },
         "romaji": "Arakajime goryōshō kudasai.",
         "german": "Bitte haben Sie im Voraus Verständnis dafür."
       },
       {
         "japanese": "在庫切れの場合はご了承ください。",
+        "cloze": {
+          "start": 8,
+          "answer": "ご了承ください"
+        },
         "romaji": "Zaiko-gire no baai wa goryōshō kudasai.",
         "german": "Bitte haben Sie Verständnis, falls der Artikel ausverkauft ist."
       },
@@ -1543,7 +3194,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご了承ください findet man sehr häufig auf Hinweisschildern, in Geschäftsbedingungen und in Benachrichtigungen. Es wird oft zusammen mit あらかじめ (im Voraus) verwendet. Nicht zu verwechseln mit ご容赦ください, das eine stärkere Entschuldigung enthält.",
-    "related": ["keigo-business-goyousha", "keigo-business-osoreirimasuga"]
+    "related": [
+      "keigo-business-goyousha",
+      "keigo-business-osoreirimasuga"
+    ]
   },
   {
     "id": "keigo-business-goyousha",
@@ -1557,22 +3211,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "ご返信が遅れましたこと、ご容赦ください。",
+        "cloze": {
+          "start": 12,
+          "answer": "ご容赦ください",
+          "quiz": {
+            "level": "N1",
+            "japanese": "ご返信が遅れましたこと、ご容赦ください。",
+            "german": "Bitte verzeihen Sie die verspätete Antwort.",
+            "start": 12,
+            "answer": "ご容赦ください",
+            "acceptedAnswers": [
+              "ご容赦ください"
+            ],
+            "distractors": [
+              {
+                "text": "ご容赦するください",
+                "reason": "ください wird nicht an する angehängt."
+              },
+              {
+                "text": "ご容赦くださいまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "ご容赦くださるました",
+                "reason": "Die höfliche Vergangenheit benötigt den Verbstamm."
+              }
+            ]
+          }
+        },
         "romaji": "Gohenshin ga okuremashita koto, goyōsha kudasai.",
         "german": "Bitte verzeihen Sie die verspätete Antwort."
       },
       {
         "japanese": "突然のご連絡をお許しください。何卒ご容赦くださいますようお願い申し上げます。",
+        "cloze": {
+          "start": 17,
+          "answer": "ご容赦ください"
+        },
         "romaji": "Totsuzen no gorenraku wo oyurushi kudasai. Nanitozo goyōsha kudasaimasu yō onegai mōshiagemasu.",
         "german": "Bitte entschuldigen Sie die plötzliche Kontaktaufnahme. Ich bitte Sie inständig um Nachsicht."
       },
       {
         "japanese": "ご不便をおかけいたしますが、何卒ご容赦ください。",
+        "cloze": {
+          "start": 16,
+          "answer": "ご容赦ください"
+        },
         "romaji": "Gofuben wo okake itashimasu ga, nanitozo goyōsha kudasai.",
         "german": "Wir bitten um Verzeihung für die Unannehmlichkeiten."
       }
     ],
     "notes": "ご容赦ください wird oft mit 何卒 (nanitozo = inständig) kombiniert, um die Dringlichkeit der Bitte zu verstärken. Diese Phrase ist formeller und entschuldigender als ご了承ください.",
-    "related": ["keigo-business-goryoushou", "keigo-bikago-moushiwake"]
+    "related": [
+      "keigo-business-goryoushou",
+      "keigo-bikago-moushiwake"
+    ]
   },
   {
     "id": "keigo-business-okigaruni",
@@ -1586,6 +3279,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "ご質問がございましたら、お気軽にお問い合わせください。",
+        "cloze": {
+          "start": 12,
+          "answer": "お気軽にお問い合わせください",
+          "quiz": {
+            "level": "N3",
+            "japanese": "ご質問がございましたら、お気軽にお問い合わせください。",
+            "german": "Wenn Sie Fragen haben, zögern Sie bitte nicht, sich an uns zu wenden.",
+            "start": 12,
+            "answer": "お気軽にお問い合わせください",
+            "acceptedAnswers": [
+              "お気軽にお問い合わせください"
+            ],
+            "distractors": [
+              {
+                "text": "お気軽にお問い合わせるください",
+                "reason": "ください folgt hier nicht der Wörterbuchform."
+              },
+              {
+                "text": "お気軽にお問い合わせくださいた",
+                "reason": "Dies ist keine Bitteform."
+              },
+              {
+                "text": "お問い合わせにならないでください",
+                "reason": "Dies bittet ausdrücklich darum, nicht anzufragen."
+              }
+            ]
+          }
+        },
         "romaji": "Goshitsumon ga gozaimashitara, okigaru ni otoiawase kudasai.",
         "german": "Wenn Sie Fragen haben, zögern Sie bitte nicht, sich an uns zu wenden."
       },
@@ -1601,7 +3322,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Diese Phrase ist auf japanischen Webseiten, in Prospekten und in geschäftlichen E-Mails allgegenwärtig. Sie entspricht dem deutschen „Zögern Sie nicht, uns zu kontaktieren“ und ist weniger formell als andere Geschäftsphrasen.",
-    "related": ["keigo-business-gofumeina", "keigo-sonkeigo-okudasai"]
+    "related": [
+      "keigo-business-gofumeina",
+      "keigo-sonkeigo-okudasai"
+    ]
   },
   {
     "id": "keigo-business-saseteitadakitaku",
@@ -1615,11 +3339,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "来週、ご訪問させていただきたく存じます。",
+        "cloze": {
+          "start": 6,
+          "answer": "させていただきたく存じます",
+          "quiz": {
+            "level": "N1",
+            "japanese": "来週、ご訪問させていただきたく存じます。",
+            "german": "Ich würde mir gerne erlauben, Sie nächste Woche zu besuchen.",
+            "start": 6,
+            "answer": "させていただきたく存じます",
+            "acceptedAnswers": [
+              "させていただきたく存じます"
+            ],
+            "distractors": [
+              {
+                "text": "させるいただきたく存じます",
+                "reason": "いただく benötigt die て-Verbindung."
+              },
+              {
+                "text": "させていただきたいく存じます",
+                "reason": "Die adverbiale Form von たい lautet たく."
+              },
+              {
+                "text": "させていただきたく存じるます",
+                "reason": "ます benötigt den Verbstamm."
+              }
+            ]
+          }
+        },
         "romaji": "Raishū, gohōmon sasete itadakitaku zonjimasu.",
         "german": "Ich würde mir gerne erlauben, Sie nächste Woche zu besuchen."
       },
       {
         "japanese": "企画の詳細についてご説明させていただきたく存じます。",
+        "cloze": {
+          "start": 12,
+          "answer": "させていただきたく存じます"
+        },
         "romaji": "Kikaku no shōsai ni tsuite gosetsumei sasete itadakitaku zonjimasu.",
         "german": "Ich würde Ihnen gerne die Details des Projekts erläutern dürfen."
       },
@@ -1630,7 +3386,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Diese Form wird manchmal als übertrieben höflich (過剰敬語) kritisiert, ist aber in der japanischen Geschäftskultur durchaus üblich, besonders wenn man sich an Kunden oder höhergestellte Personen wendet. Die etwas kürzere Form ～させていただきたいと思います ist eine weniger formelle Alternative.",
-    "related": ["keigo-teinei-sasete-itadaku", "keigo-kenjougo-zonjiru"]
+    "related": [
+      "keigo-teinei-sasete-itadaku",
+      "keigo-kenjougo-zonjiru"
+    ]
   },
   {
     "id": "keigo-teinei-goitadaku",
@@ -1654,12 +3413,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "資料をお送りいただけますでしょうか。",
+        "cloze": {
+          "start": 3,
+          "answer": "お",
+          "quiz": {
+            "level": "N3",
+            "japanese": "資料をお送りいただけますでしょうか。",
+            "german": "Könnten Sie mir die Unterlagen zusenden?",
+            "start": 3,
+            "answer": "お",
+            "acceptedAnswers": [
+              "お"
+            ],
+            "distractors": [
+              {
+                "text": "ご",
+                "reason": "送り ist ein japanischer Verbstamm und bildet hier お送り."
+              },
+              {
+                "text": "に",
+                "reason": "に bildet nicht die bescheidene Verbstammkonstruktion."
+              },
+              {
+                "text": "を",
+                "reason": "Ein zusätzliches を passt nicht zwischen 資料を und 送り."
+              }
+            ]
+          }
+        },
         "romaji": "Shiryō wo ookuriitadakemasu deshō ka.",
         "german": "Könnten Sie mir die Unterlagen zusenden?"
       }
     ],
     "notes": "お/ご～いただく und お/ご～くださる haben ähnliche Bedeutungen, aber eine unterschiedliche Perspektive: いただく betont das bescheidene Empfangen (Kenjōgo), くださる betont das großzügige Geben des anderen (Sonkeigo). In der Praxis wird いただく häufiger verwendet.",
-    "related": ["keigo-kenjougo-itadaku", "keigo-sonkeigo-okudasaru"]
+    "related": [
+      "keigo-kenjougo-itadaku",
+      "keigo-sonkeigo-okudasaru"
+    ]
   },
   {
     "id": "keigo-teinei-kanemasu",
@@ -1673,22 +3463,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "申し訳ございませんが、その件につきましてはお答えいたしかねます。",
+        "cloze": {
+          "start": 27,
+          "answer": "かねます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "申し訳ございませんが、その件につきましてはお答えいたしかねます。",
+            "german": "Es tut mir leid, aber zu dieser Angelegenheit kann ich Ihnen leider keine Antwort geben.",
+            "start": 27,
+            "answer": "かねます",
+            "acceptedAnswers": [
+              "かねます"
+            ],
+            "distractors": [
+              {
+                "text": "かねません",
+                "reason": "Dies bedeutet könnte durchaus und kehrt die Ablehnung um."
+              },
+              {
+                "text": "かねるます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "かねますた",
+                "reason": "Die höfliche Vergangenheit endet mit ました."
+              }
+            ]
+          }
+        },
         "romaji": "Mōshiwake gozaimasen ga, sono ken ni tsukimashite wa okotae itashikanemasu.",
         "german": "Es tut mir leid, aber zu dieser Angelegenheit kann ich Ihnen leider keine Antwort geben."
       },
       {
         "japanese": "ご要望には応じかねます。",
+        "cloze": {
+          "start": 7,
+          "answer": "かねます"
+        },
         "romaji": "Goyōbō ni wa ōjikanemasu.",
         "german": "Ihrem Wunsch können wir leider nicht entsprechen."
       },
       {
         "japanese": "この価格ではお引き受けいたしかねます。",
+        "cloze": {
+          "start": 14,
+          "answer": "かねます"
+        },
         "romaji": "Kono kakaku de wa ohikiuke itashikanemasu.",
         "german": "Zu diesem Preis können wir den Auftrag leider nicht annehmen."
       }
     ],
     "notes": "～かねます ist eine indirekte Ablehnung und gilt als höflicher als ～できません. Im japanischen Geschäftsleben wird eine direkte Ablehnung vermieden, weshalb diese Form sehr wichtig ist. Nicht zu verwechseln mit ～かねません, das eine Möglichkeit ausdrückt.",
-    "related": ["keigo-teinei-kanemasen", "keigo-business-osoreirimasuga"]
+    "related": [
+      "keigo-teinei-kanemasen",
+      "keigo-business-osoreirimasuga"
+    ]
   },
   {
     "id": "keigo-teinei-kanemasen",
@@ -1702,22 +3531,60 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "このまま放置すると、大きな問題になりかねません。",
+        "cloze": {
+          "start": 18,
+          "answer": "かねません",
+          "quiz": {
+            "level": "N2",
+            "japanese": "このまま放置すると、大きな問題になりかねません。",
+            "german": "Wenn wir das so lassen, könnte es zu einem großen Problem werden.",
+            "start": 18,
+            "answer": "かねません",
+            "acceptedAnswers": [
+              "かねません"
+            ],
+            "distractors": [
+              {
+                "text": "かねます",
+                "reason": "Dies bezeichnet Unvermögen statt eines drohenden Risikos."
+              },
+              {
+                "text": "かねるません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "かねませんない",
+                "reason": "Die negative Endung wird nicht nochmals mit ない verbunden."
+              }
+            ]
+          }
+        },
         "romaji": "Kono mama hōchi suru to, ōkina mondai ni narikanemasen.",
         "german": "Wenn wir das so lassen, könnte es zu einem großen Problem werden."
       },
       {
         "japanese": "誤解を招きかねませんので、慎重に対応してください。",
+        "cloze": {
+          "start": 5,
+          "answer": "かねません"
+        },
         "romaji": "Gokai wo manekikanemasen node, shinchō ni taiō shite kudasai.",
         "german": "Da es zu Missverständnissen führen könnte, gehen Sie bitte behutsam vor."
       },
       {
         "japanese": "納期に間に合わなくなりかねません。",
+        "cloze": {
+          "start": 11,
+          "answer": "かねません"
+        },
         "romaji": "Nōki ni ma ni awanaku narikanemasen.",
         "german": "Es besteht die Gefahr, dass wir den Liefertermin nicht einhalten können."
       }
     ],
     "notes": "～かねません wird fast immer für negative Möglichkeiten verwendet (Probleme, Risiken, Gefahren). Es wäre unnatürlich, es für positive Möglichkeiten zu verwenden. Der Unterschied zu ～かねます (kann nicht) und ～かねません (könnte passieren) ist ein häufiger Stolperstein für Lernende.",
-    "related": ["keigo-teinei-kanemasu"]
+    "related": [
+      "keigo-teinei-kanemasu"
+    ]
   },
   {
     "id": "keigo-kenjougo-odenwasashiageru",
@@ -1732,7 +3599,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "後ほどお電話を差し上げます。",
         "romaji": "Nochihodo odenwa wo sashiagemasu.",
-        "german": "Ich werde Sie später anrufen."
+        "german": "Ich werde Sie später anrufen.",
+        "cloze": {
+          "start": 3,
+          "answer": "お電話を差し上げます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "後ほどお電話を差し上げます。",
+            "german": "Ich werde Sie später anrufen.",
+            "start": 3,
+            "answer": "お電話を差し上げます",
+            "acceptedAnswers": [
+              "お電話を差し上げます",
+              "お電話いたします"
+            ],
+            "distractors": [
+              {
+                "text": "お電話を差し上げません",
+                "reason": "Dies verneint den angekündigten Anruf."
+              },
+              {
+                "text": "お電話を差し上げるます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "お電話を差し上げまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "明日の午前中にお電話を差し上げてもよろしいでしょうか。",
@@ -1746,7 +3642,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "In letzter Zeit wird diskutiert, ob お電話を差し上げる angemessen ist, da 差し上げる (geben) impliziert, dass der Anruf ein Geschenk ist. Die Alternative お電話いたします wird von manchen als neutraler angesehen. Beide Formen sind jedoch im Geschäftsleben akzeptiert.",
-    "related": ["keigo-kenjougo-sashiageru", "keigo-kenjougo-itasu"]
+    "related": [
+      "keigo-kenjougo-sashiageru",
+      "keigo-kenjougo-itasu"
+    ]
   },
   {
     "id": "keigo-bikago-goenryonaku",
@@ -1760,22 +3659,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "ご遠慮なくお召し上がりください。",
+        "cloze": {
+          "start": 0,
+          "answer": "ご遠慮なく",
+          "quiz": {
+            "level": "N3",
+            "japanese": "ご遠慮なくお召し上がりください。",
+            "german": "Bitte greifen Sie ohne Zurückhaltung zu.",
+            "start": 0,
+            "answer": "ご遠慮なく",
+            "acceptedAnswers": [
+              "ご遠慮なく",
+              "遠慮なく"
+            ],
+            "distractors": [
+              {
+                "text": "ご遠慮して",
+                "reason": "Dies fordert Zurückhaltung statt freies Zugreifen."
+              },
+              {
+                "text": "ご遠慮ないで",
+                "reason": "Die adverbiale feste Form lautet ご遠慮なく."
+              },
+              {
+                "text": "ご遠慮なくの",
+                "reason": "の kann hier nicht vor der Bitte stehen."
+              }
+            ]
+          }
+        },
         "romaji": "Goenryo naku omeshiagari kudasai.",
         "german": "Bitte greifen Sie ohne Zurückhaltung zu."
       },
       {
         "japanese": "何かございましたら、ご遠慮なくおっしゃってください。",
+        "cloze": {
+          "start": 10,
+          "answer": "ご遠慮なく"
+        },
         "romaji": "Nanika gozaimashitara, goenryo naku osshatte kudasai.",
         "german": "Wenn es irgendetwas gibt, sagen Sie es bitte ohne Zögern."
       },
       {
         "japanese": "ご遠慮なくお使いください。",
+        "cloze": {
+          "start": 0,
+          "answer": "ご遠慮なく"
+        },
         "romaji": "Goenryo naku otsukai kudasai.",
         "german": "Bitte benutzen Sie es ohne Zurückhaltung."
       }
     ],
     "notes": "ご遠慮なく wird oft in der Gastronomie, bei Bewirtungen und im Kundenservice verwendet. Die Phrase spiegelt die japanische Kultur wider, in der Gäste oft aus Höflichkeit zögern. Mit ご遠慮なく ermutigt man sie, diese Zurückhaltung aufzugeben.",
-    "related": ["keigo-sonkeigo-meshiagaru", "keigo-business-okigaruni"]
+    "related": [
+      "keigo-sonkeigo-meshiagaru",
+      "keigo-business-okigaruni"
+    ]
   },
   {
     "id": "keigo-bikago-moushiwake",
@@ -1789,22 +3728,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お待たせして、大変申し訳ございません。",
+        "cloze": {
+          "start": 9,
+          "answer": "申し訳ございません",
+          "quiz": {
+            "level": "N3",
+            "japanese": "お待たせして、大変申し訳ございません。",
+            "german": "Es tut mir zutiefst leid, dass ich Sie habe warten lassen.",
+            "start": 9,
+            "answer": "申し訳ございません",
+            "acceptedAnswers": [
+              "申し訳ございません",
+              "申し訳ありません"
+            ],
+            "distractors": [
+              {
+                "text": "申し訳ござるません",
+                "reason": "Die höfliche Negativform lautet ございません."
+              },
+              {
+                "text": "申し訳ございませんた",
+                "reason": "Dies ist keine Verbform."
+              },
+              {
+                "text": "申し訳がないません",
+                "reason": "Zwei Negativendungen können so nicht kombiniert werden."
+              }
+            ]
+          }
+        },
         "romaji": "Omatase shite, taihen mōshiwake gozaimasen.",
         "german": "Es tut mir zutiefst leid, dass ich Sie habe warten lassen."
       },
       {
         "japanese": "ご迷惑をおかけし、誠に申し訳ございません。",
+        "cloze": {
+          "start": 11,
+          "answer": "申し訳ございません"
+        },
         "romaji": "Gomeiwaku wo okake shi, makoto ni mōshiwake gozaimasen.",
         "german": "Es tut mir aufrichtig leid, Ihnen Unannehmlichkeiten bereitet zu haben."
       },
       {
         "japanese": "申し訳ございません。ただいま在庫を切らしております。",
+        "cloze": {
+          "start": 0,
+          "answer": "申し訳ございません"
+        },
         "romaji": "Mōshiwake gozaimasen. Tadaima zaiko wo kirashite orimasu.",
         "german": "Es tut mir sehr leid. Wir haben den Artikel derzeit nicht auf Lager."
       }
     ],
     "notes": "Die Verstärkungsstufen sind: 申し訳ございません → 大変申し訳ございません → 誠に申し訳ございません. In der weniger formellen Variante wird ございません durch ありません ersetzt. Diese Phrase wird im Geschäftsleben bei jedem Fehler oder jeder Unannehmlichkeit erwartet.",
-    "related": ["keigo-business-goyousha", "keigo-business-osoreirimasuga"]
+    "related": [
+      "keigo-business-goyousha",
+      "keigo-business-osoreirimasuga"
+    ]
   },
   {
     "id": "keigo-bikago-omataseitashimashita",
@@ -1818,22 +3797,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お待たせいたしました。ご注文の品をお持ちしました。",
+        "cloze": {
+          "start": 0,
+          "answer": "お待たせいたしました",
+          "quiz": {
+            "level": "N3",
+            "japanese": "お待たせいたしました。ご注文の品をお持ちしました。",
+            "german": "Entschuldigen Sie das Warten. Hier ist Ihre Bestellung.",
+            "start": 0,
+            "answer": "お待たせいたしました",
+            "acceptedAnswers": [
+              "お待たせいたしました"
+            ],
+            "distractors": [
+              {
+                "text": "お待たせいたしませんでした",
+                "reason": "Dies verneint das verursachte Warten."
+              },
+              {
+                "text": "お待たせいたすました",
+                "reason": "Dies ist keine höfliche Vergangenheit."
+              },
+              {
+                "text": "お待たせいたしますた",
+                "reason": "Dies ist keine Verbform."
+              }
+            ]
+          }
+        },
         "romaji": "Omatase itashimashita. Gochūmon no shina wo omochi shimashita.",
         "german": "Entschuldigen Sie das Warten. Hier ist Ihre Bestellung."
       },
       {
         "japanese": "大変お待たせいたしました。お席にご案内いたします。",
+        "cloze": {
+          "start": 2,
+          "answer": "お待たせいたしました"
+        },
         "romaji": "Taihen omatase itashimashita. Oseki ni goannai itashimasu.",
         "german": "Vielen Dank für Ihre Geduld. Ich führe Sie zu Ihrem Platz."
       },
       {
         "japanese": "お電話お待たせいたしました。営業部の鈴木でございます。",
+        "cloze": {
+          "start": 3,
+          "answer": "お待たせいたしました"
+        },
         "romaji": "Odenwa omatase itashimashita. Eigyōbu no Suzuki de gozaimasu.",
         "german": "Entschuldigung für das Warten am Telefon. Hier spricht Suzuki von der Vertriebsabteilung."
       }
     ],
     "notes": "お待たせいたしました wird in Japan reflexartig gesagt, selbst wenn die Wartezeit sehr kurz war. Die weniger formelle Version ist お待たせしました (ohne いた). 大変 wird hinzugefügt, wenn die Wartezeit länger als üblich war.",
-    "related": ["keigo-kenjougo-itasu", "keigo-business-shitsureiitashimasu"]
+    "related": [
+      "keigo-kenjougo-itasu",
+      "keigo-business-shitsureiitashimasu"
+    ]
   },
   {
     "id": "keigo-sonkeigo-tamawaru",
@@ -1848,7 +3866,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ご指導を賜りますよう、お願い申し上げます。",
         "romaji": "Goshidō wo tamawarimasu yō, onegai mōshiagemasu.",
-        "german": "Ich bitte ehrerbietig um Ihre Anleitung."
+        "german": "Ich bitte ehrerbietig um Ihre Anleitung.",
+        "cloze": {
+          "start": 4,
+          "answer": "賜ります",
+          "quiz": {
+            "level": "N1",
+            "japanese": "ご指導を賜りますよう、お願い申し上げます。",
+            "german": "Ich bitte ehrerbietig um Ihre Anleitung.",
+            "start": 4,
+            "answer": "賜ります",
+            "acceptedAnswers": [
+              "賜ります",
+              "いただきます"
+            ],
+            "distractors": [
+              {
+                "text": "賜るます",
+                "reason": "ます benötigt den Stamm 賜り."
+              },
+              {
+                "text": "賜りまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "賜りないました",
+                "reason": "Die höfliche Verneinung wird nicht mit ないました gebildet."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "温かいお言葉を賜り、誠にありがとうございます。",
@@ -1862,7 +3909,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "賜る ist eines der gehobensten Keigo-Verben und findet sich häufig in Einladungsschreiben, Dankesreden und offiziellen Dokumenten. In der alltäglichen Geschäftskommunikation wirkt es übertrieben, ist aber bei zeremoniellen Anlässen angemessen.",
-    "related": ["keigo-kenjougo-itadaku", "keigo-sonkeigo-kudasaru"]
+    "related": [
+      "keigo-kenjougo-itadaku",
+      "keigo-sonkeigo-kudasaru"
+    ]
   },
   {
     "id": "keigo-sonkeigo-ooseninaru",
@@ -1877,7 +3927,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "会長が仰せになったとおりに進めてください。",
         "romaji": "Kaichō ga ōse ni natta tōri ni susumete kudasai.",
-        "german": "Bitte verfahren Sie so, wie der Vorsitzende es angeordnet hat."
+        "german": "Bitte verfahren Sie so, wie der Vorsitzende es angeordnet hat.",
+        "cloze": {
+          "start": 3,
+          "answer": "仰せになった",
+          "quiz": {
+            "level": "N1",
+            "japanese": "会長が仰せになったとおりに進めてください。",
+            "german": "Bitte verfahren Sie so, wie der Vorsitzende es angeordnet hat.",
+            "start": 3,
+            "answer": "仰せになった",
+            "acceptedAnswers": [
+              "仰せになった",
+              "おっしゃった"
+            ],
+            "distractors": [
+              {
+                "text": "仰せになり",
+                "reason": "Die Stammform bestimmt hier とおり nicht attributiv."
+              },
+              {
+                "text": "仰せになるました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm なり."
+              },
+              {
+                "text": "仰せになったな",
+                "reason": "Vor とおり steht hier kein zusätzliches な."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "仰せの通りにいたします。",
@@ -1891,7 +3970,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "仰せ allein wird auch als Nomen verwendet (= Anweisung/Befehl). Die Form 仰せつける bedeutet „befehlen/anordnen“. In der modernen Sprache ist おっしゃる die übliche Sonkeigo-Form von 言う; 仰せになる ist archaischer und zeremonieller.",
-    "related": ["keigo-sonkeigo-ossharu", "keigo-kenjougo-mousu"]
+    "related": [
+      "keigo-sonkeigo-ossharu",
+      "keigo-kenjougo-mousu"
+    ]
   },
   {
     "id": "keigo-sonkeigo-asobasu",
@@ -1906,7 +3988,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "奥様はお出かけ遊ばしました。",
         "romaji": "Okusama wa odekake asobashimashita.",
-        "german": "Die gnädige Frau ist ausgegangen."
+        "german": "Die gnädige Frau ist ausgegangen.",
+        "cloze": {
+          "start": 3,
+          "answer": "お出かけ遊ばしました",
+          "quiz": {
+            "level": "N1",
+            "japanese": "奥様はお出かけ遊ばしました。",
+            "german": "Die gnädige Frau ist ausgegangen.",
+            "start": 3,
+            "answer": "お出かけ遊ばしました",
+            "acceptedAnswers": [
+              "お出かけ遊ばしました",
+              "お出かけになりました"
+            ],
+            "distractors": [
+              {
+                "text": "お出かけ遊ばしませんでした",
+                "reason": "Dies verneint das Ausgehen."
+              },
+              {
+                "text": "お出かけ遊ばすました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm 遊ばし."
+              },
+              {
+                "text": "お出かけ遊ばしましたます",
+                "reason": "Die Höflichkeitsendungen können nicht verdoppelt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "ごゆっくり遊ばせ。",
@@ -1920,7 +4031,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お～遊ばす war bis in die Nachkriegszeit in der gehobenen Frauensprache gebräuchlich. Heute hört man es kaum noch, außer in historischen Dramen oder sehr traditionellen Kontexten. Die Kenntnis dieser Form ist für das Verständnis klassischer japanischer Literatur nützlich.",
-    "related": ["keigo-sonkeigo-oninaru", "keigo-sonkeigo-nasaru"]
+    "related": [
+      "keigo-sonkeigo-oninaru",
+      "keigo-sonkeigo-nasaru"
+    ]
   },
   {
     "id": "keigo-sonkeigo-nijukeigo",
@@ -1949,7 +4063,11 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Der japanische Kulturrat (文化審議会) hat einige 二重敬語-Formen als akzeptabel eingestuft, darunter お召し上がりになる und お見えになる. Andere wie おっしゃられる gelten als Fehler, sind aber weit verbreitet. Für N1 ist das Erkennen und korrekte Bewerten von 二重敬語 wichtig.",
-    "related": ["keigo-sonkeigo-oninaru", "keigo-sonkeigo-meshiagaru"]
+    "related": [
+      "keigo-sonkeigo-oninaru",
+      "keigo-sonkeigo-meshiagaru"
+    ],
+    "clozeExcludedReason": "Fehlervergleich: doppelte Ehrung nicht als korrekte Lückenantwort üben."
   },
   {
     "id": "keigo-sonkeigo-goranninaru-kudasu",
@@ -1964,7 +4082,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ご理解くださいますようお願い申し上げます。",
         "romaji": "Gorikai kudasaimasu yō onegai mōshiagemasu.",
-        "german": "Ich bitte ehrerbietig um Ihr Verständnis."
+        "german": "Ich bitte ehrerbietig um Ihr Verständnis.",
+        "cloze": {
+          "start": 0,
+          "answer": "ご理解くださいます",
+          "quiz": {
+            "level": "N1",
+            "japanese": "ご理解くださいますようお願い申し上げます。",
+            "german": "Ich bitte ehrerbietig um Ihr Verständnis.",
+            "start": 0,
+            "answer": "ご理解くださいます",
+            "acceptedAnswers": [
+              "ご理解くださいます"
+            ],
+            "distractors": [
+              {
+                "text": "ご理解くださるます",
+                "reason": "ます benötigt den Stamm ください."
+              },
+              {
+                "text": "ご理解くださいまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "ご理解くださいますた",
+                "reason": "Die höfliche Vergangenheit endet mit ました."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "ご協力くださり、誠にありがとうございます。",
@@ -1978,7 +4124,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご指導ご鞭撻を賜りますよう ist eine der formellsten Bittformeln im Japanischen und findet sich häufig in offiziellen Begrüßungsreden und Neujahrsgrüßen. ご鞭撻 (gobentatsu) bedeutet wörtlich „Antreiben mit der Peitsche“ und steht bildlich für Ermutigung.",
-    "related": ["keigo-sonkeigo-okudasaru", "keigo-sonkeigo-tamawaru"]
+    "related": [
+      "keigo-sonkeigo-okudasaru",
+      "keigo-sonkeigo-tamawaru"
+    ]
   },
   {
     "id": "keigo-sonkeigo-oideninaru-meirei",
@@ -1992,22 +4141,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "いらっしゃいませ。どうぞお入りなさいませ。",
+        "cloze": {
+          "start": 15,
+          "answer": "なさいませ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "いらっしゃいませ。どうぞお入りなさいませ。",
+            "german": "Herzlich willkommen. Bitte treten Sie ein.",
+            "start": 15,
+            "answer": "なさいませ",
+            "acceptedAnswers": [
+              "なさいませ",
+              "くださいませ"
+            ],
+            "distractors": [
+              {
+                "text": "なさるませ",
+                "reason": "ませ wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "なさいませる",
+                "reason": "る kann nicht an ませ angehängt werden."
+              },
+              {
+                "text": "なさいましたませ",
+                "reason": "Die Aufforderung wird nicht an die Vergangenheit angehängt."
+              }
+            ]
+          }
+        },
         "romaji": "Irasshaimase. Dōzo ohairi nasaimase.",
         "german": "Herzlich willkommen. Bitte treten Sie ein."
       },
       {
         "japanese": "ごゆっくりなさいませ。",
+        "cloze": {
+          "start": 5,
+          "answer": "なさいませ"
+        },
         "romaji": "Goyukkuri nasaimase.",
         "german": "Bitte lassen Sie sich alle Zeit."
       },
       {
         "japanese": "お気をつけなさいませ。",
+        "cloze": {
+          "start": 5,
+          "answer": "なさいませ"
+        },
         "romaji": "Oki wo tsuke nasaimase.",
         "german": "Bitte passen Sie auf sich auf. (sehr höflich)"
       }
     ],
     "notes": "いらっしゃいませ ist eigentlich die ませ-Form von いらっしゃる und die bekannteste Verwendung dieses Musters. In Kaufhäusern hört man regelmäßig Formen wie お選びなさいませ oder お試しなさいませ.",
-    "related": ["keigo-sonkeigo-nasaru", "keigo-sonkeigo-okudasai"]
+    "related": [
+      "keigo-sonkeigo-nasaru",
+      "keigo-sonkeigo-okudasai"
+    ]
   },
   {
     "id": "keigo-sonkeigo-rareru-bungo",
@@ -2022,7 +4211,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "天は自ら助くる者を助け給う。",
         "romaji": "Ten wa mizukara tasukuru mono wo tasuke tamau.",
-        "german": "Der Himmel hilft denen, die sich selbst helfen."
+        "german": "Der Himmel hilft denen, die sich selbst helfen.",
+        "cloze": {
+          "start": 11,
+          "answer": "給う",
+          "quiz": {
+            "level": "N1",
+            "japanese": "天は自ら助くる者を助け給う。",
+            "german": "Der Himmel hilft denen, die sich selbst helfen.",
+            "start": 11,
+            "answer": "給う",
+            "acceptedAnswers": [
+              "給う"
+            ],
+            "distractors": [
+              {
+                "text": "給うます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "給わないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "給わない",
+                "reason": "Dies verneint die Hilfe des Himmels."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "まあ聞き給え。",
@@ -2036,7 +4253,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "In der modernen Umgangssprache wird ～たまえ manchmal als leicht herablassende, aber kameradschaftliche Aufforderung unter Gleichgestellten verwendet (besonders von älteren Männern). Der religiöse Gebrauch in Gebeten ist die lebendigste Verwendung der klassischen Form.",
-    "related": ["keigo-sonkeigo-oninaru", "keigo-sonkeigo-asobasu"]
+    "related": [
+      "keigo-sonkeigo-oninaru",
+      "keigo-sonkeigo-asobasu"
+    ]
   },
   {
     "id": "keigo-sonkeigo-meshimasu",
@@ -2051,7 +4271,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お風邪を召していらっしゃるのですか。",
         "romaji": "Okaze wo meshite irassharu no desu ka.",
-        "german": "Haben Sie sich erkältet? (sehr höflich)"
+        "german": "Haben Sie sich erkältet? (sehr höflich)",
+        "cloze": {
+          "start": 4,
+          "answer": "召して",
+          "quiz": {
+            "level": "N1",
+            "japanese": "お風邪を召していらっしゃるのですか。",
+            "german": "Haben Sie sich erkältet? (sehr höflich)",
+            "start": 4,
+            "answer": "召して",
+            "acceptedAnswers": [
+              "召して"
+            ],
+            "distractors": [
+              {
+                "text": "召した",
+                "reason": "いらっしゃる benötigt hier die て-Verbindung."
+              },
+              {
+                "text": "召す",
+                "reason": "いらっしゃる benötigt hier die て-Verbindung."
+              },
+              {
+                "text": "召します",
+                "reason": "Die finite Form passt hier nicht vor いらっしゃる."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "お召し物をお預かりいたします。",
@@ -2065,7 +4313,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お召し物 (Kleidung, ehrerbietig) und お風邪を召す (sich erkälten, ehrerbietig) sind die gebräuchlichsten modernen Verwendungen. 召し上がる (essen/trinken, ehrerbietig) ist von 召す abgeleitet.",
-    "related": ["keigo-sonkeigo-meshiagaru", "keigo-sonkeigo-asobasu"]
+    "related": [
+      "keigo-sonkeigo-meshiagaru",
+      "keigo-sonkeigo-asobasu"
+    ]
   },
   {
     "id": "keigo-sonkeigo-gorankudasai",
@@ -2080,7 +4331,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ご高覧いただければ幸いです。",
         "romaji": "Gokōran itadakereba saiwai desu.",
-        "german": "Ich wäre dankbar, wenn Sie es sich gnädig ansehen würden."
+        "german": "Ich wäre dankbar, wenn Sie es sich gnädig ansehen würden.",
+        "cloze": {
+          "start": 0,
+          "answer": "ご高覧",
+          "quiz": {
+            "level": "N1",
+            "japanese": "ご高覧いただければ幸いです。",
+            "german": "Ich wäre dankbar, wenn Sie es sich gnädig ansehen würden.",
+            "start": 0,
+            "answer": "ご高覧",
+            "acceptedAnswers": [
+              "ご高覧",
+              "ご覧"
+            ],
+            "distractors": [
+              {
+                "text": "ご高覧をな",
+                "reason": "Diese Partikelverbindung passt nicht vor いただければ."
+              },
+              {
+                "text": "ご高覧な",
+                "reason": "な passt hier nicht vor いただければ."
+              },
+              {
+                "text": "ご高覧ます",
+                "reason": "ます kann nicht direkt an 高覧 angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "本書をご高覧賜りますようお願い申し上げます。",
@@ -2094,7 +4374,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご高覧 wird fast ausschließlich in sehr formeller schriftlicher Kommunikation verwendet. Ähnliche gehobene Sonkeigo-Nomen sind ご高配 (gnädige Fürsorge), ご厚意 (freundliche Absicht), ご高説 (gelehrte Meinung).",
-    "related": ["keigo-sonkeigo-goranninaru", "keigo-sonkeigo-tamawaru"]
+    "related": [
+      "keigo-sonkeigo-goranninaru",
+      "keigo-sonkeigo-tamawaru"
+    ]
   },
   {
     "id": "keigo-sonkeigo-oanjiaremasenu",
@@ -2109,7 +4392,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "平素より格別のご高配を賜り、厚く御礼申し上げます。",
         "romaji": "Heiso yori kakubetsu no gokōhai wo tamawari, atsuku onrei mōshiagemasu.",
-        "german": "Wir danken Ihnen aufrichtig für Ihre fortwährend besondere Fürsorge."
+        "german": "Wir danken Ihnen aufrichtig für Ihre fortwährend besondere Fürsorge.",
+        "cloze": {
+          "start": 7,
+          "answer": "ご高配",
+          "quiz": {
+            "level": "N1",
+            "japanese": "平素より格別のご高配を賜り、厚く御礼申し上げます。",
+            "german": "Wir danken Ihnen aufrichtig für Ihre fortwährend besondere Fürsorge.",
+            "start": 7,
+            "answer": "ご高配",
+            "acceptedAnswers": [
+              "ご高配"
+            ],
+            "distractors": [
+              {
+                "text": "ご高配な",
+                "reason": "な passt hier nicht vor を賜り."
+              },
+              {
+                "text": "ご高配ます",
+                "reason": "ます kann nicht direkt an 高配 angehängt werden."
+              },
+              {
+                "text": "ご高配を",
+                "reason": "Das folgende を würde unzulässig verdoppelt."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "今後ともご高配のほどよろしくお願い申し上げます。",
@@ -2123,7 +4434,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "平素より格別のご高配を賜り ist eine der standardmäßigsten Eröffnungsformeln in formellen japanischen Geschäftsbriefen. Sie ist formeller als お世話になっております und wird besonders in offiziellen Dokumenten und bei Firmenkommunikation verwendet.",
-    "related": ["keigo-sonkeigo-tamawaru", "keigo-business-osewani"]
+    "related": [
+      "keigo-sonkeigo-tamawaru",
+      "keigo-business-osewani"
+    ]
   },
   {
     "id": "keigo-sonkeigo-ossharuhiniku",
@@ -2138,7 +4452,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "拙作ではございますが、ご笑覧いただければ幸いです。",
         "romaji": "Sessaku de wa gozaimasu ga, goshōran itadakereba saiwai desu.",
-        "german": "Es ist ein bescheidenes Werk, aber ich wäre dankbar, wenn Sie es sich ansehen würden."
+        "german": "Es ist ein bescheidenes Werk, aber ich wäre dankbar, wenn Sie es sich ansehen würden.",
+        "cloze": {
+          "start": 11,
+          "answer": "ご笑覧",
+          "quiz": {
+            "level": "N1",
+            "japanese": "拙作ではございますが、ご笑覧いただければ幸いです。",
+            "german": "Es ist ein bescheidenes Werk, aber ich wäre dankbar, wenn Sie es sich ansehen würden.",
+            "start": 11,
+            "answer": "ご笑覧",
+            "acceptedAnswers": [
+              "ご笑覧",
+              "ご高覧"
+            ],
+            "distractors": [
+              {
+                "text": "ご笑覧な",
+                "reason": "な passt hier nicht vor いただければ."
+              },
+              {
+                "text": "ご笑覧ます",
+                "reason": "ます kann nicht direkt an 笑覧 angehängt werden."
+              },
+              {
+                "text": "ご笑覧をな",
+                "reason": "Diese Partikelverbindung passt nicht vor いただければ."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "新作をご笑覧ください。",
@@ -2147,7 +4490,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご笑覧 wird oft zusammen mit 拙作 (mein bescheidenes Werk) oder 拙著 (mein bescheidenes Buch) verwendet. Es zeigt die typisch japanische Bescheidenheit, bei der man das eigene Werk herunterspielt, während man den Betrachter erhöht.",
-    "related": ["keigo-sonkeigo-gorankudasai", "keigo-kenjougo-omenikakeru"]
+    "related": [
+      "keigo-sonkeigo-gorankudasai",
+      "keigo-kenjougo-omenikakeru"
+    ]
   },
   {
     "id": "keigo-kenjougo-tatematsuru",
@@ -2162,7 +4508,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "神に祈りを奉る。",
         "romaji": "Kami ni inori wo tatematsuru.",
-        "german": "Gott ein Gebet darbringen."
+        "german": "Gott ein Gebet darbringen.",
+        "cloze": {
+          "start": 5,
+          "answer": "奉る",
+          "quiz": {
+            "level": "N1",
+            "japanese": "神に祈りを奉る。",
+            "german": "Gott ein Gebet darbringen.",
+            "start": 5,
+            "answer": "奉る",
+            "acceptedAnswers": [
+              "奉る"
+            ],
+            "distractors": [
+              {
+                "text": "奉らない",
+                "reason": "Dies verneint das Darbringen."
+              },
+              {
+                "text": "奉るます",
+                "reason": "ます benötigt den Verbstamm."
+              },
+              {
+                "text": "奉るました",
+                "reason": "Die höfliche Vergangenheit benötigt den Verbstamm."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "陛下にこの品を奉ります。",
@@ -2176,7 +4550,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "奉る ist in der modernen Alltagssprache archaisch, aber in bestimmten Kontexten lebendig: Shintō-Zeremonien (奉納 = rituelle Darbringung), Neujahrsgrüße und kaiserliche Anlässe. Die Form 謹んで～奉る ist die höflichste im gesamten japanischen Keigo-System.",
-    "related": ["keigo-sonkeigo-tamawaru", "keigo-kenjougo-moushiageru"]
+    "related": [
+      "keigo-sonkeigo-tamawaru",
+      "keigo-kenjougo-moushiageru"
+    ]
   },
   {
     "id": "keigo-kenjougo-haichou",
@@ -2191,7 +4568,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "先生のご講演を拝聴いたしました。",
         "romaji": "Sensei no gokōen wo haichō itashimashita.",
-        "german": "Ich habe den Vortrag des Professors bescheiden angehört."
+        "german": "Ich habe den Vortrag des Professors bescheiden angehört.",
+        "cloze": {
+          "start": 7,
+          "answer": "拝聴いたしました",
+          "quiz": {
+            "level": "N1",
+            "japanese": "先生のご講演を拝聴いたしました。",
+            "german": "Ich habe den Vortrag des Professors bescheiden angehört.",
+            "start": 7,
+            "answer": "拝聴いたしました",
+            "acceptedAnswers": [
+              "拝聴いたしました"
+            ],
+            "distractors": [
+              {
+                "text": "拝聴いたしませんでした",
+                "reason": "Dies verneint das Anhören."
+              },
+              {
+                "text": "拝聴いたすました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm いたし."
+              },
+              {
+                "text": "拝聴いたしましたます",
+                "reason": "Die Höflichkeitsendungen können nicht verdoppelt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "貴重なお話を拝聴できて光栄です。",
@@ -2205,7 +4610,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "拝聴する gehört zur Gruppe der 拝～する-Kenjōgo-Verben neben 拝見する、拝借する、拝読する. Sie alle verwenden das Kanji 拝 (sich verbeugen) und drücken höchste Bescheidenheit aus.",
-    "related": ["keigo-kenjougo-haikensuru", "keigo-kenjougo-haidokusuru"]
+    "related": [
+      "keigo-kenjougo-haikensuru",
+      "keigo-kenjougo-haidokusuru"
+    ]
   },
   {
     "id": "keigo-kenjougo-haijousuru",
@@ -2220,7 +4628,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "資料を拝受いたしました。",
         "romaji": "Shiryō wo haiju itashimashita.",
-        "german": "Ich habe die Unterlagen bescheiden empfangen."
+        "german": "Ich habe die Unterlagen bescheiden empfangen.",
+        "cloze": {
+          "start": 3,
+          "answer": "拝受いたしました",
+          "quiz": {
+            "level": "N1",
+            "japanese": "資料を拝受いたしました。",
+            "german": "Ich habe die Unterlagen bescheiden empfangen.",
+            "start": 3,
+            "answer": "拝受いたしました",
+            "acceptedAnswers": [
+              "拝受いたしました"
+            ],
+            "distractors": [
+              {
+                "text": "拝受いたしませんでした",
+                "reason": "Dies verneint den Empfang."
+              },
+              {
+                "text": "拝受いたすました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm いたし."
+              },
+              {
+                "text": "拝受いたしましたます",
+                "reason": "Die Höflichkeitsendungen können nicht verdoppelt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "ご送付いただいた書類を拝受いたしました。",
@@ -2234,7 +4670,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "拝受する wird fast ausschließlich in geschäftlichen E-Mails und Briefen verwendet. Es klingt formeller als いただきました und ist die übliche Form für Empfangsbestätigungen in der japanischen Geschäftskorrespondenz.",
-    "related": ["keigo-kenjougo-itadaku", "keigo-kenjougo-choudaisuru"]
+    "related": [
+      "keigo-kenjougo-itadaku",
+      "keigo-kenjougo-choudaisuru"
+    ]
   },
   {
     "id": "keigo-kenjougo-tsutsushinde",
@@ -2249,7 +4688,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "謹んでお詫び申し上げます。",
         "romaji": "Tsutsushinde owabi mōshiagemasu.",
-        "german": "Ich entschuldige mich in tiefster Ehrerbietung."
+        "german": "Ich entschuldige mich in tiefster Ehrerbietung.",
+        "cloze": {
+          "start": 0,
+          "answer": "謹んで",
+          "quiz": {
+            "level": "N1",
+            "japanese": "謹んでお詫び申し上げます。",
+            "german": "Ich entschuldige mich in tiefster Ehrerbietung.",
+            "start": 0,
+            "answer": "謹んで",
+            "acceptedAnswers": [
+              "謹んで"
+            ],
+            "distractors": [
+              {
+                "text": "謹んだ",
+                "reason": "Die attributive Vergangenheit bildet hier keinen adverbialen Anschluss."
+              },
+              {
+                "text": "謹みます",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              },
+              {
+                "text": "謹むで",
+                "reason": "Die て-Form von 謹む lautet 謹んで."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "謹んで新年のご挨拶を申し上げます。",
@@ -2263,7 +4730,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "謹んで findet sich auf Neujahrskarten (年賀状), in Kondolenzbriefen und in formellen Geschäftsschreiben. 謹賀新年 (Frohes Neues Jahr, ehrerbietig) auf Neujahrskarten enthält dasselbe Kanji 謹.",
-    "related": ["keigo-kenjougo-moushiageru", "keigo-kenjougo-tatematsuru"]
+    "related": [
+      "keigo-kenjougo-moushiageru",
+      "keigo-kenjougo-tatematsuru"
+    ]
   },
   {
     "id": "keigo-kenjougo-guchimoushiageru",
@@ -2278,7 +4748,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "愚見ではございますが、この案が最適かと存じます。",
         "romaji": "Guken de wa gozaimasu ga, kono an ga saiteki ka to zonjimasu.",
-        "german": "Es ist nur meine bescheidene Meinung, aber ich denke, dieser Vorschlag ist optimal."
+        "german": "Es ist nur meine bescheidene Meinung, aber ich denke, dieser Vorschlag ist optimal.",
+        "cloze": {
+          "start": 0,
+          "answer": "愚見",
+          "quiz": {
+            "level": "N1",
+            "japanese": "愚見ではございますが、この案が最適かと存じます。",
+            "german": "Es ist nur meine bescheidene Meinung, aber ich denke, dieser Vorschlag ist optimal.",
+            "start": 0,
+            "answer": "愚見",
+            "acceptedAnswers": [
+              "愚見"
+            ],
+            "distractors": [
+              {
+                "text": "愚見な",
+                "reason": "な passt hier nicht vor ではございますが."
+              },
+              {
+                "text": "愚見ます",
+                "reason": "ます kann nicht direkt an 愚見 angehängt werden."
+              },
+              {
+                "text": "愚見を",
+                "reason": "を passt hier nicht vor ではございますが."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "拙見を述べさせていただきます。",
@@ -2292,7 +4790,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Ähnliche Selbsterniedrigungsformen: 拙著 (mein bescheidenes Buch), 拙作 (mein bescheidenes Werk), 愚息 (mein dummer Sohn = mein Sohn), 愚妻 (meine dumme Frau = meine Frau). Diese Formen sind heute teilweise veraltet, aber 愚見 und 拙見 werden noch verwendet.",
-    "related": ["keigo-kenjougo-zonjiru", "keigo-kenjougo-tsutsushinde"]
+    "related": [
+      "keigo-kenjougo-zonjiru",
+      "keigo-kenjougo-tsutsushinde"
+    ]
   },
   {
     "id": "keigo-kenjougo-heikou",
@@ -2307,7 +4808,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "弊社の製品にご興味をお持ちいただき、ありがとうございます。",
         "romaji": "Heisha no seihin ni gokyōmi wo omochi itadaki, arigatō gozaimasu.",
-        "german": "Vielen Dank für Ihr Interesse an den Produkten unserer Firma."
+        "german": "Vielen Dank für Ihr Interesse an den Produkten unserer Firma.",
+        "cloze": {
+          "start": 0,
+          "answer": "弊社",
+          "quiz": {
+            "level": "N1",
+            "japanese": "弊社の製品にご興味をお持ちいただき、ありがとうございます。",
+            "german": "Vielen Dank für Ihr Interesse an den Produkten unserer Firma.",
+            "start": 0,
+            "answer": "弊社",
+            "acceptedAnswers": [
+              "弊社",
+              "当社"
+            ],
+            "distractors": [
+              {
+                "text": "御社",
+                "reason": "Dies bezeichnet die Firma des Gegenübers statt die eigene."
+              },
+              {
+                "text": "貴社",
+                "reason": "Dies bezeichnet die Firma des Gegenübers statt die eigene."
+              },
+              {
+                "text": "弊社な",
+                "reason": "な passt hier nicht vor の製品."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "弊社では、品質管理を徹底しております。",
@@ -2321,7 +4851,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Im mündlichen Geschäftsjapanisch wird auch 当社 (tōsha = unsere Firma) verwendet, das weniger bescheiden, aber neutraler klingt. 弊社 ist die Standard-Kenjōgo-Form in schriftlicher Kommunikation. In E-Mails an Kunden wird fast immer 弊社 verwendet.",
-    "related": ["keigo-kenjougo-itasu", "keigo-business-osewani"]
+    "related": [
+      "keigo-kenjougo-itasu",
+      "keigo-business-osewani"
+    ]
   },
   {
     "id": "keigo-kenjougo-sesshou",
@@ -2336,7 +4869,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "拙著をお読みいただき、ありがとうございます。",
         "romaji": "Setcho wo oyomi itadaki, arigatō gozaimasu.",
-        "german": "Vielen Dank, dass Sie mein bescheidenes Buch gelesen haben."
+        "german": "Vielen Dank, dass Sie mein bescheidenes Buch gelesen haben.",
+        "cloze": {
+          "start": 0,
+          "answer": "拙著",
+          "quiz": {
+            "level": "N1",
+            "japanese": "拙著をお読みいただき、ありがとうございます。",
+            "german": "Vielen Dank, dass Sie mein bescheidenes Buch gelesen haben.",
+            "start": 0,
+            "answer": "拙著",
+            "acceptedAnswers": [
+              "拙著"
+            ],
+            "distractors": [
+              {
+                "text": "拙著な",
+                "reason": "な passt hier nicht vor をお読み."
+              },
+              {
+                "text": "拙著ます",
+                "reason": "ます kann nicht direkt an 拙著 angehängt werden."
+              },
+              {
+                "text": "拙著を",
+                "reason": "Das folgende を würde unzulässig verdoppelt."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "拙稿に目を通していただければ幸いです。",
@@ -2350,7 +4911,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Diese Formen werden besonders in akademischen und literarischen Kreisen verwendet. Im Gegensatz dazu verwendet man für die Werke anderer ehrerbietige Formen wie ご著書 (Ihr Buch), ご高著 (Ihr großartiges Buch), 大著 (Ihr umfangreiches Werk).",
-    "related": ["keigo-kenjougo-guchimoushiageru", "keigo-kenjougo-haikensuru"]
+    "related": [
+      "keigo-kenjougo-guchimoushiageru",
+      "keigo-kenjougo-haikensuru"
+    ]
   },
   {
     "id": "keigo-kenjougo-onrei",
@@ -2365,7 +4929,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "厚く御礼申し上げます。",
         "romaji": "Atsuku onrei mōshiagemasu.",
-        "german": "Ich danke Ihnen von Herzen. (sehr formell)"
+        "german": "Ich danke Ihnen von Herzen. (sehr formell)",
+        "cloze": {
+          "start": 2,
+          "answer": "御礼申し上げます",
+          "quiz": {
+            "level": "N1",
+            "japanese": "厚く御礼申し上げます。",
+            "german": "Ich danke Ihnen von Herzen. (sehr formell)",
+            "start": 2,
+            "answer": "御礼申し上げます",
+            "acceptedAnswers": [
+              "御礼申し上げます"
+            ],
+            "distractors": [
+              {
+                "text": "御礼申し上げません",
+                "reason": "Dies verneint den Dank."
+              },
+              {
+                "text": "御礼申し上げるます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "御礼申し上げまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "ご協力いただきました皆様に、心より御礼申し上げます。",
@@ -2379,7 +4971,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "厚く (herzlich/aufrichtig) und 心より (von Herzen) sind häufige Verstärker. 略儀ながら (obwohl es nur eine verkürzte Form ist) wird verwendet, wenn man sich für die schriftliche statt persönliche Danksagung entschuldigt.",
-    "related": ["keigo-kenjougo-moushiageru", "keigo-kenjougo-tsutsushinde"]
+    "related": [
+      "keigo-kenjougo-moushiageru",
+      "keigo-kenjougo-tsutsushinde"
+    ]
   },
   {
     "id": "keigo-kenjougo-sanjouitasu",
@@ -2394,7 +4989,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "明日、御社に参上いたします。",
         "romaji": "Ashita, onsha ni sanjō itashimasu.",
-        "german": "Ich werde mich morgen bei Ihrer Firma einfinden."
+        "german": "Ich werde mich morgen bei Ihrer Firma einfinden.",
+        "cloze": {
+          "start": 6,
+          "answer": "参上いたします",
+          "quiz": {
+            "level": "N1",
+            "japanese": "明日、御社に参上いたします。",
+            "german": "Ich werde mich morgen bei Ihrer Firma einfinden.",
+            "start": 6,
+            "answer": "参上いたします",
+            "acceptedAnswers": [
+              "参上いたします",
+              "伺います"
+            ],
+            "distractors": [
+              {
+                "text": "参上いたしません",
+                "reason": "Dies verneint den angekündigten Besuch."
+              },
+              {
+                "text": "参上いたすます",
+                "reason": "ます benötigt den Stamm いたし."
+              },
+              {
+                "text": "参上いたしまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "ただいま参上いたしました。",
@@ -2408,7 +5032,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "参上する ist formeller als 参る und 伺う. In der modernen Geschäftssprache wird 伺う häufiger verwendet, aber 参上する findet man in offiziellen Einladungsschreiben und bei traditionellen Anlässen.",
-    "related": ["keigo-kenjougo-mairu", "keigo-kenjougo-ukagau"]
+    "related": [
+      "keigo-kenjougo-mairu",
+      "keigo-kenjougo-ukagau"
+    ]
   },
   {
     "id": "keigo-kenjougo-zoujisuru",
@@ -2423,7 +5050,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "記念品を贈呈いたします。",
         "romaji": "Kinenhin wo zōtei itashimasu.",
-        "german": "Ich überreiche Ihnen ein Erinnerungsstück."
+        "german": "Ich überreiche Ihnen ein Erinnerungsstück.",
+        "cloze": {
+          "start": 4,
+          "answer": "贈呈いたします",
+          "quiz": {
+            "level": "N1",
+            "japanese": "記念品を贈呈いたします。",
+            "german": "Ich überreiche Ihnen ein Erinnerungsstück.",
+            "start": 4,
+            "answer": "贈呈いたします",
+            "acceptedAnswers": [
+              "贈呈いたします"
+            ],
+            "distractors": [
+              {
+                "text": "贈呈いたしません",
+                "reason": "Dies verneint die angekündigte Übergabe."
+              },
+              {
+                "text": "贈呈いたすます",
+                "reason": "ます benötigt den Stamm いたし."
+              },
+              {
+                "text": "贈呈いたしまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "優勝者にトロフィーを贈呈いたします。",
@@ -2437,7 +5092,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "贈呈する wird bei Zeremonien, Preisverleihungen und offiziellen Anlässen verwendet. Im Gegensatz zu 差し上げる, das im alltäglichen Geschäftsleben üblich ist, hat 贈呈する einen zeremoniellen Charakter.",
-    "related": ["keigo-kenjougo-sashiageru", "keigo-kenjougo-tsutsushinde"]
+    "related": [
+      "keigo-kenjougo-sashiageru",
+      "keigo-kenjougo-tsutsushinde"
+    ]
   },
   {
     "id": "keigo-kenjougo-haizensuru",
@@ -2452,7 +5110,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お料理をお持ちいたしました。",
         "romaji": "Oryōri wo omochi itashimashita.",
-        "german": "Ich habe Ihr Gericht gebracht. (Kellnersprache)"
+        "german": "Ich habe Ihr Gericht gebracht. (Kellnersprache)",
+        "cloze": {
+          "start": 4,
+          "answer": "お持ちいたしました",
+          "quiz": {
+            "level": "N1",
+            "japanese": "お料理をお持ちいたしました。",
+            "german": "Ich habe Ihr Gericht gebracht. (Kellnersprache)",
+            "start": 4,
+            "answer": "お持ちいたしました",
+            "acceptedAnswers": [
+              "お持ちいたしました"
+            ],
+            "distractors": [
+              {
+                "text": "お持ちいたしませんでした",
+                "reason": "Dies verneint das Bringen."
+              },
+              {
+                "text": "お持ちいたすました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm いたし."
+              },
+              {
+                "text": "お持ちいたしましたます",
+                "reason": "Die Höflichkeitsendungen können nicht verdoppelt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "デザートをお持ちしてもよろしいでしょうか。",
@@ -2466,7 +5152,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "In der japanischen Gastronomie wird durchgängig Keigo verwendet. Standardphrasen wie お持ちいたします, ご注文はお決まりでしょうか und お皿をお下げしてもよろしいでしょうか gehören zum Basisvokabular von Servicekräften.",
-    "related": ["keigo-kenjougo-itasu", "keigo-kenjougo-kashikomarimashita"]
+    "related": [
+      "keigo-kenjougo-itasu",
+      "keigo-kenjougo-kashikomarimashita"
+    ]
   },
   {
     "id": "keigo-teinei-yoroshiideshouka",
@@ -2480,22 +5169,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "少々お時間をいただいてもよろしいでしょうか。",
+        "cloze": {
+          "start": 12,
+          "answer": "よろしいでしょうか",
+          "quiz": {
+            "level": "N2",
+            "japanese": "少々お時間をいただいてもよろしいでしょうか。",
+            "german": "Wäre es in Ordnung, wenn ich etwas von Ihrer Zeit in Anspruch nehme?",
+            "start": 12,
+            "answer": "よろしいでしょうか",
+            "acceptedAnswers": [
+              "よろしいでしょうか",
+              "よろしいですか"
+            ],
+            "distractors": [
+              {
+                "text": "よろしいなでしょうか",
+                "reason": "Das い-Adjektiv benötigt kein な."
+              },
+              {
+                "text": "よろしいますか",
+                "reason": "ます kann nicht direkt an よろしい angehängt werden."
+              },
+              {
+                "text": "よろしかったいでしょうか",
+                "reason": "Die Vergangenheitsform endet auf かった ohne zusätzliches い."
+              }
+            ]
+          }
+        },
         "romaji": "Shōshō ojikan wo itadaite mo yoroshii deshō ka.",
         "german": "Wäre es in Ordnung, wenn ich etwas von Ihrer Zeit in Anspruch nehme?"
       },
       {
         "japanese": "こちらの席でよろしいでしょうか。",
+        "cloze": {
+          "start": 6,
+          "answer": "よろしいでしょうか"
+        },
         "romaji": "Kochira no seki de yoroshii deshō ka.",
         "german": "Ist dieser Platz in Ordnung für Sie?"
       },
       {
         "japanese": "明日の15時でよろしいでしょうか。",
+        "cloze": {
+          "start": 7,
+          "answer": "よろしいでしょうか"
+        },
         "romaji": "Ashita no jūgo-ji de yoroshii deshō ka.",
         "german": "Wäre morgen um 15 Uhr in Ordnung?"
       }
     ],
     "notes": "よろしいでしょうか ist die Standard-Höflichkeitsform für Bestätigungsfragen im Geschäftsleben. Sie ist höflicher als いいですか, aber weniger umständlich als よろしゅうございますでしょうか (extrem formell und veraltet).",
-    "related": ["keigo-teinei-itadakemasenka", "keigo-teinei-degozaimasu"]
+    "related": [
+      "keigo-teinei-itadakemasenka",
+      "keigo-teinei-degozaimasu"
+    ]
   },
   {
     "id": "keigo-teinei-orimasu",
@@ -2509,22 +5238,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "承知しております。",
+        "cloze": {
+          "start": 3,
+          "answer": "ております",
+          "quiz": {
+            "level": "N2",
+            "japanese": "承知しております。",
+            "german": "Ich bin informiert. / Ich weiß Bescheid.",
+            "start": 3,
+            "answer": "ております",
+            "acceptedAnswers": [
+              "ております"
+            ],
+            "distractors": [
+              {
+                "text": "たおります",
+                "reason": "Der Anschluss an おります benötigt die て-Form."
+              },
+              {
+                "text": "ておるます",
+                "reason": "ます benötigt den Stamm おり."
+              },
+              {
+                "text": "ておりまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Shōchi shite orimasu.",
         "german": "Ich bin informiert. / Ich weiß Bescheid."
       },
       {
         "japanese": "お待ちしております。",
+        "cloze": {
+          "start": 4,
+          "answer": "ております"
+        },
         "romaji": "Omachi shite orimasu.",
         "german": "Ich freue mich auf Sie. / Ich warte auf Sie."
       },
       {
         "japanese": "現在、調査を進めております。",
+        "cloze": {
+          "start": 8,
+          "answer": "ております"
+        },
         "romaji": "Genzai, chōsa wo susumete orimasu.",
         "german": "Wir führen derzeit die Untersuchung durch."
       }
     ],
     "notes": "～ております wird am Telefon und in E-Mails als Standardform verwendet, wenn man über sich selbst oder die eigene Firma spricht. Die Form 承知しております ist die geschäftliche Standardantwort für „verstanden/ich weiß Bescheid“.",
-    "related": ["keigo-kenjougo-oru", "keigo-teinei-degozaimasu"]
+    "related": [
+      "keigo-kenjougo-oru",
+      "keigo-teinei-degozaimasu"
+    ]
   },
   {
     "id": "keigo-teinei-itashikatagozaimasen",
@@ -2538,11 +5306,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "規則ですので、いたしかたございません。",
+        "cloze": {
+          "start": 7,
+          "answer": "いたしかたございません",
+          "quiz": {
+            "level": "N2",
+            "japanese": "規則ですので、いたしかたございません。",
+            "german": "Da es die Vorschrift ist, lässt es sich leider nicht ändern.",
+            "start": 7,
+            "answer": "いたしかたございません",
+            "acceptedAnswers": [
+              "いたしかたございません",
+              "仕方ございません"
+            ],
+            "distractors": [
+              {
+                "text": "いたしかたございます",
+                "reason": "Dies bejaht eine Handlungsmöglichkeit statt ihrer Unvermeidbarkeit."
+              },
+              {
+                "text": "いたしかたござるません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "いたしかたございませんない",
+                "reason": "Die negative Endung wird nicht nochmals mit ない verbunden."
+              }
+            ]
+          }
+        },
         "romaji": "Kisoku desu node, itashikata gozaimasen.",
         "german": "Da es die Vorschrift ist, lässt es sich leider nicht ändern."
       },
       {
         "japanese": "ご不便をおかけして申し訳ございませんが、安全上いたしかたございません。",
+        "cloze": {
+          "start": 23,
+          "answer": "いたしかたございません"
+        },
         "romaji": "Gofuben wo okake shite mōshiwake gozaimasen ga, anzen-jō itashikata gozaimasen.",
         "german": "Wir entschuldigen die Unannehmlichkeiten, aber aus Sicherheitsgründen ist es unvermeidlich."
       },
@@ -2553,7 +5354,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "いたしかたございません wird besonders verwendet, wenn man einem Kunden oder Geschäftspartner erklären muss, warum etwas nicht möglich ist. Es klingt bedauernd, aber bestimmt.",
-    "related": ["keigo-teinei-kanemasu", "keigo-bikago-moushiwake"]
+    "related": [
+      "keigo-teinei-kanemasu",
+      "keigo-bikago-moushiwake"
+    ]
   },
   {
     "id": "keigo-teinei-gozaimasu",
@@ -2567,22 +5371,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "何かご質問はございますか。",
+        "cloze": {
+          "start": 6,
+          "answer": "ございます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "何かご質問はございますか。",
+            "german": "Haben Sie irgendwelche Fragen?",
+            "start": 6,
+            "answer": "ございます",
+            "acceptedAnswers": [
+              "ございます",
+              "あります"
+            ],
+            "distractors": [
+              {
+                "text": "ござるます",
+                "reason": "Die höfliche Form lautet ございます."
+              },
+              {
+                "text": "ございまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "ございないます",
+                "reason": "Die höfliche Verneinung lautet ございません."
+              }
+            ]
+          }
+        },
         "romaji": "Nanika goshitsumon wa gozaimasu ka.",
         "german": "Haben Sie irgendwelche Fragen?"
       },
       {
         "japanese": "こちらに駐車場がございます。",
+        "cloze": {
+          "start": 8,
+          "answer": "ございます"
+        },
         "romaji": "Kochira ni chūshajō ga gozaimasu.",
         "german": "Hier gibt es einen Parkplatz."
       },
       {
         "japanese": "お伝えしたいことがございます。",
+        "cloze": {
+          "start": 9,
+          "answer": "ございます"
+        },
         "romaji": "Otsutae shitai koto ga gozaimasu.",
         "german": "Es gibt etwas, das ich Ihnen mitteilen möchte."
       }
     ],
     "notes": "ございます ist die höfliche Form von あります. Für die Existenz von Personen wird ございます nicht verwendet (stattdessen いらっしゃいます). Die Verneinung ist ございません. Bei い-Adjektiven: 早い → 早うございます (heute selten, außer in ありがとうございます).",
-    "related": ["keigo-teinei-degozaimasu", "keigo-kenjougo-oru"]
+    "related": [
+      "keigo-teinei-degozaimasu",
+      "keigo-kenjougo-oru"
+    ]
   },
   {
     "id": "keigo-teinei-itadakerebato",
@@ -2596,22 +5440,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "ご出席いただければと存じます。",
+        "cloze": {
+          "start": 3,
+          "answer": "いただければと存じます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "ご出席いただければと存じます。",
+            "german": "Ich würde mich freuen, wenn Sie teilnehmen könnten.",
+            "start": 3,
+            "answer": "いただければと存じます",
+            "acceptedAnswers": [
+              "いただければと存じます"
+            ],
+            "distractors": [
+              {
+                "text": "いただけるればと存じます",
+                "reason": "Die Bedingung lautet いただければ."
+              },
+              {
+                "text": "いただければを存じます",
+                "reason": "Der Gedankeninhalt benötigt と."
+              },
+              {
+                "text": "いただければと存じるます",
+                "reason": "ます benötigt den Verbstamm."
+              }
+            ]
+          }
+        },
         "romaji": "Goshusseki itadakereba to zonjimasu.",
         "german": "Ich würde mich freuen, wenn Sie teilnehmen könnten."
       },
       {
         "japanese": "ご意見をお聞かせいただければと存じます。",
+        "cloze": {
+          "start": 8,
+          "answer": "いただければと存じます"
+        },
         "romaji": "Goiken wo okikase itadakereba to zonjimasu.",
         "german": "Ich würde mich freuen, wenn Sie mir Ihre Meinung mitteilen könnten."
       },
       {
         "japanese": "ご確認の上、ご返信いただければと存じます。",
+        "cloze": {
+          "start": 9,
+          "answer": "いただければと存じます"
+        },
         "romaji": "Gokakunin no ue, gohenshin itadakereba to zonjimasu.",
         "german": "Ich würde mich freuen, wenn Sie nach der Prüfung antworten könnten."
       }
     ],
     "notes": "Diese Form ist etwas weniger direkt als ～いただけますでしょうか und etwas höflicher als ～いただければ幸いです. Sie wird besonders in geschäftlichen E-Mails verwendet, wenn man einen Wunsch äußert, ohne direkt um etwas zu bitten.",
-    "related": ["keigo-kenjougo-zonjiru", "keigo-business-gokentou"]
+    "related": [
+      "keigo-kenjougo-zonjiru",
+      "keigo-business-gokentou"
+    ]
   },
   {
     "id": "keigo-teinei-moushiwakearumasenka",
@@ -2625,22 +5508,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "資料をお送りいただけますでしょうか。",
+        "cloze": {
+          "start": 6,
+          "answer": "いただけますでしょうか",
+          "quiz": {
+            "level": "N2",
+            "japanese": "資料をお送りいただけますでしょうか。",
+            "german": "Wäre es möglich, dass Sie mir die Unterlagen zusenden?",
+            "start": 6,
+            "answer": "いただけますでしょうか",
+            "acceptedAnswers": [
+              "いただけますでしょうか",
+              "いただけますか"
+            ],
+            "distractors": [
+              {
+                "text": "いただけるますでしょうか",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "いただけまするでしょうか",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "いただけないましたでしょうか",
+                "reason": "Die höfliche Verneinung wird nicht mit ないました gebildet."
+              }
+            ]
+          }
+        },
         "romaji": "Shiryō wo ookuriitadakemasu deshō ka.",
         "german": "Wäre es möglich, dass Sie mir die Unterlagen zusenden?"
       },
       {
         "japanese": "ご都合のよい日時をお知らせいただけますでしょうか。",
+        "cloze": {
+          "start": 13,
+          "answer": "いただけますでしょうか"
+        },
         "romaji": "Gotsugō no yoi nichiji wo oshirase itadakemasu deshō ka.",
         "german": "Könnten Sie mir einen für Sie passenden Termin mitteilen?"
       },
       {
         "japanese": "折り返しご連絡いただけますでしょうか。",
+        "cloze": {
+          "start": 7,
+          "answer": "いただけますでしょうか"
+        },
         "romaji": "Orikaeshi gorenraku itadakemasu deshō ka.",
         "german": "Wäre es möglich, dass Sie zurückrufen?"
       }
     ],
     "notes": "Die Höflichkeitsstufen der Fragen: ～てくれますか < ～ていただけますか < ～ていただけませんか < ～ていただけますでしょうか. Manche Sprachpuristen halten ～いただけますでしょうか für 二重敬語, aber die Form ist in der Geschäftspraxis fest etabliert.",
-    "related": ["keigo-teinei-itadakemasenka", "keigo-teinei-itadakerebato"]
+    "related": [
+      "keigo-teinei-itadakemasenka",
+      "keigo-teinei-itadakerebato"
+    ]
   },
   {
     "id": "keigo-teinei-nodesukedomo",
@@ -2654,22 +5577,63 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "予約をしたいのですが。",
+        "cloze": {
+          "start": 6,
+          "answer": "のですが",
+          "quiz": {
+            "level": "N2",
+            "japanese": "予約をしたいのですが。",
+            "german": "Ich hätte gerne eine Reservierung gemacht...",
+            "start": 6,
+            "answer": "のですが",
+            "acceptedAnswers": [
+              "のですが",
+              "んですが",
+              "のですけれども"
+            ],
+            "distractors": [
+              {
+                "text": "のますが",
+                "reason": "ます kann nicht direkt an の angehängt werden."
+              },
+              {
+                "text": "なですが",
+                "reason": "たい benötigt hier の statt な."
+              },
+              {
+                "text": "のでだが",
+                "reason": "Die erklärende Konstruktion verwendet keine Verbindung のでだが."
+              }
+            ]
+          }
+        },
         "romaji": "Yoyaku wo shitai no desu ga.",
         "german": "Ich hätte gerne eine Reservierung gemacht..."
       },
       {
         "japanese": "少しお伺いしたいことがあるのですが。",
+        "cloze": {
+          "start": 13,
+          "answer": "のですが"
+        },
         "romaji": "Sukoshi oukagai shitai koto ga aru no desu ga.",
         "german": "Ich hätte eine kleine Frage..."
       },
       {
         "japanese": "お届け日の変更をお願いしたいのでございますが。",
+        "cloze": {
+          "start": 14,
+          "answer": "のでございますが"
+        },
         "romaji": "Otodoke-bi no henkō wo onegai shitai no de gozaimasu ga.",
         "german": "Ich würde gerne das Lieferdatum ändern lassen..."
       }
     ],
     "notes": "Das Satzende mit が (ohne Fortführung) ist typisch japanisch und drückt aus, dass der Sprecher die Situation offen lässt und dem Gegenüber Raum für eine Antwort gibt. Es ist einer der grundlegenden Mechanismen der japanischen indirekten Kommunikation.",
-    "related": ["keigo-teinei-itadakemasenka", "keigo-teinei-yoroshiideshouka"]
+    "related": [
+      "keigo-teinei-itadakemasenka",
+      "keigo-teinei-yoroshiideshouka"
+    ]
   },
   {
     "id": "keigo-teinei-shouchiitashimashita",
@@ -2683,22 +5647,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "承知いたしました。すぐに対応いたします。",
+        "cloze": {
+          "start": 0,
+          "answer": "承知いたしました",
+          "quiz": {
+            "level": "N2",
+            "japanese": "承知いたしました。すぐに対応いたします。",
+            "german": "Verstanden. Ich werde mich sofort darum kümmern.",
+            "start": 0,
+            "answer": "承知いたしました",
+            "acceptedAnswers": [
+              "承知いたしました",
+              "かしこまりました"
+            ],
+            "distractors": [
+              {
+                "text": "承知いたすました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm いたし."
+              },
+              {
+                "text": "承知いたしましたます",
+                "reason": "Die Höflichkeitsendungen können nicht verdoppelt werden."
+              },
+              {
+                "text": "承知いたしません",
+                "reason": "Dies verneint das Einverständnis."
+              }
+            ]
+          }
+        },
         "romaji": "Shōchi itashimashita. Sugu ni taiō itashimasu.",
         "german": "Verstanden. Ich werde mich sofort darum kümmern."
       },
       {
         "japanese": "日程の変更について承知いたしました。",
+        "cloze": {
+          "start": 9,
+          "answer": "承知いたしました"
+        },
         "romaji": "Nittei no henkō ni tsuite shōchi itashimashita.",
         "german": "Ich habe die Terminänderung zur Kenntnis genommen."
       },
       {
         "japanese": "ご要望の件、承知いたしました。",
+        "cloze": {
+          "start": 6,
+          "answer": "承知いたしました"
+        },
         "romaji": "Goyōbō no ken, shōchi itashimashita.",
         "german": "Bezüglich Ihres Wunsches: verstanden."
       }
     ],
     "notes": "Die Höflichkeitsstufen: 分かった → 分かりました → 承知しました → 承知いたしました → かしこまりました. 承知いたしました wird im Geschäftsalltag am häufigsten verwendet, da かしこまりました eher dem Kundenservice vorbehalten ist.",
-    "related": ["keigo-kenjougo-kashikomarimashita", "keigo-kenjougo-itasu"]
+    "related": [
+      "keigo-kenjougo-kashikomarimashita",
+      "keigo-kenjougo-itasu"
+    ]
   },
   {
     "id": "keigo-teinei-osoreirimasu",
@@ -2712,22 +5716,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "恐れ入ります。大変助かりました。",
+        "cloze": {
+          "start": 0,
+          "answer": "恐れ入ります",
+          "quiz": {
+            "level": "N2",
+            "japanese": "恐れ入ります。大変助かりました。",
+            "german": "Ich bin Ihnen sehr dankbar. Sie haben mir sehr geholfen.",
+            "start": 0,
+            "answer": "恐れ入ります",
+            "acceptedAnswers": [
+              "恐れ入ります",
+              "ありがとうございます"
+            ],
+            "distractors": [
+              {
+                "text": "恐れ入るます",
+                "reason": "ます benötigt den Stamm 入り."
+              },
+              {
+                "text": "恐れ入りまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "恐れ入りますた",
+                "reason": "Die höfliche Vergangenheit endet mit ました."
+              }
+            ]
+          }
+        },
         "romaji": "Osore irimasu. Taihen tasukarimashita.",
         "german": "Ich bin Ihnen sehr dankbar. Sie haben mir sehr geholfen."
       },
       {
         "japanese": "恐れ入りますが、もう一度おっしゃっていただけますか。",
+        "cloze": {
+          "start": 0,
+          "answer": "恐れ入ります"
+        },
         "romaji": "Osore irimasu ga, mō ichido osshatte itadakemasu ka.",
         "german": "Entschuldigen Sie, aber könnten Sie das bitte noch einmal sagen?"
       },
       {
         "japanese": "お褒めいただき、恐れ入ります。",
+        "cloze": {
+          "start": 8,
+          "answer": "恐れ入ります"
+        },
         "romaji": "Ohome itadaki, osore irimasu.",
         "german": "Ich fühle mich geehrt durch Ihr Lob."
       }
     ],
     "notes": "恐れ入ります wird im Geschäftsleben extrem häufig verwendet. Es kann ありがとうございます und すみません je nach Kontext ersetzen und klingt dabei professioneller. Die Form mit が am Ende leitet eine höfliche Bitte ein.",
-    "related": ["keigo-business-osoreirimasuga", "keigo-bikago-moushiwake"]
+    "related": [
+      "keigo-business-osoreirimasuga",
+      "keigo-bikago-moushiwake"
+    ]
   },
   {
     "id": "keigo-teinei-saseteitadakuuses",
@@ -2742,7 +5786,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "本日をもちまして閉店させていただきます。",
         "romaji": "Honjitsu wo mochimashite heiten sasete itadakimasu.",
-        "german": "Mit dem heutigen Tag erlauben wir uns, das Geschäft zu schließen."
+        "german": "Mit dem heutigen Tag erlauben wir uns, das Geschäft zu schließen.",
+        "cloze": {
+          "start": 10,
+          "answer": "させていただきます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "本日をもちまして閉店させていただきます。",
+            "german": "Mit dem heutigen Tag erlauben wir uns, das Geschäft zu schließen.",
+            "start": 10,
+            "answer": "させていただきます",
+            "acceptedAnswers": [
+              "させていただきます"
+            ],
+            "distractors": [
+              {
+                "text": "させるいただきます",
+                "reason": "いただく benötigt die て-Verbindung."
+              },
+              {
+                "text": "させていただくます",
+                "reason": "ます benötigt den Stamm いただき."
+              },
+              {
+                "text": "させていただきません",
+                "reason": "Dies verneint die angekündigte Schließung."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "価格を改定させていただくことになりました。",
@@ -2756,7 +5828,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Der inflationäre Gebrauch von ～させていただく ist ein viel diskutiertes Thema in der japanischen Sprachpflege. Obwohl Puristen kritisieren, dass keine echte Erlaubnis vorliegt (z.B. bei Geschäftsschließungen), ist die Form im Geschäftsalltag fest verankert. ご遠慮させていただきます ist die Standard-Ablehnungsform.",
-    "related": ["keigo-teinei-sasete-itadaku", "keigo-teinei-kanemasu"]
+    "related": [
+      "keigo-teinei-sasete-itadaku",
+      "keigo-teinei-kanemasu"
+    ]
   },
   {
     "id": "keigo-teinei-gosoudan",
@@ -2770,6 +5845,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "新プロジェクトについてご相談させていただきたく、ご連絡いたしました。",
+        "cloze": {
+          "start": 11,
+          "answer": "ご相談させていただきたく",
+          "quiz": {
+            "level": "N2",
+            "japanese": "新プロジェクトについてご相談させていただきたく、ご連絡いたしました。",
+            "german": "Ich kontaktiere Sie, weil ich gerne über das neue Projekt mit Ihnen sprechen möchte.",
+            "start": 11,
+            "answer": "ご相談させていただきたく",
+            "acceptedAnswers": [
+              "ご相談させていただきたく"
+            ],
+            "distractors": [
+              {
+                "text": "ご相談させていただきたいく",
+                "reason": "Die adverbiale Form von たい lautet たく."
+              },
+              {
+                "text": "ご相談させるいただきたく",
+                "reason": "いただく benötigt die て-Verbindung."
+              },
+              {
+                "text": "ご相談させていただくたく",
+                "reason": "たい wird an den Stamm いただき angehängt."
+              }
+            ]
+          }
+        },
         "romaji": "Shin purojekuto ni tsuite gosōdan sasete itadakitaku, gorenraku itashimashita.",
         "german": "Ich kontaktiere Sie, weil ich gerne über das neue Projekt mit Ihnen sprechen möchte."
       },
@@ -2785,7 +5888,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご相談 ist in der Geschäftswelt eine der häufigsten Einleitungen für Anfragen. Die Form signalisiert dem Empfänger, dass eine Besprechung erwünscht ist, ohne dabei fordernd zu wirken.",
-    "related": ["keigo-business-nokenni", "keigo-teinei-itadakerebato"]
+    "related": [
+      "keigo-business-nokenni",
+      "keigo-teinei-itadakerebato"
+    ]
   },
   {
     "id": "keigo-teinei-osoreirimashitsuki",
@@ -2800,7 +5906,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お忙しいところ恐縮ですが、ご返信いただければ幸いです。",
         "romaji": "Oisogashii tokoro kyōshuku desu ga, gohenshin itadakereba saiwai desu.",
-        "german": "Ich bin mir bewusst, dass Sie beschäftigt sind, aber ich wäre dankbar für eine Antwort."
+        "german": "Ich bin mir bewusst, dass Sie beschäftigt sind, aber ich wäre dankbar für eine Antwort.",
+        "cloze": {
+          "start": 7,
+          "answer": "恐縮ですが",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お忙しいところ恐縮ですが、ご返信いただければ幸いです。",
+            "german": "Ich bin mir bewusst, dass Sie beschäftigt sind, aber ich wäre dankbar für eine Antwort.",
+            "start": 7,
+            "answer": "恐縮ですが",
+            "acceptedAnswers": [
+              "恐縮ですが",
+              "恐れ入りますが"
+            ],
+            "distractors": [
+              {
+                "text": "恐縮ますが",
+                "reason": "ます kann nicht direkt an 恐縮 angehängt werden."
+              },
+              {
+                "text": "恐縮ですがを",
+                "reason": "を kann nicht an diesen Satzanschluss angehängt werden."
+              },
+              {
+                "text": "恐縮なです",
+                "reason": "Vor der Kopula です steht hier kein な."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "大変恐縮ですが、日程の変更をお願いできますでしょうか。",
@@ -2814,7 +5949,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "恐縮です wird häufig mit お忙しいところ oder 大変 kombiniert. Im Gegensatz zu 恐れ入ります hat 恐縮です eine stärkere Nuance des Schuldbewusstseins. In E-Mails ist 恐縮ですが eine beliebte Alternative zu 恐れ入りますが.",
-    "related": ["keigo-teinei-osoreirimasu", "keigo-business-oisogashii"]
+    "related": [
+      "keigo-teinei-osoreirimasu",
+      "keigo-business-oisogashii"
+    ]
   },
   {
     "id": "keigo-teinei-makotoni",
@@ -2829,7 +5967,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "誠にありがとうございます。",
         "romaji": "Makoto ni arigatō gozaimasu.",
-        "german": "Ich danke Ihnen aufrichtig."
+        "german": "Ich danke Ihnen aufrichtig.",
+        "cloze": {
+          "start": 0,
+          "answer": "誠に",
+          "quiz": {
+            "level": "N2",
+            "japanese": "誠にありがとうございます。",
+            "german": "Ich danke Ihnen aufrichtig.",
+            "start": 0,
+            "answer": "誠に",
+            "acceptedAnswers": [
+              "誠に",
+              "本当に"
+            ],
+            "distractors": [
+              {
+                "text": "誠な",
+                "reason": "Die adverbiale Wendung lautet 誠に."
+              },
+              {
+                "text": "誠を",
+                "reason": "を bildet hier keine adverbiale Verstärkung des Dankes."
+              },
+              {
+                "text": "誠ます",
+                "reason": "ます kann nicht direkt an 誠 angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "誠に申し訳ございません。",
@@ -2843,7 +6010,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "誠に ist die formellere Alternative zu 本当に (wirklich). In geschäftlichen E-Mails und Briefen wird 誠に bevorzugt. 大変 (sehr) und 誠に können beide als Verstärker verwendet werden, aber 誠に klingt aufrichtiger und formeller.",
-    "related": ["keigo-bikago-moushiwake", "keigo-teinei-osoreirimasu"]
+    "related": [
+      "keigo-bikago-moushiwake",
+      "keigo-teinei-osoreirimasu"
+    ]
   },
   {
     "id": "keigo-bikago-otsukaresama",
@@ -2857,6 +6027,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お疲れ様でございます。本日の会議の議事録をお送りいたします。",
+        "cloze": {
+          "start": 0,
+          "answer": "お疲れ様でございます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お疲れ様でございます。本日の会議の議事録をお送りいたします。",
+            "german": "Danke für Ihre Mühe. Ich sende Ihnen das Protokoll der heutigen Besprechung.",
+            "start": 0,
+            "answer": "お疲れ様でございます",
+            "acceptedAnswers": [
+              "お疲れ様でございます",
+              "お疲れ様です"
+            ],
+            "distractors": [
+              {
+                "text": "お疲れ様でござるます",
+                "reason": "Die höfliche Form lautet ございます."
+              },
+              {
+                "text": "お疲れ様でございまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "お疲れ様でございますた",
+                "reason": "Die höfliche Vergangenheit endet mit ました."
+              }
+            ]
+          }
+        },
         "romaji": "Otsukaresama de gozaimasu. Honjitsu no kaigi no gijiroku wo ookuriitashimasu.",
         "german": "Danke für Ihre Mühe. Ich sende Ihnen das Protokoll der heutigen Besprechung."
       },
@@ -2867,12 +6066,19 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "お疲れ様でございます。田中でございますが、少々お時間よろしいでしょうか。",
+        "cloze": {
+          "start": 0,
+          "answer": "お疲れ様でございます"
+        },
         "romaji": "Otsukaresama de gozaimasu. Tanaka de gozaimasu ga, shōshō ojikan yoroshii deshō ka.",
         "german": "Guten Tag (intern). Hier ist Tanaka, hätten Sie einen Moment Zeit?"
       }
     ],
     "notes": "お疲れ様でございます wird in E-Mails innerhalb der Firma als Standard-Eröffnung verwendet (wie お世話になっております bei externen Kontakten). Gegenüber Vorgesetzten ist お疲れ様です die Mindestform; ご苦労様です sollte nur gegenüber Untergebenen verwendet werden.",
-    "related": ["keigo-teinei-degozaimasu", "keigo-business-osewani"]
+    "related": [
+      "keigo-teinei-degozaimasu",
+      "keigo-business-osewani"
+    ]
   },
   {
     "id": "keigo-bikago-obi",
@@ -2891,6 +6097,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "お天気がよくなりましたね。",
+        "cloze": {
+          "start": 0,
+          "answer": "お",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お天気がよくなりましたね。",
+            "german": "Das Wetter ist schön geworden, nicht wahr?",
+            "start": 0,
+            "answer": "お",
+            "acceptedAnswers": [
+              "お"
+            ],
+            "distractors": [
+              {
+                "text": "おを",
+                "reason": "Eine Objektpartikel kann nicht zwischen Präfix und 天気 stehen."
+              },
+              {
+                "text": "おな",
+                "reason": "な kann nicht zwischen Präfix und 天気 stehen."
+              },
+              {
+                "text": "おます",
+                "reason": "ます kann nicht an das Präfix angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Otenki ga yoku narimashita ne.",
         "german": "Das Wetter ist schön geworden, nicht wahr?"
       },
@@ -2901,7 +6135,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Manche Wörter haben お/ご so fest integriert, dass sie ohne kaum verwendet werden (お茶, ご飯, お金). Andere sind optional und zeigen den Höflichkeitsgrad an. Fremdwörter (Katakana) erhalten normalerweise kein お/ご, mit Ausnahmen wie おトイレ (umgangssprachlich).",
-    "related": ["keigo-bikago-goenryonaku", "keigo-teinei-degozaimasu"]
+    "related": [
+      "keigo-bikago-goenryonaku",
+      "keigo-teinei-degozaimasu"
+    ]
   },
   {
     "id": "keigo-bikago-keijou",
@@ -2916,7 +6153,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "田中様、お電話ありがとうございます。",
         "romaji": "Tanaka-sama, odenwa arigatō gozaimasu.",
-        "german": "Herr/Frau Tanaka, vielen Dank für Ihren Anruf."
+        "german": "Herr/Frau Tanaka, vielen Dank für Ihren Anruf.",
+        "cloze": {
+          "start": 2,
+          "answer": "様",
+          "quiz": {
+            "level": "N2",
+            "japanese": "田中様、お電話ありがとうございます。",
+            "german": "Herr/Frau Tanaka, vielen Dank für Ihren Anruf.",
+            "start": 2,
+            "answer": "様",
+            "acceptedAnswers": [
+              "様",
+              "さん"
+            ],
+            "distractors": [
+              {
+                "text": "様を",
+                "reason": "Die Objektpartikel bildet hier keine Anrede."
+              },
+              {
+                "text": "様な",
+                "reason": "Die attributive Partikel passt hier nicht zur Anrede."
+              },
+              {
+                "text": "様ます",
+                "reason": "ます kann nicht direkt an das Anredesuffix angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "社員各位：本日の会議は中止となりました。",
@@ -2930,7 +6196,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "様 ist die sicherste Wahl in der Geschäftskorrespondenz. 殿 wird hauptsächlich in internen Dokumenten und Urkunden verwendet und gilt in E-Mails als veraltet. 各位 ersetzt ～の皆様 in formellen Rundschreiben. Bei externen Firmen: 御中 (onchū) für die Firma, 様 für Einzelpersonen.",
-    "related": ["keigo-teinei-degozaimasu", "keigo-business-yoroshiku"]
+    "related": [
+      "keigo-teinei-degozaimasu",
+      "keigo-business-yoroshiku"
+    ]
   },
   {
     "id": "keigo-business-denwataiou",
@@ -2944,6 +6213,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お電話ありがとうございます。ABC商事の鈴木でございます。",
+        "cloze": {
+          "start": 0,
+          "answer": "お電話ありがとうございます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お電話ありがとうございます。ABC商事の鈴木でございます。",
+            "german": "Vielen Dank für Ihren Anruf. Hier ist Suzuki von ABC Handelsgesellschaft.",
+            "start": 0,
+            "answer": "お電話ありがとうございます",
+            "acceptedAnswers": [
+              "お電話ありがとうございます"
+            ],
+            "distractors": [
+              {
+                "text": "お電話ありがとうます",
+                "reason": "Die höfliche Dankesform lautet ありがとうございます."
+              },
+              {
+                "text": "お電話ありがとうございまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "お電話ありがとうございますた",
+                "reason": "Die höfliche Vergangenheit endet mit ました."
+              }
+            ]
+          }
+        },
         "romaji": "Odenwa arigatō gozaimasu. ABC shōji no Suzuki de gozaimasu.",
         "german": "Vielen Dank für Ihren Anruf. Hier ist Suzuki von ABC Handelsgesellschaft."
       },
@@ -2954,12 +6251,19 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "お電話ありがとうございます。ただいま担当者に代わりますので、少々お待ちください。",
+        "cloze": {
+          "start": 0,
+          "answer": "お電話ありがとうございます"
+        },
         "romaji": "Odenwa arigatō gozaimasu. Tadaima tantōsha ni kawarimasu node, shōshō omachi kudasai.",
         "german": "Vielen Dank für den Anruf. Ich verbinde Sie mit dem zuständigen Mitarbeiter, bitte warten Sie kurz."
       }
     ],
     "notes": "Das japanische Telefonprotokoll folgt festen Regeln: 1) Begrüßung mit Firmennamen, 2) Anliegen erfragen, 3) Kundennamen bestätigen (お名前を頂戴できますか), 4) Weiterleitung oder Rückrufangebot. 恐れ入りますが wird als Kissenwort vor Fragen verwendet.",
-    "related": ["keigo-business-osewani", "keigo-kenjougo-odenwasashiageru"]
+    "related": [
+      "keigo-business-osewani",
+      "keigo-kenjougo-odenwasashiageru"
+    ]
   },
   {
     "id": "keigo-business-denwakawarimasu",
@@ -2973,22 +6277,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お電話代わりました。営業部の山田でございます。",
+        "cloze": {
+          "start": 0,
+          "answer": "お電話代わりました",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お電話代わりました。営業部の山田でございます。",
+            "german": "Sie wurden verbunden. Hier ist Yamada aus der Vertriebsabteilung.",
+            "start": 0,
+            "answer": "お電話代わりました",
+            "acceptedAnswers": [
+              "お電話代わりました"
+            ],
+            "distractors": [
+              {
+                "text": "お電話代わるました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm 代わり."
+              },
+              {
+                "text": "お電話代わりましたます",
+                "reason": "Die Höflichkeitsendungen können nicht verdoppelt werden."
+              },
+              {
+                "text": "お電話代わりません",
+                "reason": "Dies verneint die erfolgte Übernahme."
+              }
+            ]
+          }
+        },
         "romaji": "Odenwa kawarimashita. Eigyōbu no Yamada de gozaimasu.",
         "german": "Sie wurden verbunden. Hier ist Yamada aus der Vertriebsabteilung."
       },
       {
         "japanese": "お電話代わりました。担当の佐藤でございます。お待たせいたしました。",
+        "cloze": {
+          "start": 0,
+          "answer": "お電話代わりました"
+        },
         "romaji": "Odenwa kawarimashita. Tantō no Satō de gozaimasu. Omatase itashimashita.",
         "german": "Sie wurden verbunden. Hier ist der zuständige Satō. Entschuldigung für das Warten."
       },
       {
         "japanese": "お電話代わりました。ご用件をお伺いいたします。",
+        "cloze": {
+          "start": 0,
+          "answer": "お電話代わりました"
+        },
         "romaji": "Odenwa kawarimashita. Goyōken wo oukagai itashimasu.",
         "german": "Sie wurden verbunden. Ich höre mir Ihr Anliegen an."
       }
     ],
     "notes": "Diese Phrase wird automatisch nach dem Verbinden gesagt. Wenn man selbst einen Anrufer weiterleitet, sagt man: ただいま担当に代わります (Ich verbinde Sie jetzt mit dem Zuständigen) oder 少々お待ちくださいませ (Bitte warten Sie einen Moment).",
-    "related": ["keigo-business-denwataiou", "keigo-bikago-omataseitashimashita"]
+    "related": [
+      "keigo-business-denwataiou",
+      "keigo-bikago-omataseitashimashita"
+    ]
   },
   {
     "id": "keigo-business-sayoudesuka",
@@ -3002,22 +6345,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "左様でございますか。承知いたしました。",
+        "cloze": {
+          "start": 0,
+          "answer": "左様でございますか",
+          "quiz": {
+            "level": "N2",
+            "japanese": "左様でございますか。承知いたしました。",
+            "german": "Ach so, ich verstehe. Das habe ich zur Kenntnis genommen.",
+            "start": 0,
+            "answer": "左様でございますか",
+            "acceptedAnswers": [
+              "左様でございますか",
+              "そうですか"
+            ],
+            "distractors": [
+              {
+                "text": "左様ますか",
+                "reason": "ます kann nicht direkt an 左様 angehängt werden."
+              },
+              {
+                "text": "左様でござるますか",
+                "reason": "Die höfliche Form lautet ございます."
+              },
+              {
+                "text": "左様でございまするか",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Sayō de gozaimasu ka. Shōchi itashimashita.",
         "german": "Ach so, ich verstehe. Das habe ich zur Kenntnis genommen."
       },
       {
         "japanese": "左様でございますか。それは大変失礼いたしました。",
+        "cloze": {
+          "start": 0,
+          "answer": "左様でございますか"
+        },
         "romaji": "Sayō de gozaimasu ka. Sore wa taihen shitsurei itashimashita.",
         "german": "Ist das so? Das war sehr unhöflich von mir."
       },
       {
         "japanese": "左様でございますか。ただちに確認いたします。",
+        "cloze": {
+          "start": 0,
+          "answer": "左様でございますか"
+        },
         "romaji": "Sayō de gozaimasu ka. Tadachi ni kakunin itashimasu.",
         "german": "Verstehe. Ich werde das sofort überprüfen."
       }
     ],
     "notes": "左様でございますか wird hauptsächlich in der Hotelbranche, bei Fluggesellschaften und im Premium-Kundenservice verwendet. Im normalen Geschäftsleben reicht そうでございますか oder そうですか. Die Kenntnis dieser Form zeigt N1-Niveau-Verständnis des Keigo-Systems.",
-    "related": ["keigo-teinei-degozaimasu", "keigo-kenjougo-kashikomarimashita"]
+    "related": [
+      "keigo-teinei-degozaimasu",
+      "keigo-kenjougo-kashikomarimashita"
+    ]
   },
   {
     "id": "keigo-business-goannainomailbun",
@@ -3031,11 +6414,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "下記のとおりご案内申し上げます。",
+        "cloze": {
+          "start": 6,
+          "answer": "ご案内申し上げます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "下記のとおりご案内申し上げます。",
+            "german": "Ich erlaube mir, Sie wie folgt zu informieren.",
+            "start": 6,
+            "answer": "ご案内申し上げます",
+            "acceptedAnswers": [
+              "ご案内申し上げます",
+              "ご案内いたします"
+            ],
+            "distractors": [
+              {
+                "text": "ご案内申し上げません",
+                "reason": "Dies verneint die angekündigte Information."
+              },
+              {
+                "text": "ご案内申し上げるます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "ご案内申し上げまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kaki no tōri goannai mōshiagemasu.",
         "german": "Ich erlaube mir, Sie wie folgt zu informieren."
       },
       {
         "japanese": "年末年始の営業時間につきまして、ご案内申し上げます。",
+        "cloze": {
+          "start": 16,
+          "answer": "ご案内申し上げます"
+        },
         "romaji": "Nenmatsu nenshi no eigyō jikan ni tsukimashite, goannai mōshiagemasu.",
         "german": "Ich erlaube mir, Sie über die Geschäftszeiten um den Jahreswechsel zu informieren."
       },
@@ -3046,7 +6462,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご案内申し上げます ist die Standard-Einleitung für formelle Geschäftsmitteilungen und Einladungsschreiben. Sie findet sich häufig nach dem Betreff einer offiziellen E-Mail oder am Anfang eines Informationsschreibens.",
-    "related": ["keigo-kenjougo-moushiageru", "keigo-business-nokenni"]
+    "related": [
+      "keigo-kenjougo-moushiageru",
+      "keigo-business-nokenni"
+    ]
   },
   {
     "id": "keigo-business-oneguimouchiagemasu",
@@ -3060,22 +6479,62 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "何卒よろしくお願い申し上げます。",
+        "cloze": {
+          "start": 6,
+          "answer": "お願い申し上げます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "何卒よろしくお願い申し上げます。",
+            "german": "Ich bitte Sie inständig um Ihre freundliche Unterstützung.",
+            "start": 6,
+            "answer": "お願い申し上げます",
+            "acceptedAnswers": [
+              "お願い申し上げます",
+              "お願いいたします"
+            ],
+            "distractors": [
+              {
+                "text": "お願い申し上げません",
+                "reason": "Dies verneint die Bitte."
+              },
+              {
+                "text": "お願い申し上げるます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "お願い申し上げまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Nanitozo yoroshiku onegai mōshiagemasu.",
         "german": "Ich bitte Sie inständig um Ihre freundliche Unterstützung."
       },
       {
         "japanese": "ご出席くださいますようお願い申し上げます。",
+        "cloze": {
+          "start": 11,
+          "answer": "お願い申し上げます"
+        },
         "romaji": "Goshusseki kudasaimasu yō onegai mōshiagemasu.",
         "german": "Ich bitte Sie ehrerbietigst, an der Veranstaltung teilzunehmen."
       },
       {
         "japanese": "ご容赦くださいますようお願い申し上げます。",
+        "cloze": {
+          "start": 11,
+          "answer": "お願い申し上げます"
+        },
         "romaji": "Goyōsha kudasaimasu yō onegai mōshiagemasu.",
         "german": "Ich bitte Sie ehrerbietigst um Nachsicht."
       }
     ],
     "notes": "お願い申し上げます ist formeller als お願いいたします. In E-Mails wird es oft am Schluss verwendet, besonders in Kombination mit 何卒 (inständig). Die Steigerung: お願いします < お願いいたします < お願い申し上げます.",
-    "related": ["keigo-business-yoroshiku", "keigo-kenjougo-moushiageru"]
+    "related": [
+      "keigo-business-yoroshiku",
+      "keigo-kenjougo-moushiageru"
+    ]
   },
   {
     "id": "keigo-business-mailkaishibun",
@@ -3090,7 +6549,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "平素より大変お世話になっております。",
         "romaji": "Heiso yori taihen osewa ni natte orimasu.",
-        "german": "Vielen Dank für Ihre fortwährende Unterstützung."
+        "german": "Vielen Dank für Ihre fortwährende Unterstützung.",
+        "cloze": {
+          "start": 0,
+          "answer": "平素より",
+          "quiz": {
+            "level": "N2",
+            "japanese": "平素より大変お世話になっております。",
+            "german": "Vielen Dank für Ihre fortwährende Unterstützung.",
+            "start": 0,
+            "answer": "平素より",
+            "acceptedAnswers": [
+              "平素より",
+              "いつも"
+            ],
+            "distractors": [
+              {
+                "text": "平素を",
+                "reason": "を bildet hier keine Zeitangabe."
+              },
+              {
+                "text": "平素な",
+                "reason": "な schließt hier nicht den folgenden Dank an."
+              },
+              {
+                "text": "平素ます",
+                "reason": "ます kann nicht direkt an 平素 angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "平素より格別のお引き立てを賜り、誠にありがとうございます。",
@@ -3104,7 +6592,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "平素より ist die formellste Eröffnung für Geschäftsbriefe und -E-Mails. In der alltäglichen E-Mail-Kommunikation reicht いつもお世話になっております. 格別のお引き立て (besondere Gunst) und ご愛顧 (Kundentreue) sind häufige Ergänzungen in offiziellen Schreiben.",
-    "related": ["keigo-business-osewani", "keigo-sonkeigo-tamawaru"]
+    "related": [
+      "keigo-business-osewani",
+      "keigo-sonkeigo-tamawaru"
+    ]
   },
   {
     "id": "keigo-business-mailshimebun",
@@ -3119,7 +6610,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "末筆ながら、皆様のご健勝をお祈り申し上げます。",
         "romaji": "Mappitsu nagara, minasama no gokenshō wo oinori mōshiagemasu.",
-        "german": "Abschließend wünsche ich Ihnen allen beste Gesundheit."
+        "german": "Abschließend wünsche ich Ihnen allen beste Gesundheit.",
+        "cloze": {
+          "start": 0,
+          "answer": "末筆ながら",
+          "quiz": {
+            "level": "N1",
+            "japanese": "末筆ながら、皆様のご健勝をお祈り申し上げます。",
+            "german": "Abschließend wünsche ich Ihnen allen beste Gesundheit.",
+            "start": 0,
+            "answer": "末筆ながら",
+            "acceptedAnswers": [
+              "末筆ながら"
+            ],
+            "distractors": [
+              {
+                "text": "末筆ながらな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "末筆ながらを",
+                "reason": "を bildet hier keinen Schlussanschluss."
+              },
+              {
+                "text": "末筆ながらます",
+                "reason": "ます kann nicht an ながら angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "末筆ながら、貴社のますますのご発展をお祈り申し上げます。",
@@ -3133,7 +6652,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "末筆ながら wird ausschließlich in schriftlicher Kommunikation verwendet. Die Formel impliziert Bescheidenheit: Der persönliche Wunsch wird ans Ende gesetzt, weil er gegenüber dem Geschäftsinhalt sekundär ist. ご自愛ください (bitte achten Sie auf Ihre Gesundheit) ist die häufigste Schlussformel.",
-    "related": ["keigo-business-yoroshiku", "keigo-kenjougo-tsutsushinde"]
+    "related": [
+      "keigo-business-yoroshiku",
+      "keigo-kenjougo-tsutsushinde"
+    ]
   },
   {
     "id": "keigo-business-nantozosamaku",
@@ -3148,7 +6670,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "何卒ご理解いただけますようお願いいたします。",
         "romaji": "Nanitozo gorikai itadakemasu yō onegai itashimasu.",
-        "german": "Ich bitte Sie inständig um Ihr Verständnis."
+        "german": "Ich bitte Sie inständig um Ihr Verständnis.",
+        "cloze": {
+          "start": 0,
+          "answer": "何卒",
+          "quiz": {
+            "level": "N2",
+            "japanese": "何卒ご理解いただけますようお願いいたします。",
+            "german": "Ich bitte Sie inständig um Ihr Verständnis.",
+            "start": 0,
+            "answer": "何卒",
+            "acceptedAnswers": [
+              "何卒",
+              "どうか"
+            ],
+            "distractors": [
+              {
+                "text": "何卒を",
+                "reason": "を bildet hier keine adverbiale Bitte."
+              },
+              {
+                "text": "何卒な",
+                "reason": "な kann hier nicht die Bitte anschließen."
+              },
+              {
+                "text": "何卒ます",
+                "reason": "ます kann nicht direkt an 何卒 angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "何卒ご検討のほどよろしくお願いいたします。",
@@ -3162,7 +6713,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "何卒 wird fast ausschließlich in der schriftlichen Geschäftskommunikation verwendet. Es ist einer der wichtigsten Verstärker in Geschäftsbriefen. 何卒よろしくお願いいたします ist die stärkste Standardabschlussformel in E-Mails.",
-    "related": ["keigo-business-yoroshiku", "keigo-business-gokentou"]
+    "related": [
+      "keigo-business-yoroshiku",
+      "keigo-business-gokentou"
+    ]
   },
   {
     "id": "keigo-business-ohikikaenitsukaesai",
@@ -3176,6 +6730,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "ほんの気持ちですが、ご笑納ください。",
+        "cloze": {
+          "start": 10,
+          "answer": "ご笑納ください",
+          "quiz": {
+            "level": "N1",
+            "japanese": "ほんの気持ちですが、ご笑納ください。",
+            "german": "Es ist nur eine Kleinigkeit, aber bitte nehmen Sie es gnädig an.",
+            "start": 10,
+            "answer": "ご笑納ください",
+            "acceptedAnswers": [
+              "ご笑納ください"
+            ],
+            "distractors": [
+              {
+                "text": "ご笑納するください",
+                "reason": "ください wird nicht an する angehängt."
+              },
+              {
+                "text": "ご笑納くださいまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "ご笑納くださるました",
+                "reason": "Die höfliche Vergangenheit benötigt den Verbstamm."
+              }
+            ]
+          }
+        },
         "romaji": "Hon no kimochi desu ga, goshōnō kudasai.",
         "german": "Es ist nur eine Kleinigkeit, aber bitte nehmen Sie es gnädig an."
       },
@@ -3191,7 +6773,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Die japanische Kultur der Geschenk-Überreichung umfasst traditionelle Bescheidenheitsfloskeln: つまらないものですが (es ist nichts Besonderes), ほんの気持ちです (es ist nur eine Geste), 粗品ですが (es ist nur eine kleine Aufmerksamkeit). ご笑納 passt zu all diesen Einleitungen.",
-    "related": ["keigo-kenjougo-sashiageru", "keigo-kenjougo-zoujisuru"]
+    "related": [
+      "keigo-kenjougo-sashiageru",
+      "keigo-kenjougo-zoujisuru"
+    ]
   },
   {
     "id": "keigo-business-goisainakunokosubekaku",
@@ -3205,6 +6790,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "ご都合が決まりましたら、ご一報いただければ幸いです。",
+        "cloze": {
+          "start": 12,
+          "answer": "ご一報いただければ幸いです",
+          "quiz": {
+            "level": "N2",
+            "japanese": "ご都合が決まりましたら、ご一報いただければ幸いです。",
+            "german": "Wenn Sie sich für einen Termin entschieden haben, wäre ich dankbar für eine kurze Nachricht.",
+            "start": 12,
+            "answer": "ご一報いただければ幸いです",
+            "acceptedAnswers": [
+              "ご一報いただければ幸いです"
+            ],
+            "distractors": [
+              {
+                "text": "ご一報いただけるれば幸いです",
+                "reason": "Die Bedingung lautet いただければ."
+              },
+              {
+                "text": "ご一報いただければ幸います",
+                "reason": "ます kann nicht direkt an 幸い angehängt werden."
+              },
+              {
+                "text": "ご一報いただければ幸いを",
+                "reason": "を kann diese Bitte nicht abschließen."
+              }
+            ]
+          }
+        },
         "romaji": "Gotsugō ga kimarimashitara, goippō itadakereba saiwai desu.",
         "german": "Wenn Sie sich für einen Termin entschieden haben, wäre ich dankbar für eine kurze Nachricht."
       },
@@ -3220,7 +6833,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご一報 wird als weniger aufwendige Alternative zu ご連絡 (Kontaktaufnahme) verwendet und signalisiert, dass nur eine kurze Bestätigungsnachricht erwartet wird, kein ausführliches Schreiben.",
-    "related": ["keigo-business-gofumeina", "keigo-business-gokentou"]
+    "related": [
+      "keigo-business-gofumeina",
+      "keigo-business-gokentou"
+    ]
   },
   {
     "id": "keigo-business-gorenkudasaru",
@@ -3234,6 +6850,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お忙しいところ恐れ入りますが、今週中にご返信いただけますと幸いです。",
+        "cloze": {
+          "start": 19,
+          "answer": "ご返信いただけますと幸いです",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お忙しいところ恐れ入りますが、今週中にご返信いただけますと幸いです。",
+            "german": "Entschuldigen Sie die Störung, aber ich wäre dankbar für eine Antwort innerhalb dieser Woche.",
+            "start": 19,
+            "answer": "ご返信いただけますと幸いです",
+            "acceptedAnswers": [
+              "ご返信いただけますと幸いです"
+            ],
+            "distractors": [
+              {
+                "text": "ご返信いただけるますと幸いです",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "ご返信いただけますと幸います",
+                "reason": "ます kann nicht direkt an 幸い angehängt werden."
+              },
+              {
+                "text": "ご返信いただけますと幸いを",
+                "reason": "を kann diese Bitte nicht abschließen."
+              }
+            ]
+          }
+        },
         "romaji": "Oisogashii tokoro osore irimasu ga, konshūchū ni gohenshin itadakemasu to saiwai desu.",
         "german": "Entschuldigen Sie die Störung, aber ich wäre dankbar für eine Antwort innerhalb dieser Woche."
       },
@@ -3249,7 +6893,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "In geschäftlichen E-Mails wird immer eine Frist für die Antwort angegeben. 幸いです ist weicher als お願いいたします und gibt dem Empfänger mehr Spielraum. 助かります (es würde mir helfen) ist eine etwas informellere, aber häufig verwendete Alternative.",
-    "related": ["keigo-business-gokentou", "keigo-teinei-itadakerebato"]
+    "related": [
+      "keigo-business-gokentou",
+      "keigo-teinei-itadakerebato"
+    ]
   },
   {
     "id": "keigo-business-moushitsukeru",
@@ -3263,22 +6910,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "何なりとお申し付けください。",
+        "cloze": {
+          "start": 4,
+          "answer": "お申し付けください",
+          "quiz": {
+            "level": "N2",
+            "japanese": "何なりとお申し付けください。",
+            "german": "Bitte zögern Sie nicht, mir alles zu sagen, was Sie brauchen.",
+            "start": 4,
+            "answer": "お申し付けください",
+            "acceptedAnswers": [
+              "お申し付けください"
+            ],
+            "distractors": [
+              {
+                "text": "お申し付けるください",
+                "reason": "ください wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "お申し付けくださいまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "お申し付けくださるました",
+                "reason": "Die höfliche Vergangenheit benötigt den richtigen Stamm."
+              }
+            ]
+          }
+        },
         "romaji": "Nan nari to omōshitsuke kudasai.",
         "german": "Bitte zögern Sie nicht, mir alles zu sagen, was Sie brauchen."
       },
       {
         "japanese": "ご不明な点がございましたら、お気軽にお申し付けください。",
+        "cloze": {
+          "start": 18,
+          "answer": "お申し付けください"
+        },
         "romaji": "Gofumei na ten ga gozaimashitara, okigaru ni omōshitsuke kudasai.",
         "german": "Bei Unklarheiten teilen Sie es uns bitte jederzeit mit."
       },
       {
         "japanese": "追加のご要望がございましたら、お申し付けくださいませ。",
+        "cloze": {
+          "start": 15,
+          "answer": "お申し付けください"
+        },
         "romaji": "Tsuika no goyōbō ga gozaimashitara, omōshitsuke kudasaimase.",
         "german": "Sollten Sie weitere Wünsche haben, lassen Sie es uns bitte wissen."
       }
     ],
     "notes": "何なりとお申し付けください ist eine der beliebtesten Kundenservice-Phrasen und findet sich häufig in Hotels, Restaurants und im gehobenen Einzelhandel. Sie klingt einladender und respektvoller als ~~ください allein.",
-    "related": ["keigo-business-okigaruni", "keigo-sonkeigo-okudasai"]
+    "related": [
+      "keigo-business-okigaruni",
+      "keigo-sonkeigo-okudasai"
+    ]
   },
   {
     "id": "keigo-business-gorenraku-itadaki",
@@ -3297,6 +6983,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "お忙しい中、ご連絡いただきありがとうございます。",
+        "cloze": {
+          "start": 6,
+          "answer": "ご連絡いただきありがとうございます",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お忙しい中、ご連絡いただきありがとうございます。",
+            "german": "Vielen Dank, dass Sie sich trotz Ihrer Beschäftigung gemeldet haben.",
+            "start": 6,
+            "answer": "ご連絡いただきありがとうございます",
+            "acceptedAnswers": [
+              "ご連絡いただきありがとうございます"
+            ],
+            "distractors": [
+              {
+                "text": "ご連絡いただくありがとうございます",
+                "reason": "Vor dem Dank steht hier die verbindende Stamm- oder て-Form."
+              },
+              {
+                "text": "ご連絡いただきありがとうます",
+                "reason": "Die höfliche Dankesform lautet ありがとうございます."
+              },
+              {
+                "text": "ご連絡いただきありがとうございまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Oisogashii naka, gorenraku itadaki arigatō gozaimasu.",
         "german": "Vielen Dank, dass Sie sich trotz Ihrer Beschäftigung gemeldet haben."
       },
@@ -3307,7 +7021,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Diese Phrase wird am Anfang von Antwort-E-Mails verwendet, direkt nach お世話になっております. 早速の (sofortig/prompt) wird hinzugefügt, wenn die Antwort schnell kam. ご丁寧に (höflich/sorgfältig) betont die Wertschätzung der ausführlichen Nachricht.",
-    "related": ["keigo-business-osewani", "keigo-kenjougo-itadaku"]
+    "related": [
+      "keigo-business-osewani",
+      "keigo-kenjougo-itadaku"
+    ]
   },
   {
     "id": "keigo-business-goyouken",
@@ -3322,7 +7039,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ご用件をお伺いしてもよろしいでしょうか。",
         "romaji": "Goyōken wo oukagai shite mo yoroshii deshō ka.",
-        "german": "Darf ich nach Ihrem Anliegen fragen?"
+        "german": "Darf ich nach Ihrem Anliegen fragen?",
+        "cloze": {
+          "start": 0,
+          "answer": "ご用件をお伺いして",
+          "quiz": {
+            "level": "N2",
+            "japanese": "ご用件をお伺いしてもよろしいでしょうか。",
+            "german": "Darf ich nach Ihrem Anliegen fragen?",
+            "start": 0,
+            "answer": "ご用件をお伺いして",
+            "acceptedAnswers": [
+              "ご用件をお伺いして"
+            ],
+            "distractors": [
+              {
+                "text": "ご用件をお伺いする",
+                "reason": "Vor もよろしい steht die て-Form."
+              },
+              {
+                "text": "ご用件をお伺いした",
+                "reason": "Vor もよろしい steht die て-Form."
+              },
+              {
+                "text": "ご用件をお伺いします",
+                "reason": "Die finite Höflichkeitsform passt hier nicht vor もよろしい."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "どのようなご用件でしょうか。",
@@ -3336,7 +7081,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Diese Phrase ist Standard am Empfangsschalter und am Telefon. Am Empfang folgt danach typischerweise: お約束はいただいておりますか (Haben Sie einen Termin?) oder 少々お待ちくださいませ (Bitte warten Sie einen Moment).",
-    "related": ["keigo-kenjougo-ukagau", "keigo-business-denwataiou"]
+    "related": [
+      "keigo-kenjougo-ukagau",
+      "keigo-business-denwataiou"
+    ]
   },
   {
     "id": "keigo-business-gosoudansha",
@@ -3350,6 +7098,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "本日はご足労いただきありがとうございます。",
+        "cloze": {
+          "start": 3,
+          "answer": "ご足労いただきありがとうございます",
+          "quiz": {
+            "level": "N1",
+            "japanese": "本日はご足労いただきありがとうございます。",
+            "german": "Vielen Dank, dass Sie sich heute die Mühe gemacht haben, herzukommen.",
+            "start": 3,
+            "answer": "ご足労いただきありがとうございます",
+            "acceptedAnswers": [
+              "ご足労いただきありがとうございます"
+            ],
+            "distractors": [
+              {
+                "text": "ご足労いただくありがとうございます",
+                "reason": "Der Dank benötigt eine verbindende Stamm- oder て-Form."
+              },
+              {
+                "text": "ご足労いただきありがとうます",
+                "reason": "Die höfliche Dankesform lautet ありがとうございます."
+              },
+              {
+                "text": "ご足労いただきありがとうございまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Honjitsu wa gosokurō itadaki arigatō gozaimasu.",
         "german": "Vielen Dank, dass Sie sich heute die Mühe gemacht haben, herzukommen."
       },
@@ -3365,7 +7141,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご足労 wird besonders verwendet, wenn ein Kunde oder Geschäftspartner zum eigenen Büro kommt. Es zeigt Wertschätzung für den physischen Aufwand der Anreise. Die Phrase wird am Empfang und am Anfang von Besprechungen verwendet.",
-    "related": ["keigo-sonkeigo-okoshininaru", "keigo-teinei-osoreirimashitsuki"]
+    "related": [
+      "keigo-sonkeigo-okoshininaru",
+      "keigo-teinei-osoreirimashitsuki"
+    ]
   },
   {
     "id": "keigo-business-gokitainikotaerareru",
@@ -3380,7 +7159,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ご期待に沿えず、誠に申し訳ございません。",
         "romaji": "Gokitai ni souezu, makoto ni mōshiwake gozaimasen.",
-        "german": "Es tut mir aufrichtig leid, dass wir Ihren Erwartungen nicht entsprechen konnten."
+        "german": "Es tut mir aufrichtig leid, dass wir Ihren Erwartungen nicht entsprechen konnten.",
+        "cloze": {
+          "start": 0,
+          "answer": "ご期待に沿えず",
+          "quiz": {
+            "level": "N1",
+            "japanese": "ご期待に沿えず、誠に申し訳ございません。",
+            "german": "Es tut mir aufrichtig leid, dass wir Ihren Erwartungen nicht entsprechen konnten.",
+            "start": 0,
+            "answer": "ご期待に沿えず",
+            "acceptedAnswers": [
+              "ご期待に沿えず"
+            ],
+            "distractors": [
+              {
+                "text": "ご期待に沿えて",
+                "reason": "Dies bejaht das Erfüllen der Erwartungen."
+              },
+              {
+                "text": "ご期待を沿えず",
+                "reason": "Die Bezugsgröße benötigt に."
+              },
+              {
+                "text": "ご期待に沿えずな",
+                "reason": "な kann hier nicht angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "ご希望に添えず大変恐縮ですが、今回は見送らせていただきます。",
@@ -3394,7 +7201,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Diese Phrase ist die Standard-Einleitung für geschäftliche Ablehnungen. Sie mildert die Ablehnung ab und zeigt Bedauern. In Japan werden Ablehnungen fast nie direkt ausgesprochen, sondern immer mit solchen abfedernden Formeln eingeleitet.",
-    "related": ["keigo-teinei-kanemasu", "keigo-bikago-moushiwake"]
+    "related": [
+      "keigo-teinei-kanemasu",
+      "keigo-bikago-moushiwake"
+    ]
   },
   {
     "id": "keigo-business-gojiainokudasaimase",
@@ -3409,7 +7219,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "寒い日が続きますが、くれぐれもご自愛ください。",
         "romaji": "Samui hi ga tsuzukimasu ga, kuregure mo gojiai kudasai.",
-        "german": "Es ist weiterhin kalt, bitte achten Sie besonders auf Ihre Gesundheit."
+        "german": "Es ist weiterhin kalt, bitte achten Sie besonders auf Ihre Gesundheit.",
+        "cloze": {
+          "start": 15,
+          "answer": "ご自愛ください",
+          "quiz": {
+            "level": "N2",
+            "japanese": "寒い日が続きますが、くれぐれもご自愛ください。",
+            "german": "Es ist weiterhin kalt, bitte achten Sie besonders auf Ihre Gesundheit.",
+            "start": 15,
+            "answer": "ご自愛ください",
+            "acceptedAnswers": [
+              "ご自愛ください"
+            ],
+            "distractors": [
+              {
+                "text": "ご自愛するください",
+                "reason": "ください wird nicht an する angehängt."
+              },
+              {
+                "text": "ご自愛くださいまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "ご自愛くださるました",
+                "reason": "Die höfliche Vergangenheit benötigt den richtigen Stamm."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "時節柄、ご自愛くださいますようお祈り申し上げます。",
@@ -3423,7 +7261,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご自愛ください wird zum Abschluss persönlicher und halb-geschäftlicher Briefe verwendet. Sie passt besonders gut in Kombination mit jahreszeitlichen Grüßen (時候の挨拶). In rein sachlichen Geschäfts-E-Mails wird sie seltener verwendet.",
-    "related": ["keigo-business-mailshimebun", "keigo-business-yoroshiku"]
+    "related": [
+      "keigo-business-mailshimebun",
+      "keigo-business-yoroshiku"
+    ]
   },
   {
     "id": "keigo-sonkeigo-gokurou",
@@ -3438,7 +7279,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "部長、お疲れ様です。報告書をお持ちいたしました。",
         "romaji": "Buchō, otsukaresama desu. Hōkokusho wo omochi itashimashita.",
-        "german": "Abteilungsleiter, danke für Ihre Mühe. Ich habe den Bericht gebracht."
+        "german": "Abteilungsleiter, danke für Ihre Mühe. Ich habe den Bericht gebracht.",
+        "cloze": {
+          "start": 3,
+          "answer": "お疲れ様です",
+          "quiz": {
+            "level": "N2",
+            "japanese": "部長、お疲れ様です。報告書をお持ちいたしました。",
+            "german": "Abteilungsleiter, danke für Ihre Mühe. Ich habe den Bericht gebracht.",
+            "start": 3,
+            "answer": "お疲れ様です",
+            "acceptedAnswers": [
+              "お疲れ様です",
+              "お疲れ様でございます"
+            ],
+            "distractors": [
+              {
+                "text": "お疲れ様ます",
+                "reason": "ます kann nicht direkt an 様 angehängt werden."
+              },
+              {
+                "text": "お疲れ様でする",
+                "reason": "る kann nicht an die Kopula です angehängt werden."
+              },
+              {
+                "text": "お疲れ様なです",
+                "reason": "Vor der Kopula です steht hier kein な."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "配達員さん、ご苦労様です。",
@@ -3452,7 +7322,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Die Regel, dass ご苦労様です nicht gegenüber Vorgesetzten verwendet werden sollte, ist bei jüngeren Japanern weniger strikt, wird aber in der Geschäftswelt noch beachtet. Im Zweifel ist お疲れ様です immer die sichere Wahl. Manche Unternehmen verwenden ご苦労様 intern gar nicht mehr.",
-    "related": ["keigo-bikago-otsukaresama", "keigo-business-osewani"]
+    "related": [
+      "keigo-bikago-otsukaresama",
+      "keigo-business-osewani"
+    ]
   },
   {
     "id": "keigo-kenjougo-mairushinchuu",
@@ -3467,7 +7340,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お近くにお越しの折には、ぜひお立ち寄りください。",
         "romaji": "Ochikaku ni okoshi no ori ni wa, zehi otachiyori kudasai.",
-        "german": "Wenn Sie in der Nähe sind, kommen Sie bitte vorbei."
+        "german": "Wenn Sie in der Nähe sind, kommen Sie bitte vorbei.",
+        "cloze": {
+          "start": 7,
+          "answer": "の折には",
+          "quiz": {
+            "level": "N1",
+            "japanese": "お近くにお越しの折には、ぜひお立ち寄りください。",
+            "german": "Wenn Sie in der Nähe sind, kommen Sie bitte vorbei.",
+            "start": 7,
+            "answer": "の折には",
+            "acceptedAnswers": [
+              "の折には",
+              "の際には"
+            ],
+            "distractors": [
+              {
+                "text": "の折を",
+                "reason": "を bildet hier keinen Zeitanschluss."
+              },
+              {
+                "text": "の折な",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "の折ます",
+                "reason": "ます kann nicht direkt an 折 angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "東京にいらっしゃる折には、ご連絡いただければ幸いです。",
@@ -3481,7 +7383,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "折 wird in der formellen Korrespondenz bevorzugt und klingt eleganter als 時 oder 場合. Die Phrase お近くにお越しの折には ist eine klassische Höflichkeitsformel am Ende von Geschäftsbriefen und Neujahrskarten.",
-    "related": ["keigo-kenjougo-omenikakaru", "keigo-sonkeigo-okoshininaru"]
+    "related": [
+      "keigo-kenjougo-omenikakaru",
+      "keigo-sonkeigo-okoshininaru"
+    ]
   },
   {
     "id": "keigo-kenjougo-osagashisuru",
@@ -3496,7 +7401,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ただいまお調べいたしますので、少々お待ちください。",
         "romaji": "Tadaima oshirabe itashimasu node, shōshō omachi kudasai.",
-        "german": "Ich schaue jetzt für Sie nach, bitte warten Sie einen Moment."
+        "german": "Ich schaue jetzt für Sie nach, bitte warten Sie einen Moment.",
+        "cloze": {
+          "start": 4,
+          "answer": "お調べいたします",
+          "quiz": {
+            "level": "N2",
+            "japanese": "ただいまお調べいたしますので、少々お待ちください。",
+            "german": "Ich schaue jetzt für Sie nach, bitte warten Sie einen Moment.",
+            "start": 4,
+            "answer": "お調べいたします",
+            "acceptedAnswers": [
+              "お調べいたします",
+              "お調べします"
+            ],
+            "distractors": [
+              {
+                "text": "お調べいたしません",
+                "reason": "Dies verneint das angekündigte Nachschauen."
+              },
+              {
+                "text": "お調べいたすます",
+                "reason": "ます benötigt den Stamm いたし."
+              },
+              {
+                "text": "お調べいたしまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "在庫をお調べいたします。",
@@ -3510,7 +7444,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Diese Formen sind im Einzelhandel und Kundenservice Standardvokabular. Sie folgen dem universellen お～する/お～いたす-Muster, das auf praktisch jedes Verb anwendbar ist (mit Ausnahmen wie Sonder-Keigo-Verben).",
-    "related": ["keigo-kenjougo-osuru", "keigo-kenjougo-kashikomarimashita"]
+    "related": [
+      "keigo-kenjougo-osuru",
+      "keigo-kenjougo-kashikomarimashita"
+    ]
   },
   {
     "id": "keigo-business-gohenjiitadaki",
@@ -3524,6 +7461,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お忙しいところ恐縮ですが、ご署名をいただけますでしょうか。",
+        "cloze": {
+          "start": 0,
+          "answer": "お忙しいところ恐縮ですが",
+          "quiz": {
+            "level": "N2",
+            "japanese": "お忙しいところ恐縮ですが、ご署名をいただけますでしょうか。",
+            "german": "Ich weiß, dass Sie beschäftigt sind, aber könnten Sie bitte unterschreiben?",
+            "start": 0,
+            "answer": "お忙しいところ恐縮ですが",
+            "acceptedAnswers": [
+              "お忙しいところ恐縮ですが",
+              "お忙しいところ恐れ入りますが"
+            ],
+            "distractors": [
+              {
+                "text": "お忙しいところ恐縮ますが",
+                "reason": "ます kann nicht direkt an 恐縮 angehängt werden."
+              },
+              {
+                "text": "お忙しいところ恐縮ですがを",
+                "reason": "を kann nicht an den Satzanschluss angehängt werden."
+              },
+              {
+                "text": "お忙しいところ恐縮なです",
+                "reason": "Vor der Kopula です steht hier kein な."
+              }
+            ]
+          }
+        },
         "romaji": "Oisogashii tokoro kyōshuku desu ga, goshomei wo itadakemasu deshō ka.",
         "german": "Ich weiß, dass Sie beschäftigt sind, aber könnten Sie bitte unterschreiben?"
       },
@@ -3539,7 +7505,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "恐縮ですが und 恐れ入りますが sind im Geschäftsalltag austauschbar. 恐縮ですが hat einen etwas stärkeren Beiklang von Schuldgefühl. Die Verstärkung mit 大変 oder die Formalisierung mit 存じます sind übliche Steigerungen.",
-    "related": ["keigo-business-oisogashii", "keigo-teinei-osoreirimashitsuki"]
+    "related": [
+      "keigo-business-oisogashii",
+      "keigo-teinei-osoreirimashitsuki"
+    ]
   },
   {
     "id": "keigo-bikago-omizu",
@@ -3554,7 +7523,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お水をください。",
         "romaji": "Omizu wo kudasai.",
-        "german": "Wasser bitte."
+        "german": "Wasser bitte.",
+        "cloze": {
+          "start": 0,
+          "answer": "お水",
+          "quiz": {
+            "level": "N4",
+            "japanese": "お水をください。",
+            "german": "Wasser bitte.",
+            "start": 0,
+            "answer": "お水",
+            "acceptedAnswers": [
+              "お水",
+              "水"
+            ],
+            "distractors": [
+              {
+                "text": "お茶",
+                "reason": "Die Übersetzung verlangt Wasser, nicht Tee."
+              },
+              {
+                "text": "お米",
+                "reason": "Die Übersetzung verlangt Wasser, nicht Reis."
+              },
+              {
+                "text": "お金",
+                "reason": "Die Übersetzung verlangt Wasser, nicht Geld."
+              }
+            ],
+            "promptKana": "＿＿＿をください。"
+          }
+        }
       },
       {
         "japanese": "お水をお持ちしましょうか。",
@@ -3568,7 +7567,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お水 wird im Alltag fast immer mit お verwendet, besonders von Frauen und im höflichen Sprachgebrauch. In wissenschaftlichen oder technischen Kontexten wird eher 水 ohne Präfix benutzt. In Restaurants ist お水 die Standardbezeichnung.",
-    "related": ["keigo-bikago-ocha", "keigo-bikago-obi"]
+    "related": [
+      "keigo-bikago-ocha",
+      "keigo-bikago-obi"
+    ]
   },
   {
     "id": "keigo-bikago-ocha",
@@ -3583,7 +7585,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お茶でもいかがですか。",
         "romaji": "Ocha demo ikaga desu ka.",
-        "german": "Möchten Sie vielleicht eine Tasse Tee?"
+        "german": "Möchten Sie vielleicht eine Tasse Tee?",
+        "cloze": {
+          "start": 0,
+          "answer": "お茶",
+          "quiz": {
+            "level": "N4",
+            "japanese": "お茶でもいかがですか。",
+            "german": "Möchten Sie vielleicht eine Tasse Tee?",
+            "start": 0,
+            "answer": "お茶",
+            "acceptedAnswers": [
+              "お茶",
+              "茶"
+            ],
+            "distractors": [
+              {
+                "text": "お水",
+                "reason": "Dies bietet Wasser statt Tee an."
+              },
+              {
+                "text": "コーヒー",
+                "reason": "Dies bietet Kaffee statt Tee an."
+              },
+              {
+                "text": "お酒",
+                "reason": "Dies bietet Alkohol statt Tee an."
+              }
+            ],
+            "promptKana": "＿＿＿でもいかがですか。"
+          }
+        }
       },
       {
         "japanese": "お茶を入れますね。",
@@ -3597,7 +7629,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お茶 ist ein Paradebeispiel für ein Wort, bei dem das お-Präfix obligatorisch geworden ist. Selbst in ungezwungener Sprache sagt man お茶 und nicht 茶 allein. Das Wort zeigt, wie 美化語 über die Zeit zu einem festen Bestandteil des Wortschatzes werden kann.",
-    "related": ["keigo-bikago-omizu", "keigo-bikago-obi"]
+    "related": [
+      "keigo-bikago-omizu",
+      "keigo-bikago-obi"
+    ]
   },
   {
     "id": "keigo-bikago-okane",
@@ -3612,7 +7647,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お金が足りません。",
         "romaji": "Okane ga tarimasen.",
-        "german": "Das Geld reicht nicht."
+        "german": "Das Geld reicht nicht.",
+        "cloze": {
+          "start": 0,
+          "answer": "お金",
+          "quiz": {
+            "level": "N4",
+            "japanese": "お金が足りません。",
+            "german": "Das Geld reicht nicht.",
+            "start": 0,
+            "answer": "お金",
+            "acceptedAnswers": [
+              "お金",
+              "金"
+            ],
+            "distractors": [
+              {
+                "text": "お水",
+                "reason": "Dies bezeichnet Wasser, nicht Geld."
+              },
+              {
+                "text": "お時間",
+                "reason": "Dies bezeichnet Zeit, nicht Geld."
+              },
+              {
+                "text": "お米",
+                "reason": "Dies bezeichnet Reis, nicht Geld."
+              }
+            ],
+            "promptKana": "＿＿＿がたりません。"
+          }
+        }
       },
       {
         "japanese": "お金を貯めています。",
@@ -3626,7 +7691,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お金 ist eines der Wörter, bei denen das お-Präfix so fest verwurzelt ist, dass viele Japaner es gar nicht mehr als Höflichkeitspräfix wahrnehmen. In der Umgangssprache und sogar in unhöflichen Kontexten wird お金 mit お verwendet.",
-    "related": ["keigo-bikago-otsuri", "keigo-bikago-obi"]
+    "related": [
+      "keigo-bikago-otsuri",
+      "keigo-bikago-obi"
+    ]
   },
   {
     "id": "keigo-bikago-onamae",
@@ -3641,7 +7709,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お名前をお願いします。",
         "romaji": "Onamae wo onegai shimasu.",
-        "german": "Ihren Namen bitte."
+        "german": "Ihren Namen bitte.",
+        "cloze": {
+          "start": 0,
+          "answer": "お名前",
+          "quiz": {
+            "level": "N4",
+            "japanese": "お名前をお願いします。",
+            "german": "Ihren Namen bitte.",
+            "start": 0,
+            "answer": "お名前",
+            "acceptedAnswers": [
+              "お名前",
+              "名前"
+            ],
+            "distractors": [
+              {
+                "text": "ご住所",
+                "reason": "Dies verlangt die Adresse statt des Namens."
+              },
+              {
+                "text": "お仕事",
+                "reason": "Dies fragt nicht nach dem Namen."
+              },
+              {
+                "text": "お電話",
+                "reason": "Dies verlangt nicht den Namen."
+              }
+            ],
+            "promptKana": "＿＿＿をおねがいします。"
+          }
+        }
       },
       {
         "japanese": "お名前は何とおっしゃいますか。",
@@ -3655,7 +7753,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お名前 zeigt den Unterschied zwischen 美化語 und 尊敬語: Wenn man den Namen des Gegenübers meint, dient お als Respektbezeugung (尊敬語-Funktion). Wenn man allgemein über Namen spricht, ist es 美化語. Den eigenen Namen nennt man ohne お, da man sich selbst nicht ehrt.",
-    "related": ["keigo-bikago-obi", "keigo-sonkeigo-ossharu"]
+    "related": [
+      "keigo-bikago-obi",
+      "keigo-sonkeigo-ossharu"
+    ]
   },
   {
     "id": "keigo-bikago-onaka",
@@ -3670,7 +7771,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お腹が空きました。",
         "romaji": "Onaka ga sukimashita.",
-        "german": "Ich habe Hunger."
+        "german": "Ich habe Hunger.",
+        "cloze": {
+          "start": 0,
+          "answer": "お腹",
+          "quiz": {
+            "level": "N4",
+            "japanese": "お腹が空きました。",
+            "german": "Ich habe Hunger.",
+            "start": 0,
+            "answer": "お腹",
+            "acceptedAnswers": [
+              "お腹",
+              "腹"
+            ],
+            "distractors": [
+              {
+                "text": "お名前",
+                "reason": "Ein Name wird nicht hungrig."
+              },
+              {
+                "text": "お茶",
+                "reason": "Tee wird nicht hungrig."
+              },
+              {
+                "text": "お金",
+                "reason": "Geld wird nicht hungrig."
+              }
+            ],
+            "promptKana": "＿＿＿がすきました。"
+          }
+        }
       },
       {
         "japanese": "お腹がいっぱいです。",
@@ -3684,7 +7815,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お腹 ist ein weiteres Beispiel, bei dem das お-Präfix so fest mit dem Wort verschmolzen ist, dass es nicht mehr als Höflichkeitsform wahrgenommen wird. Die Lesung なか (statt はら) wird ausschließlich mit お verwendet. 腹（はら）ohne お klingt maskulin-derb.",
-    "related": ["keigo-bikago-obi", "keigo-bikago-gohan"]
+    "related": [
+      "keigo-bikago-obi",
+      "keigo-bikago-gohan"
+    ]
   },
   {
     "id": "keigo-bikago-obentou",
@@ -3699,7 +7833,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "今日はお弁当を持ってきました。",
         "romaji": "Kyō wa obentō wo motte kimashita.",
-        "german": "Ich habe heute ein Bento mitgebracht."
+        "german": "Ich habe heute ein Bento mitgebracht.",
+        "cloze": {
+          "start": 3,
+          "answer": "お弁当",
+          "quiz": {
+            "level": "N4",
+            "japanese": "今日はお弁当を持ってきました。",
+            "german": "Ich habe heute ein Bento mitgebracht.",
+            "start": 3,
+            "answer": "お弁当",
+            "acceptedAnswers": [
+              "お弁当",
+              "弁当"
+            ],
+            "distractors": [
+              {
+                "text": "お土産",
+                "reason": "Dies bezeichnet ein Mitbringsel statt der Bento-Mahlzeit."
+              },
+              {
+                "text": "お金",
+                "reason": "Dies bezeichnet Geld statt der Bento-Mahlzeit."
+              },
+              {
+                "text": "お花",
+                "reason": "Dies bezeichnet Blumen statt der Bento-Mahlzeit."
+              }
+            ],
+            "promptKana": "きょうは＿＿＿をもってきました。"
+          }
+        }
       },
       {
         "japanese": "お弁当を買いに行きましょう。",
@@ -3713,7 +7877,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お弁当 wird im Alltag fast immer mit お verwendet, besonders in der gesprochenen Sprache. Auf Schildern und Speisekarten in Geschäften sieht man manchmal 弁当 ohne お. Die japanische Bento-Kultur ist tief verwurzelt, und お弁当 ist ein Alltagswort, das jeder Japanischlernende kennen sollte.",
-    "related": ["keigo-bikago-ocha", "keigo-bikago-obi"]
+    "related": [
+      "keigo-bikago-ocha",
+      "keigo-bikago-obi"
+    ]
   },
   {
     "id": "keigo-bikago-omiyage",
@@ -3728,7 +7895,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "旅行のお土産を買いました。",
         "romaji": "Ryokō no omiyage wo kaimashita.",
-        "german": "Ich habe ein Reisemitbringsel gekauft."
+        "german": "Ich habe ein Reisemitbringsel gekauft.",
+        "cloze": {
+          "start": 3,
+          "answer": "お土産",
+          "quiz": {
+            "level": "N4",
+            "japanese": "旅行のお土産を買いました。",
+            "german": "Ich habe ein Reisemitbringsel gekauft.",
+            "start": 3,
+            "answer": "お土産",
+            "acceptedAnswers": [
+              "お土産",
+              "土産"
+            ],
+            "distractors": [
+              {
+                "text": "お弁当",
+                "reason": "Dies bezeichnet eine Mahlzeit statt eines Reiseandenken."
+              },
+              {
+                "text": "お薬",
+                "reason": "Dies bezeichnet Medikamente statt eines Reiseandenken."
+              },
+              {
+                "text": "お水",
+                "reason": "Dies bezeichnet Wasser statt eines Reiseandenken."
+              }
+            ],
+            "promptKana": "りょこうの＿＿＿をかいました。"
+          }
+        }
       },
       {
         "japanese": "これ、京都のお土産です。どうぞ。",
@@ -3742,7 +7939,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "In Japan ist es üblich, Kollegen und Freunden お土産 von Reisen mitzubringen. An Bahnhöfen und Flughäfen gibt es große お土産-Abteilungen. Das Wort wird praktisch nie ohne お benutzt und ist ein hervorragendes Beispiel für ein kulturell tief verankertes 美化語.",
-    "related": ["keigo-bikago-obi", "keigo-bikago-omatsuri"]
+    "related": [
+      "keigo-bikago-obi",
+      "keigo-bikago-omatsuri"
+    ]
   },
   {
     "id": "keigo-bikago-omatsuri",
@@ -3757,7 +7957,37 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "今週末、お祭りがありますよ。",
         "romaji": "Konshūmatsu, omatsuri ga arimasu yo.",
-        "german": "Dieses Wochenende gibt es ein Fest."
+        "german": "Dieses Wochenende gibt es ein Fest.",
+        "cloze": {
+          "start": 4,
+          "answer": "お祭り",
+          "quiz": {
+            "level": "N4",
+            "japanese": "今週末、お祭りがありますよ。",
+            "german": "Dieses Wochenende gibt es ein Fest.",
+            "start": 4,
+            "answer": "お祭り",
+            "acceptedAnswers": [
+              "お祭り",
+              "祭り"
+            ],
+            "distractors": [
+              {
+                "text": "お仕事",
+                "reason": "Dies bezeichnet Arbeit statt eines Festes."
+              },
+              {
+                "text": "お休み",
+                "reason": "Dies bezeichnet freie Zeit statt eines Festes."
+              },
+              {
+                "text": "お食事",
+                "reason": "Dies bezeichnet eine Mahlzeit statt eines Festes."
+              }
+            ],
+            "promptKana": "こんしゅうまつ、＿＿＿がありますよ。"
+          }
+        }
       },
       {
         "japanese": "お祭りで浴衣を着ました。",
@@ -3771,7 +8001,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お祭り hat seinen Ursprung in der Verehrung der Götter (祭る = verehren, Kami huldigen). Das お-Präfix zeigt ursprünglich Ehrfurcht vor dem religiösen Charakter des Festes. In zusammengesetzten Wörtern wie 夏祭り oder 花祭り fällt das お weg.",
-    "related": ["keigo-bikago-obi", "keigo-bikago-omiyage"]
+    "related": [
+      "keigo-bikago-obi",
+      "keigo-bikago-omiyage"
+    ]
   },
   {
     "id": "keigo-bikago-gohan",
@@ -3786,7 +8019,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ご飯を食べましたか。",
         "romaji": "Gohan wo tabemashita ka.",
-        "german": "Haben Sie schon gegessen?"
+        "german": "Haben Sie schon gegessen?",
+        "cloze": {
+          "start": 0,
+          "answer": "ご飯",
+          "quiz": {
+            "level": "N3",
+            "japanese": "ご飯を食べましたか。",
+            "german": "Haben Sie schon gegessen?",
+            "start": 0,
+            "answer": "ご飯",
+            "acceptedAnswers": [
+              "ご飯",
+              "食事"
+            ],
+            "distractors": [
+              {
+                "text": "お薬",
+                "reason": "Dies fragt nach Medizin statt der Mahlzeit."
+              },
+              {
+                "text": "お菓子",
+                "reason": "Dies fragt speziell nach Süßigkeiten statt der Mahlzeit."
+              },
+              {
+                "text": "お肉",
+                "reason": "Dies fragt speziell nach Fleisch statt der Mahlzeit."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "ご飯ができましたよ。",
@@ -3800,7 +8062,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご飯 wird sowohl für „Reis“ als auch für „Mahlzeit“ verwendet (朝ご飯 = Frühstück, 昼ご飯 = Mittagessen, 晩ご飯 = Abendessen). 飯（めし）ohne ご klingt derb und wird hauptsächlich von Männern in informeller Sprache benutzt. ご飯 ist ein Beweis dafür, dass Reis im Zentrum der japanischen Esskultur steht.",
-    "related": ["keigo-bikago-ocha", "keigo-bikago-obi"]
+    "related": [
+      "keigo-bikago-ocha",
+      "keigo-bikago-obi"
+    ]
   },
   {
     "id": "keigo-bikago-gokazoku",
@@ -3815,7 +8080,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ご家族はお元気ですか。",
         "romaji": "Gokazoku wa ogenki desu ka.",
-        "german": "Geht es Ihrer Familie gut?"
+        "german": "Geht es Ihrer Familie gut?",
+        "cloze": {
+          "start": 0,
+          "answer": "ご家族",
+          "quiz": {
+            "level": "N3",
+            "japanese": "ご家族はお元気ですか。",
+            "german": "Geht es Ihrer Familie gut?",
+            "start": 0,
+            "answer": "ご家族",
+            "acceptedAnswers": [
+              "ご家族",
+              "家族"
+            ],
+            "distractors": [
+              {
+                "text": "ご住所",
+                "reason": "Dies bezeichnet die Adresse statt der Familie."
+              },
+              {
+                "text": "お名前",
+                "reason": "Dies bezeichnet den Namen statt der Familie."
+              },
+              {
+                "text": "お仕事",
+                "reason": "Dies bezeichnet die Arbeit statt der Familie."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "ご家族の皆様によろしくお伝えください。",
@@ -3829,7 +8123,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Die Unterscheidung zwischen ご家族 (für andere) und 家族 (für sich selbst) ist ein grundlegendes Prinzip des Keigo: Man ehrt die Dinge anderer und bescheidet die eigenen. Ähnlich: ご主人 (Ihr Ehemann) vs. 主人/夫 (mein Mann), ご両親 (Ihre Eltern) vs. 両親/父と母 (meine Eltern).",
-    "related": ["keigo-bikago-obi", "keigo-bikago-gojuusho"]
+    "related": [
+      "keigo-bikago-obi",
+      "keigo-bikago-gojuusho"
+    ]
   },
   {
     "id": "keigo-bikago-gojuusho",
@@ -3844,7 +8141,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ご住所をお教えいただけますか。",
         "romaji": "Gojūsho wo ooshie itadakemasu ka.",
-        "german": "Könnten Sie mir Ihre Adresse mitteilen?"
+        "german": "Könnten Sie mir Ihre Adresse mitteilen?",
+        "cloze": {
+          "start": 0,
+          "answer": "ご住所",
+          "quiz": {
+            "level": "N3",
+            "japanese": "ご住所をお教えいただけますか。",
+            "german": "Könnten Sie mir Ihre Adresse mitteilen?",
+            "start": 0,
+            "answer": "ご住所",
+            "acceptedAnswers": [
+              "ご住所",
+              "住所"
+            ],
+            "distractors": [
+              {
+                "text": "お名前",
+                "reason": "Dies verlangt den Namen statt der Adresse."
+              },
+              {
+                "text": "お電話番号",
+                "reason": "Dies verlangt die Telefonnummer statt der Adresse."
+              },
+              {
+                "text": "お仕事",
+                "reason": "Dies fragt nach der Arbeit statt der Adresse."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "こちらにご住所をご記入ください。",
@@ -3858,7 +8184,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご住所 folgt dem gleichen Muster wie お名前: Man verwendet das Höflichkeitspräfix, wenn man sich auf die Daten des Gegenübers bezieht. Über die eigene Adresse spricht man ohne Präfix: 住所は東京です。In Formularen wird oft ご住所 gedruckt, um Höflichkeit gegenüber dem Ausfüllenden zu zeigen.",
-    "related": ["keigo-bikago-onamae", "keigo-bikago-obi"]
+    "related": [
+      "keigo-bikago-onamae",
+      "keigo-bikago-obi"
+    ]
   },
   {
     "id": "keigo-bikago-prefix-rules",
@@ -3887,7 +8216,11 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Die Unterscheidung 和語→お / 漢語→ご ist eine hilfreiche Faustregel, aber kein absolutes Gesetz. Viele häufig verwendete 漢語 nehmen お (お電話, お料理, お食事, お返事, お天気). Fremdwörter (Katakana) erhalten normalerweise kein Präfix – おコーヒー oder おビール gelten als umgangssprachlich/scherzhaft. Im Zweifel hilft es, sich gebräuchliche Kombinationen einzuprägen.",
-    "related": ["keigo-bikago-obi", "keigo-bikago-gohan"]
+    "related": [
+      "keigo-bikago-obi",
+      "keigo-bikago-gohan"
+    ],
+    "clozeExcludedReason": "Metasprachliche Präfixübersicht; kein eigenständiger Satz für einen Lückentext."
   },
   {
     "id": "keigo-bikago-otearai",
@@ -3902,7 +8235,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お手洗いはどこですか。",
         "romaji": "Otearai wa doko desu ka.",
-        "german": "Wo ist die Toilette?"
+        "german": "Wo ist die Toilette?",
+        "cloze": {
+          "start": 0,
+          "answer": "お手洗い",
+          "quiz": {
+            "level": "N3",
+            "japanese": "お手洗いはどこですか。",
+            "german": "Wo ist die Toilette?",
+            "start": 0,
+            "answer": "お手洗い",
+            "acceptedAnswers": [
+              "お手洗い",
+              "トイレ"
+            ],
+            "distractors": [
+              {
+                "text": "お出口",
+                "reason": "Dies fragt nach dem Ausgang statt der Toilette."
+              },
+              {
+                "text": "お会計",
+                "reason": "Dies fragt nach der Bezahlung statt der Toilette."
+              },
+              {
+                "text": "お食事",
+                "reason": "Dies fragt nach einer Mahlzeit statt der Toilette."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "お手洗いに行ってまいります。",
@@ -3916,7 +8278,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Japanisch hat mehrere Wörter für „Toilette“ mit unterschiedlichem Höflichkeitsgrad: トイレ (neutral, am häufigsten), お手洗い (höflich), 化粧室（けしょうしつ, „Schminkzimmer“, sehr höflich, in Kaufhäusern), お手水（おちょうず, traditionell/religiös). お手洗い ist die sicherste Wahl in höflicher Konversation.",
-    "related": ["keigo-bikago-obi", "keigo-teinei-degozaimasu"]
+    "related": [
+      "keigo-bikago-obi",
+      "keigo-teinei-degozaimasu"
+    ]
   },
   {
     "id": "keigo-bikago-gochisou",
@@ -3931,7 +8296,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "ご馳走様でした。",
         "romaji": "Gochisōsama deshita.",
-        "german": "Danke für das Essen. (nach dem Essen gesagt)"
+        "german": "Danke für das Essen. (nach dem Essen gesagt)",
+        "cloze": {
+          "start": 0,
+          "answer": "ご馳走様",
+          "quiz": {
+            "level": "N3",
+            "japanese": "ご馳走様でした。",
+            "german": "Danke für das Essen. (nach dem Essen gesagt)",
+            "start": 0,
+            "answer": "ご馳走様",
+            "acceptedAnswers": [
+              "ご馳走様",
+              "ごちそうさま"
+            ],
+            "distractors": [
+              {
+                "text": "いただきます",
+                "reason": "いただきます steht vor der Mahlzeit und nicht vor でした."
+              },
+              {
+                "text": "おやすみ",
+                "reason": "Dies ist ein Schlafensgruß, kein Dank fürs Essen."
+              },
+              {
+                "text": "こんにちは",
+                "reason": "Dies ist ein Tagesgruß, kein Dank fürs Essen."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "今日は私がご馳走します。",
@@ -3945,7 +8339,10 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "ご馳走様でした ist eine der wichtigsten japanischen Tischmanieren – man sagt es nach jeder Mahlzeit, ob zu Hause, im Restaurant oder wenn man eingeladen wird. Das Gegenstück vor dem Essen ist いただきます. ご馳走する bedeutet „jemanden einladen/freihalten“ und ist ein nützlicher Ausdruck im Alltag.",
-    "related": ["keigo-bikago-gohan", "keigo-bikago-obi"]
+    "related": [
+      "keigo-bikago-gohan",
+      "keigo-bikago-obi"
+    ]
   },
   {
     "id": "keigo-bikago-otsuri",
@@ -3960,7 +8357,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お釣りをお確かめください。",
         "romaji": "Otsuri wo otashikame kudasai.",
-        "german": "Bitte überprüfen Sie Ihr Wechselgeld."
+        "german": "Bitte überprüfen Sie Ihr Wechselgeld.",
+        "cloze": {
+          "start": 0,
+          "answer": "お釣り",
+          "quiz": {
+            "level": "N3",
+            "japanese": "お釣りをお確かめください。",
+            "german": "Bitte überprüfen Sie Ihr Wechselgeld.",
+            "start": 0,
+            "answer": "お釣り",
+            "acceptedAnswers": [
+              "お釣り",
+              "釣り"
+            ],
+            "distractors": [
+              {
+                "text": "お名前",
+                "reason": "Dies bezeichnet den Namen statt des Wechselgeldes."
+              },
+              {
+                "text": "ご住所",
+                "reason": "Dies bezeichnet die Adresse statt des Wechselgeldes."
+              },
+              {
+                "text": "お荷物",
+                "reason": "Dies bezeichnet Gepäck statt des Wechselgeldes."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "お釣りは結構です。",
@@ -3974,6 +8400,9 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "お釣り hört man ständig an japanischen Kassen. Obwohl Japan zunehmend bargeldloses Bezahlen einführt, ist Bargeld nach wie vor weit verbreitet. Die Kassenphrase お釣りは○○円です gehört zum täglichen Sprachgebrauch. Ohne お bedeutet 釣り ausschließlich „Angeln“.",
-    "related": ["keigo-bikago-okane", "keigo-bikago-obi"]
+    "related": [
+      "keigo-bikago-okane",
+      "keigo-bikago-obi"
+    ]
   }
 ]);

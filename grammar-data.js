@@ -1,3 +1,4 @@
+// Teaching data; editorial sources in scripts/.
 window.GRAMMAR_DATA = [
   {
     "id": "wa",
@@ -10,11 +11,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "私は学生です。",
+        "cloze": {
+          "start": 1,
+          "answer": "は",
+          "quiz": {
+            "level": "N5",
+            "japanese": "私は学生です。",
+            "german": "Ich bin Student.",
+            "start": 1,
+            "answer": "は",
+            "acceptedAnswers": [
+              "は",
+              "が"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "を markiert ein Objekt; die Kopula hat hier keines."
+              },
+              {
+                "text": "で",
+                "reason": "で verbindet hier keinen nominalen Aussagesatz."
+              },
+              {
+                "text": "へ",
+                "reason": "へ bezeichnet eine Richtung, keine Identität."
+              }
+            ],
+            "promptKana": "わたし＿＿＿がくせいです。"
+          }
+        },
         "romaji": "Watashi wa gakusei desu.",
         "german": "Ich bin Student."
       },
       {
         "japanese": "東京は大きいです。",
+        "cloze": {
+          "start": 2,
+          "answer": "は"
+        },
         "romaji": "Tōkyō wa ōkii desu.",
         "german": "Tokio ist groß."
       }
@@ -35,11 +70,46 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "猫がいます。",
+        "cloze": {
+          "start": 1,
+          "answer": "が",
+          "quiz": {
+            "level": "N5",
+            "japanese": "猫がいます。",
+            "german": "Es gibt eine Katze. / Eine Katze ist da.",
+            "start": 1,
+            "answer": "が",
+            "acceptedAnswers": [
+              "が",
+              "は",
+              "も"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "います nimmt hier kein direktes Objekt."
+              },
+              {
+                "text": "へ",
+                "reason": "へ markiert ein Bewegungsziel, keine existierende Katze."
+              },
+              {
+                "text": "の",
+                "reason": "の würde ein Bezugsnomen benötigen."
+              }
+            ],
+            "promptKana": "ねこ＿＿＿います。"
+          }
+        },
         "romaji": "Neko ga imasu.",
         "german": "Es gibt eine Katze. / Eine Katze ist da."
       },
       {
         "japanese": "誰が来ましたか。",
+        "cloze": {
+          "start": 1,
+          "answer": "が"
+        },
         "romaji": "Dare ga kimashita ka.",
         "german": "Wer ist gekommen?"
       }
@@ -62,11 +132,46 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "パンを食べます。",
+        "cloze": {
+          "start": 2,
+          "answer": "を",
+          "quiz": {
+            "level": "N5",
+            "japanese": "パンを食べます。",
+            "german": "Ich esse Brot.",
+            "start": 2,
+            "answer": "を",
+            "acceptedAnswers": [
+              "を",
+              "は",
+              "も"
+            ],
+            "distractors": [
+              {
+                "text": "に",
+                "reason": "に markiert nicht das gegessene Objekt."
+              },
+              {
+                "text": "へ",
+                "reason": "Brot ist hier kein Bewegungsziel."
+              },
+              {
+                "text": "が",
+                "reason": "Bei aktivem 食べます ist Brot das Objekt, nicht der Essende."
+              }
+            ],
+            "promptKana": "パン＿＿＿たべます。"
+          }
+        },
         "romaji": "Pan o tabemasu.",
         "german": "Ich esse Brot."
       },
       {
         "japanese": "公園を歩きます。",
+        "cloze": {
+          "start": 2,
+          "answer": "を"
+        },
         "romaji": "Kōen o arukimasu.",
         "german": "Ich gehe durch den Park."
       }
@@ -88,11 +193,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "学校に行きます。",
+        "cloze": {
+          "start": 2,
+          "answer": "に",
+          "quiz": {
+            "level": "N5",
+            "japanese": "学校に行きます。",
+            "german": "Ich gehe zur Schule.",
+            "start": 2,
+            "answer": "に",
+            "acceptedAnswers": [
+              "に",
+              "へ"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "Die Schule ist ein Ziel, keine durchquerte Strecke."
+              },
+              {
+                "text": "の",
+                "reason": "の kann das Ziel nicht mit 行きます verbinden."
+              },
+              {
+                "text": "が",
+                "reason": "Die Schule ist nicht das Subjekt der Bewegung."
+              }
+            ],
+            "promptKana": "がっこう＿＿＿いきます。"
+          }
+        },
         "romaji": "Gakkō ni ikimasu.",
         "german": "Ich gehe zur Schule."
       },
       {
         "japanese": "七時に起きます。",
+        "cloze": {
+          "start": 2,
+          "answer": "に"
+        },
         "romaji": "Shichi-ji ni okimasu.",
         "german": "Ich stehe um sieben Uhr auf."
       }
@@ -114,11 +253,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "図書館で勉強します。",
+        "cloze": {
+          "start": 3,
+          "answer": "で",
+          "quiz": {
+            "level": "N5",
+            "japanese": "図書館で勉強します。",
+            "german": "Ich lerne in der Bibliothek.",
+            "start": 3,
+            "answer": "で",
+            "acceptedAnswers": [
+              "で"
+            ],
+            "distractors": [
+              {
+                "text": "に",
+                "reason": "Der Handlungsort von 勉強します wird mit で markiert."
+              },
+              {
+                "text": "へ",
+                "reason": "へ würde eine Bewegung verlangen."
+              },
+              {
+                "text": "を",
+                "reason": "Die Bibliothek ist nicht das gelernte Objekt."
+              }
+            ],
+            "promptKana": "としょかん＿＿＿べんきょうします。"
+          }
+        },
         "romaji": "Toshokan de benkyō shimasu.",
         "german": "Ich lerne in der Bibliothek."
       },
       {
         "japanese": "バスで行きます。",
+        "cloze": {
+          "start": 2,
+          "answer": "で"
+        },
         "romaji": "Basu de ikimasu.",
         "german": "Ich fahre mit dem Bus."
       }
@@ -139,11 +311,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本へ行きます。",
+        "cloze": {
+          "start": 2,
+          "answer": "へ",
+          "quiz": {
+            "level": "N5",
+            "japanese": "日本へ行きます。",
+            "german": "Ich fahre nach Japan.",
+            "start": 2,
+            "answer": "へ",
+            "acceptedAnswers": [
+              "へ",
+              "に"
+            ],
+            "distractors": [
+              {
+                "text": "が",
+                "reason": "Japan ist hier das Ziel, nicht der Reisende."
+              },
+              {
+                "text": "の",
+                "reason": "の verbindet hier kein Nomen mit 行きます."
+              },
+              {
+                "text": "を",
+                "reason": "Japan ist hier Reiseziel, nicht durchquerte Strecke."
+              }
+            ],
+            "promptKana": "にほん＿＿＿いきます。"
+          }
+        },
         "romaji": "Nihon e ikimasu.",
         "german": "Ich fahre nach Japan."
       },
       {
         "japanese": "南へ歩きましょう。",
+        "cloze": {
+          "start": 1,
+          "answer": "へ"
+        },
         "romaji": "Minami e arukimashō.",
         "german": "Lasst uns nach Süden gehen."
       }
@@ -164,11 +370,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "九時から始まります。",
+        "cloze": {
+          "start": 2,
+          "answer": "から",
+          "quiz": {
+            "level": "N5",
+            "japanese": "九時から始まります。",
+            "german": "Es beginnt ab neun Uhr.",
+            "start": 2,
+            "answer": "から",
+            "acceptedAnswers": [
+              "から",
+              "に"
+            ],
+            "distractors": [
+              {
+                "text": "まで",
+                "reason": "まで nennt eine Endgrenze, nicht den Beginn ab neun."
+              },
+              {
+                "text": "へ",
+                "reason": "へ bezeichnet eine Richtung, keinen Anfangszeitpunkt."
+              },
+              {
+                "text": "を",
+                "reason": "始まります hat hier kein direktes Objekt."
+              }
+            ],
+            "promptKana": "くじ＿＿＿はじまります。"
+          }
+        },
         "romaji": "Ku-ji kara hajimarimasu.",
         "german": "Es beginnt ab neun Uhr."
       },
       {
         "japanese": "東京から来ました。",
+        "cloze": {
+          "start": 2,
+          "answer": "から"
+        },
         "romaji": "Tōkyō kara kimashita.",
         "german": "Ich komme aus Tokio."
       }
@@ -190,11 +430,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "五時まで働きます。",
+        "cloze": {
+          "start": 2,
+          "answer": "まで",
+          "quiz": {
+            "level": "N5",
+            "japanese": "五時まで働きます。",
+            "german": "Ich arbeite bis fünf Uhr.",
+            "start": 2,
+            "answer": "まで",
+            "acceptedAnswers": [
+              "まで"
+            ],
+            "distractors": [
+              {
+                "text": "から",
+                "reason": "から bedeutet ab fünf statt bis fünf."
+              },
+              {
+                "text": "へ",
+                "reason": "へ markiert keine zeitliche Endgrenze."
+              },
+              {
+                "text": "を",
+                "reason": "を markiert hier weder Arbeitsdauer noch Endzeit."
+              }
+            ],
+            "promptKana": "ごじ＿＿＿はたらきます。"
+          }
+        },
         "romaji": "Go-ji made hatarakimasu.",
         "german": "Ich arbeite bis fünf Uhr."
       },
       {
         "japanese": "駅から学校まで歩きます。",
+        "cloze": {
+          "start": 5,
+          "answer": "まで"
+        },
         "romaji": "Eki kara gakkō made arukimasu.",
         "german": "Ich gehe vom Bahnhof bis zur Schule zu Fuß."
       }
@@ -215,11 +488,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "パンと牛乳を買いました。",
+        "cloze": {
+          "start": 2,
+          "answer": "と",
+          "quiz": {
+            "level": "N5",
+            "japanese": "パンと牛乳を買いました。",
+            "german": "Ich habe Brot und Milch gekauft.",
+            "start": 2,
+            "answer": "と",
+            "acceptedAnswers": [
+              "と",
+              "や"
+            ],
+            "distractors": [
+              {
+                "text": "へ",
+                "reason": "へ koordiniert keine gekauften Gegenstände."
+              },
+              {
+                "text": "で",
+                "reason": "で würde Brot als Mittel statt als weiteren Kaufgegenstand markieren."
+              },
+              {
+                "text": "が",
+                "reason": "が macht Brot zum Subjekt statt zum zweiten Kaufgegenstand."
+              }
+            ],
+            "promptKana": "パン＿＿＿ぎゅうにゅうをかいました。"
+          }
+        },
         "romaji": "Pan to gyūnyū o kaimashita.",
         "german": "Ich habe Brot und Milch gekauft."
       },
       {
         "japanese": "友達と映画を見ました。",
+        "cloze": {
+          "start": 2,
+          "answer": "と"
+        },
         "romaji": "Tomodachi to eiga o mimashita.",
         "german": "Ich habe mit einem Freund einen Film gesehen."
       }
@@ -240,11 +547,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "私の本です。",
+        "cloze": {
+          "start": 1,
+          "answer": "の",
+          "quiz": {
+            "level": "N5",
+            "japanese": "私の本です。",
+            "german": "Das ist mein Buch.",
+            "start": 1,
+            "answer": "の",
+            "acceptedAnswers": [
+              "の"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "を stellt keine Besitzbeziehung zum folgenden Nomen her."
+              },
+              {
+                "text": "へ",
+                "reason": "Eine Richtungsangabe ist keine Besitzangabe."
+              },
+              {
+                "text": "に",
+                "reason": "に kann hier nicht unmittelbar 本 als Besitz bestimmen."
+              }
+            ],
+            "promptKana": "わたし＿＿＿ほんです。"
+          }
+        },
         "romaji": "Watashi no hon desu.",
         "german": "Das ist mein Buch."
       },
       {
         "japanese": "日本語の先生です。",
+        "cloze": {
+          "start": 3,
+          "answer": "の"
+        },
         "romaji": "Nihongo no sensei desu.",
         "german": "Er/Sie ist Japanischlehrer(in)."
       }
@@ -265,6 +605,35 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "私も学生です。",
+        "cloze": {
+          "start": 1,
+          "answer": "も",
+          "quiz": {
+            "level": "N5",
+            "japanese": "私も学生です。",
+            "german": "Ich bin auch Student.",
+            "start": 1,
+            "answer": "も",
+            "acceptedAnswers": [
+              "も"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "Die Kopula verlangt hier kein Objekt."
+              },
+              {
+                "text": "へ",
+                "reason": "Eine Richtung drückt nicht auch aus."
+              },
+              {
+                "text": "の",
+                "reason": "私の学生 würde meinen Studenten statt mich bezeichnen."
+              }
+            ],
+            "promptKana": "わたし＿＿＿がくせいです。"
+          }
+        },
         "romaji": "Watashi mo gakusei desu.",
         "german": "Ich bin auch Student."
       },
@@ -291,11 +660,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "いい天気ですね。",
+        "cloze": {
+          "start": 6,
+          "answer": "ね",
+          "quiz": {
+            "level": "N5",
+            "japanese": "いい天気ですね。",
+            "german": "Schönes Wetter, nicht wahr?",
+            "start": 6,
+            "answer": "ね",
+            "acceptedAnswers": [
+              "ね",
+              "の"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "を kann die Kopula nicht als Satzpartikel abschließen."
+              },
+              {
+                "text": "に",
+                "reason": "に ist hier keine zustimmungssuchende Satzpartikel."
+              },
+              {
+                "text": "ます",
+                "reason": "ですます verdoppelt unzulässig die höfliche Endung."
+              }
+            ],
+            "promptKana": "いいてんきです＿＿＿。"
+          }
+        },
         "romaji": "Ii tenki desu ne.",
         "german": "Schönes Wetter, nicht wahr?"
       },
       {
         "japanese": "この映画はおもしろいですね。",
+        "cloze": {
+          "start": 12,
+          "answer": "ね"
+        },
         "romaji": "Kono eiga wa omoshiroi desu ne.",
         "german": "Dieser Film ist interessant, oder?"
       }
@@ -316,11 +719,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "これはおいしいですよ。",
+        "cloze": {
+          "start": 9,
+          "answer": "よ",
+          "quiz": {
+            "level": "N5",
+            "japanese": "これはおいしいですよ。",
+            "german": "Das ist lecker, sage ich dir!",
+            "start": 9,
+            "answer": "よ",
+            "acceptedAnswers": [
+              "よ"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "を ist nach です keine passende Satzpartikel."
+              },
+              {
+                "text": "に",
+                "reason": "に schließt diesen Kopulasatz nicht ab."
+              },
+              {
+                "text": "へ",
+                "reason": "へ ist eine Richtungspartikel, keine Bekräftigung."
+              }
+            ],
+            "promptKana": "これはおいしいです＿＿＿。"
+          }
+        },
         "romaji": "Kore wa oishii desu yo.",
         "german": "Das ist lecker, sage ich dir!"
       },
       {
         "japanese": "もう遅いですよ。",
+        "cloze": {
+          "start": 6,
+          "answer": "よ"
+        },
         "romaji": "Mō osoi desu yo.",
         "german": "Es ist schon spät!"
       }
@@ -341,11 +777,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "学生ですか。",
+        "cloze": {
+          "start": 4,
+          "answer": "か",
+          "quiz": {
+            "level": "N5",
+            "japanese": "学生ですか。",
+            "german": "Sind Sie Student?",
+            "start": 4,
+            "answer": "か",
+            "acceptedAnswers": [
+              "か"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "を bildet nach です keine Frage."
+              },
+              {
+                "text": "に",
+                "reason": "に bildet nach です keine Frage."
+              },
+              {
+                "text": "へ",
+                "reason": "へ bildet nach です keine Frage."
+              }
+            ],
+            "promptKana": "がくせいです＿＿＿。"
+          }
+        },
         "romaji": "Gakusei desu ka.",
         "german": "Sind Sie Student?"
       },
       {
         "japanese": "何を食べますか。",
+        "cloze": {
+          "start": 6,
+          "answer": "か"
+        },
         "romaji": "Nani o tabemasu ka.",
         "german": "Was essen Sie?"
       }
@@ -364,11 +833,47 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "りんごやみかんを買いました。",
+        "cloze": {
+          "start": 3,
+          "answer": "や",
+          "quiz": {
+            "level": "N5",
+            "japanese": "りんごやみかんを買いました。",
+            "german": "Ich habe Äpfel und Mandarinen (und anderes) gekauft.",
+            "start": 3,
+            "answer": "や",
+            "acceptedAnswers": [
+              "や",
+              "とか",
+              "と",
+              "に"
+            ],
+            "distractors": [
+              {
+                "text": "へ",
+                "reason": "へ zählt keine Kaufgegenstände auf."
+              },
+              {
+                "text": "が",
+                "reason": "が würde Äpfel zum Subjekt machen."
+              },
+              {
+                "text": "の",
+                "reason": "Dies macht Äpfel zum Attribut der Mandarinen statt beide aufzuzählen."
+              }
+            ],
+            "promptKana": "りんご＿＿＿みかんをかいました。"
+          }
+        },
         "romaji": "Ringo ya mikan o kaimashita.",
         "german": "Ich habe Äpfel und Mandarinen (und anderes) gekauft."
       },
       {
         "japanese": "本やノートなどがあります。",
+        "cloze": {
+          "start": 1,
+          "answer": "や"
+        },
         "romaji": "Hon ya nōto nado ga arimasu.",
         "german": "Es gibt Bücher, Hefte und so weiter."
       }
@@ -389,11 +894,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "毎日日本語を勉強します。",
+        "cloze": {
+          "start": 9,
+          "answer": "ます",
+          "quiz": {
+            "level": "N5",
+            "japanese": "毎日日本語を勉強します。",
+            "german": "Ich lerne jeden Tag Japanisch.",
+            "start": 9,
+            "answer": "ます",
+            "acceptedAnswers": [
+              "ます"
+            ],
+            "distractors": [
+              {
+                "text": "ません",
+                "reason": "Die Übersetzung ist positiv, nicht ich lerne nicht."
+              },
+              {
+                "text": "ました",
+                "reason": "Die Übersetzung beschreibt eine gegenwärtige Gewohnheit, keine abgeschlossene Vergangenheit."
+              },
+              {
+                "text": "ませんでした",
+                "reason": "Dies wäre eine negative Vergangenheit."
+              }
+            ],
+            "promptKana": "まいにちにほんごをべんきょうし＿＿＿。"
+          }
+        },
         "romaji": "Mainichi nihongo o benkyō shimasu.",
         "german": "Ich lerne jeden Tag Japanisch."
       },
       {
         "japanese": "明日友達に会います。",
+        "cloze": {
+          "start": 7,
+          "answer": "ます"
+        },
         "romaji": "Ashita tomodachi ni aimasu.",
         "german": "Morgen treffe ich einen Freund."
       }
@@ -416,11 +954,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "肉を食べません。",
+        "cloze": {
+          "start": 4,
+          "answer": "ません",
+          "quiz": {
+            "level": "N5",
+            "japanese": "肉を食べません。",
+            "german": "Ich esse kein Fleisch.",
+            "start": 4,
+            "answer": "ません",
+            "acceptedAnswers": [
+              "ません"
+            ],
+            "distractors": [
+              {
+                "text": "ます",
+                "reason": "Dies wäre eine positive Aussage: ich esse Fleisch."
+              },
+              {
+                "text": "ました",
+                "reason": "Dies wäre positive Vergangenheit."
+              },
+              {
+                "text": "ましょう",
+                "reason": "Dies wäre ein Vorschlag, keine Verneinung."
+              }
+            ],
+            "promptKana": "にくをたべ＿＿＿。"
+          }
+        },
         "romaji": "Niku o tabemasen.",
         "german": "Ich esse kein Fleisch."
       },
       {
         "japanese": "今日は学校に行きません。",
+        "cloze": {
+          "start": 8,
+          "answer": "ません"
+        },
         "romaji": "Kyō wa gakkō ni ikimasen.",
         "german": "Heute gehe ich nicht zur Schule."
       }
@@ -443,11 +1014,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "昨日映画を見ました。",
+        "cloze": {
+          "start": 6,
+          "answer": "ました",
+          "quiz": {
+            "level": "N5",
+            "japanese": "昨日映画を見ました。",
+            "german": "Gestern habe ich einen Film gesehen.",
+            "start": 6,
+            "answer": "ました",
+            "acceptedAnswers": [
+              "ました"
+            ],
+            "distractors": [
+              {
+                "text": "ます",
+                "reason": "昨日 verlangt für die abgeschlossene Handlung Vergangenheit."
+              },
+              {
+                "text": "ません",
+                "reason": "Dies wäre Gegenwart und negativ."
+              },
+              {
+                "text": "ませんでした",
+                "reason": "Die Übersetzung bejaht den Kinobesuch."
+              }
+            ],
+            "promptKana": "きのうえいがをみ＿＿＿。"
+          }
+        },
         "romaji": "Kinō eiga o mimashita.",
         "german": "Gestern habe ich einen Film gesehen."
       },
       {
         "japanese": "日本に行きました。",
+        "cloze": {
+          "start": 5,
+          "answer": "ました"
+        },
         "romaji": "Nihon ni ikimashita.",
         "german": "Ich bin nach Japan gegangen."
       }
@@ -470,11 +1074,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "朝ごはんを食べませんでした。",
+        "cloze": {
+          "start": 7,
+          "answer": "ませんでした",
+          "quiz": {
+            "level": "N5",
+            "japanese": "朝ごはんを食べませんでした。",
+            "german": "Ich habe kein Frühstück gegessen.",
+            "start": 7,
+            "answer": "ませんでした",
+            "acceptedAnswers": [
+              "ませんでした"
+            ],
+            "distractors": [
+              {
+                "text": "ました",
+                "reason": "Dies bejaht das Frühstück."
+              },
+              {
+                "text": "ます",
+                "reason": "Dies ist positive Gegenwart."
+              },
+              {
+                "text": "ましょう",
+                "reason": "Dies schlägt gemeinsames Frühstücken vor."
+              }
+            ],
+            "promptKana": "あさごはんをたべ＿＿＿。"
+          }
+        },
         "romaji": "Asagohan o tabemasen deshita.",
         "german": "Ich habe kein Frühstück gegessen."
       },
       {
         "japanese": "昨日勉強しませんでした。",
+        "cloze": {
+          "start": 5,
+          "answer": "ませんでした"
+        },
         "romaji": "Kinō benkyō shimasen deshita.",
         "german": "Gestern habe ich nicht gelernt."
       }
@@ -497,11 +1134,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "本を読んでいます。",
+        "cloze": {
+          "start": 4,
+          "answer": "で",
+          "quiz": {
+            "level": "N5",
+            "japanese": "本を読んでいます。",
+            "german": "Ich lese gerade ein Buch.",
+            "start": 4,
+            "answer": "で",
+            "acceptedAnswers": [
+              "で"
+            ],
+            "distractors": [
+              {
+                "text": "て",
+                "reason": "読む bildet die stimmhafte Verbindung 読んで."
+              },
+              {
+                "text": "た",
+                "reason": "読んた ist keine Form von 読む."
+              },
+              {
+                "text": "だ",
+                "reason": "読んだ kann nicht unmittelbar vor います stehen."
+              }
+            ],
+            "promptKana": "ほんをよん＿＿＿います。"
+          }
+        },
         "romaji": "Hon o yonde imasu.",
         "german": "Ich lese gerade ein Buch."
       },
       {
         "japanese": "食べて寝ました。",
+        "cloze": {
+          "start": 2,
+          "answer": "て"
+        },
         "romaji": "Tabete nemashita.",
         "german": "Ich habe gegessen und bin schlafen gegangen."
       }
@@ -526,7 +1196,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "今、本を読んでいます。",
         "romaji": "Ima, hon o yonde imasu.",
-        "german": "Ich lese gerade ein Buch."
+        "german": "Ich lese gerade ein Buch.",
+        "cloze": {
+          "start": 4,
+          "answer": "読んでいます",
+          "quiz": {
+            "level": "N5",
+            "japanese": "今、本を読んでいます。",
+            "german": "Ich lese gerade ein Buch.",
+            "start": 4,
+            "answer": "読んでいます",
+            "acceptedAnswers": [
+              "読んでいます"
+            ],
+            "distractors": [
+              {
+                "text": "読みます",
+                "reason": "Die Übersetzung betont die gerade laufende Handlung."
+              },
+              {
+                "text": "読みません",
+                "reason": "Dies verneint das Lesen."
+              },
+              {
+                "text": "読みました",
+                "reason": "Dies bezeichnet abgeschlossenes Lesen statt gerade laufendes Lesen."
+              }
+            ],
+            "promptKana": "いま、ほんを＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "東京に住んでいます。",
@@ -550,11 +1249,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "ここに名前を書いてください。",
+        "cloze": {
+          "start": 8,
+          "answer": "てください",
+          "quiz": {
+            "level": "N5",
+            "japanese": "ここに名前を書いてください。",
+            "german": "Bitte schreiben Sie hier Ihren Namen.",
+            "start": 8,
+            "answer": "てください",
+            "acceptedAnswers": [
+              "てください"
+            ],
+            "distractors": [
+              {
+                "text": "でください",
+                "reason": "書く bildet 書いて, nicht 書いで."
+              },
+              {
+                "text": "たください",
+                "reason": "ください wird nicht an die た-Form angeschlossen."
+              },
+              {
+                "text": "ますください",
+                "reason": "ください wird nicht an die ます-Form angeschlossen."
+              }
+            ],
+            "promptKana": "ここになまえをかい＿＿＿。"
+          }
+        },
         "romaji": "Koko ni namae o kaite kudasai.",
         "german": "Bitte schreiben Sie hier Ihren Namen."
       },
       {
         "japanese": "もう一度言ってください。",
+        "cloze": {
+          "start": 6,
+          "answer": "てください"
+        },
         "romaji": "Mō ichido itte kudasai.",
         "german": "Bitte sagen Sie es noch einmal."
       }
@@ -576,11 +1308,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "ここで写真を撮らないでください。",
+        "cloze": {
+          "start": 8,
+          "answer": "ないでください",
+          "quiz": {
+            "level": "N5",
+            "japanese": "ここで写真を撮らないでください。",
+            "german": "Bitte machen Sie hier keine Fotos.",
+            "start": 8,
+            "answer": "ないでください",
+            "acceptedAnswers": [
+              "ないでください"
+            ],
+            "distractors": [
+              {
+                "text": "なくください",
+                "reason": "Die negative Bitte braucht ないで, nicht なく."
+              },
+              {
+                "text": "ませんください",
+                "reason": "ません verbindet sich nicht direkt mit ください."
+              },
+              {
+                "text": "なかったください",
+                "reason": "Die Vergangenheitsverneinung bildet keine Bitte."
+              }
+            ],
+            "promptKana": "ここでしゃしんをとら＿＿＿。"
+          }
+        },
         "romaji": "Koko de shashin o toranaide kudasai.",
         "german": "Bitte machen Sie hier keine Fotos."
       },
       {
         "japanese": "心配しないでください。",
+        "cloze": {
+          "start": 3,
+          "answer": "ないでください"
+        },
         "romaji": "Shinpai shinaide kudasai.",
         "german": "Bitte machen Sie sich keine Sorgen."
       }
@@ -601,11 +1366,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "水を飲みたいです。",
+        "cloze": {
+          "start": 4,
+          "answer": "たい",
+          "quiz": {
+            "level": "N5",
+            "japanese": "水を飲みたいです。",
+            "german": "Ich möchte Wasser trinken.",
+            "start": 4,
+            "answer": "たい",
+            "acceptedAnswers": [
+              "たい"
+            ],
+            "distractors": [
+              {
+                "text": "ます",
+                "reason": "飲みますです verdoppelt unzulässig die höfliche Endung."
+              },
+              {
+                "text": "ません",
+                "reason": "飲みませんです ist hier keine Wunschform."
+              },
+              {
+                "text": "ました",
+                "reason": "飲みましたです ist hier keine Wunschform."
+              }
+            ],
+            "promptKana": "みずをのみ＿＿＿です。"
+          }
+        },
         "romaji": "Mizu o nomitai desu.",
         "german": "Ich möchte Wasser trinken."
       },
       {
         "japanese": "日本に行きたいです。",
+        "cloze": {
+          "start": 5,
+          "answer": "たい"
+        },
         "romaji": "Nihon ni ikitai desu.",
         "german": "Ich möchte nach Japan gehen."
       }
@@ -626,11 +1424,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "一緒に行きましょう。",
+        "cloze": {
+          "start": 5,
+          "answer": "ましょう",
+          "quiz": {
+            "level": "N5",
+            "japanese": "一緒に行きましょう。",
+            "german": "Lasst uns zusammen gehen.",
+            "start": 5,
+            "answer": "ましょう",
+            "acceptedAnswers": [
+              "ましょう"
+            ],
+            "distractors": [
+              {
+                "text": "ません",
+                "reason": "Dies ist eine Verneinung, kein gemeinsamer Vorschlag."
+              },
+              {
+                "text": "ました",
+                "reason": "Dies berichtet Vergangenheit."
+              },
+              {
+                "text": "ませんでした",
+                "reason": "Dies verneint eine vergangene Handlung."
+              }
+            ],
+            "promptKana": "いっしょにいき＿＿＿。"
+          }
+        },
         "romaji": "Issho ni ikimashō.",
         "german": "Lasst uns zusammen gehen."
       },
       {
         "japanese": "休みましょう。",
+        "cloze": {
+          "start": 2,
+          "answer": "ましょう"
+        },
         "romaji": "Yasumimashō.",
         "german": "Lasst uns eine Pause machen."
       }
@@ -651,11 +1482,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "窓を開けましょうか。",
+        "cloze": {
+          "start": 4,
+          "answer": "ましょうか",
+          "quiz": {
+            "level": "N5",
+            "japanese": "窓を開けましょうか。",
+            "german": "Soll ich das Fenster öffnen?",
+            "start": 4,
+            "answer": "ましょうか",
+            "acceptedAnswers": [
+              "ましょうか"
+            ],
+            "distractors": [
+              {
+                "text": "ました",
+                "reason": "Dies berichtet eine vergangene Handlung statt Hilfe anzubieten."
+              },
+              {
+                "text": "ません",
+                "reason": "Dies verneint das Öffnen statt Hilfe anzubieten."
+              },
+              {
+                "text": "ませんでした",
+                "reason": "Dies berichtet, dass nicht geöffnet wurde."
+              }
+            ],
+            "promptKana": "まどをあけ＿＿＿。"
+          }
+        },
         "romaji": "Mado o akemashō ka.",
         "german": "Soll ich das Fenster öffnen?"
       },
       {
         "japanese": "一緒に昼ごはんを食べましょうか。",
+        "cloze": {
+          "start": 10,
+          "answer": "ましょうか"
+        },
         "romaji": "Issho ni hirugohan o tabemashō ka.",
         "german": "Sollen wir zusammen Mittag essen?"
       }
@@ -676,11 +1540,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "ここで写真を撮ってもいいですか。",
+        "cloze": {
+          "start": 8,
+          "answer": "てもいいです",
+          "quiz": {
+            "level": "N5",
+            "japanese": "ここで写真を撮ってもいいですか。",
+            "german": "Darf ich hier fotografieren?",
+            "start": 8,
+            "answer": "てもいいです",
+            "acceptedAnswers": [
+              "てもいいです"
+            ],
+            "distractors": [
+              {
+                "text": "たもいいです",
+                "reason": "Erlaubnis wird an die て-Form angeschlossen."
+              },
+              {
+                "text": "てもいいでした",
+                "reason": "いい bildet Vergangenheit nicht mit でした."
+              },
+              {
+                "text": "てもいいます",
+                "reason": "いい als Adjektiv nimmt kein ます an."
+              }
+            ],
+            "promptKana": "ここでしゃしんをとっ＿＿＿か。"
+          }
+        },
         "romaji": "Koko de shashin o totte mo ii desu ka.",
         "german": "Darf ich hier fotografieren?"
       },
       {
         "japanese": "帰ってもいいですよ。",
+        "cloze": {
+          "start": 2,
+          "answer": "てもいいです"
+        },
         "romaji": "Kaette mo ii desu yo.",
         "german": "Du darfst nach Hause gehen."
       }
@@ -703,11 +1600,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "ここでタバコを吸ってはいけません。",
+        "cloze": {
+          "start": 9,
+          "answer": "てはいけません",
+          "quiz": {
+            "level": "N5",
+            "japanese": "ここでタバコを吸ってはいけません。",
+            "german": "Hier darf man nicht rauchen.",
+            "start": 9,
+            "answer": "てはいけません",
+            "acceptedAnswers": [
+              "てはいけません"
+            ],
+            "distractors": [
+              {
+                "text": "たはいけません",
+                "reason": "Das Verbot braucht die て-Form vor は."
+              },
+              {
+                "text": "てもいいです",
+                "reason": "Dies erlaubt das Rauchen ausdrücklich."
+              },
+              {
+                "text": "てください",
+                "reason": "Dies fordert zum Rauchen auf."
+              }
+            ],
+            "promptKana": "ここでタバコをすっ＿＿＿。"
+          }
+        },
         "romaji": "Koko de tabako o sutte wa ikemasen.",
         "german": "Hier darf man nicht rauchen."
       },
       {
         "japanese": "教室で食べてはいけません。",
+        "cloze": {
+          "start": 5,
+          "answer": "てはいけません"
+        },
         "romaji": "Kyōshitsu de tabete wa ikemasen.",
         "german": "Im Klassenzimmer darf man nicht essen."
       }
@@ -730,7 +1660,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "日本語を話すことができます。",
         "romaji": "Nihongo o hanasu koto ga dekimasu.",
-        "german": "Ich kann Japanisch sprechen."
+        "german": "Ich kann Japanisch sprechen.",
+        "cloze": {
+          "start": 6,
+          "answer": "ことができます",
+          "quiz": {
+            "level": "N5",
+            "japanese": "日本語を話すことができます。",
+            "german": "Ich kann Japanisch sprechen.",
+            "start": 6,
+            "answer": "ことができます",
+            "acceptedAnswers": [
+              "ことができます"
+            ],
+            "distractors": [
+              {
+                "text": "ことをできます",
+                "reason": "できる verlangt in dieser Konstruktion が."
+              },
+              {
+                "text": "ことができません",
+                "reason": "Die Übersetzung bejaht die Fähigkeit."
+              },
+              {
+                "text": "ことができました",
+                "reason": "Die Übersetzung nennt gegenwärtige Fähigkeit, keine vergangene Möglichkeit."
+              }
+            ],
+            "promptKana": "にほんごをはなす＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "漢字を読むことができますか。",
@@ -753,7 +1712,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "日本に行ったことがあります。",
         "romaji": "Nihon ni itta koto ga arimasu.",
-        "german": "Ich war schon einmal in Japan."
+        "german": "Ich war schon einmal in Japan.",
+        "cloze": {
+          "start": 5,
+          "answer": "たことがあります",
+          "quiz": {
+            "level": "N5",
+            "japanese": "日本に行ったことがあります。",
+            "german": "Ich war schon einmal in Japan.",
+            "start": 5,
+            "answer": "たことがあります",
+            "acceptedAnswers": [
+              "たことがあります"
+            ],
+            "distractors": [
+              {
+                "text": "たことがありません",
+                "reason": "Dies verneint die Erfahrung."
+              },
+              {
+                "text": "てことがあります",
+                "reason": "Die Erfahrung verlangt die た-Form."
+              },
+              {
+                "text": "ますことがあります",
+                "reason": "Vor こと steht hier keine ます-Form."
+              }
+            ],
+            "promptKana": "にほんにいっ＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "すしを食べたことがありますか。",
@@ -776,7 +1764,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "映画を見に行きます。",
         "romaji": "Eiga o mi ni ikimasu.",
-        "german": "Ich gehe einen Film sehen."
+        "german": "Ich gehe einen Film sehen.",
+        "cloze": {
+          "start": 4,
+          "answer": "に行きます",
+          "quiz": {
+            "level": "N5",
+            "japanese": "映画を見に行きます。",
+            "german": "Ich gehe einen Film sehen.",
+            "start": 4,
+            "answer": "に行きます",
+            "acceptedAnswers": [
+              "に行きます"
+            ],
+            "distractors": [
+              {
+                "text": "を行きます",
+                "reason": "Zweck nach dem Verbstamm wird mit に markiert."
+              },
+              {
+                "text": "が行きます",
+                "reason": "が verbindet den Verbstamm nicht als Zweck."
+              },
+              {
+                "text": "で行きます",
+                "reason": "で ist hier kein Zweckanschluss an 見."
+              }
+            ],
+            "promptKana": "えいがをみ＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "昼ごはんを食べに来ませんか。",
@@ -800,11 +1817,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "音楽を聞きながら勉強します。",
+        "cloze": {
+          "start": 5,
+          "answer": "ながら",
+          "quiz": {
+            "level": "N4",
+            "japanese": "音楽を聞きながら勉強します。",
+            "german": "Ich lerne während ich Musik höre.",
+            "start": 5,
+            "answer": "ながら",
+            "acceptedAnswers": [
+              "ながら"
+            ],
+            "distractors": [
+              {
+                "text": "てから",
+                "reason": "聞きて ist keine て-Form; außerdem wäre erst danach gemeint."
+              },
+              {
+                "text": "たあとで",
+                "reason": "聞きた ist keine た-Form."
+              },
+              {
+                "text": "ないで",
+                "reason": "聞きない ist keine Negativform."
+              }
+            ],
+            "promptKana": "おんがくをきき＿＿＿べんきょうします。"
+          }
+        },
         "romaji": "Ongaku o kikinagara benkyō shimasu.",
         "german": "Ich lerne während ich Musik höre."
       },
       {
         "japanese": "テレビを見ながら食べないでください。",
+        "cloze": {
+          "start": 5,
+          "answer": "ながら"
+        },
         "romaji": "Terebi o minagara tabenaide kudasai.",
         "german": "Bitte essen Sie nicht beim Fernsehen."
       }
@@ -823,11 +1873,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "寝る前に歯を磨きます。",
+        "cloze": {
+          "start": 2,
+          "answer": "前に",
+          "quiz": {
+            "level": "N5",
+            "japanese": "寝る前に歯を磨きます。",
+            "german": "Vor dem Schlafen putze ich mir die Zähne.",
+            "start": 2,
+            "answer": "前に",
+            "acceptedAnswers": [
+              "前に"
+            ],
+            "distractors": [
+              {
+                "text": "後で",
+                "reason": "Nach der Wörterbuchform 寝る passt nicht 寝た後で; außerdem ist vor gemeint."
+              },
+              {
+                "text": "ながら",
+                "reason": "ながら verlangt den Stamm 寝, nicht 寝る."
+              },
+              {
+                "text": "てから",
+                "reason": "てから muss an die passende て-Form angeschlossen werden."
+              }
+            ],
+            "promptKana": "ねる＿＿＿はをみがきます。"
+          }
+        },
         "romaji": "Neru mae ni ha o migakimasu.",
         "german": "Vor dem Schlafen putze ich mir die Zähne."
       },
       {
         "japanese": "食事の前に手を洗ってください。",
+        "cloze": {
+          "start": 3,
+          "answer": "前に"
+        },
         "romaji": "Shokuji no mae ni te o aratte kudasai.",
         "german": "Bitte waschen Sie sich vor dem Essen die Hände."
       }
@@ -848,11 +1931,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "仕事の後で飲みに行きましょう。",
+        "cloze": {
+          "start": 3,
+          "answer": "後で",
+          "quiz": {
+            "level": "N5",
+            "japanese": "仕事の後で飲みに行きましょう。",
+            "german": "Lasst uns nach der Arbeit trinken gehen.",
+            "start": 3,
+            "answer": "後で",
+            "acceptedAnswers": [
+              "後で"
+            ],
+            "distractors": [
+              {
+                "text": "前に",
+                "reason": "前に bedeutet vor, nicht nach der Arbeit."
+              },
+              {
+                "text": "ながら",
+                "reason": "仕事のながら ist kein passender Anschluss."
+              },
+              {
+                "text": "てから",
+                "reason": "仕事のてから ist kein passender Anschluss."
+              }
+            ],
+            "promptKana": "しごとの＿＿＿のみにいきましょう。"
+          }
+        },
         "romaji": "Shigoto no ato de nomi ni ikimashō.",
         "german": "Lasst uns nach der Arbeit trinken gehen."
       },
       {
         "japanese": "ごはんを食べた後で散歩しました。",
+        "cloze": {
+          "start": 7,
+          "answer": "後で"
+        },
         "romaji": "Gohan o tabeta ato de sanpo shimashita.",
         "german": "Nachdem ich gegessen hatte, habe ich einen Spaziergang gemacht."
       }
@@ -875,7 +1991,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "週末は本を読んだりテレビを見たりします。",
         "romaji": "Shūmatsu wa hon o yondari terebi o mitari shimasu.",
-        "german": "Am Wochenende lese ich Bücher, schaue Fernsehen und so weiter."
+        "german": "Am Wochenende lese ich Bücher, schaue Fernsehen und so weiter.",
+        "cloze": {
+          "start": 5,
+          "answer": "読んだりテレビを見たりします",
+          "quiz": {
+            "level": "N5",
+            "japanese": "週末は本を読んだりテレビを見たりします。",
+            "german": "Am Wochenende lese ich Bücher, schaue Fernsehen und so weiter.",
+            "start": 5,
+            "answer": "読んだりテレビを見たりします",
+            "acceptedAnswers": [
+              "読んだりテレビを見たりします"
+            ],
+            "distractors": [
+              {
+                "text": "読んたりテレビを見たりします",
+                "reason": "読む bildet 読んだり, nicht 読んたり."
+              },
+              {
+                "text": "読んだりテレビを見だりします",
+                "reason": "見る bildet 見たり, nicht 見だり."
+              },
+              {
+                "text": "読むたりテレビを見るたりします",
+                "reason": "たり verlangt die た-Form der Verben."
+              }
+            ],
+            "promptKana": "しゅうまつはほんを＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "休みの日は買い物したり料理したりしました。",
@@ -899,11 +2044,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "手を洗ってから食べてください。",
+        "cloze": {
+          "start": 4,
+          "answer": "てから",
+          "quiz": {
+            "level": "N5",
+            "japanese": "手を洗ってから食べてください。",
+            "german": "Bitte essen Sie, nachdem Sie sich die Hände gewaschen haben.",
+            "start": 4,
+            "answer": "てから",
+            "acceptedAnswers": [
+              "てから"
+            ],
+            "distractors": [
+              {
+                "text": "たから",
+                "reason": "Dies nennt einen Grund statt die Reihenfolge der Bitte."
+              },
+              {
+                "text": "ますから",
+                "reason": "洗っます ist keine Verbform."
+              },
+              {
+                "text": "ないから",
+                "reason": "洗っない ist keine Verbform."
+              }
+            ],
+            "promptKana": "てをあらっ＿＿＿たべてください。"
+          }
+        },
         "romaji": "Te o aratte kara tabete kudasai.",
         "german": "Bitte essen Sie, nachdem Sie sich die Hände gewaschen haben."
       },
       {
         "japanese": "日本に来てから日本語を勉強し始めました。",
+        "cloze": {
+          "start": 4,
+          "answer": "てから"
+        },
         "romaji": "Nihon ni kite kara nihongo o benkyō shihajimemashita.",
         "german": "Seit ich nach Japan gekommen bin, habe ich angefangen Japanisch zu lernen."
       }
@@ -925,11 +2103,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "朝ごはんを食べないで学校に行きました。",
+        "cloze": {
+          "start": 7,
+          "answer": "ないで",
+          "quiz": {
+            "level": "N5",
+            "japanese": "朝ごはんを食べないで学校に行きました。",
+            "german": "Ich bin zur Schule gegangen, ohne zu frühstücken.",
+            "start": 7,
+            "answer": "ないで",
+            "acceptedAnswers": [
+              "ないで"
+            ],
+            "distractors": [
+              {
+                "text": "てから",
+                "reason": "Dies besagt, dass vorher gefrühstückt wurde."
+              },
+              {
+                "text": "ながら",
+                "reason": "Dies beschreibt gleichzeitiges Essen statt ohne Frühstück."
+              },
+              {
+                "text": "た後で",
+                "reason": "Dies besagt nach dem Frühstück."
+              }
+            ],
+            "promptKana": "あさごはんをたべ＿＿＿がっこうにいきました。"
+          }
+        },
         "romaji": "Asagohan o tabenaide gakkō ni ikimashita.",
         "german": "Ich bin zur Schule gegangen, ohne zu frühstücken."
       },
       {
         "japanese": "辞書を使わないで読みました。",
+        "cloze": {
+          "start": 5,
+          "answer": "ないで"
+        },
         "romaji": "Jisho o tsukawanaide yomimashita.",
         "german": "Ich habe es gelesen, ohne ein Wörterbuch zu benutzen."
       }
@@ -951,7 +2162,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "昨日食べすぎました。",
         "romaji": "Kinō tabesugimashita.",
-        "german": "Gestern habe ich zu viel gegessen."
+        "german": "Gestern habe ich zu viel gegessen.",
+        "cloze": {
+          "start": 4,
+          "answer": "すぎました",
+          "quiz": {
+            "level": "N4",
+            "japanese": "昨日食べすぎました。",
+            "german": "Gestern habe ich zu viel gegessen.",
+            "start": 4,
+            "answer": "すぎました",
+            "acceptedAnswers": [
+              "すぎました"
+            ],
+            "distractors": [
+              {
+                "text": "すぎます",
+                "reason": "Die abgeschlossene Handlung gestern braucht Vergangenheit."
+              },
+              {
+                "text": "すぎませんでした",
+                "reason": "Dies verneint das zu viele Essen."
+              },
+              {
+                "text": "すぎでした",
+                "reason": "すぎる ist ein Verb und bildet die höfliche Vergangenheit mit ました."
+              }
+            ],
+            "promptKana": "きのうたべ＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "この鞄は高すぎます。",
@@ -973,11 +2213,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この漢字の読み方を教えてください。",
+        "cloze": {
+          "start": 7,
+          "answer": "方",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この漢字の読み方を教えてください。",
+            "german": "Bitte sagen Sie mir, wie man dieses Kanji liest.",
+            "start": 7,
+            "answer": "方",
+            "acceptedAnswers": [
+              "方"
+            ],
+            "distractors": [
+              {
+                "text": "ながら",
+                "reason": "ながら ergibt hier kein Nomen für die Art des Lesens."
+              },
+              {
+                "text": "ます",
+                "reason": "読みます kann nicht direkt vor を stehen."
+              },
+              {
+                "text": "たい",
+                "reason": "読みたい benötigt hier eine Nominalisierung statt des unmittelbaren を."
+              }
+            ],
+            "promptKana": "このかんじのよみ＿＿＿をおしえてください。"
+          }
+        },
         "romaji": "Kono kanji no yomikata o oshiete kudasai.",
         "german": "Bitte sagen Sie mir, wie man dieses Kanji liest."
       },
       {
         "japanese": "使い方が分かりません。",
+        "cloze": {
+          "start": 2,
+          "answer": "方"
+        },
         "romaji": "Tsukaikata ga wakarimasen.",
         "german": "Ich verstehe die Bedienung nicht."
       }
@@ -997,7 +2270,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "朝起きて、顔を洗って、朝ごはんを食べます。",
         "romaji": "Asa okite, kao o aratte, asagohan o tabemasu.",
-        "german": "Morgens stehe ich auf, wasche mir das Gesicht und frühstücke."
+        "german": "Morgens stehe ich auf, wasche mir das Gesicht und frühstücke.",
+        "cloze": {
+          "start": 1,
+          "answer": "起きて",
+          "quiz": {
+            "level": "N5",
+            "japanese": "朝起きて、顔を洗って、朝ごはんを食べます。",
+            "german": "Morgens stehe ich auf, wasche mir das Gesicht und frühstücke.",
+            "start": 1,
+            "answer": "起きて",
+            "acceptedAnswers": [
+              "起きて"
+            ],
+            "distractors": [
+              {
+                "text": "起きたて",
+                "reason": "起きたて ist eine nominale Frisch-Form und verbindet die Handlung hier nicht."
+              },
+              {
+                "text": "起きますて",
+                "reason": "Die て-Form wird nicht an ます angehängt."
+              },
+              {
+                "text": "起きないで",
+                "reason": "Dies besagt ohne aufzustehen und widerspricht der Abfolge."
+              }
+            ],
+            "promptKana": "あさ＿＿＿、かおをあらって、あさごはんをたべます。"
+          }
+        }
       },
       {
         "japanese": "バスに乗って学校に行きます。",
@@ -1021,11 +2323,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "明日は来なくてもいいです。",
+        "cloze": {
+          "start": 4,
+          "answer": "なくてもいい",
+          "quiz": {
+            "level": "N5",
+            "japanese": "明日は来なくてもいいです。",
+            "german": "Du brauchst morgen nicht zu kommen.",
+            "start": 4,
+            "answer": "なくてもいい",
+            "acceptedAnswers": [
+              "なくてもいい"
+            ],
+            "distractors": [
+              {
+                "text": "なければならない",
+                "reason": "Dies verpflichtet zum Kommen statt davon zu befreien."
+              },
+              {
+                "text": "ないといけない",
+                "reason": "Dies verpflichtet zum Kommen."
+              },
+              {
+                "text": "なくてもいいます",
+                "reason": "いい ist ein Adjektiv und nimmt hier kein ます."
+              }
+            ],
+            "promptKana": "あしたはこ＿＿＿です。"
+          }
+        },
         "romaji": "Ashita wa konakutemo ii desu.",
         "german": "Du brauchst morgen nicht zu kommen."
       },
       {
         "japanese": "全部食べなくてもいいですよ。",
+        "cloze": {
+          "start": 4,
+          "answer": "なくてもいい"
+        },
         "romaji": "Zenbu tabenakutemo ii desu yo.",
         "german": "Du musst nicht alles aufessen."
       }
@@ -1048,7 +2383,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "この料理を食べてみてください。",
         "romaji": "Kono ryōri o tabete mite kudasai.",
-        "german": "Probieren Sie bitte dieses Gericht."
+        "german": "Probieren Sie bitte dieses Gericht.",
+        "cloze": {
+          "start": 7,
+          "answer": "てみて",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この料理を食べてみてください。",
+            "german": "Probieren Sie bitte dieses Gericht.",
+            "start": 7,
+            "answer": "てみて",
+            "acceptedAnswers": [
+              "てみて"
+            ],
+            "distractors": [
+              {
+                "text": "てみます",
+                "reason": "Vor ください steht keine ます-Form."
+              },
+              {
+                "text": "たみて",
+                "reason": "Das Ausprobieren braucht 食べて, nicht 食べた."
+              },
+              {
+                "text": "てみた",
+                "reason": "Die Bitte braucht みてください, nicht みたください."
+              }
+            ],
+            "promptKana": "このりょうりをたべ＿＿＿ください。"
+          }
+        }
       },
       {
         "japanese": "日本語で話してみます。",
@@ -1073,7 +2437,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "財布を忘れてしまいました。",
         "romaji": "Saifu o wasurete shimaimashita.",
-        "german": "Ich habe leider mein Portemonnaie vergessen."
+        "german": "Ich habe leider mein Portemonnaie vergessen.",
+        "cloze": {
+          "start": 5,
+          "answer": "てしまいました",
+          "quiz": {
+            "level": "N4",
+            "japanese": "財布を忘れてしまいました。",
+            "german": "Ich habe leider mein Portemonnaie vergessen.",
+            "start": 5,
+            "answer": "てしまいました",
+            "acceptedAnswers": [
+              "てしまいました"
+            ],
+            "distractors": [
+              {
+                "text": "たしまいました",
+                "reason": "しまう schließt an die て-Form an."
+              },
+              {
+                "text": "てしまいでした",
+                "reason": "Die höfliche Vergangenheit endet auf ました."
+              },
+              {
+                "text": "てしまいませんでした",
+                "reason": "Dies verneint das Vergessen."
+              }
+            ],
+            "promptKana": "さいふをわすれ＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "本を全部読んでしまいました。",
@@ -1098,7 +2491,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "この本はおもしろいです。",
         "romaji": "Kono hon wa omoshiroi desu.",
-        "german": "Dieses Buch ist interessant."
+        "german": "Dieses Buch ist interessant.",
+        "cloze": {
+          "start": 4,
+          "answer": "おもしろいです",
+          "quiz": {
+            "level": "N5",
+            "japanese": "この本はおもしろいです。",
+            "german": "Dieses Buch ist interessant.",
+            "start": 4,
+            "answer": "おもしろいです",
+            "acceptedAnswers": [
+              "おもしろいです"
+            ],
+            "distractors": [
+              {
+                "text": "おもしろいでした",
+                "reason": "い-Adjektive bilden Vergangenheit nicht mit でした."
+              },
+              {
+                "text": "おもしろいじゃないです",
+                "reason": "Die reguläre Verneinung lautet おもしろくないです."
+              },
+              {
+                "text": "おもしろくありません",
+                "reason": "Dies bedeutet nicht interessant."
+              }
+            ],
+            "promptKana": "このほんは＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "大きい犬が好きです。",
@@ -1124,11 +2546,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "今日は暑くないです。",
+        "cloze": {
+          "start": 4,
+          "answer": "くない",
+          "quiz": {
+            "level": "N5",
+            "japanese": "今日は暑くないです。",
+            "german": "Heute ist es nicht heiß.",
+            "start": 4,
+            "answer": "くない",
+            "acceptedAnswers": [
+              "くない"
+            ],
+            "distractors": [
+              {
+                "text": "いない",
+                "reason": "Die Verneinung eines い-Adjektivs verlangt くない."
+              },
+              {
+                "text": "かった",
+                "reason": "Dies wäre positive Vergangenheit."
+              },
+              {
+                "text": "くなかった",
+                "reason": "Dies wäre negative Vergangenheit statt heutiger Zustand."
+              }
+            ],
+            "promptKana": "きょうはあつ＿＿＿です。"
+          }
+        },
         "romaji": "Kyō wa atsuku nai desu.",
         "german": "Heute ist es nicht heiß."
       },
       {
         "japanese": "この映画はおもしろくないです。",
+        "cloze": {
+          "start": 9,
+          "answer": "くない"
+        },
         "romaji": "Kono eiga wa omoshiroku nai desu.",
         "german": "Dieser Film ist nicht interessant."
       }
@@ -1151,11 +2606,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "昨日は寒かったです。",
+        "cloze": {
+          "start": 4,
+          "answer": "かった",
+          "quiz": {
+            "level": "N5",
+            "japanese": "昨日は寒かったです。",
+            "german": "Gestern war es kalt.",
+            "start": 4,
+            "answer": "かった",
+            "acceptedAnswers": [
+              "かった"
+            ],
+            "distractors": [
+              {
+                "text": "いでした",
+                "reason": "い-Adjektive bilden Vergangenheit mit かった."
+              },
+              {
+                "text": "くでした",
+                "reason": "くでした ist keine Vergangenheitsform."
+              },
+              {
+                "text": "くない",
+                "reason": "Dies wäre nicht kalt statt war kalt."
+              }
+            ],
+            "promptKana": "きのうはさむ＿＿＿です。"
+          }
+        },
         "romaji": "Kinō wa samukatta desu.",
         "german": "Gestern war es kalt."
       },
       {
         "japanese": "旅行は楽しかったです。",
+        "cloze": {
+          "start": 5,
+          "answer": "かった"
+        },
         "romaji": "Ryokō wa tanoshikatta desu.",
         "german": "Die Reise war vergnüglich."
       }
@@ -1178,11 +2666,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "テストは難しくなかったです。",
+        "cloze": {
+          "start": 6,
+          "answer": "くなかった",
+          "quiz": {
+            "level": "N5",
+            "japanese": "テストは難しくなかったです。",
+            "german": "Der Test war nicht schwer.",
+            "start": 6,
+            "answer": "くなかった",
+            "acceptedAnswers": [
+              "くなかった"
+            ],
+            "distractors": [
+              {
+                "text": "かった",
+                "reason": "Dies bedeutet war schwer."
+              },
+              {
+                "text": "いなかった",
+                "reason": "Die Negativform braucht く vor なかった."
+              },
+              {
+                "text": "くありません",
+                "reason": "Dies ist Gegenwart, nicht die gefragte Vergangenheit."
+              }
+            ],
+            "promptKana": "テストはむずかし＿＿＿です。"
+          }
+        },
         "romaji": "Tesuto wa muzukashiku nakatta desu.",
         "german": "Der Test war nicht schwer."
       },
       {
         "japanese": "あまりおいしくなかったです。",
+        "cloze": {
+          "start": 6,
+          "answer": "くなかった"
+        },
         "romaji": "Amari oishiku nakatta desu.",
         "german": "Es war nicht besonders lecker."
       }
@@ -1206,7 +2727,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "ここは静かです。",
         "romaji": "Koko wa shizuka desu.",
-        "german": "Hier ist es ruhig."
+        "german": "Hier ist es ruhig.",
+        "cloze": {
+          "start": 3,
+          "answer": "静かです",
+          "quiz": {
+            "level": "N5",
+            "japanese": "ここは静かです。",
+            "german": "Hier ist es ruhig.",
+            "start": 3,
+            "answer": "静かです",
+            "acceptedAnswers": [
+              "静かです"
+            ],
+            "distractors": [
+              {
+                "text": "静かいです",
+                "reason": "静か ist ein な-Adjektiv und bekommt kein い."
+              },
+              {
+                "text": "静かくないです",
+                "reason": "Die Verneinung eines な-Adjektivs verwendet nicht くない."
+              },
+              {
+                "text": "静かじゃないです",
+                "reason": "Dies bedeutet nicht ruhig."
+              }
+            ],
+            "promptKana": "ここは＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "元気な子供ですね。",
@@ -1233,7 +2783,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "この部屋はきれいじゃないです。",
         "romaji": "Kono heya wa kirei ja nai desu.",
-        "german": "Dieses Zimmer ist nicht sauber."
+        "german": "Dieses Zimmer ist nicht sauber.",
+        "cloze": {
+          "start": 8,
+          "answer": "じゃないです",
+          "quiz": {
+            "level": "N5",
+            "japanese": "この部屋はきれいじゃないです。",
+            "german": "Dieses Zimmer ist nicht sauber.",
+            "start": 8,
+            "answer": "じゃないです",
+            "acceptedAnswers": [
+              "じゃないです"
+            ],
+            "distractors": [
+              {
+                "text": "です",
+                "reason": "Dies bejaht die Sauberkeit."
+              },
+              {
+                "text": "くないです",
+                "reason": "きれい ist trotz い am Ende ein な-Adjektiv."
+              },
+              {
+                "text": "でした",
+                "reason": "Dies ist positive Vergangenheit."
+              }
+            ],
+            "promptKana": "このへやはきれい＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "日本語は簡単じゃありません。",
@@ -1261,7 +2840,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "パーティーはにぎやかでした。",
         "romaji": "Pātī wa nigiyaka deshita.",
-        "german": "Die Party war lebhaft."
+        "german": "Die Party war lebhaft.",
+        "cloze": {
+          "start": 10,
+          "answer": "でした",
+          "quiz": {
+            "level": "N5",
+            "japanese": "パーティーはにぎやかでした。",
+            "german": "Die Party war lebhaft.",
+            "start": 10,
+            "answer": "でした",
+            "acceptedAnswers": [
+              "でした"
+            ],
+            "distractors": [
+              {
+                "text": "かったです",
+                "reason": "な-Adjektive bilden Vergangenheit nicht mit かった."
+              },
+              {
+                "text": "くなかったです",
+                "reason": "Dies ist keine Negativform eines な-Adjektivs."
+              },
+              {
+                "text": "じゃなかったです",
+                "reason": "Dies verneint die Lebhaftigkeit."
+              }
+            ],
+            "promptKana": "パーティーはにぎやか＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "彼は元気でした。",
@@ -1289,7 +2897,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "昨日は暇じゃなかったです。",
         "romaji": "Kinō wa hima ja nakatta desu.",
-        "german": "Gestern hatte ich keine Freizeit."
+        "german": "Gestern hatte ich keine Freizeit.",
+        "cloze": {
+          "start": 4,
+          "answer": "じゃなかったです",
+          "quiz": {
+            "level": "N5",
+            "japanese": "昨日は暇じゃなかったです。",
+            "german": "Gestern hatte ich keine Freizeit.",
+            "start": 4,
+            "answer": "じゃなかったです",
+            "acceptedAnswers": [
+              "じゃなかったです"
+            ],
+            "distractors": [
+              {
+                "text": "でした",
+                "reason": "Dies besagt, dass Freizeit vorhanden war."
+              },
+              {
+                "text": "かったです",
+                "reason": "暇 ist ein な-Adjektiv."
+              },
+              {
+                "text": "くなかったです",
+                "reason": "暇 bildet seine Verneinung nicht wie ein い-Adjektiv."
+              }
+            ],
+            "promptKana": "きのうはひま＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "あの店は有名じゃなかったです。",
@@ -1317,7 +2954,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "日本語が上手になりました。",
         "romaji": "Nihongo ga jōzu ni narimashita.",
-        "german": "Mein Japanisch ist besser geworden."
+        "german": "Mein Japanisch ist besser geworden.",
+        "cloze": {
+          "start": 6,
+          "answer": "になりました",
+          "quiz": {
+            "level": "N5",
+            "japanese": "日本語が上手になりました。",
+            "german": "Mein Japanisch ist besser geworden.",
+            "start": 6,
+            "answer": "になりました",
+            "acceptedAnswers": [
+              "になりました"
+            ],
+            "distractors": [
+              {
+                "text": "くなりました",
+                "reason": "上手 ist ein な-Adjektiv und verlangt に."
+              },
+              {
+                "text": "になりません",
+                "reason": "Dies verneint die Veränderung."
+              },
+              {
+                "text": "になるでした",
+                "reason": "Die höfliche Vergangenheit lautet なりました."
+              }
+            ],
+            "promptKana": "にほんごがじょうず＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "最近寒くなりましたね。",
@@ -1342,11 +3008,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "料理を作るのが好きです。",
+        "cloze": {
+          "start": 5,
+          "answer": "のが好き",
+          "quiz": {
+            "level": "N5",
+            "japanese": "料理を作るのが好きです。",
+            "german": "Ich koche gerne.",
+            "start": 5,
+            "answer": "のが好き",
+            "acceptedAnswers": [
+              "のが好き",
+              "ことが好き"
+            ],
+            "distractors": [
+              {
+                "text": "が好き",
+                "reason": "Das Verb braucht hier eine Nominalisierung mit の oder こと."
+              },
+              {
+                "text": "のが嫌い",
+                "reason": "Dies bedeutet ungern kochen."
+              },
+              {
+                "text": "のを好き",
+                "reason": "好き verlangt hier が, nicht を."
+              }
+            ],
+            "promptKana": "りょうりをつくる＿＿＿です。"
+          }
+        },
         "romaji": "Ryōri o tsukuru no ga suki desu.",
         "german": "Ich koche gerne."
       },
       {
         "japanese": "歌を歌うのが下手です。",
+        "cloze": {
+          "start": 6,
+          "answer": "下手"
+        },
         "romaji": "Uta o utau no ga heta desu.",
         "german": "Ich bin schlecht im Singen."
       }
@@ -1367,11 +3067,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "私は田中です。",
+        "cloze": {
+          "start": 4,
+          "answer": "です",
+          "quiz": {
+            "level": "N5",
+            "japanese": "私は田中です。",
+            "german": "Ich bin Tanaka.",
+            "start": 4,
+            "answer": "です",
+            "acceptedAnswers": [
+              "です"
+            ],
+            "distractors": [
+              {
+                "text": "ます",
+                "reason": "Ein Name bekommt keine verbale ます-Endung."
+              },
+              {
+                "text": "くないです",
+                "reason": "Ein Name ist kein い-Adjektiv."
+              },
+              {
+                "text": "じゃないです",
+                "reason": "Dies verneint die Identität."
+              }
+            ],
+            "promptKana": "わたしはたなか＿＿＿。"
+          }
+        },
         "romaji": "Watashi wa Tanaka desu.",
         "german": "Ich bin Tanaka."
       },
       {
         "japanese": "これはペンです。",
+        "cloze": {
+          "start": 5,
+          "answer": "です"
+        },
         "romaji": "Kore wa pen desu.",
         "german": "Das ist ein Stift."
       }
@@ -1394,6 +3127,36 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "学生じゃないです。",
+        "cloze": {
+          "start": 2,
+          "answer": "じゃない",
+          "quiz": {
+            "level": "N5",
+            "japanese": "学生じゃないです。",
+            "german": "Ich bin kein Student.",
+            "start": 2,
+            "answer": "じゃない",
+            "acceptedAnswers": [
+              "じゃない",
+              "ではない"
+            ],
+            "distractors": [
+              {
+                "text": "くない",
+                "reason": "Nomen werden nicht mit くない verneint."
+              },
+              {
+                "text": "なかった",
+                "reason": "Dies ist keine selbstständige Kopulaverneinung nach einem Nomen."
+              },
+              {
+                "text": "だった",
+                "reason": "だったです ist hier nicht die reguläre höfliche Verneinung."
+              }
+            ],
+            "promptKana": "がくせい＿＿＿です。"
+          }
+        },
         "romaji": "Gakusei ja nai desu.",
         "german": "Ich bin kein Student."
       },
@@ -1421,11 +3184,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "昨日は日曜日でした。",
+        "cloze": {
+          "start": 6,
+          "answer": "でした",
+          "quiz": {
+            "level": "N5",
+            "japanese": "昨日は日曜日でした。",
+            "german": "Gestern war Sonntag.",
+            "start": 6,
+            "answer": "でした",
+            "acceptedAnswers": [
+              "でした"
+            ],
+            "distractors": [
+              {
+                "text": "ます",
+                "reason": "Nomen erhalten keine verbale ます-Endung."
+              },
+              {
+                "text": "かったです",
+                "reason": "Nomen erhalten keine い-Adjektiv-Vergangenheit."
+              },
+              {
+                "text": "じゃありませんでした",
+                "reason": "Dies verneint, dass Sonntag war."
+              }
+            ],
+            "promptKana": "きのうはにちようび＿＿＿。"
+          }
+        },
         "romaji": "Kinō wa nichiyōbi deshita.",
         "german": "Gestern war Sonntag."
       },
       {
         "japanese": "とても大変でした。",
+        "cloze": {
+          "start": 5,
+          "answer": "でした"
+        },
         "romaji": "Totemo taihen deshita.",
         "german": "Es war sehr anstrengend."
       }
@@ -1448,6 +3244,36 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "あの人は先生じゃなかったです。",
+        "cloze": {
+          "start": 6,
+          "answer": "じゃなかった",
+          "quiz": {
+            "level": "N5",
+            "japanese": "あの人は先生じゃなかったです。",
+            "german": "Diese Person war kein Lehrer.",
+            "start": 6,
+            "answer": "じゃなかった",
+            "acceptedAnswers": [
+              "じゃなかった",
+              "ではなかった"
+            ],
+            "distractors": [
+              {
+                "text": "だった",
+                "reason": "Dies bejaht die Lehrerrolle statt sie zu verneinen."
+              },
+              {
+                "text": "くなかった",
+                "reason": "Ein Nomen wird nicht mit くなかった verneint."
+              },
+              {
+                "text": "じゃない",
+                "reason": "Dies ist Gegenwart statt der gefragten Vergangenheit."
+              }
+            ],
+            "promptKana": "あのひとはせんせい＿＿＿です。"
+          }
+        },
         "romaji": "Ano hito wa sensei ja nakatta desu.",
         "german": "Diese Person war kein Lehrer."
       },
@@ -1475,11 +3301,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "どうしたんですか。",
+        "cloze": {
+          "start": 4,
+          "answer": "んです",
+          "quiz": {
+            "level": "N5",
+            "japanese": "どうしたんですか。",
+            "german": "Was ist los? / Was ist passiert?",
+            "start": 4,
+            "answer": "んです",
+            "acceptedAnswers": [
+              "んです",
+              "のです"
+            ],
+            "distractors": [
+              {
+                "text": "なです",
+                "reason": "Ein verbaler Aussagesatz wird hier nicht mit なです verbunden."
+              },
+              {
+                "text": "にです",
+                "reason": "にです ist hier kein erklärender Anschluss."
+              },
+              {
+                "text": "をです",
+                "reason": "をです ist hier kein erklärender Anschluss."
+              }
+            ],
+            "promptKana": "どうした＿＿＿か。"
+          }
+        },
         "romaji": "Dō shita n desu ka.",
         "german": "Was ist los? / Was ist passiert?"
       },
       {
         "japanese": "明日テストがあるんです。",
+        "cloze": {
+          "start": 8,
+          "answer": "んです"
+        },
         "romaji": "Ashita tesuto ga aru n desu.",
         "german": "Es ist nämlich so, dass morgen ein Test ist."
       }
@@ -1498,11 +3358,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "明日は雨が降ると思います。",
+        "cloze": {
+          "start": 7,
+          "answer": "と思います",
+          "quiz": {
+            "level": "N5",
+            "japanese": "明日は雨が降ると思います。",
+            "german": "Ich denke, dass es morgen regnen wird.",
+            "start": 7,
+            "answer": "と思います",
+            "acceptedAnswers": [
+              "と思います"
+            ],
+            "distractors": [
+              {
+                "text": "を思います",
+                "reason": "Ein vollständiger Gedanke wird mit と zitiert."
+              },
+              {
+                "text": "に思います",
+                "reason": "に verbindet hier keinen zitierten Satz."
+              },
+              {
+                "text": "が思います",
+                "reason": "が ersetzt hier die Zitatpartikel nicht."
+              }
+            ],
+            "promptKana": "あしたはあめがふる＿＿＿。"
+          }
+        },
         "romaji": "Ashita wa ame ga furu to omoimasu.",
         "german": "Ich denke, dass es morgen regnen wird."
       },
       {
         "japanese": "この本はおもしろいと思います。",
+        "cloze": {
+          "start": 9,
+          "answer": "と思います"
+        },
         "romaji": "Kono hon wa omoshiroi to omoimasu.",
         "german": "Ich denke, dieses Buch ist interessant."
       }
@@ -1524,11 +3417,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "明日は暖かいでしょう。",
+        "cloze": {
+          "start": 6,
+          "answer": "でしょう",
+          "quiz": {
+            "level": "N5",
+            "japanese": "明日は暖かいでしょう。",
+            "german": "Morgen wird es wahrscheinlich warm sein.",
+            "start": 6,
+            "answer": "でしょう",
+            "acceptedAnswers": [
+              "でしょう"
+            ],
+            "distractors": [
+              {
+                "text": "でした",
+                "reason": "暖かいでした ist keine reguläre Adjektivform."
+              },
+              {
+                "text": "ました",
+                "reason": "Ein い-Adjektiv nimmt kein ました an."
+              },
+              {
+                "text": "くでしょう",
+                "reason": "Die Vermutung steht nach 暖かい, nicht 暖かいく."
+              }
+            ],
+            "promptKana": "あしたはあたたかい＿＿＿。"
+          }
+        },
         "romaji": "Ashita wa atatakai deshō.",
         "german": "Morgen wird es wahrscheinlich warm sein."
       },
       {
         "japanese": "彼はもう帰ったでしょう。",
+        "cloze": {
+          "start": 7,
+          "answer": "でしょう"
+        },
         "romaji": "Kare wa mō kaetta deshō.",
         "german": "Er ist wohl schon nach Hause gegangen."
       }
@@ -1551,7 +3477,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "雨が降るかもしれません。",
         "romaji": "Ame ga furu kamoshiremasen.",
-        "german": "Vielleicht wird es regnen."
+        "german": "Vielleicht wird es regnen.",
+        "cloze": {
+          "start": 4,
+          "answer": "かもしれません",
+          "quiz": {
+            "level": "N4",
+            "japanese": "雨が降るかもしれません。",
+            "german": "Vielleicht wird es regnen.",
+            "start": 4,
+            "answer": "かもしれません",
+            "acceptedAnswers": [
+              "かもしれません"
+            ],
+            "distractors": [
+              {
+                "text": "かもしれます",
+                "reason": "Die feste Möglichkeitsform lautet かもしれません."
+              },
+              {
+                "text": "かもします",
+                "reason": "Dies ist keine Form des Möglichkeitsausdrucks."
+              },
+              {
+                "text": "なのかもしれません",
+                "reason": "Nach einem Verb wird hier kein な eingefügt."
+              }
+            ],
+            "promptKana": "あめがふる＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "あの人は日本人かもしれません。",
@@ -1577,7 +3532,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "机の上に本があります。",
         "romaji": "Tsukue no ue ni hon ga arimasu.",
-        "german": "Auf dem Tisch liegt ein Buch."
+        "german": "Auf dem Tisch liegt ein Buch.",
+        "cloze": {
+          "start": 5,
+          "answer": "があります",
+          "quiz": {
+            "level": "N5",
+            "japanese": "机の上に本があります。",
+            "german": "Auf dem Tisch liegt ein Buch.",
+            "start": 5,
+            "answer": "があります",
+            "acceptedAnswers": [
+              "があります",
+              "はあります"
+            ],
+            "distractors": [
+              {
+                "text": "がいます",
+                "reason": "Ein Buch ist hier kein belebtes Wesen."
+              },
+              {
+                "text": "をあります",
+                "reason": "あります nimmt kein direktes Objekt."
+              },
+              {
+                "text": "がありません",
+                "reason": "Dies verneint das vorhandene Buch."
+              }
+            ],
+            "promptKana": "つくえのうえにほん＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "明日テストがあります。",
@@ -1603,7 +3588,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "公園に子供がいます。",
         "romaji": "Kōen ni kodomo ga imasu.",
-        "german": "Im Park sind Kinder."
+        "german": "Im Park sind Kinder.",
+        "cloze": {
+          "start": 5,
+          "answer": "がいます",
+          "quiz": {
+            "level": "N5",
+            "japanese": "公園に子供がいます。",
+            "german": "Im Park sind Kinder.",
+            "start": 5,
+            "answer": "がいます",
+            "acceptedAnswers": [
+              "がいます",
+              "はいます"
+            ],
+            "distractors": [
+              {
+                "text": "があります",
+                "reason": "Menschen werden hier mit いる beschrieben."
+              },
+              {
+                "text": "をいます",
+                "reason": "います nimmt hier kein direktes Objekt."
+              },
+              {
+                "text": "がいません",
+                "reason": "Dies verneint die Anwesenheit."
+              }
+            ],
+            "promptKana": "こうえんにこども＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "私は兄弟が三人います。",
@@ -1628,11 +3643,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "新しいパソコンが欲しいです。",
+        "cloze": {
+          "start": 7,
+          "answer": "が欲しい",
+          "quiz": {
+            "level": "N5",
+            "japanese": "新しいパソコンが欲しいです。",
+            "german": "Ich möchte einen neuen Computer.",
+            "start": 7,
+            "answer": "が欲しい",
+            "acceptedAnswers": [
+              "が欲しい",
+              "は欲しい"
+            ],
+            "distractors": [
+              {
+                "text": "に欲しい",
+                "reason": "Der gewünschte Gegenstand wird nicht mit に markiert."
+              },
+              {
+                "text": "が欲しくない",
+                "reason": "Dies verneint den Wunsch."
+              },
+              {
+                "text": "が欲しいでした",
+                "reason": "欲しい bildet Vergangenheit nicht mit でした."
+              }
+            ],
+            "promptKana": "あたらしいパソコン＿＿＿です。"
+          }
+        },
         "romaji": "Atarashii pasokon ga hoshii desu.",
         "german": "Ich möchte einen neuen Computer."
       },
       {
         "japanese": "何が欲しいですか。",
+        "cloze": {
+          "start": 1,
+          "answer": "が欲しい"
+        },
         "romaji": "Nani ga hoshii desu ka.",
         "german": "Was möchten Sie haben?"
       }
@@ -1653,11 +3702,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "来年日本に行くつもりです。",
+        "cloze": {
+          "start": 7,
+          "answer": "つもり",
+          "quiz": {
+            "level": "N5",
+            "japanese": "来年日本に行くつもりです。",
+            "german": "Ich habe vor, nächstes Jahr nach Japan zu gehen.",
+            "start": 7,
+            "answer": "つもり",
+            "acceptedAnswers": [
+              "つもり"
+            ],
+            "distractors": [
+              {
+                "text": "ながら",
+                "reason": "ながら verlangt den Verbstamm und bildet hier kein Nomen vor です."
+              },
+              {
+                "text": "てから",
+                "reason": "行くてから ist kein korrekter Anschluss."
+              },
+              {
+                "text": "ました",
+                "reason": "行くましたです ist keine Verbform."
+              }
+            ],
+            "promptKana": "らいねんにほんにいく＿＿＿です。"
+          }
+        },
         "romaji": "Rainen Nihon ni iku tsumori desu.",
         "german": "Ich habe vor, nächstes Jahr nach Japan zu gehen."
       },
       {
         "japanese": "もうお酒を飲まないつもりです。",
+        "cloze": {
+          "start": 9,
+          "answer": "つもり"
+        },
         "romaji": "Mō osake o nomanai tsumori desu.",
         "german": "Ich habe vor, keinen Alkohol mehr zu trinken."
       }
@@ -1676,11 +3758,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "東京は大阪より大きいです。",
+        "cloze": {
+          "start": 5,
+          "answer": "より",
+          "quiz": {
+            "level": "N5",
+            "japanese": "東京は大阪より大きいです。",
+            "german": "Tokio ist größer als Osaka.",
+            "start": 5,
+            "answer": "より",
+            "acceptedAnswers": [
+              "より"
+            ],
+            "distractors": [
+              {
+                "text": "まで",
+                "reason": "まで setzt eine Grenze, keinen Vergleichsmaßstab."
+              },
+              {
+                "text": "から",
+                "reason": "から bezeichnet hier keinen Größenvergleich."
+              },
+              {
+                "text": "へ",
+                "reason": "へ bezeichnet eine Richtung, keinen Größenvergleich."
+              }
+            ],
+            "promptKana": "とうきょうはおおさか＿＿＿おおきいです。"
+          }
+        },
         "romaji": "Tōkyō wa Ōsaka yori ōkii desu.",
         "german": "Tokio ist größer als Osaka."
       },
       {
         "japanese": "バスより電車のほうが速いです。",
+        "cloze": {
+          "start": 2,
+          "answer": "より"
+        },
         "romaji": "Basu yori densha no hō ga hayai desu.",
         "german": "Der Zug ist schneller als der Bus."
       }
@@ -1702,11 +3817,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "夏より冬のほうが好きです。",
+        "cloze": {
+          "start": 4,
+          "answer": "のほうが",
+          "quiz": {
+            "level": "N5",
+            "japanese": "夏より冬のほうが好きです。",
+            "german": "Ich mag den Winter lieber als den Sommer.",
+            "start": 4,
+            "answer": "のほうが",
+            "acceptedAnswers": [
+              "のほうが",
+              "が"
+            ],
+            "distractors": [
+              {
+                "text": "のほうを",
+                "reason": "好き verlangt hier が statt を."
+              },
+              {
+                "text": "のほうに",
+                "reason": "に markiert hier nicht das bevorzugte Vergleichsglied."
+              },
+              {
+                "text": "のほどが",
+                "reason": "のほどが ist nicht die gefragte Vergleichskonstruktion."
+              }
+            ],
+            "promptKana": "なつよりふゆ＿＿＿すきです。"
+          }
+        },
         "romaji": "Natsu yori fuyu no hō ga suki desu.",
         "german": "Ich mag den Winter lieber als den Sommer."
       },
       {
         "japanese": "こっちのほうが安いです。",
+        "cloze": {
+          "start": 3,
+          "answer": "のほうが"
+        },
         "romaji": "Kocchi no hō ga yasui desu.",
         "german": "Dieses hier ist billiger."
       }
@@ -1728,6 +3877,36 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "果物の中でりんごが一番好きです。",
+        "cloze": {
+          "start": 8,
+          "answer": "が一番",
+          "quiz": {
+            "level": "N5",
+            "japanese": "果物の中でりんごが一番好きです。",
+            "german": "Unter den Früchten mag ich Äpfel am liebsten.",
+            "start": 8,
+            "answer": "が一番",
+            "acceptedAnswers": [
+              "が一番",
+              "は一番"
+            ],
+            "distractors": [
+              {
+                "text": "が一つ",
+                "reason": "一つ zählt ein Stück, nicht den höchsten Rang."
+              },
+              {
+                "text": "を一番",
+                "reason": "好き verlangt hier が statt を."
+              },
+              {
+                "text": "に一番",
+                "reason": "に markiert hier nicht den bevorzugten Gegenstand."
+              }
+            ],
+            "promptKana": "くだもののなかでりんご＿＿＿すきです。"
+          }
+        },
         "romaji": "Kudamono no naka de ringo ga ichiban suki desu.",
         "german": "Unter den Früchten mag ich Äpfel am liebsten."
       },
@@ -1755,7 +3934,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "まだ雨が降っています。",
         "romaji": "Mada ame ga futte imasu.",
-        "german": "Es regnet immer noch."
+        "german": "Es regnet immer noch.",
+        "cloze": {
+          "start": 0,
+          "answer": "まだ",
+          "quiz": {
+            "level": "N5",
+            "japanese": "まだ雨が降っています。",
+            "german": "Es regnet immer noch.",
+            "start": 0,
+            "answer": "まだ",
+            "acceptedAnswers": [
+              "まだ"
+            ],
+            "distractors": [
+              {
+                "text": "もうすぐ",
+                "reason": "Dies bedeutet bald statt immer noch."
+              },
+              {
+                "text": "これから",
+                "reason": "Dies bedeutet von jetzt an statt immer noch."
+              },
+              {
+                "text": "きのう",
+                "reason": "Dies bedeutet gestern statt immer noch."
+              }
+            ],
+            "promptKana": "＿＿＿あめがふっています。"
+          }
+        }
       },
       {
         "japanese": "まだ食べていません。",
@@ -1780,7 +3988,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "もう宿題をしました。",
         "romaji": "Mō shukudai o shimashita.",
-        "german": "Ich habe die Hausaufgaben schon gemacht."
+        "german": "Ich habe die Hausaufgaben schon gemacht.",
+        "cloze": {
+          "start": 0,
+          "answer": "もう",
+          "quiz": {
+            "level": "N5",
+            "japanese": "もう宿題をしました。",
+            "german": "Ich habe die Hausaufgaben schon gemacht.",
+            "start": 0,
+            "answer": "もう",
+            "acceptedAnswers": [
+              "もう",
+              "すでに"
+            ],
+            "distractors": [
+              {
+                "text": "あした",
+                "reason": "Dies bedeutet morgen statt schon."
+              },
+              {
+                "text": "これから",
+                "reason": "Dies bedeutet von jetzt an statt schon."
+              },
+              {
+                "text": "もうすぐ",
+                "reason": "Dies bedeutet bald statt bereits abgeschlossen."
+              }
+            ],
+            "promptKana": "＿＿＿しゅくだいをしました。"
+          }
+        }
       },
       {
         "japanese": "もう食べません。",
@@ -1804,11 +4042,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "水だけ飲みます。",
+        "cloze": {
+          "start": 1,
+          "answer": "だけ",
+          "quiz": {
+            "level": "N5",
+            "japanese": "水だけ飲みます。",
+            "german": "Ich trinke nur Wasser.",
+            "start": 1,
+            "answer": "だけ",
+            "acceptedAnswers": [
+              "だけ"
+            ],
+            "distractors": [
+              {
+                "text": "まで",
+                "reason": "まで drückt hier sogar Wasser statt nur Wasser aus."
+              },
+              {
+                "text": "へ",
+                "reason": "Eine Richtung kennzeichnet das Getränk nicht."
+              },
+              {
+                "text": "しか",
+                "reason": "しか verlangt eine negative Verbform."
+              }
+            ],
+            "promptKana": "みず＿＿＿のみます。"
+          }
+        },
         "romaji": "Mizu dake nomimasu.",
         "german": "Ich trinke nur Wasser."
       },
       {
         "japanese": "少しだけ食べました。",
+        "cloze": {
+          "start": 2,
+          "answer": "だけ"
+        },
         "romaji": "Sukoshi dake tabemashita.",
         "german": "Ich habe nur ein bisschen gegessen."
       }
@@ -1830,7 +4101,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "百円しかありません。",
         "romaji": "Hyaku-en shika arimasen.",
-        "german": "Ich habe nur hundert Yen."
+        "german": "Ich habe nur hundert Yen.",
+        "cloze": {
+          "start": 2,
+          "answer": "しかありません",
+          "quiz": {
+            "level": "N5",
+            "japanese": "百円しかありません。",
+            "german": "Ich habe nur hundert Yen.",
+            "start": 2,
+            "answer": "しかありません",
+            "acceptedAnswers": [
+              "しかありません",
+              "だけあります"
+            ],
+            "distractors": [
+              {
+                "text": "しかあります",
+                "reason": "しか verlangt eine negative Form."
+              },
+              {
+                "text": "だけありません",
+                "reason": "Dies bedeutet gerade hundert Yen fehlen."
+              },
+              {
+                "text": "がたくさんあります",
+                "reason": "Dies behauptet eine große Menge statt nur hundert Yen."
+              }
+            ],
+            "promptKana": "ひゃくえん＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "日本語しか話せません。",
@@ -1854,11 +4155,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本に行った時、たくさん写真を撮りました。",
+        "cloze": {
+          "start": 6,
+          "answer": "時",
+          "quiz": {
+            "level": "N5",
+            "japanese": "日本に行った時、たくさん写真を撮りました。",
+            "german": "Als ich nach Japan ging, habe ich viele Fotos gemacht.",
+            "start": 6,
+            "answer": "時",
+            "acceptedAnswers": [
+              "時",
+              "際"
+            ],
+            "distractors": [
+              {
+                "text": "ながら",
+                "reason": "ながら verlangt den Stamm, nicht 行った."
+              },
+              {
+                "text": "前に",
+                "reason": "前に verlangt hier die Wörterbuchform, nicht 行った."
+              },
+              {
+                "text": "てから",
+                "reason": "An 行った kann nicht zusätzlich てから angeschlossen werden."
+              }
+            ],
+            "promptKana": "にほんにいった＿＿＿、たくさんしゃしんをとりました。"
+          }
+        },
         "romaji": "Nihon ni itta toki, takusan shashin o torimashita.",
         "german": "Als ich nach Japan ging, habe ich viele Fotos gemacht."
       },
       {
         "japanese": "暇な時、何をしますか。",
+        "cloze": {
+          "start": 2,
+          "answer": "時"
+        },
         "romaji": "Hima na toki, nani o shimasu ka.",
         "german": "Was machen Sie, wenn Sie frei haben?"
       }
@@ -1879,11 +4214,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "雨が降ったら、家にいます。",
+        "cloze": {
+          "start": 4,
+          "answer": "たら",
+          "quiz": {
+            "level": "N5",
+            "japanese": "雨が降ったら、家にいます。",
+            "german": "Wenn es regnet, bleibe ich zu Hause.",
+            "start": 4,
+            "answer": "たら",
+            "acceptedAnswers": [
+              "たら"
+            ],
+            "distractors": [
+              {
+                "text": "れば",
+                "reason": "降っれば ist keine Konditionalform."
+              },
+              {
+                "text": "なら",
+                "reason": "降っなら ist keine Anschlussform."
+              },
+              {
+                "text": "ても",
+                "reason": "降っても bedeutet selbst wenn statt die neutrale Bedingung."
+              }
+            ],
+            "promptKana": "あめがふっ＿＿＿、いえにいます。"
+          }
+        },
         "romaji": "Ame ga futtara, ie ni imasu.",
         "german": "Wenn es regnet, bleibe ich zu Hause."
       },
       {
         "japanese": "安かったら買います。",
+        "cloze": {
+          "start": 3,
+          "answer": "たら"
+        },
         "romaji": "Yasukattara kaimasu.",
         "german": "Wenn es billig ist, kaufe ich es."
       }
@@ -1905,7 +4273,40 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "日本語は難しいですが、おもしろいです。",
         "romaji": "Nihongo wa muzukashii desu ga, omoshiroi desu.",
-        "german": "Japanisch ist schwer, aber interessant."
+        "german": "Japanisch ist schwer, aber interessant.",
+        "cloze": {
+          "start": 9,
+          "answer": "が",
+          "quiz": {
+            "level": "N5",
+            "japanese": "日本語は難しいですが、おもしろいです。",
+            "german": "Japanisch ist schwer, aber interessant.",
+            "start": 9,
+            "answer": "が",
+            "acceptedAnswers": [
+              "が",
+              "けど",
+              "けれど",
+              "けれども",
+              "のに"
+            ],
+            "distractors": [
+              {
+                "text": "ので",
+                "reason": "Dies nennt einen Grund statt des vorgegebenen Gegensatzes."
+              },
+              {
+                "text": "ます",
+                "reason": "ですます verdoppelt unzulässig die höfliche Endung."
+              },
+              {
+                "text": "を",
+                "reason": "を verbindet hier keine gegensätzlichen Aussagen."
+              }
+            ],
+            "promptKana": "にほんごはむずかしいです＿＿＿、おもしろいです。"
+          }
+        }
       },
       {
         "japanese": "すみませんが、もう一度言ってください。",
@@ -1929,11 +4330,48 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "高いけど、おいしいです。",
+        "cloze": {
+          "start": 2,
+          "answer": "けど",
+          "quiz": {
+            "level": "N5",
+            "japanese": "高いけど、おいしいです。",
+            "german": "Es ist teuer, aber lecker.",
+            "start": 2,
+            "answer": "けど",
+            "acceptedAnswers": [
+              "けど",
+              "が",
+              "けれど",
+              "けれども",
+              "のに"
+            ],
+            "distractors": [
+              {
+                "text": "ので",
+                "reason": "Dies nennt teuer als Grund statt einen Gegensatz."
+              },
+              {
+                "text": "から",
+                "reason": "Dies nennt einen Grund statt obwohl teuer."
+              },
+              {
+                "text": "のため",
+                "reason": "Nach dem い-Adjektiv ist のため hier kein korrekter Anschluss."
+              }
+            ],
+            "promptKana": "たかい＿＿＿、おいしいです。"
+          }
+        },
         "romaji": "Takai kedo, oishii desu.",
         "german": "Es ist teuer, aber lecker."
       },
       {
         "japanese": "行きたいけど、時間がありません。",
+        "cloze": {
+          "start": 4,
+          "answer": "けど"
+        },
         "romaji": "Ikitai kedo, jikan ga arimasen.",
         "german": "Ich möchte gehen, aber ich habe keine Zeit."
       }
@@ -1955,7 +4393,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "暑いから、窓を開けましょう。",
         "romaji": "Atsui kara, mado o akemashō.",
-        "german": "Weil es heiß ist, lasst uns das Fenster öffnen."
+        "german": "Weil es heiß ist, lasst uns das Fenster öffnen.",
+        "cloze": {
+          "start": 2,
+          "answer": "から",
+          "quiz": {
+            "level": "N5",
+            "japanese": "暑いから、窓を開けましょう。",
+            "german": "Weil es heiß ist, lasst uns das Fenster öffnen.",
+            "start": 2,
+            "answer": "から",
+            "acceptedAnswers": [
+              "から",
+              "ので"
+            ],
+            "distractors": [
+              {
+                "text": "のため",
+                "reason": "Nach 暑い ist のため kein korrekter Anschluss."
+              },
+              {
+                "text": "なのに",
+                "reason": "Nach 暑い wird kein な eingeschoben."
+              },
+              {
+                "text": "けれど",
+                "reason": "Dies stellt einen Gegensatz statt den genannten Grund her."
+              }
+            ],
+            "promptKana": "あつい＿＿＿、まどをあけましょう。"
+          }
+        }
       },
       {
         "japanese": "明日テストがありますから、今日勉強します。",
@@ -1980,11 +4448,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "病気なので、休みます。",
+        "cloze": {
+          "start": 3,
+          "answer": "ので",
+          "quiz": {
+            "level": "N5",
+            "japanese": "病気なので、休みます。",
+            "german": "Da ich krank bin, mache ich Pause.",
+            "start": 3,
+            "answer": "ので",
+            "acceptedAnswers": [
+              "ので"
+            ],
+            "distractors": [
+              {
+                "text": "から",
+                "reason": "病気なから ist keine Form; richtig wäre 病気だから."
+              },
+              {
+                "text": "ため",
+                "reason": "病気なため ist kein korrekter nominaler Anschluss."
+              },
+              {
+                "text": "けど",
+                "reason": "病気なけど ist kein korrekter Anschluss."
+              }
+            ],
+            "promptKana": "びょうきな＿＿＿、やすみます。"
+          }
+        },
         "romaji": "Byōki na node, yasumimasu.",
         "german": "Da ich krank bin, mache ich Pause."
       },
       {
         "japanese": "電車が遅れたので、遅刻しました。",
+        "cloze": {
+          "start": 6,
+          "answer": "ので"
+        },
         "romaji": "Densha ga okureta node, chikoku shimashita.",
         "german": "Da der Zug Verspätung hatte, bin ich zu spät gekommen."
       }
@@ -2005,11 +4506,48 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "たくさん勉強したのに、テストに落ちました。",
+        "cloze": {
+          "start": 8,
+          "answer": "のに",
+          "quiz": {
+            "level": "N4",
+            "japanese": "たくさん勉強したのに、テストに落ちました。",
+            "german": "Obwohl ich viel gelernt habe, bin ich beim Test durchgefallen.",
+            "start": 8,
+            "answer": "のに",
+            "acceptedAnswers": [
+              "のに",
+              "けれど",
+              "けれども",
+              "けど",
+              "が"
+            ],
+            "distractors": [
+              {
+                "text": "ので",
+                "reason": "Dies behauptet einen Grund statt des Gegensatzes."
+              },
+              {
+                "text": "から",
+                "reason": "Dies macht das Lernen zum Grund des Durchfallens."
+              },
+              {
+                "text": "ために",
+                "reason": "Dies nennt Ursache oder Zweck statt des unerwarteten Gegensatzes."
+              }
+            ],
+            "promptKana": "たくさんべんきょうした＿＿＿、テストにおちました。"
+          }
+        },
         "romaji": "Takusan benkyō shita noni, tesuto ni ochimashita.",
         "german": "Obwohl ich viel gelernt habe, bin ich beim Test durchgefallen."
       },
       {
         "japanese": "約束したのに、来ませんでした。",
+        "cloze": {
+          "start": 4,
+          "answer": "のに"
+        },
         "romaji": "Yakusoku shita noni, kimasen deshita.",
         "german": "Obwohl er es versprochen hat, ist er nicht gekommen."
       }
@@ -2032,7 +4570,38 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "毎日薬を飲まなければなりません。",
         "romaji": "Mainichi kusuri o nomanakereba narimasen.",
-        "german": "Ich muss jeden Tag Medikamente nehmen."
+        "german": "Ich muss jeden Tag Medikamente nehmen.",
+        "cloze": {
+          "start": 6,
+          "answer": "なければなりません",
+          "quiz": {
+            "level": "N5",
+            "japanese": "毎日薬を飲まなければなりません。",
+            "german": "Ich muss jeden Tag Medikamente nehmen.",
+            "start": 6,
+            "answer": "なければなりません",
+            "acceptedAnswers": [
+              "なければなりません",
+              "なくてはいけません",
+              "ないといけません"
+            ],
+            "distractors": [
+              {
+                "text": "なくてもいいです",
+                "reason": "Dies hebt die Pflicht ausdrücklich auf."
+              },
+              {
+                "text": "ないほうがいいです",
+                "reason": "Dies rät vom Einnehmen ab."
+              },
+              {
+                "text": "なくてはいけます",
+                "reason": "Die Verpflichtung braucht die negative Endung いけません."
+              }
+            ],
+            "promptKana": "まいにちくすりをのま＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "宿題をしなければなりません。",
@@ -2057,11 +4626,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "どんな音楽が好きですか。",
+        "cloze": {
+          "start": 0,
+          "answer": "どんな",
+          "quiz": {
+            "level": "N5",
+            "japanese": "どんな音楽が好きですか。",
+            "german": "Was für Musik mögen Sie?",
+            "start": 0,
+            "answer": "どんな",
+            "acceptedAnswers": [
+              "どんな"
+            ],
+            "distractors": [
+              {
+                "text": "どう",
+                "reason": "Vor einem Nomen steht hier das attributive どんな."
+              },
+              {
+                "text": "だれ",
+                "reason": "だれ fragt nach einer Person, nicht nach einer Musikart."
+              },
+              {
+                "text": "どこ",
+                "reason": "どこ fragt nach einem Ort, nicht nach einer Musikart."
+              }
+            ],
+            "promptKana": "＿＿＿おんがくがすきですか。"
+          }
+        },
         "romaji": "Donna ongaku ga suki desu ka.",
         "german": "Was für Musik mögen Sie?"
       },
       {
         "japanese": "どんな人ですか。",
+        "cloze": {
+          "start": 0,
+          "answer": "どんな"
+        },
         "romaji": "Donna hito desu ka.",
         "german": "Was für eine Person ist er/sie?"
       }
@@ -2081,7 +4683,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "りんごを三つください。",
         "romaji": "Ringo o mittsu kudasai.",
-        "german": "Drei Äpfel bitte."
+        "german": "Drei Äpfel bitte.",
+        "cloze": {
+          "start": 4,
+          "answer": "三つ",
+          "quiz": {
+            "level": "N5",
+            "japanese": "りんごを三つください。",
+            "german": "Drei Äpfel bitte.",
+            "start": 4,
+            "answer": "三つ",
+            "acceptedAnswers": [
+              "三つ",
+              "三個"
+            ],
+            "distractors": [
+              {
+                "text": "一つ",
+                "reason": "Die Übersetzung verlangt drei, nicht einen Apfel."
+              },
+              {
+                "text": "二つ",
+                "reason": "Die Übersetzung verlangt drei, nicht zwei Äpfel."
+              },
+              {
+                "text": "四つ",
+                "reason": "Die Übersetzung verlangt drei, nicht vier Äpfel."
+              }
+            ],
+            "promptKana": "りんごを＿＿＿ください。"
+          }
+        }
       },
       {
         "japanese": "学生が五人います。",
@@ -2103,11 +4735,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "もっと野菜を食べたほうがいいですよ。",
+        "cloze": {
+          "start": 9,
+          "answer": "ほうがいい",
+          "quiz": {
+            "level": "N4",
+            "japanese": "もっと野菜を食べたほうがいいですよ。",
+            "german": "Du solltest mehr Gemüse essen.",
+            "start": 9,
+            "answer": "ほうがいい",
+            "acceptedAnswers": [
+              "ほうがいい"
+            ],
+            "distractors": [
+              {
+                "text": "ほうをいい",
+                "reason": "いい verlangt in dieser Bewertung が."
+              },
+              {
+                "text": "ほうにいい",
+                "reason": "に ersetzt hier nicht が."
+              },
+              {
+                "text": "ほうがよくない",
+                "reason": "Dies rät vom Essen von mehr Gemüse ab."
+              }
+            ],
+            "promptKana": "もっとやさいをたべた＿＿＿ですよ。"
+          }
+        },
         "romaji": "Motto yasai o tabeta hō ga ii desu yo.",
         "german": "Du solltest mehr Gemüse essen."
       },
       {
         "japanese": "夜遅く食べないほうがいいです。",
+        "cloze": {
+          "start": 7,
+          "answer": "ほうがいい"
+        },
         "romaji": "Yoru osoku tabenai hō ga ii desu.",
         "german": "Du solltest spät abends nicht essen."
       }
@@ -2129,11 +4794,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "雨が降っても行きます。",
+        "cloze": {
+          "start": 4,
+          "answer": "ても",
+          "quiz": {
+            "level": "N4",
+            "japanese": "雨が降っても行きます。",
+            "german": "Auch wenn es regnet, gehe ich.",
+            "start": 4,
+            "answer": "ても",
+            "acceptedAnswers": [
+              "ても"
+            ],
+            "distractors": [
+              {
+                "text": "たも",
+                "reason": "Auch wenn braucht ても, nicht たも."
+              },
+              {
+                "text": "れば",
+                "reason": "降っれば ist keine Bedingungsform."
+              },
+              {
+                "text": "ないと",
+                "reason": "降っない ist keine Negativform."
+              }
+            ],
+            "promptKana": "あめがふっ＿＿＿いきます。"
+          }
+        },
         "romaji": "Ame ga futte mo ikimasu.",
         "german": "Auch wenn es regnet, gehe ich."
       },
       {
         "japanese": "高くても買いたいです。",
+        "cloze": {
+          "start": 2,
+          "answer": "ても"
+        },
         "romaji": "Takakutemo kaitai desu.",
         "german": "Selbst wenn es teuer ist, möchte ich es kaufen."
       }
@@ -2156,7 +4854,39 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "日本語を勉強するのは楽しいです。",
         "romaji": "Nihongo o benkyō suru no wa tanoshii desu.",
-        "german": "Japanisch zu lernen ist vergnüglich."
+        "german": "Japanisch zu lernen ist vergnüglich.",
+        "cloze": {
+          "start": 8,
+          "answer": "のは",
+          "quiz": {
+            "level": "N5",
+            "japanese": "日本語を勉強するのは楽しいです。",
+            "german": "Japanisch zu lernen ist vergnüglich.",
+            "start": 8,
+            "answer": "のは",
+            "acceptedAnswers": [
+              "のは",
+              "のが",
+              "ことは",
+              "ことが"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "を nominalisiert die Tätigkeit nicht."
+              },
+              {
+                "text": "に",
+                "reason": "に nominalisiert die Tätigkeit nicht."
+              },
+              {
+                "text": "と",
+                "reason": "と bildet hier kein nominalisiertes Thema."
+              }
+            ],
+            "promptKana": "にほんごをべんきょうする＿＿＿たのしいです。"
+          }
+        }
       },
       {
         "japanese": "朝早く起きるのは大変です。",
@@ -2181,19 +4911,53 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "彼はゲームばかりしている。",
+        "cloze": {
+          "start": 5,
+          "answer": "ばかり",
+          "quiz": {
+            "level": "N4",
+            "japanese": "彼はゲームばかりしている。",
+            "german": "Er spielt nichts als Spiele.",
+            "start": 5,
+            "answer": "ばかり",
+            "acceptedAnswers": [
+              "ばかり",
+              "だけ"
+            ],
+            "distractors": [
+              {
+                "text": "しか",
+                "reason": "しか verlangt eine negative Verbform."
+              },
+              {
+                "text": "へ",
+                "reason": "へ markiert hier keine ausschließliche Tätigkeit."
+              },
+              {
+                "text": "から",
+                "reason": "から drückt hier nicht nichts als Spiele aus."
+              }
+            ],
+            "promptKana": "かれはゲーム＿＿＿している。"
+          }
+        },
         "romaji": "Kare wa gēmu bakari shiteiru.",
         "german": "Er spielt nichts als Spiele."
       },
       {
         "japanese": "甘いものばかり食べないで。",
+        "cloze": {
+          "start": 4,
+          "answer": "ばかり"
+        },
         "romaji": "Amai mono bakari tabenaide.",
         "german": "Iss nicht nur Süßes."
       }
     ],
     "notes": "Mit た-Form bedeutet es 'gerade erst': 来たばかり = gerade erst angekommen.",
     "related": [
-      "n4-dake",
-      "n4-shika-nai"
+      "dake",
+      "shika-nai"
     ]
   },
   {
@@ -2207,11 +4971,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "子供でさえ知っている。",
+        "cloze": {
+          "start": 3,
+          "answer": "さえ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "子供でさえ知っている。",
+            "german": "Sogar Kinder wissen das.",
+            "start": 3,
+            "answer": "さえ",
+            "acceptedAnswers": [
+              "さえ",
+              "も"
+            ],
+            "distractors": [
+              {
+                "text": "しか",
+                "reason": "しか verlangt eine negative Verbform."
+              },
+              {
+                "text": "から",
+                "reason": "子供でから ist kein passender Anschluss."
+              },
+              {
+                "text": "を",
+                "reason": "子供でを ist keine passende Partikelverbindung."
+              }
+            ],
+            "promptKana": "こどもで＿＿＿しっている。"
+          }
+        },
         "romaji": "Kodomo de sae shitteiru.",
         "german": "Sogar Kinder wissen das."
       },
       {
         "japanese": "名前さえ覚えていない。",
+        "cloze": {
+          "start": 2,
+          "answer": "さえ"
+        },
         "romaji": "Namae sae oboeteinai.",
         "german": "Ich erinnere mich nicht einmal an den Namen."
       }
@@ -2232,11 +5030,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "こちらこそよろしくお願いします。",
+        "cloze": {
+          "start": 3,
+          "answer": "こそ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "こちらこそよろしくお願いします。",
+            "german": "Ganz meinerseits, freut mich.",
+            "start": 3,
+            "answer": "こそ",
+            "acceptedAnswers": [
+              "こそ",
+              "も"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "を drückt keine nachdrückliche Erwiderung aus."
+              },
+              {
+                "text": "へ",
+                "reason": "へ bezeichnet eine Richtung statt ganz meinerseits."
+              },
+              {
+                "text": "しか",
+                "reason": "しか passt nicht zur positiven Schlussform."
+              }
+            ],
+            "promptKana": "こちら＿＿＿よろしくおねがいします。"
+          }
+        },
         "romaji": "Kochira koso yoroshiku onegai shimasu.",
         "german": "Ganz meinerseits, freut mich."
       },
       {
         "japanese": "今年こそ合格したい。",
+        "cloze": {
+          "start": 2,
+          "answer": "こそ"
+        },
         "romaji": "Kotoshi koso gōkaku shitai.",
         "german": "Dieses Jahr will ich unbedingt bestehen."
       }
@@ -2257,11 +5089,46 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "泣きたいほど嬉しかった。",
+        "cloze": {
+          "start": 4,
+          "answer": "ほど",
+          "quiz": {
+            "level": "N4",
+            "japanese": "泣きたいほど嬉しかった。",
+            "german": "Ich war so glücklich, dass ich weinen wollte.",
+            "start": 4,
+            "answer": "ほど",
+            "acceptedAnswers": [
+              "ほど",
+              "くらい",
+              "ぐらい"
+            ],
+            "distractors": [
+              {
+                "text": "ながら",
+                "reason": "ながら folgt dem Verbstamm, nicht たい."
+              },
+              {
+                "text": "すぎて",
+                "reason": "泣きたいすぎて ist kein korrekter Anschluss."
+              },
+              {
+                "text": "から",
+                "reason": "Dies macht den Wunsch zu weinen zum Grund statt zum Grad der Freude."
+              }
+            ],
+            "promptKana": "なきたい＿＿＿うれしかった。"
+          }
+        },
         "romaji": "Nakitai hodo ureshikatta.",
         "german": "Ich war so glücklich, dass ich weinen wollte."
       },
       {
         "japanese": "勉強すればするほど面白い。",
+        "cloze": {
+          "start": 7,
+          "answer": "ほど"
+        },
         "romaji": "Benkyō sureba suru hodo omoshiroi.",
         "german": "Je mehr man lernt, desto interessanter wird es."
       }
@@ -2282,11 +5149,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "毎日少しずつ勉強しています。",
+        "cloze": {
+          "start": 4,
+          "answer": "ずつ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "毎日少しずつ勉強しています。",
+            "german": "Ich lerne jeden Tag ein bisschen.",
+            "start": 4,
+            "answer": "ずつ",
+            "acceptedAnswers": [
+              "ずつ"
+            ],
+            "distractors": [
+              {
+                "text": "しか",
+                "reason": "しか verlangt eine Verneinung."
+              },
+              {
+                "text": "へ",
+                "reason": "へ verteilt keine kleinen Lernmengen."
+              },
+              {
+                "text": "をに",
+                "reason": "をに ist hier keine Mengenpartikelverbindung."
+              }
+            ],
+            "promptKana": "まいにちすこし＿＿＿べんきょうしています。"
+          }
+        },
         "romaji": "Mainichi sukoshi zutsu benkyō shiteimasu.",
         "german": "Ich lerne jeden Tag ein bisschen."
       },
       {
         "japanese": "一人に二つずつ配ってください。",
+        "cloze": {
+          "start": 5,
+          "answer": "ずつ"
+        },
         "romaji": "Hitori ni futatsu zutsu kubatte kudasai.",
         "german": "Verteilen Sie bitte jeweils zwei pro Person."
       }
@@ -2305,11 +5205,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "りんごやバナナなどの果物が好きです。",
+        "cloze": {
+          "start": 7,
+          "answer": "など",
+          "quiz": {
+            "level": "N4",
+            "japanese": "りんごやバナナなどの果物が好きです。",
+            "german": "Ich mag Früchte wie Äpfel und Bananen.",
+            "start": 7,
+            "answer": "など",
+            "acceptedAnswers": [
+              "など",
+              "等"
+            ],
+            "distractors": [
+              {
+                "text": "しか",
+                "reason": "しか passt nicht zum positiven Prädikat."
+              },
+              {
+                "text": "へ",
+                "reason": "への würde ein Ziel statt Beispiele von Früchten kennzeichnen."
+              },
+              {
+                "text": "から",
+                "reason": "からの bezeichnet Herkunft statt eine Beispielsammlung."
+              }
+            ],
+            "promptKana": "りんごやバナナ＿＿＿のくだものがすきです。"
+          }
+        },
         "romaji": "Ringo ya banana nado no kudamono ga suki desu.",
         "german": "Ich mag Früchte wie Äpfel und Bananen."
       },
       {
         "japanese": "私などまだまだです。",
+        "cloze": {
+          "start": 1,
+          "answer": "など"
+        },
         "romaji": "Watashi nado mada mada desu.",
         "german": "Jemand wie ich hat noch einen weiten Weg."
       }
@@ -2331,11 +5265,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "留学生として日本に来ました。",
+        "cloze": {
+          "start": 3,
+          "answer": "として",
+          "quiz": {
+            "level": "N4",
+            "japanese": "留学生として日本に来ました。",
+            "german": "Ich bin als Austauschstudent nach Japan gekommen.",
+            "start": 3,
+            "answer": "として",
+            "acceptedAnswers": [
+              "として"
+            ],
+            "distractors": [
+              {
+                "text": "としての",
+                "reason": "の müsste ein Nomen bestimmen, nicht 日本に来ました."
+              },
+              {
+                "text": "にとって",
+                "reason": "Dies bezeichnet eine Perspektive statt die Rolle bei der Einreise."
+              },
+              {
+                "text": "によると",
+                "reason": "Dies nennt eine Informationsquelle statt eine Rolle."
+              }
+            ],
+            "promptKana": "りゅうがくせい＿＿＿にほんにきました。"
+          }
+        },
         "romaji": "Ryūgakusei toshite Nihon ni kimashita.",
         "german": "Ich bin als Austauschstudent nach Japan gekommen."
       },
       {
         "japanese": "この町は観光地として有名です。",
+        "cloze": {
+          "start": 7,
+          "answer": "として"
+        },
         "romaji": "Kono machi wa kankōchi toshite yūmei desu.",
         "german": "Diese Stadt ist als Touristenort berühmt."
       }
@@ -2354,11 +5321,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "お客様に対して丁寧に話してください。",
+        "cloze": {
+          "start": 3,
+          "answer": "に対して",
+          "quiz": {
+            "level": "N4",
+            "japanese": "お客様に対して丁寧に話してください。",
+            "german": "Sprechen Sie bitte höflich gegenüber den Kunden.",
+            "start": 3,
+            "answer": "に対して",
+            "acceptedAnswers": [
+              "に対して",
+              "に"
+            ],
+            "distractors": [
+              {
+                "text": "に対する",
+                "reason": "Die attributive Form verlangt danach ein Nomen."
+              },
+              {
+                "text": "にとって",
+                "reason": "Dies bezeichnet die Perspektive, nicht die angesprochenen Kunden."
+              },
+              {
+                "text": "によると",
+                "reason": "Dies bezeichnet eine Nachrichtenquelle, nicht die Gesprächspartner."
+              }
+            ],
+            "promptKana": "おきゃくさま＿＿＿ていねいにはなしてください。"
+          }
+        },
         "romaji": "Okyakusama ni taishite teinei ni hanashite kudasai.",
         "german": "Sprechen Sie bitte höflich gegenüber den Kunden."
       },
       {
         "japanese": "兄はスポーツが好きなのに対して、弟は読書が好きだ。",
+        "cloze": {
+          "start": 11,
+          "answer": "に対して"
+        },
         "romaji": "Ani wa supōtsu ga suki na no ni taishite, otōto wa dokusho ga suki da.",
         "german": "Der ältere Bruder mag Sport, der jüngere hingegen Lesen."
       }
@@ -2379,11 +5380,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "私にとって家族が一番大切です。",
+        "cloze": {
+          "start": 1,
+          "answer": "にとって",
+          "quiz": {
+            "level": "N4",
+            "japanese": "私にとって家族が一番大切です。",
+            "german": "Für mich ist die Familie am wichtigsten.",
+            "start": 1,
+            "answer": "にとって",
+            "acceptedAnswers": [
+              "にとって"
+            ],
+            "distractors": [
+              {
+                "text": "によると",
+                "reason": "Dies bezeichnet eine zitierte Informationsquelle statt den eigenen Wertmaßstab."
+              },
+              {
+                "text": "としての",
+                "reason": "の verlangt hier ein nachfolgendes Bezugsnomen."
+              },
+              {
+                "text": "をとって",
+                "reason": "をとって ist nicht die Perspektivkonstruktion."
+              }
+            ],
+            "promptKana": "わたし＿＿＿かぞくがいちばんたいせつです。"
+          }
+        },
         "romaji": "Watashi ni totte kazoku ga ichiban taisetsu desu.",
         "german": "Für mich ist die Familie am wichtigsten."
       },
       {
         "japanese": "外国人にとって漢字は難しい。",
+        "cloze": {
+          "start": 3,
+          "answer": "にとって"
+        },
         "romaji": "Gaikokujin ni totte kanji wa muzukashii.",
         "german": "Für Ausländer sind Kanji schwierig."
       }
@@ -2404,11 +5438,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この小説は夏目漱石によって書かれた。",
+        "cloze": {
+          "start": 9,
+          "answer": "によって",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この小説は夏目漱石によって書かれた。",
+            "german": "Dieser Roman wurde von Natsume Sōseki geschrieben.",
+            "start": 9,
+            "answer": "によって",
+            "acceptedAnswers": [
+              "によって",
+              "に"
+            ],
+            "distractors": [
+              {
+                "text": "による",
+                "reason": "による bestimmt ein Nomen, nicht das folgende Verb."
+              },
+              {
+                "text": "にとって",
+                "reason": "Dies bezeichnet eine Perspektive statt den Urheber."
+              },
+              {
+                "text": "について",
+                "reason": "Dies würde den Autor zum Gegenstand des Romans machen."
+              }
+            ],
+            "promptKana": "このしょうせつはなつめそうせき＿＿＿かかれた。"
+          }
+        },
         "romaji": "Kono shōsetsu wa Natsume Sōseki ni yotte kakareta.",
         "german": "Dieser Roman wurde von Natsume Sōseki geschrieben."
       },
       {
         "japanese": "国によって文化が違います。",
+        "cloze": {
+          "start": 1,
+          "answer": "によって"
+        },
         "romaji": "Kuni ni yotte bunka ga chigaimasu.",
         "german": "Je nach Land ist die Kultur unterschiedlich."
       }
@@ -2430,11 +5498,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "鳥のように空を飛びたい。",
+        "cloze": {
+          "start": 1,
+          "answer": "のように",
+          "quiz": {
+            "level": "N4",
+            "japanese": "鳥のように空を飛びたい。",
+            "german": "Ich möchte wie ein Vogel fliegen.",
+            "start": 1,
+            "answer": "のように",
+            "acceptedAnswers": [
+              "のように",
+              "みたいに"
+            ],
+            "distractors": [
+              {
+                "text": "のような",
+                "reason": "Vor dem Verb wird die adverbiale Form に benötigt."
+              },
+              {
+                "text": "なように",
+                "reason": "Nach einem Nomen steht hier の."
+              },
+              {
+                "text": "のようでの",
+                "reason": "Dies bildet keinen adverbialen Vergleich."
+              }
+            ],
+            "promptKana": "とり＿＿＿そらをとびたい。"
+          }
+        },
         "romaji": "Tori no yō ni sora o tobitai.",
         "german": "Ich möchte wie ein Vogel fliegen."
       },
       {
         "japanese": "子供みたいに遊んでいる。",
+        "cloze": {
+          "start": 2,
+          "answer": "みたいに"
+        },
         "romaji": "Kodomo mitai ni asondeiru.",
         "german": "Er spielt wie ein Kind."
       }
@@ -2456,18 +5558,54 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本語だけでなく中国語も話せます。",
+        "cloze": {
+          "start": 3,
+          "answer": "だけでなく",
+          "quiz": {
+            "level": "N4",
+            "japanese": "日本語だけでなく中国語も話せます。",
+            "german": "Ich kann nicht nur Japanisch, sondern auch Chinesisch.",
+            "start": 3,
+            "answer": "だけでなく",
+            "acceptedAnswers": [
+              "だけでなく",
+              "だけではなく",
+              "ばかりでなく",
+              "のみならず"
+            ],
+            "distractors": [
+              {
+                "text": "しか",
+                "reason": "しか verlangt eine negative Endung."
+              },
+              {
+                "text": "だけでないの",
+                "reason": "の kann hier nicht den folgenden Satz anschließen."
+              },
+              {
+                "text": "だけでは",
+                "reason": "Dies lässt den kontrastierenden Anschluss zur zusätzlichen Sprache unvollständig."
+              }
+            ],
+            "promptKana": "にほんご＿＿＿ちゅうごくごもはなせます。"
+          }
+        },
         "romaji": "Nihongo dake de naku chūgokugo mo hanasemasu.",
         "german": "Ich kann nicht nur Japanisch, sondern auch Chinesisch."
       },
       {
         "japanese": "安いだけでなく、おいしいです。",
+        "cloze": {
+          "start": 2,
+          "answer": "だけでなく"
+        },
         "romaji": "Yasui dake de naku, oishii desu.",
         "german": "Es ist nicht nur günstig, sondern auch lecker."
       }
     ],
     "notes": "Informell: ～だけじゃなくて. Formell: ～のみならず.",
     "related": [
-      "n4-dake",
+      "dake",
       "mo"
     ]
   },
@@ -2483,7 +5621,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "先生に褒められた。",
         "romaji": "Sensei ni homerareta.",
-        "german": "Ich wurde vom Lehrer gelobt."
+        "german": "Ich wurde vom Lehrer gelobt.",
+        "cloze": {
+          "start": 3,
+          "answer": "褒められた",
+          "quiz": {
+            "level": "N4",
+            "japanese": "先生に褒められた。",
+            "german": "Ich wurde vom Lehrer gelobt.",
+            "start": 3,
+            "answer": "褒められた",
+            "acceptedAnswers": [
+              "褒められた"
+            ],
+            "distractors": [
+              {
+                "text": "褒めた",
+                "reason": "Dies ist aktiv statt passiv."
+              },
+              {
+                "text": "褒められなかった",
+                "reason": "Dies verneint das Lob."
+              },
+              {
+                "text": "褒めれるた",
+                "reason": "Dies ist keine Vergangenheitsform."
+              }
+            ],
+            "promptKana": "せんせいに＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "電車で足を踏まれた。",
@@ -2514,7 +5681,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "母は子供に野菜を食べさせた。",
         "romaji": "Haha wa kodomo ni yasai o tabesaseta.",
-        "german": "Die Mutter ließ das Kind Gemüse essen."
+        "german": "Die Mutter ließ das Kind Gemüse essen.",
+        "cloze": {
+          "start": 8,
+          "answer": "食べさせた",
+          "quiz": {
+            "level": "N4",
+            "japanese": "母は子供に野菜を食べさせた。",
+            "german": "Die Mutter ließ das Kind Gemüse essen.",
+            "start": 8,
+            "answer": "食べさせた",
+            "acceptedAnswers": [
+              "食べさせた"
+            ],
+            "distractors": [
+              {
+                "text": "食べられた",
+                "reason": "Dies ist passiv/potenzial, nicht die veranlasste Handlung."
+              },
+              {
+                "text": "食べさせなかった",
+                "reason": "Dies verneint das Essenlassen."
+              },
+              {
+                "text": "食べるさせた",
+                "reason": "する wird nicht an die Wörterbuchform angeschlossen."
+              }
+            ],
+            "promptKana": "はははこどもにやさいを＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "先生は学生を立たせた。",
@@ -2541,7 +5737,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "嫌いな野菜を食べさせられた。",
         "romaji": "Kirai na yasai o tabesaserareta.",
-        "german": "Ich wurde gezwungen, Gemüse zu essen, das ich nicht mag."
+        "german": "Ich wurde gezwungen, Gemüse zu essen, das ich nicht mag.",
+        "cloze": {
+          "start": 6,
+          "answer": "食べさせられた",
+          "quiz": {
+            "level": "N4",
+            "japanese": "嫌いな野菜を食べさせられた。",
+            "german": "Ich wurde gezwungen, Gemüse zu essen, das ich nicht mag.",
+            "start": 6,
+            "answer": "食べさせられた",
+            "acceptedAnswers": [
+              "食べさせられた"
+            ],
+            "distractors": [
+              {
+                "text": "食べさせた",
+                "reason": "Dies bedeutet jemanden essen lassen, nicht selbst dazu gezwungen werden."
+              },
+              {
+                "text": "食べさせられなかった",
+                "reason": "Dies verneint den Zwang."
+              },
+              {
+                "text": "食べるさせられた",
+                "reason": "Die Kausativ-Passivform wird vom Stamm gebildet."
+              }
+            ],
+            "promptKana": "きらいなやさいを＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "毎日残業させられている。",
@@ -2567,7 +5792,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "日本語が話せます。",
         "romaji": "Nihongo ga hanasemasu.",
-        "german": "Ich kann Japanisch sprechen."
+        "german": "Ich kann Japanisch sprechen.",
+        "cloze": {
+          "start": 4,
+          "answer": "話せます",
+          "quiz": {
+            "level": "N4",
+            "japanese": "日本語が話せます。",
+            "german": "Ich kann Japanisch sprechen.",
+            "start": 4,
+            "answer": "話せます",
+            "acceptedAnswers": [
+              "話せます"
+            ],
+            "distractors": [
+              {
+                "text": "話せません",
+                "reason": "Dies verneint die Fähigkeit."
+              },
+              {
+                "text": "話しました",
+                "reason": "Dies berichtet eine Handlung statt die Fähigkeit."
+              },
+              {
+                "text": "話すます",
+                "reason": "ます wird nicht an die Wörterbuchform angeschlossen."
+              }
+            ],
+            "promptKana": "にほんごが＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "この漢字が読めますか。",
@@ -2582,7 +5836,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Godan: 書く→書ける, 読む→読める. Ichidan: 食べる→食べられる. する→できる, 来る→来られる. Umgangssprache: 食べれる (ra-Wegfall).",
     "related": [
-      "n4-koto-ga-dekiru"
+      "koto-ga-dekiru"
     ]
   },
   {
@@ -2596,11 +5850,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "映画を見よう。",
+        "cloze": {
+          "start": 4,
+          "answer": "よう",
+          "quiz": {
+            "level": "N4",
+            "japanese": "映画を見よう。",
+            "german": "Lass uns einen Film schauen.",
+            "start": 4,
+            "answer": "よう",
+            "acceptedAnswers": [
+              "よう"
+            ],
+            "distractors": [
+              {
+                "text": "ろう",
+                "reason": "見る bildet 見よう, nicht 見ろう."
+              },
+              {
+                "text": "るよう",
+                "reason": "見るよう ist kein selbstständiger gemeinsamer Vorschlag."
+              },
+              {
+                "text": "ない",
+                "reason": "Dies verneint das Schauen."
+              }
+            ],
+            "promptKana": "えいがをみ＿＿＿。"
+          }
+        },
         "romaji": "Eiga o miyō.",
         "german": "Lass uns einen Film schauen."
       },
       {
         "japanese": "明日早く起きようと思う。",
+        "cloze": {
+          "start": 6,
+          "answer": "よう"
+        },
         "romaji": "Ashita hayaku okiyō to omou.",
         "german": "Ich denke, ich werde morgen früh aufstehen."
       }
@@ -2622,6 +5909,35 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "パーティーの前に料理を作っておく。",
+        "cloze": {
+          "start": 13,
+          "answer": "ておく",
+          "quiz": {
+            "level": "N4",
+            "japanese": "パーティーの前に料理を作っておく。",
+            "german": "Ich koche vor der Party vor.",
+            "start": 13,
+            "answer": "ておく",
+            "acceptedAnswers": [
+              "ておく"
+            ],
+            "distractors": [
+              {
+                "text": "たおく",
+                "reason": "おく braucht die て-Verbindung."
+              },
+              {
+                "text": "ておかない",
+                "reason": "Dies verneint die Vorbereitung."
+              },
+              {
+                "text": "ますおく",
+                "reason": "作っます ist keine Verbform."
+              }
+            ],
+            "promptKana": "パーティーのまえにりょうりをつくっ＿＿＿。"
+          }
+        },
         "romaji": "Pātī no mae ni ryōri o tsukutte oku.",
         "german": "Ich koche vor der Party vor."
       },
@@ -2652,6 +5968,35 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "お弁当を持っていく。",
+        "cloze": {
+          "start": 6,
+          "answer": "ていく",
+          "quiz": {
+            "level": "N4",
+            "japanese": "お弁当を持っていく。",
+            "german": "Ich nehme eine Bento-Box mit.",
+            "start": 6,
+            "answer": "ていく",
+            "acceptedAnswers": [
+              "ていく"
+            ],
+            "distractors": [
+              {
+                "text": "た行く",
+                "reason": "持った行く ist kein Verbanschluss."
+              },
+              {
+                "text": "ていかない",
+                "reason": "Dies verneint das Mitnehmen."
+              },
+              {
+                "text": "ます行く",
+                "reason": "持っます ist keine Verbform."
+              }
+            ],
+            "promptKana": "おべんとうをもっ＿＿＿。"
+          }
+        },
         "romaji": "Obentō o motte iku.",
         "german": "Ich nehme eine Bento-Box mit."
       }
@@ -2674,7 +6019,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "雨が降ってきた。",
         "romaji": "Ame ga futte kita.",
-        "german": "Es hat angefangen zu regnen."
+        "german": "Es hat angefangen zu regnen.",
+        "cloze": {
+          "start": 2,
+          "answer": "降ってきた",
+          "quiz": {
+            "level": "N4",
+            "japanese": "雨が降ってきた。",
+            "german": "Es hat angefangen zu regnen.",
+            "start": 2,
+            "answer": "降ってきた",
+            "acceptedAnswers": [
+              "降ってきた"
+            ],
+            "distractors": [
+              {
+                "text": "降ってこなかった",
+                "reason": "Dies verneint das Einsetzen des Regens."
+              },
+              {
+                "text": "降ったきた",
+                "reason": "くる folgt hier der て-Form."
+              },
+              {
+                "text": "降ってくるた",
+                "reason": "Die Vergangenheit von くる lautet きた."
+              }
+            ],
+            "promptKana": "あめが＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "日本語を三年間勉強してきました。",
@@ -2700,7 +6074,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "友達に日本語を教えてあげた。",
         "romaji": "Tomodachi ni nihongo o oshiete ageta.",
-        "german": "Ich habe meinem Freund Japanisch beigebracht."
+        "german": "Ich habe meinem Freund Japanisch beigebracht.",
+        "cloze": {
+          "start": 9,
+          "answer": "てあげた",
+          "quiz": {
+            "level": "N4",
+            "japanese": "友達に日本語を教えてあげた。",
+            "german": "Ich habe meinem Freund Japanisch beigebracht.",
+            "start": 9,
+            "answer": "てあげた",
+            "acceptedAnswers": [
+              "てあげた"
+            ],
+            "distractors": [
+              {
+                "text": "たあげた",
+                "reason": "あげる folgt hier der て-Form."
+              },
+              {
+                "text": "てあげなかった",
+                "reason": "Dies verneint die geleistete Hilfe."
+              },
+              {
+                "text": "てあげるた",
+                "reason": "あげる bildet die Vergangenheit あげた."
+              }
+            ],
+            "promptKana": "ともだちににほんごをおしえ＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "荷物を持ってあげましょうか。",
@@ -2726,7 +6129,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "友達に手伝ってもらった。",
         "romaji": "Tomodachi ni tetsudatte moratta.",
-        "german": "Mein Freund hat mir geholfen (ich habe Hilfe bekommen)."
+        "german": "Mein Freund hat mir geholfen (ich habe Hilfe bekommen).",
+        "cloze": {
+          "start": 3,
+          "answer": "手伝ってもらった",
+          "quiz": {
+            "level": "N4",
+            "japanese": "友達に手伝ってもらった。",
+            "german": "Mein Freund hat mir geholfen (ich habe Hilfe bekommen).",
+            "start": 3,
+            "answer": "手伝ってもらった",
+            "acceptedAnswers": [
+              "手伝ってもらった"
+            ],
+            "distractors": [
+              {
+                "text": "手伝ってあげた",
+                "reason": "Dies kehrt die Hilfsrichtung um."
+              },
+              {
+                "text": "手伝ってもらわなかった",
+                "reason": "Dies verneint die erhaltene Hilfe."
+              },
+              {
+                "text": "手伝ったもらった",
+                "reason": "もらう folgt der て-Form."
+              }
+            ],
+            "promptKana": "ともだちに＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "先生に説明してもらいました。",
@@ -2752,7 +6184,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "母が弁当を作ってくれた。",
         "romaji": "Haha ga bentō o tsukutte kureta.",
-        "german": "Meine Mutter hat mir ein Bento gemacht."
+        "german": "Meine Mutter hat mir ein Bento gemacht.",
+        "cloze": {
+          "start": 5,
+          "answer": "作ってくれた",
+          "quiz": {
+            "level": "N4",
+            "japanese": "母が弁当を作ってくれた。",
+            "german": "Meine Mutter hat mir ein Bento gemacht.",
+            "start": 5,
+            "answer": "作ってくれた",
+            "acceptedAnswers": [
+              "作ってくれた"
+            ],
+            "distractors": [
+              {
+                "text": "作ってもらった",
+                "reason": "Dies macht die Mutter zur Empfängerin statt zur Handelnden."
+              },
+              {
+                "text": "作ってくれなかった",
+                "reason": "Dies verneint die Handlung."
+              },
+              {
+                "text": "作ったくれた",
+                "reason": "くれる folgt der て-Form."
+              }
+            ],
+            "promptKana": "ははがべんとうを＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "友達が駅まで送ってくれた。",
@@ -2778,7 +6239,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "来年日本に行くことにした。",
         "romaji": "Rainen Nihon ni iku koto ni shita.",
-        "german": "Ich habe mich entschieden, nächstes Jahr nach Japan zu gehen."
+        "german": "Ich habe mich entschieden, nächstes Jahr nach Japan zu gehen.",
+        "cloze": {
+          "start": 7,
+          "answer": "ことにした",
+          "quiz": {
+            "level": "N4",
+            "japanese": "来年日本に行くことにした。",
+            "german": "Ich habe mich entschieden, nächstes Jahr nach Japan zu gehen.",
+            "start": 7,
+            "answer": "ことにした",
+            "acceptedAnswers": [
+              "ことにした"
+            ],
+            "distractors": [
+              {
+                "text": "ことをした",
+                "reason": "Die Entscheidungskonstruktion verlangt に."
+              },
+              {
+                "text": "ことにしなかった",
+                "reason": "Dies verneint die Entscheidung."
+              },
+              {
+                "text": "ことにするた",
+                "reason": "する bildet die Vergangenheit した."
+              }
+            ],
+            "promptKana": "らいねんにほんにいく＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "甘いものを食べないことにした。",
@@ -2803,7 +6293,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "来月から大阪に転勤することになりました。",
         "romaji": "Raigetsu kara Ōsaka ni tenkin suru koto ni narimashita.",
-        "german": "Es wurde entschieden, dass ich ab nächstem Monat nach Osaka versetzt werde."
+        "german": "Es wurde entschieden, dass ich ab nächstem Monat nach Osaka versetzt werde.",
+        "cloze": {
+          "start": 11,
+          "answer": "ことになりました",
+          "quiz": {
+            "level": "N4",
+            "japanese": "来月から大阪に転勤することになりました。",
+            "german": "Es wurde entschieden, dass ich ab nächstem Monat nach Osaka versetzt werde.",
+            "start": 11,
+            "answer": "ことになりました",
+            "acceptedAnswers": [
+              "ことになりました"
+            ],
+            "distractors": [
+              {
+                "text": "ことをなりました",
+                "reason": "なる verlangt hier に, nicht を."
+              },
+              {
+                "text": "ことになりませんでした",
+                "reason": "Dies verneint die getroffene Entscheidung."
+              },
+              {
+                "text": "ことになるました",
+                "reason": "ます wird nicht an なる angeschlossen."
+              }
+            ],
+            "promptKana": "らいげつからおおさかにてんきんする＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "会議は中止になることになった。",
@@ -2828,7 +6347,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "毎日運動するようにしています。",
         "romaji": "Mainichi undō suru yō ni shiteimasu.",
-        "german": "Ich achte darauf, jeden Tag Sport zu machen."
+        "german": "Ich achte darauf, jeden Tag Sport zu machen.",
+        "cloze": {
+          "start": 6,
+          "answer": "ようにしています",
+          "quiz": {
+            "level": "N4",
+            "japanese": "毎日運動するようにしています。",
+            "german": "Ich achte darauf, jeden Tag Sport zu machen.",
+            "start": 6,
+            "answer": "ようにしています",
+            "acceptedAnswers": [
+              "ようにしています"
+            ],
+            "distractors": [
+              {
+                "text": "ようをしています",
+                "reason": "Die angestrebte Gewohnheit wird mit に angeschlossen."
+              },
+              {
+                "text": "ようにしていません",
+                "reason": "Dies verneint die Bemühung."
+              },
+              {
+                "text": "ようにしますて",
+                "reason": "しますて ist keine て-Form."
+              }
+            ],
+            "promptKana": "まいにちうんどうする＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "遅刻しないようにしてください。",
@@ -2853,7 +6401,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "日本語が話せるようになりました。",
         "romaji": "Nihongo ga hanaseru yō ni narimashita.",
-        "german": "Ich bin so weit gekommen, dass ich Japanisch sprechen kann."
+        "german": "Ich bin so weit gekommen, dass ich Japanisch sprechen kann.",
+        "cloze": {
+          "start": 7,
+          "answer": "ようになりました",
+          "quiz": {
+            "level": "N4",
+            "japanese": "日本語が話せるようになりました。",
+            "german": "Ich bin so weit gekommen, dass ich Japanisch sprechen kann.",
+            "start": 7,
+            "answer": "ようになりました",
+            "acceptedAnswers": [
+              "ようになりました"
+            ],
+            "distractors": [
+              {
+                "text": "ようをなりました",
+                "reason": "Die Veränderung verlangt に."
+              },
+              {
+                "text": "ようになりませんでした",
+                "reason": "Dies verneint die erreichte Fähigkeit."
+              },
+              {
+                "text": "ようになるました",
+                "reason": "なるました ist keine Verbform."
+              }
+            ],
+            "promptKana": "にほんごがはなせる＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "野菜を食べるようになった。",
@@ -2877,18 +6454,51 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "早く来てほしい。",
+        "cloze": {
+          "start": 3,
+          "answer": "てほしい",
+          "quiz": {
+            "level": "N4",
+            "japanese": "早く来てほしい。",
+            "german": "Ich möchte, dass du bald kommst.",
+            "start": 3,
+            "answer": "てほしい",
+            "acceptedAnswers": [
+              "てほしい"
+            ],
+            "distractors": [
+              {
+                "text": "たほしい",
+                "reason": "Der Wunsch nach fremdem Handeln braucht die て-Form."
+              },
+              {
+                "text": "てほしくない",
+                "reason": "Dies verneint den Wunsch."
+              },
+              {
+                "text": "ますほしい",
+                "reason": "ます kann nicht vor ほしい stehen."
+              }
+            ],
+            "promptKana": "はやくき＿＿＿。"
+          }
+        },
         "romaji": "Hayaku kite hoshii.",
         "german": "Ich möchte, dass du bald kommst."
       },
       {
         "japanese": "もっと勉強してほしいです。",
+        "cloze": {
+          "start": 6,
+          "answer": "てほしい"
+        },
         "romaji": "Motto benkyō shite hoshii desu.",
         "german": "Ich möchte, dass du mehr lernst."
       }
     ],
     "notes": "Verneinung: ～ないでほしい (ich möchte, dass du es nicht tust).",
     "related": [
-      "hoshii",
+      "ga-hoshii",
       "n4-temorau"
     ]
   },
@@ -2908,6 +6518,35 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "少し考えさせてください。",
+        "cloze": {
+          "start": 4,
+          "answer": "させてください",
+          "quiz": {
+            "level": "N4",
+            "japanese": "少し考えさせてください。",
+            "german": "Lassen Sie mich bitte kurz nachdenken.",
+            "start": 4,
+            "answer": "させてください",
+            "acceptedAnswers": [
+              "させてください"
+            ],
+            "distractors": [
+              {
+                "text": "させたください",
+                "reason": "Die Bitte verlangt die て-Form."
+              },
+              {
+                "text": "させますください",
+                "reason": "ます kann hier nicht vor ください stehen."
+              },
+              {
+                "text": "させないでください",
+                "reason": "Dies bittet darum, nicht nachdenken gelassen zu werden."
+              }
+            ],
+            "promptKana": "すこしかんがえ＿＿＿。"
+          }
+        },
         "romaji": "Sukoshi kangaesasete kudasai.",
         "german": "Lassen Sie mich bitte kurz nachdenken."
       }
@@ -2915,7 +6554,7 @@ window.GRAMMAR_DATA = [
     "notes": "Sehr höflich. Oft in geschäftlichen Kontexten verwendet.",
     "related": [
       "n4-saseru",
-      "kudasai"
+      "te-kudasai"
     ]
   },
   {
@@ -2929,11 +6568,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本に来たばかりです。",
+        "cloze": {
+          "start": 4,
+          "answer": "たばかり",
+          "quiz": {
+            "level": "N4",
+            "japanese": "日本に来たばかりです。",
+            "german": "Ich bin gerade erst nach Japan gekommen.",
+            "start": 4,
+            "answer": "たばかり",
+            "acceptedAnswers": [
+              "たばかり"
+            ],
+            "distractors": [
+              {
+                "text": "てばかり",
+                "reason": "Dies bezeichnet ständiges Kommen statt gerade angekommen sein."
+              },
+              {
+                "text": "るばかり",
+                "reason": "来る lautet くる, nicht きる; zudem wird keine abgeschlossene Ankunft ausgedrückt."
+              },
+              {
+                "text": "たばかりな",
+                "reason": "Vor です wird nach ばかり kein な eingefügt."
+              }
+            ],
+            "promptKana": "にほんにき＿＿＿です。"
+          }
+        },
         "romaji": "Nihon ni kita bakari desu.",
         "german": "Ich bin gerade erst nach Japan gekommen."
       },
       {
         "japanese": "さっき食べたばかりなのに、もうお腹が空いた。",
+        "cloze": {
+          "start": 5,
+          "answer": "たばかり"
+        },
         "romaji": "Sakki tabeta bakari na noni, mō onaka ga suita.",
         "german": "Obwohl ich gerade erst gegessen habe, habe ich schon wieder Hunger."
       }
@@ -2956,7 +6628,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "雨が降り始めた。",
         "romaji": "Ame ga furi hajimeta.",
-        "german": "Es hat angefangen zu regnen."
+        "german": "Es hat angefangen zu regnen.",
+        "cloze": {
+          "start": 4,
+          "answer": "始めた",
+          "quiz": {
+            "level": "N4",
+            "japanese": "雨が降り始めた。",
+            "german": "Es hat angefangen zu regnen.",
+            "start": 4,
+            "answer": "始めた",
+            "acceptedAnswers": [
+              "始めた"
+            ],
+            "distractors": [
+              {
+                "text": "終わった",
+                "reason": "Dies bezeichnet das Ende statt den Beginn."
+              },
+              {
+                "text": "始めなかった",
+                "reason": "Dies verneint den Beginn."
+              },
+              {
+                "text": "始めるた",
+                "reason": "Die Vergangenheit lautet 始めた."
+              }
+            ],
+            "promptKana": "あめがふり＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "日本語を勉強し始めました。",
@@ -2982,7 +6683,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "三時間歩き続けた。",
         "romaji": "Sanjikan aruki tsuzuketa.",
-        "german": "Ich bin drei Stunden lang weitergelaufen."
+        "german": "Ich bin drei Stunden lang weitergelaufen.",
+        "cloze": {
+          "start": 5,
+          "answer": "続けた",
+          "quiz": {
+            "level": "N4",
+            "japanese": "三時間歩き続けた。",
+            "german": "Ich bin drei Stunden lang weitergelaufen.",
+            "start": 5,
+            "answer": "続けた",
+            "acceptedAnswers": [
+              "続けた"
+            ],
+            "distractors": [
+              {
+                "text": "続けなかった",
+                "reason": "Dies verneint das Weiterlaufen."
+              },
+              {
+                "text": "続けるた",
+                "reason": "Dies ist keine Vergangenheitsform."
+              },
+              {
+                "text": "ます続けた",
+                "reason": "ます wird nicht vor 続けた eingefügt."
+              }
+            ],
+            "promptKana": "さんじかんあるき＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "諦めずに努力し続けてください。",
@@ -3008,7 +6738,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "本を読み終わりました。",
         "romaji": "Hon o yomi owarimashita.",
-        "german": "Ich habe das Buch fertig gelesen."
+        "german": "Ich habe das Buch fertig gelesen.",
+        "cloze": {
+          "start": 4,
+          "answer": "終わりました",
+          "quiz": {
+            "level": "N4",
+            "japanese": "本を読み終わりました。",
+            "german": "Ich habe das Buch fertig gelesen.",
+            "start": 4,
+            "answer": "終わりました",
+            "acceptedAnswers": [
+              "終わりました"
+            ],
+            "distractors": [
+              {
+                "text": "始めました",
+                "reason": "Dies bezeichnet den Beginn statt den Abschluss."
+              },
+              {
+                "text": "終わりませんでした",
+                "reason": "Dies verneint den Abschluss."
+              },
+              {
+                "text": "終わるました",
+                "reason": "Dies ist keine höfliche Vergangenheitsform."
+              }
+            ],
+            "promptKana": "ほんをよみ＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "宿題を書き終わった。",
@@ -3033,11 +6792,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この本は読みやすい。",
+        "cloze": {
+          "start": 6,
+          "answer": "やすい",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この本は読みやすい。",
+            "german": "Dieses Buch ist leicht zu lesen.",
+            "start": 6,
+            "answer": "やすい",
+            "acceptedAnswers": [
+              "やすい"
+            ],
+            "distractors": [
+              {
+                "text": "にくい",
+                "reason": "Dies bedeutet schwer lesbar."
+              },
+              {
+                "text": "やすいだ",
+                "reason": "Ein い-Adjektiv wird nicht mit だ abgeschlossen."
+              },
+              {
+                "text": "やすくでした",
+                "reason": "Dies ist keine Adjektivform."
+              }
+            ],
+            "promptKana": "このほんはよみ＿＿＿。"
+          }
+        },
         "romaji": "Kono hon wa yomiyasui.",
         "german": "Dieses Buch ist leicht zu lesen."
       },
       {
         "japanese": "ガラスは割れやすい。",
+        "cloze": {
+          "start": 6,
+          "answer": "やすい"
+        },
         "romaji": "Garasu wa wareyasui.",
         "german": "Glas zerbricht leicht."
       }
@@ -3045,7 +6837,7 @@ window.GRAMMAR_DATA = [
     "notes": "Wird wie ein い-Adjektiv konjugiert: やすくない, やすかった.",
     "related": [
       "n4-nikui",
-      "n4-sugiru"
+      "sugiru"
     ]
   },
   {
@@ -3059,11 +6851,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この字は読みにくい。",
+        "cloze": {
+          "start": 6,
+          "answer": "にくい",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この字は読みにくい。",
+            "german": "Diese Schrift ist schwer zu lesen.",
+            "start": 6,
+            "answer": "にくい",
+            "acceptedAnswers": [
+              "にくい",
+              "づらい"
+            ],
+            "distractors": [
+              {
+                "text": "やすい",
+                "reason": "Dies bedeutet leicht lesbar."
+              },
+              {
+                "text": "にくいだ",
+                "reason": "Ein い-Adjektiv wird nicht mit だ abgeschlossen."
+              },
+              {
+                "text": "にくかっただ",
+                "reason": "だ gehört nicht hinter die い-Adjektiv-Vergangenheit."
+              }
+            ],
+            "promptKana": "このじはよみ＿＿＿。"
+          }
+        },
         "romaji": "Kono ji wa yominikui.",
         "german": "Diese Schrift ist schwer zu lesen."
       },
       {
         "japanese": "この靴は歩きにくい。",
+        "cloze": {
+          "start": 6,
+          "answer": "にくい"
+        },
         "romaji": "Kono kutsu wa aruki nikui.",
         "german": "Diese Schuhe sind schwer zu laufen."
       }
@@ -3071,7 +6897,7 @@ window.GRAMMAR_DATA = [
     "notes": "Wird wie ein い-Adjektiv konjugiert. Ähnlich: ～づらい (mit emotionaler Schwierigkeit).",
     "related": [
       "n4-yasui",
-      "n4-sugiru"
+      "sugiru"
     ]
   },
   {
@@ -3086,7 +6912,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "雨が降りそうだ。",
         "romaji": "Ame ga furisō da.",
-        "german": "Es sieht aus, als ob es regnen wird."
+        "german": "Es sieht aus, als ob es regnen wird.",
+        "cloze": {
+          "start": 4,
+          "answer": "そうだ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "雨が降りそうだ。",
+            "german": "Es sieht aus, als ob es regnen wird.",
+            "start": 4,
+            "answer": "そうだ",
+            "acceptedAnswers": [
+              "そうだ"
+            ],
+            "distractors": [
+              {
+                "text": "そうな",
+                "reason": "Die attributive Form benötigt ein Bezugsnomen."
+              },
+              {
+                "text": "そうに",
+                "reason": "Die adverbiale Form benötigt ein folgendes Prädikat."
+              },
+              {
+                "text": "そうのだ",
+                "reason": "そう als Erscheinungsform schließt nicht mit のだ an."
+              }
+            ],
+            "promptKana": "あめがふり＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "このケーキはおいしそうだ。",
@@ -3112,18 +6967,51 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "窓が開けてある。",
+        "cloze": {
+          "start": 4,
+          "answer": "てある",
+          "quiz": {
+            "level": "N4",
+            "japanese": "窓が開けてある。",
+            "german": "Das Fenster ist geöffnet worden (und steht noch offen).",
+            "start": 4,
+            "answer": "てある",
+            "acceptedAnswers": [
+              "てある"
+            ],
+            "distractors": [
+              {
+                "text": "たある",
+                "reason": "ある folgt hier der て-Form."
+              },
+              {
+                "text": "てあらない",
+                "reason": "ある wird mit ない verneint, nicht mit あらない."
+              },
+              {
+                "text": "ますある",
+                "reason": "ます kann nicht vor ある stehen."
+              }
+            ],
+            "promptKana": "まどがあけ＿＿＿。"
+          }
+        },
         "romaji": "Mado ga akete aru.",
         "german": "Das Fenster ist geöffnet worden (und steht noch offen)."
       },
       {
         "japanese": "テーブルの上にメモが書いてある。",
+        "cloze": {
+          "start": 12,
+          "answer": "てある"
+        },
         "romaji": "Tēburu no ue ni memo ga kaite aru.",
         "german": "Auf dem Tisch ist eine Notiz geschrieben."
       }
     ],
     "notes": "Unterschied zu ～ている: てある betont das absichtliche Vorbereiten, ている den aktuellen Zustand.",
     "related": [
-      "teiru",
+      "te-iru",
       "n4-teoku"
     ]
   },
@@ -3138,11 +7026,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "朝ご飯を食べずに学校に行った。",
+        "cloze": {
+          "start": 6,
+          "answer": "ずに",
+          "quiz": {
+            "level": "N4",
+            "japanese": "朝ご飯を食べずに学校に行った。",
+            "german": "Ich ging ohne Frühstück zur Schule.",
+            "start": 6,
+            "answer": "ずに",
+            "acceptedAnswers": [
+              "ずに",
+              "ないで"
+            ],
+            "distractors": [
+              {
+                "text": "てから",
+                "reason": "Dies bedeutet nach dem Frühstück."
+              },
+              {
+                "text": "た後で",
+                "reason": "Dies bedeutet nach dem Frühstück."
+              },
+              {
+                "text": "ながら",
+                "reason": "Dies bedeutet während des Essens."
+              }
+            ],
+            "promptKana": "あさごはんをたべ＿＿＿がっこうにいった。"
+          }
+        },
         "romaji": "Asagohan o tabezu ni gakkō ni itta.",
         "german": "Ich ging ohne Frühstück zur Schule."
       },
       {
         "japanese": "辞書を使わないで読めた。",
+        "cloze": {
+          "start": 5,
+          "answer": "ないで"
+        },
         "romaji": "Jisho o tsukawanaide yometa.",
         "german": "Ich konnte es ohne Wörterbuch lesen."
       }
@@ -3164,7 +7086,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "早くしろ！",
         "romaji": "Hayaku shiro!",
-        "german": "Beeil dich!"
+        "german": "Beeil dich!",
+        "cloze": {
+          "start": 2,
+          "answer": "しろ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "早くしろ！",
+            "german": "Beeil dich!",
+            "start": 2,
+            "answer": "しろ",
+            "acceptedAnswers": [
+              "しろ",
+              "せよ"
+            ],
+            "distractors": [
+              {
+                "text": "した",
+                "reason": "Dies berichtet Vergangenheit statt zu befehlen."
+              },
+              {
+                "text": "しない",
+                "reason": "Dies verneint die Handlung."
+              },
+              {
+                "text": "するろ",
+                "reason": "Dies ist keine Imperativform."
+              }
+            ],
+            "promptKana": "はやく＿＿＿！"
+          }
+        }
       },
       {
         "japanese": "静かにしろ。",
@@ -3193,11 +7145,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "早く寝なさい。",
+        "cloze": {
+          "start": 3,
+          "answer": "なさい",
+          "quiz": {
+            "level": "N4",
+            "japanese": "早く寝なさい。",
+            "german": "Geh früh schlafen.",
+            "start": 3,
+            "answer": "なさい",
+            "acceptedAnswers": [
+              "なさい"
+            ],
+            "distractors": [
+              {
+                "text": "るなさい",
+                "reason": "なさい folgt dem Stamm, nicht der Wörterbuchform."
+              },
+              {
+                "text": "たなさい",
+                "reason": "なさい folgt nicht der た-Form."
+              },
+              {
+                "text": "なかった",
+                "reason": "Dies berichtet Nichtschlafen statt eine Aufforderung."
+              }
+            ],
+            "promptKana": "はやくね＿＿＿。"
+          }
+        },
         "romaji": "Hayaku nenasai.",
         "german": "Geh früh schlafen."
       },
       {
         "japanese": "宿題をしなさい。",
+        "cloze": {
+          "start": 4,
+          "answer": "なさい"
+        },
         "romaji": "Shukudai o shinasai.",
         "german": "Mach deine Hausaufgaben."
       }
@@ -3205,7 +7190,7 @@ window.GRAMMAR_DATA = [
     "notes": "Höflicher als 命令形, aber immer noch autoritär. Nur von oben nach unten verwendet.",
     "related": [
       "n4-imperative",
-      "kudasai"
+      "te-kudasai"
     ]
   },
   {
@@ -3219,11 +7204,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "安ければ買います。",
+        "cloze": {
+          "start": 1,
+          "answer": "ければ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "安ければ買います。",
+            "german": "Wenn es günstig ist, kaufe ich es.",
+            "start": 1,
+            "answer": "ければ",
+            "acceptedAnswers": [
+              "ければ"
+            ],
+            "distractors": [
+              {
+                "text": "いければ",
+                "reason": "Das い wird vor ければ entfernt."
+              },
+              {
+                "text": "かったれば",
+                "reason": "Dies ist keine Konditionalform."
+              },
+              {
+                "text": "くないなら",
+                "reason": "Dies kehrt die Bedingung um: wenn es nicht günstig ist."
+              }
+            ],
+            "promptKana": "やす＿＿＿かいます。"
+          }
+        },
         "romaji": "Yasukereba kaimasu.",
         "german": "Wenn es günstig ist, kaufe ich es."
       },
       {
         "japanese": "暇なら遊びに来てください。",
+        "cloze": {
+          "start": 1,
+          "answer": "なら"
+        },
         "romaji": "Hima nara asobi ni kite kudasai.",
         "german": "Wenn du frei bist, komm vorbei."
       }
@@ -3245,11 +7263,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "おいしそうなケーキですね。",
+        "cloze": {
+          "start": 3,
+          "answer": "そうな",
+          "quiz": {
+            "level": "N4",
+            "japanese": "おいしそうなケーキですね。",
+            "german": "Ein lecker aussehender Kuchen.",
+            "start": 3,
+            "answer": "そうな",
+            "acceptedAnswers": [
+              "そうな"
+            ],
+            "distractors": [
+              {
+                "text": "そうに",
+                "reason": "Vor dem Nomen braucht man そうな."
+              },
+              {
+                "text": "そうだ",
+                "reason": "Die Kopula steht hier nicht attributiv vor ケーキ."
+              },
+              {
+                "text": "そうの",
+                "reason": "Die attributive Form lautet そうな."
+              }
+            ],
+            "promptKana": "おいし＿＿＿ケーキですね。"
+          }
+        },
         "romaji": "Oishisō na kēki desu ne.",
         "german": "Ein lecker aussehender Kuchen."
       },
       {
         "japanese": "楽しそうに笑っている。",
+        "cloze": {
+          "start": 2,
+          "answer": "そうに"
+        },
         "romaji": "Tanoshisō ni waratteiru.",
         "german": "Er lacht vergnügt."
       }
@@ -3271,7 +7322,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "この部屋は暑すぎる。",
         "romaji": "Kono heya wa atsusugiru.",
-        "german": "Dieses Zimmer ist zu heiß."
+        "german": "Dieses Zimmer ist zu heiß.",
+        "cloze": {
+          "start": 6,
+          "answer": "すぎる",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この部屋は暑すぎる。",
+            "german": "Dieses Zimmer ist zu heiß.",
+            "start": 6,
+            "answer": "すぎる",
+            "acceptedAnswers": [
+              "すぎる"
+            ],
+            "distractors": [
+              {
+                "text": "いすぎる",
+                "reason": "Das letzte い entfällt vor すぎる."
+              },
+              {
+                "text": "すぎるだ",
+                "reason": "Nach dem Verb すぎる steht kein だ."
+              },
+              {
+                "text": "くすぎる",
+                "reason": "Die Form wird hier unmittelbar an 暑 angeschlossen."
+              }
+            ],
+            "promptKana": "このへやはあつ＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "静かすぎて怖い。",
@@ -3281,7 +7361,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Konjugation wie ichidan-Verb.",
     "related": [
-      "n4-sugiru"
+      "sugiru"
     ]
   },
   {
@@ -3296,7 +7376,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "部屋を明るくした。",
         "romaji": "Heya o akaruku shita.",
-        "german": "Ich habe das Zimmer heller gemacht."
+        "german": "Ich habe das Zimmer heller gemacht.",
+        "cloze": {
+          "start": 3,
+          "answer": "明るくした",
+          "quiz": {
+            "level": "N4",
+            "japanese": "部屋を明るくした。",
+            "german": "Ich habe das Zimmer heller gemacht.",
+            "start": 3,
+            "answer": "明るくした",
+            "acceptedAnswers": [
+              "明るくした"
+            ],
+            "distractors": [
+              {
+                "text": "明るいした",
+                "reason": "Vor する braucht ein い-Adjektiv die く-Form."
+              },
+              {
+                "text": "明るくしなかった",
+                "reason": "Dies verneint das Heller-Machen."
+              },
+              {
+                "text": "明るくするた",
+                "reason": "Dies ist keine Vergangenheit von する."
+              }
+            ],
+            "promptKana": "へやを＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "部屋をきれいにしてください。",
@@ -3306,7 +7415,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Vgl. ～くなる/～になる (von selbst werden).",
     "related": [
-      "n4-ku-naru"
+      "ku-naru-ni-naru"
     ]
   },
   {
@@ -3320,11 +7429,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この山の高さは何メートルですか。",
+        "cloze": {
+          "start": 5,
+          "answer": "さ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この山の高さは何メートルですか。",
+            "german": "Wie hoch ist dieser Berg?",
+            "start": 5,
+            "answer": "さ",
+            "acceptedAnswers": [
+              "さ"
+            ],
+            "distractors": [
+              {
+                "text": "い",
+                "reason": "高い nominalisiert hier nicht die messbare Höhe."
+              },
+              {
+                "text": "く",
+                "reason": "Die く-Form ist hier kein Höhenmaß-Nomen."
+              },
+              {
+                "text": "かった",
+                "reason": "Dies wäre Vergangenheit statt einer messbaren Höhe."
+              }
+            ],
+            "promptKana": "このやまのたか＿＿＿はなんメートルですか。"
+          }
+        },
         "romaji": "Kono yama no takasa wa nan mētoru desu ka.",
         "german": "Wie hoch ist dieser Berg?"
       },
       {
         "japanese": "日本語の難しさを実感した。",
+        "cloze": {
+          "start": 6,
+          "answer": "さ"
+        },
         "romaji": "Nihongo no muzukashisa o jikkan shita.",
         "german": "Ich habe die Schwierigkeit des Japanischen erfahren."
       }
@@ -3344,7 +7486,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "子供が怖がっている。",
         "romaji": "Kodomo ga kowagatte iru.",
-        "german": "Das Kind zeigt Angst."
+        "german": "Das Kind zeigt Angst.",
+        "cloze": {
+          "start": 3,
+          "answer": "怖がっている",
+          "quiz": {
+            "level": "N4",
+            "japanese": "子供が怖がっている。",
+            "german": "Das Kind zeigt Angst.",
+            "start": 3,
+            "answer": "怖がっている",
+            "acceptedAnswers": [
+              "怖がっている"
+            ],
+            "distractors": [
+              {
+                "text": "怖いがっている",
+                "reason": "Vor がる entfällt das letzte い."
+              },
+              {
+                "text": "怖がっていない",
+                "reason": "Dies verneint die gezeigte Angst."
+              },
+              {
+                "text": "怖がるている",
+                "reason": "Die て-Form lautet 怖がって."
+              }
+            ],
+            "promptKana": "こどもが＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "彼女は新しい服を欲しがっている。",
@@ -3354,7 +7525,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "欲しい→欲しがる, 怖い→怖がる. Godan-Verb.",
     "related": [
-      "hoshii"
+      "ga-hoshii"
     ]
   },
   {
@@ -3368,11 +7539,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "夢のような一日だった。",
+        "cloze": {
+          "start": 2,
+          "answer": "ような",
+          "quiz": {
+            "level": "N4",
+            "japanese": "夢のような一日だった。",
+            "german": "Es war ein traumhafter Tag.",
+            "start": 2,
+            "answer": "ような",
+            "acceptedAnswers": [
+              "ような"
+            ],
+            "distractors": [
+              {
+                "text": "ように",
+                "reason": "Vor dem Nomen wird ような gebraucht."
+              },
+              {
+                "text": "ようだ",
+                "reason": "だ ist hier keine attributive Verbindung."
+              },
+              {
+                "text": "ようの",
+                "reason": "夢のような verlangt な vor 一日."
+              }
+            ],
+            "promptKana": "ゆめの＿＿＿いちにちだった。"
+          }
+        },
         "romaji": "Yume no yō na ichinichi datta.",
         "german": "Es war ein traumhafter Tag."
       },
       {
         "japanese": "彼みたいな人になりたい。",
+        "cloze": {
+          "start": 1,
+          "answer": "みたいな"
+        },
         "romaji": "Kare mitai na hito ni naritai.",
         "german": "Ich möchte so werden wie er."
       }
@@ -3395,7 +7599,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "電車よりバスのほうが安い。",
         "romaji": "Densha yori basu no hō ga yasui.",
-        "german": "Der Bus ist günstiger als der Zug."
+        "german": "Der Bus ist günstiger als der Zug.",
+        "cloze": {
+          "start": 2,
+          "answer": "より",
+          "quiz": {
+            "level": "N4",
+            "japanese": "電車よりバスのほうが安い。",
+            "german": "Der Bus ist günstiger als der Zug.",
+            "start": 2,
+            "answer": "より",
+            "acceptedAnswers": [
+              "より"
+            ],
+            "distractors": [
+              {
+                "text": "まで",
+                "reason": "まで setzt eine Grenze statt eines Vergleichsmaßstabs."
+              },
+              {
+                "text": "へ",
+                "reason": "へ bezeichnet eine Richtung."
+              },
+              {
+                "text": "を",
+                "reason": "を markiert hier keinen Vergleichsmaßstab."
+              }
+            ],
+            "promptKana": "でんしゃ＿＿＿バスのほうがやすい。"
+          }
+        }
       },
       {
         "japanese": "夏より冬のほうが好きです。",
@@ -3420,7 +7653,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "日本で一番高い山は富士山です。",
         "romaji": "Nihon de ichiban takai yama wa Fujisan desu.",
-        "german": "Der höchste Berg Japans ist der Fuji."
+        "german": "Der höchste Berg Japans ist der Fuji.",
+        "cloze": {
+          "start": 3,
+          "answer": "一番",
+          "quiz": {
+            "level": "N4",
+            "japanese": "日本で一番高い山は富士山です。",
+            "german": "Der höchste Berg Japans ist der Fuji.",
+            "start": 3,
+            "answer": "一番",
+            "acceptedAnswers": [
+              "一番"
+            ],
+            "distractors": [
+              {
+                "text": "一つ",
+                "reason": "Dies zählt ein Stück statt einen Höchstgrad."
+              },
+              {
+                "text": "少し",
+                "reason": "Dies bedeutet ein wenig, nicht am höchsten."
+              },
+              {
+                "text": "あまり",
+                "reason": "Dies bedeutet nicht den höchsten Rang."
+              }
+            ],
+            "promptKana": "にほんで＿＿＿たかいやまはふじさんです。"
+          }
+        }
       },
       {
         "japanese": "クラスで誰が一番背が高い？",
@@ -3445,7 +7707,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "今日は春らしい天気ですね。",
         "romaji": "Kyō wa haru rashii tenki desu ne.",
-        "german": "Typisches Frühlingswetter heute."
+        "german": "Typisches Frühlingswetter heute.",
+        "cloze": {
+          "start": 4,
+          "answer": "らしい",
+          "quiz": {
+            "level": "N4",
+            "japanese": "今日は春らしい天気ですね。",
+            "german": "Typisches Frühlingswetter heute.",
+            "start": 4,
+            "answer": "らしい",
+            "acceptedAnswers": [
+              "らしい"
+            ],
+            "distractors": [
+              {
+                "text": "らしいな",
+                "reason": "らしい bestimmt Nomen ohne zusätzliches な."
+              },
+              {
+                "text": "らしく",
+                "reason": "Die adverbiale Form bestimmt hier nicht das Nomen."
+              },
+              {
+                "text": "らしいの",
+                "reason": "Die attributive Form benötigt kein の."
+              }
+            ],
+            "promptKana": "きょうははる＿＿＿てんきですね。"
+          }
+        }
       },
       {
         "japanese": "彼女はとても女性らしい。",
@@ -3469,11 +7760,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "最近風邪を引きがちだ。",
+        "cloze": {
+          "start": 7,
+          "answer": "がち",
+          "quiz": {
+            "level": "N4",
+            "japanese": "最近風邪を引きがちだ。",
+            "german": "Neige in letzter Zeit zu Erkältungen.",
+            "start": 7,
+            "answer": "がち",
+            "acceptedAnswers": [
+              "がち"
+            ],
+            "distractors": [
+              {
+                "text": "たい",
+                "reason": "Ein たい-Ausdruck erhält kein だ."
+              },
+              {
+                "text": "やすい",
+                "reason": "Ein い-Adjektiv erhält kein だ."
+              },
+              {
+                "text": "がちに",
+                "reason": "Die adverbiale Form kann nicht vor だ stehen."
+              }
+            ],
+            "promptKana": "さいきんかぜをひき＿＿＿だ。"
+          }
+        },
         "romaji": "Saikin kaze o hikigachi da.",
         "german": "Neige in letzter Zeit zu Erkältungen."
       },
       {
         "japanese": "曇りがちの天気が続く。",
+        "cloze": {
+          "start": 2,
+          "answer": "がち"
+        },
         "romaji": "Kumorigachi no tenki ga tsuzuku.",
         "german": "Vorwiegend bewölktes Wetter."
       }
@@ -3494,6 +7818,37 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "彼は忙しいようだ。",
+        "cloze": {
+          "start": 5,
+          "answer": "ようだ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "彼は忙しいようだ。",
+            "german": "Er scheint beschäftigt zu sein.",
+            "start": 5,
+            "answer": "ようだ",
+            "acceptedAnswers": [
+              "ようだ",
+              "みたいだ",
+              "らしい"
+            ],
+            "distractors": [
+              {
+                "text": "なようだ",
+                "reason": "Nach einem い-Adjektiv wird kein な eingefügt."
+              },
+              {
+                "text": "ような",
+                "reason": "Die attributive Form verlangt ein folgendes Nomen."
+              },
+              {
+                "text": "ように",
+                "reason": "Die adverbiale Form verlangt eine folgende Aussage."
+              }
+            ],
+            "promptKana": "かれはいそがしい＿＿＿。"
+          }
+        },
         "romaji": "Kare wa isogashii yō da.",
         "german": "Er scheint beschäftigt zu sein."
       },
@@ -3520,11 +7875,46 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "雨が降るみたいだ。",
+        "cloze": {
+          "start": 4,
+          "answer": "みたいだ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "雨が降るみたいだ。",
+            "german": "Es sieht nach Regen aus.",
+            "start": 4,
+            "answer": "みたいだ",
+            "acceptedAnswers": [
+              "みたいだ",
+              "ようだ",
+              "らしい"
+            ],
+            "distractors": [
+              {
+                "text": "なみたいだ",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "みたいな",
+                "reason": "Diese Form braucht ein folgendes Nomen."
+              },
+              {
+                "text": "みたいに",
+                "reason": "Diese Form braucht ein folgendes Prädikat."
+              }
+            ],
+            "promptKana": "あめがふる＿＿＿。"
+          }
+        },
         "romaji": "Ame ga furu mitai da.",
         "german": "Es sieht nach Regen aus."
       },
       {
         "japanese": "あの人は先生みたいだ。",
+        "cloze": {
+          "start": 6,
+          "answer": "みたいだ"
+        },
         "romaji": "Ano hito wa sensei mitai da.",
         "german": "Die Person scheint Lehrer zu sein."
       }
@@ -3546,11 +7936,47 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "明日は雨らしい。",
+        "cloze": {
+          "start": 4,
+          "answer": "らしい",
+          "quiz": {
+            "level": "N4",
+            "japanese": "明日は雨らしい。",
+            "german": "Anscheinend regnet es morgen.",
+            "start": 4,
+            "answer": "らしい",
+            "acceptedAnswers": [
+              "らしい",
+              "のようだ",
+              "みたいだ",
+              "だそうだ"
+            ],
+            "distractors": [
+              {
+                "text": "なようだ",
+                "reason": "Nach dem Nomen wäre 雨のようだ korrekt."
+              },
+              {
+                "text": "らしく",
+                "reason": "Die adverbiale Form schließt den Satz nicht ab."
+              },
+              {
+                "text": "らしいだ",
+                "reason": "Nach らしい steht kein だ."
+              }
+            ],
+            "promptKana": "あしたはあめ＿＿＿。"
+          }
+        },
         "romaji": "Ashita wa ame rashii.",
         "german": "Anscheinend regnet es morgen."
       },
       {
         "japanese": "あの店はおいしいらしいですよ。",
+        "cloze": {
+          "start": 8,
+          "answer": "らしい"
+        },
         "romaji": "Ano mise wa oishii rashii desu yo.",
         "german": "Das Restaurant soll gut sein."
       }
@@ -3573,7 +7999,38 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "天気予報によると、明日は晴れるそうだ。",
         "romaji": "Tenki yohō ni yoru to, ashita wa hareru sō da.",
-        "german": "Laut Wetterbericht wird es morgen sonnig."
+        "german": "Laut Wetterbericht wird es morgen sonnig.",
+        "cloze": {
+          "start": 15,
+          "answer": "そうだ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "天気予報によると、明日は晴れるそうだ。",
+            "german": "Laut Wetterbericht wird es morgen sonnig.",
+            "start": 15,
+            "answer": "そうだ",
+            "acceptedAnswers": [
+              "そうだ",
+              "らしい",
+              "とのことだ"
+            ],
+            "distractors": [
+              {
+                "text": "そうな",
+                "reason": "Die attributive Form braucht ein folgendes Nomen."
+              },
+              {
+                "text": "そうに",
+                "reason": "Die adverbiale Form braucht ein folgendes Prädikat."
+              },
+              {
+                "text": "なそうだ",
+                "reason": "Nach dem Verb wird kein な eingeschoben."
+              }
+            ],
+            "promptKana": "てんきよほうによると、あしたははれる＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "あの映画は面白いそうです。",
@@ -3603,13 +8060,42 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "彼は知っているはずだ。",
+        "cloze": {
+          "start": 7,
+          "answer": "はずだ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "彼は知っているはずだ。",
+            "german": "Er müsste es wissen.",
+            "start": 7,
+            "answer": "はずだ",
+            "acceptedAnswers": [
+              "はずだ"
+            ],
+            "distractors": [
+              {
+                "text": "なはずだ",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "はずな",
+                "reason": "Dies ist hier kein Satzabschluss."
+              },
+              {
+                "text": "はずをだ",
+                "reason": "を steht nicht vor dieser Kopula."
+              }
+            ],
+            "promptKana": "かれはしっている＿＿＿。"
+          }
+        },
         "romaji": "Kare wa shitteiru hazu da.",
         "german": "Er müsste es wissen."
       }
     ],
     "notes": "はずがない = unmöglich.",
     "related": [
-      "n4-kamoshirenai",
+      "kamoshirenai",
       "n4-beki-da"
     ]
   },
@@ -3624,11 +8110,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "行くかどうか迷っています。",
+        "cloze": {
+          "start": 2,
+          "answer": "かどうか",
+          "quiz": {
+            "level": "N4",
+            "japanese": "行くかどうか迷っています。",
+            "german": "Ich bin unschlüssig, ob ich gehen soll.",
+            "start": 2,
+            "answer": "かどうか",
+            "acceptedAnswers": [
+              "かどうか"
+            ],
+            "distractors": [
+              {
+                "text": "をどうか",
+                "reason": "Die eingebettete Ja/Nein-Frage beginnt mit か."
+              },
+              {
+                "text": "がどうか",
+                "reason": "が ersetzt nicht das einbettende か."
+              },
+              {
+                "text": "などうか",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              }
+            ],
+            "promptKana": "いく＿＿＿まよっています。"
+          }
+        },
         "romaji": "Iku ka dō ka mayotteimasu.",
         "german": "Ich bin unschlüssig, ob ich gehen soll."
       },
       {
         "japanese": "正しいかどうか確認してください。",
+        "cloze": {
+          "start": 3,
+          "answer": "かどうか"
+        },
         "romaji": "Tadashii ka dō ka kakunin shite kudasai.",
         "german": "Bitte prüfen Sie, ob es korrekt ist."
       }
@@ -3649,11 +8168,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本語を勉強するために日本に来た。",
+        "cloze": {
+          "start": 8,
+          "answer": "ために",
+          "quiz": {
+            "level": "N4",
+            "japanese": "日本語を勉強するために日本に来た。",
+            "german": "Ich kam nach Japan, um Japanisch zu lernen.",
+            "start": 8,
+            "answer": "ために",
+            "acceptedAnswers": [
+              "ために"
+            ],
+            "distractors": [
+              {
+                "text": "ためな",
+                "reason": "Die Zweckangabe braucht に, nicht な."
+              },
+              {
+                "text": "なために",
+                "reason": "Nach einem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ためを",
+                "reason": "を bildet hier keine Zweckangabe."
+              }
+            ],
+            "promptKana": "にほんごをべんきょうする＿＿＿にほんにきた。"
+          }
+        },
         "romaji": "Nihongo o benkyō suru tame ni Nihon ni kita.",
         "german": "Ich kam nach Japan, um Japanisch zu lernen."
       },
       {
         "japanese": "台風のために電車が止まった。",
+        "cloze": {
+          "start": 3,
+          "answer": "ために"
+        },
         "romaji": "Taifū no tame ni densha ga tomatta.",
         "german": "Wegen des Taifuns stoppten die Züge."
       }
@@ -3661,7 +8213,7 @@ window.GRAMMAR_DATA = [
     "notes": "Zweck: 辞書形. Grund: た形/Nomen.",
     "related": [
       "n4-you-ni-purpose",
-      "n4-node"
+      "node"
     ]
   },
   {
@@ -3676,7 +8228,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "忘れないように書いておきます。",
         "romaji": "Wasurenai yō ni kaite okimasu.",
-        "german": "Ich schreibe es auf, damit ich es nicht vergesse."
+        "german": "Ich schreibe es auf, damit ich es nicht vergesse.",
+        "cloze": {
+          "start": 4,
+          "answer": "ように",
+          "quiz": {
+            "level": "N4",
+            "japanese": "忘れないように書いておきます。",
+            "german": "Ich schreibe es auf, damit ich es nicht vergesse.",
+            "start": 4,
+            "answer": "ように",
+            "acceptedAnswers": [
+              "ように",
+              "ために"
+            ],
+            "distractors": [
+              {
+                "text": "ような",
+                "reason": "Vor dem Verb wird eine adverbiale Form benötigt."
+              },
+              {
+                "text": "ようを",
+                "reason": "を bildet hier keine Zweckangabe."
+              },
+              {
+                "text": "なように",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              }
+            ],
+            "promptKana": "わすれない＿＿＿かいておきます。"
+          }
+        }
       },
       {
         "japanese": "聞こえるように大きい声で話して。",
@@ -3700,11 +8282,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "時間があれば行きます。",
+        "cloze": {
+          "start": 5,
+          "answer": "ば",
+          "quiz": {
+            "level": "N4",
+            "japanese": "時間があれば行きます。",
+            "german": "Wenn ich Zeit habe, gehe ich.",
+            "start": 5,
+            "answer": "ば",
+            "acceptedAnswers": [
+              "ば"
+            ],
+            "distractors": [
+              {
+                "text": "たら",
+                "reason": "あれたら ist keine Konditionalform von ある."
+              },
+              {
+                "text": "なら",
+                "reason": "あれなら ist hier keine Form von ある."
+              },
+              {
+                "text": "ても",
+                "reason": "あれても ist keine Verbform."
+              }
+            ],
+            "promptKana": "じかんがあれ＿＿＿いきます。"
+          }
+        },
         "romaji": "Jikan ga areba ikimasu.",
         "german": "Wenn ich Zeit habe, gehe ich."
       },
       {
         "japanese": "安ければ買います。",
+        "cloze": {
+          "start": 3,
+          "answer": "ば"
+        },
         "romaji": "Yasukereba kaimasu.",
         "german": "Wenn es günstig ist, kaufe ich es."
       }
@@ -3712,7 +8327,7 @@ window.GRAMMAR_DATA = [
     "notes": "する→すれば, 来る→来れば. ～ば～ほど = je mehr desto.",
     "related": [
       "n4-nara",
-      "n4-temo",
+      "temo",
       "n4-to-conditional"
     ]
   },
@@ -3727,11 +8342,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本に行くなら京都がおすすめです。",
+        "cloze": {
+          "start": 5,
+          "answer": "なら",
+          "quiz": {
+            "level": "N4",
+            "japanese": "日本に行くなら京都がおすすめです。",
+            "german": "Wenn du nach Japan gehst, empfehle ich Kyoto.",
+            "start": 5,
+            "answer": "なら",
+            "acceptedAnswers": [
+              "なら"
+            ],
+            "distractors": [
+              {
+                "text": "たら",
+                "reason": "行くたら ist keine Konditionalform."
+              },
+              {
+                "text": "れば",
+                "reason": "行くれば ist keine Konditionalform."
+              },
+              {
+                "text": "なのに",
+                "reason": "Nach 行く wird kein な eingeschoben."
+              }
+            ],
+            "promptKana": "にほんにいく＿＿＿きょうとがおすすめです。"
+          }
+        },
         "romaji": "Nihon ni iku nara Kyōto ga osusume desu.",
         "german": "Wenn du nach Japan gehst, empfehle ich Kyoto."
       },
       {
         "japanese": "魚なら、このレストランがいい。",
+        "cloze": {
+          "start": 1,
+          "answer": "なら"
+        },
         "romaji": "Sakana nara, kono resutoran ga ii.",
         "german": "Was Fisch betrifft, ist dieses Restaurant gut."
       }
@@ -3754,7 +8402,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "この店は安いし、おいしいし、最高だ。",
         "romaji": "Kono mise wa yasui shi, oishii shi, saikō da.",
-        "german": "Günstig und lecker – einfach toll."
+        "german": "Günstig und lecker – einfach toll.",
+        "cloze": {
+          "start": 6,
+          "answer": "し",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この店は安いし、おいしいし、最高だ。",
+            "german": "Günstig und lecker – einfach toll.",
+            "start": 6,
+            "answer": "し",
+            "acceptedAnswers": [
+              "し"
+            ],
+            "distractors": [
+              {
+                "text": "な",
+                "reason": "Ein い-Adjektiv nimmt hier kein な an."
+              },
+              {
+                "text": "の",
+                "reason": "安いの schließt die gleichrangige Begründung hier nicht an."
+              },
+              {
+                "text": "を",
+                "reason": "を koordiniert hier keine Begründungen."
+              }
+            ],
+            "promptKana": "このみせはやすい＿＿＿、おいしいし、さいこうだ。"
+          }
+        }
       },
       {
         "japanese": "時間もないし、お金もないし、行けない。",
@@ -3764,7 +8441,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Auch nur ein Grund: 疲れたし、帰ろう.",
     "related": [
-      "n4-node"
+      "node"
     ]
   },
   {
@@ -3778,11 +8455,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "靴を履いたまま入らないで。",
+        "cloze": {
+          "start": 5,
+          "answer": "まま",
+          "quiz": {
+            "level": "N4",
+            "japanese": "靴を履いたまま入らないで。",
+            "german": "Geh nicht mit Schuhen rein.",
+            "start": 5,
+            "answer": "まま",
+            "acceptedAnswers": [
+              "まま"
+            ],
+            "distractors": [
+              {
+                "text": "ながら",
+                "reason": "ながら schließt nicht an 履いた an."
+              },
+              {
+                "text": "てから",
+                "reason": "履いたてから ist kein Verbanschluss."
+              },
+              {
+                "text": "なまま",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              }
+            ],
+            "promptKana": "くつをはいた＿＿＿はいらないで。"
+          }
+        },
         "romaji": "Kutsu o haita mama hairanaide.",
         "german": "Geh nicht mit Schuhen rein."
       },
       {
         "japanese": "電気をつけたまま寝てしまった。",
+        "cloze": {
+          "start": 6,
+          "answer": "まま"
+        },
         "romaji": "Denki o tsuketa mama nete shimatta.",
         "german": "Ich schlief mit Licht ein."
       }
@@ -3802,7 +8512,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "今から出かけるところです。",
         "romaji": "Ima kara dekakeru tokoro desu.",
-        "german": "Ich bin gerade dabei auszugehen."
+        "german": "Ich bin gerade dabei auszugehen.",
+        "cloze": {
+          "start": 7,
+          "answer": "ところです",
+          "quiz": {
+            "level": "N4",
+            "japanese": "今から出かけるところです。",
+            "german": "Ich bin gerade dabei auszugehen.",
+            "start": 7,
+            "answer": "ところです",
+            "acceptedAnswers": [
+              "ところです"
+            ],
+            "distractors": [
+              {
+                "text": "ところな",
+                "reason": "Dies ist hier kein Satzabschluss."
+              },
+              {
+                "text": "なところです",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ところをです",
+                "reason": "を steht hier nicht vor です."
+              }
+            ],
+            "promptKana": "いまからでかける＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "今食べ終わったところです。",
@@ -3826,11 +8565,46 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本の文化について調べています。",
+        "cloze": {
+          "start": 5,
+          "answer": "について",
+          "quiz": {
+            "level": "N4",
+            "japanese": "日本の文化について調べています。",
+            "german": "Ich recherchiere über japanische Kultur.",
+            "start": 5,
+            "answer": "について",
+            "acceptedAnswers": [
+              "について",
+              "を",
+              "に関して"
+            ],
+            "distractors": [
+              {
+                "text": "についての",
+                "reason": "の würde ein Nomen statt des Verbs bestimmen."
+              },
+              {
+                "text": "にとって",
+                "reason": "Dies bezeichnet einen Wertmaßstab, kein Recherchethema."
+              },
+              {
+                "text": "によると",
+                "reason": "Dies nennt eine Quelle, nicht das untersuchte Thema."
+              }
+            ],
+            "promptKana": "にほんのぶんか＿＿＿しらべています。"
+          }
+        },
         "romaji": "Nihon no bunka ni tsuite shirabeteimasu.",
         "german": "Ich recherchiere über japanische Kultur."
       },
       {
         "japanese": "この問題について話し合いましょう。",
+        "cloze": {
+          "start": 4,
+          "answer": "について"
+        },
         "romaji": "Kono mondai ni tsuite hanashi aimashō.",
         "german": "Sprechen wir über dieses Problem."
       }
@@ -3851,11 +8625,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "天気予報によると明日は雨だそうだ。",
+        "cloze": {
+          "start": 4,
+          "answer": "によると",
+          "quiz": {
+            "level": "N4",
+            "japanese": "天気予報によると明日は雨だそうだ。",
+            "german": "Laut Wetterbericht regnet es morgen.",
+            "start": 4,
+            "answer": "によると",
+            "acceptedAnswers": [
+              "によると",
+              "では"
+            ],
+            "distractors": [
+              {
+                "text": "によるの",
+                "reason": "の bildet hier keine Quellenangabe vor dem Folgesatz."
+              },
+              {
+                "text": "にとって",
+                "reason": "Ein Wetterbericht ist hier Informationsquelle, nicht Wertmaßstab."
+              },
+              {
+                "text": "としての",
+                "reason": "の braucht ein Bezugsnomen."
+              }
+            ],
+            "promptKana": "てんきよほう＿＿＿あしたはあめだそうだ。"
+          }
+        },
         "romaji": "Tenki yohō ni yoru to ashita wa ame da sō da.",
         "german": "Laut Wetterbericht regnet es morgen."
       },
       {
         "japanese": "ニュースによると事故があったそうだ。",
+        "cloze": {
+          "start": 4,
+          "answer": "によると"
+        },
         "romaji": "Nyūsu ni yoru to jiko ga atta sō da.",
         "german": "Laut Nachrichten gab es einen Unfall."
       }
@@ -3877,11 +8685,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "先生のおかげで合格しました。",
+        "cloze": {
+          "start": 3,
+          "answer": "おかげで",
+          "quiz": {
+            "level": "N4",
+            "japanese": "先生のおかげで合格しました。",
+            "german": "Dank des Lehrers habe ich bestanden.",
+            "start": 3,
+            "answer": "おかげで",
+            "acceptedAnswers": [
+              "おかげで"
+            ],
+            "distractors": [
+              {
+                "text": "前に",
+                "reason": "Dies bedeutet vor dem Lehrer, nicht dank ihm."
+              },
+              {
+                "text": "代わりに",
+                "reason": "Dies bedeutet anstelle des Lehrers, nicht dank ihm."
+              },
+              {
+                "text": "せいで",
+                "reason": "せいで markiert negative Verantwortlichkeit; die Übersetzung dank gibt positive Würdigung vor."
+              }
+            ],
+            "promptKana": "せんせいの＿＿＿ごうかくしました。"
+          }
+        },
         "romaji": "Sensei no okage de gōkaku shimashita.",
         "german": "Dank des Lehrers habe ich bestanden."
       },
       {
         "japanese": "薬のおかげで元気になった。",
+        "cloze": {
+          "start": 2,
+          "answer": "おかげで"
+        },
         "romaji": "Kusuri no okage de genki ni natta.",
         "german": "Dank der Medizin bin ich gesund."
       }
@@ -3902,11 +8743,46 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "雨のせいで試合が中止になった。",
+        "cloze": {
+          "start": 2,
+          "answer": "せいで",
+          "quiz": {
+            "level": "N4",
+            "japanese": "雨のせいで試合が中止になった。",
+            "german": "Wegen des Regens wurde das Spiel abgesagt.",
+            "start": 2,
+            "answer": "せいで",
+            "acceptedAnswers": [
+              "せいで",
+              "ために",
+              "ため"
+            ],
+            "distractors": [
+              {
+                "text": "前に",
+                "reason": "Dies bedeutet vor dem Regen, nicht wegen des Regens."
+              },
+              {
+                "text": "代わりに",
+                "reason": "Dies bedeutet anstelle des Regens, nicht wegen ihm."
+              },
+              {
+                "text": "おかげで",
+                "reason": "Dies würde die Absage positiv als Verdienst würdigen; gemeint ist eine nachteilige Ursache."
+              }
+            ],
+            "promptKana": "あめの＿＿＿しあいがちゅうしになった。"
+          }
+        },
         "romaji": "Ame no sei de shiai ga chūshi ni natta.",
         "german": "Wegen des Regens wurde das Spiel abgesagt."
       },
       {
         "japanese": "寝坊したせいで遅刻した。",
+        "cloze": {
+          "start": 4,
+          "answer": "せいで"
+        },
         "romaji": "Nebō shita sei de chikoku shita.",
         "german": "Weil ich verschlief, kam ich zu spät."
       }
@@ -3927,11 +8803,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "毎日練習してるから上手なわけだ。",
+        "cloze": {
+          "start": 12,
+          "answer": "わけだ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "毎日練習してるから上手なわけだ。",
+            "german": "Er übt täglich, kein Wunder dass er gut ist.",
+            "start": 12,
+            "answer": "わけだ",
+            "acceptedAnswers": [
+              "わけだ"
+            ],
+            "distractors": [
+              {
+                "text": "わけをだ",
+                "reason": "を steht nicht vor dieser Kopula."
+              },
+              {
+                "text": "わけな",
+                "reason": "Dies ist hier kein Satzabschluss."
+              },
+              {
+                "text": "ようだ",
+                "reason": "上手なようだ kann eine Vermutung ausdrücken; die Vorgabe erklärt hingegen die feststehende Leistung als kein Wunder."
+              }
+            ],
+            "promptKana": "まいにちれんしゅうしてるからじょうずな＿＿＿。"
+          }
+        },
         "romaji": "Mainichi renshū shiteru kara jōzu na wake da.",
         "german": "Er übt täglich, kein Wunder dass er gut ist."
       },
       {
         "japanese": "道理で安いわけだ。",
+        "cloze": {
+          "start": 5,
+          "answer": "わけだ"
+        },
         "romaji": "Dōri de yasui wake da.",
         "german": "Kein Wunder dass es billig ist."
       }
@@ -3952,11 +8861,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "約束は守るべきだ。",
+        "cloze": {
+          "start": 5,
+          "answer": "べきだ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "約束は守るべきだ。",
+            "german": "Man sollte Versprechen halten.",
+            "start": 5,
+            "answer": "べきだ",
+            "acceptedAnswers": [
+              "べきだ"
+            ],
+            "distractors": [
+              {
+                "text": "なべきだ",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "べきな",
+                "reason": "Die attributive Form bildet hier keinen Satzabschluss."
+              },
+              {
+                "text": "べきをだ",
+                "reason": "を steht nicht vor dieser Kopula."
+              }
+            ],
+            "promptKana": "やくそくはまもる＿＿＿。"
+          }
+        },
         "romaji": "Yakusoku wa mamoru beki da.",
         "german": "Man sollte Versprechen halten."
       },
       {
         "japanese": "もっと早く言うべきだった。",
+        "cloze": {
+          "start": 7,
+          "answer": "べきだ"
+        },
         "romaji": "Motto hayaku iu beki datta.",
         "german": "Hätte ich früher sagen sollen."
       }
@@ -3964,7 +8906,7 @@ window.GRAMMAR_DATA = [
     "notes": "する→すべき/するべき. Verneinung: ～べきではない.",
     "related": [
       "n4-hazu-da",
-      "n4-nakereba-naranai"
+      "nakereba-naranai"
     ]
   },
   {
@@ -3983,6 +8925,35 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "もう甘いものは食べないつもりだ。",
+        "cloze": {
+          "start": 11,
+          "answer": "つもりだ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "もう甘いものは食べないつもりだ。",
+            "german": "Ich will keine Süßigkeiten mehr essen.",
+            "start": 11,
+            "answer": "つもりだ",
+            "acceptedAnswers": [
+              "つもりだ"
+            ],
+            "distractors": [
+              {
+                "text": "なつもりだ",
+                "reason": "Nach der Verbform wird kein な eingefügt."
+              },
+              {
+                "text": "つもりをだ",
+                "reason": "を steht nicht vor dieser Kopula."
+              },
+              {
+                "text": "つもりな",
+                "reason": "Dies ist hier kein Satzabschluss."
+              }
+            ],
+            "promptKana": "もうあまいものはたべない＿＿＿。"
+          }
+        },
         "romaji": "Mō amai mono wa tabenai tsumori da.",
         "german": "Ich will keine Süßigkeiten mehr essen."
       }
@@ -4009,14 +8980,43 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "授業中に寝てはいけない。",
+        "cloze": {
+          "start": 5,
+          "answer": "てはいけない",
+          "quiz": {
+            "level": "N4",
+            "japanese": "授業中に寝てはいけない。",
+            "german": "Im Unterricht darf man nicht schlafen.",
+            "start": 5,
+            "answer": "てはいけない",
+            "acceptedAnswers": [
+              "てはいけない"
+            ],
+            "distractors": [
+              {
+                "text": "てもいい",
+                "reason": "Dies erlaubt das Schlafen."
+              },
+              {
+                "text": "てください",
+                "reason": "Dies fordert zum Schlafen auf."
+              },
+              {
+                "text": "たはいけない",
+                "reason": "Das Verbot verlangt die て-Form."
+              }
+            ],
+            "promptKana": "じゅぎょうちゅうにね＿＿＿。"
+          }
+        },
         "romaji": "Jugyō-chū ni nete wa ikenai.",
         "german": "Im Unterricht darf man nicht schlafen."
       }
     ],
     "notes": "Umgangssprache: ～ちゃだめ.",
     "related": [
-      "n4-nakereba-naranai",
-      "n4-nakutemo-ii"
+      "nakereba-naranai",
+      "nakutemo-ii"
     ]
   },
   {
@@ -4030,6 +9030,35 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "早く寝たほうがいいですよ。",
+        "cloze": {
+          "start": 3,
+          "answer": "たほうがいい",
+          "quiz": {
+            "level": "N4",
+            "japanese": "早く寝たほうがいいですよ。",
+            "german": "Du solltest besser früh schlafen.",
+            "start": 3,
+            "answer": "たほうがいい",
+            "acceptedAnswers": [
+              "たほうがいい"
+            ],
+            "distractors": [
+              {
+                "text": "たほうをいい",
+                "reason": "Die Bewertung verlangt が."
+              },
+              {
+                "text": "たほうがよくない",
+                "reason": "Dies rät vom frühen Schlafen ab."
+              },
+              {
+                "text": "るほうをいい",
+                "reason": "を passt nicht zur vergleichenden Bewertung."
+              }
+            ],
+            "promptKana": "はやくね＿＿＿ですよ。"
+          }
+        },
         "romaji": "Hayaku neta hō ga ii desu yo.",
         "german": "Du solltest besser früh schlafen."
       },
@@ -4056,7 +9085,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "春になると桜が咲く。",
         "romaji": "Haru ni naru to sakura ga saku.",
-        "german": "Wenn Frühling wird, blühen die Kirschblüten."
+        "german": "Wenn Frühling wird, blühen die Kirschblüten.",
+        "cloze": {
+          "start": 4,
+          "answer": "と",
+          "quiz": {
+            "level": "N4",
+            "japanese": "春になると桜が咲く。",
+            "german": "Wenn Frühling wird, blühen die Kirschblüten.",
+            "start": 4,
+            "answer": "と",
+            "acceptedAnswers": [
+              "と",
+              "なら"
+            ],
+            "distractors": [
+              {
+                "text": "たら",
+                "reason": "なるたら ist keine Bedingungsform."
+              },
+              {
+                "text": "れば",
+                "reason": "なるれば ist keine Bedingungsform."
+              },
+              {
+                "text": "ながら",
+                "reason": "ながら verlangt den Stamm なり."
+              }
+            ],
+            "promptKana": "はるになる＿＿＿さくらがさく。"
+          }
+        }
       },
       {
         "japanese": "このボタンを押すとドアが開きます。",
@@ -4086,13 +9145,44 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "夏休みの間旅行していた。",
+        "cloze": {
+          "start": 4,
+          "answer": "間",
+          "quiz": {
+            "level": "N4",
+            "japanese": "夏休みの間旅行していた。",
+            "german": "In den Sommerferien war ich auf Reisen.",
+            "start": 4,
+            "answer": "間",
+            "acceptedAnswers": [
+              "間",
+              "間に",
+              "間は"
+            ],
+            "distractors": [
+              {
+                "text": "前",
+                "reason": "Dies bedeutet vor den Ferien."
+              },
+              {
+                "text": "後",
+                "reason": "Dies bedeutet nach den Ferien."
+              },
+              {
+                "text": "ためな",
+                "reason": "Dies ist kein zeitlicher nominaler Anschluss."
+              }
+            ],
+            "promptKana": "なつやすみの＿＿＿りょこうしていた。"
+          }
+        },
         "romaji": "Natsuyasumi no aida ryokō shiteita.",
         "german": "In den Sommerferien war ich auf Reisen."
       }
     ],
     "notes": "間に = punktuell. 間 = durchgehend.",
     "related": [
-      "n4-nagara"
+      "nagara"
     ]
   },
   {
@@ -4106,18 +9196,51 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "仕事が終わった後で飲みに行こう。",
+        "cloze": {
+          "start": 7,
+          "answer": "後で",
+          "quiz": {
+            "level": "N4",
+            "japanese": "仕事が終わった後で飲みに行こう。",
+            "german": "Nach der Arbeit trinken gehen.",
+            "start": 7,
+            "answer": "後で",
+            "acceptedAnswers": [
+              "後で"
+            ],
+            "distractors": [
+              {
+                "text": "前に",
+                "reason": "前に verlangt die Wörterbuchform und bedeutet vorher."
+              },
+              {
+                "text": "ながら",
+                "reason": "ながら verlangt den Verbstamm."
+              },
+              {
+                "text": "てから",
+                "reason": "終わったてから ist kein Verbanschluss."
+              }
+            ],
+            "promptKana": "しごとがおわった＿＿＿のみにいこう。"
+          }
+        },
         "romaji": "Shigoto ga owatta ato de nomi ni ikō.",
         "german": "Nach der Arbeit trinken gehen."
       },
       {
         "japanese": "ご飯を食べてから出かけます。",
+        "cloze": {
+          "start": 5,
+          "answer": "てから"
+        },
         "romaji": "Gohan o tabete kara dekakemasu.",
         "german": "Ich gehe nach dem Essen aus."
       }
     ],
     "notes": "てから betont Reihenfolge stärker.",
     "related": [
-      "n4-mae-ni"
+      "mae-ni"
     ]
   },
   {
@@ -4131,11 +9254,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "金曜日までにレポートを出してください。",
+        "cloze": {
+          "start": 3,
+          "answer": "までに",
+          "quiz": {
+            "level": "N4",
+            "japanese": "金曜日までにレポートを出してください。",
+            "german": "Geben Sie den Bericht bis Freitag ab.",
+            "start": 3,
+            "answer": "までに",
+            "acceptedAnswers": [
+              "までに"
+            ],
+            "distractors": [
+              {
+                "text": "から",
+                "reason": "Dies bedeutet ab Freitag statt spätestens Freitag."
+              },
+              {
+                "text": "の後で",
+                "reason": "Dies bedeutet nach Freitag."
+              },
+              {
+                "text": "より後に",
+                "reason": "Dies bedeutet später als Freitag."
+              }
+            ],
+            "promptKana": "きんようび＿＿＿レポートをだしてください。"
+          }
+        },
         "romaji": "Kin'yōbi made ni repōto o dashite kudasai.",
         "german": "Geben Sie den Bericht bis Freitag ab."
       },
       {
         "japanese": "電車が来るまでに切符を買おう。",
+        "cloze": {
+          "start": 5,
+          "answer": "までに"
+        },
         "romaji": "Densha ga kuru made ni kippu o kaō.",
         "german": "Kaufen wir die Fahrkarte bevor der Zug kommt."
       }
@@ -4157,7 +9313,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "昨日買った本はとても面白い。",
         "romaji": "Kinō katta hon wa totemo omoshiroi.",
-        "german": "Das Buch das ich gestern kaufte ist sehr interessant."
+        "german": "Das Buch das ich gestern kaufte ist sehr interessant.",
+        "cloze": {
+          "start": 0,
+          "answer": "昨日買った",
+          "quiz": {
+            "level": "N4",
+            "japanese": "昨日買った本はとても面白い。",
+            "german": "Das Buch das ich gestern kaufte ist sehr interessant.",
+            "start": 0,
+            "answer": "昨日買った",
+            "acceptedAnswers": [
+              "昨日買った"
+            ],
+            "distractors": [
+              {
+                "text": "昨日買いました",
+                "reason": "Vor dem Bezugsnomen steht hier die einfache Form."
+              },
+              {
+                "text": "昨日買ったの",
+                "reason": "Eine verbale Relativklausel benötigt kein の vor 本."
+              },
+              {
+                "text": "昨日買うでした",
+                "reason": "Dies ist keine Verbform."
+              }
+            ],
+            "promptKana": "＿＿＿ほんはとてもおもしろい。"
+          }
+        }
       },
       {
         "japanese": "日本語を教えている先生は田中先生です。",
@@ -4180,7 +9365,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "朝ご飯を食べないことがある。",
         "romaji": "Asagohan o tabenai koto ga aru.",
-        "german": "Es kommt vor dass ich nicht frühstücke."
+        "german": "Es kommt vor dass ich nicht frühstücke.",
+        "cloze": {
+          "start": 8,
+          "answer": "ことがある",
+          "quiz": {
+            "level": "N4",
+            "japanese": "朝ご飯を食べないことがある。",
+            "german": "Es kommt vor dass ich nicht frühstücke.",
+            "start": 8,
+            "answer": "ことがある",
+            "acceptedAnswers": [
+              "ことがある"
+            ],
+            "distractors": [
+              {
+                "text": "ことをある",
+                "reason": "ある nimmt hier kein Objekt mit を."
+              },
+              {
+                "text": "なことがある",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ことがない",
+                "reason": "Dies verneint das gelegentliche Auslassen."
+              }
+            ],
+            "promptKana": "あさごはんをたべない＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "たまに遅刻することがあります。",
@@ -4190,7 +9404,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "辞書形 = manchmal. た形 = Erfahrung.",
     "related": [
-      "n4-takotogaaru"
+      "ta-koto-ga-aru"
     ]
   },
   {
@@ -4204,6 +9418,35 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この学校では制服を着ることになっている。",
+        "cloze": {
+          "start": 11,
+          "answer": "ことになっている",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この学校では制服を着ることになっている。",
+            "german": "An dieser Schule muss man Uniform tragen.",
+            "start": 11,
+            "answer": "ことになっている",
+            "acceptedAnswers": [
+              "ことになっている"
+            ],
+            "distractors": [
+              {
+                "text": "ことをなっている",
+                "reason": "Die Regelkonstruktion verlangt に."
+              },
+              {
+                "text": "なことになっている",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ことになっていない",
+                "reason": "Dies verneint die bestehende Regel."
+              }
+            ],
+            "promptKana": "このがっこうではせいふくをきる＿＿＿。"
+          }
+        },
         "romaji": "Kono gakkō de wa seifuku o kiru koto ni natteiru.",
         "german": "An dieser Schule muss man Uniform tragen."
       },
@@ -4230,7 +9473,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "週末は映画とか買い物とかする。",
         "romaji": "Shūmatsu wa eiga toka kaimono toka suru.",
-        "german": "Am Wochenende Filme schauen, einkaufen usw."
+        "german": "Am Wochenende Filme schauen, einkaufen usw.",
+        "cloze": {
+          "start": 5,
+          "answer": "とか",
+          "quiz": {
+            "level": "N4",
+            "japanese": "週末は映画とか買い物とかする。",
+            "german": "Am Wochenende Filme schauen, einkaufen usw.",
+            "start": 5,
+            "answer": "とか",
+            "acceptedAnswers": [
+              "とか",
+              "や"
+            ],
+            "distractors": [
+              {
+                "text": "しか",
+                "reason": "しか verlangt eine negative Endung."
+              },
+              {
+                "text": "へ",
+                "reason": "へ zählt keine Freizeitaktivitäten auf."
+              },
+              {
+                "text": "が",
+                "reason": "が macht Filme zum Subjekt statt zum Listenpunkt."
+              }
+            ],
+            "promptKana": "しゅうまつはえいが＿＿＿かいものとかする。"
+          }
+        }
       },
       {
         "japanese": "りんごとかバナナとか買ってきて。",
@@ -4255,18 +9528,53 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "田中さんは来ないって。",
+        "cloze": {
+          "start": 8,
+          "answer": "って",
+          "quiz": {
+            "level": "N4",
+            "japanese": "田中さんは来ないって。",
+            "german": "Tanaka sagt er kommt nicht.",
+            "start": 8,
+            "answer": "って",
+            "acceptedAnswers": [
+              "って",
+              "そうだ",
+              "とのことだ"
+            ],
+            "distractors": [
+              {
+                "text": "なって",
+                "reason": "Nach 来ない wird kein な für ein Zitat eingefügt."
+              },
+              {
+                "text": "をって",
+                "reason": "をって ist kein Zitatanschluss."
+              },
+              {
+                "text": "ってを",
+                "reason": "を kann das Zitat hier nicht ohne weiteres Prädikat abschließen."
+              }
+            ],
+            "promptKana": "たなかさんはこない＿＿＿。"
+          }
+        },
         "romaji": "Tanaka-san wa konai tte.",
         "german": "Tanaka sagt er kommt nicht."
       },
       {
         "japanese": "すみませんって日本語で何？",
+        "cloze": {
+          "start": 5,
+          "answer": "って"
+        },
         "romaji": "Sumimasen tte nihongo de nani?",
         "german": "Was bedeutet 'sumimasen'?"
       }
     ],
     "notes": "～って言ってた = hat gesagt. ～っていう = namens.",
     "related": [
-      "to-quote"
+      "n4-toiu"
     ]
   },
   {
@@ -4280,11 +9588,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "もっと勉強すればよかった。",
+        "cloze": {
+          "start": 7,
+          "answer": "ばよかった",
+          "quiz": {
+            "level": "N4",
+            "japanese": "もっと勉強すればよかった。",
+            "german": "Ich hätte mehr lernen sollen.",
+            "start": 7,
+            "answer": "ばよかった",
+            "acceptedAnswers": [
+              "ばよかった"
+            ],
+            "distractors": [
+              {
+                "text": "たらよかった",
+                "reason": "すれたら ist keine Verbform."
+              },
+              {
+                "text": "ばよくない",
+                "reason": "Dies drückt nicht die rückblickende Reue aus."
+              },
+              {
+                "text": "ばよいだった",
+                "reason": "よい bildet Vergangenheit als よかった."
+              }
+            ],
+            "promptKana": "もっとべんきょうすれ＿＿＿。"
+          }
+        },
         "romaji": "Motto benkyō sureba yokatta.",
         "german": "Ich hätte mehr lernen sollen."
       },
       {
         "japanese": "傘を持ってくればよかった。",
+        "cloze": {
+          "start": 7,
+          "answer": "ばよかった"
+        },
         "romaji": "Kasa o motte kureba yokatta.",
         "german": "Hätte ich einen Schirm mitgenommen."
       }
@@ -4310,13 +9651,42 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "もう一度説明していただけませんか。",
+        "cloze": {
+          "start": 7,
+          "answer": "ていただけませんか",
+          "quiz": {
+            "level": "N4",
+            "japanese": "もう一度説明していただけませんか。",
+            "german": "Könnten Sie es nochmal erklären?",
+            "start": 7,
+            "answer": "ていただけませんか",
+            "acceptedAnswers": [
+              "ていただけませんか"
+            ],
+            "distractors": [
+              {
+                "text": "たいただけませんか",
+                "reason": "いただく folgt hier der て-Form."
+              },
+              {
+                "text": "ていただけるませんか",
+                "reason": "Die höfliche Form lautet いただけません."
+              },
+              {
+                "text": "ていただけませんた",
+                "reason": "Dies ist keine höfliche Frageform."
+              }
+            ],
+            "promptKana": "もういちどせつめいし＿＿＿。"
+          }
+        },
         "romaji": "Mō ichido setsumei shite itadakemasen ka.",
         "german": "Könnten Sie es nochmal erklären?"
       }
     ],
     "notes": "てください < てもらえませんか < ていただけませんか.",
     "related": [
-      "kudasai",
+      "te-kudasai",
       "n4-temorau"
     ]
   },
@@ -4332,7 +9702,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "東京は大阪ほど暑くない。",
         "romaji": "Tōkyō wa Ōsaka hodo atsuku nai.",
-        "german": "Tokio ist nicht so heiß wie Osaka."
+        "german": "Tokio ist nicht so heiß wie Osaka.",
+        "cloze": {
+          "start": 5,
+          "answer": "ほど暑くない",
+          "quiz": {
+            "level": "N4",
+            "japanese": "東京は大阪ほど暑くない。",
+            "german": "Tokio ist nicht so heiß wie Osaka.",
+            "start": 5,
+            "answer": "ほど暑くない",
+            "acceptedAnswers": [
+              "ほど暑くない"
+            ],
+            "distractors": [
+              {
+                "text": "より暑い",
+                "reason": "Dies behauptet Tokio sei heißer."
+              },
+              {
+                "text": "ほど暑いない",
+                "reason": "Die Negativform lautet 暑くない."
+              },
+              {
+                "text": "ほど暑くあります",
+                "reason": "Dies ist keine Verneinung des Vergleichs."
+              }
+            ],
+            "promptKana": "とうきょうはおおさか＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "日本語は中国語ほど難しくない。",
@@ -4357,11 +9756,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "毎日野菜を食べるようにしている。",
+        "cloze": {
+          "start": 8,
+          "answer": "ようにしている",
+          "quiz": {
+            "level": "N4",
+            "japanese": "毎日野菜を食べるようにしている。",
+            "german": "Ich achte darauf, täglich Gemüse zu essen.",
+            "start": 8,
+            "answer": "ようにしている",
+            "acceptedAnswers": [
+              "ようにしている"
+            ],
+            "distractors": [
+              {
+                "text": "ようをしている",
+                "reason": "Die angestrebte Gewohnheit verlangt に."
+              },
+              {
+                "text": "なようにしている",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ようにしていない",
+                "reason": "Dies verneint die Bemühung."
+              }
+            ],
+            "promptKana": "まいにちやさいをたべる＿＿＿。"
+          }
+        },
         "romaji": "Mainichi yasai o taberu yō ni shiteiru.",
         "german": "Ich achte darauf, täglich Gemüse zu essen."
       },
       {
         "japanese": "夜遅く食べないようにしている。",
+        "cloze": {
+          "start": 7,
+          "answer": "ようにしている"
+        },
         "romaji": "Yoru osoku tabenai yō ni shiteiru.",
         "german": "Ich achte darauf, spät abends nicht zu essen."
       }
@@ -4383,7 +9815,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "子供は外に出たがっている。",
         "romaji": "Kodomo wa soto ni detagatte iru.",
-        "german": "Das Kind will nach draußen."
+        "german": "Das Kind will nach draußen.",
+        "cloze": {
+          "start": 6,
+          "answer": "たがっている",
+          "quiz": {
+            "level": "N4",
+            "japanese": "子供は外に出たがっている。",
+            "german": "Das Kind will nach draußen.",
+            "start": 6,
+            "answer": "たがっている",
+            "acceptedAnswers": [
+              "たがっている"
+            ],
+            "distractors": [
+              {
+                "text": "たいがっている",
+                "reason": "Vor がる entfällt das letzte い von たい."
+              },
+              {
+                "text": "たがっていない",
+                "reason": "Dies verneint den gezeigten Wunsch."
+              },
+              {
+                "text": "たがるている",
+                "reason": "Die て-Form lautet たがって."
+              }
+            ],
+            "promptKana": "こどもはそとにで＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "彼は日本に行きたがっている。",
@@ -4408,16 +9869,53 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この色は白っぽい。",
+        "cloze": {
+          "start": 5,
+          "answer": "っぽい",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この色は白っぽい。",
+            "german": "Diese Farbe ist weißlich.",
+            "start": 5,
+            "answer": "っぽい",
+            "acceptedAnswers": [
+              "っぽい"
+            ],
+            "distractors": [
+              {
+                "text": "っぽいだ",
+                "reason": "Ein い-Adjektiv erhält kein だ."
+              },
+              {
+                "text": "っぽくでした",
+                "reason": "Dies ist keine Adjektivform."
+              },
+              {
+                "text": "っぽくます",
+                "reason": "Ein い-Adjektiv erhält kein ます."
+              }
+            ],
+            "promptKana": "このいろはしろ＿＿＿。"
+          }
+        },
         "romaji": "Kono iro wa shiroppoi.",
         "german": "Diese Farbe ist weißlich."
       },
       {
         "japanese": "彼は怒りっぽい。",
+        "cloze": {
+          "start": 4,
+          "answer": "っぽい"
+        },
         "romaji": "Kare wa okorippoi.",
         "german": "Er wird leicht wütend."
       },
       {
         "japanese": "子供っぽい行動だ。",
+        "cloze": {
+          "start": 2,
+          "answer": "っぽい"
+        },
         "romaji": "Kodomoppoi kōdō da.",
         "german": "Das ist kindisches Verhalten."
       }
@@ -4440,7 +9938,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "読みかけの本がある。",
         "romaji": "Yomikake no hon ga aru.",
-        "german": "Ich habe ein angefangenes Buch."
+        "german": "Ich habe ein angefangenes Buch.",
+        "cloze": {
+          "start": 2,
+          "answer": "かけ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "読みかけの本がある。",
+            "german": "Ich habe ein angefangenes Buch.",
+            "start": 2,
+            "answer": "かけ",
+            "acceptedAnswers": [
+              "かけ"
+            ],
+            "distractors": [
+              {
+                "text": "ます",
+                "reason": "読みますの ist hier keine passende nominale Bestimmung."
+              },
+              {
+                "text": "た",
+                "reason": "読みた ist keine Form von 読む."
+              },
+              {
+                "text": "かける",
+                "reason": "読みかける würde 本 unmittelbar, ohne の, bestimmen."
+              }
+            ],
+            "promptKana": "よみ＿＿＿のほんがある。"
+          }
+        }
       },
       {
         "japanese": "言いかけてやめた。",
@@ -4465,7 +9992,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "マラソンを走り切った。",
         "romaji": "Marason o hashiri kitta.",
-        "german": "Ich habe den Marathon zu Ende gelaufen."
+        "german": "Ich habe den Marathon zu Ende gelaufen.",
+        "cloze": {
+          "start": 7,
+          "answer": "切った",
+          "quiz": {
+            "level": "N4",
+            "japanese": "マラソンを走り切った。",
+            "german": "Ich habe den Marathon zu Ende gelaufen.",
+            "start": 7,
+            "answer": "切った",
+            "acceptedAnswers": [
+              "切った"
+            ],
+            "distractors": [
+              {
+                "text": "切らなかった",
+                "reason": "Dies verneint das Zu-Ende-Laufen."
+              },
+              {
+                "text": "切るた",
+                "reason": "Dies ist keine Vergangenheitsform."
+              },
+              {
+                "text": "ます切った",
+                "reason": "ます kann nicht vor das zweite Verb eingeschoben werden."
+              }
+            ],
+            "promptKana": "マラソンをはしり＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "全部使い切ってしまった。",
@@ -4476,7 +10032,7 @@ window.GRAMMAR_DATA = [
     "notes": "Betont Vollständigkeit: 食べ切る, 読み切る, 売り切れる (ausverkauft).",
     "related": [
       "n4-owaru",
-      "n4-teshimau"
+      "te-shimau"
     ]
   },
   {
@@ -4491,7 +10047,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "もう一度やり直してください。",
         "romaji": "Mō ichido yari naoshite kudasai.",
-        "german": "Bitte machen Sie es nochmal."
+        "german": "Bitte machen Sie es nochmal.",
+        "cloze": {
+          "start": 6,
+          "answer": "直して",
+          "quiz": {
+            "level": "N4",
+            "japanese": "もう一度やり直してください。",
+            "german": "Bitte machen Sie es nochmal.",
+            "start": 6,
+            "answer": "直して",
+            "acceptedAnswers": [
+              "直して"
+            ],
+            "distractors": [
+              {
+                "text": "直した",
+                "reason": "Die Bitte verlangt die て-Form."
+              },
+              {
+                "text": "直します",
+                "reason": "ます kann hier nicht vor ください stehen."
+              },
+              {
+                "text": "直さないで",
+                "reason": "Dies bittet darum, die Handlung nicht erneut zu machen."
+              }
+            ],
+            "promptKana": "もういちどやり＿＿＿ください。"
+          }
+        }
       },
       {
         "japanese": "この文を書き直した。",
@@ -4514,7 +10099,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "友達と助け合っている。",
         "romaji": "Tomodachi to tasuke atte iru.",
-        "german": "Wir helfen uns gegenseitig."
+        "german": "Wir helfen uns gegenseitig.",
+        "cloze": {
+          "start": 5,
+          "answer": "合っている",
+          "quiz": {
+            "level": "N4",
+            "japanese": "友達と助け合っている。",
+            "german": "Wir helfen uns gegenseitig.",
+            "start": 5,
+            "answer": "合っている",
+            "acceptedAnswers": [
+              "合っている"
+            ],
+            "distractors": [
+              {
+                "text": "合っていない",
+                "reason": "Dies verneint die gegenseitige Hilfe."
+              },
+              {
+                "text": "合うている",
+                "reason": "合う bildet die て-Form 合って."
+              },
+              {
+                "text": "ます合っている",
+                "reason": "ます wird nicht zwischen die Verben eingefügt."
+              }
+            ],
+            "promptKana": "ともだちとたすけ＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "この問題について話し合いましょう。",
@@ -4537,7 +10151,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "食べることは食べたが、おいしくなかった。",
         "romaji": "Taberu koto wa tabeta ga, oishiku nakatta.",
-        "german": "Gegessen habe ich schon, aber lecker war es nicht."
+        "german": "Gegessen habe ich schon, aber lecker war es nicht.",
+        "cloze": {
+          "start": 3,
+          "answer": "ことは食べたが",
+          "quiz": {
+            "level": "N4",
+            "japanese": "食べることは食べたが、おいしくなかった。",
+            "german": "Gegessen habe ich schon, aber lecker war es nicht.",
+            "start": 3,
+            "answer": "ことは食べたが",
+            "acceptedAnswers": [
+              "ことは食べたが"
+            ],
+            "distractors": [
+              {
+                "text": "ことは食べなかったが",
+                "reason": "Dies verneint die ausdrücklich eingeräumte Handlung."
+              },
+              {
+                "text": "ことを食べたが",
+                "reason": "Das Zugeständnis verlangt は."
+              },
+              {
+                "text": "ことは食べたので",
+                "reason": "ので nennt einen Grund statt den eingeräumten Gegensatz."
+              }
+            ],
+            "promptKana": "たべる＿＿＿、おいしくなかった。"
+          }
+        }
       },
       {
         "japanese": "高いことは高いが、品質はいい。",
@@ -4547,7 +10190,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Das gleiche Verb/Adj wird wiederholt.",
     "related": [
-      "n4-noni"
+      "noni"
     ]
   },
   {
@@ -4561,18 +10204,51 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "ちょっと手伝ってくださいませんか。",
+        "cloze": {
+          "start": 7,
+          "answer": "てくださいませんか",
+          "quiz": {
+            "level": "N4",
+            "japanese": "ちょっと手伝ってくださいませんか。",
+            "german": "Würden Sie mir bitte kurz helfen?",
+            "start": 7,
+            "answer": "てくださいませんか",
+            "acceptedAnswers": [
+              "てくださいませんか"
+            ],
+            "distractors": [
+              {
+                "text": "たくださいませんか",
+                "reason": "Die Bitte verlangt die て-Form."
+              },
+              {
+                "text": "てくださるませんか",
+                "reason": "Die höfliche Form von くださる lautet くださいません."
+              },
+              {
+                "text": "てくださいませんた",
+                "reason": "Dies ist keine Frageform."
+              }
+            ],
+            "promptKana": "ちょっとてつだっ＿＿＿。"
+          }
+        },
         "romaji": "Chotto tetsudatte kudasaimasen ka.",
         "german": "Würden Sie mir bitte kurz helfen?"
       },
       {
         "japanese": "写真を撮ってくださいませんか。",
+        "cloze": {
+          "start": 5,
+          "answer": "てくださいませんか"
+        },
         "romaji": "Shashin o totte kudasaimasen ka.",
         "german": "Würden Sie bitte ein Foto machen?"
       }
     ],
     "notes": "てください < てくださいませんか < ていただけませんか.",
     "related": [
-      "kudasai",
+      "te-kudasai",
       "n4-te-itadakemasenka"
     ]
   },
@@ -4588,7 +10264,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "今日は早退させてもらいます。",
         "romaji": "Kyō wa sōtai sasete moraimasu.",
-        "german": "Ich erlaube mir, heute früher zu gehen."
+        "german": "Ich erlaube mir, heute früher zu gehen.",
+        "cloze": {
+          "start": 5,
+          "answer": "させてもらいます",
+          "quiz": {
+            "level": "N4",
+            "japanese": "今日は早退させてもらいます。",
+            "german": "Ich erlaube mir, heute früher zu gehen.",
+            "start": 5,
+            "answer": "させてもらいます",
+            "acceptedAnswers": [
+              "させてもらいます"
+            ],
+            "distractors": [
+              {
+                "text": "させたもらいます",
+                "reason": "もらう folgt der て-Form."
+              },
+              {
+                "text": "させてもらいません",
+                "reason": "Dies verneint das Gebrauchmachen von der Erlaubnis."
+              },
+              {
+                "text": "させてもらうます",
+                "reason": "Die höfliche Form lautet もらいます."
+              }
+            ],
+            "promptKana": "きょうはそうたい＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "一言言わせてもらいたい。",
@@ -4614,11 +10319,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "「桜」という漢字を知っていますか。",
+        "cloze": {
+          "start": 3,
+          "answer": "という",
+          "quiz": {
+            "level": "N4",
+            "japanese": "「桜」という漢字を知っていますか。",
+            "german": "Kennen Sie das Kanji namens 'Sakura'?",
+            "start": 3,
+            "answer": "という",
+            "acceptedAnswers": [
+              "という",
+              "といった"
+            ],
+            "distractors": [
+              {
+                "text": "をいう",
+                "reason": "Der zitierte Name braucht と."
+              },
+              {
+                "text": "にいう",
+                "reason": "に ersetzt hier nicht die Zitatpartikel."
+              },
+              {
+                "text": "というの",
+                "reason": "Das Relativgefüge bestimmt 漢字 ohne zusätzliches の."
+              }
+            ],
+            "promptKana": "「さくら」＿＿＿かんじをしっていますか。"
+          }
+        },
         "romaji": "\"Sakura\" to iu kanji o shitteimasu ka.",
         "german": "Kennen Sie das Kanji namens 'Sakura'?"
       },
       {
         "japanese": "明日テストがあるということを聞いた。",
+        "cloze": {
+          "start": 8,
+          "answer": "という"
+        },
         "romaji": "Ashita tesuto ga aru to iu koto o kiita.",
         "german": "Ich habe gehört, dass morgen ein Test ist."
       }
@@ -4640,7 +10379,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "ドアを開けようとしたが開かなかった。",
         "romaji": "Doa o akeyō to shita ga akanakatta.",
-        "german": "Ich versuchte die Tür zu öffnen, aber sie ging nicht auf."
+        "german": "Ich versuchte die Tür zu öffnen, aber sie ging nicht auf.",
+        "cloze": {
+          "start": 5,
+          "answer": "ようとした",
+          "quiz": {
+            "level": "N4",
+            "japanese": "ドアを開けようとしたが開かなかった。",
+            "german": "Ich versuchte die Tür zu öffnen, aber sie ging nicht auf.",
+            "start": 5,
+            "answer": "ようとした",
+            "acceptedAnswers": [
+              "ようとした"
+            ],
+            "distractors": [
+              {
+                "text": "るようとした",
+                "reason": "Die Absicht verwendet 開けよう."
+              },
+              {
+                "text": "ようをした",
+                "reason": "Die Versuchskonstruktion verlangt と."
+              },
+              {
+                "text": "ようとしなかった",
+                "reason": "Dies verneint den Versuch."
+              }
+            ],
+            "promptKana": "ドアをあけ＿＿＿があかなかった。"
+          }
+        }
       },
       {
         "japanese": "出かけようとした時電話が鳴った。",
@@ -4651,7 +10419,7 @@ window.GRAMMAR_DATA = [
     "notes": "～ようとしている = gerade im Begriff sein zu.",
     "related": [
       "n4-volitional",
-      "n4-temiru"
+      "te-miru"
     ]
   },
   {
@@ -4666,7 +10434,38 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "日本に行った時お寺を見ました。",
         "romaji": "Nihon ni itta toki otera o mimashita.",
-        "german": "Als ich in Japan war, besuchte ich Tempel."
+        "german": "Als ich in Japan war, besuchte ich Tempel.",
+        "cloze": {
+          "start": 6,
+          "answer": "時",
+          "quiz": {
+            "level": "N4",
+            "japanese": "日本に行った時お寺を見ました。",
+            "german": "Als ich in Japan war, besuchte ich Tempel.",
+            "start": 6,
+            "answer": "時",
+            "acceptedAnswers": [
+              "時",
+              "際",
+              "時に"
+            ],
+            "distractors": [
+              {
+                "text": "ながら",
+                "reason": "ながら verlangt den Verbstamm."
+              },
+              {
+                "text": "前に",
+                "reason": "前に verlangt hier 行く und bedeutet vor der Reise."
+              },
+              {
+                "text": "てから",
+                "reason": "行ったてから ist kein Verbanschluss."
+              }
+            ],
+            "promptKana": "にほんにいった＿＿＿おてらをみました。"
+          }
+        }
       },
       {
         "japanese": "困った時は相談してください。",
@@ -4677,7 +10476,7 @@ window.GRAMMAR_DATA = [
     "notes": "辞書形+時 = bevor man es tut. た形+時 = nachdem man es getan hat.",
     "related": [
       "n4-aida-ni",
-      "n4-tara"
+      "tara"
     ]
   },
   {
@@ -4692,7 +10491,38 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "この本は勉強するのに役立つ。",
         "romaji": "Kono hon wa benkyō suru noni yakudatsu.",
-        "german": "Dieses Buch ist nützlich zum Lernen."
+        "german": "Dieses Buch ist nützlich zum Lernen.",
+        "cloze": {
+          "start": 8,
+          "answer": "のに",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この本は勉強するのに役立つ。",
+            "german": "Dieses Buch ist nützlich zum Lernen.",
+            "start": 8,
+            "answer": "のに",
+            "acceptedAnswers": [
+              "のに",
+              "ために",
+              "ため"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "Der Verbalsatz muss zuerst nominalisiert werden."
+              },
+              {
+                "text": "にの",
+                "reason": "Die Reihenfolge lautet のに."
+              },
+              {
+                "text": "なに",
+                "reason": "Nach dem Verb ist なに hier kein Zweckanschluss."
+              }
+            ],
+            "promptKana": "このほんはべんきょうする＿＿＿やくだつ。"
+          }
+        }
       },
       {
         "japanese": "日本語を覚えるのに時間がかかる。",
@@ -4702,7 +10532,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Nicht verwechseln mit ～のに (obwohl). Hier: Zweck/Nutzen.",
     "related": [
-      "n4-noni",
+      "noni",
       "n4-tame-ni"
     ]
   },
@@ -4718,7 +10548,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "薬を飲まずにすんだ。",
         "romaji": "Kusuri o nomazu ni sunda.",
-        "german": "Ich kam drum herum, Medizin zu nehmen."
+        "german": "Ich kam drum herum, Medizin zu nehmen.",
+        "cloze": {
+          "start": 4,
+          "answer": "ずにすんだ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "薬を飲まずにすんだ。",
+            "german": "Ich kam drum herum, Medizin zu nehmen.",
+            "start": 4,
+            "answer": "ずにすんだ",
+            "acceptedAnswers": [
+              "ずにすんだ",
+              "ないですんだ"
+            ],
+            "distractors": [
+              {
+                "text": "ずにすむた",
+                "reason": "Die Vergangenheit von 済む lautet すんだ."
+              },
+              {
+                "text": "ずにすまなかった",
+                "reason": "Dies verneint, dass die Einnahme vermieden werden konnte."
+              },
+              {
+                "text": "ずをすんだ",
+                "reason": "済む wird hier mit に angeschlossen."
+              }
+            ],
+            "promptKana": "くすりをのま＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "千円ですみました。",
@@ -4743,7 +10603,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "全部食べちゃった。",
         "romaji": "Zenbu tabechatta.",
-        "german": "Ich hab alles aufgegessen."
+        "german": "Ich hab alles aufgegessen.",
+        "cloze": {
+          "start": 4,
+          "answer": "ちゃった",
+          "quiz": {
+            "level": "N4",
+            "japanese": "全部食べちゃった。",
+            "german": "Ich hab alles aufgegessen.",
+            "start": 4,
+            "answer": "ちゃった",
+            "acceptedAnswers": [
+              "ちゃった",
+              "てしまった"
+            ],
+            "distractors": [
+              {
+                "text": "じゃった",
+                "reason": "食べてしまった wird zu 食べちゃった, nicht 食べじゃった."
+              },
+              {
+                "text": "ちゃうた",
+                "reason": "Die Vergangenheit lautet ちゃった."
+              },
+              {
+                "text": "ちゃわなかった",
+                "reason": "Dies verneint das Aufessen."
+              }
+            ],
+            "promptKana": "ぜんぶたべ＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "電車に忘れ物しちゃった。",
@@ -4758,7 +10648,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Sehr häufig im Alltag. て→ちゃ, で→じゃ.",
     "related": [
-      "n4-teshimau"
+      "te-shimau"
     ]
   },
   {
@@ -4773,7 +10663,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "急に雨が降り出した。",
         "romaji": "Kyū ni ame ga furi dashita.",
-        "german": "Plötzlich fing es an zu regnen."
+        "german": "Plötzlich fing es an zu regnen.",
+        "cloze": {
+          "start": 6,
+          "answer": "出した",
+          "quiz": {
+            "level": "N4",
+            "japanese": "急に雨が降り出した。",
+            "german": "Plötzlich fing es an zu regnen.",
+            "start": 6,
+            "answer": "出した",
+            "acceptedAnswers": [
+              "出した"
+            ],
+            "distractors": [
+              {
+                "text": "終わった",
+                "reason": "Dies bezeichnet das Ende statt den Beginn."
+              },
+              {
+                "text": "出さなかった",
+                "reason": "Dies verneint das Einsetzen."
+              },
+              {
+                "text": "出すた",
+                "reason": "Dies ist keine Vergangenheitsform."
+              }
+            ],
+            "promptKana": "きゅうにあめがふり＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "赤ちゃんが泣き出した。",
@@ -4798,7 +10717,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "鍵をかけ忘れた。",
         "romaji": "Kagi o kake wasureta.",
-        "german": "Ich vergaß abzuschließen."
+        "german": "Ich vergaß abzuschließen.",
+        "cloze": {
+          "start": 4,
+          "answer": "忘れた",
+          "quiz": {
+            "level": "N4",
+            "japanese": "鍵をかけ忘れた。",
+            "german": "Ich vergaß abzuschließen.",
+            "start": 4,
+            "answer": "忘れた",
+            "acceptedAnswers": [
+              "忘れた"
+            ],
+            "distractors": [
+              {
+                "text": "忘れなかった",
+                "reason": "Dies verneint das Vergessen."
+              },
+              {
+                "text": "忘れるた",
+                "reason": "Dies ist keine Vergangenheitsform."
+              },
+              {
+                "text": "ます忘れた",
+                "reason": "ます wird nicht vor 忘れた eingefügt."
+              }
+            ],
+            "promptKana": "かぎをかけ＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "薬を飲み忘れないでね。",
@@ -4821,7 +10769,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "知らないふりをした。",
         "romaji": "Shiranai furi o shita.",
-        "german": "Ich tat so, als wüsste ich nichts."
+        "german": "Ich tat so, als wüsste ich nichts.",
+        "cloze": {
+          "start": 4,
+          "answer": "ふりをした",
+          "quiz": {
+            "level": "N4",
+            "japanese": "知らないふりをした。",
+            "german": "Ich tat so, als wüsste ich nichts.",
+            "start": 4,
+            "answer": "ふりをした",
+            "acceptedAnswers": [
+              "ふりをした"
+            ],
+            "distractors": [
+              {
+                "text": "ふりをしなかった",
+                "reason": "Dies verneint das Vortäuschen."
+              },
+              {
+                "text": "なふりをした",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ふりにした",
+                "reason": "Die feste Verbindung für vortäuschen lautet ふりをする."
+              }
+            ],
+            "promptKana": "しらない＿＿＿。"
+          }
+        }
       },
       {
         "japanese": "寝たふりをしている。",
@@ -4843,11 +10820,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "彼がそんなことをするはずがない。",
+        "cloze": {
+          "start": 10,
+          "answer": "はずがない",
+          "quiz": {
+            "level": "N4",
+            "japanese": "彼がそんなことをするはずがない。",
+            "german": "Er kann unmöglich so etwas tun.",
+            "start": 10,
+            "answer": "はずがない",
+            "acceptedAnswers": [
+              "はずがない"
+            ],
+            "distractors": [
+              {
+                "text": "はずだ",
+                "reason": "Dies behauptet eine Erwartung statt Unmöglichkeit."
+              },
+              {
+                "text": "なはずがない",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "はずをない",
+                "reason": "Die Negation verwendet が, nicht を."
+              }
+            ],
+            "promptKana": "かれがそんなことをする＿＿＿。"
+          }
+        },
         "romaji": "Kare ga sonna koto o suru hazu ga nai.",
         "german": "Er kann unmöglich so etwas tun."
       },
       {
         "japanese": "こんなに安いはずがない。",
+        "cloze": {
+          "start": 6,
+          "answer": "はずがない"
+        },
         "romaji": "Konna ni yasui hazu ga nai.",
         "german": "Das kann unmöglich so billig sein."
       }
@@ -4869,11 +10879,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "約束したから行かないわけにはいかない。",
+        "cloze": {
+          "start": 10,
+          "answer": "わけにはいかない",
+          "quiz": {
+            "level": "N4",
+            "japanese": "約束したから行かないわけにはいかない。",
+            "german": "Ich habe es versprochen, also kann ich nicht einfach nicht gehen.",
+            "start": 10,
+            "answer": "わけにはいかない",
+            "acceptedAnswers": [
+              "わけにはいかない",
+              "わけにいかない"
+            ],
+            "distractors": [
+              {
+                "text": "わけにはいく",
+                "reason": "Dies würde das Nichtgehen als möglich darstellen."
+              },
+              {
+                "text": "なわけにはいかない",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "わけをはいかない",
+                "reason": "Die feste Konstruktion verwendet に."
+              }
+            ],
+            "promptKana": "やくそくしたからいかない＿＿＿。"
+          }
+        },
         "romaji": "Yakusoku shita kara ikanai wake ni wa ikanai.",
         "german": "Ich habe es versprochen, also kann ich nicht einfach nicht gehen."
       },
       {
         "japanese": "ここで諦めるわけにはいかない。",
+        "cloze": {
+          "start": 6,
+          "answer": "わけにはいかない"
+        },
         "romaji": "Koko de akirameru wake ni wa ikanai.",
         "german": "Ich kann hier nicht einfach aufgeben."
       }
@@ -4881,7 +10925,7 @@ window.GRAMMAR_DATA = [
     "notes": "Soziale/moralische Unmöglichkeit, nicht physische.",
     "related": [
       "n4-wake-da",
-      "n4-nakereba-naranai"
+      "nakereba-naranai"
     ]
   },
   {
@@ -4895,6 +10939,35 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "医者に行ったらどう？",
+        "cloze": {
+          "start": 5,
+          "answer": "たらどう",
+          "quiz": {
+            "level": "N4",
+            "japanese": "医者に行ったらどう？",
+            "german": "Wie wäre es, zum Arzt zu gehen?",
+            "start": 5,
+            "answer": "たらどう",
+            "acceptedAnswers": [
+              "たらどう"
+            ],
+            "distractors": [
+              {
+                "text": "ればどう",
+                "reason": "行っれば ist keine Verbform."
+              },
+              {
+                "text": "ますどう",
+                "reason": "行っます ist keine Verbform."
+              },
+              {
+                "text": "たどう",
+                "reason": "Der Vorschlag verlangt die Bedingungsform たら."
+              }
+            ],
+            "promptKana": "いしゃにいっ＿＿＿？"
+          }
+        },
         "romaji": "Isha ni ittara dō?",
         "german": "Wie wäre es, zum Arzt zu gehen?"
       },
@@ -4907,7 +10980,7 @@ window.GRAMMAR_DATA = [
     "notes": "Kann je nach Ton auch ungeduldig klingen.",
     "related": [
       "n4-ta-hou-ga-ii",
-      "n4-tara"
+      "tara"
     ]
   },
   {
@@ -4922,7 +10995,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "遅れたのは電車のせいだ。",
         "romaji": "Okureta no wa densha no sei da.",
-        "german": "Der Grund für die Verspätung war die Bahn."
+        "german": "Der Grund für die Verspätung war die Bahn.",
+        "cloze": {
+          "start": 3,
+          "answer": "のは",
+          "quiz": {
+            "level": "N4",
+            "japanese": "遅れたのは電車のせいだ。",
+            "german": "Der Grund für die Verspätung war die Bahn.",
+            "start": 3,
+            "answer": "のは",
+            "acceptedAnswers": [
+              "のは"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "を nominalisiert den Satz nicht als Thema."
+              },
+              {
+                "text": "に",
+                "reason": "に nominalisiert den Satz nicht als Thema."
+              },
+              {
+                "text": "なは",
+                "reason": "Nach dem Verb ist なは kein Anschluss."
+              }
+            ],
+            "promptKana": "おくれた＿＿＿でんしゃのせいだ。"
+          }
+        }
       },
       {
         "japanese": "驚いたのは値段が高かったからだ。",
@@ -4931,9 +11033,7 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "Betont den Grund oder das wichtige Element.",
-    "related": [
-      "no-wa-da"
-    ]
+    "related": []
   },
   {
     "id": "n4-daroo",
@@ -4946,18 +11046,52 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "明日は晴れるでしょう。",
+        "cloze": {
+          "start": 6,
+          "answer": "でしょう",
+          "quiz": {
+            "level": "N4",
+            "japanese": "明日は晴れるでしょう。",
+            "german": "Morgen wird es wohl sonnig.",
+            "start": 6,
+            "answer": "でしょう",
+            "acceptedAnswers": [
+              "でしょう",
+              "だろう"
+            ],
+            "distractors": [
+              {
+                "text": "でした",
+                "reason": "Die Kopula でした schließt hier nicht an ein Verb an."
+              },
+              {
+                "text": "ます",
+                "reason": "ます wird nicht an die Wörterbuchform angeschlossen."
+              },
+              {
+                "text": "なでしょう",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              }
+            ],
+            "promptKana": "あしたははれる＿＿＿。"
+          }
+        },
         "romaji": "Ashita wa hareru deshō.",
         "german": "Morgen wird es wohl sonnig."
       },
       {
         "japanese": "彼はもう帰っただろう。",
+        "cloze": {
+          "start": 7,
+          "answer": "だろう"
+        },
         "romaji": "Kare wa mō kaetta darō.",
         "german": "Er ist wohl schon nach Hause gegangen."
       }
     ],
     "notes": "でしょう? (mit Frageton) = nicht wahr? / oder?",
     "related": [
-      "n4-kamoshirenai",
+      "kamoshirenai",
       "n4-hazu-da"
     ]
   },
@@ -4972,6 +11106,36 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この件に関して質問があります。",
+        "cloze": {
+          "start": 3,
+          "answer": "に関して",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この件に関して質問があります。",
+            "german": "Bezüglich dieser Angelegenheit habe ich eine Frage.",
+            "start": 3,
+            "answer": "に関して",
+            "acceptedAnswers": [
+              "に関して",
+              "について",
+              "に関する"
+            ],
+            "distractors": [
+              {
+                "text": "に比べて",
+                "reason": "Dies bezeichnet einen Vergleich statt das Fragethema."
+              },
+              {
+                "text": "にとって",
+                "reason": "Dies bezeichnet einen Wertmaßstab statt das Fragethema."
+              },
+              {
+                "text": "にかけて",
+                "reason": "Dies bezeichnet hier nicht das Thema einer Frage."
+              }
+            ]
+          }
+        },
         "romaji": "Kono ken ni kanshite shitsumon ga arimasu.",
         "german": "Bezüglich dieser Angelegenheit habe ich eine Frage."
       },
@@ -4997,11 +11161,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "去年に比べて売上が伸びた。",
+        "cloze": {
+          "start": 2,
+          "answer": "に比べて",
+          "quiz": {
+            "level": "N3",
+            "japanese": "去年に比べて売上が伸びた。",
+            "german": "Im Vergleich zum letzten Jahr ist der Umsatz gestiegen.",
+            "start": 2,
+            "answer": "に比べて",
+            "acceptedAnswers": [
+              "に比べて"
+            ],
+            "distractors": [
+              {
+                "text": "に反して",
+                "reason": "Dies bezeichnet Widerspruch statt den zeitlichen Vergleich."
+              },
+              {
+                "text": "について",
+                "reason": "Dies benennt ein Thema statt den Vergleichsmaßstab."
+              },
+              {
+                "text": "にとって",
+                "reason": "Ein Jahr ist hier Vergleichsmaßstab, kein Wertmaßstab."
+              }
+            ]
+          }
+        },
         "romaji": "Kyonen ni kurabete uriage ga nobita.",
         "german": "Im Vergleich zum letzten Jahr ist der Umsatz gestiegen."
       },
       {
         "japanese": "東京に比べて大阪は物価が安い。",
+        "cloze": {
+          "start": 2,
+          "answer": "に比べて"
+        },
         "romaji": "Tōkyō ni kurabete Ōsaka wa bukka ga yasui.",
         "german": "Im Vergleich zu Tokio sind die Preise in Osaka günstiger."
       }
@@ -5022,6 +11218,35 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "法律に基づいて判断する。",
+        "cloze": {
+          "start": 2,
+          "answer": "に基づいて",
+          "quiz": {
+            "level": "N3",
+            "japanese": "法律に基づいて判断する。",
+            "german": "Auf Grundlage des Gesetzes urteilen.",
+            "start": 2,
+            "answer": "に基づいて",
+            "acceptedAnswers": [
+              "に基づいて",
+              "に従って"
+            ],
+            "distractors": [
+              {
+                "text": "に反して",
+                "reason": "Dies bedeutet entgegen dem Gesetz."
+              },
+              {
+                "text": "を問わず",
+                "reason": "Dies bedeutet ohne Berücksichtigung des Gesetzes."
+              },
+              {
+                "text": "について",
+                "reason": "Dies macht das Gesetz zum Gegenstand statt zur Urteilsgrundlage."
+              }
+            ]
+          }
+        },
         "romaji": "Hōritsu ni motozuite handan suru.",
         "german": "Auf Grundlage des Gesetzes urteilen."
       },
@@ -5045,6 +11270,35 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "会議は東京において行われた。",
+        "cloze": {
+          "start": 5,
+          "answer": "において",
+          "quiz": {
+            "level": "N3",
+            "japanese": "会議は東京において行われた。",
+            "german": "Die Konferenz fand in Tokio statt.",
+            "start": 5,
+            "answer": "において",
+            "acceptedAnswers": [
+              "において",
+              "で"
+            ],
+            "distractors": [
+              {
+                "text": "について",
+                "reason": "Dies macht Tokio zum Konferenzthema statt zum Veranstaltungsort."
+              },
+              {
+                "text": "にとって",
+                "reason": "Dies benennt keinen Veranstaltungsort."
+              },
+              {
+                "text": "に代わって",
+                "reason": "Dies bedeutet anstelle von Tokio, nicht in Tokio."
+              }
+            ]
+          }
+        },
         "romaji": "Kaigi wa Tōkyō ni oite okonawareta.",
         "german": "Die Konferenz fand in Tokio statt."
       },
@@ -5070,6 +11324,34 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "状況に応じて対応を変える。",
+        "cloze": {
+          "start": 2,
+          "answer": "に応じて",
+          "quiz": {
+            "level": "N3",
+            "japanese": "状況に応じて対応を変える。",
+            "german": "Je nach Situation die Reaktion ändern.",
+            "start": 2,
+            "answer": "に応じて",
+            "acceptedAnswers": [
+              "に応じて"
+            ],
+            "distractors": [
+              {
+                "text": "に反して",
+                "reason": "Dies bedeutet entgegen statt entsprechend der Situation."
+              },
+              {
+                "text": "を問わず",
+                "reason": "Dies bedeutet unabhängig statt je nach Situation."
+              },
+              {
+                "text": "に関する",
+                "reason": "状況に関する対応 bedeutet situationsbezogene Reaktion, nicht die verlangte Abhängigkeit ihrer Änderung."
+              }
+            ]
+          }
+        },
         "romaji": "Jōkyō ni ōjite taiō o kaeru.",
         "german": "Je nach Situation die Reaktion ändern."
       },
@@ -5095,6 +11377,36 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "人口増加に伴って環境問題が深刻化した。",
+        "cloze": {
+          "start": 4,
+          "answer": "に伴って",
+          "quiz": {
+            "level": "N3",
+            "japanese": "人口増加に伴って環境問題が深刻化した。",
+            "german": "Mit dem Bevölkerungswachstum verschärften sich die Umweltprobleme.",
+            "start": 4,
+            "answer": "に伴って",
+            "acceptedAnswers": [
+              "に伴って",
+              "につれて",
+              "とともに"
+            ],
+            "distractors": [
+              {
+                "text": "に反して",
+                "reason": "Dies bedeutet entgegen dem Bevölkerungswachstum."
+              },
+              {
+                "text": "を問わず",
+                "reason": "Dies behauptet Unabhängigkeit statt begleitender Veränderung."
+              },
+              {
+                "text": "にとって",
+                "reason": "Dies nennt einen Wertmaßstab statt paralleler Entwicklung."
+              }
+            ]
+          }
+        },
         "romaji": "Jinkō zōka ni tomonatte kankyō mondai ga shinkokuka shita.",
         "german": "Mit dem Bevölkerungswachstum verschärften sich die Umweltprobleme."
       },
@@ -5120,11 +11432,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本をはじめアジアの国々を訪れた。",
+        "cloze": {
+          "start": 2,
+          "answer": "をはじめ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "日本をはじめアジアの国々を訪れた。",
+            "german": "Ich besuchte asiatische Länder, allen voran Japan.",
+            "start": 2,
+            "answer": "をはじめ",
+            "acceptedAnswers": [
+              "をはじめ"
+            ],
+            "distractors": [
+              {
+                "text": "にとって",
+                "reason": "Dies drückt keinen hervorgehobenen Listenanfang aus."
+              },
+              {
+                "text": "に代わって",
+                "reason": "Dies bedeutet anstelle Japans statt Japan eingeschlossen."
+              },
+              {
+                "text": "を除いて",
+                "reason": "Dies schließt Japan aus, obwohl es ausdrücklich besucht wurde."
+              }
+            ]
+          }
+        },
         "romaji": "Nihon o hajime Ajia no kuniguni o otozureta.",
         "german": "Ich besuchte asiatische Länder, allen voran Japan."
       },
       {
         "japanese": "社長をはじめ社員全員が参加した。",
+        "cloze": {
+          "start": 2,
+          "answer": "をはじめ"
+        },
         "romaji": "Shachō o hajime shain zen'in ga sanka shita.",
         "german": "Alle Mitarbeiter nahmen teil, angefangen mit dem Firmenchef."
       }
@@ -5145,11 +11489,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "インターネットを通じて世界とつながる。",
+        "cloze": {
+          "start": 7,
+          "answer": "を通じて",
+          "quiz": {
+            "level": "N3",
+            "japanese": "インターネットを通じて世界とつながる。",
+            "german": "Durch das Internet mit der Welt verbunden sein.",
+            "start": 7,
+            "answer": "を通じて",
+            "acceptedAnswers": [
+              "を通じて",
+              "を通して",
+              "で"
+            ],
+            "distractors": [
+              {
+                "text": "を避けて",
+                "reason": "Dies bedeutet unter Vermeidung des Internets."
+              },
+              {
+                "text": "とは無関係に",
+                "reason": "Dies bedeutet unabhängig vom Internet."
+              },
+              {
+                "text": "に反して",
+                "reason": "Dies bedeutet entgegen statt mittels des Internets."
+              }
+            ]
+          }
+        },
         "romaji": "Intānetto o tsūjite sekai to tsunagaru.",
         "german": "Durch das Internet mit der Welt verbunden sein."
       },
       {
         "japanese": "一年を通して暖かい気候だ。",
+        "cloze": {
+          "start": 2,
+          "answer": "を通して"
+        },
         "romaji": "Ichinen o tōshite atatakai kikō da.",
         "german": "Das Klima ist das ganze Jahr über warm."
       }
@@ -5170,11 +11548,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "駅を中心に町が発展した。",
+        "cloze": {
+          "start": 1,
+          "answer": "を中心に",
+          "quiz": {
+            "level": "N3",
+            "japanese": "駅を中心に町が発展した。",
+            "german": "Die Stadt hat sich um den Bahnhof herum entwickelt.",
+            "start": 1,
+            "answer": "を中心に",
+            "acceptedAnswers": [
+              "を中心に"
+            ],
+            "distractors": [
+              {
+                "text": "から遠く離れて",
+                "reason": "Dies verlegt die Entwicklung weit weg vom Bahnhof."
+              },
+              {
+                "text": "を中心な",
+                "reason": "Die adverbiale Verbindung verlangt に."
+              },
+              {
+                "text": "が中心を",
+                "reason": "Dies ist kein adverbialer Anschluss an 発展した."
+              }
+            ]
+          }
+        },
         "romaji": "Eki o chūshin ni machi ga hatten shita.",
         "german": "Die Stadt hat sich um den Bahnhof herum entwickelt."
       },
       {
         "japanese": "文法を中心に勉強している。",
+        "cloze": {
+          "start": 2,
+          "answer": "を中心に"
+        },
         "romaji": "Bunpō o chūshin ni benkyō shiteiru.",
         "german": "Ich lerne mit dem Schwerpunkt auf Grammatik."
       }
@@ -5193,11 +11603,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "年を取るにつれて体力が落ちる。",
+        "cloze": {
+          "start": 4,
+          "answer": "につれて",
+          "quiz": {
+            "level": "N3",
+            "japanese": "年を取るにつれて体力が落ちる。",
+            "german": "Je älter man wird, desto mehr schwindet die Körperkraft.",
+            "start": 4,
+            "answer": "につれて",
+            "acceptedAnswers": [
+              "につれて",
+              "に従って"
+            ],
+            "distractors": [
+              {
+                "text": "につれる",
+                "reason": "Die feste Veränderungskonstruktion endet hier auf て."
+              },
+              {
+                "text": "をつれて",
+                "reason": "を連れて bedeutet jemanden mitnehmen und schließt nicht an 年を取る an."
+              },
+              {
+                "text": "ながら",
+                "reason": "ながら verlangt den Stamm, nicht 年を取る."
+              }
+            ]
+          }
+        },
         "romaji": "Toshi o toru ni tsurete tairyoku ga ochiru.",
         "german": "Je älter man wird, desto mehr schwindet die Körperkraft."
       },
       {
         "japanese": "時間が経つにつれて忘れてしまう。",
+        "cloze": {
+          "start": 5,
+          "answer": "につれて"
+        },
         "romaji": "Jikan ga tatsu ni tsurete wasurete shimau.",
         "german": "Mit der Zeit vergisst man."
       }
@@ -5219,11 +11662,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "指示に従って作業してください。",
+        "cloze": {
+          "start": 2,
+          "answer": "に従って",
+          "quiz": {
+            "level": "N3",
+            "japanese": "指示に従って作業してください。",
+            "german": "Bitte arbeiten Sie gemäß den Anweisungen.",
+            "start": 2,
+            "answer": "に従って",
+            "acceptedAnswers": [
+              "に従って",
+              "に沿って"
+            ],
+            "distractors": [
+              {
+                "text": "に反して",
+                "reason": "Dies verlangt Handeln entgegen den Anweisungen."
+              },
+              {
+                "text": "を無視して",
+                "reason": "Dies verlangt, die Anweisungen zu ignorieren."
+              },
+              {
+                "text": "に従うて",
+                "reason": "従う bildet die て-Form 従って."
+              }
+            ]
+          }
+        },
         "romaji": "Shiji ni shitagatte sagyō shite kudasai.",
         "german": "Bitte arbeiten Sie gemäß den Anweisungen."
       },
       {
         "japanese": "高度が上がるに従って気温が下がる。",
+        "cloze": {
+          "start": 6,
+          "answer": "に従って"
+        },
         "romaji": "Kōdo ga agaru ni shitagatte kion ga sagaru.",
         "german": "Je höher man steigt, desto niedriger wird die Temperatur."
       }
@@ -5244,6 +11720,34 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "三日間にわたって会議が行われた。",
+        "cloze": {
+          "start": 3,
+          "answer": "にわたって",
+          "quiz": {
+            "level": "N3",
+            "japanese": "三日間にわたって会議が行われた。",
+            "german": "Die Konferenz erstreckte sich über drei Tage.",
+            "start": 3,
+            "answer": "にわたって",
+            "acceptedAnswers": [
+              "にわたって"
+            ],
+            "distractors": [
+              {
+                "text": "の前に",
+                "reason": "Dies bedeutet vor dem Zeitraum."
+              },
+              {
+                "text": "の後に",
+                "reason": "Dies bedeutet nach dem Zeitraum."
+              },
+              {
+                "text": "にわたるて",
+                "reason": "わたる bildet die て-Form わたって."
+              }
+            ]
+          }
+        },
         "romaji": "Mikkakan ni watatte kaigi ga okonawareta.",
         "german": "Die Konferenz erstreckte sich über drei Tage."
       },
@@ -5269,11 +11773,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "午後から夕方にかけて雨が降るでしょう。",
+        "cloze": {
+          "start": 6,
+          "answer": "にかけて",
+          "quiz": {
+            "level": "N3",
+            "japanese": "午後から夕方にかけて雨が降るでしょう。",
+            "german": "Vom Nachmittag bis zum Abend wird es wohl regnen.",
+            "start": 6,
+            "answer": "にかけて",
+            "acceptedAnswers": [
+              "にかけて",
+              "まで"
+            ],
+            "distractors": [
+              {
+                "text": "の後だけ",
+                "reason": "Dies bedeutet ausschließlich danach statt bis zum Abend."
+              },
+              {
+                "text": "にかけるて",
+                "reason": "かける bildet die て-Form かけて."
+              },
+              {
+                "text": "をかけて",
+                "reason": "をかけて bildet hier keine Zeitspanne ab 午後から."
+              }
+            ]
+          }
+        },
         "romaji": "Gogo kara yūgata ni kakete ame ga furu deshō.",
         "german": "Vom Nachmittag bis zum Abend wird es wohl regnen."
       },
       {
         "japanese": "関東から東北にかけて地震があった。",
+        "cloze": {
+          "start": 6,
+          "answer": "にかけて"
+        },
         "romaji": "Kantō kara Tōhoku ni kakete jishin ga atta.",
         "german": "Von Kantō bis Tōhoku gab es ein Erdbeben."
       }
@@ -5294,11 +11831,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "子供向けの番組が多い。",
+        "cloze": {
+          "start": 2,
+          "answer": "向け",
+          "quiz": {
+            "level": "N3",
+            "japanese": "子供向けの番組が多い。",
+            "german": "Es gibt viele Sendungen für Kinder.",
+            "start": 2,
+            "answer": "向け",
+            "acceptedAnswers": [
+              "向け",
+              "向き"
+            ],
+            "distractors": [
+              {
+                "text": "向ける",
+                "reason": "向けるの ist hier keine attributive Zielgruppenangabe."
+              },
+              {
+                "text": "向けに",
+                "reason": "Vor の番組 passt keine zusätzliche adverbiale Endung に."
+              },
+              {
+                "text": "を向けた",
+                "reason": "子供を向けた würde Kinder ausrichten, nicht Sendungen adressieren."
+              }
+            ]
+          }
+        },
         "romaji": "Kodomo muke no bangumi ga ōi.",
         "german": "Es gibt viele Sendungen für Kinder."
       },
       {
         "japanese": "外国人向けの日本語教材です。",
+        "cloze": {
+          "start": 3,
+          "answer": "向け"
+        },
         "romaji": "Gaikokujin muke no nihongo kyōzai desu.",
         "german": "Das ist ein Japanisch-Lehrmaterial für Ausländer."
       }
@@ -5319,11 +11889,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この本は初心者向きだ。",
+        "cloze": {
+          "start": 7,
+          "answer": "向き",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この本は初心者向きだ。",
+            "german": "Dieses Buch ist für Anfänger geeignet.",
+            "start": 7,
+            "answer": "向き",
+            "acceptedAnswers": [
+              "向き",
+              "向け"
+            ],
+            "distractors": [
+              {
+                "text": "向きに",
+                "reason": "Eine adverbiale Endung passt nicht unmittelbar vor だ."
+              },
+              {
+                "text": "向くの",
+                "reason": "Dies ist hier keine nominale Eignungsangabe."
+              },
+              {
+                "text": "を向く",
+                "reason": "初心者を向くだ ist kein passender Satzabschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Kono hon wa shoshinsha muki da.",
         "german": "Dieses Buch ist für Anfänger geeignet."
       },
       {
         "japanese": "家族向きのレストランを探している。",
+        "cloze": {
+          "start": 2,
+          "answer": "向き"
+        },
         "romaji": "Kazoku muki no resutoran o sagashiteiru.",
         "german": "Ich suche ein familiengeeignetes Restaurant."
       }
@@ -5344,6 +11947,36 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この条件を受け入れざるを得ない。",
+        "cloze": {
+          "start": 9,
+          "answer": "ざるを得ない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この条件を受け入れざるを得ない。",
+            "german": "Ich muss diese Bedingungen akzeptieren.",
+            "start": 9,
+            "answer": "ざるを得ない",
+            "acceptedAnswers": [
+              "ざるを得ない",
+              "なければならない",
+              "ざるをえない"
+            ],
+            "distractors": [
+              {
+                "text": "ざるを得る",
+                "reason": "Die Verpflichtungskonstruktion benötigt die Negation 得ない."
+              },
+              {
+                "text": "ざるが得ない",
+                "reason": "Die feste Wendung verlangt を."
+              },
+              {
+                "text": "ないほうがいい",
+                "reason": "Dies rät von der Annahme ab."
+              }
+            ]
+          }
+        },
         "romaji": "Kono jōken o ukeirezaru o enai.",
         "german": "Ich muss diese Bedingungen akzeptieren."
       },
@@ -5355,7 +11988,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "する→せざるを得ない. Formell. Ähnlich: ～ないわけにはいかない.",
     "related": [
-      "n4-nakereba-naranai",
+      "nakereba-naranai",
       "n4-wake-ni-ikanai"
     ]
   },
@@ -5375,6 +12008,34 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "賛成しかねる意見だ。",
+        "cloze": {
+          "start": 3,
+          "answer": "かねる",
+          "quiz": {
+            "level": "N3",
+            "japanese": "賛成しかねる意見だ。",
+            "german": "Eine Meinung, der ich nicht zustimmen kann.",
+            "start": 3,
+            "answer": "かねる",
+            "acceptedAnswers": [
+              "かねる"
+            ],
+            "distractors": [
+              {
+                "text": "かねない",
+                "reason": "Dies bedeutet möglicherweise zustimmen statt nicht zustimmen können."
+              },
+              {
+                "text": "かねます",
+                "reason": "Vor 意見 steht hier die einfache attributive Form."
+              },
+              {
+                "text": "かねるの",
+                "reason": "Die Verbform bestimmt 意見 ohne の."
+              }
+            ]
+          }
+        },
         "romaji": "Sansei shikaneru iken da.",
         "german": "Eine Meinung, der ich nicht zustimmen kann."
       }
@@ -5395,11 +12056,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "このままでは事故になりかねない。",
+        "cloze": {
+          "start": 11,
+          "answer": "かねない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "このままでは事故になりかねない。",
+            "german": "So wie es ist, könnte es zu einem Unfall kommen.",
+            "start": 11,
+            "answer": "かねない",
+            "acceptedAnswers": [
+              "かねない"
+            ],
+            "distractors": [
+              {
+                "text": "かねる",
+                "reason": "Dies bezeichnet Unvermögen statt Unfallgefahr."
+              },
+              {
+                "text": "かねるない",
+                "reason": "Die Negativform lautet かねない."
+              },
+              {
+                "text": "かねないだ",
+                "reason": "Nach dem verbalen Ausdruck steht kein だ."
+              }
+            ]
+          }
+        },
         "romaji": "Kono mama de wa jiko ni narikanenai.",
         "german": "So wie es ist, könnte es zu einem Unfall kommen."
       },
       {
         "japanese": "誤解を招きかねない発言だ。",
+        "cloze": {
+          "start": 5,
+          "answer": "かねない"
+        },
         "romaji": "Gokai o manekikanenai hatsugen da.",
         "german": "Eine Aussage, die zu Missverständnissen führen könnte."
       }
@@ -5421,11 +12114,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "そんなことはあり得ない。",
+        "cloze": {
+          "start": 8,
+          "answer": "得ない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "そんなことはあり得ない。",
+            "german": "So etwas ist unmöglich.",
+            "start": 8,
+            "answer": "得ない",
+            "acceptedAnswers": [
+              "得ない"
+            ],
+            "distractors": [
+              {
+                "text": "得る",
+                "reason": "Dies bejaht die Möglichkeit."
+              },
+              {
+                "text": "得ないだ",
+                "reason": "Nach dem negativen Verb steht kein だ."
+              },
+              {
+                "text": "得るない",
+                "reason": "Dies ist keine Negativform."
+              }
+            ]
+          }
+        },
         "romaji": "Sonna koto wa arienai.",
         "german": "So etwas ist unmöglich."
       },
       {
         "japanese": "十分起こり得ることだ。",
+        "cloze": {
+          "start": 5,
+          "answer": "得る"
+        },
         "romaji": "Juubun okoriuru koto da.",
         "german": "Es ist durchaus möglich, dass das passiert."
       }
@@ -5447,7 +12172,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "最後まで走り抜いた。",
         "romaji": "Saigo made hashiri nuita.",
-        "german": "Ich bin bis zum Ende durchgelaufen."
+        "german": "Ich bin bis zum Ende durchgelaufen.",
+        "cloze": {
+          "start": 6,
+          "answer": "抜いた",
+          "quiz": {
+            "level": "N3",
+            "japanese": "最後まで走り抜いた。",
+            "german": "Ich bin bis zum Ende durchgelaufen.",
+            "start": 6,
+            "answer": "抜いた",
+            "acceptedAnswers": [
+              "抜いた"
+            ],
+            "distractors": [
+              {
+                "text": "抜かなかった",
+                "reason": "Dies verneint das Durchhalten."
+              },
+              {
+                "text": "抜くた",
+                "reason": "Dies ist keine Vergangenheitsform."
+              },
+              {
+                "text": "ます抜いた",
+                "reason": "ます steht nicht zwischen den Verben."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "困難を乗り越え、やり抜いた。",
@@ -5472,11 +12225,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "ドアを開けっぱなしにしないで。",
+        "cloze": {
+          "start": 5,
+          "answer": "っぱなし",
+          "quiz": {
+            "level": "N3",
+            "japanese": "ドアを開けっぱなしにしないで。",
+            "german": "Lass die Tür nicht offen stehen.",
+            "start": 5,
+            "answer": "っぱなし",
+            "acceptedAnswers": [
+              "っぱなし"
+            ],
+            "distractors": [
+              {
+                "text": "っぱなしな",
+                "reason": "Vor にしないで passt kein zusätzliches な."
+              },
+              {
+                "text": "っぱなす",
+                "reason": "Dies ist hier kein Nomen für den unberichtigten Zustand."
+              },
+              {
+                "text": "っぱなしを",
+                "reason": "Die Konstruktion verlangt っぱなしにする."
+              }
+            ]
+          }
+        },
         "romaji": "Doa o akeppanashi ni shinaide.",
         "german": "Lass die Tür nicht offen stehen."
       },
       {
         "japanese": "テレビをつけっぱなしで寝た。",
+        "cloze": {
+          "start": 6,
+          "answer": "っぱなし"
+        },
         "romaji": "Terebi o tsukeppanashi de neta.",
         "german": "Ich schlief mit laufendem Fernseher ein."
       }
@@ -5497,11 +12282,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "諦めることなく努力し続けた。",
+        "cloze": {
+          "start": 3,
+          "answer": "ことなく",
+          "quiz": {
+            "level": "N3",
+            "japanese": "諦めることなく努力し続けた。",
+            "german": "Ohne aufzugeben, bemühte ich mich weiter.",
+            "start": 3,
+            "answer": "ことなく",
+            "acceptedAnswers": [
+              "ことなく"
+            ],
+            "distractors": [
+              {
+                "text": "ことをなく",
+                "reason": "Die adverbiale Wendung verwendet kein を."
+              },
+              {
+                "text": "なことなく",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ことなしを",
+                "reason": "を schließt hier keine Begleitumstandsangabe an."
+              }
+            ]
+          }
+        },
         "romaji": "Akirameru koto naku doryoku shi tsuzuketa.",
         "german": "Ohne aufzugeben, bemühte ich mich weiter."
       },
       {
         "japanese": "一度も休むことなく働いた。",
+        "cloze": {
+          "start": 5,
+          "answer": "ことなく"
+        },
         "romaji": "Ichido mo yasumu koto naku hataraita.",
         "german": "Ich arbeitete, ohne ein einziges Mal zu pausieren."
       }
@@ -5522,11 +12339,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "暑くてたまらない。",
+        "cloze": {
+          "start": 2,
+          "answer": "てたまらない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "暑くてたまらない。",
+            "german": "Es ist unerträglich heiß.",
+            "start": 2,
+            "answer": "てたまらない",
+            "acceptedAnswers": [
+              "てたまらない",
+              "てならない",
+              "てしかたがない"
+            ],
+            "distractors": [
+              {
+                "text": "たたまらない",
+                "reason": "Nach 暑く muss die て-Verbindung stehen."
+              },
+              {
+                "text": "てたまるない",
+                "reason": "Die Negativform lautet たまらない."
+              },
+              {
+                "text": "てたまらないだ",
+                "reason": "Nach der Negativform steht kein だ."
+              }
+            ]
+          }
+        },
         "romaji": "Atsukute tamaranai.",
         "german": "Es ist unerträglich heiß."
       },
       {
         "japanese": "会いたくてたまらない。",
+        "cloze": {
+          "start": 4,
+          "answer": "てたまらない"
+        },
         "romaji": "Aitakute tamaranai.",
         "german": "Ich will dich so sehr sehen, dass ich es kaum aushalte."
       }
@@ -5549,7 +12400,37 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "彼のことが心配でならない。",
         "romaji": "Kare no koto ga shinpai de naranai.",
-        "german": "Ich mache mir solche Sorgen um ihn."
+        "german": "Ich mache mir solche Sorgen um ihn.",
+        "cloze": {
+          "start": 7,
+          "answer": "でならない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "彼のことが心配でならない。",
+            "german": "Ich mache mir solche Sorgen um ihn.",
+            "start": 7,
+            "answer": "でならない",
+            "acceptedAnswers": [
+              "でならない",
+              "でたまらない",
+              "でしかたがない"
+            ],
+            "distractors": [
+              {
+                "text": "てならない",
+                "reason": "心配 ist nominal/adjektivisch und verbindet sich hier mit で."
+              },
+              {
+                "text": "でなるない",
+                "reason": "Die Negativform lautet ならない."
+              },
+              {
+                "text": "でならないだ",
+                "reason": "Nach der Negativform steht kein だ."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "残念でならない。",
@@ -5573,6 +12454,37 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "眠くてしかたがない。",
+        "cloze": {
+          "start": 2,
+          "answer": "てしかたがない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "眠くてしかたがない。",
+            "german": "Ich bin so müde, ich kann nichts dagegen tun.",
+            "start": 2,
+            "answer": "てしかたがない",
+            "acceptedAnswers": [
+              "てしかたがない",
+              "て仕方がない",
+              "てたまらない",
+              "てならない"
+            ],
+            "distractors": [
+              {
+                "text": "てしかたをない",
+                "reason": "ない verlangt hier が, nicht を."
+              },
+              {
+                "text": "たしかたがない",
+                "reason": "眠く verlangt die て-Verbindung."
+              },
+              {
+                "text": "てしかたがある",
+                "reason": "Dies ist nicht die feste Wendung für unwiderstehliche Müdigkeit."
+              }
+            ]
+          }
+        },
         "romaji": "Nemukute shikata ga nai.",
         "german": "Ich bin so müde, ich kann nichts dagegen tun."
       },
@@ -5599,11 +12511,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "明日は何曜日だっけ？",
+        "cloze": {
+          "start": 7,
+          "answer": "っけ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "明日は何曜日だっけ？",
+            "german": "Welcher Tag war morgen nochmal?",
+            "start": 7,
+            "answer": "っけ",
+            "acceptedAnswers": [
+              "っけ"
+            ],
+            "distractors": [
+              {
+                "text": "を",
+                "reason": "を bildet hier keine erinnernde Frage."
+              },
+              {
+                "text": "へ",
+                "reason": "へ bildet hier keine erinnernde Frage."
+              },
+              {
+                "text": "ます",
+                "reason": "だます ist keine Abschlussform."
+              }
+            ]
+          }
+        },
         "romaji": "Ashita wa nan'yōbi dakke?",
         "german": "Welcher Tag war morgen nochmal?"
       },
       {
         "japanese": "あの人の名前は何だっけ。",
+        "cloze": {
+          "start": 9,
+          "answer": "っけ"
+        },
         "romaji": "Ano hito no namae wa nan dakke.",
         "german": "Wie war nochmal der Name dieser Person?"
       }
@@ -5622,11 +12566,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本に来て初めて寿司を食べた。",
+        "cloze": {
+          "start": 4,
+          "answer": "て初めて",
+          "quiz": {
+            "level": "N3",
+            "japanese": "日本に来て初めて寿司を食べた。",
+            "german": "Erst als ich nach Japan kam, aß ich zum ersten Mal Sushi.",
+            "start": 4,
+            "answer": "て初めて",
+            "acceptedAnswers": [
+              "て初めて"
+            ],
+            "distractors": [
+              {
+                "text": "た初めて",
+                "reason": "来た初めて ist hier kein adverbialer Verbanschluss."
+              },
+              {
+                "text": "て初める",
+                "reason": "初める ist hier keine adverbiale Erstmaligkeitsangabe."
+              },
+              {
+                "text": "ます初めて",
+                "reason": "来ます初めて verbindet hier keine Satzteile."
+              }
+            ]
+          }
+        },
         "romaji": "Nihon ni kite hajimete sushi o tabeta.",
         "german": "Erst als ich nach Japan kam, aß ich zum ersten Mal Sushi."
       },
       {
         "japanese": "失って初めて大切さに気づいた。",
+        "cloze": {
+          "start": 2,
+          "answer": "て初めて"
+        },
         "romaji": "Ushinatte hajimete taisetsusa ni kizuita.",
         "german": "Erst als ich es verlor, erkannte ich seinen Wert."
       }
@@ -5645,11 +12621,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本に来て以来、毎日日本語を使っている。",
+        "cloze": {
+          "start": 4,
+          "answer": "て以来",
+          "quiz": {
+            "level": "N3",
+            "japanese": "日本に来て以来、毎日日本語を使っている。",
+            "german": "Seit ich nach Japan kam, benutze ich täglich Japanisch.",
+            "start": 4,
+            "answer": "て以来",
+            "acceptedAnswers": [
+              "て以来"
+            ],
+            "distractors": [
+              {
+                "text": "た以来",
+                "reason": "Die zeitliche Wendung verlangt 来て以来."
+              },
+              {
+                "text": "ます以来",
+                "reason": "以来 wird hier nicht an ます angeschlossen."
+              },
+              {
+                "text": "て以前",
+                "reason": "Dies bedeutet vor statt seit der Ankunft."
+              }
+            ]
+          }
+        },
         "romaji": "Nihon ni kite irai, mainichi nihongo o tsukatte iru.",
         "german": "Seit ich nach Japan kam, benutze ich täglich Japanisch."
       },
       {
         "japanese": "卒業して以来、彼に会っていない。",
+        "cloze": {
+          "start": 3,
+          "answer": "て以来"
+        },
         "romaji": "Sotsugyō shite irai, kare ni atte inai.",
         "german": "Seit dem Abschluss habe ich ihn nicht mehr gesehen."
       }
@@ -5670,18 +12678,51 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "悪いと思いつつ、つい食べてしまう。",
+        "cloze": {
+          "start": 5,
+          "answer": "つつ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "悪いと思いつつ、つい食べてしまう。",
+            "german": "Obwohl ich weiß, dass es schlecht ist, esse ich es doch.",
+            "start": 5,
+            "answer": "つつ",
+            "acceptedAnswers": [
+              "つつ",
+              "ながら"
+            ],
+            "distractors": [
+              {
+                "text": "たら",
+                "reason": "思いたら ist keine Verbform."
+              },
+              {
+                "text": "ても",
+                "reason": "思いても ist keine て-Form von 思う."
+              },
+              {
+                "text": "ないで",
+                "reason": "思いないで ist keine Negativform."
+              }
+            ]
+          }
+        },
         "romaji": "Warui to omoi tsutsu, tsui tabete shimau.",
         "german": "Obwohl ich weiß, dass es schlecht ist, esse ich es doch."
       },
       {
         "japanese": "景色を楽しみつつ散歩した。",
+        "cloze": {
+          "start": 6,
+          "answer": "つつ"
+        },
         "romaji": "Keshiki o tanoshimi tsutsu sanpo shita.",
         "german": "Ich spazierte und genoss dabei die Landschaft."
       }
     ],
     "notes": "～つつも = obwohl. ～つつある = im Prozess sein.",
     "related": [
-      "n4-nagara",
+      "nagara",
       "n3-tsutsu-aru"
     ]
   },
@@ -5696,11 +12737,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "状況は改善しつつある。",
+        "cloze": {
+          "start": 6,
+          "answer": "つつある",
+          "quiz": {
+            "level": "N3",
+            "japanese": "状況は改善しつつある。",
+            "german": "Die Situation verbessert sich gerade.",
+            "start": 6,
+            "answer": "つつある",
+            "acceptedAnswers": [
+              "つつある"
+            ],
+            "distractors": [
+              {
+                "text": "つつない",
+                "reason": "Die feste Verlaufsform lautet つつある."
+              },
+              {
+                "text": "つつあるだ",
+                "reason": "Nach ある steht kein だ."
+              },
+              {
+                "text": "るつつある",
+                "reason": "つつ schließt an 改善し an, nicht an 改善する."
+              }
+            ]
+          }
+        },
         "romaji": "Jōkyō wa kaizen shitsutsu aru.",
         "german": "Die Situation verbessert sich gerade."
       },
       {
         "japanese": "この文化は消えつつある。",
+        "cloze": {
+          "start": 7,
+          "answer": "つつある"
+        },
         "romaji": "Kono bunka wa kietsutsu aru.",
         "german": "Diese Kultur ist im Begriff zu verschwinden."
       }
@@ -5708,7 +12781,7 @@ window.GRAMMAR_DATA = [
     "notes": "Formell/schriftlich. Ähnlich: ～ている (Veränderungsprozess).",
     "related": [
       "n3-tsutsu",
-      "teiru"
+      "te-iru"
     ]
   },
   {
@@ -5722,11 +12795,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "彼女は悲しげな顔をしていた。",
+        "cloze": {
+          "start": 5,
+          "answer": "げ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "彼女は悲しげな顔をしていた。",
+            "german": "Sie hatte ein traurig aussehendes Gesicht.",
+            "start": 5,
+            "answer": "げ",
+            "acceptedAnswers": [
+              "げ",
+              "そう"
+            ],
+            "distractors": [
+              {
+                "text": "い",
+                "reason": "悲しいな顔 ist kein attributiver Anschluss."
+              },
+              {
+                "text": "く",
+                "reason": "悲しくな顔 ist kein attributiver Anschluss."
+              },
+              {
+                "text": "かった",
+                "reason": "悲しかったな顔 ist kein attributiver Anschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Kanojo wa kanashige na kao o shiteita.",
         "german": "Sie hatte ein traurig aussehendes Gesicht."
       },
       {
         "japanese": "子供たちは楽しげに遊んでいる。",
+        "cloze": {
+          "start": 7,
+          "answer": "げ"
+        },
         "romaji": "Kodomotachi wa tanoshige ni asondeiru.",
         "german": "Die Kinder spielen vergnügt."
       }
@@ -5747,11 +12853,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "最近太り気味だ。",
+        "cloze": {
+          "start": 4,
+          "answer": "気味",
+          "quiz": {
+            "level": "N3",
+            "japanese": "最近太り気味だ。",
+            "german": "In letzter Zeit nehme ich etwas zu.",
+            "start": 4,
+            "answer": "気味",
+            "acceptedAnswers": [
+              "気味"
+            ],
+            "distractors": [
+              {
+                "text": "気味な",
+                "reason": "Vor だ steht kein zusätzliches な."
+              },
+              {
+                "text": "気味に",
+                "reason": "Eine adverbiale Endung passt nicht unmittelbar vor だ."
+              },
+              {
+                "text": "気味を",
+                "reason": "を bildet hier keinen Kopulaanschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Saikin futori gimi da.",
         "german": "In letzter Zeit nehme ich etwas zu."
       },
       {
         "japanese": "風邪気味で体がだるい。",
+        "cloze": {
+          "start": 2,
+          "answer": "気味"
+        },
         "romaji": "Kaze gimi de karada ga darui.",
         "german": "Ich habe eine leichte Erkältung und fühle mich schlapp."
       }
@@ -5772,11 +12910,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "部屋がゴミだらけだ。",
+        "cloze": {
+          "start": 5,
+          "answer": "だらけ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "部屋がゴミだらけだ。",
+            "german": "Das Zimmer ist voller Müll.",
+            "start": 5,
+            "answer": "だらけ",
+            "acceptedAnswers": [
+              "だらけ"
+            ],
+            "distractors": [
+              {
+                "text": "だらけな",
+                "reason": "Vor だ steht kein zusätzliches な."
+              },
+              {
+                "text": "だらけに",
+                "reason": "に bildet hier keinen prädikativen Abschluss."
+              },
+              {
+                "text": "だらけを",
+                "reason": "を bildet hier keinen Kopulaanschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Heya ga gomi darake da.",
         "german": "Das Zimmer ist voller Müll."
       },
       {
         "japanese": "この作文は間違いだらけだ。",
+        "cloze": {
+          "start": 8,
+          "answer": "だらけ"
+        },
         "romaji": "Kono sakubun wa machigai darake da.",
         "german": "Dieser Aufsatz ist voller Fehler."
       }
@@ -5795,11 +12965,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "三年ぶりに日本に行った。",
+        "cloze": {
+          "start": 2,
+          "answer": "ぶり",
+          "quiz": {
+            "level": "N3",
+            "japanese": "三年ぶりに日本に行った。",
+            "german": "Ich bin zum ersten Mal seit drei Jahren nach Japan gefahren.",
+            "start": 2,
+            "answer": "ぶり",
+            "acceptedAnswers": [
+              "ぶり"
+            ],
+            "distractors": [
+              {
+                "text": "前",
+                "reason": "Dies bedeutet vor drei Jahren statt nach drei Jahren wieder."
+              },
+              {
+                "text": "後",
+                "reason": "Dies bedeutet nach drei Jahren, ohne die Wiederaufnahme zu bezeichnen."
+              },
+              {
+                "text": "ずつ",
+                "reason": "Dies verteilt Dreijahresmengen statt den Abstand zur Wiederholung zu nennen."
+              }
+            ]
+          }
+        },
         "romaji": "Sannen buri ni Nihon ni itta.",
         "german": "Ich bin zum ersten Mal seit drei Jahren nach Japan gefahren."
       },
       {
         "japanese": "彼の仕事ぶりは素晴らしい。",
+        "cloze": {
+          "start": 4,
+          "answer": "ぶり"
+        },
         "romaji": "Kare no shigoto-buri wa subarashii.",
         "german": "Seine Art zu arbeiten ist wunderbar."
       }
@@ -5818,16 +13020,52 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本的な考え方だ。",
+        "cloze": {
+          "start": 2,
+          "answer": "的",
+          "quiz": {
+            "level": "N3",
+            "japanese": "日本的な考え方だ。",
+            "german": "Das ist eine japanische Denkweise.",
+            "start": 2,
+            "answer": "的",
+            "acceptedAnswers": [
+              "的"
+            ],
+            "distractors": [
+              {
+                "text": "的に",
+                "reason": "Vor な考え方 darf nicht zusätzlich に stehen."
+              },
+              {
+                "text": "的の",
+                "reason": "Die attributive Verbindung verwendet な."
+              },
+              {
+                "text": "的だ",
+                "reason": "だ steht hier nicht vor な考え方."
+              }
+            ]
+          }
+        },
         "romaji": "Nihon-teki na kangaekata da.",
         "german": "Das ist eine japanische Denkweise."
       },
       {
         "japanese": "具体的に説明してください。",
+        "cloze": {
+          "start": 2,
+          "answer": "的"
+        },
         "romaji": "Gutai-teki ni setsumei shite kudasai.",
         "german": "Bitte erklären Sie es konkret."
       },
       {
         "japanese": "積極的に参加する。",
+        "cloze": {
+          "start": 2,
+          "answer": "的"
+        },
         "romaji": "Sekkyoku-teki ni sanka suru.",
         "german": "Aktiv teilnehmen."
       }
@@ -5846,11 +13084,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "泣きたいくらい悔しい。",
+        "cloze": {
+          "start": 4,
+          "answer": "くらい",
+          "quiz": {
+            "level": "N3",
+            "japanese": "泣きたいくらい悔しい。",
+            "german": "So frustriert, dass ich weinen könnte.",
+            "start": 4,
+            "answer": "くらい",
+            "acceptedAnswers": [
+              "くらい",
+              "ぐらい",
+              "ほど"
+            ],
+            "distractors": [
+              {
+                "text": "ながら",
+                "reason": "ながら schließt nicht an たい an."
+              },
+              {
+                "text": "から",
+                "reason": "Dies macht den Wunsch zu weinen zum Grund statt zum Grad der Frustration."
+              },
+              {
+                "text": "すぎて",
+                "reason": "泣きたいすぎて ist kein korrekter Anschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Nakitai kurai kuyashii.",
         "german": "So frustriert, dass ich weinen könnte."
       },
       {
         "japanese": "三十分くらい待った。",
+        "cloze": {
+          "start": 3,
+          "answer": "くらい"
+        },
         "romaji": "Sanjuppun kurai matta.",
         "german": "Ich habe ungefähr dreißig Minuten gewartet."
       }
@@ -5872,7 +13144,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "この店は値段の割においしい。",
         "romaji": "Kono mise wa nedan no wari ni oishii.",
-        "german": "Für den Preis ist dieses Restaurant gut."
+        "german": "Für den Preis ist dieses Restaurant gut.",
+        "cloze": {
+          "start": 7,
+          "answer": "割に",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この店は値段の割においしい。",
+            "german": "Für den Preis ist dieses Restaurant gut.",
+            "start": 7,
+            "answer": "割に",
+            "acceptedAnswers": [
+              "割に"
+            ],
+            "distractors": [
+              {
+                "text": "割の",
+                "reason": "Die adverbiale Bewertung braucht に."
+              },
+              {
+                "text": "ためな",
+                "reason": "Dies ist keine adverbiale Preisbewertung."
+              },
+              {
+                "text": "前に",
+                "reason": "Dies bezeichnet hier keinen Preis-Leistungs-Vergleich."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "勉強した割に成績が悪い。",
@@ -5896,11 +13196,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "初心者にしては上手ですね。",
+        "cloze": {
+          "start": 3,
+          "answer": "にしては",
+          "quiz": {
+            "level": "N3",
+            "japanese": "初心者にしては上手ですね。",
+            "german": "Für einen Anfänger sind Sie gut.",
+            "start": 3,
+            "answer": "にしては",
+            "acceptedAnswers": [
+              "にしては"
+            ],
+            "distractors": [
+              {
+                "text": "としての",
+                "reason": "の braucht ein Bezugsnomen statt 上手ですね."
+              },
+              {
+                "text": "によると",
+                "reason": "Dies macht Anfänger zur Informationsquelle statt zum Vergleichsmaßstab."
+              },
+              {
+                "text": "を問わず",
+                "reason": "Dies bedeutet unabhängig vom Anfängerstatus, nicht erstaunlich gut dafür."
+              }
+            ]
+          }
+        },
         "romaji": "Shoshinsha ni shite wa jōzu desu ne.",
         "german": "Für einen Anfänger sind Sie gut."
       },
       {
         "japanese": "日本人にしては背が高い。",
+        "cloze": {
+          "start": 3,
+          "answer": "にしては"
+        },
         "romaji": "Nihonjin ni shite wa se ga takai.",
         "german": "Für einen Japaner ist er groß."
       }
@@ -5922,7 +13254,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "この話は嘘っぽい。",
         "romaji": "Kono hanashi wa usoppoi.",
-        "german": "Diese Geschichte klingt nach Lüge."
+        "german": "Diese Geschichte klingt nach Lüge.",
+        "cloze": {
+          "start": 5,
+          "answer": "っぽい",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この話は嘘っぽい。",
+            "german": "Diese Geschichte klingt nach Lüge.",
+            "start": 5,
+            "answer": "っぽい",
+            "acceptedAnswers": [
+              "っぽい"
+            ],
+            "distractors": [
+              {
+                "text": "っぽいだ",
+                "reason": "Ein い-Adjektiv erhält kein だ."
+              },
+              {
+                "text": "っぽくでした",
+                "reason": "Dies ist keine Adjektivform."
+              },
+              {
+                "text": "っぽくます",
+                "reason": "Ein Adjektiv nimmt kein ます."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "大人っぽい服装だ。",
@@ -5946,11 +13306,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "上司に言いづらいことがある。",
+        "cloze": {
+          "start": 5,
+          "answer": "づらい",
+          "quiz": {
+            "level": "N3",
+            "japanese": "上司に言いづらいことがある。",
+            "german": "Es gibt Dinge, die schwer dem Chef zu sagen sind.",
+            "start": 5,
+            "answer": "づらい",
+            "acceptedAnswers": [
+              "づらい",
+              "にくい",
+              "がたい"
+            ],
+            "distractors": [
+              {
+                "text": "づらいな",
+                "reason": "Ein い-Adjektiv bestimmt こと ohne な."
+              },
+              {
+                "text": "づらく",
+                "reason": "Die adverbiale Form bestimmt hier nicht こと."
+              },
+              {
+                "text": "づらいの",
+                "reason": "Das Adjektiv bestimmt こと ohne の."
+              }
+            ]
+          }
+        },
         "romaji": "Jōshi ni iidzurai koto ga aru.",
         "german": "Es gibt Dinge, die schwer dem Chef zu sagen sind."
       },
       {
         "japanese": "この靴は歩きづらい。",
+        "cloze": {
+          "start": 6,
+          "answer": "づらい"
+        },
         "romaji": "Kono kutsu wa arukidzurai.",
         "german": "Diese Schuhe sind schwer zu laufen."
       }
@@ -5972,11 +13366,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "年上の人を尊敬するものだ。",
+        "cloze": {
+          "start": 9,
+          "answer": "ものだ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "年上の人を尊敬するものだ。",
+            "german": "Man sollte ältere Menschen respektieren.",
+            "start": 9,
+            "answer": "ものだ",
+            "acceptedAnswers": [
+              "ものだ",
+              "べきだ"
+            ],
+            "distractors": [
+              {
+                "text": "なものだ",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ものをだ",
+                "reason": "を steht nicht vor dieser Kopula."
+              },
+              {
+                "text": "ものな",
+                "reason": "Die attributive Form schließt den Satz nicht ab."
+              }
+            ]
+          }
+        },
         "romaji": "Toshiue no hito o sonkei suru mono da.",
         "german": "Man sollte ältere Menschen respektieren."
       },
       {
         "japanese": "子供の頃よくここで遊んだものだ。",
+        "cloze": {
+          "start": 12,
+          "answer": "ものだ"
+        },
         "romaji": "Kodomo no koro yoku koko de asonda mono da.",
         "german": "Als Kind spielte ich oft hier."
       }
@@ -5998,18 +13425,53 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "買ったものの、一度も使っていない。",
+        "cloze": {
+          "start": 3,
+          "answer": "ものの",
+          "quiz": {
+            "level": "N3",
+            "japanese": "買ったものの、一度も使っていない。",
+            "german": "Zwar gekauft, aber noch nie benutzt.",
+            "start": 3,
+            "answer": "ものの",
+            "acceptedAnswers": [
+              "ものの",
+              "のに",
+              "けれど",
+              "が"
+            ],
+            "distractors": [
+              {
+                "text": "ものだから",
+                "reason": "Dies macht den Kauf zur Ursache statt zum Gegensatz."
+              },
+              {
+                "text": "なものの",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ものにの",
+                "reason": "Dies ist keine konzessive Verbindung."
+              }
+            ]
+          }
+        },
         "romaji": "Katta mono no, ichido mo tsukatte inai.",
         "german": "Zwar gekauft, aber noch nie benutzt."
       },
       {
         "japanese": "日本語は勉強しているものの、まだ上手に話せない。",
+        "cloze": {
+          "start": 10,
+          "answer": "ものの"
+        },
         "romaji": "Nihongo wa benkyō shiteiru mono no, mada jōzu ni hanasenai.",
         "german": "Obwohl ich Japanisch lerne, kann ich noch nicht gut sprechen."
       }
     ],
     "notes": "Formeller als ～けど/～のに.",
     "related": [
-      "n4-noni",
+      "noni",
       "n3-mono-da"
     ]
   },
@@ -6024,18 +13486,52 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "急いでいたものだから、忘れ物をした。",
+        "cloze": {
+          "start": 5,
+          "answer": "ものだから",
+          "quiz": {
+            "level": "N3",
+            "japanese": "急いでいたものだから、忘れ物をした。",
+            "german": "Weil ich es eilig hatte, habe ich etwas vergessen.",
+            "start": 5,
+            "answer": "ものだから",
+            "acceptedAnswers": [
+              "ものだから",
+              "ので",
+              "から"
+            ],
+            "distractors": [
+              {
+                "text": "ものの",
+                "reason": "Dies bezeichnet einen Gegensatz statt einen Grund."
+              },
+              {
+                "text": "なものだから",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ものだからの",
+                "reason": "の kann hier den Folgesatz nicht anschließen."
+              }
+            ]
+          }
+        },
         "romaji": "Isoide ita mono dakara, wasuremono o shita.",
         "german": "Weil ich es eilig hatte, habe ich etwas vergessen."
       },
       {
         "japanese": "初めてだったもんだから、失敗してしまった。",
+        "cloze": {
+          "start": 6,
+          "answer": "もんだから"
+        },
         "romaji": "Hajimete datta mon dakara, shippai shite shimatta.",
         "german": "Weil es mein erstes Mal war, habe ich versagt."
       }
     ],
     "notes": "もんだから = informell. ものですから = höflich.",
     "related": [
-      "n4-node",
+      "node",
       "n3-mono-da"
     ]
   },
@@ -6050,11 +13546,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "嫌いなわけではないが、あまり食べない。",
+        "cloze": {
+          "start": 3,
+          "answer": "わけではない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "嫌いなわけではないが、あまり食べない。",
+            "german": "Es ist nicht so, dass ich es nicht mag, aber ich esse es selten.",
+            "start": 3,
+            "answer": "わけではない",
+            "acceptedAnswers": [
+              "わけではない",
+              "わけじゃない"
+            ],
+            "distractors": [
+              {
+                "text": "わけだ",
+                "reason": "Dies bejaht die Abneigung statt die Folgerung zurückzuweisen."
+              },
+              {
+                "text": "わけをない",
+                "reason": "Die Verneinung lautet わけではない."
+              },
+              {
+                "text": "わけではある",
+                "reason": "Dies räumt Abneigung ein statt sie zu verneinen."
+              }
+            ]
+          }
+        },
         "romaji": "Kirai na wake dewa nai ga, amari tabenai.",
         "german": "Es ist nicht so, dass ich es nicht mag, aber ich esse es selten."
       },
       {
         "japanese": "全員が賛成しているわけではない。",
+        "cloze": {
+          "start": 9,
+          "answer": "わけではない"
+        },
         "romaji": "Zen'in ga sansei shiteiru wake dewa nai.",
         "german": "Es ist nicht so, dass alle zustimmen."
       }
@@ -6076,11 +13605,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "彼は知っているに違いない。",
+        "cloze": {
+          "start": 7,
+          "answer": "に違いない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "彼は知っているに違いない。",
+            "german": "Er muss es wissen.",
+            "start": 7,
+            "answer": "に違いない",
+            "acceptedAnswers": [
+              "に違いない",
+              "はずだ"
+            ],
+            "distractors": [
+              {
+                "text": "を違いない",
+                "reason": "Die feste Gewissheitsform verlangt に."
+              },
+              {
+                "text": "に違うない",
+                "reason": "Die Negativform lautet 違いない."
+              },
+              {
+                "text": "なに違いない",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa shitteiru ni chigainai.",
         "german": "Er muss es wissen."
       },
       {
         "japanese": "あの音は猫に違いない。",
+        "cloze": {
+          "start": 5,
+          "answer": "に違いない"
+        },
         "romaji": "Ano oto wa neko ni chigainai.",
         "german": "Das Geräusch muss von einer Katze sein."
       }
@@ -6102,11 +13664,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "そんなことをしたら怒られるに決まっている。",
+        "cloze": {
+          "start": 13,
+          "answer": "に決まっている",
+          "quiz": {
+            "level": "N3",
+            "japanese": "そんなことをしたら怒られるに決まっている。",
+            "german": "Wenn man so etwas tut, wird man natürlich ausgeschimpft.",
+            "start": 13,
+            "answer": "に決まっている",
+            "acceptedAnswers": [
+              "に決まっている",
+              "に違いない"
+            ],
+            "distractors": [
+              {
+                "text": "を決まっている",
+                "reason": "Die feste Gewissheitsform verlangt に."
+              },
+              {
+                "text": "に決まるている",
+                "reason": "決まる bildet die て-Form 決まって."
+              },
+              {
+                "text": "なに決まっている",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              }
+            ]
+          }
+        },
         "romaji": "Sonna koto o shitara okorareru ni kimatte iru.",
         "german": "Wenn man so etwas tut, wird man natürlich ausgeschimpft."
       },
       {
         "japanese": "あの店はおいしいに決まっている。",
+        "cloze": {
+          "start": 8,
+          "answer": "に決まっている"
+        },
         "romaji": "Ano mise wa oishii ni kimatte iru.",
         "german": "Das Restaurant ist bestimmt gut."
       }
@@ -6127,6 +13722,34 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "台風が近づくおそれがある。",
+        "cloze": {
+          "start": 6,
+          "answer": "おそれがある",
+          "quiz": {
+            "level": "N3",
+            "japanese": "台風が近づくおそれがある。",
+            "german": "Es besteht die Gefahr, dass sich ein Taifun nähert.",
+            "start": 6,
+            "answer": "おそれがある",
+            "acceptedAnswers": [
+              "おそれがある"
+            ],
+            "distractors": [
+              {
+                "text": "おそれをある",
+                "reason": "ある nimmt hier kein direktes Objekt."
+              },
+              {
+                "text": "なおそれがある",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "おそれがない",
+                "reason": "Dies verneint die Gefahr."
+              }
+            ]
+          }
+        },
         "romaji": "Taifū ga chikazuku osore ga aru.",
         "german": "Es besteht die Gefahr, dass sich ein Taifun nähert."
       },
@@ -6152,6 +13775,35 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "それは噂に過ぎない。",
+        "cloze": {
+          "start": 4,
+          "answer": "に過ぎない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "それは噂に過ぎない。",
+            "german": "Das ist nichts weiter als ein Gerücht.",
+            "start": 4,
+            "answer": "に過ぎない",
+            "acceptedAnswers": [
+              "に過ぎない",
+              "でしかない"
+            ],
+            "distractors": [
+              {
+                "text": "を過ぎない",
+                "reason": "を過ぎない bezeichnet hier keine Einschränkung auf ein Gerücht."
+              },
+              {
+                "text": "に過ぎるない",
+                "reason": "Dies ist keine Negativform."
+              },
+              {
+                "text": "に過ぎないだ",
+                "reason": "Nach der Negativform steht kein だ."
+              }
+            ]
+          }
+        },
         "romaji": "Sore wa uwasa ni suginai.",
         "german": "Das ist nichts weiter als ein Gerücht."
       },
@@ -6163,8 +13815,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Bescheiden oder herabsetzend.",
     "related": [
-      "n4-dake",
-      "n4-shika-nai"
+      "dake",
+      "shika-nai"
     ]
   },
   {
@@ -6178,11 +13830,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "連絡先が分からなくて連絡しようがない。",
+        "cloze": {
+          "start": 13,
+          "answer": "ようがない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "連絡先が分からなくて連絡しようがない。",
+            "german": "Ich kenne die Kontaktdaten nicht, ich kann unmöglich Kontakt aufnehmen.",
+            "start": 13,
+            "answer": "ようがない",
+            "acceptedAnswers": [
+              "ようがない"
+            ],
+            "distractors": [
+              {
+                "text": "ようをない",
+                "reason": "Die Wendung verlangt が."
+              },
+              {
+                "text": "ようがある",
+                "reason": "Dies bejaht eine Kontaktmöglichkeit."
+              },
+              {
+                "text": "るようがない",
+                "reason": "ようがない folgt dem Stamm し."
+              }
+            ]
+          }
+        },
         "romaji": "Renrakusaki ga wakaranakute renraku shiyō ga nai.",
         "german": "Ich kenne die Kontaktdaten nicht, ich kann unmöglich Kontakt aufnehmen."
       },
       {
         "japanese": "どうしようもない状況だ。",
+        "cloze": {
+          "start": 3,
+          "answer": "ようもない"
+        },
         "romaji": "Dō shiyō mo nai jōkyō da.",
         "german": "Eine hoffnungslose Situation."
       }
@@ -6203,6 +13887,36 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "自分でやるほかない。",
+        "cloze": {
+          "start": 5,
+          "answer": "ほかない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "自分でやるほかない。",
+            "german": "Es bleibt nichts anderes übrig, als es selbst zu tun.",
+            "start": 5,
+            "answer": "ほかない",
+            "acceptedAnswers": [
+              "ほかない",
+              "しかない",
+              "よりほかない"
+            ],
+            "distractors": [
+              {
+                "text": "なほかない",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ほかをない",
+                "reason": "Dies ist keine Ausschließlichkeitskonstruktion."
+              },
+              {
+                "text": "ほかないだ",
+                "reason": "Nach ない steht kein だ."
+              }
+            ]
+          }
+        },
         "romaji": "Jibun de yaru hoka nai.",
         "german": "Es bleibt nichts anderes übrig, als es selbst zu tun."
       },
@@ -6215,7 +13929,7 @@ window.GRAMMAR_DATA = [
     "notes": "Ähnlich: ～しかない, ～ざるを得ない.",
     "related": [
       "n3-zaruwoenai",
-      "n4-shika-nai"
+      "shika-nai"
     ]
   },
   {
@@ -6229,11 +13943,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "彼とは一度会ったきり連絡がない。",
+        "cloze": {
+          "start": 8,
+          "answer": "きり",
+          "quiz": {
+            "level": "N3",
+            "japanese": "彼とは一度会ったきり連絡がない。",
+            "german": "Seit ich ihn einmal traf, gibt es keinen Kontakt mehr.",
+            "start": 8,
+            "answer": "きり",
+            "acceptedAnswers": [
+              "きり"
+            ],
+            "distractors": [
+              {
+                "text": "ながら",
+                "reason": "ながら folgt nicht der た-Form."
+              },
+              {
+                "text": "てから",
+                "reason": "会ったてから ist kein Verbanschluss."
+              },
+              {
+                "text": "なきり",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              }
+            ]
+          }
+        },
         "romaji": "Kare to wa ichido atta kiri renraku ga nai.",
         "german": "Seit ich ihn einmal traf, gibt es keinen Kontakt mehr."
       },
       {
         "japanese": "二人きりで話したい。",
+        "cloze": {
+          "start": 2,
+          "answer": "きり"
+        },
         "romaji": "Futari kiri de hanashitai.",
         "german": "Ich möchte zu zweit (allein) reden."
       }
@@ -6254,18 +14000,51 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "知っているくせに教えてくれない。",
+        "cloze": {
+          "start": 5,
+          "answer": "くせに",
+          "quiz": {
+            "level": "N3",
+            "japanese": "知っているくせに教えてくれない。",
+            "german": "Obwohl er es weiß, sagt er es mir nicht.",
+            "start": 5,
+            "answer": "くせに",
+            "acceptedAnswers": [
+              "くせに",
+              "のに"
+            ],
+            "distractors": [
+              {
+                "text": "なくせに",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "くせを",
+                "reason": "を verbindet hier keine gegensätzlichen Aussagen."
+              },
+              {
+                "text": "くせにの",
+                "reason": "の kann hier den Folgesatz nicht anschließen."
+              }
+            ]
+          }
+        },
         "romaji": "Shitteiru kuse ni oshiete kurenai.",
         "german": "Obwohl er es weiß, sagt er es mir nicht."
       },
       {
         "japanese": "子供のくせに生意気だ。",
+        "cloze": {
+          "start": 3,
+          "answer": "くせに"
+        },
         "romaji": "Kodomo no kuse ni namaiki da.",
         "german": "Obwohl er ein Kind ist, ist er frech."
       }
     ],
     "notes": "Stärker und negativer als ～のに. Drückt Ärger aus.",
     "related": [
-      "n4-noni"
+      "noni"
     ]
   },
   {
@@ -6280,7 +14059,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "ドアを開けたとたん、猫が飛び出した。",
         "romaji": "Doa o aketa totan, neko ga tobidashita.",
-        "german": "Kaum hatte ich die Tür geöffnet, sprang die Katze heraus."
+        "german": "Kaum hatte ich die Tür geöffnet, sprang die Katze heraus.",
+        "cloze": {
+          "start": 5,
+          "answer": "たとたん",
+          "quiz": {
+            "level": "N3",
+            "japanese": "ドアを開けたとたん、猫が飛び出した。",
+            "german": "Kaum hatte ich die Tür geöffnet, sprang die Katze heraus.",
+            "start": 5,
+            "answer": "たとたん",
+            "acceptedAnswers": [
+              "たとたん"
+            ],
+            "distractors": [
+              {
+                "text": "るとたん",
+                "reason": "Nach 開け entsteht so 開けるとたん; das plötzliche Folgeereignis verlangt die た-Form."
+              },
+              {
+                "text": "たとたんな",
+                "reason": "な ist hier kein Satzanschluss."
+              },
+              {
+                "text": "ますとたん",
+                "reason": "Die Wendung folgt nicht der ます-Form."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "横になったとたんに寝てしまった。",
@@ -6290,7 +14097,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Immer unerwartet/überraschend. Ähnlich: ～た瞬間.",
     "related": [
-      "n4-tara"
+      "tara"
     ]
   },
   {
@@ -6304,11 +14111,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "会議の最中に電話が鳴った。",
+        "cloze": {
+          "start": 3,
+          "answer": "最中に",
+          "quiz": {
+            "level": "N3",
+            "japanese": "会議の最中に電話が鳴った。",
+            "german": "Mitten in der Konferenz klingelte das Telefon.",
+            "start": 3,
+            "answer": "最中に",
+            "acceptedAnswers": [
+              "最中に"
+            ],
+            "distractors": [
+              {
+                "text": "前に",
+                "reason": "Dies bedeutet vor der Konferenz."
+              },
+              {
+                "text": "後に",
+                "reason": "Dies bedeutet nach der Konferenz."
+              },
+              {
+                "text": "最中な",
+                "reason": "Die adverbiale Zeitangabe verlangt に."
+              }
+            ]
+          }
+        },
         "romaji": "Kaigi no saichū ni denwa ga natta.",
         "german": "Mitten in der Konferenz klingelte das Telefon."
       },
       {
         "japanese": "食べている最中に来客があった。",
+        "cloze": {
+          "start": 5,
+          "answer": "最中に"
+        },
         "romaji": "Tabeteiru saichū ni raikyaku ga atta.",
         "german": "Mitten beim Essen kam Besuch."
       }
@@ -6331,7 +14170,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "お帰りの際はお忘れ物のないようご注意ください。",
         "romaji": "Okaeri no sai wa owasuremono no nai yō go-chūi kudasai.",
-        "german": "Achten Sie beim Verlassen bitte darauf, nichts zu vergessen."
+        "german": "Achten Sie beim Verlassen bitte darauf, nichts zu vergessen.",
+        "cloze": {
+          "start": 4,
+          "answer": "際",
+          "quiz": {
+            "level": "N3",
+            "japanese": "お帰りの際はお忘れ物のないようご注意ください。",
+            "german": "Achten Sie beim Verlassen bitte darauf, nichts zu vergessen.",
+            "start": 4,
+            "answer": "際",
+            "acceptedAnswers": [
+              "際",
+              "時"
+            ],
+            "distractors": [
+              {
+                "text": "際な",
+                "reason": "Vor は wird hier kein な eingefügt."
+              },
+              {
+                "text": "際を",
+                "reason": "を passt nicht vor die thematische Zeitangabe は."
+              },
+              {
+                "text": "際だ",
+                "reason": "Die Kopula passt nicht vor は."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "申し込みの際に身分証明書が必要です。",
@@ -6355,11 +14223,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "よく考えた上で決めてください。",
+        "cloze": {
+          "start": 5,
+          "answer": "上で",
+          "quiz": {
+            "level": "N3",
+            "japanese": "よく考えた上で決めてください。",
+            "german": "Bitte entscheiden Sie, nachdem Sie gut darüber nachgedacht haben.",
+            "start": 5,
+            "answer": "上で",
+            "acceptedAnswers": [
+              "上で"
+            ],
+            "distractors": [
+              {
+                "text": "上を",
+                "reason": "Die anschließende Entscheidung verlangt hier 上で."
+              },
+              {
+                "text": "前に",
+                "reason": "前に verlangt die Wörterbuchform und bedeutet vorher."
+              },
+              {
+                "text": "ながら",
+                "reason": "ながら folgt nicht der た-Form."
+              }
+            ]
+          }
+        },
         "romaji": "Yoku kangaeta ue de kimete kudasai.",
         "german": "Bitte entscheiden Sie, nachdem Sie gut darüber nachgedacht haben."
       },
       {
         "japanese": "仕事の上で大切なことだ。",
+        "cloze": {
+          "start": 3,
+          "answer": "上で"
+        },
         "romaji": "Shigoto no ue de taisetsu na koto da.",
         "german": "Das ist in Bezug auf die Arbeit wichtig."
       }
@@ -6380,11 +14280,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "若いうちにいろいろ経験したい。",
+        "cloze": {
+          "start": 2,
+          "answer": "うちに",
+          "quiz": {
+            "level": "N3",
+            "japanese": "若いうちにいろいろ経験したい。",
+            "german": "Solange ich jung bin, möchte ich viel erleben.",
+            "start": 2,
+            "answer": "うちに",
+            "acceptedAnswers": [
+              "うちに"
+            ],
+            "distractors": [
+              {
+                "text": "なうちに",
+                "reason": "Ein い-Adjektiv erhält hier kein な."
+              },
+              {
+                "text": "うちの",
+                "reason": "の würde ein Nomen statt des Folgesatzes bestimmen."
+              },
+              {
+                "text": "うちを",
+                "reason": "を bildet hier keine Zeitangabe."
+              }
+            ]
+          }
+        },
         "romaji": "Wakai uchi ni iroiro keiken shitai.",
         "german": "Solange ich jung bin, möchte ich viel erleben."
       },
       {
         "japanese": "忘れないうちにメモしておこう。",
+        "cloze": {
+          "start": 4,
+          "answer": "うちに"
+        },
         "romaji": "Wasurenai uchi ni memo shite okō.",
         "german": "Ich notiere es, bevor ich es vergesse."
       }
@@ -6405,11 +14337,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本に行くたびにお土産を買う。",
+        "cloze": {
+          "start": 5,
+          "answer": "たびに",
+          "quiz": {
+            "level": "N3",
+            "japanese": "日本に行くたびにお土産を買う。",
+            "german": "Jedes Mal wenn ich nach Japan fahre, kaufe ich Souvenirs.",
+            "start": 5,
+            "answer": "たびに",
+            "acceptedAnswers": [
+              "たびに"
+            ],
+            "distractors": [
+              {
+                "text": "たびな",
+                "reason": "Die wiederholte Zeitangabe verlangt に."
+              },
+              {
+                "text": "なたびに",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "たびを",
+                "reason": "を bildet hier keine wiederholte Zeitangabe."
+              }
+            ]
+          }
+        },
         "romaji": "Nihon ni iku tabi ni omiyage o kau.",
         "german": "Jedes Mal wenn ich nach Japan fahre, kaufe ich Souvenirs."
       },
       {
         "japanese": "この曲を聞くたびに学生時代を思い出す。",
+        "cloze": {
+          "start": 6,
+          "answer": "たびに"
+        },
         "romaji": "Kono kyoku o kiku tabi ni gakusei jidai o omoidasu.",
         "german": "Jedes Mal wenn ich dieses Lied höre, denke ich an meine Studienzeit."
       }
@@ -6431,7 +14395,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "説明書のとおりに組み立ててください。",
         "romaji": "Setsumeisho no tōri ni kumitatete kudasai.",
-        "german": "Bauen Sie es gemäß der Anleitung zusammen."
+        "german": "Bauen Sie es gemäß der Anleitung zusammen.",
+        "cloze": {
+          "start": 4,
+          "answer": "とおりに",
+          "quiz": {
+            "level": "N3",
+            "japanese": "説明書のとおりに組み立ててください。",
+            "german": "Bauen Sie es gemäß der Anleitung zusammen.",
+            "start": 4,
+            "answer": "とおりに",
+            "acceptedAnswers": [
+              "とおりに"
+            ],
+            "distractors": [
+              {
+                "text": "とおりな",
+                "reason": "Die adverbiale Entsprechung verlangt に."
+              },
+              {
+                "text": "とおりを",
+                "reason": "を bildet hier keine Art-und-Weise-Angabe."
+              },
+              {
+                "text": "とおりの",
+                "reason": "の braucht ein Bezugsnomen statt 組み立てて."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "思ったとおりだった。",
@@ -6453,11 +14445,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "旅行どころか、休みも取れない。",
+        "cloze": {
+          "start": 2,
+          "answer": "どころか",
+          "quiz": {
+            "level": "N3",
+            "japanese": "旅行どころか、休みも取れない。",
+            "german": "Von Reise ganz zu schweigen, ich kann nicht mal frei nehmen.",
+            "start": 2,
+            "answer": "どころか",
+            "acceptedAnswers": [
+              "どころか"
+            ],
+            "distractors": [
+              {
+                "text": "どころを",
+                "reason": "Dies ist keine steigernde Gegenüberstellung."
+              },
+              {
+                "text": "どころにの",
+                "reason": "Dies ist keine steigernde Gegenüberstellung."
+              },
+              {
+                "text": "どころな",
+                "reason": "Dies schließt den Folgesatz nicht an."
+              }
+            ]
+          }
+        },
         "romaji": "Ryokō dokoro ka, yasumi mo torenai.",
         "german": "Von Reise ganz zu schweigen, ich kann nicht mal frei nehmen."
       },
       {
         "japanese": "減るどころか、増えている。",
+        "cloze": {
+          "start": 2,
+          "answer": "どころか"
+        },
         "romaji": "Heru dokoro ka, fueteiru.",
         "german": "Weit davon entfernt abzunehmen, nimmt es sogar zu."
       }
@@ -6478,6 +14502,35 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "忙しくて旅行どころではない。",
+        "cloze": {
+          "start": 6,
+          "answer": "どころではない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "忙しくて旅行どころではない。",
+            "german": "Ich bin so beschäftigt, dass an Reise nicht zu denken ist.",
+            "start": 6,
+            "answer": "どころではない",
+            "acceptedAnswers": [
+              "どころではない",
+              "どころじゃない"
+            ],
+            "distractors": [
+              {
+                "text": "どころではある",
+                "reason": "Dies bejaht den Raum für eine Reise."
+              },
+              {
+                "text": "どころをない",
+                "reason": "Die feste Wendung verwendet では."
+              },
+              {
+                "text": "どころではないだ",
+                "reason": "Nach ない steht kein だ."
+              }
+            ]
+          }
+        },
         "romaji": "Isogashikute ryokō dokoro dewa nai.",
         "german": "Ich bin so beschäftigt, dass an Reise nicht zu denken ist."
       },
@@ -6503,11 +14556,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "日本語ばかりか中国語も話せる。",
+        "cloze": {
+          "start": 3,
+          "answer": "ばかりか",
+          "quiz": {
+            "level": "N3",
+            "japanese": "日本語ばかりか中国語も話せる。",
+            "german": "Er kann nicht nur Japanisch, sondern auch Chinesisch.",
+            "start": 3,
+            "answer": "ばかりか",
+            "acceptedAnswers": [
+              "ばかりか",
+              "だけでなく",
+              "のみならず"
+            ],
+            "distractors": [
+              {
+                "text": "しか",
+                "reason": "しか verlangt eine negative Endung."
+              },
+              {
+                "text": "ばかりを",
+                "reason": "を bildet hier keinen nicht-nur-sondern-auch-Anschluss."
+              },
+              {
+                "text": "ばかりな",
+                "reason": "な bildet hier keinen Anschluss an den Folgesatz."
+              }
+            ]
+          }
+        },
         "romaji": "Nihongo bakari ka chūgokugo mo hanaseru.",
         "german": "Er kann nicht nur Japanisch, sondern auch Chinesisch."
       },
       {
         "japanese": "成績が上がるばかりか、友達も増えた。",
+        "cloze": {
+          "start": 6,
+          "answer": "ばかりか"
+        },
         "romaji": "Seiseki ga agaru bakari ka, tomodachi mo fueta.",
         "german": "Nicht nur die Noten stiegen, auch die Freunde wurden mehr."
       }
@@ -6528,11 +14615,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "遅刻したばかりに大事な話を聞き逃した。",
+        "cloze": {
+          "start": 4,
+          "answer": "ばかりに",
+          "quiz": {
+            "level": "N3",
+            "japanese": "遅刻したばかりに大事な話を聞き逃した。",
+            "german": "Nur weil ich zu spät kam, verpasste ich das wichtige Gespräch.",
+            "start": 4,
+            "answer": "ばかりに",
+            "acceptedAnswers": [
+              "ばかりに",
+              "ために",
+              "せいで"
+            ],
+            "distractors": [
+              {
+                "text": "ばかりを",
+                "reason": "Die kausale Verbindung verlangt に."
+              },
+              {
+                "text": "なばかりに",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ばかりの",
+                "reason": "の braucht ein Bezugsnomen statt des Folgesatzes."
+              }
+            ]
+          }
+        },
         "romaji": "Chikoku shita bakari ni daiji na hanashi o kikinogashita.",
         "german": "Nur weil ich zu spät kam, verpasste ich das wichtige Gespräch."
       },
       {
         "japanese": "お金がないばかりに夢を諦めた。",
+        "cloze": {
+          "start": 5,
+          "answer": "ばかりに"
+        },
         "romaji": "Okane ga nai bakari ni yume o akirameta.",
         "german": "Nur weil ich kein Geld hatte, gab ich meinen Traum auf."
       }
@@ -6553,11 +14674,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "やるからには最後までやる。",
+        "cloze": {
+          "start": 2,
+          "answer": "からには",
+          "quiz": {
+            "level": "N3",
+            "japanese": "やるからには最後までやる。",
+            "german": "Wenn ich es schon mache, dann bis zum Ende.",
+            "start": 2,
+            "answer": "からには",
+            "acceptedAnswers": [
+              "からには",
+              "以上は"
+            ],
+            "distractors": [
+              {
+                "text": "なからには",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "からのには",
+                "reason": "Die feste Voraussetzungskonstruktion enthält kein の."
+              },
+              {
+                "text": "からにを",
+                "reason": "Dies ist keine Voraussetzungskonstruktion."
+              }
+            ]
+          }
+        },
         "romaji": "Yaru kara ni wa saigo made yaru.",
         "german": "Wenn ich es schon mache, dann bis zum Ende."
       },
       {
         "japanese": "約束したからには守らなければならない。",
+        "cloze": {
+          "start": 4,
+          "answer": "からには"
+        },
         "romaji": "Yakusoku shita kara ni wa mamoranakereba naranai.",
         "german": "Da ich es versprochen habe, muss ich es halten."
       }
@@ -6578,11 +14732,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "安いからといって品質が悪いわけではない。",
+        "cloze": {
+          "start": 2,
+          "answer": "からといって",
+          "quiz": {
+            "level": "N3",
+            "japanese": "安いからといって品質が悪いわけではない。",
+            "german": "Nur weil es billig ist, heißt das nicht, dass die Qualität schlecht ist.",
+            "start": 2,
+            "answer": "からといって",
+            "acceptedAnswers": [
+              "からといって"
+            ],
+            "distractors": [
+              {
+                "text": "からと言うて",
+                "reason": "言う bildet in der Standardsprache 言って."
+              },
+              {
+                "text": "なからといって",
+                "reason": "Ein い-Adjektiv erhält hier kein な."
+              },
+              {
+                "text": "からをいって",
+                "reason": "Die zitierende Verbindung verlangt と."
+              }
+            ]
+          }
+        },
         "romaji": "Yasui kara to itte hinshitsu ga warui wake dewa nai.",
         "german": "Nur weil es billig ist, heißt das nicht, dass die Qualität schlecht ist."
       },
       {
         "japanese": "日本人だからといって漢字が全部読めるわけではない。",
+        "cloze": {
+          "start": 4,
+          "answer": "からといって"
+        },
         "romaji": "Nihonjin da kara to itte kanji ga zenbu yomeru wake dewa nai.",
         "german": "Nur weil man Japaner ist, heißt das nicht, dass man alle Kanji lesen kann."
       }
@@ -6604,7 +14790,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "引き受けた以上は責任を持つ。",
         "romaji": "Hikiuketa ijō wa sekinin o motsu.",
-        "german": "Da ich es übernommen habe, trage ich die Verantwortung."
+        "german": "Da ich es übernommen habe, trage ich die Verantwortung.",
+        "cloze": {
+          "start": 5,
+          "answer": "以上は",
+          "quiz": {
+            "level": "N3",
+            "japanese": "引き受けた以上は責任を持つ。",
+            "german": "Da ich es übernommen habe, trage ich die Verantwortung.",
+            "start": 5,
+            "answer": "以上は",
+            "acceptedAnswers": [
+              "以上は",
+              "からには"
+            ],
+            "distractors": [
+              {
+                "text": "な以上は",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "以上をは",
+                "reason": "を steht hier nicht vor は."
+              },
+              {
+                "text": "以上な",
+                "reason": "Dies schließt die Konsequenz nicht an."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "学生である以上、勉強するべきだ。",
@@ -6628,11 +14843,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "私が知っている限りでは問題ない。",
+        "cloze": {
+          "start": 7,
+          "answer": "限り",
+          "quiz": {
+            "level": "N3",
+            "japanese": "私が知っている限りでは問題ない。",
+            "german": "Soweit ich weiß, gibt es kein Problem.",
+            "start": 7,
+            "answer": "限り",
+            "acceptedAnswers": [
+              "限り"
+            ],
+            "distractors": [
+              {
+                "text": "な限り",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "限りを",
+                "reason": "を passt hier nicht vor では."
+              },
+              {
+                "text": "限りだ",
+                "reason": "だ passt hier nicht vor では."
+              }
+            ]
+          }
+        },
         "romaji": "Watashi ga shitteiru kagiri de wa mondai nai.",
         "german": "Soweit ich weiß, gibt es kein Problem."
       },
       {
         "japanese": "体が元気な限り働き続けたい。",
+        "cloze": {
+          "start": 5,
+          "answer": "限り"
+        },
         "romaji": "Karada ga genki na kagiri hataraki tsuzuketai.",
         "german": "Solange ich gesund bin, möchte ich weiterarbeiten."
       }
@@ -6651,11 +14898,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "健康のために野菜を食べることだ。",
+        "cloze": {
+          "start": 12,
+          "answer": "ことだ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "健康のために野菜を食べることだ。",
+            "german": "Für die Gesundheit sollte man Gemüse essen.",
+            "start": 12,
+            "answer": "ことだ",
+            "acceptedAnswers": [
+              "ことだ",
+              "べきだ"
+            ],
+            "distractors": [
+              {
+                "text": "なことだ",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ことをだ",
+                "reason": "を steht nicht vor dieser Kopula."
+              },
+              {
+                "text": "ことな",
+                "reason": "Dies ist kein Satzabschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Kenkō no tame ni yasai o taberu koto da.",
         "german": "Für die Gesundheit sollte man Gemüse essen."
       },
       {
         "japanese": "遅刻しないことだ。",
+        "cloze": {
+          "start": 5,
+          "answer": "ことだ"
+        },
         "romaji": "Chikoku shinai koto da.",
         "german": "Man sollte nicht zu spät kommen."
       }
@@ -6677,11 +14957,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "あんな所に二度と行くものか。",
+        "cloze": {
+          "start": 10,
+          "answer": "ものか",
+          "quiz": {
+            "level": "N3",
+            "japanese": "あんな所に二度と行くものか。",
+            "german": "An so einen Ort gehe ich nie wieder!",
+            "start": 10,
+            "answer": "ものか",
+            "acceptedAnswers": [
+              "ものか",
+              "もんか"
+            ],
+            "distractors": [
+              {
+                "text": "ものだ",
+                "reason": "Dies behauptet eine allgemeine Regel statt entschiedener Ablehnung."
+              },
+              {
+                "text": "なものか",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ものをか",
+                "reason": "Dies ist keine rhetorische Ablehnungsform."
+              }
+            ]
+          }
+        },
         "romaji": "Anna tokoro ni nido to iku mono ka.",
         "german": "An so einen Ort gehe ich nie wieder!"
       },
       {
         "japanese": "負けるもんか！",
+        "cloze": {
+          "start": 3,
+          "answer": "もんか"
+        },
         "romaji": "Makeru mon ka!",
         "german": "Ich werde auf keinen Fall verlieren!"
       }
@@ -6700,11 +15013,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "聞いてみたところ、もう売り切れだった。",
+        "cloze": {
+          "start": 4,
+          "answer": "たところ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "聞いてみたところ、もう売り切れだった。",
+            "german": "Als ich nachfragte, war es schon ausverkauft.",
+            "start": 4,
+            "answer": "たところ",
+            "acceptedAnswers": [
+              "たところ"
+            ],
+            "distractors": [
+              {
+                "text": "るところ",
+                "reason": "みるところ bezeichnet hier nicht das Ergebnis des Nachfragens."
+              },
+              {
+                "text": "ますところ",
+                "reason": "Die Wendung folgt hier nicht der ます-Form."
+              },
+              {
+                "text": "たところな",
+                "reason": "な schließt den Folgesatz nicht an."
+              }
+            ]
+          }
+        },
         "romaji": "Kiite mita tokoro, mō urikire datta.",
         "german": "Als ich nachfragte, war es schon ausverkauft."
       },
       {
         "japanese": "調べたところ、問題が見つかった。",
+        "cloze": {
+          "start": 2,
+          "answer": "たところ"
+        },
         "romaji": "Shirabeta tokoro, mondai ga mitsukatta.",
         "german": "Als ich nachforschte, fand ich ein Problem."
       }
@@ -6712,7 +15057,7 @@ window.GRAMMAR_DATA = [
     "notes": "Unterschied zu ～ところだ (Zeitpunkt): ～たところ = Ergebnis.",
     "related": [
       "n4-tokoro-da",
-      "n4-tara"
+      "tara"
     ]
   },
   {
@@ -6726,11 +15071,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "食べられないことはないが、好きではない。",
+        "cloze": {
+          "start": 4,
+          "answer": "ないことはない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "食べられないことはないが、好きではない。",
+            "german": "Essen kann ich es schon, aber ich mag es nicht.",
+            "start": 4,
+            "answer": "ないことはない",
+            "acceptedAnswers": [
+              "ないことはない"
+            ],
+            "distractors": [
+              {
+                "text": "ないことはある",
+                "reason": "Dies räumt Unfähigkeit statt grundsätzlicher Fähigkeit ein."
+              },
+              {
+                "text": "ないことをない",
+                "reason": "Die einschränkende Doppelverneinung verwendet は."
+              },
+              {
+                "text": "ないことはないだ",
+                "reason": "Nach ない steht kein だ."
+              }
+            ]
+          }
+        },
         "romaji": "Taberarenai koto wa nai ga, suki dewa nai.",
         "german": "Essen kann ich es schon, aber ich mag es nicht."
       },
       {
         "japanese": "分からないことはないが、説明しにくい。",
+        "cloze": {
+          "start": 3,
+          "answer": "ないことはない"
+        },
         "romaji": "Wakaranai koto wa nai ga, setsumei shinikui.",
         "german": "Verstehen tue ich es, aber es ist schwer zu erklären."
       }
@@ -6751,18 +15128,50 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "雨にもかかわらず多くの人が集まった。",
+        "cloze": {
+          "start": 1,
+          "answer": "にもかかわらず",
+          "quiz": {
+            "level": "N3",
+            "japanese": "雨にもかかわらず多くの人が集まった。",
+            "german": "Trotz des Regens versammelten sich viele Menschen.",
+            "start": 1,
+            "answer": "にもかかわらず",
+            "acceptedAnswers": [
+              "にもかかわらず"
+            ],
+            "distractors": [
+              {
+                "text": "にもかかわるず",
+                "reason": "Die negative Form lautet かかわらず."
+              },
+              {
+                "text": "をもかかわらず",
+                "reason": "Die feste Wendung verlangt に."
+              },
+              {
+                "text": "にもかかわらずの",
+                "reason": "の schließt hier keinen Folgesatz an."
+              }
+            ]
+          }
+        },
         "romaji": "Ame ni mo kakawarazu ōku no hito ga atsumatta.",
         "german": "Trotz des Regens versammelten sich viele Menschen."
       },
       {
         "japanese": "努力したにもかかわらず失敗した。",
+        "cloze": {
+          "start": 4,
+          "answer": "にもかかわらず"
+        },
         "romaji": "Doryoku shita ni mo kakawarazu shippai shita.",
         "german": "Trotz meiner Bemühungen habe ich versagt."
       }
     ],
     "notes": "Sehr formell/schriftlich. Alltagssprache: ～のに.",
     "related": [
-      "n4-noni"
+      "noni"
     ]
   },
   {
@@ -6776,18 +15185,50 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "たとえ失敗したとしても後悔しない。",
+        "cloze": {
+          "start": 7,
+          "answer": "としても",
+          "quiz": {
+            "level": "N3",
+            "japanese": "たとえ失敗したとしても後悔しない。",
+            "german": "Selbst wenn ich scheitere, werde ich es nicht bereuen.",
+            "start": 7,
+            "answer": "としても",
+            "acceptedAnswers": [
+              "としても"
+            ],
+            "distractors": [
+              {
+                "text": "をしても",
+                "reason": "Die hypothetische Annahme verlangt と."
+              },
+              {
+                "text": "とするても",
+                "reason": "する bildet die て-Form して."
+              },
+              {
+                "text": "なとしても",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              }
+            ]
+          }
+        },
         "romaji": "Tatoe shippai shita to shitemo kōkai shinai.",
         "german": "Selbst wenn ich scheitere, werde ich es nicht bereuen."
       },
       {
         "japanese": "仮に合格したとしても、まだ先は長い。",
+        "cloze": {
+          "start": 6,
+          "answer": "としても"
+        },
         "romaji": "Kari ni gōkaku shita to shitemo, mada saki wa nagai.",
         "german": "Selbst wenn ich bestehe, ist es noch ein langer Weg."
       }
     ],
     "notes": "Hypothetischer als ～ても.",
     "related": [
-      "n4-temo"
+      "temo"
     ]
   },
   {
@@ -6801,11 +15242,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "届き次第ご連絡します。",
+        "cloze": {
+          "start": 2,
+          "answer": "次第",
+          "quiz": {
+            "level": "N3",
+            "japanese": "届き次第ご連絡します。",
+            "german": "Ich melde mich, sobald es ankommt.",
+            "start": 2,
+            "answer": "次第",
+            "acceptedAnswers": [
+              "次第"
+            ],
+            "distractors": [
+              {
+                "text": "たら",
+                "reason": "届きたら ist keine Verbform."
+              },
+              {
+                "text": "次第な",
+                "reason": "Dies schließt das folgende Handeln nicht adverbial an."
+              },
+              {
+                "text": "次第を",
+                "reason": "を bildet hier keine Zeitangabe."
+              }
+            ]
+          }
+        },
         "romaji": "Todoki shidai go-renraku shimasu.",
         "german": "Ich melde mich, sobald es ankommt."
       },
       {
         "japanese": "結果はあなた次第です。",
+        "cloze": {
+          "start": 6,
+          "answer": "次第"
+        },
         "romaji": "Kekka wa anata shidai desu.",
         "german": "Das Ergebnis hängt von dir ab."
       }
@@ -6827,7 +15300,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "便利になる一方で、危険も増えている。",
         "romaji": "Benri ni naru ippō de, kiken mo fueteiru.",
-        "german": "Es wird praktischer, aber gleichzeitig steigen die Gefahren."
+        "german": "Es wird praktischer, aber gleichzeitig steigen die Gefahren.",
+        "cloze": {
+          "start": 5,
+          "answer": "一方で",
+          "quiz": {
+            "level": "N3",
+            "japanese": "便利になる一方で、危険も増えている。",
+            "german": "Es wird praktischer, aber gleichzeitig steigen die Gefahren.",
+            "start": 5,
+            "answer": "一方で",
+            "acceptedAnswers": [
+              "一方で"
+            ],
+            "distractors": [
+              {
+                "text": "な一方で",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "一方を",
+                "reason": "を bildet hier keinen kontrastierenden Anschluss."
+              },
+              {
+                "text": "一方だの",
+                "reason": "Dies schließt die zweite Entwicklung nicht an."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "彼は優しい一方で、厳しい面もある。",
@@ -6851,11 +15352,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "この仕事はやりがいがある反面、ストレスも多い。",
+        "cloze": {
+          "start": 12,
+          "answer": "反面",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この仕事はやりがいがある反面、ストレスも多い。",
+            "german": "Diese Arbeit ist lohnend, hat aber auch viel Stress.",
+            "start": 12,
+            "answer": "反面",
+            "acceptedAnswers": [
+              "反面",
+              "一方で"
+            ],
+            "distractors": [
+              {
+                "text": "な反面",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "反面を",
+                "reason": "を bildet hier keinen Gegensatzanschluss."
+              },
+              {
+                "text": "反面だの",
+                "reason": "Dies schließt den Folgesatz nicht an."
+              }
+            ]
+          }
+        },
         "romaji": "Kono shigoto wa yarigai ga aru hanmen, sutoresu mo ōi.",
         "german": "Diese Arbeit ist lohnend, hat aber auch viel Stress."
       },
       {
         "japanese": "都会は便利な反面、家賃が高い。",
+        "cloze": {
+          "start": 6,
+          "answer": "反面"
+        },
         "romaji": "Tokai wa benri na hanmen, yachin ga takai.",
         "german": "Die Stadt ist praktisch, aber die Miete ist hoch."
       }
@@ -6877,7 +15411,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "お金さえあれば何でもできる。",
         "romaji": "Okane sae areba nandemo dekiru.",
-        "german": "Wenn man nur Geld hat, kann man alles machen."
+        "german": "Wenn man nur Geld hat, kann man alles machen.",
+        "cloze": {
+          "start": 2,
+          "answer": "さえあれば",
+          "quiz": {
+            "level": "N3",
+            "japanese": "お金さえあれば何でもできる。",
+            "german": "Wenn man nur Geld hat, kann man alles machen.",
+            "start": 2,
+            "answer": "さえあれば",
+            "acceptedAnswers": [
+              "さえあれば"
+            ],
+            "distractors": [
+              {
+                "text": "さえあるば",
+                "reason": "Die Bedingungsform von ある lautet あれば."
+              },
+              {
+                "text": "さえをあれば",
+                "reason": "を steht nicht zwischen さえ und あれば."
+              },
+              {
+                "text": "さえなければ",
+                "reason": "Dies kehrt die notwendige Geldbedingung um."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "薬を飲みさえすれば治る。",
@@ -6902,11 +15464,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "形が星に似ていることからスターフルーツと呼ばれている。",
+        "cloze": {
+          "start": 8,
+          "answer": "ことから",
+          "quiz": {
+            "level": "N3",
+            "japanese": "形が星に似ていることからスターフルーツと呼ばれている。",
+            "german": "Weil die Form einem Stern ähnelt, wird sie Sternfrucht genannt.",
+            "start": 8,
+            "answer": "ことから",
+            "acceptedAnswers": [
+              "ことから",
+              "ので",
+              "ため"
+            ],
+            "distractors": [
+              {
+                "text": "なことから",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ことをから",
+                "reason": "Dies ist kein kausaler Anschluss."
+              },
+              {
+                "text": "ことからの",
+                "reason": "の schließt hier kein folgendes Prädikat an."
+              }
+            ]
+          }
+        },
         "romaji": "Katachi ga hoshi ni niteiru koto kara sutā furūtsu to yobareteiru.",
         "german": "Weil die Form einem Stern ähnelt, wird sie Sternfrucht genannt."
       },
       {
         "japanese": "彼が犯人であることから逮捕された。",
+        "cloze": {
+          "start": 7,
+          "answer": "ことから"
+        },
         "romaji": "Kare ga hannin de aru koto kara taiho sareta.",
         "german": "Aufgrund der Tatsache, dass er der Täter ist, wurde er verhaftet."
       }
@@ -6927,11 +15523,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "高いものがいいとは限らない。",
+        "cloze": {
+          "start": 7,
+          "answer": "とは限らない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "高いものがいいとは限らない。",
+            "german": "Teure Dinge sind nicht unbedingt gut.",
+            "start": 7,
+            "answer": "とは限らない",
+            "acceptedAnswers": [
+              "とは限らない"
+            ],
+            "distractors": [
+              {
+                "text": "とは限る",
+                "reason": "Dies bejaht die Beschränkung statt sie zurückzuweisen."
+              },
+              {
+                "text": "とは限るない",
+                "reason": "Die Negativform lautet 限らない."
+              },
+              {
+                "text": "をは限らない",
+                "reason": "Die zitierte Behauptung wird mit と angeschlossen."
+              }
+            ]
+          }
+        },
         "romaji": "Takai mono ga ii to wa kagiranai.",
         "german": "Teure Dinge sind nicht unbedingt gut."
       },
       {
         "japanese": "努力すれば成功するとは限らない。",
+        "cloze": {
+          "start": 9,
+          "answer": "とは限らない"
+        },
         "romaji": "Doryoku sureba seikō suru to wa kagiranai.",
         "german": "Auch wenn man sich anstrengt, heißt das nicht, dass man Erfolg hat."
       }
@@ -6953,7 +15581,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "先生はもうお帰りになりました。",
         "romaji": "Sensei wa mō okaeri ni narimashita.",
-        "german": "Der Lehrer ist schon gegangen (respektvoll)."
+        "german": "Der Lehrer ist schon gegangen (respektvoll).",
+        "cloze": {
+          "start": 5,
+          "answer": "お帰りになりました",
+          "quiz": {
+            "level": "N3",
+            "japanese": "先生はもうお帰りになりました。",
+            "german": "Der Lehrer ist schon gegangen (respektvoll).",
+            "start": 5,
+            "answer": "お帰りになりました",
+            "acceptedAnswers": [
+              "お帰りになりました",
+              "帰られました"
+            ],
+            "distractors": [
+              {
+                "text": "お帰るになりました",
+                "reason": "お～になる verlangt den Verbstamm."
+              },
+              {
+                "text": "お帰りになりませんでした",
+                "reason": "Dies verneint die Heimkehr."
+              },
+              {
+                "text": "お帰りをなりました",
+                "reason": "Die ehrende Wendung verwendet に."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "社長がそうおっしゃいました。",
@@ -6978,7 +15635,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "私がご案内いたします。",
         "romaji": "Watashi ga go-annai itashimasu.",
-        "german": "Ich werde Sie führen (bescheiden)."
+        "german": "Ich werde Sie führen (bescheiden).",
+        "cloze": {
+          "start": 2,
+          "answer": "ご案内いたします",
+          "quiz": {
+            "level": "N3",
+            "japanese": "私がご案内いたします。",
+            "german": "Ich werde Sie führen (bescheiden).",
+            "start": 2,
+            "answer": "ご案内いたします",
+            "acceptedAnswers": [
+              "ご案内いたします",
+              "ご案内します"
+            ],
+            "distractors": [
+              {
+                "text": "ご案内いたしません",
+                "reason": "Dies verneint das Führen."
+              },
+              {
+                "text": "ご案内いたすます",
+                "reason": "Die höfliche Form lautet いたします."
+              },
+              {
+                "text": "ご案内なります",
+                "reason": "Die bescheidene Handlung wird hier mit いたす angeschlossen."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "明日お伺いしてもよろしいですか。",
@@ -7003,7 +15689,36 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "行くにしても行かないにしても連絡してください。",
         "romaji": "Iku ni shitemo ikanai ni shitemo renraku shite kudasai.",
-        "german": "Ob du gehst oder nicht, bitte melde dich."
+        "german": "Ob du gehst oder nicht, bitte melde dich.",
+        "cloze": {
+          "start": 2,
+          "answer": "にしても",
+          "quiz": {
+            "level": "N3",
+            "japanese": "行くにしても行かないにしても連絡してください。",
+            "german": "Ob du gehst oder nicht, bitte melde dich.",
+            "start": 2,
+            "answer": "にしても",
+            "acceptedAnswers": [
+              "にしても",
+              "としても"
+            ],
+            "distractors": [
+              {
+                "text": "をしても",
+                "reason": "を bildet hier keine hypothetische Annahme."
+              },
+              {
+                "text": "にするても",
+                "reason": "する bildet die て-Form して."
+              },
+              {
+                "text": "なにしても",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "賛成にしても反対にしても理由を言ってください。",
@@ -7013,7 +15728,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Ähnlich: ～ても～ても, ～にせよ～にせよ.",
     "related": [
-      "n4-temo"
+      "temo"
     ]
   },
   {
@@ -7028,7 +15743,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "来月から新しいプロジェクトが始まることになっている。",
         "romaji": "Raigetsu kara atarashii purojekuto ga hajimaru koto ni natte iru.",
-        "german": "Ab nächstem Monat soll ein neues Projekt starten."
+        "german": "Ab nächstem Monat soll ein neues Projekt starten.",
+        "cloze": {
+          "start": 17,
+          "answer": "ことになっている",
+          "quiz": {
+            "level": "N3",
+            "japanese": "来月から新しいプロジェクトが始まることになっている。",
+            "german": "Ab nächstem Monat soll ein neues Projekt starten.",
+            "start": 17,
+            "answer": "ことになっている",
+            "acceptedAnswers": [
+              "ことになっている"
+            ],
+            "distractors": [
+              {
+                "text": "ことをなっている",
+                "reason": "Die Festlegungskonstruktion verwendet に."
+              },
+              {
+                "text": "なことになっている",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ことになっていない",
+                "reason": "Dies verneint die bestehende Planung."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "日本では靴を脱ぐことになっている。",
@@ -7053,7 +15796,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "食べては寝て、食べては寝ての生活だ。",
         "romaji": "Tabete wa nete, tabete wa nete no seikatsu da.",
-        "german": "Ein Leben nur aus Essen und Schlafen."
+        "german": "Ein Leben nur aus Essen und Schlafen.",
+        "cloze": {
+          "start": 2,
+          "answer": "ては",
+          "quiz": {
+            "level": "N3",
+            "japanese": "食べては寝て、食べては寝ての生活だ。",
+            "german": "Ein Leben nur aus Essen und Schlafen.",
+            "start": 2,
+            "answer": "ては",
+            "acceptedAnswers": [
+              "ては"
+            ],
+            "distractors": [
+              {
+                "text": "たは",
+                "reason": "Die Wiederholungsfolge braucht die て-Form."
+              },
+              {
+                "text": "ますは",
+                "reason": "ます verbindet die wiederkehrenden Handlungen hier nicht."
+              },
+              {
+                "text": "るては",
+                "reason": "食べるて ist keine て-Form."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "書いては消し、書いては消しの繰り返しだ。",
@@ -7063,7 +15834,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Drückt ermüdende Wiederholung aus.",
     "related": [
-      "n4-tari"
+      "tari-tari"
     ]
   },
   {
@@ -7078,7 +15849,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "医者に運動するように言われた。",
         "romaji": "Isha ni undō suru yō ni iwareta.",
-        "german": "Der Arzt sagte mir, ich solle Sport machen."
+        "german": "Der Arzt sagte mir, ich solle Sport machen.",
+        "cloze": {
+          "start": 7,
+          "answer": "ように言われた",
+          "quiz": {
+            "level": "N3",
+            "japanese": "医者に運動するように言われた。",
+            "german": "Der Arzt sagte mir, ich solle Sport machen.",
+            "start": 7,
+            "answer": "ように言われた",
+            "acceptedAnswers": [
+              "ように言われた"
+            ],
+            "distractors": [
+              {
+                "text": "ようを言われた",
+                "reason": "Die wiedergegebene Aufforderung verlangt に."
+              },
+              {
+                "text": "なように言われた",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ように言われなかった",
+                "reason": "Dies verneint die ärztliche Aufforderung."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "子供に早く寝るように言った。",
@@ -7103,7 +15902,35 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "毎朝ジョギングすることにしている。",
         "romaji": "Maiasa jogingu suru koto ni shiteiru.",
-        "german": "Ich habe es mir zur Regel gemacht, jeden Morgen zu joggen."
+        "german": "Ich habe es mir zur Regel gemacht, jeden Morgen zu joggen.",
+        "cloze": {
+          "start": 9,
+          "answer": "ことにしている",
+          "quiz": {
+            "level": "N3",
+            "japanese": "毎朝ジョギングすることにしている。",
+            "german": "Ich habe es mir zur Regel gemacht, jeden Morgen zu joggen.",
+            "start": 9,
+            "answer": "ことにしている",
+            "acceptedAnswers": [
+              "ことにしている"
+            ],
+            "distractors": [
+              {
+                "text": "ことをしている",
+                "reason": "Die persönliche Regel verwendet に."
+              },
+              {
+                "text": "なことにしている",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "ことにしていない",
+                "reason": "Dies verneint die persönliche Regel."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "夜九時以降はスマホを見ないことにしている。",
@@ -7128,11 +15955,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "調べてからでないと答えられない。",
+        "cloze": {
+          "start": 2,
+          "answer": "てからでないと",
+          "quiz": {
+            "level": "N3",
+            "japanese": "調べてからでないと答えられない。",
+            "german": "Ohne es vorher zu prüfen, kann ich nicht antworten.",
+            "start": 2,
+            "answer": "てからでないと",
+            "acceptedAnswers": [
+              "てからでないと"
+            ],
+            "distractors": [
+              {
+                "text": "たからでないと",
+                "reason": "Dies ist kein Anschluss für vorheriges Prüfen."
+              },
+              {
+                "text": "てからではあると",
+                "reason": "Dies ist keine notwendige Vorbedingung."
+              },
+              {
+                "text": "ますからでないと",
+                "reason": "Die zeitliche Konstruktion verlangt die て-Form."
+              }
+            ]
+          }
+        },
         "romaji": "Shirabete kara de nai to kotaerarenai.",
         "german": "Ohne es vorher zu prüfen, kann ich nicht antworten."
       },
       {
         "japanese": "食べてみてからでないと分からない。",
+        "cloze": {
+          "start": 4,
+          "answer": "てからでないと"
+        },
         "romaji": "Tabete mite kara de nai to wakaranai.",
         "german": "Ohne es probiert zu haben, kann ich es nicht beurteilen."
       }
@@ -7153,11 +16012,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "やってみないことには分からない。",
+        "cloze": {
+          "start": 4,
+          "answer": "ないことには",
+          "quiz": {
+            "level": "N3",
+            "japanese": "やってみないことには分からない。",
+            "german": "Ohne es zu versuchen, weiß man es nicht.",
+            "start": 4,
+            "answer": "ないことには",
+            "acceptedAnswers": [
+              "ないことには"
+            ],
+            "distractors": [
+              {
+                "text": "ないことをは",
+                "reason": "Die notwendige Voraussetzung verwendet には."
+              },
+              {
+                "text": "ないことなは",
+                "reason": "Dies ist kein Anschluss für die Voraussetzung."
+              },
+              {
+                "text": "ないことにはだ",
+                "reason": "だ gehört nicht hinter die voraussetzende Wendung."
+              }
+            ]
+          }
+        },
         "romaji": "Yatte minai koto ni wa wakaranai.",
         "german": "Ohne es zu versuchen, weiß man es nicht."
       },
       {
         "japanese": "本人に聞かないことには確認できない。",
+        "cloze": {
+          "start": 5,
+          "answer": "ないことには"
+        },
         "romaji": "Honnin ni kikanai koto ni wa kakunin dekinai.",
         "german": "Ohne die Person selbst zu fragen, kann man es nicht bestätigen."
       }
@@ -7178,11 +16069,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "好きだからこそ厳しくする。",
+        "cloze": {
+          "start": 3,
+          "answer": "からこそ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "好きだからこそ厳しくする。",
+            "german": "Gerade weil ich dich mag, bin ich streng.",
+            "start": 3,
+            "answer": "からこそ",
+            "acceptedAnswers": [
+              "からこそ"
+            ],
+            "distractors": [
+              {
+                "text": "からをこそ",
+                "reason": "Die kausale Hervorhebung enthält kein を."
+              },
+              {
+                "text": "からこその",
+                "reason": "の braucht ein Nomen, nicht 厳しくする."
+              },
+              {
+                "text": "からこそだ",
+                "reason": "だ schließt hier keinen Folgesatz an."
+              }
+            ]
+          }
+        },
         "romaji": "Suki da kara koso kibishiku suru.",
         "german": "Gerade weil ich dich mag, bin ich streng."
       },
       {
         "japanese": "失敗したからこそ学べたことがある。",
+        "cloze": {
+          "start": 4,
+          "answer": "からこそ"
+        },
         "romaji": "Shippai shita kara koso manabeta koto ga aru.",
         "german": "Gerade weil ich scheiterte, konnte ich daraus lernen."
       }
@@ -7204,11 +16127,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "練習してこそ上手になる。",
+        "cloze": {
+          "start": 3,
+          "answer": "てこそ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "練習してこそ上手になる。",
+            "german": "Erst durch Üben wird man wirklich gut.",
+            "start": 3,
+            "answer": "てこそ",
+            "acceptedAnswers": [
+              "てこそ"
+            ],
+            "distractors": [
+              {
+                "text": "たこそ",
+                "reason": "Die notwendige Erfahrung wird mit der て-Form angeschlossen."
+              },
+              {
+                "text": "ますこそ",
+                "reason": "ます ist hier kein Anschluss für erst durch."
+              },
+              {
+                "text": "るてこそ",
+                "reason": "するて ist keine て-Form."
+              }
+            ]
+          }
+        },
         "romaji": "Renshū shite koso jōzu ni naru.",
         "german": "Erst durch Üben wird man wirklich gut."
       },
       {
         "japanese": "自分でやってこそ意味がある。",
+        "cloze": {
+          "start": 5,
+          "answer": "てこそ"
+        },
         "romaji": "Jibun de yatte koso imi ga aru.",
         "german": "Erst wenn man es selbst tut, hat es Bedeutung."
       }
@@ -7230,11 +16185,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "そんな難しい試験、受かりっこない。",
+        "cloze": {
+          "start": 12,
+          "answer": "っこない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "そんな難しい試験、受かりっこない。",
+            "german": "So eine schwere Prüfung, da bestehe ich niemals.",
+            "start": 12,
+            "answer": "っこない",
+            "acceptedAnswers": [
+              "っこない"
+            ],
+            "distractors": [
+              {
+                "text": "っこある",
+                "reason": "Die feste emphatische Verneinung lautet っこない."
+              },
+              {
+                "text": "っこないだ",
+                "reason": "Nach ない steht kein だ."
+              },
+              {
+                "text": "るっこない",
+                "reason": "っこない folgt dem Stamm 受かり."
+              }
+            ]
+          }
+        },
         "romaji": "Sonna muzukashii shiken, ukarikkonai.",
         "german": "So eine schwere Prüfung, da bestehe ich niemals."
       },
       {
         "japanese": "あの人に勝てっこない。",
+        "cloze": {
+          "start": 6,
+          "answer": "っこない"
+        },
         "romaji": "Ano hito ni katekkonai.",
         "german": "Gegen diese Person kann ich unmöglich gewinnen."
       }
@@ -7256,11 +16243,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "社長にかわって副社長が挨拶した。",
+        "cloze": {
+          "start": 2,
+          "answer": "にかわって",
+          "quiz": {
+            "level": "N3",
+            "japanese": "社長にかわって副社長が挨拶した。",
+            "german": "Anstelle des Firmenchefs sprach der Vizechef.",
+            "start": 2,
+            "answer": "にかわって",
+            "acceptedAnswers": [
+              "にかわって",
+              "のかわりに",
+              "に代わって"
+            ],
+            "distractors": [
+              {
+                "text": "に加えて",
+                "reason": "Dies fügt den Vizechef hinzu statt den Chef zu vertreten."
+              },
+              {
+                "text": "をかわって",
+                "reason": "Die Vertretungswendung verwendet に."
+              },
+              {
+                "text": "にかわるて",
+                "reason": "かわる bildet die て-Form かわって."
+              }
+            ]
+          }
+        },
         "romaji": "Shachō ni kawatte fukushachō ga aisatsu shita.",
         "german": "Anstelle des Firmenchefs sprach der Vizechef."
       },
       {
         "japanese": "手紙にかわってメールが普及した。",
+        "cloze": {
+          "start": 2,
+          "answer": "にかわって"
+        },
         "romaji": "Tegami ni kawatte mēru ga fukyū shita.",
         "german": "Anstelle von Briefen haben sich E-Mails verbreitet."
       }
@@ -7281,11 +16302,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "車を買うかわりに自転車にした。",
+        "cloze": {
+          "start": 4,
+          "answer": "かわりに",
+          "quiz": {
+            "level": "N3",
+            "japanese": "車を買うかわりに自転車にした。",
+            "german": "Anstatt ein Auto zu kaufen, nahm ich ein Fahrrad.",
+            "start": 4,
+            "answer": "かわりに",
+            "acceptedAnswers": [
+              "かわりに"
+            ],
+            "distractors": [
+              {
+                "text": "なかわりに",
+                "reason": "Nach dem Verb wird kein な eingefügt."
+              },
+              {
+                "text": "かわりを",
+                "reason": "を bildet hier keinen Alternativanschluss."
+              },
+              {
+                "text": "かわりの",
+                "reason": "の braucht ein Bezugsnomen."
+              }
+            ]
+          }
+        },
         "romaji": "Kuruma o kau kawari ni jitensha ni shita.",
         "german": "Anstatt ein Auto zu kaufen, nahm ich ein Fahrrad."
       },
       {
         "japanese": "手伝ってあげるかわりに、ご飯をおごって。",
+        "cloze": {
+          "start": 7,
+          "answer": "かわりに"
+        },
         "romaji": "Tetsudatte ageru kawari ni, gohan o ogotte.",
         "german": "Dafür dass ich dir helfe, lad mich zum Essen ein."
       }
@@ -7306,11 +16359,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "留学をきっかけに日本語を勉強し始めた。",
+        "cloze": {
+          "start": 2,
+          "answer": "をきっかけに",
+          "quiz": {
+            "level": "N3",
+            "japanese": "留学をきっかけに日本語を勉強し始めた。",
+            "german": "Ausgelöst durch den Auslandsaufenthalt begann ich Japanisch zu lernen.",
+            "start": 2,
+            "answer": "をきっかけに",
+            "acceptedAnswers": [
+              "をきっかけに"
+            ],
+            "distractors": [
+              {
+                "text": "をきっかけな",
+                "reason": "Die adverbiale Auslöserangabe verlangt に."
+              },
+              {
+                "text": "がきっかけを",
+                "reason": "Dies ist kein adverbialer Anschluss."
+              },
+              {
+                "text": "をきっかけの",
+                "reason": "Die attributive Form wäre をきっかけにした, nicht をきっかけの."
+              }
+            ]
+          }
+        },
         "romaji": "Ryūgaku o kikkake ni nihongo o benkyō shi hajimeta.",
         "german": "Ausgelöst durch den Auslandsaufenthalt begann ich Japanisch zu lernen."
       },
       {
         "japanese": "病気をきっかけに生活を見直した。",
+        "cloze": {
+          "start": 2,
+          "answer": "をきっかけに"
+        },
         "romaji": "Byōki o kikkake ni seikatsu o minaoshita.",
         "german": "Die Krankheit war der Anlass, meinen Lebensstil zu überdenken."
       }
@@ -7329,11 +16414,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "年齢を問わず参加できます。",
+        "cloze": {
+          "start": 2,
+          "answer": "を問わず",
+          "quiz": {
+            "level": "N3",
+            "japanese": "年齢を問わず参加できます。",
+            "german": "Man kann unabhängig vom Alter teilnehmen.",
+            "start": 2,
+            "answer": "を問わず",
+            "acceptedAnswers": [
+              "を問わず"
+            ],
+            "distractors": [
+              {
+                "text": "を問うず",
+                "reason": "問う bildet die Negativform 問わず."
+              },
+              {
+                "text": "に問わず",
+                "reason": "Die feste Wendung verwendet を."
+              },
+              {
+                "text": "を問わずだ",
+                "reason": "だ schließt hier keinen Folgesatz an."
+              }
+            ]
+          }
+        },
         "romaji": "Nenrei o towazu sanka dekimasu.",
         "german": "Man kann unabhängig vom Alter teilnehmen."
       },
       {
         "japanese": "経験の有無を問わず応募できる。",
+        "cloze": {
+          "start": 5,
+          "answer": "を問わず"
+        },
         "romaji": "Keiken no umu o towazu ōbo dekiru.",
         "german": "Man kann sich unabhängig von Erfahrung bewerben."
       }
@@ -7354,11 +16471,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "天気にかかわらず試合は行われる。",
+        "cloze": {
+          "start": 2,
+          "answer": "にかかわらず",
+          "quiz": {
+            "level": "N3",
+            "japanese": "天気にかかわらず試合は行われる。",
+            "german": "Unabhängig vom Wetter findet das Spiel statt.",
+            "start": 2,
+            "answer": "にかかわらず",
+            "acceptedAnswers": [
+              "にかかわらず"
+            ],
+            "distractors": [
+              {
+                "text": "にかかわるず",
+                "reason": "Die Negativform lautet かかわらず."
+              },
+              {
+                "text": "をかかわらず",
+                "reason": "Die feste Wendung verwendet に."
+              },
+              {
+                "text": "にかかわらずの",
+                "reason": "の schließt hier kein Verb an."
+              }
+            ]
+          }
+        },
         "romaji": "Tenki ni kakawarazu shiai wa okonawareru.",
         "german": "Unabhängig vom Wetter findet das Spiel statt."
       },
       {
         "japanese": "賛成するしないにかかわらず出席してください。",
+        "cloze": {
+          "start": 7,
+          "answer": "にかかわらず"
+        },
         "romaji": "Sansei suru shinai ni kakawarazu shusseki shite kudasai.",
         "german": "Kommen Sie, egal ob Sie zustimmen oder nicht."
       }
@@ -7380,11 +16529,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "川に沿って歩いた。",
+        "cloze": {
+          "start": 1,
+          "answer": "に沿って",
+          "quiz": {
+            "level": "N3",
+            "japanese": "川に沿って歩いた。",
+            "german": "Ich ging am Fluss entlang.",
+            "start": 1,
+            "answer": "に沿って",
+            "acceptedAnswers": [
+              "に沿って"
+            ],
+            "distractors": [
+              {
+                "text": "から離れて",
+                "reason": "Dies bedeutet vom Fluss weg statt am Fluss entlang."
+              },
+              {
+                "text": "に沿うて",
+                "reason": "Die standardsprachliche て-Form lautet 沿って."
+              },
+              {
+                "text": "を沿って",
+                "reason": "沿う wird hier mit に angeschlossen."
+              }
+            ]
+          }
+        },
         "romaji": "Kawa ni sotte aruita.",
         "german": "Ich ging am Fluss entlang."
       },
       {
         "japanese": "計画に沿って進めてください。",
+        "cloze": {
+          "start": 2,
+          "answer": "に沿って"
+        },
         "romaji": "Keikaku ni sotte susumete kudasai.",
         "german": "Bitte gehen Sie gemäß dem Plan vor."
       }
@@ -7405,11 +16586,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "彼の行動は理解しがたい。",
+        "cloze": {
+          "start": 8,
+          "answer": "がたい",
+          "quiz": {
+            "level": "N3",
+            "japanese": "彼の行動は理解しがたい。",
+            "german": "Sein Verhalten ist schwer zu verstehen.",
+            "start": 8,
+            "answer": "がたい",
+            "acceptedAnswers": [
+              "がたい",
+              "づらい",
+              "にくい"
+            ],
+            "distractors": [
+              {
+                "text": "がたいだ",
+                "reason": "Ein い-Adjektiv erhält kein だ."
+              },
+              {
+                "text": "がたくます",
+                "reason": "Ein い-Adjektiv nimmt kein ます."
+              },
+              {
+                "text": "るがたい",
+                "reason": "がたい schließt an den Stamm し an."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no kōdō wa rikai shigatai.",
         "german": "Sein Verhalten ist schwer zu verstehen."
       },
       {
         "japanese": "忘れがたい思い出だ。",
+        "cloze": {
+          "start": 2,
+          "answer": "がたい"
+        },
         "romaji": "Wasuregatai omoide da.",
         "german": "Eine unvergessliche Erinnerung."
       }
@@ -7431,6 +16646,34 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "今更謝ったところで許してもらえない。",
+        "cloze": {
+          "start": 4,
+          "answer": "たところで",
+          "quiz": {
+            "level": "N3",
+            "japanese": "今更謝ったところで許してもらえない。",
+            "german": "Selbst wenn ich mich jetzt entschuldige, wird man mir nicht verzeihen.",
+            "start": 4,
+            "answer": "たところで",
+            "acceptedAnswers": [
+              "たところで"
+            ],
+            "distractors": [
+              {
+                "text": "るところで",
+                "reason": "謝っる ist keine Verbform."
+              },
+              {
+                "text": "たところをで",
+                "reason": "を steht nicht vor der konzessiven Endung で."
+              },
+              {
+                "text": "ますところで",
+                "reason": "謝っます ist keine Verbform."
+              }
+            ]
+          }
+        },
         "romaji": "Imasara ayamatta tokoro de yurushite moraenai.",
         "german": "Selbst wenn ich mich jetzt entschuldige, wird man mir nicht verzeihen."
       },
@@ -7442,7 +16685,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Immer negatives/resigniertes Ergebnis.",
     "related": [
-      "n4-temo",
+      "temo",
       "n3-ta-tokoro"
     ]
   },
@@ -7457,11 +16700,44 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "二時間おきに薬を飲んでください。",
+        "cloze": {
+          "start": 3,
+          "answer": "おきに",
+          "quiz": {
+            "level": "N3",
+            "japanese": "二時間おきに薬を飲んでください。",
+            "german": "Nehmen Sie alle zwei Stunden die Medizin.",
+            "start": 3,
+            "answer": "おきに",
+            "acceptedAnswers": [
+              "おきに",
+              "ごとに"
+            ],
+            "distractors": [
+              {
+                "text": "おきな",
+                "reason": "Die Intervallangabe verlangt に."
+              },
+              {
+                "text": "おきを",
+                "reason": "を bildet hier keine Intervallangabe."
+              },
+              {
+                "text": "前に",
+                "reason": "Dies bedeutet vor zwei Stunden statt alle zwei Stunden."
+              }
+            ]
+          }
+        },
         "romaji": "Nijikan oki ni kusuri o nonde kudasai.",
         "german": "Nehmen Sie alle zwei Stunden die Medizin."
       },
       {
         "japanese": "一日おきにジョギングしている。",
+        "cloze": {
+          "start": 2,
+          "answer": "おきに"
+        },
         "romaji": "Ichinichi oki ni jogingu shiteiru.",
         "german": "Ich jogge jeden zweiten Tag."
       }
@@ -7482,6 +16758,34 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "それが本当の友情というものだ。",
+        "cloze": {
+          "start": 8,
+          "answer": "というものだ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "それが本当の友情というものだ。",
+            "german": "Das ist wahre Freundschaft.",
+            "start": 8,
+            "answer": "というものだ",
+            "acceptedAnswers": [
+              "というものだ"
+            ],
+            "distractors": [
+              {
+                "text": "をいうものだ",
+                "reason": "Der definierende Ausdruck verwendet と."
+              },
+              {
+                "text": "というものをだ",
+                "reason": "を steht nicht vor dieser Kopula."
+              },
+              {
+                "text": "というものな",
+                "reason": "Dies ist hier kein Satzabschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Sore ga hontō no yūjō to iu mono da.",
         "german": "Das ist wahre Freundschaft."
       },
@@ -7507,11 +16811,45 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "もっと早く言えばいいのに。",
+        "cloze": {
+          "start": 7,
+          "answer": "ばいいのに",
+          "quiz": {
+            "level": "N3",
+            "japanese": "もっと早く言えばいいのに。",
+            "german": "Wenn er es doch nur früher gesagt hätte.",
+            "start": 7,
+            "answer": "ばいいのに",
+            "acceptedAnswers": [
+              "ばいいのに",
+              "ばよかったのに",
+              "たらいいのに"
+            ],
+            "distractors": [
+              {
+                "text": "ばいいますのに",
+                "reason": "Das Adjektiv いい erhält kein angehängtes ます."
+              },
+              {
+                "text": "ばいいなに",
+                "reason": "Die feste Wunschwendung lautet のに."
+              },
+              {
+                "text": "ばいかったのに",
+                "reason": "いい bildet Vergangenheit als よかった."
+              }
+            ]
+          }
+        },
         "romaji": "Motto hayaku ieba ii noni.",
         "german": "Wenn er es doch nur früher gesagt hätte."
       },
       {
         "japanese": "毎日晴れればいいのに。",
+        "cloze": {
+          "start": 5,
+          "answer": "ばいいのに"
+        },
         "romaji": "Mainichi harereba ii noni.",
         "german": "Wenn es doch nur jeden Tag sonnig wäre."
       }
@@ -7533,11 +16871,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "心を込めて作りました。",
+        "cloze": {
+          "start": 1,
+          "answer": "を込めて",
+          "quiz": {
+            "level": "N3",
+            "japanese": "心を込めて作りました。",
+            "german": "Ich habe es mit ganzem Herzen gemacht.",
+            "start": 1,
+            "answer": "を込めて",
+            "acceptedAnswers": [
+              "を込めて"
+            ],
+            "distractors": [
+              {
+                "text": "を込めるて",
+                "reason": "込める bildet die て-Form 込めて."
+              },
+              {
+                "text": "が込めて",
+                "reason": "Das eingebrachte Gefühl wird mit を markiert."
+              },
+              {
+                "text": "を込めずに",
+                "reason": "Dies bedeutet ohne Herzblut, entgegen der Übersetzung."
+              }
+            ]
+          }
+        },
         "romaji": "Kokoro o komete tsukurimashita.",
         "german": "Ich habe es mit ganzem Herzen gemacht."
       },
       {
         "japanese": "感謝の気持ちを込めてプレゼントを贈った。",
+        "cloze": {
+          "start": 6,
+          "answer": "を込めて"
+        },
         "romaji": "Kansha no kimochi o komete purezento o okutta.",
         "german": "Ich schenkte es mit einem Gefühl der Dankbarkeit."
       }
@@ -7566,6 +16936,34 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "遅くなってすみません。",
+        "cloze": {
+          "start": 4,
+          "answer": "てすみません",
+          "quiz": {
+            "level": "N3",
+            "japanese": "遅くなってすみません。",
+            "german": "Entschuldigung, dass es so spät geworden ist.",
+            "start": 4,
+            "answer": "てすみません",
+            "acceptedAnswers": [
+              "てすみません"
+            ],
+            "distractors": [
+              {
+                "text": "たすみません",
+                "reason": "Die Entschuldigung für einen Umstand braucht die て-Verbindung."
+              },
+              {
+                "text": "ますすみません",
+                "reason": "Die ます-Form bildet hier keinen Anschluss."
+              },
+              {
+                "text": "てすみます",
+                "reason": "Dies ist keine Entschuldigungsform."
+              }
+            ]
+          }
+        },
         "romaji": "Osoku natte sumimasen.",
         "german": "Entschuldigung, dass es so spät geworden ist."
       }
@@ -7584,11 +16982,43 @@ window.GRAMMAR_DATA = [
     "examples": [
       {
         "japanese": "私にとっての幸せは家族と過ごすことだ。",
+        "cloze": {
+          "start": 1,
+          "answer": "にとっての",
+          "quiz": {
+            "level": "N3",
+            "japanese": "私にとっての幸せは家族と過ごすことだ。",
+            "german": "Für mich ist Glück, Zeit mit der Familie zu verbringen.",
+            "start": 1,
+            "answer": "にとっての",
+            "acceptedAnswers": [
+              "にとっての"
+            ],
+            "distractors": [
+              {
+                "text": "にとってな",
+                "reason": "Die attributive Perspektive wird mit の angeschlossen."
+              },
+              {
+                "text": "にとってを",
+                "reason": "を passt hier nicht vor 幸せ."
+              },
+              {
+                "text": "をとっての",
+                "reason": "を取っての ist hier nicht die Perspektivkonstruktion."
+              }
+            ]
+          }
+        },
         "romaji": "Watashi ni totte no shiawase wa kazoku to sugosu koto da.",
         "german": "Für mich ist Glück, Zeit mit der Familie zu verbringen."
       },
       {
         "japanese": "学生にとっての最大の課題は就職だ。",
+        "cloze": {
+          "start": 2,
+          "answer": "にとっての"
+        },
         "romaji": "Gakusei ni totte no saidai no kadai wa shūshoku da.",
         "german": "Die größte Herausforderung für Studenten ist die Jobsuche."
       }

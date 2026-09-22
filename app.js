@@ -21,7 +21,7 @@
   };
 
   // === SOUND ENGINE (Web Audio API) ===
-  var soundEnabled = localStorage.getItem('kanji-sound') !== 'off';
+  var soundEnabled = localStorage.getItem('kanji-sound') === 'on';
   var audioCtx = null;
 
   function getAudioCtx() {
@@ -152,7 +152,7 @@
       for (var key in item) {
         if (item.hasOwnProperty(key)) next[key] = item[key];
       }
-      next.id = source + ':' + i;
+      next.id = source === 'onomatopoeia' && item.id ? item.id : source + ':' + i;
       next.source = source;
       next.studyLens = source === 'idioms' ? 'idiom' : (source === 'yojijukugo' ? 'yojijukugo' : 'vocab');
       next.mergeKey = getEntryKey(next);
@@ -249,9 +249,9 @@
         }
       }
 
-      if (best === candidate) {
-        merged.push(candidate);
-      }
+      // Emit the selected entry before retiring its group. The preferred source
+      // may occur later in ordered, so waiting for that candidate loses the word.
+      merged.push(best);
 
       delete groups[key];
     }
@@ -309,6 +309,21 @@
         var items = dedupeSpecialistItems(window.ONOMATOPOEIA_DATA || [], function (item) {
           return item.word || '';
         });
+        // Keep saved bookmarks when script variants were consolidated into one entry.
+        try {
+          var bookmarks = JSON.parse(localStorage.getItem('bookmarks-onomatopoeia') || '[]');
+          if (Array.isArray(bookmarks)) {
+            items.forEach(function (item) {
+              (item.legacyIds || []).forEach(function (oldId) {
+                if (bookmarks.indexOf(oldId) !== -1) {
+                  bookmarks = bookmarks.filter(function (id) { return id !== oldId; });
+                  if (bookmarks.indexOf(item.id) === -1) bookmarks.push(item.id);
+                }
+              });
+            });
+            localStorage.setItem('bookmarks-onomatopoeia', JSON.stringify(bookmarks));
+          }
+        } catch (error) { /* Storage can be unavailable; content still loads. */ }
         app.sections.onomatopoeia.setItems(createSourceScopedItems('onomatopoeia', items));
       }
     },
@@ -358,6 +373,7 @@
 
     var errorEl = document.createElement('div');
     errorEl.className = 'section-error hidden';
+    errorEl.setAttribute('role', 'alert');
 
     var textEl = document.createElement('div');
     textEl.className = 'section-error-text';
@@ -409,6 +425,8 @@
   function setLoadingVisible(name, visible, message) {
     var loadingEl = loadingEls[name];
     if (!loadingEl) return;
+    loadingEl.setAttribute('role', 'status');
+    if (app.sections[name]) app.sections[name].dom.grid.setAttribute('aria-busy', String(visible));
     if (message) {
       var label = loadingEl.querySelector('span');
       if (label) label.textContent = message;
@@ -502,7 +520,8 @@
     quizDataPromise = Promise.all([
       ensureSectionLoaded('kanji'),
       ensureSectionLoaded('grammar'),
-      ensureSectionLoaded('vocab')
+      ensureSectionLoaded('vocab'),
+      ensureSectionLoaded('onomatopoeia')
     ]).then(function () {
       quizDataLoaded = true;
     }).catch(function (err) {
@@ -546,6 +565,7 @@
 
   // === TAB SYSTEM ===
   function switchTab(tab) {
+    if (app.workspace && !app.workspace.beforeSwitch(tab)) return false;
     app.activeTab = tab;
     playSwoosh();
 
@@ -566,6 +586,8 @@
 
     // Quiz tab (no Section instance)
     if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
+
+    if (app.workspace) app.workspace.afterSwitch(tab);
 
     // Tab activate hooks
     if (tab === 'kana') {
@@ -633,14 +655,16 @@
   // === COUNT UPDATE ===
   function updateCount() {
     var tab = app.activeTab;
+    randomBtn.hidden = !app.sections[tab] || (app.workspace && app.workspace.isReadingView());
+    if (app.workspace && app.workspace.updateSpecialCount()) return;
     if (tab === 'kana') {
       var kanaLabels = { hiragana: 'Hiragana', katakana: 'Katakana' };
-      itemCountEl.textContent = kanaLabels[activeKanaMode] || 'Kana';
+      itemCountEl.textContent = document.querySelectorAll('.kana-cell-inner').length + ' Zeichen · ' + (kanaLabels[activeKanaMode] || 'Kana');
     } else if (tab === 'quiz') {
       itemCountEl.textContent = quizDataLoaded ? 'Quiz' : 'Lädt…';
     } else if (app.sections[tab]) {
       var sec = app.sections[tab];
-      itemCountEl.textContent = sec.isLoaded ? (sec.filteredItems.length + sec.config.countLabel) : 'Lädt…';
+      itemCountEl.textContent = sec.isLoaded ? (sec.filteredItems.length + sec.config.countLabel) : (sec.isLoading ? 'Lädt…' : 'Noch nicht geladen');
     }
   }
 
@@ -662,19 +686,7 @@
 
   // === OPEN RADICAL IN TAB (cross-section) ===
   function openRadicalInTab(radicalChar) {
-    switchTab('radicals');
-    ensureSectionLoaded('radicals').then(function () {
-      var radSec = app.sections.radicals;
-      radSec.resetFilterGroup('strokes');
-      radSec.dom.search.value = '';
-      radSec.applyFilters();
-      for (var i = 0; i < radSec.filteredItems.length; i++) {
-        if (radSec.filteredItems[i].radical === radicalChar) {
-          radSec.openDetail(i);
-          break;
-        }
-      }
-    }).catch(function () {});
+    if (app.workspace) app.workspace.openRelated('radicals', function (r) { return r.radical === radicalChar; });
   }
 
   // === BASIC NUMBERS (counters section) ===
@@ -687,7 +699,9 @@
     var section = document.createElement('div');
     section.className = 'counters-numbers-section';
 
-    var header = document.createElement('div');
+    var header = document.createElement('button');
+    header.type = 'button';
+    header.setAttribute('aria-expanded', 'true');
     header.className = 'counters-numbers-header';
     header.innerHTML = '<span class="tab-icon-kana" style="font-family:var(--font-jp)">\u6570</span> Grundzahlen' +
       '<svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
@@ -697,6 +711,9 @@
 
     var wrapper = document.createElement('div');
     wrapper.className = 'numbers-table-wrapper';
+    wrapper.tabIndex = 0;
+    wrapper.setAttribute('role', 'region');
+    wrapper.setAttribute('aria-label', 'Grundzahlen, horizontal scrollbar');
 
     var table = document.createElement('table');
     table.className = 'numbers-table';
@@ -721,6 +738,7 @@
       playTick();
       var icon = header.querySelector('.toggle-icon');
       body.classList.toggle('collapsed');
+      header.setAttribute('aria-expanded', !body.classList.contains('collapsed'));
       icon.classList.toggle('collapsed');
     });
 
@@ -772,6 +790,7 @@
     if (app.sections[tab]) {
       var sec = app.sections[tab];
       ensureSectionLoaded(tab).then(function () {
+        if (app.activeTab !== tab) return;
         if (sec.filteredItems.length === 0) return;
         var idx = Math.floor(Math.random() * sec.filteredItems.length);
         sec.openDetail(idx);
@@ -781,6 +800,11 @@
 
   // === KEYBOARD NAVIGATION (data-driven) ===
   document.addEventListener('keydown', function (e) {
+    if (e.defaultPrevented || e.isComposing || e.keyCode === 229 || e.ctrlKey || e.altKey || e.metaKey) return;
+    var focused = document.activeElement;
+    if (focused && (focused.matches('input, select, textarea') || focused.isContentEditable)) {
+      if (e.key !== 'Escape') return;
+    }
     // Quiz keyboard handling
     if (window.QuizModule && window.QuizModule.handleKey(e)) return;
 
@@ -789,8 +813,8 @@
       var sec = app.sections[sectionNames[i]];
       if (sec.isOverlayOpen()) {
         if (e.key === 'Escape') sec.closeDetail();
-        if (e.key === 'ArrowLeft') sec.navigateDetail(-1);
-        if (e.key === 'ArrowRight') sec.navigateDetail(1);
+        if (e.key === 'ArrowLeft' && !focused.matches('button, a, input, select, textarea')) sec.navigateDetail(-1);
+        if (e.key === 'ArrowRight' && !focused.matches('button, a, input, select, textarea')) sec.navigateDetail(1);
         return;
       }
     }
@@ -829,7 +853,7 @@
     }
 
     // Random entry: r
-    if (e.key === 'r') {
+    if (e.key === 'r' && !randomBtn.hidden) {
       randomBtn.click();
       return;
     }
@@ -884,11 +908,11 @@
         td.className = 'kana-cell';
 
         if (ch) {
-          var inner = document.createElement('div');
+          var inner = document.createElement('button');
+          inner.type = 'button';
+          inner.setAttribute('aria-label', (mode === 'hiragana' ? ch.h : ch.k) + ' · ' + ch.r + ' anhören');
           inner.className = 'kana-cell-inner';
           inner.setAttribute('data-row', rowData.row);
-          inner.style.background = isDark ? rowColor.darkBg : rowColor.bg;
-          inner.style.borderColor = isDark ? rowColor.darkBorder : rowColor.border;
 
           var charSpan = document.createElement('span');
           charSpan.className = 'kana-char';
@@ -898,7 +922,7 @@
           var romajiSpan = document.createElement('span');
           romajiSpan.className = 'kana-romaji';
           romajiSpan.textContent = ch.r;
-          romajiSpan.style.color = rowColor.color;
+
           inner.appendChild(romajiSpan);
 
           inner.addEventListener('click', function () {
@@ -1072,24 +1096,13 @@
     });
   });
 
-  function updateKanaDarkMode() {
-    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    var colors = window.KANA_DATA ? window.KANA_DATA.rowColors : null;
-    if (!colors) return;
-
-    document.querySelectorAll('.kana-cell-inner').forEach(function (cell) {
-      var rowKey = cell.getAttribute('data-row');
-      if (rowKey && colors[rowKey]) {
-        cell.style.background = isDark ? colors[rowKey].darkBg : colors[rowKey].bg;
-        cell.style.borderColor = isDark ? colors[rowKey].darkBorder : colors[rowKey].border;
-      }
-    });
-  }
+  function updateKanaDarkMode() {}
 
   // === HELP OVERLAY ===
   function toggleHelpOverlay() {
     var overlay = document.getElementById('help-overlay');
     if (!overlay) return;
+    if (app.workspace) { app.workspace.toggleHelp(); return; }
     var isHidden = overlay.classList.contains('hidden');
     overlay.classList.toggle('hidden', !isHidden);
     document.body.style.overflow = isHidden ? 'hidden' : '';

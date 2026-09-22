@@ -2,10 +2,26 @@
   "name": "nihongo-explorer",
   "private": true,
   "scripts": {
+    "build:quiz-review": "node scripts/build-quiz-review.cjs",
+    "test:quiz-review": "node scripts/quiz-review-import-test.cjs",
+    "build:comprehension": "node scripts/build-comprehension.cjs",
+    "audit:comprehension": "node scripts/audit-comprehension.cjs",
+    "test:comprehension": "node scripts/comprehension-test.cjs",
+    "test:audio": "node scripts/audio-packing-test.cjs",
     "audit:data": "node audit-data.js",
     "audit:verbs": "node audit-verb-conjugation.js",
+    "audit:quiz": "node audit-quiz-quality.js",
+    "audit:content": "node scripts/audit-content.cjs",
+    "audit:vocabulary": "node scripts/audit-vocabulary.cjs",
+    "import:vocabulary-completion": "node scripts/import-vocabulary-completion.cjs",
+    "audit:vocabulary-completion": "node scripts/audit-vocabulary-completion.cjs",
+    "report:vocabulary-completion": "node scripts/audit-vocabulary-completion.cjs --progress",
+    "test:vocabulary-completion": "node scripts/vocabulary-completion-test.cjs",
+    "audit:radicals": "node audit-kanji-radicals.js",
     "lint": "node scripts/lint.js",
-    "test:smoke": "node scripts/smoke-test.js"
+    "test:smoke": "node scripts/smoke-test.js",
+    "test:ui": "node scripts/ui-test.js",
+    "test:contrast": "node scripts/contrast-test.js"
   },
   "devDependencies": {
     "jsdom": "^26.1.0"

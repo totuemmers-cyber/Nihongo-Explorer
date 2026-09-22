@@ -104,6 +104,8 @@
     var sourceRule = getSourceRule(sourceName, item);
     if (sourceRule && sourceRule.exclude) return null;
     applyRule(normalized, sourceRule);
+    // The dated lexical review supersedes older heuristic correction rules.
+    if (item.conjugation) applyRule(normalized, item.conjugation);
 
     var exampleOverride = getExampleOverride(sourceName, item);
     if (exampleOverride && exampleOverride.examples) {
@@ -111,6 +113,12 @@
       normalized.examples = normalizeExamples(exampleOverride.examples);
       normalized.__exampleOverrideApplied = true;
     }
+
+    // Completion content is keyed by immutable raw source position and applied
+    // after historical normalization and example overrides.
+    var completion = window.VOCAB_CORRECTION_RULES && window.VOCAB_CORRECTION_RULES.completionBySource;
+    var completionPatch = completion && completion[sourceName] && completion[sourceName][index];
+    if (completionPatch) applyRule(normalized, completionPatch);
 
     normalized.__normalized =
       normalized.word !== normalized.__rawWord ||
