@@ -1,287 +1,1697 @@
+// Reviewed normalization and completion rules; see scripts/vocabulary-completion.json.
 window.VOCAB_CORRECTION_RULES = {
-  explicit: {
-    "\u301c\u306e\u69d8\u306b|\u306e\u3088\u3046\u306b": {"type":"Adverb"},
-    "\u304a\u9858\u3044|\u304a\u306d\u304c\u3044": {"type":"Nomen"},
-    "\u304a\u6301\u3061\u5e30\u308a|\u304a\u3082\u3061\u304b\u3048\u308a": {"type":"Nomen"},
-    "\u304a\u77e5\u3089\u305b|\u304a\u3057\u3089\u305b": {"type":"Nomen"},
-    "\u30b5\u30fc\u30d3\u30b9|\u30b5\u30fc\u30d3\u30b9": {"type":"Nomen"},
-    "\u30d0\u30a4\u30ad\u30f3\u30b0|\u30d0\u30a4\u30ad\u30f3\u30b0": {"type":"Nomen"},
-    "\u30da\u30e9\u30da\u30e9|\u30da\u30e9\u30da\u30e9": {"type":"Adverb"},
-    "\u60aa\u622f|\u3044\u305f\u305a\u3089": {"type":"Nomen"},
-    "\u6271\u3044|\u3042\u3064\u304b\u3044": {"type":"Nomen"},
-    "\u5b89\u58f2\u308a|\u3084\u3059\u3046\u308a": {"type":"Verb","conjugationReading":"\u3084\u3059\u3046\u308a\u3059\u308b"},
-    "\u4f4d\u7f6e|\u3044\u3061": {"type":"Adverb"},
-    "\u4f9d\u7136|\u3044\u305c\u3093": {"type":"Adverb"},
-    "\u6170\u5b89|\u3044\u3042\u3093": {"type":"Nomen"},
-    "\u6170\u8b1d|\u3044\u3057\u3083": {"type":"Nomen"},
-    "\u4e00\u8cab|\u3044\u3063\u304b\u3093": {"type":"Nomen"},
-    "\u4e00\u6c17\u306b|\u3044\u3063\u304d\u306b": {"type":"Adverb"},
-    "\u4e00\u4f53|\u3044\u3063\u305f\u3044": {"type":"Adverb"},
-    "\u4e00\u904d\u306b|\u3044\u3063\u307a\u3093\u306b": {"type":"Adverb"},
-    "\u4e00\u89a7|\u3044\u3061\u3089\u3093": {"type":"Nomen"},
-    "\u5f15\u9000|\u3044\u3093\u305f\u3044": {"type":"Nomen"},
-    "\u98f2\u9152|\u3044\u3093\u3057\u3085": {"type":"Nomen"},
-    "\u96a0\u5c45|\u3044\u3093\u304d\u3087": {"type":"Nomen"},
-    "\u6f14\u6280|\u3048\u3093\u304e": {"type":"Nomen"},
-    "\u9060\u5f81|\u3048\u3093\u305b\u3044": {"type":"Nomen"},
-    "\u5fdc\u52df|\u304a\u3046\u307c": {"type":"Nomen"},
-    "\u6bb4\u6253|\u304a\u3046\u3060": {"type":"Verb","conjugationReading":"\u304a\u3046\u3060\u3059\u308b"},
-    "\u4e0b\u66f8\u304d|\u3057\u305f\u304c\u304d": {"type":"Verb","conjugationReading":"\u3057\u305f\u304c\u304d\u3059\u308b"},
-    "\u4f55\u6545|\u306a\u305c": {"type":"Nomen"},
-    "\u53ef\u4e5f|\u304b\u306a\u308a": {"type":"Adverb"},
-    "\u958b\u59cb|\u304b\u3044\u3057": {"type":"Verb","conjugationReading":"\u304b\u3044\u3057\u3059\u308b"},
-    "\u78ba\u8a8d|\u304b\u304f\u306b\u3093": {"type":"Nomen"},
-    "\u62ec\u5f27|\u304b\u3063\u3053": {"type":"Nomen"},
-    "\u611f\u5fc3|\u304b\u3093\u3057\u3093": {"type":"Nomen"},
-    "\u6562\u7136|\u304b\u3093\u305c\u3093": {"type":"Adjektiv"},
-    "\u76e3\u8996|\u304b\u3093\u3057": {"type":"Verb","conjugationReading":"\u304b\u3093\u3057\u3059\u308b"},
-    "\u89b3\u89a7|\u304b\u3093\u3089\u3093": {"type":"Nomen"},
-    "\u4e38\u3054\u3068|\u307e\u308b\u3054\u3068": {"type":"Adverb"},
-    "\u542b\u610f|\u304c\u3093\u3044": {"type":"Nomen"},
-    "\u5b09\u3005|\u304d\u304d": {"type":"Nomen"},
-    "\u5e7e\u3089|\u3044\u304f\u3089": {"type":"Nomen"},
-    "\u5e7e\u5ea6|\u3044\u304f\u3069": {"type":"Adverb"},
-    "\u65e2\u306b|\u3059\u3067\u306b": {"type":"Adverb"},
-    "\u7948\u5ff5|\u304d\u306d\u3093": {"type":"Nomen"},
-    "\u8a18\u8f09|\u304d\u3055\u3044": {"type":"Nomen"},
-    "\u8650\u5f85|\u304e\u3083\u304f\u305f\u3044": {"type":"Nomen"},
-    "\u4f11\u6b62|\u304d\u3085\u3046\u3057": {"type":"Nomen"},
-    "\u7d66\u6cb9|\u304d\u3085\u3046\u3086": {"type":"Nomen"},
-    "\u5f37\u5236|\u304d\u3087\u3046\u305b\u3044": {"type":"Verb","conjugationReading":"\u304d\u3087\u3046\u305b\u3044\u3059\u308b"},
-    "\u6559\u8aed|\u304d\u3087\u3046\u3086": {"type":"Nomen"},
-    "\u7981\u5fcc|\u304d\u3093\u304d": {"type":"Nomen"},
-    "\u8fd1\u3005|\u3061\u304b\u3062\u304b": {"type":"Adverb"},
-    "\u533a\u5206|\u304f\u3076\u3093": {"type":"Nomen"},
-    "\u5076\u7136|\u3050\u3046\u305c\u3093": {"type":"Nomen"},
-    "\u8a13\u7df4|\u304f\u3093\u308c\u3093": {"type":"Verb","conjugationReading":"\u304f\u3093\u308c\u3093\u3059\u308b"},
-    "\u63b2\u8f09|\u3051\u3044\u3055\u3044": {"type":"Nomen"},
-    "\u63b2\u793a|\u3051\u3044\u3058": {"type":"Verb","conjugationReading":"\u3051\u3044\u3058\u3059\u308b"},
-    "\u643a\u5e2f|\u3051\u3044\u305f\u3044": {"type":"Nomen"},
-    "\u7d4c\u7531|\u3051\u3044\u3086": {"type":"Adverb"},
-    "\u8a08\u7b97|\u3051\u3044\u3055\u3093": {"type":"Nomen"},
-    "\u6fc0\u6012|\u3052\u304d\u3069": {"type":"Nomen"},
-    "\u6fc0\u52b1|\u3052\u304d\u308c\u3044": {"type":"Adjektiv"},
-    "\u7d50\u5a5a|\u3051\u3063\u3053\u3093": {"type":"Nomen"},
-    "\u732e\u91d1|\u3051\u3093\u304d\u3093": {"type":"Nomen"},
-    "\u9855\u5728|\u3051\u3093\u3056\u3044": {"type":"Adjektiv"},
-    "\u53b3\u7981|\u3052\u3093\u304d\u3093": {"type":"Nomen"},
-    "\u8a00\u8449\u9063\u3044|\u3053\u3068\u3070\u3065\u304b\u3044": {"type":"Nomen"},
-    "\u9650\u5b9a|\u3052\u3093\u3066\u3044": {"type":"Nomen"},
-    "\u53e4\u6765|\u3053\u3089\u3044": {"type":"Adverb"},
-    "\u5f8c\u3067|\u3042\u3068\u3067": {"type":"Adverb"},
-    "\u8aa4\u7b97|\u3054\u3055\u3093": {"type":"Nomen"},
-    "\u516c\u958b|\u3053\u3046\u304b\u3044": {"type":"Verb","conjugationReading":"\u3053\u3046\u304b\u3044\u3059\u308b"},
-    "\u5e78\u3044|\u3055\u3044\u308f\u3044": {"type":"Nomen"},
-    "\u6297\u6226|\u3053\u3046\u305b\u3093": {"type":"Nomen"},
-    "\u62d8\u7f6e|\u3053\u3046\u3061": {"type":"Nomen"},
-    "\u653b\u6483|\u3053\u3046\u3052\u304d": {"type":"Nomen"},
-    "\u80af\u5b9a|\u3053\u3046\u3066\u3044": {"type":"Nomen"},
-    "\u8b1b\u6f14|\u3053\u3046\u3048\u3093": {"type":"Nomen"},
-    "\u8cfc\u8cb7|\u3053\u3046\u3070\u3044": {"type":"Nomen"},
-    "\u5408\u8a08|\u3054\u3046\u3051\u3044": {"type":"Nomen"},
-    "\u5408\u56f3|\u3042\u3044\u305a": {"type":"Verb","conjugationReading":"\u3042\u3044\u305a\u3059\u308b"},
-    "\u62f7\u554f|\u3054\u3046\u3082\u3093": {"type":"Nomen"},
-    "\u9177\u4f3c|\u3053\u304f\u3058": {"type":"Verb","conjugationReading":"\u3053\u304f\u3058\u3059\u308b"},
-    "\u4eca\u307e\u3067|\u3044\u307e\u307e\u3067": {"type":"Adverb"},
-    "\u4eca\u66f4|\u3044\u307e\u3055\u3089": {"type":"Adverb"},
-    "\u5a5a\u59fb|\u3053\u3093\u3044\u3093": {"type":"Nomen"},
-    "\u61c7\u8ac7|\u3053\u3093\u3060\u3093": {"type":"Nomen"},
-    "\u61c7\u8a71|\u3053\u3093\u308f": {"type":"Nomen"},
-    "\u9b42\u80c6|\u3053\u3093\u305f\u3093": {"type":"Nomen"},
-    "\u8a50\u53d6|\u3055\u3057\u3085": {"type":"Verb","conjugationReading":"\u3055\u3057\u3085\u3059\u308b"},
-    "\u518d\u3073|\u3075\u305f\u305f\u3073": {"type":"Adjektiv"},
-    "\u518d\u5efa|\u3055\u3044\u3051\u3093": {"type":"Nomen"},
-    "\u518d\u5ea6|\u3055\u3044\u3069": {"type":"Adjektiv"},
-    "\u6700\u4f4e|\u3055\u3044\u3066\u3044": {"type":"Adjektiv"},
-    "\u5f69\u308a|\u3044\u308d\u3069\u308a": {"type":"Nomen"},
-    "\u7815\u77f3|\u3055\u3044\u305b\u304d": {"type":"Nomen"},
-    "\u64ae\u5f71|\u3055\u3064\u3048\u3044": {"type":"Nomen"},
-    "\u523a\u6fc0|\u3057\u3052\u304d": {"type":"Nomen"},
-    "\u601d\u308f\u305a|\u304a\u3082\u308f\u305a": {"type":"Adverb"},
-    "\u601d\u6155|\u3057\u307c": {"type":"Nomen"},
-    "\u6307\u6458|\u3057\u3066\u304d": {"type":"Nomen"},
-    "\u6b21\u3005|\u3064\u304e\u3064\u304e": {"type":"Adverb"},
-    "\u81ea\u3089|\u307f\u305a\u304b\u3089": {"type":"Adverb"},
-    "\u81ea\u611b|\u3058\u3042\u3044": {"type":"Nomen"},
-    "\u81ea\u885b|\u3058\u3048\u3044": {"type":"Nomen"},
-    "\u81ea\u85a6|\u3058\u305b\u3093": {"type":"Nomen"},
-    "\u5931\u793c|\u3057\u3064\u308c\u3044": {"type":"Adjektiv"},
-    "\u5b9f\u611f|\u3058\u3063\u304b\u3093": {"type":"Nomen"},
-    "\u5b9f\u969b|\u3058\u3063\u3055\u3044": {"type":"Adverb"},
-    "\u5b9f\u8df5|\u3058\u3063\u305b\u3093": {"type":"Nomen"},
-    "\u8d66\u514d|\u3057\u3083\u3081\u3093": {"type":"Nomen"},
-    "\u906e\u65ad|\u3057\u3083\u3060\u3093": {"type":"Verb","conjugationReading":"\u3057\u3083\u3060\u3093\u3059\u308b"},
-    "\u90aa\u9b54|\u3058\u3083\u307e": {"type":"Verb","conjugationReading":"\u3058\u3083\u307e\u3059\u308b"},
-    "\u501f\u5bb6|\u3057\u3083\u304f\u3084": {"type":"Nomen"},
-    "\u91c8\u660e|\u3057\u3083\u304f\u3081\u3044": {"type":"Verb","conjugationReading":"\u3057\u3083\u304f\u3081\u3044\u3059\u308b"},
-    "\u4e3b\u306b|\u304a\u3082\u306b": {"type":"Adverb"},
-    "\u4e3b\u50ac|\u3057\u3085\u3055\u3044": {"type":"Nomen"},
-    "\u53d6\u308a\u6562\u3048\u305a|\u3068\u308a\u3042\u3048\u305a": {"type":"Adverb"},
-    "\u96c6\u91d1|\u3057\u3085\u3046\u304d\u3093": {"type":"Nomen"},
-    "\u5de1\u56de|\u3058\u3085\u3093\u304b\u3044": {"type":"Nomen"},
-    "\u5f90\u3005|\u3058\u3087\u3058\u3087": {"type":"Adverb"},
-    "\u9664\u5916|\u3058\u3087\u304c\u3044": {"type":"Nomen"},
-    "\u5546\u58f2|\u3057\u3087\u3046\u3070\u3044": {"type":"Nomen"},
-    "\u5531\u6b4c|\u3057\u3087\u3046\u304b": {"type":"Nomen"},
-    "\u627f\u77e5|\u3057\u3087\u3046\u3061": {"type":"Nomen"},
-    "\u6d88\u5316|\u3057\u3087\u3046\u304b": {"type":"Nomen"},
-    "\u885d\u6483|\u3057\u3087\u3046\u3052\u304d": {"type":"Nomen"},
-    "\u4e0a\u6f14|\u3058\u3087\u3046\u3048\u3093": {"type":"Nomen"},
-    "\u5e38\u306b|\u3064\u306d\u306b": {"type":"Adverb"},
-    "\u5e38\u52e4|\u3058\u3087\u3046\u304d\u3093": {"type":"Nomen"},
-    "\u4fe1\u5fc3|\u3057\u3093\u3058\u3093": {"type":"Nomen"},
-    "\u5fc3\u6301\u3061|\u3053\u3053\u308d\u3082\u3061": {"type":"Nomen"},
-    "\u5fc3\u5e95|\u3057\u3093\u305d\u3053": {"type":"Adverb"},
-    "\u65b0\u305f|\u3042\u3089\u305f": {"type":"Adjektiv"},
-    "\u9032\u6483|\u3057\u3093\u3052\u304d": {"type":"Nomen"},
-    "\u9032\u5448|\u3057\u3093\u3066\u3044": {"type":"Verb","conjugationReading":"\u3057\u3093\u3066\u3044\u3059\u308b"},
-    "\u4eba\u9055\u3044|\u3072\u3068\u3061\u304c\u3044": {"type":"Nomen"},
-    "\u63a8\u5b9a|\u3059\u3044\u3066\u3044": {"type":"Nomen"},
-    "\u968f\u5206|\u305a\u3044\u3076\u3093": {"type":"Adverb"},
-    "\u52e2\u3044|\u3044\u304d\u304a\u3044": {"type":"Nomen"},
-    "\u6210\u7a0b|\u306a\u308b\u307b\u3069": {"type":"Nomen"},
-    "\u6574\u7136|\u305b\u3044\u305c\u3093": {"type":"Nomen"},
-    "\u6b63\u89e3|\u305b\u3044\u304b\u3044": {"type":"Adjektiv"},
-    "\u9752\u6625|\u305b\u3044\u3057\u3085\u3093": {"type":"Adverb"},
-    "\u9759\u3005|\u3057\u305a\u3057\u305a": {"type":"Adverb"},
-    "\u60dc\u6557|\u305b\u304d\u306f\u3044": {"type":"Nomen"},
-    "\u6442\u7406|\u305b\u3064\u308a": {"type":"Nomen"},
-    "\u5148\u305a|\u307e\u305a": {"type":"Adverb"},
-    "\u5ba3\u8a00|\u305b\u3093\u3052\u3093": {"type":"Nomen"},
-    "\u6d17\u8eca|\u305b\u3093\u3057\u3083": {"type":"Verb","conjugationReading":"\u305b\u3093\u3057\u3083\u3059\u308b"},
-    "\u65cb\u56de|\u305b\u3093\u304b\u3044": {"type":"Nomen"},
-    "\u8239\u9154\u3044|\u3075\u306a\u3088\u3044": {"type":"Nomen"},
-    "\u85a6\u3081|\u3059\u3059\u3081": {"type":"Nomen"},
-    "\u9077\u90fd|\u305b\u3093\u3068": {"type":"Nomen"},
-    "\u5168\u6cbb|\u305c\u3093\u3061": {"type":"Adverb"},
-    "\u5168\u7136|\u305c\u3093\u305c\u3093": {"type":"Adverb"},
-    "\u76f8\u56f3|\u3042\u3044\u305a": {"type":"Verb","conjugationReading":"\u3042\u3044\u305a\u3059\u308b"},
-    "\u8d08\u8cc4|\u305e\u3046\u308f\u3044": {"type":"Nomen"},
-    "\u5815\u80ce|\u3060\u305f\u3044": {"type":"Nomen"},
-    "\u5bfe\u8ac7|\u305f\u3044\u3060\u3093": {"type":"Nomen"},
-    "\u5f85\u5408|\u307e\u3061\u3042\u3044": {"type":"Adverb"},
-    "\u614b\u3068|\u308f\u3056\u3068": {"type":"Adverb"},
-    "\u5927\u5931\u6557|\u3060\u3044\u3057\u3063\u3071\u3044": {"type":"Nomen"},
-    "\u5927\u9a12\u304e|\u304a\u304a\u3055\u308f\u304e": {"type":"Nomen"},
-    "\u7b2c\u4e00|\u3060\u3044\u3044\u3061": {"type":"Adverb"},
-    "\u4e39\u8aa0|\u305f\u3093\u305b\u3044": {"type":"Nomen"},
-    "\u63a2\u5075|\u305f\u3093\u3066\u3044": {"type":"Nomen"},
-    "\u75f4\u6f22|\u3061\u304b\u3093": {"type":"Nomen"},
-    "\u9045\u6ede|\u3061\u305f\u3044": {"type":"Adverb"},
-    "\u7740\u66ff\u3048|\u304d\u304c\u3048": {"type":"Nomen"},
-    "\u4e2d\u3005|\u306a\u304b\u306a\u304b": {"type":"Adverb"},
-    "\u62bd\u9078|\u3061\u3085\u3046\u305b\u3093": {"type":"Nomen"},
-    "\u99d0\u5728|\u3061\u3085\u3046\u3056\u3044": {"type":"Nomen"},
-    "\u5f14\u610f|\u3061\u3087\u3046\u3044": {"type":"Nomen"},
-    "\u76f4\u524d|\u3061\u3087\u304f\u305c\u3093": {"type":"Adverb"},
-    "\u8cc3\u8cb8|\u3061\u3093\u305f\u3044": {"type":"Nomen"},
-    "\u8ffd\u968f|\u3064\u3044\u305a\u3044": {"type":"Nomen"},
-    "\u505c\u6b62|\u3066\u3044\u3057": {"type":"Nomen"},
-    "\u505c\u96fb|\u3066\u3044\u3067\u3093": {"type":"Nomen"},
-    "\u8ae6\u89b3|\u3066\u3044\u304b\u3093": {"type":"Nomen"},
-    "\u5fb9\u5e95|\u3066\u3063\u3066\u3044": {"type":"Verb","conjugationReading":"\u3066\u3063\u3066\u3044\u3059\u308b"},
-    "\u5fb9\u591c|\u3066\u3064\u3084": {"type":"Adverb"},
-    "\u64a4\u53bb|\u3066\u3063\u304d\u3087": {"type":"Nomen"},
-    "\u64a4\u5175|\u3066\u3063\u307a\u3044": {"type":"Nomen"},
-    "\u8ced\u3051|\u304b\u3051": {"type":"Nomen"},
-    "\u5012\u58ca|\u3068\u3046\u304b\u3044": {"type":"Nomen"},
-    "\u6295\u68c4|\u3068\u3046\u304d": {"type":"Nomen"},
-    "\u7d71\u5e25|\u3068\u3046\u3059\u3044": {"type":"Nomen"},
-    "\u540c\u611f|\u3069\u3046\u304b\u3093": {"type":"Nomen"},
-    "\u7279\u9078|\u3068\u304f\u305b\u3093": {"type":"Nomen"},
-    "\u72ec\u88c1|\u3069\u304f\u3055\u3044": {"type":"Nomen"},
-    "\u7a81\u8cab|\u3068\u3063\u304b\u3093": {"type":"Nomen"},
-    "\u7a81\u7136|\u3068\u3064\u305c\u3093": {"type":"Adverb"},
-    "\u7a81\u5982|\u3068\u3064\u3058\u3087": {"type":"Adverb"},
-    "\u5185\u5075|\u306a\u3044\u3066\u3044": {"type":"Nomen"},
-    "\u8edf\u7981|\u306a\u3093\u304d\u3093": {"type":"Nomen"},
-    "\u4e8c\u65e5\u9154\u3044|\u3075\u3064\u304b\u3088\u3044": {"type":"Nomen"},
-    "\u5165\u308c\u58a8|\u3044\u308c\u305a\u307f": {"type":"Nomen"},
-    "\u5165\u7c4d|\u306b\u3085\u3046\u305b\u304d": {"type":"Verb","conjugationReading":"\u306b\u3085\u3046\u305b\u304d\u3059\u308b"},
-    "\u5165\u968a|\u306b\u3085\u3046\u305f\u3044": {"type":"Nomen"},
-    "\u5165\u9580|\u306b\u3085\u3046\u3082\u3093": {"type":"Nomen"},
-    "\u7c98\u3005|\u306d\u3070\u306d\u3070": {"type":"Adjektiv"},
-    "\u7834\u58ca|\u306f\u304b\u3044": {"type":"Verb","conjugationReading":"\u306f\u304b\u3044\u3059\u308b"},
-    "\u6392\u6c34|\u306f\u3044\u3059\u3044": {"type":"Nomen"},
-    "\u7206\u6483|\u3070\u304f\u3052\u304d": {"type":"Nomen"},
-    "\u9262\u5dfb|\u306f\u3061\u307e\u304d": {"type":"Nomen"},
-    "\u767a\u58f2|\u306f\u3064\u3070\u3044": {"type":"Verb","conjugationReading":"\u306f\u3064\u3070\u3044\u3059\u308b"},
-    "\u80a5\u6e80|\u3072\u307e\u3093": {"type":"Nomen"},
-    "\u907f\u598a|\u3072\u306b\u3093": {"type":"Verb","conjugationReading":"\u3072\u306b\u3093\u3059\u308b"},
-    "\u975e\u96e3|\u3072\u306a\u3093": {"type":"Verb","conjugationReading":"\u3072\u306a\u3093\u3059\u308b"},
-    "\u8a55\u8ad6|\u3072\u3087\u3046\u308d\u3093": {"type":"Nomen"},
-    "\u63cf\u753b|\u3073\u3087\u3046\u304c": {"type":"Nomen"},
-    "\u4e0d\u502b|\u3075\u308a\u3093": {"type":"Verb","conjugationReading":"\u3075\u308a\u3093\u3059\u308b"},
-    "\u6276\u52a9|\u3075\u3058\u3087": {"type":"Nomen"},
-    "\u666e\u6bb5|\u3075\u3060\u3093": {"type":"Nomen"},
-    "\u5c01\u9396|\u3075\u3046\u3055": {"type":"Verb","conjugationReading":"\u3075\u3046\u3055\u3059\u308b"},
-    "\u8986\u9762|\u3075\u304f\u3081\u3093": {"type":"Nomen"},
-    "\u7269\u771f\u4f3c|\u3082\u306e\u307e\u306d": {"type":"Nomen"},
-    "\u5206\u89e3|\u3076\u3093\u304b\u3044": {"type":"Nomen"},
-    "\u5674\u5c04|\u3075\u3093\u3057\u3083": {"type":"Nomen"},
-    "\u596e\u8d77|\u3075\u3093\u304d": {"type":"Nomen"},
-    "\u7c89\u7815|\u3075\u3093\u3055\u3044": {"type":"Nomen"},
-    "\u6587\u5b57\u901a\u308a|\u3082\u3058\u3069\u304a\u308a": {"type":"Adverb"},
-    "\u5e73\u5747|\u3078\u3044\u304d\u3093": {"type":"Nomen"},
-    "\u9589\u9396|\u3078\u3044\u3055": {"type":"Verb","conjugationReading":"\u3078\u3044\u3055\u3059\u308b"},
-    "\u5225\u306b|\u3079\u3064\u306b": {"type":"Adverb"},
-    "\u904d\u6b74|\u3078\u3093\u308c\u304d": {"type":"Nomen"},
-    "\u88dc\u4f50|\u307b\u3055": {"type":"Nomen"},
-    "\u653e\u68c4|\u307b\u3046\u304d": {"type":"Verb","conjugationReading":"\u307b\u3046\u304d\u3059\u308b"},
-    "\u653e\u5c04|\u307b\u3046\u3057\u3083": {"type":"Nomen"},
-    "\u7e2b\u88fd|\u307b\u3046\u305b\u3044": {"type":"Nomen"},
-    "\u8a2a\u554f|\u307b\u3046\u3082\u3093": {"type":"Nomen"},
-    "\u98fd\u304f\u307e\u3067\u3082|\u3042\u304f\u307e\u3067\u3082": {"type":"Adverb"},
-    "\u5192\u967a|\u307c\u3046\u3051\u3093": {"type":"Nomen"},
-    "\u9632\u706b|\u307c\u3046\u304b": {"type":"Nomen"},
-    "\u4e07\u6b73|\u3070\u3093\u3056\u3044": {"type":"Nomen"},
-    "\u672a\u3060|\u3044\u307e\u3060": {"type":"Adverb"},
-    "\u5bc6\u8f38|\u307f\u3064\u3086": {"type":"Verb","conjugationReading":"\u307f\u3064\u3086\u3059\u308b"},
-    "\u8ff7\u8def|\u3081\u3044\u308d": {"type":"Nomen"},
-    "\u514d\u9664|\u3081\u3093\u3058\u3087": {"type":"Verb","conjugationReading":"\u3081\u3093\u3058\u3087\u3059\u308b"},
-    "\u8e8d\u9032|\u3084\u304f\u3057\u3093": {"type":"Nomen"},
-    "\u8e8d\u5982|\u3084\u304f\u3058\u3087": {"type":"Adjektiv"},
-    "\u512a\u5148|\u3086\u3046\u305b\u3093": {"type":"Nomen"},
-    "\u5e7d\u9589|\u3086\u3046\u3078\u3044": {"type":"Verb","conjugationReading":"\u3086\u3046\u3078\u3044\u3059\u308b"},
-    "\u7336\u4e88|\u3086\u3046\u3088": {"type":"Adverb"},
-    "\u904a\u622f|\u3086\u3046\u304e": {"type":"Verb","conjugationReading":"\u3086\u3046\u304e\u3059\u308b"},
-    "\u4f59\u8a08|\u3088\u3051\u3044": {"type":"Adjektiv"},
-    "\u5bb9\u8d66|\u3088\u3046\u3057\u3083": {"type":"Nomen"},
-    "\u9065\u304b|\u306f\u308b\u304b": {"type":"Adjektiv"},
-    "\u6291\u6b62|\u3088\u304f\u3057": {"type":"Nomen"},
-    "\u843d\u66f8\u304d|\u3089\u304f\u304c\u304d": {"type":"Verb","conjugationReading":"\u3089\u304f\u304c\u304d\u3059\u308b"},
-    "\u843d\u96f7|\u3089\u304f\u3089\u3044": {"type":"Nomen"},
-    "\u7acb\u3061\u98f2\u307f|\u305f\u3061\u306e\u307f": {"type":"Nomen"},
-    "\u6d41\u77f3|\u3055\u3059\u304c": {"type":"Adverb"},
-    "\u7559\u5b88\u756a|\u308b\u3059\u3070\u3093": {"type":"Verb","conjugationReading":"\u308b\u3059\u3070\u3093\u3059\u308b"},
-    "\u529b\u3044\u3063\u3071\u3044|\u3061\u304b\u3089\u3044\u3063\u3071\u3044": {"type":"Adverb"},
-    "\u7d2f\u8a08|\u308b\u3044\u3051\u3044": {"type":"Nomen"},
-    "\u9023\u9396|\u308c\u3093\u3055": {"type":"Nomen"},
-    "\u6f0f\u6c34|\u308d\u3046\u3059\u3044": {"type":"Nomen"},
-    "\u8001\u8870|\u308d\u3046\u3059\u3044": {"type":"Nomen"},
-    "\u62c9\u81f4|\u3089\u3061": {"type":"Nomen"},
-    "\u98af\u3068|\u3055\u3063\u3068": {"type":"Adverb"}
+  "explicit": {
+    "来る|くる": {
+      "verbGroup": "kuru"
+    },
+    "繰る|くる": {
+      "verbGroup": "godan"
+    },
+    "作る|つくる": {
+      "verbGroup": "godan"
+    },
+    "造る|つくる": {
+      "verbGroup": "godan"
+    },
+    "送る|おくる": {
+      "verbGroup": "godan"
+    },
+    "贈る|おくる": {
+      "verbGroup": "godan"
+    },
+    "見送る|みおくる": {
+      "verbGroup": "godan"
+    },
+    "めくる|めくる": {
+      "verbGroup": "godan"
+    },
+    "括る|くくる": {
+      "verbGroup": "godan"
+    },
+    "締め括る|しめくくる": {
+      "verbGroup": "godan"
+    },
+    "寝る|ねる": {
+      "verbGroup": "ichidan"
+    },
+    "練る|ねる": {
+      "verbGroup": "godan"
+    },
+    "着る|きる": {
+      "verbGroup": "ichidan"
+    },
+    "切る|きる": {
+      "verbGroup": "godan"
+    },
+    "斬る|きる": {
+      "verbGroup": "godan"
+    },
+    "いる|いる": {
+      "verbGroup": "ichidan"
+    },
+    "居る|いる": {
+      "verbGroup": "ichidan"
+    },
+    "鋳る|いる": {
+      "verbGroup": "ichidan"
+    },
+    "要る|いる": {
+      "verbGroup": "godan"
+    },
+    "炒る|いる": {
+      "verbGroup": "godan"
+    },
+    "煎る|いる": {
+      "verbGroup": "godan"
+    },
+    "帰る|かえる": {
+      "verbGroup": "godan"
+    },
+    "返る|かえる": {
+      "verbGroup": "godan"
+    },
+    "変える|かえる": {
+      "verbGroup": "ichidan"
+    },
+    "代える|かえる": {
+      "verbGroup": "ichidan"
+    },
+    "替える|かえる": {
+      "verbGroup": "ichidan"
+    },
+    "換える|かえる": {
+      "verbGroup": "ichidan"
+    },
+    "減る|へる": {
+      "verbGroup": "godan"
+    },
+    "経る|へる": {
+      "verbGroup": "ichidan"
+    },
+    "混ぜる|まぜる": {
+      "verbGroup": "ichidan"
+    },
+    "交ぜる|まぜる": {
+      "verbGroup": "ichidan"
+    },
+    "刷る|する": {
+      "verbGroup": "godan"
+    },
+    "擦る|する": {
+      "verbGroup": "godan"
+    },
+    "啜る|すする": {
+      "verbGroup": "godan"
+    },
+    "〜の様に|のように": {
+      "type": "Adverb"
+    },
+    "お願い|おねがい": {
+      "type": "Nomen"
+    },
+    "お持ち帰り|おもちかえり": {
+      "type": "Nomen"
+    },
+    "お知らせ|おしらせ": {
+      "type": "Nomen"
+    },
+    "サービス|サービス": {
+      "type": "Nomen"
+    },
+    "バイキング|バイキング": {
+      "type": "Nomen"
+    },
+    "ペラペラ|ペラペラ": {
+      "type": "Adverb"
+    },
+    "悪戯|いたずら": {
+      "type": "Nomen"
+    },
+    "扱い|あつかい": {
+      "type": "Nomen"
+    },
+    "安売り|やすうり": {
+      "type": "Verb",
+      "conjugationReading": "やすうりする"
+    },
+    "位置|いち": {
+      "type": "Adverb"
+    },
+    "依然|いぜん": {
+      "type": "Adverb"
+    },
+    "慰安|いあん": {
+      "type": "Nomen"
+    },
+    "慰謝|いしゃ": {
+      "type": "Nomen"
+    },
+    "一貫|いっかん": {
+      "type": "Nomen"
+    },
+    "一気に|いっきに": {
+      "type": "Adverb"
+    },
+    "一体|いったい": {
+      "type": "Adverb"
+    },
+    "一遍に|いっぺんに": {
+      "type": "Adverb"
+    },
+    "一覧|いちらん": {
+      "type": "Nomen"
+    },
+    "引退|いんたい": {
+      "type": "Nomen"
+    },
+    "飲酒|いんしゅ": {
+      "type": "Nomen"
+    },
+    "隠居|いんきょ": {
+      "type": "Nomen"
+    },
+    "演技|えんぎ": {
+      "type": "Nomen"
+    },
+    "遠征|えんせい": {
+      "type": "Nomen"
+    },
+    "応募|おうぼ": {
+      "type": "Nomen"
+    },
+    "殴打|おうだ": {
+      "type": "Verb",
+      "conjugationReading": "おうだする"
+    },
+    "下書き|したがき": {
+      "type": "Verb",
+      "conjugationReading": "したがきする"
+    },
+    "何故|なぜ": {
+      "type": "Nomen"
+    },
+    "可也|かなり": {
+      "type": "Adverb"
+    },
+    "開始|かいし": {
+      "type": "Verb",
+      "conjugationReading": "かいしする"
+    },
+    "確認|かくにん": {
+      "type": "Nomen"
+    },
+    "括弧|かっこ": {
+      "type": "Nomen"
+    },
+    "感心|かんしん": {
+      "type": "Nomen"
+    },
+    "敢然|かんぜん": {
+      "type": "Adjektiv"
+    },
+    "監視|かんし": {
+      "type": "Verb",
+      "conjugationReading": "かんしする"
+    },
+    "観覧|かんらん": {
+      "type": "Nomen"
+    },
+    "丸ごと|まるごと": {
+      "type": "Adverb"
+    },
+    "含意|がんい": {
+      "type": "Nomen"
+    },
+    "嬉々|きき": {
+      "type": "Nomen"
+    },
+    "幾ら|いくら": {
+      "type": "Nomen"
+    },
+    "幾度|いくど": {
+      "type": "Adverb"
+    },
+    "既に|すでに": {
+      "type": "Adverb"
+    },
+    "祈念|きねん": {
+      "type": "Nomen"
+    },
+    "記載|きさい": {
+      "type": "Nomen"
+    },
+    "虐待|ぎゃくたい": {
+      "type": "Nomen"
+    },
+    "休止|きゅうし": {
+      "type": "Nomen"
+    },
+    "給油|きゅうゆ": {
+      "type": "Nomen"
+    },
+    "強制|きょうせい": {
+      "type": "Verb",
+      "conjugationReading": "きょうせいする"
+    },
+    "教諭|きょうゆ": {
+      "type": "Nomen"
+    },
+    "禁忌|きんき": {
+      "type": "Nomen"
+    },
+    "近々|ちかぢか": {
+      "type": "Adverb"
+    },
+    "区分|くぶん": {
+      "type": "Nomen"
+    },
+    "偶然|ぐうぜん": {
+      "type": "Nomen"
+    },
+    "訓練|くんれん": {
+      "type": "Verb",
+      "conjugationReading": "くんれんする"
+    },
+    "掲載|けいさい": {
+      "type": "Nomen"
+    },
+    "掲示|けいじ": {
+      "type": "Verb",
+      "conjugationReading": "けいじする"
+    },
+    "携帯|けいたい": {
+      "type": "Nomen"
+    },
+    "経由|けいゆ": {
+      "type": "Adverb"
+    },
+    "計算|けいさん": {
+      "type": "Nomen"
+    },
+    "激怒|げきど": {
+      "type": "Nomen"
+    },
+    "激励|げきれい": {
+      "type": "Adjektiv"
+    },
+    "結婚|けっこん": {
+      "type": "Nomen"
+    },
+    "献金|けんきん": {
+      "type": "Nomen"
+    },
+    "顕在|けんざい": {
+      "type": "Adjektiv"
+    },
+    "厳禁|げんきん": {
+      "type": "Nomen"
+    },
+    "言葉遣い|ことばづかい": {
+      "type": "Nomen"
+    },
+    "限定|げんてい": {
+      "type": "Nomen"
+    },
+    "古来|こらい": {
+      "type": "Adverb"
+    },
+    "後で|あとで": {
+      "type": "Adverb"
+    },
+    "誤算|ごさん": {
+      "type": "Nomen"
+    },
+    "公開|こうかい": {
+      "type": "Verb",
+      "conjugationReading": "こうかいする"
+    },
+    "幸い|さいわい": {
+      "type": "Nomen"
+    },
+    "抗戦|こうせん": {
+      "type": "Nomen"
+    },
+    "拘置|こうち": {
+      "type": "Nomen"
+    },
+    "攻撃|こうげき": {
+      "type": "Nomen"
+    },
+    "肯定|こうてい": {
+      "type": "Nomen"
+    },
+    "講演|こうえん": {
+      "type": "Nomen"
+    },
+    "購買|こうばい": {
+      "type": "Nomen"
+    },
+    "合計|ごうけい": {
+      "type": "Nomen"
+    },
+    "合図|あいず": {
+      "type": "Verb",
+      "conjugationReading": "あいずする"
+    },
+    "拷問|ごうもん": {
+      "type": "Nomen"
+    },
+    "酷似|こくじ": {
+      "type": "Verb",
+      "conjugationReading": "こくじする"
+    },
+    "今まで|いままで": {
+      "type": "Adverb"
+    },
+    "今更|いまさら": {
+      "type": "Adverb"
+    },
+    "婚姻|こんいん": {
+      "type": "Nomen"
+    },
+    "懇談|こんだん": {
+      "type": "Nomen"
+    },
+    "懇話|こんわ": {
+      "type": "Nomen"
+    },
+    "魂胆|こんたん": {
+      "type": "Nomen"
+    },
+    "詐取|さしゅ": {
+      "type": "Verb",
+      "conjugationReading": "さしゅする"
+    },
+    "再び|ふたたび": {
+      "type": "Adjektiv"
+    },
+    "再建|さいけん": {
+      "type": "Nomen"
+    },
+    "再度|さいど": {
+      "type": "Adjektiv"
+    },
+    "最低|さいてい": {
+      "type": "Adjektiv"
+    },
+    "彩り|いろどり": {
+      "type": "Nomen"
+    },
+    "砕石|さいせき": {
+      "type": "Nomen"
+    },
+    "撮影|さつえい": {
+      "type": "Nomen"
+    },
+    "刺激|しげき": {
+      "type": "Nomen"
+    },
+    "思わず|おもわず": {
+      "type": "Adverb"
+    },
+    "思慕|しぼ": {
+      "type": "Nomen"
+    },
+    "指摘|してき": {
+      "type": "Nomen"
+    },
+    "次々|つぎつぎ": {
+      "type": "Adverb"
+    },
+    "自ら|みずから": {
+      "type": "Adverb"
+    },
+    "自愛|じあい": {
+      "type": "Nomen"
+    },
+    "自衛|じえい": {
+      "type": "Nomen"
+    },
+    "自薦|じせん": {
+      "type": "Nomen"
+    },
+    "失礼|しつれい": {
+      "type": "Adjektiv"
+    },
+    "実感|じっかん": {
+      "type": "Nomen"
+    },
+    "実際|じっさい": {
+      "type": "Adverb"
+    },
+    "実践|じっせん": {
+      "type": "Nomen"
+    },
+    "赦免|しゃめん": {
+      "type": "Nomen"
+    },
+    "遮断|しゃだん": {
+      "type": "Verb",
+      "conjugationReading": "しゃだんする"
+    },
+    "邪魔|じゃま": {
+      "type": "Verb",
+      "conjugationReading": "じゃまする"
+    },
+    "借家|しゃくや": {
+      "type": "Nomen"
+    },
+    "釈明|しゃくめい": {
+      "type": "Verb",
+      "conjugationReading": "しゃくめいする"
+    },
+    "主に|おもに": {
+      "type": "Adverb"
+    },
+    "主催|しゅさい": {
+      "type": "Nomen"
+    },
+    "取り敢えず|とりあえず": {
+      "type": "Adverb"
+    },
+    "集金|しゅうきん": {
+      "type": "Nomen"
+    },
+    "巡回|じゅんかい": {
+      "type": "Nomen"
+    },
+    "徐々|じょじょ": {
+      "type": "Adverb"
+    },
+    "除外|じょがい": {
+      "type": "Nomen"
+    },
+    "商売|しょうばい": {
+      "type": "Nomen"
+    },
+    "唱歌|しょうか": {
+      "type": "Nomen"
+    },
+    "承知|しょうち": {
+      "type": "Nomen"
+    },
+    "消化|しょうか": {
+      "type": "Nomen"
+    },
+    "衝撃|しょうげき": {
+      "type": "Nomen"
+    },
+    "上演|じょうえん": {
+      "type": "Nomen"
+    },
+    "常に|つねに": {
+      "type": "Adverb"
+    },
+    "常勤|じょうきん": {
+      "type": "Nomen"
+    },
+    "信心|しんじん": {
+      "type": "Nomen"
+    },
+    "心持ち|こころもち": {
+      "type": "Nomen"
+    },
+    "心底|しんそこ": {
+      "type": "Adverb"
+    },
+    "新た|あらた": {
+      "type": "Adjektiv"
+    },
+    "進撃|しんげき": {
+      "type": "Nomen"
+    },
+    "進呈|しんてい": {
+      "type": "Verb",
+      "conjugationReading": "しんていする"
+    },
+    "人違い|ひとちがい": {
+      "type": "Nomen"
+    },
+    "推定|すいてい": {
+      "type": "Nomen"
+    },
+    "随分|ずいぶん": {
+      "type": "Adverb"
+    },
+    "勢い|いきおい": {
+      "type": "Nomen"
+    },
+    "成程|なるほど": {
+      "type": "Nomen"
+    },
+    "整然|せいぜん": {
+      "type": "Nomen"
+    },
+    "正解|せいかい": {
+      "type": "Adjektiv"
+    },
+    "青春|せいしゅん": {
+      "type": "Adverb"
+    },
+    "静々|しずしず": {
+      "type": "Adverb"
+    },
+    "惜敗|せきはい": {
+      "type": "Nomen"
+    },
+    "摂理|せつり": {
+      "type": "Nomen"
+    },
+    "先ず|まず": {
+      "type": "Adverb"
+    },
+    "宣言|せんげん": {
+      "type": "Nomen"
+    },
+    "洗車|せんしゃ": {
+      "type": "Verb",
+      "conjugationReading": "せんしゃする"
+    },
+    "旋回|せんかい": {
+      "type": "Nomen"
+    },
+    "船酔い|ふなよい": {
+      "type": "Nomen"
+    },
+    "薦め|すすめ": {
+      "type": "Nomen"
+    },
+    "遷都|せんと": {
+      "type": "Nomen"
+    },
+    "全治|ぜんち": {
+      "type": "Adverb"
+    },
+    "全然|ぜんぜん": {
+      "type": "Adverb"
+    },
+    "相図|あいず": {
+      "type": "Verb",
+      "conjugationReading": "あいずする"
+    },
+    "贈賄|ぞうわい": {
+      "type": "Nomen"
+    },
+    "堕胎|だたい": {
+      "type": "Nomen"
+    },
+    "対談|たいだん": {
+      "type": "Nomen"
+    },
+    "待合|まちあい": {
+      "type": "Adverb"
+    },
+    "態と|わざと": {
+      "type": "Adverb"
+    },
+    "大失敗|だいしっぱい": {
+      "type": "Nomen"
+    },
+    "大騒ぎ|おおさわぎ": {
+      "type": "Nomen"
+    },
+    "第一|だいいち": {
+      "type": "Adverb"
+    },
+    "丹誠|たんせい": {
+      "type": "Nomen"
+    },
+    "探偵|たんてい": {
+      "type": "Nomen"
+    },
+    "痴漢|ちかん": {
+      "type": "Nomen"
+    },
+    "遅滞|ちたい": {
+      "type": "Adverb"
+    },
+    "着替え|きがえ": {
+      "type": "Nomen"
+    },
+    "中々|なかなか": {
+      "type": "Adverb"
+    },
+    "抽選|ちゅうせん": {
+      "type": "Nomen"
+    },
+    "駐在|ちゅうざい": {
+      "type": "Nomen"
+    },
+    "弔意|ちょうい": {
+      "type": "Nomen"
+    },
+    "直前|ちょくぜん": {
+      "type": "Adverb"
+    },
+    "賃貸|ちんたい": {
+      "type": "Nomen"
+    },
+    "追随|ついずい": {
+      "type": "Nomen"
+    },
+    "停止|ていし": {
+      "type": "Nomen"
+    },
+    "停電|ていでん": {
+      "type": "Nomen"
+    },
+    "諦観|ていかん": {
+      "type": "Nomen"
+    },
+    "徹底|てってい": {
+      "type": "Verb",
+      "conjugationReading": "てっていする"
+    },
+    "徹夜|てつや": {
+      "type": "Adverb"
+    },
+    "撤去|てっきょ": {
+      "type": "Nomen"
+    },
+    "撤兵|てっぺい": {
+      "type": "Nomen"
+    },
+    "賭け|かけ": {
+      "type": "Nomen"
+    },
+    "倒壊|とうかい": {
+      "type": "Nomen"
+    },
+    "投棄|とうき": {
+      "type": "Nomen"
+    },
+    "統帥|とうすい": {
+      "type": "Nomen"
+    },
+    "同感|どうかん": {
+      "type": "Nomen"
+    },
+    "特選|とくせん": {
+      "type": "Nomen"
+    },
+    "独裁|どくさい": {
+      "type": "Nomen"
+    },
+    "突貫|とっかん": {
+      "type": "Nomen"
+    },
+    "突然|とつぜん": {
+      "type": "Adverb"
+    },
+    "突如|とつじょ": {
+      "type": "Adverb"
+    },
+    "内偵|ないてい": {
+      "type": "Nomen"
+    },
+    "軟禁|なんきん": {
+      "type": "Nomen"
+    },
+    "二日酔い|ふつかよい": {
+      "type": "Nomen"
+    },
+    "入れ墨|いれずみ": {
+      "type": "Nomen"
+    },
+    "入籍|にゅうせき": {
+      "type": "Verb",
+      "conjugationReading": "にゅうせきする"
+    },
+    "入隊|にゅうたい": {
+      "type": "Nomen"
+    },
+    "入門|にゅうもん": {
+      "type": "Nomen"
+    },
+    "粘々|ねばねば": {
+      "type": "Adjektiv"
+    },
+    "破壊|はかい": {
+      "type": "Verb",
+      "conjugationReading": "はかいする"
+    },
+    "排水|はいすい": {
+      "type": "Nomen"
+    },
+    "爆撃|ばくげき": {
+      "type": "Nomen"
+    },
+    "鉢巻|はちまき": {
+      "type": "Nomen"
+    },
+    "発売|はつばい": {
+      "type": "Verb",
+      "conjugationReading": "はつばいする"
+    },
+    "肥満|ひまん": {
+      "type": "Nomen"
+    },
+    "避妊|ひにん": {
+      "type": "Verb",
+      "conjugationReading": "ひにんする"
+    },
+    "非難|ひなん": {
+      "type": "Verb",
+      "conjugationReading": "ひなんする"
+    },
+    "評論|ひょうろん": {
+      "type": "Nomen"
+    },
+    "描画|びょうが": {
+      "type": "Nomen"
+    },
+    "不倫|ふりん": {
+      "type": "Verb",
+      "conjugationReading": "ふりんする"
+    },
+    "扶助|ふじょ": {
+      "type": "Nomen"
+    },
+    "普段|ふだん": {
+      "type": "Nomen"
+    },
+    "封鎖|ふうさ": {
+      "type": "Verb",
+      "conjugationReading": "ふうさする"
+    },
+    "覆面|ふくめん": {
+      "type": "Nomen"
+    },
+    "物真似|ものまね": {
+      "type": "Nomen"
+    },
+    "分解|ぶんかい": {
+      "type": "Nomen"
+    },
+    "噴射|ふんしゃ": {
+      "type": "Nomen"
+    },
+    "奮起|ふんき": {
+      "type": "Nomen"
+    },
+    "粉砕|ふんさい": {
+      "type": "Nomen"
+    },
+    "文字通り|もじどおり": {
+      "type": "Adverb"
+    },
+    "平均|へいきん": {
+      "type": "Nomen"
+    },
+    "閉鎖|へいさ": {
+      "type": "Verb",
+      "conjugationReading": "へいさする"
+    },
+    "別に|べつに": {
+      "type": "Adverb"
+    },
+    "遍歴|へんれき": {
+      "type": "Nomen"
+    },
+    "補佐|ほさ": {
+      "type": "Nomen"
+    },
+    "放棄|ほうき": {
+      "type": "Verb",
+      "conjugationReading": "ほうきする"
+    },
+    "放射|ほうしゃ": {
+      "type": "Nomen"
+    },
+    "縫製|ほうせい": {
+      "type": "Nomen"
+    },
+    "訪問|ほうもん": {
+      "type": "Nomen"
+    },
+    "飽くまでも|あくまでも": {
+      "type": "Adverb"
+    },
+    "冒険|ぼうけん": {
+      "type": "Nomen"
+    },
+    "防火|ぼうか": {
+      "type": "Nomen"
+    },
+    "万歳|ばんざい": {
+      "type": "Nomen"
+    },
+    "未だ|いまだ": {
+      "type": "Adverb"
+    },
+    "密輸|みつゆ": {
+      "type": "Verb",
+      "conjugationReading": "みつゆする"
+    },
+    "迷路|めいろ": {
+      "type": "Nomen"
+    },
+    "免除|めんじょ": {
+      "type": "Verb",
+      "conjugationReading": "めんじょする"
+    },
+    "躍進|やくしん": {
+      "type": "Nomen"
+    },
+    "躍如|やくじょ": {
+      "type": "Adjektiv"
+    },
+    "優先|ゆうせん": {
+      "type": "Nomen"
+    },
+    "幽閉|ゆうへい": {
+      "type": "Verb",
+      "conjugationReading": "ゆうへいする"
+    },
+    "猶予|ゆうよ": {
+      "type": "Adverb"
+    },
+    "遊戯|ゆうぎ": {
+      "type": "Verb",
+      "conjugationReading": "ゆうぎする"
+    },
+    "余計|よけい": {
+      "type": "Adjektiv"
+    },
+    "容赦|ようしゃ": {
+      "type": "Nomen"
+    },
+    "遥か|はるか": {
+      "type": "Adjektiv"
+    },
+    "抑止|よくし": {
+      "type": "Nomen"
+    },
+    "落書き|らくがき": {
+      "type": "Verb",
+      "conjugationReading": "らくがきする"
+    },
+    "落雷|らくらい": {
+      "type": "Nomen"
+    },
+    "立ち飲み|たちのみ": {
+      "type": "Nomen"
+    },
+    "流石|さすが": {
+      "type": "Adverb"
+    },
+    "留守番|るすばん": {
+      "type": "Verb",
+      "conjugationReading": "るすばんする"
+    },
+    "力いっぱい|ちからいっぱい": {
+      "type": "Adverb"
+    },
+    "累計|るいけい": {
+      "type": "Nomen"
+    },
+    "連鎖|れんさ": {
+      "type": "Nomen"
+    },
+    "漏水|ろうすい": {
+      "type": "Nomen"
+    },
+    "老衰|ろうすい": {
+      "type": "Nomen"
+    },
+    "拉致|らち": {
+      "type": "Nomen"
+    },
+    "颯と|さっと": {
+      "type": "Adverb"
+    }
   },
-  bySource: {
+  "bySource": {
     "vocab-n5": {
-      "\u5165\u793e|\u306b\u3085\u3046\u3057\u3083": {"level":"N2","conjugationReading":"\u306b\u3085\u3046\u3057\u3083\u3059\u308b"},
-      "\u51fa\u793e|\u3057\u3085\u3063\u3057\u3083": {"level":"N2","conjugationReading":"\u3057\u3085\u3063\u3057\u3083\u3059\u308b"},
-      "\u5148\u56de\u308a|\u3055\u304d\u307e\u308f\u308a": {"level":"N2","conjugationReading":"\u3055\u304d\u307e\u308f\u308a\u3059\u308b"},
-      "\u4fdd\u6301|\u307b\u3058": {"level":"N1","conjugationReading":"\u307b\u3058\u3059\u308b"},
-      "\u5bfe\u6bd4|\u305f\u3044\u3072": {"level":"N1","conjugationReading":"\u305f\u3044\u3072\u3059\u308b"},
-      "\u516c\u958b|\u3053\u3046\u304b\u3044": {"level":"N2","conjugationReading":"\u3053\u3046\u304b\u3044\u3059\u308b"},
-      "\u76f4\u9032|\u3061\u3087\u304f\u3057\u3093": {"level":"N2","conjugationReading":"\u3061\u3087\u304f\u3057\u3093\u3059\u308b"}
+      "入社|にゅうしゃ": {
+        "level": "N2",
+        "conjugationReading": "にゅうしゃする"
+      },
+      "出社|しゅっしゃ": {
+        "level": "N2",
+        "conjugationReading": "しゅっしゃする"
+      },
+      "先回り|さきまわり": {
+        "level": "N2",
+        "conjugationReading": "さきまわりする"
+      },
+      "保持|ほじ": {
+        "level": "N1",
+        "conjugationReading": "ほじする"
+      },
+      "対比|たいひ": {
+        "level": "N1",
+        "conjugationReading": "たいひする"
+      },
+      "公開|こうかい": {
+        "level": "N2",
+        "conjugationReading": "こうかいする"
+      },
+      "直進|ちょくしん": {
+        "level": "N2",
+        "conjugationReading": "ちょくしんする"
+      }
     },
     "vocab-n4": {
-      "\u6c7a\u5fc3|\u3051\u3063\u3057\u3093": {"level":"N2","conjugationReading":"\u3051\u3063\u3057\u3093\u3059\u308b"},
-      "\u5165\u6240|\u306b\u3085\u3046\u3057\u3087": {"level":"N1","conjugationReading":"\u306b\u3085\u3046\u3057\u3087\u3059\u308b"},
-      "\u4ed5\u8fd4\u3057|\u3057\u304b\u3048\u3057": {"level":"N2","conjugationReading":"\u3057\u304b\u3048\u3057\u3059\u308b"},
-      "\u4fdd\u6301\u3059\u308b|\u307b\u3058\u3059\u308b": {"level":"N1"},
-      "\u9589\u5e97|\u3078\u3044\u3066\u3093": {"level":"N3","conjugationReading":"\u3078\u3044\u3066\u3093\u3059\u308b"},
-      "\u958b\u9589|\u304b\u3044\u3078\u3044": {"level":"N1","conjugationReading":"\u304b\u3044\u3078\u3044\u3059\u308b"},
-      "\u4e8c\u679a\u820c|\u306b\u307e\u3044\u3058\u305f": {"level":"N1","type":"Nomen"},
-      "\u8ca1\u95a5|\u3056\u3044\u3070\u3064": {"level":"N1","type":"Nomen"},
-      "\u6587\u5316\u4eba\u985e\u5b66|\u3076\u3093\u304b\u3058\u3093\u308b\u3044\u304c\u304f": {"level":"N1"}
+      "決心|けっしん": {
+        "level": "N2",
+        "conjugationReading": "けっしんする"
+      },
+      "入所|にゅうしょ": {
+        "level": "N1",
+        "conjugationReading": "にゅうしょする"
+      },
+      "仕返し|しかえし": {
+        "level": "N2",
+        "conjugationReading": "しかえしする"
+      },
+      "保持する|ほじする": {
+        "level": "N1"
+      },
+      "閉店|へいてん": {
+        "level": "N3",
+        "conjugationReading": "へいてんする"
+      },
+      "開閉|かいへい": {
+        "level": "N1",
+        "conjugationReading": "かいへいする"
+      },
+      "二枚舌|にまいじた": {
+        "level": "N1",
+        "type": "Nomen"
+      },
+      "財閥|ざいばつ": {
+        "level": "N1",
+        "type": "Nomen"
+      },
+      "文化人類学|ぶんかじんるいがく": {
+        "level": "N1"
+      },
+      "開く|あく": {
+        "level": "N5"
+      },
+      "熱い|あつい": {
+        "level": "N5"
+      },
+      "入口|いりぐち": {
+        "level": "N5"
+      },
+      "売る|うる": {
+        "level": "N5"
+      },
+      "映画館|えいがかん": {
+        "level": "N5"
+      },
+      "英語|えいご": {
+        "level": "N5"
+      },
+      "一昨日|おととい": {
+        "level": "N5"
+      },
+      "一昨年|おととし": {
+        "level": "N5"
+      },
+      "家庭|かてい": {
+        "level": "N5"
+      },
+      "火曜日|かようび": {
+        "level": "N5"
+      },
+      "消える|きえる": {
+        "level": "N5"
+      },
+      "喫茶店|きっさてん": {
+        "level": "N5"
+      },
+      "金曜日|きんようび": {
+        "level": "N5"
+      },
+      "曇る|くもる": {
+        "level": "N5"
+      },
+      "警官|けいかん": {
+        "level": "N5"
+      },
+      "月曜日|げつようび": {
+        "level": "N5"
+      },
+      "作文|さくぶん": {
+        "level": "N5"
+      },
+      "閉まる|しまる": {
+        "level": "N5"
+      },
+      "食堂|しょくどう": {
+        "level": "N5"
+      },
+      "水曜日|すいようび": {
+        "level": "N5"
+      },
+      "生徒|せいと": {
+        "level": "N5"
+      },
+      "大好き|だいすき": {
+        "level": "N5"
+      },
+      "食べ物|たべもの": {
+        "level": "N5"
+      },
+      "疲れる|つかれる": {
+        "level": "N5"
+      },
+      "着く|つく": {
+        "level": "N5"
+      },
+      "出口|でぐち": {
+        "level": "N5"
+      },
+      "土曜日|どようび": {
+        "level": "N5"
+      },
+      "日曜日|にちようび": {
+        "level": "N5"
+      },
+      "庭|にわ": {
+        "level": "N5"
+      },
+      "晴れる|はれる": {
+        "level": "N5"
+      },
+      "半分|はんぶん": {
+        "level": "N5"
+      },
+      "弾く|ひく": {
+        "level": "N5"
+      },
+      "低い|ひくい": {
+        "level": "N5"
+      },
+      "文章|ぶんしょう": {
+        "level": "N5"
+      },
+      "緑|みどり": {
+        "level": "N5"
+      },
+      "皆さん|みなさん": {
+        "level": "N5"
+      },
+      "木曜日|もくようび": {
+        "level": "N5"
+      },
+      "洋服|ようふく": {
+        "level": "N5"
+      },
+      "留学生|りゅうがくせい": {
+        "level": "N5"
+      },
+      "浴びる|あびる": {
+        "level": "N5"
+      },
+      "誰か|だれか": {
+        "level": "N5"
+      },
+      "履く|はく": {
+        "level": "N5"
+      },
+      "美味しい|おいしい": {
+        "level": "N5"
+      },
+      "不味い|まずい": {
+        "level": "N5"
+      }
+    },
+    "vocab-n2": {
+      "アパート|アパート": {
+        "level": "N5"
+      },
+      "医者|いしゃ": {
+        "level": "N5"
+      },
+      "一緒|いっしょ": {
+        "level": "N5"
+      },
+      "奥さん|おくさん": {
+        "level": "N5"
+      },
+      "自動車|じどうしゃ": {
+        "level": "N5"
+      },
+      "勤める|つとめる": {
+        "level": "N5"
+      },
+      "冷たい|つめたい": {
+        "level": "N5"
+      },
+      "動物|どうぶつ": {
+        "level": "N5"
+      },
+      "並べる|ならべる": {
+        "level": "N5"
+      },
+      "ニュース|ニュース": {
+        "level": "N5"
+      },
+      "飲み物|のみもの": {
+        "level": "N5"
+      },
+      "バター|バター": {
+        "level": "N5"
+      },
+      "貼る|はる": {
+        "level": "N5"
+      },
+      "ラジオ|ラジオ": {
+        "level": "N5"
+      },
+      "打つ|うつ": {
+        "level": "N4"
+      },
+      "美しい|うつくしい": {
+        "level": "N4"
+      },
+      "写す|うつす": {
+        "level": "N4"
+      },
+      "贈り物|おくりもの": {
+        "level": "N4"
+      },
+      "お嬢さん|おじょうさん": {
+        "level": "N4"
+      },
+      "踊る|おどる": {
+        "level": "N4"
+      },
+      "折る|おる": {
+        "level": "N4"
+      },
+      "科学|かがく": {
+        "level": "N4"
+      },
+      "飾る|かざる": {
+        "level": "N4"
+      },
+      "ガソリンスタンド|ガソリンスタンド": {
+        "level": "N4"
+      },
+      "噛む|かむ": {
+        "level": "N4"
+      },
+      "ガラス|ガラス": {
+        "level": "N4"
+      },
+      "教会|きょうかい": {
+        "level": "N4"
+      },
+      "決して|けっして": {
+        "level": "N4"
+      },
+      "研究室|けんきゅうしつ": {
+        "level": "N4"
+      },
+      "郊外|こうがい": {
+        "level": "N4"
+      },
+      "コンサート|コンサート": {
+        "level": "N4"
+      },
+      "数学|すうがく": {
+        "level": "N4"
+      },
+      "スーツケース|スーツケース": {
+        "level": "N4"
+      },
+      "凄い|すごい": {
+        "level": "N4"
+      },
+      "戦争|せんそう": {
+        "level": "N4"
+      },
+      "たいてい|たいてい": {
+        "level": "N4"
+      },
+      "倒れる|たおれる": {
+        "level": "N4"
+      },
+      "例えば|たとえば": {
+        "level": "N4"
+      },
+      "暖房|だんぼう": {
+        "level": "N4"
+      },
+      "釣る|つる": {
+        "level": "N4"
+      },
+      "電灯|でんとう": {
+        "level": "N4"
+      },
+      "展覧会|てんらんかい": {
+        "level": "N4"
+      },
+      "苦い|にがい": {
+        "level": "N4"
+      },
+      "逃げる|にげる": {
+        "level": "N4"
+      },
+      "乗り換える|のりかえる": {
+        "level": "N4"
+      },
+      "始める|はじめる": {
+        "level": "N4"
+      },
+      "非常に|ひじょうに": {
+        "level": "N4"
+      },
+      "文学|ぶんがく": {
+        "level": "N4"
+      },
+      "ほとんど|ほとんど": {
+        "level": "N4"
+      },
+      "戻る|もどる": {
+        "level": "N4"
+      },
+      "木綿|もめん": {
+        "level": "N4"
+      },
+      "冷房|れいぼう": {
+        "level": "N4"
+      },
+      "嘘|うそ": {
+        "level": "N4"
+      },
+      "喧嘩|けんか": {
+        "level": "N4"
+      },
+      "船|ふね": {
+        "level": "N4"
+      },
+      "放送|ほうそう": {
+        "level": "N4"
+      },
+      "レポート|レポート": {
+        "level": "N4"
+      },
+      "可愛い|かわいい": {
+        "level": "N5"
+      }
+    },
+    "vocab-n3": {
+      "居る|いる": {
+        "level": "N5"
+      },
+      "大勢|おおぜい": {
+        "level": "N5"
+      },
+      "お手洗い|おてあらい": {
+        "level": "N5"
+      },
+      "靴下|くつした": {
+        "level": "N5"
+      },
+      "結婚|けっこん": {
+        "level": "N5"
+      },
+      "紅茶|こうちゃ": {
+        "level": "N5"
+      },
+      "差す|さす": {
+        "level": "N5"
+      },
+      "締める|しめる": {
+        "level": "N5"
+      },
+      "吸う|すう": {
+        "level": "N5"
+      },
+      "背広|せびろ": {
+        "level": "N5"
+      },
+      "大使館|たいしかん": {
+        "level": "N5"
+      },
+      "鳴く|なく": {
+        "level": "N5"
+      },
+      "灰皿|はいざら": {
+        "level": "N5"
+      },
+      "本棚|ほんだな": {
+        "level": "N5"
+      },
+      "万年筆|まんねんひつ": {
+        "level": "N5"
+      },
+      "廊下|ろうか": {
+        "level": "N5"
+      },
+      "赤ん坊|あかんぼう": {
+        "level": "N4"
+      },
+      "遊び|あそび": {
+        "level": "N4"
+      },
+      "致す|いたす": {
+        "level": "N4"
+      },
+      "いらっしゃる|いらっしゃる": {
+        "level": "N4"
+      },
+      "移る|うつる": {
+        "level": "N4"
+      },
+      "裏|うら": {
+        "level": "N4"
+      },
+      "遅れる|おくれる": {
+        "level": "N4"
+      },
+      "会議室|かいぎしつ": {
+        "level": "N4"
+      },
+      "掛ける|かける": {
+        "level": "N5"
+      },
+      "絹|きぬ": {
+        "level": "N4"
+      },
+      "暮れる|くれる": {
+        "level": "N4"
+      },
+      "講義|こうぎ": {
+        "level": "N4"
+      },
+      "工業|こうぎょう": {
+        "level": "N4"
+      },
+      "差し上げる|さしあげる": {
+        "level": "N4"
+      },
+      "産業|さんぎょう": {
+        "level": "N4"
+      },
+      "辞典|じてん": {
+        "level": "N4"
+      },
+      "市民|しみん": {
+        "level": "N4"
+      },
+      "事務所|じむしょ": {
+        "level": "N4"
+      },
+      "過ぎる|すぎる": {
+        "level": "N4"
+      },
+      "済む|すむ": {
+        "level": "N4"
+      },
+      "卒業|そつぎょう": {
+        "level": "N4"
+      },
+      "確か|たしか": {
+        "level": "N4"
+      },
+      "訪ねる|たずねる": {
+        "level": "N4"
+      },
+      "尋ねる|たずねる": {
+        "level": "N4"
+      },
+      "建てる|たてる": {
+        "level": "N4"
+      },
+      "適当|てきとう": {
+        "level": "N4"
+      },
+      "天気予報|てんきよほう": {
+        "level": "N4"
+      },
+      "途中|とちゅう": {
+        "level": "N4"
+      },
+      "塗る|ぬる": {
+        "level": "N4"
+      },
+      "眠る|ねむる": {
+        "level": "N4"
+      },
+      "復習|ふくしゅう": {
+        "level": "N4"
+      },
+      "参る|まいる": {
+        "level": "N4"
+      },
+      "召し上がる|めしあがる": {
+        "level": "N4"
+      },
+      "申す|もうす": {
+        "level": "N4"
+      },
+      "予習|よしゅう": {
+        "level": "N4"
+      },
+      "寄る|よる": {
+        "level": "N4"
+      },
+      "忘れ物|わすれもの": {
+        "level": "N4"
+      },
+      "割れる|われる": {
+        "level": "N4"
+      },
+      "伺う|うかがう": {
+        "level": "N4"
+      },
+      "遠慮|えんりょ": {
+        "level": "N4"
+      },
+      "掛かる|かかる": {
+        "level": "N5"
+      },
+      "構う|かまう": {
+        "level": "N4"
+      },
+      "下さる|くださる": {
+        "level": "N4"
+      },
+      "故障|こしょう": {
+        "level": "N4"
+      },
+      "入院|にゅういん": {
+        "level": "N4"
+      },
+      "入学|にゅうがく": {
+        "level": "N4"
+      },
+      "再来月|さらいげつ": {
+        "level": "N4"
+      },
+      "再来週|さらいしゅう": {
+        "level": "N4"
+      },
+      "再来年|さらいねん": {
+        "level": "N5"
+      },
+      "退院|たいいん": {
+        "level": "N4"
+      },
+      "拝見|はいけん": {
+        "level": "N4"
+      },
+      "沢山|たくさん": {
+        "level": "N5"
+      },
+      "何故|なぜ": {
+        "level": "N5"
+      },
+      "ご覧になる|ごらんになる": {
+        "level": "N4"
+      }
+    },
+    "vocab-n1": {
+      "煩い|うるさい": {
+        "level": "N5"
+      },
+      "デモ|デモ": {
+        "level": "N5"
+      },
+      "酷い|ひどい": {
+        "level": "N4"
+      }
+    }
+  },
+  "completionBySource": {
+    "vocab-n5": {
+      "0": {
+        "notes": "Neutrale bis höfliche Selbstbezeichnung. In sachlichen und beruflichen Gesprächen für alle Geschlechter geeignet. Wenn aus dem Zusammenhang klar ist, wer spricht, lässt man 私 häufig weg. 私の bezeichnet Besitz oder Zugehörigkeit; die formellere Lesung わたくし ist eine eigene Lesung.",
+        "examples": [
+          {
+            "japanese": "私は学生です。",
+            "romaji": "Watashi wa gakusei desu.",
+            "german": "Ich bin Student."
+          },
+          {
+            "japanese": "私はドイツから来ました。",
+            "romaji": "Watashi wa Doitsu kara kimashita.",
+            "german": "Ich komme aus Deutschland."
+          }
+        ],
+        "vocabularyCompletion": "2026-09-vocabulary-completion"
+      },
+      "1": {
+        "notes": "Bezeichnet einen Menschen ohne Angabe des Geschlechts; あの人 verweist auf eine bestimmte Person. Zum Zählen benutzt man 一人、二人、三人 mit jeweils eigenen Lesungen, nicht einfach eine Zahl vor ひと. 人が多い beschreibt eine große Menschenmenge.",
+        "examples": [
+          {
+            "japanese": "あの人は誰ですか。",
+            "romaji": "Ano hito wa dare desu ka.",
+            "german": "Wer ist diese Person?"
+          },
+          {
+            "japanese": "この店には人がたくさんいます。",
+            "romaji": "Kono mise ni wa hito ga takusan imasu.",
+            "german": "In diesem Laden sind viele Leute."
+          }
+        ],
+        "vocabularyCompletion": "2026-09-vocabulary-completion"
+      },
+      "2": {
+        "notes": "男 allein kann bei der Bezeichnung einer fremden Person recht direkt wirken. 男の人 ist im Alltag oft die höflichere Form, 男性 die sachlich-formelle. 男の子 bezeichnet einen Jungen; die Verbindung mit の verändert also den Bezug.",
+        "examples": [
+          {
+            "japanese": "あの男の人は先生です。",
+            "romaji": "Ano otoko no hito wa sensei desu.",
+            "german": "Jener Mann ist ein Lehrer."
+          },
+          {
+            "japanese": "男の子が走っています。",
+            "romaji": "Otoko no ko ga hashitte imasu.",
+            "german": "Ein Junge rennt."
+          }
+        ],
+        "vocabularyCompletion": "2026-09-vocabulary-completion"
+      },
+      "3": {
+        "notes": "女 allein kann bei der Bezeichnung einer fremden Person schroff wirken. 女の人 ist im Alltag oft höflicher, 女性 in sachlichen Texten üblich. 女の子 bezeichnet ein Mädchen; 女 ist kein höflicher Anredetitel.",
+        "examples": [
+          {
+            "japanese": "あの女の人は医者です。",
+            "romaji": "Ano onna no hito wa isha desu.",
+            "german": "Jene Frau ist Ärztin."
+          },
+          {
+            "japanese": "女の子が歌っています。",
+            "romaji": "Onna no ko ga utatte imasu.",
+            "german": "Ein Mädchen singt."
+          }
+        ],
+        "vocabularyCompletion": "2026-09-vocabulary-completion"
+      },
+      "4": {
+        "notes": "Kann ein einzelnes Kind oder mehrere Kinder bezeichnen; die Zahl ergibt sich aus dem Zusammenhang. 子供がいる bedeutet je nach Kontext, dass Kinder anwesend sind oder jemand Kinder hat. 子ども ist eine gebräuchliche alternative Schreibung. Erwachsene Nachkommen können ebenfalls 子供 genannt werden.",
+        "examples": [
+          {
+            "japanese": "子供が公園で遊んでいます。",
+            "romaji": "Kodomo ga kouen de asonde imasu.",
+            "german": "Das Kind spielt im Park."
+          },
+          {
+            "japanese": "子供は三人います。",
+            "romaji": "Kodomo wa sannin imasu.",
+            "german": "Es gibt drei Kinder."
+          }
+        ],
+        "aliases": [
+          "子ども"
+        ],
+        "vocabularyCompletion": "2026-09-vocabulary-completion"
+      },
+      "5": {
+        "notes": "Gebräuchlich im Alltag; kann je nach Kontext einen Freund oder mehrere Freunde meinen. 友達と markiert gemeinsames Handeln, 友達に etwa den Empfänger einer Nachricht. 友人 ist sachlicher oder formeller. Das Wort bezeichnet keine romantische Beziehung an sich.",
+        "examples": [
+          {
+            "japanese": "友達と映画を見ました。",
+            "romaji": "Tomodachi to eiga o mimashita.",
+            "german": "Ich habe mit einem Freund einen Film gesehen."
+          },
+          {
+            "japanese": "友達に手紙を書きました。",
+            "romaji": "Tomodachi ni tegami o kakimashita.",
+            "german": "Ich habe meinem Freund einen Brief geschrieben."
+          }
+        ],
+        "aliases": [
+          "友だち"
+        ],
+        "vocabularyCompletion": "2026-09-vocabulary-completion"
+      },
+      "6": {
+        "notes": "Als Berufsbezeichnung und als Anrede für Lehrkräfte, aber auch etwa für Ärztinnen und Ärzte verwendet. Ein Name kann direkt davorstehen: 田中先生. Beim Vorstellen des eigenen Berufs sagt man gewöhnlich 教師です oder 教員です statt sich selbst mit dem Ehrentitel 先生 zu bezeichnen.",
+        "examples": [
+          {
+            "japanese": "先生はとても優しいです。",
+            "romaji": "Sensei wa totemo yasashii desu.",
+            "german": "Der Lehrer ist sehr freundlich."
+          },
+          {
+            "japanese": "先生に質問します。",
+            "romaji": "Sensei ni shitsumon shimasu.",
+            "german": "Ich stelle dem Lehrer eine Frage."
+          }
+        ],
+        "vocabularyCompletion": "2026-09-vocabulary-completion"
+      },
+      "7": {
+        "notes": "Vor allem für Lernende an Hochschulen verwendet; je nach Zusammenhang auch weiter gefasst. Für Schulkinder ist 生徒 bzw. bei Grundschulkindern 児童 genauer. Häufig in 大学生, 学生生活 und 学生証. 学生の＋Nomen ordnet etwas dem studentischen Bereich zu.",
+        "examples": [
+          {
+            "japanese": "私は大学の学生です。",
+            "romaji": "Watashi wa daigaku no gakusei desu.",
+            "german": "Ich bin Universitätsstudent."
+          },
+          {
+            "japanese": "学生がたくさんいます。",
+            "romaji": "Gakusei ga takusan imasu.",
+            "german": "Es gibt viele Studenten."
+          }
+        ],
+        "vocabularyCompletion": "2026-09-vocabulary-completion"
+      },
+      "237": {
+        "notes": "Ein Ortsnomen: 外に出る bezeichnet Bewegung nach draußen, 外で遊ぶ eine Handlung im Freien. 建物の外 bezeichnet den Bereich außerhalb eines Gebäudes. Die Lesung ほか gehört zu einer anderen Verwendung und wird hier nicht als gleichbedeutende Lesung behandelt.",
+        "examples": [
+          {
+            "japanese": "外は寒いです。",
+            "romaji": "Soto wa samui desu.",
+            "german": "Draußen ist es kalt."
+          },
+          {
+            "kind": "natural",
+            "japanese": "靴が汚れているので、家の外で脱いでください。",
+            "romaji": "Kutsu ga yogorete iru node, ie no soto de nuide kudasai.",
+            "german": "Da die Schuhe schmutzig sind, ziehen Sie sie bitte vor dem Haus aus."
+          }
+        ],
+        "vocabularyCompletion": "2026-09-vocabulary-completion"
+      }
+    },
+    "idioms": {
+      "197": {
+        "notes": "Umgangssprachlich: unausgesprochene Erwartungen und die Stimmung einer Gruppe erfassen und das eigene Verhalten daran anpassen. 空気が読めない kritisiert fehlendes Taktgefühl und kann verletzend wirken. 読む wird regulär flektiert, etwa 空気を読んで. Gemeint ist eine soziale Einschätzung, kein wörtliches Lesen.",
+        "examples": [
+          {
+            "japanese": "彼は空気を読むのが上手だ。",
+            "romaji": "Kare wa kūki o yomu no ga jōzu da.",
+            "german": "Er ist gut darin, die Stimmung richtig einzuschätzen."
+          },
+          {
+            "kind": "natural",
+            "japanese": "みんな疲れていたので、空気を読んで話を短く切り上げた。",
+            "romaji": "Minna tsukarete ita node, kuuki o yonde hanashi o mijikaku kiriageta.",
+            "german": "Weil alle müde waren, nahm ich Rücksicht auf die Stimmung und beendete meine Ausführungen rasch."
+          }
+        ],
+        "vocabularyCompletion": "2026-09-vocabulary-completion"
+      }
     }
   }
 };

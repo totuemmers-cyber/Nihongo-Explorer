@@ -3,6 +3,12 @@
 
 var SECTION_CONFIGS = {};
 
+function normalizeOnomatopoeia(word) {
+  return word.normalize('NFKC').replace(/[ァ-ヶ]/g, function (c) {
+    return String.fromCharCode(c.charCodeAt(0) - 96);
+  });
+}
+
 // === Shared Constants & Helpers ===
 
 var LEVEL_ORDER = { 'N5': 0, 'N4': 1, 'N3': 2, 'N2': 3, 'N1': 4 };
@@ -62,7 +68,10 @@ window.resetSectionLookups = function () {
 // === Bookmark Utilities ===
 
 function getBookmarks(sectionName) {
-  try { return JSON.parse(localStorage.getItem('bookmarks-' + sectionName) || '[]'); }
+  try {
+    var bookmarks = JSON.parse(window.NihongoStorage.local.getItem('bookmarks-' + sectionName) || '[]');
+    return Array.isArray(bookmarks) ? bookmarks : [];
+  }
   catch (e) { return []; }
 }
 
@@ -75,7 +84,8 @@ function toggleBookmark(sectionName, itemId) {
   var idx = bk.indexOf(itemId);
   if (idx === -1) bk.push(itemId);
   else bk.splice(idx, 1);
-  localStorage.setItem('bookmarks-' + sectionName, JSON.stringify(bk));
+  window.NihongoStorage.local.setItem('bookmarks-' + sectionName, JSON.stringify(bk));
+  document.dispatchEvent(new CustomEvent('bookmarkchange', { detail: { section: sectionName, id: itemId, starred: idx === -1 } }));
   return idx === -1;
 }
 
@@ -160,41 +170,45 @@ function appendElement(parent, tagName, className, text) {
 function createBaseCard(className, content, index, section, itemId) {
   var card = document.createElement('div');
   card.className = className;
-  card.tabIndex = 0;
-  card.setAttribute('role', 'button');
-  if (typeof content === 'function') {
-    content(card);
-  } else if (content) {
-    card.innerHTML = content;
-  }
-  function activate() {
-    if (window.app) window.app.playTick();
+  card.tabIndex = -1;
+  card.dataset.itemId = String(itemId);
+  var open = document.createElement('button');
+  open.type = 'button';
+  open.className = 'entry-open';
+  if (typeof content === 'function') content(open);
+  else if (content) open.innerHTML = content;
+  open.addEventListener('click', function () {
+    section._triggerEl = open;
     section.openDetail(index);
-  }
-  card.addEventListener('click', activate);
-  card.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
   });
-
-  if (itemId) {
-    var starred = isBookmarked(section.name, itemId);
-    var star = document.createElement('button');
-    star.className = 'bookmark-btn' + (starred ? ' active' : '');
-    star.innerHTML = starred ? '&#9733;' : '&#9734;';
-    star.title = 'Lesezeichen';
-    star.setAttribute('aria-label', 'Lesezeichen');
-    star.addEventListener('click', function (e) {
-      e.stopPropagation();
-      var nowStarred = toggleBookmark(section.name, itemId);
-      star.innerHTML = nowStarred ? '&#9733;' : '&#9734;';
-      star.classList.toggle('active', nowStarred);
-      if (window.app) window.app.playTick();
-    });
-    card.appendChild(star);
-  }
-
+  card.appendChild(open);
+  var star = document.createElement('button');
+  star.type = 'button';
+  star.className = 'bookmark-btn';
+  star.dataset.bookmarkSection = section.name;
+  star.dataset.bookmarkId = String(itemId);
+  updateBookmarkButton(star, isBookmarked(section.name, itemId));
+  star.addEventListener('click', function () { toggleBookmark(section.name, itemId); });
+  card.appendChild(star);
   return card;
 }
+
+function updateBookmarkButton(btn, starred) {
+  btn.textContent = starred ? '★' : '☆';
+  btn.classList.toggle('active', starred);
+  btn.setAttribute('aria-pressed', String(starred));
+  btn.setAttribute('aria-label', starred ? 'Lesezeichen entfernen' : 'Lesezeichen setzen');
+  btn.title = btn.getAttribute('aria-label');
+}
+document.addEventListener('bookmarkchange', function (event) {
+  document.querySelectorAll('[data-bookmark-id]').forEach(function (btn) {
+    if (btn.dataset.bookmarkSection === event.detail.section && btn.dataset.bookmarkId === String(event.detail.id)) {
+      updateBookmarkButton(btn, event.detail.starred);
+    }
+  });
+  var sec = window.app && window.app.sections[event.detail.section];
+  if (sec && sec.filters.bookmarks === 'starred') sec.applyFilters();
+});
 
 function getSpeakSvgHtml(size) {
   var iconSize = size || 18;
@@ -222,6 +236,7 @@ function createSpeakButton(headerSelector, config) {
   var speakBtn = document.createElement('button');
   speakBtn.className = 'btn btn-icon btn-speak';
   speakBtn.title = 'Aussprache';
+  speakBtn.setAttribute('aria-label', 'Aussprache anhören');
   speakBtn.innerHTML = getSpeakSvgHtml(18);
   speakBtn.addEventListener('click', function () {
     if (window.app) window.app.speakJP(speechText);
@@ -301,7 +316,7 @@ function renderPitchSVG(reading, pitchNum) {
   var labels = '';
   for (var j = 0; j < n; j++) {
     var lx = dotR * 2 + j * spacing;
-    labels += '<text x="' + lx + '" y="' + (h - 1) + '" text-anchor="middle" font-size="11" font-family="var(--font-jp)" fill="var(--text-secondary)">' + morae[j] + '</text>';
+    labels += '<text x="' + lx + '" y="' + (h - 1) + '" text-anchor="middle" font-size="12" font-family="var(--font-jp)" fill="var(--text-secondary)">' + morae[j] + '</text>';
   }
 
   return '<svg class="pitch-svg" width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + ' ' + h + '">' +
@@ -324,15 +339,10 @@ function createDetailBookmark(headerSelector, sectionName, itemId) {
   var starred = isBookmarked(sectionName, itemId);
   var btn = document.createElement('button');
   btn.className = 'btn btn-icon detail-bookmark-btn' + (starred ? ' active' : '');
-  btn.innerHTML = starred ? '&#9733;' : '&#9734;';
-  btn.title = 'Lesezeichen';
-  btn.setAttribute('aria-label', 'Lesezeichen');
-  btn.addEventListener('click', function () {
-    var nowStarred = toggleBookmark(sectionName, itemId);
-    btn.innerHTML = nowStarred ? '&#9733;' : '&#9734;';
-    btn.classList.toggle('active', nowStarred);
-    if (window.app) window.app.playTick();
-  });
+  btn.dataset.bookmarkSection = sectionName;
+  btn.dataset.bookmarkId = String(itemId);
+  updateBookmarkButton(btn, starred);
+  btn.addEventListener('click', function () { toggleBookmark(sectionName, itemId); });
   header.appendChild(btn);
 }
 
@@ -342,7 +352,8 @@ function initBookmarkToggles() {
     btn.addEventListener('click', function () {
       var isActive = btn.getAttribute('data-bm') === 'starred';
       btn.setAttribute('data-bm', isActive ? 'all' : 'starred');
-      btn.innerHTML = isActive ? '&#9734;' : '&#9733;';
+      btn.textContent = 'Nur Lesezeichen';
+      btn.setAttribute('aria-pressed', String(!isActive));
       btn.classList.toggle('active', !isActive);
       // Find which section this belongs to and update
       var classes = btn.className.split(' ');
@@ -448,7 +459,7 @@ function renderKanjiTags(container, kanjiItems) {
   container.textContent = '';
   for (var i = 0; i < kanjiItems.length; i++) {
     var k = kanjiItems[i];
-    var tag = appendElement(container, 'span', 'component-tag');
+    var tag = appendElement(container, 'button', 'component-tag');
     tag.setAttribute('data-kanji', k.kanji);
     appendElement(tag, 'span', 'comp-radical', k.kanji);
     appendElement(tag, 'span', 'comp-meaning', k.meanings[0]);
@@ -456,18 +467,7 @@ function renderKanjiTags(container, kanjiItems) {
 }
 
 function navigateToKanji(targetKanji, currentSection) {
-  currentSection.closeDetail();
-  var kanjiSec = window.app.sections.kanji;
-  window.app.switchTab('kanji');
-  kanjiSec.dom.search.value = targetKanji;
-  kanjiSec.dom.clearSearch.classList.add('visible');
-  kanjiSec.applyFilters();
-  for (var i = 0; i < kanjiSec.filteredItems.length; i++) {
-    if (kanjiSec.filteredItems[i].kanji === targetKanji) {
-      kanjiSec.openDetail(i);
-      return;
-    }
-  }
+  window.app.workspace.openRelated('kanji', function (k) { return k.kanji === targetKanji; });
 }
 
 function attachKanjiNavigation(container, section) {
@@ -512,15 +512,17 @@ SECTION_CONFIGS.kanji = {
   countLabel: ' Kanji',
   defaultSort: 'jlpt',
   batchSize: 80,
-  searchResultLimit: 24,
+  searchPageSize: 24,
 
   filterFn: function (k, query, filters, section) {
     if (filters.bookmarks === 'starred' && !isBookmarked('kanji', k.kanji)) return false;
     if (filters.level !== 'all' && k.jlpt !== filters.level) return false;
     if (window.app && window.app.activeRadical) {
+      var primary = window.getPrimaryKanjiRadical(k);
       var hasRadical = k.components && k.components.some(function (c) {
         return c.radical === window.app.activeRadical;
       });
+      hasRadical = hasRadical || (primary && primary.radical === window.app.activeRadical);
       if (!hasRadical) return false;
     }
     return true;
@@ -640,19 +642,31 @@ SECTION_CONFIGS.kanji = {
       detailComponents.innerHTML = k.components.map(function (c) {
         var isKangxi = radicals[c.radical];
         var cls = isKangxi ? 'component-tag radical-link' : 'component-tag';
-        return '<span class="' + cls + '" data-radical="' + c.radical + '">' +
+        return '<button type="button" class="' + cls + '" data-radical="' + c.radical + '">' +
           '<span class="comp-radical">' + c.radical + '</span>' +
-          '<span class="comp-meaning">' + c.meaning + '</span></span>';
+          '<span class="comp-meaning">' + c.meaning + '</span></button>';
       }).join('');
+
+      var primaryRadical = window.getPrimaryKanjiRadical(k);
+      if (primaryRadical) {
+        var primaryButton = document.createElement('button');
+        primaryButton.type = 'button';
+        primaryButton.className = 'btn btn-pill';
+        primaryButton.textContent = 'Hauptradikal: ' + primaryRadical.radical + ' · ' + primaryRadical.meaning;
+        primaryButton.addEventListener('click', function () {
+          if (window.app) window.app.openRadicalInTab(primaryRadical.radical);
+        });
+        detailComponents.prepend(primaryButton);
+      }
 
       detailComponents.querySelectorAll('.component-tag').forEach(function (tag) {
         tag.addEventListener('click', function () {
           var radical = this.getAttribute('data-radical');
           var isKangxi = radicals[radical];
-          section.closeDetail();
           if (isKangxi) {
             if (window.app) window.app.openRadicalInTab(radical);
           } else {
+            section.closeDetail();
             if (window.app) window.app.setRadicalFilter(radical,
               tag.querySelector('.comp-meaning').textContent);
           }
@@ -840,25 +854,13 @@ SECTION_CONFIGS.grammar = {
       relatedEl.innerHTML = g.related.map(function (relId) {
         var relGrammar = section.allItems.find(function (item) { return item.id === relId; });
         if (!relGrammar) return '';
-        return '<span class="grammar-related-tag" data-id="' + relId + '">' + relGrammar.pattern + '</span>';
+        return '<button class="grammar-related-tag" data-id="' + relId + '">' + relGrammar.pattern + '</button>';
       }).filter(function (s) { return s.length > 0; }).join('');
 
       relatedEl.querySelectorAll('.grammar-related-tag').forEach(function (tag) {
         tag.addEventListener('click', function () {
-          var targetId = this.getAttribute('data-id');
-          var targetIndex = section.filteredItems.findIndex(function (item) { return item.id === targetId; });
-          if (targetIndex !== -1) {
-            section.openDetail(targetIndex);
-          } else {
-            // Item might be filtered out — reset filters and find it
-            if (section.allItems.some(function (item) { return item.id === targetId; })) {
-              section.resetFilterGroup('category');
-              section.dom.search.value = '';
-              section.applyFilters();
-              var newIndex = section.filteredItems.findIndex(function (item) { return item.id === targetId; });
-              if (newIndex !== -1) section.openDetail(newIndex);
-            }
-          }
+          var target = this.getAttribute('data-id');
+          window.app.workspace.openRelated(section.name, function (item) { return item.id === target; });
         });
       });
 
@@ -909,7 +911,7 @@ SECTION_CONFIGS.vocab = {
   countLabel: ' Vokabeln',
   defaultSort: 'level',
   batchSize: 100,
-  searchResultLimit: 32,
+  searchPageSize: 32,
 
   filterFn: function (v, query, filters) {
     if (filters.bookmarks === 'starred' && !isBookmarked('vocab', getItemId(v, v.word + '|' + (v.reading || '')))) return false;
@@ -920,6 +922,10 @@ SECTION_CONFIGS.vocab = {
 
   searchScoreFn: function (v, query) {
     var wordRank = getTextMatchRank(v.word, query);
+    (v.aliases || []).forEach(function (alias) {
+      var aliasRank = getTextMatchRank(alias, query);
+      if (aliasRank !== null && (wordRank === null || aliasRank > wordRank)) wordRank = aliasRank;
+    });
     var readingRank = getTextMatchRank(v.reading, query);
     var romajiRank = getTextMatchRank(v.romaji, query);
     var meaningRank = getTextMatchRank(v.meaning, query);
@@ -1032,6 +1038,7 @@ SECTION_CONFIGS.vocab = {
       'Kategorie: ' + (v.category || '\u2014');
 
     renderExamplesOrEmpty('vocab-detail-examples', v.examples);
+    toggleNotes('vocab-detail-notes-section', 'vocab-detail-notes', v.notes);
 
     // Kanji links (O(1) lookup via index)
     var kanjiSection = document.getElementById('vocab-detail-kanji-section');
@@ -1055,10 +1062,18 @@ SECTION_CONFIGS.vocab = {
       kanjiSection.classList.remove('hidden');
       kanjiLinksEl.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Kanji-Links werden geladen...</span>';
       window.app.ensureSectionLoaded('kanji').then(function () {
-        if (section.currentDetailIndex === -1) return;
-        var current = section.filteredItems[section.currentDetailIndex];
+        if (!section.isOverlayOpen()) return;
+        var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
         if (!current || current.word !== v.word || current.reading !== v.reading) return;
-        section.config.openDetail(current, dom, section);
+        var lookup = getKanjiByChar();
+        var chars = Array.from(current.word).map(function (ch) { return lookup[ch]; }).filter(Boolean);
+        renderKanjiTags(kanjiLinksEl, chars);
+        attachKanjiNavigation(kanjiLinksEl, section);
+        kanjiSection.classList.toggle('hidden', !chars.length);
+      }).catch(function () {
+        kanjiLinksEl.textContent = 'Kanji-Verweise konnten nicht geladen werden. ';
+        var retry = appendElement(kanjiLinksEl, 'button', '', 'Erneut versuchen');
+        retry.onclick = function () { section.config.openDetail(v, dom, section); window.app.workspace.accessibleContent(dom.overlay); };
       });
     } else {
       kanjiSection.classList.add('hidden');
@@ -1112,10 +1127,10 @@ SECTION_CONFIGS.vocab = {
               for (var i = 0; i < keys.length; i++) {
                 var f = forms[keys[i]];
                 if (!f) continue;
-                html += '<tr>' +
+                html += '<tr data-conjugation-form="' + keys[i] + '">' +
                   '<td class="conj-label">' + f.label + '</td>' +
-                  '<td class="conj-form">' + f.japanese + '</td>' +
-                  '<td class="conj-speak"><button class="btn btn-icon btn-speak btn-speak-sm" title="Aussprache" data-text="' + f.japanese + '">' + speakSvg + '</button></td>' +
+                  '<td class="conj-form">' + [f.japanese].concat(f.acceptedVariants || []).join(' / ') + '</td>' +
+                  '<td class="conj-speak"><button class="btn btn-icon btn-speak btn-speak-sm" title="Aussprache" aria-label="Aussprache anhören" data-text="' + f.japanese + '">' + speakSvg + '</button></td>' +
                 '</tr>';
               }
               html += '</tbody></table></div>';
@@ -1399,10 +1414,15 @@ SECTION_CONFIGS.radicals = {
     } else if (window.app && window.app.sections.kanji && !window.app.sections.kanji.isLoaded) {
       kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Kanji werden geladen...</span>';
       window.app.ensureSectionLoaded('kanji').then(function () {
-        if (section.currentDetailIndex === -1) return;
-        var current = section.filteredItems[section.currentDetailIndex];
+        if (!section.isOverlayOpen()) return;
+        var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
         if (!current || current.number !== r.number) return;
-        section.config.openDetail(current, dom, section);
+        renderKanjiTags(kanjiList, getKanjiByRadical()[r.radical] || []);
+        attachKanjiNavigation(kanjiList, section);
+      }).catch(function () {
+        kanjiList.textContent = 'Kanji-Verweise konnten nicht geladen werden. ';
+        var retry = appendElement(kanjiList, 'button', '', 'Erneut versuchen');
+        retry.onclick = function () { section.config.openDetail(r, dom, section); };
       });
     } else {
       kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Keine Kanji mit diesem Radikal in der Datenbank gefunden.</span>';
@@ -1454,9 +1474,13 @@ SECTION_CONFIGS.onomatopoeia = {
   filterFn: function (o, query, filters) {
     if (filters.bookmarks === 'starred' && !isBookmarked('onomatopoeia', getItemId(o, o.word))) return false;
     if (filters.level !== 'all' && o.level !== filters.level) return false;
-    if (filters.category !== 'all' && o.category !== filters.category) return false;
+    if (filters.category !== 'all' && o.category !== filters.category && (o.tags || []).indexOf(filters.category) === -1) return false;
     if (query) {
       var matchWord = o.word.indexOf(query) !== -1;
+      var normalizedQuery = normalizeOnomatopoeia(query);
+      matchWord = matchWord || [o.word, o.reading].concat(o.aliases || []).some(function (word) {
+        return normalizeOnomatopoeia(word || '').indexOf(normalizedQuery) !== -1;
+      });
       var matchReading = o.reading && o.reading.indexOf(query) !== -1;
       var matchRomaji = o.romaji && o.romaji.toLowerCase().indexOf(query) !== -1;
       var matchMeaning = o.meaning.toLowerCase().indexOf(query) !== -1;
@@ -1508,13 +1532,14 @@ SECTION_CONFIGS.onomatopoeia = {
       }
 
       appendElement(root, 'div', 'ono-card-meaning', o.meaning);
+      if (o.tags && o.tags.length) appendElement(root, 'div', 'ono-card-reading', o.tags.join(' · '));
     }, index, section, getItemId(o, o.word));
   },
 
   openDetail: function (o, dom, section) {
     document.getElementById('ono-detail-word').textContent = o.word;
     var catBadge = document.getElementById('ono-detail-category');
-    catBadge.textContent = o.category;
+    catBadge.textContent = [o.category].concat(o.tags || []).join(' · ');
     catBadge.className = 'ono-category-badge ' + o.category;
     var patBadge = document.getElementById('ono-detail-pattern');
     patBadge.textContent = o.pattern;
@@ -1549,25 +1574,13 @@ SECTION_CONFIGS.onomatopoeia = {
       relatedEl.innerHTML = o.related.map(function (relWord) {
         var found = section.allItems.some(function (item) { return item.word === relWord; });
         if (!found) return '<span class="ono-related-tag disabled">' + relWord + '</span>';
-        return '<span class="ono-related-tag" data-word="' + relWord + '">' + relWord + '</span>';
+        return '<button class="ono-related-tag" data-word="' + relWord + '">' + relWord + '</button>';
       }).join('');
 
       relatedEl.querySelectorAll('.ono-related-tag:not(.disabled)').forEach(function (tag) {
         tag.addEventListener('click', function () {
-          var targetWord = this.getAttribute('data-word');
-          var targetIndex = section.filteredItems.findIndex(function (item) { return item.word === targetWord; });
-          if (targetIndex !== -1) {
-            section.openDetail(targetIndex);
-          } else {
-            // Item might be filtered out — reset filters and find it
-            if (section.allItems.some(function (item) { return item.word === targetWord; })) {
-              section.resetFilterGroup('category');
-              section.dom.search.value = '';
-              section.applyFilters();
-              var newIndex = section.filteredItems.findIndex(function (item) { return item.word === targetWord; });
-              if (newIndex !== -1) section.openDetail(newIndex);
-            }
-          }
+          var target = this.getAttribute('data-word');
+          window.app.workspace.openRelated(section.name, function (item) { return item.word === target; });
         });
       });
 

@@ -5923,6 +5923,379 @@
   // Future additions should set `learningOrder` within their level when they need a
   // specific position; otherwise they fall back behind the curated order of that level.
   var LEVEL_DISPLAY_ORDER = ['N5', 'N5/N4', 'N4', 'N4/N3', 'N3', 'N3/N2', 'N2', 'N2/N1', 'N1'];
+  // BEGIN REVIEWED ADVANCED LESSONS
+  LESSONS.push.apply(LESSONS, [
+  {
+    "id": "lesson-n1-pretext",
+    "number": 146,
+    "title": "～にかこつけて / ～にかまけて",
+    "subtitle": "Vorwand oder völlige Vereinnahmung?",
+    "level": "N1",
+    "grammarIds": [
+      "n1-nikakotsukete",
+      "n1-nikamakete"
+    ],
+    "intro": "Beide Ausdrücke erklären ein Verhalten mit einem anderen Umstand. Entscheidend ist, ob jemand diesen Umstand als Vorwand benutzt oder so davon beansprucht wird, dass anderes liegen bleibt.",
+    "sections": [
+      {
+        "heading": "にかこつけて — etwas als Vorwand nutzen",
+        "text": "Nomen + にかこつけて. Der genannte Grund wird vorgeschoben, um eine andere Absicht zu verfolgen. Der Sprecher betrachtet das meist kritisch. Ein neutraler Anlass wird eher mit をきっかけに ausgedrückt.",
+        "examples": [
+          {
+            "jp": "出張にかこつけて、友人に会いに行った。",
+            "romaji": "Shucchou ni kakotsukete, yuujin ni ai ni itta.",
+            "de": "Unter dem Vorwand einer Dienstreise besuchte er einen Freund."
+          },
+          {
+            "jp": "忙しさにかこつけて、返事を先延ばしにした。",
+            "romaji": "Isogashisa ni kakotsukete, henji o saki nobashi ni shita.",
+            "de": "Mit Geschäftigkeit als Vorwand schob ich die Antwort hinaus."
+          }
+        ]
+      },
+      {
+        "heading": "にかまけて — davon in Beschlag genommen",
+        "text": "Nomen + にかまけて. Arbeit, Vergnügen oder eine andere Beschäftigung nimmt jemanden völlig ein. Häufig folgt eine vernachlässigte Pflicht. Anders als bei にかこつけて muss kein vorgeschobener Grund vorliegen.",
+        "examples": [
+          {
+            "jp": "仕事にかまけて、家族との時間を大切にしてこなかった。",
+            "romaji": "Shigoto ni kamakete, kazoku to no jikan o taisetsu ni shite konakatta.",
+            "de": "Ich war so von der Arbeit beansprucht, dass ich die Zeit mit meiner Familie vernachlässigte."
+          },
+          {
+            "jp": "遊びにかまけて、宿題を忘れていた。",
+            "romaji": "Asobi ni kamakete, shukudai o wasurete ita.",
+            "de": "Vor lauter Spielen hatte ich die Hausaufgaben vergessen."
+          }
+        ],
+        "tip": "Selbstprüfung: Ist 忙しい nur eine Ausrede? Dann にかこつけて. Wird jemand tatsächlich von der Arbeit vereinnahmt? Dann にかまけて."
+      }
+    ]
+  },
+  {
+    "id": "lesson-n1-unavoidable",
+    "number": 147,
+    "title": "～ずにはおかない / ～ずにはすまない",
+    "subtitle": "Sichere Wirkung oder unvermeidliche Pflicht",
+    "level": "N1",
+    "grammarIds": [
+      "n1-zu-ni-wa-okanai",
+      "n1-zu-ni-wa-sumanai",
+      "n1-nai-de-wa-sumanai"
+    ],
+    "intro": "Die ähnliche Form verdeckt einen wichtigen Unterschied: Eine Wirkung wird sicher eintreten, oder eine Handlung ist aus Verantwortung unvermeidlich. Beide verwenden den negativen Verbstamm; する wird zu せず.",
+    "sections": [
+      {
+        "heading": "ずにはおかない — wird sicher bewirken",
+        "text": "ない-Form ohne ない + ずにはおかない. Der Sprecher erwartet eine starke, unvermeidliche Wirkung oder drückt einen festen Entschluss aus. Besonders typisch sind Verben wie 感動させる und 驚かせる.",
+        "examples": [
+          {
+            "jp": "この映画は見る人を感動させずにはおかない。",
+            "romaji": "Kono eiga wa miru hito o kandou sasezu ni wa okanai.",
+            "de": "Dieser Film wird die Zuschauer unweigerlich bewegen."
+          },
+          {
+            "jp": "彼女の発言は議論を呼ばずにはおかないだろう。",
+            "romaji": "Kanojo no hatsugen wa giron o yobazu ni wa okanai darou.",
+            "de": "Ihre Äußerung wird bestimmt eine Diskussion auslösen."
+          }
+        ]
+      },
+      {
+        "heading": "ずにはすまない — darum kommt man nicht herum",
+        "text": "Eine Entschuldigung, Erklärung oder andere notwendige Reaktion lässt sich unter den Umständen nicht vermeiden. Die Variante ないではすまない hat dieselbe Grundbedeutung. Es geht häufig um soziale oder moralische Verantwortung.",
+        "examples": [
+          {
+            "jp": "人に迷惑をかけた以上、謝らずにはすまない。",
+            "romaji": "Hito ni meiwaku o kaketa ijou, ayamarazu ni wa sumanai.",
+            "de": "Weil ich anderen Umstände gemacht habe, komme ich um eine Entschuldigung nicht herum."
+          },
+          {
+            "jp": "これほど大きな変更は、説明しないではすまない。",
+            "romaji": "Kore hodo ookina henkou wa, setsumei shinai de wa sumanai.",
+            "de": "Eine so große Änderung kann nicht ohne Erklärung bleiben."
+          }
+        ],
+        "tip": "Probe: Eine Geschichte bewegt ihre Leser → 感動させずにはおかない. Man muss sich für einen Fehler entschuldigen → 謝らずにはすまない."
+      }
+    ]
+  },
+  {
+    "id": "lesson-n1-concessions",
+    "number": 148,
+    "title": "～ならいざしらず / ～ならまだしも",
+    "subtitle": "Ausnahmen einräumen und Grenzen ziehen",
+    "level": "N1",
+    "grammarIds": [
+      "n1-naraizashirazu",
+      "n1-naramad ashimo"
+    ],
+    "intro": "Beide Muster stellen zwei Fälle gegenüber. Der erste wird ausgenommen oder gerade noch akzeptiert, der zweite wird kritisch beurteilt. Die Wertung sollte im Kontext deutlich werden.",
+    "sections": [
+      {
+        "heading": "ならいざしらず — bei A vielleicht, aber nicht bei B",
+        "text": "Nomen + ならいざしらず. Der Sprecher lässt den ersten Fall ausdrücklich beiseite und betont, dass sein Urteil für den zweiten gilt. Häufig steht ein Gegensatz wie 昔 versus 今 oder 初心者 versus 経験者.",
+        "examples": [
+          {
+            "jp": "昔ならいざしらず、今は海外にも簡単に連絡できる。",
+            "romaji": "Mukashi nara iza shirazu, ima wa kaigai ni mo kantan ni renraku dekiru.",
+            "de": "Früher mag das anders gewesen sein, aber heute erreicht man Menschen im Ausland leicht."
+          },
+          {
+            "jp": "初心者ならいざしらず、経験者がこの手順を知らないのは困る。",
+            "romaji": "Shoshinsha nara iza shirazu, keikensha ga kono tejun o shiranai no wa komaru.",
+            "de": "Bei Anfängern wäre es verständlich; bei Erfahrenen ist Unkenntnis dieses Ablaufs problematisch."
+          }
+        ]
+      },
+      {
+        "heading": "ならまだしも — A wäre noch hinnehmbar",
+        "text": "Nomen oder ein nominalisierter Sachverhalt + ならまだしも. Der erste Fall liegt noch innerhalb einer akzeptablen Grenze, der zweite überschreitet sie. Die Bedeutung ist nicht bloß eine neutrale Bedingung.",
+        "examples": [
+          {
+            "jp": "一日ならまだしも、一週間も返事がないのは心配だ。",
+            "romaji": "Ichinichi nara mada shimo, isshuukan mo henji ga nai no wa shinpai da.",
+            "de": "Ein Tag wäre noch verständlich; eine Woche ohne Antwort macht mir Sorgen."
+          },
+          {
+            "jp": "冗談ならまだしも、本気で言っているなら問題だ。",
+            "romaji": "Joudan nara mada shimo, honki de itte iru nara mondai da.",
+            "de": "Als Scherz wäre es noch hinnehmbar, aber ernst gemeint wäre es ein Problem."
+          }
+        ],
+        "tip": "Für eine erkennbare Toleranzgrenze passt ならまだしも besonders gut. ならいざしらず nimmt einen anderen Fall aus der Aussage heraus."
+      }
+    ]
+  },
+  {
+    "id": "lesson-n1-only-then",
+    "number": 149,
+    "title": "～にして初めて / ～て初めて",
+    "subtitle": "Wann eine Erfahrung wirklich Verständnis bringt",
+    "level": "N1",
+    "grammarIds": [
+      "n1-nishitehajimete",
+      "n2-te-hajimete"
+    ],
+    "intro": "Beide Muster bedeuten in passenden Kontexten „erst dann“. Die Anschlussform zeigt, ob eine Handlung oder ein bestimmter Zeitpunkt beziehungsweise Zustand als Voraussetzung genannt wird.",
+    "sections": [
+      {
+        "heading": "て初めて — erst nachdem etwas geschieht",
+        "text": "Verb in der て-Form + 初めて. Die Erfahrung ermöglicht eine Einsicht oder Veränderung, die vorher nicht möglich war. Das unterscheidet sich von 初めて日本に行く: Dort heißt es lediglich zum ersten Mal nach Japan fahren.",
+        "examples": [
+          {
+            "jp": "一人で暮らして初めて、家事の大変さが分かった。",
+            "romaji": "Hitori de kurashite hajimete, kaji no taihensa ga wakatta.",
+            "de": "Erst als ich allein lebte, begriff ich, wie viel Arbeit der Haushalt macht."
+          },
+          {
+            "jp": "説明を聞いて初めて、間違いに気づいた。",
+            "romaji": "Setsumei o kiite hajimete, machigai ni kizuita.",
+            "de": "Erst durch die Erklärung bemerkte ich den Fehler."
+          }
+        ]
+      },
+      {
+        "heading": "にして初めて — erst auf dieser Stufe",
+        "text": "Nomen + にして初めて. Schriftsprachlich betont: Erst in diesem Alter, in dieser Lage oder mit diesem Maß an Erfahrung wird etwas möglich. Die Form präsentiert die Voraussetzung als besonders bedeutsam.",
+        "examples": [
+          {
+            "jp": "四十歳にして初めて、自分の店を持った。",
+            "romaji": "Yonjuussai ni shite hajimete, jibun no mise o motta.",
+            "de": "Erst mit vierzig eröffnete ich mein eigenes Geschäft."
+          },
+          {
+            "jp": "長年の経験にして初めて可能になる判断もある。",
+            "romaji": "Naganen no keiken ni shite hajimete kanou ni naru handan mo aru.",
+            "de": "Manche Einschätzungen werden erst durch langjährige Erfahrung möglich."
+          }
+        ],
+        "tip": "Verb vor der Lücke? 暮らして初めて. Altersangabe als hervorgehobene Schwelle? 四十歳にして初めて."
+      }
+    ]
+  },
+  {
+    "id": "lesson-n1-reproach",
+    "number": 150,
+    "title": "～ものを / ～ではあるまいし",
+    "subtitle": "Bedauern und Vorwürfe erkennen",
+    "level": "N1",
+    "grammarIds": [
+      "n1-mono-wo",
+      "n1-de-wa-aru-mai-shi"
+    ],
+    "intro": "Diese Muster transportieren eine Haltung des Sprechers. Wer nur den Sachverhalt übersetzt, übersieht leicht Bedauern, Kritik oder einen belehrenden Ton. Für neutrale Bitten sind sie selten die beste Wahl.",
+    "sections": [
+      {
+        "heading": "ものを — es hätte anders kommen können",
+        "text": "Verb oder Adjektiv in der normalen Form + ものを. Oft steht vorher eine Bedingung: Hätte jemand anders gehandelt, wäre ein besseres Ergebnis möglich gewesen. Der zweite Teil kann unausgesprochen bleiben.",
+        "examples": [
+          {
+            "jp": "早く相談してくれれば、手伝えたものを。",
+            "romaji": "Hayaku soudan shite kurereba, tetsudaeta mono o.",
+            "de": "Hättest du früher mit mir gesprochen, hätte ich dir doch helfen können."
+          },
+          {
+            "jp": "傘を持っていけばよかったものを、置いてきてしまった。",
+            "romaji": "Kasa o motte ikeba yokatta mono o, oite kite shimatta.",
+            "de": "Ich hätte den Schirm mitnehmen sollen, habe ihn aber liegen lassen."
+          }
+        ]
+      },
+      {
+        "heading": "ではあるまいし — schließlich ist es nicht …",
+        "text": "Nomen + ではあるまいし. Der ausgeschlossene Fall dient als Begründung für Kritik oder eine Aufforderung. 子供ではあるまいし klingt schnell herablassend. In höflicher Zusammenarbeit besser direkt und sachlich formulieren.",
+        "examples": [
+          {
+            "jp": "子供ではあるまいし、自分で片付けなさい。",
+            "romaji": "Kodomo de wa aru mai shi, jibun de katazukenasai.",
+            "de": "Du bist schließlich kein Kind mehr; räum selbst auf."
+          },
+          {
+            "jp": "試験ではあるまいし、そんなに緊張しなくてもいい。",
+            "romaji": "Shiken de wa aru mai shi, sonna ni kinchou shinakute mo ii.",
+            "de": "Es ist doch keine Prüfung; du musst nicht so angespannt sein."
+          }
+        ],
+        "tip": "ものを blickt häufig bedauernd auf eine verpasste Möglichkeit. ではあるまいし zieht einen kritischen Vergleich im Hier und Jetzt."
+      }
+    ]
+  },
+  {
+    "id": "lesson-n1-side-actions",
+    "number": 151,
+    "title": "～がてら / ～かたがた / ～ともなく",
+    "subtitle": "Nebenabsicht, förmlicher Anlass oder ohne Absicht",
+    "level": "N1",
+    "grammarIds": [
+      "n1-gatera",
+      "n1-katagata",
+      "n1-tomonaku2"
+    ],
+    "intro": "Nicht jede beiläufige Handlung funktioniert gleich. がてら verbindet Zwecke, かたがた nennt einen förmlichen Anlass, und ともなく beschreibt eine Handlung ohne klare Absicht.",
+    "sections": [
+      {
+        "heading": "がてら — die Gelegenheit mitnutzen",
+        "text": "Nomen oder ます-Stamm + がてら. Eine Handlung wird mit einer zweiten verbunden, oft bei einem Weg nach draußen. Anders als ながら geht es häufig um zwei Zwecke desselben Ausflugs, nicht um exakte Gleichzeitigkeit.",
+        "examples": [
+          {
+            "jp": "散歩がてら、パンを買いに行った。",
+            "romaji": "Sanpo gatera, pan o kai ni itta.",
+            "de": "Bei einem Spaziergang ging ich auch Brot kaufen."
+          },
+          {
+            "jp": "友人を駅まで送りがてら、買い物をした。",
+            "romaji": "Yuujin o eki made okuri gatera, kaimono o shita.",
+            "de": "Ich begleitete meinen Freund zum Bahnhof und erledigte dabei Einkäufe."
+          }
+        ]
+      },
+      {
+        "heading": "かたがた — aus diesem Anlass zugleich",
+        "text": "Nomen + かたがた. Förmlich, besonders mit お礼・お詫び・ご挨拶 und einem Besuch. Nicht beliebig an jedes Verb anschließen.",
+        "examples": [
+          {
+            "jp": "お礼かたがた、ご挨拶に伺いました。",
+            "romaji": "Orei katagata, goaisatsu ni ukagaimashita.",
+            "de": "Ich bin gekommen, um mich zu bedanken und Sie zugleich zu begrüßen."
+          },
+          {
+            "jp": "ご報告かたがた、先生をお訪ねした。",
+            "romaji": "Gohoukoku katagata, sensei o otazune shita.",
+            "de": "Ich besuchte die Lehrperson auch, um Bericht zu erstatten."
+          }
+        ]
+      },
+      {
+        "heading": "ともなく — ohne klare Absicht",
+        "text": "Wörterbuchform + ともなく, besonders bei 見る・聞く・考える. Eine Wahrnehmung läuft ungezielt ab. Dies ist kein weiterer Zweck eines geplanten Besuchs.",
+        "examples": [
+          {
+            "jp": "見るともなく窓の外を見ていた。",
+            "romaji": "Miru tomo naku mado no soto o mite ita.",
+            "de": "Ich schaute gedankenverloren aus dem Fenster."
+          },
+          {
+            "jp": "聞くともなく聞いていた話が、急に気になった。",
+            "romaji": "Kiku tomo naku kiite ita hanashi ga, kyuu ni ki ni natta.",
+            "de": "Das Gespräch, dem ich beiläufig zugehört hatte, weckte plötzlich mein Interesse."
+          }
+        ],
+        "tip": "Zwei bewusst verbundene Zwecke → がてら. Förmlicher Besuchsanlass → かたがた. Ungezielte Wahrnehmung → ともなく."
+      }
+    ]
+  }
+]);
+  var reviewedLessonPatterns = {
+  "lesson-44": [
+    "n3-zaruwoenai",
+    "n4-wake-ni-ikanai"
+  ],
+  "lesson-45": [
+    "n3-kaneru",
+    "n3-kanenai"
+  ],
+  "lesson-46": [
+    "n2-ni-hoka-naranai",
+    "n3-ni-suginai"
+  ],
+  "lesson-47": [
+    "n1-tari-tomo-nai",
+    "n1-sura",
+    "n1-dani"
+  ],
+  "lesson-48": [
+    "n2-wo-motte",
+    "n1-wo-fumaete",
+    "n1-wo-yoginaku-sareru"
+  ],
+  "lesson-49": [
+    "n1-to-mo-naru-to"
+  ],
+  "lesson-50": [
+    "n1-n-bakari-ni",
+    "n1-majiki",
+    "n1-bekarazu"
+  ],
+  "lesson-51": [
+    "n2-nagara-mo",
+    "n3-tsutsu",
+    "n3-mono-no"
+  ],
+  "lesson-52": [
+    "n1-ni-itaru",
+    "n1-ni-itatte-wa"
+  ],
+  "lesson-53": [
+    "n1-wo-yoso-ni",
+    "n1-wo-mono-tomo-sezu-ni"
+  ],
+  "lesson-54": [
+    "n1-te-yamanai",
+    "n1-ni-taenai",
+    "n1-ni-katakunai"
+  ],
+  "lesson-55": [
+    "n1-ta-ga-saigo",
+    "n1-ya-inaya",
+    "n1-nari"
+  ],
+  "lesson-56": [
+    "n1-gotoki",
+    "n1-ikan-ni-yorazu"
+  ],
+  "lesson-57": [
+    "n1-kiwamarinai",
+    "n1-no-kiwami",
+    "n1-no-itari",
+    "n1-kagirida"
+  ]
+};
+  LESSONS.forEach(function (lesson) {
+    if (reviewedLessonPatterns[lesson.id]) lesson.grammarIds = reviewedLessonPatterns[lesson.id];
+  });
+  // END REVIEWED ADVANCED LESSONS
+
   var LEVEL_DISPLAY_INDEX = {};
   LEVEL_DISPLAY_ORDER.forEach(function (level, index) {
     LEVEL_DISPLAY_INDEX[level] = index;
@@ -7018,84 +7391,16 @@
   // === RENDERING & UI LOGIC ===
   // =====================================================
 
-  var lessonsContainer = null;
-  var currentOpen = null;
-  var lessonCards = [];
-
-  function ensureLessonBodyRendered(lesson, body) {
-    if (body.getAttribute('data-rendered') === 'true') return;
-    if (!lesson._renderedContent) {
-      lesson._renderedContent = renderLessonContent(lesson);
-    }
-    body.innerHTML = lesson._renderedContent;
-    body.setAttribute('data-rendered', 'true');
-  }
-
-  function renderLessonCard(lesson) {
-    var card = document.createElement('div');
-    card.className = 'gl-card';
-    card.setAttribute('data-lesson', lesson.id);
-
-    // Header (always visible)
-    var header = document.createElement('div');
-    header.className = 'gl-card-header';
-    header.tabIndex = 0;
-    header.setAttribute('role', 'button');
-    header.setAttribute('aria-expanded', 'false');
-
-    header.innerHTML =
-      '<span class="gl-card-number">' + lesson.number + '</span>' +
-      '<div class="gl-card-titles">' +
-        '<span class="gl-card-title">' + lesson.title + '</span>' +
-        '<span class="gl-card-subtitle">' + lesson.subtitle + '</span>' +
-      '</div>' +
-      '<span class="gl-card-level card-level ' + lesson.level.split('/')[0] + '">' + lesson.level + '</span>' +
-      '<svg class="gl-card-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
-
-    // Body (expandable)
-    var body = document.createElement('div');
-    body.className = 'gl-card-body collapsed';
-    body.setAttribute('data-rendered', 'false');
-
-    function toggle() {
-      if (window.app) window.app.playTick();
-      var isOpen = !body.classList.contains('collapsed');
-      if (isOpen) {
-        body.classList.add('collapsed');
-        header.querySelector('.gl-card-chevron').classList.remove('open');
-        header.setAttribute('aria-expanded', 'false');
-        currentOpen = null;
-      } else {
-        // Close any other open lesson
-        if (currentOpen && currentOpen !== body) {
-          currentOpen.classList.add('collapsed');
-          currentOpen.previousElementSibling.querySelector('.gl-card-chevron').classList.remove('open');
-          currentOpen.previousElementSibling.setAttribute('aria-expanded', 'false');
-        }
-        ensureLessonBodyRendered(lesson, body);
-        body.classList.remove('collapsed');
-        header.querySelector('.gl-card-chevron').classList.add('open');
-        header.setAttribute('aria-expanded', 'true');
-        currentOpen = body;
-        // Scroll into view after animation
-        setTimeout(function () {
-          header.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }, 80);
-      }
-    }
-
-    header.addEventListener('click', toggle);
-    header.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
-    });
-
-    card.appendChild(header);
-    card.appendChild(body);
-    return card;
-  }
-
   function renderLessonContent(lesson) {
     var html = '<div class="gl-intro">' + lesson.intro + '</div>';
+    if (lesson.grammarIds && lesson.grammarIds.length) {
+      html += '<div class="gl-section"><h4 class="gl-section-heading">Muster nachschlagen</h4>';
+      lesson.grammarIds.forEach(function (id) {
+        var pattern = (window.GRAMMAR_DATA || []).find(function (g) { return g.id === id; });
+        if (pattern) html += '<button type="button" class="btn btn-pill" data-grammar-reference="' + id + '">' + pattern.pattern + '</button> ';
+      });
+      html += '</div>';
+    }
 
     lesson.sections.forEach(function (sec) {
       html += '<div class="gl-section">';
@@ -7127,188 +7432,116 @@
     return html;
   }
 
-  // --- Lesson Filtering ---
-  var lessonQuery = '';
-  var lessonLevel = 'all';
-  var lessonSearchTimeout = null;
 
-  function lessonMatchesLevel(lesson, level) {
-    if (level === 'all') return true;
-    return lesson.level.indexOf(level) !== -1;
+  var api = window.Lessons = { view: 'reference', selected: null, count: LESSONS.length };
+  var query = '', level = 'all', indexScroll = 0, readingScroll = {};
+  var controls, index, reader, visible = LESSONS.slice();
+  function persist() { if (window.app.workspace) window.app.workspace.save(); }
+  function commit() { if (window.app.workspace) window.app.workspace.commit(); window.app.updateCount(); }
+  function button(text, action, cls) {
+    var el = document.createElement('button'); el.type = 'button'; el.textContent = text; el.className = cls || ''; el.onclick = action; return el;
   }
-
-  function lessonMatchesQuery(lesson, q) {
-    if (!q) return true;
-    var lower = q.toLowerCase();
-    return lesson._searchText.indexOf(lower) !== -1;
+  function filter() {
+    visible = LESSONS.filter(function (lesson) { return (level === 'all' || lesson.level.indexOf(level) !== -1) && (!query || lesson._searchText.indexOf(query.toLowerCase()) !== -1); });
+    api.count = visible.length;
+    index.querySelectorAll('[data-lesson]').forEach(function (card) { card.classList.toggle('hidden', !visible.some(function (lesson) { return lesson.id === card.dataset.lesson; })); });
+    document.getElementById('gl-no-results').classList.toggle('hidden', !!visible.length);
+    document.getElementById('gl-count').textContent = visible.length + ' Lektionen';
+    controls.querySelectorAll('.gl-level').forEach(function (btn) { var active = btn.dataset.gllevel === level; btn.classList.toggle('active', active); btn.setAttribute('aria-pressed', String(active)); });
+    controls.querySelector('.lesson-filter-summary').textContent = (query ? '„' + query + '“ · ' : '') + (level === 'all' ? 'Alle Level' : level);
+    if (api.view === 'lessons') window.app.updateCount();
+    persist();
   }
-
-  function filterLessons() {
-    if (!lessonsContainer) return;
-    var count = 0;
-    for (var i = 0; i < lessonCards.length; i++) {
-      var lesson = LESSONS[i];
-      var show = lessonMatchesLevel(lesson, lessonLevel) && lessonMatchesQuery(lesson, lessonQuery);
-      lessonCards[i].classList.toggle('hidden', !show);
-      if (show) count++;
+  function showIndex(silent) {
+    if (!silent) { persist(); if (api.selected) readingScroll[api.selected] = window.scrollY; }
+    var previous = api.selected;
+    api.selected = null;
+    reader.classList.add('hidden'); index.classList.remove('hidden');
+    if (!silent) {
+      commit();
+      var card = Array.from(index.querySelectorAll('[data-lesson]')).find(function (el) { return el.dataset.lesson === previous; });
+      if (card) card.querySelector('button').focus({ preventScroll: true });
+      window.scrollTo(0, indexScroll);
     }
-    var countEl = document.getElementById('gl-count');
-    if (countEl) countEl.textContent = count + ' Lektionen';
-    var noResults = document.getElementById('gl-no-results');
-    if (noResults) noResults.classList.toggle('hidden', count > 0);
   }
-
+  function openLesson(id, silent) {
+    var lesson = LESSONS.find(function (entry) { return entry.id === id; });
+    if (!lesson) { showIndex(true); window.app.workspace.message('Diese Lektion wurde nicht gefunden. Wähle eine Lektion aus der Übersicht.'); return; }
+    if (!silent) { persist(); if (api.selected) readingScroll[api.selected] = window.scrollY; else indexScroll = window.scrollY; }
+    api.selected = id;
+    index.classList.add('hidden'); reader.classList.remove('hidden'); reader.innerHTML = '';
+    var header = document.createElement('header');
+    header.appendChild(button('← Alle Lektionen', function () { showIndex(); }));
+    var heading = document.createElement('h2'); heading.id = 'lesson-title'; heading.tabIndex = -1; heading.textContent = lesson.title; header.appendChild(heading);
+    var sub = document.createElement('p'); sub.className = 'lesson-subtitle'; sub.textContent = lesson.level + ' · ' + lesson.subtitle; header.appendChild(sub); reader.appendChild(header);
+    var body = document.createElement('div'); body.className = 'gl-card-body'; body.innerHTML = renderLessonContent(lesson); reader.appendChild(body);
+    body.querySelectorAll('table').forEach(function (table) {
+      var region = document.createElement('div'); region.className = 'lesson-table-region'; region.tabIndex = 0; region.setAttribute('role', 'region'); region.setAttribute('aria-label', 'Lektionstabelle, horizontal scrollbar'); table.before(region); region.appendChild(table);
+    });
+    body.addEventListener('click', function (event) {
+      var ref = event.target.closest('[data-grammar-reference]');
+      if (ref) window.app.workspace.openRelated('grammar', function (g) { return g.id === ref.dataset.grammarReference; });
+      var link = event.target.closest('[data-lesson-link]');
+      if (link) { event.preventDefault(); openLesson(link.dataset.lessonLink); }
+    });
+    var nav = document.createElement('div'); nav.className = 'lesson-reader-nav';
+    var pos = visible.indexOf(lesson);
+    var prev = button('← Vorherige Lektion', function () { openLesson(visible[pos - 1].id); }); prev.disabled = pos <= 0;
+    var next = button('Nächste Lektion →', function () { openLesson(visible[pos + 1].id); }); next.disabled = pos < 0 || pos >= visible.length - 1;
+    nav.appendChild(prev); nav.appendChild(next); reader.appendChild(nav);
+    if (!silent) { commit(); heading.focus({ preventScroll: true }); window.scrollTo(0, readingScroll[id] || 0); }
+  }
+  function setView(view, silent) {
+    if (!silent) { persist(); window.app.workspace.dismiss(); }
+    api.view = view;
+    var lessons = view === 'lessons';
+    document.getElementById('grammar-controls').classList.toggle('grammar-lessons-view', lessons);
+    document.getElementById('grammar-grid').classList.toggle('hidden', lessons);
+    document.getElementById('grammar-no-results').classList.toggle('hidden', lessons || !!window.app.sections.grammar.filteredItems.length);
+    controls.classList.toggle('hidden', !lessons);
+    index.classList.toggle('hidden', !lessons || !!api.selected);
+    reader.classList.toggle('hidden', !lessons || !api.selected);
+    document.querySelectorAll('#grammar-view-toggle button').forEach(function (btn) { var active = btn.dataset.view === view; btn.classList.toggle('active', active); btn.setAttribute('aria-pressed', String(active)); });
+    if (!silent) commit();
+  }
   function initLessons() {
     if (window.__grammarLessonsInitialized) return;
-
-    var grammarControls = document.getElementById('grammar-controls');
-    var grammarGrid = document.getElementById('grammar-grid');
-    var grammarNoResults = document.getElementById('grammar-no-results');
-    var grammarTab = document.getElementById('grammar-tab');
-    if (!grammarControls || !grammarTab) return;
-
-    // --- View Toggle ---
-    var toggleRow = document.getElementById('grammar-view-toggle');
-    if (!toggleRow) {
-      toggleRow = document.createElement('div');
-      toggleRow.id = 'grammar-view-toggle';
-      toggleRow.className = 'gl-view-toggle';
-      toggleRow.innerHTML =
-        '<button class="gl-view-btn active" data-view="reference">' +
-          '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h8"/></svg>' +
-          'Nachschlagen</button>' +
-        '<button class="gl-view-btn" data-view="lessons">' +
-          '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>' +
-          'Lektionen</button>';
-      grammarControls.insertBefore(toggleRow, grammarControls.firstChild);
-    }
-
-    // Tag original grammar controls for toggle logic
-    var origSearchBar = grammarControls.querySelector('.search-bar');
-    if (origSearchBar) origSearchBar.classList.add('grammar-ref-search');
-    grammarControls.querySelectorAll(':scope > .filters').forEach(function (f) {
-      f.classList.add('grammar-ref-filters');
+    var host = document.getElementById('grammar-tab');
+    document.querySelector('#grammar-controls .search-bar').classList.add('grammar-ref-search');
+    controls = document.createElement('div'); controls.id = 'gl-controls'; controls.className = 'hidden';
+    controls.innerHTML = '<label class="field-label" for="gl-search">Lektionen durchsuchen</label><div class="search-bar"><input id="gl-search" placeholder="Thema, Grammatik oder Erklärung" autocomplete="off"><button id="gl-clear-search" class="btn-clear" aria-label="Suche löschen">×</button></div><div class="filters"><div class="filter-field"><span id="gl-level-label" class="filter-group-label">JLPT</span><div class="level-filters" role="group" aria-labelledby="gl-level-label"></div></div><span id="gl-count" class="gl-count" role="status"></span></div><div class="filter-summary"><span class="lesson-filter-summary"></span><button id="gl-reset">Filter zurücksetzen</button></div>';
+    ['all', 'N5', 'N4', 'N3', 'N2', 'N1'].forEach(function (value) {
+      var btn = button(value === 'all' ? 'Alle' : value, function () { level = value; filter(); }, 'filter-btn gl-level'); btn.dataset.gllevel = value; controls.querySelector('.level-filters').appendChild(btn);
     });
-
-    // --- Lesson Controls (search + filters, hidden by default) ---
-    var lessonControls = document.createElement('div');
-    lessonControls.id = 'gl-controls';
-    lessonControls.className = 'hidden';
-    lessonControls.innerHTML =
-      '<div class="search-bar">' +
-        '<svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>' +
-        '<input type="text" id="gl-search" placeholder="Lektion suchen (Thema, Grammatik, Erklärung...)" autocomplete="off">' +
-        '<button id="gl-clear-search" class="btn-clear" title="Suche löschen">&times;</button>' +
-      '</div>' +
-      '<div class="filters">' +
-        '<div class="level-filters">' +
-          '<button class="filter-btn gl-level active" data-gllevel="all">Alle</button>' +
-          '<button class="filter-btn gl-level n5" data-gllevel="N5">N5</button>' +
-          '<button class="filter-btn gl-level n4" data-gllevel="N4">N4</button>' +
-          '<button class="filter-btn gl-level n3" data-gllevel="N3">N3</button>' +
-          '<button class="filter-btn gl-level n2" data-gllevel="N2">N2</button>' +
-          '<button class="filter-btn gl-level n1" data-gllevel="N1">N1</button>' +
-        '</div>' +
-        '<span id="gl-count" class="gl-count">' + LESSONS.length + ' Lektionen</span>' +
-      '</div>';
-
-    grammarControls.appendChild(lessonControls);
-
-    // --- Lesson Controls Events ---
-    var glSearch = document.getElementById('gl-search');
-    var glClear = document.getElementById('gl-clear-search');
-
-    glSearch.addEventListener('input', function () {
-      clearTimeout(lessonSearchTimeout);
-      glClear.classList.toggle('visible', glSearch.value.length > 0);
-      lessonSearchTimeout = setTimeout(function () {
-        lessonQuery = glSearch.value.trim();
-        filterLessons();
-      }, 200);
-    });
-
-    glClear.addEventListener('click', function () {
-      glSearch.value = '';
-      glClear.classList.remove('visible');
-      lessonQuery = '';
-      filterLessons();
-      glSearch.focus();
-    });
-
-    lessonControls.querySelectorAll('.gl-level').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        lessonControls.querySelectorAll('.gl-level').forEach(function (b) { b.classList.remove('active'); });
-        btn.classList.add('active');
-        lessonLevel = btn.getAttribute('data-gllevel');
-        filterLessons();
-        if (window.app) window.app.playSwoosh();
-      });
-    });
-
-    // --- Lessons Container ---
-    lessonsContainer = document.createElement('div');
-    lessonsContainer.id = 'grammar-lessons';
-    lessonsContainer.className = 'gl-container hidden';
-    lessonCards = [];
-
-    var lessonsFragment = document.createDocumentFragment();
+    document.getElementById('grammar-controls').appendChild(controls);
+    var search = controls.querySelector('input');
+    search.addEventListener('input', function () { query = search.value.trim(); controls.querySelector('.btn-clear').classList.toggle('visible', !!query); filter(); });
+    controls.querySelector('#gl-clear-search').onclick = function () { search.value = ''; query = ''; filter(); search.focus(); };
+    controls.querySelector('#gl-reset').onclick = function () { search.value = ''; query = ''; level = 'all'; filter(); search.focus(); };
+    index = document.createElement('div'); index.id = 'grammar-lessons'; index.className = 'gl-container hidden';
     LESSONS.forEach(function (lesson) {
-      var card = renderLessonCard(lesson);
-      lessonCards.push(card);
-      lessonsFragment.appendChild(card);
+      var card = document.createElement('div'); card.className = 'gl-card'; card.dataset.lesson = lesson.id;
+      var header = button('', function () { openLesson(lesson.id); }, 'gl-card-header');
+      header.innerHTML = '<span class="gl-card-number">' + lesson.number + '</span><span class="gl-card-titles"><span class="gl-card-title">' + lesson.title + '</span><span class="gl-card-subtitle">' + lesson.subtitle + '</span></span><span class="gl-card-level card-level ' + lesson.level.split('/')[0] + '">' + lesson.level + '</span><span class="gl-card-chevron">→</span>';
+      card.appendChild(header); index.appendChild(card);
     });
-    lessonsContainer.appendChild(lessonsFragment);
-
-    // No results message
-    var noRes = document.createElement('div');
-    noRes.id = 'gl-no-results';
-    noRes.className = 'no-results hidden';
-    noRes.innerHTML = '<p>Keine Lektionen gefunden.</p>';
-    lessonsContainer.appendChild(noRes);
-
-    // Insert before the grid
-    grammarTab.insertBefore(lessonsContainer, grammarGrid);
-
-    // --- Toggle Logic ---
-    var refSearchBar = grammarControls.querySelector('.grammar-ref-search');
-    var refFilterRows = grammarControls.querySelectorAll('.grammar-ref-filters');
-    var viewBtns = toggleRow.querySelectorAll('.gl-view-btn');
-
-    viewBtns.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        if (window.app && typeof window.app.playSwoosh === 'function') {
-          window.app.playSwoosh();
-        }
-        var view = this.getAttribute('data-view');
-        viewBtns.forEach(function (b) { b.classList.toggle('active', b === btn); });
-
-        if (view === 'lessons') {
-          refSearchBar.classList.add('hidden');
-          refFilterRows.forEach(function (f) { f.classList.add('hidden'); });
-          grammarGrid.classList.add('hidden');
-          grammarNoResults.classList.add('hidden');
-          lessonControls.classList.remove('hidden');
-          lessonsContainer.classList.remove('hidden');
-        } else {
-          refSearchBar.classList.remove('hidden');
-          refFilterRows.forEach(function (f) { f.classList.remove('hidden'); });
-          grammarGrid.classList.remove('hidden');
-          lessonControls.classList.add('hidden');
-          lessonsContainer.classList.add('hidden');
-          if (window.app && window.app.sections.grammar) {
-            window.app.sections.grammar.applyFilters();
-          }
-        }
-      });
-    });
-
+    var empty = document.createElement('div'); empty.id = 'gl-no-results'; empty.className = 'no-results hidden'; empty.setAttribute('role', 'status'); empty.textContent = 'Keine Lektionen gefunden. Setze die Filter zurück oder ändere die Suche.'; index.appendChild(empty);
+    reader = document.createElement('article'); reader.id = 'lesson-reader'; reader.className = 'lesson-reader hidden'; reader.setAttribute('aria-labelledby', 'lesson-title');
+    host.prepend(reader); host.prepend(index);
+    document.querySelectorAll('#grammar-view-toggle button').forEach(function (btn) { btn.addEventListener('click', function () { setView(btn.dataset.view); }); });
     window.__grammarLessonsInitialized = true;
+    filter();
   }
-
-  // Init when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initLessons);
-  } else {
-    initLessons();
-  }
+  api.setView = setView;
+  api.open = openLesson;
+  api.snapshot = function () { return { view: api.view, selected: api.selected, query: query, level: level, indexScroll: indexScroll, readingScroll: Object.assign({}, readingScroll) }; };
+  api.restore = function (state, id) {
+    if (state) { query = state.query || ''; level = state.level || 'all'; indexScroll = state.indexScroll || 0; readingScroll = Object.assign({}, state.readingScroll); }
+    controls.querySelector('input').value = query; filter();
+    setView('lessons', true);
+    if (id || (state && state.selected)) openLesson(id || state.selected, true); else showIndex(true);
+  };
+  window.GRAMMAR_LESSONS = LESSONS;
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initLessons);
+  else initLessons();
 })();

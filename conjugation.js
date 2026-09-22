@@ -33,7 +33,6 @@
     'あせる': 1,   // 焦る (to be impatient)
     'ひねる': 1,   // 捻る (to twist)
     'かじる': 1,   // 齧る (to gnaw)
-    'まぜる': 1,   // — note: 混ぜる is ichidan, but keeping for safety
     'ちぎる': 1,   // 千切る (to tear off)
   };
 
@@ -58,8 +57,9 @@
     if (!reading) return null;
     // Irregular: する and compounds
     if (reading === 'する' || reading.length >= 3 && reading.slice(-2) === 'する') return 'suru';
-    // Irregular: くる and compounds
-    if (reading === 'くる' || reading.length >= 3 && reading.slice(-2) === 'くる') return 'kuru';
+    // Compounds of 来る must carry explicit metadata. 作る and 送る
+    // also end in くる, but are regular godan verbs.
+    if (reading === 'くる') return 'kuru';
     // Special: ある
     if (reading === 'ある') return 'aru';
 
@@ -92,16 +92,19 @@
       te = 'いって';
       ta = 'いった';
     }
+    // Honorific -aru verbs use -ai before ます: なさる → なさいます.
+    var honorific = /^(なさる|くださる|いらっしゃる|おっしゃる|ござる)$/.test(reading);
+    var politeStem = stem + (honorific ? 'い' : row.i);
 
     return {
       dictionary:    { japanese: reading,                    label: 'Wörterbuchform (辞書形)' },
-      polite:        { japanese: stem + row.i + 'ます',       label: 'Höflich (ます形)' },
+      polite:        { japanese: politeStem + 'ます',         label: 'Höflich (ます形)' },
       negative:      { japanese: stem + row.a + 'ない',       label: 'Negativ (ない形)' },
-      negPolite:     { japanese: stem + row.i + 'ません',      label: 'Negativ höflich' },
+      negPolite:     { japanese: politeStem + 'ません',        label: 'Negativ höflich' },
       past:          { japanese: ta,                          label: 'Vergangenheit (た形)' },
-      pastPolite:    { japanese: stem + row.i + 'ました',      label: 'Vergangenheit höflich' },
+      pastPolite:    { japanese: politeStem + 'ました',        label: 'Vergangenheit höflich' },
       pastNeg:       { japanese: stem + row.a + 'なかった',    label: 'Vergangenheit negativ' },
-      pastNegPolite: { japanese: stem + row.i + 'ませんでした', label: 'Vergangen. neg. höfl.' },
+      pastNegPolite: { japanese: politeStem + 'ませんでした',  label: 'Vergangen. neg. höfl.' },
       te:            { japanese: te,                          label: 'て-Form' },
       potential:     { japanese: stem + row.e + 'る',         label: 'Potenzial (können)' },
       passive:       { japanese: stem + row.a + 'れる',       label: 'Passiv (受身形)' },
@@ -110,8 +113,8 @@
       conditional:   { japanese: stem + row.e + 'ば',         label: 'Konditional (ば形)' },
       conditionalTara: { japanese: ta + 'ら',                 label: 'Konditional (たら形)' },
       volitional:    { japanese: stem + row.o + 'う',         label: 'Volitional (意志形)' },
-      volPolite:     { japanese: stem + row.i + 'ましょう',    label: 'Volitional höflich' },
-      imperative:    { japanese: stem + row.e,                label: 'Imperativ (命令形)' },
+      volPolite:     { japanese: politeStem + 'ましょう',      label: 'Volitional höflich' },
+      imperative:    { japanese: stem + (honorific ? 'い' : row.e), label: 'Imperativ (命令形)' },
       prohibitive:   { japanese: reading + 'な',              label: 'Verbot (禁止形)' }
     };
   }
@@ -196,50 +199,18 @@
     ichidan: '一段動詞',
     suru: '変格 (する)',
     kuru: '変格 (くる)',
+    zuru: '変格 (ずる)',
     aru: '五段動詞'
   };
 
-  var SURU_SUFFIX = 'する';
-  var SURU_INFLECTIONS = [
-    'する', 'した', 'して', 'します', 'しました',
-    'しない', 'しません', 'している', 'しています',
-    'していた', 'される', 'された', 'させる',
-    'させられる', 'すれば', 'したら', 'しよう',
-    'したい', 'しろ'
-  ];
-  var NON_VERB_CATEGORIES = {
-    'Art und Weise': 1,
-    'Zeit': 1,
-    'Eigenschaften': 1,
-    'Ort': 1
-  };
-
-  function isLikelyGermanVerbMeaning(meaning) {
-    if (!meaning || typeof meaning !== 'string') return false;
-    var first = meaning.split(/[,\s/()]+/)[0] || '';
-    first = first.toLowerCase();
-    if (!first) return false;
-    return /(en|eln|ern|ieren|igen|ßen|hen|ten)$/.test(first);
-  }
-
-  function hasSuruExample(word, examples) {
-    if (!word || !examples || !examples.length) return false;
-    var text = examples.map(function (ex) {
-      return ex && ex.japanese ? ex.japanese : '';
-    }).join('\n');
-    for (var i = 0; i < SURU_INFLECTIONS.length; i++) {
-      if (text.indexOf(word + SURU_INFLECTIONS[i]) !== -1) return true;
-    }
-    return false;
-  }
-
-  function endsWithSuru(text) {
-    return typeof text === 'string' && text.slice(-2) === SURU_SUFFIX;
-  }
-
-  window.conjugateVerb = function (reading) {
-    var group = detectVerbGroup(reading);
-    if (!group) return null;
+  window.conjugateVerb = function (reading, verbGroup) {
+    var group = verbGroup || detectVerbGroup(reading);
+    if (!reading || !Object.prototype.hasOwnProperty.call(GROUP_LABELS, group)) return null;
+    if ((group === 'ichidan' && !reading.endsWith('る')) ||
+        (group === 'suru' && !reading.endsWith('する')) ||
+        (group === 'kuru' && !reading.endsWith('くる')) ||
+        (group === 'zuru' && !reading.endsWith('ずる')) ||
+        (group === 'aru' && reading !== 'ある')) return null;
 
     var forms;
     switch (group) {
@@ -247,6 +218,13 @@
       case 'ichidan': forms = conjugateIchidan(reading); break;
       case 'suru':    forms = conjugateSuru(reading); break;
       case 'kuru':    forms = conjugateKuru(reading); break;
+      case 'zuru':
+        forms = conjugateIchidan(reading.slice(0, -2) + 'じる');
+        forms.dictionary.japanese = reading;
+        forms.conditional.japanese = reading.slice(0, -1) + 'れば';
+        forms.prohibitive.japanese = reading + 'な';
+        forms.imperative.acceptedVariants = [reading.slice(0, -2) + 'ぜよ', reading.slice(0, -2) + 'じよ'];
+        break;
       case 'aru':
         forms = conjugateGodan(reading);
         // Special: ある negative is ない, not あらない
@@ -257,6 +235,7 @@
         break;
     }
 
+    if (!forms) return null;
     return {
       group: group,
       groupLabel: GROUP_LABELS[group] || group,
@@ -266,47 +245,20 @@
 
   window.resolveVocabVerbConjugation = function (item) {
     if (!item || item.type !== 'Verb' || !item.reading) return null;
-
-    var direct = window.conjugateVerb(item.reading);
-    if (direct) {
-      return {
-        reading: item.reading,
-        result: direct,
-        normalized: false
-      };
-    }
-
-    if (item.conjugationReading) {
-      var explicit = window.conjugateVerb(item.conjugationReading);
-      if (explicit) {
-        return {
-          reading: item.conjugationReading,
-          result: explicit,
-          normalized: item.conjugationReading !== item.reading
-        };
-      }
-    }
-
-    if (endsWithSuru(item.reading) || endsWithSuru(item.word)) return null;
-
-    var candidateReading = item.reading + SURU_SUFFIX;
-    var candidate = window.conjugateVerb(candidateReading);
-    if (!candidate) return null;
-
-    var hasExampleEvidence = hasSuruExample(item.word, item.examples);
-    var hasMeaningEvidence = isLikelyGermanVerbMeaning(item.meaning);
-    if (!hasExampleEvidence && !hasMeaningEvidence) {
-      return null;
-    }
-
-    if (!hasMeaningEvidence && item.category && NON_VERB_CATEGORIES[item.category]) {
-      return null;
-    }
-
-    return {
-      reading: candidateReading,
-      result: candidate,
-      normalized: true
-    };
+    var meta = item.conjugation || item;
+    if (!meta.verbGroup || meta.conjugationKind === 'excluded') return null;
+    var reading = meta.conjugationReading || item.reading;
+    var result = window.conjugateVerb(reading, meta.verbGroup);
+    if (!result) return null;
+    var overrides = meta.conjugationOverrides || {};
+    Object.keys(overrides).forEach(function (key) {
+      if (overrides[key] === null) delete result.forms[key];
+      else if (result.forms[key]) result.forms[key].japanese = overrides[key];
+    });
+    var variants = meta.conjugationVariants || {};
+    Object.keys(variants).forEach(function (key) {
+      if (result.forms[key]) result.forms[key].acceptedVariants = variants[key].slice();
+    });
+    return { reading: reading, result: result, normalized: reading !== item.reading };
   };
 })();

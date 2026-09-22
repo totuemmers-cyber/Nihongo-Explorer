@@ -1,3 +1,4 @@
+// Teaching data; historical and completion authoring are documented in scripts.
 window.VOCAB_N5 = [
   {
     "word": "私",
@@ -349,7 +350,17 @@ window.VOCAB_N5 = [
         "romaji": "Sushi o tabetai desu.",
         "german": "Ich möchte Sushi essen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "たべる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "たべよ"
+        ]
+      }
+    }
   },
   {
     "word": "飲む",
@@ -371,7 +382,17 @@ window.VOCAB_N5 = [
         "romaji": "Ocha o nomimasen ka.",
         "german": "Möchten Sie Tee trinken?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "のむ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "のまされる"
+        ]
+      }
+    }
   },
   {
     "word": "行く",
@@ -393,7 +414,22 @@ window.VOCAB_N5 = [
         "romaji": "Ashita Toukyou ni ikimasu.",
         "german": "Morgen fahre ich nach Tokio."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "いく",
+      "conjugationKind": "verb",
+      "conjugationOverrides": {
+        "te": "いって",
+        "past": "いった",
+        "conditionalTara": "いったら"
+      },
+      "conjugationVariants": {
+        "causPas": [
+          "いかされる"
+        ]
+      }
+    }
   },
   {
     "word": "来る",
@@ -415,7 +451,15 @@ window.VOCAB_N5 = [
         "romaji": "Nihon kara kimashita.",
         "german": "Ich bin aus Japan gekommen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "kuru",
+      "conjugationReading": "くる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": []
+      }
+    }
   },
   {
     "word": "帰る",
@@ -437,7 +481,17 @@ window.VOCAB_N5 = [
         "romaji": "Goji ni kaerimasu.",
         "german": "Ich gehe um fünf Uhr zurück."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "かえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "かえらされる"
+        ]
+      }
+    }
   },
   {
     "word": "見る",
@@ -459,7 +513,17 @@ window.VOCAB_N5 = [
         "romaji": "Sakura o mi ni ikimashou.",
         "german": "Lass uns Kirschblüten ansehen gehen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "みる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "みよ"
+        ]
+      }
+    }
   },
   {
     "word": "聞く",
@@ -481,7 +545,17 @@ window.VOCAB_N5 = [
         "romaji": "Sensei ni kiite kudasai.",
         "german": "Bitte fragen Sie den Lehrer."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "きく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "きかされる"
+        ]
+      }
+    }
   },
   {
     "word": "読む",
@@ -503,7 +577,17 @@ window.VOCAB_N5 = [
         "romaji": "Mainichi shinbun o yomimasu.",
         "german": "Ich lese jeden Tag die Zeitung."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "よむ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "よまされる"
+        ]
+      }
+    }
   },
   {
     "word": "書く",
@@ -525,7 +609,17 @@ window.VOCAB_N5 = [
         "romaji": "Namae o kaite kudasai.",
         "german": "Bitte schreiben Sie Ihren Namen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "かく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "かかされる"
+        ]
+      }
+    }
   },
   {
     "word": "話す",
@@ -547,7 +641,12 @@ window.VOCAB_N5 = [
         "romaji": "Tomodachi to denwa de hanashimashita.",
         "german": "Ich habe mit meinem Freund telefoniert."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "はなす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "買う",
@@ -569,7 +668,17 @@ window.VOCAB_N5 = [
         "romaji": "Hana o kaimashita.",
         "german": "Ich habe Blumen gekauft."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "かう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "かわされる"
+        ]
+      }
+    }
   },
   {
     "word": "する",
@@ -591,7 +700,17 @@ window.VOCAB_N5 = [
         "romaji": "Tenisu o shimasen ka.",
         "german": "Wollen wir Tennis spielen?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "する",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "せよ"
+        ]
+      }
+    }
   },
   {
     "word": "ある",
@@ -613,7 +732,18 @@ window.VOCAB_N5 = [
         "romaji": "Kouen ni benchi ga arimasu.",
         "german": "Im Park gibt es eine Bank."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "aru",
+      "conjugationReading": "ある",
+      "conjugationKind": "verb",
+      "conjugationOverrides": {
+        "potential": null,
+        "passive": null,
+        "causative": null,
+        "causPas": null
+      }
+    }
   },
   {
     "word": "いる",
@@ -635,7 +765,17 @@ window.VOCAB_N5 = [
         "romaji": "Heya ni neko ga imasu.",
         "german": "Im Zimmer ist eine Katze."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "いる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "いよ"
+        ]
+      }
+    }
   },
   {
     "word": "分かる",
@@ -657,7 +797,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono mondai ga wakarimasen.",
         "german": "Ich verstehe dieses Problem nicht."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "わかる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "わからされる"
+        ]
+      }
+    }
   },
   {
     "word": "待つ",
@@ -679,7 +829,17 @@ window.VOCAB_N5 = [
         "romaji": "Basu o matte imasu.",
         "german": "Ich warte auf den Bus."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "まつ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "またされる"
+        ]
+      }
+    }
   },
   {
     "word": "立つ",
@@ -701,7 +861,17 @@ window.VOCAB_N5 = [
         "romaji": "Minna no mae ni tachimasu.",
         "german": "Ich stehe vor allen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "たつ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "たたされる"
+        ]
+      }
+    }
   },
   {
     "word": "座る",
@@ -723,7 +893,17 @@ window.VOCAB_N5 = [
         "romaji": "Koko ni suwarimashou.",
         "german": "Setzen wir uns hier."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "すわる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "すわらされる"
+        ]
+      }
+    }
   },
   {
     "word": "寝る",
@@ -745,7 +925,17 @@ window.VOCAB_N5 = [
         "romaji": "Kinou hayaku nemashita.",
         "german": "Gestern bin ich früh eingeschlafen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "ねる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "ねよ"
+        ]
+      }
+    }
   },
   {
     "word": "起きる",
@@ -767,7 +957,17 @@ window.VOCAB_N5 = [
         "romaji": "Nichiyoubi wa osoku okimasu.",
         "german": "Sonntags stehe ich spät auf."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "おきる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "おきよ"
+        ]
+      }
+    }
   },
   {
     "word": "働く",
@@ -789,7 +989,17 @@ window.VOCAB_N5 = [
         "romaji": "Chichi wa byouin de hataraite imasu.",
         "german": "Mein Vater arbeitet im Krankenhaus."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "はたらく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "はたらかされる"
+        ]
+      }
+    }
   },
   {
     "word": "休む",
@@ -811,7 +1021,17 @@ window.VOCAB_N5 = [
         "romaji": "Getsuyoubi wa gakkou o yasumimasu.",
         "german": "Am Montag fehle ich in der Schule."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "やすむ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "やすまされる"
+        ]
+      }
+    }
   },
   {
     "word": "教える",
@@ -833,7 +1053,17 @@ window.VOCAB_N5 = [
         "romaji": "Nihongo o oshiete kudasai.",
         "german": "Bitte bringen Sie mir Japanisch bei."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "おしえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "おしえよ"
+        ]
+      }
+    }
   },
   {
     "word": "習う",
@@ -855,7 +1085,17 @@ window.VOCAB_N5 = [
         "romaji": "Nihongo o naraitai desu.",
         "german": "Ich möchte Japanisch lernen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ならう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ならわされる"
+        ]
+      }
+    }
   },
   {
     "word": "使う",
@@ -877,7 +1117,17 @@ window.VOCAB_N5 = [
         "romaji": "Jisho o tsukatte kudasai.",
         "german": "Bitte benutzen Sie das Wörterbuch."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "つかう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "つかわされる"
+        ]
+      }
+    }
   },
   {
     "word": "作る",
@@ -899,7 +1149,17 @@ window.VOCAB_N5 = [
         "romaji": "Haha wa ryouri o tsukutte imasu.",
         "german": "Meine Mutter kocht gerade."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "つくる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "つくらされる"
+        ]
+      }
+    }
   },
   {
     "word": "入る",
@@ -921,7 +1181,17 @@ window.VOCAB_N5 = [
         "romaji": "Kutsu o nuide ie ni hairimasu.",
         "german": "Ich ziehe die Schuhe aus und betrete das Haus."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "はいる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "はいらされる"
+        ]
+      }
+    }
   },
   {
     "word": "出る",
@@ -943,7 +1213,17 @@ window.VOCAB_N5 = [
         "romaji": "Asa shichiji ni ie o demasu.",
         "german": "Morgens um sieben verlasse ich das Haus."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "でる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "でよ"
+        ]
+      }
+    }
   },
   {
     "word": "出かける",
@@ -965,7 +1245,17 @@ window.VOCAB_N5 = [
         "romaji": "Tomodachi to dekakemasu.",
         "german": "Ich gehe mit Freunden aus."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "でかける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "でかけよ"
+        ]
+      }
+    }
   },
   {
     "word": "歩く",
@@ -987,7 +1277,17 @@ window.VOCAB_N5 = [
         "romaji": "Eki made arukimasu.",
         "german": "Ich gehe zu Fuß zum Bahnhof."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "あるく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "あるかされる"
+        ]
+      }
+    }
   },
   {
     "word": "走る",
@@ -1009,7 +1309,17 @@ window.VOCAB_N5 = [
         "romaji": "Kodomotachi ga hashitte imasu.",
         "german": "Die Kinder rennen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "はしる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "はしらされる"
+        ]
+      }
+    }
   },
   {
     "word": "泳ぐ",
@@ -1031,7 +1341,17 @@ window.VOCAB_N5 = [
         "romaji": "Umi de oyogitai desu.",
         "german": "Ich möchte im Meer schwimmen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "およぐ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "およがされる"
+        ]
+      }
+    }
   },
   {
     "word": "遊ぶ",
@@ -1053,7 +1373,17 @@ window.VOCAB_N5 = [
         "romaji": "Kodomotachi ga kouen de asonde imasu.",
         "german": "Die Kinder spielen im Park."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "あそぶ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "あそばされる"
+        ]
+      }
+    }
   },
   {
     "word": "歌う",
@@ -1075,7 +1405,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono uta o utatte kudasai.",
         "german": "Bitte singen Sie dieses Lied."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "うたう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "うたわされる"
+        ]
+      }
+    }
   },
   {
     "word": "撮る",
@@ -1097,7 +1437,17 @@ window.VOCAB_N5 = [
         "romaji": "Fujisan o torimashita.",
         "german": "Ich habe den Berg Fuji fotografiert."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "とる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "とらされる"
+        ]
+      }
+    }
   },
   {
     "word": "開ける",
@@ -1119,7 +1469,17 @@ window.VOCAB_N5 = [
         "romaji": "Doa o akete mo ii desu ka.",
         "german": "Darf ich die Tür öffnen?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "あける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "あけよ"
+        ]
+      }
+    }
   },
   {
     "word": "閉める",
@@ -1141,7 +1501,17 @@ window.VOCAB_N5 = [
         "romaji": "Mado o shimete kudasai.",
         "german": "Bitte schließen Sie das Fenster."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "しめる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "しめよ"
+        ]
+      }
+    }
   },
   {
     "word": "つける",
@@ -1163,7 +1533,17 @@ window.VOCAB_N5 = [
         "romaji": "Terebi o tsukete mo ii desu ka.",
         "german": "Darf ich den Fernseher einschalten?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "つける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "つけよ"
+        ]
+      }
+    }
   },
   {
     "word": "消す",
@@ -1185,7 +1565,12 @@ window.VOCAB_N5 = [
         "romaji": "Terebi o keshite kudasai.",
         "german": "Bitte schalten Sie den Fernseher aus."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "けす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "持つ",
@@ -1207,7 +1592,17 @@ window.VOCAB_N5 = [
         "romaji": "Omoi nimotsu o mochimasu.",
         "german": "Ich trage schweres Gepäck."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "もつ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "もたされる"
+        ]
+      }
+    }
   },
   {
     "word": "住む",
@@ -1229,7 +1624,17 @@ window.VOCAB_N5 = [
         "romaji": "Oosaka ni sumitai desu.",
         "german": "Ich möchte in Osaka wohnen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "すむ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "すまされる"
+        ]
+      }
+    }
   },
   {
     "word": "知る",
@@ -1251,7 +1656,17 @@ window.VOCAB_N5 = [
         "romaji": "Ano mise o shitte imasu ka.",
         "german": "Kennen Sie jenen Laden?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "しる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "しらされる"
+        ]
+      }
+    }
   },
   {
     "word": "思う",
@@ -1273,7 +1688,17 @@ window.VOCAB_N5 = [
         "romaji": "Ashita wa ame da to omoimasu.",
         "german": "Ich denke, morgen regnet es."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "おもう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "おもわされる"
+        ]
+      }
+    }
   },
   {
     "word": "会う",
@@ -1295,7 +1720,17 @@ window.VOCAB_N5 = [
         "romaji": "Kinou sensei ni aimashita.",
         "german": "Gestern habe ich den Lehrer getroffen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "あう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "あわされる"
+        ]
+      }
+    }
   },
   {
     "word": "乗る",
@@ -1317,7 +1752,17 @@ window.VOCAB_N5 = [
         "romaji": "Basu ni norimashou.",
         "german": "Lass uns den Bus nehmen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "のる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "のらされる"
+        ]
+      }
+    }
   },
   {
     "word": "降りる",
@@ -1339,7 +1784,17 @@ window.VOCAB_N5 = [
         "romaji": "Koko de orimashou.",
         "german": "Lass uns hier aussteigen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "おりる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "おりよ"
+        ]
+      }
+    }
   },
   {
     "word": "曲がる",
@@ -1361,7 +1816,17 @@ window.VOCAB_N5 = [
         "romaji": "Tsugi no kado o hidari ni magarimasu.",
         "german": "An der nächsten Ecke biege ich links ab."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "まがる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "まがらされる"
+        ]
+      }
+    }
   },
   {
     "word": "渡る",
@@ -1383,7 +1848,17 @@ window.VOCAB_N5 = [
         "romaji": "Michi o watatte kudasai.",
         "german": "Bitte überqueren Sie die Straße."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "わたる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "わたらされる"
+        ]
+      }
+    }
   },
   {
     "word": "大きい",
@@ -6773,7 +7248,17 @@ window.VOCAB_N5 = [
         "romaji": "Eiga wa hachiji ni hajimarimasu.",
         "german": "Der Film beginnt um acht Uhr."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "はじまる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "はじまらされる"
+        ]
+      }
+    }
   },
   {
     "word": "終わる",
@@ -6795,7 +7280,17 @@ window.VOCAB_N5 = [
         "romaji": "Jugyou wa sanji ni owarimasu.",
         "german": "Der Unterricht endet um drei Uhr."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "おわる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "おわらされる"
+        ]
+      }
+    }
   },
   {
     "word": "覚える",
@@ -6817,7 +7312,17 @@ window.VOCAB_N5 = [
         "romaji": "Atarashii kanji o oboemashita.",
         "german": "Ich habe neue Kanji gelernt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "おぼえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "おぼえよ"
+        ]
+      }
+    }
   },
   {
     "word": "忘れる",
@@ -6839,7 +7344,17 @@ window.VOCAB_N5 = [
         "romaji": "Kasa o densha ni wasuremashita.",
         "german": "Ich habe meinen Regenschirm im Zug vergessen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "わすれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "わすれよ"
+        ]
+      }
+    }
   },
   {
     "word": "なる",
@@ -6861,7 +7376,17 @@ window.VOCAB_N5 = [
         "romaji": "Isha ni naritai desu.",
         "german": "Ich möchte Arzt werden."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "なる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ならされる"
+        ]
+      }
+    }
   },
   {
     "word": "貸す",
@@ -6883,7 +7408,12 @@ window.VOCAB_N5 = [
         "romaji": "Tomodachi ni hon o kashimashita.",
         "german": "Ich habe meinem Freund ein Buch geliehen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "かす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "借りる",
@@ -6905,7 +7435,17 @@ window.VOCAB_N5 = [
         "romaji": "Toshokan de hon o karimashita.",
         "german": "Ich habe ein Buch aus der Bibliothek geliehen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "かりる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "かりよ"
+        ]
+      }
+    }
   },
   {
     "word": "洗う",
@@ -6927,7 +7467,17 @@ window.VOCAB_N5 = [
         "romaji": "Asa, kao o araimasu.",
         "german": "Morgens wasche ich mir das Gesicht."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "あらう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "あらわされる"
+        ]
+      }
+    }
   },
   {
     "word": "着る",
@@ -6949,7 +7499,17 @@ window.VOCAB_N5 = [
         "romaji": "Kyou wa kooto o kimashita.",
         "german": "Heute habe ich einen Mantel angezogen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "きる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "きよ"
+        ]
+      }
+    }
   },
   {
     "word": "脱ぐ",
@@ -6971,7 +7531,17 @@ window.VOCAB_N5 = [
         "romaji": "Ie ni kaettara kutsu o nugimasu.",
         "german": "Wenn ich nach Hause komme, ziehe ich die Schuhe aus."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ぬぐ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ぬがされる"
+        ]
+      }
+    }
   },
   {
     "word": "かける",
@@ -6993,7 +7563,17 @@ window.VOCAB_N5 = [
         "romaji": "Megane o kakete imasu.",
         "german": "Ich trage eine Brille."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "かける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "かけよ"
+        ]
+      }
+    }
   },
   {
     "word": "降る",
@@ -7015,7 +7595,17 @@ window.VOCAB_N5 = [
         "romaji": "Kyou wa ame ga futte imasu.",
         "german": "Heute regnet es."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ふる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ふらされる"
+        ]
+      }
+    }
   },
   {
     "word": "吹く",
@@ -7037,7 +7627,17 @@ window.VOCAB_N5 = [
         "romaji": "Kaze ga tsuyoku fuite imasu.",
         "german": "Der Wind weht stark."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ふく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ふかされる"
+        ]
+      }
+    }
   },
   {
     "word": "飛ぶ",
@@ -7059,7 +7659,17 @@ window.VOCAB_N5 = [
         "romaji": "Tori ga sora o tonde imasu.",
         "german": "Ein Vogel fliegt am Himmel."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "とぶ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "とばされる"
+        ]
+      }
+    }
   },
   {
     "word": "登る",
@@ -7081,7 +7691,17 @@ window.VOCAB_N5 = [
         "romaji": "Shuumatsu ni yama o noborimashita.",
         "german": "Am Wochenende bin ich auf einen Berg gestiegen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "のぼる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "のぼらされる"
+        ]
+      }
+    }
   },
   {
     "word": "止まる",
@@ -7103,7 +7723,17 @@ window.VOCAB_N5 = [
         "romaji": "Densha ga eki de tomarimashita.",
         "german": "Der Zug hielt am Bahnhof."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "とまる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "とまらされる"
+        ]
+      }
+    }
   },
   {
     "word": "泊まる",
@@ -7125,7 +7755,17 @@ window.VOCAB_N5 = [
         "romaji": "Hoteru ni sanpaku tomarimasu.",
         "german": "Ich übernachte drei Nächte im Hotel."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "とまる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "とまらされる"
+        ]
+      }
+    }
   },
   {
     "word": "払う",
@@ -7147,7 +7787,17 @@ window.VOCAB_N5 = [
         "romaji": "Resutoran de okane o haraimashita.",
         "german": "Ich habe im Restaurant bezahlt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "はらう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "はらわされる"
+        ]
+      }
+    }
   },
   {
     "word": "送る",
@@ -7169,7 +7819,17 @@ window.VOCAB_N5 = [
         "romaji": "Haha ni tegami o okurimashita.",
         "german": "Ich habe meiner Mutter einen Brief geschickt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "おくる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "おくらされる"
+        ]
+      }
+    }
   },
   {
     "word": "届く",
@@ -7191,7 +7851,17 @@ window.VOCAB_N5 = [
         "romaji": "Nimotsu ga todokimashita.",
         "german": "Das Paket ist angekommen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "とどく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "とどかされる"
+        ]
+      }
+    }
   },
   {
     "word": "上がる",
@@ -7213,7 +7883,17 @@ window.VOCAB_N5 = [
         "romaji": "Ondo ga agarimashita.",
         "german": "Die Temperatur ist gestiegen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "あがる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "あがらされる"
+        ]
+      }
+    }
   },
   {
     "word": "下がる",
@@ -7235,7 +7915,17 @@ window.VOCAB_N5 = [
         "romaji": "Nedan ga sagarimashita.",
         "german": "Der Preis ist gesunken."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "さがる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "さがらされる"
+        ]
+      }
+    }
   },
   {
     "word": "置く",
@@ -7257,7 +7947,17 @@ window.VOCAB_N5 = [
         "romaji": "Teeburu no ue ni oite kudasai.",
         "german": "Bitte stellen Sie es auf den Tisch."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "おく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "おかされる"
+        ]
+      }
+    }
   },
   {
     "word": "取る",
@@ -7279,7 +7979,17 @@ window.VOCAB_N5 = [
         "romaji": "Tana kara hon o totte kudasai.",
         "german": "Bitte nehmen Sie das Buch aus dem Regal."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "とる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "とらされる"
+        ]
+      }
+    }
   },
   {
     "word": "選ぶ",
@@ -7301,7 +8011,17 @@ window.VOCAB_N5 = [
         "romaji": "Suki na iro o erande kudasai.",
         "german": "Bitte wählen Sie Ihre Lieblingsfarbe."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "えらぶ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "えらばされる"
+        ]
+      }
+    }
   },
   {
     "word": "並ぶ",
@@ -7323,7 +8043,17 @@ window.VOCAB_N5 = [
         "romaji": "Minna narande matte imasu.",
         "german": "Alle stehen in einer Reihe und warten."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ならぶ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ならばされる"
+        ]
+      }
+    }
   },
   {
     "word": "答える",
@@ -7345,7 +8075,17 @@ window.VOCAB_N5 = [
         "romaji": "Sensei no shitsumon ni kotaemashita.",
         "german": "Ich habe die Frage des Lehrers beantwortet."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "こたえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "こたえよ"
+        ]
+      }
+    }
   },
   {
     "word": "困る",
@@ -7367,7 +8107,17 @@ window.VOCAB_N5 = [
         "romaji": "Michi ni mayotte komarimashita.",
         "german": "Ich habe mich verirrt und war in Schwierigkeiten."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "こまる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "こまらされる"
+        ]
+      }
+    }
   },
   {
     "word": "違う",
@@ -7389,7 +8139,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono kotae wa chigaimasu.",
         "german": "Diese Antwort ist falsch."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ちがう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ちがわされる"
+        ]
+      }
+    }
   },
   {
     "word": "必要",
@@ -9699,7 +10459,12 @@ window.VOCAB_N5 = [
         "romaji": "Kono botan o oshite kudasai.",
         "german": "Bitte drücken Sie diesen Knopf."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "おす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "引く",
@@ -9721,7 +10486,17 @@ window.VOCAB_N5 = [
         "romaji": "Doa o hiite kudasai.",
         "german": "Bitte ziehen Sie die Tür."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ひく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ひかされる"
+        ]
+      }
+    }
   },
   {
     "word": "切る",
@@ -9743,7 +10518,17 @@ window.VOCAB_N5 = [
         "romaji": "Yasai o chiisaku kirimasu.",
         "german": "Ich schneide das Gemüse klein."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "きる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "きらされる"
+        ]
+      }
+    }
   },
   {
     "word": "磨く",
@@ -9765,7 +10550,17 @@ window.VOCAB_N5 = [
         "romaji": "Ha o migaite kara nemasu.",
         "german": "Ich putze mir die Zähne und gehe dann schlafen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "みがく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "みがかされる"
+        ]
+      }
+    }
   },
   {
     "word": "触れる",
@@ -9787,7 +10582,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono e ni furenaide kudasai.",
         "german": "Bitte berühren Sie dieses Bild nicht."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "ふれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "ふれよ"
+        ]
+      }
+    }
   },
   {
     "word": "投げる",
@@ -9809,7 +10614,17 @@ window.VOCAB_N5 = [
         "romaji": "Booru o nagete kudasai.",
         "german": "Bitte werfen Sie den Ball."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "なげる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "なげよ"
+        ]
+      }
+    }
   },
   {
     "word": "捕まえる",
@@ -9831,7 +10646,17 @@ window.VOCAB_N5 = [
         "romaji": "Sakana o tsukamaemashita.",
         "german": "Ich habe einen Fisch gefangen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "つかまえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "つかまえよ"
+        ]
+      }
+    }
   },
   {
     "word": "届ける",
@@ -9853,7 +10678,17 @@ window.VOCAB_N5 = [
         "romaji": "Nimotsu o todoke ni ikimasu.",
         "german": "Ich gehe das Paket ausliefern."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "とどける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "とどけよ"
+        ]
+      }
+    }
   },
   {
     "word": "あげる",
@@ -9875,7 +10710,17 @@ window.VOCAB_N5 = [
         "romaji": "Tomodachi ni purezento o agemashita.",
         "german": "Ich habe meinem Freund ein Geschenk gegeben."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "あげる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "あげよ"
+        ]
+      }
+    }
   },
   {
     "word": "もらう",
@@ -9897,7 +10742,17 @@ window.VOCAB_N5 = [
         "romaji": "Sensei ni homete moraimashita.",
         "german": "Ich wurde vom Lehrer gelobt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "もらう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "もらわされる"
+        ]
+      }
+    }
   },
   {
     "word": "くれる",
@@ -9919,7 +10774,15 @@ window.VOCAB_N5 = [
         "romaji": "Haha ga obentou o tsukutte kuremashita.",
         "german": "Meine Mutter hat mir eine Lunchbox gemacht."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "くれる",
+      "conjugationKind": "verb",
+      "conjugationOverrides": {
+        "imperative": "くれ"
+      }
+    }
   },
   {
     "word": "呼ぶ",
@@ -9941,7 +10804,17 @@ window.VOCAB_N5 = [
         "romaji": "Takushii o yonde kudasai.",
         "german": "Bitte rufen Sie ein Taxi."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "よぶ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "よばされる"
+        ]
+      }
+    }
   },
   {
     "word": "笑う",
@@ -9963,7 +10836,17 @@ window.VOCAB_N5 = [
         "romaji": "Akachan ga waratte imasu.",
         "german": "Das Baby lacht."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "わらう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "わらわされる"
+        ]
+      }
+    }
   },
   {
     "word": "泣く",
@@ -9985,7 +10868,17 @@ window.VOCAB_N5 = [
         "romaji": "Eiga o mite nakimashita.",
         "german": "Ich habe beim Film geweint."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "なく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "なかされる"
+        ]
+      }
+    }
   },
   {
     "word": "怒る",
@@ -10007,7 +10900,17 @@ window.VOCAB_N5 = [
         "romaji": "Okaasan ga okotte imasu.",
         "german": "Die Mutter ist wütend."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "おこる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "おこらされる"
+        ]
+      }
+    }
   },
   {
     "word": "喜ぶ",
@@ -10029,7 +10932,17 @@ window.VOCAB_N5 = [
         "romaji": "Minna ga yorokonde kuremashita.",
         "german": "Alle haben sich gefreut."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "よろこぶ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "よろこばされる"
+        ]
+      }
+    }
   },
   {
     "word": "驚く",
@@ -10051,7 +10964,17 @@ window.VOCAB_N5 = [
         "romaji": "Totsuzen no purezento ni odorokimashita.",
         "german": "Ich war von dem plötzlichen Geschenk überrascht."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "おどろく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "おどろかされる"
+        ]
+      }
+    }
   },
   {
     "word": "頼む",
@@ -10073,7 +10996,17 @@ window.VOCAB_N5 = [
         "romaji": "Tomodachi ni tetsudai o tanomimashita.",
         "german": "Ich habe meinen Freund um Hilfe gebeten."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "たのむ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "たのまされる"
+        ]
+      }
+    }
   },
   {
     "word": "手伝う",
@@ -10095,7 +11028,17 @@ window.VOCAB_N5 = [
         "romaji": "Hikkoshi o tetsudatte kuremasu ka.",
         "german": "Können Sie mir beim Umzug helfen?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "てつだう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "てつだわされる"
+        ]
+      }
+    }
   },
   {
     "word": "集まる",
@@ -10117,7 +11060,17 @@ window.VOCAB_N5 = [
         "romaji": "Eki no mae ni minna ga atsumarimashita.",
         "german": "Alle haben sich vor dem Bahnhof versammelt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "あつまる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "あつまらされる"
+        ]
+      }
+    }
   },
   {
     "word": "別れる",
@@ -10139,7 +11092,17 @@ window.VOCAB_N5 = [
         "romaji": "Tomodachi to wakareru no wa sabishii desu.",
         "german": "Es ist traurig, sich von Freunden zu trennen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "わかれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "わかれよ"
+        ]
+      }
+    }
   },
   {
     "word": "できる",
@@ -10161,7 +11124,25 @@ window.VOCAB_N5 = [
         "romaji": "Nihongo ga sukoshi dekimasu.",
         "german": "Ich kann ein bisschen Japanisch."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "できる",
+      "conjugationKind": "verb",
+      "conjugationOverrides": {
+        "potential": null,
+        "passive": null,
+        "causative": null,
+        "causPas": null,
+        "imperative": null,
+        "volitional": null
+      },
+      "conjugationVariants": {
+        "imperative": [
+          "できよ"
+        ]
+      }
+    }
   },
   {
     "word": "要る",
@@ -10183,7 +11164,17 @@ window.VOCAB_N5 = [
         "romaji": "Pasupooto ga irimasu.",
         "german": "Ich brauche einen Reisepass."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "いる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "いらされる"
+        ]
+      }
+    }
   },
   {
     "word": "足す",
@@ -10205,7 +11196,12 @@ window.VOCAB_N5 = [
         "romaji": "Koohii ni satou o tashimasu ka.",
         "german": "Fügen Sie dem Kaffee Zucker hinzu?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "たす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "鳴る",
@@ -10227,7 +11223,17 @@ window.VOCAB_N5 = [
         "romaji": "Denwa ga natte imasu.",
         "german": "Das Telefon klingelt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "なる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ならされる"
+        ]
+      }
+    }
   },
   {
     "word": "光る",
@@ -10249,7 +11255,17 @@ window.VOCAB_N5 = [
         "romaji": "Hoshi ga hikatte imasu.",
         "german": "Die Sterne leuchten."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ひかる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ひからされる"
+        ]
+      }
+    }
   },
   {
     "word": "生まれる",
@@ -10271,7 +11287,17 @@ window.VOCAB_N5 = [
         "romaji": "Otouto wa Toukyou de umaremashita.",
         "german": "Mein jüngerer Bruder wurde in Tokio geboren."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "うまれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "うまれよ"
+        ]
+      }
+    }
   },
   {
     "word": "死ぬ",
@@ -10293,7 +11319,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono hana wa mou shinde imasu.",
         "german": "Diese Blume ist schon vertrocknet."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "しぬ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "しなされる"
+        ]
+      }
+    }
   },
   {
     "word": "太る",
@@ -10315,7 +11351,17 @@ window.VOCAB_N5 = [
         "romaji": "Saikin sukoshi futorimashita.",
         "german": "Ich habe in letzter Zeit etwas zugenommen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ふとる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ふとらされる"
+        ]
+      }
+    }
   },
   {
     "word": "痩せる",
@@ -10337,7 +11383,17 @@ window.VOCAB_N5 = [
         "romaji": "Daietto de gokiro yasemashita.",
         "german": "Ich habe durch die Diät fünf Kilo abgenommen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "やせる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "やせよ"
+        ]
+      }
+    }
   },
   {
     "word": "咲く",
@@ -10359,7 +11415,17 @@ window.VOCAB_N5 = [
         "romaji": "Sakura ga saite imasu.",
         "german": "Die Kirschblüten blühen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "さく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "さかされる"
+        ]
+      }
+    }
   },
   {
     "word": "売り場",
@@ -10513,7 +11579,17 @@ window.VOCAB_N5 = [
         "romaji": "Kuruma o tomete kudasai.",
         "german": "Bitte halten Sie das Auto an."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "とめる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "とめよ"
+        ]
+      }
+    }
   },
   {
     "word": "渡す",
@@ -10535,7 +11611,12 @@ window.VOCAB_N5 = [
         "romaji": "Shorui o watashite kudasai.",
         "german": "Bitte reichen Sie die Unterlagen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "わたす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "触る",
@@ -10557,7 +11638,17 @@ window.VOCAB_N5 = [
         "romaji": "Kabe ni sawaranaide kudasai.",
         "german": "Bitte berühren Sie die Wand nicht."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "さわる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "さわらされる"
+        ]
+      }
+    }
   },
   {
     "word": "落とす",
@@ -10579,7 +11670,12 @@ window.VOCAB_N5 = [
         "romaji": "Saifu o otoshite shimaimashita.",
         "german": "Ich habe meine Brieftasche fallen lassen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "おとす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "落ちる",
@@ -10601,7 +11697,17 @@ window.VOCAB_N5 = [
         "romaji": "Ki kara ringo ga ochimashita.",
         "german": "Vom Baum ist ein Apfel gefallen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "おちる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "おちよ"
+        ]
+      }
+    }
   },
   {
     "word": "返す",
@@ -10623,7 +11729,12 @@ window.VOCAB_N5 = [
         "romaji": "Toshokan ni hon o kaesanakereba narimasen.",
         "german": "Ich muss das Buch in die Bibliothek zurückgeben."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "かえす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "受ける",
@@ -10645,7 +11756,17 @@ window.VOCAB_N5 = [
         "romaji": "Tesuto o ukemashita.",
         "german": "Ich habe den Test abgelegt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "うける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "うけよ"
+        ]
+      }
+    }
   },
   {
     "word": "預ける",
@@ -10667,7 +11788,17 @@ window.VOCAB_N5 = [
         "romaji": "Nimotsu o azukete mo ii desu ka.",
         "german": "Darf ich mein Gepäck abgeben?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "あずける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "あずけよ"
+        ]
+      }
+    }
   },
   {
     "word": "知らせる",
@@ -10689,7 +11820,17 @@ window.VOCAB_N5 = [
         "romaji": "Kekka o shirasete kudasai.",
         "german": "Bitte teilen Sie mir das Ergebnis mit."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "しらせる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "しらせよ"
+        ]
+      }
+    }
   },
   {
     "word": "伝える",
@@ -10711,7 +11852,17 @@ window.VOCAB_N5 = [
         "romaji": "Sensei ni tsutaete kudasai.",
         "german": "Bitte richten Sie es dem Lehrer aus."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "つたえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "つたえよ"
+        ]
+      }
+    }
   },
   {
     "word": "見える",
@@ -10733,7 +11884,17 @@ window.VOCAB_N5 = [
         "romaji": "Koko kara yama ga miemasu.",
         "german": "Von hier aus kann man die Berge sehen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "みえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "みえよ"
+        ]
+      }
+    }
   },
   {
     "word": "聞こえる",
@@ -10755,7 +11916,17 @@ window.VOCAB_N5 = [
         "romaji": "Ongaku ga kikoemasu.",
         "german": "Ich kann Musik hören."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "きこえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "きこえよ"
+        ]
+      }
+    }
   },
   {
     "word": "見つける",
@@ -10777,7 +11948,17 @@ window.VOCAB_N5 = [
         "romaji": "Yatto kagi o mitsukemashita.",
         "german": "Endlich habe ich den Schlüssel gefunden."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "みつける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "みつけよ"
+        ]
+      }
+    }
   },
   {
     "word": "探す",
@@ -10799,7 +11980,12 @@ window.VOCAB_N5 = [
         "romaji": "Kagi o sagashite imasu.",
         "german": "Ich suche meinen Schlüssel."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "さがす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "迷う",
@@ -10821,7 +12007,17 @@ window.VOCAB_N5 = [
         "romaji": "Michi ni mayotte shimaimashita.",
         "german": "Ich habe mich verirrt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "まよう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "まよわされる"
+        ]
+      }
+    }
   },
   {
     "word": "無くす",
@@ -10843,7 +12039,12 @@ window.VOCAB_N5 = [
         "romaji": "Taisetsu na mono o nakushimashita.",
         "german": "Ich habe etwas Wichtiges verloren."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "なくす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "心配する",
@@ -10865,7 +12066,17 @@ window.VOCAB_N5 = [
         "romaji": "Haha no koto ga shinpai desu.",
         "german": "Ich mache mir Sorgen um meine Mutter."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "しんぱいする",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "しんぱいせよ"
+        ]
+      }
+    }
   },
   {
     "word": "疲れた",
@@ -11503,7 +12714,17 @@ window.VOCAB_N5 = [
         "romaji": "Tesuto no tame ni ganbarimasu.",
         "german": "Ich gebe mein Bestes für den Test."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "がんばる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "がんばらされる"
+        ]
+      }
+    }
   },
   {
     "word": "間に合う",
@@ -11525,7 +12746,17 @@ window.VOCAB_N5 = [
         "romaji": "Densha ni maniaimashita.",
         "german": "Ich habe den Zug noch rechtzeitig geschafft."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "まにあう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "まにあわされる"
+        ]
+      }
+    }
   },
   {
     "word": "つもり",
@@ -14011,7 +15242,17 @@ window.VOCAB_N5 = [
         "romaji": "Heya o katazukete kudasai.",
         "german": "Bitte räumen Sie das Zimmer auf."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "かたづける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "かたづけよ"
+        ]
+      }
+    }
   },
   {
     "word": "捨てる",
@@ -14033,7 +15274,17 @@ window.VOCAB_N5 = [
         "romaji": "Furui shinbun o sutete kudasai.",
         "german": "Bitte werfen Sie die alten Zeitungen weg."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "すてる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "すてよ"
+        ]
+      }
+    }
   },
   {
     "word": "拾う",
@@ -14055,7 +15306,17 @@ window.VOCAB_N5 = [
         "romaji": "Michi de okane o hiroimashita.",
         "german": "Ich habe auf der Straße Geld aufgehoben."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ひろう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ひろわされる"
+        ]
+      }
+    }
   },
   {
     "word": "慣れる",
@@ -14077,7 +15338,17 @@ window.VOCAB_N5 = [
         "romaji": "Nihon no seikatsu ni naremashita ka.",
         "german": "Haben Sie sich an das Leben in Japan gewöhnt?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "なれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "なれよ"
+        ]
+      }
+    }
   },
   {
     "word": "似る",
@@ -14099,7 +15370,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono futari wa yoku nite imasu ne.",
         "german": "Diese zwei Personen sehen sich sehr ähnlich, nicht wahr?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "にる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "によ"
+        ]
+      }
+    }
   },
   {
     "word": "変わる",
@@ -14121,7 +15402,17 @@ window.VOCAB_N5 = [
         "romaji": "Tenki ga kawarimashita.",
         "german": "Das Wetter hat sich geändert."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "かわる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "かわらされる"
+        ]
+      }
+    }
   },
   {
     "word": "決める",
@@ -14143,7 +15434,17 @@ window.VOCAB_N5 = [
         "romaji": "Ryokou no hi o kimemashou.",
         "german": "Lassen Sie uns den Reisetag festlegen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "きめる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "きめよ"
+        ]
+      }
+    }
   },
   {
     "word": "集める",
@@ -14165,7 +15466,17 @@ window.VOCAB_N5 = [
         "romaji": "Kitte o atsumeru no ga shumi desu.",
         "german": "Briefmarken sammeln ist mein Hobby."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "あつめる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "あつめよ"
+        ]
+      }
+    }
   },
   {
     "word": "壊す",
@@ -14187,7 +15498,12 @@ window.VOCAB_N5 = [
         "romaji": "Omocha o kowasanaide kudasai.",
         "german": "Bitte machen Sie das Spielzeug nicht kaputt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "こわす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "壊れる",
@@ -14209,7 +15525,17 @@ window.VOCAB_N5 = [
         "romaji": "Pasokon ga kowaremashita.",
         "german": "Der Computer ist kaputtgegangen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "こわれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "こわれよ"
+        ]
+      }
+    }
   },
   {
     "word": "直す",
@@ -14231,7 +15557,12 @@ window.VOCAB_N5 = [
         "romaji": "Tokei o naoshite moraimashita.",
         "german": "Ich habe die Uhr reparieren lassen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "なおす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "直る",
@@ -14253,7 +15584,17 @@ window.VOCAB_N5 = [
         "romaji": "Kaze ga naorimashita ka.",
         "german": "Ist Ihre Erkältung geheilt?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "なおる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "なおらされる"
+        ]
+      }
+    }
   },
   {
     "word": "乾く",
@@ -14275,7 +15616,17 @@ window.VOCAB_N5 = [
         "romaji": "Sentakumono ga kawakimashita.",
         "german": "Die Wäsche ist getrocknet."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "かわく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "かわかされる"
+        ]
+      }
+    }
   },
   {
     "word": "濡れる",
@@ -14297,7 +15648,17 @@ window.VOCAB_N5 = [
         "romaji": "Ame de fuku ga nuremashita.",
         "german": "Meine Kleidung wurde vom Regen nass."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "ぬれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "ぬれよ"
+        ]
+      }
+    }
   },
   {
     "word": "揺れる",
@@ -14319,7 +15680,17 @@ window.VOCAB_N5 = [
         "romaji": "Jishin de tatemono ga yuremashita.",
         "german": "Das Gebäude schwankte durch das Erdbeben."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "ゆれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "ゆれよ"
+        ]
+      }
+    }
   },
   {
     "word": "枯れる",
@@ -14341,7 +15712,17 @@ window.VOCAB_N5 = [
         "romaji": "Hana ga karete shimaimashita.",
         "german": "Die Blume ist verwelkt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "かれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "かれよ"
+        ]
+      }
+    }
   },
   {
     "word": "育てる",
@@ -14363,7 +15744,17 @@ window.VOCAB_N5 = [
         "romaji": "Kodomo o sodateru no wa taihen desu.",
         "german": "Kinder großzuziehen ist anstrengend."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "そだてる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "そだてよ"
+        ]
+      }
+    }
   },
   {
     "word": "植える",
@@ -14385,7 +15776,17 @@ window.VOCAB_N5 = [
         "romaji": "Niwa ni hana o uemashita.",
         "german": "Ich habe Blumen im Garten gepflanzt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "うえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "うえよ"
+        ]
+      }
+    }
   },
   {
     "word": "溶ける",
@@ -14407,7 +15808,17 @@ window.VOCAB_N5 = [
         "romaji": "Aisukuriimu ga tokete shimaimashita.",
         "german": "Das Eis ist geschmolzen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "とける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "とけよ"
+        ]
+      }
+    }
   },
   {
     "word": "凍る",
@@ -14429,7 +15840,17 @@ window.VOCAB_N5 = [
         "romaji": "Fuyu ni naru to mizuumi ga koorimasu.",
         "german": "Im Winter gefriert der See."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "こおる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "こおらされる"
+        ]
+      }
+    }
   },
   {
     "word": "沸く",
@@ -14451,7 +15872,17 @@ window.VOCAB_N5 = [
         "romaji": "Oyu ga wakimashita.",
         "german": "Das Wasser hat gekocht."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "わく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "わかされる"
+        ]
+      }
+    }
   },
   {
     "word": "焼く",
@@ -14473,7 +15904,17 @@ window.VOCAB_N5 = [
         "romaji": "Niku o yakimashou.",
         "german": "Lass uns das Fleisch braten."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "やく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "やかされる"
+        ]
+      }
+    }
   },
   {
     "word": "煮る",
@@ -14495,7 +15936,17 @@ window.VOCAB_N5 = [
         "romaji": "Yasai o nite imasu.",
         "german": "Ich koche das Gemüse."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "にる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "によ"
+        ]
+      }
+    }
   },
   {
     "word": "混ぜる",
@@ -14517,7 +15968,17 @@ window.VOCAB_N5 = [
         "romaji": "Sarada o mazete kudasai.",
         "german": "Bitte rühren Sie den Salat um."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "まぜる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "まぜよ"
+        ]
+      }
+    }
   },
   {
     "word": "包む",
@@ -14539,7 +16000,17 @@ window.VOCAB_N5 = [
         "romaji": "Purezento o tsutsumimashita.",
         "german": "Ich habe das Geschenk eingepackt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "つつむ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "つつまされる"
+        ]
+      }
+    }
   },
   {
     "word": "数える",
@@ -14561,7 +16032,17 @@ window.VOCAB_N5 = [
         "romaji": "Okane o kazoete kudasai.",
         "german": "Bitte zählen Sie das Geld."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "かぞえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "かぞえよ"
+        ]
+      }
+    }
   },
   {
     "word": "比べる",
@@ -14583,7 +16064,17 @@ window.VOCAB_N5 = [
         "romaji": "Futatsu no nedan o kurabemashita.",
         "german": "Ich habe die zwei Preise verglichen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "くらべる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "くらべよ"
+        ]
+      }
+    }
   },
   {
     "word": "お辞儀",
@@ -17839,7 +19330,17 @@ window.VOCAB_N5 = [
         "romaji": "Te o agete kudasai.",
         "german": "Bitte heben Sie die Hand."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "あげる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "あげよ"
+        ]
+      }
+    }
   },
   {
     "word": "下げる",
@@ -17861,7 +19362,17 @@ window.VOCAB_N5 = [
         "romaji": "Sukoshi ondo o sagete kudasai.",
         "german": "Bitte senken Sie die Temperatur etwas."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "さげる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "さげよ"
+        ]
+      }
+    }
   },
   {
     "word": "下さい",
@@ -18015,7 +19526,17 @@ window.VOCAB_N5 = [
         "romaji": "Kaidan o noborimasu.",
         "german": "Ich gehe die Treppe hinauf."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "のぼる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "のぼらされる"
+        ]
+      }
+    }
   },
   {
     "word": "夕べ",
@@ -18411,7 +19932,12 @@ window.VOCAB_N5 = [
         "romaji": "Machigai o tadashimashita.",
         "german": "Ich habe den Fehler korrigiert."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ただす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "玉",
@@ -18565,7 +20091,13 @@ window.VOCAB_N5 = [
         "romaji": "Sayuu o kakunin shite kudasai.",
         "german": "Bitte schauen Sie nach links und rechts."
       }
-    ]
+    ],
+    "conjugation": {
+      "type": "Nomen",
+      "conjugationKind": "excluded",
+      "verbGroup": null,
+      "conjugationReading": null
+    }
   },
   {
     "word": "おはよう",
@@ -18829,7 +20361,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono dougu o mochiite kudasai.",
         "german": "Bitte verwenden Sie dieses Werkzeug."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "もちいる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "もちいよ"
+        ]
+      }
+    }
   },
   {
     "word": "人生",
@@ -18983,7 +20525,17 @@ window.VOCAB_N5 = [
         "romaji": "Chizu o hirogete mimashita.",
         "german": "Ich habe die Karte aufgebreitet und angesehen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "ひろげる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "ひろげよ"
+        ]
+      }
+    }
   },
   {
     "word": "山びこ",
@@ -19247,7 +20799,17 @@ window.VOCAB_N5 = [
         "romaji": "Sakana wa mizu no naka de ikite imasu.",
         "german": "Fische leben im Wasser."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "いきる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "いきよ"
+        ]
+      }
+    }
   },
   {
     "word": "休止",
@@ -19709,7 +21271,17 @@ window.VOCAB_N5 = [
         "romaji": "Shashin o misete kudasai.",
         "german": "Bitte zeigen Sie mir das Foto."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "みせる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "みせよ"
+        ]
+      }
+    }
   },
   {
     "word": "見方",
@@ -19775,7 +21347,17 @@ window.VOCAB_N5 = [
         "romaji": "Hitode ga fusoku shite imasu.",
         "german": "Es herrscht Personalmangel."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "ふそくする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "ふそくせよ"
+        ]
+      }
+    }
   },
   {
     "word": "車内",
@@ -20149,7 +21731,17 @@ window.VOCAB_N5 = [
         "romaji": "Kare wa sono hanashi o kuchi ni shimasen.",
         "german": "Er erwähnt diese Geschichte nicht."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "くちにする",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "くちにせよ"
+        ]
+      }
+    }
   },
   {
     "word": "北アメリカ",
@@ -20237,7 +21829,17 @@ window.VOCAB_N5 = [
         "romaji": "Kaban ni hon o iremashita.",
         "german": "Ich habe ein Buch in die Tasche getan."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "いれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "いれよ"
+        ]
+      }
+    }
   },
   {
     "word": "出す",
@@ -20259,7 +21861,12 @@ window.VOCAB_N5 = [
         "romaji": "Kaban kara saifu o dashimashita.",
         "german": "Ich habe die Brieftasche aus der Tasche genommen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "だす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "生む",
@@ -20281,7 +21888,17 @@ window.VOCAB_N5 = [
         "romaji": "Neko ga koneko o umimashita.",
         "german": "Die Katze hat Kätzchen geboren."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "うむ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "うまされる"
+        ]
+      }
+    }
   },
   {
     "word": "立てる",
@@ -20303,7 +21920,17 @@ window.VOCAB_N5 = [
         "romaji": "Tento o tatemashita.",
         "german": "Ich habe ein Zelt aufgestellt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "たてる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "たてよ"
+        ]
+      }
+    }
   },
   {
     "word": "太字",
@@ -20347,7 +21974,17 @@ window.VOCAB_N5 = [
         "romaji": "Satou to gyuunyuu o mazemashita.",
         "german": "Ich habe Zucker und Milch gemischt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "まぜる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "まぜよ"
+        ]
+      }
+    }
   },
   {
     "word": "月光",
@@ -20435,7 +22072,17 @@ window.VOCAB_N5 = [
         "romaji": "Chikyuu wa taiyou no mawari o mawatte imasu.",
         "german": "Die Erde dreht sich um die Sonne."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "まわる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "まわらされる"
+        ]
+      }
+    }
   },
   {
     "word": "今回",
@@ -20501,7 +22148,17 @@ window.VOCAB_N5 = [
         "romaji": "Takarakuji ga atarimashita.",
         "german": "Ich habe in der Lotterie gewonnen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "あたる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "あたらされる"
+        ]
+      }
+    }
   },
   {
     "word": "当たり",
@@ -20721,7 +22378,17 @@ window.VOCAB_N5 = [
         "romaji": "Daigaku de keizaigaku o manabimashita.",
         "german": "Ich habe an der Universität Wirtschaft gelernt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "まなぶ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "まなばされる"
+        ]
+      }
+    }
   },
   {
     "word": "学年",
@@ -20985,7 +22652,17 @@ window.VOCAB_N5 = [
         "romaji": "Rainen nyuusha suru yotei desu.",
         "german": "Ich plane, nächstes Jahr in die Firma einzutreten."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "にゅうしゃする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "にゅうしゃせよ"
+        ]
+      }
+    }
   },
   {
     "word": "三角",
@@ -21051,7 +22728,17 @@ window.VOCAB_N5 = [
         "romaji": "Hakkiri itte kudasai.",
         "german": "Bitte sagen Sie es deutlich."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "いう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "いわされる"
+        ]
+      }
+    }
   },
   {
     "word": "走行",
@@ -21073,7 +22760,17 @@ window.VOCAB_N5 = [
         "romaji": "Kousoku douro o soukou shite imasu.",
         "german": "Wir fahren auf der Autobahn."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "そうこうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "そうこうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "近日",
@@ -21271,7 +22968,13 @@ window.VOCAB_N5 = [
         "romaji": "Ima sugu kite kudasai.",
         "german": "Kommen Sie bitte sofort."
       }
-    ]
+    ],
+    "conjugation": {
+      "type": "Adverb",
+      "conjugationKind": "excluded",
+      "verbGroup": null,
+      "conjugationReading": null
+    }
   },
   {
     "word": "里",
@@ -21667,7 +23370,17 @@ window.VOCAB_N5 = [
         "romaji": "Ito ga kirete shimaimashita.",
         "german": "Der Faden ist gerissen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "きれる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "きれよ"
+        ]
+      }
+    }
   },
   {
     "word": "大文字",
@@ -21711,7 +23424,17 @@ window.VOCAB_N5 = [
         "romaji": "Tomodachi ni himitsu o mimiuchi shimashita.",
         "german": "Ich habe meinem Freund ein Geheimnis ins Ohr geflüstert."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "みみうちする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "みみうちせよ"
+        ]
+      }
+    }
   },
   {
     "word": "代用",
@@ -21733,7 +23456,17 @@ window.VOCAB_N5 = [
         "romaji": "Bataa no daiyou ni maagarin o tsukaimasu.",
         "german": "Statt Butter verwende ich Margarine."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "だいようする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "だいようせよ"
+        ]
+      }
+    }
   },
   {
     "word": "写る",
@@ -21755,7 +23488,17 @@ window.VOCAB_N5 = [
         "romaji": "Shashin ni kirei ni utsurimashita.",
         "german": "Ich bin schön auf dem Foto abgebildet."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "うつる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "うつらされる"
+        ]
+      }
+    }
   },
   {
     "word": "行う",
@@ -21777,7 +23520,17 @@ window.VOCAB_N5 = [
         "romaji": "Raigetsu ibento o okonaimasu.",
         "german": "Nächsten Monat führen wir ein Event durch."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "おこなう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "おこなわされる"
+        ]
+      }
+    }
   },
   {
     "word": "地下",
@@ -22041,7 +23794,18 @@ window.VOCAB_N5 = [
         "romaji": "Reizouko ni mada gyuunyuu ga arimasu.",
         "german": "Im Kühlschrank ist noch Milch."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "aru",
+      "conjugationReading": "ある",
+      "conjugationKind": "verb",
+      "conjugationOverrides": {
+        "potential": null,
+        "passive": null,
+        "causative": null,
+        "causPas": null
+      }
+    }
   },
   {
     "word": "死体",
@@ -22085,7 +23849,17 @@ window.VOCAB_N5 = [
         "romaji": "Jiko de hitori ga shibou shimashita.",
         "german": "Bei dem Unfall ist eine Person gestorben."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "しぼうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "しぼうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "羊毛",
@@ -22349,7 +24123,17 @@ window.VOCAB_N5 = [
         "romaji": "Kare wa kaisha o kubi ni narimashita.",
         "german": "Er wurde von der Firma gefeuert."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "くびになる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "くびにならされる"
+        ]
+      }
+    }
   },
   {
     "word": "亡くなる",
@@ -22371,7 +24155,17 @@ window.VOCAB_N5 = [
         "romaji": "Ojiisan ga nakunarimashita.",
         "german": "Der Großvater ist gestorben."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "なくなる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "なくならされる"
+        ]
+      }
+    }
   },
   {
     "word": "小文字",
@@ -22437,7 +24231,25 @@ window.VOCAB_N5 = [
         "romaji": "Ryouri ga dekimashita.",
         "german": "Das Essen ist fertig."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "できる",
+      "conjugationKind": "verb",
+      "conjugationOverrides": {
+        "potential": null,
+        "passive": null,
+        "causative": null,
+        "causPas": null,
+        "imperative": null,
+        "volitional": null
+      },
+      "conjugationVariants": {
+        "imperative": [
+          "できよ"
+        ]
+      }
+    }
   },
   {
     "word": "早口",
@@ -22591,7 +24403,17 @@ window.VOCAB_N5 = [
         "romaji": "Kochira o muite kudasai.",
         "german": "Bitte schauen Sie hierher."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "むく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "むかされる"
+        ]
+      }
+    }
   },
   {
     "word": "私生活",
@@ -22657,7 +24479,17 @@ window.VOCAB_N5 = [
         "romaji": "Uwasa ga hirogarimashita.",
         "german": "Das Gerücht hat sich verbreitet."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ひろがる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ひろがらされる"
+        ]
+      }
+    }
   },
   {
     "word": "豚肉",
@@ -22767,7 +24599,13 @@ window.VOCAB_N5 = [
         "romaji": "Hayaku kite kudasai.",
         "german": "Bitte kommen Sie schnell."
       }
-    ]
+    ],
+    "conjugation": {
+      "type": "Nomen",
+      "conjugationKind": "excluded",
+      "verbGroup": null,
+      "conjugationReading": null
+    }
   },
   {
     "word": "〜室",
@@ -22899,7 +24737,17 @@ window.VOCAB_N5 = [
         "romaji": "Niwa ni kusa ga haemashita.",
         "german": "Im Garten ist Gras gewachsen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "はえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "はえよ"
+        ]
+      }
+    }
   },
   {
     "word": "土星",
@@ -22987,7 +24835,17 @@ window.VOCAB_N5 = [
         "romaji": "Maiasa hachiji ni shussha shimasu.",
         "german": "Ich gehe jeden Morgen um acht Uhr zur Arbeit."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "しゅっしゃする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "しゅっしゃせよ"
+        ]
+      }
+    }
   },
   {
     "word": "元パートナー",
@@ -23251,7 +25109,17 @@ window.VOCAB_N5 = [
         "romaji": "Keeki o mittsu ni wakemashou.",
         "german": "Lass uns den Kuchen in drei Stücke teilen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "わける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "わけよ"
+        ]
+      }
+    }
   },
   {
     "word": "代わる",
@@ -23273,7 +25141,17 @@ window.VOCAB_N5 = [
         "romaji": "Sensei ga kawarimashita.",
         "german": "Der Lehrer hat gewechselt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "かわる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "かわらされる"
+        ]
+      }
+    }
   },
   {
     "word": "考え",
@@ -23427,7 +25305,17 @@ window.VOCAB_N5 = [
         "romaji": "Nafuda o tsukete kudasai.",
         "german": "Bitte bringen Sie das Namensschild an."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "つける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "つけよ"
+        ]
+      }
+    }
   },
   {
     "word": "〜以上",
@@ -23471,7 +25359,17 @@ window.VOCAB_N5 = [
         "romaji": "Taisetsu na mono o ushinaitaku nai desu.",
         "german": "Ich möchte nichts Wichtiges verlieren."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "うしなう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "うしなわされる"
+        ]
+      }
+    }
   },
   {
     "word": "失礼",
@@ -24043,7 +25941,17 @@ window.VOCAB_N5 = [
         "romaji": "Sakimawari shite matte imashita.",
         "german": "Ich bin vorausgeeilt und habe gewartet."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "さきまわりする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "さきまわりせよ"
+        ]
+      }
+    }
   },
   {
     "word": "近々",
@@ -24175,7 +26083,17 @@ window.VOCAB_N5 = [
         "romaji": "Shinbun no kiji o kiritorimashita.",
         "german": "Ich habe den Zeitungsartikel ausgeschnitten."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "きりとる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "きりとらされる"
+        ]
+      }
+    }
   },
   {
     "word": "取り出す",
@@ -24197,7 +26115,12 @@ window.VOCAB_N5 = [
         "romaji": "Hako kara hon o toridashimashita.",
         "german": "Ich habe ein Buch aus der Kiste herausgenommen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "とりだす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "象",
@@ -24285,7 +26208,13 @@ window.VOCAB_N5 = [
         "romaji": "Ji o ookiku kaite kudasai.",
         "german": "Bitte schreiben Sie die Zeichen groß."
       }
-    ]
+    ],
+    "conjugation": {
+      "type": "Adverb",
+      "conjugationKind": "excluded",
+      "verbGroup": null,
+      "conjugationReading": null
+    }
   },
   {
     "word": "船体",
@@ -24373,7 +26302,17 @@ window.VOCAB_N5 = [
         "romaji": "Kagi ga doko ni mo miatarimasen.",
         "german": "Der Schlüssel ist nirgends zu finden."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "みあたる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "みあたらされる"
+        ]
+      }
+    }
   },
   {
     "word": "三角形",
@@ -24901,7 +26840,17 @@ window.VOCAB_N5 = [
         "romaji": "Yoru ga akemashita.",
         "german": "Die Nacht ist zu Ende gegangen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "あける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "あけよ"
+        ]
+      }
+    }
   },
   {
     "word": "円い",
@@ -24945,7 +26894,17 @@ window.VOCAB_N5 = [
         "romaji": "Futago o miwakeru no wa muzukashii desu.",
         "german": "Zwillinge zu unterscheiden ist schwierig."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "みわける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "みわけよ"
+        ]
+      }
+    }
   },
   {
     "word": "次回",
@@ -25033,7 +26992,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono michi o tootte gakkou ni ikimasu.",
         "german": "Ich gehe diesen Weg entlang zur Schule."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "とおる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "とおらされる"
+        ]
+      }
+    }
   },
   {
     "word": "馬力",
@@ -25187,7 +27156,21 @@ window.VOCAB_N5 = [
         "romaji": "Kono mondai ni taishite iken ga arimasu.",
         "german": "Ich habe eine Meinung zu diesem Problem."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "たいする",
+      "conjugationKind": "verb",
+      "conjugationOverrides": {
+        "potential": null,
+        "imperative": "たいせよ"
+      },
+      "conjugationVariants": {
+        "imperative": [
+          "たいせよ"
+        ]
+      }
+    }
   },
   {
     "word": "支局",
@@ -25407,7 +27390,17 @@ window.VOCAB_N5 = [
         "romaji": "Nyuujouryou wa gohyaku en desu.",
         "german": "Der Eintrittspreis beträgt fünfhundert Yen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "にゅうじょうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "にゅうじょうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "他所",
@@ -25737,7 +27730,17 @@ window.VOCAB_N5 = [
         "romaji": "Haru ga chikaduite kimashita.",
         "german": "Der Frühling nähert sich."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ちかづく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ちかづかされる"
+        ]
+      }
+    }
   },
   {
     "word": "代わり",
@@ -25781,7 +27784,13 @@ window.VOCAB_N5 = [
         "romaji": "Mattaku mondai arimasen.",
         "german": "Überhaupt kein Problem."
       }
-    ]
+    ],
+    "conjugation": {
+      "type": "Adverb",
+      "conjugationKind": "excluded",
+      "verbGroup": null,
+      "conjugationReading": null
+    }
   },
   {
     "word": "この前",
@@ -25847,7 +27856,17 @@ window.VOCAB_N5 = [
         "romaji": "Ryouri ga dekiagarimashita.",
         "german": "Das Essen ist fertig geworden."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "できあがる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "できあがらされる"
+        ]
+      }
+    }
   },
   {
     "word": "交じる",
@@ -25869,7 +27888,17 @@ window.VOCAB_N5 = [
         "romaji": "Iroiro na iro ga majitte imasu.",
         "german": "Verschiedene Farben sind gemischt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "まじる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "まじらされる"
+        ]
+      }
+    }
   },
   {
     "word": "走り回る",
@@ -25891,7 +27920,17 @@ window.VOCAB_N5 = [
         "romaji": "Kodomotachi ga hashirimawatte imasu.",
         "german": "Die Kinder rennen herum."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "はしりまわる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "はしりまわらされる"
+        ]
+      }
+    }
   },
   {
     "word": "当てる",
@@ -25913,7 +27952,17 @@ window.VOCAB_N5 = [
         "romaji": "Kotae o atete kudasai.",
         "german": "Bitte erraten Sie die Antwort."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "あてる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "あてよ"
+        ]
+      }
+    }
   },
   {
     "word": "化ける",
@@ -25935,7 +27984,17 @@ window.VOCAB_N5 = [
         "romaji": "Kitsune ga hito ni bakeru to iimasu.",
         "german": "Man sagt, Füchse verwandeln sich in Menschen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "ばける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "ばけよ"
+        ]
+      }
+    }
   },
   {
     "word": "回す",
@@ -25957,7 +28016,12 @@ window.VOCAB_N5 = [
         "romaji": "Handoru o migi ni mawashite kudasai.",
         "german": "Bitte drehen Sie das Lenkrad nach rechts."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "まわす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "私自身",
@@ -26067,7 +28131,17 @@ window.VOCAB_N5 = [
         "romaji": "Kamera o mukenaide kudasai.",
         "german": "Bitte richten Sie die Kamera nicht auf mich."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "むける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "むけよ"
+        ]
+      }
+    }
   },
   {
     "word": "お前",
@@ -26155,7 +28229,17 @@ window.VOCAB_N5 = [
         "romaji": "Terebi o tsukete kudasai.",
         "german": "Bitte schalten Sie den Fernseher ein."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "つける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "つけよ"
+        ]
+      }
+    }
   },
   {
     "word": "役目",
@@ -26397,7 +28481,17 @@ window.VOCAB_N5 = [
         "romaji": "Futatsu no chiimu ga taiketsu shimashita.",
         "german": "Zwei Teams standen sich gegenüber."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "たいけつする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "たいけつせよ"
+        ]
+      }
+    }
   },
   {
     "word": "南アフリカ",
@@ -26837,7 +28931,17 @@ window.VOCAB_N5 = [
         "romaji": "Atarashii hon ga hatsubai saremashita.",
         "german": "Ein neues Buch ist erschienen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "はつばいする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "はつばいせよ"
+        ]
+      }
+    }
   },
   {
     "word": "〜県",
@@ -26903,7 +29007,17 @@ window.VOCAB_N5 = [
         "romaji": "Futatsu no chiimu ga shoubu shimashita.",
         "german": "Zwei Teams haben gegeneinander gekämpft."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "しょうぶする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "しょうぶせよ"
+        ]
+      }
+    }
   },
   {
     "word": "勝者",
@@ -26969,7 +29083,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono tesuto wa rakushou deshita.",
         "german": "Dieser Test war ein Kinderspiel."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "らくしょうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "らくしょうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "体重",
@@ -27079,7 +29203,17 @@ window.VOCAB_N5 = [
         "romaji": "Futatsu no michi ga majiwatte imasu.",
         "german": "Zwei Straßen kreuzen sich."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "まじわる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "まじわらされる"
+        ]
+      }
+    }
   },
   {
     "word": "小学校",
@@ -27189,7 +29323,17 @@ window.VOCAB_N5 = [
         "romaji": "Denki ga tsuite imasu ne.",
         "german": "Das Licht ist an, nicht wahr?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "つく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "つかされる"
+        ]
+      }
+    }
   },
   {
     "word": "見付ける",
@@ -27211,7 +29355,17 @@ window.VOCAB_N5 = [
         "romaji": "Yatto shigoto o mitsukemashita.",
         "german": "Endlich habe ich eine Arbeit gefunden."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "みつける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "みつけよ"
+        ]
+      }
+    }
   },
   {
     "word": "弱虫",
@@ -27277,7 +29431,17 @@ window.VOCAB_N5 = [
         "romaji": "Osara no hashi ga kakemashita.",
         "german": "Der Rand des Tellers ist abgebrochen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "かける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "かけよ"
+        ]
+      }
+    }
   },
   {
     "word": "白黒",
@@ -27365,7 +29529,17 @@ window.VOCAB_N5 = [
         "romaji": "Kenkou o hoji suru koto ga taisetsu desu.",
         "german": "Es ist wichtig, die Gesundheit aufrechtzuerhalten."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "ほじする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "ほじせよ"
+        ]
+      }
+    }
   },
   {
     "word": "生保",
@@ -27409,7 +29583,17 @@ window.VOCAB_N5 = [
         "romaji": "Kirei na joutai o tamotte kudasai.",
         "german": "Bitte halten Sie es in sauberem Zustand."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "たもつ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "たもたされる"
+        ]
+      }
+    }
   },
   {
     "word": "試みる",
@@ -27431,7 +29615,17 @@ window.VOCAB_N5 = [
         "romaji": "Atarashii reshipi o kokoromimashita.",
         "german": "Ich habe ein neues Rezept ausprobiert."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "こころみる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "こころみよ"
+        ]
+      }
+    }
   },
   {
     "word": "試食",
@@ -27453,7 +29647,17 @@ window.VOCAB_N5 = [
         "romaji": "Depaato de shishoku shimashita.",
         "german": "Ich habe im Kaufhaus eine Kostprobe genommen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "ししょくする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "ししょくせよ"
+        ]
+      }
+    }
   },
   {
     "word": "対比",
@@ -27475,7 +29679,17 @@ window.VOCAB_N5 = [
         "romaji": "Futatsu no shouhin o taihi shimashita.",
         "german": "Ich habe zwei Produkte verglichen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "たいひする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "たいひせよ"
+        ]
+      }
+    }
   },
   {
     "word": "発表",
@@ -27497,7 +29711,17 @@ window.VOCAB_N5 = [
         "romaji": "Shinshouhin o happyou shimashita.",
         "german": "Ein neues Produkt wurde vorgestellt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "はっぴょうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "はっぴょうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "表す",
@@ -27519,7 +29743,12 @@ window.VOCAB_N5 = [
         "romaji": "Kono e wa nani o arawashite imasu ka.",
         "german": "Was drückt dieses Bild aus?"
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "あらわす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "出発",
@@ -27541,7 +29770,17 @@ window.VOCAB_N5 = [
         "romaji": "Densha wa kuji ni shuppatsu shimasu.",
         "german": "Der Zug fährt um neun Uhr ab."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "しゅっぱつする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "しゅっぱつせよ"
+        ]
+      }
+    }
   },
   {
     "word": "辛子",
@@ -27761,7 +30000,12 @@ window.VOCAB_N5 = [
         "romaji": "Okyakusama o oheya ni tooshite kudasai.",
         "german": "Bitte führen Sie den Gast ins Zimmer."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "とおす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "使用",
@@ -27783,7 +30027,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono kikai wa shiyouchuu desu.",
         "german": "Diese Maschine ist in Benutzung."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "しようする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "しようせよ"
+        ]
+      }
+    }
   },
   {
     "word": "辛口",
@@ -27849,7 +30103,17 @@ window.VOCAB_N5 = [
         "romaji": "Senshu ga koutai shimashita.",
         "german": "Der Spieler wurde ausgewechselt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "こうたいする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "こうたいせよ"
+        ]
+      }
+    }
   },
   {
     "word": "そこ",
@@ -27937,7 +30201,17 @@ window.VOCAB_N5 = [
         "romaji": "Saka o orimashita.",
         "german": "Ich bin den Hügel hinuntergestiegen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "くだる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "くだらされる"
+        ]
+      }
+    }
   },
   {
     "word": "受け取る",
@@ -27959,7 +30233,17 @@ window.VOCAB_N5 = [
         "romaji": "Nimotsu o uketorimashita.",
         "german": "Ich habe das Paket empfangen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "うけとる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "うけとらされる"
+        ]
+      }
+    }
   },
   {
     "word": "十分間",
@@ -28069,7 +30353,17 @@ window.VOCAB_N5 = [
         "romaji": "Kodomo o kuruma ni nosemashita.",
         "german": "Ich habe das Kind ins Auto gesetzt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "のせる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "のせよ"
+        ]
+      }
+    }
   },
   {
     "word": "速度",
@@ -28157,7 +30451,17 @@ window.VOCAB_N5 = [
         "romaji": "Shiai ga shuuryou shimashita.",
         "german": "Das Spiel ist zu Ende."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "しゅうりょうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "しゅうりょうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "最終",
@@ -28201,7 +30505,17 @@ window.VOCAB_N5 = [
         "romaji": "Booru ga korogatte imasu.",
         "german": "Der Ball rollt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ころがる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "ころがらされる"
+        ]
+      }
+    }
   },
   {
     "word": "運転する",
@@ -28223,7 +30537,17 @@ window.VOCAB_N5 = [
         "romaji": "Chichi ga kuruma o unten shite imasu.",
         "german": "Mein Vater fährt das Auto."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "うんてんする",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "うんてんせよ"
+        ]
+      }
+    }
   },
   {
     "word": "回転",
@@ -28245,7 +30569,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono isu wa kaiten shimasu.",
         "german": "Dieser Stuhl dreht sich."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "かいてんする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "かいてんせよ"
+        ]
+      }
+    }
   },
   {
     "word": "進む",
@@ -28267,7 +30601,17 @@ window.VOCAB_N5 = [
         "romaji": "Massugu mae ni susunde kudasai.",
         "german": "Bitte gehen Sie geradeaus weiter."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "すすむ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "すすまされる"
+        ]
+      }
+    }
   },
   {
     "word": "進行",
@@ -28289,7 +30633,17 @@ window.VOCAB_N5 = [
         "romaji": "Kouji ga junchou ni shinkou shite imasu.",
         "german": "Die Bauarbeiten machen gute Fortschritte."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "しんこうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "しんこうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "青葉",
@@ -28355,7 +30709,17 @@ window.VOCAB_N5 = [
         "romaji": "Atarashii eiga ga koukai saremashita.",
         "german": "Ein neuer Film wurde veröffentlicht."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "こうかいする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "こうかいせよ"
+        ]
+      }
+    }
   },
   {
     "word": "開業",
@@ -28377,7 +30741,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono mise wa raigetsu kaigyou shimasu.",
         "german": "Dieses Geschäft eröffnet nächsten Monat."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "かいぎょうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "かいぎょうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "集金",
@@ -28597,7 +30971,17 @@ window.VOCAB_N5 = [
         "romaji": "Kono kotoba o kyouchou shite kudasai.",
         "german": "Bitte betonen Sie dieses Wort."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "きょうちょうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "きょうちょうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "親しい",
@@ -28751,7 +31135,17 @@ window.VOCAB_N5 = [
         "romaji": "Furui buhin o atarashii mono ni kaemashita.",
         "german": "Ich habe das alte Teil durch ein neues ersetzt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "かえる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "かえよ"
+        ]
+      }
+    }
   },
   {
     "word": "目医者",
@@ -28861,7 +31255,17 @@ window.VOCAB_N5 = [
         "romaji": "Minna ga tasukarimashita.",
         "german": "Alle wurden gerettet."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "たすかる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "たすからされる"
+        ]
+      }
+    }
   },
   {
     "word": "楽しむ",
@@ -28883,7 +31287,17 @@ window.VOCAB_N5 = [
         "romaji": "Ryokou o tanoshimimashou.",
         "german": "Lass uns die Reise genießen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "たのしむ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "たのしまされる"
+        ]
+      }
+    }
   },
   {
     "word": "投げ付ける",
@@ -28905,7 +31319,17 @@ window.VOCAB_N5 = [
         "romaji": "Booru o nagetsuke naide kudasai.",
         "german": "Bitte werfen Sie den Ball nicht auf Leute."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "なげつける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "なげつけよ"
+        ]
+      }
+    }
   },
   {
     "word": "化かす",
@@ -28927,7 +31351,12 @@ window.VOCAB_N5 = [
         "romaji": "Kitsune ga hito o bakasu to iimasu.",
         "german": "Man sagt, Füchse verzaubern Menschen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ばかす",
+      "conjugationKind": "verb"
+    }
   },
   {
     "word": "決定する",
@@ -28949,7 +31378,17 @@ window.VOCAB_N5 = [
         "romaji": "Kaigi de keikaku o kettei shimashita.",
         "german": "Wir haben in der Besprechung den Plan beschlossen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "けっていする",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "けっていせよ"
+        ]
+      }
+    }
   },
   {
     "word": "出会う",
@@ -28971,7 +31410,17 @@ window.VOCAB_N5 = [
         "romaji": "Ryokousaki de tomodachi ni deaimashita.",
         "german": "Ich habe auf der Reise zufällig einen Freund getroffen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "であう",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "であわされる"
+        ]
+      }
+    }
   },
   {
     "word": "私鉄",
@@ -29015,7 +31464,17 @@ window.VOCAB_N5 = [
         "romaji": "Roudousha ga youkyuu o dashimashita.",
         "german": "Die Arbeiter haben eine Forderung gestellt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "ようきゅうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "ようきゅうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "私大",
@@ -29059,7 +31518,17 @@ window.VOCAB_N5 = [
         "romaji": "Jugyou ga kaishi shimashita.",
         "german": "Der Unterricht hat begonnen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "かいしする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "かいしせよ"
+        ]
+      }
+    }
   },
   {
     "word": "曲線",
@@ -29191,7 +31660,17 @@ window.VOCAB_N5 = [
         "romaji": "Sagyou ga owarimashita.",
         "german": "Die Arbeit ist erledigt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "さぎょうする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "さぎょうせよ"
+        ]
+      }
+    }
   },
   {
     "word": "病む",
@@ -29213,7 +31692,17 @@ window.VOCAB_N5 = [
         "romaji": "Nagai aida yande imashita.",
         "german": "Er war lange krank."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "やむ",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "やまされる"
+        ]
+      }
+    }
   },
   {
     "word": "役場",
@@ -29367,7 +31856,17 @@ window.VOCAB_N5 = [
         "romaji": "Suitchi o osu to denki ga tsukimasu.",
         "german": "Wenn man den Schalter drückt, geht das Licht an."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "つく",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "つかされる"
+        ]
+      }
+    }
   },
   {
     "word": "山道",
@@ -29499,7 +31998,17 @@ window.VOCAB_N5 = [
         "romaji": "Sensei ni nihongo o osowarimashita.",
         "german": "Ich habe vom Lehrer Japanisch gelernt."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "おそわる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "おそわらされる"
+        ]
+      }
+    }
   },
   {
     "word": "去る",
@@ -29521,7 +32030,17 @@ window.VOCAB_N5 = [
         "romaji": "Tomodachi ga kyonen kono machi o sarimashita.",
         "german": "Mein Freund hat letztes Jahr diese Stadt verlassen."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "さる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "さらされる"
+        ]
+      }
+    }
   },
   {
     "word": "明後日",
@@ -29609,6 +32128,4042 @@ window.VOCAB_N5 = [
         "romaji": "Kono michi o chokushin shite kudasai.",
         "german": "Bitte fahren Sie auf dieser Straße geradeaus."
       }
-    ]
+    ],
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "ちょくしんする",
+      "conjugationKind": "nominal-suru",
+      "conjugationVariants": {
+        "imperative": [
+          "ちょくしんせよ"
+        ]
+      }
+    }
+  },
+  {
+    "level": "N5",
+    "word": "父",
+    "reading": "ちち",
+    "romaji": "chichi",
+    "meaning": "mein Vater; der eigene Vater",
+    "type": "Nomen",
+    "category": "Familie",
+    "notes": "Über den eigenen Vater gegenüber Außenstehenden; als Anrede verwendet man meist お父さん.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "父は東京に住んでいます。",
+        "romaji": "Chichi wa Toukyou ni sunde imasu.",
+        "german": "Mein Vater wohnt in Tokio."
+      },
+      {
+        "kind": "natural",
+        "japanese": "きのう父と電話で話しました。",
+        "romaji": "Kinou chichi to denwa de hanashimashita.",
+        "german": "Gestern habe ich mit meinem Vater telefoniert."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "母",
+    "reading": "はは",
+    "romaji": "haha",
+    "meaning": "meine Mutter; die eigene Mutter",
+    "type": "Nomen",
+    "category": "Familie",
+    "notes": "Über die eigene Mutter gegenüber Außenstehenden; als Anrede verwendet man meist お母さん.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "母は学校で働いています。",
+        "romaji": "Haha wa gakkou de hataraite imasu.",
+        "german": "Meine Mutter arbeitet in einer Schule."
+      },
+      {
+        "kind": "natural",
+        "japanese": "母に花をあげました。",
+        "romaji": "Haha ni hana o agemashita.",
+        "german": "Ich habe meiner Mutter Blumen geschenkt."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "兄",
+    "reading": "あに",
+    "romaji": "ani",
+    "meaning": "mein älterer Bruder",
+    "type": "Nomen",
+    "category": "Familie",
+    "notes": "Für den eigenen älteren Bruder gegenüber Außenstehenden; お兄さん ist eine Anrede oder bezeichnet den Bruder einer anderen Person.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "兄は大学生です。",
+        "romaji": "Ani wa daigakusei desu.",
+        "german": "Mein älterer Bruder ist Student."
+      },
+      {
+        "kind": "natural",
+        "japanese": "日曜日に兄と映画を見ました。",
+        "romaji": "Nichiyoubi ni ani to eiga o mimashita.",
+        "german": "Am Sonntag habe ich mit meinem älteren Bruder einen Film gesehen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "姉",
+    "reading": "あね",
+    "romaji": "ane",
+    "meaning": "meine ältere Schwester",
+    "type": "Nomen",
+    "category": "Familie",
+    "notes": "Für die eigene ältere Schwester gegenüber Außenstehenden; als Anrede meist お姉さん.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "姉は日本語を教えています。",
+        "romaji": "Ane wa nihongo o oshiete imasu.",
+        "german": "Meine ältere Schwester unterrichtet Japanisch."
+      },
+      {
+        "kind": "natural",
+        "japanese": "姉から手紙が来ました。",
+        "romaji": "Ane kara tegami ga kimashita.",
+        "german": "Ich habe einen Brief von meiner älteren Schwester bekommen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "両親",
+    "reading": "りょうしん",
+    "romaji": "ryoushin",
+    "meaning": "Eltern",
+    "type": "Nomen",
+    "category": "Familie",
+    "notes": "Bezeichnet Vater und Mutter zusammen; nicht mit 良心（りょうしん、Gewissen）verwechseln.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "両親はドイツに住んでいます。",
+        "romaji": "Ryoushin wa Doitsu ni sunde imasu.",
+        "german": "Meine Eltern wohnen in Deutschland."
+      },
+      {
+        "kind": "natural",
+        "japanese": "来月、両親に会います。",
+        "romaji": "Raigetsu, ryoushin ni aimasu.",
+        "german": "Nächsten Monat treffe ich meine Eltern."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "おじさん",
+    "reading": "おじさん",
+    "romaji": "ojisan",
+    "meaning": "Onkel; Mann mittleren Alters",
+    "type": "Nomen",
+    "category": "Familie",
+    "notes": "Für einen Onkel: 伯父さん oder 叔父さん. Nicht mit おじいさん（Großvater）verwechseln.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "おじさんは大阪に住んでいます。",
+        "romaji": "Ojisan wa Oosaka ni sunde imasu.",
+        "german": "Mein Onkel wohnt in Osaka."
+      },
+      {
+        "kind": "natural",
+        "japanese": "おじさんに駅までの道を聞きました。",
+        "romaji": "Ojisan ni eki made no michi o kikimashita.",
+        "german": "Ich habe einen Mann nach dem Weg zum Bahnhof gefragt."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "おばさん",
+    "reading": "おばさん",
+    "romaji": "obasan",
+    "meaning": "Tante; Frau mittleren Alters",
+    "type": "Nomen",
+    "category": "Familie",
+    "notes": "Für eine Tante: 伯母さん oder 叔母さん. Die Anrede einer unbekannten Frau kann unhöflich wirken.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "おばさんとお茶を飲みました。",
+        "romaji": "Obasan to ocha o nomimashita.",
+        "german": "Ich habe mit meiner Tante Tee getrunken."
+      },
+      {
+        "kind": "natural",
+        "japanese": "おばさんから本をもらいました。",
+        "romaji": "Obasan kara hon o moraimashita.",
+        "german": "Ich habe von meiner Tante ein Buch bekommen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "おじいさん",
+    "reading": "おじいさん",
+    "romaji": "ojiisan",
+    "meaning": "Großvater; älterer Mann",
+    "type": "Nomen",
+    "category": "Familie",
+    "notes": "Auch お祖父さん. Das lange い unterscheidet das Wort von おじさん（Onkel）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "おじいさんは毎朝、散歩します。",
+        "romaji": "Ojiisan wa maiasa, sanpo shimasu.",
+        "german": "Mein Großvater geht jeden Morgen spazieren."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あのおじいさんはとても元気です。",
+        "romaji": "Ano ojiisan wa totemo genki desu.",
+        "german": "Dieser ältere Mann ist sehr fit."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "青",
+    "reading": "あお",
+    "romaji": "ao",
+    "meaning": "Blau; die Farbe Blau",
+    "type": "Nomen",
+    "category": "Farben",
+    "notes": "Farbnomen zu 青い; bei Ampeln bezeichnet 青 das grüne Signal.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "好きな色は青です。",
+        "romaji": "Suki na iro wa ao desu.",
+        "german": "Meine Lieblingsfarbe ist Blau."
+      },
+      {
+        "kind": "natural",
+        "japanese": "信号が青になりました。",
+        "romaji": "Shingou ga ao ni narimashita.",
+        "german": "Die Ampel ist grün geworden."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "赤",
+    "reading": "あか",
+    "romaji": "aka",
+    "meaning": "Rot; die Farbe Rot",
+    "type": "Nomen",
+    "category": "Farben",
+    "notes": "Farbnomen; vor einem Nomen meist 赤い oder 赤の.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "赤のペンを使ってください。",
+        "romaji": "Aka no pen o tsukatte kudasai.",
+        "german": "Bitte benutzen Sie den roten Stift."
+      },
+      {
+        "kind": "natural",
+        "japanese": "信号は赤です。",
+        "romaji": "Shingou wa aka desu.",
+        "german": "Die Ampel ist rot."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "白",
+    "reading": "しろ",
+    "romaji": "shiro",
+    "meaning": "Weiß; die Farbe Weiß",
+    "type": "Nomen",
+    "category": "Farben",
+    "notes": "Nicht mit 城（しろ、Burg）verwechseln; das Adjektiv lautet 白い.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "この紙は白です。",
+        "romaji": "Kono kami wa shiro desu.",
+        "german": "Dieses Papier ist weiß."
+      },
+      {
+        "kind": "natural",
+        "japanese": "白のシャツを買いました。",
+        "romaji": "Shiro no shatsu o kaimashita.",
+        "german": "Ich habe ein weißes Hemd gekauft."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "黒",
+    "reading": "くろ",
+    "romaji": "kuro",
+    "meaning": "Schwarz; die Farbe Schwarz",
+    "type": "Nomen",
+    "category": "Farben",
+    "notes": "Farbnomen; das Adjektiv lautet 黒い.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "好きな色は黒です。",
+        "romaji": "Suki na iro wa kuro desu.",
+        "german": "Meine Lieblingsfarbe ist Schwarz."
+      },
+      {
+        "kind": "natural",
+        "japanese": "黒のかばんは私のです。",
+        "romaji": "Kuro no kaban wa watashi no desu.",
+        "german": "Die schwarze Tasche gehört mir."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "黄色い",
+    "reading": "きいろい",
+    "romaji": "kiiroi",
+    "meaning": "gelb",
+    "type": "Adjektiv",
+    "category": "Farben",
+    "notes": "い-Adjektiv; 黄色 ist das zugehörige Farbnomen.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "黄色い花が咲いています。",
+        "romaji": "Kiiroi hana ga saite imasu.",
+        "german": "Gelbe Blumen blühen."
+      },
+      {
+        "kind": "natural",
+        "japanese": "妹は黄色いかばんを持っています。",
+        "romaji": "Imouto wa kiiroi kaban o motte imasu.",
+        "german": "Meine jüngere Schwester hat eine gelbe Tasche."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "池",
+    "reading": "いけ",
+    "romaji": "ike",
+    "meaning": "Teich",
+    "type": "Nomen",
+    "category": "Natur",
+    "notes": "Ein kleines stehendes Gewässer; 湖 bezeichnet einen See.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "公園に小さな池があります。",
+        "romaji": "Kouen ni chiisana ike ga arimasu.",
+        "german": "Im Park gibt es einen kleinen Teich."
+      },
+      {
+        "kind": "natural",
+        "japanese": "池に魚がいます。",
+        "romaji": "Ike ni sakana ga imasu.",
+        "german": "Im Teich sind Fische."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "北",
+    "reading": "きた",
+    "romaji": "kita",
+    "meaning": "Norden",
+    "type": "Nomen",
+    "category": "Geographie",
+    "notes": "Als Richtung oft 北に oder 北へ; in Zusammensetzungen häufig ほく.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "北海道は日本の北にあります。",
+        "romaji": "Hokkaidou wa Nihon no kita ni arimasu.",
+        "german": "Hokkaido liegt im Norden Japans."
+      },
+      {
+        "kind": "natural",
+        "japanese": "駅から北へ歩いてください。",
+        "romaji": "Eki kara kita e aruite kudasai.",
+        "german": "Gehen Sie vom Bahnhof nach Norden."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "南",
+    "reading": "みなみ",
+    "romaji": "minami",
+    "meaning": "Süden",
+    "type": "Nomen",
+    "category": "Geographie",
+    "notes": "Als Richtung oft 南に oder 南へ; in Zusammensetzungen häufig なん.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "沖縄は日本の南にあります。",
+        "romaji": "Okinawa wa Nihon no minami ni arimasu.",
+        "german": "Okinawa liegt im Süden Japans."
+      },
+      {
+        "kind": "natural",
+        "japanese": "部屋の窓は南を向いています。",
+        "romaji": "Heya no mado wa minami o muite imasu.",
+        "german": "Das Fenster des Zimmers zeigt nach Süden."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "東",
+    "reading": "ひがし",
+    "romaji": "higashi",
+    "meaning": "Osten",
+    "type": "Nomen",
+    "category": "Geographie",
+    "notes": "Die gewöhnliche eigenständige Lesung ist ひがし.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "太陽は東から出ます。",
+        "romaji": "Taiyou wa higashi kara demasu.",
+        "german": "Die Sonne geht im Osten auf."
+      },
+      {
+        "kind": "natural",
+        "japanese": "学校は駅の東にあります。",
+        "romaji": "Gakkou wa eki no higashi ni arimasu.",
+        "german": "Die Schule liegt östlich vom Bahnhof."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "西",
+    "reading": "にし",
+    "romaji": "nishi",
+    "meaning": "Westen",
+    "type": "Nomen",
+    "category": "Geographie",
+    "notes": "Die gewöhnliche eigenständige Lesung ist にし.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "太陽は西に沈みます。",
+        "romaji": "Taiyou wa nishi ni shizumimasu.",
+        "german": "Die Sonne geht im Westen unter."
+      },
+      {
+        "kind": "natural",
+        "japanese": "駅から西へ十分歩きます。",
+        "romaji": "Eki kara nishi e juppun arukimasu.",
+        "german": "Vom Bahnhof geht man zehn Minuten nach Westen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "後",
+    "reading": "あと",
+    "romaji": "ato",
+    "meaning": "danach; später; hinter",
+    "type": "Nomen",
+    "category": "Zeit",
+    "notes": "Zeitlich oft ～の後で; nicht jede Verwendung von 後 wird あと gelesen.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "ご飯の後で薬を飲みます。",
+        "romaji": "Gohan no ato de kusuri o nomimasu.",
+        "german": "Ich nehme nach dem Essen Medizin."
+      },
+      {
+        "kind": "natural",
+        "japanese": "後で電話します。",
+        "romaji": "Ato de denwa shimasu.",
+        "german": "Ich rufe später an."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "先",
+    "reading": "さき",
+    "romaji": "saki",
+    "meaning": "zuvor; voraus; die Stelle weiter vorn",
+    "type": "Nomen",
+    "category": "Zeit",
+    "notes": "先に bedeutet vor jemand anderem oder zuerst.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "先に帰ってもいいですか。",
+        "romaji": "Saki ni kaette mo ii desu ka.",
+        "german": "Darf ich schon vor den anderen nach Hause gehen?"
+      },
+      {
+        "kind": "natural",
+        "japanese": "この道の先に店があります。",
+        "romaji": "Kono michi no saki ni mise ga arimasu.",
+        "german": "Weiter vorn an dieser Straße ist ein Geschäft."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "次",
+    "reading": "つぎ",
+    "romaji": "tsugi",
+    "meaning": "nächste; als Nächstes",
+    "type": "Nomen",
+    "category": "Zeit",
+    "notes": "Vor einem Nomen mit の: 次の電車.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "次の電車は何時ですか。",
+        "romaji": "Tsugi no densha wa nanji desu ka.",
+        "german": "Um wie viel Uhr fährt der nächste Zug?"
+      },
+      {
+        "kind": "natural",
+        "japanese": "次は私が読みます。",
+        "romaji": "Tsugi wa watashi ga yomimasu.",
+        "german": "Als Nächstes lese ich."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "今晩",
+    "reading": "こんばん",
+    "romaji": "konban",
+    "meaning": "heute Abend",
+    "type": "Nomen",
+    "category": "Zeit",
+    "notes": "Bezeichnet diesen Abend; こんばんは ist die Begrüßung.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今晩は家で食べます。",
+        "romaji": "Konban wa ie de tabemasu.",
+        "german": "Heute Abend esse ich zu Hause."
+      },
+      {
+        "kind": "natural",
+        "japanese": "今晩、電話してもいいですか。",
+        "romaji": "Konban, denwa shite mo ii desu ka.",
+        "german": "Darf ich heute Abend anrufen?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "夕方",
+    "reading": "ゆうがた",
+    "romaji": "yuugata",
+    "meaning": "später Nachmittag; früher Abend",
+    "type": "Nomen",
+    "category": "Zeit",
+    "notes": "Zeitspanne gegen Tagesende, bevor es ganz Nacht ist.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "夕方、犬と散歩します。",
+        "romaji": "Yuugata, inu to sanpo shimasu.",
+        "german": "Am späten Nachmittag gehe ich mit dem Hund spazieren."
+      },
+      {
+        "kind": "natural",
+        "japanese": "夕方までに帰ります。",
+        "romaji": "Yuugata made ni kaerimasu.",
+        "german": "Ich komme bis zum frühen Abend zurück."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "夕飯",
+    "reading": "ゆうはん",
+    "romaji": "yuuhan",
+    "meaning": "Abendessen",
+    "type": "Nomen",
+    "category": "Essen",
+    "notes": "Alltägliches Wort für die Abendmahlzeit.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "夕飯は七時です。",
+        "romaji": "Yuuhan wa shichiji desu.",
+        "german": "Das Abendessen ist um sieben."
+      },
+      {
+        "kind": "natural",
+        "japanese": "一緒に夕飯を作りませんか。",
+        "romaji": "Issho ni yuuhan o tsukurimasen ka.",
+        "german": "Wollen wir zusammen Abendessen kochen?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "晩",
+    "reading": "ばん",
+    "romaji": "ban",
+    "meaning": "Abend",
+    "type": "Nomen",
+    "category": "Zeit",
+    "notes": "In Verbindungen wie 毎晩 und 朝から晩まで häufig.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "朝から晩まで雨でした。",
+        "romaji": "Asa kara ban made ame deshita.",
+        "german": "Es regnete von morgens bis abends."
+      },
+      {
+        "kind": "natural",
+        "japanese": "その晩は早く寝ました。",
+        "romaji": "Sono ban wa hayaku nemashita.",
+        "german": "An jenem Abend bin ich früh schlafen gegangen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "時",
+    "reading": "とき",
+    "romaji": "toki",
+    "meaning": "Zeit; Zeitpunkt; als; wenn",
+    "type": "Nomen",
+    "category": "Zeit",
+    "notes": "～時 bezeichnet einen Zeitpunkt oder eine Situation; Uhrzeiten verwenden die Lesung じ.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "子供の時、東京に住んでいました。",
+        "romaji": "Kodomo no toki, Toukyou ni sunde imashita.",
+        "german": "Als Kind habe ich in Tokio gewohnt."
+      },
+      {
+        "kind": "natural",
+        "japanese": "暇な時、本を読みます。",
+        "romaji": "Hima na toki, hon o yomimasu.",
+        "german": "Wenn ich Zeit habe, lese ich Bücher."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "話",
+    "reading": "はなし",
+    "romaji": "hanashi",
+    "meaning": "Gespräch; Geschichte; Erzählung",
+    "type": "Nomen",
+    "category": "Kommunikation",
+    "notes": "Das Nomen hat kein し nach dem Kanji; das Verb lautet 話す.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "先生の話を聞いてください。",
+        "romaji": "Sensei no hanashi o kiite kudasai.",
+        "german": "Bitte hören Sie zu, was die Lehrperson erzählt."
+      },
+      {
+        "kind": "natural",
+        "japanese": "その話はおもしろいです。",
+        "romaji": "Sono hanashi wa omoshiroi desu.",
+        "german": "Diese Geschichte ist interessant."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "暇",
+    "reading": "ひま",
+    "romaji": "hima",
+    "meaning": "freie Zeit; nicht beschäftigt",
+    "type": "Adjektiv",
+    "category": "Zeit",
+    "notes": "Als な-Adjektiv: 暇な日; als Nomen auch 暇がある.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "日曜日は暇です。",
+        "romaji": "Nichiyoubi wa hima desu.",
+        "german": "Am Sonntag habe ich frei."
+      },
+      {
+        "kind": "natural",
+        "japanese": "暇な時に来てください。",
+        "romaji": "Hima na toki ni kite kudasai.",
+        "german": "Kommen Sie bitte, wenn Sie Zeit haben."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "物",
+    "reading": "もの",
+    "romaji": "mono",
+    "meaning": "Ding; Gegenstand",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Meist konkrete Dinge; こと bezeichnet eher Sachverhalte oder Tätigkeiten.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "重い物を持たないでください。",
+        "romaji": "Omoi mono o motanaide kudasai.",
+        "german": "Bitte tragen Sie keine schweren Gegenstände."
+      },
+      {
+        "kind": "natural",
+        "japanese": "この箱には何か物が入っています。",
+        "romaji": "Kono hako ni wa nanika mono ga haitte imasu.",
+        "german": "In dieser Schachtel ist etwas drin."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "所",
+    "reading": "ところ",
+    "romaji": "tokoro",
+    "meaning": "Ort; Stelle",
+    "type": "Nomen",
+    "category": "Ort",
+    "notes": "Sehr häufig auch in Hiragana: ところ.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "静かな所で勉強したいです。",
+        "romaji": "Shizuka na tokoro de benkyou shitai desu.",
+        "german": "Ich möchte an einem ruhigen Ort lernen."
+      },
+      {
+        "kind": "natural",
+        "japanese": "ここはどんな所ですか。",
+        "romaji": "Koko wa donna tokoro desu ka.",
+        "german": "Was für ein Ort ist das hier?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "辺",
+    "reading": "へん",
+    "romaji": "hen",
+    "meaning": "Gegend; Umgebung",
+    "type": "Nomen",
+    "category": "Ort",
+    "notes": "この辺・その辺・あの辺 für eine ungefähre Gegend.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "この辺に銀行はありますか。",
+        "romaji": "Kono hen ni ginkou wa arimasu ka.",
+        "german": "Gibt es hier in der Gegend eine Bank?"
+      },
+      {
+        "kind": "natural",
+        "japanese": "この辺で少し休みましょう。",
+        "romaji": "Kono hen de sukoshi yasumimashou.",
+        "german": "Machen wir hier in der Gegend eine kurze Pause."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "横",
+    "reading": "よこ",
+    "romaji": "yoko",
+    "meaning": "Seite; daneben; waagerechte Richtung",
+    "type": "Nomen",
+    "category": "Ort",
+    "notes": "～の横に bedeutet neben etwas.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "銀行の横に本屋があります。",
+        "romaji": "Ginkou no yoko ni hon'ya ga arimasu.",
+        "german": "Neben der Bank ist eine Buchhandlung."
+      },
+      {
+        "kind": "natural",
+        "japanese": "紙を横に置いてください。",
+        "romaji": "Kami o yoko ni oite kudasai.",
+        "german": "Legen Sie das Papier bitte quer hin."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "村",
+    "reading": "むら",
+    "romaji": "mura",
+    "meaning": "Dorf",
+    "type": "Nomen",
+    "category": "Ort",
+    "notes": "Bezeichnet eine kleine Ortschaft.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "祖母は小さな村に住んでいます。",
+        "romaji": "Sobo wa chiisana mura ni sunde imasu.",
+        "german": "Meine Großmutter wohnt in einem kleinen Dorf."
+      },
+      {
+        "kind": "natural",
+        "japanese": "この村には駅がありません。",
+        "romaji": "Kono mura ni wa eki ga arimasen.",
+        "german": "Dieses Dorf hat keinen Bahnhof."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "門",
+    "reading": "もん",
+    "romaji": "mon",
+    "meaning": "Tor",
+    "type": "Nomen",
+    "category": "Wohnen",
+    "notes": "Ein Eingangstor, etwa zu einer Schule oder einem Tempel.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "学校の門の前で待っています。",
+        "romaji": "Gakkou no mon no mae de matte imasu.",
+        "german": "Ich warte vor dem Schultor."
+      },
+      {
+        "kind": "natural",
+        "japanese": "夜は門を閉めます。",
+        "romaji": "Yoru wa mon o shimemasu.",
+        "german": "Nachts schließen wir das Tor."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "箱",
+    "reading": "はこ",
+    "romaji": "hako",
+    "meaning": "Schachtel; Kiste",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Für Behälter aus Papier, Holz oder anderen Materialien.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "箱の中に本があります。",
+        "romaji": "Hako no naka ni hon ga arimasu.",
+        "german": "In der Kiste sind Bücher."
+      },
+      {
+        "kind": "natural",
+        "japanese": "この箱を開けてください。",
+        "romaji": "Kono hako o akete kudasai.",
+        "german": "Bitte öffnen Sie diese Schachtel."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "上着",
+    "reading": "うわぎ",
+    "romaji": "uwagi",
+    "meaning": "Jacke; Oberbekleidung",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Ein Kleidungsstück über Hemd oder anderer Kleidung.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "寒いので上着を着ます。",
+        "romaji": "Samui node uwagi o kimasu.",
+        "german": "Weil es kalt ist, ziehe ich eine Jacke an."
+      },
+      {
+        "kind": "natural",
+        "japanese": "上着を椅子に掛けました。",
+        "romaji": "Uwagi o isu ni kakemashita.",
+        "german": "Ich habe die Jacke über den Stuhl gehängt."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "カレンダー",
+    "reading": "カレンダー",
+    "romaji": "karendaa",
+    "meaning": "Kalender",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Für den Kalender als Gegenstand oder Anzeige.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "壁にカレンダーがあります。",
+        "romaji": "Kabe ni karendaa ga arimasu.",
+        "german": "An der Wand hängt ein Kalender."
+      },
+      {
+        "kind": "natural",
+        "japanese": "カレンダーに休みの日を書きます。",
+        "romaji": "Karendaa ni yasumi no hi o kakimasu.",
+        "german": "Ich trage die freien Tage in den Kalender ein."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "シャワー",
+    "reading": "シャワー",
+    "romaji": "shawaa",
+    "meaning": "Dusche",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Eine Dusche nehmen: シャワーを浴びる.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "朝、シャワーを浴びます。",
+        "romaji": "Asa, shawaa o abimasu.",
+        "german": "Morgens dusche ich."
+      },
+      {
+        "kind": "natural",
+        "japanese": "この部屋にはシャワーがあります。",
+        "romaji": "Kono heya ni wa shawaa ga arimasu.",
+        "german": "Dieses Zimmer hat eine Dusche."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "テーブル",
+    "reading": "テーブル",
+    "romaji": "teeburu",
+    "meaning": "Tisch",
+    "type": "Nomen",
+    "category": "Wohnen",
+    "notes": "Oft Esstisch; 机 wird häufig für einen Schreibtisch verwendet.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "テーブルにお皿を置きます。",
+        "romaji": "Teeburu ni osara o okimasu.",
+        "german": "Ich stelle Teller auf den Tisch."
+      },
+      {
+        "kind": "natural",
+        "japanese": "テーブルの下に猫がいます。",
+        "romaji": "Teeburu no shita ni neko ga imasu.",
+        "german": "Unter dem Tisch ist eine Katze."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ボールペン",
+    "reading": "ボールペン",
+    "romaji": "boorupen",
+    "meaning": "Kugelschreiber",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Das Schreibgerät, im Gegensatz zu 鉛筆（Bleistift）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "ボールペンで名前を書いてください。",
+        "romaji": "Boorupen de namae o kaite kudasai.",
+        "german": "Bitte schreiben Sie Ihren Namen mit Kugelschreiber."
+      },
+      {
+        "kind": "natural",
+        "japanese": "青いボールペンを買いました。",
+        "romaji": "Aoi boorupen o kaimashita.",
+        "german": "Ich habe einen blauen Kugelschreiber gekauft."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "カップ",
+    "reading": "カップ",
+    "romaji": "kappu",
+    "meaning": "Tasse; Becher",
+    "type": "Nomen",
+    "category": "Essen",
+    "notes": "Häufig für Kaffee oder andere Getränke.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "カップにコーヒーを入れます。",
+        "romaji": "Kappu ni koohii o iremasu.",
+        "german": "Ich gieße Kaffee in die Tasse."
+      },
+      {
+        "kind": "natural",
+        "japanese": "このカップは小さいです。",
+        "romaji": "Kono kappu wa chiisai desu.",
+        "german": "Diese Tasse ist klein."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "カレー",
+    "reading": "カレー",
+    "romaji": "karee",
+    "meaning": "Curry; Currygericht",
+    "type": "Nomen",
+    "category": "Essen",
+    "notes": "In Japan oft Currysoße mit Reis.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "昼ご飯にカレーを食べました。",
+        "romaji": "Hirugohan ni karee o tabemashita.",
+        "german": "Zum Mittagessen habe ich Curry gegessen."
+      },
+      {
+        "kind": "natural",
+        "japanese": "このカレーはあまり辛くないです。",
+        "romaji": "Kono karee wa amari karakunai desu.",
+        "german": "Dieses Curry ist nicht besonders scharf."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "シャツ",
+    "reading": "シャツ",
+    "romaji": "shatsu",
+    "meaning": "Hemd; Shirt",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Anziehen: シャツを着る.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "新しいシャツを着ています。",
+        "romaji": "Atarashii shatsu o kite imasu.",
+        "german": "Ich trage ein neues Hemd."
+      },
+      {
+        "kind": "natural",
+        "japanese": "このシャツを洗ってください。",
+        "romaji": "Kono shatsu o aratte kudasai.",
+        "german": "Bitte waschen Sie dieses Hemd."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "スカート",
+    "reading": "スカート",
+    "romaji": "sukaato",
+    "meaning": "Rock",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Für dieses Kleidungsstück verwendet man 履く（はく）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "青いスカートを買いました。",
+        "romaji": "Aoi sukaato o kaimashita.",
+        "german": "Ich habe einen blauen Rock gekauft."
+      },
+      {
+        "kind": "natural",
+        "japanese": "このスカートは少し長いです。",
+        "romaji": "Kono sukaato wa sukoshi nagai desu.",
+        "german": "Dieser Rock ist etwas lang."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ズボン",
+    "reading": "ズボン",
+    "romaji": "zubon",
+    "meaning": "Hose",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Eine Hose anziehen: ズボンを履く.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "黒いズボンを履いています。",
+        "romaji": "Kuroi zubon o haite imasu.",
+        "german": "Ich trage eine schwarze Hose."
+      },
+      {
+        "kind": "natural",
+        "japanese": "このズボンは大きすぎます。",
+        "romaji": "Kono zubon wa ookisugimasu.",
+        "german": "Diese Hose ist zu groß."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "スリッパ",
+    "reading": "スリッパ",
+    "romaji": "surippa",
+    "meaning": "Hausschuhe; Pantoffeln",
+    "type": "Nomen",
+    "category": "Wohnen",
+    "notes": "Meist leichte Schuhe für Innenräume.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "玄関でスリッパを履きます。",
+        "romaji": "Genkan de surippa o hakimasu.",
+        "german": "Im Eingangsbereich ziehe ich Hausschuhe an."
+      },
+      {
+        "kind": "natural",
+        "japanese": "トイレのスリッパはここに置いてください。",
+        "romaji": "Toire no surippa wa koko ni oite kudasai.",
+        "german": "Stellen Sie die Toilettenpantoffeln bitte hierhin."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ストーブ",
+    "reading": "ストーブ",
+    "romaji": "sutoobu",
+    "meaning": "Heizofen; Heizgerät",
+    "type": "Nomen",
+    "category": "Wohnen",
+    "notes": "Meist ein Heizgerät für einen Raum, nicht der Küchenherd.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "寒いのでストーブをつけました。",
+        "romaji": "Samui node sutoobu o tsukemashita.",
+        "german": "Weil es kalt ist, habe ich den Heizofen eingeschaltet."
+      },
+      {
+        "kind": "natural",
+        "japanese": "寝る前にストーブを消してください。",
+        "romaji": "Neru mae ni sutoobu o keshite kudasai.",
+        "german": "Schalten Sie vor dem Schlafengehen den Heizofen aus."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ポケット",
+    "reading": "ポケット",
+    "romaji": "poketto",
+    "meaning": "Tasche an einem Kleidungsstück",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Für eine Kleidertasche, nicht für eine Handtasche.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "鍵はポケットにあります。",
+        "romaji": "Kagi wa poketto ni arimasu.",
+        "german": "Der Schlüssel ist in der Tasche."
+      },
+      {
+        "kind": "natural",
+        "japanese": "ポケットからお金を出しました。",
+        "romaji": "Poketto kara okane o dashimashita.",
+        "german": "Ich habe Geld aus der Tasche genommen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ポスト",
+    "reading": "ポスト",
+    "romaji": "posuto",
+    "meaning": "Briefkasten",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "In diesem Sinn meist der Briefkasten zum Einwerfen von Post.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "手紙をポストに入れます。",
+        "romaji": "Tegami o posuto ni iremasu.",
+        "german": "Ich werfe den Brief in den Briefkasten."
+      },
+      {
+        "kind": "natural",
+        "japanese": "駅の前に赤いポストがあります。",
+        "romaji": "Eki no mae ni akai posuto ga arimasu.",
+        "german": "Vor dem Bahnhof steht ein roter Briefkasten."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ペット",
+    "reading": "ペット",
+    "romaji": "petto",
+    "meaning": "Haustier",
+    "type": "Nomen",
+    "category": "Natur",
+    "notes": "ペットを飼う bedeutet ein Haustier halten.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "この家ではペットを飼えます。",
+        "romaji": "Kono ie de wa petto o kaemasu.",
+        "german": "In diesem Haus darf man Haustiere halten."
+      },
+      {
+        "kind": "natural",
+        "japanese": "私のペットは小さな犬です。",
+        "romaji": "Watashi no petto wa chiisana inu desu.",
+        "german": "Mein Haustier ist ein kleiner Hund."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "八百屋",
+    "reading": "やおや",
+    "romaji": "yaoya",
+    "meaning": "Gemüseladen; Gemüsehändler",
+    "type": "Nomen",
+    "category": "Handel",
+    "notes": "Ein Laden für Gemüse und oft auch Obst.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "八百屋で野菜を買います。",
+        "romaji": "Yaoya de yasai o kaimasu.",
+        "german": "Ich kaufe Gemüse im Gemüseladen."
+      },
+      {
+        "kind": "natural",
+        "japanese": "駅の近くに八百屋があります。",
+        "romaji": "Eki no chikaku ni yaoya ga arimasu.",
+        "german": "In der Nähe des Bahnhofs gibt es einen Gemüseladen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "大きな",
+    "reading": "おおきな",
+    "romaji": "ookina",
+    "meaning": "groß",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "notes": "Steht unmittelbar vor einem Nomen; als Satzaussage verwendet man 大きいです.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "大きな犬がいます。",
+        "romaji": "Ookina inu ga imasu.",
+        "german": "Da ist ein großer Hund."
+      },
+      {
+        "kind": "natural",
+        "japanese": "大きな声で読んでください。",
+        "romaji": "Ookina koe de yonde kudasai.",
+        "german": "Lesen Sie bitte mit lauter Stimme."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "小さな",
+    "reading": "ちいさな",
+    "romaji": "chiisana",
+    "meaning": "klein",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "notes": "Steht unmittelbar vor einem Nomen; als Satzaussage verwendet man 小さいです.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "小さな店でパンを買いました。",
+        "romaji": "Chiisana mise de pan o kaimashita.",
+        "german": "Ich habe in einem kleinen Laden Brot gekauft."
+      },
+      {
+        "kind": "natural",
+        "japanese": "庭に小さな花が咲いています。",
+        "romaji": "Niwa ni chiisana hana ga saite imasu.",
+        "german": "Im Garten blühen kleine Blumen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "嫌",
+    "reading": "いや",
+    "romaji": "iya",
+    "meaning": "unangenehm; unerwünscht; nicht mögen",
+    "type": "Adjektiv",
+    "category": "Gefühle",
+    "notes": "な-Adjektiv: 嫌なこと. 嫌です kann eine deutliche Ablehnung ausdrücken.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "雨の日は嫌です。",
+        "romaji": "Ame no hi wa iya desu.",
+        "german": "Regentage mag ich nicht."
+      },
+      {
+        "kind": "natural",
+        "japanese": "嫌なことは忘れましょう。",
+        "romaji": "Iya na koto wa wasuremashou.",
+        "german": "Vergessen wir die unangenehmen Dinge."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ぬるい",
+    "reading": "ぬるい",
+    "romaji": "nurui",
+    "meaning": "lauwarm",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "notes": "Auch 温い; häufig für Getränke oder Badewasser, die nicht warm genug sind.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "このお茶はぬるいです。",
+        "romaji": "Kono ocha wa nurui desu.",
+        "german": "Dieser Tee ist lauwarm."
+      },
+      {
+        "kind": "natural",
+        "japanese": "お風呂のお湯がぬるくなりました。",
+        "romaji": "Ofuro no oyu ga nuruku narimashita.",
+        "german": "Das Badewasser ist lauwarm geworden."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "もう一度",
+    "reading": "もういちど",
+    "romaji": "mouichido",
+    "meaning": "noch einmal",
+    "type": "Adverb",
+    "category": "Kommunikation",
+    "notes": "Für die Wiederholung einer Handlung.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "もう一度言ってください。",
+        "romaji": "Mou ichido itte kudasai.",
+        "german": "Bitte sagen Sie es noch einmal."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あの映画をもう一度見たいです。",
+        "romaji": "Ano eiga o mou ichido mitai desu.",
+        "german": "Ich möchte diesen Film noch einmal sehen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "どうぞ",
+    "reading": "どうぞ",
+    "romaji": "douzo",
+    "meaning": "bitte; nur zu",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Zum Anbieten oder Einladen; bei Bitten oft mit ～てください.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "どうぞ、座ってください。",
+        "romaji": "Douzo, suwatte kudasai.",
+        "german": "Bitte nehmen Sie Platz."
+      },
+      {
+        "kind": "natural",
+        "japanese": "このお菓子をどうぞ。",
+        "romaji": "Kono okashi o douzo.",
+        "german": "Bitte bedienen Sie sich an diesen Süßigkeiten."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "どうも",
+    "reading": "どうも",
+    "romaji": "doumo",
+    "meaning": "danke; sehr; irgendwie",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Allein ein kurzer, eher lockerer Dank; verstärkt auch ありがとうございます.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "どうもありがとうございます。",
+        "romaji": "Doumo arigatou gozaimasu.",
+        "german": "Vielen Dank."
+      },
+      {
+        "kind": "natural",
+        "japanese": "いつもどうも。",
+        "romaji": "Itsumo doumo.",
+        "german": "Danke, wie immer."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ええ",
+    "reading": "ええ",
+    "romaji": "ee",
+    "meaning": "ja",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Ein zustimmendes ja im Gespräch; はい passt besser in formellen Situationen.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "ええ、そうです。",
+        "romaji": "Ee, sou desu.",
+        "german": "Ja, genau."
+      },
+      {
+        "kind": "natural",
+        "japanese": "ええ、明日は休みです。",
+        "romaji": "Ee, ashita wa yasumi desu.",
+        "german": "Ja, morgen habe ich frei."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "さあ",
+    "reading": "さあ",
+    "romaji": "saa",
+    "meaning": "also; los; nun",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Leitet eine Aufforderung ein oder drückt zögernde Unsicherheit aus.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "さあ、始めましょう。",
+        "romaji": "Saa, hajimemashou.",
+        "german": "Also, fangen wir an."
+      },
+      {
+        "kind": "natural",
+        "japanese": "さあ、よく分かりません。",
+        "romaji": "Saa, yoku wakarimasen.",
+        "german": "Hm, das weiß ich nicht so genau."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "こんな",
+    "reading": "こんな",
+    "romaji": "konna",
+    "meaning": "solch; so ein",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "notes": "Steht vor einem Nomen; verweist auf etwas Nahes oder gerade Gezeigtes.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "こんな本を探しています。",
+        "romaji": "Konna hon o sagashite imasu.",
+        "german": "Ich suche ein Buch wie dieses."
+      },
+      {
+        "kind": "natural",
+        "japanese": "こんな所に店があるんですね。",
+        "romaji": "Konna tokoro ni mise ga aru n desu ne.",
+        "german": "An so einem Ort gibt es also ein Geschäft."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "どんな",
+    "reading": "どんな",
+    "romaji": "donna",
+    "meaning": "was für ein; welcher Art",
+    "type": "Adjektiv",
+    "category": "Kommunikation",
+    "notes": "Steht vor einem Nomen und fragt nach dessen Art oder Eigenschaften.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "どんな音楽が好きですか。",
+        "romaji": "Donna ongaku ga suki desu ka.",
+        "german": "Was für Musik mögen Sie?"
+      },
+      {
+        "kind": "natural",
+        "japanese": "どんな仕事をしていますか。",
+        "romaji": "Donna shigoto o shite imasu ka.",
+        "german": "Was arbeiten Sie?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "あまり",
+    "reading": "あまり",
+    "romaji": "amari",
+    "meaning": "nicht besonders; nicht viel",
+    "type": "Adverb",
+    "category": "Art und Weise",
+    "notes": "In der Grundverwendung mit einer Verneinung: あまり～ない.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "肉はあまり食べません。",
+        "romaji": "Niku wa amari tabemasen.",
+        "german": "Ich esse nicht viel Fleisch."
+      },
+      {
+        "kind": "natural",
+        "japanese": "今日はあまり寒くないです。",
+        "romaji": "Kyou wa amari samukunai desu.",
+        "german": "Heute ist es nicht besonders kalt."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "いい",
+    "reading": "いい",
+    "romaji": "ii",
+    "meaning": "gut",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "notes": "Häufige Form von 良い; gebeugte Formen meist よくない・よかった.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日はいい天気です。",
+        "romaji": "Kyou wa ii tenki desu.",
+        "german": "Heute ist schönes Wetter."
+      },
+      {
+        "kind": "natural",
+        "japanese": "ここに座ってもいいですか。",
+        "romaji": "Koko ni suwatte mo ii desu ka.",
+        "german": "Darf ich mich hier hinsetzen?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "じゃあ",
+    "reading": "じゃあ",
+    "romaji": "jaa",
+    "meaning": "also; dann",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Gesprochene Form von では; leitet eine Folgerung oder einen Abschied ein.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "じゃあ、また明日。",
+        "romaji": "Jaa, mata ashita.",
+        "german": "Also, bis morgen."
+      },
+      {
+        "kind": "natural",
+        "japanese": "じゃあ、これをください。",
+        "romaji": "Jaa, kore o kudasai.",
+        "german": "Dann nehme ich bitte das hier."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "では",
+    "reading": "では",
+    "romaji": "deha",
+    "meaning": "also; dann; nun",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Als Gesprächsübergang etwas formeller als じゃあ.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "では、始めます。",
+        "romaji": "Dewa, hajimemasu.",
+        "german": "Dann fangen wir an."
+      },
+      {
+        "kind": "natural",
+        "japanese": "では、また来週。",
+        "romaji": "Dewa, mata raishuu.",
+        "german": "Dann bis nächste Woche."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "それから",
+    "reading": "それから",
+    "romaji": "sorekara",
+    "meaning": "danach; außerdem",
+    "type": "Adverb",
+    "category": "Zeit",
+    "notes": "Verbindet aufeinanderfolgende Handlungen oder ergänzt eine Aufzählung.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "朝ご飯を食べます。それから学校に行きます。",
+        "romaji": "Asagohan o tabemasu. Sorekara gakkou ni ikimasu.",
+        "german": "Ich frühstücke. Danach gehe ich zur Schule."
+      },
+      {
+        "kind": "natural",
+        "japanese": "パンと、それから牛乳をください。",
+        "romaji": "Pan to, sorekara gyuunyuu o kudasai.",
+        "german": "Ich hätte gern Brot und außerdem Milch."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "そして",
+    "reading": "そして",
+    "romaji": "soshite",
+    "meaning": "und; und dann",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Verbindet Sätze und fügt Informationen hinzu.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "この部屋は広いです。そして明るいです。",
+        "romaji": "Kono heya wa hiroi desu. Soshite akarui desu.",
+        "german": "Dieses Zimmer ist geräumig und hell."
+      },
+      {
+        "kind": "natural",
+        "japanese": "本を読みました。そして寝ました。",
+        "romaji": "Hon o yomimashita. Soshite nemashita.",
+        "german": "Ich habe ein Buch gelesen und bin dann schlafen gegangen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "それでは",
+    "reading": "それでは",
+    "romaji": "soredeha",
+    "meaning": "also dann; in diesem Fall",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Für einen Übergang, eine Folgerung oder einen höflichen Abschied.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "それでは、失礼します。",
+        "romaji": "Soredewa, shitsurei shimasu.",
+        "german": "Dann verabschiede ich mich."
+      },
+      {
+        "kind": "natural",
+        "japanese": "それでは、駅で会いましょう。",
+        "romaji": "Soredewa, eki de aimashou.",
+        "german": "Dann treffen wir uns am Bahnhof."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "どうして",
+    "reading": "どうして",
+    "romaji": "doushite",
+    "meaning": "warum; wie kommt es",
+    "type": "Adverb",
+    "category": "Kommunikation",
+    "notes": "Fragt nach einem Grund; どう fragt meist nach Art oder Methode.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "どうして学校を休みましたか。",
+        "romaji": "Doushite gakkou o yasumimashita ka.",
+        "german": "Warum haben Sie in der Schule gefehlt?"
+      },
+      {
+        "kind": "natural",
+        "japanese": "どうして日本語を勉強していますか。",
+        "romaji": "Doushite nihongo o benkyou shite imasu ka.",
+        "german": "Warum lernen Sie Japanisch?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "どなた",
+    "reading": "どなた",
+    "romaji": "donata",
+    "meaning": "wer (höflich)",
+    "type": "Ausdruck",
+    "category": "Menschen",
+    "notes": "Höfliche Entsprechung zu 誰.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "あの方はどなたですか。",
+        "romaji": "Ano kata wa donata desu ka.",
+        "german": "Wer ist jene Person?"
+      },
+      {
+        "kind": "natural",
+        "japanese": "どなたといらっしゃいましたか。",
+        "romaji": "Donata to irasshaimashita ka.",
+        "german": "Mit wem sind Sie gekommen?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "どちら",
+    "reading": "どちら",
+    "romaji": "dochira",
+    "meaning": "welche von zwei; wo; wer (höflich)",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Für eine Auswahl zwischen zwei Möglichkeiten oder eine höfliche Ortsfrage.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "お茶とコーヒーはどちらがいいですか。",
+        "romaji": "Ocha to koohii wa dochira ga ii desu ka.",
+        "german": "Möchten Sie lieber Tee oder Kaffee?"
+      },
+      {
+        "kind": "natural",
+        "japanese": "お国はどちらですか。",
+        "romaji": "Okuni wa dochira desu ka.",
+        "german": "Aus welchem Land kommen Sie?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "こちら",
+    "reading": "こちら",
+    "romaji": "kochira",
+    "meaning": "hier; diese Richtung; diese Person (höflich)",
+    "type": "Ausdruck",
+    "category": "Ort",
+    "notes": "Höfliches Gegenstück zu ここ bzw. この人.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "こちらへ来てください。",
+        "romaji": "Kochira e kite kudasai.",
+        "german": "Kommen Sie bitte hierher."
+      },
+      {
+        "kind": "natural",
+        "japanese": "こちらは山田さんです。",
+        "romaji": "Kochira wa Yamada-san desu.",
+        "german": "Das ist Herr oder Frau Yamada."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "そちら",
+    "reading": "そちら",
+    "romaji": "sochira",
+    "meaning": "dort bei Ihnen; jene Richtung; Sie (höflich)",
+    "type": "Ausdruck",
+    "category": "Ort",
+    "notes": "Verweist auf den Bereich der angesprochenen Person.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "そちらに座ってください。",
+        "romaji": "Sochira ni suwatte kudasai.",
+        "german": "Setzen Sie sich bitte dorthin."
+      },
+      {
+        "kind": "natural",
+        "japanese": "そちらの天気はどうですか。",
+        "romaji": "Sochira no tenki wa dou desu ka.",
+        "german": "Wie ist das Wetter bei Ihnen?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "あちら",
+    "reading": "あちら",
+    "romaji": "achira",
+    "meaning": "dort drüben; jene Richtung (höflich)",
+    "type": "Ausdruck",
+    "category": "Ort",
+    "notes": "Verweist auf etwas, das von beiden Gesprächspartnern entfernt ist.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "入口はあちらです。",
+        "romaji": "Iriguchi wa achira desu.",
+        "german": "Der Eingang ist dort drüben."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あちらの店で買いました。",
+        "romaji": "Achira no mise de kaimashita.",
+        "german": "Ich habe es in dem Geschäft dort drüben gekauft."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "こっち",
+    "reading": "こっち",
+    "romaji": "kotchi",
+    "meaning": "hier; diese Seite (umgangssprachlich)",
+    "type": "Ausdruck",
+    "category": "Ort",
+    "notes": "Lockere Form von こちら.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "こっちに来て。",
+        "romaji": "Kocchi ni kite.",
+        "german": "Komm her."
+      },
+      {
+        "kind": "natural",
+        "japanese": "こっちの道が近いです。",
+        "romaji": "Kocchi no michi ga chikai desu.",
+        "german": "Dieser Weg ist kürzer."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "そっち",
+    "reading": "そっち",
+    "romaji": "sotchi",
+    "meaning": "dort bei dir; diese Seite dort",
+    "type": "Ausdruck",
+    "category": "Ort",
+    "notes": "Lockere Form von そちら.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "そっちに行ってもいい？",
+        "romaji": "Socchi ni itte mo ii?",
+        "german": "Darf ich zu dir kommen?"
+      },
+      {
+        "kind": "natural",
+        "japanese": "そっちのかばんは誰の？",
+        "romaji": "Socchi no kaban wa dare no?",
+        "german": "Wem gehört die Tasche dort bei dir?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "あっち",
+    "reading": "あっち",
+    "romaji": "atchi",
+    "meaning": "dort drüben; jene Seite",
+    "type": "Ausdruck",
+    "category": "Ort",
+    "notes": "Lockere Form von あちら.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "駅はあっちです。",
+        "romaji": "Eki wa acchi desu.",
+        "german": "Der Bahnhof ist dort drüben."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あっちで待っていて。",
+        "romaji": "Acchi de matte ite.",
+        "german": "Warte dort drüben."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "どっち",
+    "reading": "どっち",
+    "romaji": "dotchi",
+    "meaning": "welche von zwei; welche Richtung (locker)",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Lockere Form von どちら.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "赤と青、どっちが好き？",
+        "romaji": "Aka to ao, docchi ga suki?",
+        "german": "Was magst du lieber, Rot oder Blau?"
+      },
+      {
+        "kind": "natural",
+        "japanese": "駅はどっち？",
+        "romaji": "Eki wa docchi?",
+        "german": "In welcher Richtung ist der Bahnhof?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "つまらない",
+    "reading": "つまらない",
+    "romaji": "tsumaranai",
+    "meaning": "langweilig; uninteressant",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "notes": "Auch 詰まらない; meist in Hiragana geschrieben.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "この映画はつまらないです。",
+        "romaji": "Kono eiga wa tsumaranai desu.",
+        "german": "Dieser Film ist langweilig."
+      },
+      {
+        "kind": "natural",
+        "japanese": "一人ではつまらないので、友達を呼びました。",
+        "romaji": "Hitori de wa tsumaranai node, tomodachi o yobimashita.",
+        "german": "Weil es allein langweilig ist, habe ich Freunde eingeladen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "みんな",
+    "reading": "みんな",
+    "romaji": "minna",
+    "meaning": "alle; alle zusammen",
+    "type": "Nomen",
+    "category": "Menschen",
+    "notes": "Gesprochene Form von 皆（みな）; みんなで bedeutet alle gemeinsam.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "みんなで写真を撮りましょう。",
+        "romaji": "Minna de shashin o torimashou.",
+        "german": "Machen wir alle zusammen ein Foto."
+      },
+      {
+        "kind": "natural",
+        "japanese": "みんな、もう来ましたか。",
+        "romaji": "Minna, mou kimashita ka.",
+        "german": "Sind schon alle da?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "皆",
+    "reading": "みな",
+    "romaji": "mina",
+    "meaning": "alle",
+    "type": "Nomen",
+    "category": "Menschen",
+    "notes": "Etwas formeller als みんな; auch in 皆さん（みなさん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "学生は皆、教室にいます。",
+        "romaji": "Gakusei wa mina, kyoushitsu ni imasu.",
+        "german": "Die Studierenden sind alle im Klassenzimmer."
+      },
+      {
+        "kind": "natural",
+        "japanese": "皆で相談しましょう。",
+        "romaji": "Mina de soudan shimashou.",
+        "german": "Besprechen wir es gemeinsam."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "また",
+    "reading": "また",
+    "romaji": "mata",
+    "meaning": "wieder; noch einmal; außerdem",
+    "type": "Adverb",
+    "category": "Zeit",
+    "notes": "Für Wiederholung oder ein weiteres Treffen; nicht mit 股（Schritt）verwechseln.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "また明日会いましょう。",
+        "romaji": "Mata ashita aimashou.",
+        "german": "Treffen wir uns morgen wieder."
+      },
+      {
+        "kind": "natural",
+        "japanese": "また雨が降ってきました。",
+        "romaji": "Mata ame ga futte kimashita.",
+        "german": "Es hat wieder angefangen zu regnen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "そう",
+    "reading": "そう",
+    "romaji": "sou",
+    "meaning": "so; auf diese Weise",
+    "type": "Adverb",
+    "category": "Art und Weise",
+    "notes": "Verweist auf das zuvor Gesagte; そうです bedeutet das stimmt.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "そうです。私は学生です。",
+        "romaji": "Sou desu. Watashi wa gakusei desu.",
+        "german": "Das stimmt. Ich bin Student."
+      },
+      {
+        "kind": "natural",
+        "japanese": "私もそう思います。",
+        "romaji": "Watashi mo sou omoimasu.",
+        "german": "Das denke ich auch."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "方",
+    "reading": "かた",
+    "romaji": "kata",
+    "meaning": "Person (höflich)",
+    "type": "Nomen",
+    "category": "Menschen",
+    "notes": "Höfliche Entsprechung zu 人. Die Lesung ほう hat andere Bedeutungen.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "あの方は先生です。",
+        "romaji": "Ano kata wa sensei desu.",
+        "german": "Jene Person ist eine Lehrperson."
+      },
+      {
+        "kind": "natural",
+        "japanese": "どの方が山田さんですか。",
+        "romaji": "Dono kata ga Yamada-san desu ka.",
+        "german": "Welche Person ist Herr oder Frau Yamada?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "方",
+    "reading": "ほう",
+    "romaji": "hou",
+    "meaning": "Seite; Richtung; die eine Alternative",
+    "type": "Nomen",
+    "category": "Vergleich",
+    "notes": "Im Vergleich ～の方が; nicht die Personenlesung かた.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "こちらの方が安いです。",
+        "romaji": "Kochira no hou ga yasui desu.",
+        "german": "Das hier ist günstiger."
+      },
+      {
+        "kind": "natural",
+        "japanese": "駅の方へ歩きます。",
+        "romaji": "Eki no hou e arukimasu.",
+        "german": "Ich gehe in Richtung Bahnhof."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "側",
+    "reading": "そば",
+    "romaji": "soba",
+    "meaning": "Nähe; neben",
+    "type": "Nomen",
+    "category": "Ort",
+    "notes": "Meist そば geschrieben; von そば（Buchweizennudeln）zu unterscheiden.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "駅の側に住んでいます。",
+        "romaji": "Eki no soba ni sunde imasu.",
+        "german": "Ich wohne in der Nähe des Bahnhofs."
+      },
+      {
+        "kind": "natural",
+        "japanese": "私の側に座ってください。",
+        "romaji": "Watashi no soba ni suwatte kudasai.",
+        "german": "Setzen Sie sich bitte neben mich."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "他",
+    "reading": "ほか",
+    "romaji": "hoka",
+    "meaning": "andere; sonstige; sonst",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "notes": "Auch 外 oder ほか; für weitere Dinge oder Möglichkeiten.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "他の本を見せてください。",
+        "romaji": "Hoka no hon o misete kudasai.",
+        "german": "Zeigen Sie mir bitte ein anderes Buch."
+      },
+      {
+        "kind": "natural",
+        "japanese": "他に質問はありますか。",
+        "romaji": "Hoka ni shitsumon wa arimasu ka.",
+        "german": "Gibt es sonst noch Fragen?"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "被る",
+    "reading": "かぶる",
+    "romaji": "kaburu",
+    "meaning": "aufsetzen; auf dem Kopf tragen",
+    "type": "Verb",
+    "category": "Alltag",
+    "notes": "Godan-Verb; die Lesung こうむる bedeutet etwas erleiden.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "帽子を被ってください。",
+        "romaji": "Boushi o kabutte kudasai.",
+        "german": "Setzen Sie bitte einen Hut auf."
+      },
+      {
+        "kind": "natural",
+        "japanese": "子供は赤い帽子を被っています。",
+        "romaji": "Kodomo wa akai boushi o kabutte imasu.",
+        "german": "Das Kind trägt einen roten Hut."
+      }
+    ],
+    "verbGroup": "godan",
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "かぶる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "かぶらされる"
+        ]
+      }
+    }
+  },
+  {
+    "level": "N5",
+    "word": "やる",
+    "reading": "やる",
+    "romaji": "yaru",
+    "meaning": "machen; tun (locker)",
+    "type": "Verb",
+    "category": "Handlung",
+    "notes": "Umgangssprachlicher als する; gegenüber Vorgesetzten kann es zu direkt wirken.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "宿題をやってから遊びます。",
+        "romaji": "Shukudai o yatte kara asobimasu.",
+        "german": "Ich spiele, nachdem ich die Hausaufgaben gemacht habe."
+      },
+      {
+        "kind": "natural",
+        "japanese": "今日は何をやりますか。",
+        "romaji": "Kyou wa nani o yarimasu ka.",
+        "german": "Was machen wir heute?"
+      }
+    ],
+    "verbGroup": "godan",
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "やる",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "causPas": [
+          "やらされる"
+        ]
+      }
+    }
+  },
+  {
+    "level": "N5",
+    "word": "火",
+    "reading": "ひ",
+    "romaji": "hi",
+    "meaning": "Feuer",
+    "type": "Nomen",
+    "category": "Natur",
+    "notes": "Nicht mit 日（ひ、Tag）verwechseln.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "火を消してください。",
+        "romaji": "Hi o keshite kudasai.",
+        "german": "Löschen Sie bitte das Feuer."
+      },
+      {
+        "kind": "natural",
+        "japanese": "火の近くに行かないでください。",
+        "romaji": "Hi no chikaku ni ikanaide kudasai.",
+        "german": "Gehen Sie bitte nicht in die Nähe des Feuers."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "日",
+    "reading": "ひ",
+    "romaji": "hi",
+    "meaning": "Tag; Sonne",
+    "type": "Nomen",
+    "category": "Zeit",
+    "notes": "Eigenständige Lesung ひ; in Datumsangaben und Zusammensetzungen gelten andere Lesungen.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日はいい日でした。",
+        "romaji": "Kyou wa ii hi deshita.",
+        "german": "Heute war ein guter Tag."
+      },
+      {
+        "kind": "natural",
+        "japanese": "日が長くなりました。",
+        "romaji": "Hi ga nagaku narimashita.",
+        "german": "Die Tage sind länger geworden."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "一人",
+    "reading": "ひとり",
+    "romaji": "hitori",
+    "meaning": "eine Person; allein",
+    "type": "Nomen",
+    "category": "Menschen",
+    "notes": "Unregelmäßige Personenanzahl; 一人で bedeutet allein.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "一人で日本に来ました。",
+        "romaji": "Hitori de Nihon ni kimashita.",
+        "german": "Ich bin allein nach Japan gekommen."
+      },
+      {
+        "kind": "natural",
+        "japanese": "教室に学生が一人います。",
+        "romaji": "Kyoushitsu ni gakusei ga hitori imasu.",
+        "german": "Im Klassenzimmer ist ein Student."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "二人",
+    "reading": "ふたり",
+    "romaji": "futari",
+    "meaning": "zwei Personen",
+    "type": "Nomen",
+    "category": "Menschen",
+    "notes": "Unregelmäßige Personenanzahl; 二人で bedeutet zu zweit.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "友達と二人で旅行します。",
+        "romaji": "Tomodachi to futari de ryokou shimasu.",
+        "german": "Ich verreise mit einem Freund zu zweit."
+      },
+      {
+        "kind": "natural",
+        "japanese": "部屋に子供が二人います。",
+        "romaji": "Heya ni kodomo ga futari imasu.",
+        "german": "Im Zimmer sind zwei Kinder."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "二十歳",
+    "reading": "はたち",
+    "romaji": "hatachi",
+    "meaning": "zwanzig Jahre alt",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Die besondere Alterslesung はたち; 二十 allein heißt にじゅう.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "私は今年、二十歳になります。",
+        "romaji": "Watashi wa kotoshi, hatachi ni narimasu.",
+        "german": "Ich werde dieses Jahr zwanzig."
+      },
+      {
+        "kind": "natural",
+        "japanese": "兄は二十歳です。",
+        "romaji": "Ani wa hatachi desu.",
+        "german": "Mein älterer Bruder ist zwanzig Jahre alt."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "半",
+    "reading": "はん",
+    "romaji": "han",
+    "meaning": "halb; Hälfte",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Bei Uhrzeiten bedeutet 七時半 halb acht, also 7:30.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "毎朝、七時半に起きます。",
+        "romaji": "Maiasa, shichiji han ni okimasu.",
+        "german": "Ich stehe jeden Morgen um halb acht auf."
+      },
+      {
+        "kind": "natural",
+        "japanese": "授業は一時間半です。",
+        "romaji": "Jugyou wa ichijikan han desu.",
+        "german": "Der Unterricht dauert anderthalb Stunden."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "一日",
+    "reading": "いちにち",
+    "romaji": "ichinichi",
+    "meaning": "ein Tag; den ganzen Tag",
+    "type": "Nomen",
+    "category": "Zeit",
+    "notes": "Dauerlesung いちにち; der erste Tag des Monats heißt ついたち.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "一日中、家にいました。",
+        "romaji": "Ichinichijuu, ie ni imashita.",
+        "german": "Ich war den ganzen Tag zu Hause."
+      },
+      {
+        "kind": "natural",
+        "japanese": "この薬は一日に三回飲みます。",
+        "romaji": "Kono kusuri wa ichinichi ni sankai nomimasu.",
+        "german": "Diese Medizin nimmt man dreimal am Tag."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "一日",
+    "reading": "ついたち",
+    "romaji": "tsuitachi",
+    "meaning": "der erste Tag des Monats",
+    "type": "Nomen",
+    "category": "Zeit",
+    "notes": "Kalenderlesung; eine Dauer von einem Tag heißt いちにち.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月一日です。",
+        "romaji": "Kyou wa gogatsu tsuitachi desu.",
+        "german": "Heute ist der erste Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "店は一日に休みます。",
+        "romaji": "Mise wa tsuitachi ni yasumimasu.",
+        "german": "Das Geschäft ist am Ersten geschlossen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "パーティー",
+    "reading": "パーティー",
+    "romaji": "paatii",
+    "meaning": "Party; Feier",
+    "type": "Nomen",
+    "category": "Freizeit",
+    "notes": "Auch パーティ geschrieben.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "土曜日にパーティーをします。",
+        "romaji": "Doyoubi ni paatii o shimasu.",
+        "german": "Am Samstag feiern wir eine Party."
+      },
+      {
+        "kind": "natural",
+        "japanese": "パーティーに友達を呼びました。",
+        "romaji": "Paatii ni tomodachi o yobimashita.",
+        "german": "Ich habe Freunde zur Party eingeladen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ページ",
+    "reading": "ページ",
+    "romaji": "peeji",
+    "meaning": "Seite eines Buches",
+    "type": "Nomen",
+    "category": "Bildung",
+    "notes": "Auch als Zähleinheit, etwa 十ページ（zehn Seiten）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "十ページを開いてください。",
+        "romaji": "Juppeeji o hiraite kudasai.",
+        "german": "Schlagen Sie bitte Seite zehn auf."
+      },
+      {
+        "kind": "natural",
+        "japanese": "毎日、五ページ読みます。",
+        "romaji": "Mainichi, gopeeji yomimasu.",
+        "german": "Ich lese jeden Tag fünf Seiten."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ボタン",
+    "reading": "ボタン",
+    "romaji": "botan",
+    "meaning": "Knopf; Taste",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Für Kleidungsknöpfe und Tasten an Geräten.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "このボタンを押してください。",
+        "romaji": "Kono botan o oshite kudasai.",
+        "german": "Drücken Sie bitte diese Taste."
+      },
+      {
+        "kind": "natural",
+        "japanese": "シャツのボタンが取れました。",
+        "romaji": "Shatsu no botan ga toremashita.",
+        "german": "Ein Knopf ist vom Hemd abgegangen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "クラス",
+    "reading": "クラス",
+    "romaji": "kurasu",
+    "meaning": "Klasse; Kurs",
+    "type": "Nomen",
+    "category": "Bildung",
+    "notes": "Nicht mit 暮らす（くらす、leben）verwechseln.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "私のクラスには二十人います。",
+        "romaji": "Watashi no kurasu ni wa nijuunin imasu.",
+        "german": "In meiner Klasse sind zwanzig Personen."
+      },
+      {
+        "kind": "natural",
+        "japanese": "日本語のクラスは月曜日です。",
+        "romaji": "Nihongo no kurasu wa getsuyoubi desu.",
+        "german": "Der Japanischkurs ist am Montag."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "すぐに",
+    "reading": "すぐに",
+    "romaji": "suguni",
+    "meaning": "sofort; gleich",
+    "type": "Adverb",
+    "category": "Zeit",
+    "notes": "Auch 直ぐに; に kann oft entfallen.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "すぐに帰ります。",
+        "romaji": "Sugu ni kaerimasu.",
+        "german": "Ich komme gleich zurück."
+      },
+      {
+        "kind": "natural",
+        "japanese": "分からない時はすぐに聞いてください。",
+        "romaji": "Wakaranai toki wa sugu ni kiite kudasai.",
+        "german": "Fragen Sie bitte sofort, wenn Sie etwas nicht verstehen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "など",
+    "reading": "など",
+    "romaji": "nado",
+    "meaning": "und so weiter; zum Beispiel",
+    "type": "Partikel",
+    "category": "Kommunikation",
+    "notes": "Kennzeichnet eine nicht vollständige Aufzählung.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "りんごやバナナなどを買いました。",
+        "romaji": "Ringo ya banana nado o kaimashita.",
+        "german": "Ich habe Äpfel, Bananen und anderes gekauft."
+      },
+      {
+        "kind": "natural",
+        "japanese": "休みの日は本などを読みます。",
+        "romaji": "Yasumi no hi wa hon nado o yomimasu.",
+        "german": "An freien Tagen lese ich zum Beispiel Bücher."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "だけ",
+    "reading": "だけ",
+    "romaji": "dake",
+    "meaning": "nur; lediglich",
+    "type": "Partikel",
+    "category": "Abstrakt",
+    "notes": "Begrenzt eine Menge oder Auswahl.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "水だけ飲みました。",
+        "romaji": "Mizu dake nomimashita.",
+        "german": "Ich habe nur Wasser getrunken."
+      },
+      {
+        "kind": "natural",
+        "japanese": "五分だけ待ってください。",
+        "romaji": "Gofun dake matte kudasai.",
+        "german": "Warten Sie bitte nur fünf Minuten."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "より",
+    "reading": "より",
+    "romaji": "yori",
+    "meaning": "als; im Vergleich zu",
+    "type": "Partikel",
+    "category": "Vergleich",
+    "notes": "Vergleichsmuster: AはBより～です.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は昨日より暖かいです。",
+        "romaji": "Kyou wa kinou yori atatakai desu.",
+        "german": "Heute ist es wärmer als gestern."
+      },
+      {
+        "kind": "natural",
+        "japanese": "電車はバスより速いです。",
+        "romaji": "Densha wa basu yori hayai desu.",
+        "german": "Der Zug ist schneller als der Bus."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "さん",
+    "reading": "さん",
+    "romaji": "san",
+    "meaning": "Herr; Frau; höfliche Namensanrede",
+    "type": "Ausdruck",
+    "category": "Menschen",
+    "notes": "Nach einem Namen; normalerweise nicht nach dem eigenen Namen.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "田中さんは先生です。",
+        "romaji": "Tanaka-san wa sensei desu.",
+        "german": "Herr oder Frau Tanaka ist Lehrperson."
+      },
+      {
+        "kind": "natural",
+        "japanese": "山田さんに電話しました。",
+        "romaji": "Yamada-san ni denwa shimashita.",
+        "german": "Ich habe Herrn oder Frau Yamada angerufen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "お巡りさん",
+    "reading": "おまわりさん",
+    "romaji": "omawarisan",
+    "meaning": "Polizist; Polizistin (alltagssprachlich)",
+    "type": "Nomen",
+    "category": "Beruf",
+    "notes": "Freundliche Alltagsbezeichnung für Polizeibeamte.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "お巡りさんに道を聞きました。",
+        "romaji": "Omawarisan ni michi o kikimashita.",
+        "german": "Ich habe eine Polizeibeamtin nach dem Weg gefragt."
+      },
+      {
+        "kind": "natural",
+        "japanese": "お巡りさんは交番にいます。",
+        "romaji": "Omawarisan wa kouban ni imasu.",
+        "german": "Der Polizist ist in der Polizeistation."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "どういたしまして",
+    "reading": "どういたしまして",
+    "romaji": "douitashimashite",
+    "meaning": "bitte sehr; gern geschehen",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Antwort auf einen Dank.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "「ありがとう。」「どういたしまして。」",
+        "romaji": "Arigatou. Dou itashimashite.",
+        "german": "„Danke.“ – „Gern geschehen.“"
+      },
+      {
+        "kind": "natural",
+        "japanese": "「手伝ってくれてありがとう。」「どういたしまして。」",
+        "romaji": "Tetsudatte kurete arigatou. Dou itashimashite.",
+        "german": "„Danke für deine Hilfe.“ – „Gern geschehen.“"
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "失礼します",
+    "reading": "しつれいします",
+    "romaji": "shitsureishimasu",
+    "meaning": "entschuldigen Sie; ich verabschiede mich",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Etwa beim Betreten oder Verlassen eines Büros oder beim Beenden eines Telefonats.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "失礼します。入ってもいいですか。",
+        "romaji": "Shitsurei shimasu. Haitte mo ii desu ka.",
+        "german": "Entschuldigen Sie. Darf ich hereinkommen?"
+      },
+      {
+        "kind": "natural",
+        "japanese": "それでは、失礼します。",
+        "romaji": "Soredewa, shitsurei shimasu.",
+        "german": "Dann verabschiede ich mich."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "おやすみなさい",
+    "reading": "おやすみなさい",
+    "romaji": "oyasuminasai",
+    "meaning": "gute Nacht",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Gruß vor dem Schlafengehen; auch お休みなさい.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "もう寝ます。おやすみなさい。",
+        "romaji": "Mou nemasu. Oyasuminasai.",
+        "german": "Ich gehe jetzt schlafen. Gute Nacht."
+      },
+      {
+        "kind": "natural",
+        "japanese": "おやすみなさい。また明日。",
+        "romaji": "Oyasuminasai. Mata ashita.",
+        "german": "Gute Nacht. Bis morgen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "風呂",
+    "reading": "ふろ",
+    "romaji": "furo",
+    "meaning": "Bad; Badewanne",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Im Alltag meist お風呂.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "毎晩、お風呂に入ります。",
+        "romaji": "Maiban, ofuro ni hairimasu.",
+        "german": "Ich nehme jeden Abend ein Bad."
+      },
+      {
+        "kind": "natural",
+        "japanese": "この部屋には風呂がありません。",
+        "romaji": "Kono heya ni wa furo ga arimasen.",
+        "german": "Dieses Zimmer hat kein Bad."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "縦",
+    "reading": "たて",
+    "romaji": "tate",
+    "meaning": "Längsrichtung; vertikale Richtung",
+    "type": "Nomen",
+    "category": "Ort",
+    "notes": "Gegensatz 横; 縦に senkrecht oder längs.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "紙を縦に半分に折ってください。",
+        "romaji": "Kami o tate ni hanbun ni otte kudasai.",
+        "german": "Falten Sie das Papier längs in der Mitte."
+      },
+      {
+        "kind": "natural",
+        "japanese": "名前を縦に書きました。",
+        "romaji": "Namae o tate ni kakimashita.",
+        "german": "Ich habe den Namen senkrecht geschrieben."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "メートル",
+    "reading": "メートル",
+    "romaji": "meetoru",
+    "meaning": "Meter",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Die Längeneinheit; im Alltag in Katakana.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "この部屋は幅が三メートルあります。",
+        "romaji": "Kono heya wa haba ga san meetoru arimasu.",
+        "german": "Dieses Zimmer ist drei Meter breit."
+      },
+      {
+        "kind": "natural",
+        "japanese": "百メートル先に駅があります。",
+        "romaji": "Hyaku meetoru saki ni eki ga arimasu.",
+        "german": "Hundert Meter weiter liegt ein Bahnhof."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "キロメートル",
+    "reading": "キロメートル",
+    "romaji": "kiromeetoru",
+    "meaning": "Kilometer",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Oft zu キロ verkürzt.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "学校まで二キロメートルあります。",
+        "romaji": "Gakkou made ni kiromeetoru arimasu.",
+        "german": "Bis zur Schule sind es zwei Kilometer."
+      },
+      {
+        "kind": "natural",
+        "japanese": "今日は五キロメートル歩きました。",
+        "romaji": "Kyou wa go kiromeetoru arukimashita.",
+        "german": "Heute bin ich fünf Kilometer gegangen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "キログラム",
+    "reading": "キログラム",
+    "romaji": "kiroguramu",
+    "meaning": "Kilogramm",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Oft zu キロ verkürzt; Kontext von Kilometern unterscheiden.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "この荷物は十キログラムです。",
+        "romaji": "Kono nimotsu wa juu kiroguramu desu.",
+        "german": "Dieses Gepäck wiegt zehn Kilogramm."
+      },
+      {
+        "kind": "natural",
+        "japanese": "米を二キログラム買いました。",
+        "romaji": "Kome o ni kiroguramu kaimashita.",
+        "german": "Ich habe zwei Kilogramm Reis gekauft."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "グラム",
+    "reading": "グラム",
+    "romaji": "guramu",
+    "meaning": "Gramm",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Die Gewichtseinheit.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "肉を二百グラムください。",
+        "romaji": "Niku o nihyaku guramu kudasai.",
+        "german": "Ich hätte gern zweihundert Gramm Fleisch."
+      },
+      {
+        "kind": "natural",
+        "japanese": "砂糖を五十グラム入れます。",
+        "romaji": "Satou o gojuu guramu iremasu.",
+        "german": "Ich gebe fünfzig Gramm Zucker hinzu."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ワイシャツ",
+    "reading": "ワイシャツ",
+    "romaji": "waishatsu",
+    "meaning": "Oberhemd; Businesshemd",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Auch Ｙシャツ; nicht zwingend weiß.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "仕事にはワイシャツを着て行きます。",
+        "romaji": "Shigoto ni wa waishatsu o kite ikimasu.",
+        "german": "Zur Arbeit ziehe ich ein Hemd an."
+      },
+      {
+        "kind": "natural",
+        "japanese": "ワイシャツにアイロンを掛けました。",
+        "romaji": "Waishatsu ni airon o kakemashita.",
+        "german": "Ich habe das Hemd gebügelt."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "テープ",
+    "reading": "テープ",
+    "romaji": "teepu",
+    "meaning": "Klebeband; Band",
+    "type": "Nomen",
+    "category": "Alltag",
+    "notes": "Je nach Kontext Klebe- oder Aufnahmeband.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "テープで箱を閉じました。",
+        "romaji": "Teepu de hako o tojimashita.",
+        "german": "Ich habe die Kiste mit Klebeband verschlossen."
+      },
+      {
+        "kind": "natural",
+        "japanese": "このテープはよく付きます。",
+        "romaji": "Kono teepu wa yoku tsukimasu.",
+        "german": "Dieses Klebeband hält gut."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "こちらこそ",
+    "reading": "こちらこそ",
+    "romaji": "kochirakoso",
+    "meaning": "ganz meinerseits; ich habe zu danken",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "notes": "Erwidert einen Dank, eine Entschuldigung oder einen Gruß.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "「よろしくお願いします。」「こちらこそ。」",
+        "romaji": "Yoroshiku onegai shimasu. Kochira koso.",
+        "german": "„Auf gute Zusammenarbeit.“ – „Ganz meinerseits.“"
+      },
+      {
+        "kind": "natural",
+        "japanese": "こちらこそ、ありがとうございました。",
+        "romaji": "Kochira koso, arigatou gozaimashita.",
+        "german": "Ich habe Ihnen zu danken."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "一",
+    "reading": "いち",
+    "romaji": "ichi",
+    "meaning": "1",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは一です。",
+        "romaji": "Kotae wa ichi desu.",
+        "german": "Die Antwort ist 1."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと一円足りません。",
+        "romaji": "Ato ichi en tarimasen.",
+        "german": "Mir fehlen noch 1 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "二",
+    "reading": "に",
+    "romaji": "ni",
+    "meaning": "2",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは二です。",
+        "romaji": "Kotae wa ni desu.",
+        "german": "Die Antwort ist 2."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと二円足りません。",
+        "romaji": "Ato ni en tarimasen.",
+        "german": "Mir fehlen noch 2 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "三",
+    "reading": "さん",
+    "romaji": "san",
+    "meaning": "3",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは三です。",
+        "romaji": "Kotae wa san desu.",
+        "german": "Die Antwort ist 3."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと三円足りません。",
+        "romaji": "Ato san en tarimasen.",
+        "german": "Mir fehlen noch 3 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "四",
+    "reading": "よん",
+    "romaji": "yon",
+    "meaning": "4",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは四です。",
+        "romaji": "Kotae wa yon desu.",
+        "german": "Die Antwort ist 4."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと四円足りません。",
+        "romaji": "Ato yon en tarimasen.",
+        "german": "Mir fehlen noch 4 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "五",
+    "reading": "ご",
+    "romaji": "go",
+    "meaning": "5",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは五です。",
+        "romaji": "Kotae wa go desu.",
+        "german": "Die Antwort ist 5."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと五円足りません。",
+        "romaji": "Ato go en tarimasen.",
+        "german": "Mir fehlen noch 5 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "六",
+    "reading": "ろく",
+    "romaji": "roku",
+    "meaning": "6",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは六です。",
+        "romaji": "Kotae wa roku desu.",
+        "german": "Die Antwort ist 6."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと六円足りません。",
+        "romaji": "Ato roku en tarimasen.",
+        "german": "Mir fehlen noch 6 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "七",
+    "reading": "なな",
+    "romaji": "nana",
+    "meaning": "7",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは七です。",
+        "romaji": "Kotae wa nana desu.",
+        "german": "Die Antwort ist 7."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと七円足りません。",
+        "romaji": "Ato nana en tarimasen.",
+        "german": "Mir fehlen noch 7 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "八",
+    "reading": "はち",
+    "romaji": "hachi",
+    "meaning": "8",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは八です。",
+        "romaji": "Kotae wa hachi desu.",
+        "german": "Die Antwort ist 8."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと八円足りません。",
+        "romaji": "Ato hachi en tarimasen.",
+        "german": "Mir fehlen noch 8 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "九",
+    "reading": "きゅう",
+    "romaji": "kyuu",
+    "meaning": "9",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは九です。",
+        "romaji": "Kotae wa kyuu desu.",
+        "german": "Die Antwort ist 9."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと九円足りません。",
+        "romaji": "Ato kyuu en tarimasen.",
+        "german": "Mir fehlen noch 9 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "十",
+    "reading": "じゅう",
+    "romaji": "juu",
+    "meaning": "10",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは十です。",
+        "romaji": "Kotae wa juu desu.",
+        "german": "Die Antwort ist 10."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと十円足りません。",
+        "romaji": "Ato juu en tarimasen.",
+        "german": "Mir fehlen noch 10 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "百",
+    "reading": "ひゃく",
+    "romaji": "hyaku",
+    "meaning": "100",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは百です。",
+        "romaji": "Kotae wa hyaku desu.",
+        "german": "Die Antwort ist 100."
+      },
+      {
+        "kind": "natural",
+        "japanese": "あと百円足りません。",
+        "romaji": "Ato hyaku en tarimasen.",
+        "german": "Mir fehlen noch 100 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "千",
+    "reading": "せん",
+    "romaji": "sen",
+    "meaning": "1000",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは千です。",
+        "romaji": "Kotae wa sen desu.",
+        "german": "Die Antwort ist 1000."
+      },
+      {
+        "kind": "natural",
+        "japanese": "この本は千円です。",
+        "romaji": "Kono hon wa sen en desu.",
+        "german": "Dieses Buch kostet 1.000 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "万",
+    "reading": "まん",
+    "romaji": "man",
+    "meaning": "10000",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Zahlen verändern mit Zählwörtern teilweise ihre Lesung. 四 auch し, 七 auch しち, 九 auch く; 10.000 heißt 一万（いちまん）.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "答えは一万です。",
+        "romaji": "Kotae wa ichiman desu.",
+        "german": "Die Antwort ist 10000."
+      },
+      {
+        "kind": "natural",
+        "japanese": "この時計は一万円です。",
+        "romaji": "Kono tokei wa ichiman en desu.",
+        "german": "Diese Uhr kostet 10.000 Yen."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "四",
+    "reading": "し",
+    "romaji": "shi",
+    "meaning": "vier (Lesung し)",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese Lesung kommt besonders in festen Zeitangaben vor; die Zahl hat auch eine andere gebräuchliche Lesung.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "四月に日本へ行きます。",
+        "romaji": "Shigatsu ni Nihon e ikimasu.",
+        "german": "Im April fahre ich nach Japan."
+      },
+      {
+        "kind": "natural",
+        "japanese": "四月は忙しいです。",
+        "romaji": "Shigatsu wa isogashii desu.",
+        "german": "Im April habe ich viel zu tun."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "七",
+    "reading": "しち",
+    "romaji": "shichi",
+    "meaning": "sieben (Lesung しち)",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese Lesung kommt besonders in festen Zeitangaben vor; die Zahl hat auch eine andere gebräuchliche Lesung.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "七時に起きます。",
+        "romaji": "Shichiji ni okimasu.",
+        "german": "Ich stehe um sieben auf."
+      },
+      {
+        "kind": "natural",
+        "japanese": "七月は暑いです。",
+        "romaji": "Shichigatsu wa atsui desu.",
+        "german": "Im Juli ist es heiß."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "九",
+    "reading": "く",
+    "romaji": "ku",
+    "meaning": "neun (Lesung く)",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese Lesung kommt besonders in festen Zeitangaben vor; die Zahl hat auch eine andere gebräuchliche Lesung.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "九時に寝ます。",
+        "romaji": "Kuji ni nemasu.",
+        "german": "Ich gehe um neun schlafen."
+      },
+      {
+        "kind": "natural",
+        "japanese": "九月に学校が始まります。",
+        "romaji": "Kugatsu ni gakkou ga hajimarimasu.",
+        "german": "Im September beginnt die Schule."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "二日",
+    "reading": "ふつか",
+    "romaji": "futsuka",
+    "meaning": "2. Tag des Monats; 2 Tage",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese unregelmäßige Lesung gilt sowohl für das Datum als auch für die Dauer.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月二日です。",
+        "romaji": "Kyou wa gogatsu futsuka desu.",
+        "german": "Heute ist der 2. Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "旅行は二日かかります。",
+        "romaji": "Ryokou wa futsuka kakarimasu.",
+        "german": "Die Reise dauert 2 Tage."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "三日",
+    "reading": "みっか",
+    "romaji": "mikka",
+    "meaning": "3. Tag des Monats; 3 Tage",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese unregelmäßige Lesung gilt sowohl für das Datum als auch für die Dauer.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月三日です。",
+        "romaji": "Kyou wa gogatsu mikka desu.",
+        "german": "Heute ist der 3. Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "旅行は三日かかります。",
+        "romaji": "Ryokou wa mikka kakarimasu.",
+        "german": "Die Reise dauert 3 Tage."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "四日",
+    "reading": "よっか",
+    "romaji": "yokka",
+    "meaning": "4. Tag des Monats; 4 Tage",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese unregelmäßige Lesung gilt sowohl für das Datum als auch für die Dauer.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月四日です。",
+        "romaji": "Kyou wa gogatsu yokka desu.",
+        "german": "Heute ist der 4. Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "旅行は四日かかります。",
+        "romaji": "Ryokou wa yokka kakarimasu.",
+        "german": "Die Reise dauert 4 Tage."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "五日",
+    "reading": "いつか",
+    "romaji": "itsuka",
+    "meaning": "5. Tag des Monats; 5 Tage",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese unregelmäßige Lesung gilt sowohl für das Datum als auch für die Dauer.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月五日です。",
+        "romaji": "Kyou wa gogatsu itsuka desu.",
+        "german": "Heute ist der 5. Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "旅行は五日かかります。",
+        "romaji": "Ryokou wa itsuka kakarimasu.",
+        "german": "Die Reise dauert 5 Tage."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "六日",
+    "reading": "むいか",
+    "romaji": "muika",
+    "meaning": "6. Tag des Monats; 6 Tage",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese unregelmäßige Lesung gilt sowohl für das Datum als auch für die Dauer.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月六日です。",
+        "romaji": "Kyou wa gogatsu muika desu.",
+        "german": "Heute ist der 6. Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "旅行は六日かかります。",
+        "romaji": "Ryokou wa muika kakarimasu.",
+        "german": "Die Reise dauert 6 Tage."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "七日",
+    "reading": "なのか",
+    "romaji": "nanoka",
+    "meaning": "7. Tag des Monats; 7 Tage",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese unregelmäßige Lesung gilt sowohl für das Datum als auch für die Dauer.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月七日です。",
+        "romaji": "Kyou wa gogatsu nanoka desu.",
+        "german": "Heute ist der 7. Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "旅行は七日かかります。",
+        "romaji": "Ryokou wa nanoka kakarimasu.",
+        "german": "Die Reise dauert 7 Tage."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "八日",
+    "reading": "ようか",
+    "romaji": "youka",
+    "meaning": "8. Tag des Monats; 8 Tage",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese unregelmäßige Lesung gilt sowohl für das Datum als auch für die Dauer.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月八日です。",
+        "romaji": "Kyou wa gogatsu youka desu.",
+        "german": "Heute ist der 8. Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "旅行は八日かかります。",
+        "romaji": "Ryokou wa youka kakarimasu.",
+        "german": "Die Reise dauert 8 Tage."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "九日",
+    "reading": "ここのか",
+    "romaji": "kokonoka",
+    "meaning": "9. Tag des Monats; 9 Tage",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese unregelmäßige Lesung gilt sowohl für das Datum als auch für die Dauer.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月九日です。",
+        "romaji": "Kyou wa gogatsu kokonoka desu.",
+        "german": "Heute ist der 9. Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "旅行は九日かかります。",
+        "romaji": "Ryokou wa kokonoka kakarimasu.",
+        "german": "Die Reise dauert 9 Tage."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "十日",
+    "reading": "とおか",
+    "romaji": "tooka",
+    "meaning": "10. Tag des Monats; 10 Tage",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese unregelmäßige Lesung gilt sowohl für das Datum als auch für die Dauer.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月十日です。",
+        "romaji": "Kyou wa gogatsu tooka desu.",
+        "german": "Heute ist der 10. Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "旅行は十日かかります。",
+        "romaji": "Ryokou wa tooka kakarimasu.",
+        "german": "Die Reise dauert 10 Tage."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "二十日",
+    "reading": "はつか",
+    "romaji": "hatsuka",
+    "meaning": "20. Tag des Monats; 20 Tage",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Diese unregelmäßige Lesung gilt sowohl für das Datum als auch für die Dauer.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は五月二十日です。",
+        "romaji": "Kyou wa gogatsu hatsuka desu.",
+        "german": "Heute ist der 20. Mai."
+      },
+      {
+        "kind": "natural",
+        "japanese": "旅行は二十日かかります。",
+        "romaji": "Ryokou wa hatsuka kakarimasu.",
+        "german": "Die Reise dauert 20 Tage."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "四つ",
+    "reading": "よっつ",
+    "romaji": "yottsu",
+    "meaning": "4 Stück",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Allgemeines Zählen mit ～つ; nicht für Personen verwenden.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "りんごを四つください。",
+        "romaji": "Ringo o yottsu kudasai.",
+        "german": "Ich hätte gern 4 Äpfel."
+      },
+      {
+        "kind": "natural",
+        "japanese": "机の上に箱が四つあります。",
+        "romaji": "Tsukue no ue ni hako ga yottsu arimasu.",
+        "german": "Auf dem Tisch stehen 4 Schachteln."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "五つ",
+    "reading": "いつつ",
+    "romaji": "itsutsu",
+    "meaning": "5 Stück",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Allgemeines Zählen mit ～つ; nicht für Personen verwenden.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "りんごを五つください。",
+        "romaji": "Ringo o itsutsu kudasai.",
+        "german": "Ich hätte gern 5 Äpfel."
+      },
+      {
+        "kind": "natural",
+        "japanese": "机の上に箱が五つあります。",
+        "romaji": "Tsukue no ue ni hako ga itsutsu arimasu.",
+        "german": "Auf dem Tisch stehen 5 Schachteln."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "六つ",
+    "reading": "むっつ",
+    "romaji": "muttsu",
+    "meaning": "6 Stück",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Allgemeines Zählen mit ～つ; nicht für Personen verwenden.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "りんごを六つください。",
+        "romaji": "Ringo o muttsu kudasai.",
+        "german": "Ich hätte gern 6 Äpfel."
+      },
+      {
+        "kind": "natural",
+        "japanese": "机の上に箱が六つあります。",
+        "romaji": "Tsukue no ue ni hako ga muttsu arimasu.",
+        "german": "Auf dem Tisch stehen 6 Schachteln."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "七つ",
+    "reading": "ななつ",
+    "romaji": "nanatsu",
+    "meaning": "7 Stück",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Allgemeines Zählen mit ～つ; nicht für Personen verwenden.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "りんごを七つください。",
+        "romaji": "Ringo o nanatsu kudasai.",
+        "german": "Ich hätte gern 7 Äpfel."
+      },
+      {
+        "kind": "natural",
+        "japanese": "机の上に箱が七つあります。",
+        "romaji": "Tsukue no ue ni hako ga nanatsu arimasu.",
+        "german": "Auf dem Tisch stehen 7 Schachteln."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "八つ",
+    "reading": "やっつ",
+    "romaji": "yattsu",
+    "meaning": "8 Stück",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Allgemeines Zählen mit ～つ; nicht für Personen verwenden.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "りんごを八つください。",
+        "romaji": "Ringo o yattsu kudasai.",
+        "german": "Ich hätte gern 8 Äpfel."
+      },
+      {
+        "kind": "natural",
+        "japanese": "机の上に箱が八つあります。",
+        "romaji": "Tsukue no ue ni hako ga yattsu arimasu.",
+        "german": "Auf dem Tisch stehen 8 Schachteln."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "九つ",
+    "reading": "ここのつ",
+    "romaji": "kokonotsu",
+    "meaning": "9 Stück",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Allgemeines Zählen mit ～つ; nicht für Personen verwenden.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "りんごを九つください。",
+        "romaji": "Ringo o kokonotsu kudasai.",
+        "german": "Ich hätte gern 9 Äpfel."
+      },
+      {
+        "kind": "natural",
+        "japanese": "机の上に箱が九つあります。",
+        "romaji": "Tsukue no ue ni hako ga kokonotsu arimasu.",
+        "german": "Auf dem Tisch stehen 9 Schachteln."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "零",
+    "reading": "れい",
+    "romaji": "rei",
+    "meaning": "null",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Neben ゼロ verwendete Lesung, etwa bei Temperaturen.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "今日は零度です。",
+        "romaji": "Kyou wa reido desu.",
+        "german": "Heute sind es null Grad."
+      },
+      {
+        "kind": "natural",
+        "japanese": "零から数えてください。",
+        "romaji": "Rei kara kazoete kudasai.",
+        "german": "Zählen Sie bitte ab null."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "level": "N5",
+    "word": "ゼロ",
+    "reading": "ゼロ",
+    "romaji": "zero",
+    "meaning": "null",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "notes": "Die geläufige Lehnwortform für null.",
+    "examples": [
+      {
+        "kind": "teaching",
+        "japanese": "残りはゼロです。",
+        "romaji": "Nokori wa zero desu.",
+        "german": "Es bleibt nichts übrig."
+      },
+      {
+        "kind": "natural",
+        "japanese": "気温はゼロ度です。",
+        "romaji": "Kion wa zerodo desu.",
+        "german": "Die Temperatur beträgt null Grad."
+      }
+    ],
+    "pitch": null,
+    "vocabularyBatch": "2026-09-jlpt-vocabulary"
   }
 ];

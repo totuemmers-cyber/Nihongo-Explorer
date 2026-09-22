@@ -9,6 +9,7 @@
   // ==========================================================
 
   var QUESTION_TYPES = {
+    onomatopoeiaContext: { id: 'onomatopoeiaContext', group: 'Lautmalerei', label: 'Bedeutung im Kontext', icon: '声' },
     vocabMeaning:    { id: 'vocabMeaning',    group: 'Vokabeln',    label: 'Bedeutung erkennen',   icon: '意' },
     vocabReading:    { id: 'vocabReading',    group: 'Vokabeln',    label: 'Lesung erkennen',      icon: '読' },
     vocabReverse:    { id: 'vocabReverse',    group: 'Vokabeln',    label: 'Wort erkennen',        icon: '語' },
@@ -24,51 +25,24 @@
 
   var TYPE_IDS = Object.keys(QUESTION_TYPES);
 
-  var JLPT_PASS_MARKS = {
-    N1: 100,
-    N2: 90,
-    N3: 95,
-    N4: 90,
-    N5: 80
-  };
-
-  var JLPT_SCORING_SECTIONS = {
-    N1: [
-      { key: 'languageKnowledgeReading', label: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', max: 60, passMark: 19 }
-    ],
-    N2: [
-      { key: 'languageKnowledgeReading', label: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', max: 60, passMark: 19 }
-    ],
-    N3: [
-      { key: 'vocabulary', label: 'Sprachwissen (Wortschatz)', max: 60, passMark: 19 },
-      { key: 'grammarReading', label: 'Sprachwissen (Grammatik)・Leseverständnis', max: 60, passMark: 19 }
-    ],
-    N4: [
-      { key: 'languageKnowledgeReading', label: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', max: 120, passMark: 38 }
-    ],
-    N5: [
-      { key: 'languageKnowledgeReading', label: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', max: 120, passMark: 38 }
-    ]
-  };
-
   var TEST_CONFIGS = {
     N5: { sections: [
-      { name: 'Sprachwissen (Wortschatz)', count: 45, time: 20, scoringKey: 'languageKnowledgeReading', types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext'] },
-      { name: 'Sprachwissen (Grammatik)・Leseverständnis', count: 35, time: 40, scoringKey: 'languageKnowledgeReading', types: ['grammarMeaning','grammarCloze','grammarFormation','vocabContext'] }
+      { name: 'Sprachwissen (Wortschatz)', count: 45, time: 20, types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext'] },
+      { name: 'Sprachwissen (Grammatik)・Leseverständnis', count: 35, time: 40, types: ['grammarMeaning','grammarCloze','grammarFormation','vocabContext'] }
     ]},
     N4: { sections: [
-      { name: 'Sprachwissen (Wortschatz)', count: 50, time: 25, scoringKey: 'languageKnowledgeReading', types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext'] },
-      { name: 'Sprachwissen (Grammatik)・Leseverständnis', count: 40, time: 55, scoringKey: 'languageKnowledgeReading', types: ['grammarMeaning','grammarCloze','grammarFormation','vocabContext'] }
+      { name: 'Sprachwissen (Wortschatz)', count: 50, time: 25, types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext'] },
+      { name: 'Sprachwissen (Grammatik)・Leseverständnis', count: 40, time: 55, types: ['grammarMeaning','grammarCloze','grammarFormation','vocabContext'] }
     ]},
     N3: { sections: [
-      { name: 'Sprachwissen (Wortschatz)', count: 55, time: 30, scoringKey: 'vocabulary', types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext'] },
-      { name: 'Sprachwissen (Grammatik)・Leseverständnis', count: 50, time: 70, scoringKey: 'grammarReading', types: ['grammarMeaning','grammarCloze','grammarFormation','vocabContext'] }
+      { name: 'Sprachwissen (Wortschatz)', count: 55, time: 30, types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext'] },
+      { name: 'Sprachwissen (Grammatik)・Leseverständnis', count: 50, time: 70, types: ['grammarMeaning','grammarCloze','grammarFormation','vocabContext'] }
     ]},
     N2: { sections: [
-      { name: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', count: 60, time: 105, scoringKey: 'languageKnowledgeReading', types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext','grammarMeaning','grammarCloze','grammarFormation'] }
+      { name: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', count: 60, time: 105, types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext','grammarMeaning','grammarCloze','grammarFormation'] }
     ]},
     N1: { sections: [
-      { name: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', count: 65, time: 110, scoringKey: 'languageKnowledgeReading', types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext','grammarMeaning','grammarCloze','grammarFormation'] }
+      { name: 'Sprachwissen (Wortschatz/Grammatik)・Leseverständnis', count: 65, time: 110, types: ['vocabMeaning','vocabReading','kanjiReading','vocabContext','grammarMeaning','grammarCloze','grammarFormation'] }
     ]}
   };
 
@@ -233,7 +207,7 @@
         if (!next.promptSub) return null;
       }
       if (next.explanation && hasJapaneseText(next.explanation)) {
-        next.explanation = sanitizeJapaneseForBeginnerLevel(next.explanation, level, preserveTokens) || '';
+        next.explanation = sanitizeJapaneseForBeginnerLevel(next.explanation, level, preserveTokens) || next.explanation;
       }
     }
 
@@ -280,24 +254,6 @@
 
   function getTestConfig(level) {
     return TEST_CONFIGS[level] || null;
-  }
-
-  function getScoringSections(level) {
-    return JLPT_SCORING_SECTIONS[level] || [];
-  }
-
-  function getSectionTotals(level) {
-    var scoring = getScoringSections(level);
-    var total = 0;
-    scoring.forEach(function (s) {
-      total += s.max;
-    });
-    var overallPassMark = JLPT_PASS_MARKS[level] || 0;
-    return {
-      overallPassMark: overallPassMark,
-      simulatedOfficialMax: total,
-      scoringSections: scoring
-    };
   }
 
   function resolveVerbConjugation(item) {
@@ -350,12 +306,19 @@
     return shuffle(unique).slice(0, count);
   }
 
+  function normalizeAnswer(text) {
+    return String(text || '').normalize('NFKC').trim().replace(/\s+/g, ' ').toLocaleLowerCase('de');
+  }
+
   function buildChoices(correctAnswer, distractors) {
-    var all = [correctAnswer].concat(distractors.slice(0, 3));
-    // Pad if not enough distractors
-    while (all.length < 4) {
-      all.push('\u2014');
-    }
+    var seen = new Set([normalizeAnswer(correctAnswer)]);
+    var wrong = distractors.filter(function (answer) {
+      var key = normalizeAnswer(answer);
+      if (!key || seen.has(key)) return false;
+      seen.add(key); return true;
+    });
+    if (!normalizeAnswer(correctAnswer) || wrong.length < 3) return null;
+    var all = [correctAnswer].concat(wrong.slice(0, 3));
     var shuffled = shuffle(all);
     return {
       choices: shuffled,
@@ -381,6 +344,28 @@
     return text.replace(needle, '\uFF3F\uFF3F\uFF3F');
   }
 
+  function getOnomatopoeiaByLevel(level) {
+    return (window.ONOMATOPOEIA_DATA || []).filter(function (o) { return o.level === level; });
+  }
+
+  function getGrammarCloze(example) {
+    var span = example && example.cloze;
+    var text = example && example.japanese;
+    if (!span || !text || !Number.isInteger(span.start) || span.start < 0 ||
+        typeof span.answer !== 'string' || !span.answer ||
+        text.slice(span.start, span.start + span.answer.length) !== span.answer) return null;
+    return {
+      answer: span.answer,
+      sentence: text.slice(0, span.start) + '＿＿＿' + text.slice(span.start + span.answer.length)
+    };
+  }
+
+  function normalizeReading(reading) {
+    return reading.replace(/[.\-・\s]/g, '').replace(/[ァ-ヶ]/g, function (ch) {
+      return String.fromCharCode(ch.charCodeAt(0) - 0x60);
+    });
+  }
+
   function getOrderedExamples(item) {
     if (window.getOrderedVocabExamples) return window.getOrderedVocabExamples(item);
     return item && item.examples ? item.examples.slice() : [];
@@ -394,6 +379,7 @@
       ichidan: 'いちだんどうし',
       suru: 'するどうし',
       kuru: 'くるどうし',
+      zuru: 'ずるどうし',
       aru: 'ある'
     };
     return kanaLabels[result.group] || result.groupLabel || '';
@@ -424,9 +410,14 @@
     var pool = getLevelPool(getVocabByLevel, level);
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var distractors = generateDistractors(item, pool, 3, function (v) { return v.meaning; });
+    var validMeanings = getAllVocab().filter(function (v) {
+      return v.word === item.word && normalizeReading(v.reading) === normalizeReading(item.reading);
+    }).map(function (v) { return v.meaning; });
+    var distractorPool = pool.filter(function (v) { return validMeanings.indexOf(v.meaning) === -1; });
+    var distractors = generateDistractors(item, distractorPool, 3, function (v) { return v.meaning; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.meaning, distractors);
+    if (!c) return null;
     return finalizeQuestion({
       type: 'vocabMeaning', level: level,
       prompt: 'Was bedeutet dieses Wort?',
@@ -445,9 +436,15 @@
     var pool = getLevelPool(getVocabByLevel, level).filter(function (v) { return v.word !== v.reading; });
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var distractors = generateDistractors(item, pool, 3, function (v) { return v.reading; });
+    // Another accepted reading of the same written word is not a wrong answer.
+    // This matters for 一日, 四, 七, 九 and readings stored at different levels.
+    var validReadings = getAllVocab().filter(function (v) { return v.word === item.word; })
+      .map(function (v) { return normalizeReading(v.reading); });
+    var distractorPool = pool.filter(function (v) { return validReadings.indexOf(normalizeReading(v.reading)) === -1; });
+    var distractors = generateDistractors(item, distractorPool, 3, function (v) { return v.reading; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.reading, distractors);
+    if (!c) return null;
     return finalizeQuestion({
       type: 'vocabReading', level: level,
       prompt: 'Wie liest man dieses Wort?',
@@ -466,9 +463,13 @@
     var pool = getLevelPool(getVocabByLevel, level);
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var distractors = generateDistractors(item, pool, 3, function (v) { return v.word; });
+    var validWords = getAllVocab().filter(function (v) { return v.meaning === item.meaning; })
+      .map(function (v) { return v.word; });
+    var distractorPool = pool.filter(function (v) { return validWords.indexOf(v.word) === -1; });
+    var distractors = generateDistractors(item, distractorPool, 3, function (v) { return v.word; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.word, distractors);
+    if (!c) return null;
     return finalizeQuestion({
       type: 'vocabReverse', level: level,
       prompt: 'Welches Wort bedeutet:',
@@ -512,6 +513,7 @@
     var distractors = generateDistractors(item, pool, 3, function (v) { return v.word; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.word, distractors);
+    if (!c) return null;
     return finalizeQuestion({
       type: 'vocabContext', level: level,
       prompt: 'Welches Wort passt in die Lücke?',
@@ -525,14 +527,18 @@
   }
 
   // 5. Kanji Meaning: kanji → meaning
-  function genKanjiMeaning(level) {
+  function genKanjiMeaning(level, sourceId) {
     var pool = getLevelPool(getKanjiByLevel, level);
     if (pool.length < 4) return null;
-    var item = pickRandom(pool);
+    var item = sourceId ? pool.find(function (k) { return k.kanji === sourceId; }) : pickRandom(pool);
+    if (!item) return null;
     var correctMeaning = item.meanings[0];
-    var distractors = generateDistractors(item, pool, 3, function (k) { return k.meanings[0]; });
+    var accepted = new Set(item.meanings.map(normalizeAnswer));
+    var wrongPool = pool.filter(function (k) { return !accepted.has(normalizeAnswer(k.meanings[0])); });
+    var distractors = generateDistractors(item, wrongPool, wrongPool.length, function (k) { return k.meanings[0]; });
     if (distractors.length < 3) return null;
     var c = buildChoices(correctMeaning, distractors);
+    if (!c) return null;
     return finalizeQuestion({
       type: 'kanjiMeaning', level: level,
       prompt: 'Was bedeutet dieses Kanji?',
@@ -542,6 +548,7 @@
       explanation: item.kanji + ' = ' + item.meanings.join(', ')
     }, level, {
       sourceLevel: item.jlpt,
+      sourceEntryId: item.kanji,
       preserveTokens: [item.kanji]
     });
   }
@@ -558,7 +565,12 @@
     if (item.on) item.on.forEach(function (r) { readings.push(r.kana); });
     if (readings.length === 0) return null;
     var correctReading = readings[0];
-    var distractors = generateDistractors(item, pool, 3, function (k) {
+    var acceptedReadings = readings.map(normalizeReading);
+    var distractorPool = pool.filter(function (k) {
+      var first = (k.kun && k.kun[0]) || (k.on && k.on[0]);
+      return first && acceptedReadings.indexOf(normalizeReading(first.kana)) === -1;
+    });
+    var distractors = generateDistractors(item, distractorPool, 3, function (k) {
       var r = [];
       if (k.kun && k.kun.length) r.push(k.kun[0].kana);
       else if (k.on && k.on.length) r.push(k.on[0].kana);
@@ -566,6 +578,7 @@
     });
     if (distractors.length < 3) return null;
     var c = buildChoices(correctReading, distractors);
+    if (!c) return null;
     return finalizeQuestion({
       type: 'kanjiReading', level: level,
       prompt: 'Wie kann man dieses Kanji lesen?',
@@ -597,9 +610,10 @@
     });
     if (distrs.length < 3) return null;
     var c = buildChoices(correctAnswer, distrs);
+    if (!c) return null;
     return finalizeQuestion({
       type: 'kanjiRadical', level: level,
-      prompt: 'Welches Radikal ist in diesem Kanji enthalten?',
+      prompt: 'Welches ist das Primärradikal dieses Kanji?',
       promptMain: item.kanji,
       promptSub: item.meanings[0],
       choices: c.choices, correctIndex: c.correctIndex,
@@ -618,6 +632,7 @@
     var distractors = generateDistractors(item, pool, 3, function (g) { return g.meaning; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.meaning, distractors);
+    if (!c) return null;
     return finalizeQuestion({
       type: 'grammarMeaning', level: level,
       prompt: 'Was bedeutet dieses Grammatikmuster?',
@@ -631,43 +646,54 @@
     });
   }
 
-  // 9. Grammar Cloze: sentence blank → pattern
-  function genGrammarCloze(level) {
-    var pool = getLevelPool(getGrammarByLevel, level).filter(function (g) {
-      if (!g.examples || g.examples.length === 0) return false;
-      for (var i = 0; i < g.examples.length; i++) {
-        var sentence = buildSingleBlankSentence(g.examples[i].japanese, g.pattern);
-        if (!sentence) continue;
-        if (!isStrictBeginnerLevel(level)) return true;
-        if (sanitizeJapaneseForBeginnerLevel(sentence, level, [])) return true;
-      }
-      return false;
+  // 9. Only sentence-bound, editorially reviewed choices may be graded.
+  function reviewedGrammarExample(example, level, sourceLevel) {
+    var span = getGrammarCloze(example), review = example && example.cloze && example.cloze.quiz;
+    if (!span || !review || review.level !== sourceLevel || review.japanese !== example.japanese || review.german !== example.german ||
+        review.start !== example.cloze.start || review.answer !== span.answer ||
+        !Array.isArray(review.acceptedAnswers) || !review.acceptedAnswers.includes(span.answer) ||
+        !review.acceptedAnswers.every(function (a) { return typeof a === 'string' && a.trim(); }) ||
+        !Array.isArray(review.distractors) || review.distractors.length !== 3) return null;
+    var accepted = new Set(review.acceptedAnswers.map(normalizeAnswer));
+    if (review.distractors.some(function (d) { return !d || typeof d.text !== 'string' ||
+        !d.text.trim() || typeof d.reason !== 'string' || !d.reason.trim() || accepted.has(normalizeAnswer(d.text)); })) return null;
+    var wrong = review.distractors.map(function (d) { return d.text; });
+    if (new Set(wrong.map(normalizeAnswer)).size !== 3) return null;
+    var sentence = isStrictBeginnerLevel(level) ? review.promptKana : span.sentence;
+    if (typeof sentence !== 'string' || countOccurrences(sentence, '＿＿＿') !== 1 ||
+        (isStrictBeginnerLevel(level) && hasKanji(sentence))) return null;
+    return { span: span, review: review, sentence: sentence, wrong: wrong };
+  }
+
+  function genGrammarCloze(level, sourceId, exampleIndex) {
+    var pool = getLevelPool(getGrammarByLevel, level);
+    if (sourceId) pool = pool.filter(function (g) { return g.id === sourceId; });
+    var candidates = [];
+    pool.forEach(function (g) {
+      if (g.clozeExcludedReason) return;
+      (g.examples || []).forEach(function (example, index) {
+        if (exampleIndex !== undefined && index !== exampleIndex) return;
+        var reviewed = reviewedGrammarExample(example, level, g.level);
+        if (reviewed) candidates.push({ item: g, example: example, index: index, reviewed: reviewed });
+      });
     });
-    if (pool.length < 4) return null;
-    var item = pickRandom(pool);
-    var ex = null;
-    for (var i = 0; i < item.examples.length; i++) {
-      var candidate = buildSingleBlankSentence(item.examples[i].japanese, item.pattern);
-      if (!candidate) continue;
-      if (isStrictBeginnerLevel(level) && !sanitizeJapaneseForBeginnerLevel(candidate, level, [])) continue;
-      ex = item.examples[i];
-      break;
-    }
-    if (!ex) return null;
-    var sentence = buildSingleBlankSentence(ex.japanese, item.pattern);
-    if (!sentence) return null;
-    var distractors = generateDistractors(item, pool, 3, function (g) { return g.pattern; });
-    if (distractors.length < 3) return null;
-    var c = buildChoices(item.pattern, distractors);
+    if (!candidates.length) return null;
+    var selected = pickRandom(candidates), item = selected.item, ex = selected.example, r = selected.reviewed;
+    var c = buildChoices(r.span.answer, r.wrong);
+    if (!c) return null;
     return finalizeQuestion({
       type: 'grammarCloze', level: level,
       prompt: 'Welches Grammatikmuster passt in die Lücke?',
-      promptMain: sentence,
+      promptMain: r.sentence,
       promptSub: ex.german,
       choices: c.choices, correctIndex: c.correctIndex,
       explanation: item.pattern + ' — ' + ex.japanese
     }, level, {
-      sourceLevel: item.level
+      sourceLevel: item.level,
+      sourceEntryId: item.id,
+      sourceExampleIndex: selected.index,
+      originalSentence: ex.japanese,
+      clozeAnswer: r.span.answer
     });
   }
 
@@ -679,6 +705,7 @@
     var distractors = generateDistractors(item, pool, 3, function (g) { return g.formation; });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.formation, distractors);
+    if (!c) return null;
     return finalizeQuestion({
       type: 'grammarFormation', level: level,
       prompt: 'Wie wird dieses Muster gebildet?',
@@ -700,51 +727,78 @@
     var resolved = resolveVerbConjugation(item);
     if (!resolved || !resolved.result || !resolved.result.forms) return null;
     var result = resolved.result;
-    var viableFormKeys = CONJ_FORM_KEYS.filter(function (key) {
-      if (!result.forms[key]) return false;
+    var targetKeys = level === 'N5' ? ['polite', 'negative', 'past', 'te'] : CONJ_FORM_KEYS;
+    var allowedKeys = level === 'N5'
+      ? ['dictionary', 'polite', 'negative', 'negPolite', 'past', 'pastPolite', 'pastNeg', 'pastNegPolite', 'te', 'volPolite']
+      : Object.keys(result.forms);
+    function distractorsFor(targetKey) {
+      var target = result.forms[targetKey];
+      if (!target) return [];
+      var accepted = [target.japanese].concat(target.acceptedVariants || []);
       var seen = {};
-      var uniqueCount = 0;
-      for (var formName in result.forms) {
-        if (!result.forms[formName]) continue;
-        var japanese = result.forms[formName].japanese;
-        if (seen[japanese]) continue;
-        seen[japanese] = true;
-        uniqueCount++;
-      }
-      return uniqueCount >= 4;
-    });
+      return allowedKeys.filter(function (key) {
+        var form = result.forms[key];
+        if (!form || key === targetKey || accepted.indexOf(form.japanese) !== -1 || seen[form.japanese]) return false;
+        seen[form.japanese] = true;
+        return true;
+      });
+    }
+    var viableFormKeys = targetKeys.filter(function (key) { return distractorsFor(key).length >= 3; });
     if (!viableFormKeys.length) return null;
     var formKey = pickRandom(viableFormKeys);
     var targetForm = result.forms[formKey];
-    if (!targetForm) return null;
-    var distractorValues = [];
-    var seenValues = {};
-
-    for (var key in result.forms) {
-      if (!result.forms[key] || key === formKey) continue;
-      var value = result.forms[key].japanese;
-      if (!value || value === targetForm.japanese || seenValues[value]) continue;
-      seenValues[value] = true;
-      distractorValues.push(value);
-    }
-
-    distractorValues = shuffle(distractorValues);
-    if (distractorValues.length < 3) return null;
-    var c = buildChoices(targetForm.japanese, distractorValues.slice(0, 3));
+    var distractorKeys = shuffle(distractorsFor(formKey)).slice(0, 3);
+    var c = buildChoices(targetForm.japanese, distractorKeys.map(function (key) { return result.forms[key].japanese; }));
+    if (!c) return null;
+    var label = isStrictBeginnerLevel(level) ? targetForm.label.replace(/ ?\([^)]*\)/g, '') : targetForm.label;
     return finalizeQuestion({
       type: 'conjugation', level: level,
-      prompt: targetForm.label + ' von:',
+      prompt: label + ' von:',
       promptMain: item.word || item.reading,
       promptSub: item.meaning + ' (' + getConjugationGroupLabel(result, level) + ')',
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: resolved.reading + ' → ' + targetForm.label + ': ' + targetForm.japanese
+      explanation: resolved.reading + ' → ' + label + ': ' + targetForm.japanese
     }, level, {
       sourceLevel: item.level,
+      sourceEntryId: item.id,
+      sourceName: item.__sourceName,
+      sourceIndex: item.__sourceIndex,
+      targetForm: formKey,
+      choiceForms: c.choices.map(function (value) {
+        return value === targetForm.japanese ? formKey : distractorKeys.find(function (key) { return result.forms[key].japanese === value; });
+      }),
       preserveTokens: [item.word || item.reading]
     });
   }
 
+  function genOnomatopoeiaContext(level) {
+    var pool = getOnomatopoeiaByLevel(level);
+    var candidates = pool.filter(function (o) {
+      return o.examples && o.examples.some(function (ex) {
+        return !isStrictBeginnerLevel(level) || sanitizeJapaneseForBeginnerLevel(ex.japanese, level, [o.word]);
+      });
+    });
+    if (candidates.length < 4) return null;
+    var item = pickRandom(candidates);
+    var ex = pickRandom(item.examples.filter(function (example) {
+      return !isStrictBeginnerLevel(level) || sanitizeJapaneseForBeginnerLevel(example.japanese, level, [item.word]);
+    }));
+    var distractors = generateDistractors(item, candidates, 3, function (o) { return o.meaning; });
+    if (distractors.length < 3) return null;
+    var choices = buildChoices(item.meaning, distractors);
+    if (!choices) return null;
+    return finalizeQuestion({
+      type: 'onomatopoeiaContext', level: level,
+      prompt: 'Was bedeutet die Lautmalerei in diesem Satz?',
+      promptMain: ex.japanese,
+      promptSub: item.word,
+      choices: choices.choices, correctIndex: choices.correctIndex,
+      explanation: ex.german + ' — ' + item.meaning
+    }, level, { sourceLevel: item.level, preserveTokens: [item.word] });
+  }
+
   var GENERATORS = {
+    onomatopoeiaContext: genOnomatopoeiaContext,
     vocabMeaning: genVocabMeaning,
     vocabReading: genVocabReading,
     vocabReverse: genVocabReverse,
@@ -807,6 +861,9 @@
 
   function showFeedback(container, selectedIdx, correctIdx) {
     var btns = container.querySelectorAll('.quiz-choice-btn');
+    var feedback = el('p', 'quiz-feedback', (selectedIdx === correctIdx ? 'Richtig.' : selectedIdx < 0 ? 'Antwort aufgelöst.' : 'Nicht richtig.') + ' Richtige Antwort: ' + btns[correctIdx].querySelector('.quiz-choice-text').textContent);
+    feedback.setAttribute('role', 'status');
+    container.appendChild(feedback);
     for (var i = 0; i < btns.length; i++) {
       btns[i].disabled = true;
       if (i === correctIdx) btns[i].classList.add('correct');
@@ -825,7 +882,8 @@
     badges.appendChild(levelBadge);
     card.appendChild(badges);
 
-    var prompt = el('p', 'quiz-prompt', question.prompt);
+    var prompt = el('h3', 'quiz-prompt', question.prompt);
+    prompt.tabIndex = -1;
     card.appendChild(prompt);
 
     if (question.promptMain) {
@@ -846,6 +904,7 @@
     card.appendChild(explDiv);
 
     container.appendChild(card);
+    setTimeout(function () { if (prompt.isConnected) prompt.focus({ preventScroll: true }); }, 0);
     return { choicesDiv: choicesDiv, explDiv: explDiv, card: card };
   }
 
@@ -870,6 +929,10 @@
     // Type selector (grouped)
     var typeSelect = document.createElement('select');
     typeSelect.className = 'quiz-type-select';
+    typeSelect.id = 'quiz-type-select';
+    var typeLabel = el('label', 'select-field');
+    typeLabel.appendChild(el('span', '', 'Fragetyp'));
+    typeLabel.appendChild(typeSelect);
     var groups = {};
     TYPE_IDS.forEach(function (id) {
       var t = QUESTION_TYPES[id];
@@ -892,7 +955,7 @@
       browseState.currentType = this.value;
       loadBrowseQuestion();
     });
-    controls.appendChild(typeSelect);
+    controls.appendChild(typeLabel);
 
     // Level pills
     var levelBar = el('div', 'quiz-level-bar');
@@ -954,12 +1017,12 @@
     var parts = renderQuestionCard(q, area);
 
     renderChoiceButtons(q, parts.choicesDiv, function (idx) {
-      if (browseState.answered) return;
+      if (browseState.revealed) return;
       browseState.answered = true;
       browseState.selectedIdx = idx;
       // Highlight selected
       var btns = parts.choicesDiv.querySelectorAll('.quiz-choice-btn');
-      btns[idx].classList.add('selected');
+      btns.forEach(function (btn, i) { btn.classList.toggle('selected', i === idx); btn.setAttribute('aria-pressed', String(i === idx)); });
       if (window.app) window.app.playTick();
     });
 
@@ -994,7 +1057,7 @@
     var revealBtn = document.getElementById('quiz-reveal-btn');
     var nextBtn = document.getElementById('quiz-next-btn');
     if (revealBtn) revealBtn.classList.add('hidden');
-    if (nextBtn) nextBtn.classList.remove('hidden');
+    if (nextBtn) { nextBtn.classList.remove('hidden'); nextBtn.focus({ preventScroll: true }); }
   }
 
   // ==========================================================
@@ -1018,27 +1081,40 @@
     panel.innerHTML = '';
 
     var setup = el('div', 'quiz-test-setup');
-    var title = el('h2', 'quiz-setup-title', 'JLPT Prüfungsmodus');
+    var title = el('h2', 'quiz-setup-title', 'JLPT-Training mit Zeitlimit');
     setup.appendChild(title);
-    var desc = el('p', 'quiz-setup-desc', 'Wähle ein Level für die JLPT-nahe Prüfung ohne Hörverstehen. Die Auswertung nutzt die offiziellen Abschnittsnamen, Zeitbudgets und JLPT-Passmarken, hochgerechnet auf die sichtbaren Testabschnitte.');
+    var desc = el('p', 'quiz-setup-desc', 'Wähle ein Level für ein Training mit Zeitlimit. Du erhältst die Anzahl richtiger Antworten und deine Trefferquote je Abschnitt. Hörverstehen ist nicht enthalten; das Ergebnis ist keine JLPT-Bestehensprognose.');
     setup.appendChild(desc);
 
+    var selectedLevel = 'N5';
     var levelGrid = el('div', 'quiz-test-level-grid');
+    levelGrid.setAttribute('role', 'group');
+    levelGrid.setAttribute('aria-label', 'JLPT-Level für das Training');
     LEVELS.forEach(function (lv) {
       var cfg = TEST_CONFIGS[lv];
       var total = 0, totalTime = 0;
       cfg.sections.forEach(function (s) { total += s.count; totalTime += s.time; });
 
-      var card = el('div', 'quiz-test-level-card');
+      var card = el('button', 'quiz-test-level-card');
+      card.setAttribute('aria-pressed', 'false');
       var badge = el('div', 'quiz-test-level-badge ' + lv.toLowerCase(), lv);
       card.appendChild(badge);
       var info = el('div', 'quiz-test-level-info');
       info.innerHTML = '<span>' + total + ' Fragen</span><span>' + totalTime + ' Minuten</span><span>' + (cfg.sections.length === 1 ? '1 sichtbarer Abschnitt' : cfg.sections.length + ' sichtbare Abschnitte') + '</span>';
       card.appendChild(info);
-      card.addEventListener('click', function () { startTest(lv); });
+      card.setAttribute('aria-pressed', String(lv === selectedLevel));
+      card.addEventListener('click', function () {
+        selectedLevel = lv;
+        levelGrid.querySelectorAll('button').forEach(function (btn) { btn.setAttribute('aria-pressed', String(btn === card)); });
+        startBtn.textContent = lv + '-Training starten';
+      });
       levelGrid.appendChild(card);
     });
     setup.appendChild(levelGrid);
+    var startBtn = el('button', 'quiz-btn quiz-btn-start', 'N5-Training starten');
+    startBtn.id = 'quiz-start-test';
+    startBtn.addEventListener('click', function () { startTest(selectedLevel); });
+    setup.appendChild(startBtn);
 
     var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
     backBtn.addEventListener('click', showHomeScreen);
@@ -1080,7 +1156,6 @@
       testState.sections.push({
         name: sec.name,
         time: sec.time,
-        scoringKey: sec.scoringKey,
         questions: questions,
         answers: [],
         score: 0
@@ -1157,7 +1232,12 @@
     timer.id = 'quiz-timer';
     var remaining = Math.max(0, Math.ceil((testState.sectionEndTime - Date.now()) / 1000));
     timer.textContent = formatTime(remaining);
+    timer.setAttribute('role', 'timer');
+    timer.setAttribute('aria-label', 'Verbleibende Zeit');
     header.appendChild(timer);
+    var exitBtn = el('button', 'quiz-exit', 'Training beenden');
+    exitBtn.addEventListener('click', requestExit);
+    header.appendChild(exitBtn);
     panel.appendChild(header);
 
     // Progress bars
@@ -1192,6 +1272,7 @@
 
     renderChoiceButtons(question, parts.choicesDiv, function (idx) {
       // Lock answer
+      if (secData.answers.some(function (answer) { return answer.questionIdx === qIdx; })) return;
       showFeedback(parts.choicesDiv, idx, question.correctIndex);
       var correct = idx === question.correctIndex;
       secData.answers.push({ questionIdx: qIdx, selected: idx, correct: correct });
@@ -1208,6 +1289,7 @@
 
       // Reveal the manual advance action after the answer is shown.
       nextBtn.classList.remove('hidden');
+      nextBtn.focus({ preventScroll: true });
     });
   }
 
@@ -1250,6 +1332,9 @@
     }
 
     panel.appendChild(inter);
+    inter.appendChild(el('button', 'quiz-exit', 'Training beenden'));
+    inter.querySelector('.quiz-exit').addEventListener('click', requestExit);
+    title.tabIndex = -1; title.focus({ preventScroll: true });
   }
 
   function showTestResults() {
@@ -1260,96 +1345,40 @@
     panel.innerHTML = '';
 
     var results = el('div', 'quiz-results');
-    var title = el('h2', 'quiz-results-title', 'Prüfungsergebnis — ' + testState.level);
+    var title = el('h2', 'quiz-results-title', 'Übungsergebnis — ' + testState.level);
     results.appendChild(title);
 
-    var config = getSectionTotals(testState.level);
-    var scoringSections = config.scoringSections;
-    var groups = {};
-    testState.sections.forEach(function (sec) {
-      var key = sec.scoringKey || sec.name;
-      if (!groups[key]) {
-        groups[key] = {
-          key: key,
-          label: '',
-          max: 0,
-          passMark: 0,
-          correct: 0,
-          rawQuestions: 0,
-          sections: []
-        };
-      }
-      groups[key].correct += sec.score;
-      groups[key].rawQuestions += sec.questions.length;
-      groups[key].sections.push(sec);
-    });
-
-    scoringSections.forEach(function (section) {
-      if (!groups[section.key]) {
-        groups[section.key] = {
-          key: section.key,
-          label: section.label,
-          max: section.max,
-          passMark: section.passMark,
-          correct: 0,
-          rawQuestions: 0,
-          sections: []
-        };
-      }
-      groups[section.key].label = section.label;
-      groups[section.key].max = section.max;
-      groups[section.key].passMark = section.passMark;
-    });
-
-    var scoringKeys = scoringSections.map(function (s) { return s.key; });
-    var scoringTotal = 0;
-    var scaledTotal = 0;
-    var allPassed = true;
-
-    // Per-section breakdown
+    var totalCorrect = 0;
+    var totalQuestions = 0;
     var breakdown = el('div', 'quiz-results-breakdown');
-    scoringKeys.forEach(function (key, idx) {
-      var section = scoringSections[idx];
-      var group = groups[key];
-      var score = group ? group.correct : 0;
-      var rawMax = group ? group.rawQuestions : 0;
-      var officialScore = rawMax > 0 ? Math.round(score / rawMax * section.max) : 0;
-      var passed = officialScore >= section.passMark;
-      if (!passed) allPassed = false;
-      scoringTotal += officialScore;
-
+    testState.sections.forEach(function (section) {
+      var count = section.questions.length;
+      totalCorrect += section.score;
+      totalQuestions += count;
       var row = el('div', 'quiz-result-row');
-      row.innerHTML =
-        '<span class="result-section-name">' + section.label + '</span>' +
-        '<span class="result-score">' + officialScore + '/' + section.max + '</span>' +
-        '<span class="result-pct">' + (rawMax > 0 ? Math.round(score / rawMax * 100) : 0) + '%</span>' +
-        '<span class="result-status ' + (passed ? 'passed' : 'failed') + '">' + (passed ? 'Bestanden' : 'Nicht best.') + '</span>';
+      row.appendChild(el('span', 'result-section-name', section.name));
+      row.appendChild(el('span', 'result-score', section.score + ' / ' + count + ' richtig'));
+      row.appendChild(el('span', 'result-pct', (count ? Math.round(section.score / count * 100) : 0) + '%'));
       breakdown.appendChild(row);
     });
     results.appendChild(breakdown);
 
-    var simulatedMax = config.simulatedOfficialMax || 0;
-    if (simulatedMax > 0) {
-      scaledTotal = Math.round(scoringTotal / simulatedMax * 180);
-    }
-    var totalPct = Math.round(scaledTotal / 180 * 100);
-    var overallPassMark = config.overallPassMark || 0;
-    var overallPassed = allPassed && scaledTotal >= overallPassMark;
-
-    // Overall
-    var overall = el('div', 'quiz-results-overall' + (overallPassed ? ' passed' : ' failed'));
-    overall.innerHTML =
-      '<div class="overall-score">' + scaledTotal + ' / 180 (' + totalPct + '%)</div>' +
-      '<div class="overall-status">' + (overallPassed ? 'BESTANDEN' : 'NICHT BESTANDEN') + '</div>' +
-      '<div class="overall-note">Hörverstehen ist aus technischen Gründen nicht simuliert; die Punktzahl wird auf die JLPT-Skala hochgerechnet.</div>' +
-      (!overallPassed ? '<div class="overall-note">Erforderlich: mindestens ' + overallPassMark + ' Punkte und keine unter dem Sectional Pass Mark liegenden Teilbereiche.</div>' : '');
+    var overall = el('div', 'quiz-results-overall');
+    var accuracy = totalQuestions ? Math.round(totalCorrect / totalQuestions * 100) : 0;
+    overall.appendChild(el('div', 'overall-score', accuracy + '% richtig'));
+    overall.appendChild(el('div', 'overall-status', totalCorrect + ' von ' + totalQuestions + ' Fragen richtig beantwortet'));
+    overall.appendChild(el('div', 'overall-note', 'Übungsergebnis für diese Fragen. Keine JLPT-Punktzahl oder Bestehensprognose; Hörverstehen wird nicht geprüft.'));
     results.appendChild(overall);
 
     // Detail review toggle
     var detailBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Details ansehen');
     var detailDiv = el('div', 'quiz-review-detail hidden');
+    detailDiv.id = 'quiz-review-detail';
+    detailBtn.setAttribute('aria-controls', detailDiv.id);
+    detailBtn.setAttribute('aria-expanded', 'false');
     detailBtn.addEventListener('click', function () {
       detailDiv.classList.toggle('hidden');
+      detailBtn.setAttribute('aria-expanded', String(!detailDiv.classList.contains('hidden')));
       detailBtn.textContent = detailDiv.classList.contains('hidden') ? 'Details ansehen' : 'Details ausblenden';
     });
     results.appendChild(detailBtn);
@@ -1384,6 +1413,7 @@
     results.appendChild(actions);
 
     panel.appendChild(results);
+    title.tabIndex = -1; title.focus({ preventScroll: true });
   }
 
 
@@ -1408,7 +1438,7 @@
     var cards = el('div', 'quiz-home-cards');
 
     // Browse card
-    var browseCard = el('div', 'quiz-home-card browse');
+    var browseCard = el('button', 'quiz-home-card browse');
     browseCard.innerHTML =
       '<div class="quiz-card-icon">\u7DF4</div>' +
       '<h3>Übungsmodus</h3>' +
@@ -1417,11 +1447,11 @@
     cards.appendChild(browseCard);
 
     // Test card
-    var testCard = el('div', 'quiz-home-card test');
+    var testCard = el('button', 'quiz-home-card test');
     testCard.innerHTML =
       '<div class="quiz-card-icon">\u8A66</div>' +
       '<h3>Pr\u00fcfungsmodus</h3>' +
-      '<p>JLPT-nahe Prüfung ohne Hörverstehen mit offiziellen Abschnittsnamen, Zeitbudgets und hochgerechneter Bewertung.</p>';
+      '<p>Training mit Zeitlimit und Trefferquote je Abschnitt. Ohne Hörverstehen und ohne JLPT-Bestehensprognose.</p>';
     testCard.addEventListener('click', showTestSetup);
     cards.appendChild(testCard);
 
@@ -1435,6 +1465,10 @@
 
   function handleQuizKey(e) {
     if (!dom.quizPanel || dom.quizPanel.classList.contains('hidden')) return false;
+    if (e.isComposing || e.keyCode === 229 || e.ctrlKey || e.altKey || e.metaKey) return false;
+    var focused = document.activeElement;
+    if (focused && (focused.matches('input, select, textarea') || focused.isContentEditable)) return false;
+    if (e.key === 'Enter' && focused && focused.matches('button, a, summary')) return false;
 
     // Number keys 1-4 select choices
     var num = parseInt(e.key);
@@ -1475,11 +1509,7 @@
     // Escape to go back
     if (e.key === 'Escape') {
       if (testState.active) {
-        if (confirm('Pr\u00fcfung wirklich abbrechen?')) {
-          stopTimer();
-          testState.active = false;
-          showHomeScreen();
-        }
+        requestExit();
         e.preventDefault();
         return true;
       }
@@ -1492,6 +1522,22 @@
   // J: INIT & EXPORT
   // ==========================================================
 
+  function requestExit() {
+    if (!testState.active) return true;
+    if (!confirm('Aktives Training beenden? Dein bisheriges Ergebnis wird verworfen.')) return false;
+    stopTimer();
+    testState.active = false;
+    showHomeScreen();
+    return true;
+  }
+
+  window.addEventListener('beforeunload', function (event) {
+    if (!testState.active) return;
+    event.preventDefault();
+    event.returnValue = '';
+  });
+  window.addEventListener('pagehide', stopTimer);
+
   function onTabActivate() {
     if (!dom.quizContent) {
       dom.quizPanel = document.getElementById('quiz-tab');
@@ -1499,7 +1545,7 @@
     }
     if (!dom.quizContent) return;
     // Show home screen if not in active test
-    if (!testState.active) {
+    if (!testState.active && !dom.quizContent.children.length) {
       showHomeScreen();
     }
   }
@@ -1507,9 +1553,17 @@
   window.QuizModule = {
     onTabActivate: onTabActivate,
     handleKey: handleQuizKey,
+    requestExit: requestExit,
     isTestActive: function () { return testState.active; },
     audit: {
+      finalizeQuestion: finalizeQuestion,
       generateQuestion: generateQuestion,
+      buildChoices: buildChoices,
+      generateQuestionForSource: function (type, level, sourceId, exampleIndex) {
+        if (type === 'kanjiMeaning') return genKanjiMeaning(level, sourceId);
+        if (type === 'grammarCloze') return genGrammarCloze(level, sourceId, exampleIndex);
+        return null;
+      },
       questionTypes: QUESTION_TYPES,
       levels: LEVELS
     }

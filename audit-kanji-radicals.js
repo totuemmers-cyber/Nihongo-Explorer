@@ -17,7 +17,7 @@ DATA_FILES.forEach(function (file) {
 
 const allKanji = []
   .concat(ctx.KANJI_DATA || [])
-  .concat(ctx.KANJI_N1 || []);
+  .concat(ctx.KANJI_N1_DATA || []);
 
 const missingPrimary = [];
 const noCanonical = [];
@@ -34,7 +34,7 @@ allKanji.forEach(function (item) {
     });
   }
 
-  if (!radicals.length) {
+  if (!radicals.length && !primary) {
     noCanonical.push({ kanji: item.kanji, meaning: item.meanings && item.meanings[0] });
     return;
   }
@@ -59,3 +59,5 @@ console.log(JSON.stringify({
   missingPrimarySample: missingPrimary.slice(0, 100),
   noCanonicalSample: noCanonical.slice(0, 50)
 }, null, 2));
+
+if (missingPrimary.length || noCanonical.length || new Set((ctx.KANGXI_RADICALS || []).map(r => r.radical)).size !== 214) process.exitCode = 1;

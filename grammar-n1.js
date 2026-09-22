@@ -1,4 +1,4 @@
-// N1 Grammar Points
+// Teaching data; editorial sources in scripts/.
 window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   {
     "id": "n1-kara-shite",
@@ -11,11 +11,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は態度からして失礼だ。",
+        "cloze": {
+          "start": 4,
+          "answer": "からして",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は態度からして失礼だ。",
+            "german": "Schon allein seine Haltung ist unhöflich.",
+            "start": 4,
+            "answer": "からして",
+            "acceptedAnswers": [
+              "からして"
+            ],
+            "distractors": [
+              {
+                "text": "からする",
+                "reason": "Die Wörterbuchform verbindet hier nicht mit 失礼だ."
+              },
+              {
+                "text": "からします",
+                "reason": "Die finite Form beendet den Satz."
+              },
+              {
+                "text": "からした",
+                "reason": "Die attributive Vergangenheit passt hier nicht vor 失礼だ."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa taido kara shite shitsurei da.",
         "german": "Schon allein seine Haltung ist unhöflich."
       },
       {
         "japanese": "この店は外観からして高そうだ。",
+        "cloze": {
+          "start": 6,
+          "answer": "からして"
+        },
         "romaji": "Kono mise wa gaikan kara shite takasō da.",
         "german": "Schon vom Äußeren her wirkt dieser Laden teuer."
       }
@@ -36,11 +68,45 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の様子からすると、何か問題があるようだ。",
+        "cloze": {
+          "start": 4,
+          "answer": "からすると",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の様子からすると、何か問題があるようだ。",
+            "german": "Von seinem Verhalten her zu urteilen, scheint es ein Problem zu geben.",
+            "start": 4,
+            "answer": "からすると",
+            "acceptedAnswers": [
+              "からすると",
+              "からすれば",
+              "から見ると"
+            ],
+            "distractors": [
+              {
+                "text": "からするを",
+                "reason": "を bildet hier keine Schlussfolgerungsverbindung."
+              },
+              {
+                "text": "からするます",
+                "reason": "ます benötigt den Stamm し."
+              },
+              {
+                "text": "からすればな",
+                "reason": "な kann nicht an die Bedingung angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no yōsu kara suru to, nanika mondai ga aru yō da.",
         "german": "Von seinem Verhalten her zu urteilen, scheint es ein Problem zu geben."
       },
       {
         "japanese": "経験からすれば、この方法が一番効果的だ。",
+        "cloze": {
+          "start": 2,
+          "answer": "からすれば"
+        },
         "romaji": "Keiken kara sureba, kono hōhō ga ichiban kōkateki da.",
         "german": "Von meiner Erfahrung her gesehen ist diese Methode am effektivsten."
       }
@@ -63,7 +129,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "一日たりとも休むことはできない。",
         "romaji": "Ichinichi tari tomo yasumu koto wa dekinai.",
-        "german": "Ich kann nicht einen einzigen Tag ausruhen."
+        "german": "Ich kann nicht einen einzigen Tag ausruhen.",
+        "cloze": {
+          "start": 2,
+          "answer": "たりとも",
+          "quiz": {
+            "level": "N1",
+            "japanese": "一日たりとも休むことはできない。",
+            "german": "Ich kann nicht einen einzigen Tag ausruhen.",
+            "start": 2,
+            "answer": "たりとも",
+            "acceptedAnswers": [
+              "たりとも"
+            ],
+            "distractors": [
+              {
+                "text": "たりを",
+                "reason": "を bildet hier keine minimale Mengenbetonung."
+              },
+              {
+                "text": "たりな",
+                "reason": "な verbindet hier nicht mit 休むことはできない."
+              },
+              {
+                "text": "たりです",
+                "reason": "Die Kopula bildet hier keinen Anschluss."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "一人たりとも見逃すわけにはいかない。",
@@ -74,7 +168,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formell und nachdrücklich. Wird hauptsächlich in geschriebener oder formeller Sprache verwendet.",
     "related": [
       "n1-desura",
-      "n2-sae"
+      "n4-sae"
     ]
   },
   {
@@ -88,11 +182,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "誰であれ、ルールを守らなければならない。",
+        "cloze": {
+          "start": 1,
+          "answer": "であれ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "誰であれ、ルールを守らなければならない。",
+            "german": "Wer auch immer es ist, muss die Regeln befolgen.",
+            "start": 1,
+            "answer": "であれ",
+            "acceptedAnswers": [
+              "であれ",
+              "でも"
+            ],
+            "distractors": [
+              {
+                "text": "であるを",
+                "reason": "を kann hier nicht an である anschließen."
+              },
+              {
+                "text": "であれな",
+                "reason": "な kann hier nicht an die konzessive Form anschließen."
+              },
+              {
+                "text": "でありまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Dare de are, rūru o mamora nakereba naranai.",
         "german": "Wer auch immer es ist, muss die Regeln befolgen."
       },
       {
         "japanese": "どんな理由であれ、暴力は許されない。",
+        "cloze": {
+          "start": 5,
+          "answer": "であれ"
+        },
         "romaji": "Donna riyū de are, bōryoku wa yurusarenai.",
         "german": "Welcher Grund auch immer, Gewalt ist nicht zu verzeihen."
       }
@@ -100,7 +227,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Oft mit Fragepronomen wie 誰、何、どんな verwendet. Sehr formell.",
     "related": [
       "n1-de-are-de-are",
-      "n2-to-shite-mo"
+      "n3-to-shitemo"
     ]
   },
   {
@@ -115,7 +242,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "昼であれ夜であれ、いつでも連絡してください。",
         "romaji": "Hiru de are yoru de are, itsu demo renraku shite kudasai.",
-        "german": "Ob Tag oder Nacht, kontaktieren Sie mich jederzeit."
+        "german": "Ob Tag oder Nacht, kontaktieren Sie mich jederzeit.",
+        "cloze": {
+          "start": 1,
+          "answer": "であれ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "昼であれ夜であれ、いつでも連絡してください。",
+            "german": "Ob Tag oder Nacht, kontaktieren Sie mich jederzeit.",
+            "start": 1,
+            "answer": "であれ",
+            "acceptedAnswers": [
+              "であれ"
+            ],
+            "distractors": [
+              {
+                "text": "であるを",
+                "reason": "を kann hier nicht an である anschließen."
+              },
+              {
+                "text": "であれな",
+                "reason": "な kann hier nicht an die konzessive Form anschließen."
+              },
+              {
+                "text": "でありまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "男性であれ女性であれ、平等に扱うべきだ。",
@@ -126,7 +281,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Formeller als ～でも～でも. Wird in offiziellen Kontexten bevorzugt.",
     "related": [
       "n1-de-are",
-      "n2-demo-demo"
+      "n3-toshite-mo"
     ]
   },
   {
@@ -140,18 +295,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "子供ですらできることが、彼にはできない。",
+        "cloze": {
+          "start": 2,
+          "answer": "ですら",
+          "quiz": {
+            "level": "N1",
+            "japanese": "子供ですらできることが、彼にはできない。",
+            "german": "Was selbst ein Kind kann, kann er nicht.",
+            "start": 2,
+            "answer": "ですら",
+            "acceptedAnswers": [
+              "ですら",
+              "でも",
+              "さえ"
+            ],
+            "distractors": [
+              {
+                "text": "ですらな",
+                "reason": "な schließt hier nicht できること an."
+              },
+              {
+                "text": "ですらを",
+                "reason": "を kann hier nicht an die Hervorhebung anschließen."
+              },
+              {
+                "text": "ですらます",
+                "reason": "ます kann nicht an すら angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kodomo desura dekiru koto ga, kare ni wa dekinai.",
         "german": "Was selbst ein Kind kann, kann er nicht."
       },
       {
         "japanese": "親ですら彼の行動を理解できなかった。",
+        "cloze": {
+          "start": 1,
+          "answer": "ですら"
+        },
         "romaji": "Oya desura kare no kōdō o rikai dekinakatta.",
         "german": "Selbst seine Eltern konnten sein Verhalten nicht verstehen."
       }
     ],
     "notes": "Formeller und nachdrücklicher als でさえ. Nicht in der gesprochenen Umgangssprache üblich.",
     "related": [
-      "n2-desae",
+      "n4-sae",
       "n1-tari-tomo-nai"
     ]
   },
@@ -166,19 +355,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "社長ともなると、責任も重くなる。",
+        "cloze": {
+          "start": 2,
+          "answer": "ともなると",
+          "quiz": {
+            "level": "N1",
+            "japanese": "社長ともなると、責任も重くなる。",
+            "german": "Wenn man Geschäftsführer ist, wird auch die Verantwortung schwerer.",
+            "start": 2,
+            "answer": "ともなると",
+            "acceptedAnswers": [
+              "ともなると",
+              "ともなれば"
+            ],
+            "distractors": [
+              {
+                "text": "ともなるを",
+                "reason": "を bildet hier keine Bedingung."
+              },
+              {
+                "text": "ともなるます",
+                "reason": "ます benötigt den Stamm なり."
+              },
+              {
+                "text": "ともなればな",
+                "reason": "な kann nicht an die Bedingung angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Shachō to mo naru to, sekinin mo omoku naru.",
         "german": "Wenn man Geschäftsführer ist, wird auch die Verantwortung schwerer."
       },
       {
         "japanese": "プロともなれば、毎日の練習が欠かせない。",
+        "cloze": {
+          "start": 2,
+          "answer": "ともなれば"
+        },
         "romaji": "Puro to mo nareba, mainichi no renshū ga kakasenai.",
         "german": "Wenn man Profi ist, ist tägliches Training unverzichtbar."
       }
     ],
     "notes": "Betont einen besonderen Status oder Level. Oft mit になると austauschbar, aber ともなると ist nachdrücklicher.",
     "related": [
-      "n2-to-naru-to",
-      "n1-to-are-ba"
+      "n1-to-areba"
     ]
   },
   {
@@ -192,11 +413,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "これは京都ならではの料理だ。",
+        "cloze": {
+          "start": 5,
+          "answer": "ならでは",
+          "quiz": {
+            "level": "N1",
+            "japanese": "これは京都ならではの料理だ。",
+            "german": "Das ist ein Gericht, das nur in Kyoto möglich ist.",
+            "start": 5,
+            "answer": "ならでは",
+            "acceptedAnswers": [
+              "ならでは"
+            ],
+            "distractors": [
+              {
+                "text": "ならではな",
+                "reason": "Die folgende の-Verbindung verträgt kein zusätzliches な."
+              },
+              {
+                "text": "ならではを",
+                "reason": "を passt hier nicht vor の料理."
+              },
+              {
+                "text": "ならではます",
+                "reason": "ます kann nicht an ならでは angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kore wa Kyōto nara de wa no ryōri da.",
         "german": "Das ist ein Gericht, das nur in Kyoto möglich ist."
       },
       {
         "japanese": "彼ならではのアイデアだ。",
+        "cloze": {
+          "start": 1,
+          "answer": "ならでは"
+        },
         "romaji": "Kare nara de wa no aidea da.",
         "german": "Das ist eine Idee, die nur er haben kann."
       }
@@ -218,18 +471,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "困難な状況にあっても、希望を失わない。",
+        "cloze": {
+          "start": 5,
+          "answer": "にあって",
+          "quiz": {
+            "level": "N1",
+            "japanese": "困難な状況にあっても、希望を失わない。",
+            "german": "Selbst in schwierigen Situationen verliert man die Hoffnung nicht.",
+            "start": 5,
+            "answer": "にあって",
+            "acceptedAnswers": [
+              "にあって",
+              "であって"
+            ],
+            "distractors": [
+              {
+                "text": "にあった",
+                "reason": "Vor も steht für diese Konzession die て-Form."
+              },
+              {
+                "text": "にある",
+                "reason": "Vor も steht hier die て-Form."
+              },
+              {
+                "text": "にあります",
+                "reason": "Die finite Form passt hier nicht vor も."
+              }
+            ]
+          }
+        },
         "romaji": "Konnan na jōkyō ni atte mo, kibō o ushinawanai.",
         "german": "Selbst in schwierigen Situationen verliert man die Hoffnung nicht."
       },
       {
         "japanese": "このような危機にあって、団結が必要だ。",
+        "cloze": {
+          "start": 7,
+          "answer": "にあって"
+        },
         "romaji": "Kono yō na kiki ni atte, danketsu ga hitsuyō da.",
         "german": "In einer solchen Krise ist Zusammenhalt notwendig."
       }
     ],
     "notes": "Sehr formell. Wird für außergewöhnliche oder besondere Situationen verwendet.",
     "related": [
-      "n2-ni-oite",
+      "n3-ni-oite",
       "n1-to-atte"
     ]
   },
@@ -244,18 +530,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は作家にして画家でもある。",
+        "cloze": {
+          "start": 4,
+          "answer": "にして",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は作家にして画家でもある。",
+            "german": "Er ist Schriftsteller und gleichzeitig auch Maler.",
+            "start": 4,
+            "answer": "にして",
+            "acceptedAnswers": [
+              "にして",
+              "であり"
+            ],
+            "distractors": [
+              {
+                "text": "にする",
+                "reason": "Die Wörterbuchform verbindet hier nicht mit 画家でもある."
+              },
+              {
+                "text": "にします",
+                "reason": "Die finite Form bildet hier keinen Aufzählungsanschluss."
+              },
+              {
+                "text": "にした",
+                "reason": "Die attributive Vergangenheit bildet hier keinen Aufzählungsanschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa sakka ni shite gaka demo aru.",
         "german": "Er ist Schriftsteller und gleichzeitig auch Maler."
       },
       {
         "japanese": "50歳にして初めて成功を収めた。",
+        "cloze": {
+          "start": 3,
+          "answer": "にして"
+        },
         "romaji": "Gojussai ni shite hajimete seikō o osameta.",
         "german": "Erst mit 50 Jahren erzielte er seinen ersten Erfolg."
       }
     ],
     "notes": "Sehr formell und literarisch. Hat verschiedene Nuancen je nach Kontext.",
     "related": [
-      "n2-de-atte",
+      "n1-de-are",
       "n1-to-mo-naru-to"
     ]
   },
@@ -270,19 +589,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "現実に即して計画を立てる必要がある。",
+        "cloze": {
+          "start": 2,
+          "answer": "に即して",
+          "quiz": {
+            "level": "N1",
+            "japanese": "現実に即して計画を立てる必要がある。",
+            "german": "Es ist notwendig, einen Plan gemäß der Realität aufzustellen.",
+            "start": 2,
+            "answer": "に即して",
+            "acceptedAnswers": [
+              "に即して",
+              "に基づいて"
+            ],
+            "distractors": [
+              {
+                "text": "を即して",
+                "reason": "Der Bezugsmaßstab benötigt に."
+              },
+              {
+                "text": "に即した",
+                "reason": "Die attributive Form passt hier nicht vor 計画を立てる."
+              },
+              {
+                "text": "に即します",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Genjitsu ni sokushite keikaku o tateru hitsuyō ga aru.",
         "german": "Es ist notwendig, einen Plan gemäß der Realität aufzustellen."
       },
       {
         "japanese": "規則に即して処理してください。",
+        "cloze": {
+          "start": 2,
+          "answer": "に即して"
+        },
         "romaji": "Kisoku ni sokushite shori shite kudasai.",
         "german": "Bitte bearbeiten Sie es gemäß den Vorschriften."
       }
     ],
     "notes": "Formell. Betont strikte Übereinstimmung mit Regeln oder Realität.",
     "related": [
-      "n2-ni-shitagatte",
-      "n1-wo-motte"
+      "n3-ni-shitagatte",
+      "n2-wo-motte"
     ]
   },
   {
@@ -297,7 +649,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "この作品は鑑賞に堪える名作だ。",
         "romaji": "Kono sakuhin wa kanshō ni taeru meisaku da.",
-        "german": "Dieses Werk ist ein Meisterwerk, das es wert ist, betrachtet zu werden."
+        "german": "Dieses Werk ist ein Meisterwerk, das es wert ist, betrachtet zu werden.",
+        "cloze": {
+          "start": 7,
+          "answer": "に堪える",
+          "quiz": {
+            "level": "N1",
+            "japanese": "この作品は鑑賞に堪える名作だ。",
+            "german": "Dieses Werk ist ein Meisterwerk, das es wert ist, betrachtet zu werden.",
+            "start": 7,
+            "answer": "に堪える",
+            "acceptedAnswers": [
+              "に堪える",
+              "に値する"
+            ],
+            "distractors": [
+              {
+                "text": "に堪え",
+                "reason": "Die Stammform kann hier 名作 nicht attributiv bestimmen."
+              },
+              {
+                "text": "に堪えるます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "に堪えない",
+                "reason": "Dies verneint die Würdigkeit des Betrachtens."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "この痛みは耐えるに堪えない。",
@@ -307,7 +688,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Sehr formell. Die Bedeutung hängt stark vom Kontext ab (positiv vs. negativ).",
     "related": [
-      "n1-ni-ataru",
+      "n2-ni-ataru",
       "n1-ni-taru"
     ]
   },
@@ -322,19 +703,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "兄は真面目なのにひきかえ、弟は怠け者だ。",
+        "cloze": {
+          "start": 7,
+          "answer": "にひきかえ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "兄は真面目なのにひきかえ、弟は怠け者だ。",
+            "german": "Im Gegensatz zum ernsthaften älteren Bruder ist der jüngere Bruder faul.",
+            "start": 7,
+            "answer": "にひきかえ",
+            "acceptedAnswers": [
+              "にひきかえ",
+              "に対して"
+            ],
+            "distractors": [
+              {
+                "text": "をひきかえ",
+                "reason": "Der Vergleichsbezug benötigt hier に."
+              },
+              {
+                "text": "にひきかえるます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "にひきかえな",
+                "reason": "な verbindet hier nicht den Gegensatz."
+              }
+            ]
+          }
+        },
         "romaji": "Ani wa majime na no ni hikikae, otōto wa namakemono da.",
         "german": "Im Gegensatz zum ernsthaften älteren Bruder ist der jüngere Bruder faul."
       },
       {
         "japanese": "去年の好成績にひきかえ、今年は不振だ。",
+        "cloze": {
+          "start": 6,
+          "answer": "にひきかえ"
+        },
         "romaji": "Kyonen no kōseiseki ni hikikae, kotoshi wa fushin da.",
         "german": "Im Gegensatz zu den guten Ergebnissen letztes Jahr sind die diesjährigen schlecht."
       }
     ],
     "notes": "Oft mit negativer Konnotation. Betont einen unerwünschten Kontrast.",
     "related": [
-      "n2-ni-taishite",
-      "n2-no-ni"
+      "n4-ni-taishite",
+      "noni"
     ]
   },
   {
@@ -348,18 +762,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "今年は去年にもまして暑い夏だった。",
+        "cloze": {
+          "start": 5,
+          "answer": "にもまして",
+          "quiz": {
+            "level": "N1",
+            "japanese": "今年は去年にもまして暑い夏だった。",
+            "german": "Dieser Sommer war noch heißer als letztes Jahr.",
+            "start": 5,
+            "answer": "にもまして",
+            "acceptedAnswers": [
+              "にもまして"
+            ],
+            "distractors": [
+              {
+                "text": "にもましました",
+                "reason": "Die finite Vergangenheit bildet hier keinen Vergleichsanschluss."
+              },
+              {
+                "text": "にもますて",
+                "reason": "Die て-Form von 増す lautet 増して."
+              },
+              {
+                "text": "にもましてな",
+                "reason": "な kann hier nicht angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kotoshi wa kyonen ni mo mashite atsui natsu datta.",
         "german": "Dieser Sommer war noch heißer als letztes Jahr."
       },
       {
         "japanese": "彼女は誰にもまして努力家だ。",
+        "cloze": {
+          "start": 4,
+          "answer": "にもまして"
+        },
         "romaji": "Kanojo wa dare ni mo mashite doryokuka da.",
         "german": "Sie ist mehr als jeder andere eine fleißige Person."
       }
     ],
     "notes": "Formell. Betont eine Steigerung oder Überbietung im Vergleich.",
     "related": [
-      "n2-yori-mo",
+      "yori",
       "n1-mo-saru-koto-nagara"
     ]
   },
@@ -374,19 +820,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は日本語のみならず、中国語も話せる。",
+        "cloze": {
+          "start": 5,
+          "answer": "のみならず",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は日本語のみならず、中国語も話せる。",
+            "german": "Er kann nicht nur Japanisch, sondern auch Chinesisch sprechen.",
+            "start": 5,
+            "answer": "のみならず",
+            "acceptedAnswers": [
+              "のみならず",
+              "だけでなく"
+            ],
+            "distractors": [
+              {
+                "text": "のみならずな",
+                "reason": "な kann hier nicht an die Verbindung angehängt werden."
+              },
+              {
+                "text": "のみならずを",
+                "reason": "を bildet hier keinen additiven Anschluss."
+              },
+              {
+                "text": "のみならずます",
+                "reason": "ます kann nicht an ず angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa nihongo nomi narazu, chūgokugo mo hanaseru.",
         "german": "Er kann nicht nur Japanisch, sondern auch Chinesisch sprechen."
       },
       {
         "japanese": "この製品は品質が良いのみならず、価格も手頃だ。",
+        "cloze": {
+          "start": 10,
+          "answer": "のみならず"
+        },
         "romaji": "Kono seihin wa hinshitsu ga yoi nomi narazu, kakaku mo tegoro da.",
         "german": "Dieses Produkt hat nicht nur gute Qualität, sondern auch einen erschwinglichen Preis."
       }
     ],
     "notes": "Sehr formell. Wird hauptsächlich in geschriebener Sprache verwendet.",
     "related": [
-      "n2-dake-de-naku",
-      "n1-ni-todomarazu"
+      "n4-dake-de-naku",
+      "n2-ni-todomarazu"
     ]
   },
   {
@@ -400,18 +879,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は漢字はおろか、ひらがなも読めない。",
+        "cloze": {
+          "start": 4,
+          "answer": "はおろか",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は漢字はおろか、ひらがなも読めない。",
+            "german": "Er kann nicht einmal Hiragana lesen, geschweige denn Kanji.",
+            "start": 4,
+            "answer": "はおろか",
+            "acceptedAnswers": [
+              "はおろか"
+            ],
+            "distractors": [
+              {
+                "text": "はおろかを",
+                "reason": "を bildet hier keinen steigernden Anschluss."
+              },
+              {
+                "text": "はおろかます",
+                "reason": "ます kann nicht direkt an おろか angehängt werden."
+              },
+              {
+                "text": "はおろかな",
+                "reason": "Die attributive Form schließt hier nicht ひらがなも読めない an."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa kanji wa oroka, hiragana mo yomenai.",
         "german": "Er kann nicht einmal Hiragana lesen, geschweige denn Kanji."
       },
       {
         "japanese": "忙しくて、旅行はおろか映画を見る時間もない。",
+        "cloze": {
+          "start": 7,
+          "answer": "はおろか"
+        },
         "romaji": "Isogashikute, ryokō wa oroka eiga o miru jikan mo nai.",
         "german": "Ich bin so beschäftigt, dass ich nicht einmal Zeit habe, einen Film zu sehen, geschweige denn zu reisen."
       }
     ],
     "notes": "Betont, dass selbst das Einfachere nicht möglich ist. Das Schwierigere wird zuerst genannt.",
     "related": [
-      "n2-dokoro-ka",
+      "n3-dokoro-ka",
       "n1-mo-saru-koto-nagara"
     ]
   },
@@ -426,11 +937,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の学歴もさることながら、実務経験が豊富だ。",
+        "cloze": {
+          "start": 4,
+          "answer": "もさることながら",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の学歴もさることながら、実務経験が豊富だ。",
+            "german": "Nicht nur sein Bildungsabschluss ist bemerkenswert, sondern er hat auch reiche praktische Erfahrung.",
+            "start": 4,
+            "answer": "もさることながら",
+            "acceptedAnswers": [
+              "もさることながら"
+            ],
+            "distractors": [
+              {
+                "text": "もさることをながら",
+                "reason": "を kann hier nicht vor ながら stehen."
+              },
+              {
+                "text": "もさることながらな",
+                "reason": "な kann nicht an diese Verbindung angehängt werden."
+              },
+              {
+                "text": "もさることながらます",
+                "reason": "ます kann nicht an ながら angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no gakureki mo saru koto nagara, jitsumu keiken ga hōfu da.",
         "german": "Nicht nur sein Bildungsabschluss ist bemerkenswert, sondern er hat auch reiche praktische Erfahrung."
       },
       {
         "japanese": "味もさることながら、この店は雰囲気が素晴らしい。",
+        "cloze": {
+          "start": 1,
+          "answer": "もさることながら"
+        },
         "romaji": "Aji mo saru koto nagara, kono mise wa fun'iki ga subarashii.",
         "german": "Nicht nur der Geschmack, sondern auch die Atmosphäre dieses Restaurants ist wunderbar."
       }
@@ -457,14 +1000,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "経験不足ゆえに、失敗してしまった。",
+        "cloze": {
+          "start": 4,
+          "answer": "ゆえに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "経験不足ゆえに、失敗してしまった。",
+            "german": "Wegen mangelnder Erfahrung bin ich gescheitert.",
+            "start": 4,
+            "answer": "ゆえに",
+            "acceptedAnswers": [
+              "ゆえに",
+              "のために"
+            ],
+            "distractors": [
+              {
+                "text": "ゆえを",
+                "reason": "を bildet hier keinen Grundanschluss."
+              },
+              {
+                "text": "ゆえな",
+                "reason": "な schließt hier nicht den Folgesatz an."
+              },
+              {
+                "text": "ゆえます",
+                "reason": "ます kann nicht an ゆえ angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Keiken busoku yue ni, shippai shite shimatta.",
         "german": "Wegen mangelnder Erfahrung bin ich gescheitert."
       }
     ],
     "notes": "Sehr formell und literarisch. Wird hauptsächlich in geschriebener Sprache verwendet.",
     "related": [
-      "n2-no-de",
-      "n1-ni-hoka-naranai"
+      "node",
+      "n2-ni-hoka-naranai"
     ]
   },
   {
@@ -478,11 +1050,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "この仕事は彼をおいてほかにない。",
+        "cloze": {
+          "start": 6,
+          "answer": "をおいてほかにない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "この仕事は彼をおいてほかにない。",
+            "german": "Für diese Arbeit gibt es niemanden außer ihm.",
+            "start": 6,
+            "answer": "をおいてほかにない",
+            "acceptedAnswers": [
+              "をおいてほかにない"
+            ],
+            "distractors": [
+              {
+                "text": "をおいてほかにある",
+                "reason": "Dies behauptet weitere Möglichkeiten statt Ausschließlichkeit."
+              },
+              {
+                "text": "をおいてほかにないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "をおいてほかをない",
+                "reason": "ない verlangt hier keine Objektpartikel."
+              }
+            ]
+          }
+        },
         "romaji": "Kono shigoto wa kare o oite hoka ni nai.",
         "german": "Für diese Arbeit gibt es niemanden außer ihm."
       },
       {
         "japanese": "今この問題を解決できるのは、あなたをおいてほかにない。",
+        "cloze": {
+          "start": 17,
+          "answer": "をおいてほかにない"
+        },
         "romaji": "Ima kono mondai o kaiketsu dekiru no wa, anata o oite hoka ni nai.",
         "german": "Niemand außer dir kann dieses Problem jetzt lösen."
       }
@@ -490,7 +1094,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr nachdrücklich. Betont die Einzigartigkeit oder absolute Eignung.",
     "related": [
       "n1-nara-de-wa",
-      "n2-shika-nai"
+      "shika-nai"
     ]
   },
   {
@@ -504,18 +1108,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "東京を皮切りに、全国ツアーを行う。",
+        "cloze": {
+          "start": 2,
+          "answer": "を皮切りに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "東京を皮切りに、全国ツアーを行う。",
+            "german": "Angefangen mit Tokyo führen wir eine landesweite Tournee durch.",
+            "start": 2,
+            "answer": "を皮切りに",
+            "acceptedAnswers": [
+              "を皮切りに"
+            ],
+            "distractors": [
+              {
+                "text": "を皮切りを",
+                "reason": "Die Wendung schließt mit に an."
+              },
+              {
+                "text": "に皮切りに",
+                "reason": "Der Ausgangspunkt benötigt を."
+              },
+              {
+                "text": "を皮切ります",
+                "reason": "ます kann nicht direkt an 皮切り angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Tōkyō o kawakiri ni, zenkoku tsuā o okonau.",
         "german": "Angefangen mit Tokyo führen wir eine landesweite Tournee durch."
       },
       {
         "japanese": "この事件を皮切りに、様々な問題が明るみに出た。",
+        "cloze": {
+          "start": 4,
+          "answer": "を皮切りに"
+        },
         "romaji": "Kono jiken o kawakiri ni, samazama na mondai ga akarumi ni deta.",
         "german": "Angefangen mit diesem Vorfall kamen verschiedene Probleme ans Licht."
       }
     ],
     "notes": "Wird oft für Tourneen, Veranstaltungsreihen oder Entwicklungen verwendet.",
     "related": [
-      "n2-wo-hajime-to-shite",
+      "n3-o-hajime",
       "n1-wo-hete"
     ]
   },
@@ -530,18 +1166,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "長い議論を経て、ようやく合意に達した。",
+        "cloze": {
+          "start": 4,
+          "answer": "を経て",
+          "quiz": {
+            "level": "N1",
+            "japanese": "長い議論を経て、ようやく合意に達した。",
+            "german": "Nach langen Diskussionen haben wir endlich eine Einigung erreicht.",
+            "start": 4,
+            "answer": "を経て",
+            "acceptedAnswers": [
+              "を経て"
+            ],
+            "distractors": [
+              {
+                "text": "を経た",
+                "reason": "Die attributive Form verbindet hier nicht den Folgesatz."
+              },
+              {
+                "text": "を経ます",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              },
+              {
+                "text": "に経て",
+                "reason": "Die durchlaufene Phase benötigt を."
+              }
+            ]
+          }
+        },
         "romaji": "Nagai giron o hete, yōyaku gōi ni tasshita.",
         "german": "Nach langen Diskussionen haben wir endlich eine Einigung erreicht."
       },
       {
         "japanese": "彼は様々な職を経て、今の地位についた。",
+        "cloze": {
+          "start": 6,
+          "answer": "を経て"
+        },
         "romaji": "Kare wa samazama na shoku o hete, ima no chii ni tsuita.",
         "german": "Nachdem er verschiedene Positionen durchlaufen hat, erreichte er seine jetzige Position."
       }
     ],
     "notes": "Betont den Prozess oder die Entwicklung über Zeit. Formell.",
     "related": [
-      "n2-wo-tsuujite",
+      "n2-wo-tsujite",
       "n1-wo-kawakiri-ni"
     ]
   },
@@ -556,18 +1224,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は困難をものともせずに挑戦し続けた。",
+        "cloze": {
+          "start": 4,
+          "answer": "をものともせずに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は困難をものともせずに挑戦し続けた。",
+            "german": "Er hat ungeachtet der Schwierigkeiten weiterhin Herausforderungen angenommen.",
+            "start": 4,
+            "answer": "をものともせずに",
+            "acceptedAnswers": [
+              "をものともせずに"
+            ],
+            "distractors": [
+              {
+                "text": "をものともせずを",
+                "reason": "を bildet hier keinen adverbialen Anschluss."
+              },
+              {
+                "text": "をものともしないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              },
+              {
+                "text": "をものともせずな",
+                "reason": "な kann hier nicht angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa konnan o mono tomo sezu ni chōsen shi tsuzuketa.",
         "german": "Er hat ungeachtet der Schwierigkeiten weiterhin Herausforderungen angenommen."
       },
       {
         "japanese": "嵐をものともせずに出発した。",
+        "cloze": {
+          "start": 1,
+          "answer": "をものともせずに"
+        },
         "romaji": "Arashi o mono tomo sezu ni shuppatsu shita.",
         "german": "Trotz des Sturms sind sie aufgebrochen."
       }
     ],
     "notes": "Betont Entschlossenheit und starken Willen. Oft mit bewundernder Konnotation.",
     "related": [
-      "n2-ni-mo-kakawarazu",
+      "n3-ni-mo-kakawarazu",
       "n1-wo-yoso-ni"
     ]
   },
@@ -582,18 +1282,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "親の心配をよそに、彼は危険な仕事を続けている。",
+        "cloze": {
+          "start": 4,
+          "answer": "をよそに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "親の心配をよそに、彼は危険な仕事を続けている。",
+            "german": "Ungeachtet der Sorgen seiner Eltern führt er weiterhin eine gefährliche Arbeit aus.",
+            "start": 4,
+            "answer": "をよそに",
+            "acceptedAnswers": [
+              "をよそに"
+            ],
+            "distractors": [
+              {
+                "text": "をよそを",
+                "reason": "Die Wendung schließt mit に an."
+              },
+              {
+                "text": "をよそな",
+                "reason": "な bildet hier keinen adverbialen Anschluss."
+              },
+              {
+                "text": "をよそます",
+                "reason": "ます kann nicht an よそ angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Oya no shinpai o yoso ni, kare wa kiken na shigoto o tsuzukete iru.",
         "german": "Ungeachtet der Sorgen seiner Eltern führt er weiterhin eine gefährliche Arbeit aus."
       },
       {
         "japanese": "周囲の反対をよそに、彼女は計画を実行した。",
+        "cloze": {
+          "start": 5,
+          "answer": "をよそに"
+        },
         "romaji": "Shūi no hantai o yoso ni, kanojo wa keikaku o jikkō shita.",
         "german": "Ignorierend den Widerstand der Umgebung führte sie ihren Plan aus."
       }
     ],
     "notes": "Oft mit kritischer oder negativer Konnotation. Betont mangelnde Rücksichtnahme.",
     "related": [
-      "n2-ni-mo-kakawarazu",
+      "n3-ni-mo-kakawarazu",
       "n1-wo-mono-tomo-sezu-ni"
     ]
   },
@@ -609,7 +1341,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "台風のため、イベントの中止を余儀なくされた。",
         "romaji": "Taifū no tame, ibento no chūshi o yoginaku sareta.",
-        "german": "Wegen des Taifuns waren wir gezwungen, die Veranstaltung abzusagen."
+        "german": "Wegen des Taifuns waren wir gezwungen, die Veranstaltung abzusagen.",
+        "cloze": {
+          "start": 13,
+          "answer": "を余儀なくされた",
+          "quiz": {
+            "level": "N1",
+            "japanese": "台風のため、イベントの中止を余儀なくされた。",
+            "german": "Wegen des Taifuns waren wir gezwungen, die Veranstaltung abzusagen.",
+            "start": 13,
+            "answer": "を余儀なくされた",
+            "acceptedAnswers": [
+              "を余儀なくされた"
+            ],
+            "distractors": [
+              {
+                "text": "を余儀なくされるました",
+                "reason": "Die höfliche Vergangenheit benötigt den Verbstamm."
+              },
+              {
+                "text": "を余儀なくされませんない",
+                "reason": "Die negativen Endungen können nicht so kombiniert werden."
+              },
+              {
+                "text": "を余儀なくされたます",
+                "reason": "ます kann nicht an die einfache Vergangenheit angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "経営難により、工場の閉鎖を余儀なくされた。",
@@ -619,8 +1379,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Formell. Betont unwillige Notwendigkeit aufgrund äußerer Umstände.",
     "related": [
-      "n2-wo-enai",
-      "n2-nai-wake-ni-wa-ikanai"
+      "n3-zaruwoenai",
+      "n4-wake-ni-ikanai"
     ]
   },
   {
@@ -634,19 +1394,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "今日を限りに、タバコをやめる。",
+        "cloze": {
+          "start": 2,
+          "answer": "を限りに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "今日を限りに、タバコをやめる。",
+            "german": "Ab heute höre ich mit dem Rauchen auf.",
+            "start": 2,
+            "answer": "を限りに",
+            "acceptedAnswers": [
+              "を限りに"
+            ],
+            "distractors": [
+              {
+                "text": "を限りを",
+                "reason": "Die zeitliche Grenzangabe schließt mit に an."
+              },
+              {
+                "text": "に限りに",
+                "reason": "Die feste Wendung benötigt am Anfang を."
+              },
+              {
+                "text": "を限りな",
+                "reason": "な bildet hier keinen zeitlichen Anschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Kyō o kagiri ni, tabako o yameru.",
         "german": "Ab heute höre ich mit dem Rauchen auf."
       },
       {
         "japanese": "今月を限りに、この店は閉店します。",
+        "cloze": {
+          "start": 2,
+          "answer": "を限りに"
+        },
         "romaji": "Kongetsu o kagiri ni, kono mise wa heiten shimasu.",
         "german": "Ab diesem Monat schließt dieses Geschäft."
       }
     ],
     "notes": "Wird für offizielle Ankündigungen von Beendigungen verwendet. Markiert klaren Endpunkt.",
     "related": [
-      "n1-wo-motte",
-      "n2-wo-sakai-ni"
+      "n2-wo-motte",
+      "n3-o-kikkake-ni"
     ]
   },
   {
@@ -660,18 +1452,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "過去の経験を踏まえて、新しい計画を立てた。",
+        "cloze": {
+          "start": 5,
+          "answer": "を踏まえて",
+          "quiz": {
+            "level": "N1",
+            "japanese": "過去の経験を踏まえて、新しい計画を立てた。",
+            "german": "Auf der Grundlage vergangener Erfahrungen haben wir einen neuen Plan erstellt.",
+            "start": 5,
+            "answer": "を踏まえて",
+            "acceptedAnswers": [
+              "を踏まえて"
+            ],
+            "distractors": [
+              {
+                "text": "を踏まえた",
+                "reason": "Die attributive Form verbindet hier nicht den Folgesatz."
+              },
+              {
+                "text": "を踏まえます",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              },
+              {
+                "text": "に踏まえて",
+                "reason": "Die berücksichtigte Grundlage benötigt を."
+              }
+            ]
+          }
+        },
         "romaji": "Kako no keiken o fumaete, atarashii keikaku o tateta.",
         "german": "Auf der Grundlage vergangener Erfahrungen haben wir einen neuen Plan erstellt."
       },
       {
         "japanese": "調査結果を踏まえて、対策を検討する。",
+        "cloze": {
+          "start": 4,
+          "answer": "を踏まえて"
+        },
         "romaji": "Chōsa kekka o fumaete, taisaku o kentō suru.",
         "german": "Basierend auf den Untersuchungsergebnissen werden wir Gegenmaßnahmen prüfen."
       }
     ],
     "notes": "Formell. Wird in geschäftlichen und offiziellen Kontexten verwendet.",
     "related": [
-      "n2-ni-motozuite",
+      "n3-ni-motozuite",
       "n1-ni-sokushite"
     ]
   },
@@ -686,18 +1510,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "有名歌手のコンサートとあって、会場は満員だった。",
+        "cloze": {
+          "start": 10,
+          "answer": "とあって",
+          "quiz": {
+            "level": "N1",
+            "japanese": "有名歌手のコンサートとあって、会場は満員だった。",
+            "german": "Da es ein Konzert eines berühmten Sängers war, war der Veranstaltungsort voll.",
+            "start": 10,
+            "answer": "とあって",
+            "acceptedAnswers": [
+              "とあって",
+              "なので"
+            ],
+            "distractors": [
+              {
+                "text": "とあった",
+                "reason": "Die attributive Vergangenheit bildet hier keinen Grundanschluss."
+              },
+              {
+                "text": "とあります",
+                "reason": "Die finite Form bildet hier keinen Grundanschluss."
+              },
+              {
+                "text": "をあって",
+                "reason": "Die Begründungswendung benötigt と."
+              }
+            ]
+          }
+        },
         "romaji": "Yūmei kashu no konsāto to atte, kaijō wa man'in datta.",
         "german": "Da es ein Konzert eines berühmten Sängers war, war der Veranstaltungsort voll."
       },
       {
         "japanese": "初売りとあって、朝から大勢の客が集まった。",
+        "cloze": {
+          "start": 3,
+          "answer": "とあって"
+        },
         "romaji": "Hatsuuri to atte, asa kara ōzei no kyaku ga atsumatta.",
         "german": "Da es der erste Verkaufstag war, versammelten sich seit dem Morgen viele Kunden."
       }
     ],
     "notes": "Betont besondere oder außergewöhnliche Umstände als Grund.",
     "related": [
-      "n2-node",
+      "node",
       "n1-ni-atte"
     ]
   },
@@ -712,11 +1569,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "子供のためとあれば、何でもする。",
+        "cloze": {
+          "start": 5,
+          "answer": "とあれば",
+          "quiz": {
+            "level": "N1",
+            "japanese": "子供のためとあれば、何でもする。",
+            "german": "Wenn es für mein Kind ist, tue ich alles.",
+            "start": 5,
+            "answer": "とあれば",
+            "acceptedAnswers": [
+              "とあれば",
+              "なら"
+            ],
+            "distractors": [
+              {
+                "text": "とあるれば",
+                "reason": "Die Bedingung von ある lautet あれば."
+              },
+              {
+                "text": "をあれば",
+                "reason": "Die angenommene Aussage benötigt と."
+              },
+              {
+                "text": "とありますば",
+                "reason": "Die Bedingung wird nicht mit ますば gebildet."
+              }
+            ]
+          }
+        },
         "romaji": "Kodomo no tame to areba, nan demo suru.",
         "german": "Wenn es für mein Kind ist, tue ich alles."
       },
       {
         "japanese": "会社の存続がかかっているとあれば、協力せざるを得ない。",
+        "cloze": {
+          "start": 12,
+          "answer": "とあれば"
+        },
         "romaji": "Kaisha no sonzoku ga kakatte iru to areba, kyōryoku sezaru o enai.",
         "german": "Wenn das Überleben der Firma auf dem Spiel steht, muss man kooperieren."
       }
@@ -724,7 +1614,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Betont Entschlossenheit oder Bereitschaft unter bestimmten Umständen.",
     "related": [
       "n1-to-atte",
-      "n2-nara"
+      "n4-nara"
     ]
   },
   {
@@ -739,7 +1629,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "彼は性格といい、能力といい、完璧だ。",
         "romaji": "Kare wa seikaku to ii, nōryoku to ii, kanpeki da.",
-        "german": "Sowohl seine Persönlichkeit als auch seine Fähigkeiten sind perfekt."
+        "german": "Sowohl seine Persönlichkeit als auch seine Fähigkeiten sind perfekt.",
+        "cloze": {
+          "start": 4,
+          "answer": "といい",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は性格といい、能力といい、完璧だ。",
+            "german": "Sowohl seine Persönlichkeit als auch seine Fähigkeiten sind perfekt.",
+            "start": 4,
+            "answer": "といい",
+            "acceptedAnswers": [
+              "といい"
+            ],
+            "distractors": [
+              {
+                "text": "をいい",
+                "reason": "Die aufzählende Wendung verwendet と."
+              },
+              {
+                "text": "といいまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "といいな",
+                "reason": "な bildet hier keinen parallelen Bewertungsanschluss."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "この町は景色といい、食べ物といい、素晴らしい。",
@@ -749,7 +1667,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Wird verwendet, um mehrere positive (oder negative) Aspekte zu betonen.",
     "related": [
-      "n2-mo-mo",
+      "mo",
       "n1-de-are-de-are"
     ]
   },
@@ -764,18 +1682,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "いくら天才といえども、努力なしでは成功できない。",
+        "cloze": {
+          "start": 5,
+          "answer": "といえども",
+          "quiz": {
+            "level": "N1",
+            "japanese": "いくら天才といえども、努力なしでは成功できない。",
+            "german": "Auch wenn man ein Genie ist, kann man ohne Anstrengung keinen Erfolg haben.",
+            "start": 5,
+            "answer": "といえども",
+            "acceptedAnswers": [
+              "といえども",
+              "でも"
+            ],
+            "distractors": [
+              {
+                "text": "をいえども",
+                "reason": "Die zitierende Verbindung benötigt と."
+              },
+              {
+                "text": "といえどもな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "といえどもます",
+                "reason": "ます kann nicht an ども angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Ikura tensai to iedomo, doryoku nashi de wa seikō dekinai.",
         "german": "Auch wenn man ein Genie ist, kann man ohne Anstrengung keinen Erfolg haben."
       },
       {
         "japanese": "子供といえども、人権は尊重されるべきだ。",
+        "cloze": {
+          "start": 2,
+          "answer": "といえども"
+        },
         "romaji": "Kodomo to iedomo, jinken wa sonchō sareru beki da.",
         "german": "Auch wenn es Kinder sind, sollten ihre Menschenrechte respektiert werden."
       }
     ],
     "notes": "Sehr formell und literarisch. Wird hauptsächlich in geschriebener Sprache verwendet.",
     "related": [
-      "n2-to-shite-mo",
+      "n3-to-shitemo",
       "n1-de-are"
     ]
   },
@@ -790,19 +1741,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "うちの息子ときたら、勉強もしないでゲームばかりだ。",
+        "cloze": {
+          "start": 5,
+          "answer": "ときたら",
+          "quiz": {
+            "level": "N1",
+            "japanese": "うちの息子ときたら、勉強もしないでゲームばかりだ。",
+            "german": "Was meinen Sohn angeht, er lernt nicht und spielt nur Spiele.",
+            "start": 5,
+            "answer": "ときたら",
+            "acceptedAnswers": [
+              "ときたら"
+            ],
+            "distractors": [
+              {
+                "text": "をきたら",
+                "reason": "Der herausgehobene Bezug benötigt と."
+              },
+              {
+                "text": "とくるたら",
+                "reason": "Die Bedingung von 来る lautet 来たら."
+              },
+              {
+                "text": "ときますたら",
+                "reason": "Die Bedingung wird nicht mit ますたら gebildet."
+              }
+            ]
+          }
+        },
         "romaji": "Uchi no musuko to kitara, benkyō mo shinai de gēmu bakari da.",
         "german": "Was meinen Sohn angeht, er lernt nicht und spielt nur Spiele."
       },
       {
         "japanese": "最近の若者ときたら、礼儀を知らない。",
+        "cloze": {
+          "start": 5,
+          "answer": "ときたら"
+        },
         "romaji": "Saikin no wakamono to kitara, reigi o shiranai.",
         "german": "Was die heutige Jugend angeht, sie kennen keine Manieren."
       }
     ],
     "notes": "Immer negativ oder kritisch konnotiert. Umgangssprachlich.",
     "related": [
-      "n2-to-ittara",
-      "n2-nante"
+      "n1-taruya",
+      "n4-nado"
     ]
   },
   {
@@ -816,18 +1799,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "先生ともあろう人が、そんな間違いをするとは。",
+        "cloze": {
+          "start": 2,
+          "answer": "ともあろう",
+          "quiz": {
+            "level": "N1",
+            "japanese": "先生ともあろう人が、そんな間違いをするとは。",
+            "german": "Dass jemand vom Kaliber eines Lehrers einen solchen Fehler macht!",
+            "start": 2,
+            "answer": "ともあろう",
+            "acceptedAnswers": [
+              "ともあろう"
+            ],
+            "distractors": [
+              {
+                "text": "ともあろうな",
+                "reason": "Vor 人 steht hier kein zusätzliches な."
+              },
+              {
+                "text": "ともありまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "ともあるう",
+                "reason": "Die Vermutungsform von ある lautet あろう."
+              }
+            ]
+          }
+        },
         "romaji": "Sensei to mo arō hito ga, sonna machigai o suru to wa.",
         "german": "Dass jemand vom Kaliber eines Lehrers einen solchen Fehler macht!"
       },
       {
         "japanese": "社長ともあろう者が、約束を破るなんて信じられない。",
+        "cloze": {
+          "start": 2,
+          "answer": "ともあろう"
+        },
         "romaji": "Shachō to mo arō mono ga, yakusoku o yaburu nante shinjirarenai.",
         "german": "Es ist unglaublich, dass jemand vom Rang eines Geschäftsführers ein Versprechen bricht."
       }
     ],
     "notes": "Drückt Überraschung oder Kritik aus. Betont unangemessenes Verhalten für den Status.",
     "related": [
-      "n2-noni",
+      "noni",
       "n1-to-kitara"
     ]
   },
@@ -842,11 +1857,45 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "いくら金持ちとて、幸せとは限らない。",
+        "cloze": {
+          "start": 6,
+          "answer": "とて",
+          "quiz": {
+            "level": "N1",
+            "japanese": "いくら金持ちとて、幸せとは限らない。",
+            "german": "Selbst wenn man reich ist, bedeutet das nicht unbedingt Glück.",
+            "start": 6,
+            "answer": "とて",
+            "acceptedAnswers": [
+              "とて",
+              "でも",
+              "といえども"
+            ],
+            "distractors": [
+              {
+                "text": "とてを",
+                "reason": "を bildet hier keinen konzessiven Anschluss."
+              },
+              {
+                "text": "とてな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "とてます",
+                "reason": "ます kann nicht direkt an とて angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Ikura kanemochi tote, shiawase to wa kagiranai.",
         "german": "Selbst wenn man reich ist, bedeutet das nicht unbedingt Glück."
       },
       {
         "japanese": "親とて、子供の全てを知ることはできない。",
+        "cloze": {
+          "start": 1,
+          "answer": "とて"
+        },
         "romaji": "Oya tote, kodomo no subete o shiru koto wa dekinai.",
         "german": "Auch Eltern können nicht alles über ihre Kinder wissen."
       }
@@ -868,11 +1917,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "そんなことで驚くにあたらない。",
+        "cloze": {
+          "start": 8,
+          "answer": "にあたらない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "そんなことで驚くにあたらない。",
+            "german": "Es ist nicht wert, sich darüber zu wundern.",
+            "start": 8,
+            "answer": "にあたらない",
+            "acceptedAnswers": [
+              "にあたらない"
+            ],
+            "distractors": [
+              {
+                "text": "にあたらないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "にあたるません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "にあたらないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              }
+            ]
+          }
+        },
         "romaji": "Sonna koto de odoroku ni ataranai.",
         "german": "Es ist nicht wert, sich darüber zu wundern."
       },
       {
         "japanese": "心配するにあたらない。すぐに解決する。",
+        "cloze": {
+          "start": 4,
+          "answer": "にあたらない"
+        },
         "romaji": "Shinpai suru ni ataranai. Sugu ni kaiketsu suru.",
         "german": "Es gibt keinen Grund zur Sorge. Es wird bald gelöst."
       }
@@ -880,7 +1961,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Formell. Wird verwendet, um Unnötigkeit einer Handlung oder Emotion auszudrücken.",
     "related": [
       "n1-ni-taeru",
-      "n2-hitsuyou-ga-nai"
+      "nakutemo-ii"
     ]
   },
   {
@@ -894,19 +1975,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "この問題は日本にかぎったことではない。",
+        "cloze": {
+          "start": 7,
+          "answer": "にかぎったことではない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "この問題は日本にかぎったことではない。",
+            "german": "Dieses Problem ist nicht auf Japan beschränkt.",
+            "start": 7,
+            "answer": "にかぎったことではない",
+            "acceptedAnswers": [
+              "にかぎったことではない",
+              "に限らない"
+            ],
+            "distractors": [
+              {
+                "text": "にかぎったことだ",
+                "reason": "Dies bestätigt die Beschränkung auf Japan."
+              },
+              {
+                "text": "にかぎったことではないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "にかぎったことをない",
+                "reason": "Die nominale Verneinung benötigt ではない."
+              }
+            ]
+          }
+        },
         "romaji": "Kono mondai wa Nihon ni kagitta koto de wa nai.",
         "german": "Dieses Problem ist nicht auf Japan beschränkt."
       },
       {
         "japanese": "若者にかぎったことではないが、最近マナーが悪くなっている。",
+        "cloze": {
+          "start": 2,
+          "answer": "にかぎったことではない"
+        },
         "romaji": "Wakamono ni kagitta koto de wa nai ga, saikin manā ga waruku natte iru.",
         "german": "Nicht nur auf junge Leute beschränkt, aber die Manieren werden in letzter Zeit schlechter."
       }
     ],
     "notes": "Wird verwendet, um zu zeigen, dass etwas allgemeiner gilt als angenommen.",
     "related": [
-      "n2-dake-de-wa-nai",
-      "n1-ni-todomarazu"
+      "n4-dake-de-naku",
+      "n2-ni-todomarazu"
     ]
   },
   {
@@ -920,19 +2034,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "この映画は見るに足る作品だ。",
+        "cloze": {
+          "start": 7,
+          "answer": "に足る",
+          "quiz": {
+            "level": "N1",
+            "japanese": "この映画は見るに足る作品だ。",
+            "german": "Dieser Film ist ein Werk, das es wert ist, gesehen zu werden.",
+            "start": 7,
+            "answer": "に足る",
+            "acceptedAnswers": [
+              "に足る",
+              "に値する"
+            ],
+            "distractors": [
+              {
+                "text": "に足り",
+                "reason": "Die Stammform kann hier 作品 nicht attributiv bestimmen."
+              },
+              {
+                "text": "に足るます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "に足らない",
+                "reason": "Dies verneint die Würdigkeit des Betrachtens."
+              }
+            ]
+          }
+        },
         "romaji": "Kono eiga wa miru ni taru sakuhin da.",
         "german": "Dieser Film ist ein Werk, das es wert ist, gesehen zu werden."
       },
       {
         "japanese": "彼は信頼に足る人物だ。",
+        "cloze": {
+          "start": 4,
+          "answer": "に足る"
+        },
         "romaji": "Kare wa shinrai ni taru jinbutsu da.",
         "german": "Er ist eine Person, die des Vertrauens würdig ist."
       }
     ],
     "notes": "Sehr formell. Betont Wert oder Würdigkeit.",
     "related": [
-      "n1-ni-taeru",
-      "n2-ni-atai-suru"
+      "n1-ni-taeru"
     ]
   },
   {
@@ -946,18 +2092,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "理由のいかんによらず、暴力は許されない。",
+        "cloze": {
+          "start": 3,
+          "answer": "いかんによらず",
+          "quiz": {
+            "level": "N1",
+            "japanese": "理由のいかんによらず、暴力は許されない。",
+            "german": "Ungeachtet des Grundes ist Gewalt nicht zu verzeihen.",
+            "start": 3,
+            "answer": "いかんによらず",
+            "acceptedAnswers": [
+              "いかんによらず",
+              "いかんにかかわらず"
+            ],
+            "distractors": [
+              {
+                "text": "いかんによる",
+                "reason": "Dies macht die Aussage vom Grund abhängig statt davon unabhängig."
+              },
+              {
+                "text": "いかんをよらず",
+                "reason": "Der Bezug benötigt に."
+              },
+              {
+                "text": "いかんによらずな",
+                "reason": "な kann hier nicht angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Riyū no ikan ni yorazu, bōryoku wa yurusarenai.",
         "german": "Ungeachtet des Grundes ist Gewalt nicht zu verzeihen."
       },
       {
         "japanese": "年齢のいかんによらず、誰でも参加できる。",
+        "cloze": {
+          "start": 3,
+          "answer": "いかんによらず"
+        },
         "romaji": "Nenrei no ikan ni yorazu, dare demo sanka dekiru.",
         "german": "Unabhängig vom Alter kann jeder teilnehmen."
       }
     ],
     "notes": "Sehr formell. Wird in offiziellen Dokumenten und Ankündigungen verwendet.",
     "related": [
-      "n2-ni-kakawarazu",
+      "n3-ni-kakawarazu",
       "n1-ikan-de-wa"
     ]
   },
@@ -972,18 +2151,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "やり方いかんでは、成功する可能性もある。",
+        "cloze": {
+          "start": 3,
+          "answer": "いかんでは",
+          "quiz": {
+            "level": "N1",
+            "japanese": "やり方いかんでは、成功する可能性もある。",
+            "german": "Je nach Vorgehensweise gibt es auch die Möglichkeit des Erfolgs.",
+            "start": 3,
+            "answer": "いかんでは",
+            "acceptedAnswers": [
+              "いかんでは",
+              "次第では"
+            ],
+            "distractors": [
+              {
+                "text": "いかんを",
+                "reason": "を bildet hier keine abhängige Bedingung."
+              },
+              {
+                "text": "いかんな",
+                "reason": "な kann hier den Folgesatz nicht anschließen."
+              },
+              {
+                "text": "いかんます",
+                "reason": "ます kann nicht direkt an いかん angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Yarikata ikan de wa, seikō suru kanōsei mo aru.",
         "german": "Je nach Vorgehensweise gibt es auch die Möglichkeit des Erfolgs."
       },
       {
         "japanese": "条件のいかんによっては、契約を見直す必要がある。",
+        "cloze": {
+          "start": 3,
+          "answer": "いかんによっては"
+        },
         "romaji": "Jōken no ikan ni yotte wa, keiyaku o minaosu hitsuyō ga aru.",
         "german": "Je nach den Bedingungen muss der Vertrag überprüft werden."
       }
     ],
     "notes": "Sehr formell. Betont Abhängigkeit des Ergebnisses von Umständen.",
     "related": [
-      "n2-ni-yotte",
+      "n4-ni-yotte",
       "n1-ikan-ni-yorazu"
     ]
   },
@@ -998,11 +2210,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "このような賞をいただき、光栄の至りです。",
+        "cloze": {
+          "start": 14,
+          "answer": "の至り",
+          "quiz": {
+            "level": "N1",
+            "japanese": "このような賞をいただき、光栄の至りです。",
+            "german": "Einen solchen Preis zu erhalten ist mir eine große Ehre.",
+            "start": 14,
+            "answer": "の至り",
+            "acceptedAnswers": [
+              "の至り"
+            ],
+            "distractors": [
+              {
+                "text": "の至ります",
+                "reason": "Die finite Verbform passt hier nicht vor です."
+              },
+              {
+                "text": "を至り",
+                "reason": "Die Steigerungswendung verbindet das Nomen mit の."
+              },
+              {
+                "text": "の至りな",
+                "reason": "Vor です steht hier kein な."
+              }
+            ]
+          }
+        },
         "romaji": "Kono yō na shō o itadaki, kōei no itari desu.",
         "german": "Einen solchen Preis zu erhalten ist mir eine große Ehre."
       },
       {
         "japanese": "皆様にご心配をおかけして、恐縮の至りです。",
+        "cloze": {
+          "start": 15,
+          "answer": "の至り"
+        },
         "romaji": "Minasama ni go-shinpai o okake shite, kyōshuku no itari desu.",
         "german": "Es tut mir sehr leid, Ihnen allen Sorgen bereitet zu haben."
       }
@@ -1010,7 +2254,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formell und höflich. Wird hauptsächlich in formellen Ansprachen verwendet.",
     "related": [
       "n1-no-kiwami",
-      "n2-koto-desu"
+      "n3-koto-da"
     ]
   },
   {
@@ -1024,11 +2268,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の行動は無礼の極みだ。",
+        "cloze": {
+          "start": 7,
+          "answer": "の極み",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の行動は無礼の極みだ。",
+            "german": "Sein Verhalten ist der Gipfel der Unhöflichkeit.",
+            "start": 7,
+            "answer": "の極み",
+            "acceptedAnswers": [
+              "の極み"
+            ],
+            "distractors": [
+              {
+                "text": "を極み",
+                "reason": "Die Steigerungswendung verbindet das Nomen mit の."
+              },
+              {
+                "text": "の極みます",
+                "reason": "ます kann nicht direkt an 極み angehängt werden."
+              },
+              {
+                "text": "の極みな",
+                "reason": "Vor だ steht hier kein な."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no kōdō wa burei no kiwami da.",
         "german": "Sein Verhalten ist der Gipfel der Unhöflichkeit."
       },
       {
         "japanese": "このような栄誉を受けるとは、喜びの極みです。",
+        "cloze": {
+          "start": 16,
+          "answer": "の極み"
+        },
         "romaji": "Kono yō na eiyo o ukeru to wa, yorokobi no kiwami desu.",
         "german": "Eine solche Ehre zu erhalten ist der Gipfel der Freude."
       }
@@ -1036,7 +2312,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formell und literarisch. Betont extreme Intensität eines Gefühls.",
     "related": [
       "n1-no-itari",
-      "n2-kiwamete"
+      "n1-kiwamarinai"
     ]
   },
   {
@@ -1050,6 +2326,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "この映画は見る人を感動させずにはおかない。",
+        "cloze": {
+          "start": 13,
+          "answer": "ずにはおかない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "この映画は見る人を感動させずにはおかない。",
+            "german": "Dieser Film kann die Zuschauer nicht anders als bewegen.",
+            "start": 13,
+            "answer": "ずにはおかない",
+            "acceptedAnswers": [
+              "ずにはおかない"
+            ],
+            "distractors": [
+              {
+                "text": "ずにはおかないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "ずにはおくません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "ずにはおかないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              }
+            ]
+          }
+        },
         "romaji": "Kono eiga wa miru hito wo kandou sasezuni wa okanai.",
         "german": "Dieser Film kann die Zuschauer nicht anders als bewegen."
       },
@@ -1076,11 +2380,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "この事実は世間を騒がせないではおかない。",
+        "cloze": {
+          "start": 11,
+          "answer": "ないではおかない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "この事実は世間を騒がせないではおかない。",
+            "german": "Diese Tatsache wird die Öffentlichkeit unweigerlich in Aufruhr versetzen.",
+            "start": 11,
+            "answer": "ないではおかない",
+            "acceptedAnswers": [
+              "ないではおかない"
+            ],
+            "distractors": [
+              {
+                "text": "ないではおかないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "ないではおくません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "ないではおかないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              }
+            ]
+          }
+        },
         "romaji": "Kono jijitsu wa seken wo sawagasenai de wa okanai.",
         "german": "Diese Tatsache wird die Öffentlichkeit unweigerlich in Aufruhr versetzen."
       },
       {
         "japanese": "彼女の美しさは人々を魅了しないではおかない。",
+        "cloze": {
+          "start": 13,
+          "answer": "ないではおかない"
+        },
         "romaji": "Kanojo no utsukushisa wa hitobito wo miryou shinai de wa okanai.",
         "german": "Ihre Schönheit kann die Menschen nicht anders als faszinieren."
       }
@@ -1102,11 +2438,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "約束を破ってしまったので、謝らずにはすまない。",
+        "cloze": {
+          "start": 15,
+          "answer": "ずにはすまない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "約束を破ってしまったので、謝らずにはすまない。",
+            "german": "Da ich das Versprechen gebrochen habe, muss ich mich unbedingt entschuldigen.",
+            "start": 15,
+            "answer": "ずにはすまない",
+            "acceptedAnswers": [
+              "ずにはすまない"
+            ],
+            "distractors": [
+              {
+                "text": "ずにはすむ",
+                "reason": "Dies behauptet, man könne ohne Entschuldigung auskommen."
+              },
+              {
+                "text": "ずにはすまないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "ずをはすまない",
+                "reason": "Die feste Verbindung benötigt に."
+              }
+            ]
+          }
+        },
         "romaji": "Yakusoku wo yabutte shimatta node, ayamarazu ni wa sumanai.",
         "german": "Da ich das Versprechen gebrochen habe, muss ich mich unbedingt entschuldigen."
       },
       {
         "japanese": "彼に迷惑をかけたから、お詫びをせずにはすまない。",
+        "cloze": {
+          "start": 16,
+          "answer": "ずにはすまない"
+        },
         "romaji": "Kare ni meiwaku wo kaketa kara, owabi wo sezu ni wa sumanai.",
         "german": "Da ich ihm Unannehmlichkeiten bereitet habe, muss ich mich unbedingt entschuldigen."
       }
@@ -1128,11 +2496,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "この問題は説明しないではすまない。",
+        "cloze": {
+          "start": 8,
+          "answer": "ないではすまない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "この問題は説明しないではすまない。",
+            "german": "Dieses Problem muss unbedingt erklärt werden.",
+            "start": 8,
+            "answer": "ないではすまない",
+            "acceptedAnswers": [
+              "ないではすまない"
+            ],
+            "distractors": [
+              {
+                "text": "ないではすむ",
+                "reason": "Dies behauptet, man könne ohne Erklärung auskommen."
+              },
+              {
+                "text": "ないではすまないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "ないをはすまない",
+                "reason": "Die feste Verbindung benötigt で."
+              }
+            ]
+          }
+        },
         "romaji": "Kono mondai wa setsumei shinai de wa sumanai.",
         "german": "Dieses Problem muss unbedingt erklärt werden."
       },
       {
         "japanese": "責任者として、辞職しないではすまないだろう。",
+        "cloze": {
+          "start": 10,
+          "answer": "ないではすまない"
+        },
         "romaji": "Sekininsha toshite, jishoku shinai de wa sumanai darou.",
         "german": "Als Verantwortlicher wird man wohl nicht umhinkommen zurückzutreten."
       }
@@ -1159,14 +2559,41 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "世界平和を祈ってやまない。",
+        "cloze": {
+          "start": 7,
+          "answer": "てやまない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "世界平和を祈ってやまない。",
+            "german": "Ich bete unaufhörlich für den Weltfrieden.",
+            "start": 7,
+            "answer": "てやまない",
+            "acceptedAnswers": [
+              "てやまない"
+            ],
+            "distractors": [
+              {
+                "text": "たやまない",
+                "reason": "Die Wendung benötigt nach 祈っ die て-Form."
+              },
+              {
+                "text": "てやまないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "てやむません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              }
+            ]
+          }
+        },
         "romaji": "Sekai heiwa wo inotte yamanai.",
         "german": "Ich bete unaufhörlich für den Weltfrieden."
       }
     ],
     "notes": "Sehr formell, oft in Reden, Grußworten oder schriftlichen Ansprachen verwendet.",
     "related": [
-      "n1-te-tomanu",
-      "n2-te-止まない"
+      "n1-te-yamanu"
     ]
   },
   {
@@ -1180,19 +2607,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お礼かたがた、ご挨拶に伺いました。",
+        "cloze": {
+          "start": 2,
+          "answer": "かたがた",
+          "quiz": {
+            "level": "N1",
+            "japanese": "お礼かたがた、ご挨拶に伺いました。",
+            "german": "Ich kam vorbei, um mich zu bedanken und gleichzeitig zu grüßen.",
+            "start": 2,
+            "answer": "かたがた",
+            "acceptedAnswers": [
+              "かたがた",
+              "がてら"
+            ],
+            "distractors": [
+              {
+                "text": "かたがたを",
+                "reason": "を bildet hier keinen Verbindungsanschluss."
+              },
+              {
+                "text": "かたがたな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "かたがたます",
+                "reason": "ます kann nicht direkt an かたがた angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Orei katagata, go-aisatsu ni ukagaimashita.",
         "german": "Ich kam vorbei, um mich zu bedanken und gleichzeitig zu grüßen."
       },
       {
         "japanese": "散歩かたがた、買い物に出かけた。",
+        "cloze": {
+          "start": 2,
+          "answer": "かたがた"
+        },
         "romaji": "Sanpo katagata, kaimono ni dekaketa.",
         "german": "Ich ging spazieren und erledigte dabei gleichzeitig Einkäufe."
       }
     ],
     "notes": "Formell und höflich. Wird oft in Geschäftsbriefen oder formellen Situationen verwendet.",
     "related": [
-      "n1-gatera",
-      "n2-tsui-de-ni"
+      "n1-gatera"
     ]
   },
   {
@@ -1206,19 +2665,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "散歩がてら、郵便局に寄ってきた。",
+        "cloze": {
+          "start": 2,
+          "answer": "がてら",
+          "quiz": {
+            "level": "N1",
+            "japanese": "散歩がてら、郵便局に寄ってきた。",
+            "german": "Ich bin bei einem Spaziergang beim Postamt vorbeigegangen.",
+            "start": 2,
+            "answer": "がてら",
+            "acceptedAnswers": [
+              "がてら",
+              "かたがた"
+            ],
+            "distractors": [
+              {
+                "text": "がてらを",
+                "reason": "を bildet hier keinen Begleitumstandsanschluss."
+              },
+              {
+                "text": "がてらな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "がてらます",
+                "reason": "ます kann nicht direkt an がてら angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Sanpo gatera, yuubinkyoku ni yotte kita.",
         "german": "Ich bin bei einem Spaziergang beim Postamt vorbeigegangen."
       },
       {
         "japanese": "買い物がてら、友達に会ってきた。",
+        "cloze": {
+          "start": 3,
+          "answer": "がてら"
+        },
         "romaji": "Kaimono gatera, tomodachi ni atte kita.",
         "german": "Ich habe mich mit einem Freund getroffen, während ich einkaufen war."
       }
     ],
     "notes": "Etwas weniger formell als かたがた. Hauptaktion steht vor がてら.",
     "related": [
-      "n1-katagata",
-      "n2-tsui-de-ni"
+      "n1-katagata"
     ]
   },
   {
@@ -1232,11 +2723,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は会社員のかたわら、小説を書いている。",
+        "cloze": {
+          "start": 6,
+          "answer": "かたわら",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は会社員のかたわら、小説を書いている。",
+            "german": "Nebenbei, dass er Büroangestellter ist, schreibt er auch Romane.",
+            "start": 6,
+            "answer": "かたわら",
+            "acceptedAnswers": [
+              "かたわら"
+            ],
+            "distractors": [
+              {
+                "text": "かたわらを",
+                "reason": "を bildet hier keinen Nebentätigkeitsanschluss."
+              },
+              {
+                "text": "かたわらな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "かたわらます",
+                "reason": "ます kann nicht direkt an かたわら angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa kaishain no katawara, shousetsu wo kaite iru.",
         "german": "Nebenbei, dass er Büroangestellter ist, schreibt er auch Romane."
       },
       {
         "japanese": "働くかたわら、大学で勉強している。",
+        "cloze": {
+          "start": 2,
+          "answer": "かたわら"
+        },
         "romaji": "Hataraku katawara, daigaku de benkyou shite iru.",
         "german": "Neben der Arbeit studiere ich an der Universität."
       }
@@ -1258,19 +2781,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "借金が増えて、家を売る始末だ。",
+        "cloze": {
+          "start": 11,
+          "answer": "始末だ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "借金が増えて、家を売る始末だ。",
+            "german": "Die Schulden nahmen so zu, dass es damit endete, dass ich das Haus verkaufen musste.",
+            "start": 11,
+            "answer": "始末だ",
+            "acceptedAnswers": [
+              "始末だ"
+            ],
+            "distractors": [
+              {
+                "text": "始末を",
+                "reason": "Die Objektpartikel schließt die Aussage nicht ab."
+              },
+              {
+                "text": "始末な",
+                "reason": "Die attributive Form schließt den Satz nicht ab."
+              },
+              {
+                "text": "始末ます",
+                "reason": "ます kann nicht direkt an 始末 angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Shakkin ga fuete, ie wo uru shimatsu da.",
         "german": "Die Schulden nahmen so zu, dass es damit endete, dass ich das Haus verkaufen musste."
       },
       {
         "japanese": "彼は遅刻ばかりして、ついにクビになる始末だった。",
+        "cloze": {
+          "start": 18,
+          "answer": "始末だ"
+        },
         "romaji": "Kare wa chikoku bakari shite, tsui ni kubi ni naru shimatsu datta.",
         "german": "Er kam ständig zu spät und es endete schließlich damit, dass er gefeuert wurde."
       }
     ],
     "notes": "Ausschließlich für negative Situationen. Drückt Bedauern oder Kritik aus.",
     "related": [
-      "n2-age-ku",
-      "n1-you-ni-naru"
+      "n2-sue-ni",
+      "n4-you-ni-naru"
     ]
   },
   {
@@ -1285,7 +2840,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "聞きたいことがあったのに、聞きそびれてしまった。",
         "romaji": "Kikitai koto ga atta noni, kikisobirete shimatta.",
-        "german": "Ich hatte etwas, das ich fragen wollte, aber ich habe die Gelegenheit verpasst."
+        "german": "Ich hatte etwas, das ich fragen wollte, aber ich habe die Gelegenheit verpasst.",
+        "cloze": {
+          "start": 15,
+          "answer": "そびれて",
+          "quiz": {
+            "level": "N1",
+            "japanese": "聞きたいことがあったのに、聞きそびれてしまった。",
+            "german": "Ich hatte etwas, das ich fragen wollte, aber ich habe die Gelegenheit verpasst.",
+            "start": 15,
+            "answer": "そびれて",
+            "acceptedAnswers": [
+              "そびれて"
+            ],
+            "distractors": [
+              {
+                "text": "そびれた",
+                "reason": "しまった benötigt die て-Verbindung."
+              },
+              {
+                "text": "そびれる",
+                "reason": "しまった benötigt die て-Verbindung."
+              },
+              {
+                "text": "そびれます",
+                "reason": "Die finite Höflichkeitsform passt nicht vor しまった."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "朝ご飯を食べそびれて、お腹が空いた。",
@@ -1295,8 +2878,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Impliziert oft Bedauern über die verpasste Gelegenheit.",
     "related": [
-      "n2-sokonau",
-      "n3-te-shimau"
+      "te-shimau"
     ]
   },
   {
@@ -1310,19 +2892,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "この問題について、政府は説明して然るべきだ。",
+        "cloze": {
+          "start": 15,
+          "answer": "て然るべき",
+          "quiz": {
+            "level": "N1",
+            "japanese": "この問題について、政府は説明して然るべきだ。",
+            "german": "Die Regierung sollte dieses Problem angemessen erklären.",
+            "start": 15,
+            "answer": "て然るべき",
+            "acceptedAnswers": [
+              "て然るべき"
+            ],
+            "distractors": [
+              {
+                "text": "た然るべき",
+                "reason": "Die Wendung benötigt die て-Verbindung."
+              },
+              {
+                "text": "て然るべく",
+                "reason": "Die adverbiale Form passt hier nicht vor だ."
+              },
+              {
+                "text": "て然るべきな",
+                "reason": "Vor だ steht hier kein zusätzliches な."
+              }
+            ]
+          }
+        },
         "romaji": "Kono mondai ni tsuite, seifu wa setsumei shite shikaru beki da.",
         "german": "Die Regierung sollte dieses Problem angemessen erklären."
       },
       {
         "japanese": "彼は責任者として謝罪して然るべき立場にある。",
+        "cloze": {
+          "start": 11,
+          "answer": "て然るべき"
+        },
         "romaji": "Kare wa sekininsha toshite shazai shite shikaru beki tachiba ni aru.",
         "german": "Als Verantwortlicher befindet er sich in einer Position, in der er sich entschuldigen sollte."
       }
     ],
     "notes": "Sehr formell und literarisch. 然る (しかる) bedeutet 'so sein, angemessen sein'.",
     "related": [
-      "n2-beki",
-      "n1-te-touzen"
+      "n4-beki-da"
     ]
   },
   {
@@ -1336,19 +2949,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "何度も失敗してなお、彼は諦めなかった。",
+        "cloze": {
+          "start": 6,
+          "answer": "てなお",
+          "quiz": {
+            "level": "N1",
+            "japanese": "何度も失敗してなお、彼は諦めなかった。",
+            "german": "Selbst nachdem er viele Male gescheitert war, gab er noch nicht auf.",
+            "start": 6,
+            "answer": "てなお",
+            "acceptedAnswers": [
+              "てなお",
+              "ても"
+            ],
+            "distractors": [
+              {
+                "text": "たなお",
+                "reason": "Die verbindende Wendung benötigt die て-Form."
+              },
+              {
+                "text": "てなおな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "てなおます",
+                "reason": "ます kann nicht direkt an なお angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Nando mo shippai shite nao, kare wa akiramenakatta.",
         "german": "Selbst nachdem er viele Male gescheitert war, gab er noch nicht auf."
       },
       {
         "japanese": "説明を聞いてなお、理解できない。",
+        "cloze": {
+          "start": 5,
+          "answer": "てなお"
+        },
         "romaji": "Setsumei wo kiite nao, rikai dekinai.",
         "german": "Selbst nachdem ich die Erklärung gehört habe, kann ich es immer noch nicht verstehen."
       }
     ],
     "notes": "Betont die Fortsetzung eines Zustands trotz entgegenwirkender Faktoren.",
     "related": [
-      "n2-te-mo",
-      "n1-te-mo-nao"
+      "temo"
     ]
   },
   {
@@ -1362,19 +3007,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "子供ではあるまいし、そんなことで泣くな。",
+        "cloze": {
+          "start": 2,
+          "answer": "ではあるまいし",
+          "quiz": {
+            "level": "N1",
+            "japanese": "子供ではあるまいし、そんなことで泣くな。",
+            "german": "Du bist doch kein Kind mehr, weine nicht wegen so etwas.",
+            "start": 2,
+            "answer": "ではあるまいし",
+            "acceptedAnswers": [
+              "ではあるまいし",
+              "ではないし"
+            ],
+            "distractors": [
+              {
+                "text": "ではあるませんし",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "ではあるまいしな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ではあるまいますし",
+                "reason": "ます kann nicht an まい angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kodomo de wa aru mai shi, sonna koto de naku na.",
         "german": "Du bist doch kein Kind mehr, weine nicht wegen so etwas."
       },
       {
         "japanese": "戦争ではあるまいし、そこまでする必要はない。",
+        "cloze": {
+          "start": 2,
+          "answer": "ではあるまいし"
+        },
         "romaji": "Sensou de wa aru mai shi, soko made suru hitsuyou wa nai.",
         "german": "Es ist ja kein Krieg, es ist nicht nötig, so weit zu gehen."
       }
     ],
     "notes": "Drückt Kritik oder Unzufriedenheit aus. Impliziert, dass das Verhalten übertrieben ist.",
     "related": [
-      "n2-wake-de-wa-nai",
-      "n1-mono-de-wa-nai"
+      "n3-wake-dewa-nai",
+      "n3-mono-da"
     ]
   },
   {
@@ -1388,6 +3066,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "好天と相まって、売り上げが伸びた。",
+        "cloze": {
+          "start": 2,
+          "answer": "と相まって",
+          "quiz": {
+            "level": "N1",
+            "japanese": "好天と相まって、売り上げが伸びた。",
+            "german": "Gepaart mit dem guten Wetter stiegen die Verkäufe.",
+            "start": 2,
+            "answer": "と相まって",
+            "acceptedAnswers": [
+              "と相まって"
+            ],
+            "distractors": [
+              {
+                "text": "を相まって",
+                "reason": "Der zusammenwirkende Faktor benötigt と."
+              },
+              {
+                "text": "と相まった",
+                "reason": "Die attributive Vergangenheit bildet hier keinen Anschluss."
+              },
+              {
+                "text": "と相まります",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Kouten to aimatte, uriage ga nobita.",
         "german": "Gepaart mit dem guten Wetter stiegen die Verkäufe."
       },
@@ -1400,7 +3106,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Formell. Betont das Zusammenwirken mehrerer positiver oder negativer Faktoren.",
     "related": [
       "n2-ni-kuwaete",
-      "n1-to-aite"
+      "n1-to-atte"
     ]
   },
   {
@@ -1414,19 +3120,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "忙しいと、ともすれば健康を害しがちだ。",
+        "cloze": {
+          "start": 5,
+          "answer": "ともすれば",
+          "quiz": {
+            "level": "N1",
+            "japanese": "忙しいと、ともすれば健康を害しがちだ。",
+            "german": "Wenn man beschäftigt ist, neigt man leicht dazu, seine Gesundheit zu schädigen.",
+            "start": 5,
+            "answer": "ともすれば",
+            "acceptedAnswers": [
+              "ともすれば",
+              "ともすると"
+            ],
+            "distractors": [
+              {
+                "text": "ともすればを",
+                "reason": "を bildet hier keine adverbiale Neigungsangabe."
+              },
+              {
+                "text": "ともすればな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ともするます",
+                "reason": "ます benötigt den Stamm し."
+              }
+            ]
+          }
+        },
         "romaji": "Isogashii to, tomosureba kenkou wo gaishi gachi da.",
         "german": "Wenn man beschäftigt ist, neigt man leicht dazu, seine Gesundheit zu schädigen."
       },
       {
         "japanese": "一人でいると、ともすると悲観的になる。",
+        "cloze": {
+          "start": 7,
+          "answer": "ともすると"
+        },
         "romaji": "Hitori de iru to, tomosuru to hikantek ni naru.",
         "german": "Wenn man allein ist, wird man leicht pessimistisch."
       }
     ],
     "notes": "ともすれば und ともすると sind austauschbar. Meist mit negativen Tendenzen verwendet.",
     "related": [
-      "n2-gachi",
-      "n2-yasu-i"
+      "n4-gachi",
+      "n4-yasui"
     ]
   },
   {
@@ -1440,19 +3179,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の言うことも分からなくもない。",
+        "cloze": {
+          "start": 10,
+          "answer": "なくもない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の言うことも分からなくもない。",
+            "german": "Was er sagt, ist nicht ganz unverständlich.",
+            "start": 10,
+            "answer": "なくもない",
+            "acceptedAnswers": [
+              "なくもない"
+            ],
+            "distractors": [
+              {
+                "text": "なくもないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "なくもないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              },
+              {
+                "text": "なくもないな",
+                "reason": "Die attributive な-Form bildet hier keinen Satzabschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no iu koto mo wakaranaku mo nai.",
         "german": "Was er sagt, ist nicht ganz unverständlich."
       },
       {
         "japanese": "その提案を受け入れられなくもない。",
+        "cloze": {
+          "start": 11,
+          "answer": "なくもない"
+        },
         "romaji": "Sono teian wo ukeirerare naku mo nai.",
         "german": "Es ist nicht unmöglich, den Vorschlag anzunehmen."
       }
     ],
     "notes": "Drückt zurückhaltende oder vorsichtige Zustimmung aus. Schwächer als eine direkte Affirmation.",
     "related": [
-      "n2-nai-koto-mo-nai",
-      "n1-nai-demo-nai"
+      "n3-nai-koto-wa-nai"
     ]
   },
   {
@@ -1467,7 +3237,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "長年の研究の末、成功に至った。",
         "romaji": "Naganen no kenkyuu no sue, seikou ni itatta.",
-        "german": "Nach jahrelanger Forschung gelangte man schließlich zum Erfolg."
+        "german": "Nach jahrelanger Forschung gelangte man schließlich zum Erfolg.",
+        "cloze": {
+          "start": 10,
+          "answer": "に至った",
+          "quiz": {
+            "level": "N1",
+            "japanese": "長年の研究の末、成功に至った。",
+            "german": "Nach jahrelanger Forschung gelangte man schließlich zum Erfolg.",
+            "start": 10,
+            "answer": "に至った",
+            "acceptedAnswers": [
+              "に至った"
+            ],
+            "distractors": [
+              {
+                "text": "に至らなかった",
+                "reason": "Dies verneint das Erreichen des Erfolgs."
+              },
+              {
+                "text": "に至るました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm 至り."
+              },
+              {
+                "text": "に至りた",
+                "reason": "Die einfache Vergangenheit lautet 至った."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "事態は最悪の状況に至っている。",
@@ -1478,7 +3276,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Formell. Betont den Prozess bis zum Erreichen eines bestimmten Zustands.",
     "related": [
       "n1-ni-itatte-wa",
-      "n2-ni-yotte"
+      "n4-ni-yotte"
     ]
   },
   {
@@ -1492,11 +3290,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "最近の若者は本を読まない。彼に至っては、漫画すら読まない。",
+        "cloze": {
+          "start": 14,
+          "answer": "に至っては",
+          "quiz": {
+            "level": "N1",
+            "japanese": "最近の若者は本を読まない。彼に至っては、漫画すら読まない。",
+            "german": "Junge Leute lesen heutzutage keine Bücher. Was ihn betrifft, liest er nicht einmal Manga.",
+            "start": 14,
+            "answer": "に至っては",
+            "acceptedAnswers": [
+              "に至っては"
+            ],
+            "distractors": [
+              {
+                "text": "に至るは",
+                "reason": "は schließt hier nicht an die Wörterbuchform an."
+              },
+              {
+                "text": "に至りますは",
+                "reason": "は schließt hier nicht an die Höflichkeitsform an."
+              },
+              {
+                "text": "を至っては",
+                "reason": "Der herausgehobene Fall benötigt に."
+              }
+            ]
+          }
+        },
         "romaji": "Saikin no wakamono wa hon wo yomanai. Kare ni itatte wa, manga sura yomanai.",
         "german": "Junge Leute lesen heutzutage keine Bücher. Was ihn betrifft, liest er nicht einmal Manga."
       },
       {
         "japanese": "今年の夏は暑い。先週に至っては、40度を超えた。",
+        "cloze": {
+          "start": 10,
+          "answer": "に至っては"
+        },
         "romaji": "Kotoshi no natsu wa atsui. Senshuu ni itatte wa, 40-do wo koeta.",
         "german": "Dieser Sommer ist heiß. Letzte Woche ist es sogar über 40 Grad gestiegen."
       }
@@ -1504,7 +3334,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Hebt einen extremen oder bemerkenswerten Fall hervor. Oft mit negativen Beispielen.",
     "related": [
       "n1-ni-itaru",
-      "n2-ni-oite-wa"
+      "n3-ni-oite"
     ]
   },
   {
@@ -1518,19 +3348,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "健康が一番だ。病気にならないに越したことはない。",
+        "cloze": {
+          "start": 14,
+          "answer": "に越したことはない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "健康が一番だ。病気にならないに越したことはない。",
+            "german": "Gesundheit ist das Wichtigste. Nichts ist besser, als nicht krank zu werden.",
+            "start": 14,
+            "answer": "に越したことはない",
+            "acceptedAnswers": [
+              "に越したことはない"
+            ],
+            "distractors": [
+              {
+                "text": "に越したことはないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "に越したことをない",
+                "reason": "ない benötigt hier keine Objektpartikel."
+              },
+              {
+                "text": "に越すたことはない",
+                "reason": "Die einfache Vergangenheit von 越す lautet 越した."
+              }
+            ]
+          }
+        },
         "romaji": "Kenkou ga ichiban da. Byouki ni naranai ni koshita koto wa nai.",
         "german": "Gesundheit ist das Wichtigste. Nichts ist besser, als nicht krank zu werden."
       },
       {
         "japanese": "安全のためには、早く帰るに越したことはない。",
+        "cloze": {
+          "start": 12,
+          "answer": "に越したことはない"
+        },
         "romaji": "Anzen no tame ni wa, hayaku kaeru ni koshita koto wa nai.",
         "german": "Aus Sicherheitsgründen ist es am besten, früh nach Hause zu gehen."
       }
     ],
     "notes": "Drückt aus, dass etwas die beste oder idealste Option ist.",
     "related": [
-      "n2-hou-ga-ii",
-      "n1-ni-kagiru"
+      "hou-ga-ii",
+      "n3-kagiri"
     ]
   },
   {
@@ -1544,19 +3406,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "開会式に先立って、リハーサルが行われた。",
+        "cloze": {
+          "start": 3,
+          "answer": "に先立って",
+          "quiz": {
+            "level": "N1",
+            "japanese": "開会式に先立って、リハーサルが行われた。",
+            "german": "Im Vorfeld der Eröffnungszeremonie wurde eine Probe abgehalten.",
+            "start": 3,
+            "answer": "に先立って",
+            "acceptedAnswers": [
+              "に先立って"
+            ],
+            "distractors": [
+              {
+                "text": "を先立って",
+                "reason": "Der zeitliche Bezug benötigt に."
+              },
+              {
+                "text": "に先立った",
+                "reason": "Die attributive Vergangenheit bildet hier keinen Anschluss."
+              },
+              {
+                "text": "に先立ちます",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Kaikaisiki ni sakidatte, rihaasaru ga okonawareta.",
         "german": "Im Vorfeld der Eröffnungszeremonie wurde eine Probe abgehalten."
       },
       {
         "japanese": "新製品の発売に先立ち、記者会見を開きます。",
+        "cloze": {
+          "start": 6,
+          "answer": "に先立ち"
+        },
         "romaji": "Shinseihin no hatsubai ni sakidachi, kisha kaiken wo hirakimasu.",
         "german": "Vor der Markteinführung des neuen Produkts werden wir eine Pressekonferenz abhalten."
       }
     ],
     "notes": "Formell. に先立って und に先立ち sind austauschbar, wobei に先立ち etwas formeller ist.",
     "related": [
-      "n2-mae-ni",
-      "n1-ni-saki-datte"
+      "mae-ni"
     ]
   },
   {
@@ -1570,19 +3463,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "あなたを信頼すればこそ、この仕事を任せるのです。",
+        "cloze": {
+          "start": 8,
+          "answer": "ばこそ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "あなたを信頼すればこそ、この仕事を任せるのです。",
+            "german": "Gerade weil ich dir vertraue, übertrage ich dir diese Arbeit.",
+            "start": 8,
+            "answer": "ばこそ",
+            "acceptedAnswers": [
+              "ばこそ"
+            ],
+            "distractors": [
+              {
+                "text": "ばこそを",
+                "reason": "を bildet hier keinen Grundanschluss."
+              },
+              {
+                "text": "ばこそな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ばこそます",
+                "reason": "ます kann nicht direkt an こそ angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Anata wo shinrai sureba koso, kono shigoto wo makaseru no desu.",
         "german": "Gerade weil ich dir vertraue, übertrage ich dir diese Arbeit."
       },
       {
         "japanese": "苦労があればこそ、成功の喜びも大きい。",
+        "cloze": {
+          "start": 5,
+          "answer": "ばこそ"
+        },
         "romaji": "Kurou ga areba koso, seikou no yorokobi mo ookii.",
         "german": "Gerade weil es Mühe gab, ist die Freude über den Erfolg umso größer."
       }
     ],
     "notes": "Sehr emphatisch. Betont den kausalen Zusammenhang stark.",
     "related": [
-      "n2-kara-koso",
-      "n1-te-koso"
+      "n3-kara-koso",
+      "n3-te-koso"
     ]
   },
   {
@@ -1596,19 +3521,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "試験に落ちればそれまでだ。",
+        "cloze": {
+          "start": 6,
+          "answer": "ばそれまでだ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "試験に落ちればそれまでだ。",
+            "german": "Wenn ich durch die Prüfung falle, ist alles vorbei.",
+            "start": 6,
+            "answer": "ばそれまでだ",
+            "acceptedAnswers": [
+              "ばそれまでだ"
+            ],
+            "distractors": [
+              {
+                "text": "ばそれまでを",
+                "reason": "Die Objektpartikel schließt den Satz nicht ab."
+              },
+              {
+                "text": "ばそれまでな",
+                "reason": "Die attributive Form schließt den Satz nicht ab."
+              },
+              {
+                "text": "ばそれまでもます",
+                "reason": "ます kann nicht an も angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Shiken ni ochireba sore made da.",
         "german": "Wenn ich durch die Prüfung falle, ist alles vorbei."
       },
       {
         "japanese": "諦めたらそれまでだ。最後まで頑張ろう。",
+        "cloze": {
+          "start": 2,
+          "answer": "たらそれまでだ"
+        },
         "romaji": "Akirametara sore made da. Saigo made ganbarou.",
         "german": "Wenn wir aufgeben, ist es vorbei. Lass uns bis zum Ende durchhalten."
       }
     ],
     "notes": "Drückt Endgültigkeit oder Resignation aus. Warnt vor unwiderruflichen Konsequenzen.",
     "related": [
-      "n2-tara",
-      "n1-ba"
+      "tara",
+      "n4-ba"
     ]
   },
   {
@@ -1622,19 +3579,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "立入るべからず。",
+        "cloze": {
+          "start": 3,
+          "answer": "べからず",
+          "quiz": {
+            "level": "N1",
+            "japanese": "立入るべからず。",
+            "german": "Betreten verboten.",
+            "start": 3,
+            "answer": "べからず",
+            "acceptedAnswers": [
+              "べからず"
+            ],
+            "distractors": [
+              {
+                "text": "べし",
+                "reason": "Dies fordert das Betreten statt es zu verbieten."
+              },
+              {
+                "text": "べからずます",
+                "reason": "ます kann nicht an ず angehängt werden."
+              },
+              {
+                "text": "べからずない",
+                "reason": "ない kann nicht an diese klassische Verneinungsform angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Tachiiru bekarazu.",
         "german": "Betreten verboten."
       },
       {
         "japanese": "他人に迷惑をかけるべからず。",
+        "cloze": {
+          "start": 9,
+          "answer": "べからず"
+        },
         "romaji": "Tanin ni meiwaku wo kakeru bekarazu.",
         "german": "Man darf anderen keine Unannehmlichkeiten bereiten."
       }
     ],
     "notes": "Sehr formell und archaisch. Hauptsächlich auf Schildern oder in schriftlichen Regeln.",
     "related": [
-      "n1-beki",
-      "n2-te-wa-ikenai"
+      "n4-beki-da",
+      "n4-tewa-ikenai"
     ]
   },
   {
@@ -1648,19 +3637,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "成功すべく、努力を続けている。",
+        "cloze": {
+          "start": 3,
+          "answer": "べく",
+          "quiz": {
+            "level": "N1",
+            "japanese": "成功すべく、努力を続けている。",
+            "german": "Um erfolgreich zu sein, setze ich meine Bemühungen fort.",
+            "start": 3,
+            "answer": "べく",
+            "acceptedAnswers": [
+              "べく"
+            ],
+            "distractors": [
+              {
+                "text": "べき",
+                "reason": "Die attributive Form bildet hier keinen Zweckanschluss."
+              },
+              {
+                "text": "べからず",
+                "reason": "Dies formuliert ein Verbot statt einer Absicht."
+              },
+              {
+                "text": "べくます",
+                "reason": "ます kann nicht an べく angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Seikou subeku, doryoku wo tsudzukete iru.",
         "german": "Um erfolgreich zu sein, setze ich meine Bemühungen fort."
       },
       {
         "japanese": "真実を明らかにすべく、調査を開始した。",
+        "cloze": {
+          "start": 8,
+          "answer": "べく"
+        },
         "romaji": "Shinjitsu wo akiraka ni subeku, chousa wo kaishi shita.",
         "german": "Um die Wahrheit aufzudecken, begann man mit der Untersuchung."
       }
     ],
     "notes": "Formell und literarisch. する wird zu すべく.",
     "related": [
-      "n2-tame-ni",
-      "n1-beki"
+      "n4-tame-ni",
+      "n4-beki-da"
     ]
   },
   {
@@ -1674,11 +3695,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の才能は私などが及ぶべくもない。",
+        "cloze": {
+          "start": 11,
+          "answer": "べくもない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の才能は私などが及ぶべくもない。",
+            "german": "Sein Talent ist etwas, das ich unmöglich erreichen kann.",
+            "start": 11,
+            "answer": "べくもない",
+            "acceptedAnswers": [
+              "べくもない"
+            ],
+            "distractors": [
+              {
+                "text": "べくもないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "べくもないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              },
+              {
+                "text": "べくをない",
+                "reason": "Die Wendung benötigt も statt を."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no sainou wa watashi nado ga oyobu beku mo nai.",
         "german": "Sein Talent ist etwas, das ich unmöglich erreichen kann."
       },
       {
         "japanese": "この問題は素人が解決すべくもない。",
+        "cloze": {
+          "start": 11,
+          "answer": "べくもない"
+        },
         "romaji": "Kono mondai wa shirouto ga kaiketsu subeku mo nai.",
         "german": "Dieses Problem kann von einem Laien unmöglich gelöst werden."
       }
@@ -1700,11 +3753,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "教師にあるまじき行為だ。",
+        "cloze": {
+          "start": 5,
+          "answer": "まじき",
+          "quiz": {
+            "level": "N1",
+            "japanese": "教師にあるまじき行為だ。",
+            "german": "Das ist ein Verhalten, das eines Lehrers unwürdig ist.",
+            "start": 5,
+            "answer": "まじき",
+            "acceptedAnswers": [
+              "まじき"
+            ],
+            "distractors": [
+              {
+                "text": "まじく",
+                "reason": "Die adverbiale Form kann hier 行為 nicht attributiv bestimmen."
+              },
+              {
+                "text": "まじきな",
+                "reason": "Vor 行為 steht hier kein zusätzliches な."
+              },
+              {
+                "text": "まじきます",
+                "reason": "ます kann nicht direkt an まじき angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kyoushi ni aru majiki koui da.",
         "german": "Das ist ein Verhalten, das eines Lehrers unwürdig ist."
       },
       {
         "japanese": "人として許すまじき罪を犯した。",
+        "cloze": {
+          "start": 6,
+          "answer": "まじき"
+        },
         "romaji": "Hito toshite yurusu majiki tsumi wo okashita.",
         "german": "Er beging ein Verbrechen, das für einen Menschen unverzeihlich ist."
       }
@@ -1712,7 +3797,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formell und archaisch. Drückt starke moralische Verurteilung aus.",
     "related": [
       "n1-bekarazu",
-      "n2-beki-de-wa-nai"
+      "n4-beki-da"
     ]
   },
   {
@@ -1726,19 +3811,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼が来なければ、一人で行くまでだ。",
+        "cloze": {
+          "start": 13,
+          "answer": "までだ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼が来なければ、一人で行くまでだ。",
+            "german": "Wenn er nicht kommt, gehe ich eben alleine.",
+            "start": 13,
+            "answer": "までだ",
+            "acceptedAnswers": [
+              "までだ"
+            ],
+            "distractors": [
+              {
+                "text": "までを",
+                "reason": "Die Objektpartikel schließt den Satz nicht ab."
+              },
+              {
+                "text": "までな",
+                "reason": "Die attributive Form schließt den Satz nicht ab."
+              },
+              {
+                "text": "までもます",
+                "reason": "ます kann nicht direkt an も angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare ga konakereba, hitori de iku made da.",
         "german": "Wenn er nicht kommt, gehe ich eben alleine."
       },
       {
         "japanese": "だめなら、諦めるまでのことだ。",
+        "cloze": {
+          "start": 8,
+          "answer": "までのことだ"
+        },
         "romaji": "Dame nara, akirameru made no koto da.",
         "german": "Wenn es nicht klappt, bleibt mir nichts anderes übrig, als aufzugeben."
       }
     ],
     "notes": "Drückt eine pragmatische oder resignierte Haltung aus.",
     "related": [
-      "n2-shika-nai",
-      "n1-nomi"
+      "shika-nai",
+      "dake"
     ]
   },
   {
@@ -1752,6 +3869,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "そんなことは言うまでもない。",
+        "cloze": {
+          "start": 8,
+          "answer": "までもない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "そんなことは言うまでもない。",
+            "german": "So etwas zu sagen ist nicht nötig (das versteht sich von selbst).",
+            "start": 8,
+            "answer": "までもない",
+            "acceptedAnswers": [
+              "までもない"
+            ],
+            "distractors": [
+              {
+                "text": "までもないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "までもないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              },
+              {
+                "text": "までをない",
+                "reason": "Die Wendung benötigt も statt を."
+              }
+            ]
+          }
+        },
         "romaji": "Sonna koto wa iu made mo nai.",
         "german": "So etwas zu sagen ist nicht nötig (das versteht sich von selbst)."
       },
@@ -1763,7 +3908,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Betont, dass etwas selbstverständlich oder überflüssig ist.",
     "related": [
-      "n2-hitsuyou-ga-nai",
+      "nakutemo-ii",
       "n1-made-da"
     ]
   },
@@ -1778,19 +3923,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "早く言ってくれればよかったものを。",
+        "cloze": {
+          "start": 13,
+          "answer": "ものを",
+          "quiz": {
+            "level": "N1",
+            "japanese": "早く言ってくれればよかったものを。",
+            "german": "Hättest du es mir doch nur früher gesagt (aber du hast es nicht getan).",
+            "start": 13,
+            "answer": "ものを",
+            "acceptedAnswers": [
+              "ものを"
+            ],
+            "distractors": [
+              {
+                "text": "ものます",
+                "reason": "ます kann nicht direkt an もの angehängt werden."
+              },
+              {
+                "text": "ものをます",
+                "reason": "ます kann nicht an die Partikel を angehängt werden."
+              },
+              {
+                "text": "ものなを",
+                "reason": "Die Ausrufwendung benötigt kein な."
+              }
+            ]
+          }
+        },
         "romaji": "Hayaku itte kurereba yokatta mono wo.",
         "german": "Hättest du es mir doch nur früher gesagt (aber du hast es nicht getan)."
       },
       {
         "japanese": "謝れば許してもらえたものを、意地を張って損をした。",
+        "cloze": {
+          "start": 10,
+          "answer": "ものを"
+        },
         "romaji": "Ayamareba yurushite moraeta mono wo, iji wo hatte son wo shita.",
         "german": "Hätte ich mich entschuldigt, wäre mir vergeben worden, aber ich war stur und habe verloren."
       }
     ],
     "notes": "Drückt Bedauern über eine verpasste Gelegenheit oder schlechte Entscheidung aus.",
     "related": [
-      "n2-noni",
-      "n1-tara-yokatta"
+      "noni",
+      "n4-ba-yokatta"
     ]
   },
   {
@@ -1804,19 +3981,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "家に帰るや否や、電話が鳴った。",
+        "cloze": {
+          "start": 4,
+          "answer": "や否や",
+          "quiz": {
+            "level": "N1",
+            "japanese": "家に帰るや否や、電話が鳴った。",
+            "german": "Kaum war ich zu Hause, klingelte das Telefon.",
+            "start": 4,
+            "answer": "や否や",
+            "acceptedAnswers": [
+              "や否や",
+              "なり"
+            ],
+            "distractors": [
+              {
+                "text": "や否やな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "や否やを",
+                "reason": "を bildet hier keinen Zeitanschluss."
+              },
+              {
+                "text": "や否やます",
+                "reason": "ます kann nicht direkt an や否や angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Ie ni kaeru ya inaya, denwa ga natta.",
         "german": "Kaum war ich zu Hause, klingelte das Telefon."
       },
       {
         "japanese": "試験が終わるや否や、学生たちは教室を飛び出した。",
+        "cloze": {
+          "start": 6,
+          "answer": "や否や"
+        },
         "romaji": "Shiken ga owaru ya inaya, gakuseitachi wa kyoushitsu wo tobidashita.",
         "german": "Sobald die Prüfung vorbei war, stürmten die Studenten aus dem Klassenzimmer."
       }
     ],
     "notes": "Formell und literarisch. Betont die unmittelbare Aufeinanderfolge zweier Ereignisse.",
     "related": [
-      "n3-to-sugu",
-      "n2-totan-ni"
+      "n3-totan"
     ]
   },
   {
@@ -1835,14 +4044,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "何をしようと、結果は変わらない。",
+        "cloze": {
+          "start": 3,
+          "answer": "ようと",
+          "quiz": {
+            "level": "N1",
+            "japanese": "何をしようと、結果は変わらない。",
+            "german": "Egal was man tut, das Ergebnis ändert sich nicht.",
+            "start": 3,
+            "answer": "ようと",
+            "acceptedAnswers": [
+              "ようと",
+              "ようが"
+            ],
+            "distractors": [
+              {
+                "text": "ようを",
+                "reason": "Die konzessive Willensform verbindet sich nicht mit を."
+              },
+              {
+                "text": "ようます",
+                "reason": "ます kann nicht an die Willensform angehängt werden."
+              },
+              {
+                "text": "ようとな",
+                "reason": "な kann hier nicht angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Nani wo shiyou to, kekka wa kawaranai.",
         "german": "Egal was man tut, das Ergebnis ändert sich nicht."
       }
     ],
     "notes": "ようが und ようと sind austauschbar. Oft in der Form AようがBようが.",
     "related": [
-      "n2-te-mo",
-      "n1-to-mo"
+      "temo",
+      "n1-tomo"
     ]
   },
   {
@@ -1857,7 +4095,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お金がなくて、買おうにも買えない。",
         "romaji": "Okane ga nakute, kaou ni mo kaenai.",
-        "german": "Ich habe kein Geld, selbst wenn ich es kaufen wollte, kann ich es nicht."
+        "german": "Ich habe kein Geld, selbst wenn ich es kaufen wollte, kann ich es nicht.",
+        "cloze": {
+          "start": 7,
+          "answer": "買おうにも買えない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "お金がなくて、買おうにも買えない。",
+            "german": "Ich habe kein Geld, selbst wenn ich es kaufen wollte, kann ich es nicht.",
+            "start": 7,
+            "answer": "買おうにも買えない",
+            "acceptedAnswers": [
+              "買おうにも買えない"
+            ],
+            "distractors": [
+              {
+                "text": "買おうにも買える",
+                "reason": "Dies bejaht die Kaufmöglichkeit."
+              },
+              {
+                "text": "買おうにも買えないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "買ううにも買えない",
+                "reason": "Die Willensform von 買う lautet 買おう."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "電話番号を知らないので、連絡しようにもできない。",
@@ -1866,10 +4132,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Betont die Unmöglichkeit trotz des Wunsches oder der Absicht.",
-    "related": [
-      "n2-tai-kedo-dekinai",
-      "n1-ta-kute-mo"
-    ]
+    "related": []
   },
   {
     "id": "n1-wo-motte-shite-mo",
@@ -1882,19 +4145,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "現代の科学をもってしても、この病気は治せない。",
+        "cloze": {
+          "start": 5,
+          "answer": "をもってしても",
+          "quiz": {
+            "level": "N1",
+            "japanese": "現代の科学をもってしても、この病気は治せない。",
+            "german": "Selbst mit der modernen Wissenschaft kann diese Krankheit nicht geheilt werden.",
+            "start": 5,
+            "answer": "をもってしても",
+            "acceptedAnswers": [
+              "をもってしても"
+            ],
+            "distractors": [
+              {
+                "text": "をもってするも",
+                "reason": "Die konzessive Verbindung benötigt しても."
+              },
+              {
+                "text": "をもってしますも",
+                "reason": "も schließt hier nicht an die Höflichkeitsform an."
+              },
+              {
+                "text": "をもってしてを",
+                "reason": "を bildet hier keinen konzessiven Anschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Gendai no kagaku wo motte shite mo, kono byouki wa naosenai.",
         "german": "Selbst mit der modernen Wissenschaft kann diese Krankheit nicht geheilt werden."
       },
       {
         "japanese": "彼の努力をもってしても、優勝は難しいだろう。",
+        "cloze": {
+          "start": 4,
+          "answer": "をもってしても"
+        },
         "romaji": "Kare no doryoku wo motte shite mo, yuushou wa muzukashii darou.",
         "german": "Selbst mit seinen Bemühungen wird der Sieg schwierig sein."
       }
     ],
     "notes": "Sehr formell. Betont, dass etwas trotz eines starken Mittels nicht möglich ist.",
     "related": [
-      "n2-te-mo",
-      "n1-wo-motte"
+      "temo",
+      "n2-wo-motte"
     ]
   },
   {
@@ -1908,18 +4203,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "成功せんがために、彼は全てを犠牲にした。",
+        "cloze": {
+          "start": 3,
+          "answer": "んがために",
+          "quiz": {
+            "level": "N1",
+            "japanese": "成功せんがために、彼は全てを犠牲にした。",
+            "german": "Um erfolgreich zu sein, opferte er alles.",
+            "start": 3,
+            "answer": "んがために",
+            "acceptedAnswers": [
+              "んがために"
+            ],
+            "distractors": [
+              {
+                "text": "んがためを",
+                "reason": "Die Zweckverbindung schließt mit に an."
+              },
+              {
+                "text": "んがためな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "んがためます",
+                "reason": "ます kann nicht direkt an ため angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Seikou sen ga tame ni, kare wa subete wo gisei ni shita.",
         "german": "Um erfolgreich zu sein, opferte er alles."
       },
       {
         "japanese": "真実を知らんがために、彼女は調査を続けた。",
+        "cloze": {
+          "start": 5,
+          "answer": "んがために"
+        },
         "romaji": "Shinjitsu wo shiran ga tame ni, kanojo wa chousa wo tsudzuketa.",
         "german": "Um die Wahrheit zu erfahren, setzte sie die Untersuchung fort."
       }
     ],
     "notes": "Sehr formell und archaisch. する wird zu せんがために. Literarischer Stil.",
     "related": [
-      "n2-tame-ni",
+      "n4-tame-ni",
       "n1-beku"
     ]
   },
@@ -1935,7 +4262,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "彼は今にも泣かんばかりの顔をしていた。",
         "romaji": "Kare wa ima ni mo nakan bakari no kao wo shite ita.",
-        "german": "Sein Gesicht sah aus, als würde er gleich weinen."
+        "german": "Sein Gesicht sah aus, als würde er gleich weinen.",
+        "cloze": {
+          "start": 7,
+          "answer": "んばかりの",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は今にも泣かんばかりの顔をしていた。",
+            "german": "Sein Gesicht sah aus, als würde er gleich weinen.",
+            "start": 7,
+            "answer": "んばかりの",
+            "acceptedAnswers": [
+              "んばかりの"
+            ],
+            "distractors": [
+              {
+                "text": "んばかりに",
+                "reason": "Die adverbiale Form bestimmt hier 顔 nicht attributiv."
+              },
+              {
+                "text": "んばかりを",
+                "reason": "を kann hier 顔 nicht attributiv anschließen."
+              },
+              {
+                "text": "んばかります",
+                "reason": "ます kann nicht direkt an ばかり angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "群衆は喜びに溢れんばかりだった。",
@@ -1945,8 +4300,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Literarisch und bildhaft. する wird zu せんばかりに.",
     "related": [
-      "n2-sou",
-      "n1-bakari"
+      "n4-sou-appearance",
+      "n4-bakari-p"
     ]
   },
   {
@@ -1960,11 +4315,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼に秘密を話したが最後、すぐに広まってしまう。",
+        "cloze": {
+          "start": 8,
+          "answer": "が最後",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼に秘密を話したが最後、すぐに広まってしまう。",
+            "german": "Wenn man ihm einmal ein Geheimnis erzählt, verbreitet es sich sofort.",
+            "start": 8,
+            "answer": "が最後",
+            "acceptedAnswers": [
+              "が最後"
+            ],
+            "distractors": [
+              {
+                "text": "が最後を",
+                "reason": "を bildet hier keinen Bedingungsanschluss."
+              },
+              {
+                "text": "が最後な",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "が最後ます",
+                "reason": "ます kann nicht direkt an 最後 angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare ni himitsu wo hanashita ga saigo, sugu ni hiromatte shimau.",
         "german": "Wenn man ihm einmal ein Geheimnis erzählt, verbreitet es sich sofort."
       },
       {
         "japanese": "あの道に入ったら最後、二度と戻れない。",
+        "cloze": {
+          "start": 6,
+          "answer": "たら最後"
+        },
         "romaji": "Ano michi ni haittara saigo, nido to modorenai.",
         "german": "Wenn man einmal diesen Weg einschlägt, kann man nicht mehr zurück."
       }
@@ -1986,19 +4373,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "努力することなしに、成功は得られない。",
+        "cloze": {
+          "start": 4,
+          "answer": "ことなしに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "努力することなしに、成功は得られない。",
+            "german": "Ohne sich anzustrengen, kann man keinen Erfolg erlangen.",
+            "start": 4,
+            "answer": "ことなしに",
+            "acceptedAnswers": [
+              "ことなしに",
+              "ことなく"
+            ],
+            "distractors": [
+              {
+                "text": "ことありに",
+                "reason": "Dies bildet nicht die negative Bedingung ohne Anstrengung."
+              },
+              {
+                "text": "ことなしを",
+                "reason": "を bildet hier keinen Begleitumstandsanschluss."
+              },
+              {
+                "text": "ことなしな",
+                "reason": "な kann hier nicht angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Doryoku suru koto nashi ni, seikou wa erarenai.",
         "german": "Ohne sich anzustrengen, kann man keinen Erfolg erlangen."
       },
       {
         "japanese": "彼は一言も言うことなしに、部屋を出て行った。",
+        "cloze": {
+          "start": 7,
+          "answer": "ことなしに"
+        },
         "romaji": "Kare wa hitokoto mo iu koto nashi ni, heya wo dete itta.",
         "german": "Ohne ein Wort zu sagen, verließ er das Zimmer."
       }
     ],
     "notes": "Formell und literarisch. Formellere Alternative zu ないで oder ずに.",
     "related": [
-      "n1-nashi-ni",
-      "n3-nai-de"
+      "n1-nashi-ni-nakushite",
+      "naide"
     ]
   },
   {
@@ -2012,11 +4432,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "努力なしに成功はない。",
+        "cloze": {
+          "start": 2,
+          "answer": "なしに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "努力なしに成功はない。",
+            "german": "Ohne Anstrengung gibt es keinen Erfolg.",
+            "start": 2,
+            "answer": "なしに",
+            "acceptedAnswers": [
+              "なしに",
+              "なくして"
+            ],
+            "distractors": [
+              {
+                "text": "なしを",
+                "reason": "を bildet hier keinen Begleitumstandsanschluss."
+              },
+              {
+                "text": "なしな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "なします",
+                "reason": "ます kann nicht direkt an なし angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Doryoku nashi ni seikou wa nai.",
         "german": "Ohne Anstrengung gibt es keinen Erfolg."
       },
       {
         "japanese": "平和なくして発展はありえない。",
+        "cloze": {
+          "start": 2,
+          "answer": "なくして"
+        },
         "romaji": "Heiwa nakushite hatten wa arienai.",
         "german": "Ohne Frieden ist Entwicklung unmöglich."
       }
@@ -2024,7 +4477,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "なくして ist emphatischer als なしに. Beide betonen die Unverzichtbarkeit.",
     "related": [
       "n1-koto-nashi-ni",
-      "n2-nashi-de-wa"
+      "n1-nakushite"
     ]
   },
   {
@@ -2038,19 +4491,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お忙しいところを、お時間をいただきありがとうございます。",
+        "cloze": {
+          "start": 4,
+          "answer": "ところを",
+          "quiz": {
+            "level": "N1",
+            "japanese": "お忙しいところを、お時間をいただきありがとうございます。",
+            "german": "Vielen Dank, dass Sie sich Zeit genommen haben, obwohl Sie beschäftigt sind.",
+            "start": 4,
+            "answer": "ところを",
+            "acceptedAnswers": [
+              "ところを"
+            ],
+            "distractors": [
+              {
+                "text": "ところな",
+                "reason": "な schließt hier nicht den Folgesatz an."
+              },
+              {
+                "text": "ところます",
+                "reason": "ます kann nicht direkt an ところ angehängt werden."
+              },
+              {
+                "text": "ところをます",
+                "reason": "ます kann nicht an を angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Oisogashii tokoro wo, ojikan wo itadaki arigatou gozaimasu.",
         "german": "Vielen Dank, dass Sie sich Zeit genommen haben, obwohl Sie beschäftigt sind."
       },
       {
         "japanese": "休んでいるところを邪魔してすみません。",
+        "cloze": {
+          "start": 5,
+          "answer": "ところを"
+        },
         "romaji": "Yasunde iru tokoro wo jama shite sumimasen.",
         "german": "Entschuldigung, dass ich Sie störe, während Sie sich ausruhen."
       }
     ],
     "notes": "Oft in höflichen Entschuldigungen oder Dankesbekundungen verwendet.",
     "related": [
-      "n2-tokoro",
-      "n1-sai-ni"
+      "n4-tokoro-da",
+      "n2-sai-ni"
     ]
   },
   {
@@ -2064,19 +4549,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "雨が降るかと思いきや、急に晴れた。",
+        "cloze": {
+          "start": 4,
+          "answer": "かと思いきや",
+          "quiz": {
+            "level": "N1",
+            "japanese": "雨が降るかと思いきや、急に晴れた。",
+            "german": "Gerade als ich dachte, es würde regnen, klarte es plötzlich auf.",
+            "start": 4,
+            "answer": "かと思いきや",
+            "acceptedAnswers": [
+              "かと思いきや"
+            ],
+            "distractors": [
+              {
+                "text": "かを思いきや",
+                "reason": "Der Gedankeninhalt benötigt と."
+              },
+              {
+                "text": "かと思いきやな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "かと思いきやます",
+                "reason": "ます kann nicht an きや angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Ame ga furu ka to omoikiya, kyuu ni hareta.",
         "german": "Gerade als ich dachte, es würde regnen, klarte es plötzlich auf."
       },
       {
         "japanese": "彼は怒っているかと思いきや、笑い出した。",
+        "cloze": {
+          "start": 7,
+          "answer": "かと思いきや"
+        },
         "romaji": "Kare wa okotte iru ka to omoikiya, waraidashita.",
         "german": "Gerade als ich dachte, er sei wütend, fing er an zu lachen."
       }
     ],
     "notes": "Betont unerwartete Wendungen oder Kontraste zwischen Erwartung und Realität.",
     "related": [
-      "n2-to-omottara",
-      "n1-ka-to-omou-to"
+      "n2-ka-to-omottara"
     ]
   },
   {
@@ -2090,18 +4606,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "隣の部屋がうるさくてはかなわない。",
+        "cloze": {
+          "start": 9,
+          "answer": "てはかなわない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "隣の部屋がうるさくてはかなわない。",
+            "german": "Das Nachbarzimmer ist so laut, dass es unerträglich ist.",
+            "start": 9,
+            "answer": "てはかなわない",
+            "acceptedAnswers": [
+              "てはかなわない"
+            ],
+            "distractors": [
+              {
+                "text": "てはかなわないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "てはかなうません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "たはかなわない",
+                "reason": "Die Verbindung nach うるさく benötigt て."
+              }
+            ]
+          }
+        },
         "romaji": "Tonari no heya ga urusakute wa kanawanai.",
         "german": "Das Nachbarzimmer ist so laut, dass es unerträglich ist."
       },
       {
         "japanese": "毎日残業させられてはかなわない。",
+        "cloze": {
+          "start": 8,
+          "answer": "てはかなわない"
+        },
         "romaji": "Mainichi zangyou saserarete wa kanawanai.",
         "german": "Jeden Tag Überstunden machen zu müssen, ist unerträglich."
       }
     ],
     "notes": "Drückt starke Beschwerde oder Unzufriedenheit über eine Situation aus.",
     "related": [
-      "n2-te-tamaranai",
+      "n3-te-tamaranai",
       "n1-ni-taenai"
     ]
   },
@@ -2116,19 +4664,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の気持ちは想像にかたくない。",
+        "cloze": {
+          "start": 8,
+          "answer": "にかたくない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の気持ちは想像にかたくない。",
+            "german": "Seine Gefühle sind nicht schwer vorstellbar.",
+            "start": 8,
+            "answer": "にかたくない",
+            "acceptedAnswers": [
+              "にかたくない"
+            ],
+            "distractors": [
+              {
+                "text": "にかたくないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "にかたくないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              },
+              {
+                "text": "をかたくない",
+                "reason": "Die Wendung verbindet den Vorstellungsakt mit に."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no kimochi wa souzou ni katakunai.",
         "german": "Seine Gefühle sind nicht schwer vorstellbar."
       },
       {
         "japanese": "その結果は予想にかたくない。",
+        "cloze": {
+          "start": 7,
+          "answer": "にかたくない"
+        },
         "romaji": "Sono kekka wa yosou ni katakunai.",
         "german": "Dieses Ergebnis ist nicht schwer vorherzusagen."
       }
     ],
     "notes": "Formell und literarisch. Meist mit 想像、推察、予測 etc. verwendet.",
     "related": [
-      "n2-yasui",
-      "n1-ni-katai"
+      "n4-yasui"
     ]
   },
   {
@@ -2143,7 +4722,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "実情に即した対策を立てる必要がある。",
         "romaji": "Jitsujou ni sokushita taisaku wo tateru hitsuyou ga aru.",
-        "german": "Es ist notwendig, Maßnahmen zu ergreifen, die der tatsächlichen Situation entsprechen."
+        "german": "Es ist notwendig, Maßnahmen zu ergreifen, die der tatsächlichen Situation entsprechen.",
+        "cloze": {
+          "start": 2,
+          "answer": "に即した",
+          "quiz": {
+            "level": "N1",
+            "japanese": "実情に即した対策を立てる必要がある。",
+            "german": "Es ist notwendig, Maßnahmen zu ergreifen, die der tatsächlichen Situation entsprechen.",
+            "start": 2,
+            "answer": "に即した",
+            "acceptedAnswers": [
+              "に即した",
+              "に即する"
+            ],
+            "distractors": [
+              {
+                "text": "に即し",
+                "reason": "Die Stammform kann hier 対策 nicht attributiv bestimmen."
+              },
+              {
+                "text": "に即しまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "を即した",
+                "reason": "Der Maßstab benötigt に."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "法律に即して判断すべきだ。",
@@ -2153,8 +4761,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Formell. Wird in geschäftlichen, rechtlichen oder akademischen Kontexten verwendet.",
     "related": [
-      "n2-ni-motozuite",
-      "n1-ni-junzuru"
+      "n3-ni-motozuite"
     ]
   },
   {
@@ -2168,6 +4775,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "世界の平和を願って止まない。",
+        "cloze": {
+          "start": 8,
+          "answer": "て止まない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "世界の平和を願って止まない。",
+            "german": "Ich wünsche mir unaufhörlich den Weltfrieden.",
+            "start": 8,
+            "answer": "て止まない",
+            "acceptedAnswers": [
+              "て止まない",
+              "てやまない"
+            ],
+            "distractors": [
+              {
+                "text": "た止まない",
+                "reason": "Die Verbindung nach 願っ benötigt die て-Form."
+              },
+              {
+                "text": "て止まないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "て止むません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Sekai no heiwa wo negatte yamanu.",
         "german": "Ich wünsche mir unaufhörlich den Weltfrieden."
       },
@@ -2180,7 +4816,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formell. Identisch mit てやまない. Oft in Reden oder formellen Schreiben.",
     "related": [
       "n1-te-yamanai",
-      "n2-tsuzukeru"
+      "n4-tsuzukeru"
     ]
   },
   {
@@ -2194,19 +4830,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は自分が一番だと言ってはばからない。",
+        "cloze": {
+          "start": 11,
+          "answer": "てはばからない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は自分が一番だと言ってはばからない。",
+            "german": "Er zögert nicht zu sagen, dass er der Beste ist.",
+            "start": 11,
+            "answer": "てはばからない",
+            "acceptedAnswers": [
+              "てはばからない"
+            ],
+            "distractors": [
+              {
+                "text": "たはばからない",
+                "reason": "Die Verbindung nach 言っ benötigt die て-Form."
+              },
+              {
+                "text": "てはばからないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "てはばかるません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa jibun ga ichiban da to itte habakaranai.",
         "german": "Er zögert nicht zu sagen, dass er der Beste ist."
       },
       {
         "japanese": "彼女は堂々と自分の意見を述べてはばからない。",
+        "cloze": {
+          "start": 14,
+          "answer": "てはばからない"
+        },
         "romaji": "Kanojo wa doudou to jibun no iken wo nobete habakaranai.",
         "german": "Sie scheut sich nicht, ihre Meinung offen zu äußern."
       }
     ],
     "notes": "Kann bewundernd oder kritisch sein, je nach Kontext. Betont Mangel an Zurückhaltung.",
     "related": [
-      "n2-te-mo-kamawanai",
-      "n1-憚らない"
+      "temo-ii"
     ]
   },
   {
@@ -2220,11 +4887,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の勇気には感動を禁じ得ない。",
+        "cloze": {
+          "start": 8,
+          "answer": "を禁じ得ない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の勇気には感動を禁じ得ない。",
+            "german": "Ich kann nicht umhin, von seinem Mut bewegt zu sein.",
+            "start": 8,
+            "answer": "を禁じ得ない",
+            "acceptedAnswers": [
+              "を禁じ得ない"
+            ],
+            "distractors": [
+              {
+                "text": "を禁じ得ないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "を禁じ得ないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              },
+              {
+                "text": "に禁じ得ない",
+                "reason": "Das nicht unterdrückbare Gefühl benötigt を."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no yuuki ni wa kandou wo kinji enai.",
         "german": "Ich kann nicht umhin, von seinem Mut bewegt zu sein."
       },
       {
         "japanese": "この結果には驚きを禁じ得ない。",
+        "cloze": {
+          "start": 8,
+          "answer": "を禁じ得ない"
+        },
         "romaji": "Kono kekka ni wa odoroki wo kinji enai.",
         "german": "Ich kann nicht umhin, von diesem Ergebnis überrascht zu sein."
       }
@@ -2232,7 +4931,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formell. Wird hauptsächlich mit Gefühlsnomen verwendet.",
     "related": [
       "n1-zu-ni-wa-okanai",
-      "n2-zu-ni-wa-irarenai"
+      "n2-zu-niwa-irarenai"
     ]
   },
   {
@@ -2246,11 +4945,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の死は悲しみに堪えない。",
+        "cloze": {
+          "start": 7,
+          "answer": "に堪えない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の死は悲しみに堪えない。",
+            "german": "Sein Tod ist unerträglich traurig.",
+            "start": 7,
+            "answer": "に堪えない",
+            "acceptedAnswers": [
+              "に堪えない"
+            ],
+            "distractors": [
+              {
+                "text": "に堪えないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "に堪えないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              },
+              {
+                "text": "を堪えない",
+                "reason": "Die feste Gefühlswendung benötigt に."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no shi wa kanashimi ni taenai.",
         "german": "Sein Tod ist unerträglich traurig."
       },
       {
         "japanese": "この光景は見るに堪えない。",
+        "cloze": {
+          "start": 7,
+          "answer": "に堪えない"
+        },
         "romaji": "Kono koukei wa miru ni taenai.",
         "german": "Dieser Anblick ist unerträglich anzusehen."
       }
@@ -2273,7 +5004,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "台風は多くの人々に避難を余儀なくさせた。",
         "romaji": "Taifuu wa ooku no hitobito ni hinan wo yoginaku saseta.",
-        "german": "Der Taifun zwang viele Menschen zur Evakuierung."
+        "german": "Der Taifun zwang viele Menschen zur Evakuierung.",
+        "cloze": {
+          "start": 11,
+          "answer": "を余儀なくさせた",
+          "quiz": {
+            "level": "N1",
+            "japanese": "台風は多くの人々に避難を余儀なくさせた。",
+            "german": "Der Taifun zwang viele Menschen zur Evakuierung.",
+            "start": 11,
+            "answer": "を余儀なくさせた",
+            "acceptedAnswers": [
+              "を余儀なくさせた"
+            ],
+            "distractors": [
+              {
+                "text": "を余儀なくさせるました",
+                "reason": "Die höfliche Vergangenheit benötigt den Verbstamm."
+              },
+              {
+                "text": "を余儀なくさせたます",
+                "reason": "ます kann nicht an die einfache Vergangenheit angehängt werden."
+              },
+              {
+                "text": "を余儀なくさせませんない",
+                "reason": "Die negativen Endungen können nicht so kombiniert werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "不況は会社に人員削減を余儀なくさせている。",
@@ -2284,7 +5043,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Formell. Aktive Form von を余儀なくされる. Betont äußeren Zwang.",
     "related": [
       "n1-wo-yoginaku-sareru",
-      "n2-saserareru"
+      "n4-saserareru"
     ]
   },
   {
@@ -2303,6 +5062,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "彼と喧嘩したが最後、もう仲直りできない。",
+        "cloze": {
+          "start": 5,
+          "answer": "たが最後",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼と喧嘩したが最後、もう仲直りできない。",
+            "german": "Wenn man einmal mit ihm gestritten hat, kann man sich nicht mehr versöhnen.",
+            "start": 5,
+            "answer": "たが最後",
+            "acceptedAnswers": [
+              "たが最後"
+            ],
+            "distractors": [
+              {
+                "text": "たが最後を",
+                "reason": "を bildet hier keinen Bedingungsanschluss."
+              },
+              {
+                "text": "たが最後な",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "たが最後ます",
+                "reason": "ます kann nicht direkt an 最後 angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare to kenka shita ga saigo, mou nakanaori dekinai.",
         "german": "Wenn man einmal mit ihm gestritten hat, kann man sich nicht mehr versöhnen."
       }
@@ -2324,19 +5111,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼がそんなことをするとは思わなかった。",
+        "cloze": {
+          "start": 10,
+          "answer": "とは",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼がそんなことをするとは思わなかった。",
+            "german": "Ich hätte nicht gedacht, dass er so etwas tun würde.",
+            "start": 10,
+            "answer": "とは",
+            "acceptedAnswers": [
+              "とは",
+              "と"
+            ],
+            "distractors": [
+              {
+                "text": "をは",
+                "reason": "Der Gedankeninhalt benötigt と statt を."
+              },
+              {
+                "text": "とはな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "とはます",
+                "reason": "ます kann nicht an は angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare ga sonna koto wo suru to wa omowanakatta.",
         "german": "Ich hätte nicht gedacht, dass er so etwas tun würde."
       },
       {
         "japanese": "まさか彼女が辞めるとは驚きだ。",
+        "cloze": {
+          "start": 9,
+          "answer": "とは"
+        },
         "romaji": "Masaka kanojo ga yameru to wa odoroki da.",
         "german": "Es ist überraschend, dass sie tatsächlich kündigt."
       }
     ],
     "notes": "Das 'は' nach 'と' betont die Aussage und drückt oft Erstaunen aus.",
     "related": [
-      "とも",
-      "なんて"
+      "n1-tomo",
+      "n4-nado"
     ]
   },
   {
@@ -2350,19 +5170,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は「任せろ」とばかりに胸をたたいた。",
+        "cloze": {
+          "start": 7,
+          "answer": "とばかりに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は「任せろ」とばかりに胸をたたいた。",
+            "german": "Er klopfte sich auf die Brust, als wollte er sagen 'Verlass dich auf mich'.",
+            "start": 7,
+            "answer": "とばかりに",
+            "acceptedAnswers": [
+              "とばかりに"
+            ],
+            "distractors": [
+              {
+                "text": "とばかりを",
+                "reason": "を bildet hier keinen adverbialen Anschluss."
+              },
+              {
+                "text": "とばかりな",
+                "reason": "な verbindet hier nicht mit 胸をたたいた."
+              },
+              {
+                "text": "とばかります",
+                "reason": "ます kann nicht direkt an ばかり angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa 'makasero' to bakari ni mune wo tataita.",
         "german": "Er klopfte sich auf die Brust, als wollte er sagen 'Verlass dich auf mich'."
       },
       {
         "japanese": "子供たちは待ってましたとばかりに外へ飛び出した。",
+        "cloze": {
+          "start": 11,
+          "answer": "とばかりに"
+        },
         "romaji": "Kodomotachi wa mattemashita to bakari ni soto e tobidashita.",
         "german": "Die Kinder stürmten nach draußen, als hätten sie darauf gewartet."
       }
     ],
     "notes": "Oft mit Verben der Bewegung oder Gesten verwendet.",
     "related": [
-      "かのように",
-      "ように"
+      "n2-ka-no-you-ni",
+      "n4-you-ni-purpose"
     ]
   },
   {
@@ -2376,19 +5228,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "テレビを見るともなく見ていた。",
+        "cloze": {
+          "start": 6,
+          "answer": "ともなく",
+          "quiz": {
+            "level": "N1",
+            "japanese": "テレビを見るともなく見ていた。",
+            "german": "Ich schaute geistesabwesend fern, ohne wirklich hinzusehen.",
+            "start": 6,
+            "answer": "ともなく",
+            "acceptedAnswers": [
+              "ともなく",
+              "ともなしに"
+            ],
+            "distractors": [
+              {
+                "text": "ともないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "ともなくな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ともなくを",
+                "reason": "を bildet hier keinen Begleitumstandsanschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Terebi wo miru to mo naku mite ita.",
         "german": "Ich schaute geistesabwesend fern, ohne wirklich hinzusehen."
       },
       {
         "japanese": "空を眺めるともなしに眺めていた。",
+        "cloze": {
+          "start": 5,
+          "answer": "ともなしに"
+        },
         "romaji": "Sora wo nagameru to mo nashi ni nagamete ita.",
         "german": "Ich blickte in den Himmel, ohne bewusst hinzuschauen."
       }
     ],
     "notes": "Betont die Abwesenheit von Absicht oder Bewusstsein.",
     "related": [
-      "ともなく",
-      "なんとなく"
+      "n1-tomonaku2"
     ]
   },
   {
@@ -2402,19 +5286,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "頼まれれば、手伝わないものでもない。",
+        "cloze": {
+          "start": 9,
+          "answer": "ないものでもない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "頼まれれば、手伝わないものでもない。",
+            "german": "Wenn man mich bittet, ist es nicht so, dass ich nicht helfen würde.",
+            "start": 9,
+            "answer": "ないものでもない",
+            "acceptedAnswers": [
+              "ないものでもない"
+            ],
+            "distractors": [
+              {
+                "text": "ないものでもないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "ないものでもないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              },
+              {
+                "text": "ないものをない",
+                "reason": "Die Wendung benötigt die nominale Verbindung でも."
+              }
+            ]
+          }
+        },
         "romaji": "Tanomareba, tetsudawanai mono demo nai.",
         "german": "Wenn man mich bittet, ist es nicht so, dass ich nicht helfen würde."
       },
       {
         "japanese": "条件次第では、考えないものでもない。",
+        "cloze": {
+          "start": 9,
+          "answer": "ないものでもない"
+        },
         "romaji": "Jouken shidai de wa, kangaenai mono demo nai.",
         "german": "Je nach Bedingungen ist es nicht ausgeschlossen, dass ich es mir überlege."
       }
     ],
     "notes": "Drückt eine zurückhaltende Zustimmung oder Möglichkeit aus.",
     "related": [
-      "なくもない",
-      "ないこともない"
+      "n1-naku-mo-nai",
+      "n3-nai-koto-wa-nai"
     ]
   },
   {
@@ -2428,19 +5344,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は生まれながらの才能を持っている。",
+        "cloze": {
+          "start": 5,
+          "answer": "ながらの",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は生まれながらの才能を持っている。",
+            "german": "Er besitzt ein angeborenes Talent.",
+            "start": 5,
+            "answer": "ながらの",
+            "acceptedAnswers": [
+              "ながらの"
+            ],
+            "distractors": [
+              {
+                "text": "ながらを",
+                "reason": "を kann hier 才能 nicht attributiv anschließen."
+              },
+              {
+                "text": "ながらます",
+                "reason": "ます kann nicht direkt an ながら angehängt werden."
+              },
+              {
+                "text": "ながらのな",
+                "reason": "Vor 才能 steht nach の kein zusätzliches な."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa umarenagara no sainou wo motte iru.",
         "german": "Er besitzt ein angeborenes Talent."
       },
       {
         "japanese": "昔ながらの製法で作られている。",
+        "cloze": {
+          "start": 1,
+          "answer": "ながらの"
+        },
         "romaji": "Mukashinagara no seihou de tsukurarete iru.",
         "german": "Es wird nach traditioneller Methode hergestellt."
       }
     ],
     "notes": "Literarischer Ausdruck, oft in formellen Kontexten.",
     "related": [
-      "のまま",
-      "そのまま"
+      "n4-mama"
     ]
   },
   {
@@ -2455,7 +5402,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "努力なくして成功はない。",
         "romaji": "Doryoku nakushite seikou wa nai.",
-        "german": "Ohne Anstrengung gibt es keinen Erfolg."
+        "german": "Ohne Anstrengung gibt es keinen Erfolg.",
+        "cloze": {
+          "start": 2,
+          "answer": "なくして",
+          "quiz": {
+            "level": "N1",
+            "japanese": "努力なくして成功はない。",
+            "german": "Ohne Anstrengung gibt es keinen Erfolg.",
+            "start": 2,
+            "answer": "なくして",
+            "acceptedAnswers": [
+              "なくして",
+              "なしに"
+            ],
+            "distractors": [
+              {
+                "text": "なくする",
+                "reason": "Die Wörterbuchform bildet hier keinen negativen Begleitumstandsanschluss."
+              },
+              {
+                "text": "なくします",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              },
+              {
+                "text": "なくしてな",
+                "reason": "な kann hier nicht angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "信頼なくしては、良い関係は築けない。",
@@ -2465,8 +5441,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Formeller Ausdruck, oft in Reden oder schriftlicher Sprache.",
     "related": [
-      "なしには",
-      "ないと"
+      "n1-nashi-ni-nakushite",
+      "n3-nai-koto-ni-wa"
     ]
   },
   {
@@ -2480,19 +5456,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "子供ならいざしらず、大人がそんなことをするとは。",
+        "cloze": {
+          "start": 2,
+          "answer": "ならいざしらず",
+          "quiz": {
+            "level": "N1",
+            "japanese": "子供ならいざしらず、大人がそんなことをするとは。",
+            "german": "Wenn es ein Kind wäre, mag das sein, aber dass ein Erwachsener so etwas tut!",
+            "start": 2,
+            "answer": "ならいざしらず",
+            "acceptedAnswers": [
+              "ならいざしらず"
+            ],
+            "distractors": [
+              {
+                "text": "ならいざしらずな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ならいざしらずを",
+                "reason": "を bildet hier keinen Gegensatzanschluss."
+              },
+              {
+                "text": "ならいざしらずます",
+                "reason": "ます kann nicht an ず angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kodomo nara iza shirazu, otona ga sonna koto wo suru to wa.",
         "german": "Wenn es ein Kind wäre, mag das sein, aber dass ein Erwachsener so etwas tut!"
       },
       {
         "japanese": "昔ならいざしらず、今の時代にそれは通用しない。",
+        "cloze": {
+          "start": 1,
+          "answer": "ならいざしらず"
+        },
         "romaji": "Mukashi nara iza shirazu, ima no jidai ni sore wa tsuuyou shinai.",
         "german": "In der Vergangenheit mag das sein, aber in der heutigen Zeit funktioniert das nicht."
       }
     ],
     "notes": "Drückt einen starken Kontrast zwischen zwei Situationen aus.",
     "related": [
-      "ならともかく",
-      "ならまだしも"
+      "n1-naramad ashimo"
     ]
   },
   {
@@ -2506,20 +5513,53 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "家に帰るなり、ベッドに倒れ込んだ。",
+        "cloze": {
+          "start": 4,
+          "answer": "なり",
+          "quiz": {
+            "level": "N1",
+            "japanese": "家に帰るなり、ベッドに倒れ込んだ。",
+            "german": "Sobald ich nach Hause kam, fiel ich ins Bett.",
+            "start": 4,
+            "answer": "なり",
+            "acceptedAnswers": [
+              "なり",
+              "や否や"
+            ],
+            "distractors": [
+              {
+                "text": "なりまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "なりな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "なりを",
+                "reason": "を bildet hier keinen Zeitanschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Ie ni kaeru nari, beddo ni taorekon da.",
         "german": "Sobald ich nach Hause kam, fiel ich ins Bett."
       },
       {
         "japanese": "彼は会議室に入るなり、怒鳴り始めた。",
+        "cloze": {
+          "start": 8,
+          "answer": "なり"
+        },
         "romaji": "Kare wa kaigishitsu ni hairu nari, donari hajimeta.",
         "german": "Kaum betrat er das Konferenzzimmer, fing er an zu schreien."
       }
     ],
     "notes": "Literarischer als やいなや, betont die Unmittelbarkeit.",
     "related": [
-      "やいなや",
-      "とたんに",
-      "そばから"
+      "n1-ya-inaya",
+      "n3-totan",
+      "n1-sobakara"
     ]
   },
   {
@@ -2534,7 +5574,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "電話するなりメールするなりして連絡してください。",
         "romaji": "Denwa suru nari meeru suru nari shite renraku shite kudasai.",
-        "german": "Bitte kontaktieren Sie mich, sei es per Telefon oder E-Mail."
+        "german": "Bitte kontaktieren Sie mich, sei es per Telefon oder E-Mail.",
+        "cloze": {
+          "start": 4,
+          "answer": "なり",
+          "quiz": {
+            "level": "N1",
+            "japanese": "電話するなりメールするなりして連絡してください。",
+            "german": "Bitte kontaktieren Sie mich, sei es per Telefon oder E-Mail.",
+            "start": 4,
+            "answer": "なり",
+            "acceptedAnswers": [
+              "なり"
+            ],
+            "distractors": [
+              {
+                "text": "なりを",
+                "reason": "を bildet hier keinen Alternativenanschluss."
+              },
+              {
+                "text": "なりな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "なりまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "本を読むなり音楽を聴くなりして時間を過ごした。",
@@ -2544,8 +5612,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Drückt aus, dass es mehrere gleichwertige Optionen gibt.",
     "related": [
-      "とか～とか",
-      "か～か"
+      "n4-toka",
+      "ka"
     ]
   },
   {
@@ -2559,20 +5627,49 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "それは教師にあるまじき行為だ。",
+        "cloze": {
+          "start": 5,
+          "answer": "にあるまじき",
+          "quiz": {
+            "level": "N1",
+            "japanese": "それは教師にあるまじき行為だ。",
+            "german": "Das ist ein für einen Lehrer unwürdiges Verhalten.",
+            "start": 5,
+            "answer": "にあるまじき",
+            "acceptedAnswers": [
+              "にあるまじき"
+            ],
+            "distractors": [
+              {
+                "text": "にあるまじく",
+                "reason": "Die adverbiale Form kann hier 行為 nicht attributiv bestimmen."
+              },
+              {
+                "text": "にあるまじきな",
+                "reason": "Vor 行為 steht hier kein zusätzliches な."
+              },
+              {
+                "text": "にあるまじきます",
+                "reason": "ます kann nicht direkt an まじき angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Sore wa kyoushi ni aramajiki koui da.",
         "german": "Das ist ein für einen Lehrer unwürdiges Verhalten."
       },
       {
         "japanese": "医者にあるまじき発言をした。",
+        "cloze": {
+          "start": 2,
+          "answer": "にあるまじき"
+        },
         "romaji": "Isha ni aramajiki hatsugen wo shita.",
         "german": "Er machte eine für einen Arzt unangemessene Bemerkung."
       }
     ],
     "notes": "Sehr formell, oft in Kritik oder offiziellen Stellungnahmen verwendet.",
-    "related": [
-      "にふさわしくない",
-      "にあるべきでない"
-    ]
+    "related": []
   },
   {
     "id": "n1-nikakotsukete",
@@ -2585,20 +5682,49 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "仕事にかこつけて、彼女に会いに行った。",
+        "cloze": {
+          "start": 2,
+          "answer": "にかこつけて",
+          "quiz": {
+            "level": "N1",
+            "japanese": "仕事にかこつけて、彼女に会いに行った。",
+            "german": "Unter dem Vorwand der Arbeit ging ich sie besuchen.",
+            "start": 2,
+            "answer": "にかこつけて",
+            "acceptedAnswers": [
+              "にかこつけて"
+            ],
+            "distractors": [
+              {
+                "text": "をかこつけて",
+                "reason": "Der Vorwand benötigt in dieser Wendung に."
+              },
+              {
+                "text": "にかこつけた",
+                "reason": "Die attributive Vergangenheit bildet hier keinen Anschluss."
+              },
+              {
+                "text": "にかこつけます",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Shigoto ni kakotsukete, kanojo ni ai ni itta.",
         "german": "Unter dem Vorwand der Arbeit ging ich sie besuchen."
       },
       {
         "japanese": "体調不良にかこつけて、会議を欠席した。",
+        "cloze": {
+          "start": 4,
+          "answer": "にかこつけて"
+        },
         "romaji": "Taichou furyou ni kakotsukete, kaigi wo kesseki shita.",
         "german": "Unter dem Vorwand schlechter Gesundheit fehlte ich bei der Besprechung."
       }
     ],
     "notes": "Hat oft eine negative Konnotation, impliziert Unehrlichkeit.",
-    "related": [
-      "を口実に",
-      "という名目で"
-    ]
+    "related": []
   },
   {
     "id": "n1-nikamakete",
@@ -2611,20 +5737,49 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "遊びにかまけて、勉強を怠った。",
+        "cloze": {
+          "start": 2,
+          "answer": "にかまけて",
+          "quiz": {
+            "level": "N1",
+            "japanese": "遊びにかまけて、勉強を怠った。",
+            "german": "Ich ließ mich vom Spielen ablenken und vernachlässigte mein Studium.",
+            "start": 2,
+            "answer": "にかまけて",
+            "acceptedAnswers": [
+              "にかまけて"
+            ],
+            "distractors": [
+              {
+                "text": "をかまけて",
+                "reason": "Der Gegenstand der Beschäftigung benötigt に."
+              },
+              {
+                "text": "にかまけた",
+                "reason": "Die attributive Vergangenheit bildet hier keinen Anschluss."
+              },
+              {
+                "text": "にかまけます",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Asobi ni kamakete, benkyou wo okotatta.",
         "german": "Ich ließ mich vom Spielen ablenken und vernachlässigte mein Studium."
       },
       {
         "japanese": "仕事にかまけて、家族との時間を持たなかった。",
+        "cloze": {
+          "start": 2,
+          "answer": "にかまけて"
+        },
         "romaji": "Shigoto ni kamakete, kazoku to no jikan wo motanakatta.",
         "german": "Ich war so in die Arbeit vertieft, dass ich keine Zeit mit der Familie verbrachte."
       }
     ],
     "notes": "Impliziert Kritik oder Bedauern über die Vernachlässigung.",
-    "related": [
-      "にかまける",
-      "にふける"
-    ]
+    "related": []
   },
   {
     "id": "n1-nishitehajimete",
@@ -2637,6 +5792,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "失敗にして初めて、その大切さが分かった。",
+        "cloze": {
+          "start": 2,
+          "answer": "にして初めて",
+          "quiz": {
+            "level": "N1",
+            "japanese": "失敗にして初めて、その大切さが分かった。",
+            "german": "Erst durch das Scheitern verstand ich dessen Wichtigkeit.",
+            "start": 2,
+            "answer": "にして初めて",
+            "acceptedAnswers": [
+              "にして初めて"
+            ],
+            "distractors": [
+              {
+                "text": "にして初めた",
+                "reason": "Die finite Vergangenheit bildet hier keinen Anschluss."
+              },
+              {
+                "text": "にして初めます",
+                "reason": "Die finite Höflichkeitsform bildet hier keinen Anschluss."
+              },
+              {
+                "text": "にする初めて",
+                "reason": "Die Verbindung benötigt die て-Form."
+              }
+            ]
+          }
+        },
         "romaji": "Shippai ni shite hajimete, sono taisetsusa ga wakatta.",
         "german": "Erst durch das Scheitern verstand ich dessen Wichtigkeit."
       },
@@ -2648,8 +5831,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Betont den Wendepunkt oder die entscheidende Erkenntnis.",
     "related": [
-      "て初めて",
-      "てようやく"
+      "n3-te-hajimete",
+      "n2-te-hajimete"
     ]
   },
   {
@@ -2663,20 +5846,53 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は親にすら本当のことを言わなかった。",
+        "cloze": {
+          "start": 3,
+          "answer": "にすら",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は親にすら本当のことを言わなかった。",
+            "german": "Er sagte nicht einmal seinen Eltern die Wahrheit.",
+            "start": 3,
+            "answer": "にすら",
+            "acceptedAnswers": [
+              "にすら",
+              "にさえ",
+              "にも"
+            ],
+            "distractors": [
+              {
+                "text": "にすらを",
+                "reason": "を kann hier nicht an die Empfängermarkierung anschließen."
+              },
+              {
+                "text": "にすらな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "にすらます",
+                "reason": "ます kann nicht an すら angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa oya ni sura hontou no koto wo iwanakatta.",
         "german": "Er sagte nicht einmal seinen Eltern die Wahrheit."
       },
       {
         "japanese": "この問題は専門家にすら解けない。",
+        "cloze": {
+          "start": 8,
+          "answer": "にすら"
+        },
         "romaji": "Kono mondai wa senmonka ni sura tokenai.",
         "german": "Selbst Experten können dieses Problem nicht lösen."
       }
     ],
     "notes": "Literarischer und formeller als さえ oder でさえ.",
     "related": [
-      "すら",
-      "にさえ",
-      "でさえ"
+      "n1-sura",
+      "n1-desura"
     ]
   },
   {
@@ -2690,19 +5906,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "これは信頼に足る情報だ。",
+        "cloze": {
+          "start": 5,
+          "answer": "に足る",
+          "quiz": {
+            "level": "N1",
+            "japanese": "これは信頼に足る情報だ。",
+            "german": "Das ist eine vertrauenswürdige Information.",
+            "start": 5,
+            "answer": "に足る",
+            "acceptedAnswers": [
+              "に足る",
+              "に足りる"
+            ],
+            "distractors": [
+              {
+                "text": "に足り",
+                "reason": "Die Stammform bestimmt hier 情報 nicht attributiv."
+              },
+              {
+                "text": "に足るます",
+                "reason": "ます wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "に足らない",
+                "reason": "Dies verneint die Vertrauenswürdigkeit."
+              }
+            ]
+          }
+        },
         "romaji": "Kore wa shinrai ni taru jouhou da.",
         "german": "Das ist eine vertrauenswürdige Information."
       },
       {
         "japanese": "彼の業績は称賛に足るものだ。",
+        "cloze": {
+          "start": 7,
+          "answer": "に足る"
+        },
         "romaji": "Kare no gyouseki wa shousan ni taru mono da.",
         "german": "Seine Leistungen sind lobenswert."
       }
     ],
     "notes": "Formeller Ausdruck, oft in schriftlicher Sprache.",
     "related": [
-      "に値する",
-      "にふさわしい"
+      "n1-ni-taru",
+      "n1-nihajinai"
     ]
   },
   {
@@ -2716,19 +5965,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼にない真剣な表情だった。",
+        "cloze": {
+          "start": 1,
+          "answer": "にない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼にない真剣な表情だった。",
+            "german": "Es war ein für ihn ungewöhnlich ernster Gesichtsausdruck.",
+            "start": 1,
+            "answer": "にない",
+            "acceptedAnswers": [
+              "にない"
+            ],
+            "distractors": [
+              {
+                "text": "にないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "にないな",
+                "reason": "Vor 真剣な steht hier kein zusätzliches な."
+              },
+              {
+                "text": "をない",
+                "reason": "ない verlangt hier keine Objektpartikel."
+              }
+            ]
+          }
+        },
         "romaji": "Kare ni nai shinken na hyoujou datta.",
         "german": "Es war ein für ihn ungewöhnlich ernster Gesichtsausdruck."
       },
       {
         "japanese": "彼女にない優しさを見せた。",
+        "cloze": {
+          "start": 2,
+          "answer": "にない"
+        },
         "romaji": "Kanojo ni nai yasashisa wo miseta.",
         "german": "Sie zeigte eine für sie untypische Freundlichkeit."
       }
     ],
     "notes": "Betont den Kontrast zum normalen Verhalten oder Zustand.",
     "related": [
-      "らしくない",
-      "似合わない"
+      "n4-rashii-adj",
+      "n1-niaramajiki"
     ]
   },
   {
@@ -2742,6 +6023,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "心配するには及ばない。",
+        "cloze": {
+          "start": 4,
+          "answer": "には及ばない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "心配するには及ばない。",
+            "german": "Es besteht kein Grund zur Sorge.",
+            "start": 4,
+            "answer": "には及ばない",
+            "acceptedAnswers": [
+              "には及ばない"
+            ],
+            "distractors": [
+              {
+                "text": "には及ばないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "には及ぶません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "には及ばないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              }
+            ]
+          }
+        },
         "romaji": "Shinpai suru ni wa oyobanai.",
         "german": "Es besteht kein Grund zur Sorge."
       },
@@ -2753,8 +6062,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Formeller Ausdruck, oft in höflichen Kontexten.",
     "related": [
-      "必要ない",
-      "する必要はない"
+      "nakutemo-ii",
+      "n2-koto-wa-nai"
     ]
   },
   {
@@ -2768,19 +6077,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "専門家に言わせれば、これは危険だそうだ。",
+        "cloze": {
+          "start": 3,
+          "answer": "に言わせれば",
+          "quiz": {
+            "level": "N1",
+            "japanese": "専門家に言わせれば、これは危険だそうだ。",
+            "german": "Wenn man die Experten fragt, ist das gefährlich.",
+            "start": 3,
+            "answer": "に言わせれば",
+            "acceptedAnswers": [
+              "に言わせれば"
+            ],
+            "distractors": [
+              {
+                "text": "に言わせるれば",
+                "reason": "Die Bedingung lautet 言わせれば."
+              },
+              {
+                "text": "を言わせれば",
+                "reason": "Die Person, die man urteilen lässt, benötigt hier に."
+              },
+              {
+                "text": "に言わせますば",
+                "reason": "Die Bedingung wird nicht mit ますば gebildet."
+              }
+            ]
+          }
+        },
         "romaji": "Senmonka ni iwasereba, kore wa kiken da sou da.",
         "german": "Wenn man die Experten fragt, ist das gefährlich."
       },
       {
         "japanese": "彼女に言わせれば、私が悪いらしい。",
+        "cloze": {
+          "start": 2,
+          "answer": "に言わせれば"
+        },
         "romaji": "Kanojo ni iwasereba, watashi ga warui rashii.",
         "german": "Ihrer Meinung nach bin anscheinend ich im Unrecht."
       }
     ],
     "notes": "Kann verwendet werden, um sich von der geäußerten Meinung zu distanzieren.",
     "related": [
-      "によると",
-      "から見れば"
+      "n4-ni-yoru-to",
+      "n2-kara-miru-to"
     ]
   },
   {
@@ -2794,20 +6135,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "それは失礼極まりない行為だ。",
+        "cloze": {
+          "start": 5,
+          "answer": "極まりない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "それは失礼極まりない行為だ。",
+            "german": "Das ist ein äußerst unhöfliches Verhalten.",
+            "start": 5,
+            "answer": "極まりない",
+            "acceptedAnswers": [
+              "極まりない",
+              "極まる"
+            ],
+            "distractors": [
+              {
+                "text": "極まりないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "極まりないな",
+                "reason": "Vor 行為 steht hier kein zusätzliches な."
+              },
+              {
+                "text": "極まりなく",
+                "reason": "Die adverbiale Form bestimmt hier 行為 nicht attributiv."
+              }
+            ]
+          }
+        },
         "romaji": "Sore wa shitsurei kiwamarinai koui da.",
         "german": "Das ist ein äußerst unhöfliches Verhalten."
       },
       {
         "japanese": "危険極まる状況に陥った。",
+        "cloze": {
+          "start": 2,
+          "answer": "極まる"
+        },
         "romaji": "Kiken kiwamaru joukyou ni ochitta.",
         "german": "Wir gerieten in eine extrem gefährliche Situation."
       }
     ],
     "notes": "Sehr formeller Ausdruck, oft in schriftlicher Sprache.",
-    "related": [
-      "きわめて",
-      "この上ない"
-    ]
+    "related": []
   },
   {
     "id": "n1-gotoku-gotoki",
@@ -2820,19 +6191,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "嵐のごとく現れて、すぐに去った。",
+        "cloze": {
+          "start": 2,
+          "answer": "ごとく",
+          "quiz": {
+            "level": "N1",
+            "japanese": "嵐のごとく現れて、すぐに去った。",
+            "german": "Er erschien wie ein Sturm und ging sofort wieder.",
+            "start": 2,
+            "answer": "ごとく",
+            "acceptedAnswers": [
+              "ごとく",
+              "ように"
+            ],
+            "distractors": [
+              {
+                "text": "ごとき",
+                "reason": "Die attributive Form bestimmt hier 現れて nicht adverbial."
+              },
+              {
+                "text": "ごとくな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ごとくます",
+                "reason": "ます kann nicht direkt an ごとく angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Arashi no gotoku arawarete, sugu ni satta.",
         "german": "Er erschien wie ein Sturm und ging sofort wieder."
       },
       {
         "japanese": "彼は鬼神のごとき強さを見せた。",
+        "cloze": {
+          "start": 5,
+          "answer": "ごとき"
+        },
         "romaji": "Kare wa kijin no gotoki tsuyosa wo miseta.",
         "german": "Er zeigte eine dämonengleiche Stärke."
       }
     ],
     "notes": "Sehr literarisch, wird in der gesprochenen Sprache selten verwendet.",
     "related": [
-      "ように",
-      "かのように"
+      "n4-you-ni-purpose",
+      "n2-ka-no-you-ni"
     ]
   },
   {
@@ -2846,20 +6250,54 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は名前すら覚えていない。",
+        "cloze": {
+          "start": 4,
+          "answer": "すら",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は名前すら覚えていない。",
+            "german": "Er erinnert sich nicht einmal an den Namen.",
+            "start": 4,
+            "answer": "すら",
+            "acceptedAnswers": [
+              "すら",
+              "さえ",
+              "も"
+            ],
+            "distractors": [
+              {
+                "text": "すらをな",
+                "reason": "Diese Partikelkombination schließt hier nicht an 覚えていない an."
+              },
+              {
+                "text": "すらな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "すらます",
+                "reason": "ます kann nicht direkt an すら angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa namae sura oboete inai.",
         "german": "Er erinnert sich nicht einmal an den Namen."
       },
       {
         "japanese": "水すら飲めない状況だった。",
+        "cloze": {
+          "start": 1,
+          "answer": "すら"
+        },
         "romaji": "Mizu sura nomenai joukyou datta.",
         "german": "Es war eine Situation, in der man nicht einmal Wasser trinken konnte."
       }
     ],
     "notes": "Literarischer Stil, oft in schriftlicher Sprache.",
     "related": [
-      "さえ",
-      "でさえ",
-      "も"
+      "n4-sae",
+      "n1-desura",
+      "mo"
     ]
   },
   {
@@ -2873,19 +6311,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "想像するだに恐ろしい。",
+        "cloze": {
+          "start": 4,
+          "answer": "だに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "想像するだに恐ろしい。",
+            "german": "Allein die Vorstellung ist schrecklich.",
+            "start": 4,
+            "answer": "だに",
+            "acceptedAnswers": [
+              "だに"
+            ],
+            "distractors": [
+              {
+                "text": "だにを",
+                "reason": "を bildet hier keinen adverbialen Anschluss."
+              },
+              {
+                "text": "だにな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "だにます",
+                "reason": "ます kann nicht direkt an だに angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Souzou suru dani osoroshii.",
         "german": "Allein die Vorstellung ist schrecklich."
       },
       {
         "japanese": "思い出すだに腹が立つ。",
+        "cloze": {
+          "start": 4,
+          "answer": "だに"
+        },
         "romaji": "Omoidasu dani hara ga tatsu.",
         "german": "Allein die Erinnerung macht mich wütend."
       }
     ],
     "notes": "Sehr literarisch und archaisch, in moderner Sprache selten.",
     "related": [
-      "すら",
-      "さえ"
+      "n1-sura",
+      "n4-sae"
     ]
   },
   {
@@ -2899,19 +6369,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "教師たる者、生徒の模範でなければならない。",
+        "cloze": {
+          "start": 2,
+          "answer": "たる",
+          "quiz": {
+            "level": "N1",
+            "japanese": "教師たる者、生徒の模範でなければならない。",
+            "german": "Als Lehrer muss man ein Vorbild für die Schüler sein.",
+            "start": 2,
+            "answer": "たる",
+            "acceptedAnswers": [
+              "たる",
+              "である"
+            ],
+            "distractors": [
+              {
+                "text": "たりまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              },
+              {
+                "text": "たるな",
+                "reason": "Vor 者 steht hier kein zusätzliches な."
+              },
+              {
+                "text": "たるを",
+                "reason": "を kann hier 者 nicht attributiv anschließen."
+              }
+            ]
+          }
+        },
         "romaji": "Kyoushi taru mono, seito no mohan de nakereba naranai.",
         "german": "Als Lehrer muss man ein Vorbild für die Schüler sein."
       },
       {
         "japanese": "リーダーたる者、責任を持つべきだ。",
+        "cloze": {
+          "start": 4,
+          "answer": "たる"
+        },
         "romaji": "Riidaa taru mono, sekinin wo motsu beki da.",
         "german": "Als Führungskraft sollte man Verantwortung übernehmen."
       }
     ],
     "notes": "Sehr formell, oft in moralischen oder philosophischen Aussagen.",
     "related": [
-      "である",
-      "としての"
+      "desu",
+      "n4-toshite"
     ]
   },
   {
@@ -2925,19 +6428,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "その美しさたるや、言葉では表せない。",
+        "cloze": {
+          "start": 5,
+          "answer": "たるや",
+          "quiz": {
+            "level": "N1",
+            "japanese": "その美しさたるや、言葉では表せない。",
+            "german": "Was ihre Schönheit betrifft, lässt sie sich mit Worten nicht beschreiben.",
+            "start": 5,
+            "answer": "たるや",
+            "acceptedAnswers": [
+              "たるや"
+            ],
+            "distractors": [
+              {
+                "text": "たるやな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "たるやを",
+                "reason": "を bildet hier keinen Themenanschluss."
+              },
+              {
+                "text": "たるやます",
+                "reason": "ます kann nicht direkt an たるや angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Sono utsukushisa taruya, kotoba de wa arawasenai.",
         "german": "Was ihre Schönheit betrifft, lässt sie sich mit Worten nicht beschreiben."
       },
       {
         "japanese": "彼の怠慢たるや、目に余るものがある。",
+        "cloze": {
+          "start": 4,
+          "answer": "たるや"
+        },
         "romaji": "Kare no taiman taruya, me ni amaru mono ga aru.",
         "german": "Seine Nachlässigkeit ist unerträglich."
       }
     ],
     "notes": "Sehr literarisch und formell, in moderner Umgangssprache nicht gebräuchlich.",
     "related": [
-      "といったら",
-      "ときたら"
+      "n1-to-kitara"
     ]
   },
   {
@@ -2952,7 +6486,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "行きつ戻りつしながら進んだ。",
         "romaji": "Ikitsu modoritsu shinagara susunda.",
-        "german": "Wir gingen abwechselnd vor und zurück."
+        "german": "Wir gingen abwechselnd vor und zurück.",
+        "cloze": {
+          "start": 0,
+          "answer": "行きつ戻りつ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "行きつ戻りつしながら進んだ。",
+            "german": "Wir gingen abwechselnd vor und zurück.",
+            "start": 0,
+            "answer": "行きつ戻りつ",
+            "acceptedAnswers": [
+              "行きつ戻りつ"
+            ],
+            "distractors": [
+              {
+                "text": "行くつ戻るつ",
+                "reason": "つ wird an die Verbstämme 行き und 戻り angehängt."
+              },
+              {
+                "text": "行きつ戻りますつ",
+                "reason": "つ wird nicht an die Höflichkeitsform angehängt."
+              },
+              {
+                "text": "行ったつ戻ったつ",
+                "reason": "Die Wendung verwendet Verbstämme statt Vergangenheitsformen."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "泣きつ笑いつ、感情が揺れ動いた。",
@@ -2962,8 +6524,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Sehr archaisch, wird in moderner Sprache kaum verwendet.",
     "related": [
-      "たり～たり",
-      "ながら"
+      "tari-tari",
+      "nagara"
     ]
   },
   {
@@ -2977,19 +6539,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "これが奇跡でなくてなんだろう。",
+        "cloze": {
+          "start": 5,
+          "answer": "でなくてなんだろう",
+          "quiz": {
+            "level": "N1",
+            "japanese": "これが奇跡でなくてなんだろう。",
+            "german": "Wenn das kein Wunder ist, was ist es dann?",
+            "start": 5,
+            "answer": "でなくてなんだろう",
+            "acceptedAnswers": [
+              "でなくてなんだろう"
+            ],
+            "distractors": [
+              {
+                "text": "でなくてなんだろうます",
+                "reason": "ます kann nicht an だろう angehängt werden."
+              },
+              {
+                "text": "でなくてなんをだろう",
+                "reason": "を kann hier nicht vor だろう stehen."
+              },
+              {
+                "text": "でないてなんだろう",
+                "reason": "Die verbindende Form von ない lautet なくて."
+              }
+            ]
+          }
+        },
         "romaji": "Kore ga kiseki de nakute nan darou.",
         "german": "Wenn das kein Wunder ist, was ist es dann?"
       },
       {
         "japanese": "それは裏切りでなくてなんだろうか。",
+        "cloze": {
+          "start": 6,
+          "answer": "でなくてなんだろう"
+        },
         "romaji": "Sore wa uragiri de nakute nan darou ka.",
         "german": "Wenn das kein Verrat ist, was ist es dann?"
       }
     ],
     "notes": "Drückt starke Überzeugung oder rhetorische Betonung aus.",
     "related": [
-      "に他ならない",
-      "にほかならない"
+      "n2-ni-hoka-naranai"
     ]
   },
   {
@@ -3003,20 +6596,49 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼が犯人ではあるまいか。",
+        "cloze": {
+          "start": 4,
+          "answer": "ではあるまいか",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼が犯人ではあるまいか。",
+            "german": "Könnte er nicht der Täter sein?",
+            "start": 4,
+            "answer": "ではあるまいか",
+            "acceptedAnswers": [
+              "ではあるまいか"
+            ],
+            "distractors": [
+              {
+                "text": "ではあるまいかます",
+                "reason": "ます kann nicht an die Fragepartikel angehängt werden."
+              },
+              {
+                "text": "ではあるまいなか",
+                "reason": "Die rhetorische Frage benötigt kein な."
+              },
+              {
+                "text": "ではあるませんか",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              }
+            ]
+          }
+        },
         "romaji": "Kare ga hannin de wa arumai ka.",
         "german": "Könnte er nicht der Täter sein?"
       },
       {
         "japanese": "これが最善の方法ではあるまいか。",
+        "cloze": {
+          "start": 8,
+          "answer": "ではあるまいか"
+        },
         "romaji": "Kore ga saizen no houhou de wa arumai ka.",
         "german": "Ist das nicht der beste Weg?"
       }
     ],
     "notes": "Formeller literarischer Ausdruck, oft in schriftlicher Sprache.",
-    "related": [
-      "ではないだろうか",
-      "のではないか"
-    ]
+    "related": []
   },
   {
     "id": "n1-tomonaku2",
@@ -3029,19 +6651,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "どこともなく歩き続けた。",
+        "cloze": {
+          "start": 2,
+          "answer": "ともなく",
+          "quiz": {
+            "level": "N1",
+            "japanese": "どこともなく歩き続けた。",
+            "german": "Ich ging weiter, ohne ein bestimmtes Ziel zu haben.",
+            "start": 2,
+            "answer": "ともなく",
+            "acceptedAnswers": [
+              "ともなく",
+              "ともなしに"
+            ],
+            "distractors": [
+              {
+                "text": "ともなくな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ともなくを",
+                "reason": "を bildet hier keinen adverbialen Anschluss."
+              },
+              {
+                "text": "ともないます",
+                "reason": "ない erhält kein angehängtes ます."
+              }
+            ]
+          }
+        },
         "romaji": "Doko to mo naku aruki tsuzuketa.",
         "german": "Ich ging weiter, ohne ein bestimmtes Ziel zu haben."
       },
       {
         "japanese": "何ともなく彼女のことを思い出した。",
+        "cloze": {
+          "start": 1,
+          "answer": "ともなく"
+        },
         "romaji": "Nani to mo naku kanojo no koto wo omoidashita.",
         "german": "Ich erinnerte mich ohne besonderen Grund an sie."
       }
     ],
     "notes": "Betont die Abwesenheit von bewusster Intention.",
     "related": [
-      "ともなしに",
-      "なんとなく"
+      "n1-tomonaku-tomonashini"
     ]
   },
   {
@@ -3055,19 +6709,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "雨が降ろうとも、行きます。",
+        "cloze": {
+          "start": 5,
+          "answer": "とも",
+          "quiz": {
+            "level": "N1",
+            "japanese": "雨が降ろうとも、行きます。",
+            "german": "Selbst wenn es regnet, werde ich gehen.",
+            "start": 5,
+            "answer": "とも",
+            "acceptedAnswers": [
+              "とも",
+              "と"
+            ],
+            "distractors": [
+              {
+                "text": "ともを",
+                "reason": "を bildet hier keinen konzessiven Anschluss."
+              },
+              {
+                "text": "ともな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ともます",
+                "reason": "ます kann nicht direkt an とも angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Ame ga furou tomo, ikimasu.",
         "german": "Selbst wenn es regnet, werde ich gehen."
       },
       {
         "japanese": "困難であろうとも、挑戦する。",
+        "cloze": {
+          "start": 6,
+          "answer": "とも"
+        },
         "romaji": "Konnan de arou tomo, chousen suru.",
         "german": "Auch wenn es schwierig ist, werde ich es versuchen."
       }
     ],
     "notes": "Sehr literarisch, in der gesprochenen Sprache selten.",
     "related": [
-      "ても",
-      "であっても"
+      "temo",
+      "n1-de-are"
     ]
   },
   {
@@ -3081,19 +6768,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼が来ないとも限らない。",
+        "cloze": {
+          "start": 3,
+          "answer": "ないとも限らない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼が来ないとも限らない。",
+            "german": "Es ist nicht ausgeschlossen, dass er kommt.",
+            "start": 3,
+            "answer": "ないとも限らない",
+            "acceptedAnswers": [
+              "ないとも限らない"
+            ],
+            "distractors": [
+              {
+                "text": "ないとも限らないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "ないとも限るません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "ないとも限らないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              }
+            ]
+          }
+        },
         "romaji": "Kare ga konai to mo kagiranai.",
         "german": "Es ist nicht ausgeschlossen, dass er kommt."
       },
       {
         "japanese": "失敗しないとも限らないから、注意が必要だ。",
+        "cloze": {
+          "start": 3,
+          "answer": "ないとも限らない"
+        },
         "romaji": "Shippai shinai to mo kagiranai kara, chuui ga hitsuyou da.",
         "german": "Es könnte sein, dass wir scheitern, also müssen wir vorsichtig sein."
       }
     ],
     "notes": "Drückt vorsichtige Möglichkeit oder Warnung aus.",
     "related": [
-      "かもしれない",
-      "可能性がある"
+      "kamoshirenai"
     ]
   },
   {
@@ -3107,19 +6825,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "若者ならまだしも、大人がそんなことをするとは。",
+        "cloze": {
+          "start": 2,
+          "answer": "ならまだしも",
+          "quiz": {
+            "level": "N1",
+            "japanese": "若者ならまだしも、大人がそんなことをするとは。",
+            "german": "Wenn es ein junger Mensch wäre, wäre es noch verständlich, aber dass ein Erwachsener so etwas tut!",
+            "start": 2,
+            "answer": "ならまだしも",
+            "acceptedAnswers": [
+              "ならまだしも"
+            ],
+            "distractors": [
+              {
+                "text": "ならまだしもな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ならまだしもを",
+                "reason": "を bildet hier keinen Gegensatzanschluss."
+              },
+              {
+                "text": "ならまだしもます",
+                "reason": "ます kann nicht an も angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Wakamono nara madashimo, otona ga sonna koto wo suru to wa.",
         "german": "Wenn es ein junger Mensch wäre, wäre es noch verständlich, aber dass ein Erwachsener so etwas tut!"
       },
       {
         "japanese": "一度ならまだしも、何度も同じ失敗をするのは問題だ。",
+        "cloze": {
+          "start": 2,
+          "answer": "ならまだしも"
+        },
         "romaji": "Ichido nara madashimo, nando mo onaji shippai wo suru no wa mondai da.",
         "german": "Einmal wäre noch verständlich, aber denselben Fehler mehrmals zu machen ist ein Problem."
       }
     ],
     "notes": "Drückt einen Kontrast mit leichter Kritik aus.",
     "related": [
-      "ならともかく",
-      "ならいざしらず"
+      "n1-naraizashirazu"
     ]
   },
   {
@@ -3133,6 +6882,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼にしたところで、この問題は解けないだろう。",
+        "cloze": {
+          "start": 1,
+          "answer": "にしたところで",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼にしたところで、この問題は解けないだろう。",
+            "german": "Selbst er könnte dieses Problem wahrscheinlich nicht lösen.",
+            "start": 1,
+            "answer": "にしたところで",
+            "acceptedAnswers": [
+              "にしたところで",
+              "にしても"
+            ],
+            "distractors": [
+              {
+                "text": "にしたところをで",
+                "reason": "を und で können hier nicht so kombiniert werden."
+              },
+              {
+                "text": "にしたところな",
+                "reason": "な bildet hier keinen konzessiven Anschluss."
+              },
+              {
+                "text": "にしたところます",
+                "reason": "ます kann nicht direkt an ところ angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare ni shita tokoro de, kono mondai wa tokenai darou.",
         "german": "Selbst er könnte dieses Problem wahrscheinlich nicht lösen."
       },
@@ -3144,8 +6922,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Betont die Vergeblichkeit oder Unveränderlichkeit des Ergebnisses.",
     "related": [
-      "にしても",
-      "としても"
+      "n2-ni-shite-mo",
+      "n3-to-shitemo"
     ]
   },
   {
@@ -3159,19 +6937,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼はその称号に恥じない活躍をした。",
+        "cloze": {
+          "start": 6,
+          "answer": "に恥じない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼はその称号に恥じない活躍をした。",
+            "german": "Er leistete Arbeit, die dem Titel würdig war.",
+            "start": 6,
+            "answer": "に恥じない",
+            "acceptedAnswers": [
+              "に恥じない"
+            ],
+            "distractors": [
+              {
+                "text": "に恥じないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "に恥じないな",
+                "reason": "Vor 活躍 steht hier kein zusätzliches な."
+              },
+              {
+                "text": "を恥じない",
+                "reason": "を macht den Titel zum Objekt des Sich-Schämens statt zum Maßstab würdiger Leistung."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa sono shougou ni hajinai katsuyaku wo shita.",
         "german": "Er leistete Arbeit, die dem Titel würdig war."
       },
       {
         "japanese": "チャンピオンの名に恥じない戦いぶりだった。",
+        "cloze": {
+          "start": 8,
+          "answer": "に恥じない"
+        },
         "romaji": "Chanpion no na ni hajinai tatakaibu ri datta.",
         "german": "Es war ein Kampf, der des Namens Champion würdig war."
       }
     ],
     "notes": "Positiver Ausdruck, der Würdigkeit betont.",
     "related": [
-      "にふさわしい",
-      "に値する"
+      "n1-ni-taru"
     ]
   },
   {
@@ -3185,19 +6994,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は英語は言うに及ばず、フランス語も話せる。",
+        "cloze": {
+          "start": 4,
+          "answer": "は言うに及ばず",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は英語は言うに及ばず、フランス語も話せる。",
+            "german": "Er kann nicht nur Englisch, sondern natürlich auch Französisch sprechen.",
+            "start": 4,
+            "answer": "は言うに及ばず",
+            "acceptedAnswers": [
+              "は言うに及ばず",
+              "はもちろん"
+            ],
+            "distractors": [
+              {
+                "text": "は言うに及ばずな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "は言うに及ばずを",
+                "reason": "を bildet hier keinen additiven Anschluss."
+              },
+              {
+                "text": "は言うに及ばずます",
+                "reason": "ます kann nicht an ず angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa eigo wa iu ni oyobazu, furansugo mo hanaseru.",
         "german": "Er kann nicht nur Englisch, sondern natürlich auch Französisch sprechen."
       },
       {
         "japanese": "東京は言うに及ばず、地方でも人気がある。",
+        "cloze": {
+          "start": 2,
+          "answer": "は言うに及ばず"
+        },
         "romaji": "Toukyou wa iu ni oyobazu, chihou demo ninki ga aru.",
         "german": "Ganz zu schweigen von Tokyo, ist es auch in ländlichen Gebieten beliebt."
       }
     ],
     "notes": "Sehr formeller Ausdruck, oft in schriftlicher Sprache.",
     "related": [
-      "はもちろん",
-      "は言うまでもなく"
+      "n2-wa-mochiron"
     ]
   },
   {
@@ -3211,20 +7052,49 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "冗談はさておき、本題に入りましょう。",
+        "cloze": {
+          "start": 2,
+          "answer": "はさておき",
+          "quiz": {
+            "level": "N1",
+            "japanese": "冗談はさておき、本題に入りましょう。",
+            "german": "Spaß beiseite, kommen wir zum eigentlichen Thema.",
+            "start": 2,
+            "answer": "はさておき",
+            "acceptedAnswers": [
+              "はさておき"
+            ],
+            "distractors": [
+              {
+                "text": "はさておいた",
+                "reason": "Die attributive Vergangenheit bildet hier keinen Anschluss."
+              },
+              {
+                "text": "はさておきます",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              },
+              {
+                "text": "はさておきな",
+                "reason": "な kann hier nicht angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Joudan wa sateoki, hondai ni hairimashou.",
         "german": "Spaß beiseite, kommen wir zum eigentlichen Thema."
       },
       {
         "japanese": "お金の話はさておいて、まず計画を立てよう。",
+        "cloze": {
+          "start": 4,
+          "answer": "はさておいて"
+        },
         "romaji": "Okane no hanashi wa sateoite, mazu keikaku wo tateyou.",
         "german": "Abgesehen vom Geld, lass uns erst einmal einen Plan machen."
       }
     ],
     "notes": "Nützlich, um ein Thema zu wechseln oder zu priorisieren.",
-    "related": [
-      "はともかく",
-      "はおいて"
-    ]
+    "related": []
   },
   {
     "id": "n1-bakarikamade",
@@ -3238,7 +7108,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "彼は日本語ばかりか、中国語まで話せる。",
         "romaji": "Kare wa nihongo bakari ka, chuugokugo made hanaseru.",
-        "german": "Er kann nicht nur Japanisch, sondern sogar Chinesisch sprechen."
+        "german": "Er kann nicht nur Japanisch, sondern sogar Chinesisch sprechen.",
+        "cloze": {
+          "start": 5,
+          "answer": "ばかりか",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は日本語ばかりか、中国語まで話せる。",
+            "german": "Er kann nicht nur Japanisch, sondern sogar Chinesisch sprechen.",
+            "start": 5,
+            "answer": "ばかりか",
+            "acceptedAnswers": [
+              "ばかりか",
+              "だけでなく"
+            ],
+            "distractors": [
+              {
+                "text": "ばかりかを",
+                "reason": "を bildet hier keinen additiven Anschluss."
+              },
+              {
+                "text": "ばかりかな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ばかりかます",
+                "reason": "ます kann nicht an か angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "彼女は勉強ばかりか、スポーツまで得意だ。",
@@ -3248,8 +7147,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Betont die zusätzliche, überraschende Information.",
     "related": [
-      "だけでなく～も",
-      "ばかりでなく"
+      "n4-dake-de-naku",
+      "n3-bakari-ka"
     ]
   },
   {
@@ -3264,7 +7163,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "これは彼ひとりの問題だけでなく、全員の問題だ。",
         "romaji": "Kore wa kare hitori no mondai dake de naku, zen'in no mondai da.",
-        "german": "Das ist nicht nur sein Problem allein, sondern ein Problem für alle."
+        "german": "Das ist nicht nur sein Problem allein, sondern ein Problem für alle.",
+        "cloze": {
+          "start": 4,
+          "answer": "ひとりの問題だけでなく",
+          "quiz": {
+            "level": "N1",
+            "japanese": "これは彼ひとりの問題だけでなく、全員の問題だ。",
+            "german": "Das ist nicht nur sein Problem allein, sondern ein Problem für alle.",
+            "start": 4,
+            "answer": "ひとりの問題だけでなく",
+            "acceptedAnswers": [
+              "ひとりの問題だけでなく",
+              "ひとりの問題だけではなく"
+            ],
+            "distractors": [
+              {
+                "text": "ひとりの問題だけでないく",
+                "reason": "Die adverbiale Form von ない lautet なく."
+              },
+              {
+                "text": "ひとりの問題だけでなくな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ひとりの問題だけでなくを",
+                "reason": "を bildet hier keinen Gegensatzanschluss."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "日本ひとりだけでなく、アジア全体の課題だ。",
@@ -3274,8 +7202,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Betont die Ausdehnung über eine einzelne Einheit hinaus.",
     "related": [
-      "だけでなく",
-      "のみならず"
+      "n4-dake-de-naku",
+      "n1-nomi-narazu"
     ]
   },
   {
@@ -3289,19 +7217,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "泥まみれになって遊んだ。",
+        "cloze": {
+          "start": 1,
+          "answer": "まみれ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "泥まみれになって遊んだ。",
+            "german": "Wir spielten, bis wir voller Schlamm waren.",
+            "start": 1,
+            "answer": "まみれ",
+            "acceptedAnswers": [
+              "まみれ",
+              "だらけ"
+            ],
+            "distractors": [
+              {
+                "text": "まみれを",
+                "reason": "Die Objektpartikel passt nicht vor になって."
+              },
+              {
+                "text": "まみれな",
+                "reason": "な passt nicht vor になって."
+              },
+              {
+                "text": "まみれます",
+                "reason": "ます kann nicht direkt an まみれ angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Doro mamire ni natte asonda.",
         "german": "Wir spielten, bis wir voller Schlamm waren."
       },
       {
         "japanese": "血まみれで倒れていた。",
+        "cloze": {
+          "start": 1,
+          "answer": "まみれ"
+        },
         "romaji": "Chi mamire de taorete ita.",
         "german": "Er lag blutüberströmt am Boden."
       }
     ],
     "notes": "Meist für negative Dinge wie Schmutz, Blut, Schulden verwendet.",
     "related": [
-      "だらけ",
-      "ずくめ"
+      "n3-darake",
+      "n1-zukume"
     ]
   },
   {
@@ -3316,7 +7277,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "春めいた陽気になってきた。",
         "romaji": "Harumei ta youki ni natte kita.",
-        "german": "Das Wetter fängt an, frühlingshaft zu werden."
+        "german": "Das Wetter fängt an, frühlingshaft zu werden.",
+        "cloze": {
+          "start": 1,
+          "answer": "めいた",
+          "quiz": {
+            "level": "N1",
+            "japanese": "春めいた陽気になってきた。",
+            "german": "Das Wetter fängt an, frühlingshaft zu werden.",
+            "start": 1,
+            "answer": "めいた",
+            "acceptedAnswers": [
+              "めいた"
+            ],
+            "distractors": [
+              {
+                "text": "めき",
+                "reason": "Die Stammform bestimmt hier 陽気 nicht attributiv."
+              },
+              {
+                "text": "めくました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm めき."
+              },
+              {
+                "text": "めいたな",
+                "reason": "Vor 陽気 steht hier kein zusätzliches な."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "彼の話は謎めいている。",
@@ -3326,8 +7315,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Bildet oft poetische oder literarische Ausdrücke.",
     "related": [
-      "らしい",
-      "っぽい"
+      "n4-rashii",
+      "n4-ppoi"
     ]
   },
   {
@@ -3342,7 +7331,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "行きたくないもの。",
         "romaji": "Ikitakunai mono.",
-        "german": "Ich will halt nicht gehen."
+        "german": "Ich will halt nicht gehen.",
+        "cloze": {
+          "start": 6,
+          "answer": "もの",
+          "quiz": {
+            "level": "N1",
+            "japanese": "行きたくないもの。",
+            "german": "Ich will halt nicht gehen.",
+            "start": 6,
+            "answer": "もの",
+            "acceptedAnswers": [
+              "もの",
+              "もん"
+            ],
+            "distractors": [
+              {
+                "text": "ものます",
+                "reason": "ます kann nicht direkt an もの angehängt werden."
+              },
+              {
+                "text": "ものなです",
+                "reason": "Vor です steht hier kein な."
+              },
+              {
+                "text": "ものをます",
+                "reason": "ます kann nicht an を angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "疲れているんだもの、休みたい。",
@@ -3352,8 +7370,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Oft von Frauen und Kindern verwendet, klingt leicht trotzig.",
     "related": [
-      "から",
-      "ので"
+      "kara-because",
+      "node"
     ]
   },
   {
@@ -3367,20 +7385,49 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の演奏には心を打つものがある。",
+        "cloze": {
+          "start": 10,
+          "answer": "ものがある",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の演奏には心を打つものがある。",
+            "german": "Seine Darbietung hat etwas, das das Herz berührt.",
+            "start": 10,
+            "answer": "ものがある",
+            "acceptedAnswers": [
+              "ものがある"
+            ],
+            "distractors": [
+              {
+                "text": "ものをある",
+                "reason": "ある benötigt hier が statt を."
+              },
+              {
+                "text": "ものがあるます",
+                "reason": "ます benötigt den Stamm あり."
+              },
+              {
+                "text": "ものがない",
+                "reason": "Dies verneint die berührende Qualität."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no ensou ni wa kokoro wo utsu mono ga aru.",
         "german": "Seine Darbietung hat etwas, das das Herz berührt."
       },
       {
         "japanese": "この絵には考えさせられるものがある。",
+        "cloze": {
+          "start": 12,
+          "answer": "ものがある"
+        },
         "romaji": "Kono e ni wa kangaesaserareru mono ga aru.",
         "german": "Dieses Gemälde hat etwas, das zum Nachdenken anregt."
       }
     ],
     "notes": "Drückt einen subjektiven, oft positiven Eindruck aus.",
-    "related": [
-      "ところがある",
-      "感じがある"
-    ]
+    "related": []
   },
   {
     "id": "n1-monotoshite",
@@ -3393,19 +7440,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼が来ないものとして、計画を進めよう。",
+        "cloze": {
+          "start": 5,
+          "answer": "ものとして",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼が来ないものとして、計画を進めよう。",
+            "german": "Unter der Annahme, dass er nicht kommt, lass uns mit dem Plan fortfahren.",
+            "start": 5,
+            "answer": "ものとして",
+            "acceptedAnswers": [
+              "ものとして"
+            ],
+            "distractors": [
+              {
+                "text": "ものとする",
+                "reason": "Die Wörterbuchform bildet hier keinen Annahmeanschluss."
+              },
+              {
+                "text": "ものとします",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              },
+              {
+                "text": "ものをして",
+                "reason": "Die Annahmewendung benötigt と."
+              }
+            ]
+          }
+        },
         "romaji": "Kare ga konai mono to shite, keikaku wo susumeyou.",
         "german": "Unter der Annahme, dass er nicht kommt, lass uns mit dem Plan fortfahren."
       },
       {
         "japanese": "この件は解決したものとして処理する。",
+        "cloze": {
+          "start": 8,
+          "answer": "ものとして"
+        },
         "romaji": "Kono ken wa kaiketsu shita mono to shite shori suru.",
         "german": "Wir behandeln diese Angelegenheit als gelöst."
       }
     ],
     "notes": "Oft in geschäftlichen oder formellen Situationen verwendet.",
     "related": [
-      "として",
-      "と考えて"
+      "n4-toshite"
     ]
   },
   {
@@ -3420,7 +7498,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "できるものなら、やり直したい。",
         "romaji": "Dekiru mono nara, yari naoshitai.",
-        "german": "Wenn ich könnte, würde ich es gerne noch einmal machen."
+        "german": "Wenn ich könnte, würde ich es gerne noch einmal machen.",
+        "cloze": {
+          "start": 3,
+          "answer": "ものなら",
+          "quiz": {
+            "level": "N1",
+            "japanese": "できるものなら、やり直したい。",
+            "german": "Wenn ich könnte, würde ich es gerne noch einmal machen.",
+            "start": 3,
+            "answer": "ものなら",
+            "acceptedAnswers": [
+              "ものなら",
+              "なら"
+            ],
+            "distractors": [
+              {
+                "text": "ものだなら",
+                "reason": "Die nominale Bedingung benötigt kein zusätzliches だ."
+              },
+              {
+                "text": "ものをなら",
+                "reason": "を kann hier nicht vor die Bedingung treten."
+              },
+              {
+                "text": "ものますなら",
+                "reason": "ます kann nicht direkt an もの angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "嘘をついたものなら、ただでは済まない。",
@@ -3430,8 +7537,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Kann Wunsch oder Warnung ausdrücken, je nach Kontext.",
     "related": [
-      "たら",
-      "なら"
+      "tara",
+      "n4-nara"
     ]
   },
   {
@@ -3445,20 +7552,54 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は私を見るや、逃げ出した。",
+        "cloze": {
+          "start": 6,
+          "answer": "や",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は私を見るや、逃げ出した。",
+            "german": "Kaum sah er mich, rannte er davon.",
+            "start": 6,
+            "answer": "や",
+            "acceptedAnswers": [
+              "や",
+              "や否や",
+              "なり"
+            ],
+            "distractors": [
+              {
+                "text": "やを",
+                "reason": "を bildet hier keinen Zeitanschluss."
+              },
+              {
+                "text": "やな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "やます",
+                "reason": "ます kann nicht direkt an や angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa watashi wo miru ya, nigedashita.",
         "german": "Kaum sah er mich, rannte er davon."
       },
       {
         "japanese": "その知らせを聞くや、彼女は泣き出した。",
+        "cloze": {
+          "start": 8,
+          "answer": "や"
+        },
         "romaji": "Sono shirase wo kiku ya, kanojo wa nakidashita.",
         "german": "Sobald sie die Nachricht hörte, fing sie an zu weinen."
       }
     ],
     "notes": "Sehr literarisch und archaisch, in moderner Sprache selten.",
     "related": [
-      "やいなや",
-      "なり",
-      "とたん"
+      "n1-ya-inaya",
+      "n1-nari",
+      "n3-totan"
     ]
   },
   {
@@ -3473,7 +7614,36 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "みんなで力を合わせて頑張ろうではないか。",
         "romaji": "Minna de chikara wo awasete ganbarou de wa nai ka.",
-        "german": "Lasst uns alle zusammenarbeiten und unser Bestes geben!"
+        "german": "Lasst uns alle zusammenarbeiten und unser Bestes geben!",
+        "cloze": {
+          "start": 10,
+          "answer": "頑張ろうではないか",
+          "quiz": {
+            "level": "N1",
+            "japanese": "みんなで力を合わせて頑張ろうではないか。",
+            "german": "Lasst uns alle zusammenarbeiten und unser Bestes geben!",
+            "start": 10,
+            "answer": "頑張ろうではないか",
+            "acceptedAnswers": [
+              "頑張ろうではないか",
+              "頑張ろうじゃないか"
+            ],
+            "distractors": [
+              {
+                "text": "頑張るうではないか",
+                "reason": "Die Willensform lautet 頑張ろう."
+              },
+              {
+                "text": "頑張ろうではないますか",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "頑張ろうではないかます",
+                "reason": "ます kann nicht an die Fragepartikel angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "この機会に挑戦してみようではありませんか。",
@@ -3483,8 +7653,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Oft in inspirierenden Reden oder Aufrufen verwendet.",
     "related": [
-      "ましょう",
-      "よう"
+      "mashou",
+      "n4-volitional"
     ]
   },
   {
@@ -3498,19 +7668,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "東京を皮切りに、全国ツアーを行う。",
+        "cloze": {
+          "start": 2,
+          "answer": "を皮切りに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "東京を皮切りに、全国ツアーを行う。",
+            "german": "Beginnend mit Tokyo werden wir eine landesweite Tour durchführen.",
+            "start": 2,
+            "answer": "を皮切りに",
+            "acceptedAnswers": [
+              "を皮切りに",
+              "を皮切りとして"
+            ],
+            "distractors": [
+              {
+                "text": "を皮切りを",
+                "reason": "Die Wendung schließt mit に an."
+              },
+              {
+                "text": "に皮切りに",
+                "reason": "Der Ausgangspunkt benötigt を."
+              },
+              {
+                "text": "を皮切りな",
+                "reason": "な bildet hier keinen Zeitanschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Toukyou wo kawakiri ni, zenkoku tsuaa wo okonau.",
         "german": "Beginnend mit Tokyo werden wir eine landesweite Tour durchführen."
       },
       {
         "japanese": "この事件を皮切りに、様々な問題が明らかになった。",
+        "cloze": {
+          "start": 4,
+          "answer": "を皮切りに"
+        },
         "romaji": "Kono jiken wo kawakiri ni, samazama na mondai ga akiraka ni natta.",
         "german": "Ausgehend von diesem Vorfall wurden verschiedene Probleme offensichtlich."
       }
     ],
     "notes": "Betont den Beginn einer Serie von Ereignissen.",
     "related": [
-      "を始めとして",
-      "から始まって"
+      "n3-o-hajime",
+      "n1-wo-kawakiri-ni"
     ]
   },
   {
@@ -3524,19 +7727,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "今にも泣き出さんばかりの顔をしていた。",
+        "cloze": {
+          "start": 7,
+          "answer": "んばかり",
+          "quiz": {
+            "level": "N1",
+            "japanese": "今にも泣き出さんばかりの顔をしていた。",
+            "german": "Er hatte ein Gesicht, als würde er gleich anfangen zu weinen.",
+            "start": 7,
+            "answer": "んばかり",
+            "acceptedAnswers": [
+              "んばかり"
+            ],
+            "distractors": [
+              {
+                "text": "んばかります",
+                "reason": "ます kann nicht direkt an ばかり angehängt werden."
+              },
+              {
+                "text": "んばかりな",
+                "reason": "な passt hier nicht vor の顔."
+              },
+              {
+                "text": "んばかりを",
+                "reason": "を passt hier nicht vor の顔."
+              }
+            ]
+          }
+        },
         "romaji": "Ima ni mo nakidasan bakari no kao wo shite ita.",
         "german": "Er hatte ein Gesicht, als würde er gleich anfangen zu weinen."
       },
       {
         "japanese": "飛び上がらんばかりに喜んだ。",
+        "cloze": {
+          "start": 5,
+          "answer": "んばかり"
+        },
         "romaji": "Tobiagaran bakari ni yorokonda.",
         "german": "Er freute sich so sehr, dass er fast in die Luft gesprungen wäre."
       }
     ],
     "notes": "Literarischer Ausdruck, betont die Intensität.",
     "related": [
-      "そうだ",
-      "ようだ"
+      "n4-sou-appearance",
+      "n4-you-da"
     ]
   },
   {
@@ -3550,6 +7785,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の成功は喜ばしい限りだ。",
+        "cloze": {
+          "start": 9,
+          "answer": "限りだ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の成功は喜ばしい限りだ。",
+            "german": "Sein Erfolg ist höchst erfreulich.",
+            "start": 9,
+            "answer": "限りだ",
+            "acceptedAnswers": [
+              "限りだ"
+            ],
+            "distractors": [
+              {
+                "text": "限りを",
+                "reason": "Die Objektpartikel schließt den Satz nicht ab."
+              },
+              {
+                "text": "限りな",
+                "reason": "Die attributive Form schließt den Satz nicht ab."
+              },
+              {
+                "text": "限ります",
+                "reason": "ます kann hier nicht direkt an das Nomen 限り angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no seikou wa yorokobashii kagiri da.",
         "german": "Sein Erfolg ist höchst erfreulich."
       },
@@ -3561,8 +7824,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Drückt starke Gefühle oder Bewertungen aus.",
     "related": [
-      "きわめて",
-      "非常に"
+      "n1-kiwamarinai"
     ]
   },
   {
@@ -3581,15 +7843,44 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "経験不足であるがゆえに、失敗した。",
+        "cloze": {
+          "start": 7,
+          "answer": "がゆえに",
+          "quiz": {
+            "level": "N1",
+            "japanese": "経験不足であるがゆえに、失敗した。",
+            "german": "Gerade weil ich unerfahren war, bin ich gescheitert.",
+            "start": 7,
+            "answer": "がゆえに",
+            "acceptedAnswers": [
+              "がゆえに",
+              "ために"
+            ],
+            "distractors": [
+              {
+                "text": "がゆえを",
+                "reason": "Die Grundverbindung schließt mit に an."
+              },
+              {
+                "text": "がゆえな",
+                "reason": "な bildet hier keinen Grundanschluss."
+              },
+              {
+                "text": "がゆえます",
+                "reason": "ます kann nicht direkt an ゆえ angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Keiken busoku de aru ga yue ni, shippai shita.",
         "german": "Gerade weil ich unerfahren war, bin ich gescheitert."
       }
     ],
     "notes": "Sehr formell und literarisch, in gesprochener Sprache selten.",
     "related": [
-      "ために",
-      "から",
-      "ので"
+      "n4-tame-ni",
+      "kara-because",
+      "node"
     ]
   },
   {
@@ -3603,6 +7894,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "増えこそあれ、減ることはない。",
+        "cloze": {
+          "start": 2,
+          "answer": "こそあれ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "増えこそあれ、減ることはない。",
+            "german": "Es mag zunehmen, aber abnehmen wird es nicht.",
+            "start": 2,
+            "answer": "こそあれ",
+            "acceptedAnswers": [
+              "こそあれ"
+            ],
+            "distractors": [
+              {
+                "text": "こそあるを",
+                "reason": "を kann hier nicht an ある anschließen."
+              },
+              {
+                "text": "こそあれな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "こそありまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Fue koso are, heru koto wa nai.",
         "german": "Es mag zunehmen, aber abnehmen wird es nicht."
       },
@@ -3614,8 +7933,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Sehr literarisch, in moderner Umgangssprache nicht gebräuchlich.",
     "related": [
-      "ことはあっても",
-      "としても"
+      "n4-koto-wa-ga",
+      "n3-to-shitemo"
     ]
   },
   {
@@ -3629,19 +7948,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "困難は増しこそすれ、減りはしない。",
+        "cloze": {
+          "start": 5,
+          "answer": "こそすれ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "困難は増しこそすれ、減りはしない。",
+            "german": "Die Schwierigkeiten nehmen eher zu, als dass sie abnehmen.",
+            "start": 5,
+            "answer": "こそすれ",
+            "acceptedAnswers": [
+              "こそすれ"
+            ],
+            "distractors": [
+              {
+                "text": "こそするを",
+                "reason": "を kann hier nicht an する anschließen."
+              },
+              {
+                "text": "こそすれな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "こそしまする",
+                "reason": "る kann nicht an ます angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Konnan wa mashi koso sure, heri wa shinai.",
         "german": "Die Schwierigkeiten nehmen eher zu, als dass sie abnehmen."
       },
       {
         "japanese": "彼の態度は硬化しこそすれ、軟化しない。",
+        "cloze": {
+          "start": 8,
+          "answer": "こそすれ"
+        },
         "romaji": "Kare no taido wa kouka shi koso sure, nanka shinai.",
         "german": "Seine Haltung verhärtet sich eher, als dass sie weicher wird."
       }
     ],
     "notes": "Sehr literarisch und formell, archaischer Stil.",
     "related": [
-      "こそあれ",
-      "ことはあっても"
+      "n1-kosoare",
+      "n4-koto-wa-ga"
     ]
   },
   {
@@ -3656,7 +8007,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "お金を使いすぎて、借金をする始末だ。",
         "romaji": "Okane wo tsukaisugite, shakkin wo suru shimatsu da.",
-        "german": "Ich gab zu viel Geld aus und musste mich sogar verschulden."
+        "german": "Ich gab zu viel Geld aus und musste mich sogar verschulden.",
+        "cloze": {
+          "start": 14,
+          "answer": "始末だ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "お金を使いすぎて、借金をする始末だ。",
+            "german": "Ich gab zu viel Geld aus und musste mich sogar verschulden.",
+            "start": 14,
+            "answer": "始末だ",
+            "acceptedAnswers": [
+              "始末だ"
+            ],
+            "distractors": [
+              {
+                "text": "始末を",
+                "reason": "Die Objektpartikel schließt den Satz nicht ab."
+              },
+              {
+                "text": "始末な",
+                "reason": "Die attributive Form schließt den Satz nicht ab."
+              },
+              {
+                "text": "始末ます",
+                "reason": "ます kann nicht direkt an 始末 angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "彼は遅刻ばかりで、ついにクビになる始末だった。",
@@ -3666,8 +8045,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Immer negativ, drückt Bedauern oder Kritik aus.",
     "related": [
-      "ありさま",
-      "有様"
+      "n1-shimatsu-da"
     ]
   },
   {
@@ -3681,19 +8059,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "今日は良いことずくめだった。",
+        "cloze": {
+          "start": 7,
+          "answer": "ずくめ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "今日は良いことずくめだった。",
+            "german": "Heute passierte nur Gutes.",
+            "start": 7,
+            "answer": "ずくめ",
+            "acceptedAnswers": [
+              "ずくめ",
+              "ばかり"
+            ],
+            "distractors": [
+              {
+                "text": "ずくめを",
+                "reason": "を passt hier nicht vor だった."
+              },
+              {
+                "text": "ずくめな",
+                "reason": "な passt hier nicht vor だった."
+              },
+              {
+                "text": "ずくめます",
+                "reason": "ます kann nicht direkt an ずくめ angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kyou wa yoi koto zukume datta.",
         "german": "Heute passierte nur Gutes."
       },
       {
         "japanese": "黒ずくめの服を着ている。",
+        "cloze": {
+          "start": 1,
+          "answer": "ずくめ"
+        },
         "romaji": "Kuro zukume no fuku wo kite iru.",
         "german": "Er trägt durchgehend schwarze Kleidung."
       }
     ],
     "notes": "Kann für positive oder negative Dinge verwendet werden.",
     "related": [
-      "だらけ",
-      "まみれ"
+      "n3-darake",
+      "n1-mamire"
     ]
   },
   {
@@ -3707,19 +8118,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "掃除したそばから、また散らかす。",
+        "cloze": {
+          "start": 4,
+          "answer": "そばから",
+          "quiz": {
+            "level": "N1",
+            "japanese": "掃除したそばから、また散らかす。",
+            "german": "Kaum habe ich sauber gemacht, macht er schon wieder Unordnung.",
+            "start": 4,
+            "answer": "そばから",
+            "acceptedAnswers": [
+              "そばから"
+            ],
+            "distractors": [
+              {
+                "text": "そばからを",
+                "reason": "を bildet hier keinen Zeitanschluss."
+              },
+              {
+                "text": "そばからな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "そばからます",
+                "reason": "ます kann nicht direkt an から angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Souji shita soba kara, mata chirakasu.",
         "german": "Kaum habe ich sauber gemacht, macht er schon wieder Unordnung."
       },
       {
         "japanese": "覚えたそばから忘れてしまう。",
+        "cloze": {
+          "start": 3,
+          "answer": "そばから"
+        },
         "romaji": "Oboeta soba kara wasurete shimau.",
         "german": "Sobald ich etwas lerne, vergesse ich es auch schon wieder."
       }
     ],
     "notes": "Drückt oft Frustration über sich wiederholende negative Ereignisse aus.",
     "related": [
-      "とたんに",
-      "なり"
+      "n3-totan",
+      "n1-nari"
     ]
   },
   {
@@ -3733,19 +8176,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼はプロだけあって、仕事が速い。",
+        "cloze": {
+          "start": 4,
+          "answer": "だけあって",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼はプロだけあって、仕事が速い。",
+            "german": "Wie man es von einem Profi erwarten würde, arbeitet er schnell.",
+            "start": 4,
+            "answer": "だけあって",
+            "acceptedAnswers": [
+              "だけあって",
+              "だけに"
+            ],
+            "distractors": [
+              {
+                "text": "だけある",
+                "reason": "Die Wörterbuchform bildet hier keinen Grundanschluss."
+              },
+              {
+                "text": "だけあった",
+                "reason": "Die attributive Vergangenheit bildet hier keinen Anschluss."
+              },
+              {
+                "text": "だけあります",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa puro dake atte, shigoto ga hayai.",
         "german": "Wie man es von einem Profi erwarten würde, arbeitet er schnell."
       },
       {
         "japanese": "高いだけあって、品質は良い。",
+        "cloze": {
+          "start": 2,
+          "answer": "だけあって"
+        },
         "romaji": "Takai dake atte, hinshitsu wa yoi.",
         "german": "Es ist teuer, aber entsprechend gut ist die Qualität."
       }
     ],
     "notes": "Betont, dass das Ergebnis den Erwartungen entspricht.",
     "related": [
-      "だけに",
-      "から"
+      "n2-dake-ni",
+      "kara-because"
     ]
   },
   {
@@ -3759,20 +8235,49 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "少しでももらえるだけましだ。",
+        "cloze": {
+          "start": 8,
+          "answer": "だけまし",
+          "quiz": {
+            "level": "N1",
+            "japanese": "少しでももらえるだけましだ。",
+            "german": "Es ist wenigstens besser, als gar nichts zu bekommen.",
+            "start": 8,
+            "answer": "だけまし",
+            "acceptedAnswers": [
+              "だけまし"
+            ],
+            "distractors": [
+              {
+                "text": "だけましな",
+                "reason": "Vor だ steht hier kein な."
+              },
+              {
+                "text": "だけましを",
+                "reason": "を passt hier nicht vor だ."
+              },
+              {
+                "text": "だけまします",
+                "reason": "ます kann nicht direkt an まし angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Sukoshi demo moraeru dake mashi da.",
         "german": "Es ist wenigstens besser, als gar nichts zu bekommen."
       },
       {
         "japanese": "怪我がなかっただけましだった。",
+        "cloze": {
+          "start": 7,
+          "answer": "だけまし"
+        },
         "romaji": "Kega ga nakatta dake mashi datta.",
         "german": "Immerhin gab es keine Verletzungen."
       }
     ],
     "notes": "Drückt Erleichterung trotz negativer Umstände aus.",
-    "related": [
-      "だけでも",
-      "まだましだ"
-    ]
+    "related": []
   },
   {
     "id": "n1-dearouto",
@@ -3785,19 +8290,53 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "誰であろうと、ルールは守らなければならない。",
+        "cloze": {
+          "start": 1,
+          "answer": "であろうと",
+          "quiz": {
+            "level": "N1",
+            "japanese": "誰であろうと、ルールは守らなければならない。",
+            "german": "Wer auch immer es ist, muss die Regeln befolgen.",
+            "start": 1,
+            "answer": "であろうと",
+            "acceptedAnswers": [
+              "であろうと",
+              "であっても",
+              "であれ"
+            ],
+            "distractors": [
+              {
+                "text": "であるうと",
+                "reason": "Die Willensform von ある lautet あろう."
+              },
+              {
+                "text": "であろうを",
+                "reason": "Die konzessive Verbindung benötigt と statt を."
+              },
+              {
+                "text": "であろうとな",
+                "reason": "な kann hier nicht angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Dare de arou to, ruuru wa mamoranakereba naranai.",
         "german": "Wer auch immer es ist, muss die Regeln befolgen."
       },
       {
         "japanese": "どんな困難であろうと、諦めない。",
+        "cloze": {
+          "start": 5,
+          "answer": "であろうと"
+        },
         "romaji": "Donna konnan de arou to, akiramenai.",
         "german": "Egal wie schwierig es ist, ich gebe nicht auf."
       }
     ],
     "notes": "Sehr formell, oft in schriftlicher Sprache.",
     "related": [
-      "であっても",
-      "でも"
+      "n1-de-are",
+      "temo"
     ]
   },
   {
@@ -3811,19 +8350,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "このような問題は早急に対処してしかるべきだ。",
+        "cloze": {
+          "start": 14,
+          "answer": "てしかるべき",
+          "quiz": {
+            "level": "N1",
+            "japanese": "このような問題は早急に対処してしかるべきだ。",
+            "german": "Solche Probleme sollten natürlich umgehend angegangen werden.",
+            "start": 14,
+            "answer": "てしかるべき",
+            "acceptedAnswers": [
+              "てしかるべき"
+            ],
+            "distractors": [
+              {
+                "text": "たしかるべき",
+                "reason": "Die Wendung benötigt die て-Verbindung."
+              },
+              {
+                "text": "てしかるべく",
+                "reason": "Die adverbiale Form passt hier nicht vor だ."
+              },
+              {
+                "text": "てしかるべきな",
+                "reason": "Vor だ steht hier kein zusätzliches な."
+              }
+            ]
+          }
+        },
         "romaji": "Kono you na mondai wa sakkyuu ni taisho shite shikaru beki da.",
         "german": "Solche Probleme sollten natürlich umgehend angegangen werden."
       },
       {
         "japanese": "彼には感謝してしかるべきだ。",
+        "cloze": {
+          "start": 6,
+          "answer": "てしかるべき"
+        },
         "romaji": "Kare ni wa kansha shite shikaru beki da.",
         "german": "Es wäre angemessen, ihm zu danken."
       }
     ],
     "notes": "Formell, oft mit normativer oder kritischer Konnotation.",
     "related": [
-      "べきだ",
-      "はずだ"
+      "n4-beki-da",
+      "n4-hazu-da"
     ]
   },
   {
@@ -3842,14 +8413,42 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "明日来ても差し支えない。",
+        "cloze": {
+          "start": 3,
+          "answer": "ても差し支えない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "明日来ても差し支えない。",
+            "german": "Es ist in Ordnung, wenn Sie morgen kommen.",
+            "start": 3,
+            "answer": "ても差し支えない",
+            "acceptedAnswers": [
+              "ても差し支えない",
+              "ても構わない"
+            ],
+            "distractors": [
+              {
+                "text": "ても差し支えないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "ても差し支えるません",
+                "reason": "ません wird nicht an die Wörterbuchform angehängt."
+              },
+              {
+                "text": "ても差し支えないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              }
+            ]
+          }
+        },
         "romaji": "Ashita kite mo sashitsukae nai.",
         "german": "Es ist in Ordnung, wenn Sie morgen kommen."
       }
     ],
     "notes": "Sehr formell, oft in geschäftlichen oder offiziellen Kontexten.",
     "related": [
-      "てもかまわない",
-      "てもいい"
+      "temo-ii"
     ]
   },
   {
@@ -3863,19 +8462,51 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "社長の命令とあっては、断れない。",
+        "cloze": {
+          "start": 5,
+          "answer": "とあっては",
+          "quiz": {
+            "level": "N1",
+            "japanese": "社長の命令とあっては、断れない。",
+            "german": "Wenn es ein Befehl des Geschäftsführers ist, kann ich nicht ablehnen.",
+            "start": 5,
+            "answer": "とあっては",
+            "acceptedAnswers": [
+              "とあっては"
+            ],
+            "distractors": [
+              {
+                "text": "とあるは",
+                "reason": "は schließt hier nicht an die Wörterbuchform an."
+              },
+              {
+                "text": "とありますは",
+                "reason": "は schließt hier nicht an die Höflichkeitsform an."
+              },
+              {
+                "text": "とあってを",
+                "reason": "を bildet hier keinen Bedingungsanschluss."
+              }
+            ]
+          }
+        },
         "romaji": "Shachou no meirei to atte wa, kotowarenai.",
         "german": "Wenn es ein Befehl des Geschäftsführers ist, kann ich nicht ablehnen."
       },
       {
         "japanese": "このような状況とあっては、仕方がない。",
+        "cloze": {
+          "start": 7,
+          "answer": "とあっては"
+        },
         "romaji": "Kono you na joukyou to atte wa, shikata ga nai.",
         "german": "Unter diesen Umständen lässt sich nichts machen."
       }
     ],
     "notes": "Betont die Unvermeidlichkeit oder Natürlichkeit der Reaktion.",
     "related": [
-      "となると",
-      "としては"
+      "n1-to-mo-naru-to",
+      "n4-toshite"
     ]
   },
   {
@@ -3889,19 +8520,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "あれ以来というもの、彼とは会っていない。",
+        "cloze": {
+          "start": 4,
+          "answer": "というもの",
+          "quiz": {
+            "level": "N1",
+            "japanese": "あれ以来というもの、彼とは会っていない。",
+            "german": "Seit damals habe ich ihn überhaupt nicht mehr gesehen.",
+            "start": 4,
+            "answer": "というもの",
+            "acceptedAnswers": [
+              "というもの"
+            ],
+            "distractors": [
+              {
+                "text": "をいうもの",
+                "reason": "Die zitierende Verbindung benötigt と."
+              },
+              {
+                "text": "というものな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "というものます",
+                "reason": "ます kann nicht direkt an もの angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Are irai to iu mono, kare to wa atte inai.",
         "german": "Seit damals habe ich ihn überhaupt nicht mehr gesehen."
       },
       {
         "japanese": "この一週間というもの、雨ばかりだ。",
+        "cloze": {
+          "start": 5,
+          "answer": "というもの"
+        },
         "romaji": "Kono isshuukan to iu mono, ame bakari da.",
         "german": "Diese ganze Woche über regnet es ständig."
       }
     ],
     "notes": "Betont die Kontinuität über den gesamten Zeitraum.",
     "related": [
-      "ずっと",
-      "の間"
+      "n4-aida-ni"
     ]
   },
   {
@@ -3915,19 +8577,50 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "参加者は30人といったところだ。",
+        "cloze": {
+          "start": 7,
+          "answer": "といったところだ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "参加者は30人といったところだ。",
+            "german": "Es sind etwa 30 Teilnehmer, würde ich sagen.",
+            "start": 7,
+            "answer": "といったところだ",
+            "acceptedAnswers": [
+              "といったところだ"
+            ],
+            "distractors": [
+              {
+                "text": "といったところを",
+                "reason": "Die Objektpartikel schließt den Satz nicht ab."
+              },
+              {
+                "text": "といったところな",
+                "reason": "Die attributive Form schließt den Satz nicht ab."
+              },
+              {
+                "text": "といったところます",
+                "reason": "ます kann nicht direkt an ところ angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Sankasha wa sanjuunin to itta tokoro da.",
         "german": "Es sind etwa 30 Teilnehmer, würde ich sagen."
       },
       {
         "japanese": "彼の実力はせいぜい中級といったところだ。",
+        "cloze": {
+          "start": 11,
+          "answer": "といったところだ"
+        },
         "romaji": "Kare no jitsuryoku wa seizei chuukyuu to itta tokoro da.",
         "german": "Seine Fähigkeiten sind bestenfalls auf mittlerem Niveau."
       }
     ],
     "notes": "Drückt oft eine bescheidene oder realistische Einschätzung aus.",
     "related": [
-      "ぐらい",
-      "程度だ"
+      "n3-kurai-gurai"
     ]
   },
   {
@@ -3941,19 +8634,52 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "今から急いだとしたところで、間に合わない。",
+        "cloze": {
+          "start": 6,
+          "answer": "としたところで",
+          "quiz": {
+            "level": "N1",
+            "japanese": "今から急いだとしたところで、間に合わない。",
+            "german": "Selbst wenn wir uns jetzt beeilen, schaffen wir es nicht rechtzeitig.",
+            "start": 6,
+            "answer": "としたところで",
+            "acceptedAnswers": [
+              "としたところで",
+              "としても"
+            ],
+            "distractors": [
+              {
+                "text": "としたところをで",
+                "reason": "を und で können hier nicht so kombiniert werden."
+              },
+              {
+                "text": "としたところな",
+                "reason": "な bildet hier keinen konzessiven Anschluss."
+              },
+              {
+                "text": "としたところます",
+                "reason": "ます kann nicht direkt an ところ angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Ima kara isoida to shita tokoro de, maniawanai.",
         "german": "Selbst wenn wir uns jetzt beeilen, schaffen wir es nicht rechtzeitig."
       },
       {
         "japanese": "彼に頼んだとしたところで、助けてくれないだろう。",
+        "cloze": {
+          "start": 5,
+          "answer": "としたところで"
+        },
         "romaji": "Kare ni tanonda to shita tokoro de, tasukete kurenai darou.",
         "german": "Auch wenn wir ihn bitten würden, würde er uns wahrscheinlich nicht helfen."
       }
     ],
     "notes": "Betont die Vergeblichkeit oder Unveränderlichkeit des Ergebnisses.",
     "related": [
-      "としても",
-      "たところで"
+      "n3-to-shitemo",
+      "n3-ta-tokoro-de"
     ]
   },
   {
@@ -3972,15 +8698,43 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "チャンスとみるや、すぐに行動に移した。",
+        "cloze": {
+          "start": 4,
+          "answer": "とみるや",
+          "quiz": {
+            "level": "N1",
+            "japanese": "チャンスとみるや、すぐに行動に移した。",
+            "german": "Sobald er eine Chance sah, handelte er sofort.",
+            "start": 4,
+            "answer": "とみるや",
+            "acceptedAnswers": [
+              "とみるや"
+            ],
+            "distractors": [
+              {
+                "text": "をみるや",
+                "reason": "Die betrachtete Einordnung benötigt と."
+              },
+              {
+                "text": "とみるやな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "とみるやます",
+                "reason": "ます kann nicht direkt an や angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Chansu to miru ya, sugu ni koudou ni utsushita.",
         "german": "Sobald er eine Chance sah, handelte er sofort."
       }
     ],
     "notes": "Literarischer Ausdruck, betont schnelle Reaktion.",
     "related": [
-      "や",
-      "やいなや",
-      "なり"
+      "n1-ya",
+      "n1-ya-inaya",
+      "n1-nari"
     ]
   },
   {
@@ -3995,7 +8749,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "何とか解決できないものか。",
         "romaji": "Nantoka kaiketsu dekinai mono ka.",
-        "german": "Gibt es keinen Weg, das irgendwie zu lösen?"
+        "german": "Gibt es keinen Weg, das irgendwie zu lösen?",
+        "cloze": {
+          "start": 7,
+          "answer": "ないものか",
+          "quiz": {
+            "level": "N1",
+            "japanese": "何とか解決できないものか。",
+            "german": "Gibt es keinen Weg, das irgendwie zu lösen?",
+            "start": 7,
+            "answer": "ないものか",
+            "acceptedAnswers": [
+              "ないものか"
+            ],
+            "distractors": [
+              {
+                "text": "ないものをます",
+                "reason": "ます kann nicht an を angehängt werden."
+              },
+              {
+                "text": "ないものなか",
+                "reason": "Die Wunschfrage benötigt kein な."
+              },
+              {
+                "text": "ないものかます",
+                "reason": "ます kann nicht an die Fragepartikel angehängt werden."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "もっと簡単にできないものだろうか。",
@@ -4005,8 +8787,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Drückt Wunsch mit leichtem Zweifel an der Möglichkeit aus.",
     "related": [
-      "ないか",
-      "ないだろうか"
+      "n2-nai-mono-ka"
     ]
   },
   {
@@ -4020,24 +8801,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の行動は失礼極まりない。",
+        "cloze": {
+          "start": 7,
+          "answer": "極まりない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の行動は失礼極まりない。",
+            "german": "Sein Verhalten ist äußerst unhöflich.",
+            "start": 7,
+            "answer": "極まりない",
+            "acceptedAnswers": [
+              "極まりない",
+              "極まる"
+            ],
+            "distractors": [
+              {
+                "text": "極まりないます",
+                "reason": "ない erhält kein angehängtes ます."
+              },
+              {
+                "text": "極まりないました",
+                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
+              },
+              {
+                "text": "極まりないなです",
+                "reason": "Vor です steht hier kein な."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no koudou wa shitsurei kiwamari nai.",
         "german": "Sein Verhalten ist äußerst unhöflich."
       },
       {
         "japanese": "危険極まりない計画だ。",
+        "cloze": {
+          "start": 2,
+          "answer": "極まりない"
+        },
         "romaji": "Kiken kiwamari nai keikaku da.",
         "german": "Das ist ein extrem gefährlicher Plan."
       },
       {
         "japanese": "不便極まりない場所に住んでいる。",
+        "cloze": {
+          "start": 2,
+          "answer": "極まりない"
+        },
         "romaji": "Fuben kiwamari nai basho ni sunde iru.",
         "german": "Ich wohne an einem äußerst ungünstigen Ort."
       }
     ],
     "notes": "Formeller Ausdruck, hauptsächlich in geschriebener Sprache verwendet. Oft mit negativen Begriffen kombiniert.",
     "related": [
-      "限りだ",
-      "この上ない"
+      "n1-kagirida",
+      "n1-kiwamarinai"
     ]
   },
   {
@@ -4051,6 +8869,34 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "説教じみた話はやめてください。",
+        "cloze": {
+          "start": 2,
+          "answer": "じみた",
+          "quiz": {
+            "level": "N1",
+            "japanese": "説教じみた話はやめてください。",
+            "german": "Bitte hör auf mit diesen predigtartigen Reden.",
+            "start": 2,
+            "answer": "じみた",
+            "acceptedAnswers": [
+              "じみた"
+            ],
+            "distractors": [
+              {
+                "text": "じみ",
+                "reason": "Die Stammform bestimmt hier 話 nicht attributiv."
+              },
+              {
+                "text": "じみるました",
+                "reason": "Die höfliche Vergangenheit benötigt den Stamm じみ."
+              },
+              {
+                "text": "じみたな",
+                "reason": "Vor 話 steht hier kein zusätzliches な."
+              }
+            ]
+          }
+        },
         "romaji": "Sekkyou jimita hanashi wa yamete kudasai.",
         "german": "Bitte hör auf mit diesen predigtartigen Reden."
       },
@@ -4061,15 +8907,19 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "愚痴じみたことを言うな。",
+        "cloze": {
+          "start": 2,
+          "answer": "じみた"
+        },
         "romaji": "Guchi jimita koto wo iu na.",
         "german": "Sag nicht solche jammervollen Dinge."
       }
     ],
     "notes": "Meist mit negativer Konnotation. Drückt aus, dass etwas unpassend oder unangemessen wirkt.",
     "related": [
-      "っぽい",
-      "めく",
-      "がましい"
+      "n4-ppoi",
+      "n1-meku",
+      "n1-gamashii"
     ]
   },
   {
@@ -4083,24 +8933,60 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "わざとらしい、わざとがましい演技だ。",
+        "cloze": {
+          "start": 10,
+          "answer": "がましい",
+          "quiz": {
+            "level": "N1",
+            "japanese": "わざとらしい、わざとがましい演技だ。",
+            "german": "Das ist eine gekünstelte, gestellte Aufführung.",
+            "start": 10,
+            "answer": "がましい",
+            "acceptedAnswers": [
+              "がましい"
+            ],
+            "distractors": [
+              {
+                "text": "がましく",
+                "reason": "Die adverbiale Form bestimmt hier 演技 nicht attributiv."
+              },
+              {
+                "text": "がましいな",
+                "reason": "Das い-Adjektiv benötigt vor 演技 kein な."
+              },
+              {
+                "text": "がましいます",
+                "reason": "ます kann nicht direkt an das Adjektiv angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Wazatorashii, wazato gamashii engi da.",
         "german": "Das ist eine gekünstelte, gestellte Aufführung."
       },
       {
         "japanese": "押し付けがましい態度は好きではない。",
+        "cloze": {
+          "start": 4,
+          "answer": "がましい"
+        },
         "romaji": "Oshitsuke gamashii taido wa suki dewa nai.",
         "german": "Ich mag diese aufdringliche Haltung nicht."
       },
       {
         "japanese": "恩着せがましいことを言うな。",
+        "cloze": {
+          "start": 3,
+          "answer": "がましい"
+        },
         "romaji": "Onkise gamashii koto wo iu na.",
         "german": "Sage nichts, was nach Gefälligkeitsheischerei klingt."
       }
     ],
     "notes": "Stark negative Konnotation. Wird verwendet, um unangemessenes oder anmaßendes Verhalten zu kritisieren.",
     "related": [
-      "じみた",
-      "っぽい"
+      "n1-jimita",
+      "n4-ppoi"
     ]
   },
   {
@@ -4114,24 +9000,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼の説明は理解しがたい。",
+        "cloze": {
+          "start": 8,
+          "answer": "がたい",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼の説明は理解しがたい。",
+            "german": "Seine Erklärung ist schwer zu verstehen.",
+            "start": 8,
+            "answer": "がたい",
+            "acceptedAnswers": [
+              "がたい",
+              "にくい"
+            ],
+            "distractors": [
+              {
+                "text": "がたいます",
+                "reason": "ます kann nicht direkt an das Adjektiv angehängt werden."
+              },
+              {
+                "text": "がたくです",
+                "reason": "Die adverbiale Form passt hier nicht vor です."
+              },
+              {
+                "text": "がたかったい",
+                "reason": "Die Vergangenheitsform endet auf かった ohne zusätzliches い."
+              }
+            ]
+          }
+        },
         "romaji": "Kare no setsumei wa rikai shigatai.",
         "german": "Seine Erklärung ist schwer zu verstehen."
       },
       {
         "japanese": "許しがたい行為だ。",
+        "cloze": {
+          "start": 2,
+          "answer": "がたい"
+        },
         "romaji": "Yurushi gatai koui da.",
         "german": "Das ist eine unverzeihliche Tat."
       },
       {
         "japanese": "信じがたい話だが、本当らしい。",
+        "cloze": {
+          "start": 2,
+          "answer": "がたい"
+        },
         "romaji": "Shinji gatai hanashi da ga, hontou rashii.",
         "german": "Es ist eine kaum zu glaubende Geschichte, aber sie scheint wahr zu sein."
       }
     ],
     "notes": "Formeller als にくい. Wird oft in schriftlicher Sprache oder formellen Situationen verwendet.",
     "related": [
-      "にくい",
-      "かねる"
+      "n4-nikui",
+      "n3-kaneru"
     ]
   },
   {
@@ -4145,25 +9068,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は寂しげな表情をしていた。",
+        "cloze": {
+          "start": 4,
+          "answer": "げ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は寂しげな表情をしていた。",
+            "german": "Er hatte einen einsamen Gesichtsausdruck.",
+            "start": 4,
+            "answer": "げ",
+            "acceptedAnswers": [
+              "げ"
+            ],
+            "distractors": [
+              {
+                "text": "げな",
+                "reason": "Das folgende な würde unzulässig verdoppelt."
+              },
+              {
+                "text": "げを",
+                "reason": "を passt hier nicht vor な表情."
+              },
+              {
+                "text": "げます",
+                "reason": "ます kann nicht direkt an げ angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Kare wa sabishi ge na hyoujou wo shite ita.",
         "german": "Er hatte einen einsamen Gesichtsausdruck."
       },
       {
         "japanese": "彼女は嬉しげに話していた。",
+        "cloze": {
+          "start": 5,
+          "answer": "げ"
+        },
         "romaji": "Kanojo wa ureshi ge ni hanashite ita.",
         "german": "Sie sprach mit freudigem Anschein."
       },
       {
         "japanese": "意味ありげな視線を送った。",
+        "cloze": {
+          "start": 4,
+          "answer": "げ"
+        },
         "romaji": "Imi ari ge na shisen wo okutta.",
         "german": "Er warf einen bedeutungsvollen Blick."
       }
     ],
     "notes": "Wird verwendet, um den äußeren Anschein von Gefühlen oder Zuständen zu beschreiben. げな vor Nomen, げに als Adverb.",
     "related": [
-      "そう",
-      "らしい",
-      "めく"
+      "n4-sou-appearance",
+      "n4-rashii",
+      "n1-meku"
     ]
   },
   {
@@ -4178,7 +9137,35 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       {
         "japanese": "一生懸命勉強した甲斐があって、合格できた。",
         "romaji": "Isshoukenmei benkyou shita kai ga atte, goukaku dekita.",
-        "german": "Die harte Arbeit beim Lernen hat sich gelohnt, und ich konnte bestehen."
+        "german": "Die harte Arbeit beim Lernen hat sich gelohnt, und ich konnte bestehen.",
+        "cloze": {
+          "start": 8,
+          "answer": "甲斐があって",
+          "quiz": {
+            "level": "N1",
+            "japanese": "一生懸命勉強した甲斐があって、合格できた。",
+            "german": "Die harte Arbeit beim Lernen hat sich gelohnt, und ich konnte bestehen.",
+            "start": 8,
+            "answer": "甲斐があって",
+            "acceptedAnswers": [
+              "甲斐があって"
+            ],
+            "distractors": [
+              {
+                "text": "甲斐をあって",
+                "reason": "ある benötigt hier が statt を."
+              },
+              {
+                "text": "甲斐があった",
+                "reason": "Die attributive Vergangenheit bildet hier keinen Anschluss."
+              },
+              {
+                "text": "甲斐があります",
+                "reason": "Die finite Form bildet hier keinen Anschluss."
+              }
+            ]
+          }
+        }
       },
       {
         "japanese": "説得した甲斐がなかった。",
@@ -4193,8 +9180,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Oft verwendet, um rückblickend zu bewerten, ob eine Anstrengung erfolgreich war. 〜甲斐 kann auch eigenständig verwendet werden (生き甲斐, やり甲斐).",
     "related": [
-      "価値がある",
-      "意味がある"
+      "n1-ni-taru"
     ]
   },
   {
@@ -4208,24 +9194,61 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "嵐のごとく去って行った。",
+        "cloze": {
+          "start": 2,
+          "answer": "ごとく",
+          "quiz": {
+            "level": "N1",
+            "japanese": "嵐のごとく去って行った。",
+            "german": "Er ging wie ein Sturm davon.",
+            "start": 2,
+            "answer": "ごとく",
+            "acceptedAnswers": [
+              "ごとく",
+              "ように"
+            ],
+            "distractors": [
+              {
+                "text": "ごとき",
+                "reason": "Die attributive Form bestimmt hier 去って行った nicht adverbial."
+              },
+              {
+                "text": "ごとくな",
+                "reason": "な kann hier nicht angehängt werden."
+              },
+              {
+                "text": "ごとくます",
+                "reason": "ます kann nicht direkt an ごとく angehängt werden."
+              }
+            ]
+          }
+        },
         "romaji": "Arashi no gotoku satte itta.",
         "german": "Er ging wie ein Sturm davon."
       },
       {
         "japanese": "私ごとき者が意見を言うのは恐れ多い。",
+        "cloze": {
+          "start": 1,
+          "answer": "ごとき"
+        },
         "romaji": "Watashi gotoki mono ga iken wo iu no wa osore ooi.",
         "german": "Es ist anmaßend für jemanden wie mich, eine Meinung zu äußern."
       },
       {
         "japanese": "火を見るごとく明らかだ。",
+        "cloze": {
+          "start": 4,
+          "answer": "ごとく"
+        },
         "romaji": "Hi wo miru gotoku akiraka da.",
         "german": "Es ist so klar wie Feuer zu sehen (sonnenklar)."
       }
     ],
     "notes": "Sehr literarisch und formell. In moderner Alltagssprache wird eher ような verwendet. Kann auch bescheiden oder abwertend sein.",
     "related": [
-      "ような",
-      "かのような"
+      "n4-you-na",
+      "n2-ka-no-you-ni"
     ]
   },
   {
@@ -4239,24 +9262,60 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "ありのままの姿、生まれながらの才能。",
+        "cloze": {
+          "start": 11,
+          "answer": "ながらの",
+          "quiz": {
+            "level": "N1",
+            "japanese": "ありのままの姿、生まれながらの才能。",
+            "german": "Die Gestalt wie sie ist, angeborenes Talent.",
+            "start": 11,
+            "answer": "ながらの",
+            "acceptedAnswers": [
+              "ながらの"
+            ],
+            "distractors": [
+              {
+                "text": "ながらを",
+                "reason": "を kann hier 才能 nicht attributiv anschließen."
+              },
+              {
+                "text": "ながらます",
+                "reason": "ます kann nicht direkt an ながら angehängt werden."
+              },
+              {
+                "text": "ながらのな",
+                "reason": "Vor 才能 steht nach の kein zusätzliches な."
+              }
+            ]
+          }
+        },
         "romaji": "Ari no mama no sugata, umare nagara no sainou.",
         "german": "Die Gestalt wie sie ist, angeborenes Talent."
       },
       {
         "japanese": "昔ながらの製法で作られている。",
+        "cloze": {
+          "start": 1,
+          "answer": "ながらの"
+        },
         "romaji": "Mukashi nagara no seihou de tsukurarete iru.",
         "german": "Es wird nach der traditionellen Herstellungsmethode gemacht."
       },
       {
         "japanese": "彼女は学生ながらの新鮮な視点を持っている。",
+        "cloze": {
+          "start": 5,
+          "answer": "ながらの"
+        },
         "romaji": "Kanojo wa gakusei nagara no shinsen na shiten wo motte iru.",
         "german": "Sie hat die frische Perspektive, die für einen Studenten typisch ist."
       }
     ],
     "notes": "Wird verwendet, um den ursprünglichen oder charakteristischen Zustand zu betonen. Oft mit zeitlichen Bezügen wie 昔 (früher) verwendet.",
     "related": [
-      "のままの",
-      "らしい"
+      "n4-mama",
+      "n4-rashii"
     ]
   }
 ]);
