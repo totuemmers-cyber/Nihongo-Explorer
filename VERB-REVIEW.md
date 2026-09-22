@@ -93,11 +93,12 @@ node scripts/apply-verb-review.cjs
 node audit-verb-conjugation.js
 node audit-quiz-quality.js
 node scripts/ui-test.js
-node scripts/run-conjugation-checks.cjs
+npm run check
 ```
 
-The last command runs all 13 configured checks (all package scripts except the
-content build). Full baseline coverage, metadata drift, source order/IDs,
+The last command runs every read-only lint, test and audit listed in
+`scripts/check.cjs` (`node scripts/run-conjugation-checks.cjs` is an alias).
+On 2026-09-05 it ran all 13 package scripts configured at that time. Full baseline coverage, metadata drift, source order/IDs,
 independently authored regular and lexical fixtures, unavailable forms, accepted
 variants, four choices, answer keys, N5 rules, explanation fallback and DOM
 tables/feedback are covered. All 13 passed on 2026-09-05.

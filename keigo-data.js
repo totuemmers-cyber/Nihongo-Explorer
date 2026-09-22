@@ -1434,7 +1434,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Höflichkeitsstufen der Bitten: ～てくれ < ～てください < ～てくれませんか < ～ていただけませんか < ～ていただけないでしょうか. Die letzte Form ist am höflichsten und wird bei sehr formellen Anfragen verwendet.",
     "related": [
       "keigo-kenjougo-itadaku",
-      "keigo-teinei-sasete-itadaku"
+      "keigo-teinei-sasete-itadaku",
+      "n4-te-itadakemasenka"
     ]
   },
   {

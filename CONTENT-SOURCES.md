@@ -2,7 +2,7 @@
 
 ## Guided comprehension
 
-The 50 original reading/listening units, 150 questions and 25 bundled synthetic
+The 100 original reading/listening units, 300 questions and 50 bundled synthetic
 Japanese recordings are documented in [COMPREHENSION.md](COMPREHENSION.md),
 including JLPT source links, editable authoring files, audio generation settings,
 automated checks and the pending browser/perceptual listening acceptance checks.

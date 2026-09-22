@@ -329,6 +329,12 @@ async function run() {
       assert(!invalid.w.app.sections.kanji.isOverlayOpen());
       assert(invalid.d.getElementById('route-message').textContent.includes('nicht gefunden'));
     } finally { invalid.dom.window.close(); }
+    // A consolidated grammar point still answers to its retired ID.
+    const legacy = await boot('#grammar/n1-kiwamari-nai');
+    try {
+      await until(() => legacy.w.app.sections.grammar.selectedItem?.id === 'n1-kiwamarinai', 'retired grammar deep link');
+      assert(!legacy.d.getElementById('route-message').textContent.includes('nicht gefunden'));
+    } finally { legacy.dom.window.close(); }
   } finally { dom.window.close(); }
   console.log('UI regressions passed: bookmarks, native controls, focus, history, related entries, lessons, responsive semantics, timed exit and refresh.');
 }

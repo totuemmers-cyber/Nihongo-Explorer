@@ -2,7 +2,7 @@ const assert=require('assert'),fs=require('fs'),os=require('os'),path=require('p
 const {hash,project}=require('./vocabulary-correction-pipeline.cjs');
 const {POLICY_ID}=require('./vocabulary-review-policy.cjs');
 const {preparePackets,assemble,approve,approvalTargets,importWave,resumeJournal}=require('./vocabulary-batch.cjs');
-const items=Array.from({length:80},(_,i)=>({id:'vocab-n5:'+i,word:'èªž'+i,reading:'ã”',romaji:'go',meaning:'Wort',level:'N5',source:'vocab-n5',__sourceIndex:i,examples:[]}));
+const items=Array.from({length:80},(_,i)=>({id:'vocab-n5:'+i,word:'語'+i,reading:'ご',romaji:'go',meaning:'Wort',level:'N5',source:'vocab-n5',__sourceIndex:i,examples:[]}));
 const plan={items,ledger:[],workingItems:new Map(items.map(v=>[v.id,v])),workHeads:new Map(),candidateHeads:new Map(),candidateLedger:[],manifest:{candidates:[]}};
 const allocation=preparePackets(plan,{evidence:false});
 assert.deepStrictEqual(allocation.packets.map(p=>p.entries.length),[25,25,25]);

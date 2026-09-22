@@ -8804,10 +8804,10 @@ window.ONOMATOPOEIA_DATA = [
     "tags": []
   },
   {
-    "word": "ちゃほや",
-    "reading": "ちゃほや",
-    "romaji": "chahoya",
-    "pitch": 0,
+    "word": "ちやほや",
+    "reading": "ちやほや",
+    "romaji": "chiyahoya",
+    "pitch": null,
     "meaning": "Verwöhnen, verhätscheln, umschmeicheln",
     "category": "Gefühle",
     "categoryJP": "擬情語",
@@ -8825,7 +8825,7 @@ window.ONOMATOPOEIA_DATA = [
     "related": [
       "ベタベタ"
     ],
-    "notes": "Fast immer als ちやほやする verwendet; geschrieben auch ちやほや.",
+    "notes": "Fast immer als ちやほやする verwendet; auch in Katakana (チヤホヤ) geschrieben.",
     "id": "onomatopoeia:305",
     "tags": []
   },

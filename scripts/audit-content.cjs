@@ -22,6 +22,16 @@ for(const g of c.GRAMMAR_DATA){
   else {assert(g.clozeExcludedReason,'Unexplained cloze gap: '+g.id);excluded++;}
   for(const e of examples){assert.equal(e.japanese.slice(e.cloze.start,e.cloze.start+e.cloze.answer.length),e.cloze.answer,'Bad cloze span '+g.id);}
 }
+// One entry per pattern and level; consolidated entries keep retired IDs as legacyIds.
+const patternKey=g=>g.level+'|'+norm(g.pattern).replace(/[～〜~\s]/g,'').split(/[/／]/).sort().join('/');
+const patternOwners=new Map();
+for(const g of c.GRAMMAR_DATA){
+  assert(!patternOwners.has(patternKey(g)),'Duplicate grammar pattern: '+g.id+' repeats '+patternOwners.get(patternKey(g)));
+  patternOwners.set(patternKey(g),g.id);
+}
+const legacyGrammarIds=c.GRAMMAR_DATA.flatMap(g=>g.legacyIds||[]);
+assert.equal(new Set(legacyGrammarIds).size,legacyGrammarIds.length,'Legacy grammar id claimed twice');
+for(const id of legacyGrammarIds)assert(!grammarIds.has(id),'Legacy grammar id is still live: '+id);
 assert.equal(excluded,2,'Only the two explanatory pages are excluded');
 const ono=c.ONOMATOPOEIA_DATA;
 assert.equal(new Set(ono.map(o=>norm(o.word))).size,ono.length,'Duplicate kana variants');

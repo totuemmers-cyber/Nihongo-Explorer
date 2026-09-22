@@ -190,6 +190,21 @@
     return score;
   }
 
+  // Keep saved bookmarks when entries were consolidated into one surviving entry.
+  function migrateLegacyBookmarks(sectionName, items) {
+    var bookmarks = getBookmarks(sectionName);
+    var originalBookmarks = JSON.stringify(bookmarks);
+    items.forEach(function (item) {
+      (item.legacyIds || []).forEach(function (oldId) {
+        if (bookmarks.indexOf(oldId) !== -1) {
+          bookmarks = bookmarks.filter(function (id) { return id !== oldId; });
+          if (bookmarks.indexOf(item.id) === -1) bookmarks.push(item.id);
+        }
+      });
+    });
+    if (JSON.stringify(bookmarks) !== originalBookmarks) window.NIHONGO_STORAGE.local.setJSON('bookmarks-' + sectionName, bookmarks);
+  }
+
   function dedupeSpecialistItems(items, keyFn) {
     var byKey = {};
     var result = [];
@@ -284,7 +299,9 @@
       scripts: ['grammar-data.js', 'grammar-n2.js', 'grammar-n1.js', 'keigo-data.js'],
       message: 'Lade Grammatik-Daten...',
       hydrate: function () {
-        app.sections.grammar.setItems(window.GRAMMAR_DATA || []);
+        var items = window.GRAMMAR_DATA || [];
+        migrateLegacyBookmarks('grammar', items);
+        app.sections.grammar.setItems(items);
       }
     },
     vocab: {
@@ -313,18 +330,7 @@
         var items = dedupeSpecialistItems(window.ONOMATOPOEIA_DATA || [], function (item) {
           return item.word || '';
         });
-        // Keep saved bookmarks when script variants were consolidated into one entry.
-        var bookmarks = getBookmarks('onomatopoeia');
-        var originalBookmarks = JSON.stringify(bookmarks);
-        items.forEach(function (item) {
-          (item.legacyIds || []).forEach(function (oldId) {
-            if (bookmarks.indexOf(oldId) !== -1) {
-              bookmarks = bookmarks.filter(function (id) { return id !== oldId; });
-              if (bookmarks.indexOf(item.id) === -1) bookmarks.push(item.id);
-            }
-          });
-        });
-        if (JSON.stringify(bookmarks) !== originalBookmarks) window.NIHONGO_STORAGE.local.setJSON('bookmarks-onomatopoeia', bookmarks);
+        migrateLegacyBookmarks('onomatopoeia', items);
         app.sections.onomatopoeia.setItems(createSourceScopedItems('onomatopoeia', items));
       }
     },

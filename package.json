@@ -2,6 +2,8 @@
   "name": "nihongo-explorer",
   "private": true,
   "scripts": {
+    "check": "node scripts/check.cjs",
+    "check:full": "node scripts/check.cjs --full",
     "build:quiz-review": "node scripts/build-quiz-review.cjs",
     "test:quiz-review": "node scripts/quiz-review-import-test.cjs",
     "build:comprehension": "node scripts/build-comprehension.cjs",
@@ -20,6 +22,8 @@
     "test:vocabulary-completion": "node scripts/vocabulary-completion-test.cjs && node scripts/vocabulary-correction-test.cjs && node scripts/vocabulary-workflow-test.cjs && node scripts/vocabulary-batch-test.cjs && node scripts/vocabulary-research-cache-test.cjs && node scripts/vocabulary-editorial-record-test.cjs",
     "review:vocabulary-queue": "node scripts/vocabulary-review-queue.cjs",
     "audit:radicals": "node audit-kanji-radicals.js",
+    "audit:counters": "node audit-counters.js",
+    "audit:beginner": "node audit-jlpt-beginner-adequacy.js --offline",
     "lint": "node scripts/lint.js",
     "test:smoke": "node scripts/smoke-test.js",
     "test:storage": "node scripts/storage-test.cjs",

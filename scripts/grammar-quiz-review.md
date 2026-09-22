@@ -1,8 +1,8 @@
 # Grammar quiz answer review
 
 grammar-quiz-review.json is the authored source for graded cloze questions.
-It contains one question for each of the 672 cloze-bearing patterns:
-N5 76, N4 140, N3 134, N2 131, N1 191. The two existing metalinguistic
+It contains one question for each of the 671 cloze-bearing patterns:
+N5 76, N4 140, N3 134, N2 131, N1 190. The two existing metalinguistic
 exclusions remain excluded. Other reference examples stay available for study.
 
 Each record binds to the pattern ID, example index, level, Japanese sentence,

@@ -43,6 +43,14 @@
   function resolveId(sec, id) {
     return sec.name === 'vocab' && window.resolveVocabularyId ? window.resolveVocabularyId(id) : id;
   }
+  function findById(sec, id) {
+    if (id === null || id === undefined) return null;
+    var target = resolveId(sec, id);
+    return sec.allItems.find(function (item) { return idOf(sec, item) === target; })
+      // Consolidated entries keep their former IDs for deep links and restored sessions.
+      || sec.allItems.find(function (item) { return (item.legacyIds || []).indexOf(target) !== -1; })
+      || null;
+  }
   function route() {
     var name = app.activeTab;
     if (name === "reading" || name === "listening") return "#" + name + window.Comprehension.route(name);
@@ -277,7 +285,7 @@
   }
   function collectionChanged(sec) {
     if (sec._pendingSelectionId && sec.isLoaded) {
-      sec.selectedItem = sec.allItems.find(function (item) { return idOf(sec, item) === resolveId(sec, sec._pendingSelectionId); }) || null;
+      sec.selectedItem = findById(sec, sec._pendingSelectionId);
       sec._pendingSelectionId = null;
     }
     syncFilters(sec);
@@ -372,7 +380,7 @@
         sec.currentSort = saved.sort;
         sec._returnId = saved.returnId;
         sec._pendingSelectionId = saved.selected;
-        sec.selectedItem = sec.allItems.find(function (item) { return idOf(sec, item) === resolveId(sec, saved.selected); }) || null;
+        sec.selectedItem = findById(sec, saved.selected);
         syncFilters(sec);
         if (sec.isLoaded) sec.applyFilters();
       });
@@ -393,7 +401,7 @@
       if (tab === 'counters') setCounterView(parts[1] === 'numbers' ? 'numbers' : 'counters', true);
       var sec = sections[tab];
       if (sec && parts[1] && parts[1] !== 'lesson' && !(tab === 'counters' && parts[1] === 'numbers')) {
-        var item = sec.allItems.find(function (entry) { return idOf(sec, entry) === resolveId(sec, parts[1]); });
+        var item = findById(sec, parts[1]);
         if (item) present(sec, item, { noFocus: true, related: relatedBack });
         else { sec.selectedItem = null; message('Dieser Eintrag wurde nicht gefunden. Du bist wieder in der Sammlung.'); }
       } else if (sec) { sec.selectedItem = null; sec.currentDetailIndex = -1; markSelection(sec); }

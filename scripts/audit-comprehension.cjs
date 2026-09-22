@@ -61,7 +61,9 @@ const receipt = JSON.parse(fs.readFileSync(path.join(root, 'audio/comprehension/
 assert.equal(receipt.engine, 'Windows.Media.SpeechSynthesis');
 assert.equal(receipt.resampling, false);
 const sha = file => createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex');
-assert.equal(receipt.manifestSha256, sha('audio-manifest.json'), 'Audio settings changed: regenerate WAVs');
+// Line endings follow Git's checkout settings; the receipt hashes the LF text.
+const manifestText = fs.readFileSync(path.join(root, 'audio-manifest.json'), 'utf8').replace(/\r\n/g, '\n');
+assert.equal(receipt.manifestSha256, createHash('sha256').update(manifestText).digest('hex'), 'Audio settings changed: regenerate WAVs');
 assert.equal(receipt.files.length, 50);
 assert.equal(new Set(receipt.files.map(f => f.id)).size, 50, 'Duplicate receipt entry');
 for (const file of receipt.files) assert.equal(file.sha256, sha(file.src), file.id + ': audio differs from generation receipt');
@@ -69,6 +71,8 @@ assert.equal(manifest.length, 50);
 assert.equal(new Set(manifest.map(m => m.id)).size, 50, 'Duplicate audio specification');
 for (const m of manifest) {
   assert(m.segments.every(s => s.text && !/[{}|]|[AB]:/.test(s.text)));
+  // 十分 as "ten minutes" is read じゅうぶん ("enough") unless the speech text spells it out.
+  assert(m.segments.every(s => !/十分(?=の|前|後|間|ほど|くらい|ぐらい|以内|おき|ごと)/.test(s.text)), m.id + ': ambiguous 十分 in speech text');
   const u = units.find(u => u.id === m.id);
   assert(u && u.skill === 'listening' && u.audio.src === m.src, m.id + ': audio specification mismatch');
   assert(receipt.files.some(f => f.id === m.id && f.src === m.src), m.id + ': missing generation receipt');

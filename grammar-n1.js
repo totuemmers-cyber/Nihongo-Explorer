@@ -6175,10 +6175,33 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Kiken kiwamaru joukyou ni ochitta.",
         "german": "Wir gerieten in eine extrem gefährliche Situation."
+      },
+      {
+        "japanese": "危険極まりない計画だ。",
+        "cloze": {
+          "start": 2,
+          "answer": "極まりない"
+        },
+        "romaji": "Kiken kiwamarinai keikaku da.",
+        "german": "Das ist ein extrem gefährlicher Plan."
+      },
+      {
+        "japanese": "不便極まりない場所に住んでいる。",
+        "cloze": {
+          "start": 2,
+          "answer": "極まりない"
+        },
+        "romaji": "Fuben kiwamarinai basho ni sunde iru.",
+        "german": "Ich wohne an einem äußerst ungünstigen Ort."
       }
     ],
     "notes": "Sehr formeller Ausdruck, oft in schriftlicher Sprache.",
-    "related": []
+    "related": [
+      "n1-kagirida"
+    ],
+    "legacyIds": [
+      "n1-kiwamari-nai"
+    ]
   },
   {
     "id": "n1-gotoku-gotoki",
@@ -8788,74 +8811,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Drückt Wunsch mit leichtem Zweifel an der Möglichkeit aus.",
     "related": [
       "n2-nai-mono-ka"
-    ]
-  },
-  {
-    "id": "n1-kiwamari-nai",
-    "pattern": "～極まりない / ～極まる",
-    "level": "N1",
-    "category": "Adjektive",
-    "meaning": "äußerst, extrem, in höchstem Maße",
-    "explanation": "Drückt aus, dass etwas in höchstem Maße oder äußerst intensiv ist. Wird oft mit negativen Adjektiven verwendet, um extreme Zustände oder Eigenschaften zu beschreiben. Die Form 極まる wird auch als Verb verwendet.",
-    "formation": "ナ形容詞語幹 + 極まりない\nイ形容詞語幹 + 極まりない\n名詞 + 極まる",
-    "examples": [
-      {
-        "japanese": "彼の行動は失礼極まりない。",
-        "cloze": {
-          "start": 7,
-          "answer": "極まりない",
-          "quiz": {
-            "level": "N1",
-            "japanese": "彼の行動は失礼極まりない。",
-            "german": "Sein Verhalten ist äußerst unhöflich.",
-            "start": 7,
-            "answer": "極まりない",
-            "acceptedAnswers": [
-              "極まりない",
-              "極まる"
-            ],
-            "distractors": [
-              {
-                "text": "極まりないます",
-                "reason": "ない erhält kein angehängtes ます."
-              },
-              {
-                "text": "極まりないました",
-                "reason": "Die höfliche Vergangenheit wird nicht mit ないました gebildet."
-              },
-              {
-                "text": "極まりないなです",
-                "reason": "Vor です steht hier kein な."
-              }
-            ]
-          }
-        },
-        "romaji": "Kare no koudou wa shitsurei kiwamari nai.",
-        "german": "Sein Verhalten ist äußerst unhöflich."
-      },
-      {
-        "japanese": "危険極まりない計画だ。",
-        "cloze": {
-          "start": 2,
-          "answer": "極まりない"
-        },
-        "romaji": "Kiken kiwamari nai keikaku da.",
-        "german": "Das ist ein extrem gefährlicher Plan."
-      },
-      {
-        "japanese": "不便極まりない場所に住んでいる。",
-        "cloze": {
-          "start": 2,
-          "answer": "極まりない"
-        },
-        "romaji": "Fuben kiwamari nai basho ni sunde iru.",
-        "german": "Ich wohne an einem äußerst ungünstigen Ort."
-      }
-    ],
-    "notes": "Formeller Ausdruck, hauptsächlich in geschriebener Sprache verwendet. Oft mit negativen Begriffen kombiniert.",
-    "related": [
-      "n1-kagirida",
-      "n1-kiwamarinai"
     ]
   },
   {

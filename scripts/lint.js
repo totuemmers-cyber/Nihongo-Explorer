@@ -3,9 +3,9 @@ const path = require('path');
 const { spawnSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
-const CHECK_EXTENSIONS = new Set(['.js', '.html', '.css']);
-const IGNORE_DIRS = new Set(['.git', 'node_modules', 'scripts']);
-const MOJIBAKE_PATTERN = /(?:Ã.|â.|ã[\u0080-\u00BF]|æ[\u0080-\u00BF]|å[\u0080-\u00BF])/;
+const CHECK_EXTENSIONS = new Set(['.js', '.cjs', '.html', '.css']);
+const IGNORE_DIRS = new Set(['.git', 'node_modules', '.content-cache']);
+const MOJIBAKE_PATTERN = /(?:\u00C3.|\u00E2.|\u00E3[\u0080-\u00BF]|\u00E6[\u0080-\u00BF]|\u00E5[\u0080-\u00BF])/;
 
 function walk(dir, files) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -45,7 +45,7 @@ walk(ROOT, files);
 const errors = [];
 
 for (const file of files) {
-  if (path.extname(file) === '.js') {
+  if (path.extname(file) === '.js' || path.extname(file) === '.cjs') {
     const syntax = spawnSync(process.execPath, ['--check', file], {
       cwd: ROOT,
       encoding: 'utf8'

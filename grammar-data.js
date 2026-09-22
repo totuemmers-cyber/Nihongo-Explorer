@@ -9687,7 +9687,8 @@ window.GRAMMAR_DATA = [
     "notes": "てください < てもらえませんか < ていただけませんか.",
     "related": [
       "te-kudasai",
-      "n4-temorau"
+      "n4-temorau",
+      "keigo-teinei-itadakemasenka"
     ]
   },
   {

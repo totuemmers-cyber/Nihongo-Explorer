@@ -43,6 +43,8 @@ const SOURCE_URLS = {
 function loadContext() {
   const ctx = { window: {}, console };
   ctx.window = ctx;
+  ctx.addEventListener = function () {};
+  ctx.removeEventListener = function () {};
   ctx.document = {
     readyState: 'loading',
     addEventListener: function () {},
@@ -165,6 +167,7 @@ function auditQuestionGeneration(ctx) {
     questionTypes.forEach(function (typeId) {
       var generated = 0;
       var leakingKanji = 0;
+      var leakingPromptKanji = 0;
       var missingMeta = 0;
 
       for (var i = 0; i < 120; i++) {
@@ -172,8 +175,11 @@ function auditQuestionGeneration(ctx) {
         if (!q) continue;
         generated++;
         if (!q.auditMeta) missingMeta++;
-        var text = [q.promptMain, q.promptSub, q.explanation].filter(Boolean).join(' ');
-        text = stripPreservedTokens(text, q.auditMeta && q.auditMeta.preserveTokens);
+        var preserve = q.auditMeta && q.auditMeta.preserveTokens;
+        // The explanation deliberately reveals the original sentence after answering.
+        var prompt = stripPreservedTokens([q.promptMain, q.promptSub].filter(Boolean).join(' '), preserve);
+        var text = stripPreservedTokens([q.promptMain, q.promptSub, q.explanation].filter(Boolean).join(' '), preserve);
+        if (kanjiRe.test(prompt)) leakingPromptKanji++;
         if (kanjiRe.test(text)) leakingKanji++;
       }
 
@@ -182,6 +188,7 @@ function auditQuestionGeneration(ctx) {
         type: typeId,
         generated: generated,
         leakingKanji: leakingKanji,
+        leakingPromptKanji: leakingPromptKanji,
         missingMeta: missingMeta
       });
     });
@@ -241,11 +248,12 @@ function rawVocabSourcesFromContext(ctx) {
 
 async function main() {
   const ctx = loadContext();
+  const offline = process.argv.includes('--offline');
   const external = {};
   const sourceErrors = [];
 
   for (const level of ['N5', 'N4']) {
-    external[level] = await Promise.all(SOURCE_URLS[level].map(function (url) {
+    external[level] = offline ? [] : await Promise.all(SOURCE_URLS[level].map(function (url) {
       return fetchText(url).catch(function (err) {
         sourceErrors.push({ level: level, url: url, error: err.message });
         return '';
@@ -254,10 +262,14 @@ async function main() {
   }
 
   const beginnerQuestions = auditQuestionGeneration(ctx);
-  const coverage = [
-    auditExternalCoverage(ctx, 'N5', external.N5),
-    auditExternalCoverage(ctx, 'N4', external.N4)
-  ];
+  // A missing source page would report every entry as missing, so skip that level instead.
+  const coverage = ['N5', 'N4'].map(function (level) {
+    const pages = external[level];
+    if (!pages.length || pages.some(function (page) { return !page; })) {
+      return { level: level, skipped: offline ? 'offline' : 'source unavailable' };
+    }
+    return auditExternalCoverage(ctx, level, pages);
+  });
   const curatedExamples = ctx.getVocabExampleOverrideAudit
     ? ctx.getVocabExampleOverrideAudit(rawVocabSourcesFromContext(ctx))
     : { byLevel: {}, malformed: [], invalidTeaching: [] };
@@ -273,6 +285,14 @@ async function main() {
       invalidTeaching: curatedExamples.invalidTeaching
     }
   }, null, 2));
+
+  const failures = beginnerQuestions.filter(function (row) {
+    return row.generated === 0 || row.leakingPromptKanji > 0 || row.missingMeta > 0;
+  });
+  if (failures.length || curatedExamples.malformed.length || curatedExamples.invalidTeaching.length) {
+    console.error('Beginner adequacy audit failed: ' + JSON.stringify(failures));
+    process.exit(1);
+  }
 }
 
 main().catch(function (err) {

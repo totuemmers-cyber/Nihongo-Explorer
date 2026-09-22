@@ -41,6 +41,8 @@ Run `npm run build:comprehension`, then `./scripts/generate-comprehension-audio.
 
 The expansion preserves all 50 original unit payloads, including passage/question IDs, choice order, answer keys and time estimates, except for the audio cache revision. A before/after comparison against the pre-expansion generated content passed. No progress migration is required. All 50 recordings were regenerated through the existing native pipeline, and the cache revision is now `native16-v3`. Both generation and packing accept positive multi-digit unit numbers while retaining safe unit IDs and exact manifest/output-path matching.
 
+On 2026-09-22 `listening-n3-7` was re-recorded alone (`./scripts/generate-comprehension-audio.ps1 -Only listening-n3-7`): its speech text had left 十分 ("ten minutes") in kanji, which the voice can read as じゅうぶん. The substitution table now spells it じっぷん, the unit's cache revision is `native16-v4`, and the generation receipt lists the run under `partialRegenerations`. `npm run audit:comprehension` rejects time-context 十分 in speech text. This recording is also not yet perceptually reviewed.
+
 ## Verification completed
 
 - `npm run audit:comprehension`: 100 units, ten per skill/level, sequential IDs, 300 questions, unique unit/passage/question IDs, four distinct choices, near-balanced answer positions, evidence references, complete metadata, beginner ruby coverage, higher-level reading support, and 50 distinct matching manifest/receipt entries. WAV checks cover checksums, PCM headers, duration, non-silence and clipping.
