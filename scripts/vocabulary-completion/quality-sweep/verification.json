@@ -1,0 +1,73 @@
+{
+  "recordedAt": "2026-09-22T17:19:32.932Z",
+  "checks": [
+    {
+      "name": "triage",
+      "passed": true,
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "log": "verification/triage.json"
+    },
+    {
+      "name": "vocabulary",
+      "passed": true,
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "log": "verification/vocabulary.json"
+    },
+    {
+      "name": "content",
+      "passed": true,
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "log": "verification/content.json"
+    },
+    {
+      "name": "verbs",
+      "passed": true,
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "log": "verification/verbs.json"
+    },
+    {
+      "name": "quiz",
+      "passed": true,
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "log": "verification/quiz.json"
+    },
+    {
+      "name": "completion-gate",
+      "passed": true,
+      "exitCode": 1,
+      "expectedExitCode": 1,
+      "log": "verification/completion-gate.json"
+    },
+    {
+      "name": "lint",
+      "passed": true,
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "log": "verification/lint.json"
+    },
+    {
+      "name": "frozen-queue",
+      "passed": true,
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "log": "verification/frozen-queue.json"
+    }
+  ],
+  "priorChecks": [
+    {
+      "command": "npm run test:vocabulary-completion",
+      "passed": true,
+      "scope": "Full six-script importer/workflow suite run once before imports; completed 2026-09-22 before17:13:19Z. Console evidence retained in session."
+    },
+    {
+      "command": "node scripts/vocabulary-triage-test.cjs",
+      "passed": true,
+      "scope": "Focused deterministic selection, null/excluded-field semantics, binding, duplicate-allocation, observation separation and cap tests run by tool worker."
+    }
+  ]
+}

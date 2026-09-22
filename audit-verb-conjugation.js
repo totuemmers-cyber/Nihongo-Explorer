@@ -101,6 +101,7 @@ const expectedForms = [
 const incorrectForms = [];
 const assert = require('node:assert/strict');
 const review = require('./scripts/verb-review.json');
+const correctionPlan = require('./scripts/import-vocabulary-completion.cjs').prepare();
 const baseline = require('./scripts/verb-baseline.json');
 assert.equal(baseline.length, 2389);
 assert.equal(review.entries.length, baseline.length);
@@ -112,13 +113,18 @@ baseline.forEach((b, i) => {
   assert(e.reason && ['verified','excluded','nonverb'].includes(e.disposition));
   const item = allVocab.find(v => v.__sourceName === e.source && v.__sourceIndex === e.index);
   assert(item, 'Reviewed entry disappeared: ' + e.word);
-  assert.equal(item.word, e.word, 'Source position changed');
-  assert.equal(item.reading, e.reading, 'Reviewed reading changed');
-  assert.equal(JSON.stringify(item.conjugation), JSON.stringify(e.metadata), 'Metadata drift: ' + e.word);
+  const correction = ctx.VOCAB_CORRECTION_RULES.correctionsBySource?.[e.source]?.[e.index] || {};
+  const metadata = correction.conjugation || e.metadata;
+  assert.equal(item.__rawWord, e.word, 'Raw source position changed');
+  assert.equal(item.word, correction.word || e.word, 'Undocumented spelling change');
+  assert.equal(item.reading, correction.reading || e.reading, 'Undocumented reading change');
+  assert.equal(JSON.stringify(item.conjugation), JSON.stringify(metadata), 'Metadata drift: ' + e.word);
   const resolved = ctx.resolveVocabVerbConjugation(item);
-  assert.equal(!!resolved, e.disposition === 'verified', 'Unexpected eligibility: ' + e.word);
+  assert.equal(!!resolved, correction.conjugation ? metadata.conjugationKind === 'verb' : e.disposition === 'verified', 'Unexpected eligibility: ' + e.word);
   if (resolved) {
-    assert(e.evidence.length && e.metadata.verbGroup && e.metadata.conjugationReading);
+    const correctionEntry = correctionPlan.items.find(v=>v.source===e.source && v.__sourceIndex===e.index);
+    const evidence = correctionPlan.correctionReviews.get(correctionEntry?.id)?.evidence || e.evidence;
+    assert(evidence.length && metadata.verbGroup && metadata.conjugationReading);
     for (const f of Object.values(resolved.result.forms)) assert(f.japanese && f.label);
   }
 });
@@ -167,5 +173,5 @@ console.log(JSON.stringify({
   unresolvedSample: unresolved.slice(0, 50),
   incorrectForms: incorrectForms
 }, null, 2));
-console.log('Full baseline review and additional lexical fixtures passed. Explicit exclusions: ' + review.entries.filter(e => e.disposition === 'excluded').map(e => e.word).join(', '));
+console.log('Full baseline review and additional lexical fixtures passed. Current explicit exclusions: ' + review.entries.filter(e => e.disposition === 'excluded' && !ctx.VOCAB_CORRECTION_RULES.correctionsBySource?.[e.source]?.[e.index]?.conjugation).map(e => e.word).join(', '));
 process.exitCode = incorrectForms.length ? 1 : 0;

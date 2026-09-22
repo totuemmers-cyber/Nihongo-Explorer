@@ -1,0 +1,157 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:460",
+      "revisionId": "quality-sweep-worker3-torikaeru",
+      "state": "accepted",
+      "predecessorHash": "c9a7b3c01525fb4e04449ab23539ac1d65e1c29467010e697690dc1a9185afef",
+      "predecessorRevisionHash": null,
+      "originalHash": "c9a7b3c01525fb4e04449ab23539ac1d65e1c29467010e697690dc1a9185afef",
+      "rationale": "Repair the corrupted first-example transcription torikatemasu to torikaemasu, matching Japanese 取り替えます. Preserve lexical content and pitch claim.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "電球を取り替えます。",
+            "romaji": "Denkyuu o torikatemasu.",
+            "german": "Ich tausche die Glühbirne aus."
+          },
+          {
+            "japanese": "古い部品を新しいものに取り替えます。",
+            "romaji": "Furui buhin o atarashii mono ni torikaemasu.",
+            "german": "Ich ersetze die alten Teile durch neue."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "電球を取り替えます。",
+            "romaji": "Denkyuu o torikaemasu.",
+            "german": "Ich tausche die Glühbirne aus."
+          },
+          {
+            "japanese": "古い部品を新しいものに取り替えます。",
+            "romaji": "Furui buhin o atarashii mono ni torikaemasu.",
+            "german": "Ich ersetze die alten Teile durch neue."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@189405159",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "Exact orthography 取り替える, kana トリカエル, dictionary terminal form; aType 0,4,3 includes existing primary 4.",
+            "match": {
+              "word": "取り替える",
+              "reading": "とりかえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "Transitive replacement/substitution verb from JMdict 1326830 sense 2, matching both example contexts."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1326830; spelling=取り替える; reading=とりかえる; senses=2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Ichidan transitive replace/substitute sense supports austauschen, ersetzen; replacing a light bulb and old parts use the selected sense.",
+          "selected": {
+            "sequence": "1326830",
+            "spelling": "取り替える",
+            "reading": "とりかえる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to replace",
+                  "to substitute"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-worker-3",
+        "meaning": "austauschen, ersetzen matches replacement/substitution sense.",
+        "japanese": "Both examples correctly use transitive を objects with 取り替える.",
+        "romanization": "Correct first example to Denkyuu o torikaemasu.; second example romanization matches its Japanese.",
+        "translation": "German light-bulb replacement and replacing old parts faithfully match the Japanese.",
+        "contexts": [
+          "Light-bulb replacement; first example transcription corrected.",
+          "Old parts replaced with new ones; unchanged distinct context."
+        ],
+        "lexical": "JMdict 1326830 sense 2 selected; readings and ichidan class match.",
+        "register": "Ordinary neutral polite examples; no register change.",
+        "transitivity": "Transitive verb takes replaced item with を and replacement with に.",
+        "conjugation": "Ichidan とりかえる -> とりかえます; existing metadata and alternate imperative とりかえよ consistent.",
+        "level": "Retain existing N4 estimate; no level reassignment in bounded sweep."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Only investigate because importer requires evidence for selected correction. Preserve existing primary accent 4, corroborated by exact dictionary-form UniDic row; do not broaden to additional attested variants.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@189405159",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "Exact orthography 取り替える, kana トリカエル, dictionary terminal form; aType 0,4,3 includes existing primary 4.",
+            "match": {
+              "word": "取り替える",
+              "reading": "とりかえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "Transitive replacement/substitution verb from JMdict 1326830 sense 2, matching both example contexts."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker-3",
+        "finding": "Inspected complete final content: torikaemasu correctly matches 取り替えます; both Japanese/German examples and ichidan replacement sense verified. Existing pitch4 corroborated by exact UniDic row; no lexical expansion.",
+        "contentHash": "38f9e45c5fa1e3f575e48665e0a94fa91bc37f4b9a3304f34701dd9931011f06",
+        "approvalHash": "0d26f967b8e4d9c37ac24b9445bff923c6763066130b2b711ac6eef428a39066"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Independently checked final Japanese, romanization and German for both examples. 取り替えます is torikaemasu; torikatemasu was corrupt. JMdict1326830 replacement sense2 and ichidan metadata agree. Existing pitch4 is specifically attested among exact dictionary-form UniDic189405159 patterns0,4,3. No extra variants or senses were added.",
+        "contentHash": "38f9e45c5fa1e3f575e48665e0a94fa91bc37f4b9a3304f34701dd9931011f06",
+        "approvalHash": "0d26f967b8e4d9c37ac24b9445bff923c6763066130b2b711ac6eef428a39066"
+      }
+    }
+  ],
+  "decisions": []
+}

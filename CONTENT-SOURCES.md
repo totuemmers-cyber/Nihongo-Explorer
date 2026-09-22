@@ -134,3 +134,113 @@ The Japanese example sentences, German teaching notes and translations in this
 batch were authored for this app. Dictionary sequence numbers locate lexical
 evidence; they are not JLPT level certifications. Committed authoring contains the
 evidence needed for replay, so the import does not fetch dictionaries or study lists.
+
+## Vocabulary corrections — 22 September 2026
+
+The current append-only workflow uses the versioned `risk-based-v1` review policy.
+Dictionary and pitch caches prepare evidence leads but never approve content.
+Every accepted entry has a content-bound first pass. Additions, corrections,
+ambiguous judgments, changed teaching content, and a deterministic 10% routine
+sample require a different reviewer. Adequate existing entries may retain one
+reviewed example and no usage note; additions and distinctions still require a
+specific German note and two different contexts. The former full-enrichment rule
+remains available as a separate audit and all earlier approvals keep their stricter
+historical policy.
+
+[Batch 002](scripts/vocabulary-completion/002.json) records original/replacement
+values, individual lexical findings, usage/examples review, second-pass hashes,
+candidate dispositions and accent research. The historical manifests remain intact.
+[Current counts and open work](scripts/vocabulary-completion/README.md) distinguish
+mechanical source matches from completed editorial review.
+
+The [Kanji Kentei Foundation's 宥す entry](https://www.kanjipedia.jp/kotoba/0006860900)
+confirms ゆるす and its forgiving/pardoning sense; it separately links 宥める.
+The cached JMdict XML was searched with reading and sense restrictions respected.
+Its SHA256 identifies the exact local snapshot in each evidence record. German
+definitions, notes and examples are editorial teaching content. JMdict attribution:
+Electronic Dictionary Research and Development Group, [licensing information](https://www.edrdg.org/edrdg/licence.html).
+
+Accent reference: National Institute for Japanese Language and Linguistics,
+**現代書き言葉UniDic 2025.12**, the
+[versioned archive](https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip).
+Source SHA256, byte locator in `sys.dic`, actual written/kana form, part of speech,
+grammatical form, lemma and `aType` establish the recorded match. Interpretation
+follows the package's `rewrite.def` and [UniDic FAQ](https://clrd.ninjal.ac.jp/unidic/faq.html).
+Redistribution of the small cited feature extracts follows the package's
+[modified BSD license](scripts/vocabulary-completion/UNIDIC-LICENSE.txt).
+Copyright (c) 2023 National Institute for Japanese Language and Linguistics.
+
+UniDic independently supplies exact 宥す/ユルス dictionary-form rows, godan -す
+and accent 2. 明るい has attested alternatives 0 and 3, both shown in details.
+For 幾つ, no exact written-form/kana row was found and an
+[OJAD lookup](https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:幾つ) could not
+be retrieved. No inspected primary accent entry resolved that gap; runtime pitch
+is null, with the former 1 and the research limitations preserved in the audit.
+The remaining pitch research leads do not yet certify values for other entries.
+
+## Append-only vocabulary review — 22 September 2026
+
+The [version 3 authoring manifest](scripts/vocabulary-review-workflow.json) pins
+historical files and adds drafts, separate critical passes, corrections and
+individual source-reference decisions. [Current coverage](scripts/vocabulary-completion/README.md)
+is 159 accepted entries, with 12,947 entry reviews and 3,917 candidate groups still
+open. The new state/approval machinery does not turn a dictionary match into an
+editorial acceptance. Original evidence and rejected drafts remain in the history.
+
+The same hashed JMdict and UniDic snapshots were researched separately for every
+raw reference spelling and reading, as well as the normalized candidate key. This
+matters for いくら/イクラ: JMdict **1219980** covers amount/concessive uses, while
+**1021180** covers salmon roe. The exact UniDic food row is
+`sys.dic@54095125`, orthography/kana イクラ, common noun, lemma `イクラ-ikra`, accents
+0 and 1. The second pass rejected the proper-name row and the interrogative lemma
+even though their orthography and reading matched. The
+[デジタル大辞泉 entry](https://kotobank.jp/word/%E3%81%84%E3%81%8F%E3%82%89-3142893)
+also supports the food sense and Russian etymology. The new food entry's estimated
+N5 comes from its own frozen Nihongo Master reference alone; the level uncertainty
+is explicit and is not resolved by the unrelated question-word references.
+
+For お父さん, お母さん, お兄さん and お姉さん, the versioned UniDic scan had no exact
+complete-title row. The Japan Foundation's **Irodori 初級1 ことばリスト, Nepali edition,
+2021-10-01**, [PDF page 55 / printed L17-4](https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_Y.pdf#page=55),
+prints the complete words with a downstep after the second mora; notation is
+explained on PDF page 2. These are cited full-word accents, not predictions from
+components or synthesized speech. Attribution: © The Japan Foundation.
+
+The [Agency for Cultural Affairs' family-register explanation](https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter7/detail.html)
+supports the distinction between family address/familiar reference and referring
+to one's own family to outsiders. German notes and new teaching examples are
+original editorial content. Existing useful sentences and romanization conventions
+were retained. The separate pass corrected the overly narrow German rendering of
+会社員 and the simple negative in the earlier 宥す note.
+
+[Saved research](scripts/vocabulary-completion/007-research.json) contains open
+questions and raw restricted dictionary/accent leads for ten candidate references.
+Those leads remain unapproved, including the alternate readings ゆく and きたる,
+human counters/suffixes and the unusual 反る/かえる source row. They are not evidence
+of corpus completion or verified runtime pitch.
+
+The risk-based pilot batches 008a–008c use those same versioned JMdict and UniDic
+snapshots for 75 further entry reviews. The routine sample covers 7 of 59 routine
+records; all 16 consequential records were independently reviewed. Seven rejected
+records were corrected and separately reread in batch 009. The pilot preserved
+attested accent alternatives and corrected Japanese/German teaching content,
+including the go-to-bed sense of 寝る and distinctions between いる/要る,
+易しい/優しい and 早い/速い. Saved candidate findings remain research until an
+individual reference decision and its final target content are accepted.
+
+Batch 010 resolves seven source references with five documented spelling aliases;
+broader senses in よい, 為る and 曲る remain open. Batch 011 reviews another 25
+entries, including independent checks of six corrections and two routine samples.
+For 郵便局, 図書館, 飛行機 and 自転車, exact complete-word UniDic lookup was
+inconclusive. The [OJAD word search](https://www.gavo.t.u-tokyo.ac.jp/ojad/search)
+provided complete noun forms, retrieved 22 September 2026. Each accepted record
+embeds its exact word URL, row identifier, retrieval timestamp, HTML SHA256 and
+accent markup. These support accents 3, 2, 2 and 0 respectively; 自転車's earlier
+2 was corrected to 0. OJAD attribution: University of Tokyo, Minematsu and Saito
+laboratories. These are attested full-word forms, not combined component accents.
+
+Batch 012 uses the same restricted JMdict and UniDic snapshots for 25 further
+reviews. 大変's adverbial and adjectival uses have separate supporting UniDic rows.
+For お茶, no exact UniDic row was available; the Japan Foundation's official
+[Marugoto Elementary 2 vocabulary index](https://marugoto.jpf.go.jp/assets/docs/download/elementary2_c/MarugotoElementary2CompetencesVocabularyIndex2_PT.pdf)
+supplies the complete おちゃ form with a flat accent mark (pattern 0).

@@ -1,5 +1,15 @@
 # UI modernization verification
 
+22 September 2026 vocabulary correction checkpoint: rendered in headless Microsoft
+Edge at 1440, 390 and 320px, both themes, for 宥す, 明るい and 幾つ (18 states).
+No page/detail horizontal overflow occurred. Screenshots in
+`../review-output/vocabulary-corrections/` include long notes and examples;
+representative desktop/mobile images were visually inspected. The 明るい alternative
+accent label was moved onto its own line after inspection. 幾つ hides unknown pitch.
+This verifies the correction checkpoint only, not the entire older browser matrix.
+UI regressions cover corrected readings, conjugation, aliases, level filters,
+unknown/alternative pitch, redirected bookmarks and direct links.
+
 Reading/listening implementation, audio reproduction and additional acceptance checks are documented in [COMPREHENSION.md](COMPREHENSION.md). Collection search fields now have independent flexible wrappers, and vocabulary, grammar reference, onomatopoeia and counter cards have 12px vertical gaps. The user subsequently reviewed and approved the visuals; the automated browser viewport matrix below was not independently performed.
 
 After the 2026-09-05 content expansion, the library provides ten reading and ten listening units per level (100 total). Lint, smoke, UI and declared-color contrast checks were rerun successfully. The comprehension tests additionally cover dynamic totals, unit-ten routes and retained legacy progress. Browser selection was retried but still returned “No browser is available”, with no discovered connections. The expanded lists and new long choices/ruby therefore still need rendered review; the earlier visual approval does not cover these additions.
@@ -46,3 +56,25 @@ For every viewport check visible keyboard focus, actual Tab order, 44px targets,
 - `#counters/numbers`
 
 Entry routes use the existing data IDs, including source-scoped vocabulary IDs. Invalid entry routes return to the collection with a visible explanation. Filters and browsing state are retained in session storage where available; the application still works when session storage is unavailable.
+
+## Vocabulary revision checkpoint — 22 September 2026
+
+The vocabulary-specific browser checks ran in a dedicated headless Edge profile
+against the local application. Thirty detail states covered 宥す, お父さん, 幾ら,
+the new イクラ entry, and unknown-pitch 幾つ at 1440/390/320px, in light and dark
+themes. All loaded their exact deep-link IDs, with no page or reader horizontal
+overflow. The checks found one pitch diagram for 宥す/お父さん, two attested
+alternatives for each いくら sense, and a hidden diagram for 幾つ.
+
+Screenshots and layout findings are saved in
+`../review-output/vocabulary-workflow/`. The 320px dark family examples/note,
+1440px light food detail, and 390px light price/concessive detail were visually
+inspected for wrapping, readable spacing and sense separation. Long notes and
+examples remain accessible through the existing reader scrolling.
+
+The UI regression suite also checks that searching いくら finds both entries,
+the N5 filter includes the food entry while preserving the price entry's N3
+estimate, its explicit addition ID opens directly, and bookmarking the food does
+not bookmark the price question. Storage, smoke, UI and declared-color contrast
+tests passed. This is vocabulary checkpoint verification; it does not close the
+broader all-section browser gate or the incomplete vocabulary editorial gate.

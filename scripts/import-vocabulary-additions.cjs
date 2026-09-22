@@ -33,6 +33,14 @@ function authoredEntries() {
 function importEntries() {
   const review = JSON.parse(read('scripts/vocabulary-review.json'));
   const before = loadVocabulary();
+  // Validate the historical import against its own normalized view. A later
+  // documented merge may have retired an authored ID or changed its spelling.
+  // Keep the full correction rules and appended records when writing below.
+  const historicalRules = JSON.parse(JSON.stringify(before.c.VOCAB_CORRECTION_RULES));
+  for (const field of ['correctionsBySource','completionRedirects','stableIdsBySource']) delete historicalRules[field];
+  const historicalFiles = {'vocab-correction-rules.js':'window.VOCAB_CORRECTION_RULES = '+JSON.stringify(historicalRules)+';'};
+  for (const level of levels) historicalFiles['vocab-'+level.toLowerCase()+'.js'] = 'window.VOCAB_'+level+' = '+JSON.stringify(before.c['VOCAB_'+level].filter(v=>!v.correctionId))+';';
+  const historicalItems = loadVocabulary(historicalFiles).items;
   const entries = authoredEntries();
   assert.deepStrictEqual(entries.map(key).sort(), review.additions.map(x=>x.key).sort(), 'Authored content and reviewed selections differ');
   for (const source of before.sources) {
@@ -42,7 +50,7 @@ function importEntries() {
   }
   let added = 0;
   for (const entry of entries) {
-    const existing = before.items.find(v => key(v) === key(entry));
+    const existing = historicalItems.find(v => key(v) === key(entry));
     assert(!existing || existing.vocabularyBatch === batch, 'Attempt to duplicate an existing sense: '+key(entry));
     const items = before.c['VOCAB_'+entry.level];
     const index = items.findIndex(v => key(v) === key(entry));

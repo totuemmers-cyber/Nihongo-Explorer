@@ -153,9 +153,12 @@
         if (item.hasOwnProperty(key)) next[key] = item[key];
       }
       next.id = source === 'onomatopoeia' && item.id ? item.id : source + ':' + i;
+      var stableIds = window.VOCAB_CORRECTION_RULES && window.VOCAB_CORRECTION_RULES.stableIdsBySource;
+      if (stableIds && stableIds[source] && stableIds[source][item.__sourceIndex]) next.id = stableIds[source][item.__sourceIndex];
       next.source = source;
       next.studyLens = source === 'idioms' ? 'idiom' : (source === 'yojijukugo' ? 'yojijukugo' : 'vocab');
       next.mergeKey = getEntryKey(next);
+      if (next.senseKey) next.mergeKey += '|' + next.senseKey;
       scoped.push(next);
     }
     return scoped;
@@ -221,6 +224,7 @@
       var scopedItems = createSourceScopedItems(source.name, source.items);
       for (var j = 0; j < scopedItems.length; j++) {
         var item = scopedItems[j];
+        if (window.resolveVocabularyId && window.resolveVocabularyId(item.id) !== item.id) continue;
         ordered.push(item);
         if (!groups[item.mergeKey]) groups[item.mergeKey] = [];
         groups[item.mergeKey].push(item);

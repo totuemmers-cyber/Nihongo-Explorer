@@ -1,0 +1,338 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:9",
+      "revisionId": "005-vocab-n5-9",
+      "state": "drafted",
+      "predecessorHash": "ef2aa235aa09451f2aa9da80bed11981c944673f4fdb37ad169546872e1f5fb5",
+      "predecessorRevisionHash": "b28e16e54ef7f69463ed9ca807b119eb5b253bfc4f9742d603be6093bc62f792",
+      "originalHash": "ef2aa235aa09451f2aa9da80bed11981c944673f4fdb37ad169546872e1f5fb5",
+      "original": {
+        "examples": [
+          {
+            "japanese": "お父さんは会社員です。",
+            "romaji": "Otousan wa kaishain desu.",
+            "german": "Mein Vater ist Büroangestellter."
+          },
+          {
+            "japanese": "お父さんは毎朝新聞を読みます。",
+            "romaji": "Otousan wa maiasa shinbun o yomimasu.",
+            "german": "Mein Vater liest jeden Morgen die Zeitung."
+          },
+          {
+            "japanese": "お父さん、手伝ってくれる？",
+            "romaji": "Otousan, tetsudatte kureru?",
+            "german": "Papa, hilfst du mir?"
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "お父さんは会社員です。",
+            "romaji": "Otousan wa kaishain desu.",
+            "german": "Mein Vater ist Angestellter in einer Firma."
+          },
+          {
+            "japanese": "お父さんは毎朝新聞を読みます。",
+            "romaji": "Otousan wa maiasa shinbun o yomimasu.",
+            "german": "Mein Vater liest jeden Morgen die Zeitung."
+          },
+          {
+            "japanese": "お父さん、手伝ってくれる？",
+            "romaji": "Otousan, tetsudatte kureru?",
+            "german": "Papa, hilfst du mir?"
+          }
+        ]
+      },
+      "rationale": "Correct the specific rejection recorded in batch 004.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1002590",
+          "finding": "お父さん/おとうさん: Father sense 1, including direct family address; not a generic first-person possessive form.",
+          "matchedEntry": {
+            "sequence": "1002590",
+            "spelling": "お父さん",
+            "reading": "おとうさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "father",
+                  "dad",
+                  "papa",
+                  "pa",
+                  "pop",
+                  "daddy",
+                  "dada"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "husband"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "pronoun"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "familiar language"
+                ],
+                "gloss": [
+                  "you (of an elderly person older than the speaker)",
+                  "he",
+                  "him"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "文化庁 敬語おもしろ相談室 第七話",
+          "version": "Accessed 2026-09-22",
+          "locator": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter7/detail.html",
+          "finding": "Distinguishes respectful family address from referring to own family as an in-group to outsiders; ordinary intimate conversation allows the familiar forms."
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Father sense 1, including direct family address; not a generic first-person possessive form.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Vater",
+        "register": "Family address and intimate reference are explicitly distinguished from formal out-group reference.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Talking about one’s father’s job in a familiar setting.",
+          "Describing his daily newspaper habit within a familiar conversation.",
+          "Calling one’s father to ask for help."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "No exact full-word UniDic match; the Japan Foundation prints the complete title and its second-mora downstep, so no component-accent inference is used.",
+        "evidence": [
+          {
+            "source": "The Japan Foundation, Irodori 初級1 ことばリスト (Nepali edition)",
+            "version": "2021-10-01; accessed 2026-09-22",
+            "locator": "https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_Y.pdf#page=55",
+            "attribution": "© The Japan Foundation",
+            "patterns": [
+              2
+            ],
+            "finding": "お父さん appears with a downstep after the second mora; printed L17-4 / PDF page 55. Accent notation is defined on PDF page 2. No exact UniDic 2025.12 row exists for the full title; the complete-word source resolves that gap.",
+            "match": {
+              "word": "お父さん",
+              "reading": "おとうさん",
+              "grammaticalForm": "uninflected family noun with honorific prefix and suffix",
+              "sense": "Father sense 1, including direct family address; not a generic first-person possessive form."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "vocab-n5:correction:ikura-roe",
+      "revisionId": "005-vocab-n5-correction-ikura-roe",
+      "state": "drafted",
+      "predecessorHash": "52c31129901c419ff580e8a62a1a3d5fa223452ec2d1130f566203a3ea29f9a6",
+      "predecessorRevisionHash": "443d77fb4a349f683123fbd326b0bff7da52c482530ecac5d8f5e5b233e4f9bb",
+      "reason": "The third reference in the mixed いくら group denotes salmon roe, not price; add a separate lexical entry.",
+      "levelBasis": "N5 is the single publisher estimate attached to this exact source reference. Retained provisionally with explicit limited support, not transferred from the homophonous interrogative.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1021180",
+          "finding": "イクラ/イクラ: JMdict 1021180: salted salmon roe; exact katakana source reference is a different lexical entry from 1219980.",
+          "matchedEntry": {
+            "sequence": "1021180",
+            "spelling": "イクラ",
+            "reading": "イクラ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "salted salmon roe"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Nihongo Master",
+          "version": "Frozen historical reference snapshot, 2026-09",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list?page=2",
+          "finding": "Exact イクラ/イクラ source row gives salmon roe and estimated N5; only one publisher supports this food entry level."
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "JMdict 1021180: salted salmon roe; exact katakana source reference is a different lexical entry from 1219980.",
+        "meaning": "Food noun Lachsrogen; not an amount question.",
+        "register": "Ordinary food noun, commonly katakana.",
+        "transitivity": "Noun; not applicable.",
+        "conjugation": "Noun; no conjugation.",
+        "level": "N5 is the single publisher estimate attached to this exact source reference. Retained provisionally with explicit limited support, not transferred from the homophonous interrogative.",
+        "japanese": "Sushi topping and kitchen storage sentences reviewed as different situations.",
+        "romanization": "ikura; のっています notte imasu, 容器 youki and 冷蔵庫 reizouko checked.",
+        "translation": "Both German sentences describe the food and preserve location and action.",
+        "contexts": [
+          "Recognizing roe as a sushi topping.",
+          "Putting roe in a container and storing it in the refrigerator."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Only the exact katakana food common-noun row, lemma イクラ-ikra, applies. Proper-name aType * and the homographic interrogative lemma 幾ら are explicitly rejected; both food variants 0 and 1 are retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54095125",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "イクラ; イクラ; 名詞/普通名詞/一般/*; *; *; lemma イクラ-ikra; aType 0,1",
+            "match": {
+              "word": "イクラ",
+              "reading": "いくら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Salted salmon roe food noun; lemma イクラ-ikra, not interrogative 幾ら."
+            }
+          }
+        ]
+      },
+      "originalHash": "52c31129901c419ff580e8a62a1a3d5fa223452ec2d1130f566203a3ea29f9a6",
+      "original": {
+        "pitch": null,
+        "pitchVariants": [
+          null,
+          0,
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54094019",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              null
+            ],
+            "finding": "イクラ; イクラ; 名詞/固有名詞/人名/一般; *; *; lemma イクラ; aType *",
+            "match": {
+              "word": "イクラ",
+              "reading": "いくら",
+              "grammaticalForm": "名詞/固有名詞/人名/一般; uninflected noun/adverb",
+              "sense": "Salted salmon roe food noun; lemma イクラ-ikra, not interrogative 幾ら."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54095125",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "イクラ; イクラ; 名詞/普通名詞/一般/*; *; *; lemma イクラ-ikra; aType 0,1",
+            "match": {
+              "word": "イクラ",
+              "reading": "いくら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Salted salmon roe food noun; lemma イクラ-ikra, not interrogative 幾ら."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54096165",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "イクラ; イクラ; 名詞/普通名詞/一般/*; *; *; lemma 幾ら; aType 0,1",
+            "match": {
+              "word": "イクラ",
+              "reading": "いくら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Salted salmon roe food noun; lemma イクラ-ikra, not interrogative 幾ら."
+            }
+          }
+        ]
+      },
+      "replacement": {
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54095125",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "イクラ; イクラ; 名詞/普通名詞/一般/*; *; *; lemma イクラ-ikra; aType 0,1",
+            "match": {
+              "word": "イクラ",
+              "reading": "いくら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Salted salmon roe food noun; lemma イクラ-ikra, not interrogative 幾ら."
+            }
+          }
+        ]
+      },
+      "rationale": "Correct the specific rejection recorded in batch 004."
+    }
+  ]
+}

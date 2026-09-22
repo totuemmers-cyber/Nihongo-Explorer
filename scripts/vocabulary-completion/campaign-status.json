@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "exhaustiveCampaign": {
+    "status": "superseded",
+    "supersededAt": "2026-09-22T17:03:41Z",
+    "reason": "Replaced by one bounded 60-minute quality sweep at user request; exhaustive certification is not complete.",
+    "acceptedReviewsAtFreeze": 378,
+    "unresolvedEntryReviewsAtFreeze": 12728,
+    "unresolvedCandidateReferencesAtFreeze": 6549,
+    "resumeRequires": "A new explicit user scope for exhaustive certification"
+  },
+  "boundedSweep": {
+    "status": "completed-with-deferred-findings",
+    "startedAt": "2026-09-22T17:03:41Z",
+    "deadline": "2026-09-22T18:03:41Z",
+    "sampleSize": 100,
+    "entriesPerLevel": 20,
+    "maximumCorrections": 25,
+    "report": "scripts/vocabulary-completion/QUALITY-SWEEP.md",
+    "finishedAt": "2026-09-22T17:21:31.418Z",
+    "elapsedMs": 1070418,
+    "entriesInspected": 100,
+    "confirmedDefectEntries": 25,
+    "fixedEntries": 21,
+    "uncertainEntries": 11,
+    "unfinishedInspections": 0,
+    "verification": "passed",
+    "retainedAcceptedReviews": 378,
+    "acceptedReviewsAfter": 399
+  },
+  "defaultMaintenance": "Reported defects and reviews of future changes; no automatic new review waves or candidate additions."
+}

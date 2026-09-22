@@ -15,12 +15,14 @@ function authoring(m = manifest()) {
     return JSON.parse(read(file));
   });
 }
-function validateContent(item) {
-  for (const f of ['word','reading','romaji','meaning','type','category','notes']) assert(nonempty(item[f]), 'Missing ' + f + ': ' + item.word);
+function validateContent(item, options = {}) {
+  const enrichmentRequired=options.enrichmentRequired!==false;
+  for (const f of ['word','reading','romaji','meaning','type','category']) assert(nonempty(item[f]), 'Missing ' + f + ': ' + item.word);
   assert(levels.includes(item.level), 'Invalid level');
   assert(['Nomen','Verb','Adjektiv','Adverb','Ausdruck','Partikel','Yojijukugo','Redewendung','Sprichwort'].includes(item.type), 'Invalid part of speech');
-  assert(/[A-Za-zÄÖÜäöüß]/.test(item.notes), 'German usage note required');
-  assert(Array.isArray(item.examples) && item.examples.length >= 2, 'Two contexts required');
+  if (enrichmentRequired) assert(nonempty(item.notes) && /[A-Za-zÄÖÜäöüß]/.test(item.notes), 'German usage note required');
+  else if (item.notes !== undefined && item.notes !== null) assert(typeof item.notes==='string', 'Invalid usage note');
+  assert(Array.isArray(item.examples) && item.examples.length >= (enrichmentRequired?2:1), enrichmentRequired?'Two contexts required':'One reviewed example required');
   assert.equal(new Set(item.examples.map(e => sentenceKey(e.japanese || ''))).size, item.examples.length, 'Repeated Japanese example');
   for (const e of item.examples) {
     for (const f of ['japanese','romaji','german']) assert(nonempty(e[f]), 'Incomplete example ' + item.word);
@@ -39,12 +41,21 @@ function validateReview(record) {
   assert(Array.isArray(record.evidence) && record.evidence.length, 'Missing evidence');
   for (const e of record.evidence) assert(nonempty(e.source) && nonempty(e.locator) && nonempty(e.finding), 'Incomplete evidence');
 }
-function prepare(batches = authoring(), m = manifest()) {
+function prepareLegacy(batches = authoring(), m = manifest()) {
   const historical = JSON.parse(read('scripts/vocabulary-review.json'));
   assert.equal(hash(historical), m.historicalReviewHash, 'Historical review changed');
   const historicalPending = historical.decisions.filter(d => ['deferred-sense-review','deferred-further-expansion','deferred-single-reference'].includes(d.disposition)).map(d=>d.key).sort();
   assert.deepStrictEqual(m.candidates.map(c=>c.key).sort(),historicalPending,'Completion candidate scope changed');
-  const before = loadVocabulary();
+  // Replay historical authoring without the later correction layer. Its immutable
+  // spelling/reading assertions describe history, not the corrected vocabulary.
+  const committed = loadVocabulary();
+  const existingRules = plain(committed.c.VOCAB_CORRECTION_RULES);
+  delete existingRules.correctionsBySource;
+  delete existingRules.completionRedirects;
+  delete existingRules.stableIdsBySource;
+  const historicalFiles = {'vocab-correction-rules.js':'window.VOCAB_CORRECTION_RULES = '+JSON.stringify(existingRules)+';'};
+  for (const l of levels) historicalFiles['vocab-'+l.toLowerCase()+'.js'] = 'window.VOCAB_'+l+' = '+JSON.stringify(committed.c['VOCAB_'+l].filter(v=>!v.correctionId))+';';
+  const before = loadVocabulary(historicalFiles);
   for (const b of m.baseline.sources) {
     const source = before.sources.find(s => s.name === b.name);
     assert(source && hash(source.items.slice(0,b.count).map(key)) === b.keysHash, 'Source positions changed: ' + b.name);
@@ -131,7 +142,7 @@ function prepare(batches = authoring(), m = manifest()) {
   }
   return {files, items:after, patches, additions, decisions, manifest:m};
 }
-function report(plan) {
+function legacyReport(plan) {
   const {items,patches,additions,decisions,manifest:m} = plan;
   const missingNotes = items.filter(v => !nonempty(v.notes)).length;
   const fewerThanTwo = items.filter(v => new Set((v.examples || []).map(e => sentenceKey(e.japanese || ''))).size < 2).length;
@@ -143,12 +154,18 @@ function report(plan) {
     updated:patches.size,added:additions.length,missingNotes,fewerThanTwo,incompleteExamples,unreviewedEntries,unresolvedCandidates,
     dispositions:Object.fromEntries([...new Set([...decisions.values()].map(d=>d.disposition))].map(s=>[s,[...decisions.values()].filter(d=>d.disposition===s).length]))};
 }
+function prepare(batches = authoring(), m = manifest(), corrections) {
+  return require('./vocabulary-correction-pipeline.cjs').prepareCorrections(prepareLegacy(batches,m),corrections);
+}
+function report(plan) {
+  return require('./vocabulary-correction-pipeline.cjs').correctionReport(plan,legacyReport(plan));
+}
 function importCompletion(options = {}) {
   const plan = prepare(options.batches);
   if (!options.dryRun) for (const [file,text] of Object.entries(plan.files)) {
-    if (read(file) !== text) fs.writeFileSync(path.join(root,file),text);
+    if (!fs.existsSync(path.join(root,file)) || read(file) !== text) fs.writeFileSync(path.join(root,file),text);
   }
   return report(plan);
 }
-module.exports = {manifest,authoring,prepare,report,importCompletion,validateContent};
+module.exports = {manifest,authoring,prepare,prepareLegacy,report,importCompletion,validateContent,validateReview};
 if (require.main === module) console.log(JSON.stringify(importCompletion({dryRun:process.argv.includes('--dry-run')}),null,2));

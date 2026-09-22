@@ -1,0 +1,378 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:2587",
+      "revisionId": "quality-sweep-worker2-juui",
+      "state": "accepted",
+      "predecessorHash": "d2ca9099d35435e5d01fea0e04b734e8716c8b683fc84b0bab89b65c15a0ab12",
+      "predecessorRevisionHash": null,
+      "originalHash": "d2ca9099d35435e5d01fea0e04b734e8716c8b683fc84b0bab89b65c15a0ab12",
+      "rationale": "Veterinarian 獣医/じゅうい is a noun, as exact JMdict1335610 sense1 and the occupation complement 獣医になる show. Correct the erroneous adjective label; retain the sense and example.",
+      "original": {
+        "type": "Adjektiv",
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "type": "Nomen",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144286838",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact noun veterinarian form attests downstep1.",
+            "match": {
+              "word": "獣医",
+              "reading": "じゅうい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Tierarzt; veterinarian"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1335610; spelling=獣医; reading=じゅうい; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Veterinarian 獣医/じゅうい is a noun, as exact JMdict1335610 sense1 and the occupation complement 獣医になる show. Correct the erroneous adjective label; retain the sense and example.",
+          "selected": {
+            "sequence": "1335610",
+            "spelling": "獣医",
+            "reading": "じゅうい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "veterinarian",
+                  "veterinary surgeon",
+                  "vet"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "Confirmed part-of-speech label correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-worker2",
+        "lexical": "Veterinarian 獣医/じゅうい is a noun, as exact JMdict1335610 sense1 and the occupation complement 獣医になる show. Correct the erroneous adjective label; retain the sense and example.",
+        "meaning": "Veterinarian 獣医/じゅうい is a noun, as exact JMdict1335610 sense1 and the occupation complement 獣医になる show. Correct the erroneous adjective label; retain the sense and example.",
+        "register": "Neutral modern usage; existing teaching register retained.",
+        "transitivity": "This lexical item is not a verb; transitivity is not applicable.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing pedagogical level estimate and category retained; no official JLPT claim.",
+        "japanese": "The child career-dream sentence uses noun ni naru correctly; juui, translation and all Japanese text retained.",
+        "romanization": "The child career-dream sentence uses noun ni naru correctly; juui, translation and all Japanese text retained.",
+        "translation": "The child career-dream sentence uses noun ni naru correctly; juui, translation and all Japanese text retained.",
+        "contexts": [
+          "Child dreams of becoming a veterinarian"
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch1 matches exact noun 獣医/ジュウイ UniDic row; selected occupation sense has no homograph mismatch.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144286838",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact noun veterinarian form attests downstep1.",
+            "match": {
+              "word": "獣医",
+              "reading": "じゅうい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Tierarzt; veterinarian"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2",
+        "finding": "Reviewed final veterinarian noun correction against exact JMdict noun sense and UniDic noun pitch1; retained career example is coherent.",
+        "contentHash": "403a6e42c46abb60ba6f4fc090d78e1044fc550c6bf71036dc6f2e867e3863fb",
+        "approvalHash": "bc1d216b1073d978ca9349a6912e3bec2b36286bc2c278f09439343ca378d05d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Independently checked complete final content: 獣医 is a noun (JMdict1335610), and the career-dream example uses noun ni naru. Nomen repairs the incorrect adjective label without broadening the sense. Exact UniDic veterinarian row144286838 supports retained pitch1; all other fields and example are preserved.",
+        "contentHash": "403a6e42c46abb60ba6f4fc090d78e1044fc550c6bf71036dc6f2e867e3863fb",
+        "approvalHash": "bc1d216b1073d978ca9349a6912e3bec2b36286bc2c278f09439343ca378d05d"
+      }
+    },
+    {
+      "id": "vocab-n5:939",
+      "revisionId": "quality-sweep-worker2-nanzen",
+      "state": "accepted",
+      "predecessorHash": "3c44703cd3b0f3f3105d179d8eda6d9e5ca58df06385ef5eb2778c80d670536d",
+      "predecessorRevisionHash": null,
+      "originalHash": "3c44703cd3b0f3f3105d179d8eda6d9e5ca58df06385ef5eb2778c80d670536d",
+      "rationale": "何千/なんぜん means many thousands. Repair example romanization: voiced nanzen before kai and nanzen nin mono hito, removing the corrupt extra n and mistaken mo no segmentation. Translate repeated error occurrence explicitly. Required targeted accent check identifies exact numeral UniDic pattern3 rather than existing unsupported1.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "何千回もエラーが出た。",
+            "romaji": "Nan senkai mo eraa ga deta.",
+            "german": "Wir haben Tausende von Fehlern erhalten."
+          },
+          {
+            "japanese": "何千人もの人が来ました。",
+            "romaji": "Nanzennnin mo no hito ga kimashita.",
+            "german": "Tausende von Menschen sind gekommen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "何千回もエラーが出た。",
+            "romaji": "Nanzen kai mo eraa ga deta.",
+            "german": "Es kam Tausende Male zu einem Fehler."
+          },
+          {
+            "japanese": "何千人もの人が来ました。",
+            "romaji": "Nanzen nin mono hito ga kimashita.",
+            "german": "Tausende von Menschen sind gekommen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@200049749",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact numeral noun 何千/ナンゼン row attests3; targeted check required to accept this substantive example correction.",
+            "match": {
+              "word": "何千",
+              "reading": "なんぜん",
+              "grammaticalForm": "名詞/数詞/*/*; *; *",
+              "sense": "Tausende; many thousands"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1189120; spelling=何千; reading=なんぜん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Exact noun 何千/なんぜん means many thousands; both count examples use this form.",
+          "selected": {
+            "sequence": "1189120",
+            "spelling": "何千",
+            "reading": "なんぜん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "many thousands"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "Confirmed example romanization and translation correction",
+          "Targeted required pitch correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-worker2",
+        "lexical": "何千/なんぜん means many thousands. Repair example romanization: voiced nanzen before kai and nanzen nin mono hito, removing the corrupt extra n and mistaken mo no segmentation. Translate repeated error occurrence explicitly. Required targeted accent check identifies exact numeral UniDic pattern3 rather than existing unsupported1.",
+        "meaning": "何千/なんぜん means many thousands. Repair example romanization: voiced nanzen before kai and nanzen nin mono hito, removing the corrupt extra n and mistaken mo no segmentation. Translate repeated error occurrence explicitly. Required targeted accent check identifies exact numeral UniDic pattern3 rather than existing unsupported1.",
+        "register": "Neutral modern usage; existing teaching register retained.",
+        "transitivity": "This lexical item is not a verb; transitivity is not applicable.",
+        "conjugation": "Numeral noun; no verb conjugation applies.",
+        "level": "Existing pedagogical level estimate and category retained; no official JLPT claim.",
+        "japanese": "Japanese sentences retained; first nanzen kai matches 何千回 and second nanzen nin mono hito matches 何千人もの人. German first now expresses repeated occurrence without inventing receipt; second translation remains faithful.",
+        "romanization": "Japanese sentences retained; first nanzen kai matches 何千回 and second nanzen nin mono hito matches 何千人もの人. German first now expresses repeated occurrence without inventing receipt; second translation remains faithful.",
+        "translation": "Japanese sentences retained; first nanzen kai matches 何千回 and second nanzen nin mono hito matches 何千人もの人. German first now expresses repeated occurrence without inventing receipt; second translation remains faithful.",
+        "contexts": [
+          "An error occurs thousands of times",
+          "Thousands of people arrive"
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact 何千/ナンゼン numeral noun row has aType3. The four-mora form nan-zen and quantitative sense exactly match, unlike guessing from individual kanji; use attested3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@200049749",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact numeral noun 何千/ナンゼン row attests3; targeted check required to accept this substantive example correction.",
+            "match": {
+              "word": "何千",
+              "reading": "なんぜん",
+              "grammaticalForm": "名詞/数詞/*/*; *; *",
+              "sense": "Tausende; many thousands"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2",
+        "finding": "Reviewed both final nanzen count romanizations and repeated-error translation; exact four-mora numeral UniDic row attests downstep3 and matches current sense.",
+        "contentHash": "2428f6421e1dfe06f7c0d9ae60190022678d9bd6d10757ad1a9445cd982010f5",
+        "approvalHash": "0ad6ee4ff5e7571bc1ba69f89017a5372811dc79ceb034a6d5807ec624eeffab"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Independently checked both final examples: 何千回 is nanzen kai, 何千人もの人 is nanzen nin mono hito; corrupt senkai and extra n are removed. German now expresses repeated error occurrence. JMdict1189120 supports many thousands; exact numeral UniDic200049749 attests pitch3 for the four-mora headword. This targeted pitch decision matches form and sense, not a homophone or constituent inference.",
+        "contentHash": "2428f6421e1dfe06f7c0d9ae60190022678d9bd6d10757ad1a9445cd982010f5",
+        "approvalHash": "0ad6ee4ff5e7571bc1ba69f89017a5372811dc79ceb034a6d5807ec624eeffab"
+      }
+    },
+    {
+      "id": "vocab-n2:1848",
+      "revisionId": "quality-sweep-worker2-soku",
+      "state": "accepted",
+      "predecessorHash": "872a4f647d5a1e6d5a6e39b9ba7b5f80d53bbdf584dde4372a35d0af09b273c5",
+      "predecessorRevisionHash": null,
+      "originalHash": "872a4f647d5a1e6d5a6e39b9ba7b5f80d53bbdf584dde4372a35d0af09b273c5",
+      "rationale": "即 in the represented immediate sense is an adverb, not a verb. 大辞泉 explicitly labels そく ［副］ただちに, and the existing example uses 即買い for immediate buying. Correct type and malformed teddy-bear romanization while keeping the entry spelling, reading, meaning and Japanese example.",
+      "original": {
+        "type": "Verb",
+        "examples": [
+          {
+            "japanese": "すごく可愛いテディーベアを見つけたので、即買いしちゃいました。",
+            "romaji": "Sugoku kawaii tedeiibea o mitsuketa node, soku kai shi chaimashita.",
+            "german": "Ich fand einen supersüßen Teddybären und kaufte ihn sofort."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "type": "Adverb",
+        "examples": [
+          {
+            "japanese": "すごく可愛いテディーベアを見つけたので、即買いしちゃいました。",
+            "romaji": "Sugoku kawaii tedii bea o mitsuketa node, soku kai shichaimashita.",
+            "german": "Ich fand einen supersüßen Teddybären und kaufte ihn sofort."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "小学館 デジタル大辞泉, distributed by Kotobank",
+          "version": "Retrieved 2026-09-22",
+          "locator": "https://kotobank.jp/word/%E5%8D%B3-89830#デジタル大辞泉; そく, adverb sense",
+          "attribution": "Shogakukan, Digital Daijisen; Kotobank",
+          "finding": "The immediate sense is marked adverb and means without delay; it does not inflect as an independent verb. Distinguish from unrelated noun/conjunction senses and 即する."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "Confirmed part-of-speech label and example romanization correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-worker2",
+        "lexical": "即 in the represented immediate sense is an adverb, not a verb. 大辞泉 explicitly labels そく ［副］ただちに, and the existing example uses 即買い for immediate buying. Correct type and malformed teddy-bear romanization while keeping the entry spelling, reading, meaning and Japanese example.",
+        "meaning": "即 in the represented immediate sense is an adverb, not a verb. 大辞泉 explicitly labels そく ［副］ただちに, and the existing example uses 即買い for immediate buying. Correct type and malformed teddy-bear romanization while keeping the entry spelling, reading, meaning and Japanese example.",
+        "register": "Neutral modern usage; existing teaching register retained.",
+        "transitivity": "This lexical item is not a verb; transitivity is not applicable.",
+        "conjugation": "Adverb cannot independently conjugate. Existing excluded metadata with null group/reading correctly prevents verb drill generation; retained.",
+        "level": "Existing pedagogical level estimate and category retained; no official JLPT claim.",
+        "japanese": "Japanese and German retain finding and instantly buying a teddy bear. テディーベア romanizes tedii bea; shichaimashita reflects the existing contracted しちゃいました.",
+        "romanization": "Japanese and German retain finding and instantly buying a teddy bear. テディーベア romanizes tedii bea; shichaimashita reflects the existing contracted しちゃいました.",
+        "translation": "Japanese and German retain finding and instantly buying a teddy bear. テディーベア romanizes tedii bea; shichaimashita reflects the existing contracted しちゃいました.",
+        "contexts": [
+          "Immediate purchase after finding a cute teddy bear"
+        ]
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Selected correction requires pitch disposition; exact displayed form has no attested pitch row in cache. Preserve uncertainty as null without wider pitch research.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "correction-pitch-research.json; vocab-n2:1848; exact 即〜/そく lookup",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Targeted lookup of exact displayed 即〜/そく has zero matching rows. The tilde is a construction marker; no exact-form pitch evidence is available in this packet. Existing0 is unverified and is set to unknown instead of borrowing an unrelated form."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2",
+        "finding": "Reviewed adverb correction against 大辞泉 immediate sense, teddy-bear romanization and retained example; exact displayed-form pitch has no cached evidence so unknown null is honest. Excluded conjugation preserved.",
+        "contentHash": "38b710a056c74d6ebabcb4bfea2cad5ae6251d0f896e026d2734ebce1cffa78d",
+        "approvalHash": "e311d82ec1d114182bcd3705519c09b35777d697e0a90850e95b797dd08585c2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Independently checked the publisher dictionary page https://kotobank.jp/word/%E5%8D%B3-89830: Daijisen adverb sense immediately matches this entry and 即買い example. Verb label is wrong; Adverb is appropriate. テディーベア is tedii bea; Japanese/German remain coherent. Exact displayed-form pitch cache is empty, so unknown null is justified without claiming the lexical adverb has no attested accent anywhere. Exclusion metadata remains suitable for nonverb.",
+        "contentHash": "38b710a056c74d6ebabcb4bfea2cad5ae6251d0f896e026d2734ebce1cffa78d",
+        "approvalHash": "e311d82ec1d114182bcd3705519c09b35777d697e0a90850e95b797dd08585c2"
+      }
+    }
+  ],
+  "decisions": []
+}

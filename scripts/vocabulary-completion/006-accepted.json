@@ -1,0 +1,518 @@
+{
+  "version": 3,
+  "checkpoint": {
+    "size": 25,
+    "status": "accepted",
+    "note": "All 25 entries in batch 003 have a separate critical acceptance, including two corrected rejections. This is a checkpoint, not corpus completion."
+  },
+  "reviews": [
+    {
+      "id": "vocab-n5:9",
+      "revisionId": "006-vocab-n5-9",
+      "state": "accepted",
+      "predecessorHash": "931f2f237272a75cb1209a494cfba94d43c5150f6d6a3d5f72e5128dc038b41e",
+      "predecessorRevisionHash": "6e089a7b054307e09be4dfb026ca315e7e3f7e0dcd189ca5e110bd9be3fab65b",
+      "originalHash": "931f2f237272a75cb1209a494cfba94d43c5150f6d6a3d5f72e5128dc038b41e",
+      "original": {},
+      "replacement": {},
+      "rationale": "Accept the corrected draft after the further critical reread recorded below.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1002590",
+          "finding": "お父さん/おとうさん: Father sense 1, including direct family address; not a generic first-person possessive form.",
+          "matchedEntry": {
+            "sequence": "1002590",
+            "spelling": "お父さん",
+            "reading": "おとうさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "father",
+                  "dad",
+                  "papa",
+                  "pa",
+                  "pop",
+                  "daddy",
+                  "dada"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "husband"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "pronoun"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "familiar language"
+                ],
+                "gloss": [
+                  "you (of an elderly person older than the speaker)",
+                  "he",
+                  "him"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "文化庁 敬語おもしろ相談室 第七話",
+          "version": "Accessed 2026-09-22",
+          "locator": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter7/detail.html",
+          "finding": "Distinguishes respectful family address from referring to own family as an in-group to outsiders; ordinary intimate conversation allows the familiar forms."
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Father sense 1, including direct family address; not a generic first-person possessive form.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Vater",
+        "register": "Family address and intimate reference are explicitly distinguished from formal out-group reference.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Talking about one’s father’s job in a familiar setting.",
+          "Describing his daily newspaper habit within a familiar conversation.",
+          "Calling one’s father to ask for help."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "No exact full-word UniDic match; the Japan Foundation prints the complete title and its second-mora downstep, so no component-accent inference is used.",
+        "evidence": [
+          {
+            "source": "The Japan Foundation, Irodori 初級1 ことばリスト (Nepali edition)",
+            "version": "2021-10-01; accessed 2026-09-22",
+            "locator": "https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_Y.pdf#page=55",
+            "attribution": "© The Japan Foundation",
+            "patterns": [
+              2
+            ],
+            "finding": "お父さん appears with a downstep after the second mora; printed L17-4 / PDF page 55. Accent notation is defined on PDF page 2. No exact UniDic 2025.12 row exists for the full title; the complete-word source resolves that gap.",
+            "match": {
+              "word": "お父さん",
+              "reading": "おとうさん",
+              "grammaticalForm": "uninflected family noun with honorific prefix and suffix",
+              "sense": "Father sense 1, including direct family address; not a generic first-person possessive form."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, critical reread of corrected batch 005, 2026-09-22",
+        "finding": "Re-read all three examples after revision: Angestellter in einer Firma now accurately renders 会社員 without inventing an office role. The familiar-reference qualification and direct-address example remain appropriate. Exact full-title Japan Foundation accent 2 is retained; no UniDic component prediction.",
+        "contentHash": "931f2f237272a75cb1209a494cfba94d43c5150f6d6a3d5f72e5128dc038b41e",
+        "approvalHash": "fc9e6f8929050a6a33d15e21e38c4fa0441f8627c83074b8132394dfb0d3cf3b"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:ikura-roe",
+      "revisionId": "006-vocab-n5-correction-ikura-roe",
+      "state": "accepted",
+      "predecessorHash": "a5dfeb01010aebf2e5d87f7fc66b1a9a92d4de39d21ec9fe4ee4ffe880b58c7c",
+      "predecessorRevisionHash": "9581fc191f9f3a9d9a5b43ce18589b051a224221b2087344c00d17bd065eba50",
+      "reason": "The third reference in the mixed いくら group denotes salmon roe, not price; add a separate lexical entry.",
+      "levelBasis": "N5 is the single publisher estimate attached to this exact source reference. Retained provisionally with explicit limited support, not transferred from the homophonous interrogative.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1021180",
+          "finding": "イクラ/イクラ: JMdict 1021180: salted salmon roe; exact katakana source reference is a different lexical entry from 1219980.",
+          "matchedEntry": {
+            "sequence": "1021180",
+            "spelling": "イクラ",
+            "reading": "イクラ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "salted salmon roe"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Nihongo Master",
+          "version": "Frozen historical reference snapshot, 2026-09",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list?page=2",
+          "finding": "Exact イクラ/イクラ source row gives salmon roe and estimated N5; only one publisher supports this food entry level."
+        },
+        {
+          "source": "小学館 デジタル大辞泉 via Kotobank",
+          "version": "Accessed 2026-09-22",
+          "locator": "https://kotobank.jp/word/%E3%81%84%E3%81%8F%E3%82%89-3142893",
+          "finding": "The Japanese headword identifies Russian origin and a food of separated, salted salmon/trout eggs, distinct from interrogative 幾ら."
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "JMdict 1021180: salted salmon roe; exact katakana source reference is a different lexical entry from 1219980.",
+        "meaning": "Food noun Lachsrogen; not an amount question.",
+        "register": "Ordinary food noun, commonly katakana.",
+        "transitivity": "Noun; not applicable.",
+        "conjugation": "Noun; no conjugation.",
+        "level": "N5 is the single publisher estimate attached to this exact source reference. Retained provisionally with explicit limited support, not transferred from the homophonous interrogative.",
+        "japanese": "Sushi topping and kitchen storage sentences reviewed as different situations.",
+        "romanization": "ikura; のっています notte imasu, 容器 youki and 冷蔵庫 reizouko checked.",
+        "translation": "Both German sentences describe the food and preserve location and action.",
+        "contexts": [
+          "Recognizing roe as a sushi topping.",
+          "Putting roe in a container and storing it in the refrigerator."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Only the exact katakana food common-noun row, lemma イクラ-ikra, applies. Proper-name aType * and the homographic interrogative lemma 幾ら are explicitly rejected; both food variants 0 and 1 are retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54095125",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "イクラ; イクラ; 名詞/普通名詞/一般/*; *; *; lemma イクラ-ikra; aType 0,1",
+            "match": {
+              "word": "イクラ",
+              "reading": "いくら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Salted salmon roe food noun; lemma イクラ-ikra, not interrogative 幾ら."
+            }
+          }
+        ]
+      },
+      "originalHash": "a5dfeb01010aebf2e5d87f7fc66b1a9a92d4de39d21ec9fe4ee4ffe880b58c7c",
+      "original": {},
+      "replacement": {},
+      "rationale": "Accept the corrected draft after the further critical reread recorded below.",
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, critical reread of corrected batch 005, 2026-09-22",
+        "finding": "Re-read the corrected evidence against the serialized raw rows: only sys.dic@54095125, orth/kana イクラ, common noun and lemma イクラ-ikra, attests food accents 0 and 1. The name and 幾ら rows are rejected. Both authored examples, romanization and German translations were reread: sushi topping and kitchen storage are distinct. Japanese dictionary corroborates the separated eggs and Russian etymology. Single-publisher N5 remains an explicit uncertain estimate.",
+        "contentHash": "a5dfeb01010aebf2e5d87f7fc66b1a9a92d4de39d21ec9fe4ee4ffe880b58c7c",
+        "approvalHash": "1dfff5f84d7a1271891e8aca9998b65533eb1ca2b945296b229e1a8f5c2c5f9a"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "いくら|いくら",
+      "referenceIndex": 0,
+      "referenceHash": "310e5b33efae356624d7475696aaab71ce10d3420858bf85df1ee8982d05c2f7",
+      "revisionId": "006-ikura-reference-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n3:2932"
+      ],
+      "targetHashes": {
+        "vocab-n3:2932": "4ca8418cd6b81aae51e4684ac15b0809c7d3a9506cba5b702d6dfdcebd35d90a"
+      },
+      "reason": "This exact source row asks an amount/price (JMdict 1219980), represented by the reviewed 幾ら entry and its kana alias いくら. It is not evidence for salmon roe.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1219980",
+          "finding": "幾ら/いくら: Interrogative amount/price sense 1 and concessive degree sense 3; not the salmon-roe noun (JMdict 1021180).",
+          "matchedEntry": {
+            "sequence": "1219980",
+            "spelling": "幾ら",
+            "reading": "いくら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "how much"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "something over",
+                  "and something",
+                  "-odd"
+                ],
+                "notes": [
+                  "after a rounded number, esp. a sum of money"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "however (much)",
+                  "no matter how"
+                ],
+                "notes": [
+                  "as いくら...〜ても, いくら...〜でも, etc."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "tanos",
+          "version": "Frozen historical vocabulary reference",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=3",
+          "finding": "いくら/いくら; source gloss how much?; individually assigned to vocab-n3:2932."
+        }
+      ],
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate comparison of all three source references, 2026-09-22",
+        "finding": "Checked this publisher’s question gloss against JMdict 1219980 and the surviving reviewed 幾ら/いくら entry. The food sense is handled by reference 2.",
+        "contentHash": "bc599fc2e73ed51d6d6636c227f902f1cef7fc575b23cf0afa423f75ecd5697e",
+        "approvalHash": "bc599fc2e73ed51d6d6636c227f902f1cef7fc575b23cf0afa423f75ecd5697e"
+      }
+    },
+    {
+      "key": "いくら|いくら",
+      "referenceIndex": 1,
+      "referenceHash": "e583c17b87283bde36c806af9b1730935c76a723e1efa71c282cd97951e5f76c",
+      "revisionId": "006-ikura-reference-1",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n3:2932"
+      ],
+      "targetHashes": {
+        "vocab-n3:2932": "4ca8418cd6b81aae51e4684ac15b0809c7d3a9506cba5b702d6dfdcebd35d90a"
+      },
+      "reason": "This exact source row asks an amount/price (JMdict 1219980), represented by the reviewed 幾ら entry and its kana alias いくら. It is not evidence for salmon roe.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1219980",
+          "finding": "幾ら/いくら: Interrogative amount/price sense 1 and concessive degree sense 3; not the salmon-roe noun (JMdict 1021180).",
+          "matchedEntry": {
+            "sequence": "1219980",
+            "spelling": "幾ら",
+            "reading": "いくら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "how much"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "something over",
+                  "and something",
+                  "-odd"
+                ],
+                "notes": [
+                  "after a rounded number, esp. a sum of money"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "however (much)",
+                  "no matter how"
+                ],
+                "notes": [
+                  "as いくら...〜ても, いくら...〜でも, etc."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "sensei",
+          "version": "Frozen historical vocabulary reference",
+          "locator": "https://jlptsensei.com/jlpt-n5-vocabulary-list/page/2/",
+          "finding": "いくら/いくら; source gloss how much?; how many?​; individually assigned to vocab-n3:2932."
+        }
+      ],
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate comparison of all three source references, 2026-09-22",
+        "finding": "Checked this publisher’s question gloss against JMdict 1219980 and the surviving reviewed 幾ら/いくら entry. The food sense is handled by reference 2.",
+        "contentHash": "c5af4f3b0d7e23cf4d9a4eae1fd66bab1d4c9b4f357c55d67c2db042e77b3634",
+        "approvalHash": "c5af4f3b0d7e23cf4d9a4eae1fd66bab1d4c9b4f357c55d67c2db042e77b3634"
+      }
+    },
+    {
+      "key": "いくら|いくら",
+      "referenceIndex": 2,
+      "referenceHash": "3a2e61facfeb8a31885911e9f98409ef8684839cee0fb29aec4ebd3f15e5d7cc",
+      "revisionId": "006-ikura-reference-2",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "added",
+      "targets": [
+        "vocab-n5:correction:ikura-roe"
+      ],
+      "targetHashes": {
+        "vocab-n5:correction:ikura-roe": "a5dfeb01010aebf2e5d87f7fc66b1a9a92d4de39d21ec9fe4ee4ffe880b58c7c"
+      },
+      "reason": "This exact source row is the food noun イクラ (JMdict 1021180), so it requires the separately reviewed salmon-roe addition. The two price-question references do not support this sense.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1021180",
+          "finding": "イクラ/イクラ: JMdict 1021180: salted salmon roe; exact katakana source reference is a different lexical entry from 1219980.",
+          "matchedEntry": {
+            "sequence": "1021180",
+            "spelling": "イクラ",
+            "reading": "イクラ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "salted salmon roe"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Nihongo Master",
+          "version": "Frozen historical reference snapshot, 2026-09",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list?page=2",
+          "finding": "Exact イクラ/イクラ source row gives salmon roe and estimated N5; only one publisher supports this food entry level."
+        },
+        {
+          "source": "小学館 デジタル大辞泉 via Kotobank",
+          "version": "Accessed 2026-09-22",
+          "locator": "https://kotobank.jp/word/%E3%81%84%E3%81%8F%E3%82%89-3142893",
+          "finding": "The Japanese headword identifies Russian origin and a food of separated, salted salmon/trout eggs, distinct from interrogative 幾ら."
+        },
+        {
+          "source": "master",
+          "version": "Frozen historical vocabulary reference",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list?page=2",
+          "finding": "イクラ/イクラ; source gloss salted salmon roe (i.e. individual mature eggs); икра; (n) Lachslaich; individually assigned to vocab-n5:correction:ikura-roe."
+        }
+      ],
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate comparison of all three source references, 2026-09-22",
+        "finding": "Checked the food gloss against JMdict 1021180 and the exact food accent row; a spelling alias on the price entry cannot represent this reference.",
+        "contentHash": "9db183a3a868cda9cec4c75c29c1197068b4331a4790072ce050008555909470",
+        "approvalHash": "9db183a3a868cda9cec4c75c29c1197068b4331a4790072ce050008555909470"
+      }
+    }
+  ]
+}

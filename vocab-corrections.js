@@ -120,6 +120,10 @@
     var completionPatch = completion && completion[sourceName] && completion[sourceName][index];
     if (completionPatch) applyRule(normalized, completionPatch);
 
+    var corrections = window.VOCAB_CORRECTION_RULES && window.VOCAB_CORRECTION_RULES.correctionsBySource;
+    var correction = corrections && corrections[sourceName] && corrections[sourceName][index];
+    if (correction) applyRule(normalized, correction);
+
     normalized.__normalized =
       normalized.word !== normalized.__rawWord ||
       normalized.reading !== normalized.__rawReading ||
@@ -346,6 +350,16 @@
 
   window.applyVocabCorrections = function () {
     return window.getNormalizedVocabSources();
+  };
+
+  window.resolveVocabularyId = function (id) {
+    var redirects = window.VOCAB_CORRECTION_RULES && window.VOCAB_CORRECTION_RULES.completionRedirects;
+    var seen = {};
+    while (redirects && redirects[id] && !seen[id]) {
+      seen[id] = true;
+      id = redirects[id];
+    }
+    return id;
   };
 
   window.applyVocabCorrections();

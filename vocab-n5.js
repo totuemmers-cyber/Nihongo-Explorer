@@ -36165,5 +36165,51 @@ window.VOCAB_N5 = [
     ],
     "pitch": null,
     "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "word": "イクラ",
+    "reading": "いくら",
+    "romaji": "ikura",
+    "meaning": "Lachsrogen (als Speise)",
+    "type": "Nomen",
+    "category": "Essen",
+    "level": "N5",
+    "notes": "イクラ bezeichnet die einzelnen, meist gesalzenen oder gewürzten Eier des Lachses als Speise, etwa auf Sushi oder einer Reisschale. Das Wort stammt aus dem Russischen und wird gewöhnlich in Katakana geschrieben. Nicht mit いくら／幾ら („wie viel“) verwechseln.",
+    "examples": [
+      {
+        "japanese": "このすしにはイクラがのっています。",
+        "romaji": "Kono sushi ni wa ikura ga notte imasu.",
+        "german": "Auf diesem Sushi liegt Lachsrogen."
+      },
+      {
+        "japanese": "イクラを小さな容器に入れて、冷蔵庫にしまいました。",
+        "romaji": "Ikura o chiisana youki ni irete, reizouko ni shimaimashita.",
+        "german": "Ich habe den Lachsrogen in einen kleinen Behälter gefüllt und in den Kühlschrank gestellt."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      1
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54095125",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0,
+          1
+        ],
+        "finding": "イクラ; イクラ; 名詞/普通名詞/一般/*; *; *; lemma イクラ-ikra; aType 0,1",
+        "match": {
+          "word": "イクラ",
+          "reading": "いくら",
+          "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+          "sense": "Salted salmon roe food noun; lemma イクラ-ikra, not interrogative 幾ら."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:ikura-roe"
   }
 ];

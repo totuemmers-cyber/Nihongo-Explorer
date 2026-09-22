@@ -1,0 +1,3030 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:176",
+      "revisionId": "v2-wave1-editor2-176",
+      "state": "accepted",
+      "predecessorHash": "bd5c17c72f4249b2ee42f54375d7c15c51f731eda1ee17dd60d5479b3bec339c",
+      "predecessorRevisionHash": null,
+      "originalHash": "bd5c17c72f4249b2ee42f54375d7c15c51f731eda1ee17dd60d5479b3bec339c",
+      "rationale": "Music sense; listening and liking classical music both match Musik. Add the independently reviewable UniDic alternate accent while retaining attested primary.",
+      "original": {
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85183342",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1, 0.",
+            "match": {
+              "word": "音楽",
+              "reading": "おんがく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Musik"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1183720; spelling=音楽; reading=おんがく; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Music sense; listening and liking classical music both match Musik.",
+          "selected": {
+            "sequence": "1183720",
+            "spelling": "音楽",
+            "reading": "おんがく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "music"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-variant"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Music sense; listening and liking classical music both match Musik.",
+        "japanese": "Music as object of listening; wo and kikimasu agree. Classical music as preference subject with ga suki.",
+        "romanization": "Checked headword ongaku against おんがく and both full romanized examples; long vowels and particles match.",
+        "translation": "Music as object of listening; wo and kikimasu agree. Classical music as preference subject with ga suki.",
+        "contexts": [
+          "Music as object of listening; wo and kikimasu agree.",
+          "Classical music as preference subject with ga suki."
+        ],
+        "lexical": "Music sense; listening and liking classical music both match Musik.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Musik; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Music sense; listening and liking classical music both match Musik. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85183342",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1, 0.",
+            "match": {
+              "word": "音楽",
+              "reading": "おんがく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Musik"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Music sense; listening and liking classical music both match Musik. Music as object of listening; wo and kikimasu agree. Classical music as preference subject with ga suki.",
+        "contentHash": "6aaa4a952c50ae96414cd73f9542b1b32282cb5b6cadf2cd73883c36dc445e43",
+        "approvalHash": "82d18491d4bbf8fd8fc5f8ed47200618b45d9c6264b972aec4cf23a45b23a818"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent3",
+        "finding": "JMdict 1183720 music and exact UniDic common-noun ongaku row 85183342 support Musik and both accents 1/0. Listening and liking classical music examples and German renderings are accurate.",
+        "contentHash": "6aaa4a952c50ae96414cd73f9542b1b32282cb5b6cadf2cd73883c36dc445e43",
+        "approvalHash": "82d18491d4bbf8fd8fc5f8ed47200618b45d9c6264b972aec4cf23a45b23a818"
+      }
+    },
+    {
+      "id": "vocab-n5:177",
+      "revisionId": "v2-wave1-editor2-177",
+      "state": "accepted",
+      "predecessorHash": "6b664313ca9ba3151f82c769cd64b249736395e846cb0c1f6dec035f77a3b068",
+      "predecessorRevisionHash": null,
+      "originalHash": "6b664313ca9ba3151f82c769cd64b249736395e846cb0c1f6dec035f77a3b068",
+      "rationale": "Travel/trip sense; noun Reise and suru-capable noun status are compatible. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@279097644",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "match": {
+              "word": "旅行",
+              "reading": "りょこう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Reise"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1553170; spelling=旅行; reading=りょこう; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Travel/trip sense; noun Reise and suru-capable noun status are compatible.",
+          "selected": {
+            "sequence": "1553170",
+            "spelling": "旅行",
+            "reading": "りょこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "travel",
+                  "trip",
+                  "journey",
+                  "excursion",
+                  "tour"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Travel/trip sense; noun Reise and suru-capable noun status are compatible.",
+        "japanese": "Travel as liked activity with ga suki. Next-month trip with ryokou ni iku; German travel paraphrase valid.",
+        "romanization": "Checked headword ryokou against りょこう and both full romanized examples; long vowels and particles match.",
+        "translation": "Travel as liked activity with ga suki. Next-month trip with ryokou ni iku; German travel paraphrase valid.",
+        "contexts": [
+          "Travel as liked activity with ga suki.",
+          "Next-month trip with ryokou ni iku; German travel paraphrase valid."
+        ],
+        "lexical": "Travel/trip sense; noun Reise and suru-capable noun status are compatible.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Suru-capable intransitive noun; no transitive lexical claim.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Reise; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Travel/trip sense; noun Reise and suru-capable noun status are compatible. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@279097644",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "match": {
+              "word": "旅行",
+              "reading": "りょこう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Reise"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Travel/trip sense; noun Reise and suru-capable noun status are compatible. Travel as liked activity with ga suki. Next-month trip with ryokou ni iku; German travel paraphrase valid.",
+        "contentHash": "376c30704ce5107824418d51659aaeff3333dec0d5c7e873a5cd206f145c5bc1",
+        "approvalHash": "5a1e55626423d3592cd48cdd0471f4abc7812ecceaa70ed26fe6cb38d3e0e7dd"
+      }
+    },
+    {
+      "id": "vocab-n5:178",
+      "revisionId": "v2-wave1-editor2-178",
+      "state": "accepted",
+      "predecessorHash": "d37a26b1616765291b1eecf3af2b90a9fc68328d72c47c1d95996164cc57bb4d",
+      "predecessorRevisionHash": null,
+      "originalHash": "d37a26b1616765291b1eecf3af2b90a9fc68328d72c47c1d95996164cc57bb4d",
+      "rationale": "Walk/stroll noun with intransitive suru use in both examples. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133255907",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "match": {
+              "word": "散歩",
+              "reading": "さんぽ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Spaziergang"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1303620; spelling=散歩; reading=さんぽ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Walk/stroll noun with intransitive suru use in both examples.",
+          "selected": {
+            "sequence": "1303620",
+            "spelling": "散歩",
+            "reading": "さんぽ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "walk",
+                  "stroll"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Walk/stroll noun with intransitive suru use in both examples.",
+        "japanese": "Park wo marks route/area traversed, not transitive object. Daily walk with dog; to marks accompaniment.",
+        "romanization": "Checked headword sanpo against さんぽ and both full romanized examples; long vowels and particles match.",
+        "translation": "Park wo marks route/area traversed, not transitive object. Daily walk with dog; to marks accompaniment.",
+        "contexts": [
+          "Park wo marks route/area traversed, not transitive object.",
+          "Daily walk with dog; to marks accompaniment."
+        ],
+        "lexical": "Walk/stroll noun with intransitive suru use in both examples.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Suru-capable intransitive noun; no transitive lexical claim.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Spaziergang; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Walk/stroll noun with intransitive suru use in both examples. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133255907",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "match": {
+              "word": "散歩",
+              "reading": "さんぽ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Spaziergang"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Walk/stroll noun with intransitive suru use in both examples. Park wo marks route/area traversed, not transitive object. Daily walk with dog; to marks accompaniment.",
+        "contentHash": "20bccbce3ababd4159b156fd881588c08f27c75dc22c0b3421d76e84afb22a56",
+        "approvalHash": "9411ca89110a2226b5127a41790e1c52dc34a579ade52bc3facf2f2eb0a8a785"
+      }
+    },
+    {
+      "id": "vocab-n5:179",
+      "revisionId": "v2-wave1-editor2-179",
+      "state": "accepted",
+      "predecessorHash": "cd1fe728fa9c64c39afbb39669fff7c4c884ca0a6ef2280427fa783b2efe5aef",
+      "predecessorRevisionHash": null,
+      "originalHash": "cd1fe728fa9c64c39afbb39669fff7c4c884ca0a6ef2280427fa783b2efe5aef",
+      "rationale": "Weather sense 1 applies; fair-weather narrower sense 2 is not asserted. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181363118",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "天気",
+              "reading": "てんき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Wetter"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1438690; spelling=天気; reading=てんき; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Weather sense 1 applies; fair-weather narrower sense 2 is not asserted.",
+          "selected": {
+            "sequence": "1438690",
+            "spelling": "天気",
+            "reading": "てんき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "weather"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": true
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Weather sense 1 applies; fair-weather narrower sense 2 is not asserted.",
+        "japanese": "Question about present weather with dou. Tomorrow forecast with hare; sunny German paraphrase matches.",
+        "romanization": "Checked headword tenki against てんき and both full romanized examples; long vowels and particles match.",
+        "translation": "Question about present weather with dou. Tomorrow forecast with hare; sunny German paraphrase matches.",
+        "contexts": [
+          "Question about present weather with dou.",
+          "Tomorrow forecast with hare; sunny German paraphrase matches."
+        ],
+        "lexical": "Weather sense 1 applies; fair-weather narrower sense 2 is not asserted.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Wetter; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Weather sense 1 applies; fair-weather narrower sense 2 is not asserted. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181363118",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "天気",
+              "reading": "てんき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Wetter"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Weather sense 1 applies; fair-weather narrower sense 2 is not asserted. Question about present weather with dou. Tomorrow forecast with hare; sunny German paraphrase matches.",
+        "contentHash": "f68ac076af2ec03a9e89db7dd5bba665d1b239dc1c6a8e660ea47f4321fdba1e",
+        "approvalHash": "f96bfb5ec9bdfe0a4e2afc54fe8cd02d937951da6634c63f4ca97bbd16e86ee7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent3",
+        "finding": "Sample checked: 天気 tenki is weather, not necessarily fine weather. Today question and tomorrow sunny forecast are natural; romaji and German preserve meaning. Exact noun pitch 1 matches row 181363118. No substantive sample defect.",
+        "contentHash": "f68ac076af2ec03a9e89db7dd5bba665d1b239dc1c6a8e660ea47f4321fdba1e",
+        "approvalHash": "f96bfb5ec9bdfe0a4e2afc54fe8cd02d937951da6634c63f4ca97bbd16e86ee7"
+      }
+    },
+    {
+      "id": "vocab-n5:180",
+      "revisionId": "v2-wave1-editor2-180",
+      "state": "accepted",
+      "predecessorHash": "e332ef38769b3fa869defe92f74be274ed667b80729b7158f5be42e948399c21",
+      "predecessorRevisionHash": null,
+      "originalHash": "e332ef38769b3fa869defe92f74be274ed667b80729b7158f5be42e948399c21",
+      "rationale": "Rain and rainy-weather senses apply; hanafuda suit excluded. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@46822967",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "雨",
+              "reading": "あめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Regen"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1171900; spelling=雨; reading=あめ; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Rain and rainy-weather senses apply; hanafuda suit excluded.",
+          "selected": {
+            "sequence": "1171900",
+            "spelling": "雨",
+            "reading": "あめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rain"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rainy day",
+                  "rainy weather"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Rain and rainy-weather senses apply; hanafuda suit excluded.",
+        "japanese": "Tomorrow rain prediction as noun predicate. Rainy-day condition and staying home; rain sense retained.",
+        "romanization": "Checked headword ame against あめ and both full romanized examples; long vowels and particles match.",
+        "translation": "Tomorrow rain prediction as noun predicate. Rainy-day condition and staying home; rain sense retained.",
+        "contexts": [
+          "Tomorrow rain prediction as noun predicate.",
+          "Rainy-day condition and staying home; rain sense retained."
+        ],
+        "lexical": "Rain and rainy-weather senses apply; hanafuda suit excluded.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Regen; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Rain and rainy-weather senses apply; hanafuda suit excluded. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@46822967",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "雨",
+              "reading": "あめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Regen"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Rain and rainy-weather senses apply; hanafuda suit excluded. Tomorrow rain prediction as noun predicate. Rainy-day condition and staying home; rain sense retained.",
+        "contentHash": "4d5350be08546929882199a6f23aa5b3035d590010ed8751ba71cc9ef4f745e4",
+        "approvalHash": "8a289b212bcbe5f56fd55ab910d8599e4e465ac28f76bab67315e18f93892d23"
+      }
+    },
+    {
+      "id": "vocab-n5:181",
+      "revisionId": "v2-wave1-editor2-181",
+      "state": "accepted",
+      "predecessorHash": "474685d88bd2d00a4980c62a0f7313072a6b621acd5ba1e887ad757e0baeb6ee",
+      "predecessorRevisionHash": null,
+      "originalHash": "474685d88bd2d00a4980c62a0f7313072a6b621acd5ba1e887ad757e0baeb6ee",
+      "rationale": "Snow noun, not personal-name rows with accent 1. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270927922",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "雪",
+              "reading": "ゆき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Schnee"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1386500; spelling=雪; reading=ゆき; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Snow noun, not personal-name rows with accent 1.",
+          "selected": {
+            "sequence": "1386500",
+            "spelling": "雪",
+            "reading": "ゆき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "snow",
+                  "snowfall"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Snow noun, not personal-name rows with accent 1.",
+        "japanese": "Ongoing snowfall with futte imasu. Large amount of snow this year; ooi with ga.",
+        "romanization": "Checked headword yuki against ゆき and both full romanized examples; long vowels and particles match.",
+        "translation": "Ongoing snowfall with futte imasu. Large amount of snow this year; ooi with ga.",
+        "contexts": [
+          "Ongoing snowfall with futte imasu.",
+          "Large amount of snow this year; ooi with ga."
+        ],
+        "lexical": "Snow noun, not personal-name rows with accent 1.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Schnee; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Snow noun, not personal-name rows with accent 1. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270927922",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "雪",
+              "reading": "ゆき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Schnee"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Snow noun, not personal-name rows with accent 1. Ongoing snowfall with futte imasu. Large amount of snow this year; ooi with ga.",
+        "contentHash": "3c41a9ea951ca8b6fdd7842c152d603354d56c2e686f382f6e2e0db30299bb3b",
+        "approvalHash": "edaf2e0795c53bd032af3c7830b7d1eb2e67480e82cf960147d595b819a2bfb8"
+      }
+    },
+    {
+      "id": "vocab-n5:182",
+      "revisionId": "v2-wave1-editor2-182",
+      "state": "accepted",
+      "predecessorHash": "33c30e859e5ff3e62febcfe410a1a388681c7e84e80c1e49240842efc136a790",
+      "predecessorRevisionHash": null,
+      "originalHash": "33c30e859e5ff3e62febcfe410a1a388681c7e84e80c1e49240842efc136a790",
+      "rationale": "Wind sense, not personal names or irregular cold/influenza kanji usage. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93958763",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "match": {
+              "word": "風",
+              "reading": "かぜ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Wind"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1499720; spelling=風; reading=かぜ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Wind sense, not personal names or irregular cold/influenza kanji usage.",
+          "selected": {
+            "sequence": "1499720",
+            "spelling": "風",
+            "reading": "かぜ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wind",
+                  "breeze",
+                  "draught",
+                  "draft"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Wind sense, not personal names or irregular cold/influenza kanji usage.",
+        "japanese": "Strong wind today as adjective predicate. Cool autumn wind; seasonal topic does not alter lexical sense.",
+        "romanization": "Checked headword kaze against かぜ and both full romanized examples; long vowels and particles match.",
+        "translation": "Strong wind today as adjective predicate. Cool autumn wind; seasonal topic does not alter lexical sense.",
+        "contexts": [
+          "Strong wind today as adjective predicate.",
+          "Cool autumn wind; seasonal topic does not alter lexical sense."
+        ],
+        "lexical": "Wind sense, not personal names or irregular cold/influenza kanji usage.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Wind; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Wind sense, not personal names or irregular cold/influenza kanji usage. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93958763",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "match": {
+              "word": "風",
+              "reading": "かぜ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Wind"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Wind sense, not personal names or irregular cold/influenza kanji usage. Strong wind today as adjective predicate. Cool autumn wind; seasonal topic does not alter lexical sense.",
+        "contentHash": "1def8bbc4ab127992b87580b4ab9e76f79f69d77acea4b5f89fb0a87ec9b8e25",
+        "approvalHash": "09331d4238eae94638bccf2dd36e5aed4ae4dcdf2d9f96c4111f2e1042a5a957"
+      }
+    },
+    {
+      "id": "vocab-n5:183",
+      "revisionId": "v2-wave1-editor2-183",
+      "state": "accepted",
+      "predecessorHash": "acebe84a3a90945bb16a8d32f5c37ac0efe8d95f621f464a4abfeac8dd9ace3c",
+      "predecessorRevisionHash": null,
+      "originalHash": "acebe84a3a90945bb16a8d32f5c37ac0efe8d95f621f464a4abfeac8dd9ace3c",
+      "rationale": "Sky sense 1; memory, falsehood and prefix senses excluded. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157074532",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "空",
+              "reading": "そら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Himmel"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1245290; spelling=空; reading=そら; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Sky sense 1; memory, falsehood and prefix senses excluded.",
+          "selected": {
+            "sequence": "1245290",
+            "spelling": "空",
+            "reading": "そら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sky",
+                  "the air",
+                  "the heavens"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Sky sense 1; memory, falsehood and prefix senses excluded.",
+        "japanese": "Beautiful sky with ga kirei. Stars visible in sky with ni and miemasu.",
+        "romanization": "Checked headword sora against そら and both full romanized examples; long vowels and particles match.",
+        "translation": "Beautiful sky with ga kirei. Stars visible in sky with ni and miemasu.",
+        "contexts": [
+          "Beautiful sky with ga kirei.",
+          "Stars visible in sky with ni and miemasu."
+        ],
+        "lexical": "Sky sense 1; memory, falsehood and prefix senses excluded.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Himmel; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Sky sense 1; memory, falsehood and prefix senses excluded. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157074532",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "空",
+              "reading": "そら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Himmel"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Sky sense 1; memory, falsehood and prefix senses excluded. Beautiful sky with ga kirei. Stars visible in sky with ni and miemasu.",
+        "contentHash": "9c9e939b2b0b980ca45986802058f6d70e5624f3118d023e4a10d5673a5cca89",
+        "approvalHash": "8c6ab31bb5bde6b8334058133e2dbab349299a2420ead913beae8b5b2635680c"
+      }
+    },
+    {
+      "id": "vocab-n5:184",
+      "revisionId": "v2-wave1-editor2-184",
+      "state": "accepted",
+      "predecessorHash": "804bf74a546f1e0ed07a72af221fc70c2b2c859f174f40ac28a12181f43a1bfe",
+      "predecessorRevisionHash": null,
+      "originalHash": "804bf74a546f1e0ed07a72af221fc70c2b2c859f174f40ac28a12181f43a1bfe",
+      "rationale": "Mountain sense; proper-name accent 1 and figurative heaps/peaks excluded. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@269375043",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "山",
+              "reading": "やま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Berg"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1302680; spelling=山; reading=やま; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Mountain sense; proper-name accent 1 and figurative heaps/peaks excluded.",
+          "selected": {
+            "sequence": "1302680",
+            "spelling": "山",
+            "reading": "やま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "mountain",
+                  "hill"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Mountain sense; proper-name accent 1 and figurative heaps/peaks excluded.",
+        "japanese": "Mountain ascent with ni noboru. Fuji comparison: highest mountain in Japan.",
+        "romanization": "Checked headword yama against やま and both full romanized examples; long vowels and particles match.",
+        "translation": "Mountain ascent with ni noboru. Fuji comparison: highest mountain in Japan.",
+        "contexts": [
+          "Mountain ascent with ni noboru.",
+          "Fuji comparison: highest mountain in Japan."
+        ],
+        "lexical": "Mountain sense; proper-name accent 1 and figurative heaps/peaks excluded.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Berg; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Mountain sense; proper-name accent 1 and figurative heaps/peaks excluded. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@269375043",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "山",
+              "reading": "やま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Berg"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Mountain sense; proper-name accent 1 and figurative heaps/peaks excluded. Mountain ascent with ni noboru. Fuji comparison: highest mountain in Japan.",
+        "contentHash": "f81b050fda09e173597a51dafe9c877b4858b154a993b5412d952b0fd204b9a7",
+        "approvalHash": "eaa13e1cd87859a66445a5d14e57a97892d7284e38cfb97d7cf1b7a31182e7b1"
+      }
+    },
+    {
+      "id": "vocab-n5:185",
+      "revisionId": "v2-wave1-editor2-185",
+      "state": "accepted",
+      "predecessorHash": "cfbba0253ea0d7fcb798f3480c1b1c48dca129ac9ea1e830406497b7147c4f6a",
+      "predecessorRevisionHash": null,
+      "originalHash": "cfbba0253ea0d7fcb798f3480c1b1c48dca129ac9ea1e830406497b7147c4f6a",
+      "rationale": "River common noun sense 1 has reading restriction kawa, satisfied; name/suffix excluded. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99454303",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "川",
+              "reading": "かわ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Fluss"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1390020; spelling=川; reading=かわ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "River common noun sense 1 has reading restriction kawa, satisfied; name/suffix excluded.",
+          "selected": {
+            "sequence": "1390020",
+            "spelling": "川",
+            "reading": "かわ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "river",
+                  "stream"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": [
+                  "かわ"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "River common noun sense 1 has reading restriction kawa, satisfied; name/suffix excluded.",
+        "japanese": "Swimming location marked de. River water described as clean; no drinking-safety claim.",
+        "romanization": "Checked headword kawa against かわ and both full romanized examples; long vowels and particles match.",
+        "translation": "Swimming location marked de. River water described as clean; no drinking-safety claim.",
+        "contexts": [
+          "Swimming location marked de.",
+          "River water described as clean; no drinking-safety claim."
+        ],
+        "lexical": "River common noun sense 1 has reading restriction kawa, satisfied; name/suffix excluded.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Fluss; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "River common noun sense 1 has reading restriction kawa, satisfied; name/suffix excluded. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99454303",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "川",
+              "reading": "かわ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Fluss"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. River common noun sense 1 has reading restriction kawa, satisfied; name/suffix excluded. Swimming location marked de. River water described as clean; no drinking-safety claim.",
+        "contentHash": "c5bf1e6ceaf9f04ee570fb97a12bcc5e1dff0157227c0bd9322eb174dbd4025a",
+        "approvalHash": "9df1186a52b280c4ff95a6e9ef690457fc2e1f0ae50bbc7a7ef135769cb8acad"
+      }
+    },
+    {
+      "id": "vocab-n5:186",
+      "revisionId": "v2-wave1-editor2-186",
+      "state": "accepted",
+      "predecessorHash": "8d1167109d1e934bcae19d0b962c0ede972b291d60c974bd960afd1463bbaac0",
+      "predecessorRevisionHash": null,
+      "originalHash": "8d1167109d1e934bcae19d0b962c0ede972b291d60c974bd960afd1463bbaac0",
+      "rationale": "Sea/ocean noun matches Meer. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@67496839",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "海",
+              "reading": "うみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Meer"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1201190; spelling=海; reading=うみ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Sea/ocean noun matches Meer.",
+          "selected": {
+            "sequence": "1201190",
+            "spelling": "海",
+            "reading": "うみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sea",
+                  "ocean",
+                  "waters"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Sea/ocean noun matches Meer.",
+        "japanese": "Desire to swim in sea with oyogitai. Going to sea in summer; German ans Meer matches destination.",
+        "romanization": "Checked headword umi against うみ and both full romanized examples; long vowels and particles match.",
+        "translation": "Desire to swim in sea with oyogitai. Going to sea in summer; German ans Meer matches destination.",
+        "contexts": [
+          "Desire to swim in sea with oyogitai.",
+          "Going to sea in summer; German ans Meer matches destination."
+        ],
+        "lexical": "Sea/ocean noun matches Meer.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Meer; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Sea/ocean noun matches Meer. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@67496839",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "海",
+              "reading": "うみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Meer"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Sea/ocean noun matches Meer. Desire to swim in sea with oyogitai. Going to sea in summer; German ans Meer matches destination.",
+        "contentHash": "afeb2ca82c9730beaa5d565bbd87a5bf179aef7b461993f89b54b471f46de54d",
+        "approvalHash": "e78aaa1791be270816ff78bb41bc75a15af5fd767cf81275524a878902e6905b"
+      }
+    },
+    {
+      "id": "vocab-n5:187",
+      "revisionId": "v2-wave1-editor2-187",
+      "state": "accepted",
+      "predecessorHash": "b7e46d1941fc9b2cae51cd32ac108a611f40679488a99439df4e0d3e2b2ba00f",
+      "predecessorRevisionHash": null,
+      "originalHash": "b7e46d1941fc9b2cae51cd32ac108a611f40679488a99439df4e0d3e2b2ba00f",
+      "rationale": "Flower sense 1; personal-name rows with accent 1 excluded. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@216025915",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "花",
+              "reading": "はな",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Blume"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1194500; spelling=花; reading=はな; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Flower sense 1; personal-name rows with accent 1 excluded.",
+          "selected": {
+            "sequence": "1194500",
+            "spelling": "花",
+            "reading": "はな",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "flower",
+                  "blossom",
+                  "bloom",
+                  "petal"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Flower sense 1; personal-name rows with accent 1 excluded.",
+        "japanese": "Flower beauty; unmarked Japanese number allows German plural. Planting flowers in garden with ni ueru.",
+        "romanization": "Checked headword hana against はな and both full romanized examples; long vowels and particles match.",
+        "translation": "Flower beauty; unmarked Japanese number allows German plural. Planting flowers in garden with ni ueru.",
+        "contexts": [
+          "Flower beauty; unmarked Japanese number allows German plural.",
+          "Planting flowers in garden with ni ueru."
+        ],
+        "lexical": "Flower sense 1; personal-name rows with accent 1 excluded.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Blume; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Flower sense 1; personal-name rows with accent 1 excluded. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@216025915",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "花",
+              "reading": "はな",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Blume"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Flower sense 1; personal-name rows with accent 1 excluded. Flower beauty; unmarked Japanese number allows German plural. Planting flowers in garden with ni ueru.",
+        "contentHash": "421bed7d667f047161c6e4befe0460d895f0162c59a8fe7c852107e96476bef1",
+        "approvalHash": "66a51a6f83fec8aedfe0f611a7608bca4edb434263267d04c3e838efaca6d721"
+      }
+    },
+    {
+      "id": "vocab-n5:188",
+      "revisionId": "v2-wave1-editor2-188",
+      "state": "accepted",
+      "predecessorHash": "57038d40838490eb218a39d42e37c68385fbdbbbb3ab944fa520ada957f946eb",
+      "predecessorRevisionHash": null,
+      "originalHash": "57038d40838490eb218a39d42e37c68385fbdbbbb3ab944fa520ada957f946eb",
+      "rationale": "Living tree sense 1; wood/clapper senses excluded. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101932541",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "木",
+              "reading": "き",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Baum"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1534520; spelling=木; reading=き; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Living tree sense 1; wood/clapper senses excluded.",
+          "selected": {
+            "sequence": "1534520",
+            "spelling": "木",
+            "reading": "き",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tree",
+                  "shrub",
+                  "bush"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Living tree sense 1; wood/clapper senses excluded.",
+        "japanese": "Existence of large tree with ga aru. Rest beneath tree with no shita de.",
+        "romanization": "Checked headword ki against き and both full romanized examples; long vowels and particles match.",
+        "translation": "Existence of large tree with ga aru. Rest beneath tree with no shita de.",
+        "contexts": [
+          "Existence of large tree with ga aru.",
+          "Rest beneath tree with no shita de."
+        ],
+        "lexical": "Living tree sense 1; wood/clapper senses excluded.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Baum; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Living tree sense 1; wood/clapper senses excluded. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101932541",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "木",
+              "reading": "き",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Baum"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Living tree sense 1; wood/clapper senses excluded. Existence of large tree with ga aru. Rest beneath tree with no shita de.",
+        "contentHash": "5e0237b200c1625e16283f7606a20c251d32420fcc0662463bce19907d92caf2",
+        "approvalHash": "dafadaaefc8d409922e28023e501b9f6f22cb4d94ae81b2d2fa7c8d7a592f6c1"
+      }
+    },
+    {
+      "id": "vocab-n5:189",
+      "revisionId": "v2-wave1-editor2-189",
+      "state": "accepted",
+      "predecessorHash": "ccea5ad6b231afbe5ae62ad3f4ebd174f0cbeb0bcc1fbac7bfcd9976343864a9",
+      "predecessorRevisionHash": null,
+      "originalHash": "ccea5ad6b231afbe5ae62ad3f4ebd174f0cbeb0bcc1fbac7bfcd9976343864a9",
+      "rationale": "Dog animal sense 1; derogatory informer/insult uses excluded. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56964937",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "犬",
+              "reading": "いぬ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Hund"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1258330; spelling=犬; reading=いぬ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Dog animal sense 1; derogatory informer/insult uses excluded.",
+          "selected": {
+            "sequence": "1258330",
+            "spelling": "犬",
+            "reading": "いぬ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dog (Canis (lupus) familiaris)",
+                  "canine"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Dog animal sense 1; derogatory informer/insult uses excluded.",
+        "japanese": "Preference for dogs with ga suki. Walk with dog; accompaniment to.",
+        "romanization": "Checked headword inu against いぬ and both full romanized examples; long vowels and particles match.",
+        "translation": "Preference for dogs with ga suki. Walk with dog; accompaniment to.",
+        "contexts": [
+          "Preference for dogs with ga suki.",
+          "Walk with dog; accompaniment to."
+        ],
+        "lexical": "Dog animal sense 1; derogatory informer/insult uses excluded.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Hund; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Dog animal sense 1; derogatory informer/insult uses excluded. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56964937",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "犬",
+              "reading": "いぬ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Hund"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Dog animal sense 1; derogatory informer/insult uses excluded. Preference for dogs with ga suki. Walk with dog; accompaniment to.",
+        "contentHash": "8720c060ca197c79fc3f8701403211cba8a001cef3bf6333b68e220f6fea3adf",
+        "approvalHash": "5023beef71e5b7388e023eb51b8c2d3c5c9bbfee284a7e7a5c25089d7cb9c243"
+      }
+    },
+    {
+      "id": "vocab-n5:190",
+      "revisionId": "v2-wave1-editor2-190",
+      "state": "accepted",
+      "predecessorHash": "20f996ebdcc90561da0b042fef058f2b33b985a626eaaea68879b98bca36d5c1",
+      "predecessorRevisionHash": null,
+      "originalHash": "20f996ebdcc90561da0b042fef058f2b33b985a626eaaea68879b98bca36d5c1",
+      "rationale": "Domestic cat sense 1; slang and abbreviated senses excluded. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@205137978",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "猫",
+              "reading": "ねこ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Katze"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1467640; spelling=猫; reading=ねこ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Domestic cat sense 1; slang and abbreviated senses excluded.",
+          "selected": {
+            "sequence": "1467640",
+            "spelling": "猫",
+            "reading": "ねこ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cat (esp. the domestic cat, Felis catus)",
+                  "feline"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Domestic cat sense 1; slang and abbreviated senses excluded.",
+        "japanese": "Animate existence with iru. Generic cat preference for fish, valid illustrative sentence.",
+        "romanization": "Checked headword neko against ねこ and both full romanized examples; long vowels and particles match.",
+        "translation": "Animate existence with iru. Generic cat preference for fish, valid illustrative sentence.",
+        "contexts": [
+          "Animate existence with iru.",
+          "Generic cat preference for fish, valid illustrative sentence."
+        ],
+        "lexical": "Domestic cat sense 1; slang and abbreviated senses excluded.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Katze; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Domestic cat sense 1; slang and abbreviated senses excluded. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@205137978",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "猫",
+              "reading": "ねこ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Katze"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Domestic cat sense 1; slang and abbreviated senses excluded. Animate existence with iru. Generic cat preference for fish, valid illustrative sentence.",
+        "contentHash": "5c31027dd7ca2647cac599290813db381e60fb4ef627bc69b270e0b1ef120feb",
+        "approvalHash": "e25cd9b558dfa51c9335453f4f6b082ea6e623818b0291f57f035584de1baa88"
+      }
+    },
+    {
+      "id": "vocab-n5:191",
+      "revisionId": "v2-wave1-editor2-191",
+      "state": "accepted",
+      "predecessorHash": "8de55e078d6c400b8b902311af74036578381c224360f83cc8fac10b71184ca7",
+      "predecessorRevisionHash": null,
+      "originalHash": "8de55e078d6c400b8b902311af74036578381c224360f83cc8fac10b71184ca7",
+      "rationale": "Bird animal sense 1; poultry-meat and personal-name rows excluded. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@188768665",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "match": {
+              "word": "鳥",
+              "reading": "とり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Vogel"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1430250; spelling=鳥; reading=とり; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Bird animal sense 1; poultry-meat and personal-name rows excluded.",
+          "selected": {
+            "sequence": "1430250",
+            "spelling": "鳥",
+            "reading": "とり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bird"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": true
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Bird animal sense 1; poultry-meat and personal-name rows excluded.",
+        "japanese": "Ongoing flight with tonde imasu. Birdsong uses figurative utau coherently; morning time adverb.",
+        "romanization": "Checked headword tori against とり and both full romanized examples; long vowels and particles match.",
+        "translation": "Ongoing flight with tonde imasu. Birdsong uses figurative utau coherently; morning time adverb.",
+        "contexts": [
+          "Ongoing flight with tonde imasu.",
+          "Birdsong uses figurative utau coherently; morning time adverb."
+        ],
+        "lexical": "Bird animal sense 1; poultry-meat and personal-name rows excluded.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Vogel; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Bird animal sense 1; poultry-meat and personal-name rows excluded. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@188768665",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "match": {
+              "word": "鳥",
+              "reading": "とり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Vogel"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Bird animal sense 1; poultry-meat and personal-name rows excluded. Ongoing flight with tonde imasu. Birdsong uses figurative utau coherently; morning time adverb.",
+        "contentHash": "105d82aa83a7362526a17cc4cd574ffdaa7730b0b5d750a88c342ad8de9829b3",
+        "approvalHash": "0042280ac0ba58f35b7e0c33d6864ca98259d4791914eb7cdacbaf4bacf03c51"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent3",
+        "finding": "Sample checked: animal bird sense, not poultry or personal name. Flight and figurative birds singing are coherent, with accurate romaji and German number choices. Proper-name pitch1 excluded; common noun row188768665 supports0. No substantive sample defect.",
+        "contentHash": "105d82aa83a7362526a17cc4cd574ffdaa7730b0b5d750a88c342ad8de9829b3",
+        "approvalHash": "0042280ac0ba58f35b7e0c33d6864ca98259d4791914eb7cdacbaf4bacf03c51"
+      }
+    },
+    {
+      "id": "vocab-n5:192",
+      "revisionId": "v2-wave1-editor2-192",
+      "state": "accepted",
+      "predecessorHash": "01f6695da1e7e108a7b7cddac895e0ebe939e7772aa4eea671269357ab8a9cfb",
+      "predecessorRevisionHash": null,
+      "originalHash": "01f6695da1e7e108a7b7cddac895e0ebe939e7772aa4eea671269357ab8a9cfb",
+      "rationale": "Today temporal noun/adverb; noun type retained. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106060619",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "今日",
+              "reading": "きょう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "heute"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1579110; spelling=今日; reading=きょう; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Today temporal noun/adverb; noun type retained.",
+          "selected": {
+            "sequence": "1579110",
+            "spelling": "今日",
+            "reading": "きょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "today",
+                  "this day"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Today temporal noun/adverb; noun type retained.",
+        "japanese": "Question about weekday today. Today as topic with fine weather predicate.",
+        "romanization": "Checked headword kyou against きょう and both full romanized examples; long vowels and particles match.",
+        "translation": "Question about weekday today. Today as topic with fine weather predicate.",
+        "contexts": [
+          "Question about weekday today.",
+          "Today as topic with fine weather predicate."
+        ],
+        "lexical": "Today temporal noun/adverb; noun type retained.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for heute; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Today temporal noun/adverb; noun type retained. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106060619",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "今日",
+              "reading": "きょう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "heute"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Today temporal noun/adverb; noun type retained. Question about weekday today. Today as topic with fine weather predicate.",
+        "contentHash": "63a2812fc4b62d8c4cb96c78594b891a1b1d0ca1a75d3bfe8d1e788313c3edcf",
+        "approvalHash": "8dc36c851dc686555d37c5a31ea59627b3cbdde39e3062c0c3afe19b7b53f979"
+      }
+    },
+    {
+      "id": "vocab-n5:193",
+      "revisionId": "v2-wave1-editor2-193",
+      "state": "accepted",
+      "predecessorHash": "fc055a279deca6e7040e65bf286217072cbef5fd947098f3ff82636f25b551dc",
+      "predecessorRevisionHash": null,
+      "originalHash": "fc055a279deca6e7040e65bf286217072cbef5fd947098f3ff82636f25b551dc",
+      "rationale": "Tomorrow temporal noun/adverb at ashita reading. Add the independently reviewable UniDic alternate accent while retaining attested primary.",
+      "original": {
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42896081",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 3, 0.",
+            "match": {
+              "word": "明日",
+              "reading": "あした",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "morgen"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1584660; spelling=明日; reading=あした; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Tomorrow temporal noun/adverb at ashita reading.",
+          "selected": {
+            "sequence": "1584660",
+            "spelling": "明日",
+            "reading": "あした",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tomorrow"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-variant"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Tomorrow temporal noun/adverb at ashita reading.",
+        "japanese": "Tomorrow identified as Sunday. Question about tomorrow activity with nani wo.",
+        "romanization": "Checked headword ashita against あした and both full romanized examples; long vowels and particles match.",
+        "translation": "Tomorrow identified as Sunday. Question about tomorrow activity with nani wo.",
+        "contexts": [
+          "Tomorrow identified as Sunday.",
+          "Question about tomorrow activity with nani wo."
+        ],
+        "lexical": "Tomorrow temporal noun/adverb at ashita reading.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for morgen; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Tomorrow temporal noun/adverb at ashita reading. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42896081",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 3, 0.",
+            "match": {
+              "word": "明日",
+              "reading": "あした",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "morgen"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Tomorrow temporal noun/adverb at ashita reading. Tomorrow identified as Sunday. Question about tomorrow activity with nani wo.",
+        "contentHash": "3b210d6b24dbc8bc44b745677af803caa1f7e68130a37c734a3164d744374672",
+        "approvalHash": "9d742c2f1dfc74506906708ae6b162871175ff3a3ee22460a5b34365d3dadecf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent3",
+        "finding": "明日 ashita tomorrow matches dictionary and both future-day examples. Correct nichiyoubi and nani o readings; German preserves Sunday and activity question. Exact lexical row42896081 attests3 and0; added variant justified.",
+        "contentHash": "3b210d6b24dbc8bc44b745677af803caa1f7e68130a37c734a3164d744374672",
+        "approvalHash": "9d742c2f1dfc74506906708ae6b162871175ff3a3ee22460a5b34365d3dadecf"
+      }
+    },
+    {
+      "id": "vocab-n5:194",
+      "revisionId": "v2-wave1-editor2-194",
+      "state": "accepted",
+      "predecessorHash": "65178624c07bf0aa7489fae585e57ddfd68ea42726d1f6925291df1840a76865",
+      "predecessorRevisionHash": null,
+      "originalHash": "65178624c07bf0aa7489fae585e57ddfd68ea42726d1f6925291df1840a76865",
+      "rationale": "Yesterday temporal noun/adverb at kinou reading. Add the independently reviewable UniDic alternate accent while retaining attested primary.",
+      "original": {
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105036560",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2, 0.",
+            "match": {
+              "word": "昨日",
+              "reading": "きのう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "gestern"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1579260; spelling=昨日; reading=きのう; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Yesterday temporal noun/adverb at kinou reading.",
+          "selected": {
+            "sequence": "1579260",
+            "spelling": "昨日",
+            "reading": "きのう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "yesterday"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-variant"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Yesterday temporal noun/adverb at kinou reading.",
+        "japanese": "Yesterday with past film viewing. Yesterday topic with adjective past isogashikatta.",
+        "romanization": "Checked headword kinou against きのう and both full romanized examples; long vowels and particles match.",
+        "translation": "Yesterday with past film viewing. Yesterday topic with adjective past isogashikatta.",
+        "contexts": [
+          "Yesterday with past film viewing.",
+          "Yesterday topic with adjective past isogashikatta."
+        ],
+        "lexical": "Yesterday temporal noun/adverb at kinou reading.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for gestern; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Yesterday temporal noun/adverb at kinou reading. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105036560",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2, 0.",
+            "match": {
+              "word": "昨日",
+              "reading": "きのう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "gestern"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Yesterday temporal noun/adverb at kinou reading. Yesterday with past film viewing. Yesterday topic with adjective past isogashikatta.",
+        "contentHash": "a29f05ecdd7ec585436edd3d02f88b490857f71de2c560f7d679ff30ec14c76e",
+        "approvalHash": "b8050165c96be70657fd47fb131164413d086d3d7e912f8019aebbe9d1ee592f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent3",
+        "finding": "昨日 kinou yesterday aligns with past movie watching and adjective past isogashikatta. German tense and romanization are accurate. Exact row105036560 attests2 and0; added variant justified.",
+        "contentHash": "a29f05ecdd7ec585436edd3d02f88b490857f71de2c560f7d679ff30ec14c76e",
+        "approvalHash": "b8050165c96be70657fd47fb131164413d086d3d7e912f8019aebbe9d1ee592f"
+      }
+    },
+    {
+      "id": "vocab-n5:195",
+      "revisionId": "v2-wave1-editor2-195",
+      "state": "accepted",
+      "predecessorHash": "01bff2a7e3d4b0a5edfab01e021bd850c2994fa88a316246f79744c840ebad46",
+      "predecessorRevisionHash": null,
+      "originalHash": "01bff2a7e3d4b0a5edfab01e021bd850c2994fa88a316246f79744c840ebad46",
+      "rationale": "Morning sense; capitalized German Morgen denotes time of day, unlike tomorrow. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42463878",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "朝",
+              "reading": "あさ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Morgen"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1428280; spelling=朝; reading=あさ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Morning sense; capitalized German Morgen denotes time of day, unlike tomorrow.",
+          "selected": {
+            "sequence": "1428280",
+            "spelling": "朝",
+            "reading": "あさ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "morning"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Morning sense; capitalized German Morgen denotes time of day, unlike tomorrow.",
+        "japanese": "Early rising in morning; asa hayaku. Breakfast compound and face washing before breakfast.",
+        "romanization": "Checked headword asa against あさ and both full romanized examples; long vowels and particles match.",
+        "translation": "Early rising in morning; asa hayaku. Breakfast compound and face washing before breakfast.",
+        "contexts": [
+          "Early rising in morning; asa hayaku.",
+          "Breakfast compound and face washing before breakfast."
+        ],
+        "lexical": "Morning sense; capitalized German Morgen denotes time of day, unlike tomorrow.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Morgen; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Morning sense; capitalized German Morgen denotes time of day, unlike tomorrow. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42463878",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "朝",
+              "reading": "あさ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Morgen"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Morning sense; capitalized German Morgen denotes time of day, unlike tomorrow. Early rising in morning; asa hayaku. Breakfast compound and face washing before breakfast.",
+        "contentHash": "16db510f6af7877b55de416184bccaa524f4e53b20ec6b640ad23c09e3a382a6",
+        "approvalHash": "8df2e18d7715ed7c8f2ae0c4634f33ab0baab44717d10bb912967e3b7e3d47c7"
+      }
+    },
+    {
+      "id": "vocab-n5:196",
+      "revisionId": "v2-wave1-editor2-196",
+      "state": "accepted",
+      "predecessorHash": "07f1ab786d10f6e1372ddd619db5678cc45735374ec347d48ce1843347afe69c",
+      "predecessorRevisionHash": null,
+      "originalHash": "07f1ab786d10f6e1372ddd619db5678cc45735374ec347d48ce1843347afe69c",
+      "rationale": "Midday sense 1 supports Mittag; lunch compound is related use; daytime sense retained in research. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@228425399",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "昼",
+              "reading": "ひる",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Mittag"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1426250; spelling=昼; reading=ひる; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Midday sense 1 supports Mittag; lunch compound is related use; daytime sense retained in research.",
+          "selected": {
+            "sequence": "1426250",
+            "spelling": "昼",
+            "reading": "ひる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "noon",
+                  "midday"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Midday sense 1 supports Mittag; lunch compound is related use; daytime sense retained in research.",
+        "japanese": "Lunch compound hirugohan as object of eating. Midday heat is a valid contextual narrowing of hiru.",
+        "romanization": "Checked headword hiru against ひる and both full romanized examples; long vowels and particles match.",
+        "translation": "Lunch compound hirugohan as object of eating. Midday heat is a valid contextual narrowing of hiru.",
+        "contexts": [
+          "Lunch compound hirugohan as object of eating.",
+          "Midday heat is a valid contextual narrowing of hiru."
+        ],
+        "lexical": "Midday sense 1 supports Mittag; lunch compound is related use; daytime sense retained in research.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Mittag; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Midday sense 1 supports Mittag; lunch compound is related use; daytime sense retained in research. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@228425399",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "match": {
+              "word": "昼",
+              "reading": "ひる",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Mittag"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Midday sense 1 supports Mittag; lunch compound is related use; daytime sense retained in research. Lunch compound hirugohan as object of eating. Midday heat is a valid contextual narrowing of hiru.",
+        "contentHash": "3a7d28188055a2288be3ce81237ab53e7405302b9d1770b3b681711b091e59b9",
+        "approvalHash": "091be6fc63e847ffb63d02ff2f0337b57bf83647bbe123533a5c88d236b6cb9b"
+      }
+    },
+    {
+      "id": "vocab-n5:197",
+      "revisionId": "v2-wave1-editor2-197",
+      "state": "accepted",
+      "predecessorHash": "aa2f048a3aec2f6d4155490a63ba1835745f4b4ca4751cb59ebf4cda386dcab5",
+      "predecessorRevisionHash": null,
+      "originalHash": "aa2f048a3aec2f6d4155490a63ba1835745f4b4ca4751cb59ebf4cda386dcab5",
+      "rationale": "Night/evening sense 1 covers both German words, not dinner sense. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@276714661",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "夜",
+              "reading": "よる",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Nacht, Abend"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1536350; spelling=夜; reading=よる; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Night/evening sense 1 covers both German words, not dinner sense.",
+          "selected": {
+            "sequence": "1536350",
+            "spelling": "夜",
+            "reading": "よる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "night",
+                  "evening"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Night/evening sense 1 covers both German words, not dinner sense.",
+        "japanese": "Evening television viewing with temporal yoru. Night quietness as adjective predicate.",
+        "romanization": "Checked headword yoru against よる and both full romanized examples; long vowels and particles match.",
+        "translation": "Evening television viewing with temporal yoru. Night quietness as adjective predicate.",
+        "contexts": [
+          "Evening television viewing with temporal yoru.",
+          "Night quietness as adjective predicate."
+        ],
+        "lexical": "Night/evening sense 1 covers both German words, not dinner sense.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for Nacht, Abend; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Night/evening sense 1 covers both German words, not dinner sense. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@276714661",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "夜",
+              "reading": "よる",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Nacht, Abend"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Night/evening sense 1 covers both German words, not dinner sense. Evening television viewing with temporal yoru. Night quietness as adjective predicate.",
+        "contentHash": "038296afc724458e2cf8e3b455a49f5fc1382d73eeddac177b6f12f948fbbc6d",
+        "approvalHash": "2e486784675eebe6c370938984939ddcbb9f185aa45241dccca7b03d29565dac"
+      }
+    },
+    {
+      "id": "vocab-n5:198",
+      "revisionId": "v2-wave1-editor2-198",
+      "state": "accepted",
+      "predecessorHash": "106b173c352c99f70cd74f7878577b5ff7bbe3c821eb4ba7112b32a4c536bf52",
+      "predecessorRevisionHash": null,
+      "originalHash": "106b173c352c99f70cd74f7878577b5ff7bbe3c821eb4ba7112b32a4c536bf52",
+      "rationale": "Present-time sense 1; surname and imai adjective rows excluded. Retain reviewed content; hydrate exact pitch provenance.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@57479924",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "今",
+              "reading": "いま",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "jetzt"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1288850; spelling=今; reading=いま; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Present-time sense 1; surname and imai adjective rows excluded.",
+          "selected": {
+            "sequence": "1288850",
+            "spelling": "今",
+            "reading": "いま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "now",
+                  "the present time",
+                  "just now",
+                  "soon",
+                  "immediately"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Present-time sense 1; surname and imai adjective rows excluded.",
+        "japanese": "Present clock time question. Currently ongoing television viewing.",
+        "romanization": "Checked headword ima against いま and both full romanized examples; long vowels and particles match.",
+        "translation": "Present clock time question. Currently ongoing television viewing.",
+        "contexts": [
+          "Present clock time question.",
+          "Currently ongoing television viewing."
+        ],
+        "lexical": "Present-time sense 1; surname and imai adjective rows excluded.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for jetzt; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Present-time sense 1; surname and imai adjective rows excluded. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@57479924",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "match": {
+              "word": "今",
+              "reading": "いま",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "jetzt"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Present-time sense 1; surname and imai adjective rows excluded. Present clock time question. Currently ongoing television viewing.",
+        "contentHash": "e9ca7b1e86ebb7c7d2e1cc26c71880097f9465af887776ec8a6cebf83b4f704c",
+        "approvalHash": "2bef81266c6a55c775c96f7b31ad0812d8064d1fa76f3383c73de53a9c2f0962"
+      }
+    },
+    {
+      "id": "vocab-n5:199",
+      "revisionId": "v2-wave1-editor2-199",
+      "state": "accepted",
+      "predecessorHash": "37414e55d2af13c670c35022b193849241f0f0c02c68d4fe19168a463304930e",
+      "predecessorRevisionHash": null,
+      "originalHash": "37414e55d2af13c670c35022b193849241f0f0c02c68d4fe19168a463304930e",
+      "rationale": "Every-day noun/adverb; adverb classification suits examples. Add the independently reviewable UniDic alternate accent while retaining attested primary.",
+      "original": {
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247357157",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1, 0.",
+            "match": {
+              "word": "毎日",
+              "reading": "まいにち",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "jeden Tag"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1524720; spelling=毎日; reading=まいにち; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Every-day noun/adverb; adverb classification suits examples.",
+          "selected": {
+            "sequence": "1524720",
+            "spelling": "毎日",
+            "reading": "まいにち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "every day",
+                  "daily"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-variant"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Every-day noun/adverb; adverb classification suits examples.",
+        "japanese": "Daily Japanese study with benkyou suru. Daily walk; intransitive sanpo suru.",
+        "romanization": "Checked headword mainichi against まいにち and both full romanized examples; long vowels and particles match.",
+        "translation": "Daily Japanese study with benkyou suru. Daily walk; intransitive sanpo suru.",
+        "contexts": [
+          "Daily Japanese study with benkyou suru.",
+          "Daily walk; intransitive sanpo suru."
+        ],
+        "lexical": "Every-day noun/adverb; adverb classification suits examples.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for jeden Tag; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Every-day noun/adverb; adverb classification suits examples. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247357157",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1, 0.",
+            "match": {
+              "word": "毎日",
+              "reading": "まいにち",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "jeden Tag"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Every-day noun/adverb; adverb classification suits examples. Daily Japanese study with benkyou suru. Daily walk; intransitive sanpo suru.",
+        "contentHash": "ad401a6cd9e39a7f7b137519dcfb139c8191f0d18d2a0a4191816a2e4b55c207",
+        "approvalHash": "8ecde814b2653e2604c5206f716ba91472acda969f89f93e9006c2e716467a17"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent3",
+        "finding": "毎日 noun/adverb means every day, agreeing with daily study and walking. No transitivity error in benkyou/sanpo examples. Matching adverb-capable noun row247357157 attests1/0, supporting variant addition.",
+        "contentHash": "ad401a6cd9e39a7f7b137519dcfb139c8191f0d18d2a0a4191816a2e4b55c207",
+        "approvalHash": "8ecde814b2653e2604c5206f716ba91472acda969f89f93e9006c2e716467a17"
+      }
+    },
+    {
+      "id": "vocab-n5:200",
+      "revisionId": "v2-wave1-editor2-200",
+      "state": "accepted",
+      "predecessorHash": "ea1dc7c0474dba21a259244697089cfb959640c469d5998f7a44bcde90c756dc",
+      "predecessorRevisionHash": null,
+      "originalHash": "ea1dc7c0474dba21a259244697089cfb959640c469d5998f7a44bcde90c756dc",
+      "rationale": "Every-morning noun/adverb; adverb type matches examples. Add the independently reviewable UniDic alternate accent while retaining attested primary.",
+      "original": {
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247084842",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0, 1.",
+            "match": {
+              "word": "毎朝",
+              "reading": "まいあさ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "jeden Morgen"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1524700; spelling=毎朝; reading=まいあさ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Every-morning noun/adverb; adverb type matches examples.",
+          "selected": {
+            "sequence": "1524700",
+            "spelling": "毎朝",
+            "reading": "まいあさ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "every morning"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-variant"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor2",
+        "meaning": "Every-morning noun/adverb; adverb type matches examples.",
+        "japanese": "Daily morning coffee drinking. Daily rising at six with rokuji ni.",
+        "romanization": "Checked headword maiasa against まいあさ and both full romanized examples; long vowels and particles match.",
+        "translation": "Daily morning coffee drinking. Daily rising at six with rokuji ni.",
+        "contexts": [
+          "Daily morning coffee drinking.",
+          "Daily rising at six with rokuji ni."
+        ],
+        "lexical": "Every-morning noun/adverb; adverb type matches examples.",
+        "register": "Neutral everyday usage in the selected sense and polite example endings.",
+        "transitivity": "Noun/adverb headword; lexical transitivity does not apply.",
+        "conjugation": "No verb conjugation metadata applies to this headword; example inflections reviewed.",
+        "level": "Retain existing N5 beginner-curriculum estimate for jeden Morgen; not an official JLPT classification."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Every-morning noun/adverb; adverb type matches examples. Exact orthography/reading and common-noun lexical row chosen; all attested numeric patterns retained.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247084842",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0, 1.",
+            "match": {
+              "word": "毎朝",
+              "reading": "まいあさ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "jeden Morgen"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor2",
+        "finding": "I accept this exact assembled entry, both examples and hydrated evidence after editorial inspection. Every-morning noun/adverb; adverb type matches examples. Daily morning coffee drinking. Daily rising at six with rokuji ni.",
+        "contentHash": "254c9f89520f9b52171d175718a37a07731eaf3db66998b24be4568e65e5ee7f",
+        "approvalHash": "a2bed5ceef0ee5744475df867cc61a343763fd8d8023fce0d13c4cd86ba4b06a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent3",
+        "finding": "毎朝 is maiasa every morning; coffee long vowels and rokuji ni are correctly romanized. Both German habitual statements preserve morning timing. Matching adverb-capable noun row247084842 attests0/1, supporting variant addition.",
+        "contentHash": "254c9f89520f9b52171d175718a37a07731eaf3db66998b24be4568e65e5ee7f",
+        "approvalHash": "a2bed5ceef0ee5744475df867cc61a343763fd8d8023fce0d13c4cd86ba4b06a"
+      }
+    }
+  ],
+  "decisions": []
+}

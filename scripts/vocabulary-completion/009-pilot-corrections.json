@@ -1,0 +1,902 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:28",
+      "revisionId": "risk-pilot-final-vocab-n5-28",
+      "state": "accepted",
+      "predecessorHash": "5396dab35c3c1d6f205d251fdf6040334e75c95780797834023ddd4ae7800d44",
+      "predecessorRevisionHash": "b6f5d1dcda1366407a09bf9ac2084baabf0b838abaad43e1588eccb58f1b37a3",
+      "originalHash": "5396dab35c3c1d6f205d251fdf6040334e75c95780797834023ddd4ae7800d44",
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "猫がいます。",
+            "romaji": "Neko ga imasu.",
+            "german": "Es gibt eine Katze."
+          },
+          {
+            "japanese": "部屋に猫がいます。",
+            "romaji": "Heya ni neko ga imasu.",
+            "german": "Im Zimmer ist eine Katze."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "いる bezeichnet die Existenz oder Anwesenheit von Menschen und Tieren; für Dinge verwendet man ある. Nicht mit den gleich ausgesprochenen Verben wie 要る („brauchen“) verwechseln.",
+        "examples": [
+          {
+            "japanese": "兄がいます。",
+            "romaji": "Ani ga imasu.",
+            "german": "Ich habe einen älteren Bruder."
+          },
+          {
+            "japanese": "部屋に猫がいます。",
+            "romaji": "Heya ni neko ga imasu.",
+            "german": "Im Zimmer ist eine Katze."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@58519569",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "The 居る/いる terminal-form row supports the intended animate-existence sense and existing pitch 0.",
+            "match": {
+              "word": "いる",
+              "reading": "いる",
+              "grammaticalForm": "動詞/非自立可能/*/*; 上一段-ア行; 終止形-一般",
+              "sense": "Kana いる is an intransitive ichidan verb meaning animate existence or staying; unrelated homographs have different entries and grammar."
+            }
+          }
+        ]
+      },
+      "rationale": "Resolve the saved pilot rejection with the exact separately authored and independently reread correction.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "locator": "sequence 1577980, senses 1-2",
+          "finding": "Kana いる is an intransitive ichidan verb meaning animate existence or staying; unrelated homographs have different entries and grammar.",
+          "version": "Cached gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5"
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "ambiguous-sense",
+          "example-change"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "pilot-shard-2-correction-author",
+        "lexical": "Kana いる is an intransitive ichidan verb meaning animate existence or staying; unrelated homographs have different entries and grammar.",
+        "meaning": "Checked JMdict 1577980 senses 1–2 and 居る terminal row. Animate intransitive ichidan usage is distinct from 要る godan. Ani/older brother and Heya/location examples, readings and German translations correctly express family relationship and animal location; the new note accurately contrasts ある.",
+        "register": "Neutral teaching use; spelling/register distinctions are documented in the note where required.",
+        "transitivity": "Intransitive animate-existence verb.",
+        "conjugation": "Ichidan group, dictionary reading and retained inflections checked.",
+        "level": "Existing N5 estimate retained.",
+        "japanese": "Checked JMdict 1577980 senses 1–2 and 居る terminal row. Animate intransitive ichidan usage is distinct from 要る godan. Ani/older brother and Heya/location examples, readings and German translations correctly express family relationship and animal location; the new note accurately contrasts ある.",
+        "romanization": "Checked JMdict 1577980 senses 1–2 and 居る terminal row. Animate intransitive ichidan usage is distinct from 要る godan. Ani/older brother and Heya/location examples, readings and German translations correctly express family relationship and animal location; the new note accurately contrasts ある.",
+        "translation": "Checked JMdict 1577980 senses 1–2 and 居る terminal row. Animate intransitive ichidan usage is distinct from 要る godan. Ani/older brother and Heya/location examples, readings and German translations correctly express family relationship and animal location; the new note accurately contrasts ある.",
+        "contexts": [
+          "Eine Familienbeziehung beziehungsweise animate Existenz ausdrücken",
+          "Den Aufenthaltsort eines Tieres angeben"
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "The 居る/いる terminal-form row supports the intended animate-existence sense and existing pitch 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@58519569",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "The 居る/いる terminal-form row supports the intended animate-existence sense and existing pitch 0.",
+            "match": {
+              "word": "いる",
+              "reading": "いる",
+              "grammaticalForm": "動詞/非自立可能/*/*; 上一段-ア行; 終止形-一般",
+              "sense": "Kana いる is an intransitive ichidan verb meaning animate existence or staying; unrelated homographs have different entries and grammar."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-shard-2-correction-author",
+        "finding": "Authored exact corrections after the rejected pilot review: Kana いる is an intransitive ichidan verb meaning animate existence or staying; unrelated homographs have different entries and grammar.",
+        "contentHash": "26f2c080bd606cc4d8340dec88348695f5ebead924a5d20cca4193063de134db",
+        "approvalHash": "957267eddd0a4e7d154b948a69c9f3e87b0d9624bfc397a9bdbe84b0ad9f8886"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "root-independent-correction-review",
+        "finding": "Checked JMdict 1577980 senses 1–2 and 居る terminal row. Animate intransitive ichidan usage is distinct from 要る godan. Ani/older brother and Heya/location examples, readings and German translations correctly express family relationship and animal location; the new note accurately contrasts ある.",
+        "contentHash": "26f2c080bd606cc4d8340dec88348695f5ebead924a5d20cca4193063de134db",
+        "approvalHash": "957267eddd0a4e7d154b948a69c9f3e87b0d9624bfc397a9bdbe84b0ad9f8886"
+      }
+    },
+    {
+      "id": "vocab-n5:52",
+      "revisionId": "risk-pilot-final-vocab-n5-52",
+      "state": "accepted",
+      "predecessorHash": "0013deb273e6c670b3a28b8818f3821488c861abe9fb0f53f3a6d0bfb084177d",
+      "predecessorRevisionHash": "fa2f16085961dbd86616908b45a939157134c4496b6687de74c252a167209d0a",
+      "originalHash": "0013deb273e6c670b3a28b8818f3821488c861abe9fb0f53f3a6d0bfb084177d",
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "電気をつけてください。",
+            "romaji": "Denki o tsukete kudasai.",
+            "german": "Bitte machen Sie das Licht an."
+          },
+          {
+            "japanese": "テレビをつけてもいいですか。",
+            "romaji": "Terebi o tsukete mo ii desu ka.",
+            "german": "Darf ich den Fernseher einschalten?"
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "Hier bedeutet つける „ein Gerät oder Licht einschalten“ und wird auch 点ける oder 付ける geschrieben. Je nach Zusammenhang kann つける auch „befestigen“ oder „tragen“ bedeuten; das gleich ausgesprochene 浸ける bedeutet „eintauchen“.",
+        "examples": [
+          {
+            "japanese": "電気をつけてください。",
+            "romaji": "Denki o tsukete kudasai.",
+            "german": "Bitte machen Sie das Licht an."
+          },
+          {
+            "japanese": "テレビをつけてもいいですか。",
+            "romaji": "Terebi o tsukete mo ii desu ka.",
+            "german": "Darf ich den Fernseher einschalten?"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@175302946",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "The exact kana terminal form under lemma 付ける supports pitch 2; the pattern-0 浸ける row is a different sense.",
+            "match": {
+              "word": "つける",
+              "reading": "つける",
+              "grammaticalForm": "動詞/非自立可能/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "The 付ける lexical entry supports switching on as well as context-dependent attaching and wearing senses; the kana-homophonous 浸ける 'to soak/dip' is a separate lexical entry."
+            }
+          }
+        ]
+      },
+      "rationale": "Resolve the saved pilot rejection with the exact separately authored and independently reread correction.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "locator": "sequences 1495770 and 1610400; switch-on senses",
+          "finding": "The 付ける lexical entry supports switching on as well as context-dependent attaching and wearing senses; the kana-homophonous 浸ける 'to soak/dip' is a separate lexical entry.",
+          "version": "Cached gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5"
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "ambiguous-sense",
+          "example-change"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "pilot-shard-2-correction-author",
+        "lexical": "The 付ける lexical entry supports switching on as well as context-dependent attaching and wearing senses; the kana-homophonous 浸ける 'to soak/dip' is a separate lexical entry.",
+        "meaning": "Checked JMdict 1495770 sense 13 and 1610400 sense 1 against the switch-on examples; attaching/wearing remain other senses and 浸ける is a separate lexeme. The request to switch on a light and permission to switch on television provide distinct interaction contexts. Reading, transitive ichidan inflections and German translations are sound; UniDic 付ける terminal row supports 2.",
+        "register": "Neutral teaching use; spelling/register distinctions are documented in the note where required.",
+        "transitivity": "Transitive switch-on verb.",
+        "conjugation": "Ichidan group, dictionary reading and retained inflections checked.",
+        "level": "Existing N5 estimate retained.",
+        "japanese": "Checked JMdict 1495770 sense 13 and 1610400 sense 1 against the switch-on examples; attaching/wearing remain other senses and 浸ける is a separate lexeme. The request to switch on a light and permission to switch on television provide distinct interaction contexts. Reading, transitive ichidan inflections and German translations are sound; UniDic 付ける terminal row supports 2.",
+        "romanization": "Checked JMdict 1495770 sense 13 and 1610400 sense 1 against the switch-on examples; attaching/wearing remain other senses and 浸ける is a separate lexeme. The request to switch on a light and permission to switch on television provide distinct interaction contexts. Reading, transitive ichidan inflections and German translations are sound; UniDic 付ける terminal row supports 2.",
+        "translation": "Checked JMdict 1495770 sense 13 and 1610400 sense 1 against the switch-on examples; attaching/wearing remain other senses and 浸ける is a separate lexeme. The request to switch on a light and permission to switch on television provide distinct interaction contexts. Reading, transitive ichidan inflections and German translations are sound; UniDic 付ける terminal row supports 2.",
+        "contexts": [
+          "Eine andere Person bitten, das Licht einzuschalten",
+          "Um Erlaubnis bitten, ein elektronisches Gerät einzuschalten"
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "The exact kana terminal form under lemma 付ける supports pitch 2; the pattern-0 浸ける row is a different sense.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@175302946",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "The exact kana terminal form under lemma 付ける supports pitch 2; the pattern-0 浸ける row is a different sense.",
+            "match": {
+              "word": "つける",
+              "reading": "つける",
+              "grammaticalForm": "動詞/非自立可能/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "The 付ける lexical entry supports switching on as well as context-dependent attaching and wearing senses; the kana-homophonous 浸ける 'to soak/dip' is a separate lexical entry."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-shard-2-correction-author",
+        "finding": "Authored exact corrections after the rejected pilot review: The 付ける lexical entry supports switching on as well as context-dependent attaching and wearing senses; the kana-homophonous 浸ける 'to soak/dip' is a separate lexical entry.",
+        "contentHash": "3078720038c2bdf902bfdb9ca8803216f7bf41ae8abc94ae82c2e12b409bd6e2",
+        "approvalHash": "6a3cd8704f6b2c8a16dac6e5c1f680e9ed64ba6ff31566875b5b0cd32933be24"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "root-independent-correction-review",
+        "finding": "Checked JMdict 1495770 sense 13 and 1610400 sense 1 against the switch-on examples; attaching/wearing remain other senses and 浸ける is a separate lexeme. The request to switch on a light and permission to switch on television provide distinct interaction contexts. Reading, transitive ichidan inflections and German translations are sound; UniDic 付ける terminal row supports 2.",
+        "contentHash": "3078720038c2bdf902bfdb9ca8803216f7bf41ae8abc94ae82c2e12b409bd6e2",
+        "approvalHash": "6a3cd8704f6b2c8a16dac6e5c1f680e9ed64ba6ff31566875b5b0cd32933be24"
+      }
+    },
+    {
+      "id": "vocab-n5:82",
+      "revisionId": "risk-pilot-final-vocab-n5-82",
+      "state": "accepted",
+      "predecessorHash": "0135b797cecc9a464c8c2624fb16357508065157524d1636e766d065694d517e",
+      "predecessorRevisionHash": "52a29e72f4676d6b8c58fda31e94624558116f305484e7d96d42e4e1b52ad7a8",
+      "originalHash": "0135b797cecc9a464c8c2624fb16357508065157524d1636e766d065694d517e",
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この問題は易しいです。",
+            "romaji": "Kono mondai wa yasashii desu.",
+            "german": "Dieses Problem ist einfach."
+          },
+          {
+            "japanese": "この質問は易しいです。",
+            "romaji": "Kono shitsumon wa yasashii desu.",
+            "german": "Diese Frage ist einfach."
+          }
+        ],
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "易しい bedeutet „einfach/leicht“ und wird oft やさしい geschrieben. Nicht mit 優しい („freundlich, sanft“) verwechseln.",
+        "examples": [
+          {
+            "japanese": "この問題は易しいです。",
+            "romaji": "Kono mondai wa yasashii desu.",
+            "german": "Diese Aufgabe ist einfach."
+          },
+          {
+            "japanese": "この本は易しい言葉で書かれています。",
+            "romaji": "Kono hon wa yasashii kotoba de kakarete imasu.",
+            "german": "Dieses Buch ist in einfachen Worten geschrieben."
+          }
+        ],
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@268141028",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact 易しい/ヤサシイ terminal form attests patterns 0 and 3.",
+            "match": {
+              "word": "易しい",
+              "reading": "やさしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "易しい means easy/plain/simple and is usually written in kana; it is distinct from 優しい."
+            }
+          }
+        ]
+      },
+      "rationale": "Resolve the saved pilot rejection with the exact separately authored and independently reread correction.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "locator": "sequence 1157000, sense 1",
+          "finding": "易しい means easy/plain/simple and is usually written in kana; it is distinct from 優しい.",
+          "version": "Cached gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5"
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "ambiguous-sense",
+          "example-change"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "pilot-shard-2-correction-author",
+        "lexical": "易しい means easy/plain/simple and is usually written in kana; it is distinct from 優しい.",
+        "meaning": "Checked JMdict 1157000 kana preference and simple/easy meaning. The task example and simple-language book example teach distinct uses; kakarete imasu is correctly romanized and translated as the written state. The note distinguishes 優しい. Exact UniDic 易しい row supports both 0 and 3.",
+        "register": "Neutral teaching use; spelling/register distinctions are documented in the note where required.",
+        "transitivity": "Adjective; verbal transitivity does not apply.",
+        "conjugation": "I-adjective; verb conjugation metadata does not apply.",
+        "level": "Existing N5 estimate retained.",
+        "japanese": "Checked JMdict 1157000 kana preference and simple/easy meaning. The task example and simple-language book example teach distinct uses; kakarete imasu is correctly romanized and translated as the written state. The note distinguishes 優しい. Exact UniDic 易しい row supports both 0 and 3.",
+        "romanization": "Checked JMdict 1157000 kana preference and simple/easy meaning. The task example and simple-language book example teach distinct uses; kakarete imasu is correctly romanized and translated as the written state. The note distinguishes 優しい. Exact UniDic 易しい row supports both 0 and 3.",
+        "translation": "Checked JMdict 1157000 kana preference and simple/easy meaning. The task example and simple-language book example teach distinct uses; kakarete imasu is correctly romanized and translated as the written state. The note distinguishes 優しい. Exact UniDic 易しい row supports both 0 and 3.",
+        "contexts": [
+          "Den Schwierigkeitsgrad einer Aufgabe beurteilen",
+          "Einfache Sprache in einem Text beschreiben"
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact 易しい/ヤサシイ terminal form attests patterns 0 and 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@268141028",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact 易しい/ヤサシイ terminal form attests patterns 0 and 3.",
+            "match": {
+              "word": "易しい",
+              "reading": "やさしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "易しい means easy/plain/simple and is usually written in kana; it is distinct from 優しい."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-shard-2-correction-author",
+        "finding": "Authored exact corrections after the rejected pilot review: 易しい means easy/plain/simple and is usually written in kana; it is distinct from 優しい.",
+        "contentHash": "474eb3a2de5646951206015ef95b25b9eef6cb8adcd7a7413033bc52301dd8cb",
+        "approvalHash": "c9a2297662680042e9bb28bcbd3014fbdff629e2adb8333dc6995d00160e4afe"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "root-independent-correction-review",
+        "finding": "Checked JMdict 1157000 kana preference and simple/easy meaning. The task example and simple-language book example teach distinct uses; kakarete imasu is correctly romanized and translated as the written state. The note distinguishes 優しい. Exact UniDic 易しい row supports both 0 and 3.",
+        "contentHash": "474eb3a2de5646951206015ef95b25b9eef6cb8adcd7a7413033bc52301dd8cb",
+        "approvalHash": "c9a2297662680042e9bb28bcbd3014fbdff629e2adb8333dc6995d00160e4afe"
+      }
+    },
+    {
+      "id": "vocab-n5:88",
+      "revisionId": "risk-pilot-final-vocab-n5-88",
+      "state": "accepted",
+      "predecessorHash": "c9070275355012dade22dd5c544401d22914f3f953b1bb3eda41223379e1c9bd",
+      "predecessorRevisionHash": "8869a2fe77765c6a882221324648c55207cbaf3c964f194a371e1476cb5c84b1",
+      "originalHash": "c9070275355012dade22dd5c544401d22914f3f953b1bb3eda41223379e1c9bd",
+      "original": {
+        "examples": [
+          {
+            "japanese": "この道は狭いです。",
+            "romaji": "Kono michi wa semai desu.",
+            "german": "Dieser Weg ist eng."
+          },
+          {
+            "japanese": "この電車は狭いです。",
+            "romaji": "Kono densha wa semai desu.",
+            "german": "Dieser Zug ist eng."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "この道は狭いです。",
+            "romaji": "Kono michi wa semai desu.",
+            "german": "Dieser Weg ist eng."
+          },
+          {
+            "japanese": "この部屋は狭いです。",
+            "romaji": "Kono heya wa semai desu.",
+            "german": "In diesem Zimmer ist wenig Platz."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@153233532",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact 狭い/セマイ terminal form supports existing pitch 2.",
+            "match": {
+              "word": "狭い",
+              "reading": "せまい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "狭い supports narrow, confined, small, and cramped uses."
+            }
+          }
+        ]
+      },
+      "rationale": "Resolve the saved pilot rejection with the exact separately authored and independently reread correction.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "locator": "sequence 1237680, sense 1",
+          "finding": "狭い supports narrow, confined, small, and cramped uses.",
+          "version": "Cached gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5"
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "pilot-shard-2-correction-author",
+        "lexical": "狭い supports narrow, confined, small, and cramped uses.",
+        "meaning": "Checked JMdict 1237680 physical narrow/confined sense. The retained narrow-road sentence and replacement small-room sentence are natural; wenig Platz captures confined interior space. Semai/romaji and exact UniDic pitch 2 agree.",
+        "register": "Neutral teaching use; spelling/register distinctions are documented in the note where required.",
+        "transitivity": "Adjective; verbal transitivity does not apply.",
+        "conjugation": "I-adjective; verb conjugation metadata does not apply.",
+        "level": "Existing N5 estimate retained.",
+        "japanese": "Checked JMdict 1237680 physical narrow/confined sense. The retained narrow-road sentence and replacement small-room sentence are natural; wenig Platz captures confined interior space. Semai/romaji and exact UniDic pitch 2 agree.",
+        "romanization": "Checked JMdict 1237680 physical narrow/confined sense. The retained narrow-road sentence and replacement small-room sentence are natural; wenig Platz captures confined interior space. Semai/romaji and exact UniDic pitch 2 agree.",
+        "translation": "Checked JMdict 1237680 physical narrow/confined sense. The retained narrow-road sentence and replacement small-room sentence are natural; wenig Platz captures confined interior space. Semai/romaji and exact UniDic pitch 2 agree.",
+        "contexts": [
+          "Die geringe Breite eines Weges beschreiben",
+          "Einen beengten Innenraum beschreiben"
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact 狭い/セマイ terminal form supports existing pitch 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@153233532",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact 狭い/セマイ terminal form supports existing pitch 2.",
+            "match": {
+              "word": "狭い",
+              "reading": "せまい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "狭い supports narrow, confined, small, and cramped uses."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-shard-2-correction-author",
+        "finding": "Authored exact corrections after the rejected pilot review: 狭い supports narrow, confined, small, and cramped uses.",
+        "contentHash": "52393dac855521ab51b67dc59f4456ba7aefa6754afe53bc55b3adf5f30b389e",
+        "approvalHash": "28c41706284818be62af6112012c9efa89b809fe6d487aa5450897718d6f4024"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "root-independent-correction-review",
+        "finding": "Checked JMdict 1237680 physical narrow/confined sense. The retained narrow-road sentence and replacement small-room sentence are natural; wenig Platz captures confined interior space. Semai/romaji and exact UniDic pitch 2 agree.",
+        "contentHash": "52393dac855521ab51b67dc59f4456ba7aefa6754afe53bc55b3adf5f30b389e",
+        "approvalHash": "28c41706284818be62af6112012c9efa89b809fe6d487aa5450897718d6f4024"
+      }
+    },
+    {
+      "id": "vocab-n5:95",
+      "revisionId": "risk-pilot-final-vocab-n5-95",
+      "state": "accepted",
+      "predecessorHash": "8c57de9da24dad21a84ebc6f2dffb087301fad065ae67cc9d2d6eb1366376121",
+      "predecessorRevisionHash": "a8ca9308efcac167d4cd894e7e90b77348a874177eb146f76dd35c7ed3ca9dd6",
+      "originalHash": "8c57de9da24dad21a84ebc6f2dffb087301fad065ae67cc9d2d6eb1366376121",
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "朝早く起きます。",
+            "romaji": "Asa hayaku okimasu.",
+            "german": "Ich stehe früh morgens auf."
+          },
+          {
+            "japanese": "電車は速くて便利です。",
+            "romaji": "Densha wa hayakute benri desu.",
+            "german": "Der Zug ist schnell und praktisch."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "早い bezeichnet einen frühen Zeitpunkt oder eine schnelle Erledigung beziehungsweise Reaktion. 速い verwendet man vor allem für hohe Bewegungs- oder Ablaufgeschwindigkeit.",
+        "examples": [
+          {
+            "japanese": "朝早く起きます。",
+            "romaji": "Asa hayaku okimasu.",
+            "german": "Ich stehe morgens früh auf."
+          },
+          {
+            "japanese": "彼は返事が早いです。",
+            "romaji": "Kare wa henji ga hayai desu.",
+            "german": "Er antwortet schnell."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217896971",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact 早い/ハヤイ terminal form supports existing pitch 2.",
+            "match": {
+              "word": "早い",
+              "reading": "はやい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "早い supports prompt/quick and early/soon; the early sense is restricted to 早い, while 速い is the usual physical-speed spelling."
+            }
+          }
+        ]
+      },
+      "rationale": "Resolve the saved pilot rejection with the exact separately authored and independently reread correction.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "locator": "sequence 1404975, senses 1-2",
+          "finding": "早い supports prompt/quick and early/soon; the early sense is restricted to 早い, while 速い is the usual physical-speed spelling.",
+          "version": "Cached gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5"
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "ambiguous-sense",
+          "example-change"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "pilot-shard-2-correction-author",
+        "lexical": "早い supports prompt/quick and early/soon; the early sense is restricted to 早い, while 速い is the usual physical-speed spelling.",
+        "meaning": "Checked JMdict 1404975: early sense restricted to 早い, prompt sense also supported; note uses a qualified distinction from 速い. Early rising and prompt replies are different uses with correct Japanese, romanization and German. Exact 早い terminal row supports 2.",
+        "register": "Neutral teaching use; spelling/register distinctions are documented in the note where required.",
+        "transitivity": "Adjective; verbal transitivity does not apply.",
+        "conjugation": "I-adjective; verb conjugation metadata does not apply.",
+        "level": "Existing N5 estimate retained.",
+        "japanese": "Checked JMdict 1404975: early sense restricted to 早い, prompt sense also supported; note uses a qualified distinction from 速い. Early rising and prompt replies are different uses with correct Japanese, romanization and German. Exact 早い terminal row supports 2.",
+        "romanization": "Checked JMdict 1404975: early sense restricted to 早い, prompt sense also supported; note uses a qualified distinction from 速い. Early rising and prompt replies are different uses with correct Japanese, romanization and German. Exact 早い terminal row supports 2.",
+        "translation": "Checked JMdict 1404975: early sense restricted to 早い, prompt sense also supported; note uses a qualified distinction from 速い. Early rising and prompt replies are different uses with correct Japanese, romanization and German. Exact 早い terminal row supports 2.",
+        "contexts": [
+          "Einen frühen Zeitpunkt angeben",
+          "Eine schnelle Reaktion beschreiben"
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact 早い/ハヤイ terminal form supports existing pitch 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217896971",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact 早い/ハヤイ terminal form supports existing pitch 2.",
+            "match": {
+              "word": "早い",
+              "reading": "はやい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "早い supports prompt/quick and early/soon; the early sense is restricted to 早い, while 速い is the usual physical-speed spelling."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-shard-2-correction-author",
+        "finding": "Authored exact corrections after the rejected pilot review: 早い supports prompt/quick and early/soon; the early sense is restricted to 早い, while 速い is the usual physical-speed spelling.",
+        "contentHash": "d5ca7f02bfa0c6e4b09bd1cdbe9529c6c3964856e0c400178f413f1ef2543f43",
+        "approvalHash": "eebc6b0402891ed2fb5a1595f0c4b2e2f2ae66e0dc06620db400184825ff1ba3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "root-independent-correction-review",
+        "finding": "Checked JMdict 1404975: early sense restricted to 早い, prompt sense also supported; note uses a qualified distinction from 速い. Early rising and prompt replies are different uses with correct Japanese, romanization and German. Exact 早い terminal row supports 2.",
+        "contentHash": "d5ca7f02bfa0c6e4b09bd1cdbe9529c6c3964856e0c400178f413f1ef2543f43",
+        "approvalHash": "eebc6b0402891ed2fb5a1595f0c4b2e2f2ae66e0dc06620db400184825ff1ba3"
+      }
+    },
+    {
+      "id": "vocab-n5:98",
+      "revisionId": "risk-pilot-final-vocab-n5-98",
+      "state": "accepted",
+      "predecessorHash": "552b0a9a0dac9114d10fc2da1d7a9db80e7f6327ce5bd6c875d0ed8fbc89e874",
+      "predecessorRevisionHash": "a11a52e4542ea68c1b9655c8a007c058eb7826995a670e7d2c67aadf04429952",
+      "originalHash": "552b0a9a0dac9114d10fc2da1d7a9db80e7f6327ce5bd6c875d0ed8fbc89e874",
+      "original": {
+        "examples": [
+          {
+            "japanese": "風邪に弱いです。",
+            "romaji": "Kaze ni yowai desu.",
+            "german": "Ich bin anfällig für Erkältungen."
+          },
+          {
+            "japanese": "このお茶は味が弱いです。",
+            "romaji": "Kono ocha wa aji ga yowai desu.",
+            "german": "Dieser Tee schmeckt schwach."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "風邪に弱いです。",
+            "romaji": "Kaze ni yowai desu.",
+            "german": "Ich bin anfällig für Erkältungen."
+          },
+          {
+            "japanese": "このチームは弱いです。",
+            "romaji": "Kono chiimu wa yowai desu.",
+            "german": "Diese Mannschaft ist schwach."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277194501",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact 弱い/ヨワイ terminal form supports existing pitch 2.",
+            "match": {
+              "word": "弱い",
+              "reading": "よわい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "弱い supports weak/frail and susceptibility uses; the replacement avoids the unnatural tea-flavor collocation."
+            }
+          }
+        ]
+      },
+      "rationale": "Resolve the saved pilot rejection with the exact separately authored and independently reread correction.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "locator": "sequence 1324520, sense 1",
+          "finding": "弱い supports weak/frail and susceptibility uses; the replacement avoids the unnatural tea-flavor collocation.",
+          "version": "Cached gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5"
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "pilot-shard-2-correction-author",
+        "lexical": "弱い supports weak/frail and susceptibility uses; the replacement avoids the unnatural tea-flavor collocation.",
+        "meaning": "Checked JMdict 1324520 weak/frail sense. The susceptibility example retains its intended reading and translation; weak team is a natural replacement for the tea collocation. Chiimu correctly represents チーム and Mannschaft renders チーム. Exact 弱い row supports 2.",
+        "register": "Neutral teaching use; spelling/register distinctions are documented in the note where required.",
+        "transitivity": "Adjective; verbal transitivity does not apply.",
+        "conjugation": "I-adjective; verb conjugation metadata does not apply.",
+        "level": "Existing N5 estimate retained.",
+        "japanese": "Checked JMdict 1324520 weak/frail sense. The susceptibility example retains its intended reading and translation; weak team is a natural replacement for the tea collocation. Chiimu correctly represents チーム and Mannschaft renders チーム. Exact 弱い row supports 2.",
+        "romanization": "Checked JMdict 1324520 weak/frail sense. The susceptibility example retains its intended reading and translation; weak team is a natural replacement for the tea collocation. Chiimu correctly represents チーム and Mannschaft renders チーム. Exact 弱い row supports 2.",
+        "translation": "Checked JMdict 1324520 weak/frail sense. The susceptibility example retains its intended reading and translation; weak team is a natural replacement for the tea collocation. Chiimu correctly represents チーム and Mannschaft renders チーム. Exact 弱い row supports 2.",
+        "contexts": [
+          "Anfälligkeit für Erkältungen ausdrücken",
+          "Die geringe Stärke oder Leistungsfähigkeit einer Mannschaft beschreiben"
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact 弱い/ヨワイ terminal form supports existing pitch 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277194501",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact 弱い/ヨワイ terminal form supports existing pitch 2.",
+            "match": {
+              "word": "弱い",
+              "reading": "よわい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "弱い supports weak/frail and susceptibility uses; the replacement avoids the unnatural tea-flavor collocation."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-shard-2-correction-author",
+        "finding": "Authored exact corrections after the rejected pilot review: 弱い supports weak/frail and susceptibility uses; the replacement avoids the unnatural tea-flavor collocation.",
+        "contentHash": "88a11bf3db79ca036c002a3dbdc790f87834b68abc40cd4fc606dd08d67fe4f2",
+        "approvalHash": "5f68df0ff09a48215c59540b66a4451a3996daea7dbb6f99fcd5f794ac5e95b7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "root-independent-correction-review",
+        "finding": "Checked JMdict 1324520 weak/frail sense. The susceptibility example retains its intended reading and translation; weak team is a natural replacement for the tea collocation. Chiimu correctly represents チーム and Mannschaft renders チーム. Exact 弱い row supports 2.",
+        "contentHash": "88a11bf3db79ca036c002a3dbdc790f87834b68abc40cd4fc606dd08d67fe4f2",
+        "approvalHash": "5f68df0ff09a48215c59540b66a4451a3996daea7dbb6f99fcd5f794ac5e95b7"
+      }
+    },
+    {
+      "id": "vocab-n5:86",
+      "revisionId": "risk-pilot-final-vocab-n5-86",
+      "state": "accepted",
+      "predecessorHash": "fbf7ef7e2e42f9912a16039424642a2f2ce95749552778351eb16523dc1c2f60",
+      "predecessorRevisionHash": "78e6806ba14f676885e42abda16bc6440e4c65665887b9a370a985bfb9f19015",
+      "originalHash": "fbf7ef7e2e42f9912a16039424642a2f2ce95749552778351eb16523dc1c2f60",
+      "original": {
+        "examples": [
+          {
+            "japanese": "空港は遠いです。",
+            "romaji": "Kuukou wa tooi desu.",
+            "german": "Der Flughafen ist weit."
+          },
+          {
+            "japanese": "病院は家から遠いです。",
+            "romaji": "Byouin wa ie kara tooi desu.",
+            "german": "Das Krankenhaus ist weit von zu Hause."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "空港は遠いです。",
+            "romaji": "Kuukou wa tooi desu.",
+            "german": "Der Flughafen ist weit entfernt."
+          },
+          {
+            "japanese": "病院は家から遠いです。",
+            "romaji": "Byouin wa ie kara tooi desu.",
+            "german": "Das Krankenhaus ist weit von zu Hause entfernt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183688124",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact 遠い/トオイ terminal form attests pitch 0; runtime pitch 2 is unsupported by this exact match.",
+            "match": {
+              "word": "遠い",
+              "reading": "とおい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "遠い supports far/distant in physical distance contexts."
+            }
+          }
+        ]
+      },
+      "rationale": "Resolve the saved pilot rejection with the exact separately authored and independently reread correction.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "locator": "sequence 1177800, sense 1",
+          "finding": "遠い supports far/distant in physical distance contexts.",
+          "version": "Cached gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5"
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "pilot-shard-2-correction-author",
+        "lexical": "遠い supports far/distant in physical distance contexts.",
+        "meaning": "Checked both distance sentences against JMdict 1177800 sense 1. Adding entfernt yields natural German without adding a new meaning; the relative distance from home remains explicit. Tooi is preserved and exact 遠い/トオイ terminal row supports pitch 0, correcting unsupported 2.",
+        "register": "Neutral teaching use; spelling/register distinctions are documented in the note where required.",
+        "transitivity": "Adjective; verbal transitivity does not apply.",
+        "conjugation": "I-adjective; verb conjugation metadata does not apply.",
+        "level": "Existing N5 estimate retained.",
+        "japanese": "Checked both distance sentences against JMdict 1177800 sense 1. Adding entfernt yields natural German without adding a new meaning; the relative distance from home remains explicit. Tooi is preserved and exact 遠い/トオイ terminal row supports pitch 0, correcting unsupported 2.",
+        "romanization": "Checked both distance sentences against JMdict 1177800 sense 1. Adding entfernt yields natural German without adding a new meaning; the relative distance from home remains explicit. Tooi is preserved and exact 遠い/トオイ terminal row supports pitch 0, correcting unsupported 2.",
+        "translation": "Checked both distance sentences against JMdict 1177800 sense 1. Adding entfernt yields natural German without adding a new meaning; the relative distance from home remains explicit. Tooi is preserved and exact 遠い/トオイ terminal row supports pitch 0, correcting unsupported 2.",
+        "contexts": [
+          "Die allgemein große Entfernung zu einem Flughafen beschreiben",
+          "Die Entfernung eines Krankenhauses vom eigenen Zuhause angeben"
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact 遠い/トオイ terminal form attests pitch 0; runtime pitch 2 is unsupported by this exact match.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183688124",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact 遠い/トオイ terminal form attests pitch 0; runtime pitch 2 is unsupported by this exact match.",
+            "match": {
+              "word": "遠い",
+              "reading": "とおい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "遠い supports far/distant in physical distance contexts."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-shard-2-correction-author",
+        "finding": "Authored exact corrections after the rejected pilot review: 遠い supports far/distant in physical distance contexts.",
+        "contentHash": "2641137e46edd7cced6dd5bfe338185fb7b0258b35824163920d1ec80e845549",
+        "approvalHash": "43298a2c828c1086753330291f70c5039b63e90b1f9bc9ee5129471d46340159"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "root-independent-correction-review",
+        "finding": "Checked both distance sentences against JMdict 1177800 sense 1. Adding entfernt yields natural German without adding a new meaning; the relative distance from home remains explicit. Tooi is preserved and exact 遠い/トオイ terminal row supports pitch 0, correcting unsupported 2.",
+        "contentHash": "2641137e46edd7cced6dd5bfe338185fb7b0258b35824163920d1ec80e845549",
+        "approvalHash": "43298a2c828c1086753330291f70c5039b63e90b1f9bc9ee5129471d46340159"
+      }
+    }
+  ]
+}

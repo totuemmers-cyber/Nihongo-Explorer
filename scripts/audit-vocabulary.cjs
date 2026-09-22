@@ -4,9 +4,13 @@ const crypto = require('crypto');
 const { read, key, levels, loadVocabulary } = require('./vocabulary-tools.cjs');
 const { authoredEntries, batch } = require('./import-vocabulary-additions.cjs');
 const review = JSON.parse(read('scripts/vocabulary-review.json'));
-const { items, sources } = loadVocabulary();
+// Historical assertions still describe the immutable historical runtime. The
+// correction importer separately validates every final field and surviving ID.
+const importer = require('./import-vocabulary-completion.cjs');
+const { items, sources } = loadVocabulary(importer.prepareLegacy().files);
 const additions = authoredEntries();
-const completion = require('./import-vocabulary-completion.cjs').prepare();
+const completion = importer.prepare();
+assert.equal(JSON.stringify(loadVocabulary().items),JSON.stringify(completion.items),'Committed corrections differ from validated authoring');
 const completionKeys = new Set(completion.additions.map(a => key(a.entry)));
 const expectedCounts = { ...review.baseline.counts };
 const index = new Map(items.map(v => [key(v), v]));
@@ -64,4 +68,4 @@ for (const k of ['一日|ついたち','一日|いちにち','白|しろ','城|�
 const counts = Object.fromEntries(levels.map(level => [level, items.filter(v => v.level === level).length]));
 for (const addition of completion.additions) expectedCounts[addition.entry.level]++;
 assert.deepStrictEqual(counts, expectedCounts, 'Unexpected entry loss or level movement');
-console.log(JSON.stringify({ additions: additions.length, examples: additions.reduce((n,v) => n + v.examples.length, 0), levelCorrections: review.levelCorrections.length, restoredEntries: review.restoredEntries.length, preservedSourcePrefixes: sources.length, counts, total: items.length }, null, 2));
+console.log(JSON.stringify({ additions: additions.length, examples: additions.reduce((n,v) => n + v.examples.length, 0), levelCorrections: review.levelCorrections.length, restoredEntries: review.restoredEntries.length, preservedSourcePrefixes: sources.length, historicalCounts:counts, counts:importer.report(completion).counts, total:completion.items.length }, null, 2));

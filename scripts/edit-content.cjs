@@ -67,7 +67,7 @@ let enriched=0;
 for(const row of tsv('vocabulary-enrichment.tsv')){
   const [level,word,japanese,romaji,german,notes]=row;
   if(row.length!==6)throw new Error('Invalid vocabulary row '+word);
-  const candidates=vocabByLevel[level].filter(v=>v.word===word);
+  const candidates=vocabByLevel[level].filter(v=>!v.correctionId && v.word===word);
   if(candidates.length!==1)throw new Error('Ambiguous vocabulary target '+level+': '+word);
   const v=candidates[0];
   if(!v.examples.some(ex=>ex.japanese===japanese))v.examples.push({kind:'natural',japanese,romaji,german});

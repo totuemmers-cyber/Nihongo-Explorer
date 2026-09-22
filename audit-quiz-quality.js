@@ -210,6 +210,24 @@ for (const word of ['四','七','九','一日']) {
 }
 ctx.app.sections.vocab.allItems = fullInventory;
 
+// Corrected readings/senses flow into the actual generators with the old IDs.
+const correctionPool = fullInventory.filter(v=>v.level==='N1').slice(0,16)
+  .concat(fullInventory.filter(v=>['vocab-n1:2987','vocab-n1:2461'].includes(v.id)));
+ctx.app.sections.vocab.allItems = correctionPool;
+const correctedSeen = new Set();
+for (const type of ['vocabReading','vocabMeaning']) for(let i=0;i<250;i++) {
+  const question=audit.generateQuestion(type,'N1');
+  if(!question) throw Error('Corrected vocabulary question could not be generated');
+  if(question.promptMain==='宥す' || question.promptMain==='宥める') {
+    const item=correctionPool.find(v=>v.word===question.promptMain);
+    const expected=type==='vocabReading'?item.reading:item.meaning;
+    if(question.choices[question.correctIndex]!==expected) throw Error('Old correction leaked into quiz');
+    correctedSeen.add(type+'/'+item.word);
+  }
+}
+if(correctedSeen.size!==4) throw Error('Corrected lexical fixtures not exercised');
+ctx.app.sections.vocab.allItems = fullInventory;
+
 // Deliberately collide a target's accepted variant with another form's canonical
 // answer. This must be filtered even though the strings differ from the target.
 const variantFixture = JSON.parse(JSON.stringify(fullInventory.find(v => v.word === '食べる')));

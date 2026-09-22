@@ -1,0 +1,3230 @@
+{
+  "version": 3,
+  "checkpoint": {
+    "size": 25,
+    "status": "critical-second-pass",
+    "note": "23 accepted; father translation and roe accent matching returned for correction."
+  },
+  "reviews": [
+    {
+      "id": "vocab-n1:2987",
+      "revisionId": "004-vocab-n1-2987",
+      "state": "accepted",
+      "predecessorHash": "0a4e550637195eebdc4674b8f55d899d9b8147cddde1cc913efbfd31668c3a0c",
+      "predecessorRevisionHash": "f72e1000965a9ad793900de8cdc82a9aa80802ec84f09c4f75fd2a61d163891e",
+      "originalHash": "0a4e550637195eebdc4674b8f55d899d9b8147cddde1cc913efbfd31668c3a0c",
+      "original": {},
+      "replacement": {},
+      "rationale": "The previous note used the negative potential 宥せない where the simple negative was intended. Godan -す forms its plain negative in -さない; repair only that note, preserving the separate 宥める entry.",
+      "evidence": [
+        {
+          "source": "漢字ペディア",
+          "version": "Accessed 2026-09-22",
+          "locator": "https://www.kanjipedia.jp/kotoba/0006860900",
+          "finding": "宥す has reading ゆるす and denotes forgiving a fault or mitigating a punishment; 宥める is a separate linked headword."
+        }
+      ],
+      "review": {
+        "reviewer": "Codex, 2026-09-22",
+        "lexical": "宥す/ゆるす: forgiving or pardoning, not calming someone.",
+        "meaning": "宥す/ゆるす: forgiving or pardoning, not calming someone.",
+        "register": "Rare/literary spelling; everyday 許す distinguished from 宥める.",
+        "transitivity": "Transitive: the affected person, thing or received stimulus takes を.",
+        "conjugation": "Godan -す: ゆるします, ゆるして, ゆるさない.",
+        "level": "Existing estimate retained; no stronger contrary level evidence established in this review.",
+        "japanese": "Read every retained and new sentence against its stated situation; particles and inflections checked.",
+        "romanization": "Checked headword and each sentence against its Japanese reading; repaired mismatched readings where present.",
+        "translation": "Compared all German translations to their complete Japanese sentences.",
+        "contexts": [
+          "Forgiving a friend’s personal mistake.",
+          "A ruler pardons a convicted person and releases them."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana; dictionary form/POS and lexical meaning checked against the cited entry. Multiple aType values retained as alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@272368768",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "宥す / ユルス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 許す; aType 2.",
+            "match": {
+              "word": "宥す",
+              "reading": "ゆるす",
+              "grammaticalForm": "終止形-一般",
+              "sense": "宥す/ゆるす: forgiving or pardoning, not calming someone."
+            }
+          }
+        ]
+      },
+      "priority": "confirmed-error",
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Re-read both forgiveness/pardon examples and the cited exact UniDic godan -サ行 form. The plain negative in the note is now 宥さない, agreeing with runtime conjugation; 宥せない would negate the potential. 宥める remains untouched.",
+        "contentHash": "0a4e550637195eebdc4674b8f55d899d9b8147cddde1cc913efbfd31668c3a0c",
+        "approvalHash": "0a7ba03186904c411a6c1a168dd7d1ca550e299c403ba72cbe5a080cf2bd2e6f"
+      }
+    },
+    {
+      "id": "vocab-n5:1",
+      "revisionId": "004-vocab-n5-1",
+      "state": "accepted",
+      "predecessorHash": "44fdda55e1a08eb3af1ae5d28ba95f5d31fbb6b18fe8cbbd9b81e4234f997d48",
+      "predecessorRevisionHash": "7e08405c21f0e57cbafaa74e28572e187e50bbb9c88ec99d89659fa584b108c1",
+      "originalHash": "44fdda55e1a08eb3af1ae5d28ba95f5d31fbb6b18fe8cbbd9b81e4234f997d48",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1580640",
+          "finding": "人/ひと: Ordinary human/person senses 1–2; suffix readings じん and にん are separate lexical work.",
+          "matchedEntry": {
+            "sequence": "1580640",
+            "spelling": "人",
+            "reading": "ひと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "person",
+                  "someone",
+                  "somebody"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "human beings",
+                  "mankind",
+                  "man",
+                  "people",
+                  "humans"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "human (Homo sapiens)"
+                ],
+                "notes": [
+                  "usu. ヒト"
+                ]
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "(other) people",
+                  "others"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "character",
+                  "personality",
+                  "nature"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "capable person",
+                  "competent person",
+                  "suitable person",
+                  "right person"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 7,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "adult",
+                  "grown-up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 8,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "I",
+                  "me",
+                  "one"
+                ],
+                "notes": [
+                  "used when rebuking or criticizing someone"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Ordinary human/person senses 1–2; suffix readings じん and にん are separate lexical work.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Person, Mensch",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 2 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Identifying an unfamiliar person.",
+          "Describing a crowd in a shop."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@226591436",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "人; ヒト; 名詞/普通名詞/一般/*; *; *; lemma 人; aType 0",
+            "match": {
+              "word": "人",
+              "reading": "ひと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Ordinary human/person senses 1–2; suffix readings じん and にん are separate lexical work."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Checked human/person senses against JMdict 1580640 and exact UniDic 人/ヒト noun accent 0. Identifying one person and describing a shop crowd are distinct; preserved the irregular human-counter warning without treating suffixes as this reading.",
+        "contentHash": "44fdda55e1a08eb3af1ae5d28ba95f5d31fbb6b18fe8cbbd9b81e4234f997d48",
+        "approvalHash": "e399f48c7d6d45813dbe5dfd6b4b0ed7b2a295e82f38426cfa8fde0f458b9cbb"
+      }
+    },
+    {
+      "id": "vocab-n5:2",
+      "revisionId": "004-vocab-n5-2",
+      "state": "accepted",
+      "predecessorHash": "d6e8675071a3d4b291169ed9760d103e8314ebc6af23ca88ddf995985d3d1608",
+      "predecessorRevisionHash": "c96d5dc458ba786185f48df6b7d0e978516c6c2200387fb1e5821b448e9089f8",
+      "originalHash": "d6e8675071a3d4b291169ed9760d103e8314ebc6af23ca88ddf995985d3d1608",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1419990",
+          "finding": "男/おとこ: Adult male and 男の子 compound distinguished; bare 男 can be direct, with 男の人 a neutral interpersonal form.",
+          "matchedEntry": {
+            "sequence": "1419990",
+            "spelling": "男",
+            "reading": "おとこ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a prefix"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "man",
+                  "male"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "fellow",
+                  "guy",
+                  "chap",
+                  "bloke"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "male lover",
+                  "boyfriend",
+                  "man"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "manliness",
+                  "manly honor",
+                  "manly honour",
+                  "manly reputation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Adult male and 男の子 compound distinguished; bare 男 can be direct, with 男の人 a neutral interpersonal form.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Mann",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 2 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Identifying an adult man by occupation.",
+          "Observing a boy running."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@79822567",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "男; オトコ; 名詞/普通名詞/一般/*; *; *; lemma 男; aType 3",
+            "match": {
+              "word": "男",
+              "reading": "おとこ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Adult male and 男の子 compound distinguished; bare 男 can be direct, with 男の人 a neutral interpersonal form."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Checked adult male versus 男の子 and all particles/romanization. Both sentences suit their adult-identification and child-action contexts. Exact 男/オトコ common-noun accent is 3; the register note does not claim 男 is always rude.",
+        "contentHash": "d6e8675071a3d4b291169ed9760d103e8314ebc6af23ca88ddf995985d3d1608",
+        "approvalHash": "e07d76acf60d6ba1fbf5c42aebd0fcc100cf3315afc97dd2a43c1dba0fa19cfc"
+      }
+    },
+    {
+      "id": "vocab-n5:3",
+      "revisionId": "004-vocab-n5-3",
+      "state": "accepted",
+      "predecessorHash": "76600d4bc1c972e90cbfeee4504a80ce3a667ae6df380341ca36e72b822d905f",
+      "predecessorRevisionHash": "6a16a8d0cd9c9fe11bd8f25efa99e35373ed47cee31a306f5533311e25694fa2",
+      "originalHash": "76600d4bc1c972e90cbfeee4504a80ce3a667ae6df380341ca36e72b822d905f",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1344930",
+          "finding": "女/おんな: Female person sense; the less-polite label for bare 女 agrees with JMdict; 女の子 is a child, not a different reading.",
+          "matchedEntry": {
+            "sequence": "1344930",
+            "spelling": "女",
+            "reading": "おんな",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a prefix"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "woman",
+                  "female"
+                ],
+                "notes": [
+                  "less polite than 女性 or 女の人"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "female lover",
+                  "girlfriend",
+                  "mistress",
+                  "(someone's) woman"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Female person sense; the less-polite label for bare 女 agrees with JMdict; 女の子 is a child, not a different reading.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Frau",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 2 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Identifying an adult woman by occupation.",
+          "Observing a girl singing."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85231726",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "女; オンナ; 名詞/普通名詞/一般/*; *; *; lemma 女; aType 3",
+            "match": {
+              "word": "女",
+              "reading": "おんな",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Female person sense; the less-polite label for bare 女 agrees with JMdict; 女の子 is a child, not a different reading."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "JMdict explicitly marks 女 as less polite than 女性/女の人. The doctor and singing-girl examples correctly use adult versus child expressions; exact オンナ noun row gives 3, not a borrowed accent from 女性.",
+        "contentHash": "76600d4bc1c972e90cbfeee4504a80ce3a667ae6df380341ca36e72b822d905f",
+        "approvalHash": "cbe900b471ced3d439f7f490cdb619ebdfa55b101d63b049dc63d94f028b5407"
+      }
+    },
+    {
+      "id": "vocab-n5:4",
+      "revisionId": "004-vocab-n5-4",
+      "state": "accepted",
+      "predecessorHash": "e4ddd071fa5b1497e9cdb3d8d2b9ee80d905a2f188a88909e928bb8f4523a751",
+      "predecessorRevisionHash": "057dcd13f80191e04477dd15933db96829e6fa1b62e9f0ffb497aac39a8b50d9",
+      "originalHash": "e4ddd071fa5b1497e9cdb3d8d2b9ee80d905a2f188a88909e928bb8f4523a751",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1307850",
+          "finding": "子供/こども: Count-neutral child noun; the family example now explicitly expresses possession, rather than ambiguous presence.",
+          "matchedEntry": {
+            "sequence": "1307850",
+            "spelling": "子供",
+            "reading": "こども",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "child",
+                  "children"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Count-neutral child noun; the family example now explicitly expresses possession, rather than ambiguous presence.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Kind",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 2 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "A child playing outdoors.",
+          "A speaker describing how many children they have."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123698227",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "子供; コドモ; 名詞/普通名詞/一般/*; *; *; lemma 子供; aType 0",
+            "match": {
+              "word": "子供",
+              "reading": "こども",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Count-neutral child noun; the family example now explicitly expresses possession, rather than ambiguous presence."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "The revised 私には…がいます sentence makes the intended parental possession clear and keeps the 三人 reading sannin. Outdoor play and having children are different uses; all note claims concern the child noun, exact accent 0.",
+        "contentHash": "e4ddd071fa5b1497e9cdb3d8d2b9ee80d905a2f188a88909e928bb8f4523a751",
+        "approvalHash": "d648822564169581e91fe3441a3be7031d04d9b3a5e1d82f59fbea6e1cdb27e7"
+      }
+    },
+    {
+      "id": "vocab-n5:5",
+      "revisionId": "004-vocab-n5-5",
+      "state": "accepted",
+      "predecessorHash": "cd3e93ea11b43fb650a8875ba1bbc325785e46fde9710b7d71b6e9f06a316bc1",
+      "predecessorRevisionHash": "a135a48677e632997a69ec4641971d3fb84c6333b502746c7342e79648f9d0bb",
+      "originalHash": "cd3e93ea11b43fb650a8875ba1bbc325785e46fde9710b7d71b6e9f06a316bc1",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1540170",
+          "finding": "友達/ともだち: Platonic friend; と marks the companion and に the recipient.",
+          "matchedEntry": {
+            "sequence": "1540170",
+            "spelling": "友達",
+            "reading": "ともだち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "friend",
+                  "companion"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Platonic friend; と marks the companion and に the recipient.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Freund",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 2 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Shared leisure with a friend.",
+          "Writing a letter to a friend."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@188232443",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "友達; トモダチ; 名詞/普通名詞/一般/*; *; *; lemma 友達; aType 0",
+            "match": {
+              "word": "友達",
+              "reading": "ともだち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Platonic friend; と marks the companion and に the recipient."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Rechecked the companion と and letter-recipient に, and both past-tense translations. No romantic relationship is implied by 友達 alone; exact common noun ともだち has accent 0.",
+        "contentHash": "cd3e93ea11b43fb650a8875ba1bbc325785e46fde9710b7d71b6e9f06a316bc1",
+        "approvalHash": "ca4da6e2d4f9809ec17ed7ba61c84aafe761d432680183d36033535b37f95ca0"
+      }
+    },
+    {
+      "id": "vocab-n5:6",
+      "revisionId": "004-vocab-n5-6",
+      "state": "accepted",
+      "predecessorHash": "fabb9a9015935cdd489aafe2be4622fac97514eb849da738ece7b5b6dcbe2ba0",
+      "predecessorRevisionHash": "77242cf24745e611a752919ec325aa8b7bdbc0b0eba8115eadf363cda85637bf",
+      "originalHash": "fabb9a9015935cdd489aafe2be4622fac97514eb849da738ece7b5b6dcbe2ba0",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1387990",
+          "finding": "先生/せんせい: Teacher plus respectful professional address; self-description 教師 distinguished from the title 先生.",
+          "matchedEntry": {
+            "sequence": "1387990",
+            "spelling": "先生",
+            "reading": "せんせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "teacher",
+                  "instructor",
+                  "master"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "sensei",
+                  "title or form of address for a teacher, master, doctor, lawyer, etc."
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "familiar language",
+                  "jocular, humorous term"
+                ],
+                "gloss": [
+                  "intimate or teasing form of address"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "archaic"
+                ],
+                "gloss": [
+                  "one's elder"
+                ],
+                "notes": [
+                  "orig. meaning"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Teacher plus respectful professional address; self-description 教師 distinguished from the title 先生.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Lehrer; respektvolle Anrede für Lehrkräfte, Ärzte u. a.",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Describing a teacher’s character.",
+          "Asking a teacher a question.",
+          "Addressing a doctor during a consultation."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154475969",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "先生; センセイ; 名詞/普通名詞/一般/*; *; *; lemma 先生; aType 3",
+            "match": {
+              "word": "先生",
+              "reading": "せんせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Teacher plus respectful professional address; self-description 教師 distinguished from the title 先生."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "The new medical address demonstrates JMdict respectful-title sense 2 instead of merely adding a third classroom sentence. のどが痛い and the German complaint align; 先生’s standalone accent 3 is not an accent prediction for the full sentence.",
+        "contentHash": "fabb9a9015935cdd489aafe2be4622fac97514eb849da738ece7b5b6dcbe2ba0",
+        "approvalHash": "75ecb9abd712e9392042ae4d3deb75b943081045a015b3315339d5c2ed0f23a6"
+      }
+    },
+    {
+      "id": "vocab-n5:7",
+      "revisionId": "004-vocab-n5-7",
+      "state": "accepted",
+      "predecessorHash": "8f461a4911ae50120e6b988ca27251a8bf824be55657f6e7dece1ab8782286c5",
+      "predecessorRevisionHash": "08ad7657a1f357259c9640c8643411c364d9771328a1584fe569be06bdeeb01c",
+      "originalHash": "8f461a4911ae50120e6b988ca27251a8bf824be55657f6e7dece1ab8782286c5",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1206900",
+          "finding": "学生/がくせい: University-student focus; broader student use does not mean every child is normally called 学生.",
+          "matchedEntry": {
+            "sequence": "1206900",
+            "spelling": "学生",
+            "reading": "がくせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "student (esp. a university student)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "University-student focus; broader student use does not mean every child is normally called 学生.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Student",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Identifying oneself as a university student.",
+          "Describing the presence of many students.",
+          "Asking about eligibility for a student discount."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101275744",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "学生; ガクセイ; 名詞/普通名詞/一般/*; *; *; lemma 学生; aType 0",
+            "match": {
+              "word": "学生",
+              "reading": "がくせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "University-student focus; broader student use does not mean every child is normally called 学生."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "The university qualification matches JMdict. In the added ticket question 買えます is potential kaemasu, correctly translated können kaufen; the student-discount context is distinct from identification/presence. Exact noun accent 0.",
+        "contentHash": "8f461a4911ae50120e6b988ca27251a8bf824be55657f6e7dece1ab8782286c5",
+        "approvalHash": "2b93382e134e67733b630764d52b16c1379a6e874bc6ceab3fdb96aef7eddfd5"
+      }
+    },
+    {
+      "id": "vocab-n5:8",
+      "revisionId": "004-vocab-n5-8",
+      "state": "accepted",
+      "predecessorHash": "24d0736cf9c602376d26ca88b573ec2fe198e1575d8214ecd9c8469cba9de6dd",
+      "predecessorRevisionHash": "5d259f2a4684cfaee8d8fbb5ea366d11ed7d2ab0fcbe331379b9abbcfe7b6325",
+      "originalHash": "24d0736cf9c602376d26ca88b573ec2fe198e1575d8214ecd9c8469cba9de6dd",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1192150",
+          "finding": "家族/かぞく: Family members as a collective; not the building 家.",
+          "matchedEntry": {
+            "sequence": "1192150",
+            "spelling": "家族",
+            "reading": "かぞく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "family"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Family members as a collective; not the building 家.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Familie",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 2 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Stating the size of one’s household.",
+          "Planning a family trip."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@94066511",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "家族; カゾク; 名詞/普通名詞/一般/*; *; *; lemma 家族; aType 1",
+            "match": {
+              "word": "家族",
+              "reading": "かぞく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Family members as a collective; not the building 家."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Rechecked 四人 yonin and group-participant で against both sentences. The note concerns the family as people, not a house; family-size reporting and a joint journey are distinct. Exact カゾク noun accent 1.",
+        "contentHash": "24d0736cf9c602376d26ca88b573ec2fe198e1575d8214ecd9c8469cba9de6dd",
+        "approvalHash": "950faa590823fc28fe720d2829c77ce26fe103ca798326537b71192c1fcf8594"
+      }
+    },
+    {
+      "id": "vocab-n5:10",
+      "revisionId": "004-vocab-n5-10",
+      "state": "accepted",
+      "predecessorHash": "a3d676fe9983217558b816de5dcf37d6996380fc121299f85d14641ee0250424",
+      "predecessorRevisionHash": "0c794acac9c755c3d71f6ef43fa069f85e5044c5e226f73b76e91f6eceda8552",
+      "originalHash": "a3d676fe9983217558b816de5dcf37d6996380fc121299f85d14641ee0250424",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1002650",
+          "finding": "お母さん/おかあさん: Mother sense 1; the examples explicitly use intimate family context, not formal self-introduction.",
+          "matchedEntry": {
+            "sequence": "1002650",
+            "spelling": "お母さん",
+            "reading": "おかあさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "mother",
+                  "mom",
+                  "mum",
+                  "ma"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "wife"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "pronoun"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "familiar language"
+                ],
+                "gloss": [
+                  "you (of an elderly person older than the speaker)",
+                  "she",
+                  "her"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "文化庁 敬語おもしろ相談室 第七話",
+          "version": "Accessed 2026-09-22",
+          "locator": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter7/detail.html",
+          "finding": "Distinguishes respectful family address from referring to own family as an in-group to outsiders; ordinary intimate conversation allows the familiar forms."
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Mother sense 1; the examples explicitly use intimate family context, not formal self-introduction.",
+        "meaning": "German sense scope checked against the selected JMdict senses: Mutter",
+        "register": "Family address and intimate reference are explicitly distinguished from formal out-group reference.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Praising one’s mother’s cooking in a familiar conversation.",
+          "Planning a phone call to one’s mother.",
+          "Directly addressing one’s mother before leaving."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "No exact full-word UniDic match; the Japan Foundation prints the complete title and its second-mora downstep, so no component-accent inference is used.",
+        "evidence": [
+          {
+            "source": "The Japan Foundation, Irodori 初級1 ことばリスト (Nepali edition)",
+            "version": "2021-10-01; accessed 2026-09-22",
+            "locator": "https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_Y.pdf#page=55",
+            "attribution": "© The Japan Foundation",
+            "patterns": [
+              2
+            ],
+            "finding": "お母さん appears with a downstep after the second mora; printed L17-4 / PDF page 55. Accent notation is defined on PDF page 2. No exact UniDic 2025.12 row exists for the full title; the complete-word source resolves that gap.",
+            "match": {
+              "word": "お母さん",
+              "reading": "おかあさん",
+              "grammaticalForm": "uninflected family noun with honorific prefix and suffix",
+              "sense": "Mother sense 1; the examples explicitly use intimate family context, not formal self-introduction."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Rechecked family register against the Agency for Cultural Affairs: familiar reference and formal own-family 母 must be distinguished. The added 行ってきます farewell differs from cooking ability and a telephone call. Full-title Japan Foundation downstep follows か, giving 2.",
+        "contentHash": "a3d676fe9983217558b816de5dcf37d6996380fc121299f85d14641ee0250424",
+        "approvalHash": "3720bfebea52e91c40cf0770b08e863d8c6f620836fe61982711cc73813d566a"
+      }
+    },
+    {
+      "id": "vocab-n5:11",
+      "revisionId": "004-vocab-n5-11",
+      "state": "accepted",
+      "predecessorHash": "88f26dc22466fb4c94d52910431d0de3ea0e4b65a95d9531e6cd2b369037043c",
+      "predecessorRevisionHash": "08e979fc572e12f0ee8d35e827b43312b196759e726966cf7b505e1f7751eb51",
+      "originalHash": "88f26dc22466fb4c94d52910431d0de3ea0e4b65a95d9531e6cd2b369037043c",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1001830",
+          "finding": "お兄さん/おにいさん: Older brother sense; the familiar young-man address is separate from the intended sibling use.",
+          "matchedEntry": {
+            "sequence": "1001830",
+            "spelling": "お兄さん",
+            "reading": "おにいさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "older brother",
+                  "elder brother"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "familiar language"
+                ],
+                "gloss": [
+                  "young man",
+                  "buddy",
+                  "fella",
+                  "laddie"
+                ],
+                "notes": [
+                  "oft. vocative"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "文化庁 敬語おもしろ相談室 第七話",
+          "version": "Accessed 2026-09-22",
+          "locator": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter7/detail.html",
+          "finding": "Distinguishes respectful family address from referring to own family as an in-group to outsiders; ordinary intimate conversation allows the familiar forms."
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Older brother sense; the familiar young-man address is separate from the intended sibling use.",
+        "meaning": "German sense scope checked against the selected JMdict senses: älterer Bruder",
+        "register": "Family address and intimate reference are explicitly distinguished from formal out-group reference.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Describing an older brother’s university studies in family conversation.",
+          "Describing that brother’s height in a familiar setting.",
+          "Addressing an older brother to request help."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "No exact full-word UniDic match; the Japan Foundation prints the complete title and its second-mora downstep, so no component-accent inference is used.",
+        "evidence": [
+          {
+            "source": "The Japan Foundation, Irodori 初級1 ことばリスト (Nepali edition)",
+            "version": "2021-10-01; accessed 2026-09-22",
+            "locator": "https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_Y.pdf#page=55",
+            "attribution": "© The Japan Foundation",
+            "patterns": [
+              2
+            ],
+            "finding": "お兄さん appears with a downstep after the second mora; printed L17-4 / PDF page 55. Accent notation is defined on PDF page 2. No exact UniDic 2025.12 row exists for the full title; the complete-word source resolves that gap.",
+            "match": {
+              "word": "お兄さん",
+              "reading": "おにいさん",
+              "grammaticalForm": "uninflected family noun with honorific prefix and suffix",
+              "sense": "Older brother sense; the familiar young-man address is separate from the intended sibling use."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Rechecked older, not younger, sibling reference and familiar vocative. お兄さん、この問題を教えて is a request for help with a task; German is idiomatic rather than a literal ask to name the problem. Full-title source prints おに↓いさん, accent 2.",
+        "contentHash": "88f26dc22466fb4c94d52910431d0de3ea0e4b65a95d9531e6cd2b369037043c",
+        "approvalHash": "78a885e72111510c6f6edf0e39571c06695e3509923ec7c52efcd1c69ef87a92"
+      }
+    },
+    {
+      "id": "vocab-n5:12",
+      "revisionId": "004-vocab-n5-12",
+      "state": "accepted",
+      "predecessorHash": "c9e80f9491986ce489a8a404d15906462667d769b1d5425680a3d7f155d6f5ba",
+      "predecessorRevisionHash": "f8f279b1623693c9c511b20a5821bee269098ff97b6a34f12edd8fef518b76c1",
+      "originalHash": "c9e80f9491986ce489a8a404d15906462667d769b1d5425680a3d7f155d6f5ba",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1001990",
+          "finding": "お姉さん/おねえさん: Older sister sense 1; no conflation with older-woman address or service occupations.",
+          "matchedEntry": {
+            "sequence": "1001990",
+            "spelling": "お姉さん",
+            "reading": "おねえさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "older sister",
+                  "elder sister"
+                ],
+                "notes": [
+                  "usu. お姉さん"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "young lady"
+                ],
+                "notes": [
+                  "vocative"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "miss"
+                ],
+                "notes": [
+                  "referring to a waitress, etc.; usu. お姐さん"
+                ]
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "ma'am"
+                ],
+                "notes": [
+                  "used by geisha to refer to their superiors; usu. お姐さん"
+                ]
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "older girl"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "文化庁 敬語おもしろ相談室 第七話",
+          "version": "Accessed 2026-09-22",
+          "locator": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter7/detail.html",
+          "finding": "Distinguishes respectful family address from referring to own family as an in-group to outsiders; ordinary intimate conversation allows the familiar forms."
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Older sister sense 1; no conflation with older-woman address or service occupations.",
+        "meaning": "German sense scope checked against the selected JMdict senses: ältere Schwester",
+        "register": "Family address and intimate reference are explicitly distinguished from formal out-group reference.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Saying where an older sister lives in family conversation.",
+          "Reporting her change of profession in a familiar setting.",
+          "Directly inviting an older sister to look at something."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "No exact full-word UniDic match; the Japan Foundation prints the complete title and its second-mora downstep, so no component-accent inference is used.",
+        "evidence": [
+          {
+            "source": "The Japan Foundation, Irodori 初級1 ことばリスト (Nepali edition)",
+            "version": "2021-10-01; accessed 2026-09-22",
+            "locator": "https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_Y.pdf#page=55",
+            "attribution": "© The Japan Foundation",
+            "patterns": [
+              2
+            ],
+            "finding": "お姉さん appears with a downstep after the second mora; printed L17-4 / PDF page 55. Accent notation is defined on PDF page 2. No exact UniDic 2025.12 row exists for the full title; the complete-word source resolves that gap.",
+            "match": {
+              "word": "お姉さん",
+              "reading": "おねえさん",
+              "grammaticalForm": "uninflected family noun with honorific prefix and suffix",
+              "sense": "Older sister sense 1; no conflation with older-woman address or service occupations."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "The original residence and became-a-teacher examples retain their different factual contexts; direct address adds a pragmatic use. Formal own-family 姉 is clearly distinguished. The source’s おね↓えさん matches the complete title, accent 2.",
+        "contentHash": "c9e80f9491986ce489a8a404d15906462667d769b1d5425680a3d7f155d6f5ba",
+        "approvalHash": "ffc750205641f7c7034e6aa359c5e4d0fa36ac28663c85fbe96d785e61cd026e"
+      }
+    },
+    {
+      "id": "vocab-n5:13",
+      "revisionId": "004-vocab-n5-13",
+      "state": "accepted",
+      "predecessorHash": "2898ddbe400ec074bf0d21d864ea62d7cf8af4a91555c26380c896444afe0a6b",
+      "predecessorRevisionHash": "4fc764a748bf71cefbdeb15d4ff78c4169768489fa2a25b7c10e9dfbc2694901",
+      "originalHash": "2898ddbe400ec074bf0d21d864ea62d7cf8af4a91555c26380c896444afe0a6b",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1581930",
+          "finding": "弟/おとうと: Younger brother in both examples; the in-law extension is not needed for their interpretation.",
+          "matchedEntry": {
+            "sequence": "1581930",
+            "spelling": "弟",
+            "reading": "おとうと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "younger brother",
+                  "little brother",
+                  "kid brother"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [
+                  "おとうと"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brother-in-law (spouse's younger brother or younger sister's husband)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "文化庁 敬語おもしろ相談室 第七話",
+          "version": "Accessed 2026-09-22",
+          "locator": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter7/detail.html",
+          "finding": "Distinguishes respectful family address from referring to own family as an in-group to outsiders; ordinary intimate conversation allows the familiar forms."
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Younger brother in both examples; the in-law extension is not needed for their interpretation.",
+        "meaning": "German sense scope checked against the selected JMdict senses: jüngerer Bruder",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 2 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Stating a younger brother’s age.",
+          "Playing football together with a younger brother."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@79808821",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "弟; オトウト; 名詞/普通名詞/一般/*; *; *; lemma 弟; aType 4",
+            "match": {
+              "word": "弟",
+              "reading": "おとうと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Younger brother in both examples; the in-law extension is not needed for their interpretation."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Younger is relative to the sibling relationship; no absolute-child restriction. 十歳 jussai is an accepted reading; サッカー sakkaa preserves the existing vowel convention. Age description and joint football differ; exact common-noun pitch 4.",
+        "contentHash": "2898ddbe400ec074bf0d21d864ea62d7cf8af4a91555c26380c896444afe0a6b",
+        "approvalHash": "36359c19c17c3b2d7263c6e69ddbe72ae5a6f18b896d8f31bd6f96e41a03671b"
+      }
+    },
+    {
+      "id": "vocab-n5:14",
+      "revisionId": "004-vocab-n5-14",
+      "state": "accepted",
+      "predecessorHash": "912c0fcc6a5100d5c5bda91a628e3b40f3800631ab0e7eb2f60ed427d772bc2b",
+      "predecessorRevisionHash": "16a23cbfd43f73341de0d38cf3d995ba0259a8d7f138418e3dfbe88a36515aeb",
+      "originalHash": "912c0fcc6a5100d5c5bda91a628e3b40f3800631ab0e7eb2f60ed427d772bc2b",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1524590",
+          "finding": "妹/いもうと: Younger sister, not a polite form of older sister; a joint activity adds a use beyond personal description.",
+          "matchedEntry": {
+            "sequence": "1524590",
+            "spelling": "妹",
+            "reading": "いもうと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "younger sister"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "文化庁 敬語おもしろ相談室 第七話",
+          "version": "Accessed 2026-09-22",
+          "locator": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter7/detail.html",
+          "finding": "Distinguishes respectful family address from referring to own family as an in-group to outsiders; ordinary intimate conversation allows the familiar forms."
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Younger sister, not a polite form of older sister; a joint activity adds a use beyond personal description.",
+        "meaning": "German sense scope checked against the selected JMdict senses: jüngere Schwester",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Noun; transitivity does not apply.",
+        "conjugation": "Noun; no verb conjugation metadata applies.",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Stating a younger sister’s school status.",
+          "Describing her singing ability.",
+          "Planning a shared cinema visit with her."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@57761467",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "妹; イモウト; 名詞/普通名詞/一般/*; *; *; lemma 妹; aType 4",
+            "match": {
+              "word": "妹",
+              "reading": "いもうと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Younger sister, not a polite form of older sister; a joint activity adds a use beyond personal description."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Preserved both accurate descriptive examples and verified the new future cinema outing and 見に行く construction. This adds joint action beyond school/ability statements. Exact イモウト common noun gives accent 4.",
+        "contentHash": "912c0fcc6a5100d5c5bda91a628e3b40f3800631ab0e7eb2f60ed427d772bc2b",
+        "approvalHash": "3cdfeef1413563987a41fb3740a25e1eaea1de121397551a4fe907c31b11da92"
+      }
+    },
+    {
+      "id": "vocab-n5:15",
+      "revisionId": "004-vocab-n5-15",
+      "state": "accepted",
+      "predecessorHash": "7c596107e90e809c2ce4989440ac4b07b1a8158a82b9286cdafbb40ecdac39d8",
+      "predecessorRevisionHash": "e093ff34b5583ff15a0b63cb504a3646ba2a1ce815e95595b71c40d7074cf40b",
+      "originalHash": "7c596107e90e809c2ce4989440ac4b07b1a8158a82b9286cdafbb40ecdac39d8",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1358280",
+          "finding": "食べる/たべる: Eating sense 1; both retained sentences are natural and preserve the meal versus desire distinction.",
+          "matchedEntry": {
+            "sequence": "1358280",
+            "spelling": "食べる",
+            "reading": "たべる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to eat"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to live on (e.g. a salary)",
+                  "to live off",
+                  "to subsist on"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Eating sense 1; both retained sentences are natural and preserve the meal versus desire distinction.",
+        "meaning": "German sense scope checked against the selected JMdict senses: essen",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Transitive; を introduces the content or object, with other participants described in the note.",
+        "conjugation": "{\"verbGroup\":\"ichidan\",\"conjugationReading\":\"たべる\",\"conjugationKind\":\"verb\",\"conjugationVariants\":{\"imperative\":[\"たべよ\"]}}",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 2 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Describing breakfast as a daily meal.",
+          "Expressing a wish to eat sushi."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@165337265",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "食べる; タベル; 動詞/一般/*/*; 下一段-バ行; 終止形-一般; lemma 食べる; aType 2",
+            "match": {
+              "word": "食べる",
+              "reading": "たべる",
+              "grammaticalForm": "終止形-一般",
+              "sense": "Eating sense 1; both retained sentences are natural and preserve the meal versus desire distinction."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Checked ichidan metadata, the retained literary imperative variant たべよ, and regular polite/te/negative forms. Breakfast assertion and sushi desire have different communicative uses. The exact terminal-form UniDic row gives accent 2.",
+        "contentHash": "7c596107e90e809c2ce4989440ac4b07b1a8158a82b9286cdafbb40ecdac39d8",
+        "approvalHash": "4fc5fbd9754510119b3882abfa1791de8b7682ed01dc430d3591dedbeb991b89"
+      }
+    },
+    {
+      "id": "vocab-n5:16",
+      "revisionId": "004-vocab-n5-16",
+      "state": "accepted",
+      "predecessorHash": "6881984718edd2fa838e1b9d640f80575b746b50115cd4aa95c52e47214b3ffd",
+      "predecessorRevisionHash": "5fc9fa5f23473048c4fae9bc2adc9d105031946952d750b58335f0f3495cd691",
+      "originalHash": "6881984718edd2fa838e1b9d640f80575b746b50115cd4aa95c52e47214b3ffd",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1169870",
+          "finding": "飲む/のむ: Literal drinking and taking medicine are within JMdict sense 1; the invitation is correctly translated positively.",
+          "matchedEntry": {
+            "sequence": "1169870",
+            "spelling": "飲む",
+            "reading": "のむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to drink",
+                  "to swallow",
+                  "to take (medicine)"
+                ],
+                "notes": [
+                  "呑む refers to swallowing whole or gulping down"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to smoke (tobacco)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to swallow up",
+                  "to engulf"
+                ],
+                "notes": [
+                  "usu. in the passive"
+                ]
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to suppress (one's anger, bitter feelings, etc.)",
+                  "to keep down",
+                  "to hold back",
+                  "to swallow (one's tears)",
+                  "to catch (one's breath)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to accept (a demand, conditions, etc.)",
+                  "to agree to"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to make light of (someone)",
+                  "to think nothing of",
+                  "to overwhelm",
+                  "to overawe"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 7,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to carry (a concealed dagger, etc.)",
+                  "to conceal (up one's sleeve, etc.)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Literal drinking and taking medicine are within JMdict sense 1; the invitation is correctly translated positively.",
+        "meaning": "German sense scope checked against the selected JMdict senses: trinken; (Medikamente) einnehmen",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Transitive; を introduces the content or object, with other participants described in the note.",
+        "conjugation": "{\"verbGroup\":\"godan\",\"conjugationReading\":\"のむ\",\"conjugationKind\":\"verb\",\"conjugationVariants\":{\"causPas\":[\"のまされる\"]}}",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Drinking water.",
+          "Inviting someone to share tea.",
+          "Taking medicine after a meal."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@209694934",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "飲む; ノム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 飲む; aType 1",
+            "match": {
+              "word": "飲む",
+              "reading": "のむ",
+              "grammaticalForm": "終止形-一般",
+              "sense": "Literal drinking and taking medicine are within JMdict sense 1; the invitation is correctly translated positively."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Checked new medication sense against JMdict sense 1, not a metaphor inferred from English. The retained negative-form question is an invitation; 飲んで/飲まない and causative-passive variant のまされる agree with godan -む. Exact pitch 1.",
+        "contentHash": "6881984718edd2fa838e1b9d640f80575b746b50115cd4aa95c52e47214b3ffd",
+        "approvalHash": "1b4146e1bef681592e447b86485dc3b161affbfa08d62f643dfda25b66ebd732"
+      }
+    },
+    {
+      "id": "vocab-n5:17",
+      "revisionId": "004-vocab-n5-17",
+      "state": "accepted",
+      "predecessorHash": "f51534056fdc78c68536eba223e09f0904f4579b6e2950dd5fc2b3f881526629",
+      "predecessorRevisionHash": "97dab607d18cc8f2764576f7dd03f9245b0363a104bbdbec0f42c9d0188ebf92",
+      "originalHash": "f51534056fdc78c68536eba223e09f0904f4579b6e2950dd5fc2b3f881526629",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1578850",
+          "finding": "行く/いく: Movement sense 1 and figurative progress sense 3; いく and the separate reading ゆく must not be conflated.",
+          "matchedEntry": {
+            "sequence": "1578850",
+            "spelling": "行く",
+            "reading": "いく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to go",
+                  "to move (towards)",
+                  "to head (towards)",
+                  "to leave (for)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to move through",
+                  "to travel across",
+                  "to walk along (e.g. a road)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to go (well, badly, etc.)",
+                  "to proceed",
+                  "to turn out",
+                  "to get along"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to do (in a particular way)",
+                  "to go (with; a choice)",
+                  "to try"
+                ],
+                "notes": [
+                  "oft. as で〜"
+                ]
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to pass (of time, seasons, etc.)",
+                  "to go by"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to stream",
+                  "to flow"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 7,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to die",
+                  "to pass away"
+                ],
+                "notes": [
+                  "usu. written as 逝く"
+                ]
+              },
+              {
+                "sense": 8,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to reach (a stage, extent, age, etc.)",
+                  "to get to",
+                  "to go (so far as ...)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 9,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to reach (of information, instructions, wind, etc.)",
+                  "to arrive"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 10,
+                "pos": [
+                  "auxiliary verb",
+                  "Godan verb - Iku/Yuku special class"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to continue ...",
+                  "to go on ...",
+                  "to (progress) steadily",
+                  "to gradually ...",
+                  "to progressively ..."
+                ],
+                "notes": [
+                  "after the -te form of a verb; い sometimes omitted in casual speech"
+                ]
+              },
+              {
+                "sense": 11,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone",
+                  "colloquial"
+                ],
+                "gloss": [
+                  "to have an orgasm",
+                  "to come",
+                  "to cum"
+                ],
+                "notes": [
+                  "oft. written as イク"
+                ]
+              },
+              {
+                "sense": 12,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone",
+                  "slang"
+                ],
+                "gloss": [
+                  "to trip",
+                  "to get high",
+                  "to have a drug-induced hallucination"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Movement sense 1 and figurative progress sense 3; いく and the separate reading ゆく must not be conflated.",
+        "meaning": "German sense scope checked against the selected JMdict senses: gehen, fahren; verlaufen",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Intransitive movement/arrival/return; に or へ introduces a goal; no direct-object claim.",
+        "conjugation": "{\"verbGroup\":\"godan\",\"conjugationReading\":\"いく\",\"conjugationKind\":\"verb\",\"conjugationOverrides\":{\"te\":\"いって\",\"past\":\"いった\",\"conditionalTara\":\"いったら\"},\"conjugationVariants\":{\"causPas\":[\"いかされる\"]}}",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Going to school.",
+          "Planning travel to Tokyo the next day.",
+          "Reporting that work is progressing well."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54010846",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "行く; イク; 動詞/非自立可能/*/*; 五段-カ行; 終止形-一般; lemma 行く; aType 0",
+            "match": {
+              "word": "行く",
+              "reading": "いく",
+              "grammaticalForm": "終止形-一般",
+              "sense": "Movement sense 1 and figurative progress sense 3; いく and the separate reading ゆく must not be conflated."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Checked いって/いった/いったら overrides and retained shortened causative-passive. The new うまくいっています is supported by the progress sense, giving genuinely different use from two destinations. UniDic exact イク terminal form gives 0; ゆく remains separate research.",
+        "contentHash": "f51534056fdc78c68536eba223e09f0904f4579b6e2950dd5fc2b3f881526629",
+        "approvalHash": "98e88613381a760a008ca4c4c6d4258768dabf0a0d25ed80a116c2a85f3ba1f9"
+      }
+    },
+    {
+      "id": "vocab-n5:18",
+      "revisionId": "004-vocab-n5-18",
+      "state": "accepted",
+      "predecessorHash": "54ba66db12cb1635c3527f34c091dbfabbe1c072a3c2cc975f29d54cd4374734",
+      "predecessorRevisionHash": "22fd353e17670ed328f3bb2262d00f78c30d52b3e27d45fb2452964568286dfd",
+      "originalHash": "54ba66db12cb1635c3527f34c091dbfabbe1c072a3c2cc975f29d54cd4374734",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1547720",
+          "finding": "来る/くる: Spatial and temporal arrival sense 1; preserved irregular kuru metadata and empty archaic imperative alternatives.",
+          "matchedEntry": {
+            "sequence": "1547720",
+            "spelling": "来る",
+            "reading": "くる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Kuru verb - special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to come (spatially or temporally)",
+                  "to approach",
+                  "to arrive"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Kuru verb - special class",
+                  "intransitive verb",
+                  "auxiliary verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to come back",
+                  "to do ... and come back"
+                ],
+                "notes": [
+                  "after the -te form of a verb"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Kuru verb - special class",
+                  "intransitive verb",
+                  "auxiliary verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to come to be",
+                  "to become",
+                  "to get",
+                  "to grow",
+                  "to continue"
+                ],
+                "notes": [
+                  "after the -te form of a verb"
+                ]
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Kuru verb - special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to come from",
+                  "to be caused by",
+                  "to derive from"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Kuru verb - special class",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to come to (e.g. \"when it comes to spinach ...\")"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Spatial and temporal arrival sense 1; preserved irregular kuru metadata and empty archaic imperative alternatives.",
+        "meaning": "German sense scope checked against the selected JMdict senses: kommen",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Intransitive movement/arrival/return; に or へ introduces a goal; no direct-object claim.",
+        "conjugation": "{\"verbGroup\":\"kuru\",\"conjugationReading\":\"くる\",\"conjugationKind\":\"verb\",\"conjugationVariants\":{\"imperative\":[]}}",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Announcing a friend’s visit.",
+          "Stating that one has come from Japan.",
+          "Observing the arrival of spring."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@114949543",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "来る; クル; 動詞/非自立可能/*/*; カ行変格; 終止形-一般; lemma 来る; aType 1",
+            "match": {
+              "word": "来る",
+              "reading": "くる",
+              "grammaticalForm": "終止形-一般",
+              "sense": "Spatial and temporal arrival sense 1; preserved irregular kuru metadata and empty archaic imperative alternatives."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Checked irregular くる/きます/こない, visitor arrival, origin から and temporal spring arrival. German preserves each meaning; no weak regularized conjugation was introduced. Exact kuru terminal row gives accent 1.",
+        "contentHash": "54ba66db12cb1635c3527f34c091dbfabbe1c072a3c2cc975f29d54cd4374734",
+        "approvalHash": "03e6eab3e4cadae9ea27e9944ec6dc9800c9da8234eff86b134bea88edceaed3"
+      }
+    },
+    {
+      "id": "vocab-n5:19",
+      "revisionId": "004-vocab-n5-19",
+      "state": "accepted",
+      "predecessorHash": "00babd860cc2b9a4243f93a14fea886aa5ab8bebf42fc2a1238ef4b27be6b9f0",
+      "predecessorRevisionHash": "284d306e8709086a5772180ad73624c97b56ec412d5ee80f2fb67f08b241ea15",
+      "originalHash": "00babd860cc2b9a4243f93a14fea886aa5ab8bebf42fc2a1238ef4b27be6b9f0",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1221270",
+          "finding": "帰る/かえる: Return-home sense 1 and guest-departure sense 2; the UniDic lemma 返る groups the exact 帰る form without changing this entry’s spelling.",
+          "matchedEntry": {
+            "sequence": "1221270",
+            "spelling": "帰る",
+            "reading": "かえる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to return",
+                  "to come home",
+                  "to go home",
+                  "to go back"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to leave (of a guest, customer, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to get home",
+                  "to get to home plate"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Return-home sense 1 and guest-departure sense 2; the UniDic lemma 返る groups the exact 帰る form without changing this entry’s spelling.",
+        "meaning": "German sense scope checked against the selected JMdict senses: zurückkehren",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Intransitive movement/arrival/return; に or へ introduces a goal; no direct-object claim.",
+        "conjugation": "{\"verbGroup\":\"godan\",\"conjugationReading\":\"かえる\",\"conjugationKind\":\"verb\",\"conjugationVariants\":{\"causPas\":[\"かえらされる\"]}}",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Returning home.",
+          "Giving a planned departure or return time.",
+          "Reporting that a guest has already left."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@87147830",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "帰る; カエル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 返る; aType 1",
+            "match": {
+              "word": "帰る",
+              "reading": "かえる",
+              "grammaticalForm": "終止形-一般",
+              "sense": "Return-home sense 1 and guest-departure sense 2; the UniDic lemma 返る groups the exact 帰る form without changing this entry’s spelling."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Checked godan -る despite the -える ending, and guest departure as JMdict sense 2. The guest sentence resolves the previous overreliance on return-destination/time variations. Exact 帰る row is valid despite UniDic grouping under lemma 返る; accent 1.",
+        "contentHash": "00babd860cc2b9a4243f93a14fea886aa5ab8bebf42fc2a1238ef4b27be6b9f0",
+        "approvalHash": "48c9a84f7344f8aa934a0e68bf6e09251766c11c76cb8f6f84874682808d23bb"
+      }
+    },
+    {
+      "id": "vocab-n5:20",
+      "revisionId": "004-vocab-n5-20",
+      "state": "accepted",
+      "predecessorHash": "588293853fc1d6b18625b4f6914bb8cfc670437882145e029b4099bb8bfa90eb",
+      "predecessorRevisionHash": "f3e78d198ba332b10f0fcf2d3789992b325d83f06cb64693f86a3f398fc8b270",
+      "originalHash": "588293853fc1d6b18625b4f6914bb8cfc670437882145e029b4099bb8bfa90eb",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1259290",
+          "finding": "見る/みる: Visual perception sense 1; 見に行きましょう is a purpose construction, not a different verb reading.",
+          "matchedEntry": {
+            "sequence": "1259290",
+            "spelling": "見る",
+            "reading": "みる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to see",
+                  "to look",
+                  "to watch",
+                  "to view",
+                  "to observe"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to examine",
+                  "to look over",
+                  "to assess",
+                  "to check",
+                  "to judge"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to look after",
+                  "to attend to",
+                  "to take care of",
+                  "to keep an eye on"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to experience",
+                  "to meet with (misfortune, success, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "auxiliary verb",
+                  "Ichidan verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to try ...",
+                  "to have a go at ...",
+                  "to give ... a try"
+                ],
+                "notes": [
+                  "after the -te form of a verb"
+                ]
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "auxiliary verb",
+                  "Ichidan verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to see (that) ...",
+                  "to find (that) ..."
+                ],
+                "notes": [
+                  "as 〜てみると, 〜てみたら, 〜てみれば, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Visual perception sense 1; 見に行きましょう is a purpose construction, not a different verb reading.",
+        "meaning": "German sense scope checked against the selected JMdict senses: sehen, schauen",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Transitive; を introduces the content or object, with other participants described in the note.",
+        "conjugation": "{\"verbGroup\":\"ichidan\",\"conjugationReading\":\"みる\",\"conjugationKind\":\"verb\",\"conjugationVariants\":{\"imperative\":[\"みよ\"]}}",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 2 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Watching television at home.",
+          "Suggesting an outing to view cherry blossoms."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@257595459",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "見る; ミル; 動詞/非自立可能/*/*; 上一段-マ行; 終止形-一般; lemma 見る; aType 1",
+            "match": {
+              "word": "見る",
+              "reading": "みる",
+              "grammaticalForm": "終止形-一般",
+              "sense": "Visual perception sense 1; 見に行きましょう is a purpose construction, not a different verb reading."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Checked the stem-plus-purpose construction 見に行きましょう, the TV context and both translations. The note limits the 観る comparison rather than claiming interchangeability across medical or auxiliary senses. Ichidan forms and exact terminal accent 1 agree.",
+        "contentHash": "588293853fc1d6b18625b4f6914bb8cfc670437882145e029b4099bb8bfa90eb",
+        "approvalHash": "ec1effc4e66fcf3e27cf3608cb1dd32ea57e2464865217b209f9da1c1c6d3282"
+      }
+    },
+    {
+      "id": "vocab-n5:21",
+      "revisionId": "004-vocab-n5-21",
+      "state": "accepted",
+      "predecessorHash": "195c2365b15613fdf5a778b42e493ce89a596e29d183e2da9449191e3a41aa4b",
+      "predecessorRevisionHash": "e8c4e7b7048a28f9dba9e79c0c9c92d96086fbdc7b43a3495505c0587cc51635",
+      "originalHash": "195c2365b15613fdf5a778b42e493ce89a596e29d183e2da9449191e3a41aa4b",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1591110",
+          "finding": "聞く/きく: JMdict senses 2 and 3 matched individually; the person asked takes に, not the heard-content object marker.",
+          "matchedEntry": {
+            "sequence": "1591110",
+            "spelling": "聞く",
+            "reading": "きく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to hear"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to listen (e.g. to music)"
+                ],
+                "notes": [
+                  "esp. 聴く"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to ask",
+                  "to enquire",
+                  "to query"
+                ],
+                "notes": [
+                  "聴く is used in legal and official contexts"
+                ]
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to hear about",
+                  "to hear of",
+                  "to learn of"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to follow (advice, order, etc.)",
+                  "to obey",
+                  "to listen to",
+                  "to comply with"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to hear (e.g. a plea)",
+                  "to grant (a request)",
+                  "to accept (e.g. an argument)",
+                  "to give consideration to"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 7,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to smell (esp. incense)",
+                  "to sample (a fragrance)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 8,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to taste (alcohol)",
+                  "to try"
+                ],
+                "notes": [
+                  "also 利く"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "JMdict senses 2 and 3 matched individually; the person asked takes に, not the heard-content object marker.",
+        "meaning": "German sense scope checked against the selected JMdict senses: hören, fragen",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Transitive; を introduces the content or object, with other participants described in the note.",
+        "conjugation": "{\"verbGroup\":\"godan\",\"conjugationReading\":\"きく\",\"conjugationKind\":\"verb\",\"conjugationVariants\":{\"causPas\":[\"きかされる\"]}}",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 2 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Listening to music.",
+          "Asking a teacher for information."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@103591623",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "聞く; キク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 聞く; aType 0",
+            "match": {
+              "word": "聞く",
+              "reading": "きく",
+              "grammaticalForm": "終止形-一般",
+              "sense": "JMdict senses 2 and 3 matched individually; the person asked takes に, not the heard-content object marker."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Explicitly rechecked hearing/listening versus asking, especially teacher に. 聞いて is kiite with two i; the note does not assign a different reading to the interrogative use. Godan -く metadata and exact pitch 0 agree.",
+        "contentHash": "195c2365b15613fdf5a778b42e493ce89a596e29d183e2da9449191e3a41aa4b",
+        "approvalHash": "74d5917aab498266e927c8c67bce128902b6e68d5ad5452e77dc819668728873"
+      }
+    },
+    {
+      "id": "vocab-n5:22",
+      "revisionId": "004-vocab-n5-22",
+      "state": "accepted",
+      "predecessorHash": "8ad71d6c7b4cbdf8c28a42ef4f71770db8368c87adbee0ef6ae1a9d0c5641e0a",
+      "predecessorRevisionHash": "b0c95d22342660b31ad25a7b231a3d52d5597837590e577dbe26bb02d48dd129",
+      "originalHash": "8ad71d6c7b4cbdf8c28a42ef4f71770db8368c87adbee0ef6ae1a9d0c5641e0a",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1456360",
+          "finding": "読む/よむ: Text reading sense 1 plus character-pronunciation sense 4, giving a real use beyond changing the reading material.",
+          "matchedEntry": {
+            "sequence": "1456360",
+            "spelling": "読む",
+            "reading": "よむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to read"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to recite (e.g. a sutra)",
+                  "to chant"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to predict",
+                  "to guess",
+                  "to forecast",
+                  "to read (someone's thoughts)",
+                  "to see (e.g. into someone's heart)",
+                  "to divine"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to pronounce",
+                  "to read (e.g. a kanji)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to decipher",
+                  "to read (a meter, graph, music, etc.)",
+                  "to tell (the time)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to count",
+                  "to estimate"
+                ],
+                "notes": [
+                  "now mostly used in idioms"
+                ]
+              },
+              {
+                "sense": 7,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [],
+                "gloss": [
+                  "to read (a kanji) with its native Japanese reading"
+                ],
+                "notes": [
+                  "also written as 訓む"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Text reading sense 1 plus character-pronunciation sense 4, giving a real use beyond changing the reading material.",
+        "meaning": "German sense scope checked against the selected JMdict senses: lesen",
+        "register": "Ordinary modern usage; qualifications in the note retained and checked against the lexical scope.",
+        "transitivity": "Transitive; を introduces the content or object, with other participants described in the note.",
+        "conjugation": "{\"verbGroup\":\"godan\",\"conjugationReading\":\"よむ\",\"conjugationKind\":\"verb\",\"conjugationVariants\":{\"causPas\":[\"よまされる\"]}}",
+        "level": "Existing N5 estimate retained. This lexical review does not infer an official JLPT level.",
+        "japanese": "Read all 3 sentences individually; checked particles, inflections and situation described in contexts.",
+        "romanization": "Headword and every example checked; existing kana-based long-vowel spellings such as ou and ei retained consistently for these N5 entries.",
+        "translation": "Compared each German translation with its Japanese sentence, including invitation, implied family possessive and potential where present.",
+        "contexts": [
+          "Reading a book.",
+          "Following the daily newspaper.",
+          "Asking how a written character is pronounced."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@276097854",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "読む; ヨム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 読む; aType 1",
+            "match": {
+              "word": "読む",
+              "reading": "よむ",
+              "grammaticalForm": "終止形-一般",
+              "sense": "Text reading sense 1 plus character-pronunciation sense 4, giving a real use beyond changing the reading material."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Book/newspaper alone were too similar; the added kanji-reading question supplies JMdict pronunciation sense 4. 何と is nan to, 読んで is yonde; all three translations checked. Exact godan -む terminal pitch 1.",
+        "contentHash": "8ad71d6c7b4cbdf8c28a42ef4f71770db8368c87adbee0ef6ae1a9d0c5641e0a",
+        "approvalHash": "0a8ed3d08376c938e3833bf6091c5e1a4e137f1fb8350f15102671bfdae0970c"
+      }
+    },
+    {
+      "id": "vocab-n3:2932",
+      "revisionId": "004-vocab-n3-2932",
+      "state": "accepted",
+      "predecessorHash": "4ca8418cd6b81aae51e4684ac15b0809c7d3a9506cba5b702d6dfdcebd35d90a",
+      "predecessorRevisionHash": "18121c05282427ee51887ce1e5355456a254584fc91248a9be84f4d0366804e4",
+      "originalHash": "4ca8418cd6b81aae51e4684ac15b0809c7d3a9506cba5b702d6dfdcebd35d90a",
+      "original": {},
+      "replacement": {},
+      "rationale": "Individual lexical and teaching review; preserve useful material, add explicit different contexts where needed, and attach investigated accent provenance.",
+      "evidence": [
+        {
+          "source": "JMdict / EDRDG",
+          "version": "JMdict_e.gz SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1219980",
+          "finding": "幾ら/いくら: Interrogative amount/price sense 1 and concessive degree sense 3; not the salmon-roe noun (JMdict 1021180).",
+          "matchedEntry": {
+            "sequence": "1219980",
+            "spelling": "幾ら",
+            "reading": "いくら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "how much"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "something over",
+                  "and something",
+                  "-odd"
+                ],
+                "notes": [
+                  "after a rounded number, esp. a sum of money"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "stagk": [],
+                "stagr": [],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "however (much)",
+                  "no matter how"
+                ],
+                "notes": [
+                  "as いくら...〜ても, いくら...〜でも, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "reviewer": "Codex first editorial pass, 2026-09-22",
+        "lexical": "Interrogative amount/price sense 1 and concessive degree sense 3; not the salmon-roe noun (JMdict 1021180).",
+        "meaning": "Amount interrogative and concessive degree are separately translated; salmon roe excluded.",
+        "register": "Everyday kana form; おいくら adds politeness.",
+        "transitivity": "Nominal interrogative/adverb; not a verb.",
+        "conjugation": "No verb conjugation applies.",
+        "level": "Existing N3 estimate retained here. Two source lists place the basic interrogative at N5, while the entry also teaches concessive use; no new level claim.",
+        "japanese": "Price question retained; concessive いくら…ても sentence checked separately.",
+        "romanization": "ikura; お幾ら is oikura; 納得 is nattoku with doubled t.",
+        "translation": "Price request and unsuccessful explanation despite degree are both represented.",
+        "contexts": [
+          "Politely asking the price of an item.",
+          "Describing an explanation that fails to convince despite repeated effort."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and kana inspected with the cited grammatical form and the intended sense; retain all attested aType alternatives.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54095665",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "幾ら; イクラ; 副詞/*/*/*; *; *; lemma 幾ら; aType 1,0",
+            "match": {
+              "word": "幾ら",
+              "reading": "いくら",
+              "grammaticalForm": "副詞/*/*/*; uninflected noun/adverb",
+              "sense": "Interrogative amount/price sense 1 and concessive degree sense 3; not the salmon-roe noun (JMdict 1021180)."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; archive SHA256 d94216b589d15d05c408ed59abc5259086703ebbac14e225b5314e4cd106c4db",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54096347",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "幾ら; イクラ; 名詞/普通名詞/一般/*; *; *; lemma 幾ら; aType 0,1",
+            "match": {
+              "word": "幾ら",
+              "reading": "いくら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; uninflected noun/adverb",
+              "sense": "Interrogative amount/price sense 1 and concessive degree sense 3; not the salmon-roe noun (JMdict 1021180)."
+            }
+          }
+        ]
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "Codex, separate critical reread of serialized batch 003, 2026-09-22",
+        "finding": "Separately matched the price and concessive examples to JMdict 1219980 senses 1 and 3. Re-read おいくら oikura and 納得 nattoku. Both exact noun/adverb UniDic rows allow 0/1, preserved as alternatives; neither row is the food lemma. Existing N3 estimate is explicitly retained.",
+        "contentHash": "4ca8418cd6b81aae51e4684ac15b0809c7d3a9506cba5b702d6dfdcebd35d90a",
+        "approvalHash": "f1d1fcf4723e466c9b7d5cbe66493a7b0288ca3f0d4276c4168a0e3c0a513bf1"
+      }
+    },
+    {
+      "id": "vocab-n5:9",
+      "revisionId": "004-reject-vocab-n5-9",
+      "state": "needs revision",
+      "predecessorHash": "ef2aa235aa09451f2aa9da80bed11981c944673f4fdb37ad169546872e1f5fb5",
+      "predecessorRevisionHash": "38d2a5abecb0bbf19f0ddbe27b0b71380b4edb57d74d5b769302cfb72a4efe84",
+      "originalHash": "ef2aa235aa09451f2aa9da80bed11981c944673f4fdb37ad169546872e1f5fb5",
+      "original": {},
+      "replacement": {},
+      "rationale": "The retained German Büroangestellter narrows 会社員 to office work. Replace it with Angestellter in einer Firma; retain the Japanese, reading and family context.",
+      "research": [
+        {
+          "source": "Codex critical second pass of saved source evidence",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/003-drafts.json#vocab-n5:9",
+          "finding": "The retained German Büroangestellter narrows 会社員 to office work. Replace it with Angestellter in einer Firma; retain the Japanese, reading and family context."
+        }
+      ],
+      "openQuestions": [
+        "The retained German Büroangestellter narrows 会社員 to office work. Replace it with Angestellter in einer Firma; retain the Japanese, reading and family context."
+      ],
+      "secondPass": {
+        "decision": "rejected",
+        "reviewer": "Codex, separate critical reread, 2026-09-22",
+        "finding": "The retained German Büroangestellter narrows 会社員 to office work. Replace it with Angestellter in einer Firma; retain the Japanese, reading and family context.",
+        "contentHash": "ef2aa235aa09451f2aa9da80bed11981c944673f4fdb37ad169546872e1f5fb5"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:ikura-roe",
+      "revisionId": "004-reject-vocab-n5-correction-ikura-roe",
+      "state": "needs revision",
+      "predecessorHash": "52c31129901c419ff580e8a62a1a3d5fa223452ec2d1130f566203a3ea29f9a6",
+      "predecessorRevisionHash": "facbda72c95913299916237a4f302ba5b3e62c9e22c670c0c09b28c31a24249f",
+      "originalHash": "52c31129901c419ff580e8a62a1a3d5fa223452ec2d1130f566203a3ea29f9a6",
+      "original": {},
+      "replacement": {},
+      "rationale": "Rejected pitch selection: the draft included a proper-name row with aType *, and an interrogative 幾ら lemma row. Only exact イクラ/イクラ, common noun, lemma イクラ-ikra supports the food sense; retain its attested 0 and 1.",
+      "research": [
+        {
+          "source": "Codex critical second pass of saved source evidence",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/003-drafts.json#vocab-n5:correction:ikura-roe",
+          "finding": "Rejected pitch selection: the draft included a proper-name row with aType *, and an interrogative 幾ら lemma row. Only exact イクラ/イクラ, common noun, lemma イクラ-ikra supports the food sense; retain its attested 0 and 1."
+        }
+      ],
+      "openQuestions": [
+        "Rejected pitch selection: the draft included a proper-name row with aType *, and an interrogative 幾ら lemma row. Only exact イクラ/イクラ, common noun, lemma イクラ-ikra supports the food sense; retain its attested 0 and 1."
+      ],
+      "secondPass": {
+        "decision": "rejected",
+        "reviewer": "Codex, separate critical reread, 2026-09-22",
+        "finding": "Rejected pitch selection: the draft included a proper-name row with aType *, and an interrogative 幾ら lemma row. Only exact イクラ/イクラ, common noun, lemma イクラ-ikra supports the food sense; retain its attested 0 and 1.",
+        "contentHash": "52c31129901c419ff580e8a62a1a3d5fa223452ec2d1130f566203a3ea29f9a6"
+      }
+    }
+  ],
+  "decisions": []
+}

@@ -196,7 +196,8 @@ async function run() {
     const conjugationFixtures = [
       ['愛する', 'potential', 'あいせる'], ['問う', 'te', 'とうて'],
       ['発表', 'polite', 'はっぴょうします'], ['揺する', 'polite', 'ゆすります'],
-      ['演ずる', 'polite', 'えんじます'], ['ある', 'negative', 'ない']
+      ['演ずる', 'polite', 'えんじます'], ['ある', 'negative', 'ない'],
+      ['宥す', 'te', 'ゆるして'], ['宥める', 'polite', 'なだめます']
     ];
     for (const [word, form, expected] of conjugationFixtures) {
       const item = vocab.allItems.find(v => v.word === word);
@@ -207,10 +208,48 @@ async function run() {
       if (word === 'ある') assert(!d.querySelector('[data-conjugation-form="potential"]'));
       if (word === '愛する') assert(d.querySelector('[data-conjugation-form="negative"] .conj-form').textContent.includes('あいしない'));
     }
-    for (const word of ['今すぐ', '宥す']) {
+    for (const word of ['今すぐ']) {
       vocab.config.openDetail(vocab.allItems.find(v => v.word === word), vocab.dom, vocab);
       assert(d.getElementById('vocab-conjugation-section').classList.contains('hidden'));
     }
+    const forgiving=vocab.allItems.find(v=>v.id==='vocab-n1:2987');
+    assert.equal(forgiving.reading,'ゆるす');
+    vocab.dom.search.value='ゆるす'; vocab.filters.level='N1'; vocab.applyFilters();
+    assert(vocab.filteredItems.some(v=>v.id===forgiving.id),'Corrected reading missing from search');
+    vocab.dom.search.value='いくつ'; vocab.filters.level='N5'; vocab.applyFilters();
+    const quantity=vocab.allItems.find(v=>v.id==='vocab-n3:2933');
+    assert(vocab.filteredItems.includes(quantity),'Corrected level/alias missing');
+    vocab.config.openDetail(quantity,vocab.dom,vocab);
+    assert(d.getElementById('vocab-detail-pitch').classList.contains('hidden'),'Unknown pitch diagram visible');
+    vocab.config.openDetail(vocab.allItems.find(v=>v.word==='明るい'),vocab.dom,vocab);
+    assert.equal(d.querySelectorAll('#vocab-detail-pitch .pitch-svg').length,2,'Attested alternative missing');
+    assert(d.getElementById('vocab-detail-pitch').textContent.includes('Auch belegt'));
+    // Old saved IDs and deep links resolve through an explicit merge redirect.
+    const retired='vocab-n1:retired-fixture';
+    w.VOCAB_CORRECTION_RULES.completionRedirects[retired]=forgiving.id;
+    w.localStorage.setItem('bookmarks-vocab',JSON.stringify([retired]));
+    assert(w.isBookmarked('vocab',forgiving.id));
+    w.toggleBookmark('vocab',forgiving.id);
+    assert(!w.isBookmarked('vocab',forgiving.id));
+    w.location.hash='#vocab/'+encodeURIComponent(retired);
+    await until(()=>vocab.selectedItem?.id===forgiving.id && vocab.isOverlayOpen(),'retired vocabulary deep link');
+    delete w.VOCAB_CORRECTION_RULES.completionRedirects[retired];
+    vocab.closeDetail(); vocab.filters.level='all'; vocab.dom.search.value=''; vocab.applyFilters();
+    // A mixed source group must remain two independently navigable study entries.
+    const roe=vocab.allItems.find(v=>v.id==='vocab-n5:correction:ikura-roe');
+    const price=vocab.allItems.find(v=>v.id==='vocab-n3:2932');
+    assert(roe && price && roe!==price);
+    vocab.dom.search.value='いくら';vocab.applyFilters();
+    assert(vocab.filteredItems.includes(roe) && vocab.filteredItems.includes(price),'Homophone search lost a distinct sense');
+    vocab.filters.level='N5';vocab.applyFilters();
+    assert(vocab.filteredItems.includes(roe) && !vocab.filteredItems.includes(price),'Separate level estimates were collapsed');
+    w.location.hash='#vocab/'+encodeURIComponent(roe.id);
+    await until(()=>vocab.selectedItem?.id===roe.id && vocab.isOverlayOpen(),'new addition deep link');
+    assert.equal(d.querySelectorAll('#vocab-detail-pitch .pitch-svg').length,2);
+    vocab.dom.overlay.querySelector('.detail-bookmark-btn').click();
+    assert(w.isBookmarked('vocab',roe.id) && !w.isBookmarked('vocab',price.id),'Bookmark crossed homonymous senses');
+    vocab.dom.overlay.querySelector('.detail-bookmark-btn').click();
+    vocab.closeDetail();vocab.filters.level='all';vocab.dom.search.value='';vocab.applyFilters();
 
     app.switchTab('counters'); await app.ensureSectionLoaded('counters');
     assert(!d.getElementById('counters-tab').classList.contains('numbers-view'));

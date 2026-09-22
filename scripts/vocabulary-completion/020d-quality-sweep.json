@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:1361",
+      "revisionId": "quality-sweep-monku-phrase",
+      "state": "accepted",
+      "predecessorHash": "582d842734b9e67a3ca0f9988288ffde9c86901f980ddca115a656216f0a9c36",
+      "predecessorRevisionHash": null,
+      "originalHash": "582d842734b9e67a3ca0f9988288ffde9c86901f980ddca115a656216f0a9c36",
+      "rationale": "Replace nonstandard 文句する with attested 文句を言う while preserving stable runtime ID and intended complaint sense; repair both examples and dependent conjugation metadata.",
+      "original": {
+        "word": "文句する",
+        "reading": "もんくする",
+        "romaji": "monkusuru",
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "意見を言っただけなのに、上司に「文句するな」と怒鳴られました。",
+            "romaji": "Iken o itta dake na noni, joushi ni monku suru na to donara remashita.",
+            "german": "Ich habe nur meine Meinung gesagt, aber mein Chef hat mich angeschrien: Beschwer dich nicht!"
+          },
+          {
+            "japanese": "いつも文句しないでください。",
+            "romaji": "Itsumo monku shinaide kudasai.",
+            "german": "Bitte beschweren Sie sich nicht ständig."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null,
+        "verbGroup": null,
+        "conjugation": {
+          "conjugationKind": "excluded",
+          "verbGroup": null,
+          "conjugationReading": null
+        },
+        "conjugationKind": "excluded",
+        "conjugationReading": null
+      },
+      "replacement": {
+        "word": "文句を言う",
+        "reading": "もんくをいう",
+        "romaji": "monku o iu",
+        "notes": "Für „sich beschweren“ sagt man 文句を言う. 文句 ist hier ein Nomen mit を; das Verb 言う wird konjugiert: 文句を言います, 文句を言わない.",
+        "examples": [
+          {
+            "japanese": "意見を言っただけなのに、上司に「文句を言うな」と怒鳴られました。",
+            "romaji": "Iken o itta dake na noni, joushi ni \"monku o iu na\" to donararemashita.",
+            "german": "Ich habe nur meine Meinung gesagt, aber mein Chef hat mich angeschrien: Beschwer dich nicht!"
+          },
+          {
+            "japanese": "いつも文句を言わないでください。",
+            "romaji": "Itsumo monku o iwanaide kudasai.",
+            "german": "Bitte beschweren Sie sich nicht ständig."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": [],
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "もんくをいう",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "もんくをいう"
+      },
+      "evidence": [
+        {
+          "source": "小学館 プログレッシブ和英中辞典",
+          "version": "第4版; accessed 2026-09-22",
+          "locator": "https://kotobank.jp/jeword/%E6%96%87%E5%8F%A5#complaint",
+          "attribution": "Shogakukan; dictionary excerpt hosted by Kotobank",
+          "finding": "Complaint sense explicitly uses 文句を言う for complain/object/find fault. Supports replacing invented 文句する while retaining intended German sich beschweren. Stable noun entry 文句 remains separate."
+        },
+        {
+          "source": "Existing reviewed verb classification",
+          "version": "scripts/verb-review.json at sweep runtime 5d23570e885c0353362816861789e19a6071c874547aaf6b52a69baeb7787240",
+          "locator": "scripts/verb-review.json#vocab-n4:1361",
+          "attribution": "Project verb review; JMdict 1505260 evidence",
+          "finding": "Existing disposition excludes 文句する because no supported modern verb class. Supporting JMdict noun 文句 supplies complaint sense; this does not establish a suru verb."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "grammar-correction",
+          "ambiguous-grammar"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-worker-3",
+        "meaning": "Preserve sich beschweren; publisher dictionary explicitly supports complaint phrase 文句を言う.",
+        "japanese": "Repair quoted prohibition to 文句を言うな and polite negative request to 文句を言わないでください; both use the noun object 文句を with 言う.",
+        "romanization": "monku o iu and monku o iwanaide match repaired Japanese; full example1 passive donararemashita agrees with 怒鳴られました.",
+        "translation": "Existing German complaint translations remain faithful after correcting Japanese grammar.",
+        "contexts": [
+          "Workplace complaint prohibition embedded in reported speech.",
+          "Polite request not to complain constantly."
+        ],
+        "lexical": "Dictionary-attested phrase replaces unsupported suru construction; no extra sense or new runtime ID.",
+        "register": "Ordinary complaint phrase; blunt quoted prohibition contrasted with polite request.",
+        "transitivity": "文句 is the object of 言う with を; whole phrase translates as intransitive sich beschweren.",
+        "conjugation": "Godan 言う: いう, いいます, いわない, いって. Phrase metadata inflects final verb and preserves preceding もんくを.",
+        "level": "Retain N4 estimate and original stable ID; no level reassignment."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Changed headword is a whole phrase with no bound complete-phrase pitch attestation. Remove inherited unsupported0; do not generalize component pitch.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic research cache",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": ".content-cache/correction-pitch-research.json; exact-form lookup 文句を言う / もんくをいう",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "No complete-phrase match available for corrected 文句を言う. Old accent0 belongs to erroneous 文句する and cannot be carried across identity-form change; mark unknown without inferring phrase accent from individual words."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker-3",
+        "finding": "Read full corrected phrase, both example sentences, German translations and metadata; publisher complaint sense confirms 文句を言う. Godan phrase forms and necessary note agree; no identity collision with noun 文句. Complete-phrase pitch remains unknown.",
+        "contentHash": "bbd50891b3bc4ae0e77958bf61a08bd9fb047149d41ba58be8dbfde1eac45c65",
+        "approvalHash": "526778ea6ff95426a404d27e3f13fce2673db17ddba32b2b5964a9fe9171a713"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Independently read Shogakukan Progressive4 complaint sense at https://kotobank.jp/jeword/%E6%96%87%E5%8F%A5: 文句を言う is the supported complain phrase. Corrected quoted workplace prohibition and polite habitual-complaint request preserve intended translations and provide distinct contexts. Checked romanization, necessary grammar note and actual engine forms: もんくをいいます, もんくをいわない, もんくをいって and もんくをいうな. Stable ID retained and no phrase collision; noun 文句 remains separate. Exact whole-phrase pitch unavailable, so null prevents an unsupported inherited accent claim.",
+        "contentHash": "bbd50891b3bc4ae0e77958bf61a08bd9fb047149d41ba58be8dbfde1eac45c65",
+        "approvalHash": "526778ea6ff95426a404d27e3f13fce2673db17ddba32b2b5964a9fe9171a713"
+      }
+    }
+  ],
+  "decisions": []
+}

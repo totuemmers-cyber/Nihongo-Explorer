@@ -69,14 +69,18 @@ window.resetSectionLookups = function () {
 
 function getBookmarks(sectionName) {
   var bookmarks = window.NIHONGO_STORAGE.local.getJSON('bookmarks-' + sectionName, [], Array.isArray);
-  return bookmarks.filter(function (id) { return typeof id === 'string' && id.length > 0; });
+  return bookmarks.filter(function (id) { return typeof id === 'string' && id.length > 0; }).map(function (id) {
+    return sectionName === 'vocab' && window.resolveVocabularyId ? window.resolveVocabularyId(id) : id;
+  }).filter(function (id, index, all) { return all.indexOf(id) === index; });
 }
 
 function isBookmarked(sectionName, itemId) {
+  if (sectionName === 'vocab' && window.resolveVocabularyId) itemId = window.resolveVocabularyId(itemId);
   return getBookmarks(sectionName).indexOf(itemId) !== -1;
 }
 
 function toggleBookmark(sectionName, itemId) {
+  if (sectionName === 'vocab' && window.resolveVocabularyId) itemId = window.resolveVocabularyId(itemId);
   var bk = getBookmarks(sectionName);
   var idx = bk.indexOf(itemId);
   if (idx === -1) bk.push(itemId);
@@ -1024,6 +1028,10 @@ SECTION_CONFIGS.vocab = {
     var pitchEl = document.getElementById('vocab-detail-pitch');
     if (v.pitch !== undefined && v.pitch !== null && v.pitch >= 0) {
       pitchEl.innerHTML = renderPitchSVG(v.reading || '', v.pitch);
+      (v.pitchVariants || []).forEach(function (pattern) {
+        appendElement(pitchEl, 'div', 'pitch-alternative', 'Auch belegt:');
+        pitchEl.insertAdjacentHTML('beforeend', renderPitchSVG(v.reading || '', pattern));
+      });
       pitchEl.classList.remove('hidden');
     } else {
       pitchEl.innerHTML = '';

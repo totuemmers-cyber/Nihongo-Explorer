@@ -1,0 +1,3019 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:201",
+      "revisionId": "v2-wave1-3-201",
+      "state": "accepted",
+      "predecessorHash": "897fa09e2313cba0debbc944db5e79aea8a95a6e96a76ba27c17504f9507b4f1",
+      "predecessorRevisionHash": null,
+      "originalHash": "897fa09e2313cba0debbc944db5e79aea8a95a6e96a76ba27c17504f9507b4f1",
+      "rationale": "Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247383656",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "UniDic sys.dic@247383656 supports 0,1 for 毎晩 / まいばん. Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines.",
+            "match": {
+              "word": "毎晩",
+              "reading": "まいばん",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1524730; spelling=毎晩; reading=まいばん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines.",
+          "selected": {
+            "sequence": "1524730",
+            "spelling": "毎晩",
+            "reading": "まいばん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "every night"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": true
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines.",
+        "japanese": "Reading a book each evening; Taking an evening bath use natural Japanese syntax.",
+        "romanization": "maiban and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Reading a book each evening",
+          "Taking an evening bath"
+        ],
+        "lexical": "Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247383656",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "UniDic sys.dic@247383656 supports 0,1 for 毎晩 / まいばん. Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines.",
+            "match": {
+              "word": "毎晩",
+              "reading": "まいばん",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines.",
+        "contentHash": "c1f0a3fb0b05f232e1ea8da4f23aa488cdfba9947e900d0c99c89d76ef1c4ee0",
+        "approvalHash": "ba0fccd5ae74a76e9a422cd3806e5ce482838ff62518696f77a45ed6c5f914d2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "Independent sample: maiban correctly modifies the reading and bathing routines; German every evening is appropriate. Exact common-noun/adverbial UniDic row attests primary 1 (also 0); Japanese and romanization match.",
+        "contentHash": "c1f0a3fb0b05f232e1ea8da4f23aa488cdfba9947e900d0c99c89d76ef1c4ee0",
+        "approvalHash": "ba0fccd5ae74a76e9a422cd3806e5ce482838ff62518696f77a45ed6c5f914d2"
+      }
+    },
+    {
+      "id": "vocab-n5:202",
+      "revisionId": "v2-wave1-3-202",
+      "state": "accepted",
+      "predecessorHash": "b890be4a9199eac9c8de1475e529cf1aab7cd2ab60630fd10d6391bd0b6c37db",
+      "predecessorRevisionHash": null,
+      "originalHash": "b890be4a9199eac9c8de1475e529cf1aab7cd2ab60630fd10d6391bd0b6c37db",
+      "rationale": "Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247287090",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@247287090 supports 0 for 毎週 / まいしゅう. Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday.",
+            "match": {
+              "word": "毎週",
+              "reading": "まいしゅう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1524690; spelling=毎週; reading=まいしゅう; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday.",
+          "selected": {
+            "sequence": "1524690",
+            "spelling": "毎週",
+            "reading": "まいしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "every week"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday.",
+        "japanese": "Weekly tennis; Weekly Sunday shopping use natural Japanese syntax.",
+        "romanization": "maishuu and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Weekly tennis",
+          "Weekly Sunday shopping"
+        ],
+        "lexical": "Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247287090",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@247287090 supports 0 for 毎週 / まいしゅう. Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday.",
+            "match": {
+              "word": "毎週",
+              "reading": "まいしゅう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday.",
+        "contentHash": "5593358c283f5d1d66b0ccdfdc8012eac506d78d648bc10a8df6a75345864413",
+        "approvalHash": "240c3e77e60f3856c139be4e628581ae6eed8bd8be2f4422e1804538f40bb69c"
+      }
+    },
+    {
+      "id": "vocab-n5:203",
+      "revisionId": "v2-wave1-3-203",
+      "state": "accepted",
+      "predecessorHash": "22f0f6b15cbe52f59941a80d0d5cb252eb9b831da87fcb4ccccf10b6ed77dd6f",
+      "predecessorRevisionHash": null,
+      "originalHash": "22f0f6b15cbe52f59941a80d0d5cb252eb9b831da87fcb4ccccf10b6ed77dd6f",
+      "rationale": "いつも is the habitual adverb always here, not the negative never sense or a place name. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitch": 1
+      },
+      "replacement": {
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1188890; spelling=いつも; reading=いつも; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "いつも is the habitual adverb always here, not the negative never sense or a place name.",
+          "selected": {
+            "sequence": "1188890",
+            "spelling": "いつも",
+            "reading": "いつも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "always",
+                  "all the time",
+                  "at all times"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "いつも is the habitual adverb always here, not the negative never sense or a place name.",
+        "japanese": "Always eating here; Habitually walking this street use natural Japanese syntax.",
+        "romanization": "itsumo and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Always eating here",
+          "Habitually walking this street"
+        ],
+        "lexical": "いつも is the habitual adverb always here, not the negative never sense or a place name.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "The sole exact-form row is a proper place name, not the habitual adverb. Its pattern cannot verify this entry.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "UniDic exact-form cache いつも|いつも",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "sys.dic@56352578 is 名詞/固有名詞/地名/一般; reject as the wrong lexical sense. Pitch remains unknown."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. いつも is the habitual adverb always here, not the negative never sense or a place name.",
+        "contentHash": "80bd3f47bcb3370163e03f7c0d71d27a1dd14928129332c9ad5cac8d0b7a287b",
+        "approvalHash": "5c913775a53442fc9f8bc43914ca6389ff3abf521d671366c5dc46b096cc7688"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "The only exact cached row is a place name and cannot support the habitual adverb. Null pitch accurately represents this limited investigation; both always examples and translations are correct.",
+        "contentHash": "80bd3f47bcb3370163e03f7c0d71d27a1dd14928129332c9ad5cac8d0b7a287b",
+        "approvalHash": "5c913775a53442fc9f8bc43914ca6389ff3abf521d671366c5dc46b096cc7688"
+      }
+    },
+    {
+      "id": "vocab-n5:204",
+      "revisionId": "v2-wave1-3-204",
+      "state": "accepted",
+      "predecessorHash": "658a09a38ce1f813f39a74519c654c93aee331af0fd5176d7e5fbf3630ec5a8b",
+      "predecessorRevisionHash": null,
+      "originalHash": "658a09a38ce1f813f39a74519c654c93aee331af0fd5176d7e5fbf3630ec5a8b",
+      "rationale": "時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184556361",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "UniDic sys.dic@184556361 supports 2,0 for 時々 / ときどき. 時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught.",
+            "match": {
+              "word": "時々",
+              "reading": "ときどき",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1598680; spelling=時々; reading=ときどき; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught.",
+          "selected": {
+            "sequence": "1598680",
+            "spelling": "時々",
+            "reading": "ときどき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sometimes",
+                  "occasionally",
+                  "at times",
+                  "from time to time",
+                  "now and then",
+                  "once in a while",
+                  "at intervals"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught.",
+        "japanese": "Occasional movies; Occasional restaurant meals use natural Japanese syntax.",
+        "romanization": "tokidoki and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Occasional movies",
+          "Occasional restaurant meals"
+        ],
+        "lexical": "時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184556361",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "UniDic sys.dic@184556361 supports 2,0 for 時々 / ときどき. 時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught.",
+            "match": {
+              "word": "時々",
+              "reading": "ときどき",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught.",
+        "contentHash": "c6ed750b47461ba67c30465df1104b6e761f891ac17ed3fb2f36e4f6015cf943",
+        "approvalHash": "894abdde3a0ebaaecb11d917e6c7162fc8bf2eb5af954415640342d8baf30fba"
+      }
+    },
+    {
+      "id": "vocab-n5:205",
+      "revisionId": "v2-wave1-3-205",
+      "state": "accepted",
+      "predecessorHash": "47684e6c02028090aa431fdb0b7eb1ce66e0cfb871c229fed437cc13fe5cb2b9",
+      "predecessorRevisionHash": null,
+      "originalHash": "47684e6c02028090aa431fdb0b7eb1ce66e0cfb871c229fed437cc13fe5cb2b9",
+      "rationale": "Select adverb 良く for often/well; reject noun greed, wing and next-prefix competitors. Both existing sentences instantiate frequency. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273256932",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "UniDic sys.dic@273256932 supports 1 for よく / よく. Select adverb 良く for often/well; reject noun greed, wing and next-prefix competitors. Both existing sentences instantiate frequency.",
+            "match": {
+              "word": "よく",
+              "reading": "よく",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Select adverb 良く for often/well; reject noun greed, wing and next-prefix competitors. Both existing sentences instantiate frequency."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1605870; spelling=よく; reading=よく; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Select adverb 良く for often/well; reject noun greed, wing and next-prefix competitors. Both existing sentences instantiate frequency.",
+          "selected": {
+            "sequence": "1605870",
+            "spelling": "よく",
+            "reading": "よく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "nicely",
+                  "properly",
+                  "well",
+                  "skillfully",
+                  "skilfully"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "frequently",
+                  "often"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "Select adverb 良く for often/well; reject noun greed, wing and next-prefix competitors. Both existing sentences instantiate frequency.",
+        "japanese": "Often eating Japanese food; Often visiting the library use natural Japanese syntax.",
+        "romanization": "yoku and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Often eating Japanese food",
+          "Often visiting the library"
+        ],
+        "lexical": "Select adverb 良く for often/well; reject noun greed, wing and next-prefix competitors. Both existing sentences instantiate frequency.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273256932",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "UniDic sys.dic@273256932 supports 1 for よく / よく. Select adverb 良く for often/well; reject noun greed, wing and next-prefix competitors. Both existing sentences instantiate frequency.",
+            "match": {
+              "word": "よく",
+              "reading": "よく",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Select adverb 良く for often/well; reject noun greed, wing and next-prefix competitors. Both existing sentences instantiate frequency."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. Select adverb 良く for often/well; reject noun greed, wing and next-prefix competitors. Both existing sentences instantiate frequency.",
+        "contentHash": "27f58b7f51fc945de5c71725374389676ca12dd7b4ba28958aad97c954641eeb",
+        "approvalHash": "543e2219bf5ca17c35e290621c5fc55b66195a46252ebe1f501f06944d26cdab"
+      }
+    },
+    {
+      "id": "vocab-n5:206",
+      "revisionId": "v2-wave1-3-206",
+      "state": "accepted",
+      "predecessorHash": "9a5632d0164c51e16fd274a83614c4b2c4ab280b4a51d5a50e4d81571ebba818",
+      "predecessorRevisionHash": null,
+      "originalHash": "9a5632d0164c51e16fd274a83614c4b2c4ab280b4a51d5a50e4d81571ebba818",
+      "rationale": "Immediate departure and return select すぐ immediately; archaic passing verb and truncated すぐる forms are unrelated. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147207523",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "UniDic sys.dic@147207523 supports 1 for すぐ / すぐ. Immediate departure and return select すぐ immediately; archaic passing verb and truncated すぐる forms are unrelated.",
+            "match": {
+              "word": "すぐ",
+              "reading": "すぐ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Immediate departure and return select すぐ immediately; archaic passing verb and truncated すぐる forms are unrelated."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1430610; spelling=すぐ; reading=すぐ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Immediate departure and return select すぐ immediately; archaic passing verb and truncated すぐる forms are unrelated.",
+          "selected": {
+            "sequence": "1430610",
+            "spelling": "すぐ",
+            "reading": "すぐ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "immediately",
+                  "at once",
+                  "right away",
+                  "directly"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "Immediate departure and return select すぐ immediately; archaic passing verb and truncated すぐる forms are unrelated.",
+        "japanese": "Immediate departure; Immediate return use natural Japanese syntax.",
+        "romanization": "sugu and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Immediate departure",
+          "Immediate return"
+        ],
+        "lexical": "Immediate departure and return select すぐ immediately; archaic passing verb and truncated すぐる forms are unrelated.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147207523",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "UniDic sys.dic@147207523 supports 1 for すぐ / すぐ. Immediate departure and return select すぐ immediately; archaic passing verb and truncated すぐる forms are unrelated.",
+            "match": {
+              "word": "すぐ",
+              "reading": "すぐ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Immediate departure and return select すぐ immediately; archaic passing verb and truncated すぐる forms are unrelated."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. Immediate departure and return select すぐ immediately; archaic passing verb and truncated すぐる forms are unrelated.",
+        "contentHash": "adcbc80348555a5352c90bae72ef8d60c1d6474bfb5a5895d64db5f1105e7dd3",
+        "approvalHash": "f90eb841f8cba23cad83524c887c875d1f65257e9429b2554c022cce4ec9cbde"
+      }
+    },
+    {
+      "id": "vocab-n5:207",
+      "revisionId": "v2-wave1-3-207",
+      "state": "accepted",
+      "predecessorHash": "fad6a1bc9780249ba6fba0e69c0ba1aa622aef1a62376ee27c7d88062c76a2f0",
+      "predecessorRevisionHash": null,
+      "originalHash": "fad6a1bc9780249ba6fba0e69c0ba1aa622aef1a62376ee27c7d88062c76a2f0",
+      "rationale": "まだ means still; both negative perfect constructions naturally give noch nicht, matching the negative-form restriction. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250430986",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "UniDic sys.dic@250430986 supports 1 for まだ / まだ. まだ means still; both negative perfect constructions naturally give noch nicht, matching the negative-form restriction.",
+            "match": {
+              "word": "まだ",
+              "reading": "まだ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "まだ means still; both negative perfect constructions naturally give noch nicht, matching the negative-form restriction."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1527110; spelling=まだ; reading=まだ; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "まだ means still; both negative perfect constructions naturally give noch nicht, matching the negative-form restriction.",
+          "selected": {
+            "sequence": "1527110",
+            "spelling": "まだ",
+            "reading": "まだ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "still",
+                  "as yet",
+                  "only"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "(not) yet"
+                ],
+                "notes": [
+                  "with verb in the negative"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "まだ means still; both negative perfect constructions naturally give noch nicht, matching the negative-form restriction.",
+        "japanese": "Not eaten yet; Homework not finished yet use natural Japanese syntax.",
+        "romanization": "mada and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Not eaten yet",
+          "Homework not finished yet"
+        ],
+        "lexical": "まだ means still; both negative perfect constructions naturally give noch nicht, matching the negative-form restriction.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250430986",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "UniDic sys.dic@250430986 supports 1 for まだ / まだ. まだ means still; both negative perfect constructions naturally give noch nicht, matching the negative-form restriction.",
+            "match": {
+              "word": "まだ",
+              "reading": "まだ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "まだ means still; both negative perfect constructions naturally give noch nicht, matching the negative-form restriction."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. まだ means still; both negative perfect constructions naturally give noch nicht, matching the negative-form restriction.",
+        "contentHash": "97074ba6c10b24a24ac0c2ec5d29daa9c62518ae59ae99df75796593526cfba7",
+        "approvalHash": "dfe79dbad88092f082fa73ec7ff324141d8fccde5f5b952a10c32e3dea706c38"
+      }
+    },
+    {
+      "id": "vocab-n5:208",
+      "revisionId": "v2-wave1-3-208",
+      "state": "accepted",
+      "predecessorHash": "8570b622a02d4a0821587906ab0c3230f37c4f72af3e903a6e0311326687bf74",
+      "predecessorRevisionHash": null,
+      "originalHash": "8570b622a02d4a0821587906ab0c3230f37c4f72af3e903a6e0311326687bf74",
+      "rationale": "もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "もう食べました。",
+            "romaji": "Mou tabemashita.",
+            "german": "Ich habe schon gegessen."
+          },
+          {
+            "japanese": "もう帰りましょう。",
+            "romaji": "Mou kaerimashou.",
+            "german": "Lass uns schon zurückkehren."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "もう食べました。",
+            "romaji": "Mou tabemashita.",
+            "german": "Ich habe schon gegessen."
+          },
+          {
+            "japanese": "もう帰りましょう。",
+            "romaji": "Mou kaerimashou.",
+            "german": "Lass uns jetzt zurückgehen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262106615",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "UniDic sys.dic@262106615 supports 0,1 for もう / もう. もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded.",
+            "match": {
+              "word": "もう",
+              "reading": "もう",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1012480; spelling=もう; reading=もう; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded.",
+          "selected": {
+            "sequence": "1012480",
+            "spelling": "もう",
+            "reading": "もう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "already",
+                  "yet",
+                  "by now",
+                  "now",
+                  "(not) any more",
+                  "(not) any longer"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "translation-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded.",
+        "japanese": "Already eaten; Suggestion to return now use natural Japanese syntax.",
+        "romanization": "mou and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "First translation is accurate; second is corrected to a natural invitation to return now.",
+        "contexts": [
+          "Already eaten",
+          "Suggestion to return now"
+        ],
+        "lexical": "もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262106615",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "UniDic sys.dic@262106615 supports 0,1 for もう / もう. もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded.",
+            "match": {
+              "word": "もう",
+              "reading": "もう",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded.",
+        "contentHash": "a17047caff0bfb07e781f3769e50f2be1e34ab3cb0cbf1261d21955d9bc1bfc5",
+        "approvalHash": "8da6fb140c115572fee1300e6ae313c66360e63c1f8631dccf722626ff19d048"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "The assembled second translation now expresses the invitation to return now. Mou tabemashita still means already eaten; exact adverb row supports primary 1. No German routine exemption is used.",
+        "contentHash": "a17047caff0bfb07e781f3769e50f2be1e34ab3cb0cbf1261d21955d9bc1bfc5",
+        "approvalHash": "8da6fb140c115572fee1300e6ae313c66360e63c1f8631dccf722626ff19d048"
+      }
+    },
+    {
+      "id": "vocab-n5:209",
+      "revisionId": "v2-wave1-3-209",
+      "state": "accepted",
+      "predecessorHash": "42e973f01a25609e1e34bbb25169009ffb9a33fa0a18028b9c25ade5f9b9719c",
+      "predecessorRevisionHash": null,
+      "originalHash": "42e973f01a25609e1e34bbb25169009ffb9a33fa0a18028b9c25ade5f9b9719c",
+      "rationale": "とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@186083134",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@186083134 supports 0 for とても / とても. とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction.",
+            "match": {
+              "word": "とても",
+              "reading": "とても",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1008630; spelling=とても; reading=とても; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction.",
+          "selected": {
+            "sequence": "1008630",
+            "spelling": "とても",
+            "reading": "とても",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "very",
+                  "awfully",
+                  "exceedingly"
+                ],
+                "notes": [
+                  "とっても is more emphatic"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction.",
+        "japanese": "Very beautiful flower; Very interesting movie use natural Japanese syntax.",
+        "romanization": "totemo and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Very beautiful flower",
+          "Very interesting movie"
+        ],
+        "lexical": "とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@186083134",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@186083134 supports 0 for とても / とても. とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction.",
+            "match": {
+              "word": "とても",
+              "reading": "とても",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction.",
+        "contentHash": "1b0b7f71761c457908aeb4bf5771f9cf68c31bb025aad9589e68be1ddc409aaf",
+        "approvalHash": "0a881e17de963501353a9d76d0ed77a1de5fd99711eb8b8ff1914b4701fca4bc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "Confirmed affirmative intensifier sense and both natural adjective predicates. Exact totemo adverb row gives 0; old 1 is not supported. German and romanization checked.",
+        "contentHash": "1b0b7f71761c457908aeb4bf5771f9cf68c31bb025aad9589e68be1ddc409aaf",
+        "approvalHash": "0a881e17de963501353a9d76d0ed77a1de5fd99711eb8b8ff1914b4701fca4bc"
+      }
+    },
+    {
+      "id": "vocab-n5:210",
+      "revisionId": "v2-wave1-3-210",
+      "state": "accepted",
+      "predecessorHash": "14159e8b4b934bbd1bb34c47d12b5c752a92dae6c12e8d82bfe7ebd8af16ff51",
+      "predecessorRevisionHash": null,
+      "originalHash": "14159e8b4b934bbd1bb34c47d12b5c752a92dae6c12e8d82bfe7ebd8af16ff51",
+      "rationale": "少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147365150",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "UniDic sys.dic@147365150 supports 2 for 少し / すこし. 少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally.",
+            "match": {
+              "word": "少し",
+              "reading": "すこし",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1348870; spelling=少し; reading=すこし; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally.",
+          "selected": {
+            "sequence": "1348870",
+            "spelling": "少し",
+            "reading": "すこし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "a little",
+                  "a bit",
+                  "a small amount",
+                  "a few",
+                  "some",
+                  "slightly",
+                  "somewhat"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "a little while",
+                  "a short time",
+                  "a moment",
+                  "a minute"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally.",
+        "japanese": "Limited Japanese comprehension; Brief rest suggestion use natural Japanese syntax.",
+        "romanization": "sukoshi and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Limited Japanese comprehension",
+          "Brief rest suggestion"
+        ],
+        "lexical": "少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147365150",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "UniDic sys.dic@147365150 supports 2 for 少し / すこし. 少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally.",
+            "match": {
+              "word": "少し",
+              "reading": "すこし",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally.",
+        "contentHash": "ce49e30586fa8b88f303ca74f8d45149b985c50f971bf9defd479ebef2c889ce",
+        "approvalHash": "6f04d5fbfc0c9655a0cec1d7334d8e12e232429b7268ac6cd9c791c134c391fb"
+      }
+    },
+    {
+      "id": "vocab-n5:211",
+      "revisionId": "v2-wave1-3-211",
+      "state": "accepted",
+      "predecessorHash": "95fe92e3a4b18bb459412ec13e5fefcaa0ddb8b7f20b2028ac53af54b3bee88c",
+      "predecessorRevisionHash": null,
+      "originalHash": "95fe92e3a4b18bb459412ec13e5fefcaa0ddb8b7f20b2028ac53af54b3bee88c",
+      "rationale": "たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@159369673",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@159369673 supports 0 for たくさん / たくさん. たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3.",
+            "match": {
+              "word": "たくさん",
+              "reading": "たくさん",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1415870; spelling=たくさん; reading=たくさん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3.",
+          "selected": {
+            "sequence": "1415870",
+            "spelling": "たくさん",
+            "reading": "たくさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "a lot",
+                  "lots",
+                  "plenty",
+                  "many",
+                  "a large number",
+                  "much",
+                  "a great deal",
+                  "a good deal"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3.",
+        "japanese": "Reading many books; Doing much shopping use natural Japanese syntax.",
+        "romanization": "takusan and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Reading many books",
+          "Doing much shopping"
+        ],
+        "lexical": "たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@159369673",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@159369673 supports 0 for たくさん / たくさん. たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3.",
+            "match": {
+              "word": "たくさん",
+              "reading": "たくさん",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3.",
+        "contentHash": "76894c34fb2f79f400fa65b8de9619d5ce7952270cfc463f1c8a6262df32360d",
+        "approvalHash": "b47dd0dc0bc74665ee328864a33a19a7a415051b2bb0145d2d89623ab1d9a8d8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "Both examples use takusan adverbially; exact adverb 0 is appropriate, distinct from the shape-word 3 row. German quantity renderings and romanization match.",
+        "contentHash": "76894c34fb2f79f400fa65b8de9619d5ce7952270cfc463f1c8a6262df32360d",
+        "approvalHash": "b47dd0dc0bc74665ee328864a33a19a7a415051b2bb0145d2d89623ab1d9a8d8"
+      }
+    },
+    {
+      "id": "vocab-n5:212",
+      "revisionId": "v2-wave1-3-212",
+      "state": "accepted",
+      "predecessorHash": "55d17b1f73614efd143bb3d39ae1dd65aa96851c1ccdc971acb364541cd3ac19",
+      "predecessorRevisionHash": null,
+      "originalHash": "55d17b1f73614efd143bb3d39ae1dd65aa96851c1ccdc971acb364541cd3ac19",
+      "rationale": "全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154953577",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "UniDic sys.dic@154953577 supports 1 for 全部 / ぜんぶ. 全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate.",
+            "match": {
+              "word": "全部",
+              "reading": "ぜんぶ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1396130; spelling=全部; reading=ぜんぶ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate.",
+          "selected": {
+            "sequence": "1396130",
+            "spelling": "全部",
+            "reading": "ぜんぶ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "all",
+                  "entire",
+                  "whole",
+                  "altogether"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate.",
+        "japanese": "Eating everything; Total of one thousand yen use natural Japanese syntax.",
+        "romanization": "zenbu and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Eating everything",
+          "Total of one thousand yen"
+        ],
+        "lexical": "全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154953577",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "UniDic sys.dic@154953577 supports 1 for 全部 / ぜんぶ. 全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate.",
+            "match": {
+              "word": "全部",
+              "reading": "ぜんぶ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate.",
+        "contentHash": "0356d4859c187ea03b9b3af7a3e3d88f752ec853c71962beec5130b6522cfc9a",
+        "approvalHash": "e9b0590b2b306ba9516e14c0f47ff5ab0865e3990377941d62aff1f67d4a8517"
+      }
+    },
+    {
+      "id": "vocab-n5:213",
+      "revisionId": "v2-wave1-3-213",
+      "state": "accepted",
+      "predecessorHash": "1c046ef4ad20bceaef2c3894b97135eeca2d3d45d1f79e34e6c61a4db799b4c6",
+      "predecessorRevisionHash": null,
+      "originalHash": "1c046ef4ad20bceaef2c3894b97135eeca2d3d45d1f79e34e6c61a4db799b4c6",
+      "rationale": "一緒に selects together with invitations to go and study jointly; no exact whole-phrase UniDic match supports stored pitch. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitch": 0
+      },
+      "replacement": {
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1163420; spelling=一緒に; reading=いっしょに; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "一緒に selects together with invitations to go and study jointly; no exact whole-phrase UniDic match supports stored pitch.",
+          "selected": {
+            "sequence": "1163420",
+            "spelling": "一緒に",
+            "reading": "いっしょに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "together (with)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "一緒に selects together with invitations to go and study jointly; no exact whole-phrase UniDic match supports stored pitch.",
+        "japanese": "Invitation to go together; Invitation to study together use natural Japanese syntax.",
+        "romanization": "issho ni and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Invitation to go together",
+          "Invitation to study together"
+        ],
+        "lexical": "一緒に selects together with invitations to go and study jointly; no exact whole-phrase UniDic match supports stored pitch.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact spelling and reading row in the available whole-form UniDic cache; component accents cannot establish the whole entry.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "UniDic exact-form cache 一緒に|いっしょに",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Whole-form lookup returned no matching row. Do not infer pitch from components; retain unknown."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 一緒に selects together with invitations to go and study jointly; no exact whole-phrase UniDic match supports stored pitch.",
+        "contentHash": "168a9773b25d74cae12b95a72cd220b8bca217e82228c1f0d0a7a6358ffe0ab2",
+        "approvalHash": "346ef4668d7cbf829344c5b04f846911b3fad97c5ea85584828deeea66903158"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "Together invitations are accurately rendered and romanized. Whole-phrase UniDic lookup is empty; null records the investigated lack of verified pitch without deriving component accents.",
+        "contentHash": "168a9773b25d74cae12b95a72cd220b8bca217e82228c1f0d0a7a6358ffe0ab2",
+        "approvalHash": "346ef4668d7cbf829344c5b04f846911b3fad97c5ea85584828deeea66903158"
+      }
+    },
+    {
+      "id": "vocab-n5:214",
+      "revisionId": "v2-wave1-3-214",
+      "state": "accepted",
+      "predecessorHash": "ce21211b7d32da15a1e1d48edd9ab0eb87f6755e06f080e7b6d0ce4a8f880e1a",
+      "predecessorRevisionHash": null,
+      "originalHash": "ce21211b7d32da15a1e1d48edd9ab0eb87f6755e06f080e7b6d0ce4a8f880e1a",
+      "rationale": "一つ is native counting one, used with an apple and selecting one item; unrelated discourse senses are excluded. No exact UniDic pitch match. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitch": 2
+      },
+      "replacement": {
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1160820; spelling=一つ; reading=ひとつ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "一つ is native counting one, used with an apple and selecting one item; unrelated discourse senses are excluded. No exact UniDic pitch match.",
+          "selected": {
+            "sequence": "1160820",
+            "spelling": "一つ",
+            "reading": "ひとつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "numeric"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "一つ is native counting one, used with an apple and selecting one item; unrelated discourse senses are excluded. No exact UniDic pitch match.",
+        "japanese": "Requesting one apple; Choosing one item use natural Japanese syntax.",
+        "romanization": "hitotsu and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Requesting one apple",
+          "Choosing one item"
+        ],
+        "lexical": "一つ is native counting one, used with an apple and selecting one item; unrelated discourse senses are excluded. No exact UniDic pitch match.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact spelling and reading row in the available whole-form UniDic cache; component accents cannot establish the whole entry.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "UniDic exact-form cache 一つ|ひとつ",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Whole-form lookup returned no matching row. Do not infer pitch from components; retain unknown."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 一つ is native counting one, used with an apple and selecting one item; unrelated discourse senses are excluded. No exact UniDic pitch match.",
+        "contentHash": "2a50aa66a98d19d4b101f43f6eddfd68b42bb968b05480575b4d0b5b5ec6df34",
+        "approvalHash": "a758df54406ec2abf8681236f58b8ccfc4962a4517bea03dfa6f0cc2328649bc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "Native counting one, apple request and selecting one are correct; hitotsu/erande romanization and German checked. Exact whole-form pitch lookup is empty, so null is honest.",
+        "contentHash": "2a50aa66a98d19d4b101f43f6eddfd68b42bb968b05480575b4d0b5b5ec6df34",
+        "approvalHash": "a758df54406ec2abf8681236f58b8ccfc4962a4517bea03dfa6f0cc2328649bc"
+      }
+    },
+    {
+      "id": "vocab-n5:215",
+      "revisionId": "v2-wave1-3-215",
+      "state": "accepted",
+      "predecessorHash": "d4b0e52ba3f797a16c4f741b7f453533f938eb44ed419c091626c733fe14eec1",
+      "predecessorRevisionHash": null,
+      "originalHash": "d4b0e52ba3f797a16c4f741b7f453533f938eb44ed419c091626c733fe14eec1",
+      "rationale": "二つ native count two is used for eggs and two roads; nouns are the existing teaching category for numeral counters. No exact UniDic pitch match. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitch": 3
+      },
+      "replacement": {
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1461160; spelling=二つ; reading=ふたつ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "二つ native count two is used for eggs and two roads; nouns are the existing teaching category for numeral counters. No exact UniDic pitch match.",
+          "selected": {
+            "sequence": "1461160",
+            "spelling": "二つ",
+            "reading": "ふたつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "numeric"
+                ],
+                "misc": [],
+                "gloss": [
+                  "two"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "二つ native count two is used for eggs and two roads; nouns are the existing teaching category for numeral counters. No exact UniDic pitch match.",
+        "japanese": "Buying two eggs; Existence of two roads use natural Japanese syntax.",
+        "romanization": "futatsu and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Buying two eggs",
+          "Existence of two roads"
+        ],
+        "lexical": "二つ native count two is used for eggs and two roads; nouns are the existing teaching category for numeral counters. No exact UniDic pitch match.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact spelling and reading row in the available whole-form UniDic cache; component accents cannot establish the whole entry.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "UniDic exact-form cache 二つ|ふたつ",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Whole-form lookup returned no matching row. Do not infer pitch from components; retain unknown."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 二つ native count two is used for eggs and two roads; nouns are the existing teaching category for numeral counters. No exact UniDic pitch match.",
+        "contentHash": "0c1041732ee82ea19a4e2b89db335f3791ae1a51b0f788f7673ebb8ce8c5e37b",
+        "approvalHash": "48e5aacf0906d07fa77bd017b874ad7c91ae385a2267c2e9df0466bd11638a0f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "Native counting two is correct for the eggs and road examples; futatsu readings and German checked. Null pitch records absence of exact whole-form evidence.",
+        "contentHash": "0c1041732ee82ea19a4e2b89db335f3791ae1a51b0f788f7673ebb8ce8c5e37b",
+        "approvalHash": "48e5aacf0906d07fa77bd017b874ad7c91ae385a2267c2e9df0466bd11638a0f"
+      }
+    },
+    {
+      "id": "vocab-n5:216",
+      "revisionId": "v2-wave1-3-216",
+      "state": "accepted",
+      "predecessorHash": "38079f0e51f9bb01ca38a910556b3f3af793cdecac6920d3bdfcb8872248ea78",
+      "predecessorRevisionHash": null,
+      "originalHash": "38079f0e51f9bb01ca38a910556b3f3af793cdecac6920d3bdfcb8872248ea78",
+      "rationale": "三つ native count three describes availability and mandarins, not age three. No exact UniDic pitch match. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitch": 3
+      },
+      "replacement": {
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1299740; spelling=三つ; reading=みっつ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "三つ native count three describes availability and mandarins, not age three. No exact UniDic pitch match.",
+          "selected": {
+            "sequence": "1299740",
+            "spelling": "三つ",
+            "reading": "みっつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "numeric"
+                ],
+                "misc": [],
+                "gloss": [
+                  "three"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "三つ native count three describes availability and mandarins, not age three. No exact UniDic pitch match.",
+        "japanese": "Asking availability of three; Eating three mandarins use natural Japanese syntax.",
+        "romanization": "mittsu and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Asking availability of three",
+          "Eating three mandarins"
+        ],
+        "lexical": "三つ native count three describes availability and mandarins, not age three. No exact UniDic pitch match.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact spelling and reading row in the available whole-form UniDic cache; component accents cannot establish the whole entry.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "UniDic exact-form cache 三つ|みっつ",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Whole-form lookup returned no matching row. Do not infer pitch from components; retain unknown."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 三つ native count three describes availability and mandarins, not age three. No exact UniDic pitch match.",
+        "contentHash": "d3e2d94318f13baf66889e68ce62eb2dcdaba0af74c60cd9b21426810c6917a2",
+        "approvalHash": "8fe51f1e72f941a2be6e355aa7c290e6ffbba0d00679dfe7155fabbc60630b9f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "Native counting three is correct in availability and mandarin examples; mittsu gemination and German checked. Null pitch records the documented exact-form search gap.",
+        "contentHash": "d3e2d94318f13baf66889e68ce62eb2dcdaba0af74c60cd9b21426810c6917a2",
+        "approvalHash": "8fe51f1e72f941a2be6e355aa7c290e6ffbba0d00679dfe7155fabbc60630b9f"
+      }
+    },
+    {
+      "id": "vocab-n5:217",
+      "revisionId": "v2-wave1-3-217",
+      "state": "accepted",
+      "predecessorHash": "7f02c22b285b6fe8348f37c78cd621cb879f7cbfe6cb846645795a0a34921a75",
+      "predecessorRevisionHash": null,
+      "originalHash": "7f02c22b285b6fe8348f37c78cd621cb879f7cbfe6cb846645795a0a34921a75",
+      "rationale": "お金 is the polite everyday money noun. Negated possession and overspending examples retain Geld; no exact UniDic pitch row for the full prefixed word. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitch": 0
+      },
+      "replacement": {
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1001820; spelling=お金; reading=おかね; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "お金 is the polite everyday money noun. Negated possession and overspending examples retain Geld; no exact UniDic pitch row for the full prefixed word.",
+          "selected": {
+            "sequence": "1001820",
+            "spelling": "お金",
+            "reading": "おかね",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "money"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "お金 is the polite everyday money noun. Negated possession and overspending examples retain Geld; no exact UniDic pitch row for the full prefixed word.",
+        "japanese": "Having no money; Having spent too much money use natural Japanese syntax.",
+        "romanization": "okane and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Having no money",
+          "Having spent too much money"
+        ],
+        "lexical": "お金 is the polite everyday money noun. Negated possession and overspending examples retain Geld; no exact UniDic pitch row for the full prefixed word.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact spelling and reading row in the available whole-form UniDic cache; component accents cannot establish the whole entry.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "UniDic exact-form cache お金|おかね",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Whole-form lookup returned no matching row. Do not infer pitch from components; retain unknown."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. お金 is the polite everyday money noun. Negated possession and overspending examples retain Geld; no exact UniDic pitch row for the full prefixed word.",
+        "contentHash": "e124cd743c21891e834cce474687a0e294ddeab01f961c8be6ee8e0778c014ab",
+        "approvalHash": "161201163b3d4d5058454be5aac55d29dba999e3ac4b57083ac8dba6563414a6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "The polite money noun fits lack of money and overspending; tsukaisugimashita and German tense/polarity are correct. Prefix accent was not guessed; investigated null is justified by the exact-form cache gap.",
+        "contentHash": "e124cd743c21891e834cce474687a0e294ddeab01f961c8be6ee8e0778c014ab",
+        "approvalHash": "161201163b3d4d5058454be5aac55d29dba999e3ac4b57083ac8dba6563414a6"
+      }
+    },
+    {
+      "id": "vocab-n5:218",
+      "revisionId": "v2-wave1-3-218",
+      "state": "accepted",
+      "predecessorHash": "affad01cda7a83724ef3e5e6aa8616bece1c5ba039366436e14b671e9f86d4c4",
+      "predecessorRevisionHash": null,
+      "originalHash": "affad01cda7a83724ef3e5e6aa8616bece1c5ba039366436e14b671e9f86d4c4",
+      "rationale": "切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104733869",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@104733869 supports 0 for 切符 / きっぷ. 切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets.",
+            "match": {
+              "word": "切符",
+              "reading": "きっぷ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1385170; spelling=切符; reading=きっぷ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets.",
+          "selected": {
+            "sequence": "1385170",
+            "spelling": "切符",
+            "reading": "きっぷ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ticket"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets.",
+        "japanese": "Buying a ticket; Requesting two tickets use natural Japanese syntax.",
+        "romanization": "kippu and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Buying a ticket",
+          "Requesting two tickets"
+        ],
+        "lexical": "切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104733869",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@104733869 supports 0 for 切符 / きっぷ. 切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets.",
+            "match": {
+              "word": "切符",
+              "reading": "きっぷ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets.",
+        "contentHash": "ed39c1ed81046056a5579ffc44279aff4186e997672892c6b9a420d8fcd12791",
+        "approvalHash": "705a307aa39f4b2e2f8cf52ca8438083213dd1a20e89dbc3dbf4fe8664b91961"
+      }
+    },
+    {
+      "id": "vocab-n5:219",
+      "revisionId": "v2-wave1-3-219",
+      "state": "accepted",
+      "predecessorHash": "185d0f7e28b4d5e13a3e0eaa38964b0369d55d6c0f014187155a8be4684377fa",
+      "predecessorRevisionHash": null,
+      "originalHash": "185d0f7e28b4d5e13a3e0eaa38964b0369d55d6c0f014187155a8be4684377fa",
+      "rationale": "切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104724297",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "UniDic sys.dic@104724297 supports 0,3 for 切手 / きって. 切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken.",
+            "match": {
+              "word": "切手",
+              "reading": "きって",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1385070; spelling=切手; reading=きって; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken.",
+          "selected": {
+            "sequence": "1385070",
+            "spelling": "切手",
+            "reading": "きって",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "stamp (postage)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken.",
+        "japanese": "Requesting stamps; Admiring a particular stamp use natural Japanese syntax.",
+        "romanization": "kitte and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Requesting stamps",
+          "Admiring a particular stamp"
+        ],
+        "lexical": "切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104724297",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "UniDic sys.dic@104724297 supports 0,3 for 切手 / きって. 切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken.",
+            "match": {
+              "word": "切手",
+              "reading": "きって",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken.",
+        "contentHash": "be2d1da5e94c00d3a6b805edbedd7506bb7ec1c636457035bd00eef1c5d26a55",
+        "approvalHash": "186b1fec97f92283e5e5666dc927ccbe3df2993d332352e2aeb4c471b5976b9e"
+      }
+    },
+    {
+      "id": "vocab-n5:220",
+      "revisionId": "v2-wave1-3-220",
+      "state": "accepted",
+      "predecessorHash": "24ad640031de34cc3df61c44148fbf0aa3df9759b7c6c33ee4b60e2dcd4f420f",
+      "predecessorRevisionHash": null,
+      "originalHash": "24ad640031de34cc3df61c44148fbf0aa3df9759b7c6c33ee4b60e2dcd4f420f",
+      "rationale": "手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180131117",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@180131117 supports 0 for 手紙 / てがみ. 手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession.",
+            "match": {
+              "word": "手紙",
+              "reading": "てがみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1327720; spelling=手紙; reading=てがみ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession.",
+          "selected": {
+            "sequence": "1327720",
+            "spelling": "手紙",
+            "reading": "てがみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "letter",
+                  "note"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession.",
+        "japanese": "Writing a letter; Receiving a letter from a friend use natural Japanese syntax.",
+        "romanization": "tegami and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Writing a letter",
+          "Receiving a letter from a friend"
+        ],
+        "lexical": "手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180131117",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@180131117 supports 0 for 手紙 / てがみ. 手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession.",
+            "match": {
+              "word": "手紙",
+              "reading": "てがみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession.",
+        "contentHash": "1cc98e82374fe613cfe47c34639181426a13e960b5af2d5d9a7cc3847c832795",
+        "approvalHash": "57db3ab4397edd85806836107ce56b52677424fd264f792fc6aab541fdad1ad0"
+      }
+    },
+    {
+      "id": "vocab-n5:221",
+      "revisionId": "v2-wave1-3-221",
+      "state": "accepted",
+      "predecessorHash": "a6b504f0e8365a938ed9a065b2ec80367bcce2002e25ddd9ed8ea7e9634265f5",
+      "predecessorRevisionHash": null,
+      "originalHash": "a6b504f0e8365a938ed9a065b2ec80367bcce2002e25ddd9ed8ea7e9634265f5",
+      "rationale": "名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@197787508",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@197787508 supports 0 for 名前 / なまえ. 名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent.",
+            "match": {
+              "word": "名前",
+              "reading": "なまえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1531710; spelling=名前; reading=なまえ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent.",
+          "selected": {
+            "sequence": "1531710",
+            "spelling": "名前",
+            "reading": "なまえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "name"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": true
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent.",
+        "japanese": "Polite inquiry about a person name; Asking a flower name use natural Japanese syntax.",
+        "romanization": "namae and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Polite inquiry about a person name",
+          "Asking a flower name"
+        ],
+        "lexical": "名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@197787508",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@197787508 supports 0 for 名前 / なまえ. 名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent.",
+            "match": {
+              "word": "名前",
+              "reading": "なまえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent.",
+        "contentHash": "53597f340fa7c4a54bcc369b4aee5b2b8458a91dc33553afcf443c53058ed751",
+        "approvalHash": "7701b67e6bbc53e3caf15384a577a2ae84703bcccf39fcefe6c6fb3dcaca36ab"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-independent1",
+        "finding": "Independent sample: namae means name in both personal and flower contexts; polite onamae inquiry idiomatically becomes Wie heissen Sie. Source common-noun row supports 0; both examples and romanization checked.",
+        "contentHash": "53597f340fa7c4a54bcc369b4aee5b2b8458a91dc33553afcf443c53058ed751",
+        "approvalHash": "7701b67e6bbc53e3caf15384a577a2ae84703bcccf39fcefe6c6fb3dcaca36ab"
+      }
+    },
+    {
+      "id": "vocab-n5:222",
+      "revisionId": "v2-wave1-3-222",
+      "state": "accepted",
+      "predecessorHash": "e03dfee5754f7a8e0b958bdc04549e2f3395dc43e3398e2f7ac31585dfc0d7c7",
+      "predecessorRevisionHash": null,
+      "originalHash": "e03dfee5754f7a8e0b958bdc04549e2f3395dc43e3398e2f7ac31585dfc0d7c7",
+      "rationale": "言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123567699",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "UniDic sys.dic@123567699 supports 3 for 言葉 / ことば. 言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German.",
+            "match": {
+              "word": "言葉",
+              "reading": "ことば",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1264540; spelling=言葉; reading=ことば; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German.",
+          "selected": {
+            "sequence": "1264540",
+            "spelling": "言葉",
+            "reading": "ことば",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "language",
+                  "dialect"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "word",
+                  "phrase",
+                  "expression",
+                  "term"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German.",
+        "japanese": "Learning Japanese words; Requesting how to read a word use natural Japanese syntax.",
+        "romanization": "kotoba and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Learning Japanese words",
+          "Requesting how to read a word"
+        ],
+        "lexical": "言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123567699",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "UniDic sys.dic@123567699 supports 3 for 言葉 / ことば. 言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German.",
+            "match": {
+              "word": "言葉",
+              "reading": "ことば",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German.",
+        "contentHash": "24e22342a479b5cd5e39ae27bab19d6e28aff24d073abcf272d237003cf7972d",
+        "approvalHash": "80b6e19c1e3d8026856e79fc0117b4ad977add330fb6465c6b4966a09712c6f9"
+      }
+    },
+    {
+      "id": "vocab-n5:223",
+      "revisionId": "v2-wave1-3-223",
+      "state": "accepted",
+      "predecessorHash": "f1f01150d60fcc4c12f6365942e265e74e4eb6cb27f21e4fdbd79494d7a00712",
+      "predecessorRevisionHash": null,
+      "originalHash": "f1f01150d60fcc4c12f6365942e265e74e4eb6cb27f21e4fdbd79494d7a00712",
+      "rationale": "意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@57666154",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "UniDic sys.dic@57666154 supports 1 for 意味 / いみ. 意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry.",
+            "match": {
+              "word": "意味",
+              "reading": "いみ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1156800; spelling=意味; reading=いみ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry.",
+          "selected": {
+            "sequence": "1156800",
+            "spelling": "意味",
+            "reading": "いみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meaning",
+                  "significance",
+                  "sense"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry.",
+        "japanese": "Meaning of a word; Not understanding a kanji meaning use natural Japanese syntax.",
+        "romanization": "imi and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Meaning of a word",
+          "Not understanding a kanji meaning"
+        ],
+        "lexical": "意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@57666154",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "UniDic sys.dic@57666154 supports 1 for 意味 / いみ. 意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry.",
+            "match": {
+              "word": "意味",
+              "reading": "いみ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry.",
+        "contentHash": "bcfb199184c38c1354266ea0c913e870c525fde6cf265b970e9f9e7c6a653320",
+        "approvalHash": "858c2f13404d5332a5d4e3a93e4046d9b3c0ff8cc23cb0f38fb09dfadde68790"
+      }
+    },
+    {
+      "id": "vocab-n5:224",
+      "revisionId": "v2-wave1-3-224",
+      "state": "accepted",
+      "predecessorHash": "b1b4d711c49e4043ed99b250eb7d8c74d6e9911409a215a6073bb853687ebff1",
+      "predecessorRevisionHash": null,
+      "originalHash": "b1b4d711c49e4043ed99b250eb7d8c74d6e9911409a215a6073bb853687ebff1",
+      "rationale": "質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136390287",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@136390287 supports 0 for 質問 / しつもん. 質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both.",
+            "match": {
+              "word": "質問",
+              "reading": "しつもん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1320760; spelling=質問; reading=しつもん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both.",
+          "selected": {
+            "sequence": "1320760",
+            "spelling": "質問",
+            "reading": "しつもん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "question",
+                  "inquiry",
+                  "enquiry"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both.",
+        "japanese": "Asking whether someone has a question; Asking permission to question the teacher use natural Japanese syntax.",
+        "romanization": "shitsumon and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Asking whether someone has a question",
+          "Asking permission to question the teacher"
+        ],
+        "lexical": "質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136390287",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "UniDic sys.dic@136390287 supports 0 for 質問 / しつもん. 質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both.",
+            "match": {
+              "word": "質問",
+              "reading": "しつもん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both.",
+        "contentHash": "ce694d7c17a7fdca22f5a3e1b1411963697761b34106acb8cf0b6b05fc7a32a1",
+        "approvalHash": "66c0348511eb703c28d264b015fa623b0aaf9ff3cee0e2e0eafd6a52b318c9b3"
+      }
+    },
+    {
+      "id": "vocab-n5:225",
+      "revisionId": "v2-wave1-3-225",
+      "state": "accepted",
+      "predecessorHash": "628ce9ede0e94477a7f018048a64964cf11b807d0ea181d991ddcc079bc681e5",
+      "predecessorRevisionHash": null,
+      "originalHash": "628ce9ede0e94477a7f018048a64964cf11b807d0ea181d991ddcc079bc681e5",
+      "rationale": "答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える. Spelling, reading, romanization, existing N5 classification and category are appropriate; no new lexical sense or Japanese sentence is introduced.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123065130",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              3
+            ],
+            "finding": "UniDic sys.dic@123065130 supports 2,3 for 答え / こたえ. 答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える.",
+            "match": {
+              "word": "答え",
+              "reading": "こたえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1449530; spelling=答え; reading=こたえ; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える.",
+          "selected": {
+            "sequence": "1449530",
+            "spelling": "答え",
+            "reading": "こたえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "answer",
+                  "reply",
+                  "response"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "answer",
+                  "solution",
+                  "result"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "routine",
+        "reasons": [],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "review": {
+        "reviewer": "v2-wave1-editor3",
+        "meaning": "答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える.",
+        "japanese": "Writing the answer; Not knowing the answer to a question use natural Japanese syntax.",
+        "romanization": "kotae and both example romanizations correctly reflect the displayed kana, long vowels and particles.",
+        "translation": "Both German translations preserve the displayed Japanese situations, tense and polarity.",
+        "contexts": [
+          "Writing the answer",
+          "Not knowing the answer to a question"
+        ],
+        "lexical": "答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える.",
+        "register": "Everyday neutral vocabulary; examples use appropriate polite predicates or requests.",
+        "transitivity": "No headword verb-group change; particles and predicate argument structure in both examples are appropriate.",
+        "conjugation": "Displayed inflected predicates and auxiliary constructions are well formed; headword has no conjugation metadata.",
+        "level": "Retain N5 introductory vocabulary and existing category; dictionary evidence does not assert official JLPT assignment."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact spelling and kana with the appropriate lexical part of speech support the selected patterns; competing grammatical rows are excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123065130",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              3
+            ],
+            "finding": "UniDic sys.dic@123065130 supports 2,3 for 答え / こたえ. 答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える.",
+            "match": {
+              "word": "答え",
+              "reading": "こたえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "v2-wave1-editor3",
+        "finding": "Inspected final content, selected dictionary senses, both Japanese examples, romanization, German renderings, and bound pitch evidence. 答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える.",
+        "contentHash": "4b42c4b2a021c4e81ddca50aae1c0289b8fa621f3588cc4375737ea509198015",
+        "approvalHash": "73ae3f4b876dd8003ef7c7a39e1ca8537e291d56b07fab575d428705afc518d3"
+      }
+    }
+  ],
+  "decisions": []
+}

@@ -1,0 +1,2449 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:393",
+      "revisionId": "020-sweep-vocab-n5-393",
+      "state": "accepted",
+      "predecessorHash": "002111eb67c08e8f206ada0ea7ead6b0581154b2b7ffc88f5eb9bb47b76fd83f",
+      "predecessorRevisionHash": null,
+      "originalHash": "002111eb67c08e8f206ada0ea7ead6b0581154b2b7ffc88f5eb9bb47b76fd83f",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "風邪をひきました。",
+            "romaji": "Kaze o hikimashita.",
+            "german": "Ich habe mich erkältet."
+          },
+          {
+            "japanese": "風邪をひきました。",
+            "romaji": "Kaze o hikimashita.",
+            "german": "Ich habe mich erkältet."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "風邪をひきました。",
+            "romaji": "Kaze o hikimashita.",
+            "german": "Ich habe mich erkältet."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93959210",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Cold noun; kaze o hiku expresses catching a cold; German and romanization match. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "風邪",
+              "reading": "かぜ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Cold noun; kaze o hiku expresses catching a cold; German and romanization match."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1583720; spelling=風邪; reading=かぜ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Cold noun; kaze o hiku expresses catching a cold; German and romanization match.",
+          "selected": {
+            "sequence": "1583720",
+            "spelling": "風邪",
+            "reading": "かぜ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(common) cold",
+                  "influenza",
+                  "flu",
+                  "ague",
+                  "inflammatory respiratory system illness (in general)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n5:393",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Cold noun; kaze o hiku expresses catching a cold; German and romanization match.",
+        "japanese": "Inspected every retained Japanese sentence: Reporting having caught a cold.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Cold noun; kaze o hiku expresses catching a cold; German and romanization match.",
+        "contexts": [
+          "Reporting having caught a cold."
+        ],
+        "lexical": "Cold noun; kaze o hiku expresses catching a cold; German and romanization match.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N5 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93959210",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Cold noun; kaze o hiku expresses catching a cold; German and romanization match. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "風邪",
+              "reading": "かぜ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Cold noun; kaze o hiku expresses catching a cold; German and romanization match."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "91e7c2d0bf58927c4fafa9f9878d2bd1cb9df95a5343f4239f9b265b5b09d65d",
+        "approvalHash": "668538bc7d2779caffdf2f0f3c19adcda57d7478445ab2f3709dc60345f0e2d3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Cold noun and kaze o hiku match selected dictionary sense; retained caught-a-cold example has faithful reading and translation, exact noun accent0. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "91e7c2d0bf58927c4fafa9f9878d2bd1cb9df95a5343f4239f9b265b5b09d65d",
+        "approvalHash": "668538bc7d2779caffdf2f0f3c19adcda57d7478445ab2f3709dc60345f0e2d3"
+      }
+    },
+    {
+      "id": "vocab-n5:465",
+      "revisionId": "020-sweep-vocab-n5-465",
+      "state": "accepted",
+      "predecessorHash": "a4e0c757bdee72c32009fe2f1de601216a2c666ca5c6ac40c5770ed25d09098d",
+      "predecessorRevisionHash": null,
+      "originalHash": "a4e0c757bdee72c32009fe2f1de601216a2c666ca5c6ac40c5770ed25d09098d",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "星が光っています。",
+            "romaji": "Hoshi ga hikatte imasu.",
+            "german": "Die Sterne leuchten."
+          },
+          {
+            "japanese": "星が光っています。",
+            "romaji": "Hoshi ga hikatte imasu.",
+            "german": "Die Sterne leuchten."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "星が光っています。",
+            "romaji": "Hoshi ga hikatte imasu.",
+            "german": "Die Sterne leuchten."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@222112811",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Intransitive godan hikaru shine/glitter; stars shining agrees with Japanese, romanization and German. Exact complete-form UniDic row supports retained pitch 2.",
+            "match": {
+              "word": "光る",
+              "reading": "ひかる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Intransitive godan hikaru shine/glitter; stars shining agrees with Japanese, romanization and German."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1272820; spelling=光る; reading=ひかる; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Intransitive godan hikaru shine/glitter; stars shining agrees with Japanese, romanization and German.",
+          "selected": {
+            "sequence": "1272820",
+            "spelling": "光る",
+            "reading": "ひかる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to shine",
+                  "to glitter",
+                  "to be bright"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n5:465",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Intransitive godan hikaru shine/glitter; stars shining agrees with Japanese, romanization and German.",
+        "japanese": "Inspected every retained Japanese sentence: Observing shining stars.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Intransitive godan hikaru shine/glitter; stars shining agrees with Japanese, romanization and German.",
+        "contexts": [
+          "Observing shining stars."
+        ],
+        "lexical": "Intransitive godan hikaru shine/glitter; stars shining agrees with Japanese, romanization and German.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Intransitive godan hikaru shine/glitter; stars shining agrees with Japanese, romanization and German.",
+        "conjugation": "Existing godan group, reading and nested metadata agree with dictionary morphology.",
+        "level": "Existing N5 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@222112811",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Intransitive godan hikaru shine/glitter; stars shining agrees with Japanese, romanization and German. Exact complete-form UniDic row supports retained pitch 2.",
+            "match": {
+              "word": "光る",
+              "reading": "ひかる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Intransitive godan hikaru shine/glitter; stars shining agrees with Japanese, romanization and German."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "867f3a447c6b47b25faecdf469fce14ff12462ce9e23b2a3dfd7ad3ede068a7f",
+        "approvalHash": "ff25fd4e38947fa3258cb81a6f7e33f16e5dc6f43e01cf1fb19b39f01ef92bd9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Intransitive godan hikaru and hikatte progressive describe shining stars correctly; selected dictionary sense and terminal UniDic form attest accent2. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "867f3a447c6b47b25faecdf469fce14ff12462ce9e23b2a3dfd7ad3ede068a7f",
+        "approvalHash": "ff25fd4e38947fa3258cb81a6f7e33f16e5dc6f43e01cf1fb19b39f01ef92bd9"
+      }
+    },
+    {
+      "id": "vocab-n5:502",
+      "revisionId": "020-sweep-vocab-n5-502",
+      "state": "accepted",
+      "predecessorHash": "3a98a1e0e31160077335b2000f310ed98fb1a41739903a8a8888fc403a861141",
+      "predecessorRevisionHash": null,
+      "originalHash": "3a98a1e0e31160077335b2000f310ed98fb1a41739903a8a8888fc403a861141",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "家族は大切です。",
+            "romaji": "Kazoku wa taisetsu desu.",
+            "german": "Die Familie ist wichtig."
+          },
+          {
+            "japanese": "家族は大切です。",
+            "romaji": "Kazoku wa taisetsu desu.",
+            "german": "Die Familie ist wichtig."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "家族は大切です。",
+            "romaji": "Kazoku wa taisetsu desu.",
+            "german": "Die Familie ist wichtig."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158102056",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Na-adjective important/valuable; family importance sense matches German. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "大切",
+              "reading": "たいせつ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Na-adjective important/valuable; family importance sense matches German."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1414340; spelling=大切; reading=たいせつ; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Na-adjective important/valuable; family importance sense matches German.",
+          "selected": {
+            "sequence": "1414340",
+            "spelling": "大切",
+            "reading": "たいせつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "important",
+                  "significant",
+                  "serious",
+                  "crucial"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "precious",
+                  "valuable",
+                  "dear",
+                  "cherished",
+                  "beloved"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n5:502",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Na-adjective important/valuable; family importance sense matches German.",
+        "japanese": "Inspected every retained Japanese sentence: Stating that family is important.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Na-adjective important/valuable; family importance sense matches German.",
+        "contexts": [
+          "Stating that family is important."
+        ],
+        "lexical": "Na-adjective important/valuable; family importance sense matches German.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N5 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158102056",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Na-adjective important/valuable; family importance sense matches German. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "大切",
+              "reading": "たいせつ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Na-adjective important/valuable; family importance sense matches German."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "fa52973ce583ab51505dc53c3443eaf64fa4b9eb42249692724cf2363715b7ca",
+        "approvalHash": "b443a4a23b387e62121f37ea038f8cd668cb32482fc544dd9d69cd38509dff30"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Na-adjective important/precious supports both existing German glosses; family importance example and exact adjective accent0 agree. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "fa52973ce583ab51505dc53c3443eaf64fa4b9eb42249692724cf2363715b7ca",
+        "approvalHash": "b443a4a23b387e62121f37ea038f8cd668cb32482fc544dd9d69cd38509dff30"
+      }
+    },
+    {
+      "id": "vocab-n5:622",
+      "revisionId": "020-sweep-vocab-n5-622",
+      "state": "accepted",
+      "predecessorHash": "2d515de00476ef25f446652e9714d9714d0ca83e884f26fe0b7bda9f2e458739",
+      "predecessorRevisionHash": null,
+      "originalHash": "2d515de00476ef25f446652e9714d9714d0ca83e884f26fe0b7bda9f2e458739",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "最近忙しいです。",
+            "romaji": "Saikin isogashii desu.",
+            "german": "In letzter Zeit bin ich beschäftigt."
+          },
+          {
+            "japanese": "最近忙しいです。",
+            "romaji": "Saikin isogashii desu.",
+            "german": "In letzter Zeit bin ich beschäftigt."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "最近忙しいです。",
+            "romaji": "Saikin isogashii desu.",
+            "german": "In letzter Zeit bin ich beschäftigt."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126937581",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Recent-time adverb saikin, not the nearest-distance sense; being busy lately is accurately translated. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "最近",
+              "reading": "さいきん",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Recent-time adverb saikin, not the nearest-distance sense; being busy lately is accurately translated."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1293780; spelling=最近; reading=さいきん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Recent-time adverb saikin, not the nearest-distance sense; being busy lately is accurately translated.",
+          "selected": {
+            "sequence": "1293780",
+            "spelling": "最近",
+            "reading": "さいきん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "recently",
+                  "lately",
+                  "these days",
+                  "nowadays",
+                  "right now"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n5:622",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Recent-time adverb saikin, not the nearest-distance sense; being busy lately is accurately translated.",
+        "japanese": "Inspected every retained Japanese sentence: Reporting recent busyness.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Recent-time adverb saikin, not the nearest-distance sense; being busy lately is accurately translated.",
+        "contexts": [
+          "Reporting recent busyness."
+        ],
+        "lexical": "Recent-time adverb saikin, not the nearest-distance sense; being busy lately is accurately translated.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N5 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126937581",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Recent-time adverb saikin, not the nearest-distance sense; being busy lately is accurately translated. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "最近",
+              "reading": "さいきん",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Recent-time adverb saikin, not the nearest-distance sense; being busy lately is accurately translated."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "d2fc0207c11e1f3f960fe4ad2adecc1f71488e5fb55c5ef466e03d3ab7794115",
+        "approvalHash": "c78b98aad464ea395877409ae39d791bda5f8d9325a50ec3f58a5222d767a824"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Recent-time adverb use is covered by selected noun/adverb sense and exact adverb-capable UniDic noun accent0; busy-lately example is coherent. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "d2fc0207c11e1f3f960fe4ad2adecc1f71488e5fb55c5ef466e03d3ab7794115",
+        "approvalHash": "c78b98aad464ea395877409ae39d791bda5f8d9325a50ec3f58a5222d767a824"
+      }
+    },
+    {
+      "id": "vocab-n5:504",
+      "revisionId": "020-sweep-vocab-n5-504",
+      "state": "accepted",
+      "predecessorHash": "878485c57440f238214098d5476e72669029b46405d20a827500051f8425413a",
+      "predecessorRevisionHash": null,
+      "originalHash": "878485c57440f238214098d5476e72669029b46405d20a827500051f8425413a",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "この問題は簡単です。",
+            "romaji": "Kono mondai wa kantan desu.",
+            "german": "Dieses Problem ist einfach."
+          },
+          {
+            "japanese": "この問題は簡単です。",
+            "romaji": "Kono mondai wa kantan desu.",
+            "german": "Dieses Problem ist einfach."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "この問題は簡単です。",
+            "romaji": "Kono mondai wa kantan desu.",
+            "german": "Dieses Problem ist einfach."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100685491",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Simple/easy na-adjective; easy problem context aligns with German and romanization. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "簡単",
+              "reading": "かんたん",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Simple/easy na-adjective; easy problem context aligns with German and romanization."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1214330; spelling=簡単; reading=かんたん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Simple/easy na-adjective; easy problem context aligns with German and romanization.",
+          "selected": {
+            "sequence": "1214330",
+            "spelling": "簡単",
+            "reading": "かんたん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "simple",
+                  "easy",
+                  "uncomplicated"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n5:504",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Simple/easy na-adjective; easy problem context aligns with German and romanization.",
+        "japanese": "Inspected every retained Japanese sentence: Evaluating a problem as easy.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Simple/easy na-adjective; easy problem context aligns with German and romanization.",
+        "contexts": [
+          "Evaluating a problem as easy."
+        ],
+        "lexical": "Simple/easy na-adjective; easy problem context aligns with German and romanization.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N5 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100685491",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Simple/easy na-adjective; easy problem context aligns with German and romanization. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "簡単",
+              "reading": "かんたん",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Simple/easy na-adjective; easy problem context aligns with German and romanization."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "94102e53f69959da9cd256e88831b32eaeb67f53a58c9ade1a7f76e440f30e04",
+        "approvalHash": "e5c8aca0a138b930348f9a23cb03cc1286b40bc281c68694a4046aec430c6076"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Na-adjective simple/easy and problem predication agree in Japanese and German; exact adjective accent0 supports retention. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "94102e53f69959da9cd256e88831b32eaeb67f53a58c9ade1a7f76e440f30e04",
+        "approvalHash": "e5c8aca0a138b930348f9a23cb03cc1286b40bc281c68694a4046aec430c6076"
+      }
+    },
+    {
+      "id": "vocab-n5:641",
+      "revisionId": "020-sweep-vocab-n5-641",
+      "state": "accepted",
+      "predecessorHash": "da5c2f69650a4be1205aee61732c0ac2ca703884a13e1b8c35991c13a6bd40d6",
+      "predecessorRevisionHash": null,
+      "originalHash": "da5c2f69650a4be1205aee61732c0ac2ca703884a13e1b8c35991c13a6bd40d6",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "天気が変わりました。",
+            "romaji": "Tenki ga kawarimashita.",
+            "german": "Das Wetter hat sich geändert."
+          },
+          {
+            "japanese": "天気が変わりました。",
+            "romaji": "Tenki ga kawarimashita.",
+            "german": "Das Wetter hat sich geändert."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "天気が変わりました。",
+            "romaji": "Tenki ga kawarimashita.",
+            "german": "Das Wetter hat sich geändert."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99909208",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Intransitive godan kawaru change; changed weather matches Japanese and German, not transitive kaeru. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "変わる",
+              "reading": "かわる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Intransitive godan kawaru change; changed weather matches Japanese and German, not transitive kaeru."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1510790; spelling=変わる; reading=かわる; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Intransitive godan kawaru change; changed weather matches Japanese and German, not transitive kaeru.",
+          "selected": {
+            "sequence": "1510790",
+            "spelling": "変わる",
+            "reading": "かわる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to change",
+                  "to be transformed",
+                  "to be altered",
+                  "to vary"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n5:641",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Intransitive godan kawaru change; changed weather matches Japanese and German, not transitive kaeru.",
+        "japanese": "Inspected every retained Japanese sentence: Reporting a weather change.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Intransitive godan kawaru change; changed weather matches Japanese and German, not transitive kaeru.",
+        "contexts": [
+          "Reporting a weather change."
+        ],
+        "lexical": "Intransitive godan kawaru change; changed weather matches Japanese and German, not transitive kaeru.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Intransitive godan kawaru change; changed weather matches Japanese and German, not transitive kaeru.",
+        "conjugation": "Existing godan group, reading and nested metadata agree with dictionary morphology.",
+        "level": "Existing N5 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99909208",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Intransitive godan kawaru change; changed weather matches Japanese and German, not transitive kaeru. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "変わる",
+              "reading": "かわる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Intransitive godan kawaru change; changed weather matches Japanese and German, not transitive kaeru."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "cb5fe70e1e4e0ae09390d179260888bf3ff8f24f091f421b576d2eb04bc3792c",
+        "approvalHash": "0188f5322a794371a75e9c12d78b7e544a83270817f97668968415bb2d2c0895"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Intransitive change godan verb with past polite kawarimashita correctly describes changing weather; exact terminal accent0. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "cb5fe70e1e4e0ae09390d179260888bf3ff8f24f091f421b576d2eb04bc3792c",
+        "approvalHash": "0188f5322a794371a75e9c12d78b7e544a83270817f97668968415bb2d2c0895"
+      }
+    },
+    {
+      "id": "vocab-n5:636",
+      "revisionId": "020-sweep-vocab-n5-636",
+      "state": "accepted",
+      "predecessorHash": "3d0a62d7f42b0211c43dcebadca97d5c6eab010411dc48096b2bdd7007eefd3c",
+      "predecessorRevisionHash": null,
+      "originalHash": "3d0a62d7f42b0211c43dcebadca97d5c6eab010411dc48096b2bdd7007eefd3c",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "部屋を片付けてください。",
+            "romaji": "Heya o katazukete kudasai.",
+            "german": "Bitte räumen Sie das Zimmer auf."
+          },
+          {
+            "japanese": "部屋を片付けてください。",
+            "romaji": "Heya o katazukete kudasai.",
+            "german": "Bitte räumen Sie das Zimmer auf."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "部屋を片付けてください。",
+            "romaji": "Heya o katazukete kudasai.",
+            "german": "Bitte räumen Sie das Zimmer auf."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@94402759",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "Transitive ichidan katazukeru tidy up; room-cleaning request accurately romanized and translated. Exact complete-form UniDic row supports retained pitch 4.",
+            "match": {
+              "word": "片付ける",
+              "reading": "かたづける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "Transitive ichidan katazukeru tidy up; room-cleaning request accurately romanized and translated."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1511790; spelling=片付ける; reading=かたづける; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Transitive ichidan katazukeru tidy up; room-cleaning request accurately romanized and translated.",
+          "selected": {
+            "sequence": "1511790",
+            "spelling": "片付ける",
+            "reading": "かたづける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to put in order",
+                  "to tidy up",
+                  "to clean up",
+                  "to put away",
+                  "to clear away"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n5:636",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Transitive ichidan katazukeru tidy up; room-cleaning request accurately romanized and translated.",
+        "japanese": "Inspected every retained Japanese sentence: Requesting that a room be tidied.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Transitive ichidan katazukeru tidy up; room-cleaning request accurately romanized and translated.",
+        "contexts": [
+          "Requesting that a room be tidied."
+        ],
+        "lexical": "Transitive ichidan katazukeru tidy up; room-cleaning request accurately romanized and translated.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Transitive ichidan katazukeru tidy up; room-cleaning request accurately romanized and translated.",
+        "conjugation": "Existing ichidan group, reading and nested metadata agree with dictionary morphology.",
+        "level": "Existing N5 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@94402759",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "Transitive ichidan katazukeru tidy up; room-cleaning request accurately romanized and translated. Exact complete-form UniDic row supports retained pitch 4.",
+            "match": {
+              "word": "片付ける",
+              "reading": "かたづける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "Transitive ichidan katazukeru tidy up; room-cleaning request accurately romanized and translated."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "76d15317fad5677f2cb144179b1cbf32dfffbdd2338b20c2b47eaa84361730fc",
+        "approvalHash": "43188032ffad6e6c8b0bd3316f9704785cb3f8b5d1f522be5babf953cc52491a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Transitive ichidan tidy up correctly takes room as object; katazukete request matches pronunciation of づ; exact terminal accent4. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "76d15317fad5677f2cb144179b1cbf32dfffbdd2338b20c2b47eaa84361730fc",
+        "approvalHash": "43188032ffad6e6c8b0bd3316f9704785cb3f8b5d1f522be5babf953cc52491a"
+      }
+    },
+    {
+      "id": "vocab-n4:521",
+      "revisionId": "020-sweep-vocab-n4-521",
+      "state": "accepted",
+      "predecessorHash": "6cda743bde7cb5b7cfc2721b4e2ef045119061872d09d93c3ef0c05114ef36e2",
+      "predecessorRevisionHash": null,
+      "originalHash": "6cda743bde7cb5b7cfc2721b4e2ef045119061872d09d93c3ef0c05114ef36e2",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "昇進おめでとうございます。",
+            "romaji": "Shoushin omedetou gozaimasu.",
+            "german": "Herzlichen Glückwunsch zur Beförderung."
+          },
+          {
+            "japanese": "昇進おめでとうございます。",
+            "romaji": "Shoushin omedetou gozaimasu.",
+            "german": "Herzlichen Glückwunsch zur Beförderung."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "昇進おめでとうございます。",
+            "romaji": "Shoushin omedetou gozaimasu.",
+            "german": "Herzlichen Glückwunsch zur Beförderung."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140852310",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Promotion noun shoushin; congratulations on promotion matches register, romanization and German. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "昇進",
+              "reading": "しょうしん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Promotion noun shoushin; congratulations on promotion matches register, romanization and German."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1349780; spelling=昇進; reading=しょうしん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Promotion noun shoushin; congratulations on promotion matches register, romanization and German.",
+          "selected": {
+            "sequence": "1349780",
+            "spelling": "昇進",
+            "reading": "しょうしん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "promotion",
+                  "advancement",
+                  "rising in rank"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n4:521",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Promotion noun shoushin; congratulations on promotion matches register, romanization and German.",
+        "japanese": "Inspected every retained Japanese sentence: Congratulating somebody on promotion.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Promotion noun shoushin; congratulations on promotion matches register, romanization and German.",
+        "contexts": [
+          "Congratulating somebody on promotion."
+        ],
+        "lexical": "Promotion noun shoushin; congratulations on promotion matches register, romanization and German.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N4 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140852310",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Promotion noun shoushin; congratulations on promotion matches register, romanization and German. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "昇進",
+              "reading": "しょうしん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Promotion noun shoushin; congratulations on promotion matches register, romanization and German."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "a2fc8aafef339ff9744405e021eeff526e7c60111ccf3355217fabdb192601a4",
+        "approvalHash": "91a773f606466123f73d0c9f03f463162f8fcd196467324eefab449168ebc552"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Promotion noun sense and congratulations formula align; exact suru-capable noun accent0, no unsupported independent verb teaching added. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "a2fc8aafef339ff9744405e021eeff526e7c60111ccf3355217fabdb192601a4",
+        "approvalHash": "91a773f606466123f73d0c9f03f463162f8fcd196467324eefab449168ebc552"
+      }
+    },
+    {
+      "id": "vocab-n4:323",
+      "revisionId": "020-sweep-vocab-n4-323",
+      "state": "accepted",
+      "predecessorHash": "2e3ae7bbdbc007280720214311ed6d75b982f5b90941eeeb5265aa7c421e1575",
+      "predecessorRevisionHash": null,
+      "originalHash": "2e3ae7bbdbc007280720214311ed6d75b982f5b90941eeeb5265aa7c421e1575",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "いい案がありますか。",
+            "romaji": "Ii an ga arimasu ka.",
+            "german": "Haben Sie eine gute Idee?"
+          },
+          {
+            "japanese": "いい案がありますか。",
+            "romaji": "Ii an ga arimasu ka.",
+            "german": "Haben Sie eine gute Idee?"
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "いい案がありますか。",
+            "romaji": "Ii an ga arimasu ka.",
+            "german": "Haben Sie eine gute Idee?"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@49792052",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Idea/proposal noun an; asking for a good idea matches the selected sense and translation. Exact complete-form UniDic row supports retained pitch 1.",
+            "match": {
+              "word": "案",
+              "reading": "あん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Idea/proposal noun an; asking for a good idea matches the selected sense and translation."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1154770; spelling=案; reading=あん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Idea/proposal noun an; asking for a good idea matches the selected sense and translation.",
+          "selected": {
+            "sequence": "1154770",
+            "spelling": "案",
+            "reading": "あん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "idea",
+                  "plan",
+                  "proposal",
+                  "suggestion",
+                  "(government) bill"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n4:323",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Idea/proposal noun an; asking for a good idea matches the selected sense and translation.",
+        "japanese": "Inspected every retained Japanese sentence: Asking whether somebody has a good idea.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Idea/proposal noun an; asking for a good idea matches the selected sense and translation.",
+        "contexts": [
+          "Asking whether somebody has a good idea."
+        ],
+        "lexical": "Idea/proposal noun an; asking for a good idea matches the selected sense and translation.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N4 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@49792052",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Idea/proposal noun an; asking for a good idea matches the selected sense and translation. Exact complete-form UniDic row supports retained pitch 1.",
+            "match": {
+              "word": "案",
+              "reading": "あん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Idea/proposal noun an; asking for a good idea matches the selected sense and translation."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "87d92b1a56ad489b2486a30bc4c862e6174f2a98df32a3796b85f3069bd495ca",
+        "approvalHash": "ee71a5aabad4992044c30f08a3de6ef156d1a03567f87750cd0df7d70e56cc71"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Idea/proposal noun and good-idea question align; exact noun an accent1 is evidenced. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "87d92b1a56ad489b2486a30bc4c862e6174f2a98df32a3796b85f3069bd495ca",
+        "approvalHash": "ee71a5aabad4992044c30f08a3de6ef156d1a03567f87750cd0df7d70e56cc71"
+      }
+    },
+    {
+      "id": "vocab-n4:576",
+      "revisionId": "020-sweep-vocab-n4-576",
+      "state": "accepted",
+      "predecessorHash": "46f76d7a999cfbb123f427e28f96f54971b5de978e161eb1a3e19087cb0a4fab",
+      "predecessorRevisionHash": null,
+      "originalHash": "46f76d7a999cfbb123f427e28f96f54971b5de978e161eb1a3e19087cb0a4fab",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "わざわざ来てくれてありがとう。",
+            "romaji": "Wazawaza kite kurete arigatou.",
+            "german": "Danke, dass du extra gekommen bist."
+          },
+          {
+            "japanese": "わざわざ来てくれてありがとう。",
+            "romaji": "Wazawaza kite kurete arigatou.",
+            "german": "Danke, dass du extra gekommen bist."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "わざわざ来てくれてありがとう。",
+            "romaji": "Wazawaza kite kurete arigatou.",
+            "german": "Danke, dass du extra gekommen bist."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@282137638",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Wazawaza taking the trouble, not deliberate malicious action; thanks for a special visit is coherently translated. Exact complete-form UniDic row supports retained pitch 1.",
+            "match": {
+              "word": "わざわざ",
+              "reading": "わざわざ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Wazawaza taking the trouble, not deliberate malicious action; thanks for a special visit is coherently translated."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1606710; spelling=わざわざ; reading=わざわざ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Wazawaza taking the trouble, not deliberate malicious action; thanks for a special visit is coherently translated.",
+          "selected": {
+            "sequence": "1606710",
+            "spelling": "わざわざ",
+            "reading": "わざわざ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "expressly",
+                  "especially",
+                  "specially",
+                  "taking the trouble (to do)",
+                  "going to the trouble of (doing)",
+                  "going out of one's way (to do)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n4:576",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Wazawaza taking the trouble, not deliberate malicious action; thanks for a special visit is coherently translated.",
+        "japanese": "Inspected every retained Japanese sentence: Thanking someone for taking the trouble to visit.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Wazawaza taking the trouble, not deliberate malicious action; thanks for a special visit is coherently translated.",
+        "contexts": [
+          "Thanking someone for taking the trouble to visit."
+        ],
+        "lexical": "Wazawaza taking the trouble, not deliberate malicious action; thanks for a special visit is coherently translated.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N4 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@282137638",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Wazawaza taking the trouble, not deliberate malicious action; thanks for a special visit is coherently translated. Exact complete-form UniDic row supports retained pitch 1.",
+            "match": {
+              "word": "わざわざ",
+              "reading": "わざわざ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Wazawaza taking the trouble, not deliberate malicious action; thanks for a special visit is coherently translated."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "ea1589e8399c141d18ee638b2566524c64d4033aa2cd29549dbce7d74f9e05bc",
+        "approvalHash": "4fddb6a19214f0e27f1f7664ff5862c76a23cb5e4826c0a45a11e930814d2f8b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Going out of one’s way adverb supports extra/eigens and appreciative visit example; exact kana adverb row accent1 matches. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "ea1589e8399c141d18ee638b2566524c64d4033aa2cd29549dbce7d74f9e05bc",
+        "approvalHash": "4fddb6a19214f0e27f1f7664ff5862c76a23cb5e4826c0a45a11e930814d2f8b"
+      }
+    },
+    {
+      "id": "vocab-n4:437",
+      "revisionId": "020-sweep-vocab-n4-437",
+      "state": "accepted",
+      "predecessorHash": "220248c73f943f6ef10a55aa9890454632e3a484cde826dd66ab957ee02c1611",
+      "predecessorRevisionHash": null,
+      "originalHash": "220248c73f943f6ef10a55aa9890454632e3a484cde826dd66ab957ee02c1611",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "試合は引き分けでした。",
+            "romaji": "Shiai wa hikiwake deshita.",
+            "german": "Das Spiel endete unentschieden."
+          },
+          {
+            "japanese": "試合は引き分けでした。",
+            "romaji": "Shiai wa hikiwake deshita.",
+            "german": "Das Spiel endete unentschieden."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "試合は引き分けでした。",
+            "romaji": "Shiai wa hikiwake deshita.",
+            "german": "Das Spiel endete unentschieden."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@224892044",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Hikiwake noun tie/draw; match-result sentence agrees with German. Exclude inflected hikiwakeru verb rows from pitch evidence. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "引き分け",
+              "reading": "ひきわけ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Hikiwake noun tie/draw; match-result sentence agrees with German. Exclude inflected hikiwakeru verb rows from pitch evidence."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1169120; spelling=引き分け; reading=ひきわけ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Hikiwake noun tie/draw; match-result sentence agrees with German. Exclude inflected hikiwakeru verb rows from pitch evidence.",
+          "selected": {
+            "sequence": "1169120",
+            "spelling": "引き分け",
+            "reading": "ひきわけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "draw (in competition)",
+                  "tie game"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n4:437",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Hikiwake noun tie/draw; match-result sentence agrees with German. Exclude inflected hikiwakeru verb rows from pitch evidence.",
+        "japanese": "Inspected every retained Japanese sentence: Reporting a match ending in a draw.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Hikiwake noun tie/draw; match-result sentence agrees with German. Exclude inflected hikiwakeru verb rows from pitch evidence.",
+        "contexts": [
+          "Reporting a match ending in a draw."
+        ],
+        "lexical": "Hikiwake noun tie/draw; match-result sentence agrees with German. Exclude inflected hikiwakeru verb rows from pitch evidence.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N4 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@224892044",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Hikiwake noun tie/draw; match-result sentence agrees with German. Exclude inflected hikiwakeru verb rows from pitch evidence. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "引き分け",
+              "reading": "ひきわけ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Hikiwake noun tie/draw; match-result sentence agrees with German. Exclude inflected hikiwakeru verb rows from pitch evidence."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "96a071357ffaead2e107e336dc5826f4ff754a5542a3dd35330809f30fb953d0",
+        "approvalHash": "af90bef533294f35815079673e96616a63332b52213f167da9b2d1687e87ffe9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Competitive draw noun and match result align; exact noun accent0 matches. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "96a071357ffaead2e107e336dc5826f4ff754a5542a3dd35330809f30fb953d0",
+        "approvalHash": "af90bef533294f35815079673e96616a63332b52213f167da9b2d1687e87ffe9"
+      }
+    },
+    {
+      "id": "vocab-n4:244",
+      "revisionId": "020-sweep-vocab-n4-244",
+      "state": "accepted",
+      "predecessorHash": "091538889cffb2234d2ab55de521621b37fadb66ae3c96c8b12c059f696dfa18",
+      "predecessorRevisionHash": null,
+      "originalHash": "091538889cffb2234d2ab55de521621b37fadb66ae3c96c8b12c059f696dfa18",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "桜が満開です。",
+            "romaji": "Sakura ga mankai desu.",
+            "german": "Die Kirschblüten stehen in voller Blüte."
+          },
+          {
+            "japanese": "桜が満開です。",
+            "romaji": "Sakura ga mankai desu.",
+            "german": "Die Kirschblüten stehen in voller Blüte."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "桜が満開です。",
+            "romaji": "Sakura ga mankai desu.",
+            "german": "Die Kirschblüten stehen in voller Blüte."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128643105",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Sakura cherry blossom common noun; full-bloom example matches translation. Proper-name pitch rows are excluded. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "桜",
+              "reading": "さくら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Sakura cherry blossom common noun; full-bloom example matches translation. Proper-name pitch rows are excluded."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1593710; spelling=桜; reading=さくら; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Sakura cherry blossom common noun; full-bloom example matches translation. Proper-name pitch rows are excluded.",
+          "selected": {
+            "sequence": "1593710",
+            "spelling": "桜",
+            "reading": "さくら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cherry tree",
+                  "cherry blossom",
+                  "sakura"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n4:244",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Sakura cherry blossom common noun; full-bloom example matches translation. Proper-name pitch rows are excluded.",
+        "japanese": "Inspected every retained Japanese sentence: Describing cherry blossoms at full bloom.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Sakura cherry blossom common noun; full-bloom example matches translation. Proper-name pitch rows are excluded.",
+        "contexts": [
+          "Describing cherry blossoms at full bloom."
+        ],
+        "lexical": "Sakura cherry blossom common noun; full-bloom example matches translation. Proper-name pitch rows are excluded.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N4 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128643105",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Sakura cherry blossom common noun; full-bloom example matches translation. Proper-name pitch rows are excluded. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "桜",
+              "reading": "さくら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Sakura cherry blossom common noun; full-bloom example matches translation. Proper-name pitch rows are excluded."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "152ec0155d1e4d0fda8d4440ba42b404299c1bf7ca5c47fa617cab9391f927d8",
+        "approvalHash": "b884b86cf516c0aa256779eff1c4f59803a87da9d091f0237445cbaa194d8c97"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Cherry blossom/tree noun supports the blossom gloss and full-bloom sentence; exact sakura noun accent0 matches. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "152ec0155d1e4d0fda8d4440ba42b404299c1bf7ca5c47fa617cab9391f927d8",
+        "approvalHash": "b884b86cf516c0aa256779eff1c4f59803a87da9d091f0237445cbaa194d8c97"
+      }
+    },
+    {
+      "id": "vocab-n4:148",
+      "revisionId": "020-sweep-vocab-n4-148",
+      "state": "accepted",
+      "predecessorHash": "432b896457c7ac5dc76428e17c4a75355016a58a6f71fc979a6b23fec51bc7d5",
+      "predecessorRevisionHash": null,
+      "originalHash": "432b896457c7ac5dc76428e17c4a75355016a58a6f71fc979a6b23fec51bc7d5",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "好きなテレビ番組は何ですか。",
+            "romaji": "Suki na terebi bangumi wa nan desu ka.",
+            "german": "Was ist Ihre Lieblingssendung?"
+          },
+          {
+            "japanese": "好きなテレビ番組は何ですか。",
+            "romaji": "Suki na terebi bangumi wa nan desu ka.",
+            "german": "Was ist Ihre Lieblingssendung?"
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "好きなテレビ番組は何ですか。",
+            "romaji": "Suki na terebi bangumi wa nan desu ka.",
+            "german": "Was ist Ihre Lieblingssendung?"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220991606",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Bangumi broadcast program noun; favorite television show question accurately translated and romanized. Retain the already attested primary accent0; optional alternatives are deferred. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "番組",
+              "reading": "ばんぐみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Bangumi broadcast program noun; favorite television show question accurately translated and romanized. Retain the already attested primary accent0; optional alternatives are deferred."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1482340; spelling=番組; reading=ばんぐみ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Bangumi broadcast program noun; favorite television show question accurately translated and romanized. Retain the already attested primary accent0; optional alternatives are deferred.",
+          "selected": {
+            "sequence": "1482340",
+            "spelling": "番組",
+            "reading": "ばんぐみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "program (e.g. TV)",
+                  "programme"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n4:148",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Bangumi broadcast program noun; favorite television show question accurately translated and romanized. Retain the already attested primary accent0; optional alternatives are deferred.",
+        "japanese": "Inspected every retained Japanese sentence: Asking about a favorite television program.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Bangumi broadcast program noun; favorite television show question accurately translated and romanized. Retain the already attested primary accent0; optional alternatives are deferred.",
+        "contexts": [
+          "Asking about a favorite television program."
+        ],
+        "lexical": "Bangumi broadcast program noun; favorite television show question accurately translated and romanized. Retain the already attested primary accent0; optional alternatives are deferred.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N4 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220991606",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Bangumi broadcast program noun; favorite television show question accurately translated and romanized. Retain the already attested primary accent0; optional alternatives are deferred. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "番組",
+              "reading": "ばんぐみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Bangumi broadcast program noun; favorite television show question accurately translated and romanized. Retain the already attested primary accent0; optional alternatives are deferred."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "c6106c210aced9e3d9a236475227e9c0fb1b0c6d7315bc5981f3d07f09cf1dcd",
+        "approvalHash": "1a3e7c3d6c104548d134d28d07bfdd3a52146d26133977c097ae9ba7bac6fc8f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "TV-program noun and favorite-program question align. Exact bangumi row includes retained accent0 among0,4,3; bounded correction need not add optional alternatives. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "c6106c210aced9e3d9a236475227e9c0fb1b0c6d7315bc5981f3d07f09cf1dcd",
+        "approvalHash": "1a3e7c3d6c104548d134d28d07bfdd3a52146d26133977c097ae9ba7bac6fc8f"
+      }
+    },
+    {
+      "id": "vocab-n4:72",
+      "revisionId": "020-sweep-vocab-n4-72",
+      "state": "accepted",
+      "predecessorHash": "1659a7782dc990a3a8266dc56b64fa053d3e2f879e366aa795c44b21f96d0ebd",
+      "predecessorRevisionHash": null,
+      "originalHash": "1659a7782dc990a3a8266dc56b64fa053d3e2f879e366aa795c44b21f96d0ebd",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "特に和食が好きです。",
+            "romaji": "Toku ni washoku ga suki desu.",
+            "german": "Besonders mag ich japanisches Essen."
+          },
+          {
+            "japanese": "特に和食が好きです。",
+            "romaji": "Toku ni washoku ga suki desu.",
+            "german": "Besonders mag ich japanisches Essen."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "特に和食が好きです。",
+            "romaji": "Toku ni washoku ga suki desu.",
+            "german": "Besonders mag ich japanisches Essen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184960591",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Toku ni especially adverb; special liking for Japanese cuisine matches German and romanization. Exact complete-form UniDic row supports retained pitch 1.",
+            "match": {
+              "word": "特に",
+              "reading": "とくに",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Toku ni especially adverb; special liking for Japanese cuisine matches German and romanization."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1454670; spelling=特に; reading=とくに; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Toku ni especially adverb; special liking for Japanese cuisine matches German and romanization.",
+          "selected": {
+            "sequence": "1454670",
+            "spelling": "特に",
+            "reading": "とくに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "particularly",
+                  "especially",
+                  "in particular",
+                  "expressly"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n4:72",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Toku ni especially adverb; special liking for Japanese cuisine matches German and romanization.",
+        "japanese": "Inspected every retained Japanese sentence: Expressing a particular preference for Japanese food.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Toku ni especially adverb; special liking for Japanese cuisine matches German and romanization.",
+        "contexts": [
+          "Expressing a particular preference for Japanese food."
+        ],
+        "lexical": "Toku ni especially adverb; special liking for Japanese cuisine matches German and romanization.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N4 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184960591",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Toku ni especially adverb; special liking for Japanese cuisine matches German and romanization. Exact complete-form UniDic row supports retained pitch 1.",
+            "match": {
+              "word": "特に",
+              "reading": "とくに",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Toku ni especially adverb; special liking for Japanese cuisine matches German and romanization."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "0eb0722cb952cb74e48ae756fd81c4707d6ff60db78cd93ba8d418255b08cbc0",
+        "approvalHash": "fb3bae2ae5a94f9466fd96db611f8f2d5da445c60d60c7a2accd28cb8de04bd8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Especially adverb and particular preference for Japanese food align; exact full-form tokuni adverb accent1 matches. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "0eb0722cb952cb74e48ae756fd81c4707d6ff60db78cd93ba8d418255b08cbc0",
+        "approvalHash": "fb3bae2ae5a94f9466fd96db611f8f2d5da445c60d60c7a2accd28cb8de04bd8"
+      }
+    },
+    {
+      "id": "vocab-n4:311",
+      "revisionId": "020-sweep-vocab-n4-311",
+      "state": "accepted",
+      "predecessorHash": "007dd2863a08da0b90c998be02ccd43bb7c1175a5cb9eae91b094b0a007d92b9",
+      "predecessorRevisionHash": null,
+      "originalHash": "007dd2863a08da0b90c998be02ccd43bb7c1175a5cb9eae91b094b0a007d92b9",
+      "rationale": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "さっき電話がありました。",
+            "romaji": "Sakki denwa ga arimashita.",
+            "german": "Vorhin gab es einen Anruf."
+          },
+          {
+            "japanese": "さっき電話がありました。",
+            "romaji": "Sakki denwa ga arimashita.",
+            "german": "Vorhin gab es einen Anruf."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "さっき電話がありました。",
+            "romaji": "Sakki denwa ga arimashita.",
+            "german": "Vorhin gab es einen Anruf."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131387940",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Sakki a moment ago; recent-phone-call sentence matches German. Bloodlust and other homophones are not the selected sense. Exact complete-form UniDic row supports retained pitch 1.",
+            "match": {
+              "word": "さっき",
+              "reading": "さっき",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Sakki a moment ago; recent-phone-call sentence matches German. Bloodlust and other homophones are not the selected sense."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1005180; spelling=さっき; reading=さっき; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Sakki a moment ago; recent-phone-call sentence matches German. Bloodlust and other homophones are not the selected sense.",
+          "selected": {
+            "sequence": "1005180",
+            "spelling": "さっき",
+            "reading": "さっき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "a short while ago",
+                  "a moment ago",
+                  "just now",
+                  "some time ago"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n4:311",
+          "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-removal"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Sakki a moment ago; recent-phone-call sentence matches German. Bloodlust and other homophones are not the selected sense.",
+        "japanese": "Inspected every retained Japanese sentence: Reporting a telephone call a short time ago.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Sakki a moment ago; recent-phone-call sentence matches German. Bloodlust and other homophones are not the selected sense.",
+        "contexts": [
+          "Reporting a telephone call a short time ago."
+        ],
+        "lexical": "Sakki a moment ago; recent-phone-call sentence matches German. Bloodlust and other homophones are not the selected sense.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N4 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131387940",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Sakki a moment ago; recent-phone-call sentence matches German. Bloodlust and other homophones are not the selected sense. Exact complete-form UniDic row supports retained pitch 1.",
+            "match": {
+              "word": "さっき",
+              "reading": "さっき",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Sakki a moment ago; recent-phone-call sentence matches German. Bloodlust and other homophones are not the selected sense."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Remove only the second byte-identical example, preserving the first complete example. No new example or sense is added.",
+        "contentHash": "470fcacbd7c9002dc4f39fa0c06354ea7acabfd78e132fc76a207b99f593627f",
+        "approvalHash": "58947fc894dd8623787b5b3b99659b067c55a0fba370b336c4ecb2f1b4d39c57"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "A short while ago sense selected, excluding unrelated homophones; phone-call example coherent and exact adverb-capable noun accent1 matches. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "470fcacbd7c9002dc4f39fa0c06354ea7acabfd78e132fc76a207b99f593627f",
+        "approvalHash": "58947fc894dd8623787b5b3b99659b067c55a0fba370b336c4ecb2f1b4d39c57"
+      }
+    },
+    {
+      "id": "vocab-n5:1004",
+      "revisionId": "020-sweep-vocab-n5-1004",
+      "state": "accepted",
+      "predecessorHash": "88a0f6bdee723c7d978ac17dbd17475fed0798ebd8ff70168e48caf98af03220",
+      "predecessorRevisionHash": null,
+      "originalHash": "88a0f6bdee723c7d978ac17dbd17475fed0798ebd8ff70168e48caf98af03220",
+      "rationale": "Correct the noun 羊毛 mislabeled as Adjektiv; preserve meanings and both existing contexts.",
+      "original": {
+        "type": "Adjektiv",
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "type": "Nomen",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273145211",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Youmou wool is a noun/no-modifying noun, not an adjective. Sheep-wool material meaning, reading and both examples agree. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "羊毛",
+              "reading": "ようもう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Youmou wool is a noun/no-modifying noun, not an adjective. Sheep-wool material meaning, reading and both examples agree."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1546530; spelling=羊毛; reading=ようもう; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Youmou wool is a noun/no-modifying noun, not an adjective. Sheep-wool material meaning, reading and both examples agree.",
+          "selected": {
+            "sequence": "1546530",
+            "spelling": "羊毛",
+            "reading": "ようもう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wool"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded runtime snapshot",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/triage.json#vocab-n5:1004",
+          "finding": "Correct the noun 羊毛 mislabeled as Adjektiv; preserve meanings and both existing contexts."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "quality-sweep-root",
+        "meaning": "Youmou wool is a noun/no-modifying noun, not an adjective. Sheep-wool material meaning, reading and both examples agree.",
+        "japanese": "Inspected every retained Japanese sentence: Receiving a wool blanket as a Christmas present.",
+        "romanization": "Checked retained romanization against the Japanese; no pronunciation-changing error observed.",
+        "translation": "Youmou wool is a noun/no-modifying noun, not an adjective. Sheep-wool material meaning, reading and both examples agree.",
+        "contexts": [
+          "Receiving a wool blanket as a Christmas present.",
+          "Describing a sweater made of wool."
+        ],
+        "lexical": "Youmou wool is a noun/no-modifying noun, not an adjective. Sheep-wool material meaning, reading and both examples agree.",
+        "register": "Existing everyday/polite register fits the selected sense and example; no register change.",
+        "transitivity": "Nominal/adjectival/adverbial target; verb transitivity is not applicable.",
+        "conjugation": "Not a conjugating verb; noun/adjective/adverb category retained or corrected as documented.",
+        "level": "Existing N5 pedagogical estimate retained; this bounded correction does not establish official JLPT membership."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Targeted acceptance check for this correction only: exact written form, reading, grammatical form and lexical sense support the existing primary pitch; no primary pitch change.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273145211",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Youmou wool is a noun/no-modifying noun, not an adjective. Sheep-wool material meaning, reading and both examples agree. Exact complete-form UniDic row supports retained pitch 0.",
+            "match": {
+              "word": "羊毛",
+              "reading": "ようもう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Youmou wool is a noun/no-modifying noun, not an adjective. Sheep-wool material meaning, reading and both examples agree."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-root",
+        "finding": "Correct the noun 羊毛 mislabeled as Adjektiv; preserve meanings and both existing contexts.",
+        "contentHash": "985199ae5f9762bc768794c53ff3dd68b8a139a3bca40248a6cc05f5fa14f342",
+        "approvalHash": "68230f9fe41b959c640a49ab2d0714eac66c53cdf88391141c57c91e9d6fb7d8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "quality-sweep-worker2-independent",
+        "finding": "Wool is noun/no-modifying noun, so Nomen repairs erroneous Adjektiv. Both Christmas wool-blanket and wool-sweater examples match unchanged reading and meaning; exact noun accent0. Independently checked exact projected before/after and selected evidence; patch preserves all distinct existing content and is within bounded scope.",
+        "contentHash": "985199ae5f9762bc768794c53ff3dd68b8a139a3bca40248a6cc05f5fa14f342",
+        "approvalHash": "68230f9fe41b959c640a49ab2d0714eac66c53cdf88391141c57c91e9d6fb7d8"
+      }
+    }
+  ],
+  "decisions": []
+}

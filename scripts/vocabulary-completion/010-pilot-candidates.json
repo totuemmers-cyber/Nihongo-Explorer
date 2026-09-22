@@ -1,0 +1,868 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:80",
+      "revisionId": "risk-pilot-candidate-alias-vocab-n5-80",
+      "state": "accepted",
+      "predecessorHash": "3cad674f3f15583b7fd3828c000724b9865e0ab16b1e06036545cb9bc6458ff9",
+      "predecessorRevisionHash": "9351a7ad21920cd27dd472a4d44756577c1180d4415a1dd4d05814d18d5c7fae",
+      "originalHash": "3cad674f3f15583b7fd3828c000724b9865e0ab16b1e06036545cb9bc6458ff9",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "おもしろい"
+        ]
+      },
+      "rationale": "Add only the independently verified source spelling as a search alias; preserve the accepted teaching headword, sense, examples, grammar and pitch.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1533580; おもしろい|おもしろい#0",
+          "finding": "JMdict lists おもしろい with reading おもしろい in the same adjective entry as 面白い; sense 1 is interesting/fascinating and matches the source and reviewed target."
+        }
+      ],
+      "review": {
+        "reviewer": "pilot-candidate-alias-author",
+        "lexical": "JMdict lists おもしろい with reading おもしろい in the same adjective entry as 面白い; sense 1 is interesting/fascinating and matches the source and reviewed target.",
+        "meaning": "The added alias belongs to the same cited dictionary sense as the existing reviewed German meaning and examples; no broader homonymous sense is imported.",
+        "register": "The spelling status was checked in JMdict. The existing teaching headword remains unchanged and the added form is search-only.",
+        "transitivity": "Not a verb; transitivity does not apply.",
+        "conjugation": "No verb conjugation applies.",
+        "level": "Existing level estimate retained; the pilot found no evidence strong enough to change it.",
+        "japanese": "Existing Japanese examples remain natural and teach the cited shared sense; the alias changes search coverage only.",
+        "romanization": "The alias has the same verified reading as the accepted headword; existing romanization remains unchanged.",
+        "translation": "Existing German translations remain bound to the accepted taught sense and were not broadened by the alias.",
+        "contexts": [
+          "Beispielsituation: Dieser Film ist interessant.",
+          "Beispielsituation: Dieses Buch ist sehr interessant."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and reading were matched to the cited terminal or dictionary form; competing homographs and the intended sense were checked in the pilot.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@83476419",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "面白い / オモシロイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 面白い; aType 4.",
+            "match": {
+              "word": "面白い",
+              "reading": "おもしろい",
+              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
+              "sense": "German meaning covers the interesting and amusing senses; the retained film/book examples naturally exercise the interesting sense."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "alias-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Authored a search-only alias after checking exact spelling, reading and taught-sense equivalence.",
+        "contentHash": "8708ee775f30176298fcd7595b633ec5d9f39c49dbd375dba91817777520ec54",
+        "approvalHash": "ed22f9ca1c371baa76140d062ef8260ee7363fca7148d15a2b1449c69ff2fe2f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently confirmed that the alias preserves the accepted taught sense and does not import a broader homonymous or additional sense.",
+        "contentHash": "8708ee775f30176298fcd7595b633ec5d9f39c49dbd375dba91817777520ec54",
+        "approvalHash": "ed22f9ca1c371baa76140d062ef8260ee7363fca7148d15a2b1449c69ff2fe2f"
+      }
+    },
+    {
+      "id": "vocab-n5:71",
+      "revisionId": "risk-pilot-candidate-alias-vocab-n5-71",
+      "state": "accepted",
+      "predecessorHash": "36dcbaa45614895d195fa3cbed7dcf914ab2afb1fbaa3e40f03bd4e7107dfdd4",
+      "predecessorRevisionHash": "8966adb17e4db0f703e46b0fe132785ec2e1a3b403a2cba92ac2672ed1b05046",
+      "originalHash": "36dcbaa45614895d195fa3cbed7dcf914ab2afb1fbaa3e40f03bd4e7107dfdd4",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "好い"
+        ]
+      },
+      "rationale": "Add only the independently verified source spelling as a search alias; preserve the accepted teaching headword, sense, examples, grammar and pitch.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1605820; 好い|よい#0",
+          "finding": "JMdict lists 好い and 良い in the same よい adjective entry; sense 1 'good' exactly matches the source and reviewed target."
+        }
+      ],
+      "review": {
+        "reviewer": "pilot-candidate-alias-author",
+        "lexical": "JMdict lists 好い and 良い in the same よい adjective entry; sense 1 'good' exactly matches the source and reviewed target.",
+        "meaning": "The added alias belongs to the same cited dictionary sense as the existing reviewed German meaning and examples; no broader homonymous sense is imported.",
+        "register": "The spelling status was checked in JMdict. The existing teaching headword remains unchanged and the added form is search-only.",
+        "transitivity": "Not a verb; transitivity does not apply.",
+        "conjugation": "No verb conjugation applies.",
+        "level": "Existing level estimate retained; the pilot found no evidence strong enough to change it.",
+        "japanese": "Existing Japanese examples remain natural and teach the cited shared sense; the alias changes search coverage only.",
+        "romanization": "The alias has the same verified reading as the accepted headword; existing romanization remains unchanged.",
+        "translation": "Existing German translations remain bound to the accepted taught sense and were not broadened by the alias.",
+        "contexts": [
+          "Beispielsituation: Das Wetter ist gut.",
+          "Beispielsituation: Dieses Buch ist gut."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and reading were matched to the cited terminal or dictionary form; competing homographs and the intended sense were checked in the pilot.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@272725961",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "良い / ヨイ; 形容詞/非自立可能/*/*; 形容詞; 終止形-一般; lemma 良い; aType 1.",
+            "match": {
+              "word": "良い",
+              "reading": "よい",
+              "grammaticalForm": "形容詞/非自立可能/*/* / 形容詞 / 終止形-一般",
+              "sense": "The general good/nice sense is taught consistently; i-adjective type, examples, translations, and pitch are correct."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "alias-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Authored a search-only alias after checking exact spelling, reading and taught-sense equivalence.",
+        "contentHash": "ef974205e2b488b2bac000d5e08f33e3366342cbe834d721516d8e03901c3869",
+        "approvalHash": "1d18a83b790ac3a7f5e17c57322e576274c3d8c737044ec7c898bc17dca4a290"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently confirmed that the alias preserves the accepted taught sense and does not import a broader homonymous or additional sense.",
+        "contentHash": "ef974205e2b488b2bac000d5e08f33e3366342cbe834d721516d8e03901c3869",
+        "approvalHash": "1d18a83b790ac3a7f5e17c57322e576274c3d8c737044ec7c898bc17dca4a290"
+      }
+    },
+    {
+      "id": "vocab-n5:29",
+      "revisionId": "risk-pilot-candidate-alias-vocab-n5-29",
+      "state": "accepted",
+      "predecessorHash": "23114edfe01e4717b69b176e42eab651ab8d0e2556209466306a0140806d211a",
+      "predecessorRevisionHash": "5a0d35435a4bdecd8ef71e7999ee4daddec570cb99d9abb41c32fd056417cb27",
+      "originalHash": "23114edfe01e4717b69b176e42eab651ab8d0e2556209466306a0140806d211a",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "分る"
+        ]
+      },
+      "rationale": "Add only the independently verified source spelling as a search alias; preserve the accepted teaching headword, sense, examples, grammar and pitch.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1606560; 分る|わかる#0",
+          "finding": "JMdict places 分る and 分かる in the same わかる entry; sense 1 covers understanding/comprehension and matches the source and target."
+        }
+      ],
+      "review": {
+        "reviewer": "pilot-candidate-alias-author",
+        "lexical": "JMdict places 分る and 分かる in the same わかる entry; sense 1 covers understanding/comprehension and matches the source and target.",
+        "meaning": "The added alias belongs to the same cited dictionary sense as the existing reviewed German meaning and examples; no broader homonymous sense is imported.",
+        "register": "The spelling status was checked in JMdict. The existing teaching headword remains unchanged and the added form is search-only.",
+        "transitivity": "Dictionary parts of speech checked: Godan verb with 'ru' ending, intransitive verb, interjection (kandoushi).",
+        "conjugation": "Runtime godan metadata and retained forms were checked against the cited part of speech.",
+        "level": "Existing level estimate retained; the pilot found no evidence strong enough to change it.",
+        "japanese": "Existing Japanese examples remain natural and teach the cited shared sense; the alias changes search coverage only.",
+        "romanization": "The alias has the same verified reading as the accepted headword; existing romanization remains unchanged.",
+        "translation": "Existing German translations remain bound to the accepted taught sense and were not broadened by the alias.",
+        "contexts": [
+          "Beispielsituation: Ich verstehe Japanisch.",
+          "Beispielsituation: Ich verstehe dieses Problem nicht."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and reading were matched to the cited terminal or dictionary form; competing homographs and the intended sense were checked in the pilot.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@281255751",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "分かる / ワカル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 分かる; aType 2.",
+            "match": {
+              "word": "分かる",
+              "reading": "わかる",
+              "grammaticalForm": "動詞/一般/*/* / 五段-ラ行 / 終止形-一般",
+              "sense": "Meaning, intransitive godan metadata, romanization, and retained object-of-understanding examples agree with the intended sense."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "alias-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Authored a search-only alias after checking exact spelling, reading and taught-sense equivalence.",
+        "contentHash": "52941b6f8b55dae10c9f87631bbbf46ec0de38ba5e1ef964edb35faf048c480d",
+        "approvalHash": "68fb7e72b8b3a6fa26b672bb9c9900ba3cd589b6b0a91e4e7105cabbd92c0a0b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently confirmed that the alias preserves the accepted taught sense and does not import a broader homonymous or additional sense.",
+        "contentHash": "52941b6f8b55dae10c9f87631bbbf46ec0de38ba5e1ef964edb35faf048c480d",
+        "approvalHash": "68fb7e72b8b3a6fa26b672bb9c9900ba3cd589b6b0a91e4e7105cabbd92c0a0b"
+      }
+    },
+    {
+      "id": "vocab-n5:27",
+      "revisionId": "risk-pilot-candidate-alias-vocab-n5-27",
+      "state": "accepted",
+      "predecessorHash": "9a6faf881ec11bdd482c311a98439a28cd6ed2d07183b20a0378f49bc1be7033",
+      "predecessorRevisionHash": "b353efd040aa284be1791c1f7b76b8fd8d211d57a20590c7d7958c8978394aac",
+      "originalHash": "9a6faf881ec11bdd482c311a98439a28cd6ed2d07183b20a0378f49bc1be7033",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "在る"
+        ]
+      },
+      "rationale": "Add only the independently verified source spelling as a search alias; preserve the accepted teaching headword, sense, examples, grammar and pitch.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1296400; 在る|ある#0",
+          "finding": "JMdict lists 在る as a kanji spelling of existential ある, usually written in kana; sense 1 covers being/existing/living, usually for inanimate objects. It is distinct from prenominal 或る."
+        },
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1296400; 在る|ある#1",
+          "finding": "The source gloss directly matches JMdict's existential sense for 在る/ある and the reviewed inanimate-existence target."
+        }
+      ],
+      "review": {
+        "reviewer": "pilot-candidate-alias-author",
+        "lexical": "JMdict lists 在る as a kanji spelling of existential ある, usually written in kana; sense 1 covers being/existing/living, usually for inanimate objects. It is distinct from prenominal 或る. The source gloss directly matches JMdict's existential sense for 在る/ある and the reviewed inanimate-existence target.",
+        "meaning": "The added alias belongs to the same cited dictionary sense as the existing reviewed German meaning and examples; no broader homonymous sense is imported.",
+        "register": "The spelling status was checked in JMdict. The existing teaching headword remains unchanged and the added form is search-only.",
+        "transitivity": "Dictionary parts of speech checked: Godan verb with 'ru' ending (irregular verb), intransitive verb, auxiliary verb, pre-noun adjectival (rentaishi).",
+        "conjugation": "Runtime aru metadata and retained forms were checked against the cited part of speech.",
+        "level": "Existing level estimate retained; the pilot found no evidence strong enough to change it.",
+        "japanese": "Existing Japanese examples remain natural and teach the cited shared sense; the alias changes search coverage only.",
+        "romanization": "The alias has the same verified reading as the accepted headword; existing romanization remains unchanged.",
+        "translation": "Existing German translations remain bound to the accepted taught sense and were not broadened by the alias.",
+        "contexts": [
+          "Beispielsituation: Auf dem Tisch liegt ein Buch.",
+          "Beispielsituation: Im Park gibt es eine Bank."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and reading were matched to the cited terminal or dictionary form; competing homographs and the intended sense were checked in the pilot.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@48548837",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "ある / アル; 動詞/非自立可能/*/*; 五段-ラ行; 終止形-一般; lemma 有る; aType 1.",
+            "match": {
+              "word": "ある",
+              "reading": "ある",
+              "grammaticalForm": "動詞/非自立可能/*/* / 五段-ラ行 / 終止形-一般",
+              "sense": "JMdict sequence 1296400 and the examples identify the existential inanimate verb, not the homophonous prenominal ある. The irregular godan metadata and disabled derived forms are appropriate."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "alias-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Authored a search-only alias after checking exact spelling, reading and taught-sense equivalence.",
+        "contentHash": "abab00cfd509a22dc2c3969313cdc9267e3e8a7c2276b79d7127783ca712e0e7",
+        "approvalHash": "f53f9d3b2bdd6f40eade60e2b4c365a259cdbb0488bb598e8cc087d04342ca9e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently confirmed that the alias preserves the accepted taught sense and does not import a broader homonymous or additional sense.",
+        "contentHash": "abab00cfd509a22dc2c3969313cdc9267e3e8a7c2276b79d7127783ca712e0e7",
+        "approvalHash": "f53f9d3b2bdd6f40eade60e2b4c365a259cdbb0488bb598e8cc087d04342ca9e"
+      }
+    },
+    {
+      "id": "vocab-n5:43",
+      "revisionId": "risk-pilot-candidate-alias-vocab-n5-43",
+      "state": "accepted",
+      "predecessorHash": "73d586e9d9ab795b091730f0207725eb4cf285b59e5e34e4f3507c0fca48e780",
+      "predecessorRevisionHash": "ee6a017264815e519bfcfd9f5c23f852ed4e8f35785903296cc010b93fe5e185",
+      "originalHash": "73d586e9d9ab795b091730f0207725eb4cf285b59e5e34e4f3507c0fca48e780",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "出掛ける"
+        ]
+      },
+      "rationale": "Add only the independently verified source spelling as a search alias; preserve the accepted teaching headword, sense, examples, grammar and pitch.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1598550; 出掛ける|でかける#0",
+          "finding": "JMdict contains 出掛ける and 出かける in the same でかける entry; departing/setting out and being about to leave match the source and reviewed target."
+        },
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1598550; 出掛ける|でかける#1",
+          "finding": "The source's depart/go-out/set-out gloss directly matches sense 1 of the shared 出掛ける/出かける entry."
+        }
+      ],
+      "review": {
+        "reviewer": "pilot-candidate-alias-author",
+        "lexical": "JMdict contains 出掛ける and 出かける in the same でかける entry; departing/setting out and being about to leave match the source and reviewed target. The source's depart/go-out/set-out gloss directly matches sense 1 of the shared 出掛ける/出かける entry.",
+        "meaning": "The added alias belongs to the same cited dictionary sense as the existing reviewed German meaning and examples; no broader homonymous sense is imported.",
+        "register": "The spelling status was checked in JMdict. The existing teaching headword remains unchanged and the added form is search-only.",
+        "transitivity": "Dictionary parts of speech checked: Ichidan verb, intransitive verb.",
+        "conjugation": "Runtime ichidan metadata and retained forms were checked against the cited part of speech.",
+        "level": "Existing level estimate retained; the pilot found no evidence strong enough to change it.",
+        "japanese": "Existing Japanese examples remain natural and teach the cited shared sense; the alias changes search coverage only.",
+        "romanization": "The alias has the same verified reading as the accepted headword; existing romanization remains unchanged.",
+        "translation": "Existing German translations remain bound to the accepted taught sense and were not broadened by the alias.",
+        "contexts": [
+          "Beispielsituation: Ich gehe einkaufen.",
+          "Beispielsituation: Ich gehe mit Freunden aus."
+        ]
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact written form and reading were matched to the cited terminal or dictionary form; competing homographs and the intended sense were checked in the pilot.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182010676",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "出かける / デカケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma 出掛ける; aType 0.",
+            "match": {
+              "word": "出かける",
+              "reading": "でかける",
+              "grammaticalForm": "動詞/一般/*/* / 下一段-カ行 / 終止形-一般",
+              "sense": "Spelling, reading, dekakeru, German meaning, conjugation, and shopping/social-outing examples are accurate."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "alias-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Authored a search-only alias after checking exact spelling, reading and taught-sense equivalence.",
+        "contentHash": "34c8ba56b1c1771e55aaa0586bf05a0d103220d31f322cb67617c9f62ea93dda",
+        "approvalHash": "dac732f55359d22df370c78d15b806db3eff60b60b299d87bf88795ec80607a4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently confirmed that the alias preserves the accepted taught sense and does not import a broader homonymous or additional sense.",
+        "contentHash": "34c8ba56b1c1771e55aaa0586bf05a0d103220d31f322cb67617c9f62ea93dda",
+        "approvalHash": "dac732f55359d22df370c78d15b806db3eff60b60b299d87bf88795ec80607a4"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": [
+    {
+      "key": "おもしろい|おもしろい",
+      "referenceIndex": 0,
+      "referenceHash": "b1093cc8720813c5c4afa15fb4c2a7cd931293b0bc5db3587377b9b2aa73aa8a",
+      "revisionId": "risk-pilot-candidate-accept-aa0e99311206838e",
+      "state": "accepted",
+      "predecessorHash": "6eb950c598a5a3a90f64cacde10253b93faf29de12df0757d71d9bc8c0286b57",
+      "predecessorRevisionHash": "3e50b2ab9606fe646ddd56707d4cbc79714ce13eb2d4e8c91887d6bb4eaa4a6a",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:80"
+      ],
+      "targetHashes": {
+        "vocab-n5:80": "8708ee775f30176298fcd7595b633ec5d9f39c49dbd375dba91817777520ec54"
+      },
+      "reason": "The source spelling and reading resolve to the same restriction-compatible JMdict sense taught by the accepted target; the exact spelling is preserved as a search alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1533580; VocabList.N5.pdf#page=7",
+          "finding": "JMdict lists おもしろい with reading おもしろい in the same adjective entry as 面白い; sense 1 is interesting/fascinating and matches the source and reviewed target."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Matched the individual source reference to the reviewed target after applying its exact spelling alias.",
+        "contentHash": "57ce138c8df19419f6c749c818e5ce4dbd146024a576e395244bebaaf1f15225",
+        "approvalHash": "57ce138c8df19419f6c749c818e5ce4dbd146024a576e395244bebaaf1f15225"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently checked the raw gloss, JMdict sense and final target teaching content; the reference adds spelling only.",
+        "contentHash": "57ce138c8df19419f6c749c818e5ce4dbd146024a576e395244bebaaf1f15225",
+        "approvalHash": "57ce138c8df19419f6c749c818e5ce4dbd146024a576e395244bebaaf1f15225"
+      }
+    },
+    {
+      "key": "分る|わかる",
+      "referenceIndex": 0,
+      "referenceHash": "44095928b9a226dcc28f6336284a08fd06eae4b57b4cb8bea06224d2c181ea7d",
+      "revisionId": "risk-pilot-candidate-accept-1891dab980a6ce80",
+      "state": "accepted",
+      "predecessorHash": "e7b05c2fc29cc8a293e41982d9c8d3b4af94f8ca286835aa79f53622149160e0",
+      "predecessorRevisionHash": "753af33f914725bce419943e8a9b68f102e887941e009f105f345faf52ba2eb6",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:29"
+      ],
+      "targetHashes": {
+        "vocab-n5:29": "52941b6f8b55dae10c9f87631bbbf46ec0de38ba5e1ef964edb35faf048c480d"
+      },
+      "reason": "The source spelling and reading resolve to the same restriction-compatible JMdict sense taught by the accepted target; the exact spelling is preserved as a search alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1606560; VocabList.N2.pdf#page=93",
+          "finding": "JMdict places 分る and 分かる in the same わかる entry; sense 1 covers understanding/comprehension and matches the source and target."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Matched the individual source reference to the reviewed target after applying its exact spelling alias.",
+        "contentHash": "0487cdaede3d2be15e1fe402b990f3004db46926fbed38c631fd756f6010b2a7",
+        "approvalHash": "0487cdaede3d2be15e1fe402b990f3004db46926fbed38c631fd756f6010b2a7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently checked the raw gloss, JMdict sense and final target teaching content; the reference adds spelling only.",
+        "contentHash": "0487cdaede3d2be15e1fe402b990f3004db46926fbed38c631fd756f6010b2a7",
+        "approvalHash": "0487cdaede3d2be15e1fe402b990f3004db46926fbed38c631fd756f6010b2a7"
+      }
+    },
+    {
+      "key": "好い|よい",
+      "referenceIndex": 0,
+      "referenceHash": "6586cf5f9654c15eb7cc69df7a1f61482fcd922a37a3bd129c945ebb04e60bfb",
+      "revisionId": "risk-pilot-candidate-accept-e87f832fbf64a6a7",
+      "state": "accepted",
+      "predecessorHash": "5412a98c1ef8d98d9b71579b2cb9cc1f1b6a25afb6ff8953f23962e3c701f5e7",
+      "predecessorRevisionHash": "86fde36866511206dfa254ad305a2c7cf2c3f1622d25d5a71e021a2c4d5057c2",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:71"
+      ],
+      "targetHashes": {
+        "vocab-n5:71": "ef974205e2b488b2bac000d5e08f33e3366342cbe834d721516d8e03901c3869"
+      },
+      "reason": "The source spelling and reading resolve to the same restriction-compatible JMdict sense taught by the accepted target; the exact spelling is preserved as a search alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1605820; VocabList.N1.pdf#page=167",
+          "finding": "JMdict lists 好い and 良い in the same よい adjective entry; sense 1 'good' exactly matches the source and reviewed target."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Matched the individual source reference to the reviewed target after applying its exact spelling alias.",
+        "contentHash": "ba6f9b31741384f6af0900ac6cb3351308126e4e9c9834ad6a8e5909c20409d2",
+        "approvalHash": "ba6f9b31741384f6af0900ac6cb3351308126e4e9c9834ad6a8e5909c20409d2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently checked the raw gloss, JMdict sense and final target teaching content; the reference adds spelling only.",
+        "contentHash": "ba6f9b31741384f6af0900ac6cb3351308126e4e9c9834ad6a8e5909c20409d2",
+        "approvalHash": "ba6f9b31741384f6af0900ac6cb3351308126e4e9c9834ad6a8e5909c20409d2"
+      }
+    },
+    {
+      "key": "在る|ある",
+      "referenceIndex": 0,
+      "referenceHash": "8af1d64d90ddd73f89b9abb38d46bc7c43ec8fbc9fef0714e0cc4487d9e2dfe5",
+      "revisionId": "risk-pilot-candidate-accept-88e49eb9c3e13bac",
+      "state": "accepted",
+      "predecessorHash": "6df65c344eb3270d87bb86dbe55f684b55fe0cae7e53a549822f2d42161612b8",
+      "predecessorRevisionHash": "c63f505ddf699225dc6041fd39f1ad96acbae06e90c3a0a4613e27001b7ac52b",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:27"
+      ],
+      "targetHashes": {
+        "vocab-n5:27": "abab00cfd509a22dc2c3969313cdc9267e3e8a7c2276b79d7127783ca712e0e7"
+      },
+      "reason": "The source spelling and reading resolve to the same restriction-compatible JMdict sense taught by the accepted target; the exact spelling is preserved as a search alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1296400; VocabList.N2.pdf#page=3",
+          "finding": "JMdict lists 在る as a kanji spelling of existential ある, usually written in kana; sense 1 covers being/existing/living, usually for inanimate objects. It is distinct from prenominal 或る."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Matched the individual source reference to the reviewed target after applying its exact spelling alias.",
+        "contentHash": "b1a5aec90dd1b133aaf2ede8a738534ca0b4a1a90a225ecfadfb9aede7440428",
+        "approvalHash": "b1a5aec90dd1b133aaf2ede8a738534ca0b4a1a90a225ecfadfb9aede7440428"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently checked the raw gloss, JMdict sense and final target teaching content; the reference adds spelling only.",
+        "contentHash": "b1a5aec90dd1b133aaf2ede8a738534ca0b4a1a90a225ecfadfb9aede7440428",
+        "approvalHash": "b1a5aec90dd1b133aaf2ede8a738534ca0b4a1a90a225ecfadfb9aede7440428"
+      }
+    },
+    {
+      "key": "在る|ある",
+      "referenceIndex": 1,
+      "referenceHash": "0876b9aeecd1146c9b6ddbb87ff7f25ec63a2e670f5a7d7dbe3807e3996b6bcb",
+      "revisionId": "risk-pilot-candidate-accept-11e00b6f23ac3909",
+      "state": "accepted",
+      "predecessorHash": "738aebc34edeec608f155a34fe530073f2823952502c3325434a1755f79bb901",
+      "predecessorRevisionHash": "a89000bc075726c3d480e23b87075c8f05765aead9bab3889f0d9e298176e744",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:27"
+      ],
+      "targetHashes": {
+        "vocab-n5:27": "abab00cfd509a22dc2c3969313cdc9267e3e8a7c2276b79d7127783ca712e0e7"
+      },
+      "reason": "The source spelling and reading resolve to the same restriction-compatible JMdict sense taught by the accepted target; the exact spelling is preserved as a search alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1296400; nihongomaster.com/jlpt-n5-vocabulary-list",
+          "finding": "The source gloss directly matches JMdict's existential sense for 在る/ある and the reviewed inanimate-existence target."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Matched the individual source reference to the reviewed target after applying its exact spelling alias.",
+        "contentHash": "e44c32946882f5cdfd95d2205be65ac61b1c4be9f857ec04b37ef53674e5f0bc",
+        "approvalHash": "e44c32946882f5cdfd95d2205be65ac61b1c4be9f857ec04b37ef53674e5f0bc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently checked the raw gloss, JMdict sense and final target teaching content; the reference adds spelling only.",
+        "contentHash": "e44c32946882f5cdfd95d2205be65ac61b1c4be9f857ec04b37ef53674e5f0bc",
+        "approvalHash": "e44c32946882f5cdfd95d2205be65ac61b1c4be9f857ec04b37ef53674e5f0bc"
+      }
+    },
+    {
+      "key": "出掛ける|でかける",
+      "referenceIndex": 0,
+      "referenceHash": "b3edc2bfee9f377e9b180c89a12e43e3fb1a097cf2324103770540ccf06fc234",
+      "revisionId": "risk-pilot-candidate-accept-ac054d57a095ec8f",
+      "state": "accepted",
+      "predecessorHash": "9aadb1d19bf941b91e5496a700007ee58ebc0afff37cb5a663c51a689206e623",
+      "predecessorRevisionHash": "ec49d5b05340f7365ae47a126de3d417b067ddc5f0331f53458a84a274a2d495",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:43"
+      ],
+      "targetHashes": {
+        "vocab-n5:43": "34c8ba56b1c1771e55aaa0586bf05a0d103220d31f322cb67617c9f62ea93dda"
+      },
+      "reason": "The source spelling and reading resolve to the same restriction-compatible JMdict sense taught by the accepted target; the exact spelling is preserved as a search alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1598550; VocabList.N2.pdf#page=59",
+          "finding": "JMdict contains 出掛ける and 出かける in the same でかける entry; departing/setting out and being about to leave match the source and reviewed target."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Matched the individual source reference to the reviewed target after applying its exact spelling alias.",
+        "contentHash": "4280a68a409561aed7b8177b1b4ad283e37abee901a097017db4bbe9742f51e0",
+        "approvalHash": "4280a68a409561aed7b8177b1b4ad283e37abee901a097017db4bbe9742f51e0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently checked the raw gloss, JMdict sense and final target teaching content; the reference adds spelling only.",
+        "contentHash": "4280a68a409561aed7b8177b1b4ad283e37abee901a097017db4bbe9742f51e0",
+        "approvalHash": "4280a68a409561aed7b8177b1b4ad283e37abee901a097017db4bbe9742f51e0"
+      }
+    },
+    {
+      "key": "出掛ける|でかける",
+      "referenceIndex": 1,
+      "referenceHash": "ab906f56992ac2cac4da3173a667c31338836b05e8c768bef8b6b5baecf0ddca",
+      "revisionId": "risk-pilot-candidate-accept-91e053138d5a005c",
+      "state": "accepted",
+      "predecessorHash": "d83bab4b74e03b068e7d0af78c33a2ea696e82a758a78c93c14ec5a5b5a8ab14",
+      "predecessorRevisionHash": "9b091de33f800ca8d02c9cf108e51d2f871d44ca6cb201cd90b54e5c3dfce371",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:43"
+      ],
+      "targetHashes": {
+        "vocab-n5:43": "34c8ba56b1c1771e55aaa0586bf05a0d103220d31f322cb67617c9f62ea93dda"
+      },
+      "reason": "The source spelling and reading resolve to the same restriction-compatible JMdict sense taught by the accepted target; the exact spelling is preserved as a search alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e / EDRDG",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1598550; nihongomaster.com/jlpt-n5-vocabulary-list",
+          "finding": "The source's depart/go-out/set-out gloss directly matches sense 1 of the shared 出掛ける/出かける entry."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "pilot-candidate-alias-author",
+        "finding": "Matched the individual source reference to the reviewed target after applying its exact spelling alias.",
+        "contentHash": "a36cee3847e66e420aa0c084a97239ed73ce2ac87f46661f2e8509e6cb1ddf80",
+        "approvalHash": "a36cee3847e66e420aa0c084a97239ed73ce2ac87f46661f2e8509e6cb1ddf80"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "candidate-independent-sense-critic",
+        "finding": "Independently checked the raw gloss, JMdict sense and final target teaching content; the reference adds spelling only.",
+        "contentHash": "a36cee3847e66e420aa0c084a97239ed73ce2ac87f46661f2e8509e6cb1ddf80",
+        "approvalHash": "a36cee3847e66e420aa0c084a97239ed73ce2ac87f46661f2e8509e6cb1ddf80"
+      }
+    },
+    {
+      "key": "よい|よい",
+      "referenceIndex": 0,
+      "referenceHash": "03e094dbec8a34c2db1dc5ee45c7ec7a0f0056b6b1fe6f0ae4246e5cc1fa7b8d",
+      "revisionId": "risk-pilot-candidate-research-02b1ad4cb49c308c",
+      "state": "researching",
+      "predecessorHash": "19a8e9828628cb9e2b4667480d45fea62df6e739e54f426253ae49e421be3287",
+      "predecessorRevisionHash": "9d703ea604f80a0151c4e13784ec5abfca9de332e67e6372ce5b292a1c9dced0",
+      "research": [
+        {
+          "source": "JMdict_e / EDRDG and raw publisher gloss",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1605820; VocabList.N3.pdf#page=4",
+          "finding": "The source also claims OK/permission, while the accepted target teaches only general gut; preserve the broader reference until that sense is taught or separately represented."
+        }
+      ],
+      "openQuestions": [
+        "How should the source-only sense be taught or separated without broadening the current target?"
+      ]
+    },
+    {
+      "key": "為る|する",
+      "referenceIndex": 0,
+      "referenceHash": "2b8db51a62abaacdeaab5bce75e4f55f5a4fb28f9a9266e33dcc458e5c63627f",
+      "revisionId": "risk-pilot-candidate-research-c827ec3e59fd6938",
+      "state": "researching",
+      "predecessorHash": "365ca4f665558e3e1f60c15896c7a693e601150cf37bcabfaf2ad02aca6f8401",
+      "predecessorRevisionHash": "004ccd2a0b098a64af8fd7fc5c2be2653e4e340b6f8dbee445bd696227f145a8",
+      "research": [
+        {
+          "source": "JMdict_e / EDRDG and raw publisher gloss",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1157170; VocabList.N3.pdf#page=47",
+          "finding": "The source claims change/use/reach senses that are absent from the accepted machen/tun target; shared dictionary entry alone is insufficient."
+        }
+      ],
+      "openQuestions": [
+        "How should the source-only sense be taught or separated without broadening the current target?"
+      ]
+    },
+    {
+      "key": "為る|する",
+      "referenceIndex": 1,
+      "referenceHash": "f88baa1f5b25100e529b2f436254bbb57b4d1da068bc4a148a14f766e1be18ef",
+      "revisionId": "risk-pilot-candidate-research-b631a6d5196b84b0",
+      "state": "researching",
+      "predecessorHash": "3418fb0c36b7b9d15110acf52b4b13e172264c481d3920db2638cc0347853bd4",
+      "predecessorRevisionHash": "c790665b614830211e3d669f9b33d481cf3a80ea0f9f2329e652ad59ac57926c",
+      "research": [
+        {
+          "source": "JMdict_e / EDRDG and raw publisher gloss",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1157170; nihongomaster.com/jlpt-n5-vocabulary-list",
+          "finding": "The source combines do with cost and try senses that are absent from the accepted machen/tun target; the whole reference cannot be collapsed to the narrower target."
+        }
+      ],
+      "openQuestions": [
+        "How should the source-only sense be taught or separated without broadening the current target?"
+      ]
+    },
+    {
+      "key": "曲る|まがる",
+      "referenceIndex": 0,
+      "referenceHash": "f1df960e7681bc4b8460f84252be64ab922eef4e2e324dac416494f82dd3dfa1",
+      "revisionId": "risk-pilot-candidate-research-58b3d16d0952e148",
+      "state": "researching",
+      "predecessorHash": "8cbd06ed4c279468952774375ac5fd4869e4606adcf37a1ded535ba89080572e",
+      "predecessorRevisionHash": "f06a83f754ec99222a6dbcc3b2d90f27719a42f922709dd7bd8f7fe31372508d",
+      "research": [
+        {
+          "source": "JMdict_e / EDRDG and raw publisher gloss",
+          "version": "Cached JMdict_e SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1239730; VocabList.N5.pdf#page=29",
+          "finding": "The source includes physical bending as well as turning, while the accepted target and examples teach only directional abbiegen; preserve the reference until teaching content covers or separates the bend sense."
+        }
+      ],
+      "openQuestions": [
+        "How should the source-only sense be taught or separated without broadening the current target?"
+      ]
+    }
+  ],
+  "merges": [],
+  "sampleDefects": []
+}
