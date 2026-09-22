@@ -67,7 +67,7 @@
     return state;
   }
   function storeSession(state) {
-    try { sessionStorage.setItem('nihongo-workspace', JSON.stringify(state)); } catch (e) { /* Storage can be disabled. */ }
+    window.NIHONGO_STORAGE.session.setJSON('nihongo-workspace', state);
   }
   function writeHistory(replace, state, hash) {
     try {
@@ -581,7 +581,12 @@
   window.addEventListener('pagehide', function () { save(); window.Comprehension.stop(); });
   var scrollTimer;
   window.addEventListener('scroll', function () { clearTimeout(scrollTimer); scrollTimer = setTimeout(save, 150); }, { passive: true });
-  var session = null;
-  try { session = JSON.parse(sessionStorage.getItem('nihongo-workspace')); } catch (e) { /* Optional session state. */ }
+  var session = window.NIHONGO_STORAGE.session.getJSON('nihongo-workspace', null, function (value) {
+    function record(item) { return item !== null && typeof item === 'object' && !Array.isArray(item); }
+    return record(value) && record(value.sections) && Object.keys(value.sections).every(function (name) {
+      var saved = value.sections[name];
+      return record(saved) && record(saved.filters) && typeof saved.query === 'string';
+    });
+  });
   restore(location.hash || '#kana', history.state && history.state.workspace || session);
 })();

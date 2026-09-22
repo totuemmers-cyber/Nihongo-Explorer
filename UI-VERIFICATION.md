@@ -12,6 +12,7 @@ The static application now uses a grouped sidebar, section toolbars, character g
 
 ## Automated checks
 
+- `npm run test:storage`: startup with blocked storage getters/reads; all six bookmark collections and filters using an in-memory fallback; failed additions/removals with stale saved data; saving after quota recovery; malformed JSON and bookmark/session values; preserved bookmark IDs, preferences and reading drafts. `storage.js` shares this handling across bookmarks, theme, sound, workspace state and comprehension progress. A visible status message explains that affected changes last only until the page is reloaded. Existing storage keys remain compatible.
 - `npm run lint`: syntax and encoding checks pass.
 - `npm run test:smoke`: passes using local `file:` resources, including search ranking, bounded batches, all-results pagination, retry after failed loads, speech, conjugation, related vocabulary, lessons and the full 80-question N5 score calculation.
 - `npm run test:ui`: passes using local resources under an HTTP origin. Covers native button activation, bookmark propagation, the original focus target after next/close, related-entry Back, section query/count/selection/scroll restoration, refresh, invalid links, lesson/article return, dialog versus pane semantics at 1920/1440/1024/768/390/320px, modal focus containment, drawer and Help dismissal, IME/modifier handling, changeable practice answers, explicit timed start, declined and confirmed exits via button/navigation/history, and timer cleanup.

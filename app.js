@@ -21,7 +21,7 @@
   };
 
   // === SOUND ENGINE (Web Audio API) ===
-  var soundEnabled = localStorage.getItem('kanji-sound') === 'on';
+  var soundEnabled = window.NIHONGO_STORAGE.local.get('kanji-sound', 'off') === 'on';
   var audioCtx = null;
 
   function getAudioCtx() {
@@ -310,20 +310,17 @@
           return item.word || '';
         });
         // Keep saved bookmarks when script variants were consolidated into one entry.
-        try {
-          var bookmarks = JSON.parse(localStorage.getItem('bookmarks-onomatopoeia') || '[]');
-          if (Array.isArray(bookmarks)) {
-            items.forEach(function (item) {
-              (item.legacyIds || []).forEach(function (oldId) {
-                if (bookmarks.indexOf(oldId) !== -1) {
-                  bookmarks = bookmarks.filter(function (id) { return id !== oldId; });
-                  if (bookmarks.indexOf(item.id) === -1) bookmarks.push(item.id);
-                }
-              });
-            });
-            localStorage.setItem('bookmarks-onomatopoeia', JSON.stringify(bookmarks));
-          }
-        } catch (error) { /* Storage can be unavailable; content still loads. */ }
+        var bookmarks = getBookmarks('onomatopoeia');
+        var originalBookmarks = JSON.stringify(bookmarks);
+        items.forEach(function (item) {
+          (item.legacyIds || []).forEach(function (oldId) {
+            if (bookmarks.indexOf(oldId) !== -1) {
+              bookmarks = bookmarks.filter(function (id) { return id !== oldId; });
+              if (bookmarks.indexOf(item.id) === -1) bookmarks.push(item.id);
+            }
+          });
+        });
+        if (JSON.stringify(bookmarks) !== originalBookmarks) window.NIHONGO_STORAGE.local.setJSON('bookmarks-onomatopoeia', bookmarks);
         app.sections.onomatopoeia.setItems(createSourceScopedItems('onomatopoeia', items));
       }
     },
@@ -749,7 +746,7 @@
 
   // === THEME ===
   function initTheme() {
-    var saved = localStorage.getItem('kanji-theme');
+    var saved = window.NIHONGO_STORAGE.local.get('kanji-theme', null);
     if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       document.documentElement.setAttribute('data-theme', 'dark');
     }
@@ -759,10 +756,10 @@
     var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
     if (isDark) {
       document.documentElement.removeAttribute('data-theme');
-      localStorage.setItem('kanji-theme', 'light');
+      window.NIHONGO_STORAGE.local.set('kanji-theme', 'light');
     } else {
       document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('kanji-theme', 'dark');
+      window.NIHONGO_STORAGE.local.set('kanji-theme', 'dark');
     }
     setTimeout(updateKanaDarkMode, 50);
   }
@@ -777,7 +774,7 @@
     soundToggle.classList.toggle('active', soundEnabled);
     soundToggle.addEventListener('click', function () {
       soundEnabled = !soundEnabled;
-      localStorage.setItem('kanji-sound', soundEnabled ? 'on' : 'off');
+      window.NIHONGO_STORAGE.local.set('kanji-sound', soundEnabled ? 'on' : 'off');
       soundToggle.classList.toggle('active', soundEnabled);
       if (soundEnabled) playPop();
     });

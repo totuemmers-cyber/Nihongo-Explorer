@@ -68,8 +68,8 @@ window.resetSectionLookups = function () {
 // === Bookmark Utilities ===
 
 function getBookmarks(sectionName) {
-  try { return JSON.parse(localStorage.getItem('bookmarks-' + sectionName) || '[]'); }
-  catch (e) { return []; }
+  var bookmarks = window.NIHONGO_STORAGE.local.getJSON('bookmarks-' + sectionName, [], Array.isArray);
+  return bookmarks.filter(function (id) { return typeof id === 'string' && id.length > 0; });
 }
 
 function isBookmarked(sectionName, itemId) {
@@ -81,7 +81,7 @@ function toggleBookmark(sectionName, itemId) {
   var idx = bk.indexOf(itemId);
   if (idx === -1) bk.push(itemId);
   else bk.splice(idx, 1);
-  localStorage.setItem('bookmarks-' + sectionName, JSON.stringify(bk));
+  window.NIHONGO_STORAGE.local.setJSON('bookmarks-' + sectionName, bk);
   document.dispatchEvent(new CustomEvent('bookmarkchange', { detail: { section: sectionName, id: itemId, starred: idx === -1 } }));
   return idx === -1;
 }

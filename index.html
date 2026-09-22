@@ -48,6 +48,7 @@
         <button id="random-btn" class="btn" hidden>↗ Zufall</button>
       </header>
       <div id="route-message" class="route-message hidden" role="status"></div>
+      <p id="storage-notice" class="route-message" role="status" aria-live="polite" hidden></p>
       <div class="collection-heading"><span id="item-count" role="status"></span><span class="local-note">JLPT N5–N1</span></div>
       <div class="toolbars">
       <!-- Kanji Tab Controls -->
@@ -622,6 +623,7 @@
     </div>
   </div>
 
+  <script src="storage.js"></script>
   <script src="kana-data.js"></script>
   <script src="app-constants.js"></script>
   <script src="conjugation.js"></script>

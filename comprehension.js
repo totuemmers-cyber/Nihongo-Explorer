@@ -3,12 +3,14 @@
   'use strict';
   var units, pending, active = null, host, generation = 0;
   var views = { reading: { level: 'N5', selected: null, scroll: 0 }, listening: { level: 'N5', selected: null, scroll: 0 } };
-  var progress = {};
-  try { progress = JSON.parse(localStorage.getItem('nihongo-comprehension-v1')) || {}; } catch (e) { /* Optional storage. */ }
-  if (typeof progress !== 'object' || Array.isArray(progress)) progress = {};
+  var progress = window.NIHONGO_STORAGE.local.getJSON('nihongo-comprehension-v1', {}, function (value) {
+    return value !== null && typeof value === 'object' && !Array.isArray(value);
+  });
   function persist() {
-    try { localStorage.setItem('nihongo-comprehension-v1', JSON.stringify(progress)); }
-    catch (e) { var status = host && host.querySelector('.comprehension-storage'); if (status) status.textContent = 'Speichern ist nicht verfügbar. Dein Fortschritt bleibt nur bis zum Schließen erhalten.'; }
+    if (!window.NIHONGO_STORAGE.local.setJSON('nihongo-comprehension-v1', progress)) {
+      var status = host && host.querySelector('.comprehension-storage');
+      if (status) status.textContent = 'Speichern ist nicht verfügbar. Dein Fortschritt bleibt nur bis zum Neuladen dieser Seite erhalten.';
+    }
   }
   function el(tag, text, cls) { var n = document.createElement(tag); if (text != null) n.textContent = text; if (cls) n.className = cls; return n; }
   function button(text, fn) { var b = el('button', text); b.type = 'button'; b.onclick = fn; return b; }
