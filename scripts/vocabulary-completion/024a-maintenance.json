@@ -1,0 +1,2647 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:761",
+      "revisionId": "024-vocab-n4-761",
+      "state": "accepted",
+      "predecessorHash": "3246eadece29d0a6cf2674dd024de2917052111d54029cf2937e2d6d7c56d03c",
+      "predecessorRevisionHash": null,
+      "originalHash": "3246eadece29d0a6cf2674dd024de2917052111d54029cf2937e2d6d7c56d03c",
+      "rationale": "相図 is a rarely used kanji form (JMdict &rK;) of 合図 with the same reading and sense; retired into vocab-n4:980 so learners study the standard spelling.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@39718650",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "相図",
+              "reading": "あいず",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "相図 as \"Signal\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1284930; spelling=相図; reading=あいず",
+          "finding": "相図 / あいず (JMdict 1284930) confirms the headword, reading and sense \"Signal\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n4:761 after vocab-correction-rules.js",
+          "finding": "相図 is a rarely used kanji form (JMdict &rK;) of 合図 with the same reading and sense; retired into vocab-n4:980 so learners study the standard spelling."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Signal\" unchanged; checked against JMdict 1284930.",
+        "japanese": "相図をしたら、スクワットを始めて下さい。 / 合図を送ってください。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"aizu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Beginnen Sie mit den Kniebeugen, wenn ich das Signal gebe.",
+          "Bitte geben Sie das Signal."
+        ],
+        "lexical": "JMdict 1284930; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru).",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@39718650",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "相図",
+              "reading": "あいず",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "相図 as \"Signal\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: 相図 is a rarely used kanji form (JMdict &rK;) of 合図 with the same reading and sense; retired into vocab-n4:980 so learners study the standard spelling.",
+        "contentHash": "394912e9ca4c6e377c85d4feda64f8c161b170c904755af9573dd3d0d7fd6f8e",
+        "approvalHash": "ad4fc6584bf891cb90775dfe484db1c4de5ef4cedfd38a997f13ec6bc26f2ee0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "JMdict 1284930 lists 相図 only as a rarely-used kanji form (&rK;) of 合図 under the single reading あいず and sense \"sign; signal; cue\", so retiring this 相図 entry into 合図 is correct; its UniDic row (相図/あいず [1]) matches the unchanged pitch 1.",
+        "contentHash": "394912e9ca4c6e377c85d4feda64f8c161b170c904755af9573dd3d0d7fd6f8e",
+        "approvalHash": "ad4fc6584bf891cb90775dfe484db1c4de5ef4cedfd38a997f13ec6bc26f2ee0"
+      }
+    },
+    {
+      "id": "vocab-n4:980",
+      "revisionId": "024-vocab-n4-980",
+      "state": "accepted",
+      "predecessorHash": "a7f386a0d6ce7cc0d28bba12aa614fc03e6e70df28b59142c3c67f5d4ae95c6f",
+      "predecessorRevisionHash": null,
+      "originalHash": "a7f386a0d6ce7cc0d28bba12aa614fc03e6e70df28b59142c3c67f5d4ae95c6f",
+      "rationale": "Survivor of the 相図/合図 duplicate; content unchanged.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@39718474",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "合図",
+              "reading": "あいず",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "合図 as \"Signal\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1284930; spelling=合図; reading=あいず",
+          "finding": "合図 / あいず (JMdict 1284930) confirms the headword, reading and sense \"Signal\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n4:980 after vocab-correction-rules.js",
+          "finding": "Survivor of the 相図/合図 duplicate; content unchanged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Signal\" unchanged; checked against JMdict 1284930.",
+        "japanese": "私が合図をしたら、大きくジャンプをしてください。 / 先生が合図を出しました。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"aizu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Wenn ich das Signal gebe, springen Sie bitte hoch.",
+          "Der Lehrer gab das Signal."
+        ],
+        "lexical": "JMdict 1284930; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru).",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@39718474",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "合図",
+              "reading": "あいず",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "合図 as \"Signal\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Survivor of the 相図/合図 duplicate; content unchanged.",
+        "contentHash": "3a06d0872d9d2f377fe8bb2e616912c0308b305798a5ca5afc3ea6c6bb075000",
+        "approvalHash": "c5d22e3564bb6708b328694b21d9db4574155899ae57c9f7c44ecdf977958b16"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Survivor 合図/あいず/aizu keeps both examples (私が合図をしたら… / 先生が合図を出しました) with romaji matching the kana; pitch 1 is the exact 合図/あいず UniDic row pattern, and nothing from 相図 is lost since its second example already used 合図.",
+        "contentHash": "3a06d0872d9d2f377fe8bb2e616912c0308b305798a5ca5afc3ea6c6bb075000",
+        "approvalHash": "c5d22e3564bb6708b328694b21d9db4574155899ae57c9f7c44ecdf977958b16"
+      }
+    },
+    {
+      "id": "vocab-n2:2212",
+      "revisionId": "024-vocab-n2-2212",
+      "state": "accepted",
+      "predecessorHash": "7fc43d8705eee3d6f14aface81618791b82c9ea0bfdc9f7662f21ebdf20f6974",
+      "predecessorRevisionHash": null,
+      "originalHash": "7fc43d8705eee3d6f14aface81618791b82c9ea0bfdc9f7662f21ebdf20f6974",
+      "rationale": "Reading ゆいつ replaced by the standard ゆいいつ (JMdict 1538920 lists ゆいいつ first; ゆいつ is a less common variant); the example romaji already reads yuiitsu.",
+      "original": {
+        "reading": "ゆいつ",
+        "romaji": "yuitsu",
+        "pitch": 1
+      },
+      "replacement": {
+        "reading": "ゆいいつ",
+        "romaji": "yuiitsu",
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1538920; spelling=唯一; reading=ゆいいつ",
+          "finding": "唯一 / ゆいいつ (JMdict 1538920) confirms the headword, reading and sense \"einzig\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:2212 after vocab-correction-rules.js",
+          "finding": "Reading ゆいつ replaced by the standard ゆいいつ (JMdict 1538920 lists ゆいいつ first; ゆいつ is a less common variant); the example romaji already reads yuiitsu."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "reading-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"einzig\" unchanged; checked against JMdict 1538920.",
+        "japanese": "あいつは奴の家族の中で唯一まともな人間だよ。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"yuiitsu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Er ist der einzige anständige Mensch in seiner Familie."
+        ],
+        "lexical": "JMdict 1538920; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 唯一 / ゆいいつ; previous 1 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 唯一 / ゆいいつ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Reading ゆいつ replaced by the standard ゆいいつ (JMdict 1538920 lists ゆいいつ first; ゆいつ is a less common variant); the example romaji already reads yuiitsu.",
+        "contentHash": "c6d23d0ba41841dd59d207a1d0b631df95fbbb82c4855bbb157770cf9242a190",
+        "approvalHash": "04539a2b96a66485b781d03142c59b014202b3d77b62f730b2761a893ad5e42c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "JMdict 1538920 ranks ゆいいつ first (ichi1/news1/nf03) with ゆいつ as a secondary variant, so reading ゆいいつ and romaji yuiitsu are correct and now agree with the already-correct example romaji \"…naka de yuiitsu matomo na…\"; pitch nulled as unknown with no exact row, consistent with policy.",
+        "contentHash": "c6d23d0ba41841dd59d207a1d0b631df95fbbb82c4855bbb157770cf9242a190",
+        "approvalHash": "04539a2b96a66485b781d03142c59b014202b3d77b62f730b2761a893ad5e42c"
+      }
+    },
+    {
+      "id": "vocab-n1:699",
+      "revisionId": "024-vocab-n1-699",
+      "state": "accepted",
+      "predecessorHash": "b2d785a178e2ce6b92322f02ad25244b79b45044a1c358b09adb55d21762cb6f",
+      "predecessorRevisionHash": null,
+      "originalHash": "b2d785a178e2ce6b92322f02ad25244b79b45044a1c358b09adb55d21762cb6f",
+      "rationale": "Reading にだしにん is wrong; 荷送人 is read におくりにん (JMdict 1714540). Headword and example romaji corrected.",
+      "original": {
+        "reading": "にだしにん",
+        "romaji": "nidashininn",
+        "examples": [
+          {
+            "japanese": "荷送人が輸出書類を準備する責任がある。",
+            "romaji": "Nidashininn ga yushutsu shorui wo junbi suru sekinin ga aru.",
+            "german": "Der Absender ist für die Vorbereitung der Exportdokumente verantwortlich."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "reading": "におくりにん",
+        "romaji": "niokurinin",
+        "examples": [
+          {
+            "japanese": "荷送人が輸出書類を準備する責任がある。",
+            "romaji": "Niokurinin ga yushutsu shorui wo junbi suru sekinin ga aru.",
+            "german": "Der Absender ist für die Vorbereitung der Exportdokumente verantwortlich."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1714540; spelling=荷送人; reading=におくりにん",
+          "finding": "荷送人 / におくりにん (JMdict 1714540) confirms the headword, reading and sense \"Absender; Versender\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:699 after vocab-correction-rules.js",
+          "finding": "Reading にだしにん is wrong; 荷送人 is read におくりにん (JMdict 1714540). Headword and example romaji corrected."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "reading-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Absender; Versender\" unchanged; checked against JMdict 1714540.",
+        "japanese": "荷送人が輸出書類を準備する責任がある。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"niokurinin\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Der Absender ist für die Vorbereitung der Exportdokumente verantwortlich."
+        ],
+        "lexical": "JMdict 1714540; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 荷送人 / におくりにん; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 荷送人 / におくりにん",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Reading にだしにん is wrong; 荷送人 is read におくりにん (JMdict 1714540). Headword and example romaji corrected.",
+        "contentHash": "dc7c5274231e6a21ea58b0422e1d9e67184e9d52e67dbff5dbcfb66d417cf31b",
+        "approvalHash": "3c8eadff021b4952074062f121cd8512689e36a0f71b27086f67ec85e0d5e48c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "JMdict 1714540 gives 荷送人 (and 荷送り人) only the reading におくりにん \"consignor\"; the bogus にだしにん/nidashininn is replaced by におくりにん/niokurinin in both headword and example romaji, and the rest of the example romaji (\"…yushutsu shorui wo junbi suru sekinin ga aru\") is untouched and matches the Japanese.",
+        "contentHash": "dc7c5274231e6a21ea58b0422e1d9e67184e9d52e67dbff5dbcfb66d417cf31b",
+        "approvalHash": "3c8eadff021b4952074062f121cd8512689e36a0f71b27086f67ec85e0d5e48c"
+      }
+    },
+    {
+      "id": "vocab-n1:2829",
+      "revisionId": "024-vocab-n1-2829",
+      "state": "accepted",
+      "predecessorHash": "7c095e42a9a6d7f8b7de10d94c25f1fa53b3e7a08b02ad058719f44c16177f51",
+      "predecessorRevisionHash": null,
+      "originalHash": "7c095e42a9a6d7f8b7de10d94c25f1fa53b3e7a08b02ad058719f44c16177f51",
+      "rationale": "Reading はためには contained the particle は, which is not part of the headword 傍目に; corrected to はために (傍目 = はため, JMdict 1584140). Romaji fixed.",
+      "original": {
+        "reading": "はためには",
+        "romaji": "hata me ni wa",
+        "examples": [
+          {
+            "japanese": "傍目には幸せそうに見える。",
+            "romaji": "Hata me ni wa shiawase sō ni mieru.",
+            "german": "Von außen betrachtet sieht es glücklich aus."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "reading": "はために",
+        "romaji": "hatame ni",
+        "examples": [
+          {
+            "japanese": "傍目には幸せそうに見える。",
+            "romaji": "Hatame ni wa shiawase sō ni mieru.",
+            "german": "Von außen betrachtet sieht es glücklich aus."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1584140; spelling=傍目; reading=はため",
+          "finding": "傍目 / はため (JMdict 1584140) confirms the headword, reading and sense \"von außen betrachtet\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:2829 after vocab-correction-rules.js",
+          "finding": "Reading はためには contained the particle は, which is not part of the headword 傍目に; corrected to はために (傍目 = はため, JMdict 1584140). Romaji fixed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "reading-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"von außen betrachtet\" unchanged; checked against JMdict 1584140.",
+        "japanese": "傍目には幸せそうに見える。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"hatame ni\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Von außen betrachtet sieht es glücklich aus."
+        ],
+        "lexical": "JMdict 1584140; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 傍目に / はために; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 傍目に / はために",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Reading はためには contained the particle は, which is not part of the headword 傍目に; corrected to はために (傍目 = はため, JMdict 1584140). Romaji fixed.",
+        "contentHash": "996807c7391207948ee4c3c1b6be3593654ac17e3dbf4f6aba69bd12796901d3",
+        "approvalHash": "07955500acec1fdedd337fcfb098d5297efda016bb34a494abb81a8e148dd61c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "傍目 = はため (JMdict 1584140, \"as seen by an observer\"), so the headword 傍目に reads はために and the topic particle は had been wrongly baked into the reading; romaji hatame ni and example \"Hatame ni wa shiawase sō ni mieru.\" now match 傍目には幸せそうに見える exactly.",
+        "contentHash": "996807c7391207948ee4c3c1b6be3593654ac17e3dbf4f6aba69bd12796901d3",
+        "approvalHash": "07955500acec1fdedd337fcfb098d5297efda016bb34a494abb81a8e148dd61c"
+      }
+    },
+    {
+      "id": "vocab-n4:534",
+      "revisionId": "024-vocab-n4-534",
+      "state": "accepted",
+      "predecessorHash": "44b85244d344bf93431cb5e734eae8a70317700b2ed1bd8ee7cbe065b997a75a",
+      "predecessorRevisionHash": null,
+      "originalHash": "44b85244d344bf93431cb5e734eae8a70317700b2ed1bd8ee7cbe065b997a75a",
+      "rationale": "Romaji chounaikei does not match ちょうないかい; corrected to chounaikai in headword and examples.",
+      "original": {
+        "romaji": "chounaikei",
+        "examples": [
+          {
+            "japanese": "町内会の集まりがあります。",
+            "romaji": "Chounaikei no atsumari ga arimasu.",
+            "german": "Es gibt ein Treffen des Nachbarschaftsvereins."
+          },
+          {
+            "japanese": "町内会の集まりに参加しました。",
+            "romaji": "Chounaikei no atsumari ni sanka shimashita.",
+            "german": "Ich nahm am Treffen des Nachbarschaftsvereins teil."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "chounaikai",
+        "examples": [
+          {
+            "japanese": "町内会の集まりがあります。",
+            "romaji": "Chounaikai no atsumari ga arimasu.",
+            "german": "Es gibt ein Treffen des Nachbarschaftsvereins."
+          },
+          {
+            "japanese": "町内会の集まりに参加しました。",
+            "romaji": "Chounaikai no atsumari ni sanka shimashita.",
+            "german": "Ich nahm am Treffen des Nachbarschaftsvereins teil."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1776790; spelling=町内会; reading=ちょうないかい",
+          "finding": "町内会 / ちょうないかい (JMdict 1776790) confirms the headword, reading and sense \"Nachbarschaftsverein\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n4:534 after vocab-correction-rules.js",
+          "finding": "Romaji chounaikei does not match ちょうないかい; corrected to chounaikai in headword and examples."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Nachbarschaftsverein\" unchanged; checked against JMdict 1776790.",
+        "japanese": "町内会の集まりがあります。 / 町内会の集まりに参加しました。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"chounaikai\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Es gibt ein Treffen des Nachbarschaftsvereins.",
+          "Ich nahm am Treffen des Nachbarschaftsvereins teil."
+        ],
+        "lexical": "JMdict 1776790; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 町内会 / ちょうないかい; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 町内会 / ちょうないかい",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji chounaikei does not match ちょうないかい; corrected to chounaikai in headword and examples.",
+        "contentHash": "d890378a23987785e68456ee28b647ce55a7f427dc7f40f59f071b41d97fc586",
+        "approvalHash": "85d15f6ad7fe5346e25e1a9f2113f9a0d27d18a03979257e71a8d10833ba804f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "ちょうないかい (JMdict 1776790) romanizes as chounaikai under the N4 no-macron convention; the typo \"kei\" is fixed in the headword and in both example romaji lines, which otherwise match 町内会の集まりがあります / …に参加しました.",
+        "contentHash": "d890378a23987785e68456ee28b647ce55a7f427dc7f40f59f071b41d97fc586",
+        "approvalHash": "85d15f6ad7fe5346e25e1a9f2113f9a0d27d18a03979257e71a8d10833ba804f"
+      }
+    },
+    {
+      "id": "vocab-n2:791",
+      "revisionId": "024-vocab-n2-791",
+      "state": "accepted",
+      "predecessorHash": "5c1e1bf4206f27c0c20c3c52370e51ab1d5c0148a79d0989618b6acae6874a48",
+      "predecessorRevisionHash": null,
+      "originalHash": "5c1e1bf4206f27c0c20c3c52370e51ab1d5c0148a79d0989618b6acae6874a48",
+      "rationale": "Romaji sokoza ni does not match そくざに; corrected to sokuza ni in headword and example.",
+      "original": {
+        "romaji": "sokoza ni",
+        "examples": [
+          {
+            "japanese": "彼は質問に即座に答えた。",
+            "romaji": "Kare wa shitsumon ni sokoza ni kotaeta.",
+            "german": "Er antwortete augenblicklich auf die Frage."
+          }
+        ],
+        "pitch": 1
+      },
+      "replacement": {
+        "romaji": "sokuza ni",
+        "examples": [
+          {
+            "japanese": "彼は質問に即座に答えた。",
+            "romaji": "Kare wa shitsumon ni sokuza ni kotaeta.",
+            "german": "Er antwortete augenblicklich auf die Frage."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1404190; spelling=即座に; reading=そくざに",
+          "finding": "即座に / そくざに (JMdict 1404190) confirms the headword, reading and sense \"augenblicklich; sofort\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:791 after vocab-correction-rules.js",
+          "finding": "Romaji sokoza ni does not match そくざに; corrected to sokuza ni in headword and example."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"augenblicklich; sofort\" unchanged; checked against JMdict 1404190.",
+        "japanese": "彼は質問に即座に答えた。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"sokuza ni\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Er antwortete augenblicklich auf die Frage."
+        ],
+        "lexical": "JMdict 1404190; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 即座に / そくざに; previous 1 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 即座に / そくざに",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji sokoza ni does not match そくざに; corrected to sokuza ni in headword and example.",
+        "contentHash": "f63ddc590cca75e4bef5acf7f8e6e78b6583255060fa9fa39590dca5ba4d6cdd",
+        "approvalHash": "92bf80e123b1bbf225a1dc847b4156dd1f021c6394a66ba513f3870944e67846"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "そくざ is sokuza (JMdict 1404190 即座); headword and example romaji now read \"sokuza ni\", and \"Kare wa shitsumon ni sokuza ni kotaeta.\" matches 彼は質問に即座に答えた token for token.",
+        "contentHash": "f63ddc590cca75e4bef5acf7f8e6e78b6583255060fa9fa39590dca5ba4d6cdd",
+        "approvalHash": "92bf80e123b1bbf225a1dc847b4156dd1f021c6394a66ba513f3870944e67846"
+      }
+    },
+    {
+      "id": "vocab-n1:540",
+      "revisionId": "024-vocab-n1-540",
+      "state": "accepted",
+      "predecessorHash": "f1d0a56c9a34c2af440efeb603142f834b76a99e93868e7b9413d8ddfefc2e93",
+      "predecessorRevisionHash": null,
+      "originalHash": "f1d0a56c9a34c2af440efeb603142f834b76a99e93868e7b9413d8ddfefc2e93",
+      "rationale": "Romaji kashshiburi does not match かししぶり; corrected to kashishiburi in headword and example.",
+      "original": {
+        "romaji": "kashshiburi",
+        "examples": [
+          {
+            "japanese": "銀行の貸し渋りが中小企業の経営を圧迫している。",
+            "romaji": "Ginkō no kashshiburi ga chūshō kigyō no keiei wo appaku shite iru.",
+            "german": "Die Kreditklemme der Banken belastet die Geschäftsführung kleiner und mittlerer Unternehmen."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "kashishiburi",
+        "examples": [
+          {
+            "japanese": "銀行の貸し渋りが中小企業の経営を圧迫している。",
+            "romaji": "Ginkō no kashishiburi ga chūshō kigyō no keiei wo appaku shite iru.",
+            "german": "Die Kreditklemme der Banken belastet die Geschäftsführung kleiner und mittlerer Unternehmen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93155020",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "貸し渋り",
+              "reading": "かししぶり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "貸し渋り as \"Kreditklemme; Kreditverweigerung\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1607930; spelling=貸し渋り; reading=かししぶり",
+          "finding": "貸し渋り / かししぶり (JMdict 1607930) confirms the headword, reading and sense \"Kreditklemme; Kreditverweigerung\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:540 after vocab-correction-rules.js",
+          "finding": "Romaji kashshiburi does not match かししぶり; corrected to kashishiburi in headword and example."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Kreditklemme; Kreditverweigerung\" unchanged; checked against JMdict 1607930.",
+        "japanese": "銀行の貸し渋りが中小企業の経営を圧迫している。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"kashishiburi\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Kreditklemme der Banken belastet die Geschäftsführung kleiner und mittlerer Unternehmen."
+        ],
+        "lexical": "JMdict 1607930; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93155020",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "貸し渋り",
+              "reading": "かししぶり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "貸し渋り as \"Kreditklemme; Kreditverweigerung\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji kashshiburi does not match かししぶり; corrected to kashishiburi in headword and example.",
+        "contentHash": "a4e53c54d3df7c3d5e1821894b6dead25e9870e6c775c71fc09007572531772b",
+        "approvalHash": "949fd54d1c734383a444400ae6b7e36432f629276f7625a28c818b16e544a266"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "かししぶり romanizes as kashishiburi (the geminate in \"kashshiburi\" had no っ in the kana); example romaji fixed only in that word, and pitch 0 is the exact 貸し渋り/かししぶり UniDic pattern.",
+        "contentHash": "a4e53c54d3df7c3d5e1821894b6dead25e9870e6c775c71fc09007572531772b",
+        "approvalHash": "949fd54d1c734383a444400ae6b7e36432f629276f7625a28c818b16e544a266"
+      }
+    },
+    {
+      "id": "vocab-n1:2048",
+      "revisionId": "024-vocab-n1-2048",
+      "state": "accepted",
+      "predecessorHash": "5d1d41893b5da0d333127c438eee4008e5cd4bc81e0284ce14d826e962b3281d",
+      "predecessorRevisionHash": null,
+      "originalHash": "5d1d41893b5da0d333127c438eee4008e5cd4bc81e0284ce14d826e962b3281d",
+      "rationale": "Romaji umetatech is truncated; corrected to umetatechi in headword and example.",
+      "original": {
+        "romaji": "umetatech",
+        "examples": [
+          {
+            "japanese": "埋立地の残余容量が逼迫している。",
+            "romaji": "Umetatech no zan'yo yōryō ga hippaku shite iru.",
+            "german": "Die Restkapazität der Deponien wird knapp."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "umetatechi",
+        "examples": [
+          {
+            "japanese": "埋立地の残余容量が逼迫している。",
+            "romaji": "Umetatechi no zan'yo yōryō ga hippaku shite iru.",
+            "german": "Die Restkapazität der Deponien wird knapp."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588430; spelling=埋立地; reading=うめたてち",
+          "finding": "埋立地 / うめたてち (JMdict 1588430) confirms the headword, reading and sense \"Deponie; Mülldeponie\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:2048 after vocab-correction-rules.js",
+          "finding": "Romaji umetatech is truncated; corrected to umetatechi in headword and example."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Deponie; Mülldeponie\" unchanged; checked against JMdict 1588430.",
+        "japanese": "埋立地の残余容量が逼迫している。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"umetatechi\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Restkapazität der Deponien wird knapp."
+        ],
+        "lexical": "JMdict 1588430; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 埋立地 / うめたてち; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 埋立地 / うめたてち",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji umetatech is truncated; corrected to umetatechi in headword and example.",
+        "contentHash": "3c86254177c5c753a2228e6d7e972d70eba0e232bf583ebe2b2ee4149b1c189e",
+        "approvalHash": "5e1757cce3e32c4081dd6e05eddb029e25e2459f86c6051558936274779d4abb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Truncated \"umetatech\" corrected to umetatechi for うめたてち (JMdict 1588430) in headword and example; example romaji \"Umetatechi no zan'yo yōryō ga hippaku shite iru.\" matches 埋立地の残余容量が逼迫している with N1 macrons.",
+        "contentHash": "3c86254177c5c753a2228e6d7e972d70eba0e232bf583ebe2b2ee4149b1c189e",
+        "approvalHash": "5e1757cce3e32c4081dd6e05eddb029e25e2459f86c6051558936274779d4abb"
+      }
+    },
+    {
+      "id": "vocab-n1:1037",
+      "revisionId": "024-vocab-n1-1037",
+      "state": "accepted",
+      "predecessorHash": "4e9b883cf5200e35fef71efc62b4d9ced10dae9feb1a27597a6c7e9de87ed02c",
+      "predecessorRevisionHash": null,
+      "originalHash": "4e9b883cf5200e35fef71efc62b4d9ced10dae9feb1a27597a6c7e9de87ed02c",
+      "rationale": "Romaji koresutorōru does not match これすてろーる; corrected to koresuterōru in headword and example.",
+      "original": {
+        "romaji": "koresutorōru",
+        "examples": [
+          {
+            "japanese": "高コレステロールは動脈硬化のリスク因子である。",
+            "romaji": "Kō koresutorōru wa dōmyaku kōka no risuku inshi de aru.",
+            "german": "Hoher Cholesterinspiegel ist ein Risikofaktor für Arteriosklerose."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "koresuterōru",
+        "examples": [
+          {
+            "japanese": "高コレステロールは動脈硬化のリスク因子である。",
+            "romaji": "Kō koresuterōru wa dōmyaku kōka no risuku inshi de aru.",
+            "german": "Hoher Cholesterinspiegel ist ein Risikofaktor für Arteriosklerose."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125155924",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5
+            ],
+            "finding": "Existing 0 contradicted by the exact row; corrected to 5.",
+            "match": {
+              "word": "コレステロール",
+              "reading": "これすてろーる",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コレステロール as \"Cholesterin\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1051610; spelling=コレステロール; reading=コレステロール",
+          "finding": "コレステロール / コレステロール (JMdict 1051610) confirms the headword, reading and sense \"Cholesterin\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:1037 after vocab-correction-rules.js",
+          "finding": "Romaji koresutorōru does not match これすてろーる; corrected to koresuterōru in headword and example."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Cholesterin\" unchanged; checked against JMdict 1051610.",
+        "japanese": "高コレステロールは動脈硬化のリスク因子である。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"koresuterōru\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Hoher Cholesterinspiegel ist ein Risikofaktor für Arteriosklerose."
+        ],
+        "lexical": "JMdict 1051610; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing 0 contradicted by the exact row; corrected to 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125155924",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5
+            ],
+            "finding": "Existing 0 contradicted by the exact row; corrected to 5.",
+            "match": {
+              "word": "コレステロール",
+              "reading": "これすてろーる",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コレステロール as \"Cholesterin\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji koresutorōru does not match これすてろーる; corrected to koresuterōru in headword and example.",
+        "contentHash": "4df54a1ed5fa354d1d80588cffea7806fc76e3ad0d53d4faea88b419db22aaa5",
+        "approvalHash": "45b40accdcb35203c3645592d62a6fafa44cd9a17b4bc25b90ba4b513e0a5bdf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "コレステロール is ko-re-su-te-rō-ru, so \"koresutorōru\" was wrong and koresuterōru is correct in headword and example (\"Kō koresuterōru wa dōmyaku kōka…\"); pitch 5 is the pattern of the exact コレステロール UniDic row cited.",
+        "contentHash": "4df54a1ed5fa354d1d80588cffea7806fc76e3ad0d53d4faea88b419db22aaa5",
+        "approvalHash": "45b40accdcb35203c3645592d62a6fafa44cd9a17b4bc25b90ba4b513e0a5bdf"
+      }
+    },
+    {
+      "id": "vocab-n2:1929",
+      "revisionId": "024-vocab-n2-1929",
+      "state": "accepted",
+      "predecessorHash": "744f17e81e36cc1c4158787506499c5766294df0a43e23a53c26c1c1e64d9bf8",
+      "predecessorRevisionHash": null,
+      "originalHash": "744f17e81e36cc1c4158787506499c5766294df0a43e23a53c26c1c1e64d9bf8",
+      "rationale": "Romaji effyerutou does not match えっふぇるとう; corrected to efferutou in headword and example.",
+      "original": {
+        "romaji": "effyerutou",
+        "examples": [
+          {
+            "japanese": "エッフェル塔のどんなところが好きでしたか？",
+            "romaji": "Effyerutou no donna tokoro ga suki deshita ka?",
+            "german": "Was hat Ihnen am Eiffelturm gefallen?"
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "efferutou",
+        "examples": [
+          {
+            "japanese": "エッフェル塔のどんなところが好きでしたか？",
+            "romaji": "Efferutou no donna tokoro ga suki deshita ka?",
+            "german": "Was hat Ihnen am Eiffelturm gefallen?"
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1624260; spelling=エッフェル塔; reading=エッフェルとう",
+          "finding": "エッフェル塔 / エッフェルとう (JMdict 1624260) confirms the headword, reading and sense \"Eiffelturm\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:1929 after vocab-correction-rules.js",
+          "finding": "Romaji effyerutou does not match えっふぇるとう; corrected to efferutou in headword and example."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Eiffelturm\" unchanged; checked against JMdict 1624260.",
+        "japanese": "エッフェル塔のどんなところが好きでしたか？ — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"efferutou\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Was hat Ihnen am Eiffelturm gefallen?"
+        ],
+        "lexical": "JMdict 1624260; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for エッフェル塔 / えっふぇるとう; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup エッフェル塔 / えっふぇるとう",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji effyerutou does not match えっふぇるとう; corrected to efferutou in headword and example.",
+        "contentHash": "7bb9f3c742b96c9a69887660b9cc24fc6803bca8ed9addfed67956af0c0ef05b",
+        "approvalHash": "c2489b369c1a58a2b9ec5a5e17dda8efffd6e0195b6ac7dd8672e8f6816e6827"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "えっふぇるとう romanizes as efferutou (ッフェ = ffe, no y-glide), so \"effyerutou\" was a real error; example romaji \"Efferutou no donna tokoro ga suki deshita ka?\" matches the Japanese, and pitch is correctly nulled with no exact compound row.",
+        "contentHash": "7bb9f3c742b96c9a69887660b9cc24fc6803bca8ed9addfed67956af0c0ef05b",
+        "approvalHash": "c2489b369c1a58a2b9ec5a5e17dda8efffd6e0195b6ac7dd8672e8f6816e6827"
+      }
+    },
+    {
+      "id": "vocab-n3:879",
+      "revisionId": "024-vocab-n3-879",
+      "state": "accepted",
+      "predecessorHash": "91c445ff79e9edd27d472006dd54c485b276b1b1a75d1ee3875562354c987a8e",
+      "predecessorRevisionHash": null,
+      "originalHash": "91c445ff79e9edd27d472006dd54c485b276b1b1a75d1ee3875562354c987a8e",
+      "rationale": "Romaji osoreru drops the い of おそれいる; corrected to osoreiru.",
+      "original": {
+        "romaji": "osoreru",
+        "pitch": 4,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "osoreiru",
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@78697603",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Existing 4 contradicted by the exact row; corrected to 2.",
+            "match": {
+              "word": "恐れ入る",
+              "reading": "おそれいる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "恐れ入る as \"sich schämen, entschuldigen (höflich)\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1236680; spelling=恐れ入る; reading=おそれいる",
+          "finding": "恐れ入る / おそれいる (JMdict 1236680) confirms the headword, reading and sense \"sich schämen, entschuldigen (höflich)\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:879 after vocab-correction-rules.js",
+          "finding": "Romaji osoreru drops the い of おそれいる; corrected to osoreiru."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"sich schämen, entschuldigen (höflich)\" unchanged; checked against JMdict 1236680.",
+        "japanese": "恐れ入りますが、お名前は。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"osoreiru\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Verzeihen Sie, wie ist Ihr Name?"
+        ],
+        "lexical": "JMdict 1236680; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing 4 contradicted by the exact row; corrected to 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@78697603",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Existing 4 contradicted by the exact row; corrected to 2.",
+            "match": {
+              "word": "恐れ入る",
+              "reading": "おそれいる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "恐れ入る as \"sich schämen, entschuldigen (höflich)\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji osoreru drops the い of おそれいる; corrected to osoreiru.",
+        "contentHash": "4734be5dc6dc52b58d3b74fb897a8b1b161d1a67fee65a61895909cc5f3e09e4",
+        "approvalHash": "a7c3978007c65987c4f8969368f3cd5555f59a2e4b0abbc6e9a8800904f9ffc8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "おそれいる requires osoreiru (the い of 入る was dropped); pitch 2 is among the patterns of the exact 恐れ入る/おそれいる 五段-ラ行 UniDic row, so the 4->2 change is consistent with the verified-pitch rule.",
+        "contentHash": "4734be5dc6dc52b58d3b74fb897a8b1b161d1a67fee65a61895909cc5f3e09e4",
+        "approvalHash": "a7c3978007c65987c4f8969368f3cd5555f59a2e4b0abbc6e9a8800904f9ffc8"
+      }
+    },
+    {
+      "id": "vocab-n3:1924",
+      "revisionId": "024-vocab-n3-1924",
+      "state": "accepted",
+      "predecessorHash": "382382964b0fec3993113526a561acfb84f084029e2e9b6a281732f19f772856",
+      "predecessorRevisionHash": null,
+      "originalHash": "382382964b0fec3993113526a561acfb84f084029e2e9b6a281732f19f772856",
+      "rationale": "Romaji monosabishi drops the final い of ものさびしい; corrected to monosabishii in headword and example.",
+      "original": {
+        "romaji": "monosabishi",
+        "examples": [
+          {
+            "japanese": "もの寂しい風景です。",
+            "romaji": "Monosabishi fuukei desu.",
+            "german": "Es ist eine einsam wirkende Landschaft."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "monosabishii",
+        "examples": [
+          {
+            "japanese": "もの寂しい風景です。",
+            "romaji": "Monosabishii fuukei desu.",
+            "german": "Es ist eine einsam wirkende Landschaft."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@265487860",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5,
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "もの寂しい",
+              "reading": "ものさびしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "もの寂しい as \"einsam, verlassen wirkend\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1664310; spelling=もの寂しい; reading=ものさびしい",
+          "finding": "もの寂しい / ものさびしい (JMdict 1664310) confirms the headword, reading and sense \"einsam, verlassen wirkend\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:1924 after vocab-correction-rules.js",
+          "finding": "Romaji monosabishi drops the final い of ものさびしい; corrected to monosabishii in headword and example."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"einsam, verlassen wirkend\" unchanged; checked against JMdict 1664310.",
+        "japanese": "もの寂しい風景です。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"monosabishii\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Es ist eine einsam wirkende Landschaft."
+        ],
+        "lexical": "JMdict 1664310; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@265487860",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5,
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "もの寂しい",
+              "reading": "ものさびしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "もの寂しい as \"einsam, verlassen wirkend\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji monosabishi drops the final い of ものさびしい; corrected to monosabishii in headword and example.",
+        "contentHash": "6a09e3e57c87b237678d7edc5cf80c14998848a45a78ac521a66906ebbec519b",
+        "approvalHash": "b625a33fbf3571793b62e0ba6f5961a2ecc8701910206eefd57f951ca700040f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "ものさびしい ends in -shii, so monosabishii is correct in headword and in \"Monosabishii fuukei desu.\" (もの寂しい風景です); existing pitch 5 is one of the exact row patterns [5,0].",
+        "contentHash": "6a09e3e57c87b237678d7edc5cf80c14998848a45a78ac521a66906ebbec519b",
+        "approvalHash": "b625a33fbf3571793b62e0ba6f5961a2ecc8701910206eefd57f951ca700040f"
+      }
+    },
+    {
+      "id": "vocab-n1:174",
+      "revisionId": "024-vocab-n1-174",
+      "state": "accepted",
+      "predecessorHash": "3ed31e0eca74fc3b69f526f8a957a0b64b0fbf166cebbac454fc450cfb1faf87",
+      "predecessorRevisionHash": null,
+      "originalHash": "3ed31e0eca74fc3b69f526f8a957a0b64b0fbf166cebbac454fc450cfb1faf87",
+      "rationale": "Romaji minshūsei lengthens the short しゅ of みんしゅせい; corrected to minshusei in headword and example.",
+      "original": {
+        "romaji": "chokusetsu minshūsei",
+        "examples": [
+          {
+            "japanese": "スイスは直接民主制を採用している代表的な国だ。",
+            "romaji": "Suisu wa chokusetsu minshūsei o saiyō shite iru daihyōteki na kuni da.",
+            "german": "Die Schweiz ist ein typisches Land, das die direkte Demokratie anwendet."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "chokusetsu minshusei",
+        "examples": [
+          {
+            "japanese": "スイスは直接民主制を採用している代表的な国だ。",
+            "romaji": "Suisu wa chokusetsu minshusei o saiyō shite iru daihyōteki na kuni da.",
+            "german": "Die Schweiz ist ein typisches Land, das die direkte Demokratie anwendet."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1788300; spelling=直接民主制; reading=ちょくせつみんしゅせい",
+          "finding": "直接民主制 / ちょくせつみんしゅせい (JMdict 1788300) confirms the headword, reading and sense \"direkte Demokratie\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:174 after vocab-correction-rules.js",
+          "finding": "Romaji minshūsei lengthens the short しゅ of みんしゅせい; corrected to minshusei in headword and example."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"direkte Demokratie\" unchanged; checked against JMdict 1788300.",
+        "japanese": "スイスは直接民主制を採用している代表的な国だ。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"chokusetsu minshusei\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Schweiz ist ein typisches Land, das die direkte Demokratie anwendet."
+        ],
+        "lexical": "JMdict 1788300; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 直接民主制 / ちょくせつみんしゅせい; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 直接民主制 / ちょくせつみんしゅせい",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji minshūsei lengthens the short しゅ of みんしゅせい; corrected to minshusei in headword and example.",
+        "contentHash": "2fb53cee8692a5b18016f9e9ce0e3be5343c93b3b29c565802f4fd2191217295",
+        "approvalHash": "e2885e520f2a3e971b02d4937865443a1726868b2d7fdd79052041e30462a372"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "みんしゅせい has a short しゅ, so minshusei (not minshūsei) is correct in headword and example; the example romaji otherwise matches スイスは直接民主制を採用している代表的な国だ and keeps the N1 macrons on saiyō/daihyōteki.",
+        "contentHash": "2fb53cee8692a5b18016f9e9ce0e3be5343c93b3b29c565802f4fd2191217295",
+        "approvalHash": "e2885e520f2a3e971b02d4937865443a1726868b2d7fdd79052041e30462a372"
+      }
+    },
+    {
+      "id": "vocab-n1:175",
+      "revisionId": "024-vocab-n1-175",
+      "state": "accepted",
+      "predecessorHash": "5517e09db21ef8885990e822612fb542716b8cc81a67b4b1068ae2d73b0f978c",
+      "predecessorRevisionHash": null,
+      "originalHash": "5517e09db21ef8885990e822612fb542716b8cc81a67b4b1068ae2d73b0f978c",
+      "rationale": "Romaji minshūsei lengthens the short しゅ of みんしゅせい; corrected to minshusei in headword and example.",
+      "original": {
+        "romaji": "kansetsu minshūsei",
+        "examples": [
+          {
+            "japanese": "日本は間接民主制を基本とする国家である。",
+            "romaji": "Nihon wa kansetsu minshūsei o kihon to suru kokka de aru.",
+            "german": "Japan ist ein Staat, der auf der indirekten Demokratie basiert."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "kansetsu minshusei",
+        "examples": [
+          {
+            "japanese": "日本は間接民主制を基本とする国家である。",
+            "romaji": "Nihon wa kansetsu minshusei o kihon to suru kokka de aru.",
+            "german": "Japan ist ein Staat, der auf der indirekten Demokratie basiert."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2852665; spelling=間接民主制; reading=かんせつみんしゅせい",
+          "finding": "間接民主制 / かんせつみんしゅせい (JMdict 2852665) confirms the headword, reading and sense \"indirekte Demokratie; repräsentative Demokratie\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:175 after vocab-correction-rules.js",
+          "finding": "Romaji minshūsei lengthens the short しゅ of みんしゅせい; corrected to minshusei in headword and example."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"indirekte Demokratie; repräsentative Demokratie\" unchanged; checked against JMdict 2852665.",
+        "japanese": "日本は間接民主制を基本とする国家である。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"kansetsu minshusei\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Japan ist ein Staat, der auf der indirekten Demokratie basiert."
+        ],
+        "lexical": "JMdict 2852665; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 間接民主制 / かんせつみんしゅせい; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 間接民主制 / かんせつみんしゅせい",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji minshūsei lengthens the short しゅ of みんしゅせい; corrected to minshusei in headword and example.",
+        "contentHash": "5d31bde68be9c038e5c4d75f2d060fc0e683fcc7353440900cc7a26d92de7bd3",
+        "approvalHash": "8e070f766b43e034ce4a046ef22e8d044a4a5cb1fded7347141f450cbe15ed99"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Same short-しゅ fix as 直接民主制: kansetsu minshusei matches かんせつみんしゅせい (JMdict 2852665), and \"Nihon wa kansetsu minshusei o kihon to suru kokka de aru.\" matches the Japanese; pitch nulled with no exact row.",
+        "contentHash": "5d31bde68be9c038e5c4d75f2d060fc0e683fcc7353440900cc7a26d92de7bd3",
+        "approvalHash": "8e070f766b43e034ce4a046ef22e8d044a4a5cb1fded7347141f450cbe15ed99"
+      }
+    },
+    {
+      "id": "vocab-n1:2331",
+      "revisionId": "024-vocab-n1-2331",
+      "state": "accepted",
+      "predecessorHash": "ef1c5f57fdecbc0bb23af4d49c0bbecb7ce567ac6eb51e983c980189148d27b9",
+      "predecessorRevisionHash": null,
+      "originalHash": "ef1c5f57fdecbc0bb23af4d49c0bbecb7ce567ac6eb51e983c980189148d27b9",
+      "rationale": "Romaji shōnanoka lengthens the short しょ of しょなのか; corrected to shonanoka in headword and example.",
+      "original": {
+        "romaji": "shōnanoka",
+        "examples": [
+          {
+            "japanese": "初七日の法要を営んだ。",
+            "romaji": "Shōnanoka no hōyō wo itonanda.",
+            "german": "Wir hielten die Trauerzeremonie am siebten Tag ab."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "shonanoka",
+        "examples": [
+          {
+            "japanese": "初七日の法要を営んだ。",
+            "romaji": "Shonanoka no hōyō wo itonanda.",
+            "german": "Wir hielten die Trauerzeremonie am siebten Tag ab."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1650480; spelling=初七日; reading=しょなのか",
+          "finding": "初七日 / しょなのか (JMdict 1650480) confirms the headword, reading and sense \"siebter Tag nach dem Tod\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:2331 after vocab-correction-rules.js",
+          "finding": "Romaji shōnanoka lengthens the short しょ of しょなのか; corrected to shonanoka in headword and example."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"siebter Tag nach dem Tod\" unchanged; checked against JMdict 1650480.",
+        "japanese": "初七日の法要を営んだ。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"shonanoka\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Wir hielten die Trauerzeremonie am siebten Tag ab."
+        ],
+        "lexical": "JMdict 1650480; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 初七日 / しょなのか; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 初七日 / しょなのか",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Romaji shōnanoka lengthens the short しょ of しょなのか; corrected to shonanoka in headword and example.",
+        "contentHash": "9909f1ec3b474c9a5e579cd56df35f74d68394b2b8e5686f51d2e5d76879cff8",
+        "approvalHash": "a0760fffd60d3cdb2f8931a352b9aaa051c66ab040c4f7d300068daad26c3964"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "初七日 is しょなのか (JMdict 1650480, alt しょなぬか) with short しょ, so shonanoka is correct; example romaji \"Shonanoka no hōyō wo itonanda.\" keeps the long ō of 法要 and matches 初七日の法要を営んだ.",
+        "contentHash": "9909f1ec3b474c9a5e579cd56df35f74d68394b2b8e5686f51d2e5d76879cff8",
+        "approvalHash": "a0760fffd60d3cdb2f8931a352b9aaa051c66ab040c4f7d300068daad26c3964"
+      }
+    },
+    {
+      "id": "vocab-n1:843",
+      "revisionId": "024-vocab-n1-843",
+      "state": "accepted",
+      "predecessorHash": "b47ff4b82f31094faa52f1a18e37542236aa0c30a84ad39a552c17d95f6a3d7f",
+      "predecessorRevisionHash": null,
+      "originalHash": "b47ff4b82f31094faa52f1a18e37542236aa0c30a84ad39a552c17d95f6a3d7f",
+      "rationale": "The example taught 相転移 instead of the headword 遷移; replaced with a sentence using 遷移 in its scientific sense.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "相転移は物質の状態が変化する現象である。",
+            "romaji": "Sōten'i wa busshitsu no jōtai ga henka suru genshō de aru.",
+            "german": "Ein Phasenübergang ist ein Phänomen, bei dem sich der Zustand der Materie ändert."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "物質は固体から液体へと遷移する。",
+            "romaji": "Busshitsu wa kotai kara ekitai e to sen'i suru.",
+            "german": "Der Stoff geht vom festen in den flüssigen Zustand über."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154265485",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "遷移",
+              "reading": "せんい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "遷移 as \"Übergang; Transition\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1392400; spelling=遷移; reading=せんい",
+          "finding": "遷移 / せんい (JMdict 1392400) confirms the headword, reading and sense \"Übergang; Transition\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:843 after vocab-correction-rules.js",
+          "finding": "The example taught 相転移 instead of the headword 遷移; replaced with a sentence using 遷移 in its scientific sense."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Übergang; Transition\" unchanged; checked against JMdict 1392400.",
+        "japanese": "物質は固体から液体へと遷移する。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"sen'i\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Der Stoff geht vom festen in den flüssigen Zustand über."
+        ],
+        "lexical": "JMdict 1392400; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154265485",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "遷移",
+              "reading": "せんい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "遷移 as \"Übergang; Transition\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: The example taught 相転移 instead of the headword 遷移; replaced with a sentence using 遷移 in its scientific sense.",
+        "contentHash": "02bb3e87367e79c9e28d16875856f76b60f0b54f5a23adf0eaf589c8c66ca2de",
+        "approvalHash": "66b04e89a5d3c37817dadf9c749f70e2fd8ed931eb7ebca7b0f4331549bcc9a9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Old example taught 相転移 rather than 遷移; new 物質は固体から液体へと遷移する uses 遷移 in the scientific \"transition\" sense of JMdict 1392400, romaji \"Busshitsu wa kotai kara ekitai e to sen'i suru.\" is exact, the German is faithful, and pitch 1 is the exact 遷移/せんい row.",
+        "contentHash": "02bb3e87367e79c9e28d16875856f76b60f0b54f5a23adf0eaf589c8c66ca2de",
+        "approvalHash": "66b04e89a5d3c37817dadf9c749f70e2fd8ed931eb7ebca7b0f4331549bcc9a9"
+      }
+    },
+    {
+      "id": "vocab-n1:596",
+      "revisionId": "024-vocab-n1-596",
+      "state": "accepted",
+      "predecessorHash": "c5a68d845f3d0bca9f9c758905102281c42fec1eff874152825f4083a5b40d9f",
+      "predecessorRevisionHash": null,
+      "originalHash": "c5a68d845f3d0bca9f9c758905102281c42fec1eff874152825f4083a5b40d9f",
+      "rationale": "The example taught 非関税障壁 instead of the headword 貿易障壁; replaced with a sentence using 貿易障壁.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "非関税障壁の撤廃が交渉の焦点だ。",
+            "romaji": "Hikanzei shōheki no teppai ga kōshō no shōten da.",
+            "german": "Die Beseitigung nichttarifärer Handelshemmnisse ist der Schwerpunkt der Verhandlungen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "両国は貿易障壁の撤廃で合意した。",
+            "romaji": "Ryōkoku wa bōeki shōheki no teppai de gōi shita.",
+            "german": "Beide Länder einigten sich auf die Beseitigung der Handelsschranken."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1947120; spelling=貿易障壁; reading=ぼうえきしょうへき",
+          "finding": "貿易障壁 / ぼうえきしょうへき (JMdict 1947120) confirms the headword, reading and sense \"Handelsschranke; Handelsbarriere\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:596 after vocab-correction-rules.js",
+          "finding": "The example taught 非関税障壁 instead of the headword 貿易障壁; replaced with a sentence using 貿易障壁."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Handelsschranke; Handelsbarriere\" unchanged; checked against JMdict 1947120.",
+        "japanese": "両国は貿易障壁の撤廃で合意した。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"bōeki shōheki\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Beide Länder einigten sich auf die Beseitigung der Handelsschranken."
+        ],
+        "lexical": "JMdict 1947120; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 貿易障壁 / ぼうえきしょうへき; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 貿易障壁 / ぼうえきしょうへき",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: The example taught 非関税障壁 instead of the headword 貿易障壁; replaced with a sentence using 貿易障壁.",
+        "contentHash": "5701b7c781beb02b63b822a4ca3c26953878e3698f62d7782b2cf17fd9b47438",
+        "approvalHash": "7a84465cfbeb52609051e5082d1b723636c2890c657d10befab9064f29b23621"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "New example 両国は貿易障壁の撤廃で合意した is natural news-register Japanese using the exact compound 貿易障壁 (JMdict 1947120 \"trade barrier\"); romaji \"Ryōkoku wa bōeki shōheki no teppai de gōi shita.\" matches and the German \"einigten sich auf die Beseitigung der Handelsschranken\" is faithful.",
+        "contentHash": "5701b7c781beb02b63b822a4ca3c26953878e3698f62d7782b2cf17fd9b47438",
+        "approvalHash": "7a84465cfbeb52609051e5082d1b723636c2890c657d10befab9064f29b23621"
+      }
+    },
+    {
+      "id": "vocab-n1:247",
+      "revisionId": "024-vocab-n1-247",
+      "state": "accepted",
+      "predecessorHash": "6b5a6800777eaa3f1545bc9d07a615f0d78717cbd3e15b217ba751c10ff28225",
+      "predecessorRevisionHash": null,
+      "originalHash": "6b5a6800777eaa3f1545bc9d07a615f0d78717cbd3e15b217ba751c10ff28225",
+      "rationale": "The example split the compound (判決が確定した) and never used 確定判決; replaced with a sentence using 確定判決.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "上訴期間が経過し判決が確定した。",
+            "romaji": "Jōso kikan ga keika shi hanketsu ga kakutei shita.",
+            "german": "Die Rechtsmittelfrist lief ab und das Urteil wurde rechtskräftig."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "確定判決には従わなければならない。",
+            "romaji": "Kakutei hanketsu ni wa shitagawanakereba naranai.",
+            "german": "Einem rechtskräftigen Urteil muss man Folge leisten."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1819570; spelling=確定判決; reading=かくていはんけつ",
+          "finding": "確定判決 / かくていはんけつ (JMdict 1819570) confirms the headword, reading and sense \"rechtskräftiges Urteil\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:247 after vocab-correction-rules.js",
+          "finding": "The example split the compound (判決が確定した) and never used 確定判決; replaced with a sentence using 確定判決."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"rechtskräftiges Urteil\" unchanged; checked against JMdict 1819570.",
+        "japanese": "確定判決には従わなければならない。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"kakutei hanketsu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Einem rechtskräftigen Urteil muss man Folge leisten."
+        ],
+        "lexical": "JMdict 1819570; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 確定判決 / かくていはんけつ; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 確定判決 / かくていはんけつ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: The example split the compound (判決が確定した) and never used 確定判決; replaced with a sentence using 確定判決.",
+        "contentHash": "b26063ff56ced4d7a265b3f9bebd2e378f0dd26f40a7a1158a2e96d9ada2db07",
+        "approvalHash": "d0ec30165c07942574d75251224b0cfc236335833f1c981bbe7034be2451323d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "New example 確定判決には従わなければならない uses the unsplit compound 確定判決 (JMdict 1819570); romaji \"Kakutei hanketsu ni wa shitagawanakereba naranai.\" is exact and \"Einem rechtskräftigen Urteil muss man Folge leisten\" renders the obligation faithfully.",
+        "contentHash": "b26063ff56ced4d7a265b3f9bebd2e378f0dd26f40a7a1158a2e96d9ada2db07",
+        "approvalHash": "d0ec30165c07942574d75251224b0cfc236335833f1c981bbe7034be2451323d"
+      }
+    },
+    {
+      "id": "vocab-n1:730",
+      "revisionId": "024-vocab-n1-730",
+      "state": "accepted",
+      "predecessorHash": "aea990c3d5ee19130c0ec62675e286d87d7fb23067f67f586abd1fde8e78031f",
+      "predecessorRevisionHash": null,
+      "originalHash": "aea990c3d5ee19130c0ec62675e286d87d7fb23067f67f586abd1fde8e78031f",
+      "rationale": "The example split the compound (市場の開放) and never used 市場開放; replaced with a sentence using 市場開放.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "農産物市場の開放を求める圧力が高まっている。",
+            "romaji": "Nōsanbutsu shijō no kaihō wo motomeru atsuryoku ga takamatte iru.",
+            "german": "Der Druck zur Öffnung des Agrarproduktemarktes nimmt zu."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "政府は農産物の市場開放を進めている。",
+            "romaji": "Seifu wa nōsanbutsu no shijō kaihō wo susumete iru.",
+            "german": "Die Regierung treibt die Marktöffnung für Agrarprodukte voran."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1993920; spelling=市場開放; reading=しじょうかいほう",
+          "finding": "市場開放 / しじょうかいほう (JMdict 1993920) confirms the headword, reading and sense \"Marktöffnung; Marktliberalisierung\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:730 after vocab-correction-rules.js",
+          "finding": "The example split the compound (市場の開放) and never used 市場開放; replaced with a sentence using 市場開放."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Marktöffnung; Marktliberalisierung\" unchanged; checked against JMdict 1993920.",
+        "japanese": "政府は農産物の市場開放を進めている。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"shijō kaihō\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Regierung treibt die Marktöffnung für Agrarprodukte voran."
+        ],
+        "lexical": "JMdict 1993920; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 市場開放 / しじょうかいほう; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 市場開放 / しじょうかいほう",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: The example split the compound (市場の開放) and never used 市場開放; replaced with a sentence using 市場開放.",
+        "contentHash": "4792c3bd9833216f4e400f296cc23361312b6d2a05bbfcd7c1c1349e4556fcef",
+        "approvalHash": "3c4def9c0b6fe09bba627adaf4994374efa88db8acdac716c206a9508eb2472d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "New example 政府は農産物の市場開放を進めている keeps 市場開放 as one compound (JMdict 1993920 market liberalization) with a natural 〜を進める collocation; romaji \"…nōsanbutsu no shijō kaihō wo susumete iru.\" and German \"treibt die Marktöffnung für Agrarprodukte voran\" both match.",
+        "contentHash": "4792c3bd9833216f4e400f296cc23361312b6d2a05bbfcd7c1c1349e4556fcef",
+        "approvalHash": "3c4def9c0b6fe09bba627adaf4994374efa88db8acdac716c206a9508eb2472d"
+      }
+    },
+    {
+      "id": "vocab-n1:731",
+      "revisionId": "024-vocab-n1-731",
+      "state": "accepted",
+      "predecessorHash": "ed6cc85008cb12cddc7f3c9142d58fc750ebea09cb9e32b1d0c7f73ab6fae925",
+      "predecessorRevisionHash": null,
+      "originalHash": "ed6cc85008cb12cddc7f3c9142d58fc750ebea09cb9e32b1d0c7f73ab6fae925",
+      "rationale": "The example split the compound (市場への参入) and never used 市場参入; replaced with a sentence using 市場参入.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "新興国市場への参入戦略を策定する。",
+            "romaji": "Shinkōkoku shijō e no sannyū senryaku wo sakutei suru.",
+            "german": "Eine Eintrittsstrategie für Schwellenlandmärkte formulieren."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "新興企業の市場参入が相次いでいる。",
+            "romaji": "Shinkō kigyō no shijō sannyū ga aitsuide iru.",
+            "german": "Immer mehr junge Unternehmen treten in den Markt ein."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:731 after vocab-correction-rules.js",
+          "finding": "The example split the compound (市場への参入) and never used 市場参入; replaced with a sentence using 市場参入."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Markteintritt; Marktzugang\" unchanged; compound not listed in JMdict_e, meaning follows its parts.",
+        "japanese": "新興企業の市場参入が相次いでいる。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"shijō sannyū\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Immer mehr junge Unternehmen treten in den Markt ein."
+        ],
+        "lexical": "no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 市場参入 / しじょうさんにゅう; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 市場参入 / しじょうさんにゅう",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: The example split the compound (市場への参入) and never used 市場参入; replaced with a sentence using 市場参入.",
+        "contentHash": "3683843c7bd3961cb35729b3ae015d3ef13f8b8b2c797c6ab23b16510366b5fd",
+        "approvalHash": "76146f8cf0ab9b92831d6cd3393bc75a5051d8ead28333f3d9c8958d14da4e70"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "New example 新興企業の市場参入が相次いでいる is a natural economics-register sentence using the compound 市場参入; romaji \"Shinkō kigyō no shijō sannyū ga aitsuide iru.\" is exact and \"Immer mehr junge Unternehmen treten in den Markt ein\" conveys 相次ぐ adequately.",
+        "contentHash": "3683843c7bd3961cb35729b3ae015d3ef13f8b8b2c797c6ab23b16510366b5fd",
+        "approvalHash": "76146f8cf0ab9b92831d6cd3393bc75a5051d8ead28333f3d9c8958d14da4e70"
+      }
+    },
+    {
+      "id": "vocab-n1:706",
+      "revisionId": "024-vocab-n1-706",
+      "state": "accepted",
+      "predecessorHash": "8473165a62e603d5cef08f978850f07512fe4f7830f8f9e9b81c5b9f76ef6734",
+      "predecessorRevisionHash": null,
+      "originalHash": "8473165a62e603d5cef08f978850f07512fe4f7830f8f9e9b81c5b9f76ef6734",
+      "rationale": "The example used 引渡し and CIF条件 but never the headword 引渡条件; replaced with a sentence using 引渡条件.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "CIF条件での引渡しが合意された。",
+            "romaji": "CIF jōken de no hikiwatashi ga gōi sareta.",
+            "german": "Die Lieferung zu CIF-Bedingungen wurde vereinbart."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "契約書で引渡条件を確認してください。",
+            "romaji": "Keiyakusho de hikiwatashi jōken wo kakunin shite kudasai.",
+            "german": "Bitte prüfen Sie die Lieferbedingungen im Vertrag."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:706 after vocab-correction-rules.js",
+          "finding": "The example used 引渡し and CIF条件 but never the headword 引渡条件; replaced with a sentence using 引渡条件."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Lieferbedingungen; Incoterms\" unchanged; compound not listed in JMdict_e, meaning follows its parts.",
+        "japanese": "契約書で引渡条件を確認してください。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"hikiwatashi jōken\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Bitte prüfen Sie die Lieferbedingungen im Vertrag."
+        ],
+        "lexical": "no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 引渡条件 / ひきわたしじょうけん; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 引渡条件 / ひきわたしじょうけん",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: The example used 引渡し and CIF条件 but never the headword 引渡条件; replaced with a sentence using 引渡条件.",
+        "contentHash": "459b17723a4c3d38d05acdf24df10171eb962414d948c224740b3e53fb03ac6f",
+        "approvalHash": "285700604d60abc2e00984432f1b60a8a54f7b1317085b214bf0c67000b52dbc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "New example 契約書で引渡条件を確認してください actually uses the headword 引渡条件 (the old one only had 引渡し/CIF条件); romaji \"Keiyakusho de hikiwatashi jōken wo kakunin shite kudasai.\" is exact and the German request sentence is faithful.",
+        "contentHash": "459b17723a4c3d38d05acdf24df10171eb962414d948c224740b3e53fb03ac6f",
+        "approvalHash": "285700604d60abc2e00984432f1b60a8a54f7b1317085b214bf0c67000b52dbc"
+      }
+    },
+    {
+      "id": "vocab-n3:1364",
+      "revisionId": "024-vocab-n3-1364",
+      "state": "accepted",
+      "predecessorHash": "7f1493a4654bc8747841230e958e79b4267629de6f6350dde05df496a34a5bcc",
+      "predecessorRevisionHash": null,
+      "originalHash": "7f1493a4654bc8747841230e958e79b4267629de6f6350dde05df496a34a5bcc",
+      "rationale": "The example taught the suffix 〜焼 (有田焼き, normally written 有田焼) instead of the headword 焼き物; replaced with a sentence using 焼き物.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "有田焼きは有名です。",
+            "romaji": "Aritayaki wa yuumei desu.",
+            "german": "Arita-Keramik ist berühmt."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "この町は焼き物で有名です。",
+            "romaji": "Kono machi wa yakimono de yuumei desu.",
+            "german": "Diese Stadt ist für ihre Keramik berühmt."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267645160",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "焼き物",
+              "reading": "やきもの",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "焼き物 as \"Keramik, Porzellan\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605450; spelling=焼き物; reading=やきもの",
+          "finding": "焼き物 / やきもの (JMdict 1605450) confirms the headword, reading and sense \"Keramik, Porzellan\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:1364 after vocab-correction-rules.js",
+          "finding": "The example taught the suffix 〜焼 (有田焼き, normally written 有田焼) instead of the headword 焼き物; replaced with a sentence using 焼き物."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Keramik, Porzellan\" unchanged; checked against JMdict 1605450.",
+        "japanese": "この町は焼き物で有名です。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"yakimono\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Diese Stadt ist für ihre Keramik berühmt."
+        ],
+        "lexical": "JMdict 1605450; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267645160",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "焼き物",
+              "reading": "やきもの",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "焼き物 as \"Keramik, Porzellan\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: The example taught the suffix 〜焼 (有田焼き, normally written 有田焼) instead of the headword 焼き物; replaced with a sentence using 焼き物.",
+        "contentHash": "5016c5566ddbb49cb745d3b39ea2975c15891f7319ce95510b529c82eb4d6ea1",
+        "approvalHash": "78f1add6dd77c02f04896dab95fc6767583a53a8f1e3bf3776e10ed8d6fcb093"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "New example この町は焼き物で有名です uses 焼き物 in the pottery sense matching the meaning Keramik/Porzellan (JMdict 1605450), replacing the 〜焼 suffix example; romaji \"Kono machi wa yakimono de yuumei desu.\" follows the N3 no-macron convention and pitch 0 is the exact row.",
+        "contentHash": "5016c5566ddbb49cb745d3b39ea2975c15891f7319ce95510b529c82eb4d6ea1",
+        "approvalHash": "78f1add6dd77c02f04896dab95fc6767583a53a8f1e3bf3776e10ed8d6fcb093"
+      }
+    },
+    {
+      "id": "vocab-n3:230",
+      "revisionId": "024-vocab-n3-230",
+      "state": "accepted",
+      "predecessorHash": "6853ce5eea58a948f015854f9aea7a8096989326a2c6d1ea96cbedaac41f3d95",
+      "predecessorRevisionHash": null,
+      "originalHash": "6853ce5eea58a948f015854f9aea7a8096989326a2c6d1ea96cbedaac41f3d95",
+      "rationale": "The example used ご覧ください, never the headword ご覧になる; replaced with a sentence using ご覧になる.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "こちらをご覧ください。",
+            "romaji": "Kochira o goran kudasai.",
+            "german": "Bitte schauen Sie hierher."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "先生はもうこの資料をご覧になりましたか。",
+            "romaji": "Sensei wa mou kono shiryou o goran ni narimashita ka.",
+            "german": "Hat der Lehrer diese Unterlagen schon angesehen?"
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2217040; spelling=ご覧になる; reading=ごらんになる",
+          "finding": "ご覧になる / ごらんになる (JMdict 2217040) confirms the headword, reading and sense \"sehen, betrachten (respektvoll)\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:230 after vocab-correction-rules.js",
+          "finding": "The example used ご覧ください, never the headword ご覧になる; replaced with a sentence using ご覧になる."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"sehen, betrachten (respektvoll)\" unchanged; checked against JMdict 2217040.",
+        "japanese": "先生はもうこの資料をご覧になりましたか。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"goran ni naru\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Hat der Lehrer diese Unterlagen schon angesehen?"
+        ],
+        "lexical": "JMdict 2217040; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ご覧になる / ごらんになる; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup ご覧になる / ごらんになる",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: The example used ご覧ください, never the headword ご覧になる; replaced with a sentence using ご覧になる.",
+        "contentHash": "b3ff64d96b9e2864abf901fd87de33ac256e1a8bbb232accfe119260538808a7",
+        "approvalHash": "6aba84e8932eae3a326a023eabd590eba50f3139f01fdf106474d3ebee9526dd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "New example 先生はもうこの資料をご覧になりましたか correctly uses the respectful ご覧になる (JMdict 2217040) about a superior instead of the request form ご覧ください; romaji \"…goran ni narimashita ka.\" is exact and the German question is faithful.",
+        "contentHash": "b3ff64d96b9e2864abf901fd87de33ac256e1a8bbb232accfe119260538808a7",
+        "approvalHash": "6aba84e8932eae3a326a023eabd590eba50f3139f01fdf106474d3ebee9526dd"
+      }
+    },
+    {
+      "id": "vocab-n2:861",
+      "revisionId": "024-vocab-n2-861",
+      "state": "accepted",
+      "predecessorHash": "d31f55830a248c293b8d8d884c88e5e9615df2772fc26414098d95ffd5f08ec7",
+      "predecessorRevisionHash": null,
+      "originalHash": "d31f55830a248c293b8d8d884c88e5e9615df2772fc26414098d95ffd5f08ec7",
+      "rationale": "The example taught 〜からといって after a clause, not the sentence-initial headword だからといって; replaced with a sentence using だからといって.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "安いからといって買いすぎてはいけない。",
+            "romaji": "Yasui kara to itte kaisugite wa ikenai.",
+            "german": "Nur weil es billig ist, sollte man nicht zu viel kaufen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "彼は忙しい。だからといって、約束を破っていいわけではない。",
+            "romaji": "Kare wa isogashii. Dakara to itte, yakusoku o yabutte ii wake de wa nai.",
+            "german": "Er ist beschäftigt. Das heißt aber noch lange nicht, dass er sein Versprechen brechen darf."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1007330; spelling=だからといって; reading=だからといって",
+          "finding": "だからといって / だからといって (JMdict 1007330) confirms the headword, reading and sense \"nur weil; deswegen noch lange nicht\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:861 after vocab-correction-rules.js",
+          "finding": "The example taught 〜からといって after a clause, not the sentence-initial headword だからといって; replaced with a sentence using だからといって."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"nur weil; deswegen noch lange nicht\" unchanged; checked against JMdict 1007330.",
+        "japanese": "彼は忙しい。だからといって、約束を破っていいわけではない。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"dakara to itte\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Er ist beschäftigt. Das heißt aber noch lange nicht, dass er sein Versprechen brechen darf."
+        ],
+        "lexical": "JMdict 1007330; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for だからといって / だからといって; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup だからといって / だからといって",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: The example taught 〜からといって after a clause, not the sentence-initial headword だからといって; replaced with a sentence using だからといって.",
+        "contentHash": "040e984dbb0cb6e88ee331a41ca129777656d4df108e3ac83107ce332aff9eeb",
+        "approvalHash": "6dae94c799eac851a6d46460ccb9c54459284ae31e15e01fcd06af955e4492b2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "New two-sentence example 彼は忙しい。だからといって、約束を破っていいわけではない uses だからといって sentence-initially as the headword requires (JMdict 1007330) with the typical 〜わけではない follow-up; romaji matches, and the German \"Das heißt aber noch lange nicht, dass…\" captures the concessive nuance.",
+        "contentHash": "040e984dbb0cb6e88ee331a41ca129777656d4df108e3ac83107ce332aff9eeb",
+        "approvalHash": "6dae94c799eac851a6d46460ccb9c54459284ae31e15e01fcd06af955e4492b2"
+      }
+    }
+  ],
+  "decisions": [],
+  "merges": [
+    {
+      "from": "vocab-n4:761",
+      "to": "vocab-n4:980",
+      "equivalentSense": "JMdict 1284930 lists 相図 as a rarely used kanji form (&rK;) of 合図; same reading あいず and sense \"Signal\".",
+      "preservedContent": "Survivor 合図 keeps its two examples; 相図's examples add nothing (its second example already uses 合図).",
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1284930; spelling=相図; reading=あいず",
+          "finding": "相図 is listed as a rarely used kanji form of 合図."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "vocab-n4:761 -> vocab-n4:980",
+          "finding": "相図 is a rarely used kanji form (JMdict &rK;) of 合図 with the same reading and sense; retired into vocab-n4:980 so learners study the standard spelling."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "394912e9ca4c6e377c85d4feda64f8c161b170c904755af9573dd3d0d7fd6f8e",
+      "toHash": "3a06d0872d9d2f377fe8bb2e616912c0308b305798a5ca5afc3ea6c6bb075000",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: merge vocab-n4:761 -> vocab-n4:980 (相図 is a rare kanji form of 合図, same reading and sense); survivor content and redirect checked.",
+        "contentHash": "620897804548257e141a8b7bba4b34d59ed66caa73fd084c2a18b7b2a581216f",
+        "approvalHash": "620897804548257e141a8b7bba4b34d59ed66caa73fd084c2a18b7b2a581216f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Merge 相図 -> 合図 verified in JMdict 1284930: 相図 carries &rK;, shares the one reading あいず (ichi1/news1) and the sense \"signal\", and the survivor already covers the same \"give a signal\" usage in its examples.",
+        "contentHash": "620897804548257e141a8b7bba4b34d59ed66caa73fd084c2a18b7b2a581216f",
+        "approvalHash": "620897804548257e141a8b7bba4b34d59ed66caa73fd084c2a18b7b2a581216f"
+      }
+    }
+  ]
+}

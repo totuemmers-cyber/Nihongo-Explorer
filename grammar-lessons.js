@@ -190,7 +190,7 @@
           heading: 'い-Adjektive — Die Wandelbaren',
           text: 'い-Adjektive enden auf い und <strong>konjugieren wie Verben</strong>. Das い am Ende ist keine Dekoration — es ist der Teil, der sich verändert, je nachdem ob du Gegenwart, Vergangenheit, Verneinung oder Adverb brauchst. Man kann sich い-Adjektive als „eigenständige Wörter" vorstellen, die alles Nötige direkt in sich tragen, ohne Hilfe von です oder だ zu brauchen (auch wenn です gerne zur Höflichkeit dazukommt).',
           examples: [
-            { jp: '大きい (ōkii)', romaji: '', de: 'groß' },
+            { jp: '大きい', romaji: 'ōkii', de: 'groß' },
             { jp: '高い → 高くない', romaji: 'takai → takakunai', de: 'teuer → nicht teuer (い → くない)' },
             { jp: '高い → 高かった', romaji: 'takai → takakatta', de: 'teuer → war teuer (い → かった)' },
             { jp: '昨日は暑くなかった。', romaji: 'Kinō wa atsukunakatta.', de: 'Gestern war es nicht heiß. (い → くなかった)' },

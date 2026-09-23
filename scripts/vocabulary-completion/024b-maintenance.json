@@ -1,0 +1,2266 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:1550",
+      "revisionId": "024-vocab-n2-1550",
+      "state": "accepted",
+      "predecessorHash": "33a3ad9ff733362f2f4baf9005af5201d85b6c86cf356d92b6a828ce3816b1cd",
+      "predecessorRevisionHash": null,
+      "originalHash": "33a3ad9ff733362f2f4baf9005af5201d85b6c86cf356d92b6a828ce3816b1cd",
+      "rationale": "Trailing tab removed from the example sentence; romaji capitalizes the brand name Suica.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "すみません、もう不要になったのでSuicaの残高を払い戻したいのですが...。\t",
+            "romaji": "Sumimasen, mou fuyou ni natta node suika no zandaka o haraimodoshitai no desu ga....",
+            "german": "Entschuldigung, ich möchte das Guthaben meiner Suica-Karte zurückerstatten lassen, weil ich sie nicht mehr brauche..."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "すみません、もう不要になったのでSuicaの残高を払い戻したいのですが...。",
+            "romaji": "Sumimasen, mou fuyou ni natta node Suica no zandaka o haraimodoshitai no desu ga....",
+            "german": "Entschuldigung, ich möchte das Guthaben meiner Suica-Karte zurückerstatten lassen, weil ich sie nicht mehr brauche..."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@218395092",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5,
+              0
+            ],
+            "finding": "Existing 4 contradicted by the exact row; corrected to 5.",
+            "match": {
+              "word": "払い戻す",
+              "reading": "はらいもどす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "払い戻す as \"zurückerstatten\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1501610; spelling=払い戻す; reading=はらいもどす",
+          "finding": "払い戻す / はらいもどす (JMdict 1501610) confirms the headword, reading and sense \"zurückerstatten\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:1550 after vocab-correction-rules.js",
+          "finding": "Trailing tab removed from the example sentence; romaji capitalizes the brand name Suica."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"zurückerstatten\" unchanged; checked against JMdict 1501610.",
+        "japanese": "すみません、もう不要になったのでSuicaの残高を払い戻したいのですが...。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"haraimodosu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Entschuldigung, ich möchte das Guthaben meiner Suica-Karte zurückerstatten lassen, weil ich sie nicht mehr brauche..."
+        ],
+        "lexical": "JMdict 1501610; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing 4 contradicted by the exact row; corrected to 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@218395092",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5,
+              0
+            ],
+            "finding": "Existing 4 contradicted by the exact row; corrected to 5.",
+            "match": {
+              "word": "払い戻す",
+              "reading": "はらいもどす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "払い戻す as \"zurückerstatten\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing tab removed from the example sentence; romaji capitalizes the brand name Suica.",
+        "contentHash": "1b26b0ce9b697bbae5c76ec28aceaacff2e9edcadbbe911f0ccf716cc88bbd83",
+        "approvalHash": "1061dcae544bf4be4d526ea6705f518d89fd1010e97c113a1d2cb8fc0f63d77b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Only the trailing tab was removed from the Japanese (whitespace-stripped strings identical); romaji now renders the brand as \"Suica\" matching the Latin-script Suica in the sentence, and pitch 5 is among the exact 払い戻す/はらいもどす row patterns [5,0].",
+        "contentHash": "1b26b0ce9b697bbae5c76ec28aceaacff2e9edcadbbe911f0ccf716cc88bbd83",
+        "approvalHash": "1061dcae544bf4be4d526ea6705f518d89fd1010e97c113a1d2cb8fc0f63d77b"
+      }
+    },
+    {
+      "id": "vocab-n3:2406",
+      "revisionId": "024-vocab-n3-2406",
+      "state": "accepted",
+      "predecessorHash": "ce457eaeb2413c58418574e2f597e6951114f572a25618503002588c12fb09b8",
+      "predecessorRevisionHash": null,
+      "originalHash": "ce457eaeb2413c58418574e2f597e6951114f572a25618503002588c12fb09b8",
+      "rationale": "Trailing tab removed from the example sentence; romaji spacing fixed.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "例を挙げるとキリがないですよ。\t",
+            "romaji": "Rei o ageru to kiri ga naidesu yo.",
+            "german": "Wenn ich Beispiele anführen würde, gäbe es kein Ende."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "例を挙げるとキリがないですよ。",
+            "romaji": "Rei o ageru to kiri ga nai desu yo.",
+            "german": "Wenn ich Beispiele anführen würde, gäbe es kein Ende."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42371266",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "挙げる",
+              "reading": "あげる",
+              "grammaticalForm": "動詞/非自立可能/*/*; 下一段-ガ行; 終止形-一般",
+              "sense": "挙げる as \"anführen\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2864818; spelling=挙げる; reading=あげる",
+          "finding": "挙げる / あげる (JMdict 2864818) confirms the headword, reading and sense \"anführen\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2406 after vocab-correction-rules.js",
+          "finding": "Trailing tab removed from the example sentence; romaji spacing fixed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"anführen\" unchanged; checked against JMdict 2864818.",
+        "japanese": "例を挙げるとキリがないですよ。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"ageru\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Wenn ich Beispiele anführen würde, gäbe es kein Ende."
+        ],
+        "lexical": "JMdict 2864818; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (ichidan).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42371266",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "挙げる",
+              "reading": "あげる",
+              "grammaticalForm": "動詞/非自立可能/*/*; 下一段-ガ行; 終止形-一般",
+              "sense": "挙げる as \"anführen\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing tab removed from the example sentence; romaji spacing fixed.",
+        "contentHash": "12e3b7413ec3df30741bcad7e40a5b77db59d8a62e778130378d1a24846f02e1",
+        "approvalHash": "07d725516cf65d5ead3d79b401bd614168f88c29291887e6863606e710cff0ed"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Trailing tab removed with no other change to 例を挙げるとキリがないですよ; romaji \"kiri ga nai desu yo\" now splits ない/です correctly, and pitch 0 matches the exact 挙げる/あげる 下一段 row.",
+        "contentHash": "12e3b7413ec3df30741bcad7e40a5b77db59d8a62e778130378d1a24846f02e1",
+        "approvalHash": "07d725516cf65d5ead3d79b401bd614168f88c29291887e6863606e710cff0ed"
+      }
+    },
+    {
+      "id": "vocab-n3:2430",
+      "revisionId": "024-vocab-n3-2430",
+      "state": "accepted",
+      "predecessorHash": "63d4abb40abc4a3606e890b40ad5de850f305dba607d1091a27fa6300dcd0792",
+      "predecessorRevisionHash": null,
+      "originalHash": "63d4abb40abc4a3606e890b40ad5de850f305dba607d1091a27fa6300dcd0792",
+      "rationale": "Trailing tab removed from the example sentence; romaji spacing fixed.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "もっと規律正しい生活をしなさい。\t",
+            "romaji": "Motto kiritsu tadashii seikatsu o shi nasai.",
+            "german": "Führe ein disziplinierteres Leben."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "もっと規律正しい生活をしなさい。",
+            "romaji": "Motto kiritsu tadashii seikatsu o shinasai.",
+            "german": "Führe ein disziplinierteres Leben."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@107641179",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "規律",
+              "reading": "きりつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "規律 as \"Disziplin\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1223120; spelling=規律; reading=きりつ",
+          "finding": "規律 / きりつ (JMdict 1223120) confirms the headword, reading and sense \"Disziplin\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2430 after vocab-correction-rules.js",
+          "finding": "Trailing tab removed from the example sentence; romaji spacing fixed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Disziplin\" unchanged; checked against JMdict 1223120.",
+        "japanese": "もっと規律正しい生活をしなさい。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"kiritsu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Führe ein disziplinierteres Leben."
+        ],
+        "lexical": "JMdict 1223120; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@107641179",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "規律",
+              "reading": "きりつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "規律 as \"Disziplin\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing tab removed from the example sentence; romaji spacing fixed.",
+        "contentHash": "10898ebe11eb3dd526b45d3800a2829b3bdfdb0ea1cd72ddc095b76a4babb40f",
+        "approvalHash": "e69ed9c5c91ab259b70f5df58c5541efcacab46e1bb30720b2410f9f9cf85b4a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Trailing tab removed only; romaji \"shinasai\" correctly joins しなさい, the rest of \"Motto kiritsu tadashii seikatsu o shinasai.\" matches the Japanese, and pitch 0 matches the exact 規律/きりつ row.",
+        "contentHash": "10898ebe11eb3dd526b45d3800a2829b3bdfdb0ea1cd72ddc095b76a4babb40f",
+        "approvalHash": "e69ed9c5c91ab259b70f5df58c5541efcacab46e1bb30720b2410f9f9cf85b4a"
+      }
+    },
+    {
+      "id": "vocab-n3:2610",
+      "revisionId": "024-vocab-n3-2610",
+      "state": "accepted",
+      "predecessorHash": "a6573ee2cb3521d12335597617598377284f2ceaa3eb289f2d4c881298efd1fe",
+      "predecessorRevisionHash": null,
+      "originalHash": "a6573ee2cb3521d12335597617598377284f2ceaa3eb289f2d4c881298efd1fe",
+      "rationale": "Trailing tab removed from the example sentence.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "あいつは犬のように従順だ。\t",
+            "romaji": "Aitsu wa inu no you ni juujun da.",
+            "german": "Er ist gehorsam wie ein Hund."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "あいつは犬のように従順だ。",
+            "romaji": "Aitsu wa inu no you ni juujun da.",
+            "german": "Er ist gehorsam wie ein Hund."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144331144",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "従順",
+              "reading": "じゅうじゅん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "従順 as \"gehorsam\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1595350; spelling=従順; reading=じゅうじゅん",
+          "finding": "従順 / じゅうじゅん (JMdict 1595350) confirms the headword, reading and sense \"gehorsam\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2610 after vocab-correction-rules.js",
+          "finding": "Trailing tab removed from the example sentence."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"gehorsam\" unchanged; checked against JMdict 1595350.",
+        "japanese": "あいつは犬のように従順だ。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"juujun\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Er ist gehorsam wie ein Hund."
+        ],
+        "lexical": "JMdict 1595350; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144331144",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "従順",
+              "reading": "じゅうじゅん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "従順 as \"gehorsam\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing tab removed from the example sentence.",
+        "contentHash": "ef55c93575b4f9477b6f81cb220c8d3d98c6aa6f6aae1822bfb162b492097b50",
+        "approvalHash": "ea28b2996d529b9de375d733dac4a505514defd0a4a92ab7124c90fe09857baa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Only the trailing tab after あいつは犬のように従順だ。 was removed (whitespace-normalized strings identical); romaji and German untouched and correct, and pitch 0 matches the exact 従順/じゅうじゅん row.",
+        "contentHash": "ef55c93575b4f9477b6f81cb220c8d3d98c6aa6f6aae1822bfb162b492097b50",
+        "approvalHash": "ea28b2996d529b9de375d733dac4a505514defd0a4a92ab7124c90fe09857baa"
+      }
+    },
+    {
+      "id": "vocab-n3:2847",
+      "revisionId": "024-vocab-n3-2847",
+      "state": "accepted",
+      "predecessorHash": "3dd772763f5a284a54ba6c5938212367fc0f6164f20d548466d366d1496e339d",
+      "predecessorRevisionHash": null,
+      "originalHash": "3dd772763f5a284a54ba6c5938212367fc0f6164f20d548466d366d1496e339d",
+      "rationale": "Trailing tab removed from the example sentence.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "自分で症状を診断するのは危険だよ。\t",
+            "romaji": "Jibun de shoujou o shindan suru no wa kiken da yo.",
+            "german": "Es ist riskant, seine Symptome selbst zu diagnostizieren."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "自分で症状を診断するのは危険だよ。",
+            "romaji": "Jibun de shoujou o shindan suru no wa kiken da yo.",
+            "german": "Es ist riskant, seine Symptome selbst zu diagnostizieren."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1365480; spelling=診断; reading=しんだん",
+          "finding": "診断 / しんだん (JMdict 1365480) confirms the headword, reading and sense \"diagnostizieren\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2847 after vocab-correction-rules.js",
+          "finding": "Trailing tab removed from the example sentence."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"diagnostizieren\" unchanged; checked against JMdict 1365480.",
+        "japanese": "自分で症状を診断するのは危険だよ。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"shindansuru\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Es ist riskant, seine Symptome selbst zu diagnostizieren."
+        ],
+        "lexical": "JMdict 1365480; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 診断する / しんだんする; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 診断する / しんだんする",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing tab removed from the example sentence.",
+        "contentHash": "aa204c7eb2c7371949eb863d68583deee981928566999b43883c406cd6f2554c",
+        "approvalHash": "2e00293c6446099d140ef86d6331af9376d0819209a436c948a9018e4618bdca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Only the trailing tab was removed from 自分で症状を診断するのは危険だよ。; pitch correctly nulled because UniDic has a row for 診断 but not for the exact form 診断する.",
+        "contentHash": "aa204c7eb2c7371949eb863d68583deee981928566999b43883c406cd6f2554c",
+        "approvalHash": "2e00293c6446099d140ef86d6331af9376d0819209a436c948a9018e4618bdca"
+      }
+    },
+    {
+      "id": "vocab-n3:2883",
+      "revisionId": "024-vocab-n3-2883",
+      "state": "accepted",
+      "predecessorHash": "26b4d73b4310e4e82478f353a3c56647d0c79a45ee693433495fa6d9b6779fc8",
+      "predecessorRevisionHash": null,
+      "originalHash": "26b4d73b4310e4e82478f353a3c56647d0c79a45ee693433495fa6d9b6779fc8",
+      "rationale": "Trailing tab removed from the example sentence; garbled romaji (noden kazari, teki rei) rewritten to match the Japanese.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "あのトラックの電飾、すごくキラキラしててきれいだったよ！\t",
+            "romaji": "Ano torakku noden kazari, sugoku kirakira shite teki rei datta yo!",
+            "german": "Die Lichtdekoration an dem Lkw war so funkelnd und wunderschön!"
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "あのトラックの電飾、すごくキラキラしててきれいだったよ！",
+            "romaji": "Ano torakku no denshoku, sugoku kirakira shitete kirei datta yo!",
+            "german": "Die Lichtdekoration an dem Lkw war so funkelnd und wunderschön!"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182890398",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "電飾",
+              "reading": "でんしょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "電飾 as \"Lichtdekoration\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1636950; spelling=電飾; reading=でんしょく",
+          "finding": "電飾 / でんしょく (JMdict 1636950) confirms the headword, reading and sense \"Lichtdekoration\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2883 after vocab-correction-rules.js",
+          "finding": "Trailing tab removed from the example sentence; garbled romaji (noden kazari, teki rei) rewritten to match the Japanese."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting",
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Lichtdekoration\" unchanged; checked against JMdict 1636950.",
+        "japanese": "あのトラックの電飾、すごくキラキラしててきれいだったよ！ — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"denshoku\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Lichtdekoration an dem Lkw war so funkelnd und wunderschön!"
+        ],
+        "lexical": "JMdict 1636950; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182890398",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "電飾",
+              "reading": "でんしょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "電飾 as \"Lichtdekoration\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing tab removed from the example sentence; garbled romaji (noden kazari, teki rei) rewritten to match the Japanese.",
+        "contentHash": "06ec036e5a4a6983df891583adb64c9ba26e8a740fa6ba843ded0aff49838fbe",
+        "approvalHash": "6b079c9e37d922c472dcf3de78925a97fd7c5f7ea0c089259fde9dbfb27c3304"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Trailing tab removed only from the Japanese; garbled romaji \"noden kazari … teki rei\" is correctly rewritten as \"Ano torakku no denshoku, sugoku kirakira shitete kirei datta yo!\", which matches でんしょく (JMdict 1636950) and しててきれい token for token.",
+        "contentHash": "06ec036e5a4a6983df891583adb64c9ba26e8a740fa6ba843ded0aff49838fbe",
+        "approvalHash": "6b079c9e37d922c472dcf3de78925a97fd7c5f7ea0c089259fde9dbfb27c3304"
+      }
+    },
+    {
+      "id": "vocab-n2:1997",
+      "revisionId": "024-vocab-n2-1997",
+      "state": "accepted",
+      "predecessorHash": "f7feb0754c6866214a2200746e0680fea7a074275733852b57949f5741be5f56",
+      "predecessorRevisionHash": null,
+      "originalHash": "f7feb0754c6866214a2200746e0680fea7a074275733852b57949f5741be5f56",
+      "rationale": "Trailing tab removed from the example sentence; romaji spacing fixed.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "昨日の夜、寝汗をたくさんかいちゃったから、ベッドが何だか湿ってるのよね。\t",
+            "romaji": "Kinou no yoru, nease o takusan kai chatta kara, beddo ga nandaka shime teru no yo ne.",
+            "german": "Ich habe letzte Nacht im Schlaf stark geschwitzt und mein Bett ist etwas feucht."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "昨日の夜、寝汗をたくさんかいちゃったから、ベッドが何だか湿ってるのよね。",
+            "romaji": "Kinou no yoru, nease o takusan kaichatta kara, beddo ga nandaka shimetteru no yo ne.",
+            "german": "Ich habe letzte Nacht im Schlaf stark geschwitzt und mein Bett ist etwas feucht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@138718892",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing 2 contradicted by the exact row; corrected to 0.",
+            "match": {
+              "word": "湿る",
+              "reading": "しめる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "湿る as \"feucht werden\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1320390; spelling=湿る; reading=しめる",
+          "finding": "湿る / しめる (JMdict 1320390) confirms the headword, reading and sense \"feucht werden\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:1997 after vocab-correction-rules.js",
+          "finding": "Trailing tab removed from the example sentence; romaji spacing fixed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"feucht werden\" unchanged; checked against JMdict 1320390.",
+        "japanese": "昨日の夜、寝汗をたくさんかいちゃったから、ベッドが何だか湿ってるのよね。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"shimeru\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich habe letzte Nacht im Schlaf stark geschwitzt und mein Bett ist etwas feucht."
+        ],
+        "lexical": "JMdict 1320390; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing 2 contradicted by the exact row; corrected to 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@138718892",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing 2 contradicted by the exact row; corrected to 0.",
+            "match": {
+              "word": "湿る",
+              "reading": "しめる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "湿る as \"feucht werden\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing tab removed from the example sentence; romaji spacing fixed.",
+        "contentHash": "2c23c79849c672629e89ba39a4cb5491142296a4e67ad9269ff89b0408624fde",
+        "approvalHash": "830dfce95b3a2e973001d4e05410e4c3ade47fd6583323a5aff5ef258f837093"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Trailing tab removed only; romaji \"kaichatta\" and \"shimetteru\" now correctly render かいちゃった and 湿ってる (the old \"shime teru\" dropped the geminate), and pitch 0 is the exact 湿る/しめる 五段-ラ行 row pattern.",
+        "contentHash": "2c23c79849c672629e89ba39a4cb5491142296a4e67ad9269ff89b0408624fde",
+        "approvalHash": "830dfce95b3a2e973001d4e05410e4c3ade47fd6583323a5aff5ef258f837093"
+      }
+    },
+    {
+      "id": "vocab-n2:2010",
+      "revisionId": "024-vocab-n2-2010",
+      "state": "accepted",
+      "predecessorHash": "b65c5c8c19201a6770e0fd46a5460aa44acbbf86062a8aa87322807ec5036aff",
+      "predecessorRevisionHash": null,
+      "originalHash": "b65c5c8c19201a6770e0fd46a5460aa44acbbf86062a8aa87322807ec5036aff",
+      "rationale": "Trailing tab removed from the example sentence; romaji spacing fixed.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "これは出来たてホカホカの美味しい揚げ出し豆腐ですよ。\t",
+            "romaji": "Kore wa dekitate hokahoka no oishii age dashi toufu desu yo.",
+            "german": "Hier ist ein heißer Teller köstlichen Agedashi-Tofu, den ich gerade gemacht habe."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "これは出来たてホカホカの美味しい揚げ出し豆腐ですよ。",
+            "romaji": "Kore wa dekitate hokahoka no oishii agedashi doufu desu yo.",
+            "german": "Hier ist ein heißer Teller köstlichen Agedashi-Tofu, den ich gerade gemacht habe."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42293667",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "揚げ出し",
+              "reading": "あげだし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "揚げ出し as \"frittiert\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1774070; spelling=揚げ出し; reading=あげだし",
+          "finding": "揚げ出し / あげだし (JMdict 1774070) confirms the headword, reading and sense \"frittiert\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:2010 after vocab-correction-rules.js",
+          "finding": "Trailing tab removed from the example sentence; romaji spacing fixed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"frittiert\" unchanged; checked against JMdict 1774070.",
+        "japanese": "これは出来たてホカホカの美味しい揚げ出し豆腐ですよ。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"agedashi\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Hier ist ein heißer Teller köstlichen Agedashi-Tofu, den ich gerade gemacht habe."
+        ],
+        "lexical": "JMdict 1774070; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42293667",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "揚げ出し",
+              "reading": "あげだし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "揚げ出し as \"frittiert\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing tab removed from the example sentence; romaji spacing fixed.",
+        "contentHash": "9713d7c29efda9f5b6f527817edba57d867366d455eadccd569836d5456b007a",
+        "approvalHash": "3be6367930886be85bd2cc60589f8a1544da46b4aed38f9534bb29673812d463"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Trailing tab removed only; romaji \"agedashi doufu\" correctly reflects the rendaku reading あげだしどうふ of 揚げ出し豆腐 and joins the headword, and pitch 0 matches the exact 揚げ出し/あげだし row.",
+        "contentHash": "9713d7c29efda9f5b6f527817edba57d867366d455eadccd569836d5456b007a",
+        "approvalHash": "3be6367930886be85bd2cc60589f8a1544da46b4aed38f9534bb29673812d463"
+      }
+    },
+    {
+      "id": "vocab-n1:3268",
+      "revisionId": "024-vocab-n1-3268",
+      "state": "accepted",
+      "predecessorHash": "df14b4eef648b5f438b2f1da262253fc536c76d0681f906efc8556dc5f6d4c55",
+      "predecessorRevisionHash": null,
+      "originalHash": "df14b4eef648b5f438b2f1da262253fc536c76d0681f906efc8556dc5f6d4c55",
+      "rationale": "Trailing tab removed from the example sentence.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "警察は自分たちの不祥事を隠そうとしているんだ。\t",
+            "romaji": "Keisatsu wa jibuntachi no fushouji o kakusou to shite iru n da.",
+            "german": "Die Polizei versucht, ihren eigenen Skandal zu vertuschen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "警察は自分たちの不祥事を隠そうとしているんだ。",
+            "romaji": "Keisatsu wa jibuntachi no fushouji o kakusou to shite iru n da.",
+            "german": "Die Polizei versucht, ihren eigenen Skandal zu vertuschen."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1492930; spelling=不祥事; reading=ふしょうじ",
+          "finding": "不祥事 / ふしょうじ (JMdict 1492930) confirms the headword, reading and sense \"Skandal\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:3268 after vocab-correction-rules.js",
+          "finding": "Trailing tab removed from the example sentence."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Skandal\" unchanged; checked against JMdict 1492930.",
+        "japanese": "警察は自分たちの不祥事を隠そうとしているんだ。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"fushouji\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Polizei versucht, ihren eigenen Skandal zu vertuschen."
+        ],
+        "lexical": "JMdict 1492930; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 不祥事 / ふしょうじ; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 不祥事 / ふしょうじ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing tab removed from the example sentence.",
+        "contentHash": "5d57a33605eb3233b92f65a082ec073c8d188377684c9bdef5ecb7bf82ce6cce",
+        "approvalHash": "adadeff07328723dd40f37c59d65475b5af63d64dc6accd023149f6247c0d43e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Only the trailing tab after 警察は自分たちの不祥事を隠そうとしているんだ。 was removed; romaji and German unchanged and correct; pitch null is consistent with the recorded absence of an exact 不祥事/ふしょうじ row.",
+        "contentHash": "5d57a33605eb3233b92f65a082ec073c8d188377684c9bdef5ecb7bf82ce6cce",
+        "approvalHash": "adadeff07328723dd40f37c59d65475b5af63d64dc6accd023149f6247c0d43e"
+      }
+    },
+    {
+      "id": "vocab-n3:2411",
+      "revisionId": "024-vocab-n3-2411",
+      "state": "accepted",
+      "predecessorHash": "48b5622b18152fe8272e16900d61e4bc6a1df15562d431a2f49a489077b75bab",
+      "predecessorRevisionHash": null,
+      "originalHash": "48b5622b18152fe8272e16900d61e4bc6a1df15562d431a2f49a489077b75bab",
+      "rationale": "Trailing space removed from the example sentence.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "彼女はいつも制服の上に紫色のベストを着ている。 ",
+            "romaji": "Kanojo wa itsumo seifuku no ue ni murasakiiro no besuto o kite iru.",
+            "german": "Sie trägt immer eine lilafarbene Weste über ihrer Schuluniform."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "彼女はいつも制服の上に紫色のベストを着ている。",
+            "romaji": "Kanojo wa itsumo seifuku no ue ni murasakiiro no besuto o kite iru.",
+            "german": "Sie trägt immer eine lilafarbene Weste über ihrer Schuluniform."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259763635",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "紫色",
+              "reading": "むらさきいろ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "紫色 as \"Lila\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1311700; spelling=紫色; reading=むらさきいろ",
+          "finding": "紫色 / むらさきいろ (JMdict 1311700) confirms the headword, reading and sense \"Lila\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2411 after vocab-correction-rules.js",
+          "finding": "Trailing space removed from the example sentence."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Lila\" unchanged; checked against JMdict 1311700.",
+        "japanese": "彼女はいつも制服の上に紫色のベストを着ている。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"murasakiiro\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Sie trägt immer eine lilafarbene Weste über ihrer Schuluniform."
+        ],
+        "lexical": "JMdict 1311700; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259763635",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "紫色",
+              "reading": "むらさきいろ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "紫色 as \"Lila\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing space removed from the example sentence.",
+        "contentHash": "46d7de48fbc16cd9f513785d141e35295b4986d4eab39fa21be2277cdbbdd398",
+        "approvalHash": "0165dfa522fe8b7bf1d084451a73fedc6c517a8fa15afd5c47e494413ead7849"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Only the trailing half-width space after 着ている。 was removed; the Japanese is otherwise identical and pitch 0 matches the exact 紫色/むらさきいろ row.",
+        "contentHash": "46d7de48fbc16cd9f513785d141e35295b4986d4eab39fa21be2277cdbbdd398",
+        "approvalHash": "0165dfa522fe8b7bf1d084451a73fedc6c517a8fa15afd5c47e494413ead7849"
+      }
+    },
+    {
+      "id": "vocab-n3:2620",
+      "revisionId": "024-vocab-n3-2620",
+      "state": "accepted",
+      "predecessorHash": "650746080572b5a6c318e74e9d911e022fb10aba2a3c776ee77509431387e29c",
+      "predecessorRevisionHash": null,
+      "originalHash": "650746080572b5a6c318e74e9d911e022fb10aba2a3c776ee77509431387e29c",
+      "rationale": "Trailing spaces removed from the example sentence; romaji spacing fixed.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "残品はこちらで引き取るので、こちらのお店で販売させてもらえませんか。  ",
+            "romaji": "Zanpin wa kochira de hikitoru node, kochira no o mise de hanbai sa sete moraemasen ka.",
+            "german": "Wir nehmen die unverkaufte Ware zurück. Würden Sie unsere Produkte in Ihrem Laden verkaufen lassen?"
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "残品はこちらで引き取るので、こちらのお店で販売させてもらえませんか。",
+            "romaji": "Zanpin wa kochira de hikitoru node, kochira no omise de hanbai sasete moraemasen ka.",
+            "german": "Wir nehmen die unverkaufte Ware zurück. Würden Sie unsere Produkte in Ihrem Laden verkaufen lassen?"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133696067",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "残品",
+              "reading": "ざんぴん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "残品 as \"Restware\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1754200; spelling=残品; reading=ざんぴん",
+          "finding": "残品 / ざんぴん (JMdict 1754200) confirms the headword, reading and sense \"Restware\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2620 after vocab-correction-rules.js",
+          "finding": "Trailing spaces removed from the example sentence; romaji spacing fixed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Restware\" unchanged; checked against JMdict 1754200.",
+        "japanese": "残品はこちらで引き取るので、こちらのお店で販売させてもらえませんか。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"zanpin\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Wir nehmen die unverkaufte Ware zurück. Würden Sie unsere Produkte in Ihrem Laden verkaufen lassen?"
+        ],
+        "lexical": "JMdict 1754200; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133696067",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "残品",
+              "reading": "ざんぴん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "残品 as \"Restware\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing spaces removed from the example sentence; romaji spacing fixed.",
+        "contentHash": "9318b7c7949ec56f7c0ea99651dccbda23195279f21d7fd75dd000637bed097d",
+        "approvalHash": "c16381d1c6333ee488705138f166b73975f4e71fe810c5cf85a4861bc89bc6d9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Two trailing spaces removed only; romaji \"omise\" (お店) and \"sasete\" (させて) are now correctly joined and the full line matches the Japanese; pitch 0 is among the exact 残品/ざんぴん patterns [0,1].",
+        "contentHash": "9318b7c7949ec56f7c0ea99651dccbda23195279f21d7fd75dd000637bed097d",
+        "approvalHash": "c16381d1c6333ee488705138f166b73975f4e71fe810c5cf85a4861bc89bc6d9"
+      }
+    },
+    {
+      "id": "vocab-n3:2748",
+      "revisionId": "024-vocab-n3-2748",
+      "state": "accepted",
+      "predecessorHash": "b5416c337eaac5386dd6f00f617c59b4e0e9eb7554713b44150c6fa5444f09c0",
+      "predecessorRevisionHash": null,
+      "originalHash": "b5416c337eaac5386dd6f00f617c59b4e0e9eb7554713b44150c6fa5444f09c0",
+      "rationale": "Trailing space removed from the example sentence.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "軍隊ごっこをしているの？面白そう。私も入れてよ。 ",
+            "romaji": "Guntaigokko o shite iru no? Omoshirosou. Watashi mo irete yo.",
+            "german": "Spielt ihr Armee? Das sieht lustig aus. Lasst mich auch mitmachen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "軍隊ごっこをしているの？面白そう。私も入れてよ。",
+            "romaji": "Guntaigokko o shite iru no? Omoshirosou. Watashi mo irete yo.",
+            "german": "Spielt ihr Armee? Das sieht lustig aus. Lasst mich auch mitmachen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116758491",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing 0 contradicted by the exact row; corrected to 1.",
+            "match": {
+              "word": "軍隊",
+              "reading": "ぐんたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "軍隊 as \"Armee\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1248710; spelling=軍隊; reading=ぐんたい",
+          "finding": "軍隊 / ぐんたい (JMdict 1248710) confirms the headword, reading and sense \"Armee\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2748 after vocab-correction-rules.js",
+          "finding": "Trailing space removed from the example sentence."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Armee\" unchanged; checked against JMdict 1248710.",
+        "japanese": "軍隊ごっこをしているの？面白そう。私も入れてよ。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"guntai\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Spielt ihr Armee? Das sieht lustig aus. Lasst mich auch mitmachen."
+        ],
+        "lexical": "JMdict 1248710; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing 0 contradicted by the exact row; corrected to 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116758491",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing 0 contradicted by the exact row; corrected to 1.",
+            "match": {
+              "word": "軍隊",
+              "reading": "ぐんたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "軍隊 as \"Armee\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing space removed from the example sentence.",
+        "contentHash": "31b1f44d722a57267ef37a25612959c529052ed831e6a8a95074c13c089f0c8d",
+        "approvalHash": "c94b6331e0086f103784d6f670a017e8885cb6037b4f54c86a9c4e478bc5671f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Only the trailing space after 私も入れてよ。 was removed; pitch changed 0->1, which is the sole pattern of the exact 軍隊/ぐんたい row.",
+        "contentHash": "31b1f44d722a57267ef37a25612959c529052ed831e6a8a95074c13c089f0c8d",
+        "approvalHash": "c94b6331e0086f103784d6f670a017e8885cb6037b4f54c86a9c4e478bc5671f"
+      }
+    },
+    {
+      "id": "vocab-n3:3065",
+      "revisionId": "024-vocab-n3-3065",
+      "state": "accepted",
+      "predecessorHash": "dd58bd24cff83ac4ad4a363395bea84a369d55e528b4e04fb7f12ee44269ee52",
+      "predecessorRevisionHash": null,
+      "originalHash": "dd58bd24cff83ac4ad4a363395bea84a369d55e528b4e04fb7f12ee44269ee52",
+      "rationale": "Trailing space removed from the example sentence; romaji spacing fixed.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "まだまだ未熟で分からないことばかりですが、がんばります。 ",
+            "romaji": "Madamada mi juku de wakaranai koto bakari desu ga, ganbarimasu.",
+            "german": "Ich bin noch nicht so gut darin und es gibt vieles, das ich nicht verstehe, aber ich werde mein Bestes geben."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "まだまだ未熟で分からないことばかりですが、がんばります。",
+            "romaji": "Madamada mijuku de wakaranai koto bakari desu ga, ganbarimasu.",
+            "german": "Ich bin noch nicht so gut darin und es gibt vieles, das ich nicht verstehe, aber ich werde mein Bestes geben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@254598093",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Existing 2 contradicted by the exact row; corrected to 0.",
+            "match": {
+              "word": "未熟",
+              "reading": "みじゅく",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "未熟 as \"unreif\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1527560; spelling=未熟; reading=みじゅく",
+          "finding": "未熟 / みじゅく (JMdict 1527560) confirms the headword, reading and sense \"unreif\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:3065 after vocab-correction-rules.js",
+          "finding": "Trailing space removed from the example sentence; romaji spacing fixed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"unreif\" unchanged; checked against JMdict 1527560.",
+        "japanese": "まだまだ未熟で分からないことばかりですが、がんばります。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"mijuku\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich bin noch nicht so gut darin und es gibt vieles, das ich nicht verstehe, aber ich werde mein Bestes geben."
+        ],
+        "lexical": "JMdict 1527560; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing 2 contradicted by the exact row; corrected to 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@254598093",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Existing 2 contradicted by the exact row; corrected to 0.",
+            "match": {
+              "word": "未熟",
+              "reading": "みじゅく",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "未熟 as \"unreif\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing space removed from the example sentence; romaji spacing fixed.",
+        "contentHash": "bd94926ec4ff6f43eb11399ac1c9bcb2ff6949f608e821c238f4f63c065f9387",
+        "approvalHash": "80b16d1b63bb1021e661ebce28c742805cc070cd84994849a047655d0c3724c3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Trailing space removed only; romaji \"mijuku\" now joins みじゅく as in the headword, and pitch 0 is among the exact 未熟/みじゅく 形状詞 row patterns [0,1].",
+        "contentHash": "bd94926ec4ff6f43eb11399ac1c9bcb2ff6949f608e821c238f4f63c065f9387",
+        "approvalHash": "80b16d1b63bb1021e661ebce28c742805cc070cd84994849a047655d0c3724c3"
+      }
+    },
+    {
+      "id": "vocab-n2:1768",
+      "revisionId": "024-vocab-n2-1768",
+      "state": "accepted",
+      "predecessorHash": "b50747e325f382446c47b96540e88dc2e33a511a6c9c4930e76330f50f0e003d",
+      "predecessorRevisionHash": null,
+      "originalHash": "b50747e325f382446c47b96540e88dc2e33a511a6c9c4930e76330f50f0e003d",
+      "rationale": "The example (質問を尋ねた … 駆け出しただけだ) was unnatural and had a trailing space; replaced with a natural sentence using 駆け出す.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "彼に質問を尋ねた時、駆け出しただけだ。 ",
+            "romaji": "Kare ni shitsumon o tazuneta toki, kakedashita dake da.",
+            "german": "Als ich ihm eine Frage stellte, rannte er einfach davon."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "彼に質問したら、急に駆け出した。",
+            "romaji": "Kare ni shitsumon shitara, kyuu ni kakedashita.",
+            "german": "Als ich ihm eine Frage stellte, rannte er plötzlich los."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@91532216",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Existing 4 contradicted by the exact row; corrected to 0.",
+            "match": {
+              "word": "駆け出す",
+              "reading": "かけだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "駆け出す as \"losrennen\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1590100; spelling=駆け出す; reading=かけだす",
+          "finding": "駆け出す / かけだす (JMdict 1590100) confirms the headword, reading and sense \"losrennen\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:1768 after vocab-correction-rules.js",
+          "finding": "The example (質問を尋ねた … 駆け出しただけだ) was unnatural and had a trailing space; replaced with a natural sentence using 駆け出す."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"losrennen\" unchanged; checked against JMdict 1590100.",
+        "japanese": "彼に質問したら、急に駆け出した。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"kakedasu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Als ich ihm eine Frage stellte, rannte er plötzlich los."
+        ],
+        "lexical": "JMdict 1590100; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing 4 contradicted by the exact row; corrected to 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@91532216",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Existing 4 contradicted by the exact row; corrected to 0.",
+            "match": {
+              "word": "駆け出す",
+              "reading": "かけだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "駆け出す as \"losrennen\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: The example (質問を尋ねた … 駆け出しただけだ) was unnatural and had a trailing space; replaced with a natural sentence using 駆け出す.",
+        "contentHash": "35eb31795d5293fd44c6329e2a0c580a0cc5d68cfbd34745b96910e219a94531",
+        "approvalHash": "9c9686e4888e596eb10e79b0cc61eb7aafa8883f41fc5cfe18763d92910de707"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "The old 質問を尋ねた was a redundant collocation; new 彼に質問したら、急に駆け出した is grammatical with the usual unexpected-result 〜たら reading (he ran off), uses 駆け出す in the \"start running\" sense of JMdict 1590100, romaji and German \"rannte er plötzlich los\" match, and pitch 0 is in the exact row [0,3].",
+        "contentHash": "35eb31795d5293fd44c6329e2a0c580a0cc5d68cfbd34745b96910e219a94531",
+        "approvalHash": "9c9686e4888e596eb10e79b0cc61eb7aafa8883f41fc5cfe18763d92910de707"
+      }
+    },
+    {
+      "id": "vocab-n2:1769",
+      "revisionId": "024-vocab-n2-1769",
+      "state": "accepted",
+      "predecessorHash": "e55ced7fa7c1a0caf169a2d88a8e844538d108fe1c404e2b9f528c42cb734c1b",
+      "predecessorRevisionHash": null,
+      "originalHash": "e55ced7fa7c1a0caf169a2d88a8e844538d108fe1c404e2b9f528c42cb734c1b",
+      "rationale": "Trailing space removed from the example sentence; romaji fukousha corrected to fukoumono and spacing fixed.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "母に「不孝者」と呼ばれた。 ",
+            "romaji": "Haha ni fukousha to yoba reta.",
+            "german": "Meine Mutter nannte mich ein \"ungehorsames Kind\"."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "母に「不孝者」と呼ばれた。",
+            "romaji": "Haha ni \"fukoumono\" to yobareta.",
+            "german": "Meine Mutter nannte mich ein \"ungehorsames Kind\"."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2574570; spelling=不孝者; reading=ふこうもの",
+          "finding": "不孝者 / ふこうもの (JMdict 2574570) confirms the headword, reading and sense \"ungehorsames Kind\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:1769 after vocab-correction-rules.js",
+          "finding": "Trailing space removed from the example sentence; romaji fukousha corrected to fukoumono and spacing fixed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting",
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"ungehorsames Kind\" unchanged; checked against JMdict 2574570.",
+        "japanese": "母に「不孝者」と呼ばれた。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"fukoumono\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Meine Mutter nannte mich ein \"ungehorsames Kind\"."
+        ],
+        "lexical": "JMdict 2574570; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 不孝者 / ふこうもの; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 不孝者 / ふこうもの",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing space removed from the example sentence; romaji fukousha corrected to fukoumono and spacing fixed.",
+        "contentHash": "2626339014f844f6a4e38d8918389d7b53f58e9d30ccd1b54cfc6d9c39975548",
+        "approvalHash": "9d6588f71a2adbb87ad3add93cf2133c0667d1468ea983bd96441010d8d53fc5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Trailing space removed only; romaji \"fukousha\" was a real misreading of 不孝者 (JMdict 2574570 ふこうもの) and is fixed to fukoumono, \"yobareta\" is joined correctly, and pitch is nulled with no exact row.",
+        "contentHash": "2626339014f844f6a4e38d8918389d7b53f58e9d30ccd1b54cfc6d9c39975548",
+        "approvalHash": "9d6588f71a2adbb87ad3add93cf2133c0667d1468ea983bd96441010d8d53fc5"
+      }
+    },
+    {
+      "id": "vocab-n1:3642",
+      "revisionId": "024-vocab-n1-3642",
+      "state": "accepted",
+      "predecessorHash": "3da3be2def8b23d34e78fea0dec6be20ea8e01eded874531578ffb17d212bb80",
+      "predecessorRevisionHash": null,
+      "originalHash": "3da3be2def8b23d34e78fea0dec6be20ea8e01eded874531578ffb17d212bb80",
+      "rationale": "Trailing space removed from the example sentence; romaji spacing fixed.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "私どもの結婚式の媒酌の労をおとりいただき、本当にありがとうございました。 ",
+            "romaji": "Watashidomo no kekkonshiki no baishaku no rou o otori itadaki, hontouni arigatou gozaimashi ta.",
+            "german": "Vielen Dank für Ihre Mühe bei der Ehevermittlung unserer Hochzeitsfeier."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "私どもの結婚式の媒酌の労をおとりいただき、本当にありがとうございました。",
+            "romaji": "Watashidomo no kekkonshiki no baishaku no rou o otori itadaki, hontou ni arigatou gozaimashita.",
+            "german": "Vielen Dank für Ihre Mühe bei der Ehevermittlung unserer Hochzeitsfeier."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220056611",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "媒酌",
+              "reading": "ばいしゃく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "媒酌 as \"Ehevermittlung\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1473410; spelling=媒酌; reading=ばいしゃく",
+          "finding": "媒酌 / ばいしゃく (JMdict 1473410) confirms the headword, reading and sense \"Ehevermittlung\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:3642 after vocab-correction-rules.js",
+          "finding": "Trailing space removed from the example sentence; romaji spacing fixed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Ehevermittlung\" unchanged; checked against JMdict 1473410.",
+        "japanese": "私どもの結婚式の媒酌の労をおとりいただき、本当にありがとうございました。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"baishaku\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Vielen Dank für Ihre Mühe bei der Ehevermittlung unserer Hochzeitsfeier."
+        ],
+        "lexical": "JMdict 1473410; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru).",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220056611",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "媒酌",
+              "reading": "ばいしゃく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "媒酌 as \"Ehevermittlung\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Trailing space removed from the example sentence; romaji spacing fixed.",
+        "contentHash": "2a9d6d4d9c1e88a0319800f502482c5f65af66d3ec15b9b70ef67ce8f0d3ca6d",
+        "approvalHash": "d40cb2852d5159221f5765e1a0138c48941e338fe4eaba8d2f4276977eabf96f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Trailing space removed only; romaji \"hontou ni\" and \"gozaimashita\" fix the broken spacing (gozaimashi ta) and the line matches 本当にありがとうございました; pitch 0 matches the exact 媒酌/ばいしゃく row.",
+        "contentHash": "2a9d6d4d9c1e88a0319800f502482c5f65af66d3ec15b9b70ef67ce8f0d3ca6d",
+        "approvalHash": "d40cb2852d5159221f5765e1a0138c48941e338fe4eaba8d2f4276977eabf96f"
+      }
+    },
+    {
+      "id": "vocab-n3:2951",
+      "revisionId": "024-vocab-n3-2951",
+      "state": "accepted",
+      "predecessorHash": "65b90f23f31d4ba3da545ef4b5709a8c9af0786cfbc6d07aa245c96f13707491",
+      "predecessorRevisionHash": null,
+      "originalHash": "65b90f23f31d4ba3da545ef4b5709a8c9af0786cfbc6d07aa245c96f13707491",
+      "rationale": "Leading space removed from the example sentence; romaji capitalized.",
+      "original": {
+        "examples": [
+          {
+            "japanese": " 彼女は菜食主義者です。",
+            "romaji": "kanojo wa saishoku shugisha desu.",
+            "german": "Sie ist Vegetarierin."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "彼女は菜食主義者です。",
+            "romaji": "Kanojo wa saishoku shugisha desu.",
+            "german": "Sie ist Vegetarierin."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127006234",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "菜食",
+              "reading": "さいしょく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "菜食 as \"vegetarische Kost\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1295890; spelling=菜食; reading=さいしょく",
+          "finding": "菜食 / さいしょく (JMdict 1295890) confirms the headword, reading and sense \"vegetarische Kost\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2951 after vocab-correction-rules.js",
+          "finding": "Leading space removed from the example sentence; romaji capitalized."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"vegetarische Kost\" unchanged; checked against JMdict 1295890.",
+        "japanese": "彼女は菜食主義者です。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"saishoku\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Sie ist Vegetarierin."
+        ],
+        "lexical": "JMdict 1295890; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127006234",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "菜食",
+              "reading": "さいしょく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "菜食 as \"vegetarische Kost\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Leading space removed from the example sentence; romaji capitalized.",
+        "contentHash": "38022be5ec9f22f1bf1a2aaa7b62b7d942c41e3a2269d331342bc46a1116792a",
+        "approvalHash": "1f842ca4def34ed73e342271c1aa3fc2a85b2da638733f4c4889f9539208e1ba"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Only the leading space before 彼女は菜食主義者です。 was removed and the romaji capitalized to \"Kanojo…\"; content otherwise unchanged and pitch 0 matches the exact 菜食/さいしょく row.",
+        "contentHash": "38022be5ec9f22f1bf1a2aaa7b62b7d942c41e3a2269d331342bc46a1116792a",
+        "approvalHash": "1f842ca4def34ed73e342271c1aa3fc2a85b2da638733f4c4889f9539208e1ba"
+      }
+    },
+    {
+      "id": "vocab-n1:3715",
+      "revisionId": "024-vocab-n1-3715",
+      "state": "accepted",
+      "predecessorHash": "76ae6fba5c6ab99c6be154c492827a396b6f3fcbb43761557377106a9eb07cd0",
+      "predecessorRevisionHash": null,
+      "originalHash": "76ae6fba5c6ab99c6be154c492827a396b6f3fcbb43761557377106a9eb07cd0",
+      "rationale": "Leading space removed from the example sentence.",
+      "original": {
+        "examples": [
+          {
+            "japanese": " 牽切紡績とは、化学繊維特有の紡績方法で、綿からの紡績ではありません。",
+            "romaji": "Kensetsu bouseki to wa, kagaku sen'i tokuyuu no bouseki houhou de, men kara no bouseki de wa arimasen.",
+            "german": "Kensetsu-Bouseki ist ein Spinnverfahren, das speziell für Chemiefasern und nicht für Baumwolle ist."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "牽切紡績とは、化学繊維特有の紡績方法で、綿からの紡績ではありません。",
+            "romaji": "Kensetsu bouseki to wa, kagaku sen'i tokuyuu no bouseki houhou de, men kara no bouseki de wa arimasen.",
+            "german": "Kensetsu-Bouseki ist ein Spinnverfahren, das speziell für Chemiefasern und nicht für Baumwolle ist."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246001961",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "紡績",
+              "reading": "ぼうせき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "紡績 as \"Spinnen\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1519930; spelling=紡績; reading=ぼうせき",
+          "finding": "紡績 / ぼうせき (JMdict 1519930) confirms the headword, reading and sense \"Spinnen\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:3715 after vocab-correction-rules.js",
+          "finding": "Leading space removed from the example sentence."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Spinnen\" unchanged; checked against JMdict 1519930.",
+        "japanese": "牽切紡績とは、化学繊維特有の紡績方法で、綿からの紡績ではありません。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"bouseki\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Kensetsu-Bouseki ist ein Spinnverfahren, das speziell für Chemiefasern und nicht für Baumwolle ist."
+        ],
+        "lexical": "JMdict 1519930; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246001961",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "紡績",
+              "reading": "ぼうせき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "紡績 as \"Spinnen\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Leading space removed from the example sentence.",
+        "contentHash": "85603f138403ae2477090e063004ef4f4cacd311eadb923bcfc2a9bfa3c244ad",
+        "approvalHash": "da6fcb82d6352e12b9f99649683942ad0b705987fa36fb461977b72c7ea78415"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Only the leading space before 牽切紡績とは… was removed (whitespace-normalized strings identical); romaji \"Kensetsu bouseki…\" and German unchanged, pitch 0 matches the exact 紡績/ぼうせき row.",
+        "contentHash": "85603f138403ae2477090e063004ef4f4cacd311eadb923bcfc2a9bfa3c244ad",
+        "approvalHash": "da6fcb82d6352e12b9f99649683942ad0b705987fa36fb461977b72c7ea78415"
+      }
+    },
+    {
+      "id": "vocab-n3:2853",
+      "revisionId": "024-vocab-n3-2853",
+      "state": "accepted",
+      "predecessorHash": "d534a0c341bd4f6d88d14ede8b9dee63c48d780b7377df87293c9eb45b7dc897",
+      "predecessorRevisionHash": null,
+      "originalHash": "d534a0c341bd4f6d88d14ede8b9dee63c48d780b7377df87293c9eb45b7dc897",
+      "rationale": "Invisible U+FEFF removed from the start of the example sentence; romaji capitalized.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "﻿全壊したビルからガスが漏出して危険だから近寄らないように。",
+            "romaji": "zenkai shita biru kara gasu ga roushutsu shite kiken da kara chikayoranai you ni.",
+            "german": "Aus dem völlig zerstörten Gebäude tritt Gas aus, es ist gefährlich, also kommt nicht näher."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "全壊したビルからガスが漏出して危険だから近寄らないように。",
+            "romaji": "Zenkai shita biru kara gasu ga roushutsu shite kiken da kara chikayoranai you ni.",
+            "german": "Aus dem völlig zerstörten Gebäude tritt Gas aus, es ist gefährlich, also kommt nicht näher."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280246305",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "漏出",
+              "reading": "ろうしゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "漏出 as \"Leck\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1560880; spelling=漏出; reading=ろうしゅつ",
+          "finding": "漏出 / ろうしゅつ (JMdict 1560880) confirms the headword, reading and sense \"Leck\"."
+        },
+        {
+          "source": "Reported defect (maintenance batch 024)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2853 after vocab-correction-rules.js",
+          "finding": "Invisible U+FEFF removed from the start of the example sentence; romaji capitalized."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "formatting"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-024-editor",
+        "meaning": "\"Leck\" unchanged; checked against JMdict 1560880.",
+        "japanese": "全壊したビルからガスが漏出して危険だから近寄らないように。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"roushutsu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Aus dem völlig zerstörten Gebäude tritt Gas aus, es ist gefährlich, also kommt nicht näher."
+        ],
+        "lexical": "JMdict 1560880; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280246305",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "漏出",
+              "reading": "ろうしゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "漏出 as \"Leck\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-editor",
+        "finding": "Editorial first pass: Invisible U+FEFF removed from the start of the example sentence; romaji capitalized.",
+        "contentHash": "1b027e833e448e1853682f5efda28816afa42dcf67364ecbb16c06187aad4514",
+        "approvalHash": "483e518cbb2542e45bc06987c4d384fc55e2d66b273d70256522903aefd987e6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-024-independent-reviewer",
+        "finding": "Only the invisible U+FEFF at the start of 全壊したビルからガスが漏出して… was removed (confirmed no BOM/whitespace remains) and the romaji capitalized; pitch 0 matches the exact 漏出/ろうしゅつ row.",
+        "contentHash": "1b027e833e448e1853682f5efda28816afa42dcf67364ecbb16c06187aad4514",
+        "approvalHash": "483e518cbb2542e45bc06987c4d384fc55e2d66b273d70256522903aefd987e6"
+      }
+    }
+  ],
+  "decisions": []
+}

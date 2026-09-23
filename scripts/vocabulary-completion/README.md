@@ -51,9 +51,15 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
   繋がる), the new sentence shows the second sense. Pitch was re-checked: 聞こえる 3→0,
   急須 2→0 and 肺 1→0; 13 entries had no row for the exact form and became unknown. 0
   repeated-Japanese example pairs remain.
+- **024a–b (44 reviews, 1 merge):** reported defects from the 23 September full review.
+  Readings 唯一 ゆいいつ, 荷送人 におくりにん, 傍目に はために; mismatched romaji (町内会,
+  即座に, 貸し渋り, 埋立地, コレステロール, エッフェル塔, 恐れ入る, もの寂しい, 直接/間接民主制,
+  初七日); examples that never used their headword replaced (遷移, 貿易障壁, 確定判決,
+  市場開放, 市場参入, 引渡条件, 焼き物, ご覧になる, だからといって, 駆け出す); stray
+  tabs/spaces and a U+FEFF removed from 19 examples; 相図 (rare kanji form) retired into 合図.
 
-Runtime: **13,137 entries** (N5 1,616, N4 1,571, N3 3,401, N2 2,531, N1 4,018),
-with 15 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
+Runtime: **13,136 entries** (N5 1,616, N4 1,570, N3 3,401, N2 2,531, N1 4,018),
+with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70
 of those entries have a pitch that no exact UniDic row supports. The levels of 〜症 and
