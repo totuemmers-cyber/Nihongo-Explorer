@@ -261,6 +261,26 @@ function getPitchMorae(reading) {
   return morae;
 }
 
+// Vocabulary pitch is supported only by evidence for this exact word and reading.
+function getVocabularyPitchConfidence(v) {
+  var moraCount = getPitchMorae(v.reading || '').length;
+  var evidence = Array.isArray(v.pitchProvenance) ? v.pitchProvenance : [];
+  function supported(pattern) {
+    return moraCount > 0 && Number.isInteger(pattern) && pattern >= 0 && pattern <= moraCount &&
+      evidence.some(function (entry) {
+        return entry && entry.match && entry.match.word === v.word && entry.match.reading === v.reading &&
+          Array.isArray(entry.patterns) && entry.patterns.indexOf(pattern) !== -1;
+      });
+  }
+  return {
+    present: v.pitch !== undefined && v.pitch !== null,
+    verified: supported(v.pitch),
+    alternatives: (Array.isArray(v.pitchVariants) ? v.pitchVariants : []).filter(function (pattern, index, patterns) {
+      return pattern !== v.pitch && patterns.indexOf(pattern) === index && supported(pattern);
+    })
+  };
+}
+
 // Get pitch pattern as array of 1 (high) / 0 (low) per mora
 function getPitchPattern(moraCount, pitchNum) {
   var pattern = [];
@@ -1000,7 +1020,7 @@ SECTION_CONFIGS.vocab = {
       appendElement(badges, 'span', 'vocab-type-badge ' + v.type, v.type);
 
       var reading = appendElement(root, 'div', 'vocab-card-reading', v.reading || '');
-      if (v.pitch !== undefined && v.pitch !== null && v.pitch >= 0) {
+      if (getVocabularyPitchConfidence(v).verified) {
         appendElement(reading, 'span', 'pitch-badge', getPitchLabel(v.pitch, getPitchMorae(v.reading || '').length));
       }
 
@@ -1023,9 +1043,15 @@ SECTION_CONFIGS.vocab = {
 
     document.getElementById('vocab-detail-reading').textContent = v.reading || '';
     var pitchEl = document.getElementById('vocab-detail-pitch');
-    if (v.pitch !== undefined && v.pitch !== null && v.pitch >= 0) {
-      pitchEl.innerHTML = renderPitchSVG(v.reading || '', v.pitch);
-      (v.pitchVariants || []).forEach(function (pattern) {
+    var pitchConfidence = getVocabularyPitchConfidence(v);
+    pitchEl.innerHTML = '';
+    if (pitchConfidence.present) {
+      if (pitchConfidence.verified) {
+        pitchEl.innerHTML = renderPitchSVG(v.reading || '', v.pitch);
+      } else {
+        appendElement(pitchEl, 'div', 'pitch-unverified', 'Tonhöhenakzent nicht verifiziert.');
+      }
+      pitchConfidence.alternatives.forEach(function (pattern) {
         appendElement(pitchEl, 'div', 'pitch-alternative', 'Auch belegt:');
         pitchEl.insertAdjacentHTML('beforeend', renderPitchSVG(v.reading || '', pattern));
       });

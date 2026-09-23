@@ -224,6 +224,31 @@ async function run() {
     vocab.config.openDetail(vocab.allItems.find(v=>v.word==='明るい'),vocab.dom,vocab);
     assert.equal(d.querySelectorAll('#vocab-detail-pitch .pitch-svg').length,2,'Attested alternative missing');
     assert(d.getElementById('vocab-detail-pitch').textContent.includes('Auch belegt'));
+    const pitchBase = vocab.allItems.find(v=>v.word==='明るい');
+    const pitchEvidence = patterns => [{ match: { word: pitchBase.word, reading: pitchBase.reading }, patterns }];
+    const pitchCases = [
+      [{ pitch: 0, pitchVariants: [], pitchProvenance: pitchEvidence([0]) }, 1, false, false, true],
+      [{ pitch: 0, pitchVariants: [1, 2, 1, 99], pitchProvenance: pitchEvidence([0, 1, 99]) }, 2, false, false, true],
+      [{ pitch: 0, pitchProvenance: [] }, 0, true, false, false],
+      [{ pitch: 0, pitchProvenance: [{ match: { word: '別', reading: pitchBase.reading }, patterns: [0] }] }, 0, true, false, false],
+      [{ pitch: 0, pitchProvenance: [{ match: { word: pitchBase.word, reading: 'べつ' }, patterns: [0] }] }, 0, true, false, false],
+      [{ pitch: 0, pitchProvenance: pitchEvidence([1]), pitchVariants: [1] }, 1, true, false, false],
+      ...[99, -1, 1.5, '0'].map(pitch => [{ pitch, pitchProvenance: pitchEvidence([pitch]) }, 0, true, false, false]),
+      [{ pitch: 0, reading: '', pitchProvenance: [{ match: { word: pitchBase.word, reading: '' }, patterns: [0] }] }, 0, true, false, false],
+      [{ pitch: null }, 0, false, true, false],
+      [{ pitch: undefined }, 0, false, true, false],
+      [{ pitch: 0, pitchVariants: [], pitchProvenance: pitchEvidence([0]) }, 1, false, false, true]
+    ];
+    for (const [changes, diagrams, unverified, hidden, badge] of pitchCases) {
+      const item = Object.assign({}, pitchBase, { pitchVariants: [] }, changes);
+      vocab.config.openDetail(item, vocab.dom, vocab);
+      const container = d.getElementById('vocab-detail-pitch');
+      assert.equal(container.querySelectorAll('.pitch-svg').length, diagrams);
+      assert.equal(container.textContent.includes('Tonhöhenakzent nicht verifiziert.'), unverified);
+      assert.equal(container.classList.contains('hidden'), hidden);
+      assert.equal(container.querySelectorAll('.pitch-alternative').length, diagrams - (badge ? 1 : 0));
+      assert.equal(!!vocab.config.createCard(item, 0, vocab).querySelector('.pitch-badge'), badge);
+    }
     // Old saved IDs and deep links resolve through an explicit merge redirect.
     const retired='vocab-n1:retired-fixture';
     w.VOCAB_CORRECTION_RULES.completionRedirects[retired]=forgiving.id;
