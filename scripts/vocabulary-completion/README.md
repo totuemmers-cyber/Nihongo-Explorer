@@ -8,6 +8,53 @@ reviews, imported corrections, research and sealed batches remain preserved.
 Default maintenance covers reported defects and future changes. Resuming
 exhaustive certification requires a new explicit user scope.
 
+## Maintenance batches 021–022 — reported defects and additions (23 September 2026)
+
+Reported-defect maintenance under `risk-based-v2`; every record has an editorial
+first pass and an exact-hash independent second pass (three review rounds; all
+rejections were fixed and re-reviewed). Authoring scripts, packets, research,
+assemblies, decisions and import journals are in [maintenance-021](maintenance-021/)
+and [maintenance-022](maintenance-022/).
+
+- **021a–c (75 corrections):** the 59 remaining exact duplicate examples each got a
+  new, distinct second example (0 remain corpus-wide); 王子, 投手, 〜病, 〜県 moved up
+  from N5; part of speech fixed for 王子/投手 (Nomen), しかし, それとも, 何故なら, でも,
+  及び, 故に (Ausdruck, the app's conjunction convention), つまり (Adverb), 〜症
+  (Partikel, affix convention); headwords エントロピー and ラーメン (alias 拉麺); DNA
+  kept (Latin letters are the Japanese orthography) with note and pitch 5; 礼金
+  typo. Pitch was re-verified per entry: contradicted values were corrected, and
+  values without an exact UniDic row became unknown.
+- **021d–g (46 additions):** 27 candidate-backed entries closing 55 candidate
+  references (e.g. 嫌う, しまう, 頃, 生き物, 億, 紫, 行ってらっしゃい,
+  おめでとうございます, コンピューター, スーパー, ワイン, ドラマ …) and 19
+  correction-driven entries (三月, 七月, 八月, 九月, 十一月, 十二月, 何人, 何時,
+  バナナ, メール, インターネット, スマホ, 余り, 兆, ぎこちない, もたつく,
+  しゃちほこばる, たどたどしい, ぶっきらぼう).
+- **022a–c (63 reviews, 15 merges/retirements):** idioms and yojijukugo cleanup.
+  Duplicates and variants were retired through redirects (気を付ける, 弘法も筆の誤り,
+  実るほど頭が下がる稲穂, 馬の耳に風, 知らぬが花, the idioms copies of 一石二鳥,
+  一期一会, 自業自得 and 以心伝心, and 正正堂堂). Invented compounds were retired into
+  their closest real entries (起立礼着→お辞儀, 大切気持→気持ち, 右左右左→左右,
+  家族全員→家族, 得意技を持て→特技). Non-yojijukugo and non-four-character entries
+  were re-typed, 13 literal N5 collocations became Ausdruck, 失敗は成功のもと replaced
+  the 母 headword, 鳥肌が立つ moved to N2 and 腰を据える to N1, and three Cyrillic
+  letters in romaji were fixed.
+
+- **023a–c (56 corrections, [maintenance-023](maintenance-023/)):** entries whose
+  two examples repeated the same Japanese sentence (after NFKC and whitespace removal)
+  with only a reworded German translation. Each got a new, distinct second example; where
+  the translations showed two senses (首 Hals/Nacken, ぺこぺこ, なかなか, あっさり, 占い,
+  繋がる), the new sentence shows the second sense. Pitch was re-checked: 聞こえる 3→0,
+  急須 2→0 and 肺 1→0; 13 entries had no row for the exact form and became unknown. 0
+  repeated-Japanese example pairs remain.
+
+Runtime: **13,137 entries** (N5 1,616, N4 1,571, N3 3,401, N2 2,531, N1 4,018),
+with 15 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
+ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
+category-only edit is a consequential full review with a pitch disposition, and 70
+of those entries have a pitch that no exact UniDic row supports. The levels of 〜症 and
+及び are also deferred: two publishers list both at N1.
+
 The full-corpus request is **not complete**. The risk-based completion gate must fail
 until every entry, candidate and pitch investigation meets the acceptance rules.
 Mechanical dictionary matches are research leads, not editorial approvals.
@@ -67,6 +114,20 @@ idempotent and rejects unexpected external edits. An exclusive writer lock preve
 concurrent imports/recovery; dead owners are recovered automatically. Changes
 during validation are rejected before a journal or runtime writes are produced.
 Keep the journal until completion.
+
+`prepare --additions=ids.json` allocates a fixed roster of at most 25 new
+`vocab-nX:correction:slug` IDs for correction-driven additions (reported missing
+words without a historical candidate reference). Each addition still needs a
+reason, level basis, German note, two distinct contexts, pitch disposition and
+two exact approvals; candidate-backed additions keep using `prepare --candidates`.
+
+An `--ids` proposal may also carry `merges`. The retired entry must be reviewed
+in the same packet; the survivor must be accepted there or already. Assembly binds
+`fromHash`/`toHash`, and each merge gets its own approval target `merge:<fromId>`
+bound by `mergeHash`. A merge normally requires equal readings. An invalid or
+variant entry may instead be retired into its closest surviving entry with a
+different reading only through an explicit `retirement: {reason, relationship}`,
+which is part of the merge hash. Retired IDs redirect bookmarks and deep links.
 
 `prepare --candidates` creates fixed candidate-reference packets with full source
 references and cached research. Use `--references=...` with explicit `{key,index}`

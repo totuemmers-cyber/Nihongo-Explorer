@@ -3,7 +3,7 @@ const fs=require('fs'),path=require('path'),assert=require('assert');
 const crypto=require('crypto');
 const {root}=require('./vocabulary-tools.cjs');
 const {hash,project}=require('./vocabulary-correction-pipeline.cjs');
-const {entryApprovalHash,decisionHash}=require('./vocabulary-review-workflow.cjs');
+const {entryApprovalHash,decisionHash,mergeHash}=require('./vocabulary-review-workflow.cjs');
 const {selectedForBatch,POLICY_ID}=require('./vocabulary-review-policy.cjs');
 const importer=require('./import-vocabulary-completion.cjs');
 const {queue,researchPackets,packet:researchPacket}=require('./vocabulary-review-queue.cjs');
@@ -58,6 +58,15 @@ function prepareCandidatePackets(plan,requested,options={}) {
     return {...p,packetHash:hash(p)};
   })};
 }
+// Correction-driven additions (README: "need not be in the historical candidate queue")
+// receive an explicit fixed ID roster. They carry no candidate decision and still need
+// full enrichment, level basis, reason and two exact approvals.
+function prepareAdditionPacket(plan,additionIds) {
+  assert(Array.isArray(additionIds)&&additionIds.length>0&&additionIds.length<=25&&new Set(additionIds).size===additionIds.length,'Invalid correction-driven addition roster');
+  for(const id of additionIds)assert(/^vocab-n[1-5]:correction:[a-z0-9-]+$/.test(id)&&!content(plan,id),'Invalid or existing allocated addition ID');
+  const p={version:1,policy:POLICY_ID,kind:'addition',snapshotHash:hash(additionIds),slot:1,entries:[],candidates:[],additionIds:clone(additionIds)};
+  return {...p,packetHash:hash(p)};
+}
 function prepareDefectPacket(plan,defects) {
   assert(Array.isArray(defects)&&defects.length,'Explicit sample-defect records required');
   assert.equal(new Set(defects.map(d=>d.id)).size,defects.length,'Repeated sample-defect ID');
@@ -82,17 +91,18 @@ function checkPacket(packet,plan) {
     assert(reference&&hash(reference)===row.referenceHash,'Candidate source changed since preparation');
   }
   for(const row of packet.candidates)for(const id of row.additionIds||[])assert(!content(plan,id),'Allocated addition ID now exists');
+  for(const id of packet.additionIds||[])assert(!content(plan,id),'Allocated addition ID now exists');
   for(const row of packet.defectHeads||[])assert.equal(plan.sampleDefects?.find(d=>d.id===row.id)?.revisionHash??null,row.predecessorDefectHash,'Stale sample-defect packet');
 }
-function rows(batch){return [...(batch.reviews||[]),...(batch.additions||[]),...(batch.decisions||[])];}
-function recordKey(r){return r.id||r.key+'#'+r.referenceIndex;}
+function rows(batch){return [...(batch.reviews||[]),...(batch.additions||[]),...(batch.decisions||[]),...(batch.merges||[])];}
+function recordKey(r){return r.id||(r.from?'merge:'+r.from:r.key+'#'+r.referenceIndex);}
+const targetHash=r=>r.from?mergeHash(r):decisionHash(r);
 function unsigned(assembly){const value=clone(assembly);delete value.assemblyHash;for(const r of rows(value.batch)){delete r.firstPass;delete r.secondPass;}return value;}
 function assemble(packet,proposal,plan) {
   checkPacket(packet,plan);
   const batch=clone(proposal);assert.equal(batch.version,3,'Version 3 required');
   if(packet.kind==='candidate') assert.deepStrictEqual((batch.decisions||[]).map(r=>r.key+'#'+r.referenceIndex).sort(),
     packet.candidates.map(r=>r.key+'#'+r.index).sort(),'Proposal must preserve the complete fixed candidate roster');
-  assert(!(batch.merges||[]).length,'Use dedicated revision authoring for merges');
   assert.deepStrictEqual((batch.sampleDefects||[]).map(d=>d.id).sort(),(packet.defectHeads||[]).map(d=>d.id).sort(),'Preserve fixed sample-defect roster');
   for(const d of batch.sampleDefects||[]) {
     assert.equal(d.predecessorDefectHash,packet.defectHeads.find(h=>h.id===d.id).predecessorDefectHash,'Sample-defect predecessor mismatch');
@@ -100,7 +110,7 @@ function assemble(packet,proposal,plan) {
     assert(d.state==='cleared'||nonempty(d.finding),'Explicit sampled defect finding required');
   }
   const additions=new Map((batch.additions||[]).map(r=>[r.id,r]));
-  assert.deepStrictEqual([...additions.keys()].sort(),packet.candidates.flatMap(c=>c.additionIds||[]).sort(),'Preserve complete fixed addition roster');
+  assert.deepStrictEqual([...additions.keys()].sort(),[...packet.candidates.flatMap(c=>c.additionIds||[]),...(packet.additionIds||[])].sort(),'Preserve complete fixed addition roster');
   const allocated=new Map(packet.entries.map(r=>[r.id,r]));
   assert((batch.reviews||[]).length+(batch.additions||[]).length<=25,'Batch exceeds packet');
   assert.deepStrictEqual((batch.reviews||[]).map(r=>r.id).sort(),packet.entries.map(r=>r.id).sort(),'Preserve complete fixed packet roster; save unresolved entries as research or drafts');
@@ -110,16 +120,29 @@ function assemble(packet,proposal,plan) {
     assert(!keys.has(recordKey(r)),'Repeated proposal target');keys.add(recordKey(r));
     assert(['accepted','pending','researching','drafted','needs revision'].includes(r.state),'Invalid work state');
     if(additions.get(r.id)===r) {
-      const c=packet.candidates.find(c=>(c.additionIds||[]).includes(r.id));assert(c,'Addition outside fixed packet');
+      const c=packet.candidates.find(c=>(c.additionIds||[]).includes(r.id)),direct=(packet.additionIds||[]).includes(r.id);
+      assert(c||direct,'Addition outside fixed packet');
       assert(!content(plan,r.id),'Addition identity already exists');
       assert.equal(r.predecessorHash,null,'New addition cannot have a content predecessor');
       assert.equal(r.predecessorRevisionHash,null,'New addition cannot have a revision predecessor');
       assert(r.entry&&r.id.startsWith('vocab-'+r.entry.level?.toLowerCase()+':'),'Addition source/level mismatch');
       assert(r.policy,'Addition requires explicit policy');
-      r.policy.candidateReference={key:c.key,referenceIndex:c.index,referenceHash:c.referenceHash};
-      const d=(batch.decisions||[]).find(d=>d.key===c.key&&d.referenceIndex===c.index);
-      assert(d&&(d.targets||[]).includes(r.id),'Addition requires allocated candidate decision target');
-      if(r.state==='accepted')assert(d.state==='accepted'&&['added','additional-sense','additional-reading'].includes(d.disposition),'Accepted addition needs an accepted addition decision');
+      if(c) {
+        r.policy.candidateReference={key:c.key,referenceIndex:c.index,referenceHash:c.referenceHash};
+        const d=(batch.decisions||[]).find(d=>d.key===c.key&&d.referenceIndex===c.index);
+        assert(d&&(d.targets||[]).includes(r.id),'Addition requires allocated candidate decision target');
+        if(r.state==='accepted')assert(d.state==='accepted'&&['added','additional-sense','additional-reading'].includes(d.disposition),'Accepted addition needs an accepted addition decision');
+      } else assert(nonempty(r.reason)&&nonempty(r.levelBasis),'Correction-driven addition needs an explicit reason and level basis');
+    }
+    else if(r.from) {
+      // Merges/retirements: the retired entry must be revised in this packet; the survivor
+      // must be accepted here or already. Both snapshot hashes are bound after assembly.
+      assert(allocated.has(r.from),'Merge source outside fixed packet');
+      assert(r.from!==r.to&&(allocated.has(r.to)||plan.workHeads?.get(r.to)?.state==='accepted'),'Merge target requires an accepted review');
+      assert(!Object.hasOwn(r,'fromHash')&&!Object.hasOwn(r,'toHash'),'Merge hashes are bound by assembly');
+      assert.equal(r.predecessorMergeHash,null,'Use dedicated revision authoring to revise an existing merge');
+      assert(r.policy?.risk==='consequential'&&(r.policy.reasons||[]).includes('merge'),'Merge requires consequential merge policy');
+      if(r.retirement)assert(nonempty(r.retirement.reason)&&nonempty(r.retirement.relationship),'Retirement needs reason and relationship');
     }
     else if(r.id){const e=allocated.get(r.id);assert(e,'Entry outside fixed packet');assert.equal(r.predecessorHash,e.sourceHash,'Content predecessor mismatch');assert.equal(r.originalHash,e.sourceHash,'Original hash mismatch');assert.equal(r.predecessorRevisionHash,e.predecessorRevisionHash,'Revision predecessor mismatch');}
     else {
@@ -138,6 +161,13 @@ function assemble(packet,proposal,plan) {
   const sampled=selectedForBatch((batch.reviews||[]).filter(r=>r.state==='accepted'&&r.policy?.risk==='routine').map(r=>r.id));
   for(const r of batch.reviews||[]) if(r.policy) r.policy.sampled=sampled.has(r.id);
   const value={version:1,packet:clone(packet),batch,finalContent:Object.fromEntries([...(batch.reviews||[]).map(r=>[r.id,project({...content(plan,r.id),...r.replacement})]),...(batch.additions||[]).map(r=>[r.id,project(r.entry)])])};
+  for(const m of batch.merges||[]) {
+    const reviewed=id=>(batch.reviews||[]).find(r=>r.id===id);
+    assert(reviewed(m.from)?.state==='accepted','Merge source requires an accepted review in this batch');
+    assert(!reviewed(m.to)||reviewed(m.to).state==='accepted','Merge target review is unresolved');
+    m.fromHash=hash(value.finalContent[m.from]);
+    m.toHash=hash(value.finalContent[m.to]||project(content(plan,m.to)));
+  }
   value.assemblyHash=hash(unsigned(value));return value;
 }
 function verifyAssembly(a){assert.equal(hash(unsigned(a)),a.assemblyHash,'Assembly changed; approvals invalidated');}
@@ -152,7 +182,7 @@ function approve(assembly,decisions) {
     const r=rows(result.batch).find(r=>recordKey(r)===d.target);assert(r,'Unknown approval target');
     assert.equal(r.state,'accepted','Unresolved work cannot be approved');
     const next=r.id?result.finalContent[r.id]:null;
-    const contentHash=r.id?hash(next):decisionHash(r);
+    const contentHash=r.id?hash(next):targetHash(r);
     const approvalHash=r.id?entryApprovalHash(r,next):contentHash;
     assert.equal(d.contentHash,contentHash,'Reviewer content hash differs');
     assert.equal(d.approvalHash,approvalHash,'Reviewer evidence hash differs');
@@ -163,7 +193,7 @@ function approve(assembly,decisions) {
   return result;
 }
 function approvalTargets(a){verifyAssembly(a);return rows(a.batch).filter(r=>r.state==='accepted').map(r=>({target:recordKey(r),assemblyHash:a.assemblyHash,
-  contentHash:r.id?hash(a.finalContent[r.id]):decisionHash(r),approvalHash:r.id?entryApprovalHash(r,a.finalContent[r.id]):decisionHash(r)}));}
+  contentHash:r.id?hash(a.finalContent[r.id]):targetHash(r),approvalHash:r.id?entryApprovalHash(r,a.finalContent[r.id]):targetHash(r)}));}
 function writeAtomic(file,value){
   fs.mkdirSync(path.dirname(file),{recursive:true});
   const temporary=file+'.'+process.pid+'.'+crypto.randomUUID()+'.tmp';
@@ -249,12 +279,12 @@ function importWaveUnlocked(assemblies,names,journalFile,options={}) {
   writeAtomic(journalFile,json({version:1,complete:false,writes,writesHash:hash(writes),before}));
   return resumeJournalUnlocked(journalFile,base);
 }
-module.exports={preparePackets,prepareCandidatePackets,prepareDefectPacket,checkPacket,assemble,approve,approvalTargets,verifyAssembly,importWave,resumeJournal};
+module.exports={preparePackets,prepareCandidatePackets,prepareAdditionPacket,prepareDefectPacket,checkPacket,assemble,approve,approvalTargets,verifyAssembly,importWave,resumeJournal};
 if(require.main===module){
   const [command,...args]=process.argv.slice(2),get=name=>args.find(a=>a.startsWith('--'+name+'='))?.slice(name.length+3);
   const required=name=>{const value=get(name);assert(value,'Missing --'+name);return value;};
   let result;
-  if(command==='prepare') result=get('defects')?prepareDefectPacket(importer.prepare(),read(get('defects'))):args.includes('--candidates')?prepareCandidatePackets(importer.prepare(),get('references')?read(get('references')):undefined):preparePackets(importer.prepare(),{ids:get('ids')?read(get('ids')):undefined});
+  if(command==='prepare') result=get('defects')?prepareDefectPacket(importer.prepare(),read(get('defects'))):get('additions')?prepareAdditionPacket(importer.prepare(),read(get('additions'))):args.includes('--candidates')?prepareCandidatePackets(importer.prepare(),get('references')?read(get('references')):undefined):preparePackets(importer.prepare(),{ids:get('ids')?read(get('ids')):undefined});
   else if(command==='assemble') {
     const packet=read(required('packet'));
     const proposal=get('findings')?require('./vocabulary-editorial-record.cjs').hydrate(packet,read(get('findings'))):read(required('proposal'));

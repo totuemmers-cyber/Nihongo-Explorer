@@ -48306,5 +48306,361 @@ window.VOCAB_N2 = [
       }
     ],
     "vocabularyCompletion": "2026-09-vocabulary-completion"
+  },
+  {
+    "word": "蚊",
+    "reading": "か",
+    "romaji": "ka",
+    "meaning": "Mücke, Stechmücke",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N2",
+    "notes": "Einsilbiges Nomen; der Kontext unterscheidet es von der Fragepartikel か. „Von einer Mücke gestochen werden“ heißt 蚊に刺される.",
+    "examples": [
+      {
+        "japanese": "夜、蚊に刺されて、よく眠れませんでした。",
+        "romaji": "Yoru, ka ni sasarete, yoku nemuremasen deshita.",
+        "german": "Nachts wurde ich von Mücken gestochen und konnte nicht gut schlafen."
+      },
+      {
+        "japanese": "夏は窓を開けると、蚊が入ってきます。",
+        "romaji": "Natsu wa mado o akeru to, ka ga haitte kimasu.",
+        "german": "Im Sommer kommen Mücken herein, wenn man das Fenster öffnet."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85480906",
+        "patterns": [
+          0
+        ],
+        "finding": "蚊 / カ; 名詞/普通名詞/一般/*; *; *; lemma 蚊; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "蚊",
+          "reading": "か",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "蚊 as \"Mücke, Stechmücke\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:ka-mosquito"
+  },
+  {
+    "word": "占う",
+    "reading": "うらなう",
+    "romaji": "uranau",
+    "meaning": "wahrsagen; vorhersagen",
+    "type": "Verb",
+    "category": "Kultur",
+    "level": "N2",
+    "notes": "Transitiv: 運勢を占う „das Schicksal deuten“. Übertragen auch für Prognosen: 今後を占う. Das zugehörige Nomen ist 占い（うらない）„Wahrsagerei, Horoskop“.",
+    "examples": [
+      {
+        "japanese": "神社で今年の運勢を占ってもらいました。",
+        "romaji": "Jinja de kotoshi no unsei o uranatte moraimashita.",
+        "german": "Im Schrein habe ich mir mein Glück für dieses Jahr vorhersagen lassen."
+      },
+      {
+        "japanese": "この試合は大会の行方を占う大事な一戦です。",
+        "romaji": "Kono shiai wa taikai no yukue o uranau daiji na issen desu.",
+        "german": "Dieses Spiel ist ein wichtiges Duell, das den Ausgang des Turniers erahnen lässt."
+      }
+    ],
+    "pitch": 3,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "うらなう",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "うらなう",
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68286324",
+        "patterns": [
+          3
+        ],
+        "finding": "占う / ウラナウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 占う; aType 3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "占う",
+          "reading": "うらなう",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+          "sense": "占う as \"wahrsagen; vorhersagen\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:uranau"
+  },
+  {
+    "word": "浮かべる",
+    "reading": "うかべる",
+    "romaji": "ukaberu",
+    "meaning": "schwimmen lassen; (Lächeln, Tränen) zeigen; sich vorstellen",
+    "type": "Verb",
+    "category": "Handlung",
+    "level": "N2",
+    "notes": "Transitives Gegenstück zu 浮かぶ（schwimmen, auftauchen）. Häufig: 笑みを浮かべる „lächeln“, 涙を浮かべる „Tränen in den Augen haben“, 思い浮かべる „sich vorstellen“.",
+    "examples": [
+      {
+        "japanese": "子どもたちは川に紙の船を浮かべて遊びました。",
+        "romaji": "Kodomotachi wa kawa ni kami no fune o ukabete asobimashita.",
+        "german": "Die Kinder ließen Papierschiffchen auf dem Fluss schwimmen und spielten."
+      },
+      {
+        "japanese": "彼女は目に涙を浮かべて、お礼を言いました。",
+        "romaji": "Kanojo wa me ni namida o ukabete, orei o iimashita.",
+        "german": "Mit Tränen in den Augen bedankte sie sich."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "ichidan",
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "うかべる",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "うかべる",
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@60680087",
+        "patterns": [
+          0
+        ],
+        "finding": "浮かべる / ウカベル; 動詞/一般/*/*; 下一段-バ行; 終止形-一般; lemma 浮かべる; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "浮かべる",
+          "reading": "うかべる",
+          "grammaticalForm": "動詞/一般/*/*; 下一段-バ行; 終止形-一般",
+          "sense": "浮かべる as \"schwimmen lassen; (Lächeln, Tränen) zeigen; sich vorstellen\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:ukaberu"
+  },
+  {
+    "word": "薄暗い",
+    "reading": "うすぐらい",
+    "romaji": "usugurai",
+    "meaning": "dämmrig, schummrig",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "level": "N2",
+    "notes": "い-Adjektiv aus 薄（leicht）und 暗い（dunkel）: nicht völlig dunkel, sondern schwach beleuchtet – für Räume, Wege oder die Dämmerung.",
+    "examples": [
+      {
+        "japanese": "薄暗い部屋で本を読むと、目が疲れます。",
+        "romaji": "Usugurai heya de hon o yomu to, me ga tsukaremasu.",
+        "german": "Wenn man in einem schummrigen Zimmer liest, werden die Augen müde."
+      },
+      {
+        "japanese": "五時を過ぎると、外はもう薄暗くなりました。",
+        "romaji": "Goji o sugiru to, soto wa mou usuguraku narimashita.",
+        "german": "Nach fünf Uhr wurde es draußen schon dämmrig."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      4
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@62139807",
+        "patterns": [
+          0,
+          4
+        ],
+        "finding": "薄暗い / ウスグライ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 薄暗い; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "薄暗い",
+          "reading": "うすぐらい",
+          "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+          "sense": "薄暗い as \"dämmrig, schummrig\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:usugurai"
+  },
+  {
+    "word": "絵の具",
+    "reading": "えのぐ",
+    "romaji": "enogu",
+    "meaning": "Malfarbe",
+    "type": "Nomen",
+    "category": "Kunst",
+    "level": "N2",
+    "notes": "Farbe als Malmaterial (Wasser-, Ölfarben), nicht Farbe als Eigenschaft – dafür sagt man 色. Man sagt 絵の具で描く／塗る.",
+    "examples": [
+      {
+        "japanese": "絵の具で空を青く塗りました。",
+        "romaji": "Enogu de sora o aoku nurimashita.",
+        "german": "Ich habe den Himmel mit Farbe blau angemalt."
+      },
+      {
+        "japanese": "娘の誕生日に二十四色の絵の具を買いました。",
+        "romaji": "Musume no tanjoubi ni nijuuyon shoku no enogu o kaimashita.",
+        "german": "Zum Geburtstag meiner Tochter habe ich Malfarben in 24 Tönen gekauft."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70802746",
+        "patterns": [
+          0
+        ],
+        "finding": "絵の具 / エノグ; 名詞/普通名詞/一般/*; *; *; lemma 絵の具; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "絵の具",
+          "reading": "えのぐ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "絵の具 as \"Malfarbe\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:enogu"
+  },
+  {
+    "word": "ぎこちない",
+    "reading": "ぎこちない",
+    "romaji": "gikochinai",
+    "meaning": "unbeholfen, steif, linkisch",
+    "type": "Adjektiv",
+    "category": "Art und Weise",
+    "level": "N2",
+    "notes": "い-Adjektiv für steife, ungeübte Bewegungen oder eine angespannte, unnatürliche Stimmung（ぎこちない会話）. Kein lautmalerisches Wort, obwohl es ähnlich klingt.",
+    "examples": [
+      {
+        "japanese": "初めて着物を着たので、歩き方がぎこちなかったです。",
+        "romaji": "Hajimete kimono o kita node, arukikata ga gikochinakatta desu.",
+        "german": "Weil ich zum ersten Mal einen Kimono trug, war mein Gang unbeholfen."
+      },
+      {
+        "japanese": "けんかの後、二人の会話は少しぎこちなかった。",
+        "romaji": "Kenka no ato, futari no kaiwa wa sukoshi gikochinakatta.",
+        "german": "Nach dem Streit war das Gespräch der beiden etwas steif."
+      }
+    ],
+    "pitch": 4,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109037460",
+        "patterns": [
+          4
+        ],
+        "finding": "ぎこちない / ギコチナイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma ぎこちない; aType 4. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ぎこちない",
+          "reading": "ぎこちない",
+          "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+          "sense": "ぎこちない as \"unbeholfen, steif, linkisch\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:gikochinai"
+  },
+  {
+    "word": "紫",
+    "reading": "むらさき",
+    "romaji": "murasaki",
+    "meaning": "Lila, Violett",
+    "type": "Nomen",
+    "category": "Farben",
+    "level": "N2",
+    "notes": "Farbwort als Nomen: 紫の花, 紫色. In Japan traditionell eine vornehme Farbe. Mischfarbe aus Rot und Blau.",
+    "examples": [
+      {
+        "japanese": "紫の花がきれいに咲いています。",
+        "romaji": "Murasaki no hana ga kirei ni saite imasu.",
+        "german": "Lila Blumen blühen wunderschön."
+      },
+      {
+        "japanese": "赤と青を混ぜると、紫になります。",
+        "romaji": "Aka to ao o mazeru to, murasaki ni narimasu.",
+        "german": "Wenn man Rot und Blau mischt, entsteht Lila."
+      }
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259759947",
+        "patterns": [
+          2
+        ],
+        "finding": "紫 / ムラサキ; 名詞/普通名詞/一般/*; *; *; lemma 紫; aType 2. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "紫",
+          "reading": "むらさき",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "紫 as \"Lila, Violett\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:murasaki"
+  },
+  {
+    "word": "ピンク",
+    "reading": "ピンク",
+    "romaji": "pinku",
+    "meaning": "Rosa, Pink",
+    "type": "Nomen",
+    "category": "Farben",
+    "level": "N2",
+    "notes": "Farbwort als Nomen: ピンクのシャツ, ピンク色. Traditionelle Entsprechung: 桃色（ももいろ）. In manchen Zusammensetzungen deutet ピンク auch Erotisches an.",
+    "examples": [
+      {
+        "japanese": "春になると、ピンクの桜が咲きます。",
+        "romaji": "Haru ni naru to, pinku no sakura ga sakimasu.",
+        "german": "Wenn es Frühling wird, blühen die rosa Kirschblüten."
+      },
+      {
+        "japanese": "姉はピンク色のセーターを着ています。",
+        "romaji": "Ane wa pinkuiro no seetaa o kite imasu.",
+        "german": "Meine ältere Schwester trägt einen rosa Pullover."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230182515",
+        "patterns": [
+          1
+        ],
+        "finding": "ピンク / ピンク; 名詞/普通名詞/一般/*; *; *; lemma ピンク-pink; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ピンク",
+          "reading": "ピンク",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ピンク as \"Rosa, Pink\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:pinku"
   }
 ];

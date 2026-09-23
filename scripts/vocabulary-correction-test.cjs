@@ -51,6 +51,22 @@ assert.equal(merged.items[0].id,b.id);
 assert.equal(loadVocabulary(merged.files).c.resolveVocabularyId(a.id),b.id);
 collision.options.batches[0].merges[0].equivalentSense='';
 assert.throws(()=>prepareCorrections(collision.legacy,collision.options),/Unreviewed sense merge/);
+// A documented retirement may redirect an invalid entry to a related entry with another reading;
+// an undocumented distinct-reading merge is still rejected.
+{
+  const seat={...copy(complete.entries[0]),word:'腰掛',reading:'こしかけ'};delete seat.aliases;
+  seat.pitchProvenance=seat.pitchProvenance.map(e=>({...e,match:{...e.match,word:'腰掛',reading:'こしかけ'}}));
+  const retire=fixture([complete.entries[0],seat],[]);
+  const [x,y]=retire.legacy.items;
+  const ry=reviewFor(y);ry.pitch.evidence=copy(y.pitchProvenance);
+  retire.options.batches[0].reviews=[ry,reviewFor(x)];
+  retire.options.batches[0].merges=[{from:y.id,to:x.id,equivalentSense:'Related seat word.',preservedContent:'Survivor unchanged.',secondPass:'Fixture checked.',
+    evidence:[{source:'Fixture',version:'1',locator:'fixture:retire',finding:'Invalid synthetic entry.'}]}];
+  assert.throws(()=>prepareCorrections(retire.legacy,retire.options),/distinct readings/);
+  retire.options.batches[0].merges[0].retirement={reason:'Synthetic invalid entry',relationship:'Closest related surviving entry'};
+  const out=prepareCorrections(retire.legacy,retire.options);
+  assert.equal(loadVocabulary(out.files).c.resolveVocabularyId(y.id),x.id);
+}
 
 // Separate senses with the same written form and reading remain separate.
 const sense=copy(complete.entries[0]); sense.senseKey='office'; sense.meaning='Amt, Position';

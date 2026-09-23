@@ -1,4 +1,4 @@
-// Idioms & Proverbs / Redewendungen & Sprichwörter Data — 308 entries
+// Idioms & Proverbs / Redewendungen & Sprichwörter Data — 299 source entries (runtime retirements and re-typing live in vocab-correction-rules.js)
 // Types: Redewendung (慣用句), Sprichwort (ことわざ)
 
 window.IDIOMS_DATA = [

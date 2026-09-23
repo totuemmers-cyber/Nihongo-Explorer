@@ -96,7 +96,7 @@ function loadContext() {
   }, []);
   ctx.app.sections.kanji.allItems = []
     .concat(ctx.KANJI_DATA || [])
-    .concat(ctx.KANJI_N1 || []);
+    .concat(ctx.KANJI_N1_DATA || []);
   ctx.app.sections.grammar.allItems = ctx.GRAMMAR_DATA || [];
   return ctx;
 }

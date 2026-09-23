@@ -11,7 +11,7 @@ const grammarFiles = ['grammar-data.js','grammar-n2.js','grammar-n1.js','keigo-d
 const dataFiles = [...grammarFiles,'onomatopoeia-data.js','vocab-n3.js','vocab-n2.js','vocab-n1.js'];
 const scriptFiles = ['edit-content.cjs','build-quiz-review.cjs','grammar-quiz-review.json',
   'onomatopoeia-additions.tsv','onomatopoeia-enrichment.tsv','vocabulary-enrichment.tsv',
-  'grammar-cloze-answers.tsv','grammar-related-aliases.json'];
+  'grammar-cloze-answers.tsv','grammar-related-aliases.json','onomatopoeia-pattern.cjs'];
 const snapshot = () => dataFiles.map(f=>fs.readFileSync(path.join(fixture,f),'utf8'));
 function sources() {
   return grammarFiles.map(f=>{

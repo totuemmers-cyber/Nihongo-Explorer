@@ -70,6 +70,10 @@ under quality-sweep/.
 
 ## Deferred work
 
+> Update 23 September 2026: maintenance batch 021 replaced the duplicate second
+> example of all 59 remaining entries, including the four deferred ones below, with new
+> distinct contexts after pitch/sense adjudication. The sweep record itself is unchanged.
+
 Four sampled duplicate defects remain: 止める (vocab-n5:477), おにぎり
 (vocab-n5:595), 従兄弟 (vocab-n5:698), and こどもの日 (vocab-n4:571). Their required
 acceptance checks need further pitch or sense adjudication. There are **59 exact

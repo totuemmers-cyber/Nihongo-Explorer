@@ -1,0 +1,876 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:682",
+      "revisionId": "023-ndup-vocab-n4-682",
+      "state": "accepted",
+      "predecessorHash": "0900a93b9d6fcb4deb84814a2a8e1a6b96311e9291c580ebc8463457500ed3f8",
+      "predecessorRevisionHash": null,
+      "originalHash": "0900a93b9d6fcb4deb84814a2a8e1a6b96311e9291c580ebc8463457500ed3f8",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "うなじが日焼けしました。",
+            "romaji": "Unaji ga hiyake shimashita.",
+            "german": "Mein Nacken hat Sonnenbrand."
+          },
+          {
+            "japanese": "うなじが日焼けしました。",
+            "romaji": "Unaji ga hiyake shimashita.",
+            "german": "Mein Nacken hat einen Sonnenbrand."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "うなじが日焼けしました。",
+            "romaji": "Unaji ga hiyake shimashita.",
+            "german": "Mein Nacken hat Sonnenbrand."
+          },
+          {
+            "japanese": "髪を上げると、うなじが見えます。",
+            "romaji": "Kami o ageru to, unaji ga miemasu.",
+            "german": "Wenn man die Haare hochsteckt, sieht man den Nacken."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@66565871",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "うなじ",
+              "reading": "うなじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "うなじ as \"Nacken\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1282970; spelling=うなじ; reading=うなじ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "うなじ/うなじ sense(s) 1 match \"Nacken\" and the example contexts.",
+          "selected": {
+            "sequence": "1282970",
+            "spelling": "うなじ",
+            "reading": "うなじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "nape (of the neck)",
+                  "nucha"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:682; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Nacken\" unchanged; checked against JMdict 1282970.",
+        "japanese": "Example 1 (うなじが日焼けしました。) kept; new example 2 (髪を上げると、うなじが見えます。) is grammatical and natural.",
+        "romanization": "New romaji \"Kami o ageru to, unaji ga miemasu.\" follows the N4 file convention.",
+        "translation": "New German \"Wenn man die Haare hochsteckt, sieht man den Nacken.\" is faithful.",
+        "contexts": [
+          "Sunburnt nape.",
+          "Nape visible with hair put up."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@66565871",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "うなじ",
+              "reading": "うなじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "うなじ as \"Nacken\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "3e4e7cdb8d45fa9e404fb3a60e77e19968f4169fa45d88090fec9161f2165bbd",
+        "approvalHash": "92d91c1abe2908b3cc23f982fc2b9b9cbafe1867dfbc82f3d2e54b3514bd0555"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: 髪を上げると、うなじが見えます is distinct from sunburn; pitch 0 verified.",
+        "contentHash": "3e4e7cdb8d45fa9e404fb3a60e77e19968f4169fa45d88090fec9161f2165bbd",
+        "approvalHash": "92d91c1abe2908b3cc23f982fc2b9b9cbafe1867dfbc82f3d2e54b3514bd0555"
+      }
+    },
+    {
+      "id": "vocab-n4:687",
+      "revisionId": "023-ndup-vocab-n4-687",
+      "state": "accepted",
+      "predecessorHash": "75e2bc2cbefd4d4f5902a9d709b76eb00aa7b1667b1f0a058c2ac62eeee2ed24",
+      "predecessorRevisionHash": null,
+      "originalHash": "75e2bc2cbefd4d4f5902a9d709b76eb00aa7b1667b1f0a058c2ac62eeee2ed24",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "枝毛が気になります。",
+            "romaji": "Edage ga ki ni narimasu.",
+            "german": "Mein Spliss stört mich."
+          },
+          {
+            "japanese": "枝毛が気になります。",
+            "romaji": "Edage ga ki ni narimasu.",
+            "german": "Der Spliss stört mich."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "枝毛が気になります。",
+            "romaji": "Edage ga ki ni narimasu.",
+            "german": "Mein Spliss stört mich."
+          },
+          {
+            "japanese": "枝毛を切るために、美容院に行きました。",
+            "romaji": "Edage o kiru tame ni, biyouin ni ikimashita.",
+            "german": "Ich bin zum Friseur gegangen, um mir den Spliss schneiden zu lassen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70539964",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "枝毛",
+              "reading": "えだげ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "枝毛 as \"Spliss\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1624240; spelling=枝毛; reading=えだげ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "枝毛/えだげ sense(s) 1 match \"Spliss\" and the example contexts.",
+          "selected": {
+            "sequence": "1624240",
+            "spelling": "枝毛",
+            "reading": "えだげ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "split end of hair"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:687; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Spliss\" unchanged; checked against JMdict 1624240.",
+        "japanese": "Example 1 (枝毛が気になります。) kept; new example 2 (枝毛を切るために、美容院に行きました。) is grammatical and natural.",
+        "romanization": "New romaji \"Edage o kiru tame ni, biyouin ni ikimashita.\" follows the N4 file convention.",
+        "translation": "New German \"Ich bin zum Friseur gegangen, um mir den Spliss schneiden zu lassen.\" is faithful.",
+        "contexts": [
+          "Being bothered by split ends.",
+          "Going to the hairdresser to cut split ends."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70539964",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "枝毛",
+              "reading": "えだげ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "枝毛 as \"Spliss\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "98cef4e153c929a14a19b84facf53ec88807e8d437803eb1ff3a5f8f72b42c16",
+        "approvalHash": "54a868c2892cb3e3aec24fe2d327c0f89ddabc2a289273dfa3f3abd9a3bf8e2b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: 枝毛を切るために、美容院に行きました (〜ために) is distinct; German \"um mir den Spliss schneiden zu lassen\" idiomatic; pitch 0 verified.",
+        "contentHash": "98cef4e153c929a14a19b84facf53ec88807e8d437803eb1ff3a5f8f72b42c16",
+        "approvalHash": "54a868c2892cb3e3aec24fe2d327c0f89ddabc2a289273dfa3f3abd9a3bf8e2b"
+      }
+    },
+    {
+      "id": "vocab-n4:689",
+      "revisionId": "023-ndup-vocab-n4-689",
+      "state": "accepted",
+      "predecessorHash": "b909cc4118606a87a37f8e775a947194526d27cc800c9c928645a5193e647f4d",
+      "predecessorRevisionHash": null,
+      "originalHash": "b909cc4118606a87a37f8e775a947194526d27cc800c9c928645a5193e647f4d",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "親知らずを抜きました。",
+            "romaji": "Oyashirazu o nukimashita.",
+            "german": "Ich habe mir einen Weisheitszahn ziehen lassen."
+          },
+          {
+            "japanese": "親知らずを抜きました。",
+            "romaji": "Oyashirazu o nukimashita.",
+            "german": "Mir wurde ein Weisheitszahn gezogen."
+          }
+        ],
+        "pitch": 4
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "親知らずを抜きました。",
+            "romaji": "Oyashirazu o nukimashita.",
+            "german": "Ich habe mir einen Weisheitszahn ziehen lassen."
+          },
+          {
+            "japanese": "親知らずが生えてきて、少し痛いです。",
+            "romaji": "Oyashirazu ga haete kite, sukoshi itai desu.",
+            "german": "Mein Weisheitszahn kommt durch und tut ein bisschen weh."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1365280; spelling=親知らず; reading=おやしらず; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "親知らず/おやしらず sense(s) 1 match \"Weisheitszahn\" and the example contexts.",
+          "selected": {
+            "sequence": "1365280",
+            "spelling": "親知らず",
+            "reading": "おやしらず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wisdom tooth"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:689; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Weisheitszahn\" unchanged; checked against JMdict 1365280.",
+        "japanese": "Example 1 (親知らずを抜きました。) kept; new example 2 (親知らずが生えてきて、少し痛いです。) is grammatical and natural.",
+        "romanization": "New romaji \"Oyashirazu ga haete kite, sukoshi itai desu.\" follows the N4 file convention.",
+        "translation": "New German \"Mein Weisheitszahn kommt durch und tut ein bisschen weh.\" is faithful.",
+        "contexts": [
+          "Having a wisdom tooth pulled.",
+          "A wisdom tooth coming in."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 親知らず / おやしらず; previous 4 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 親知らず / おやしらず",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+        "contentHash": "793002909beeb60f0510e066e88b44607771ca3b5e52485a3459b86034170cb2",
+        "approvalHash": "a584a6d5a11769ef6274d7ff639c57a33cacc775ee0a15af1b97c1ba218dcdd3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: 親知らずが生えてきて、少し痛いです is distinct from extraction; the only オヤシラズ row is a proper noun, so 4 -> null is correct.",
+        "contentHash": "793002909beeb60f0510e066e88b44607771ca3b5e52485a3459b86034170cb2",
+        "approvalHash": "a584a6d5a11769ef6274d7ff639c57a33cacc775ee0a15af1b97c1ba218dcdd3"
+      }
+    },
+    {
+      "id": "vocab-n4:1111",
+      "revisionId": "023-ndup-vocab-n4-1111",
+      "state": "accepted",
+      "predecessorHash": "8ec9a7c0a09adfeb322cebe5469ed4b2a9f54a04af9489cb8c79e67930d02392",
+      "predecessorRevisionHash": null,
+      "originalHash": "8ec9a7c0a09adfeb322cebe5469ed4b2a9f54a04af9489cb8c79e67930d02392",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "赤ちゃんの泣き声が聞こえます。",
+            "romaji": "Akachan no nakigoe ga kikoemasu.",
+            "german": "Ich kann ein Baby weinen hören."
+          },
+          {
+            "japanese": "赤ちゃんの泣き声が聞こえます。",
+            "romaji": "Akachan no nakigoe ga kikoemasu.",
+            "german": "Ich höre das Weinen des Babys."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "赤ちゃんの泣き声が聞こえます。",
+            "romaji": "Akachan no nakigoe ga kikoemasu.",
+            "german": "Ich kann ein Baby weinen hören."
+          },
+          {
+            "japanese": "隣の部屋から泣き声がして、心配になりました。",
+            "romaji": "Tonari no heya kara nakigoe ga shite, shinpai ni narimashita.",
+            "german": "Aus dem Nebenzimmer kam Weinen, und ich machte mir Sorgen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@195089307",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "泣き声",
+              "reading": "なきごえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "泣き声 as \"Weinen\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1229730; spelling=泣き声; reading=なきごえ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "泣き声/なきごえ sense(s) 1 match \"Weinen\" and the example contexts.",
+          "selected": {
+            "sequence": "1229730",
+            "spelling": "泣き声",
+            "reading": "なきごえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cry (e.g. of a baby)",
+                  "sob",
+                  "whine"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:1111; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Weinen\" unchanged; checked against JMdict 1229730.",
+        "japanese": "Example 1 (赤ちゃんの泣き声が聞こえます。) kept; new example 2 (隣の部屋から泣き声がして、心配になりました。) is grammatical and natural.",
+        "romanization": "New romaji \"Tonari no heya kara nakigoe ga shite, shinpai ni narimashita.\" follows the N4 file convention.",
+        "translation": "New German \"Aus dem Nebenzimmer kam Weinen, und ich machte mir Sorgen.\" is faithful.",
+        "contexts": [
+          "Hearing a baby cry.",
+          "Crying heard from the next room (声がする)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@195089307",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "泣き声",
+              "reading": "なきごえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "泣き声 as \"Weinen\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "05ab3fa9634d531dbf2e379737d2d53841ce19475aea057789b4f249709955c8",
+        "approvalHash": "d77c8d47eaaf21cb559775df62f72d08005e7dc8cb84d812e3e4b330a7ec5fe2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: 隣の部屋から泣き声がして、心配になりました (声がする) is distinct; pitch 3 attested (aType 3,0).",
+        "contentHash": "05ab3fa9634d531dbf2e379737d2d53841ce19475aea057789b4f249709955c8",
+        "approvalHash": "d77c8d47eaaf21cb559775df62f72d08005e7dc8cb84d812e3e4b330a7ec5fe2"
+      }
+    },
+    {
+      "id": "vocab-n4:1134",
+      "revisionId": "023-ndup-vocab-n4-1134",
+      "state": "accepted",
+      "predecessorHash": "b1c1f8c5146f23bcd1d43a528852e0ef618a5a1364925de4050d9f09b4f75821",
+      "predecessorRevisionHash": null,
+      "originalHash": "b1c1f8c5146f23bcd1d43a528852e0ef618a5a1364925de4050d9f09b4f75821",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "彼は常に笑顔です。",
+            "romaji": "Kare wa tsuneni egao desu.",
+            "german": "Er lächelt immer."
+          },
+          {
+            "japanese": "彼は常に笑顔です。",
+            "romaji": "Kare wa tsuneni egao desu.",
+            "german": "Er lächelt ständig."
+          }
+        ],
+        "pitch": 1
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "彼は常に笑顔です。",
+            "romaji": "Kare wa tsuneni egao desu.",
+            "german": "Er lächelt immer."
+          },
+          {
+            "japanese": "運転中は常に安全に注意してください。",
+            "romaji": "Unten-chuu wa tsuneni anzen ni chuui shite kudasai.",
+            "german": "Achten Sie beim Fahren stets auf die Sicherheit."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1355970; spelling=常に; reading=つねに; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "常に/つねに sense(s) 1 match \"ständig\" and the example contexts.",
+          "selected": {
+            "sequence": "1355970",
+            "spelling": "常に",
+            "reading": "つねに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "always",
+                  "constantly",
+                  "at all times",
+                  "habitually"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:1134; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"ständig\" unchanged; checked against JMdict 1355970.",
+        "japanese": "Example 1 (彼は常に笑顔です。) kept; new example 2 (運転中は常に安全に注意してください。) is grammatical and natural.",
+        "romanization": "New romaji \"Unten-chuu wa tsuneni anzen ni chuui shite kudasai.\" follows the N4 file convention.",
+        "translation": "New German \"Achten Sie beim Fahren stets auf die Sicherheit.\" is faithful.",
+        "contexts": [
+          "Someone always smiling.",
+          "Instruction to always be careful while driving."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 常に / つねに; previous 1 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 常に / つねに",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+        "contentHash": "1c565bd1a91d729a4983682ca6c6f0d6e78bf632ecd37cf905097012684c5bde",
+        "approvalHash": "f00bf45cfb59736e7bca7677f7d9c2b45b57d65d128bc066228ae37668a20ea7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: 運転中は常に安全に注意してください (Unten-chuu) is a distinct instruction context; no ツネニ row in UniDic (verified by kana scan), so 1 -> null is required.",
+        "contentHash": "1c565bd1a91d729a4983682ca6c6f0d6e78bf632ecd37cf905097012684c5bde",
+        "approvalHash": "f00bf45cfb59736e7bca7677f7d9c2b45b57d65d128bc066228ae37668a20ea7"
+      }
+    },
+    {
+      "id": "vocab-n4:1334",
+      "revisionId": "023-ndup-vocab-n4-1334",
+      "state": "accepted",
+      "predecessorHash": "5181f652bdbe0a54bf7979c37f324e64c92e4ed9d94caeb5f34221883e5e36ac",
+      "predecessorRevisionHash": null,
+      "originalHash": "5181f652bdbe0a54bf7979c37f324e64c92e4ed9d94caeb5f34221883e5e36ac",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "留守番電話にメッセージを残しました。",
+            "romaji": "Rusuban denwa ni messeeji o nokoshimashita.",
+            "german": "Ich habe eine Nachricht auf dem Anrufbeantworter hinterlassen."
+          },
+          {
+            "japanese": "留守番電話にメッセージを残しました。",
+            "romaji": "Rusubandenwa ni messeeji o nokoshimashita.",
+            "german": "Ich habe eine Nachricht auf dem Anrufbeantworter hinterlassen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "留守番電話にメッセージを残しました。",
+            "romaji": "Rusuban denwa ni messeeji o nokoshimashita.",
+            "german": "Ich habe eine Nachricht auf dem Anrufbeantworter hinterlassen."
+          },
+          {
+            "japanese": "電話に出られないときは、留守番電話にしています。",
+            "romaji": "Denwa ni derarenai toki wa, rusuban denwa ni shite imasu.",
+            "german": "Wenn ich nicht ans Telefon gehen kann, schalte ich den Anrufbeantworter ein."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1552810; spelling=留守番電話; reading=るすばんでんわ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "留守番電話/るすばんでんわ sense(s) 1 match \"Anrufbeantworter\" and the example contexts.",
+          "selected": {
+            "sequence": "1552810",
+            "spelling": "留守番電話",
+            "reading": "るすばんでんわ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "answering machine",
+                  "answerphone"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:1334; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Anrufbeantworter\" unchanged; checked against JMdict 1552810.",
+        "japanese": "Example 1 (留守番電話にメッセージを残しました。) kept; new example 2 (電話に出られないときは、留守番電話にしています。) is grammatical and natural.",
+        "romanization": "New romaji \"Denwa ni derarenai toki wa, rusuban denwa ni shite imasu.\" follows the N4 file convention.",
+        "translation": "New German \"Wenn ich nicht ans Telefon gehen kann, schalte ich den Anrufbeantworter ein.\" is faithful.",
+        "contexts": [
+          "Leaving a message on an answering machine.",
+          "Switching on the answering machine."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 留守番電話 / るすばんでんわ; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 留守番電話 / るすばんでんわ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+        "contentHash": "a6b2b9378b18bf722a0688f2fe88a74f9b2c3eab5218fd18468f6f580bd7d1c0",
+        "approvalHash": "c222003157d53ebbd03509057bc2bfeb83b54157f759f28d480ed6287c528d61"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: 電話に出られないときは、留守番電話にしています (留守番電話にする = switch on) is distinct from leaving a message; no ルスバンデンワ row (verified), so 0 -> null correct.",
+        "contentHash": "a6b2b9378b18bf722a0688f2fe88a74f9b2c3eab5218fd18468f6f580bd7d1c0",
+        "approvalHash": "c222003157d53ebbd03509057bc2bfeb83b54157f759f28d480ed6287c528d61"
+      }
+    }
+  ],
+  "decisions": []
+}

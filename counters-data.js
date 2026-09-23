@@ -2253,7 +2253,7 @@ window.COUNTERS_DATA = {
       reading: 'るい',
       romaji: 'rui',
       meaning: 'Bases (Baseball)',
-      usage: 'Bases im Baseball',
+      usage: 'Benennt die Bases im Baseball (一塁 = erste Base) und zählt überlaufene Bases bei Treffern (二塁打 = Double)',
       category: 'Ereignisse',
       level: 'N1',
       questionWord: { kanji: '何塁', reading: 'なんるい', romaji: 'nanrui' },
@@ -3362,12 +3362,12 @@ window.COUNTERS_DATA = {
       usage: 'Zimmer in Hotels, Wohnungen (informeller als 室)',
       category: 'Gebäude & Räume',
       level: 'N4',
-      questionWord: { kanji: '何部屋', reading: 'なんべや', romaji: 'nanbeya' },
+      questionWord: { kanji: '何部屋', reading: 'なんへや', romaji: 'nanheya' },
       counts: [
         { num: 1, kanji: '一部屋', reading: 'ひとへや', romaji: 'hitoheya', shift: true },
         { num: 2, kanji: '二部屋', reading: 'ふたへや', romaji: 'futaheya', shift: true },
-        { num: 3, kanji: '三部屋', reading: 'さんべや', romaji: 'sanbeya', shift: false },
-        { num: 4, kanji: '四部屋', reading: 'よんべや', romaji: 'yonbeya', shift: false },
+        { num: 3, kanji: '三部屋', reading: 'さんへや', romaji: 'sanheya', shift: false },
+        { num: 4, kanji: '四部屋', reading: 'よんへや', romaji: 'yonheya', shift: false },
         { num: 5, kanji: '五部屋', reading: 'ごへや', romaji: 'goheya', shift: false },
         { num: 6, kanji: '六部屋', reading: 'ろくへや', romaji: 'rokuheya', shift: false },
         { num: 7, kanji: '七部屋', reading: 'ななへや', romaji: 'nanaheya', shift: false },
@@ -3377,10 +3377,10 @@ window.COUNTERS_DATA = {
       ],
       specialCounts: [],
       examples: [
-        { japanese: 'このマンションは三部屋あります。', romaji: 'Kono manshon wa sanbeya arimasu.', german: 'Diese Wohnung hat drei Zimmer.' },
+        { japanese: 'このマンションは三部屋あります。', romaji: 'Kono manshon wa sanheya arimasu.', german: 'Diese Wohnung hat drei Zimmer.' },
         { japanese: '一部屋空いていますか。', romaji: 'Hitoheya aite imasu ka.', german: 'Ist ein Zimmer frei?' }
       ],
-      notes: '1 und 2 verwenden die kun-Lesungen ひとへや und ふたへや. Informeller als 室. Im Sumo bedeutet 部屋 einen Trainingsverein/Stall.'
+      notes: '1 und 2 verwenden die kun-Lesungen ひとへや und ふたへや; für 3 hört man neben さんへや auch das traditionelle みへや. へや wird nicht zu べや stimmhaft. Informeller als 室. Im Sumo bedeutet 部屋 einen Trainingsverein/Stall.'
     },
 
     // ===== OBJEKTE (Fortsetzung) =====
@@ -3474,35 +3474,6 @@ window.COUNTERS_DATA = {
 
     // ===== WEITERE NEUE EINTRÄGE =====
     {
-      id: 'jou-lock',
-      kanji: '錠',
-      reading: 'じょう',
-      romaji: 'jō',
-      meaning: 'Schlösser',
-      usage: 'Türschlösser, Vorhängeschlösser',
-      category: 'Objekte',
-      level: 'N2',
-      questionWord: { kanji: '何錠', reading: 'なんじょう', romaji: 'nanjō' },
-      counts: [
-        { num: 1, kanji: '一錠', reading: 'いちじょう', romaji: 'ichijō', shift: false },
-        { num: 2, kanji: '二錠', reading: 'にじょう', romaji: 'nijō', shift: false },
-        { num: 3, kanji: '三錠', reading: 'さんじょう', romaji: 'sanjō', shift: false },
-        { num: 4, kanji: '四錠', reading: 'よんじょう', romaji: 'yonjō', shift: false },
-        { num: 5, kanji: '五錠', reading: 'ごじょう', romaji: 'gojō', shift: false },
-        { num: 6, kanji: '六錠', reading: 'ろくじょう', romaji: 'rokujō', shift: false },
-        { num: 7, kanji: '七錠', reading: 'ななじょう', romaji: 'nanajō', shift: false },
-        { num: 8, kanji: '八錠', reading: 'はちじょう', romaji: 'hachijō', shift: false },
-        { num: 9, kanji: '九錠', reading: 'きゅうじょう', romaji: 'kyūjō', shift: false },
-        { num: 10, kanji: '十錠', reading: 'じゅうじょう', romaji: 'jūjō', shift: false }
-      ],
-      specialCounts: [],
-      examples: [
-        { japanese: 'ドアに鍵を二錠かけました。', romaji: 'Doa ni kagi o nijō kakemashita.', german: 'Ich habe zwei Schlösser an der Tür abgeschlossen.' },
-        { japanese: '自転車に一錠つけています。', romaji: 'Jitensha ni ichijō tsukete imasu.', german: 'Am Fahrrad habe ich ein Schloss.' }
-      ],
-      notes: 'Gleiche Lesung wie 錠 für Tabletten, aber hier für Schlösser. Der Kontext klärt die Bedeutung.'
-    },
-    {
       id: 'sao-pole',
       kanji: '竿',
       reading: 'さお',
@@ -3561,35 +3532,6 @@ window.COUNTERS_DATA = {
       notes: '一対 (いっつい) = ein zusammengehöriges Paar. Anders als 組 (Set/Gruppe) betont 対 die symmetrische Paarung.'
     },
     {
-      id: 'ketsu-blood',
-      kanji: '滴',
-      reading: 'てき',
-      romaji: 'teki',
-      meaning: 'Tropfen (Infusion)',
-      usage: 'Infusionstropfen, Bluttropfen (medizinisch)',
-      category: 'Medizin',
-      level: 'N2',
-      questionWord: { kanji: '何滴', reading: 'なんてき', romaji: 'nanteki' },
-      counts: [
-        { num: 1, kanji: '一滴', reading: 'いってき', romaji: 'itteki', shift: true },
-        { num: 2, kanji: '二滴', reading: 'にてき', romaji: 'niteki', shift: false },
-        { num: 3, kanji: '三滴', reading: 'さんてき', romaji: 'santeki', shift: false },
-        { num: 4, kanji: '四滴', reading: 'よんてき', romaji: 'yonteki', shift: false },
-        { num: 5, kanji: '五滴', reading: 'ごてき', romaji: 'goteki', shift: false },
-        { num: 6, kanji: '六滴', reading: 'ろくてき', romaji: 'rokuteki', shift: false },
-        { num: 7, kanji: '七滴', reading: 'ななてき', romaji: 'nanateki', shift: false },
-        { num: 8, kanji: '八滴', reading: 'はってき', romaji: 'hatteki', shift: true },
-        { num: 9, kanji: '九滴', reading: 'きゅうてき', romaji: 'kyūteki', shift: false },
-        { num: 10, kanji: '十滴', reading: 'じゅってき', romaji: 'jutteki', shift: true }
-      ],
-      specialCounts: [],
-      examples: [
-        { japanese: '点滴を一滴ずつ落としています。', romaji: 'Tenteki o itteki zutsu otoshite imasu.', german: 'Die Infusion tropft Tropfen für Tropfen.' },
-        { japanese: '血液を一滴採取しました。', romaji: 'Ketsueki o itteki saishu shimashita.', german: 'Ein Tropfen Blut wurde entnommen.' }
-      ],
-      notes: '点滴 (てんてき) = Infusion. Gleicher Zähler wie 滴 für Augentropfen, hier im Kontext von Infusionen und Blutentnahme.'
-    },
-    {
       id: 'kago-basket',
       kanji: '籠',
       reading: 'かご',
@@ -3617,35 +3559,6 @@ window.COUNTERS_DATA = {
         { japanese: '洗濯物が一籠たまっています。', romaji: 'Sentakumono ga hitokago tamatte imasu.', german: 'Ein Korb Wäsche hat sich angesammelt.' }
       ],
       notes: '1 und 2 verwenden die kun-Lesungen ひとかご und ふたかご. Wird für Körbe mit Inhalt verwendet.'
-    },
-    {
-      id: 'rin-dose',
-      kanji: '輪',
-      reading: 'りん',
-      romaji: 'rin',
-      meaning: 'Ringe, Kreise',
-      usage: 'Ringe, Kränze, Kreise (z.B. Olympische Ringe)',
-      category: 'Objekte',
-      level: 'N2',
-      questionWord: { kanji: '何輪', reading: 'なんりん', romaji: 'nanrin' },
-      counts: [
-        { num: 1, kanji: '一輪', reading: 'いちりん', romaji: 'ichirin', shift: false },
-        { num: 2, kanji: '二輪', reading: 'にりん', romaji: 'nirin', shift: false },
-        { num: 3, kanji: '三輪', reading: 'さんりん', romaji: 'sanrin', shift: false },
-        { num: 4, kanji: '四輪', reading: 'よんりん', romaji: 'yonrin', shift: false },
-        { num: 5, kanji: '五輪', reading: 'ごりん', romaji: 'gorin', shift: false },
-        { num: 6, kanji: '六輪', reading: 'ろくりん', romaji: 'rokurin', shift: false },
-        { num: 7, kanji: '七輪', reading: 'ななりん', romaji: 'nanarin', shift: false },
-        { num: 8, kanji: '八輪', reading: 'はちりん', romaji: 'hachirin', shift: false },
-        { num: 9, kanji: '九輪', reading: 'きゅうりん', romaji: 'kyūrin', shift: false },
-        { num: 10, kanji: '十輪', reading: 'じゅうりん', romaji: 'jūrin', shift: false }
-      ],
-      specialCounts: [],
-      examples: [
-        { japanese: '結婚指輪を一輪もらいました。', romaji: 'Kekkon yubiwa o ichirin moraimashita.', german: 'Ich habe einen Ehering bekommen.' },
-        { japanese: '一輪車に乗れますか。', romaji: 'Ichirinsha ni noremasu ka.', german: 'Können Sie Einrad fahren?' }
-      ],
-      notes: '一輪車 (いちりんしゃ) = Einrad, 二輪車 (にりんしゃ) = Motorrad, 四輪車 (よんりんしゃ) = Auto. 輪 wird sowohl für Blumen als auch für Räder und Ringe verwendet.'
     },
     {
       id: 'jikan-lesson',
@@ -3735,64 +3648,6 @@ window.COUNTERS_DATA = {
         { japanese: '三港を巡るクルーズです。', romaji: 'Sankō o meguru kurūzu desu.', german: 'Es ist eine Kreuzfahrt mit Anläufen in drei Häfen.' }
       ],
       notes: 'Wird für Häfen (港) und auch für Flughäfen (空港) verwendet. 五港 (ごこう) ist historisch bekannt als die fünf Vertragshäfen der Meiji-Zeit.'
-    },
-    {
-      id: 'cho-bill',
-      kanji: '帳',
-      reading: 'ちょう',
-      romaji: 'chō',
-      meaning: 'Notizbücher, Hefte',
-      usage: 'Notizbücher, Kontobücher, Adressbücher',
-      category: 'Objekte',
-      level: 'N3',
-      questionWord: { kanji: '何帳', reading: 'なんちょう', romaji: 'nanchō' },
-      counts: [
-        { num: 1, kanji: '一帳', reading: 'いっちょう', romaji: 'itchō', shift: true },
-        { num: 2, kanji: '二帳', reading: 'にちょう', romaji: 'nichō', shift: false },
-        { num: 3, kanji: '三帳', reading: 'さんちょう', romaji: 'sanchō', shift: false },
-        { num: 4, kanji: '四帳', reading: 'よんちょう', romaji: 'yonchō', shift: false },
-        { num: 5, kanji: '五帳', reading: 'ごちょう', romaji: 'gochō', shift: false },
-        { num: 6, kanji: '六帳', reading: 'ろくちょう', romaji: 'rokuchō', shift: false },
-        { num: 7, kanji: '七帳', reading: 'ななちょう', romaji: 'nanachō', shift: false },
-        { num: 8, kanji: '八帳', reading: 'はっちょう', romaji: 'hatchō', shift: true },
-        { num: 9, kanji: '九帳', reading: 'きゅうちょう', romaji: 'kyūchō', shift: false },
-        { num: 10, kanji: '十帳', reading: 'じゅっちょう', romaji: 'jutchō', shift: true }
-      ],
-      specialCounts: [],
-      examples: [
-        { japanese: '通帳を二帳持っています。', romaji: 'Tsūchō o nichō motte imasu.', german: 'Ich habe zwei Bankbücher.' },
-        { japanese: '手帳を一帳買いました。', romaji: 'Techō o itchō kaimashita.', german: 'Ich habe ein Notizbuch gekauft.' }
-      ],
-      notes: '通帳 (つうちょう) = Bankbuch, 手帳 (てちょう) = Notizbuch/Terminplaner, 帳面 (ちょうめん) = Heft.'
-    },
-    {
-      id: 'haba-width',
-      kanji: '泊',
-      reading: 'はく',
-      romaji: 'haku',
-      meaning: 'Ankerplätze',
-      usage: 'Schiffsankerplätze, Anlegestellen',
-      category: 'Transport',
-      level: 'N1',
-      questionWord: { kanji: '何泊', reading: 'なんぱく', romaji: 'nanpaku' },
-      counts: [
-        { num: 1, kanji: '一泊', reading: 'いっぱく', romaji: 'ippaku', shift: true },
-        { num: 2, kanji: '二泊', reading: 'にはく', romaji: 'nihaku', shift: false },
-        { num: 3, kanji: '三泊', reading: 'さんぱく', romaji: 'sanpaku', shift: true },
-        { num: 4, kanji: '四泊', reading: 'よんはく', romaji: 'yonhaku', shift: false },
-        { num: 5, kanji: '五泊', reading: 'ごはく', romaji: 'gohaku', shift: false },
-        { num: 6, kanji: '六泊', reading: 'ろっぱく', romaji: 'roppaku', shift: true },
-        { num: 7, kanji: '七泊', reading: 'ななはく', romaji: 'nanahaku', shift: false },
-        { num: 8, kanji: '八泊', reading: 'はっぱく', romaji: 'happaku', shift: true },
-        { num: 9, kanji: '九泊', reading: 'きゅうはく', romaji: 'kyūhaku', shift: false },
-        { num: 10, kanji: '十泊', reading: 'じゅっぱく', romaji: 'juppaku', shift: true }
-      ],
-      specialCounts: [],
-      examples: [
-        { japanese: 'クルーズ船が三泊寄港します。', romaji: 'Kurūzu-sen ga sanpaku kikō shimasu.', german: 'Das Kreuzfahrtschiff legt drei Mal an.' },
-        { japanese: '長期間の船旅で何泊もしました。', romaji: 'Chōkikan no funatabi de nanpaku mo shimashita.', german: 'Bei der langen Schiffsreise haben wir viele Nächte verbracht.' }
-      ],
-      notes: 'Gleicher Zähler wie 泊 für Hotelübernachtungen, hier im Kontext der Schifffahrt für Ankerplätze.'
     },
     {
       id: 'tsu-island',

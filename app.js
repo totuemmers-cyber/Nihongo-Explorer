@@ -1060,6 +1060,47 @@
     return section;
   }
 
+  // Small characters and marks: one row per sign with its function and playable example words.
+  function createKanaSpecialSection(items, mode) {
+    var section = createKanaSection('Kleine Zeichen & Sonderzeichen', mode === 'katakana' ? 'ッ' : 'っ', [], mode, [], false);
+    var table = document.createElement('table');
+    table.className = 'kana-special-table';
+    var tbody = document.createElement('tbody');
+    items.forEach(function (item) {
+      var tr = document.createElement('tr');
+      var charCell = document.createElement('td');
+      charCell.className = 'kana-special-char';
+      charCell.textContent = mode === 'hiragana' ? item.h : item.k;
+      tr.appendChild(charCell);
+      var infoCell = document.createElement('td');
+      var name = document.createElement('strong');
+      name.textContent = item.name;
+      var note = document.createElement('p');
+      note.textContent = item.note;
+      infoCell.appendChild(name);
+      infoCell.appendChild(note);
+      item.examples.forEach(function (ex) {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'kana-special-example';
+        btn.setAttribute('aria-label', ex.word + ' · ' + ex.romaji + ' anhören');
+        btn.textContent = ex.word + ' (' + ex.romaji + ') – ' + ex.german;
+        btn.addEventListener('click', function () {
+          playTick();
+          speakJP(ex.word);
+        });
+        infoCell.appendChild(btn);
+      });
+      tr.appendChild(infoCell);
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    var wrapper = section.querySelector('.kana-table-wrapper');
+    wrapper.innerHTML = '';
+    wrapper.appendChild(table);
+    return section;
+  }
+
   var _lastKanaMode = null;
 
   function renderKana() {
@@ -1084,6 +1125,12 @@
 
     var yoonIcon = mode === 'katakana' ? '\u30AD\u30E3' : '\u304D\u3083';
     container.appendChild(createKanaSection('Kombinationen (Y\u014don)', yoonIcon, data.yoon, mode, yoonHeaders, true));
+
+    // Loanword sounds only exist as katakana conventions.
+    if (mode === 'katakana' && data.extended) {
+      container.appendChild(createKanaSection('Erweiterte Katakana (Lehnw\u00f6rter)', '\u30d5\u30a1', data.extended, mode, vowelHeaders, false));
+    }
+    if (data.special) container.appendChild(createKanaSpecialSection(data.special, mode));
   }
 
   // Kana toggle buttons

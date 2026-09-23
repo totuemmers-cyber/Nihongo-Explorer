@@ -345,7 +345,7 @@ async function run() {
   // Merged script variants retain bookmarks, and thematic filters expose secondary senses.
   window.localStorage.setItem('bookmarks-onomatopoeia', JSON.stringify(['onomatopoeia:315']));
   click(document.querySelector('[data-tab="onomatopoeia"]'), window);
-  await waitFor(function () { return window.app.sections.onomatopoeia.allItems.length === 350; }, { description: 'expanded onomatopoeia' });
+  await waitFor(function () { return window.app.sections.onomatopoeia.allItems.length === 344; }, { description: 'expanded onomatopoeia' });
   const onoSection = window.app.sections.onomatopoeia;
   const mergedOno = onoSection.allItems.find(function (o) { return (o.legacyIds || []).includes('onomatopoeia:315'); });
   assert(mergedOno && window.isBookmarked('onomatopoeia', mergedOno.id), 'Merged spelling lost its bookmark');

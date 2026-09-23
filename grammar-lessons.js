@@ -6170,7 +6170,7 @@
     "grammarIds": [
       "n1-gatera",
       "n1-katagata",
-      "n1-tomonaku2"
+      "n1-tomonaku-tomonashini"
     ],
     "intro": "Nicht jede beiläufige Handlung funktioniert gleich. がてら verbindet Zwecke, かたがた nennt einen förmlichen Anlass, und ともなく beschreibt eine Handlung ohne klare Absicht.",
     "sections": [
@@ -6232,12 +6232,11 @@
     "n4-wake-ni-ikanai"
   ],
   "lesson-45": [
-    "n3-kaneru",
-    "n3-kanenai"
+    "n2-kaneru"
   ],
   "lesson-46": [
     "n2-ni-hoka-naranai",
-    "n3-ni-suginai"
+    "n2-ni-suginai"
   ],
   "lesson-47": [
     "n1-tari-tomo-nai",
@@ -6276,7 +6275,7 @@
     "n1-ni-katakunai"
   ],
   "lesson-55": [
-    "n1-ta-ga-saigo",
+    "n1-ga-saigo-tara-saigo",
     "n1-ya-inaya",
     "n1-nari"
   ],
@@ -6295,6 +6294,7 @@
     if (reviewedLessonPatterns[lesson.id]) lesson.grammarIds = reviewedLessonPatterns[lesson.id];
   });
   // END REVIEWED ADVANCED LESSONS
+
 
   var LEVEL_DISPLAY_INDEX = {};
   LEVEL_DISPLAY_ORDER.forEach(function (level, index) {

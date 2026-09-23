@@ -22,7 +22,8 @@ const decisionContent = d => ({key:d.key,referenceIndex:d.referenceIndex,referen
   disposition:d.disposition,targets:d.targets,targetHashes:d.targetHashes,reason:d.reason,evidence:d.evidence,policy:d.policy});
 const decisionHash = d => hash(decisionContent(d));
 const mergeHash = m => hash({from:m.from,to:m.to,fromHash:m.fromHash,toHash:m.toHash,
-  equivalentSense:m.equivalentSense,preservedContent:m.preservedContent,evidence:m.evidence,policy:m.policy});
+  equivalentSense:m.equivalentSense,preservedContent:m.preservedContent,evidence:m.evidence,policy:m.policy,
+  ...(m.retirement?{retirement:m.retirement}:{})});
 function evidence(rows) {
   assert(Array.isArray(rows) && rows.length,'Missing research evidence');
   for (const r of rows) for (const f of ['source','version','locator','finding']) assert(text(r[f]),'Missing research '+f);

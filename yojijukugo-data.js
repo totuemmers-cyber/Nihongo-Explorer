@@ -1,4 +1,4 @@
-// Yojijukugo (四字熟語) Data — 249 entries
+// Yojijukugo (四字熟語) Data — 242 source entries (runtime retirements and re-typing live in vocab-correction-rules.js)
 // Categories: Lebensweisheit, Charakter, Handlung, Natur, Gefühle, Beziehungen, Erfolg
 
 window.YOJIJUKUGO_DATA = [

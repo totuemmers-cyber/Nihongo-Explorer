@@ -15,7 +15,13 @@ for(const k of kanji){
   // The stated count must match the strokes the diagram animates (KanjiVG -sN or AnimCJK dN ids).
   const drawn=new Set(Array.from(svg.matchAll(svg.includes('kvg:')?/id="kvg:[0-9a-f]+-s(\d+)"/g:/id="z\d+d(\d+)[a-z]?"/g),m=>m[1])).size;
   assert.equal(k.strokes,drawn,'Stroke count differs from its diagram: '+k.kanji);
+  for(const e of k.examples)assert(e.word.includes(k.kanji),'Example word lacks its kanji: '+k.kanji+' '+e.word);
 }
+// Radical examples are Japanese kanji: either in the kanji data or a known Japanese character
+// without its own entry (never simplified or traditional Chinese forms such as 军 or 體).
+const kanjiChars=new Set(kanji.map(k=>k.kanji));
+const RADICAL_EXAMPLES_WITHOUT_ENTRY=new Set([...'函尖尤尨巳巴辰鞍麹']);
+for(const r of c.KANGXI_RADICALS)for(const ex of r.examples)assert(kanjiChars.has(ex)||RADICAL_EXAMPLES_WITHOUT_ENTRY.has(ex),'Radical example is not a Japanese kanji entry: '+r.radical+' '+ex);
 // Jōyō coverage against KANJIDIC2 (scripts/joyo-kanji.json). The 2010 table permits these
 // tolerated forms (許容字体); the data uses them for the listed official glyphs.
 const joyo=JSON.parse(fs.readFileSync(path.join(__dirname,'joyo-kanji.json'),'utf8'));
@@ -47,6 +53,17 @@ for(const g of c.GRAMMAR_DATA){
   assert(!patternOwners.has(patternKey(g)),'Duplicate grammar pattern: '+g.id+' repeats '+patternOwners.get(patternKey(g)));
   patternOwners.set(patternKey(g),g.id);
 }
+// A variant taught by two entries (at any level) is a duplicate unless it is one of these deliberate
+// contrasts: particle vs. verb form, comparison cards, the keigo lens, or unrelated patterns (つつ vs. ～つ～つ).
+const SHARED_VARIANTS={'で':'de,te-form','や':'n1-ya,ya','後で':'ato-de,n4-ato-de','てから':'n4-ato-de,te-kara','ないで':'n4-zu-ni,naide',
+  'でしょう':'deshou,n4-daroo','られる':'n4-potential,n4-rareru','なら':'n4-adj-ba,n4-nara','ていただけませんか':'keigo-teinei-itadakemasenka,n4-te-itadakemasenka',
+  'つつ':'n1-tsu-tsu,n3-tsutsu','お':'keigo-bikago-obi,keigo-bikago-prefix-rules,keigo-teinei-goitadaku'};
+const variantOwners=new Map();
+for(const g of c.GRAMMAR_DATA)for(const v of norm(g.pattern).replace(/[～〜~\s()（）]/g,'').split(/[/／]/).filter(Boolean)){
+  if(!variantOwners.has(v))variantOwners.set(v,new Set());
+  variantOwners.get(v).add(g.id);
+}
+for(const [v,owners] of variantOwners)if(owners.size>1)assert.equal([...owners].sort().join(','),SHARED_VARIANTS[v],'Grammar variant '+v+' taught twice: '+[...owners].join(', '));
 const legacyGrammarIds=c.GRAMMAR_DATA.flatMap(g=>g.legacyIds||[]);
 assert.equal(new Set(legacyGrammarIds).size,legacyGrammarIds.length,'Legacy grammar id claimed twice');
 for(const id of legacyGrammarIds)assert(!grammarIds.has(id),'Legacy grammar id is still live: '+id);
@@ -68,6 +85,9 @@ vm.runInNewContext(app.slice(app.indexOf('  var INTENTIONAL_VOCAB_OVERLAP_KEYS')
 const vocab=c.mergeVocabSources(c.getNormalizedVocabSources(rawSources));
 const enriched=vocab.filter(v=>v.editorialBatch==='2026-09-content');
 assert.equal(enriched.length,90,'All 90 editorial entries must survive runtime merging');
+for(const v of vocab)if(v.type==='Yojijukugo')assert.equal([...v.word].length,4,'Yojijukugo must have four characters: '+v.word);
+// Two examples must show two contexts, not one sentence with a reworded translation.
+for(const v of vocab){const seen=(v.examples||[]).map(e=>e.japanese.normalize('NFKC').replace(/\s/g,''));assert.equal(new Set(seen).size,seen.length,'Repeated example sentence: '+v.id+' '+v.word);}
 for(const v of enriched){assert(v.notes,'Missing usage notes '+v.word);assert(v.examples.length>=2,'Enrichment lost '+v.word);assert.equal(new Set(v.examples.map(e=>e.japanese)).size,v.examples.length,'Repeated example '+v.word);}
 const newLessons=c.GRAMMAR_LESSONS.filter(l=>l.id.startsWith('lesson-n1-'));
 assert.equal(newLessons.length,6);

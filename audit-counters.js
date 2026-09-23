@@ -27,6 +27,13 @@ function pushFinding(counterId, issue, details) {
   findings.push({ counterId, issue, details });
 }
 
+// One entry per counter: a second entry with the same kanji was always an invented use (錠 for locks).
+var counterByKanji = {};
+counters.forEach(function (counter) {
+  if (counterByKanji[counter.kanji]) pushFinding(counter.id, 'duplicate-kanji', counter.kanji + ' also in ' + counterByKanji[counter.kanji]);
+  else counterByKanji[counter.kanji] = counter.id;
+});
+
 counters.forEach(function (counter) {
   if (!counter.id) pushFinding('(missing)', 'missing-id', '');
   if (!counter.category || !allowedCategories[counter.category]) {
@@ -72,3 +79,6 @@ console.log(JSON.stringify({
   },
   findings: findings.slice(0, 200)
 }, null, 2));
+
+// Findings must fail the run, otherwise npm run check passes on broken counters.
+if (findings.length) process.exitCode = 1;

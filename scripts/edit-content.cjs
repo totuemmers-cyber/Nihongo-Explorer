@@ -8,6 +8,7 @@ const read = name => fs.readFileSync(path.join(root,name),'utf8');
 const pendingWrites = new Map();
 const write = (name,s) => pendingWrites.set(name,s);
 const { applyReview } = require('./build-quiz-review.cjs');
+const derivePattern = require('./onomatopoeia-pattern.cjs');
 const tsv = name => read('scripts/'+name).split(/\r?\n/).filter(s=>s.trim()&&!s.startsWith('#')).map(s=>s.split('|'));
 const normalize = s => s.normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96));
 function load(name,key) {const c={GRAMMAR_DATA:[]};c.window=c;vm.runInNewContext(read(name),c);return c[key];}
@@ -33,7 +34,7 @@ for(const row of tsv('onomatopoeia-additions.tsv')){
   if(byWord.has(normalize(word)))continue;
   const o={id:'onomatopoeia:word:'+word,word,reading:word,romaji,pitch:null,meaning,category,
     categoryJP:({'Zustände':'擬態語','Gefühle':'擬情語','Bewegung':'擬容語','Geräusche':'擬音語'})[category],
-    pattern:word.length===4&&word.slice(0,2)===word.slice(2)?'ABAB':'Sonstige',level,
+    pattern:derivePattern(word),level,
     usage:notes.split('。')[0],explanation:meaning+'。 '+notes,notes,
     examples:[{japanese:jp,romaji:r,german:de},{japanese:jp2,romaji:r2,german:de2}],related:related.split(','),
     editorialBatch:'2026-09-content',tags:[],levelSource:'Redaktionelle Lernstufe; keine offizielle JLPT-Liste'};

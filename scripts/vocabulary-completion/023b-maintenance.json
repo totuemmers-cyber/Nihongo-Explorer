@@ -1,0 +1,3908 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:80",
+      "revisionId": "023-ndup-vocab-n4-80",
+      "state": "accepted",
+      "predecessorHash": "cd186e958c7d5a48e6a2cd31a20ed784d4fe861e40669516e4e614260a01a863",
+      "predecessorRevisionHash": null,
+      "originalHash": "cd186e958c7d5a48e6a2cd31a20ed784d4fe861e40669516e4e614260a01a863",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "お互いに助け合いましょう。",
+            "romaji": "Otagai ni tasukeaimashou.",
+            "german": "Lasst uns einander helfen."
+          },
+          {
+            "japanese": "お互いに助け合いましょう。",
+            "romaji": "Otagai ni tasukeaimashou.",
+            "german": "Helfen wir uns gegenseitig."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "お互いに助け合いましょう。",
+            "romaji": "Otagai ni tasukeaimashou.",
+            "german": "Lasst uns einander helfen."
+          },
+          {
+            "japanese": "二人はお互いに顔を見合わせました。",
+            "romaji": "Futari wa otagai ni kao o miawasemashita.",
+            "german": "Die beiden sahen einander an."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=2231160; spelling=お互いに; reading=おたがいに; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "お互いに/おたがいに sense(s) 1 match \"gegenseitig, einander\" and the example contexts.",
+          "selected": {
+            "sequence": "2231160",
+            "spelling": "お互いに",
+            "reading": "おたがいに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "mutually",
+                  "with each other",
+                  "reciprocally",
+                  "together",
+                  "both"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:80; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"gegenseitig, einander\" unchanged; checked against JMdict 2231160.",
+        "japanese": "Example 1 (お互いに助け合いましょう。) kept; new example 2 (二人はお互いに顔を見合わせました。) is grammatical and natural.",
+        "romanization": "New romaji \"Futari wa otagai ni kao o miawasemashita.\" follows the N4 file convention.",
+        "translation": "New German \"Die beiden sahen einander an.\" is faithful.",
+        "contexts": [
+          "Appeal to help each other.",
+          "Two people looking at each other."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for お互いに / おたがいに; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup お互いに / おたがいに",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+        "contentHash": "9bb0da3858a4c6608f630a0246ab90d810aeb9a598c3a7cc7fb6eca8e623887e",
+        "approvalHash": "913463d0886abbd229bbfd17e90a80024b9e12c9ac57b7e9f15333286e3176c9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 二人はお互いに顔を見合わせました is a distinct narrative context (slightly redundant with 見合わせる, but natural Japanese); no オタガイニ row (verified), so 0 -> null correct.",
+        "contentHash": "9bb0da3858a4c6608f630a0246ab90d810aeb9a598c3a7cc7fb6eca8e623887e",
+        "approvalHash": "913463d0886abbd229bbfd17e90a80024b9e12c9ac57b7e9f15333286e3176c9"
+      }
+    },
+    {
+      "id": "vocab-n4:93",
+      "revisionId": "023-ndup-vocab-n4-93",
+      "state": "accepted",
+      "predecessorHash": "184effd0a3ec4ca4617fe1d144637fe53d83ea5d63d07aa626a01b60ff314c7b",
+      "predecessorRevisionHash": null,
+      "originalHash": "184effd0a3ec4ca4617fe1d144637fe53d83ea5d63d07aa626a01b60ff314c7b",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "先生を尊敬しています。",
+            "romaji": "Sensei o sonkei shite imasu.",
+            "german": "Ich respektiere den Lehrer."
+          },
+          {
+            "japanese": "先生を尊敬しています。",
+            "romaji": "Sensei o sonkei shite imasu.",
+            "german": "Ich respektiere meinen Lehrer."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "先生を尊敬しています。",
+            "romaji": "Sensei o sonkei shite imasu.",
+            "german": "Ich respektiere den Lehrer."
+          },
+          {
+            "japanese": "私が一番尊敬している人は祖母です。",
+            "romaji": "Watashi ga ichiban sonkei shite iru hito wa sobo desu.",
+            "german": "Die Person, die ich am meisten respektiere, ist meine Großmutter."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:93; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1406400; spelling=尊敬; reading=そんけい; senses=1; scripts/vocabulary-completion/maintenance-023/research-supplement.json",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "No exact-form entry for 尊敬する; the suru-noun 尊敬 (respect, esteem; vs) supports respektieren.",
+          "selected": {
+            "sequence": "1406400",
+            "spelling": "尊敬",
+            "reading": "そんけい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "respect",
+                  "esteem",
+                  "reverence",
+                  "honour",
+                  "honor"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"respektieren\" unchanged; checked against JMdict 1406400 (尊敬).",
+        "japanese": "Example 1 (先生を尊敬しています。) kept; new example 2 (私が一番尊敬している人は祖母です。) is grammatical and natural.",
+        "romanization": "New romaji \"Watashi ga ichiban sonkei shite iru hito wa sobo desu.\" follows the N4 file convention.",
+        "translation": "New German \"Die Person, die ich am meisten respektiere, ist meine Großmutter.\" is faithful.",
+        "contexts": [
+          "Respecting a teacher.",
+          "Naming the person one respects most (relative clause)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "suru verb; transitivity as in JMdict and the examples.",
+        "conjugation": "Existing suru metadata unchanged.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 尊敬する / そんけいする; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 尊敬する / そんけいする",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+        "contentHash": "e2721e8fc02fd1f5e3593876447fb01073c02fd572d6f49634d8ac6449a6adaa",
+        "approvalHash": "f6963e59abdba782f7ebc941b649d3f17066196bbd6868e97e686a81149dda5e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 私が一番尊敬している人は祖母です (relative clause) is distinct from respecting a teacher; no ソンケイスル row (verified), so 0 -> null correct.",
+        "contentHash": "e2721e8fc02fd1f5e3593876447fb01073c02fd572d6f49634d8ac6449a6adaa",
+        "approvalHash": "f6963e59abdba782f7ebc941b649d3f17066196bbd6868e97e686a81149dda5e"
+      }
+    },
+    {
+      "id": "vocab-n4:199",
+      "revisionId": "023-ndup-vocab-n4-199",
+      "state": "accepted",
+      "predecessorHash": "737b1e9002a82a79e1fb8b606affa3bb31367b91f0f6aeab579210d58df066e5",
+      "predecessorRevisionHash": null,
+      "originalHash": "737b1e9002a82a79e1fb8b606affa3bb31367b91f0f6aeab579210d58df066e5",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "体温を測ってください。",
+            "romaji": "Taion o hakatte kudasai.",
+            "german": "Bitte messen Sie die Körpertemperatur."
+          },
+          {
+            "japanese": "体温を測ってください。",
+            "romaji": "Taion o hakatte kudasai.",
+            "german": "Bitte messen Sie Ihre Körpertemperatur."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "体温を測ってください。",
+            "romaji": "Taion o hakatte kudasai.",
+            "german": "Bitte messen Sie die Körpertemperatur."
+          },
+          {
+            "japanese": "運動すると体温が上がります。",
+            "romaji": "Undou suru to taion ga agarimasu.",
+            "german": "Beim Sport steigt die Körpertemperatur."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157938621",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "体温",
+              "reading": "たいおん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "体温 as \"Körpertemperatur\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1409250; spelling=体温; reading=たいおん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "体温/たいおん sense(s) 1 match \"Körpertemperatur\" and the example contexts.",
+          "selected": {
+            "sequence": "1409250",
+            "spelling": "体温",
+            "reading": "たいおん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "body temperature"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:199; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Körpertemperatur\" unchanged; checked against JMdict 1409250.",
+        "japanese": "Example 1 (体温を測ってください。) kept; new example 2 (運動すると体温が上がります。) is grammatical and natural.",
+        "romanization": "New romaji \"Undou suru to taion ga agarimasu.\" follows the N4 file convention.",
+        "translation": "New German \"Beim Sport steigt die Körpertemperatur.\" is faithful.",
+        "contexts": [
+          "Request to take one's temperature.",
+          "Temperature rising with exercise."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157938621",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "体温",
+              "reading": "たいおん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "体温 as \"Körpertemperatur\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "eb37699aae80c661436e4cebf2a5756aa316ec28bbc98c6c8f26e381db3a804e",
+        "approvalHash": "56534ad07a74e4055079c0f0a50bb31aea38c4167dc4f23bfb91952527e2d5ba"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 運動すると体温が上がります is a distinct context; pitch 0 attested by 体温/タイオン aType 1,0.",
+        "contentHash": "eb37699aae80c661436e4cebf2a5756aa316ec28bbc98c6c8f26e381db3a804e",
+        "approvalHash": "56534ad07a74e4055079c0f0a50bb31aea38c4167dc4f23bfb91952527e2d5ba"
+      }
+    },
+    {
+      "id": "vocab-n4:239",
+      "revisionId": "023-ndup-vocab-n4-239",
+      "state": "accepted",
+      "predecessorHash": "1359b4c51fbbb9f9e4042d2047313ef4e1887554664ff347a35621e36c44ed87",
+      "predecessorRevisionHash": null,
+      "originalHash": "1359b4c51fbbb9f9e4042d2047313ef4e1887554664ff347a35621e36c44ed87",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "都会の生活は忙しいです。",
+            "romaji": "Tokai no seikatsu wa isogashii desu.",
+            "german": "Das Stadtleben ist hektisch."
+          },
+          {
+            "japanese": "都会の生活は忙しいです。",
+            "romaji": "Tokai no seikatsu wa isogashii desu.",
+            "german": "Das Leben in der Großstadt ist hektisch."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "都会の生活は忙しいです。",
+            "romaji": "Tokai no seikatsu wa isogashii desu.",
+            "german": "Das Stadtleben ist hektisch."
+          },
+          {
+            "japanese": "田舎より都会のほうが便利です。",
+            "romaji": "Inaka yori tokai no hou ga benri desu.",
+            "german": "Die Großstadt ist praktischer als das Land."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184031129",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "都会",
+              "reading": "とかい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "都会 as \"Großstadt\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1444970; spelling=都会; reading=とかい; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "都会/とかい sense(s) 1 match \"Großstadt\" and the example contexts.",
+          "selected": {
+            "sequence": "1444970",
+            "spelling": "都会",
+            "reading": "とかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "city"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:239; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Großstadt\" unchanged; checked against JMdict 1444970.",
+        "japanese": "Example 1 (都会の生活は忙しいです。) kept; new example 2 (田舎より都会のほうが便利です。) is grammatical and natural.",
+        "romanization": "New romaji \"Inaka yori tokai no hou ga benri desu.\" follows the N4 file convention.",
+        "translation": "New German \"Die Großstadt ist praktischer als das Land.\" is faithful.",
+        "contexts": [
+          "Busy city life.",
+          "Comparing city and countryside."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184031129",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "都会",
+              "reading": "とかい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "都会 as \"Großstadt\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "37e2f3b50a9c5351c357f53638bacd1bb1654d6edbbede37bec028ccfdca0981",
+        "approvalHash": "e6c8cf427cd102b1a6b497c81c97fd9b9a8c398ba1921e7863a372a8f1f4469d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 田舎より都会のほうが便利です (comparison) is distinct from busy city life; pitch 0 verified.",
+        "contentHash": "37e2f3b50a9c5351c357f53638bacd1bb1654d6edbbede37bec028ccfdca0981",
+        "approvalHash": "e6c8cf427cd102b1a6b497c81c97fd9b9a8c398ba1921e7863a372a8f1f4469d"
+      }
+    },
+    {
+      "id": "vocab-n4:304",
+      "revisionId": "023-ndup-vocab-n4-304",
+      "state": "accepted",
+      "predecessorHash": "0d285f639e5c4a0da3ed0bf8608fe2a614ef340200e0d1e0df9ecc29c6934713",
+      "predecessorRevisionHash": null,
+      "originalHash": "0d285f639e5c4a0da3ed0bf8608fe2a614ef340200e0d1e0df9ecc29c6934713",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "まるで夢のようです。",
+            "romaji": "Marude yume no you desu.",
+            "german": "Es ist wie ein Traum."
+          },
+          {
+            "japanese": "まるで夢のようです。",
+            "romaji": "Marude yume no you desu.",
+            "german": "Es ist ganz wie ein Traum."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "まるで夢のようです。",
+            "romaji": "Marude yume no you desu.",
+            "german": "Es ist wie ein Traum."
+          },
+          {
+            "japanese": "彼はまるで日本人のように日本語を話します。",
+            "romaji": "Kare wa marude Nihonjin no you ni Nihongo o hanashimasu.",
+            "german": "Er spricht Japanisch, als wäre er Japaner."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252634466",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "まるで",
+              "reading": "まるで",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "まるで as \"ganz wie, als ob\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1216280; spelling=まるで; reading=まるで; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "まるで/まるで sense(s) 1 match \"ganz wie, als ob\" and the example contexts.",
+          "selected": {
+            "sequence": "1216280",
+            "spelling": "まるで",
+            "reading": "まるで",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "as if",
+                  "as though",
+                  "just like",
+                  "much as",
+                  "exactly like",
+                  "as it were"
+                ],
+                "notes": [
+                  "usu. followed by a form of ようだ or みたいだ"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:304; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"ganz wie, als ob\" unchanged; checked against JMdict 1216280.",
+        "japanese": "Example 1 (まるで夢のようです。) kept; new example 2 (彼はまるで日本人のように日本語を話します。) is grammatical and natural.",
+        "romanization": "New romaji \"Kare wa marude Nihonjin no you ni Nihongo o hanashimasu.\" follows the N4 file convention.",
+        "translation": "New German \"Er spricht Japanisch, als wäre er Japaner.\" is faithful.",
+        "contexts": [
+          "Like a dream.",
+          "Speaking as if native (まるで〜のように)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252634466",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "まるで",
+              "reading": "まるで",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "まるで as \"ganz wie, als ob\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "29ed13013e988b55353e9f37ed6b3ee0db587a5433324e35af1546636cf98ad9",
+        "approvalHash": "9ed4ddc8ee9b7a8fe9869a3fd2f27a9d544b85af6a32f28bd07bd0b15e5824a5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 彼はまるで日本人のように日本語を話します (まるで〜のように adverbial) is distinct from まるで夢のようです; pitch 0 verified.",
+        "contentHash": "29ed13013e988b55353e9f37ed6b3ee0db587a5433324e35af1546636cf98ad9",
+        "approvalHash": "9ed4ddc8ee9b7a8fe9869a3fd2f27a9d544b85af6a32f28bd07bd0b15e5824a5"
+      }
+    },
+    {
+      "id": "vocab-n4:312",
+      "revisionId": "023-ndup-vocab-n4-312",
+      "state": "accepted",
+      "predecessorHash": "772800e92e174b55be1b415c28eb8ae38e27d73ccdfd70e342c00cdc77ac485f",
+      "predecessorRevisionHash": null,
+      "originalHash": "772800e92e174b55be1b415c28eb8ae38e27d73ccdfd70e342c00cdc77ac485f",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "相変わらず元気ですね。",
+            "romaji": "Aikawarazu genki desu ne.",
+            "german": "Sie sind wie immer munter."
+          },
+          {
+            "japanese": "相変わらず元気ですね。",
+            "romaji": "Aikawarazu genki desu ne.",
+            "german": "Sie sind wie immer fit."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "相変わらず元気ですね。",
+            "romaji": "Aikawarazu genki desu ne.",
+            "german": "Sie sind wie immer munter."
+          },
+          {
+            "japanese": "この店は相変わらず混んでいますね。",
+            "romaji": "Kono mise wa aikawarazu konde imasu ne.",
+            "german": "Dieser Laden ist wie immer voll."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1401310; spelling=相変わらず; reading=あいかわらず; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "相変わらず/あいかわらず sense(s) 1 match \"wie immer, unverändert\" and the example contexts.",
+          "selected": {
+            "sequence": "1401310",
+            "spelling": "相変わらず",
+            "reading": "あいかわらず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "as usual",
+                  "as always",
+                  "as before",
+                  "as ever",
+                  "still"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:312; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"wie immer, unverändert\" unchanged; checked against JMdict 1401310.",
+        "japanese": "Example 1 (相変わらず元気ですね。) kept; new example 2 (この店は相変わらず混んでいますね。) is grammatical and natural.",
+        "romanization": "New romaji \"Kono mise wa aikawarazu konde imasu ne.\" follows the N4 file convention.",
+        "translation": "New German \"Dieser Laden ist wie immer voll.\" is faithful.",
+        "contexts": [
+          "Greeting: still in good health.",
+          "A shop that is crowded as always."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 相変わらず / あいかわらず; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 相変わらず / あいかわらず",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+        "contentHash": "42d03b633d37a3860533dda389d5546f640040034f848cde52aa91f59d73156a",
+        "approvalHash": "1c03981755fd7b4d8ddc1dda148ef1cbc58aa7094ca077401be4e8a7b3723861"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): この店は相変わらず混んでいますね is distinct from the health greeting; no アイカワラズ row (verified), so 0 -> null correct.",
+        "contentHash": "42d03b633d37a3860533dda389d5546f640040034f848cde52aa91f59d73156a",
+        "approvalHash": "1c03981755fd7b4d8ddc1dda148ef1cbc58aa7094ca077401be4e8a7b3723861"
+      }
+    },
+    {
+      "id": "vocab-n4:318",
+      "revisionId": "023-ndup-vocab-n4-318",
+      "state": "accepted",
+      "predecessorHash": "deb478a3d50c530ec05e91124e5c9eda2a3e6ac518973588eba7b185876cb5a4",
+      "predecessorRevisionHash": null,
+      "originalHash": "deb478a3d50c530ec05e91124e5c9eda2a3e6ac518973588eba7b185876cb5a4",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "なんとか間に合いました。",
+            "romaji": "Nantoka maniaimashita.",
+            "german": "Ich habe es irgendwie geschafft."
+          },
+          {
+            "japanese": "なんとか間に合いました。",
+            "romaji": "Nantoka maniai mashita.",
+            "german": "Ich habe es irgendwie geschafft."
+          }
+        ],
+        "pitch": 1
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "なんとか間に合いました。",
+            "romaji": "Nantoka maniaimashita.",
+            "german": "Ich habe es irgendwie geschafft."
+          },
+          {
+            "japanese": "お金はあまりないけど、なんとかなるでしょう。",
+            "romaji": "Okane wa amari nai kedo, nantoka naru deshou.",
+            "german": "Wir haben nicht viel Geld, aber irgendwie wird es schon gehen."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1188420; spelling=なんとか; reading=なんとか; senses=2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "なんとか/なんとか sense(s) 2 match \"irgendwie\" and the example contexts.",
+          "selected": {
+            "sequence": "1188420",
+            "spelling": "なんとか",
+            "reading": "なんとか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "somehow (handling, dealing with something)",
+                  "anyhow",
+                  "one way or another"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:318; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"irgendwie\" unchanged; checked against JMdict 1188420.",
+        "japanese": "Example 1 (なんとか間に合いました。) kept; new example 2 (お金はあまりないけど、なんとかなるでしょう。) is grammatical and natural.",
+        "romanization": "New romaji \"Okane wa amari nai kedo, nantoka naru deshou.\" follows the N4 file convention.",
+        "translation": "New German \"Wir haben nicht viel Geld, aber irgendwie wird es schon gehen.\" is faithful.",
+        "contexts": [
+          "Managing to make it in time.",
+          "Set phrase なんとかなる (it will work out)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 2; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for なんとか / なんとか; previous 1 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup なんとか / なんとか",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+        "contentHash": "6324b900b85c5fc048a155413a9d4848eee2df732c01a0f6462c8edf37ee1f98",
+        "approvalHash": "1465096247c5c629a0408022d7dd7339ccd1feb6ddc3778ce06617d9f61c63ca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): お金はあまりないけど、なんとかなるでしょう adds the set phrase なんとかなる; example 1 romaji stays \"maniaimashita\"; no ナントカ row (verified), so 1 -> null correct.",
+        "contentHash": "6324b900b85c5fc048a155413a9d4848eee2df732c01a0f6462c8edf37ee1f98",
+        "approvalHash": "1465096247c5c629a0408022d7dd7339ccd1feb6ddc3778ce06617d9f61c63ca"
+      }
+    },
+    {
+      "id": "vocab-n4:339",
+      "revisionId": "023-ndup-vocab-n4-339",
+      "state": "accepted",
+      "predecessorHash": "5cfff5d54e754766a10fd899c92d3036c2f2a682ffe28f0b3c34150e06d399a3",
+      "predecessorRevisionHash": null,
+      "originalHash": "5cfff5d54e754766a10fd899c92d3036c2f2a682ffe28f0b3c34150e06d399a3",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "この漢字の読み方を教えてください。",
+            "romaji": "Kono kanji no yomikata o oshiete kudasai.",
+            "german": "Wie liest man dieses Kanji?"
+          },
+          {
+            "japanese": "この漢字の読み方を教えてください。",
+            "romaji": "Kono kanji no yomikata o oshiete kudasai.",
+            "german": "Bitte sagen Sie mir die Lesung dieses Kanji."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "この漢字の読み方を教えてください。",
+            "romaji": "Kono kanji no yomikata o oshiete kudasai.",
+            "german": "Wie liest man dieses Kanji?"
+          },
+          {
+            "japanese": "この地名の読み方はとても難しいです。",
+            "romaji": "Kono chimei no yomikata wa totemo muzukashii desu.",
+            "german": "Die Lesung dieses Ortsnamens ist sehr schwierig."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1456330; spelling=読み方; reading=よみかた; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "読み方/よみかた sense(s) 1 match \"Leseweise, Aussprache\" and the example contexts.",
+          "selected": {
+            "sequence": "1456330",
+            "spelling": "読み方",
+            "reading": "よみかた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pronunciation",
+                  "reading (e.g. of a kanji)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:339; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Leseweise, Aussprache\" unchanged; checked against JMdict 1456330.",
+        "japanese": "Example 1 (この漢字の読み方を教えてください。) kept; new example 2 (この地名の読み方はとても難しいです。) is grammatical and natural.",
+        "romanization": "New romaji \"Kono chimei no yomikata wa totemo muzukashii desu.\" follows the N4 file convention.",
+        "translation": "New German \"Die Lesung dieses Ortsnamens ist sehr schwierig.\" is faithful.",
+        "contexts": [
+          "Asking how to read a kanji.",
+          "Difficult reading of a place name."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 読み方 / よみかた; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 読み方 / よみかた",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+        "contentHash": "1727053f2d711826c06294764e8cdee5308e11b27fa7a9ea768c1b43ea1556ba",
+        "approvalHash": "15f59083a0956607b01a875d02074a91b7f96fbb9879b48e9eb4af51f1fca983"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): この地名の読み方はとても難しいです (chimei) is distinct from asking a kanji reading; no exact ヨミカタ row (only 読み語る forms), so 0 -> null correct.",
+        "contentHash": "1727053f2d711826c06294764e8cdee5308e11b27fa7a9ea768c1b43ea1556ba",
+        "approvalHash": "15f59083a0956607b01a875d02074a91b7f96fbb9879b48e9eb4af51f1fca983"
+      }
+    },
+    {
+      "id": "vocab-n4:342",
+      "revisionId": "023-ndup-vocab-n4-342",
+      "state": "accepted",
+      "predecessorHash": "492e8522d975c7346589e241fb597dd4e4df31ac8319806b7ce2c064da7b4454",
+      "predecessorRevisionHash": null,
+      "originalHash": "492e8522d975c7346589e241fb597dd4e4df31ac8319806b7ce2c064da7b4454",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "駅への行き方を教えてください。",
+            "romaji": "Eki e no ikikata o oshiete kudasai.",
+            "german": "Wie komme ich zum Bahnhof?"
+          },
+          {
+            "japanese": "駅への行き方を教えてください。",
+            "romaji": "Eki e no ikikata o oshiete kudasai.",
+            "german": "Bitte erklären Sie mir den Weg zum Bahnhof."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "駅への行き方を教えてください。",
+            "romaji": "Eki e no ikikata o oshiete kudasai.",
+            "german": "Wie komme ich zum Bahnhof?"
+          },
+          {
+            "japanese": "空港までの行き方をインターネットで調べました。",
+            "romaji": "Kuukou made no ikikata o intaanetto de shirabemashita.",
+            "german": "Ich habe im Internet nachgesehen, wie man zum Flughafen kommt."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1578830; spelling=行き方; reading=いきかた; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "行き方/いきかた sense(s) 1 match \"Weg, Wegbeschreibung\" and the example contexts.",
+          "selected": {
+            "sequence": "1578830",
+            "spelling": "行き方",
+            "reading": "いきかた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way (of going)",
+                  "route"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:342; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Weg, Wegbeschreibung\" unchanged; checked against JMdict 1578830.",
+        "japanese": "Example 1 (駅への行き方を教えてください。) kept; new example 2 (空港までの行き方をインターネットで調べました。) is grammatical and natural.",
+        "romanization": "New romaji \"Kuukou made no ikikata o intaanetto de shirabemashita.\" follows the N4 file convention.",
+        "translation": "New German \"Ich habe im Internet nachgesehen, wie man zum Flughafen kommt.\" is faithful.",
+        "contexts": [
+          "Asking the way to the station.",
+          "Looking up the route to the airport."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 行き方 / いきかた; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json; exact written-form/kana lookup 行き方 / いきかた",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; unattested pitch set to unknown.",
+        "contentHash": "9cedfb27b1fa639b7dd3796403aa849ed7c896e7f43a209cf90a42d5d1a72386",
+        "approvalHash": "5884878df3f56ad79d649d5e4b3955677dfb8cea4e2daf414e50ad43e33f1d9a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 空港までの行き方をインターネットで調べました is distinct; no exact 行き方 row (only 生き形), so 0 -> null correct.",
+        "contentHash": "9cedfb27b1fa639b7dd3796403aa849ed7c896e7f43a209cf90a42d5d1a72386",
+        "approvalHash": "5884878df3f56ad79d649d5e4b3955677dfb8cea4e2daf414e50ad43e33f1d9a"
+      }
+    },
+    {
+      "id": "vocab-n4:345",
+      "revisionId": "023-ndup-vocab-n4-345",
+      "state": "accepted",
+      "predecessorHash": "0cf1e9a424e59e130c43d710052e8934e36151f23e4bd1d5fae83ad7ded14e1a",
+      "predecessorRevisionHash": null,
+      "originalHash": "0cf1e9a424e59e130c43d710052e8934e36151f23e4bd1d5fae83ad7ded14e1a",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "占いを信じますか。",
+            "romaji": "Uranai o shinjimasu ka.",
+            "german": "Glauben Sie an Horoskope?"
+          },
+          {
+            "japanese": "占いを信じますか。",
+            "romaji": "Uranai o shinjimasu ka.",
+            "german": "Glauben Sie an Wahrsagerei?"
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "占いを信じますか。",
+            "romaji": "Uranai o shinjimasu ka.",
+            "german": "Glauben Sie an Horoskope?"
+          },
+          {
+            "japanese": "駅前の占い師に手相を見てもらいました。",
+            "romaji": "Ekimae no uranaishi ni tesou o mite moraimashita.",
+            "german": "Ich habe mir von einer Wahrsagerin am Bahnhof aus der Hand lesen lassen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68271636",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "占い",
+              "reading": "うらない",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "占い as \"Wahrsagerei, Horoskop\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1389410; spelling=占い; reading=うらない; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "占い/うらない sense(s) 1 match \"Wahrsagerei, Horoskop\" and the example contexts.",
+          "selected": {
+            "sequence": "1389410",
+            "spelling": "占い",
+            "reading": "うらない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fortune-telling",
+                  "divination"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:345; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Wahrsagerei, Horoskop\" unchanged; checked against JMdict 1389410.",
+        "japanese": "Example 1 (占いを信じますか。) kept; new example 2 (駅前の占い師に手相を見てもらいました。) is grammatical and natural.",
+        "romanization": "New romaji \"Ekimae no uranaishi ni tesou o mite moraimashita.\" follows the N4 file convention.",
+        "translation": "New German \"Ich habe mir von einer Wahrsagerin am Bahnhof aus der Hand lesen lassen.\" is faithful.",
+        "contexts": [
+          "Asking whether someone believes in horoscopes.",
+          "Consulting a fortune-teller (Wahrsagerei)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68271636",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "占い",
+              "reading": "うらない",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "占い as \"Wahrsagerei, Horoskop\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "8eacc48ad34dddc9ae61a7ae73ae1a244d4ea8df278457f053ea9e8089a62892",
+        "approvalHash": "6d7322e2d06a07db65b636c9b5aa3188a0cbbe1de7e57b40d91ed7844d15533b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 駅前の占い師に手相を見てもらいました shows the Wahrsagerei sense (palm reading), distinct from horoscopes; pitch 0 attested (aType 0,3).",
+        "contentHash": "8eacc48ad34dddc9ae61a7ae73ae1a244d4ea8df278457f053ea9e8089a62892",
+        "approvalHash": "6d7322e2d06a07db65b636c9b5aa3188a0cbbe1de7e57b40d91ed7844d15533b"
+      }
+    },
+    {
+      "id": "vocab-n4:351",
+      "revisionId": "023-ndup-vocab-n4-351",
+      "state": "accepted",
+      "predecessorHash": "e759112958defcc3cf7b4e5affc0c398e5ce589104603d28eff0acc1cc1ba300",
+      "predecessorRevisionHash": null,
+      "originalHash": "e759112958defcc3cf7b4e5affc0c398e5ce589104603d28eff0acc1cc1ba300",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "この薬は効果があります。",
+            "romaji": "Kono kusuri wa kouka ga arimasu.",
+            "german": "Diese Medizin hat Wirkung."
+          },
+          {
+            "japanese": "この薬は効果があります。",
+            "romaji": "Kono kusuri wa kouka ga arimasu.",
+            "german": "Dieses Medikament hat Wirkung."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "この薬は効果があります。",
+            "romaji": "Kono kusuri wa kouka ga arimasu.",
+            "german": "Diese Medizin hat Wirkung."
+          },
+          {
+            "japanese": "毎日練習した効果が出てきました。",
+            "romaji": "Mainichi renshuu shita kouka ga dete kimashita.",
+            "german": "Das tägliche Üben zeigt allmählich Wirkung."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119846833",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "効果",
+              "reading": "こうか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "効果 as \"Wirkung, Effekt\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1275130; spelling=効果; reading=こうか; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "効果/こうか sense(s) 1 match \"Wirkung, Effekt\" and the example contexts.",
+          "selected": {
+            "sequence": "1275130",
+            "spelling": "効果",
+            "reading": "こうか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "effect",
+                  "effectiveness",
+                  "efficacy",
+                  "result"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:351; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Wirkung, Effekt\" unchanged; checked against JMdict 1275130.",
+        "japanese": "Example 1 (この薬は効果があります。) kept; new example 2 (毎日練習した効果が出てきました。) is grammatical and natural.",
+        "romanization": "New romaji \"Mainichi renshuu shita kouka ga dete kimashita.\" follows the N4 file convention.",
+        "translation": "New German \"Das tägliche Üben zeigt allmählich Wirkung.\" is faithful.",
+        "contexts": [
+          "A medicine being effective.",
+          "Results of daily practice (効果が出る)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119846833",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "効果",
+              "reading": "こうか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "効果 as \"Wirkung, Effekt\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "7116c8e1155224c76f0fe0acc8dc978a735b4718ffbe88b50fd51b9e3bfbe662",
+        "approvalHash": "06cbfa2914027a5001bfa61034e5746c143119e3f1ca8af4453de5e72b8466d4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 毎日練習した効果が出てきました (効果が出る) is distinct from the medicine example; pitch 1 verified.",
+        "contentHash": "7116c8e1155224c76f0fe0acc8dc978a735b4718ffbe88b50fd51b9e3bfbe662",
+        "approvalHash": "06cbfa2914027a5001bfa61034e5746c143119e3f1ca8af4453de5e72b8466d4"
+      }
+    },
+    {
+      "id": "vocab-n4:432",
+      "revisionId": "023-ndup-vocab-n4-432",
+      "state": "accepted",
+      "predecessorHash": "ffd6af9c5d469eb909842de8627e5d29dcf3e011e156884a4ea6ee469f49ef5c",
+      "predecessorRevisionHash": null,
+      "originalHash": "ffd6af9c5d469eb909842de8627e5d29dcf3e011e156884a4ea6ee469f49ef5c",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "陸上部に入っています。",
+            "romaji": "Rikujoubu ni haitte imasu.",
+            "german": "Ich bin im Leichtathletikverein."
+          },
+          {
+            "japanese": "陸上部に入っています。",
+            "romaji": "Rikujoubu ni haitte imasu.",
+            "german": "Ich bin im Leichtathletik-Club."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "陸上部に入っています。",
+            "romaji": "Rikujoubu ni haitte imasu.",
+            "german": "Ich bin im Leichtathletikverein."
+          },
+          {
+            "japanese": "陸上の大会で百メートルを走りました。",
+            "romaji": "Rikujou no taikai de hyaku meetoru o hashirimashita.",
+            "german": "Bei einem Leichtathletikwettkampf bin ich 100 Meter gelaufen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278186094",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "陸上",
+              "reading": "りくじょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "陸上 as \"Leichtathletik\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1551050; spelling=陸上; reading=りくじょう; senses=2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "陸上/りくじょう sense(s) 2 match \"Leichtathletik\" and the example contexts.",
+          "selected": {
+            "sequence": "1551050",
+            "spelling": "陸上",
+            "reading": "りくじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "track and field",
+                  "athletics"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:432; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Leichtathletik\" unchanged; checked against JMdict 1551050.",
+        "japanese": "Example 1 (陸上部に入っています。) kept; new example 2 (陸上の大会で百メートルを走りました。) is grammatical and natural.",
+        "romanization": "New romaji \"Rikujou no taikai de hyaku meetoru o hashirimashita.\" follows the N4 file convention.",
+        "translation": "New German \"Bei einem Leichtathletikwettkampf bin ich 100 Meter gelaufen.\" is faithful.",
+        "contexts": [
+          "Being in the athletics club.",
+          "Running 100 m at an athletics meet."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 2; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278186094",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "陸上",
+              "reading": "りくじょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "陸上 as \"Leichtathletik\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "64b7fb07d461529c0fd7e5184ced17fe7c2fb15499227706ea0e21c5372c86d8",
+        "approvalHash": "13311e1229cf1aebeac462013773d01c2152497054dc3326549efca66a650064"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 陸上の大会で百メートルを走りました is a distinct athletics-meet context. The batch message says this shows another JMdict sense, but it is still Leichtathletik (not \"on land\"); that is fine because the entry's meaning is only Leichtathletik. Pitch 0 verified.",
+        "contentHash": "64b7fb07d461529c0fd7e5184ced17fe7c2fb15499227706ea0e21c5372c86d8",
+        "approvalHash": "13311e1229cf1aebeac462013773d01c2152497054dc3326549efca66a650064"
+      }
+    },
+    {
+      "id": "vocab-n4:448",
+      "revisionId": "023-ndup-vocab-n4-448",
+      "state": "accepted",
+      "predecessorHash": "c8d27e6e937ae21f42543e1c5adca9ec73f90985f79304164711086151a21d7f",
+      "predecessorRevisionHash": null,
+      "originalHash": "c8d27e6e937ae21f42543e1c5adca9ec73f90985f79304164711086151a21d7f",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "本音を言ってください。",
+            "romaji": "Honne o itte kudasai.",
+            "german": "Sagen Sie mir Ihre wahre Meinung."
+          },
+          {
+            "japanese": "本音を言ってください。",
+            "romaji": "Honne o itte kudasai.",
+            "german": "Sagen Sie bitte Ihre wahre Meinung."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "本音を言ってください。",
+            "romaji": "Honne o itte kudasai.",
+            "german": "Sagen Sie mir Ihre wahre Meinung."
+          },
+          {
+            "japanese": "日本では、本音と建前を使い分けることがあります。",
+            "romaji": "Nihon de wa, honne to tatemae o tsukaiwakeru koto ga arimasu.",
+            "german": "In Japan unterscheidet man manchmal zwischen wahrer Meinung und offizieller Fassade."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245824278",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "本音",
+              "reading": "ほんね",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "本音 as \"wahre Absicht, wahre Meinung\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1522250; spelling=本音; reading=ほんね; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "本音/ほんね sense(s) 1 match \"wahre Absicht, wahre Meinung\" and the example contexts.",
+          "selected": {
+            "sequence": "1522250",
+            "spelling": "本音",
+            "reading": "ほんね",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "real intention",
+                  "motive",
+                  "true opinion",
+                  "what one really thinks"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:448; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"wahre Absicht, wahre Meinung\" unchanged; checked against JMdict 1522250.",
+        "japanese": "Example 1 (本音を言ってください。) kept; new example 2 (日本では、本音と建前を使い分けることがあります。) is grammatical and natural.",
+        "romanization": "New romaji \"Nihon de wa, honne to tatemae o tsukaiwakeru koto ga arimasu.\" follows the N4 file convention.",
+        "translation": "New German \"In Japan unterscheidet man manchmal zwischen wahrer Meinung und offizieller Fassade.\" is faithful.",
+        "contexts": [
+          "Asking for someone's true opinion.",
+          "本音 vs 建前 as a cultural concept."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245824278",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "本音",
+              "reading": "ほんね",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "本音 as \"wahre Absicht, wahre Meinung\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "3ac60bffddc86c4cb3a33dbbfb519a49c47a79794e558a5dae20eb31bec96e05",
+        "approvalHash": "21197ba470330f13a32f27cd62a9d3e4a34db296e6f82f9c6641d49cb7575994"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 日本では、本音と建前を使い分けることがあります adds the 本音/建前 concept, distinct from asking for the true opinion; pitch 0 verified.",
+        "contentHash": "3ac60bffddc86c4cb3a33dbbfb519a49c47a79794e558a5dae20eb31bec96e05",
+        "approvalHash": "21197ba470330f13a32f27cd62a9d3e4a34db296e6f82f9c6641d49cb7575994"
+      }
+    },
+    {
+      "id": "vocab-n4:451",
+      "revisionId": "023-ndup-vocab-n4-451",
+      "state": "accepted",
+      "predecessorHash": "a7eb0f1a4b22165a77ef288226f46057df849c9128ce0c8e3f66f2db38d5f4e7",
+      "predecessorRevisionHash": null,
+      "originalHash": "a7eb0f1a4b22165a77ef288226f46057df849c9128ce0c8e3f66f2db38d5f4e7",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "目上の人に敬語を使います。",
+            "romaji": "Meue no hito ni keigo o tsukaimasu.",
+            "german": "Gegenüber Älteren benutze ich Höflichkeitssprache."
+          },
+          {
+            "japanese": "目上の人に敬語を使います。",
+            "romaji": "Meue no hito ni keigo o tsukaimasu.",
+            "german": "Man verwendet Höflichkeitssprache gegenüber Älteren."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "目上の人に敬語を使います。",
+            "romaji": "Meue no hito ni keigo o tsukaimasu.",
+            "german": "Gegenüber Älteren benutze ich Höflichkeitssprache."
+          },
+          {
+            "japanese": "目上の人より先に座らないほうがいいです。",
+            "romaji": "Meue no hito yori saki ni suwaranai hou ga ii desu.",
+            "german": "Man sollte sich nicht vor Höhergestellten hinsetzen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260220992",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "目上",
+              "reading": "めうえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "目上 as \"Älterer, Höhergestellter\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1535490; spelling=目上; reading=めうえ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "目上/めうえ sense(s) 1 match \"Älterer, Höhergestellter\" and the example contexts.",
+          "selected": {
+            "sequence": "1535490",
+            "spelling": "目上",
+            "reading": "めうえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "superior",
+                  "superiors",
+                  "senior"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:451; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Älterer, Höhergestellter\" unchanged; checked against JMdict 1535490.",
+        "japanese": "Example 1 (目上の人に敬語を使います。) kept; new example 2 (目上の人より先に座らないほうがいいです。) is grammatical and natural.",
+        "romanization": "New romaji \"Meue no hito yori saki ni suwaranai hou ga ii desu.\" follows the N4 file convention.",
+        "translation": "New German \"Man sollte sich nicht vor Höhergestellten hinsetzen.\" is faithful.",
+        "contexts": [
+          "Using keigo with superiors.",
+          "Seating etiquette toward superiors."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260220992",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "目上",
+              "reading": "めうえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "目上 as \"Älterer, Höhergestellter\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "fc6d6242b59abbdd746c4d3c792b276c353bd5e13148b8e83652e3700c3e4651",
+        "approvalHash": "4c921e0c595655ff943bc615848a2e86bbc6d0bd62490067da74e2830efa7699"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 目上の人より先に座らないほうがいいです (seating etiquette) is distinct from keigo use; pitch 0 attested (aType 0,3).",
+        "contentHash": "fc6d6242b59abbdd746c4d3c792b276c353bd5e13148b8e83652e3700c3e4651",
+        "approvalHash": "4c921e0c595655ff943bc615848a2e86bbc6d0bd62490067da74e2830efa7699"
+      }
+    },
+    {
+      "id": "vocab-n4:466",
+      "revisionId": "023-ndup-vocab-n4-466",
+      "state": "accepted",
+      "predecessorHash": "4ee2c7e8b07cd5fbd5c1e061dd01bc4b4c0db48906e109ccc041e4560b1378e6",
+      "predecessorRevisionHash": null,
+      "originalHash": "4ee2c7e8b07cd5fbd5c1e061dd01bc4b4c0db48906e109ccc041e4560b1378e6",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "インターネットに繋がりません。",
+            "romaji": "Intaanetto ni tsunagarimasen.",
+            "german": "Es verbindet sich nicht mit dem Internet."
+          },
+          {
+            "japanese": "インターネットに繋がりません。",
+            "romaji": "Intaanetto ni tsunagarimasen.",
+            "german": "Ich kann mich nicht mit dem Internet verbinden."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "インターネットに繋がりません。",
+            "romaji": "Intaanetto ni tsunagarimasen.",
+            "german": "Es verbindet sich nicht mit dem Internet."
+          },
+          {
+            "japanese": "この道は駅まで繋がっています。",
+            "romaji": "Kono michi wa eki made tsunagatte imasu.",
+            "german": "Dieser Weg führt bis zum Bahnhof."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@176734454",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "繋がる",
+              "reading": "つながる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "繋がる as \"verbunden sein, zusammenhängen\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1251880; spelling=繋がる; reading=つながる; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "繋がる/つながる sense(s) 1,2 match \"verbunden sein, zusammenhängen\" and the example contexts.",
+          "selected": {
+            "sequence": "1251880",
+            "spelling": "繋がる",
+            "reading": "つながる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be connected (to)",
+                  "to be joined together",
+                  "to be linked",
+                  "to be tied together",
+                  "to lead (to)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to connect (of a telephone call, the internet, etc.)",
+                  "to get through"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:466; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"verbunden sein, zusammenhängen\" unchanged; checked against JMdict 1251880.",
+        "japanese": "Example 1 (インターネットに繋がりません。) kept; new example 2 (この道は駅まで繋がっています。) is grammatical and natural.",
+        "romanization": "New romaji \"Kono michi wa eki made tsunagatte imasu.\" follows the N4 file convention.",
+        "translation": "New German \"Dieser Weg führt bis zum Bahnhof.\" is faithful.",
+        "contexts": [
+          "No internet connection (sense 2).",
+          "A road connected to the station (sense 1)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1,2; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "godan verb; transitivity as in JMdict and the examples.",
+        "conjugation": "Existing godan metadata unchanged.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@176734454",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "繋がる",
+              "reading": "つながる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "繋がる as \"verbunden sein, zusammenhängen\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "b3a84b06e97e8510f0cca8200d356d3ebf17a6d0aee7bfd08f69eb6dec8b380a",
+        "approvalHash": "291588f84dc866baf1cbc77b09a6dec30c38121bd154f67023fb980d970a38f3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): この道は駅まで繋がっています shows the physical-connection sense, distinct from the internet connection; pitch 0 verified.",
+        "contentHash": "b3a84b06e97e8510f0cca8200d356d3ebf17a6d0aee7bfd08f69eb6dec8b380a",
+        "approvalHash": "291588f84dc866baf1cbc77b09a6dec30c38121bd154f67023fb980d970a38f3"
+      }
+    },
+    {
+      "id": "vocab-n4:477",
+      "revisionId": "023-ndup-vocab-n4-477",
+      "state": "accepted",
+      "predecessorHash": "37798c7e55e9658f7e6f7db10b425af98ad1089dad0d7b34a5dc85158223005a",
+      "predecessorRevisionHash": null,
+      "originalHash": "37798c7e55e9658f7e6f7db10b425af98ad1089dad0d7b34a5dc85158223005a",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; correct the pitch to the attested exact-form value.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "肺のレントゲンを撮りました。",
+            "romaji": "Hai no rentogen o torimashita.",
+            "german": "Ich habe eine Lungenröntgenaufnahme gemacht."
+          },
+          {
+            "japanese": "肺のレントゲンを撮りました。",
+            "romaji": "Hai no rentogen o torimashita.",
+            "german": "Ich habe eine Röntgenaufnahme der Lunge machen lassen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "肺のレントゲンを撮りました。",
+            "romaji": "Hai no rentogen o torimashita.",
+            "german": "Ich habe eine Lungenröntgenaufnahme gemacht."
+          },
+          {
+            "japanese": "たばこは肺に悪いです。",
+            "romaji": "Tabako wa hai ni warui desu.",
+            "german": "Rauchen schadet der Lunge."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210894527",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing 1 contradicted by the exact row; corrected to 0.",
+            "match": {
+              "word": "肺",
+              "reading": "はい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "肺 as \"Lunge\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1472870; spelling=肺; reading=はい; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "肺/はい sense(s) 1 match \"Lunge\" and the example contexts.",
+          "selected": {
+            "sequence": "1472870",
+            "spelling": "肺",
+            "reading": "はい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lung"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:477; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Lunge\" unchanged; checked against JMdict 1472870.",
+        "japanese": "Example 1 (肺のレントゲンを撮りました。) kept; new example 2 (たばこは肺に悪いです。) is grammatical and natural.",
+        "romanization": "New romaji \"Tabako wa hai ni warui desu.\" follows the N4 file convention.",
+        "translation": "New German \"Rauchen schadet der Lunge.\" is faithful.",
+        "contexts": [
+          "Chest X-ray.",
+          "Smoking harming the lungs."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing 1 contradicted by the exact row; corrected to 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210894527",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing 1 contradicted by the exact row; corrected to 0.",
+            "match": {
+              "word": "肺",
+              "reading": "はい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "肺 as \"Lunge\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; correct the pitch to the attested exact-form value.",
+        "contentHash": "8484a1c30c54e057bb1214c30f9821cc4a9bcd6dcd5b9c018502149631edd912",
+        "approvalHash": "43bbf247b0f1cb6c79ffad8ce9b01275042cc03068b07d6090b5063a5d9d6b52"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): たばこは肺に悪いです is a distinct health context; pitch 1 -> 0 correct per sys.dic 肺/ハイ aType 0.",
+        "contentHash": "8484a1c30c54e057bb1214c30f9821cc4a9bcd6dcd5b9c018502149631edd912",
+        "approvalHash": "43bbf247b0f1cb6c79ffad8ce9b01275042cc03068b07d6090b5063a5d9d6b52"
+      }
+    },
+    {
+      "id": "vocab-n4:478",
+      "revisionId": "023-ndup-vocab-n4-478",
+      "state": "accepted",
+      "predecessorHash": "ffa281b96c41d6c2142cf8cf3d97211d3de42282a672e177fa15829c72211ed5",
+      "predecessorRevisionHash": null,
+      "originalHash": "ffa281b96c41d6c2142cf8cf3d97211d3de42282a672e177fa15829c72211ed5",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; repair example 1 romaji.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "心臓が速く動いています。",
+            "romaji": "Shinzou ga hayaku ugoiteimasu.",
+            "german": "Mein Herz schlägt schnell."
+          },
+          {
+            "japanese": "心臓が速く動いています。",
+            "romaji": "Shinzou ga hayaku ugoite imasu.",
+            "german": "Mein Herz schlägt schnell."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "心臓が速く動いています。",
+            "romaji": "Shinzou ga hayaku ugoite imasu.",
+            "german": "Mein Herz schlägt schnell."
+          },
+          {
+            "japanese": "祖父は心臓の手術を受けました。",
+            "romaji": "Sofu wa shinzou no shujutsu o ukemashita.",
+            "german": "Mein Großvater hatte eine Herzoperation."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142915134",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "心臓",
+              "reading": "しんぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "心臓 as \"Herz (Organ)\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1360770; spelling=心臓; reading=しんぞう; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "心臓/しんぞう sense(s) 1 match \"Herz (Organ)\" and the example contexts.",
+          "selected": {
+            "sequence": "1360770",
+            "spelling": "心臓",
+            "reading": "しんぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heart"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:478; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept (with the documented repair: {\"romaji\":\"Shinzou ga hayaku ugoite imasu.\"}); example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Herz (Organ)\" unchanged; checked against JMdict 1360770.",
+        "japanese": "Example 1 (心臓が速く動いています。) kept; new example 2 (祖父は心臓の手術を受けました。) is grammatical and natural.",
+        "romanization": "New romaji \"Sofu wa shinzou no shujutsu o ukemashita.\" follows the N4 file convention.",
+        "translation": "New German \"Mein Großvater hatte eine Herzoperation.\" is faithful.",
+        "contexts": [
+          "Heart beating fast.",
+          "Heart surgery."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142915134",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "心臓",
+              "reading": "しんぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "心臓 as \"Herz (Organ)\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; repair example 1 romaji.",
+        "contentHash": "8d5c03d9a1b6ffb94295ac6910c0b49bff0d1a69f7355478c64e67a52bb9f633",
+        "approvalHash": "8708c2b1ee5d2d364d19aaec5ea5b93e21dd52008860e217a5b3776d49cd3cea"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): example 1 romaji repaired to \"ugoite imasu\"; 祖父は心臓の手術を受けました (shujutsu) is distinct; pitch 0 verified. Non-blocking: 心臓がドキドキしています would be more idiomatic than 速く動いています in example 1.",
+        "contentHash": "8d5c03d9a1b6ffb94295ac6910c0b49bff0d1a69f7355478c64e67a52bb9f633",
+        "approvalHash": "8708c2b1ee5d2d364d19aaec5ea5b93e21dd52008860e217a5b3776d49cd3cea"
+      }
+    },
+    {
+      "id": "vocab-n4:524",
+      "revisionId": "023-ndup-vocab-n4-524",
+      "state": "accepted",
+      "predecessorHash": "8a1ccb16a7492fe16d3efa09915f5a1f6d75fd0c8bfd75ceca08fed73f6c12d6",
+      "predecessorRevisionHash": null,
+      "originalHash": "8a1ccb16a7492fe16d3efa09915f5a1f6d75fd0c8bfd75ceca08fed73f6c12d6",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "午後に打ち合わせがあります。",
+            "romaji": "Gogo ni uchiawase ga arimasu.",
+            "german": "Am Nachmittag habe ich eine Besprechung."
+          },
+          {
+            "japanese": "午後に打ち合わせがあります。",
+            "romaji": "Gogo ni uchiawase ga arimasu.",
+            "german": "Am Nachmittag gibt es ein Meeting."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "午後に打ち合わせがあります。",
+            "romaji": "Gogo ni uchiawase ga arimasu.",
+            "german": "Am Nachmittag habe ich eine Besprechung."
+          },
+          {
+            "japanese": "打ち合わせの前に、資料を準備しておきます。",
+            "romaji": "Uchiawase no mae ni, shiryou o junbi shite okimasu.",
+            "german": "Vor der Besprechung bereite ich die Unterlagen vor."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@63366224",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "打ち合わせ",
+              "reading": "うちあわせ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "打ち合わせ as \"Besprechung, Meeting\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1588140; spelling=打ち合わせ; reading=うちあわせ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "打ち合わせ/うちあわせ sense(s) 1 match \"Besprechung, Meeting\" and the example contexts.",
+          "selected": {
+            "sequence": "1588140",
+            "spelling": "打ち合わせ",
+            "reading": "うちあわせ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(preparatory) meeting",
+                  "briefing session",
+                  "(making) advance arrangements"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:524; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Besprechung, Meeting\" unchanged; checked against JMdict 1588140.",
+        "japanese": "Example 1 (午後に打ち合わせがあります。) kept; new example 2 (打ち合わせの前に、資料を準備しておきます。) is grammatical and natural.",
+        "romanization": "New romaji \"Uchiawase no mae ni, shiryou o junbi shite okimasu.\" follows the N4 file convention.",
+        "translation": "New German \"Vor der Besprechung bereite ich die Unterlagen vor.\" is faithful.",
+        "contexts": [
+          "Meeting scheduled in the afternoon.",
+          "Preparing materials before a meeting."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@63366224",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "打ち合わせ",
+              "reading": "うちあわせ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "打ち合わせ as \"Besprechung, Meeting\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "ff346ca0c7c4bdeb103d8a16b41b3f78cb2c6bae39032957ed0ab6732653e737",
+        "approvalHash": "e27fc4215a515a88f699807d2c213d7fa7bf56ed90e773b492895a875c884f2c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 打ち合わせの前に、資料を準備しておきます (〜ておく) is distinct from scheduling; pitch 0 verified.",
+        "contentHash": "ff346ca0c7c4bdeb103d8a16b41b3f78cb2c6bae39032957ed0ab6732653e737",
+        "approvalHash": "e27fc4215a515a88f699807d2c213d7fa7bf56ed90e773b492895a875c884f2c"
+      }
+    },
+    {
+      "id": "vocab-n4:573",
+      "revisionId": "023-ndup-vocab-n4-573",
+      "state": "accepted",
+      "predecessorHash": "a21a0dd4ac9ab6ae8b693e6098c6efc9ab1c6ef554813363823fbf426eda0c17",
+      "predecessorRevisionHash": null,
+      "originalHash": "a21a0dd4ac9ab6ae8b693e6098c6efc9ab1c6ef554813363823fbf426eda0c17",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "風鈴の音が涼しげです。",
+            "romaji": "Fuurin no oto ga suzushige desu.",
+            "german": "Das Windspiel klingt erfrischend."
+          },
+          {
+            "japanese": "風鈴の音が涼しげです。",
+            "romaji": "Fuurin no oto ga suzushige desu.",
+            "german": "Das Klangspiel klingt erfrischend."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "風鈴の音が涼しげです。",
+            "romaji": "Fuurin no oto ga suzushige desu.",
+            "german": "Das Windspiel klingt erfrischend."
+          },
+          {
+            "japanese": "夏になると、窓辺に風鈴をつるします。",
+            "romaji": "Natsu ni naru to, madobe ni fuurin o tsurushimasu.",
+            "german": "Im Sommer hänge ich ein Windspiel ans Fenster."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230782711",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "風鈴",
+              "reading": "ふうりん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "風鈴 as \"Windspiel\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1500090; spelling=風鈴; reading=ふうりん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "風鈴/ふうりん sense(s) 1 match \"Windspiel\" and the example contexts.",
+          "selected": {
+            "sequence": "1500090",
+            "spelling": "風鈴",
+            "reading": "ふうりん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wind chime",
+                  "wind bell"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:573; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"Windspiel\" unchanged; checked against JMdict 1500090.",
+        "japanese": "Example 1 (風鈴の音が涼しげです。) kept; new example 2 (夏になると、窓辺に風鈴をつるします。) is grammatical and natural.",
+        "romanization": "New romaji \"Natsu ni naru to, madobe ni fuurin o tsurushimasu.\" follows the N4 file convention.",
+        "translation": "New German \"Im Sommer hänge ich ein Windspiel ans Fenster.\" is faithful.",
+        "contexts": [
+          "Cool sound of a wind chime.",
+          "Hanging a wind chime in summer."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230782711",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "風鈴",
+              "reading": "ふうりん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "風鈴 as \"Windspiel\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "1a559921e1c99bdc1fc436464a6d097dd623c4ba652c8c62f83896e960566c5b",
+        "approvalHash": "b8e9ed4a20030a6c2a3c9b61dc69aa81d2d20a92a6a63221faf8251a91e596ec"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 夏になると、窓辺に風鈴をつるします (madobe, tsurushimasu) is a distinct seasonal-custom context; pitch 0 verified.",
+        "contentHash": "1a559921e1c99bdc1fc436464a6d097dd623c4ba652c8c62f83896e960566c5b",
+        "approvalHash": "b8e9ed4a20030a6c2a3c9b61dc69aa81d2d20a92a6a63221faf8251a91e596ec"
+      }
+    },
+    {
+      "id": "vocab-n4:577",
+      "revisionId": "023-ndup-vocab-n4-577",
+      "state": "accepted",
+      "predecessorHash": "974ca73fdb2703bb4687d59c9ac8fdbefd4c85ac60d6f27c05e94e388d857d5a",
+      "predecessorRevisionHash": null,
+      "originalHash": "974ca73fdb2703bb4687d59c9ac8fdbefd4c85ac60d6f27c05e94e388d857d5a",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "なるほど、そういうことですか。",
+            "romaji": "Naruhodo, sou iu koto desu ka.",
+            "german": "Ach so, das ist es also."
+          },
+          {
+            "japanese": "なるほど、そういうことですか。",
+            "romaji": "Naruhodo, sou iu koto desu ka.",
+            "german": "Ach so, so ist das also."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "なるほど、そういうことですか。",
+            "romaji": "Naruhodo, sou iu koto desu ka.",
+            "german": "Ach so, das ist es also."
+          },
+          {
+            "japanese": "なるほど、この方法なら早くできますね。",
+            "romaji": "Naruhodo, kono houhou nara hayaku dekimasu ne.",
+            "german": "Ich verstehe, mit dieser Methode geht es schneller."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@199814542",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "なるほど",
+              "reading": "なるほど",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "なるほど as \"ach so, ich verstehe\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1375820; spelling=なるほど; reading=なるほど; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "なるほど/なるほど sense(s) 1 match \"ach so, ich verstehe\" and the example contexts.",
+          "selected": {
+            "sequence": "1375820",
+            "spelling": "なるほど",
+            "reading": "なるほど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "I see",
+                  "that's right",
+                  "indeed"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:577; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"ach so, ich verstehe\" unchanged; checked against JMdict 1375820.",
+        "japanese": "Example 1 (なるほど、そういうことですか。) kept; new example 2 (なるほど、この方法なら早くできますね。) is grammatical and natural.",
+        "romanization": "New romaji \"Naruhodo, kono houhou nara hayaku dekimasu ne.\" follows the N4 file convention.",
+        "translation": "New German \"Ich verstehe, mit dieser Methode geht es schneller.\" is faithful.",
+        "contexts": [
+          "Realising what something means.",
+          "Agreeing with a suggested method."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@199814542",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "なるほど",
+              "reading": "なるほど",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "なるほど as \"ach so, ich verstehe\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "1228ffa1f334b3e45b89b0a139360285d9ee55164eb1c7f027bcce3bbf9b91b6",
+        "approvalHash": "369a0cea30a95f22a650aa71e9bdb7e565dcbdbde2e6b60a7cb8ba1bc8925c39"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): なるほど、この方法なら早くできますね is distinct (agreeing with a method); pitch 0 verified.",
+        "contentHash": "1228ffa1f334b3e45b89b0a139360285d9ee55164eb1c7f027bcce3bbf9b91b6",
+        "approvalHash": "369a0cea30a95f22a650aa71e9bdb7e565dcbdbde2e6b60a7cb8ba1bc8925c39"
+      }
+    },
+    {
+      "id": "vocab-n4:612",
+      "revisionId": "023-ndup-vocab-n4-612",
+      "state": "accepted",
+      "predecessorHash": "ce568228572852fc408f08b2c072d6cd9a4bdac523dcd022358f556ce7aad295",
+      "predecessorRevisionHash": null,
+      "originalHash": "ce568228572852fc408f08b2c072d6cd9a4bdac523dcd022358f556ce7aad295",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "あっさりした味が好きです。",
+            "romaji": "Assari shita aji ga suki desu.",
+            "german": "Ich mag einen schlichten Geschmack."
+          },
+          {
+            "japanese": "あっさりした味が好きです。",
+            "romaji": "Assari shita aji ga suki desu.",
+            "german": "Ich mag einen leichten Geschmack."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "あっさりした味が好きです。",
+            "romaji": "Assari shita aji ga suki desu.",
+            "german": "Ich mag einen schlichten Geschmack."
+          },
+          {
+            "japanese": "彼はあっさり負けを認めました。",
+            "romaji": "Kare wa assari make o mitomemashita.",
+            "german": "Er gab seine Niederlage ohne Weiteres zu."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44238070",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "あっさり",
+              "reading": "あっさり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "あっさり as \"leicht, schlicht, ohne Weiteres\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1000360; spelling=あっさり; reading=あっさり; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "あっさり/あっさり sense(s) 1,2 match \"leicht, schlicht, ohne Weiteres\" and the example contexts.",
+          "selected": {
+            "sequence": "1000360",
+            "spelling": "あっさり",
+            "reading": "あっさり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "easily",
+                  "readily",
+                  "quickly",
+                  "flatly (refuse)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "lightly (seasoned food, applied make-up, etc.)",
+                  "plainly",
+                  "simply"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:612; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"leicht, schlicht, ohne Weiteres\" unchanged; checked against JMdict 1000360.",
+        "japanese": "Example 1 (あっさりした味が好きです。) kept; new example 2 (彼はあっさり負けを認めました。) is grammatical and natural.",
+        "romanization": "New romaji \"Kare wa assari make o mitomemashita.\" follows the N4 file convention.",
+        "translation": "New German \"Er gab seine Niederlage ohne Weiteres zu.\" is faithful.",
+        "contexts": [
+          "Light taste (sense 2).",
+          "Readily admitting defeat (sense 1)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1,2; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44238070",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "あっさり",
+              "reading": "あっさり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "あっさり as \"leicht, schlicht, ohne Weiteres\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "3b378a6b3270d3a58839527daad0235903e9e1465a5e2315516b8bebbf66e577",
+        "approvalHash": "230714739ddd6c24152f12091d7cc9c4e6550c9d1229f6d4d0b3ad8e69779914"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 彼はあっさり負けを認めました shows the \"ohne Weiteres/readily\" sense listed in the meaning, distinct from light taste; pitch 3 verified.",
+        "contentHash": "3b378a6b3270d3a58839527daad0235903e9e1465a5e2315516b8bebbf66e577",
+        "approvalHash": "230714739ddd6c24152f12091d7cc9c4e6550c9d1229f6d4d0b3ad8e69779914"
+      }
+    },
+    {
+      "id": "vocab-n4:617",
+      "revisionId": "023-ndup-vocab-n4-617",
+      "state": "accepted",
+      "predecessorHash": "04678aef011925f51eb840a5222cbc9aec3822746c82dd5e689ecd380fa837c3",
+      "predecessorRevisionHash": null,
+      "originalHash": "04678aef011925f51eb840a5222cbc9aec3822746c82dd5e689ecd380fa837c3",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "めそめそ泣かないで。",
+            "romaji": "Mesomeso nakanaide.",
+            "german": "Wein nicht so weinerlich."
+          },
+          {
+            "japanese": "めそめそ泣かないで。",
+            "romaji": "Mesomeso nakanaide.",
+            "german": "Sei nicht so weinerlich."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "めそめそ泣かないで。",
+            "romaji": "Mesomeso nakanaide.",
+            "german": "Wein nicht so weinerlich."
+          },
+          {
+            "japanese": "失恋してから、姉は毎日めそめそしています。",
+            "romaji": "Shitsuren shite kara, ane wa mainichi mesomeso shite imasu.",
+            "german": "Seit ihrem Liebeskummer ist meine Schwester jeden Tag weinerlich."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261392595",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "めそめそ",
+              "reading": "めそめそ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "めそめそ as \"weinerlich\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1012450; spelling=めそめそ; reading=めそめそ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "めそめそ/めそめそ sense(s) 1 match \"weinerlich\" and the example contexts.",
+          "selected": {
+            "sequence": "1012450",
+            "spelling": "めそめそ",
+            "reading": "めそめそ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "sobbing",
+                  "weeping",
+                  "whimpering"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:617; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"weinerlich\" unchanged; checked against JMdict 1012450.",
+        "japanese": "Example 1 (めそめそ泣かないで。) kept; new example 2 (失恋してから、姉は毎日めそめそしています。) is grammatical and natural.",
+        "romanization": "New romaji \"Shitsuren shite kara, ane wa mainichi mesomeso shite imasu.\" follows the N4 file convention.",
+        "translation": "New German \"Seit ihrem Liebeskummer ist meine Schwester jeden Tag weinerlich.\" is faithful.",
+        "contexts": [
+          "Telling someone not to cry.",
+          "めそめそする describing a person's state."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261392595",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "めそめそ",
+              "reading": "めそめそ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "めそめそ as \"weinerlich\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "9fa4a3d5d79f059fafa277d8a740cad5943a6062bf46b3d18223c84db16c26e3",
+        "approvalHash": "820d4626bf300f77a578fc6b540725f7f4f11956399e582896bf6638c2164bb8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 失恋してから、姉は毎日めそめそしています (めそめそする) is distinct from the prohibition; pitch 1 verified.",
+        "contentHash": "9fa4a3d5d79f059fafa277d8a740cad5943a6062bf46b3d18223c84db16c26e3",
+        "approvalHash": "820d4626bf300f77a578fc6b540725f7f4f11956399e582896bf6638c2164bb8"
+      }
+    },
+    {
+      "id": "vocab-n4:618",
+      "revisionId": "023-ndup-vocab-n4-618",
+      "state": "accepted",
+      "predecessorHash": "391bd38013e7800625c34ae1b66a9f68ed9a3d870160d8c1d817633893d9cfb0",
+      "predecessorRevisionHash": null,
+      "originalHash": "391bd38013e7800625c34ae1b66a9f68ed9a3d870160d8c1d817633893d9cfb0",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "お腹がぺこぺこです。",
+            "romaji": "Onaka ga pekopeko desu.",
+            "german": "Ich bin total hungrig."
+          },
+          {
+            "japanese": "お腹がぺこぺこです。",
+            "romaji": "Onaka ga pekopeko desu.",
+            "german": "Ich bin sehr hungrig."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "お腹がぺこぺこです。",
+            "romaji": "Onaka ga pekopeko desu.",
+            "german": "Ich bin total hungrig."
+          },
+          {
+            "japanese": "彼はいつも上司にぺこぺこしています。",
+            "romaji": "Kare wa itsumo joushi ni pekopeko shite imasu.",
+            "german": "Er verbeugt sich ständig unterwürfig vor seinem Chef."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@242316387",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "ぺこぺこ",
+              "reading": "ぺこぺこ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "ぺこぺこ as \"hungrig, sich ständig verbeugend\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1011540; spelling=ぺこぺこ; reading=ぺこぺこ; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "ぺこぺこ/ぺこぺこ sense(s) 1,2 match \"hungrig, sich ständig verbeugend\" and the example contexts.",
+          "selected": {
+            "sequence": "1011540",
+            "spelling": "ぺこぺこ",
+            "reading": "ぺこぺこ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "very hungry",
+                  "starving",
+                  "famished"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "bowing repeatedly",
+                  "kowtowing",
+                  "bowing and scraping",
+                  "being obsequious",
+                  "being servile"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:618; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept; example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"hungrig, sich ständig verbeugend\" unchanged; checked against JMdict 1011540.",
+        "japanese": "Example 1 (お腹がぺこぺこです。) kept; new example 2 (彼はいつも上司にぺこぺこしています。) is grammatical and natural.",
+        "romanization": "New romaji \"Kare wa itsumo joushi ni pekopeko shite imasu.\" follows the N4 file convention.",
+        "translation": "New German \"Er verbeugt sich ständig unterwürfig vor seinem Chef.\" is faithful.",
+        "contexts": [
+          "Being very hungry (sense 1).",
+          "Bowing obsequiously (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1,2; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@242316387",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "ぺこぺこ",
+              "reading": "ぺこぺこ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "ぺこぺこ as \"hungrig, sich ständig verbeugend\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context.",
+        "contentHash": "e2d52bdbfe70d7d183e0a9bdbbca3cafa27b0f47cdaadd09486473bf794edee8",
+        "approvalHash": "479b84a5a604adc5dc31fd6acce275599b50396ba17ad8e4fb72add3e3d5a474"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 彼はいつも上司にぺこぺこしています shows the obsequious-bowing sense that the meaning lists, distinct from hunger; German \"verbeugt sich ständig unterwürfig\" accurate; pitch 1 verified.",
+        "contentHash": "e2d52bdbfe70d7d183e0a9bdbbca3cafa27b0f47cdaadd09486473bf794edee8",
+        "approvalHash": "479b84a5a604adc5dc31fd6acce275599b50396ba17ad8e4fb72add3e3d5a474"
+      }
+    },
+    {
+      "id": "vocab-n4:621",
+      "revisionId": "023-ndup-vocab-n4-621",
+      "state": "accepted",
+      "predecessorHash": "802d710b015bad3b99bd46065f5651f1c4f4b9b793dc5f1857c432538f7ad869",
+      "predecessorRevisionHash": null,
+      "originalHash": "802d710b015bad3b99bd46065f5651f1c4f4b9b793dc5f1857c432538f7ad869",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; repair example 1 romaji.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "星がきらきら光っています。",
+            "romaji": "Hoshi ga kirakira hikatteimasu.",
+            "german": "Die Sterne funkeln."
+          },
+          {
+            "japanese": "星がきらきら光っています。",
+            "romaji": "Hoshi ga kirakira hikatte imasu.",
+            "german": "Die Sterne funkeln."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "星がきらきら光っています。",
+            "romaji": "Hoshi ga kirakira hikatte imasu.",
+            "german": "Die Sterne funkeln."
+          },
+          {
+            "japanese": "子どもの目がきらきら輝いていました。",
+            "romaji": "Kodomo no me ga kirakira kagayaite imashita.",
+            "german": "Die Augen des Kindes funkelten."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106686272",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "きらきら",
+              "reading": "きらきら",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "きらきら as \"funkelnd, glitzernd\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1003500; spelling=きらきら; reading=きらきら; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "きらきら/きらきら sense(s) 1 match \"funkelnd, glitzernd\" and the example contexts.",
+          "selected": {
+            "sequence": "1003500",
+            "spelling": "きらきら",
+            "reading": "きらきら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "glittering",
+                  "sparkling",
+                  "glistening",
+                  "twinkling"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:621; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept (with the documented repair: {\"romaji\":\"Hoshi ga kirakira hikatte imasu.\"}); example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"funkelnd, glitzernd\" unchanged; checked against JMdict 1003500.",
+        "japanese": "Example 1 (星がきらきら光っています。) kept; new example 2 (子どもの目がきらきら輝いていました。) is grammatical and natural.",
+        "romanization": "New romaji \"Kodomo no me ga kirakira kagayaite imashita.\" follows the N4 file convention.",
+        "translation": "New German \"Die Augen des Kindes funkelten.\" is faithful.",
+        "contexts": [
+          "Sparkling stars.",
+          "Sparkling eyes of a child."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106686272",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "きらきら",
+              "reading": "きらきら",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "きらきら as \"funkelnd, glitzernd\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; repair example 1 romaji.",
+        "contentHash": "ce1ba1a70e7584b3719503a20133324684e3ae354af9086b67620e1fb3bdcb10",
+        "approvalHash": "a3fc38855f35599d22c6f8f4c411d67b4a62b308a83b60d84fcc6ece4d4c8aa9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): example 1 romaji repaired to \"hikatte imasu\"; 子どもの目がきらきら輝いていました (kagayaite) is distinct; pitch 1 verified.",
+        "contentHash": "ce1ba1a70e7584b3719503a20133324684e3ae354af9086b67620e1fb3bdcb10",
+        "approvalHash": "a3fc38855f35599d22c6f8f4c411d67b4a62b308a83b60d84fcc6ece4d4c8aa9"
+      }
+    },
+    {
+      "id": "vocab-n4:635",
+      "revisionId": "023-ndup-vocab-n4-635",
+      "state": "accepted",
+      "predecessorHash": "1507686ade9001e4e0a588eae4a9991ebe4161a4af61528a4d9f076e0920ffb1",
+      "predecessorRevisionHash": null,
+      "originalHash": "1507686ade9001e4e0a588eae4a9991ebe4161a4af61528a4d9f076e0920ffb1",
+      "rationale": "Replace the repeated Japanese sentence in example 2 with a new, distinct context; repair example 1 german; fix German spelling in the meaning (abreißen, zerpflücken).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "パンをちぎって食べます。",
+            "romaji": "Pan o chigitte tabemasu.",
+            "german": "Ich reisse das Brot ab und esse es."
+          },
+          {
+            "japanese": "パンをちぎって食べます。",
+            "romaji": "Pan o chigitte tabemasu.",
+            "german": "Ich reiße das Brot ab und esse es."
+          }
+        ],
+        "meaning": "abreissen, zerpflücken",
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "パンをちぎって食べます。",
+            "romaji": "Pan o chigitte tabemasu.",
+            "german": "Ich reiße das Brot ab und esse es."
+          },
+          {
+            "japanese": "いらない紙を小さくちぎって捨てました。",
+            "romaji": "Iranai kami o chiisaku chigitte sutemashita.",
+            "german": "Ich habe das unnötige Papier in kleine Stücke gerissen und weggeworfen."
+          }
+        ],
+        "meaning": "abreißen, zerpflücken",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168833400",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "ちぎる",
+              "reading": "ちぎる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "ちぎる as \"abreißen, zerpflücken\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1389020; spelling=ちぎる; reading=ちぎる; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "ちぎる/ちぎる sense(s) 1 match \"abreissen, zerpflücken\" and the example contexts.",
+          "selected": {
+            "sequence": "1389020",
+            "spelling": "ちぎる",
+            "reading": "ちぎる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to tear to pieces",
+                  "to tear to shreds",
+                  "to tear up"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Runtime repeated-Japanese scan (lead request)",
+          "version": "2026-09-23",
+          "locator": "merged runtime vocab-n4:635; examples[].japanese equal after NFKC + whitespace removal",
+          "finding": "Example 2 repeated example 1's Japanese sentence with only a reworded German translation. Example 1 kept (with the documented repair: {\"german\":\"Ich reiße das Brot ab und esse es.\"}); example 2 replaced with a new distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-023-editor",
+        "meaning": "\"abreißen, zerpflücken\" (spelling ss→ß corrected); checked against JMdict 1389020.",
+        "japanese": "Example 1 (パンをちぎって食べます。) kept; new example 2 (いらない紙を小さくちぎって捨てました。) is grammatical and natural.",
+        "romanization": "New romaji \"Iranai kami o chiisaku chigitte sutemashita.\" follows the N4 file convention.",
+        "translation": "New German \"Ich habe das unnötige Papier in kleine Stücke gerissen und weggeworfen.\" is faithful.",
+        "contexts": [
+          "Tearing bread to eat.",
+          "Tearing paper into small pieces."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict sense(s) 1; no sense added or removed.",
+        "register": "Everyday register as in the sentences.",
+        "transitivity": "godan verb; transitivity as in JMdict and the examples.",
+        "conjugation": "Existing godan metadata unchanged.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168833400",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Existing pitch attested by the exact row; unchanged.",
+            "match": {
+              "word": "ちぎる",
+              "reading": "ちぎる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "ちぎる as \"abreißen, zerpflücken\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-023-editor",
+        "finding": "Editorial first pass: Replace the repeated Japanese sentence in example 2 with a new, distinct context; repair example 1 german; fix German spelling in the meaning (abreißen, zerpflücken).",
+        "contentHash": "018d545bf075a1ab0fe052e272610e27baab075fee6f2e8c7d9000c24b42aab8",
+        "approvalHash": "b808818fe9a453cc7cda8c3bc769e06dce8d9ea9365916a5130d40a7e9ff96c0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): meaning is now \"abreißen, zerpflücken\" and the pitchProvenance match.sense uses the corrected meaning (no \"reiss\" left anywhere in the entry); example 1 German \"Ich reiße das Brot ab und esse es.\", new example いらない紙を小さくちぎって捨てました (tearing paper into pieces, distinct from bread) and pitch 2 (sys.dic ちぎる/チギル aType 2) unchanged and correct.",
+        "contentHash": "018d545bf075a1ab0fe052e272610e27baab075fee6f2e8c7d9000c24b42aab8",
+        "approvalHash": "b808818fe9a453cc7cda8c3bc769e06dce8d9ea9365916a5130d40a7e9ff96c0"
+      }
+    }
+  ],
+  "decisions": []
+}

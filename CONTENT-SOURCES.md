@@ -72,6 +72,69 @@ in the data. The 338 other non-Jōyō kanji remain.
 `npm run audit:content` asserts complete Jōyō coverage, stroke counts that match
 each diagram, and KANJIDIC2-attested counts for Jōyō entries.
 
+## Content review — 23 September 2026
+
+A full review of every dataset fixed factual defects first and then filled the most
+visible gaps. All new Japanese sentences, German explanations, notes and quiz
+distractors are original teaching text written for this app.
+
+**Grammar consolidation** (`scripts/consolidate-content.cjs`, idempotent). 39 entries
+that taught a pattern a second time (N3 and N2 copies, N2 and N1 copies, pairs inside
+N1, and hidden repeats such as ～て初めて/～てはじめて) were merged into the richer
+entry. Retired IDs stay in `legacyIds`, so bookmarks and links survive. Their distinct
+examples moved to the survivor as plain examples. Levels follow the public
+[JLPT Sensei N3](https://jlptsensei.com/jlpt-n3-grammar-list/) and
+[N2](https://jlptsensei.com/jlpt-n2-grammar-list/) grammar lists, retrieved
+23 September 2026. Patterns absent from both lists stay N1.
+- Eight N4 cards moved to N3 and ten N3 cards to N2.
+- Comparing all N4–N1 entries against those lists shows about 110 further level
+  differences. They are deliberately left unchanged: a second reference (Tanos) was
+  unreachable, and one publisher's placement is not enough to re-level. As with the
+  vocabulary, levels here are study estimates.
+
+**Keigo.**
+- The misnamed ご査証 entry now teaches ご笑納ください.
+- The 配膳する card now teaches お持ちする; 配膳する is a neutral technical verb.
+- Four subcategories were corrected.
+- The N3 overview cards now link to the detailed keigo entries.
+
+**New grammar** (`scripts/grammar-additions/*.json`, applied by
+`node scripts/add-grammar.cjs`; `--check` validates without writing). 98 points:
+- 13 N5, including こそあど and ～ませんか
+- 11 N4, including ～なくてはいけない and ～とく
+- 19 N3, including ～ついでに and ～たって
+- 55 N2, including ～あげく, ～に際して and ～ことだし
+
+Each point has three examples and a cloze with a reviewed quiz record. N5/N4 records
+include a kana-only prompt. The importer rejects any pattern variant that is already
+taught at any level.
+
+**Counters.**
+- Removed one invented counter (泊 for „Ankerplätze“) and three wrong duplicates
+  (輪 for rings, 錠 for locks, 滴 for infusions). Removed 帳, whose notebook examples
+  need 冊.
+- 部屋 now reads さんへや/なんへや (with みへや noted).
+- `npm run audit:counters` now fails on findings, including a repeated counter kanji.
+
+**Kanji and radicals.**
+- Five kanji examples did not contain their kanji: 娘, 崎, 慧, 房, 斐.
+- The 人 radical text wrongly said 今 and 会 use にんべん.
+- Ten radical examples were Simplified or traditional Chinese (e.g. 军, 鸡, 體).
+  They were replaced by Japanese kanji with that radical.
+- The content audit now rejects all three defects. The beginner audit now actually
+  loads the N1 kanji.
+
+**Kana.** The kana tab gains 24 extended katakana for loanword sounds (katakana
+mode only) and a table of five small characters and marks: っ, ー, the small vowels,
+々, and the historical ゐ/ゑ. Each has two example words.
+`npm run test:kana` covers both.
+
+**Onomatopoeia.** The 36 September additions now carry their real shape tags
+(ABり, ABAB, ABっと) instead of Sonstige; see `scripts/onomatopoeia-pattern.cjs`.
+Six adjectives and verbs that are not sound or mimetic words (ぎこちない, ぞんざい,
+もたつく, しゃちほこばる, たどたどしい, ぶっきらぼう) moved to the vocabulary
+(batch 021) and were removed from this section.
+
 ## Reproduction and checks
 
 Run `node scripts/edit-content.cjs` for the TSV edits, and
@@ -264,3 +327,17 @@ reviews. 大変's adverbial and adjectival uses have separate supporting UniDic 
 For お茶, no exact UniDic row was available; the Japan Foundation's official
 [Marugoto Elementary 2 vocabulary index](https://marugoto.jpf.go.jp/assets/docs/download/elementary2_c/MarugotoElementary2CompetencesVocabularyIndex2_PT.pdf)
 supplies the complete おちゃ form with a flat accent mark (pattern 0).
+
+## Vocabulary maintenance batches 021–022 — 23 September 2026
+
+Reported defects and missing words were researched offline against the cached
+JMdict_e (EDRDG, CC BY-SA 4.0) and 現代書き言葉UniDic 2025.12 (NINJAL, modified BSD)
+using the same exact-form matching as the correction research scripts. The results
+are in `scripts/vocabulary-completion/maintenance-021/research-supplement.json` and
+`maintenance-022/research-supplement.json`. Levels follow the cached Tanos, JLPT
+Sensei and Nihongo Master rows wherever at least two publishers agree. Otherwise
+each record documents its editorial basis, for example that 投手 is on none of the
+lists. The [Nihongo Master 投手 page](https://www.nihongomaster.com/japanese/dictionary/word/42959)
+gives no JLPT level for the word. All German meanings, notes, example sentences
+and translations are original teaching text. Pitch is shown only where an exact
+UniDic row attests it.

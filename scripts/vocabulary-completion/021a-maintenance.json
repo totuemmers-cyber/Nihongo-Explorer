@@ -1,0 +1,3661 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:831",
+      "revisionId": "021-defect-ouji",
+      "state": "accepted",
+      "predecessorHash": "d879dea8d4c635480e44082b898fd5f6e26c088089723dbe057a9d724b56a73b",
+      "predecessorRevisionHash": null,
+      "originalHash": "d879dea8d4c635480e44082b898fd5f6e26c088089723dbe057a9d724b56a73b",
+      "rationale": "王子 was typed Partikel and placed at N5. It is a common noun and both listing publishers place it at N3.",
+      "original": {
+        "type": "Partikel",
+        "level": "N5",
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "type": "Nomen",
+        "level": "N3",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@73519868",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Common-noun prince row (not the place-name row) attests 1.",
+            "match": {
+              "word": "王子",
+              "reading": "おうじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "王子 as \"Prinz\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1181500; spelling=王子; reading=おうじ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "王子 prince, common noun (not a particle).",
+          "selected": {
+            "sequence": "1181500",
+            "spelling": "王子",
+            "reading": "おうじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prince"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Publisher level comparison",
+          "version": "retrieved 2026-09-04/05; .content-cache/jlpt-vocabulary/comparison.json",
+          "locator": "scripts/vocabulary-review.json; comparison.json",
+          "finding": "Both publishers that list 王子/おうじ place it at N3: Tanos VocabList.N3 (https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf) and Nihongo Master N3 list (https://www.nihongomaster.com/jlpt-n3-vocabulary-list) (scripts/vocabulary-review.json decision 王子|おうじ, referenceIds 11,133; .content-cache/jlpt-vocabulary/comparison.json rows tanos:N3, master:N3). No N5 publisher support."
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n5:831 after vocab-correction-rules.js",
+          "finding": "王子 was typed Partikel and placed at N5. It is a common noun and both listing publishers place it at N3."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "level-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "Prinz matches JMdict sense 1; the Kumano-shrine sense is not taught.",
+        "japanese": "Both sentences (narrative quote; 王子様 in a castle) are natural.",
+        "romanization": "ouji / Oujisama match.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Fairy-tale narration quoting the prince.",
+          "Honorific 王子様 living in a castle."
+        ],
+        "level": "N5→N3 with two-publisher N3 agreement.",
+        "lexical": "王子 prince, common noun (not a particle).",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Common-noun prince row (not the place-name row) attests 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@73519868",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Common-noun prince row (not the place-name row) attests 1.",
+            "match": {
+              "word": "王子",
+              "reading": "おうじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "王子 as \"Prinz\"."
+            }
+          }
+        ]
+      },
+      "levelBasis": "Both publishers that list 王子/おうじ place it at N3: Tanos VocabList.N3 (https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf) and Nihongo Master N3 list (https://www.nihongomaster.com/jlpt-n3-vocabulary-list) (scripts/vocabulary-review.json decision 王子|おうじ, referenceIds 11,133; .content-cache/jlpt-vocabulary/comparison.json rows tanos:N3, master:N3). No N5 publisher support.",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: 王子 was typed Partikel and placed at N5. It is a common noun and both listing publishers place it at N3. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "8485abacc70787824805c58a843c437a7408b7a6c6e3b7889f92c6aaa4820a2d",
+        "approvalHash": "c1a232d9c1ff29a6794b956fa63fe80c539f7d8283061fa4de1896153753a3c3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 王子 Partikel->Nomen is correct (JMdict 1181500 common noun); N5->N3 follows comparison.json 王子|おうじ tanos N3 + master N3; pitch 1 matches sys.dic@73519868 (名詞/普通名詞, aType 1); fairy-tale quote vs. 王子様 living in a castle are distinct contexts and romaji/German match.",
+        "contentHash": "8485abacc70787824805c58a843c437a7408b7a6c6e3b7889f92c6aaa4820a2d",
+        "approvalHash": "c1a232d9c1ff29a6794b956fa63fe80c539f7d8283061fa4de1896153753a3c3"
+      }
+    },
+    {
+      "id": "vocab-n5:1194",
+      "revisionId": "021-defect-toushu",
+      "state": "accepted",
+      "predecessorHash": "9cbca67c470bf6650229a2ccc1e3aafa00d27e1688693f3868535089f82fd56f",
+      "predecessorRevisionHash": null,
+      "originalHash": "9cbca67c470bf6650229a2ccc1e3aafa00d27e1688693f3868535089f82fd56f",
+      "rationale": "投手 was typed Partikel at N5. It is a specialist common noun (baseball pitcher) with no beginner-list support.",
+      "original": {
+        "type": "Partikel",
+        "level": "N5",
+        "meaning": "Werfer",
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "type": "Nomen",
+        "level": "N2",
+        "meaning": "Werfer, Pitcher (Baseball)",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183379385",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Common-noun row attests 1.",
+            "match": {
+              "word": "投手",
+              "reading": "とうしゅ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "投手 as \"Werfer, Pitcher (Baseball)\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1447260; spelling=投手; reading=とうしゅ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "投手 pitcher, common noun.",
+          "selected": {
+            "sequence": "1447260",
+            "spelling": "投手",
+            "reading": "とうしゅ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pitcher"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Publisher level comparison",
+          "version": "retrieved 2026-09-04/05; .content-cache/jlpt-vocabulary/comparison.json",
+          "locator": "scripts/vocabulary-review.json; comparison.json",
+          "finding": "投手 appears in none of the three publisher lists (Tanos, JLPT Sensei, Nihongo Master: absent from .content-cache/jlpt-vocabulary/comparison.json); the Nihongo Master dictionary page https://www.nihongomaster.com/japanese/dictionary/word/42959 gives no JLPT level for the word, only 投 (JLPT 3) and 手 (JLPT 5). Specialist baseball term; N5 is unsupported. Editorial estimate N2 (no multi-publisher support available)."
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n5:1194 after vocab-correction-rules.js",
+          "finding": "投手 was typed Partikel at N5. It is a specialist common noun (baseball pitcher) with no beginner-list support."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "level-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "Werfer, Pitcher (Baseball) matches JMdict pitcher; German clarified.",
+        "japanese": "Both examples natural.",
+        "romanization": "toushu matches.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Father's profession as a professional pitcher.",
+          "A pitcher throwing fast balls."
+        ],
+        "level": "N5→N2 editorial estimate; documented absence from all three lists.",
+        "lexical": "投手 pitcher, common noun.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Common-noun row attests 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183379385",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Common-noun row attests 1.",
+            "match": {
+              "word": "投手",
+              "reading": "とうしゅ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "投手 as \"Werfer, Pitcher (Baseball)\"."
+            }
+          }
+        ]
+      },
+      "levelBasis": "投手 appears in none of the three publisher lists (Tanos, JLPT Sensei, Nihongo Master: absent from .content-cache/jlpt-vocabulary/comparison.json); the Nihongo Master dictionary page https://www.nihongomaster.com/japanese/dictionary/word/42959 gives no JLPT level for the word, only 投 (JLPT 3) and 手 (JLPT 5). Specialist baseball term; N5 is unsupported. Editorial estimate N2 (no multi-publisher support available).",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: 投手 was typed Partikel at N5. It is a specialist common noun (baseball pitcher) with no beginner-list support. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "a6cce533e90e054ac560e73bd56c48dca1509403a1a7eb6a6f6064fa2e738d13",
+        "approvalHash": "f64849b9733f05c524b4cccf4e727d749b04b4ecfef131dab92305f373982533"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): meaning now \"Werfer, Pitcher (Baseball)\" and pitchProvenance sense text updated to match; everything else unchanged from round 1 (Partikel->Nomen per JMdict 1447260, editorial N2 with documented absence from comparison.json, pitch 1 = sys.dic@183379385, two distinct contexts).",
+        "contentHash": "a6cce533e90e054ac560e73bd56c48dca1509403a1a7eb6a6f6064fa2e738d13",
+        "approvalHash": "f64849b9733f05c524b4cccf4e727d749b04b4ecfef131dab92305f373982533"
+      }
+    },
+    {
+      "id": "vocab-n5:1302",
+      "revisionId": "021-defect-byou-suffix",
+      "state": "accepted",
+      "predecessorHash": "f08514d1d87cac469a1ef3128533771f7d3e3771e418d0addd28f2eeae155fa5",
+      "predecessorRevisionHash": null,
+      "originalHash": "f08514d1d87cac469a1ef3128533771f7d3e3771e418d0addd28f2eeae155fa5",
+      "rationale": "Level N5 is unsupported; example 2 used 病気 and did not illustrate the suffix at all. Replaced it with a suffix compound and added a note separating 〜病 from 病気.",
+      "original": {
+        "level": "N5",
+        "meaning": "Krankheit",
+        "notes": null,
+        "pitch": 0,
+        "examples": [
+          {
+            "japanese": "アルツハイマー病のせいで、色々な事を思い出せない時があります。",
+            "romaji": "Arutsuhaimaabyou no sei de, iroiro na koto o omoidasenai toki ga arimasu.",
+            "german": "Wegen der Alzheimer-Krankheit kann ich mich manchmal an verschiedene Dinge nicht erinnern."
+          },
+          {
+            "japanese": "どんな病気ですか。",
+            "romaji": "Donna byouki desu ka.",
+            "german": "Was für eine Krankheit ist es?"
+          }
+        ]
+      },
+      "replacement": {
+        "level": "N3",
+        "meaning": "-krankheit (Suffix)",
+        "notes": "Suffix für Krankheitsnamen: 心臓病 (Herzkrankheit), アルツハイマー病 (Alzheimer-Krankheit). Allein steht 病 nicht als びょう; das allgemeine Wort für Krankheit ist 病気（びょうき）.",
+        "pitch": null,
+        "examples": [
+          {
+            "japanese": "アルツハイマー病のせいで、色々な事を思い出せない時があります。",
+            "romaji": "Arutsuhaimaabyou no sei de, iroiro na koto o omoidasenai toki ga arimasu.",
+            "german": "Wegen der Alzheimer-Krankheit kann ich mich manchmal an verschiedene Dinge nicht erinnern."
+          },
+          {
+            "japanese": "祖父は心臓病で入院しています。",
+            "romaji": "Sofu wa shinzoubyou de nyuuin shite imasu.",
+            "german": "Mein Großvater ist wegen einer Herzkrankheit im Krankenhaus."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2701230; spelling=病; reading=びょう; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 病【びょう】 is a suffix (disease), matching the 〜病 headword.",
+          "selected": {
+            "sequence": "2701230",
+            "spelling": "病",
+            "reading": "びょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "disease"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Publisher level comparison",
+          "version": "retrieved 2026-09-04/05; .content-cache/jlpt-vocabulary/comparison.json",
+          "locator": "scripts/vocabulary-review.json; comparison.json",
+          "finding": "No publisher lists the suffix 〜病 (comparison.json only has 病|やまい at Tanos/Master N1, a different reading). Kanji 病 is taught with 病気 at beginner level, but productive medical compounds (心臓病, アルツハイマー病) are intermediate; N5 is unsupported. Editorial estimate N3 (intermediate medical vocabulary). Note: publishers list the sister suffix 症 at N1 (Tanos, Nihongo Master); 〜症 itself is not re-levelled in this batch."
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n5:1302 after vocab-correction-rules.js",
+          "finding": "Level N5 is unsupported; example 2 used 病気 and did not illustrate the suffix at all. Replaced it with a suffix compound and added a note separating 〜病 from 病気."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level-correction",
+          "example-correction",
+          "meaning-clarification"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "Suffix sense per JMdict 2701230; German now marks it as suffix.",
+        "japanese": "Example 1 (アルツハイマー病) retained; new 心臓病 example natural.",
+        "romanization": "Arutsuhaimaabyou; shinzoubyou, nyuuin checked.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Alzheimer's disease affecting memory.",
+          "Grandfather hospitalised with heart disease."
+        ],
+        "level": "N5→N3 editorial; no list support available.",
+        "lexical": "JMdict 病【びょう】 is a suffix (disease), matching the 〜病 headword.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "病 / ビョウ: the only exact UniDic row (sys.dic@229638188, 接尾辞/名詞的) has aType *; no attested accent. The previous 0 is unsupported.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 〜病 / びょう",
+            "finding": "病 / ビョウ: the only exact UniDic row (sys.dic@229638188, 接尾辞/名詞的) has aType *; no attested accent. The previous 0 is unsupported."
+          }
+        ]
+      },
+      "levelBasis": "No publisher lists the suffix 〜病 (comparison.json only has 病|やまい at Tanos/Master N1, a different reading). Kanji 病 is taught with 病気 at beginner level, but productive medical compounds (心臓病, アルツハイマー病) are intermediate; N5 is unsupported. Editorial estimate N3 (intermediate medical vocabulary). Note: publishers list the sister suffix 症 at N1 (Tanos, Nihongo Master); 〜症 itself is not re-levelled in this batch.",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Level N5 is unsupported; example 2 used 病気 and did not illustrate the suffix at all. Replaced it with a suffix compound and added a note separating 〜病 from 病気. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "4ecd40c38ba70f77ac09806f278329c95afb03f0950c4969b59e65a7caa5ae8d",
+        "approvalHash": "b48f1f7f829747db6eed29a01ce32903211b54d310384c30f3fb3d9da784308c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): levelBasis no longer anchors on 〜症 N3; it now gives the independent basis (only 病|やまい N1 in comparison.json, productive medical compounds intermediate) and truthfully notes that publishers list 症 at N1 (I confirmed tanos N1 + master N1). Content (心臓病 example, note, null pitch from sys.dic@229638188 aType *) unchanged and correct.",
+        "contentHash": "4ecd40c38ba70f77ac09806f278329c95afb03f0950c4969b59e65a7caa5ae8d",
+        "approvalHash": "b48f1f7f829747db6eed29a01ce32903211b54d310384c30f3fb3d9da784308c"
+      }
+    },
+    {
+      "id": "vocab-n5:1220",
+      "revisionId": "021-defect-ken-suffix",
+      "state": "accepted",
+      "predecessorHash": "7f319158bbe52265d14021d94f5417ef5315afbfd7a111e895dfcf264a6af661",
+      "predecessorRevisionHash": null,
+      "originalHash": "7f319158bbe52265d14021d94f5417ef5315afbfd7a111e895dfcf264a6af661",
+      "rationale": "〜県 sat at N5 without publisher support; both listing publishers give N3.",
+      "original": {
+        "level": "N5",
+        "pitch": 0
+      },
+      "replacement": {
+        "level": "N3",
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1258810; spelling=県; reading=けん; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 県 prefecture (noun, also used as suffix).",
+          "selected": {
+            "sequence": "1258810",
+            "spelling": "県",
+            "reading": "けん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prefecture (of Japan)",
+                  "county (of China, Taiwan, Norway, etc.)",
+                  "department (of France)",
+                  "province (of Italy, Spain, etc.)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Publisher level comparison",
+          "version": "retrieved 2026-09-04/05; .content-cache/jlpt-vocabulary/comparison.json",
+          "locator": "scripts/vocabulary-review.json; comparison.json",
+          "finding": "Both publishers listing 県/けん place it at N3: Tanos VocabList.N3 (https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf) and Nihongo Master N3 list (https://www.nihongomaster.com/jlpt-n3-vocabulary-list) (comparison.json 県|けん rows tanos:N3, master:N3; vocabulary-review.json referenceIds 157,132). No N5 support."
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n5:1220 after vocab-correction-rules.js",
+          "finding": "〜県 sat at N5 without publisher support; both listing publishers give N3."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "Präfektur matches.",
+        "japanese": "何県 question and prefecture list are natural.",
+        "romanization": "Nani ken / Hyougo-ken checked.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Asking which prefecture someone comes from.",
+          "Listing visited prefectures (府 vs 県)."
+        ],
+        "level": "N5→N3 two-publisher agreement.",
+        "lexical": "JMdict 県 prefecture (noun, also used as suffix).",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Only the independent noun 県 (sys.dic@118662546, aType 1) exists; the headword is the suffix 〜県, whose accent merges with the preceding name (兵庫県). The previous 0 is unsupported; no form-exact suffix row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 〜県 / けん",
+            "finding": "Only the independent noun 県 (sys.dic@118662546, aType 1) exists; the headword is the suffix 〜県, whose accent merges with the preceding name (兵庫県). The previous 0 is unsupported; no form-exact suffix row."
+          }
+        ]
+      },
+      "levelBasis": "Both publishers listing 県/けん place it at N3: Tanos VocabList.N3 (https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf) and Nihongo Master N3 list (https://www.nihongomaster.com/jlpt-n3-vocabulary-list) (comparison.json 県|けん rows tanos:N3, master:N3; vocabulary-review.json referenceIds 157,132). No N5 support.",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: 〜県 sat at N5 without publisher support; both listing publishers give N3. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "9f3829c864001525487ab2d26def2d88a8fc4305b80534ddf1c798713a674a55",
+        "approvalHash": "690c2a0fd63dd72ded4fa70070f33e2ff95d77e5941d080f0709c393de39c099"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): N5->N3 follows comparison.json 県|けん tanos N3 + master N3 (verified); pitch set to null is conservative and correct since only the standalone noun row (aType 1) exists, not the suffix; 何県 (nani ken) and the 府/県 listing (Oosaka-fu … Hyougo-ken) are correctly romanized and distinct.",
+        "contentHash": "9f3829c864001525487ab2d26def2d88a8fc4305b80534ddf1c798713a674a55",
+        "approvalHash": "690c2a0fd63dd72ded4fa70070f33e2ff95d77e5941d080f0709c393de39c099"
+      }
+    },
+    {
+      "id": "vocab-n3:2654",
+      "revisionId": "021-defect-shou-suffix",
+      "state": "accepted",
+      "predecessorHash": "ab4ba137e95b1e2ffcacc2e588af13b5126d5d8a01383f566ce6b3327dc82908",
+      "predecessorRevisionHash": null,
+      "originalHash": "ab4ba137e95b1e2ffcacc2e588af13b5126d5d8a01383f566ce6b3327dc82908",
+      "rationale": "〜症 was typed Adjektiv; it is a suffix (JMdict suffix), and the app types most affix entries (49, e.g. 〜円, 〜県, 〜病) as Partikel. Example romanization \"tsuzura rete\" repaired; a second everyday suffix example added.",
+      "original": {
+        "type": "Adjektiv",
+        "meaning": "Syndrom",
+        "notes": null,
+        "pitch": 0,
+        "examples": [
+          {
+            "japanese": "岸田さんのエッセーには、車いすのお母さんとダウン症の弟さんとの日々がつづられています。",
+            "romaji": "Kishidasan no essee ni wa, kurumaisu no okaasan to daunshou no otoutosan to no hibi ga tsuzura rete imasu.",
+            "german": "In Frau Kishidas Essay schreibt sie über ihren Alltag mit ihrer Mutter im Rollstuhl und ihrem Bruder mit Down-Syndrom."
+          }
+        ]
+      },
+      "replacement": {
+        "type": "Partikel",
+        "meaning": "-krankheit, -syndrom (Suffix)",
+        "notes": "Suffix für Krankheiten und Symptome: 花粉症 (Heuschnupfen), 熱中症 (Hitzschlag), ダウン症 (Down-Syndrom). Wie die anderen Affixe dieser App als Partikel eingeordnet; es ist kein Adjektiv.",
+        "pitch": null,
+        "examples": [
+          {
+            "japanese": "岸田さんのエッセーには、車いすのお母さんとダウン症の弟さんとの日々がつづられています。",
+            "romaji": "Kishida-san no essee ni wa, kurumaisu no okaasan to daunshou no otouto-san to no hibi ga tsuzurarete imasu.",
+            "german": "In Frau Kishidas Essay schreibt sie über ihren Alltag mit ihrer Mutter im Rollstuhl und ihrem Bruder mit Down-Syndrom."
+          },
+          {
+            "japanese": "毎年春になると、花粉症で目がかゆくなります。",
+            "romaji": "Maitoshi haru ni naru to, kafunshou de me ga kayuku narimasu.",
+            "german": "Jedes Jahr im Frühling jucken mir wegen Heuschnupfen die Augen."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1351000; spelling=症; reading=しょう; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 症【しょう】 is a suffix (illness, condition).",
+          "selected": {
+            "sequence": "1351000",
+            "spelling": "症",
+            "reading": "しょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "illness",
+                  "condition",
+                  "-pathy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2654 after vocab-correction-rules.js",
+          "finding": "〜症 was typed Adjektiv; it is a suffix (JMdict suffix), and the app types most affix entries (49, e.g. 〜円, 〜県, 〜病) as Partikel. Example romanization \"tsuzura rete\" repaired; a second everyday suffix example added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "example-correction",
+          "meaning-clarification"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "Suffix sense; German clarified.",
+        "japanese": "Existing essay sentence retained; 花粉症 example natural.",
+        "romanization": "tsuzurarete (passive) and otouto-san repaired; new sentence checked.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Essay about a brother with Down syndrome.",
+          "Seasonal hay fever symptoms."
+        ],
+        "level": "N3 retained.",
+        "lexical": "JMdict 症【しょう】 is a suffix (illness, condition).",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "症 / ショウ: the only exact UniDic row (sys.dic@140590438, 接尾辞) has aType *; previous 0 unsupported.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 〜症 / しょう",
+            "finding": "症 / ショウ: the only exact UniDic row (sys.dic@140590438, 接尾辞) has aType *; previous 0 unsupported."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: 〜症 was typed Adjektiv; it is a suffix (JMdict suffix), and the app types most affix entries (49, e.g. 〜円, 〜県, 〜病) as Partikel. Example romanization \"tsuzura rete\" repaired; a second everyday suffix example added. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "1287da76989d9ade30f8da93ca0def4846d951dc1f4bd077346494edd96be9c0",
+        "approvalHash": "c49f79366b3c79f8277aca2ed3c1f78210a82b590f1f0c0b4ee804d7957f45fd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): rationale/evidence now say \"most affix entries (49, e.g. 〜円, 〜県, 〜病)\" instead of \"all\", which matches my count (49 Partikel affixes, others like 〜的/我が〜/即〜 differ); content unchanged (Partikel, repaired \"tsuzurarete\", 花粉症 example, null pitch). Level N3 still differs from tanos/master N1 for 症|しょう; accepted as out of scope since it is being reported separately.",
+        "contentHash": "1287da76989d9ade30f8da93ca0def4846d951dc1f4bd077346494edd96be9c0",
+        "approvalHash": "c49f79366b3c79f8277aca2ed3c1f78210a82b590f1f0c0b4ee804d7957f45fd"
+      }
+    },
+    {
+      "id": "vocab-n5:1338",
+      "revisionId": "021-defect-shikashi",
+      "state": "accepted",
+      "predecessorHash": "8da8822adb42945a5b195d3e8c61c94c9a9af803d10109b4e1b8ed9b7cafe0d7",
+      "predecessorRevisionHash": null,
+      "originalHash": "8da8822adb42945a5b195d3e8c61c94c9a9af803d10109b4e1b8ed9b7cafe0d7",
+      "rationale": "Conjunction typed Partikel; recoded to Ausdruck like だから/そして.",
+      "original": {
+        "type": "Partikel",
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "type": "Ausdruck",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134259035",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "接続詞 row attests 2.",
+            "match": {
+              "word": "しかし",
+              "reading": "しかし",
+              "grammaticalForm": "接続詞/*/*/*; *; *",
+              "sense": "しかし as \"jedoch\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1505990; spelling=しかし; reading=しかし; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "しかし conjunction however/but.",
+          "selected": {
+            "sequence": "1505990",
+            "spelling": "しかし",
+            "reading": "しかし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "however",
+                  "but"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n5:1338 after vocab-correction-rules.js",
+          "finding": "Conjunction typed Partikel; recoded to Ausdruck like だから/そして."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "jedoch correct.",
+        "japanese": "Both sentence-initial uses natural.",
+        "romanization": "Checked.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Revealing something was a lie.",
+          "Contrasting difficulty with interest."
+        ],
+        "level": "N5 retained.",
+        "lexical": "しかし conjunction however/but.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "接続詞 row attests 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134259035",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "接続詞 row attests 2.",
+            "match": {
+              "word": "しかし",
+              "reading": "しかし",
+              "grammaticalForm": "接続詞/*/*/*; *; *",
+              "sense": "しかし as \"jedoch\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Conjunction typed Partikel; recoded to Ausdruck like だから/そして. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "286e97f2f738a693ac244c7e46fc232af2dcf4824d81fb4085f87c0fe21f0426",
+        "approvalHash": "2026b20e2a563d911acbe988d70a60912f33d3e4a79a1c62d30fedf1935ca48e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): しかし Partikel->Ausdruck matches the conjunction convention (だから/そして are Ausdruck in vocab-n4/n5); pitch 2 confirmed at sys.dic@134259035 (接続詞, aType 2); lie-revelation and 難しい/面白い contrast examples are distinct and correctly translated.",
+        "contentHash": "286e97f2f738a693ac244c7e46fc232af2dcf4824d81fb4085f87c0fe21f0426",
+        "approvalHash": "2026b20e2a563d911acbe988d70a60912f33d3e4a79a1c62d30fedf1935ca48e"
+      }
+    },
+    {
+      "id": "vocab-n4:314",
+      "revisionId": "021-defect-soretomo",
+      "state": "accepted",
+      "predecessorHash": "1d6a9ccbfcceb919eeeefb1aff96adca4c8f6d6c9abbbc03fa58c624656528cf",
+      "predecessorRevisionHash": null,
+      "originalHash": "1d6a9ccbfcceb919eeeefb1aff96adca4c8f6d6c9abbbc03fa58c624656528cf",
+      "rationale": "Conjunction typed Partikel; recoded to Ausdruck. The two examples were the same coffee-or-tea situation; the second now asks about transport.",
+      "original": {
+        "type": "Partikel",
+        "pitch": 3,
+        "examples": [
+          {
+            "japanese": "コーヒーですか、それとも紅茶ですか。",
+            "romaji": "Koohii desu ka, soretomo koucha desu ka.",
+            "german": "Kaffee oder Tee?"
+          },
+          {
+            "japanese": "コーヒーにしますか、それともお茶にしますか。",
+            "romaji": "Koohii ni shimasu ka, soretomo ocha ni shimasu ka.",
+            "german": "Nehmen Sie Kaffee oder lieber Tee?"
+          }
+        ]
+      },
+      "replacement": {
+        "type": "Ausdruck",
+        "pitch": null,
+        "examples": [
+          {
+            "japanese": "コーヒーですか、それとも紅茶ですか。",
+            "romaji": "Koohii desu ka, soretomo koucha desu ka.",
+            "german": "Kaffee oder Tee?"
+          },
+          {
+            "japanese": "電車で行きますか、それともバスで行きますか。",
+            "romaji": "Densha de ikimasu ka, soretomo basu de ikimasu ka.",
+            "german": "Fahren Sie mit dem Zug oder mit dem Bus?"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1007010; spelling=それとも; reading=それとも; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "それとも conjunction or/or else.",
+          "selected": {
+            "sequence": "1007010",
+            "spelling": "それとも",
+            "reading": "それとも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "or",
+                  "or else"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n4:314 after vocab-correction-rules.js",
+          "finding": "Conjunction typed Partikel; recoded to Ausdruck. The two examples were the same coffee-or-tea situation; the second now asks about transport."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "oder (in Fragen) correct.",
+        "japanese": "Natural alternative questions.",
+        "romanization": "Checked.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Offering a choice of drinks.",
+          "Asking about means of transport."
+        ],
+        "level": "N4 retained.",
+        "lexical": "それとも conjunction or/or else.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact UniDic row for それとも / ソレトモ in the cached scan or the supplementary lookup; previous 3 is unattested.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup それとも / それとも",
+            "finding": "No exact UniDic row for それとも / ソレトモ in the cached scan or the supplementary lookup; previous 3 is unattested."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Conjunction typed Partikel; recoded to Ausdruck. The two examples were the same coffee-or-tea situation; the second now asks about transport. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "49d68da150b88d68cb338820b3564d1bf9da4babd5bf5e1750f0bd64fe60a9ab",
+        "approvalHash": "27f5cb502639e0d5259a95e0a7e0e42ca99ee055c808fd2da54683ccd94db9e6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): それとも Partikel->Ausdruck correct; new example 電車で行きますか、それともバスで行きますか replaces the second coffee/tea question and is a genuinely different context; I scanned sys.dic for kana ソレトモ and found no row at all, so pitch 3->null is required by policy.",
+        "contentHash": "49d68da150b88d68cb338820b3564d1bf9da4babd5bf5e1750f0bd64fe60a9ab",
+        "approvalHash": "27f5cb502639e0d5259a95e0a7e0e42ca99ee055c808fd2da54683ccd94db9e6"
+      }
+    },
+    {
+      "id": "vocab-n4:315",
+      "revisionId": "021-defect-tsumari",
+      "state": "accepted",
+      "predecessorHash": "2460e7eeb4afb995e1d351f43fb543b2226a9d2ee796e9c76903836c41bb1fc4",
+      "predecessorRevisionHash": null,
+      "originalHash": "2460e7eeb4afb995e1d351f43fb543b2226a9d2ee796e9c76903836c41bb1fc4",
+      "rationale": "Typed Partikel; JMdict and UniDic classify つまり as adverb, like the app's すなわち and 要するに (Adverb). Both examples were the same \"つまり…ということですか\" pattern; the second now shows reformulation inside a noun phrase.",
+      "original": {
+        "type": "Partikel",
+        "examples": [
+          {
+            "japanese": "つまり無理ということですか。",
+            "romaji": "Tsumari muri to iu koto desu ka.",
+            "german": "Das heißt, es ist unmöglich?"
+          },
+          {
+            "japanese": "つまり、行けないということですか。",
+            "romaji": "Tsumari, ikenai to iu koto desu ka.",
+            "german": "Das heißt, Sie können nicht kommen?"
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "type": "Adverb",
+        "examples": [
+          {
+            "japanese": "つまり無理ということですか。",
+            "romaji": "Tsumari muri to iu koto desu ka.",
+            "german": "Das heißt, es ist unmöglich?"
+          },
+          {
+            "japanese": "母の姉、つまり私の伯母は京都に住んでいます。",
+            "romaji": "Haha no ane, tsumari watashi no oba wa Kyouto ni sunde imasu.",
+            "german": "Die ältere Schwester meiner Mutter, also meine Tante, wohnt in Kyoto."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@177644003",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "副詞 row attests 1.",
+            "match": {
+              "word": "つまり",
+              "reading": "つまり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "つまり as \"das heißt, also\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1610430; spelling=つまり; reading=つまり; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "つまり adverb: that is to say; in short.",
+          "selected": {
+            "sequence": "1610430",
+            "spelling": "つまり",
+            "reading": "つまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "that is to say",
+                  "that is",
+                  "in other words",
+                  "I mean",
+                  "that (this, it) means"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "in short",
+                  "in brief",
+                  "to sum up",
+                  "ultimately",
+                  "in the end",
+                  "in the long run",
+                  "when all is said and done",
+                  "what it all comes down to",
+                  "when you get right down to it",
+                  "basically"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n4:315 after vocab-correction-rules.js",
+          "finding": "Typed Partikel; JMdict and UniDic classify つまり as adverb, like the app's すなわち and 要するに (Adverb). Both examples were the same \"つまり…ということですか\" pattern; the second now shows reformulation inside a noun phrase."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "das heißt, also correct.",
+        "japanese": "Natural.",
+        "romanization": "Checked.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Confirming a conclusion (ということですか).",
+          "Rephrasing a relationship (母の姉＝伯母)."
+        ],
+        "level": "N4 retained.",
+        "lexical": "つまり adverb: that is to say; in short.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "副詞 row attests 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@177644003",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "副詞 row attests 1.",
+            "match": {
+              "word": "つまり",
+              "reading": "つまり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "つまり as \"das heißt, also\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Typed Partikel; JMdict and UniDic classify つまり as adverb, like the app's すなわち and 要するに (Adverb). Both examples were the same \"つまり…ということですか\" pattern; the second now shows reformulation inside a noun phrase. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "9ba5de940920e143bcfe0dd229905d4eae0e25e678cb4f9e1dcc1bbd4657f2b0",
+        "approvalHash": "bbb7ed2eced624308fdb6a48272b9eb596a52640975ddd1f882d97ca1f6c85d7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): つまり typed Adverb consistent with JMdict/UniDic (副詞 row sys.dic@177644003 aType 1) and with the app's すなわち/要するに (both Adverb, checked in vocab-n3.js); new example 母の姉、つまり私の伯母 (oba) shows appositive reformulation, distinct from the ということですか confirmation.",
+        "contentHash": "9ba5de940920e143bcfe0dd229905d4eae0e25e678cb4f9e1dcc1bbd4657f2b0",
+        "approvalHash": "bbb7ed2eced624308fdb6a48272b9eb596a52640975ddd1f882d97ca1f6c85d7"
+      }
+    },
+    {
+      "id": "vocab-n3:2760",
+      "revisionId": "021-defect-nazenara",
+      "state": "accepted",
+      "predecessorHash": "deb98c1e5faeffb11d9e99f5cb8a36d4ae12920e3aacdcae611ea93430075c4a",
+      "predecessorRevisionHash": null,
+      "originalHash": "deb98c1e5faeffb11d9e99f5cb8a36d4ae12920e3aacdcae611ea93430075c4a",
+      "rationale": "Conjunction typed Partikel; recoded to Ausdruck.",
+      "original": {
+        "type": "Partikel",
+        "pitch": 0
+      },
+      "replacement": {
+        "type": "Ausdruck",
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1009410; spelling=何故なら; reading=なぜなら; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "何故なら conjunction because/the reason is.",
+          "selected": {
+            "sequence": "1009410",
+            "spelling": "何故なら",
+            "reading": "なぜなら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "because",
+                  "the reason is",
+                  "if you want to know why"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2760 after vocab-correction-rules.js",
+          "finding": "Conjunction typed Partikel; recoded to Ausdruck."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "denn correct.",
+        "japanese": "何故なら…からです natural.",
+        "romanization": "Checked.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Giving the reason with 何故なら…からです."
+        ],
+        "level": "N3 retained.",
+        "lexical": "何故なら conjunction because/the reason is.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact UniDic row for 何故なら / ナゼナラ; previous 0 unattested.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 何故なら / なぜなら",
+            "finding": "No exact UniDic row for 何故なら / ナゼナラ; previous 0 unattested."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Conjunction typed Partikel; recoded to Ausdruck. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "cbfcc4da0bf27fe1328d1893719aba77fc83164ae9706cb1eb57488230b23b8b",
+        "approvalHash": "2729de716e36a97273e5a98fd40c7dbfde921b264b3c4ec3839cc55e0fb0cedd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 何故なら Partikel->Ausdruck correct; no sys.dic row with kana ナゼナラ exists (my own scan), so 0->null is required; the single existing example (…締め日だからです) is correct. Non-blocking: only one example/context remains (allowed under enrichmentRequired:false); headword romaji \"nazenara\" vs example \"Naze nara\" spacing differs.",
+        "contentHash": "cbfcc4da0bf27fe1328d1893719aba77fc83164ae9706cb1eb57488230b23b8b",
+        "approvalHash": "2729de716e36a97273e5a98fd40c7dbfde921b264b3c4ec3839cc55e0fb0cedd"
+      }
+    },
+    {
+      "id": "vocab-n5:1195",
+      "revisionId": "021-defect-demo",
+      "state": "accepted",
+      "predecessorHash": "ad5b1c6ec96055182795c29533e2bb6cd752e38dd9638d944b8eff240aba06a3",
+      "predecessorRevisionHash": null,
+      "originalHash": "ad5b1c6ec96055182795c29533e2bb6cd752e38dd9638d944b8eff240aba06a3",
+      "rationale": "The entry teaches sentence-initial でも \"aber\" (JMdict conjunction sense 1), but was typed Partikel; recoded to Ausdruck like しかし/だから. Particle でも \"even\" is a separate grammar point.",
+      "original": {
+        "type": "Partikel",
+        "pitch": 1
+      },
+      "replacement": {
+        "type": "Ausdruck",
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1008460; spelling=でも; reading=でも; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "でも sense 1 conjunction but/however (not the particle senses).",
+          "selected": {
+            "sequence": "1008460",
+            "spelling": "でも",
+            "reading": "でも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [],
+                "gloss": [
+                  "but",
+                  "however",
+                  "though",
+                  "nevertheless",
+                  "still",
+                  "yet",
+                  "even so",
+                  "also",
+                  "as well"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n5:1195 after vocab-correction-rules.js",
+          "finding": "The entry teaches sentence-initial でも \"aber\" (JMdict conjunction sense 1), but was typed Partikel; recoded to Ausdruck like しかし/だから. Particle でも \"even\" is a separate grammar point."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "aber correct for conjunction.",
+        "japanese": "Both sentence-initial uses natural.",
+        "romanization": "Checked.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Casual refusal.",
+          "Contrast between price and taste."
+        ],
+        "level": "N5 retained.",
+        "lexical": "でも sense 1 conjunction but/however (not the particle senses).",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact UniDic row for でも / デモ as conjunction; previous 1 unattested.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup でも / でも",
+            "finding": "No exact UniDic row for でも / デモ as conjunction; previous 1 unattested."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: The entry teaches sentence-initial でも \"aber\" (JMdict conjunction sense 1), but was typed Partikel; recoded to Ausdruck like しかし/だから. Particle でも \"even\" is a separate grammar point. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "1507bca98007f75ca84fa03f14f147243cda61ed163a7f83a4ab0ce4f09ab2c5",
+        "approvalHash": "2b01e3f68d18cf80e59fd17417c026d6f43a6bb2092a3a14296837d3ad3f41ec"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): sentence-initial でも \"aber\" typed Ausdruck like しかし; sys.dic has only デモ rows for デモ(demo)/デモる, no conjunction row, so 1->null is correct; でも、できないよ and 高いです。でも、おいしいです are distinct and correctly glossed.",
+        "contentHash": "1507bca98007f75ca84fa03f14f147243cda61ed163a7f83a4ab0ce4f09ab2c5",
+        "approvalHash": "2b01e3f68d18cf80e59fd17417c026d6f43a6bb2092a3a14296837d3ad3f41ec"
+      }
+    },
+    {
+      "id": "vocab-n2:1526",
+      "revisionId": "021-defect-oyobi",
+      "state": "accepted",
+      "predecessorHash": "f5ba519a7d261611626b449c20ddbb968668469de3f92b158225b52a9ea12df7",
+      "predecessorRevisionHash": null,
+      "originalHash": "f5ba519a7d261611626b449c20ddbb968668469de3f92b158225b52a9ea12df7",
+      "rationale": "Formal conjunction typed Partikel; recoded to Ausdruck like または.",
+      "original": {
+        "type": "Partikel",
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "type": "Ausdruck",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@83957768",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "接続詞 row attests 0 (also 1).",
+            "match": {
+              "word": "及び",
+              "reading": "および",
+              "grammaticalForm": "接続詞/*/*/*; *; *",
+              "sense": "及び as \"sowie\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1228140; spelling=及び; reading=および; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "及び conjunction and/as well as.",
+          "selected": {
+            "sequence": "1228140",
+            "spelling": "及び",
+            "reading": "および",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [],
+                "gloss": [
+                  "and",
+                  "as well as"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:1526 after vocab-correction-rules.js",
+          "finding": "Formal conjunction typed Partikel; recoded to Ausdruck like または."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "sowie correct.",
+        "japanese": "Natural formal sentence.",
+        "romanization": "Checked.",
+        "translation": "Faithful.",
+        "contexts": [
+          "App availability on two operating systems."
+        ],
+        "level": "N2 retained.",
+        "lexical": "及び conjunction and/as well as.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "接続詞 row attests 0 (also 1).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@83957768",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "接続詞 row attests 0 (also 1).",
+            "match": {
+              "word": "及び",
+              "reading": "および",
+              "grammaticalForm": "接続詞/*/*/*; *; *",
+              "sense": "及び as \"sowie\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Formal conjunction typed Partikel; recoded to Ausdruck like または. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "db37cf1a21494a957661461f3ca065ead0755df3f1febcb48958919e2f91e9d7",
+        "approvalHash": "b2a38197eef0d6024938168f97d7607f4bfe171bbd32b7f44ff28f23935d9e83"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 及び Partikel->Ausdruck like または; pitch 0 is attested by sys.dic@83957768 (接続詞, aType 0,1); example romaji \"AndroidOS oyobi iOS … go riyou itadakemasu\" matches. Non-blocking: comparison.json 及び|および lists tanos N1 + master N1 while the entry stays N2 (not changed in this batch), and only one example exists.",
+        "contentHash": "db37cf1a21494a957661461f3ca065ead0755df3f1febcb48958919e2f91e9d7",
+        "approvalHash": "b2a38197eef0d6024938168f97d7607f4bfe171bbd32b7f44ff28f23935d9e83"
+      }
+    },
+    {
+      "id": "vocab-n3:2694",
+      "revisionId": "021-defect-yueni",
+      "state": "accepted",
+      "predecessorHash": "cca4c7651701052d9f6e91a54a25e43fad198f3be8d30346f6e4e214485b759b",
+      "predecessorRevisionHash": null,
+      "originalHash": "cca4c7651701052d9f6e91a54a25e43fad198f3be8d30346f6e4e214485b759b",
+      "rationale": "Conjunction typed Partikel; recoded to Ausdruck. Example romanization \"shira reru\" split repaired.",
+      "original": {
+        "type": "Partikel",
+        "pitch": 0,
+        "examples": [
+          {
+            "japanese": "故に、この薬は人々に知られるようになったのです。",
+            "romaji": "Yueni, kono kusuri wa hitobito ni shira reru you ni natta no desu.",
+            "german": "Daher wurde dieses Medikament bei den Menschen bekannt."
+          }
+        ]
+      },
+      "replacement": {
+        "type": "Ausdruck",
+        "pitch": null,
+        "examples": [
+          {
+            "japanese": "故に、この薬は人々に知られるようになったのです。",
+            "romaji": "Yueni, kono kusuri wa hitobito ni shirareru you ni natta no desu.",
+            "german": "Daher wurde dieses Medikament bei den Menschen bekannt."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1267130; spelling=故に; reading=ゆえに; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "故に conjunction therefore.",
+          "selected": {
+            "sequence": "1267130",
+            "spelling": "故に",
+            "reading": "ゆえに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "therefore",
+                  "consequently"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:2694 after vocab-correction-rules.js",
+          "finding": "Conjunction typed Partikel; recoded to Ausdruck. Example romanization \"shira reru\" split repaired."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "romanization-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "daher correct.",
+        "japanese": "Natural.",
+        "romanization": "shirareru repaired.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Drawing a consequence about a medicine becoming known."
+        ],
+        "level": "N3 retained.",
+        "lexical": "故に conjunction therefore.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact UniDic row for 故に / ユエニ; previous 0 unattested.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 故に / ゆえに",
+            "finding": "No exact UniDic row for 故に / ユエニ; previous 0 unattested."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Conjunction typed Partikel; recoded to Ausdruck. Example romanization \"shira reru\" split repaired. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "629ece9d4c27c115eb68565999fe981e79ca2160bd94e5d22bd19faae8dad480",
+        "approvalHash": "df1e1c1e293fa7ad42aecb5598572ac701e78e794b36458b24eca5f86f57cb44"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 故に Partikel->Ausdruck; romaji split \"shira reru\" correctly repaired to \"shirareru\"; no sys.dic row for kana ユエニ (verified), so 0->null is correct. Non-blocking: single example only.",
+        "contentHash": "629ece9d4c27c115eb68565999fe981e79ca2160bd94e5d22bd19faae8dad480",
+        "approvalHash": "df1e1c1e293fa7ad42aecb5598572ac701e78e794b36458b24eca5f86f57cb44"
+      }
+    },
+    {
+      "id": "vocab-n1:847",
+      "revisionId": "021-defect-entropy",
+      "state": "accepted",
+      "predecessorHash": "fb6e26934984a62347fd44bf32dfd2788cac83e9d213053431a4b1dcc9c355a3",
+      "predecessorRevisionHash": null,
+      "originalHash": "fb6e26934984a62347fd44bf32dfd2788cac83e9d213053431a4b1dcc9c355a3",
+      "rationale": "The headword was the English word \"entropy\"; the Japanese word is エントロピー (reading already エントロピー). Stable ID retained. Example romaji Heisākei corrected to Heisakei (閉鎖系 へいさけい).",
+      "original": {
+        "word": "entropy",
+        "pitch": 0,
+        "examples": [
+          {
+            "japanese": "閉鎖系のエントロピーは常に増大する傾向がある。",
+            "romaji": "Heisākei no entoropī wa tsuneni zōdai suru keikō ga aru.",
+            "german": "Die Entropie in einem geschlossenen System neigt dazu, stets zuzunehmen."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "word": "エントロピー",
+        "pitch": 4,
+        "examples": [
+          {
+            "japanese": "閉鎖系のエントロピーは常に増大する傾向がある。",
+            "romaji": "Heisakei no entoropī wa tsuneni zōdai suru keikō ga aru.",
+            "german": "Die Entropie in einem geschlossenen System neigt dazu, stets zuzunehmen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@72057892",
+            "patterns": [
+              4
+            ],
+            "finding": "エントロピー / エントロピー; 名詞/普通名詞/一般/*; *; *; lemma エントロピー-entropy; aType 4. Exact UniDic row attests 4; previous 0 belonged to the English placeholder headword and is unattested.",
+            "match": {
+              "word": "エントロピー",
+              "reading": "エントロピー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Entropy noun (lemma エントロピー-entropy)."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1031190; spelling=エントロピー; reading=エントロピー; senses=1,2; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict エントロピー entropy (thermodynamics; information theory).",
+          "selected": {
+            "sequence": "1031190",
+            "spelling": "エントロピー",
+            "reading": "エントロピー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "entropy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "entropy (information theory)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n1:847 after vocab-correction-rules.js",
+          "finding": "The headword was the English word \"entropy\"; the Japanese word is エントロピー (reading already エントロピー). Stable ID retained. Example romaji Heisākei corrected to Heisakei (閉鎖系 へいさけい)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "headword-correction",
+          "pitch-correction",
+          "romanization-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "Entropie matches sense 1.",
+        "japanese": "Example already used エントロピー.",
+        "romanization": "entoropī retained (N1 macron convention); 閉鎖系 heisakei repaired.",
+        "translation": "Faithful.",
+        "contexts": [
+          "Thermodynamics statement about closed systems."
+        ],
+        "level": "N1 retained.",
+        "lexical": "JMdict エントロピー entropy (thermodynamics; information theory).",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row attests 4; previous 0 belonged to the English placeholder headword and is unattested.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@72057892",
+            "patterns": [
+              4
+            ],
+            "finding": "エントロピー / エントロピー; 名詞/普通名詞/一般/*; *; *; lemma エントロピー-entropy; aType 4. Exact UniDic row attests 4; previous 0 belonged to the English placeholder headword and is unattested.",
+            "match": {
+              "word": "エントロピー",
+              "reading": "エントロピー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Entropy noun (lemma エントロピー-entropy)."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: The headword was the English word \"entropy\"; the Japanese word is エントロピー (reading already エントロピー). Stable ID retained. Example romaji Heisākei corrected to Heisakei (閉鎖系 へいさけい). Final content, evidence and pitch disposition inspected.",
+        "contentHash": "17d0379fae1c15884b33f59933e7e9ebd0d0e02d20e10e4852bad527263ab935",
+        "approvalHash": "3060bfe4b7e45896db4c6a900f54584263eacd5f69394379943b238f254c6657"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): my round-1 rejection is fixed; example romaji is now \"Heisakei no entoropī wa tsuneni zōdai suru keikō ga aru.\" (閉鎖系 = へいさけい, rest keeps N1 macron style) and the rationale/review record the repair; headword エントロピー and pitch 4 (sys.dic@72057892) unchanged.",
+        "contentHash": "17d0379fae1c15884b33f59933e7e9ebd0d0e02d20e10e4852bad527263ab935",
+        "approvalHash": "3060bfe4b7e45896db4c6a900f54584263eacd5f69394379943b238f254c6657"
+      }
+    },
+    {
+      "id": "vocab-n4:528",
+      "revisionId": "021-defect-reikin",
+      "state": "accepted",
+      "predecessorHash": "3bbeeb0cbaeff8a589b7cdbdba84d5fdf2bbb1126b7ddd558d39eba4a7bb3571",
+      "predecessorRevisionHash": null,
+      "originalHash": "3bbeeb0cbaeff8a589b7cdbdba84d5fdf2bbb1126b7ddd558d39eba4a7bb3571",
+      "rationale": "German typo Schlüssselgeld corrected to Schlüsselgeld in the meaning and example 1; no change of sense.",
+      "original": {
+        "meaning": "Schlüssselgeld (Einmalzahlung an Vermieter)",
+        "examples": [
+          {
+            "japanese": "礼金はありません。",
+            "romaji": "Reikin wa arimasen.",
+            "german": "Es gibt kein Schlüssselgeld."
+          },
+          {
+            "japanese": "この物件は礼金が必要です。",
+            "romaji": "Kono bukken wa reikin ga hitsuyou desu.",
+            "german": "Für diese Immobilie ist Schlüsselgeld erforderlich."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "meaning": "Schlüsselgeld (Einmalzahlung an Vermieter)",
+        "examples": [
+          {
+            "japanese": "礼金はありません。",
+            "romaji": "Reikin wa arimasen.",
+            "german": "Es gibt kein Schlüsselgeld."
+          },
+          {
+            "japanese": "この物件は礼金が必要です。",
+            "romaji": "Kono bukken wa reikin ga hitsuyou desu.",
+            "german": "Für diese Immobilie ist Schlüsselgeld erforderlich."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@279615355",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Common-noun row attests 0.",
+            "match": {
+              "word": "礼金",
+              "reading": "れいきん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "礼金 as \"Schlüsselgeld (Einmalzahlung an Vermieter)\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1557500; spelling=礼金; reading=れいきん; senses=2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "礼金 sense 2 key money for rental rights.",
+          "selected": {
+            "sequence": "1557500",
+            "spelling": "礼金",
+            "reading": "れいきん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "key money",
+                  "fee paid for rental rights"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n4:528 after vocab-correction-rules.js",
+          "finding": "German typo Schlüssselgeld corrected to Schlüsselgeld in the meaning and example 1; no change of sense."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "german-spelling-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "Key money sense unchanged; spelling fixed.",
+        "japanese": "Unchanged.",
+        "romanization": "Unchanged.",
+        "translation": "Spelling fixed.",
+        "contexts": [
+          "No key money for a flat.",
+          "A property requiring key money."
+        ],
+        "level": "N4 retained.",
+        "lexical": "礼金 sense 2 key money for rental rights.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Common-noun row attests 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@279615355",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Common-noun row attests 0.",
+            "match": {
+              "word": "礼金",
+              "reading": "れいきん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "礼金 as \"Schlüsselgeld (Einmalzahlung an Vermieter)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: German typo Schlüssselgeld corrected to Schlüsselgeld in the meaning and example 1; no change of sense. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "19ea40687bbc50f7d56c0ec3df4cc038ed814cb39e3aaf9257e9e49a15d2e402",
+        "approvalHash": "9ce088418022de3aea5fabb978ccefefca5f358cdfea2ce4ef996ff0118440d1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): typo Schlüssselgeld->Schlüsselgeld fixed in both meaning and example 1, no other change; pitch 0 matches sys.dic@279615355 礼金/レイキン aType 0; 礼金はありません vs 礼金が必要です are distinct.",
+        "contentHash": "19ea40687bbc50f7d56c0ec3df4cc038ed814cb39e3aaf9257e9e49a15d2e402",
+        "approvalHash": "9ce088418022de3aea5fabb978ccefefca5f358cdfea2ce4ef996ff0118440d1"
+      }
+    },
+    {
+      "id": "vocab-n2:1822",
+      "revisionId": "021-defect-raamen",
+      "state": "accepted",
+      "predecessorHash": "4b5af3af64f0655dee56cccea0c1daaf781a99fec1aa4904f53eb72fac901c42",
+      "predecessorRevisionHash": null,
+      "originalHash": "4b5af3af64f0655dee56cccea0c1daaf781a99fec1aa4904f53eb72fac901c42",
+      "rationale": "The only ramen entry used the rare spelling 拉麺 with a hiragana reading, so the ordinary katakana word ラーメン was effectively missing. Headword/reading changed to ラーメン, 拉麺 kept as alias, romaji ra-men repaired, second beginner example added. Stable ID retained.",
+      "original": {
+        "word": "拉麺",
+        "reading": "らーめん",
+        "romaji": "ra-men",
+        "level": "N2",
+        "meaning": "Ramen",
+        "aliases": null,
+        "notes": null,
+        "pitch": 1,
+        "examples": [
+          {
+            "japanese": "鮭拉麺なんて初めて食べるよ。",
+            "romaji": "Sake raamen nante hajimete taberu yo.",
+            "german": "Das ist das erste Mal, dass ich Lachs-Ramen esse."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "word": "ラーメン",
+        "reading": "ラーメン",
+        "romaji": "raamen",
+        "level": "N4",
+        "meaning": "Ramen (chinesische Nudelsuppe)",
+        "aliases": [
+          "拉麺"
+        ],
+        "notes": "Wird fast immer in Katakana geschrieben; die Kanji-Schreibung 拉麺 ist selten. Ein Ramen-Restaurant heißt ラーメン屋.",
+        "pitch": 1,
+        "examples": [
+          {
+            "japanese": "鮭ラーメンなんて初めて食べるよ。",
+            "romaji": "Sake raamen nante hajimete taberu yo.",
+            "german": "Das ist das erste Mal, dass ich Lachs-Ramen esse."
+          },
+          {
+            "japanese": "駅の近くにおいしいラーメン屋があります。",
+            "romaji": "Eki no chikaku ni oishii raamen'ya ga arimasu.",
+            "german": "In der Nähe des Bahnhofs gibt es ein leckeres Ramen-Restaurant."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278038218",
+            "patterns": [
+              1
+            ],
+            "finding": "ラーメン / ラーメン; 名詞/普通名詞/一般/*; *; *; lemma ラーメン-拉麺; aType 1. Exact katakana row for the noodle lemma attests 1.",
+            "match": {
+              "word": "ラーメン",
+              "reading": "ラーメン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Ramen noodle noun (lemma ラーメン-拉麺), not the Rahmen/frame row."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1137720; spelling=ラーメン; reading=ラーメン; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict ラーメン/拉麺 ramen; katakana is the usual written form.",
+          "selected": {
+            "sequence": "1137720",
+            "spelling": "ラーメン",
+            "reading": "ラーメン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "ramen",
+                  "Chinese-style noodles"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Publisher level comparison",
+          "version": "retrieved 2026-09-04/05; .content-cache/jlpt-vocabulary/comparison.json",
+          "locator": "scripts/vocabulary-review.json; comparison.json",
+          "finding": "ラーメン is absent from all three publisher lists (comparison.json), so no multi-publisher level exists; the previous N2 came from the rare kanji spelling 拉麺. Everyday food loanword comparable to カレー (N5) and サラダ (N4); editorial estimate N4."
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:1822 after vocab-correction-rules.js",
+          "finding": "The only ramen entry used the rare spelling 拉麺 with a hiragana reading, so the ordinary katakana word ラーメン was effectively missing. Headword/reading changed to ラーメン, 拉麺 kept as alias, romaji ra-men repaired, second beginner example added. Stable ID retained."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "headword-correction",
+          "level-correction",
+          "alias"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "Ramen with gloss.",
+        "japanese": "Example 1 respelled in katakana; new ラーメン屋 example natural.",
+        "romanization": "raamen, raamen'ya checked.",
+        "translation": "Faithful.",
+        "contexts": [
+          "First time eating salmon ramen (casual).",
+          "A good ramen shop near the station."
+        ],
+        "level": "N2→N4 editorial; documented absence from lists.",
+        "lexical": "JMdict ラーメン/拉麺 ramen; katakana is the usual written form.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "reviewedDistinctContexts": true
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact katakana row for the noodle lemma attests 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278038218",
+            "patterns": [
+              1
+            ],
+            "finding": "ラーメン / ラーメン; 名詞/普通名詞/一般/*; *; *; lemma ラーメン-拉麺; aType 1. Exact katakana row for the noodle lemma attests 1.",
+            "match": {
+              "word": "ラーメン",
+              "reading": "ラーメン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Ramen noodle noun (lemma ラーメン-拉麺), not the Rahmen/frame row."
+            }
+          }
+        ]
+      },
+      "levelBasis": "ラーメン is absent from all three publisher lists (comparison.json), so no multi-publisher level exists; the previous N2 came from the rare kanji spelling 拉麺. Everyday food loanword comparable to カレー (N5) and サラダ (N4); editorial estimate N4.",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: The only ramen entry used the rare spelling 拉麺 with a hiragana reading, so the ordinary katakana word ラーメン was effectively missing. Headword/reading changed to ラーメン, 拉麺 kept as alias, romaji ra-men repaired, second beginner example added. Stable ID retained. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "934e9e7efc31c1edc8251972cd4f20818f21a9fc4a3f86f6115f21194a26438f",
+        "approvalHash": "4921661d7e51f13d58aebc41752234c3adaf949f819f136b679b0f4afbc8b968"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): headword/reading changed to ラーメン with 拉麺 as alias is right (JMdict 1137720, katakana usual); romaji ra-men->raamen and example 1 鮭ラーメン are consistent; ラーメン is absent from comparison.json (checked), so the editorial N4 basis (カレー N5 / サラダ N4 exist) is acceptable; pitch 1 = sys.dic@278038218; ラーメン屋 (raamen'ya) example is a distinct context.",
+        "contentHash": "934e9e7efc31c1edc8251972cd4f20818f21a9fc4a3f86f6115f21194a26438f",
+        "approvalHash": "4921661d7e51f13d58aebc41752234c3adaf949f819f136b679b0f4afbc8b968"
+      }
+    },
+    {
+      "id": "vocab-n2:208",
+      "revisionId": "021-defect-dna",
+      "state": "accepted",
+      "predecessorHash": "5cc3379bfaabaaab95c9df7e4713ff23b67e2192a569503a52206e2446e2e27a",
+      "predecessorRevisionHash": null,
+      "originalHash": "5cc3379bfaabaaab95c9df7e4713ff23b67e2192a569503a52206e2446e2e27a",
+      "rationale": "Reported headword DNA verified as correct Japanese orthography (JMdict/UniDic both use the Latin letters), so it is retained; a note now explains writing and reading. Pitch corrected from unattested 0 to attested 5.",
+      "original": {
+        "pitch": 0,
+        "notes": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitch": 5,
+        "notes": "Wird im Japanischen mit lateinischen Buchstaben geschrieben (DNA, auch ＤＮＡ) und ディーエヌエー gelesen. Fachsprachlich auch デオキシリボ核酸.",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181893293",
+            "patterns": [
+              5
+            ],
+            "finding": "ＤＮＡ / ディーエヌエー; 名詞/普通名詞/一般/*; *; *; lemma ＤＮＡ; aType 5. UniDic row ＤＮＡ/ディーエヌエー attests 5; previous 0 is contradicted.",
+            "match": {
+              "word": "DNA",
+              "reading": "ディーエヌエー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; UniDic orth ＤＮＡ is the full-width, NFKC-identical form of DNA",
+              "sense": "Deoxyribonucleic acid noun."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2196190; spelling=ＤＮＡ; reading=ディーエヌエー; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict lists the Latin-letter headword ＤＮＡ (full-width; NFKC-identical to DNA) read ディーエヌエー, i.e. Latin letters are the normal Japanese orthography.",
+          "selected": {
+            "sequence": "2196190",
+            "spelling": "ＤＮＡ",
+            "reading": "ディーエヌエー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "deoxyribonucleic acid",
+                  "DNA"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 021)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n2:208 after vocab-correction-rules.js",
+          "finding": "Reported headword DNA verified as correct Japanese orthography (JMdict/UniDic both use the Latin letters), so it is retained; a note now explains writing and reading. Pitch corrected from unattested 0 to attested 5."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "pitch-correction",
+          "note-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "DNS correct.",
+        "japanese": "Unchanged.",
+        "romanization": "Unchanged.",
+        "translation": "Unchanged.",
+        "contexts": [
+          "DNA analysis identifying a culprit."
+        ],
+        "level": "N2 retained.",
+        "lexical": "JMdict lists the Latin-letter headword ＤＮＡ (full-width; NFKC-identical to DNA) read ディーエヌエー, i.e. Latin letters are the normal Japanese orthography.",
+        "register": "Register unchanged and appropriate to the examples.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "UniDic row ＤＮＡ/ディーエヌエー attests 5; previous 0 is contradicted.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181893293",
+            "patterns": [
+              5
+            ],
+            "finding": "ＤＮＡ / ディーエヌエー; 名詞/普通名詞/一般/*; *; *; lemma ＤＮＡ; aType 5. UniDic row ＤＮＡ/ディーエヌエー attests 5; previous 0 is contradicted.",
+            "match": {
+              "word": "DNA",
+              "reading": "ディーエヌエー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; UniDic orth ＤＮＡ is the full-width, NFKC-identical form of DNA",
+              "sense": "Deoxyribonucleic acid noun."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Reported headword DNA verified as correct Japanese orthography (JMdict/UniDic both use the Latin letters), so it is retained; a note now explains writing and reading. Pitch corrected from unattested 0 to attested 5. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "2b5d6066f59da1989bc04acf2247fbccf4eee0ff6e0605a74ab024a00282ddf6",
+        "approvalHash": "42cc64184696170a74600742278a3e3514d1aa5fff5d33b394c44346ddeb8f3b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): keeping the Latin headword DNA is correct; pitch 5 is attested by sys.dic@181893293 ＤＮＡ/ディーエヌエー (kana exact, orth NFKC-identical, UniDic has no half-width row); the note on DNA/ＤＮＡ/デオキシリボ核酸 is accurate; example romaji Dīenuē kantei … tokutei sareta matches. Non-blocking: single example.",
+        "contentHash": "2b5d6066f59da1989bc04acf2247fbccf4eee0ff6e0605a74ab024a00282ddf6",
+        "approvalHash": "42cc64184696170a74600742278a3e3514d1aa5fff5d33b394c44346ddeb8f3b"
+      }
+    },
+    {
+      "id": "vocab-n4:117",
+      "revisionId": "021-dup-vocab-n4-117",
+      "state": "accepted",
+      "predecessorHash": "3a5b917e81a6840c71288184b1d2c98d4cd56d3f2f374988e6b6df9fe70c7922",
+      "predecessorRevisionHash": null,
+      "originalHash": "3a5b917e81a6840c71288184b1d2c98d4cd56d3f2f374988e6b6df9fe70c7922",
+      "rationale": "Replace the byte-identical second example with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "友達を映画に誘いました。",
+            "romaji": "Tomodachi o eiga ni sasoimashita.",
+            "german": "Ich habe meinen Freund ins Kino eingeladen."
+          },
+          {
+            "japanese": "友達を映画に誘いました。",
+            "romaji": "Tomodachi o eiga ni sasoimashita.",
+            "german": "Ich habe meinen Freund ins Kino eingeladen."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "友達を映画に誘いました。",
+            "romaji": "Tomodachi o eiga ni sasoimashita.",
+            "german": "Ich habe meinen Freund ins Kino eingeladen."
+          },
+          {
+            "japanese": "週末、山登りに誘われたので、一緒に行くことにしました。",
+            "romaji": "Shuumatsu, yamanobori ni sasowareta node, issho ni iku koto ni shimashita.",
+            "german": "Am Wochenende wurde ich zum Bergsteigen eingeladen, deshalb habe ich beschlossen mitzugehen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131236265",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "誘う",
+              "reading": "さそう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "誘う as \"einladen, verlocken\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1541900; spelling=誘う; reading=さそう; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "誘う/さそう sense(s) 1 match \"einladen, verlocken\" and both example contexts.",
+          "selected": {
+            "sequence": "1541900",
+            "spelling": "誘う",
+            "reading": "さそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to invite",
+                  "to ask (someone to do)",
+                  "to call (for)",
+                  "to take (someone) along"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded quality sweep mechanical finding",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/final-mechanical-findings.json#vocab-n4:117",
+          "finding": "Example 2 was a byte-identical repeat of example 1 (exact-duplicate-example). Example 1 kept; example 2 replaced with a newly authored, distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"einladen, verlocken\" checked against JMdict 1541900; unchanged.",
+        "japanese": "Kept example 1 (友達を映画に誘いました。); new example 2 (週末、山登りに誘われたので、一緒に行くことにしました。) is grammatical and uses the headword in the taught sense.",
+        "romanization": "New romaji \"Shuumatsu, yamanobori ni sasowareta node, issho ni iku koto ni shimashita.\" follows the N4 file convention (long vowels ou/uu, particles wa/o/e).",
+        "translation": "New German \"Am Wochenende wurde ich zum Bergsteigen eingeladen, deshalb habe ich beschlossen mitzugehen.\" is faithful.",
+        "contexts": [
+          "Inviting a friend to the cinema (active).",
+          "Being invited to go hiking and accepting (passive 誘われる)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1541900 sense(s) 1; no sense added or removed.",
+        "register": "Neutral everyday register; polite/plain forms as in the sentences.",
+        "transitivity": "godan verb; transitivity as in JMdict and both examples.",
+        "conjugation": "Existing godan metadata (さそう) unchanged and consistent.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131236265",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "誘う",
+              "reading": "さそう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "誘う as \"einladen, verlocken\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Replace the byte-identical second example with a new, distinct context. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "d8dd2d18fe9690cd4f0f62806ff588c8178734388b54db0a2a34c8971254a560",
+        "approvalHash": "2886246207498859092eebfb5076580c609a97258af309b3eb0cbd9c386c6ba4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): new example 週末、山登りに誘われたので、一緒に行くことにしました shows passive 誘われる, clearly distinct from the active cinema invitation; romaji (sasowareta, yamanobori) and German correct; pitch 0 matches sys.dic@131236265.",
+        "contentHash": "d8dd2d18fe9690cd4f0f62806ff588c8178734388b54db0a2a34c8971254a560",
+        "approvalHash": "2886246207498859092eebfb5076580c609a97258af309b3eb0cbd9c386c6ba4"
+      }
+    },
+    {
+      "id": "vocab-n4:141",
+      "revisionId": "021-dup-vocab-n4-141",
+      "state": "accepted",
+      "predecessorHash": "df0b19f61d067b11e49bbd6e21a04894843f923b40fc8d5f78e1abbd6220dfe3",
+      "predecessorRevisionHash": null,
+      "originalHash": "df0b19f61d067b11e49bbd6e21a04894843f923b40fc8d5f78e1abbd6220dfe3",
+      "rationale": "Replace the byte-identical second example with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "間違いに気がつきました。",
+            "romaji": "Machigai ni ki ga tsukimashita.",
+            "german": "Ich habe den Fehler bemerkt."
+          },
+          {
+            "japanese": "間違いに気がつきました。",
+            "romaji": "Machigai ni ki ga tsukimashita.",
+            "german": "Ich habe den Fehler bemerkt."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "間違いに気がつきました。",
+            "romaji": "Machigai ni ki ga tsukimashita.",
+            "german": "Ich habe den Fehler bemerkt."
+          },
+          {
+            "japanese": "このメールには間違いがたくさんあります。",
+            "romaji": "Kono meeru ni wa machigai ga takusan arimasu.",
+            "german": "In dieser E-Mail sind viele Fehler."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250592591",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "間違い",
+              "reading": "まちがい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "間違い as \"Fehler, Irrtum\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1215320; spelling=間違い; reading=まちがい; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "間違い/まちがい sense(s) 1 match \"Fehler, Irrtum\" and both example contexts.",
+          "selected": {
+            "sequence": "1215320",
+            "spelling": "間違い",
+            "reading": "まちがい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "mistake",
+                  "error",
+                  "blunder"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded quality sweep mechanical finding",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/final-mechanical-findings.json#vocab-n4:141",
+          "finding": "Example 2 was a byte-identical repeat of example 1 (exact-duplicate-example). Example 1 kept; example 2 replaced with a newly authored, distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Fehler, Irrtum\" checked against JMdict 1215320; unchanged.",
+        "japanese": "Kept example 1 (間違いに気がつきました。); new example 2 (このメールには間違いがたくさんあります。) is grammatical and uses the headword in the taught sense.",
+        "romanization": "New romaji \"Kono meeru ni wa machigai ga takusan arimasu.\" follows the N4 file convention (long vowels ou/uu, particles wa/o/e).",
+        "translation": "New German \"In dieser E-Mail sind viele Fehler.\" is faithful.",
+        "contexts": [
+          "Noticing a mistake one made.",
+          "Pointing out many errors in a written e-mail."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1215320 sense(s) 1; no sense added or removed.",
+        "register": "Neutral everyday register; polite/plain forms as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250592591",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "間違い",
+              "reading": "まちがい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "間違い as \"Fehler, Irrtum\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Replace the byte-identical second example with a new, distinct context. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "85b4ba0606c3391208832e92551d672ecea8689a4c175b4ce7c791f4355143e1",
+        "approvalHash": "6aae8b22c5902cafb4b8c6be5b9637cec54a34ddd3b870882eb1c2b0fe39bfca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): new example このメールには間違いがたくさんあります (errors in a text) is distinct from noticing one's mistake; romaji/German correct; pitch 3 matches sys.dic@250592591 間違い aType 3.",
+        "contentHash": "85b4ba0606c3391208832e92551d672ecea8689a4c175b4ce7c791f4355143e1",
+        "approvalHash": "6aae8b22c5902cafb4b8c6be5b9637cec54a34ddd3b870882eb1c2b0fe39bfca"
+      }
+    },
+    {
+      "id": "vocab-n4:168",
+      "revisionId": "021-dup-vocab-n4-168",
+      "state": "accepted",
+      "predecessorHash": "e6d2ec4a26b0bef41f2221a09ebb729ac8038f16869e91f3cb553e5cf4cd6997",
+      "predecessorRevisionHash": null,
+      "originalHash": "e6d2ec4a26b0bef41f2221a09ebb729ac8038f16869e91f3cb553e5cf4cd6997",
+      "rationale": "Replace the byte-identical second example with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "お陰様で元気です。",
+            "romaji": "Okagesama de genki desu.",
+            "german": "Dank Ihrer Hilfe geht es mir gut."
+          },
+          {
+            "japanese": "お陰様で元気です。",
+            "romaji": "Okagesama de genki desu.",
+            "german": "Dank Ihrer Hilfe geht es mir gut."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "お陰様で元気です。",
+            "romaji": "Okagesama de genki desu.",
+            "german": "Dank Ihrer Hilfe geht es mir gut."
+          },
+          {
+            "japanese": "お陰様で、試験に合格しました。",
+            "romaji": "Okagesama de, shiken ni goukaku shimashita.",
+            "german": "Dank Ihrer Unterstützung habe ich die Prüfung bestanden."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1270220; spelling=お陰様で; reading=おかげさまで; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "お陰様で/おかげさまで sense(s) 1,2 match \"dank Ihrer Hilfe\" and both example contexts.",
+          "selected": {
+            "sequence": "1270220",
+            "spelling": "お陰様で",
+            "reading": "おかげさまで",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "polite (teineigo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "thankfully",
+                  "fortunately",
+                  "luckily",
+                  "by God's grace",
+                  "under the gods' shadow"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "polite (teineigo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "thanks to your (his, their, everyone's, etc.) kindness",
+                  "thanks to your assistance",
+                  "thanks to your support",
+                  "thanks to your efforts"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded quality sweep mechanical finding",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/final-mechanical-findings.json#vocab-n4:168",
+          "finding": "Example 2 was a byte-identical repeat of example 1 (exact-duplicate-example). Example 1 kept; example 2 replaced with a newly authored, distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"dank Ihrer Hilfe\" checked against JMdict 1270220; unchanged.",
+        "japanese": "Kept example 1 (お陰様で元気です。); new example 2 (お陰様で、試験に合格しました。) is grammatical and uses the headword in the taught sense.",
+        "romanization": "New romaji \"Okagesama de, shiken ni goukaku shimashita.\" follows the N4 file convention (long vowels ou/uu, particles wa/o/e).",
+        "translation": "New German \"Dank Ihrer Unterstützung habe ich die Prüfung bestanden.\" is faithful.",
+        "contexts": [
+          "Polite reply about one's health.",
+          "Crediting others' support when reporting a passed exam."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1270220 sense(s) 1,2; no sense added or removed.",
+        "register": "Neutral everyday register; polite/plain forms as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for お陰様で / おかげさまで; the previous value 0 is unattested and is not inferred from component words.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup お陰様で / おかげさまで",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Replace the byte-identical second example with a new, distinct context; unattested pitch set to unknown. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "d56b20005167f1695439d8b7c380aaf22563ad1993fba3669703b1ee2a4c4a65",
+        "approvalHash": "26da2eb8edf3d081e302eaf83a937d7e1a0dcf6eb34b065bd0fb9886c81fe5f4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): お陰様で、試験に合格しました is a natural second use (crediting support for a success) distinct from the health reply; no sys.dic row for オカゲサマデ (verified), so 0->null is correct.",
+        "contentHash": "d56b20005167f1695439d8b7c380aaf22563ad1993fba3669703b1ee2a4c4a65",
+        "approvalHash": "26da2eb8edf3d081e302eaf83a937d7e1a0dcf6eb34b065bd0fb9886c81fe5f4"
+      }
+    },
+    {
+      "id": "vocab-n4:258",
+      "revisionId": "021-dup-vocab-n4-258",
+      "state": "accepted",
+      "predecessorHash": "b667be7de2692ea6bf26fa6ca8043a7cebffc99ec1eb6096891dc55fc4294cf0",
+      "predecessorRevisionHash": null,
+      "originalHash": "b667be7de2692ea6bf26fa6ca8043a7cebffc99ec1eb6096891dc55fc4294cf0",
+      "rationale": "Replace the byte-identical second example with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "弁護士に相談しました。",
+            "romaji": "Bengoshi ni soudan shimashita.",
+            "german": "Ich habe einen Anwalt konsultiert."
+          },
+          {
+            "japanese": "弁護士に相談しました。",
+            "romaji": "Bengoshi ni soudan shimashita.",
+            "german": "Ich habe einen Anwalt konsultiert."
+          }
+        ],
+        "pitch": 1
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "弁護士に相談しました。",
+            "romaji": "Bengoshi ni soudan shimashita.",
+            "german": "Ich habe einen Anwalt konsultiert."
+          },
+          {
+            "japanese": "姉は弁護士として東京の事務所で働いています。",
+            "romaji": "Ane wa bengoshi to shite Toukyou no jimusho de hataraite imasu.",
+            "german": "Meine ältere Schwester arbeitet als Rechtsanwältin in einer Kanzlei in Tokio."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1512850; spelling=弁護士; reading=べんごし; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "弁護士/べんごし sense(s) 1 match \"Rechtsanwalt\" and both example contexts.",
+          "selected": {
+            "sequence": "1512850",
+            "spelling": "弁護士",
+            "reading": "べんごし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lawyer",
+                  "attorney"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded quality sweep mechanical finding",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/final-mechanical-findings.json#vocab-n4:258",
+          "finding": "Example 2 was a byte-identical repeat of example 1 (exact-duplicate-example). Example 1 kept; example 2 replaced with a newly authored, distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Rechtsanwalt\" checked against JMdict 1512850; unchanged.",
+        "japanese": "Kept example 1 (弁護士に相談しました。); new example 2 (姉は弁護士として東京の事務所で働いています。) is grammatical and uses the headword in the taught sense.",
+        "romanization": "New romaji \"Ane wa bengoshi to shite Toukyou no jimusho de hataraite imasu.\" follows the N4 file convention (long vowels ou/uu, particles wa/o/e).",
+        "translation": "New German \"Meine ältere Schwester arbeitet als Rechtsanwältin in einer Kanzlei in Tokio.\" is faithful.",
+        "contexts": [
+          "Consulting a lawyer about a problem.",
+          "Describing a family member's profession (〜として働く)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1512850 sense(s) 1; no sense added or removed.",
+        "register": "Neutral everyday register; polite/plain forms as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 弁護士 / べんごし; the previous value 1 is unattested and is not inferred from component words.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 弁護士 / べんごし",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Replace the byte-identical second example with a new, distinct context; unattested pitch set to unknown. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "dbe15a4ef9145f766b386a2887827d7b1317f0995c89f6bf7feb139fdc56ac14",
+        "approvalHash": "e4a2c672c0d95d050fc0b923197e01e9f713c624f3b3d8d3d85e344390d5553d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 姉は弁護士として東京の事務所で働いています is natural and distinct (profession with として); German \"Rechtsanwältin in einer Kanzlei\" is idiomatic; no sys.dic row with kana ベンゴシ exists (UniDic splits the compound), so 1->null is correct.",
+        "contentHash": "dbe15a4ef9145f766b386a2887827d7b1317f0995c89f6bf7feb139fdc56ac14",
+        "approvalHash": "e4a2c672c0d95d050fc0b923197e01e9f713c624f3b3d8d3d85e344390d5553d"
+      }
+    },
+    {
+      "id": "vocab-n4:277",
+      "revisionId": "021-dup-vocab-n4-277",
+      "state": "accepted",
+      "predecessorHash": "4d6bf4466f551131dc223f5783e50160c4861af89a6ca4d4b276385159c27d87",
+      "predecessorRevisionHash": null,
+      "originalHash": "4d6bf4466f551131dc223f5783e50160c4861af89a6ca4d4b276385159c27d87",
+      "rationale": "Replace the byte-identical second example with a new, distinct context; unattested pitch set to unknown.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "この書類をコピーしてください。",
+            "romaji": "Kono shorui o kopii shite kudasai.",
+            "german": "Bitte kopieren Sie dieses Dokument."
+          },
+          {
+            "japanese": "この書類をコピーしてください。",
+            "romaji": "Kono shorui o kopii shite kudasai.",
+            "german": "Bitte kopieren Sie dieses Dokument."
+          }
+        ],
+        "pitch": 1
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "この書類をコピーしてください。",
+            "romaji": "Kono shorui o kopii shite kudasai.",
+            "german": "Bitte kopieren Sie dieses Dokument."
+          },
+          {
+            "japanese": "会議の前に資料を十部コピーしておきました。",
+            "romaji": "Kaigi no mae ni shiryou o juubu kopii shite okimashita.",
+            "german": "Vor der Besprechung habe ich zehn Exemplare der Unterlagen kopiert."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1050590; spelling=コピー; reading=コピー; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Exact-form cache has no コピーする row; the suru-verb is JMdict コピー (vs, sense 1 copy/photocopy), matching kopieren.",
+          "selected": {
+            "sequence": "1050590",
+            "spelling": "コピー",
+            "reading": "コピー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "copy",
+                  "photocopy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded quality sweep mechanical finding",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/final-mechanical-findings.json#vocab-n4:277",
+          "finding": "Example 2 was a byte-identical repeat of example 1 (exact-duplicate-example). Example 1 kept; example 2 replaced with a newly authored, distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement",
+          "pitch-unverified"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"kopieren\" checked against JMdict 1050590; unchanged.",
+        "japanese": "Kept example 1 (この書類をコピーしてください。); new example 2 (会議の前に資料を十部コピーしておきました。) is grammatical and uses the headword in the taught sense.",
+        "romanization": "New romaji \"Kaigi no mae ni shiryou o juubu kopii shite okimashita.\" follows the N4 file convention (long vowels ou/uu, particles wa/o/e).",
+        "translation": "New German \"Vor der Besprechung habe ich zehn Exemplare der Unterlagen kopiert.\" is faithful.",
+        "contexts": [
+          "Polite request to copy a document.",
+          "Preparing ten copies in advance (〜ておく) before a meeting."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1050590 sense(s) 1; no sense added or removed.",
+        "register": "Neutral everyday register; polite/plain forms as in the sentences.",
+        "transitivity": "suru verb; transitivity as in JMdict and both examples.",
+        "conjugation": "Existing suru metadata (コピーする) unchanged and consistent.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for コピーする / コピーする; the previous value 1 is unattested and is not inferred from component words.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup コピーする / コピーする",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Replace the byte-identical second example with a new, distinct context; unattested pitch set to unknown. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "5b930e10b744dc68acbbf1047db5a44342617b0cb783eedcea0d6cc0004b9312",
+        "approvalHash": "4c7b3dae7f0b28b1ec1c572971436feb9252cfaa2e75399645c3cfc1cd3433b7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 会議の前に資料を十部コピーしておきました (juubu, 〜ておく) is distinct from the polite request; German correct; no exact コピーする row (only noun コピー sys.dic@124101110), so null is correct.",
+        "contentHash": "5b930e10b744dc68acbbf1047db5a44342617b0cb783eedcea0d6cc0004b9312",
+        "approvalHash": "4c7b3dae7f0b28b1ec1c572971436feb9252cfaa2e75399645c3cfc1cd3433b7"
+      }
+    },
+    {
+      "id": "vocab-n4:290",
+      "revisionId": "021-dup-vocab-n4-290",
+      "state": "accepted",
+      "predecessorHash": "2b950ee8a8546127383305288742d91f96ae5cc5e4b016bedbe07b214c71ac67",
+      "predecessorRevisionHash": null,
+      "originalHash": "2b950ee8a8546127383305288742d91f96ae5cc5e4b016bedbe07b214c71ac67",
+      "rationale": "Replace the byte-identical second example with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "激しい雨が降っています。",
+            "romaji": "Hageshii ame ga futte imasu.",
+            "german": "Es regnet heftig."
+          },
+          {
+            "japanese": "激しい雨が降っています。",
+            "romaji": "Hageshii ame ga futte imasu.",
+            "german": "Es regnet heftig."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "激しい雨が降っています。",
+            "romaji": "Hageshii ame ga futte imasu.",
+            "german": "Es regnet heftig."
+          },
+          {
+            "japanese": "この業界は競争が激しいです。",
+            "romaji": "Kono gyoukai wa kyousou ga hageshii desu.",
+            "german": "In dieser Branche ist der Wettbewerb hart."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@213412919",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "激しい",
+              "reading": "はげしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "激しい as \"heftig, intensiv\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1600720; spelling=激しい; reading=はげしい; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "激しい/はげしい sense(s) 1,2 match \"heftig, intensiv\" and both example contexts.",
+          "selected": {
+            "sequence": "1600720",
+            "spelling": "激しい",
+            "reading": "はげしい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "violent",
+                  "furious",
+                  "tempestuous"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "extreme",
+                  "intense",
+                  "fierce",
+                  "strong"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded quality sweep mechanical finding",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/final-mechanical-findings.json#vocab-n4:290",
+          "finding": "Example 2 was a byte-identical repeat of example 1 (exact-duplicate-example). Example 1 kept; example 2 replaced with a newly authored, distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"heftig, intensiv\" checked against JMdict 1600720; unchanged.",
+        "japanese": "Kept example 1 (激しい雨が降っています。); new example 2 (この業界は競争が激しいです。) is grammatical and uses the headword in the taught sense.",
+        "romanization": "New romaji \"Kono gyoukai wa kyousou ga hageshii desu.\" follows the N4 file convention (long vowels ou/uu, particles wa/o/e).",
+        "translation": "New German \"In dieser Branche ist der Wettbewerb hart.\" is faithful.",
+        "contexts": [
+          "Heavy rain (weather intensity).",
+          "Fierce competition in an industry (abstract intensity)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1600720 sense(s) 1,2; no sense added or removed.",
+        "register": "Neutral everyday register; polite/plain forms as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@213412919",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "激しい",
+              "reading": "はげしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "激しい as \"heftig, intensiv\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Replace the byte-identical second example with a new, distinct context. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "8d0a2375ff80e3ea9b9da09d3650ad6d055628be8e931190a5c90e0dbe5d98ed",
+        "approvalHash": "cc27b4c118b27fd28274a20ca3bb8f96e7406629113cbdb3164e9afd685dc661"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): この業界は競争が激しいです (abstract intensity) is distinct from heavy rain; \"der Wettbewerb ist hart\" is idiomatic; pitch 3 matches sys.dic@213412919.",
+        "contentHash": "8d0a2375ff80e3ea9b9da09d3650ad6d055628be8e931190a5c90e0dbe5d98ed",
+        "approvalHash": "cc27b4c118b27fd28274a20ca3bb8f96e7406629113cbdb3164e9afd685dc661"
+      }
+    },
+    {
+      "id": "vocab-n4:294",
+      "revisionId": "021-dup-vocab-n4-294",
+      "state": "accepted",
+      "predecessorHash": "089e5dd7b9271f2dacaaf444b625be6534b3e70d95de7c57e39a0f056b04bc7c",
+      "predecessorRevisionHash": null,
+      "originalHash": "089e5dd7b9271f2dacaaf444b625be6534b3e70d95de7c57e39a0f056b04bc7c",
+      "rationale": "Replace the byte-identical second example with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "不思議な夢を見ました。",
+            "romaji": "Fushigi na yume o mimashita.",
+            "german": "Ich hatte einen merkwürdigen Traum."
+          },
+          {
+            "japanese": "不思議な夢を見ました。",
+            "romaji": "Fushigi na yume o mimashita.",
+            "german": "Ich hatte einen merkwürdigen Traum."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "不思議な夢を見ました。",
+            "romaji": "Fushigi na yume o mimashita.",
+            "german": "Ich hatte einen merkwürdigen Traum."
+          },
+          {
+            "japanese": "どうして彼が来なかったのか、不思議に思いました。",
+            "romaji": "Doushite kare ga konakatta no ka, fushigi ni omoimashita.",
+            "german": "Ich habe mich gewundert, warum er nicht gekommen ist."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233519180",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "不思議",
+              "reading": "ふしぎ",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "不思議 as \"merkwürdig, geheimnisvoll\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1492570; spelling=不思議; reading=ふしぎ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "不思議/ふしぎ sense(s) 1 match \"merkwürdig, geheimnisvoll\" and both example contexts.",
+          "selected": {
+            "sequence": "1492570",
+            "spelling": "不思議",
+            "reading": "ふしぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wonderful",
+                  "marvelous",
+                  "strange",
+                  "incredible",
+                  "amazing",
+                  "curious",
+                  "miraculous",
+                  "mysterious"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded quality sweep mechanical finding",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/final-mechanical-findings.json#vocab-n4:294",
+          "finding": "Example 2 was a byte-identical repeat of example 1 (exact-duplicate-example). Example 1 kept; example 2 replaced with a newly authored, distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"merkwürdig, geheimnisvoll\" checked against JMdict 1492570; unchanged.",
+        "japanese": "Kept example 1 (不思議な夢を見ました。); new example 2 (どうして彼が来なかったのか、不思議に思いました。) is grammatical and uses the headword in the taught sense.",
+        "romanization": "New romaji \"Doushite kare ga konakatta no ka, fushigi ni omoimashita.\" follows the N4 file convention (long vowels ou/uu, particles wa/o/e).",
+        "translation": "New German \"Ich habe mich gewundert, warum er nicht gekommen ist.\" is faithful.",
+        "contexts": [
+          "Attributive use: a strange dream.",
+          "Adverbial 不思議に思う: wondering about someone's absence."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1492570 sense(s) 1; no sense added or removed.",
+        "register": "Neutral everyday register; polite/plain forms as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233519180",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "不思議",
+              "reading": "ふしぎ",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "不思議 as \"merkwürdig, geheimnisvoll\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Replace the byte-identical second example with a new, distinct context. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "f745b52916921043feac0fc297b6849377d9738d485bc316126c9963f5aa1be2",
+        "approvalHash": "a84c96f101118db3942e3b9e3f07bed8818ca91bfdf04ee86918654f10b15b6c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): どうして彼が来なかったのか、不思議に思いました shows 不思議に思う, distinct from the attributive strange dream; German \"Ich habe mich gewundert\" is accurate; pitch 0 matches sys.dic@233519180.",
+        "contentHash": "f745b52916921043feac0fc297b6849377d9738d485bc316126c9963f5aa1be2",
+        "approvalHash": "a84c96f101118db3942e3b9e3f07bed8818ca91bfdf04ee86918654f10b15b6c"
+      }
+    },
+    {
+      "id": "vocab-n4:325",
+      "revisionId": "021-dup-vocab-n4-325",
+      "state": "accepted",
+      "predecessorHash": "96e7f79b715af20cfb3451af415004cefa2cca689c61143707b77a3ff8d258bc",
+      "predecessorRevisionHash": null,
+      "originalHash": "96e7f79b715af20cfb3451af415004cefa2cca689c61143707b77a3ff8d258bc",
+      "rationale": "Replace the byte-identical second example with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "順番に並んでください。",
+            "romaji": "Junban ni narande kudasai.",
+            "german": "Bitte stellen Sie sich der Reihe nach an."
+          },
+          {
+            "japanese": "順番に並んでください。",
+            "romaji": "Junban ni narande kudasai.",
+            "german": "Bitte stellen Sie sich der Reihe nach an."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "順番に並んでください。",
+            "romaji": "Junban ni narande kudasai.",
+            "german": "Bitte stellen Sie sich der Reihe nach an."
+          },
+          {
+            "japanese": "次はあなたの順番です。",
+            "romaji": "Tsugi wa anata no junban desu.",
+            "german": "Als Nächstes sind Sie an der Reihe."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144719011",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "順番",
+              "reading": "じゅんばん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "順番 as \"Reihenfolge\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1342390; spelling=順番; reading=じゅんばん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "順番/じゅんばん sense(s) 1 match \"Reihenfolge\" and both example contexts.",
+          "selected": {
+            "sequence": "1342390",
+            "spelling": "順番",
+            "reading": "じゅんばん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "order",
+                  "turn"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded quality sweep mechanical finding",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/final-mechanical-findings.json#vocab-n4:325",
+          "finding": "Example 2 was a byte-identical repeat of example 1 (exact-duplicate-example). Example 1 kept; example 2 replaced with a newly authored, distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Reihenfolge\" checked against JMdict 1342390; unchanged.",
+        "japanese": "Kept example 1 (順番に並んでください。); new example 2 (次はあなたの順番です。) is grammatical and uses the headword in the taught sense.",
+        "romanization": "New romaji \"Tsugi wa anata no junban desu.\" follows the N4 file convention (long vowels ou/uu, particles wa/o/e).",
+        "translation": "New German \"Als Nächstes sind Sie an der Reihe.\" is faithful.",
+        "contexts": [
+          "Asking people to line up in order.",
+          "Telling someone it is their turn."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1342390 sense(s) 1; no sense added or removed.",
+        "register": "Neutral everyday register; polite/plain forms as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144719011",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "順番",
+              "reading": "じゅんばん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "順番 as \"Reihenfolge\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Replace the byte-identical second example with a new, distinct context. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "9c6b0e5147dffd76e4aa03eb974b05e2e0ed39dd741ae36eca2d6816b01f6aa8",
+        "approvalHash": "a668f834ecd5982fa61eebad86a1deefe241222cc50d043505834af9cb50a85b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 次はあなたの順番です (\"an der Reihe\") is a distinct turn-taking use vs. lining up in order; pitch 0 matches sys.dic@144719011.",
+        "contentHash": "9c6b0e5147dffd76e4aa03eb974b05e2e0ed39dd741ae36eca2d6816b01f6aa8",
+        "approvalHash": "a668f834ecd5982fa61eebad86a1deefe241222cc50d043505834af9cb50a85b"
+      }
+    },
+    {
+      "id": "vocab-n4:358",
+      "revisionId": "021-dup-vocab-n4-358",
+      "state": "accepted",
+      "predecessorHash": "bd8a7d5513c0a78a9ad20f26bdd33f706661dba4efaaed20066e4b85ab657fed",
+      "predecessorRevisionHash": null,
+      "originalHash": "bd8a7d5513c0a78a9ad20f26bdd33f706661dba4efaaed20066e4b85ab657fed",
+      "rationale": "Replace the byte-identical second example with a new, distinct context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "それは常識です。",
+            "romaji": "Sore wa joushiki desu.",
+            "german": "Das ist Allgemeinwissen."
+          },
+          {
+            "japanese": "それは常識です。",
+            "romaji": "Sore wa joushiki desu.",
+            "german": "Das ist Allgemeinwissen."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "それは常識です。",
+            "romaji": "Sore wa joushiki desu.",
+            "german": "Das ist Allgemeinwissen."
+          },
+          {
+            "japanese": "約束の時間を守るのは社会人の常識です。",
+            "romaji": "Yakusoku no jikan o mamoru no wa shakaijin no joushiki desu.",
+            "german": "Pünktlichkeit bei Verabredungen gehört für Berufstätige zum gesunden Menschenverstand."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144858371",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "常識",
+              "reading": "じょうしき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "常識 as \"Allgemeinwissen, gesunder Menschenverstand\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1356000; spelling=常識; reading=じょうしき; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "常識/じょうしき sense(s) 1 match \"Allgemeinwissen, gesunder Menschenverstand\" and both example contexts.",
+          "selected": {
+            "sequence": "1356000",
+            "spelling": "常識",
+            "reading": "じょうしき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "common sense",
+                  "good sense",
+                  "common knowledge",
+                  "general knowledge",
+                  "common practice",
+                  "accepted practice",
+                  "social etiquette"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Bounded quality sweep mechanical finding",
+          "version": "2026-09-22",
+          "locator": "scripts/vocabulary-completion/quality-sweep/final-mechanical-findings.json#vocab-n4:358",
+          "finding": "Example 2 was a byte-identical repeat of example 1 (exact-duplicate-example). Example 1 kept; example 2 replaced with a newly authored, distinct context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "duplicate-example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Allgemeinwissen, gesunder Menschenverstand\" checked against JMdict 1356000; unchanged.",
+        "japanese": "Kept example 1 (それは常識です。); new example 2 (約束の時間を守るのは社会人の常識です。) is grammatical and uses the headword in the taught sense.",
+        "romanization": "New romaji \"Yakusoku no jikan o mamoru no wa shakaijin no joushiki desu.\" follows the N4 file convention (long vowels ou/uu, particles wa/o/e).",
+        "translation": "New German \"Pünktlichkeit bei Verabredungen gehört für Berufstätige zum gesunden Menschenverstand.\" is faithful.",
+        "contexts": [
+          "Stating that something is common knowledge.",
+          "Social norm expected of working adults."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1356000 sense(s) 1; no sense added or removed.",
+        "register": "Neutral everyday register; polite/plain forms as in the sentences.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 estimate retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch attested by exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144858371",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Existing pitch attested by exact row; unchanged.",
+            "match": {
+              "word": "常識",
+              "reading": "じょうしき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "常識 as \"Allgemeinwissen, gesunder Menschenverstand\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: Replace the byte-identical second example with a new, distinct context. Final content, evidence and pitch disposition inspected.",
+        "contentHash": "c1c2f52429eef0564ce38d468dfef8e428aaaf62c5925bcd85506f1284542f85",
+        "approvalHash": "ddf5ea1c1bb33b8bdb75ee185aee675301d455a8ca430ff850bd5c8dff4a38bf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 約束の時間を守るのは社会人の常識です adds the social-norm context (romaji shakaijin, joushiki correct) distinct from \"that is common knowledge\"; German free but faithful; pitch 0 matches sys.dic@144858371.",
+        "contentHash": "c1c2f52429eef0564ce38d468dfef8e428aaaf62c5925bcd85506f1284542f85",
+        "approvalHash": "ddf5ea1c1bb33b8bdb75ee185aee675301d455a8ca430ff850bd5c8dff4a38bf"
+      }
+    }
+  ],
+  "decisions": []
+}

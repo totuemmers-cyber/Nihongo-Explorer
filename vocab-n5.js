@@ -36211,5 +36211,239 @@ window.VOCAB_N5 = [
       }
     ],
     "correctionId": "vocab-n5:correction:ikura-roe"
+  },
+  {
+    "word": "何人",
+    "reading": "なんにん",
+    "romaji": "nannin",
+    "meaning": "wie viele Personen",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N5",
+    "notes": "Fragewort mit dem Zähler 人（にん）. Nicht verwechseln mit 何人（なにじん）„welche Nationalität“, das gleich geschrieben wird.",
+    "examples": [
+      {
+        "japanese": "ご家族は何人ですか。",
+        "romaji": "Gokazoku wa nannin desu ka.",
+        "german": "Wie viele Personen hat Ihre Familie?"
+      },
+      {
+        "japanese": "パーティーには何人来ましたか。",
+        "romaji": "Paatii ni wa nannin kimashita ka.",
+        "german": "Wie viele Leute sind zur Party gekommen?"
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:nannin"
+  },
+  {
+    "word": "何時",
+    "reading": "なんじ",
+    "romaji": "nanji",
+    "meaning": "wie viel Uhr; um wie viel Uhr",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N5",
+    "notes": "Fragewort mit 時（じ, Uhr）: 今何時ですか. Dieselbe Schreibung kann いつ („wann“) gelesen werden; „wann“ schreibt man heute aber meist in Hiragana, daher ist 何時 fast immer なんじ.",
+    "examples": [
+      {
+        "japanese": "すみません、今何時ですか。",
+        "romaji": "Sumimasen, ima nanji desu ka.",
+        "german": "Entschuldigung, wie spät ist es?"
+      },
+      {
+        "japanese": "明日は何時に起きますか。",
+        "romaji": "Ashita wa nanji ni okimasu ka.",
+        "german": "Um wie viel Uhr stehst du morgen auf?"
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:nanji"
+  },
+  {
+    "word": "三月",
+    "reading": "さんがつ",
+    "romaji": "sangatsu",
+    "meaning": "März",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N5",
+    "notes": "Monatsnamen = Zahl + 月（がつ）. 三月 ist der Monat März; „drei Monate“ heißt dagegen 三か月（さんかげつ）.",
+    "examples": [
+      {
+        "japanese": "三月に大学を卒業します。",
+        "romaji": "Sangatsu ni daigaku o sotsugyou shimasu.",
+        "german": "Im März mache ich meinen Universitätsabschluss."
+      },
+      {
+        "japanese": "日本では三月の終わりごろ、桜が咲き始めます。",
+        "romaji": "Nihon de wa sangatsu no owari goro, sakura ga sakihajimemasu.",
+        "german": "In Japan beginnen die Kirschbäume gegen Ende März zu blühen."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:sangatsu"
+  },
+  {
+    "word": "七月",
+    "reading": "しちがつ",
+    "romaji": "shichigatsu",
+    "meaning": "Juli",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N5",
+    "notes": "Standardlesung しちがつ. Weil しち leicht mit いち verwechselt wird, hört man umgangssprachlich auch なながつ; in Prüfungen und Lehrbüchern gilt しちがつ.",
+    "examples": [
+      {
+        "japanese": "七月七日は七夕です。",
+        "romaji": "Shichigatsu nanoka wa Tanabata desu.",
+        "german": "Der 7. Juli ist das Tanabata-Fest."
+      },
+      {
+        "japanese": "七月から夏休みが始まります。",
+        "romaji": "Shichigatsu kara natsuyasumi ga hajimarimasu.",
+        "german": "Im Juli beginnen die Sommerferien."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:shichigatsu"
+  },
+  {
+    "word": "八月",
+    "reading": "はちがつ",
+    "romaji": "hachigatsu",
+    "meaning": "August",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N5",
+    "notes": "Regelmäßig gelesen: はち＋がつ. Im August liegt das Obon-Fest（お盆）, zu dem viele in ihre Heimat fahren.",
+    "examples": [
+      {
+        "japanese": "八月はとても暑いです。",
+        "romaji": "Hachigatsu wa totemo atsui desu.",
+        "german": "Im August ist es sehr heiß."
+      },
+      {
+        "japanese": "八月の中ごろに国へ帰ります。",
+        "romaji": "Hachigatsu no nakagoro ni kuni e kaerimasu.",
+        "german": "Mitte August fahre ich in meine Heimat."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:hachigatsu"
+  },
+  {
+    "word": "九月",
+    "reading": "くがつ",
+    "romaji": "kugatsu",
+    "meaning": "September",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N5",
+    "notes": "Wird くがつ gelesen, nicht きゅうがつ – eine der unregelmäßigen Monatslesungen neben 四月（しがつ）und 七月（しちがつ）.",
+    "examples": [
+      {
+        "japanese": "九月に日本へ留学します。",
+        "romaji": "Kugatsu ni Nihon e ryuugaku shimasu.",
+        "german": "Im September gehe ich zum Studium nach Japan."
+      },
+      {
+        "japanese": "九月になっても、まだ暑い日が続いています。",
+        "romaji": "Kugatsu ni natte mo, mada atsui hi ga tsuzuite imasu.",
+        "german": "Auch im September gibt es noch heiße Tage."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:kugatsu"
+  },
+  {
+    "word": "十一月",
+    "reading": "じゅういちがつ",
+    "romaji": "juuichigatsu",
+    "meaning": "November",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N5",
+    "notes": "Zusammengesetzt aus 十一（elf）und 月（がつ）. Nicht verwechseln mit 十一日（じゅういちにち, der Elfte）.",
+    "examples": [
+      {
+        "japanese": "十一月になると、山の木が赤や黄色になります。",
+        "romaji": "Juuichigatsu ni naru to, yama no ki ga aka ya kiiro ni narimasu.",
+        "german": "Im November färben sich die Bäume in den Bergen rot und gelb."
+      },
+      {
+        "japanese": "誕生日は十一月三日です。",
+        "romaji": "Tanjoubi wa juuichigatsu mikka desu.",
+        "german": "Mein Geburtstag ist am 3. November."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:juuichigatsu"
+  },
+  {
+    "word": "十二月",
+    "reading": "じゅうにがつ",
+    "romaji": "juunigatsu",
+    "meaning": "Dezember",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N5",
+    "notes": "Letzter Monat des Jahres; der 31. Dezember heißt 大晦日（おおみそか）. Ein alter, poetischer Name ist 師走（しわす）.",
+    "examples": [
+      {
+        "japanese": "十二月は仕事がとても忙しいです。",
+        "romaji": "Juunigatsu wa shigoto ga totemo isogashii desu.",
+        "german": "Im Dezember habe ich bei der Arbeit sehr viel zu tun."
+      },
+      {
+        "japanese": "十二月三十一日に、家族でそばを食べます。",
+        "romaji": "Juunigatsu sanjuuichinichi ni, kazoku de soba o tabemasu.",
+        "german": "Am 31. Dezember essen wir in der Familie Soba-Nudeln."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:juunigatsu"
+  },
+  {
+    "word": "バナナ",
+    "reading": "バナナ",
+    "romaji": "banana",
+    "meaning": "Banane",
+    "type": "Nomen",
+    "category": "Essen",
+    "level": "N5",
+    "notes": "Lehnwort in Katakana. Gezählt wird mit 本（ほん／ぼん／ぽん）für längliche Dinge: バナナ一本.",
+    "examples": [
+      {
+        "japanese": "朝ご飯にバナナを一本食べました。",
+        "romaji": "Asagohan ni banana o ippon tabemashita.",
+        "german": "Zum Frühstück habe ich eine Banane gegessen."
+      },
+      {
+        "japanese": "このバナナはまだ緑色で、かたいです。",
+        "romaji": "Kono banana wa mada midoriiro de, katai desu.",
+        "german": "Diese Banane ist noch grün und hart."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220624477",
+        "patterns": [
+          1
+        ],
+        "finding": "バナナ / バナナ; 名詞/普通名詞/一般/*; *; *; lemma バナナ-banana; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "バナナ",
+          "reading": "バナナ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "バナナ as \"Banane\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:banana"
   }
 ];

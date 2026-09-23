@@ -1,0 +1,2641 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n5:correction:nannin",
+      "revisionId": "021-add-nannin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "何人",
+        "reading": "なんにん",
+        "romaji": "nannin",
+        "meaning": "wie viele Personen",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N5",
+        "notes": "Fragewort mit dem Zähler 人（にん）. Nicht verwechseln mit 何人（なにじん）„welche Nationalität“, das gleich geschrieben wird.",
+        "examples": [
+          {
+            "japanese": "ご家族は何人ですか。",
+            "romaji": "Gokazoku wa nannin desu ka.",
+            "german": "Wie viele Personen hat Ihre Familie?"
+          },
+          {
+            "japanese": "パーティーには何人来ましたか。",
+            "romaji": "Paatii ni wa nannin kimashita ka.",
+            "german": "Wie viele Leute sind zur Party gekommen?"
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Not a separate row in the three publisher lists (comparison.json); question words with counters are core N5 material and the app already has 何月 at N5. Editorial N5.",
+      "rationale": "Add 何人【なんにん】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1189100; spelling=何人; reading=なんにん; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1189100 何人/なんにん sense(s) 1 support \"wie viele Personen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1189100",
+            "spelling": "何人",
+            "reading": "なんにん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "how many people",
+                  "a number of people"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"wie viele Personen\" matches JMdict 1189100 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Asking about family size.",
+          "Asking how many people attended."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1189100; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Not a separate row in the three publisher lists (comparison.json); question words with counters are core N5 material and the app already has 何月 at N5. Editorial N5."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 何人 / なんにん; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 何人 / なんにん",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "31bdf12b6a930c5e6ba19378e5af52212d4c26f95d0e3be48d84126fc637db04",
+        "approvalHash": "d1038a473e3926972e3c6413532b3b316365d1bb0634cc2b9f038a1137286b94"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 何人 (なんにん) is absent from comparison.json and the data files (checked); editorial N5 with 何月 (N5, present) is reasonable; null pitch correct (no sys.dic row for ナンニン); family size vs party attendance are distinct; the なにじん warning is accurate.",
+        "contentHash": "31bdf12b6a930c5e6ba19378e5af52212d4c26f95d0e3be48d84126fc637db04",
+        "approvalHash": "d1038a473e3926972e3c6413532b3b316365d1bb0634cc2b9f038a1137286b94"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:nanji",
+      "revisionId": "021-add-nanji",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "何時",
+        "reading": "なんじ",
+        "romaji": "nanji",
+        "meaning": "wie viel Uhr; um wie viel Uhr",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N5",
+        "notes": "Fragewort mit 時（じ, Uhr）: 今何時ですか. Dieselbe Schreibung kann いつ („wann“) gelesen werden; „wann“ schreibt man heute aber meist in Hiragana, daher ist 何時 fast immer なんじ.",
+        "examples": [
+          {
+            "japanese": "すみません、今何時ですか。",
+            "romaji": "Sumimasen, ima nanji desu ka.",
+            "german": "Entschuldigung, wie spät ist es?"
+          },
+          {
+            "japanese": "明日は何時に起きますか。",
+            "romaji": "Ashita wa nanji ni okimasu ka.",
+            "german": "Um wie viel Uhr stehst du morgen auf?"
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "The only publisher row for 何時 (Tanos N1 / Master N5) is the reading いつ (candidate 何時|いつ, left open); なんじ is not listed separately. Telling time is core N5; the app has 何月 at N5. Editorial N5.",
+      "rationale": "Add 何時【なんじ】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1188770; spelling=何時; reading=なんじ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1188770 何時/なんじ sense(s) 1 support \"wie viel Uhr; um wie viel Uhr\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1188770",
+            "spelling": "何時",
+            "reading": "なんじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "what time",
+                  "which hour"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"wie viel Uhr; um wie viel Uhr\" matches JMdict 1188770 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Asking the current time.",
+          "Asking about a scheduled time (何時に)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1188770; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "The only publisher row for 何時 (Tanos N1 / Master N5) is the reading いつ (candidate 何時|いつ, left open); なんじ is not listed separately. Telling time is core N5; the app has 何月 at N5. Editorial N5."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 何時 / なんじ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 何時 / なんじ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "3a6d081e8c61b149e54a4f0e8155caa381d7a24f592af1b54f9d0a411c56e5ec",
+        "approvalHash": "1e3cad2a394487d3d2160b72f6127957ce6192d2f1d8236c35f94243a32095cd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 何時 read なんじ (JMdict 1188770); comparison.json only has 何時|いつ, so editorial N5 is justified; sys.dic ナンジ rows are only 汝/難事/難ずる etc., so null pitch is correct; 今何時ですか and 何時に起きますか are distinct; the いつ note is accurate.",
+        "contentHash": "3a6d081e8c61b149e54a4f0e8155caa381d7a24f592af1b54f9d0a411c56e5ec",
+        "approvalHash": "1e3cad2a394487d3d2160b72f6127957ce6192d2f1d8236c35f94243a32095cd"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:sangatsu",
+      "revisionId": "021-add-sangatsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "三月",
+        "reading": "さんがつ",
+        "romaji": "sangatsu",
+        "meaning": "März",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N5",
+        "notes": "Monatsnamen = Zahl + 月（がつ）. 三月 ist der Monat März; „drei Monate“ heißt dagegen 三か月（さんかげつ）.",
+        "examples": [
+          {
+            "japanese": "三月に大学を卒業します。",
+            "romaji": "Sangatsu ni daigaku o sotsugyou shimasu.",
+            "german": "Im März mache ich meinen Universitätsabschluss."
+          },
+          {
+            "japanese": "日本では三月の終わりごろ、桜が咲き始めます。",
+            "romaji": "Nihon de wa sangatsu no owari goro, sakura ga sakihajimemasu.",
+            "german": "In Japan beginnen die Kirschbäume gegen Ende März zu blühen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set.",
+      "rationale": "Add 三月【さんがつ】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1300250; spelling=三月; reading=さんがつ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1300250 三月/さんがつ sense(s) 1 support \"März\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1300250",
+            "spelling": "三月",
+            "reading": "さんがつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "March"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"März\" matches JMdict 1300250 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Graduation month.",
+          "Seasonal cherry blossom timing."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1300250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 三月 / さんがつ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 三月 / さんがつ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "a773263828aa0efa9e07608008777cd87aa678d5fc9775d0a1a91a058f51e6be",
+        "approvalHash": "48657c6fbb82752588a630b3a391a1a334cedcefc9a07366b71357b094afb00b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 三月 completes the N5 month set (一月/二月/四月/十月 verified in vocab-n5.js); no sys.dic row for サンガツ, so null; graduation vs cherry-blossom timing (sakihajimemasu) are distinct; 三か月 note accurate.",
+        "contentHash": "a773263828aa0efa9e07608008777cd87aa678d5fc9775d0a1a91a058f51e6be",
+        "approvalHash": "48657c6fbb82752588a630b3a391a1a334cedcefc9a07366b71357b094afb00b"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:shichigatsu",
+      "revisionId": "021-add-shichigatsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "七月",
+        "reading": "しちがつ",
+        "romaji": "shichigatsu",
+        "meaning": "Juli",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N5",
+        "notes": "Standardlesung しちがつ. Weil しち leicht mit いち verwechselt wird, hört man umgangssprachlich auch なながつ; in Prüfungen und Lehrbüchern gilt しちがつ.",
+        "examples": [
+          {
+            "japanese": "七月七日は七夕です。",
+            "romaji": "Shichigatsu nanoka wa Tanabata desu.",
+            "german": "Der 7. Juli ist das Tanabata-Fest."
+          },
+          {
+            "japanese": "七月から夏休みが始まります。",
+            "romaji": "Shichigatsu kara natsuyasumi ga hajimarimasu.",
+            "german": "Im Juli beginnen die Sommerferien."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set.",
+      "rationale": "Add 七月【しちがつ】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1319280; spelling=七月; reading=しちがつ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1319280 七月/しちがつ sense(s) 1 support \"Juli\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1319280",
+            "spelling": "七月",
+            "reading": "しちがつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "July"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Juli\" matches JMdict 1319280 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Festival date.",
+          "Start of summer holidays."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1319280; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 七月 / しちがつ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 七月 / しちがつ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "542e64d89c426397499549b93bd57013017cdd0c46212cde1ea172f06b341f42",
+        "approvalHash": "eb530aa416467484595855ccebf4e04efecb76bc3ac73d72928cdf8c7a1ea3e4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): my round-1 rejection is fixed; the note now correctly states that しち is confusable with いち and that なながつ is the colloquial avoidance form, with しちがつ as the standard reading (consistent with counters-data.js). Examples 七月七日 (nanoka) / 七月から夏休み and null pitch unchanged and correct.",
+        "contentHash": "542e64d89c426397499549b93bd57013017cdd0c46212cde1ea172f06b341f42",
+        "approvalHash": "eb530aa416467484595855ccebf4e04efecb76bc3ac73d72928cdf8c7a1ea3e4"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:hachigatsu",
+      "revisionId": "021-add-hachigatsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "八月",
+        "reading": "はちがつ",
+        "romaji": "hachigatsu",
+        "meaning": "August",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N5",
+        "notes": "Regelmäßig gelesen: はち＋がつ. Im August liegt das Obon-Fest（お盆）, zu dem viele in ihre Heimat fahren.",
+        "examples": [
+          {
+            "japanese": "八月はとても暑いです。",
+            "romaji": "Hachigatsu wa totemo atsui desu.",
+            "german": "Im August ist es sehr heiß."
+          },
+          {
+            "japanese": "八月の中ごろに国へ帰ります。",
+            "romaji": "Hachigatsu no nakagoro ni kuni e kaerimasu.",
+            "german": "Mitte August fahre ich in meine Heimat."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set.",
+      "rationale": "Add 八月【はちがつ】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1476730; spelling=八月; reading=はちがつ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1476730 八月/はちがつ sense(s) 1 support \"August\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1476730",
+            "spelling": "八月",
+            "reading": "はちがつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "August"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"August\" matches JMdict 1476730 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Weather in August.",
+          "Travel plan in mid-August."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1476730; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 八月 / はちがつ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 八月 / はちがつ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "400af619a45e7d03edf258ad824ce1ece5f2d192a0e5a0b26b515f65ee912789",
+        "approvalHash": "80ca9745c3590818295797363b3d0faf6bfd29491ea378cd2d74f72cb7e1b22c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 八月 N5 with month-set basis; no sys.dic row for ハチガツ, so null; hot August vs 八月の中ごろ (nakagoro) homecoming are distinct; Obon note accurate.",
+        "contentHash": "400af619a45e7d03edf258ad824ce1ece5f2d192a0e5a0b26b515f65ee912789",
+        "approvalHash": "80ca9745c3590818295797363b3d0faf6bfd29491ea378cd2d74f72cb7e1b22c"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:kugatsu",
+      "revisionId": "021-add-kugatsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "九月",
+        "reading": "くがつ",
+        "romaji": "kugatsu",
+        "meaning": "September",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N5",
+        "notes": "Wird くがつ gelesen, nicht きゅうがつ – eine der unregelmäßigen Monatslesungen neben 四月（しがつ）und 七月（しちがつ）.",
+        "examples": [
+          {
+            "japanese": "九月に日本へ留学します。",
+            "romaji": "Kugatsu ni Nihon e ryuugaku shimasu.",
+            "german": "Im September gehe ich zum Studium nach Japan."
+          },
+          {
+            "japanese": "九月になっても、まだ暑い日が続いています。",
+            "romaji": "Kugatsu ni natte mo, mada atsui hi ga tsuzuite imasu.",
+            "german": "Auch im September gibt es noch heiße Tage."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set.",
+      "rationale": "Add 九月【くがつ】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1243660; spelling=九月; reading=くがつ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1243660 九月/くがつ sense(s) 1 support \"September\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1243660",
+            "spelling": "九月",
+            "reading": "くがつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "September"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"September\" matches JMdict 1243660 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Study-abroad plan.",
+          "Lingering summer heat."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1243660; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 九月 / くがつ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 九月 / くがつ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "f4cf58fc18be859a3326e2d356802b6fe6932ccbfc12e579ec82e89659e6b6eb",
+        "approvalHash": "32bd7bf5514eafd2317062efe41b2d9fef240dc5f09da0e745e45efa0ddd8a45"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 九月 read くがつ with a correct note against きゅうがつ; null pitch (no クガツ row); study abroad vs lingering heat (natte mo … tsuzuite imasu) are distinct and correctly translated.",
+        "contentHash": "f4cf58fc18be859a3326e2d356802b6fe6932ccbfc12e579ec82e89659e6b6eb",
+        "approvalHash": "32bd7bf5514eafd2317062efe41b2d9fef240dc5f09da0e745e45efa0ddd8a45"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:juuichigatsu",
+      "revisionId": "021-add-juuichigatsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "十一月",
+        "reading": "じゅういちがつ",
+        "romaji": "juuichigatsu",
+        "meaning": "November",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N5",
+        "notes": "Zusammengesetzt aus 十一（elf）und 月（がつ）. Nicht verwechseln mit 十一日（じゅういちにち, der Elfte）.",
+        "examples": [
+          {
+            "japanese": "十一月になると、山の木が赤や黄色になります。",
+            "romaji": "Juuichigatsu ni naru to, yama no ki ga aka ya kiiro ni narimasu.",
+            "german": "Im November färben sich die Bäume in den Bergen rot und gelb."
+          },
+          {
+            "japanese": "誕生日は十一月三日です。",
+            "romaji": "Tanjoubi wa juuichigatsu mikka desu.",
+            "german": "Mein Geburtstag ist am 3. November."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set.",
+      "rationale": "Add 十一月【じゅういちがつ】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1334480; spelling=十一月; reading=じゅういちがつ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1334480 十一月/じゅういちがつ sense(s) 1 support \"November\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1334480",
+            "spelling": "十一月",
+            "reading": "じゅういちがつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "November"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"November\" matches JMdict 1334480 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Autumn leaves.",
+          "Giving a birthday date."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1334480; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 十一月 / じゅういちがつ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 十一月 / じゅういちがつ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "5e5a7349d3cd5a40fa305705b05df6de474a09e122797bd7bbb5a5d9fc0a1662",
+        "approvalHash": "fcfd628be1b6d88cb7bbbcc8c337a3416a50a241ade2415df6c5d92d4999ab41"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 十一月 N5; null pitch (no ジュウイチガツ row); autumn leaves vs 十一月三日 (mikka) birthday are distinct; 十一日 warning accurate.",
+        "contentHash": "5e5a7349d3cd5a40fa305705b05df6de474a09e122797bd7bbb5a5d9fc0a1662",
+        "approvalHash": "fcfd628be1b6d88cb7bbbcc8c337a3416a50a241ade2415df6c5d92d4999ab41"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:juunigatsu",
+      "revisionId": "021-add-juunigatsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "十二月",
+        "reading": "じゅうにがつ",
+        "romaji": "juunigatsu",
+        "meaning": "Dezember",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N5",
+        "notes": "Letzter Monat des Jahres; der 31. Dezember heißt 大晦日（おおみそか）. Ein alter, poetischer Name ist 師走（しわす）.",
+        "examples": [
+          {
+            "japanese": "十二月は仕事がとても忙しいです。",
+            "romaji": "Juunigatsu wa shigoto ga totemo isogashii desu.",
+            "german": "Im Dezember habe ich bei der Arbeit sehr viel zu tun."
+          },
+          {
+            "japanese": "十二月三十一日に、家族でそばを食べます。",
+            "romaji": "Juunigatsu sanjuuichinichi ni, kazoku de soba o tabemasu.",
+            "german": "Am 31. Dezember essen wir in der Familie Soba-Nudeln."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set.",
+      "rationale": "Add 十二月【じゅうにがつ】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1334910; spelling=十二月; reading=じゅうにがつ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1334910 十二月/じゅうにがつ sense(s) 1 support \"Dezember\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1334910",
+            "spelling": "十二月",
+            "reading": "じゅうにがつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "December"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Dezember\" matches JMdict 1334910 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Busy work season.",
+          "New Year's Eve custom."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1334910; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Month names are not separate rows in the three publisher lists; the app already teaches 一月, 二月, 四月, 五月, 六月 and 十月 at N5, so the six missing months complete that N5 set."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 十二月 / じゅうにがつ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 十二月 / じゅうにがつ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "1678035c43fe5868cb54871b288242a4daca8f3428abe2dcb9904204d7ef95e8",
+        "approvalHash": "77647030402e190f04e3699692a80212680ea52c464a75ca132b064b4c1041bb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 十二月 N5; null pitch (no ジュウニガツ row); busy season vs 十二月三十一日 (sanjuuichinichi) soba custom are distinct; 大晦日/師走 note accurate.",
+        "contentHash": "1678035c43fe5868cb54871b288242a4daca8f3428abe2dcb9904204d7ef95e8",
+        "approvalHash": "77647030402e190f04e3699692a80212680ea52c464a75ca132b064b4c1041bb"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:banana",
+      "revisionId": "021-add-banana",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "バナナ",
+        "reading": "バナナ",
+        "romaji": "banana",
+        "meaning": "Banane",
+        "type": "Nomen",
+        "category": "Essen",
+        "level": "N5",
+        "notes": "Lehnwort in Katakana. Gezählt wird mit 本（ほん／ぼん／ぽん）für längliche Dinge: バナナ一本.",
+        "examples": [
+          {
+            "japanese": "朝ご飯にバナナを一本食べました。",
+            "romaji": "Asagohan ni banana o ippon tabemashita.",
+            "german": "Zum Frühstück habe ich eine Banane gegessen."
+          },
+          {
+            "japanese": "このバナナはまだ緑色で、かたいです。",
+            "romaji": "Kono banana wa mada midoriiro de, katai desu.",
+            "german": "Diese Banane ist noch grün und hart."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220624477",
+            "patterns": [
+              1
+            ],
+            "finding": "バナナ / バナナ; 名詞/普通名詞/一般/*; *; *; lemma バナナ-banana; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "バナナ",
+              "reading": "バナナ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "バナナ as \"Banane\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Absent from the three publisher lists; everyday fruit word, placed with りんご and みかん (N5). Editorial N5.",
+      "rationale": "Add バナナ【バナナ】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1099420; spelling=バナナ; reading=バナナ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1099420 バナナ/バナナ sense(s) 1 support \"Banane\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1099420",
+            "spelling": "バナナ",
+            "reading": "バナナ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "banana"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Banane\" matches JMdict 1099420 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Breakfast (counter 本).",
+          "Describing an unripe banana."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1099420; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Absent from the three publisher lists; everyday fruit word, placed with りんご and みかん (N5). Editorial N5."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@220624477 attests 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220624477",
+            "patterns": [
+              1
+            ],
+            "finding": "バナナ / バナナ; 名詞/普通名詞/一般/*; *; *; lemma バナナ-banana; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "バナナ",
+              "reading": "バナナ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "バナナ as \"Banane\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "6dabd29165ed14a2e5cee4d2860ce211817e9dc8f703931edcda3994bad5fa3b",
+        "approvalHash": "252dff333222e72b329b0ec9deca3c57154f4e4e2de15afc8c52ce3c1fad18ef"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): バナナ absent from comparison.json; editorial N5 alongside りんご/みかん (N5, verified); pitch 1 = sys.dic@220624477; 一本 counter breakfast vs unripe green banana are distinct.",
+        "contentHash": "6dabd29165ed14a2e5cee4d2860ce211817e9dc8f703931edcda3994bad5fa3b",
+        "approvalHash": "252dff333222e72b329b0ec9deca3c57154f4e4e2de15afc8c52ce3c1fad18ef"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:meeru",
+      "revisionId": "021-add-meeru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "メール",
+        "reading": "メール",
+        "romaji": "meeru",
+        "meaning": "E-Mail; Nachricht",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N4",
+        "notes": "Meist E-Mail oder Handynachricht; als Verb メールする „eine Nachricht schicken“. Briefpost heißt 郵便 oder 手紙.",
+        "examples": [
+          {
+            "japanese": "あとで詳しいことをメールで送ります。",
+            "romaji": "Ato de kuwashii koto o meeru de okurimasu.",
+            "german": "Die Einzelheiten schicke ich später per E-Mail."
+          },
+          {
+            "japanese": "昨日の夜、友達にメールしました。",
+            "romaji": "Kinou no yoru, tomodachi ni meeru shimashita.",
+            "german": "Gestern Abend habe ich einer Freundin geschrieben."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262087013",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "メール / メール; 名詞/普通名詞/サ変可能/*; *; *; lemma メール-mail; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "メール",
+              "reading": "メール",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "メール as \"E-Mail; Nachricht\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Absent from the three publisher lists (older lists predate e-mail). Everyday communication word; the N5 entry パソコン already uses メール in an example. Editorial N4.",
+      "rationale": "Add メール【メール】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1132620; spelling=メール; reading=メール; senses=1,3; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1132620 メール/メール sense(s) 1,3 support \"E-Mail; Nachricht\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1132620",
+            "spelling": "メール",
+            "reading": "メール",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "email"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "message (in an instant messaging application)",
+                  "instant message",
+                  "IM",
+                  "(SMS) text"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"E-Mail; Nachricht\" matches JMdict 1132620 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sending details by e-mail (noun + で).",
+          "Verb メールする."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1132620; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Absent from the three publisher lists (older lists predate e-mail). Everyday communication word; the N5 entry パソコン already uses メール in an example. Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@262087013 attests 1,0; primary 1, variant(s) 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262087013",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "メール / メール; 名詞/普通名詞/サ変可能/*; *; *; lemma メール-mail; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "メール",
+              "reading": "メール",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "メール as \"E-Mail; Nachricht\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "13083d9f04183cdbdfa7530418952cecea9ec6fd1b5cc3835f35f51d2cde2e06",
+        "approvalHash": "fc367b7d359e64e99d6c98bdd09ae21daa3dcf243a6bb6173d2a11149f496ec1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): メール absent from publisher lists; editorial N4 stated; pitch 1 with variant 0 = sys.dic@262087013 (サ変可能, aType 1,0); メールで送ります vs メールしました show noun and suru-verb use.",
+        "contentHash": "13083d9f04183cdbdfa7530418952cecea9ec6fd1b5cc3835f35f51d2cde2e06",
+        "approvalHash": "fc367b7d359e64e99d6c98bdd09ae21daa3dcf243a6bb6173d2a11149f496ec1"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:intaanetto",
+      "revisionId": "021-add-intaanetto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "インターネット",
+        "reading": "インターネット",
+        "romaji": "intaanetto",
+        "meaning": "Internet",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "Oft kurz ネット. „Im Internet“: インターネットで; „sich mit dem Internet verbinden“: インターネットにつなぐ.",
+        "examples": [
+          {
+            "japanese": "インターネットでホテルを予約しました。",
+            "romaji": "Intaanetto de hoteru o yoyaku shimashita.",
+            "german": "Ich habe das Hotel im Internet gebucht."
+          },
+          {
+            "japanese": "この部屋ではインターネットが使えません。",
+            "romaji": "Kono heya de wa intaanetto ga tsukaemasen.",
+            "german": "In diesem Zimmer kann man das Internet nicht nutzen."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59392472",
+            "patterns": [
+              5
+            ],
+            "finding": "インターネット / インターネット; 名詞/普通名詞/一般/*; *; *; lemma インターネット-internet; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "インターネット",
+              "reading": "インターネット",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "インターネット as \"Internet\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Absent from the three publisher lists. Everyday technology word; editorial N4.",
+      "rationale": "Add インターネット【インターネット】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1022880; spelling=インターネット; reading=インターネット; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1022880 インターネット/インターネット sense(s) 1 support \"Internet\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1022880",
+            "spelling": "インターネット",
+            "reading": "インターネット",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Internet"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Internet\" matches JMdict 1022880 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Booking online (で).",
+          "Availability of internet access."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1022880; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Absent from the three publisher lists. Everyday technology word; editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@59392472 attests 5; primary 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59392472",
+            "patterns": [
+              5
+            ],
+            "finding": "インターネット / インターネット; 名詞/普通名詞/一般/*; *; *; lemma インターネット-internet; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "インターネット",
+              "reading": "インターネット",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "インターネット as \"Internet\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "006ed439372ab65110b79da54ffac15149cc25b25155e93ef6a63bc297195c28",
+        "approvalHash": "d2e488e2729aecdb7c19614b12ebe032e2ae60145eab564f11eaf6cff0aa2b60"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): インターネット editorial N4 stated; pitch 5 = sys.dic@59392472; online hotel booking vs no internet in the room are distinct and correctly translated.",
+        "contentHash": "006ed439372ab65110b79da54ffac15149cc25b25155e93ef6a63bc297195c28",
+        "approvalHash": "d2e488e2729aecdb7c19614b12ebe032e2ae60145eab564f11eaf6cff0aa2b60"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:sumaho",
+      "revisionId": "021-add-sumaho",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "スマホ",
+        "reading": "スマホ",
+        "romaji": "sumaho",
+        "meaning": "Smartphone",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "Umgangssprachliche Kurzform von スマートフォン; im Alltag viel häufiger als die Langform. Ältere Handys heißen 携帯（けいたい）.",
+        "examples": [
+          {
+            "japanese": "電車の中でスマホを見ている人が多いです。",
+            "romaji": "Densha no naka de sumaho o mite iru hito ga ooi desu.",
+            "german": "Im Zug schauen viele Leute auf ihr Smartphone."
+          },
+          {
+            "japanese": "スマホで地図を調べました。",
+            "romaji": "Sumaho de chizu o shirabemashita.",
+            "german": "Ich habe mit dem Smartphone auf der Karte nachgesehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@149498869",
+            "patterns": [
+              0
+            ],
+            "finding": "スマホ / スマホ; 名詞/普通名詞/一般/*; *; *; lemma スマホ; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "スマホ",
+              "reading": "スマホ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "スマホ as \"Smartphone\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Absent from the three publisher lists (they predate smartphones). Everyday word; editorial N4.",
+      "rationale": "Add スマホ【スマホ】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2641300; spelling=スマホ; reading=スマホ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2641300 スマホ/スマホ sense(s) 1 support \"Smartphone\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2641300",
+            "spelling": "スマホ",
+            "reading": "スマホ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "smartphone",
+                  "smart phone"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Smartphone\" matches JMdict 2641300 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Observing people on a train.",
+          "Using a smartphone as a tool (で)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2641300; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Absent from the three publisher lists (they predate smartphones). Everyday word; editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@149498869 attests 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@149498869",
+            "patterns": [
+              0
+            ],
+            "finding": "スマホ / スマホ; 名詞/普通名詞/一般/*; *; *; lemma スマホ; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "スマホ",
+              "reading": "スマホ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "スマホ as \"Smartphone\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "9cc85b9b2ccd39a3a8b80b466a8538da9ed752c8432ad6aad66ee58ef52442dc",
+        "approvalHash": "01e99521d9521a99f0d130ad6c3aaa7519bcac95cddf61367c7bc297f8664d3b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): スマホ editorial N4 stated; pitch 0 = sys.dic@149498869; people on smartphones in the train vs looking up a map are distinct; note on スマートフォン/携帯 accurate.",
+        "contentHash": "9cc85b9b2ccd39a3a8b80b466a8538da9ed752c8432ad6aad66ee58ef52442dc",
+        "approvalHash": "01e99521d9521a99f0d130ad6c3aaa7519bcac95cddf61367c7bc297f8664d3b"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:amari-remainder",
+      "revisionId": "021-add-amari-remainder",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "余り",
+        "reading": "あまり",
+        "romaji": "amari",
+        "meaning": "Rest, Überbleibsel",
+        "type": "Nomen",
+        "category": "Abstrakt",
+        "level": "N3",
+        "notes": "Nomen zu 余る（übrig bleiben）. Das gleich klingende Adverb あまり（„nicht besonders“, mit Verneinung）ist ein eigener Eintrag und wird meist in Hiragana geschrieben. In der Mathematik: 割り算の余り „Rest bei der Division“.",
+        "examples": [
+          {
+            "japanese": "布の余りで小さなかばんを作りました。",
+            "romaji": "Nuno no amari de chiisana kaban o tsukurimashita.",
+            "german": "Aus den Stoffresten habe ich eine kleine Tasche genäht."
+          },
+          {
+            "japanese": "十を三で割ると、余りは一です。",
+            "romaji": "Juu o san de waru to, amari wa ichi desu.",
+            "german": "Wenn man zehn durch drei teilt, bleibt ein Rest von eins."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@46524978",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "余り / アマリ; 名詞/普通名詞/一般/*; *; *; lemma 余り; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "余り",
+              "reading": "あまり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "余り as \"Rest, Überbleibsel\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher rows for 余り|あまり were historically resolved to the adverb あまり (N5). Only Nihongo Master N5 glosses the noun (remainder); Tanos N3 glosses the adverb. The noun sense is placed at N3 as an editorial estimate.",
+      "rationale": "Add 余り【あまり】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1584930; spelling=余り; reading=あまり; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1584930 余り/あまり sense(s) 1 support \"Rest, Überbleibsel\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1584930",
+            "spelling": "余り",
+            "reading": "あまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "remainder",
+                  "remnant",
+                  "rest",
+                  "balance",
+                  "surplus",
+                  "remains (of a meal)",
+                  "leftovers"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=2",
+          "finding": "tanos lists 余り/あまり at N3 (gloss: not very (used as adverb),not much)."
+        },
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list",
+          "finding": "master lists 余り/あまり at N5 (gloss: remainder; rest; balance)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Rest, Überbleibsel\" matches JMdict 1584930 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Leftover material reused.",
+          "Arithmetic remainder."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1584930; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher rows for 余り|あまり were historically resolved to the adverb あまり (N5). Only Nihongo Master N5 glosses the noun (remainder); Tanos N3 glosses the adverb. The noun sense is placed at N3 as an editorial estimate."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@46524978 attests 3,0; primary 3, variant(s) 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@46524978",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "余り / アマリ; 名詞/普通名詞/一般/*; *; *; lemma 余り; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "余り",
+              "reading": "あまり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "余り as \"Rest, Überbleibsel\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "71423dcc3565ff3de3a7970502319b1177909f96e1af5b2e0b4af3248ef60396",
+        "approvalHash": "acbab0d02e875dbedf5a7aaed9bca9b22872a594083f9bb0e3a5b5fb74447ec1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): new example 1 布の余りで小さなかばんを作りました (Nuno no amari de chiisana kaban o tsukurimashita) is natural, keeps the noun 余り and is distinct from the division remainder; \"Stoffresten … genäht\" is a fair rendering of 作りました for fabric; pitch 3/variant 0 still the noun row sys.dic@46524978.",
+        "contentHash": "71423dcc3565ff3de3a7970502319b1177909f96e1af5b2e0b4af3248ef60396",
+        "approvalHash": "acbab0d02e875dbedf5a7aaed9bca9b22872a594083f9bb0e3a5b5fb74447ec1"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:chou-trillion",
+      "revisionId": "021-add-chou-trillion",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "兆",
+        "reading": "ちょう",
+        "romaji": "chou",
+        "meaning": "Billion (10^12)",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N3",
+        "notes": "Nächste Stufe nach 億: 一兆 = 1.000.000.000.000, auf Deutsch eine Billion (nicht „Milliarde“). Die seltene Bedeutung „Vorzeichen“ drückt man heute meist mit 兆し（きざし）aus.",
+        "examples": [
+          {
+            "japanese": "国の借金は千兆円を超えています。",
+            "romaji": "Kuni no shakkin wa senchou en o koete imasu.",
+            "german": "Die Staatsschulden übersteigen 1.000 Billionen Yen."
+          },
+          {
+            "japanese": "この会社の売り上げは一兆円に達しました。",
+            "romaji": "Kono kaisha no uriage wa itchou en ni tasshimashita.",
+            "german": "Der Umsatz dieses Unternehmens hat eine Billion Yen erreicht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170051951",
+            "patterns": [
+              1
+            ],
+            "finding": "兆 / チョウ; 名詞/数詞/*/*; *; *; lemma 兆; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "兆",
+              "reading": "ちょう",
+              "grammaticalForm": "名詞/数詞/*/*; *; *",
+              "sense": "兆 as \"Billion (10^12)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "The only publisher row for 兆|ちょう (Nihongo Master N1) glosses the omen sense, so it is not evidence for the numeral and that candidate reference is left open. 億 is N4 on all three lists; 兆 is the next unit and its kanji is N2 in this app. Editorial N3.",
+      "rationale": "Add 兆【ちょう】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1427430; spelling=兆; reading=ちょう; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1427430 兆/ちょう sense(s) 1 support \"Billion (10^12)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1427430",
+            "spelling": "兆",
+            "reading": "ちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "numeric"
+                ],
+                "misc": [],
+                "gloss": [
+                  "10^12",
+                  "1,000,000,000,000",
+                  "trillion"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "master lists 兆/ちょう at N1 (gloss: sign; omen; indication)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Billion (10^12)\" matches JMdict 1427430 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "National debt figure.",
+          "Company revenue milestone."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1427430; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "The only publisher row for 兆|ちょう (Nihongo Master N1) glosses the omen sense, so it is not evidence for the numeral and that candidate reference is left open. 億 is N4 on all three lists; 兆 is the next unit and its kanji is N2 in this app. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@170051951 attests 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170051951",
+            "patterns": [
+              1
+            ],
+            "finding": "兆 / チョウ; 名詞/数詞/*/*; *; *; lemma 兆; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "兆",
+              "reading": "ちょう",
+              "grammaticalForm": "名詞/数詞/*/*; *; *",
+              "sense": "兆 as \"Billion (10^12)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "2e826bb5eb9f15d32f60b5900636aa23a9d187f03919c5ea8d9922418be85bd7",
+        "approvalHash": "62b091daec3e9900b3f2ae126437b4d46d59d7fdcbbb0e98abaa5d4c12c812dc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged from round 1): 兆 = 10^12 = Billion (correct German, not Milliarde); master N1 row glosses the omen sense so editorial N3 is explained; pitch 1 = sys.dic@170051951 (数詞); 千兆円 (senchou en) and 一兆円 (itchou en) are correctly romanized and distinct.",
+        "contentHash": "2e826bb5eb9f15d32f60b5900636aa23a9d187f03919c5ea8d9922418be85bd7",
+        "approvalHash": "62b091daec3e9900b3f2ae126437b4d46d59d7fdcbbb0e98abaa5d4c12c812dc"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:gikochinai",
+      "revisionId": "021-add-gikochinai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ぎこちない",
+        "reading": "ぎこちない",
+        "romaji": "gikochinai",
+        "meaning": "unbeholfen, steif, linkisch",
+        "type": "Adjektiv",
+        "category": "Art und Weise",
+        "level": "N2",
+        "notes": "い-Adjektiv für steife, ungeübte Bewegungen oder eine angespannte, unnatürliche Stimmung（ぎこちない会話）. Kein lautmalerisches Wort, obwohl es ähnlich klingt.",
+        "examples": [
+          {
+            "japanese": "初めて着物を着たので、歩き方がぎこちなかったです。",
+            "romaji": "Hajimete kimono o kita node, arukikata ga gikochinakatta desu.",
+            "german": "Weil ich zum ersten Mal einen Kimono trug, war mein Gang unbeholfen."
+          },
+          {
+            "japanese": "けんかの後、二人の会話は少しぎこちなかった。",
+            "romaji": "Kenka no ato, futari no kaiwa wa sukoshi gikochinakatta.",
+            "german": "Nach dem Streit war das Gespräch der beiden etwas steif."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109037460",
+            "patterns": [
+              4
+            ],
+            "finding": "ぎこちない / ギコチナイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma ぎこちない; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぎこちない",
+              "reading": "ぎこちない",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "ぎこちない as \"unbeholfen, steif, linkisch\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Not in the three publisher lists. Listed in the onomatopoeia section (being removed there separately; it is an ordinary い-adjective), which rated it N2. Editorial N2.",
+      "rationale": "Add ぎこちない【ぎこちない】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003550; spelling=ぎこちない; reading=ぎこちない; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1003550 ぎこちない/ぎこちない sense(s) 1 support \"unbeholfen, steif, linkisch\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1003550",
+            "spelling": "ぎこちない",
+            "reading": "ぎこちない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "awkward",
+                  "clumsy",
+                  "stiff",
+                  "crude",
+                  "unrefined",
+                  "constrained"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"unbeholfen, steif, linkisch\" matches JMdict 1003550 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Clumsy physical movement.",
+          "Strained atmosphere in conversation."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1003550; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Not in the three publisher lists. Listed in the onomatopoeia section (being removed there separately; it is an ordinary い-adjective), which rated it N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@109037460 attests 4; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109037460",
+            "patterns": [
+              4
+            ],
+            "finding": "ぎこちない / ギコチナイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma ぎこちない; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぎこちない",
+              "reading": "ぎこちない",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "ぎこちない as \"unbeholfen, steif, linkisch\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "d8c31b5dd302688f0db1d96e8033753c3badeb58845dd95d6588a0be671bf5b2",
+        "approvalHash": "caab847c0660626ba904088041c85e03ccd395467d756b291f221705d144fd07"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): only levelBasis wording changed (\"listed in the onomatopoeia section, being removed there separately\"), which is accurate (onomatopoeia-data.js still has it at N2; removal owned elsewhere); content, pitch 4 (sys.dic@109037460) and the two distinct contexts unchanged.",
+        "contentHash": "d8c31b5dd302688f0db1d96e8033753c3badeb58845dd95d6588a0be671bf5b2",
+        "approvalHash": "caab847c0660626ba904088041c85e03ccd395467d756b291f221705d144fd07"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:motatsuku",
+      "revisionId": "021-add-motatsuku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "もたつく",
+        "reading": "もたつく",
+        "romaji": "motatsuku",
+        "meaning": "trödeln, nicht vorankommen, stocken",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Intransitives Godan-Verb: Man kommt wegen Ungeschick oder Verzögerung nicht voran（準備にもたつく）. Verwandt mit dem lautmalerischen もたもた.",
+        "examples": [
+          {
+            "japanese": "レジでお金を出すのにもたついて、後ろの人を待たせてしまった。",
+            "romaji": "Reji de okane o dasu no ni motatsuite, ushiro no hito o matasete shimatta.",
+            "german": "An der Kasse habe ich beim Bezahlen herumgetrödelt und die Leute hinter mir warten lassen."
+          },
+          {
+            "japanese": "新しいシステムの導入がもたついている。",
+            "romaji": "Atarashii shisutemu no dounyuu ga motatsuite iru.",
+            "german": "Die Einführung des neuen Systems kommt nicht voran."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "もたつく",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "もたつく",
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@263683602",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "もたつく / モタツク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma もたつく; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "もたつく",
+              "reading": "もたつく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "もたつく as \"trödeln, nicht vorankommen, stocken\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Not in the three publisher lists; listed in the onomatopoeia section (being removed there separately as not onomatopoeic), which rated it N1. Editorial N1.",
+      "rationale": "Add もたつく【もたつく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2065060; spelling=もたつく; reading=もたつく; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2065060 もたつく/もたつく sense(s) 1 support \"trödeln, nicht vorankommen, stocken\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2065060",
+            "spelling": "もたつく",
+            "reading": "もたつく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be slow",
+                  "to not make progress",
+                  "to be inefficient"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"trödeln, nicht vorankommen, stocken\" matches JMdict 2065060 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Personal fumbling at a checkout.",
+          "Stalled organisational project."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2065060; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading もたつく; nested and top-level metadata agree.",
+        "level": "Not in the three publisher lists; listed in the onomatopoeia section (being removed there separately as not onomatopoeic), which rated it N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@263683602 attests 0,3; primary 0, variant(s) 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@263683602",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "もたつく / モタツク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma もたつく; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "もたつく",
+              "reading": "もたつく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "もたつく as \"trödeln, nicht vorankommen, stocken\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "fff4fc096a801bd0cd3595ce5cf3d3f62ea26345fda10744c76973ec49eb978b",
+        "approvalHash": "9bce96580367e397aa279565bc747001636e252f4daddc5dfb2e8960d2da677b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): only the levelBasis wording changed to describe the pending onomatopoeia removal accurately; content and pitch 0/variant 3 (sys.dic@263683602) unchanged and correct.",
+        "contentHash": "fff4fc096a801bd0cd3595ce5cf3d3f62ea26345fda10744c76973ec49eb978b",
+        "approvalHash": "9bce96580367e397aa279565bc747001636e252f4daddc5dfb2e8960d2da677b"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shachihokobaru",
+      "revisionId": "021-add-shachihokobaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "しゃちほこばる",
+        "reading": "しゃちほこばる",
+        "romaji": "shachihokobaru",
+        "meaning": "sich steif und förmlich benehmen, verkrampft sein",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Von 鯱（しゃちほこ）, der steifen Fischfigur auf Burgdächern: jemand verhält sich aus Nervosität übertrieben förmlich. Oft als しゃちほこばった. Die Kanji-Schreibung 鯱張る ist selten.",
+        "examples": [
+          {
+            "japanese": "面接では、しゃちほこばらずに自然に話してください。",
+            "romaji": "Mensetsu de wa, shachihokobarazu ni shizen ni hanashite kudasai.",
+            "german": "Seien Sie beim Vorstellungsgespräch nicht so verkrampft, sprechen Sie ganz natürlich."
+          },
+          {
+            "japanese": "祖父はしゃちほこばった挨拶をして、みんなを笑わせた。",
+            "romaji": "Sofu wa shachihokobatta aisatsu o shite, minna o warawaseta.",
+            "german": "Mein Großvater begrüßte alle steif und förmlich und brachte sie damit zum Lachen."
+          }
+        ],
+        "pitch": 5,
+        "aliases": [
+          "鯱張る"
+        ],
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "しゃちほこばる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "しゃちほこばる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139242201",
+            "patterns": [
+              5
+            ],
+            "finding": "しゃちほこばる / シャチホコバル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 鯱張る; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "しゃちほこばる",
+              "reading": "しゃちほこばる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "しゃちほこばる as \"sich steif und förmlich benehmen, verkrampft sein\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Not in the three publisher lists; listed in the onomatopoeia section (being removed there separately as not onomatopoeic), which rated it N1. Editorial N1.",
+      "rationale": "Add しゃちほこばる【しゃちほこばる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2218980; spelling=しゃちほこばる; reading=しゃちほこばる; senses=1,2; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2218980 しゃちほこばる/しゃちほこばる sense(s) 1,2 support \"sich steif und förmlich benehmen, verkrampft sein\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2218980",
+            "spelling": "しゃちほこばる",
+            "reading": "しゃちほこばる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to stand on ceremony"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to stiffen up (the nerves)",
+                  "to be tense"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"sich steif und förmlich benehmen, verkrampft sein\" matches JMdict 2218980 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Advice for a job interview (negative 〜ずに).",
+          "Attributive past form describing a speech."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2218980; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading しゃちほこばる; nested and top-level metadata agree.",
+        "level": "Not in the three publisher lists; listed in the onomatopoeia section (being removed there separately as not onomatopoeic), which rated it N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@139242201 attests 5; primary 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139242201",
+            "patterns": [
+              5
+            ],
+            "finding": "しゃちほこばる / シャチホコバル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 鯱張る; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "しゃちほこばる",
+              "reading": "しゃちほこばる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "しゃちほこばる as \"sich steif und förmlich benehmen, verkrampft sein\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "83462e1ff59ed92f3fc0e848f4c5b2bef684eaf5e679ac20ddd51b627cb59510",
+        "approvalHash": "4c943fc83b00ff6cb98a53116abe7baa841f2ff06d0651e02c63bf237f1498f9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): example 2 German is now \"Mein Großvater begrüßte alle steif und förmlich und brachte sie damit zum Lachen.\", idiomatic and faithful to しゃちほこばった挨拶をして、みんなを笑わせた; levelBasis wording updated accurately; pitch 5 (sys.dic@139242201) unchanged.",
+        "contentHash": "83462e1ff59ed92f3fc0e848f4c5b2bef684eaf5e679ac20ddd51b627cb59510",
+        "approvalHash": "4c943fc83b00ff6cb98a53116abe7baa841f2ff06d0651e02c63bf237f1498f9"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:tadotadoshii",
+      "revisionId": "021-add-tadotadoshii",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "たどたどしい",
+        "reading": "たどたどしい",
+        "romaji": "tadotadoshii",
+        "meaning": "stockend, holprig, unsicher",
+        "type": "Adjektiv",
+        "category": "Art und Weise",
+        "level": "N1",
+        "notes": "い-Adjektiv für stockendes Sprechen, Lesen oder Schreiben und unsichere Schritte, etwa bei Kindern oder Lernenden: たどたどしい日本語.",
+        "examples": [
+          {
+            "japanese": "子どもがたどたどしい字で手紙を書いてくれた。",
+            "romaji": "Kodomo ga tadotadoshii ji de tegami o kaite kureta.",
+            "german": "Das Kind hat mir in unbeholfener Schrift einen Brief geschrieben."
+          },
+          {
+            "japanese": "彼はたどたどしい日本語で、一生懸命説明した。",
+            "romaji": "Kare wa tadotadoshii nihongo de, isshoukenmei setsumei shita.",
+            "german": "Er erklärte es mit großer Mühe in stockendem Japanisch."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@164514326",
+            "patterns": [
+              5
+            ],
+            "finding": "たどたどしい / タドタドシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma たどたどしい; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "たどたどしい",
+              "reading": "たどたどしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "たどたどしい as \"stockend, holprig, unsicher\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Not in the three publisher lists; listed in the onomatopoeia section (being removed there separately as not onomatopoeic), which rated it N1. Editorial N1.",
+      "rationale": "Add たどたどしい【たどたどしい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1007250; spelling=たどたどしい; reading=たどたどしい; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1007250 たどたどしい/たどたどしい sense(s) 1 support \"stockend, holprig, unsicher\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1007250",
+            "spelling": "たどたどしい",
+            "reading": "たどたどしい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "faltering",
+                  "tottering",
+                  "halting",
+                  "unsteady",
+                  "awkward",
+                  "clumsy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"stockend, holprig, unsicher\" matches JMdict 1007250 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Child's unsteady handwriting.",
+          "Halting speech of a learner."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1007250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Not in the three publisher lists; listed in the onomatopoeia section (being removed there separately as not onomatopoeic), which rated it N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@164514326 attests 5; primary 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@164514326",
+            "patterns": [
+              5
+            ],
+            "finding": "たどたどしい / タドタドシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma たどたどしい; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "たどたどしい",
+              "reading": "たどたどしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "たどたどしい as \"stockend, holprig, unsicher\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "f3c628a39c04785d236f870cdc7c0c3032da83d60bfd99c090a0e10fdc966665",
+        "approvalHash": "5b7e246d0c14292955a1141198bb26753051f6b57b01e697690af3026778d1ad"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): only the levelBasis wording changed (onomatopoeia removal handled separately); content and pitch 5 (sys.dic@164514326) unchanged and correct.",
+        "contentHash": "f3c628a39c04785d236f870cdc7c0c3032da83d60bfd99c090a0e10fdc966665",
+        "approvalHash": "5b7e246d0c14292955a1141198bb26753051f6b57b01e697690af3026778d1ad"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:bukkirabou",
+      "revisionId": "021-add-bukkirabou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ぶっきらぼう",
+        "reading": "ぶっきらぼう",
+        "romaji": "bukkirabou",
+        "meaning": "schroff, kurz angebunden",
+        "type": "Adjektiv",
+        "category": "Charakter",
+        "level": "N1",
+        "notes": "な-Adjektiv: ぶっきらぼうな返事; adverbial ぶっきらぼうに答える. Beschreibt eine unfreundlich knappe Art zu sprechen, oft ohne böse Absicht.",
+        "examples": [
+          {
+            "japanese": "彼はぶっきらぼうだけど、本当は優しい人です。",
+            "romaji": "Kare wa bukkirabou dakedo, hontou wa yasashii hito desu.",
+            "german": "Er ist schroff, aber eigentlich ein netter Mensch."
+          },
+          {
+            "japanese": "店員にぶっきらぼうに答えられて、少し嫌な気分になった。",
+            "romaji": "Ten'in ni bukkirabou ni kotaerarete, sukoshi iya na kibun ni natta.",
+            "german": "Der Verkäufer antwortete mir kurz angebunden, und ich fühlte mich etwas unwohl."
+          }
+        ],
+        "pitch": 4,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239060535",
+            "patterns": [
+              4,
+              3
+            ],
+            "finding": "ぶっきらぼう / ブッキラボウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma ぶっきらぼう; aType 4,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぶっきらぼう",
+              "reading": "ぶっきらぼう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "ぶっきらぼう as \"schroff, kurz angebunden\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Not in the three publisher lists; listed in the onomatopoeia section (being removed there separately as not onomatopoeic), which rated it N1. Editorial N1.",
+      "rationale": "Add ぶっきらぼう【ぶっきらぼう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1011160; spelling=ぶっきらぼう; reading=ぶっきらぼう; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1011160 ぶっきらぼう/ぶっきらぼう sense(s) 1 support \"schroff, kurz angebunden\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1011160",
+            "spelling": "ぶっきらぼう",
+            "reading": "ぶっきらぼう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "curt",
+                  "blunt",
+                  "brusque"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"schroff, kurz angebunden\" matches JMdict 1011160 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Describing a person's manner.",
+          "Adverbial use: a curt answer."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1011160; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Not in the three publisher lists; listed in the onomatopoeia section (being removed there separately as not onomatopoeic), which rated it N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@239060535 attests 4,3; primary 4, variant(s) 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239060535",
+            "patterns": [
+              4,
+              3
+            ],
+            "finding": "ぶっきらぼう / ブッキラボウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma ぶっきらぼう; aType 4,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぶっきらぼう",
+              "reading": "ぶっきらぼう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "ぶっきらぼう as \"schroff, kurz angebunden\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, editorial level basis and pitch disposition inspected.",
+        "contentHash": "ac55a7059c90983d1e95eabc6b59e11d835e7d34ceadfd9677e75f6d806f4b9a",
+        "approvalHash": "7f17f24af4a85816420fccdcbf9963d3ccf6bf9dfd23e75f0e9c5c6b1a580535"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): only the levelBasis wording changed (onomatopoeia removal handled separately); content and pitch 4/variant 3 (sys.dic@239060535) unchanged and correct.",
+        "contentHash": "ac55a7059c90983d1e95eabc6b59e11d835e7d34ceadfd9677e75f6d806f4b9a",
+        "approvalHash": "7f17f24af4a85816420fccdcbf9963d3ccf6bf9dfd23e75f0e9c5c6b1a580535"
+      }
+    }
+  ],
+  "decisions": []
+}

@@ -64070,5 +64070,613 @@ window.VOCAB_N3 = [
       }
     ],
     "vocabularyCompletion": "2026-09-vocabulary-completion"
+  },
+  {
+    "word": "嫌う",
+    "reading": "きらう",
+    "romaji": "kirau",
+    "meaning": "hassen, nicht mögen; meiden",
+    "type": "Verb",
+    "category": "Gefühle",
+    "level": "N3",
+    "notes": "Transitives Verb: 〜を嫌う. Im Alltag ist das na-Adjektiv 嫌い（〜が嫌いだ）viel häufiger; 嫌う klingt eher schriftlich und beschreibt oft eine allgemeine Abneigung. Das Passiv 嫌われる bedeutet „unbeliebt sein“.",
+    "examples": [
+      {
+        "japanese": "猫は水を嫌うと言われています。",
+        "romaji": "Neko wa mizu o kirau to iwarete imasu.",
+        "german": "Man sagt, dass Katzen Wasser nicht mögen."
+      },
+      {
+        "japanese": "そんなことを言うと、みんなに嫌われますよ。",
+        "romaji": "Sonna koto o iu to, minna ni kirawaremasu yo.",
+        "german": "Wenn du so etwas sagst, mag dich bald niemand mehr."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "きらう",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "きらう",
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106683071",
+        "patterns": [
+          0
+        ],
+        "finding": "嫌う / キラウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 嫌う; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "嫌う",
+          "reading": "きらう",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+          "sense": "嫌う as \"hassen, nicht mögen; meiden\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kirau"
+  },
+  {
+    "word": "生き物",
+    "reading": "いきもの",
+    "romaji": "ikimono",
+    "meaning": "Lebewesen, Tier",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Oberbegriff für alles Lebendige, besonders Tiere und Insekten. Alltäglicher als 生物（せいぶつ）, das eher in Wissenschaft und Schule verwendet wird.",
+    "examples": [
+      {
+        "japanese": "この池にはどんな生き物がいますか。",
+        "romaji": "Kono ike ni wa donna ikimono ga imasu ka.",
+        "german": "Was für Lebewesen gibt es in diesem Teich?"
+      },
+      {
+        "japanese": "生き物を飼うなら、最後まで責任を持ちましょう。",
+        "romaji": "Ikimono o kau nara, saigo made sekinin o mochimashou.",
+        "german": "Wenn man ein Tier hält, sollte man bis zum Ende Verantwortung übernehmen."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [
+      3
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@53847178",
+        "patterns": [
+          2,
+          3
+        ],
+        "finding": "生き物 / イキモノ; 名詞/普通名詞/一般/*; *; *; lemma 生き物; aType 2,3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "生き物",
+          "reading": "いきもの",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "生き物 as \"Lebewesen, Tier\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:ikimono"
+  },
+  {
+    "word": "ビデオ",
+    "reading": "ビデオ",
+    "romaji": "bideo",
+    "meaning": "Video, Videoaufnahme",
+    "type": "Nomen",
+    "category": "Medien",
+    "level": "N3",
+    "notes": "Heute meist eine Videoaufnahme; früher auch Videokassette bzw. Videorekorder. Für Clips im Internet sagt man oft 動画（どうが）.",
+    "examples": [
+      {
+        "japanese": "結婚式のビデオを家族みんなで見ました。",
+        "romaji": "Kekkonshiki no bideo o kazoku minna de mimashita.",
+        "german": "Wir haben uns das Hochzeitsvideo mit der ganzen Familie angesehen."
+      },
+      {
+        "japanese": "子どもの運動会をビデオに撮りました。",
+        "romaji": "Kodomo no undoukai o bideo ni torimashita.",
+        "german": "Ich habe das Sportfest meines Kindes auf Video aufgenommen."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229455259",
+        "patterns": [
+          1
+        ],
+        "finding": "ビデオ / ビデオ; 名詞/普通名詞/一般/*; *; *; lemma ビデオ-video; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ビデオ",
+          "reading": "ビデオ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ビデオ as \"Video, Videoaufnahme\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:bideo"
+  },
+  {
+    "word": "ミルク",
+    "reading": "ミルク",
+    "romaji": "miruku",
+    "meaning": "Milch; Babymilch",
+    "type": "Nomen",
+    "category": "Essen",
+    "level": "N3",
+    "notes": "Kuhmilch zum Trinken heißt im Alltag meist 牛乳; ミルク steht besonders für Milch in Kaffee oder Tee und für Säuglingsnahrung.",
+    "examples": [
+      {
+        "japanese": "コーヒーにミルクを入れますか。",
+        "romaji": "Koohii ni miruku o iremasu ka.",
+        "german": "Möchten Sie Milch in den Kaffee?"
+      },
+      {
+        "japanese": "赤ちゃんにミルクをあげる時間です。",
+        "romaji": "Akachan ni miruku o ageru jikan desu.",
+        "german": "Es ist Zeit, dem Baby die Flasche zu geben."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@257625608",
+        "patterns": [
+          1
+        ],
+        "finding": "ミルク / ミルク; 名詞/普通名詞/一般/*; *; *; lemma ミルク-milk; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ミルク",
+          "reading": "ミルク",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ミルク as \"Milch; Babymilch\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:miruku"
+  },
+  {
+    "word": "ジーンズ",
+    "reading": "ジーンズ",
+    "romaji": "jiinzu",
+    "meaning": "Jeans",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "Hose aus Jeansstoff; auch ジーパン. Hosen zieht man mit はく an: ジーンズをはく.",
+    "examples": [
+      {
+        "japanese": "週末はいつもジーンズをはいています。",
+        "romaji": "Shuumatsu wa itsumo jiinzu o haite imasu.",
+        "german": "Am Wochenende trage ich immer Jeans."
+      },
+      {
+        "japanese": "この店のジーンズは丈夫で安いです。",
+        "romaji": "Kono mise no jiinzu wa joubu de yasui desu.",
+        "german": "Die Jeans in diesem Laden sind robust und günstig."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145464640",
+        "patterns": [
+          1
+        ],
+        "finding": "ジーンズ / ジーンズ; 名詞/普通名詞/一般/*; *; *; lemma ジーンズ-jeans; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ジーンズ",
+          "reading": "ジーンズ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ジーンズ as \"Jeans\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:jiinzu"
+  },
+  {
+    "word": "スキー",
+    "reading": "スキー",
+    "romaji": "sukii",
+    "meaning": "Skifahren; Ski",
+    "type": "Nomen",
+    "category": "Sport",
+    "level": "N3",
+    "notes": "Bezeichnet die Sportart und die Skier selbst. „Zum Skifahren gehen“: スキーに行く; „Ski fahren“: スキーをする.",
+    "examples": [
+      {
+        "japanese": "冬休みに長野へスキーに行きます。",
+        "romaji": "Fuyuyasumi ni Nagano e sukii ni ikimasu.",
+        "german": "In den Winterferien fahre ich zum Skifahren nach Nagano."
+      },
+      {
+        "japanese": "スキーを借りるのに、いくらかかりますか。",
+        "romaji": "Sukii o kariru no ni, ikura kakarimasu ka.",
+        "german": "Wie viel kostet es, Skier auszuleihen?"
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [
+      1
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@146673166",
+        "patterns": [
+          2,
+          1
+        ],
+        "finding": "スキー / スキー; 名詞/普通名詞/一般/*; *; *; lemma スキー-ski; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "スキー",
+          "reading": "スキー",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "スキー as \"Skifahren; Ski\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:sukii"
+  },
+  {
+    "word": "ダンス",
+    "reading": "ダンス",
+    "romaji": "dansu",
+    "meaning": "Tanz, Tanzen",
+    "type": "Nomen",
+    "category": "Freizeit",
+    "level": "N3",
+    "notes": "Meist westlicher oder moderner Tanz; als Verb ダンスする. Traditioneller japanischer Tanz heißt eher 踊り（おどり）.",
+    "examples": [
+      {
+        "japanese": "妹は毎週ダンスを習っています。",
+        "romaji": "Imouto wa maishuu dansu o naratte imasu.",
+        "german": "Meine jüngere Schwester nimmt jede Woche Tanzunterricht."
+      },
+      {
+        "japanese": "パーティーでみんなとダンスをしました。",
+        "romaji": "Paatii de minna to dansu o shimashita.",
+        "german": "Auf der Party habe ich mit allen getanzt."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168119924",
+        "patterns": [
+          1
+        ],
+        "finding": "ダンス / ダンス; 名詞/普通名詞/サ変可能/*; *; *; lemma ダンス-dance; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ダンス",
+          "reading": "ダンス",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "ダンス as \"Tanz, Tanzen\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:dansu"
+  },
+  {
+    "word": "パーセント",
+    "reading": "パーセント",
+    "romaji": "paasento",
+    "meaning": "Prozent",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N3",
+    "notes": "Steht nach der Zahl: 50パーセント; geschrieben oft mit %. „… Prozent Rabatt“: …パーセント引き.",
+    "examples": [
+      {
+        "japanese": "この店では全品二十パーセント引きです。",
+        "romaji": "Kono mise de wa zenpin nijuu paasento biki desu.",
+        "german": "In diesem Laden ist alles um 20 Prozent reduziert."
+      },
+      {
+        "japanese": "クラスの八十パーセントの学生が試験に合格しました。",
+        "romaji": "Kurasu no hachijuu paasento no gakusei ga shiken ni goukaku shimashita.",
+        "german": "80 Prozent der Studierenden der Klasse haben die Prüfung bestanden."
+      }
+    ],
+    "pitch": 3,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@221742236",
+        "patterns": [
+          3
+        ],
+        "finding": "パーセント / パーセント; 名詞/普通名詞/助数詞可能/*; *; *; lemma パーセント-percent; aType 3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "パーセント",
+          "reading": "パーセント",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+          "sense": "パーセント as \"Prozent\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:paasento"
+  },
+  {
+    "word": "余り",
+    "reading": "あまり",
+    "romaji": "amari",
+    "meaning": "Rest, Überbleibsel",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N3",
+    "notes": "Nomen zu 余る（übrig bleiben）. Das gleich klingende Adverb あまり（„nicht besonders“, mit Verneinung）ist ein eigener Eintrag und wird meist in Hiragana geschrieben. In der Mathematik: 割り算の余り „Rest bei der Division“.",
+    "examples": [
+      {
+        "japanese": "布の余りで小さなかばんを作りました。",
+        "romaji": "Nuno no amari de chiisana kaban o tsukurimashita.",
+        "german": "Aus den Stoffresten habe ich eine kleine Tasche genäht."
+      },
+      {
+        "japanese": "十を三で割ると、余りは一です。",
+        "romaji": "Juu o san de waru to, amari wa ichi desu.",
+        "german": "Wenn man zehn durch drei teilt, bleibt ein Rest von eins."
+      }
+    ],
+    "pitch": 3,
+    "pitchVariants": [
+      0
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@46524978",
+        "patterns": [
+          3,
+          0
+        ],
+        "finding": "余り / アマリ; 名詞/普通名詞/一般/*; *; *; lemma 余り; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "余り",
+          "reading": "あまり",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "余り as \"Rest, Überbleibsel\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:amari-remainder"
+  },
+  {
+    "word": "兆",
+    "reading": "ちょう",
+    "romaji": "chou",
+    "meaning": "Billion (10^12)",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N3",
+    "notes": "Nächste Stufe nach 億: 一兆 = 1.000.000.000.000, auf Deutsch eine Billion (nicht „Milliarde“). Die seltene Bedeutung „Vorzeichen“ drückt man heute meist mit 兆し（きざし）aus.",
+    "examples": [
+      {
+        "japanese": "国の借金は千兆円を超えています。",
+        "romaji": "Kuni no shakkin wa senchou en o koete imasu.",
+        "german": "Die Staatsschulden übersteigen 1.000 Billionen Yen."
+      },
+      {
+        "japanese": "この会社の売り上げは一兆円に達しました。",
+        "romaji": "Kono kaisha no uriage wa itchou en ni tasshimashita.",
+        "german": "Der Umsatz dieses Unternehmens hat eine Billion Yen erreicht."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170051951",
+        "patterns": [
+          1
+        ],
+        "finding": "兆 / チョウ; 名詞/数詞/*/*; *; *; lemma 兆; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "兆",
+          "reading": "ちょう",
+          "grammaticalForm": "名詞/数詞/*/*; *; *",
+          "sense": "兆 as \"Billion (10^12)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:chou-trillion"
+  },
+  {
+    "word": "ワイン",
+    "reading": "ワイン",
+    "romaji": "wain",
+    "meaning": "Wein",
+    "type": "Nomen",
+    "category": "Essen",
+    "level": "N3",
+    "notes": "Traubenwein; Reiswein heißt 日本酒. Rotwein 赤ワイン, Weißwein 白ワイン.",
+    "examples": [
+      {
+        "japanese": "夕食に赤ワインを一杯飲みました。",
+        "romaji": "Yuushoku ni aka wain o ippai nomimashita.",
+        "german": "Zum Abendessen habe ich ein Glas Rotwein getrunken."
+      },
+      {
+        "japanese": "このワインはフランスから輸入されたものです。",
+        "romaji": "Kono wain wa Furansu kara yunyuu sareta mono desu.",
+        "german": "Dieser Wein wurde aus Frankreich importiert."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280860998",
+        "patterns": [
+          1
+        ],
+        "finding": "ワイン / ワイン; 名詞/普通名詞/一般/*; *; *; lemma ワイン-wine; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ワイン",
+          "reading": "ワイン",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ワイン as \"Wein\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:wain"
+  },
+  {
+    "word": "ドラマ",
+    "reading": "ドラマ",
+    "romaji": "dorama",
+    "meaning": "Fernsehserie; Drama",
+    "type": "Nomen",
+    "category": "Medien",
+    "level": "N3",
+    "notes": "Meist eine Fernsehserie（テレビドラマ）. Übertragen auch ein dramatisches Ereignis: ドラマのような話.",
+    "examples": [
+      {
+        "japanese": "毎週水曜日に好きなドラマを見ています。",
+        "romaji": "Maishuu suiyoubi ni suki na dorama o mite imasu.",
+        "german": "Jeden Mittwoch schaue ich meine Lieblingsserie."
+      },
+      {
+        "japanese": "二人の出会いは、まるでドラマのようでした。",
+        "romaji": "Futari no deai wa, marude dorama no you deshita.",
+        "german": "Das Kennenlernen der beiden war wie im Film."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193203990",
+        "patterns": [
+          1
+        ],
+        "finding": "ドラマ / ドラマ; 名詞/普通名詞/一般/*; *; *; lemma ドラマ-drama; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ドラマ",
+          "reading": "ドラマ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ドラマ as \"Fernsehserie; Drama\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:dorama"
+  },
+  {
+    "word": "デート",
+    "reading": "デート",
+    "romaji": "deeto",
+    "meaning": "Verabredung, Date",
+    "type": "Nomen",
+    "category": "Beziehungen",
+    "level": "N3",
+    "notes": "Romantische Verabredung zu zweit; als Verb デートする. Ein Kalenderdatum heißt 日付, nicht デート.",
+    "examples": [
+      {
+        "japanese": "日曜日に彼女とデートします。",
+        "romaji": "Nichiyoubi ni kanojo to deeto shimasu.",
+        "german": "Am Sonntag habe ich ein Date mit meiner Freundin."
+      },
+      {
+        "japanese": "初めてのデートで映画を見に行きました。",
+        "romaji": "Hajimete no deeto de eiga o mi ni ikimashita.",
+        "german": "Beim ersten Date sind wir ins Kino gegangen."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182959422",
+        "patterns": [
+          1
+        ],
+        "finding": "デート / デート; 名詞/普通名詞/サ変可能/*; *; *; lemma デート-date; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "デート",
+          "reading": "デート",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "デート as \"Verabredung, Date\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:deeto"
+  },
+  {
+    "word": "クリスマス",
+    "reading": "クリスマス",
+    "romaji": "kurisumasu",
+    "meaning": "Weihnachten",
+    "type": "Nomen",
+    "category": "Kultur",
+    "level": "N3",
+    "notes": "In Japan kein Feiertag. Heiligabend（クリスマスイブ）gilt eher als Abend für Paare; viele essen Hähnchen und クリスマスケーキ.",
+    "examples": [
+      {
+        "japanese": "クリスマスに家族とケーキを食べました。",
+        "romaji": "Kurisumasu ni kazoku to keeki o tabemashita.",
+        "german": "An Weihnachten habe ich mit meiner Familie Kuchen gegessen."
+      },
+      {
+        "japanese": "十二月になると、町はクリスマスの飾りでいっぱいになります。",
+        "romaji": "Juunigatsu ni naru to, machi wa kurisumasu no kazari de ippai ni narimasu.",
+        "german": "Im Dezember ist die Stadt voller Weihnachtsdekoration."
+      }
+    ],
+    "pitch": 3,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@114632559",
+        "patterns": [
+          3
+        ],
+        "finding": "クリスマス / クリスマス; 名詞/普通名詞/一般/*; *; *; lemma クリスマス-Christmas; aType 3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "クリスマス",
+          "reading": "クリスマス",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "クリスマス as \"Weihnachten\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kurisumasu"
   }
 ];

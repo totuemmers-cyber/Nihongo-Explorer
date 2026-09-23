@@ -60,7 +60,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   {
     "id": "n1-kara-suru-to",
     "pattern": "～からすると/～からすれば",
-    "level": "N1",
+    "level": "N2",
     "category": "Partikel",
     "meaning": "vom Standpunkt ... aus gesehen",
     "explanation": "からすると/からすれば drückt aus, dass man etwas aus einer bestimmten Perspektive oder aufgrund bestimmter Informationen beurteilt. Es wird verwendet, um eine Schlussfolgerung oder Meinung basierend auf einem Standpunkt zu formulieren.",
@@ -72,7 +72,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 4,
           "answer": "からすると",
           "quiz": {
-            "level": "N1",
+            "level": "N2",
             "japanese": "彼の様子からすると、何か問題があるようだ。",
             "german": "Von seinem Verhalten her zu urteilen, scheint es ein Problem zu geben.",
             "start": 4,
@@ -109,12 +109,28 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Keiken kara sureba, kono hōhō ga ichiban kōkateki da.",
         "german": "Von meiner Erfahrung her gesehen ist diese Methode am effektivsten."
+      },
+      {
+        "japanese": "私からすると、この計画は無理がある。",
+        "romaji": "Watashi kara suru to, kono keikaku wa muri ga aru.",
+        "german": "Aus meiner Sicht ist dieser Plan unrealistisch."
+      },
+      {
+        "japanese": "外見からすると、彼は30歳くらいだろう。",
+        "romaji": "Gaiken kara suru to, kare wa sanjussai kurai darō.",
+        "german": "Vom Aussehen her betrachtet dürfte er etwa 30 Jahre alt sein."
       }
     ],
     "notes": "Ähnlich wie から見ると, aber formeller und oft für Schlussfolgerungen verwendet.",
     "related": [
       "n1-kara-shite",
-      "n2-kara-miru-to"
+      "n2-kara-miru-to",
+      "n2-ni-shitara",
+      "n2-kara-iu-to",
+      "n2-tokoro-wo-miru-to"
+    ],
+    "legacyIds": [
+      "n2-kara-suru-to"
     ]
   },
   {
@@ -1036,7 +1052,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formell und literarisch. Wird hauptsächlich in geschriebener Sprache verwendet.",
     "related": [
       "node",
-      "n2-ni-hoka-naranai"
+      "n2-ni-hoka-naranai",
+      "n2-ni-tsuki"
     ]
   },
   {
@@ -1099,7 +1116,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   },
   {
     "id": "n1-wo-kawakiri-ni",
-    "pattern": "～を皮切りに",
+    "pattern": "～を皮切りに / ～を皮切りとして",
     "level": "N1",
     "category": "Partikel",
     "meaning": "angefangen mit",
@@ -1147,12 +1164,20 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Kono jiken o kawakiri ni, samazama na mondai ga akarumi ni deta.",
         "german": "Angefangen mit diesem Vorfall kamen verschiedene Probleme ans Licht."
+      },
+      {
+        "japanese": "この事件を皮切りに、様々な問題が明らかになった。",
+        "romaji": "Kono jiken wo kawakiri ni, samazama na mondai ga akiraka ni natta.",
+        "german": "Ausgehend von diesem Vorfall wurden verschiedene Probleme offensichtlich."
       }
     ],
     "notes": "Wird oft für Tourneen, Veranstaltungsreihen oder Entwicklungen verwendet.",
     "related": [
       "n3-o-hajime",
       "n1-wo-hete"
+    ],
+    "legacyIds": [
+      "n1-wokawakiritoshite"
     ]
   },
   {
@@ -1209,7 +1234,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Betont den Prozess oder die Entwicklung über Zeit. Formell.",
     "related": [
-      "n2-wo-tsujite",
+      "n3-o-tsujite",
       "n1-wo-kawakiri-ni"
     ]
   },
@@ -1326,7 +1351,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Oft mit kritischer oder negativer Konnotation. Betont mangelnde Rücksichtnahme.",
     "related": [
       "n3-ni-mo-kakawarazu",
-      "n1-wo-mono-tomo-sezu-ni"
+      "n1-wo-mono-tomo-sezu-ni",
+      "n2-mo-kamawazu"
     ]
   },
   {
@@ -1668,7 +1694,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Wird verwendet, um mehrere positive (oder negative) Aspekte zu betonen.",
     "related": [
       "mo",
-      "n1-de-are-de-are"
+      "n1-de-are-de-are",
+      "n2-mo-nara-mo"
     ]
   },
   {
@@ -1785,7 +1812,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Immer negativ oder kritisch konnotiert. Umgangssprachlich.",
     "related": [
       "n1-taruya",
-      "n4-nado"
+      "n4-nado",
+      "n2-ttara"
     ]
   },
   {
@@ -2074,11 +2102,25 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Kare wa shinrai ni taru jinbutsu da.",
         "german": "Er ist eine Person, die des Vertrauens würdig ist."
+      },
+      {
+        "japanese": "これは信頼に足る情報だ。",
+        "romaji": "Kore wa shinrai ni taru jouhou da.",
+        "german": "Das ist eine vertrauenswürdige Information."
+      },
+      {
+        "japanese": "彼の業績は称賛に足るものだ。",
+        "romaji": "Kare no gyouseki wa shousan ni taru mono da.",
+        "german": "Seine Leistungen sind lobenswert."
       }
     ],
     "notes": "Sehr formell. Betont Wert oder Würdigkeit.",
     "related": [
-      "n1-ni-taeru"
+      "n1-ni-taeru",
+      "n1-nihajinai"
+    ],
+    "legacyIds": [
+      "n1-nitaru"
     ]
   },
   {
@@ -2589,10 +2631,23 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Sekai heiwa wo inotte yamanai.",
         "german": "Ich bete unaufhörlich für den Weltfrieden."
+      },
+      {
+        "japanese": "世界の平和を願って止まない。",
+        "romaji": "Sekai no heiwa wo negatte yamanu.",
+        "german": "Ich wünsche mir unaufhörlich den Weltfrieden."
+      },
+      {
+        "japanese": "彼の成功を祈って止みません。",
+        "romaji": "Kare no seikou wo inotte yamimasen.",
+        "german": "Ich bete inbrünstig für seinen Erfolg."
       }
     ],
     "notes": "Sehr formell, oft in Reden, Grußworten oder schriftlichen Ansprachen verwendet.",
     "related": [
+      "n4-tsuzukeru"
+    ],
+    "legacyIds": [
       "n1-te-yamanu"
     ]
   },
@@ -2651,7 +2706,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Formell und höflich. Wird oft in Geschäftsbriefen oder formellen Situationen verwendet.",
     "related": [
-      "n1-gatera"
+      "n1-gatera",
+      "n2-wo-kanete"
     ]
   },
   {
@@ -2709,7 +2765,9 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Etwas weniger formell als かたがた. Hauptaktion steht vor がてら.",
     "related": [
-      "n1-katagata"
+      "n1-katagata",
+      "n3-tsuide-ni",
+      "n2-wo-kanete"
     ]
   },
   {
@@ -2820,12 +2878,25 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Kare wa chikoku bakari shite, tsui ni kubi ni naru shimatsu datta.",
         "german": "Er kam ständig zu spät und es endete schließlich damit, dass er gefeuert wurde."
+      },
+      {
+        "japanese": "お金を使いすぎて、借金をする始末だ。",
+        "romaji": "Okane wo tsukaisugite, shakkin wo suru shimatsu da.",
+        "german": "Ich gab zu viel Geld aus und musste mich sogar verschulden."
+      },
+      {
+        "japanese": "彼は遅刻ばかりで、ついにクビになる始末だった。",
+        "romaji": "Kare wa chikoku bakari de, tsui ni kubi ni naru shimatsu datta.",
+        "german": "Er kam ständig zu spät und wurde schließlich sogar gefeuert."
       }
     ],
     "notes": "Ausschließlich für negative Situationen. Drückt Bedauern oder Kritik aus.",
     "related": [
       "n2-sue-ni",
       "n4-you-ni-naru"
+    ],
+    "legacyIds": [
+      "n1-shimatsuda"
     ]
   },
   {
@@ -2883,7 +2954,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   },
   {
     "id": "n1-te-shikaru-beki",
-    "pattern": "～て然るべき",
+    "pattern": "～て然るべき / ～てしかるべき",
     "level": "N1",
     "category": "Verben",
     "meaning": "sollte, es wäre angemessen",
@@ -2931,11 +3002,25 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Kare wa sekininsha toshite shazai shite shikaru beki tachiba ni aru.",
         "german": "Als Verantwortlicher befindet er sich in einer Position, in der er sich entschuldigen sollte."
+      },
+      {
+        "japanese": "このような問題は早急に対処してしかるべきだ。",
+        "romaji": "Kono you na mondai wa sakkyuu ni taisho shite shikaru beki da.",
+        "german": "Solche Probleme sollten natürlich umgehend angegangen werden."
+      },
+      {
+        "japanese": "彼には感謝してしかるべきだ。",
+        "romaji": "Kare ni wa kansha shite shikaru beki da.",
+        "german": "Es wäre angemessen, ihm zu danken."
       }
     ],
     "notes": "Sehr formell und literarisch. 然る (しかる) bedeutet 'so sein, angemessen sein'.",
     "related": [
-      "n4-beki-da"
+      "n4-beki-da",
+      "n4-hazu-da"
+    ],
+    "legacyIds": [
+      "n1-teshikarubeki"
     ]
   },
   {
@@ -3398,7 +3483,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   {
     "id": "n1-ni-sakidatte",
     "pattern": "～に先立って/～に先立ち",
-    "level": "N1",
+    "level": "N2",
     "category": "Verben",
     "meaning": "vor, im Vorfeld von",
     "explanation": "Drückt aus, dass etwas vor einem wichtigen Ereignis geschieht. Diese formelle Struktur wird verwendet, um zeitliche Priorität oder Vorbereitung auszudrücken. Häufig in offiziellen Ankündigungen oder formellen Kontexten verwendet.",
@@ -3410,7 +3495,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 3,
           "answer": "に先立って",
           "quiz": {
-            "level": "N1",
+            "level": "N2",
             "japanese": "開会式に先立って、リハーサルが行われた。",
             "german": "Im Vorfeld der Eröffnungszeremonie wurde eine Probe abgehalten.",
             "start": 3,
@@ -3445,11 +3530,19 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Shinseihin no hatsubai ni sakidachi, kisha kaiken wo hirakimasu.",
         "german": "Vor der Markteinführung des neuen Produkts werden wir eine Pressekonferenz abhalten."
+      },
+      {
+        "japanese": "発売に先立ち、サンプルを配布した。",
+        "romaji": "Hatsubai ni sakidachi, sanpuru wo haifu shita.",
+        "german": "Vor dem Verkaufsstart wurden Muster verteilt."
       }
     ],
     "notes": "Formell. に先立って und に先立ち sind austauschbar, wobei に先立ち etwas formeller ist.",
     "related": [
       "mae-ni"
+    ],
+    "legacyIds": [
+      "n2-ni-sakidatte"
     ]
   },
   {
@@ -3909,7 +4002,9 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Betont, dass etwas selbstverständlich oder überflüssig ist.",
     "related": [
       "nakutemo-ii",
-      "n1-made-da"
+      "n1-made-da",
+      "n2-hodo-no-koto-dewa-nai",
+      "n2-wa-iu-made-mo-nai"
     ]
   },
   {
@@ -4025,7 +4120,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Formell und literarisch. Betont die unmittelbare Aufeinanderfolge zweier Ereignisse.",
     "related": [
-      "n3-totan"
+      "n3-totan",
+      "n2-ka-nai-ka-no-uchi-ni"
     ]
   },
   {
@@ -4252,7 +4348,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   },
   {
     "id": "n1-n-bakari-ni",
-    "pattern": "～んばかりに",
+    "pattern": "～んばかり(に)",
     "level": "N1",
     "category": "Verben",
     "meaning": "als ob gleich",
@@ -4296,12 +4392,26 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         "japanese": "群衆は喜びに溢れんばかりだった。",
         "romaji": "Gunshuu wa yorokobi ni afuren bakari datta.",
         "german": "Die Menge war so erfüllt von Freude, als würde sie überlaufen."
+      },
+      {
+        "japanese": "今にも泣き出さんばかりの顔をしていた。",
+        "romaji": "Ima ni mo nakidasan bakari no kao wo shite ita.",
+        "german": "Er hatte ein Gesicht, als würde er gleich anfangen zu weinen."
+      },
+      {
+        "japanese": "飛び上がらんばかりに喜んだ。",
+        "romaji": "Tobiagaran bakari ni yorokonda.",
+        "german": "Er freute sich so sehr, dass er fast in die Luft gesprungen wäre."
       }
     ],
     "notes": "Literarisch und bildhaft. する wird zu せんばかりに.",
     "related": [
       "n4-sou-appearance",
-      "n4-bakari-p"
+      "n4-bakari-p",
+      "n4-you-da"
+    ],
+    "legacyIds": [
+      "n1-nbakari"
     ]
   },
   {
@@ -4354,11 +4464,23 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Ano michi ni haittara saigo, nido to modorenai.",
         "german": "Wenn man einmal diesen Weg einschlägt, kann man nicht mehr zurück."
+      },
+      {
+        "japanese": "この薬を飲んだが最後、二度と元には戻れない。",
+        "romaji": "Kono kusuri wo nonda ga saigo, nido to moto ni wa modorenai.",
+        "german": "Wenn man diese Medizin einmal genommen hat, kann man nie mehr zurück."
+      },
+      {
+        "japanese": "彼と喧嘩したが最後、もう仲直りできない。",
+        "romaji": "Kare to kenka shita ga saigo, mou nakanaori dekinai.",
+        "german": "Wenn man einmal mit ihm gestritten hat, kann man sich nicht mehr versöhnen."
       }
     ],
     "notes": "Betont unwiderrufliche, oft negative Konsequenzen. Warnung vor Point of no return.",
     "related": [
-      "n1-ba-sore-made-da",
+      "n1-ba-sore-made-da"
+    ],
+    "legacyIds": [
       "n1-ta-ga-saigo"
     ]
   },
@@ -4535,7 +4657,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Oft in höflichen Entschuldigungen oder Dankesbekundungen verwendet.",
     "related": [
       "n4-tokoro-da",
-      "n2-sai-ni"
+      "n3-sai-ni"
     ]
   },
   {
@@ -4762,61 +4884,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Formell. Wird in geschäftlichen, rechtlichen oder akademischen Kontexten verwendet.",
     "related": [
       "n3-ni-motozuite"
-    ]
-  },
-  {
-    "id": "n1-te-yamanu",
-    "pattern": "～て止まない/～てやまない",
-    "level": "N1",
-    "category": "Verben",
-    "meaning": "unaufhörlich, inbrünstig",
-    "explanation": "Drückt einen tiefen, andauernden Wunsch oder ein starkes Gefühl aus, das nicht aufhört. Diese sehr formelle Struktur wird hauptsächlich in geschriebener Sprache verwendet. Identisch mit てやまない, oft mit Verben wie 願う, 祈る, 望む kombiniert.",
-    "formation": "Verb-て-Form + 止まない/やまない",
-    "examples": [
-      {
-        "japanese": "世界の平和を願って止まない。",
-        "cloze": {
-          "start": 8,
-          "answer": "て止まない",
-          "quiz": {
-            "level": "N1",
-            "japanese": "世界の平和を願って止まない。",
-            "german": "Ich wünsche mir unaufhörlich den Weltfrieden.",
-            "start": 8,
-            "answer": "て止まない",
-            "acceptedAnswers": [
-              "て止まない",
-              "てやまない"
-            ],
-            "distractors": [
-              {
-                "text": "た止まない",
-                "reason": "Die Verbindung nach 願っ benötigt die て-Form."
-              },
-              {
-                "text": "て止まないます",
-                "reason": "ない erhält kein angehängtes ます."
-              },
-              {
-                "text": "て止むません",
-                "reason": "ません wird nicht an die Wörterbuchform angehängt werden."
-              }
-            ]
-          }
-        },
-        "romaji": "Sekai no heiwa wo negatte yamanu.",
-        "german": "Ich wünsche mir unaufhörlich den Weltfrieden."
-      },
-      {
-        "japanese": "彼の成功を祈って止みません。",
-        "romaji": "Kare no seikou wo inotte yamimasen.",
-        "german": "Ich bete inbrünstig für seinen Erfolg."
-      }
-    ],
-    "notes": "Sehr formell. Identisch mit てやまない. Oft in Reden oder formellen Schreiben.",
-    "related": [
-      "n1-te-yamanai",
-      "n4-tsuzukeru"
     ]
   },
   {
@@ -5047,60 +5114,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ]
   },
   {
-    "id": "n1-ta-ga-saigo",
-    "pattern": "～たが最後",
-    "level": "N1",
-    "category": "Verben",
-    "meaning": "wenn einmal getan, dann (Variante)",
-    "explanation": "Variante von が最後/たら最後, die ausdrückt, dass wenn etwas einmal getan wurde, unwiderrufliche Konsequenzen folgen. Diese Struktur betont die Endgültigkeit und meist negative Folgen. Wird verwendet, um vor einem Point of no return zu warnen.",
-    "formation": "Verb-た-Form + が最後",
-    "examples": [
-      {
-        "japanese": "この薬を飲んだが最後、二度と元には戻れない。",
-        "romaji": "Kono kusuri wo nonda ga saigo, nido to moto ni wa modorenai.",
-        "german": "Wenn man diese Medizin einmal genommen hat, kann man nie mehr zurück."
-      },
-      {
-        "japanese": "彼と喧嘩したが最後、もう仲直りできない。",
-        "cloze": {
-          "start": 5,
-          "answer": "たが最後",
-          "quiz": {
-            "level": "N1",
-            "japanese": "彼と喧嘩したが最後、もう仲直りできない。",
-            "german": "Wenn man einmal mit ihm gestritten hat, kann man sich nicht mehr versöhnen.",
-            "start": 5,
-            "answer": "たが最後",
-            "acceptedAnswers": [
-              "たが最後"
-            ],
-            "distractors": [
-              {
-                "text": "たが最後を",
-                "reason": "を bildet hier keinen Bedingungsanschluss."
-              },
-              {
-                "text": "たが最後な",
-                "reason": "な kann hier nicht angehängt werden."
-              },
-              {
-                "text": "たが最後ます",
-                "reason": "ます kann nicht direkt an 最後 angehängt werden."
-              }
-            ]
-          }
-        },
-        "romaji": "Kare to kenka shita ga saigo, mou nakanaori dekinai.",
-        "german": "Wenn man einmal mit ihm gestritten hat, kann man sich nicht mehr versöhnen."
-      }
-    ],
-    "notes": "Synonym zu が最後/たら最後. Betont unwiderrufliche, oft negative Konsequenzen.",
-    "related": [
-      "n1-ga-saigo-tara-saigo",
-      "n1-ba-sore-made-da"
-    ]
-  },
-  {
     "id": "n1-towa",
     "pattern": "～とは",
     "level": "N1",
@@ -5156,7 +5169,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Das 'は' nach 'と' betont die Aussage und drückt oft Erstaunen aus.",
     "related": [
       "n1-tomo",
-      "n4-nado"
+      "n4-nado",
+      "n3-to-iu-no-wa"
     ]
   },
   {
@@ -5268,10 +5282,21 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Sora wo nagameru to mo nashi ni nagamete ita.",
         "german": "Ich blickte in den Himmel, ohne bewusst hinzuschauen."
+      },
+      {
+        "japanese": "どこともなく歩き続けた。",
+        "romaji": "Doko to mo naku aruki tsuzuketa.",
+        "german": "Ich ging weiter, ohne ein bestimmtes Ziel zu haben."
+      },
+      {
+        "japanese": "何ともなく彼女のことを思い出した。",
+        "romaji": "Nani to mo naku kanojo no koto wo omoidashita.",
+        "german": "Ich erinnerte mich ohne besonderen Grund an sie."
       }
     ],
     "notes": "Betont die Abwesenheit von Absicht oder Bewusstsein.",
-    "related": [
+    "related": [],
+    "legacyIds": [
       "n1-tomonaku2"
     ]
   },
@@ -5331,63 +5356,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "related": [
       "n1-naku-mo-nai",
       "n3-nai-koto-wa-nai"
-    ]
-  },
-  {
-    "id": "n1-nagarani-nagarano",
-    "pattern": "～ながらに/ながらの",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "im Zustand von, wie immer, von Geburt an",
-    "explanation": "Drückt aus, dass etwas im ursprünglichen Zustand bleibt oder dass ein Zustand von Anfang an besteht. Oft verwendet mit 'geboren' oder unveränderten Zuständen.",
-    "formation": "Nomen + ながら(に/の)\n生まれながら(に/の)",
-    "examples": [
-      {
-        "japanese": "彼は生まれながらの才能を持っている。",
-        "cloze": {
-          "start": 5,
-          "answer": "ながらの",
-          "quiz": {
-            "level": "N1",
-            "japanese": "彼は生まれながらの才能を持っている。",
-            "german": "Er besitzt ein angeborenes Talent.",
-            "start": 5,
-            "answer": "ながらの",
-            "acceptedAnswers": [
-              "ながらの"
-            ],
-            "distractors": [
-              {
-                "text": "ながらを",
-                "reason": "を kann hier 才能 nicht attributiv anschließen."
-              },
-              {
-                "text": "ながらます",
-                "reason": "ます kann nicht direkt an ながら angehängt werden."
-              },
-              {
-                "text": "ながらのな",
-                "reason": "Vor 才能 steht nach の kein zusätzliches な."
-              }
-            ]
-          }
-        },
-        "romaji": "Kare wa umarenagara no sainou wo motte iru.",
-        "german": "Er besitzt ein angeborenes Talent."
-      },
-      {
-        "japanese": "昔ながらの製法で作られている。",
-        "cloze": {
-          "start": 1,
-          "answer": "ながらの"
-        },
-        "romaji": "Mukashinagara no seihou de tsukurarete iru.",
-        "german": "Es wird nach traditioneller Methode hergestellt."
-      }
-    ],
-    "notes": "Literarischer Ausdruck, oft in formellen Kontexten.",
-    "related": [
-      "n4-mama"
     ]
   },
   {
@@ -5559,7 +5527,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "related": [
       "n1-ya-inaya",
       "n3-totan",
-      "n1-sobakara"
+      "n1-sobakara",
+      "n2-nari-ni"
     ]
   },
   {
@@ -5831,7 +5800,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Betont den Wendepunkt oder die entscheidende Erkenntnis.",
     "related": [
-      "n3-te-hajimete",
       "n2-te-hajimete"
     ]
   },
@@ -5893,65 +5861,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "related": [
       "n1-sura",
       "n1-desura"
-    ]
-  },
-  {
-    "id": "n1-nitaru",
-    "pattern": "～に足る/にたる",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "würdig, wert, es verdienen",
-    "explanation": "Drückt aus, dass etwas oder jemand würdig ist, eine bestimmte Bewertung oder Behandlung zu erhalten. Oft in formellen oder literarischen Kontexten.",
-    "formation": "Nomen + に足る\nVerb 辞書形 + に足る",
-    "examples": [
-      {
-        "japanese": "これは信頼に足る情報だ。",
-        "cloze": {
-          "start": 5,
-          "answer": "に足る",
-          "quiz": {
-            "level": "N1",
-            "japanese": "これは信頼に足る情報だ。",
-            "german": "Das ist eine vertrauenswürdige Information.",
-            "start": 5,
-            "answer": "に足る",
-            "acceptedAnswers": [
-              "に足る",
-              "に足りる"
-            ],
-            "distractors": [
-              {
-                "text": "に足り",
-                "reason": "Die Stammform bestimmt hier 情報 nicht attributiv."
-              },
-              {
-                "text": "に足るます",
-                "reason": "ます wird nicht an die Wörterbuchform angehängt."
-              },
-              {
-                "text": "に足らない",
-                "reason": "Dies verneint die Vertrauenswürdigkeit."
-              }
-            ]
-          }
-        },
-        "romaji": "Kore wa shinrai ni taru jouhou da.",
-        "german": "Das ist eine vertrauenswürdige Information."
-      },
-      {
-        "japanese": "彼の業績は称賛に足るものだ。",
-        "cloze": {
-          "start": 7,
-          "answer": "に足る"
-        },
-        "romaji": "Kare no gyouseki wa shousan ni taru mono da.",
-        "german": "Seine Leistungen sind lobenswert."
-      }
-    ],
-    "notes": "Formeller Ausdruck, oft in schriftlicher Sprache.",
-    "related": [
-      "n1-ni-taru",
-      "n1-nihajinai"
     ]
   },
   {
@@ -6197,69 +6106,11 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "Sehr formeller Ausdruck, oft in schriftlicher Sprache.",
     "related": [
-      "n1-kagirida"
+      "n1-kagirida",
+      "n2-ni-mo-hodo-ga-aru"
     ],
     "legacyIds": [
       "n1-kiwamari-nai"
-    ]
-  },
-  {
-    "id": "n1-gotoku-gotoki",
-    "pattern": "～ごとく/ごとき",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "wie, gleich (literarisch)",
-    "explanation": "Literarischer Vergleichsausdruck, der 'wie' oder 'gleich' bedeutet. Wird hauptsächlich in formellen oder literarischen Texten verwendet.",
-    "formation": "Nomen + のごとく/のごとき\nVerb 辞書形 + がごとく/がごとき",
-    "examples": [
-      {
-        "japanese": "嵐のごとく現れて、すぐに去った。",
-        "cloze": {
-          "start": 2,
-          "answer": "ごとく",
-          "quiz": {
-            "level": "N1",
-            "japanese": "嵐のごとく現れて、すぐに去った。",
-            "german": "Er erschien wie ein Sturm und ging sofort wieder.",
-            "start": 2,
-            "answer": "ごとく",
-            "acceptedAnswers": [
-              "ごとく",
-              "ように"
-            ],
-            "distractors": [
-              {
-                "text": "ごとき",
-                "reason": "Die attributive Form bestimmt hier 現れて nicht adverbial."
-              },
-              {
-                "text": "ごとくな",
-                "reason": "な kann hier nicht angehängt werden."
-              },
-              {
-                "text": "ごとくます",
-                "reason": "ます kann nicht direkt an ごとく angehängt werden."
-              }
-            ]
-          }
-        },
-        "romaji": "Arashi no gotoku arawarete, sugu ni satta.",
-        "german": "Er erschien wie ein Sturm und ging sofort wieder."
-      },
-      {
-        "japanese": "彼は鬼神のごとき強さを見せた。",
-        "cloze": {
-          "start": 5,
-          "answer": "ごとき"
-        },
-        "romaji": "Kare wa kijin no gotoki tsuyosa wo miseta.",
-        "german": "Er zeigte eine dämonengleiche Stärke."
-      }
-    ],
-    "notes": "Sehr literarisch, wird in der gesprochenen Sprache selten verwendet.",
-    "related": [
-      "n4-you-ni-purpose",
-      "n2-ka-no-you-ni"
     ]
   },
   {
@@ -6664,64 +6515,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "related": []
   },
   {
-    "id": "n1-tomonaku2",
-    "pattern": "～ともなく",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "ohne dass man es merkt, unbewusst",
-    "explanation": "Drückt aus, dass etwas unbewusst oder ohne klare Absicht geschieht. Ähnlich wie ともなしに.",
-    "formation": "Verb 辞書形 + ともなく",
-    "examples": [
-      {
-        "japanese": "どこともなく歩き続けた。",
-        "cloze": {
-          "start": 2,
-          "answer": "ともなく",
-          "quiz": {
-            "level": "N1",
-            "japanese": "どこともなく歩き続けた。",
-            "german": "Ich ging weiter, ohne ein bestimmtes Ziel zu haben.",
-            "start": 2,
-            "answer": "ともなく",
-            "acceptedAnswers": [
-              "ともなく",
-              "ともなしに"
-            ],
-            "distractors": [
-              {
-                "text": "ともなくな",
-                "reason": "な kann hier nicht angehängt werden."
-              },
-              {
-                "text": "ともなくを",
-                "reason": "を bildet hier keinen adverbialen Anschluss."
-              },
-              {
-                "text": "ともないます",
-                "reason": "ない erhält kein angehängtes ます."
-              }
-            ]
-          }
-        },
-        "romaji": "Doko to mo naku aruki tsuzuketa.",
-        "german": "Ich ging weiter, ohne ein bestimmtes Ziel zu haben."
-      },
-      {
-        "japanese": "何ともなく彼女のことを思い出した。",
-        "cloze": {
-          "start": 1,
-          "answer": "ともなく"
-        },
-        "romaji": "Nani to mo naku kanojo no koto wo omoidashita.",
-        "german": "Ich erinnerte mich ohne besonderen Grund an sie."
-      }
-    ],
-    "notes": "Betont die Abwesenheit von bewusster Intention.",
-    "related": [
-      "n1-tomonaku-tomonashini"
-    ]
-  },
-  {
     "id": "n1-tomo",
     "pattern": "～とも",
     "level": "N1",
@@ -7117,7 +6910,9 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       }
     ],
     "notes": "Nützlich, um ein Thema zu wechseln oder zu priorisieren.",
-    "related": []
+    "related": [
+      "n2-wa-tomokaku"
+    ]
   },
   {
     "id": "n1-bakarikamade",
@@ -7227,119 +7022,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "related": [
       "n4-dake-de-naku",
       "n1-nomi-narazu"
-    ]
-  },
-  {
-    "id": "n1-mamire",
-    "pattern": "～まみれ",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "bedeckt mit, übersät mit (meist negativ)",
-    "explanation": "Drückt aus, dass etwas vollständig mit etwas bedeckt ist. Wird meist für negative oder schmutzige Dinge verwendet.",
-    "formation": "Nomen + まみれ",
-    "examples": [
-      {
-        "japanese": "泥まみれになって遊んだ。",
-        "cloze": {
-          "start": 1,
-          "answer": "まみれ",
-          "quiz": {
-            "level": "N1",
-            "japanese": "泥まみれになって遊んだ。",
-            "german": "Wir spielten, bis wir voller Schlamm waren.",
-            "start": 1,
-            "answer": "まみれ",
-            "acceptedAnswers": [
-              "まみれ",
-              "だらけ"
-            ],
-            "distractors": [
-              {
-                "text": "まみれを",
-                "reason": "Die Objektpartikel passt nicht vor になって."
-              },
-              {
-                "text": "まみれな",
-                "reason": "な passt nicht vor になって."
-              },
-              {
-                "text": "まみれます",
-                "reason": "ます kann nicht direkt an まみれ angehängt werden."
-              }
-            ]
-          }
-        },
-        "romaji": "Doro mamire ni natte asonda.",
-        "german": "Wir spielten, bis wir voller Schlamm waren."
-      },
-      {
-        "japanese": "血まみれで倒れていた。",
-        "cloze": {
-          "start": 1,
-          "answer": "まみれ"
-        },
-        "romaji": "Chi mamire de taorete ita.",
-        "german": "Er lag blutüberströmt am Boden."
-      }
-    ],
-    "notes": "Meist für negative Dinge wie Schmutz, Blut, Schulden verwendet.",
-    "related": [
-      "n3-darake",
-      "n1-zukume"
-    ]
-  },
-  {
-    "id": "n1-meku",
-    "pattern": "～めく",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "den Anschein haben von, wirken wie",
-    "explanation": "Drückt aus, dass etwas Anzeichen oder Merkmale von etwas zeigt. Wird oft mit Nomen kombiniert, um Verben zu bilden.",
-    "formation": "Nomen + めく",
-    "examples": [
-      {
-        "japanese": "春めいた陽気になってきた。",
-        "romaji": "Harumei ta youki ni natte kita.",
-        "german": "Das Wetter fängt an, frühlingshaft zu werden.",
-        "cloze": {
-          "start": 1,
-          "answer": "めいた",
-          "quiz": {
-            "level": "N1",
-            "japanese": "春めいた陽気になってきた。",
-            "german": "Das Wetter fängt an, frühlingshaft zu werden.",
-            "start": 1,
-            "answer": "めいた",
-            "acceptedAnswers": [
-              "めいた"
-            ],
-            "distractors": [
-              {
-                "text": "めき",
-                "reason": "Die Stammform bestimmt hier 陽気 nicht attributiv."
-              },
-              {
-                "text": "めくました",
-                "reason": "Die höfliche Vergangenheit benötigt den Stamm めき."
-              },
-              {
-                "text": "めいたな",
-                "reason": "Vor 陽気 steht hier kein zusätzliches な."
-              }
-            ]
-          }
-        }
-      },
-      {
-        "japanese": "彼の話は謎めいている。",
-        "romaji": "Kare no hanashi wa nazomeite iru.",
-        "german": "Seine Geschichte wirkt geheimnisvoll."
-      }
-    ],
-    "notes": "Bildet oft poetische oder literarische Ausdrücke.",
-    "related": [
-      "n4-rashii",
-      "n4-ppoi"
     ]
   },
   {
@@ -7511,8 +7193,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   },
   {
     "id": "n1-mononara",
-    "pattern": "～ものなら (できるものなら)",
-    "level": "N1",
+    "pattern": "～ものなら",
+    "level": "N2",
     "category": "Satzstrukturen",
     "meaning": "wenn man könnte, wenn es möglich wäre",
     "explanation": "Drückt einen starken Wunsch aus, oft mit der Implikation, dass es schwierig oder unmöglich ist. Auch für hypothetische negative Konsequenzen verwendet.",
@@ -7526,7 +7208,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 3,
           "answer": "ものなら",
           "quiz": {
-            "level": "N1",
+            "level": "N2",
             "japanese": "できるものなら、やり直したい。",
             "german": "Wenn ich könnte, würde ich es gerne noch einmal machen.",
             "start": 3,
@@ -7556,12 +7238,22 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         "japanese": "嘘をついたものなら、ただでは済まない。",
         "romaji": "Uso wo tsuita mono nara, tada de wa sumanai.",
         "german": "Wenn du lügst, kommst du nicht ungeschoren davon."
+      },
+      {
+        "japanese": "戻れるものなら、学生時代に戻りたい。",
+        "romaji": "Modoreru mono nara, gakusei jidai ni modoritai.",
+        "german": "Wenn ich könnte, würde ich gerne in die Studentenzeit zurückkehren."
       }
     ],
     "notes": "Kann Wunsch oder Warnung ausdrücken, je nach Kontext.",
     "related": [
       "tara",
-      "n4-nara"
+      "n4-nara",
+      "n3-mono-no",
+      "n2-kurai-nara"
+    ],
+    "legacyIds": [
+      "n2-mono-nara"
     ]
   },
   {
@@ -7678,123 +7370,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "related": [
       "mashou",
       "n4-volitional"
-    ]
-  },
-  {
-    "id": "n1-wokawakiritoshite",
-    "pattern": "～を皮切りとして/を皮切りに",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "beginnend mit, ausgehend von",
-    "explanation": "Drückt aus, dass etwas der Anfang oder Auftakt für eine Reihe von Ereignissen ist. Markiert den Startpunkt.",
-    "formation": "Nomen + を皮切りとして/を皮切りに",
-    "examples": [
-      {
-        "japanese": "東京を皮切りに、全国ツアーを行う。",
-        "cloze": {
-          "start": 2,
-          "answer": "を皮切りに",
-          "quiz": {
-            "level": "N1",
-            "japanese": "東京を皮切りに、全国ツアーを行う。",
-            "german": "Beginnend mit Tokyo werden wir eine landesweite Tour durchführen.",
-            "start": 2,
-            "answer": "を皮切りに",
-            "acceptedAnswers": [
-              "を皮切りに",
-              "を皮切りとして"
-            ],
-            "distractors": [
-              {
-                "text": "を皮切りを",
-                "reason": "Die Wendung schließt mit に an."
-              },
-              {
-                "text": "に皮切りに",
-                "reason": "Der Ausgangspunkt benötigt を."
-              },
-              {
-                "text": "を皮切りな",
-                "reason": "な bildet hier keinen Zeitanschluss."
-              }
-            ]
-          }
-        },
-        "romaji": "Toukyou wo kawakiri ni, zenkoku tsuaa wo okonau.",
-        "german": "Beginnend mit Tokyo werden wir eine landesweite Tour durchführen."
-      },
-      {
-        "japanese": "この事件を皮切りに、様々な問題が明らかになった。",
-        "cloze": {
-          "start": 4,
-          "answer": "を皮切りに"
-        },
-        "romaji": "Kono jiken wo kawakiri ni, samazama na mondai ga akiraka ni natta.",
-        "german": "Ausgehend von diesem Vorfall wurden verschiedene Probleme offensichtlich."
-      }
-    ],
-    "notes": "Betont den Beginn einer Serie von Ereignissen.",
-    "related": [
-      "n3-o-hajime",
-      "n1-wo-kawakiri-ni"
-    ]
-  },
-  {
-    "id": "n1-nbakari",
-    "pattern": "～んばかり",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "als ob man gleich würde, kurz davor",
-    "explanation": "Drückt aus, dass etwas so aussieht oder sich so anfühlt, als würde es gleich passieren. Betont die Intensität oder Unmittelbarkeit.",
-    "formation": "Verb ない-Form (ん) + ばかり",
-    "examples": [
-      {
-        "japanese": "今にも泣き出さんばかりの顔をしていた。",
-        "cloze": {
-          "start": 7,
-          "answer": "んばかり",
-          "quiz": {
-            "level": "N1",
-            "japanese": "今にも泣き出さんばかりの顔をしていた。",
-            "german": "Er hatte ein Gesicht, als würde er gleich anfangen zu weinen.",
-            "start": 7,
-            "answer": "んばかり",
-            "acceptedAnswers": [
-              "んばかり"
-            ],
-            "distractors": [
-              {
-                "text": "んばかります",
-                "reason": "ます kann nicht direkt an ばかり angehängt werden."
-              },
-              {
-                "text": "んばかりな",
-                "reason": "な passt hier nicht vor の顔."
-              },
-              {
-                "text": "んばかりを",
-                "reason": "を passt hier nicht vor の顔."
-              }
-            ]
-          }
-        },
-        "romaji": "Ima ni mo nakidasan bakari no kao wo shite ita.",
-        "german": "Er hatte ein Gesicht, als würde er gleich anfangen zu weinen."
-      },
-      {
-        "japanese": "飛び上がらんばかりに喜んだ。",
-        "cloze": {
-          "start": 5,
-          "answer": "んばかり"
-        },
-        "romaji": "Tobiagaran bakari ni yorokonda.",
-        "german": "Er freute sich so sehr, dass er fast in die Luft gesprungen wäre."
-      }
-    ],
-    "notes": "Literarischer Ausdruck, betont die Intensität.",
-    "related": [
-      "n4-sou-appearance",
-      "n4-you-da"
     ]
   },
   {
@@ -8019,118 +7594,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ]
   },
   {
-    "id": "n1-shimatsuda",
-    "pattern": "～始末だ/始末",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "es endet negativ damit, so weit kommt es",
-    "explanation": "Drückt aus, dass eine Situation zu einem unerwünschten oder beklagenswerten Ergebnis führt. Hat immer eine negative Konnotation.",
-    "formation": "Verb 辞書形/た-Form + 始末だ",
-    "examples": [
-      {
-        "japanese": "お金を使いすぎて、借金をする始末だ。",
-        "romaji": "Okane wo tsukaisugite, shakkin wo suru shimatsu da.",
-        "german": "Ich gab zu viel Geld aus und musste mich sogar verschulden.",
-        "cloze": {
-          "start": 14,
-          "answer": "始末だ",
-          "quiz": {
-            "level": "N1",
-            "japanese": "お金を使いすぎて、借金をする始末だ。",
-            "german": "Ich gab zu viel Geld aus und musste mich sogar verschulden.",
-            "start": 14,
-            "answer": "始末だ",
-            "acceptedAnswers": [
-              "始末だ"
-            ],
-            "distractors": [
-              {
-                "text": "始末を",
-                "reason": "Die Objektpartikel schließt den Satz nicht ab."
-              },
-              {
-                "text": "始末な",
-                "reason": "Die attributive Form schließt den Satz nicht ab."
-              },
-              {
-                "text": "始末ます",
-                "reason": "ます kann nicht direkt an 始末 angehängt werden."
-              }
-            ]
-          }
-        }
-      },
-      {
-        "japanese": "彼は遅刻ばかりで、ついにクビになる始末だった。",
-        "romaji": "Kare wa chikoku bakari de, tsui ni kubi ni naru shimatsu datta.",
-        "german": "Er kam ständig zu spät und wurde schließlich sogar gefeuert."
-      }
-    ],
-    "notes": "Immer negativ, drückt Bedauern oder Kritik aus.",
-    "related": [
-      "n1-shimatsu-da"
-    ]
-  },
-  {
-    "id": "n1-zukume",
-    "pattern": "～ずくめ",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "voll von, lauter, durchgehend",
-    "explanation": "Drückt aus, dass etwas vollständig oder ausschließlich aus einem Element besteht. Kann positiv oder negativ sein.",
-    "formation": "Nomen + ずくめ",
-    "examples": [
-      {
-        "japanese": "今日は良いことずくめだった。",
-        "cloze": {
-          "start": 7,
-          "answer": "ずくめ",
-          "quiz": {
-            "level": "N1",
-            "japanese": "今日は良いことずくめだった。",
-            "german": "Heute passierte nur Gutes.",
-            "start": 7,
-            "answer": "ずくめ",
-            "acceptedAnswers": [
-              "ずくめ",
-              "ばかり"
-            ],
-            "distractors": [
-              {
-                "text": "ずくめを",
-                "reason": "を passt hier nicht vor だった."
-              },
-              {
-                "text": "ずくめな",
-                "reason": "な passt hier nicht vor だった."
-              },
-              {
-                "text": "ずくめます",
-                "reason": "ます kann nicht direkt an ずくめ angehängt werden."
-              }
-            ]
-          }
-        },
-        "romaji": "Kyou wa yoi koto zukume datta.",
-        "german": "Heute passierte nur Gutes."
-      },
-      {
-        "japanese": "黒ずくめの服を着ている。",
-        "cloze": {
-          "start": 1,
-          "answer": "ずくめ"
-        },
-        "romaji": "Kuro zukume no fuku wo kite iru.",
-        "german": "Er trägt durchgehend schwarze Kleidung."
-      }
-    ],
-    "notes": "Kann für positive oder negative Dinge verwendet werden.",
-    "related": [
-      "n3-darake",
-      "n1-mamire"
-    ]
-  },
-  {
     "id": "n1-sobakara",
     "pattern": "～そばから",
     "level": "N1",
@@ -8186,65 +7649,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "related": [
       "n3-totan",
       "n1-nari"
-    ]
-  },
-  {
-    "id": "n1-dakeatte",
-    "pattern": "～だけあって/だけのことはあって",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "wie man es erwarten würde, dem entsprechend",
-    "explanation": "Drückt aus, dass ein Ergebnis den Erwartungen entspricht, die auf einem bestimmten Merkmal oder Status basieren.",
-    "formation": "Nomen + だけあって\n普通形 + だけあって",
-    "examples": [
-      {
-        "japanese": "彼はプロだけあって、仕事が速い。",
-        "cloze": {
-          "start": 4,
-          "answer": "だけあって",
-          "quiz": {
-            "level": "N1",
-            "japanese": "彼はプロだけあって、仕事が速い。",
-            "german": "Wie man es von einem Profi erwarten würde, arbeitet er schnell.",
-            "start": 4,
-            "answer": "だけあって",
-            "acceptedAnswers": [
-              "だけあって",
-              "だけに"
-            ],
-            "distractors": [
-              {
-                "text": "だけある",
-                "reason": "Die Wörterbuchform bildet hier keinen Grundanschluss."
-              },
-              {
-                "text": "だけあった",
-                "reason": "Die attributive Vergangenheit bildet hier keinen Anschluss."
-              },
-              {
-                "text": "だけあります",
-                "reason": "Die finite Form bildet hier keinen Anschluss."
-              }
-            ]
-          }
-        },
-        "romaji": "Kare wa puro dake atte, shigoto ga hayai.",
-        "german": "Wie man es von einem Profi erwarten würde, arbeitet er schnell."
-      },
-      {
-        "japanese": "高いだけあって、品質は良い。",
-        "cloze": {
-          "start": 2,
-          "answer": "だけあって"
-        },
-        "romaji": "Takai dake atte, hinshitsu wa yoi.",
-        "german": "Es ist teuer, aber entsprechend gut ist die Qualität."
-      }
-    ],
-    "notes": "Betont, dass das Ergebnis den Erwartungen entspricht.",
-    "related": [
-      "n2-dake-ni",
-      "kara-because"
     ]
   },
   {
@@ -8360,64 +7764,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "related": [
       "n1-de-are",
       "temo"
-    ]
-  },
-  {
-    "id": "n1-teshikarubeki",
-    "pattern": "～てしかるべき",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "es wäre angemessen, es sollte natürlich",
-    "explanation": "Drückt aus, dass etwas angemessen, natürlich oder zu erwarten wäre. Oft verwendet, um zu kritisieren, dass etwas nicht geschehen ist.",
-    "formation": "Verb て-Form + しかるべき",
-    "examples": [
-      {
-        "japanese": "このような問題は早急に対処してしかるべきだ。",
-        "cloze": {
-          "start": 14,
-          "answer": "てしかるべき",
-          "quiz": {
-            "level": "N1",
-            "japanese": "このような問題は早急に対処してしかるべきだ。",
-            "german": "Solche Probleme sollten natürlich umgehend angegangen werden.",
-            "start": 14,
-            "answer": "てしかるべき",
-            "acceptedAnswers": [
-              "てしかるべき"
-            ],
-            "distractors": [
-              {
-                "text": "たしかるべき",
-                "reason": "Die Wendung benötigt die て-Verbindung."
-              },
-              {
-                "text": "てしかるべく",
-                "reason": "Die adverbiale Form passt hier nicht vor だ."
-              },
-              {
-                "text": "てしかるべきな",
-                "reason": "Vor だ steht hier kein zusätzliches な."
-              }
-            ]
-          }
-        },
-        "romaji": "Kono you na mondai wa sakkyuu ni taisho shite shikaru beki da.",
-        "german": "Solche Probleme sollten natürlich umgehend angegangen werden."
-      },
-      {
-        "japanese": "彼には感謝してしかるべきだ。",
-        "cloze": {
-          "start": 6,
-          "answer": "てしかるべき"
-        },
-        "romaji": "Kare ni wa kansha shite shikaru beki da.",
-        "german": "Es wäre angemessen, ihm zu danken."
-      }
-    ],
-    "notes": "Formell, oft mit normativer oder kritischer Konnotation.",
-    "related": [
-      "n4-beki-da",
-      "n4-hazu-da"
     ]
   },
   {
@@ -8761,59 +8107,6 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ]
   },
   {
-    "id": "n1-naimonoka2",
-    "pattern": "～ないものか (gibt es keinen Weg)",
-    "level": "N1",
-    "category": "Satzstrukturen",
-    "meaning": "gibt es keinen Weg zu, kann man nicht irgendwie",
-    "explanation": "Drückt einen starken Wunsch aus, dass es einen Weg geben möge, etwas zu tun. Oft mit Hoffnung oder leichter Verzweiflung.",
-    "formation": "Verb ない-Form + ものか\nVerb ない-Form + ものだろうか",
-    "examples": [
-      {
-        "japanese": "何とか解決できないものか。",
-        "romaji": "Nantoka kaiketsu dekinai mono ka.",
-        "german": "Gibt es keinen Weg, das irgendwie zu lösen?",
-        "cloze": {
-          "start": 7,
-          "answer": "ないものか",
-          "quiz": {
-            "level": "N1",
-            "japanese": "何とか解決できないものか。",
-            "german": "Gibt es keinen Weg, das irgendwie zu lösen?",
-            "start": 7,
-            "answer": "ないものか",
-            "acceptedAnswers": [
-              "ないものか"
-            ],
-            "distractors": [
-              {
-                "text": "ないものをます",
-                "reason": "ます kann nicht an を angehängt werden."
-              },
-              {
-                "text": "ないものなか",
-                "reason": "Die Wunschfrage benötigt kein な."
-              },
-              {
-                "text": "ないものかます",
-                "reason": "ます kann nicht an die Fragepartikel angehängt werden."
-              }
-            ]
-          }
-        }
-      },
-      {
-        "japanese": "もっと簡単にできないものだろうか。",
-        "romaji": "Motto kantan ni dekinai mono darou ka.",
-        "german": "Kann man das nicht irgendwie einfacher machen?"
-      }
-    ],
-    "notes": "Drückt Wunsch mit leichtem Zweifel an der Möglichkeit aus.",
-    "related": [
-      "n2-nai-mono-ka"
-    ]
-  },
-  {
     "id": "n1-jimita",
     "pattern": "～じみた / ～じみる",
     "level": "N1",
@@ -8873,7 +8166,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Meist mit negativer Konnotation. Drückt aus, dass etwas unpassend oder unangemessen wirkt.",
     "related": [
       "n4-ppoi",
-      "n1-meku",
+      "n2-meku",
       "n1-gamashii"
     ]
   },
@@ -8947,7 +8240,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   {
     "id": "n1-gatai",
     "pattern": "～がたい / ～難い",
-    "level": "N1",
+    "level": "N3",
     "category": "Adjektive",
     "meaning": "schwer zu ..., kaum möglich zu ..., schwierig zu ...",
     "explanation": "Drückt aus, dass etwas schwierig oder kaum möglich ist zu tun. Formeller als にくい und wird oft in geschriebener Sprache verwendet. Betont die objektive Schwierigkeit oder Unmöglichkeit einer Handlung.",
@@ -8959,7 +8252,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 8,
           "answer": "がたい",
           "quiz": {
-            "level": "N1",
+            "level": "N3",
             "japanese": "彼の説明は理解しがたい。",
             "german": "Seine Erklärung ist schwer zu verstehen.",
             "start": 8,
@@ -9004,18 +8297,32 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Shinji gatai hanashi da ga, hontou rashii.",
         "german": "Es ist eine kaum zu glaubende Geschichte, aber sie scheint wahr zu sein."
+      },
+      {
+        "japanese": "彼の行動は理解しがたい。",
+        "romaji": "Kare no kōdō wa rikai shigatai.",
+        "german": "Sein Verhalten ist schwer zu verstehen."
+      },
+      {
+        "japanese": "忘れがたい思い出だ。",
+        "romaji": "Wasuregatai omoide da.",
+        "german": "Eine unvergessliche Erinnerung."
       }
     ],
     "notes": "Formeller als にくい. Wird oft in schriftlicher Sprache oder formellen Situationen verwendet.",
     "related": [
       "n4-nikui",
-      "n3-kaneru"
+      "n2-kaneru",
+      "n3-zurai"
+    ],
+    "legacyIds": [
+      "n3-gatai"
     ]
   },
   {
     "id": "n1-ge",
     "pattern": "～げ / ～気",
-    "level": "N1",
+    "level": "N2",
     "category": "Adjektive",
     "meaning": "den Anschein haben ..., aussehen als ob ..., -artig (Gefühl)",
     "explanation": "Wird verwendet, um den äußeren Eindruck oder Anschein eines Zustandes oder Gefühls auszudrücken. Verwandelt Adjektive in Nomen, die das Erscheinungsbild beschreiben. Wird oft mit Verben der Wahrnehmung kombiniert.",
@@ -9027,7 +8334,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 4,
           "answer": "げ",
           "quiz": {
-            "level": "N1",
+            "level": "N2",
             "japanese": "彼は寂しげな表情をしていた。",
             "german": "Er hatte einen einsamen Gesichtsausdruck.",
             "start": 4,
@@ -9071,13 +8378,26 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Imi ari ge na shisen wo okutta.",
         "german": "Er warf einen bedeutungsvollen Blick."
+      },
+      {
+        "japanese": "彼女は悲しげな顔をしていた。",
+        "romaji": "Kanojo wa kanashige na kao o shiteita.",
+        "german": "Sie hatte ein traurig aussehendes Gesicht."
+      },
+      {
+        "japanese": "子供たちは楽しげに遊んでいる。",
+        "romaji": "Kodomotachi wa tanoshige ni asondeiru.",
+        "german": "Die Kinder spielen vergnügt."
       }
     ],
     "notes": "Wird verwendet, um den äußeren Anschein von Gefühlen oder Zuständen zu beschreiben. げな vor Nomen, げに als Adverb.",
     "related": [
       "n4-sou-appearance",
       "n4-rashii",
-      "n1-meku"
+      "n2-meku"
+    ],
+    "legacyIds": [
+      "n3-ge"
     ]
   },
   {
@@ -9198,17 +8518,31 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Hi wo miru gotoku akiraka da.",
         "german": "Es ist so klar wie Feuer zu sehen (sonnenklar)."
+      },
+      {
+        "japanese": "嵐のごとく現れて、すぐに去った。",
+        "romaji": "Arashi no gotoku arawarete, sugu ni satta.",
+        "german": "Er erschien wie ein Sturm und ging sofort wieder."
+      },
+      {
+        "japanese": "彼は鬼神のごとき強さを見せた。",
+        "romaji": "Kare wa kijin no gotoki tsuyosa wo miseta.",
+        "german": "Er zeigte eine dämonengleiche Stärke."
       }
     ],
     "notes": "Sehr literarisch und formell. In moderner Alltagssprache wird eher ような verwendet. Kann auch bescheiden oder abwertend sein.",
     "related": [
       "n4-you-na",
-      "n2-ka-no-you-ni"
+      "n2-ka-no-you-ni",
+      "n4-you-ni-purpose"
+    ],
+    "legacyIds": [
+      "n1-gotoku-gotoki"
     ]
   },
   {
     "id": "n1-nagara-no",
-    "pattern": "～ながらの",
+    "pattern": "～ながらに / ～ながらの",
     "level": "N1",
     "category": "Adjektive",
     "meaning": "im Zustand von ..., wie gewohnt, typisch für ..., trotz ...",
@@ -9265,12 +8599,20 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         },
         "romaji": "Kanojo wa gakusei nagara no shinsen na shiten wo motte iru.",
         "german": "Sie hat die frische Perspektive, die für einen Studenten typisch ist."
+      },
+      {
+        "japanese": "彼は生まれながらの才能を持っている。",
+        "romaji": "Kare wa umarenagara no sainou wo motte iru.",
+        "german": "Er besitzt ein angeborenes Talent."
       }
     ],
     "notes": "Wird verwendet, um den ursprünglichen oder charakteristischen Zustand zu betonen. Oft mit zeitlichen Bezügen wie 昔 (früher) verwendet.",
     "related": [
       "n4-mama",
       "n4-rashii"
+    ],
+    "legacyIds": [
+      "n1-nagarani-nagarano"
     ]
   }
 ]);

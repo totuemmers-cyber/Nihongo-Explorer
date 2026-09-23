@@ -10,8 +10,13 @@ Current ledger-backed counts are generated in
 New batches use `risk-based-v2`; the checkpoint descriptions below are retained
 as historical records. The full review remains open.
 
-Completion work is **still open**. The current runtime contains **13,106 entries**:
-N5 **1,612**, N4 **1,567**, N3 **3,388**, N2 **2,527**, N1 **4,012**.
+Completion work is **still open**. The current runtime contains **13,137 entries**:
+N5 **1,616**, N4 **1,571**, N3 **3,401**, N2 **2,531**, N1 **4,018**.
+Reported-defect maintenance batches 021–022 (23 September 2026) added 46 reviewed
+entries, corrected 75 entries and made 63 idiom/yojijukugo reviews. They retired 15
+duplicate, variant or invented idiom/yojijukugo entries through redirects. Batch 023 then
+replaced 56 examples that repeated a Japanese sentence; no exact or repeated-Japanese
+duplicate examples remain. See [the maintenance summary](scripts/vocabulary-completion/README.md#maintenance-batches-021022--reported-defects-and-additions-23-september-2026).
 The historical expansion below remains unchanged as a record of that work.
 See [completion authoring and current gaps](scripts/vocabulary-completion/README.md).
 

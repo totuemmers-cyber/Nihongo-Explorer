@@ -7971,33 +7971,6 @@ window.ONOMATOPOEIA_DATA = [
     ]
   },
   {
-    "word": "ぎこちない",
-    "reading": "ぎこちない",
-    "romaji": "gikochinai",
-    "pitch": 4,
-    "meaning": "Unbeholfen, steif, linkisch",
-    "category": "Bewegung",
-    "categoryJP": "擬容語",
-    "pattern": "Sonstige",
-    "usage": "い-Adjektiv",
-    "level": "N2",
-    "explanation": "Beschreibt unbeholfene, steife Bewegungen oder unnatürliches Verhalten.",
-    "examples": [
-      {
-        "japanese": "初めてのデートでぎこちない会話が続いた。",
-        "romaji": "Hajimete no deeto de gikochinai kaiwa ga tsuzuita.",
-        "german": "Beim ersten Date gab es nur steife Gespräche."
-      }
-    ],
-    "related": [
-      "モタモタ",
-      "オドオド"
-    ],
-    "notes": "Wird als い-Adjektiv verwendet, nicht als Adverb.",
-    "id": "onomatopoeia:276",
-    "tags": []
-  },
-  {
     "word": "ゼーゼー",
     "reading": "ぜーぜー",
     "romaji": "zeezee",
@@ -8661,64 +8634,6 @@ window.ONOMATOPOEIA_DATA = [
     "tags": []
   },
   {
-    "word": "ぞんざい",
-    "reading": "ぞんざい",
-    "romaji": "zonzai",
-    "pitch": 0,
-    "meaning": "Nachlässig, grob, unhöflich",
-    "category": "Bewegung",
-    "categoryJP": "擬容語",
-    "pattern": "Sonstige",
-    "usage": "な-Adjektiv, に",
-    "level": "N1",
-    "explanation": "Beschreibt nachlässige, grobe Behandlung von Menschen oder Dingen.",
-    "examples": [
-      {
-        "japanese": "ぞんざいな言葉遣いはやめなさい。",
-        "romaji": "Zonzai na kotobazukai wa yamenasai.",
-        "german": "Hör auf, so grob zu reden."
-      },
-      {
-        "japanese": "物をぞんざいに扱う。",
-        "romaji": "Mono o zonzai ni atsukau.",
-        "german": "Dinge nachlässig behandeln."
-      }
-    ],
-    "related": [
-      "ガサガサ"
-    ],
-    "notes": "Wird als な-Adjektiv verwendet; betont Respektlosigkeit.",
-    "id": "onomatopoeia:299",
-    "tags": []
-  },
-  {
-    "word": "もたつく",
-    "reading": "もたつく",
-    "romaji": "motatsuku",
-    "pitch": 0,
-    "meaning": "Herumtrödeln, sich abmühen, stocken",
-    "category": "Bewegung",
-    "categoryJP": "擬容語",
-    "pattern": "Sonstige",
-    "usage": "Verb (く-Endung)",
-    "level": "N1",
-    "explanation": "Beschreibt das Herumtrödeln oder Stocken bei einer Aufgabe — man kommt nicht voran.",
-    "examples": [
-      {
-        "japanese": "出発の準備にもたついた。",
-        "romaji": "Shuppatsu no junbi ni motatsuita.",
-        "german": "Bei den Abfahrtsvorbereitungen trödelte ich herum."
-      }
-    ],
-    "related": [
-      "モタモタ",
-      "グズグズ"
-    ],
-    "notes": "Verb-Form von モタモタ; wird als reguläres Verb konjugiert.",
-    "id": "onomatopoeia:301",
-    "tags": []
-  },
-  {
     "word": "むずと",
     "reading": "むずと",
     "romaji": "muzuto",
@@ -8884,33 +8799,6 @@ window.ONOMATOPOEIA_DATA = [
     "tags": []
   },
   {
-    "word": "たどたどしい",
-    "reading": "たどたどしい",
-    "romaji": "tadotadoshii",
-    "pitch": 0,
-    "meaning": "Stockend, unbeholfen (Sprache/Schritte)",
-    "category": "Bewegung",
-    "categoryJP": "擬容語",
-    "pattern": "Sonstige",
-    "usage": "い-Adjektiv",
-    "level": "N1",
-    "explanation": "Beschreibt stockendes, unbeholfenes Sprechen oder unsichere Schritte.",
-    "examples": [
-      {
-        "japanese": "たどたどしい日本語で自己紹介した。",
-        "romaji": "Tadotadoshii nihongo de jiko shoukai shita.",
-        "german": "Ich stellte mich in stockendem Japanisch vor."
-      }
-    ],
-    "related": [
-      "しどろもどろ",
-      "モタモタ"
-    ],
-    "notes": "Als い-Adjektiv verwendet; literarischer als モタモタ.",
-    "id": "onomatopoeia:308",
-    "tags": []
-  },
-  {
     "word": "こわごわ",
     "reading": "こわごわ",
     "romaji": "kowagowa",
@@ -8998,65 +8886,6 @@ window.ONOMATOPOEIA_DATA = [
     "tags": []
   },
   {
-    "word": "しゃちほこばる",
-    "reading": "しゃちほこばる",
-    "romaji": "shachihokobaru",
-    "pitch": 0,
-    "meaning": "Sich steif und förmlich benehmen, verkrampft",
-    "category": "Bewegung",
-    "categoryJP": "擬容語",
-    "pattern": "Sonstige",
-    "usage": "Verb",
-    "level": "N1",
-    "explanation": "Beschreibt übertrieben steifes, förmliches Benehmen aus Nervosität.",
-    "examples": [
-      {
-        "japanese": "社長の前でしゃちほこばっている。",
-        "romaji": "Shachou no mae de shachihokobatte iru.",
-        "german": "Vor dem Firmenchef benimmt er sich steif und verkrampft."
-      }
-    ],
-    "related": [
-      "ガチガチ",
-      "こわごわ"
-    ],
-    "notes": "Von 鯱鉾 (しゃちほこ), dem steifen Dachschmuck japanischer Burgen.",
-    "id": "onomatopoeia:312",
-    "tags": []
-  },
-  {
-    "word": "ぶっきらぼう",
-    "reading": "ぶっきらぼう",
-    "romaji": "bukkirabou",
-    "pitch": 0,
-    "meaning": "Schroff, barsch, abweisend",
-    "category": "Bewegung",
-    "categoryJP": "擬容語",
-    "pattern": "Sonstige",
-    "usage": "な-Adjektiv, に",
-    "level": "N1",
-    "explanation": "Beschreibt eine schroffe, barsche Art zu sprechen oder sich zu verhalten.",
-    "examples": [
-      {
-        "japanese": "ぶっきらぼうな返事をした。",
-        "romaji": "Bukkirabou na henji o shita.",
-        "german": "Er gab eine schroffe Antwort."
-      },
-      {
-        "japanese": "彼はぶっきらぼうだが、優しい。",
-        "romaji": "Kare wa bukkirabou da ga, yasashii.",
-        "german": "Er ist barsch, aber nett."
-      }
-    ],
-    "related": [
-      "ぞんざい",
-      "ずけずけ"
-    ],
-    "notes": "Kann auch 'unbeholfen im Ausdruck, aber nicht böse gemeint' bedeuten.",
-    "id": "onomatopoeia:314",
-    "tags": []
-  },
-  {
     "word": "もごもご",
     "reading": "もごもご",
     "romaji": "mogomogo",
@@ -9097,7 +8926,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "langsam; mit ausreichend Zeit",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N5",
     "usage": "ゆっくり歩く・休む",
     "explanation": "langsam; mit ausreichend Zeit。 ゆっくり歩く・休む。Kann ein langsames Tempo oder ungestörte Zeit meinen; じっくり betont Sorgfalt.",
@@ -9131,7 +8960,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "gemütlich; gelassen und ohne Eile",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N4",
     "usage": "のんびりする・のんびりした性格",
     "explanation": "gemütlich; gelassen und ohne Eile。 のんびりする・のんびりした性格。Entspanntheit; のろのろ bewertet Langsamkeit meist negativ.",
@@ -9165,7 +8994,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "angenehm feucht; ruhig und gediegen",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N3",
     "usage": "しっとりした肌・ケーキ",
     "explanation": "angenehm feucht; ruhig und gediegen。 しっとりした肌・ケーキ。Angenehme Feuchtigkeit; びしょびしょ bedeutet dagegen durchnässt.",
@@ -9201,7 +9030,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "weich und luftig; sanft schwebend",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N3",
     "usage": "ふんわり焼く・ふんわりした",
     "explanation": "weich und luftig; sanft schwebend。 ふんわり焼く・ふんわりした。ふわふわ beschreibt oft einen anhaltenden Zustand; ふんわり den sanften Gesamteindruck.",
@@ -9416,7 +9245,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "niedergeschlagen; bedrückt",
     "category": "Gefühle",
     "categoryJP": "擬情語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N3",
     "usage": "しょんぼりする・しょんぼりした顔",
     "explanation": "niedergeschlagen; bedrückt。 しょんぼりする・しょんぼりした顔。Sichtbare Niedergeschlagenheit; がっかり betont die Enttäuschung.",
@@ -9484,7 +9313,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "genau; ordentlich und lückenlos",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N3",
     "usage": "時間・数・仕事をきっちり",
     "explanation": "genau; ordentlich und lückenlos。 時間・数・仕事をきっちり。ぴったり betont das genaue Passen, きっちり auch Sorgfalt.",
@@ -9518,7 +9347,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "perfekt; bestens",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N3",
     "usage": "準備はばっちり",
     "explanation": "perfekt; bestens。 準備はばっちり。Umgangssprachliches positives Urteil; in förmlichen Texten besser 十分・万全.",
@@ -9552,7 +9381,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "gründlich und mit Zeit",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N3",
     "usage": "じっくり考える・煮込む",
     "explanation": "gründlich und mit Zeit。 じっくり考える・煮込む。Betont konzentrierte Sorgfalt; ゆっくり kann nur das langsame Tempo meinen.",
@@ -9586,7 +9415,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "geräumig; entspannt und ohne Hast",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N3",
     "usage": "ゆったりした服・ゆったり過ごす",
     "explanation": "geräumig; entspannt und ohne Hast。 ゆったりした服・ゆったり過ごす。Kann Platz oder zeitlichen Spielraum beschreiben.",
@@ -9620,7 +9449,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "langsam durchdringend; sanft zunehmend",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N2",
     "usage": "じんわり温まる・汗がにじむ",
     "explanation": "langsam durchdringend; sanft zunehmend。 じんわり温まる・汗がにじむ。Eine langsam spürbar werdende Empfindung; じわじわ betont den Verlauf.",
@@ -9656,7 +9485,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "nass und matschig",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    "pattern": "Sonstige",
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "べちゃべちゃのご飯",
     "explanation": "nass und matschig。 べちゃべちゃのご飯。Meist negativ: zu viel Feuchtigkeit und fehlende Festigkeit.",
@@ -9894,7 +9723,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "kurz leckend; mühelos aufessend",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    "pattern": "Sonstige",
+    "pattern": "ABっと",
     "level": "N3",
     "usage": "ぺろっとなめる・食べる",
     "explanation": "kurz leckend; mühelos aufessend。 ぺろっとなめる・食べる。Eine kurze Bewegung oder überraschend müheloses Aufessen; ぺろぺろ ist wiederholt.",
@@ -9930,7 +9759,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "plötzlich und kräftig",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    "pattern": "Sonstige",
+    "pattern": "ABっと",
     "level": "N2",
     "usage": "ばっと開く・立ち上がる",
     "explanation": "plötzlich und kräftig。 ばっと開く・立ち上がる。Eine abrupte Bewegung; じわじわ ist allmählich.",
@@ -9964,7 +9793,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "mit einem Knall; demonstrativ groß",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    "pattern": "Sonstige",
+    "pattern": "ABっと",
     "level": "N3",
     "usage": "ばーんと閉める・大きく載せる",
     "explanation": "mit einem Knall; demonstrativ groß。 ばーんと閉める・大きく載せる。Ein kräftiger einzelner Knall oder auffällige Präsentation.",
@@ -10032,7 +9861,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "leise plätschernd",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    "pattern": "Sonstige",
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "水がぽちゃぽちゃ鳴る",
     "explanation": "leise plätschernd。 水がぽちゃぽちゃ鳴る。Kleine Wasserbewegungen; ばしゃばしゃ bezeichnet kräftiges Spritzen.",
@@ -10102,7 +9931,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "anhaltend zischend",
     "category": "Geräusche",
     "categoryJP": "擬音語",
-    "pattern": "Sonstige",
+    "pattern": "ABAB",
     "level": "N2",
     "usage": "蒸気がしゅーしゅー出る",
     "explanation": "anhaltend zischend。 蒸気がしゅーしゅー出る。Ein längeres Zischen; しゅっしゅっ bezeichnet kurze einzelne Stöße.",
@@ -10203,7 +10032,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "weich und angenehm elastisch beim Beißen",
     "category": "Zustände",
     "categoryJP": "擬態語",
-    "pattern": "Sonstige",
+    "pattern": "ABり",
     "level": "N2",
     "usage": "もっちりしたパン",
     "explanation": "weich und angenehm elastisch beim Beißen。 もっちりしたパン。Ähnlich もちもち; beschreibt oft den Gesamteindruck einer kompakten, elastischen Textur.",
@@ -10311,7 +10140,7 @@ window.ONOMATOPOEIA_DATA = [
     "meaning": "fleißig und unermüdlich",
     "category": "Bewegung",
     "categoryJP": "擬容語",
-    "pattern": "Sonstige",
+    "pattern": "ABっと",
     "level": "N3",
     "usage": "せっせと働く・貯める",
     "explanation": "fleißig und unermüdlich。 せっせと働く・貯める。Betont ausdauernden Einsatz; せかせか wirkt eher unruhig.",

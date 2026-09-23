@@ -59,7 +59,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Nicht verwendbar mit Verben, die bereits eine eigene respektvolle Form haben (z.B. いらっしゃる statt お行きになる). Wird nur für die Handlungen anderer Personen verwendet, nie für die eigenen.",
     "related": [
       "keigo-sonkeigo-reraru",
-      "keigo-kenjougo-osuru"
+      "keigo-kenjougo-osuru",
+      "n3-keigo-sonkei"
     ]
   },
   {
@@ -184,7 +185,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Eines der wichtigsten Keigo-Verben. Die Imperativform いらっしゃいませ wird als Begrüßung in Geschäften verwendet. Die ます-Form ist いらっしゃいます (nicht いらっしゃります).",
     "related": [
       "keigo-kenjougo-mairu",
-      "keigo-kenjougo-oru"
+      "keigo-kenjougo-oru",
+      "n3-keigo-sonkei"
     ]
   },
   {
@@ -652,7 +654,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "お～いたす ist bescheidener als お～する. Bei sino-japanischen Wörtern wird ご statt お verwendet (z.B. ご説明する). Wird nur für die eigenen Handlungen verwendet, die eine andere Person betreffen.",
     "related": [
       "keigo-sonkeigo-oninaru",
-      "keigo-kenjougo-itasu"
+      "keigo-kenjougo-itasu",
+      "n3-keigo-kenjou"
     ]
   },
   {
@@ -713,7 +716,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "参る wird auch umgangssprachlich in der Bedeutung 'aufgeben' oder 'erschöpft sein' verwendet (参った！= Ich geb auf!). Im Keigo-Kontext ist es ausschließlich die bescheidene Form von 行く/来る.",
     "related": [
       "keigo-sonkeigo-irassharu",
-      "keigo-kenjougo-ukagau"
+      "keigo-kenjougo-ukagau",
+      "n3-keigo-kenjou"
     ]
   },
   {
@@ -3653,7 +3657,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "ご遠慮なく",
     "level": "N3",
     "category": "Keigo",
-    "subcategory": "美化語",
+    "subcategory": "尊敬語",
     "meaning": "Ohne Zögern / Ohne Zurückhaltung (bitte)",
     "explanation": "ご遠慮なく ist eine einladende Phrase, die den Gesprächspartner ermutigt, ohne Hemmungen oder Zurückhaltung zu handeln. 遠慮 bedeutet „Zurückhaltung/Bescheidenheit“ und なく ist die Verneinung. Mit dem Höflichkeitspräfix ご wird es zu einer respektvollen Aufforderung, sich ungezwungen zu fühlen.",
     "formation": "ご遠慮なく + Verb (ください / お申し付けください etc.)",
@@ -3722,7 +3726,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "申し訳ございません",
     "level": "N3",
     "category": "Keigo",
-    "subcategory": "美化語",
+    "subcategory": "丁寧語",
     "meaning": "Es gibt keine Entschuldigung / Es tut mir zutiefst leid",
     "explanation": "申し訳ございません ist die formellste Standardentschuldigung im Japanischen. 申し訳 bedeutet wörtlich „Entschuldigung/Ausrede“ und ございません ist die Keigo-Verneinung von ある. Die Phrase drückt wörtlich aus: „Es gibt keine Entschuldigung (für mein Verhalten)“. Sie ist deutlich formeller als すみません oder ごめんなさい.",
     "formation": "申し訳ございません (feste Phrase) / 大変申し訳ございません (noch stärker) / 誠に申し訳ございません (am stärksten)",
@@ -3791,7 +3795,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お待たせいたしました",
     "level": "N3",
     "category": "Keigo",
-    "subcategory": "美化語",
+    "subcategory": "謙譲語",
     "meaning": "Entschuldigung für das Warten / Vielen Dank für Ihre Geduld",
     "explanation": "お待たせいたしました ist eine höfliche Phrase, die verwendet wird, wenn man jemanden hat warten lassen. Sie kombiniert お待たせする (jemanden warten lassen) mit いたしました (Kenjōgo-Vergangenheit von しました). Diese Phrase hört man ständig in Restaurants, Geschäften, am Telefon und in allen Dienstleistungssituationen.",
     "formation": "お待たせいたしました (feste Phrase) / 大変お待たせいたしました (bei längerem Warten)",
@@ -5100,13 +5104,13 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   },
   {
     "id": "keigo-kenjougo-haizensuru",
-    "pattern": "配膳する（はいぜんする）/ お持ちする",
+    "pattern": "お持ちする / お持ちいたす",
     "level": "N1",
     "category": "Keigo",
     "subcategory": "謙譲語",
-    "meaning": "Bescheiden servieren / Auftragen (Gastronomie)",
-    "explanation": "お持ちする ist die Kenjōgo-Form von 持っていく (bringen) in der Gastronomie und bedeutet, dass man dem Gast bescheiden etwas serviert. 配膳する ist der formelle Fachbegriff für das Servieren von Speisen. Beide werden im gehobenen Gastronomiebereich verwendet.",
-    "formation": "お持ちする / お持ちいたす ／ 配膳させていただく",
+    "meaning": "Bescheiden bringen / servieren (Gastronomie)",
+    "explanation": "お持ちする ist die Kenjōgo-Form von 持っていく / 持ってくる: Man bringt dem Gast etwas und stellt die eigene Handlung bescheiden dar. お持ちいたします ist noch eine Stufe förmlicher. In Restaurants und Hotels gehören beide Formen zum Standard. 配膳する („Speisen auftragen“) ist dagegen kein Keigo, sondern ein neutraler Fachbegriff; höflich wird er erst als 配膳させていただきます.",
+    "formation": "お + Verb (ます-Stamm von 持つ) + する / いたす ／ お持ちしてもよろしいでしょうか",
     "examples": [
       {
         "japanese": "お料理をお持ちいたしました。",
@@ -6721,7 +6725,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   },
   {
     "id": "keigo-business-ohikikaenitsukaesai",
-    "pattern": "ご査証ください / ご笑納ください",
+    "pattern": "ご笑納ください",
     "level": "N1",
     "category": "Keigo",
     "subcategory": "ビジネス敬語",
@@ -7272,7 +7276,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "お疲れ様です vs ご苦労様です",
     "level": "N2",
     "category": "Keigo",
-    "subcategory": "尊敬語",
+    "subcategory": "ビジネス敬語",
     "meaning": "Richtige Verwendung von Mühe-Anerkennungsfloskeln",
     "explanation": "お疲れ様です und ご苦労様です bedeuten beide „Danke für Ihre Mühe“, haben aber unterschiedliche Verwendungsregeln. お疲れ様です kann gegenüber jedem verwendet werden (auch Vorgesetzten), während ご苦労様です nur gegenüber Untergebenen oder Gleichgestellten angemessen ist. Diese Unterscheidung ist eine häufige Keigo-Falle.",
     "formation": "お疲れ様です (universal) ／ ご苦労様です (nur nach unten/gleichgestellt)",

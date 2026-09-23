@@ -36117,5 +36117,410 @@ window.VOCAB_N4 = [
     ],
     "pitch": null,
     "vocabularyBatch": "2026-09-jlpt-vocabulary"
+  },
+  {
+    "word": "しまう",
+    "reading": "しまう",
+    "romaji": "shimau",
+    "meaning": "wegräumen, aufbewahren; (Laden) schließen",
+    "type": "Verb",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "Als Vollverb heißt しまう „an seinen Platz wegräumen“ (meist in Hiragana, Kanji 仕舞う). Nach der て-Form（〜てしまう, umgangssprachlich 〜ちゃう）drückt es Abschluss oder Bedauern aus; diese Grammatik steht im Grammatikteil.",
+    "examples": [
+      {
+        "japanese": "使ったはさみは引き出しにしまってください。",
+        "romaji": "Tsukatta hasami wa hikidashi ni shimatte kudasai.",
+        "german": "Bitte räum die benutzte Schere in die Schublade."
+      },
+      {
+        "japanese": "雨が強くなったので、今日は早めに店をしまいました。",
+        "romaji": "Ame ga tsuyoku natta node, kyou wa hayame ni mise o shimaimashita.",
+        "german": "Weil der Regen stärker wurde, habe ich den Laden heute früher geschlossen."
+      }
+    ],
+    "aliases": [
+      "仕舞う"
+    ],
+    "pitch": 0,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "しまう",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "しまう",
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@137787499",
+        "patterns": [
+          0
+        ],
+        "finding": "しまう / シマウ; 動詞/非自立可能/*/*; 五段-ワア行; 終止形-一般; lemma 仕舞う; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "しまう",
+          "reading": "しまう",
+          "grammaticalForm": "動詞/非自立可能/*/*; 五段-ワア行; 終止形-一般",
+          "sense": "しまう as \"wegräumen, aufbewahren; (Laden) schließen\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:shimau"
+  },
+  {
+    "word": "頃",
+    "reading": "ころ",
+    "romaji": "koro",
+    "meaning": "Zeit, Zeitpunkt; ungefähr (um …)",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N4",
+    "notes": "Nach Uhrzeiten und Daten liest man ごろ und schreibt es oft in Hiragana: 十時ごろ „gegen zehn Uhr“. Nach Nomen mit の oder nach Sätzen heißt es ころ: 子どもの頃 „als ich Kind war“. Verwandt: この頃（このごろ）„in letzter Zeit“.",
+    "examples": [
+      {
+        "japanese": "子どもの頃、よく川で泳ぎました。",
+        "romaji": "Kodomo no koro, yoku kawa de oyogimashita.",
+        "german": "Als ich Kind war, bin ich oft im Fluss geschwommen."
+      },
+      {
+        "japanese": "明日は十時頃に駅に着きます。",
+        "romaji": "Ashita wa juuji goro ni eki ni tsukimasu.",
+        "german": "Morgen komme ich gegen zehn Uhr am Bahnhof an."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125182704",
+        "patterns": [
+          1
+        ],
+        "finding": "頃 / コロ; 名詞/普通名詞/副詞可能/*; *; *; lemma 頃; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "頃",
+          "reading": "ころ",
+          "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+          "sense": "頃 as \"Zeit, Zeitpunkt; ungefähr (um …)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:koro"
+  },
+  {
+    "word": "億",
+    "reading": "おく",
+    "romaji": "oku",
+    "meaning": "hundert Millionen (10^8)",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N4",
+    "notes": "Das japanische Zahlensystem gruppiert in Viererschritten: 万 = 10.000, 億 = 100.000.000, 兆 = 1.000.000.000.000. 一億 ist „hundert Millionen“, 十億 „eine Milliarde“.",
+    "examples": [
+      {
+        "japanese": "日本の人口は約一億二千万人です。",
+        "romaji": "Nihon no jinkou wa yaku ichioku nisenman nin desu.",
+        "german": "Japan hat etwa 120 Millionen Einwohner."
+      },
+      {
+        "japanese": "この絵は三億円で売れました。",
+        "romaji": "Kono e wa san-oku en de uremashita.",
+        "german": "Dieses Bild wurde für 300 Millionen Yen verkauft."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@75079328",
+        "patterns": [
+          1
+        ],
+        "finding": "億 / オク; 名詞/数詞/*/*; *; *; lemma 億; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "億",
+          "reading": "おく",
+          "grammaticalForm": "名詞/数詞/*/*; *; *",
+          "sense": "億 as \"hundert Millionen (10^8)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:oku-hundred-million"
+  },
+  {
+    "word": "メール",
+    "reading": "メール",
+    "romaji": "meeru",
+    "meaning": "E-Mail; Nachricht",
+    "type": "Nomen",
+    "category": "Kommunikation",
+    "level": "N4",
+    "notes": "Meist E-Mail oder Handynachricht; als Verb メールする „eine Nachricht schicken“. Briefpost heißt 郵便 oder 手紙.",
+    "examples": [
+      {
+        "japanese": "あとで詳しいことをメールで送ります。",
+        "romaji": "Ato de kuwashii koto o meeru de okurimasu.",
+        "german": "Die Einzelheiten schicke ich später per E-Mail."
+      },
+      {
+        "japanese": "昨日の夜、友達にメールしました。",
+        "romaji": "Kinou no yoru, tomodachi ni meeru shimashita.",
+        "german": "Gestern Abend habe ich einer Freundin geschrieben."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [
+      0
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262087013",
+        "patterns": [
+          1,
+          0
+        ],
+        "finding": "メール / メール; 名詞/普通名詞/サ変可能/*; *; *; lemma メール-mail; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "メール",
+          "reading": "メール",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "メール as \"E-Mail; Nachricht\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:meeru"
+  },
+  {
+    "word": "インターネット",
+    "reading": "インターネット",
+    "romaji": "intaanetto",
+    "meaning": "Internet",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N4",
+    "notes": "Oft kurz ネット. „Im Internet“: インターネットで; „sich mit dem Internet verbinden“: インターネットにつなぐ.",
+    "examples": [
+      {
+        "japanese": "インターネットでホテルを予約しました。",
+        "romaji": "Intaanetto de hoteru o yoyaku shimashita.",
+        "german": "Ich habe das Hotel im Internet gebucht."
+      },
+      {
+        "japanese": "この部屋ではインターネットが使えません。",
+        "romaji": "Kono heya de wa intaanetto ga tsukaemasen.",
+        "german": "In diesem Zimmer kann man das Internet nicht nutzen."
+      }
+    ],
+    "pitch": 5,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59392472",
+        "patterns": [
+          5
+        ],
+        "finding": "インターネット / インターネット; 名詞/普通名詞/一般/*; *; *; lemma インターネット-internet; aType 5. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "インターネット",
+          "reading": "インターネット",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "インターネット as \"Internet\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:intaanetto"
+  },
+  {
+    "word": "スマホ",
+    "reading": "スマホ",
+    "romaji": "sumaho",
+    "meaning": "Smartphone",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N4",
+    "notes": "Umgangssprachliche Kurzform von スマートフォン; im Alltag viel häufiger als die Langform. Ältere Handys heißen 携帯（けいたい）.",
+    "examples": [
+      {
+        "japanese": "電車の中でスマホを見ている人が多いです。",
+        "romaji": "Densha no naka de sumaho o mite iru hito ga ooi desu.",
+        "german": "Im Zug schauen viele Leute auf ihr Smartphone."
+      },
+      {
+        "japanese": "スマホで地図を調べました。",
+        "romaji": "Sumaho de chizu o shirabemashita.",
+        "german": "Ich habe mit dem Smartphone auf der Karte nachgesehen."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@149498869",
+        "patterns": [
+          0
+        ],
+        "finding": "スマホ / スマホ; 名詞/普通名詞/一般/*; *; *; lemma スマホ; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "スマホ",
+          "reading": "スマホ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "スマホ as \"Smartphone\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:sumaho"
+  },
+  {
+    "word": "行ってらっしゃい",
+    "reading": "いってらっしゃい",
+    "romaji": "itterasshai",
+    "meaning": "Bis später! (Gruß an jemanden, der aus dem Haus geht)",
+    "type": "Ausdruck",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "Antwort auf 行ってきます: Wer bleibt, verabschiedet so jemanden, der geht und zurückkommt. Höflicher: 行ってらっしゃいませ (z. B. im Hotel). Bei der Rückkehr folgen ただいま und おかえりなさい.",
+    "examples": [
+      {
+        "japanese": "「行ってきます。」「行ってらっしゃい。気をつけてね。」",
+        "romaji": "\"Itte kimasu.\" \"Itterasshai. Ki o tsukete ne.\"",
+        "german": "„Ich gehe jetzt.“ – „Bis später! Pass auf dich auf.“"
+      },
+      {
+        "japanese": "ホテルのスタッフが「行ってらっしゃいませ」と言ってくれました。",
+        "romaji": "Hoteru no sutaffu ga \"itterasshaimase\" to itte kuremashita.",
+        "german": "Das Hotelpersonal hat mich mit einem höflichen „Einen schönen Tag!“ verabschiedet."
+      }
+    ],
+    "aliases": [
+      "いってらっしゃい"
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n4:correction:itterasshai"
+  },
+  {
+    "word": "おめでとうございます",
+    "reading": "おめでとうございます",
+    "romaji": "omedetou gozaimasu",
+    "meaning": "Herzlichen Glückwunsch (höflich)",
+    "type": "Ausdruck",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "Höfliche Form von おめでとう. Der Anlass steht davor, oft mit ご／お: 誕生日おめでとうございます, ご結婚おめでとうございます, zu Neujahr 明けましておめでとうございます.",
+    "examples": [
+      {
+        "japanese": "ご結婚おめでとうございます。",
+        "romaji": "Gokekkon omedetou gozaimasu.",
+        "german": "Herzlichen Glückwunsch zur Hochzeit."
+      },
+      {
+        "japanese": "明けましておめでとうございます。今年もよろしくお願いします。",
+        "romaji": "Akemashite omedetou gozaimasu. Kotoshi mo yoroshiku onegai shimasu.",
+        "german": "Frohes neues Jahr! Auf eine weiterhin gute Zusammenarbeit in diesem Jahr."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n4:correction:omedetou-gozaimasu"
+  },
+  {
+    "word": "コンピューター",
+    "reading": "コンピューター",
+    "romaji": "konpyuutaa",
+    "meaning": "Computer",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N4",
+    "notes": "Allgemeiner Begriff für Computer; für den eigenen Rechner sagt man im Alltag meist パソコン. Die Schreibung ohne Längungsstrich（コンピュータ）ist in Technik und Verwaltung verbreitet.",
+    "examples": [
+      {
+        "japanese": "このデータはコンピューターで計算しました。",
+        "romaji": "Kono deeta wa konpyuutaa de keisan shimashita.",
+        "german": "Diese Daten habe ich mit dem Computer berechnet."
+      },
+      {
+        "japanese": "父は会社でコンピューターのプログラムを作っています。",
+        "romaji": "Chichi wa kaisha de konpyuutaa no puroguramu o tsukutte imasu.",
+        "german": "Mein Vater schreibt in seiner Firma Computerprogramme."
+      }
+    ],
+    "aliases": [
+      "コンピュータ"
+    ],
+    "pitch": 3,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126070087",
+        "patterns": [
+          3
+        ],
+        "finding": "コンピューター / コンピューター; 名詞/普通名詞/一般/*; *; *; lemma コンピューター-computer; aType 3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "コンピューター",
+          "reading": "コンピューター",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "コンピューター as \"Computer\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:konpyuutaa"
+  },
+  {
+    "word": "スーパー",
+    "reading": "スーパー",
+    "romaji": "suupaa",
+    "meaning": "Supermarkt",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "Kurzform von スーパーマーケット. Als Vorsilbe heißt スーパー auch „super-“; im Alltag ist „Supermarkt“ die häufigste Bedeutung.",
+    "examples": [
+      {
+        "japanese": "帰りにスーパーで牛乳を買います。",
+        "romaji": "Kaeri ni suupaa de gyuunyuu o kaimasu.",
+        "german": "Auf dem Heimweg kaufe ich im Supermarkt Milch."
+      },
+      {
+        "japanese": "このスーパーは夜十時まで開いています。",
+        "romaji": "Kono suupaa wa yoru juuji made aite imasu.",
+        "german": "Dieser Supermarkt hat bis 22 Uhr geöffnet."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@151387530",
+        "patterns": [
+          1
+        ],
+        "finding": "スーパー / スーパー; 名詞/普通名詞/一般/*; *; *; lemma スーパー-super; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "スーパー",
+          "reading": "スーパー",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "スーパー as \"Supermarkt\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:suupaa"
   }
 ];

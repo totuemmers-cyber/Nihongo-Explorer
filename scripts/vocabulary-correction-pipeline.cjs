@@ -161,7 +161,10 @@ function prepareCorrections(legacy, options) {
     assert(expected.has(merge.from) && expected.has(merge.to) && merge.from !== merge.to,'Invalid merge IDs');
     assert(!rules.completionRedirects[merge.from],'Repeated merge');
     const from = expected.get(merge.from), to = expected.get(merge.to);
-    assert.equal(from.reading,to.reading,'Cannot merge distinct readings');
+    // A retirement redirects an invalid or variant entry (e.g. an invented compound) to its
+    // closest surviving entry; it needs an explicit reason and relationship instead of equal readings.
+    if (merge.retirement) assert(text(merge.retirement.reason) && text(merge.retirement.relationship),'Retirement needs reason and relationship');
+    else assert.equal(from.reading,to.reading,'Cannot merge distinct readings');
     assert(text(merge.equivalentSense) && text(merge.preservedContent) && text(merge.secondPass),'Unreviewed sense merge');
     evidence(merge.evidence);
     assert(reviews.has(merge.from)&&reviews.has(merge.to),'Both merged entries require review');

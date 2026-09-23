@@ -1,0 +1,3463 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "idioms:96",
+      "revisionId": "022-idioms-96",
+      "state": "accepted",
+      "predecessorHash": "f197818ce766576cb0d4bebacbb361a255a3a5eaec1c51fcbd4cbe33b88406cd",
+      "predecessorRevisionHash": null,
+      "originalHash": "f197818ce766576cb0d4bebacbb361a255a3a5eaec1c51fcbd4cbe33b88406cd",
+      "rationale": "気を付ける duplicates 気をつける (same expression, kanji vs kana つける); retired into idioms:51.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591990; spelling=気を付ける; reading=きをつける; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same JMdict entry as 気をつける.",
+          "selected": {
+            "sequence": "1591990",
+            "spelling": "気を付ける",
+            "reading": "きをつける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be careful",
+                  "to pay attention",
+                  "to take care"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:96 after vocab-correction-rules.js",
+          "finding": "気を付ける duplicates 気をつける (same expression, kanji vs kana つける); retired into idioms:51."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Aufpassen, vorsichtig sein\" checked against the cited dictionary evidence.",
+        "japanese": "車に気を付けてね。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Warning to watch out for cars."
+        ],
+        "lexical": "気を付ける duplicates 気をつける (same expression, kanji vs kana つける); retired into idioms:51.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 気を付ける / きをつける",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 気を付ける duplicates 気をつける (same expression, kanji vs kana つける); retired into idioms:51.",
+        "contentHash": "f197818ce766576cb0d4bebacbb361a255a3a5eaec1c51fcbd4cbe33b88406cd",
+        "approvalHash": "4c85dc768dde56ba34a80c5071e10459dfcee8652f12cc6d7360dc98ff8fa28c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 気を付ける is JMdict 1591990, the same expression as 気をつける (idioms:51), equal reading きをつける; retiring it into idioms:51 with 気を付ける as alias is correct; null pitch correct (no exact UniDic phrase row).",
+        "contentHash": "f197818ce766576cb0d4bebacbb361a255a3a5eaec1c51fcbd4cbe33b88406cd",
+        "approvalHash": "4c85dc768dde56ba34a80c5071e10459dfcee8652f12cc6d7360dc98ff8fa28c"
+      }
+    },
+    {
+      "id": "idioms:51",
+      "revisionId": "022-idioms-51",
+      "state": "accepted",
+      "predecessorHash": "e78ef9af4d2def11d921702e407f11ec9407e4014b529633f523bbf5cc087e73",
+      "predecessorRevisionHash": null,
+      "originalHash": "e78ef9af4d2def11d921702e407f11ec9407e4014b529633f523bbf5cc087e73",
+      "rationale": "Survivor of the 気をつける/気を付ける duplicate: kanji spelling becomes an alias, a note explains both spellings and a second context is added.",
+      "original": {
+        "aliases": null,
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "車に気をつけてください。",
+            "romaji": "Kuruma ni ki o tsukete kudasai.",
+            "german": "Passen Sie bitte auf die Autos auf."
+          }
+        ]
+      },
+      "replacement": {
+        "aliases": [
+          "気を付ける"
+        ],
+        "notes": "Man schreibt 気をつける oder 気を付ける; beide Formen sind gleichwertig. Verwendet für Warnungen（車に気をつけて）und gute Wünsche（体に気をつけてください）.",
+        "examples": [
+          {
+            "japanese": "車に気をつけてください。",
+            "romaji": "Kuruma ni ki o tsukete kudasai.",
+            "german": "Passen Sie bitte auf die Autos auf."
+          },
+          {
+            "japanese": "体に気をつけてください。",
+            "romaji": "Karada ni ki o tsukete kudasai.",
+            "german": "Passen Sie gut auf Ihre Gesundheit auf."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591990; spelling=気をつける; reading=きをつける; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "JMdict 1591990 lists 気をつける and 気を付ける as one expression.",
+          "selected": {
+            "sequence": "1591990",
+            "spelling": "気をつける",
+            "reading": "きをつける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be careful",
+                  "to pay attention",
+                  "to take care"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:51 after vocab-correction-rules.js",
+          "finding": "Survivor of the 気をつける/気を付ける duplicate: kanji spelling becomes an alias, a note explains both spellings and a second context is added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "alias"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"aufpassen, vorsichtig sein\" checked against the cited dictionary evidence.",
+        "japanese": "車に気をつけてください。 / 体に気をつけてください。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Warning about cars.",
+          "Wishing someone good health."
+        ],
+        "lexical": "Survivor of the 気をつける/気を付ける duplicate: kanji spelling becomes an alias, a note explains both spellings and a second context is added.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 気をつける / きをつける",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Survivor of the 気をつける/気を付ける duplicate: kanji spelling becomes an alias, a note explains both spellings and a second context is added.",
+        "contentHash": "75f61d4e291c59954c13ae55b6893d769981602a8a3d24c39deecbbb8a39ec66",
+        "approvalHash": "abea281825088d440c550cd07e6d19487c75d9738907b3c1bd3f9ddb914bc29d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): survivor gains alias 気を付ける, an accurate spelling note, and a second distinct context 体に気をつけてください (Karada ni ki o tsukete kudasai; \"Passen Sie gut auf Ihre Gesundheit auf\") besides the traffic warning; retired example 車に気を付けてね is covered by example 1.",
+        "contentHash": "75f61d4e291c59954c13ae55b6893d769981602a8a3d24c39deecbbb8a39ec66",
+        "approvalHash": "abea281825088d440c550cd07e6d19487c75d9738907b3c1bd3f9ddb914bc29d"
+      }
+    },
+    {
+      "id": "idioms:213",
+      "revisionId": "022-idioms-213",
+      "state": "accepted",
+      "predecessorHash": "e39bfdd9a24ffa4b319d57fc2baffcb65ad84f57639184355e1df96b02146d5b",
+      "predecessorRevisionHash": null,
+      "originalHash": "e39bfdd9a24ffa4b319d57fc2baffcb65ad84f57639184355e1df96b02146d5b",
+      "rationale": "弘法も筆の誤り is a variant wording of 弘法にも筆の誤り (JMdict 2836534 vs 2093270, identical gloss); retired into idioms:122 and kept as a search alias.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2836534; spelling=弘法も筆の誤り; reading=こうぼうもふでのあやまり; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Variant wording, same gloss as 2093270.",
+          "selected": {
+            "sequence": "2836534",
+            "spelling": "弘法も筆の誤り",
+            "reading": "こうぼうもふでのあやまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "proverb"
+                ],
+                "gloss": [
+                  "anyone can make a mistake",
+                  "Homer sometimes nods",
+                  "even Kōbō Daishi's handwriting contains mistakes"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:213 after vocab-correction-rules.js",
+          "finding": "弘法も筆の誤り is a variant wording of 弘法にも筆の誤り (JMdict 2836534 vs 2093270, identical gloss); retired into idioms:122 and kept as a search alias."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"auch ein Meister macht mal Fehler (wörtl.: auch Kōbō irrt sich beim Pinselstrich)\" checked against the cited dictionary evidence.",
+        "japanese": "あんな上手な人でも間違えるなんて、弘法も筆の誤りだね。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Even a skilled person makes a mistake."
+        ],
+        "lexical": "弘法も筆の誤り is a variant wording of 弘法にも筆の誤り (JMdict 2836534 vs 2093270, identical gloss); retired into idioms:122 and kept as a search alias.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 弘法も筆の誤り / こうぼうもふでのあやまり",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 弘法も筆の誤り is a variant wording of 弘法にも筆の誤り (JMdict 2836534 vs 2093270, identical gloss); retired into idioms:122 and kept as a search alias.",
+        "contentHash": "e39bfdd9a24ffa4b319d57fc2baffcb65ad84f57639184355e1df96b02146d5b",
+        "approvalHash": "761c77426f16b450d20fa50dad90c3918dfa9de1447d2c1004dd31094e8f7bbd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 弘法も筆の誤り (JMdict 2836534) is the に-less variant of 弘法にも筆の誤り (2093270, same gloss); retiring it into idioms:122 with the variant as search alias is sensible; aliases are only used for search (section-configs.js searchScoreFn), so the differing reading is harmless.",
+        "contentHash": "e39bfdd9a24ffa4b319d57fc2baffcb65ad84f57639184355e1df96b02146d5b",
+        "approvalHash": "761c77426f16b450d20fa50dad90c3918dfa9de1447d2c1004dd31094e8f7bbd"
+      }
+    },
+    {
+      "id": "idioms:122",
+      "revisionId": "022-idioms-122",
+      "state": "accepted",
+      "predecessorHash": "9c28145534e1176ce6f3e0c9023aaea4a4c0cc1383a98d96d028f5b0f55f964d",
+      "predecessorRevisionHash": null,
+      "originalHash": "9c28145534e1176ce6f3e0c9023aaea4a4c0cc1383a98d96d028f5b0f55f964d",
+      "rationale": "Survivor for the 弘法 variants; variant wording added as alias and note.",
+      "original": {
+        "aliases": null,
+        "notes": null
+      },
+      "replacement": {
+        "aliases": [
+          "弘法も筆の誤り"
+        ],
+        "notes": "Kōbō Daishi (Kūkai) galt als Meister der Kalligrafie. Häufig auch ohne に: 弘法も筆の誤り."
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2093270; spelling=弘法にも筆の誤り; reading=こうぼうにもふでのあやまり; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Standard wording in JMdict.",
+          "selected": {
+            "sequence": "2093270",
+            "spelling": "弘法にも筆の誤り",
+            "reading": "こうぼうにもふでのあやまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "proverb"
+                ],
+                "gloss": [
+                  "anyone can make a mistake",
+                  "Homer sometimes nods",
+                  "even Kōbō Daishi's handwriting contains mistakes"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:122 after vocab-correction-rules.js",
+          "finding": "Survivor for the 弘法 variants; variant wording added as alias and note."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "alias",
+          "note-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Auch ein Meister macht Fehler\" checked against the cited dictionary evidence.",
+        "japanese": "あのシェフでも料理を焦がすことがあるんだ。弘法にも筆の誤りだね。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "A chef burning food."
+        ],
+        "lexical": "Survivor for the 弘法 variants; variant wording added as alias and note.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 弘法にも筆の誤り / こうぼうにもふでのあやまり",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Survivor for the 弘法 variants; variant wording added as alias and note.",
+        "contentHash": "dd1db8d7d760261324b7c434fecff6a4656947dd48051e7f43ea003dba1a1dd8",
+        "approvalHash": "9a201a5c54f81b3c550f8607f66cbde605901ebe50feb561fa90a3826c6ec5d1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): survivor adds alias 弘法も筆の誤り and a correct Kōbō Daishi (Kūkai) calligraphy note that mentions the に-less form; chef example unchanged and correctly romanized.",
+        "contentHash": "dd1db8d7d760261324b7c434fecff6a4656947dd48051e7f43ea003dba1a1dd8",
+        "approvalHash": "9a201a5c54f81b3c550f8607f66cbde605901ebe50feb561fa90a3826c6ec5d1"
+      }
+    },
+    {
+      "id": "idioms:187",
+      "revisionId": "022-idioms-187",
+      "state": "accepted",
+      "predecessorHash": "4d2561c7ebc80057c925eebebbb6ba9300b8bfb6a7aafc841b3192f6ea58ed6a",
+      "predecessorRevisionHash": null,
+      "originalHash": "4d2561c7ebc80057c925eebebbb6ba9300b8bfb6a7aafc841b3192f6ea58ed6a",
+      "rationale": "実るほど頭が下がる稲穂 is a non-standard rewording of 実るほど頭を垂れる稲穂かな (no JMdict entry for this form); retired into idioms:109.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup 実るほど頭が下がる稲穂 / みのるほどあたまがさがるいなほ; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "実るほど頭が下がる稲穂 has no JMdict entry; the standard form 実るほど頭を垂れる稲穂かな is JMdict 2849009."
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:187 after vocab-correction-rules.js",
+          "finding": "実るほど頭が下がる稲穂 is a non-standard rewording of 実るほど頭を垂れる稲穂かな (no JMdict entry for this form); retired into idioms:109."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"je reifer die Ähre, desto tiefer neigt sie sich; wahre Größe ist bescheiden\" checked against the cited dictionary evidence.",
+        "japanese": "あの教授は偉いのに謙虚だ。まさに実るほど頭が下がる稲穂だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "A humble professor."
+        ],
+        "lexical": "実るほど頭が下がる稲穂 is a non-standard rewording of 実るほど頭を垂れる稲穂かな (no JMdict entry for this form); retired into idioms:109.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 実るほど頭が下がる稲穂 / みのるほどあたまがさがるいなほ",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 実るほど頭が下がる稲穂 is a non-standard rewording of 実るほど頭を垂れる稲穂かな (no JMdict entry for this form); retired into idioms:109.",
+        "contentHash": "4d2561c7ebc80057c925eebebbb6ba9300b8bfb6a7aafc841b3192f6ea58ed6a",
+        "approvalHash": "811a65a1ab4680d4ae458b57136908dd37c2c85b30b671fa5e90a7096756a237"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 実るほど頭が下がる稲穂 has no JMdict entry (supplement lookup empty) and is a loose rewording of 実るほど頭を垂れる稲穂かな (2849009); retiring it into idioms:109 is the right survivor choice.",
+        "contentHash": "4d2561c7ebc80057c925eebebbb6ba9300b8bfb6a7aafc841b3192f6ea58ed6a",
+        "approvalHash": "811a65a1ab4680d4ae458b57136908dd37c2c85b30b671fa5e90a7096756a237"
+      }
+    },
+    {
+      "id": "idioms:109",
+      "revisionId": "022-idioms-109",
+      "state": "accepted",
+      "predecessorHash": "22e8bb28c77e488cf4432e1b8d14d14e2c2f872c9c8ec9dfa0108ece49dd7065",
+      "predecessorRevisionHash": null,
+      "originalHash": "22e8bb28c77e488cf4432e1b8d14d14e2c2f872c9c8ec9dfa0108ece49dd7065",
+      "rationale": "Survivor of the 実るほど… variants; note mentions the variation.",
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "あの教授はとても謙虚だ。実るほど頭を垂れる稲穂かなだね。",
+            "romaji": "Ano kyōju wa totemo kenkyo da. Minoru hodo atama o tareru inaho kana da ne.",
+            "german": "Dieser Professor ist sehr bescheiden. Wahre Größe zeigt sich in Demut."
+          }
+        ]
+      },
+      "replacement": {
+        "notes": "Ein Haiku-artiger Spruch (かな am Ende). Varianten wie 実るほど頭の下がる稲穂かな sind ebenfalls verbreitet.",
+        "examples": [
+          {
+            "japanese": "あの教授はとても謙虚だ。「実るほど頭を垂れる稲穂かな」だね。",
+            "romaji": "Ano kyōju wa totemo kenkyo da. \"Minoru hodo atama o tareru inaho kana\" da ne.",
+            "german": "Dieser Professor ist sehr bescheiden. Wahre Größe zeigt sich in Demut."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2849009; spelling=実るほど頭を垂れる稲穂かな; reading=みのるほどあたまをたれるいなほかな; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Standard form.",
+          "selected": {
+            "sequence": "2849009",
+            "spelling": "実るほど頭を垂れる稲穂かな",
+            "reading": "みのるほどあたまをたれるいなほかな",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "proverb"
+                ],
+                "gloss": [
+                  "the more learned, the more humble",
+                  "the boughs bearing the most hang lowest"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:109 after vocab-correction-rules.js",
+          "finding": "Survivor of the 実るほど… variants; note mentions the variation."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "note-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Je reifer der Reis, desto tiefer neigt er sich — wahre Größe zeigt sich in Bescheidenheit\" checked against the cited dictionary evidence.",
+        "japanese": "あの教授はとても謙虚だ。「実るほど頭を垂れる稲穂かな」だね。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "A humble professor."
+        ],
+        "lexical": "Survivor of the 実るほど… variants; note mentions the variation.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 実るほど頭を垂れる稲穂かな / みのるほどあたまをたれるいなほかな",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Survivor of the 実るほど… variants; note mentions the variation.",
+        "contentHash": "2ca46c84625c8248837d0a6e4f3f27d258b4e63f87c3b25e562b2ec2936a7a26",
+        "approvalHash": "70c32e8ea296dec13540d7a321cca4a1ef53bb9024d5048397a70c625b8f78a5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): example now quotes the proverb (「実るほど頭を垂れる稲穂かな」だね; romaji with matching quotes), which fixes the unnatural かなだね; note on the かな ending and the 頭の下がる variant accurate; null pitch correct.",
+        "contentHash": "2ca46c84625c8248837d0a6e4f3f27d258b4e63f87c3b25e562b2ec2936a7a26",
+        "approvalHash": "70c32e8ea296dec13540d7a321cca4a1ef53bb9024d5048397a70c625b8f78a5"
+      }
+    },
+    {
+      "id": "idioms:205",
+      "revisionId": "022-idioms-205",
+      "state": "accepted",
+      "predecessorHash": "e20291ed04c67c4d9edae3d9b8dca9dead1cc2c248a0edd0e44f4f34151e3625",
+      "predecessorRevisionHash": null,
+      "originalHash": "e20291ed04c67c4d9edae3d9b8dca9dead1cc2c248a0edd0e44f4f34151e3625",
+      "rationale": "馬の耳に風 is a rarer variant (JMdict 2834646) of 馬の耳に念仏; retired into idioms:47 and kept as a search alias.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2834646; spelling=馬の耳に風; reading=うまのみみにかぜ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Rare variant, same meaning as 1471580.",
+          "selected": {
+            "sequence": "2834646",
+            "spelling": "馬の耳に風",
+            "reading": "うまのみみにかぜ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "preaching to the deaf",
+                  "wind (blowing) into a horse's ear"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:205 after vocab-correction-rules.js",
+          "finding": "馬の耳に風 is a rarer variant (JMdict 2834646) of 馬の耳に念仏; retired into idioms:47 and kept as a search alias."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"wie der Wind am Ohr eines Pferdes vorbeiziehen; Rat ignorieren\" checked against the cited dictionary evidence.",
+        "japanese": "何を言っても馬の耳に風だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Advice being ignored."
+        ],
+        "lexical": "馬の耳に風 is a rarer variant (JMdict 2834646) of 馬の耳に念仏; retired into idioms:47 and kept as a search alias.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 馬の耳に風 / うまのみみにかぜ",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 馬の耳に風 is a rarer variant (JMdict 2834646) of 馬の耳に念仏; retired into idioms:47 and kept as a search alias.",
+        "contentHash": "e20291ed04c67c4d9edae3d9b8dca9dead1cc2c248a0edd0e44f4f34151e3625",
+        "approvalHash": "c86be6ea0078a29d91db99477bbb48b582362fe0ff82ccfac1646d6b1b6ca0a0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 馬の耳に風 is JMdict 2834646, a rarer variant of 馬の耳に念仏 (1471580); retirement into idioms:47 with the variant as search alias is right.",
+        "contentHash": "e20291ed04c67c4d9edae3d9b8dca9dead1cc2c248a0edd0e44f4f34151e3625",
+        "approvalHash": "c86be6ea0078a29d91db99477bbb48b582362fe0ff82ccfac1646d6b1b6ca0a0"
+      }
+    },
+    {
+      "id": "idioms:47",
+      "revisionId": "022-idioms-47",
+      "state": "accepted",
+      "predecessorHash": "c0b020e38c72498655c30ded36d333bd8745485f427e111bac70ffc8713a44cd",
+      "predecessorRevisionHash": null,
+      "originalHash": "c0b020e38c72498655c30ded36d333bd8745485f427e111bac70ffc8713a44cd",
+      "rationale": "Survivor for 馬の耳に念仏/馬の耳に風; variant added as alias and note.",
+      "original": {
+        "aliases": null,
+        "notes": null
+      },
+      "replacement": {
+        "aliases": [
+          "馬の耳に風"
+        ],
+        "notes": "Seltenere Variante: 馬の耳に風. Ähnliche Bedeutung hat der Vierzeichenausdruck 馬耳東風（ばじとうふう）."
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1471580; spelling=馬の耳に念仏; reading=うまのみみにねんぶつ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Standard form.",
+          "selected": {
+            "sequence": "1471580",
+            "spelling": "馬の耳に念仏",
+            "reading": "うまのみみにねんぶつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "preaching to the deaf",
+                  "chanting the nembutsu into a horse's ear"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:47 after vocab-correction-rules.js",
+          "finding": "Survivor for 馬の耳に念仏/馬の耳に風; variant added as alias and note."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "alias",
+          "note-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"tauben Ohren predigen (wörtl.: einem Pferd ein Gebet vorsprechen)\" checked against the cited dictionary evidence.",
+        "japanese": "何度注意しても馬の耳に念仏だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Warnings being ignored."
+        ],
+        "lexical": "Survivor for 馬の耳に念仏/馬の耳に風; variant added as alias and note.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 馬の耳に念仏 / うまのみみにねんぶつ",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Survivor for 馬の耳に念仏/馬の耳に風; variant added as alias and note.",
+        "contentHash": "c6c20a4c3917c1d0bcc2ea94124cdbe3d875ccc851540c34414a0daefbe7d99e",
+        "approvalHash": "866616bac60dac8373184636161b2ff0457d6002b3510941bd9cffcb8ab953e6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): survivor gets alias 馬の耳に風 and an accurate note linking the variant and the yojijukugo 馬耳東風（ばじとうふう）; example and romaji unchanged and correct.",
+        "contentHash": "c6c20a4c3917c1d0bcc2ea94124cdbe3d875ccc851540c34414a0daefbe7d99e",
+        "approvalHash": "866616bac60dac8373184636161b2ff0457d6002b3510941bd9cffcb8ab953e6"
+      }
+    },
+    {
+      "id": "idioms:229",
+      "revisionId": "022-idioms-229",
+      "state": "accepted",
+      "predecessorHash": "fe6e003a1319da0d9c9e6d98eb4e625fab89190de824dd9488e3b85a30419ab3",
+      "predecessorRevisionHash": null,
+      "originalHash": "fe6e003a1319da0d9c9e6d98eb4e625fab89190de824dd9488e3b85a30419ab3",
+      "rationale": "知らぬが花 is not an attested proverb (no JMdict entry); it conflates 知らぬが仏 and 言わぬが花. Retired into 知らぬが仏 (idioms:136), whose meaning it duplicated; 言わぬが花 (idioms:234) remains a separate proverb.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup 知らぬが花 / しらぬがはな; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "知らぬが花 has no JMdict entry; 知らぬが仏 (2418960) and 言わぬが花 (1264370) are the attested proverbs."
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:229 after vocab-correction-rules.js",
+          "finding": "知らぬが花 is not an attested proverb (no JMdict entry); it conflates 知らぬが仏 and 言わぬが花. Retired into 知らぬが仏 (idioms:136), whose meaning it duplicated; 言わぬが花 (idioms:234) remains a separate proverb."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Unwissenheit ist ein Segen; was man nicht weiß, macht einen nicht heiß\" checked against the cited dictionary evidence.",
+        "japanese": "彼女の本当の気持ちは聞かない方がいい。知らぬが花だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Not asking about someone's true feelings."
+        ],
+        "lexical": "知らぬが花 is not an attested proverb (no JMdict entry); it conflates 知らぬが仏 and 言わぬが花. Retired into 知らぬが仏 (idioms:136), whose meaning it duplicated; 言わぬが花 (idioms:234) remains a separate proverb.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 知らぬが花 / しらぬがはな",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 知らぬが花 is not an attested proverb (no JMdict entry); it conflates 知らぬが仏 and 言わぬが花. Retired into 知らぬが仏 (idioms:136), whose meaning it duplicated; 言わぬが花 (idioms:234) remains a separate proverb.",
+        "contentHash": "fe6e003a1319da0d9c9e6d98eb4e625fab89190de824dd9488e3b85a30419ab3",
+        "approvalHash": "ab6bf3d7e107541dbb26b78b9ec050ca5ff1f2d2a7133290e018beceeeef1f00"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 知らぬが花 has no JMdict entry (lookup empty) while 知らぬが仏 (2418960) and 言わぬが花 (1264370) exist; its meaning (Unwissenheit ist ein Segen) duplicates 知らぬが仏, so retiring into idioms:136 (not into 言わぬが花 idioms:234) is the correct target.",
+        "contentHash": "fe6e003a1319da0d9c9e6d98eb4e625fab89190de824dd9488e3b85a30419ab3",
+        "approvalHash": "ab6bf3d7e107541dbb26b78b9ec050ca5ff1f2d2a7133290e018beceeeef1f00"
+      }
+    },
+    {
+      "id": "idioms:136",
+      "revisionId": "022-idioms-136",
+      "state": "accepted",
+      "predecessorHash": "7397c2d47cb1178cff6c8c8315e73bb4641daa050bbd514357da8629896a5406",
+      "predecessorRevisionHash": null,
+      "originalHash": "7397c2d47cb1178cff6c8c8315e73bb4641daa050bbd514357da8629896a5406",
+      "rationale": "Survivor for 知らぬが花; note separates it from 言わぬが花.",
+      "original": {
+        "notes": null
+      },
+      "replacement": {
+        "notes": "Nicht verwechseln mit 言わぬが花 („manches bleibt besser ungesagt“), einem eigenen Sprichwort."
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2418960; spelling=知らぬが仏; reading=しらぬがほとけ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Ignorance is bliss.",
+          "selected": {
+            "sequence": "2418960",
+            "spelling": "知らぬが仏",
+            "reading": "しらぬがほとけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "proverb"
+                ],
+                "gloss": [
+                  "ignorance is bliss"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:136 after vocab-correction-rules.js",
+          "finding": "Survivor for 知らぬが花; note separates it from 言わぬが花."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "note-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Unwissenheit ist ein Segen — was man nicht weiß, macht einen nicht heiß\" checked against the cited dictionary evidence.",
+        "japanese": "彼は自分の悪口を言われていることを知らない。知らぬが仏だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Not knowing one is being gossiped about."
+        ],
+        "lexical": "Survivor for 知らぬが花; note separates it from 言わぬが花.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 知らぬが仏 / しらぬがほとけ",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Survivor for 知らぬが花; note separates it from 言わぬが花.",
+        "contentHash": "d1f1945b2132a5744b1b6391c8afc0a4e86643a9c395c74474b0408b391e4182",
+        "approvalHash": "8b0d0024c07bc5dce7dac90fe1eab0b97342f3f4d00cf24f1fc5363b88d3a454"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): survivor note separating 知らぬが仏 from 言わぬが花 (idioms:234, confirmed present) is accurate and useful; content otherwise unchanged.",
+        "contentHash": "d1f1945b2132a5744b1b6391c8afc0a4e86643a9c395c74474b0408b391e4182",
+        "approvalHash": "8b0d0024c07bc5dce7dac90fe1eab0b97342f3f4d00cf24f1fc5363b88d3a454"
+      }
+    },
+    {
+      "id": "idioms:222",
+      "revisionId": "022-idioms-222",
+      "state": "accepted",
+      "predecessorHash": "edaff0a7dba2ff2cc9b4b344e26c49445b6face29b97b91bca592a058badd115",
+      "predecessorRevisionHash": null,
+      "originalHash": "edaff0a7dba2ff2cc9b4b344e26c49445b6face29b97b91bca592a058badd115",
+      "rationale": "得意技を持て is not a proverb (no JMdict or dictionary entry; an invented imperative). Retired into the ordinary noun 特技 (vocab-n3:1178, special skill), the closest real entry.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup 得意技を持て / とくいわざをもて; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "得意技を持て has no JMdict entry; 得意技 (2424840) is a martial-arts signature move and 特技 (1454740) is special skill."
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:222 after vocab-correction-rules.js",
+          "finding": "得意技を持て is not a proverb (no JMdict or dictionary entry; an invented imperative). Retired into the ordinary noun 特技 (vocab-n3:1178, special skill), the closest real entry."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"habe eine Spezialität; beherrsche dein Handwerk\" checked against the cited dictionary evidence.",
+        "japanese": "何か一つ得意技を持てと父に言われた。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Father's advice to have a specialty."
+        ],
+        "lexical": "得意技を持て is not a proverb (no JMdict or dictionary entry; an invented imperative). Retired into the ordinary noun 特技 (vocab-n3:1178, special skill), the closest real entry.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 得意技を持て / とくいわざをもて",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 得意技を持て is not a proverb (no JMdict or dictionary entry; an invented imperative). Retired into the ordinary noun 特技 (vocab-n3:1178, special skill), the closest real entry.",
+        "contentHash": "edaff0a7dba2ff2cc9b4b344e26c49445b6face29b97b91bca592a058badd115",
+        "approvalHash": "759417ca4a82eec39dbe60c0aa7a93fb367a5622405e00a4ed2e5a2b857fd43c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 得意技を持て has no dictionary entry and is an invented imperative; 得意技 itself is not an app entry (JMdict 2424840 = signature move), so 特技 (vocab-n3:1178, special skill) is a reasonable closest survivor; retirement with reason/relationship is documented.",
+        "contentHash": "edaff0a7dba2ff2cc9b4b344e26c49445b6face29b97b91bca592a058badd115",
+        "approvalHash": "759417ca4a82eec39dbe60c0aa7a93fb367a5622405e00a4ed2e5a2b857fd43c"
+      }
+    },
+    {
+      "id": "vocab-n3:1178",
+      "revisionId": "022-vocab-n3-1178",
+      "state": "accepted",
+      "predecessorHash": "fe0a8401888779044731fc2752d2b0ffa955d28954353a0e1af6fbed7fe25102",
+      "predecessorRevisionHash": null,
+      "originalHash": "fe0a8401888779044731fc2752d2b0ffa955d28954353a0e1af6fbed7fe25102",
+      "rationale": "Surviving target for the retired 得意技を持て; content unchanged.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184897591",
+            "patterns": [
+              1
+            ],
+            "finding": "特技 / トクギ; 名詞/普通名詞/一般/*; *; *; lemma 特技; aType 1. Common noun row attests existing 1.",
+            "match": {
+              "word": "特技",
+              "reading": "とくぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "特技 as \"Spezialität, besonderes Talent\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1454740; spelling=特技; reading=とくぎ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Special skill.",
+          "selected": {
+            "sequence": "1454740",
+            "spelling": "特技",
+            "reading": "とくぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "special skill"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n3:1178 after vocab-correction-rules.js",
+          "finding": "Surviving target for the retired 得意技を持て; content unchanged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Spezialität, besonderes Talent\" checked against the cited dictionary evidence.",
+        "japanese": "特技はピアノです。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Stating one's special talent."
+        ],
+        "lexical": "Surviving target for the retired 得意技を持て; content unchanged.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Common noun row attests existing 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184897591",
+            "patterns": [
+              1
+            ],
+            "finding": "特技 / トクギ; 名詞/普通名詞/一般/*; *; *; lemma 特技; aType 1. Common noun row attests existing 1.",
+            "match": {
+              "word": "特技",
+              "reading": "とくぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "特技 as \"Spezialität, besonderes Talent\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Surviving target for the retired 得意技を持て; content unchanged.",
+        "contentHash": "ece680645f3af2c66126fed61b62567c70e344fd0c2e5ec2631ccf0642cf12ad",
+        "approvalHash": "688bfb5ad6451d1d5958eb04f05db8e735db184e3d677f3520ea20799031a82c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): survivor 特技 unchanged; pitch 1 verified at sys.dic@184897591 特技/トクギ aType 1; nothing from the invented sentence needed preserving.",
+        "contentHash": "ece680645f3af2c66126fed61b62567c70e344fd0c2e5ec2631ccf0642cf12ad",
+        "approvalHash": "688bfb5ad6451d1d5958eb04f05db8e735db184e3d677f3520ea20799031a82c"
+      }
+    },
+    {
+      "id": "idioms:71",
+      "revisionId": "022-idioms-71",
+      "state": "accepted",
+      "predecessorHash": "640e8d50bc2f256a9ab4db567dcbe2f3152bd035264655bf94f85c43499fd7ac",
+      "predecessorRevisionHash": null,
+      "originalHash": "640e8d50bc2f256a9ab4db567dcbe2f3152bd035264655bf94f85c43499fd7ac",
+      "rationale": "Duplicate of the yojijukugo entry 一石二鳥 (yojijukugo:16); the lead asked to keep the yojijukugo entry. Retired into yojijukugo:16.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1164160; spelling=一石二鳥; reading=いっせきにちょう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1164160",
+            "spelling": "一石二鳥",
+            "reading": "いっせきにちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "killing two birds with one stone"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:71 after vocab-correction-rules.js",
+          "finding": "Duplicate of the yojijukugo entry 一石二鳥 (yojijukugo:16); the lead asked to keep the yojijukugo entry. Retired into yojijukugo:16."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"zwei Fliegen mit einer Klappe schlagen\" checked against the cited dictionary evidence.",
+        "japanese": "自転車通勤は運動にもなるし、交通費も節約できて一石二鳥だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Cycling to work saves money and gives exercise."
+        ],
+        "lexical": "Duplicate of the yojijukugo entry 一石二鳥 (yojijukugo:16); the lead asked to keep the yojijukugo entry. Retired into yojijukugo:16.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 一石二鳥 / いっせきにちょう",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Duplicate of the yojijukugo entry 一石二鳥 (yojijukugo:16); the lead asked to keep the yojijukugo entry. Retired into yojijukugo:16.",
+        "contentHash": "640e8d50bc2f256a9ab4db567dcbe2f3152bd035264655bf94f85c43499fd7ac",
+        "approvalHash": "491562faf18a412ba31b220e870c819fbcb960d83ab95354f281e71192dc9310"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): idioms copy of 一石二鳥 (same JMdict 1164160, equal reading) retired into yojijukugo:16 as the lead requested; the cycling example is not needed because the survivor has two distinct examples.",
+        "contentHash": "640e8d50bc2f256a9ab4db567dcbe2f3152bd035264655bf94f85c43499fd7ac",
+        "approvalHash": "491562faf18a412ba31b220e870c819fbcb960d83ab95354f281e71192dc9310"
+      }
+    },
+    {
+      "id": "yojijukugo:16",
+      "revisionId": "022-yojijukugo-16",
+      "state": "accepted",
+      "predecessorHash": "b9a749b0aa193907d274f01c088002fb804157ab1f6c1cc2973dcd1ce3d66e24",
+      "predecessorRevisionHash": null,
+      "originalHash": "b9a749b0aa193907d274f01c088002fb804157ab1f6c1cc2973dcd1ce3d66e24",
+      "rationale": "Survivor for 一石二鳥 (idioms copy retired); content unchanged.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1164160; spelling=一石二鳥; reading=いっせきにちょう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1164160",
+            "spelling": "一石二鳥",
+            "reading": "いっせきにちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "killing two birds with one stone"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:16 after vocab-correction-rules.js",
+          "finding": "Survivor for 一石二鳥 (idioms copy retired); content unchanged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Zwei Fliegen mit einer Klappe schlagen\" checked against the cited dictionary evidence.",
+        "japanese": "散歩しながら買い物もできて一石二鳥だ。 / 日本語の映画を見ると、勉強と娯楽が一石二鳥だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Shopping while walking.",
+          "Films as study and entertainment."
+        ],
+        "lexical": "Survivor for 一石二鳥 (idioms copy retired); content unchanged.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 一石二鳥 / いっせきにちょう",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Survivor for 一石二鳥 (idioms copy retired); content unchanged.",
+        "contentHash": "b9a749b0aa193907d274f01c088002fb804157ab1f6c1cc2973dcd1ce3d66e24",
+        "approvalHash": "becaaa0578ff154920d3678f79c0ed39e49d4ac9939fb21cdc73ca2547301721"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): survivor unchanged with two distinct contexts (shopping while walking; films for study and fun); null pitch correct (no UniDic row for イッセキニチョウ, verified). Non-blocking: vocab-n3:1719 一石二鳥 (Nomen) still exists and INTENTIONAL_VOCAB_OVERLAP_KEYS in app.js keeps showing both.",
+        "contentHash": "b9a749b0aa193907d274f01c088002fb804157ab1f6c1cc2973dcd1ce3d66e24",
+        "approvalHash": "becaaa0578ff154920d3678f79c0ed39e49d4ac9939fb21cdc73ca2547301721"
+      }
+    },
+    {
+      "id": "idioms:115",
+      "revisionId": "022-idioms-115",
+      "state": "accepted",
+      "predecessorHash": "26b9234608d529a37394121566d0ec89b0c4e096911eae278826b1ba5c7cf095",
+      "predecessorRevisionHash": null,
+      "originalHash": "26b9234608d529a37394121566d0ec89b0c4e096911eae278826b1ba5c7cf095",
+      "rationale": "Duplicate of yojijukugo 一期一会 (yojijukugo:0); retired into it.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1161700; spelling=一期一会; reading=いちごいちえ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1161700",
+            "spelling": "一期一会",
+            "reading": "いちごいちえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "once-in-a-lifetime encounter",
+                  "uniquely precious experience",
+                  "one lifetime, one meeting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:115 after vocab-correction-rules.js",
+          "finding": "Duplicate of yojijukugo 一期一会 (yojijukugo:0); retired into it."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Jede Begegnung ist einmalig — schätze jeden Moment\" checked against the cited dictionary evidence.",
+        "japanese": "旅先での出会いを大切にしよう。一期一会だから。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Treasuring encounters while travelling."
+        ],
+        "lexical": "Duplicate of yojijukugo 一期一会 (yojijukugo:0); retired into it.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 一期一会 / いちごいちえ",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Duplicate of yojijukugo 一期一会 (yojijukugo:0); retired into it.",
+        "contentHash": "26b9234608d529a37394121566d0ec89b0c4e096911eae278826b1ba5c7cf095",
+        "approvalHash": "f7255062f641276302981255415626ee317b97a0f3f5c7f6ea74f2098c69bf4e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): idioms copy of 一期一会 (JMdict 1161700) retired into yojijukugo:0; its travel context is already covered by the survivor's 旅先での一期一会 example.",
+        "contentHash": "26b9234608d529a37394121566d0ec89b0c4e096911eae278826b1ba5c7cf095",
+        "approvalHash": "f7255062f641276302981255415626ee317b97a0f3f5c7f6ea74f2098c69bf4e"
+      }
+    },
+    {
+      "id": "yojijukugo:0",
+      "revisionId": "022-yojijukugo-0",
+      "state": "accepted",
+      "predecessorHash": "2f29d8a77e038144a5bc32e7eeecc06cb44ffb1064e0f3b288e37d2d41e6ae43",
+      "predecessorRevisionHash": null,
+      "originalHash": "2f29d8a77e038144a5bc32e7eeecc06cb44ffb1064e0f3b288e37d2d41e6ae43",
+      "rationale": "Survivor for 一期一会 (idioms copy retired); content unchanged.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1161700; spelling=一期一会; reading=いちごいちえ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1161700",
+            "spelling": "一期一会",
+            "reading": "いちごいちえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "once-in-a-lifetime encounter",
+                  "uniquely precious experience",
+                  "one lifetime, one meeting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:0 after vocab-correction-rules.js",
+          "finding": "Survivor for 一期一会 (idioms copy retired); content unchanged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Einmalige Begegnung; jede Begegnung ist einzigartig\" checked against the cited dictionary evidence.",
+        "japanese": "一期一会の精神で人と接する。 / 旅先での一期一会を大切にしたい。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Meeting people in that spirit.",
+          "Encounters while travelling."
+        ],
+        "lexical": "Survivor for 一期一会 (idioms copy retired); content unchanged.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 一期一会 / いちごいちえ",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Survivor for 一期一会 (idioms copy retired); content unchanged.",
+        "contentHash": "2f29d8a77e038144a5bc32e7eeecc06cb44ffb1064e0f3b288e37d2d41e6ae43",
+        "approvalHash": "92a4083e08c7f7740675e1f4b44831315d7063074c88ecc5695aa28b7db6db8b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): survivor unchanged, two distinct contexts; null pitch correct (no イチゴイチエ row, verified). Non-blocking: vocab-n3:1722 一期一会 (Nomen) remains as intentional overlap.",
+        "contentHash": "2f29d8a77e038144a5bc32e7eeecc06cb44ffb1064e0f3b288e37d2d41e6ae43",
+        "approvalHash": "92a4083e08c7f7740675e1f4b44831315d7063074c88ecc5695aa28b7db6db8b"
+      }
+    },
+    {
+      "id": "idioms:116",
+      "revisionId": "022-idioms-116",
+      "state": "accepted",
+      "predecessorHash": "a18377dc013c0bff69dd5bcc7ffb1d234a3021267eba881fd1c1a1063e61e4d9",
+      "predecessorRevisionHash": null,
+      "originalHash": "a18377dc013c0bff69dd5bcc7ffb1d234a3021267eba881fd1c1a1063e61e4d9",
+      "rationale": "Duplicate of yojijukugo 自業自得 (yojijukugo:3); retired into it.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1317570; spelling=自業自得; reading=じごうじとく; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1317570",
+            "spelling": "自業自得",
+            "reading": "じごうじとく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "paying for one's mistakes",
+                  "getting one's just deserts",
+                  "suffering the consequences (of one's own actions)",
+                  "reap what you sow"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:116 after vocab-correction-rules.js",
+          "finding": "Duplicate of yojijukugo 自業自得 (yojijukugo:3); retired into it."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Selbst schuld, man erntet was man sät\" checked against the cited dictionary evidence.",
+        "japanese": "勉強しなかったから不合格になった。自業自得だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Failing an exam after not studying."
+        ],
+        "lexical": "Duplicate of yojijukugo 自業自得 (yojijukugo:3); retired into it.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 自業自得 / じごうじとく",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Duplicate of yojijukugo 自業自得 (yojijukugo:3); retired into it.",
+        "contentHash": "a18377dc013c0bff69dd5bcc7ffb1d234a3021267eba881fd1c1a1063e61e4d9",
+        "approvalHash": "970dcb6df03239601d15caf6f5c8e7453c02ca0e13769f2a8e8aea87a24e9d80"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): idioms copy of 自業自得 (JMdict 1317570) retired into yojijukugo:3; the retired exam-failure example is essentially the survivor's own example, so nothing is lost.",
+        "contentHash": "a18377dc013c0bff69dd5bcc7ffb1d234a3021267eba881fd1c1a1063e61e4d9",
+        "approvalHash": "970dcb6df03239601d15caf6f5c8e7453c02ca0e13769f2a8e8aea87a24e9d80"
+      }
+    },
+    {
+      "id": "yojijukugo:3",
+      "revisionId": "022-yojijukugo-3",
+      "state": "accepted",
+      "predecessorHash": "ba7983b3cd30a720e5ed113af0ce8c16012e2b403786d19662ad166d2fb54445",
+      "predecessorRevisionHash": null,
+      "originalHash": "ba7983b3cd30a720e5ed113af0ce8c16012e2b403786d19662ad166d2fb54445",
+      "rationale": "Survivor for 自業自得 (idioms copy retired); content unchanged (its example already covers the exam context).",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1317570; spelling=自業自得; reading=じごうじとく; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1317570",
+            "spelling": "自業自得",
+            "reading": "じごうじとく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "paying for one's mistakes",
+                  "getting one's just deserts",
+                  "suffering the consequences (of one's own actions)",
+                  "reap what you sow"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:3 after vocab-correction-rules.js",
+          "finding": "Survivor for 自業自得 (idioms copy retired); content unchanged (its example already covers the exam context)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Selbst verschuldet; man erntet, was man sät\" checked against the cited dictionary evidence.",
+        "japanese": "勉強しなかったから不合格は自業自得だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Failing an exam after not studying."
+        ],
+        "lexical": "Survivor for 自業自得 (idioms copy retired); content unchanged (its example already covers the exam context).",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 自業自得 / じごうじとく",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Survivor for 自業自得 (idioms copy retired); content unchanged (its example already covers the exam context).",
+        "contentHash": "ba7983b3cd30a720e5ed113af0ce8c16012e2b403786d19662ad166d2fb54445",
+        "approvalHash": "92629090a65d045b724420a9b07aae9a141fa513b20da599d747ade60623d00e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): survivor unchanged; its 勉強しなかったから不合格は自業自得だ example covers the retired context; null pitch correct. Non-blocking: only one example.",
+        "contentHash": "ba7983b3cd30a720e5ed113af0ce8c16012e2b403786d19662ad166d2fb54445",
+        "approvalHash": "92629090a65d045b724420a9b07aae9a141fa513b20da599d747ade60623d00e"
+      }
+    },
+    {
+      "id": "idioms:120",
+      "revisionId": "022-idioms-120",
+      "state": "accepted",
+      "predecessorHash": "770d9838daa6c7c50ea7eb88cfa2858e3da4d9cabcf724efaa43ceb5719342ef",
+      "predecessorRevisionHash": null,
+      "originalHash": "770d9838daa6c7c50ea7eb88cfa2858e3da4d9cabcf724efaa43ceb5719342ef",
+      "rationale": "Duplicate of yojijukugo 以心伝心 (yojijukugo:24); retired into it. Its example is carried over to the survivor.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1155130; spelling=以心伝心; reading=いしんでんしん; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1155130",
+            "spelling": "以心伝心",
+            "reading": "いしんでんしん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "telepathy",
+                  "tacit understanding",
+                  "thought transference",
+                  "communion of mind with mind"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:120 after vocab-correction-rules.js",
+          "finding": "Duplicate of yojijukugo 以心伝心 (yojijukugo:24); retired into it. Its example is carried over to the survivor."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Wortlose Verständigung, Telepathie des Herzens\" checked against the cited dictionary evidence.",
+        "japanese": "何も言わなくても分かり合える。以心伝心だね。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Understanding without words."
+        ],
+        "lexical": "Duplicate of yojijukugo 以心伝心 (yojijukugo:24); retired into it. Its example is carried over to the survivor.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 以心伝心 / いしんでんしん",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Duplicate of yojijukugo 以心伝心 (yojijukugo:24); retired into it. Its example is carried over to the survivor.",
+        "contentHash": "770d9838daa6c7c50ea7eb88cfa2858e3da4d9cabcf724efaa43ceb5719342ef",
+        "approvalHash": "1bd2d16b4997ac20f9cbe592bcff808ca85362b27e2de75c5cad50bd9bb85fbd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): idioms copy of 以心伝心 (JMdict 1155130) retired into yojijukugo:24, and its example is really carried over (verified in the survivor finalContent).",
+        "contentHash": "770d9838daa6c7c50ea7eb88cfa2858e3da4d9cabcf724efaa43ceb5719342ef",
+        "approvalHash": "1bd2d16b4997ac20f9cbe592bcff808ca85362b27e2de75c5cad50bd9bb85fbd"
+      }
+    },
+    {
+      "id": "yojijukugo:24",
+      "revisionId": "022-yojijukugo-24",
+      "state": "accepted",
+      "predecessorHash": "7f900de6f0e994f032210eafe5be342985ed41edeea279d20afcba5f9b8e1872",
+      "predecessorRevisionHash": null,
+      "originalHash": "7f900de6f0e994f032210eafe5be342985ed41edeea279d20afcba5f9b8e1872",
+      "rationale": "Survivor for 以心伝心; the retired idioms example is preserved as a second context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "長年の友達とは以心伝心で通じ合える。",
+            "romaji": "Naganen no tomodachi to wa ishin denshin de tsūjiaeru.",
+            "german": "Mit langjährigen Freunden versteht man sich ohne Worte."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "長年の友達とは以心伝心で通じ合える。",
+            "romaji": "Naganen no tomodachi to wa ishin denshin de tsūjiaeru.",
+            "german": "Mit langjährigen Freunden versteht man sich ohne Worte."
+          },
+          {
+            "japanese": "何も言わなくても分かり合える。以心伝心だね。",
+            "romaji": "Nani mo iwanakute mo wakariaeru. Ishin denshin da ne.",
+            "german": "Wir verstehen uns, ohne etwas zu sagen – echte Gedankenübertragung."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1155130; spelling=以心伝心; reading=いしんでんしん; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1155130",
+            "spelling": "以心伝心",
+            "reading": "いしんでんしん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "telepathy",
+                  "tacit understanding",
+                  "thought transference",
+                  "communion of mind with mind"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:24 after vocab-correction-rules.js",
+          "finding": "Survivor for 以心伝心; the retired idioms example is preserved as a second context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "example-preserved"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Telepathie; stille Verständigung von Herz zu Herz\" checked against the cited dictionary evidence.",
+        "japanese": "長年の友達とは以心伝心で通じ合える。 / 何も言わなくても分かり合える。以心伝心だね。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Long-time friends communicating without words.",
+          "Casual remark about wordless understanding."
+        ],
+        "lexical": "Survivor for 以心伝心; the retired idioms example is preserved as a second context.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 以心伝心 / いしんでんしん",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Survivor for 以心伝心; the retired idioms example is preserved as a second context.",
+        "contentHash": "ce738c949afcd9fa95c61daa2f3504fb5e346abc7118b8d9dfdd08b7eb0c67d7",
+        "approvalHash": "8e8177915cee22dc1735296996c53b94f8c2ed82717118deced881031f8bec53"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): survivor now has the carried-over 何も言わなくても分かり合える。以心伝心だね。 (wakariaeru) as a distinct casual context next to the long-time-friends example; German \"echte Gedankenübertragung\" fine.",
+        "contentHash": "ce738c949afcd9fa95c61daa2f3504fb5e346abc7118b8d9dfdd08b7eb0c67d7",
+        "approvalHash": "8e8177915cee22dc1735296996c53b94f8c2ed82717118deced881031f8bec53"
+      }
+    },
+    {
+      "id": "idioms:50",
+      "revisionId": "022-idioms-50",
+      "state": "accepted",
+      "predecessorHash": "ac71fab45f16781f0848e77a6f96b61834e970828dc7a698d791332d2b1278ad",
+      "predecessorRevisionHash": null,
+      "originalHash": "ac71fab45f16781f0848e77a6f96b61834e970828dc7a698d791332d2b1278ad",
+      "rationale": "Cross-reference to the short form 棚ぼた (idioms:210), as requested.",
+      "original": {
+        "notes": null
+      },
+      "replacement": {
+        "notes": "Kurzform: 棚ぼた（たなぼた）, besonders in der Umgangssprache."
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1985200; spelling=棚からぼたもち; reading=たなからぼたもち; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Full proverb.",
+          "selected": {
+            "sequence": "1985200",
+            "spelling": "棚からぼたもち",
+            "reading": "たなからぼたもち",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "search-only kanji form"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "sudden windfall",
+                  "unexpected piece of good luck",
+                  "azuki-covered mochi (fallen) from a shelf"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:50 after vocab-correction-rules.js",
+          "finding": "Cross-reference to the short form 棚ぼた (idioms:210), as requested."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "note-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"unverhofftes Glück (wörtl.: ein Reiskuchen fällt vom Regal)\" checked against the cited dictionary evidence.",
+        "japanese": "宝くじが当たるなんて、棚からぼたもちだ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Winning the lottery."
+        ],
+        "lexical": "Cross-reference to the short form 棚ぼた (idioms:210), as requested.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 棚からぼたもち / たなからぼたもち",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Cross-reference to the short form 棚ぼた (idioms:210), as requested.",
+        "contentHash": "bd571f889f464430f63d1adcf896f3b05a97c0d9c312c2f8e035cc16dacd881b",
+        "approvalHash": "10113bdab3cf1805228242cff23a4a7001cd8f80c5bcf1eb486d70306780e5e1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): cross-note \"Kurzform: 棚ぼた（たなぼた）, besonders in der Umgangssprache.\" is accurate and learner-friendly; null pitch correct (no タナカラボタモチ row).",
+        "contentHash": "bd571f889f464430f63d1adcf896f3b05a97c0d9c312c2f8e035cc16dacd881b",
+        "approvalHash": "10113bdab3cf1805228242cff23a4a7001cd8f80c5bcf1eb486d70306780e5e1"
+      }
+    },
+    {
+      "id": "idioms:210",
+      "revisionId": "022-idioms-210",
+      "state": "accepted",
+      "predecessorHash": "c9db54f171fed21f7eae14aedefd7b6b3c8f163106e93d751dc30981ad693c3c",
+      "predecessorRevisionHash": null,
+      "originalHash": "c9db54f171fed21f7eae14aedefd7b6b3c8f163106e93d751dc30981ad693c3c",
+      "rationale": "Cross-reference to the full proverb 棚からぼたもち, attested pitch added, and re-typed Nomen (JMdict 1891670 and UniDic treat 棚ぼた as a noun, not a proverb).",
+      "original": {
+        "type": "Sprichwort",
+        "notes": null,
+        "pitch": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "type": "Nomen",
+        "notes": "Umgangssprachliche Kurzform von 棚からぼたもち（たなからぼたもち）; beide bedeuten unverhofftes Glück.",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@164691327",
+            "patterns": [
+              0
+            ],
+            "finding": "棚ぼた / タナボタ; 名詞/普通名詞/一般/*; *; *; lemma 棚ぼた; aType 0. Exact common-noun row attests 0.",
+            "match": {
+              "word": "棚ぼた",
+              "reading": "たなぼた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "棚ぼた as \"unverhofftes Glück (Kurzform von 棚からぼたもち)\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1891670; spelling=棚ぼた; reading=たなぼた; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Godsend, windfall (noun).",
+          "selected": {
+            "sequence": "1891670",
+            "spelling": "棚ぼた",
+            "reading": "たなぼた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "godsend",
+                  "windfall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:210 after vocab-correction-rules.js",
+          "finding": "Cross-reference to the full proverb 棚からぼたもち, attested pitch added, and re-typed Nomen (JMdict 1891670 and UniDic treat 棚ぼた as a noun, not a proverb)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "note-added",
+          "pitch-added",
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"unverhofftes Glück (Kurzform von 棚からぼたもち)\" checked against the cited dictionary evidence.",
+        "japanese": "プレゼントをもらって、まさに棚ぼただ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Receiving an unexpected present."
+        ],
+        "lexical": "Cross-reference to the full proverb 棚からぼたもち, attested pitch added, and re-typed Nomen (JMdict 1891670 and UniDic treat 棚ぼた as a noun, not a proverb).",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact common-noun row attests 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@164691327",
+            "patterns": [
+              0
+            ],
+            "finding": "棚ぼた / タナボタ; 名詞/普通名詞/一般/*; *; *; lemma 棚ぼた; aType 0. Exact common-noun row attests 0.",
+            "match": {
+              "word": "棚ぼた",
+              "reading": "たなぼた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "棚ぼた as \"unverhofftes Glück (Kurzform von 棚からぼたもち)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Cross-reference to the full proverb 棚からぼたもち, attested pitch added, and re-typed Nomen (JMdict 1891670 and UniDic treat 棚ぼた as a noun, not a proverb).",
+        "contentHash": "852c93da1abcf5998367ec00d0f1c32654b3ad1946d854d84bd127d0b0fd58de",
+        "approvalHash": "c8efe01c105b3bfa75a6f847c032efae025be0d64a46da60223724db7f67ad0a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): note is now \"Umgangssprachliche Kurzform von 棚からぼたもち（たなからぼたもち）; beide bedeuten unverhofftes Glück.\" (no internal section name) and the type is Nomen, matching JMdict 1891670 and the 名詞/普通名詞 row; pitch 0 = sys.dic@164691327 (all three orth rows aType 0).",
+        "contentHash": "852c93da1abcf5998367ec00d0f1c32654b3ad1946d854d84bd127d0b0fd58de",
+        "approvalHash": "c8efe01c105b3bfa75a6f847c032efae025be0d64a46da60223724db7f67ad0a"
+      }
+    },
+    {
+      "id": "idioms:236",
+      "revisionId": "022-idioms-236",
+      "state": "accepted",
+      "predecessorHash": "ac77170bdc305be1b475a0a326c6b9e96f0fb71874297be5af3b7c14e503cb34",
+      "predecessorRevisionHash": null,
+      "originalHash": "ac77170bdc305be1b475a0a326c6b9e96f0fb71874297be5af3b7c14e503cb34",
+      "rationale": "Headword changed to the standard 失敗は成功のもと (JMdict 1320150); 元 spelling and the 母 variant (JMdict 2842361) kept as aliases. Stable ID retained.",
+      "original": {
+        "word": "失敗は成功の母",
+        "reading": "しっぱいはせいこうのはは",
+        "romaji": "shippai wa seikō no haha",
+        "aliases": null,
+        "meaning": "Misserfolg ist die Mutter des Erfolgs",
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "落ち込むな。失敗は成功の母だよ。",
+            "romaji": "Ochikomu na. Shippai wa seikō no haha da yo.",
+            "german": "Sei nicht niedergeschlagen. Misserfolg ist die Mutter des Erfolgs."
+          }
+        ]
+      },
+      "replacement": {
+        "word": "失敗は成功のもと",
+        "reading": "しっぱいはせいこうのもと",
+        "romaji": "shippai wa seikō no moto",
+        "aliases": [
+          "失敗は成功の元",
+          "失敗は成功の母"
+        ],
+        "meaning": "Aus Fehlern lernt man; Misserfolg ist der Weg zum Erfolg",
+        "notes": "Übliche Form; もと wird auch 元 geschrieben. Die Variante 失敗は成功の母 („Misserfolg ist die Mutter des Erfolgs“) ist ebenfalls gebräuchlich.",
+        "examples": [
+          {
+            "japanese": "落ち込むな。失敗は成功のもとだよ。",
+            "romaji": "Ochikomu na. Shippai wa seikō no moto da yo.",
+            "german": "Lass den Kopf nicht hängen. Aus Fehlern lernt man."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1320150; spelling=失敗は成功のもと; reading=しっぱいはせいこうのもと; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Standard proverb.",
+          "selected": {
+            "sequence": "1320150",
+            "spelling": "失敗は成功のもと",
+            "reading": "しっぱいはせいこうのもと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "proverb"
+                ],
+                "gloss": [
+                  "failure teaches success",
+                  "failure is a stepping-stone to success"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:236 after vocab-correction-rules.js",
+          "finding": "Headword changed to the standard 失敗は成功のもと (JMdict 1320150); 元 spelling and the 母 variant (JMdict 2842361) kept as aliases. Stable ID retained."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "headword-correction",
+          "alias"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Aus Fehlern lernt man; Misserfolg ist der Weg zum Erfolg\" checked against the cited dictionary evidence.",
+        "japanese": "落ち込むな。失敗は成功のもとだよ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Encouraging someone after a failure."
+        ],
+        "lexical": "Headword changed to the standard 失敗は成功のもと (JMdict 1320150); 元 spelling and the 母 variant (JMdict 2842361) kept as aliases. Stable ID retained.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 失敗は成功のもと / しっぱいはせいこうのもと",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Headword changed to the standard 失敗は成功のもと (JMdict 1320150); 元 spelling and the 母 variant (JMdict 2842361) kept as aliases. Stable ID retained.",
+        "contentHash": "cb8111786c70d595a3ebd52c65a174eb1061f3ca512ea951a48fe94618358a3f",
+        "approvalHash": "215eda964133ef448e43e45173c0e073765d0a0ac066759700024bbf193376c9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): headword 失敗は成功の母 -> standard 失敗は成功のもと (JMdict 1320150) with reading/romaji \"shippai wa seikō no moto\" updated, aliases 失敗は成功の元/失敗は成功の母 and an accurate note; example rewritten consistently (\"Lass den Kopf nicht hängen. Aus Fehlern lernt man.\"); stable ID keeps bookmarks.",
+        "contentHash": "cb8111786c70d595a3ebd52c65a174eb1061f3ca512ea951a48fe94618358a3f",
+        "approvalHash": "215eda964133ef448e43e45173c0e073765d0a0ac066759700024bbf193376c9"
+      }
+    }
+  ],
+  "decisions": [],
+  "merges": [
+    {
+      "from": "idioms:96",
+      "to": "idioms:51",
+      "equivalentSense": "Same expression 気をつける; only the kanji/kana spelling of つける differs (JMdict 1591990).",
+      "preservedContent": "Survivor keeps its content, gains 気を付ける as alias, a spelling note and a second example.",
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591990; spelling=気を付ける; reading=きをつける; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same JMdict entry as 気をつける.",
+          "selected": {
+            "sequence": "1591990",
+            "spelling": "気を付ける",
+            "reading": "きをつける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be careful",
+                  "to pay attention",
+                  "to take care"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591990; spelling=気をつける; reading=きをつける; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "JMdict 1591990 lists 気をつける and 気を付ける as one expression.",
+          "selected": {
+            "sequence": "1591990",
+            "spelling": "気をつける",
+            "reading": "きをつける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be careful",
+                  "to pay attention",
+                  "to take care"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "idioms:96 -> idioms:51",
+          "finding": "Same expression 気をつける; only the kanji/kana spelling of つける differs (JMdict 1591990)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "f197818ce766576cb0d4bebacbb361a255a3a5eaec1c51fcbd4cbe33b88406cd",
+      "toHash": "75f61d4e291c59954c13ae55b6893d769981602a8a3d24c39deecbbb8a39ec66",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "3e8d57afc00df8f624712871cc0f7dfa920c27ced7dfb1e5593fbd0052f7f008",
+        "approvalHash": "3e8d57afc00df8f624712871cc0f7dfa920c27ced7dfb1e5593fbd0052f7f008"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): ordinary merge idioms:96 -> idioms:51, equal reading きをつける (no retirement needed), same JMdict 1591990; preservedContent claim (alias, note, second example) verified in the survivor.",
+        "contentHash": "3e8d57afc00df8f624712871cc0f7dfa920c27ced7dfb1e5593fbd0052f7f008",
+        "approvalHash": "3e8d57afc00df8f624712871cc0f7dfa920c27ced7dfb1e5593fbd0052f7f008"
+      }
+    },
+    {
+      "from": "idioms:213",
+      "to": "idioms:122",
+      "equivalentSense": "Same proverb; wording without に (JMdict 2836534 duplicates 2093270's gloss).",
+      "preservedContent": "Variant wording kept as alias and in the note.",
+      "retirement": {
+        "reason": "Variant wording of the same proverb with a different reading (こうぼうも… vs こうぼうにも…).",
+        "relationship": "Standard form survives; variant is a search alias."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2836534; spelling=弘法も筆の誤り; reading=こうぼうもふでのあやまり; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Variant wording, same gloss as 2093270.",
+          "selected": {
+            "sequence": "2836534",
+            "spelling": "弘法も筆の誤り",
+            "reading": "こうぼうもふでのあやまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "proverb"
+                ],
+                "gloss": [
+                  "anyone can make a mistake",
+                  "Homer sometimes nods",
+                  "even Kōbō Daishi's handwriting contains mistakes"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2093270; spelling=弘法にも筆の誤り; reading=こうぼうにもふでのあやまり; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Standard wording in JMdict.",
+          "selected": {
+            "sequence": "2093270",
+            "spelling": "弘法にも筆の誤り",
+            "reading": "こうぼうにもふでのあやまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "proverb"
+                ],
+                "gloss": [
+                  "anyone can make a mistake",
+                  "Homer sometimes nods",
+                  "even Kōbō Daishi's handwriting contains mistakes"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "idioms:213 -> idioms:122",
+          "finding": "Same proverb; wording without に (JMdict 2836534 duplicates 2093270's gloss)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "e39bfdd9a24ffa4b319d57fc2baffcb65ad84f57639184355e1df96b02146d5b",
+      "toHash": "dd1db8d7d760261324b7c434fecff6a4656947dd48051e7f43ea003dba1a1dd8",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "3cbcb192c3acb8b5293167b07a46bf1c15b23dba5b446a9dd47c7e46730c04c1",
+        "approvalHash": "3cbcb192c3acb8b5293167b07a46bf1c15b23dba5b446a9dd47c7e46730c04c1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): retirement merge idioms:213 -> idioms:122 with reading difference (こうぼうも… vs こうぼうにも…) explicitly documented in retirement {reason, relationship}; variant kept as alias and in the note, as claimed.",
+        "contentHash": "3cbcb192c3acb8b5293167b07a46bf1c15b23dba5b446a9dd47c7e46730c04c1",
+        "approvalHash": "3cbcb192c3acb8b5293167b07a46bf1c15b23dba5b446a9dd47c7e46730c04c1"
+      }
+    },
+    {
+      "from": "idioms:187",
+      "to": "idioms:109",
+      "equivalentSense": "Same proverb about humility; non-standard rewording.",
+      "preservedContent": "Survivor note mentions the variation.",
+      "retirement": {
+        "reason": "Non-standard rewording (no dictionary entry) of the standard proverb.",
+        "relationship": "Standard form 実るほど頭を垂れる稲穂かな survives."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup idioms:187; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "実るほど頭が下がる稲穂 has no JMdict entry; the standard form 実るほど頭を垂れる稲穂かな is JMdict 2849009."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2849009; spelling=実るほど頭を垂れる稲穂かな; reading=みのるほどあたまをたれるいなほかな; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Standard form.",
+          "selected": {
+            "sequence": "2849009",
+            "spelling": "実るほど頭を垂れる稲穂かな",
+            "reading": "みのるほどあたまをたれるいなほかな",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "proverb"
+                ],
+                "gloss": [
+                  "the more learned, the more humble",
+                  "the boughs bearing the most hang lowest"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "idioms:187 -> idioms:109",
+          "finding": "Same proverb about humility; non-standard rewording."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "4d2561c7ebc80057c925eebebbb6ba9300b8bfb6a7aafc841b3192f6ea58ed6a",
+      "toHash": "2ca46c84625c8248837d0a6e4f3f27d258b4e63f87c3b25e562b2ec2936a7a26",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "24aaba79b0f113b1885efb5da546691cbfdcae836495e61cdf66ea3f40ef2c2c",
+        "approvalHash": "24aaba79b0f113b1885efb5da546691cbfdcae836495e61cdf66ea3f40ef2c2c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): retirement merge idioms:187 -> idioms:109 unchanged in substance (non-standard rewording, reason/relationship present); only toHash rebinds to the updated survivor, whose note on variants exists as claimed.",
+        "contentHash": "24aaba79b0f113b1885efb5da546691cbfdcae836495e61cdf66ea3f40ef2c2c",
+        "approvalHash": "24aaba79b0f113b1885efb5da546691cbfdcae836495e61cdf66ea3f40ef2c2c"
+      }
+    },
+    {
+      "from": "idioms:205",
+      "to": "idioms:47",
+      "equivalentSense": "Same meaning (JMdict 2834646 is a variant of 1471580).",
+      "preservedContent": "Variant kept as alias and in the note.",
+      "retirement": {
+        "reason": "Rare variant with a different reading (…かぜ vs …ねんぶつ).",
+        "relationship": "Standard 馬の耳に念仏 survives; variant is a search alias."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2834646; spelling=馬の耳に風; reading=うまのみみにかぜ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Rare variant, same meaning as 1471580.",
+          "selected": {
+            "sequence": "2834646",
+            "spelling": "馬の耳に風",
+            "reading": "うまのみみにかぜ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "preaching to the deaf",
+                  "wind (blowing) into a horse's ear"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1471580; spelling=馬の耳に念仏; reading=うまのみみにねんぶつ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Standard form.",
+          "selected": {
+            "sequence": "1471580",
+            "spelling": "馬の耳に念仏",
+            "reading": "うまのみみにねんぶつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "preaching to the deaf",
+                  "chanting the nembutsu into a horse's ear"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "idioms:205 -> idioms:47",
+          "finding": "Same meaning (JMdict 2834646 is a variant of 1471580)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "e20291ed04c67c4d9edae3d9b8dca9dead1cc2c248a0edd0e44f4f34151e3625",
+      "toHash": "c6c20a4c3917c1d0bcc2ea94124cdbe3d875ccc851540c34414a0daefbe7d99e",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "1ece59afccda53d044adc204192ab048bfb46c7ed1e93a2a497e30ac41277f62",
+        "approvalHash": "1ece59afccda53d044adc204192ab048bfb46c7ed1e93a2a497e30ac41277f62"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): retirement merge idioms:205 -> idioms:47 documents the reading difference (…かぜ vs …ねんぶつ); alias and note present on the survivor as claimed.",
+        "contentHash": "1ece59afccda53d044adc204192ab048bfb46c7ed1e93a2a497e30ac41277f62",
+        "approvalHash": "1ece59afccda53d044adc204192ab048bfb46c7ed1e93a2a497e30ac41277f62"
+      }
+    },
+    {
+      "from": "idioms:229",
+      "to": "idioms:136",
+      "equivalentSense": "知らぬが花 duplicated the meaning of 知らぬが仏 (ignorance is bliss).",
+      "preservedContent": "Survivor gains a note separating it from 言わぬが花.",
+      "retirement": {
+        "reason": "Unattested conflation of 知らぬが仏 and 言わぬが花; it duplicated 知らぬが仏.",
+        "relationship": "Attested proverb with the same meaning survives."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup idioms:229; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "知らぬが花 has no JMdict entry; 知らぬが仏 (2418960) and 言わぬが花 (1264370) are the attested proverbs."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2418960; spelling=知らぬが仏; reading=しらぬがほとけ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Ignorance is bliss.",
+          "selected": {
+            "sequence": "2418960",
+            "spelling": "知らぬが仏",
+            "reading": "しらぬがほとけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "proverb"
+                ],
+                "gloss": [
+                  "ignorance is bliss"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "idioms:229 -> idioms:136",
+          "finding": "知らぬが花 duplicated the meaning of 知らぬが仏 (ignorance is bliss)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "fe6e003a1319da0d9c9e6d98eb4e625fab89190de824dd9488e3b85a30419ab3",
+      "toHash": "d1f1945b2132a5744b1b6391c8afc0a4e86643a9c395c74474b0408b391e4182",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "38a69c9b757422bff4d343064270b60361abbc44ad8053d314b55c34fe33c198",
+        "approvalHash": "38a69c9b757422bff4d343064270b60361abbc44ad8053d314b55c34fe33c198"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): retirement merge idioms:229 -> idioms:136 is the right target (meaning duplicates 知らぬが仏, not 言わぬが花); survivor note present as claimed.",
+        "contentHash": "38a69c9b757422bff4d343064270b60361abbc44ad8053d314b55c34fe33c198",
+        "approvalHash": "38a69c9b757422bff4d343064270b60361abbc44ad8053d314b55c34fe33c198"
+      }
+    },
+    {
+      "from": "idioms:222",
+      "to": "vocab-n3:1178",
+      "equivalentSense": "得意技を持て merely told the learner to have a special skill; no proverb exists.",
+      "preservedContent": "Survivor 特技 is unchanged; nothing from the invented sentence is carried over.",
+      "retirement": {
+        "reason": "Invented pseudo-proverb (no dictionary entry).",
+        "relationship": "Closest real word: 特技 (special skill)."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup idioms:222; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "得意技を持て has no JMdict entry; 得意技 (2424840) is a martial-arts signature move and 特技 (1454740) is special skill."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1454740; spelling=特技; reading=とくぎ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Special skill.",
+          "selected": {
+            "sequence": "1454740",
+            "spelling": "特技",
+            "reading": "とくぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "special skill"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "idioms:222 -> vocab-n3:1178",
+          "finding": "得意技を持て merely told the learner to have a special skill; no proverb exists."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "edaff0a7dba2ff2cc9b4b344e26c49445b6face29b97b91bca592a058badd115",
+      "toHash": "ece680645f3af2c66126fed61b62567c70e344fd0c2e5ec2631ccf0642cf12ad",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "9dc41568c509c81693aa1657e961bc4f3b46f245b735190ee015402d7b4c4099",
+        "approvalHash": "9dc41568c509c81693aa1657e961bc4f3b46f245b735190ee015402d7b4c4099"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): retirement merge idioms:222 -> vocab-n3:1178 honestly states nothing is carried over and gives reason (invented pseudo-proverb) and relationship (closest real word 特技); bookmarks land on a real, related entry.",
+        "contentHash": "9dc41568c509c81693aa1657e961bc4f3b46f245b735190ee015402d7b4c4099",
+        "approvalHash": "9dc41568c509c81693aa1657e961bc4f3b46f245b735190ee015402d7b4c4099"
+      }
+    },
+    {
+      "from": "idioms:71",
+      "to": "yojijukugo:16",
+      "equivalentSense": "Identical expression and reading.",
+      "preservedContent": "Yojijukugo entry already has two examples covering the sense.",
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1164160; spelling=一石二鳥; reading=いっせきにちょう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1164160",
+            "spelling": "一石二鳥",
+            "reading": "いっせきにちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "killing two birds with one stone"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1164160; spelling=一石二鳥; reading=いっせきにちょう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1164160",
+            "spelling": "一石二鳥",
+            "reading": "いっせきにちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "killing two birds with one stone"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "idioms:71 -> yojijukugo:16",
+          "finding": "Identical expression and reading."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "640e8d50bc2f256a9ab4db567dcbe2f3152bd035264655bf94f85c43499fd7ac",
+      "toHash": "b9a749b0aa193907d274f01c088002fb804157ab1f6c1cc2973dcd1ce3d66e24",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "395a3d267b33d3d2443cdfcfe9cc5419fa5da829aeb4a48a13b213009de7c03b",
+        "approvalHash": "395a3d267b33d3d2443cdfcfe9cc5419fa5da829aeb4a48a13b213009de7c03b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): ordinary merge idioms:71 -> yojijukugo:16, identical expression and reading; preservedContent (two survivor examples) verified.",
+        "contentHash": "395a3d267b33d3d2443cdfcfe9cc5419fa5da829aeb4a48a13b213009de7c03b",
+        "approvalHash": "395a3d267b33d3d2443cdfcfe9cc5419fa5da829aeb4a48a13b213009de7c03b"
+      }
+    },
+    {
+      "from": "idioms:115",
+      "to": "yojijukugo:0",
+      "equivalentSense": "Identical expression and reading.",
+      "preservedContent": "Yojijukugo entry already has two examples, including the travel context.",
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1161700; spelling=一期一会; reading=いちごいちえ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1161700",
+            "spelling": "一期一会",
+            "reading": "いちごいちえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "once-in-a-lifetime encounter",
+                  "uniquely precious experience",
+                  "one lifetime, one meeting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1161700; spelling=一期一会; reading=いちごいちえ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1161700",
+            "spelling": "一期一会",
+            "reading": "いちごいちえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "once-in-a-lifetime encounter",
+                  "uniquely precious experience",
+                  "one lifetime, one meeting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "idioms:115 -> yojijukugo:0",
+          "finding": "Identical expression and reading."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "26b9234608d529a37394121566d0ec89b0c4e096911eae278826b1ba5c7cf095",
+      "toHash": "2f29d8a77e038144a5bc32e7eeecc06cb44ffb1064e0f3b288e37d2d41e6ae43",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "32bd2239837bc8e583160129791e32d4459b65ceb16f9c4ea8c407a049e980ca",
+        "approvalHash": "32bd2239837bc8e583160129791e32d4459b65ceb16f9c4ea8c407a049e980ca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): ordinary merge idioms:115 -> yojijukugo:0, identical expression and reading; travel context present in survivor as claimed.",
+        "contentHash": "32bd2239837bc8e583160129791e32d4459b65ceb16f9c4ea8c407a049e980ca",
+        "approvalHash": "32bd2239837bc8e583160129791e32d4459b65ceb16f9c4ea8c407a049e980ca"
+      }
+    },
+    {
+      "from": "idioms:116",
+      "to": "yojijukugo:3",
+      "equivalentSense": "Identical expression and reading.",
+      "preservedContent": "Yojijukugo example covers the same exam context.",
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1317570; spelling=自業自得; reading=じごうじとく; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1317570",
+            "spelling": "自業自得",
+            "reading": "じごうじとく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "paying for one's mistakes",
+                  "getting one's just deserts",
+                  "suffering the consequences (of one's own actions)",
+                  "reap what you sow"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1317570; spelling=自業自得; reading=じごうじとく; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1317570",
+            "spelling": "自業自得",
+            "reading": "じごうじとく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "paying for one's mistakes",
+                  "getting one's just deserts",
+                  "suffering the consequences (of one's own actions)",
+                  "reap what you sow"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "idioms:116 -> yojijukugo:3",
+          "finding": "Identical expression and reading."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "a18377dc013c0bff69dd5bcc7ffb1d234a3021267eba881fd1c1a1063e61e4d9",
+      "toHash": "ba7983b3cd30a720e5ed113af0ce8c16012e2b403786d19662ad166d2fb54445",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "6f8840016822c3a1672ccfc99593e56e380f5a8583ae9d3ff27296e931b2fd4f",
+        "approvalHash": "6f8840016822c3a1672ccfc99593e56e380f5a8583ae9d3ff27296e931b2fd4f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): ordinary merge idioms:116 -> yojijukugo:3, identical expression and reading; survivor example covers the exam context as claimed.",
+        "contentHash": "6f8840016822c3a1672ccfc99593e56e380f5a8583ae9d3ff27296e931b2fd4f",
+        "approvalHash": "6f8840016822c3a1672ccfc99593e56e380f5a8583ae9d3ff27296e931b2fd4f"
+      }
+    },
+    {
+      "from": "idioms:120",
+      "to": "yojijukugo:24",
+      "equivalentSense": "Identical expression and reading.",
+      "preservedContent": "The retired idioms example is added to the survivor as its second example.",
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1155130; spelling=以心伝心; reading=いしんでんしん; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1155130",
+            "spelling": "以心伝心",
+            "reading": "いしんでんしん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "telepathy",
+                  "tacit understanding",
+                  "thought transference",
+                  "communion of mind with mind"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1155130; spelling=以心伝心; reading=いしんでんしん; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same expression.",
+          "selected": {
+            "sequence": "1155130",
+            "spelling": "以心伝心",
+            "reading": "いしんでんしん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "telepathy",
+                  "tacit understanding",
+                  "thought transference",
+                  "communion of mind with mind"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "idioms:120 -> yojijukugo:24",
+          "finding": "Identical expression and reading."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "770d9838daa6c7c50ea7eb88cfa2858e3da4d9cabcf724efaa43ceb5719342ef",
+      "toHash": "ce738c949afcd9fa95c61daa2f3504fb5e346abc7118b8d9dfdd08b7eb0c67d7",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "d6e99d91aa560a2e007db54fff99a9d43ebce11a205624699ff60b912d0972c1",
+        "approvalHash": "d6e99d91aa560a2e007db54fff99a9d43ebce11a205624699ff60b912d0972c1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): ordinary merge idioms:120 -> yojijukugo:24, identical expression and reading; the retired example is present as the survivor's second example, as claimed.",
+        "contentHash": "d6e99d91aa560a2e007db54fff99a9d43ebce11a205624699ff60b912d0972c1",
+        "approvalHash": "d6e99d91aa560a2e007db54fff99a9d43ebce11a205624699ff60b912d0972c1"
+      }
+    }
+  ]
+}

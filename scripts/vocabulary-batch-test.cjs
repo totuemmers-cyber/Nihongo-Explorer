@@ -178,3 +178,41 @@ console.log('Candidate addition and sample-defect packaging regressions passed')
  } finally {fs.rmSync(tmp,{recursive:true,force:true});}
 }
 console.log('Full-validator candidate addition import regression passed');
+// Correction-driven additions use an explicit fixed ID roster without candidate decisions.
+{
+  const {prepareAdditionPacket}=require('./vocabulary-batch.cjs');
+  const did='vocab-n5:correction:direct-test',dEntry={...project(items[1]),senseKey:'direct-test'};
+  const dp=prepareAdditionPacket(plan,[did]);
+  assert.equal(dp.kind,'addition');assert.deepStrictEqual(dp.additionIds,[did]);
+  const direct={...record,id:did,entry:dEntry,revisionId:'direct-1',predecessorHash:null,predecessorRevisionHash:null,
+    reason:'Reported missing word',levelBasis:'Synthetic N5 basis',policy:{id:POLICY_ID,risk:'consequential',reasons:['addition'],enrichmentRequired:true,sampled:false}};
+  delete direct.originalHash;
+  const da=assemble(dp,{version:3,reviews:[],additions:[direct],decisions:[]},plan);
+  assert(!da.batch.additions[0].policy.candidateReference);assert.equal(approvalTargets(da).length,1);
+  assert.throws(()=>assemble(dp,{version:3,reviews:[],additions:[{...direct,id:'vocab-n5:correction:other'}]},plan),/fixed addition roster/);
+  assert.throws(()=>assemble(dp,{version:3,reviews:[],additions:[{...direct,levelBasis:''}]},plan),/reason and level basis/);
+  assert.throws(()=>prepareAdditionPacket(plan,[items[0].id]),/Invalid or existing/);
+  assert.throws(()=>prepareAdditionPacket(plan,[did,did]),/Invalid correction-driven/);
+  assert.throws(()=>assemble(dp,{version:3,reviews:[],additions:[direct]},{...plan,items:[...plan.items,{...dEntry,id:did}]}),/addition ID now exists/);
+  console.log('Correction-driven addition packet regression passed');
+}
+// Merges and documented retirements are assembled, bound and approved like other targets.
+{
+  const {mergeHash}=require('./vocabulary-review-workflow.cjs');
+  const mp=preparePackets(plan,{ids:[items[2].id,items[3].id],evidence:false}).packets[0];
+  const rev=(e,i)=>({...record,id:e.id,revisionId:'merge-review-'+i,originalHash:e.sourceHash,predecessorHash:e.sourceHash,
+    policy:{id:POLICY_ID,risk:'consequential',reasons:['merge'],enrichmentRequired:false,sampled:false}});
+  const merge={from:items[2].id,to:items[3].id,state:'accepted',predecessorMergeHash:null,equivalentSense:'Synthetic variant',preservedContent:'Survivor keeps content',
+    evidence:[{source:'Fixture',version:'1',locator:'fixture',finding:'Synthetic'}],retirement:{reason:'Invented form',relationship:'Closest surviving entry'},
+    policy:{id:POLICY_ID,risk:'consequential',reasons:['merge'],enrichmentRequired:false,sampled:false}};
+  const ma=assemble(mp,{version:3,reviews:mp.entries.map(rev),merges:[merge]},plan);
+  const mt=approvalTargets(ma).find(t=>t.target==='merge:'+items[2].id);
+  assert(mt&&mt.contentHash===mergeHash(ma.batch.merges[0]));
+  assert.equal(ma.batch.merges[0].fromHash,hash(ma.finalContent[items[2].id]));
+  const mf=approve(ma,approvalTargets(ma).map(t=>({...t,pass:'firstPass',decision:'accepted',reviewer:'editor',finding:'Synthetic'})));
+  assert(mf.batch.merges[0].firstPass);
+  assert.throws(()=>assemble(mp,{version:3,reviews:mp.entries.map(rev),merges:[{...merge,from:items[9].id}]},plan),/Merge source outside/);
+  assert.throws(()=>assemble(mp,{version:3,reviews:mp.entries.map(rev),merges:[{...merge,retirement:{reason:''}}]},plan),/Retirement needs/);
+  const changed=copy(ma);changed.batch.merges[0].retirement.reason='other';assert.throws(()=>approve(changed,[]),/Assembly changed/);
+  console.log('Merge and retirement assembly regression passed');
+}

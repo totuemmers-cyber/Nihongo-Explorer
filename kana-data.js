@@ -201,5 +201,90 @@ window.KANA_DATA = {
       { h: 'ぴゅ', k: 'ピュ', r: 'pyu' },
       { h: 'ぴょ', k: 'ピョ', r: 'pyo' }
     ]}
+  ],
+
+  // Extended katakana for loanword sounds (shown in katakana mode only).
+  // h is the hiragana spelling used for speech playback.
+  extended: [
+    { row: 'h', label: 'フ', chars: [
+      { h: 'ふぁ', k: 'ファ', r: 'fa' },
+      { h: 'ふぃ', k: 'フィ', r: 'fi' },
+      null,
+      { h: 'ふぇ', k: 'フェ', r: 'fe' },
+      { h: 'ふぉ', k: 'フォ', r: 'fo' }
+    ]},
+    { row: 'b', label: 'ヴ', chars: [
+      { h: 'ゔぁ', k: 'ヴァ', r: 'va' },
+      { h: 'ゔぃ', k: 'ヴィ', r: 'vi' },
+      { h: 'ゔ', k: 'ヴ', r: 'vu' },
+      { h: 'ゔぇ', k: 'ヴェ', r: 've' },
+      { h: 'ゔぉ', k: 'ヴォ', r: 'vo' }
+    ]},
+    { row: 'w', label: 'ウ', chars: [
+      null,
+      { h: 'うぃ', k: 'ウィ', r: 'wi' },
+      null,
+      { h: 'うぇ', k: 'ウェ', r: 'we' },
+      { h: 'うぉ', k: 'ウォ', r: 'wo' }
+    ]},
+    { row: 't', label: 'テ・ト', chars: [
+      null,
+      { h: 'てぃ', k: 'ティ', r: 'ti' },
+      { h: 'とぅ', k: 'トゥ', r: 'tu' },
+      null,
+      null
+    ]},
+    { row: 'd', label: 'デ・ド', chars: [
+      null,
+      { h: 'でぃ', k: 'ディ', r: 'di' },
+      { h: 'どぅ', k: 'ドゥ', r: 'du' },
+      null,
+      null
+    ]},
+    { row: 't', label: 'ツ', chars: [
+      { h: 'つぁ', k: 'ツァ', r: 'tsa' },
+      { h: 'つぃ', k: 'ツィ', r: 'tsi' },
+      null,
+      { h: 'つぇ', k: 'ツェ', r: 'tse' },
+      { h: 'つぉ', k: 'ツォ', r: 'tso' }
+    ]},
+    { row: 's', label: 'シ', chars: [null, null, null, { h: 'しぇ', k: 'シェ', r: 'she' }, null] },
+    { row: 'z', label: 'ジ', chars: [null, null, null, { h: 'じぇ', k: 'ジェ', r: 'je' }, null] },
+    { row: 't', label: 'チ', chars: [null, null, null, { h: 'ちぇ', k: 'チェ', r: 'che' }, null] },
+    { row: 'y', label: 'イ', chars: [null, null, null, { h: 'いぇ', k: 'イェ', r: 'ye' }, null] }
+  ],
+
+  // Small characters and marks that are not syllables of their own.
+  special: [
+    { h: 'っ', k: 'ッ', name: 'Sokuon (促音)',
+      note: 'Kleines tsu: Der folgende Konsonant wird verdoppelt – man hält vor ihm kurz inne.',
+      examples: [
+        { word: 'きって', romaji: 'kitte', german: 'Briefmarke' },
+        { word: 'ベッド', romaji: 'beddo', german: 'Bett' }
+      ]},
+    { h: 'ー', k: 'ー', name: 'Chōonpu (長音符)',
+      note: 'Verlängert den vorangehenden Vokal, fast nur in Katakana. In Hiragana schreibt man den langen Vokal aus.',
+      examples: [
+        { word: 'コーヒー', romaji: 'kōhī', german: 'Kaffee' },
+        { word: 'おかあさん', romaji: 'okāsan', german: 'Mutter' }
+      ]},
+    { h: 'ぁぃぅぇぉ', k: 'ァィゥェォ', name: 'Kleine Vokale',
+      note: 'Bilden mit dem vorangehenden Zeichen einen neuen Laut, vor allem in Lehnwörtern (siehe erweiterte Katakana).',
+      examples: [
+        { word: 'パーティー', romaji: 'pātī', german: 'Party' },
+        { word: 'フォーク', romaji: 'fōku', german: 'Gabel' }
+      ]},
+    { h: '々', k: '々', name: 'Wiederholungszeichen (踊り字)',
+      note: 'Wiederholt das vorangehende Kanji; der zweite Teil wird dabei oft stimmhaft.',
+      examples: [
+        { word: '人々', romaji: 'hitobito', german: 'die Leute' },
+        { word: '時々', romaji: 'tokidoki', german: 'manchmal' }
+      ]},
+    { h: 'ゐ・ゑ', k: 'ヰ・ヱ', name: 'Historische Kana (wi, we)',
+      note: 'Seit der Schriftreform von 1946 durch い und え ersetzt; man sieht sie heute nur noch in Namen und Marken.',
+      examples: [
+        { word: 'ヱビス', romaji: 'Ebisu', german: 'Biermarke (Ebisu)' },
+        { word: 'ウヰスキー', romaji: 'uisukī', german: 'Whisky (alte Schreibung)' }
+      ]}
   ]
 };

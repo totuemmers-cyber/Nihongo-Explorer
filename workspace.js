@@ -538,9 +538,13 @@
   document.getElementById('counters-controls').prepend(counterToggle);
   counterToggle.onclick = function (e) { if (e.target.dataset.counterView) setCounterView(e.target.dataset.counterView); };
   var jumps = document.createElement('nav'); jumps.className = 'kana-jumps'; jumps.setAttribute('aria-label', 'Kana-Tabellen');
-  ['Basis', 'Dakuten', 'Kombinationen'].forEach(function (text, i) {
+  ['Basis', 'Dakuten', 'Kombinationen', 'Sonderzeichen'].forEach(function (text, i) {
     var button = document.createElement('button'); button.textContent = text;
-    button.onclick = function () { var target = document.querySelectorAll('.kana-section')[i]; target.tabIndex = -1; target.focus(); target.scrollIntoView({ block: 'start' }); };
+    button.onclick = function () {
+      // The extended-katakana section only exists in katakana mode, so the last jump finds its section by content.
+      var target = i === 3 ? document.querySelector('.kana-special-table').closest('.kana-section') : document.querySelectorAll('.kana-section')[i];
+      target.tabIndex = -1; target.focus(); target.scrollIntoView({ block: 'start' });
+    };
     jumps.appendChild(button);
   });
   document.querySelector('.kana-toggle').after(jumps);

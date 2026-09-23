@@ -1,0 +1,2962 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "yojijukugo:149",
+      "revisionId": "022-yojijukugo-149",
+      "state": "accepted",
+      "predecessorHash": "df526dd49dfd58f2ba6d05b62f4029d8d278f6cc9cb2b2a009f7e9cd8d631427",
+      "predecessorRevisionHash": null,
+      "originalHash": "df526dd49dfd58f2ba6d05b62f4029d8d278f6cc9cb2b2a009f7e9cd8d631427",
+      "rationale": "起立礼着 is not a word (no dictionary entry); the real school routine is the three commands 起立・礼・着席. Retired into お辞儀 (vocab-n5:663), the ordinary word for the bow.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup 起立礼着 / きりつれいちゃく; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "起立礼着 has no JMdict entry."
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:149 after vocab-correction-rules.js",
+          "finding": "起立礼着 is not a word (no dictionary entry); the real school routine is the three commands 起立・礼・着席. Retired into お辞儀 (vocab-n5:663), the ordinary word for the bow."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Aufstehen, Verbeugung, Setzen (Schulritual)\" checked against the cited dictionary evidence.",
+        "japanese": "授業の始まりに起立礼着をする。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Start-of-class ritual."
+        ],
+        "lexical": "起立礼着 is not a word (no dictionary entry); the real school routine is the three commands 起立・礼・着席. Retired into お辞儀 (vocab-n5:663), the ordinary word for the bow.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 起立礼着 / きりつれいちゃく",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 起立礼着 is not a word (no dictionary entry); the real school routine is the three commands 起立・礼・着席. Retired into お辞儀 (vocab-n5:663), the ordinary word for the bow.",
+        "contentHash": "df526dd49dfd58f2ba6d05b62f4029d8d278f6cc9cb2b2a009f7e9cd8d631427",
+        "approvalHash": "af1bc5f11bd7a1962c69b218bf218d02a84038849219d0e4d5dd18dc9616bbb8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 起立礼着 has no dictionary entry (lookup empty); the real routine is 起立・礼・着席, and retiring into お辞儀 (vocab-n5:663) with a note naming the routine is a sensible survivor (no 起立/着席 entries exist in the vocab files).",
+        "contentHash": "df526dd49dfd58f2ba6d05b62f4029d8d278f6cc9cb2b2a009f7e9cd8d631427",
+        "approvalHash": "af1bc5f11bd7a1962c69b218bf218d02a84038849219d0e4d5dd18dc9616bbb8"
+      }
+    },
+    {
+      "id": "vocab-n5:663",
+      "revisionId": "022-vocab-n5-663",
+      "state": "accepted",
+      "predecessorHash": "90407cd517d2c62de8099e88ae7631bbcb216db3a484d9da9c4d9f62ae34f349",
+      "predecessorRevisionHash": null,
+      "originalHash": "90407cd517d2c62de8099e88ae7631bbcb216db3a484d9da9c4d9f62ae34f349",
+      "rationale": "Surviving target for the retired 起立礼着; note and a new second example show the real routine 起立・礼・着席 (the old second example nearly repeated the first). Unattested pitch set to unknown.",
+      "original": {
+        "notes": null,
+        "pitch": 0,
+        "examples": [
+          {
+            "japanese": "お辞儀をします。",
+            "romaji": "Ojigi o shimasu.",
+            "german": "Ich verbeuge mich."
+          },
+          {
+            "japanese": "日本ではお辞儀をします。",
+            "romaji": "Nihon de wa ojigi o shimasu.",
+            "german": "In Japan verbeugt man sich."
+          }
+        ]
+      },
+      "replacement": {
+        "notes": "Im Unterricht rufen japanische Schulen oft 起立、礼、着席（aufstehen – verbeugen – setzen）.",
+        "pitch": null,
+        "examples": [
+          {
+            "japanese": "お辞儀をします。",
+            "romaji": "Ojigi o shimasu.",
+            "german": "Ich verbeuge mich."
+          },
+          {
+            "japanese": "授業の初めに「起立、礼、着席」と言って、先生にお辞儀をします。",
+            "romaji": "Jugyou no hajime ni \"kiritsu, rei, chakuseki\" to itte, sensei ni ojigi o shimasu.",
+            "german": "Zu Beginn des Unterrichts sagt man „Aufstehen, verbeugen, setzen“ und verbeugt sich vor der Lehrkraft."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1002030; spelling=お辞儀; reading=おじぎ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Bow, bowing.",
+          "selected": {
+            "sequence": "1002030",
+            "spelling": "お辞儀",
+            "reading": "おじぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "bow",
+                  "bowing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n5:663 after vocab-correction-rules.js",
+          "finding": "Surviving target for the retired 起立礼着; note and a new second example show the real routine 起立・礼・着席 (the old second example nearly repeated the first). Unattested pitch set to unknown."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "note-added",
+          "pitch-unverified",
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Verbeugung\" checked against the cited dictionary evidence.",
+        "japanese": "お辞儀をします。 / 授業の初めに「起立、礼、着席」と言って、先生にお辞儀をします。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Bowing (polite form).",
+          "Classroom routine 起立・礼・着席."
+        ],
+        "lexical": "Surviving target for the retired 起立礼着; note and a new second example show the real routine 起立・礼・着席 (the old second example nearly repeated the first). Unattested pitch set to unknown.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact UniDic row for お辞儀 / オジギ in the cached scan or supplement; previous 0 unattested.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup お辞儀 / おじぎ",
+            "finding": "No exact UniDic row for お辞儀 / オジギ in the cached scan or supplement; previous 0 unattested."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Surviving target for the retired 起立礼着; note and a new second example show the real routine 起立・礼・着席 (the old second example nearly repeated the first). Unattested pitch set to unknown.",
+        "contentHash": "4806d1219b3edbeffa1996436d63be62b6a3e1e959c43f8b23445999b854612a",
+        "approvalHash": "45fdbb0458e6d6a7bfeaa8f409e380625adca82307617ceb7e798bfbf2c0fd95"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): the near-duplicate second example is replaced by 授業の初めに「起立、礼、着席」と言って、先生にお辞儀をします (romaji Jugyou … kiritsu, rei, chakuseki … ojigi, N5 doubled-vowel style), a real classroom context; note accurate; pitch null correct (no オジギ row in UniDic, verified).",
+        "contentHash": "4806d1219b3edbeffa1996436d63be62b6a3e1e959c43f8b23445999b854612a",
+        "approvalHash": "45fdbb0458e6d6a7bfeaa8f409e380625adca82307617ceb7e798bfbf2c0fd95"
+      }
+    },
+    {
+      "id": "yojijukugo:152",
+      "revisionId": "022-yojijukugo-152",
+      "state": "accepted",
+      "predecessorHash": "31c4352a8aad18c304bcc29d87009132d39af22e9945989f128c1182c9db9195",
+      "predecessorRevisionHash": null,
+      "originalHash": "31c4352a8aad18c304bcc29d87009132d39af22e9945989f128c1182c9db9195",
+      "rationale": "大切気持 is not a word (no dictionary entry; ungrammatical juxtaposition). Retired into 気持ち (vocab-n5:665).",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup 大切気持 / たいせつきもち; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "大切気持 has no JMdict entry."
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:152 after vocab-correction-rules.js",
+          "finding": "大切気持 is not a word (no dictionary entry; ungrammatical juxtaposition). Retired into 気持ち (vocab-n5:665)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Wertvolle Gefühle; Gefühle wertschätzen\" checked against the cited dictionary evidence.",
+        "japanese": "相手の気持ちを大切にしよう。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Valuing another person's feelings."
+        ],
+        "lexical": "大切気持 is not a word (no dictionary entry; ungrammatical juxtaposition). Retired into 気持ち (vocab-n5:665).",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 大切気持 / たいせつきもち",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 大切気持 is not a word (no dictionary entry; ungrammatical juxtaposition). Retired into 気持ち (vocab-n5:665).",
+        "contentHash": "31c4352a8aad18c304bcc29d87009132d39af22e9945989f128c1182c9db9195",
+        "approvalHash": "e3ef3a26056c60b4a88c88ad7cad848abfadd55394dbc09c342829ee9a1dd285"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 大切気持 has no dictionary entry and is ungrammatical; retirement into 気持ち (vocab-n5:665) is sensible.",
+        "contentHash": "31c4352a8aad18c304bcc29d87009132d39af22e9945989f128c1182c9db9195",
+        "approvalHash": "e3ef3a26056c60b4a88c88ad7cad848abfadd55394dbc09c342829ee9a1dd285"
+      }
+    },
+    {
+      "id": "vocab-n5:665",
+      "revisionId": "022-vocab-n5-665",
+      "state": "accepted",
+      "predecessorHash": "90410c0f8f2a1e74cb67f34c5efcc75dc3fbe43e6cb0b91400b8ba07aef63b52",
+      "predecessorRevisionHash": null,
+      "originalHash": "90410c0f8f2a1e74cb67f34c5efcc75dc3fbe43e6cb0b91400b8ba07aef63b52",
+      "rationale": "Surviving target for the retired 大切気持; its example 相手の気持ちを大切にしよう replaces the near-duplicate second example (いい気持ち), preserving the retired entry’s useful context.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "気持ちがいいです。",
+            "romaji": "Kimochi ga ii desu.",
+            "german": "Es fühlt sich gut an."
+          },
+          {
+            "japanese": "今日はいい気持ちです。",
+            "romaji": "Kyou wa ii kimochi desu.",
+            "german": "Heute fühle ich mich gut."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "気持ちがいいです。",
+            "romaji": "Kimochi ga ii desu.",
+            "german": "Es fühlt sich gut an."
+          },
+          {
+            "japanese": "相手の気持ちを大切にしよう。",
+            "romaji": "Aite no kimochi o taisetsu ni shiyou.",
+            "german": "Lass uns die Gefühle anderer respektieren."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105597430",
+            "patterns": [
+              0
+            ],
+            "finding": "気持ち / キモチ; 名詞/普通名詞/一般/*; *; *; lemma 気持ち; aType 0. Common-noun row attests existing 0.",
+            "match": {
+              "word": "気持ち",
+              "reading": "きもち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気持ち as \"Gefühl\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591430; spelling=気持ち; reading=きもち; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Feeling.",
+          "selected": {
+            "sequence": "1591430",
+            "spelling": "気持ち",
+            "reading": "きもち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "feeling",
+                  "sensation",
+                  "mood",
+                  "state of mind"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n5:665 after vocab-correction-rules.js",
+          "finding": "Surviving target for the retired 大切気持; its example 相手の気持ちを大切にしよう replaces the near-duplicate second example (いい気持ち), preserving the retired entry’s useful context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Gefühl\" checked against the cited dictionary evidence.",
+        "japanese": "気持ちがいいです。 / 相手の気持ちを大切にしよう。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Something feels good.",
+          "Respecting other people’s feelings."
+        ],
+        "lexical": "Surviving target for the retired 大切気持; its example 相手の気持ちを大切にしよう replaces the near-duplicate second example (いい気持ち), preserving the retired entry’s useful context.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Common-noun row attests existing 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105597430",
+            "patterns": [
+              0
+            ],
+            "finding": "気持ち / キモチ; 名詞/普通名詞/一般/*; *; *; lemma 気持ち; aType 0. Common-noun row attests existing 0.",
+            "match": {
+              "word": "気持ち",
+              "reading": "きもち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気持ち as \"Gefühl\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Surviving target for the retired 大切気持; its example 相手の気持ちを大切にしよう replaces the near-duplicate second example (いい気持ち), preserving the retired entry’s useful context.",
+        "contentHash": "43b9ba409f89e25898cd1b4f8da901409d829d4152c37e552fc5db40381a6bd7",
+        "approvalHash": "3abc56f535f2d6eadefc2c985c811aa895cd69dd463817adb3cd45f66bc596f1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): second example is now the retired 相手の気持ちを大切にしよう (Aite no kimochi o taisetsu ni shiyou; \"die Gefühle anderer respektieren\"), distinct from 気持ちがいいです and preserving the retired entry's content; pitch 0 = sys.dic@105597430.",
+        "contentHash": "43b9ba409f89e25898cd1b4f8da901409d829d4152c37e552fc5db40381a6bd7",
+        "approvalHash": "3abc56f535f2d6eadefc2c985c811aa895cd69dd463817adb3cd45f66bc596f1"
+      }
+    },
+    {
+      "id": "yojijukugo:159",
+      "revisionId": "022-yojijukugo-159",
+      "state": "accepted",
+      "predecessorHash": "99f71f0b1fe4af7896a8af81b91efd65dac00b6f70f9c782369fc3acd5cc1609",
+      "predecessorRevisionHash": null,
+      "originalHash": "99f71f0b1fe4af7896a8af81b91efd65dac00b6f70f9c782369fc3acd5cc1609",
+      "rationale": "右左右左 is not a word (no dictionary entry). Retired into 左右 (vocab-n5:843), whose example 左右を確認してください covers the same road-safety context.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup 右左右左 / みぎひだりみぎひだり; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "右左右左 has no JMdict entry."
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:159 after vocab-correction-rules.js",
+          "finding": "右左右左 is not a word (no dictionary entry). Retired into 左右 (vocab-n5:843), whose example 左右を確認してください covers the same road-safety context."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Rechts, links, rechts, links (beim Überqueren der Straße schauen)\" checked against the cited dictionary evidence.",
+        "japanese": "道を渡る時は右左右左を確認してね。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Looking both ways before crossing."
+        ],
+        "lexical": "右左右左 is not a word (no dictionary entry). Retired into 左右 (vocab-n5:843), whose example 左右を確認してください covers the same road-safety context.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 右左右左 / みぎひだりみぎひだり",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 右左右左 is not a word (no dictionary entry). Retired into 左右 (vocab-n5:843), whose example 左右を確認してください covers the same road-safety context.",
+        "contentHash": "99f71f0b1fe4af7896a8af81b91efd65dac00b6f70f9c782369fc3acd5cc1609",
+        "approvalHash": "11f2c56b67c3f8bdbbc3a78cf98f474a50862d75f29d3e16004a3b41ccca1ce9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 右左右左 has no dictionary entry; retirement into 左右 (vocab-n5:843), whose example 左右を確認してください covers the road-safety context, is sensible.",
+        "contentHash": "99f71f0b1fe4af7896a8af81b91efd65dac00b6f70f9c782369fc3acd5cc1609",
+        "approvalHash": "11f2c56b67c3f8bdbbc3a78cf98f474a50862d75f29d3e16004a3b41ccca1ce9"
+      }
+    },
+    {
+      "id": "vocab-n5:843",
+      "revisionId": "022-vocab-n5-843",
+      "state": "accepted",
+      "predecessorHash": "f04f6ba328e692fa73904c3fdbadc2bed65262e18a31e5f99ee5401dcb10a968",
+      "predecessorRevisionHash": null,
+      "originalHash": "f04f6ba328e692fa73904c3fdbadc2bed65262e18a31e5f99ee5401dcb10a968",
+      "rationale": "Surviving target for the retired 右左右左; pitch corrected to the attested 1.",
+      "original": {
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132336436",
+            "patterns": [
+              1
+            ],
+            "finding": "左右 / サユウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 左右; aType 1. Exact row attests 1; previous 0 contradicted.",
+            "match": {
+              "word": "左右",
+              "reading": "さゆう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "左右 as \"links und rechts\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1290810; spelling=左右; reading=さゆう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Left and right.",
+          "selected": {
+            "sequence": "1290810",
+            "spelling": "左右",
+            "reading": "さゆう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "left and right",
+                  "right and left"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime vocab-n5:843 after vocab-correction-rules.js",
+          "finding": "Surviving target for the retired 右左右左; pitch corrected to the attested 1."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"links und rechts\" checked against the cited dictionary evidence.",
+        "japanese": "ジャケットの左右にはポケットがあります。 / 左右を確認してください。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Pockets on both sides of a jacket.",
+          "Looking left and right."
+        ],
+        "lexical": "Surviving target for the retired 右左右左; pitch corrected to the attested 1.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact row attests 1; previous 0 contradicted.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132336436",
+            "patterns": [
+              1
+            ],
+            "finding": "左右 / サユウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 左右; aType 1. Exact row attests 1; previous 0 contradicted.",
+            "match": {
+              "word": "左右",
+              "reading": "さゆう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "左右 as \"links und rechts\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Surviving target for the retired 右左右左; pitch corrected to the attested 1.",
+        "contentHash": "dd351ba1437d94f72758eafe7cbfa4b8f957edeb8e7e7ad9a0e328ec17f009d5",
+        "approvalHash": "d0741582ad3e2200c362c28a6b71dfc91c67020c2490cf334647005ebe991dcd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): pitch 0 -> 1 is correct per sys.dic@132336436 左右/サユウ aType 1 (only row); jacket pockets and 左右を確認 are distinct contexts.",
+        "contentHash": "dd351ba1437d94f72758eafe7cbfa4b8f957edeb8e7e7ad9a0e328ec17f009d5",
+        "approvalHash": "d0741582ad3e2200c362c28a6b71dfc91c67020c2490cf334647005ebe991dcd"
+      }
+    },
+    {
+      "id": "yojijukugo:150",
+      "revisionId": "022-yojijukugo-150",
+      "state": "accepted",
+      "predecessorHash": "9e1f541829fa3f67e559226317a9cfb2843b937b2b96fc3720bc8493f6d628b8",
+      "predecessorRevisionHash": null,
+      "originalHash": "9e1f541829fa3f67e559226317a9cfb2843b937b2b96fc3720bc8493f6d628b8",
+      "rationale": "家族全員 is an ordinary noun phrase (家族 + 全員), not a four-character idiom, and has no dictionary entry. Retired into 家族 (vocab-n5:8).",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup 家族全員 / かぞくぜんいん; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "家族全員 has no JMdict entry; it is compositional."
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:150 after vocab-correction-rules.js",
+          "finding": "家族全員 is an ordinary noun phrase (家族 + 全員), not a four-character idiom, and has no dictionary entry. Retired into 家族 (vocab-n5:8)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Die ganze Familie; alle Familienmitglieder\" checked against the cited dictionary evidence.",
+        "japanese": "お正月は家族全員で集まる。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "The whole family gathering at New Year."
+        ],
+        "lexical": "家族全員 is an ordinary noun phrase (家族 + 全員), not a four-character idiom, and has no dictionary entry. Retired into 家族 (vocab-n5:8).",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 家族全員 / かぞくぜんいん",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 家族全員 is an ordinary noun phrase (家族 + 全員), not a four-character idiom, and has no dictionary entry. Retired into 家族 (vocab-n5:8).",
+        "contentHash": "9e1f541829fa3f67e559226317a9cfb2843b937b2b96fc3720bc8493f6d628b8",
+        "approvalHash": "580bd0ed6f7364f293f7f1ad7c9885e2547d7622d29b29cd40fb9bbc44316b91"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 家族全員 is compositional with no JMdict entry; retiring into the head noun 家族 (vocab-n5:8) is sensible, and 全員 exists separately (vocab-n4:785, verified). The survivor was reviewed in an earlier authoring batch (003-drafts/004-second-pass), so the pipeline's both-sides-reviewed rule is met.",
+        "contentHash": "9e1f541829fa3f67e559226317a9cfb2843b937b2b96fc3720bc8493f6d628b8",
+        "approvalHash": "580bd0ed6f7364f293f7f1ad7c9885e2547d7622d29b29cd40fb9bbc44316b91"
+      }
+    },
+    {
+      "id": "yojijukugo:155",
+      "revisionId": "022-yojijukugo-155",
+      "state": "accepted",
+      "predecessorHash": "45f2d8c1a9320dbcf541b0a80dab119ee39b25f192c75f2f6587e860b7ef90f8",
+      "predecessorRevisionHash": null,
+      "originalHash": "45f2d8c1a9320dbcf541b0a80dab119ee39b25f192c75f2f6587e860b7ef90f8",
+      "rationale": "正正堂堂 is the same word as 正々堂々 (yojijukugo:101) written without the iteration mark; retired into it.",
+      "original": {},
+      "replacement": {},
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1596030; spelling=正正堂堂; reading=せいせいどうどう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same JMdict entry as 正々堂々.",
+          "selected": {
+            "sequence": "1596030",
+            "spelling": "正正堂堂",
+            "reading": "せいせいどうどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "'taru' adjective",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "fair and square",
+                  "open and aboveboard",
+                  "bold and forthright"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:155 after vocab-correction-rules.js",
+          "finding": "正正堂堂 is the same word as 正々堂々 (yojijukugo:101) written without the iteration mark; retired into it."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Fair und offen; aufrecht und ehrlich\" checked against the cited dictionary evidence.",
+        "japanese": "正正堂堂と戦おう。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Fighting fairly."
+        ],
+        "lexical": "正正堂堂 is the same word as 正々堂々 (yojijukugo:101) written without the iteration mark; retired into it.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 正正堂堂 / せいせいどうどう",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 正正堂堂 is the same word as 正々堂々 (yojijukugo:101) written without the iteration mark; retired into it.",
+        "contentHash": "45f2d8c1a9320dbcf541b0a80dab119ee39b25f192c75f2f6587e860b7ef90f8",
+        "approvalHash": "33ff0e1e40b271ff97c670154e656281a931cf8ecc9c35c2edb7b7570c740da7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 正正堂堂 is JMdict 1596030 written without 々, same word and reading as 正々堂々 (yojijukugo:101); retiring it there is correct.",
+        "contentHash": "45f2d8c1a9320dbcf541b0a80dab119ee39b25f192c75f2f6587e860b7ef90f8",
+        "approvalHash": "33ff0e1e40b271ff97c670154e656281a931cf8ecc9c35c2edb7b7570c740da7"
+      }
+    },
+    {
+      "id": "yojijukugo:101",
+      "revisionId": "022-yojijukugo-101",
+      "state": "accepted",
+      "predecessorHash": "557c35e7c1b697728af38a0ab1fb4098fde066cf0613daa005682c5ab72b935b",
+      "predecessorRevisionHash": null,
+      "originalHash": "557c35e7c1b697728af38a0ab1fb4098fde066cf0613daa005682c5ab72b935b",
+      "rationale": "Survivor for 正々堂々; the spelling without 々 becomes a search alias. Example 1 romaji contained a Cyrillic а (U+0430) in tatakaō; replaced with Latin a.",
+      "original": {
+        "aliases": null,
+        "examples": [
+          {
+            "japanese": "正々堂々と戦おう。",
+            "romaji": "Seisei dōdō to tatakаō.",
+            "german": "Lasst uns fair und aufrecht kämpfen."
+          },
+          {
+            "japanese": "彼女は正々堂々と意見を述べた。",
+            "romaji": "Kanojo wa seisei dōdō to iken o nobeta.",
+            "german": "Sie äußerte ihre Meinung offen und ehrlich."
+          }
+        ]
+      },
+      "replacement": {
+        "aliases": [
+          "正正堂堂"
+        ],
+        "examples": [
+          {
+            "japanese": "正々堂々と戦おう。",
+            "romaji": "Seisei dōdō to tatakaō.",
+            "german": "Lasst uns fair und aufrecht kämpfen."
+          },
+          {
+            "japanese": "彼女は正々堂々と意見を述べた。",
+            "romaji": "Kanojo wa seisei dōdō to iken o nobeta.",
+            "german": "Sie äußerte ihre Meinung offen und ehrlich."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1596030; spelling=正々堂々; reading=せいせいどうどう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Fair and square.",
+          "selected": {
+            "sequence": "1596030",
+            "spelling": "正々堂々",
+            "reading": "せいせいどうどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "'taru' adjective",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "fair and square",
+                  "open and aboveboard",
+                  "bold and forthright"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:101 after vocab-correction-rules.js",
+          "finding": "Survivor for 正々堂々; the spelling without 々 becomes a search alias. Example 1 romaji contained a Cyrillic а (U+0430) in tatakaō; replaced with Latin a."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "alias",
+          "romanization-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Fair und aufrecht; offen und ehrlich\" checked against the cited dictionary evidence.",
+        "japanese": "正々堂々と戦おう。 / 彼女は正々堂々と意見を述べた。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Fighting fairly.",
+          "Stating one's opinion openly."
+        ],
+        "lexical": "Survivor for 正々堂々; the spelling without 々 becomes a search alias. Example 1 romaji contained a Cyrillic а (U+0430) in tatakaō; replaced with Latin a.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 正々堂々 / せいせいどうどう",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: Survivor for 正々堂々; the spelling without 々 becomes a search alias. Example 1 romaji contained a Cyrillic а (U+0430) in tatakaō; replaced with Latin a.",
+        "contentHash": "4f85dc616390a584415c16f6165d53544671a1c86296f727d33981bf3cfb8f8a",
+        "approvalHash": "cfb694b42279cb89d7afd961d5532c03952726618dc44688feaa52262a168987"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): example 1 romaji is now \"Seisei dōdō to tatakaō.\" with Latin a (code points checked, no Cyrillic/Greek left); alias 正正堂堂 and both contexts correct; null pitch correct.",
+        "contentHash": "4f85dc616390a584415c16f6165d53544671a1c86296f727d33981bf3cfb8f8a",
+        "approvalHash": "cfb694b42279cb89d7afd961d5532c03952726618dc44688feaa52262a168987"
+      }
+    },
+    {
+      "id": "yojijukugo:148",
+      "revisionId": "022-yojijukugo-148",
+      "state": "accepted",
+      "predecessorHash": "89e556a1fe38cc938a669092824895d95fdcc4d2e20db13d676a24ab1da5de75",
+      "predecessorRevisionHash": null,
+      "originalHash": "89e556a1fe38cc938a669092824895d95fdcc4d2e20db13d676a24ab1da5de75",
+      "rationale": "毎日毎日 is a reduplicated adverb (JMdict 2038450 adv), not a yojijukugo; re-typed and kept as a useful emphatic form.",
+      "original": {
+        "type": "Yojijukugo"
+      },
+      "replacement": {
+        "type": "Adverb"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2038450; spelling=毎日毎日; reading=まいにちまいにち; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Day after day (adverb).",
+          "selected": {
+            "sequence": "2038450",
+            "spelling": "毎日毎日",
+            "reading": "まいにちまいにち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "day after day",
+                  "day by day"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:148 after vocab-correction-rules.js",
+          "finding": "毎日毎日 is a reduplicated adverb (JMdict 2038450 adv), not a yojijukugo; re-typed and kept as a useful emphatic form."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Tag für Tag; jeden einzelnen Tag\" checked against the cited dictionary evidence.",
+        "japanese": "毎日毎日同じ仕事で疲れた。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Complaining about the same work every day."
+        ],
+        "lexical": "毎日毎日 is a reduplicated adverb (JMdict 2038450 adv), not a yojijukugo; re-typed and kept as a useful emphatic form.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 毎日毎日 / まいにちまいにち",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 毎日毎日 is a reduplicated adverb (JMdict 2038450 adv), not a yojijukugo; re-typed and kept as a useful emphatic form.",
+        "contentHash": "45683884dcf215c2b931657b53acdb91a072b86d57971a801a1d1f0308386e22",
+        "approvalHash": "5a16529939202d399e901a03fe501f7a95b5ea02c04eb51e4ba3f755be8dae4e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 毎日毎日 is JMdict 2038450 adv, not a yojijukugo; re-type to Adverb keeps a useful emphatic form; no duplicate elsewhere (checked all sources); null pitch correct.",
+        "contentHash": "45683884dcf215c2b931657b53acdb91a072b86d57971a801a1d1f0308386e22",
+        "approvalHash": "5a16529939202d399e901a03fe501f7a95b5ea02c04eb51e4ba3f755be8dae4e"
+      }
+    },
+    {
+      "id": "yojijukugo:153",
+      "revisionId": "022-yojijukugo-153",
+      "state": "accepted",
+      "predecessorHash": "8a8c4589034aa9c08b4b09c6f62a2a2a0b777c72d02f49ed220e2bd5612a3d59",
+      "predecessorRevisionHash": null,
+      "originalHash": "8a8c4589034aa9c08b4b09c6f62a2a2a0b777c72d02f49ed220e2bd5612a3d59",
+      "rationale": "今日明日 is an ordinary noun (JMdict 1289440), not a yojijukugo; re-typed. Attested pitch added. Example romaji asu-chū corrected to asu-jū (今日明日中 = きょうあすじゅう).",
+      "original": {
+        "type": "Yojijukugo",
+        "pitch": null,
+        "pitchVariants": null,
+        "examples": [
+          {
+            "japanese": "今日明日中にお返事します。",
+            "romaji": "Kyō asu-chū ni ohenji shimasu.",
+            "german": "Ich werde Ihnen heute oder morgen antworten."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "type": "Nomen",
+        "pitch": 1,
+        "pitchVariants": [
+          4
+        ],
+        "examples": [
+          {
+            "japanese": "今日明日中にお返事します。",
+            "romaji": "Kyō asu-jū ni ohenji shimasu.",
+            "german": "Ich werde Ihnen heute oder morgen antworten."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106068689",
+            "patterns": [
+              1,
+              4
+            ],
+            "finding": "今日明日 / キョウアス; 名詞/普通名詞/一般/*; *; *; lemma 今日明日; aType 1,4. Exact common-noun row attests 1 and 4.",
+            "match": {
+              "word": "今日明日",
+              "reading": "きょうあす",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "今日明日 as \"Heute oder morgen; in allernächster Zeit\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1289440; spelling=今日明日; reading=きょうあす; senses=2; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Today or tomorrow, very soon.",
+          "selected": {
+            "sequence": "1289440",
+            "spelling": "今日明日",
+            "reading": "きょうあす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "today or tomorrow",
+                  "in a day or two",
+                  "very soon"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:153 after vocab-correction-rules.js",
+          "finding": "今日明日 is an ordinary noun (JMdict 1289440), not a yojijukugo; re-typed. Attested pitch added. Example romaji asu-chū corrected to asu-jū (今日明日中 = きょうあすじゅう)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "pitch-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Heute oder morgen; in allernächster Zeit\" checked against the cited dictionary evidence.",
+        "japanese": "今日明日中にお返事します。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Promising a reply within a day or two."
+        ],
+        "lexical": "今日明日 is an ordinary noun (JMdict 1289440), not a yojijukugo; re-typed. Attested pitch added. Example romaji asu-chū corrected to asu-jū (今日明日中 = きょうあすじゅう).",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact common-noun row attests 1 and 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106068689",
+            "patterns": [
+              1,
+              4
+            ],
+            "finding": "今日明日 / キョウアス; 名詞/普通名詞/一般/*; *; *; lemma 今日明日; aType 1,4. Exact common-noun row attests 1 and 4.",
+            "match": {
+              "word": "今日明日",
+              "reading": "きょうあす",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "今日明日 as \"Heute oder morgen; in allernächster Zeit\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 今日明日 is an ordinary noun (JMdict 1289440), not a yojijukugo; re-typed. Attested pitch added. Example romaji asu-chū corrected to asu-jū (今日明日中 = きょうあすじゅう).",
+        "contentHash": "d6ecd92f430ceea51b6b64c9ae4e7d3bbbb18c918a4363147cff15d039aee193",
+        "approvalHash": "999582b3218bdd30320e71a0522f2c08edf1ac4b6df2831a03c32c359d12f53f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): romaji now \"Kyō asu-jū ni ohenji shimasu.\" (今日明日中 = きょうあすじゅう); Nomen re-type and pitch 1/variant 4 (sys.dic@106068689) correct.",
+        "contentHash": "d6ecd92f430ceea51b6b64c9ae4e7d3bbbb18c918a4363147cff15d039aee193",
+        "approvalHash": "999582b3218bdd30320e71a0522f2c08edf1ac4b6df2831a03c32c359d12f53f"
+      }
+    },
+    {
+      "id": "yojijukugo:145",
+      "revisionId": "022-yojijukugo-145",
+      "state": "accepted",
+      "predecessorHash": "6b91a92d7717880c5d8dee0e01ae5affd6fa04045886e582265dc26b437056e3",
+      "predecessorRevisionHash": null,
+      "originalHash": "6b91a92d7717880c5d8dee0e01ae5affd6fa04045886e582265dc26b437056e3",
+      "rationale": "元気一杯 is a na-adjective (JMdict 2044610), not a yojijukugo; re-typed with the usual kana spelling as alias.",
+      "original": {
+        "type": "Yojijukugo",
+        "aliases": null,
+        "notes": null
+      },
+      "replacement": {
+        "type": "Adjektiv",
+        "aliases": [
+          "元気いっぱい"
+        ],
+        "notes": "な-Adjektiv（元気一杯な子ども）, adverbial mit に. Meist 元気いっぱい geschrieben; kein klassischer Vierzeichenausdruck."
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2044610; spelling=元気一杯; reading=げんきいっぱい; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Full of vitality (adj-na).",
+          "selected": {
+            "sequence": "2044610",
+            "spelling": "元気一杯",
+            "reading": "げんきいっぱい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brimming with health (vigor, vigour)",
+                  "full of vitality",
+                  "full of health"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:145 after vocab-correction-rules.js",
+          "finding": "元気一杯 is a na-adjective (JMdict 2044610), not a yojijukugo; re-typed with the usual kana spelling as alias."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "alias",
+          "note-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Voller Energie; vor Lebensfreude sprühend\" checked against the cited dictionary evidence.",
+        "japanese": "子供たちは元気一杯に遊んでいる。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Children playing energetically."
+        ],
+        "lexical": "元気一杯 is a na-adjective (JMdict 2044610), not a yojijukugo; re-typed with the usual kana spelling as alias.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 元気一杯 / げんきいっぱい",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 元気一杯 is a na-adjective (JMdict 2044610), not a yojijukugo; re-typed with the usual kana spelling as alias.",
+        "contentHash": "13cbaaf88bd5c2b8651f1a1218f9bb9a1a7049ac0b2a4f61b363c0e9848155a7",
+        "approvalHash": "2bd5caf6380d6bca2e1b2e178a321eda9ada8a7a2e020a81b0c0d895820f0791"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 元気一杯 is JMdict 2044610 adj-na; re-type to Adjektiv with alias 元気いっぱい and an accurate な/に note; null pitch correct (no ゲンキイッパイ row, verified).",
+        "contentHash": "13cbaaf88bd5c2b8651f1a1218f9bb9a1a7049ac0b2a4f61b363c0e9848155a7",
+        "approvalHash": "2bd5caf6380d6bca2e1b2e178a321eda9ada8a7a2e020a81b0c0d895820f0791"
+      }
+    },
+    {
+      "id": "yojijukugo:172",
+      "revisionId": "022-yojijukugo-172",
+      "state": "accepted",
+      "predecessorHash": "953429e254e12f86da2422db4d2a68a35cabf2c78f2edb52da5bc7062f0b93e4",
+      "predecessorRevisionHash": null,
+      "originalHash": "953429e254e12f86da2422db4d2a68a35cabf2c78f2edb52da5bc7062f0b93e4",
+      "rationale": "責任感 is a three-character noun (JMdict 1645890), not a yojijukugo; re-typed Nomen. A raw duplicate vocab-n3:2379 exists but is already merged away at runtime by the app’s word|reading merge (yojijukugo priority), so it has no runtime identity and cannot be a merge target; after the re-type the single visible 責任感 entry is a Nomen, as in vocab-n3.",
+      "original": {
+        "type": "Yojijukugo"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1645890; spelling=責任感; reading=せきにんかん; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Sense of responsibility.",
+          "selected": {
+            "sequence": "1645890",
+            "spelling": "責任感",
+            "reading": "せきにんかん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sense of responsibility"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:172 after vocab-correction-rules.js",
+          "finding": "責任感 is a three-character noun (JMdict 1645890), not a yojijukugo; re-typed Nomen. A raw duplicate vocab-n3:2379 exists but is already merged away at runtime by the app’s word|reading merge (yojijukugo priority), so it has no runtime identity and cannot be a merge target; after the re-type the single visible 責任感 entry is a Nomen, as in vocab-n3."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Verantwortungsbewusstsein; Pflichtgefühl\" checked against the cited dictionary evidence.",
+        "japanese": "彼女は責任感が強い人だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Describing a responsible person."
+        ],
+        "lexical": "責任感 is a three-character noun (JMdict 1645890), not a yojijukugo; re-typed Nomen. A raw duplicate vocab-n3:2379 exists but is already merged away at runtime by the app’s word|reading merge (yojijukugo priority), so it has no runtime identity and cannot be a merge target; after the re-type the single visible 責任感 entry is a Nomen, as in vocab-n3.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 責任感 / せきにんかん",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 責任感 is a three-character noun (JMdict 1645890), not a yojijukugo; re-typed Nomen. A raw duplicate vocab-n3:2379 exists but is already merged away at runtime by the app’s word|reading merge (yojijukugo priority), so it has no runtime identity and cannot be a merge target; after the re-type the single visible 責任感 entry is a Nomen, as in vocab-n3.",
+        "contentHash": "9e35f0f94d9f9ca934de6287d2bdd61da56cd21e84debb6edd7a2af1f2b4bb11",
+        "approvalHash": "65708de1bc810bbb863bc752acf9db574063229760acd3da5da25fe2453f54b5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): I verified with scripts/vocabulary-tools.cjs loadVocabulary() that vocab-n3:2379 has no runtime identity (only yojijukugo:172 exists for 責任感), so a merge into it is impossible and re-typing the single visible entry to Nomen creates no runtime duplicate; my round-1 objection is withdrawn. Example and null pitch (no セキニンカン row) correct.",
+        "contentHash": "9e35f0f94d9f9ca934de6287d2bdd61da56cd21e84debb6edd7a2af1f2b4bb11",
+        "approvalHash": "65708de1bc810bbb863bc752acf9db574063229760acd3da5da25fe2453f54b5"
+      }
+    },
+    {
+      "id": "yojijukugo:162",
+      "revisionId": "022-yojijukugo-162",
+      "state": "accepted",
+      "predecessorHash": "b4d57e5bd3c0ada3b72b078a3faadd864f5e6536f90eda9907ed2494b28c7a59",
+      "predecessorRevisionHash": null,
+      "originalHash": "b4d57e5bd3c0ada3b72b078a3faadd864f5e6536f90eda9907ed2494b28c7a59",
+      "rationale": "言行不一致 has five characters (JMdict 2751150 noun); re-typed and linked to the yojijukugo 言行一致 (yojijukugo:127).",
+      "original": {
+        "type": "Yojijukugo",
+        "notes": null
+      },
+      "replacement": {
+        "type": "Nomen",
+        "notes": "Gegenteil des Vierzeichenausdrucks 言行一致（げんこういっち）."
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2751150; spelling=言行不一致; reading=げんこうふいっち; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Inconsistency between words and actions.",
+          "selected": {
+            "sequence": "2751150",
+            "spelling": "言行不一致",
+            "reading": "げんこうふいっち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inconsistency between one's words and actions",
+                  "insincerity",
+                  "saying one thing and doing another"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:162 after vocab-correction-rules.js",
+          "finding": "言行不一致 has five characters (JMdict 2751150 noun); re-typed and linked to the yojijukugo 言行一致 (yojijukugo:127)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "note-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Worte und Taten stimmen nicht überein; Heuchelei\" checked against the cited dictionary evidence.",
+        "japanese": "彼は言行不一致だから信用できない。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Distrusting someone whose words and deeds differ."
+        ],
+        "lexical": "言行不一致 has five characters (JMdict 2751150 noun); re-typed and linked to the yojijukugo 言行一致 (yojijukugo:127).",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 言行不一致 / げんこうふいっち",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 言行不一致 has five characters (JMdict 2751150 noun); re-typed and linked to the yojijukugo 言行一致 (yojijukugo:127).",
+        "contentHash": "8c0c4f08225c76cc01ff3f5ca33309e3a51782c118c27de55600df871186e506",
+        "approvalHash": "2c1eecda14d78b81028f80398f7184988743032787a7d9cf4403311e7da53c8d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 言行不一致 is a five-character noun (JMdict 2751150); Nomen is right and the note links 言行一致 (yojijukugo:127, confirmed present); example/romaji (fuitchi, shin'yō) correct.",
+        "contentHash": "8c0c4f08225c76cc01ff3f5ca33309e3a51782c118c27de55600df871186e506",
+        "approvalHash": "2c1eecda14d78b81028f80398f7184988743032787a7d9cf4403311e7da53c8d"
+      }
+    },
+    {
+      "id": "yojijukugo:166",
+      "revisionId": "022-yojijukugo-166",
+      "state": "accepted",
+      "predecessorHash": "14507968a26de5a0c0626a9934a1bf493fbdcd9a20b976bdeee0de2b3c1c5440",
+      "predecessorRevisionHash": null,
+      "originalHash": "14507968a26de5a0c0626a9934a1bf493fbdcd9a20b976bdeee0de2b3c1c5440",
+      "rationale": "自然体 is a three-character noun (JMdict 2153610); re-typed.",
+      "original": {
+        "type": "Yojijukugo"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2153610; spelling=自然体; reading=しぜんたい; senses=2; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Natural, relaxed manner.",
+          "selected": {
+            "sequence": "2153610",
+            "spelling": "自然体",
+            "reading": "しぜんたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "natural attitude",
+                  "relaxed manner",
+                  "calm manner"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:166 after vocab-correction-rules.js",
+          "finding": "自然体 is a three-character noun (JMdict 2153610); re-typed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Natürliche Haltung; ungezwungen und authentisch sein\" checked against the cited dictionary evidence.",
+        "japanese": "面接では自然体でいることが大切だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Being natural in an interview."
+        ],
+        "lexical": "自然体 is a three-character noun (JMdict 2153610); re-typed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 自然体 / しぜんたい",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 自然体 is a three-character noun (JMdict 2153610); re-typed.",
+        "contentHash": "f8472381d001c26db00f52772f13dedf7d00b8a7c7cd09170d2a0cb71e1de7e8",
+        "approvalHash": "4e87d5bd260138ef79ac9ad667e73cce1065161ba25b4e6a66ccac7a356a8993"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 自然体 is a three-character noun (JMdict 2153610); re-type to Nomen correct, no duplicate in other sources; null pitch correct (no シゼンタイ row).",
+        "contentHash": "f8472381d001c26db00f52772f13dedf7d00b8a7c7cd09170d2a0cb71e1de7e8",
+        "approvalHash": "4e87d5bd260138ef79ac9ad667e73cce1065161ba25b4e6a66ccac7a356a8993"
+      }
+    },
+    {
+      "id": "yojijukugo:168",
+      "revisionId": "022-yojijukugo-168",
+      "state": "accepted",
+      "predecessorHash": "3ab84d801629a2865af6da3c6d0419f91e88929b54de8e2de236671606df61b0",
+      "predecessorRevisionHash": null,
+      "originalHash": "3ab84d801629a2865af6da3c6d0419f91e88929b54de8e2de236671606df61b0",
+      "rationale": "大人気 is a three-character noun (JMdict 1637930, n/adj-no); re-typed.",
+      "original": {
+        "type": "Yojijukugo"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1637930; spelling=大人気; reading=だいにんき; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Very popular.",
+          "selected": {
+            "sequence": "1637930",
+            "spelling": "大人気",
+            "reading": "だいにんき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "very popular",
+                  "highly favoured"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:168 after vocab-correction-rules.js",
+          "finding": "大人気 is a three-character noun (JMdict 1637930, n/adj-no); re-typed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Äußerst beliebt; sehr populär\" checked against the cited dictionary evidence.",
+        "japanese": "この漫画は若者に大人気だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "A manga popular with young people."
+        ],
+        "lexical": "大人気 is a three-character noun (JMdict 1637930, n/adj-no); re-typed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 大人気 / だいにんき",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 大人気 is a three-character noun (JMdict 1637930, n/adj-no); re-typed.",
+        "contentHash": "161f8f20619d3bafead38940204049822c1b3f5534cdf9fa9cf152fa98474b23",
+        "approvalHash": "e2e46517ee5af2875dd15722b680814af0854b48b16ebbfe043147f351f0d394"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 大人気 is JMdict 1637930 n/adj-no; Nomen is correct and there is no duplicate entry; null pitch correct (no ダイニンキ row).",
+        "contentHash": "161f8f20619d3bafead38940204049822c1b3f5534cdf9fa9cf152fa98474b23",
+        "approvalHash": "e2e46517ee5af2875dd15722b680814af0854b48b16ebbfe043147f351f0d394"
+      }
+    },
+    {
+      "id": "yojijukugo:171",
+      "revisionId": "022-yojijukugo-171",
+      "state": "accepted",
+      "predecessorHash": "7ec329927ae128053fc43d5861a51c7e00f703f968babec221ddb184a0bf1099",
+      "predecessorRevisionHash": null,
+      "originalHash": "7ec329927ae128053fc43d5861a51c7e00f703f968babec221ddb184a0bf1099",
+      "rationale": "弱音を吐く is a verbal idiom (JMdict 1324680 exp), not a four-character compound; re-typed Redewendung.",
+      "original": {
+        "type": "Yojijukugo"
+      },
+      "replacement": {
+        "type": "Redewendung"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324680; spelling=弱音を吐く; reading=よわねをはく; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "To whine, complain feebly.",
+          "selected": {
+            "sequence": "1324680",
+            "spelling": "弱音を吐く",
+            "reading": "よわねをはく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ku' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to whine",
+                  "to make feeble complaints"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:171 after vocab-correction-rules.js",
+          "finding": "弱音を吐く is a verbal idiom (JMdict 1324680 exp), not a four-character compound; re-typed Redewendung."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Schwäche zeigen; jammern; aufgeben wollen\" checked against the cited dictionary evidence.",
+        "japanese": "弱音を吐かないで、最後まで頑張ろう。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Encouraging someone not to complain."
+        ],
+        "lexical": "弱音を吐く is a verbal idiom (JMdict 1324680 exp), not a four-character compound; re-typed Redewendung.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 弱音を吐く / よわねをはく",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 弱音を吐く is a verbal idiom (JMdict 1324680 exp), not a four-character compound; re-typed Redewendung.",
+        "contentHash": "445b4a8e79800e5f506bc842cb905f0f77a2d07ebf9f4e4aad90912746f9b289",
+        "approvalHash": "efbd85c98f85551ccfebc8ed43aa1b70432cb657550fb10d069af969635bed14"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 弱音を吐く is a verbal expression (JMdict 1324680 exp); Redewendung is the right closed-list type; example 弱音を吐かないで (Yowane o hakanaide) correct.",
+        "contentHash": "445b4a8e79800e5f506bc842cb905f0f77a2d07ebf9f4e4aad90912746f9b289",
+        "approvalHash": "efbd85c98f85551ccfebc8ed43aa1b70432cb657550fb10d069af969635bed14"
+      }
+    },
+    {
+      "id": "yojijukugo:178",
+      "revisionId": "022-yojijukugo-178",
+      "state": "accepted",
+      "predecessorHash": "a7aad541976dfb85e361b61a1200f53c760c0d17a67ea7f62469fd722f43e6f9",
+      "predecessorRevisionHash": null,
+      "originalHash": "a7aad541976dfb85e361b61a1200f53c760c0d17a67ea7f62469fd722f43e6f9",
+      "rationale": "有頂天 is a three-character noun/na-adjective (JMdict 1541540), usually 有頂天になる; re-typed Nomen, attested pitch added.",
+      "original": {
+        "type": "Yojijukugo",
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "type": "Nomen",
+        "pitch": 2,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@65395004",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "有頂天 / ウチョウテン; 名詞/普通名詞/形状詞可能/*; *; *; lemma 有頂天; aType 2,0. Exact row attests 2 and 0.",
+            "match": {
+              "word": "有頂天",
+              "reading": "うちょうてん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "有頂天 as \"Im siebten Himmel; außer sich vor Freude\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1541540; spelling=有頂天; reading=うちょうてん; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Ecstasy.",
+          "selected": {
+            "sequence": "1541540",
+            "spelling": "有頂天",
+            "reading": "うちょうてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ecstasy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:178 after vocab-correction-rules.js",
+          "finding": "有頂天 is a three-character noun/na-adjective (JMdict 1541540), usually 有頂天になる; re-typed Nomen, attested pitch added."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "pitch-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Im siebten Himmel; außer sich vor Freude\" checked against the cited dictionary evidence.",
+        "japanese": "合格の知らせに有頂天になった。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Ecstatic at news of passing."
+        ],
+        "lexical": "有頂天 is a three-character noun/na-adjective (JMdict 1541540), usually 有頂天になる; re-typed Nomen, attested pitch added.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact row attests 2 and 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@65395004",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "有頂天 / ウチョウテン; 名詞/普通名詞/形状詞可能/*; *; *; lemma 有頂天; aType 2,0. Exact row attests 2 and 0.",
+            "match": {
+              "word": "有頂天",
+              "reading": "うちょうてん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "有頂天 as \"Im siebten Himmel; außer sich vor Freude\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 有頂天 is a three-character noun/na-adjective (JMdict 1541540), usually 有頂天になる; re-typed Nomen, attested pitch added.",
+        "contentHash": "092cf8660314d6d5cb8a9f0eaa57ec110b11115088c9a017f35ab1422b76fab0",
+        "approvalHash": "5ad6710356f8d12fbf4bdda2e5100e29b6310eb515f5faa749b29a8884af3de8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 有頂天 re-typed Nomen (JMdict 1541540); pitch 2 with variant 0 matches sys.dic@65395004 有頂天/ウチョウテン aType 2,0; 有頂天になった example correct.",
+        "contentHash": "092cf8660314d6d5cb8a9f0eaa57ec110b11115088c9a017f35ab1422b76fab0",
+        "approvalHash": "5ad6710356f8d12fbf4bdda2e5100e29b6310eb515f5faa749b29a8884af3de8"
+      }
+    },
+    {
+      "id": "yojijukugo:189",
+      "revisionId": "022-yojijukugo-189",
+      "state": "accepted",
+      "predecessorHash": "630be62c6702760a7de644ac02caaf686cfd18e8d7b0380efc44a317c96025ae",
+      "predecessorRevisionHash": null,
+      "originalHash": "630be62c6702760a7de644ac02caaf686cfd18e8d7b0380efc44a317c96025ae",
+      "rationale": "異文化交流 is a five-character compound noun (JMdict 2658150); re-typed.",
+      "original": {
+        "type": "Yojijukugo"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2658150; spelling=異文化交流; reading=いぶんかこうりゅう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Cross-cultural exchange.",
+          "selected": {
+            "sequence": "2658150",
+            "spelling": "異文化交流",
+            "reading": "いぶんかこうりゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cultural exchange",
+                  "cross-cultural communication",
+                  "contacts between different cultures"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:189 after vocab-correction-rules.js",
+          "finding": "異文化交流 is a five-character compound noun (JMdict 2658150); re-typed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Interkultureller Austausch\" checked against the cited dictionary evidence.",
+        "japanese": "留学は異文化交流の良い機会だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Study abroad as cultural exchange."
+        ],
+        "lexical": "異文化交流 is a five-character compound noun (JMdict 2658150); re-typed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 異文化交流 / いぶんかこうりゅう",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 異文化交流 is a five-character compound noun (JMdict 2658150); re-typed.",
+        "contentHash": "f1cad9e67ac7b1bffec0ea72ec1f05befe025feb76c04c9cc521a87bbae105f4",
+        "approvalHash": "bd44388414403643ef8cf88510302e55f77cc3dabe18a03806ec79dff092a1b9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 異文化交流 is a five-character compound noun (JMdict 2658150); Nomen correct; example and romaji (ibunka kōryū) correct.",
+        "contentHash": "f1cad9e67ac7b1bffec0ea72ec1f05befe025feb76c04c9cc521a87bbae105f4",
+        "approvalHash": "bd44388414403643ef8cf88510302e55f77cc3dabe18a03806ec79dff092a1b9"
+      }
+    },
+    {
+      "id": "yojijukugo:217",
+      "revisionId": "022-yojijukugo-217",
+      "state": "accepted",
+      "predecessorHash": "4b82e16b550b39cd93794f527670bd0333544bbedc11302a1af37b7cab1a5467",
+      "predecessorRevisionHash": null,
+      "originalHash": "4b82e16b550b39cd93794f527670bd0333544bbedc11302a1af37b7cab1a5467",
+      "rationale": "一難去ってまた一難 is a proverb (JMdict 2403500 exp), not a four-character compound; re-typed Sprichwort.",
+      "original": {
+        "type": "Yojijukugo"
+      },
+      "replacement": {
+        "type": "Sprichwort"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2403500; spelling=一難去ってまた一難; reading=いちなんさってまたいちなん; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "One thing after another.",
+          "selected": {
+            "sequence": "2403500",
+            "spelling": "一難去ってまた一難",
+            "reading": "いちなんさってまたいちなん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "one thing after another",
+                  "out of the frying pan and into the fire"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime yojijukugo:217 after vocab-correction-rules.js",
+          "finding": "一難去ってまた一難 is a proverb (JMdict 2403500 exp), not a four-character compound; re-typed Sprichwort."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"Ein Unglück kommt selten allein; kaum ist eine Schwierigkeit überwunden, kommt die nächste\" checked against the cited dictionary evidence.",
+        "japanese": "車が壊れた後に財布をなくした。一難去ってまた一難だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "One misfortune after another."
+        ],
+        "lexical": "一難去ってまた一難 is a proverb (JMdict 2403500 exp), not a four-character compound; re-typed Sprichwort.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 一難去ってまた一難 / いちなんさってまたいちなん",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 一難去ってまた一難 is a proverb (JMdict 2403500 exp), not a four-character compound; re-typed Sprichwort.",
+        "contentHash": "fa5cf64d59059883e616937783dea00a9d4bc272330e86e711059837e936c192",
+        "approvalHash": "73582035f9fe3626b99b157b8599bd840db1752633dd7a421fc65d373e92b316"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 一難去ってまた一難 is a proverb (JMdict 2403500 exp); Sprichwort is the right type; example (car broke, wallet lost) and German idiom correct.",
+        "contentHash": "fa5cf64d59059883e616937783dea00a9d4bc272330e86e711059837e936c192",
+        "approvalHash": "73582035f9fe3626b99b157b8599bd840db1752633dd7a421fc65d373e92b316"
+      }
+    },
+    {
+      "id": "idioms:211",
+      "revisionId": "022-idioms-211",
+      "state": "accepted",
+      "predecessorHash": "f68d4c7eae9aaa70e13b6a9fe1c5cb9fbbf9abe69a14c34a6c6b95ca1c007468",
+      "predecessorRevisionHash": null,
+      "originalHash": "f68d4c7eae9aaa70e13b6a9fe1c5cb9fbbf9abe69a14c34a6c6b95ca1c007468",
+      "rationale": "十人十色 is a four-character compound. yojijukugo-data.js index 9 has the same word, but the app’s word|reading merge already hides it behind this idioms entry (idioms priority), so it has no runtime identity and cannot be a merge target. Re-typing the single visible entry to Yojijukugo gives the requested yojijukugo classification.",
+      "original": {
+        "type": "Sprichwort"
+      },
+      "replacement": {
+        "type": "Yojijukugo"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1334840; spelling=十人十色; reading=じゅうにんといろ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Several men, several minds.",
+          "selected": {
+            "sequence": "1334840",
+            "spelling": "十人十色",
+            "reading": "じゅうにんといろ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "several men, several minds",
+                  "everyone has his own (ideas, tastes, interests, etc.)",
+                  "different strokes for different folks"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:211 after vocab-correction-rules.js",
+          "finding": "十人十色 is a four-character compound. yojijukugo-data.js index 9 has the same word, but the app’s word|reading merge already hides it behind this idioms entry (idioms priority), so it has no runtime identity and cannot be a merge target. Re-typing the single visible entry to Yojijukugo gives the requested yojijukugo classification."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"jeder ist anders, zehn Menschen — zehn Farben\" checked against the cited dictionary evidence.",
+        "japanese": "食べ物の好みは十人十色だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Differences in food preferences."
+        ],
+        "lexical": "十人十色 is a four-character compound. yojijukugo-data.js index 9 has the same word, but the app’s word|reading merge already hides it behind this idioms entry (idioms priority), so it has no runtime identity and cannot be a merge target. Re-typing the single visible entry to Yojijukugo gives the requested yojijukugo classification.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 十人十色 / じゅうにんといろ",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 十人十色 is a four-character compound. yojijukugo-data.js index 9 has the same word, but the app’s word|reading merge already hides it behind this idioms entry (idioms priority), so it has no runtime identity and cannot be a merge target. Re-typing the single visible entry to Yojijukugo gives the requested yojijukugo classification.",
+        "contentHash": "9fb20f4f2bcdccf3c1d91b3d2a3c12976b55fcbc25daca4035764778fbf221be",
+        "approvalHash": "9eba71fcf8e0cd657e3050331da7d801925bdc8ba7f28e684dd7b906304be115"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): verified that yojijukugo:9 has no runtime identity (loadVocabulary() only has idioms:211 for 十人十色), so the corrected rationale is true and re-typing the single visible entry to Yojijukugo is the viable fix. Non-blocking: the hidden raw row's example 意見は十人十色だから、全員が賛成するのは難しい。 is unreachable; adding it here as a second context would preserve it.",
+        "contentHash": "9fb20f4f2bcdccf3c1d91b3d2a3c12976b55fcbc25daca4035764778fbf221be",
+        "approvalHash": "9eba71fcf8e0cd657e3050331da7d801925bdc8ba7f28e684dd7b906304be115"
+      }
+    },
+    {
+      "id": "idioms:215",
+      "revisionId": "022-idioms-215",
+      "state": "accepted",
+      "predecessorHash": "9ad31534ab7b8e616b23f4ca5e0e9c2d5c250bc7dd1122baaae954dcf32caaff",
+      "predecessorRevisionHash": null,
+      "originalHash": "9ad31534ab7b8e616b23f4ca5e0e9c2d5c250bc7dd1122baaae954dcf32caaff",
+      "rationale": "七転八起 is a four-character compound (JMdict 2858831 noun); re-typed Yojijukugo and linked to the proverb 七転び八起き (idioms:31).",
+      "original": {
+        "type": "Sprichwort",
+        "notes": null
+      },
+      "replacement": {
+        "type": "Yojijukugo",
+        "notes": "Sino-japanische Lesung des Sprichworts 七転び八起き（ななころびやおき）."
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2858831; spelling=七転八起; reading=しちてんはっき; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Not giving up.",
+          "selected": {
+            "sequence": "2858831",
+            "spelling": "七転八起",
+            "reading": "しちてんはっき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "not giving up",
+                  "keeping at it until one succeeds"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:215 after vocab-correction-rules.js",
+          "finding": "七転八起 is a four-character compound (JMdict 2858831 noun); re-typed Yojijukugo and linked to the proverb 七転び八起き (idioms:31)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction",
+          "note-added"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"siebenmal fallen, achtmal aufstehen; niemals aufgeben\" checked against the cited dictionary evidence.",
+        "japanese": "何度失敗しても七転八起の精神が大事だ。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Never giving up after failures."
+        ],
+        "lexical": "七転八起 is a four-character compound (JMdict 2858831 noun); re-typed Yojijukugo and linked to the proverb 七転び八起き (idioms:31).",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 七転八起 / しちてんはっき",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 七転八起 is a four-character compound (JMdict 2858831 noun); re-typed Yojijukugo and linked to the proverb 七転び八起き (idioms:31).",
+        "contentHash": "355e73a9e6f224cf394644e90b424acc9fcfaef7ae8ef8a10a5f21a6c94f3139",
+        "approvalHash": "b9c773212eb5b9d3d7cf5c6281f58e44987b31ac6dba9b8842967b5cd8048e27"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 七転八起 is a four-character compound (JMdict 2858831); no yojijukugo copy exists (verified), so re-typing to Yojijukugo is right; note linking 七転び八起き (idioms:31, confirmed) is accurate.",
+        "contentHash": "355e73a9e6f224cf394644e90b424acc9fcfaef7ae8ef8a10a5f21a6c94f3139",
+        "approvalHash": "b9c773212eb5b9d3d7cf5c6281f58e44987b31ac6dba9b8842967b5cd8048e27"
+      }
+    },
+    {
+      "id": "idioms:239",
+      "revisionId": "022-idioms-239",
+      "state": "accepted",
+      "predecessorHash": "fa2e70029984110603bd8d38aeb15a919852f2f73f21dbf006209cd814607f15",
+      "predecessorRevisionHash": null,
+      "originalHash": "fa2e70029984110603bd8d38aeb15a919852f2f73f21dbf006209cd814607f15",
+      "rationale": "一日一善 is a four-character compound (JMdict 2041410 noun); re-typed Yojijukugo.",
+      "original": {
+        "type": "Sprichwort"
+      },
+      "replacement": {
+        "type": "Yojijukugo"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2041410; spelling=一日一善; reading=いちにちいちぜん; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "A good deed each day.",
+          "selected": {
+            "sequence": "2041410",
+            "spelling": "一日一善",
+            "reading": "いちにちいちぜん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "doing a good deed each day",
+                  "doing one good turn a day"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported defect (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "runtime idioms:239 after vocab-correction-rules.js",
+          "finding": "一日一善 is a four-character compound (JMdict 2041410 noun); re-typed Yojijukugo."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-022-editor",
+        "meaning": "\"jeden Tag eine gute Tat\" checked against the cited dictionary evidence.",
+        "japanese": "一日一善を心がけている。 — checked for grammar and the taught sense.",
+        "romanization": "Romaji checked against the Japanese (idioms/yojijukugo files use macrons).",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Resolving to do a good deed daily."
+        ],
+        "lexical": "一日一善 is a four-character compound (JMdict 2041410 noun); re-typed Yojijukugo.",
+        "register": "Unchanged.",
+        "transitivity": "Not a conjugating verb entry.",
+        "conjugation": "Not a conjugating verb entry.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": ".content-cache/correction-pitch-research.json and scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py); exact written-form/kana lookup 一日一善 / いちにちいちぜん",
+            "finding": "No exact written-form/kana UniDic row for this phrase or compound; no accent is inferred from its parts."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: 一日一善 is a four-character compound (JMdict 2041410 noun); re-typed Yojijukugo.",
+        "contentHash": "7cace71eb5ff30486186eecb6c0c6988a0ce08e037adf21dff8faf9054b8063e",
+        "approvalHash": "043e1f490f6ecd95e750e534d3f04f44ae4c4b9485e2d6bb07acc509a28a940b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): 一日一善 is a four-character compound (JMdict 2041410) with no yojijukugo copy (verified); re-type to Yojijukugo correct; example 一日一善を心がけている correct.",
+        "contentHash": "7cace71eb5ff30486186eecb6c0c6988a0ce08e037adf21dff8faf9054b8063e",
+        "approvalHash": "043e1f490f6ecd95e750e534d3f04f44ae4c4b9485e2d6bb07acc509a28a940b"
+      }
+    }
+  ],
+  "decisions": [],
+  "merges": [
+    {
+      "from": "yojijukugo:149",
+      "to": "vocab-n5:663",
+      "equivalentSense": "起立礼着 meant the class routine of standing, bowing and sitting.",
+      "preservedContent": "Survivor note now names the real routine 起立・礼・着席.",
+      "retirement": {
+        "reason": "Invented compound with no dictionary entry.",
+        "relationship": "Closest real word: お辞儀 (the bow); note explains 起立・礼・着席."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup yojijukugo:149; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "起立礼着 has no JMdict entry."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1002030; spelling=お辞儀; reading=おじぎ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Bow, bowing.",
+          "selected": {
+            "sequence": "1002030",
+            "spelling": "お辞儀",
+            "reading": "おじぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "bow",
+                  "bowing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "yojijukugo:149 -> vocab-n5:663",
+          "finding": "起立礼着 meant the class routine of standing, bowing and sitting."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "df526dd49dfd58f2ba6d05b62f4029d8d278f6cc9cb2b2a009f7e9cd8d631427",
+      "toHash": "4806d1219b3edbeffa1996436d63be62b6a3e1e959c43f8b23445999b854612a",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "7b59259e873726341cc8ccdd0f1adf939320f7802c12beed437c368857776a4c",
+        "approvalHash": "7b59259e873726341cc8ccdd0f1adf939320f7802c12beed437c368857776a4c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): retirement merge yojijukugo:149 -> vocab-n5:663 with reason/relationship; survivor now carries both the 起立・礼・着席 note and a classroom example, so the preservedContent claim is satisfied; toHash rebound to the updated survivor.",
+        "contentHash": "7b59259e873726341cc8ccdd0f1adf939320f7802c12beed437c368857776a4c",
+        "approvalHash": "7b59259e873726341cc8ccdd0f1adf939320f7802c12beed437c368857776a4c"
+      }
+    },
+    {
+      "from": "yojijukugo:152",
+      "to": "vocab-n5:665",
+      "equivalentSense": "大切気持 glossed valuing feelings; its example used 気持ちを大切に.",
+      "preservedContent": "The retired example 相手の気持ちを大切にしよう becomes the survivor’s second example.",
+      "retirement": {
+        "reason": "Invented, ungrammatical compound with no dictionary entry.",
+        "relationship": "Closest real word: 気持ち."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup yojijukugo:152; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "大切気持 has no JMdict entry."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591430; spelling=気持ち; reading=きもち; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Feeling.",
+          "selected": {
+            "sequence": "1591430",
+            "spelling": "気持ち",
+            "reading": "きもち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "feeling",
+                  "sensation",
+                  "mood",
+                  "state of mind"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "yojijukugo:152 -> vocab-n5:665",
+          "finding": "大切気持 glossed valuing feelings; its example used 気持ちを大切に."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "31c4352a8aad18c304bcc29d87009132d39af22e9945989f128c1182c9db9195",
+      "toHash": "43b9ba409f89e25898cd1b4f8da901409d829d4152c37e552fc5db40381a6bd7",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "86c5f86bcdb80677756b5bfc387acdebf9c699559e9704453aac2bbdbbe3c812",
+        "approvalHash": "86c5f86bcdb80677756b5bfc387acdebf9c699559e9704453aac2bbdbbe3c812"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): preservedContent now truthfully states that the retired example 相手の気持ちを大切にしよう becomes the survivor's second example (verified in vocab-n5:665); retirement reason/relationship present; toHash rebound.",
+        "contentHash": "86c5f86bcdb80677756b5bfc387acdebf9c699559e9704453aac2bbdbbe3c812",
+        "approvalHash": "86c5f86bcdb80677756b5bfc387acdebf9c699559e9704453aac2bbdbbe3c812"
+      }
+    },
+    {
+      "from": "yojijukugo:159",
+      "to": "vocab-n5:843",
+      "equivalentSense": "右左右左 described looking both ways before crossing.",
+      "preservedContent": "Survivor already contains 左右を確認してください.",
+      "retirement": {
+        "reason": "Invented reduplication with no dictionary entry.",
+        "relationship": "Closest real word: 左右."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup yojijukugo:159; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "右左右左 has no JMdict entry."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1290810; spelling=左右; reading=さゆう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Left and right.",
+          "selected": {
+            "sequence": "1290810",
+            "spelling": "左右",
+            "reading": "さゆう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "left and right",
+                  "right and left"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "yojijukugo:159 -> vocab-n5:843",
+          "finding": "右左右左 described looking both ways before crossing."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "99f71f0b1fe4af7896a8af81b91efd65dac00b6f70f9c782369fc3acd5cc1609",
+      "toHash": "dd351ba1437d94f72758eafe7cbfa4b8f957edeb8e7e7ad9a0e328ec17f009d5",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "72bf2d66477cd5d2ee3b6f9a38db658cba6aaa5ebcd8b025aa32afac3ee35a1a",
+        "approvalHash": "72bf2d66477cd5d2ee3b6f9a38db658cba6aaa5ebcd8b025aa32afac3ee35a1a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): retirement merge yojijukugo:159 -> vocab-n5:843 with reason/relationship; survivor already contains 左右を確認してください as claimed.",
+        "contentHash": "72bf2d66477cd5d2ee3b6f9a38db658cba6aaa5ebcd8b025aa32afac3ee35a1a",
+        "approvalHash": "72bf2d66477cd5d2ee3b6f9a38db658cba6aaa5ebcd8b025aa32afac3ee35a1a"
+      }
+    },
+    {
+      "from": "yojijukugo:150",
+      "to": "vocab-n5:8",
+      "equivalentSense": "家族全員 is compositional (家族 + 全員).",
+      "preservedContent": "Survivor unchanged; 全員 has its own entry (vocab-n4:785).",
+      "retirement": {
+        "reason": "Compositional phrase, not a yojijukugo and not a dictionary word.",
+        "relationship": "Head noun 家族."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup yojijukugo:150; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "家族全員 has no JMdict entry; it is compositional."
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "yojijukugo:150 -> vocab-n5:8",
+          "finding": "家族全員 is compositional (家族 + 全員)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "9e1f541829fa3f67e559226317a9cfb2843b937b2b96fc3720bc8493f6d628b8",
+      "toHash": "24d0736cf9c602376d26ca88b573ec2fe198e1575d8214ecd9c8469cba9de6dd",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "c61a288807a5355c82cd0539fdfca958efb30eb6d37ee31f917fbcae8f843c13",
+        "approvalHash": "c61a288807a5355c82cd0539fdfca958efb30eb6d37ee31f917fbcae8f843c13"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2, content hash unchanged): retirement merge yojijukugo:150 -> vocab-n5:8 (家族) with reason (compositional phrase) and relationship (head noun); 全員 vocab-n4:785 exists as claimed.",
+        "contentHash": "c61a288807a5355c82cd0539fdfca958efb30eb6d37ee31f917fbcae8f843c13",
+        "approvalHash": "c61a288807a5355c82cd0539fdfca958efb30eb6d37ee31f917fbcae8f843c13"
+      }
+    },
+    {
+      "from": "yojijukugo:155",
+      "to": "yojijukugo:101",
+      "equivalentSense": "Same word; 正正 is 正々 without the iteration mark.",
+      "preservedContent": "Spelling kept as alias on the survivor.",
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1596030; spelling=正正堂堂; reading=せいせいどうどう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Same JMdict entry as 正々堂々.",
+          "selected": {
+            "sequence": "1596030",
+            "spelling": "正正堂堂",
+            "reading": "せいせいどうどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "'taru' adjective",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "fair and square",
+                  "open and aboveboard",
+                  "bold and forthright"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1596030; spelling=正々堂々; reading=せいせいどうどう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Fair and square.",
+          "selected": {
+            "sequence": "1596030",
+            "spelling": "正々堂々",
+            "reading": "せいせいどうどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "'taru' adjective",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "fair and square",
+                  "open and aboveboard",
+                  "bold and forthright"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "yojijukugo:155 -> yojijukugo:101",
+          "finding": "Same word; 正正 is 正々 without the iteration mark."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "45f2d8c1a9320dbcf541b0a80dab119ee39b25f192c75f2f6587e860b7ef90f8",
+      "toHash": "4f85dc616390a584415c16f6165d53544671a1c86296f727d33981bf3cfb8f8a",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-022-editor",
+        "finding": "Editorial first pass: merge/retirement reason, survivor content and redirect checked.",
+        "contentHash": "5e21c7ee681335daabe4643ced50ee56c1efe645d4b95211fa446b5fb7479c33",
+        "approvalHash": "5e21c7ee681335daabe4643ced50ee56c1efe645d4b95211fa446b5fb7479c33"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted (round 2): ordinary merge 正正堂堂 -> 正々堂々 (same JMdict 1596030, equal reading, no retirement needed) now binds the corrected survivor yojijukugo:101 (Latin tatakaō); alias preserved as claimed.",
+        "contentHash": "5e21c7ee681335daabe4643ced50ee56c1efe645d4b95211fa446b5fb7479c33",
+        "approvalHash": "5e21c7ee681335daabe4643ced50ee56c1efe645d4b95211fa446b5fb7479c33"
+      }
+    }
+  ]
+}

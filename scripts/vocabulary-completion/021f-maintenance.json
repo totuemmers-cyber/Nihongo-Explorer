@@ -1,0 +1,1963 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n3:correction:bideo",
+      "revisionId": "021-add-bideo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ビデオ",
+        "reading": "ビデオ",
+        "romaji": "bideo",
+        "meaning": "Video, Videoaufnahme",
+        "type": "Nomen",
+        "category": "Medien",
+        "level": "N3",
+        "notes": "Heute meist eine Videoaufnahme; früher auch Videokassette bzw. Videorekorder. Für Clips im Internet sagt man oft 動画（どうが）.",
+        "examples": [
+          {
+            "japanese": "結婚式のビデオを家族みんなで見ました。",
+            "romaji": "Kekkonshiki no bideo o kazoku minna de mimashita.",
+            "german": "Wir haben uns das Hochzeitsvideo mit der ganzen Familie angesehen."
+          },
+          {
+            "japanese": "子どもの運動会をビデオに撮りました。",
+            "romaji": "Kodomo no undoukai o bideo ni torimashita.",
+            "german": "Ich habe das Sportfest meines Kindes auf Video aufgenommen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229455259",
+            "patterns": [
+              1
+            ],
+            "finding": "ビデオ / ビデオ; 名詞/普通名詞/一般/*; *; *; lemma ビデオ-video; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ビデオ",
+              "reading": "ビデオ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ビデオ as \"Video, Videoaufnahme\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, master N3. 2 publishers agree on N3.",
+      "rationale": "Add ビデオ【ビデオ】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1105360; spelling=ビデオ; reading=ビデオ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1105360 ビデオ/ビデオ sense(s) 1 support \"Video, Videoaufnahme\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1105360",
+            "spelling": "ビデオ",
+            "reading": "ビデオ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "video (esp. a televised image)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=75",
+          "finding": "tanos lists ビデオ/ビデオ at N3 (gloss: video)."
+        },
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "master lists ビデオ/ビデオ at N3 (gloss: video; vidéo; видео)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "candidateReference": {
+          "key": "びでお|びでお",
+          "referenceIndex": 0,
+          "referenceHash": "f05843839ebfbec5495e33a34688939a67bafe4253d620c0b242ec1e10198f8c"
+        },
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Video, Videoaufnahme\" matches JMdict 1105360 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Watching a recorded video.",
+          "Recording an event (ビデオに撮る)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1105360; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, master N3. 2 publishers agree on N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@229455259 attests 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229455259",
+            "patterns": [
+              1
+            ],
+            "finding": "ビデオ / ビデオ; 名詞/普通名詞/一般/*; *; *; lemma ビデオ-video; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ビデオ",
+              "reading": "ビデオ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ビデオ as \"Video, Videoaufnahme\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, level basis and pitch disposition inspected.",
+        "contentHash": "d7e1add377d6f5ef3e76042b0be6a0cab2e2e765d94ef183ada061366497fef9",
+        "approvalHash": "471f88b21771127c1f0750fe57f7fa83cab0fb17dc8e1c86577b997bd0eb21e9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: ビデオ N3 = tanos + master N3; pitch 1 = sys.dic@229455259; watching the wedding video vs ビデオに撮りました are distinct; 動画 note accurate.",
+        "contentHash": "d7e1add377d6f5ef3e76042b0be6a0cab2e2e765d94ef183ada061366497fef9",
+        "approvalHash": "471f88b21771127c1f0750fe57f7fa83cab0fb17dc8e1c86577b997bd0eb21e9"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:miruku",
+      "revisionId": "021-add-miruku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ミルク",
+        "reading": "ミルク",
+        "romaji": "miruku",
+        "meaning": "Milch; Babymilch",
+        "type": "Nomen",
+        "category": "Essen",
+        "level": "N3",
+        "notes": "Kuhmilch zum Trinken heißt im Alltag meist 牛乳; ミルク steht besonders für Milch in Kaffee oder Tee und für Säuglingsnahrung.",
+        "examples": [
+          {
+            "japanese": "コーヒーにミルクを入れますか。",
+            "romaji": "Koohii ni miruku o iremasu ka.",
+            "german": "Möchten Sie Milch in den Kaffee?"
+          },
+          {
+            "japanese": "赤ちゃんにミルクをあげる時間です。",
+            "romaji": "Akachan ni miruku o ageru jikan desu.",
+            "german": "Es ist Zeit, dem Baby die Flasche zu geben."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@257625608",
+            "patterns": [
+              1
+            ],
+            "finding": "ミルク / ミルク; 名詞/普通名詞/一般/*; *; *; lemma ミルク-milk; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ミルク",
+              "reading": "ミルク",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ミルク as \"Milch; Babymilch\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, master N3. 2 publishers agree on N3.",
+      "rationale": "Add ミルク【ミルク】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1131990; spelling=ミルク; reading=ミルク; senses=1,2; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1131990 ミルク/ミルク sense(s) 1,2 support \"Milch; Babymilch\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1131990",
+            "spelling": "ミルク",
+            "reading": "ミルク",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "milk"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "infant formula",
+                  "formula",
+                  "baby milk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=84",
+          "finding": "tanos lists ミルク/ミルク at N3 (gloss: milk)."
+        },
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "master lists ミルク/ミルク at N3 (gloss: milk; lait; молоко)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "candidateReference": {
+          "key": "みるく|みるく",
+          "referenceIndex": 0,
+          "referenceHash": "84ae56bd4772d6455d67459fa1b91ecf4ea5235d34ec51184b3410be8e3fbf1c"
+        },
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Milch; Babymilch\" matches JMdict 1131990 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Milk for coffee (sense 1).",
+          "Infant formula (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1131990; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, master N3. 2 publishers agree on N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@257625608 attests 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@257625608",
+            "patterns": [
+              1
+            ],
+            "finding": "ミルク / ミルク; 名詞/普通名詞/一般/*; *; *; lemma ミルク-milk; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ミルク",
+              "reading": "ミルク",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ミルク as \"Milch; Babymilch\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, level basis and pitch disposition inspected.",
+        "contentHash": "430fb806e0bba9c957eed1a8650c893ca7d7c67df9db0d696c5de079c5a73dbc",
+        "approvalHash": "929fed1ecbc81518157b650a903ea0e2a3fedd095f857b24679554f424230897"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: ミルク N3 = tanos + master N3; pitch 1 = sys.dic@257625608; milk in coffee vs baby formula (\"die Flasche geben\") show JMdict senses 1 and 2; 牛乳 note accurate.",
+        "contentHash": "430fb806e0bba9c957eed1a8650c893ca7d7c67df9db0d696c5de079c5a73dbc",
+        "approvalHash": "929fed1ecbc81518157b650a903ea0e2a3fedd095f857b24679554f424230897"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:jiinzu",
+      "revisionId": "021-add-jiinzu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ジーンズ",
+        "reading": "ジーンズ",
+        "romaji": "jiinzu",
+        "meaning": "Jeans",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N3",
+        "notes": "Hose aus Jeansstoff; auch ジーパン. Hosen zieht man mit はく an: ジーンズをはく.",
+        "examples": [
+          {
+            "japanese": "週末はいつもジーンズをはいています。",
+            "romaji": "Shuumatsu wa itsumo jiinzu o haite imasu.",
+            "german": "Am Wochenende trage ich immer Jeans."
+          },
+          {
+            "japanese": "この店のジーンズは丈夫で安いです。",
+            "romaji": "Kono mise no jiinzu wa joubu de yasui desu.",
+            "german": "Die Jeans in diesem Laden sind robust und günstig."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145464640",
+            "patterns": [
+              1
+            ],
+            "finding": "ジーンズ / ジーンズ; 名詞/普通名詞/一般/*; *; *; lemma ジーンズ-jeans; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ジーンズ",
+              "reading": "ジーンズ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ジーンズ as \"Jeans\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, master N3. 2 publishers agree on N3.",
+      "rationale": "Add ジーンズ【ジーンズ】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1064120; spelling=ジーンズ; reading=ジーンズ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1064120 ジーンズ/ジーンズ sense(s) 1 support \"Jeans\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1064120",
+            "spelling": "ジーンズ",
+            "reading": "ジーンズ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "jeans"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=36",
+          "finding": "tanos lists ジーンズ/ジーンズ at N3 (gloss: jeans)."
+        },
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "master lists ジーンズ/ジーンズ at N3 (gloss: jeans; джи́нсы; (n) James Hopwood Jeans (brit. Mathematiker, Physiker und Astronom; 18771946))."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "candidateReference": {
+          "key": "じーんず|じーんず",
+          "referenceIndex": 0,
+          "referenceHash": "98120b7db142264351507858d820efb1d905494f4d25eee9281183241067794e"
+        },
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Jeans\" matches JMdict 1064120 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Habitual clothing (はく).",
+          "Evaluating jeans in a shop."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1064120; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, master N3. 2 publishers agree on N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@145464640 attests 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145464640",
+            "patterns": [
+              1
+            ],
+            "finding": "ジーンズ / ジーンズ; 名詞/普通名詞/一般/*; *; *; lemma ジーンズ-jeans; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ジーンズ",
+              "reading": "ジーンズ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ジーンズ as \"Jeans\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, level basis and pitch disposition inspected.",
+        "contentHash": "c3bfd29bbf1cb7eebdacea9b41ff00d6cc555e09c5114b336d42386f1b263066",
+        "approvalHash": "af0ecd9b0b53d2ba150961420565aac0770fac3f269aa618065c24fe7882ce6c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: ジーンズ N3 = tanos + master N3; pitch 1 = sys.dic@145464640; ジーンズをはいています (with the はく note) vs shop evaluation are distinct.",
+        "contentHash": "c3bfd29bbf1cb7eebdacea9b41ff00d6cc555e09c5114b336d42386f1b263066",
+        "approvalHash": "af0ecd9b0b53d2ba150961420565aac0770fac3f269aa618065c24fe7882ce6c"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:sukii",
+      "revisionId": "021-add-sukii",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "スキー",
+        "reading": "スキー",
+        "romaji": "sukii",
+        "meaning": "Skifahren; Ski",
+        "type": "Nomen",
+        "category": "Sport",
+        "level": "N3",
+        "notes": "Bezeichnet die Sportart und die Skier selbst. „Zum Skifahren gehen“: スキーに行く; „Ski fahren“: スキーをする.",
+        "examples": [
+          {
+            "japanese": "冬休みに長野へスキーに行きます。",
+            "romaji": "Fuyuyasumi ni Nagano e sukii ni ikimasu.",
+            "german": "In den Winterferien fahre ich zum Skifahren nach Nagano."
+          },
+          {
+            "japanese": "スキーを借りるのに、いくらかかりますか。",
+            "romaji": "Sukii o kariru no ni, ikura kakarimasu ka.",
+            "german": "Wie viel kostet es, Skier auszuleihen?"
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@146673166",
+            "patterns": [
+              2,
+              1
+            ],
+            "finding": "スキー / スキー; 名詞/普通名詞/一般/*; *; *; lemma スキー-ski; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "スキー",
+              "reading": "スキー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "スキー as \"Skifahren; Ski\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, master N3. 2 publishers agree on N3.",
+      "rationale": "Add スキー【スキー】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1067770; spelling=スキー; reading=スキー; senses=1,2; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1067770 スキー/スキー sense(s) 1,2 support \"Skifahren; Ski\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1067770",
+            "spelling": "スキー",
+            "reading": "スキー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "skiing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ski",
+                  "skis"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=46",
+          "finding": "tanos lists スキー/スキー at N3 (gloss: skiing)."
+        },
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=2",
+          "finding": "master lists スキー/スキー at N3 (gloss: skiing; ski)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "candidateReference": {
+          "key": "すきー|すきー",
+          "referenceIndex": 0,
+          "referenceHash": "5234f573fd8e41b3e82ac476adb7138de9ba327682d22e650e4d6c6b147b3fd1"
+        },
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Skifahren; Ski\" matches JMdict 1067770 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "The sport (スキーに行く).",
+          "The equipment (renting skis)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1067770; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, master N3. 2 publishers agree on N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@146673166 attests 2,1; primary 2, variant(s) 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@146673166",
+            "patterns": [
+              2,
+              1
+            ],
+            "finding": "スキー / スキー; 名詞/普通名詞/一般/*; *; *; lemma スキー-ski; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "スキー",
+              "reading": "スキー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "スキー as \"Skifahren; Ski\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, level basis and pitch disposition inspected.",
+        "contentHash": "67229a175bf14b734aea592e5d264c5d6e1d8b55ed8dfaab94aaa4c2d6f9298e",
+        "approvalHash": "972e37ac3fb14144d8bcbce6af13184ceb26f68bd8ee7121ac5a1436d44b5ec5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: スキー N3 = tanos + master N3; pitch 2 with variant 1 = sys.dic@146673166 aType 2,1; スキーに行きます (sport) vs スキーを借りる (equipment) are distinct senses.",
+        "contentHash": "67229a175bf14b734aea592e5d264c5d6e1d8b55ed8dfaab94aaa4c2d6f9298e",
+        "approvalHash": "972e37ac3fb14144d8bcbce6af13184ceb26f68bd8ee7121ac5a1436d44b5ec5"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:dansu",
+      "revisionId": "021-add-dansu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ダンス",
+        "reading": "ダンス",
+        "romaji": "dansu",
+        "meaning": "Tanz, Tanzen",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N3",
+        "notes": "Meist westlicher oder moderner Tanz; als Verb ダンスする. Traditioneller japanischer Tanz heißt eher 踊り（おどり）.",
+        "examples": [
+          {
+            "japanese": "妹は毎週ダンスを習っています。",
+            "romaji": "Imouto wa maishuu dansu o naratte imasu.",
+            "german": "Meine jüngere Schwester nimmt jede Woche Tanzunterricht."
+          },
+          {
+            "japanese": "パーティーでみんなとダンスをしました。",
+            "romaji": "Paatii de minna to dansu o shimashita.",
+            "german": "Auf der Party habe ich mit allen getanzt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168119924",
+            "patterns": [
+              1
+            ],
+            "finding": "ダンス / ダンス; 名詞/普通名詞/サ変可能/*; *; *; lemma ダンス-dance; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ダンス",
+              "reading": "ダンス",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "ダンス as \"Tanz, Tanzen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, master N3. 2 publishers agree on N3.",
+      "rationale": "Add ダンス【ダンス】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1077250; spelling=ダンス; reading=ダンス; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1077250 ダンス/ダンス sense(s) 1 support \"Tanz, Tanzen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1077250",
+            "spelling": "ダンス",
+            "reading": "ダンス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dance",
+                  "dancing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=57",
+          "finding": "tanos lists ダンス/ダンス at N3 (gloss: dance)."
+        },
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "master lists ダンス/ダンス at N3 (gloss: dance; danse; танец)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "candidateReference": {
+          "key": "だんす|だんす",
+          "referenceIndex": 0,
+          "referenceHash": "4dead8668183e4af11c0f3aa7dd8e30a6e83434b726f19cf42bd6a0956968c4a"
+        },
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Tanz, Tanzen\" matches JMdict 1077250 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Taking dance lessons.",
+          "Dancing at a party."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1077250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, master N3. 2 publishers agree on N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@168119924 attests 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168119924",
+            "patterns": [
+              1
+            ],
+            "finding": "ダンス / ダンス; 名詞/普通名詞/サ変可能/*; *; *; lemma ダンス-dance; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ダンス",
+              "reading": "ダンス",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "ダンス as \"Tanz, Tanzen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, level basis and pitch disposition inspected.",
+        "contentHash": "48fbdb703860efd31182addf1afd8f23b71732031e06d9fed8327356fe925206",
+        "approvalHash": "628270e78ffca22b19b5fb905f342e3f63278a66b306fd0a855084fc383af831"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: ダンス N3 = tanos + master N3; pitch 1 = sys.dic@168119924; dance lessons (naratte imasu) vs dancing at a party are distinct; 踊り note accurate.",
+        "contentHash": "48fbdb703860efd31182addf1afd8f23b71732031e06d9fed8327356fe925206",
+        "approvalHash": "628270e78ffca22b19b5fb905f342e3f63278a66b306fd0a855084fc383af831"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:paasento",
+      "revisionId": "021-add-paasento",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "パーセント",
+        "reading": "パーセント",
+        "romaji": "paasento",
+        "meaning": "Prozent",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N3",
+        "notes": "Steht nach der Zahl: 50パーセント; geschrieben oft mit %. „… Prozent Rabatt“: …パーセント引き.",
+        "examples": [
+          {
+            "japanese": "この店では全品二十パーセント引きです。",
+            "romaji": "Kono mise de wa zenpin nijuu paasento biki desu.",
+            "german": "In diesem Laden ist alles um 20 Prozent reduziert."
+          },
+          {
+            "japanese": "クラスの八十パーセントの学生が試験に合格しました。",
+            "romaji": "Kurasu no hachijuu paasento no gakusei ga shiken ni goukaku shimashita.",
+            "german": "80 Prozent der Studierenden der Klasse haben die Prüfung bestanden."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@221742236",
+            "patterns": [
+              3
+            ],
+            "finding": "パーセント / パーセント; 名詞/普通名詞/助数詞可能/*; *; *; lemma パーセント-percent; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "パーセント",
+              "reading": "パーセント",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "パーセント as \"Prozent\"."
+            }
+          }
+        ]
+      },
+      "reason": "Reported missing word (maintenance batch 021); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, master N3. 2 publishers agree on N3.",
+      "rationale": "Add パーセント【パーセント】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1100610; spelling=パーセント; reading=パーセント; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1100610 パーセント/パーセント sense(s) 1 support \"Prozent\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1100610",
+            "spelling": "パーセント",
+            "reading": "パーセント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "percent",
+                  "per cent",
+                  "percentage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=71",
+          "finding": "tanos lists パーセント/パーセント at N3 (gloss: percent)."
+        },
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=4",
+          "finding": "master lists パーセント/パーセント at N3 (gloss: percent; percentage; pour cent)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "candidateReference": {
+          "key": "ぱーせんと|ぱーせんと",
+          "referenceIndex": 0,
+          "referenceHash": "e96a4e6bf81258603e5efe6a045f4338317bd4e283bd31a93d117483b7f70c22"
+        },
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-021-editor",
+        "meaning": "\"Prozent\" matches JMdict 1100610 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Shop discount.",
+          "Share of students passing."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1100610; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, master N3. 2 publishers agree on N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@221742236 attests 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@221742236",
+            "patterns": [
+              3
+            ],
+            "finding": "パーセント / パーセント; 名詞/普通名詞/助数詞可能/*; *; *; lemma パーセント-percent; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "パーセント",
+              "reading": "パーセント",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "パーセント as \"Prozent\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: addition content, evidence, level basis and pitch disposition inspected.",
+        "contentHash": "87b609153fefee34c06846bd0d55a437c6222dd891cfd09398019531d0ea4112",
+        "approvalHash": "1f1424f9a87c5e7234d9edbfe82efb86ae0cb2d516d6b083b624d5c5b3131f03"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: パーセント N3 = tanos + master N3; pitch 3 = sys.dic@221742236; 二十パーセント引き discount vs 八十パーセントの学生 share are distinct and correctly romanized.",
+        "contentHash": "87b609153fefee34c06846bd0d55a437c6222dd891cfd09398019531d0ea4112",
+        "approvalHash": "1f1424f9a87c5e7234d9edbfe82efb86ae0cb2d516d6b083b624d5c5b3131f03"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "びでお|びでお",
+      "referenceIndex": 0,
+      "referenceHash": "f05843839ebfbec5495e33a34688939a67bafe4253d620c0b242ec1e10198f8c",
+      "revisionId": "021-candidate-bideo-df5f4842-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:bideo"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:bideo": "d7e1add377d6f5ef3e76042b0be6a0cab2e2e765d94ef183ada061366497fef9"
+      },
+      "reason": "Reference ビデオ/ビデオ (tanos N3) is the same lexeme as the new entry ビデオ【ビデオ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=75",
+          "finding": "tanos lists ビデオ/ビデオ at N3 (gloss: video)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1105360; spelling=ビデオ; reading=ビデオ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1105360 as the reference form.",
+          "selected": {
+            "sequence": "1105360",
+            "spelling": "ビデオ",
+            "reading": "ビデオ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "video (esp. a televised image)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "828e63085c73d8440f1623ed65f9966d35f256707cd343ee01ca101e9acf127c",
+        "approvalHash": "828e63085c73d8440f1623ed65f9966d35f256707cd343ee01ca101e9acf127c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json びでお|びでお reference #0 is tanos N3 (\"video\"), the same lexeme (JMdict 1105360) as vocab-n3:correction:bideo ビデオ【ビデオ】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "828e63085c73d8440f1623ed65f9966d35f256707cd343ee01ca101e9acf127c",
+        "approvalHash": "828e63085c73d8440f1623ed65f9966d35f256707cd343ee01ca101e9acf127c"
+      }
+    },
+    {
+      "key": "びでお|びでお",
+      "referenceIndex": 1,
+      "referenceHash": "90837aea1a698cac78e7220c9a0dd56fd0ee20301526666b5d0972321eecaff0",
+      "revisionId": "021-candidate-bideo-df5f4842-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:bideo"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:bideo": "d7e1add377d6f5ef3e76042b0be6a0cab2e2e765d94ef183ada061366497fef9"
+      },
+      "reason": "Reference ビデオ/ビデオ (master N3) is the same lexeme as the new entry ビデオ【ビデオ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "master lists ビデオ/ビデオ at N3 (gloss: video; vidéo; видео)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1105360; spelling=ビデオ; reading=ビデオ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1105360 as the reference form.",
+          "selected": {
+            "sequence": "1105360",
+            "spelling": "ビデオ",
+            "reading": "ビデオ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "video (esp. a televised image)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "d3c0425988656604fe45536df6eda1d1075aecd06e714db2bb5f39069c9d65f4",
+        "approvalHash": "d3c0425988656604fe45536df6eda1d1075aecd06e714db2bb5f39069c9d65f4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json びでお|びでお reference #1 is master N3 (\"video; vidéo; видео\"), the same lexeme (JMdict 1105360) as vocab-n3:correction:bideo ビデオ【ビデオ】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "d3c0425988656604fe45536df6eda1d1075aecd06e714db2bb5f39069c9d65f4",
+        "approvalHash": "d3c0425988656604fe45536df6eda1d1075aecd06e714db2bb5f39069c9d65f4"
+      }
+    },
+    {
+      "key": "みるく|みるく",
+      "referenceIndex": 0,
+      "referenceHash": "84ae56bd4772d6455d67459fa1b91ecf4ea5235d34ec51184b3410be8e3fbf1c",
+      "revisionId": "021-candidate-miruku-327f0548-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:miruku"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:miruku": "430fb806e0bba9c957eed1a8650c893ca7d7c67df9db0d696c5de079c5a73dbc"
+      },
+      "reason": "Reference ミルク/ミルク (tanos N3) is the same lexeme as the new entry ミルク【ミルク】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=84",
+          "finding": "tanos lists ミルク/ミルク at N3 (gloss: milk)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1131990; spelling=ミルク; reading=ミルク; senses=1,2; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1131990 as the reference form.",
+          "selected": {
+            "sequence": "1131990",
+            "spelling": "ミルク",
+            "reading": "ミルク",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "milk"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "infant formula",
+                  "formula",
+                  "baby milk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "67c5742d036d31f785488060ee4d0d9991f8c1db8864ea239b094326f57daaf8",
+        "approvalHash": "67c5742d036d31f785488060ee4d0d9991f8c1db8864ea239b094326f57daaf8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json みるく|みるく reference #0 is tanos N3 (\"milk\"), the same lexeme (JMdict 1131990) as vocab-n3:correction:miruku ミルク【ミルク】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "67c5742d036d31f785488060ee4d0d9991f8c1db8864ea239b094326f57daaf8",
+        "approvalHash": "67c5742d036d31f785488060ee4d0d9991f8c1db8864ea239b094326f57daaf8"
+      }
+    },
+    {
+      "key": "みるく|みるく",
+      "referenceIndex": 1,
+      "referenceHash": "e111497c87caf0c10be1f7678100726941c02cadcad33f68670384f0933335fc",
+      "revisionId": "021-candidate-miruku-327f0548-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:miruku"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:miruku": "430fb806e0bba9c957eed1a8650c893ca7d7c67df9db0d696c5de079c5a73dbc"
+      },
+      "reason": "Reference ミルク/ミルク (master N3) is the same lexeme as the new entry ミルク【ミルク】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "master lists ミルク/ミルク at N3 (gloss: milk; lait; молоко)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1131990; spelling=ミルク; reading=ミルク; senses=1,2; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1131990 as the reference form.",
+          "selected": {
+            "sequence": "1131990",
+            "spelling": "ミルク",
+            "reading": "ミルク",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "milk"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "infant formula",
+                  "formula",
+                  "baby milk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "95af70631b8719604b4c169a733a6ef03f469e6c894e93ef562ac1e040bd255c",
+        "approvalHash": "95af70631b8719604b4c169a733a6ef03f469e6c894e93ef562ac1e040bd255c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json みるく|みるく reference #1 is master N3 (\"milk; lait; молоко\"), the same lexeme (JMdict 1131990) as vocab-n3:correction:miruku ミルク【ミルク】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "95af70631b8719604b4c169a733a6ef03f469e6c894e93ef562ac1e040bd255c",
+        "approvalHash": "95af70631b8719604b4c169a733a6ef03f469e6c894e93ef562ac1e040bd255c"
+      }
+    },
+    {
+      "key": "じーんず|じーんず",
+      "referenceIndex": 0,
+      "referenceHash": "98120b7db142264351507858d820efb1d905494f4d25eee9281183241067794e",
+      "revisionId": "021-candidate-jiinzu-90a6d577-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:jiinzu"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:jiinzu": "c3bfd29bbf1cb7eebdacea9b41ff00d6cc555e09c5114b336d42386f1b263066"
+      },
+      "reason": "Reference ジーンズ/ジーンズ (tanos N3) is the same lexeme as the new entry ジーンズ【ジーンズ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=36",
+          "finding": "tanos lists ジーンズ/ジーンズ at N3 (gloss: jeans)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1064120; spelling=ジーンズ; reading=ジーンズ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1064120 as the reference form.",
+          "selected": {
+            "sequence": "1064120",
+            "spelling": "ジーンズ",
+            "reading": "ジーンズ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "jeans"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "60c26ca49a448f20b493bfcc49bb499a43c543e51a59e315397da4f3b57bd80f",
+        "approvalHash": "60c26ca49a448f20b493bfcc49bb499a43c543e51a59e315397da4f3b57bd80f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json じーんず|じーんず reference #0 is tanos N3 (\"jeans\"), the same lexeme (JMdict 1064120) as vocab-n3:correction:jiinzu ジーンズ【ジーンズ】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "60c26ca49a448f20b493bfcc49bb499a43c543e51a59e315397da4f3b57bd80f",
+        "approvalHash": "60c26ca49a448f20b493bfcc49bb499a43c543e51a59e315397da4f3b57bd80f"
+      }
+    },
+    {
+      "key": "じーんず|じーんず",
+      "referenceIndex": 1,
+      "referenceHash": "eb7c6fb8f1ce8b84221937c20f10895fd6ace6fe742aec6b14089b39b63a5556",
+      "revisionId": "021-candidate-jiinzu-90a6d577-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:jiinzu"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:jiinzu": "c3bfd29bbf1cb7eebdacea9b41ff00d6cc555e09c5114b336d42386f1b263066"
+      },
+      "reason": "Reference ジーンズ/ジーンズ (master N3) is the same lexeme as the new entry ジーンズ【ジーンズ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "master lists ジーンズ/ジーンズ at N3 (gloss: jeans; джи́нсы; (n) James Hopwood Jeans (brit. Mathematiker, Physiker und Astronom; 18771946))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1064120; spelling=ジーンズ; reading=ジーンズ; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1064120 as the reference form.",
+          "selected": {
+            "sequence": "1064120",
+            "spelling": "ジーンズ",
+            "reading": "ジーンズ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "jeans"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "57fd2e43626b995a555a07e0faed01fd2073be70973a636c6f6a86d9175ae75e",
+        "approvalHash": "57fd2e43626b995a555a07e0faed01fd2073be70973a636c6f6a86d9175ae75e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json じーんず|じーんず reference #1 is master N3 (\"jeans; джи́нсы; (n) James Hopwood Jeans (brit. Mathematiker,\"), the same lexeme (JMdict 1064120) as vocab-n3:correction:jiinzu ジーンズ【ジーンズ】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "57fd2e43626b995a555a07e0faed01fd2073be70973a636c6f6a86d9175ae75e",
+        "approvalHash": "57fd2e43626b995a555a07e0faed01fd2073be70973a636c6f6a86d9175ae75e"
+      }
+    },
+    {
+      "key": "すきー|すきー",
+      "referenceIndex": 0,
+      "referenceHash": "5234f573fd8e41b3e82ac476adb7138de9ba327682d22e650e4d6c6b147b3fd1",
+      "revisionId": "021-candidate-sukii-cbbc5436-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:sukii"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:sukii": "67229a175bf14b734aea592e5d264c5d6e1d8b55ed8dfaab94aaa4c2d6f9298e"
+      },
+      "reason": "Reference スキー/スキー (tanos N3) is the same lexeme as the new entry スキー【スキー】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=46",
+          "finding": "tanos lists スキー/スキー at N3 (gloss: skiing)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1067770; spelling=スキー; reading=スキー; senses=1,2; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1067770 as the reference form.",
+          "selected": {
+            "sequence": "1067770",
+            "spelling": "スキー",
+            "reading": "スキー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "skiing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ski",
+                  "skis"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "54a9df8bb2d0203d15f0d4c401986864f475a5788d3f0b4acef76c61ae107d10",
+        "approvalHash": "54a9df8bb2d0203d15f0d4c401986864f475a5788d3f0b4acef76c61ae107d10"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json すきー|すきー reference #0 is tanos N3 (\"skiing\"), the same lexeme (JMdict 1067770) as vocab-n3:correction:sukii スキー【スキー】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "54a9df8bb2d0203d15f0d4c401986864f475a5788d3f0b4acef76c61ae107d10",
+        "approvalHash": "54a9df8bb2d0203d15f0d4c401986864f475a5788d3f0b4acef76c61ae107d10"
+      }
+    },
+    {
+      "key": "すきー|すきー",
+      "referenceIndex": 1,
+      "referenceHash": "31c8d2fe92c6bec714f593a631093db0a89c69610c8bef05bfc9f7407c49dbd1",
+      "revisionId": "021-candidate-sukii-cbbc5436-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:sukii"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:sukii": "67229a175bf14b734aea592e5d264c5d6e1d8b55ed8dfaab94aaa4c2d6f9298e"
+      },
+      "reason": "Reference スキー/スキー (master N3) is the same lexeme as the new entry スキー【スキー】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=2",
+          "finding": "master lists スキー/スキー at N3 (gloss: skiing; ski)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1067770; spelling=スキー; reading=スキー; senses=1,2; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1067770 as the reference form.",
+          "selected": {
+            "sequence": "1067770",
+            "spelling": "スキー",
+            "reading": "スキー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "skiing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ski",
+                  "skis"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "6c6eaabc342113ef92782e6a20fe6523e9fdbd253f27c690ccd6978d585be1bb",
+        "approvalHash": "6c6eaabc342113ef92782e6a20fe6523e9fdbd253f27c690ccd6978d585be1bb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json すきー|すきー reference #1 is master N3 (\"skiing; ski\"), the same lexeme (JMdict 1067770) as vocab-n3:correction:sukii スキー【スキー】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "6c6eaabc342113ef92782e6a20fe6523e9fdbd253f27c690ccd6978d585be1bb",
+        "approvalHash": "6c6eaabc342113ef92782e6a20fe6523e9fdbd253f27c690ccd6978d585be1bb"
+      }
+    },
+    {
+      "key": "だんす|だんす",
+      "referenceIndex": 0,
+      "referenceHash": "4dead8668183e4af11c0f3aa7dd8e30a6e83434b726f19cf42bd6a0956968c4a",
+      "revisionId": "021-candidate-dansu-e8a0c8e6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:dansu"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:dansu": "48fbdb703860efd31182addf1afd8f23b71732031e06d9fed8327356fe925206"
+      },
+      "reason": "Reference ダンス/ダンス (tanos N3) is the same lexeme as the new entry ダンス【ダンス】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=57",
+          "finding": "tanos lists ダンス/ダンス at N3 (gloss: dance)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1077250; spelling=ダンス; reading=ダンス; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1077250 as the reference form.",
+          "selected": {
+            "sequence": "1077250",
+            "spelling": "ダンス",
+            "reading": "ダンス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dance",
+                  "dancing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "355766e8b0995de285b0e14743dcc2ce42259a7c4658f91bfc0e192b7159b775",
+        "approvalHash": "355766e8b0995de285b0e14743dcc2ce42259a7c4658f91bfc0e192b7159b775"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json だんす|だんす reference #0 is tanos N3 (\"dance\"), the same lexeme (JMdict 1077250) as vocab-n3:correction:dansu ダンス【ダンス】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "355766e8b0995de285b0e14743dcc2ce42259a7c4658f91bfc0e192b7159b775",
+        "approvalHash": "355766e8b0995de285b0e14743dcc2ce42259a7c4658f91bfc0e192b7159b775"
+      }
+    },
+    {
+      "key": "だんす|だんす",
+      "referenceIndex": 1,
+      "referenceHash": "85a5b69fc994c1badf8fadc88462fd05bd50de8921f360f7ee95816e30aee2d0",
+      "revisionId": "021-candidate-dansu-e8a0c8e6-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:dansu"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:dansu": "48fbdb703860efd31182addf1afd8f23b71732031e06d9fed8327356fe925206"
+      },
+      "reason": "Reference ダンス/ダンス (master N3) is the same lexeme as the new entry ダンス【ダンス】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "master lists ダンス/ダンス at N3 (gloss: dance; danse; танец)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1077250; spelling=ダンス; reading=ダンス; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1077250 as the reference form.",
+          "selected": {
+            "sequence": "1077250",
+            "spelling": "ダンス",
+            "reading": "ダンス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dance",
+                  "dancing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "2c012e4b9c3418d60e1564b6311037308147e52dc10e78f4e437e4bb6a5729d9",
+        "approvalHash": "2c012e4b9c3418d60e1564b6311037308147e52dc10e78f4e437e4bb6a5729d9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json だんす|だんす reference #1 is master N3 (\"dance; danse; танец\"), the same lexeme (JMdict 1077250) as vocab-n3:correction:dansu ダンス【ダンス】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "2c012e4b9c3418d60e1564b6311037308147e52dc10e78f4e437e4bb6a5729d9",
+        "approvalHash": "2c012e4b9c3418d60e1564b6311037308147e52dc10e78f4e437e4bb6a5729d9"
+      }
+    },
+    {
+      "key": "ぱーせんと|ぱーせんと",
+      "referenceIndex": 0,
+      "referenceHash": "e96a4e6bf81258603e5efe6a045f4338317bd4e283bd31a93d117483b7f70c22",
+      "revisionId": "021-candidate-paasento-8a488e96-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:paasento"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:paasento": "87b609153fefee34c06846bd0d55a437c6222dd891cfd09398019531d0ea4112"
+      },
+      "reason": "Reference パーセント/パーセント (tanos N3) is the same lexeme as the new entry パーセント【パーセント】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=71",
+          "finding": "tanos lists パーセント/パーセント at N3 (gloss: percent)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1100610; spelling=パーセント; reading=パーセント; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1100610 as the reference form.",
+          "selected": {
+            "sequence": "1100610",
+            "spelling": "パーセント",
+            "reading": "パーセント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "percent",
+                  "per cent",
+                  "percentage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "c63de01c409a1ad13c5377cca959061abd318e793f544fc63d51bb8745030d9f",
+        "approvalHash": "c63de01c409a1ad13c5377cca959061abd318e793f544fc63d51bb8745030d9f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json ぱーせんと|ぱーせんと reference #0 is tanos N3 (\"percent\"), the same lexeme (JMdict 1100610) as vocab-n3:correction:paasento パーセント【パーセント】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "c63de01c409a1ad13c5377cca959061abd318e793f544fc63d51bb8745030d9f",
+        "approvalHash": "c63de01c409a1ad13c5377cca959061abd318e793f544fc63d51bb8745030d9f"
+      }
+    },
+    {
+      "key": "ぱーせんと|ぱーせんと",
+      "referenceIndex": 1,
+      "referenceHash": "fb79e9eabe03d541b2079c4eaf76b2f53e6cd1aa140cbc311e4acfc2b823b528",
+      "revisionId": "021-candidate-paasento-8a488e96-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:paasento"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:paasento": "87b609153fefee34c06846bd0d55a437c6222dd891cfd09398019531d0ea4112"
+      },
+      "reason": "Reference パーセント/パーセント (master N3) is the same lexeme as the new entry パーセント【パーセント】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=4",
+          "finding": "master lists パーセント/パーセント at N3 (gloss: percent; percentage; pour cent)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1100610; spelling=パーセント; reading=パーセント; senses=1; scripts/vocabulary-completion/maintenance-021/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1100610 as the reference form.",
+          "selected": {
+            "sequence": "1100610",
+            "spelling": "パーセント",
+            "reading": "パーセント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "percent",
+                  "per cent",
+                  "percentage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-editor",
+        "finding": "Editorial first pass: reference checked against the addition target and JMdict entry.",
+        "contentHash": "39f71b380d242e4ab460f2b990259942e6b50183d5d59e61491f3dadeb1cbdbb",
+        "approvalHash": "39f71b380d242e4ab460f2b990259942e6b50183d5d59e61491f3dadeb1cbdbb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-021-independent-reviewer",
+        "finding": "Accepted: comparison.json ぱーせんと|ぱーせんと reference #1 is master N3 (\"percent; percentage; pour cent\"), the same lexeme (JMdict 1100610) as vocab-n3:correction:paasento パーセント【パーセント】; disposition \"added\" is correct and targetHashes matches that addition's contentHash in targets-021f.json.",
+        "contentHash": "39f71b380d242e4ab460f2b990259942e6b50183d5d59e61491f3dadeb1cbdbb",
+        "approvalHash": "39f71b380d242e4ab460f2b990259942e6b50183d5d59e61491f3dadeb1cbdbb"
+      }
+    }
+  ]
+}

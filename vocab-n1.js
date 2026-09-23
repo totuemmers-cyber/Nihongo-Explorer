@@ -72293,5 +72293,246 @@ window.VOCAB_N1 = [
       }
     ],
     "vocabularyCompletion": "2026-09-vocabulary-completion"
+  },
+  {
+    "word": "もたつく",
+    "reading": "もたつく",
+    "romaji": "motatsuku",
+    "meaning": "trödeln, nicht vorankommen, stocken",
+    "type": "Verb",
+    "category": "Handlung",
+    "level": "N1",
+    "notes": "Intransitives Godan-Verb: Man kommt wegen Ungeschick oder Verzögerung nicht voran（準備にもたつく）. Verwandt mit dem lautmalerischen もたもた.",
+    "examples": [
+      {
+        "japanese": "レジでお金を出すのにもたついて、後ろの人を待たせてしまった。",
+        "romaji": "Reji de okane o dasu no ni motatsuite, ushiro no hito o matasete shimatta.",
+        "german": "An der Kasse habe ich beim Bezahlen herumgetrödelt und die Leute hinter mir warten lassen."
+      },
+      {
+        "japanese": "新しいシステムの導入がもたついている。",
+        "romaji": "Atarashii shisutemu no dounyuu ga motatsuite iru.",
+        "german": "Die Einführung des neuen Systems kommt nicht voran."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "もたつく",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "もたつく",
+    "pitchVariants": [
+      3
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@263683602",
+        "patterns": [
+          0,
+          3
+        ],
+        "finding": "もたつく / モタツク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma もたつく; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "もたつく",
+          "reading": "もたつく",
+          "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+          "sense": "もたつく as \"trödeln, nicht vorankommen, stocken\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:motatsuku"
+  },
+  {
+    "word": "しゃちほこばる",
+    "reading": "しゃちほこばる",
+    "romaji": "shachihokobaru",
+    "meaning": "sich steif und förmlich benehmen, verkrampft sein",
+    "type": "Verb",
+    "category": "Handlung",
+    "level": "N1",
+    "notes": "Von 鯱（しゃちほこ）, der steifen Fischfigur auf Burgdächern: jemand verhält sich aus Nervosität übertrieben förmlich. Oft als しゃちほこばった. Die Kanji-Schreibung 鯱張る ist selten.",
+    "examples": [
+      {
+        "japanese": "面接では、しゃちほこばらずに自然に話してください。",
+        "romaji": "Mensetsu de wa, shachihokobarazu ni shizen ni hanashite kudasai.",
+        "german": "Seien Sie beim Vorstellungsgespräch nicht so verkrampft, sprechen Sie ganz natürlich."
+      },
+      {
+        "japanese": "祖父はしゃちほこばった挨拶をして、みんなを笑わせた。",
+        "romaji": "Sofu wa shachihokobatta aisatsu o shite, minna o warawaseta.",
+        "german": "Mein Großvater begrüßte alle steif und förmlich und brachte sie damit zum Lachen."
+      }
+    ],
+    "aliases": [
+      "鯱張る"
+    ],
+    "pitch": 5,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "しゃちほこばる",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "しゃちほこばる",
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139242201",
+        "patterns": [
+          5
+        ],
+        "finding": "しゃちほこばる / シャチホコバル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 鯱張る; aType 5. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "しゃちほこばる",
+          "reading": "しゃちほこばる",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+          "sense": "しゃちほこばる as \"sich steif und förmlich benehmen, verkrampft sein\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:shachihokobaru"
+  },
+  {
+    "word": "たどたどしい",
+    "reading": "たどたどしい",
+    "romaji": "tadotadoshii",
+    "meaning": "stockend, holprig, unsicher",
+    "type": "Adjektiv",
+    "category": "Art und Weise",
+    "level": "N1",
+    "notes": "い-Adjektiv für stockendes Sprechen, Lesen oder Schreiben und unsichere Schritte, etwa bei Kindern oder Lernenden: たどたどしい日本語.",
+    "examples": [
+      {
+        "japanese": "子どもがたどたどしい字で手紙を書いてくれた。",
+        "romaji": "Kodomo ga tadotadoshii ji de tegami o kaite kureta.",
+        "german": "Das Kind hat mir in unbeholfener Schrift einen Brief geschrieben."
+      },
+      {
+        "japanese": "彼はたどたどしい日本語で、一生懸命説明した。",
+        "romaji": "Kare wa tadotadoshii nihongo de, isshoukenmei setsumei shita.",
+        "german": "Er erklärte es mit großer Mühe in stockendem Japanisch."
+      }
+    ],
+    "pitch": 5,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@164514326",
+        "patterns": [
+          5
+        ],
+        "finding": "たどたどしい / タドタドシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma たどたどしい; aType 5. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "たどたどしい",
+          "reading": "たどたどしい",
+          "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+          "sense": "たどたどしい as \"stockend, holprig, unsicher\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:tadotadoshii"
+  },
+  {
+    "word": "ぶっきらぼう",
+    "reading": "ぶっきらぼう",
+    "romaji": "bukkirabou",
+    "meaning": "schroff, kurz angebunden",
+    "type": "Adjektiv",
+    "category": "Charakter",
+    "level": "N1",
+    "notes": "な-Adjektiv: ぶっきらぼうな返事; adverbial ぶっきらぼうに答える. Beschreibt eine unfreundlich knappe Art zu sprechen, oft ohne böse Absicht.",
+    "examples": [
+      {
+        "japanese": "彼はぶっきらぼうだけど、本当は優しい人です。",
+        "romaji": "Kare wa bukkirabou dakedo, hontou wa yasashii hito desu.",
+        "german": "Er ist schroff, aber eigentlich ein netter Mensch."
+      },
+      {
+        "japanese": "店員にぶっきらぼうに答えられて、少し嫌な気分になった。",
+        "romaji": "Ten'in ni bukkirabou ni kotaerarete, sukoshi iya na kibun ni natta.",
+        "german": "Der Verkäufer antwortete mir kurz angebunden, und ich fühlte mich etwas unwohl."
+      }
+    ],
+    "pitch": 4,
+    "pitchVariants": [
+      3
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239060535",
+        "patterns": [
+          4,
+          3
+        ],
+        "finding": "ぶっきらぼう / ブッキラボウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma ぶっきらぼう; aType 4,3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ぶっきらぼう",
+          "reading": "ぶっきらぼう",
+          "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+          "sense": "ぶっきらぼう as \"schroff, kurz angebunden\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:bukkirabou"
+  },
+  {
+    "word": "ぞんざい",
+    "reading": "ぞんざい",
+    "romaji": "zonzai",
+    "meaning": "nachlässig, grob, unhöflich",
+    "type": "Adjektiv",
+    "category": "Art und Weise",
+    "level": "N1",
+    "notes": "な-Adjektiv: ぞんざいな言葉遣い; adverbial ぞんざいに扱う „achtlos behandeln“. Kritisiert fehlende Sorgfalt oder fehlenden Respekt; kein lautmalerisches Wort.",
+    "examples": [
+      {
+        "japanese": "お客様にぞんざいな口のきき方をしてはいけません。",
+        "romaji": "Okyakusama ni zonzai na kuchi no kikikata o shite wa ikemasen.",
+        "german": "Mit Kunden darf man nicht so grob reden."
+      },
+      {
+        "japanese": "借りた本をぞんざいに扱わないでください。",
+        "romaji": "Karita hon o zonzai ni atsukawanaide kudasai.",
+        "german": "Bitte geh mit geliehenen Büchern nicht achtlos um."
+      }
+    ],
+    "pitch": 3,
+    "pitchVariants": [
+      0
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157852988",
+        "patterns": [
+          3,
+          0
+        ],
+        "finding": "ぞんざい / ゾンザイ; 形状詞/一般/*/*; *; *; lemma ぞんざい; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ぞんざい",
+          "reading": "ぞんざい",
+          "grammaticalForm": "形状詞/一般/*/*; *; *",
+          "sense": "ぞんざい as \"nachlässig, grob, unhöflich\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:zonzai"
   }
 ];

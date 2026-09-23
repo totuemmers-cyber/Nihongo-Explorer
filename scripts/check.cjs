@@ -12,6 +12,7 @@ const CHECKS = [
   'lint',
   'test:smoke',
   'test:ui',
+  'test:kana',
   'test:storage',
   'test:contrast',
   'test:comprehension',

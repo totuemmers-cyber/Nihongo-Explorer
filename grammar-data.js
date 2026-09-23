@@ -118,7 +118,8 @@ window.GRAMMAR_DATA = [
     "related": [
       "wa",
       "ga-aru",
-      "ga-iru"
+      "ga-iru",
+      "n4-ga-suru"
     ]
   },
   {
@@ -239,7 +240,9 @@ window.GRAMMAR_DATA = [
     "notes": "Bei Wochentagen und konkreten Uhrzeiten verwendet man に, aber bei relativen Zeitangaben wie 今日、明日、来週 wird に nicht verwendet.",
     "related": [
       "de",
-      "e"
+      "e",
+      "n5-koko-soko-asoko-doko",
+      "n5-goro"
     ]
   },
   {
@@ -646,7 +649,8 @@ window.GRAMMAR_DATA = [
     "notes": "も ersetzt は, が und を, wird aber zu anderen Partikeln hinzugefügt: にも、でも、からも usw.",
     "related": [
       "wa",
-      "ga"
+      "ga",
+      "n5-question-word-ka-mo"
     ]
   },
   {
@@ -820,7 +824,12 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "In der höflichen Sprache wird か ohne Fragezeichen verwendet. Im informellen Japanisch kann か weggelassen werden – die Frage wird dann durch steigende Intonation gebildet.",
-    "related": []
+    "related": [
+      "n5-ka-ka",
+      "n5-question-word-ka-mo",
+      "n4-kana-kashira",
+      "n4-indirect-question"
+    ]
   },
   {
     "id": "ya",
@@ -880,7 +889,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "や wird oft mit など (und so weiter) kombiniert. Im Gegensatz zu と (vollständige Aufzählung) deutet や an, dass die Liste nicht abgeschlossen ist.",
     "related": [
-      "to"
+      "to",
+      "n5-ka-ka"
     ]
   },
   {
@@ -1000,7 +1010,9 @@ window.GRAMMAR_DATA = [
     "related": [
       "masu",
       "mashita",
-      "masen-deshita"
+      "masen-deshita",
+      "n5-amari-nai",
+      "n5-masen-ka"
     ]
   },
   {
@@ -1181,7 +1193,8 @@ window.GRAMMAR_DATA = [
       "te-iru",
       "te-kudasai",
       "temo-ii",
-      "te-connective"
+      "te-connective",
+      "n4-te-yokatta"
     ]
   },
   {
@@ -1235,7 +1248,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Bei Zustandsverben wie 知る, 結婚する, 持つ beschreibt ている den resultierenden Zustand: 知っています (Ich weiß es), nicht eine andauernde Handlung.",
     "related": [
-      "te-form"
+      "te-form",
+      "n5-chuu-juu"
     ]
   },
   {
@@ -1468,7 +1482,9 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "ましょう ist ein Vorschlag, ましょうか ist eine Frage, ob man etwas gemeinsam tun soll oder ein Angebot.",
     "related": [
-      "mashou-ka"
+      "mashou-ka",
+      "n5-demo-suggestion",
+      "n5-masen-ka"
     ]
   },
   {
@@ -1526,7 +1542,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Wenn man jemandem Hilfe anbietet, ist ましょうか höflicher als einfach ましょう.",
     "related": [
-      "mashou"
+      "mashou",
+      "n5-masen-ka"
     ]
   },
   {
@@ -1586,7 +1603,8 @@ window.GRAMMAR_DATA = [
     "related": [
       "te-form",
       "tewa-ikemasen",
-      "nakutemo-ii"
+      "nakutemo-ii",
+      "n4-temo-kamawanai"
     ]
   },
   {
@@ -1645,7 +1663,8 @@ window.GRAMMAR_DATA = [
     "notes": "In der Umgangssprache wird ～ちゃだめ oder ～ちゃいけない verwendet. ～てはいけません ist die formellere Variante.",
     "related": [
       "temo-ii",
-      "nakereba-naranai"
+      "nakereba-naranai",
+      "n4-cha-ikenai"
     ]
   },
   {
@@ -1860,7 +1879,9 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "Beide Handlungen müssen von derselben Person ausgeführt werden. Für verschiedene Personen verwendet man ～間に (aida ni).",
-    "related": []
+    "related": [
+      "n3-tsuide-ni"
+    ]
   },
   {
     "id": "mae-ni",
@@ -2030,7 +2051,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Am Ende der Aufzählung muss immer する stehen (in der passenden Zeitform). Auch mit Adjektiven möglich: 大きかったり小さかったり.",
     "related": [
-      "ya"
+      "ya",
+      "n2-yara-yara"
     ]
   },
   {
@@ -2200,7 +2222,9 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "Bei い-Adjektiven fällt das い weg: 高い → 高すぎる. Bei な-Adjektiven fällt な weg: 静か → 静かすぎる.",
-    "related": []
+    "related": [
+      "n2-ni-mo-hodo-ga-aru"
+    ]
   },
   {
     "id": "kata",
@@ -2368,7 +2392,8 @@ window.GRAMMAR_DATA = [
     "notes": "Die Bildung: Verb ない-Form → ない wird zu なくて: 食べない → 食べなくてもいい. Nicht verwechseln mit ～てもいい (Erlaubnis).",
     "related": [
       "temo-ii",
-      "nakereba-naranai"
+      "nakereba-naranai",
+      "n4-nakute-wa-ikenai"
     ]
   },
   {
@@ -2422,7 +2447,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "てみる betont das Ausprobieren, nicht den Versuch im Sinne von Anstrengung. Für 'sich bemühen' verwendet man eher ～ようとする.",
     "related": [
-      "te-form"
+      "te-form",
+      "n2-te-miseru"
     ]
   },
   {
@@ -2592,7 +2618,9 @@ window.GRAMMAR_DATA = [
     "related": [
       "i-adj-present",
       "i-adj-past",
-      "i-adj-past-negative"
+      "i-adj-past-negative",
+      "n5-amari-nai",
+      "n5-zenzen-nai"
     ]
   },
   {
@@ -2768,7 +2796,8 @@ window.GRAMMAR_DATA = [
     "related": [
       "na-adj-negative",
       "na-adj-past",
-      "na-adj-past-negative"
+      "na-adj-past-negative",
+      "n5-adverb-ku-ni"
     ]
   },
   {
@@ -2994,7 +3023,8 @@ window.GRAMMAR_DATA = [
     "notes": "くなる/になる beschreibt eine natürliche oder automatische Veränderung. Für absichtliche Veränderungen verwendet man くする/にする.",
     "related": [
       "i-adj-present",
-      "na-adj-present"
+      "na-adj-present",
+      "n5-adverb-ku-ni"
     ]
   },
   {
@@ -3345,7 +3375,9 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "んです (gesprochene Form) und のです (geschriebene Form) sind austauschbar. ～んですか klingt natürlicher als ～ますか, wenn man den Grund für etwas erfragt.",
-    "related": []
+    "related": [
+      "n3-no-dewa-nai-ka"
+    ]
   },
   {
     "id": "to-omoimasu",
@@ -3403,7 +3435,8 @@ window.GRAMMAR_DATA = [
     "notes": "Vor と思います steht die informelle Form, nicht die ます-Form: 行くと思います (richtig), 行きますと思います (falsch).",
     "related": [
       "deshou",
-      "kamoshirenai"
+      "kamoshirenai",
+      "n3-ki-ga-suru"
     ]
   },
   {
@@ -3462,7 +3495,9 @@ window.GRAMMAR_DATA = [
     "notes": "でしょう wird oft im Wetterbericht verwendet. Mit steigender Intonation (でしょう？) sucht man nach Bestätigung: そうでしょう？ (Nicht wahr?).",
     "related": [
       "to-omoimasu",
-      "kamoshirenai"
+      "kamoshirenai",
+      "n4-kana-kashira",
+      "n3-no-dewa-nai-ka"
     ]
   },
   {
@@ -3742,10 +3777,22 @@ window.GRAMMAR_DATA = [
         },
         "romaji": "Mō osake o nomanai tsumori desu.",
         "german": "Ich habe vor, keinen Alkohol mehr zu trinken."
+      },
+      {
+        "japanese": "もう甘いものは食べないつもりだ。",
+        "romaji": "Mō amai mono wa tabenai tsumori da.",
+        "german": "Ich will keine Süßigkeiten mehr essen."
       }
     ],
     "notes": "つもり drückt eine persönliche Absicht aus. Für Pläne anderer verwendet man ～予定 (yotei) oder fragt direkt.",
-    "related": []
+    "related": [
+      "n4-volitional",
+      "n4-koto-ni-suru",
+      "n4-you-to-omou"
+    ],
+    "legacyIds": [
+      "n4-tsumori"
+    ]
   },
   {
     "id": "yori",
@@ -3803,7 +3850,8 @@ window.GRAMMAR_DATA = [
     "notes": "より markiert den 'Verlierer' im Vergleich. Die vollständige Struktur ist: B より A のほうが ～. Man kann auch nur より verwenden: 東京は大阪より大きい.",
     "related": [
       "no-hou-ga",
-      "ichiban"
+      "ichiban",
+      "n3-to-iu-yori"
     ]
   },
   {
@@ -3914,12 +3962,22 @@ window.GRAMMAR_DATA = [
         "japanese": "日本で一番高い山は富士山です。",
         "romaji": "Nihon de ichiban takai yama wa Fujisan desu.",
         "german": "Der höchste Berg Japans ist der Fuji."
+      },
+      {
+        "japanese": "クラスで誰が一番背が高い？",
+        "romaji": "Kurasu de dare ga ichiban se ga takai?",
+        "german": "Wer ist der Größte in der Klasse?"
       }
     ],
     "notes": "Für Fragen verwendet man: ～の中で何/どこ/誰が一番～ですか。 (Was/Wo/Wer ist am meisten ~?)",
     "related": [
       "yori",
-      "no-hou-ga"
+      "no-hou-ga",
+      "n4-yori",
+      "n3-ni-kagiru"
+    ],
+    "legacyIds": [
+      "n4-ichiban"
     ]
   },
   {
@@ -4141,7 +4199,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "しか ersetzt は、が und を, wird aber zu anderen Partikeln hinzugefügt: にしか、でしか. Unterschied zu だけ: しか betont die Begrenzung stärker.",
     "related": [
-      "dake"
+      "dake",
+      "n4-shika-nai-option"
     ]
   },
   {
@@ -4612,7 +4671,10 @@ window.GRAMMAR_DATA = [
     "notes": "Kurzformen: ～なければならない → ～なければいけない → ～なきゃいけない → ～なきゃ (am kürzesten, Umgangssprache). Alle haben die gleiche Bedeutung.",
     "related": [
       "tewa-ikemasen",
-      "nakutemo-ii"
+      "nakutemo-ii",
+      "n4-nakute-wa-ikenai",
+      "n4-nai-to-ikenai",
+      "n2-neba-naranai"
     ]
   },
   {
@@ -4669,7 +4731,10 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "どんな gehört zur こそあど-Reihe: こんな (so eine wie diese hier), そんな (so eine wie die da), あんな (so eine wie jene dort), どんな (was für eine?).",
-    "related": []
+    "related": [
+      "n5-kore-sore-are-dore",
+      "n5-kono-sono-ano-dono"
+    ]
   },
   {
     "id": "counters",
@@ -4722,7 +4787,9 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "～つ (hitotsu, futatsu...) ist das allgemeine Zählwort und funktioniert bis 10. Danach benutzt man das spezifische Zählwort. Die Zahlen ändern sich bei manchen Zählwörtern: 三本 = さんぼん, 一匹 = いっぴき.",
-    "related": []
+    "related": [
+      "n5-tachi"
+    ]
   },
   {
     "id": "hou-ga-ii",
@@ -4839,7 +4906,13 @@ window.GRAMMAR_DATA = [
     "notes": "い-Adjektive: 高い → 高くても. な-Adjektive: 静か → 静かでも. Nomen: 雨 → 雨でも. Nicht verwechseln mit ～てもいい (Erlaubnis).",
     "related": [
       "temo-ii",
-      "noni"
+      "noni",
+      "n5-demo-suggestion",
+      "n4-temo-kamawanai",
+      "n3-tatte-datte",
+      "n3-tatoe-temo",
+      "n2-te-made",
+      "n2-te-demo"
     ]
   },
   {
@@ -4957,13 +5030,14 @@ window.GRAMMAR_DATA = [
     "notes": "Mit た-Form bedeutet es 'gerade erst': 来たばかり = gerade erst angekommen.",
     "related": [
       "dake",
-      "shika-nai"
+      "shika-nai",
+      "n2-bakari-da"
     ]
   },
   {
     "id": "n4-sae",
     "pattern": "～さえ",
-    "level": "N4",
+    "level": "N3",
     "category": "Partikel",
     "meaning": "Sogar, selbst",
     "explanation": "さえ betont einen extremen Fall und impliziert, dass alles andere selbstverständlich ist.",
@@ -4975,7 +5049,7 @@ window.GRAMMAR_DATA = [
           "start": 3,
           "answer": "さえ",
           "quiz": {
-            "level": "N4",
+            "level": "N3",
             "japanese": "子供でさえ知っている。",
             "german": "Sogar Kinder wissen das.",
             "start": 3,
@@ -5016,13 +5090,15 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "さえ～ば bedeutet 'wenn nur/solange': お金さえあれば = Wenn ich nur Geld hätte.",
     "related": [
-      "mo"
+      "mo",
+      "n2-te-made",
+      "n2-mo-shinai"
     ]
   },
   {
     "id": "n4-koso",
     "pattern": "～こそ",
-    "level": "N4",
+    "level": "N3",
     "category": "Partikel",
     "meaning": "Gerade, genau (Betonung)",
     "explanation": "こそ ist eine emphatische Partikel, die das vorangehende Wort besonders hervorhebt.",
@@ -5034,7 +5110,7 @@ window.GRAMMAR_DATA = [
           "start": 3,
           "answer": "こそ",
           "quiz": {
-            "level": "N4",
+            "level": "N3",
             "japanese": "こちらこそよろしくお願いします。",
             "german": "Ganz meinerseits, freut mich.",
             "start": 3,
@@ -5135,7 +5211,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "～ば～ほど = je mehr desto. Verneinung: ～ほど～ない = nicht so ... wie.",
     "related": [
-      "n4-ba"
+      "n4-ba",
+      "n3-ba-hodo"
     ]
   },
   {
@@ -5251,13 +5328,15 @@ window.GRAMMAR_DATA = [
     "notes": "Informelle Variante: なんか. Oft mit や: AやBなど.",
     "related": [
       "ya",
-      "n4-toka"
+      "n4-toka",
+      "n3-nante-nanka",
+      "n3-to-itta"
     ]
   },
   {
     "id": "n4-toshite",
     "pattern": "～として",
-    "level": "N4",
+    "level": "N3",
     "category": "Partikel",
     "meaning": "Als, in der Rolle von",
     "explanation": "として gibt an, in welcher Funktion oder Eigenschaft jemand betrachtet wird.",
@@ -5269,7 +5348,7 @@ window.GRAMMAR_DATA = [
           "start": 3,
           "answer": "として",
           "quiz": {
-            "level": "N4",
+            "level": "N3",
             "japanese": "留学生として日本に来ました。",
             "german": "Ich bin als Austauschstudent nach Japan gekommen.",
             "start": 3,
@@ -5308,12 +5387,14 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "Häufig bei Berufs- und Rollenbezeichnungen.",
-    "related": []
+    "related": [
+      "n2-wo-to-shite"
+    ]
   },
   {
     "id": "n4-ni-taishite",
     "pattern": "～に対して",
-    "level": "N4",
+    "level": "N3",
     "category": "Partikel",
     "meaning": "Gegenüber, im Gegensatz zu",
     "explanation": "に対して drückt aus, auf wen sich eine Handlung richtet, oder einen Kontrast zwischen zwei Dingen.",
@@ -5325,7 +5406,7 @@ window.GRAMMAR_DATA = [
           "start": 3,
           "answer": "に対して",
           "quiz": {
-            "level": "N4",
+            "level": "N3",
             "japanese": "お客様に対して丁寧に話してください。",
             "german": "Sprechen Sie bitte höflich gegenüber den Kunden.",
             "start": 3,
@@ -5424,7 +5505,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Nicht verwechseln mit ～のために (zum Zweck von). にとって = subjektive Perspektive.",
     "related": [
-      "ni"
+      "ni",
+      "n2-ni-shitara"
     ]
   },
   {
@@ -5484,7 +5566,9 @@ window.GRAMMAR_DATA = [
     "notes": "Vor Nomen: ～による + Nomen. ～によると = laut/gemäß.",
     "related": [
       "n4-rareru",
-      "n4-ni-yoru-to"
+      "n4-ni-yoru-to",
+      "n3-ni-yori-ni-yoru",
+      "n2-ni-yotte-wa"
     ]
   },
   {
@@ -5895,7 +5979,8 @@ window.GRAMMAR_DATA = [
     "notes": "Godan: 書く→書こう, 読む→読もう. する→しよう, 来る→来よう. ～ようと思う = ich beabsichtige.",
     "related": [
       "n4-you-ni-suru",
-      "mashou"
+      "mashou",
+      "n4-you-to-omou"
     ]
   },
   {
@@ -5949,7 +6034,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Umgangssprache: ～とく (買っとく = kaufen und bereithalten).",
     "related": [
-      "te-form"
+      "te-form",
+      "n4-toku"
     ]
   },
   {
@@ -6499,7 +6585,8 @@ window.GRAMMAR_DATA = [
     "notes": "Verneinung: ～ないでほしい (ich möchte, dass du es nicht tust).",
     "related": [
       "ga-hoshii",
-      "n4-temorau"
+      "n4-temorau",
+      "n2-tai-mono-da"
     ]
   },
   {
@@ -6613,7 +6700,8 @@ window.GRAMMAR_DATA = [
     "notes": "Nicht verwechseln mit ～ばかり (nur/nichts als).",
     "related": [
       "n4-bakari-p",
-      "n4-tokoro-da"
+      "n4-tokoro-da",
+      "n3-tate"
     ]
   },
   {
@@ -7249,7 +7337,8 @@ window.GRAMMAR_DATA = [
     "notes": "いい→よければ. Verneinung: ～くなければ / ～でなければ.",
     "related": [
       "n4-ba",
-      "n4-nara"
+      "n4-nara",
+      "n3-ba-hodo"
     ]
   },
   {
@@ -7415,7 +7504,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Vgl. ～くなる/～になる (von selbst werden).",
     "related": [
-      "ku-naru-ni-naru"
+      "ku-naru-ni-naru",
+      "n5-adverb-ku-ni"
     ]
   },
   {
@@ -7525,7 +7615,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "欲しい→欲しがる, 怖い→怖がる. Godan-Verb.",
     "related": [
-      "ga-hoshii"
+      "ga-hoshii",
+      "n2-buru"
     ]
   },
   {
@@ -7638,61 +7729,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "思ったより難しい (schwieriger als gedacht).",
     "related": [
-      "n4-ichiban"
-    ]
-  },
-  {
-    "id": "n4-ichiban",
-    "pattern": "一番～",
-    "level": "N4",
-    "category": "Adjektive",
-    "meaning": "Am meisten (Superlativ)",
-    "explanation": "一番 drückt den höchsten Grad aus.",
-    "formation": "Gruppe + の中で + 一番 + Adj",
-    "examples": [
-      {
-        "japanese": "日本で一番高い山は富士山です。",
-        "romaji": "Nihon de ichiban takai yama wa Fujisan desu.",
-        "german": "Der höchste Berg Japans ist der Fuji.",
-        "cloze": {
-          "start": 3,
-          "answer": "一番",
-          "quiz": {
-            "level": "N4",
-            "japanese": "日本で一番高い山は富士山です。",
-            "german": "Der höchste Berg Japans ist der Fuji.",
-            "start": 3,
-            "answer": "一番",
-            "acceptedAnswers": [
-              "一番"
-            ],
-            "distractors": [
-              {
-                "text": "一つ",
-                "reason": "Dies zählt ein Stück statt einen Höchstgrad."
-              },
-              {
-                "text": "少し",
-                "reason": "Dies bedeutet ein wenig, nicht am höchsten."
-              },
-              {
-                "text": "あまり",
-                "reason": "Dies bedeutet nicht den höchsten Rang."
-              }
-            ],
-            "promptKana": "にほんで＿＿＿たかいやまはふじさんです。"
-          }
-        }
-      },
-      {
-        "japanese": "クラスで誰が一番背が高い？",
-        "romaji": "Kurasu de dare ga ichiban se ga takai?",
-        "german": "Wer ist der Größte in der Klasse?"
-      }
-    ],
-    "notes": "最も (もっとも) = formellere Variante.",
-    "related": [
-      "n4-yori"
+      "ichiban"
     ]
   },
   {
@@ -7752,7 +7789,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n4-gachi",
     "pattern": "～がち",
-    "level": "N4",
+    "level": "N3",
     "category": "Adjektive",
     "meaning": "Neigung zu",
     "explanation": "がち: (meist negative) Tendenz.",
@@ -7764,7 +7801,7 @@ window.GRAMMAR_DATA = [
           "start": 7,
           "answer": "がち",
           "quiz": {
-            "level": "N4",
+            "level": "N3",
             "japanese": "最近風邪を引きがちだ。",
             "german": "Neige in letzter Zeit zu Erkältungen.",
             "start": 7,
@@ -7861,7 +7898,9 @@ window.GRAMMAR_DATA = [
     "notes": "Formeller als みたいだ.",
     "related": [
       "n4-mitai-da",
-      "n4-rashii"
+      "n4-rashii",
+      "n3-ki-ga-suru",
+      "n2-to-mieru"
     ]
   },
   {
@@ -7984,7 +8023,8 @@ window.GRAMMAR_DATA = [
     "notes": "Konjugation wie い-Adj.",
     "related": [
       "n4-you-da",
-      "n4-sou-hearsay"
+      "n4-sou-hearsay",
+      "n2-to-mieru"
     ]
   },
   {
@@ -8041,7 +8081,9 @@ window.GRAMMAR_DATA = [
     "notes": "Hörensagen: Grundform + そうだ. Aussehen: Stamm + そうだ.",
     "related": [
       "n4-sou-appearance",
-      "n4-rashii"
+      "n4-rashii",
+      "n2-to-no-koto-da",
+      "n2-toka-denbun"
     ]
   },
   {
@@ -8154,7 +8196,9 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "W-Fragen: nur か (何時に来るか分からない).",
     "related": [
-      "ka"
+      "ka",
+      "n5-ka-ka",
+      "n4-indirect-question"
     ]
   },
   {
@@ -8268,7 +8312,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "ために = direkter Zweck. ように = indirekter Zweck.",
     "related": [
-      "n4-tame-ni"
+      "n4-tame-ni",
+      "n3-masu-you-ni"
     ]
   },
   {
@@ -8328,7 +8373,8 @@ window.GRAMMAR_DATA = [
     "related": [
       "n4-nara",
       "temo",
-      "n4-to-conditional"
+      "n4-to-conditional",
+      "n3-ba-hodo"
     ]
   },
   {
@@ -8387,7 +8433,9 @@ window.GRAMMAR_DATA = [
     "notes": "Reagiert oft auf Information des Gesprächspartners.",
     "related": [
       "n4-ba",
-      "n4-to-conditional"
+      "n4-to-conditional",
+      "n3-to-suru-to",
+      "n2-you-dewa"
     ]
   },
   {
@@ -8441,7 +8489,9 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Auch nur ein Grund: 疲れたし、帰ろう.",
     "related": [
-      "node"
+      "node",
+      "n2-koto-dashi",
+      "n2-mo-ba-mo"
     ]
   },
   {
@@ -8498,7 +8548,9 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "そのまま = so wie es ist.",
-    "related": []
+    "related": [
+      "n2-zu-jimai"
+    ]
   },
   {
     "id": "n4-tokoro-da",
@@ -8611,7 +8663,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Vor Nomen: ～についての + Nomen.",
     "related": [
-      "n4-ni-taishite"
+      "n4-ni-taishite",
+      "n2-ni-tsuki"
     ]
   },
   {
@@ -8671,7 +8724,8 @@ window.GRAMMAR_DATA = [
     "notes": "Oft mit ～そうだ oder ～ということだ.",
     "related": [
       "n4-sou-hearsay",
-      "n4-ni-yotte"
+      "n4-ni-yotte",
+      "n3-ni-yori-ni-yoru"
     ]
   },
   {
@@ -8729,7 +8783,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Positiv: おかげで. Negativ: せいで.",
     "related": [
-      "n4-sei-de"
+      "n4-sei-de",
+      "n3-sei-ka"
     ]
   },
   {
@@ -8789,7 +8844,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Gegenteil: おかげで (positiv).",
     "related": [
-      "n4-okage-de"
+      "n4-okage-de",
+      "n3-sei-ka"
     ]
   },
   {
@@ -8853,7 +8909,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n4-beki-da",
     "pattern": "～べきだ",
-    "level": "N4",
+    "level": "N3",
     "category": "Satzstrukturen",
     "meaning": "Sollte (moralische Pflicht)",
     "explanation": "べきだ: starke Empfehlung oder Pflicht.",
@@ -8865,7 +8921,7 @@ window.GRAMMAR_DATA = [
           "start": 5,
           "answer": "べきだ",
           "quiz": {
-            "level": "N4",
+            "level": "N3",
             "japanese": "約束は守るべきだ。",
             "german": "Man sollte Versprechen halten.",
             "start": 5,
@@ -8907,61 +8963,6 @@ window.GRAMMAR_DATA = [
     "related": [
       "n4-hazu-da",
       "nakereba-naranai"
-    ]
-  },
-  {
-    "id": "n4-tsumori",
-    "pattern": "～つもりだ",
-    "level": "N4",
-    "category": "Satzstrukturen",
-    "meaning": "Beabsichtigen, vorhaben",
-    "explanation": "つもりだ: feste Absicht oder Plan.",
-    "formation": "Verb (辞書形/ない形) + つもりだ",
-    "examples": [
-      {
-        "japanese": "来年日本に行くつもりです。",
-        "romaji": "Rainen Nihon ni iku tsumori desu.",
-        "german": "Ich habe vor, nächstes Jahr nach Japan zu gehen."
-      },
-      {
-        "japanese": "もう甘いものは食べないつもりだ。",
-        "cloze": {
-          "start": 11,
-          "answer": "つもりだ",
-          "quiz": {
-            "level": "N4",
-            "japanese": "もう甘いものは食べないつもりだ。",
-            "german": "Ich will keine Süßigkeiten mehr essen.",
-            "start": 11,
-            "answer": "つもりだ",
-            "acceptedAnswers": [
-              "つもりだ"
-            ],
-            "distractors": [
-              {
-                "text": "なつもりだ",
-                "reason": "Nach der Verbform wird kein な eingefügt."
-              },
-              {
-                "text": "つもりをだ",
-                "reason": "を steht nicht vor dieser Kopula."
-              },
-              {
-                "text": "つもりな",
-                "reason": "Dies ist hier kein Satzabschluss."
-              }
-            ],
-            "promptKana": "もうあまいものはたべない＿＿＿。"
-          }
-        },
-        "romaji": "Mō amai mono wa tabenai tsumori da.",
-        "german": "Ich will keine Süßigkeiten mehr essen."
-      }
-    ],
-    "notes": "～たつもり = glauben es getan zu haben.",
-    "related": [
-      "n4-volitional",
-      "n4-koto-ni-suru"
     ]
   },
   {
@@ -9016,7 +9017,10 @@ window.GRAMMAR_DATA = [
     "notes": "Umgangssprache: ～ちゃだめ.",
     "related": [
       "nakereba-naranai",
-      "nakutemo-ii"
+      "nakutemo-ii",
+      "n4-temo-kamawanai",
+      "n4-cha-ikenai",
+      "n2-te-wa-naranai"
     ]
   },
   {
@@ -9070,7 +9074,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "た形 = Empfehlung. ない形 = Abraten.",
     "related": [
-      "n4-beki-da"
+      "n4-beki-da",
+      "n3-tara-ii-ba-ii"
     ]
   },
   {
@@ -9126,7 +9131,8 @@ window.GRAMMAR_DATA = [
     "notes": "Für Naturgesetze, Gewohnheiten, Wegbeschreibungen.",
     "related": [
       "n4-ba",
-      "n4-nara"
+      "n4-nara",
+      "n4-nai-to-ikenai"
     ]
   },
   {
@@ -9408,60 +9414,6 @@ window.GRAMMAR_DATA = [
     ]
   },
   {
-    "id": "n4-koto-ni-natteiru",
-    "pattern": "～ことになっている",
-    "level": "N4",
-    "category": "Satzstrukturen",
-    "meaning": "Es ist so geregelt dass",
-    "explanation": "ことになっている: bestehende Regel oder Vereinbarung.",
-    "formation": "Verb (辞書形/ない形) + ことになっている",
-    "examples": [
-      {
-        "japanese": "この学校では制服を着ることになっている。",
-        "cloze": {
-          "start": 11,
-          "answer": "ことになっている",
-          "quiz": {
-            "level": "N4",
-            "japanese": "この学校では制服を着ることになっている。",
-            "german": "An dieser Schule muss man Uniform tragen.",
-            "start": 11,
-            "answer": "ことになっている",
-            "acceptedAnswers": [
-              "ことになっている"
-            ],
-            "distractors": [
-              {
-                "text": "ことをなっている",
-                "reason": "Die Regelkonstruktion verlangt に."
-              },
-              {
-                "text": "なことになっている",
-                "reason": "Nach dem Verb wird kein な eingefügt."
-              },
-              {
-                "text": "ことになっていない",
-                "reason": "Dies verneint die bestehende Regel."
-              }
-            ],
-            "promptKana": "このがっこうではせいふくをきる＿＿＿。"
-          }
-        },
-        "romaji": "Kono gakkō de wa seifuku o kiru koto ni natteiru.",
-        "german": "An dieser Schule muss man Uniform tragen."
-      },
-      {
-        "japanese": "ここでは喫煙しないことになっています。",
-        "romaji": "Koko de wa kitsuen shinai koto ni natteimasu.",
-        "german": "Hier ist Rauchen nicht erlaubt."
-      }
-    ],
-    "notes": "Regel von außen festgelegt.",
-    "related": [
-      "n4-koto-ni-naru"
-    ]
-  },
-  {
     "id": "n4-toka",
     "pattern": "～とか",
     "level": "N4",
@@ -9514,7 +9466,10 @@ window.GRAMMAR_DATA = [
     "notes": "Informeller als ～など.",
     "related": [
       "n4-nado",
-      "ya"
+      "ya",
+      "n3-nante-nanka",
+      "n3-to-itta",
+      "n2-yara-yara"
     ]
   },
   {
@@ -9574,7 +9529,9 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "～って言ってた = hat gesagt. ～っていう = namens.",
     "related": [
-      "n4-toiu"
+      "n4-toiu",
+      "n3-to-iu-no-wa",
+      "n2-ttara"
     ]
   },
   {
@@ -9632,7 +9589,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Verneinung: ～なければよかった (hätte es nicht tun sollen).",
     "related": [
-      "n4-ba"
+      "n4-ba",
+      "n4-te-yokatta"
     ]
   },
   {
@@ -9924,13 +9882,14 @@ window.GRAMMAR_DATA = [
     "notes": "Oft leicht negativ. Konjugation wie い-Adj: っぽくない, っぽかった.",
     "related": [
       "n4-rashii-adj",
-      "n4-gachi"
+      "n4-gachi",
+      "n2-buru"
     ]
   },
   {
     "id": "n4-kakeru",
     "pattern": "～かける",
-    "level": "N4",
+    "level": "N3",
     "category": "Verben",
     "meaning": "Anfangen zu / halb tun",
     "explanation": "かける: eine Handlung wurde begonnen aber nicht beendet.",
@@ -9944,7 +9903,7 @@ window.GRAMMAR_DATA = [
           "start": 2,
           "answer": "かけ",
           "quiz": {
-            "level": "N4",
+            "level": "N3",
             "japanese": "読みかけの本がある。",
             "german": "Ich habe ein angefangenes Buch.",
             "start": 2,
@@ -9978,62 +9937,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "死にかける = fast sterben. 食べかけ = halb aufgegessen.",
     "related": [
-      "n4-hajimeru"
-    ]
-  },
-  {
-    "id": "n4-kiru",
-    "pattern": "～切る",
-    "level": "N4",
-    "category": "Verben",
-    "meaning": "Vollständig, zu Ende tun",
-    "explanation": "切る als Suffix: eine Handlung vollständig abschließen.",
-    "formation": "Verb (ます-Stamm) + 切る",
-    "examples": [
-      {
-        "japanese": "マラソンを走り切った。",
-        "romaji": "Marason o hashiri kitta.",
-        "german": "Ich habe den Marathon zu Ende gelaufen.",
-        "cloze": {
-          "start": 7,
-          "answer": "切った",
-          "quiz": {
-            "level": "N4",
-            "japanese": "マラソンを走り切った。",
-            "german": "Ich habe den Marathon zu Ende gelaufen.",
-            "start": 7,
-            "answer": "切った",
-            "acceptedAnswers": [
-              "切った"
-            ],
-            "distractors": [
-              {
-                "text": "切らなかった",
-                "reason": "Dies verneint das Zu-Ende-Laufen."
-              },
-              {
-                "text": "切るた",
-                "reason": "Dies ist keine Vergangenheitsform."
-              },
-              {
-                "text": "ます切った",
-                "reason": "ます kann nicht vor das zweite Verb eingeschoben werden."
-              }
-            ],
-            "promptKana": "マラソンをはしり＿＿＿。"
-          }
-        }
-      },
-      {
-        "japanese": "全部使い切ってしまった。",
-        "romaji": "Zenbu tsukai kitte shimatta.",
-        "german": "Ich habe alles komplett aufgebraucht."
-      }
-    ],
-    "notes": "Betont Vollständigkeit: 食べ切る, 読み切る, 売り切れる (ausverkauft).",
-    "related": [
-      "n4-owaru",
-      "te-shimau"
+      "n4-hajimeru",
+      "n3-tate"
     ]
   },
   {
@@ -10365,7 +10270,10 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Umgangssprache: っていう. ～ということだ = das bedeutet.",
     "related": [
-      "n4-tte"
+      "n4-tte",
+      "n3-to-ieba",
+      "n3-to-itta",
+      "n3-to-iu-no-wa"
     ]
   },
   {
@@ -10420,7 +10328,8 @@ window.GRAMMAR_DATA = [
     "notes": "～ようとしている = gerade im Begriff sein zu.",
     "related": [
       "n4-volitional",
-      "te-miru"
+      "te-miru",
+      "n4-you-to-omou"
     ]
   },
   {
@@ -10589,7 +10498,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "ないですむ = informeller als ずにすむ.",
     "related": [
-      "n4-zu-ni"
+      "n4-zu-ni",
+      "n2-zu-jimai"
     ]
   },
   {
@@ -10649,7 +10559,9 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Sehr häufig im Alltag. て→ちゃ, で→じゃ.",
     "related": [
-      "te-shimau"
+      "te-shimau",
+      "n4-toku",
+      "n4-cha-ikenai"
     ]
   },
   {
@@ -10872,7 +10784,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n4-wake-ni-ikanai",
     "pattern": "～わけにはいかない",
-    "level": "N4",
+    "level": "N3",
     "category": "Satzstrukturen",
     "meaning": "Kann nicht einfach, darf nicht",
     "explanation": "わけにはいかない: aus moralischen oder sozialen Gründen nicht möglich.",
@@ -10884,7 +10796,7 @@ window.GRAMMAR_DATA = [
           "start": 10,
           "answer": "わけにはいかない",
           "quiz": {
-            "level": "N4",
+            "level": "N3",
             "japanese": "約束したから行かないわけにはいかない。",
             "german": "Ich habe es versprochen, also kann ich nicht einfach nicht gehen.",
             "start": 10,
@@ -10981,7 +10893,8 @@ window.GRAMMAR_DATA = [
     "notes": "Kann je nach Ton auch ungeduldig klingen.",
     "related": [
       "n4-ta-hou-ga-ii",
-      "tara"
+      "tara",
+      "n3-tara-ii-ba-ii"
     ]
   },
   {
@@ -11093,7 +11006,8 @@ window.GRAMMAR_DATA = [
     "notes": "でしょう? (mit Frageton) = nicht wahr? / oder?",
     "related": [
       "kamoshirenai",
-      "n4-hazu-da"
+      "n4-hazu-da",
+      "n4-kana-kashira"
     ]
   },
   {
@@ -11370,7 +11284,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n3-ni-tomonatte",
     "pattern": "～に伴って",
-    "level": "N3",
+    "level": "N2",
     "category": "Partikel",
     "meaning": "Mit, einhergehend mit",
     "explanation": "に伴って: eine Veränderung, die parallel zu einer anderen stattfindet.",
@@ -11382,7 +11296,7 @@ window.GRAMMAR_DATA = [
           "start": 4,
           "answer": "に伴って",
           "quiz": {
-            "level": "N3",
+            "level": "N2",
             "japanese": "人口増加に伴って環境問題が深刻化した。",
             "german": "Mit dem Bevölkerungswachstum verschärften sich die Umweltprobleme.",
             "start": 4,
@@ -11476,7 +11390,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Formell. Das nach をはじめ genannte ist das wichtigste Beispiel.",
     "related": [
-      "n4-nado"
+      "n4-nado",
+      "n2-wo-hajime-to-suru"
     ]
   },
   {
@@ -11531,11 +11446,36 @@ window.GRAMMAR_DATA = [
         },
         "romaji": "Ichinen o tōshite atatakai kikō da.",
         "german": "Das Klima ist das ganze Jahr über warm."
+      },
+      {
+        "japanese": "インターネットを通じて世界中の人と交流できる。",
+        "romaji": "Intānetto wo tsūjite sekaijū no hito to kōryū dekiru.",
+        "german": "Durch das Internet kann man mit Menschen auf der ganzen Welt kommunizieren."
+      },
+      {
+        "japanese": "一年を通じて温暖な気候だ。",
+        "romaji": "Ichinen wo tsūjite ondan na kikō da.",
+        "german": "Das Klima ist das ganze Jahr über mild."
+      },
+      {
+        "japanese": "ボランティア活動を通して、多くのことを学んだ。",
+        "romaji": "Borantia katsudō wo tōshite, ōku no koto wo mananda.",
+        "german": "Durch die Freiwilligenarbeit habe ich viel gelernt."
+      },
+      {
+        "japanese": "一年を通して暖かい地域に住みたい。",
+        "romaji": "Ichinen wo tōshite atatakai chiiki ni sumitai.",
+        "german": "Ich möchte in einer Gegend leben, die das ganze Jahr über warm ist."
       }
     ],
     "notes": "を通じて = eher abstrakt/Medium. を通して = auch konkret/Zeitraum.",
     "related": [
-      "n4-ni-yotte"
+      "n4-ni-yotte",
+      "n3-ni-watatte"
+    ],
+    "legacyIds": [
+      "n2-wo-tsujite",
+      "n2-wo-toshite"
     ]
   },
   {
@@ -11591,7 +11531,10 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "Auch: ～を中心として (formeller).",
-    "related": []
+    "related": [
+      "n2-wo-hajime-to-suru",
+      "n2-wo-to-shite"
+    ]
   },
   {
     "id": "n3-ni-tsurete",
@@ -11649,7 +11592,8 @@ window.GRAMMAR_DATA = [
     "notes": "Ähnlich: ～に伴って (formeller), ～に従って (Regel folgend).",
     "related": [
       "n3-ni-tomonatte",
-      "n3-ni-shitagatte"
+      "n3-ni-shitagatte",
+      "n2-ni-tsuke"
     ]
   },
   {
@@ -11713,7 +11657,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n3-ni-watatte",
     "pattern": "～にわたって",
-    "level": "N3",
+    "level": "N2",
     "category": "Partikel",
     "meaning": "Über ... hinweg, sich erstreckend",
     "explanation": "にわたって: drückt aus, dass etwas einen weiten Bereich oder Zeitraum umfasst.",
@@ -11725,7 +11669,7 @@ window.GRAMMAR_DATA = [
           "start": 3,
           "answer": "にわたって",
           "quiz": {
-            "level": "N3",
+            "level": "N2",
             "japanese": "三日間にわたって会議が行われた。",
             "german": "Die Konferenz erstreckte sich über drei Tage.",
             "start": 3,
@@ -11876,7 +11820,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "向け = Zielgruppe. 向き = geeignet für (n3-muki).",
     "related": [
-      "n3-muki"
+      "n3-muki",
+      "n2-ni-mukete"
     ]
   },
   {
@@ -11940,7 +11885,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n3-zaruwoenai",
     "pattern": "～ざるを得ない",
-    "level": "N3",
+    "level": "N2",
     "category": "Verben",
     "meaning": "Nicht umhin können, müssen",
     "explanation": "ざるを得ない: man hat keine andere Wahl als etwas zu tun.",
@@ -11952,7 +11897,7 @@ window.GRAMMAR_DATA = [
           "start": 9,
           "answer": "ざるを得ない",
           "quiz": {
-            "level": "N3",
+            "level": "N2",
             "japanese": "この条件を受け入れざるを得ない。",
             "german": "Ich muss diese Bedingungen akzeptieren.",
             "start": 9,
@@ -11990,175 +11935,9 @@ window.GRAMMAR_DATA = [
     "notes": "する→せざるを得ない. Formell. Ähnlich: ～ないわけにはいかない.",
     "related": [
       "nakereba-naranai",
-      "n4-wake-ni-ikanai"
-    ]
-  },
-  {
-    "id": "n3-kaneru",
-    "pattern": "～かねる",
-    "level": "N3",
-    "category": "Verben",
-    "meaning": "Nicht können (höflich ablehnend)",
-    "explanation": "かねる: höfliche Art zu sagen, dass man etwas leider nicht tun kann.",
-    "formation": "Verb (ます-Stamm) + かねる",
-    "examples": [
-      {
-        "japanese": "その要望にはお応えしかねます。",
-        "romaji": "Sono yōbō ni wa okotae shikanemasu.",
-        "german": "Dieser Bitte können wir leider nicht entsprechen."
-      },
-      {
-        "japanese": "賛成しかねる意見だ。",
-        "cloze": {
-          "start": 3,
-          "answer": "かねる",
-          "quiz": {
-            "level": "N3",
-            "japanese": "賛成しかねる意見だ。",
-            "german": "Eine Meinung, der ich nicht zustimmen kann.",
-            "start": 3,
-            "answer": "かねる",
-            "acceptedAnswers": [
-              "かねる"
-            ],
-            "distractors": [
-              {
-                "text": "かねない",
-                "reason": "Dies bedeutet möglicherweise zustimmen statt nicht zustimmen können."
-              },
-              {
-                "text": "かねます",
-                "reason": "Vor 意見 steht hier die einfache attributive Form."
-              },
-              {
-                "text": "かねるの",
-                "reason": "Die Verbform bestimmt 意見 ohne の."
-              }
-            ]
-          }
-        },
-        "romaji": "Sansei shikaneru iken da.",
-        "german": "Eine Meinung, der ich nicht zustimmen kann."
-      }
-    ],
-    "notes": "Höfliche Ablehnung im Geschäftsjapanisch.",
-    "related": [
-      "n3-kanenai"
-    ]
-  },
-  {
-    "id": "n3-kanenai",
-    "pattern": "～かねない",
-    "level": "N3",
-    "category": "Verben",
-    "meaning": "Könnte (negativ), es besteht die Gefahr",
-    "explanation": "かねない: warnt davor, dass etwas Negatives passieren könnte.",
-    "formation": "Verb (ます-Stamm) + かねない",
-    "examples": [
-      {
-        "japanese": "このままでは事故になりかねない。",
-        "cloze": {
-          "start": 11,
-          "answer": "かねない",
-          "quiz": {
-            "level": "N3",
-            "japanese": "このままでは事故になりかねない。",
-            "german": "So wie es ist, könnte es zu einem Unfall kommen.",
-            "start": 11,
-            "answer": "かねない",
-            "acceptedAnswers": [
-              "かねない"
-            ],
-            "distractors": [
-              {
-                "text": "かねる",
-                "reason": "Dies bezeichnet Unvermögen statt Unfallgefahr."
-              },
-              {
-                "text": "かねるない",
-                "reason": "Die Negativform lautet かねない."
-              },
-              {
-                "text": "かねないだ",
-                "reason": "Nach dem verbalen Ausdruck steht kein だ."
-              }
-            ]
-          }
-        },
-        "romaji": "Kono mama de wa jiko ni narikanenai.",
-        "german": "So wie es ist, könnte es zu einem Unfall kommen."
-      },
-      {
-        "japanese": "誤解を招きかねない発言だ。",
-        "cloze": {
-          "start": 5,
-          "answer": "かねない"
-        },
-        "romaji": "Gokai o manekikanenai hatsugen da.",
-        "german": "Eine Aussage, die zu Missverständnissen führen könnte."
-      }
-    ],
-    "notes": "Immer negatives Ergebnis. Gegenteil von ～かねる.",
-    "related": [
-      "n3-kaneru",
-      "n3-osore-ga-aru"
-    ]
-  },
-  {
-    "id": "n3-uru-enai",
-    "pattern": "～得る / ～得ない",
-    "level": "N3",
-    "category": "Verben",
-    "meaning": "Möglich / unmöglich (formell)",
-    "explanation": "得る (うる/える): etwas ist möglich. 得ない (えない): unmöglich.",
-    "formation": "Verb (ます-Stamm) + 得る/得ない",
-    "examples": [
-      {
-        "japanese": "そんなことはあり得ない。",
-        "cloze": {
-          "start": 8,
-          "answer": "得ない",
-          "quiz": {
-            "level": "N3",
-            "japanese": "そんなことはあり得ない。",
-            "german": "So etwas ist unmöglich.",
-            "start": 8,
-            "answer": "得ない",
-            "acceptedAnswers": [
-              "得ない"
-            ],
-            "distractors": [
-              {
-                "text": "得る",
-                "reason": "Dies bejaht die Möglichkeit."
-              },
-              {
-                "text": "得ないだ",
-                "reason": "Nach dem negativen Verb steht kein だ."
-              },
-              {
-                "text": "得るない",
-                "reason": "Dies ist keine Negativform."
-              }
-            ]
-          }
-        },
-        "romaji": "Sonna koto wa arienai.",
-        "german": "So etwas ist unmöglich."
-      },
-      {
-        "japanese": "十分起こり得ることだ。",
-        "cloze": {
-          "start": 5,
-          "answer": "得る"
-        },
-        "romaji": "Juubun okoriuru koto da.",
-        "german": "Es ist durchaus möglich, dass das passiert."
-      }
-    ],
-    "notes": "あり得る (ありうる/ありえる) = möglich. あり得ない = unmöglich (Umgangssprache: ありえない!).",
-    "related": [
-      "n4-potential"
+      "n4-wake-ni-ikanai",
+      "n4-shika-nai-option",
+      "n2-neba-naranai"
     ]
   },
   {
@@ -12211,7 +11990,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "考え抜く (gründlich durchdenken), 悩み抜く (sich gründlich quälen).",
     "related": [
-      "n4-kiru",
+      "n2-kiru",
       "n4-tsuzukeru"
     ]
   },
@@ -12441,7 +12220,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Formeller als ～てたまらない. Eher für emotionale Gefühle.",
     "related": [
-      "n3-te-tamaranai"
+      "n3-te-tamaranai",
+      "n2-te-wa-naranai"
     ]
   },
   {
@@ -12554,61 +12334,6 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "Informell. Drückt aus, dass man etwas vergessen hat und sich erinnern will.",
-    "related": []
-  },
-  {
-    "id": "n3-te-hajimete",
-    "pattern": "～て初めて",
-    "level": "N3",
-    "category": "Verben",
-    "meaning": "Erst nachdem, zum ersten Mal durch",
-    "explanation": "て初めて: erst durch eine Erfahrung versteht oder erkennt man etwas.",
-    "formation": "Verb (て-Form) + 初めて",
-    "examples": [
-      {
-        "japanese": "日本に来て初めて寿司を食べた。",
-        "cloze": {
-          "start": 4,
-          "answer": "て初めて",
-          "quiz": {
-            "level": "N3",
-            "japanese": "日本に来て初めて寿司を食べた。",
-            "german": "Erst als ich nach Japan kam, aß ich zum ersten Mal Sushi.",
-            "start": 4,
-            "answer": "て初めて",
-            "acceptedAnswers": [
-              "て初めて"
-            ],
-            "distractors": [
-              {
-                "text": "た初めて",
-                "reason": "来た初めて ist hier kein adverbialer Verbanschluss."
-              },
-              {
-                "text": "て初める",
-                "reason": "初める ist hier keine adverbiale Erstmaligkeitsangabe."
-              },
-              {
-                "text": "ます初めて",
-                "reason": "来ます初めて verbindet hier keine Satzteile."
-              }
-            ]
-          }
-        },
-        "romaji": "Nihon ni kite hajimete sushi o tabeta.",
-        "german": "Erst als ich nach Japan kam, aß ich zum ersten Mal Sushi."
-      },
-      {
-        "japanese": "失って初めて大切さに気づいた。",
-        "cloze": {
-          "start": 2,
-          "answer": "て初めて"
-        },
-        "romaji": "Ushinatte hajimete taisetsusa ni kizuita.",
-        "german": "Erst als ich es verlor, erkannte ich seinen Wert."
-      }
-    ],
-    "notes": "Betont, dass etwas erst durch eine bestimmte Erfahrung möglich wurde.",
     "related": []
   },
   {
@@ -12783,64 +12508,6 @@ window.GRAMMAR_DATA = [
     "related": [
       "n3-tsutsu",
       "te-iru"
-    ]
-  },
-  {
-    "id": "n3-ge",
-    "pattern": "～げ",
-    "level": "N3",
-    "category": "Adjektive",
-    "meaning": "Scheinend, den Anschein von",
-    "explanation": "げ: drückt den äußeren Anschein eines Gefühls oder Zustands aus.",
-    "formation": "い-Adj (ohne い) + げ / な-Adj + げ",
-    "examples": [
-      {
-        "japanese": "彼女は悲しげな顔をしていた。",
-        "cloze": {
-          "start": 5,
-          "answer": "げ",
-          "quiz": {
-            "level": "N3",
-            "japanese": "彼女は悲しげな顔をしていた。",
-            "german": "Sie hatte ein traurig aussehendes Gesicht.",
-            "start": 5,
-            "answer": "げ",
-            "acceptedAnswers": [
-              "げ",
-              "そう"
-            ],
-            "distractors": [
-              {
-                "text": "い",
-                "reason": "悲しいな顔 ist kein attributiver Anschluss."
-              },
-              {
-                "text": "く",
-                "reason": "悲しくな顔 ist kein attributiver Anschluss."
-              },
-              {
-                "text": "かった",
-                "reason": "悲しかったな顔 ist kein attributiver Anschluss."
-              }
-            ]
-          }
-        },
-        "romaji": "Kanojo wa kanashige na kao o shiteita.",
-        "german": "Sie hatte ein traurig aussehendes Gesicht."
-      },
-      {
-        "japanese": "子供たちは楽しげに遊んでいる。",
-        "cloze": {
-          "start": 7,
-          "answer": "げ"
-        },
-        "romaji": "Kodomotachi wa tanoshige ni asondeiru.",
-        "german": "Die Kinder spielen vergnügt."
-      }
-    ],
-    "notes": "な-Adj-Verhalten: ～げな + Nomen, ～げに + Verb. 嬉しげ, 寂しげ, 不安げ.",
-    "related": [
-      "n4-sou-appearance"
     ]
   },
   {
@@ -13072,7 +12739,9 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "Sehr produktiv: 国際的 (international), 一般的 (allgemein), 基本的 (grundlegend).",
-    "related": []
+    "related": [
+      "n2-jou"
+    ]
   },
   {
     "id": "n3-kurai-gurai",
@@ -13130,7 +12799,9 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Als Ausmaß: ～くらい = so sehr dass. Als Schätzung: ～くらい = ungefähr.",
     "related": [
-      "n4-hodo-p"
+      "n4-hodo-p",
+      "n5-goro",
+      "n2-kurai-nara"
     ]
   },
   {
@@ -13240,7 +12911,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Impliziert: 'angesichts der Tatsache, dass...'.",
     "related": [
-      "n3-wari-ni"
+      "n3-wari-ni",
+      "n2-nari-ni"
     ]
   },
   {
@@ -13412,13 +13084,15 @@ window.GRAMMAR_DATA = [
     "notes": "辞書形 = Soll/allgemein. た形 = Erinnerung. よく～たものだ = häufige Erinnerung.",
     "related": [
       "n3-mono-no",
-      "n3-mono-dakara"
+      "n2-mono-dakara",
+      "n2-mono-dewa-nai",
+      "n2-tai-mono-da"
     ]
   },
   {
     "id": "n3-mono-no",
     "pattern": "～ものの",
-    "level": "N3",
+    "level": "N2",
     "category": "Satzstrukturen",
     "meaning": "Obwohl, zwar ... aber",
     "explanation": "ものの: räumt etwas ein, drückt aber einen Widerspruch aus. Formell.",
@@ -13430,7 +13104,7 @@ window.GRAMMAR_DATA = [
           "start": 3,
           "answer": "ものの",
           "quiz": {
-            "level": "N3",
+            "level": "N2",
             "japanese": "買ったものの、一度も使っていない。",
             "german": "Zwar gekauft, aber noch nie benutzt.",
             "start": 3,
@@ -13473,67 +13147,8 @@ window.GRAMMAR_DATA = [
     "notes": "Formeller als ～けど/～のに.",
     "related": [
       "noni",
-      "n3-mono-da"
-    ]
-  },
-  {
-    "id": "n3-mono-dakara",
-    "pattern": "～もんだから / ～ものだから",
-    "level": "N3",
-    "category": "Satzstrukturen",
-    "meaning": "Weil (entschuldigend)",
-    "explanation": "ものだから: gibt einen Grund an, oft als Entschuldigung.",
-    "formation": "Verb/Adj (Grundform) + ものだから",
-    "examples": [
-      {
-        "japanese": "急いでいたものだから、忘れ物をした。",
-        "cloze": {
-          "start": 5,
-          "answer": "ものだから",
-          "quiz": {
-            "level": "N3",
-            "japanese": "急いでいたものだから、忘れ物をした。",
-            "german": "Weil ich es eilig hatte, habe ich etwas vergessen.",
-            "start": 5,
-            "answer": "ものだから",
-            "acceptedAnswers": [
-              "ものだから",
-              "ので",
-              "から"
-            ],
-            "distractors": [
-              {
-                "text": "ものの",
-                "reason": "Dies bezeichnet einen Gegensatz statt einen Grund."
-              },
-              {
-                "text": "なものだから",
-                "reason": "Nach dem Verb wird kein な eingefügt."
-              },
-              {
-                "text": "ものだからの",
-                "reason": "の kann hier den Folgesatz nicht anschließen."
-              }
-            ]
-          }
-        },
-        "romaji": "Isoide ita mono dakara, wasuremono o shita.",
-        "german": "Weil ich es eilig hatte, habe ich etwas vergessen."
-      },
-      {
-        "japanese": "初めてだったもんだから、失敗してしまった。",
-        "cloze": {
-          "start": 6,
-          "answer": "もんだから"
-        },
-        "romaji": "Hajimete datta mon dakara, shippai shite shimatta.",
-        "german": "Weil es mein erstes Mal war, habe ich versagt."
-      }
-    ],
-    "notes": "もんだから = informell. ものですから = höflich.",
-    "related": [
-      "node",
-      "n3-mono-da"
+      "n3-mono-da",
+      "n2-to-wa-iu-mono-no"
     ]
   },
   {
@@ -13592,7 +13207,9 @@ window.GRAMMAR_DATA = [
     "notes": "Teilverneinung. ～わけがない = völlige Unmöglichkeit.",
     "related": [
       "n4-wake-da",
-      "n4-hazu-ga-nai"
+      "n4-hazu-ga-nai",
+      "n3-no-dewa-nai-ka",
+      "n2-ka-to-iu-to"
     ]
   },
   {
@@ -13651,7 +13268,8 @@ window.GRAMMAR_DATA = [
     "notes": "Stärker als ～はずだ. Fast 100% Überzeugung.",
     "related": [
       "n4-hazu-da",
-      "n3-ni-kimatte-iru"
+      "n3-ni-kimatte-iru",
+      "n2-ni-soui-nai"
     ]
   },
   {
@@ -13709,7 +13327,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Sehr subjektiv und umgangssprachlich. Stärker als ～に違いない.",
     "related": [
-      "n3-ni-chigainai"
+      "n3-ni-chigainai",
+      "n2-ni-soui-nai"
     ]
   },
   {
@@ -13762,62 +13381,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Formell. Oft in Nachrichten und Warnungen.",
     "related": [
-      "n3-kanenai"
-    ]
-  },
-  {
-    "id": "n3-ni-suginai",
-    "pattern": "～に過ぎない",
-    "level": "N3",
-    "category": "Satzstrukturen",
-    "meaning": "Nichts weiter als, nur",
-    "explanation": "に過ぎない: etwas ist weniger wichtig als man denkt.",
-    "formation": "Verb/Nomen + に過ぎない",
-    "examples": [
-      {
-        "japanese": "それは噂に過ぎない。",
-        "cloze": {
-          "start": 4,
-          "answer": "に過ぎない",
-          "quiz": {
-            "level": "N3",
-            "japanese": "それは噂に過ぎない。",
-            "german": "Das ist nichts weiter als ein Gerücht.",
-            "start": 4,
-            "answer": "に過ぎない",
-            "acceptedAnswers": [
-              "に過ぎない",
-              "でしかない"
-            ],
-            "distractors": [
-              {
-                "text": "を過ぎない",
-                "reason": "を過ぎない bezeichnet hier keine Einschränkung auf ein Gerücht."
-              },
-              {
-                "text": "に過ぎるない",
-                "reason": "Dies ist keine Negativform."
-              },
-              {
-                "text": "に過ぎないだ",
-                "reason": "Nach der Negativform steht kein だ."
-              }
-            ]
-          }
-        },
-        "romaji": "Sore wa uwasa ni suginai.",
-        "german": "Das ist nichts weiter als ein Gerücht."
-      },
-      {
-        "japanese": "私は学生に過ぎません。",
-        "romaji": "Watashi wa gakusei ni sugimasen.",
-        "german": "Ich bin nur ein Student."
-      }
-    ],
-    "notes": "Bescheiden oder herabsetzend.",
-    "related": [
-      "dake",
-      "shika-nai"
+      "n2-kaneru"
     ]
   },
   {
@@ -13870,11 +13434,25 @@ window.GRAMMAR_DATA = [
         },
         "romaji": "Dō shiyō mo nai jōkyō da.",
         "german": "Eine hoffnungslose Situation."
+      },
+      {
+        "japanese": "住所が分からないので、連絡のしようがない。",
+        "romaji": "Jūsho ga wakaranai no de, renraku no shiyō ga nai.",
+        "german": "Da ich die Adresse nicht kenne, gibt es keine Möglichkeit, Kontakt aufzunehmen."
+      },
+      {
+        "japanese": "証拠がないので、証明のしようがない。",
+        "romaji": "Shōko ga nai no de, shōmei no shiyō ga nai.",
+        "german": "Da es keine Beweise gibt, kann man es unmöglich beweisen."
       }
     ],
     "notes": "どうしようもない = man kann absolut nichts tun.",
     "related": [
-      "n3-hoka-nai"
+      "n3-hoka-nai",
+      "n2-you-ni-yotte-wa"
+    ],
+    "legacyIds": [
+      "n2-you-ga-nai"
     ]
   },
   {
@@ -13930,7 +13508,8 @@ window.GRAMMAR_DATA = [
     "notes": "Ähnlich: ～しかない, ～ざるを得ない.",
     "related": [
       "n3-zaruwoenai",
-      "shika-nai"
+      "shika-nai",
+      "n4-shika-nai-option"
     ]
   },
   {
@@ -14098,7 +13677,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Immer unerwartet/überraschend. Ähnlich: ～た瞬間.",
     "related": [
-      "tara"
+      "tara",
+      "n2-ka-nai-ka-no-uchi-ni"
     ]
   },
   {
@@ -14156,7 +13736,8 @@ window.GRAMMAR_DATA = [
     "notes": "Betont, dass die Handlung im vollen Gange ist.",
     "related": [
       "n4-aida-ni",
-      "n4-tokoro-da"
+      "n4-tokoro-da",
+      "n5-chuu-juu"
     ]
   },
   {
@@ -14206,11 +13787,26 @@ window.GRAMMAR_DATA = [
         "japanese": "申し込みの際に身分証明書が必要です。",
         "romaji": "Mōshikomi no sai ni mibun shōmeisho ga hitsuyō desu.",
         "german": "Bei der Anmeldung ist ein Ausweis erforderlich."
+      },
+      {
+        "japanese": "お帰りの際は、忘れ物にご注意ください。",
+        "romaji": "Okaeri no sai wa, wasuremono ni go-chūi kudasai.",
+        "german": "Bitte achten Sie beim Verlassen auf vergessene Gegenstände."
+      },
+      {
+        "japanese": "申し込みの際に、身分証明書が必要です。",
+        "romaji": "Mōshikomi no sai ni, mibun shōmeisho ga hitsuyō desu.",
+        "german": "Bei der Anmeldung ist ein Ausweis erforderlich."
       }
     ],
     "notes": "Formell/schriftlich. Alltagssprache: ～時に.",
     "related": [
-      "n4-tokini"
+      "n4-tokini",
+      "n2-ni-atatte",
+      "n2-ni-saishite"
+    ],
+    "legacyIds": [
+      "n2-sai-ni"
     ]
   },
   {
@@ -14267,7 +13863,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "た形 + 上で = nachdem. 辞書形/Nomen + 上で = hinsichtlich.",
     "related": [
-      "n4-ato-de"
+      "n4-ato-de",
+      "n2-jou"
     ]
   },
   {
@@ -14324,7 +13921,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "～ているうちに = während (und dabei ändert sich etwas).",
     "related": [
-      "n4-aida-ni"
+      "n4-aida-ni",
+      "n2-uchi-ni-hairanai"
     ]
   },
   {
@@ -14377,11 +13975,25 @@ window.GRAMMAR_DATA = [
         },
         "romaji": "Kono kyoku o kiku tabi ni gakusei jidai o omoidasu.",
         "german": "Jedes Mal wenn ich dieses Lied höre, denke ich an meine Studienzeit."
+      },
+      {
+        "japanese": "日本に行くたびに、新しい発見がある。",
+        "romaji": "Nihon ni iku tabi ni, atarashii hakken ga aru.",
+        "german": "Jedes Mal wenn ich nach Japan gehe, gibt es neue Entdeckungen."
+      },
+      {
+        "japanese": "この曲を聞くたびに、学生時代を思い出す。",
+        "romaji": "Kono kyoku wo kiku tabi ni, gakusei jidai wo omoidasu.",
+        "german": "Jedes Mal wenn ich dieses Lied höre, erinnere ich mich an die Studentenzeit."
       }
     ],
     "notes": "Regelmäßige Wiederholung.",
     "related": [
-      "n4-to-conditional"
+      "n4-to-conditional",
+      "n2-ni-tsuke"
+    ],
+    "legacyIds": [
+      "n2-tabi-ni"
     ]
   },
   {
@@ -14438,7 +14050,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n3-dokoro-ka",
     "pattern": "～どころか",
-    "level": "N3",
+    "level": "N2",
     "category": "Satzstrukturen",
     "meaning": "Weit davon entfernt, geschweige denn",
     "explanation": "どころか: die Realität ist weit von der Erwartung entfernt.",
@@ -14450,7 +14062,7 @@ window.GRAMMAR_DATA = [
           "start": 2,
           "answer": "どころか",
           "quiz": {
-            "level": "N3",
+            "level": "N2",
             "japanese": "旅行どころか、休みも取れない。",
             "german": "Von Reise ganz zu schweigen, ich kann nicht mal frei nehmen.",
             "start": 2,
@@ -14489,7 +14101,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Verstärkt den Kontrast zwischen Erwartung und Realität.",
     "related": [
-      "n3-dokoro-dewa-nai"
+      "n3-dokoro-dewa-nai",
+      "n3-to-iu-yori"
     ]
   },
   {
@@ -14667,7 +14280,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n3-kara-niwa",
     "pattern": "～からには",
-    "level": "N3",
+    "level": "N2",
     "category": "Satzstrukturen",
     "meaning": "Wenn schon, da nun mal",
     "explanation": "からには: da man sich einmal entschieden hat, muss man auch durchziehen.",
@@ -14679,7 +14292,7 @@ window.GRAMMAR_DATA = [
           "start": 2,
           "answer": "からには",
           "quiz": {
-            "level": "N3",
+            "level": "N2",
             "japanese": "やるからには最後までやる。",
             "german": "Wenn ich es schon mache, dann bis zum Ende.",
             "start": 2,
@@ -14719,7 +14332,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Ähnlich: ～以上は.",
     "related": [
-      "n3-ijou-wa"
+      "n2-ijou-wa"
     ]
   },
   {
@@ -14776,61 +14389,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Oft mit ～わけではない oder ～とは限らない.",
     "related": [
-      "n3-wake-dewa-nai"
-    ]
-  },
-  {
-    "id": "n3-ijou-wa",
-    "pattern": "～以上(は)",
-    "level": "N3",
-    "category": "Satzstrukturen",
-    "meaning": "Da nun mal, solange",
-    "explanation": "以上は: da eine Tatsache besteht, muss man entsprechend handeln.",
-    "formation": "Verb (辞書形/た形) + 以上(は)",
-    "examples": [
-      {
-        "japanese": "引き受けた以上は責任を持つ。",
-        "romaji": "Hikiuketa ijō wa sekinin o motsu.",
-        "german": "Da ich es übernommen habe, trage ich die Verantwortung.",
-        "cloze": {
-          "start": 5,
-          "answer": "以上は",
-          "quiz": {
-            "level": "N3",
-            "japanese": "引き受けた以上は責任を持つ。",
-            "german": "Da ich es übernommen habe, trage ich die Verantwortung.",
-            "start": 5,
-            "answer": "以上は",
-            "acceptedAnswers": [
-              "以上は",
-              "からには"
-            ],
-            "distractors": [
-              {
-                "text": "な以上は",
-                "reason": "Nach dem Verb wird kein な eingefügt."
-              },
-              {
-                "text": "以上をは",
-                "reason": "を steht hier nicht vor は."
-              },
-              {
-                "text": "以上な",
-                "reason": "Dies schließt die Konsequenz nicht an."
-              }
-            ]
-          }
-        }
-      },
-      {
-        "japanese": "学生である以上、勉強するべきだ。",
-        "romaji": "Gakusei de aru ijō, benkyō suru beki da.",
-        "german": "Solange man Student ist, sollte man lernen."
-      }
-    ],
-    "notes": "Ähnlich: ～からには.",
-    "related": [
-      "n3-kara-niwa"
+      "n3-wake-dewa-nai",
+      "n2-ka-to-iu-to"
     ]
   },
   {
@@ -14886,7 +14446,9 @@ window.GRAMMAR_DATA = [
       }
     ],
     "notes": "できる限り = so viel wie möglich.",
-    "related": []
+    "related": [
+      "n2-nai-kagiri"
+    ]
   },
   {
     "id": "n3-koto-da",
@@ -14946,62 +14508,6 @@ window.GRAMMAR_DATA = [
       "n4-ta-hou-ga-ii",
       "n4-beki-da"
     ]
-  },
-  {
-    "id": "n3-mono-ka",
-    "pattern": "～ものか / ～もんか",
-    "level": "N3",
-    "category": "Satzstrukturen",
-    "meaning": "Auf keinen Fall! Niemals!",
-    "explanation": "ものか: drückt starke Ablehnung oder Entschlossenheit aus.",
-    "formation": "Verb (辞書形) + ものか/もんか",
-    "examples": [
-      {
-        "japanese": "あんな所に二度と行くものか。",
-        "cloze": {
-          "start": 10,
-          "answer": "ものか",
-          "quiz": {
-            "level": "N3",
-            "japanese": "あんな所に二度と行くものか。",
-            "german": "An so einen Ort gehe ich nie wieder!",
-            "start": 10,
-            "answer": "ものか",
-            "acceptedAnswers": [
-              "ものか",
-              "もんか"
-            ],
-            "distractors": [
-              {
-                "text": "ものだ",
-                "reason": "Dies behauptet eine allgemeine Regel statt entschiedener Ablehnung."
-              },
-              {
-                "text": "なものか",
-                "reason": "Nach dem Verb wird kein な eingefügt."
-              },
-              {
-                "text": "ものをか",
-                "reason": "Dies ist keine rhetorische Ablehnungsform."
-              }
-            ]
-          }
-        },
-        "romaji": "Anna tokoro ni nido to iku mono ka.",
-        "german": "An so einen Ort gehe ich nie wieder!"
-      },
-      {
-        "japanese": "負けるもんか！",
-        "cloze": {
-          "start": 3,
-          "answer": "もんか"
-        },
-        "romaji": "Makeru mon ka!",
-        "german": "Ich werde auf keinen Fall verlieren!"
-      }
-    ],
-    "notes": "Emotional und umgangssprachlich. もんか = informeller.",
-    "related": []
   },
   {
     "id": "n3-ta-tokoro",
@@ -15172,7 +14678,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Sehr formell/schriftlich. Alltagssprache: ～のに.",
     "related": [
-      "noni"
+      "noni",
+      "n2-mo-kamawazu"
     ]
   },
   {
@@ -15229,13 +14736,16 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Hypothetischer als ～ても.",
     "related": [
-      "temo"
+      "temo",
+      "n3-tatte-datte",
+      "n3-to-suru-to",
+      "n3-tatoe-temo"
     ]
   },
   {
     "id": "n3-shidai",
     "pattern": "～次第",
-    "level": "N3",
+    "level": "N2",
     "category": "Satzstrukturen",
     "meaning": "Sobald / es kommt an auf",
     "explanation": "次第: 1) sobald etwas passiert (ます-Stamm+次第), 2) es hängt ab von (Nomen+次第).",
@@ -15247,7 +14757,7 @@ window.GRAMMAR_DATA = [
           "start": 2,
           "answer": "次第",
           "quiz": {
-            "level": "N3",
+            "level": "N2",
             "japanese": "届き次第ご連絡します。",
             "german": "Ich melde mich, sobald es ankommt.",
             "start": 2,
@@ -15286,60 +14796,9 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "ます-Stamm + 次第 = sobald (formell). Nomen + 次第 = es kommt an auf.",
     "related": [
-      "n3-ni-ojite"
-    ]
-  },
-  {
-    "id": "n3-ippou-de",
-    "pattern": "～一方(で)",
-    "level": "N3",
-    "category": "Satzstrukturen",
-    "meaning": "Andererseits, während gleichzeitig",
-    "explanation": "一方で: zwei Aspekte oder Gegensätze gegenüberstellen.",
-    "formation": "Verb/Adj (Grundform) + 一方(で)",
-    "examples": [
-      {
-        "japanese": "便利になる一方で、危険も増えている。",
-        "romaji": "Benri ni naru ippō de, kiken mo fueteiru.",
-        "german": "Es wird praktischer, aber gleichzeitig steigen die Gefahren.",
-        "cloze": {
-          "start": 5,
-          "answer": "一方で",
-          "quiz": {
-            "level": "N3",
-            "japanese": "便利になる一方で、危険も増えている。",
-            "german": "Es wird praktischer, aber gleichzeitig steigen die Gefahren.",
-            "start": 5,
-            "answer": "一方で",
-            "acceptedAnswers": [
-              "一方で"
-            ],
-            "distractors": [
-              {
-                "text": "な一方で",
-                "reason": "Nach dem Verb wird kein な eingefügt."
-              },
-              {
-                "text": "一方を",
-                "reason": "を bildet hier keinen kontrastierenden Anschluss."
-              },
-              {
-                "text": "一方だの",
-                "reason": "Dies schließt die zweite Entwicklung nicht an."
-              }
-            ]
-          }
-        }
-      },
-      {
-        "japanese": "彼は優しい一方で、厳しい面もある。",
-        "romaji": "Kare wa yasashii ippō de, kibishii men mo aru.",
-        "german": "Er ist freundlich, hat aber auch eine strenge Seite."
-      }
-    ],
-    "notes": "～一方だ = immer mehr (Tendenz): 増える一方だ = nimmt immer mehr zu.",
-    "related": [
-      "n3-hanmen"
+      "n3-ni-ojite",
+      "n2-ni-yotte-wa",
+      "n2-ni-kakatte-iru"
     ]
   },
   {
@@ -15397,7 +14856,7 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Ähnlich wie ～一方で, aber betont stärker den Gegensatz.",
     "related": [
-      "n3-ippou-de"
+      "n2-ippou-de"
     ]
   },
   {
@@ -15621,7 +15080,9 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Spezialformen: いる→いらっしゃる, 言う→おっしゃる, 食べる→召し上がる, する→なさる.",
     "related": [
-      "n3-keigo-kenjou"
+      "n3-keigo-kenjou",
+      "keigo-sonkeigo-oninaru",
+      "keigo-sonkeigo-irassharu"
     ]
   },
   {
@@ -15675,7 +15136,9 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Spezialformen: 行く/来る→参る, 言う→申す, する→いたす, 見る→拝見する.",
     "related": [
-      "n3-keigo-sonkei"
+      "n3-keigo-sonkei",
+      "keigo-kenjougo-osuru",
+      "keigo-kenjougo-mairu"
     ]
   },
   {
@@ -15734,7 +15197,7 @@ window.GRAMMAR_DATA = [
   },
   {
     "id": "n3-koto-ni-natte-iru",
-    "pattern": "～ことになっている (N3)",
+    "pattern": "～ことになっている",
     "level": "N3",
     "category": "Satzstrukturen",
     "meaning": "Es ist vorgesehen/geplant (erweitert)",
@@ -15778,10 +15241,23 @@ window.GRAMMAR_DATA = [
         "japanese": "日本では靴を脱ぐことになっている。",
         "romaji": "Nihon de wa kutsu o nugu koto ni natte iru.",
         "german": "In Japan ist es Brauch, die Schuhe auszuziehen."
+      },
+      {
+        "japanese": "この学校では制服を着ることになっている。",
+        "romaji": "Kono gakkō de wa seifuku o kiru koto ni natteiru.",
+        "german": "An dieser Schule muss man Uniform tragen."
+      },
+      {
+        "japanese": "ここでは喫煙しないことになっています。",
+        "romaji": "Koko de wa kitsuen shinai koto ni natteimasu.",
+        "german": "Hier ist Rauchen nicht erlaubt."
       }
     ],
     "notes": "Gesellschaftliche Norm oder feststehender Plan.",
     "related": [
+      "n4-koto-ni-naru"
+    ],
+    "legacyIds": [
       "n4-koto-ni-natteiru"
     ]
   },
@@ -15888,12 +15364,13 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Indirekte Befehlswiedergabe. Auch mit 頼む, 注意する usw.",
     "related": [
-      "n4-you-ni-suru"
+      "n4-you-ni-suru",
+      "n3-masu-you-ni"
     ]
   },
   {
     "id": "n3-koto-ni-suru-2",
-    "pattern": "～ことにしている (N3)",
+    "pattern": "～ことにしている",
     "level": "N3",
     "category": "Satzstrukturen",
     "meaning": "Sich zur Regel gemacht haben",
@@ -16056,7 +15533,9 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Betont die Notwendigkeit einer Voraussetzung.",
     "related": [
-      "n3-te-kara-de-nai-to"
+      "n3-te-kara-de-nai-to",
+      "n2-nai-kagiri",
+      "n2-you-dewa"
     ]
   },
   {
@@ -16178,7 +15657,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n3-kkonai",
     "pattern": "～っこない",
-    "level": "N3",
+    "level": "N2",
     "category": "Satzstrukturen",
     "meaning": "Keine Chance dass, absolut unmöglich",
     "explanation": "っこない: umgangssprachlich, drückt absolute Unmöglichkeit aus.",
@@ -16190,7 +15669,7 @@ window.GRAMMAR_DATA = [
           "start": 12,
           "answer": "っこない",
           "quiz": {
-            "level": "N3",
+            "level": "N2",
             "japanese": "そんな難しい試験、受かりっこない。",
             "german": "So eine schwere Prüfung, da bestehe ich niemals.",
             "start": 12,
@@ -16230,7 +15709,8 @@ window.GRAMMAR_DATA = [
     "notes": "Sehr umgangssprachlich. Stärker als ～はずがない.",
     "related": [
       "n3-you-ga-nai",
-      "n4-hazu-ga-nai"
+      "n4-hazu-ga-nai",
+      "n2-ta-mono-dewa-nai"
     ]
   },
   {
@@ -16285,11 +15765,24 @@ window.GRAMMAR_DATA = [
         },
         "romaji": "Tegami ni kawatte mēru ga fukyū shita.",
         "german": "Anstelle von Briefen haben sich E-Mails verbreitet."
+      },
+      {
+        "japanese": "社長にかわって、副社長が挨拶した。",
+        "romaji": "Shachō ni kawatte, fuku-shachō ga aisatsu shita.",
+        "german": "Anstelle des Präsidenten hielt der Vizepräsident die Begrüßung."
+      },
+      {
+        "japanese": "手紙にかわって、メールが主な連絡手段になった。",
+        "romaji": "Tegami ni kawatte, mēru ga omo na renraku shudan ni natta.",
+        "german": "Anstelle von Briefen ist E-Mail zum Hauptkommunikationsmittel geworden."
       }
     ],
     "notes": "Auch: ～のかわりに (informeller).",
     "related": [
       "n3-kawari-ni"
+    ],
+    "legacyIds": [
+      "n2-ni-kawatte"
     ]
   },
   {
@@ -16407,7 +15900,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n3-o-towazu",
     "pattern": "～を問わず",
-    "level": "N3",
+    "level": "N2",
     "category": "Partikel",
     "meaning": "Ungeachtet, unabhängig von",
     "explanation": "を問わず: es spielt keine Rolle, welcher Fall zutrifft.",
@@ -16419,7 +15912,7 @@ window.GRAMMAR_DATA = [
           "start": 2,
           "answer": "を問わず",
           "quiz": {
-            "level": "N3",
+            "level": "N2",
             "japanese": "年齢を問わず参加できます。",
             "german": "Man kann unabhängig vom Alter teilnehmen.",
             "start": 2,
@@ -16464,7 +15957,7 @@ window.GRAMMAR_DATA = [
   {
     "id": "n3-ni-kakawarazu",
     "pattern": "～にかかわらず",
-    "level": "N3",
+    "level": "N2",
     "category": "Partikel",
     "meaning": "Unabhängig von, egal ob",
     "explanation": "にかかわらず: das Ergebnis ändert sich nicht, egal welche Bedingung vorliegt.",
@@ -16476,7 +15969,7 @@ window.GRAMMAR_DATA = [
           "start": 2,
           "answer": "にかかわらず",
           "quiz": {
-            "level": "N3",
+            "level": "N2",
             "japanese": "天気にかかわらず試合は行われる。",
             "german": "Unabhängig vom Wetter findet das Spiel statt.",
             "start": 2,
@@ -16574,66 +16067,6 @@ window.GRAMMAR_DATA = [
     "notes": "Konkret (Fluss) und abstrakt (Plan) möglich.",
     "related": [
       "n3-ni-shitagatte"
-    ]
-  },
-  {
-    "id": "n3-gatai",
-    "pattern": "～がたい",
-    "level": "N3",
-    "category": "Verben",
-    "meaning": "Schwer zu (emotional/moralisch)",
-    "explanation": "がたい: etwas ist emotional oder moralisch schwer zu tun. Formeller als ～にくい.",
-    "formation": "Verb (ます-Stamm) + がたい",
-    "examples": [
-      {
-        "japanese": "彼の行動は理解しがたい。",
-        "cloze": {
-          "start": 8,
-          "answer": "がたい",
-          "quiz": {
-            "level": "N3",
-            "japanese": "彼の行動は理解しがたい。",
-            "german": "Sein Verhalten ist schwer zu verstehen.",
-            "start": 8,
-            "answer": "がたい",
-            "acceptedAnswers": [
-              "がたい",
-              "づらい",
-              "にくい"
-            ],
-            "distractors": [
-              {
-                "text": "がたいだ",
-                "reason": "Ein い-Adjektiv erhält kein だ."
-              },
-              {
-                "text": "がたくます",
-                "reason": "Ein い-Adjektiv nimmt kein ます."
-              },
-              {
-                "text": "るがたい",
-                "reason": "がたい schließt an den Stamm し an."
-              }
-            ]
-          }
-        },
-        "romaji": "Kare no kōdō wa rikai shigatai.",
-        "german": "Sein Verhalten ist schwer zu verstehen."
-      },
-      {
-        "japanese": "忘れがたい思い出だ。",
-        "cloze": {
-          "start": 2,
-          "answer": "がたい"
-        },
-        "romaji": "Wasuregatai omoide da.",
-        "german": "Eine unvergessliche Erinnerung."
-      }
-    ],
-    "notes": "Formeller als ～にくい und ～づらい. 信じがたい (kaum zu glauben).",
-    "related": [
-      "n4-nikui",
-      "n3-zurai"
     ]
   },
   {
@@ -16858,7 +16291,8 @@ window.GRAMMAR_DATA = [
     "notes": "Eigener Wunsch oder Vorwurf an andere.",
     "related": [
       "n4-ba-yokatta",
-      "n4-ba"
+      "n4-ba",
+      "n3-tara-ii-ba-ii"
     ]
   },
   {
@@ -17027,6 +16461,2670 @@ window.GRAMMAR_DATA = [
     "notes": "にとって + Satz vs. にとっての + Nomen.",
     "related": [
       "n4-ni-totte"
+    ]
+  },
+  {
+    "id": "n5-kore-sore-are-dore",
+    "pattern": "これ / それ / あれ / どれ",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Dies / das (da) / jenes (dort) / welches",
+    "explanation": "Diese Demonstrativpronomen stehen allein anstelle eines Nomens. こ- zeigt auf etwas beim Sprecher, そ- auf etwas beim Hörer und あ- auf etwas, das von beiden entfernt ist. どれ fragt, welches Ding aus drei oder mehr gemeint ist.",
+    "formation": "これ / それ / あれ / どれ + Partikel (は, が, を …) – ohne folgendes Nomen",
+    "examples": [
+      {
+        "japanese": "あなたのかばんはどれですか。",
+        "romaji": "Anata no kaban wa dore desu ka.",
+        "german": "Welche ist deine Tasche?",
+        "cloze": {
+          "start": 8,
+          "answer": "どれ",
+          "quiz": {
+            "level": "N5",
+            "japanese": "あなたのかばんはどれですか。",
+            "german": "Welche ist deine Tasche?",
+            "start": 8,
+            "answer": "どれ",
+            "acceptedAnswers": [
+              "どれ",
+              "どちら"
+            ],
+            "distractors": [
+              {
+                "text": "どの",
+                "reason": "どの muss direkt vor einem Nomen stehen (どのかばん) und kann nicht allein stehen."
+              },
+              {
+                "text": "どんな",
+                "reason": "どんな fragt nach der Art und braucht ein folgendes Nomen."
+              },
+              {
+                "text": "だれ",
+                "reason": "だれ fragt nach einer Person, nicht nach einer Tasche."
+              }
+            ],
+            "promptKana": "あなたのかばんは＿＿＿ですか。"
+          }
+        }
+      },
+      {
+        "japanese": "これは日本のお茶です。",
+        "romaji": "Kore wa Nihon no ocha desu.",
+        "german": "Das hier ist japanischer Tee."
+      },
+      {
+        "japanese": "すみません、それをください。",
+        "romaji": "Sumimasen, sore o kudasai.",
+        "german": "Entschuldigung, das da (bei Ihnen) hätte ich gern."
+      }
+    ],
+    "notes": "Nach これ/それ/あれ/どれ folgt nie direkt ein Nomen: nicht *これ本, sondern この本 (→ この/その/あの/どの). Als Subjekt einer Frage steht どれ mit が, nicht mit は: どれがいいですか. Bei nur zwei Möglichkeiten fragt man mit どちら/どっち. Auf die Frage それは何ですか antwortet man mit これは…, weil sich die Perspektive dreht.",
+    "related": [
+      "n5-kono-sono-ano-dono",
+      "n5-koko-soko-asoko-doko",
+      "donna"
+    ]
+  },
+  {
+    "id": "n5-kono-sono-ano-dono",
+    "pattern": "この / その / あの / どの",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Dieses … / das … (da) / jenes … (dort) / welches …",
+    "explanation": "この, その, あの und どの stehen immer direkt vor einem Nomen und bestimmen es näher – wie deutsche Begleiter 'dieses' oder 'jenes'. Die Entfernung folgt demselben こ-そ-あ-System wie bei これ/それ/あれ. どの fragt, welches Ding aus einer Gruppe gemeint ist.",
+    "formation": "この / その / あの / どの + Nomen",
+    "examples": [
+      {
+        "japanese": "あの人はだれですか。",
+        "romaji": "Ano hito wa dare desu ka.",
+        "german": "Wer ist die Person dort drüben?",
+        "cloze": {
+          "start": 0,
+          "answer": "あの",
+          "quiz": {
+            "level": "N5",
+            "japanese": "あの人はだれですか。",
+            "german": "Wer ist die Person dort drüben?",
+            "start": 0,
+            "answer": "あの",
+            "acceptedAnswers": [
+              "あの"
+            ],
+            "distractors": [
+              {
+                "text": "あれ",
+                "reason": "あれ steht allein und kann kein Nomen wie 人 direkt bestimmen."
+              },
+              {
+                "text": "あそこ",
+                "reason": "あそこ ist ein Ortswort und kann nicht direkt vor einem Nomen wie 人 stehen."
+              },
+              {
+                "text": "あちら",
+                "reason": "あちら ist ein Richtungs- bzw. Ortswort und kann nicht direkt vor 人 stehen."
+              }
+            ],
+            "promptKana": "＿＿＿ひとはだれですか。"
+          }
+        }
+      },
+      {
+        "japanese": "この本はとてもおもしろいです。",
+        "romaji": "Kono hon wa totemo omoshiroi desu.",
+        "german": "Dieses Buch ist sehr interessant."
+      },
+      {
+        "japanese": "どの電車に乗りますか。",
+        "romaji": "Dono densha ni norimasu ka.",
+        "german": "Welchen Zug nehmen Sie?"
+      }
+    ],
+    "notes": "この/その/あの/どの können nie allein stehen: nicht *このは…, sondern これは…. Über etwas, das beide Gesprächspartner kennen, aber gerade nicht sehen, spricht man mit あの: あの店、おいしかったね (Der Laden damals war lecker, oder?). あのう… ist außerdem eine typische Füllpause beim Ansprechen.",
+    "related": [
+      "n5-kore-sore-are-dore",
+      "n5-koko-soko-asoko-doko",
+      "donna"
+    ]
+  },
+  {
+    "id": "n5-koko-soko-asoko-doko",
+    "pattern": "ここ / そこ / あそこ / どこ",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Hier / da / dort drüben / wo",
+    "explanation": "ここ, そこ, あそこ und どこ sind Ortswörter nach dem こ-そ-あ-ど-System: ここ ist der Ort beim Sprecher, そこ der beim Hörer, あそこ ein Ort weit weg von beiden. どこ fragt nach dem Ort. Sie verhalten sich wie Nomen und nehmen Partikeln wie に, で oder へ.",
+    "formation": "ここ / そこ / あそこ / どこ + Partikel (は, に, で, へ, から …) oder + です",
+    "examples": [
+      {
+        "japanese": "トイレはどこですか。",
+        "romaji": "Toire wa doko desu ka.",
+        "german": "Wo ist die Toilette?",
+        "cloze": {
+          "start": 4,
+          "answer": "どこ",
+          "quiz": {
+            "level": "N5",
+            "japanese": "トイレはどこですか。",
+            "german": "Wo ist die Toilette?",
+            "start": 4,
+            "answer": "どこ",
+            "acceptedAnswers": [
+              "どこ",
+              "どちら"
+            ],
+            "distractors": [
+              {
+                "text": "どの",
+                "reason": "どの braucht ein folgendes Nomen und kann nicht allein vor です stehen."
+              },
+              {
+                "text": "いつ",
+                "reason": "いつ fragt nach der Zeit, nicht nach dem Ort."
+              },
+              {
+                "text": "だれ",
+                "reason": "だれ fragt nach einer Person, nicht nach einem Ort."
+              }
+            ],
+            "promptKana": "トイレは＿＿＿ですか。"
+          }
+        }
+      },
+      {
+        "japanese": "ここで写真を撮ってもいいですか。",
+        "romaji": "Koko de shashin o totte mo ii desu ka.",
+        "german": "Darf ich hier fotografieren?"
+      },
+      {
+        "japanese": "駅はあそこです。",
+        "romaji": "Eki wa asoko desu.",
+        "german": "Der Bahnhof ist dort drüben."
+      }
+    ],
+    "notes": "Höfliche Entsprechungen sind こちら/そちら/あちら/どちら – üblich in Geschäften und am Telefon (お手洗いはどちらですか). Umgangssprachlich: こっち/そっち/あっち/どっち. そこ bezeichnet auch einen Ort, den der andere gerade erwähnt hat: 「京都に住んでいます。」「そこはどんな所ですか。」",
+    "related": [
+      "n5-kore-sore-are-dore",
+      "n5-kono-sono-ano-dono",
+      "ni"
+    ]
+  },
+  {
+    "id": "n5-goro",
+    "pattern": "～ごろ",
+    "level": "N5",
+    "category": "Partikel",
+    "meaning": "Gegen, ungefähr (Zeitpunkt)",
+    "explanation": "ごろ wird an eine Zeitangabe gehängt und macht sie ungefähr: 三時ごろ = gegen drei Uhr. Es passt nur zu Zeitpunkten wie Uhrzeit, Tag, Monat oder Jahr, nicht zu Zeitdauern oder Mengen. Danach kann に stehen, es fällt aber oft weg.",
+    "formation": "Zeitpunkt + ごろ (+ に)",
+    "examples": [
+      {
+        "japanese": "毎晩十一時ごろ寝ます。",
+        "romaji": "Maiban jūichi-ji goro nemasu.",
+        "german": "Ich gehe jeden Abend gegen elf Uhr schlafen.",
+        "cloze": {
+          "start": 5,
+          "answer": "ごろ",
+          "quiz": {
+            "level": "N5",
+            "japanese": "毎晩十一時ごろ寝ます。",
+            "german": "Ich gehe jeden Abend gegen elf Uhr schlafen.",
+            "start": 5,
+            "answer": "ごろ",
+            "acceptedAnswers": [
+              "ごろ",
+              "ごろに"
+            ],
+            "distractors": [
+              {
+                "text": "ころ",
+                "reason": "Nach einer Zeitangabe lautet das Suffix stimmhaft ごろ."
+              },
+              {
+                "text": "ずつ",
+                "reason": "ずつ verteilt Mengen gleichmäßig und passt nicht zu einer Uhrzeit."
+              },
+              {
+                "text": "しか",
+                "reason": "しか verlangt eine verneinte Form und bedeutet 'nur'."
+              }
+            ],
+            "promptKana": "まいばんじゅういちじ＿＿＿ねます。"
+          }
+        }
+      },
+      {
+        "japanese": "日本には四月ごろ行きたいです。",
+        "romaji": "Nihon ni wa shigatsu goro ikitai desu.",
+        "german": "Ich möchte etwa im April nach Japan fahren."
+      },
+      {
+        "japanese": "昼ごろ駅で会いましょう。",
+        "romaji": "Hiru goro eki de aimashō.",
+        "german": "Treffen wir uns gegen Mittag am Bahnhof."
+      }
+    ],
+    "notes": "ごろ = ungefährer Zeitpunkt, ぐらい/くらい = ungefähre Menge oder Dauer: 三時ごろ (gegen drei Uhr) vs. 三時間ぐらい (etwa drei Stunden). Im Alltag hört man auch 三時ぐらい, die Lehrbuchform für Zeitpunkte ist aber ごろ. Nicht mit Zeitdauern kombinieren (*二時間ごろ). Als eigenes Wort heißt es ころ: 子供のころ (als ich ein Kind war).",
+    "related": [
+      "n3-kurai-gurai",
+      "ni"
+    ]
+  },
+  {
+    "id": "n5-amari-nai",
+    "pattern": "あまり～ない",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Nicht besonders, nicht sehr",
+    "explanation": "あまり steht vor einem verneinten Verb oder Adjektiv und schwächt die Verneinung ab: 'nicht besonders, nicht oft, nicht viel'. So klingt eine negative Aussage weich und höflich. In dieser Bedeutung braucht あまり immer eine verneinte Form.",
+    "formation": "あまり + Verb (ない / ません) / あまり + い-Adj (～くない) / あまり + な-Adj (～じゃない)",
+    "examples": [
+      {
+        "japanese": "この映画はあまりおもしろくなかったです。",
+        "romaji": "Kono eiga wa amari omoshiroku nakatta desu.",
+        "german": "Dieser Film war nicht besonders interessant.",
+        "cloze": {
+          "start": 5,
+          "answer": "あまり",
+          "quiz": {
+            "level": "N5",
+            "japanese": "この映画はあまりおもしろくなかったです。",
+            "german": "Dieser Film war nicht besonders interessant.",
+            "start": 5,
+            "answer": "あまり",
+            "acceptedAnswers": [
+              "あまり",
+              "あんまり"
+            ],
+            "distractors": [
+              {
+                "text": "とても",
+                "reason": "とても verstärkt positive Aussagen; vor einer Verneinung ergibt es nicht 'nicht besonders'."
+              },
+              {
+                "text": "たくさん",
+                "reason": "たくさん gibt eine Menge an und kann kein Adjektiv abstufen."
+              },
+              {
+                "text": "よく",
+                "reason": "よく bedeutet 'oft' oder 'gut' und passt nicht vor おもしろくなかった."
+              }
+            ],
+            "promptKana": "このえいがは＿＿＿おもしろくなかったです。"
+          }
+        }
+      },
+      {
+        "japanese": "私はお酒をあまり飲みません。",
+        "romaji": "Watashi wa osake o amari nomimasen.",
+        "german": "Ich trinke nicht viel Alkohol."
+      },
+      {
+        "japanese": "今日はあまり寒くないですね。",
+        "romaji": "Kyō wa amari samuku nai desu ne.",
+        "german": "Heute ist es nicht besonders kalt, oder?"
+      }
+    ],
+    "notes": "Abstufung: 全然～ない (überhaupt nicht) ist stärker als あまり～ない (nicht besonders). Umgangssprachlich oft あんまり. Auf Fragen wie 好きですか antwortet man mit あまり… ausweichend und höflich statt mit einem harten いいえ. Mit positiver Form bedeutet あまり(に) 'allzu sehr' – ein anderer, fortgeschrittener Gebrauch.",
+    "related": [
+      "n5-zenzen-nai",
+      "i-adj-negative",
+      "masen",
+      "n3-kesshite-nai"
+    ]
+  },
+  {
+    "id": "n5-zenzen-nai",
+    "pattern": "全然～ない",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Überhaupt nicht, gar nicht",
+    "explanation": "全然 (ぜんぜん) verstärkt eine Verneinung zu 'überhaupt nicht, gar nicht'. Es steht vor einem verneinten Verb oder Adjektiv und ist im Gespräch sehr häufig. In formellen Texten wählt man eher まったく～ない.",
+    "formation": "全然 + Verb (ない / ません) / 全然 + い-Adj (～くない) / 全然 + な-Adj (～じゃない)",
+    "examples": [
+      {
+        "japanese": "このカレーはぜんぜん辛くないです。",
+        "romaji": "Kono karē wa zenzen karaku nai desu.",
+        "german": "Dieses Curry ist überhaupt nicht scharf.",
+        "cloze": {
+          "start": 6,
+          "answer": "ぜんぜん",
+          "quiz": {
+            "level": "N5",
+            "japanese": "このカレーはぜんぜん辛くないです。",
+            "german": "Dieses Curry ist überhaupt nicht scharf.",
+            "start": 6,
+            "answer": "ぜんぜん",
+            "acceptedAnswers": [
+              "ぜんぜん",
+              "全然",
+              "まったく",
+              "ちっとも",
+              "すこしも"
+            ],
+            "distractors": [
+              {
+                "text": "とても",
+                "reason": "とても steht vor positiven Adjektiven; mit 辛くない ergibt es keinen natürlichen Satz."
+              },
+              {
+                "text": "いっぱい",
+                "reason": "いっぱい bezeichnet eine Menge und kann kein Adjektiv verstärken."
+              },
+              {
+                "text": "よく",
+                "reason": "よく bedeutet 'oft' oder 'gut' und kann 辛くない nicht verstärken."
+              }
+            ],
+            "promptKana": "このカレーは＿＿＿からくないです。"
+          }
+        }
+      },
+      {
+        "japanese": "テレビはぜんぜん見ません。",
+        "romaji": "Terebi wa zenzen mimasen.",
+        "german": "Ich schaue überhaupt kein Fernsehen."
+      },
+      {
+        "japanese": "テストはぜんぜんわかりませんでした。",
+        "romaji": "Tesuto wa zenzen wakarimasen deshita.",
+        "german": "Beim Test habe ich überhaupt nichts verstanden."
+      }
+    ],
+    "notes": "Im heutigen Umgangsjapanisch hört man 全然 auch mit positiven Aussagen: 全然大丈夫 (völlig in Ordnung) – meist um eine Sorge des Gegenübers zu zerstreuen. In Prüfungen und höflicher Sprache gilt aber 全然 + Verneinung. Abstufung: 全然～ない > あまり～ない. Schriftsprachlich: まったく～ない.",
+    "related": [
+      "n5-amari-nai",
+      "i-adj-negative",
+      "n3-kesshite-nai"
+    ]
+  },
+  {
+    "id": "n5-ka-ka",
+    "pattern": "～か～か",
+    "level": "N5",
+    "category": "Partikel",
+    "meaning": "Entweder … oder …; ob … oder …",
+    "explanation": "か zwischen zwei Möglichkeiten bedeutet 'oder': AかB. Stehen zwei Sätze mit か hintereinander (…か…か), entsteht 'ob … oder …' für etwas, das noch offen ist. Anders als や nennt か Alternativen, von denen nur eine zutrifft.",
+    "formation": "Nomen + か + Nomen / Satz (schlichte Form) + か + Satz (schlichte Form) + か",
+    "examples": [
+      {
+        "japanese": "パーティーに行くか行かないか、まだ決めていません。",
+        "romaji": "Pātī ni iku ka ikanai ka, mada kimete imasen.",
+        "german": "Ob ich zur Party gehe oder nicht, habe ich noch nicht entschieden.",
+        "cloze": {
+          "start": 8,
+          "answer": "か",
+          "quiz": {
+            "level": "N5",
+            "japanese": "パーティーに行くか行かないか、まだ決めていません。",
+            "german": "Ob ich zur Party gehe oder nicht, habe ich noch nicht entschieden.",
+            "start": 8,
+            "answer": "か",
+            "acceptedAnswers": [
+              "か"
+            ],
+            "distractors": [
+              {
+                "text": "と",
+                "reason": "と verbindet Nomen ('und'), aber keine zwei Sätze als Alternativen."
+              },
+              {
+                "text": "や",
+                "reason": "や zählt nur Nomen auf und kann nicht nach einem Verb stehen."
+              },
+              {
+                "text": "が",
+                "reason": "Mit が entsteht hier kein 'ob … oder'; der Satz wird ungrammatisch."
+              }
+            ],
+            "promptKana": "パーティーにいく＿＿＿いかないか、まだきめていません。"
+          }
+        }
+      },
+      {
+        "japanese": "毎朝パンかごはんを食べます。",
+        "romaji": "Maiasa pan ka gohan o tabemasu.",
+        "german": "Jeden Morgen esse ich Brot oder Reis."
+      },
+      {
+        "japanese": "月曜日か火曜日に電話します。",
+        "romaji": "Getsuyōbi ka kayōbi ni denwa shimasu.",
+        "german": "Ich rufe am Montag oder Dienstag an."
+      }
+    ],
+    "notes": "AかB: nur eines von beiden. AやB: Beispiele aus einer größeren Menge. AとB: beides vollständig. Bei zwei Sätzen steht か an beiden Enden (行くか行かないか); das zweite か darf nicht fehlen. Für 'ob oder nicht' gibt es auch die kürzere Form ～かどうか (N4).",
+    "related": [
+      "ka",
+      "ya",
+      "n4-ka-dou-ka"
+    ]
+  },
+  {
+    "id": "n5-tachi",
+    "pattern": "～たち",
+    "level": "N5",
+    "category": "Partikel",
+    "meaning": "Pluralsuffix für Personen",
+    "explanation": "たち wird an Pronomen und Personenbezeichnungen gehängt und macht daraus eine Gruppe: 私たち (wir), 子供たち (die Kinder). Japanische Nomen haben sonst keinen Plural, deshalb ist たち freiwillig und wird fast nur bei Menschen und Tieren verwendet.",
+    "formation": "Pronomen / Personenbezeichnung / Name + たち",
+    "examples": [
+      {
+        "japanese": "私たちは同じクラスです。",
+        "romaji": "Watashitachi wa onaji kurasu desu.",
+        "german": "Wir sind in derselben Klasse.",
+        "cloze": {
+          "start": 1,
+          "answer": "たち",
+          "quiz": {
+            "level": "N5",
+            "japanese": "私たちは同じクラスです。",
+            "german": "Wir sind in derselben Klasse.",
+            "start": 1,
+            "answer": "たち",
+            "acceptedAnswers": [
+              "たち"
+            ],
+            "distractors": [
+              {
+                "text": "さん",
+                "reason": "さん ist ein Höflichkeitssuffix für andere und wird nie an 私 gehängt."
+              },
+              {
+                "text": "がた",
+                "reason": "がた ist respektvoll und wird nur für andere verwendet (あなたがた), nicht für sich selbst."
+              },
+              {
+                "text": "ごろ",
+                "reason": "ごろ macht Zeitpunkte ungefähr und passt nicht zu Personen."
+              }
+            ],
+            "promptKana": "わたし＿＿＿はおなじクラスです。"
+          }
+        }
+      },
+      {
+        "japanese": "子供たちが公園で遊んでいます。",
+        "romaji": "Kodomotachi ga kōen de asonde imasu.",
+        "german": "Die Kinder spielen im Park."
+      },
+      {
+        "japanese": "田中さんたちはもう帰りました。",
+        "romaji": "Tanaka-san-tachi wa mō kaerimashita.",
+        "german": "Tanaka und die anderen sind schon nach Hause gegangen."
+      }
+    ],
+    "notes": "Nach einem Namen bedeutet たち 'X und seine Leute': 田中さんたち sind nicht mehrere Tanakas. Bei Gegenständen wird たち normalerweise nicht benutzt (*本たち) – das Nomen bleibt unverändert. Respektvoll für andere: ～がた (先生がた, あなたがた); salopp: ～ら (僕ら).",
+    "related": [
+      "counters"
+    ]
+  },
+  {
+    "id": "n5-chuu-juu",
+    "pattern": "～中 (じゅう・ちゅう)",
+    "level": "N5",
+    "category": "Partikel",
+    "meaning": "Ganz/überall (じゅう) · gerade im Gange (ちゅう)",
+    "explanation": "Als じゅう bedeutet 中 'ganz, durchgehend': 一日中 (den ganzen Tag), 世界中 (auf der ganzen Welt). Als ちゅう bedeutet es 'gerade dabei, im Gange': 電話中 (telefoniert gerade), 会議中. Welche Lesung gilt, hängt vom Wort ab.",
+    "formation": "Zeitraum / Ort + 中 (じゅう) / Handlungsnomen + 中 (ちゅう)",
+    "examples": [
+      {
+        "japanese": "田中さんは今、電話中です。",
+        "romaji": "Tanaka-san wa ima, denwa-chū desu.",
+        "german": "Herr Tanaka telefoniert gerade.",
+        "cloze": {
+          "start": 9,
+          "answer": "中",
+          "quiz": {
+            "level": "N5",
+            "japanese": "田中さんは今、電話中です。",
+            "german": "Herr Tanaka telefoniert gerade.",
+            "start": 9,
+            "answer": "中",
+            "acceptedAnswers": [
+              "中"
+            ],
+            "distractors": [
+              {
+                "text": "間",
+                "reason": "間 (かん) steht nach Zeitdauern wie 三日間 und bildet kein 'gerade beim Telefonieren'."
+              },
+              {
+                "text": "ごろ",
+                "reason": "ごろ macht Zeitpunkte ungefähr und passt nicht zu einer Tätigkeit."
+              },
+              {
+                "text": "たち",
+                "reason": "たち bildet den Plural von Personen und passt nicht zu 電話."
+              }
+            ],
+            "promptKana": "たなかさんはいま、でんわ＿＿＿です。"
+          }
+        }
+      },
+      {
+        "japanese": "昨日は一日中雨でした。",
+        "romaji": "Kinō wa ichinichijū ame deshita.",
+        "german": "Gestern hat es den ganzen Tag geregnet."
+      },
+      {
+        "japanese": "この歌は世界中で有名です。",
+        "romaji": "Kono uta wa sekaijū de yūmei desu.",
+        "german": "Dieses Lied ist auf der ganzen Welt bekannt."
+      }
+    ],
+    "notes": "Faustregel: じゅう bei Zeiträumen und Orten (一年中, 日本中, 家中), ちゅう bei laufenden Tätigkeiten (授業中, 食事中, 工事中). Auf Schildern: 営業中 (geöffnet), 準備中 (in Vorbereitung). 今日中に (きょうじゅうに) heißt 'noch heute, bis Tagesende'. Nicht verwechseln mit 中 (なか) = 'in, innen'.",
+    "related": [
+      "te-iru",
+      "n3-saichuu"
+    ]
+  },
+  {
+    "id": "n5-adverb-ku-ni",
+    "pattern": "～く / ～に (Adverb)",
+    "level": "N5",
+    "category": "Adjektive",
+    "meaning": "Adjektiv als Adverb (schnell, leise …)",
+    "explanation": "Um ein Verb näher zu beschreiben, wird ein い-Adjektiv zu ～く (早い → 早く) und ein な-Adjektiv zu ～に (静か → 静かに). So wird aus 'schnell' ein 'schnell laufen' und aus 'leise' ein 'leise sprechen'. Das Adverb steht vor dem Verb.",
+    "formation": "い-Adj: い → く + Verb (早い → 早く) / な-Adj + に + Verb (静か → 静かに) / Ausnahme: いい → よく",
+    "examples": [
+      {
+        "japanese": "図書館では静かに話してください。",
+        "romaji": "Toshokan de wa shizuka ni hanashite kudasai.",
+        "german": "Bitte sprechen Sie in der Bibliothek leise.",
+        "cloze": {
+          "start": 7,
+          "answer": "に",
+          "quiz": {
+            "level": "N5",
+            "japanese": "図書館では静かに話してください。",
+            "german": "Bitte sprechen Sie in der Bibliothek leise.",
+            "start": 7,
+            "answer": "に",
+            "acceptedAnswers": [
+              "に"
+            ],
+            "distractors": [
+              {
+                "text": "な",
+                "reason": "な steht nur zwischen な-Adjektiv und Nomen (静かな部屋), nicht vor einem Verb."
+              },
+              {
+                "text": "で",
+                "reason": "静かで ist die て-Form und verbindet Sätze, beschreibt aber nicht das Sprechen."
+              },
+              {
+                "text": "く",
+                "reason": "～く ist die Adverbform von い-Adjektiven; 静か ist ein な-Adjektiv."
+              }
+            ],
+            "promptKana": "としょかんではしずか＿＿＿はなしてください。"
+          }
+        }
+      },
+      {
+        "japanese": "毎朝早く起きます。",
+        "romaji": "Maiasa hayaku okimasu.",
+        "german": "Ich stehe jeden Morgen früh auf."
+      },
+      {
+        "japanese": "漢字をきれいに書きました。",
+        "romaji": "Kanji o kirei ni kakimashita.",
+        "german": "Ich habe die Kanji sauber geschrieben."
+      }
+    ],
+    "notes": "Unregelmäßig: いい → よく (よくできました = gut gemacht). Vorsicht bei きれい und 有名: Das sind な-Adjektive, also きれいに, nicht *きれく. Dieselbe Form steckt in ～くなる/～になる (werden) und ～くする/～にする (machen). Manche Adverbien sind eigene Wörter: とても, ゆっくり, すぐ.",
+    "related": [
+      "ku-naru-ni-naru",
+      "n4-ku-suru",
+      "na-adj-present"
+    ]
+  },
+  {
+    "id": "n5-demo-suggestion",
+    "pattern": "～でも (Vorschlag)",
+    "level": "N5",
+    "category": "Partikel",
+    "meaning": "… oder so (weicher Vorschlag)",
+    "explanation": "Nomen + でも macht einen Vorschlag oder eine Einladung weicher: お茶でも飲みませんか = 'Wollen wir einen Tee oder so trinken?'. でも deutet an, dass es auch etwas anderes sein darf, und lässt dem Gegenüber Spielraum. Es ersetzt dabei は, が oder を.",
+    "formation": "Nomen + でも + Vorschlag / Einladung / Wunsch (～ませんか, ～ましょう, ～どうですか)",
+    "examples": [
+      {
+        "japanese": "お茶でも飲みませんか。",
+        "romaji": "Ocha demo nomimasen ka.",
+        "german": "Wollen wir nicht einen Tee oder so trinken?",
+        "cloze": {
+          "start": 2,
+          "answer": "でも",
+          "quiz": {
+            "level": "N5",
+            "japanese": "お茶でも飲みませんか。",
+            "german": "Wollen wir nicht einen Tee oder so trinken?",
+            "start": 2,
+            "answer": "でも",
+            "acceptedAnswers": [
+              "でも",
+              "なんか"
+            ],
+            "distractors": [
+              {
+                "text": "ても",
+                "reason": "ても hängt an die て-Form von Verben und Adjektiven, nicht an ein Nomen wie お茶."
+              },
+              {
+                "text": "が",
+                "reason": "飲む verlangt ein Objekt mit を; mit が wird der Satz ungrammatisch."
+              },
+              {
+                "text": "に",
+                "reason": "に markiert ein Ziel oder eine Zeit, aber kein Getränk, das man trinkt."
+              }
+            ],
+            "promptKana": "おちゃ＿＿＿のみませんか。"
+          }
+        }
+      },
+      {
+        "japanese": "日曜日に映画でも見に行きましょう。",
+        "romaji": "Nichiyōbi ni eiga demo mi ni ikimashō.",
+        "german": "Lass uns am Sonntag vielleicht ins Kino gehen."
+      },
+      {
+        "japanese": "暑いですね。冷たいものでもどうですか。",
+        "romaji": "Atsui desu ne. Tsumetai mono demo dō desu ka.",
+        "german": "Heiß heute, oder? Wie wäre es mit etwas Kaltem?"
+      }
+    ],
+    "notes": "Nicht verwechseln mit でも am Satzanfang ('aber') und mit Nomen + でも im Sinn von 'sogar' (子供でもわかる = sogar ein Kind versteht das). Beim Vorschlag wirkt でも bescheiden, weil man sich nicht festlegt. Umgangssprachlich auch ～なんか: コーヒーなんかどう？",
+    "related": [
+      "n5-masen-ka",
+      "temo",
+      "mashou"
+    ]
+  },
+  {
+    "id": "n5-masen-ka",
+    "pattern": "～ませんか",
+    "level": "N5",
+    "category": "Verben",
+    "meaning": "Wollen wir nicht …? (höfliche Einladung)",
+    "explanation": "Mit der verneinten Frage ～ませんか lädt man jemanden höflich ein: 一緒に行きませんか = 'Wollen Sie nicht mitkommen?'. Die Verneinung klingt zurückhaltend und lässt dem anderen die Wahl. Das ist rücksichtsvoller als ～ましょう, das Zustimmung schon voraussetzt.",
+    "formation": "Verb-Stamm (ます-Form ohne ます) + ませんか",
+    "examples": [
+      {
+        "japanese": "週末、一緒に映画を見ませんか。",
+        "romaji": "Shūmatsu, issho ni eiga o mimasen ka.",
+        "german": "Wollen wir am Wochenende nicht zusammen einen Film schauen?",
+        "cloze": {
+          "start": 10,
+          "answer": "ませんか",
+          "quiz": {
+            "level": "N5",
+            "japanese": "週末、一緒に映画を見ませんか。",
+            "german": "Wollen wir am Wochenende nicht zusammen einen Film schauen?",
+            "start": 10,
+            "answer": "ませんか",
+            "acceptedAnswers": [
+              "ませんか",
+              "ましょうか"
+            ],
+            "distractors": [
+              {
+                "text": "ませんでした",
+                "reason": "ませんでした verneint die Vergangenheit ('haben nicht geschaut') und ist keine Einladung."
+              },
+              {
+                "text": "ましたか",
+                "reason": "ましたか fragt, ob man etwas getan hat, statt einzuladen."
+              },
+              {
+                "text": "ないでください",
+                "reason": "ないでください bittet darum, etwas nicht zu tun – das Gegenteil einer Einladung."
+              }
+            ],
+            "promptKana": "しゅうまつ、いっしょにえいがをみ＿＿＿。"
+          }
+        }
+      },
+      {
+        "japanese": "ちょっと休みませんか。",
+        "romaji": "Chotto yasumimasen ka.",
+        "german": "Wollen wir nicht eine kurze Pause machen?"
+      },
+      {
+        "japanese": "「今晩、食事に行きませんか。」「いいですね。行きましょう。」",
+        "romaji": "\"Konban, shokuji ni ikimasen ka.\" \"Ii desu ne. Ikimashō.\"",
+        "german": "„Wollen wir heute Abend nicht essen gehen?“ – „Gute Idee, gehen wir!“"
+      }
+    ],
+    "notes": "Typischer Ablauf: Einladung mit ～ませんか, Zusage mit いいですね、～ましょう. Abgelehnt wird indirekt: 土曜日はちょっと… (Samstag ist etwas …). Nicht mit ～たいですか einladen – das fragt direkt nach dem Wunsch und wirkt aufdringlich. Informell: 行かない？ mit steigender Intonation.",
+    "related": [
+      "mashou",
+      "mashou-ka",
+      "masen",
+      "n5-demo-suggestion"
+    ]
+  },
+  {
+    "id": "n5-question-word-ka-mo",
+    "pattern": "疑問詞 + か / 疑問詞 + も～ない",
+    "level": "N5",
+    "category": "Satzstrukturen",
+    "meaning": "Irgend- (何か, どこか) / nichts, niemand (何も～ない)",
+    "explanation": "Fragewörter bilden mit Partikeln neue Wörter: + か ergibt 'irgend-' (何か = irgendetwas, 誰か = irgendwer, どこか = irgendwo), + も mit Verneinung ergibt 'nichts, niemand, nirgends' (何も～ない, 誰も～ない). Diese Formen sind im Alltag sehr häufig.",
+    "formation": "何 / 誰 / どこ / いつ + か / 何 / 誰 + も + Verneinung / どこ + へ・に + も + Verneinung",
+    "examples": [
+      {
+        "japanese": "冷蔵庫の中に何もありません。",
+        "romaji": "Reizōko no naka ni nani mo arimasen.",
+        "german": "Im Kühlschrank ist nichts.",
+        "cloze": {
+          "start": 7,
+          "answer": "も",
+          "quiz": {
+            "level": "N5",
+            "japanese": "冷蔵庫の中に何もありません。",
+            "german": "Im Kühlschrank ist nichts.",
+            "start": 7,
+            "answer": "も",
+            "acceptedAnswers": [
+              "も"
+            ],
+            "distractors": [
+              {
+                "text": "か",
+                "reason": "何か heißt 'irgendetwas' und ergibt mit ありません keine Aussage 'nichts'."
+              },
+              {
+                "text": "が",
+                "reason": "何が ist eine Frage nach dem Subjekt; ohne か am Ende entsteht kein grammatischer Satz."
+              },
+              {
+                "text": "を",
+                "reason": "ある nimmt kein Objekt mit を."
+              }
+            ],
+            "promptKana": "れいぞうこのなかになに＿＿＿ありません。"
+          }
+        }
+      },
+      {
+        "japanese": "何か飲みたいです。",
+        "romaji": "Nanika nomitai desu.",
+        "german": "Ich möchte etwas trinken."
+      },
+      {
+        "japanese": "日曜日はどこへも行きませんでした。",
+        "romaji": "Nichiyōbi wa doko e mo ikimasen deshita.",
+        "german": "Am Sonntag bin ich nirgendwohin gegangen."
+      }
+    ],
+    "notes": "Auf 何か食べましたか antwortet man: いいえ、何も食べませんでした. Andere Partikeln stehen vor も: 誰とも話さなかった (mit niemandem gesprochen), どこにもない (nirgends). Achtung: いつも heißt 'immer', und どれも/どちらも mit positiver Form 'jedes/beide' – 'kein' entsteht nur mit Verneinung.",
+    "related": [
+      "ka",
+      "mo",
+      "n4-indirect-question"
+    ]
+  },
+  {
+    "id": "n4-nakute-wa-ikenai",
+    "pattern": "～なくてはいけない / ～なくてはならない",
+    "level": "N4",
+    "category": "Satzstrukturen",
+    "meaning": "Müssen (Pflicht, Notwendigkeit)",
+    "explanation": "～なくてはいけない und ～なくてはならない bedeuten 'müssen' – wörtlich 'wenn man es nicht tut, geht es nicht'. Sie sind gleichbedeutend mit ～なければならない, klingen aber etwas gesprochener. いけない passt eher zu persönlichen Pflichten, ならない zu allgemeinen Regeln.",
+    "formation": "Verb (ない-Form: ない → なくて) + は + いけない / ならない",
+    "examples": [
+      {
+        "japanese": "明日は早く起きなくてはいけません。",
+        "romaji": "Ashita wa hayaku okinakute wa ikemasen.",
+        "german": "Morgen muss ich früh aufstehen.",
+        "cloze": {
+          "start": 7,
+          "answer": "なくてはいけません",
+          "quiz": {
+            "level": "N4",
+            "japanese": "明日は早く起きなくてはいけません。",
+            "german": "Morgen muss ich früh aufstehen.",
+            "start": 7,
+            "answer": "なくてはいけません",
+            "acceptedAnswers": [
+              "なくてはいけません",
+              "なくてはなりません",
+              "なければなりません",
+              "なければいけません",
+              "ないといけません"
+            ],
+            "distractors": [
+              {
+                "text": "てはいけません",
+                "reason": "起きてはいけません ist ein Verbot ('darf nicht aufstehen'), keine Pflicht."
+              },
+              {
+                "text": "なくてもいいです",
+                "reason": "なくてもいい bedeutet 'muss nicht' – das Gegenteil der Aussage."
+              },
+              {
+                "text": "ないではいけません",
+                "reason": "Die Pflichtform baut auf なくて auf; ないでは ist hier ungrammatisch."
+              }
+            ],
+            "promptKana": "あしたははやくおき＿＿＿。"
+          }
+        }
+      },
+      {
+        "japanese": "この薬は毎日飲まなくてはならない。",
+        "romaji": "Kono kusuri wa mainichi nomanakute wa naranai.",
+        "german": "Dieses Medikament muss man jeden Tag nehmen."
+      },
+      {
+        "japanese": "もう帰らなくちゃ。",
+        "romaji": "Mō kaeranakucha.",
+        "german": "Ich muss jetzt nach Hause."
+      }
+    ],
+    "notes": "Gesprochene Kurzform: ～なくては → ～なくちゃ (いけない), oft ganz verkürzt: 行かなくちゃ! Gleichwertig ist ～なきゃ (von ～なければ). Die Bedeutung bleibt gleich, nur das Register ändert sich: なければならない (schriftlich, offiziell) > なくてはならない > なくてはいけない > ないといけない > なくちゃ/なきゃ (locker). Gegenteil: ～なくてもいい (muss nicht).",
+    "related": [
+      "nakereba-naranai",
+      "n4-nai-to-ikenai",
+      "nakutemo-ii"
+    ]
+  },
+  {
+    "id": "n4-nai-to-ikenai",
+    "pattern": "～ないといけない",
+    "level": "N4",
+    "category": "Satzstrukturen",
+    "meaning": "Müssen (gesprochen, sehr häufig)",
+    "explanation": "～ないといけない heißt 'müssen' und ist im gesprochenen Japanisch die häufigste Form davon. Wörtlich: 'Wenn man es nicht tut, geht es nicht.' Es drückt meist eine Notwendigkeit aus der konkreten Situation aus. Im Gespräch fällt いけない oft weg: もう行かないと。",
+    "formation": "Verb (ない-Form) + と + いけない / いけません",
+    "examples": [
+      {
+        "japanese": "レポートを金曜日までに出さないといけない。",
+        "romaji": "Repōto o kin'yōbi made ni dasanai to ikenai.",
+        "german": "Ich muss den Bericht bis Freitag abgeben.",
+        "cloze": {
+          "start": 13,
+          "answer": "ないといけない",
+          "quiz": {
+            "level": "N4",
+            "japanese": "レポートを金曜日までに出さないといけない。",
+            "german": "Ich muss den Bericht bis Freitag abgeben.",
+            "start": 13,
+            "answer": "ないといけない",
+            "acceptedAnswers": [
+              "ないといけない",
+              "ないといけません",
+              "ないとだめだ",
+              "なければならない",
+              "なければいけない",
+              "なくてはいけない",
+              "なくてはならない"
+            ],
+            "distractors": [
+              {
+                "text": "なくてもいい",
+                "reason": "なくてもいい bedeutet 'muss nicht' – das Gegenteil der Aussage."
+              },
+              {
+                "text": "ないでください",
+                "reason": "ないでください bittet jemanden, etwas nicht zu tun; es drückt keine eigene Pflicht aus."
+              },
+              {
+                "text": "ないはいけない",
+                "reason": "Zwischen ない und いけない gehört と; ないは ist ungrammatisch."
+              }
+            ],
+            "promptKana": "レポートをきんようびまでにださ＿＿＿。"
+          }
+        }
+      },
+      {
+        "japanese": "もう十時だ。そろそろ帰らないと。",
+        "romaji": "Mō jūji da. Sorosoro kaeranai to.",
+        "german": "Schon zehn Uhr. Ich muss langsam nach Hause."
+      },
+      {
+        "japanese": "日本では家に入る前に靴を脱がないといけません。",
+        "romaji": "Nihon de wa ie ni hairu mae ni kutsu o nuganai to ikemasen.",
+        "german": "In Japan muss man die Schuhe ausziehen, bevor man ein Haus betritt."
+      }
+    ],
+    "notes": "Statt いけない hört man auch だめ: 早く寝ないとだめだよ. Die Kurzform ～ないと ohne いけない wirkt wie ein halb ausgesprochener Gedanke – typisch, wenn man sich selbst ermahnt oder sich verabschiedet. In Vorschriften und offiziellen Texten steht eher ～なければならない.",
+    "related": [
+      "nakereba-naranai",
+      "n4-nakute-wa-ikenai",
+      "n4-to-conditional"
+    ]
+  },
+  {
+    "id": "n4-temo-kamawanai",
+    "pattern": "～ても構わない",
+    "level": "N4",
+    "category": "Satzstrukturen",
+    "meaning": "Es macht nichts, wenn …; ruhig …",
+    "explanation": "～ても構わない drückt Erlaubnis oder Gleichgültigkeit aus: 'Es macht nichts, wenn …'. Es entspricht ～てもいい, klingt aber etwas förmlicher und betont, dass der Sprecher kein Problem damit hat. Als Frage (～ても構いませんか) bittet man höflich um Erlaubnis.",
+    "formation": "Verb (て-Form) + も構わない / い-Adj (～くても) / な-Adj・Nomen (～でも) + 構わない",
+    "examples": [
+      {
+        "japanese": "この部屋の本は自由に読んでも構いません。",
+        "romaji": "Kono heya no hon wa jiyū ni yonde mo kamaimasen.",
+        "german": "Die Bücher in diesem Raum dürfen Sie gern frei lesen.",
+        "cloze": {
+          "start": 12,
+          "answer": "でも構いません",
+          "quiz": {
+            "level": "N4",
+            "japanese": "この部屋の本は自由に読んでも構いません。",
+            "german": "Die Bücher in diesem Raum dürfen Sie gern frei lesen.",
+            "start": 12,
+            "answer": "でも構いません",
+            "acceptedAnswers": [
+              "でも構いません",
+              "でもかまいません",
+              "でもいいです",
+              "でも大丈夫です"
+            ],
+            "distractors": [
+              {
+                "text": "ではいけません",
+                "reason": "ではいけません ist ein Verbot – das Gegenteil der Erlaubnis."
+              },
+              {
+                "text": "でも構います",
+                "reason": "構う wird in dieser Wendung nur verneint verwendet; bejaht ergibt es keinen Sinn."
+              },
+              {
+                "text": "だら構いません",
+                "reason": "Die Erlaubnisform lautet ～ても構わない; mit たら lässt sich 構わない nicht verbinden."
+              }
+            ],
+            "promptKana": "このへやのほんはじゆうによん＿＿＿。"
+          }
+        }
+      },
+      {
+        "japanese": "「窓を開けても構いませんか。」「ええ、どうぞ。」",
+        "romaji": "\"Mado o akete mo kamaimasen ka.\" \"Ee, dōzo.\"",
+        "german": "„Darf ich das Fenster öffnen?“ – „Ja, bitte.“"
+      },
+      {
+        "japanese": "安ければ、古くても構わない。",
+        "romaji": "Yasukereba, furukute mo kamawanai.",
+        "german": "Wenn es günstig ist, darf es ruhig alt sein."
+      }
+    ],
+    "notes": "構う bedeutet 'sich an etwas stören, sich kümmern' und wird fast nur verneint gebraucht: 構わない = 'stört nicht'. Höflichkeitsstufen bei der Bitte um Erlaubnis: ～てもいい？ (locker) < ～てもいいですか < ～ても構いませんか < ～てもよろしいでしょうか (sehr höflich). Als kurze Antwort: 構いませんよ = Kein Problem.",
+    "related": [
+      "temo-ii",
+      "temo",
+      "n4-tewa-ikenai"
+    ]
+  },
+  {
+    "id": "n4-kana-kashira",
+    "pattern": "～かな / ～かしら",
+    "level": "N4",
+    "category": "Partikel",
+    "meaning": "Ob … wohl? (laut gedachte Frage)",
+    "explanation": "かな und かしら stehen am Satzende und drücken ein laut gedachtes Fragen aus: 'Ob … wohl …?'. Man fragt eher sich selbst als den anderen, deshalb wirkt es weich und unaufdringlich. かな ist neutral, かしら klingt traditionell weiblich und ist heute seltener.",
+    "formation": "Verb / い-Adj (schlichte Form) + かな / な-Adj・Nomen (ohne だ) + かな; かしら ebenso",
+    "examples": [
+      {
+        "japanese": "明日は晴れるかな。",
+        "romaji": "Ashita wa hareru ka na.",
+        "german": "Ob es morgen wohl schön wird?",
+        "cloze": {
+          "start": 6,
+          "answer": "かな",
+          "quiz": {
+            "level": "N4",
+            "japanese": "明日は晴れるかな。",
+            "german": "Ob es morgen wohl schön wird?",
+            "start": 6,
+            "answer": "かな",
+            "acceptedAnswers": [
+              "かな",
+              "かしら",
+              "かなあ",
+              "だろうか",
+              "でしょうか"
+            ],
+            "distractors": [
+              {
+                "text": "だな",
+                "reason": "だ kann nicht direkt nach einem Verb wie 晴れる stehen."
+              },
+              {
+                "text": "なか",
+                "reason": "Die Reihenfolge ist vertauscht; die Endung lautet かな."
+              },
+              {
+                "text": "ですかな",
+                "reason": "です kann nicht direkt nach der Wörterbuchform eines Verbs stehen."
+              }
+            ],
+            "promptKana": "あしたははれる＿＿＿。"
+          }
+        }
+      },
+      {
+        "japanese": "この服、ちょっと派手かな。",
+        "romaji": "Kono fuku, chotto hade ka na.",
+        "german": "Ob diese Kleidung etwas zu auffällig ist?"
+      },
+      {
+        "japanese": "田中さん、もう着いたかしら。",
+        "romaji": "Tanaka-san, mō tsuita kashira.",
+        "german": "Ob Herr Tanaka wohl schon angekommen ist?"
+      }
+    ],
+    "notes": "Mit Verneinung wird かな zum indirekten Wunsch: 早く来ないかな = Wenn er doch bald käme! ～てくれないかな ist eine weiche Bitte. Nach Nomen und な-Adjektiven fällt だ weg (学生かな, nicht *学生だかな). Gegenüber Vorgesetzten besser ～でしょうか verwenden.",
+    "related": [
+      "ka",
+      "deshou",
+      "n4-daroo"
+    ]
+  },
+  {
+    "id": "n4-ga-suru",
+    "pattern": "～がする",
+    "level": "N4",
+    "category": "Verben",
+    "meaning": "Es riecht / klingt / schmeckt nach …",
+    "explanation": "Ein Nomen der Sinneswahrnehmung + がする beschreibt, was man unwillkürlich wahrnimmt: 音がする (ein Geräusch ist zu hören), においがする (es riecht), 味がする (es schmeckt nach). Die Wahrnehmung steht als Subjekt mit が, nicht die wahrnehmende Person.",
+    "formation": "音 / 声 / におい / 味 / 感じ + がする; Beschreibung davor: Nomen + の / Adjektiv + Wahrnehmungsnomen + がする",
+    "examples": [
+      {
+        "japanese": "キッチンからいいにおいがします。",
+        "romaji": "Kitchin kara ii nioi ga shimasu.",
+        "german": "Aus der Küche kommt ein guter Duft.",
+        "cloze": {
+          "start": 11,
+          "answer": "がします",
+          "quiz": {
+            "level": "N4",
+            "japanese": "キッチンからいいにおいがします。",
+            "german": "Aus der Küche kommt ein guter Duft.",
+            "start": 11,
+            "answer": "がします",
+            "acceptedAnswers": [
+              "がします",
+              "がする"
+            ],
+            "distractors": [
+              {
+                "text": "をします",
+                "reason": "Wahrnehmungen wie におい stehen bei する mit が, nicht mit を."
+              },
+              {
+                "text": "がいます",
+                "reason": "いる steht nur bei Lebewesen, nicht bei einem Geruch."
+              },
+              {
+                "text": "でします",
+                "reason": "で markiert Ort oder Mittel und ergibt mit します hier keinen Satz."
+              }
+            ],
+            "promptKana": "キッチンからいいにおい＿＿＿。"
+          }
+        }
+      },
+      {
+        "japanese": "隣の部屋から変な音がした。",
+        "romaji": "Tonari no heya kara hen na oto ga shita.",
+        "german": "Aus dem Nebenzimmer kam ein seltsames Geräusch."
+      },
+      {
+        "japanese": "このスープはしょうがの味がする。",
+        "romaji": "Kono sūpu wa shōga no aji ga suru.",
+        "german": "Diese Suppe schmeckt nach Ingwer."
+      }
+    ],
+    "notes": "Typische Nomen: 音, 声, におい (angenehm: 匂い, unangenehm: 臭い), 味, 香り, 感じ, 寒気 (Frösteln), 吐き気 (Übelkeit). Mit 気 entsteht ～気がする ('ich habe das Gefühl, dass …', N3). Vergleich: 音が聞こえる betont das Hören, 音がする, dass ein Geräusch da ist.",
+    "related": [
+      "n3-ki-ga-suru",
+      "ga"
+    ]
+  },
+  {
+    "id": "n4-toku",
+    "pattern": "～とく / ～どく",
+    "level": "N4",
+    "category": "Verben",
+    "meaning": "Umgangssprachliches ～ておく (schon mal erledigen)",
+    "explanation": "～とく ist die gesprochene Verkürzung von ～ておく: て + おく verschmilzt zu とく, で + おく zu どく. Die Bedeutung bleibt gleich – etwas im Voraus erledigen oder bewusst so lassen. Unter Freunden und in der Familie ist die Kurzform viel häufiger als die volle Form.",
+    "formation": "Verb (て-Form): ～ておく → ～とく / ～でおく → ～どく; konjugiert wie ein Godan-Verb: とく, といて, といた",
+    "examples": [
+      {
+        "japanese": "ビール、冷蔵庫に入れといたよ。",
+        "romaji": "Bīru, reizōko ni iretoita yo.",
+        "german": "Ich hab das Bier schon in den Kühlschrank gestellt.",
+        "cloze": {
+          "start": 10,
+          "answer": "といた",
+          "quiz": {
+            "level": "N4",
+            "japanese": "ビール、冷蔵庫に入れといたよ。",
+            "german": "Ich hab das Bier schon in den Kühlschrank gestellt.",
+            "start": 10,
+            "answer": "といた",
+            "acceptedAnswers": [
+              "といた",
+              "ておいた"
+            ],
+            "distractors": [
+              {
+                "text": "とった",
+                "reason": "Die Vergangenheit von ～とく lautet ～といた, nicht ～とった."
+              },
+              {
+                "text": "どいた",
+                "reason": "どく entsteht nur aus でおく (読んどく); 入れて hat て, also とく."
+              },
+              {
+                "text": "といだ",
+                "reason": "とく bildet die Vergangenheit wie 書く → 書いた, also といた."
+              }
+            ],
+            "promptKana": "ビール、れいぞうこにいれ＿＿＿よ。"
+          }
+        }
+      },
+      {
+        "japanese": "明日の会議の資料、コピーしとくね。",
+        "romaji": "Ashita no kaigi no shiryō, kopī shitoku ne.",
+        "german": "Ich kopier schon mal die Unterlagen für das Meeting morgen."
+      },
+      {
+        "japanese": "この本、今週中に読んどいて。",
+        "romaji": "Kono hon, konshū-chū ni yondoite.",
+        "german": "Lies das Buch bitte bis Ende der Woche."
+      }
+    ],
+    "notes": "Beispiele: 買っておく → 買っとく, 見ておいて → 見といて, 飲んでおく → 飲んどく. Nicht verwechseln mit 解く (とく, lösen) oder どく (Platz machen). Wie ～ちゃう (← てしまう) gehört ～とく zur lockeren Sprache; in E-Mails an Vorgesetzte oder in Aufsätzen bleibt man bei ～ておきます.",
+    "related": [
+      "n4-teoku",
+      "n4-te-shimau-casual"
+    ]
+  },
+  {
+    "id": "n4-cha-ikenai",
+    "pattern": "～ちゃいけない / ～じゃいけない",
+    "level": "N4",
+    "category": "Satzstrukturen",
+    "meaning": "Darf nicht (umgangssprachliches Verbot)",
+    "explanation": "～ちゃいけない ist die gesprochene Kurzform von ～てはいけない: ては wird zu ちゃ, では zu じゃ. Man hört es oft von Eltern, Lehrern oder unter Freunden. Noch lockerer ist ～ちゃだめ. Die Bedeutung bleibt ein klares Verbot.",
+    "formation": "Verb (て-Form): ～ては → ～ちゃ / ～では → ～じゃ + いけない / だめ",
+    "examples": [
+      {
+        "japanese": "ここで泳いじゃいけないよ。",
+        "romaji": "Koko de oyoija ikenai yo.",
+        "german": "Hier darfst du nicht schwimmen.",
+        "cloze": {
+          "start": 5,
+          "answer": "じゃいけない",
+          "quiz": {
+            "level": "N4",
+            "japanese": "ここで泳いじゃいけないよ。",
+            "german": "Hier darfst du nicht schwimmen.",
+            "start": 5,
+            "answer": "じゃいけない",
+            "acceptedAnswers": [
+              "じゃいけない",
+              "ではいけない",
+              "じゃだめ",
+              "じゃだめだ"
+            ],
+            "distractors": [
+              {
+                "text": "ちゃいけない",
+                "reason": "泳ぐ hat die て-Form 泳いで; aus では wird じゃ, nicht ちゃ."
+              },
+              {
+                "text": "じゃいい",
+                "reason": "Erlaubnis hieße ～でもいい; じゃいい ist keine Form."
+              },
+              {
+                "text": "じゃいかない",
+                "reason": "Das Verbot endet auf いけない, nicht auf いかない."
+              }
+            ],
+            "promptKana": "ここでおよい＿＿＿よ。"
+          }
+        }
+      },
+      {
+        "japanese": "まだ食べちゃいけません。",
+        "romaji": "Mada tabecha ikemasen.",
+        "german": "Du darfst noch nicht essen."
+      },
+      {
+        "japanese": "夜遅くまでゲームしちゃだめだよ。",
+        "romaji": "Yoru osoku made gēmu shicha dame da yo.",
+        "german": "Du darfst nicht bis spät in die Nacht spielen."
+      }
+    ],
+    "notes": "て → ちゃ (食べては → 食べちゃ), で → じゃ (飲んでは → 飲んじゃ). Nicht verwechseln mit ～ちゃう/～じゃう (← てしまう): 食べちゃった = hab's aufgegessen, 食べちゃいけない = darf nicht essen. Mit ～なくちゃ (← なくては) entsteht dagegen 'müssen': 食べなくちゃ.",
+    "related": [
+      "n4-tewa-ikenai",
+      "tewa-ikemasen",
+      "n4-te-shimau-casual"
+    ]
+  },
+  {
+    "id": "n4-te-yokatta",
+    "pattern": "～てよかった",
+    "level": "N4",
+    "category": "Satzstrukturen",
+    "meaning": "Gut, dass …; ich bin froh, dass …",
+    "explanation": "～てよかった drückt Erleichterung oder Freude über etwas Geschehenes aus: 'Gut, dass …'. Es blickt auf eine Handlung oder Situation zurück, die gut ausgegangen ist. Das Gegenteil – Bedauern über etwas, das man nicht getan hat – drückt ～ばよかった aus.",
+    "formation": "Verb (て-Form) + よかった / い-Adj (～くて) / な-Adj・Nomen (～で) + よかった; verneint: ～なくてよかった",
+    "examples": [
+      {
+        "japanese": "日本に来てよかったです。",
+        "romaji": "Nihon ni kite yokatta desu.",
+        "german": "Ich bin froh, dass ich nach Japan gekommen bin.",
+        "cloze": {
+          "start": 4,
+          "answer": "てよかった",
+          "quiz": {
+            "level": "N4",
+            "japanese": "日本に来てよかったです。",
+            "german": "Ich bin froh, dass ich nach Japan gekommen bin.",
+            "start": 4,
+            "answer": "てよかった",
+            "acceptedAnswers": [
+              "てよかった"
+            ],
+            "distractors": [
+              {
+                "text": "たよかった",
+                "reason": "よかった verbindet sich mit der て-Form, nicht mit der た-Form."
+              },
+              {
+                "text": "てよいかった",
+                "reason": "Die Vergangenheit von いい/よい lautet よかった."
+              },
+              {
+                "text": "てがよかった",
+                "reason": "Zwischen て-Form und よかった steht keine Partikel が."
+              }
+            ],
+            "promptKana": "にほんにき＿＿＿です。"
+          }
+        }
+      },
+      {
+        "japanese": "間に合ってよかった！",
+        "romaji": "Ma ni atte yokatta!",
+        "german": "Zum Glück habe ich es noch rechtzeitig geschafft!"
+      },
+      {
+        "japanese": "大きなけがじゃなくてよかったですね。",
+        "romaji": "Ōki na kega ja nakute yokatta desu ne.",
+        "german": "Wie gut, dass es keine schlimme Verletzung war."
+      }
+    ],
+    "notes": "Kontrast: 行ってよかった (ich bin gegangen – zum Glück) vs. 行けばよかった (ich bin nicht gegangen – schade). Oft als Anteilnahme: 無事でよかったですね (Wie schön, dass alles gut gegangen ist). Mit Verneinung: 雨が降らなくてよかった (gut, dass es nicht geregnet hat).",
+    "related": [
+      "n4-ba-yokatta",
+      "te-form"
+    ]
+  },
+  {
+    "id": "n4-you-to-omou",
+    "pattern": "～(よ)うと思う",
+    "level": "N4",
+    "category": "Verben",
+    "meaning": "Ich habe vor zu …; ich denke daran zu …",
+    "explanation": "Volitionalform + と思う drückt eine eigene Absicht aus: 'Ich habe vor, …'. ～ようと思います klingt nach einem Entschluss im Moment des Sprechens, ～ようと思っています nach einem Plan, den man schon länger hat. Es ist weicher und persönlicher als ～つもりだ.",
+    "formation": "Verb (Volitionalform: ～よう / ～おう) + と思う / と思っている",
+    "examples": [
+      {
+        "japanese": "夏休みに北海道へ行こうと思っています。",
+        "romaji": "Natsuyasumi ni Hokkaidō e ikō to omotte imasu.",
+        "german": "In den Sommerferien habe ich vor, nach Hokkaidō zu fahren.",
+        "cloze": {
+          "start": 9,
+          "answer": "こうと思っています",
+          "quiz": {
+            "level": "N4",
+            "japanese": "夏休みに北海道へ行こうと思っています。",
+            "german": "In den Sommerferien habe ich vor, nach Hokkaidō zu fahren.",
+            "start": 9,
+            "answer": "こうと思っています",
+            "acceptedAnswers": [
+              "こうと思っています",
+              "こうと思います",
+              "こうと思う",
+              "くつもりです"
+            ],
+            "distractors": [
+              {
+                "text": "こうに思っています",
+                "reason": "Der Inhalt eines Gedankens wird mit と angeschlossen, nicht mit に."
+              },
+              {
+                "text": "かろうと思っています",
+                "reason": "Die Volitionalform von 行く lautet 行こう; ～かろう gehört zu い-Adjektiven."
+              },
+              {
+                "text": "こうと思ってあります",
+                "reason": "思う bildet den Dauerzustand mit ている, nicht mit てある."
+              }
+            ],
+            "promptKana": "なつやすみにほっかいどうへい＿＿＿。"
+          }
+        }
+      },
+      {
+        "japanese": "今年こそたばこをやめようと思う。",
+        "romaji": "Kotoshi koso tabako o yameyō to omou.",
+        "german": "Dieses Jahr will ich endlich mit dem Rauchen aufhören."
+      },
+      {
+        "japanese": "電話しようと思ったら、ちょうど友達から電話が来た。",
+        "romaji": "Denwa shiyō to omottara, chōdo tomodachi kara denwa ga kita.",
+        "german": "Gerade als ich anrufen wollte, rief mich ein Freund an."
+      }
+    ],
+    "notes": "Nur für die eigene Absicht. Über Dritte: 彼は留学しようと思っているらしい. ～つもりだ klingt fester und geplanter, ～ようと思う eher wie ein Gedanke oder frischer Entschluss. ～ようと思ったら heißt oft 'gerade als ich … wollte'. Verwandt: ～ようとする (versuchen, im Begriff sein).",
+    "related": [
+      "n4-volitional",
+      "tsumori",
+      "n4-you-to-suru"
+    ]
+  },
+  {
+    "id": "n4-shika-nai-option",
+    "pattern": "～しかない (einzige Möglichkeit)",
+    "level": "N4",
+    "category": "Satzstrukturen",
+    "meaning": "Es bleibt nichts anderes übrig, als …",
+    "explanation": "Verb in der Wörterbuchform + しかない bedeutet, dass nur noch eine Möglichkeit bleibt: 'da hilft nur …'. Es klingt nach Resignation oder nach Entschlossenheit. Anders als Nomen + しか～ない (nur X) steht hier eine ganze Handlung vor しか.",
+    "formation": "Verb (Wörterbuchform) + しかない / しかありません",
+    "examples": [
+      {
+        "japanese": "終電がもうないから、タクシーで帰るしかない。",
+        "romaji": "Shūden ga mō nai kara, takushī de kaeru shika nai.",
+        "german": "Die letzte Bahn ist weg, also bleibt mir nur, mit dem Taxi heimzufahren.",
+        "cloze": {
+          "start": 17,
+          "answer": "しかない",
+          "quiz": {
+            "level": "N4",
+            "japanese": "終電がもうないから、タクシーで帰るしかない。",
+            "german": "Die letzte Bahn ist weg, also bleibt mir nur, mit dem Taxi heimzufahren.",
+            "start": 17,
+            "answer": "しかない",
+            "acceptedAnswers": [
+              "しかない",
+              "しかありません",
+              "ほかない",
+              "よりほかない"
+            ],
+            "distractors": [
+              {
+                "text": "だけない",
+                "reason": "だけ verbindet sich nicht mit ない zu 'nichts anderes übrig'."
+              },
+              {
+                "text": "しかある",
+                "reason": "しか verlangt immer eine verneinte Form."
+              },
+              {
+                "text": "しかしない",
+                "reason": "Nach der Wörterbuchform steht しかない; しかしない ist hier ungrammatisch."
+              }
+            ],
+            "promptKana": "しゅうでんがもうないから、タクシーでかえる＿＿＿。"
+          }
+        }
+      },
+      {
+        "japanese": "誰も手伝ってくれないなら、一人でやるしかありません。",
+        "romaji": "Dare mo tetsudatte kurenai nara, hitori de yaru shika arimasen.",
+        "german": "Wenn mir niemand hilft, muss ich es eben allein machen."
+      },
+      {
+        "japanese": "ここまで来たら、もう頑張るしかないね。",
+        "romaji": "Koko made kitara, mō ganbaru shika nai ne.",
+        "german": "Jetzt, wo wir so weit sind, bleibt nur noch durchzuhalten."
+      }
+    ],
+    "notes": "Vergleich: Nomen + しか～ない (百円しかない = nur 100 Yen) vs. Verb + しかない (待つしかない = man kann nur warten). Schriftsprachlicher: ～ほかない / ～よりほかない (N3), noch stärker ～ざるを得ない. Positiv-entschlossen: やるしかない! = Jetzt heißt es anpacken!",
+    "related": [
+      "shika-nai",
+      "n3-hoka-nai",
+      "n3-zaruwoenai"
+    ]
+  },
+  {
+    "id": "n4-indirect-question",
+    "pattern": "～か (indirekte Frage)",
+    "level": "N4",
+    "category": "Satzstrukturen",
+    "meaning": "Eingebettete Frage (was / wann / wo …)",
+    "explanation": "Eine Frage mit Fragewort lässt sich in einen größeren Satz einbetten: schlichte Form + か + 知っている / わかる / 教えてください. Das entspricht deutschen Nebensätzen mit 'was', 'wann' oder 'wo'. Für Fragen ohne Fragewort benutzt man ～かどうか.",
+    "formation": "Fragewort … Verb / い-Adj (schlichte Form) + か / … Nomen・な-Adj (ohne だ) + か",
+    "examples": [
+      {
+        "japanese": "会議が何時に始まるか知っていますか。",
+        "romaji": "Kaigi ga nanji ni hajimaru ka shitte imasu ka.",
+        "german": "Wissen Sie, um wie viel Uhr die Besprechung beginnt?",
+        "cloze": {
+          "start": 9,
+          "answer": "か",
+          "quiz": {
+            "level": "N4",
+            "japanese": "会議が何時に始まるか知っていますか。",
+            "german": "Wissen Sie, um wie viel Uhr die Besprechung beginnt?",
+            "start": 9,
+            "answer": "か",
+            "acceptedAnswers": [
+              "か"
+            ],
+            "distractors": [
+              {
+                "text": "かどうか",
+                "reason": "かどうか steht nur bei Fragen ohne Fragewort; hier gibt es schon 何時."
+              },
+              {
+                "text": "と",
+                "reason": "と zitiert Aussagen; eine Frage mit Fragewort braucht か."
+              },
+              {
+                "text": "を",
+                "reason": "Ein Verb in schlichter Form kann nicht direkt を nehmen."
+              }
+            ],
+            "promptKana": "かいぎがなんじにはじまる＿＿＿しっていますか。"
+          }
+        }
+      },
+      {
+        "japanese": "どこで切符を買えばいいか教えてください。",
+        "romaji": "Doko de kippu o kaeba ii ka oshiete kudasai.",
+        "german": "Sagen Sie mir bitte, wo ich eine Fahrkarte kaufen kann."
+      },
+      {
+        "japanese": "誰が来るか、まだわかりません。",
+        "romaji": "Dare ga kuru ka, mada wakarimasen.",
+        "german": "Wer kommt, weiß ich noch nicht."
+      }
+    ],
+    "notes": "Vor か fällt だ weg: 何が好きか (nicht *好きだか), 誰の傘か. Eine Partikel nach か (を/が) wird meist weggelassen. Der eingebettete Teil bleibt auch in höflicher Rede schlicht: nicht *何時に始まりますか知っていますか. Ohne Fragewort: 来るかどうかわからない.",
+    "related": [
+      "n4-ka-dou-ka",
+      "ka",
+      "n5-question-word-ka-mo"
+    ]
+  },
+  {
+    "id": "n3-tsuide-ni",
+    "pattern": "～ついでに",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Bei der Gelegenheit; wenn man schon mal …",
+    "explanation": "～ついでに bedeutet, dass man eine Gelegenheit nutzt, um nebenbei noch etwas zu erledigen: 'wenn ich schon mal … bin, dann auch …'. Die erste Handlung ist der eigentliche Zweck, die zweite eine praktische Zugabe. Sehr häufig bei Besorgungen und Reisen.",
+    "formation": "Verb (Wörterbuchform / た-Form) + ついでに / Nomen + の + ついでに",
+    "examples": [
+      {
+        "japanese": "駅に行くついでに、この手紙を出してくれない？",
+        "romaji": "Eki ni iku tsuide ni, kono tegami o dashite kurenai?",
+        "german": "Kannst du diesen Brief einwerfen, wenn du sowieso zum Bahnhof gehst?",
+        "cloze": {
+          "start": 4,
+          "answer": "ついでに",
+          "quiz": {
+            "level": "N3",
+            "japanese": "駅に行くついでに、この手紙を出してくれない？",
+            "german": "Kannst du diesen Brief einwerfen, wenn du sowieso zum Bahnhof gehst?",
+            "start": 4,
+            "answer": "ついでに",
+            "acceptedAnswers": [
+              "ついでに"
+            ],
+            "distractors": [
+              {
+                "text": "ながら",
+                "reason": "ながら verlangt den Verbstamm (行きながら) und drückt Gleichzeitigkeit aus."
+              },
+              {
+                "text": "とたんに",
+                "reason": "とたんに folgt der た-Form und bedeutet 'genau in dem Moment, als'."
+              },
+              {
+                "text": "しだい",
+                "reason": "次第 folgt dem Verbstamm (行き次第) und bedeutet 'sobald'."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "買い物のついでに、郵便局にも寄った。",
+        "romaji": "Kaimono no tsuide ni, yūbinkyoku ni mo yotta.",
+        "german": "Beim Einkaufen bin ich bei der Gelegenheit auch noch zur Post gegangen."
+      },
+      {
+        "japanese": "大阪へ出張したついでに、京都の友達に会ってきた。",
+        "romaji": "Ōsaka e shutchō shita tsuide ni, Kyōto no tomodachi ni atte kita.",
+        "german": "Als ich schon mal geschäftlich in Osaka war, habe ich auch einen Freund in Kyōto besucht."
+      }
+    ],
+    "notes": "Beide Handlungen sind beabsichtigt, aber die zweite ist Nebensache. ～ながら verbindet dagegen zwei gleichzeitige Tätigkeiten ohne Haupt- und Nebenzweck. ～がてら (N1) ist schriftlicher und steht meist nach Bewegungen wie 散歩. Als Nomen: ついでがあったら… (falls es sich ergibt).",
+    "related": [
+      "nagara",
+      "n1-gatera"
+    ]
+  },
+  {
+    "id": "n3-nante-nanka",
+    "pattern": "～なんて / ～なんか",
+    "level": "N3",
+    "category": "Partikel",
+    "meaning": "So etwas wie …; (abwertend, bescheiden, überrascht)",
+    "explanation": "なんて und なんか heben ein Wort hervor und geben ihm eine Gefühlsfärbung: Geringschätzung (宿題なんか), Bescheidenheit (私なんか) oder Überraschung (～なんて！). なんか ist die lockere Form von など; nur なんて kann einen ganzen Satz aufgreifen und kommentieren.",
+    "formation": "Nomen + なんか / なんて; Satz (schlichte Form) + なんて; なんて + Nomen = 'so ein …'",
+    "examples": [
+      {
+        "japanese": "私なんかには、そんな難しい仕事はできません。",
+        "romaji": "Watashi nanka ni wa, sonna muzukashii shigoto wa dekimasen.",
+        "german": "Jemand wie ich schafft so eine schwierige Arbeit nicht.",
+        "cloze": {
+          "start": 1,
+          "answer": "なんか",
+          "quiz": {
+            "level": "N3",
+            "japanese": "私なんかには、そんな難しい仕事はできません。",
+            "german": "Jemand wie ich schafft so eine schwierige Arbeit nicht.",
+            "start": 1,
+            "answer": "なんか",
+            "acceptedAnswers": [
+              "なんか",
+              "など"
+            ],
+            "distractors": [
+              {
+                "text": "こそ",
+                "reason": "こそ kann nicht vor には stehen und würde 'gerade ich' betonen."
+              },
+              {
+                "text": "さえ",
+                "reason": "Die Reihenfolge wäre 私にさえ; 私さえには ist ungrammatisch."
+              },
+              {
+                "text": "しか",
+                "reason": "しか muss hinter der Partikel stehen (私にしか) und bedeutet 'nur ich'."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "彼が会社を辞めるなんて、信じられない。",
+        "romaji": "Kare ga kaisha o yameru nante, shinjirarenai.",
+        "german": "Dass er die Firma verlässt – unglaublich!"
+      },
+      {
+        "japanese": "宿題なんか、もうやりたくない！",
+        "romaji": "Shukudai nanka, mō yaritakunai!",
+        "german": "Auf Hausaufgaben hab ich echt keine Lust mehr!"
+      }
+    ],
+    "notes": "Drei Gebrauchsweisen: (1) abwertend: 野菜なんか嫌い, (2) bescheiden: 私なんかまだまだです, (3) überrascht oder empört über einen Sachverhalt: ～なんて！ Neutral kann なんか auch Beispiele nennen (≈ など): お茶なんかどう？ Über andere Personen gesagt wirkt die abwertende Färbung schnell unhöflich.",
+    "related": [
+      "n4-nado",
+      "n4-toka"
+    ]
+  },
+  {
+    "id": "n3-tatte-datte",
+    "pattern": "～たって / ～だって",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Auch wenn, selbst wenn (umgangssprachlich)",
+    "explanation": "～たって ist die umgangssprachliche Form von ～ても: 'auch wenn, selbst wenn'. Es wird aus der た-Form gebildet (走ったって, 高くたって), nach Nomen und な-Adjektiven heißt es ～だって. Typisch für lebhafte Gespräche, oft mit Frust oder Trotz.",
+    "formation": "Verb (た-Form) + って / い-Adj: ～くたって / な-Adj・Nomen + だって",
+    "examples": [
+      {
+        "japanese": "今から走ったって、もう間に合わないよ。",
+        "romaji": "Ima kara hashittatte, mō ma ni awanai yo.",
+        "german": "Selbst wenn du jetzt losrennst, schaffst du es nicht mehr.",
+        "cloze": {
+          "start": 5,
+          "answer": "たって",
+          "quiz": {
+            "level": "N3",
+            "japanese": "今から走ったって、もう間に合わないよ。",
+            "german": "Selbst wenn du jetzt losrennst, schaffst du es nicht mehr.",
+            "start": 5,
+            "answer": "たって",
+            "acceptedAnswers": [
+              "たって",
+              "ても"
+            ],
+            "distractors": [
+              {
+                "text": "だって",
+                "reason": "だって steht nach Nomen und な-Adjektiven; das Verb braucht die た-Form + って."
+              },
+              {
+                "text": "たっても",
+                "reason": "たって enthält die Bedeutung von ても bereits; たっても ist doppelt und falsch."
+              },
+              {
+                "text": "たでも",
+                "reason": "でも kann nicht an die た-Form angehängt werden."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "いくら高くたって、欲しいものは買う。",
+        "romaji": "Ikura takakutatte, hoshii mono wa kau.",
+        "german": "Egal wie teuer – was ich haben will, kaufe ich."
+      },
+      {
+        "japanese": "いくら静かだって、駅から遠い部屋は嫌だ。",
+        "romaji": "Ikura shizuka datte, eki kara tōi heya wa iya da.",
+        "german": "Auch wenn es noch so ruhig ist – eine Wohnung weit weg vom Bahnhof will ich nicht."
+      }
+    ],
+    "notes": "Entspricht ～ても (N4), klingt aber deutlich lockerer – in Aufsätzen und höflicher Sprache vermeiden. Oft mit いくら / どんなに (egal wie sehr) oder 何度 (egal wie oft). Nomen + だって kann außerdem 'auch, sogar' bedeuten (私だって行きたい = Ich will auch hin!), und だって am Satzanfang heißt trotzig 'aber, weil doch'.",
+    "related": [
+      "temo",
+      "n3-to-shitemo",
+      "n3-tatoe-temo"
+    ]
+  },
+  {
+    "id": "n3-to-suru-to",
+    "pattern": "～とすれば / ～とすると",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Angenommen, dass …; wenn das stimmt, dann …",
+    "explanation": "～とすると und ～とすれば stellen eine Annahme auf und ziehen daraus eine Schlussfolgerung: 'Wenn man davon ausgeht, dass …, dann …'. Der Folgesatz ist meist eine Einschätzung oder Vermutung, keine Handlung.",
+    "formation": "Verb / い-Adj (schlichte Form) + とすると・とすれば / Nomen・な-Adj + だ + とすると・とすれば",
+    "examples": [
+      {
+        "japanese": "彼の話が本当だとすると、大変なことになる。",
+        "romaji": "Kare no hanashi ga hontō da to suru to, taihen na koto ni naru.",
+        "german": "Wenn das, was er sagt, stimmt, wird es ernst.",
+        "cloze": {
+          "start": 7,
+          "answer": "とすると",
+          "quiz": {
+            "level": "N3",
+            "japanese": "彼の話が本当だとすると、大変なことになる。",
+            "german": "Wenn das, was er sagt, stimmt, wird es ernst.",
+            "start": 7,
+            "answer": "とすると",
+            "acceptedAnswers": [
+              "とすると",
+              "とすれば",
+              "としたら"
+            ],
+            "distractors": [
+              {
+                "text": "とは",
+                "reason": "とは drückt Überraschung oder eine Definition aus und leitet keine Folgerung ein."
+              },
+              {
+                "text": "ところで",
+                "reason": "ところで folgt der た-Form (～たところで) und bedeutet 'selbst wenn … bringt es nichts'."
+              },
+              {
+                "text": "にしては",
+                "reason": "にしては steht nicht nach だ und bedeutet 'dafür, dass'."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "毎日三時間勉強するとすれば、一か月で九十時間になる。",
+        "romaji": "Mainichi san-jikan benkyō suru to sureba, ikkagetsu de kyūjū-jikan ni naru.",
+        "german": "Wenn man jeden Tag drei Stunden lernt, sind das in einem Monat neunzig Stunden."
+      },
+      {
+        "japanese": "「山田さんは来週から休みだそうですよ。」「とすると、この仕事は誰がやるんですか。」",
+        "romaji": "\"Yamada-san wa raishū kara yasumi da sō desu yo.\" \"To suru to, kono shigoto wa dare ga yaru n desu ka.\"",
+        "german": "„Herr Yamada hat wohl ab nächster Woche Urlaub.“ – „Wer macht dann diese Arbeit?“"
+      }
+    ],
+    "notes": "Fast gleichbedeutend mit ～としたら (N2), das etwas hypothetischer klingt. ～としても heißt dagegen 'selbst wenn' (Gegensatz). Am Satzanfang als Konjunktion: とすると / とすれば = 'dann also …'. Für einfache Alltagsbedingungen mit einer Handlung danach ist ～なら natürlicher: 雨なら、傘を持っていこう.",
+    "related": [
+      "n2-to-shitara",
+      "n3-to-shitemo",
+      "n4-nara"
+    ]
+  },
+  {
+    "id": "n3-ni-yori-ni-yoru",
+    "pattern": "～により / ～による",
+    "level": "N3",
+    "category": "Partikel",
+    "meaning": "Durch, aufgrund von (schriftlich); je nach",
+    "explanation": "～により ist die schriftsprachliche Form von ～によって und steht in Nachrichten und Durchsagen, vor allem bei Ursachen: 大雪により (aufgrund starken Schneefalls). ～による steht vor einem Nomen: 台風による被害. Die Bedeutungen entsprechen によって.",
+    "formation": "Nomen + により + Satz / Nomen + による + Nomen",
+    "examples": [
+      {
+        "japanese": "大雪により、電車が止まっています。",
+        "romaji": "Ōyuki ni yori, densha ga tomatte imasu.",
+        "german": "Aufgrund starken Schneefalls stehen die Züge still.",
+        "cloze": {
+          "start": 2,
+          "answer": "により",
+          "quiz": {
+            "level": "N3",
+            "japanese": "大雪により、電車が止まっています。",
+            "german": "Aufgrund starken Schneefalls stehen die Züge still.",
+            "start": 2,
+            "answer": "により",
+            "acceptedAnswers": [
+              "により",
+              "によって",
+              "で",
+              "のため"
+            ],
+            "distractors": [
+              {
+                "text": "による",
+                "reason": "による muss vor einem Nomen stehen; vor einem Satz braucht es により oder によって."
+              },
+              {
+                "text": "によると",
+                "reason": "によると nennt eine Informationsquelle ('laut'), keine Ursache."
+              },
+              {
+                "text": "に対して",
+                "reason": "に対して bedeutet 'gegenüber' und nennt keinen Grund für den Stillstand."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "台風による被害は予想より大きかった。",
+        "romaji": "Taifū ni yoru higai wa yosō yori ōkikatta.",
+        "german": "Die Schäden durch den Taifun waren größer als erwartet."
+      },
+      {
+        "japanese": "ルールは国により異なる。",
+        "romaji": "Rūru wa kuni ni yori kotonaru.",
+        "german": "Die Regeln unterscheiden sich je nach Land."
+      }
+    ],
+    "notes": "Register: で (gesprochen: 事故で遅れた) – によって (neutral) – により (schriftlich, Durchsagen). Vor einem Nomen immer による: 専門家による説明. Nicht verwechseln mit ～によると (laut, gemäß einer Quelle). Typische Bahnsteigdurchsage: 人身事故により、運転を見合わせております.",
+    "related": [
+      "n4-ni-yotte",
+      "n4-ni-yoru-to"
+    ]
+  },
+  {
+    "id": "n3-tate",
+    "pattern": "～たて",
+    "level": "N3",
+    "category": "Verben",
+    "meaning": "Frisch …, gerade erst … (焼きたて)",
+    "explanation": "Verbstamm + たて beschreibt etwas, das gerade eben hergestellt oder getan wurde und deshalb noch frisch ist: 焼きたてのパン (frisch gebackenes Brot). Es ist nur mit typischen Verben üblich, vor allem bei Essen, und klingt positiv.",
+    "formation": "Verbstamm (ます-Form ohne ます) + たて + の + Nomen / + たてだ",
+    "examples": [
+      {
+        "japanese": "焼きたてのパンはとてもおいしい。",
+        "romaji": "Yakitate no pan wa totemo oishii.",
+        "german": "Frisch gebackenes Brot ist sehr lecker.",
+        "cloze": {
+          "start": 2,
+          "answer": "たて",
+          "quiz": {
+            "level": "N3",
+            "japanese": "焼きたてのパンはとてもおいしい。",
+            "german": "Frisch gebackenes Brot ist sehr lecker.",
+            "start": 2,
+            "answer": "たて",
+            "acceptedAnswers": [
+              "たて"
+            ],
+            "distractors": [
+              {
+                "text": "ばかり",
+                "reason": "ばかり braucht die た-Form (焼いたばかり), nicht den Verbstamm."
+              },
+              {
+                "text": "ぶり",
+                "reason": "～ぶり bezeichnet die Art und Weise oder einen Zeitabstand, nicht die Frische."
+              },
+              {
+                "text": "がち",
+                "reason": "～がち bedeutet 'neigt zu' und passt nicht zu Brot."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "入社したての頃は、毎日緊張していた。",
+        "romaji": "Nyūsha shitate no koro wa, mainichi kinchō shite ita.",
+        "german": "Als ich gerade neu in der Firma war, war ich jeden Tag nervös."
+      },
+      {
+        "japanese": "「ペンキ塗りたて」と書いてあるから、触らないで。",
+        "romaji": "\"Penki nuritate\" to kaite aru kara, sawaranaide.",
+        "german": "Da steht „Frisch gestrichen“ – also nicht anfassen."
+      }
+    ],
+    "notes": "Typische Wörter: 焼きたて, 揚げたて, 炊きたて (Reis), できたて, 取れたて (frisch geerntet), 生まれたて, 入社したて. ～たばかり (N4) ist das allgemeine 'gerade eben getan' und mit jedem Verb möglich; たて betont die Frische des Ergebnisses. Gegenstück: ～かけ (halb fertig, angefangen).",
+    "related": [
+      "n4-tabakari",
+      "n4-kakeru"
+    ]
+  },
+  {
+    "id": "n3-to-iu-yori",
+    "pattern": "～というより",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Eher als …; nicht so sehr … als vielmehr …",
+    "explanation": "～というより korrigiert oder präzisiert eine Beschreibung: 'Das ist nicht so sehr A, sondern eher B.' Man räumt ein, dass A nicht ganz falsch ist, hält B aber für treffender. Im zweiten Teil steht oft むしろ (vielmehr).",
+    "formation": "Nomen / な-Adj (ohne だ) / Verb・い-Adj (schlichte Form) + というより (むしろ) + B",
+    "examples": [
+      {
+        "japanese": "今日は暖かいというより、暑いくらいだ。",
+        "romaji": "Kyō wa atatakai to iu yori, atsui kurai da.",
+        "german": "Heute ist es nicht so sehr warm – eher schon heiß.",
+        "cloze": {
+          "start": 6,
+          "answer": "というより",
+          "quiz": {
+            "level": "N3",
+            "japanese": "今日は暖かいというより、暑いくらいだ。",
+            "german": "Heute ist es nicht so sehr warm – eher schon heiß.",
+            "start": 6,
+            "answer": "というより",
+            "acceptedAnswers": [
+              "というより",
+              "と言うより",
+              "というよりは"
+            ],
+            "distractors": [
+              {
+                "text": "によって",
+                "reason": "によって kann nicht direkt nach einem い-Adjektiv stehen."
+              },
+              {
+                "text": "にとって",
+                "reason": "にとって folgt einem Nomen und bedeutet 'für jemanden'."
+              },
+              {
+                "text": "としては",
+                "reason": "としては folgt einem Nomen ('als …') und nicht einem Adjektiv."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "彼は友達というより、家族のような存在だ。",
+        "romaji": "Kare wa tomodachi to iu yori, kazoku no yō na sonzai da.",
+        "german": "Er ist weniger ein Freund als eher so etwas wie Familie."
+      },
+      {
+        "japanese": "この本は勉強になるというより、読んでいて楽しい。",
+        "romaji": "Kono hon wa benkyō ni naru to iu yori, yonde ite tanoshii.",
+        "german": "Dieses Buch ist weniger lehrreich als einfach schön zu lesen."
+      }
+    ],
+    "notes": "Häufig verstärkt: AというよりむしろB. Unterschied zu ～より (AはBより高い): Dort werden zwei Dinge verglichen, bei というより zwei Beschreibungen desselben Dings. Nicht verwechseln mit ～どころか (weit gefehlt, eher das Gegenteil). Im Gespräch auch am Satzanfang: というより… = 'Oder besser gesagt …'.",
+    "related": [
+      "yori",
+      "n3-dokoro-ka"
+    ]
+  },
+  {
+    "id": "n3-to-ieba",
+    "pattern": "～といえば / ～というと",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Wenn man an … denkt; apropos …",
+    "explanation": "～といえば und ～というと greifen ein Thema auf und nennen, was einem dazu als Erstes einfällt: 'Wenn man an … denkt, dann …'. Im Gespräch leitet といえば auch einen Themenwechsel ein ('Apropos …'). というと kann zusätzlich nachfragen: 'Sie meinen …?'",
+    "formation": "Nomen + といえば / というと (/ といったら)",
+    "examples": [
+      {
+        "japanese": "日本の冬といえば、やっぱり温泉ですね。",
+        "romaji": "Nihon no fuyu to ieba, yappari onsen desu ne.",
+        "german": "Wenn man an den japanischen Winter denkt, dann natürlich an heiße Quellen.",
+        "cloze": {
+          "start": 4,
+          "answer": "といえば",
+          "quiz": {
+            "level": "N3",
+            "japanese": "日本の冬といえば、やっぱり温泉ですね。",
+            "german": "Wenn man an den japanischen Winter denkt, dann natürlich an heiße Quellen.",
+            "start": 4,
+            "answer": "といえば",
+            "acceptedAnswers": [
+              "といえば",
+              "というと",
+              "といったら",
+              "と言えば"
+            ],
+            "distractors": [
+              {
+                "text": "によって",
+                "reason": "によって bedeutet 'je nach' oder 'durch'; hier wird aber ein typisches Beispiel genannt."
+              },
+              {
+                "text": "にしては",
+                "reason": "にしては drückt Überraschung über eine Abweichung aus und widerspricht やっぱり."
+              },
+              {
+                "text": "というのに",
+                "reason": "というのに bedeutet 'obwohl' und braucht einen ganzen Satz davor."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "「来週、京都に行くんだ。」「京都というと、お寺がたくさんある所だね。」",
+        "romaji": "\"Raishū, Kyōto ni iku n da.\" \"Kyōto to iu to, otera ga takusan aru tokoro da ne.\"",
+        "german": "„Nächste Woche fahre ich nach Kyōto.“ – „Kyōto, das ist doch die Stadt mit den vielen Tempeln.“"
+      },
+      {
+        "japanese": "旅行といえば、夏休みはどこか行くの？",
+        "romaji": "Ryokō to ieba, natsuyasumi wa dokoka iku no?",
+        "german": "Apropos Reisen – fährst du in den Sommerferien irgendwohin?"
+      }
+    ],
+    "notes": "といえば = spontane Assoziation oder 'apropos' beim Themenwechsel. というと zusätzlich als Rückfrage: 「というと？」 = 'Das heißt?'. Die Variante といったら betont oft ein starkes Gefühl. Nicht verwechseln mit ～といっても (auch wenn man sagt …, N2) oder ～というのは (Definition).",
+    "related": [
+      "n4-toiu",
+      "n2-to-itte-mo",
+      "n3-to-iu-no-wa"
+    ]
+  },
+  {
+    "id": "n3-to-itta",
+    "pattern": "～といった",
+    "level": "N3",
+    "category": "Partikel",
+    "meaning": "Wie etwa, solche wie (Beispiele vor einem Nomen)",
+    "explanation": "AやBといったC nennt Beispiele für eine Gruppe: 'C wie etwa A und B'. Die Aufzählung ist nicht vollständig, sondern zeigt typische Vertreter. Es klingt etwas gehobener als など und steht gern in Beschreibungen, Nachrichten und Präsentationen.",
+    "formation": "Nomen (や / とか / 、) Nomen + といった + Nomen",
+    "examples": [
+      {
+        "japanese": "この店では、すしや天ぷらといった日本料理が食べられる。",
+        "romaji": "Kono mise de wa, sushi ya tenpura to itta Nihon ryōri ga taberareru.",
+        "german": "In diesem Restaurant kann man japanische Gerichte wie Sushi und Tempura essen.",
+        "cloze": {
+          "start": 12,
+          "answer": "といった",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この店では、すしや天ぷらといった日本料理が食べられる。",
+            "german": "In diesem Restaurant kann man japanische Gerichte wie Sushi und Tempura essen.",
+            "start": 12,
+            "answer": "といった",
+            "acceptedAnswers": [
+              "といった",
+              "などの",
+              "のような",
+              "みたいな"
+            ],
+            "distractors": [
+              {
+                "text": "といって",
+                "reason": "といって ist eine Verbform und kann kein Nomen wie 日本料理 bestimmen."
+              },
+              {
+                "text": "といっても",
+                "reason": "といっても bedeutet 'auch wenn man sagt' und braucht einen Folgesatz, kein Nomen."
+              },
+              {
+                "text": "にとって",
+                "reason": "にとって bedeutet 'für jemanden' und ergibt hier keinen Sinn."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "サッカーや野球といったスポーツが好きです。",
+        "romaji": "Sakkā ya yakyū to itta supōtsu ga suki desu.",
+        "german": "Ich mag Sportarten wie Fußball und Baseball."
+      },
+      {
+        "japanese": "英語、中国語、韓国語といった言語を話せるスタッフがいます。",
+        "romaji": "Eigo, Chūgokugo, Kankokugo to itta gengo o hanaseru sutaffu ga imasu.",
+        "german": "Wir haben Personal, das Sprachen wie Englisch, Chinesisch und Koreanisch spricht."
+      }
+    ],
+    "notes": "Unterschied zu など: など kann allein stehen (本などを買った), といった braucht immer ein Nomen danach, das die Gruppe benennt. Nicht verwechseln mit ～という (namens: 田中という人) oder der Vergangenheit 言った (sagte). Umgangssprachlich: AとかBみたいなC.",
+    "related": [
+      "n4-nado",
+      "n4-toiu",
+      "n4-toka"
+    ]
+  },
+  {
+    "id": "n3-masu-you-ni",
+    "pattern": "～ますように",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Möge …; hoffentlich … (Wunsch, Gebet)",
+    "explanation": "～ますように drückt einen Wunsch oder ein Gebet aus, dessen Erfüllung nicht in der eigenen Hand liegt: 'Möge …'. Typisch am Schrein, auf Tanabata-Wunschzetteln und in Glückwünschen. Die ます-Form bleibt auch im Selbstgespräch erhalten.",
+    "formation": "Verb (ます-Form) + ように / verneint: ～ませんように",
+    "examples": [
+      {
+        "japanese": "試験に合格できますように。",
+        "romaji": "Shiken ni gōkaku dekimasu yō ni.",
+        "german": "Möge ich die Prüfung bestehen!",
+        "cloze": {
+          "start": 7,
+          "answer": "ますように",
+          "quiz": {
+            "level": "N3",
+            "japanese": "試験に合格できますように。",
+            "german": "Möge ich die Prüfung bestehen!",
+            "start": 7,
+            "answer": "ますように",
+            "acceptedAnswers": [
+              "ますように"
+            ],
+            "distractors": [
+              {
+                "text": "ませんように",
+                "reason": "ませんように wünscht das Gegenteil: dass man die Prüfung nicht besteht."
+              },
+              {
+                "text": "たいように",
+                "reason": "たい lässt sich nicht mit ように zu einem Wunsch verbinden."
+              },
+              {
+                "text": "ますようだ",
+                "reason": "ようだ (anscheinend) steht nach der schlichten Form, nicht nach ます."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "明日は雨が降りませんように。",
+        "romaji": "Ashita wa ame ga furimasen yō ni.",
+        "german": "Hoffentlich regnet es morgen nicht!"
+      },
+      {
+        "japanese": "新しい一年が皆さんにとって良い年になりますように。",
+        "romaji": "Atarashii ichinen ga minasan ni totte yoi toshi ni narimasu yō ni.",
+        "german": "Möge das neue Jahr für Sie alle ein gutes Jahr werden."
+      }
+    ],
+    "notes": "Nicht für Dinge, die man selbst steuert: *毎日勉強しますように – dafür ～ようにする oder ～つもりだ. Häufig in Karten: 早く良くなりますように (Gute Besserung). Verwandt: ～ように (Zweck, N4) und ～ように言う (jemanden bitten, N3).",
+    "related": [
+      "n4-you-ni-purpose",
+      "n3-you-ni-to"
+    ]
+  },
+  {
+    "id": "n3-ki-ga-suru",
+    "pattern": "～気がする",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Ich habe das Gefühl, dass …",
+    "explanation": "～気がする drückt eine vage, gefühlsmäßige Einschätzung aus: 'Ich habe das Gefühl, dass …' oder 'Irgendwie kommt es mir vor, als …'. Es ist unsicherer und persönlicher als ～と思う und eignet sich, um eine Meinung vorsichtig zu äußern. Mit Nomen: ～ような気がする.",
+    "formation": "Verb / い-Adj (schlichte Form) + 気がする / な-Adj + な + 気がする / Nomen + の + ような気がする",
+    "examples": [
+      {
+        "japanese": "この人、どこかで会ったことがある気がする。",
+        "romaji": "Kono hito, dokoka de atta koto ga aru ki ga suru.",
+        "german": "Ich habe das Gefühl, dieser Person schon irgendwo begegnet zu sein.",
+        "cloze": {
+          "start": 16,
+          "answer": "気がする",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この人、どこかで会ったことがある気がする。",
+            "german": "Ich habe das Gefühl, dieser Person schon irgendwo begegnet zu sein.",
+            "start": 16,
+            "answer": "気がする",
+            "acceptedAnswers": [
+              "気がする",
+              "ような気がする",
+              "気がします"
+            ],
+            "distractors": [
+              {
+                "text": "気にする",
+                "reason": "気にする bedeutet 'sich Sorgen machen' und kann keinen Satz als Inhalt anschließen."
+              },
+              {
+                "text": "気がある",
+                "reason": "気がある bedeutet 'Interesse haben' und passt nicht zu einer Vermutung."
+              },
+              {
+                "text": "気をする",
+                "reason": "Gefühle stehen bei する mit が, nicht mit を."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "最近、時間がたつのが早い気がします。",
+        "romaji": "Saikin, jikan ga tatsu no ga hayai ki ga shimasu.",
+        "german": "In letzter Zeit habe ich das Gefühl, dass die Zeit schnell vergeht."
+      },
+      {
+        "japanese": "今日は何でもできそうな気がする。",
+        "romaji": "Kyō wa nan demo dekisō na ki ga suru.",
+        "german": "Heute habe ich das Gefühl, alles schaffen zu können."
+      }
+    ],
+    "notes": "Beschreibt das eigene Empfinden; über andere: ～気がするらしい. Nicht verwechseln mit 気にする (sich Gedanken machen), 気になる (einem nicht aus dem Kopf gehen) und ～気がない (keine Lust haben). Gegenüber ～と思う ist 気がする intuitiver und weniger begründet.",
+    "related": [
+      "n4-ga-suru",
+      "to-omoimasu",
+      "n4-you-da"
+    ]
+  },
+  {
+    "id": "n3-sei-ka",
+    "pattern": "～せいか",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Vielleicht weil …; womöglich wegen …",
+    "explanation": "～せいか nennt einen vermuteten Grund, meist für etwas Unangenehmes: 'vielleicht weil …'. Der Sprecher ist nicht sicher, ob der Grund wirklich zutrifft. Im Unterschied zu ～せいで, das klar eine Ursache oder Schuld benennt, bleibt ～せいか vorsichtig.",
+    "formation": "Verb / い-Adj (schlichte Form) + せいか / な-Adj + な + せいか / Nomen + の + せいか",
+    "examples": [
+      {
+        "japanese": "寝不足のせいか、今日は頭が痛い。",
+        "romaji": "Nebusoku no sei ka, kyō wa atama ga itai.",
+        "german": "Vielleicht wegen Schlafmangels habe ich heute Kopfschmerzen.",
+        "cloze": {
+          "start": 4,
+          "answer": "せいか",
+          "quiz": {
+            "level": "N3",
+            "japanese": "寝不足のせいか、今日は頭が痛い。",
+            "german": "Vielleicht wegen Schlafmangels habe ich heute Kopfschmerzen.",
+            "start": 4,
+            "answer": "せいか",
+            "acceptedAnswers": [
+              "せいか",
+              "ためか"
+            ],
+            "distractors": [
+              {
+                "text": "せいに",
+                "reason": "せいに gehört zu せいにする (die Schuld geben) und leitet keinen Grund ein."
+              },
+              {
+                "text": "くせに",
+                "reason": "くせに bedeutet vorwurfsvoll 'obwohl' und passt nicht zu einem Grund."
+              },
+              {
+                "text": "ついでに",
+                "reason": "ついでに bedeutet 'bei der Gelegenheit' und nennt keine Ursache."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "年のせいか、最近疲れやすくなった。",
+        "romaji": "Toshi no sei ka, saikin tsukareyasuku natta.",
+        "german": "Vielleicht liegt es am Alter – in letzter Zeit werde ich schnell müde."
+      },
+      {
+        "japanese": "気のせいか、彼女は今日元気がないように見える。",
+        "romaji": "Ki no sei ka, kanojo wa kyō genki ga nai yō ni mieru.",
+        "german": "Vielleicht bilde ich es mir nur ein, aber sie wirkt heute niedergeschlagen."
+      }
+    ],
+    "notes": "Feste Wendung: 気のせい (Einbildung), 気のせいか = 'vielleicht bilde ich mir das nur ein'. Gelegentlich auch bei neutralen oder positiven Folgen (薬を飲んだせいか、よく眠れた), dann ohne Schuldton. Vergleich: ～せいで (sichere Ursache, negativ), ～おかげで (sichere Ursache, positiv), ～せいか / ～ためか / ～からか (vermutete Ursache).",
+    "related": [
+      "n4-sei-de",
+      "n4-okage-de"
+    ]
+  },
+  {
+    "id": "n3-ni-kagiru",
+    "pattern": "～に限る",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Nichts geht über …; … ist am besten",
+    "explanation": "～に限る drückt die persönliche Überzeugung aus, dass etwas die beste Wahl ist: 'Bei … geht nichts über …'. Oft steht davor eine Situation (暑い日は…). Es ist eine subjektive Empfehlung aus Erfahrung, keine objektive Tatsache.",
+    "formation": "Nomen + に限る / Verb (Wörterbuchform / ない-Form) + に限る",
+    "examples": [
+      {
+        "japanese": "暑い日は冷たいビールに限る。",
+        "romaji": "Atsui hi wa tsumetai bīru ni kagiru.",
+        "german": "An heißen Tagen geht nichts über ein kaltes Bier.",
+        "cloze": {
+          "start": 10,
+          "answer": "に限る",
+          "quiz": {
+            "level": "N3",
+            "japanese": "暑い日は冷たいビールに限る。",
+            "german": "An heißen Tagen geht nichts über ein kaltes Bier.",
+            "start": 10,
+            "answer": "に限る",
+            "acceptedAnswers": [
+              "に限る",
+              "が一番だ",
+              "が一番"
+            ],
+            "distractors": [
+              {
+                "text": "に限って",
+                "reason": "に限って ('ausgerechnet') kann nicht am Satzende stehen."
+              },
+              {
+                "text": "に限らず",
+                "reason": "に限らず ('nicht nur') verlangt einen Folgesatz."
+              },
+              {
+                "text": "にすぎない",
+                "reason": "にすぎない ('nur, bloß') macht Bier klein, statt es zu empfehlen."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "風邪をひいたときは、早く寝るに限る。",
+        "romaji": "Kaze o hiita toki wa, hayaku neru ni kagiru.",
+        "german": "Wenn man erkältet ist, ist früh schlafen gehen das Beste."
+      },
+      {
+        "japanese": "面倒なことには関わらないに限る。",
+        "romaji": "Mendō na koto ni wa kakawaranai ni kagiru.",
+        "german": "Aus lästigen Angelegenheiten hält man sich am besten heraus."
+      }
+    ],
+    "notes": "Ähnlich aussehende Formen haben andere Bedeutungen: ～に限って (ausgerechnet, N2), ～に限らず (nicht nur, N2), ～に限り (nur für: 先着百名に限り). ～に限る ist immer eine persönliche Empfehlung am Satzende. Sachlicher: ～のが一番だ.",
+    "related": [
+      "n2-ni-kagitte",
+      "n2-ni-kagirazu",
+      "ichiban"
+    ]
+  },
+  {
+    "id": "n3-ba-hodo",
+    "pattern": "～ば～ほど",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Je mehr …, desto …",
+    "explanation": "～ば～ほど verbindet zwei Veränderungen: 'Je mehr A, desto mehr B'. Dasselbe Wort steht zweimal – zuerst in der ば-Form, dann in der Wörterbuchform vor ほど. Der zweite Satzteil beschreibt, was sich im gleichen Maß verändert.",
+    "formation": "Verb (ば-Form) + Verb (Wörterbuchform) + ほど / い-Adj: ～ければ + ～い + ほど / な-Adj: ～なら + ～な + ほど",
+    "examples": [
+      {
+        "japanese": "練習すればするほど上手になります。",
+        "romaji": "Renshū sureba suru hodo jōzu ni narimasu.",
+        "german": "Je mehr man übt, desto besser wird man.",
+        "cloze": {
+          "start": 2,
+          "answer": "すればするほど",
+          "quiz": {
+            "level": "N3",
+            "japanese": "練習すればするほど上手になります。",
+            "german": "Je mehr man übt, desto besser wird man.",
+            "start": 2,
+            "answer": "すればするほど",
+            "acceptedAnswers": [
+              "すればするほど",
+              "するほど",
+              "すればするだけ"
+            ],
+            "distractors": [
+              {
+                "text": "したらするほど",
+                "reason": "Die Konstruktion verlangt die ば-Form, nicht たら."
+              },
+              {
+                "text": "すればしたほど",
+                "reason": "Vor ほど steht die Wörterbuchform, nicht die た-Form."
+              },
+              {
+                "text": "すればするまで",
+                "reason": "まで ('bis') ergibt kein 'je mehr … desto'."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "駅に近ければ近いほど、家賃は高くなる。",
+        "romaji": "Eki ni chikakereba chikai hodo, yachin wa takaku naru.",
+        "german": "Je näher am Bahnhof, desto höher die Miete."
+      },
+      {
+        "japanese": "説明は簡単なら簡単なほどいい。",
+        "romaji": "Setsumei wa kantan nara kantan na hodo ii.",
+        "german": "Je einfacher eine Erklärung ist, desto besser."
+      }
+    ],
+    "notes": "Der ば-Teil darf wegfallen: 練習するほど上手になる. Bei な-Adjektiven: ～なら～なほど (formell ～であればあるほど). Typische Fehler: das zweite Verb in der た-Form oder たら statt ば. ～ほど allein (N4) kann auch ein Ausmaß ausdrücken: 泣きたいほど (so sehr, dass …).",
+    "related": [
+      "n4-hodo-p",
+      "n4-ba",
+      "n4-adj-ba"
+    ]
+  },
+  {
+    "id": "n3-tara-ii-ba-ii",
+    "pattern": "～たらいい / ～ばいい",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Man sollte am besten …; was soll ich tun?",
+    "explanation": "～たらいい und ～ばいい geben einen Rat: 'Am besten …' oder 'Du musst nur …'. In Fragen wie どうしたらいいですか / どうすればいいですか bittet man um Rat. ばいい betont oft, dass eine einfache Lösung genügt; たらいい klingt etwas gesprochener.",
+    "formation": "Verb (たら-Form) + いい / Verb (ば-Form) + いい; Frage: Fragewort + ～たら / ～ば + いいですか",
+    "examples": [
+      {
+        "japanese": "駅までどうやって行けばいいですか。",
+        "romaji": "Eki made dō yatte ikeba ii desu ka.",
+        "german": "Wie komme ich am besten zum Bahnhof?",
+        "cloze": {
+          "start": 10,
+          "answer": "ばいい",
+          "quiz": {
+            "level": "N3",
+            "japanese": "駅までどうやって行けばいいですか。",
+            "german": "Wie komme ich am besten zum Bahnhof?",
+            "start": 10,
+            "answer": "ばいい",
+            "acceptedAnswers": [
+              "ばいい"
+            ],
+            "distractors": [
+              {
+                "text": "ばいいのに",
+                "reason": "ばいいのに drückt Bedauern oder Vorwurf aus und kann nicht mit ですか stehen."
+              },
+              {
+                "text": "たいい",
+                "reason": "Zwischen 行け und いい fehlt die ば-Form; たいい ist keine Form."
+              },
+              {
+                "text": "るいい",
+                "reason": "行けるいい ist ungrammatisch; ein Rat braucht ～ばいい."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "わからないことがあったら、先生に聞いたらいいよ。",
+        "romaji": "Wakaranai koto ga attara, sensei ni kiitara ii yo.",
+        "german": "Wenn du etwas nicht verstehst, frag einfach den Lehrer."
+      },
+      {
+        "japanese": "財布をなくしてしまった。どうしたらいいんだろう。",
+        "romaji": "Saifu o nakushite shimatta. Dō shitara ii n darō.",
+        "german": "Ich habe mein Portemonnaie verloren. Was soll ich bloß tun?"
+      }
+    ],
+    "notes": "Rat geben: ～たらいい / ～ばいい (neutral), ～といい (freundliche Empfehlung), ～たほうがいい (deutlicher Rat, oft mit Warnung). ～ばいい kann auch abweisend klingen: 嫌ならやめればいい (Wenn's dir nicht passt, lass es halt). Mit のに wird daraus Bedauern oder Vorwurf: ～ばいいのに (N3).",
+    "related": [
+      "n4-ta-hou-ga-ii",
+      "n4-tara-dou",
+      "n3-ba-ii-noni"
+    ]
+  },
+  {
+    "id": "n3-tatoe-temo",
+    "pattern": "たとえ～ても",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Selbst wenn, auch wenn (betont)",
+    "explanation": "たとえ kündigt früh im Satz an, dass ein Zugeständnis mit ～ても folgt: 'Selbst wenn …, (ändert sich nichts)'. Es klingt entschlossen oder feierlich und steht oft bei hypothetischen oder extremen Fällen. Die eigentliche Grammatik trägt dabei ～ても / ～でも.",
+    "formation": "たとえ + Verb (て-Form) + も / い-Adj (～くても) / な-Adj・Nomen + でも (oder だとしても)",
+    "examples": [
+      {
+        "japanese": "たとえ反対されても、私はこの仕事を続けます。",
+        "romaji": "Tatoe hantai sarete mo, watashi wa kono shigoto o tsuzukemasu.",
+        "german": "Selbst wenn man dagegen ist, mache ich mit dieser Arbeit weiter.",
+        "cloze": {
+          "start": 0,
+          "answer": "たとえ",
+          "quiz": {
+            "level": "N3",
+            "japanese": "たとえ反対されても、私はこの仕事を続けます。",
+            "german": "Selbst wenn man dagegen ist, mache ich mit dieser Arbeit weiter.",
+            "start": 0,
+            "answer": "たとえ",
+            "acceptedAnswers": [
+              "たとえ",
+              "いくら",
+              "どんなに",
+              "たとい"
+            ],
+            "distractors": [
+              {
+                "text": "たぶん",
+                "reason": "たぶん ('wahrscheinlich') passt nicht zu einem Zugeständnis mit ても."
+              },
+              {
+                "text": "ぜひ",
+                "reason": "ぜひ steht bei Wünschen und Bitten, nicht bei 'selbst wenn'."
+              },
+              {
+                "text": "まるで",
+                "reason": "まるで ('als ob') verlangt ～ようだ oder ～みたい."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "たとえ雨でも、試合は行われます。",
+        "romaji": "Tatoe ame demo, shiai wa okonawaremasu.",
+        "german": "Selbst bei Regen findet das Spiel statt."
+      },
+      {
+        "japanese": "たとえ冗談だとしても、そんなことを言ってはいけない。",
+        "romaji": "Tatoe jōdan da to shite mo, sonna koto o itte wa ikenai.",
+        "german": "Auch wenn es nur ein Scherz ist – so etwas darf man nicht sagen."
+      }
+    ],
+    "notes": "たとえ allein ändert die Grammatik nicht – entscheidend ist ～ても / ～でも / ～としても am Ende des Nebensatzes. もし passt eher zu ～たら / ～ば (wenn), たとえ ist das typische Signalwort für ～ても (selbst wenn). Umgangssprachlich: たとえ～たって. Gehoben: たとえ～であろうと.",
+    "related": [
+      "temo",
+      "n3-to-shitemo",
+      "n3-tatte-datte"
+    ]
+  },
+  {
+    "id": "n3-no-dewa-nai-ka",
+    "pattern": "～のではないか / ～んじゃないか",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Ist es nicht so, dass …? (vorsichtige Vermutung)",
+    "explanation": "～のではないか drückt eine vorsichtige Vermutung oder Meinung aus: 'Könnte es nicht sein, dass …?' Obwohl die Form verneint aussieht, bejaht sie die Aussage. Oft folgt と思う oder と心配する. Im Gespräch: ～んじゃないか / ～んじゃない？",
+    "formation": "Verb / い-Adj (schlichte Form) + のではないか / Nomen・な-Adj + な + のではないか; gesprochen: ～んじゃないか",
+    "examples": [
+      {
+        "japanese": "この計画は少し無理なのではないでしょうか。",
+        "romaji": "Kono keikaku wa sukoshi muri na no de wa nai deshō ka.",
+        "german": "Ist dieser Plan nicht etwas unrealistisch?",
+        "cloze": {
+          "start": 10,
+          "answer": "のではないでしょうか",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この計画は少し無理なのではないでしょうか。",
+            "german": "Ist dieser Plan nicht etwas unrealistisch?",
+            "start": 10,
+            "answer": "のではないでしょうか",
+            "acceptedAnswers": [
+              "のではないでしょうか",
+              "のではないか",
+              "んじゃないでしょうか",
+              "のではありませんか"
+            ],
+            "distractors": [
+              {
+                "text": "のではありません",
+                "reason": "Ohne か wird die Aussage echt verneint ('es ist nicht so, dass') statt vermutet."
+              },
+              {
+                "text": "ではないでしょうか",
+                "reason": "Nach 無理な fehlt の; な kann nicht direkt vor では stehen."
+              },
+              {
+                "text": "のはないでしょうか",
+                "reason": "Die Form verlangt では; のは ergibt keine Vermutung."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "彼女はもう帰ったんじゃないかな。",
+        "romaji": "Kanojo wa mō kaetta n ja nai ka na.",
+        "german": "Ich glaube, sie ist schon nach Hause gegangen."
+      },
+      {
+        "japanese": "明日の試合は中止になるのではないかと心配している。",
+        "romaji": "Ashita no shiai wa chūshi ni naru no de wa nai ka to shinpai shite iru.",
+        "german": "Ich mache mir Sorgen, dass das Spiel morgen abgesagt wird."
+      }
+    ],
+    "notes": "Unterschied: ～のではないか (Vermutung, bejahend) vs. ～のではない (echte Verneinung: 'es ist nicht so, dass …'). ～のではないでしょうか ist eine beliebte, höfliche Art, in Diskussionen die eigene Meinung zu äußern, ohne zu direkt zu wirken. Umgangssprachlich mit steigender Intonation: ～んじゃない？",
+    "related": [
+      "n-desu",
+      "deshou",
+      "n3-wake-dewa-nai"
+    ]
+  },
+  {
+    "id": "n3-to-iu-no-wa",
+    "pattern": "～というのは",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "… bedeutet …; was man … nennt, ist …",
+    "explanation": "～というのは greift ein Wort oder eine Aussage als Thema auf, um es zu erklären oder zu definieren: 'X – das bedeutet …'. Danach folgt oft ～のことだ oder ～という意味だ. Am Satzanfang leitet というのは außerdem eine Begründung ein: 'Der Grund ist nämlich …'.",
+    "formation": "Nomen / Satz (schlichte Form) + というのは + Erklärung (～のことだ / ～という意味だ / ～からだ)",
+    "examples": [
+      {
+        "japanese": "「積ん読」というのは、買った本を読まずに積んでおくことです。",
+        "romaji": "\"Tsundoku\" to iu no wa, katta hon o yomazu ni tsunde oku koto desu.",
+        "german": "„Tsundoku“ bedeutet, gekaufte Bücher ungelesen zu stapeln.",
+        "cloze": {
+          "start": 5,
+          "answer": "というのは",
+          "quiz": {
+            "level": "N3",
+            "japanese": "「積ん読」というのは、買った本を読まずに積んでおくことです。",
+            "german": "„Tsundoku“ bedeutet, gekaufte Bücher ungelesen zu stapeln.",
+            "start": 5,
+            "answer": "というのは",
+            "acceptedAnswers": [
+              "というのは",
+              "とは",
+              "って",
+              "と言うのは"
+            ],
+            "distractors": [
+              {
+                "text": "によって",
+                "reason": "によって ('durch, je nach') leitet keine Definition ein."
+              },
+              {
+                "text": "というのに",
+                "reason": "というのに bedeutet 'obwohl' und ergibt hier keine Erklärung."
+              },
+              {
+                "text": "にとって",
+                "reason": "にとって ('für jemanden') passt nicht zu einer Begriffserklärung."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "「就活」というのは、就職活動の略です。",
+        "romaji": "\"Shūkatsu\" to iu no wa, shūshoku katsudō no ryaku desu.",
+        "german": "„Shūkatsu“ ist die Abkürzung für Stellensuche."
+      },
+      {
+        "japanese": "明日は休みます。というのは、母が入院したからです。",
+        "romaji": "Ashita wa yasumimasu. To iu no wa, haha ga nyūin shita kara desu.",
+        "german": "Morgen fehle ich. Der Grund ist nämlich, dass meine Mutter ins Krankenhaus gekommen ist."
+      }
+    ],
+    "notes": "Bei Definitionen ähnlich wie ～とは (schriftlich) und ～って (gesprochen). Als Konjunktion am Satzanfang: というのは… ～からだ (nämlich, denn). Nicht verwechseln mit ～というと (Assoziation) oder ～ということだ (das heißt / angeblich).",
+    "related": [
+      "n4-toiu",
+      "n4-tte",
+      "n1-towa",
+      "n3-to-ieba"
+    ]
+  },
+  {
+    "id": "n3-kesshite-nai",
+    "pattern": "決して～ない",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "Niemals, keinesfalls",
+    "explanation": "決して verstärkt eine Verneinung zu 'niemals, auf keinen Fall'. Es wirkt ernst und nachdrücklich und steht oft in Versprechen, Warnungen und Beteuerungen. Im Alltag klingt es eher schriftlich oder feierlich; locker sagt man 絶対(に)～ない.",
+    "formation": "決して + Verb (ない / ません) / Adj (～くない / ～ではない) / ～てはいけない",
+    "examples": [
+      {
+        "japanese": "このことは決して誰にも言いません。",
+        "romaji": "Kono koto wa kesshite dare ni mo iimasen.",
+        "german": "Ich werde das niemals jemandem erzählen.",
+        "cloze": {
+          "start": 5,
+          "answer": "決して",
+          "quiz": {
+            "level": "N3",
+            "japanese": "このことは決して誰にも言いません。",
+            "german": "Ich werde das niemals jemandem erzählen.",
+            "start": 5,
+            "answer": "決して",
+            "acceptedAnswers": [
+              "決して",
+              "けっして",
+              "絶対に",
+              "絶対"
+            ],
+            "distractors": [
+              {
+                "text": "必ず",
+                "reason": "必ず ('bestimmt') steht bei positiven Aussagen, nicht vor einer Verneinung."
+              },
+              {
+                "text": "ぜひ",
+                "reason": "ぜひ steht bei Wünschen und Bitten und passt nicht zu einem Versprechen des Schweigens."
+              },
+              {
+                "text": "まるで",
+                "reason": "まるで ('als ob') verlangt einen Vergleich mit ～ようだ."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "この川は危ないので、決して泳いではいけません。",
+        "romaji": "Kono kawa wa abunai node, kesshite oyoide wa ikemasen.",
+        "german": "Dieser Fluss ist gefährlich – schwimmt auf keinen Fall darin!"
+      },
+      {
+        "japanese": "日本語は決して簡単ではないが、とても楽しい。",
+        "romaji": "Nihongo wa kesshite kantan de wa nai ga, totemo tanoshii.",
+        "german": "Japanisch ist keineswegs einfach, aber es macht viel Spaß."
+      }
+    ],
+    "notes": "決して steht nur mit Verneinung oder Verbot – *決して行きます ist falsch. 絶対(に) funktioniert dagegen in beide Richtungen (絶対行く / 絶対行かない). Abstufung der Verstärker: 全然～ない (gar nicht, locker), 少しも / ちっとも～ない (kein bisschen), 決して～ない (niemals, ernst).",
+    "related": [
+      "n5-zenzen-nai",
+      "n5-amari-nai"
     ]
   }
 ];
