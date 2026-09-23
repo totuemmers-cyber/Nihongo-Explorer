@@ -97,7 +97,7 @@ npm run check
 ```
 
 The last command runs every read-only lint, test and audit listed in
-`scripts/check.cjs` (`node scripts/run-conjugation-checks.cjs` is an alias).
+`scripts/check.cjs`.
 On 2026-09-05 it ran all 13 package scripts configured at that time. Full baseline coverage, metadata drift, source order/IDs,
 independently authored regular and lexical fixtures, unavailable forms, accepted
 variants, four choices, answer keys, N5 rules, explanation fallback and DOM

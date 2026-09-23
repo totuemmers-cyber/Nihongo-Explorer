@@ -20,7 +20,7 @@ Policy: `risk-based-v2`. The completion gate remains open until all required ent
 | Accepted entries with investigated unknown pitch | 6 | 0 |
 | Packet creation to completed import | 505.210 s | 1020.007 s |
 
-Wave 2 revisited the one unresolved entry from wave 1; the two waves therefore accepted 149 distinct entries. Wave 2 performed one additional independent check beyond its 29 required checks. Six initial evidence proposals were rejected before import and revised with whole-form pitch evidence. The saved initial rejection artifact and correction note document the review, including correction of an independent reviewer's initial misreading.
+Wave 2 revisited the one unresolved entry from wave 1; the two waves therefore accepted 149 distinct entries. Wave 2 performed one additional independent check beyond its 29 required checks. Six initial evidence proposals were rejected before import and revised with whole-form pitch evidence. The initial rejection artifact and correction note documented the review, including correction of an independent reviewer's initial misreading; they were working files and were removed on 23 September 2026.
 
 Wave 1 packet creation: `2026-09-22T16:14:25.427Z`; completed import journal: `2026-09-22T16:22:50.637Z`. Wave 2 packet creation: `2026-09-22T16:23:16.501Z`; completed import journal: `2026-09-22T16:40:16.508Z`. Import timestamps are journal filesystem timestamps captured during rollout, not independently timestamped external records.
 

@@ -65,8 +65,9 @@ Imported batches: [020a](020a-quality-sweep.json), [020b](020b-quality-sweep.jso
 [020c](020c-quality-sweep.json), [020d](020d-quality-sweep.json). Two transactions
 were needed because the unchanged importer accepts at most three batch files per
 transaction; both belong to this one fixed sweep. Complete proposed runtime
-validation preceded each write. Journals and independent decisions are retained
-under quality-sweep/.
+validation preceded each write. The import journals, worker files and independent
+decision files were working files and were removed on 23 September 2026; the sealed
+batches carry the approvals, and every file linked in this report remains.
 
 ## Deferred work
 
@@ -105,6 +106,10 @@ expected**, while the bounded-sweep check passed. See [verification logs](qualit
 Recheck this completed sweep with:
 
 `npm run review:vocabulary-triage -- verify --file=scripts/vocabulary-completion/quality-sweep/triage.json`
+
+It verifies against the runtime frozen on 22 September, so it fails once later
+batches (021 onward) have changed the vocabulary. The individual log files listed
+in `verification.json` were removed with the other working files.
 
 The same command's prepare subcommand creates a fixed artifact and refuses to
 overwrite it. It never accepts reviews or imports content. The exhaustive queue

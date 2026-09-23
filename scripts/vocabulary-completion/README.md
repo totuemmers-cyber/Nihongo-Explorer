@@ -12,9 +12,13 @@ exhaustive certification requires a new explicit user scope.
 
 Reported-defect maintenance under `risk-based-v2`; every record has an editorial
 first pass and an exact-hash independent second pass (three review rounds; all
-rejections were fixed and re-reviewed). Authoring scripts, packets, research,
-assemblies, decisions and import journals are in [maintenance-021](maintenance-021/)
-and [maintenance-022](maintenance-022/).
+rejections were fixed and re-reviewed). The sealed batch files are the record; their
+cited research is kept in
+[maintenance-021/research-supplement.json](maintenance-021/research-supplement.json)
+and [maintenance-022/research-supplement.json](maintenance-022/research-supplement.json).
+Packets, assemblies, decisions, helper scripts and import journals were working
+files and were removed on 23 September 2026. Keep such files in `.content-cache/`
+(gitignored), as the `--journal=.content-cache/...` workflow examples below do.
 
 - **021a–c (75 corrections):** the 59 remaining exact duplicate examples each got a
   new, distinct second example (0 remain corpus-wide); 王子, 投手, 〜病, 〜県 moved up
@@ -40,7 +44,7 @@ and [maintenance-022](maintenance-022/).
   the 母 headword, 鳥肌が立つ moved to N2 and 腰を据える to N1, and three Cyrillic
   letters in romaji were fixed.
 
-- **023a–c (56 corrections, [maintenance-023](maintenance-023/)):** entries whose
+- **023a–c (56 corrections, research in [maintenance-023](maintenance-023/research-supplement.json)):** entries whose
   two examples repeated the same Japanese sentence (after NFKC and whitespace removal)
   with only a reworded German translation. Each got a new, distinct second example; where
   the translations showed two senses (首 Hals/Nacken, ぺこぺこ, なかなか, あっさり, 占い,

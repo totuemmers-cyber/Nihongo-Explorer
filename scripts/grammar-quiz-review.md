@@ -1,14 +1,19 @@
 # Grammar quiz answer review
 
 grammar-quiz-review.json is the authored source for graded cloze questions.
-It contains one question for each of the 671 cloze-bearing patterns:
-N5 76, N4 140, N3 134, N2 131, N1 190. The two existing metalinguistic
+It contains one question for each of the 730 cloze-bearing patterns:
+N5 89, N4 139, N3 143, N2 186, N1 173. The two existing metalinguistic
 exclusions remain excluded. Other reference examples stay available for study.
 
 Each record binds to the pattern ID, example index, level, Japanese sentence,
-German meaning, and exact blank span. All 216 N5/N4 records include an explicit
-kana prompt. This restores the 86 beginner patterns whose first annotated
+German meaning, and exact blank span. All N5/N4 records include an explicit
+kana prompt; this originally restored 86 beginner patterns whose first annotated
 examples could not pass the old automatic prompt conversion.
+
+New grammar points and their review records are authored together in
+`scripts/grammar-additions/*.json` and imported with `node scripts/add-grammar.cjs`
+(`--check` validates without writing). Update the pinned counts in
+`scripts/audit-quiz-review.cjs` after an import.
 
 The canonical answer must be in acceptedAnswers. Additional accepted forms
 are exclusions: they must never appear as wrong choices. This list is not an

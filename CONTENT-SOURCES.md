@@ -199,10 +199,11 @@ the existing source positions before writing. Run `npm run audit:vocabulary` for
 runtime survival, level, identity and provenance checks, alongside the existing
 data, content, verb, quiz, lint and smoke checks.
 
-The fetch/extract/compare/build scripts are research tools. Regenerating this
-historical review requires its pre-import inventory and downloaded references in
-`.content-cache/jlpt-vocabulary`; a fresh comparison of the current app is a new
-review, not a replacement for that baseline. The app has no new external runtime
+The fetch, extract, compare and build research scripts were removed on
+23 September 2026 once the review was frozen: `scripts/vocabulary-review.json` is
+the record, and rebuilding it would break the hash the vocabulary audits check.
+A fresh comparison of the current app would be a new review, not a replacement
+for that baseline. The app has no new external runtime
 dependency and does not load the research manifest.
 # Vocabulary completion evidence — 5 September 2026
 
