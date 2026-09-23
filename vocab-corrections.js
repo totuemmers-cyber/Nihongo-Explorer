@@ -361,6 +361,4 @@
     }
     return id;
   };
-
-  window.applyVocabCorrections();
 })();

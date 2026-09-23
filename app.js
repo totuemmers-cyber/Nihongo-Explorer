@@ -305,7 +305,8 @@
       }
     },
     vocab: {
-      scripts: ['vocab-n5.js', 'vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js'],
+      // The correction rules are only needed to hydrate vocab, so they load with it instead of at startup.
+      scripts: ['vocab-correction-rules.js', 'vocab-n5.js', 'vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js'],
       message: 'Lade Vokabel-Daten...',
       hydrate: function () {
         var rawVocabSources = [
@@ -472,13 +473,8 @@
   }
 
   function loadScripts(sources) {
-    var promise = Promise.resolve();
-    sources.forEach(function (src) {
-      promise = promise.then(function () {
-        return loadScript(src);
-      });
-    });
-    return promise;
+    // async=false scripts download in parallel but still run in insertion order.
+    return Promise.all(sources.map(loadScript));
   }
 
   function ensureSectionLoaded(name) {
