@@ -781,27 +781,34 @@
   }
 
   // 6. Kanji Reading: kanji → reading
+  // Kanji data uses dictionary notation: "た.べる" marks okurigana, "ひと-"/"-じ" mark prefix/suffix use.
+  function getKanjiReadings(k, key) {
+    var all = (k[key] || []).map(function (r) { return r.kana; });
+    var full = all.filter(function (kana) { return !/^-|-$/.test(kana); });
+    return (full.length ? full : all).map(function (kana) {
+      return kana.replace(/\./g, '').replace(/^-|-$/g, '');
+    });
+  }
+
   function genKanjiReading(level) {
     var pool = getLevelPool(getKanjiByLevel, level).filter(function (k) {
       return (k.kun && k.kun.length > 0) || (k.on && k.on.length > 0);
     });
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var readings = [];
-    if (item.kun) item.kun.forEach(function (r) { readings.push(r.kana); });
-    if (item.on) item.on.forEach(function (r) { readings.push(r.kana); });
-    if (readings.length === 0) return null;
-    var correctReading = readings[0];
-    var acceptedReadings = readings.map(normalizeReading);
+    // Wrong answers use the same reading type (kun: hiragana, on: katakana), so the script never gives the answer away.
+    var key = pickRandom(['kun', 'on'].filter(function (k) { return item[k] && item[k].length; }));
+    var correctReading = getKanjiReadings(item, key)[0];
+    var katakana = /[ァ-ヶ]/;
+    var acceptedReadings = (item.kun || []).concat(item.on || []).map(function (r) { return normalizeReading(r.kana); });
     var distractorPool = pool.filter(function (k) {
-      var first = (k.kun && k.kun[0]) || (k.on && k.on[0]);
-      return first && acceptedReadings.indexOf(normalizeReading(first.kana)) === -1;
+      var first = getKanjiReadings(k, key)[0];
+      // A few kun readings are loanwords in katakana (釦 ボタン).
+      return first && katakana.test(first) === katakana.test(correctReading) &&
+        acceptedReadings.indexOf(normalizeReading(first)) === -1;
     });
     var distractors = generateDistractors(item, distractorPool, 3, function (k) {
-      var r = [];
-      if (k.kun && k.kun.length) r.push(k.kun[0].kana);
-      else if (k.on && k.on.length) r.push(k.on[0].kana);
-      return r[0] || '';
+      return getKanjiReadings(k, key)[0] || '';
     });
     if (distractors.length < 3) return null;
     var c = buildChoices(correctReading, distractors);
@@ -812,7 +819,7 @@
       promptMain: item.kanji,
       promptSub: item.meanings[0],
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: item.kanji + ': ' + readings.join(', ')
+      explanation: item.kanji + ': ' + getKanjiReadings(item, 'kun').concat(getKanjiReadings(item, 'on')).join(', ')
     }, level, {
       sourceLevel: item.jlpt,
       preserveTokens: [item.kanji]

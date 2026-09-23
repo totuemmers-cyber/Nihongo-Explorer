@@ -178,6 +178,11 @@ types.forEach(function (typeId) {
         if (question.choices.some(function (choice, index) {
           return index !== question.correctIndex && valid.includes(normalizeReading(choice));
         })) stats.ambiguousReadings++;
+        const katakana = choice => /[ァ-ヶ]/.test(choice);
+        if (question.choices.some(choice => /[.\-]/.test(choice))) throw Error('Dictionary notation in kanji reading choices: ' + question.choices);
+        if (question.choices.some(choice => katakana(choice) !== katakana(question.choices[question.correctIndex]))) {
+          throw Error('Script gives the kanji reading answer away: ' + question.choices);
+        }
       }
       if (typeId === 'grammarCloze') {
         const answer = question.choices[question.correctIndex];
