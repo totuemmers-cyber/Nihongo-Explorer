@@ -1,0 +1,3147 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:892",
+      "revisionId": "053-vocab-n5-892",
+      "state": "accepted",
+      "predecessorHash": "f57c5a3979f137ab7f573ea63c105bc3f7b64407e500ce67d0281af4455810d0",
+      "predecessorRevisionHash": "b45ea7d04b3ea89c9e5e60d265525eb05dfa2c9a88640e64d1269868c0626022",
+      "originalHash": "f57c5a3979f137ab7f573ea63c105bc3f7b64407e500ce67d0281af4455810d0",
+      "rationale": "\"zielstrebig\" misses the sense of 一本気 (straightforward, single-minded, uncompromising); meaning and both German examples reworded.",
+      "original": {
+        "meaning": "zielstrebig",
+        "examples": [
+          {
+            "japanese": "ニックって一本気なところがあるよね。",
+            "romaji": "Nikku tte ippongi na tokoro ga aru yo ne.",
+            "german": "Nick hat eine zielstrebige Seite."
+          },
+          {
+            "japanese": "彼は一本気な人です。",
+            "romaji": "Kare wa ippongi na hito desu.",
+            "german": "Er ist ein zielstrebiger Mensch."
+          }
+        ]
+      },
+      "replacement": {
+        "meaning": "geradlinig, unbeirrbar",
+        "examples": [
+          {
+            "japanese": "ニックって一本気なところがあるよね。",
+            "romaji": "Nikku tte ippongi na tokoro ga aru yo ne.",
+            "german": "Nick hat etwas Geradliniges an sich, oder?"
+          },
+          {
+            "japanese": "彼は一本気な人です。",
+            "romaji": "Kare wa ippongi na hito desu.",
+            "german": "Er ist ein geradliniger, unbeirrbarer Mensch."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1166610; spelling=一本気; reading=いっぽんぎ",
+          "finding": "JMdict 1166610 一本気/いっぽんぎ: single-minded (esp. personality or person), one-track mind.",
+          "selected": {
+            "sequence": "1166610",
+            "spelling": "一本気",
+            "reading": "いっぽんぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "single-minded (esp. personality or person)",
+                  "one-track mind"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "\"zielstrebig\" misses the sense of 一本気 (straightforward, single-minded, uncompromising); meaning and both German examples reworded."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "meaning",
+          "translation"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"geradlinig, unbeirrbar\" checked against JMdict 1166610.",
+        "japanese": "ニックって一本気なところがあるよね。 / 彼は一本気な人です。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"ippongi\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Nick hat etwas Geradliniges an sich, oder?",
+          "Er ist ein geradliniger, unbeirrbarer Mensch."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 一本気 / いっぽんぎ.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:892; exact written-form/kana lookup 一本気 / いっぽんぎ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: \"zielstrebig\" misses the sense of 一本気 (straightforward, single-minded, uncompromising); meaning and both German examples reworded. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "bbed739e4adefafb539894d07900bf009a9ae502f72565d0ca7acf0698d7803f",
+        "approvalHash": "827868b9299a2d27ee10f84ea2b0b916a21b7aa61702c022b28cae3fda344463"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 一本気 \"geradlinig, unbeirrbar\" matches JMdict 1166610 (single-minded); both German example lines reworded idiomatically, Japanese/romaji untouched; pitch null (no exact UniDic row).",
+        "contentHash": "bbed739e4adefafb539894d07900bf009a9ae502f72565d0ca7acf0698d7803f",
+        "approvalHash": "827868b9299a2d27ee10f84ea2b0b916a21b7aa61702c022b28cae3fda344463"
+      }
+    },
+    {
+      "id": "vocab-n5:906",
+      "revisionId": "053-vocab-n5-906",
+      "state": "accepted",
+      "predecessorHash": "baeadb918d84887a603d963b2247680e471328fcb0370d58473d0bae881279e5",
+      "predecessorRevisionHash": "0adbffa667577251bdf828609db1ad0e26b6233529adcbb0607a79f96db49590",
+      "originalHash": "baeadb918d84887a603d963b2247680e471328fcb0370d58473d0bae881279e5",
+      "rationale": "平日 means a working day (Monday to Friday) as opposed to the weekend; \"Wochentag\" is ambiguous in German.",
+      "original": {
+        "meaning": "Wochentag",
+        "examples": [
+          {
+            "japanese": "平日のディナーは主にカレーです。",
+            "romaji": "Heijitsu no dinā wa omo ni karē desu.",
+            "german": "An Wochentagen esse ich hauptsächlich Curry zum Abendessen."
+          },
+          {
+            "japanese": "平日は仕事があります。",
+            "romaji": "Heijitsu wa shigoto ga arimasu.",
+            "german": "An Wochentagen habe ich Arbeit."
+          }
+        ]
+      },
+      "replacement": {
+        "meaning": "Werktag (Mo–Fr)",
+        "examples": [
+          {
+            "japanese": "平日のディナーは主にカレーです。",
+            "romaji": "Heijitsu no dinā wa omo ni karē desu.",
+            "german": "An Werktagen gibt es zum Abendessen meistens Curry."
+          },
+          {
+            "japanese": "平日は仕事があります。",
+            "romaji": "Heijitsu wa shigoto ga arimasu.",
+            "german": "An Werktagen muss ich arbeiten."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1507720; spelling=平日; reading=へいじつ",
+          "finding": "JMdict 1507720 平日/へいじつ: weekday, ordinary days (i.e. non-holiday).",
+          "selected": {
+            "sequence": "1507720",
+            "spelling": "平日",
+            "reading": "へいじつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "weekday",
+                  "ordinary days (i.e. non-holiday)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "平日 means a working day (Monday to Friday) as opposed to the weekend; \"Wochentag\" is ambiguous in German."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "meaning",
+          "translation"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Werktag (Mo–Fr)\" checked against JMdict 1507720.",
+        "japanese": "平日のディナーは主にカレーです。 / 平日は仕事があります。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"heijitsu\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "An Werktagen gibt es zum Abendessen meistens Curry.",
+          "An Werktagen muss ich arbeiten."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240850226",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "平日 / ヘイジツ; 名詞/普通名詞/副詞可能/*; *; *; lemma 平日; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "平日",
+              "reading": "へいじつ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "平日 as \"Wochentag\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 平日 means a working day (Monday to Friday) as opposed to the weekend; \"Wochentag\" is ambiguous in German. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "dd361659fad4bd31124768e2ef272e4be18f0cce2965e3b25647268bbb146cc9",
+        "approvalHash": "6f96e7721abfaa147d9a64989c0b158ce769503dbcb64a4c6c0317f105125612"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 平日 \"Werktag (Mo–Fr)\" fixes the ambiguous \"Wochentag\" (JMdict 1507720); both German lines correct; pitch 0 keeps its own row sys.dic@240850226.",
+        "contentHash": "dd361659fad4bd31124768e2ef272e4be18f0cce2965e3b25647268bbb146cc9",
+        "approvalHash": "6f96e7721abfaa147d9a64989c0b158ce769503dbcb64a4c6c0317f105125612"
+      }
+    },
+    {
+      "id": "vocab-n5:1095",
+      "revisionId": "053-vocab-n5-1095",
+      "state": "accepted",
+      "predecessorHash": "d08bb3b66f18e67b5019504355df6a247c4c758d9b0572fd00a89666c7e3093a",
+      "predecessorRevisionHash": "2fead5df6aea55bd9206ee5bd390e9d3e7e4e6df429566de0ce922c20923cf25",
+      "originalHash": "d08bb3b66f18e67b5019504355df6a247c4c758d9b0572fd00a89666c7e3093a",
+      "rationale": "Meaning typo \"Grundschueler\" corrected to \"Grundschüler\".",
+      "original": {
+        "meaning": "Grundschueler"
+      },
+      "replacement": {
+        "meaning": "Grundschüler"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1347880; spelling=小学生; reading=しょうがくせい",
+          "finding": "JMdict 1347880 小学生/しょうがくせい: elementary school student, primary school student, grade school student.",
+          "selected": {
+            "sequence": "1347880",
+            "spelling": "小学生",
+            "reading": "しょうがくせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "elementary school student",
+                  "primary school student",
+                  "grade school student"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "Meaning typo \"Grundschueler\" corrected to \"Grundschüler\"."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "meaning"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Grundschüler\" checked against JMdict 1347880.",
+        "japanese": "その兄弟は、まだ二人とも小学生です。 / 弟は小学生です。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"shōgakusei\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Beide Brüder sind noch Grundschüler.",
+          "Mein jüngerer Bruder ist Grundschüler."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 小学生 / しょうがくせい.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:1095; exact written-form/kana lookup 小学生 / しょうがくせい",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: Meaning typo \"Grundschueler\" corrected to \"Grundschüler\". Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "94e15a3ba70f1551031254381f2ef49f45148fc6e13603ef4527b23114574691",
+        "approvalHash": "7b5e2e07b6369e85787740d73558c61897d3c818aaa621220efa476533a3d1fd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: Umlaut typo \"Grundschueler\" -> \"Grundschüler\"; only meaning changed.",
+        "contentHash": "94e15a3ba70f1551031254381f2ef49f45148fc6e13603ef4527b23114574691",
+        "approvalHash": "7b5e2e07b6369e85787740d73558c61897d3c818aaa621220efa476533a3d1fd"
+      }
+    },
+    {
+      "id": "vocab-n4:1008",
+      "revisionId": "053-vocab-n4-1008",
+      "state": "accepted",
+      "predecessorHash": "aa2b8463617e28d0dff508ca014975e558940f8763aec6a08fe655638fa208b9",
+      "predecessorRevisionHash": "21ff8ac7fba864af41862694c909fae544e6bb2673428a9dd97c80db0662a8d4",
+      "originalHash": "aa2b8463617e28d0dff508ca014975e558940f8763aec6a08fe655638fa208b9",
+      "rationale": "Example 2 (\"history changed from 2000 AD\") was semantically odd; replaced with the standard use of 紀元後 next to 紀元前.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "紀元後64年にローマで大火事が発生したのを知っていますか？",
+            "romaji": "Kigengo 64-nen ni Rōma de ōkaji ga hassei shita no o shitte imasu ka?",
+            "german": "Wussten Sie, dass es im Jahr 64 n. Chr. einen großen Brand in Rom gab?"
+          },
+          {
+            "japanese": "紀元後二千年から歴史が変わりました。",
+            "romaji": "Kigengo nisen-nen kara rekishi ga kawarimashita.",
+            "german": "Ab dem Jahr 2000 n. Chr. hat sich die Geschichte verändert."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "紀元後64年にローマで大火事が発生したのを知っていますか？",
+            "romaji": "Kigengo 64-nen ni Rōma de ōkaji ga hassei shita no o shitte imasu ka?",
+            "german": "Wussten Sie, dass es im Jahr 64 n. Chr. einen großen Brand in Rom gab?"
+          },
+          {
+            "japanese": "キリストが生まれた年を境に、紀元前と紀元後に分ける。",
+            "romaji": "Kirisuto ga umareta toshi o sakai ni, kigenzen to kigengo ni wakeru.",
+            "german": "Die Zeitrechnung wird am Geburtsjahr Christi in v. Chr. und n. Chr. geteilt."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222920; spelling=紀元後; reading=きげんご",
+          "finding": "JMdict 1222920 紀元後/きげんご: post-era.",
+          "selected": {
+            "sequence": "1222920",
+            "spelling": "紀元後",
+            "reading": "きげんご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "post-era"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "Example 2 (\"history changed from 2000 AD\") was semantically odd; replaced with the standard use of 紀元後 next to 紀元前."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"nach Christus\" checked against JMdict 1222920.",
+        "japanese": "紀元後64年にローマで大火事が発生したのを知っていますか？ / キリストが生まれた年を境に、紀元前と紀元後に分ける。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"kigengo\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Wussten Sie, dass es im Jahr 64 n. Chr. einen großen Brand in Rom gab?",
+          "Die Zeitrechnung wird am Geburtsjahr Christi in v. Chr. und n. Chr. geteilt."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 紀元後 / きげんご.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n4:1008; exact written-form/kana lookup 紀元後 / きげんご",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: Example 2 (\"history changed from 2000 AD\") was semantically odd; replaced with the standard use of 紀元後 next to 紀元前. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "bdb356dd10641b9ed64e0802186779dc8f38afdf4fee4979573fb7d2fd5746b5",
+        "approvalHash": "dfd3c6c26a823b5f528b4defd3cb09478c91272889dc7850377d66e4fcd988de"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: New ex2 キリストが生まれた年を境に、紀元前と紀元後に分ける。 is natural, uses 紀元後 in its era sense; romaji exact; German accurate; ex1 untouched.",
+        "contentHash": "bdb356dd10641b9ed64e0802186779dc8f38afdf4fee4979573fb7d2fd5746b5",
+        "approvalHash": "dfd3c6c26a823b5f528b4defd3cb09478c91272889dc7850377d66e4fcd988de"
+      }
+    },
+    {
+      "id": "vocab-n4:1197",
+      "revisionId": "053-vocab-n4-1197",
+      "state": "accepted",
+      "predecessorHash": "811b8784f858072f25739d1bb520616780f2c9b000c140e4c42b60b6aa6bd3a5",
+      "predecessorRevisionHash": "235532befed654c147a320b67d04bbf77f92bb22d7a30a9fea316bc1546c4f7e",
+      "originalHash": "811b8784f858072f25739d1bb520616780f2c9b000c140e4c42b60b6aa6bd3a5",
+      "rationale": "German of example 2 rendered 修行 as \"meditieren\"; 修行 is religious or ascetic practice.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "この本は元仏僧の方が書かれた本です。",
+            "romaji": "Kono hon wa moto bussō no kata ga kakareta hon desu.",
+            "german": "Dieses Buch wurde von einem ehemaligen buddhistischen Mönch geschrieben."
+          },
+          {
+            "japanese": "仏僧が修行をしています。",
+            "romaji": "Bussō ga shugyō o shite imasu.",
+            "german": "Die buddhistischen Mönche meditieren."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "この本は元仏僧の方が書かれた本です。",
+            "romaji": "Kono hon wa moto bussō no kata ga kakareta hon desu.",
+            "german": "Dieses Buch wurde von einem ehemaligen buddhistischen Mönch geschrieben."
+          },
+          {
+            "japanese": "仏僧が修行をしています。",
+            "romaji": "Bussō ga shugyō o shite imasu.",
+            "german": "Die buddhistischen Mönche üben sich in Askese."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1502170; spelling=仏僧; reading=ぶっそう",
+          "finding": "JMdict 1502170 仏僧/ぶっそう: Buddhist priest.",
+          "selected": {
+            "sequence": "1502170",
+            "spelling": "仏僧",
+            "reading": "ぶっそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Buddhist priest"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "German of example 2 rendered 修行 as \"meditieren\"; 修行 is religious or ascetic practice."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "translation"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"buddhistischer Mönch\" checked against JMdict 1502170.",
+        "japanese": "この本は元仏僧の方が書かれた本です。 / 仏僧が修行をしています。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"bussō\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Dieses Buch wurde von einem ehemaligen buddhistischen Mönch geschrieben.",
+          "Die buddhistischen Mönche üben sich in Askese."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239170724",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "仏僧 / ブッソウ; 名詞/普通名詞/一般/*; *; *; lemma 仏僧; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "仏僧",
+              "reading": "ぶっそう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "仏僧 as \"buddhistischer Mönch\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: German of example 2 rendered 修行 as \"meditieren\"; 修行 is religious or ascetic practice. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "7da6e3bb95e6d09c415348a341ab1d491fad10fbc1d485dc72900c8514a45f91",
+        "approvalHash": "a6f0c901867f3af8052936b914aeb49ac18b58320e462a4d2385bd5aa5fb2806"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 仏僧 ex2 German now \"Die buddhistischen Mönche üben sich in Askese.\" (round-2 fix) correctly renders 修行 instead of \"meditieren\"; Japanese and romaji unchanged.",
+        "contentHash": "7da6e3bb95e6d09c415348a341ab1d491fad10fbc1d485dc72900c8514a45f91",
+        "approvalHash": "a6f0c901867f3af8052936b914aeb49ac18b58320e462a4d2385bd5aa5fb2806"
+      }
+    },
+    {
+      "id": "vocab-n4:1199",
+      "revisionId": "053-vocab-n4-1199",
+      "state": "accepted",
+      "predecessorHash": "1dc5e3a7cdb819edf5dbda447185ce2c47e5e1115d8b9b669ab2493c49d92aaf",
+      "predecessorRevisionHash": "e90423ab70a3829ef98174f98a34d22eaf216201a8ba77acf5395f6f3bea0f1a",
+      "originalHash": "1dc5e3a7cdb819edf5dbda447185ce2c47e5e1115d8b9b669ab2493c49d92aaf",
+      "rationale": "Example 1 taught 不可分性, not 可分; example 2 (三で可分) is unnatural (割り切れる is used for numbers). Both replaced with uses of 可分 (JMdict 1191140 \"divisible, separable\").",
+      "original": {
+        "examples": [
+          {
+            "japanese": "今日のトーフグポッドキャストのテーマは、生と死の不可分性です。",
+            "romaji": "Kyō no Tōfugu poddokyasuto no tēma wa, sei to shi no fukabunsei desu.",
+            "german": "Das heutige Thema des Tofugu-Podcasts ist die Untrennbarkeit von Leben und Tod."
+          },
+          {
+            "japanese": "この数は三で可分です。",
+            "romaji": "Kono kazu wa san de kabun desu.",
+            "german": "Diese Zahl ist durch drei teilbar."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "この土地は可分の財産として扱われる。",
+            "romaji": "Kono tochi wa kabun no zaisan to shite atsukawareru.",
+            "german": "Dieses Grundstück wird als teilbares Vermögen behandelt."
+          },
+          {
+            "japanese": "法律上、可分債務と不可分債務は区別される。",
+            "romaji": "Hōritsujō, kabun saimu to fukabun saimu wa kubetsu sareru.",
+            "german": "Rechtlich unterscheidet man teilbare und unteilbare Verbindlichkeiten."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1191140; spelling=可分; reading=かぶん",
+          "finding": "JMdict 1191140 可分/かぶん: divisible, separable.",
+          "selected": {
+            "sequence": "1191140",
+            "spelling": "可分",
+            "reading": "かぶん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "divisible",
+                  "separable"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "Example 1 taught 不可分性, not 可分; example 2 (三で可分) is unnatural (割り切れる is used for numbers). Both replaced with uses of 可分 (JMdict 1191140 \"divisible, separable\")."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"teilbar\" checked against JMdict 1191140.",
+        "japanese": "この土地は可分の財産として扱われる。 / 法律上、可分債務と不可分債務は区別される。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"kabun\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Dieses Grundstück wird als teilbares Vermögen behandelt.",
+          "Rechtlich unterscheidet man teilbare und unteilbare Verbindlichkeiten."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 可分 / かぶん.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n4:1199; exact written-form/kana lookup 可分 / かぶん",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: Example 1 taught 不可分性, not 可分; example 2 (三で可分) is unnatural (割り切れる is used for numbers). Both replaced with uses of 可分 (JMdict 1191140 \"divisible, separable\"). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "9c7fa568df61b9d9b6441170fd89ae05b82b3c76c9ce8e9eb00a9c77cba6f9eb",
+        "approvalHash": "808cbeb49f7fe67be15d1d835e7d7e2543b894462184c909b7aeedd53f8c3248"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: Both new 可分 examples (可分の財産, 可分債務/不可分債務) are natural legal usage matching JMdict 1191140 \"divisible\"; romaji exact (Hōritsujō, saimu); German accurate.",
+        "contentHash": "9c7fa568df61b9d9b6441170fd89ae05b82b3c76c9ce8e9eb00a9c77cba6f9eb",
+        "approvalHash": "808cbeb49f7fe67be15d1d835e7d7e2543b894462184c909b7aeedd53f8c3248"
+      }
+    },
+    {
+      "id": "vocab-n4:1323",
+      "revisionId": "053-vocab-n4-1323",
+      "state": "accepted",
+      "predecessorHash": "ed7de5a3f252591f8ea26e1f458b2666355ef8572c9579081e278502ef91fae4",
+      "predecessorRevisionHash": "37772e52c829267ad8ae9edf7fd23300a512ceeedfb53890b8660f9e0be69224",
+      "originalHash": "ed7de5a3f252591f8ea26e1f458b2666355ef8572c9579081e278502ef91fae4",
+      "rationale": "Both examples use the \"private room in a restaurant/café\" sense; meaning extended.",
+      "original": {
+        "meaning": "Einzelzimmer"
+      },
+      "replacement": {
+        "meaning": "Einzelzimmer; Separee, Privatraum"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1264750; spelling=個室; reading=こしつ",
+          "finding": "JMdict 1264750 個室/こしつ: single (room), room for one, one's own room | private room (in a restaurant, etc.), private dining room.",
+          "selected": {
+            "sequence": "1264750",
+            "spelling": "個室",
+            "reading": "こしつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "single (room)",
+                  "room for one",
+                  "one's own room",
+                  "private room",
+                  "private compartment"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "private room (in a restaurant, etc.)",
+                  "private dining room"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "Both examples use the \"private room in a restaurant/café\" sense; meaning extended."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "meaning"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Einzelzimmer; Separee, Privatraum\" checked against JMdict 1264750.",
+        "japanese": "カフェで個室を予約して、友達とゆっくりおしゃべりを楽しみました。 / 個室のレストランを予約しました。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"koshitsu\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich habe ein Separee in einem Café reserviert und ein gemütliches Gespräch mit meinen Freunden genossen.",
+          "Ich habe ein Restaurant mit Separees reserviert."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@122276154",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "個室 / コシツ; 名詞/普通名詞/一般/*; *; *; lemma 個室; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "個室",
+              "reading": "こしつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "個室 as \"Einzelzimmer\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: Both examples use the \"private room in a restaurant/café\" sense; meaning extended. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "5c2eed3b13d74cf02418da0942095a8e05d4da00673a56c39b0b960b256e7e67",
+        "approvalHash": "b9f403980ab60b9c53e26ba3e4ec6700e824d6f3a36e7d1f2fa7ee8b10f95786"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 個室 meaning extended with \"Separee, Privatraum\" (JMdict 1264750 sense 2), matching both restaurant/café examples.",
+        "contentHash": "5c2eed3b13d74cf02418da0942095a8e05d4da00673a56c39b0b960b256e7e67",
+        "approvalHash": "b9f403980ab60b9c53e26ba3e4ec6700e824d6f3a36e7d1f2fa7ee8b10f95786"
+      }
+    },
+    {
+      "id": "vocab-n3:994",
+      "revisionId": "053-vocab-n3-994",
+      "state": "accepted",
+      "predecessorHash": "bd056ac9a18ef7c6d5ed1d842d3495d513044915babc1b75a476cb9f37c59541",
+      "predecessorRevisionHash": "0de80ef5ae54de5d4600c0df2383b50857f09b68f06c0947dae8fc98ff0e0b6a",
+      "originalHash": "bd056ac9a18ef7c6d5ed1d842d3495d513044915babc1b75a476cb9f37c59541",
+      "rationale": "Meaning typo \"gütilich\" corrected to \"gütlich\".",
+      "original": {
+        "meaning": "friedlich, gütilich"
+      },
+      "replacement": {
+        "meaning": "friedlich, gütlich"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1183620; spelling=穏便; reading=おんびん",
+          "finding": "JMdict 1183620 穏便/おんびん: gentle, peaceable, amicable | without fuss, simply.",
+          "selected": {
+            "sequence": "1183620",
+            "spelling": "穏便",
+            "reading": "おんびん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gentle",
+                  "peaceable",
+                  "amicable",
+                  "quiet"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "without fuss",
+                  "simply"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "Meaning typo \"gütilich\" corrected to \"gütlich\"."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "meaning"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"friedlich, gütlich\" checked against JMdict 1183620.",
+        "japanese": "穏便に済ませましょう。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"onbin\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Lasst uns es friedlich regeln."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85266216",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "穏便 / オンビン; 形状詞/一般/*/*; *; *; lemma 穏便; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "穏便",
+              "reading": "おんびん",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "穏便 as \"friedlich, gütilich\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: Meaning typo \"gütilich\" corrected to \"gütlich\". Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "fe095673dce521874669154eb5d5b19f4370312ff12b8c9f9b44426f9d28e738",
+        "approvalHash": "c17e7411477c1c0d9b6e250ee0312274e618cd1b99185b06326fdbe09c7e21f5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: Typo \"gütilich\" -> \"gütlich\"; only meaning changed.",
+        "contentHash": "fe095673dce521874669154eb5d5b19f4370312ff12b8c9f9b44426f9d28e738",
+        "approvalHash": "c17e7411477c1c0d9b6e250ee0312274e618cd1b99185b06326fdbe09c7e21f5"
+      }
+    },
+    {
+      "id": "vocab-n3:2460",
+      "revisionId": "053-vocab-n3-2460",
+      "state": "accepted",
+      "predecessorHash": "ca6659730d70580c8b9db146215139117323b855748038d78d3a59a769be773d",
+      "predecessorRevisionHash": "19cfd52dde728d7e2757b4359bb2a89343b8f269dd27eb020c5fa497a9a0a98a",
+      "originalHash": "ca6659730d70580c8b9db146215139117323b855748038d78d3a59a769be773d",
+      "rationale": "\"１９９５年の型\" is unnatural; model years are written １９９５年型 (-nengata).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "都庁の前には、１９９５年の型のホンダ・シビックが停まっていた。",
+            "romaji": "Tochō no mae ni wa, sen kyūhyaku kyūjūgo-nen no kata no Honda Shibikku ga tomatte ita.",
+            "german": "Vor dem Regierungsgebäude stand ein Honda Civic, Baujahr 1995."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "都庁の前には、１９９５年型のホンダ・シビックが停まっていた。",
+            "romaji": "Tochō no mae ni wa, sen kyūhyaku kyūjūgo-nengata no Honda Shibikku ga tomatte ita.",
+            "german": "Vor dem Regierungsgebäude stand ein Honda Civic, Baujahr 1995."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1445010; spelling=都庁; reading=とちょう",
+          "finding": "JMdict 1445010 都庁/とちょう: Tokyo Metropolitan Government (Office).",
+          "selected": {
+            "sequence": "1445010",
+            "spelling": "都庁",
+            "reading": "とちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Tokyo Metropolitan Government (Office)"
+                ],
+                "notes": [
+                  "abbr. of 東京都庁"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "\"１９９５年の型\" is unnatural; model years are written １９９５年型 (-nengata)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Regierungsgebäude\" checked against JMdict 1445010.",
+        "japanese": "都庁の前には、１９９５年型のホンダ・シビックが停まっていた。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"tochō\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Vor dem Regierungsgebäude stand ein Honda Civic, Baujahr 1995."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 1 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185936890",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "都庁 / トチョウ; 名詞/普通名詞/一般/*; *; *; lemma 都庁; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "都庁",
+              "reading": "とちょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "都庁 as \"Regierungsgebäude\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: \"１９９５年の型\" is unnatural; model years are written １９９５年型 (-nengata). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "eb0fddfb8fb410e8339dab149e9e3be962ba0b219b040c70e55e6ee8f1d8b88c",
+        "approvalHash": "0a6d9a241573d257e96654773f45a080c6cb83da424b69cd81b0d77fe53a2b1d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: １９９５年型 replaces unnatural １９９５年の型; romaji \"sen kyūhyaku kyūjūgo-nengata\" matches; German unchanged and still correct.",
+        "contentHash": "eb0fddfb8fb410e8339dab149e9e3be962ba0b219b040c70e55e6ee8f1d8b88c",
+        "approvalHash": "0a6d9a241573d257e96654773f45a080c6cb83da424b69cd81b0d77fe53a2b1d"
+      }
+    },
+    {
+      "id": "vocab-n3:2597",
+      "revisionId": "053-vocab-n3-2597",
+      "state": "accepted",
+      "predecessorHash": "2fef1766313bebb880e94246cbe6a4f8913d7faf46edcbbca4e6e804f5d9b859",
+      "predecessorRevisionHash": "baf99d3e2888c8c8213789ecc977fa8291cc73adfa173a9be120596aff1fcb32",
+      "originalHash": "2fef1766313bebb880e94246cbe6a4f8913d7faf46edcbbca4e6e804f5d9b859",
+      "rationale": "気違い is a discriminatory term avoided in broadcasting and print; learners need a usage warning and neutral alternatives. JMdict and UniDic list it only as a noun (madness; lunatic), so type and gloss become nominal.",
+      "original": {
+        "type": "Adjektiv",
+        "meaning": "verrückt",
+        "examples": [
+          {
+            "japanese": "カナエは、たまに気違いじみたダンスをしながらオフィスに入ってくる。",
+            "romaji": "Kanae wa, tama ni kichigaijimita dansu o shinagara ofisu ni haitte kuru.",
+            "german": "Kanae kommt manchmal tanzend ins Büro und führt dabei einen verrückten Tanz auf."
+          }
+        ],
+        "notes": null
+      },
+      "replacement": {
+        "type": "Nomen",
+        "meaning": "Wahnsinn; Verrückter (abwertend, diskriminierend)",
+        "examples": [
+          {
+            "japanese": "カナエは、たまに気違いじみたダンスをしながらオフィスに入ってくる。",
+            "romaji": "Kanae wa, tama ni kichigaijimita dansu o shinagara ofisu ni haitte kuru.",
+            "german": "Kanae kommt manchmal tanzend ins Büro und führt dabei einen verrückten Tanz auf."
+          },
+          {
+            "japanese": "昔の小説には「気違い」という言葉がよく出てくるが、今は差別語とされている。",
+            "romaji": "Mukashi no shōsetsu ni wa 'kichigai' to iu kotoba ga yoku dete kuru ga, ima wa sabetsugo to sarete iru.",
+            "german": "In alten Romanen kommt das Wort „kichigai“ oft vor, heute gilt es jedoch als diskriminierend."
+          }
+        ],
+        "notes": "Achtung: abwertender, diskriminierender Ausdruck, der in Medien vermieden wird. Nur zum Verstehen lernen; neutral sind z. B. 変わった (ungewöhnlich) oder 夢中な (begeistert)."
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1221900; spelling=気違い; reading=きちがい",
+          "finding": "JMdict 1221900 気違い/きちがい: madness, insanity, madman | mania, craze, obsession.",
+          "selected": {
+            "sequence": "1221900",
+            "spelling": "気違い",
+            "reading": "きちがい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "sensitive",
+                  "derogatory",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "madness",
+                  "insanity",
+                  "madman",
+                  "lunatic",
+                  "crazy person"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [
+                  "sensitive",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "mania",
+                  "craze",
+                  "obsession",
+                  "enthusiast",
+                  "maniac",
+                  "fanatic",
+                  "nut",
+                  "freak"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "気違い is a discriminatory term avoided in broadcasting and print; learners need a usage warning and neutral alternatives. JMdict and UniDic list it only as a noun (madness; lunatic), so type and gloss become nominal."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "register",
+          "meaning",
+          "word-class"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Wahnsinn; Verrückter (abwertend, diskriminierend)\" checked against JMdict 1221900.",
+        "japanese": "カナエは、たまに気違いじみたダンスをしながらオフィスに入ってくる。 / 昔の小説には「気違い」という言葉がよく出てくるが、今は差別語とされている。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"kichigai\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Kanae kommt manchmal tanzend ins Büro und führt dabei einen verrückten Tanz auf.",
+          "In alten Romanen kommt das Wort „kichigai“ oft vor, heute gilt es jedoch als diskriminierend."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Word class corrected to Nomen.",
+        "register": "Discriminatory term; usage warning added to the notes.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 3 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104656918",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "気違い / キチガイ; 名詞/普通名詞/一般/*; *; *; lemma 気違い; aType 3. Existing 0 unattested by the exact row; corrected to 3.",
+            "match": {
+              "word": "気違い",
+              "reading": "きちがい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気違い as \"verrückt\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 気違い is a discriminatory term avoided in broadcasting and print; learners need a usage warning and neutral alternatives. JMdict and UniDic list it only as a noun (madness; lunatic), so type and gloss become nominal. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "d96b656add2a36bbb7559c4c3c6e7b4408cf1a99fa1398a25c54de3e8e0f2c84",
+        "approvalHash": "9c942156ece662d62c953b4db58ffbb0004e103c28c3be18f47bcf17d2f61fbc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 気違い (round 3) type Nomen, meaning \"Wahnsinn; Verrückter (abwertend, diskriminierend)\" per JMdict 1221900 and UniDic 名詞 row sys.dic@104656918 (pitch 3); warning notes kept; new ex2 昔の小説には「気違い」という言葉がよく出てくるが、今は差別語とされている。 is natural, romaji exact, German accurate, and gives a second distinct (metalinguistic register) context; enrichmentRequired and reviewedDistinctContexts set; ex1 unchanged.",
+        "contentHash": "d96b656add2a36bbb7559c4c3c6e7b4408cf1a99fa1398a25c54de3e8e0f2c84",
+        "approvalHash": "9c942156ece662d62c953b4db58ffbb0004e103c28c3be18f47bcf17d2f61fbc"
+      }
+    },
+    {
+      "id": "vocab-n3:2619",
+      "revisionId": "053-vocab-n3-2619",
+      "state": "accepted",
+      "predecessorHash": "079fa7126fbba46926ec31b2ccdaf9047f707679bac6bfbd135c298f747f650f",
+      "predecessorRevisionHash": "fcb4cf9e72e15a880d8740ce4e0235b99350dd0dbf0e1e65efa52e015ac0ddd1",
+      "originalHash": "079fa7126fbba46926ec31b2ccdaf9047f707679bac6bfbd135c298f747f650f",
+      "rationale": "夜中 is the middle of the night in general, not only midnight (example: two o'clock at night).",
+      "original": {
+        "meaning": "Mitternacht"
+      },
+      "replacement": {
+        "meaning": "mitten in der Nacht, Nacht"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1536930; spelling=夜中; reading=よなか",
+          "finding": "JMdict 1536930 夜中/よなか: middle of the night, dead of night.",
+          "selected": {
+            "sequence": "1536930",
+            "spelling": "夜中",
+            "reading": "よなか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "middle of the night",
+                  "dead of night"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "夜中 is the middle of the night in general, not only midnight (example: two o'clock at night)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "meaning"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"mitten in der Nacht, Nacht\" checked against JMdict 1536930.",
+        "japanese": "夜中の二時にチャイムが鳴った。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"yonaka\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Um zwei Uhr nachts klingelte es an der Tür."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 3 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@274490020",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "夜中 / ヨナカ; 名詞/普通名詞/副詞可能/*; *; *; lemma 夜中; aType 3. Existing 0 unattested by the exact row; corrected to 3.",
+            "match": {
+              "word": "夜中",
+              "reading": "よなか",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "夜中 as \"Mitternacht\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 夜中 is the middle of the night in general, not only midnight (example: two o'clock at night). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "4daf7737de6e262affbe09740017f7f6d57f4f8b95296863a610cb18c4260e31",
+        "approvalHash": "65868bf32c9760bb8052a90ab57f90b89ac8ef569f34c9260eae66a4bc55b439"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 夜中 \"mitten in der Nacht, Nacht\" fits JMdict 1536930 and the 夜中の二時 example better than \"Mitternacht\"; pitch 3 own row.",
+        "contentHash": "4daf7737de6e262affbe09740017f7f6d57f4f8b95296863a610cb18c4260e31",
+        "approvalHash": "65868bf32c9760bb8052a90ab57f90b89ac8ef569f34c9260eae66a4bc55b439"
+      }
+    },
+    {
+      "id": "vocab-n3:2651",
+      "revisionId": "053-vocab-n3-2651",
+      "state": "accepted",
+      "predecessorHash": "a93cc1c5f81807d4709c300e4fd4a647c76342cda4640f4e53b084fd208984f4",
+      "predecessorRevisionHash": "e6b524418349aa87fa0ad1a3a5d7f388a12a3bf6003ab5555941541ee011e9a0",
+      "originalHash": "a93cc1c5f81807d4709c300e4fd4a647c76342cda4640f4e53b084fd208984f4",
+      "rationale": "\"kleinformatig\" is odd for 小規模 (small-scale); the example writes 小回りが効く, normally 小回りが利く.",
+      "original": {
+        "meaning": "kleinformatig",
+        "examples": [
+          {
+            "japanese": "うちの会社のプロジェクトチームは小回りが効くように、小規模化されているんです。",
+            "romaji": "Uchi no kaisha no purojekuto chīmu wa komawari ga kiku yō ni, shōkiboka sarete iru n desu.",
+            "german": "Die Projektteams in unserer Firma sind klein gehalten, um flexibler zu sein."
+          }
+        ]
+      },
+      "replacement": {
+        "meaning": "klein angelegt, in kleinem Maßstab",
+        "examples": [
+          {
+            "japanese": "うちの会社のプロジェクトチームは小回りが利くように、小規模化されているんです。",
+            "romaji": "Uchi no kaisha no purojekuto chīmu wa komawari ga kiku yō ni, shōkiboka sarete iru n desu.",
+            "german": "Die Projektteams in unserer Firma sind klein gehalten, um flexibler zu sein."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1347920; spelling=小規模; reading=しょうきぼ",
+          "finding": "JMdict 1347920 小規模/しょうきぼ: small scale.",
+          "selected": {
+            "sequence": "1347920",
+            "spelling": "小規模",
+            "reading": "しょうきぼ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "small scale"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "\"kleinformatig\" is odd for 小規模 (small-scale); the example writes 小回りが効く, normally 小回りが利く."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "meaning",
+          "example-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"klein angelegt, in kleinem Maßstab\" checked against JMdict 1347920.",
+        "japanese": "うちの会社のプロジェクトチームは小回りが利くように、小規模化されているんです。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"shōkibo\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Projektteams in unserer Firma sind klein gehalten, um flexibler zu sein."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 小規模 / しょうきぼ.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n3:2651; exact written-form/kana lookup 小規模 / しょうきぼ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: \"kleinformatig\" is odd for 小規模 (small-scale); the example writes 小回りが効く, normally 小回りが利く. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "b1a2e5b70d6259623136aaf87e40f24190580b0daac54bf3b6b754b6c785ea76",
+        "approvalHash": "a57f5f72ed67d8e8735e862a0f2588e9e0c6a35d6798f22d89e530e81fe21a99"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 小規模 \"klein angelegt, in kleinem Maßstab\" matches JMdict 1347920; 小回りが効く -> 小回りが利く corrected, romaji kiku unchanged and correct.",
+        "contentHash": "b1a2e5b70d6259623136aaf87e40f24190580b0daac54bf3b6b754b6c785ea76",
+        "approvalHash": "a57f5f72ed67d8e8735e862a0f2588e9e0c6a35d6798f22d89e530e81fe21a99"
+      }
+    },
+    {
+      "id": "vocab-n3:2669",
+      "revisionId": "053-vocab-n3-2669",
+      "state": "accepted",
+      "predecessorHash": "35f5672342530d01edf97465d1439653041e4872624b3907385a5ef9bfe44976",
+      "predecessorRevisionHash": "07c0c390a8bdd78f9ace877c94f445a301b96898382d9eb3b51f6ee1e8709a9c",
+      "originalHash": "35f5672342530d01edf97465d1439653041e4872624b3907385a5ef9bfe44976",
+      "rationale": "迷子 is a noun (迷子の放送), not an adjective.",
+      "original": {
+        "type": "Adjektiv"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1532750; spelling=迷子; reading=まいご",
+          "finding": "JMdict 1532750 迷子/まいご: lost child, lost person, stray child.",
+          "selected": {
+            "sequence": "1532750",
+            "spelling": "迷子",
+            "reading": "まいご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lost child",
+                  "lost person",
+                  "stray child",
+                  "missing child"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "迷子 is a noun (迷子の放送), not an adjective."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "word-class"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"verlorenes Kind\" checked against JMdict 1532750.",
+        "japanese": "ディズニーランドでは迷子の放送がないそうですよ。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"maigo\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich habe gehört, dass es in Disneyland keine Durchsagen für verlorene Kinder gibt."
+        ],
+        "lexical": "Word class corrected to Nomen.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 1 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247260134",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "迷子 / マイゴ; 名詞/普通名詞/一般/*; *; *; lemma 迷子; aType 1. Existing pitch 1 attested by the exact row.",
+            "match": {
+              "word": "迷子",
+              "reading": "まいご",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "迷子 as \"verlorenes Kind\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 迷子 is a noun (迷子の放送), not an adjective. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "65878f8d701748ce011595120094064f72401aa337c54cbd16c8cbb5d0101856",
+        "approvalHash": "7ecd1022d3d4b221594d8f7d3274f61bddb90c8620b2eb0de7610a8cdd6681ce"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 迷子 Adjektiv -> Nomen matches JMdict 1532750 and UniDic 名詞 row; only type changed.",
+        "contentHash": "65878f8d701748ce011595120094064f72401aa337c54cbd16c8cbb5d0101856",
+        "approvalHash": "7ecd1022d3d4b221594d8f7d3274f61bddb90c8620b2eb0de7610a8cdd6681ce"
+      }
+    },
+    {
+      "id": "vocab-n3:2893",
+      "revisionId": "053-vocab-n3-2893",
+      "state": "accepted",
+      "predecessorHash": "2de961d9fd2a62ab204e392762c7c1b811d0c076c8ba72c4bfe10e1229f976fb",
+      "predecessorRevisionHash": "c676fbc974f6b79d1d912ef72d453517f3febce7549504a9479036a4e6262d59",
+      "originalHash": "2de961d9fd2a62ab204e392762c7c1b811d0c076c8ba72c4bfe10e1229f976fb",
+      "rationale": "快楽 is a noun, not an adjective.",
+      "original": {
+        "type": "Adjektiv"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1199980; spelling=快楽; reading=かいらく",
+          "finding": "JMdict 1199980 快楽/かいらく: pleasure.",
+          "selected": {
+            "sequence": "1199980",
+            "spelling": "快楽",
+            "reading": "かいらく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pleasure"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "快楽 is a noun, not an adjective."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "word-class"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Vergnügen\" checked against JMdict 1199980.",
+        "japanese": "20代のころに一人ぐらしを始めて、ジャンクフードを食べる快楽に目覚めてしまったんです。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"kairaku\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Als ich in meinen Zwanzigern allein zu leben begann, entdeckte ich das Vergnügen, Junkfood zu essen."
+        ],
+        "lexical": "Word class corrected to Nomen.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86699023",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "快楽 / カイラク; 名詞/普通名詞/一般/*; *; *; lemma 快楽; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "快楽",
+              "reading": "かいらく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "快楽 as \"Vergnügen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 快楽 is a noun, not an adjective. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "62fe95a90444582a15c118f6cbad68f405c548b0bc5e412dd6ec9636d7f91218",
+        "approvalHash": "73fd65dc8a20562730ab5bfd6900b522ba7148404dbd45c2636f0a6967d9aa74"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 快楽 Adjektiv -> Nomen matches JMdict 1199980 and UniDic 名詞 row; only type changed.",
+        "contentHash": "62fe95a90444582a15c118f6cbad68f405c548b0bc5e412dd6ec9636d7f91218",
+        "approvalHash": "73fd65dc8a20562730ab5bfd6900b522ba7148404dbd45c2636f0a6967d9aa74"
+      }
+    },
+    {
+      "id": "vocab-n3:3147",
+      "revisionId": "053-vocab-n3-3147",
+      "state": "accepted",
+      "predecessorHash": "7d7bf468c291df98ceb3128996d8810228f7103f3b0e20909d3072c6d1b2026c",
+      "predecessorRevisionHash": "b0f1727ec273b79d3899b155126666bb4429d8dafc926d017de2602764d697ad",
+      "originalHash": "7d7bf468c291df98ceb3128996d8810228f7103f3b0e20909d3072c6d1b2026c",
+      "rationale": "黒幕 is a noun (あんたが黒幕だった), not an adjective.",
+      "original": {
+        "type": "Adjektiv"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1288160; spelling=黒幕; reading=くろまく",
+          "finding": "JMdict 1288160 黒幕/くろまく: black curtain | wirepuller, mastermind, backroom manipulator.",
+          "selected": {
+            "sequence": "1288160",
+            "spelling": "黒幕",
+            "reading": "くろまく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "black curtain"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wirepuller",
+                  "mastermind",
+                  "backroom manipulator",
+                  "éminence grise",
+                  "power broker"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "黒幕 is a noun (あんたが黒幕だった), not an adjective."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "word-class"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Drahtzieher\" checked against JMdict 1288160.",
+        "japanese": "結局、あんたが黒幕だったんだな。どうりであの女を殺した時手慣れていたと思ったよ。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"kuromaku\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Also, du bist der Drahtzieher, hm? Kein Wunder, dass du so professionell wirktest, als du sie getötet hast."
+        ],
+        "lexical": "Word class corrected to Nomen.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@115682971",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "黒幕 / クロマク; 名詞/普通名詞/一般/*; *; *; lemma 黒幕; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "黒幕",
+              "reading": "くろまく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "黒幕 as \"Drahtzieher\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 黒幕 is a noun (あんたが黒幕だった), not an adjective. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "82dd1b1eb0396865a5136b0d829e88cc28450f7c68a60954880157b303dd0685",
+        "approvalHash": "29cebb29a12653f6dcba275702de32c4d84a34c5e8ab94eccd71bbb998959eda"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 黒幕 Adjektiv -> Nomen matches JMdict 1288160 and UniDic 名詞 row; only type changed.",
+        "contentHash": "82dd1b1eb0396865a5136b0d829e88cc28450f7c68a60954880157b303dd0685",
+        "approvalHash": "29cebb29a12653f6dcba275702de32c4d84a34c5e8ab94eccd71bbb998959eda"
+      }
+    },
+    {
+      "id": "vocab-n2:1515",
+      "revisionId": "053-vocab-n2-1515",
+      "state": "accepted",
+      "predecessorHash": "e3e4185893cde8f6609ed26e50c9f28d188d8c29198943ff9c5d9ff29c02f4f8",
+      "predecessorRevisionHash": "7e43b4c09da07d16983845fc6e5878ad115763cf3d1cdebc157083c9b6ad1c63",
+      "originalHash": "e3e4185893cde8f6609ed26e50c9f28d188d8c29198943ff9c5d9ff29c02f4f8",
+      "rationale": "円盤 is a noun, not an adjective.",
+      "original": {
+        "type": "Adjektiv"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1176120; spelling=円盤; reading=えんばん",
+          "finding": "JMdict 1176120 円盤/えんばん: disk, discus, platter | flying saucer.",
+          "selected": {
+            "sequence": "1176120",
+            "spelling": "円盤",
+            "reading": "えんばん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "disk",
+                  "discus",
+                  "platter"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "flying saucer"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "円盤 is a noun, not an adjective."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "word-class"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Scheibe\" checked against JMdict 1176120.",
+        "japanese": "しばらくすると、ジェームズは円盤を脇に抱えて戻ってきて、UFOを見つけたんだと言いました。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"enban\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Nach einer Weile kam James mit einer Scheibe unter dem Arm zurück und sagte uns, er habe ein UFO gefunden."
+        ],
+        "lexical": "Word class corrected to Nomen.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@72092454",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "円盤 / エンバン; 名詞/普通名詞/一般/*; *; *; lemma 円盤; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "円盤",
+              "reading": "えんばん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "円盤 as \"Scheibe\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 円盤 is a noun, not an adjective. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "c403a279ebb6b58eed878aa7bc19b2f27e3ad95109a1f6d09487275b0a88d816",
+        "approvalHash": "621b79fc162d2bc18db235cf80a98f1646b69bb336e3b96f84e665ab07801aed"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 円盤 Adjektiv -> Nomen matches JMdict 1176120 and UniDic 名詞 row; only type changed.",
+        "contentHash": "c403a279ebb6b58eed878aa7bc19b2f27e3ad95109a1f6d09487275b0a88d816",
+        "approvalHash": "621b79fc162d2bc18db235cf80a98f1646b69bb336e3b96f84e665ab07801aed"
+      }
+    },
+    {
+      "id": "vocab-n2:1746",
+      "revisionId": "053-vocab-n2-1746",
+      "state": "accepted",
+      "predecessorHash": "4eaf906f02bf8e16a327e97722dba2a2469e4ef72086126924017f151e70bf22",
+      "predecessorRevisionHash": "29489c7736a318f1e6a96aa7e8e9b113b16b7af284f51d8d5d6ecdb06fddc472",
+      "originalHash": "4eaf906f02bf8e16a327e97722dba2a2469e4ef72086126924017f151e70bf22",
+      "rationale": "夏至 is a noun, not an adjective.",
+      "original": {
+        "type": "Adjektiv"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1191460; spelling=夏至; reading=げし",
+          "finding": "JMdict 1191460 夏至/げし: summer solstice.",
+          "selected": {
+            "sequence": "1191460",
+            "spelling": "夏至",
+            "reading": "げし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "summer solstice"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "夏至 is a noun, not an adjective."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "word-class"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Sommersonnenwende\" checked against JMdict 1191460.",
+        "japanese": "父に夏至から11日目のことを何と呼ぶか知っているかと聞かれたので、得意気に「ハゲ症」って答えたんですけど、それって「ハゲ頭の症状」って意味になるみたいで。父は笑って、正しい答えは「半夏生」だよって教えてくれましたけどね。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"geshi\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Mein Vater fragte mich, wie man den elften Tag nach der Sommersonnenwende nennt. Ich antwortete stolz \"Hageshou\", was wörtlich \"Glatzen-Symptom\" bedeutet. Er lachte und sagte mir, die richtige Antwort sei \"Hangeshou\"."
+        ],
+        "lexical": "Word class corrected to Nomen.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 1 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119121306",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "夏至 / ゲシ; 名詞/普通名詞/一般/*; *; *; lemma 夏至; aType 0,1. Existing pitch 1 attested by the exact row.",
+            "match": {
+              "word": "夏至",
+              "reading": "げし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "夏至 as \"Sommersonnenwende\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 夏至 is a noun, not an adjective. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "3aea5b1fa1ae5c9d604cfaa70241233a726fdf9a56394b9caab2ba0fe4e77aee",
+        "approvalHash": "3346bf6f4b0e8691b7fb5165bb56a54b3a85a568eb58c8bfc71886d9f23c8a92"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 夏至 Adjektiv -> Nomen matches JMdict 1191460 and UniDic 名詞 row; only type changed.",
+        "contentHash": "3aea5b1fa1ae5c9d604cfaa70241233a726fdf9a56394b9caab2ba0fe4e77aee",
+        "approvalHash": "3346bf6f4b0e8691b7fb5165bb56a54b3a85a568eb58c8bfc71886d9f23c8a92"
+      }
+    },
+    {
+      "id": "vocab-n2:1806",
+      "revisionId": "053-vocab-n2-1806",
+      "state": "accepted",
+      "predecessorHash": "bbdfbf135e2f3f71cf455b9e4b1d63478860626c7dfcfaab0e0748ab8744e326",
+      "predecessorRevisionHash": "316bffe17cb6bd8dce0f31341e6345a5b96661badf9754507dd40e06d08844a6",
+      "originalHash": "bbdfbf135e2f3f71cf455b9e4b1d63478860626c7dfcfaab0e0748ab8744e326",
+      "rationale": "肝炎 is a noun, not an adjective.",
+      "original": {
+        "type": "Adjektiv"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1214640; spelling=肝炎; reading=かんえん",
+          "finding": "JMdict 1214640 肝炎/かんえん: hepatitis.",
+          "selected": {
+            "sequence": "1214640",
+            "spelling": "肝炎",
+            "reading": "かんえん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hepatitis"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "肝炎 is a noun, not an adjective."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "word-class"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Hepatitis\" checked against JMdict 1214640.",
+        "japanese": "あのA型肝炎の患者は愛に飢えており、いつも医者や看護師の気を引こうとしている。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"kan'en\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Der Hepatitis-A-Patient sehnt sich nach Zuneigung und versucht ständig, die Aufmerksamkeit der Ärzte und Krankenschwestern zu gewinnen."
+        ],
+        "lexical": "Word class corrected to Nomen.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 1 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99983370",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "肝炎 / カンエン; 名詞/普通名詞/一般/*; *; *; lemma 肝炎; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "肝炎",
+              "reading": "かんえん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "肝炎 as \"Hepatitis\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 肝炎 is a noun, not an adjective. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "5a30f4d4309b2a3e5e5bc533333b5f32ec7561f60f807e8d1eaa257eb4e18936",
+        "approvalHash": "8ac1031d98455c469cae2d1d77708aad435b8b7c116499d0ca70eb9841a8d9c8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 肝炎 Adjektiv -> Nomen matches JMdict 1214640 and UniDic 名詞 row; only type changed.",
+        "contentHash": "5a30f4d4309b2a3e5e5bc533333b5f32ec7561f60f807e8d1eaa257eb4e18936",
+        "approvalHash": "8ac1031d98455c469cae2d1d77708aad435b8b7c116499d0ca70eb9841a8d9c8"
+      }
+    },
+    {
+      "id": "vocab-n2:1978",
+      "revisionId": "053-vocab-n2-1978",
+      "state": "accepted",
+      "predecessorHash": "35ed54a011e5ad7858de2970a575d3fa774088044ea80b363e75e2e747a419d7",
+      "predecessorRevisionHash": "91a4e5101e9a086544320e9615b998738bc2d0bf53570fd40dc21bfb10c3ab6f",
+      "originalHash": "35ed54a011e5ad7858de2970a575d3fa774088044ea80b363e75e2e747a419d7",
+      "rationale": "全裸 is a noun (全裸で), not an adjective.",
+      "original": {
+        "type": "Adjektiv"
+      },
+      "replacement": {
+        "type": "Nomen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1396360; spelling=全裸; reading=ぜんら",
+          "finding": "JMdict 1396360 全裸/ぜんら: stark naked, completely naked, nude.",
+          "selected": {
+            "sequence": "1396360",
+            "spelling": "全裸",
+            "reading": "ぜんら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stark naked",
+                  "completely naked",
+                  "nude"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "全裸 is a noun (全裸で), not an adjective."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "word-class"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"völlig nackt\" checked against JMdict 1396360.",
+        "japanese": "一度しかない人生だろ！なぁ！一緒に全裸でスカイダイビングしに行こうぜ。すんげぇいい経験になると思うんだよね。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"zenra\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Man lebt nur einmal! Komm schon, lass uns nackt Fallschirmspringen gehen. Es wäre eine tolle Erfahrung für uns."
+        ],
+        "lexical": "Word class corrected to Nomen.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154977494",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "全裸 / ゼンラ; 名詞/普通名詞/一般/*; *; *; lemma 全裸; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "全裸",
+              "reading": "ぜんら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "全裸 as \"völlig nackt\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 全裸 is a noun (全裸で), not an adjective. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "803f9d1bdba37e5312e8794d12bf8652a8e84c739f89f1c1b02646776c1eb2dc",
+        "approvalHash": "324f14650a409b003a5832b8d9fd115548068fd037169489ceec050dbd6cff8b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 全裸 Adjektiv -> Nomen matches JMdict 1396360 and UniDic 名詞 row; only type changed.",
+        "contentHash": "803f9d1bdba37e5312e8794d12bf8652a8e84c739f89f1c1b02646776c1eb2dc",
+        "approvalHash": "324f14650a409b003a5832b8d9fd115548068fd037169489ceec050dbd6cff8b"
+      }
+    },
+    {
+      "id": "vocab-n2:2125",
+      "revisionId": "053-vocab-n2-2125",
+      "state": "accepted",
+      "predecessorHash": "282c19c2d1ff2500301775f516e6e0f58873589e47fe18f67d7e0ef1d3b83010",
+      "predecessorRevisionHash": "61f2ef3937b407a75553964d3efae74034d6b84ea1cd354a37f4e64dfbf085be",
+      "originalHash": "282c19c2d1ff2500301775f516e6e0f58873589e47fe18f67d7e0ef1d3b83010",
+      "rationale": "Suffix entries keep type Partikel by project convention and mark \"(Suffix)\" in the meaning; \"Jagd\" alone hid that 〜狩り is bound (鹿狩り, いちご狩り).",
+      "original": {
+        "meaning": "Jagd"
+      },
+      "replacement": {
+        "meaning": "-jagd; -pflücken (Suffix)"
+      },
+      "evidence": [
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "Suffix entries keep type Partikel by project convention and mark \"(Suffix)\" in the meaning; \"Jagd\" alone hid that 〜狩り is bound (鹿狩り, いちご狩り)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "meaning"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"-jagd; -pflücken (Suffix)\" checked against the examples.",
+        "japanese": "鹿狩り用の見張り台は、今は大きなブルーシートで覆われています。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"gari\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Der Ausguck, den wir für die Hirschjagd nutzen, ist jetzt mit einer großen blauen Plane bedeckt."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 〜狩り / がり.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n2:2125; exact written-form/kana lookup 〜狩り / がり",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: Suffix entries keep type Partikel by project convention and mark \"(Suffix)\" in the meaning; \"Jagd\" alone hid that 〜狩り is bound (鹿狩り, いちご狩り). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "e849cbb71036d92608781bd30ddb1e9291ad10afdb60df1d4ba6275d58c78e71",
+        "approvalHash": "ac974b28c1989214de838be762fffb00950a79085dfd406ac6f51593d5db9752"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 〜狩り (round 2) keeps type Partikel per the project suffix convention (〜漬け, 〜集, 〜済み) and meaning \"-jagd; -pflücken (Suffix)\" covers 鹿狩り/いちご狩り; pitch null (no exact row).",
+        "contentHash": "e849cbb71036d92608781bd30ddb1e9291ad10afdb60df1d4ba6275d58c78e71",
+        "approvalHash": "ac974b28c1989214de838be762fffb00950a79085dfd406ac6f51593d5db9752"
+      }
+    },
+    {
+      "id": "vocab-n3:3034",
+      "revisionId": "053-vocab-n3-3034",
+      "state": "accepted",
+      "predecessorHash": "05bed5a7d8b801ddc16346283b431afbb1532c6725006201244267e578f4da78",
+      "predecessorRevisionHash": "2414a81723b54478a8bd33ca7a91642c35492c40481cd638eb3d52746c69cfb4",
+      "originalHash": "05bed5a7d8b801ddc16346283b431afbb1532c6725006201244267e578f4da78",
+      "rationale": "越す is for crossing a physical boundary; exceeding a number is written 超す, so the height example taught the wrong kanji. Replaced with a crossing example.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "どうすればNBA選手のように身長が6.5フィートを越すのでしょうか。今、6フィートなのですが、6.5を越したいのです。",
+            "romaji": "Dō sureba NBA senshu no yō ni shinchō ga 6.5 fīto o kosu no deshō ka. Ima, 6 fīto na no desu ga, 6.5 o koshitai no desu.",
+            "german": "Wie kann ich wie NBA-Spieler größer als 1,95 m werden? Ich bin jetzt 1,83 m und möchte 1,95 m überschreiten."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "山を越すと、海が見えてきた。",
+            "romaji": "Yama o kosu to, umi ga miete kita.",
+            "german": "Als wir den Berg überquert hatten, kam das Meer in Sicht."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1175300; spelling=越す; reading=こす",
+          "finding": "JMdict 1175300 越す/こす: to cross over (e.g. mountain), to go across | to get over (e.g. hardship).",
+          "selected": {
+            "sequence": "1175300",
+            "spelling": "越す",
+            "reading": "こす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to cross over (e.g. mountain)",
+                  "to go across"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to get over (e.g. hardship)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "越す is for crossing a physical boundary; exceeding a number is written 超す, so the height example taught the wrong kanji. Replaced with a crossing example."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "example-replacement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"überschreiten\" checked against JMdict 1175300.",
+        "japanese": "山を越すと、海が見えてきた。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"kosu\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Als wir den Berg überquert hatten, kam das Meer in Sicht."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@122605646",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "越す / コス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 越す; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "越す",
+              "reading": "こす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "越す as \"überschreiten\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 越す is for crossing a physical boundary; exceeding a number is written 超す, so the height example taught the wrong kanji. Replaced with a crossing example. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "d61ec60efc619a496d73ed6dda2b4b03efbf7bd52218d81e419f00b71c63b297",
+        "approvalHash": "75b8b618c778667434d7ed404dedf375367bde31805f834f54d8ab4d3ec12bac"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: New 越す example 山を越すと、海が見えてきた。 teaches the crossing sense (JMdict 1175300) instead of the 超す-type height example; romaji exact; German accurate.",
+        "contentHash": "d61ec60efc619a496d73ed6dda2b4b03efbf7bd52218d81e419f00b71c63b297",
+        "approvalHash": "75b8b618c778667434d7ed404dedf375367bde31805f834f54d8ab4d3ec12bac"
+      }
+    },
+    {
+      "id": "vocab-n3:3137",
+      "revisionId": "053-vocab-n3-3137",
+      "state": "accepted",
+      "predecessorHash": "d68e9c75569625bdd38e3cdba06fbc87d305bfdf0589c6b85feaa429d3d340f6",
+      "predecessorRevisionHash": "3af256b0802bc4efafb6afd68c33b53d4ab1c2aed946062455bbb8350b2ad24a",
+      "originalHash": "d68e9c75569625bdd38e3cdba06fbc87d305bfdf0589c6b85feaa429d3d340f6",
+      "rationale": "The usual spelling is 縦書き with okurigana (JMdict 1335680 lists 縦書き first; UniDic files 縦書 under lemma 縦書き); 縦書 kept as alias, example uses 縦書き.",
+      "original": {
+        "word": "縦書",
+        "aliases": null,
+        "examples": [
+          {
+            "japanese": "文章を縦書にしたいんです。",
+            "romaji": "Bunshō o tategaki ni shitai n desu.",
+            "german": "Ich möchte den Text vertikal schreiben."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@163965013",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "縦書 / タテガキ; 名詞/普通名詞/一般/*; *; *; lemma 縦書き; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "縦書",
+              "reading": "たてがき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "縦書 as \"Vertikalschrift\"."
+            }
+          }
+        ]
+      },
+      "replacement": {
+        "word": "縦書き",
+        "aliases": [
+          "縦書"
+        ],
+        "examples": [
+          {
+            "japanese": "文章を縦書きにしたいんです。",
+            "romaji": "Bunshō o tategaki ni shitai n desu.",
+            "german": "Ich möchte den Text vertikal schreiben."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@163965213",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "縦書き / タテガキ; 名詞/普通名詞/一般/*; *; *; lemma 縦書き; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "縦書き",
+              "reading": "たてがき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "縦書き as \"Vertikalschrift\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1335680; spelling=縦書き; reading=たてがき",
+          "finding": "JMdict 1335680 縦書き/たてがき: writing vertically, vertical writing.",
+          "selected": {
+            "sequence": "1335680",
+            "spelling": "縦書き",
+            "reading": "たてがき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "writing vertically",
+                  "vertical writing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "The usual spelling is 縦書き with okurigana (JMdict 1335680 lists 縦書き first; UniDic files 縦書 under lemma 縦書き); 縦書 kept as alias, example uses 縦書き."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "headword-spelling",
+          "spelling-alias",
+          "example-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Vertikalschrift\" checked against JMdict 1335680.",
+        "japanese": "文章を縦書きにしたいんです。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"tategaki\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich möchte den Text vertikal schreiben."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@163965213 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@163965213",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "縦書き / タテガキ; 名詞/普通名詞/一般/*; *; *; lemma 縦書き; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "縦書き",
+              "reading": "たてがき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "縦書き as \"Vertikalschrift\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: The usual spelling is 縦書き with okurigana (JMdict 1335680 lists 縦書き first; UniDic files 縦書 under lemma 縦書き); 縦書 kept as alias, example uses 縦書き. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "528778bc4ecdaf0639d84b5f7c1c8646f84af3700ab96df43507c9405dd2114d",
+        "approvalHash": "18e22a786eab7add4347a18cc55026b31697fcf1de6bb2bf0ee49b2b5cc21dc3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 縦書 -> 縦書き with 縦書 alias (JMdict 1335680); example uses 縦書き; round-2 pitch 0 now cites the headword own row sys.dic@163965213 (match.word 縦書き), provenance replaced.",
+        "contentHash": "528778bc4ecdaf0639d84b5f7c1c8646f84af3700ab96df43507c9405dd2114d",
+        "approvalHash": "18e22a786eab7add4347a18cc55026b31697fcf1de6bb2bf0ee49b2b5cc21dc3"
+      }
+    },
+    {
+      "id": "vocab-n3:3181",
+      "revisionId": "053-vocab-n3-3181",
+      "state": "accepted",
+      "predecessorHash": "39e544b95f4d0ad3702c39be6f7d9010455ba798ac17c6b622ab05e1d016ea85",
+      "predecessorRevisionHash": "f10403e3d93bc5ba527e8751c7a6408dca3a39ee7a1d09642b9fb8d0cb4fb5a0",
+      "originalHash": "39e544b95f4d0ad3702c39be6f7d9010455ba798ac17c6b622ab05e1d016ea85",
+      "rationale": "\"aufpeppen\" is odd for 盛り上げる; the taught sense (パーティーを盛り上げる) is to liven up, get people in the mood.",
+      "original": {
+        "meaning": "aufpeppen"
+      },
+      "replacement": {
+        "meaning": "in Stimmung bringen, anheizen"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1379700; spelling=盛り上げる; reading=もりあげる",
+          "finding": "JMdict 1379700 盛り上げる/もりあげる: to pile up, to heap up | to stir up, to enliven, to bring to a climax.",
+          "selected": {
+            "sequence": "1379700",
+            "spelling": "盛り上げる",
+            "reading": "もりあげる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to pile up",
+                  "to heap up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to stir up",
+                  "to enliven",
+                  "to bring to a climax"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "\"aufpeppen\" is odd for 盛り上げる; the taught sense (パーティーを盛り上げる) is to liven up, get people in the mood."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "meaning"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"in Stimmung bringen, anheizen\" checked against JMdict 1379700.",
+        "japanese": "俺の友達はメチャクチャ面白くて、パーティーを盛り上げるのが得意なんだよ。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"moriageru\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Mein Kumpel ist unglaublich lustig und er ist großartig darin, Partys in Schwung zu bringen."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (ichidan).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 4 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@266442457",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "盛り上げる / モリアゲル; 動詞/一般/*/*; 下一段-ガ行; 終止形-一般; lemma 盛り上げる; aType 4. Existing pitch 4 attested by the exact row.",
+            "match": {
+              "word": "盛り上げる",
+              "reading": "もりあげる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ガ行; 終止形-一般",
+              "sense": "盛り上げる as \"aufpeppen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: \"aufpeppen\" is odd for 盛り上げる; the taught sense (パーティーを盛り上げる) is to liven up, get people in the mood. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "5c1d61a26a6038d731984bcc4d10a51c95fe6a2bdff9f194a7885a806a1d5111",
+        "approvalHash": "3ca0eeedb2470dad621477c441a98d0619825c255657db58a0b1292e640b7f35"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 盛り上げる \"in Stimmung bringen, anheizen\" matches JMdict 1379700 sense 2 and the パーティーを盛り上げる example.",
+        "contentHash": "5c1d61a26a6038d731984bcc4d10a51c95fe6a2bdff9f194a7885a806a1d5111",
+        "approvalHash": "3ca0eeedb2470dad621477c441a98d0619825c255657db58a0b1292e640b7f35"
+      }
+    },
+    {
+      "id": "vocab-n2:620",
+      "revisionId": "053-vocab-n2-620",
+      "state": "accepted",
+      "predecessorHash": "9241241a0149882120f62bd240e96b72efe5418ea43a07ed10c78dcfbce89c7b",
+      "predecessorRevisionHash": "30529704f823872f3db9611776bf1a8a5341e4c1c0c39bbdd76b2b967e33ae39",
+      "originalHash": "9241241a0149882120f62bd240e96b72efe5418ea43a07ed10c78dcfbce89c7b",
+      "rationale": "愁う is a rare spelling; 憂う is the common one (JMdict 2871697 lists 憂う first). Headword changed to 憂う with 愁う kept as alias; example uses 憂う.",
+      "original": {
+        "word": "愁う",
+        "aliases": null,
+        "examples": [
+          {
+            "japanese": "国の将来を愁う声が多い。",
+            "romaji": "Kuni no shōrai o ureu koe ga ōi.",
+            "german": "Es gibt viele Stimmen, die sich um die Zukunft des Landes sorgen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "word": "憂う",
+        "aliases": [
+          "愁う"
+        ],
+        "examples": [
+          {
+            "japanese": "国の将来を憂う声が多い。",
+            "romaji": "Kuni no shōrai o ureu koe ga ōi.",
+            "german": "Es gibt viele Stimmen, die sich um die Zukunft des Landes sorgen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69083518",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "憂う / ウレウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 憂う; aType 2. Existing null unattested by the exact row; corrected to 2.",
+            "match": {
+              "word": "憂う",
+              "reading": "うれう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "憂う as \"bekümmert sein, sich grämen\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2871697; spelling=憂う; reading=うれう",
+          "finding": "JMdict 2871697 憂う/うれう: to worry about, to be anxious about, to be concerned about | to lament, to grieve, to mourn.",
+          "selected": {
+            "sequence": "2871697",
+            "spelling": "憂う",
+            "reading": "うれう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to worry about",
+                  "to be anxious about",
+                  "to be concerned about",
+                  "to stress over"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to lament",
+                  "to grieve",
+                  "to mourn",
+                  "to feel sorrow for"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "愁う is a rare spelling; 憂う is the common one (JMdict 2871697 lists 憂う first). Headword changed to 憂う with 愁う kept as alias; example uses 憂う."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "headword-spelling",
+          "spelling-alias",
+          "example-correction"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"bekümmert sein, sich grämen\" checked against JMdict 2871697.",
+        "japanese": "国の将来を憂う声が多い。 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"ureu\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Es gibt viele Stimmen, die sich um die Zukunft des Landes sorgen."
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@69083518 attests 2. Existing null unattested by the exact row; corrected to 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69083518",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "憂う / ウレウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 憂う; aType 2. Existing null unattested by the exact row; corrected to 2.",
+            "match": {
+              "word": "憂う",
+              "reading": "うれう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "憂う as \"bekümmert sein, sich grämen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: 愁う is a rare spelling; 憂う is the common one (JMdict 2871697 lists 憂う first). Headword changed to 憂う with 愁う kept as alias; example uses 憂う. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "16d8dc57c84885f2bedb28f3a7d1a6207f58166ab5b1406d0f608ed6e7591a62",
+        "approvalHash": "57bb029b254b7eea11291dc49712793d04f5341eac098f706ed5312cdc449de3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: 愁う -> 憂う with 愁う alias; example uses 憂う, romaji ureu; round-2 JMdict evidence is Godan entry 2871697 (愁う rK there); pitch 2 from own 終止形 row sys.dic@69083518.",
+        "contentHash": "16d8dc57c84885f2bedb28f3a7d1a6207f58166ab5b1406d0f608ed6e7591a62",
+        "approvalHash": "57bb029b254b7eea11291dc49712793d04f5341eac098f706ed5312cdc449de3"
+      }
+    },
+    {
+      "id": "vocab-n2:1352",
+      "revisionId": "053-vocab-n2-1352",
+      "state": "accepted",
+      "predecessorHash": "51109786f69221f8a7a3b3be640cfb7ba1cc7e6425101fb1e5d2b3569a20336a",
+      "predecessorRevisionHash": "cb094d365709b098b5eeaf4b7ac601556f41c4caa4537a018a078f44ca1285e2",
+      "originalHash": "51109786f69221f8a7a3b3be640cfb7ba1cc7e6425101fb1e5d2b3569a20336a",
+      "rationale": "\"Aalschüssel\" is unidiomatic; the dish is rice topped with grilled eel.",
+      "original": {
+        "meaning": "Aalschüssel"
+      },
+      "replacement": {
+        "meaning": "Unagi-Donburi (Reisschüssel mit gegrilltem Aal)"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1172510; spelling=うなぎ丼; reading=うなぎどんぶり",
+          "finding": "JMdict 1172510 うなぎ丼/うなぎどんぶり: eel donburi, bowl of rice topped with eel.",
+          "selected": {
+            "sequence": "1172510",
+            "spelling": "うなぎ丼",
+            "reading": "うなぎどんぶり",
+            "readingRestrictions": [
+              "鰻丼",
+              "うなぎ丼"
+            ],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "eel donburi",
+                  "bowl of rice topped with eel"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (batch 052 review, maintenance batch 053)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m052/other-issues.json",
+          "finding": "\"Aalschüssel\" is unidiomatic; the dish is rice topped with grilled eel."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "meaning"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-053-editor",
+        "meaning": "\"Unagi-Donburi (Reisschüssel mit gegrilltem Aal)\" checked against JMdict 1172510.",
+        "japanese": "「じゃあね、たまには連絡してね。」「もちろん。てか、近いうちにうなぎ丼でも食べに行こうよ。」「いいね。」「よかった。じゃあ、また連絡するね。」「ええ、またね。」 — natural, and uses the headword in the taught sense.",
+        "romanization": "Headword \"unagidonburi\" and example romaji in Modified Hepburn, checked against the Japanese.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "\"Pass auf dich auf und ruf mich mal an.\" \"Natürlich. Lass uns bald Aal-Reisschüsseln essen gehen.\" \"Klingt gut.\" \"Okay. Ich melde mich bei dir.\" \"Ja, bis dann.\""
+        ],
+        "lexical": "No sense merged or split.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for うなぎ丼 / うなぎどんぶり.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n2:1352; exact written-form/kana lookup うなぎ丼 / うなぎどんぶり",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-editor",
+        "finding": "Editorial first pass: \"Aalschüssel\" is unidiomatic; the dish is rice topped with grilled eel. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "21060877e77dc0612aaaa2e5e6f7967c915b7bcd01d954e50bdeab0b2b5bc103",
+        "approvalHash": "89c8c6c2de33c915f1eb545aeeef43332e602d938afc95cef37e8636adf3b55e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-053-independent-reviewer",
+        "finding": "Independent second pass: うなぎ丼 (round 2) \"Unagi-Donburi (Reisschüssel mit gegrilltem Aal)\" matches the taught reading うなぎどんぶり and JMdict 1172510.",
+        "contentHash": "21060877e77dc0612aaaa2e5e6f7967c915b7bcd01d954e50bdeab0b2b5bc103",
+        "approvalHash": "89c8c6c2de33c915f1eb545aeeef43332e602d938afc95cef37e8636adf3b55e"
+      }
+    }
+  ],
+  "decisions": []
+}

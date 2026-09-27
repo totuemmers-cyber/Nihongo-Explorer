@@ -3354,9 +3354,9 @@ window.VOCAB_CORRECTION_RULES = {
       "2648": {
         "examples": [
           {
-            "japanese": "交渉が膠着状態に陥った。",
-            "romaji": "Kōshō ga kōchaku jōtai ni ochiitta.",
-            "german": "Die Verhandlungen gerieten in eine Sackgasse."
+            "japanese": "交渉は三か月前から膠着している。",
+            "romaji": "Kōshō wa sankagetsu mae kara kōchaku shite iru.",
+            "german": "Die Verhandlungen stecken seit drei Monaten fest."
           }
         ],
         "pitch": null
@@ -3665,6 +3665,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "3195": {
+        "meaning": "(Aufmerksamkeit, Bewusstsein) wecken, hervorrufen, anregen",
         "examples": [
           {
             "japanese": "あの政治家は、世論を喚起するのが巧い。",
@@ -3845,9 +3846,9 @@ window.VOCAB_CORRECTION_RULES = {
       "3356": {
         "examples": [
           {
-            "japanese": "私はこうしたパーティには、控えめだけど上品な「かざり錦」の着物を着て行くことが多いです。",
-            "romaji": "Watashi wa kōshita pāti ni wa, hikaeme da kedo jōhin na \"kazari nishiki\" no kimono o kite iku koto ga ōi desu.",
-            "german": "Zu solchen Partys trage ich oft einen dezenten, aber eleganten Kimono aus 'Zierbrokat'."
+            "japanese": "彼は事業で成功し、故郷に錦を飾った。",
+            "romaji": "Kare wa jigyō de seikō shi, kokyō ni nishiki o kazatta.",
+            "german": "Er hatte geschäftlich Erfolg und kehrte ruhmreich in seine Heimat zurück (wörtlich: schmückte die Heimat mit Brokat)."
           }
         ],
         "pitchProvenance": [
@@ -4052,6 +4053,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "3506": {
+        "meaning": "Selbstbestimmung; Selbsttötung",
         "examples": [
           {
             "japanese": "彼らは敵に降伏するよりも、集団自決を選んだとされています。",
@@ -4203,9 +4205,9 @@ window.VOCAB_CORRECTION_RULES = {
       "3568": {
         "examples": [
           {
-            "japanese": "ニモやその家族は、隠熊之実という魚だよ。",
-            "romaji": "Nimo ya sono kazoku wa, kakurekumanomi to iu sakana da yo.",
-            "german": "Nemo und seine Familie sind Fische, die Clownfische heißen."
+            "japanese": "熊之実はイソギンチャクと共生する魚だ。",
+            "romaji": "Kumanomi wa isoginchaku to kyōsei suru sakana da.",
+            "german": "Clownfische leben in Symbiose mit Seeanemonen."
           }
         ],
         "pitchProvenance": [
@@ -71697,31 +71699,33 @@ window.VOCAB_CORRECTION_RULES = {
         "pitch": null
       },
       "892": {
+        "meaning": "geradlinig, unbeirrbar",
         "examples": [
           {
             "japanese": "ニックって一本気なところがあるよね。",
             "romaji": "Nikku tte ippongi na tokoro ga aru yo ne.",
-            "german": "Nick hat eine zielstrebige Seite."
+            "german": "Nick hat etwas Geradliniges an sich, oder?"
           },
           {
             "japanese": "彼は一本気な人です。",
             "romaji": "Kare wa ippongi na hito desu.",
-            "german": "Er ist ein zielstrebiger Mensch."
+            "german": "Er ist ein geradliniger, unbeirrbarer Mensch."
           }
         ],
         "pitch": null
       },
       "906": {
+        "meaning": "Werktag (Mo–Fr)",
         "examples": [
           {
             "japanese": "平日のディナーは主にカレーです。",
             "romaji": "Heijitsu no dinā wa omo ni karē desu.",
-            "german": "An Wochentagen esse ich hauptsächlich Curry zum Abendessen."
+            "german": "An Werktagen gibt es zum Abendessen meistens Curry."
           },
           {
             "japanese": "平日は仕事があります。",
             "romaji": "Heijitsu wa shigoto ga arimasu.",
-            "german": "An Wochentagen habe ich Arbeit."
+            "german": "An Werktagen muss ich arbeiten."
           }
         ],
         "pitchProvenance": [
@@ -72040,6 +72044,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "1095": {
         "romaji": "shōgakusei",
+        "meaning": "Grundschüler",
         "examples": [
           {
             "japanese": "その兄弟は、まだ二人とも小学生です。",
@@ -76260,9 +76265,9 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Wussten Sie, dass es im Jahr 64 n. Chr. einen großen Brand in Rom gab?"
           },
           {
-            "japanese": "紀元後二千年から歴史が変わりました。",
-            "romaji": "Kigengo nisen-nen kara rekishi ga kawarimashita.",
-            "german": "Ab dem Jahr 2000 n. Chr. hat sich die Geschichte verändert."
+            "japanese": "キリストが生まれた年を境に、紀元前と紀元後に分ける。",
+            "romaji": "Kirisuto ga umareta toshi o sakai ni, kigenzen to kigengo ni wakeru.",
+            "german": "Die Zeitrechnung wird am Geburtsjahr Christi in v. Chr. und n. Chr. geteilt."
           }
         ],
         "pitch": null
@@ -76544,7 +76549,7 @@ window.VOCAB_CORRECTION_RULES = {
           {
             "japanese": "仏僧が修行をしています。",
             "romaji": "Bussō ga shugyō o shite imasu.",
-            "german": "Die buddhistischen Mönche meditieren."
+            "german": "Die buddhistischen Mönche üben sich in Askese."
           }
         ],
         "pitchProvenance": [
@@ -76569,14 +76574,14 @@ window.VOCAB_CORRECTION_RULES = {
       "1199": {
         "examples": [
           {
-            "japanese": "今日のトーフグポッドキャストのテーマは、生と死の不可分性です。",
-            "romaji": "Kyō no Tōfugu poddokyasuto no tēma wa, sei to shi no fukabunsei desu.",
-            "german": "Das heutige Thema des Tofugu-Podcasts ist die Untrennbarkeit von Leben und Tod."
+            "japanese": "この土地は可分の財産として扱われる。",
+            "romaji": "Kono tochi wa kabun no zaisan to shite atsukawareru.",
+            "german": "Dieses Grundstück wird als teilbares Vermögen behandelt."
           },
           {
-            "japanese": "この数は三で可分です。",
-            "romaji": "Kono kazu wa san de kabun desu.",
-            "german": "Diese Zahl ist durch drei teilbar."
+            "japanese": "法律上、可分債務と不可分債務は区別される。",
+            "romaji": "Hōritsujō, kabun saimu to fukabun saimu wa kubetsu sareru.",
+            "german": "Rechtlich unterscheidet man teilbare und unteilbare Verbindlichkeiten."
           }
         ],
         "pitch": null
@@ -76629,6 +76634,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "1323": {
+        "meaning": "Einzelzimmer; Separee, Privatraum",
         "examples": [
           {
             "japanese": "カフェで個室を予約して、友達とゆっくりおしゃべりを楽しみました。",
@@ -79932,6 +79938,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "994": {
+        "meaning": "friedlich, gütlich",
         "examples": [
           {
             "japanese": "穏便に済ませましょう。",
@@ -80649,8 +80656,8 @@ window.VOCAB_CORRECTION_RULES = {
         "romaji": "tochō",
         "examples": [
           {
-            "japanese": "都庁の前には、１９９５年の型のホンダ・シビックが停まっていた。",
-            "romaji": "Tochō no mae ni wa, sen kyūhyaku kyūjūgo-nen no kata no Honda Shibikku ga tomatte ita.",
+            "japanese": "都庁の前には、１９９５年型のホンダ・シビックが停まっていた。",
+            "romaji": "Tochō no mae ni wa, sen kyūhyaku kyūjūgo-nengata no Honda Shibikku ga tomatte ita.",
             "german": "Vor dem Regierungsgebäude stand ein Honda Civic, Baujahr 1995."
           }
         ],
@@ -80832,11 +80839,19 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "2597": {
+        "meaning": "Wahnsinn; Verrückter (abwertend, diskriminierend)",
+        "type": "Nomen",
+        "notes": "Achtung: abwertender, diskriminierender Ausdruck, der in Medien vermieden wird. Nur zum Verstehen lernen; neutral sind z. B. 変わった (ungewöhnlich) oder 夢中な (begeistert).",
         "examples": [
           {
             "japanese": "カナエは、たまに気違いじみたダンスをしながらオフィスに入ってくる。",
             "romaji": "Kanae wa, tama ni kichigaijimita dansu o shinagara ofisu ni haitte kuru.",
             "german": "Kanae kommt manchmal tanzend ins Büro und führt dabei einen verrückten Tanz auf."
+          },
+          {
+            "japanese": "昔の小説には「気違い」という言葉がよく出てくるが、今は差別語とされている。",
+            "romaji": "Mukashi no shōsetsu ni wa 'kichigai' to iu kotoba ga yoku dete kuru ga, ima wa sabetsugo to sarete iru.",
+            "german": "In alten Romanen kommt das Wort „kichigai“ oft vor, heute gilt es jedoch als diskriminierend."
           }
         ],
         "pitch": 3,
@@ -80916,6 +80931,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "2619": {
+        "meaning": "mitten in der Nacht, Nacht",
         "examples": [
           {
             "japanese": "夜中の二時にチャイムが鳴った。",
@@ -81087,9 +81103,10 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "2651": {
         "romaji": "shōkibo",
+        "meaning": "klein angelegt, in kleinem Maßstab",
         "examples": [
           {
-            "japanese": "うちの会社のプロジェクトチームは小回りが効くように、小規模化されているんです。",
+            "japanese": "うちの会社のプロジェクトチームは小回りが利くように、小規模化されているんです。",
             "romaji": "Uchi no kaisha no purojekuto chīmu wa komawari ga kiku yō ni, shōkiboka sarete iru n desu.",
             "german": "Die Projektteams in unserer Firma sind klein gehalten, um flexibler zu sein."
           }
@@ -81143,6 +81160,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "2669": {
+        "type": "Nomen",
         "examples": [
           {
             "japanese": "ディズニーランドでは迷子の放送がないそうですよ。",
@@ -81712,6 +81730,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "2893": {
+        "type": "Nomen",
         "examples": [
           {
             "japanese": "20代のころに一人ぐらしを始めて、ジャンクフードを食べる快楽に目覚めてしまったんです。",
@@ -82067,9 +82086,9 @@ window.VOCAB_CORRECTION_RULES = {
       "3034": {
         "examples": [
           {
-            "japanese": "どうすればNBA選手のように身長が6.5フィートを越すのでしょうか。今、6フィートなのですが、6.5を越したいのです。",
-            "romaji": "Dō sureba NBA senshu no yō ni shinchō ga 6.5 fīto o kosu no deshō ka. Ima, 6 fīto na no desu ga, 6.5 o koshitai no desu.",
-            "german": "Wie kann ich wie NBA-Spieler größer als 1,95 m werden? Ich bin jetzt 1,83 m und möchte 1,95 m überschreiten."
+            "japanese": "山を越すと、海が見えてきた。",
+            "romaji": "Yama o kosu to, umi ga miete kita.",
+            "german": "Als wir den Berg überquert hatten, kam das Meer in Sicht."
           }
         ],
         "pitchProvenance": [
@@ -82232,33 +82251,38 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "3137": {
+        "word": "縦書き",
         "examples": [
           {
-            "japanese": "文章を縦書にしたいんです。",
+            "japanese": "文章を縦書きにしたいんです。",
             "romaji": "Bunshō o tategaki ni shitai n desu.",
             "german": "Ich möchte den Text vertikal schreiben."
           }
+        ],
+        "aliases": [
+          "縦書"
         ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
             "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
-            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@163965013",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@163965213",
             "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
             "patterns": [
               0
             ],
-            "finding": "縦書 / タテガキ; 名詞/普通名詞/一般/*; *; *; lemma 縦書き; aType 0. Existing pitch 0 attested by the exact row.",
+            "finding": "縦書き / タテガキ; 名詞/普通名詞/一般/*; *; *; lemma 縦書き; aType 0. Existing pitch 0 attested by the exact row.",
             "match": {
-              "word": "縦書",
+              "word": "縦書き",
               "reading": "たてがき",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "縦書 as \"Vertikalschrift\"."
+              "sense": "縦書き as \"Vertikalschrift\"."
             }
           }
         ]
       },
       "3147": {
+        "type": "Nomen",
         "examples": [
           {
             "japanese": "結局、あんたが黒幕だったんだな。どうりであの女を殺した時手慣れていたと思ったよ。",
@@ -82369,6 +82393,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "3181": {
+        "meaning": "in Stimmung bringen, anheizen",
         "examples": [
           {
             "japanese": "俺の友達はメチャクチャ面白くて、パーティーを盛り上げるのが得意なんだよ。",
@@ -97214,14 +97239,35 @@ window.VOCAB_CORRECTION_RULES = {
         "pitch": null
       },
       "620": {
+        "word": "憂う",
         "examples": [
           {
-            "japanese": "国の将来を愁う声が多い。",
+            "japanese": "国の将来を憂う声が多い。",
             "romaji": "Kuni no shōrai o ureu koe ga ōi.",
             "german": "Es gibt viele Stimmen, die sich um die Zukunft des Landes sorgen."
           }
         ],
-        "pitch": null
+        "aliases": [
+          "愁う"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69083518",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "憂う / ウレウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 憂う; aType 2. Existing null unattested by the exact row; corrected to 2.",
+            "match": {
+              "word": "憂う",
+              "reading": "うれう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "憂う as \"bekümmert sein, sich grämen\"."
+            }
+          }
+        ]
       },
       "631": {
         "examples": [
@@ -97374,6 +97420,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "1352": {
+        "meaning": "Unagi-Donburi (Reisschüssel mit gegrilltem Aal)",
         "examples": [
           {
             "japanese": "「じゃあね、たまには連絡してね。」「もちろん。てか、近いうちにうなぎ丼でも食べに行こうよ。」「いいね。」「よかった。じゃあ、また連絡するね。」「ええ、またね。」",
@@ -97510,6 +97557,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "1433": {
+        "meaning": "Base-Schiedsrichter (Baseball)",
         "examples": [
           {
             "japanese": "あの一塁の塁審、試合中に屁をこきまくってたぜ。",
@@ -97603,6 +97651,7 @@ window.VOCAB_CORRECTION_RULES = {
         "pitch": null
       },
       "1515": {
+        "type": "Nomen",
         "examples": [
           {
             "japanese": "しばらくすると、ジェームズは円盤を脇に抱えて戻ってきて、UFOを見つけたんだと言いました。",
@@ -97819,9 +97868,9 @@ window.VOCAB_CORRECTION_RULES = {
       "1670": {
         "examples": [
           {
-            "japanese": "なんだか毛が殖えてるなあと思ったら、植毛手術をしたんだぁ！なるほどねぇ。",
-            "romaji": "Nandaka ke ga fueteru nā to omottara, shokumō shujutsu o shita n dā! Naruhodo nē.",
-            "german": "Ich dachte mir, dass sich deine Haare irgendwie vermehrt haben, aber du hattest eine Haartransplantation, oder? Ach so."
+            "japanese": "銀行に預けたお金が、利息で少しずつ殖えていく。",
+            "romaji": "Ginkō ni azuketa okane ga, risoku de sukoshi zutsu fuete iku.",
+            "german": "Das bei der Bank angelegte Geld vermehrt sich durch die Zinsen nach und nach."
           }
         ],
         "pitch": 2,
@@ -97948,6 +97997,7 @@ window.VOCAB_CORRECTION_RULES = {
         "pitch": null
       },
       "1746": {
+        "type": "Nomen",
         "examples": [
           {
             "japanese": "父に夏至から11日目のことを何と呼ぶか知っているかと聞かれたので、得意気に「ハゲ症」って答えたんですけど、それって「ハゲ頭の症状」って意味になるみたいで。父は笑って、正しい答えは「半夏生」だよって教えてくれましたけどね。",
@@ -98098,6 +98148,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "1806": {
+        "type": "Nomen",
         "examples": [
           {
             "japanese": "あのA型肝炎の患者は愛に飢えており、いつも医者や看護師の気を引こうとしている。",
@@ -98598,6 +98649,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "1978": {
+        "type": "Nomen",
         "examples": [
           {
             "japanese": "一度しかない人生だろ！なぁ！一緒に全裸でスカイダイビングしに行こうぜ。すんげぇいい経験になると思うんだよね。",
@@ -99022,6 +99074,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "2125": {
+        "meaning": "-jagd; -pflücken (Suffix)",
         "examples": [
           {
             "japanese": "鹿狩り用の見張り台は、今は大きなブルーシートで覆われています。",
@@ -125998,6 +126051,15 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "154": {
+        "examples": [
+          {
+            "japanese": "日本は春夏秋冬の四季がはっきりしている。",
+            "romaji": "Nihon wa shunka shūtō no shiki ga hakkiri shite iru.",
+            "german": "In Japan sind die vier Jahreszeiten – Frühling, Sommer, Herbst und Winter – deutlich ausgeprägt."
+          }
+        ]
+      },
       "155": {},
       "159": {},
       "162": {
@@ -126047,6 +126109,15 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "217": {
         "type": "Sprichwort"
+      },
+      "235": {
+        "examples": [
+          {
+            "japanese": "傍目八目というように、当事者より第三者のほうが冷静に判断できるものだ。",
+            "romaji": "Okame hachimoku to iu yō ni, tōjisha yori daisansha no hō ga reisei ni handan dekiru mono da.",
+            "german": "Wie man sagt, sehen Zuschauer mehr als die Spieler: Außenstehende urteilen oft nüchterner als die Betroffenen."
+          }
+        ]
       },
       "236": {
         "examples": [
@@ -129558,6 +129629,7 @@ window.VOCAB_CORRECTION_RULES = {
       "150": "yojijukugo:150",
       "152": "yojijukugo:152",
       "153": "yojijukugo:153",
+      "154": "yojijukugo:154",
       "155": "yojijukugo:155",
       "159": "yojijukugo:159",
       "162": "yojijukugo:162",
@@ -129568,6 +129640,7 @@ window.VOCAB_CORRECTION_RULES = {
       "178": "yojijukugo:178",
       "189": "yojijukugo:189",
       "217": "yojijukugo:217",
+      "235": "yojijukugo:235",
       "236": "yojijukugo:236"
     }
   }

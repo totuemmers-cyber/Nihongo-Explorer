@@ -105,6 +105,11 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
   fixes where clearly wrong and pitch re-checked against exact UniDic rows. Long vowels elsewhere
   come from the generated layer vocab-romaji-hepburn.js.
 
+- **053 (content fixes flagged in the 052 review, .content-cache/m053):** 34 entries: German meanings
+  (平日 Werktag, 自決 Selbstbestimmung, typos), nouns mistyped as adjectives, unnatural or off-headword
+  examples replaced (越す, 殖える, 膠着する, 錦, 可分), 縦書き and 憂う as headwords, and a usage warning
+  for the discriminatory 気違い.
+
 Runtime: **15,558 entries** (N5 1,644, N4 1,638, N3 3,758, N2 3,171, N1 5,347),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
