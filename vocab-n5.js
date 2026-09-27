@@ -36955,5 +36955,381 @@ window.VOCAB_N5 = [
       }
     ],
     "correctionId": "vocab-n5:correction:kopii"
+  },
+  {
+    "word": "ずつ",
+    "reading": "ずつ",
+    "romaji": "zutsu",
+    "meaning": "je, jeweils (gleichmäßig verteilt)",
+    "type": "Partikel",
+    "category": "Zahlen",
+    "level": "N5",
+    "notes": "Steht nach einer Mengenangabe: 一人一つずつ (jeder eins), 少しずつ (nach und nach). Früher auch づつ geschrieben.",
+    "examples": [
+      {
+        "japanese": "りんごを一人二つずつ取ってください。",
+        "romaji": "Ringo o hitori futatsu zutsu totte kudasai.",
+        "german": "Bitte nehmt euch jeder zwei Äpfel."
+      },
+      {
+        "japanese": "日本語が少しずつ分かるようになってきた。",
+        "romaji": "Nihongo ga sukoshi zutsu wakaru you ni natte kita.",
+        "german": "Ich verstehe Japanisch nach und nach immer besser."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:zutsu"
+  },
+  {
+    "word": "さよなら",
+    "reading": "さよなら",
+    "romaji": "sayonara",
+    "meaning": "tschüss; auf Wiedersehen; leb wohl",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N5",
+    "notes": "Lockere Kurzform von さようなら. Klingt oft endgültig („Lebewohl“); im Alltag verabschiedet man sich eher mit じゃあね oder またね.",
+    "examples": [
+      {
+        "japanese": "先生、さよなら。また明日。",
+        "romaji": "Sensei, sayonara. Mata ashita.",
+        "german": "Tschüss, Herr Lehrer. Bis morgen."
+      },
+      {
+        "japanese": "さよならも言わずに、彼は町を出ていった。",
+        "romaji": "Sayonara mo iwazu ni, kare wa machi o dete itta.",
+        "german": "Ohne sich zu verabschieden, verließ er die Stadt."
+      }
+    ],
+    "pitch": 3,
+    "pitchVariants": [
+      4
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132346587",
+        "patterns": [
+          3,
+          4
+        ],
+        "finding": "さよなら / サヨナラ; 感動詞/一般/*/*; *; *; lemma さようなら; aType 3,4. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "さよなら",
+          "reading": "さよなら",
+          "grammaticalForm": "感動詞/一般/*/*; *; *",
+          "sense": "さよなら as \"tschüss; auf Wiedersehen; leb wohl\"."
+        }
+      },
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132352684",
+        "patterns": [
+          3,
+          4
+        ],
+        "finding": "さよなら / サヨナラ; 名詞/普通名詞/一般/*; *; *; lemma さよなら; aType 3,4. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "さよなら",
+          "reading": "さよなら",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "さよなら as \"tschüss; auf Wiedersehen; leb wohl\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:sayonara"
+  },
+  {
+    "word": "あのう",
+    "reading": "あのう",
+    "romaji": "anou",
+    "meaning": "ähm; äh (zögernd, beim Ansprechen)",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N5",
+    "notes": "Zögerndes „Ähm, entschuldigen Sie …“ – um höflich jemanden anzusprechen oder Zeit zum Nachdenken zu gewinnen. Kürzer: あの.",
+    "examples": [
+      {
+        "japanese": "あのう、すみません。駅はどこですか。",
+        "romaji": "Anou, sumimasen. Eki wa doko desu ka.",
+        "german": "Ähm, entschuldigen Sie. Wo ist der Bahnhof?"
+      },
+      {
+        "japanese": "あのう、ちょっとお願いがあるんですが……。",
+        "romaji": "Anou, chotto onegai ga aru n desu ga...",
+        "german": "Ähm, ich hätte da eine kleine Bitte …"
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@45240223",
+        "patterns": [
+          0
+        ],
+        "finding": "あのう / アノウ; 感動詞/フィラー/*/*; *; *; lemma あの; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "あのう",
+          "reading": "あのう",
+          "grammaticalForm": "感動詞/フィラー/*/*; *; *",
+          "sense": "あのう as \"ähm; äh (zögernd, beim Ansprechen)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:anou"
+  },
+  {
+    "word": "失礼しました",
+    "reading": "しつれいしました",
+    "romaji": "shitsurei shimashita",
+    "meaning": "Entschuldigung; verzeihen Sie (die Störung)",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N5",
+    "notes": "Höfliche Entschuldigung für eine kleine Störung oder einen Fehler, auch beim Verlassen eines Raumes (z. B. des Lehrerzimmers). Präsens 失礼します beim Betreten.",
+    "examples": [
+      {
+        "japanese": "番号を間違えました。失礼しました。",
+        "romaji": "Bangou o machigaemashita. Shitsurei shimashita.",
+        "german": "Ich habe mich verwählt. Entschuldigen Sie."
+      },
+      {
+        "japanese": "「失礼しました」と言って、職員室を出た。",
+        "romaji": "\"Shitsurei shimashita\" to itte, shokuinshitsu o deta.",
+        "german": "Ich sagte „Entschuldigen Sie die Störung“ und verließ das Lehrerzimmer."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:shitsureishimashita"
+  },
+  {
+    "word": "ではまた",
+    "reading": "ではまた",
+    "romaji": "dewa mata",
+    "meaning": "also dann; bis dann",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N5",
+    "notes": "„Bis dann“ – etwas förmlicher als じゃあ、また. Oft am Ende von E-Mails oder Gesprächen mit Bekannten.",
+    "examples": [
+      {
+        "japanese": "ではまた、来週お会いしましょう。",
+        "romaji": "Dewa mata, raishuu oai shimashou.",
+        "german": "Also dann, sehen wir uns nächste Woche."
+      },
+      {
+        "japanese": "今日はありがとうございました。ではまた。",
+        "romaji": "Kyou wa arigatou gozaimashita. Dewa mata.",
+        "german": "Danke für heute. Bis dann."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:dewamata"
+  },
+  {
+    "word": "お元気ですか",
+    "reading": "おげんきですか",
+    "romaji": "ogenki desu ka",
+    "meaning": "Wie geht es Ihnen?",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N5",
+    "notes": "„Wie geht es Ihnen?“ – nur, wenn man sich länger nicht gesehen hat, nicht als tägliche Begrüßung. Antwort: はい、元気です／おかげさまで.",
+    "examples": [
+      {
+        "japanese": "お久しぶりです。お元気ですか。",
+        "romaji": "Ohisashiburi desu. Ogenki desu ka.",
+        "german": "Lange nicht gesehen! Wie geht es Ihnen?"
+      },
+      {
+        "japanese": "手紙の最初に「お元気ですか」と書いた。",
+        "romaji": "Tegami no saisho ni \"ogenki desu ka\" to kaita.",
+        "german": "Am Anfang des Briefes schrieb ich „Wie geht es dir?“."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:ogenkidesuka"
+  },
+  {
+    "word": "初め",
+    "reading": "はじめ",
+    "romaji": "hajime",
+    "meaning": "Anfang; Beginn",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N5",
+    "notes": "Anfang, Beginn. 初め eher für Zeitpunkte (月の初め = Monatsanfang), 始め für das Beginnen einer Handlung (仕事始め). 初めに = zuerst; nicht verwechseln mit 初めて (zum ersten Mal).",
+    "examples": [
+      {
+        "japanese": "来月の初めに引っ越します。",
+        "romaji": "Raigetsu no hajime ni hikkoshimasu.",
+        "german": "Anfang nächsten Monats ziehe ich um."
+      },
+      {
+        "japanese": "初めはよく分からなかったが、だんだん慣れてきた。",
+        "romaji": "Hajime wa yoku wakaranakatta ga, dandan narete kita.",
+        "german": "Anfangs habe ich nicht viel verstanden, aber allmählich habe ich mich eingewöhnt."
+      }
+    ],
+    "aliases": [
+      "始め"
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@214859308",
+        "patterns": [
+          0
+        ],
+        "finding": "初め / ハジメ; 名詞/普通名詞/副詞可能/*; *; *; lemma 初め; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "初め",
+          "reading": "はじめ",
+          "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+          "sense": "初め as \"Anfang; Beginn\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:hajime"
+  },
+  {
+    "word": "マッチ",
+    "reading": "マッチ",
+    "romaji": "matchi",
+    "meaning": "Streichholz",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N5",
+    "notes": "Streichholz (Kanji 燐寸 sehr selten); heute meist durch Feuerzeuge (ライター) ersetzt. Gleich lautend: マッチ „Wettkampf“ (タイトルマッチ) und マッチする „zusammenpassen“.",
+    "examples": [
+      {
+        "japanese": "マッチでろうそくに火をつけた。",
+        "romaji": "Matchi de rousoku ni hi o tsuketa.",
+        "german": "Ich habe die Kerze mit einem Streichholz angezündet."
+      },
+      {
+        "japanese": "キャンプでマッチを使って火をおこした。",
+        "romaji": "Kyanpu de matchi o tsukatte hi o okoshita.",
+        "german": "Beim Camping haben wir mit Streichhölzern ein Feuer gemacht."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250987256",
+        "patterns": [
+          1
+        ],
+        "finding": "マッチ / マッチ; 名詞/普通名詞/一般/*; *; *; lemma マッチ-match（火）; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "マッチ",
+          "reading": "マッチ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "マッチ as \"Streichholz\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:macchi"
+  },
+  {
+    "word": "フィルム",
+    "reading": "フィルム",
+    "romaji": "firumu",
+    "meaning": "Film (für Kameras); Folie",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N5",
+    "notes": "Film für Kameras, aber auch Folie (保護フィルム = Schutzfolie fürs Handy). Ein Kinofilm heißt 映画.",
+    "examples": [
+      {
+        "japanese": "祖父の古いカメラにはフィルムが必要です。",
+        "romaji": "Sofu no furui kamera ni wa firumu ga hitsuyou desu.",
+        "german": "Für die alte Kamera meines Großvaters braucht man einen Film."
+      },
+      {
+        "japanese": "スマホの画面に保護フィルムを貼った。",
+        "romaji": "Sumaho no gamen ni hogo firumu o hatta.",
+        "german": "Ich habe eine Schutzfolie auf den Handybildschirm geklebt."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230603619",
+        "patterns": [
+          1
+        ],
+        "finding": "フィルム / フィルム; 名詞/普通名詞/一般/*; *; *; lemma フィルム-film; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "フィルム",
+          "reading": "フィルム",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "フィルム as \"Film (für Kameras); Folie\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:firumu"
+  },
+  {
+    "word": "レコード",
+    "reading": "レコード",
+    "romaji": "rekoodo",
+    "meaning": "Schallplatte",
+    "type": "Nomen",
+    "category": "Freizeit",
+    "level": "N5",
+    "notes": "Schallplatte; auch Rekord im Sport (世界記録 ist aber üblicher als ワールドレコード).",
+    "examples": [
+      {
+        "japanese": "父は古いレコードをたくさん持っています。",
+        "romaji": "Chichi wa furui rekoodo o takusan motte imasu.",
+        "german": "Mein Vater hat viele alte Schallplatten."
+      },
+      {
+        "japanese": "最近またレコードで音楽を聴く人が増えている。",
+        "romaji": "Saikin mata rekoodo de ongaku o kiku hito ga fuete iru.",
+        "german": "In letzter Zeit hören wieder mehr Leute Musik von Schallplatte."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [
+      1
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@279818577",
+        "patterns": [
+          2,
+          1
+        ],
+        "finding": "レコード / レコード; 名詞/普通名詞/一般/*; *; *; lemma レコード-record; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "レコード",
+          "reading": "レコード",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "レコード as \"Schallplatte\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:rekoodo"
   }
 ];

@@ -1,0 +1,1452 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n3:correction:shiki",
+      "revisionId": "027-add-shiki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "式",
+        "reading": "しき",
+        "romaji": "shiki",
+        "meaning": "Zeremonie, Feier; Formel",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N3",
+        "notes": "Zeremonie, Feier (式を挙げる = Hochzeit feiern; 卒業式, 入学式), mathematische Formel (式を立てる) und Stil (日本式 = auf japanische Art).",
+        "examples": [
+          {
+            "japanese": "二人は来年の春に式を挙げる予定だ。",
+            "romaji": "Futari wa rainen no haru ni shiki o ageru yotei da.",
+            "german": "Die beiden wollen im nächsten Frühjahr heiraten."
+          },
+          {
+            "japanese": "この問題を解く式を書きなさい。",
+            "romaji": "Kono mondai o toku shiki o kakinasai.",
+            "german": "Schreibe die Gleichung auf, mit der man diese Aufgabe löst."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134513014",
+            "patterns": [
+              2,
+              1
+            ],
+            "finding": "式 / シキ; 名詞/普通名詞/一般/*; *; *; lemma 式; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "式",
+              "reading": "しき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "式 as \"Zeremonie, Feier; Formel\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N4. Editorial N3.",
+      "rationale": "Add 式【しき】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1319060; spelling=式; reading=しき; senses=1,2,3,4; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1319060 式/しき sense(s) 1,2,3,4 support \"Zeremonie, Feier; Formel\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1319060",
+            "spelling": "式",
+            "reading": "しき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way",
+                  "style",
+                  "fashion",
+                  "method",
+                  "system",
+                  "form",
+                  "type"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ceremony",
+                  "rite",
+                  "ritual",
+                  "celebration"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wedding (ceremony)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "equation",
+                  "formula",
+                  "expression"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "式|しき",
+          "referenceIndex": 0,
+          "referenceHash": "f8695813f96e9505a17004c5ad6fb2278f016f4bae6d49ec13ac4ff25b84aaf4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"Zeremonie, Feier; Formel\" matches JMdict 1319060 sense(s) 1,2,3,4.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Wedding ceremony.",
+          "Mathematical formula."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1319060; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N4. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@134513014 attest 2,1; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134513014",
+            "patterns": [
+              2,
+              1
+            ],
+            "finding": "式 / シキ; 名詞/普通名詞/一般/*; *; *; lemma 式; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "式",
+              "reading": "しき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "式 as \"Zeremonie, Feier; Formel\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 式【しき】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1319060 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "9b9c678124f24b2183c834a2ff1a6bac4e83391fd0e097666ad863869a6b801b",
+        "approvalHash": "a6ef92f6bf5088dec5494d53f724b428bd7a6b55ddfb4397f4dc5c6159100c7f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 式【しき】 N3 Nomen. The meaning \"Zeremonie, Feier; Formel\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 2) were re-checked. Round-1 notes: Content fine.",
+        "contentHash": "9b9c678124f24b2183c834a2ff1a6bac4e83391fd0e097666ad863869a6b801b",
+        "approvalHash": "a6ef92f6bf5088dec5494d53f724b428bd7a6b55ddfb4397f4dc5c6159100c7f"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:ku-ward",
+      "revisionId": "027-add-ku-ward",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "区",
+        "reading": "く",
+        "romaji": "ku",
+        "meaning": "Bezirk (einer Großstadt)",
+        "type": "Nomen",
+        "category": "Verwaltung",
+        "level": "N4",
+        "notes": "Bezirk (einer Großstadt), z. B. die 23 Bezirke Tokyos (渋谷区). Bezirksamt: 区役所.",
+        "examples": [
+          {
+            "japanese": "私は東京の世田谷区に住んでいます。",
+            "romaji": "Watashi wa Toukyou no Setagaya-ku ni sunde imasu.",
+            "german": "Ich wohne im Tokioter Bezirk Setagaya."
+          },
+          {
+            "japanese": "この区には外国人がたくさん住んでいます。",
+            "romaji": "Kono ku ni wa gaikokujin ga takusan sunde imasu.",
+            "german": "In diesem Bezirk wohnen viele Ausländer."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109573841",
+            "patterns": [
+              1
+            ],
+            "finding": "区 / ク; 名詞/普通名詞/一般/*; *; *; lemma 区; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "区",
+              "reading": "く",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "区 as \"Bezirk (einer Großstadt)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N4. Needed early for addresses; the app already has 区役所 at N3. Editorial N4.",
+      "rationale": "Add 区【く】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1244080; spelling=区; reading=く; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1244080 区/く sense(s) 1,2 support \"Bezirk (einer Großstadt)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1244080",
+            "spelling": "区",
+            "reading": "く",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ward",
+                  "borough",
+                  "city (in Tokyo)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "district (e.g. electoral)",
+                  "section",
+                  "zone (e.g. postal)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "区|く",
+          "referenceIndex": 0,
+          "referenceHash": "e1212b2213ad6f2364daeb5113c55dbd368eef606f8796e6f667e0db4c59de08"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"Bezirk (einer Großstadt)\" matches JMdict 1244080 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Where one lives.",
+          "Describing a ward."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1244080; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N4. Needed early for addresses; the app already has 区役所 at N3. Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@109573841 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109573841",
+            "patterns": [
+              1
+            ],
+            "finding": "区 / ク; 名詞/普通名詞/一般/*; *; *; lemma 区; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "区",
+              "reading": "く",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "区 as \"Bezirk (einer Großstadt)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 区【く】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1244080 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7c02d0474a06c4628c9e5043c99df8b35754e2f25b8a1e5c7c23c2d66a71d750",
+        "approvalHash": "0c443a492a5bc58a6559bb405e724228c413dec3b3794317e27daf50ec4e73ef"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 区【く】 N4 Nomen. The meaning \"Bezirk (einer Großstadt)\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 1) were re-checked. Round-1 fix verified: ex2 この区には外国人がたくさん住んでいます。 (Kono ku ni wa gaikokujin ga takusan sunde imasu.) uses 区 as a free noun instead of the existing entry 区役所. Round-1 notes: The fact is correct (Tokyo has 23 special wards). Neither example uses 区 as a free noun: ex1 has the suffix in 世田谷区, and ex2 uses 区役所, an existing separate N3 entry, so ex2 teaches 区役所 rather than 区.",
+        "contentHash": "7c02d0474a06c4628c9e5043c99df8b35754e2f25b8a1e5c7c23c2d66a71d750",
+        "approvalHash": "0c443a492a5bc58a6559bb405e724228c413dec3b3794317e27daf50ec4e73ef"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:sei-made",
+      "revisionId": "027-add-sei-made",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "〜製",
+        "reading": "せい",
+        "romaji": "sei",
+        "meaning": "hergestellt in / aus",
+        "type": "Partikel",
+        "category": "Handel",
+        "level": "N4",
+        "notes": "Suffix „hergestellt in / aus“: 日本製 (made in Japan), ドイツ製, プラスチック製 (aus Plastik).",
+        "examples": [
+          {
+            "japanese": "この時計はスイス製です。",
+            "romaji": "Kono tokei wa Suisusei desu.",
+            "german": "Diese Uhr ist in der Schweiz hergestellt."
+          },
+          {
+            "japanese": "プラスチック製のコップは割れにくい。",
+            "romaji": "Purasuchikkusei no koppu wa warenikui.",
+            "german": "Plastikbecher gehen nicht so leicht kaputt."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N4. Taught as a suffix like the app’s 〜県. Editorial N4.",
+      "rationale": "Add 〜製【せい】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1380580; spelling=製; reading=せい; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1380580 製/せい sense(s) 1 support \"hergestellt in / aus\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1380580",
+            "spelling": "製",
+            "reading": "せい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun, used as a suffix",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "make",
+                  "manufacture",
+                  "-made",
+                  "made of ...",
+                  "made in ..."
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "製|せい",
+          "referenceIndex": 0,
+          "referenceHash": "12fd97f302b37f1d69f3b2bb5f60d77ac8fc50f4bc0351c84e4fddd22a7ef298"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"hergestellt in / aus\" matches JMdict 1380580 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Country of manufacture.",
+          "Material."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1380580; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N4. Taught as a suffix like the app’s 〜県. Editorial N4."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 〜製 / せい; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 〜製 / せい",
+            "finding": "Bound suffix headword; no row exists for the written form with 〜, and no accent is taken from the free form."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 〜製【せい】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1380580 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "bf23e10900497b625e5cead0fabcb9934968954b010824c6be85fc014440ce73",
+        "approvalHash": "ea2d54f6e867ba9881e53d26f705295817e5b8945b24fc8beeb47f48af6058ac"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 〜製【せい】 N4 Partikel. The meaning \"hergestellt in / aus\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (unknown) were re-checked. Round-1 note applied: the example romaji are now joined (Suisusei, Purasuchikkusei), as in the existing app examples (purasuchikkusei, Amerikasei). Round-1 notes: The suffix convention matches 〜県. The example romaji \"Suisu sei\" and \"Purasuchikku sei\" are spaced, while existing app examples join the suffix (purasuchikkusei, Amerikasei). Consider \"Suisusei\" and \"Purasuchikkusei\" for consistency.",
+        "contentHash": "bf23e10900497b625e5cead0fabcb9934968954b010824c6be85fc014440ce73",
+        "approvalHash": "ea2d54f6e867ba9881e53d26f705295817e5b8945b24fc8beeb47f48af6058ac"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:koudou-hall",
+      "revisionId": "027-add-koudou-hall",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "講堂",
+        "reading": "こうどう",
+        "romaji": "koudou",
+        "meaning": "Aula; Hörsaal",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N4",
+        "notes": "Aula, Versammlungssaal einer Schule oder Universität. Gleich klingend: 行動 (Handlung).",
+        "examples": [
+          {
+            "japanese": "入学式は講堂で行われます。",
+            "romaji": "Nyuugakushiki wa koudou de okonawaremasu.",
+            "german": "Die Einschulungsfeier findet in der Aula statt."
+          },
+          {
+            "japanese": "全校生徒が講堂に集まった。",
+            "romaji": "Zenkou seito ga koudou ni atsumatta.",
+            "german": "Alle Schüler versammelten sich in der Aula."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120443983",
+            "patterns": [
+              0
+            ],
+            "finding": "講堂 / コウドウ; 名詞/普通名詞/一般/*; *; *; lemma 講堂; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "講堂",
+              "reading": "こうどう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "講堂 as \"Aula; Hörsaal\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4.",
+      "rationale": "Add 講堂【こうどう】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1282340; spelling=講堂; reading=こうどう; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1282340 講堂/こうどう sense(s) 1 support \"Aula; Hörsaal\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1282340",
+            "spelling": "講堂",
+            "reading": "こうどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "auditorium",
+                  "lecture hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "講堂|こうどう",
+          "referenceIndex": 0,
+          "referenceHash": "3eea4b094a5878b0b0962723eb6d2fd2cdcd5c182b92f9f6b19d79985e28440f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"Aula; Hörsaal\" matches JMdict 1282340 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "School ceremony venue.",
+          "School assembly."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1282340; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@120443983 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120443983",
+            "patterns": [
+              0
+            ],
+            "finding": "講堂 / コウドウ; 名詞/普通名詞/一般/*; *; *; lemma 講堂; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "講堂",
+              "reading": "こうどう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "講堂 as \"Aula; Hörsaal\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 講堂【こうどう】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1282340 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f81cb1cced8743ea0defcb207c31c2eaa8d5cb922a1d17d2815626f491c27c96",
+        "approvalHash": "f65837cff5fd7166dec7bbcfffaedf5261f1e583ffc325e78bd5a5830c26420c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 講堂【こうどう】 N4 Nomen. The meaning \"Aula; Hörsaal\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 0) were re-checked. Round-1 notes: Content fine. \"Einschulungsfeier\" is specific to primary school; 入学式 in general is an \"Aufnahmefeier\".",
+        "contentHash": "f81cb1cced8743ea0defcb207c31c2eaa8d5cb922a1d17d2815626f491c27c96",
+        "approvalHash": "f65837cff5fd7166dec7bbcfffaedf5261f1e583ffc325e78bd5a5830c26420c"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "式|しき",
+      "referenceIndex": 0,
+      "referenceHash": "f8695813f96e9505a17004c5ad6fb2278f016f4bae6d49ec13ac4ff25b84aaf4",
+      "revisionId": "027-candidate-shiki-5d8f8405-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:shiki"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:shiki": "9b9c678124f24b2183c834a2ff1a6bac4e83391fd0e097666ad863869a6b801b"
+      },
+      "reason": "Reference 式/しき (tanos N3) is the same lexeme as the new entry 式【しき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=36",
+          "finding": "tanos lists 式/しき at N3 (gloss: equation,formula,ceremony)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1319060; spelling=式; reading=しき; senses=1,2,3,4; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1319060 as the reference form.",
+          "selected": {
+            "sequence": "1319060",
+            "spelling": "式",
+            "reading": "しき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way",
+                  "style",
+                  "fashion",
+                  "method",
+                  "system",
+                  "form",
+                  "type"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ceremony",
+                  "rite",
+                  "ritual",
+                  "celebration"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wedding (ceremony)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "equation",
+                  "formula",
+                  "expression"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 式|しき#0 is the same lexeme as vocab-n3:correction:shiki; target hash bound to the assembled addition.",
+        "contentHash": "414813e10b6d195342059d4b91ae9ed860e5a2006a39cf0a0b15edf048be31d1",
+        "approvalHash": "414813e10b6d195342059d4b91ae9ed860e5a2006a39cf0a0b15edf048be31d1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 式/しき at N3 (gloss: equation,formula,ceremony) matches target vocab-n3:correction:shiki. Target vocab-n3:correction:shiki now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "414813e10b6d195342059d4b91ae9ed860e5a2006a39cf0a0b15edf048be31d1",
+        "approvalHash": "414813e10b6d195342059d4b91ae9ed860e5a2006a39cf0a0b15edf048be31d1"
+      }
+    },
+    {
+      "key": "式|しき",
+      "referenceIndex": 1,
+      "referenceHash": "e40097b94d139597697d77cac01b46d8275de93d6f252551710d00d0ab05313a",
+      "revisionId": "027-candidate-shiki-5d8f8405-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:shiki"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:shiki": "9b9c678124f24b2183c834a2ff1a6bac4e83391fd0e097666ad863869a6b801b"
+      },
+      "reason": "Reference 式/しき (master N4) is the same lexeme as the new entry 式【しき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "Nihongo Master lists 式/しき at N4 (gloss: equation; formula; expression)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1319060; spelling=式; reading=しき; senses=1,2,3,4; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1319060 as the reference form.",
+          "selected": {
+            "sequence": "1319060",
+            "spelling": "式",
+            "reading": "しき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way",
+                  "style",
+                  "fashion",
+                  "method",
+                  "system",
+                  "form",
+                  "type"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ceremony",
+                  "rite",
+                  "ritual",
+                  "celebration"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wedding (ceremony)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "equation",
+                  "formula",
+                  "expression"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 式|しき#1 is the same lexeme as vocab-n3:correction:shiki; target hash bound to the assembled addition.",
+        "contentHash": "9ebe8d916c121b816183de5d6c990eb11dd07bcd2f1e3b014cc61faf52d066db",
+        "approvalHash": "9ebe8d916c121b816183de5d6c990eb11dd07bcd2f1e3b014cc61faf52d066db"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 式/しき at N4 (gloss: equation; formula; expression) matches target vocab-n3:correction:shiki. Target vocab-n3:correction:shiki now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "9ebe8d916c121b816183de5d6c990eb11dd07bcd2f1e3b014cc61faf52d066db",
+        "approvalHash": "9ebe8d916c121b816183de5d6c990eb11dd07bcd2f1e3b014cc61faf52d066db"
+      }
+    },
+    {
+      "key": "区|く",
+      "referenceIndex": 0,
+      "referenceHash": "e1212b2213ad6f2364daeb5113c55dbd368eef606f8796e6f667e0db4c59de08",
+      "revisionId": "027-candidate-ku-ward-c5ee5c02-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ku-ward"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ku-ward": "7c02d0474a06c4628c9e5043c99df8b35754e2f25b8a1e5c7c23c2d66a71d750"
+      },
+      "reason": "Reference 区/く (tanos N1) is the same lexeme as the new entry 区【く】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=46",
+          "finding": "tanos lists 区/く at N1 (gloss: ward, district, section)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1244080; spelling=区; reading=く; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1244080 as the reference form.",
+          "selected": {
+            "sequence": "1244080",
+            "spelling": "区",
+            "reading": "く",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ward",
+                  "borough",
+                  "city (in Tokyo)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "district (e.g. electoral)",
+                  "section",
+                  "zone (e.g. postal)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 区|く#0 is the same lexeme as vocab-n4:correction:ku-ward; target hash bound to the assembled addition.",
+        "contentHash": "2f99aa2e4e400a1a490d906bd59cc2f0bba109e3586d1bbbff7752a4649c420d",
+        "approvalHash": "2f99aa2e4e400a1a490d906bd59cc2f0bba109e3586d1bbbff7752a4649c420d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 区/く at N1 (gloss: ward, district, section) matches target vocab-n4:correction:ku-ward. Target vocab-n4:correction:ku-ward now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "2f99aa2e4e400a1a490d906bd59cc2f0bba109e3586d1bbbff7752a4649c420d",
+        "approvalHash": "2f99aa2e4e400a1a490d906bd59cc2f0bba109e3586d1bbbff7752a4649c420d"
+      }
+    },
+    {
+      "key": "区|く",
+      "referenceIndex": 1,
+      "referenceHash": "d0ea38130f5f1725fcf5fc1fdc8ca2a3e705b7b74df28b6d8a909392e1a0d072",
+      "revisionId": "027-candidate-ku-ward-c5ee5c02-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ku-ward"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ku-ward": "7c02d0474a06c4628c9e5043c99df8b35754e2f25b8a1e5c7c23c2d66a71d750"
+      },
+      "reason": "Reference 区/く (master N4) is the same lexeme as the new entry 区【く】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "Nihongo Master lists 区/く at N4 (gloss: ward; district; section)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1244080; spelling=区; reading=く; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1244080 as the reference form.",
+          "selected": {
+            "sequence": "1244080",
+            "spelling": "区",
+            "reading": "く",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ward",
+                  "borough",
+                  "city (in Tokyo)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "district (e.g. electoral)",
+                  "section",
+                  "zone (e.g. postal)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 区|く#1 is the same lexeme as vocab-n4:correction:ku-ward; target hash bound to the assembled addition.",
+        "contentHash": "f6415de05a1dee708bbdc77a5f0cb1e0ec780072cc5721a534c56e096d20b2ed",
+        "approvalHash": "f6415de05a1dee708bbdc77a5f0cb1e0ec780072cc5721a534c56e096d20b2ed"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 区/く at N4 (gloss: ward; district; section) matches target vocab-n4:correction:ku-ward. Target vocab-n4:correction:ku-ward now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "f6415de05a1dee708bbdc77a5f0cb1e0ec780072cc5721a534c56e096d20b2ed",
+        "approvalHash": "f6415de05a1dee708bbdc77a5f0cb1e0ec780072cc5721a534c56e096d20b2ed"
+      }
+    },
+    {
+      "key": "製|せい",
+      "referenceIndex": 0,
+      "referenceHash": "12fd97f302b37f1d69f3b2bb5f60d77ac8fc50f4bc0351c84e4fddd22a7ef298",
+      "revisionId": "027-candidate-sei-made-4ff131e8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:sei-made"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:sei-made": "bf23e10900497b625e5cead0fabcb9934968954b010824c6be85fc014440ce73"
+      },
+      "reason": "Reference 製/せい (tanos N1) is the same lexeme as the new entry 〜製【せい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=87",
+          "finding": "tanos lists 製/せい at N1 (gloss: -made, make)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1380580; spelling=製; reading=せい; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1380580 as the reference form.",
+          "selected": {
+            "sequence": "1380580",
+            "spelling": "製",
+            "reading": "せい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun, used as a suffix",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "make",
+                  "manufacture",
+                  "-made",
+                  "made of ...",
+                  "made in ..."
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 製|せい#0 is the same lexeme as vocab-n4:correction:sei-made; target hash bound to the assembled addition.",
+        "contentHash": "344326c53c96c1180c36e3137b826fe16fd50f902113122201b92cda6d89f507",
+        "approvalHash": "344326c53c96c1180c36e3137b826fe16fd50f902113122201b92cda6d89f507"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 製/せい at N1 (gloss: -made, make) matches target vocab-n4:correction:sei-made. The gloss \"-made\" is JMdict 1380580; the 〜製 suffix entry is right. Target vocab-n4:correction:sei-made now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "344326c53c96c1180c36e3137b826fe16fd50f902113122201b92cda6d89f507",
+        "approvalHash": "344326c53c96c1180c36e3137b826fe16fd50f902113122201b92cda6d89f507"
+      }
+    },
+    {
+      "key": "製|せい",
+      "referenceIndex": 1,
+      "referenceHash": "d68e8f8f5b1a73916da91660d44f81aeef49871d48ed2810898b4abbbdb6b4e9",
+      "revisionId": "027-candidate-sei-made-4ff131e8-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:sei-made"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:sei-made": "bf23e10900497b625e5cead0fabcb9934968954b010824c6be85fc014440ce73"
+      },
+      "reason": "Reference 製/せい (master N4) is the same lexeme as the new entry 〜製【せい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "Nihongo Master lists 製/せい at N4 (gloss: -made; make; en- (fait en ..))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1380580; spelling=製; reading=せい; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1380580 as the reference form.",
+          "selected": {
+            "sequence": "1380580",
+            "spelling": "製",
+            "reading": "せい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun, used as a suffix",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "make",
+                  "manufacture",
+                  "-made",
+                  "made of ...",
+                  "made in ..."
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 製|せい#1 is the same lexeme as vocab-n4:correction:sei-made; target hash bound to the assembled addition.",
+        "contentHash": "64678578cd22df8245e076a5be3dc35e6475698ac6c9c142a1768ed913d3423d",
+        "approvalHash": "64678578cd22df8245e076a5be3dc35e6475698ac6c9c142a1768ed913d3423d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 製/せい at N4 (gloss: -made; make; en- (fait en ..)) matches target vocab-n4:correction:sei-made. The gloss \"-made\" is JMdict 1380580; the 〜製 suffix entry is right. Target vocab-n4:correction:sei-made now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "64678578cd22df8245e076a5be3dc35e6475698ac6c9c142a1768ed913d3423d",
+        "approvalHash": "64678578cd22df8245e076a5be3dc35e6475698ac6c9c142a1768ed913d3423d"
+      }
+    },
+    {
+      "key": "講堂|こうどう",
+      "referenceIndex": 0,
+      "referenceHash": "3eea4b094a5878b0b0962723eb6d2fd2cdcd5c182b92f9f6b19d79985e28440f",
+      "revisionId": "027-candidate-koudou-hall-01ec7cc6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:koudou-hall"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:koudou-hall": "f81cb1cced8743ea0defcb207c31c2eaa8d5cb922a1d17d2815626f491c27c96"
+      },
+      "reason": "Reference 講堂/こうどう (tanos N4) is the same lexeme as the new entry 講堂【こうどう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt4/vocab/VocabList.N4.pdf#page=11",
+          "finding": "tanos lists 講堂/こうどう at N4 (gloss: auditorium)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1282340; spelling=講堂; reading=こうどう; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1282340 as the reference form.",
+          "selected": {
+            "sequence": "1282340",
+            "spelling": "講堂",
+            "reading": "こうどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "auditorium",
+                  "lecture hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 講堂|こうどう#0 is the same lexeme as vocab-n4:correction:koudou-hall; target hash bound to the assembled addition.",
+        "contentHash": "67a58eacce97b742bb4e9612a722c56e51dec4d42d0f092c3b035d8e9c8db0e5",
+        "approvalHash": "67a58eacce97b742bb4e9612a722c56e51dec4d42d0f092c3b035d8e9c8db0e5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 講堂/こうどう at N4 (gloss: auditorium) matches target vocab-n4:correction:koudou-hall. Target vocab-n4:correction:koudou-hall now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "67a58eacce97b742bb4e9612a722c56e51dec4d42d0f092c3b035d8e9c8db0e5",
+        "approvalHash": "67a58eacce97b742bb4e9612a722c56e51dec4d42d0f092c3b035d8e9c8db0e5"
+      }
+    },
+    {
+      "key": "講堂|こうどう",
+      "referenceIndex": 1,
+      "referenceHash": "3b797632dfa6e40ddc0795c7b15376436019f334e39c9e83967dea786016fb43",
+      "revisionId": "027-candidate-koudou-hall-01ec7cc6-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:koudou-hall"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:koudou-hall": "f81cb1cced8743ea0defcb207c31c2eaa8d5cb922a1d17d2815626f491c27c96"
+      },
+      "reason": "Reference 講堂/こうどう (sensei N4) is the same lexeme as the new entry 講堂【こうどう】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n4-vocabulary-list/page/3/",
+          "finding": "JLPT Sensei lists 講堂/こうどう at N4 (gloss: auditorium)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1282340; spelling=講堂; reading=こうどう; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1282340 as the reference form.",
+          "selected": {
+            "sequence": "1282340",
+            "spelling": "講堂",
+            "reading": "こうどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "auditorium",
+                  "lecture hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 講堂|こうどう#1 is the same lexeme as vocab-n4:correction:koudou-hall; target hash bound to the assembled addition.",
+        "contentHash": "9c5c513f63141e580226de9928df4571c87b6b6eb27a0b37a123082cb5f14bfb",
+        "approvalHash": "9c5c513f63141e580226de9928df4571c87b6b6eb27a0b37a123082cb5f14bfb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: JLPT Sensei lists 講堂/こうどう at N4 (gloss: auditorium) matches target vocab-n4:correction:koudou-hall. Target vocab-n4:correction:koudou-hall now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "9c5c513f63141e580226de9928df4571c87b6b6eb27a0b37a123082cb5f14bfb",
+        "approvalHash": "9c5c513f63141e580226de9928df4571c87b6b6eb27a0b37a123082cb5f14bfb"
+      }
+    },
+    {
+      "key": "講堂|こうどう",
+      "referenceIndex": 2,
+      "referenceHash": "8d613baa47cc2abf66c3dd7b68d098f24a0fe846a23b1aedf91a0386693d447e",
+      "revisionId": "027-candidate-koudou-hall-01ec7cc6-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:koudou-hall"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:koudou-hall": "f81cb1cced8743ea0defcb207c31c2eaa8d5cb922a1d17d2815626f491c27c96"
+      },
+      "reason": "Reference 講堂/こうどう (master N4) is the same lexeme as the new entry 講堂【こうどう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "Nihongo Master lists 講堂/こうどう at N4 (gloss: auditorium; auditorium; актовый зал)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1282340; spelling=講堂; reading=こうどう; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1282340 as the reference form.",
+          "selected": {
+            "sequence": "1282340",
+            "spelling": "講堂",
+            "reading": "こうどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "auditorium",
+                  "lecture hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 講堂|こうどう#2 is the same lexeme as vocab-n4:correction:koudou-hall; target hash bound to the assembled addition.",
+        "contentHash": "a70bfbb23bc761289a36ce4cea6b59990461480740cfde909f4da180f7ac0a21",
+        "approvalHash": "a70bfbb23bc761289a36ce4cea6b59990461480740cfde909f4da180f7ac0a21"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 講堂/こうどう at N4 (gloss: auditorium; auditorium; актовый зал) matches target vocab-n4:correction:koudou-hall. Target vocab-n4:correction:koudou-hall now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "a70bfbb23bc761289a36ce4cea6b59990461480740cfde909f4da180f7ac0a21",
+        "approvalHash": "a70bfbb23bc761289a36ce4cea6b59990461480740cfde909f4da180f7ac0a21"
+      }
+    }
+  ]
+}

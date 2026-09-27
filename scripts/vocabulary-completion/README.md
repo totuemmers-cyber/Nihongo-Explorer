@@ -75,7 +75,13 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
   cannot create idiom-source IDs. 井の中の蛙 was dropped in review as a short form of the
   existing 井の中の蛙大海を知らず.
 
-Runtime: **13,263 entries** (N5 1,632, N4 1,606, N3 3,450, N2 2,548, N1 4,027),
+- **027a–e (46 candidate-backed additions, research in [maintenance-027](maintenance-027/research-supplement.json)):**
+  N5/N4 JLPT-list gaps: greetings and set phrases (さよなら, ごめんください, お待たせしました …),
+  adverbs (それほど, ちっとも, とうとう), basic nouns (糸, 雲, 気, 市, 字, 区, 会, 式 …), loanwords
+  (ソフト, ファックス, ハンバーグ, チェック …) and the suffixes 〜代 and 〜製. Closes 98 publisher
+  references; one Nihongo Master row (ケレド, "credo") excluded as a source error.
+
+Runtime: **13,309 entries** (N5 1,642, N4 1,637, N3 3,455, N2 2,548, N1 4,027),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70

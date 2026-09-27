@@ -66514,5 +66514,219 @@ window.VOCAB_N3 = [
     ],
     "pitch": null,
     "correctionId": "vocab-n3:correction:ki-ga-sumu"
+  },
+  {
+    "word": "オーバー",
+    "reading": "オーバー",
+    "romaji": "oobaa",
+    "meaning": "übertrieben; Überschreitung; Mantel",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "Mehrere Bedeutungen: übertrieben (オーバーな話), Überschreitung (予算オーバー = Budget überschritten) und Mantel (kurz für オーバーコート).",
+    "examples": [
+      {
+        "japanese": "彼はいつも話がオーバーだ。",
+        "romaji": "Kare wa itsumo hanashi ga oobaa da.",
+        "german": "Er übertreibt immer beim Erzählen."
+      },
+      {
+        "japanese": "今月は予算オーバーになってしまった。",
+        "romaji": "Kongetsu wa yosan oobaa ni natte shimatta.",
+        "german": "Diesen Monat habe ich das Budget überschritten."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85409570",
+        "patterns": [
+          1
+        ],
+        "finding": "オーバー / オーバー; 名詞/普通名詞/サ変形状詞可能/*; *; *; lemma オーバー-over; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "オーバー",
+          "reading": "オーバー",
+          "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+          "sense": "オーバー as \"übertrieben; Überschreitung; Mantel\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:oobaa"
+  },
+  {
+    "word": "都",
+    "reading": "みやこ",
+    "romaji": "miyako",
+    "meaning": "Hauptstadt; Metropole",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N3",
+    "notes": "Hauptstadt, Residenzstadt (literarisch, oft historisch: Kyoto war über 1000 Jahre die 都). Auch „Stadt als Zentrum“: 花の都パリ.",
+    "examples": [
+      {
+        "japanese": "京都は長い間、日本の都だった。",
+        "romaji": "Kyouto wa nagai aida, Nihon no miyako datta.",
+        "german": "Kyoto war lange Zeit die Hauptstadt Japans."
+      },
+      {
+        "japanese": "パリは「花の都」と呼ばれている。",
+        "romaji": "Pari wa \"hana no miyako\" to yobarete iru.",
+        "german": "Paris wird die „Stadt der Blumen“ genannt."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@257309482",
+        "patterns": [
+          0
+        ],
+        "finding": "都 / ミヤコ; 名詞/普通名詞/一般/*; *; *; lemma 都; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "都",
+          "reading": "みやこ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "都 as \"Hauptstadt; Metropole\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:miyako"
+  },
+  {
+    "word": "ママ",
+    "reading": "ママ",
+    "romaji": "mama",
+    "meaning": "Mama",
+    "type": "Nomen",
+    "category": "Familie",
+    "level": "N3",
+    "notes": "Kindersprachlich „Mama“; auch die Wirtin einer Bar (ママさん). Förmlich: 母; Anrede: お母さん.",
+    "examples": [
+      {
+        "japanese": "ママ、おなかすいた。",
+        "romaji": "Mama, onaka suita.",
+        "german": "Mama, ich hab Hunger."
+      },
+      {
+        "japanese": "ママ友とランチに行きました。",
+        "romaji": "Mama tomo to ranchi ni ikimashita.",
+        "german": "Ich war mit befreundeten Müttern zu Mittag essen."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252059024",
+        "patterns": [
+          1
+        ],
+        "finding": "ママ / ママ; 名詞/普通名詞/一般/*; *; *; lemma ママ-mama; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ママ",
+          "reading": "ママ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ママ as \"Mama\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:mama"
+  },
+  {
+    "word": "会",
+    "reading": "かい",
+    "romaji": "kai",
+    "meaning": "Treffen, Versammlung; Verein",
+    "type": "Nomen",
+    "category": "Gesellschaft",
+    "level": "N3",
+    "notes": "Treffen, Versammlung, Feier (歓迎会 = Willkommensfeier, 飲み会 = Trinkabend) und Verein, Gesellschaft (会に入る). Als Suffix sehr produktiv.",
+    "examples": [
+      {
+        "japanese": "来週、新入生の歓迎会があります。",
+        "romaji": "Raishuu, shinnyuusei no kangeikai ga arimasu.",
+        "german": "Nächste Woche gibt es eine Willkommensfeier für die neuen Studierenden."
+      },
+      {
+        "japanese": "町の歴史を調べる会に入りました。",
+        "romaji": "Machi no rekishi o shiraberu kai ni hairimashita.",
+        "german": "Ich bin einem Verein beigetreten, der die Stadtgeschichte erforscht."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85495220",
+        "patterns": [
+          1
+        ],
+        "finding": "会 / カイ; 名詞/普通名詞/一般/*; *; *; lemma 会; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "会",
+          "reading": "かい",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "会 as \"Treffen, Versammlung; Verein\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kai-meeting"
+  },
+  {
+    "word": "式",
+    "reading": "しき",
+    "romaji": "shiki",
+    "meaning": "Zeremonie, Feier; Formel",
+    "type": "Nomen",
+    "category": "Kultur",
+    "level": "N3",
+    "notes": "Zeremonie, Feier (式を挙げる = Hochzeit feiern; 卒業式, 入学式), mathematische Formel (式を立てる) und Stil (日本式 = auf japanische Art).",
+    "examples": [
+      {
+        "japanese": "二人は来年の春に式を挙げる予定だ。",
+        "romaji": "Futari wa rainen no haru ni shiki o ageru yotei da.",
+        "german": "Die beiden wollen im nächsten Frühjahr heiraten."
+      },
+      {
+        "japanese": "この問題を解く式を書きなさい。",
+        "romaji": "Kono mondai o toku shiki o kakinasai.",
+        "german": "Schreibe die Gleichung auf, mit der man diese Aufgabe löst."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [
+      1
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134513014",
+        "patterns": [
+          2,
+          1
+        ],
+        "finding": "式 / シキ; 名詞/普通名詞/一般/*; *; *; lemma 式; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "式",
+          "reading": "しき",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "式 as \"Zeremonie, Feier; Formel\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:shiki"
   }
 ];

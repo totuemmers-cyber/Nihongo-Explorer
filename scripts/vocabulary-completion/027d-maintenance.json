@@ -1,0 +1,3448 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n4:correction:chekku",
+      "revisionId": "027-add-chekku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "チェック",
+        "reading": "チェック",
+        "romaji": "chekku",
+        "meaning": "Kontrolle, Überprüfung; Karomuster",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N4",
+        "notes": "Kontrolle, Überprüfung; als Verb チェックする (prüfen, abhaken). Auch Karomuster (チェックのシャツ). Das Einchecken heißt チェックイン.",
+        "examples": [
+          {
+            "japanese": "出かける前に天気予報をチェックする。",
+            "romaji": "Dekakeru mae ni tenki yohou o chekku suru.",
+            "german": "Bevor ich losgehe, sehe ich mir die Wettervorhersage an."
+          },
+          {
+            "japanese": "彼はいつもチェックのシャツを着ている。",
+            "romaji": "Kare wa itsumo chekku no shatsu o kite iru.",
+            "german": "Er trägt immer karierte Hemden."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168369319",
+            "patterns": [
+              1
+            ],
+            "finding": "チェック / チェック; 名詞/普通名詞/サ変可能/*; *; *; lemma チェック-check; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "チェック",
+              "reading": "チェック",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "チェック as \"Kontrolle, Überprüfung; Karomuster\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: JLPT Sensei N4, Nihongo Master N4, tanos N4 (チェック・する). Editorial N4.",
+      "rationale": "Add チェック【チェック】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1077550; spelling=チェック; reading=チェック; senses=1,2,4; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1077550 チェック/チェック sense(s) 1,2,4 support \"Kontrolle, Überprüfung; Karomuster\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1077550",
+            "spelling": "チェック",
+            "reading": "チェック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "check (pattern)",
+                  "plaid"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "check",
+                  "inspection",
+                  "examination",
+                  "looking over",
+                  "scrutinizing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "checking (something) out",
+                  "following (with interest)",
+                  "keeping one's eye on",
+                  "keeping a close watch on"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ちぇっく|ちぇっく",
+          "referenceIndex": 0,
+          "referenceHash": "595338cf8edf04a86cf983c840adbb534ac758350c7b7b3b84f06ed6100df2a5"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"Kontrolle, Überprüfung; Karomuster\" matches JMdict 1077550 sense(s) 1,2,4.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Checking information (verb use).",
+          "Checked pattern."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1077550; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: JLPT Sensei N4, Nihongo Master N4, tanos N4 (チェック・する). Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@168369319 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168369319",
+            "patterns": [
+              1
+            ],
+            "finding": "チェック / チェック; 名詞/普通名詞/サ変可能/*; *; *; lemma チェック-check; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "チェック",
+              "reading": "チェック",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "チェック as \"Kontrolle, Überprüfung; Karomuster\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add チェック【チェック】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1077550 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "74c16998d9c28fa4f8fef339fe91eba6749ba0f2c5ef1a8bd8dce8016e83a210",
+        "approvalHash": "665e1e64ac98bb508d51b579bfb3117c3b2f3d70446b774f1ae71a6a69d2e8d6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: チェック【チェック】 N4 Nomen. The meaning \"Kontrolle, Überprüfung; Karomuster\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 1) were re-checked. Round-1 notes: Content fine.",
+        "contentHash": "74c16998d9c28fa4f8fef339fe91eba6749ba0f2c5ef1a8bd8dce8016e83a210",
+        "approvalHash": "665e1e64ac98bb508d51b579bfb3117c3b2f3d70446b774f1ae71a6a69d2e8d6"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:ito",
+      "revisionId": "027-add-ito",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "糸",
+        "reading": "いと",
+        "romaji": "ito",
+        "meaning": "Faden; Garn",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N4",
+        "notes": "Faden, Garn; auch Saite eines Instruments. Nadel und Faden: 針と糸. Gleich klingend: 意図 (Absicht).",
+        "examples": [
+          {
+            "japanese": "針に糸を通すのは難しい。",
+            "romaji": "Hari ni ito o toosu no wa muzukashii.",
+            "german": "Einen Faden einzufädeln ist schwierig."
+          },
+          {
+            "japanese": "赤い糸で名前を縫いました。",
+            "romaji": "Akai ito de namae o nuimashita.",
+            "german": "Ich habe den Namen mit rotem Garn eingestickt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56521062",
+            "patterns": [
+              1
+            ],
+            "finding": "糸 / イト; 名詞/普通名詞/一般/*; *; *; lemma 糸; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "糸",
+              "reading": "いと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "糸 as \"Faden; Garn\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4.",
+      "rationale": "Add 糸【いと】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1311450; spelling=糸; reading=いと; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1311450 糸/いと sense(s) 1 support \"Faden; Garn\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1311450",
+            "spelling": "糸",
+            "reading": "いと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thread",
+                  "yarn",
+                  "string"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "糸|いと",
+          "referenceIndex": 0,
+          "referenceHash": "d6fa5523ff0a270f7bff766987dd8e75ef752b92f55a77055f928152be946f20"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"Faden; Garn\" matches JMdict 1311450 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Threading a needle.",
+          "Sewing a name."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1311450; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@56521062 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56521062",
+            "patterns": [
+              1
+            ],
+            "finding": "糸 / イト; 名詞/普通名詞/一般/*; *; *; lemma 糸; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "糸",
+              "reading": "いと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "糸 as \"Faden; Garn\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 糸【いと】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1311450 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "90e4239b43eece66c61fe687b259c87eea1ca33a7242464edd112050a3f7eca9",
+        "approvalHash": "8740739c3e8b352a610eeb36ed9d4d7e48569701165b52d46245bee4b5839edb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 糸【いと】 N4 Nomen. The meaning \"Faden; Garn\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 1) were re-checked. Round-1 notes: Content fine.",
+        "contentHash": "90e4239b43eece66c61fe687b259c87eea1ca33a7242464edd112050a3f7eca9",
+        "approvalHash": "8740739c3e8b352a610eeb36ed9d4d7e48569701165b52d46245bee4b5839edb"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:kumo",
+      "revisionId": "027-add-kumo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "雲",
+        "reading": "くも",
+        "romaji": "kumo",
+        "meaning": "Wolke",
+        "type": "Nomen",
+        "category": "Wetter",
+        "level": "N4",
+        "notes": "Wolke. Bewölkt: 曇り（くもり）. Gleich klingend: 蜘蛛 (Spinne) – im Standardjapanischen sogar mit gleichem Tonverlauf.",
+        "examples": [
+          {
+            "japanese": "空に白い雲が浮かんでいる。",
+            "romaji": "Sora ni shiroi kumo ga ukande iru.",
+            "german": "Am Himmel schweben weiße Wolken."
+          },
+          {
+            "japanese": "黒い雲が出てきたから、雨が降りそうだ。",
+            "romaji": "Kuroi kumo ga dete kita kara, ame ga furisou da.",
+            "german": "Es sind dunkle Wolken aufgezogen, gleich wird es wohl regnen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@113715684",
+            "patterns": [
+              1
+            ],
+            "finding": "雲 / クモ; 名詞/普通名詞/一般/*; *; *; lemma 雲; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "雲",
+              "reading": "くも",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "雲 as \"Wolke\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4.",
+      "rationale": "Add 雲【くも】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1173100; spelling=雲; reading=くも; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1173100 雲/くも sense(s) 1 support \"Wolke\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1173100",
+            "spelling": "雲",
+            "reading": "くも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cloud"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "雲|くも",
+          "referenceIndex": 0,
+          "referenceHash": "0e17ec0ad5481102014fe70fd4595390ff2c0bf46edf3735be27ccda95570887"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"Wolke\" matches JMdict 1173100 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Describing the sky.",
+          "Predicting rain."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1173100; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@113715684 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@113715684",
+            "patterns": [
+              1
+            ],
+            "finding": "雲 / クモ; 名詞/普通名詞/一般/*; *; *; lemma 雲; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "雲",
+              "reading": "くも",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "雲 as \"Wolke\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 雲【くも】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1173100 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "bdd600f73762dab99c2add6ba57d775398ee8aa6cd43e7adb9b6a9fa5fedca59",
+        "approvalHash": "a47efce641a31d885e8f7ad00c247cf4858e00c8f7ef0c626d27c41a7fcc1d50"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 雲【くも】 N4 Nomen. The meaning \"Wolke\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 1) were re-checked. Round-1 fix verified: the note now says 雲 and 蜘蛛 share the same accent in standard Japanese (both 1 in UniDic; the app stores 蜘蛛 with pitch 1). Round-1 notes: Factual error in the note: \"蜘蛛 (Spinne) – der Tonverlauf unterscheidet sich\". In standard (Tokyo) Japanese both 雲 and 蜘蛛 are くも with accent 1 (UniDic 雲 aType 1, 蜘蛛 aType 1), and the app itself stores 蜘蛛 with pitch 1. The words differ in accent only in Kansai dialects.",
+        "contentHash": "bdd600f73762dab99c2add6ba57d775398ee8aa6cd43e7adb9b6a9fa5fedca59",
+        "approvalHash": "a47efce641a31d885e8f7ad00c247cf4858e00c8f7ef0c626d27c41a7fcc1d50"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:ki-spirit",
+      "revisionId": "027-add-ki-spirit",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "気",
+        "reading": "き",
+        "romaji": "ki",
+        "meaning": "Geist; Gemüt; Stimmung",
+        "type": "Nomen",
+        "category": "Gefühle",
+        "level": "N4",
+        "notes": "Geist, Gemüt, Stimmung – selten allein, aber Kern vieler Ausdrücke: 気がする (das Gefühl haben), 気をつける (aufpassen), 気になる (beschäftigen), 気が強い (willensstark).",
+        "examples": [
+          {
+            "japanese": "雨が降りそうな気がする。",
+            "romaji": "Ame ga furisou na ki ga suru.",
+            "german": "Ich habe das Gefühl, dass es regnen wird."
+          },
+          {
+            "japanese": "彼女は気が強いけれど、優しい人だ。",
+            "romaji": "Kanojo wa ki ga tsuyoi keredo, yasashii hito da.",
+            "german": "Sie ist willensstark, aber ein herzlicher Mensch."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101934352",
+            "patterns": [
+              0
+            ],
+            "finding": "気 / キ; 名詞/普通名詞/一般/*; *; *; lemma 気; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気",
+              "reading": "き",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気 as \"Geist; Gemüt; Stimmung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4.",
+      "rationale": "Add 気【き】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1221520; spelling=気; reading=き; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1221520 気/き sense(s) 1,2 support \"Geist; Gemüt; Stimmung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1221520",
+            "spelling": "気",
+            "reading": "き",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "spirit",
+                  "mind",
+                  "heart"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nature",
+                  "disposition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "気|き",
+          "referenceIndex": 0,
+          "referenceHash": "c4c717bcbddc8359ab1ea54fe84d39fdcc2279947c0732fe32fada34732b1a43"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"Geist; Gemüt; Stimmung\" matches JMdict 1221520 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Having a feeling (気がする).",
+          "Describing temperament (気が強い)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1221520; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@101934352 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101934352",
+            "patterns": [
+              0
+            ],
+            "finding": "気 / キ; 名詞/普通名詞/一般/*; *; *; lemma 気; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気",
+              "reading": "き",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気 as \"Geist; Gemüt; Stimmung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 気【き】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1221520 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "0f440937d0a8c7d986b79019a113972567546b5c57ea92861d0ce94c4ed3a452",
+        "approvalHash": "9592c95758e6b28afe57226e41b27fc167f5a493be898076615319b0c5262d53"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 気【き】 N4 Nomen. The meaning \"Geist; Gemüt; Stimmung\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 0) were re-checked. Round-1 notes: Content fine.",
+        "contentHash": "0f440937d0a8c7d986b79019a113972567546b5c57ea92861d0ce94c4ed3a452",
+        "approvalHash": "9592c95758e6b28afe57226e41b27fc167f5a493be898076615319b0c5262d53"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:kyuu-sudden",
+      "revisionId": "027-add-kyuu-sudden",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "急",
+        "reading": "きゅう",
+        "romaji": "kyuu",
+        "meaning": "plötzlich; dringend; steil",
+        "type": "Adjektiv",
+        "category": "Zeit",
+        "level": "N4",
+        "notes": "な-Adjektiv: plötzlich (急な雨), dringend (急な用事) oder steil (急な坂). Adverb: 急に (plötzlich). Gleich klingend: 九.",
+        "examples": [
+          {
+            "japanese": "急な用事ができて、行けなくなりました。",
+            "romaji": "Kyuu na youji ga dekite, ikenaku narimashita.",
+            "german": "Mir ist etwas Dringendes dazwischengekommen, ich kann nicht kommen."
+          },
+          {
+            "japanese": "この坂はとても急だから、気をつけて。",
+            "romaji": "Kono saka wa totemo kyuu da kara, ki o tsukete.",
+            "german": "Dieser Hang ist sehr steil, pass auf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105807818",
+            "patterns": [
+              0
+            ],
+            "finding": "急 / キュウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 急; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "急",
+              "reading": "きゅう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "急 as \"plötzlich; dringend; steil\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4.",
+      "rationale": "Add 急【きゅう】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1228560; spelling=急; reading=きゅう; senses=1,2,3; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1228560 急/きゅう sense(s) 1,2,3 support \"plötzlich; dringend; steil\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1228560",
+            "spelling": "急",
+            "reading": "きゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sudden",
+                  "abrupt",
+                  "unexpected"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "urgent",
+                  "pressing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "steep",
+                  "sharp",
+                  "precipitous"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "急|きゅう",
+          "referenceIndex": 0,
+          "referenceHash": "0df845c2b38a152aa79669d5f08c017b474efab4347d98a0efa241484e13125b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"plötzlich; dringend; steil\" matches JMdict 1228560 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Urgent matter.",
+          "Steep slope."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1228560; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@105807818 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105807818",
+            "patterns": [
+              0
+            ],
+            "finding": "急 / キュウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 急; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "急",
+              "reading": "きゅう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "急 as \"plötzlich; dringend; steil\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 急【きゅう】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1228560 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "3030f7b453cb2cdd51bf2b14074401ab1c972c231c4af210dc2d98b2a250b7e6",
+        "approvalHash": "6563b9a3021b612ff8cbd1eaf797e96113dba4ee564e272aeac976f8a4b55509"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 急【きゅう】 N4 Adjektiv. The meaning \"plötzlich; dringend; steil\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 0) were re-checked. Round-1 notes: Content fine.",
+        "contentHash": "3030f7b453cb2cdd51bf2b14074401ab1c972c231c4af210dc2d98b2a250b7e6",
+        "approvalHash": "6563b9a3021b612ff8cbd1eaf797e96113dba4ee564e272aeac976f8a4b55509"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:shi-city",
+      "revisionId": "027-add-shi-city",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "市",
+        "reading": "し",
+        "romaji": "shi",
+        "meaning": "Stadt (Verwaltungseinheit)",
+        "type": "Nomen",
+        "category": "Verwaltung",
+        "level": "N4",
+        "notes": "Stadt als Verwaltungseinheit: 横浜市, 市役所 (Rathaus), 市長 (Bürgermeister). Die Lesung いち bedeutet „Markt“ (朝市).",
+        "examples": [
+          {
+            "japanese": "市の図書館は日曜日も開いています。",
+            "romaji": "Shi no toshokan wa nichiyoubi mo aite imasu.",
+            "german": "Die Stadtbibliothek ist auch sonntags geöffnet."
+          },
+          {
+            "japanese": "この市には大きな公園が三つある。",
+            "romaji": "Kono shi ni wa ooki na kouen ga mittsu aru.",
+            "german": "Diese Stadt hat drei große Parks."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133713564",
+            "patterns": [
+              1
+            ],
+            "finding": "市 / シ; 名詞/普通名詞/一般/*; *; *; lemma 市; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "市",
+              "reading": "し",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "市 as \"Stadt (Verwaltungseinheit)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4.",
+      "rationale": "Add 市【し】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1308090; spelling=市; reading=し; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1308090 市/し sense(s) 1 support \"Stadt (Verwaltungseinheit)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1308090",
+            "spelling": "市",
+            "reading": "し",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "city"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "市|し",
+          "referenceIndex": 0,
+          "referenceHash": "00f01edacc17d6a60b90dd9836cc53e5b97d336b7fac8e29ed4ff1e423a369ae"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"Stadt (Verwaltungseinheit)\" matches JMdict 1308090 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Municipal library.",
+          "Describing a city."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1308090; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@133713564 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133713564",
+            "patterns": [
+              1
+            ],
+            "finding": "市 / シ; 名詞/普通名詞/一般/*; *; *; lemma 市; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "市",
+              "reading": "し",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "市 as \"Stadt (Verwaltungseinheit)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 市【し】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1308090 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "49f8fd7af746cfb7a6362633d7de5ad1c1b40f5606d532c2a2522d024d472831",
+        "approvalHash": "7c0e87e328b69aa072a9f0661026656190e5106efebaa99494c186d0e91afd2d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 市【し】 N4 Nomen. The meaning \"Stadt (Verwaltungseinheit)\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 1) were re-checked. Round-1 notes: Content fine.",
+        "contentHash": "49f8fd7af746cfb7a6362633d7de5ad1c1b40f5606d532c2a2522d024d472831",
+        "approvalHash": "7c0e87e328b69aa072a9f0661026656190e5106efebaa99494c186d0e91afd2d"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:ji-character",
+      "revisionId": "027-add-ji-character",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "字",
+        "reading": "じ",
+        "romaji": "ji",
+        "meaning": "Schriftzeichen; Handschrift",
+        "type": "Nomen",
+        "category": "Sprache",
+        "level": "N4",
+        "notes": "Schriftzeichen, Buchstabe; auch die Handschrift: 字がきれい (schöne Schrift). Kanji allgemein: 漢字; Schriftzeichen allgemein: 文字.",
+        "examples": [
+          {
+            "japanese": "この字は何と読みますか。",
+            "romaji": "Kono ji wa nan to yomimasu ka.",
+            "german": "Wie liest man dieses Schriftzeichen?"
+          },
+          {
+            "japanese": "彼女は字がとてもきれいです。",
+            "romaji": "Kanojo wa ji ga totemo kirei desu.",
+            "german": "Sie hat eine sehr schöne Handschrift."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143288346",
+            "patterns": [
+              1
+            ],
+            "finding": "字 / ジ; 名詞/普通名詞/一般/*; *; *; lemma 字; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "字",
+              "reading": "じ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "字 as \"Schriftzeichen; Handschrift\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4.",
+      "rationale": "Add 字【じ】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1315130; spelling=字; reading=じ; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1315130 字/じ sense(s) 1,2 support \"Schriftzeichen; Handschrift\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1315130",
+            "spelling": "字",
+            "reading": "じ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "character (esp. kanji)",
+                  "letter",
+                  "written text"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handwriting",
+                  "penmanship"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "字|じ",
+          "referenceIndex": 0,
+          "referenceHash": "65b9859746c51d7a7e352954da5ca7b45eb46ec34d43c7c040a0e23fb8848c3b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"Schriftzeichen; Handschrift\" matches JMdict 1315130 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Asking how to read a character.",
+          "Praising handwriting."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1315130; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N4, JLPT Sensei N4, Nihongo Master N4. Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@143288346 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143288346",
+            "patterns": [
+              1
+            ],
+            "finding": "字 / ジ; 名詞/普通名詞/一般/*; *; *; lemma 字; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "字",
+              "reading": "じ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "字 as \"Schriftzeichen; Handschrift\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 字【じ】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1315130 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c44caf03428c34a6f7b057b201ae68107b31fc16a2e7ff837b2f154e11b58c3b",
+        "approvalHash": "8a28b7e384d5f503267b34acf509d9e1d0196e4b2709e1d9863fe86ae388d126"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 字【じ】 N4 Nomen. The meaning \"Schriftzeichen; Handschrift\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 1) were re-checked. Round-1 notes: Content fine.",
+        "contentHash": "c44caf03428c34a6f7b057b201ae68107b31fc16a2e7ff837b2f154e11b58c3b",
+        "approvalHash": "8a28b7e384d5f503267b34acf509d9e1d0196e4b2709e1d9863fe86ae388d126"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:kai-meeting",
+      "revisionId": "027-add-kai-meeting",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "会",
+        "reading": "かい",
+        "romaji": "kai",
+        "meaning": "Treffen, Versammlung; Verein",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N3",
+        "notes": "Treffen, Versammlung, Feier (歓迎会 = Willkommensfeier, 飲み会 = Trinkabend) und Verein, Gesellschaft (会に入る). Als Suffix sehr produktiv.",
+        "examples": [
+          {
+            "japanese": "来週、新入生の歓迎会があります。",
+            "romaji": "Raishuu, shinnyuusei no kangeikai ga arimasu.",
+            "german": "Nächste Woche gibt es eine Willkommensfeier für die neuen Studierenden."
+          },
+          {
+            "japanese": "町の歴史を調べる会に入りました。",
+            "romaji": "Machi no rekishi o shiraberu kai ni hairimashita.",
+            "german": "Ich bin einem Verein beigetreten, der die Stadtgeschichte erforscht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85495220",
+            "patterns": [
+              1
+            ],
+            "finding": "会 / カイ; 名詞/普通名詞/一般/*; *; *; lemma 会; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "会",
+              "reading": "かい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "会 as \"Treffen, Versammlung; Verein\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 027); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, JLPT Sensei N3, Nihongo Master N4. Editorial N3.",
+      "rationale": "Add 会【かい】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1198170; spelling=会; reading=かい; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1198170 会/かい sense(s) 1,2 support \"Treffen, Versammlung; Verein\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1198170",
+            "spelling": "会",
+            "reading": "かい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting",
+                  "assembly",
+                  "party",
+                  "gathering",
+                  "conference",
+                  "athletic meet"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "society",
+                  "association",
+                  "club"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "会|かい",
+          "referenceIndex": 0,
+          "referenceHash": "3910994a8b578594f4231c30f4a1c70f27f627793898dfe7333972888883112f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-027-editor",
+        "meaning": "\"Treffen, Versammlung; Verein\" matches JMdict 1198170 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Party/meeting (歓迎会).",
+          "Association one joins."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1198170; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, JLPT Sensei N3, Nihongo Master N4. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@85495220 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85495220",
+            "patterns": [
+              1
+            ],
+            "finding": "会 / カイ; 名詞/普通名詞/一般/*; *; *; lemma 会; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "会",
+              "reading": "かい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "会 as \"Treffen, Versammlung; Verein\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: Add 会【かい】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1198170 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c6bc3b4c87f4a054b1889d9e2b16d2a647d0b0e98586c24bf716463815c263c2",
+        "approvalHash": "96fb61ada947f82efb39a42fc06bcf38811c74d3c3c8421a27d50ebf0dd35af2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: 会【かい】 N3 Nomen. The meaning \"Treffen, Versammlung; Verein\" is present, is idiomatic German and is supported by the selected JMdict senses. Examples, romaji, note, level and pitch (verified 1) were re-checked. Round-1 notes: ex1 uses the compound 歓迎会 (its own JMdict entry, 1212970); ex2 carries the free noun 会. Acceptable, but a free-noun example (e.g. 明日の会には何人来ますか。) would teach the headword better.",
+        "contentHash": "c6bc3b4c87f4a054b1889d9e2b16d2a647d0b0e98586c24bf716463815c263c2",
+        "approvalHash": "96fb61ada947f82efb39a42fc06bcf38811c74d3c3c8421a27d50ebf0dd35af2"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "ちぇっく|ちぇっく",
+      "referenceIndex": 0,
+      "referenceHash": "595338cf8edf04a86cf983c840adbb534ac758350c7b7b3b84f06ed6100df2a5",
+      "revisionId": "027-candidate-chekku-5cd7e37c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:chekku"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:chekku": "74c16998d9c28fa4f8fef339fe91eba6749ba0f2c5ef1a8bd8dce8016e83a210"
+      },
+      "reason": "Reference チェック/チェック (sensei N4) is the same lexeme as the new entry チェック【チェック】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n4-vocabulary-list/",
+          "finding": "JLPT Sensei lists チェック/チェック at N4 (gloss: to check)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1077550; spelling=チェック; reading=チェック; senses=1,2,4; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1077550 as the reference form.",
+          "selected": {
+            "sequence": "1077550",
+            "spelling": "チェック",
+            "reading": "チェック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "check (pattern)",
+                  "plaid"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "check",
+                  "inspection",
+                  "examination",
+                  "looking over",
+                  "scrutinizing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "checking (something) out",
+                  "following (with interest)",
+                  "keeping one's eye on",
+                  "keeping a close watch on"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference ちぇっく|ちぇっく#0 is the same lexeme as vocab-n4:correction:chekku; target hash bound to the assembled addition.",
+        "contentHash": "04dac49b36d6577f55a9de7c84f5b61b67783d8cfb6f5ffd4c83f9ac83ad0c83",
+        "approvalHash": "04dac49b36d6577f55a9de7c84f5b61b67783d8cfb6f5ffd4c83f9ac83ad0c83"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: JLPT Sensei lists チェック/チェック at N4 (gloss: to check) matches target vocab-n4:correction:chekku. Target vocab-n4:correction:chekku now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "04dac49b36d6577f55a9de7c84f5b61b67783d8cfb6f5ffd4c83f9ac83ad0c83",
+        "approvalHash": "04dac49b36d6577f55a9de7c84f5b61b67783d8cfb6f5ffd4c83f9ac83ad0c83"
+      }
+    },
+    {
+      "key": "ちぇっく|ちぇっく",
+      "referenceIndex": 1,
+      "referenceHash": "11ef168886aee3b0f51d12d729362a661ecff9e65c798e4e716349e6201ca874",
+      "revisionId": "027-candidate-chekku-5cd7e37c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:chekku"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:chekku": "74c16998d9c28fa4f8fef339fe91eba6749ba0f2c5ef1a8bd8dce8016e83a210"
+      },
+      "reason": "Reference チェック/チェック (master N4) is the same lexeme as the new entry チェック【チェック】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "Nihongo Master lists チェック/チェック at N4 (gloss: check; plaid; (n) Scheck)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1077550; spelling=チェック; reading=チェック; senses=1,2,4; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1077550 as the reference form.",
+          "selected": {
+            "sequence": "1077550",
+            "spelling": "チェック",
+            "reading": "チェック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "check (pattern)",
+                  "plaid"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "check",
+                  "inspection",
+                  "examination",
+                  "looking over",
+                  "scrutinizing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "checking (something) out",
+                  "following (with interest)",
+                  "keeping one's eye on",
+                  "keeping a close watch on"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference ちぇっく|ちぇっく#1 is the same lexeme as vocab-n4:correction:chekku; target hash bound to the assembled addition.",
+        "contentHash": "9110b8787d07a9a60aaf7ca875e3fb23546c85069ac19a8319a77983d1ecc4a5",
+        "approvalHash": "9110b8787d07a9a60aaf7ca875e3fb23546c85069ac19a8319a77983d1ecc4a5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists チェック/チェック at N4 (gloss: check; plaid; (n) Scheck) matches target vocab-n4:correction:chekku. Target vocab-n4:correction:chekku now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "9110b8787d07a9a60aaf7ca875e3fb23546c85069ac19a8319a77983d1ecc4a5",
+        "approvalHash": "9110b8787d07a9a60aaf7ca875e3fb23546c85069ac19a8319a77983d1ecc4a5"
+      }
+    },
+    {
+      "key": "ちぇっく・する|ちぇっく・する",
+      "referenceIndex": 0,
+      "referenceHash": "629beb82b9ef1a29cde87f58c82c4bf7915b5da047d200c54aa0b1fe053cba47",
+      "revisionId": "027-candidate-chekku-80b456ee-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:chekku"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:chekku": "74c16998d9c28fa4f8fef339fe91eba6749ba0f2c5ef1a8bd8dce8016e83a210"
+      },
+      "reason": "Reference チェック・する/チェック・する (tanos N4) is the same lexeme as the new entry チェック【チェック】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt4/vocab/VocabList.N4.pdf#page=20",
+          "finding": "tanos lists チェック・する/チェック・する at N4 (gloss: to check)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1077550; spelling=チェック; reading=チェック; senses=1,2,4; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1077550 as the reference form.",
+          "selected": {
+            "sequence": "1077550",
+            "spelling": "チェック",
+            "reading": "チェック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "check (pattern)",
+                  "plaid"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "check",
+                  "inspection",
+                  "examination",
+                  "looking over",
+                  "scrutinizing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "checking (something) out",
+                  "following (with interest)",
+                  "keeping one's eye on",
+                  "keeping a close watch on"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference ちぇっく・する|ちぇっく・する#0 is the same lexeme as vocab-n4:correction:chekku; target hash bound to the assembled addition.",
+        "contentHash": "6c9969e0a231c80d3dd4cac2457744acdad871e261e7a16d366239dc8bc44f3f",
+        "approvalHash": "6c9969e0a231c80d3dd4cac2457744acdad871e261e7a16d366239dc8bc44f3f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists チェック・する/チェック・する at N4 (gloss: to check) matches target vocab-n4:correction:chekku. This is the verb use チェックする of the same noun; covered by the note and ex1. Target vocab-n4:correction:chekku now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "6c9969e0a231c80d3dd4cac2457744acdad871e261e7a16d366239dc8bc44f3f",
+        "approvalHash": "6c9969e0a231c80d3dd4cac2457744acdad871e261e7a16d366239dc8bc44f3f"
+      }
+    },
+    {
+      "key": "糸|いと",
+      "referenceIndex": 0,
+      "referenceHash": "d6fa5523ff0a270f7bff766987dd8e75ef752b92f55a77055f928152be946f20",
+      "revisionId": "027-candidate-ito-6a4841c5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ito"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ito": "90e4239b43eece66c61fe687b259c87eea1ca33a7242464edd112050a3f7eca9"
+      },
+      "reason": "Reference 糸/いと (tanos N4) is the same lexeme as the new entry 糸【いと】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt4/vocab/VocabList.N4.pdf#page=3",
+          "finding": "tanos lists 糸/いと at N4 (gloss: thread)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1311450; spelling=糸; reading=いと; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1311450 as the reference form.",
+          "selected": {
+            "sequence": "1311450",
+            "spelling": "糸",
+            "reading": "いと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thread",
+                  "yarn",
+                  "string"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 糸|いと#0 is the same lexeme as vocab-n4:correction:ito; target hash bound to the assembled addition.",
+        "contentHash": "3335f02a6d6789bcf4bc91f7f698c5d9a1ac4fb3e6e0e57a81858603a1678b35",
+        "approvalHash": "3335f02a6d6789bcf4bc91f7f698c5d9a1ac4fb3e6e0e57a81858603a1678b35"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 糸/いと at N4 (gloss: thread) matches target vocab-n4:correction:ito. Target vocab-n4:correction:ito now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "3335f02a6d6789bcf4bc91f7f698c5d9a1ac4fb3e6e0e57a81858603a1678b35",
+        "approvalHash": "3335f02a6d6789bcf4bc91f7f698c5d9a1ac4fb3e6e0e57a81858603a1678b35"
+      }
+    },
+    {
+      "key": "糸|いと",
+      "referenceIndex": 1,
+      "referenceHash": "47aeae2a481f3aad1b9cf19d28ff8208fa29eadc7534f8cc5239130f934ae1aa",
+      "revisionId": "027-candidate-ito-6a4841c5-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ito"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ito": "90e4239b43eece66c61fe687b259c87eea1ca33a7242464edd112050a3f7eca9"
+      },
+      "reason": "Reference 糸/いと (sensei N4) is the same lexeme as the new entry 糸【いと】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n4-vocabulary-list/page/2/",
+          "finding": "JLPT Sensei lists 糸/いと at N4 (gloss: thread)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1311450; spelling=糸; reading=いと; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1311450 as the reference form.",
+          "selected": {
+            "sequence": "1311450",
+            "spelling": "糸",
+            "reading": "いと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thread",
+                  "yarn",
+                  "string"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 糸|いと#1 is the same lexeme as vocab-n4:correction:ito; target hash bound to the assembled addition.",
+        "contentHash": "d860ebd184f9e69e80bbcdf17e15bc1d8329313888e133e17e6539dc8f6b8be5",
+        "approvalHash": "d860ebd184f9e69e80bbcdf17e15bc1d8329313888e133e17e6539dc8f6b8be5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: JLPT Sensei lists 糸/いと at N4 (gloss: thread) matches target vocab-n4:correction:ito. Target vocab-n4:correction:ito now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "d860ebd184f9e69e80bbcdf17e15bc1d8329313888e133e17e6539dc8f6b8be5",
+        "approvalHash": "d860ebd184f9e69e80bbcdf17e15bc1d8329313888e133e17e6539dc8f6b8be5"
+      }
+    },
+    {
+      "key": "糸|いと",
+      "referenceIndex": 2,
+      "referenceHash": "eb51b904ba37d4d8f7973bf1a51c0e3d65fa8560d1718e82ff524ed6f1a4518c",
+      "revisionId": "027-candidate-ito-6a4841c5-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ito"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ito": "90e4239b43eece66c61fe687b259c87eea1ca33a7242464edd112050a3f7eca9"
+      },
+      "reason": "Reference 糸/いと (master N4) is the same lexeme as the new entry 糸【いと】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "Nihongo Master lists 糸/いと at N4 (gloss: thread; yarn; string)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1311450; spelling=糸; reading=いと; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1311450 as the reference form.",
+          "selected": {
+            "sequence": "1311450",
+            "spelling": "糸",
+            "reading": "いと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thread",
+                  "yarn",
+                  "string"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 糸|いと#2 is the same lexeme as vocab-n4:correction:ito; target hash bound to the assembled addition.",
+        "contentHash": "3cf01ae7c91db3eb6085f4518a61fd8a02bdc25bfedd327dfff231d2a614d32c",
+        "approvalHash": "3cf01ae7c91db3eb6085f4518a61fd8a02bdc25bfedd327dfff231d2a614d32c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 糸/いと at N4 (gloss: thread; yarn; string) matches target vocab-n4:correction:ito. Target vocab-n4:correction:ito now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "3cf01ae7c91db3eb6085f4518a61fd8a02bdc25bfedd327dfff231d2a614d32c",
+        "approvalHash": "3cf01ae7c91db3eb6085f4518a61fd8a02bdc25bfedd327dfff231d2a614d32c"
+      }
+    },
+    {
+      "key": "雲|くも",
+      "referenceIndex": 0,
+      "referenceHash": "0e17ec0ad5481102014fe70fd4595390ff2c0bf46edf3735be27ccda95570887",
+      "revisionId": "027-candidate-kumo-4f7d4d46-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:kumo"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:kumo": "bdd600f73762dab99c2add6ba57d775398ee8aa6cd43e7adb9b6a9fa5fedca59"
+      },
+      "reason": "Reference 雲/くも (tanos N4) is the same lexeme as the new entry 雲【くも】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt4/vocab/VocabList.N4.pdf#page=10",
+          "finding": "tanos lists 雲/くも at N4 (gloss: cloud)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1173100; spelling=雲; reading=くも; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1173100 as the reference form.",
+          "selected": {
+            "sequence": "1173100",
+            "spelling": "雲",
+            "reading": "くも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cloud"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 雲|くも#0 is the same lexeme as vocab-n4:correction:kumo; target hash bound to the assembled addition.",
+        "contentHash": "55465d7c866ec55a9c866b2e6efa46557cb12ff28420daee04a95bd9b7b33c86",
+        "approvalHash": "55465d7c866ec55a9c866b2e6efa46557cb12ff28420daee04a95bd9b7b33c86"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 雲/くも at N4 (gloss: cloud) matches target vocab-n4:correction:kumo. Target vocab-n4:correction:kumo now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "55465d7c866ec55a9c866b2e6efa46557cb12ff28420daee04a95bd9b7b33c86",
+        "approvalHash": "55465d7c866ec55a9c866b2e6efa46557cb12ff28420daee04a95bd9b7b33c86"
+      }
+    },
+    {
+      "key": "雲|くも",
+      "referenceIndex": 1,
+      "referenceHash": "7a2309aca1b4f142908ae6508e462b199cfa8e4b50b0ec2f91c7b906a6f942cc",
+      "revisionId": "027-candidate-kumo-4f7d4d46-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:kumo"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:kumo": "bdd600f73762dab99c2add6ba57d775398ee8aa6cd43e7adb9b6a9fa5fedca59"
+      },
+      "reason": "Reference 雲/くも (sensei N4) is the same lexeme as the new entry 雲【くも】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n4-vocabulary-list/page/3/",
+          "finding": "JLPT Sensei lists 雲/くも at N4 (gloss: cloud)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1173100; spelling=雲; reading=くも; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1173100 as the reference form.",
+          "selected": {
+            "sequence": "1173100",
+            "spelling": "雲",
+            "reading": "くも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cloud"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 雲|くも#1 is the same lexeme as vocab-n4:correction:kumo; target hash bound to the assembled addition.",
+        "contentHash": "f6b8f48da0ca9b8cc4482480eedd7c65596a5041e2a5d6cb110958c946f595b1",
+        "approvalHash": "f6b8f48da0ca9b8cc4482480eedd7c65596a5041e2a5d6cb110958c946f595b1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: JLPT Sensei lists 雲/くも at N4 (gloss: cloud) matches target vocab-n4:correction:kumo. Target vocab-n4:correction:kumo now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "f6b8f48da0ca9b8cc4482480eedd7c65596a5041e2a5d6cb110958c946f595b1",
+        "approvalHash": "f6b8f48da0ca9b8cc4482480eedd7c65596a5041e2a5d6cb110958c946f595b1"
+      }
+    },
+    {
+      "key": "雲|くも",
+      "referenceIndex": 2,
+      "referenceHash": "5091d447502c181fde5e3df71e94dd8cdab00cd75646d963bdde55fb1d4bf9c6",
+      "revisionId": "027-candidate-kumo-4f7d4d46-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:kumo"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:kumo": "bdd600f73762dab99c2add6ba57d775398ee8aa6cd43e7adb9b6a9fa5fedca59"
+      },
+      "reason": "Reference 雲/くも (master N4) is the same lexeme as the new entry 雲【くも】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "Nihongo Master lists 雲/くも at N4 (gloss: cloud; nuage; о́блако)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1173100; spelling=雲; reading=くも; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1173100 as the reference form.",
+          "selected": {
+            "sequence": "1173100",
+            "spelling": "雲",
+            "reading": "くも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cloud"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 雲|くも#2 is the same lexeme as vocab-n4:correction:kumo; target hash bound to the assembled addition.",
+        "contentHash": "12cb62f4999b6c1929bc646b8221d41e3fce7fdc53a6e5df66bafcbc9950fee6",
+        "approvalHash": "12cb62f4999b6c1929bc646b8221d41e3fce7fdc53a6e5df66bafcbc9950fee6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 雲/くも at N4 (gloss: cloud; nuage; о́блако) matches target vocab-n4:correction:kumo. Target vocab-n4:correction:kumo now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "12cb62f4999b6c1929bc646b8221d41e3fce7fdc53a6e5df66bafcbc9950fee6",
+        "approvalHash": "12cb62f4999b6c1929bc646b8221d41e3fce7fdc53a6e5df66bafcbc9950fee6"
+      }
+    },
+    {
+      "key": "気|き",
+      "referenceIndex": 0,
+      "referenceHash": "c4c717bcbddc8359ab1ea54fe84d39fdcc2279947c0732fe32fada34732b1a43",
+      "revisionId": "027-candidate-ki-spirit-f087d1a2-0",
+      "predecessorRevisionHash": "20374c3c0ea3e90b373adb342f0b056f5e7eb74d81ad05f295262711b3b76cbb",
+      "predecessorHash": "06c4e723c33ec27706a80e815107be662417e6b5996478f5579a4768497e7d95",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ki-spirit"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ki-spirit": "0f440937d0a8c7d986b79019a113972567546b5c57ea92861d0ce94c4ed3a452"
+      },
+      "reason": "Reference 気/き (tanos N4) is the same lexeme as the new entry 気【き】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt4/vocab/VocabList.N4.pdf#page=8",
+          "finding": "tanos lists 気/き at N4 (gloss: spirit,mood)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1221520; spelling=気; reading=き; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1221520 as the reference form.",
+          "selected": {
+            "sequence": "1221520",
+            "spelling": "気",
+            "reading": "き",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "spirit",
+                  "mind",
+                  "heart"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nature",
+                  "disposition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 気|き#0 is the same lexeme as vocab-n4:correction:ki-spirit; target hash bound to the assembled addition. Chained onto the existing 015 research record of this reference.",
+        "contentHash": "a5bff4c50086a3674b05ebfd1545d52b153e2dfc8e45c3652e355819d8367bdf",
+        "approvalHash": "a5bff4c50086a3674b05ebfd1545d52b153e2dfc8e45c3652e355819d8367bdf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 気/き at N4 (gloss: spirit,mood) matches target vocab-n4:correction:ki-spirit. Target vocab-n4:correction:ki-spirit now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "a5bff4c50086a3674b05ebfd1545d52b153e2dfc8e45c3652e355819d8367bdf",
+        "approvalHash": "a5bff4c50086a3674b05ebfd1545d52b153e2dfc8e45c3652e355819d8367bdf"
+      }
+    },
+    {
+      "key": "気|き",
+      "referenceIndex": 1,
+      "referenceHash": "4bb646194a6c3451970d97117462139e54a909464fde62f271502890a8d4593f",
+      "revisionId": "027-candidate-ki-spirit-f087d1a2-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ki-spirit"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ki-spirit": "0f440937d0a8c7d986b79019a113972567546b5c57ea92861d0ce94c4ed3a452"
+      },
+      "reason": "Reference 気/き (sensei N4) is the same lexeme as the new entry 気【き】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n4-vocabulary-list/page/3/",
+          "finding": "JLPT Sensei lists 気/き at N4 (gloss: spirit)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1221520; spelling=気; reading=き; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1221520 as the reference form.",
+          "selected": {
+            "sequence": "1221520",
+            "spelling": "気",
+            "reading": "き",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "spirit",
+                  "mind",
+                  "heart"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nature",
+                  "disposition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 気|き#1 is the same lexeme as vocab-n4:correction:ki-spirit; target hash bound to the assembled addition. Chained onto the existing 015 research record of this reference.",
+        "contentHash": "89da906066c5880a3a54eb83cfc02419b0cd085895d1c150acd6617273209402",
+        "approvalHash": "89da906066c5880a3a54eb83cfc02419b0cd085895d1c150acd6617273209402"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: JLPT Sensei lists 気/き at N4 (gloss: spirit) matches target vocab-n4:correction:ki-spirit. Target vocab-n4:correction:ki-spirit now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "89da906066c5880a3a54eb83cfc02419b0cd085895d1c150acd6617273209402",
+        "approvalHash": "89da906066c5880a3a54eb83cfc02419b0cd085895d1c150acd6617273209402"
+      }
+    },
+    {
+      "key": "気|き",
+      "referenceIndex": 2,
+      "referenceHash": "35001788ec4dfa0b06cb758383470cf6db458e141f6f291f2d055e1431ea31ae",
+      "revisionId": "027-candidate-ki-spirit-f087d1a2-2",
+      "predecessorRevisionHash": "7de32c2038566f7724905a5e396a1fbee26ba4778ebf64ae8f59d925d3ad0d61",
+      "predecessorHash": "7314b7f31e0790e19bd04cb6401ef9f3a5fa3ebe20e5980c06dd16a42e097f95",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ki-spirit"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ki-spirit": "0f440937d0a8c7d986b79019a113972567546b5c57ea92861d0ce94c4ed3a452"
+      },
+      "reason": "Reference 気/き (master N4) is the same lexeme as the new entry 気【き】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "Nihongo Master lists 気/き at N4 (gloss: spirit; mind; heart)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1221520; spelling=気; reading=き; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1221520 as the reference form.",
+          "selected": {
+            "sequence": "1221520",
+            "spelling": "気",
+            "reading": "き",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "spirit",
+                  "mind",
+                  "heart"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nature",
+                  "disposition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 気|き#2 is the same lexeme as vocab-n4:correction:ki-spirit; target hash bound to the assembled addition. Chained onto the existing 015 research record of this reference.",
+        "contentHash": "9644f014fba08fe709368f8fd1022895527a9c7d37d3eb7fad15cabcbec1e7d7",
+        "approvalHash": "9644f014fba08fe709368f8fd1022895527a9c7d37d3eb7fad15cabcbec1e7d7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 気/き at N4 (gloss: spirit; mind; heart) matches target vocab-n4:correction:ki-spirit. Target vocab-n4:correction:ki-spirit now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "9644f014fba08fe709368f8fd1022895527a9c7d37d3eb7fad15cabcbec1e7d7",
+        "approvalHash": "9644f014fba08fe709368f8fd1022895527a9c7d37d3eb7fad15cabcbec1e7d7"
+      }
+    },
+    {
+      "key": "急|きゅう",
+      "referenceIndex": 0,
+      "referenceHash": "0df845c2b38a152aa79669d5f08c017b474efab4347d98a0efa241484e13125b",
+      "revisionId": "027-candidate-kyuu-sudden-125f3975-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:kyuu-sudden"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:kyuu-sudden": "3030f7b453cb2cdd51bf2b14074401ab1c972c231c4af210dc2d98b2a250b7e6"
+      },
+      "reason": "Reference 急/きゅう (tanos N4) is the same lexeme as the new entry 急【きゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt4/vocab/VocabList.N4.pdf#page=9",
+          "finding": "tanos lists 急/きゅう at N4 (gloss: urgent, steep)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1228560; spelling=急; reading=きゅう; senses=1,2,3; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1228560 as the reference form.",
+          "selected": {
+            "sequence": "1228560",
+            "spelling": "急",
+            "reading": "きゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sudden",
+                  "abrupt",
+                  "unexpected"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "urgent",
+                  "pressing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "steep",
+                  "sharp",
+                  "precipitous"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 急|きゅう#0 is the same lexeme as vocab-n4:correction:kyuu-sudden; target hash bound to the assembled addition.",
+        "contentHash": "effb3b03223f74b04a33f631e33c74e1614ae429a845f4b15025d7d7c3c2076b",
+        "approvalHash": "effb3b03223f74b04a33f631e33c74e1614ae429a845f4b15025d7d7c3c2076b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 急/きゅう at N4 (gloss: urgent, steep) matches target vocab-n4:correction:kyuu-sudden. Target vocab-n4:correction:kyuu-sudden now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "effb3b03223f74b04a33f631e33c74e1614ae429a845f4b15025d7d7c3c2076b",
+        "approvalHash": "effb3b03223f74b04a33f631e33c74e1614ae429a845f4b15025d7d7c3c2076b"
+      }
+    },
+    {
+      "key": "急|きゅう",
+      "referenceIndex": 1,
+      "referenceHash": "21e50ac685cf80c9410687d0d994ca86f7ae31e2a2da3216c4fbad23c5533714",
+      "revisionId": "027-candidate-kyuu-sudden-125f3975-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:kyuu-sudden"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:kyuu-sudden": "3030f7b453cb2cdd51bf2b14074401ab1c972c231c4af210dc2d98b2a250b7e6"
+      },
+      "reason": "Reference 急/きゅう (sensei N4) is the same lexeme as the new entry 急【きゅう】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n4-vocabulary-list/page/3/",
+          "finding": "JLPT Sensei lists 急/きゅう at N4 (gloss: sudden; abrupt; unexpected)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1228560; spelling=急; reading=きゅう; senses=1,2,3; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1228560 as the reference form.",
+          "selected": {
+            "sequence": "1228560",
+            "spelling": "急",
+            "reading": "きゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sudden",
+                  "abrupt",
+                  "unexpected"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "urgent",
+                  "pressing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "steep",
+                  "sharp",
+                  "precipitous"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 急|きゅう#1 is the same lexeme as vocab-n4:correction:kyuu-sudden; target hash bound to the assembled addition.",
+        "contentHash": "b9bcde796cd2962b66bee6ce2617537b1703a9ae36c5d987d52355fd45b67f98",
+        "approvalHash": "b9bcde796cd2962b66bee6ce2617537b1703a9ae36c5d987d52355fd45b67f98"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: JLPT Sensei lists 急/きゅう at N4 (gloss: sudden; abrupt; unexpected) matches target vocab-n4:correction:kyuu-sudden. Target vocab-n4:correction:kyuu-sudden now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "b9bcde796cd2962b66bee6ce2617537b1703a9ae36c5d987d52355fd45b67f98",
+        "approvalHash": "b9bcde796cd2962b66bee6ce2617537b1703a9ae36c5d987d52355fd45b67f98"
+      }
+    },
+    {
+      "key": "急|きゅう",
+      "referenceIndex": 2,
+      "referenceHash": "c53c4702f32fed71d9182f551503e75b72eb1794abe034e4b08be477828991f7",
+      "revisionId": "027-candidate-kyuu-sudden-125f3975-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:kyuu-sudden"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:kyuu-sudden": "3030f7b453cb2cdd51bf2b14074401ab1c972c231c4af210dc2d98b2a250b7e6"
+      },
+      "reason": "Reference 急/きゅう (master N4) is the same lexeme as the new entry 急【きゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "Nihongo Master lists 急/きゅう at N4 (gloss: urgent; sudden; abrupt)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1228560; spelling=急; reading=きゅう; senses=1,2,3; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1228560 as the reference form.",
+          "selected": {
+            "sequence": "1228560",
+            "spelling": "急",
+            "reading": "きゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sudden",
+                  "abrupt",
+                  "unexpected"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "urgent",
+                  "pressing"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "steep",
+                  "sharp",
+                  "precipitous"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 急|きゅう#2 is the same lexeme as vocab-n4:correction:kyuu-sudden; target hash bound to the assembled addition.",
+        "contentHash": "7ca5045c8409f30e474dbf9fa108b8f1039d43535ee805201459b581f3db1624",
+        "approvalHash": "7ca5045c8409f30e474dbf9fa108b8f1039d43535ee805201459b581f3db1624"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 急/きゅう at N4 (gloss: urgent; sudden; abrupt) matches target vocab-n4:correction:kyuu-sudden. Target vocab-n4:correction:kyuu-sudden now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "7ca5045c8409f30e474dbf9fa108b8f1039d43535ee805201459b581f3db1624",
+        "approvalHash": "7ca5045c8409f30e474dbf9fa108b8f1039d43535ee805201459b581f3db1624"
+      }
+    },
+    {
+      "key": "市|し",
+      "referenceIndex": 0,
+      "referenceHash": "00f01edacc17d6a60b90dd9836cc53e5b97d336b7fac8e29ed4ff1e423a369ae",
+      "revisionId": "027-candidate-shi-city-7aa6f489-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:shi-city"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:shi-city": "49f8fd7af746cfb7a6362633d7de5ad1c1b40f5606d532c2a2522d024d472831"
+      },
+      "reason": "Reference 市/し (tanos N4) is the same lexeme as the new entry 市【し】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt4/vocab/VocabList.N4.pdf#page=14",
+          "finding": "tanos lists 市/し at N4 (gloss: city)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1308090; spelling=市; reading=し; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1308090 as the reference form.",
+          "selected": {
+            "sequence": "1308090",
+            "spelling": "市",
+            "reading": "し",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "city"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 市|し#0 is the same lexeme as vocab-n4:correction:shi-city; target hash bound to the assembled addition.",
+        "contentHash": "12e73a02a07d6adf80b30bcc48220136c6dab694eb56a8e17d5ec371446d691f",
+        "approvalHash": "12e73a02a07d6adf80b30bcc48220136c6dab694eb56a8e17d5ec371446d691f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 市/し at N4 (gloss: city) matches target vocab-n4:correction:shi-city. Target vocab-n4:correction:shi-city now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "12e73a02a07d6adf80b30bcc48220136c6dab694eb56a8e17d5ec371446d691f",
+        "approvalHash": "12e73a02a07d6adf80b30bcc48220136c6dab694eb56a8e17d5ec371446d691f"
+      }
+    },
+    {
+      "key": "市|し",
+      "referenceIndex": 1,
+      "referenceHash": "2c1606191f6a817fab95d134a2d01e8db29fe3905adc04d02e4a66e1e9afab60",
+      "revisionId": "027-candidate-shi-city-7aa6f489-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:shi-city"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:shi-city": "49f8fd7af746cfb7a6362633d7de5ad1c1b40f5606d532c2a2522d024d472831"
+      },
+      "reason": "Reference 市/し (sensei N4) is the same lexeme as the new entry 市【し】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n4-vocabulary-list/page/5/",
+          "finding": "JLPT Sensei lists 市/し at N4 (gloss: city)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1308090; spelling=市; reading=し; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1308090 as the reference form.",
+          "selected": {
+            "sequence": "1308090",
+            "spelling": "市",
+            "reading": "し",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "city"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 市|し#1 is the same lexeme as vocab-n4:correction:shi-city; target hash bound to the assembled addition.",
+        "contentHash": "3ee6ee2474de4bb0b654ad39766413f0576f114f0baee2623c474475f2aee589",
+        "approvalHash": "3ee6ee2474de4bb0b654ad39766413f0576f114f0baee2623c474475f2aee589"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: JLPT Sensei lists 市/し at N4 (gloss: city) matches target vocab-n4:correction:shi-city. Target vocab-n4:correction:shi-city now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "3ee6ee2474de4bb0b654ad39766413f0576f114f0baee2623c474475f2aee589",
+        "approvalHash": "3ee6ee2474de4bb0b654ad39766413f0576f114f0baee2623c474475f2aee589"
+      }
+    },
+    {
+      "key": "市|し",
+      "referenceIndex": 2,
+      "referenceHash": "ff7c1e8ac55d8a0487540c2e68ab623aab83af29b1dc5c7c685ee8c3e65c5b1a",
+      "revisionId": "027-candidate-shi-city-7aa6f489-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:shi-city"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:shi-city": "49f8fd7af746cfb7a6362633d7de5ad1c1b40f5606d532c2a2522d024d472831"
+      },
+      "reason": "Reference 市/し (master N4) is the same lexeme as the new entry 市【し】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 市/し at N4 (gloss: city; ville; город)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1308090; spelling=市; reading=し; senses=1; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1308090 as the reference form.",
+          "selected": {
+            "sequence": "1308090",
+            "spelling": "市",
+            "reading": "し",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "city"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 市|し#2 is the same lexeme as vocab-n4:correction:shi-city; target hash bound to the assembled addition.",
+        "contentHash": "9ce06fbfacfb76897f96bbbeba2cf393cd9e1dffd3d7d5efe5280a27844abfe8",
+        "approvalHash": "9ce06fbfacfb76897f96bbbeba2cf393cd9e1dffd3d7d5efe5280a27844abfe8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 市/し at N4 (gloss: city; ville; город) matches target vocab-n4:correction:shi-city. Target vocab-n4:correction:shi-city now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "9ce06fbfacfb76897f96bbbeba2cf393cd9e1dffd3d7d5efe5280a27844abfe8",
+        "approvalHash": "9ce06fbfacfb76897f96bbbeba2cf393cd9e1dffd3d7d5efe5280a27844abfe8"
+      }
+    },
+    {
+      "key": "字|じ",
+      "referenceIndex": 0,
+      "referenceHash": "65b9859746c51d7a7e352954da5ca7b45eb46ec34d43c7c040a0e23fb8848c3b",
+      "revisionId": "027-candidate-ji-character-e019ec04-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ji-character"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ji-character": "c44caf03428c34a6f7b057b201ae68107b31fc16a2e7ff837b2f154e11b58c3b"
+      },
+      "reason": "Reference 字/じ (tanos N4) is the same lexeme as the new entry 字【じ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt4/vocab/VocabList.N4.pdf#page=14",
+          "finding": "tanos lists 字/じ at N4 (gloss: character)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1315130; spelling=字; reading=じ; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1315130 as the reference form.",
+          "selected": {
+            "sequence": "1315130",
+            "spelling": "字",
+            "reading": "じ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "character (esp. kanji)",
+                  "letter",
+                  "written text"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handwriting",
+                  "penmanship"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 字|じ#0 is the same lexeme as vocab-n4:correction:ji-character; target hash bound to the assembled addition.",
+        "contentHash": "89615e280a4baddb79254c6aec09902f61917553b78fd68f51d49c379cefc2b2",
+        "approvalHash": "89615e280a4baddb79254c6aec09902f61917553b78fd68f51d49c379cefc2b2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 字/じ at N4 (gloss: character) matches target vocab-n4:correction:ji-character. Target vocab-n4:correction:ji-character now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "89615e280a4baddb79254c6aec09902f61917553b78fd68f51d49c379cefc2b2",
+        "approvalHash": "89615e280a4baddb79254c6aec09902f61917553b78fd68f51d49c379cefc2b2"
+      }
+    },
+    {
+      "key": "字|じ",
+      "referenceIndex": 1,
+      "referenceHash": "f397fb7e2392d0becf3a697534796d233de8434bcd09f7b14c65d7a503bded3a",
+      "revisionId": "027-candidate-ji-character-e019ec04-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ji-character"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ji-character": "c44caf03428c34a6f7b057b201ae68107b31fc16a2e7ff837b2f154e11b58c3b"
+      },
+      "reason": "Reference 字/じ (sensei N4) is the same lexeme as the new entry 字【じ】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n4-vocabulary-list/page/2/",
+          "finding": "JLPT Sensei lists 字/じ at N4 (gloss: character)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1315130; spelling=字; reading=じ; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1315130 as the reference form.",
+          "selected": {
+            "sequence": "1315130",
+            "spelling": "字",
+            "reading": "じ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "character (esp. kanji)",
+                  "letter",
+                  "written text"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handwriting",
+                  "penmanship"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 字|じ#1 is the same lexeme as vocab-n4:correction:ji-character; target hash bound to the assembled addition.",
+        "contentHash": "c9c390ad5fd13ab304133bf5787ebd28578def25cfc8d06661d782395420d0e6",
+        "approvalHash": "c9c390ad5fd13ab304133bf5787ebd28578def25cfc8d06661d782395420d0e6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: JLPT Sensei lists 字/じ at N4 (gloss: character) matches target vocab-n4:correction:ji-character. Target vocab-n4:correction:ji-character now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "c9c390ad5fd13ab304133bf5787ebd28578def25cfc8d06661d782395420d0e6",
+        "approvalHash": "c9c390ad5fd13ab304133bf5787ebd28578def25cfc8d06661d782395420d0e6"
+      }
+    },
+    {
+      "key": "字|じ",
+      "referenceIndex": 2,
+      "referenceHash": "22e6619d8a3421683517c14e30754e2b8684ab3fe280a7e0d03023e3f7b100b3",
+      "revisionId": "027-candidate-ji-character-e019ec04-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:ji-character"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:ji-character": "c44caf03428c34a6f7b057b201ae68107b31fc16a2e7ff837b2f154e11b58c3b"
+      },
+      "reason": "Reference 字/じ (master N4) is the same lexeme as the new entry 字【じ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 字/じ at N4 (gloss: character (i.e. kanji); écriture; caractère)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1315130; spelling=字; reading=じ; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1315130 as the reference form.",
+          "selected": {
+            "sequence": "1315130",
+            "spelling": "字",
+            "reading": "じ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "character (esp. kanji)",
+                  "letter",
+                  "written text"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handwriting",
+                  "penmanship"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 字|じ#2 is the same lexeme as vocab-n4:correction:ji-character; target hash bound to the assembled addition.",
+        "contentHash": "2981b91fec530dca9e9e6ad623df0d60341361048802674168f86b1360c315ca",
+        "approvalHash": "2981b91fec530dca9e9e6ad623df0d60341361048802674168f86b1360c315ca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 字/じ at N4 (gloss: character (i.e. kanji); écriture; caractère) matches target vocab-n4:correction:ji-character. Target vocab-n4:correction:ji-character now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "2981b91fec530dca9e9e6ad623df0d60341361048802674168f86b1360c315ca",
+        "approvalHash": "2981b91fec530dca9e9e6ad623df0d60341361048802674168f86b1360c315ca"
+      }
+    },
+    {
+      "key": "会|かい",
+      "referenceIndex": 0,
+      "referenceHash": "3910994a8b578594f4231c30f4a1c70f27f627793898dfe7333972888883112f",
+      "revisionId": "027-candidate-kai-meeting-58201fcf-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:kai-meeting"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kai-meeting": "c6bc3b4c87f4a054b1889d9e2b16d2a647d0b0e98586c24bf716463815c263c2"
+      },
+      "reason": "Reference 会/かい (tanos N3) is the same lexeme as the new entry 会【かい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=13",
+          "finding": "tanos lists 会/かい at N3 (gloss: meeting,assembly,party,association,club)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1198170; spelling=会; reading=かい; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1198170 as the reference form.",
+          "selected": {
+            "sequence": "1198170",
+            "spelling": "会",
+            "reading": "かい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting",
+                  "assembly",
+                  "party",
+                  "gathering",
+                  "conference",
+                  "athletic meet"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "society",
+                  "association",
+                  "club"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 会|かい#0 is the same lexeme as vocab-n3:correction:kai-meeting; target hash bound to the assembled addition.",
+        "contentHash": "27a61286abe663f3228ff8652f74b00201701a6e480a560f06bb7a0ae8780393",
+        "approvalHash": "27a61286abe663f3228ff8652f74b00201701a6e480a560f06bb7a0ae8780393"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: tanos lists 会/かい at N3 (gloss: meeting,assembly,party,association,club) matches target vocab-n3:correction:kai-meeting. Target vocab-n3:correction:kai-meeting now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "27a61286abe663f3228ff8652f74b00201701a6e480a560f06bb7a0ae8780393",
+        "approvalHash": "27a61286abe663f3228ff8652f74b00201701a6e480a560f06bb7a0ae8780393"
+      }
+    },
+    {
+      "key": "会|かい",
+      "referenceIndex": 1,
+      "referenceHash": "c855e5150166af3ea79e1a905ce09034c0711ea84888e14513261d60900a3fba",
+      "revisionId": "027-candidate-kai-meeting-58201fcf-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:kai-meeting"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kai-meeting": "c6bc3b4c87f4a054b1889d9e2b16d2a647d0b0e98586c24bf716463815c263c2"
+      },
+      "reason": "Reference 会/かい (sensei N3) is the same lexeme as the new entry 会【かい】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n3-vocabulary-list/",
+          "finding": "JLPT Sensei lists 会/かい at N3 (gloss: meeting; assembly; party; association; club)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1198170; spelling=会; reading=かい; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1198170 as the reference form.",
+          "selected": {
+            "sequence": "1198170",
+            "spelling": "会",
+            "reading": "かい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting",
+                  "assembly",
+                  "party",
+                  "gathering",
+                  "conference",
+                  "athletic meet"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "society",
+                  "association",
+                  "club"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 会|かい#1 is the same lexeme as vocab-n3:correction:kai-meeting; target hash bound to the assembled addition.",
+        "contentHash": "816a1c2ddfc91d634623272d9516638758324cf07df19f3e1d4fd6274a15e202",
+        "approvalHash": "816a1c2ddfc91d634623272d9516638758324cf07df19f3e1d4fd6274a15e202"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: JLPT Sensei lists 会/かい at N3 (gloss: meeting; assembly; party; association; club) matches target vocab-n3:correction:kai-meeting. Target vocab-n3:correction:kai-meeting now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "816a1c2ddfc91d634623272d9516638758324cf07df19f3e1d4fd6274a15e202",
+        "approvalHash": "816a1c2ddfc91d634623272d9516638758324cf07df19f3e1d4fd6274a15e202"
+      }
+    },
+    {
+      "key": "会|かい",
+      "referenceIndex": 2,
+      "referenceHash": "76b3eb31e680ebeaf787dab433dbaacf30d69cb2bbbf40d5e6777fc3bbef6111",
+      "revisionId": "027-candidate-kai-meeting-58201fcf-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:kai-meeting"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kai-meeting": "c6bc3b4c87f4a054b1889d9e2b16d2a647d0b0e98586c24bf716463815c263c2"
+      },
+      "reason": "Reference 会/かい (master N4) is the same lexeme as the new entry 会【かい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 会/かい at N4 (gloss: meeting; assembly; party)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1198170; spelling=会; reading=かい; senses=1,2; scripts/vocabulary-completion/maintenance-027/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1198170 as the reference form.",
+          "selected": {
+            "sequence": "1198170",
+            "spelling": "会",
+            "reading": "かい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting",
+                  "assembly",
+                  "party",
+                  "gathering",
+                  "conference",
+                  "athletic meet"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "society",
+                  "association",
+                  "club"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-editor",
+        "finding": "Editorial first pass: reference 会|かい#2 is the same lexeme as vocab-n3:correction:kai-meeting; target hash bound to the assembled addition.",
+        "contentHash": "19220f44a378b0f24cadcd9bb49d82315894b16787e6cb87a4c311300a446daf",
+        "approvalHash": "19220f44a378b0f24cadcd9bb49d82315894b16787e6cb87a4c311300a446daf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-027-independent-reviewer",
+        "finding": "Second pass: Same lexeme: Nihongo Master lists 会/かい at N4 (gloss: meeting; assembly; party) matches target vocab-n3:correction:kai-meeting. Target vocab-n3:correction:kai-meeting now carries its full meaning; the decision binds the rebuilt entry hash.",
+        "contentHash": "19220f44a378b0f24cadcd9bb49d82315894b16787e6cb87a4c311300a446daf",
+        "approvalHash": "19220f44a378b0f24cadcd9bb49d82315894b16787e6cb87a4c311300a446daf"
+      }
+    }
+  ]
+}
