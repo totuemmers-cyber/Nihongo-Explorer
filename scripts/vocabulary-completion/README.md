@@ -81,7 +81,12 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
   (ソフト, ファックス, ハンバーグ, チェック …) and the suffixes 〜代 and 〜製. Closes 98 publisher
   references; one Nihongo Master row (ケレド, "credo") excluded as a source error.
 
-Runtime: **13,309 entries** (N5 1,642, N4 1,637, N3 3,455, N2 2,548, N1 4,027),
+- **028–031 (N3 JLPT-list gaps, research in maintenance-028 … maintenance-031):** four chunks of about
+  70 N3 words each from the open candidate groups (e.g. 影, 宝, 袖, 神経, 財産, 途端, 翼, 騒ぎ, 付き合い,
+  身長, 恋, 意思 …), authored in parallel and each checked by an independent reviewer over two rounds.
+  Rare kanji/ateji spellings (何時でも, 其の儘, 屡々 …) are decided as the same lexeme as the kana entry.
+
+Runtime: **13,384 entries** (N5 1,642, N4 1,637, N3 3,530, N2 2,548, N1 4,027),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70
