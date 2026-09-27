@@ -1,0 +1,2080 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n3:correction:donnani",
+      "revisionId": "028-add-donnani",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "どんなに",
+        "reading": "どんなに",
+        "romaji": "donnani",
+        "meaning": "wie sehr; wie … auch immer",
+        "type": "Adverb",
+        "category": "Vergleich",
+        "level": "N3",
+        "notes": "Frage oder Ausruf (どんなにうれしかったか = wie froh ich war) und mit ても „egal wie sehr“: どんなに頑張っても.",
+        "examples": [
+          {
+            "japanese": "どんなに頑張っても、彼には勝てなかった。",
+            "romaji": "Donna ni ganbatte mo, kare ni wa katenakatta.",
+            "german": "So sehr ich mich auch anstrengte, gegen ihn konnte ich nicht gewinnen."
+          },
+          {
+            "japanese": "合格したとき、どんなにうれしかったことか。",
+            "romaji": "Goukaku shita toki, donna ni ureshikatta koto ka.",
+            "german": "Wie glücklich war ich, als ich bestanden hatte!"
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add どんなに【どんなに】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1009340; spelling=どんなに; reading=どんなに; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1009340 どんなに/どんなに sense(s) 1,2 support \"wie sehr; wie … auch immer\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1009340",
+            "spelling": "どんなに",
+            "reading": "どんなに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "how",
+                  "how much",
+                  "to what extent"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no matter how (much)",
+                  "however"
+                ],
+                "notes": [
+                  "as どんなに...ても, どんなに...でも, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "どんなに|どんなに",
+          "referenceIndex": 0,
+          "referenceHash": "8848b7f5fd6cc9ef54bfa6b4f4c05f8adc0822df2513ac4d1208b3bfd77778df"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"wie sehr; wie … auch immer\" matches JMdict 1009340 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "“No matter how much” (～ても).",
+          "Exclamation of joy."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1009340; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for どんなに / どんなに; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup どんなに / どんなに",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add どんなに【どんなに】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1009340 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "2745197173dcbca1c99c2f46a180ed3dfcaad191784aa1e07687e933f0d23fd7",
+        "approvalHash": "f507558b37e24126301081a773ac3e931fd01b37a93aa49ee7e842b636ed5351"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Examples natural and on-sense with the headword itself, romaji exact, German correct, JMdict senses support meaning, type sensible, level N3 supported by publishers, pitch status consistent with evidence, check.cjs: new.",
+        "contentHash": "2745197173dcbca1c99c2f46a180ed3dfcaad191784aa1e07687e933f0d23fd7",
+        "approvalHash": "f507558b37e24126301081a773ac3e931fd01b37a93aa49ee7e842b636ed5351"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:nanimo",
+      "revisionId": "028-add-nanimo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "なにも",
+        "reading": "なにも",
+        "romaji": "nanimo",
+        "meaning": "(mit Verneinung) nichts; gar nicht",
+        "type": "Adverb",
+        "category": "Betonung",
+        "level": "N3",
+        "notes": "Mit Verneinung „nichts“ (なにも食べていない). Auch „doch nicht (gleich)“: なにも泣くことはない (Du musst doch nicht gleich weinen). Oft auch 何も geschrieben.",
+        "examples": [
+          {
+            "japanese": "朝からなにも食べていない。",
+            "romaji": "Asa kara nanimo tabete inai.",
+            "german": "Ich habe seit heute Morgen nichts gegessen."
+          },
+          {
+            "japanese": "なにもそんなに怒らなくてもいいじゃない。",
+            "romaji": "Nanimo sonna ni okoranakute mo ii ja nai.",
+            "german": "Du musst dich doch nicht gleich so aufregen."
+          }
+        ],
+        "pitch": null,
+        "aliases": [
+          "何も"
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, tanos N1, Nihongo Master N3 (何も). Editorial N3.",
+      "rationale": "Add なにも【なにも】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1188490; spelling=なにも; reading=なにも; senses=1,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1188490 なにも/なにも sense(s) 1,3 support \"(mit Verneinung) nichts; gar nicht\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1188490",
+            "spelling": "なにも",
+            "reading": "なにも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) anything",
+                  "(nothing) at all",
+                  "(not) any",
+                  "nothing"
+                ],
+                "notes": [
+                  "with neg. verb"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) at all",
+                  "(not) in the least",
+                  "(not) especially",
+                  "(not) to that extent"
+                ],
+                "notes": [
+                  "as ...なくてもいい, ...ことはない, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "なにも|なにも",
+          "referenceIndex": 0,
+          "referenceHash": "0a7892969bef51ebf3c274dc31d1ff3810dd3ea12cfda2ad5da8fe540eb48cf3"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"(mit Verneinung) nichts; gar nicht\" matches JMdict 1188490 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Not having eaten.",
+          "“There’s no need to …” (sense 3)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1188490; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, tanos N1, Nihongo Master N3 (何も). Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for なにも / なにも; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup なにも / なにも",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add なにも【なにも】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1188490 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "46fa9c6a40b6048fdfa91eac6c3a51794fa88c9291089e3276bdcf17a60c7ec6",
+        "approvalHash": "c4c06fcd65100e047efd6dc3e5ea8a7c425ca7fa039713346151948e7504a9ab"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Alias 何も new per check.cjs. Fine.",
+        "contentHash": "46fa9c6a40b6048fdfa91eac6c3a51794fa88c9291089e3276bdcf17a60c7ec6",
+        "approvalHash": "c4c06fcd65100e047efd6dc3e5ea8a7c425ca7fa039713346151948e7504a9ab"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:nanka",
+      "revisionId": "028-add-nanka",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "なんか",
+        "reading": "なんか",
+        "romaji": "nanka",
+        "meaning": "so etwas wie, zum Beispiel (umgangssprachlich)",
+        "type": "Partikel",
+        "category": "Sprache",
+        "level": "N3",
+        "notes": "Umgangssprachlich nach Nomen: nennt ein Beispiel (お茶なんかどう？) oder spielt etwas herunter (私なんか…). Vgl. die Grammatik ～なんて／～なんか. Gleich lautend: なんか = 何か (irgendwie, etwas).",
+        "examples": [
+          {
+            "japanese": "お土産にお菓子なんかどうですか。",
+            "romaji": "Omiyage ni okashi nanka dou desu ka.",
+            "german": "Wie wäre es zum Beispiel mit Süßigkeiten als Mitbringsel?"
+          },
+          {
+            "japanese": "私なんか、まだまだ下手です。",
+            "romaji": "Watashi nanka, madamada heta desu.",
+            "german": "Ich bin noch lange nicht gut darin."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add なんか【なんか】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1009500; spelling=なんか; reading=なんか; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1009500 なんか/なんか sense(s) 1 support \"so etwas wie, zum Beispiel (umgangssprachlich)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1009500",
+            "spelling": "なんか",
+            "reading": "なんか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "particle",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "something like ...",
+                  "things like ...",
+                  "someone like ...",
+                  "the likes of ..."
+                ],
+                "notes": [
+                  "oft. scornful or dismissive"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "なんか|なんか",
+          "referenceIndex": 0,
+          "referenceHash": "8d023076ae0ecac6aef5cc9ad47029922ad6d76967df77475dfa855e946516c2"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"so etwas wie, zum Beispiel (umgangssprachlich)\" matches JMdict 1009500 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Suggesting an example.",
+          "Self-deprecation."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1009500; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for なんか / なんか; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup なんか / なんか",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add なんか【なんか】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1009500 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "d4c2e4108ba77f921f975e5eb2fbb97f4146745f60188ac41fea8dcaf3716ca5",
+        "approvalHash": "08ea8868e874a9b976e3acb2d60b2f25b504d7272092a6e1f751e7687d708505"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Overlaps grammar ～なんて／～なんか; the note cross-references it and examples are consistent with it. Acceptable. Minor: ex2 German drops the self-deprecating nuance (\"Jemand wie ich ist noch lange nicht gut\").",
+        "contentHash": "d4c2e4108ba77f921f975e5eb2fbb97f4146745f60188ac41fea8dcaf3716ca5",
+        "approvalHash": "08ea8868e874a9b976e3acb2d60b2f25b504d7272092a6e1f751e7687d708505"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:nikkori",
+      "revisionId": "028-add-nikkori",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "にっこり",
+        "reading": "にっこり",
+        "romaji": "nikkori",
+        "meaning": "(freundlich) lächelnd",
+        "type": "Adverb",
+        "category": "Gefühle",
+        "level": "N3",
+        "notes": "Ein kurzes, herzliches Lächeln: にっこり笑う／にっこりする. Anhaltendes Lächeln: にこにこ.",
+        "examples": [
+          {
+            "japanese": "赤ちゃんが私を見てにっこり笑った。",
+            "romaji": "Akachan ga watashi o mite nikkori waratta.",
+            "german": "Das Baby sah mich an und lächelte."
+          },
+          {
+            "japanese": "店員さんがにっこりして「ありがとうございます」と言った。",
+            "romaji": "Ten'in-san ga nikkori shite \"arigatou gozaimasu\" to itta.",
+            "german": "Die Verkäuferin lächelte freundlich und sagte „Vielen Dank“."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202114506",
+            "patterns": [
+              3
+            ],
+            "finding": "にっこり / ニッコリ; 副詞/*/*/*; *; *; lemma にっこり; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "にっこり",
+              "reading": "にっこり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "にっこり as \"(freundlich) lächelnd\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add にっこり【にっこり】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1632320; spelling=にっこり; reading=にっこり; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1632320 にっこり/にっこり sense(s) 1 support \"(freundlich) lächelnd\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1632320",
+            "spelling": "にっこり",
+            "reading": "にっこり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "sweetly (smiling)",
+                  "broadly (grinning)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "にっこり|にっこり",
+          "referenceIndex": 0,
+          "referenceHash": "4e673122b7faa0dbf4b6f1fbf42c988260a909c2af83047c6aa694a5596684b4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"(freundlich) lächelnd\" matches JMdict 1632320 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "A baby smiling.",
+          "Friendly shop assistant."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1632320; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@202114506 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202114506",
+            "patterns": [
+              3
+            ],
+            "finding": "にっこり / ニッコリ; 副詞/*/*/*; *; *; lemma にっこり; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "にっこり",
+              "reading": "にっこり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "にっこり as \"(freundlich) lächelnd\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add にっこり【にっこり】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1632320 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "50bbfd40293a012f1014958e85d267468d3122bc3f683188f0c143da4117daf2",
+        "approvalHash": "fbdb7c7431b62de5720986df0181be8b58ce804b80da4fd0a7e9a2f4aad4736f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Examples natural and on-sense with the headword itself, romaji exact, German correct, JMdict senses support meaning, type sensible, level N3 supported by publishers, pitch status consistent with evidence, check.cjs: new.",
+        "contentHash": "50bbfd40293a012f1014958e85d267468d3122bc3f683188f0c143da4117daf2",
+        "approvalHash": "fbdb7c7431b62de5720986df0181be8b58ce804b80da4fd0a7e9a2f4aad4736f"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:noo",
+      "revisionId": "028-add-noo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ノー",
+        "reading": "ノー",
+        "romaji": "noo",
+        "meaning": "Nein; kein(e) …, ohne",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N3",
+        "notes": "Klares „Nein“ (ノーと言う) und als Vorsilbe „ohne“: ノーメイク, ノー残業デー (Tag ohne Überstunden).",
+        "examples": [
+          {
+            "japanese": "いやなときは、はっきりノーと言ったほうがいい。",
+            "romaji": "Iya na toki wa, hakkiri noo to itta hou ga ii.",
+            "german": "Wenn du etwas nicht willst, solltest du klar Nein sagen."
+          },
+          {
+            "japanese": "水曜日はノー残業デーです。",
+            "romaji": "Suiyoubi wa noo zangyou dee desu.",
+            "german": "Mittwoch ist ein Tag ohne Überstunden."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210820884",
+            "patterns": [
+              1
+            ],
+            "finding": "ノー / ノー; 名詞/普通名詞/一般/*; *; *; lemma ノー-no; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ノー",
+              "reading": "ノー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ノー as \"Nein; kein(e) …, ohne\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add ノー【ノー】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2080530; spelling=ノー; reading=ノー; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2080530 ノー/ノー sense(s) 1,2 support \"Nein; kein(e) …, ohne\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2080530",
+            "spelling": "ノー",
+            "reading": "ノー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "prefix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no",
+                  "without",
+                  "not needed",
+                  "not allowed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "のー|のー",
+          "referenceIndex": 0,
+          "referenceHash": "91576557b002bc925656351a3ae245c123e22a6890d254c6e2c5e8e2a0909699"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"Nein; kein(e) …, ohne\" matches JMdict 2080530 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Saying no clearly.",
+          "Prefix “no-” (ノー残業デー)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2080530; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@210820884 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210820884",
+            "patterns": [
+              1
+            ],
+            "finding": "ノー / ノー; 名詞/普通名詞/一般/*; *; *; lemma ノー-no; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ノー",
+              "reading": "ノー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ノー as \"Nein; kein(e) …, ohne\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add ノー【ノー】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2080530 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c8c5bd7a4253e420f3b6ceb2f258fa41b9510b264dc943cd9137a06b4e52cd3a",
+        "approvalHash": "af1d1ef6f2cde9d6bffa7645c7cad7c2142585747d828c8b1736d3f1792d98cb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. ex2 ノー残業デー is a compound, but it illustrates the JMdict prefix sense 2 of ノー itself, so acceptable.",
+        "contentHash": "c8c5bd7a4253e420f3b6ceb2f258fa41b9510b264dc943cd9137a06b4e52cd3a",
+        "approvalHash": "af1d1ef6f2cde9d6bffa7645c7cad7c2142585747d828c8b1736d3f1792d98cb"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:haa",
+      "revisionId": "028-add-haa",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "はあ",
+        "reading": "はあ",
+        "romaji": "haa",
+        "meaning": "Ja (zögernd); Wie bitte?; (Seufzer)",
+        "type": "Ausdruck",
+        "category": "Kommunikation",
+        "level": "N3",
+        "notes": "Zögerliche Zustimmung (はあ、そうですか), mit steigender Intonation ungläubiges „Hä?“ und als Seufzer. Gegenüber Vorgesetzten kann はあ? unhöflich wirken.",
+        "examples": [
+          {
+            "japanese": "「明日も残業だって。」「はあ、そうですか……。」",
+            "romaji": "\"Ashita mo zangyou datte.\" \"Haa, sou desu ka...\"",
+            "german": "„Morgen gibt es auch Überstunden.“ – „Ah, ja …“"
+          },
+          {
+            "japanese": "はあ、今日も疲れたなあ。",
+            "romaji": "Haa, kyou mo tsukareta naa.",
+            "german": "Hach, heute war ich wieder so müde."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210871942",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "はあ / ハア; 感動詞/一般/*/*; *; *; lemma はあ; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "はあ",
+              "reading": "はあ",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "はあ as \"Ja (zögernd); Wie bitte?; (Seufzer)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add はあ【はあ】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2069620; spelling=はあ; reading=はあ; senses=1,3,4; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2069620 はあ/はあ sense(s) 1,3,4 support \"Ja (zögernd); Wie bitte?; (Seufzer)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2069620",
+            "spelling": "はあ",
+            "reading": "はあ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "yes",
+                  "indeed",
+                  "well"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "what?",
+                  "huh?"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sigh"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "はあ|はあ",
+          "referenceIndex": 0,
+          "referenceHash": "14f94a811e163a8cbc7eb39f76ac299bcf1b9b2b87a2ecdd8d7501ac3ced1aef"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"Ja (zögernd); Wie bitte?; (Seufzer)\" matches JMdict 2069620 sense(s) 1,3,4.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Reluctant acknowledgement.",
+          "Sigh of tiredness."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2069620; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@210871942 attest 1,2; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210871942",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "はあ / ハア; 感動詞/一般/*/*; *; *; lemma はあ; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "はあ",
+              "reading": "はあ",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "はあ as \"Ja (zögernd); Wie bitte?; (Seufzer)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add はあ【はあ】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2069620 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "34f498145d77d691d3437030ead6fd0a1a779075fe42e67e9a7e731f5b6ff6cf",
+        "approvalHash": "505105a8e6e15670a7f9cbba58e0c8bd9726797470fe4d4bb7240db0913d8eed"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Minor: ex1 だって is hearsay (\"Morgen gibt es angeblich auch Überstunden\").",
+        "contentHash": "34f498145d77d691d3437030ead6fd0a1a779075fe42e67e9a7e731f5b6ff6cf",
+        "approvalHash": "505105a8e6e15670a7f9cbba58e0c8bd9726797470fe4d4bb7240db0913d8eed"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "どんなに|どんなに",
+      "referenceIndex": 0,
+      "referenceHash": "8848b7f5fd6cc9ef54bfa6b4f4c05f8adc0822df2513ac4d1208b3bfd77778df",
+      "revisionId": "028-candidate-donnani-eea55fd0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:donnani"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:donnani": "2745197173dcbca1c99c2f46a180ed3dfcaad191784aa1e07687e933f0d23fd7"
+      },
+      "reason": "Reference どんなに/どんなに (tanos N3) is the same lexeme as the new entry どんなに【どんなに】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=66",
+          "finding": "tanos lists どんなに/どんなに at N3 (gloss: how,how much)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1009340; spelling=どんなに; reading=どんなに; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1009340 as the reference form.",
+          "selected": {
+            "sequence": "1009340",
+            "spelling": "どんなに",
+            "reading": "どんなに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "how",
+                  "how much",
+                  "to what extent"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no matter how (much)",
+                  "however"
+                ],
+                "notes": [
+                  "as どんなに...ても, どんなに...でも, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference どんなに|どんなに#0 is the same lexeme as vocab-n3:correction:donnani; target hash bound to the assembled addition.",
+        "contentHash": "e028fdb994a6f048452e719ca6abbd56167ce108ee059caa056b826f4959713f",
+        "approvalHash": "e028fdb994a6f048452e719ca6abbd56167ce108ee059caa056b826f4959713f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:donnani.",
+        "contentHash": "e028fdb994a6f048452e719ca6abbd56167ce108ee059caa056b826f4959713f",
+        "approvalHash": "e028fdb994a6f048452e719ca6abbd56167ce108ee059caa056b826f4959713f"
+      }
+    },
+    {
+      "key": "どんなに|どんなに",
+      "referenceIndex": 1,
+      "referenceHash": "487fa346a83475690662bad82cc28687521968a01940951603733773fbf9d1c6",
+      "revisionId": "028-candidate-donnani-eea55fd0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:donnani"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:donnani": "2745197173dcbca1c99c2f46a180ed3dfcaad191784aa1e07687e933f0d23fd7"
+      },
+      "reason": "Reference どんなに/どんなに (master N3) is the same lexeme as the new entry どんなに【どんなに】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists どんなに/どんなに at N3 (gloss: how; how much; combien)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1009340; spelling=どんなに; reading=どんなに; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1009340 as the reference form.",
+          "selected": {
+            "sequence": "1009340",
+            "spelling": "どんなに",
+            "reading": "どんなに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "how",
+                  "how much",
+                  "to what extent"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no matter how (much)",
+                  "however"
+                ],
+                "notes": [
+                  "as どんなに...ても, どんなに...でも, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference どんなに|どんなに#1 is the same lexeme as vocab-n3:correction:donnani; target hash bound to the assembled addition.",
+        "contentHash": "d19ee35434b95ad5506a2b06e65ab8eda6a6c20dfdb5dfcfae1b0ebac58e9e88",
+        "approvalHash": "d19ee35434b95ad5506a2b06e65ab8eda6a6c20dfdb5dfcfae1b0ebac58e9e88"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:donnani.",
+        "contentHash": "d19ee35434b95ad5506a2b06e65ab8eda6a6c20dfdb5dfcfae1b0ebac58e9e88",
+        "approvalHash": "d19ee35434b95ad5506a2b06e65ab8eda6a6c20dfdb5dfcfae1b0ebac58e9e88"
+      }
+    },
+    {
+      "key": "なにも|なにも",
+      "referenceIndex": 0,
+      "referenceHash": "0a7892969bef51ebf3c274dc31d1ff3810dd3ea12cfda2ad5da8fe540eb48cf3",
+      "revisionId": "028-candidate-nanimo-143387ea-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:nanimo"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:nanimo": "46fa9c6a40b6048fdfa91eac6c3a51794fa88c9291089e3276bdcf17a60c7ec6"
+      },
+      "reason": "Reference なにも/なにも (tanos N3) is the same lexeme as the new entry なにも【なにも】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=67",
+          "finding": "tanos lists なにも/なにも at N3 (gloss: nothing)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1188490; spelling=なにも; reading=なにも; senses=1,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1188490 as the reference form.",
+          "selected": {
+            "sequence": "1188490",
+            "spelling": "なにも",
+            "reading": "なにも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) anything",
+                  "(nothing) at all",
+                  "(not) any",
+                  "nothing"
+                ],
+                "notes": [
+                  "with neg. verb"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) at all",
+                  "(not) in the least",
+                  "(not) especially",
+                  "(not) to that extent"
+                ],
+                "notes": [
+                  "as ...なくてもいい, ...ことはない, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference なにも|なにも#0 is the same lexeme as vocab-n3:correction:nanimo; target hash bound to the assembled addition.",
+        "contentHash": "4ebe64e1b11b2e5148f028c10cac6584cead96aa15f2e03ac964f0a9594e3e77",
+        "approvalHash": "4ebe64e1b11b2e5148f028c10cac6584cead96aa15f2e03ac964f0a9594e3e77"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:nanimo.",
+        "contentHash": "4ebe64e1b11b2e5148f028c10cac6584cead96aa15f2e03ac964f0a9594e3e77",
+        "approvalHash": "4ebe64e1b11b2e5148f028c10cac6584cead96aa15f2e03ac964f0a9594e3e77"
+      }
+    },
+    {
+      "key": "何も|なにも",
+      "referenceIndex": 0,
+      "referenceHash": "af89bc8e3435ac47d0f2e43c829e44aefae90ae2ced105e726f323bd25403b21",
+      "revisionId": "028-candidate-nanimo-450ec300-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:nanimo"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:nanimo": "46fa9c6a40b6048fdfa91eac6c3a51794fa88c9291089e3276bdcf17a60c7ec6"
+      },
+      "reason": "Reference 何も/なにも (tanos N1) is the same lexeme as the new entry なにも【なにも】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=124",
+          "finding": "tanos lists 何も/なにも at N1 (gloss: nothing)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1188490; spelling=なにも; reading=なにも; senses=1,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1188490 as the reference form.",
+          "selected": {
+            "sequence": "1188490",
+            "spelling": "なにも",
+            "reading": "なにも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) anything",
+                  "(nothing) at all",
+                  "(not) any",
+                  "nothing"
+                ],
+                "notes": [
+                  "with neg. verb"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) at all",
+                  "(not) in the least",
+                  "(not) especially",
+                  "(not) to that extent"
+                ],
+                "notes": [
+                  "as ...なくてもいい, ...ことはない, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference 何も|なにも#0 is the same lexeme as vocab-n3:correction:nanimo; target hash bound to the assembled addition.",
+        "contentHash": "f2cae43e955767a21433bec73641434495679b6a1e84b7b9c04871f6abbf596f",
+        "approvalHash": "f2cae43e955767a21433bec73641434495679b6a1e84b7b9c04871f6abbf596f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:nanimo.",
+        "contentHash": "f2cae43e955767a21433bec73641434495679b6a1e84b7b9c04871f6abbf596f",
+        "approvalHash": "f2cae43e955767a21433bec73641434495679b6a1e84b7b9c04871f6abbf596f"
+      }
+    },
+    {
+      "key": "何も|なにも",
+      "referenceIndex": 1,
+      "referenceHash": "0a0aff356c48f73652b7bb67236e5f4f9ac2cbeb5a9bb1b618bd4923972f9f49",
+      "revisionId": "028-candidate-nanimo-450ec300-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:nanimo"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:nanimo": "46fa9c6a40b6048fdfa91eac6c3a51794fa88c9291089e3276bdcf17a60c7ec6"
+      },
+      "reason": "Reference 何も/なにも (master N3) is the same lexeme as the new entry なにも【なにも】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 何も/なにも at N3 (gloss: nothing (with neg. verbs); not any)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1188490; spelling=なにも; reading=なにも; senses=1,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1188490 as the reference form.",
+          "selected": {
+            "sequence": "1188490",
+            "spelling": "なにも",
+            "reading": "なにも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) anything",
+                  "(nothing) at all",
+                  "(not) any",
+                  "nothing"
+                ],
+                "notes": [
+                  "with neg. verb"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) at all",
+                  "(not) in the least",
+                  "(not) especially",
+                  "(not) to that extent"
+                ],
+                "notes": [
+                  "as ...なくてもいい, ...ことはない, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference 何も|なにも#1 is the same lexeme as vocab-n3:correction:nanimo; target hash bound to the assembled addition.",
+        "contentHash": "d43c508369314a2dc1a3174b2fbe45d045dafb450ab15a9778efb37bab63cd9b",
+        "approvalHash": "d43c508369314a2dc1a3174b2fbe45d045dafb450ab15a9778efb37bab63cd9b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:nanimo.",
+        "contentHash": "d43c508369314a2dc1a3174b2fbe45d045dafb450ab15a9778efb37bab63cd9b",
+        "approvalHash": "d43c508369314a2dc1a3174b2fbe45d045dafb450ab15a9778efb37bab63cd9b"
+      }
+    },
+    {
+      "key": "なんか|なんか",
+      "referenceIndex": 0,
+      "referenceHash": "8d023076ae0ecac6aef5cc9ad47029922ad6d76967df77475dfa855e946516c2",
+      "revisionId": "028-candidate-nanka-27d02021-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:nanka"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:nanka": "d4c2e4108ba77f921f975e5eb2fbb97f4146745f60188ac41fea8dcaf3716ca5"
+      },
+      "reason": "Reference なんか/なんか (tanos N1) is the same lexeme as the new entry なんか【なんか】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=126",
+          "finding": "tanos lists なんか/なんか at N1 (gloss: things like ..., or something like that .. (often)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1009500; spelling=なんか; reading=なんか; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1009500 as the reference form.",
+          "selected": {
+            "sequence": "1009500",
+            "spelling": "なんか",
+            "reading": "なんか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "particle",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "something like ...",
+                  "things like ...",
+                  "someone like ...",
+                  "the likes of ..."
+                ],
+                "notes": [
+                  "oft. scornful or dismissive"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference なんか|なんか#0 is the same lexeme as vocab-n3:correction:nanka; target hash bound to the assembled addition.",
+        "contentHash": "c23577aeacad509e741cd5ade2edb89b6a58e7efa1a541a9de933c9c94c74c8f",
+        "approvalHash": "c23577aeacad509e741cd5ade2edb89b6a58e7efa1a541a9de933c9c94c74c8f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:nanka.",
+        "contentHash": "c23577aeacad509e741cd5ade2edb89b6a58e7efa1a541a9de933c9c94c74c8f",
+        "approvalHash": "c23577aeacad509e741cd5ade2edb89b6a58e7efa1a541a9de933c9c94c74c8f"
+      }
+    },
+    {
+      "key": "なんか|なんか",
+      "referenceIndex": 1,
+      "referenceHash": "9de4790082626c01b9fb5e9fc2dbd305a6d54edb107734a544a65a1c753ea7e2",
+      "revisionId": "028-candidate-nanka-27d02021-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:nanka"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:nanka": "d4c2e4108ba77f921f975e5eb2fbb97f4146745f60188ac41fea8dcaf3716ca5"
+      },
+      "reason": "Reference なんか/なんか (master N3) is the same lexeme as the new entry なんか【なんか】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists なんか/なんか at N3 (gloss: things like ...; or something like that ... (often derogatory))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1009500; spelling=なんか; reading=なんか; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1009500 as the reference form.",
+          "selected": {
+            "sequence": "1009500",
+            "spelling": "なんか",
+            "reading": "なんか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "particle",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "something like ...",
+                  "things like ...",
+                  "someone like ...",
+                  "the likes of ..."
+                ],
+                "notes": [
+                  "oft. scornful or dismissive"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference なんか|なんか#1 is the same lexeme as vocab-n3:correction:nanka; target hash bound to the assembled addition.",
+        "contentHash": "52d3589c6e280f1f229924a8019fedfc90da7eaae2b613962bf82e6e6a8d12d9",
+        "approvalHash": "52d3589c6e280f1f229924a8019fedfc90da7eaae2b613962bf82e6e6a8d12d9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:nanka.",
+        "contentHash": "52d3589c6e280f1f229924a8019fedfc90da7eaae2b613962bf82e6e6a8d12d9",
+        "approvalHash": "52d3589c6e280f1f229924a8019fedfc90da7eaae2b613962bf82e6e6a8d12d9"
+      }
+    },
+    {
+      "key": "にっこり|にっこり",
+      "referenceIndex": 0,
+      "referenceHash": "4e673122b7faa0dbf4b6f1fbf42c988260a909c2af83047c6aa694a5596684b4",
+      "revisionId": "028-candidate-nikkori-82de405f-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:nikkori"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:nikkori": "50bbfd40293a012f1014958e85d267468d3122bc3f683188f0c143da4117daf2"
+      },
+      "reason": "Reference にっこり/にっこり (tanos N3) is the same lexeme as the new entry にっこり【にっこり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=68",
+          "finding": "tanos lists にっこり/にっこり at N3 (gloss: smile sweetly,smile,grin)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1632320; spelling=にっこり; reading=にっこり; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1632320 as the reference form.",
+          "selected": {
+            "sequence": "1632320",
+            "spelling": "にっこり",
+            "reading": "にっこり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "sweetly (smiling)",
+                  "broadly (grinning)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference にっこり|にっこり#0 is the same lexeme as vocab-n3:correction:nikkori; target hash bound to the assembled addition.",
+        "contentHash": "ae9e27df5b1a44aee61fe128bf751732c62217268e2d1a9bd68432dbfdaff7b7",
+        "approvalHash": "ae9e27df5b1a44aee61fe128bf751732c62217268e2d1a9bd68432dbfdaff7b7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:nikkori.",
+        "contentHash": "ae9e27df5b1a44aee61fe128bf751732c62217268e2d1a9bd68432dbfdaff7b7",
+        "approvalHash": "ae9e27df5b1a44aee61fe128bf751732c62217268e2d1a9bd68432dbfdaff7b7"
+      }
+    },
+    {
+      "key": "にっこり|にっこり",
+      "referenceIndex": 1,
+      "referenceHash": "e5c88fe112a1c3dc21d9f79a2e27cb316e2ad8e938e203d8799b05fca68a98fe",
+      "revisionId": "028-candidate-nikkori-82de405f-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:nikkori"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:nikkori": "50bbfd40293a012f1014958e85d267468d3122bc3f683188f0c143da4117daf2"
+      },
+      "reason": "Reference にっこり/にっこり (master N3) is the same lexeme as the new entry にっこり【にっこり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists にっこり/にっこり at N3 (gloss: smile sweetly; smile; grin)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1632320; spelling=にっこり; reading=にっこり; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1632320 as the reference form.",
+          "selected": {
+            "sequence": "1632320",
+            "spelling": "にっこり",
+            "reading": "にっこり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "sweetly (smiling)",
+                  "broadly (grinning)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference にっこり|にっこり#1 is the same lexeme as vocab-n3:correction:nikkori; target hash bound to the assembled addition.",
+        "contentHash": "d70eee04e9bcb0509fbc0fb9ffe85ec5f32c87987289f035163e02a059360485",
+        "approvalHash": "d70eee04e9bcb0509fbc0fb9ffe85ec5f32c87987289f035163e02a059360485"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:nikkori.",
+        "contentHash": "d70eee04e9bcb0509fbc0fb9ffe85ec5f32c87987289f035163e02a059360485",
+        "approvalHash": "d70eee04e9bcb0509fbc0fb9ffe85ec5f32c87987289f035163e02a059360485"
+      }
+    },
+    {
+      "key": "のー|のー",
+      "referenceIndex": 0,
+      "referenceHash": "91576557b002bc925656351a3ae245c123e22a6890d254c6e2c5e8e2a0909699",
+      "revisionId": "028-candidate-noo-05401d4c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:noo"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:noo": "c8c5bd7a4253e420f3b6ceb2f258fa41b9510b264dc943cd9137a06b4e52cd3a"
+      },
+      "reason": "Reference ノー/ノー (tanos N3) is the same lexeme as the new entry ノー【ノー】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=70",
+          "finding": "tanos lists ノー/ノー at N3 (gloss: （no）)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2080530; spelling=ノー; reading=ノー; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2080530 as the reference form.",
+          "selected": {
+            "sequence": "2080530",
+            "spelling": "ノー",
+            "reading": "ノー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "prefix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no",
+                  "without",
+                  "not needed",
+                  "not allowed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference のー|のー#0 is the same lexeme as vocab-n3:correction:noo; target hash bound to the assembled addition.",
+        "contentHash": "7171d2f600cb9c3a69c8b3bb6ba42541d7016782777a3d2891f12279c63d55aa",
+        "approvalHash": "7171d2f600cb9c3a69c8b3bb6ba42541d7016782777a3d2891f12279c63d55aa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:noo.",
+        "contentHash": "7171d2f600cb9c3a69c8b3bb6ba42541d7016782777a3d2891f12279c63d55aa",
+        "approvalHash": "7171d2f600cb9c3a69c8b3bb6ba42541d7016782777a3d2891f12279c63d55aa"
+      }
+    },
+    {
+      "key": "のー|のー",
+      "referenceIndex": 1,
+      "referenceHash": "e10334e4609491b66f1782474c0e96549f20a126f1daa6631ea158aa56f97f52",
+      "revisionId": "028-candidate-noo-05401d4c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:noo"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:noo": "c8c5bd7a4253e420f3b6ceb2f258fa41b9510b264dc943cd9137a06b4e52cd3a"
+      },
+      "reason": "Reference ノー/ノー (master N3) is the same lexeme as the new entry ノー【ノー】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ノー/ノー at N3 (gloss: no; (n) nein (als verstärkte Verneinung benutzt))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2080530; spelling=ノー; reading=ノー; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2080530 as the reference form.",
+          "selected": {
+            "sequence": "2080530",
+            "spelling": "ノー",
+            "reading": "ノー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "prefix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no",
+                  "without",
+                  "not needed",
+                  "not allowed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference のー|のー#1 is the same lexeme as vocab-n3:correction:noo; target hash bound to the assembled addition.",
+        "contentHash": "6babb184e309a217fc319543035081625e622770f573edcb7f97b8d3b61f3a0b",
+        "approvalHash": "6babb184e309a217fc319543035081625e622770f573edcb7f97b8d3b61f3a0b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:noo.",
+        "contentHash": "6babb184e309a217fc319543035081625e622770f573edcb7f97b8d3b61f3a0b",
+        "approvalHash": "6babb184e309a217fc319543035081625e622770f573edcb7f97b8d3b61f3a0b"
+      }
+    },
+    {
+      "key": "はあ|はあ",
+      "referenceIndex": 0,
+      "referenceHash": "14f94a811e163a8cbc7eb39f76ac299bcf1b9b2b87a2ecdd8d7501ac3ced1aef",
+      "revisionId": "028-candidate-haa-7363d4b9-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:haa"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:haa": "34f498145d77d691d3437030ead6fd0a1a779075fe42e67e9a7e731f5b6ff6cf"
+      },
+      "reason": "Reference はあ/はあ (tanos N3) is the same lexeme as the new entry はあ【はあ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=71",
+          "finding": "tanos lists はあ/はあ at N3 (gloss: （感）)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2069620; spelling=はあ; reading=はあ; senses=1,3,4; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2069620 as the reference form.",
+          "selected": {
+            "sequence": "2069620",
+            "spelling": "はあ",
+            "reading": "はあ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "yes",
+                  "indeed",
+                  "well"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "what?",
+                  "huh?"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sigh"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference はあ|はあ#0 is the same lexeme as vocab-n3:correction:haa; target hash bound to the assembled addition.",
+        "contentHash": "c256fc3b4e16a0553d26f52e0a709d5adf6a22826122c470382d4cc34c4de3e0",
+        "approvalHash": "c256fc3b4e16a0553d26f52e0a709d5adf6a22826122c470382d4cc34c4de3e0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:haa.",
+        "contentHash": "c256fc3b4e16a0553d26f52e0a709d5adf6a22826122c470382d4cc34c4de3e0",
+        "approvalHash": "c256fc3b4e16a0553d26f52e0a709d5adf6a22826122c470382d4cc34c4de3e0"
+      }
+    },
+    {
+      "key": "はあ|はあ",
+      "referenceIndex": 1,
+      "referenceHash": "9cf1406da2e6eae1f5b6da17a04b409b5e3a6f2ebc77bd9c39c4e757ebe7da59",
+      "revisionId": "028-candidate-haa-7363d4b9-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:haa"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:haa": "34f498145d77d691d3437030ead6fd0a1a779075fe42e67e9a7e731f5b6ff6cf"
+      },
+      "reason": "Reference はあ/はあ (master N3) is the same lexeme as the new entry はあ【はあ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists はあ/はあ at N3 (gloss: yes; indeed; well)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2069620; spelling=はあ; reading=はあ; senses=1,3,4; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2069620 as the reference form.",
+          "selected": {
+            "sequence": "2069620",
+            "spelling": "はあ",
+            "reading": "はあ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "yes",
+                  "indeed",
+                  "well"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "what?",
+                  "huh?"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sigh"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference はあ|はあ#1 is the same lexeme as vocab-n3:correction:haa; target hash bound to the assembled addition.",
+        "contentHash": "dc4ec308b508aee6af80dbc0c6d580e4dce52dc07bffcea8aeb37f36a218e1dd",
+        "approvalHash": "dc4ec308b508aee6af80dbc0c6d580e4dce52dc07bffcea8aeb37f36a218e1dd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:haa.",
+        "contentHash": "dc4ec308b508aee6af80dbc0c6d580e4dce52dc07bffcea8aeb37f36a218e1dd",
+        "approvalHash": "dc4ec308b508aee6af80dbc0c6d580e4dce52dc07bffcea8aeb37f36a218e1dd"
+      }
+    }
+  ]
+}

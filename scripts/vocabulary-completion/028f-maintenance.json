@@ -1,0 +1,3531 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n3:correction:tento",
+      "revisionId": "028-add-tento",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "テント",
+        "reading": "テント",
+        "romaji": "tento",
+        "meaning": "Zelt",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N3",
+        "notes": "Zelt aufbauen: テントを張る. Beim Camping (キャンプ) sehr gebräuchlich.",
+        "examples": [
+          {
+            "japanese": "川の近くにテントを張った。",
+            "romaji": "Kawa no chikaku ni tento o hatta.",
+            "german": "Wir haben das Zelt in der Nähe des Flusses aufgeschlagen."
+          },
+          {
+            "japanese": "雨でテントの中まで濡れてしまった。",
+            "romaji": "Ame de tento no naka made nurete shimatta.",
+            "german": "Durch den Regen ist es sogar im Zelt nass geworden."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181489188",
+            "patterns": [
+              1
+            ],
+            "finding": "テント / テント; 名詞/普通名詞/一般/*; *; *; lemma テント-tent; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "テント",
+              "reading": "テント",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "テント as \"Zelt\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add テント【テント】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1081040; spelling=テント; reading=テント; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1081040 テント/テント sense(s) 1 support \"Zelt\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1081040",
+            "spelling": "テント",
+            "reading": "テント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "てんと|てんと",
+          "referenceIndex": 0,
+          "referenceHash": "a9fa0111d5475275059a3c37616a0f5620d58df119149e20ac47d09a908ffd0a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"Zelt\" matches JMdict 1081040 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Camping by a river.",
+          "Rain getting into a tent."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1081040; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@181489188 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181489188",
+            "patterns": [
+              1
+            ],
+            "finding": "テント / テント; 名詞/普通名詞/一般/*; *; *; lemma テント-tent; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "テント",
+              "reading": "テント",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "テント as \"Zelt\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add テント【テント】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1081040 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f13b4ab43213910a6591d0b57175290314f99d1fdb9e8a0498e64f627e21d0c7",
+        "approvalHash": "60b9abaf867f39b36d3337352fbd5fea9b576992f69c8076f099cdb81d9f3050"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Examples natural and on-sense with the headword itself, romaji exact, German correct, JMdict senses support meaning, type sensible, level N3 supported by publishers, pitch status consistent with evidence, check.cjs: new.",
+        "contentHash": "f13b4ab43213910a6591d0b57175290314f99d1fdb9e8a0498e64f627e21d0c7",
+        "approvalHash": "60b9abaf867f39b36d3337352fbd5fea9b576992f69c8076f099cdb81d9f3050"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:desukara",
+      "revisionId": "028-add-desukara",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ですから",
+        "reading": "ですから",
+        "romaji": "desukara",
+        "meaning": "daher, deshalb (höflich)",
+        "type": "Ausdruck",
+        "category": "Sprache",
+        "level": "N3",
+        "notes": "Höfliche Form von だから am Satzanfang. Kann ungeduldig klingen, wenn man etwas wiederholt: ですから、先ほど申し上げたように….",
+        "examples": [
+          {
+            "japanese": "明日は祝日です。ですから、店は休みです。",
+            "romaji": "Ashita wa shukujitsu desu. Desukara, mise wa yasumi desu.",
+            "german": "Morgen ist Feiertag. Deshalb ist das Geschäft geschlossen."
+          },
+          {
+            "japanese": "道が混んでいます。ですから、早めに出発しましょう。",
+            "romaji": "Michi ga konde imasu. Desukara, hayame ni shuppatsu shimashou.",
+            "german": "Die Straßen sind voll. Lassen Sie uns daher früh aufbrechen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add ですから【ですから】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008430; spelling=ですから; reading=ですから; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1008430 ですから/ですから sense(s) 1 support \"daher, deshalb (höflich)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1008430",
+            "spelling": "ですから",
+            "reading": "ですから",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "so",
+                  "therefore",
+                  "accordingly",
+                  "consequently",
+                  "on those grounds",
+                  "that is why",
+                  "for that reason"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ですから|ですから",
+          "referenceIndex": 0,
+          "referenceHash": "f99054701faa9d8eed2e67e294b786e0bca54e40c24fc9d07581cbdc2cb6a196"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"daher, deshalb (höflich)\" matches JMdict 1008430 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Holiday closure.",
+          "Leaving early because of traffic."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1008430; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ですから / ですから; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup ですから / ですから",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add ですから【ですから】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1008430 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "74811a4c68fcb20679801064f2a231fe2a86521d82a7f4c510ec2b45e9c9aa30",
+        "approvalHash": "a5c9ef5ad1e707bc26c27a064a158fcdf0500ece222ba6735ad7d227ef65791d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Examples natural and on-sense with the headword itself, romaji exact, German correct, JMdict senses support meaning, type sensible, level N3 supported by publishers, pitch status consistent with evidence, check.cjs: new.",
+        "contentHash": "74811a4c68fcb20679801064f2a231fe2a86521d82a7f4c510ec2b45e9c9aa30",
+        "approvalHash": "a5c9ef5ad1e707bc26c27a064a158fcdf0500ece222ba6735ad7d227ef65791d"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:tokoroga",
+      "revisionId": "028-add-tokoroga",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ところが",
+        "reading": "ところが",
+        "romaji": "tokoroga",
+        "meaning": "jedoch, aber (unerwartet)",
+        "type": "Ausdruck",
+        "category": "Sprache",
+        "level": "N3",
+        "notes": "Leitet ein unerwartetes Ergebnis ein: Man erwartete etwas, doch es kam anders. Kanji 所が selten.",
+        "examples": [
+          {
+            "japanese": "晴れると思っていた。ところが、急に雨が降り出した。",
+            "romaji": "Hareru to omotte ita. Tokoroga, kyuu ni ame ga furidashita.",
+            "german": "Ich dachte, es würde schön. Doch plötzlich fing es an zu regnen."
+          },
+          {
+            "japanese": "簡単な試験だと聞いていた。ところが、全然できなかった。",
+            "romaji": "Kantan na shiken da to kiite ita. Tokoroga, zenzen dekinakatta.",
+            "german": "Mir wurde gesagt, die Prüfung sei leicht. Aber ich konnte gar nichts."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, tanos N1, Nihongo Master N3 (所が). Editorial N3.",
+      "rationale": "Add ところが【ところが】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008570; spelling=ところが; reading=ところが; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1008570 ところが/ところが sense(s) 1 support \"jedoch, aber (unerwartet)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1008570",
+            "spelling": "ところが",
+            "reading": "ところが",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "even so",
+                  "however",
+                  "still",
+                  "whereupon",
+                  "even though",
+                  "nevertheless",
+                  "on the contrary",
+                  "as a matter of fact",
+                  "despite"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ところが|ところが",
+          "referenceIndex": 0,
+          "referenceHash": "eec0621dfb49fc994a123626af24b3f7cbf824acec677d2c641be97e9190d30e"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"jedoch, aber (unerwartet)\" matches JMdict 1008570 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Unexpected weather.",
+          "Unexpectedly hard exam."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1008570; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: tanos N3, tanos N1, Nihongo Master N3 (所が). Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ところが / ところが; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup ところが / ところが",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add ところが【ところが】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1008570 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "c3f40df740daa9038ca313c42a6e62cb6baa22456c3123d04a579136c824e9fa",
+        "approvalHash": "5e133ff149e2fc2efc501de100f9cbde31b7d2400e74491a6f67772e967de796"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Examples natural and on-sense with the headword itself, romaji exact, German correct, JMdict senses support meaning, type sensible, level N3 supported by publishers, pitch status consistent with evidence, check.cjs: new.",
+        "contentHash": "c3f40df740daa9038ca313c42a6e62cb6baa22456c3123d04a579136c824e9fa",
+        "approvalHash": "5e133ff149e2fc2efc501de100f9cbde31b7d2400e74491a6f67772e967de796"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:toppu",
+      "revisionId": "028-add-toppu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "トップ",
+        "reading": "トップ",
+        "romaji": "toppu",
+        "meaning": "Spitze, erster Platz; Führungsspitze",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N3",
+        "notes": "Erster Platz (クラスでトップ), Spitze einer Organisation (会社のトップ) und Oberseite. Auch Startseite einer Website (トップページ).",
+        "examples": [
+          {
+            "japanese": "彼女は試験でトップの成績を取った。",
+            "romaji": "Kanojo wa shiken de toppu no seiseki o totta.",
+            "german": "Sie hat in der Prüfung das beste Ergebnis erzielt."
+          },
+          {
+            "japanese": "会社のトップが記者会見で謝罪した。",
+            "romaji": "Kaisha no toppu ga kisha kaiken de shazai shita.",
+            "german": "Die Unternehmensspitze entschuldigte sich auf einer Pressekonferenz."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@186043845",
+            "patterns": [
+              1
+            ],
+            "finding": "トップ / トップ; 名詞/普通名詞/一般/*; *; *; lemma トップ-top; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "トップ",
+              "reading": "トップ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "トップ as \"Spitze, erster Platz; Führungsspitze\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add トップ【トップ】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1085030; spelling=トップ; reading=トップ; senses=1,2,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1085030 トップ/トップ sense(s) 1,2,3 support \"Spitze, erster Platz; Führungsspitze\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1085030",
+            "spelling": "トップ",
+            "reading": "トップ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "top"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "top position"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "senior management",
+                  "senior bureaucrat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "とっぷ|とっぷ",
+          "referenceIndex": 0,
+          "referenceHash": "a5900773a5dd9feffa35591972db17719872c87fb2d78a1ab6d090e1d10a04e4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"Spitze, erster Platz; Führungsspitze\" matches JMdict 1085030 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Best exam result.",
+          "Company leadership."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1085030; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@186043845 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@186043845",
+            "patterns": [
+              1
+            ],
+            "finding": "トップ / トップ; 名詞/普通名詞/一般/*; *; *; lemma トップ-top; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "トップ",
+              "reading": "トップ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "トップ as \"Spitze, erster Platz; Führungsspitze\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add トップ【トップ】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1085030 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "51d6e5bdd63bf4ff997dbadcfa81d1f6e5476fe89334d5e3753028b3440d67ff",
+        "approvalHash": "8b527a5afda45e9458358aa49d458503acc02a366fae22b640e1d1e627dc2053"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Examples natural and on-sense with the headword itself, romaji exact, German correct, JMdict senses support meaning, type sensible, level N3 supported by publishers, pitch status consistent with evidence, check.cjs: new.",
+        "contentHash": "51d6e5bdd63bf4ff997dbadcfa81d1f6e5476fe89334d5e3753028b3440d67ff",
+        "approvalHash": "8b527a5afda45e9458358aa49d458503acc02a366fae22b640e1d1e627dc2053"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:ton",
+      "revisionId": "028-add-ton",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "トン",
+        "reading": "トン",
+        "romaji": "ton",
+        "meaning": "Tonne (1000 kg)",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N3",
+        "notes": "Gewichtseinheit, meist die metrische Tonne. Das Kanji 屯 ist eine seltene Ateji-Schreibung. Gleich lautend: とん (Klopfgeräusch).",
+        "examples": [
+          {
+            "japanese": "このトラックは十トンの荷物を運べる。",
+            "romaji": "Kono torakku wa juu ton no nimotsu o hakoberu.",
+            "german": "Dieser Lastwagen kann zehn Tonnen Ladung transportieren."
+          },
+          {
+            "japanese": "毎年、何百万トンもの食べ物が捨てられている。",
+            "romaji": "Maitoshi, nanbyakuman ton mo no tabemono ga suterarete iru.",
+            "german": "Jedes Jahr werden Millionen Tonnen Lebensmittel weggeworfen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192137687",
+            "patterns": [
+              1
+            ],
+            "finding": "トン / トン; 名詞/普通名詞/助数詞可能/*; *; *; lemma トン-ton; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "トン",
+              "reading": "トン",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "トン as \"Tonne (1000 kg)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3 (屯). The Nihongo Master とん row (tap, knock) is a different lexeme and stays open. Editorial N3.",
+      "rationale": "Add トン【トン】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1457320; spelling=トン; reading=トン; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1457320 トン/トン sense(s) 1 support \"Tonne (1000 kg)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1457320",
+            "spelling": "トン",
+            "reading": "トン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "ton (esp. a metric ton, i.e. 1000 kg)",
+                  "tonne"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "とん|とん",
+          "referenceIndex": 0,
+          "referenceHash": "c54ea6c18712f504aab24400b3f178feb5db6a66a0fe12e954b74ffd1577a47b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"Tonne (1000 kg)\" matches JMdict 1457320 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Truck capacity.",
+          "Food waste statistics."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1457320; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3 (屯). The Nihongo Master とん row (tap, knock) is a different lexeme and stays open. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@192137687 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192137687",
+            "patterns": [
+              1
+            ],
+            "finding": "トン / トン; 名詞/普通名詞/助数詞可能/*; *; *; lemma トン-ton; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "トン",
+              "reading": "トン",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "トン as \"Tonne (1000 kg)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add トン【トン】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1457320 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "cb5c9e8470b09871abb8e62b6c8189ab1df4b7bebdbb3876adeb7a8ab76346e7",
+        "approvalHash": "192c696470c0cd0e25e4e6caf40ffa66797012844ae02e951fea7bd11d220f9b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Metric-ton entry correct; Nihongo Master とん (tap/knock, #1) correctly left open.",
+        "contentHash": "cb5c9e8470b09871abb8e62b6c8189ab1df4b7bebdbb3876adeb7a8ab76346e7",
+        "approvalHash": "192c696470c0cd0e25e4e6caf40ffa66797012844ae02e951fea7bd11d220f9b"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:tondemonai",
+      "revisionId": "028-add-tondemonai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "とんでもない",
+        "reading": "とんでもない",
+        "romaji": "tondemonai",
+        "meaning": "unglaublich, unerhört; aber nicht doch!",
+        "type": "Adjektiv",
+        "category": "Kommunikation",
+        "level": "N3",
+        "notes": "い-Adjektiv: unerhört, ungeheuerlich (とんでもない値段). Als Antwort auf Dank oder Lob bescheiden „Aber nicht doch, keine Ursache“: とんでもないです.",
+        "examples": [
+          {
+            "japanese": "駅前でとんでもない事故が起きた。",
+            "romaji": "Ekimae de tondemonai jiko ga okita.",
+            "german": "Vor dem Bahnhof ist ein unglaublicher Unfall passiert."
+          },
+          {
+            "japanese": "「ありがとうございました。」「いえ、とんでもないです。」",
+            "romaji": "\"Arigatou gozaimashita.\" \"Ie, tondemonai desu.\"",
+            "german": "„Vielen Dank.“ – „Aber nicht doch, keine Ursache.“"
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3 (とんでも無い). Editorial N3.",
+      "rationale": "Add とんでもない【とんでもない】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008790; spelling=とんでもない; reading=とんでもない; senses=1,2,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1008790 とんでもない/とんでもない sense(s) 1,2,3 support \"unglaublich, unerhört; aber nicht doch!\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1008790",
+            "spelling": "とんでもない",
+            "reading": "とんでもない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unthinkable",
+                  "unexpected",
+                  "absurd",
+                  "outrageous",
+                  "preposterous",
+                  "terrible"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "absolutely not!",
+                  "far from it!",
+                  "impossible!",
+                  "preposterous!",
+                  "what a thing to say!",
+                  "no way!"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(it was) no bother at all",
+                  "not at all",
+                  "don't mention it"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "とんでもない|とんでもない",
+          "referenceIndex": 0,
+          "referenceHash": "95c61818ded0fce507b3fd5725146570f8ab98a6631e8f404459875470d8ef65"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"unglaublich, unerhört; aber nicht doch!\" matches JMdict 1008790 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Shocking event.",
+          "Modest reply to thanks."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1008790; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3 (とんでも無い). Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for とんでもない / とんでもない; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup とんでもない / とんでもない",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add とんでもない【とんでもない】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1008790 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "1468f65f6fd8d119d830ff4394b25cba823bc1167f0952d675ae81feaedb48f3",
+        "approvalHash": "4ce107a5f454a3b2da05c0e239f2ff7555ca8e470f1bbde9dac60582523c0d73"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Minor: ex1 とんでもない事故 is better rendered \"ein schrecklicher Unfall\".",
+        "contentHash": "1468f65f6fd8d119d830ff4394b25cba823bc1167f0952d675ae81feaedb48f3",
+        "approvalHash": "4ce107a5f454a3b2da05c0e239f2ff7555ca8e470f1bbde9dac60582523c0d73"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:doushitemo",
+      "revisionId": "028-add-doushitemo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "どうしても",
+        "reading": "どうしても",
+        "romaji": "doushitemo",
+        "meaning": "unbedingt, um jeden Preis; (mit Verneinung) einfach nicht",
+        "type": "Adverb",
+        "category": "Betonung",
+        "level": "N3",
+        "notes": "Mit Wunsch: „unbedingt“ (どうしても行きたい). Mit Verneinung: „beim besten Willen nicht“ (どうしても思い出せない). Kanji 如何しても selten.",
+        "examples": [
+          {
+            "japanese": "どうしてもこの映画が見たい。",
+            "romaji": "Doushitemo kono eiga ga mitai.",
+            "german": "Diesen Film will ich unbedingt sehen."
+          },
+          {
+            "japanese": "彼の名前がどうしても思い出せない。",
+            "romaji": "Kare no namae ga doushitemo omoidasenai.",
+            "german": "Mir fällt sein Name beim besten Willen nicht ein."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, tanos N1, Nihongo Master N3 (如何しても). Editorial N3.",
+      "rationale": "Add どうしても【どうしても】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1466950; spelling=どうしても; reading=どうしても; senses=1,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1466950 どうしても/どうしても sense(s) 1,3 support \"unbedingt, um jeden Preis; (mit Verneinung) einfach nicht\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1466950",
+            "spelling": "どうしても",
+            "reading": "どうしても",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "by all means",
+                  "at any cost",
+                  "no matter what",
+                  "at any rate",
+                  "surely"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "on no account",
+                  "by no means"
+                ],
+                "notes": [
+                  "with. neg. verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "どうしても|どうしても",
+          "referenceIndex": 0,
+          "referenceHash": "aa087b336fe1eb66e0f3c52c70e5a944838aacc025538b2fb0dd93da8c33802c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"unbedingt, um jeden Preis; (mit Verneinung) einfach nicht\" matches JMdict 1466950 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Strong wish.",
+          "Cannot remember (with negation)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1466950; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, tanos N1, Nihongo Master N3 (如何しても). Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for どうしても / どうしても; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup どうしても / どうしても",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add どうしても【どうしても】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1466950 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "96becdd279a65b2688b62141be52b6122a27ff5593c35663192b69b172616196",
+        "approvalHash": "13a345e8406c607170ab4994160431191a7fde0abce1947031dbb2eace2a5a53"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Examples natural and on-sense with the headword itself, romaji exact, German correct, JMdict senses support meaning, type sensible, level N3 supported by publishers, pitch status consistent with evidence, check.cjs: new.",
+        "contentHash": "96becdd279a65b2688b62141be52b6122a27ff5593c35663192b69b172616196",
+        "approvalHash": "13a345e8406c607170ab4994160431191a7fde0abce1947031dbb2eace2a5a53"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:dokoka",
+      "revisionId": "028-add-dokoka",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "どこか",
+        "reading": "どこか",
+        "romaji": "dokoka",
+        "meaning": "irgendwo; irgendwie",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N3",
+        "notes": "Unbestimmter Ort: どこかへ行きたい. Adverbial auch „irgendwie, in gewisser Weise“: どこか寂しそうだ. Kanji 何処か selten.",
+        "examples": [
+          {
+            "japanese": "週末はどこかへ出かけたい。",
+            "romaji": "Shuumatsu wa dokoka e dekaketai.",
+            "german": "Am Wochenende möchte ich irgendwohin fahren."
+          },
+          {
+            "japanese": "彼の笑顔はどこか寂しそうだった。",
+            "romaji": "Kare no egao wa dokoka sabishisou datta.",
+            "german": "Sein Lächeln wirkte irgendwie traurig."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, tanos N1, Nihongo Master N3 (何処か). Editorial N3.",
+      "rationale": "Add どこか【どこか】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1189000; spelling=どこか; reading=どこか; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1189000 どこか/どこか sense(s) 1,2 support \"irgendwo; irgendwie\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1189000",
+            "spelling": "どこか",
+            "reading": "どこか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "somewhere"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "in some respects",
+                  "in some way"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "どこか|どこか",
+          "referenceIndex": 0,
+          "referenceHash": "cedc8ca072745961aed6d150cede7a85435bc2d876dd65722aa3e71928fa70dc"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"irgendwo; irgendwie\" matches JMdict 1189000 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Vague plans.",
+          "“Somehow” (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1189000; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, tanos N1, Nihongo Master N3 (何処か). Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for どこか / どこか; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup どこか / どこか",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add どこか【どこか】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1189000 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "5c0dda87f99011284e6a03dd94833d5f459d074fc9adc02fdcb7ea9939d50f86",
+        "approvalHash": "e4c9ce69f26c8fae0637740264bafbd971d2c6f95d716176d08635506bb7cbab"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Examples natural and on-sense with the headword itself, romaji exact, German correct, JMdict senses support meaning, type sensible, level N3 supported by publishers, pitch status consistent with evidence, check.cjs: new.",
+        "contentHash": "5c0dda87f99011284e6a03dd94833d5f459d074fc9adc02fdcb7ea9939d50f86",
+        "approvalHash": "e4c9ce69f26c8fae0637740264bafbd971d2c6f95d716176d08635506bb7cbab"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:doraibu",
+      "revisionId": "028-add-doraibu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ドライブ",
+        "reading": "ドライブ",
+        "romaji": "doraibu",
+        "meaning": "Autofahrt (zum Vergnügen), Spritztour",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N3",
+        "notes": "Ausflug mit dem Auto: ドライブに行く／ドライブする. Nicht allgemein „Auto fahren“ (das heißt 運転する).",
+        "examples": [
+          {
+            "japanese": "日曜日に海までドライブした。",
+            "romaji": "Nichiyoubi ni umi made doraibu shita.",
+            "german": "Am Sonntag haben wir einen Ausflug ans Meer gemacht."
+          },
+          {
+            "japanese": "紅葉を見にドライブに行こう。",
+            "romaji": "Kouyou o mi ni doraibu ni ikou.",
+            "german": "Lass uns eine Spritztour machen und die Herbstfärbung ansehen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193179631",
+            "patterns": [
+              2
+            ],
+            "finding": "ドライブ / ドライブ; 名詞/普通名詞/サ変可能/*; *; *; lemma ドライブ-drive; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ドライブ",
+              "reading": "ドライブ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "ドライブ as \"Autofahrt (zum Vergnügen), Spritztour\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add ドライブ【ドライブ】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1088580; spelling=ドライブ; reading=ドライブ; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1088580 ドライブ/ドライブ sense(s) 1,2 support \"Autofahrt (zum Vergnügen), Spritztour\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1088580",
+            "spelling": "ドライブ",
+            "reading": "ドライブ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drive",
+                  "trip by car",
+                  "driving"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to (go for a) drive",
+                  "to go on a trip by car"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "どらいぶ|どらいぶ",
+          "referenceIndex": 0,
+          "referenceHash": "bd75ec813a75717df4562be839ff94304a0337ceb2958f83fafa7a68b1247ffd"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"Autofahrt (zum Vergnügen), Spritztour\" matches JMdict 1088580 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Trip to the sea.",
+          "Autumn-leaves drive."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1088580; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@193179631 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193179631",
+            "patterns": [
+              2
+            ],
+            "finding": "ドライブ / ドライブ; 名詞/普通名詞/サ変可能/*; *; *; lemma ドライブ-drive; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ドライブ",
+              "reading": "ドライブ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "ドライブ as \"Autofahrt (zum Vergnügen), Spritztour\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add ドライブ【ドライブ】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1088580 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "8040607615bed6821cc2a61bf7a1f59916c3f064a51dd6449d4e22bdbfa83dc7",
+        "approvalHash": "4fc782165a5eba8637d5981b42cefabfa9018434a3d621948f0d11c2f2cdf3f0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Minor: ex1 German \"einen Ausflug ans Meer gemacht\" loses \"mit dem Auto\" (better: \"eine Spritztour ans Meer gemacht\").",
+        "contentHash": "8040607615bed6821cc2a61bf7a1f59916c3f064a51dd6449d4e22bdbfa83dc7",
+        "approvalHash": "4fc782165a5eba8637d5981b42cefabfa9018434a3d621948f0d11c2f2cdf3f0"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:doresu",
+      "revisionId": "028-add-doresu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ドレス",
+        "reading": "ドレス",
+        "romaji": "doresu",
+        "meaning": "(festliches) Kleid",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N3",
+        "notes": "Meist ein elegantes Kleid (ウエディングドレス = Brautkleid). Alltagskleid eher ワンピース.",
+        "examples": [
+          {
+            "japanese": "結婚式のために新しいドレスを買った。",
+            "romaji": "Kekkonshiki no tame ni atarashii doresu o katta.",
+            "german": "Für die Hochzeit habe ich ein neues Kleid gekauft."
+          },
+          {
+            "japanese": "花嫁の白いドレスがとてもきれいだった。",
+            "romaji": "Hanayome no shiroi doresu ga totemo kirei datta.",
+            "german": "Das weiße Kleid der Braut war wunderschön."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193262212",
+            "patterns": [
+              1
+            ],
+            "finding": "ドレス / ドレス; 名詞/普通名詞/一般/*; *; *; lemma ドレス-dress; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ドレス",
+              "reading": "ドレス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ドレス as \"(festliches) Kleid\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 028); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add ドレス【ドレス】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1089280; spelling=ドレス; reading=ドレス; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1089280 ドレス/ドレス sense(s) 1 support \"(festliches) Kleid\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1089280",
+            "spelling": "ドレス",
+            "reading": "ドレス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dress"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "どれす|どれす",
+          "referenceIndex": 0,
+          "referenceHash": "756e9acbcce0e017f2da2718edd30a4f30f14eb30fcb88669d1cb73c4d690a5a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-028-editor",
+        "meaning": "\"(festliches) Kleid\" matches JMdict 1089280 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Buying a party dress.",
+          "Wedding dress."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1089280; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@193262212 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193262212",
+            "patterns": [
+              1
+            ],
+            "finding": "ドレス / ドレス; 名詞/普通名詞/一般/*; *; *; lemma ドレス-dress; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ドレス",
+              "reading": "ドレス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ドレス as \"(festliches) Kleid\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: Add ドレス【ドレス】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1089280 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "86a15052471f477a2ffd6fc0fbd6d3322472fba0aa38fbcd759a7d9b5f81e7ce",
+        "approvalHash": "57ec523462a638d6e99449c5ee4dab46a9942483d3c6818d8396b5b75f184e38"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: unchanged since round 1 and re-checked. Examples natural and on-sense with the headword itself, romaji exact, German correct, JMdict senses support meaning, type sensible, level N3 supported by publishers, pitch status consistent with evidence, check.cjs: new.",
+        "contentHash": "86a15052471f477a2ffd6fc0fbd6d3322472fba0aa38fbcd759a7d9b5f81e7ce",
+        "approvalHash": "57ec523462a638d6e99449c5ee4dab46a9942483d3c6818d8396b5b75f184e38"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "てんと|てんと",
+      "referenceIndex": 0,
+      "referenceHash": "a9fa0111d5475275059a3c37616a0f5620d58df119149e20ac47d09a908ffd0a",
+      "revisionId": "028-candidate-tento-e659c3c7-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tento"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tento": "f13b4ab43213910a6591d0b57175290314f99d1fdb9e8a0498e64f627e21d0c7"
+      },
+      "reason": "Reference テント/テント (tanos N3) is the same lexeme as the new entry テント【テント】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=62",
+          "finding": "tanos lists テント/テント at N3 (gloss: tent)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1081040; spelling=テント; reading=テント; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1081040 as the reference form.",
+          "selected": {
+            "sequence": "1081040",
+            "spelling": "テント",
+            "reading": "テント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference てんと|てんと#0 is the same lexeme as vocab-n3:correction:tento; target hash bound to the assembled addition.",
+        "contentHash": "8186f6bca7d93bbf8be2aaf4ce877168a3886486cb17c6b8a309d5a602375ec8",
+        "approvalHash": "8186f6bca7d93bbf8be2aaf4ce877168a3886486cb17c6b8a309d5a602375ec8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:tento.",
+        "contentHash": "8186f6bca7d93bbf8be2aaf4ce877168a3886486cb17c6b8a309d5a602375ec8",
+        "approvalHash": "8186f6bca7d93bbf8be2aaf4ce877168a3886486cb17c6b8a309d5a602375ec8"
+      }
+    },
+    {
+      "key": "てんと|てんと",
+      "referenceIndex": 1,
+      "referenceHash": "0c20ec88a6829cead616ccd0e0be988d837609ba4a788a0aaf801a2a3511a7b3",
+      "revisionId": "028-candidate-tento-e659c3c7-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tento"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tento": "f13b4ab43213910a6591d0b57175290314f99d1fdb9e8a0498e64f627e21d0c7"
+      },
+      "reason": "Reference テント/テント (master N3) is the same lexeme as the new entry テント【テント】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists テント/テント at N3 (gloss: tent; tente; палатка)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1081040; spelling=テント; reading=テント; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1081040 as the reference form.",
+          "selected": {
+            "sequence": "1081040",
+            "spelling": "テント",
+            "reading": "テント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference てんと|てんと#1 is the same lexeme as vocab-n3:correction:tento; target hash bound to the assembled addition.",
+        "contentHash": "3761001544efec15f647244566f9c02d50dd0877e3bc7529355bc2daa59f5798",
+        "approvalHash": "3761001544efec15f647244566f9c02d50dd0877e3bc7529355bc2daa59f5798"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:tento.",
+        "contentHash": "3761001544efec15f647244566f9c02d50dd0877e3bc7529355bc2daa59f5798",
+        "approvalHash": "3761001544efec15f647244566f9c02d50dd0877e3bc7529355bc2daa59f5798"
+      }
+    },
+    {
+      "key": "ですから|ですから",
+      "referenceIndex": 0,
+      "referenceHash": "f99054701faa9d8eed2e67e294b786e0bca54e40c24fc9d07581cbdc2cb6a196",
+      "revisionId": "028-candidate-desukara-50fe646e-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:desukara"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:desukara": "74811a4c68fcb20679801064f2a231fe2a86521d82a7f4c510ec2b45e9c9aa30"
+      },
+      "reason": "Reference ですから/ですから (tanos N3) is the same lexeme as the new entry ですから【ですから】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=62",
+          "finding": "tanos lists ですから/ですから at N3 (gloss: therefore)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008430; spelling=ですから; reading=ですから; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1008430 as the reference form.",
+          "selected": {
+            "sequence": "1008430",
+            "spelling": "ですから",
+            "reading": "ですから",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "so",
+                  "therefore",
+                  "accordingly",
+                  "consequently",
+                  "on those grounds",
+                  "that is why",
+                  "for that reason"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference ですから|ですから#0 is the same lexeme as vocab-n3:correction:desukara; target hash bound to the assembled addition.",
+        "contentHash": "4891110e457bbb75f903a583c1fc3b928a181dc9776abae1109476cf69bdfb27",
+        "approvalHash": "4891110e457bbb75f903a583c1fc3b928a181dc9776abae1109476cf69bdfb27"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:desukara.",
+        "contentHash": "4891110e457bbb75f903a583c1fc3b928a181dc9776abae1109476cf69bdfb27",
+        "approvalHash": "4891110e457bbb75f903a583c1fc3b928a181dc9776abae1109476cf69bdfb27"
+      }
+    },
+    {
+      "key": "ですから|ですから",
+      "referenceIndex": 1,
+      "referenceHash": "1dc62ebbc0187f45d4b249c41015c592f97f3c983ba0951dd1a6fdc36751786a",
+      "revisionId": "028-candidate-desukara-50fe646e-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:desukara"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:desukara": "74811a4c68fcb20679801064f2a231fe2a86521d82a7f4c510ec2b45e9c9aa30"
+      },
+      "reason": "Reference ですから/ですから (master N3) is the same lexeme as the new entry ですから【ですから】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists ですから/ですから at N3 (gloss: so; therefore; par conséquant)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008430; spelling=ですから; reading=ですから; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1008430 as the reference form.",
+          "selected": {
+            "sequence": "1008430",
+            "spelling": "ですから",
+            "reading": "ですから",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "so",
+                  "therefore",
+                  "accordingly",
+                  "consequently",
+                  "on those grounds",
+                  "that is why",
+                  "for that reason"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference ですから|ですから#1 is the same lexeme as vocab-n3:correction:desukara; target hash bound to the assembled addition.",
+        "contentHash": "6ea70975e349e7ad9b6d3e41b672992e5aace06e782c31af82e3667f55c2365c",
+        "approvalHash": "6ea70975e349e7ad9b6d3e41b672992e5aace06e782c31af82e3667f55c2365c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:desukara.",
+        "contentHash": "6ea70975e349e7ad9b6d3e41b672992e5aace06e782c31af82e3667f55c2365c",
+        "approvalHash": "6ea70975e349e7ad9b6d3e41b672992e5aace06e782c31af82e3667f55c2365c"
+      }
+    },
+    {
+      "key": "ところが|ところが",
+      "referenceIndex": 0,
+      "referenceHash": "eec0621dfb49fc994a123626af24b3f7cbf824acec677d2c641be97e9190d30e",
+      "revisionId": "028-candidate-tokoroga-e3537ab3-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tokoroga"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tokoroga": "c3f40df740daa9038ca313c42a6e62cb6baa22456c3123d04a579136c824e9fa"
+      },
+      "reason": "Reference ところが/ところが (tanos N3) is the same lexeme as the new entry ところが【ところが】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=64",
+          "finding": "tanos lists ところが/ところが at N3 (gloss: however,while,even if)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008570; spelling=ところが; reading=ところが; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1008570 as the reference form.",
+          "selected": {
+            "sequence": "1008570",
+            "spelling": "ところが",
+            "reading": "ところが",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "even so",
+                  "however",
+                  "still",
+                  "whereupon",
+                  "even though",
+                  "nevertheless",
+                  "on the contrary",
+                  "as a matter of fact",
+                  "despite"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference ところが|ところが#0 is the same lexeme as vocab-n3:correction:tokoroga; target hash bound to the assembled addition.",
+        "contentHash": "3375dd6a76ca4adef09ef84f939a1d038382a3cc216a80cf1a24f95c797b43b6",
+        "approvalHash": "3375dd6a76ca4adef09ef84f939a1d038382a3cc216a80cf1a24f95c797b43b6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:tokoroga.",
+        "contentHash": "3375dd6a76ca4adef09ef84f939a1d038382a3cc216a80cf1a24f95c797b43b6",
+        "approvalHash": "3375dd6a76ca4adef09ef84f939a1d038382a3cc216a80cf1a24f95c797b43b6"
+      }
+    },
+    {
+      "key": "所が|ところが",
+      "referenceIndex": 0,
+      "referenceHash": "406b0a0f782770ca04d8ea5c20039c576701bb0e779e959a4d7d49cf1cb80203",
+      "revisionId": "028-candidate-tokoroga-8a429fe4-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tokoroga"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tokoroga": "c3f40df740daa9038ca313c42a6e62cb6baa22456c3123d04a579136c824e9fa"
+      },
+      "reason": "Reference 所が/ところが (tanos N1) is the same lexeme as the new entry ところが【ところが】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=117",
+          "finding": "tanos lists 所が/ところが at N1 (gloss: however, while, even if)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008570; spelling=ところが; reading=ところが; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1008570 as the reference form.",
+          "selected": {
+            "sequence": "1008570",
+            "spelling": "ところが",
+            "reading": "ところが",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "even so",
+                  "however",
+                  "still",
+                  "whereupon",
+                  "even though",
+                  "nevertheless",
+                  "on the contrary",
+                  "as a matter of fact",
+                  "despite"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference 所が|ところが#0 is the same lexeme as vocab-n3:correction:tokoroga; target hash bound to the assembled addition.",
+        "contentHash": "d46ae6ea92bf47f4afe9c7ff24968a8a68e12888de6d8928b69b2edc58648857",
+        "approvalHash": "d46ae6ea92bf47f4afe9c7ff24968a8a68e12888de6d8928b69b2edc58648857"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:tokoroga.",
+        "contentHash": "d46ae6ea92bf47f4afe9c7ff24968a8a68e12888de6d8928b69b2edc58648857",
+        "approvalHash": "d46ae6ea92bf47f4afe9c7ff24968a8a68e12888de6d8928b69b2edc58648857"
+      }
+    },
+    {
+      "key": "所が|ところが",
+      "referenceIndex": 1,
+      "referenceHash": "99dada84ae15bf20f0b8a265b5883243e5d33e30fd436553724ab0bc66d004c7",
+      "revisionId": "028-candidate-tokoroga-8a429fe4-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tokoroga"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tokoroga": "c3f40df740daa9038ca313c42a6e62cb6baa22456c3123d04a579136c824e9fa"
+      },
+      "reason": "Reference 所が/ところが (master N3) is the same lexeme as the new entry ところが【ところが】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "Nihongo Master lists 所が/ところが at N3 (gloss: even so; however; still)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008570; spelling=ところが; reading=ところが; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1008570 as the reference form.",
+          "selected": {
+            "sequence": "1008570",
+            "spelling": "ところが",
+            "reading": "ところが",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "even so",
+                  "however",
+                  "still",
+                  "whereupon",
+                  "even though",
+                  "nevertheless",
+                  "on the contrary",
+                  "as a matter of fact",
+                  "despite"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference 所が|ところが#1 is the same lexeme as vocab-n3:correction:tokoroga; target hash bound to the assembled addition.",
+        "contentHash": "c8cb0c7812f664534c00e44876f782445169a50e1de9c0448fa35a91c3c7b2e2",
+        "approvalHash": "c8cb0c7812f664534c00e44876f782445169a50e1de9c0448fa35a91c3c7b2e2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:tokoroga.",
+        "contentHash": "c8cb0c7812f664534c00e44876f782445169a50e1de9c0448fa35a91c3c7b2e2",
+        "approvalHash": "c8cb0c7812f664534c00e44876f782445169a50e1de9c0448fa35a91c3c7b2e2"
+      }
+    },
+    {
+      "key": "とっぷ|とっぷ",
+      "referenceIndex": 0,
+      "referenceHash": "a5900773a5dd9feffa35591972db17719872c87fb2d78a1ab6d090e1d10a04e4",
+      "revisionId": "028-candidate-toppu-3846f039-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:toppu"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:toppu": "51d6e5bdd63bf4ff997dbadcfa81d1f6e5476fe89334d5e3753028b3440d67ff"
+      },
+      "reason": "Reference トップ/トップ (tanos N3) is the same lexeme as the new entry トップ【トップ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=65",
+          "finding": "tanos lists トップ/トップ at N3 (gloss: top)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1085030; spelling=トップ; reading=トップ; senses=1,2,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1085030 as the reference form.",
+          "selected": {
+            "sequence": "1085030",
+            "spelling": "トップ",
+            "reading": "トップ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "top"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "top position"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "senior management",
+                  "senior bureaucrat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference とっぷ|とっぷ#0 is the same lexeme as vocab-n3:correction:toppu; target hash bound to the assembled addition.",
+        "contentHash": "4e1d779c5284d700079a753373d443e8ac1540f79a3bf6df56bef7605f6c8bee",
+        "approvalHash": "4e1d779c5284d700079a753373d443e8ac1540f79a3bf6df56bef7605f6c8bee"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:toppu.",
+        "contentHash": "4e1d779c5284d700079a753373d443e8ac1540f79a3bf6df56bef7605f6c8bee",
+        "approvalHash": "4e1d779c5284d700079a753373d443e8ac1540f79a3bf6df56bef7605f6c8bee"
+      }
+    },
+    {
+      "key": "とっぷ|とっぷ",
+      "referenceIndex": 1,
+      "referenceHash": "35b19ce2495fffc9a1b1566d6a1f7a272a9adfb6d74f8f3075597d3443e74156",
+      "revisionId": "028-candidate-toppu-3846f039-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:toppu"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:toppu": "51d6e5bdd63bf4ff997dbadcfa81d1f6e5476fe89334d5e3753028b3440d67ff"
+      },
+      "reason": "Reference トップ/トップ (master N3) is the same lexeme as the new entry トップ【トップ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "Nihongo Master lists トップ/トップ at N3 (gloss: top; en tête; premier)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1085030; spelling=トップ; reading=トップ; senses=1,2,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1085030 as the reference form.",
+          "selected": {
+            "sequence": "1085030",
+            "spelling": "トップ",
+            "reading": "トップ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "top"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "top position"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "senior management",
+                  "senior bureaucrat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference とっぷ|とっぷ#1 is the same lexeme as vocab-n3:correction:toppu; target hash bound to the assembled addition.",
+        "contentHash": "45053b568c00d1ac89ca8060ced36aa7d366ad9382cddde75ffff0a0903d106c",
+        "approvalHash": "45053b568c00d1ac89ca8060ced36aa7d366ad9382cddde75ffff0a0903d106c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:toppu.",
+        "contentHash": "45053b568c00d1ac89ca8060ced36aa7d366ad9382cddde75ffff0a0903d106c",
+        "approvalHash": "45053b568c00d1ac89ca8060ced36aa7d366ad9382cddde75ffff0a0903d106c"
+      }
+    },
+    {
+      "key": "とん|とん",
+      "referenceIndex": 0,
+      "referenceHash": "c54ea6c18712f504aab24400b3f178feb5db6a66a0fe12e954b74ffd1577a47b",
+      "revisionId": "028-candidate-ton-2f33f842-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:ton"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:ton": "cb5c9e8470b09871abb8e62b6c8189ab1df4b7bebdbb3876adeb7a8ab76346e7"
+      },
+      "reason": "Reference とん/とん (tanos N3) is the same lexeme as the new entry トン【トン】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=66",
+          "finding": "tanos lists とん/とん at N3 (gloss: （1000 ton)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1457320; spelling=トン; reading=トン; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1457320 as the reference form.",
+          "selected": {
+            "sequence": "1457320",
+            "spelling": "トン",
+            "reading": "トン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "ton (esp. a metric ton, i.e. 1000 kg)",
+                  "tonne"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference とん|とん#0 is the same lexeme as vocab-n3:correction:ton; target hash bound to the assembled addition.",
+        "contentHash": "3f2a606fdec66ec184f785729caced49aceaada150638102bd2c5c0966aadb64",
+        "approvalHash": "3f2a606fdec66ec184f785729caced49aceaada150638102bd2c5c0966aadb64"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. tanos spells it とん in hiragana but glosses 1000 ton: same lexeme as トン. #1 (Master, tap/knock) correctly left open.",
+        "contentHash": "3f2a606fdec66ec184f785729caced49aceaada150638102bd2c5c0966aadb64",
+        "approvalHash": "3f2a606fdec66ec184f785729caced49aceaada150638102bd2c5c0966aadb64"
+      }
+    },
+    {
+      "key": "屯|とん",
+      "referenceIndex": 0,
+      "referenceHash": "928db959974e927ca748535cf0ec8dc12d27bbb8c0ffae17693d2f3618fcaa1a",
+      "revisionId": "028-candidate-ton-d6c49216-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:ton"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:ton": "cb5c9e8470b09871abb8e62b6c8189ab1df4b7bebdbb3876adeb7a8ab76346e7"
+      },
+      "reason": "Reference 屯/トン (master N3) is the same lexeme as the new entry トン【トン】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "Nihongo Master lists 屯/トン at N3 (gloss: ton (now usu. a metric ton, i.e. 1,000kg); tonne; тонна)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1457320; spelling=トン; reading=トン; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1457320 as the reference form.",
+          "selected": {
+            "sequence": "1457320",
+            "spelling": "トン",
+            "reading": "トン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "ton (esp. a metric ton, i.e. 1000 kg)",
+                  "tonne"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference 屯|とん#0 is the same lexeme as vocab-n3:correction:ton; target hash bound to the assembled addition.",
+        "contentHash": "fd33bc513c0825f061f6c6beb2aee32de287d59186060b2f2078ccaa91ee3804",
+        "approvalHash": "fd33bc513c0825f061f6c6beb2aee32de287d59186060b2f2078ccaa91ee3804"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:ton.",
+        "contentHash": "fd33bc513c0825f061f6c6beb2aee32de287d59186060b2f2078ccaa91ee3804",
+        "approvalHash": "fd33bc513c0825f061f6c6beb2aee32de287d59186060b2f2078ccaa91ee3804"
+      }
+    },
+    {
+      "key": "とんでもない|とんでもない",
+      "referenceIndex": 0,
+      "referenceHash": "95c61818ded0fce507b3fd5725146570f8ab98a6631e8f404459875470d8ef65",
+      "revisionId": "028-candidate-tondemonai-2171d72b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tondemonai"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tondemonai": "1468f65f6fd8d119d830ff4394b25cba823bc1167f0952d675ae81feaedb48f3"
+      },
+      "reason": "Reference とんでもない/とんでもない (tanos N3) is the same lexeme as the new entry とんでもない【とんでもない】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=66",
+          "finding": "tanos lists とんでもない/とんでもない at N3 (gloss: unexpected,offensive,What a thing to say!,No way!)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008790; spelling=とんでもない; reading=とんでもない; senses=1,2,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1008790 as the reference form.",
+          "selected": {
+            "sequence": "1008790",
+            "spelling": "とんでもない",
+            "reading": "とんでもない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unthinkable",
+                  "unexpected",
+                  "absurd",
+                  "outrageous",
+                  "preposterous",
+                  "terrible"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "absolutely not!",
+                  "far from it!",
+                  "impossible!",
+                  "preposterous!",
+                  "what a thing to say!",
+                  "no way!"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(it was) no bother at all",
+                  "not at all",
+                  "don't mention it"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference とんでもない|とんでもない#0 is the same lexeme as vocab-n3:correction:tondemonai; target hash bound to the assembled addition.",
+        "contentHash": "8d46f2147021b178bceefc7f0d7a7ca7fb8c0fb58dff1bbc0cd0b6d15d966705",
+        "approvalHash": "8d46f2147021b178bceefc7f0d7a7ca7fb8c0fb58dff1bbc0cd0b6d15d966705"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:tondemonai.",
+        "contentHash": "8d46f2147021b178bceefc7f0d7a7ca7fb8c0fb58dff1bbc0cd0b6d15d966705",
+        "approvalHash": "8d46f2147021b178bceefc7f0d7a7ca7fb8c0fb58dff1bbc0cd0b6d15d966705"
+      }
+    },
+    {
+      "key": "とんでも無い|とんでもない",
+      "referenceIndex": 0,
+      "referenceHash": "b2de0587e16652b3ba23ed7bd57ea874cc20515f597131a4cfa7b9578cd1dd01",
+      "revisionId": "028-candidate-tondemonai-30fa7583-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tondemonai"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tondemonai": "1468f65f6fd8d119d830ff4394b25cba823bc1167f0952d675ae81feaedb48f3"
+      },
+      "reason": "Reference とんでも無い/とんでもない (master N3) is the same lexeme as the new entry とんでもない【とんでもない】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists とんでも無い/とんでもない at N3 (gloss: unthinkable; unexpected; outrageous)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008790; spelling=とんでもない; reading=とんでもない; senses=1,2,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1008790 as the reference form.",
+          "selected": {
+            "sequence": "1008790",
+            "spelling": "とんでもない",
+            "reading": "とんでもない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unthinkable",
+                  "unexpected",
+                  "absurd",
+                  "outrageous",
+                  "preposterous",
+                  "terrible"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "absolutely not!",
+                  "far from it!",
+                  "impossible!",
+                  "preposterous!",
+                  "what a thing to say!",
+                  "no way!"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(it was) no bother at all",
+                  "not at all",
+                  "don't mention it"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference とんでも無い|とんでもない#0 is the same lexeme as vocab-n3:correction:tondemonai; target hash bound to the assembled addition.",
+        "contentHash": "e09a531680a38e286277a8c120b276963fcaf18aca1661ec0a4bef34855aff37",
+        "approvalHash": "e09a531680a38e286277a8c120b276963fcaf18aca1661ec0a4bef34855aff37"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:tondemonai.",
+        "contentHash": "e09a531680a38e286277a8c120b276963fcaf18aca1661ec0a4bef34855aff37",
+        "approvalHash": "e09a531680a38e286277a8c120b276963fcaf18aca1661ec0a4bef34855aff37"
+      }
+    },
+    {
+      "key": "どうしても|どうしても",
+      "referenceIndex": 0,
+      "referenceHash": "aa087b336fe1eb66e0f3c52c70e5a944838aacc025538b2fb0dd93da8c33802c",
+      "revisionId": "028-candidate-doushitemo-c1f43b95-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:doushitemo"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:doushitemo": "96becdd279a65b2688b62141be52b6122a27ff5593c35663192b69b172616196"
+      },
+      "reason": "Reference どうしても/どうしても (tanos N3) is the same lexeme as the new entry どうしても【どうしても】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=63",
+          "finding": "tanos lists どうしても/どうしても at N3 (gloss: by all means,at any cost,no matter what)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1466950; spelling=どうしても; reading=どうしても; senses=1,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1466950 as the reference form.",
+          "selected": {
+            "sequence": "1466950",
+            "spelling": "どうしても",
+            "reading": "どうしても",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "by all means",
+                  "at any cost",
+                  "no matter what",
+                  "at any rate",
+                  "surely"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "on no account",
+                  "by no means"
+                ],
+                "notes": [
+                  "with. neg. verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference どうしても|どうしても#0 is the same lexeme as vocab-n3:correction:doushitemo; target hash bound to the assembled addition.",
+        "contentHash": "e0d8fe8a97f270a9a8978c793b48df1e49e331694241b935c13386b4810744e5",
+        "approvalHash": "e0d8fe8a97f270a9a8978c793b48df1e49e331694241b935c13386b4810744e5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:doushitemo.",
+        "contentHash": "e0d8fe8a97f270a9a8978c793b48df1e49e331694241b935c13386b4810744e5",
+        "approvalHash": "e0d8fe8a97f270a9a8978c793b48df1e49e331694241b935c13386b4810744e5"
+      }
+    },
+    {
+      "key": "如何しても|どうしても",
+      "referenceIndex": 0,
+      "referenceHash": "431e40b0e50c42471ca4461812be34326a4407765b6aebb06eef7ae78a54b10c",
+      "revisionId": "028-candidate-doushitemo-d6cc5fc7-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:doushitemo"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:doushitemo": "96becdd279a65b2688b62141be52b6122a27ff5593c35663192b69b172616196"
+      },
+      "reason": "Reference 如何しても/どうしても (tanos N1) is the same lexeme as the new entry どうしても【どうしても】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=121",
+          "finding": "tanos lists 如何しても/どうしても at N1 (gloss: by all means, at any cost, no matter what, after)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1466950; spelling=どうしても; reading=どうしても; senses=1,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1466950 as the reference form.",
+          "selected": {
+            "sequence": "1466950",
+            "spelling": "どうしても",
+            "reading": "どうしても",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "by all means",
+                  "at any cost",
+                  "no matter what",
+                  "at any rate",
+                  "surely"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "on no account",
+                  "by no means"
+                ],
+                "notes": [
+                  "with. neg. verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference 如何しても|どうしても#0 is the same lexeme as vocab-n3:correction:doushitemo; target hash bound to the assembled addition.",
+        "contentHash": "e3b17c03bdab2789854f4da61b93481cebcb725d589bf34838fec22d2620325e",
+        "approvalHash": "e3b17c03bdab2789854f4da61b93481cebcb725d589bf34838fec22d2620325e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:doushitemo.",
+        "contentHash": "e3b17c03bdab2789854f4da61b93481cebcb725d589bf34838fec22d2620325e",
+        "approvalHash": "e3b17c03bdab2789854f4da61b93481cebcb725d589bf34838fec22d2620325e"
+      }
+    },
+    {
+      "key": "如何しても|どうしても",
+      "referenceIndex": 1,
+      "referenceHash": "ab840861e7c03cbc104e03b3578fb38a1f05ecfdadcb3d48478d257a7c55383c",
+      "revisionId": "028-candidate-doushitemo-d6cc5fc7-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:doushitemo"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:doushitemo": "96becdd279a65b2688b62141be52b6122a27ff5593c35663192b69b172616196"
+      },
+      "reason": "Reference 如何しても/どうしても (master N3) is the same lexeme as the new entry どうしても【どうしても】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 如何しても/どうしても at N3 (gloss: by all means; at any cost; no matter what)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1466950; spelling=どうしても; reading=どうしても; senses=1,3; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1466950 as the reference form.",
+          "selected": {
+            "sequence": "1466950",
+            "spelling": "どうしても",
+            "reading": "どうしても",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "by all means",
+                  "at any cost",
+                  "no matter what",
+                  "at any rate",
+                  "surely"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "on no account",
+                  "by no means"
+                ],
+                "notes": [
+                  "with. neg. verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference 如何しても|どうしても#1 is the same lexeme as vocab-n3:correction:doushitemo; target hash bound to the assembled addition.",
+        "contentHash": "080d23e5356e1c1ac7f83b57ce2746f7eaf55aaa628febd54985382420f215fc",
+        "approvalHash": "080d23e5356e1c1ac7f83b57ce2746f7eaf55aaa628febd54985382420f215fc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:doushitemo.",
+        "contentHash": "080d23e5356e1c1ac7f83b57ce2746f7eaf55aaa628febd54985382420f215fc",
+        "approvalHash": "080d23e5356e1c1ac7f83b57ce2746f7eaf55aaa628febd54985382420f215fc"
+      }
+    },
+    {
+      "key": "どこか|どこか",
+      "referenceIndex": 0,
+      "referenceHash": "cedc8ca072745961aed6d150cede7a85435bc2d876dd65722aa3e71928fa70dc",
+      "revisionId": "028-candidate-dokoka-ae3ec713-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:dokoka"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:dokoka": "5c0dda87f99011284e6a03dd94833d5f459d074fc9adc02fdcb7ea9939d50f86"
+      },
+      "reason": "Reference どこか/どこか (tanos N3) is the same lexeme as the new entry どこか【どこか】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=64",
+          "finding": "tanos lists どこか/どこか at N3 (gloss: somewhere,anywhere)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1189000; spelling=どこか; reading=どこか; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1189000 as the reference form.",
+          "selected": {
+            "sequence": "1189000",
+            "spelling": "どこか",
+            "reading": "どこか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "somewhere"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "in some respects",
+                  "in some way"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference どこか|どこか#0 is the same lexeme as vocab-n3:correction:dokoka; target hash bound to the assembled addition.",
+        "contentHash": "03fa2653dfac4e4d041711843f448c507eb37bfdcd63410bc5c2386cc3d66d79",
+        "approvalHash": "03fa2653dfac4e4d041711843f448c507eb37bfdcd63410bc5c2386cc3d66d79"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:dokoka.",
+        "contentHash": "03fa2653dfac4e4d041711843f448c507eb37bfdcd63410bc5c2386cc3d66d79",
+        "approvalHash": "03fa2653dfac4e4d041711843f448c507eb37bfdcd63410bc5c2386cc3d66d79"
+      }
+    },
+    {
+      "key": "何処か|どこか",
+      "referenceIndex": 0,
+      "referenceHash": "5eff73477d496a12ec083f63378068ef7fa1fa72a04f31c57e29be4e80062566",
+      "revisionId": "028-candidate-dokoka-3f596ad5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:dokoka"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:dokoka": "5c0dda87f99011284e6a03dd94833d5f459d074fc9adc02fdcb7ea9939d50f86"
+      },
+      "reason": "Reference 何処か/どこか (tanos N1) is the same lexeme as the new entry どこか【どこか】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=122",
+          "finding": "tanos lists 何処か/どこか at N1 (gloss: somewhere, anywhere, in some respects)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1189000; spelling=どこか; reading=どこか; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1189000 as the reference form.",
+          "selected": {
+            "sequence": "1189000",
+            "spelling": "どこか",
+            "reading": "どこか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "somewhere"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "in some respects",
+                  "in some way"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference 何処か|どこか#0 is the same lexeme as vocab-n3:correction:dokoka; target hash bound to the assembled addition.",
+        "contentHash": "dea55994592a6ca7327cba9cc2b510f118c8cce49a7b08f14eb48a7e7fa67e36",
+        "approvalHash": "dea55994592a6ca7327cba9cc2b510f118c8cce49a7b08f14eb48a7e7fa67e36"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:dokoka.",
+        "contentHash": "dea55994592a6ca7327cba9cc2b510f118c8cce49a7b08f14eb48a7e7fa67e36",
+        "approvalHash": "dea55994592a6ca7327cba9cc2b510f118c8cce49a7b08f14eb48a7e7fa67e36"
+      }
+    },
+    {
+      "key": "何処か|どこか",
+      "referenceIndex": 1,
+      "referenceHash": "5c34b3a9fe077623f90916020a0d5a27717463378aeab96dca67b56323f9d6a3",
+      "revisionId": "028-candidate-dokoka-3f596ad5-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:dokoka"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:dokoka": "5c0dda87f99011284e6a03dd94833d5f459d074fc9adc02fdcb7ea9939d50f86"
+      },
+      "reason": "Reference 何処か/どこか (master N3) is the same lexeme as the new entry どこか【どこか】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 何処か/どこか at N3 (gloss: somewhere; anywhere; in some respects)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1189000; spelling=どこか; reading=どこか; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1189000 as the reference form.",
+          "selected": {
+            "sequence": "1189000",
+            "spelling": "どこか",
+            "reading": "どこか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "somewhere"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "in some respects",
+                  "in some way"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference 何処か|どこか#1 is the same lexeme as vocab-n3:correction:dokoka; target hash bound to the assembled addition.",
+        "contentHash": "880883fcd626015441b9ace850104479a1ca50e562375316d519536653c4fa14",
+        "approvalHash": "880883fcd626015441b9ace850104479a1ca50e562375316d519536653c4fa14"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:dokoka.",
+        "contentHash": "880883fcd626015441b9ace850104479a1ca50e562375316d519536653c4fa14",
+        "approvalHash": "880883fcd626015441b9ace850104479a1ca50e562375316d519536653c4fa14"
+      }
+    },
+    {
+      "key": "どらいぶ|どらいぶ",
+      "referenceIndex": 0,
+      "referenceHash": "bd75ec813a75717df4562be839ff94304a0337ceb2958f83fafa7a68b1247ffd",
+      "revisionId": "028-candidate-doraibu-3fc3540c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:doraibu"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:doraibu": "8040607615bed6821cc2a61bf7a1f59916c3f064a51dd6449d4e22bdbfa83dc7"
+      },
+      "reason": "Reference ドライブ/ドライブ (tanos N3) is the same lexeme as the new entry ドライブ【ドライブ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=65",
+          "finding": "tanos lists ドライブ/ドライブ at N3 (gloss: drive,trip by car,driving)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1088580; spelling=ドライブ; reading=ドライブ; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1088580 as the reference form.",
+          "selected": {
+            "sequence": "1088580",
+            "spelling": "ドライブ",
+            "reading": "ドライブ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drive",
+                  "trip by car",
+                  "driving"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to (go for a) drive",
+                  "to go on a trip by car"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference どらいぶ|どらいぶ#0 is the same lexeme as vocab-n3:correction:doraibu; target hash bound to the assembled addition.",
+        "contentHash": "d28af6a15f75a80c6775fa736834806d9e4bafec1171a61655d2f0f9c007da39",
+        "approvalHash": "d28af6a15f75a80c6775fa736834806d9e4bafec1171a61655d2f0f9c007da39"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:doraibu.",
+        "contentHash": "d28af6a15f75a80c6775fa736834806d9e4bafec1171a61655d2f0f9c007da39",
+        "approvalHash": "d28af6a15f75a80c6775fa736834806d9e4bafec1171a61655d2f0f9c007da39"
+      }
+    },
+    {
+      "key": "どらいぶ|どらいぶ",
+      "referenceIndex": 1,
+      "referenceHash": "82d35b153c4986c3def42c580ddab4d33d715ba105aecab681b44409fb826780",
+      "revisionId": "028-candidate-doraibu-3fc3540c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:doraibu"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:doraibu": "8040607615bed6821cc2a61bf7a1f59916c3f064a51dd6449d4e22bdbfa83dc7"
+      },
+      "reason": "Reference ドライブ/ドライブ (master N3) is the same lexeme as the new entry ドライブ【ドライブ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ドライブ/ドライブ at N3 (gloss: drive; trip by car; driving)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1088580; spelling=ドライブ; reading=ドライブ; senses=1,2; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1088580 as the reference form.",
+          "selected": {
+            "sequence": "1088580",
+            "spelling": "ドライブ",
+            "reading": "ドライブ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drive",
+                  "trip by car",
+                  "driving"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to (go for a) drive",
+                  "to go on a trip by car"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference どらいぶ|どらいぶ#1 is the same lexeme as vocab-n3:correction:doraibu; target hash bound to the assembled addition.",
+        "contentHash": "ac2597de4f8c030fe4877a49f021f66a051a7ab2a3570644fe9bd41c8497fa95",
+        "approvalHash": "ac2597de4f8c030fe4877a49f021f66a051a7ab2a3570644fe9bd41c8497fa95"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:doraibu.",
+        "contentHash": "ac2597de4f8c030fe4877a49f021f66a051a7ab2a3570644fe9bd41c8497fa95",
+        "approvalHash": "ac2597de4f8c030fe4877a49f021f66a051a7ab2a3570644fe9bd41c8497fa95"
+      }
+    },
+    {
+      "key": "どれす|どれす",
+      "referenceIndex": 0,
+      "referenceHash": "756e9acbcce0e017f2da2718edd30a4f30f14eb30fcb88669d1cb73c4d690a5a",
+      "revisionId": "028-candidate-doresu-165edf44-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:doresu"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:doresu": "86a15052471f477a2ffd6fc0fbd6d3322472fba0aa38fbcd759a7d9b5f81e7ce"
+      },
+      "reason": "Reference ドレス/ドレス (tanos N3) is the same lexeme as the new entry ドレス【ドレス】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=66",
+          "finding": "tanos lists ドレス/ドレス at N3 (gloss: dress)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1089280; spelling=ドレス; reading=ドレス; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1089280 as the reference form.",
+          "selected": {
+            "sequence": "1089280",
+            "spelling": "ドレス",
+            "reading": "ドレス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dress"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference どれす|どれす#0 is the same lexeme as vocab-n3:correction:doresu; target hash bound to the assembled addition.",
+        "contentHash": "aad6f5bba6871d14ca36247994e21d8315044773e2b4815628b404a06695c030",
+        "approvalHash": "aad6f5bba6871d14ca36247994e21d8315044773e2b4815628b404a06695c030"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:doresu.",
+        "contentHash": "aad6f5bba6871d14ca36247994e21d8315044773e2b4815628b404a06695c030",
+        "approvalHash": "aad6f5bba6871d14ca36247994e21d8315044773e2b4815628b404a06695c030"
+      }
+    },
+    {
+      "key": "どれす|どれす",
+      "referenceIndex": 1,
+      "referenceHash": "d54d10a5212952a42af0832b51ac8041f1b4ff86dc7ba322f2b5a9a38e44dcea",
+      "revisionId": "028-candidate-doresu-165edf44-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:doresu"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:doresu": "86a15052471f477a2ffd6fc0fbd6d3322472fba0aa38fbcd759a7d9b5f81e7ce"
+      },
+      "reason": "Reference ドレス/ドレス (master N3) is the same lexeme as the new entry ドレス【ドレス】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ドレス/ドレス at N3 (gloss: dress; robe; пла́тье (en: dress))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1089280; spelling=ドレス; reading=ドレス; senses=1; scripts/vocabulary-completion/maintenance-028/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1089280 as the reference form.",
+          "selected": {
+            "sequence": "1089280",
+            "spelling": "ドレス",
+            "reading": "ドレス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dress"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-editor",
+        "finding": "Editorial first pass: reference どれす|どれす#1 is the same lexeme as vocab-n3:correction:doresu; target hash bound to the assembled addition.",
+        "contentHash": "6fe3faf66b1347a25771717fb0640e2a1f75bd68a301709bc13d1db9a2a02de6",
+        "approvalHash": "6fe3faf66b1347a25771717fb0640e2a1f75bd68a301709bc13d1db9a2a02de6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-028-independent-reviewer",
+        "finding": "Second pass: reference decision re-checked. Publisher row is the same lexeme as vocab-n3:correction:doresu.",
+        "contentHash": "6fe3faf66b1347a25771717fb0640e2a1f75bd68a301709bc13d1db9a2a02de6",
+        "approvalHash": "6fe3faf66b1347a25771717fb0640e2a1f75bd68a301709bc13d1db9a2a02de6"
+      }
+    }
+  ]
+}
