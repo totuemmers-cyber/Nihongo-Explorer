@@ -1,0 +1,890 @@
+{
+  "version": 3,
+  "reviews": [],
+  "decisions": [
+    {
+      "key": "勧め|すすめ",
+      "referenceIndex": 0,
+      "referenceHash": "c351c369d8ae79a0a57ac0929047af4ecd3e7a15c08d3f6d413fb8e460a8f196",
+      "revisionId": "050-candidate-aef18e8d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:1357"
+      ],
+      "targetHashes": {
+        "vocab-n2:1357": "d04f9f5b096e1be906b8e0396ef4f37a228df3e2831679b86c7736902658f96e"
+      },
+      "reason": "Reference 勧め/すすめ (tanos N1) is a spelling of 薦め【すすめ】 (vocab-n2:1357), which now carries 勧め as an alias (batch 050a). JMdict 1210900 lists 勧め, 薦め and 奨め as spellings of one noun すすめ \"recommendation, advice\"; the reference gloss matches the taught Empfehlung.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=86",
+          "finding": "tanos lists 勧め/すすめ at N1 (gloss: recommendation, advice, encouragement)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1210900; spelling=勧め; reading=すすめ; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py)",
+          "finding": "JMdict 1210900 lists 勧め, 薦め and 奨め as spellings of one noun すすめ \"recommendation, advice\"; the reference gloss matches the taught Empfehlung.",
+          "selected": [
+            {
+              "sequence": "1210900",
+              "spelling": "勧め",
+              "reading": "すすめ",
+              "readingRestrictions": [],
+              "spellingInfo": [],
+              "senses": [
+                {
+                  "sense": 1,
+                  "pos": [
+                    "noun (common) (futsuumeishi)"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [],
+                  "gloss": [
+                    "recommendation",
+                    "advice",
+                    "suggestion",
+                    "encouragement"
+                  ],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewer": "maintenance-050-editor",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision",
+          "spelling-alias"
+        ],
+        "sampled": false,
+        "enrichmentRequired": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: reference 勧め|すすめ#0 is the same lexeme as vocab-n2:1357; target hash bound to the assembled addition.",
+        "contentHash": "e70544b08c2627d76bb389ea56ac7aef68d22d58952977bfeb92e087d3a547d5",
+        "approvalHash": "e70544b08c2627d76bb389ea56ac7aef68d22d58952977bfeb92e087d3a547d5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass: Tanos N1 勧め/すすめ, gloss \"recommendation, advice, encouragement\". This is the noun すすめ of JMdict 1210900 (spellings 勧め/薦め/奨め), the same lexeme and sense as 薦め【すすめ】 vocab-n2:1357 \"Empfehlung\", whose runtime aliases are now [\"勧め\"]. The only possibleTarget is vocab-n2:1357. The verb 勧める vocab-n2:587 is not involved. Checks against the current runtime (after 8661b05): the target carries the alias; hash(project(runtime entry)) equals targetHashes; referenceHash and predecessorRevisionHash (null) match packet-D; the reference word, reading, publisher, level and gloss match scripts/vocabulary-completion.json; the reason text is accurate.",
+        "contentHash": "e70544b08c2627d76bb389ea56ac7aef68d22d58952977bfeb92e087d3a547d5",
+        "approvalHash": "e70544b08c2627d76bb389ea56ac7aef68d22d58952977bfeb92e087d3a547d5"
+      }
+    },
+    {
+      "key": "勧め|すすめ",
+      "referenceIndex": 1,
+      "referenceHash": "e9c709c61680ffd823777e68712cfd8b86c84fb7fbf37434d3cd9ba880cff0a5",
+      "revisionId": "050-candidate-aef18e8d-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:1357"
+      ],
+      "targetHashes": {
+        "vocab-n2:1357": "d04f9f5b096e1be906b8e0396ef4f37a228df3e2831679b86c7736902658f96e"
+      },
+      "reason": "Reference 勧め/すすめ (master N1) is a spelling of 薦め【すすめ】 (vocab-n2:1357), which now carries 勧め as an alias (batch 050a). JMdict 1210900 lists 勧め, 薦め and 奨め as spellings of one noun すすめ \"recommendation, advice\"; the reference gloss matches the taught Empfehlung.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 勧め/すすめ at N1 (gloss: recommendation; advice; suggestion)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1210900; spelling=勧め; reading=すすめ; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py)",
+          "finding": "JMdict 1210900 lists 勧め, 薦め and 奨め as spellings of one noun すすめ \"recommendation, advice\"; the reference gloss matches the taught Empfehlung.",
+          "selected": [
+            {
+              "sequence": "1210900",
+              "spelling": "勧め",
+              "reading": "すすめ",
+              "readingRestrictions": [],
+              "spellingInfo": [],
+              "senses": [
+                {
+                  "sense": 1,
+                  "pos": [
+                    "noun (common) (futsuumeishi)"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [],
+                  "gloss": [
+                    "recommendation",
+                    "advice",
+                    "suggestion",
+                    "encouragement"
+                  ],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewer": "maintenance-050-editor",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision",
+          "spelling-alias"
+        ],
+        "sampled": false,
+        "enrichmentRequired": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: reference 勧め|すすめ#1 is the same lexeme as vocab-n2:1357; target hash bound to the assembled addition.",
+        "contentHash": "be08988600b1b3a8f3f04adb64c07cab9b3e8b70d98cafaf7ace0b4c1360c1d1",
+        "approvalHash": "be08988600b1b3a8f3f04adb64c07cab9b3e8b70d98cafaf7ace0b4c1360c1d1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass: Nihongo Master N1 勧め/すすめ, gloss \"recommendation; advice; suggestion\". Same JMdict 1210900 noun as 薦め【すすめ】 vocab-n2:1357 \"Empfehlung\", which now carries the alias 勧め. The disposition verified-spelling-variant is correct. Checks against the current runtime (after 8661b05): the target carries the alias; hash(project(runtime entry)) equals targetHashes; referenceHash and predecessorRevisionHash (null) match packet-D; the reference word, reading, publisher, level and gloss match scripts/vocabulary-completion.json; the reason text is accurate.",
+        "contentHash": "be08988600b1b3a8f3f04adb64c07cab9b3e8b70d98cafaf7ace0b4c1360c1d1",
+        "approvalHash": "be08988600b1b3a8f3f04adb64c07cab9b3e8b70d98cafaf7ace0b4c1360c1d1"
+      }
+    },
+    {
+      "key": "掬う|すくう",
+      "referenceIndex": 0,
+      "referenceHash": "d7d6cfc7e47bfbbd749775d8a9682adb9275a5eb4074ccf44927eec8e66c02aa",
+      "revisionId": "050-candidate-6abf2265-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:634"
+      ],
+      "targetHashes": {
+        "vocab-n4:634": "25554c63e9feaf29fb35dbd81f10fa312f86ab33c3bff700b2491385d16442c4"
+      },
+      "reason": "Reference 掬う/すくう (tanos N1) is a spelling of すくう【すくう】 (vocab-n4:634), which now carries 掬う as an alias (batch 050a). The reference gloss \"to scoop, to ladle out\" selects JMdict 1226200 掬う, the lexeme taught by すくう vocab-n4:634 (schöpfen, löffeln), not 救う \"rescue\" (vocab-n3:2948, JMdict 1229060).",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=85",
+          "finding": "tanos lists 掬う/すくう at N1 (gloss: to scoop, to ladle out)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226200; spelling=掬う; reading=すくう; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py)",
+          "finding": "The reference gloss \"to scoop, to ladle out\" selects JMdict 1226200 掬う, the lexeme taught by すくう vocab-n4:634 (schöpfen, löffeln), not 救う \"rescue\" (vocab-n3:2948, JMdict 1229060).",
+          "selected": [
+            {
+              "sequence": "1226200",
+              "spelling": "掬う",
+              "reading": "すくう",
+              "readingRestrictions": [],
+              "spellingInfo": [],
+              "senses": [
+                {
+                  "sense": 1,
+                  "pos": [
+                    "Godan verb with 'u' ending",
+                    "transitive verb"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [
+                    "word usually written using kana alone"
+                  ],
+                  "gloss": [
+                    "to scoop",
+                    "to ladle out"
+                  ],
+                  "notes": []
+                },
+                {
+                  "sense": 2,
+                  "pos": [
+                    "Godan verb with 'u' ending",
+                    "transitive verb"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [
+                    "word usually written using kana alone"
+                  ],
+                  "gloss": [
+                    "to trip up (e.g. someone's legs)"
+                  ],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewer": "maintenance-050-editor",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision",
+          "spelling-alias"
+        ],
+        "sampled": false,
+        "enrichmentRequired": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: reference 掬う|すくう#0 is the same lexeme as vocab-n4:634; target hash bound to the assembled addition.",
+        "contentHash": "9ab67ff87b4953ac9b764d844575c4f72e2a2b6291fe35d4f49c9f20a17f1149",
+        "approvalHash": "9ab67ff87b4953ac9b764d844575c4f72e2a2b6291fe35d4f49c9f20a17f1149"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass: Tanos N1 掬う/すくう, gloss \"to scoop, to ladle out\". This selects JMdict 1226200 (掬う), the lexeme of すくう vocab-n4:634 \"schöpfen, löffeln\", which now carries the alias 掬う. The decision correctly avoids the other possibleTarget 救う vocab-n3:2948 \"retten\" (JMdict 1229060, a different lexeme with no alias). Checks against the current runtime (after 8661b05): the target carries the alias; hash(project(runtime entry)) equals targetHashes; referenceHash and predecessorRevisionHash (null) match packet-D; the reference word, reading, publisher, level and gloss match scripts/vocabulary-completion.json; the reason text is accurate.",
+        "contentHash": "9ab67ff87b4953ac9b764d844575c4f72e2a2b6291fe35d4f49c9f20a17f1149",
+        "approvalHash": "9ab67ff87b4953ac9b764d844575c4f72e2a2b6291fe35d4f49c9f20a17f1149"
+      }
+    },
+    {
+      "key": "掬う|すくう",
+      "referenceIndex": 1,
+      "referenceHash": "040c9faece15577f11c2ca1c2c776e071dc43db38d0351f3779f79058eb5faf3",
+      "revisionId": "050-candidate-6abf2265-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:634"
+      ],
+      "targetHashes": {
+        "vocab-n4:634": "25554c63e9feaf29fb35dbd81f10fa312f86ab33c3bff700b2491385d16442c4"
+      },
+      "reason": "Reference 掬う/すくう (master N1) is a spelling of すくう【すくう】 (vocab-n4:634), which now carries 掬う as an alias (batch 050a). The reference gloss \"to scoop, to ladle out\" selects JMdict 1226200 掬う, the lexeme taught by すくう vocab-n4:634 (schöpfen, löffeln), not 救う \"rescue\" (vocab-n3:2948, JMdict 1229060).",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 掬う/すくう at N1 (gloss: to scoop; to ladle out; racler)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226200; spelling=掬う; reading=すくう; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py)",
+          "finding": "The reference gloss \"to scoop, to ladle out\" selects JMdict 1226200 掬う, the lexeme taught by すくう vocab-n4:634 (schöpfen, löffeln), not 救う \"rescue\" (vocab-n3:2948, JMdict 1229060).",
+          "selected": [
+            {
+              "sequence": "1226200",
+              "spelling": "掬う",
+              "reading": "すくう",
+              "readingRestrictions": [],
+              "spellingInfo": [],
+              "senses": [
+                {
+                  "sense": 1,
+                  "pos": [
+                    "Godan verb with 'u' ending",
+                    "transitive verb"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [
+                    "word usually written using kana alone"
+                  ],
+                  "gloss": [
+                    "to scoop",
+                    "to ladle out"
+                  ],
+                  "notes": []
+                },
+                {
+                  "sense": 2,
+                  "pos": [
+                    "Godan verb with 'u' ending",
+                    "transitive verb"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [
+                    "word usually written using kana alone"
+                  ],
+                  "gloss": [
+                    "to trip up (e.g. someone's legs)"
+                  ],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewer": "maintenance-050-editor",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision",
+          "spelling-alias"
+        ],
+        "sampled": false,
+        "enrichmentRequired": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: reference 掬う|すくう#1 is the same lexeme as vocab-n4:634; target hash bound to the assembled addition.",
+        "contentHash": "fe27345d18c055d073d9c1e4a7f1437a740620b8b60f0ec63fc985944834b886",
+        "approvalHash": "fe27345d18c055d073d9c1e4a7f1437a740620b8b60f0ec63fc985944834b886"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass: Nihongo Master N1 掬う/すくう, gloss \"to scoop; to ladle out; racler\" (\"racler\" is a French gloss in the source and does not change the sense). This is JMdict 1226200, so the correct target is すくう vocab-n4:634 \"schöpfen, löffeln\" (alias 掬う), not 救う vocab-n3:2948 \"retten\". Checks against the current runtime (after 8661b05): the target carries the alias; hash(project(runtime entry)) equals targetHashes; referenceHash and predecessorRevisionHash (null) match packet-D; the reference word, reading, publisher, level and gloss match scripts/vocabulary-completion.json; the reason text is accurate.",
+        "contentHash": "fe27345d18c055d073d9c1e4a7f1437a740620b8b60f0ec63fc985944834b886",
+        "approvalHash": "fe27345d18c055d073d9c1e4a7f1437a740620b8b60f0ec63fc985944834b886"
+      }
+    },
+    {
+      "key": "先先月|せんせんげつ",
+      "referenceIndex": 0,
+      "referenceHash": "6fc0a249b26c3e8549d64b4f89161f6c4470f9475b25d6d63a6b7e84f66f7113",
+      "revisionId": "050-candidate-34824779-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:878"
+      ],
+      "targetHashes": {
+        "vocab-n5:878": "e2647e783ddc3bf652721cfbbda51473622af32f0a7f470aa04989e90b1b226b"
+      },
+      "reason": "Reference 先先月/せんせんげつ (tanos N1) is a spelling of 先々月【せんせんげつ】 (vocab-n5:878), which now carries 先先月 as an alias (batch 050a). JMdict 1596200 lists 先先月 and 先々月 as one entry \"month before last\"; 々 is only the repetition mark.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=91",
+          "finding": "tanos lists 先先月/せんせんげつ at N1 (gloss: month before last)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1596200; spelling=先先月; reading=せんせんげつ; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py)",
+          "finding": "JMdict 1596200 lists 先先月 and 先々月 as one entry \"month before last\"; 々 is only the repetition mark.",
+          "selected": [
+            {
+              "sequence": "1596200",
+              "spelling": "先先月",
+              "reading": "せんせんげつ",
+              "readingRestrictions": [],
+              "spellingInfo": [],
+              "senses": [
+                {
+                  "sense": 1,
+                  "pos": [
+                    "noun (common) (futsuumeishi)",
+                    "adverb (fukushi)"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [],
+                  "gloss": [
+                    "month before last"
+                  ],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewer": "maintenance-050-editor",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision",
+          "spelling-alias"
+        ],
+        "sampled": false,
+        "enrichmentRequired": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: reference 先先月|せんせんげつ#0 is the same lexeme as vocab-n5:878; target hash bound to the assembled addition.",
+        "contentHash": "7516d3236bf1cba9542c6274917922a24eeddc4cd087db52c0732c978f2d648f",
+        "approvalHash": "7516d3236bf1cba9542c6274917922a24eeddc4cd087db52c0732c978f2d648f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass: Tanos N1 先先月/せんせんげつ, gloss \"month before last\". JMdict 1596200 has 先々月 and 先先月 as one entry, and 々 only repeats the kanji. The target 先々月 vocab-n5:878 \"vorletzter Monat\" now carries the alias 先先月. Checks against the current runtime (after 8661b05): the target carries the alias; hash(project(runtime entry)) equals targetHashes; referenceHash and predecessorRevisionHash (null) match packet-D; the reference word, reading, publisher, level and gloss match scripts/vocabulary-completion.json; the reason text is accurate.",
+        "contentHash": "7516d3236bf1cba9542c6274917922a24eeddc4cd087db52c0732c978f2d648f",
+        "approvalHash": "7516d3236bf1cba9542c6274917922a24eeddc4cd087db52c0732c978f2d648f"
+      }
+    },
+    {
+      "key": "先先週|せんせんしゅう",
+      "referenceIndex": 0,
+      "referenceHash": "8f0b6316e7550a359cd474d65c4f1401c392e28e6e46807851007aa39556fa42",
+      "revisionId": "050-candidate-09836268-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:correction:sensenshuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sensenshuu": "1fcafbc24ba76c8d53d365203ffc00aaf5ff42bfa609ec880566854119cb9e08"
+      },
+      "reason": "Reference 先先週/せんせんしゅう (tanos N1) is a spelling of 先々週【せんせんしゅう】 (vocab-n2:correction:sensenshuu), which now carries 先先週 as an alias (batch 050a). JMdict 1888910 lists 先先週 and 先々週 as one entry \"week before last\"; 々 is only the repetition mark.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=91",
+          "finding": "tanos lists 先先週/せんせんしゅう at N1 (gloss: week before last)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1888910; spelling=先先週; reading=せんせんしゅう; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py)",
+          "finding": "JMdict 1888910 lists 先先週 and 先々週 as one entry \"week before last\"; 々 is only the repetition mark.",
+          "selected": [
+            {
+              "sequence": "1888910",
+              "spelling": "先先週",
+              "reading": "せんせんしゅう",
+              "readingRestrictions": [],
+              "spellingInfo": [],
+              "senses": [
+                {
+                  "sense": 1,
+                  "pos": [
+                    "noun (common) (futsuumeishi)",
+                    "adverb (fukushi)"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [],
+                  "gloss": [
+                    "week before last"
+                  ],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewer": "maintenance-050-editor",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision",
+          "spelling-alias"
+        ],
+        "sampled": false,
+        "enrichmentRequired": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: reference 先先週|せんせんしゅう#0 is the same lexeme as vocab-n2:correction:sensenshuu; target hash bound to the assembled addition.",
+        "contentHash": "6b655f3c0895d741959b5d65f730fa16b91d74fdda4bc5b0f2a1c67cfaceb400",
+        "approvalHash": "6b655f3c0895d741959b5d65f730fa16b91d74fdda4bc5b0f2a1c67cfaceb400"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass: Tanos N1 先先週/せんせんしゅう, gloss \"week before last\". JMdict 1888910 has 先先週 and 先々週 as one entry. The target 先々週 vocab-n2:correction:sensenshuu \"vorletzte Woche\" now carries the alias 先先週. The packet lists no possibleTargets because this entry came from an earlier correction addition; the target was chosen explicitly and is correct. Checks against the current runtime (after 8661b05): the target carries the alias; hash(project(runtime entry)) equals targetHashes; referenceHash and predecessorRevisionHash (null) match packet-D; the reference word, reading, publisher, level and gloss match scripts/vocabulary-completion.json; the reason text is accurate.",
+        "contentHash": "6b655f3c0895d741959b5d65f730fa16b91d74fdda4bc5b0f2a1c67cfaceb400",
+        "approvalHash": "6b655f3c0895d741959b5d65f730fa16b91d74fdda4bc5b0f2a1c67cfaceb400"
+      }
+    },
+    {
+      "key": "先先週|せんせんしゅう",
+      "referenceIndex": 1,
+      "referenceHash": "6d0e6745af8fe96330d14d838fe03c479375b8d2ed57542201d07cb4b8de1687",
+      "revisionId": "050-candidate-09836268-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:correction:sensenshuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sensenshuu": "1fcafbc24ba76c8d53d365203ffc00aaf5ff42bfa609ec880566854119cb9e08"
+      },
+      "reason": "Reference 先先週/せんせんしゅう (master N2) is a spelling of 先々週【せんせんしゅう】 (vocab-n2:correction:sensenshuu), which now carries 先先週 as an alias (batch 050a). JMdict 1888910 lists 先先週 and 先々週 as one entry \"week before last\"; 々 is only the repetition mark.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 先先週/せんせんしゅう at N2 (gloss: week before last; (n) vorletzte Woche)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1888910; spelling=先先週; reading=せんせんしゅう; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py)",
+          "finding": "JMdict 1888910 lists 先先週 and 先々週 as one entry \"week before last\"; 々 is only the repetition mark.",
+          "selected": [
+            {
+              "sequence": "1888910",
+              "spelling": "先先週",
+              "reading": "せんせんしゅう",
+              "readingRestrictions": [],
+              "spellingInfo": [],
+              "senses": [
+                {
+                  "sense": 1,
+                  "pos": [
+                    "noun (common) (futsuumeishi)",
+                    "adverb (fukushi)"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [],
+                  "gloss": [
+                    "week before last"
+                  ],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewer": "maintenance-050-editor",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision",
+          "spelling-alias"
+        ],
+        "sampled": false,
+        "enrichmentRequired": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: reference 先先週|せんせんしゅう#1 is the same lexeme as vocab-n2:correction:sensenshuu; target hash bound to the assembled addition.",
+        "contentHash": "5b5d5accb327cd2fb915a9ca59b17d94d2870b9ee8525f76ebb7b61986560f41",
+        "approvalHash": "5b5d5accb327cd2fb915a9ca59b17d94d2870b9ee8525f76ebb7b61986560f41"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass: Nihongo Master N2 先先週/せんせんしゅう, gloss \"week before last; (n) vorletzte Woche\". Same JMdict 1888910 lexeme as 先々週 vocab-n2:correction:sensenshuu \"vorletzte Woche\", which now carries the alias 先先週. Checks against the current runtime (after 8661b05): the target carries the alias; hash(project(runtime entry)) equals targetHashes; referenceHash and predecessorRevisionHash (null) match packet-D; the reference word, reading, publisher, level and gloss match scripts/vocabulary-completion.json; the reason text is accurate.",
+        "contentHash": "5b5d5accb327cd2fb915a9ca59b17d94d2870b9ee8525f76ebb7b61986560f41",
+        "approvalHash": "5b5d5accb327cd2fb915a9ca59b17d94d2870b9ee8525f76ebb7b61986560f41"
+      }
+    },
+    {
+      "key": "久し振り|ひさしぶり",
+      "referenceIndex": 0,
+      "referenceHash": "f3ecde153a7c72e763a898cea4dab196dd42cc90f5f7f4038644ac8cc1240b65",
+      "revisionId": "050-candidate-9e179ae1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:516"
+      ],
+      "targetHashes": {
+        "vocab-n5:516": "7c2ded6874d3d3e4e3684881354ac3195851b3e3beb43be93a567386f1ca8dc7"
+      },
+      "reason": "Reference 久し振り/ひさしぶり (tanos N1) is a spelling of 久しぶり【ひさしぶり】 (vocab-n5:516), which now carries 久し振り as an alias (batch 050a). JMdict 1227370 lists 久し振り and 久しぶり as one entry \"(after) a long time\"; the reference gloss matches the taught word.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=138",
+          "finding": "tanos lists 久し振り/ひさしぶり at N1 (gloss: after a long time)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1227370; spelling=久し振り; reading=ひさしぶり; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py)",
+          "finding": "JMdict 1227370 lists 久し振り and 久しぶり as one entry \"(after) a long time\"; the reference gloss matches the taught word.",
+          "selected": [
+            {
+              "sequence": "1227370",
+              "spelling": "久し振り",
+              "reading": "ひさしぶり",
+              "readingRestrictions": [],
+              "spellingInfo": [],
+              "senses": [
+                {
+                  "sense": 1,
+                  "pos": [
+                    "nouns which may take the genitive case particle 'no'",
+                    "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                    "noun (common) (futsuumeishi)"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [],
+                  "gloss": [
+                    "a long time (since the last time)",
+                    "first in a long time"
+                  ],
+                  "notes": []
+                },
+                {
+                  "sense": 2,
+                  "pos": [
+                    "expressions (phrases, clauses, etc.)"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [],
+                  "gloss": [
+                    "it's been a long time",
+                    "long time no see"
+                  ],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewer": "maintenance-050-editor",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision",
+          "spelling-alias"
+        ],
+        "sampled": false,
+        "enrichmentRequired": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: reference 久し振り|ひさしぶり#0 is the same lexeme as vocab-n5:516; target hash bound to the assembled addition.",
+        "contentHash": "a9f3f15cc7aab88bc55c8466d9aa00cbe1ab1a3d43aeed93b1d157551d386aaa",
+        "approvalHash": "a9f3f15cc7aab88bc55c8466d9aa00cbe1ab1a3d43aeed93b1d157551d386aaa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass: Tanos N1 久し振り/ひさしぶり, gloss \"after a long time\". JMdict 1227370 has 久し振り and 久しぶり as one entry, and the gloss matches its sense 1. The target 久しぶり vocab-n5:516 \"lange nicht gesehen\" now carries the alias 久し振り. Checks against the current runtime (after 8661b05): the target carries the alias; hash(project(runtime entry)) equals targetHashes; referenceHash and predecessorRevisionHash (null) match packet-D; the reference word, reading, publisher, level and gloss match scripts/vocabulary-completion.json; the reason text is accurate.",
+        "contentHash": "a9f3f15cc7aab88bc55c8466d9aa00cbe1ab1a3d43aeed93b1d157551d386aaa",
+        "approvalHash": "a9f3f15cc7aab88bc55c8466d9aa00cbe1ab1a3d43aeed93b1d157551d386aaa"
+      }
+    },
+    {
+      "key": "但し|ただし",
+      "referenceIndex": 0,
+      "referenceHash": "39ef3b3d9eb8224f66a82b40af12bad8d39730156fc672c249e34f7836171893",
+      "revisionId": "050-candidate-6a359076-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:856"
+      ],
+      "targetHashes": {
+        "vocab-n2:856": "9138550dfd218161314fe75ab40ade3f8b9a166a02737296d3177a0281b752ad"
+      },
+      "reason": "Reference 但し/ただし (tanos N2) is a spelling of ただし【ただし】 (vocab-n2:856), which now carries 但し as an alias (batch 050a). JMdict 1416190 lists 但し (usually written in kana) and ただし as one conjunction \"but, however, provided that\", matching the taught jedoch; allerdings.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=52",
+          "finding": "tanos lists 但し/ただし at N2 (gloss: but,however,provided that)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1416190; spelling=但し; reading=ただし; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py)",
+          "finding": "JMdict 1416190 lists 但し (usually written in kana) and ただし as one conjunction \"but, however, provided that\", matching the taught jedoch; allerdings.",
+          "selected": [
+            {
+              "sequence": "1416190",
+              "spelling": "但し",
+              "reading": "ただし",
+              "readingRestrictions": [],
+              "spellingInfo": [],
+              "senses": [
+                {
+                  "sense": 1,
+                  "pos": [
+                    "conjunction"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [
+                    "word usually written using kana alone"
+                  ],
+                  "gloss": [
+                    "but",
+                    "however",
+                    "provided that"
+                  ],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewer": "maintenance-050-editor",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision",
+          "spelling-alias"
+        ],
+        "sampled": false,
+        "enrichmentRequired": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: reference 但し|ただし#0 is the same lexeme as vocab-n2:856; target hash bound to the assembled addition.",
+        "contentHash": "0e1dc7f34bdc0b07b51589b8f5b7284dfa508681ab2292543de6a38cf45a5def",
+        "approvalHash": "0e1dc7f34bdc0b07b51589b8f5b7284dfa508681ab2292543de6a38cf45a5def"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass: Tanos N2 但し/ただし, gloss \"but, however, provided that\". This is the conjunction of JMdict 1416190, marked \"usually kana\", and matches ただし vocab-n2:856 \"jedoch; allerdings\", which now carries the alias 但し. No homophone (正しい/正す) is involved. Checks against the current runtime (after 8661b05): the target carries the alias; hash(project(runtime entry)) equals targetHashes; referenceHash and predecessorRevisionHash (null) match packet-D; the reference word, reading, publisher, level and gloss match scripts/vocabulary-completion.json; the reason text is accurate.",
+        "contentHash": "0e1dc7f34bdc0b07b51589b8f5b7284dfa508681ab2292543de6a38cf45a5def",
+        "approvalHash": "0e1dc7f34bdc0b07b51589b8f5b7284dfa508681ab2292543de6a38cf45a5def"
+      }
+    },
+    {
+      "key": "但し|ただし",
+      "referenceIndex": 1,
+      "referenceHash": "835e889da98a9c0ba91226ab14d3c57745c9aa425ce9458823ee426cbfcb05f4",
+      "revisionId": "050-candidate-6a359076-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:856"
+      ],
+      "targetHashes": {
+        "vocab-n2:856": "9138550dfd218161314fe75ab40ade3f8b9a166a02737296d3177a0281b752ad"
+      },
+      "reason": "Reference 但し/ただし (master N2) is a spelling of ただし【ただし】 (vocab-n2:856), which now carries 但し as an alias (batch 050a). JMdict 1416190 lists 但し (usually written in kana) and ただし as one conjunction \"but, however, provided that\", matching the taught jedoch; allerdings.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 但し/ただし at N2 (gloss: but; however; provided that)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1416190; spelling=但し; reading=ただし; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py)",
+          "finding": "JMdict 1416190 lists 但し (usually written in kana) and ただし as one conjunction \"but, however, provided that\", matching the taught jedoch; allerdings.",
+          "selected": [
+            {
+              "sequence": "1416190",
+              "spelling": "但し",
+              "reading": "ただし",
+              "readingRestrictions": [],
+              "spellingInfo": [],
+              "senses": [
+                {
+                  "sense": 1,
+                  "pos": [
+                    "conjunction"
+                  ],
+                  "stagk": [],
+                  "stagr": [],
+                  "misc": [
+                    "word usually written using kana alone"
+                  ],
+                  "gloss": [
+                    "but",
+                    "however",
+                    "provided that"
+                  ],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewer": "maintenance-050-editor",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision",
+          "spelling-alias"
+        ],
+        "sampled": false,
+        "enrichmentRequired": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: reference 但し|ただし#1 is the same lexeme as vocab-n2:856; target hash bound to the assembled addition.",
+        "contentHash": "f771177a1be76867c6898771173546a4337e11f5ac70f833029c98533d8fd225",
+        "approvalHash": "f771177a1be76867c6898771173546a4337e11f5ac70f833029c98533d8fd225"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass: Nihongo Master N2 但し/ただし, gloss \"but; however; provided that\". Same JMdict 1416190 conjunction as ただし vocab-n2:856 \"jedoch; allerdings\" (alias 但し). Checks against the current runtime (after 8661b05): the target carries the alias; hash(project(runtime entry)) equals targetHashes; referenceHash and predecessorRevisionHash (null) match packet-D; the reference word, reading, publisher, level and gloss match scripts/vocabulary-completion.json; the reason text is accurate.",
+        "contentHash": "f771177a1be76867c6898771173546a4337e11f5ac70f833029c98533d8fd225",
+        "approvalHash": "f771177a1be76867c6898771173546a4337e11f5ac70f833029c98533d8fd225"
+      }
+    }
+  ]
+}

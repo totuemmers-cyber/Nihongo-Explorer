@@ -7,8 +7,8 @@ Generated from the resulting review ledger. Historical checkpoint prose is retai
 | Entries | 15558 |
 | Accepted editorial reviews | 3097 |
 | Pending entry reviews | 12461 |
-| Unresolved candidate groups | 1411 |
-| Unresolved candidate references | 1917 |
+| Unresolved candidate groups | 1405 |
+| Unresolved candidate references | 1907 |
 | Verified pitch | 2731 |
 | Investigated unknown pitch | 366 |
 | Uninvestigated pitch | 12461 |
@@ -18,4 +18,4 @@ Generated from the resulting review ledger. Historical checkpoint prose is retai
 
 Review completion: **open**. Strict enrichment: **open**.
 
-Ledger SHA256: `808de7afe2663c723bbaf7802b940cc8a8e027781f12d88ecb5ad796e9640385`.
+Ledger SHA256: `50d386113c25f84d0448b0a94ccb2113e5cca642f344d79e453696caa5a391cd`.
