@@ -103,6 +103,11 @@ async function run() {
     w.scrollY = 240;
     app.workspace.save();
     app.switchTab('vocab'); await app.ensureSectionLoaded('vocab');
+    // Romaji search ignores vowel length: doubled, macron and plain spellings find 東京.
+    for (const q of ['toukyou', 'tōkyō', 'tokyo']) {
+      app.sections.vocab.dom.search.value = q; app.sections.vocab.applyFilters();
+      assert(app.sections.vocab.filteredItems.some(v => v.word === '東京'), 'romaji search finds 東京 for ' + q);
+    }
     app.sections.vocab.dom.search.value = 'Wasser'; app.sections.vocab.applyFilters();
     w.history.back();
     await until(() => app.activeTab === 'kanji' && sec.isOverlayOpen(), 'history restores Kanji');

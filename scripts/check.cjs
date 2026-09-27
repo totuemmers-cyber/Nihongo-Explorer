@@ -18,6 +18,7 @@ const CHECKS = [
   'test:comprehension',
   'test:audio',
   'test:vocabulary-triage',
+  'test:romaji',
   'audit:data',
   'audit:verbs',
   'audit:quiz',

@@ -108,6 +108,21 @@ function getTextMatchRank(text, query) {
   return null;
 }
 
+// Romaji search ignores vowel length, so tokyo, toukyou and tōkyō find the same entry.
+function foldRomaji(text) {
+  return String(text || '').trim().toLowerCase().normalize('NFD').replace(/[̄̂]/g, '').normalize('NFC')
+    .replace(/o[ou]/g, 'o').replace(/([aeiu])\1/g, '$1');
+}
+
+function getRomajiMatchRank(text, query) {
+  return getTextMatchRank(foldRomaji(text), foldRomaji(query));
+}
+
+function matchesRomaji(text, query) {
+  var folded = foldRomaji(query);
+  return !!folded && foldRomaji(text).indexOf(folded) !== -1;
+}
+
 function getBestArrayMatchRank(values, query) {
   if (!values || !values.length) return null;
   var best = null;
@@ -124,7 +139,7 @@ function getReadingFieldMatchRank(readings, query) {
   for (var i = 0; i < readings.length; i++) {
     var reading = readings[i];
     var kanaRank = getTextMatchRank(reading.kana, query);
-    var romajiRank = getTextMatchRank(reading.romaji, query);
+    var romajiRank = getRomajiMatchRank(reading.romaji, query);
     var rank = kanaRank;
     if (romajiRank !== null && (rank === null || romajiRank > rank)) rank = romajiRank;
     if (rank !== null && (best === null || rank > best)) best = rank;
@@ -803,7 +818,7 @@ SECTION_CONFIGS.grammar = {
       var matchExample = g.examples && g.examples.some(function (ex) {
         return ex.japanese.toLowerCase().indexOf(query) !== -1 ||
           ex.german.toLowerCase().indexOf(query) !== -1 ||
-          ex.romaji.toLowerCase().indexOf(query) !== -1;
+          matchesRomaji(ex.romaji, query);
       });
       if (!matchPattern && !matchMeaning && !matchExplanation && !matchFormation && !matchExample) return false;
     }
@@ -945,7 +960,7 @@ SECTION_CONFIGS.vocab = {
       if (aliasRank !== null && (wordRank === null || aliasRank > wordRank)) wordRank = aliasRank;
     });
     var readingRank = getTextMatchRank(v.reading, query);
-    var romajiRank = getTextMatchRank(v.romaji, query);
+    var romajiRank = getRomajiMatchRank(v.romaji, query);
     var meaningRank = getTextMatchRank(v.meaning, query);
     var categoryRank = getTextMatchRank(v.category, query);
 
@@ -1241,11 +1256,11 @@ SECTION_CONFIGS.counters = {
     if (query) {
       var matchKanji = c.kanji.indexOf(query) !== -1;
       var matchReading = c.reading.indexOf(query) !== -1;
-      var matchRomaji = c.romaji.toLowerCase().indexOf(query) !== -1;
+      var matchRomaji = matchesRomaji(c.romaji, query);
       var matchMeaning = c.meaning.toLowerCase().indexOf(query) !== -1;
       var matchUsage = c.usage.toLowerCase().indexOf(query) !== -1;
       var matchCounts = c.counts && c.counts.some(function (ct) {
-        return ct.reading.indexOf(query) !== -1 || ct.romaji.toLowerCase().indexOf(query) !== -1 || ct.kanji.indexOf(query) !== -1;
+        return ct.reading.indexOf(query) !== -1 || matchesRomaji(ct.romaji, query) || ct.kanji.indexOf(query) !== -1;
       });
       if (!matchKanji && !matchReading && !matchRomaji && !matchMeaning && !matchUsage && !matchCounts) return false;
     }
@@ -1395,7 +1410,7 @@ SECTION_CONFIGS.radicals = {
       var matchRadical = r.radical.indexOf(query) !== -1;
       var matchMeaning = r.meaning.toLowerCase().indexOf(query) !== -1;
       var matchReading = r.reading.indexOf(query) !== -1;
-      var matchRomaji = r.romaji.toLowerCase().indexOf(query) !== -1;
+      var matchRomaji = matchesRomaji(r.romaji, query);
       var matchNumber = ('' + r.number) === query;
       var matchExplanation = r.explanation && r.explanation.toLowerCase().indexOf(query) !== -1;
       if (!matchRadical && !matchMeaning && !matchReading && !matchRomaji && !matchNumber && !matchExplanation) return false;
@@ -1510,13 +1525,13 @@ SECTION_CONFIGS.onomatopoeia = {
         return normalizeOnomatopoeia(word || '').indexOf(normalizedQuery) !== -1;
       });
       var matchReading = o.reading && o.reading.indexOf(query) !== -1;
-      var matchRomaji = o.romaji && o.romaji.toLowerCase().indexOf(query) !== -1;
+      var matchRomaji = matchesRomaji(o.romaji, query);
       var matchMeaning = o.meaning.toLowerCase().indexOf(query) !== -1;
       var matchExplanation = o.explanation && o.explanation.toLowerCase().indexOf(query) !== -1;
       var matchExample = o.examples && o.examples.some(function (ex) {
         return ex.japanese.indexOf(query) !== -1 ||
           ex.german.toLowerCase().indexOf(query) !== -1 ||
-          ex.romaji.toLowerCase().indexOf(query) !== -1;
+          matchesRomaji(ex.romaji, query);
       });
       if (!matchWord && !matchReading && !matchRomaji && !matchMeaning && !matchExplanation && !matchExample) return false;
     }
