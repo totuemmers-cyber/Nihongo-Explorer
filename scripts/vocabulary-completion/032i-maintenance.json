@@ -1,0 +1,3708 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:kabuseru",
+      "revisionId": "032-add-kabuseru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "被せる",
+        "reading": "かぶせる",
+        "romaji": "kabuseru",
+        "meaning": "bedecken; (jemandem etwas) aufsetzen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Transitives Ichidan-Verb zu かぶる: etwas über etwas legen (鍋にふたをかぶせる) oder jemandem aufsetzen (子どもに帽子をかぶせる). Oft in Kana.",
+        "examples": [
+          {
+            "japanese": "子どもに帽子をかぶせて、外に出た。",
+            "romaji": "Kodomo ni boushi o kabusete, soto ni deta.",
+            "german": "Ich setzte dem Kind eine Mütze auf und ging hinaus."
+          },
+          {
+            "japanese": "料理にラップを被せて冷蔵庫に入れた。",
+            "romaji": "Ryouri ni rappu o kabusete reizouko ni ireta.",
+            "german": "Ich deckte das Essen mit Frischhaltefolie ab und stellte es in den Kühlschrank."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "かぶせる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "かぶせる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@96581885",
+            "patterns": [
+              3
+            ],
+            "finding": "被せる / カブセル; 動詞/一般/*/*; 下一段-サ行; 終止形-一般; lemma 被せる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "被せる",
+              "reading": "かぶせる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-サ行; 終止形-一般",
+              "sense": "被せる as \"bedecken; (jemandem etwas) aufsetzen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 被せる【かぶせる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1484320; spelling=被せる; reading=かぶせる; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1484320 被せる/かぶせる sense(s) 1,2 support \"bedecken; (jemandem etwas) aufsetzen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1484320",
+            "spelling": "被せる",
+            "reading": "かぶせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to cover (with something)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to put on (e.g. someone's head)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "被せる|かぶせる",
+          "referenceIndex": 0,
+          "referenceHash": "8d24525c349d0d932777167c7508377a75a32deea4ed937cf060b996b949ca22"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"bedecken; (jemandem etwas) aufsetzen\" matches JMdict 1484320 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Putting a hat on a child.",
+          "Covering food."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1484320; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading かぶせる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@96581885 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@96581885",
+            "patterns": [
+              3
+            ],
+            "finding": "被せる / カブセル; 動詞/一般/*/*; 下一段-サ行; 終止形-一般; lemma 被せる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "被せる",
+              "reading": "かぶせる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-サ行; 終止形-一般",
+              "sense": "被せる as \"bedecken; (jemandem etwas) aufsetzen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 被せる【かぶせる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1484320 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d6d779d37e7363cb9e4cfda17142a40b9859bec704118c6c5c58ed1fee85b1e7",
+        "approvalHash": "f764aac398a0f5fba23c6e32046eba795c59d80d26941ef0991e8a2b0f6de782"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 被せる【かぶせる】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1484320 senses 1/2, N2 fits the publisher rows, pitch 3 comes from an exact UniDic row of the same lexeme, verbGroup ichidan is correct, and check.cjs reports \"new\".",
+        "contentHash": "d6d779d37e7363cb9e4cfda17142a40b9859bec704118c6c5c58ed1fee85b1e7",
+        "approvalHash": "f764aac398a0f5fba23c6e32046eba795c59d80d26941ef0991e8a2b0f6de782"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kamaimasen",
+      "revisionId": "032-add-kamaimasen",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "構いません",
+        "reading": "かまいません",
+        "romaji": "kamaimasen",
+        "meaning": "Das macht nichts; kein Problem",
+        "type": "Ausdruck",
+        "category": "Kommunikation",
+        "level": "N2",
+        "notes": "Höfliche Form von 構わない (von 構う): 〜ても構いません = es ist in Ordnung, wenn …. Beispiel: ここに座っても構いませんか.",
+        "examples": [
+          {
+            "japanese": "窓を開けても構いませんか。",
+            "romaji": "Mado o akete mo kamaimasen ka.",
+            "german": "Darf ich das Fenster öffnen?"
+          },
+          {
+            "japanese": "「遅れてすみません。」「いいえ、構いませんよ。」",
+            "romaji": "\"Okurete sumimasen.\" \"Iie, kamaimasen yo.\"",
+            "german": "„Entschuldigen Sie die Verspätung.“ – „Nein, das macht nichts.“"
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 構いません【かまいません】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1279670; spelling=構いません; reading=かまいません; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1279670 構いません/かまいません sense(s) 1 support \"Das macht nichts; kein Problem\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1279670",
+            "spelling": "構いません",
+            "reading": "かまいません",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no problem",
+                  "it doesn't matter"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "構いません|かまいません",
+          "referenceIndex": 0,
+          "referenceHash": "4b1a169a7a5e74897250a9bf98c540d3c60aef50b23e8cd0dd34a7f69c87607f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Das macht nichts; kein Problem\" matches JMdict 1279670 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Asking permission.",
+          "Reassuring someone."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1279670; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 構いません / かまいません; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 構いません / かまいません",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 構いません【かまいません】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1279670 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "b90d3b0ee90f3a00d0e219291fa4516c61a9b1608773deb065d109e5ad98e123",
+        "approvalHash": "f5524260aed0153f54ba98edd90f0081fbaf1ea11060cf3268341cad8cd22143"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 構いません【かまいません】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1279670 senses 1, N2 fits the publisher rows, pitch is unknown, which is correct because there is no exact UniDic row, and check.cjs reports \"new\". The existing 構う (N3) is the base verb. 構いません is its own JMdict expression entry (1279670), and the examples show both ～ても構いませんか and the stand-alone reply.",
+        "contentHash": "b90d3b0ee90f3a00d0e219291fa4516c61a9b1608773deb065d109e5ad98e123",
+        "approvalHash": "f5524260aed0153f54ba98edd90f0081fbaf1ea11060cf3268341cad8cd22143"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kamikuzu",
+      "revisionId": "032-add-kamikuzu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "紙屑",
+        "reading": "かみくず",
+        "romaji": "kamikuzu",
+        "meaning": "Papierabfall, Altpapier",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Weggeworfenes Papier; oft 紙くず geschrieben. Übertragen: 紙くず同然 (wertlos wie Altpapier, z. B. Aktien).",
+        "examples": [
+          {
+            "japanese": "床に落ちた紙屑を拾ってごみ箱に捨てた。",
+            "romaji": "Yuka ni ochita kamikuzu o hirotte gomibako ni suteta.",
+            "german": "Ich hob die Papierschnipsel vom Boden auf und warf sie in den Mülleimer."
+          },
+          {
+            "japanese": "会社が倒産して、株が紙屑になった。",
+            "romaji": "Kaisha ga tousan shite, kabu ga kamikuzu ni natta.",
+            "german": "Die Firma ging pleite, und die Aktien wurden wertlos."
+          }
+        ],
+        "pitch": 3,
+        "aliases": [
+          "紙くず"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@97067640",
+            "patterns": [
+              3
+            ],
+            "finding": "紙屑 / カミクズ; 名詞/普通名詞/一般/*; *; *; lemma 紙屑; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "紙屑",
+              "reading": "かみくず",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "紙屑 as \"Papierabfall, Altpapier\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 紙屑【かみくず】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609610; spelling=紙屑; reading=かみくず; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1609610 紙屑/かみくず sense(s) 1 support \"Papierabfall, Altpapier\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1609610",
+            "spelling": "紙屑",
+            "reading": "かみくず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wastepaper",
+                  "scrap of paper",
+                  "paper scraps"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "紙屑|かみくず",
+          "referenceIndex": 0,
+          "referenceHash": "580a9ddcd4eb6a09db553f15738f733c3b97412d7cd256dbf184b577b18a5108"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Papierabfall, Altpapier\" matches JMdict 1609610 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Tidying litter.",
+          "Worthless shares."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1609610; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@97067640 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@97067640",
+            "patterns": [
+              3
+            ],
+            "finding": "紙屑 / カミクズ; 名詞/普通名詞/一般/*; *; *; lemma 紙屑; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "紙屑",
+              "reading": "かみくず",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "紙屑 as \"Papierabfall, Altpapier\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 紙屑【かみくず】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1609610 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c1cb986dba06d2c126f7366cfcb204e033777eb69ddd04081136b5648db75260",
+        "approvalHash": "4816c9d3182857a8b6b4fd96781e559c2ed146ee8f2d4b88334e19477a245dc2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 紙屑【かみくず】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1609610 senses 1, N2 fits the publisher rows, pitch 3 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "c1cb986dba06d2c126f7366cfcb204e033777eb69ddd04081136b5648db75260",
+        "approvalHash": "4816c9d3182857a8b6b4fd96781e559c2ed146ee8f2d4b88334e19477a245dc2"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kamisori",
+      "revisionId": "032-add-kamisori",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "剃刀",
+        "reading": "かみそり",
+        "romaji": "kamisori",
+        "meaning": "Rasiermesser, Rasierer",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Rasierklinge oder Rasierer; oft in Kana かみそり. Elektrischer Rasierer: 電気かみそり／シェーバー.",
+        "examples": [
+          {
+            "japanese": "かみそりでひげをそった。",
+            "romaji": "Kamisori de hige o sotta.",
+            "german": "Ich habe mich mit dem Rasierer rasiert."
+          },
+          {
+            "japanese": "剃刀の刃で指を切ってしまった。",
+            "romaji": "Kamisori no ha de yubi o kitte shimatta.",
+            "german": "Ich habe mich an der Rasierklinge in den Finger geschnitten."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@97306169",
+            "patterns": [
+              3,
+              4
+            ],
+            "finding": "剃刀 / カミソリ; 名詞/普通名詞/一般/*; *; *; lemma 剃刀; aType 3,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "剃刀",
+              "reading": "かみそり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "剃刀 as \"Rasiermesser, Rasierer\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 剃刀【かみそり】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1435180; spelling=剃刀; reading=かみそり; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1435180 剃刀/かみそり sense(s) 1 support \"Rasiermesser, Rasierer\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1435180",
+            "spelling": "剃刀",
+            "reading": "かみそり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "razor"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "剃刀|かみそり",
+          "referenceIndex": 0,
+          "referenceHash": "fbacbd597a22a660355a8281e320d0a866d6d6b75573bf853c3f8d4f81785447"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Rasiermesser, Rasierer\" matches JMdict 1435180 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Shaving.",
+          "Cutting oneself on a blade."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1435180; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@97306169 attest 3,4; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@97306169",
+            "patterns": [
+              3,
+              4
+            ],
+            "finding": "剃刀 / カミソリ; 名詞/普通名詞/一般/*; *; *; lemma 剃刀; aType 3,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "剃刀",
+              "reading": "かみそり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "剃刀 as \"Rasiermesser, Rasierer\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 剃刀【かみそり】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1435180 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "83f2ff04e237f4eb64a8221eb19f1e160ae37801ebced759d53ac3e73b9563b3",
+        "approvalHash": "c699a8abddb593789de5ca59f4bf645969e9a73fec6fd5d4f369e259dce30334"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 剃刀【かみそり】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1435180 senses 1, N2 fits the publisher rows, pitch 3 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "83f2ff04e237f4eb64a8221eb19f1e160ae37801ebced759d53ac3e73b9563b3",
+        "approvalHash": "c699a8abddb593789de5ca59f4bf645969e9a73fec6fd5d4f369e259dce30334"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:gamu",
+      "revisionId": "032-add-gamu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ガム",
+        "reading": "ガム",
+        "romaji": "gamu",
+        "meaning": "Kaugummi",
+        "type": "Nomen",
+        "category": "Essen",
+        "level": "N2",
+        "notes": "Kurz für チューインガム: ガムをかむ (Kaugummi kauen).",
+        "examples": [
+          {
+            "japanese": "眠くならないように、ガムをかんでいる。",
+            "romaji": "Nemuku naranai you ni, gamu o kande iru.",
+            "german": "Ich kaue Kaugummi, damit ich nicht müde werde."
+          },
+          {
+            "japanese": "道にガムを捨てないでください。",
+            "romaji": "Michi ni gamu o sutenaide kudasai.",
+            "german": "Bitte werfen Sie keinen Kaugummi auf die Straße."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101601026",
+            "patterns": [
+              1
+            ],
+            "finding": "ガム / ガム; 名詞/普通名詞/一般/*; *; *; lemma ガム-gum; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ガム",
+              "reading": "ガム",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ガム as \"Kaugummi\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ガム【ガム】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1040350; spelling=ガム; reading=ガム; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1040350 ガム/ガム sense(s) 1 support \"Kaugummi\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1040350",
+            "spelling": "ガム",
+            "reading": "ガム",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "chewing gum"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "がむ|がむ",
+          "referenceIndex": 0,
+          "referenceHash": "8aae646e5394be84774c8d2e89509d6802156f61b3fa346431953115feb84e48"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Kaugummi\" matches JMdict 1040350 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Staying awake.",
+          "Littering rule."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1040350; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@101601026 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101601026",
+            "patterns": [
+              1
+            ],
+            "finding": "ガム / ガム; 名詞/普通名詞/一般/*; *; *; lemma ガム-gum; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ガム",
+              "reading": "ガム",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ガム as \"Kaugummi\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add ガム【ガム】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1040350 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "62a626be934f41ea222e9217c75da9f8c5ab813c7919004db059c92cafe2501e",
+        "approvalHash": "19e2c4039dfd65764c85321a4eda58052a9258919fc635e6fb7f193d3da77f31"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). ガム【ガム】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1040350 senses 1, N2 fits the publisher rows, pitch 1 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "62a626be934f41ea222e9217c75da9f8c5ab813c7919004db059c92cafe2501e",
+        "approvalHash": "19e2c4039dfd65764c85321a4eda58052a9258919fc635e6fb7f193d3da77f31"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:karaa",
+      "revisionId": "032-add-karaa",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "カラー",
+        "reading": "カラー",
+        "romaji": "karaa",
+        "meaning": "Farbe; Eigenart",
+        "type": "Nomen",
+        "category": "Farben",
+        "level": "N2",
+        "notes": "Farbe (カラー印刷 = Farbdruck) und Charakter einer Gruppe (チームカラー, 学校のカラー). Gleich lautend: カラー (Kragen).",
+        "examples": [
+          {
+            "japanese": "この資料はカラーで印刷してください。",
+            "romaji": "Kono shiryou wa karaa de insatsu shite kudasai.",
+            "german": "Bitte drucken Sie diese Unterlagen in Farbe."
+          },
+          {
+            "japanese": "この学校には自由なカラーがある。",
+            "romaji": "Kono gakkou ni wa jiyuu na karaa ga aru.",
+            "german": "Diese Schule hat einen freiheitlichen Charakter."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@98441603",
+            "patterns": [
+              1
+            ],
+            "finding": "カラー / カラー; 名詞/普通名詞/一般/*; *; *; lemma カラー-color; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "カラー",
+              "reading": "カラー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "カラー as \"Farbe; Eigenart\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add カラー【カラー】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1038500; spelling=カラー; reading=カラー; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1038500 カラー/カラー sense(s) 1,2 support \"Farbe; Eigenart\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1038500",
+            "spelling": "カラー",
+            "reading": "カラー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "color",
+                  "colour"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "color",
+                  "character",
+                  "characteristics",
+                  "atmosphere"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "からー|からー",
+          "referenceIndex": 0,
+          "referenceHash": "cecdf178499db3fa479260bd8cc455fb8c81d3a1e7ce4c2a89c00199b49f4061"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Farbe; Eigenart\" matches JMdict 1038500 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Colour printing.",
+          "Character of a school."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1038500; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@98441603 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@98441603",
+            "patterns": [
+              1
+            ],
+            "finding": "カラー / カラー; 名詞/普通名詞/一般/*; *; *; lemma カラー-color; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "カラー",
+              "reading": "カラー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "カラー as \"Farbe; Eigenart\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add カラー【カラー】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1038500 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e9d4ad36e339575d6d02986ac62f9d90ed5307e8831a565e43db66dc55a83c51",
+        "approvalHash": "aafa67a4c9c41255c72bebaf3044c132973811b8157e698d4f4b8a705ff5b24c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). カラー【カラー】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1038500 senses 1/2, N2 fits the publisher rows, pitch 1 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\". The pitch filter is correct: the カラー-color row, not the Calla or collar rows (all 1). The note correctly mentions the homophone カラー (Kragen). The examples show colour printing and character, matching senses 1-2.",
+        "contentHash": "e9d4ad36e339575d6d02986ac62f9d90ed5307e8831a565e43db66dc55a83c51",
+        "approvalHash": "aafa67a4c9c41255c72bebaf3044c132973811b8157e698d4f4b8a705ff5b24c"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:karuta",
+      "revisionId": "032-add-karuta",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "かるた",
+        "reading": "かるた",
+        "romaji": "karuta",
+        "meaning": "Karuta (japanisches Kartenspiel)",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N2",
+        "notes": "Traditionelles Kartenspiel, besonders zu Neujahr: 百人一首のかるた. Das Wort stammt aus dem Portugiesischen (carta).",
+        "examples": [
+          {
+            "japanese": "お正月に家族でかるたをした。",
+            "romaji": "Oshougatsu ni kazoku de karuta o shita.",
+            "german": "Zu Neujahr haben wir als Familie Karuta gespielt."
+          },
+          {
+            "japanese": "百人一首のかるたの大会に出た。",
+            "romaji": "Hyakunin isshu no karuta no taikai ni deta.",
+            "german": "Ich habe an einem Karuta-Turnier mit den Hundert Gedichten teilgenommen."
+          }
+        ],
+        "pitch": 1,
+        "aliases": [
+          "歌留多"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99139758",
+            "patterns": [
+              1
+            ],
+            "finding": "かるた / カルタ; 名詞/普通名詞/一般/*; *; *; lemma カルタ-carta; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "かるた",
+              "reading": "かるた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "かるた as \"Karuta (japanisches Kartenspiel)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add かるた【かるた】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1590710; spelling=かるた; reading=かるた; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1590710 かるた/かるた sense(s) 1 support \"Karuta (japanisches Kartenspiel)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1590710",
+            "spelling": "かるた",
+            "reading": "かるた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "karuta",
+                  "traditional Japanese playing cards, esp. hyakunin isshu karuta or iroha karuta"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "かるた|かるた",
+          "referenceIndex": 0,
+          "referenceHash": "0c40ed7bd8ada10ab204a267dabbeb45770f6f730770b67c8aee639053c99d4f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Karuta (japanisches Kartenspiel)\" matches JMdict 1590710 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "New Year game.",
+          "Tournament."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1590710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@99139758 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99139758",
+            "patterns": [
+              1
+            ],
+            "finding": "かるた / カルタ; 名詞/普通名詞/一般/*; *; *; lemma カルタ-carta; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "かるた",
+              "reading": "かるた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "かるた as \"Karuta (japanisches Kartenspiel)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add かるた【かるた】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1590710 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a25b71cccc1b6503becc68f3645b52a32aa66eedb22e899ec7225039e6892c66",
+        "approvalHash": "68d48060bd21773f1331e18068378ce46d8d8002adae67cc69d1dacff9add59c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). かるた【かるた】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1590710 senses 1, N2 fits the publisher rows, pitch 1 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "a25b71cccc1b6503becc68f3645b52a32aa66eedb22e899ec7225039e6892c66",
+        "approvalHash": "68d48060bd21773f1331e18068378ce46d8d8002adae67cc69d1dacff9add59c"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kawaigaru",
+      "revisionId": "032-add-kawaigaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "かわいがる",
+        "reading": "かわいがる",
+        "romaji": "kawaigaru",
+        "meaning": "lieb haben, liebevoll behandeln",
+        "type": "Verb",
+        "category": "Gefühle",
+        "level": "N2",
+        "notes": "Transitives Godan-Verb: 孫をかわいがる (die Enkel verwöhnen), 部下をかわいがる (Untergebene fördern). Kanji: 可愛がる.",
+        "examples": [
+          {
+            "japanese": "祖母は孫をとてもかわいがっている。",
+            "romaji": "Sobo wa mago o totemo kawaigatte iru.",
+            "german": "Meine Großmutter hat ihre Enkel sehr lieb."
+          },
+          {
+            "japanese": "部長は新人をかわいがって、よく食事に連れていく。",
+            "romaji": "Buchou wa shinjin o kawaigatte, yoku shokuji ni tsurete iku.",
+            "german": "Der Abteilungsleiter kümmert sich um die Neuen und nimmt sie oft zum Essen mit."
+          }
+        ],
+        "pitch": null,
+        "aliases": [
+          "可愛がる"
+        ],
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "かわいがる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "かわいがる"
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add かわいがる【かわいがる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1190730; spelling=かわいがる; reading=かわいがる; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1190730 かわいがる/かわいがる sense(s) 1,2 support \"lieb haben, liebevoll behandeln\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1190730",
+            "spelling": "かわいがる",
+            "reading": "かわいがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be affectionate to",
+                  "to treat tenderly",
+                  "to dote on",
+                  "to show one's love (for)",
+                  "to cherish"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to show favouritism to",
+                  "to be partial to"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "かわいがる|かわいがる",
+          "referenceIndex": 0,
+          "referenceHash": "538d4008674e8617f92f9e6861689a372f912f274a3adf76e17a5f373f9a7d14"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"lieb haben, liebevoll behandeln\" matches JMdict 1190730 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Grandmother and grandchildren.",
+          "Boss mentoring newcomers."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1190730; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading かわいがる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for かわいがる / かわいがる; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup かわいがる / かわいがる",
+            "finding": "No exact UniDic row for the kana form かわいがる."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add かわいがる【かわいがる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1190730 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "f9e4cf8441209963601763ef32d7288d10b3b2aa9873454e672748dff455af7e",
+        "approvalHash": "bcb0be476165f1c781747f43354cf10409256667aa516e7818728627d9482d85"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). かわいがる【かわいがる】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1190730 senses 1/2, N2 fits the publisher rows, pitch is unknown, which is correct because there is no exact UniDic row, verbGroup godan is correct, and check.cjs reports \"new\".",
+        "contentHash": "f9e4cf8441209963601763ef32d7288d10b3b2aa9873454e672748dff455af7e",
+        "approvalHash": "bcb0be476165f1c781747f43354cf10409256667aa516e7818728627d9482d85"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ganjitsu",
+      "revisionId": "032-add-ganjitsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "元日",
+        "reading": "がんじつ",
+        "romaji": "ganjitsu",
+        "meaning": "Neujahrstag (1. Januar)",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N2",
+        "notes": "Der 1. Januar; 元旦 bedeutet streng genommen den Morgen des Neujahrstags.",
+        "examples": [
+          {
+            "japanese": "元日は家族で初詣に行きます。",
+            "romaji": "Ganjitsu wa kazoku de hatsumoude ni ikimasu.",
+            "german": "Am Neujahrstag gehen wir als Familie zum ersten Schreinbesuch des Jahres."
+          },
+          {
+            "japanese": "この店は元日だけ休みです。",
+            "romaji": "Kono mise wa ganjitsu dake yasumi desu.",
+            "german": "Dieser Laden hat nur am Neujahrstag geschlossen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101790973",
+            "patterns": [
+              0
+            ],
+            "finding": "元日 / ガンジツ; 名詞/普通名詞/一般/*; *; *; lemma 元日; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "元日",
+              "reading": "がんじつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "元日 as \"Neujahrstag (1. Januar)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 元日【がんじつ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261010; spelling=元日; reading=がんじつ; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1261010 元日/がんじつ sense(s) 1 support \"Neujahrstag (1. Januar)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1261010",
+            "spelling": "元日",
+            "reading": "がんじつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "New Year's Day"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "元日|がんじつ",
+          "referenceIndex": 0,
+          "referenceHash": "4a215233ca170fa43f8b44a73bafaf7366688dae9958c958f8c6d6e3e9826531"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Neujahrstag (1. Januar)\" matches JMdict 1261010 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "New Year shrine visit.",
+          "Shop closing day."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1261010; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@101790973 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101790973",
+            "patterns": [
+              0
+            ],
+            "finding": "元日 / ガンジツ; 名詞/普通名詞/一般/*; *; *; lemma 元日; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "元日",
+              "reading": "がんじつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "元日 as \"Neujahrstag (1. Januar)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 元日【がんじつ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1261010 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b2a8eeb24d11ab95f84b6556f2f8dee0f5908f2bf1db32248ef1065e37541572",
+        "approvalHash": "3eee85830b50cefb3a208cade5fe5d742abe2ba631662bcb041ba2034ac80c4e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 元日【がんじつ】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1261010 senses 1, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "b2a8eeb24d11ab95f84b6556f2f8dee0f5908f2bf1db32248ef1065e37541572",
+        "approvalHash": "3eee85830b50cefb3a208cade5fe5d742abe2ba631662bcb041ba2034ac80c4e"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kanzume",
+      "revisionId": "032-add-kanzume",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "缶詰",
+        "reading": "かんづめ",
+        "romaji": "kanzume",
+        "meaning": "Konserve, Dosennahrung",
+        "type": "Nomen",
+        "category": "Essen",
+        "level": "N2",
+        "notes": "Lebensmittel in der Dose: ツナの缶詰. Übertragen: 缶詰になる (irgendwo festsitzen, z. B. zum Arbeiten eingeschlossen sein).",
+        "examples": [
+          {
+            "japanese": "災害に備えて、缶詰を買っておいた。",
+            "romaji": "Saigai ni sonaete, kanzume o katte oita.",
+            "german": "Für den Katastrophenfall habe ich Konserven gekauft."
+          },
+          {
+            "japanese": "締め切り前で、作家はホテルに缶詰になっている。",
+            "romaji": "Shimekiri mae de, sakka wa hoteru ni kanzume ni natte iru.",
+            "german": "Kurz vor dem Abgabetermin ist der Autor zum Schreiben im Hotel eingeschlossen."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          4,
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100768378",
+            "patterns": [
+              3,
+              4,
+              0
+            ],
+            "finding": "缶詰 / カンヅメ; 名詞/普通名詞/一般/*; *; *; lemma 缶詰め; aType 3,4,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "缶詰",
+              "reading": "かんづめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "缶詰 as \"Konserve, Dosennahrung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 缶詰【かんづめ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1214560; spelling=缶詰; reading=かんづめ; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1214560 缶詰/かんづめ sense(s) 1,2 support \"Konserve, Dosennahrung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1214560",
+            "spelling": "缶詰",
+            "reading": "かんづめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "canned food",
+                  "tinned food"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "confining someone (e.g. so they can concentrate on work)"
+                ],
+                "notes": [
+                  "usu ～にする"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "缶詰|かんづめ",
+          "referenceIndex": 0,
+          "referenceHash": "79c3744f015a9a9296d8ec23471fb73b4f0c87ef44dc47fbff6c5d7c3def2eac"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Konserve, Dosennahrung\" matches JMdict 1214560 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Emergency food.",
+          "Figurative confinement."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1214560; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100768378 attest 3,4,0; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100768378",
+            "patterns": [
+              3,
+              4,
+              0
+            ],
+            "finding": "缶詰 / カンヅメ; 名詞/普通名詞/一般/*; *; *; lemma 缶詰め; aType 3,4,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "缶詰",
+              "reading": "かんづめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "缶詰 as \"Konserve, Dosennahrung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 缶詰【かんづめ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1214560 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d8e1e0827b4bdc1fb5cb0a0ae3e3b4a13170bfa8dbc1c6ca75a115ceeac6cb79",
+        "approvalHash": "0c8d73d8cc8a200fca7f1ce6b9d57e87e2403a954713153404bbc0290e21f89d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 缶詰【かんづめ】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1214560 senses 1/2, N2 fits the publisher rows, pitch 3 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "d8e1e0827b4bdc1fb5cb0a0ae3e3b4a13170bfa8dbc1c6ca75a115ceeac6cb79",
+        "approvalHash": "0c8d73d8cc8a200fca7f1ce6b9d57e87e2403a954713153404bbc0290e21f89d"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kandenchi",
+      "revisionId": "032-add-kandenchi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "乾電池",
+        "reading": "かんでんち",
+        "romaji": "kandenchi",
+        "meaning": "Trockenbatterie, Batterie",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N2",
+        "notes": "Gewöhnliche Einwegbatterie: 単三乾電池 (AA-Batterie). Wiederaufladbar: 充電池.",
+        "examples": [
+          {
+            "japanese": "リモコンの乾電池が切れた。",
+            "romaji": "Rimokon no kandenchi ga kireta.",
+            "german": "Die Batterien der Fernbedienung sind leer."
+          },
+          {
+            "japanese": "単三の乾電池を四本買ってきて。",
+            "romaji": "Tansan no kandenchi o yonhon katte kite.",
+            "german": "Kauf bitte vier AA-Batterien."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 乾電池【かんでんち】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1210100; spelling=乾電池; reading=かんでんち; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1210100 乾電池/かんでんち sense(s) 1 support \"Trockenbatterie, Batterie\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1210100",
+            "spelling": "乾電池",
+            "reading": "かんでんち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dry cell battery"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "乾電池|かんでんち",
+          "referenceIndex": 0,
+          "referenceHash": "dba212a62c43bc5f9c50c2eddf3fd91c2188b698be75cc0e8949b71562f5dcea"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Trockenbatterie, Batterie\" matches JMdict 1210100 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Remote control.",
+          "Shopping request."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1210100; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 乾電池 / かんでんち; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 乾電池 / かんでんち",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 乾電池【かんでんち】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1210100 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "c68dde46f4a3806a748bd79b2be3473a9d66694b7ee27e319b9562d9bd6ffb01",
+        "approvalHash": "777cc59ecb3aab8dad49df8b7e8f17a1f237f1334a528053ac78aea0b65d274f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 乾電池【かんでんち】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1210100 senses 1, N2 fits the publisher rows, pitch is unknown, which is correct because there is no exact UniDic row, and check.cjs reports \"new\".",
+        "contentHash": "c68dde46f4a3806a748bd79b2be3473a9d66694b7ee27e319b9562d9bd6ffb01",
+        "approvalHash": "777cc59ecb3aab8dad49df8b7e8f17a1f237f1334a528053ac78aea0b65d274f"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kantou",
+      "revisionId": "032-add-kantou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "関東",
+        "reading": "かんとう",
+        "romaji": "kantou",
+        "meaning": "Kantō (Region um Tokio)",
+        "type": "Nomen",
+        "category": "Geographie",
+        "level": "N2",
+        "notes": "Die Region mit Tokio und den umliegenden Präfekturen. Gegenstück im Westen: 関西 (Kansai).",
+        "examples": [
+          {
+            "japanese": "関東では明日、雪が降る見込みです。",
+            "romaji": "Kantou de wa ashita, yuki ga furu mikomi desu.",
+            "german": "In der Kantō-Region wird für morgen Schnee erwartet."
+          },
+          {
+            "japanese": "関東と関西では味付けが違う。",
+            "romaji": "Kantou to Kansai de wa ajitsuke ga chigau.",
+            "german": "Kantō und Kansai würzen unterschiedlich."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100788525",
+            "patterns": [
+              1
+            ],
+            "finding": "関東 / カントウ; 名詞/固有名詞/地名/一般; *; *; lemma カントウ; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "関東",
+              "reading": "かんとう",
+              "grammaticalForm": "名詞/固有名詞/地名/一般; *; *",
+              "sense": "関東 as \"Kantō (Region um Tokio)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 関東【かんとう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1216010; spelling=関東; reading=かんとう; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1216010 関東/かんとう sense(s) 1 support \"Kantō (Region um Tokio)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1216010",
+            "spelling": "関東",
+            "reading": "かんとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Kantō (region comprising Tokyo and surrounding prefectures)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "関東|かんとう",
+          "referenceIndex": 0,
+          "referenceHash": "fecfc94a7cfa11dd92dfb9848ca11d8d69a4d6b91711262b51ae1bab57aefe52"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Kantō (Region um Tokio)\" matches JMdict 1216010 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Weather forecast.",
+          "Regional food differences."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1216010; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100788525 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100788525",
+            "patterns": [
+              1
+            ],
+            "finding": "関東 / カントウ; 名詞/固有名詞/地名/一般; *; *; lemma カントウ; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "関東",
+              "reading": "かんとう",
+              "grammaticalForm": "名詞/固有名詞/地名/一般; *; *",
+              "sense": "関東 as \"Kantō (Region um Tokio)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 関東【かんとう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1216010 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e24c127430c67f74f269e1a65598e14459fbf2a1ac1045448739314a2d818972",
+        "approvalHash": "6313053aaf43167c7b7e8582120c443b8090f1025d413b41e444cffe12e91990"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 関東【かんとう】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1216010 senses 1, N2 fits the publisher rows, pitch 1 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\". The pitch comes from the 名詞/固有名詞/地名 row, which is the same lexeme: 関東 is the region name, JMdict 1216010. aType 1 matches standard カ\\ントー. Examples are natural.",
+        "contentHash": "e24c127430c67f74f269e1a65598e14459fbf2a1ac1045448739314a2d818972",
+        "approvalHash": "6313053aaf43167c7b7e8582120c443b8090f1025d413b41e444cffe12e91990"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "被せる|かぶせる",
+      "referenceIndex": 0,
+      "referenceHash": "8d24525c349d0d932777167c7508377a75a32deea4ed937cf060b996b949ca22",
+      "revisionId": "032-candidate-kabuseru-dc65a162-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kabuseru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kabuseru": "d6d779d37e7363cb9e4cfda17142a40b9859bec704118c6c5c58ed1fee85b1e7"
+      },
+      "reason": "Reference 被せる/かぶせる (tanos N2) is the same lexeme as the new entry 被せる【かぶせる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=17",
+          "finding": "tanos lists 被せる/かぶせる at N2 (gloss: to cover (with something))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1484320; spelling=被せる; reading=かぶせる; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1484320 as the reference form.",
+          "selected": {
+            "sequence": "1484320",
+            "spelling": "被せる",
+            "reading": "かぶせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to cover (with something)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to put on (e.g. someone's head)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 被せる|かぶせる#0 is the same lexeme as vocab-n2:correction:kabuseru; target hash bound to the assembled addition.",
+        "contentHash": "e02e4a237c373814fe2f8d2b87668ceba9a3240c52cbe0e52e6244675fa20474",
+        "approvalHash": "e02e4a237c373814fe2f8d2b87668ceba9a3240c52cbe0e52e6244675fa20474"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 被せる/かぶせる (tanos N2) is the same lexeme as vocab-n2:correction:kabuseru; the gloss agrees.",
+        "contentHash": "e02e4a237c373814fe2f8d2b87668ceba9a3240c52cbe0e52e6244675fa20474",
+        "approvalHash": "e02e4a237c373814fe2f8d2b87668ceba9a3240c52cbe0e52e6244675fa20474"
+      }
+    },
+    {
+      "key": "被せる|かぶせる",
+      "referenceIndex": 1,
+      "referenceHash": "3c29522e64da6718c1321059847eafadedb2ed874834a02419c87117351bc105",
+      "revisionId": "032-candidate-kabuseru-dc65a162-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kabuseru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kabuseru": "d6d779d37e7363cb9e4cfda17142a40b9859bec704118c6c5c58ed1fee85b1e7"
+      },
+      "reason": "Reference 被せる/かぶせる (master N2) is the same lexeme as the new entry 被せる【かぶせる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 被せる/かぶせる at N2 (gloss: to cover (with something); to put on (e.g. on someone else's head); to plate something (with a metal))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1484320; spelling=被せる; reading=かぶせる; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1484320 as the reference form.",
+          "selected": {
+            "sequence": "1484320",
+            "spelling": "被せる",
+            "reading": "かぶせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to cover (with something)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to put on (e.g. someone's head)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 被せる|かぶせる#1 is the same lexeme as vocab-n2:correction:kabuseru; target hash bound to the assembled addition.",
+        "contentHash": "52e033a124d120fdeebe7ee20fe852d8410b4c6b381f33ae66bbba1fbbb8d0c9",
+        "approvalHash": "52e033a124d120fdeebe7ee20fe852d8410b4c6b381f33ae66bbba1fbbb8d0c9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 被せる/かぶせる (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kabuseru; the gloss agrees.",
+        "contentHash": "52e033a124d120fdeebe7ee20fe852d8410b4c6b381f33ae66bbba1fbbb8d0c9",
+        "approvalHash": "52e033a124d120fdeebe7ee20fe852d8410b4c6b381f33ae66bbba1fbbb8d0c9"
+      }
+    },
+    {
+      "key": "構いません|かまいません",
+      "referenceIndex": 0,
+      "referenceHash": "4b1a169a7a5e74897250a9bf98c540d3c60aef50b23e8cd0dd34a7f69c87607f",
+      "revisionId": "032-candidate-kamaimasen-2b1beef7-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kamaimasen"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kamaimasen": "b90d3b0ee90f3a00d0e219291fa4516c61a9b1608773deb065d109e5ad98e123"
+      },
+      "reason": "Reference 構いません/かまいません (master N2) is the same lexeme as the new entry 構いません【かまいません】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 構いません/かまいません at N2 (gloss: no problem; it doesn't matter; (n) sich nicht kümmern)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1279670; spelling=構いません; reading=かまいません; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1279670 as the reference form.",
+          "selected": {
+            "sequence": "1279670",
+            "spelling": "構いません",
+            "reading": "かまいません",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "no problem",
+                  "it doesn't matter"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 構いません|かまいません#0 is the same lexeme as vocab-n2:correction:kamaimasen; target hash bound to the assembled addition.",
+        "contentHash": "cbc70ad8e584b7f4eb6dee960240c6d0f8f9b1346566a2ff0b1a3597a6b43248",
+        "approvalHash": "cbc70ad8e584b7f4eb6dee960240c6d0f8f9b1346566a2ff0b1a3597a6b43248"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 構いません/かまいません (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kamaimasen; the gloss agrees.",
+        "contentHash": "cbc70ad8e584b7f4eb6dee960240c6d0f8f9b1346566a2ff0b1a3597a6b43248",
+        "approvalHash": "cbc70ad8e584b7f4eb6dee960240c6d0f8f9b1346566a2ff0b1a3597a6b43248"
+      }
+    },
+    {
+      "key": "紙屑|かみくず",
+      "referenceIndex": 0,
+      "referenceHash": "580a9ddcd4eb6a09db553f15738f733c3b97412d7cd256dbf184b577b18a5108",
+      "revisionId": "032-candidate-kamikuzu-b0ffc27a-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kamikuzu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kamikuzu": "c1cb986dba06d2c126f7366cfcb204e033777eb69ddd04081136b5648db75260"
+      },
+      "reason": "Reference 紙屑/かみくず (tanos N2) is the same lexeme as the new entry 紙屑【かみくず】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=17",
+          "finding": "tanos lists 紙屑/かみくず at N2 (gloss: wastepaper)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609610; spelling=紙屑; reading=かみくず; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1609610 as the reference form.",
+          "selected": {
+            "sequence": "1609610",
+            "spelling": "紙屑",
+            "reading": "かみくず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wastepaper",
+                  "scrap of paper",
+                  "paper scraps"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 紙屑|かみくず#0 is the same lexeme as vocab-n2:correction:kamikuzu; target hash bound to the assembled addition.",
+        "contentHash": "51e6756b32a83a31982376a7c36307470229468a8e293a588c9f47251fd6ef92",
+        "approvalHash": "51e6756b32a83a31982376a7c36307470229468a8e293a588c9f47251fd6ef92"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 紙屑/かみくず (tanos N2) is the same lexeme as vocab-n2:correction:kamikuzu; the gloss agrees.",
+        "contentHash": "51e6756b32a83a31982376a7c36307470229468a8e293a588c9f47251fd6ef92",
+        "approvalHash": "51e6756b32a83a31982376a7c36307470229468a8e293a588c9f47251fd6ef92"
+      }
+    },
+    {
+      "key": "紙屑|かみくず",
+      "referenceIndex": 1,
+      "referenceHash": "28c61d9e3cb05141d15daf866529b8ed06aeb9763169db4cc8f58c38f1364194",
+      "revisionId": "032-candidate-kamikuzu-b0ffc27a-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kamikuzu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kamikuzu": "c1cb986dba06d2c126f7366cfcb204e033777eb69ddd04081136b5648db75260"
+      },
+      "reason": "Reference 紙屑/かみくず (master N2) is the same lexeme as the new entry 紙屑【かみくず】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 紙屑/かみくず at N2 (gloss: wastepaper; paper scraps; paper waste)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609610; spelling=紙屑; reading=かみくず; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1609610 as the reference form.",
+          "selected": {
+            "sequence": "1609610",
+            "spelling": "紙屑",
+            "reading": "かみくず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wastepaper",
+                  "scrap of paper",
+                  "paper scraps"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 紙屑|かみくず#1 is the same lexeme as vocab-n2:correction:kamikuzu; target hash bound to the assembled addition.",
+        "contentHash": "5e388fa768da5ea28ca699f3ab35017c5db42c792d1923887a0b18af88a94ea8",
+        "approvalHash": "5e388fa768da5ea28ca699f3ab35017c5db42c792d1923887a0b18af88a94ea8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 紙屑/かみくず (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kamikuzu; the gloss agrees.",
+        "contentHash": "5e388fa768da5ea28ca699f3ab35017c5db42c792d1923887a0b18af88a94ea8",
+        "approvalHash": "5e388fa768da5ea28ca699f3ab35017c5db42c792d1923887a0b18af88a94ea8"
+      }
+    },
+    {
+      "key": "剃刀|かみそり",
+      "referenceIndex": 0,
+      "referenceHash": "fbacbd597a22a660355a8281e320d0a866d6d6b75573bf853c3f8d4f81785447",
+      "revisionId": "032-candidate-kamisori-568b6659-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kamisori"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kamisori": "83f2ff04e237f4eb64a8221eb19f1e160ae37801ebced759d53ac3e73b9563b3"
+      },
+      "reason": "Reference 剃刀/かみそり (tanos N2) is the same lexeme as the new entry 剃刀【かみそり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=18",
+          "finding": "tanos lists 剃刀/かみそり at N2 (gloss: razor)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1435180; spelling=剃刀; reading=かみそり; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1435180 as the reference form.",
+          "selected": {
+            "sequence": "1435180",
+            "spelling": "剃刀",
+            "reading": "かみそり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "razor"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 剃刀|かみそり#0 is the same lexeme as vocab-n2:correction:kamisori; target hash bound to the assembled addition.",
+        "contentHash": "83555d526ec93f8a59746c60baae4de1e4cfeee1b041c3fbfc3f02d10b56bb56",
+        "approvalHash": "83555d526ec93f8a59746c60baae4de1e4cfeee1b041c3fbfc3f02d10b56bb56"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 剃刀/かみそり (tanos N2) is the same lexeme as vocab-n2:correction:kamisori; the gloss agrees.",
+        "contentHash": "83555d526ec93f8a59746c60baae4de1e4cfeee1b041c3fbfc3f02d10b56bb56",
+        "approvalHash": "83555d526ec93f8a59746c60baae4de1e4cfeee1b041c3fbfc3f02d10b56bb56"
+      }
+    },
+    {
+      "key": "剃刀|かみそり",
+      "referenceIndex": 1,
+      "referenceHash": "85ac9b81e52b9a830996e967a0804835a7ce9d40d495d5a521a66eb8962fb3ba",
+      "revisionId": "032-candidate-kamisori-568b6659-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kamisori"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kamisori": "83f2ff04e237f4eb64a8221eb19f1e160ae37801ebced759d53ac3e73b9563b3"
+      },
+      "reason": "Reference 剃刀/かみそり (master N2) is the same lexeme as the new entry 剃刀【かみそり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 剃刀/かみそり at N2 (gloss: razor; rasoir; бри́тва)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1435180; spelling=剃刀; reading=かみそり; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1435180 as the reference form.",
+          "selected": {
+            "sequence": "1435180",
+            "spelling": "剃刀",
+            "reading": "かみそり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "razor"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 剃刀|かみそり#1 is the same lexeme as vocab-n2:correction:kamisori; target hash bound to the assembled addition.",
+        "contentHash": "c3521cef51d29994a16b208a808158a115504572a72d18143c92ac8b4d280bae",
+        "approvalHash": "c3521cef51d29994a16b208a808158a115504572a72d18143c92ac8b4d280bae"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 剃刀/かみそり (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kamisori; the gloss agrees.",
+        "contentHash": "c3521cef51d29994a16b208a808158a115504572a72d18143c92ac8b4d280bae",
+        "approvalHash": "c3521cef51d29994a16b208a808158a115504572a72d18143c92ac8b4d280bae"
+      }
+    },
+    {
+      "key": "がむ|がむ",
+      "referenceIndex": 0,
+      "referenceHash": "8aae646e5394be84774c8d2e89509d6802156f61b3fa346431953115feb84e48",
+      "revisionId": "032-candidate-gamu-77976ff2-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gamu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gamu": "62a626be934f41ea222e9217c75da9f8c5ab813c7919004db059c92cafe2501e"
+      },
+      "reason": "Reference ガム/ガム (tanos N2) is the same lexeme as the new entry ガム【ガム】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=18",
+          "finding": "tanos lists ガム/ガム at N2 (gloss: chewing gum)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1040350; spelling=ガム; reading=ガム; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1040350 as the reference form.",
+          "selected": {
+            "sequence": "1040350",
+            "spelling": "ガム",
+            "reading": "ガム",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "chewing gum"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference がむ|がむ#0 is the same lexeme as vocab-n2:correction:gamu; target hash bound to the assembled addition.",
+        "contentHash": "c4ddd36e60ea7b2f59ebab2a4db799b254a2b4986636a67983c6dc321f94ef32",
+        "approvalHash": "c4ddd36e60ea7b2f59ebab2a4db799b254a2b4986636a67983c6dc321f94ef32"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). ガム/ガム (tanos N2) is the same lexeme as vocab-n2:correction:gamu; the gloss agrees.",
+        "contentHash": "c4ddd36e60ea7b2f59ebab2a4db799b254a2b4986636a67983c6dc321f94ef32",
+        "approvalHash": "c4ddd36e60ea7b2f59ebab2a4db799b254a2b4986636a67983c6dc321f94ef32"
+      }
+    },
+    {
+      "key": "がむ|がむ",
+      "referenceIndex": 1,
+      "referenceHash": "06002937e219bacfb820e5e6e8980e1d89450a73105264ea0263e884b97b24cb",
+      "revisionId": "032-candidate-gamu-77976ff2-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gamu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gamu": "62a626be934f41ea222e9217c75da9f8c5ab813c7919004db059c92cafe2501e"
+      },
+      "reason": "Reference ガム/ガム (master N2) is the same lexeme as the new entry ガム【ガム】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ガム/ガム at N2 (gloss: chewing gum; (n) Kaugummi)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1040350; spelling=ガム; reading=ガム; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1040350 as the reference form.",
+          "selected": {
+            "sequence": "1040350",
+            "spelling": "ガム",
+            "reading": "ガム",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "chewing gum"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference がむ|がむ#1 is the same lexeme as vocab-n2:correction:gamu; target hash bound to the assembled addition.",
+        "contentHash": "e38d31f77fd3af767bde422471e7449afab1437884e9f693e3e85390ee5a8470",
+        "approvalHash": "e38d31f77fd3af767bde422471e7449afab1437884e9f693e3e85390ee5a8470"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). ガム/ガム (Nihongo Master N2) is the same lexeme as vocab-n2:correction:gamu; the gloss agrees.",
+        "contentHash": "e38d31f77fd3af767bde422471e7449afab1437884e9f693e3e85390ee5a8470",
+        "approvalHash": "e38d31f77fd3af767bde422471e7449afab1437884e9f693e3e85390ee5a8470"
+      }
+    },
+    {
+      "key": "からー|からー",
+      "referenceIndex": 0,
+      "referenceHash": "cecdf178499db3fa479260bd8cc455fb8c81d3a1e7ce4c2a89c00199b49f4061",
+      "revisionId": "032-candidate-karaa-c00c9e4f-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:karaa"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:karaa": "e9d4ad36e339575d6d02986ac62f9d90ed5307e8831a565e43db66dc55a83c51"
+      },
+      "reason": "Reference カラー/カラー (tanos N2) is the same lexeme as the new entry カラー【カラー】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=18",
+          "finding": "tanos lists カラー/カラー at N2 (gloss: collar,color,colour)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1038500; spelling=カラー; reading=カラー; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1038500 as the reference form.",
+          "selected": {
+            "sequence": "1038500",
+            "spelling": "カラー",
+            "reading": "カラー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "color",
+                  "colour"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "color",
+                  "character",
+                  "characteristics",
+                  "atmosphere"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference からー|からー#0 is the same lexeme as vocab-n2:correction:karaa; target hash bound to the assembled addition.",
+        "contentHash": "35d90325307fbbf9afbbdad2391852c8a7bf9e459922659d04cc8d4a709e2bb6",
+        "approvalHash": "35d90325307fbbf9afbbdad2391852c8a7bf9e459922659d04cc8d4a709e2bb6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). カラー/カラー (tanos N2) is the same lexeme as vocab-n2:correction:karaa; the gloss agrees. The publisher gloss also lists \"collar\", a homophone, but it names colour as well, and the colour entry is the right target. The note mentions the Kragen homophone.",
+        "contentHash": "35d90325307fbbf9afbbdad2391852c8a7bf9e459922659d04cc8d4a709e2bb6",
+        "approvalHash": "35d90325307fbbf9afbbdad2391852c8a7bf9e459922659d04cc8d4a709e2bb6"
+      }
+    },
+    {
+      "key": "からー|からー",
+      "referenceIndex": 1,
+      "referenceHash": "6d92b6cbfe7af1abeb34336524f1bd8b6f485f36273a2c346e402d2d5414265d",
+      "revisionId": "032-candidate-karaa-c00c9e4f-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:karaa"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:karaa": "e9d4ad36e339575d6d02986ac62f9d90ed5307e8831a565e43db66dc55a83c51"
+      },
+      "reason": "Reference カラー/カラー (master N2) is the same lexeme as the new entry カラー【カラー】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists カラー/カラー at N2 (gloss: collar; couleur)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1038500; spelling=カラー; reading=カラー; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1038500 as the reference form.",
+          "selected": {
+            "sequence": "1038500",
+            "spelling": "カラー",
+            "reading": "カラー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "color",
+                  "colour"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "color",
+                  "character",
+                  "characteristics",
+                  "atmosphere"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference からー|からー#1 is the same lexeme as vocab-n2:correction:karaa; target hash bound to the assembled addition.",
+        "contentHash": "ca7ab43c9159378d5b90e989d64136246fec22a575c4a797ced3358998947750",
+        "approvalHash": "ca7ab43c9159378d5b90e989d64136246fec22a575c4a797ced3358998947750"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). カラー/カラー (Nihongo Master N2) is the same lexeme as vocab-n2:correction:karaa; the gloss agrees. The publisher gloss also lists \"collar\", a homophone, but it names colour as well, and the colour entry is the right target. The note mentions the Kragen homophone.",
+        "contentHash": "ca7ab43c9159378d5b90e989d64136246fec22a575c4a797ced3358998947750",
+        "approvalHash": "ca7ab43c9159378d5b90e989d64136246fec22a575c4a797ced3358998947750"
+      }
+    },
+    {
+      "key": "かるた|かるた",
+      "referenceIndex": 0,
+      "referenceHash": "0c40ed7bd8ada10ab204a267dabbeb45770f6f730770b67c8aee639053c99d4f",
+      "revisionId": "032-candidate-karuta-1e127056-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:karuta"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:karuta": "a25b71cccc1b6503becc68f3645b52a32aa66eedb22e899ec7225039e6892c66"
+      },
+      "reason": "Reference かるた/かるた (tanos N2) is the same lexeme as the new entry かるた【かるた】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=18",
+          "finding": "tanos lists かるた/かるた at N2 (gloss: (n) playing cards (pt: carta))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1590710; spelling=かるた; reading=かるた; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1590710 as the reference form.",
+          "selected": {
+            "sequence": "1590710",
+            "spelling": "かるた",
+            "reading": "かるた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "karuta",
+                  "traditional Japanese playing cards, esp. hyakunin isshu karuta or iroha karuta"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference かるた|かるた#0 is the same lexeme as vocab-n2:correction:karuta; target hash bound to the assembled addition.",
+        "contentHash": "2d8c6d7453a879d9d9cfcc2e0bba9321e9ac1855ba6fc180ad03882a7c8f32b6",
+        "approvalHash": "2d8c6d7453a879d9d9cfcc2e0bba9321e9ac1855ba6fc180ad03882a7c8f32b6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). かるた/かるた (tanos N2) is the same lexeme as vocab-n2:correction:karuta; the gloss agrees.",
+        "contentHash": "2d8c6d7453a879d9d9cfcc2e0bba9321e9ac1855ba6fc180ad03882a7c8f32b6",
+        "approvalHash": "2d8c6d7453a879d9d9cfcc2e0bba9321e9ac1855ba6fc180ad03882a7c8f32b6"
+      }
+    },
+    {
+      "key": "歌留多|かるた",
+      "referenceIndex": 0,
+      "referenceHash": "bc100e923c79510f84ca453c870e413ae435d8d1e9dc6eead0e72910a8049f40",
+      "revisionId": "032-candidate-karuta-4f342e36-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:karuta"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:karuta": "a25b71cccc1b6503becc68f3645b52a32aa66eedb22e899ec7225039e6892c66"
+      },
+      "reason": "Reference 歌留多/かるた (master N2) is the same lexeme as the new entry かるた【かるた】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 歌留多/かるた at N2 (gloss: playing cards; card game; cartes à jouer)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1590710; spelling=かるた; reading=かるた; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1590710 as the reference form.",
+          "selected": {
+            "sequence": "1590710",
+            "spelling": "かるた",
+            "reading": "かるた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "karuta",
+                  "traditional Japanese playing cards, esp. hyakunin isshu karuta or iroha karuta"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 歌留多|かるた#0 is the same lexeme as vocab-n2:correction:karuta; target hash bound to the assembled addition.",
+        "contentHash": "582b4b128f4183023709c9562fe84aa822307ce39572771d56c6a39e0e44b517",
+        "approvalHash": "582b4b128f4183023709c9562fe84aa822307ce39572771d56c6a39e0e44b517"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 歌留多/かるた (Nihongo Master N2) is the same lexeme as vocab-n2:correction:karuta; the gloss agrees.",
+        "contentHash": "582b4b128f4183023709c9562fe84aa822307ce39572771d56c6a39e0e44b517",
+        "approvalHash": "582b4b128f4183023709c9562fe84aa822307ce39572771d56c6a39e0e44b517"
+      }
+    },
+    {
+      "key": "かわいがる|かわいがる",
+      "referenceIndex": 0,
+      "referenceHash": "538d4008674e8617f92f9e6861689a372f912f274a3adf76e17a5f373f9a7d14",
+      "revisionId": "032-candidate-kawaigaru-f4d0e5e8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kawaigaru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kawaigaru": "f9e4cf8441209963601763ef32d7288d10b3b2aa9873454e672748dff455af7e"
+      },
+      "reason": "Reference かわいがる/かわいがる (tanos N2) is the same lexeme as the new entry かわいがる【かわいがる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=18",
+          "finding": "tanos lists かわいがる/かわいがる at N2 (gloss: to love,to be affectionate)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1190730; spelling=かわいがる; reading=かわいがる; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1190730 as the reference form.",
+          "selected": {
+            "sequence": "1190730",
+            "spelling": "かわいがる",
+            "reading": "かわいがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be affectionate to",
+                  "to treat tenderly",
+                  "to dote on",
+                  "to show one's love (for)",
+                  "to cherish"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to show favouritism to",
+                  "to be partial to"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference かわいがる|かわいがる#0 is the same lexeme as vocab-n2:correction:kawaigaru; target hash bound to the assembled addition.",
+        "contentHash": "66344eb96f265310db6f271260dd2a18b726e6c8a7bb07b3949ccb154bb4040e",
+        "approvalHash": "66344eb96f265310db6f271260dd2a18b726e6c8a7bb07b3949ccb154bb4040e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). かわいがる/かわいがる (tanos N2) is the same lexeme as vocab-n2:correction:kawaigaru; the gloss agrees.",
+        "contentHash": "66344eb96f265310db6f271260dd2a18b726e6c8a7bb07b3949ccb154bb4040e",
+        "approvalHash": "66344eb96f265310db6f271260dd2a18b726e6c8a7bb07b3949ccb154bb4040e"
+      }
+    },
+    {
+      "key": "可愛がる|かわいがる",
+      "referenceIndex": 0,
+      "referenceHash": "c9252b716d67d6dc1b0b16fe98d16aa645ab482b9a5c39a9e2cb4ddf4e48e9b5",
+      "revisionId": "032-candidate-kawaigaru-faf3e33f-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kawaigaru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kawaigaru": "f9e4cf8441209963601763ef32d7288d10b3b2aa9873454e672748dff455af7e"
+      },
+      "reason": "Reference 可愛がる/かわいがる (tanos N1) is the same lexeme as the new entry かわいがる【かわいがる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=33",
+          "finding": "tanos lists 可愛がる/かわいがる at N1 (gloss: to love, to be affectionate)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1190730; spelling=かわいがる; reading=かわいがる; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1190730 as the reference form.",
+          "selected": {
+            "sequence": "1190730",
+            "spelling": "かわいがる",
+            "reading": "かわいがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be affectionate to",
+                  "to treat tenderly",
+                  "to dote on",
+                  "to show one's love (for)",
+                  "to cherish"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to show favouritism to",
+                  "to be partial to"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 可愛がる|かわいがる#0 is the same lexeme as vocab-n2:correction:kawaigaru; target hash bound to the assembled addition.",
+        "contentHash": "8061c907d5a22c37fc53d5f5feadd1df5ebd345ad9aca8654acdad45a91b7260",
+        "approvalHash": "8061c907d5a22c37fc53d5f5feadd1df5ebd345ad9aca8654acdad45a91b7260"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 可愛がる/かわいがる (tanos N1) is the same lexeme as vocab-n2:correction:kawaigaru; the gloss agrees.",
+        "contentHash": "8061c907d5a22c37fc53d5f5feadd1df5ebd345ad9aca8654acdad45a91b7260",
+        "approvalHash": "8061c907d5a22c37fc53d5f5feadd1df5ebd345ad9aca8654acdad45a91b7260"
+      }
+    },
+    {
+      "key": "可愛がる|かわいがる",
+      "referenceIndex": 1,
+      "referenceHash": "4e051b1e7bab81bdb4ebda1078de219e1c41ce65900e3fc58f15d7f5d047397a",
+      "revisionId": "032-candidate-kawaigaru-faf3e33f-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kawaigaru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kawaigaru": "f9e4cf8441209963601763ef32d7288d10b3b2aa9873454e672748dff455af7e"
+      },
+      "reason": "Reference 可愛がる/かわいがる (master N2) is the same lexeme as the new entry かわいがる【かわいがる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 可愛がる/かわいがる at N2 (gloss: to love; to be affectionate; être affectueux avec)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1190730; spelling=かわいがる; reading=かわいがる; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1190730 as the reference form.",
+          "selected": {
+            "sequence": "1190730",
+            "spelling": "かわいがる",
+            "reading": "かわいがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be affectionate to",
+                  "to treat tenderly",
+                  "to dote on",
+                  "to show one's love (for)",
+                  "to cherish"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to show favouritism to",
+                  "to be partial to"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 可愛がる|かわいがる#1 is the same lexeme as vocab-n2:correction:kawaigaru; target hash bound to the assembled addition.",
+        "contentHash": "cd0725172212585dd263b5fb9386404382eb424c0822817b2ed8e4775a90a26a",
+        "approvalHash": "cd0725172212585dd263b5fb9386404382eb424c0822817b2ed8e4775a90a26a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 可愛がる/かわいがる (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kawaigaru; the gloss agrees.",
+        "contentHash": "cd0725172212585dd263b5fb9386404382eb424c0822817b2ed8e4775a90a26a",
+        "approvalHash": "cd0725172212585dd263b5fb9386404382eb424c0822817b2ed8e4775a90a26a"
+      }
+    },
+    {
+      "key": "元日|がんじつ",
+      "referenceIndex": 0,
+      "referenceHash": "4a215233ca170fa43f8b44a73bafaf7366688dae9958c958f8c6d6e3e9826531",
+      "revisionId": "032-candidate-ganjitsu-77d0c976-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ganjitsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ganjitsu": "b2a8eeb24d11ab95f84b6556f2f8dee0f5908f2bf1db32248ef1065e37541572"
+      },
+      "reason": "Reference 元日/がんじつ (master N2) is the same lexeme as the new entry 元日【がんじつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 元日/がんじつ at N2 (gloss: New Year's Day; Jour de l'An; (n) Neujahr)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261010; spelling=元日; reading=がんじつ; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1261010 as the reference form.",
+          "selected": {
+            "sequence": "1261010",
+            "spelling": "元日",
+            "reading": "がんじつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "New Year's Day"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 元日|がんじつ#0 is the same lexeme as vocab-n2:correction:ganjitsu; target hash bound to the assembled addition.",
+        "contentHash": "c0d3d2cb601a82323682bf8f67556c00fda08bc790241ac15c68255f188d941d",
+        "approvalHash": "c0d3d2cb601a82323682bf8f67556c00fda08bc790241ac15c68255f188d941d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 元日/がんじつ (Nihongo Master N2) is the same lexeme as vocab-n2:correction:ganjitsu; the gloss agrees.",
+        "contentHash": "c0d3d2cb601a82323682bf8f67556c00fda08bc790241ac15c68255f188d941d",
+        "approvalHash": "c0d3d2cb601a82323682bf8f67556c00fda08bc790241ac15c68255f188d941d"
+      }
+    },
+    {
+      "key": "缶詰|かんづめ",
+      "referenceIndex": 0,
+      "referenceHash": "79c3744f015a9a9296d8ec23471fb73b4f0c87ef44dc47fbff6c5d7c3def2eac",
+      "revisionId": "032-candidate-kanzume-4c1ebfee-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kanzume"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kanzume": "d8e1e0827b4bdc1fb5cb0a0ae3e3b4a13170bfa8dbc1c6ca75a115ceeac6cb79"
+      },
+      "reason": "Reference 缶詰/かんづめ (tanos N2) is the same lexeme as the new entry 缶詰【かんづめ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=19",
+          "finding": "tanos lists 缶詰/かんづめ at N2 (gloss: packing (in cans),canning,canned goods,tin can)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1214560; spelling=缶詰; reading=かんづめ; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1214560 as the reference form.",
+          "selected": {
+            "sequence": "1214560",
+            "spelling": "缶詰",
+            "reading": "かんづめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "canned food",
+                  "tinned food"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "confining someone (e.g. so they can concentrate on work)"
+                ],
+                "notes": [
+                  "usu ～にする"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 缶詰|かんづめ#0 is the same lexeme as vocab-n2:correction:kanzume; target hash bound to the assembled addition.",
+        "contentHash": "e9a3e5584e65006df9a2738546d69f04d95e8e0da83e6e2cb7f8de44bb8d6f39",
+        "approvalHash": "e9a3e5584e65006df9a2738546d69f04d95e8e0da83e6e2cb7f8de44bb8d6f39"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 缶詰/かんづめ (tanos N2) is the same lexeme as vocab-n2:correction:kanzume; the gloss agrees.",
+        "contentHash": "e9a3e5584e65006df9a2738546d69f04d95e8e0da83e6e2cb7f8de44bb8d6f39",
+        "approvalHash": "e9a3e5584e65006df9a2738546d69f04d95e8e0da83e6e2cb7f8de44bb8d6f39"
+      }
+    },
+    {
+      "key": "缶詰|かんづめ",
+      "referenceIndex": 1,
+      "referenceHash": "e15484a817d1fdc765be140956450ffc3a3368cc96bacc2cf7965a6515f0fe11",
+      "revisionId": "032-candidate-kanzume-4c1ebfee-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kanzume"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kanzume": "d8e1e0827b4bdc1fb5cb0a0ae3e3b4a13170bfa8dbc1c6ca75a115ceeac6cb79"
+      },
+      "reason": "Reference 缶詰/かんづめ (master N2) is the same lexeme as the new entry 缶詰【かんづめ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 缶詰/かんづめ at N2 (gloss: packing (in cans); canning; canned goods)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1214560; spelling=缶詰; reading=かんづめ; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1214560 as the reference form.",
+          "selected": {
+            "sequence": "1214560",
+            "spelling": "缶詰",
+            "reading": "かんづめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "canned food",
+                  "tinned food"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "confining someone (e.g. so they can concentrate on work)"
+                ],
+                "notes": [
+                  "usu ～にする"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 缶詰|かんづめ#1 is the same lexeme as vocab-n2:correction:kanzume; target hash bound to the assembled addition.",
+        "contentHash": "63c4dc2a93c0a28724ac917712a0a9e5c8d0e21abc34861aaeaf65db7dc2594b",
+        "approvalHash": "63c4dc2a93c0a28724ac917712a0a9e5c8d0e21abc34861aaeaf65db7dc2594b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 缶詰/かんづめ (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kanzume; the gloss agrees.",
+        "contentHash": "63c4dc2a93c0a28724ac917712a0a9e5c8d0e21abc34861aaeaf65db7dc2594b",
+        "approvalHash": "63c4dc2a93c0a28724ac917712a0a9e5c8d0e21abc34861aaeaf65db7dc2594b"
+      }
+    },
+    {
+      "key": "乾電池|かんでんち",
+      "referenceIndex": 0,
+      "referenceHash": "dba212a62c43bc5f9c50c2eddf3fd91c2188b698be75cc0e8949b71562f5dcea",
+      "revisionId": "032-candidate-kandenchi-a5ebe217-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kandenchi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kandenchi": "c68dde46f4a3806a748bd79b2be3473a9d66694b7ee27e319b9562d9bd6ffb01"
+      },
+      "reason": "Reference 乾電池/かんでんち (tanos N2) is the same lexeme as the new entry 乾電池【かんでんち】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=19",
+          "finding": "tanos lists 乾電池/かんでんち at N2 (gloss: dry cell,battery)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1210100; spelling=乾電池; reading=かんでんち; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1210100 as the reference form.",
+          "selected": {
+            "sequence": "1210100",
+            "spelling": "乾電池",
+            "reading": "かんでんち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dry cell battery"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 乾電池|かんでんち#0 is the same lexeme as vocab-n2:correction:kandenchi; target hash bound to the assembled addition.",
+        "contentHash": "861d53361fd37b2ca35d983fe21b48f16ead2aa7cb2d795a6d1bd4c615874293",
+        "approvalHash": "861d53361fd37b2ca35d983fe21b48f16ead2aa7cb2d795a6d1bd4c615874293"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 乾電池/かんでんち (tanos N2) is the same lexeme as vocab-n2:correction:kandenchi; the gloss agrees.",
+        "contentHash": "861d53361fd37b2ca35d983fe21b48f16ead2aa7cb2d795a6d1bd4c615874293",
+        "approvalHash": "861d53361fd37b2ca35d983fe21b48f16ead2aa7cb2d795a6d1bd4c615874293"
+      }
+    },
+    {
+      "key": "乾電池|かんでんち",
+      "referenceIndex": 1,
+      "referenceHash": "7b815b275fff08ef7d35eabe8deed74cc835abeab521111a6832b377ef8d7c3a",
+      "revisionId": "032-candidate-kandenchi-a5ebe217-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kandenchi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kandenchi": "c68dde46f4a3806a748bd79b2be3473a9d66694b7ee27e319b9562d9bd6ffb01"
+      },
+      "reason": "Reference 乾電池/かんでんち (master N2) is the same lexeme as the new entry 乾電池【かんでんち】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 乾電池/かんでんち at N2 (gloss: dry cell; battery; batterie sèche)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1210100; spelling=乾電池; reading=かんでんち; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1210100 as the reference form.",
+          "selected": {
+            "sequence": "1210100",
+            "spelling": "乾電池",
+            "reading": "かんでんち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dry cell battery"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 乾電池|かんでんち#1 is the same lexeme as vocab-n2:correction:kandenchi; target hash bound to the assembled addition.",
+        "contentHash": "1911d80d1a1c974d53c3e814d838e7bd150dbfbff2690b599c60d9c3d72ca4fa",
+        "approvalHash": "1911d80d1a1c974d53c3e814d838e7bd150dbfbff2690b599c60d9c3d72ca4fa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 乾電池/かんでんち (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kandenchi; the gloss agrees.",
+        "contentHash": "1911d80d1a1c974d53c3e814d838e7bd150dbfbff2690b599c60d9c3d72ca4fa",
+        "approvalHash": "1911d80d1a1c974d53c3e814d838e7bd150dbfbff2690b599c60d9c3d72ca4fa"
+      }
+    },
+    {
+      "key": "関東|かんとう",
+      "referenceIndex": 0,
+      "referenceHash": "fecfc94a7cfa11dd92dfb9848ca11d8d69a4d6b91711262b51ae1bab57aefe52",
+      "revisionId": "032-candidate-kantou-99e102fa-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kantou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kantou": "e24c127430c67f74f269e1a65598e14459fbf2a1ac1045448739314a2d818972"
+      },
+      "reason": "Reference 関東/かんとう (tanos N2) is the same lexeme as the new entry 関東【かんとう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=19",
+          "finding": "tanos lists 関東/かんとう at N2 (gloss: eastern half of Japan, including Tokyo)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1216010; spelling=関東; reading=かんとう; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1216010 as the reference form.",
+          "selected": {
+            "sequence": "1216010",
+            "spelling": "関東",
+            "reading": "かんとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Kantō (region comprising Tokyo and surrounding prefectures)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 関東|かんとう#0 is the same lexeme as vocab-n2:correction:kantou; target hash bound to the assembled addition.",
+        "contentHash": "14d6c377a3228f60334e45a9a54b282081943392eddfdd6fd02d652cb8887cd5",
+        "approvalHash": "14d6c377a3228f60334e45a9a54b282081943392eddfdd6fd02d652cb8887cd5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 関東/かんとう (tanos N2) is the same lexeme as vocab-n2:correction:kantou; the gloss agrees.",
+        "contentHash": "14d6c377a3228f60334e45a9a54b282081943392eddfdd6fd02d652cb8887cd5",
+        "approvalHash": "14d6c377a3228f60334e45a9a54b282081943392eddfdd6fd02d652cb8887cd5"
+      }
+    },
+    {
+      "key": "関東|かんとう",
+      "referenceIndex": 1,
+      "referenceHash": "e7e3b95335da05d31875b92fb1038bafe47bf81c43254d77ccd5657913b72846",
+      "revisionId": "032-candidate-kantou-99e102fa-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kantou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kantou": "e24c127430c67f74f269e1a65598e14459fbf2a1ac1045448739314a2d818972"
+      },
+      "reason": "Reference 関東/かんとう (master N2) is the same lexeme as the new entry 関東【かんとう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 関東/かんとう at N2 (gloss: Kantou (eastern half of Japan, including Tokyo); Kantou (région de Tokyo); (n) Kantō (Gebiet um Tōkyō; die Präf. Tōkyō, Ibaraki, Tochigi, Gunma, Saitama, Chiba und Kanagawa bzw. allg. das Gebiet östlich von Hakone))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1216010; spelling=関東; reading=かんとう; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1216010 as the reference form.",
+          "selected": {
+            "sequence": "1216010",
+            "spelling": "関東",
+            "reading": "かんとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Kantō (region comprising Tokyo and surrounding prefectures)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 関東|かんとう#1 is the same lexeme as vocab-n2:correction:kantou; target hash bound to the assembled addition.",
+        "contentHash": "000f7f5eb7a30fde58b24b25f1f34e032558fab66dd0ecdab402d00177ef0b5d",
+        "approvalHash": "000f7f5eb7a30fde58b24b25f1f34e032558fab66dd0ecdab402d00177ef0b5d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 関東/かんとう (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kantou; the gloss agrees.",
+        "contentHash": "000f7f5eb7a30fde58b24b25f1f34e032558fab66dd0ecdab402d00177ef0b5d",
+        "approvalHash": "000f7f5eb7a30fde58b24b25f1f34e032558fab66dd0ecdab402d00177ef0b5d"
+      }
+    }
+  ]
+}

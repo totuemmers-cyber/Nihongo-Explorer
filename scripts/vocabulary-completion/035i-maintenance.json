@@ -1,0 +1,1726 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:tokekomu",
+      "revisionId": "035-add-tokekomu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "溶け込む",
+        "reading": "とけこむ",
+        "romaji": "tokekomu",
+        "meaning": "sich auflösen in; sich einfügen",
+        "type": "Verb",
+        "category": "Beziehungen",
+        "level": "N2",
+        "notes": "Sich in etwas auflösen oder in eine Gruppe einleben: 新しい環境に溶け込む.",
+        "examples": [
+          {
+            "japanese": "彼女はすぐにクラスに溶け込んだ。",
+            "romaji": "Kanojo wa sugu ni kurasu ni tokekonda.",
+            "german": "Sie hat sich schnell in die Klasse eingelebt."
+          },
+          {
+            "japanese": "砂糖が紅茶に溶け込んでいる。",
+            "romaji": "Satou ga koucha ni tokekonde iru.",
+            "german": "Der Zucker hat sich im Tee aufgelöst."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "とけこむ",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "とけこむ",
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185178254",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "溶け込む / トケコム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 溶け込む; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "溶け込む",
+              "reading": "とけこむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "溶け込む as \"sich auflösen in; sich einfügen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 溶け込む【とけこむ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1546090; spelling=溶け込む; reading=とけこむ; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1546090 溶け込む/とけこむ sense(s) 1,2 support \"sich auflösen in; sich einfügen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1546090",
+            "spelling": "溶け込む",
+            "reading": "とけこむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to melt into",
+                  "to dissolve into",
+                  "to merge into"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to blend into (surroundings)",
+                  "to fit in",
+                  "to adapt to",
+                  "to integrate"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "溶け込む|とけこむ",
+          "referenceIndex": 0,
+          "referenceHash": "e065adf5a4c8010f1cf5de7a220310b8f1251f89cc41bb0e4ffb513f325390d0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"sich auflösen in; sich einfügen\" matches JMdict 1546090 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Fitting into a class.",
+          "Sugar dissolving."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1546090; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading とけこむ; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@185178254 attest 0,3; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185178254",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "溶け込む / トケコム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 溶け込む; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "溶け込む",
+              "reading": "とけこむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "溶け込む as \"sich auflösen in; sich einfügen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 溶け込む【とけこむ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1546090 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "80f38dc84ab1399c390bd766b8a3ee971d922fa7674e15691e04420cbdf6a11f",
+        "approvalHash": "78dcc594be83832893e3c36619436ff0c2c3ce679058906e5148e4d6e1b921b8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "80f38dc84ab1399c390bd766b8a3ee971d922fa7674e15691e04420cbdf6a11f",
+        "approvalHash": "78dcc594be83832893e3c36619436ff0c2c3ce679058906e5148e4d6e1b921b8"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:tokorodokoro",
+      "revisionId": "035-add-tokorodokoro",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "所々",
+        "reading": "ところどころ",
+        "romaji": "tokorodokoro",
+        "meaning": "hier und da, stellenweise",
+        "type": "Adverb",
+        "category": "Ort",
+        "level": "N2",
+        "notes": "An einigen Stellen: 所々に雪が残っている. Auch in Kana ところどころ.",
+        "examples": [
+          {
+            "japanese": "道には所々に水たまりがある。",
+            "romaji": "Michi ni wa tokorodokoro ni mizutamari ga aru.",
+            "german": "Auf dem Weg gibt es stellenweise Pfützen."
+          },
+          {
+            "japanese": "彼の話は所々分からなかった。",
+            "romaji": "Kare no hanashi wa tokorodokoro wakaranakatta.",
+            "german": "Seine Erzählung habe ich stellenweise nicht verstanden."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185426626",
+            "patterns": [
+              4
+            ],
+            "finding": "所々 / トコロドコロ; 名詞/普通名詞/副詞可能/*; *; *; lemma 所々; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "所々",
+              "reading": "ところどころ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "所々 as \"hier und da, stellenweise\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 所々【ところどころ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598730; spelling=所々; reading=ところどころ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1598730 所々/ところどころ sense(s) 1 support \"hier und da, stellenweise\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1598730",
+            "spelling": "所々",
+            "reading": "ところどころ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "here and there",
+                  "in places"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "所々|ところどころ",
+          "referenceIndex": 0,
+          "referenceHash": "c94cb5d6e9fbd034c7033f99612cf353d8d5ff5e9d743677167d799fa4b051c1"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"hier und da, stellenweise\" matches JMdict 1598730 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Puddles on a road.",
+          "Partly not understanding."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1598730; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@185426626 attest 4; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185426626",
+            "patterns": [
+              4
+            ],
+            "finding": "所々 / トコロドコロ; 名詞/普通名詞/副詞可能/*; *; *; lemma 所々; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "所々",
+              "reading": "ところどころ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "所々 as \"hier und da, stellenweise\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 所々【ところどころ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1598730 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2d2e6f43073597e4414ca7864844579518d2c1c5bd346a19a0bbb9a74a0c347f",
+        "approvalHash": "a25e18ae6cf1b5c457c48e4fc20ba409fbe2a8cfaeda46ebc9274f69ed79c179"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "2d2e6f43073597e4414ca7864844579518d2c1c5bd346a19a0bbb9a74a0c347f",
+        "approvalHash": "a25e18ae6cf1b5c457c48e4fc20ba409fbe2a8cfaeda46ebc9274f69ed79c179"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:tokkuni",
+      "revisionId": "035-add-tokkuni",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "とっくに",
+        "reading": "とっくに",
+        "romaji": "tokkuni",
+        "meaning": "längst, schon lange",
+        "type": "Adverb",
+        "category": "Zeit",
+        "level": "N2",
+        "notes": "Betont, dass etwas schon lange geschehen ist: とっくに終わった. Die Kanji 疾っくに sind selten.",
+        "examples": [
+          {
+            "japanese": "宿題はとっくに終わったよ。",
+            "romaji": "Shukudai wa tokku ni owatta yo.",
+            "german": "Die Hausaufgaben habe ich längst fertig."
+          },
+          {
+            "japanese": "電車はとっくに出てしまった。",
+            "romaji": "Densha wa tokku ni dete shimatta.",
+            "german": "Der Zug ist längst abgefahren."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add とっくに【とっくに】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1320570; spelling=とっくに; reading=とっくに; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1320570 とっくに/とっくに sense(s) 1 support \"längst, schon lange\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1320570",
+            "spelling": "とっくに",
+            "reading": "とっくに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "long ago",
+                  "a long time ago",
+                  "already"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "とっくに|とっくに",
+          "referenceIndex": 0,
+          "referenceHash": "c512b692a8ad6820978bf4752bfb503b3858571e616066d8dce0fe700b2afeeb"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"längst, schon lange\" matches JMdict 1320570 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Finished homework.",
+          "Missed train."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1320570; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for とっくに / とっくに; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup とっくに / とっくに",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add とっくに【とっくに】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1320570 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "d5734edc80b005e93dfbd10116d5e91518de6f6308910dd57991d5c30e0b07de",
+        "approvalHash": "c9105ee2c2130c2b8af6243e07d7b99c4803ae1c8df9e66097f820231246da24"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Merge とっくに/疾っくに correct. Pitch unknown confirmed: no UniDic row for とっくに or 疾っくに. Examples fine.",
+        "contentHash": "d5734edc80b005e93dfbd10116d5e91518de6f6308910dd57991d5c30e0b07de",
+        "approvalHash": "c9105ee2c2130c2b8af6243e07d7b99c4803ae1c8df9e66097f820231246da24"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:dotto",
+      "revisionId": "035-add-dotto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "どっと",
+        "reading": "どっと",
+        "romaji": "dotto",
+        "meaning": "auf einmal; in Massen",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N2",
+        "notes": "Plötzlich und massenhaft: 人がどっと押し寄せる, どっと笑う, 疲れがどっと出る. Nicht verwechseln mit ドット (Punkt).",
+        "examples": [
+          {
+            "japanese": "試験が終わって、疲れがどっと出た。",
+            "romaji": "Shiken ga owatte, tsukare ga dotto deta.",
+            "german": "Nach der Prüfung überkam mich schlagartig die Müdigkeit."
+          },
+          {
+            "japanese": "セールの初日に客がどっと押し寄せた。",
+            "romaji": "Seeru no shonichi ni kyaku ga dotto oshiyoseta.",
+            "german": "Am ersten Tag des Ausverkaufs strömten die Kunden in Scharen herbei."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192802920",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "どっと / ドット; 副詞/*/*/*; *; *; lemma どっと; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "どっと",
+              "reading": "どっと",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "どっと as \"auf einmal; in Massen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add どっと【どっと】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1009210; spelling=どっと; reading=どっと; senses=1,2,3; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1009210 どっと/どっと sense(s) 1,2,3 support \"auf einmal; in Massen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1009210",
+            "spelling": "どっと",
+            "reading": "どっと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "bursting out (laughter)",
+                  "breaking out (applause)",
+                  "roaring",
+                  "whooping"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "in a rush",
+                  "in a surge",
+                  "flooding in",
+                  "pouring in"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "suddenly",
+                  "all of a sudden"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "どっと|どっと",
+          "referenceIndex": 0,
+          "referenceHash": "b065a118c394278271b52a3096da8b4397f94afaed60576a0a1cd017d54a1234"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"auf einmal; in Massen\" matches JMdict 1009210 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sudden tiredness.",
+          "Crowds at a sale."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1009210; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@192802920 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192802920",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "どっと / ドット; 副詞/*/*/*; *; *; lemma どっと; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "どっと",
+              "reading": "どっと",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "どっと as \"auf einmal; in Massen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add どっと【どっと】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1009210 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f5f83e68c55cec20cb3ca1981b379d838d47f91bde5f5b23548a3b2f5698086d",
+        "approvalHash": "92ce1d266a6dcf881c23df80331f2ed9b0f43d26485475c3f85677a6f3c82fe3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Leaving どっと#2 (Master ドット „dot“) open is right – different lexeme. Pitch row どっと 副詞 aType 0,1 exact.",
+        "contentHash": "f5f83e68c55cec20cb3ca1981b379d838d47f91bde5f5b23548a3b2f5698086d",
+        "approvalHash": "92ce1d266a6dcf881c23df80331f2ed9b0f43d26485475c3f85677a6f3c82fe3"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:todomaru",
+      "revisionId": "035-add-todomaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "留まる",
+        "reading": "とどまる",
+        "romaji": "todomaru",
+        "meaning": "bleiben; sich beschränken auf",
+        "type": "Verb",
+        "category": "Zustand",
+        "level": "N2",
+        "notes": "An einem Ort bleiben (現地にとどまる) oder auf etwas begrenzt bleiben (〜にとどまらない = geht über … hinaus). Oft in Kana とどまる.",
+        "examples": [
+          {
+            "japanese": "彼は災害の後も町に留まった。",
+            "romaji": "Kare wa saigai no ato mo machi ni todomatta.",
+            "german": "Er blieb auch nach der Katastrophe in der Stadt."
+          },
+          {
+            "japanese": "被害は一部の地域に留まった。",
+            "romaji": "Higai wa ichibu no chiiki ni todomatta.",
+            "german": "Die Schäden blieben auf einige Gebiete beschränkt."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "とどまる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "とどまる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@186257623",
+            "patterns": [
+              3
+            ],
+            "finding": "留まる / トドマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 留まる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "留まる",
+              "reading": "とどまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "留まる as \"bleiben; sich beschränken auf\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2. Editorial N2.",
+      "rationale": "Add 留まる【とどまる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2657130; spelling=留まる; reading=とどまる; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2657130 留まる/とどまる sense(s) 1,2 support \"bleiben; sich beschränken auf\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2657130",
+            "spelling": "留まる",
+            "reading": "とどまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to remain",
+                  "to abide",
+                  "to stay (in the one place)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be limited to",
+                  "to be confined to",
+                  "to only account for"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "留まる|とどまる",
+          "referenceIndex": 0,
+          "referenceHash": "0a4a55c17a93c6f36a41a1019570515f9f8977547dedd744e83853fa5657a015"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"bleiben; sich beschränken auf\" matches JMdict 2657130 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Staying in a town.",
+          "Limited damage."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2657130; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading とどまる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@186257623 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@186257623",
+            "patterns": [
+              3
+            ],
+            "finding": "留まる / トドマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 留まる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "留まる",
+              "reading": "とどまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "留まる as \"bleiben; sich beschränken auf\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 留まる【とどまる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2657130 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "91092a47f4f46a9e5a362a5ad1a34a6d7dd2207d83802cff39f1c835621ac4b8",
+        "approvalHash": "8712343aa4e742d531fab404d9827b7aa83a38a01a489453a2db73e86ded42dc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "91092a47f4f46a9e5a362a5ad1a34a6d7dd2207d83802cff39f1c835621ac4b8",
+        "approvalHash": "8712343aa4e742d531fab404d9827b7aa83a38a01a489453a2db73e86ded42dc"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "溶け込む|とけこむ",
+      "referenceIndex": 0,
+      "referenceHash": "e065adf5a4c8010f1cf5de7a220310b8f1251f89cc41bb0e4ffb513f325390d0",
+      "revisionId": "035-candidate-tokekomu-90fe29ce-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tokekomu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tokekomu": "80f38dc84ab1399c390bd766b8a3ee971d922fa7674e15691e04420cbdf6a11f"
+      },
+      "reason": "Reference 溶け込む/とけこむ (tanos N2) is the same lexeme as the new entry 溶け込む【とけこむ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=62",
+          "finding": "tanos lists 溶け込む/とけこむ at N2 (gloss: to melt into)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1546090; spelling=溶け込む; reading=とけこむ; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1546090 as the reference form.",
+          "selected": {
+            "sequence": "1546090",
+            "spelling": "溶け込む",
+            "reading": "とけこむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to melt into",
+                  "to dissolve into",
+                  "to merge into"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to blend into (surroundings)",
+                  "to fit in",
+                  "to adapt to",
+                  "to integrate"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 溶け込む|とけこむ#0 is the same lexeme as vocab-n2:correction:tokekomu; target hash bound to the assembled addition.",
+        "contentHash": "275339f4b49ac730717f614388998af03aeef962d599b7c24591ddf42292b301",
+        "approvalHash": "275339f4b49ac730717f614388998af03aeef962d599b7c24591ddf42292b301"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 溶け込む/とけこむ is the same lexeme as vocab-n2:correction:tokekomu.",
+        "contentHash": "275339f4b49ac730717f614388998af03aeef962d599b7c24591ddf42292b301",
+        "approvalHash": "275339f4b49ac730717f614388998af03aeef962d599b7c24591ddf42292b301"
+      }
+    },
+    {
+      "key": "溶け込む|とけこむ",
+      "referenceIndex": 1,
+      "referenceHash": "90acf3aaec9260d1f29206e00b6603c249efed792a959cb26ee8309131a311f3",
+      "revisionId": "035-candidate-tokekomu-90fe29ce-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tokekomu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tokekomu": "80f38dc84ab1399c390bd766b8a3ee971d922fa7674e15691e04420cbdf6a11f"
+      },
+      "reason": "Reference 溶け込む/とけこむ (master N2) is the same lexeme as the new entry 溶け込む【とけこむ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 溶け込む/とけこむ at N2 (gloss: to melt into; to merge into; se fondre dans)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1546090; spelling=溶け込む; reading=とけこむ; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1546090 as the reference form.",
+          "selected": {
+            "sequence": "1546090",
+            "spelling": "溶け込む",
+            "reading": "とけこむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to melt into",
+                  "to dissolve into",
+                  "to merge into"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to blend into (surroundings)",
+                  "to fit in",
+                  "to adapt to",
+                  "to integrate"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 溶け込む|とけこむ#1 is the same lexeme as vocab-n2:correction:tokekomu; target hash bound to the assembled addition.",
+        "contentHash": "fe8febe4920810a1a5d1d60654412c0e75a7ad667f54388a1ee494100433c7cd",
+        "approvalHash": "fe8febe4920810a1a5d1d60654412c0e75a7ad667f54388a1ee494100433c7cd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 溶け込む/とけこむ is the same lexeme as vocab-n2:correction:tokekomu.",
+        "contentHash": "fe8febe4920810a1a5d1d60654412c0e75a7ad667f54388a1ee494100433c7cd",
+        "approvalHash": "fe8febe4920810a1a5d1d60654412c0e75a7ad667f54388a1ee494100433c7cd"
+      }
+    },
+    {
+      "key": "所々|ところどころ",
+      "referenceIndex": 0,
+      "referenceHash": "c94cb5d6e9fbd034c7033f99612cf353d8d5ff5e9d743677167d799fa4b051c1",
+      "revisionId": "035-candidate-tokorodokoro-b72b4ae5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tokorodokoro"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tokorodokoro": "2d2e6f43073597e4414ca7864844579518d2c1c5bd346a19a0bbb9a74a0c347f"
+      },
+      "reason": "Reference 所々/ところどころ (tanos N2) is the same lexeme as the new entry 所々【ところどころ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=62",
+          "finding": "tanos lists 所々/ところどころ at N2 (gloss: here and there,some parts (of something))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598730; spelling=所々; reading=ところどころ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1598730 as the reference form.",
+          "selected": {
+            "sequence": "1598730",
+            "spelling": "所々",
+            "reading": "ところどころ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "here and there",
+                  "in places"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 所々|ところどころ#0 is the same lexeme as vocab-n2:correction:tokorodokoro; target hash bound to the assembled addition.",
+        "contentHash": "307724a9640f7b2b3a9ef567e9a8225fd5b22c55176f9d3af29a6093d6aaf2ca",
+        "approvalHash": "307724a9640f7b2b3a9ef567e9a8225fd5b22c55176f9d3af29a6093d6aaf2ca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 所々/ところどころ is the same lexeme as vocab-n2:correction:tokorodokoro.",
+        "contentHash": "307724a9640f7b2b3a9ef567e9a8225fd5b22c55176f9d3af29a6093d6aaf2ca",
+        "approvalHash": "307724a9640f7b2b3a9ef567e9a8225fd5b22c55176f9d3af29a6093d6aaf2ca"
+      }
+    },
+    {
+      "key": "所々|ところどころ",
+      "referenceIndex": 1,
+      "referenceHash": "fad1fe6ba94bde125991e5e68adbc85fe88e21c81ff58f7e8c7b621a1282692a",
+      "revisionId": "035-candidate-tokorodokoro-b72b4ae5-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tokorodokoro"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tokorodokoro": "2d2e6f43073597e4414ca7864844579518d2c1c5bd346a19a0bbb9a74a0c347f"
+      },
+      "reason": "Reference 所々/ところどころ (master N2) is the same lexeme as the new entry 所々【ところどころ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 所々/ところどころ at N2 (gloss: here and there; some parts (of something); several places)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598730; spelling=所々; reading=ところどころ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1598730 as the reference form.",
+          "selected": {
+            "sequence": "1598730",
+            "spelling": "所々",
+            "reading": "ところどころ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "here and there",
+                  "in places"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 所々|ところどころ#1 is the same lexeme as vocab-n2:correction:tokorodokoro; target hash bound to the assembled addition.",
+        "contentHash": "5066d4a3c25c7b1ad744de78c2ae071a47eb0891c250abb30d62120ecf5f46b2",
+        "approvalHash": "5066d4a3c25c7b1ad744de78c2ae071a47eb0891c250abb30d62120ecf5f46b2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 所々/ところどころ is the same lexeme as vocab-n2:correction:tokorodokoro.",
+        "contentHash": "5066d4a3c25c7b1ad744de78c2ae071a47eb0891c250abb30d62120ecf5f46b2",
+        "approvalHash": "5066d4a3c25c7b1ad744de78c2ae071a47eb0891c250abb30d62120ecf5f46b2"
+      }
+    },
+    {
+      "key": "とっくに|とっくに",
+      "referenceIndex": 0,
+      "referenceHash": "c512b692a8ad6820978bf4752bfb503b3858571e616066d8dce0fe700b2afeeb",
+      "revisionId": "035-candidate-tokkuni-7e9fce43-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tokkuni"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tokkuni": "d5734edc80b005e93dfbd10116d5e91518de6f6308910dd57991d5c30e0b07de"
+      },
+      "reason": "Reference とっくに/とっくに (tanos N2) is the same lexeme as the new entry とっくに【とっくに】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=63",
+          "finding": "tanos lists とっくに/とっくに at N2 (gloss: long ago,already,a long time ago)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1320570; spelling=とっくに; reading=とっくに; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1320570 as the reference form.",
+          "selected": {
+            "sequence": "1320570",
+            "spelling": "とっくに",
+            "reading": "とっくに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "long ago",
+                  "a long time ago",
+                  "already"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference とっくに|とっくに#0 is the same lexeme as vocab-n2:correction:tokkuni; target hash bound to the assembled addition.",
+        "contentHash": "46ff9c18b6891d8e98160c563cae6e5deda7e50398015c0cd91efb49b5de35a2",
+        "approvalHash": "46ff9c18b6891d8e98160c563cae6e5deda7e50398015c0cd91efb49b5de35a2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row とっくに/とっくに is the same lexeme as vocab-n2:correction:tokkuni.",
+        "contentHash": "46ff9c18b6891d8e98160c563cae6e5deda7e50398015c0cd91efb49b5de35a2",
+        "approvalHash": "46ff9c18b6891d8e98160c563cae6e5deda7e50398015c0cd91efb49b5de35a2"
+      }
+    },
+    {
+      "key": "疾っくに|とっくに",
+      "referenceIndex": 0,
+      "referenceHash": "665c4eb597529a417fa3e3f8afb60acf82e2f792491dc5f76432f0777e5b1da4",
+      "revisionId": "035-candidate-tokkuni-0c418308-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tokkuni"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tokkuni": "d5734edc80b005e93dfbd10116d5e91518de6f6308910dd57991d5c30e0b07de"
+      },
+      "reason": "Reference 疾っくに/とっくに (tanos N1) is the same lexeme as the new entry とっくに【とっくに】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=118",
+          "finding": "tanos lists 疾っくに/とっくに at N1 (gloss: long ago, already, a long time ago)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1320570; spelling=とっくに; reading=とっくに; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1320570 as the reference form.",
+          "selected": {
+            "sequence": "1320570",
+            "spelling": "とっくに",
+            "reading": "とっくに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "long ago",
+                  "a long time ago",
+                  "already"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 疾っくに|とっくに#0 is the same lexeme as vocab-n2:correction:tokkuni; target hash bound to the assembled addition.",
+        "contentHash": "c7284157c1611e9e285ab8c46c52486d6f42f9610da31f3c4b63603f235a442b",
+        "approvalHash": "c7284157c1611e9e285ab8c46c52486d6f42f9610da31f3c4b63603f235a442b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 疾っくに/とっくに is the same lexeme as vocab-n2:correction:tokkuni.",
+        "contentHash": "c7284157c1611e9e285ab8c46c52486d6f42f9610da31f3c4b63603f235a442b",
+        "approvalHash": "c7284157c1611e9e285ab8c46c52486d6f42f9610da31f3c4b63603f235a442b"
+      }
+    },
+    {
+      "key": "疾っくに|とっくに",
+      "referenceIndex": 1,
+      "referenceHash": "df0930e2c46bc0312fb85ca55700aa6d206af1f79f88a68c786743a7597ebcf5",
+      "revisionId": "035-candidate-tokkuni-0c418308-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tokkuni"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tokkuni": "d5734edc80b005e93dfbd10116d5e91518de6f6308910dd57991d5c30e0b07de"
+      },
+      "reason": "Reference 疾っくに/とっくに (master N2) is the same lexeme as the new entry とっくに【とっくに】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 疾っくに/とっくに at N2 (gloss: long ago; already; a long time ago)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1320570; spelling=とっくに; reading=とっくに; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1320570 as the reference form.",
+          "selected": {
+            "sequence": "1320570",
+            "spelling": "とっくに",
+            "reading": "とっくに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "long ago",
+                  "a long time ago",
+                  "already"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 疾っくに|とっくに#1 is the same lexeme as vocab-n2:correction:tokkuni; target hash bound to the assembled addition.",
+        "contentHash": "c3b171661c294bdbafb9e7259744f6d30d0b2948b1a61135b36fdf3e78f22896",
+        "approvalHash": "c3b171661c294bdbafb9e7259744f6d30d0b2948b1a61135b36fdf3e78f22896"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 疾っくに/とっくに is the same lexeme as vocab-n2:correction:tokkuni.",
+        "contentHash": "c3b171661c294bdbafb9e7259744f6d30d0b2948b1a61135b36fdf3e78f22896",
+        "approvalHash": "c3b171661c294bdbafb9e7259744f6d30d0b2948b1a61135b36fdf3e78f22896"
+      }
+    },
+    {
+      "key": "どっと|どっと",
+      "referenceIndex": 0,
+      "referenceHash": "b065a118c394278271b52a3096da8b4397f94afaed60576a0a1cd017d54a1234",
+      "revisionId": "035-candidate-dotto-5ce44f24-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:dotto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:dotto": "f5f83e68c55cec20cb3ca1981b379d838d47f91bde5f5b23548a3b2f5698086d"
+      },
+      "reason": "Reference どっと/どっと (tanos N2) is the same lexeme as the new entry どっと【どっと】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=63",
+          "finding": "tanos lists どっと/どっと at N2 (gloss: suddenly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1009210; spelling=どっと; reading=どっと; senses=1,2,3; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1009210 as the reference form.",
+          "selected": {
+            "sequence": "1009210",
+            "spelling": "どっと",
+            "reading": "どっと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "bursting out (laughter)",
+                  "breaking out (applause)",
+                  "roaring",
+                  "whooping"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "in a rush",
+                  "in a surge",
+                  "flooding in",
+                  "pouring in"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "suddenly",
+                  "all of a sudden"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference どっと|どっと#0 is the same lexeme as vocab-n2:correction:dotto; target hash bound to the assembled addition.",
+        "contentHash": "db28b36fb8aa7aa0c70783381fb76719f05e18f95b8bbbe15582311881753b7f",
+        "approvalHash": "db28b36fb8aa7aa0c70783381fb76719f05e18f95b8bbbe15582311881753b7f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row どっと/どっと is the same lexeme as vocab-n2:correction:dotto.",
+        "contentHash": "db28b36fb8aa7aa0c70783381fb76719f05e18f95b8bbbe15582311881753b7f",
+        "approvalHash": "db28b36fb8aa7aa0c70783381fb76719f05e18f95b8bbbe15582311881753b7f"
+      }
+    },
+    {
+      "key": "どっと|どっと",
+      "referenceIndex": 1,
+      "referenceHash": "e95f36656f0262378d9dd52f6e1d4f44fc4b79df7a1e794bb76e6741d1f3243a",
+      "revisionId": "035-candidate-dotto-5ce44f24-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:dotto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:dotto": "f5f83e68c55cec20cb3ca1981b379d838d47f91bde5f5b23548a3b2f5698086d"
+      },
+      "reason": "Reference どっと/どっと (master N2) is the same lexeme as the new entry どっと【どっと】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists どっと/どっと at N2 (gloss: suddenly; (n) plötzlich; jäh)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1009210; spelling=どっと; reading=どっと; senses=1,2,3; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1009210 as the reference form.",
+          "selected": {
+            "sequence": "1009210",
+            "spelling": "どっと",
+            "reading": "どっと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "bursting out (laughter)",
+                  "breaking out (applause)",
+                  "roaring",
+                  "whooping"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "in a rush",
+                  "in a surge",
+                  "flooding in",
+                  "pouring in"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "suddenly",
+                  "all of a sudden"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference どっと|どっと#1 is the same lexeme as vocab-n2:correction:dotto; target hash bound to the assembled addition.",
+        "contentHash": "015a48ded1ae32eab35786f6b9a59f954436158acd5b6b70b4f0477cd8b7540b",
+        "approvalHash": "015a48ded1ae32eab35786f6b9a59f954436158acd5b6b70b4f0477cd8b7540b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row どっと/どっと is the same lexeme as vocab-n2:correction:dotto.",
+        "contentHash": "015a48ded1ae32eab35786f6b9a59f954436158acd5b6b70b4f0477cd8b7540b",
+        "approvalHash": "015a48ded1ae32eab35786f6b9a59f954436158acd5b6b70b4f0477cd8b7540b"
+      }
+    },
+    {
+      "key": "留まる|とどまる",
+      "referenceIndex": 0,
+      "referenceHash": "0a4a55c17a93c6f36a41a1019570515f9f8977547dedd744e83853fa5657a015",
+      "revisionId": "035-candidate-todomaru-556fb83b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:todomaru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:todomaru": "91092a47f4f46a9e5a362a5ad1a34a6d7dd2207d83802cff39f1c835621ac4b8"
+      },
+      "reason": "Reference 留まる/とどまる (tanos N2) is the same lexeme as the new entry 留まる【とどまる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=63",
+          "finding": "tanos lists 留まる/とどまる at N2 (gloss: (1) to be fixed,(2) to abide,to stay (in the one place))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2657130; spelling=留まる; reading=とどまる; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2657130 as the reference form.",
+          "selected": {
+            "sequence": "2657130",
+            "spelling": "留まる",
+            "reading": "とどまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to remain",
+                  "to abide",
+                  "to stay (in the one place)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be limited to",
+                  "to be confined to",
+                  "to only account for"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 留まる|とどまる#0 is the same lexeme as vocab-n2:correction:todomaru; target hash bound to the assembled addition.",
+        "contentHash": "8a38536c10b1df1c342a45b8004db281d2ecbc675f89ace6829503e8292b544b",
+        "approvalHash": "8a38536c10b1df1c342a45b8004db281d2ecbc675f89ace6829503e8292b544b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 留まる/とどまる is the same lexeme as vocab-n2:correction:todomaru.",
+        "contentHash": "8a38536c10b1df1c342a45b8004db281d2ecbc675f89ace6829503e8292b544b",
+        "approvalHash": "8a38536c10b1df1c342a45b8004db281d2ecbc675f89ace6829503e8292b544b"
+      }
+    }
+  ]
+}

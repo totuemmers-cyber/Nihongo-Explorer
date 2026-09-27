@@ -1,0 +1,4094 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:soreto",
+      "revisionId": "035-add-soreto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "それと",
+        "reading": "それと",
+        "romaji": "sore to",
+        "meaning": "und dann noch; außerdem",
+        "type": "Ausdruck",
+        "category": "Sprache",
+        "level": "N2",
+        "notes": "Umgangssprachliche Konjunktion am Satzanfang, um etwas nachzutragen: „und noch etwas“. Nicht verwechseln mit それとも („oder“ in Fragen).",
+        "examples": [
+          {
+            "japanese": "コーヒーを二つください。それと、ケーキも一つ。",
+            "romaji": "Koohii o futatsu kudasai. Sore to, keeki mo hitotsu.",
+            "german": "Zwei Kaffee, bitte. Und dazu noch ein Stück Kuchen."
+          },
+          {
+            "japanese": "明日は八時集合です。それと、お弁当を忘れないでください。",
+            "romaji": "Ashita wa hachiji shuugou desu. Sore to, obentou o wasurenaide kudasai.",
+            "german": "Treffpunkt ist morgen um acht. Außerdem: Vergesst euer Mittagessen nicht."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add それと【それと】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2396190; spelling=それと; reading=それと; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2396190 それと/それと sense(s) 1 support \"und dann noch; außerdem\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2396190",
+            "spelling": "それと",
+            "reading": "それと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "and then",
+                  "in addition to that",
+                  "also",
+                  "even so"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "其れと|それと",
+          "referenceIndex": 0,
+          "referenceHash": "bac4e9e7d01f5e8ac07aeb36f26dbabae20a2d04fd3d256fa33aaca47e13b7aa"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"und dann noch; außerdem\" matches JMdict 2396190 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Adding to an order.",
+          "Adding a reminder."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2396190; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for それと / それと; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup それと / それと",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add それと【それと】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2396190 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "d910e8ac8843f3e11e35b13525fde787c643300a67e3e1eb721552cad2ffe64c",
+        "approvalHash": "0d90fbed8cf11ca53d5d7a0d8df511dc5592d3d0182695c11ece9d2c3d7c7535"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Pitch unknown confirmed (no UniDic row). Examples natural.",
+        "contentHash": "d910e8ac8843f3e11e35b13525fde787c643300a67e3e1eb721552cad2ffe64c",
+        "approvalHash": "0d90fbed8cf11ca53d5d7a0d8df511dc5592d3d0182695c11ece9d2c3d7c7535"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:sorenanoni",
+      "revisionId": "035-add-sorenanoni",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "それなのに",
+        "reading": "それなのに",
+        "romaji": "sore na noni",
+        "meaning": "und trotzdem; obwohl das so ist",
+        "type": "Ausdruck",
+        "category": "Sprache",
+        "level": "N2",
+        "notes": "Leitet einen Satz ein, der dem Erwarteten widerspricht, oft mit Enttäuschung oder Vorwurf: „Und trotzdem …!“ Neutraler: それでも.",
+        "examples": [
+          {
+            "japanese": "一生懸命勉強した。それなのに、試験に落ちてしまった。",
+            "romaji": "Isshoukenmei benkyou shita. Sore na noni, shiken ni ochite shimatta.",
+            "german": "Ich habe mit aller Kraft gelernt. Und trotzdem bin ich durchgefallen."
+          },
+          {
+            "japanese": "彼は約束した。それなのに、また遅れて来た。",
+            "romaji": "Kare wa yakusoku shita. Sore na noni, mata okurete kita.",
+            "german": "Er hatte es versprochen. Und trotzdem kam er wieder zu spät."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add それなのに【それなのに】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2055520; spelling=それなのに; reading=それなのに; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2055520 それなのに/それなのに sense(s) 1 support \"und trotzdem; obwohl das so ist\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2055520",
+            "spelling": "それなのに",
+            "reading": "それなのに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [],
+                "gloss": [
+                  "and yet",
+                  "despite this",
+                  "but even so",
+                  "but even then",
+                  "however",
+                  "nevertheless",
+                  "for all that",
+                  "notwithstanding that"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "それなのに|それなのに",
+          "referenceIndex": 0,
+          "referenceHash": "c3e91c1a966f303986c3d46336b2637b4e466785896104e4ace93055942261f9"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"und trotzdem; obwohl das so ist\" matches JMdict 2055520 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Failing despite effort.",
+          "Broken promise."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2055520; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for それなのに / それなのに; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup それなのに / それなのに",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add それなのに【それなのに】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2055520 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "bc130948d3c623c758a02c8dfa2f89cf00898d3300279c4aacfa59e5b90d0f0d",
+        "approvalHash": "ec9d653827a3c0c52465c39f8954e5b287e6cb3caa0846e6732a83f4eb88b0b5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Pitch unknown confirmed; romaji „sore na noni“ matches repo convention.",
+        "contentHash": "bc130948d3c623c758a02c8dfa2f89cf00898d3300279c4aacfa59e5b90d0f0d",
+        "approvalHash": "ec9d653827a3c0c52465c39f8954e5b287e6cb3caa0846e6732a83f4eb88b0b5"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:sorenara",
+      "revisionId": "035-add-sorenara",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "それなら",
+        "reading": "それなら",
+        "romaji": "sore nara",
+        "meaning": "wenn das so ist; dann",
+        "type": "Ausdruck",
+        "category": "Sprache",
+        "level": "N2",
+        "notes": "Zieht eine Folgerung aus dem, was der andere gerade gesagt hat. Umgangssprachlich auch じゃあ oder それじゃ.",
+        "examples": [
+          {
+            "japanese": "「雨が降りそうです。」「それなら、傘を持って行きましょう。」",
+            "romaji": "\"Ame ga furisou desu.\" \"Sore nara, kasa o motte ikimashou.\"",
+            "german": "„Es sieht nach Regen aus.“ – „Dann nehmen wir einen Schirm mit.“"
+          },
+          {
+            "japanese": "時間がないの？それなら、また今度にしよう。",
+            "romaji": "Jikan ga nai no? Sore nara, mata kondo ni shiyou.",
+            "german": "Du hast keine Zeit? Dann machen wir es ein andermal."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add それなら【それなら】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1406070; spelling=それなら; reading=それなら; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1406070 それなら/それなら sense(s) 1 support \"wenn das so ist; dann\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1406070",
+            "spelling": "それなら",
+            "reading": "それなら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "if that's the case ...",
+                  "if so ...",
+                  "that being the case ..."
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "其れなら|それなら",
+          "referenceIndex": 0,
+          "referenceHash": "dba3656f3900aee985922bbb82fcb5f95abf51aa72f969b441cb431df43a99ce"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"wenn das so ist; dann\" matches JMdict 1406070 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Reacting to a weather remark.",
+          "Postponing a plan."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1406070; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for それなら / それなら; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup それなら / それなら",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add それなら【それなら】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1406070 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "d4d1049beca1fb6808d42365eab131e4a43229b482229c1d229054bc425f158d",
+        "approvalHash": "879014467e6a31dc4511d3c6ad4eeb07d8ad7d71bdc5dec24780b27fb10e0438"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Pitch unknown confirmed. Examples natural.",
+        "contentHash": "d4d1049beca1fb6808d42365eab131e4a43229b482229c1d229054bc425f158d",
+        "approvalHash": "879014467e6a31dc4511d3c6ad4eeb07d8ad7d71bdc5dec24780b27fb10e0438"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:taiya",
+      "revisionId": "035-add-taiya",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "タイヤ",
+        "reading": "タイヤ",
+        "romaji": "taiya",
+        "meaning": "Reifen",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Reifen von Auto oder Fahrrad. Die Schreibung タイア ist selten. Reifenpanne: パンク.",
+        "examples": [
+          {
+            "japanese": "冬になる前にタイヤを替えた。",
+            "romaji": "Fuyu ni naru mae ni taiya o kaeta.",
+            "german": "Vor dem Winter habe ich die Reifen gewechselt."
+          },
+          {
+            "japanese": "自転車のタイヤに空気を入れてください。",
+            "romaji": "Jitensha no taiya ni kuuki o irete kudasai.",
+            "german": "Bitte pump den Fahrradreifen auf."
+          }
+        ],
+        "pitch": 0,
+        "aliases": [
+          "タイア"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158204678",
+            "patterns": [
+              0
+            ],
+            "finding": "タイヤ / タイヤ; 名詞/普通名詞/一般/*; *; *; lemma タイヤ-tire; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "タイヤ",
+              "reading": "タイヤ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "タイヤ as \"Reifen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add タイヤ【タイヤ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076120; spelling=タイヤ; reading=タイヤ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1076120 タイヤ/タイヤ sense(s) 1 support \"Reifen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1076120",
+            "spelling": "タイヤ",
+            "reading": "タイヤ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tire",
+                  "tyre"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "たいあ|たいあ",
+          "referenceIndex": 0,
+          "referenceHash": "d57af201d72dc0aff1443a2cc5cebe6391bc0673db4a672d3e8e95daf333c33c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Reifen\" matches JMdict 1076120 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Changing car tyres.",
+          "Inflating a bicycle tyre."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1076120; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@158204678 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158204678",
+            "patterns": [
+              0
+            ],
+            "finding": "タイヤ / タイヤ; 名詞/普通名詞/一般/*; *; *; lemma タイヤ-tire; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "タイヤ",
+              "reading": "タイヤ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "タイヤ as \"Reifen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add タイヤ【タイヤ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1076120 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d6ee5c7f6072017738184a217499003397369e8199ee20e3c60c81d6e1d338ec",
+        "approvalHash": "3b92d49185e299d8acd59931e5f4ada32305851a3a0da9e520c0e9e4b683157e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Merge タイヤ/タイア correct (UniDic タイア row has lemma タイヤ-tire). Examples/romaji/pitch 0 fine. Note: candidate group たいや|たいや (tanos N1, master N1) is the same lexeme and remains open.",
+        "contentHash": "d6ee5c7f6072017738184a217499003397369e8199ee20e3c60c81d6e1d338ec",
+        "approvalHash": "3b92d49185e299d8acd59931e5f4ada32305851a3a0da9e520c0e9e4b683157e"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:daiyaguramu",
+      "revisionId": "035-add-daiyaguramu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ダイヤグラム",
+        "reading": "ダイヤグラム",
+        "romaji": "daiyaguramu",
+        "meaning": "Diagramm; grafischer Fahrplan",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Allgemein ein Diagramm, bei der Bahn der grafische Fahrplan; im Alltag meist kurz ダイヤ („Fahrplan“: ダイヤが乱れる).",
+        "examples": [
+          {
+            "japanese": "鉄道会社はダイヤグラムを見て列車の間隔を決める。",
+            "romaji": "Tetsudou gaisha wa daiyaguramu o mite ressha no kankaku o kimeru.",
+            "german": "Die Bahngesellschaft legt die Zugabstände anhand des grafischen Fahrplans fest."
+          },
+          {
+            "japanese": "この本には工程を表すダイヤグラムが載っている。",
+            "romaji": "Kono hon ni wa koutei o arawasu daiyaguramu ga notte iru.",
+            "german": "In diesem Buch ist ein Diagramm abgebildet, das die Arbeitsschritte darstellt."
+          }
+        ],
+        "pitch": 4,
+        "aliases": [
+          "ダイアグラム"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166923945",
+            "patterns": [
+              4
+            ],
+            "finding": "ダイヤグラム / ダイヤグラム; 名詞/普通名詞/一般/*; *; *; lemma ダイヤグラム-diagram; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ダイヤグラム",
+              "reading": "ダイヤグラム",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ダイヤグラム as \"Diagramm; grafischer Fahrplan\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2, tanos N2. Editorial N2.",
+      "rationale": "Add ダイヤグラム【ダイヤグラム】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076680; spelling=ダイヤグラム; reading=ダイヤグラム; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1076680 ダイヤグラム/ダイヤグラム sense(s) 1 support \"Diagramm; grafischer Fahrplan\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1076680",
+            "spelling": "ダイヤグラム",
+            "reading": "ダイヤグラム",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "diagram"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "だいあぐらむ|だいあぐらむ",
+          "referenceIndex": 0,
+          "referenceHash": "84f2264557cac350b80c385d1068959a9e349b284617e009940f3244c0566cd3"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Diagramm; grafischer Fahrplan\" matches JMdict 1076680 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Railway timetable graph.",
+          "Process diagram in a book."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1076680; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N2, tanos N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@166923945 attest 4; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166923945",
+            "patterns": [
+              4
+            ],
+            "finding": "ダイヤグラム / ダイヤグラム; 名詞/普通名詞/一般/*; *; *; lemma ダイヤグラム-diagram; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ダイヤグラム",
+              "reading": "ダイヤグラム",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ダイヤグラム as \"Diagramm; grafischer Fahrplan\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add ダイヤグラム【ダイヤグラム】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1076680 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a137df312bdac8ecbb0d947cb87a493f227b2fe5fc50432e097364bfedddf30c",
+        "approvalHash": "d9a69a14bd4d6fa9717e6785d39684c76718ca4ae50d0039003a1376199c6bfd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Merge ダイヤグラム/ダイアグラム correct (UniDic ダイアグラム row lemma ダイヤグラム-diagram, aType 4). Examples fine.",
+        "contentHash": "a137df312bdac8ecbb0d947cb87a493f227b2fe5fc50432e097364bfedddf30c",
+        "approvalHash": "d9a69a14bd4d6fa9717e6785d39684c76718ca4ae50d0039003a1376199c6bfd"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:taishite",
+      "revisionId": "035-add-taishite",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "大して",
+        "reading": "たいして",
+        "romaji": "taishite",
+        "meaning": "(nicht) besonders, (nicht) sehr",
+        "type": "Adverb",
+        "category": "Vergleich",
+        "level": "N2",
+        "notes": "Fast immer mit Verneinung: 大して難しくない („nicht besonders schwer“). Ähnlich: それほど, あまり.",
+        "examples": [
+          {
+            "japanese": "この映画は大して面白くなかった。",
+            "romaji": "Kono eiga wa taishite omoshirokunakatta.",
+            "german": "Der Film war nicht besonders interessant."
+          },
+          {
+            "japanese": "今日は大して寒くないから、コートはいらない。",
+            "romaji": "Kyou wa taishite samukunai kara, kooto wa iranai.",
+            "german": "Heute ist es nicht besonders kalt, also brauche ich keinen Mantel."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158022139",
+            "patterns": [
+              1
+            ],
+            "finding": "大して / タイシテ; 副詞/*/*/*; *; *; lemma 大して; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "大して",
+              "reading": "たいして",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "大して as \"(nicht) besonders, (nicht) sehr\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 大して【たいして】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1412970; spelling=大して; reading=たいして; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1412970 大して/たいして sense(s) 1 support \"(nicht) besonders, (nicht) sehr\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1412970",
+            "spelling": "大して",
+            "reading": "たいして",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) very",
+                  "(not) so",
+                  "(not) very much",
+                  "(not) particularly",
+                  "(not) especially"
+                ],
+                "notes": [
+                  "with neg. sentence"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "大して|たいして",
+          "referenceIndex": 0,
+          "referenceHash": "63cc450e9ffe1e43482bed072b86b50b99928b7d1a9e4b62b0409c1451aad574"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"(nicht) besonders, (nicht) sehr\" matches JMdict 1412970 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Mild criticism of a film.",
+          "Weather: not particularly cold."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1412970; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@158022139 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158022139",
+            "patterns": [
+              1
+            ],
+            "finding": "大して / タイシテ; 副詞/*/*/*; *; *; lemma 大して; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "大して",
+              "reading": "たいして",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "大して as \"(nicht) besonders, (nicht) sehr\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 大して【たいして】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1412970 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1300b2c988b9ae42efb66761c0e6bd0ed4ebc79189ed0b1641eda7948d5872cb",
+        "approvalHash": "6730fdbe4d13e087ca5e58e55c01beb59fec665bcd7c69f602db79b03b455386"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Round-1 fix applied: ex2 now 今日は大して寒くないから、コートはいらない。 – uses the adverb 大して with negation (not 大した); romaji and German correct; two distinct contexts (film, weather).",
+        "contentHash": "1300b2c988b9ae42efb66761c0e6bd0ed4ebc79189ed0b1641eda7948d5872cb",
+        "approvalHash": "6730fdbe4d13e087ca5e58e55c01beb59fec665bcd7c69f602db79b03b455386"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:daishou",
+      "revisionId": "035-add-daishou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "大小",
+        "reading": "だいしょう",
+        "romaji": "daishou",
+        "meaning": "groß und klein; Größe",
+        "type": "Nomen",
+        "category": "Vergleich",
+        "level": "N2",
+        "notes": "Große und kleine Dinge zusammen oder die Größe an sich: 大小の箱 (Kisten jeder Größe), 大小を問わず (unabhängig von der Größe).",
+        "examples": [
+          {
+            "japanese": "大小さまざまな石が庭に並んでいる。",
+            "romaji": "Daishou samazama na ishi ga niwa ni narande iru.",
+            "german": "Im Garten liegen Steine in allen Größen."
+          },
+          {
+            "japanese": "会社の大小にかかわらず、ルールは同じだ。",
+            "romaji": "Kaisha no daishou ni kakawarazu, ruuru wa onaji da.",
+            "german": "Unabhängig von der Größe der Firma gelten dieselben Regeln."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166794244",
+            "patterns": [
+              1
+            ],
+            "finding": "大小 / ダイショウ; 名詞/普通名詞/一般/*; *; *; lemma 大小; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "大小",
+              "reading": "だいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "大小 as \"groß und klein; Größe\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 大小【だいしょう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1414110; spelling=大小; reading=だいしょう; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1414110 大小/だいしょう sense(s) 1,2 support \"groß und klein; Größe\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1414110",
+            "spelling": "大小",
+            "reading": "だいしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "size",
+                  "dimension",
+                  "magnitude"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "large and small (sizes)",
+                  "various sizes"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "大小|だいしょう",
+          "referenceIndex": 0,
+          "referenceHash": "4de80f68ef067e835a574ef13dd44e9c728fb76c506f0b418d9b3780bba70caf"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"groß und klein; Größe\" matches JMdict 1414110 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Stones of all sizes.",
+          "Company size."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1414110; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@166794244 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166794244",
+            "patterns": [
+              1
+            ],
+            "finding": "大小 / ダイショウ; 名詞/普通名詞/一般/*; *; *; lemma 大小; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "大小",
+              "reading": "だいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "大小 as \"groß und klein; Größe\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 大小【だいしょう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1414110 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e915fcea02ddec451bf085d3d26bb575905ef4ae0e524fa04b11e22b894875bb",
+        "approvalHash": "03b640078a77b088845d37895a023ea1cf38efeb99503fb63ab008937b26d697"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "e915fcea02ddec451bf085d3d26bb575905ef4ae0e524fa04b11e22b894875bb",
+        "approvalHash": "03b640078a77b088845d37895a023ea1cf38efeb99503fb63ab008937b26d697"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:taisou",
+      "revisionId": "035-add-taisou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "大層",
+        "reading": "たいそう",
+        "romaji": "taisou",
+        "meaning": "sehr; übertrieben",
+        "type": "Adjektiv",
+        "category": "Vergleich",
+        "level": "N2",
+        "notes": "Als Adverb gehoben „sehr“ (大層喜ぶ); als な-Adjektiv „übertrieben, großspurig“ (大層なことを言う).",
+        "examples": [
+          {
+            "japanese": "祖母は孫の手紙を大層喜んだ。",
+            "romaji": "Sobo wa mago no tegami o taisou yorokonda.",
+            "german": "Die Großmutter freute sich sehr über den Brief ihres Enkels."
+          },
+          {
+            "japanese": "そんな大層な話ではありません。",
+            "romaji": "Sonna taisou na hanashi de wa arimasen.",
+            "german": "So eine große Sache ist das nicht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158109790",
+            "patterns": [
+              1
+            ],
+            "finding": "大層 / タイソウ; 副詞/*/*/*; *; *; lemma 大層; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "大層",
+              "reading": "たいそう",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "大層 as \"sehr; übertrieben\"."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158110559",
+            "patterns": [
+              1
+            ],
+            "finding": "大層 / タイソウ; 形状詞/一般/*/*; *; *; lemma 大層; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "大層",
+              "reading": "たいそう",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "大層 as \"sehr; übertrieben\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 大層【たいそう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1414380; spelling=大層; reading=たいそう; senses=1,4; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1414380 大層/たいそう sense(s) 1,4 support \"sehr; übertrieben\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1414380",
+            "spelling": "大層",
+            "reading": "たいそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "very",
+                  "extremely",
+                  "exceedingly",
+                  "greatly",
+                  "terribly"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "exaggerated"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "大層|たいそう",
+          "referenceIndex": 0,
+          "referenceHash": "815979a243c9272aa18bc6f9e0787acc86cc68446acf2e0c87e99c6b616c287b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"sehr; übertrieben\" matches JMdict 1414380 sense(s) 1,4.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Adverb: very pleased.",
+          "Adjective: making too much of something."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1414380; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@158109790, sys.dic@158110559 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158109790",
+            "patterns": [
+              1
+            ],
+            "finding": "大層 / タイソウ; 副詞/*/*/*; *; *; lemma 大層; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "大層",
+              "reading": "たいそう",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "大層 as \"sehr; übertrieben\"."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158110559",
+            "patterns": [
+              1
+            ],
+            "finding": "大層 / タイソウ; 形状詞/一般/*/*; *; *; lemma 大層; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "大層",
+              "reading": "たいそう",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "大層 as \"sehr; übertrieben\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 大層【たいそう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1414380 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "03b9e8d0e55d86b76a01e7d51d653516c36d4cee25dd8490e7c46d936200f37c",
+        "approvalHash": "6264c3dc209cd004c63adc50b71f8fa7f90e3d1bf35a45fee8a374d806af0b08"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Round-1 fix applied: meaning now „sehr; übertrieben“, covered by selected JMdict senses 1 and 4; examples and pitch 1 unchanged and correct.",
+        "contentHash": "03b9e8d0e55d86b76a01e7d51d653516c36d4cee25dd8490e7c46d936200f37c",
+        "approvalHash": "6264c3dc209cd004c63adc50b71f8fa7f90e3d1bf35a45fee8a374d806af0b08"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:taiboku",
+      "revisionId": "035-add-taiboku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "大木",
+        "reading": "たいぼく",
+        "romaji": "taiboku",
+        "meaning": "großer Baum",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N2",
+        "notes": "Ein großer, alter Baum. Umgangssprachlich auch 大きな木.",
+        "examples": [
+          {
+            "japanese": "神社の境内に大木が立っている。",
+            "romaji": "Jinja no keidai ni taiboku ga tatte iru.",
+            "german": "Auf dem Schreingelände steht ein riesiger Baum."
+          },
+          {
+            "japanese": "台風で大木が倒れた。",
+            "romaji": "Taifuu de taiboku ga taoreta.",
+            "german": "Beim Taifun ist ein großer Baum umgestürzt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158184871",
+            "patterns": [
+              0
+            ],
+            "finding": "大木 / タイボク; 名詞/普通名詞/一般/*; *; *; lemma 大木; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "大木",
+              "reading": "たいぼく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "大木 as \"großer Baum\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 大木【たいぼく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1415090; spelling=大木; reading=たいぼく; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1415090 大木/たいぼく sense(s) 1 support \"großer Baum\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1415090",
+            "spelling": "大木",
+            "reading": "たいぼく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "large tree"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "大木|たいぼく",
+          "referenceIndex": 0,
+          "referenceHash": "94ae729fceba4d733a2eeb27c22e4c496f92c01654d35cb97fa20bafa4660038"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"großer Baum\" matches JMdict 1415090 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Tree at a shrine.",
+          "Storm damage."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1415090; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@158184871 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158184871",
+            "patterns": [
+              0
+            ],
+            "finding": "大木 / タイボク; 名詞/普通名詞/一般/*; *; *; lemma 大木; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "大木",
+              "reading": "たいぼく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "大木 as \"großer Baum\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 大木【たいぼく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1415090 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "86455a88f71487a369be457e72b295c42c538d4b7a8be5f9e699a953c0aa5052",
+        "approvalHash": "ad022fe12ef61fdfccb559bdffbf8d04f6bef89c219ea88190e32c0de5347a21"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "86455a88f71487a369be457e72b295c42c538d4b7a8be5f9e699a953c0aa5052",
+        "approvalHash": "ad022fe12ef61fdfccb559bdffbf8d04f6bef89c219ea88190e32c0de5347a21"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:daimei",
+      "revisionId": "035-add-daimei",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "題名",
+        "reading": "だいめい",
+        "romaji": "daimei",
+        "meaning": "Titel (eines Werks)",
+        "type": "Nomen",
+        "category": "Literatur",
+        "level": "N2",
+        "notes": "Titel eines Buches, Films oder Liedes. Ähnlich: タイトル; kurz auch 題.",
+        "examples": [
+          {
+            "japanese": "この本の題名を思い出せない。",
+            "romaji": "Kono hon no daimei o omoidasenai.",
+            "german": "Ich komme nicht auf den Titel dieses Buches."
+          },
+          {
+            "japanese": "作文に題名をつけてください。",
+            "romaji": "Sakubun ni daimei o tsukete kudasai.",
+            "german": "Gebt euren Aufsätzen bitte einen Titel."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166917910",
+            "patterns": [
+              0
+            ],
+            "finding": "題名 / ダイメイ; 名詞/普通名詞/一般/*; *; *; lemma 題名; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "題名",
+              "reading": "だいめい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "題名 as \"Titel (eines Werks)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 題名【だいめい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1415490; spelling=題名; reading=だいめい; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1415490 題名/だいめい sense(s) 1 support \"Titel (eines Werks)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1415490",
+            "spelling": "題名",
+            "reading": "だいめい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "title",
+                  "caption",
+                  "heading"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "題名|だいめい",
+          "referenceIndex": 0,
+          "referenceHash": "cf62f2ee4b910e2f3b1835867ea57c8d3cc3b600bb269c2c474163d6b0091c90"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Titel (eines Werks)\" matches JMdict 1415490 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Forgetting a book title.",
+          "Titling an essay."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1415490; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@166917910 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166917910",
+            "patterns": [
+              0
+            ],
+            "finding": "題名 / ダイメイ; 名詞/普通名詞/一般/*; *; *; lemma 題名; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "題名",
+              "reading": "だいめい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "題名 as \"Titel (eines Werks)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 題名【だいめい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1415490 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "6e83423349542a9da41e5a80bc3bf2594c79cafa96b78ac1ddf476d345235568",
+        "approvalHash": "673c0055c8e79bfc4bea3ea4e9a6bcbca09c67b52b3e80c7bc809f0587a2b73c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "6e83423349542a9da41e5a80bc3bf2594c79cafa96b78ac1ddf476d345235568",
+        "approvalHash": "673c0055c8e79bfc4bea3ea4e9a6bcbca09c67b52b3e80c7bc809f0587a2b73c"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:daimeishi",
+      "revisionId": "035-add-daimeishi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "代名詞",
+        "reading": "だいめいし",
+        "romaji": "daimeishi",
+        "meaning": "Pronomen, Fürwort",
+        "type": "Nomen",
+        "category": "Sprache",
+        "level": "N2",
+        "notes": "Grammatikbegriff: Wörter wie 私, 彼, これ. Übertragen auch „Inbegriff“: 富士山は日本の代名詞だ.",
+        "examples": [
+          {
+            "japanese": "「彼」や「これ」は代名詞です。",
+            "romaji": "\"Kare\" ya \"kore\" wa daimeishi desu.",
+            "german": "„Er“ und „dies“ sind Pronomen."
+          },
+          {
+            "japanese": "この町の名前は、今では温泉の代名詞になっている。",
+            "romaji": "Kono machi no namae wa, ima de wa onsen no daimeishi ni natte iru.",
+            "german": "Der Name dieser Stadt ist heute der Inbegriff für heiße Quellen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 代名詞【だいめいし】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1412340; spelling=代名詞; reading=だいめいし; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1412340 代名詞/だいめいし sense(s) 1,2 support \"Pronomen, Fürwort\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1412340",
+            "spelling": "代名詞",
+            "reading": "だいめいし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pronoun"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "synonym",
+                  "classic example",
+                  "pattern",
+                  "byword",
+                  "representative"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "代名詞|だいめいし",
+          "referenceIndex": 0,
+          "referenceHash": "3f2a31e55ca790f9f0a6d0c62491e3a6136def2a9742f6857b8c2c2d1a8cdd16"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Pronomen, Fürwort\" matches JMdict 1412340 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Grammar term.",
+          "Figurative “synonym for”."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1412340; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 代名詞 / だいめいし; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 代名詞 / だいめいし",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 代名詞【だいめいし】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1412340 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "95b92ed60953611bc0bb2515bd96633cbb4af132c92730fc9bc210299ed80066",
+        "approvalHash": "0466c7d86abf5f296f67fdd3f541853720b03fed288eb1e235306a9699a9eeb0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Pitch unknown confirmed (no 代名詞 row in UniDic). Examples cover both senses.",
+        "contentHash": "95b92ed60953611bc0bb2515bd96633cbb4af132c92730fc9bc210299ed80066",
+        "approvalHash": "0466c7d86abf5f296f67fdd3f541853720b03fed288eb1e235306a9699a9eeb0"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:daiyamondo",
+      "revisionId": "035-add-daiyamondo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ダイヤモンド",
+        "reading": "ダイヤモンド",
+        "romaji": "daiyamondo",
+        "meaning": "Diamant",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Der Edelstein; kurz oft ダイヤ (ダイヤの指輪). ダイヤ bedeutet aber auch „Fahrplan“.",
+        "examples": [
+          {
+            "japanese": "ダイヤモンドは一番硬い石だ。",
+            "romaji": "Daiyamondo wa ichiban katai ishi da.",
+            "german": "Der Diamant ist der härteste Stein."
+          },
+          {
+            "japanese": "母はダイヤモンドの指輪を大切にしている。",
+            "romaji": "Haha wa daiyamondo no yubiwa o taisetsu ni shite iru.",
+            "german": "Meine Mutter hütet ihren Diamantring."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166926127",
+            "patterns": [
+              4
+            ],
+            "finding": "ダイヤモンド / ダイヤモンド; 名詞/普通名詞/一般/*; *; *; lemma ダイヤモンド-diamond; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ダイヤモンド",
+              "reading": "ダイヤモンド",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ダイヤモンド as \"Diamant\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ダイヤモンド【ダイヤモンド】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076890; spelling=ダイヤモンド; reading=ダイヤモンド; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1076890 ダイヤモンド/ダイヤモンド sense(s) 1 support \"Diamant\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1076890",
+            "spelling": "ダイヤモンド",
+            "reading": "ダイヤモンド",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "diamond"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "だいやもんど|だいやもんど",
+          "referenceIndex": 0,
+          "referenceHash": "90bfcbd4a61a035d7a3b308af94e54c10d3d278d021c728cd53c1e82eacd01de"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Diamant\" matches JMdict 1076890 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Hardness of a gem.",
+          "Diamond ring."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1076890; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@166926127 attest 4; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166926127",
+            "patterns": [
+              4
+            ],
+            "finding": "ダイヤモンド / ダイヤモンド; 名詞/普通名詞/一般/*; *; *; lemma ダイヤモンド-diamond; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ダイヤモンド",
+              "reading": "ダイヤモンド",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ダイヤモンド as \"Diamant\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add ダイヤモンド【ダイヤモンド】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1076890 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f155bce65ae5eae74222e401694e8338078f71be9dd1e57c91a6974a1fb36267",
+        "approvalHash": "df05b0bcaf3904bf978a02b3c86c75cfbf71ac3053b2f654652a4ed599ed1856"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "f155bce65ae5eae74222e401694e8338078f71be9dd1e57c91a6974a1fb36267",
+        "approvalHash": "df05b0bcaf3904bf978a02b3c86c75cfbf71ac3053b2f654652a4ed599ed1856"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:daiyaru",
+      "revisionId": "035-add-daiyaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ダイヤル",
+        "reading": "ダイヤル",
+        "romaji": "daiyaru",
+        "meaning": "Wählscheibe; Drehregler",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N2",
+        "notes": "Drehknopf an Geräten (ダイヤルを回す) und die Wählscheibe alter Telefone; als Verb ダイヤルする „eine Nummer wählen“.",
+        "examples": [
+          {
+            "japanese": "ダイヤルを回して音量を上げた。",
+            "romaji": "Daiyaru o mawashite onryou o ageta.",
+            "german": "Ich habe den Drehregler gedreht und die Lautstärke erhöht."
+          },
+          {
+            "japanese": "祖父の家にはダイヤル式の電話がある。",
+            "romaji": "Sofu no ie ni wa daiyarushiki no denwa ga aru.",
+            "german": "Bei meinem Großvater gibt es noch ein Telefon mit Wählscheibe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166929141",
+            "patterns": [
+              0
+            ],
+            "finding": "ダイヤル / ダイヤル; 名詞/普通名詞/サ変可能/*; *; *; lemma ダイヤル-dial; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ダイヤル",
+              "reading": "ダイヤル",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "ダイヤル as \"Wählscheibe; Drehregler\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ダイヤル【ダイヤル】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076900; spelling=ダイヤル; reading=ダイヤル; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1076900 ダイヤル/ダイヤル sense(s) 1 support \"Wählscheibe; Drehregler\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1076900",
+            "spelling": "ダイヤル",
+            "reading": "ダイヤル",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dial (e.g. telephone, radio, clock, gauge)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "だいやる|だいやる",
+          "referenceIndex": 0,
+          "referenceHash": "aaa09f8c4f01b349d6d1bee1b0c6f803e2f21a8e86f653c4b6839839ee962818"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Wählscheibe; Drehregler\" matches JMdict 1076900 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Volume knob.",
+          "Old rotary phone."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1076900; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@166929141 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166929141",
+            "patterns": [
+              0
+            ],
+            "finding": "ダイヤル / ダイヤル; 名詞/普通名詞/サ変可能/*; *; *; lemma ダイヤル-dial; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ダイヤル",
+              "reading": "ダイヤル",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "ダイヤル as \"Wählscheibe; Drehregler\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add ダイヤル【ダイヤル】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1076900 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c91cc3e70ad1a2f26cc01b9791f3779c98748f920261fed9405b26e25cacc924",
+        "approvalHash": "5629cb95c485258bee9cff3f02fd711c5dd43bae4f64573d85f3424262638704"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "c91cc3e70ad1a2f26cc01b9791f3779c98748f920261fed9405b26e25cacc924",
+        "approvalHash": "5629cb95c485258bee9cff3f02fd711c5dd43bae4f64573d85f3424262638704"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:taue",
+      "revisionId": "035-add-taue",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "田植え",
+        "reading": "たうえ",
+        "romaji": "taue",
+        "meaning": "Reispflanzen, Setzen der Reissetzlinge",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N2",
+        "notes": "Das Umsetzen der Reissetzlinge ins überflutete Feld, meist im Mai oder Juni.",
+        "examples": [
+          {
+            "japanese": "五月になると、村では田植えが始まる。",
+            "romaji": "Gogatsu ni naru to, mura de wa taue ga hajimaru.",
+            "german": "Im Mai beginnt im Dorf das Reispflanzen."
+          },
+          {
+            "japanese": "子どもたちが田植えを体験した。",
+            "romaji": "Kodomotachi ga taue o taiken shita.",
+            "german": "Die Kinder haben das Reispflanzen selbst ausprobiert."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158263076",
+            "patterns": [
+              3
+            ],
+            "finding": "田植え / タウエ; 名詞/普通名詞/一般/*; *; *; lemma 田植え; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "田植え",
+              "reading": "たうえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "田植え as \"Reispflanzen, Setzen der Reissetzlinge\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 田植え【たうえ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1442810; spelling=田植え; reading=たうえ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1442810 田植え/たうえ sense(s) 1 support \"Reispflanzen, Setzen der Reissetzlinge\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1442810",
+            "spelling": "田植え",
+            "reading": "たうえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rice planting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "田植え|たうえ",
+          "referenceIndex": 0,
+          "referenceHash": "d8aa1935cac80413284045e80fed408c9482693b3388eade59ea137af1587bf0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Reispflanzen, Setzen der Reissetzlinge\" matches JMdict 1442810 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Seasonal farm work.",
+          "School experience."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1442810; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@158263076 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158263076",
+            "patterns": [
+              3
+            ],
+            "finding": "田植え / タウエ; 名詞/普通名詞/一般/*; *; *; lemma 田植え; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "田植え",
+              "reading": "たうえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "田植え as \"Reispflanzen, Setzen der Reissetzlinge\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 田植え【たうえ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1442810 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "fd21979dc293645c56bf2eaa61f3b12707a70a2181650accbff01df6d9c38c1f",
+        "approvalHash": "7c3cc01885f9c5021400eca061e2f0e5a0424907a6016c34d2955b0893c51ca7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "fd21979dc293645c56bf2eaa61f3b12707a70a2181650accbff01df6d9c38c1f",
+        "approvalHash": "7c3cc01885f9c5021400eca061e2f0e5a0424907a6016c34d2955b0893c51ca7"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "其れと|それと",
+      "referenceIndex": 0,
+      "referenceHash": "bac4e9e7d01f5e8ac07aeb36f26dbabae20a2d04fd3d256fa33aaca47e13b7aa",
+      "revisionId": "035-candidate-soreto-8854bf3b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:soreto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:soreto": "d910e8ac8843f3e11e35b13525fde787c643300a67e3e1eb721552cad2ffe64c"
+      },
+      "reason": "Reference 其れと/それと (master N2) is the same lexeme as the new entry それと【それと】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 其れと/それと at N2 (gloss: and then; even so; and)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2396190; spelling=それと; reading=それと; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2396190 as the reference form.",
+          "selected": {
+            "sequence": "2396190",
+            "spelling": "それと",
+            "reading": "それと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "and then",
+                  "in addition to that",
+                  "also",
+                  "even so"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 其れと|それと#0 is the same lexeme as vocab-n2:correction:soreto; target hash bound to the assembled addition.",
+        "contentHash": "848ebd22425ce9080a8d0f0c20fce4b248b5d1a80fb6cc030257e0628ec7c634",
+        "approvalHash": "848ebd22425ce9080a8d0f0c20fce4b248b5d1a80fb6cc030257e0628ec7c634"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 其れと/それと is the same lexeme as vocab-n2:correction:soreto.",
+        "contentHash": "848ebd22425ce9080a8d0f0c20fce4b248b5d1a80fb6cc030257e0628ec7c634",
+        "approvalHash": "848ebd22425ce9080a8d0f0c20fce4b248b5d1a80fb6cc030257e0628ec7c634"
+      }
+    },
+    {
+      "key": "それなのに|それなのに",
+      "referenceIndex": 0,
+      "referenceHash": "c3e91c1a966f303986c3d46336b2637b4e466785896104e4ace93055942261f9",
+      "revisionId": "035-candidate-sorenanoni-ca898888-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:sorenanoni"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sorenanoni": "bc130948d3c623c758a02c8dfa2f89cf00898d3300279c4aacfa59e5b90d0f0d"
+      },
+      "reason": "Reference それなのに/それなのに (master N2) is the same lexeme as the new entry それなのに【それなのに】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists それなのに/それなのに at N2 (gloss: and yet; despite this; but even so)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2055520; spelling=それなのに; reading=それなのに; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2055520 as the reference form.",
+          "selected": {
+            "sequence": "2055520",
+            "spelling": "それなのに",
+            "reading": "それなのに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [],
+                "gloss": [
+                  "and yet",
+                  "despite this",
+                  "but even so",
+                  "but even then",
+                  "however",
+                  "nevertheless",
+                  "for all that",
+                  "notwithstanding that"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference それなのに|それなのに#0 is the same lexeme as vocab-n2:correction:sorenanoni; target hash bound to the assembled addition.",
+        "contentHash": "1693065ede150648eb66e096f6274e62107bf5237d430882722d12d9509bc4d3",
+        "approvalHash": "1693065ede150648eb66e096f6274e62107bf5237d430882722d12d9509bc4d3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row それなのに/それなのに is the same lexeme as vocab-n2:correction:sorenanoni.",
+        "contentHash": "1693065ede150648eb66e096f6274e62107bf5237d430882722d12d9509bc4d3",
+        "approvalHash": "1693065ede150648eb66e096f6274e62107bf5237d430882722d12d9509bc4d3"
+      }
+    },
+    {
+      "key": "其れなら|それなら",
+      "referenceIndex": 0,
+      "referenceHash": "dba3656f3900aee985922bbb82fcb5f95abf51aa72f969b441cb431df43a99ce",
+      "revisionId": "035-candidate-sorenara-d5f4053d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:sorenara"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sorenara": "d4d1049beca1fb6808d42365eab131e4a43229b482229c1d229054bc425f158d"
+      },
+      "reason": "Reference 其れなら/それなら (master N2) is the same lexeme as the new entry それなら【それなら】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 其れなら/それなら at N2 (gloss: If that's the case ...; If so ...; That being the case ...)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1406070; spelling=それなら; reading=それなら; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1406070 as the reference form.",
+          "selected": {
+            "sequence": "1406070",
+            "spelling": "それなら",
+            "reading": "それなら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "if that's the case ...",
+                  "if so ...",
+                  "that being the case ..."
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 其れなら|それなら#0 is the same lexeme as vocab-n2:correction:sorenara; target hash bound to the assembled addition.",
+        "contentHash": "a649aedde921c88b12c8aff3654ac408d4cad17f2d359e6241f828be9902483a",
+        "approvalHash": "a649aedde921c88b12c8aff3654ac408d4cad17f2d359e6241f828be9902483a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 其れなら/それなら is the same lexeme as vocab-n2:correction:sorenara.",
+        "contentHash": "a649aedde921c88b12c8aff3654ac408d4cad17f2d359e6241f828be9902483a",
+        "approvalHash": "a649aedde921c88b12c8aff3654ac408d4cad17f2d359e6241f828be9902483a"
+      }
+    },
+    {
+      "key": "たいあ|たいあ",
+      "referenceIndex": 0,
+      "referenceHash": "d57af201d72dc0aff1443a2cc5cebe6391bc0673db4a672d3e8e95daf333c33c",
+      "revisionId": "035-candidate-taiya-85f931a7-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:taiya"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taiya": "d6ee5c7f6072017738184a217499003397369e8199ee20e3c60c81d6e1d338ec"
+      },
+      "reason": "Reference タイア/タイア (tanos N2) is the same lexeme as the new entry タイヤ【タイヤ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists タイア/タイア at N2 (gloss: tire,tyre)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076120; spelling=タイヤ; reading=タイヤ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1076120 as the reference form.",
+          "selected": {
+            "sequence": "1076120",
+            "spelling": "タイヤ",
+            "reading": "タイヤ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tire",
+                  "tyre"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference たいあ|たいあ#0 is the same lexeme as vocab-n2:correction:taiya; target hash bound to the assembled addition.",
+        "contentHash": "cf0b12645f948095432a488fddcebc1dc84ca68635eb60ae6efc05a51dc5c420",
+        "approvalHash": "cf0b12645f948095432a488fddcebc1dc84ca68635eb60ae6efc05a51dc5c420"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row タイア/タイア is the same lexeme as vocab-n2:correction:taiya.",
+        "contentHash": "cf0b12645f948095432a488fddcebc1dc84ca68635eb60ae6efc05a51dc5c420",
+        "approvalHash": "cf0b12645f948095432a488fddcebc1dc84ca68635eb60ae6efc05a51dc5c420"
+      }
+    },
+    {
+      "key": "たいあ|たいあ",
+      "referenceIndex": 1,
+      "referenceHash": "c108d5f81e3a26f226047dc987f6492f8f5daf5f12ba7d0467e077901bc5ffe6",
+      "revisionId": "035-candidate-taiya-85f931a7-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:taiya"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taiya": "d6ee5c7f6072017738184a217499003397369e8199ee20e3c60c81d6e1d338ec"
+      },
+      "reason": "Reference タイア/タイア (master N2) is the same lexeme as the new entry タイヤ【タイヤ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists タイア/タイア at N2 (gloss: tire; tyre)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076120; spelling=タイヤ; reading=タイヤ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1076120 as the reference form.",
+          "selected": {
+            "sequence": "1076120",
+            "spelling": "タイヤ",
+            "reading": "タイヤ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tire",
+                  "tyre"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference たいあ|たいあ#1 is the same lexeme as vocab-n2:correction:taiya; target hash bound to the assembled addition.",
+        "contentHash": "b83953d3461f429e145014112b8cd498b7f7e5a858ac47312d0a108c35d3d2b1",
+        "approvalHash": "b83953d3461f429e145014112b8cd498b7f7e5a858ac47312d0a108c35d3d2b1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row タイア/タイア is the same lexeme as vocab-n2:correction:taiya.",
+        "contentHash": "b83953d3461f429e145014112b8cd498b7f7e5a858ac47312d0a108c35d3d2b1",
+        "approvalHash": "b83953d3461f429e145014112b8cd498b7f7e5a858ac47312d0a108c35d3d2b1"
+      }
+    },
+    {
+      "key": "だいあぐらむ|だいあぐらむ",
+      "referenceIndex": 0,
+      "referenceHash": "84f2264557cac350b80c385d1068959a9e349b284617e009940f3244c0566cd3",
+      "revisionId": "035-candidate-daiyaguramu-20842c2d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daiyaguramu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daiyaguramu": "a137df312bdac8ecbb0d947cb87a493f227b2fe5fc50432e097364bfedddf30c"
+      },
+      "reason": "Reference ダイアグラム/ダイアグラム (master N2) is the same lexeme as the new entry ダイヤグラム【ダイヤグラム】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists ダイアグラム/ダイアグラム at N2 (gloss: diagram; диагра́мма; (n) Diagramm)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076680; spelling=ダイヤグラム; reading=ダイヤグラム; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1076680 as the reference form.",
+          "selected": {
+            "sequence": "1076680",
+            "spelling": "ダイヤグラム",
+            "reading": "ダイヤグラム",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "diagram"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference だいあぐらむ|だいあぐらむ#0 is the same lexeme as vocab-n2:correction:daiyaguramu; target hash bound to the assembled addition.",
+        "contentHash": "1d17229f2f8160103af5f474c9a1a33f60f607db574f77d4d9c7a153a274aab7",
+        "approvalHash": "1d17229f2f8160103af5f474c9a1a33f60f607db574f77d4d9c7a153a274aab7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row ダイアグラム/ダイアグラム is the same lexeme as vocab-n2:correction:daiyaguramu.",
+        "contentHash": "1d17229f2f8160103af5f474c9a1a33f60f607db574f77d4d9c7a153a274aab7",
+        "approvalHash": "1d17229f2f8160103af5f474c9a1a33f60f607db574f77d4d9c7a153a274aab7"
+      }
+    },
+    {
+      "key": "だいやぐらむ|だいやぐらむ",
+      "referenceIndex": 0,
+      "referenceHash": "4c7429ff1779d1deb1db67a5d52b5a6f676dac28839657a6f2a5483f805d4a24",
+      "revisionId": "035-candidate-daiyaguramu-a9e907b6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daiyaguramu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daiyaguramu": "a137df312bdac8ecbb0d947cb87a493f227b2fe5fc50432e097364bfedddf30c"
+      },
+      "reason": "Reference ダイヤグラム/ダイヤグラム (tanos N2) is the same lexeme as the new entry ダイヤグラム【ダイヤグラム】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists ダイヤグラム/ダイヤグラム at N2 (gloss: diagram)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076680; spelling=ダイヤグラム; reading=ダイヤグラム; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1076680 as the reference form.",
+          "selected": {
+            "sequence": "1076680",
+            "spelling": "ダイヤグラム",
+            "reading": "ダイヤグラム",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "diagram"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference だいやぐらむ|だいやぐらむ#0 is the same lexeme as vocab-n2:correction:daiyaguramu; target hash bound to the assembled addition.",
+        "contentHash": "1b391098d68e835179525ac89ed0bf0f6cb4cbdadf461bf50f9242a26088e748",
+        "approvalHash": "1b391098d68e835179525ac89ed0bf0f6cb4cbdadf461bf50f9242a26088e748"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row ダイヤグラム/ダイヤグラム is the same lexeme as vocab-n2:correction:daiyaguramu.",
+        "contentHash": "1b391098d68e835179525ac89ed0bf0f6cb4cbdadf461bf50f9242a26088e748",
+        "approvalHash": "1b391098d68e835179525ac89ed0bf0f6cb4cbdadf461bf50f9242a26088e748"
+      }
+    },
+    {
+      "key": "大して|たいして",
+      "referenceIndex": 0,
+      "referenceHash": "63cc450e9ffe1e43482bed072b86b50b99928b7d1a9e4b62b0409c1451aad574",
+      "revisionId": "035-candidate-taishite-6bedaabf-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:taishite"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taishite": "1300b2c988b9ae42efb66761c0e6bd0ed4ebc79189ed0b1641eda7948d5872cb"
+      },
+      "reason": "Reference 大して/たいして (tanos N2) is the same lexeme as the new entry 大して【たいして】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists 大して/たいして at N2 (gloss: (not so) much,(not) very)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1412970; spelling=大して; reading=たいして; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1412970 as the reference form.",
+          "selected": {
+            "sequence": "1412970",
+            "spelling": "大して",
+            "reading": "たいして",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) very",
+                  "(not) so",
+                  "(not) very much",
+                  "(not) particularly",
+                  "(not) especially"
+                ],
+                "notes": [
+                  "with neg. sentence"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 大して|たいして#0 is the same lexeme as vocab-n2:correction:taishite; target hash bound to the assembled addition.",
+        "contentHash": "281acd4e87058c94837e7c8808e3548c957e0203674961e33a84968e31a76462",
+        "approvalHash": "281acd4e87058c94837e7c8808e3548c957e0203674961e33a84968e31a76462"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 大して/たいして is the same lexeme as vocab-n2:correction:taishite.",
+        "contentHash": "281acd4e87058c94837e7c8808e3548c957e0203674961e33a84968e31a76462",
+        "approvalHash": "281acd4e87058c94837e7c8808e3548c957e0203674961e33a84968e31a76462"
+      }
+    },
+    {
+      "key": "大して|たいして",
+      "referenceIndex": 1,
+      "referenceHash": "bb4c813060470bd4d6e303f64767637628f50a16d59716bd65b188e4fe0a22be",
+      "revisionId": "035-candidate-taishite-6bedaabf-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:taishite"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taishite": "1300b2c988b9ae42efb66761c0e6bd0ed4ebc79189ed0b1641eda7948d5872cb"
+      },
+      "reason": "Reference 大して/たいして (master N2) is the same lexeme as the new entry 大して【たいして】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 大して/たいして at N2 (gloss: (not so) much; (not) very; pas tellement)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1412970; spelling=大して; reading=たいして; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1412970 as the reference form.",
+          "selected": {
+            "sequence": "1412970",
+            "spelling": "大して",
+            "reading": "たいして",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) very",
+                  "(not) so",
+                  "(not) very much",
+                  "(not) particularly",
+                  "(not) especially"
+                ],
+                "notes": [
+                  "with neg. sentence"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 大して|たいして#1 is the same lexeme as vocab-n2:correction:taishite; target hash bound to the assembled addition.",
+        "contentHash": "8a0ea96c527e8db84cd761d394c535c15748b3b1ca4fd1dca9424905cd139113",
+        "approvalHash": "8a0ea96c527e8db84cd761d394c535c15748b3b1ca4fd1dca9424905cd139113"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 大して/たいして is the same lexeme as vocab-n2:correction:taishite.",
+        "contentHash": "8a0ea96c527e8db84cd761d394c535c15748b3b1ca4fd1dca9424905cd139113",
+        "approvalHash": "8a0ea96c527e8db84cd761d394c535c15748b3b1ca4fd1dca9424905cd139113"
+      }
+    },
+    {
+      "key": "大小|だいしょう",
+      "referenceIndex": 0,
+      "referenceHash": "4de80f68ef067e835a574ef13dd44e9c728fb76c506f0b418d9b3780bba70caf",
+      "revisionId": "035-candidate-daishou-f054103a-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daishou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daishou": "e915fcea02ddec451bf085d3d26bb575905ef4ae0e524fa04b11e22b894875bb"
+      },
+      "reason": "Reference 大小/だいしょう (tanos N2) is the same lexeme as the new entry 大小【だいしょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists 大小/だいしょう at N2 (gloss: size)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1414110; spelling=大小; reading=だいしょう; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1414110 as the reference form.",
+          "selected": {
+            "sequence": "1414110",
+            "spelling": "大小",
+            "reading": "だいしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "size",
+                  "dimension",
+                  "magnitude"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "large and small (sizes)",
+                  "various sizes"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 大小|だいしょう#0 is the same lexeme as vocab-n2:correction:daishou; target hash bound to the assembled addition.",
+        "contentHash": "d0083c9846d82d083a6048a9abb2c77af677371e25c847975b35b6aec05ed80f",
+        "approvalHash": "d0083c9846d82d083a6048a9abb2c77af677371e25c847975b35b6aec05ed80f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 大小/だいしょう is the same lexeme as vocab-n2:correction:daishou.",
+        "contentHash": "d0083c9846d82d083a6048a9abb2c77af677371e25c847975b35b6aec05ed80f",
+        "approvalHash": "d0083c9846d82d083a6048a9abb2c77af677371e25c847975b35b6aec05ed80f"
+      }
+    },
+    {
+      "key": "大小|だいしょう",
+      "referenceIndex": 1,
+      "referenceHash": "3e1de6b6c97541e314fb58fe623ca5352646c28c3357215d44d2f16dfcea7aef",
+      "revisionId": "035-candidate-daishou-f054103a-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daishou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daishou": "e915fcea02ddec451bf085d3d26bb575905ef4ae0e524fa04b11e22b894875bb"
+      },
+      "reason": "Reference 大小/だいしょう (master N2) is the same lexeme as the new entry 大小【だいしょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 大小/だいしょう at N2 (gloss: sizes (various); large and small; pointure)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1414110; spelling=大小; reading=だいしょう; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1414110 as the reference form.",
+          "selected": {
+            "sequence": "1414110",
+            "spelling": "大小",
+            "reading": "だいしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "size",
+                  "dimension",
+                  "magnitude"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "large and small (sizes)",
+                  "various sizes"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 大小|だいしょう#1 is the same lexeme as vocab-n2:correction:daishou; target hash bound to the assembled addition.",
+        "contentHash": "1699ca1167ee7770c09f1a2d5a1a75c421c22469066371718291169097d50bcf",
+        "approvalHash": "1699ca1167ee7770c09f1a2d5a1a75c421c22469066371718291169097d50bcf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 大小/だいしょう is the same lexeme as vocab-n2:correction:daishou.",
+        "contentHash": "1699ca1167ee7770c09f1a2d5a1a75c421c22469066371718291169097d50bcf",
+        "approvalHash": "1699ca1167ee7770c09f1a2d5a1a75c421c22469066371718291169097d50bcf"
+      }
+    },
+    {
+      "key": "大層|たいそう",
+      "referenceIndex": 0,
+      "referenceHash": "815979a243c9272aa18bc6f9e0787acc86cc68446acf2e0c87e99c6b616c287b",
+      "revisionId": "035-candidate-taisou-857d0411-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:taisou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taisou": "03b9e8d0e55d86b76a01e7d51d653516c36d4cee25dd8490e7c46d936200f37c"
+      },
+      "reason": "Reference 大層/たいそう (tanos N2) is the same lexeme as the new entry 大層【たいそう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists 大層/たいそう at N2 (gloss: very much,exaggerated,very fine)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1414380; spelling=大層; reading=たいそう; senses=1,4; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1414380 as the reference form.",
+          "selected": {
+            "sequence": "1414380",
+            "spelling": "大層",
+            "reading": "たいそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "very",
+                  "extremely",
+                  "exceedingly",
+                  "greatly",
+                  "terribly"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "exaggerated"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 大層|たいそう#0 is the same lexeme as vocab-n2:correction:taisou; target hash bound to the assembled addition.",
+        "contentHash": "e9f7f9bbc71cf40924b4f161dd8d8004b4b04da56bb43cd9804c1fbeb50f20d8",
+        "approvalHash": "e9f7f9bbc71cf40924b4f161dd8d8004b4b04da56bb43cd9804c1fbeb50f20d8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 大層/たいそう is the same lexeme as vocab-n2:correction:taisou.",
+        "contentHash": "e9f7f9bbc71cf40924b4f161dd8d8004b4b04da56bb43cd9804c1fbeb50f20d8",
+        "approvalHash": "e9f7f9bbc71cf40924b4f161dd8d8004b4b04da56bb43cd9804c1fbeb50f20d8"
+      }
+    },
+    {
+      "key": "大層|たいそう",
+      "referenceIndex": 1,
+      "referenceHash": "194c969cbee8c1b5b835bb35966a334f59b93aaa1dc0debfe85617fab63bba9d",
+      "revisionId": "035-candidate-taisou-857d0411-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:taisou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taisou": "03b9e8d0e55d86b76a01e7d51d653516c36d4cee25dd8490e7c46d936200f37c"
+      },
+      "reason": "Reference 大層/たいそう (master N2) is the same lexeme as the new entry 大層【たいそう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 大層/たいそう at N2 (gloss: very much; exaggerated; very fine)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1414380; spelling=大層; reading=たいそう; senses=1,4; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1414380 as the reference form.",
+          "selected": {
+            "sequence": "1414380",
+            "spelling": "大層",
+            "reading": "たいそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "very",
+                  "extremely",
+                  "exceedingly",
+                  "greatly",
+                  "terribly"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "exaggerated"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 大層|たいそう#1 is the same lexeme as vocab-n2:correction:taisou; target hash bound to the assembled addition.",
+        "contentHash": "22216bd9069d2f2d9d75c1c6d4c97a142f798751cb42846427f917c5f0436751",
+        "approvalHash": "22216bd9069d2f2d9d75c1c6d4c97a142f798751cb42846427f917c5f0436751"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 大層/たいそう is the same lexeme as vocab-n2:correction:taisou.",
+        "contentHash": "22216bd9069d2f2d9d75c1c6d4c97a142f798751cb42846427f917c5f0436751",
+        "approvalHash": "22216bd9069d2f2d9d75c1c6d4c97a142f798751cb42846427f917c5f0436751"
+      }
+    },
+    {
+      "key": "大木|たいぼく",
+      "referenceIndex": 0,
+      "referenceHash": "94ae729fceba4d733a2eeb27c22e4c496f92c01654d35cb97fa20bafa4660038",
+      "revisionId": "035-candidate-taiboku-af190fc9-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:taiboku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taiboku": "86455a88f71487a369be457e72b295c42c538d4b7a8be5f9e699a953c0aa5052"
+      },
+      "reason": "Reference 大木/たいぼく (tanos N2) is the same lexeme as the new entry 大木【たいぼく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists 大木/たいぼく at N2 (gloss: large tree)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1415090; spelling=大木; reading=たいぼく; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1415090 as the reference form.",
+          "selected": {
+            "sequence": "1415090",
+            "spelling": "大木",
+            "reading": "たいぼく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "large tree"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 大木|たいぼく#0 is the same lexeme as vocab-n2:correction:taiboku; target hash bound to the assembled addition.",
+        "contentHash": "ef9691ea30a670c749ccac3b543fc962ebd7ea0cb7aa733af7beae48a3ce096c",
+        "approvalHash": "ef9691ea30a670c749ccac3b543fc962ebd7ea0cb7aa733af7beae48a3ce096c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 大木/たいぼく is the same lexeme as vocab-n2:correction:taiboku.",
+        "contentHash": "ef9691ea30a670c749ccac3b543fc962ebd7ea0cb7aa733af7beae48a3ce096c",
+        "approvalHash": "ef9691ea30a670c749ccac3b543fc962ebd7ea0cb7aa733af7beae48a3ce096c"
+      }
+    },
+    {
+      "key": "大木|たいぼく",
+      "referenceIndex": 1,
+      "referenceHash": "e54459e52e7c7b52daf2ec195c2714159ab380d3fb750ff9bbd284b409cfc69d",
+      "revisionId": "035-candidate-taiboku-af190fc9-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:taiboku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taiboku": "86455a88f71487a369be457e72b295c42c538d4b7a8be5f9e699a953c0aa5052"
+      },
+      "reason": "Reference 大木/たいぼく (master N2) is the same lexeme as the new entry 大木【たいぼく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 大木/たいぼく at N2 (gloss: large tree; (n) hoch aufragender Baum; großer Baum)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1415090; spelling=大木; reading=たいぼく; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1415090 as the reference form.",
+          "selected": {
+            "sequence": "1415090",
+            "spelling": "大木",
+            "reading": "たいぼく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "large tree"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 大木|たいぼく#1 is the same lexeme as vocab-n2:correction:taiboku; target hash bound to the assembled addition.",
+        "contentHash": "74b3cf366aced77665643dc164c2c410e04b86a1874232a7a07c3da429a7d961",
+        "approvalHash": "74b3cf366aced77665643dc164c2c410e04b86a1874232a7a07c3da429a7d961"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 大木/たいぼく is the same lexeme as vocab-n2:correction:taiboku.",
+        "contentHash": "74b3cf366aced77665643dc164c2c410e04b86a1874232a7a07c3da429a7d961",
+        "approvalHash": "74b3cf366aced77665643dc164c2c410e04b86a1874232a7a07c3da429a7d961"
+      }
+    },
+    {
+      "key": "題名|だいめい",
+      "referenceIndex": 0,
+      "referenceHash": "cf62f2ee4b910e2f3b1835867ea57c8d3cc3b600bb269c2c474163d6b0091c90",
+      "revisionId": "035-candidate-daimei-419c0000-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daimei"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daimei": "6e83423349542a9da41e5a80bc3bf2594c79cafa96b78ac1ddf476d345235568"
+      },
+      "reason": "Reference 題名/だいめい (tanos N2) is the same lexeme as the new entry 題名【だいめい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists 題名/だいめい at N2 (gloss: title)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1415490; spelling=題名; reading=だいめい; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1415490 as the reference form.",
+          "selected": {
+            "sequence": "1415490",
+            "spelling": "題名",
+            "reading": "だいめい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "title",
+                  "caption",
+                  "heading"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 題名|だいめい#0 is the same lexeme as vocab-n2:correction:daimei; target hash bound to the assembled addition.",
+        "contentHash": "e51209650e40e8dc6281156e7b3f5adb5a6ed51c34b3f96b86605a558024abf3",
+        "approvalHash": "e51209650e40e8dc6281156e7b3f5adb5a6ed51c34b3f96b86605a558024abf3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 題名/だいめい is the same lexeme as vocab-n2:correction:daimei.",
+        "contentHash": "e51209650e40e8dc6281156e7b3f5adb5a6ed51c34b3f96b86605a558024abf3",
+        "approvalHash": "e51209650e40e8dc6281156e7b3f5adb5a6ed51c34b3f96b86605a558024abf3"
+      }
+    },
+    {
+      "key": "題名|だいめい",
+      "referenceIndex": 1,
+      "referenceHash": "b611d64ad1062ce765756b008c1e1320c950062df45546cb9c3099b074cab74c",
+      "revisionId": "035-candidate-daimei-419c0000-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daimei"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daimei": "6e83423349542a9da41e5a80bc3bf2594c79cafa96b78ac1ddf476d345235568"
+      },
+      "reason": "Reference 題名/だいめい (master N2) is the same lexeme as the new entry 題名【だいめい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 題名/だいめい at N2 (gloss: title; titre; (n) Titel (eines Buches od. Kunstwerkes etc.))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1415490; spelling=題名; reading=だいめい; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1415490 as the reference form.",
+          "selected": {
+            "sequence": "1415490",
+            "spelling": "題名",
+            "reading": "だいめい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "title",
+                  "caption",
+                  "heading"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 題名|だいめい#1 is the same lexeme as vocab-n2:correction:daimei; target hash bound to the assembled addition.",
+        "contentHash": "72ff61bec93cde656539290df784e38e20d136cf7bdd422d12006509b17c8db5",
+        "approvalHash": "72ff61bec93cde656539290df784e38e20d136cf7bdd422d12006509b17c8db5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 題名/だいめい is the same lexeme as vocab-n2:correction:daimei.",
+        "contentHash": "72ff61bec93cde656539290df784e38e20d136cf7bdd422d12006509b17c8db5",
+        "approvalHash": "72ff61bec93cde656539290df784e38e20d136cf7bdd422d12006509b17c8db5"
+      }
+    },
+    {
+      "key": "代名詞|だいめいし",
+      "referenceIndex": 0,
+      "referenceHash": "3f2a31e55ca790f9f0a6d0c62491e3a6136def2a9742f6857b8c2c2d1a8cdd16",
+      "revisionId": "035-candidate-daimeishi-83d68202-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daimeishi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daimeishi": "95b92ed60953611bc0bb2515bd96633cbb4af132c92730fc9bc210299ed80066"
+      },
+      "reason": "Reference 代名詞/だいめいし (tanos N2) is the same lexeme as the new entry 代名詞【だいめいし】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists 代名詞/だいめいし at N2 (gloss: pronoun)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1412340; spelling=代名詞; reading=だいめいし; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1412340 as the reference form.",
+          "selected": {
+            "sequence": "1412340",
+            "spelling": "代名詞",
+            "reading": "だいめいし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pronoun"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "synonym",
+                  "classic example",
+                  "pattern",
+                  "byword",
+                  "representative"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 代名詞|だいめいし#0 is the same lexeme as vocab-n2:correction:daimeishi; target hash bound to the assembled addition.",
+        "contentHash": "86c836d0ef040d7b88869c1af274567cce0a293bd66469618010095e56ab71ea",
+        "approvalHash": "86c836d0ef040d7b88869c1af274567cce0a293bd66469618010095e56ab71ea"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 代名詞/だいめいし is the same lexeme as vocab-n2:correction:daimeishi.",
+        "contentHash": "86c836d0ef040d7b88869c1af274567cce0a293bd66469618010095e56ab71ea",
+        "approvalHash": "86c836d0ef040d7b88869c1af274567cce0a293bd66469618010095e56ab71ea"
+      }
+    },
+    {
+      "key": "代名詞|だいめいし",
+      "referenceIndex": 1,
+      "referenceHash": "7c2ffc09677c0cc5279c058cc3e2c325c77209a1b5740b4ec0cadc8972072de2",
+      "revisionId": "035-candidate-daimeishi-83d68202-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daimeishi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daimeishi": "95b92ed60953611bc0bb2515bd96633cbb4af132c92730fc9bc210299ed80066"
+      },
+      "reason": "Reference 代名詞/だいめいし (master N2) is the same lexeme as the new entry 代名詞【だいめいし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 代名詞/だいめいし at N2 (gloss: pronoun; pronom)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1412340; spelling=代名詞; reading=だいめいし; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1412340 as the reference form.",
+          "selected": {
+            "sequence": "1412340",
+            "spelling": "代名詞",
+            "reading": "だいめいし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pronoun"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "synonym",
+                  "classic example",
+                  "pattern",
+                  "byword",
+                  "representative"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 代名詞|だいめいし#1 is the same lexeme as vocab-n2:correction:daimeishi; target hash bound to the assembled addition.",
+        "contentHash": "4c601b6c41f3fb7c86a5fef07431c985f8236217b7e201f53979b9e690ad1ddc",
+        "approvalHash": "4c601b6c41f3fb7c86a5fef07431c985f8236217b7e201f53979b9e690ad1ddc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 代名詞/だいめいし is the same lexeme as vocab-n2:correction:daimeishi.",
+        "contentHash": "4c601b6c41f3fb7c86a5fef07431c985f8236217b7e201f53979b9e690ad1ddc",
+        "approvalHash": "4c601b6c41f3fb7c86a5fef07431c985f8236217b7e201f53979b9e690ad1ddc"
+      }
+    },
+    {
+      "key": "だいやもんど|だいやもんど",
+      "referenceIndex": 0,
+      "referenceHash": "90bfcbd4a61a035d7a3b308af94e54c10d3d278d021c728cd53c1e82eacd01de",
+      "revisionId": "035-candidate-daiyamondo-47d974d6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daiyamondo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daiyamondo": "f155bce65ae5eae74222e401694e8338078f71be9dd1e57c91a6974a1fb36267"
+      },
+      "reason": "Reference ダイヤモンド/ダイヤモンド (tanos N2) is the same lexeme as the new entry ダイヤモンド【ダイヤモンド】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists ダイヤモンド/ダイヤモンド at N2 (gloss: diamond)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076890; spelling=ダイヤモンド; reading=ダイヤモンド; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1076890 as the reference form.",
+          "selected": {
+            "sequence": "1076890",
+            "spelling": "ダイヤモンド",
+            "reading": "ダイヤモンド",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "diamond"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference だいやもんど|だいやもんど#0 is the same lexeme as vocab-n2:correction:daiyamondo; target hash bound to the assembled addition.",
+        "contentHash": "0c48e2f52f97fdb42cf8de93b03d83a337b6398ebf307410fbf4c020ca883a7a",
+        "approvalHash": "0c48e2f52f97fdb42cf8de93b03d83a337b6398ebf307410fbf4c020ca883a7a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row ダイヤモンド/ダイヤモンド is the same lexeme as vocab-n2:correction:daiyamondo.",
+        "contentHash": "0c48e2f52f97fdb42cf8de93b03d83a337b6398ebf307410fbf4c020ca883a7a",
+        "approvalHash": "0c48e2f52f97fdb42cf8de93b03d83a337b6398ebf307410fbf4c020ca883a7a"
+      }
+    },
+    {
+      "key": "だいやもんど|だいやもんど",
+      "referenceIndex": 1,
+      "referenceHash": "2b4221e7b14286450f7ea3c231d819181b597bbeb79fdfe856d821935bf1cf4f",
+      "revisionId": "035-candidate-daiyamondo-47d974d6-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daiyamondo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daiyamondo": "f155bce65ae5eae74222e401694e8338078f71be9dd1e57c91a6974a1fb36267"
+      },
+      "reason": "Reference ダイヤモンド/ダイヤモンド (master N2) is the same lexeme as the new entry ダイヤモンド【ダイヤモンド】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists ダイヤモンド/ダイヤモンド at N2 (gloss: diamond; diamant; алма́з)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076890; spelling=ダイヤモンド; reading=ダイヤモンド; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1076890 as the reference form.",
+          "selected": {
+            "sequence": "1076890",
+            "spelling": "ダイヤモンド",
+            "reading": "ダイヤモンド",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "diamond"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference だいやもんど|だいやもんど#1 is the same lexeme as vocab-n2:correction:daiyamondo; target hash bound to the assembled addition.",
+        "contentHash": "5e0f28d14588f3a525e4614eda5319c49c20a79a96ecec71d217eb25e6e4f4fb",
+        "approvalHash": "5e0f28d14588f3a525e4614eda5319c49c20a79a96ecec71d217eb25e6e4f4fb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row ダイヤモンド/ダイヤモンド is the same lexeme as vocab-n2:correction:daiyamondo.",
+        "contentHash": "5e0f28d14588f3a525e4614eda5319c49c20a79a96ecec71d217eb25e6e4f4fb",
+        "approvalHash": "5e0f28d14588f3a525e4614eda5319c49c20a79a96ecec71d217eb25e6e4f4fb"
+      }
+    },
+    {
+      "key": "だいやる|だいやる",
+      "referenceIndex": 0,
+      "referenceHash": "aaa09f8c4f01b349d6d1bee1b0c6f803e2f21a8e86f653c4b6839839ee962818",
+      "revisionId": "035-candidate-daiyaru-cc5e7090-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daiyaru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daiyaru": "c91cc3e70ad1a2f26cc01b9791f3779c98748f920261fed9405b26e25cacc924"
+      },
+      "reason": "Reference ダイヤル/ダイヤル (tanos N2) is the same lexeme as the new entry ダイヤル【ダイヤル】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists ダイヤル/ダイヤル at N2 (gloss: dial)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076900; spelling=ダイヤル; reading=ダイヤル; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1076900 as the reference form.",
+          "selected": {
+            "sequence": "1076900",
+            "spelling": "ダイヤル",
+            "reading": "ダイヤル",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dial (e.g. telephone, radio, clock, gauge)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference だいやる|だいやる#0 is the same lexeme as vocab-n2:correction:daiyaru; target hash bound to the assembled addition.",
+        "contentHash": "2de718453c22f5bc4411887d9fe4128b25bd33ba3d66ca63d32ed05c42de8ce4",
+        "approvalHash": "2de718453c22f5bc4411887d9fe4128b25bd33ba3d66ca63d32ed05c42de8ce4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row ダイヤル/ダイヤル is the same lexeme as vocab-n2:correction:daiyaru.",
+        "contentHash": "2de718453c22f5bc4411887d9fe4128b25bd33ba3d66ca63d32ed05c42de8ce4",
+        "approvalHash": "2de718453c22f5bc4411887d9fe4128b25bd33ba3d66ca63d32ed05c42de8ce4"
+      }
+    },
+    {
+      "key": "だいやる|だいやる",
+      "referenceIndex": 1,
+      "referenceHash": "52c03c386c8ba312a1499ca182dceb355c247fc18f5e73fe7820a5834c5f5ccc",
+      "revisionId": "035-candidate-daiyaru-cc5e7090-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:daiyaru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:daiyaru": "c91cc3e70ad1a2f26cc01b9791f3779c98748f920261fed9405b26e25cacc924"
+      },
+      "reason": "Reference ダイヤル/ダイヤル (master N2) is the same lexeme as the new entry ダイヤル【ダイヤル】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists ダイヤル/ダイヤル at N2 (gloss: dial; cadran (composer); (n) Wählscheibe (eines Telefons))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1076900; spelling=ダイヤル; reading=ダイヤル; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1076900 as the reference form.",
+          "selected": {
+            "sequence": "1076900",
+            "spelling": "ダイヤル",
+            "reading": "ダイヤル",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dial (e.g. telephone, radio, clock, gauge)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference だいやる|だいやる#1 is the same lexeme as vocab-n2:correction:daiyaru; target hash bound to the assembled addition.",
+        "contentHash": "81ec308feded9fb10e5a2fc0896b9c23ad066a53850ccc04a5f6558c9b0fbdfc",
+        "approvalHash": "81ec308feded9fb10e5a2fc0896b9c23ad066a53850ccc04a5f6558c9b0fbdfc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row ダイヤル/ダイヤル is the same lexeme as vocab-n2:correction:daiyaru.",
+        "contentHash": "81ec308feded9fb10e5a2fc0896b9c23ad066a53850ccc04a5f6558c9b0fbdfc",
+        "approvalHash": "81ec308feded9fb10e5a2fc0896b9c23ad066a53850ccc04a5f6558c9b0fbdfc"
+      }
+    },
+    {
+      "key": "田植え|たうえ",
+      "referenceIndex": 0,
+      "referenceHash": "d8aa1935cac80413284045e80fed408c9482693b3388eade59ea137af1587bf0",
+      "revisionId": "035-candidate-taue-23acdca5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:taue"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taue": "fd21979dc293645c56bf2eaa61f3b12707a70a2181650accbff01df6d9c38c1f"
+      },
+      "reason": "Reference 田植え/たうえ (tanos N2) is the same lexeme as the new entry 田植え【たうえ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=51",
+          "finding": "tanos lists 田植え/たうえ at N2 (gloss: rice planting)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1442810; spelling=田植え; reading=たうえ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1442810 as the reference form.",
+          "selected": {
+            "sequence": "1442810",
+            "spelling": "田植え",
+            "reading": "たうえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rice planting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 田植え|たうえ#0 is the same lexeme as vocab-n2:correction:taue; target hash bound to the assembled addition.",
+        "contentHash": "5f5551ce7c9cef3b21a3b82d5aee9ac69f875157f623ad36bf73a900785730e5",
+        "approvalHash": "5f5551ce7c9cef3b21a3b82d5aee9ac69f875157f623ad36bf73a900785730e5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 田植え/たうえ is the same lexeme as vocab-n2:correction:taue.",
+        "contentHash": "5f5551ce7c9cef3b21a3b82d5aee9ac69f875157f623ad36bf73a900785730e5",
+        "approvalHash": "5f5551ce7c9cef3b21a3b82d5aee9ac69f875157f623ad36bf73a900785730e5"
+      }
+    },
+    {
+      "key": "田植え|たうえ",
+      "referenceIndex": 1,
+      "referenceHash": "8771fe548e7b8c4df45239f701e6aa5bd48af3e7939b425b0c9c0483992781b1",
+      "revisionId": "035-candidate-taue-23acdca5-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:taue"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taue": "fd21979dc293645c56bf2eaa61f3b12707a70a2181650accbff01df6d9c38c1f"
+      },
+      "reason": "Reference 田植え/たうえ (master N2) is the same lexeme as the new entry 田植え【たうえ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 田植え/たうえ at N2 (gloss: rice planting; culture du riz; repiquage du riz)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1442810; spelling=田植え; reading=たうえ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1442810 as the reference form.",
+          "selected": {
+            "sequence": "1442810",
+            "spelling": "田植え",
+            "reading": "たうえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rice planting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 田植え|たうえ#1 is the same lexeme as vocab-n2:correction:taue; target hash bound to the assembled addition.",
+        "contentHash": "75c965b5804521d95170a5e6debaca5fd4788ac1108220f70293ab1ee98d4197",
+        "approvalHash": "75c965b5804521d95170a5e6debaca5fd4788ac1108220f70293ab1ee98d4197"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 田植え/たうえ is the same lexeme as vocab-n2:correction:taue.",
+        "contentHash": "75c965b5804521d95170a5e6debaca5fd4788ac1108220f70293ab1ee98d4197",
+        "approvalHash": "75c965b5804521d95170a5e6debaca5fd4788ac1108220f70293ab1ee98d4197"
+      }
+    }
+  ]
+}

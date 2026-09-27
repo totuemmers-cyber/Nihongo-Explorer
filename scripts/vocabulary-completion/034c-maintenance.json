@@ -1,0 +1,3452 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:juwaki",
+      "revisionId": "034-add-juwaki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "受話器",
+        "reading": "じゅわき",
+        "romaji": "juwaki",
+        "meaning": "Telefonhörer",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N2",
+        "notes": "Der Hörer eines Telefons: 受話器を取る (abnehmen), 受話器を置く (auflegen).",
+        "examples": [
+          {
+            "japanese": "電話が鳴ったので、受話器を取った。",
+            "romaji": "Denwa ga natta node, juwaki o totta.",
+            "german": "Das Telefon klingelte, also nahm ich den Hörer ab."
+          },
+          {
+            "japanese": "話し終わって、静かに受話器を置いた。",
+            "romaji": "Hanashiowatte, shizuka ni juwaki o oita.",
+            "german": "Nach dem Gespräch legte ich den Hörer leise auf."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 受話器【じゅわき】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1330090; spelling=受話器; reading=じゅわき; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1330090 受話器/じゅわき sense(s) 1 support \"Telefonhörer\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1330090",
+            "spelling": "受話器",
+            "reading": "じゅわき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(telephone) receiver"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "受話器|じゅわき",
+          "referenceIndex": 0,
+          "referenceHash": "f7366c7f04d16e3727acd923d0fea8ea83e1841cfebf50529192f9d78349b93b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Telefonhörer\" matches JMdict 1330090 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Answering the phone.",
+          "Hanging up."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1330090; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 受話器 / じゅわき; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 受話器 / じゅわき",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 受話器【じゅわき】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1330090 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "ad7f7c30bcba772298b8c3d17d15aaf67efcb5501ee6341812517ecaa875de03",
+        "approvalHash": "d9ea07fcd10296c904617acb4797cc713a7ae971dc1a18d46ca4631dd0d046ba"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-C. 受話器【じゅわき】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1330090 senses. Type/level OK. Pitch unknown is consistent with the evidence. check.cjs: new.",
+        "contentHash": "ad7f7c30bcba772298b8c3d17d15aaf67efcb5501ee6341812517ecaa875de03",
+        "approvalHash": "d9ea07fcd10296c904617acb4797cc713a7ae971dc1a18d46ca4631dd0d046ba"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:junjun",
+      "revisionId": "034-add-junjun",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "順々",
+        "reading": "じゅんじゅん",
+        "romaji": "junjun",
+        "meaning": "der Reihe nach, nacheinander",
+        "type": "Adverb",
+        "category": "Reihenfolge",
+        "level": "N2",
+        "notes": "Meist 順々に: einer nach dem anderen. Ähnlich: 順番に; 次々に betont eine schnelle Folge.",
+        "examples": [
+          {
+            "japanese": "名前を呼ばれた人から、順々に部屋に入ってください。",
+            "romaji": "Namae o yobareta hito kara, junjun ni heya ni haitte kudasai.",
+            "german": "Bitte kommen Sie der Reihe nach herein, sobald Ihr Name aufgerufen wird."
+          },
+          {
+            "japanese": "先生は生徒の作文を順々に読んでいった。",
+            "romaji": "Sensei wa seito no sakubun o junjun ni yonde itta.",
+            "german": "Der Lehrer las die Aufsätze der Schüler nacheinander."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144640950",
+            "patterns": [
+              3
+            ],
+            "finding": "順々 / ジュンジュン; 副詞/*/*/*; *; *; lemma 順々; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "順々",
+              "reading": "じゅんじゅん",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "順々 as \"der Reihe nach, nacheinander\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 順々【じゅんじゅん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1342230; spelling=順々; reading=じゅんじゅん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1342230 順々/じゅんじゅん sense(s) 1 support \"der Reihe nach, nacheinander\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1342230",
+            "spelling": "順々",
+            "reading": "じゅんじゅん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in order",
+                  "in turn"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "順々|じゅんじゅん",
+          "referenceIndex": 0,
+          "referenceHash": "80bbd8de8487082fd8f85f8ac871a8923327702db21b12ea9298b59c6184c3f3"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"der Reihe nach, nacheinander\" matches JMdict 1342230 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Entering a room in turn.",
+          "Reading essays one by one."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1342230; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@144640950 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144640950",
+            "patterns": [
+              3
+            ],
+            "finding": "順々 / ジュンジュン; 副詞/*/*/*; *; *; lemma 順々; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "順々",
+              "reading": "じゅんじゅん",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "順々 as \"der Reihe nach, nacheinander\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 順々【じゅんじゅん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1342230 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "074c4cf0b1fe9b8fb0d8a26caf80cf6329a94d4d73050e3ec83ee1edabb70974",
+        "approvalHash": "09d86667366e07324178ffb8065722badba015859677ccdb202b2b9cec2cd8cb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-C. 順々【じゅんじゅん】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1342230 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "074c4cf0b1fe9b8fb0d8a26caf80cf6329a94d4d73050e3ec83ee1edabb70974",
+        "approvalHash": "09d86667366e07324178ffb8065722badba015859677ccdb202b2b9cec2cd8cb"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:junjou",
+      "revisionId": "034-add-junjou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "純情",
+        "reading": "じゅんじょう",
+        "romaji": "junjou",
+        "meaning": "unschuldig, treuherzig; reines Herz",
+        "type": "Adjektiv",
+        "category": "Eigenschaften",
+        "level": "N2",
+        "notes": "な-Adjektiv und Nomen: 純情な青年 (ein unschuldiger junger Mann). Beschreibt eine reine, unerfahrene Art, besonders in der Liebe.",
+        "examples": [
+          {
+            "japanese": "彼は純情で、すぐに顔が赤くなる。",
+            "romaji": "Kare wa junjou de, sugu ni kao ga akaku naru.",
+            "german": "Er ist so unschuldig, dass er sofort rot wird."
+          },
+          {
+            "japanese": "純情な少女の恋を描いた映画を見た。",
+            "romaji": "Junjou na shoujo no koi o egaita eiga o mita.",
+            "german": "Ich habe einen Film über die Liebe eines unschuldigen Mädchens gesehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144642818",
+            "patterns": [
+              0
+            ],
+            "finding": "純情 / ジュンジョウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 純情; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "純情",
+              "reading": "じゅんじょう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "純情 as \"unschuldig, treuherzig; reines Herz\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 純情【じゅんじょう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1341910; spelling=純情; reading=じゅんじょう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1341910 純情/じゅんじょう sense(s) 1 support \"unschuldig, treuherzig; reines Herz\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1341910",
+            "spelling": "純情",
+            "reading": "じゅんじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pure heart",
+                  "naivete",
+                  "innocence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "純情|じゅんじょう",
+          "referenceIndex": 0,
+          "referenceHash": "b93886b44ecd0430a28d3e3df4f35c1198efdc3f0ddc2241c1bd5b57a215e83c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"unschuldig, treuherzig; reines Herz\" matches JMdict 1341910 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Shy young man.",
+          "Film about innocent love."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1341910; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@144642818 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144642818",
+            "patterns": [
+              0
+            ],
+            "finding": "純情 / ジュンジョウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 純情; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "純情",
+              "reading": "じゅんじょう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "純情 as \"unschuldig, treuherzig; reines Herz\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 純情【じゅんじょう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1341910 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f8f82d66e8cdce05e72db9a58fcd78a4278ff39ae6b1bf9105a0c662156f4638",
+        "approvalHash": "30d58e90926144685c4fd9fb7df72359f4c2fb289bcedee121cbdeb9b575f737"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-C. 純情【じゅんじょう】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1341910 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "f8f82d66e8cdce05e72db9a58fcd78a4278ff39ae6b1bf9105a0c662156f4638",
+        "approvalHash": "30d58e90926144685c4fd9fb7df72359f4c2fb289bcedee121cbdeb9b575f737"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:shou-quotient",
+      "revisionId": "034-add-shou-quotient",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "商",
+        "reading": "しょう",
+        "romaji": "shou",
+        "meaning": "Quotient (Ergebnis einer Division)",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N2",
+        "notes": "Mathematischer Fachbegriff. Die Ergebnisse der Grundrechenarten heißen 和 (Summe), 差 (Differenz), 積 (Produkt) und 商 (Quotient).",
+        "examples": [
+          {
+            "japanese": "十を二で割った商は五です。",
+            "romaji": "Juu o ni de watta shou wa go desu.",
+            "german": "Zehn geteilt durch zwei ergibt den Quotienten fünf."
+          },
+          {
+            "japanese": "割り算の商と余りを求めなさい。",
+            "romaji": "Warizan no shou to amari o motomenasai.",
+            "german": "Berechne Quotient und Rest der Division."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 商【しょう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1346570; spelling=商; reading=しょう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1346570 商/しょう sense(s) 1 support \"Quotient (Ergebnis einer Division)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1346570",
+            "spelling": "商",
+            "reading": "しょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "quotient"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "商|しょう",
+          "referenceIndex": 0,
+          "referenceHash": "136d22c6d38de0cc3ae7b9f33bd8dd910c1a7e39773b9cadc1468b34f5ab9f8a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Quotient (Ergebnis einer Division)\" matches JMdict 1346570 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Simple division.",
+          "Quotient and remainder."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1346570; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 商 / しょう; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 商 / しょう",
+            "finding": "UniDic has only a generic common-noun row for 商 that does not identify the mathematical sense; no accent is taken from it."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 商【しょう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1346570 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "40e35d4b9cd38b2d3b88ed2223b7982398361e2eee3ef547381597820d6cbfb2",
+        "approvalHash": "f94af1cdfbec6cde141bb08100beee97fa217fabc5ab767e70f1662f0a5fa537"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-C. Sense restricted to quotient (JMdict 1346570). Pitch unknown is justified because the UniDic generic 商 row does not identify this sense. 和/差/積/商 note is correct. 商【しょう】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1346570 senses. Type/level OK. Pitch unknown is consistent with the evidence. check.cjs: new.",
+        "contentHash": "40e35d4b9cd38b2d3b88ed2223b7982398361e2eee3ef547381597820d6cbfb2",
+        "approvalHash": "f94af1cdfbec6cde141bb08100beee97fa217fabc5ab767e70f1662f0a5fa537"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:jou-form",
+      "revisionId": "034-add-jou-form",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "〜状",
+        "reading": "じょう",
+        "romaji": "jou",
+        "meaning": "-förmig, -artig; Schreiben, Brief (Suffix)",
+        "type": "Partikel",
+        "category": "Sprache",
+        "level": "N2",
+        "notes": "Suffix mit zwei Bedeutungen: Form oder Zustand (液状 = flüssig, 粉状 = pulverförmig) und Schriftstück (招待状 = Einladung, 年賀状 = Neujahrskarte).",
+        "examples": [
+          {
+            "japanese": "友達の結婚式の招待状が届いた。",
+            "romaji": "Tomodachi no kekkonshiki no shoutaijou ga todoita.",
+            "german": "Die Einladung zur Hochzeit meines Freundes ist angekommen."
+          },
+          {
+            "japanese": "この薬は粉状なので、水と一緒に飲んでください。",
+            "romaji": "Kono kusuri wa funjou na node, mizu to issho ni nonde kudasai.",
+            "german": "Dieses Medikament ist pulverförmig, nehmen Sie es bitte mit Wasser ein."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 〜状【じょう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1356690; spelling=状; reading=じょう; senses=1,3; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1356690 状/じょう sense(s) 1,3 support \"-förmig, -artig; Schreiben, Brief (Suffix)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1356690",
+            "spelling": "状",
+            "reading": "じょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "form",
+                  "shape",
+                  "appearance"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "letter",
+                  "correspondence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "状|じょう",
+          "referenceIndex": 0,
+          "referenceHash": "fe15ff3726844a42aaabba0c8fe4336a19ef279e4891417a56d26609de00c944"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"-förmig, -artig; Schreiben, Brief (Suffix)\" matches JMdict 1356690 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Letter (招待状).",
+          "Form (粉状)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1356690; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 〜状 / じょう; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 〜状 / じょう",
+            "finding": "Bound suffix headword; no row exists for the written form with 〜, and no accent is taken from the free form."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 〜状【じょう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1356690 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "773b087ef7c88002bf740e0cd8acc86c649435c68a093617d8df20b83767b245",
+        "approvalHash": "c17f3b035420244b9d2cd0474d0eb398c7b5de4744a1f69b7914b7c892cfef54"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-C. Senses 1 and 3 (form; letter) are both illustrated (招待状, 粉状 ふんじょう). check.cjs \"〜状 じょう\": new. 〜状【じょう】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1356690 senses. Type/level OK. Pitch unknown is consistent with the evidence. check.cjs: new.",
+        "contentHash": "773b087ef7c88002bf740e0cd8acc86c649435c68a093617d8df20b83767b245",
+        "approvalHash": "c17f3b035420244b9d2cd0474d0eb398c7b5de4744a1f69b7914b7c892cfef54"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:shouganai",
+      "revisionId": "034-add-shouganai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "しょうがない",
+        "reading": "しょうがない",
+        "romaji": "shouganai",
+        "meaning": "da kann man nichts machen; es bringt nichts",
+        "type": "Ausdruck",
+        "category": "Gefühle",
+        "level": "N2",
+        "notes": "Umgangssprachliche Kurzform von しようがない, bedeutungsgleich mit 仕方がない: Man muss es hinnehmen. Mit 〜ても: „es bringt nichts“ (悔やんでもしょうがない). Nach der て-Form auch „schrecklich, unerträglich“: 眠くてしょうがない (ich bin schrecklich müde).",
+        "examples": [
+          {
+            "japanese": "雨で中止になったのはしょうがない。",
+            "romaji": "Ame de chuushi ni natta no wa shouganai.",
+            "german": "Dass es wegen Regen abgesagt wurde, lässt sich nicht ändern."
+          },
+          {
+            "japanese": "終わったことを悔やんでもしょうがないよ。",
+            "romaji": "Owatta koto o kuyande mo shouganai yo.",
+            "german": "Es bringt nichts, Vergangenem nachzutrauern."
+          }
+        ],
+        "pitch": null,
+        "aliases": [
+          "しようがない",
+          "仕様がない"
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add しょうがない【しょうがない】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1305510; spelling=しょうがない; reading=しょうがない; senses=1,2,3,5; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1305510 しょうがない/しょうがない sense(s) 1,2,3,5 support \"da kann man nichts machen; es bringt nichts\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1305510",
+            "spelling": "しょうがない",
+            "reading": "しょうがない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "there's no (other) way"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "cannot be helped",
+                  "unavoidable",
+                  "inevitable",
+                  "(there's) nothing one can do",
+                  "having no choice",
+                  "it is what it is"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "it's no use (doing)",
+                  "pointless",
+                  "useless",
+                  "no good",
+                  "insufficient",
+                  "not enough"
+                ],
+                "notes": [
+                  "oft. as 〜てもしょうがない"
+                ]
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "cannot stand it",
+                  "unbearable",
+                  "cannot help (doing, feeling)",
+                  "dying (to do)"
+                ],
+                "notes": [
+                  "as 〜てしょうがない or 〜でしょうがない"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "仕様が無い|しようがない",
+          "referenceIndex": 0,
+          "referenceHash": "f91e755b7072aa316d6869d2f7fc1a85f5379bc65bf48963b91807f679a027c7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"da kann man nichts machen; es bringt nichts\" matches JMdict 1305510 sense(s) 1,2,3,5.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Accepting a cancellation.",
+          "Advice not to dwell on the past."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1305510; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for しょうがない / しょうがない; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup しょうがない / しょうがない",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add しょうがない【しょうがない】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1305510 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "a023972150dc7298cf5b2b98a8c21335fdc84a89d626a474cc0f9255481f6f3f",
+        "approvalHash": "40ff2cf6ab68a456fe6469e1ed5b79622cfb14b2aa24633477a4a6bd22ff1e15"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Round-1 fix verified. JMdict 1305510 senses are now 1,2,3,5. The meaning \"da kann man nichts machen; es bringt nichts\" covers ex1 (sense 2, accepting a cancellation) and ex2 (sense 3, 悔やんでもしょうがない). The note now correctly says Kurzform von しようがない, bedeutungsgleich mit 仕方がない, and its 眠くてしょうがない remark is sense 5. Examples, romaji and German are unchanged and correct. Pitch unknown (no exact UniDic row).",
+        "contentHash": "a023972150dc7298cf5b2b98a8c21335fdc84a89d626a474cc0f9255481f6f3f",
+        "approvalHash": "40ff2cf6ab68a456fe6469e1ed5b79622cfb14b2aa24633477a4a6bd22ff1e15"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:jouge",
+      "revisionId": "034-add-jouge",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "上下",
+        "reading": "じょうげ",
+        "romaji": "jouge",
+        "meaning": "oben und unten; auf und ab",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N2",
+        "notes": "Oben und unten (上下を逆にする), Auf- und Abbewegung (上下に動く) und Rangunterschied (上下関係 = Hierarchie). Die Lesung うえした meint eher konkret „oben und unten“.",
+        "examples": [
+          {
+            "japanese": "この箱は上下を逆にしないでください。",
+            "romaji": "Kono hako wa jouge o gyaku ni shinaide kudasai.",
+            "german": "Bitte drehen Sie diese Kiste nicht auf den Kopf."
+          },
+          {
+            "japanese": "エレベーターが上下に動いている。",
+            "romaji": "Erebeetaa ga jouge ni ugoite iru.",
+            "german": "Der Aufzug fährt auf und ab."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144830367",
+            "patterns": [
+              1
+            ],
+            "finding": "上下 / ジョウゲ; 名詞/普通名詞/サ変可能/*; *; *; lemma 上下; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "上下",
+              "reading": "じょうげ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "上下 as \"oben und unten; auf und ab\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 上下【じょうげ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1352710; spelling=上下; reading=じょうげ; senses=1,2; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1352710 上下/じょうげ sense(s) 1,2 support \"oben und unten; auf und ab\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1352710",
+            "spelling": "上下",
+            "reading": "じょうげ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "top and bottom",
+                  "high and low",
+                  "above and below",
+                  "upper and lower ends",
+                  "up and down"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "going up and down",
+                  "rising and falling",
+                  "fluctuating"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "上下|じょうげ",
+          "referenceIndex": 0,
+          "referenceHash": "c67c0d2f0d3e32689b2cd2e1313522b129013011bd06d26975a95e1b1229a087"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"oben und unten; auf und ab\" matches JMdict 1352710 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Handling a box.",
+          "Moving up and down."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1352710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@144830367 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144830367",
+            "patterns": [
+              1
+            ],
+            "finding": "上下 / ジョウゲ; 名詞/普通名詞/サ変可能/*; *; *; lemma 上下; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "上下",
+              "reading": "じょうげ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "上下 as \"oben und unten; auf und ab\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 上下【じょうげ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1352710 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d740ae16aea906eb321bcc94c3f0416362abe930b8f12782df5abb002b2d79dd",
+        "approvalHash": "0e5becd42704c3ef768fdaf1565b396505e64d96ecd49dbe620702455985a827"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-C. じょうげ is kept separate from うえした (open tanos/master N1 group). UniDic 上下/ジョウゲ aType 1 is exact. 上下【じょうげ】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1352710 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "d740ae16aea906eb321bcc94c3f0416362abe930b8f12782df5abb002b2d79dd",
+        "approvalHash": "0e5becd42704c3ef768fdaf1565b396505e64d96ecd49dbe620702455985a827"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:jousha",
+      "revisionId": "034-add-jousha",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "乗車",
+        "reading": "じょうしゃ",
+        "romaji": "jousha",
+        "meaning": "Einsteigen, Mitfahren (Zug, Bus)",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Bahn- und Amtssprache: 乗車券 (Fahrkarte), ご乗車ください. Gegenteil: 下車 (Aussteigen). Im Alltag: 乗る.",
+        "examples": [
+          {
+            "japanese": "ご乗車の際は、足元にご注意ください。",
+            "romaji": "Gojousha no sai wa, ashimoto ni gochuui kudasai.",
+            "german": "Bitte achten Sie beim Einsteigen auf Ihre Schritte."
+          },
+          {
+            "japanese": "駆け込み乗車は危ないのでおやめください。",
+            "romaji": "Kakekomi jousha wa abunai node oyame kudasai.",
+            "german": "Bitte springen Sie nicht in letzter Sekunde in den Zug, das ist gefährlich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144859921",
+            "patterns": [
+              0
+            ],
+            "finding": "乗車 / ジョウシャ; 名詞/普通名詞/サ変可能/*; *; *; lemma 乗車; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "乗車",
+              "reading": "じょうしゃ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "乗車 as \"Einsteigen, Mitfahren (Zug, Bus)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 乗車【じょうしゃ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1355270; spelling=乗車; reading=じょうしゃ; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1355270 乗車/じょうしゃ sense(s) 1 support \"Einsteigen, Mitfahren (Zug, Bus)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1355270",
+            "spelling": "乗車",
+            "reading": "じょうしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "boarding (a train, bus, etc.)",
+                  "getting into (e.g. a taxi)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "乗車|じょうしゃ",
+          "referenceIndex": 0,
+          "referenceHash": "8a19b5e9c7411aa8c1dad0b97c8d92d7fe1d89b818329601b8965d93f80426f9"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Einsteigen, Mitfahren (Zug, Bus)\" matches JMdict 1355270 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Station announcement.",
+          "Warning against rushing aboard."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1355270; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@144859921 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144859921",
+            "patterns": [
+              0
+            ],
+            "finding": "乗車 / ジョウシャ; 名詞/普通名詞/サ変可能/*; *; *; lemma 乗車; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "乗車",
+              "reading": "じょうしゃ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "乗車 as \"Einsteigen, Mitfahren (Zug, Bus)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 乗車【じょうしゃ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1355270 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f859cf254f235a56adf31a5789d0a0f2b062bdeb77824e400a6a10ac558b52c7",
+        "approvalHash": "e526b46087cba095636f01f7174062da481d9553d59c4055cd570bd7f656688f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-C. 乗車【じょうしゃ】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1355270 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "f859cf254f235a56adf31a5789d0a0f2b062bdeb77824e400a6a10ac558b52c7",
+        "approvalHash": "e526b46087cba095636f01f7174062da481d9553d59c4055cd570bd7f656688f"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:shousuu",
+      "revisionId": "034-add-shousuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "小数",
+        "reading": "しょうすう",
+        "romaji": "shousuu",
+        "meaning": "Dezimalzahl, Dezimalbruch",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N2",
+        "notes": "Zahl mit Nachkommastellen; das Komma heißt 小数点. Gleich klingend: 少数 (kleine Anzahl, Minderheit).",
+        "examples": [
+          {
+            "japanese": "答えは小数で書いてください。",
+            "romaji": "Kotae wa shousuu de kaite kudasai.",
+            "german": "Schreiben Sie das Ergebnis bitte als Dezimalzahl."
+          },
+          {
+            "japanese": "分数を小数に直す問題が出た。",
+            "romaji": "Bunsuu o shousuu ni naosu mondai ga deta.",
+            "german": "Es kam eine Aufgabe, in der man Brüche in Dezimalzahlen umwandeln musste."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140932375",
+            "patterns": [
+              3
+            ],
+            "finding": "小数 / ショウスウ; 名詞/普通名詞/一般/*; *; *; lemma 小数; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "小数",
+              "reading": "しょうすう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "小数 as \"Dezimalzahl, Dezimalbruch\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 小数【しょうすう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1348370; spelling=小数; reading=しょうすう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1348370 小数/しょうすう sense(s) 1 support \"Dezimalzahl, Dezimalbruch\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1348370",
+            "spelling": "小数",
+            "reading": "しょうすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fraction (part of)",
+                  "decimal fraction"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "小数|しょうすう",
+          "referenceIndex": 0,
+          "referenceHash": "b0e577652ca43b8c279074f6e0853d37b6890db2a3f0a3fdffbb431df1145e64"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Dezimalzahl, Dezimalbruch\" matches JMdict 1348370 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Answer format.",
+          "Converting fractions."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1348370; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@140932375 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140932375",
+            "patterns": [
+              3
+            ],
+            "finding": "小数 / ショウスウ; 名詞/普通名詞/一般/*; *; *; lemma 小数; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "小数",
+              "reading": "しょうすう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "小数 as \"Dezimalzahl, Dezimalbruch\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 小数【しょうすう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1348370 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f6bda9586492091b7a94cea1bdeb377b312ae64d1da105fb9e98729e97c25256",
+        "approvalHash": "f38fd4eea97c71413dea48d8dd54b37ad7dcdb5d1f20a6ebfc4f62cd01439df0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-C. 小数【しょうすう】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1348370 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "f6bda9586492091b7a94cea1bdeb377b312ae64d1da105fb9e98729e97c25256",
+        "approvalHash": "f38fd4eea97c71413dea48d8dd54b37ad7dcdb5d1f20a6ebfc4f62cd01439df0"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:shouten",
+      "revisionId": "034-add-shouten",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "商店",
+        "reading": "しょうてん",
+        "romaji": "shouten",
+        "meaning": "Laden, Geschäft",
+        "type": "Nomen",
+        "category": "Handel",
+        "level": "N2",
+        "notes": "Eher kleiner Einzelhandelsladen: 商店街 (Einkaufsstraße). Im Alltag: 店.",
+        "examples": [
+          {
+            "japanese": "この通りには古い商店が並んでいる。",
+            "romaji": "Kono toori ni wa furui shouten ga narande iru.",
+            "german": "In dieser Straße reihen sich alte Läden aneinander."
+          },
+          {
+            "japanese": "祖父は町で小さな商店を経営していた。",
+            "romaji": "Sofu wa machi de chiisa na shouten o keiei shite ita.",
+            "german": "Mein Großvater führte in der Stadt einen kleinen Laden."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141091438",
+            "patterns": [
+              1
+            ],
+            "finding": "商店 / ショウテン; 名詞/普通名詞/一般/*; *; *; lemma 商店; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "商店",
+              "reading": "しょうてん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "商店 as \"Laden, Geschäft\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 商店【しょうてん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1347180; spelling=商店; reading=しょうてん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1347180 商店/しょうてん sense(s) 1 support \"Laden, Geschäft\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1347180",
+            "spelling": "商店",
+            "reading": "しょうてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shop",
+                  "store",
+                  "firm"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "商店|しょうてん",
+          "referenceIndex": 0,
+          "referenceHash": "d1847956d84890795495498407d797f319bda63a0ea3a2f34518d5c3163a7111"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Laden, Geschäft\" matches JMdict 1347180 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Street of old shops.",
+          "Running a family shop."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1347180; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141091438 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141091438",
+            "patterns": [
+              1
+            ],
+            "finding": "商店 / ショウテン; 名詞/普通名詞/一般/*; *; *; lemma 商店; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "商店",
+              "reading": "しょうてん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "商店 as \"Laden, Geschäft\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 商店【しょうてん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1347180 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7d6440686d14f01150622d582fa168e271fdc3bbd450493530beccdf8404200c",
+        "approvalHash": "035ce43c9f207dc897681d8785489d47349b7d0746b59ec8a21063cb41ce3542"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-C. 商店【しょうてん】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1347180 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "7d6440686d14f01150622d582fa168e271fdc3bbd450493530beccdf8404200c",
+        "approvalHash": "035ce43c9f207dc897681d8785489d47349b7d0746b59ec8a21063cb41ce3542"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:shouhin-prize",
+      "revisionId": "034-add-shouhin-prize",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "賞品",
+        "reading": "しょうひん",
+        "romaji": "shouhin",
+        "meaning": "Preis, Gewinn (Gegenstand)",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N2",
+        "notes": "Gegenstand, den man bei einem Wettbewerb gewinnt; ein Geldpreis heißt 賞金. Gleich klingend: 商品 (Ware).",
+        "examples": [
+          {
+            "japanese": "クイズに正解して、賞品をもらった。",
+            "romaji": "Kuizu ni seikai shite, shouhin o moratta.",
+            "german": "Ich habe die Quizfrage richtig beantwortet und einen Preis bekommen."
+          },
+          {
+            "japanese": "一等の賞品は旅行券だった。",
+            "romaji": "Ittou no shouhin wa ryokouken datta.",
+            "german": "Der Hauptpreis war ein Reisegutschein."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141151675",
+            "patterns": [
+              0
+            ],
+            "finding": "賞品 / ショウヒン; 名詞/普通名詞/一般/*; *; *; lemma 賞品; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "賞品",
+              "reading": "しょうひん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "賞品 as \"Preis, Gewinn (Gegenstand)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 賞品【しょうひん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1351960; spelling=賞品; reading=しょうひん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1351960 賞品/しょうひん sense(s) 1 support \"Preis, Gewinn (Gegenstand)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1351960",
+            "spelling": "賞品",
+            "reading": "しょうひん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prize",
+                  "trophy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "賞品|しょうひん",
+          "referenceIndex": 0,
+          "referenceHash": "cf7289c23399c8af95d63f056dde432a58e240ae4af9b3a9344c310a2761bf9d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Preis, Gewinn (Gegenstand)\" matches JMdict 1351960 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Quiz prize.",
+          "First prize."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1351960; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141151675 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141151675",
+            "patterns": [
+              0
+            ],
+            "finding": "賞品 / ショウヒン; 名詞/普通名詞/一般/*; *; *; lemma 賞品; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "賞品",
+              "reading": "しょうひん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "賞品 as \"Preis, Gewinn (Gegenstand)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 賞品【しょうひん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1351960 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "246709b7edf756fbe724856c9a3ceaa0509dba1ebedbcd00e50c75a280be621e",
+        "approvalHash": "79f957233e2e523866e532e3e8a7561a70b0bb33ba8cbc7a5e6f15e7d23f5e21"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-C. 賞品【しょうひん】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1351960 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "246709b7edf756fbe724856c9a3ceaa0509dba1ebedbcd00e50c75a280be621e",
+        "approvalHash": "79f957233e2e523866e532e3e8a7561a70b0bb33ba8cbc7a5e6f15e7d23f5e21"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "受話器|じゅわき",
+      "referenceIndex": 0,
+      "referenceHash": "f7366c7f04d16e3727acd923d0fea8ea83e1841cfebf50529192f9d78349b93b",
+      "revisionId": "034-candidate-juwaki-57bdca0c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:juwaki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:juwaki": "ad7f7c30bcba772298b8c3d17d15aaf67efcb5501ee6341812517ecaa875de03"
+      },
+      "reason": "Reference 受話器/じゅわき (tanos N2) is the same lexeme as the new entry 受話器【じゅわき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=39",
+          "finding": "tanos lists 受話器/じゅわき at N2 (gloss: (telephone) receiver)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1330090; spelling=受話器; reading=じゅわき; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1330090 as the reference form.",
+          "selected": {
+            "sequence": "1330090",
+            "spelling": "受話器",
+            "reading": "じゅわき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(telephone) receiver"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 受話器|じゅわき#0 is the same lexeme as vocab-n2:correction:juwaki; target hash bound to the assembled addition.",
+        "contentHash": "3c17e98d408cacbcd941462f5cd6eff5b3c305eb95f6b3aba8ceab2b19f3d346",
+        "approvalHash": "3c17e98d408cacbcd941462f5cd6eff5b3c305eb95f6b3aba8ceab2b19f3d346"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 受話器/じゅわき is the same lexeme as vocab-n2:correction:juwaki. The gloss matches the taught sense(s).",
+        "contentHash": "3c17e98d408cacbcd941462f5cd6eff5b3c305eb95f6b3aba8ceab2b19f3d346",
+        "approvalHash": "3c17e98d408cacbcd941462f5cd6eff5b3c305eb95f6b3aba8ceab2b19f3d346"
+      }
+    },
+    {
+      "key": "受話器|じゅわき",
+      "referenceIndex": 1,
+      "referenceHash": "4682727e69ea91f08877f0e28756e3f46562be6b9d23793b16ba62464a6d1f95",
+      "revisionId": "034-candidate-juwaki-57bdca0c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:juwaki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:juwaki": "ad7f7c30bcba772298b8c3d17d15aaf67efcb5501ee6341812517ecaa875de03"
+      },
+      "reason": "Reference 受話器/じゅわき (master N2) is the same lexeme as the new entry 受話器【じゅわき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 受話器/じゅわき at N2 (gloss: (telephone) receiver; combiné (téléphone); (n) Telefonhörer)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1330090; spelling=受話器; reading=じゅわき; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1330090 as the reference form.",
+          "selected": {
+            "sequence": "1330090",
+            "spelling": "受話器",
+            "reading": "じゅわき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(telephone) receiver"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 受話器|じゅわき#1 is the same lexeme as vocab-n2:correction:juwaki; target hash bound to the assembled addition.",
+        "contentHash": "9107e49bdd3a473e75ee0aec4952b9fc0f60ce54491680aaaa2630a945ca2d9a",
+        "approvalHash": "9107e49bdd3a473e75ee0aec4952b9fc0f60ce54491680aaaa2630a945ca2d9a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 受話器/じゅわき is the same lexeme as vocab-n2:correction:juwaki. The gloss matches the taught sense(s).",
+        "contentHash": "9107e49bdd3a473e75ee0aec4952b9fc0f60ce54491680aaaa2630a945ca2d9a",
+        "approvalHash": "9107e49bdd3a473e75ee0aec4952b9fc0f60ce54491680aaaa2630a945ca2d9a"
+      }
+    },
+    {
+      "key": "順々|じゅんじゅん",
+      "referenceIndex": 0,
+      "referenceHash": "80bbd8de8487082fd8f85f8ac871a8923327702db21b12ea9298b59c6184c3f3",
+      "revisionId": "034-candidate-junjun-d0f11422-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:junjun"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:junjun": "074c4cf0b1fe9b8fb0d8a26caf80cf6329a94d4d73050e3ec83ee1edabb70974"
+      },
+      "reason": "Reference 順々/じゅんじゅん (tanos N2) is the same lexeme as the new entry 順々【じゅんじゅん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=39",
+          "finding": "tanos lists 順々/じゅんじゅん at N2 (gloss: in order,in turn)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1342230; spelling=順々; reading=じゅんじゅん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1342230 as the reference form.",
+          "selected": {
+            "sequence": "1342230",
+            "spelling": "順々",
+            "reading": "じゅんじゅん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in order",
+                  "in turn"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 順々|じゅんじゅん#0 is the same lexeme as vocab-n2:correction:junjun; target hash bound to the assembled addition.",
+        "contentHash": "529b264331a2b70f5c231da5914de0865b46681eecedf81446a99b7593d97aff",
+        "approvalHash": "529b264331a2b70f5c231da5914de0865b46681eecedf81446a99b7593d97aff"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 順々/じゅんじゅん is the same lexeme as vocab-n2:correction:junjun. The gloss matches the taught sense(s).",
+        "contentHash": "529b264331a2b70f5c231da5914de0865b46681eecedf81446a99b7593d97aff",
+        "approvalHash": "529b264331a2b70f5c231da5914de0865b46681eecedf81446a99b7593d97aff"
+      }
+    },
+    {
+      "key": "順々|じゅんじゅん",
+      "referenceIndex": 1,
+      "referenceHash": "96ac729b49485f2282df5c1f9021f19c39d867fabb6ef7a065134596fb4fb9cc",
+      "revisionId": "034-candidate-junjun-d0f11422-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:junjun"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:junjun": "074c4cf0b1fe9b8fb0d8a26caf80cf6329a94d4d73050e3ec83ee1edabb70974"
+      },
+      "reason": "Reference 順々/じゅんじゅん (master N2) is the same lexeme as the new entry 順々【じゅんじゅん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 順々/じゅんじゅん at N2 (gloss: in order; in turn; (n) Reihenfolge)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1342230; spelling=順々; reading=じゅんじゅん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1342230 as the reference form.",
+          "selected": {
+            "sequence": "1342230",
+            "spelling": "順々",
+            "reading": "じゅんじゅん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in order",
+                  "in turn"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 順々|じゅんじゅん#1 is the same lexeme as vocab-n2:correction:junjun; target hash bound to the assembled addition.",
+        "contentHash": "85a22830009d5d3732d2f1fbe536b6b47508d34a9e458f09e880fd54e88c2717",
+        "approvalHash": "85a22830009d5d3732d2f1fbe536b6b47508d34a9e458f09e880fd54e88c2717"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 順々/じゅんじゅん is the same lexeme as vocab-n2:correction:junjun. The gloss matches the taught sense(s).",
+        "contentHash": "85a22830009d5d3732d2f1fbe536b6b47508d34a9e458f09e880fd54e88c2717",
+        "approvalHash": "85a22830009d5d3732d2f1fbe536b6b47508d34a9e458f09e880fd54e88c2717"
+      }
+    },
+    {
+      "key": "純情|じゅんじょう",
+      "referenceIndex": 0,
+      "referenceHash": "b93886b44ecd0430a28d3e3df4f35c1198efdc3f0ddc2241c1bd5b57a215e83c",
+      "revisionId": "034-candidate-junjou-47927001-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:junjou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:junjou": "f8f82d66e8cdce05e72db9a58fcd78a4278ff39ae6b1bf9105a0c662156f4638"
+      },
+      "reason": "Reference 純情/じゅんじょう (tanos N2) is the same lexeme as the new entry 純情【じゅんじょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=39",
+          "finding": "tanos lists 純情/じゅんじょう at N2 (gloss: pure heart,naivete,self-sacrificing devotion)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1341910; spelling=純情; reading=じゅんじょう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1341910 as the reference form.",
+          "selected": {
+            "sequence": "1341910",
+            "spelling": "純情",
+            "reading": "じゅんじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pure heart",
+                  "naivete",
+                  "innocence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 純情|じゅんじょう#0 is the same lexeme as vocab-n2:correction:junjou; target hash bound to the assembled addition.",
+        "contentHash": "32a218f9e2fe2dc989a35b6427c9c0959269eef1001bd5a469eedd034f9adc46",
+        "approvalHash": "32a218f9e2fe2dc989a35b6427c9c0959269eef1001bd5a469eedd034f9adc46"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 純情/じゅんじょう is the same lexeme as vocab-n2:correction:junjou. The gloss matches the taught sense(s).",
+        "contentHash": "32a218f9e2fe2dc989a35b6427c9c0959269eef1001bd5a469eedd034f9adc46",
+        "approvalHash": "32a218f9e2fe2dc989a35b6427c9c0959269eef1001bd5a469eedd034f9adc46"
+      }
+    },
+    {
+      "key": "純情|じゅんじょう",
+      "referenceIndex": 1,
+      "referenceHash": "a3b421c998f69303580eb6addb2e6f19fb28d899f96ad58db972ac21d00d8c8b",
+      "revisionId": "034-candidate-junjou-47927001-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:junjou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:junjou": "f8f82d66e8cdce05e72db9a58fcd78a4278ff39ae6b1bf9105a0c662156f4638"
+      },
+      "reason": "Reference 純情/じゅんじょう (master N2) is the same lexeme as the new entry 純情【じゅんじょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 純情/じゅんじょう at N2 (gloss: pure heart; naivete; self-sacrificing devotion)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1341910; spelling=純情; reading=じゅんじょう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1341910 as the reference form.",
+          "selected": {
+            "sequence": "1341910",
+            "spelling": "純情",
+            "reading": "じゅんじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pure heart",
+                  "naivete",
+                  "innocence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 純情|じゅんじょう#1 is the same lexeme as vocab-n2:correction:junjou; target hash bound to the assembled addition.",
+        "contentHash": "163ee4c08b035ba1947d91447129a594d068b4f4fe143a8f2dfd6a8d7760b18b",
+        "approvalHash": "163ee4c08b035ba1947d91447129a594d068b4f4fe143a8f2dfd6a8d7760b18b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 純情/じゅんじょう is the same lexeme as vocab-n2:correction:junjou. The gloss matches the taught sense(s).",
+        "contentHash": "163ee4c08b035ba1947d91447129a594d068b4f4fe143a8f2dfd6a8d7760b18b",
+        "approvalHash": "163ee4c08b035ba1947d91447129a594d068b4f4fe143a8f2dfd6a8d7760b18b"
+      }
+    },
+    {
+      "key": "商|しょう",
+      "referenceIndex": 0,
+      "referenceHash": "136d22c6d38de0cc3ae7b9f33bd8dd910c1a7e39773b9cadc1468b34f5ab9f8a",
+      "revisionId": "034-candidate-shou-quotient-699c6a7b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shou-quotient"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shou-quotient": "40e35d4b9cd38b2d3b88ed2223b7982398361e2eee3ef547381597820d6cbfb2"
+      },
+      "reason": "Reference 商/しょう (tanos N1) is the same lexeme as the new entry 商【しょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=76",
+          "finding": "tanos lists 商/しょう at N1 (gloss: quotient)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1346570; spelling=商; reading=しょう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1346570 as the reference form.",
+          "selected": {
+            "sequence": "1346570",
+            "spelling": "商",
+            "reading": "しょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "quotient"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 商|しょう#0 is the same lexeme as vocab-n2:correction:shou-quotient; target hash bound to the assembled addition.",
+        "contentHash": "5c46a07246e18cc4230dc9b8aac15240a04bdb5fc6fffca8b862deebf40a2283",
+        "approvalHash": "5c46a07246e18cc4230dc9b8aac15240a04bdb5fc6fffca8b862deebf40a2283"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 商/しょう is the same lexeme as vocab-n2:correction:shou-quotient. The gloss matches the taught sense(s).",
+        "contentHash": "5c46a07246e18cc4230dc9b8aac15240a04bdb5fc6fffca8b862deebf40a2283",
+        "approvalHash": "5c46a07246e18cc4230dc9b8aac15240a04bdb5fc6fffca8b862deebf40a2283"
+      }
+    },
+    {
+      "key": "商|しょう",
+      "referenceIndex": 1,
+      "referenceHash": "5a6e1419912ea90a4dd812865c71f01aea626023f5f7698b02daba51436e9305",
+      "revisionId": "034-candidate-shou-quotient-699c6a7b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shou-quotient"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shou-quotient": "40e35d4b9cd38b2d3b88ed2223b7982398361e2eee3ef547381597820d6cbfb2"
+      },
+      "reason": "Reference 商/しょう (master N2) is the same lexeme as the new entry 商【しょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 商/しょう at N2 (gloss: quotient)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1346570; spelling=商; reading=しょう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1346570 as the reference form.",
+          "selected": {
+            "sequence": "1346570",
+            "spelling": "商",
+            "reading": "しょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "quotient"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 商|しょう#1 is the same lexeme as vocab-n2:correction:shou-quotient; target hash bound to the assembled addition.",
+        "contentHash": "aae36bc1b26201cf4fe47803d75357e83ccb3088b7b612b984f106b52e74fee4",
+        "approvalHash": "aae36bc1b26201cf4fe47803d75357e83ccb3088b7b612b984f106b52e74fee4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 商/しょう is the same lexeme as vocab-n2:correction:shou-quotient. The gloss matches the taught sense(s).",
+        "contentHash": "aae36bc1b26201cf4fe47803d75357e83ccb3088b7b612b984f106b52e74fee4",
+        "approvalHash": "aae36bc1b26201cf4fe47803d75357e83ccb3088b7b612b984f106b52e74fee4"
+      }
+    },
+    {
+      "key": "状|じょう",
+      "referenceIndex": 0,
+      "referenceHash": "fe15ff3726844a42aaabba0c8fe4336a19ef279e4891417a56d26609de00c944",
+      "revisionId": "034-candidate-jou-form-2eeb8563-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:jou-form"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:jou-form": "773b087ef7c88002bf740e0cd8acc86c649435c68a093617d8df20b83767b245"
+      },
+      "reason": "Reference 状/じょう (tanos N1) is the same lexeme as the new entry 〜状【じょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=83",
+          "finding": "tanos lists 状/じょう at N1 (gloss: shape)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1356690; spelling=状; reading=じょう; senses=1,3; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1356690 as the reference form.",
+          "selected": {
+            "sequence": "1356690",
+            "spelling": "状",
+            "reading": "じょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "form",
+                  "shape",
+                  "appearance"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "letter",
+                  "correspondence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 状|じょう#0 is the same lexeme as vocab-n2:correction:jou-form; target hash bound to the assembled addition.",
+        "contentHash": "6c8e903da596b199a8bf9b991456b89f8169fcf75915a1c59ef8178528574e95",
+        "approvalHash": "6c8e903da596b199a8bf9b991456b89f8169fcf75915a1c59ef8178528574e95"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 状/じょう is the same lexeme as vocab-n2:correction:jou-form. The gloss matches the taught sense(s).",
+        "contentHash": "6c8e903da596b199a8bf9b991456b89f8169fcf75915a1c59ef8178528574e95",
+        "approvalHash": "6c8e903da596b199a8bf9b991456b89f8169fcf75915a1c59ef8178528574e95"
+      }
+    },
+    {
+      "key": "状|じょう",
+      "referenceIndex": 1,
+      "referenceHash": "e790d2728c7dd73c53ca424213878ffad821121a6a9bf007266a86e8dff308d0",
+      "revisionId": "034-candidate-jou-form-2eeb8563-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:jou-form"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:jou-form": "773b087ef7c88002bf740e0cd8acc86c649435c68a093617d8df20b83767b245"
+      },
+      "reason": "Reference 状/じょう (master N2) is the same lexeme as the new entry 〜状【じょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 状/じょう at N2 (gloss: shape; state; forme)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1356690; spelling=状; reading=じょう; senses=1,3; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1356690 as the reference form.",
+          "selected": {
+            "sequence": "1356690",
+            "spelling": "状",
+            "reading": "じょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "form",
+                  "shape",
+                  "appearance"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "letter",
+                  "correspondence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 状|じょう#1 is the same lexeme as vocab-n2:correction:jou-form; target hash bound to the assembled addition.",
+        "contentHash": "a7943993790e81984fda019b3ab2fbe57d625bfed2ebe87ea68419b4ffe92ddd",
+        "approvalHash": "a7943993790e81984fda019b3ab2fbe57d625bfed2ebe87ea68419b4ffe92ddd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 状/じょう is the same lexeme as vocab-n2:correction:jou-form. The gloss matches the taught sense(s).",
+        "contentHash": "a7943993790e81984fda019b3ab2fbe57d625bfed2ebe87ea68419b4ffe92ddd",
+        "approvalHash": "a7943993790e81984fda019b3ab2fbe57d625bfed2ebe87ea68419b4ffe92ddd"
+      }
+    },
+    {
+      "key": "仕様が無い|しようがない",
+      "referenceIndex": 0,
+      "referenceHash": "f91e755b7072aa316d6869d2f7fc1a85f5379bc65bf48963b91807f679a027c7",
+      "revisionId": "034-candidate-shouganai-82ae4451-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shouganai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shouganai": "a023972150dc7298cf5b2b98a8c21335fdc84a89d626a474cc0f9255481f6f3f"
+      },
+      "reason": "Reference 仕様が無い/しようがない (master N2) is the same lexeme as the new entry しょうがない【しょうがない】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 仕様が無い/しようがない at N2 (gloss: it can't be helped; it is inevitable; nothing can be done)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1305510; spelling=しょうがない; reading=しょうがない; senses=1,2,3,5; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1305510 as the reference form.",
+          "selected": {
+            "sequence": "1305510",
+            "spelling": "しょうがない",
+            "reading": "しょうがない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "there's no (other) way"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "cannot be helped",
+                  "unavoidable",
+                  "inevitable",
+                  "(there's) nothing one can do",
+                  "having no choice",
+                  "it is what it is"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "it's no use (doing)",
+                  "pointless",
+                  "useless",
+                  "no good",
+                  "insufficient",
+                  "not enough"
+                ],
+                "notes": [
+                  "oft. as 〜てもしょうがない"
+                ]
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "cannot stand it",
+                  "unbearable",
+                  "cannot help (doing, feeling)",
+                  "dying (to do)"
+                ],
+                "notes": [
+                  "as 〜てしょうがない or 〜でしょうがない"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 仕様が無い|しようがない#0 is the same lexeme as vocab-n2:correction:shouganai; target hash bound to the assembled addition.",
+        "contentHash": "e321b49357eae5d70ee2a24553e967ed67b00ae341069a62e06a5dbc69088d80",
+        "approvalHash": "e321b49357eae5d70ee2a24553e967ed67b00ae341069a62e06a5dbc69088d80"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 仕様が無い/しようがない is the same lexeme as vocab-n2:correction:shouganai. The gloss matches the taught sense(s).",
+        "contentHash": "e321b49357eae5d70ee2a24553e967ed67b00ae341069a62e06a5dbc69088d80",
+        "approvalHash": "e321b49357eae5d70ee2a24553e967ed67b00ae341069a62e06a5dbc69088d80"
+      }
+    },
+    {
+      "key": "上下|じょうげ",
+      "referenceIndex": 0,
+      "referenceHash": "c67c0d2f0d3e32689b2cd2e1313522b129013011bd06d26975a95e1b1229a087",
+      "revisionId": "034-candidate-jouge-154c275b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:jouge"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:jouge": "d740ae16aea906eb321bcc94c3f0416362abe930b8f12782df5abb002b2d79dd"
+      },
+      "reason": "Reference 上下/じょうげ (tanos N2) is the same lexeme as the new entry 上下【じょうげ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=40",
+          "finding": "tanos lists 上下/じょうげ at N2 (gloss: high and low,up and down,unloading and)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1352710; spelling=上下; reading=じょうげ; senses=1,2; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1352710 as the reference form.",
+          "selected": {
+            "sequence": "1352710",
+            "spelling": "上下",
+            "reading": "じょうげ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "top and bottom",
+                  "high and low",
+                  "above and below",
+                  "upper and lower ends",
+                  "up and down"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "going up and down",
+                  "rising and falling",
+                  "fluctuating"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 上下|じょうげ#0 is the same lexeme as vocab-n2:correction:jouge; target hash bound to the assembled addition.",
+        "contentHash": "523db870452bef3e0975512351abb86c013a2a657a5d18f0cbebbdab20ce73e7",
+        "approvalHash": "523db870452bef3e0975512351abb86c013a2a657a5d18f0cbebbdab20ce73e7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 上下/じょうげ is the same lexeme as vocab-n2:correction:jouge. The gloss matches the taught sense(s).",
+        "contentHash": "523db870452bef3e0975512351abb86c013a2a657a5d18f0cbebbdab20ce73e7",
+        "approvalHash": "523db870452bef3e0975512351abb86c013a2a657a5d18f0cbebbdab20ce73e7"
+      }
+    },
+    {
+      "key": "上下|じょうげ",
+      "referenceIndex": 1,
+      "referenceHash": "f22735d2bcce40b4f48fcde44318347a571c68371f92a428988110d28e727310",
+      "revisionId": "034-candidate-jouge-154c275b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:jouge"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:jouge": "d740ae16aea906eb321bcc94c3f0416362abe930b8f12782df5abb002b2d79dd"
+      },
+      "reason": "Reference 上下/じょうげ (master N2) is the same lexeme as the new entry 上下【じょうげ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 上下/じょうげ at N2 (gloss: top and bottom; high and low; above and below)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1352710; spelling=上下; reading=じょうげ; senses=1,2; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1352710 as the reference form.",
+          "selected": {
+            "sequence": "1352710",
+            "spelling": "上下",
+            "reading": "じょうげ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "top and bottom",
+                  "high and low",
+                  "above and below",
+                  "upper and lower ends",
+                  "up and down"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "going up and down",
+                  "rising and falling",
+                  "fluctuating"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 上下|じょうげ#1 is the same lexeme as vocab-n2:correction:jouge; target hash bound to the assembled addition.",
+        "contentHash": "8928067bebb1149fb51027721cfc3d09a44876beda39e601e8c6fe57ca6b909f",
+        "approvalHash": "8928067bebb1149fb51027721cfc3d09a44876beda39e601e8c6fe57ca6b909f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 上下/じょうげ is the same lexeme as vocab-n2:correction:jouge. The gloss matches the taught sense(s).",
+        "contentHash": "8928067bebb1149fb51027721cfc3d09a44876beda39e601e8c6fe57ca6b909f",
+        "approvalHash": "8928067bebb1149fb51027721cfc3d09a44876beda39e601e8c6fe57ca6b909f"
+      }
+    },
+    {
+      "key": "乗車|じょうしゃ",
+      "referenceIndex": 0,
+      "referenceHash": "8a19b5e9c7411aa8c1dad0b97c8d92d7fe1d89b818329601b8965d93f80426f9",
+      "revisionId": "034-candidate-jousha-37a84dff-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:jousha"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:jousha": "f859cf254f235a56adf31a5789d0a0f2b062bdeb77824e400a6a10ac558b52c7"
+      },
+      "reason": "Reference 乗車/じょうしゃ (tanos N2) is the same lexeme as the new entry 乗車【じょうしゃ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=40",
+          "finding": "tanos lists 乗車/じょうしゃ at N2 (gloss: taking a train,entraining)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1355270; spelling=乗車; reading=じょうしゃ; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1355270 as the reference form.",
+          "selected": {
+            "sequence": "1355270",
+            "spelling": "乗車",
+            "reading": "じょうしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "boarding (a train, bus, etc.)",
+                  "getting into (e.g. a taxi)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 乗車|じょうしゃ#0 is the same lexeme as vocab-n2:correction:jousha; target hash bound to the assembled addition.",
+        "contentHash": "792d2118d58930608fdc3df3f4ecf1a5c8a7b8be239f4c716ac8c307fd33070f",
+        "approvalHash": "792d2118d58930608fdc3df3f4ecf1a5c8a7b8be239f4c716ac8c307fd33070f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 乗車/じょうしゃ is the same lexeme as vocab-n2:correction:jousha. The gloss matches the taught sense(s).",
+        "contentHash": "792d2118d58930608fdc3df3f4ecf1a5c8a7b8be239f4c716ac8c307fd33070f",
+        "approvalHash": "792d2118d58930608fdc3df3f4ecf1a5c8a7b8be239f4c716ac8c307fd33070f"
+      }
+    },
+    {
+      "key": "乗車|じょうしゃ",
+      "referenceIndex": 1,
+      "referenceHash": "22bf730caeb499907489b8ab729e4eb38fe712182d97a83fa4703179fa2de8b3",
+      "revisionId": "034-candidate-jousha-37a84dff-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:jousha"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:jousha": "f859cf254f235a56adf31a5789d0a0f2b062bdeb77824e400a6a10ac558b52c7"
+      },
+      "reason": "Reference 乗車/じょうしゃ (master N2) is the same lexeme as the new entry 乗車【じょうしゃ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 乗車/じょうしゃ at N2 (gloss: taking a train, bus, etc.; entraining; monter (en voiture, en train...))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1355270; spelling=乗車; reading=じょうしゃ; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1355270 as the reference form.",
+          "selected": {
+            "sequence": "1355270",
+            "spelling": "乗車",
+            "reading": "じょうしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "boarding (a train, bus, etc.)",
+                  "getting into (e.g. a taxi)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 乗車|じょうしゃ#1 is the same lexeme as vocab-n2:correction:jousha; target hash bound to the assembled addition.",
+        "contentHash": "de75497121664784f71c824921ff9d2b671a64ebaee828456c195213d34a2180",
+        "approvalHash": "de75497121664784f71c824921ff9d2b671a64ebaee828456c195213d34a2180"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 乗車/じょうしゃ is the same lexeme as vocab-n2:correction:jousha. The gloss matches the taught sense(s).",
+        "contentHash": "de75497121664784f71c824921ff9d2b671a64ebaee828456c195213d34a2180",
+        "approvalHash": "de75497121664784f71c824921ff9d2b671a64ebaee828456c195213d34a2180"
+      }
+    },
+    {
+      "key": "小数|しょうすう",
+      "referenceIndex": 0,
+      "referenceHash": "b0e577652ca43b8c279074f6e0853d37b6890db2a3f0a3fdffbb431df1145e64",
+      "revisionId": "034-candidate-shousuu-3dc0fc18-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shousuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shousuu": "f6bda9586492091b7a94cea1bdeb377b312ae64d1da105fb9e98729e97c25256"
+      },
+      "reason": "Reference 小数/しょうすう (tanos N2) is the same lexeme as the new entry 小数【しょうすう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=40",
+          "finding": "tanos lists 小数/しょうすう at N2 (gloss: fraction (part of),decimal)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1348370; spelling=小数; reading=しょうすう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1348370 as the reference form.",
+          "selected": {
+            "sequence": "1348370",
+            "spelling": "小数",
+            "reading": "しょうすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fraction (part of)",
+                  "decimal fraction"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 小数|しょうすう#0 is the same lexeme as vocab-n2:correction:shousuu; target hash bound to the assembled addition.",
+        "contentHash": "32b3f7965ce027170ac1c44f8f0cd25f6ba090d1d1536bef295e95767d81df12",
+        "approvalHash": "32b3f7965ce027170ac1c44f8f0cd25f6ba090d1d1536bef295e95767d81df12"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 小数/しょうすう is the same lexeme as vocab-n2:correction:shousuu. The gloss matches the taught sense(s).",
+        "contentHash": "32b3f7965ce027170ac1c44f8f0cd25f6ba090d1d1536bef295e95767d81df12",
+        "approvalHash": "32b3f7965ce027170ac1c44f8f0cd25f6ba090d1d1536bef295e95767d81df12"
+      }
+    },
+    {
+      "key": "小数|しょうすう",
+      "referenceIndex": 1,
+      "referenceHash": "6c4d3d3ad97271f7a76aeecaba0907b7640d357ccda396ad7916b0715a15bc66",
+      "revisionId": "034-candidate-shousuu-3dc0fc18-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shousuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shousuu": "f6bda9586492091b7a94cea1bdeb377b312ae64d1da105fb9e98729e97c25256"
+      },
+      "reason": "Reference 小数/しょうすう (master N2) is the same lexeme as the new entry 小数【しょうすう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 小数/しょうすう at N2 (gloss: fraction (part of); decimal fraction; fraction décimale)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1348370; spelling=小数; reading=しょうすう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1348370 as the reference form.",
+          "selected": {
+            "sequence": "1348370",
+            "spelling": "小数",
+            "reading": "しょうすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fraction (part of)",
+                  "decimal fraction"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 小数|しょうすう#1 is the same lexeme as vocab-n2:correction:shousuu; target hash bound to the assembled addition.",
+        "contentHash": "8e62f02874d3654efa4240146518c3e73f018c759ef05c4b8ad05ea588796f92",
+        "approvalHash": "8e62f02874d3654efa4240146518c3e73f018c759ef05c4b8ad05ea588796f92"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 小数/しょうすう is the same lexeme as vocab-n2:correction:shousuu. The gloss matches the taught sense(s).",
+        "contentHash": "8e62f02874d3654efa4240146518c3e73f018c759ef05c4b8ad05ea588796f92",
+        "approvalHash": "8e62f02874d3654efa4240146518c3e73f018c759ef05c4b8ad05ea588796f92"
+      }
+    },
+    {
+      "key": "商店|しょうてん",
+      "referenceIndex": 0,
+      "referenceHash": "d1847956d84890795495498407d797f319bda63a0ea3a2f34518d5c3163a7111",
+      "revisionId": "034-candidate-shouten-b50727aa-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shouten"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shouten": "7d6440686d14f01150622d582fa168e271fdc3bbd450493530beccdf8404200c"
+      },
+      "reason": "Reference 商店/しょうてん (tanos N2) is the same lexeme as the new entry 商店【しょうてん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=40",
+          "finding": "tanos lists 商店/しょうてん at N2 (gloss: shop,business firm)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1347180; spelling=商店; reading=しょうてん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1347180 as the reference form.",
+          "selected": {
+            "sequence": "1347180",
+            "spelling": "商店",
+            "reading": "しょうてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shop",
+                  "store",
+                  "firm"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 商店|しょうてん#0 is the same lexeme as vocab-n2:correction:shouten; target hash bound to the assembled addition.",
+        "contentHash": "7ff43cc560a74f7ead6232aca646e51d574825b2374fa4e862a39451bb0e79e2",
+        "approvalHash": "7ff43cc560a74f7ead6232aca646e51d574825b2374fa4e862a39451bb0e79e2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 商店/しょうてん is the same lexeme as vocab-n2:correction:shouten. The gloss matches the taught sense(s).",
+        "contentHash": "7ff43cc560a74f7ead6232aca646e51d574825b2374fa4e862a39451bb0e79e2",
+        "approvalHash": "7ff43cc560a74f7ead6232aca646e51d574825b2374fa4e862a39451bb0e79e2"
+      }
+    },
+    {
+      "key": "商店|しょうてん",
+      "referenceIndex": 1,
+      "referenceHash": "964fc2594b65476c02ae3c1255270d6e8b4cd932ca2dcea78a4977d3c10a56de",
+      "revisionId": "034-candidate-shouten-b50727aa-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shouten"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shouten": "7d6440686d14f01150622d582fa168e271fdc3bbd450493530beccdf8404200c"
+      },
+      "reason": "Reference 商店/しょうてん (sensei N2) is the same lexeme as the new entry 商店【しょうてん】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 商店/しょうてん at N2 (gloss: shop; small store; business; firm)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1347180; spelling=商店; reading=しょうてん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1347180 as the reference form.",
+          "selected": {
+            "sequence": "1347180",
+            "spelling": "商店",
+            "reading": "しょうてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shop",
+                  "store",
+                  "firm"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 商店|しょうてん#1 is the same lexeme as vocab-n2:correction:shouten; target hash bound to the assembled addition.",
+        "contentHash": "e059e723cc534564d4021b9408b0abcbefc57045e86e20d441e70ef4417a9188",
+        "approvalHash": "e059e723cc534564d4021b9408b0abcbefc57045e86e20d441e70ef4417a9188"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 商店/しょうてん is the same lexeme as vocab-n2:correction:shouten. The gloss matches the taught sense(s).",
+        "contentHash": "e059e723cc534564d4021b9408b0abcbefc57045e86e20d441e70ef4417a9188",
+        "approvalHash": "e059e723cc534564d4021b9408b0abcbefc57045e86e20d441e70ef4417a9188"
+      }
+    },
+    {
+      "key": "商店|しょうてん",
+      "referenceIndex": 2,
+      "referenceHash": "cf4651b6e231fc6158d9788135cd4515252d37d1528c94fd71f622fb0d34b238",
+      "revisionId": "034-candidate-shouten-b50727aa-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shouten"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shouten": "7d6440686d14f01150622d582fa168e271fdc3bbd450493530beccdf8404200c"
+      },
+      "reason": "Reference 商店/しょうてん (master N2) is the same lexeme as the new entry 商店【しょうてん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 商店/しょうてん at N2 (gloss: shop; small store; business)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1347180; spelling=商店; reading=しょうてん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1347180 as the reference form.",
+          "selected": {
+            "sequence": "1347180",
+            "spelling": "商店",
+            "reading": "しょうてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shop",
+                  "store",
+                  "firm"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 商店|しょうてん#2 is the same lexeme as vocab-n2:correction:shouten; target hash bound to the assembled addition.",
+        "contentHash": "61ddcbc9736b90376aac1a04c6c3a31c1931c736bd80abfd0f6c2f2e28dca018",
+        "approvalHash": "61ddcbc9736b90376aac1a04c6c3a31c1931c736bd80abfd0f6c2f2e28dca018"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 商店/しょうてん is the same lexeme as vocab-n2:correction:shouten. The gloss matches the taught sense(s).",
+        "contentHash": "61ddcbc9736b90376aac1a04c6c3a31c1931c736bd80abfd0f6c2f2e28dca018",
+        "approvalHash": "61ddcbc9736b90376aac1a04c6c3a31c1931c736bd80abfd0f6c2f2e28dca018"
+      }
+    },
+    {
+      "key": "賞品|しょうひん",
+      "referenceIndex": 0,
+      "referenceHash": "cf7289c23399c8af95d63f056dde432a58e240ae4af9b3a9344c310a2761bf9d",
+      "revisionId": "034-candidate-shouhin-prize-151eee29-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shouhin-prize"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shouhin-prize": "246709b7edf756fbe724856c9a3ceaa0509dba1ebedbcd00e50c75a280be621e"
+      },
+      "reason": "Reference 賞品/しょうひん (tanos N2) is the same lexeme as the new entry 賞品【しょうひん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=40",
+          "finding": "tanos lists 賞品/しょうひん at N2 (gloss: prize,trophy)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1351960; spelling=賞品; reading=しょうひん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1351960 as the reference form.",
+          "selected": {
+            "sequence": "1351960",
+            "spelling": "賞品",
+            "reading": "しょうひん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prize",
+                  "trophy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 賞品|しょうひん#0 is the same lexeme as vocab-n2:correction:shouhin-prize; target hash bound to the assembled addition.",
+        "contentHash": "48cbc07d599adb8b8669368d8f1824d4780ef0b98af808de4b4692c2ba7aa06e",
+        "approvalHash": "48cbc07d599adb8b8669368d8f1824d4780ef0b98af808de4b4692c2ba7aa06e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 賞品/しょうひん is the same lexeme as vocab-n2:correction:shouhin-prize. The gloss matches the taught sense(s).",
+        "contentHash": "48cbc07d599adb8b8669368d8f1824d4780ef0b98af808de4b4692c2ba7aa06e",
+        "approvalHash": "48cbc07d599adb8b8669368d8f1824d4780ef0b98af808de4b4692c2ba7aa06e"
+      }
+    },
+    {
+      "key": "賞品|しょうひん",
+      "referenceIndex": 1,
+      "referenceHash": "717cfa9d1d8b64df94cab1cc9022a7306e4610da412a01b2f3df194a3d2399a9",
+      "revisionId": "034-candidate-shouhin-prize-151eee29-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shouhin-prize"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shouhin-prize": "246709b7edf756fbe724856c9a3ceaa0509dba1ebedbcd00e50c75a280be621e"
+      },
+      "reason": "Reference 賞品/しょうひん (master N2) is the same lexeme as the new entry 賞品【しょうひん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 賞品/しょうひん at N2 (gloss: prize; trophy; prix)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1351960; spelling=賞品; reading=しょうひん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1351960 as the reference form.",
+          "selected": {
+            "sequence": "1351960",
+            "spelling": "賞品",
+            "reading": "しょうひん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prize",
+                  "trophy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 賞品|しょうひん#1 is the same lexeme as vocab-n2:correction:shouhin-prize; target hash bound to the assembled addition.",
+        "contentHash": "17c260fd67fba463aa98d4e38ca9f25149fe7ed3600176a0c7a78111b4faf2e2",
+        "approvalHash": "17c260fd67fba463aa98d4e38ca9f25149fe7ed3600176a0c7a78111b4faf2e2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 賞品/しょうひん is the same lexeme as vocab-n2:correction:shouhin-prize. The gloss matches the taught sense(s).",
+        "contentHash": "17c260fd67fba463aa98d4e38ca9f25149fe7ed3600176a0c7a78111b4faf2e2",
+        "approvalHash": "17c260fd67fba463aa98d4e38ca9f25149fe7ed3600176a0c7a78111b4faf2e2"
+      }
+    }
+  ]
+}

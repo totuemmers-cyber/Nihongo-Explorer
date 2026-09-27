@@ -1,0 +1,3104 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:omoigakenai",
+      "revisionId": "032-add-omoigakenai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "思いがけない",
+        "reading": "おもいがけない",
+        "romaji": "omoigakenai",
+        "meaning": "unerwartet, überraschend",
+        "type": "Adjektiv",
+        "category": "Gefühle",
+        "level": "N2",
+        "notes": "い-Adjektiv: 思いがけない出会い (eine unverhoffte Begegnung). Adverb: 思いがけなく.",
+        "examples": [
+          {
+            "japanese": "旅先で思いがけない人に会った。",
+            "romaji": "Tabisaki de omoigakenai hito ni atta.",
+            "german": "Auf der Reise habe ich unverhofft jemanden getroffen."
+          },
+          {
+            "japanese": "思いがけないプレゼントに、母はとても喜んだ。",
+            "romaji": "Omoigakenai purezento ni, haha wa totemo yorokonda.",
+            "german": "Über das unerwartete Geschenk hat sich meine Mutter sehr gefreut."
+          }
+        ],
+        "pitch": null,
+        "aliases": [
+          "思い掛けない"
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 思いがけない【おもいがけない】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1610630; spelling=思いがけない; reading=おもいがけない; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1610630 思いがけない/おもいがけない sense(s) 1 support \"unerwartet, überraschend\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1610630",
+            "spelling": "思いがけない",
+            "reading": "おもいがけない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unexpected",
+                  "contrary to expectations",
+                  "by chance",
+                  "casual"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "思いがけない|おもいがけない",
+          "referenceIndex": 0,
+          "referenceHash": "ca500eacf293b20023175de152e683fc7120e5152a83c87cde963f4d818b248f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"unerwartet, überraschend\" matches JMdict 1610630 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Unexpected encounter.",
+          "Surprise present."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1610630; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 思いがけない / おもいがけない; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 思いがけない / おもいがけない",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 思いがけない【おもいがけない】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1610630 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "409323f5de11916d260ece1426a9a740b16d1c84b937de929a06cbe85c9e8d90",
+        "approvalHash": "7c8d067902b3b73e6663db5d2663fa879760cac928bc950245eb5531c785b8ff"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 思いがけない【おもいがけない】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1610630 senses 1, N2 fits the publisher rows, pitch is unknown, which is correct because there is no exact UniDic row, and check.cjs reports \"new\".",
+        "contentHash": "409323f5de11916d260ece1426a9a740b16d1c84b937de929a06cbe85c9e8d90",
+        "approvalHash": "7c8d067902b3b73e6663db5d2663fa879760cac928bc950245eb5531c785b8ff"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:omoikiri",
+      "revisionId": "032-add-omoikiri",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "思い切り",
+        "reading": "おもいきり",
+        "romaji": "omoikiri",
+        "meaning": "nach Herzenslust, mit aller Kraft; Entschlossenheit",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N2",
+        "notes": "Adverb „so sehr man kann“: 思い切り泣く, 思い切り遊ぶ; umgangssprachlich 思いっきり. Als Nomen: Entschlossenheit (思い切りがいい).",
+        "examples": [
+          {
+            "japanese": "試験が終わったら、思い切り遊びたい。",
+            "romaji": "Shiken ga owattara, omoikiri asobitai.",
+            "german": "Wenn die Prüfungen vorbei sind, will ich mich richtig austoben."
+          },
+          {
+            "japanese": "ボールを思い切り蹴った。",
+            "romaji": "Booru o omoikiri ketta.",
+            "german": "Ich habe mit aller Kraft gegen den Ball getreten."
+          }
+        ],
+        "pitch": 0,
+        "aliases": [
+          "思いっきり"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@82374676",
+            "patterns": [
+              0
+            ],
+            "finding": "思い切り / オモイキリ; 名詞/普通名詞/副詞可能/*; *; *; lemma 思い切り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "思い切り",
+              "reading": "おもいきり",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "思い切り as \"nach Herzenslust, mit aller Kraft; Entschlossenheit\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2, tanos N2 (思いっ切り). Editorial N2.",
+      "rationale": "Add 思い切り【おもいきり】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2834138; spelling=思い切り; reading=おもいきり; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2834138 思い切り/おもいきり sense(s) 1,2 support \"nach Herzenslust, mit aller Kraft; Entschlossenheit\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2834138",
+            "spelling": "思い切り",
+            "reading": "おもいきり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to one's heart's content",
+                  "as much as one wants",
+                  "as hard as one can",
+                  "with all one's strength",
+                  "to the best of one's ability",
+                  "to the utmost",
+                  "with determination",
+                  "hard",
+                  "heavily"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "resolution",
+                  "decisiveness",
+                  "determination",
+                  "resignation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "思い切り|おもいきり",
+          "referenceIndex": 0,
+          "referenceHash": "6d0a252f8aacd242f9b72818b78f55643fb6c14e8ca6251c553f650cb9a63b5e"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"nach Herzenslust, mit aller Kraft; Entschlossenheit\" matches JMdict 2834138 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Enjoying oneself fully.",
+          "Kicking with full strength."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2834138; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N2, tanos N2 (思いっ切り). Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@82374676 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@82374676",
+            "patterns": [
+              0
+            ],
+            "finding": "思い切り / オモイキリ; 名詞/普通名詞/副詞可能/*; *; *; lemma 思い切り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "思い切り",
+              "reading": "おもいきり",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "思い切り as \"nach Herzenslust, mit aller Kraft; Entschlossenheit\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 思い切り【おもいきり】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2834138 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ff201900ba234449579a748089cfffb16fb1abadb2473348cb02f625e1d361ae",
+        "approvalHash": "d5c991aad3bf287931e48367118b63bce652623e1922bdbd523441cafbef638e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 思い切り【おもいきり】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 2834138 senses 1/2, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\". Pitch 0 comes from the 名詞/普通名詞/副詞可能 row (lemma 思い切り); the 思い切る 連用形 row (4,0,2) is correctly filtered out. JMdict 2834138 senses 1-2 match the meaning, and the examples are natural.",
+        "contentHash": "ff201900ba234449579a748089cfffb16fb1abadb2473348cb02f625e1d361ae",
+        "approvalHash": "d5c991aad3bf287931e48367118b63bce652623e1922bdbd523441cafbef638e"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:omotai",
+      "revisionId": "032-add-omotai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "重たい",
+        "reading": "おもたい",
+        "romaji": "omotai",
+        "meaning": "schwer; bedrückend",
+        "type": "Adjektiv",
+        "category": "Eigenschaften",
+        "level": "N2",
+        "notes": "Gesprochene Variante von 重い, betont das spürbare Gewicht; auch für Stimmung: 重たい空気.",
+        "examples": [
+          {
+            "japanese": "この箱は重たくて、一人では持てない。",
+            "romaji": "Kono hako wa omotakute, hitori de wa motenai.",
+            "german": "Diese Kiste ist so schwer, dass ich sie allein nicht tragen kann."
+          },
+          {
+            "japanese": "会議室には重たい空気が流れていた。",
+            "romaji": "Kaigishitsu ni wa omotai kuuki ga nagarete ita.",
+            "german": "Im Besprechungsraum herrschte eine bedrückende Stimmung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@83506069",
+            "patterns": [
+              0
+            ],
+            "finding": "重たい / オモタイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 重たい; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "重たい",
+              "reading": "おもたい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "重たい as \"schwer; bedrückend\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 重たい【おもたい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1335780; spelling=重たい; reading=おもたい; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1335780 重たい/おもたい sense(s) 1,2 support \"schwer; bedrückend\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1335780",
+            "spelling": "重たい",
+            "reading": "おもたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heavy",
+                  "weighty"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heavy (feeling, atmosphere, etc.)",
+                  "serious",
+                  "gloomy",
+                  "depressing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "重たい|おもたい",
+          "referenceIndex": 0,
+          "referenceHash": "8e1a13055ec52694d129b425d32aae451986d03859749412cacade9bee9175a8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"schwer; bedrückend\" matches JMdict 1335780 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Heavy box.",
+          "Tense atmosphere."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1335780; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@83506069 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@83506069",
+            "patterns": [
+              0
+            ],
+            "finding": "重たい / オモタイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 重たい; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "重たい",
+              "reading": "おもたい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "重たい as \"schwer; bedrückend\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 重たい【おもたい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1335780 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "95ecebcf81fe70235f79f167eb0ff5b6bf1387b783fd5ddcbbcea41a191160c4",
+        "approvalHash": "98281c29de961fdb2a626ce13f7fa851c7e2c5bcc3aa988ed0094210fa8be02d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 重たい【おもたい】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1335780 senses 1/2, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "95ecebcf81fe70235f79f167eb0ff5b6bf1387b783fd5ddcbbcea41a191160c4",
+        "approvalHash": "98281c29de961fdb2a626ce13f7fa851c7e2c5bcc3aa988ed0094210fa8be02d"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:oyasumi",
+      "revisionId": "032-add-oyasumi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "お休み",
+        "reading": "おやすみ",
+        "romaji": "oyasumi",
+        "meaning": "Ruhetag, freier Tag; Gute Nacht!",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Höfliches Nomen zu 休み (明日はお休みです = Morgen ist Ruhetag) und kurzer Gutenachtgruß おやすみ (höflicher: おやすみなさい).",
+        "examples": [
+          {
+            "japanese": "この店は毎週月曜日がお休みです。",
+            "romaji": "Kono mise wa maishuu getsuyoubi ga oyasumi desu.",
+            "german": "Dieser Laden hat jeden Montag Ruhetag."
+          },
+          {
+            "japanese": "じゃあ、おやすみ。また明日ね。",
+            "romaji": "Jaa, oyasumi. Mata ashita ne.",
+            "german": "Also, gute Nacht. Bis morgen."
+          }
+        ],
+        "pitch": null,
+        "aliases": [
+          "おやすみ"
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add お休み【おやすみ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1612680; spelling=お休み; reading=おやすみ; senses=1,3; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1612680 お休み/おやすみ sense(s) 1,3 support \"Ruhetag, freier Tag; Gute Nacht!\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1612680",
+            "spelling": "お休み",
+            "reading": "おやすみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "holiday",
+                  "day off",
+                  "absence"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "abbreviation",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "good night"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "おやすみ|おやすみ",
+          "referenceIndex": 0,
+          "referenceHash": "39485bd9fac5cbcf77dd2aca65ba220dacee76cd7a1f68cc796fa215964d3920"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Ruhetag, freier Tag; Gute Nacht!\" matches JMdict 1612680 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Shop closing day.",
+          "Saying good night."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1612680; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for お休み / おやすみ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup お休み / おやすみ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add お休み【おやすみ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1612680 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "63b2930ca1506aed3f1e20a5b926a2c3c3696a67b031d07269938a208c03f03c",
+        "approvalHash": "0618f8b412658d844579b47456afde30719b9db81295356606c5c34b3fda7046"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). お休み【おやすみ】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1612680 senses 1/3, N2 fits the publisher rows, pitch is unknown, which is correct because there is no exact UniDic row, and check.cjs reports \"new\". Overlap with おやすみなさい (N5) is acceptable: the entry teaches JMdict 1612680 senses 1 (Ruhetag) and 3 (good night), one per example. ex2 uses the kana alias おやすみ, which is the normal spelling for the greeting.",
+        "contentHash": "63b2930ca1506aed3f1e20a5b926a2c3c3696a67b031d07269938a208c03f03c",
+        "approvalHash": "0618f8b412658d844579b47456afde30719b9db81295356606c5c34b3fda7046"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:orugan",
+      "revisionId": "032-add-orugan",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "オルガン",
+        "reading": "オルガン",
+        "romaji": "orugan",
+        "meaning": "Orgel, Harmonium",
+        "type": "Nomen",
+        "category": "Musik",
+        "level": "N2",
+        "notes": "Auch das in japanischen Schulen verbreitete Harmonium (足踏みオルガン). Große Kirchenorgel: パイプオルガン.",
+        "examples": [
+          {
+            "japanese": "小学校の教室にはオルガンがあった。",
+            "romaji": "Shougakkou no kyoushitsu ni wa orugan ga atta.",
+            "german": "Im Klassenzimmer der Grundschule stand eine Orgel."
+          },
+          {
+            "japanese": "教会でパイプオルガンの演奏を聞いた。",
+            "romaji": "Kyoukai de paipu orugan no ensou o kiita.",
+            "german": "In der Kirche habe ich ein Orgelkonzert gehört."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@84808374",
+            "patterns": [
+              0
+            ],
+            "finding": "オルガン / オルガン; 名詞/普通名詞/一般/*; *; *; lemma オルガン-orgao; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "オルガン",
+              "reading": "オルガン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "オルガン as \"Orgel, Harmonium\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add オルガン【オルガン】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1035780; spelling=オルガン; reading=オルガン; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1035780 オルガン/オルガン sense(s) 1 support \"Orgel, Harmonium\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1035780",
+            "spelling": "オルガン",
+            "reading": "オルガン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "organ (musical instrument)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "おるがん|おるがん",
+          "referenceIndex": 0,
+          "referenceHash": "60c8ceb2b4500a2738bd030cbfe2bdc23543c5e154dc8c23bbb6f791f6a6b3b1"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Orgel, Harmonium\" matches JMdict 1035780 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "School classroom.",
+          "Church concert."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1035780; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@84808374 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@84808374",
+            "patterns": [
+              0
+            ],
+            "finding": "オルガン / オルガン; 名詞/普通名詞/一般/*; *; *; lemma オルガン-orgao; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "オルガン",
+              "reading": "オルガン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "オルガン as \"Orgel, Harmonium\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add オルガン【オルガン】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1035780 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "cd9daf14ea830e491489704a4ef5a1e56640612982f48a68598817a56ccb6069",
+        "approvalHash": "e032b2835be1cf01d230b64f7b7ffe04e98237fb674763c8b71cdc20e33b1b31"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). オルガン【オルガン】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1035780 senses 1, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\". ex1 translates the school instrument as \"Orgel\", which is acceptable because the meaning line covers \"Orgel, Harmonium\". ex2 uses the transparent compound パイプオルガン.",
+        "contentHash": "cd9daf14ea830e491489704a4ef5a1e56640612982f48a68598817a56ccb6069",
+        "approvalHash": "e032b2835be1cf01d230b64f7b7ffe04e98237fb674763c8b71cdc20e33b1b31"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:onshitsu",
+      "revisionId": "032-add-onshitsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "温室",
+        "reading": "おんしつ",
+        "romaji": "onshitsu",
+        "meaning": "Gewächshaus",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N2",
+        "notes": "Treibhaus für Pflanzen. Übertragen: 温室育ち (verwöhnt, behütet aufgewachsen). Treibhauseffekt: 温室効果.",
+        "examples": [
+          {
+            "japanese": "温室でトマトを育てている。",
+            "romaji": "Onshitsu de tomato o sodatete iru.",
+            "german": "Ich ziehe Tomaten im Gewächshaus."
+          },
+          {
+            "japanese": "植物園の温室には熱帯の花が咲いていた。",
+            "romaji": "Shokubutsuen no onshitsu ni wa nettai no hana ga saite ita.",
+            "german": "Im Gewächshaus des botanischen Gartens blühten tropische Blumen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85199609",
+            "patterns": [
+              0
+            ],
+            "finding": "温室 / オンシツ; 名詞/普通名詞/一般/*; *; *; lemma 温室; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "温室",
+              "reading": "おんしつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "温室 as \"Gewächshaus\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 温室【おんしつ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1183390; spelling=温室; reading=おんしつ; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1183390 温室/おんしつ sense(s) 1 support \"Gewächshaus\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1183390",
+            "spelling": "温室",
+            "reading": "おんしつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "greenhouse",
+                  "hothouse",
+                  "conservatory",
+                  "glasshouse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "温室|おんしつ",
+          "referenceIndex": 0,
+          "referenceHash": "7c0168b8e1867025c32cfaa54d6c2fb81c34856122b45fad96f9e4e7e04e4bb0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Gewächshaus\" matches JMdict 1183390 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Growing vegetables.",
+          "Botanical garden."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1183390; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@85199609 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85199609",
+            "patterns": [
+              0
+            ],
+            "finding": "温室 / オンシツ; 名詞/普通名詞/一般/*; *; *; lemma 温室; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "温室",
+              "reading": "おんしつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "温室 as \"Gewächshaus\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 温室【おんしつ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1183390 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "56429b6dce2bdb616f0de906703a83178c8ab16f87b9af70db0afca1103a3ce1",
+        "approvalHash": "0817fd173b24226d6519ae4c741d31c647cd6f7ea9d68c35c9d78801b68144df"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 温室【おんしつ】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1183390 senses 1, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "56429b6dce2bdb616f0de906703a83178c8ab16f87b9af70db0afca1103a3ce1",
+        "approvalHash": "0817fd173b24226d6519ae4c741d31c647cd6f7ea9d68c35c9d78801b68144df"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:onchuu",
+      "revisionId": "032-add-onchuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "御中",
+        "reading": "おんちゅう",
+        "romaji": "onchuu",
+        "meaning": "an (Firma/Abteilung, Anredezusatz in Adressen)",
+        "type": "Ausdruck",
+        "category": "Kommunikation",
+        "level": "N2",
+        "notes": "Nach dem Namen einer Firma oder Abteilung auf Briefen: 〇〇株式会社 御中. Bei Personen stattdessen 様. Nicht beides kombinieren.",
+        "examples": [
+          {
+            "japanese": "封筒に「営業部御中」と書いた。",
+            "romaji": "Fuutou ni \"Eigyoubu onchuu\" to kaita.",
+            "german": "Ich schrieb „An die Vertriebsabteilung“ auf den Umschlag."
+          },
+          {
+            "japanese": "会社あての手紙には「御中」を付けます。",
+            "romaji": "Kaisha ate no tegami ni wa \"onchuu\" o tsukemasu.",
+            "german": "Bei Briefen an eine Firma setzt man „御中“ dazu."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85221298",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "御中 / オンチュウ; 名詞/普通名詞/一般/*; *; *; lemma 御中; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "御中",
+              "reading": "おんちゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "御中 as \"an (Firma/Abteilung, Anredezusatz in Adressen)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 御中【おんちゅう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1270530; spelling=御中; reading=おんちゅう; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1270530 御中/おんちゅう sense(s) 1 support \"an (Firma/Abteilung, Anredezusatz in Adressen)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1270530",
+            "spelling": "御中",
+            "reading": "おんちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "... and Company",
+                  "Messrs",
+                  "for the attention of ..."
+                ],
+                "notes": [
+                  "after addressee in letters, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "御中|おんちゅう",
+          "referenceIndex": 0,
+          "referenceHash": "d797a89c3fe35d00e55fbb2dbe0f9b6201cc978dbeb2a22dbadf29b63a4ad97f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"an (Firma/Abteilung, Anredezusatz in Adressen)\" matches JMdict 1270530 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Addressing an envelope.",
+          "Letter-writing rule."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1270530; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@85221298 attest 1,0; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85221298",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "御中 / オンチュウ; 名詞/普通名詞/一般/*; *; *; lemma 御中; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "御中",
+              "reading": "おんちゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "御中 as \"an (Firma/Abteilung, Anredezusatz in Adressen)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 御中【おんちゅう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1270530 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "bf660b9467cf45ee3e1deb7d7e9c8b0bbed2907b77f8297847454f9277fcab32",
+        "approvalHash": "6675117d3531a93570ec661cdcc4559bb1d4a64792c7999b309bf4ea243825f5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 御中【おんちゅう】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1270530 senses 1, N2 fits the publisher rows, pitch 1 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "bf660b9467cf45ee3e1deb7d7e9c8b0bbed2907b77f8297847454f9277fcab32",
+        "approvalHash": "6675117d3531a93570ec661cdcc4559bb1d4a64792c7999b309bf4ea243825f5"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kaikai",
+      "revisionId": "032-add-kaikai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "開会",
+        "reading": "かいかい",
+        "romaji": "kaikai",
+        "meaning": "Eröffnung (einer Sitzung oder Veranstaltung)",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N2",
+        "notes": "Beginn einer Versammlung: 開会式 (Eröffnungsfeier), 開会の挨拶. Gegenteil: 閉会.",
+        "examples": [
+          {
+            "japanese": "午前十時に開会します。",
+            "romaji": "Gozen juuji ni kaikai shimasu.",
+            "german": "Die Veranstaltung wird um 10 Uhr eröffnet."
+          },
+          {
+            "japanese": "市長が開会のあいさつをした。",
+            "romaji": "Shichou ga kaikai no aisatsu o shita.",
+            "german": "Der Bürgermeister hielt die Eröffnungsrede."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85697084",
+            "patterns": [
+              0
+            ],
+            "finding": "開会 / カイカイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 開会; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "開会",
+              "reading": "かいかい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "開会 as \"Eröffnung (einer Sitzung oder Veranstaltung)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 開会【かいかい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1202560; spelling=開会; reading=かいかい; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1202560 開会/かいかい sense(s) 1 support \"Eröffnung (einer Sitzung oder Veranstaltung)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1202560",
+            "spelling": "開会",
+            "reading": "かいかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "opening of a meeting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "開会|かいかい",
+          "referenceIndex": 0,
+          "referenceHash": "5e5385a733c0e11fb1e13c84dc418a1cdeea63eb7f7ed880d3a00568d803f5f5"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Eröffnung (einer Sitzung oder Veranstaltung)\" matches JMdict 1202560 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Opening time.",
+          "Opening speech."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1202560; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@85697084 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85697084",
+            "patterns": [
+              0
+            ],
+            "finding": "開会 / カイカイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 開会; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "開会",
+              "reading": "かいかい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "開会 as \"Eröffnung (einer Sitzung oder Veranstaltung)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 開会【かいかい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1202560 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "8f7bd2389f851027553c27cc707606ce3b75f83a9e11a9ad20a02d0b00a600b8",
+        "approvalHash": "968b6a1500b737272cc66032977ed651a80f768a71957211e2a2e6f31fd5d347"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 開会【かいかい】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1202560 senses 1, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "8f7bd2389f851027553c27cc707606ce3b75f83a9e11a9ad20a02d0b00a600b8",
+        "approvalHash": "968b6a1500b737272cc66032977ed651a80f768a71957211e2a2e6f31fd5d347"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kaikan",
+      "revisionId": "032-add-kaikan",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "会館",
+        "reading": "かいかん",
+        "romaji": "kaikan",
+        "meaning": "Versammlungshalle, Gemeindehaus",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N2",
+        "notes": "Gebäude für Treffen und Veranstaltungen: 市民会館, 学生会館. Gleich klingend: 快感 (Wohlgefühl).",
+        "examples": [
+          {
+            "japanese": "市民会館でコンサートが開かれる。",
+            "romaji": "Shimin kaikan de konsaato ga hirakareru.",
+            "german": "In der Stadthalle findet ein Konzert statt."
+          },
+          {
+            "japanese": "会館の大ホールは五百人入れる。",
+            "romaji": "Kaikan no daihooru wa gohyakunin haireru.",
+            "german": "Der große Saal der Halle fasst fünfhundert Personen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85763695",
+            "patterns": [
+              0
+            ],
+            "finding": "会館 / カイカン; 名詞/普通名詞/一般/*; *; *; lemma 会館; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "会館",
+              "reading": "かいかん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "会館 as \"Versammlungshalle, Gemeindehaus\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 会館【かいかん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1589660; spelling=会館; reading=かいかん; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1589660 会館/かいかん sense(s) 1 support \"Versammlungshalle, Gemeindehaus\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1589660",
+            "spelling": "会館",
+            "reading": "かいかん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting hall",
+                  "assembly hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "会館|かいかん",
+          "referenceIndex": 0,
+          "referenceHash": "24fc7fab01405a94e4c0be449bdcb03dcf1a585f3ea778b2428ef5fc3f095b38"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Versammlungshalle, Gemeindehaus\" matches JMdict 1589660 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Concert venue.",
+          "Capacity of a hall."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1589660; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@85763695 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85763695",
+            "patterns": [
+              0
+            ],
+            "finding": "会館 / カイカン; 名詞/普通名詞/一般/*; *; *; lemma 会館; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "会館",
+              "reading": "かいかん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "会館 as \"Versammlungshalle, Gemeindehaus\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 会館【かいかん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1589660 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1b7aa7e1dc72e826734398a6b56438f83a8246fd62d762a4bccbffe75cd8e9a8",
+        "approvalHash": "6a96510e2d938222440597e559f9138834d711e32858c763dfeaf53628f59063"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 会館【かいかん】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1589660 senses 1, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "1b7aa7e1dc72e826734398a6b56438f83a8246fd62d762a4bccbffe75cd8e9a8",
+        "approvalHash": "6a96510e2d938222440597e559f9138834d711e32858c763dfeaf53628f59063"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "思いがけない|おもいがけない",
+      "referenceIndex": 0,
+      "referenceHash": "ca500eacf293b20023175de152e683fc7120e5152a83c87cde963f4d818b248f",
+      "revisionId": "032-candidate-omoigakenai-1f75a2ab-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:omoigakenai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:omoigakenai": "409323f5de11916d260ece1426a9a740b16d1c84b937de929a06cbe85c9e8d90"
+      },
+      "reason": "Reference 思いがけない/おもいがけない (master N2) is the same lexeme as the new entry 思いがけない【おもいがけない】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 思いがけない/おもいがけない at N2 (gloss: unexpected; contrary to expectations; by chance)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1610630; spelling=思いがけない; reading=おもいがけない; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1610630 as the reference form.",
+          "selected": {
+            "sequence": "1610630",
+            "spelling": "思いがけない",
+            "reading": "おもいがけない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unexpected",
+                  "contrary to expectations",
+                  "by chance",
+                  "casual"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 思いがけない|おもいがけない#0 is the same lexeme as vocab-n2:correction:omoigakenai; target hash bound to the assembled addition.",
+        "contentHash": "6a1d8c2f149ea603f930eb0cfe9a1f6b8667914605dd10e9425383986cd18326",
+        "approvalHash": "6a1d8c2f149ea603f930eb0cfe9a1f6b8667914605dd10e9425383986cd18326"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 思いがけない/おもいがけない (Nihongo Master N2) is the same lexeme as vocab-n2:correction:omoigakenai; the gloss agrees.",
+        "contentHash": "6a1d8c2f149ea603f930eb0cfe9a1f6b8667914605dd10e9425383986cd18326",
+        "approvalHash": "6a1d8c2f149ea603f930eb0cfe9a1f6b8667914605dd10e9425383986cd18326"
+      }
+    },
+    {
+      "key": "思い掛けな|おもいがけない",
+      "referenceIndex": 0,
+      "referenceHash": "ea84f37a5d72deb8210e1902acd8ff87e2d2c6d730810e42eaa793a0650ddabf",
+      "revisionId": "032-candidate-omoigakenai-e38135e8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:omoigakenai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:omoigakenai": "409323f5de11916d260ece1426a9a740b16d1c84b937de929a06cbe85c9e8d90"
+      },
+      "reason": "Reference 思い掛けな/おもいがけない (tanos N2) is the same lexeme as the new entry 思いがけない【おもいがけない】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=12",
+          "finding": "tanos lists 思い掛けな/おもいがけない at N2 (gloss: unexpected,casual)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1610630; spelling=思いがけない; reading=おもいがけない; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1610630 as the reference form.",
+          "selected": {
+            "sequence": "1610630",
+            "spelling": "思いがけない",
+            "reading": "おもいがけない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unexpected",
+                  "contrary to expectations",
+                  "by chance",
+                  "casual"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 思い掛けな|おもいがけない#0 is the same lexeme as vocab-n2:correction:omoigakenai; target hash bound to the assembled addition.",
+        "contentHash": "dc00a16557b97b3f3243d8c027b31f1eb126104df85e0210be368df53ea30b7b",
+        "approvalHash": "dc00a16557b97b3f3243d8c027b31f1eb126104df85e0210be368df53ea30b7b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 思い掛けな/おもいがけない (tanos N2) is the same lexeme as vocab-n2:correction:omoigakenai; the gloss agrees. The truncated tanos form is an artifact of the list and is clearly the same word.",
+        "contentHash": "dc00a16557b97b3f3243d8c027b31f1eb126104df85e0210be368df53ea30b7b",
+        "approvalHash": "dc00a16557b97b3f3243d8c027b31f1eb126104df85e0210be368df53ea30b7b"
+      }
+    },
+    {
+      "key": "思い切り|おもいきり",
+      "referenceIndex": 0,
+      "referenceHash": "6d0a252f8aacd242f9b72818b78f55643fb6c14e8ca6251c553f650cb9a63b5e",
+      "revisionId": "032-candidate-omoikiri-a2fb45c9-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:omoikiri"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:omoikiri": "ff201900ba234449579a748089cfffb16fb1abadb2473348cb02f625e1d361ae"
+      },
+      "reason": "Reference 思い切り/おもいきり (master N2) is the same lexeme as the new entry 思い切り【おもいきり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 思い切り/おもいきり at N2 (gloss: with all one's strength; with all one's heart; resignation)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2834138; spelling=思い切り; reading=おもいきり; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2834138 as the reference form.",
+          "selected": {
+            "sequence": "2834138",
+            "spelling": "思い切り",
+            "reading": "おもいきり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to one's heart's content",
+                  "as much as one wants",
+                  "as hard as one can",
+                  "with all one's strength",
+                  "to the best of one's ability",
+                  "to the utmost",
+                  "with determination",
+                  "hard",
+                  "heavily"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "resolution",
+                  "decisiveness",
+                  "determination",
+                  "resignation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 思い切り|おもいきり#0 is the same lexeme as vocab-n2:correction:omoikiri; target hash bound to the assembled addition.",
+        "contentHash": "de66e58a0378a13f160dbb145dd6bda7a9a7fadabfd3cb0f2a7542bf86a704ea",
+        "approvalHash": "de66e58a0378a13f160dbb145dd6bda7a9a7fadabfd3cb0f2a7542bf86a704ea"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 思い切り/おもいきり (Nihongo Master N2) is the same lexeme as vocab-n2:correction:omoikiri; the gloss agrees.",
+        "contentHash": "de66e58a0378a13f160dbb145dd6bda7a9a7fadabfd3cb0f2a7542bf86a704ea",
+        "approvalHash": "de66e58a0378a13f160dbb145dd6bda7a9a7fadabfd3cb0f2a7542bf86a704ea"
+      }
+    },
+    {
+      "key": "思いっ切り|思いっ切り",
+      "referenceIndex": 0,
+      "referenceHash": "9bcfffcf9311702a51dd491f17261a9eb3c8e35b697a6dc40cd0fdf0e208df85",
+      "revisionId": "032-candidate-omoikiri-bf2b9457-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:omoikiri"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:omoikiri": "ff201900ba234449579a748089cfffb16fb1abadb2473348cb02f625e1d361ae"
+      },
+      "reason": "Reference 思いっ切り/思いっ切り (tanos N2) is the same lexeme as the new entry 思い切り【おもいきり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=12",
+          "finding": "tanos lists 思いっ切り/思いっ切り at N2 (gloss: おもいっきり)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2834138; spelling=思い切り; reading=おもいきり; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2834138 as the reference form.",
+          "selected": {
+            "sequence": "2834138",
+            "spelling": "思い切り",
+            "reading": "おもいきり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to one's heart's content",
+                  "as much as one wants",
+                  "as hard as one can",
+                  "with all one's strength",
+                  "to the best of one's ability",
+                  "to the utmost",
+                  "with determination",
+                  "hard",
+                  "heavily"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "resolution",
+                  "decisiveness",
+                  "determination",
+                  "resignation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 思いっ切り|思いっ切り#0 is the same lexeme as vocab-n2:correction:omoikiri; target hash bound to the assembled addition.",
+        "contentHash": "90761371e1996b5f11983e6e8e7f6884dadebf1b70120f6183c94b1f0fa73aa7",
+        "approvalHash": "90761371e1996b5f11983e6e8e7f6884dadebf1b70120f6183c94b1f0fa73aa7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 思いっ切り/思いっ切り (tanos N2) is the same lexeme as vocab-n2:correction:omoikiri; the gloss agrees. This tanos row has its fields swapped (gloss おもいっきり). JMdict splits 思いっきり (1309310) from 思い切り (2834138), but the glosses are identical and it is the emphatic colloquial form, listed as the alias 思いっきり, so linking is appropriate.",
+        "contentHash": "90761371e1996b5f11983e6e8e7f6884dadebf1b70120f6183c94b1f0fa73aa7",
+        "approvalHash": "90761371e1996b5f11983e6e8e7f6884dadebf1b70120f6183c94b1f0fa73aa7"
+      }
+    },
+    {
+      "key": "重たい|おもたい",
+      "referenceIndex": 0,
+      "referenceHash": "8e1a13055ec52694d129b425d32aae451986d03859749412cacade9bee9175a8",
+      "revisionId": "032-candidate-omotai-5493c801-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:omotai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:omotai": "95ecebcf81fe70235f79f167eb0ff5b6bf1387b783fd5ddcbbcea41a191160c4"
+      },
+      "reason": "Reference 重たい/おもたい (tanos N2) is the same lexeme as the new entry 重たい【おもたい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=12",
+          "finding": "tanos lists 重たい/おもたい at N2 (gloss: heavy,massive,serious)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1335780; spelling=重たい; reading=おもたい; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1335780 as the reference form.",
+          "selected": {
+            "sequence": "1335780",
+            "spelling": "重たい",
+            "reading": "おもたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heavy",
+                  "weighty"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heavy (feeling, atmosphere, etc.)",
+                  "serious",
+                  "gloomy",
+                  "depressing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 重たい|おもたい#0 is the same lexeme as vocab-n2:correction:omotai; target hash bound to the assembled addition.",
+        "contentHash": "1ab3f9577d00695acf764a96bb33a07cfecd83ff70387fc0c5c45734f6abd7eb",
+        "approvalHash": "1ab3f9577d00695acf764a96bb33a07cfecd83ff70387fc0c5c45734f6abd7eb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 重たい/おもたい (tanos N2) is the same lexeme as vocab-n2:correction:omotai; the gloss agrees.",
+        "contentHash": "1ab3f9577d00695acf764a96bb33a07cfecd83ff70387fc0c5c45734f6abd7eb",
+        "approvalHash": "1ab3f9577d00695acf764a96bb33a07cfecd83ff70387fc0c5c45734f6abd7eb"
+      }
+    },
+    {
+      "key": "重たい|おもたい",
+      "referenceIndex": 1,
+      "referenceHash": "1f7bac01039dcdb4cf5a47f7adab3524bc7dfb903b4ca0ab4ab28f67158aabcf",
+      "revisionId": "032-candidate-omotai-5493c801-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:omotai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:omotai": "95ecebcf81fe70235f79f167eb0ff5b6bf1387b783fd5ddcbbcea41a191160c4"
+      },
+      "reason": "Reference 重たい/おもたい (master N2) is the same lexeme as the new entry 重たい【おもたい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 重たい/おもたい at N2 (gloss: heavy; massive; serious)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1335780; spelling=重たい; reading=おもたい; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1335780 as the reference form.",
+          "selected": {
+            "sequence": "1335780",
+            "spelling": "重たい",
+            "reading": "おもたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heavy",
+                  "weighty"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heavy (feeling, atmosphere, etc.)",
+                  "serious",
+                  "gloomy",
+                  "depressing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 重たい|おもたい#1 is the same lexeme as vocab-n2:correction:omotai; target hash bound to the assembled addition.",
+        "contentHash": "bb4f413bfa73809e509d61ae1a3a8a43805427e5c731839ce22c1171349a20c8",
+        "approvalHash": "bb4f413bfa73809e509d61ae1a3a8a43805427e5c731839ce22c1171349a20c8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 重たい/おもたい (Nihongo Master N2) is the same lexeme as vocab-n2:correction:omotai; the gloss agrees.",
+        "contentHash": "bb4f413bfa73809e509d61ae1a3a8a43805427e5c731839ce22c1171349a20c8",
+        "approvalHash": "bb4f413bfa73809e509d61ae1a3a8a43805427e5c731839ce22c1171349a20c8"
+      }
+    },
+    {
+      "key": "おやすみ|おやすみ",
+      "referenceIndex": 0,
+      "referenceHash": "39485bd9fac5cbcf77dd2aca65ba220dacee76cd7a1f68cc796fa215964d3920",
+      "revisionId": "032-candidate-oyasumi-513feee1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:oyasumi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:oyasumi": "63b2930ca1506aed3f1e20a5b926a2c3c3696a67b031d07269938a208c03f03c"
+      },
+      "reason": "Reference おやすみ/おやすみ (tanos N2) is the same lexeme as the new entry お休み【おやすみ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=12",
+          "finding": "tanos lists おやすみ/おやすみ at N2 (gloss: (1) holiday,absence,rest,(2) (exp) Good night)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1612680; spelling=お休み; reading=おやすみ; senses=1,3; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1612680 as the reference form.",
+          "selected": {
+            "sequence": "1612680",
+            "spelling": "お休み",
+            "reading": "おやすみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "holiday",
+                  "day off",
+                  "absence"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "abbreviation",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "good night"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference おやすみ|おやすみ#0 is the same lexeme as vocab-n2:correction:oyasumi; target hash bound to the assembled addition.",
+        "contentHash": "3665d2582720693e2b8e8bdd1d141b293bf469688dade133c6f4c22063059e47",
+        "approvalHash": "3665d2582720693e2b8e8bdd1d141b293bf469688dade133c6f4c22063059e47"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). おやすみ/おやすみ (tanos N2) is the same lexeme as vocab-n2:correction:oyasumi; the gloss agrees.",
+        "contentHash": "3665d2582720693e2b8e8bdd1d141b293bf469688dade133c6f4c22063059e47",
+        "approvalHash": "3665d2582720693e2b8e8bdd1d141b293bf469688dade133c6f4c22063059e47"
+      }
+    },
+    {
+      "key": "お休み|おやすみ",
+      "referenceIndex": 0,
+      "referenceHash": "22360034bbb376d7cc9e4259f74bee774a9aaa724b2e24115cd6408254a55227",
+      "revisionId": "032-candidate-oyasumi-127f8d38-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:oyasumi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:oyasumi": "63b2930ca1506aed3f1e20a5b926a2c3c3696a67b031d07269938a208c03f03c"
+      },
+      "reason": "Reference お休み/おやすみ (tanos N1) is the same lexeme as the new entry お休み【おやすみ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=24",
+          "finding": "tanos lists お休み/おやすみ at N1 (gloss: holiday, absence, rest, Good night)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1612680; spelling=お休み; reading=おやすみ; senses=1,3; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1612680 as the reference form.",
+          "selected": {
+            "sequence": "1612680",
+            "spelling": "お休み",
+            "reading": "おやすみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "holiday",
+                  "day off",
+                  "absence"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "abbreviation",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "good night"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference お休み|おやすみ#0 is the same lexeme as vocab-n2:correction:oyasumi; target hash bound to the assembled addition.",
+        "contentHash": "f4eb7e5dd1528525271ab33cd71199688c258d063dec9a3f292d2e3dcb51ea40",
+        "approvalHash": "f4eb7e5dd1528525271ab33cd71199688c258d063dec9a3f292d2e3dcb51ea40"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). お休み/おやすみ (tanos N1) is the same lexeme as vocab-n2:correction:oyasumi; the gloss agrees.",
+        "contentHash": "f4eb7e5dd1528525271ab33cd71199688c258d063dec9a3f292d2e3dcb51ea40",
+        "approvalHash": "f4eb7e5dd1528525271ab33cd71199688c258d063dec9a3f292d2e3dcb51ea40"
+      }
+    },
+    {
+      "key": "お休み|おやすみ",
+      "referenceIndex": 1,
+      "referenceHash": "c6b83a4b0409e6440fd3f46d23de42e840db6843806be89b2ae2b28d6f6da056",
+      "revisionId": "032-candidate-oyasumi-127f8d38-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:oyasumi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:oyasumi": "63b2930ca1506aed3f1e20a5b926a2c3c3696a67b031d07269938a208c03f03c"
+      },
+      "reason": "Reference お休み/おやすみ (master N2) is the same lexeme as the new entry お休み【おやすみ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists お休み/おやすみ at N2 (gloss: holiday; day off; absence)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1612680; spelling=お休み; reading=おやすみ; senses=1,3; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1612680 as the reference form.",
+          "selected": {
+            "sequence": "1612680",
+            "spelling": "お休み",
+            "reading": "おやすみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "holiday",
+                  "day off",
+                  "absence"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "abbreviation",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "good night"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference お休み|おやすみ#1 is the same lexeme as vocab-n2:correction:oyasumi; target hash bound to the assembled addition.",
+        "contentHash": "47181def8ecda38068ed945604fc16f21d9a79afec6ccde2c5ea193ccaab17d8",
+        "approvalHash": "47181def8ecda38068ed945604fc16f21d9a79afec6ccde2c5ea193ccaab17d8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). お休み/おやすみ (Nihongo Master N2) is the same lexeme as vocab-n2:correction:oyasumi; the gloss agrees.",
+        "contentHash": "47181def8ecda38068ed945604fc16f21d9a79afec6ccde2c5ea193ccaab17d8",
+        "approvalHash": "47181def8ecda38068ed945604fc16f21d9a79afec6ccde2c5ea193ccaab17d8"
+      }
+    },
+    {
+      "key": "おるがん|おるがん",
+      "referenceIndex": 0,
+      "referenceHash": "60c8ceb2b4500a2738bd030cbfe2bdc23543c5e154dc8c23bbb6f791f6a6b3b1",
+      "revisionId": "032-candidate-orugan-294bd8c2-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:orugan"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:orugan": "cd9daf14ea830e491489704a4ef5a1e56640612982f48a68598817a56ccb6069"
+      },
+      "reason": "Reference オルガン/オルガン (tanos N2) is the same lexeme as the new entry オルガン【オルガン】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=12",
+          "finding": "tanos lists オルガン/オルガン at N2 (gloss: organ)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1035780; spelling=オルガン; reading=オルガン; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1035780 as the reference form.",
+          "selected": {
+            "sequence": "1035780",
+            "spelling": "オルガン",
+            "reading": "オルガン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "organ (musical instrument)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference おるがん|おるがん#0 is the same lexeme as vocab-n2:correction:orugan; target hash bound to the assembled addition.",
+        "contentHash": "f44695c9f0afa8d8527c83d9db8f5d4769c0c0b5fe44d7d8d624031cc6fcd82c",
+        "approvalHash": "f44695c9f0afa8d8527c83d9db8f5d4769c0c0b5fe44d7d8d624031cc6fcd82c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). オルガン/オルガン (tanos N2) is the same lexeme as vocab-n2:correction:orugan; the gloss agrees.",
+        "contentHash": "f44695c9f0afa8d8527c83d9db8f5d4769c0c0b5fe44d7d8d624031cc6fcd82c",
+        "approvalHash": "f44695c9f0afa8d8527c83d9db8f5d4769c0c0b5fe44d7d8d624031cc6fcd82c"
+      }
+    },
+    {
+      "key": "おるがん|おるがん",
+      "referenceIndex": 1,
+      "referenceHash": "e359ab4cbf6ed2b79e8987cf832c768c10641a77d4270ce06921e22827e68514",
+      "revisionId": "032-candidate-orugan-294bd8c2-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:orugan"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:orugan": "cd9daf14ea830e491489704a4ef5a1e56640612982f48a68598817a56ccb6069"
+      },
+      "reason": "Reference オルガン/オルガン (master N2) is the same lexeme as the new entry オルガン【オルガン】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists オルガン/オルガン at N2 (gloss: organ (musical instrument); organe; (n) Orgel)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1035780; spelling=オルガン; reading=オルガン; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1035780 as the reference form.",
+          "selected": {
+            "sequence": "1035780",
+            "spelling": "オルガン",
+            "reading": "オルガン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "organ (musical instrument)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference おるがん|おるがん#1 is the same lexeme as vocab-n2:correction:orugan; target hash bound to the assembled addition.",
+        "contentHash": "43649d4f9aa915510d4ee00d0904114835b089dba2a0834bf1528b50238d2f94",
+        "approvalHash": "43649d4f9aa915510d4ee00d0904114835b089dba2a0834bf1528b50238d2f94"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). オルガン/オルガン (Nihongo Master N2) is the same lexeme as vocab-n2:correction:orugan; the gloss agrees.",
+        "contentHash": "43649d4f9aa915510d4ee00d0904114835b089dba2a0834bf1528b50238d2f94",
+        "approvalHash": "43649d4f9aa915510d4ee00d0904114835b089dba2a0834bf1528b50238d2f94"
+      }
+    },
+    {
+      "key": "温室|おんしつ",
+      "referenceIndex": 0,
+      "referenceHash": "7c0168b8e1867025c32cfaa54d6c2fb81c34856122b45fad96f9e4e7e04e4bb0",
+      "revisionId": "032-candidate-onshitsu-bae64dcd-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:onshitsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:onshitsu": "56429b6dce2bdb616f0de906703a83178c8ab16f87b9af70db0afca1103a3ce1"
+      },
+      "reason": "Reference 温室/おんしつ (tanos N2) is the same lexeme as the new entry 温室【おんしつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=12",
+          "finding": "tanos lists 温室/おんしつ at N2 (gloss: greenhouse)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1183390; spelling=温室; reading=おんしつ; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1183390 as the reference form.",
+          "selected": {
+            "sequence": "1183390",
+            "spelling": "温室",
+            "reading": "おんしつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "greenhouse",
+                  "hothouse",
+                  "conservatory",
+                  "glasshouse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 温室|おんしつ#0 is the same lexeme as vocab-n2:correction:onshitsu; target hash bound to the assembled addition.",
+        "contentHash": "0bd1456b5b1b9c872b95c2dcfdb0f67a0a0b44fca0858fdca2f11aa1a5029fbf",
+        "approvalHash": "0bd1456b5b1b9c872b95c2dcfdb0f67a0a0b44fca0858fdca2f11aa1a5029fbf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 温室/おんしつ (tanos N2) is the same lexeme as vocab-n2:correction:onshitsu; the gloss agrees.",
+        "contentHash": "0bd1456b5b1b9c872b95c2dcfdb0f67a0a0b44fca0858fdca2f11aa1a5029fbf",
+        "approvalHash": "0bd1456b5b1b9c872b95c2dcfdb0f67a0a0b44fca0858fdca2f11aa1a5029fbf"
+      }
+    },
+    {
+      "key": "温室|おんしつ",
+      "referenceIndex": 1,
+      "referenceHash": "f049e295f6a24d52015534283189d87814dc1e9bcc6e431bd35790217302b718",
+      "revisionId": "032-candidate-onshitsu-bae64dcd-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:onshitsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:onshitsu": "56429b6dce2bdb616f0de906703a83178c8ab16f87b9af70db0afca1103a3ce1"
+      },
+      "reason": "Reference 温室/おんしつ (master N2) is the same lexeme as the new entry 温室【おんしつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 温室/おんしつ at N2 (gloss: greenhouse; hothouse; conservatory)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1183390; spelling=温室; reading=おんしつ; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1183390 as the reference form.",
+          "selected": {
+            "sequence": "1183390",
+            "spelling": "温室",
+            "reading": "おんしつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "greenhouse",
+                  "hothouse",
+                  "conservatory",
+                  "glasshouse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 温室|おんしつ#1 is the same lexeme as vocab-n2:correction:onshitsu; target hash bound to the assembled addition.",
+        "contentHash": "ab04c916c5ad8ec7b6ab379c9540298959c0289e8e30acf8373b892bc94d858a",
+        "approvalHash": "ab04c916c5ad8ec7b6ab379c9540298959c0289e8e30acf8373b892bc94d858a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 温室/おんしつ (Nihongo Master N2) is the same lexeme as vocab-n2:correction:onshitsu; the gloss agrees.",
+        "contentHash": "ab04c916c5ad8ec7b6ab379c9540298959c0289e8e30acf8373b892bc94d858a",
+        "approvalHash": "ab04c916c5ad8ec7b6ab379c9540298959c0289e8e30acf8373b892bc94d858a"
+      }
+    },
+    {
+      "key": "御中|おんちゅう",
+      "referenceIndex": 0,
+      "referenceHash": "d797a89c3fe35d00e55fbb2dbe0f9b6201cc978dbeb2a22dbadf29b63a4ad97f",
+      "revisionId": "032-candidate-onchuu-76629611-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:onchuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:onchuu": "bf660b9467cf45ee3e1deb7d7e9c8b0bbed2907b77f8297847454f9277fcab32"
+      },
+      "reason": "Reference 御中/おんちゅう (tanos N2) is the same lexeme as the new entry 御中【おんちゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=12",
+          "finding": "tanos lists 御中/おんちゅう at N2 (gloss: and Company,Messrs.)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1270530; spelling=御中; reading=おんちゅう; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1270530 as the reference form.",
+          "selected": {
+            "sequence": "1270530",
+            "spelling": "御中",
+            "reading": "おんちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "... and Company",
+                  "Messrs",
+                  "for the attention of ..."
+                ],
+                "notes": [
+                  "after addressee in letters, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 御中|おんちゅう#0 is the same lexeme as vocab-n2:correction:onchuu; target hash bound to the assembled addition.",
+        "contentHash": "0c7dd900adb470550bb124d34d6047a866950cab372c2ddf565adf9eb09bd781",
+        "approvalHash": "0c7dd900adb470550bb124d34d6047a866950cab372c2ddf565adf9eb09bd781"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 御中/おんちゅう (tanos N2) is the same lexeme as vocab-n2:correction:onchuu; the gloss agrees.",
+        "contentHash": "0c7dd900adb470550bb124d34d6047a866950cab372c2ddf565adf9eb09bd781",
+        "approvalHash": "0c7dd900adb470550bb124d34d6047a866950cab372c2ddf565adf9eb09bd781"
+      }
+    },
+    {
+      "key": "御中|おんちゅう",
+      "referenceIndex": 1,
+      "referenceHash": "76e67d523ac5b51121fce837780c2f688b9c879bcd44d902caa53f13f4ae5f72",
+      "revisionId": "032-candidate-onchuu-76629611-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:onchuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:onchuu": "bf660b9467cf45ee3e1deb7d7e9c8b0bbed2907b77f8297847454f9277fcab32"
+      },
+      "reason": "Reference 御中/おんちゅう (master N2) is the same lexeme as the new entry 御中【おんちゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 御中/おんちゅう at N2 (gloss: and Company; Messrs; for the attention of ...)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1270530; spelling=御中; reading=おんちゅう; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1270530 as the reference form.",
+          "selected": {
+            "sequence": "1270530",
+            "spelling": "御中",
+            "reading": "おんちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "... and Company",
+                  "Messrs",
+                  "for the attention of ..."
+                ],
+                "notes": [
+                  "after addressee in letters, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 御中|おんちゅう#1 is the same lexeme as vocab-n2:correction:onchuu; target hash bound to the assembled addition.",
+        "contentHash": "18e0fc2fb0d393da194d42c3f4982369391f3e696459f87e1052ae24b863636f",
+        "approvalHash": "18e0fc2fb0d393da194d42c3f4982369391f3e696459f87e1052ae24b863636f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 御中/おんちゅう (Nihongo Master N2) is the same lexeme as vocab-n2:correction:onchuu; the gloss agrees.",
+        "contentHash": "18e0fc2fb0d393da194d42c3f4982369391f3e696459f87e1052ae24b863636f",
+        "approvalHash": "18e0fc2fb0d393da194d42c3f4982369391f3e696459f87e1052ae24b863636f"
+      }
+    },
+    {
+      "key": "開会|かいかい",
+      "referenceIndex": 0,
+      "referenceHash": "5e5385a733c0e11fb1e13c84dc418a1cdeea63eb7f7ed880d3a00568d803f5f5",
+      "revisionId": "032-candidate-kaikai-b0007c1a-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaikai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaikai": "8f7bd2389f851027553c27cc707606ce3b75f83a9e11a9ad20a02d0b00a600b8"
+      },
+      "reason": "Reference 開会/かいかい (tanos N2) is the same lexeme as the new entry 開会【かいかい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=13",
+          "finding": "tanos lists 開会/かいかい at N2 (gloss: opening of a meeting)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1202560; spelling=開会; reading=かいかい; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1202560 as the reference form.",
+          "selected": {
+            "sequence": "1202560",
+            "spelling": "開会",
+            "reading": "かいかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "opening of a meeting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 開会|かいかい#0 is the same lexeme as vocab-n2:correction:kaikai; target hash bound to the assembled addition.",
+        "contentHash": "1391dfe478ef70cb281255a027e41e5cbeb91c24e70699bf68d5d17a2d533c6b",
+        "approvalHash": "1391dfe478ef70cb281255a027e41e5cbeb91c24e70699bf68d5d17a2d533c6b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 開会/かいかい (tanos N2) is the same lexeme as vocab-n2:correction:kaikai; the gloss agrees.",
+        "contentHash": "1391dfe478ef70cb281255a027e41e5cbeb91c24e70699bf68d5d17a2d533c6b",
+        "approvalHash": "1391dfe478ef70cb281255a027e41e5cbeb91c24e70699bf68d5d17a2d533c6b"
+      }
+    },
+    {
+      "key": "開会|かいかい",
+      "referenceIndex": 1,
+      "referenceHash": "5e5a8f465c30733fffdcda3281b1c951a1b17b1d311d77fb26582ad649cf0d3c",
+      "revisionId": "032-candidate-kaikai-b0007c1a-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaikai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaikai": "8f7bd2389f851027553c27cc707606ce3b75f83a9e11a9ad20a02d0b00a600b8"
+      },
+      "reason": "Reference 開会/かいかい (sensei N2) is the same lexeme as the new entry 開会【かいかい】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 開会/かいかい at N2 (gloss: opening of a meeting; starting (an event, etc))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1202560; spelling=開会; reading=かいかい; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1202560 as the reference form.",
+          "selected": {
+            "sequence": "1202560",
+            "spelling": "開会",
+            "reading": "かいかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "opening of a meeting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 開会|かいかい#1 is the same lexeme as vocab-n2:correction:kaikai; target hash bound to the assembled addition.",
+        "contentHash": "31ec693584e48b980c639e0d140236791591331be26a84e20df7f0b6b3ca5bc2",
+        "approvalHash": "31ec693584e48b980c639e0d140236791591331be26a84e20df7f0b6b3ca5bc2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 開会/かいかい (JLPT Sensei N2) is the same lexeme as vocab-n2:correction:kaikai; the gloss agrees.",
+        "contentHash": "31ec693584e48b980c639e0d140236791591331be26a84e20df7f0b6b3ca5bc2",
+        "approvalHash": "31ec693584e48b980c639e0d140236791591331be26a84e20df7f0b6b3ca5bc2"
+      }
+    },
+    {
+      "key": "開会|かいかい",
+      "referenceIndex": 2,
+      "referenceHash": "0fc85c76a4caab65108836ba2186bbecc6b7c78d21bd20754ce80471c33e3b0b",
+      "revisionId": "032-candidate-kaikai-b0007c1a-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaikai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaikai": "8f7bd2389f851027553c27cc707606ce3b75f83a9e11a9ad20a02d0b00a600b8"
+      },
+      "reason": "Reference 開会/かいかい (master N2) is the same lexeme as the new entry 開会【かいかい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 開会/かいかい at N2 (gloss: opening of a meeting; ouverture d'une réunion; (n) Eröffnung einer Versammlung)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1202560; spelling=開会; reading=かいかい; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1202560 as the reference form.",
+          "selected": {
+            "sequence": "1202560",
+            "spelling": "開会",
+            "reading": "かいかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "opening of a meeting"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 開会|かいかい#2 is the same lexeme as vocab-n2:correction:kaikai; target hash bound to the assembled addition.",
+        "contentHash": "6716dccf8a12840a386ea3759534139de164a96c287b22bf593289d964dc6168",
+        "approvalHash": "6716dccf8a12840a386ea3759534139de164a96c287b22bf593289d964dc6168"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 開会/かいかい (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kaikai; the gloss agrees.",
+        "contentHash": "6716dccf8a12840a386ea3759534139de164a96c287b22bf593289d964dc6168",
+        "approvalHash": "6716dccf8a12840a386ea3759534139de164a96c287b22bf593289d964dc6168"
+      }
+    },
+    {
+      "key": "会館|かいかん",
+      "referenceIndex": 0,
+      "referenceHash": "24fc7fab01405a94e4c0be449bdcb03dcf1a585f3ea778b2428ef5fc3f095b38",
+      "revisionId": "032-candidate-kaikan-581e0d88-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaikan"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaikan": "1b7aa7e1dc72e826734398a6b56438f83a8246fd62d762a4bccbffe75cd8e9a8"
+      },
+      "reason": "Reference 会館/かいかん (tanos N2) is the same lexeme as the new entry 会館【かいかん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=13",
+          "finding": "tanos lists 会館/かいかん at N2 (gloss: meeting hall,assembly hall)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1589660; spelling=会館; reading=かいかん; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1589660 as the reference form.",
+          "selected": {
+            "sequence": "1589660",
+            "spelling": "会館",
+            "reading": "かいかん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting hall",
+                  "assembly hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 会館|かいかん#0 is the same lexeme as vocab-n2:correction:kaikan; target hash bound to the assembled addition.",
+        "contentHash": "1de8c79e63ec6e982d098bde49b9941b24c0a106fc294a415175e50535bac600",
+        "approvalHash": "1de8c79e63ec6e982d098bde49b9941b24c0a106fc294a415175e50535bac600"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 会館/かいかん (tanos N2) is the same lexeme as vocab-n2:correction:kaikan; the gloss agrees.",
+        "contentHash": "1de8c79e63ec6e982d098bde49b9941b24c0a106fc294a415175e50535bac600",
+        "approvalHash": "1de8c79e63ec6e982d098bde49b9941b24c0a106fc294a415175e50535bac600"
+      }
+    },
+    {
+      "key": "会館|かいかん",
+      "referenceIndex": 1,
+      "referenceHash": "69f9fd8adae5f86ad118a40f6c913c743ca3094f9b166e0fa0e96cc47c3a0a88",
+      "revisionId": "032-candidate-kaikan-581e0d88-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaikan"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaikan": "1b7aa7e1dc72e826734398a6b56438f83a8246fd62d762a4bccbffe75cd8e9a8"
+      },
+      "reason": "Reference 会館/かいかん (sensei N2) is the same lexeme as the new entry 会館【かいかん】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 会館/かいかん at N2 (gloss: meeting hall; assembly hall)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1589660; spelling=会館; reading=かいかん; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1589660 as the reference form.",
+          "selected": {
+            "sequence": "1589660",
+            "spelling": "会館",
+            "reading": "かいかん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting hall",
+                  "assembly hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 会館|かいかん#1 is the same lexeme as vocab-n2:correction:kaikan; target hash bound to the assembled addition.",
+        "contentHash": "4c6d96a88e54d94cb5cbc54ccc85e5a3487c8be3fe7cbc82582b031566cc6028",
+        "approvalHash": "4c6d96a88e54d94cb5cbc54ccc85e5a3487c8be3fe7cbc82582b031566cc6028"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 会館/かいかん (JLPT Sensei N2) is the same lexeme as vocab-n2:correction:kaikan; the gloss agrees.",
+        "contentHash": "4c6d96a88e54d94cb5cbc54ccc85e5a3487c8be3fe7cbc82582b031566cc6028",
+        "approvalHash": "4c6d96a88e54d94cb5cbc54ccc85e5a3487c8be3fe7cbc82582b031566cc6028"
+      }
+    },
+    {
+      "key": "会館|かいかん",
+      "referenceIndex": 2,
+      "referenceHash": "a0932ebeda0b59c450aacf7e790c529735f11fb80843b896fb753a1f4ed6b94c",
+      "revisionId": "032-candidate-kaikan-581e0d88-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaikan"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaikan": "1b7aa7e1dc72e826734398a6b56438f83a8246fd62d762a4bccbffe75cd8e9a8"
+      },
+      "reason": "Reference 会館/かいかん (master N2) is the same lexeme as the new entry 会館【かいかん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 会館/かいかん at N2 (gloss: meeting hall; assembly hall; halle)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1589660; spelling=会館; reading=かいかん; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1589660 as the reference form.",
+          "selected": {
+            "sequence": "1589660",
+            "spelling": "会館",
+            "reading": "かいかん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting hall",
+                  "assembly hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 会館|かいかん#2 is the same lexeme as vocab-n2:correction:kaikan; target hash bound to the assembled addition.",
+        "contentHash": "09c27aba8d56b53344eac297001af95ec6b6531e4492bd6a7fc8b07655592a68",
+        "approvalHash": "09c27aba8d56b53344eac297001af95ec6b6531e4492bd6a7fc8b07655592a68"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 会館/かいかん (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kaikan; the gloss agrees.",
+        "contentHash": "09c27aba8d56b53344eac297001af95ec6b6531e4492bd6a7fc8b07655592a68",
+        "approvalHash": "09c27aba8d56b53344eac297001af95ec6b6531e4492bd6a7fc8b07655592a68"
+      }
+    }
+  ]
+}

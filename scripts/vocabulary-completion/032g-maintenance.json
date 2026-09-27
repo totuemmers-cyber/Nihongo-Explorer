@@ -1,0 +1,3392 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:kaisuiyoku",
+      "revisionId": "032-add-kaisuiyoku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "海水浴",
+        "reading": "かいすいよく",
+        "romaji": "kaisuiyoku",
+        "meaning": "Baden im Meer",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N2",
+        "notes": "Schwimmen und Baden am Strand: 海水浴に行く, 海水浴場 (Badestrand).",
+        "examples": [
+          {
+            "japanese": "夏休みに家族で海水浴に行った。",
+            "romaji": "Natsuyasumi ni kazoku de kaisuiyoku ni itta.",
+            "german": "In den Sommerferien sind wir als Familie zum Baden ans Meer gefahren."
+          },
+          {
+            "japanese": "この海水浴場は七月から開く。",
+            "romaji": "Kono kaisuiyokujou wa shichigatsu kara hiraku.",
+            "german": "Dieser Badestrand öffnet ab Juli."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 海水浴【かいすいよく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1201520; spelling=海水浴; reading=かいすいよく; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1201520 海水浴/かいすいよく sense(s) 1 support \"Baden im Meer\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1201520",
+            "spelling": "海水浴",
+            "reading": "かいすいよく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "swimming in the ocean",
+                  "sea bathing",
+                  "seawater bath",
+                  "going for a dip in the ocean"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "海水浴|かいすいよく",
+          "referenceIndex": 0,
+          "referenceHash": "f481432889b036a130ff8449b1e698477cb9f06b00ca1909a88cbd609cfd6c8b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Baden im Meer\" matches JMdict 1201520 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Family beach trip.",
+          "Beach opening season."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1201520; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 海水浴 / かいすいよく; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 海水浴 / かいすいよく",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 海水浴【かいすいよく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1201520 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "535a8b8b4239c8efdf8974c11f6a40295d1d181c070bba593badddedd4ec5fdc",
+        "approvalHash": "23798a5f8bf0d31222343e77149fe85bb4b08ca12e3e62a98913399827d91f9d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 海水浴【かいすいよく】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1201520 senses 1, N2 fits the publisher rows, pitch is unknown, which is correct because there is no exact UniDic row, and check.cjs reports \"new\".",
+        "contentHash": "535a8b8b4239c8efdf8974c11f6a40295d1d181c070bba593badddedd4ec5fdc",
+        "approvalHash": "23798a5f8bf0d31222343e77149fe85bb4b08ca12e3e62a98913399827d91f9d"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kaisei",
+      "revisionId": "032-add-kaisei",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "快晴",
+        "reading": "かいせい",
+        "romaji": "kaisei",
+        "meaning": "strahlend schönes Wetter, wolkenlos",
+        "type": "Nomen",
+        "category": "Wetter",
+        "level": "N2",
+        "notes": "Fachlich: Himmel fast ohne Wolken. Stärker als 晴れ. Gleich klingend: 改正 (Änderung).",
+        "examples": [
+          {
+            "japanese": "運動会の日は快晴だった。",
+            "romaji": "Undoukai no hi wa kaisei datta.",
+            "german": "Am Sportfest war strahlender Sonnenschein."
+          },
+          {
+            "japanese": "明日は全国的に快晴になるでしょう。",
+            "romaji": "Ashita wa zenkokuteki ni kaisei ni naru deshou.",
+            "german": "Morgen wird es landesweit wolkenlos."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86076903",
+            "patterns": [
+              0
+            ],
+            "finding": "快晴 / カイセイ; 名詞/普通名詞/一般/*; *; *; lemma 快晴; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "快晴",
+              "reading": "かいせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "快晴 as \"strahlend schönes Wetter, wolkenlos\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 快晴【かいせい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1200060; spelling=快晴; reading=かいせい; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1200060 快晴/かいせい sense(s) 1 support \"strahlend schönes Wetter, wolkenlos\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1200060",
+            "spelling": "快晴",
+            "reading": "かいせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "clear weather",
+                  "cloudless weather",
+                  "good weather"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "快晴|かいせい",
+          "referenceIndex": 0,
+          "referenceHash": "18c04be9e1f62fd0639f6d0c38be5db711d4beae81699a8618a620238a76cd52"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"strahlend schönes Wetter, wolkenlos\" matches JMdict 1200060 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sports day weather.",
+          "Weather forecast."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1200060; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@86076903 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86076903",
+            "patterns": [
+              0
+            ],
+            "finding": "快晴 / カイセイ; 名詞/普通名詞/一般/*; *; *; lemma 快晴; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "快晴",
+              "reading": "かいせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "快晴 as \"strahlend schönes Wetter, wolkenlos\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 快晴【かいせい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1200060 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b33d242279b5a6e412bb39a4f757c9a758f1ad61da9401a13b8e63e717afa000",
+        "approvalHash": "17e88afe43a4d7f2c47a4c60b6fc0753ce1a30de365c2210783c6a3d7e7beb79"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 快晴【かいせい】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1200060 senses 1, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "b33d242279b5a6e412bb39a4f757c9a758f1ad61da9401a13b8e63e717afa000",
+        "approvalHash": "17e88afe43a4d7f2c47a4c60b6fc0753ce1a30de365c2210783c6a3d7e7beb79"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kaitsuu",
+      "revisionId": "032-add-kaitsuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "開通",
+        "reading": "かいつう",
+        "romaji": "kaitsuu",
+        "meaning": "Eröffnung (einer Strecke), Inbetriebnahme",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Wenn eine Straße, Bahnlinie oder Leitung in Betrieb geht: 新しい道路が開通する; auch Wiederfreigabe nach Sperrung.",
+        "examples": [
+          {
+            "japanese": "来月、新しいトンネルが開通する。",
+            "romaji": "Raigetsu, atarashii tonneru ga kaitsuu suru.",
+            "german": "Nächsten Monat wird ein neuer Tunnel eröffnet."
+          },
+          {
+            "japanese": "雪で止まっていた道路が、やっと開通した。",
+            "romaji": "Yuki de tomatte ita douro ga, yatto kaitsuu shita.",
+            "german": "Die wegen Schnee gesperrte Straße ist endlich wieder frei."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86237846",
+            "patterns": [
+              0
+            ],
+            "finding": "開通 / カイツウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 開通; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "開通",
+              "reading": "かいつう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "開通 as \"Eröffnung (einer Strecke), Inbetriebnahme\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 開通【かいつう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1202850; spelling=開通; reading=かいつう; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1202850 開通/かいつう sense(s) 1,2 support \"Eröffnung (einer Strecke), Inbetriebnahme\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1202850",
+            "spelling": "開通",
+            "reading": "かいつう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "opening (of a new road, railway, etc.)",
+                  "going into operation (e.g. telephone communication)",
+                  "beginning services"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "reopening (e.g. of a road to traffic)",
+                  "resumption of services"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "開通|かいつう",
+          "referenceIndex": 0,
+          "referenceHash": "b24dda51281060ead0e4f09c585000c59aa7ba203fff43b923275f4602e385f6"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Eröffnung (einer Strecke), Inbetriebnahme\" matches JMdict 1202850 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "New tunnel.",
+          "Road reopened."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1202850; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@86237846 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86237846",
+            "patterns": [
+              0
+            ],
+            "finding": "開通 / カイツウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 開通; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "開通",
+              "reading": "かいつう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "開通 as \"Eröffnung (einer Strecke), Inbetriebnahme\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 開通【かいつう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1202850 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "029e65d16d0a380ee67f7aa07070f7c0431bed8687843e24b4a73e7d6cbd0a8c",
+        "approvalHash": "71e3640992b26a1de477a310a86742a184e9b7943849ea2a45d42b0f04d84514"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 開通【かいつう】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1202850 senses 1/2, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "029e65d16d0a380ee67f7aa07070f7c0431bed8687843e24b4a73e7d6cbd0a8c",
+        "approvalHash": "71e3640992b26a1de477a310a86742a184e9b7943849ea2a45d42b0f04d84514"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kaoku",
+      "revisionId": "032-add-kaoku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "家屋",
+        "reading": "かおく",
+        "romaji": "kaoku",
+        "meaning": "Haus, Gebäude",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N2",
+        "notes": "Schriftsprachlich, z. B. in Nachrichten und Behördensprache: 家屋の被害, 日本家屋 (traditionelles japanisches Haus).",
+        "examples": [
+          {
+            "japanese": "地震で多くの家屋が倒れた。",
+            "romaji": "Jishin de ooku no kaoku ga taoreta.",
+            "german": "Durch das Erdbeben stürzten viele Häuser ein."
+          },
+          {
+            "japanese": "古い日本家屋を改装してカフェにした。",
+            "romaji": "Furui Nihon kaoku o kaisou shite kafe ni shita.",
+            "german": "Ein altes japanisches Haus wurde zu einem Café umgebaut."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@87197581",
+            "patterns": [
+              1
+            ],
+            "finding": "家屋 / カオク; 名詞/普通名詞/一般/*; *; *; lemma 家屋; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "家屋",
+              "reading": "かおく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "家屋 as \"Haus, Gebäude\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 家屋【かおく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1191780; spelling=家屋; reading=かおく; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1191780 家屋/かおく sense(s) 1 support \"Haus, Gebäude\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1191780",
+            "spelling": "家屋",
+            "reading": "かおく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "house",
+                  "building"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "家屋|かおく",
+          "referenceIndex": 0,
+          "referenceHash": "2562436bdb145ce298c5a439de21df600daecb927de60b901a9fb704138606be"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Haus, Gebäude\" matches JMdict 1191780 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Earthquake damage.",
+          "Renovated traditional house."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1191780; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@87197581 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@87197581",
+            "patterns": [
+              1
+            ],
+            "finding": "家屋 / カオク; 名詞/普通名詞/一般/*; *; *; lemma 家屋; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "家屋",
+              "reading": "かおく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "家屋 as \"Haus, Gebäude\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 家屋【かおく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1191780 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d7198a3ffade39caedf948224de227af4646790e3068382725d88d9f943bb345",
+        "approvalHash": "787121a7c7e4b363a4560d4f498310da382f0a7ea664b8ba90b70d2a0917ca8c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 家屋【かおく】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1191780 senses 1, N2 fits the publisher rows, pitch 1 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "d7198a3ffade39caedf948224de227af4646790e3068382725d88d9f943bb345",
+        "approvalHash": "787121a7c7e4b363a4560d4f498310da382f0a7ea664b8ba90b70d2a0917ca8c"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kakitori",
+      "revisionId": "032-add-kakitori",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "書き取り",
+        "reading": "かきとり",
+        "romaji": "kakitori",
+        "meaning": "Diktat; Kanji-Schreibübung",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N2",
+        "notes": "Das Aufschreiben von Gehörtem oder Gelesenem, in der Schule besonders das Kanji-Schreiben (漢字の書き取り). Verb: 書き取る.",
+        "examples": [
+          {
+            "japanese": "明日は漢字の書き取りテストがある。",
+            "romaji": "Ashita wa kanji no kakitori tesuto ga aru.",
+            "german": "Morgen haben wir einen Kanji-Schreibtest."
+          },
+          {
+            "japanese": "先生が読んだ文を書き取りで練習した。",
+            "romaji": "Sensei ga yonda bun o kakitori de renshuu shita.",
+            "german": "Wir haben mit einem Diktat geübt, was der Lehrer vorlas."
+          }
+        ],
+        "pitch": 0,
+        "aliases": [
+          "書取"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@89429188",
+            "patterns": [
+              0
+            ],
+            "finding": "書き取り / カキトリ; 名詞/普通名詞/一般/*; *; *; lemma 書き取り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "書き取り",
+              "reading": "かきとり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "書き取り as \"Diktat; Kanji-Schreibübung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 書き取り【かきとり】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1589970; spelling=書き取り; reading=かきとり; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1589970 書き取り/かきとり sense(s) 1,2 support \"Diktat; Kanji-Schreibübung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1589970",
+            "spelling": "書き取り",
+            "reading": "かきとり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "writing down from other written material",
+                  "writing kanji text from hiragana"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "transcription (of spoken material)",
+                  "dictation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "書き取り|かきとり",
+          "referenceIndex": 0,
+          "referenceHash": "ffb5bfed33662a206b735a7fcc33ec087497bdf9ec7bb14a971235b32200e7d3"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Diktat; Kanji-Schreibübung\" matches JMdict 1589970 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Kanji test.",
+          "Dictation exercise."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1589970; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@89429188 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@89429188",
+            "patterns": [
+              0
+            ],
+            "finding": "書き取り / カキトリ; 名詞/普通名詞/一般/*; *; *; lemma 書き取り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "書き取り",
+              "reading": "かきとり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "書き取り as \"Diktat; Kanji-Schreibübung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 書き取り【かきとり】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1589970 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a71025bfe947247496bbe67ce8e5711152ddb0eb1305df20dec32551f31a30ce",
+        "approvalHash": "a234f5da5c47e1f88cd0dbf6da10b621cd1c2903082c6826f4ebc97c5d2a6d98"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 書き取り【かきとり】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1589970 senses 1/2, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\". The pitch filter is correct: the 普通名詞 row (0) is used, not the 書き取る 連用形 row. Examples cover the Kanji test and dictation, matching JMdict senses 1-2.",
+        "contentHash": "a71025bfe947247496bbe67ce8e5711152ddb0eb1305df20dec32551f31a30ce",
+        "approvalHash": "a234f5da5c47e1f88cd0dbf6da10b621cd1c2903082c6826f4ebc97c5d2a6d98"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kaku-scratch",
+      "revisionId": "032-add-kaku-scratch",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "掻く",
+        "reading": "かく",
+        "romaji": "kaku",
+        "meaning": "kratzen; (Schweiß) ausbrechen; schaufeln",
+        "type": "Verb",
+        "category": "Körper",
+        "level": "N2",
+        "notes": "Transitives Godan-Verb: 頭をかく (sich am Kopf kratzen), 汗をかく (schwitzen), 雪をかく (Schnee schippen). Meist in Kana geschrieben.",
+        "examples": [
+          {
+            "japanese": "蚊に刺されたところを掻いてしまった。",
+            "romaji": "Ka ni sasareta tokoro o kaite shimatta.",
+            "german": "Ich habe mich am Mückenstich gekratzt."
+          },
+          {
+            "japanese": "朝から家の前の雪をかいた。",
+            "romaji": "Asa kara ie no mae no yuki o kaita.",
+            "german": "Seit dem Morgen habe ich vor dem Haus Schnee geschippt."
+          }
+        ],
+        "pitch": 1,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "かく",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "かく",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90424451",
+            "patterns": [
+              1
+            ],
+            "finding": "掻く / カク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 掻く; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "掻く",
+              "reading": "かく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "掻く as \"kratzen; (Schweiß) ausbrechen; schaufeln\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 掻く【かく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1399970; spelling=掻く; reading=かく; senses=1,2,3; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1399970 掻く/かく sense(s) 1,2,3 support \"kratzen; (Schweiß) ausbrechen; schaufeln\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1399970",
+            "spelling": "掻く",
+            "reading": "かく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to scratch"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to perspire"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to shovel",
+                  "to paddle"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "掻く|かく",
+          "referenceIndex": 0,
+          "referenceHash": "b28127b4c052192767167bdcca02b5899286de7d215ec86db971ce1551dbb3da"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"kratzen; (Schweiß) ausbrechen; schaufeln\" matches JMdict 1399970 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Scratching a bite.",
+          "Shovelling snow."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1399970; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading かく; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@90424451 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90424451",
+            "patterns": [
+              1
+            ],
+            "finding": "掻く / カク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 掻く; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "掻く",
+              "reading": "かく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "掻く as \"kratzen; (Schweiß) ausbrechen; schaufeln\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 掻く【かく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1399970 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "604bec0ebd61ed1ab8eafbc61b88b03e807459091c31dce364a5b5498c2bfe26",
+        "approvalHash": "703b438ff52b34a14d2bbb53d499db19e20ae0c7b363e6cc3931deafc6b9fa51"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 掻く【かく】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1399970 senses 1/2/3, N2 fits the publisher rows, pitch 1 comes from an exact UniDic row of the same lexeme, verbGroup godan is correct, and check.cjs reports \"new\". Optional: the meaning \"(Schweiß) ausbrechen\" would be clearer as \"schwitzen (汗をかく)\". The examples cover senses 1 and 3. Godan conjugation and pitch 1 come from an exact row.",
+        "contentHash": "604bec0ebd61ed1ab8eafbc61b88b03e807459091c31dce364a5b5498c2bfe26",
+        "approvalHash": "703b438ff52b34a14d2bbb53d499db19e20ae0c7b363e6cc3931deafc6b9fa51"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kakubetsu",
+      "revisionId": "032-add-kakubetsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "格別",
+        "reading": "かくべつ",
+        "romaji": "kakubetsu",
+        "meaning": "besonders, außergewöhnlich",
+        "type": "Adjektiv",
+        "category": "Eigenschaften",
+        "level": "N2",
+        "notes": "な-Adjektiv und Adverb: 格別な味, 格別おいしい. Mit Verneinung: 格別～ない (nicht sonderlich).",
+        "examples": [
+          {
+            "japanese": "山の上で食べるおにぎりの味は格別だ。",
+            "romaji": "Yama no ue de taberu onigiri no aji wa kakubetsu da.",
+            "german": "Onigiri auf dem Berggipfel schmecken ganz besonders."
+          },
+          {
+            "japanese": "この冬は格別寒さが厳しい。",
+            "romaji": "Kono fuyu wa kakubetsu samusa ga kibishii.",
+            "german": "Dieser Winter ist besonders streng."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90726353",
+            "patterns": [
+              0
+            ],
+            "finding": "格別 / カクベツ; 副詞/*/*/*; *; *; lemma 格別; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "格別",
+              "reading": "かくべつ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "格別 as \"besonders, außergewöhnlich\"."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90727112",
+            "patterns": [
+              0
+            ],
+            "finding": "格別 / カクベツ; 形状詞/一般/*/*; *; *; lemma 格別; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "格別",
+              "reading": "かくべつ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "格別 as \"besonders, außergewöhnlich\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 格別【かくべつ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1205490; spelling=格別; reading=かくべつ; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1205490 格別/かくべつ sense(s) 1,2 support \"besonders, außergewöhnlich\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1205490",
+            "spelling": "格別",
+            "reading": "かくべつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "particular",
+                  "special",
+                  "exceptional",
+                  "especial"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "particularly",
+                  "especially",
+                  "exceptionally"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "格別|かくべつ",
+          "referenceIndex": 0,
+          "referenceHash": "725c78a4df750c3c12fe1b9f5344a1c32b15ff7193f4c7edad4b7dea303826a4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"besonders, außergewöhnlich\" matches JMdict 1205490 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Special taste.",
+          "Particularly harsh winter."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1205490; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@90726353, sys.dic@90727112 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90726353",
+            "patterns": [
+              0
+            ],
+            "finding": "格別 / カクベツ; 副詞/*/*/*; *; *; lemma 格別; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "格別",
+              "reading": "かくべつ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "格別 as \"besonders, außergewöhnlich\"."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90727112",
+            "patterns": [
+              0
+            ],
+            "finding": "格別 / カクベツ; 形状詞/一般/*/*; *; *; lemma 格別; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "格別",
+              "reading": "かくべつ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "格別 as \"besonders, außergewöhnlich\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 格別【かくべつ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1205490 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "3548e5885e1e4f1d032497b2de777e330eb4d30d716c095292c3ae157d939043",
+        "approvalHash": "14da90d5214846abfc5851669d28369e5ee01522b4ded6eb4b9e8e2009c223e4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 格別【かくべつ】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1205490 senses 1/2, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "3548e5885e1e4f1d032497b2de777e330eb4d30d716c095292c3ae157d939043",
+        "approvalHash": "14da90d5214846abfc5851669d28369e5ee01522b4ded6eb4b9e8e2009c223e4"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kashima",
+      "revisionId": "032-add-kashima",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "貸間",
+        "reading": "かしま",
+        "romaji": "kashima",
+        "meaning": "Zimmer zu vermieten",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N2",
+        "notes": "Einzelnes vermietetes Zimmer, eher älteres Wort (heute 貸し部屋 oder Wohnung). Schild: 貸間あり.",
+        "examples": [
+          {
+            "japanese": "家の前に「貸間あり」と書いた紙がはってあった。",
+            "romaji": "Ie no mae ni \"kashima ari\" to kaita kami ga hatte atta.",
+            "german": "Vor dem Haus hing ein Zettel „Zimmer zu vermieten“."
+          },
+          {
+            "japanese": "学生時代は大家さんの家の貸間に住んでいた。",
+            "romaji": "Gakusei jidai wa ooyasan no ie no kashima ni sunde ita.",
+            "german": "Als Student wohnte ich in einem Mietzimmer im Haus des Vermieters."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93247502",
+            "patterns": [
+              0
+            ],
+            "finding": "貸間 / カシマ; 名詞/普通名詞/一般/*; *; *; lemma 貸間; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "貸間",
+              "reading": "かしま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "貸間 as \"Zimmer zu vermieten\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 貸間【かしま】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609530; spelling=貸間; reading=かしま; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1609530 貸間/かしま sense(s) 1 support \"Zimmer zu vermieten\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1609530",
+            "spelling": "貸間",
+            "reading": "かしま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "room to let",
+                  "room for rent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "貸間|かしま",
+          "referenceIndex": 0,
+          "referenceHash": "d83984bb7ae13fc635501dc911a9af6c8c5a4e7434a6a9d209fcd3c8723e63a9"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Zimmer zu vermieten\" matches JMdict 1609530 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Rental sign.",
+          "Student lodging."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1609530; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@93247502 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93247502",
+            "patterns": [
+              0
+            ],
+            "finding": "貸間 / カシマ; 名詞/普通名詞/一般/*; *; *; lemma 貸間; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "貸間",
+              "reading": "かしま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "貸間 as \"Zimmer zu vermieten\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 貸間【かしま】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1609530 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "3dd97e82fb1985766aa22c72524116210d0a1f98c93adfd78f209e145ac15af1",
+        "approvalHash": "93feeb56480fe2b8743257beecd49cb1b24658a80fd6396f1042db628670fe7c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 貸間【かしま】: the examples are grammatical and natural in two different contexts, the romaji is exact, the German is accurate, the meaning is backed by JMdict 1609530 senses 1, N2 fits the publisher rows, pitch 0 comes from an exact UniDic row of the same lexeme, and check.cjs reports \"new\".",
+        "contentHash": "3dd97e82fb1985766aa22c72524116210d0a1f98c93adfd78f209e145ac15af1",
+        "approvalHash": "93feeb56480fe2b8743257beecd49cb1b24658a80fd6396f1042db628670fe7c"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kashiya",
+      "revisionId": "032-add-kashiya",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "貸家",
+        "reading": "かしや",
+        "romaji": "kashiya",
+        "meaning": "Haus zur Miete, vermietetes Haus",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N2",
+        "notes": "Ein ganzes Haus zur Miete. Gegenteil beim Wohnen: 持ち家 (Eigenheim).",
+        "examples": [
+          {
+            "japanese": "駅の近くに貸家を探している。",
+            "romaji": "Eki no chikaku ni kashiya o sagashite iru.",
+            "german": "Ich suche ein Haus zur Miete in Bahnhofsnähe."
+          },
+          {
+            "japanese": "この貸家は庭が広くて、家賃も安い。",
+            "romaji": "Kono kashiya wa niwa ga hirokute, yachin mo yasui.",
+            "german": "Dieses Haus zur Miete hat einen großen Garten, und die Miete ist günstig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93288424",
+            "patterns": [
+              0
+            ],
+            "finding": "貸家 / カシヤ; 名詞/普通名詞/一般/*; *; *; lemma 貸家; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "貸家",
+              "reading": "かしや",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "貸家 as \"Haus zur Miete, vermietetes Haus\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 貸家【かしや】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1411170; spelling=貸家; reading=かしや; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1411170 貸家/かしや sense(s) 1 support \"Haus zur Miete, vermietetes Haus\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1411170",
+            "spelling": "貸家",
+            "reading": "かしや",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "house for rent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "貸家|かしや",
+          "referenceIndex": 0,
+          "referenceHash": "9ce27e94cd37cd3ebee83ab9a2c46ea7ef9462763088e8feea72c149ea77d0cf"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Haus zur Miete, vermietetes Haus\" matches JMdict 1411170 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "House hunting.",
+          "Describing a rental."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1411170; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@93288424 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93288424",
+            "patterns": [
+              0
+            ],
+            "finding": "貸家 / カシヤ; 名詞/普通名詞/一般/*; *; *; lemma 貸家; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "貸家",
+              "reading": "かしや",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "貸家 as \"Haus zur Miete, vermietetes Haus\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add 貸家【かしや】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1411170 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "94ab3d7de060402eccb400eeb3cda4980ee3b92ec26174624b6bff37aa40ac1b",
+        "approvalHash": "d28fe275b273605f0e99037753df516fc76e726eccfe06d7d85fd9573edc2eda"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): Round-1 fix applied: the meaning is now \"Haus zur Miete, vermietetes Haus\", and ex2 German reads \"Dieses Haus zur Miete hat einen großen Garten, und die Miete ist günstig.\" The misleading \"Mietshaus\" is gone.",
+        "contentHash": "94ab3d7de060402eccb400eeb3cda4980ee3b92ec26174624b6bff37aa40ac1b",
+        "approvalHash": "d28fe275b273605f0e99037753df516fc76e726eccfe06d7d85fd9573edc2eda"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kasetto",
+      "revisionId": "032-add-kasetto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "カセット",
+        "reading": "カセット",
+        "romaji": "kasetto",
+        "meaning": "Kassette; Spielmodul",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N2",
+        "notes": "Tonband- oder Videokassette; auch Spielmodul für Konsolen (ゲームのカセット). In Zusammensetzungen auch Kartusche: カセットコンロ (Gaskocher mit Kartusche).",
+        "examples": [
+          {
+            "japanese": "昔はカセットで音楽を聞いていた。",
+            "romaji": "Mukashi wa kasetto de ongaku o kiite ita.",
+            "german": "Früher habe ich Musik von Kassette gehört."
+          },
+          {
+            "japanese": "子どものころ、ゲームのカセットを友達と交換した。",
+            "romaji": "Kodomo no koro, geemu no kasetto o tomodachi to koukan shita.",
+            "german": "Als Kind habe ich mit Freunden Spielmodule getauscht."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93946625",
+            "patterns": [
+              2
+            ],
+            "finding": "カセット / カセット; 名詞/普通名詞/一般/*; *; *; lemma カセット-cassette; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "カセット",
+              "reading": "カセット",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "カセット as \"Kassette; Spielmodul\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 032); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add カセット【カセット】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1037400; spelling=カセット; reading=カセット; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1037400 カセット/カセット sense(s) 1,2 support \"Kassette; Spielmodul\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1037400",
+            "spelling": "カセット",
+            "reading": "カセット",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cassette (tape)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "game cartridge"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "かせっと|かせっと",
+          "referenceIndex": 0,
+          "referenceHash": "fbbcd7cda38e4cc6d7faea081960c68496b3ee7811fad66f6c8dfca0c14e76e5"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-032-editor",
+        "meaning": "\"Kassette; Spielmodul\" matches JMdict 1037400 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Old music medium.",
+          "Game cartridge (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1037400; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@93946625 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93946625",
+            "patterns": [
+              2
+            ],
+            "finding": "カセット / カセット; 名詞/普通名詞/一般/*; *; *; lemma カセット-cassette; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "カセット",
+              "reading": "カセット",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "カセット as \"Kassette; Spielmodul\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: Add カセット【カセット】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1037400 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b80b9c1a4afe9318a809c1f50fe07f35c3772c0fc000de7360d6f5664d0dac9b",
+        "approvalHash": "a436a3563ebe06f68f77833a5e6d0012ffe57c2d1230f12f05fc34cdab544ff0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): Round-1 fix applied: ex2 now uses stand-alone カセット as a game cartridge (JMdict 1037400 sense 2; romaji exact). The meaning is \"Kassette; Spielmodul\", and the notes present カセットコンロ only as a compound. Both examples now teach the headword itself.",
+        "contentHash": "b80b9c1a4afe9318a809c1f50fe07f35c3772c0fc000de7360d6f5664d0dac9b",
+        "approvalHash": "a436a3563ebe06f68f77833a5e6d0012ffe57c2d1230f12f05fc34cdab544ff0"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "海水浴|かいすいよく",
+      "referenceIndex": 0,
+      "referenceHash": "f481432889b036a130ff8449b1e698477cb9f06b00ca1909a88cbd609cfd6c8b",
+      "revisionId": "032-candidate-kaisuiyoku-bb947580-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaisuiyoku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaisuiyoku": "535a8b8b4239c8efdf8974c11f6a40295d1d181c070bba593badddedd4ec5fdc"
+      },
+      "reason": "Reference 海水浴/かいすいよく (tanos N2) is the same lexeme as the new entry 海水浴【かいすいよく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=13",
+          "finding": "tanos lists 海水浴/かいすいよく at N2 (gloss: sea bathing,seawater bath)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1201520; spelling=海水浴; reading=かいすいよく; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1201520 as the reference form.",
+          "selected": {
+            "sequence": "1201520",
+            "spelling": "海水浴",
+            "reading": "かいすいよく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "swimming in the ocean",
+                  "sea bathing",
+                  "seawater bath",
+                  "going for a dip in the ocean"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 海水浴|かいすいよく#0 is the same lexeme as vocab-n2:correction:kaisuiyoku; target hash bound to the assembled addition.",
+        "contentHash": "931a7818bf7cec3b05a9b852f4ae4bdfdf3d79b62f236ae59f63cb00b6cd3d28",
+        "approvalHash": "931a7818bf7cec3b05a9b852f4ae4bdfdf3d79b62f236ae59f63cb00b6cd3d28"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 海水浴/かいすいよく (tanos N2) is the same lexeme as vocab-n2:correction:kaisuiyoku; the gloss agrees.",
+        "contentHash": "931a7818bf7cec3b05a9b852f4ae4bdfdf3d79b62f236ae59f63cb00b6cd3d28",
+        "approvalHash": "931a7818bf7cec3b05a9b852f4ae4bdfdf3d79b62f236ae59f63cb00b6cd3d28"
+      }
+    },
+    {
+      "key": "海水浴|かいすいよく",
+      "referenceIndex": 1,
+      "referenceHash": "c539bf8fa5896fd7265c721317ef7232ddd51b6c667843ab508b4f68b787fea6",
+      "revisionId": "032-candidate-kaisuiyoku-bb947580-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaisuiyoku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaisuiyoku": "535a8b8b4239c8efdf8974c11f6a40295d1d181c070bba593badddedd4ec5fdc"
+      },
+      "reason": "Reference 海水浴/かいすいよく (master N2) is the same lexeme as the new entry 海水浴【かいすいよく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 海水浴/かいすいよく at N2 (gloss: sea bathing; seawater bath; bain de mer)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1201520; spelling=海水浴; reading=かいすいよく; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1201520 as the reference form.",
+          "selected": {
+            "sequence": "1201520",
+            "spelling": "海水浴",
+            "reading": "かいすいよく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "swimming in the ocean",
+                  "sea bathing",
+                  "seawater bath",
+                  "going for a dip in the ocean"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 海水浴|かいすいよく#1 is the same lexeme as vocab-n2:correction:kaisuiyoku; target hash bound to the assembled addition.",
+        "contentHash": "8cc50e05ce5939ad7a7e2bdf06a92018901599475622641324ea0f94964e1ecc",
+        "approvalHash": "8cc50e05ce5939ad7a7e2bdf06a92018901599475622641324ea0f94964e1ecc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 海水浴/かいすいよく (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kaisuiyoku; the gloss agrees.",
+        "contentHash": "8cc50e05ce5939ad7a7e2bdf06a92018901599475622641324ea0f94964e1ecc",
+        "approvalHash": "8cc50e05ce5939ad7a7e2bdf06a92018901599475622641324ea0f94964e1ecc"
+      }
+    },
+    {
+      "key": "快晴|かいせい",
+      "referenceIndex": 0,
+      "referenceHash": "18c04be9e1f62fd0639f6d0c38be5db711d4beae81699a8618a620238a76cd52",
+      "revisionId": "032-candidate-kaisei-a0676db5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaisei"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaisei": "b33d242279b5a6e412bb39a4f757c9a758f1ad61da9401a13b8e63e717afa000"
+      },
+      "reason": "Reference 快晴/かいせい (tanos N2) is the same lexeme as the new entry 快晴【かいせい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=13",
+          "finding": "tanos lists 快晴/かいせい at N2 (gloss: good weather)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1200060; spelling=快晴; reading=かいせい; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1200060 as the reference form.",
+          "selected": {
+            "sequence": "1200060",
+            "spelling": "快晴",
+            "reading": "かいせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "clear weather",
+                  "cloudless weather",
+                  "good weather"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 快晴|かいせい#0 is the same lexeme as vocab-n2:correction:kaisei; target hash bound to the assembled addition.",
+        "contentHash": "f2cc59bb6cb743e6d10c02085350ceafc164e44ecd5a046f789fd7faedbb00ae",
+        "approvalHash": "f2cc59bb6cb743e6d10c02085350ceafc164e44ecd5a046f789fd7faedbb00ae"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 快晴/かいせい (tanos N2) is the same lexeme as vocab-n2:correction:kaisei; the gloss agrees.",
+        "contentHash": "f2cc59bb6cb743e6d10c02085350ceafc164e44ecd5a046f789fd7faedbb00ae",
+        "approvalHash": "f2cc59bb6cb743e6d10c02085350ceafc164e44ecd5a046f789fd7faedbb00ae"
+      }
+    },
+    {
+      "key": "快晴|かいせい",
+      "referenceIndex": 1,
+      "referenceHash": "34dd7777f9749b4ece4cecf351571f07ccc208c5d3cbe9763c7799ec21dcea25",
+      "revisionId": "032-candidate-kaisei-a0676db5-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaisei"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaisei": "b33d242279b5a6e412bb39a4f757c9a758f1ad61da9401a13b8e63e717afa000"
+      },
+      "reason": "Reference 快晴/かいせい (master N2) is the same lexeme as the new entry 快晴【かいせい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 快晴/かいせい at N2 (gloss: good weather; beau temps; (n) heiteres Wetter)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1200060; spelling=快晴; reading=かいせい; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1200060 as the reference form.",
+          "selected": {
+            "sequence": "1200060",
+            "spelling": "快晴",
+            "reading": "かいせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "clear weather",
+                  "cloudless weather",
+                  "good weather"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 快晴|かいせい#1 is the same lexeme as vocab-n2:correction:kaisei; target hash bound to the assembled addition.",
+        "contentHash": "d143c0176aba2f32963f58e7cc9a85a3540a67d9d15391a5289f24581d1aad4b",
+        "approvalHash": "d143c0176aba2f32963f58e7cc9a85a3540a67d9d15391a5289f24581d1aad4b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 快晴/かいせい (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kaisei; the gloss agrees.",
+        "contentHash": "d143c0176aba2f32963f58e7cc9a85a3540a67d9d15391a5289f24581d1aad4b",
+        "approvalHash": "d143c0176aba2f32963f58e7cc9a85a3540a67d9d15391a5289f24581d1aad4b"
+      }
+    },
+    {
+      "key": "開通|かいつう",
+      "referenceIndex": 0,
+      "referenceHash": "b24dda51281060ead0e4f09c585000c59aa7ba203fff43b923275f4602e385f6",
+      "revisionId": "032-candidate-kaitsuu-33ea34c9-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaitsuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaitsuu": "029e65d16d0a380ee67f7aa07070f7c0431bed8687843e24b4a73e7d6cbd0a8c"
+      },
+      "reason": "Reference 開通/かいつう (tanos N2) is the same lexeme as the new entry 開通【かいつう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=13",
+          "finding": "tanos lists 開通/かいつう at N2 (gloss: opening,open)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1202850; spelling=開通; reading=かいつう; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1202850 as the reference form.",
+          "selected": {
+            "sequence": "1202850",
+            "spelling": "開通",
+            "reading": "かいつう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "opening (of a new road, railway, etc.)",
+                  "going into operation (e.g. telephone communication)",
+                  "beginning services"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "reopening (e.g. of a road to traffic)",
+                  "resumption of services"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 開通|かいつう#0 is the same lexeme as vocab-n2:correction:kaitsuu; target hash bound to the assembled addition.",
+        "contentHash": "7e050dc3723bc7c06210afaf0954da6f1181bbd22b3c65ed33cfa53962d74298",
+        "approvalHash": "7e050dc3723bc7c06210afaf0954da6f1181bbd22b3c65ed33cfa53962d74298"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 開通/かいつう (tanos N2) is the same lexeme as vocab-n2:correction:kaitsuu; the gloss agrees.",
+        "contentHash": "7e050dc3723bc7c06210afaf0954da6f1181bbd22b3c65ed33cfa53962d74298",
+        "approvalHash": "7e050dc3723bc7c06210afaf0954da6f1181bbd22b3c65ed33cfa53962d74298"
+      }
+    },
+    {
+      "key": "開通|かいつう",
+      "referenceIndex": 1,
+      "referenceHash": "c43e8134fd94f5eac55aef471aee36916a9b28dc20d15834e58144abf49c6715",
+      "revisionId": "032-candidate-kaitsuu-33ea34c9-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaitsuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaitsuu": "029e65d16d0a380ee67f7aa07070f7c0431bed8687843e24b4a73e7d6cbd0a8c"
+      },
+      "reason": "Reference 開通/かいつう (master N2) is the same lexeme as the new entry 開通【かいつう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 開通/かいつう at N2 (gloss: opening; open; taking effect)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1202850; spelling=開通; reading=かいつう; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1202850 as the reference form.",
+          "selected": {
+            "sequence": "1202850",
+            "spelling": "開通",
+            "reading": "かいつう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "opening (of a new road, railway, etc.)",
+                  "going into operation (e.g. telephone communication)",
+                  "beginning services"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "reopening (e.g. of a road to traffic)",
+                  "resumption of services"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 開通|かいつう#1 is the same lexeme as vocab-n2:correction:kaitsuu; target hash bound to the assembled addition.",
+        "contentHash": "c44b4c952ab6efb5dd60cd33d872e263b6d011117e35000bebc0ea914fb2cecd",
+        "approvalHash": "c44b4c952ab6efb5dd60cd33d872e263b6d011117e35000bebc0ea914fb2cecd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 開通/かいつう (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kaitsuu; the gloss agrees.",
+        "contentHash": "c44b4c952ab6efb5dd60cd33d872e263b6d011117e35000bebc0ea914fb2cecd",
+        "approvalHash": "c44b4c952ab6efb5dd60cd33d872e263b6d011117e35000bebc0ea914fb2cecd"
+      }
+    },
+    {
+      "key": "家屋|かおく",
+      "referenceIndex": 0,
+      "referenceHash": "2562436bdb145ce298c5a439de21df600daecb927de60b901a9fb704138606be",
+      "revisionId": "032-candidate-kaoku-9f41de43-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaoku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaoku": "d7198a3ffade39caedf948224de227af4646790e3068382725d88d9f943bb345"
+      },
+      "reason": "Reference 家屋/かおく (tanos N2) is the same lexeme as the new entry 家屋【かおく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=14",
+          "finding": "tanos lists 家屋/かおく at N2 (gloss: house,building)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1191780; spelling=家屋; reading=かおく; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1191780 as the reference form.",
+          "selected": {
+            "sequence": "1191780",
+            "spelling": "家屋",
+            "reading": "かおく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "house",
+                  "building"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 家屋|かおく#0 is the same lexeme as vocab-n2:correction:kaoku; target hash bound to the assembled addition.",
+        "contentHash": "32fba6fbb1f275dfbc1978423ff627063ceb8b07c94f8059f00f45d542702ccb",
+        "approvalHash": "32fba6fbb1f275dfbc1978423ff627063ceb8b07c94f8059f00f45d542702ccb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 家屋/かおく (tanos N2) is the same lexeme as vocab-n2:correction:kaoku; the gloss agrees.",
+        "contentHash": "32fba6fbb1f275dfbc1978423ff627063ceb8b07c94f8059f00f45d542702ccb",
+        "approvalHash": "32fba6fbb1f275dfbc1978423ff627063ceb8b07c94f8059f00f45d542702ccb"
+      }
+    },
+    {
+      "key": "家屋|かおく",
+      "referenceIndex": 1,
+      "referenceHash": "19d2ca36aead7e7675294ab72e6bcb309e8101f41444b015b1d685bf623bcdd0",
+      "revisionId": "032-candidate-kaoku-9f41de43-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaoku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaoku": "d7198a3ffade39caedf948224de227af4646790e3068382725d88d9f943bb345"
+      },
+      "reason": "Reference 家屋/かおく (master N2) is the same lexeme as the new entry 家屋【かおく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 家屋/かおく at N2 (gloss: house; building; bâtiment)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1191780; spelling=家屋; reading=かおく; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1191780 as the reference form.",
+          "selected": {
+            "sequence": "1191780",
+            "spelling": "家屋",
+            "reading": "かおく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "house",
+                  "building"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 家屋|かおく#1 is the same lexeme as vocab-n2:correction:kaoku; target hash bound to the assembled addition.",
+        "contentHash": "47e7a30054b4eced01e1c9153bbe5e404591e53e8782947d206b75d591bd66ee",
+        "approvalHash": "47e7a30054b4eced01e1c9153bbe5e404591e53e8782947d206b75d591bd66ee"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 家屋/かおく (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kaoku; the gloss agrees.",
+        "contentHash": "47e7a30054b4eced01e1c9153bbe5e404591e53e8782947d206b75d591bd66ee",
+        "approvalHash": "47e7a30054b4eced01e1c9153bbe5e404591e53e8782947d206b75d591bd66ee"
+      }
+    },
+    {
+      "key": "書き取り|かきとり",
+      "referenceIndex": 0,
+      "referenceHash": "ffb5bfed33662a206b735a7fcc33ec087497bdf9ec7bb14a971235b32200e7d3",
+      "revisionId": "032-candidate-kakitori-bd725205-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kakitori"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kakitori": "a71025bfe947247496bbe67ce8e5711152ddb0eb1305df20dec32551f31a30ce"
+      },
+      "reason": "Reference 書き取り/かきとり (tanos N1) is the same lexeme as the new entry 書き取り【かきとり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=27",
+          "finding": "tanos lists 書き取り/かきとり at N1 (gloss: dictation)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1589970; spelling=書き取り; reading=かきとり; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1589970 as the reference form.",
+          "selected": {
+            "sequence": "1589970",
+            "spelling": "書き取り",
+            "reading": "かきとり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "writing down from other written material",
+                  "writing kanji text from hiragana"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "transcription (of spoken material)",
+                  "dictation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 書き取り|かきとり#0 is the same lexeme as vocab-n2:correction:kakitori; target hash bound to the assembled addition.",
+        "contentHash": "f484db0abeeb3ebf4fffc42692ad07a8a5438c229c4d7177829c2f2d38f40bc2",
+        "approvalHash": "f484db0abeeb3ebf4fffc42692ad07a8a5438c229c4d7177829c2f2d38f40bc2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 書き取り/かきとり (tanos N1) is the same lexeme as vocab-n2:correction:kakitori; the gloss agrees.",
+        "contentHash": "f484db0abeeb3ebf4fffc42692ad07a8a5438c229c4d7177829c2f2d38f40bc2",
+        "approvalHash": "f484db0abeeb3ebf4fffc42692ad07a8a5438c229c4d7177829c2f2d38f40bc2"
+      }
+    },
+    {
+      "key": "書き取り|かきとり",
+      "referenceIndex": 1,
+      "referenceHash": "133e0147fb4d6ed5b535c8e5e4fe36d4465f25e28f36631594537ded9642dd86",
+      "revisionId": "032-candidate-kakitori-bd725205-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kakitori"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kakitori": "a71025bfe947247496bbe67ce8e5711152ddb0eb1305df20dec32551f31a30ce"
+      },
+      "reason": "Reference 書き取り/かきとり (master N2) is the same lexeme as the new entry 書き取り【かきとり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 書き取り/かきとり at N2 (gloss: writing down from other written material; writing kanji text from hiragana; dictée)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1589970; spelling=書き取り; reading=かきとり; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1589970 as the reference form.",
+          "selected": {
+            "sequence": "1589970",
+            "spelling": "書き取り",
+            "reading": "かきとり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "writing down from other written material",
+                  "writing kanji text from hiragana"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "transcription (of spoken material)",
+                  "dictation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 書き取り|かきとり#1 is the same lexeme as vocab-n2:correction:kakitori; target hash bound to the assembled addition.",
+        "contentHash": "0b90927d2538990ba171be9b7e99b420fa38b54738aaef50bf83c9b96248bdd2",
+        "approvalHash": "0b90927d2538990ba171be9b7e99b420fa38b54738aaef50bf83c9b96248bdd2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 書き取り/かきとり (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kakitori; the gloss agrees.",
+        "contentHash": "0b90927d2538990ba171be9b7e99b420fa38b54738aaef50bf83c9b96248bdd2",
+        "approvalHash": "0b90927d2538990ba171be9b7e99b420fa38b54738aaef50bf83c9b96248bdd2"
+      }
+    },
+    {
+      "key": "書取|かきとり",
+      "referenceIndex": 0,
+      "referenceHash": "30369bce0f2f9148236fba5f28831446c37cd9eb747d48197d25ab2d2e5f88c5",
+      "revisionId": "032-candidate-kakitori-6a0abc82-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kakitori"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kakitori": "a71025bfe947247496bbe67ce8e5711152ddb0eb1305df20dec32551f31a30ce"
+      },
+      "reason": "Reference 書取/かきとり (tanos N2) is the same lexeme as the new entry 書き取り【かきとり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=14",
+          "finding": "tanos lists 書取/かきとり at N2 (gloss: dictation)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1589970; spelling=書き取り; reading=かきとり; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1589970 as the reference form.",
+          "selected": {
+            "sequence": "1589970",
+            "spelling": "書き取り",
+            "reading": "かきとり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "writing down from other written material",
+                  "writing kanji text from hiragana"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "transcription (of spoken material)",
+                  "dictation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 書取|かきとり#0 is the same lexeme as vocab-n2:correction:kakitori; target hash bound to the assembled addition.",
+        "contentHash": "c420e2362140a124f41d474bb19ab83aaf18b726b4e9c5101854e015b5b61b60",
+        "approvalHash": "c420e2362140a124f41d474bb19ab83aaf18b726b4e9c5101854e015b5b61b60"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 書取/かきとり (tanos N2) is the same lexeme as vocab-n2:correction:kakitori; the gloss agrees.",
+        "contentHash": "c420e2362140a124f41d474bb19ab83aaf18b726b4e9c5101854e015b5b61b60",
+        "approvalHash": "c420e2362140a124f41d474bb19ab83aaf18b726b4e9c5101854e015b5b61b60"
+      }
+    },
+    {
+      "key": "掻く|かく",
+      "referenceIndex": 0,
+      "referenceHash": "b28127b4c052192767167bdcca02b5899286de7d215ec86db971ce1551dbb3da",
+      "revisionId": "032-candidate-kaku-scratch-e0a14367-0",
+      "predecessorRevisionHash": "b8499623788be0aebebf29ce65540da5b454f0fc9f474282c1db7350f474b6d2",
+      "predecessorHash": "17b3e61b2ededfec8e968af4612cd2baa1de98344d28073ff264dd7e043ca5da",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaku-scratch"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaku-scratch": "604bec0ebd61ed1ab8eafbc61b88b03e807459091c31dce364a5b5498c2bfe26"
+      },
+      "reason": "Reference 掻く/かく (tanos N2) is the same lexeme as the new entry 掻く【かく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=14",
+          "finding": "tanos lists 掻く/かく at N2 (gloss: to scratch,to perspire)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1399970; spelling=掻く; reading=かく; senses=1,2,3; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1399970 as the reference form.",
+          "selected": {
+            "sequence": "1399970",
+            "spelling": "掻く",
+            "reading": "かく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to scratch"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to perspire"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to shovel",
+                  "to paddle"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 掻く|かく#0 is the same lexeme as vocab-n2:correction:kaku-scratch; target hash bound to the assembled addition.",
+        "contentHash": "7e5a0868ebb267b62e04b3f8968cc9cd21df481f27b71b0e8f2f783aadec09f3",
+        "approvalHash": "7e5a0868ebb267b62e04b3f8968cc9cd21df481f27b71b0e8f2f783aadec09f3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 掻く/かく (tanos N2) is the same lexeme as vocab-n2:correction:kaku-scratch; the gloss agrees.",
+        "contentHash": "7e5a0868ebb267b62e04b3f8968cc9cd21df481f27b71b0e8f2f783aadec09f3",
+        "approvalHash": "7e5a0868ebb267b62e04b3f8968cc9cd21df481f27b71b0e8f2f783aadec09f3"
+      }
+    },
+    {
+      "key": "掻く|かく",
+      "referenceIndex": 1,
+      "referenceHash": "c0f35559d8cb7767e8fe34f4c002acfe0a2f61785cf5550717acbcab9ade1212",
+      "revisionId": "032-candidate-kaku-scratch-e0a14367-1",
+      "predecessorRevisionHash": "4329adf9d0dea42de0511e9a01d3d7097cd08e3e19d4a1b137a2b19c62ff5e30",
+      "predecessorHash": "3eb0f35ada5942a1b894e10c876cd9d79f796c0a48c319eac4a200eb5297bdbf",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kaku-scratch"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kaku-scratch": "604bec0ebd61ed1ab8eafbc61b88b03e807459091c31dce364a5b5498c2bfe26"
+      },
+      "reason": "Reference 掻く/かく (master N2) is the same lexeme as the new entry 掻く【かく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 掻く/かく at N2 (gloss: to scratch; gratter; griffer)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1399970; spelling=掻く; reading=かく; senses=1,2,3; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1399970 as the reference form.",
+          "selected": {
+            "sequence": "1399970",
+            "spelling": "掻く",
+            "reading": "かく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to scratch"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to perspire"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to shovel",
+                  "to paddle"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 掻く|かく#1 is the same lexeme as vocab-n2:correction:kaku-scratch; target hash bound to the assembled addition.",
+        "contentHash": "e0d9ffcdc0ba9b39d1aec9c31014751641c65b6e92caa9fc2ebfcc77b3f069dd",
+        "approvalHash": "e0d9ffcdc0ba9b39d1aec9c31014751641c65b6e92caa9fc2ebfcc77b3f069dd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 掻く/かく (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kaku-scratch; the gloss agrees.",
+        "contentHash": "e0d9ffcdc0ba9b39d1aec9c31014751641c65b6e92caa9fc2ebfcc77b3f069dd",
+        "approvalHash": "e0d9ffcdc0ba9b39d1aec9c31014751641c65b6e92caa9fc2ebfcc77b3f069dd"
+      }
+    },
+    {
+      "key": "格別|かくべつ",
+      "referenceIndex": 0,
+      "referenceHash": "725c78a4df750c3c12fe1b9f5344a1c32b15ff7193f4c7edad4b7dea303826a4",
+      "revisionId": "032-candidate-kakubetsu-d5aed918-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kakubetsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kakubetsu": "3548e5885e1e4f1d032497b2de777e330eb4d30d716c095292c3ae157d939043"
+      },
+      "reason": "Reference 格別/かくべつ (tanos N2) is the same lexeme as the new entry 格別【かくべつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=15",
+          "finding": "tanos lists 格別/かくべつ at N2 (gloss: exceptional)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1205490; spelling=格別; reading=かくべつ; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1205490 as the reference form.",
+          "selected": {
+            "sequence": "1205490",
+            "spelling": "格別",
+            "reading": "かくべつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "particular",
+                  "special",
+                  "exceptional",
+                  "especial"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "particularly",
+                  "especially",
+                  "exceptionally"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 格別|かくべつ#0 is the same lexeme as vocab-n2:correction:kakubetsu; target hash bound to the assembled addition.",
+        "contentHash": "fb61e70c070590669d948586e49ade0441a1101b1740fe0ac685c1992ee1c991",
+        "approvalHash": "fb61e70c070590669d948586e49ade0441a1101b1740fe0ac685c1992ee1c991"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 格別/かくべつ (tanos N2) is the same lexeme as vocab-n2:correction:kakubetsu; the gloss agrees.",
+        "contentHash": "fb61e70c070590669d948586e49ade0441a1101b1740fe0ac685c1992ee1c991",
+        "approvalHash": "fb61e70c070590669d948586e49ade0441a1101b1740fe0ac685c1992ee1c991"
+      }
+    },
+    {
+      "key": "格別|かくべつ",
+      "referenceIndex": 1,
+      "referenceHash": "6511c42f7898c535803a69a564830e82194de9ce8a8b6d106c50cebf5900b0e2",
+      "revisionId": "032-candidate-kakubetsu-d5aed918-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kakubetsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kakubetsu": "3548e5885e1e4f1d032497b2de777e330eb4d30d716c095292c3ae157d939043"
+      },
+      "reason": "Reference 格別/かくべつ (master N2) is the same lexeme as the new entry 格別【かくべつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 格別/かくべつ at N2 (gloss: exceptional; exceptionnel; (n) besonders)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1205490; spelling=格別; reading=かくべつ; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1205490 as the reference form.",
+          "selected": {
+            "sequence": "1205490",
+            "spelling": "格別",
+            "reading": "かくべつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "particular",
+                  "special",
+                  "exceptional",
+                  "especial"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "particularly",
+                  "especially",
+                  "exceptionally"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 格別|かくべつ#1 is the same lexeme as vocab-n2:correction:kakubetsu; target hash bound to the assembled addition.",
+        "contentHash": "b917703c54fe0f0b468c2d0cab5f5b84ae0e97ffb5f2cfae5f5f685579695163",
+        "approvalHash": "b917703c54fe0f0b468c2d0cab5f5b84ae0e97ffb5f2cfae5f5f685579695163"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 格別/かくべつ (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kakubetsu; the gloss agrees.",
+        "contentHash": "b917703c54fe0f0b468c2d0cab5f5b84ae0e97ffb5f2cfae5f5f685579695163",
+        "approvalHash": "b917703c54fe0f0b468c2d0cab5f5b84ae0e97ffb5f2cfae5f5f685579695163"
+      }
+    },
+    {
+      "key": "貸間|かしま",
+      "referenceIndex": 0,
+      "referenceHash": "d83984bb7ae13fc635501dc911a9af6c8c5a4e7434a6a9d209fcd3c8723e63a9",
+      "revisionId": "032-candidate-kashima-8cdf4d01-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kashima"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kashima": "3dd97e82fb1985766aa22c72524116210d0a1f98c93adfd78f209e145ac15af1"
+      },
+      "reason": "Reference 貸間/かしま (tanos N2) is the same lexeme as the new entry 貸間【かしま】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=15",
+          "finding": "tanos lists 貸間/かしま at N2 (gloss: room to let)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609530; spelling=貸間; reading=かしま; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1609530 as the reference form.",
+          "selected": {
+            "sequence": "1609530",
+            "spelling": "貸間",
+            "reading": "かしま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "room to let",
+                  "room for rent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 貸間|かしま#0 is the same lexeme as vocab-n2:correction:kashima; target hash bound to the assembled addition.",
+        "contentHash": "0494ecdd1efbb22852c58eddc3c93af871dbe01f7cf09d612aadf60e623dfd79",
+        "approvalHash": "0494ecdd1efbb22852c58eddc3c93af871dbe01f7cf09d612aadf60e623dfd79"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 貸間/かしま (tanos N2) is the same lexeme as vocab-n2:correction:kashima; the gloss agrees.",
+        "contentHash": "0494ecdd1efbb22852c58eddc3c93af871dbe01f7cf09d612aadf60e623dfd79",
+        "approvalHash": "0494ecdd1efbb22852c58eddc3c93af871dbe01f7cf09d612aadf60e623dfd79"
+      }
+    },
+    {
+      "key": "貸間|かしま",
+      "referenceIndex": 1,
+      "referenceHash": "bb3e0a7b51a6816d7719e4df5f5d452ee3dd5c5da15810dd43e16abe629662d2",
+      "revisionId": "032-candidate-kashima-8cdf4d01-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kashima"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kashima": "3dd97e82fb1985766aa22c72524116210d0a1f98c93adfd78f209e145ac15af1"
+      },
+      "reason": "Reference 貸間/かしま (master N2) is the same lexeme as the new entry 貸間【かしま】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 貸間/かしま at N2 (gloss: room to let; room for rent; chambre à louer)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609530; spelling=貸間; reading=かしま; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1609530 as the reference form.",
+          "selected": {
+            "sequence": "1609530",
+            "spelling": "貸間",
+            "reading": "かしま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "room to let",
+                  "room for rent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 貸間|かしま#1 is the same lexeme as vocab-n2:correction:kashima; target hash bound to the assembled addition.",
+        "contentHash": "4491783b04f9bfcb2ca895c2767f7ef864a836cf7a9dea5d4280b8a831c104bd",
+        "approvalHash": "4491783b04f9bfcb2ca895c2767f7ef864a836cf7a9dea5d4280b8a831c104bd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 貸間/かしま (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kashima; the gloss agrees.",
+        "contentHash": "4491783b04f9bfcb2ca895c2767f7ef864a836cf7a9dea5d4280b8a831c104bd",
+        "approvalHash": "4491783b04f9bfcb2ca895c2767f7ef864a836cf7a9dea5d4280b8a831c104bd"
+      }
+    },
+    {
+      "key": "貸家|かしや",
+      "referenceIndex": 0,
+      "referenceHash": "9ce27e94cd37cd3ebee83ab9a2c46ea7ef9462763088e8feea72c149ea77d0cf",
+      "revisionId": "032-candidate-kashiya-3a275f5d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kashiya"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kashiya": "94ab3d7de060402eccb400eeb3cda4980ee3b92ec26174624b6bff37aa40ac1b"
+      },
+      "reason": "Reference 貸家/かしや (tanos N2) is the same lexeme as the new entry 貸家【かしや】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=15",
+          "finding": "tanos lists 貸家/かしや at N2 (gloss: house for rent)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1411170; spelling=貸家; reading=かしや; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1411170 as the reference form.",
+          "selected": {
+            "sequence": "1411170",
+            "spelling": "貸家",
+            "reading": "かしや",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "house for rent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 貸家|かしや#0 is the same lexeme as vocab-n2:correction:kashiya; target hash bound to the assembled addition.",
+        "contentHash": "7175191948c3ce96d39d46220e5335d331fd04a74be237e729bf505cb896cbe6",
+        "approvalHash": "7175191948c3ce96d39d46220e5335d331fd04a74be237e729bf505cb896cbe6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 貸家/かしや (tanos N2) is the same lexeme as vocab-n2:correction:kashiya; the gloss agrees.",
+        "contentHash": "7175191948c3ce96d39d46220e5335d331fd04a74be237e729bf505cb896cbe6",
+        "approvalHash": "7175191948c3ce96d39d46220e5335d331fd04a74be237e729bf505cb896cbe6"
+      }
+    },
+    {
+      "key": "貸家|かしや",
+      "referenceIndex": 1,
+      "referenceHash": "84f1966fb75cbc708d895d04c1925ca50d332d3f1163bf466cc7c57f614e42c0",
+      "revisionId": "032-candidate-kashiya-3a275f5d-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kashiya"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kashiya": "94ab3d7de060402eccb400eeb3cda4980ee3b92ec26174624b6bff37aa40ac1b"
+      },
+      "reason": "Reference 貸家/かしや (master N2) is the same lexeme as the new entry 貸家【かしや】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 貸家/かしや at N2 (gloss: house for rent; maison à louer; (n) Miethaus)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1411170; spelling=貸家; reading=かしや; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1411170 as the reference form.",
+          "selected": {
+            "sequence": "1411170",
+            "spelling": "貸家",
+            "reading": "かしや",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "house for rent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference 貸家|かしや#1 is the same lexeme as vocab-n2:correction:kashiya; target hash bound to the assembled addition.",
+        "contentHash": "d9322f8e9ba1a792effcb396c8e28fe587997abdd0215d6c3969d37b7bddddd3",
+        "approvalHash": "d9322f8e9ba1a792effcb396c8e28fe587997abdd0215d6c3969d37b7bddddd3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). 貸家/かしや (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kashiya; the gloss agrees.",
+        "contentHash": "d9322f8e9ba1a792effcb396c8e28fe587997abdd0215d6c3969d37b7bddddd3",
+        "approvalHash": "d9322f8e9ba1a792effcb396c8e28fe587997abdd0215d6c3969d37b7bddddd3"
+      }
+    },
+    {
+      "key": "かせっと|かせっと",
+      "referenceIndex": 0,
+      "referenceHash": "fbbcd7cda38e4cc6d7faea081960c68496b3ee7811fad66f6c8dfca0c14e76e5",
+      "revisionId": "032-candidate-kasetto-901f89a5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kasetto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kasetto": "b80b9c1a4afe9318a809c1f50fe07f35c3772c0fc000de7360d6f5664d0dac9b"
+      },
+      "reason": "Reference カセット/カセット (tanos N2) is the same lexeme as the new entry カセット【カセット】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=16",
+          "finding": "tanos lists カセット/カセット at N2 (gloss: cassette (tape))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1037400; spelling=カセット; reading=カセット; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1037400 as the reference form.",
+          "selected": {
+            "sequence": "1037400",
+            "spelling": "カセット",
+            "reading": "カセット",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cassette (tape)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "game cartridge"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference かせっと|かせっと#0 is the same lexeme as vocab-n2:correction:kasetto; target hash bound to the assembled addition.",
+        "contentHash": "29ce5318ef6e6ea75fb3cb9b17dd2cf57734f73bbad8855e45ae96f6d9f33b4e",
+        "approvalHash": "29ce5318ef6e6ea75fb3cb9b17dd2cf57734f73bbad8855e45ae96f6d9f33b4e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). カセット/カセット (tanos N2) is the same lexeme as vocab-n2:correction:kasetto; the gloss agrees.",
+        "contentHash": "29ce5318ef6e6ea75fb3cb9b17dd2cf57734f73bbad8855e45ae96f6d9f33b4e",
+        "approvalHash": "29ce5318ef6e6ea75fb3cb9b17dd2cf57734f73bbad8855e45ae96f6d9f33b4e"
+      }
+    },
+    {
+      "key": "かせっと|かせっと",
+      "referenceIndex": 1,
+      "referenceHash": "666a44ef9bf1b3b82e82e0bc2c2d4ac3d8064dde4ea9d0891ccf14c67b0c2724",
+      "revisionId": "032-candidate-kasetto-901f89a5-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kasetto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kasetto": "b80b9c1a4afe9318a809c1f50fe07f35c3772c0fc000de7360d6f5664d0dac9b"
+      },
+      "reason": "Reference カセット/カセット (master N2) is the same lexeme as the new entry カセット【カセット】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists カセット/カセット at N2 (gloss: cassette (tape); cassette)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1037400; spelling=カセット; reading=カセット; senses=1,2; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1037400 as the reference form.",
+          "selected": {
+            "sequence": "1037400",
+            "spelling": "カセット",
+            "reading": "カセット",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cassette (tape)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "game cartridge"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-editor",
+        "finding": "Editorial first pass: reference かせっと|かせっと#1 is the same lexeme as vocab-n2:correction:kasetto; target hash bound to the assembled addition.",
+        "contentHash": "e22c9ce9c2f01226f21cd34e60671add3758dbbe9472c7895405abf15f153c4d",
+        "approvalHash": "e22c9ce9c2f01226f21cd34e60671add3758dbbe9472c7895405abf15f153c4d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-032-independent-reviewer",
+        "finding": "Second pass (round 2): unchanged since round 1 (verified against the spec diff and the regenerated review-view). カセット/カセット (Nihongo Master N2) is the same lexeme as vocab-n2:correction:kasetto; the gloss agrees.",
+        "contentHash": "e22c9ce9c2f01226f21cd34e60671add3758dbbe9472c7895405abf15f153c4d",
+        "approvalHash": "e22c9ce9c2f01226f21cd34e60671add3758dbbe9472c7895405abf15f153c4d"
+      }
+    }
+  ]
+}

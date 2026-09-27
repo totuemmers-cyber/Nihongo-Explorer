@@ -1,0 +1,3533 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:seisuu",
+      "revisionId": "034-add-seisuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "整数",
+        "reading": "せいすう",
+        "romaji": "seisuu",
+        "meaning": "ganze Zahl",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N2",
+        "notes": "Mathematik: 正の整数 (positive ganze Zahl). Vgl. 小数 (Dezimalzahl), 分数 (Bruch).",
+        "examples": [
+          {
+            "japanese": "一から十までの整数を全部足してみよう。",
+            "romaji": "Ichi kara juu made no seisuu o zenbu tashite miyou.",
+            "german": "Addieren wir alle ganzen Zahlen von eins bis zehn."
+          },
+          {
+            "japanese": "三・五は整数ではない。",
+            "romaji": "San ten go wa seisuu de wa nai.",
+            "german": "3,5 ist keine ganze Zahl."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152097764",
+            "patterns": [
+              3
+            ],
+            "finding": "整数 / セイスウ; 名詞/普通名詞/一般/*; *; *; lemma 整数; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "整数",
+              "reading": "せいすう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "整数 as \"ganze Zahl\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 整数【せいすう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1376190; spelling=整数; reading=せいすう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1376190 整数/せいすう sense(s) 1 support \"ganze Zahl\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1376190",
+            "spelling": "整数",
+            "reading": "せいすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "integer"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "整数|せいすう",
+          "referenceIndex": 0,
+          "referenceHash": "ba36d3232cf8b67284bc84726bbd300966159b0e462d4a9afcca7700149780e0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"ganze Zahl\" matches JMdict 1376190 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Adding integers.",
+          "Classifying a number."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1376190; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@152097764 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152097764",
+            "patterns": [
+              3
+            ],
+            "finding": "整数 / セイスウ; 名詞/普通名詞/一般/*; *; *; lemma 整数; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "整数",
+              "reading": "せいすう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "整数 as \"ganze Zahl\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 整数【せいすう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1376190 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "89d40343ede22eb8a5afe15d72a6322a3360792d9a92801f359a900fbc609a22",
+        "approvalHash": "9e128efa9e8d101ca2ecfdb3a242211e08dfe237a5a50967c8c2c2903c107189"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. 整数【せいすう】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1376190 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "89d40343ede22eb8a5afe15d72a6322a3360792d9a92801f359a900fbc609a22",
+        "approvalHash": "9e128efa9e8d101ca2ecfdb3a242211e08dfe237a5a50967c8c2c2903c107189"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:seisou",
+      "revisionId": "034-add-seisou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "清掃",
+        "reading": "せいそう",
+        "romaji": "seisou",
+        "meaning": "Reinigung, Säuberung",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Förmlich für Putzen, besonders bei Anlagen und öffentlichen Orten: 清掃中 (wird gereinigt), 清掃員 (Reinigungskraft). Im Alltag: 掃除.",
+        "examples": [
+          {
+            "japanese": "ただいまトイレは清掃中です。",
+            "romaji": "Tadaima toire wa seisouchuu desu.",
+            "german": "Die Toilette wird gerade gereinigt."
+          },
+          {
+            "japanese": "住民が集まって川の清掃をした。",
+            "romaji": "Juumin ga atsumatte kawa no seisou o shita.",
+            "german": "Die Anwohner versammelten sich und reinigten den Fluss."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152147685",
+            "patterns": [
+              0
+            ],
+            "finding": "清掃 / セイソウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 清掃; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "清掃",
+              "reading": "せいそう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "清掃 as \"Reinigung, Säuberung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 清掃【せいそう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1378320; spelling=清掃; reading=せいそう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1378320 清掃/せいそう sense(s) 1 support \"Reinigung, Säuberung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1378320",
+            "spelling": "清掃",
+            "reading": "せいそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cleaning",
+                  "clean-up",
+                  "garbage collection",
+                  "scavenging"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "清掃|せいそう",
+          "referenceIndex": 0,
+          "referenceHash": "452513aa78799412358a33aa49bbb000a531a030387b62b29c4276d0036eb4d2"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Reinigung, Säuberung\" matches JMdict 1378320 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sign on a toilet.",
+          "Community clean-up."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1378320; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@152147685 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152147685",
+            "patterns": [
+              0
+            ],
+            "finding": "清掃 / セイソウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 清掃; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "清掃",
+              "reading": "せいそう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "清掃 as \"Reinigung, Säuberung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 清掃【せいそう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1378320 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "279e7ae6c393106d27cfc8c8c0818cb10e09a195b07ffd83af35fd2baacbdf62",
+        "approvalHash": "64ca2a4fe1643a4a7094268a9cd16aba95fa0780e441beb50dbdf2090276468a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. 清掃【せいそう】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1378320 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "279e7ae6c393106d27cfc8c8c0818cb10e09a195b07ffd83af35fd2baacbdf62",
+        "approvalHash": "64ca2a4fe1643a4a7094268a9cd16aba95fa0780e441beb50dbdf2090276468a"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:seichou-plant",
+      "revisionId": "034-add-seichou-plant",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "生長",
+        "reading": "せいちょう",
+        "romaji": "seichou",
+        "meaning": "Wachstum (von Pflanzen)",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N2",
+        "notes": "Vor allem für Pflanzen; das Wachstum von Menschen und Tieren sowie wirtschaftliches Wachstum schreibt man 成長.",
+        "examples": [
+          {
+            "japanese": "日光が足りないと、植物の生長が遅くなる。",
+            "romaji": "Nikkou ga tarinai to, shokubutsu no seichou ga osoku naru.",
+            "german": "Bei zu wenig Sonnenlicht wachsen Pflanzen langsamer."
+          },
+          {
+            "japanese": "稲の生長を毎日観察した。",
+            "romaji": "Ine no seichou o mainichi kansatsu shita.",
+            "german": "Ich habe das Wachstum der Reispflanzen täglich beobachtet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152190589",
+            "patterns": [
+              0
+            ],
+            "finding": "生長 / セイチョウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 生長; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "生長",
+              "reading": "せいちょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "生長 as \"Wachstum (von Pflanzen)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 生長【せいちょう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1379370; spelling=生長; reading=せいちょう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1379370 生長/せいちょう sense(s) 1 support \"Wachstum (von Pflanzen)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1379370",
+            "spelling": "生長",
+            "reading": "せいちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "growth (of a plant)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "生長|せいちょう",
+          "referenceIndex": 0,
+          "referenceHash": "fa230d84e66c74f223601e389c6951c7ecd56a0689231bbecd8adbf696d2b2d5"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Wachstum (von Pflanzen)\" matches JMdict 1379370 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Light and plant growth.",
+          "Observing rice plants."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1379370; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@152190589 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152190589",
+            "patterns": [
+              0
+            ],
+            "finding": "生長 / セイチョウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 生長; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "生長",
+              "reading": "せいちょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "生長 as \"Wachstum (von Pflanzen)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 生長【せいちょう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1379370 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b451be928f72a17c627661a823525c3d66faa4553f42de2a20118bc36c839cfb",
+        "approvalHash": "918d12a78723b7d566ecbe5f106c5dcbb5fd37968044a1d22aad15d241522d2b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. 生長【せいちょう】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1379370 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "b451be928f72a17c627661a823525c3d66faa4553f42de2a20118bc36c839cfb",
+        "approvalHash": "918d12a78723b7d566ecbe5f106c5dcbb5fd37968044a1d22aad15d241522d2b"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:seihoukei",
+      "revisionId": "034-add-seihoukei",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "正方形",
+        "reading": "せいほうけい",
+        "romaji": "seihoukei",
+        "meaning": "Quadrat",
+        "type": "Nomen",
+        "category": "Wissenschaft",
+        "level": "N2",
+        "notes": "Vier gleich lange Seiten und rechte Winkel. Rechteck: 長方形.",
+        "examples": [
+          {
+            "japanese": "紙を切って、正方形を作った。",
+            "romaji": "Kami o kitte, seihoukei o tsukutta.",
+            "german": "Ich schnitt das Papier zu einem Quadrat zurecht."
+          },
+          {
+            "japanese": "一辺が五センチの正方形の面積を求めなさい。",
+            "romaji": "Ippen ga go senchi no seihoukei no menseki o motomenasai.",
+            "german": "Berechne die Fläche eines Quadrats mit fünf Zentimetern Seitenlänge."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 正方形【せいほうけい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1377920; spelling=正方形; reading=せいほうけい; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1377920 正方形/せいほうけい sense(s) 1 support \"Quadrat\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1377920",
+            "spelling": "正方形",
+            "reading": "せいほうけい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "square"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "正方形|せいほうけい",
+          "referenceIndex": 0,
+          "referenceHash": "5a02e4c0c5f409c620b8ccfb2b5840b3544ae81898a8bd06c2ffd790bbcb4a08"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Quadrat\" matches JMdict 1377920 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Cutting paper.",
+          "Geometry exercise."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1377920; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 正方形 / せいほうけい; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 正方形 / せいほうけい",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 正方形【せいほうけい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1377920 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "717210303489004affaf7cc68c63dd192daaf73b59363e2f50ca1ad00954cf85",
+        "approvalHash": "49b7f06ea8fe99b5d727c56a7abac9c05bea87e039af1ff3abd31994e91bdf14"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. 正方形【せいほうけい】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1377920 senses. Type/level OK. Pitch unknown is consistent with the evidence. check.cjs: new.",
+        "contentHash": "717210303489004affaf7cc68c63dd192daaf73b59363e2f50ca1ad00954cf85",
+        "approvalHash": "49b7f06ea8fe99b5d727c56a7abac9c05bea87e039af1ff3abd31994e91bdf14"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:seimon",
+      "revisionId": "034-add-seimon",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "正門",
+        "reading": "せいもん",
+        "romaji": "seimon",
+        "meaning": "Haupttor, Haupteingang",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N2",
+        "notes": "Haupteingang einer Schule, Firma oder eines Tempels. Hintereingang: 裏門.",
+        "examples": [
+          {
+            "japanese": "学校の正門の前で待ち合わせた。",
+            "romaji": "Gakkou no seimon no mae de machiawaseta.",
+            "german": "Wir haben uns vor dem Haupttor der Schule getroffen."
+          },
+          {
+            "japanese": "夜は正門が閉まるので、裏門を使ってください。",
+            "romaji": "Yoru wa seimon ga shimaru node, uramon o tsukatte kudasai.",
+            "german": "Nachts ist das Haupttor geschlossen, benutzen Sie bitte das Hintertor."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152290942",
+            "patterns": [
+              0
+            ],
+            "finding": "正門 / セイモン; 名詞/普通名詞/一般/*; *; *; lemma 正門; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "正門",
+              "reading": "せいもん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "正門 as \"Haupttor, Haupteingang\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 正門【せいもん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1378100; spelling=正門; reading=せいもん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1378100 正門/せいもん sense(s) 1 support \"Haupttor, Haupteingang\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1378100",
+            "spelling": "正門",
+            "reading": "せいもん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "main gate",
+                  "main entrance"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "正門|せいもん",
+          "referenceIndex": 0,
+          "referenceHash": "15b11a3c08ea17936b2dcd7ab321d108f2dd6c58c9265f82b7e53fcdf24ba4f5"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Haupttor, Haupteingang\" matches JMdict 1378100 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Meeting point.",
+          "Night-time access."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1378100; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@152290942 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152290942",
+            "patterns": [
+              0
+            ],
+            "finding": "正門 / セイモン; 名詞/普通名詞/一般/*; *; *; lemma 正門; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "正門",
+              "reading": "せいもん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "正門 as \"Haupttor, Haupteingang\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 正門【せいもん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1378100 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "69ed1b02f3dbdf397d9b48ce795d5bfda68ae08ae0d3d2be29a8ec6ae2f7d5a7",
+        "approvalHash": "86bf52fa75b77bc64465a4bc17c89f5fb87ac25a0aee8dd51c66a39dc0bafcb8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. 正門【せいもん】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1378100 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "69ed1b02f3dbdf397d9b48ce795d5bfda68ae08ae0d3d2be29a8ec6ae2f7d5a7",
+        "approvalHash": "86bf52fa75b77bc64465a4bc17c89f5fb87ac25a0aee8dd51c66a39dc0bafcb8"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:zehitomo",
+      "revisionId": "034-add-zehitomo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ぜひとも",
+        "reading": "ぜひとも",
+        "romaji": "zehitomo",
+        "meaning": "unbedingt, auf jeden Fall",
+        "type": "Adverb",
+        "category": "Betonung",
+        "level": "N2",
+        "notes": "Verstärkte Form von ぜひ für Bitten und Wünsche mit Nachdruck; auch 是非とも geschrieben.",
+        "examples": [
+          {
+            "japanese": "この仕事はぜひとも成功させたい。",
+            "romaji": "Kono shigoto wa zehitomo seikou sasetai.",
+            "german": "Diese Arbeit möchte ich unbedingt zum Erfolg bringen."
+          },
+          {
+            "japanese": "次回はぜひともご参加ください。",
+            "romaji": "Jikai wa zehitomo gosanka kudasai.",
+            "german": "Nehmen Sie beim nächsten Mal bitte unbedingt teil."
+          }
+        ],
+        "pitch": null,
+        "aliases": [
+          "是非とも"
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ぜひとも【ぜひとも】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1610700; spelling=ぜひとも; reading=ぜひとも; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1610700 ぜひとも/ぜひとも sense(s) 1 support \"unbedingt, auf jeden Fall\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1610700",
+            "spelling": "ぜひとも",
+            "reading": "ぜひとも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "by all means",
+                  "at all costs",
+                  "absolutely"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぜひとも|ぜひとも",
+          "referenceIndex": 0,
+          "referenceHash": "b066111e1e4bf89fc058e8c6d6aa0ea65e7f1418f40cb3a09b9a36fb35845612"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"unbedingt, auf jeden Fall\" matches JMdict 1610700 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Strong personal wish.",
+          "Polite invitation."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1610700; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ぜひとも / ぜひとも; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup ぜひとも / ぜひとも",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add ぜひとも【ぜひとも】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1610700 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "d1dbcad09a69742d6d8f12a07493c73ea2968b05f4d63aa0e31aba8348ecba91",
+        "approvalHash": "c936cce71d13ef225ac44fae885608090a65ec8f8d3e376f6051784f959aec14"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. Merge with 是非とも is one lexeme (JMdict 1610700). ぜひとも【ぜひとも】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1610700 senses. Type/level OK. Pitch unknown is consistent with the evidence. check.cjs: new.",
+        "contentHash": "d1dbcad09a69742d6d8f12a07493c73ea2968b05f4d63aa0e31aba8348ecba91",
+        "approvalHash": "c936cce71d13ef225ac44fae885608090a65ec8f8d3e376f6051784f959aec14"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:zemi",
+      "revisionId": "034-add-zemi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ゼミ",
+        "reading": "ゼミ",
+        "romaji": "zemi",
+        "meaning": "Seminar (Universität)",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N2",
+        "notes": "Kurzform von ゼミナール (aus dem Deutschen „Seminar“). An japanischen Universitäten oft eine feste Kleingruppe bei einer Lehrperson.",
+        "examples": [
+          {
+            "japanese": "来週のゼミで発表をすることになった。",
+            "romaji": "Raishuu no zemi de happyou o suru koto ni natta.",
+            "german": "Ich soll nächste Woche im Seminar ein Referat halten."
+          },
+          {
+            "japanese": "ゼミの仲間と旅行に行った。",
+            "romaji": "Zemi no nakama to ryokou ni itta.",
+            "german": "Ich bin mit meinen Seminarkollegen verreist."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154788326",
+            "patterns": [
+              1
+            ],
+            "finding": "ゼミ / ゼミ; 名詞/普通名詞/一般/*; *; *; lemma ゼミ-Seminar; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ゼミ",
+              "reading": "ゼミ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ゼミ as \"Seminar (Universität)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ゼミ【ゼミ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1075160; spelling=ゼミ; reading=ゼミ; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1075160 ゼミ/ゼミ sense(s) 1 support \"Seminar (Universität)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1075160",
+            "spelling": "ゼミ",
+            "reading": "ゼミ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "seminar"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぜみ|ぜみ",
+          "referenceIndex": 0,
+          "referenceHash": "05866f9b5eb8af06de1bfa57a4a207cc01031f8b237518fbdc60b9238892ce42"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Seminar (Universität)\" matches JMdict 1075160 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Presentation in class.",
+          "Trip with classmates."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1075160; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@154788326 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154788326",
+            "patterns": [
+              1
+            ],
+            "finding": "ゼミ / ゼミ; 名詞/普通名詞/一般/*; *; *; lemma ゼミ-Seminar; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ゼミ",
+              "reading": "ゼミ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ゼミ as \"Seminar (Universität)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add ゼミ【ゼミ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1075160 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "3d294f5193cd1f8e0b581e26a2ea7e4aa01f1077b0d3e42b74bcb21de9f941f2",
+        "approvalHash": "03942df154c37fb46f1dae1e791fa7277a45601873485b24609b78bfacf90579"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. ゼミ【ゼミ】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1075160 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "3d294f5193cd1f8e0b581e26a2ea7e4aa01f1077b0d3e42b74bcb21de9f941f2",
+        "approvalHash": "03942df154c37fb46f1dae1e791fa7277a45601873485b24609b78bfacf90579"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:semento",
+      "revisionId": "034-add-semento",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "セメント",
+        "reading": "セメント",
+        "romaji": "semento",
+        "meaning": "Zement",
+        "type": "Nomen",
+        "category": "Industrie",
+        "level": "N2",
+        "notes": "Bindemittel für Bauarbeiten; mit Sand und Wasser entsteht Mörtel (モルタル), mit Kies zusätzlich Beton (コンクリート).",
+        "examples": [
+          {
+            "japanese": "セメントに砂と水を混ぜてモルタルを作る。",
+            "romaji": "Semento ni suna to mizu o mazete morutaru o tsukuru.",
+            "german": "Man mischt Zement mit Sand und Wasser zu Mörtel."
+          },
+          {
+            "japanese": "道路の穴をセメントで埋めた。",
+            "romaji": "Douro no ana o semento de umeta.",
+            "german": "Das Loch in der Straße wurde mit Zement gefüllt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@153868139",
+            "patterns": [
+              0
+            ],
+            "finding": "セメント / セメント; 名詞/普通名詞/一般/*; *; *; lemma セメント-cement; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "セメント",
+              "reading": "セメント",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "セメント as \"Zement\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add セメント【セメント】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1074740; spelling=セメント; reading=セメント; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1074740 セメント/セメント sense(s) 1 support \"Zement\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1074740",
+            "spelling": "セメント",
+            "reading": "セメント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "せめんと|せめんと",
+          "referenceIndex": 0,
+          "referenceHash": "043571f25ece48f5b90781f9400c05a30dd90d011db364edd832cb74ec902cb1"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Zement\" matches JMdict 1074740 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Mixing mortar.",
+          "Road repair."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1074740; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@153868139 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@153868139",
+            "patterns": [
+              0
+            ],
+            "finding": "セメント / セメント; 名詞/普通名詞/一般/*; *; *; lemma セメント-cement; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "セメント",
+              "reading": "セメント",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "セメント as \"Zement\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add セメント【セメント】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1074740 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d64e546366a28a08247c8c50845450e5f03ddac4fcedf9c3858ff6fb66106322",
+        "approvalHash": "c3b99409e66762192c9e136e99d6a6f2dd46679abe3dad3e38be0f2d7c24a076"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. Cement + sand + water = mortar (モルタル), + gravel = concrete (コンクリート). The note is accurate. セメント【セメント】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1074740 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "d64e546366a28a08247c8c50845450e5f03ddac4fcedf9c3858ff6fb66106322",
+        "approvalHash": "c3b99409e66762192c9e136e99d6a6f2dd46679abe3dad3e38be0f2d7c24a076"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:sen-stopper",
+      "revisionId": "034-add-sen-stopper",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "栓",
+        "reading": "せん",
+        "romaji": "sen",
+        "meaning": "Stöpsel, Korken; Hahn",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Verschluss einer Flasche oder Wanne: 栓を抜く (entkorken, Stöpsel ziehen); auch ガスの元栓 (Haupthahn) und 耳栓 (Ohrstöpsel).",
+        "examples": [
+          {
+            "japanese": "ワインの栓を抜いた。",
+            "romaji": "Wain no sen o nuita.",
+            "german": "Ich habe die Weinflasche entkorkt."
+          },
+          {
+            "japanese": "お風呂の栓をしてからお湯を入れてください。",
+            "romaji": "Ofuro no sen o shite kara oyu o irete kudasai.",
+            "german": "Setzen Sie erst den Stöpsel ein und lassen Sie dann das heiße Wasser ein."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154258715",
+            "patterns": [
+              1
+            ],
+            "finding": "栓 / セン; 名詞/普通名詞/一般/*; *; *; lemma 栓; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "栓",
+              "reading": "せん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "栓 as \"Stöpsel, Korken; Hahn\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 栓【せん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1956550; spelling=栓; reading=せん; senses=1,2; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1956550 栓/せん sense(s) 1,2 support \"Stöpsel, Korken; Hahn\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1956550",
+            "spelling": "栓",
+            "reading": "せん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stopper",
+                  "cork",
+                  "plug",
+                  "bung"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tap",
+                  "faucet",
+                  "stopcock"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "栓|せん",
+          "referenceIndex": 0,
+          "referenceHash": "7b940c7727f139fed8c970a013506e6f5d4cc97ed8b3791ec6852233ee74bfc3"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Stöpsel, Korken; Hahn\" matches JMdict 1956550 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Opening wine.",
+          "Filling a bath."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1956550; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@154258715 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154258715",
+            "patterns": [
+              1
+            ],
+            "finding": "栓 / セン; 名詞/普通名詞/一般/*; *; *; lemma 栓; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "栓",
+              "reading": "せん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "栓 as \"Stöpsel, Korken; Hahn\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 栓【せん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1956550 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "98e7e3b42d638c0f9e3112cdc91fd482c4fb7c94b9cefcdc59c2124b91c1294b",
+        "approvalHash": "4f6c06cd3bb7b1ff3c42ddd68dd00fc00ed0ea0012ced3b6490cd896abc19967"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. 栓【せん】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1956550 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "98e7e3b42d638c0f9e3112cdc91fd482c4fb7c94b9cefcdc59c2124b91c1294b",
+        "approvalHash": "4f6c06cd3bb7b1ff3c42ddd68dd00fc00ed0ea0012ced3b6490cd896abc19967"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:zengo",
+      "revisionId": "034-add-zengo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "前後",
+        "reading": "ぜんご",
+        "romaji": "zengo",
+        "meaning": "vorne und hinten; vorher und nachher; etwa, um",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N2",
+        "notes": "Räumlich (バスの前後), zeitlich (食事の前後) und nach Zahlen für ungefähre Angaben: 三十歳前後 (um die dreißig).",
+        "examples": [
+          {
+            "japanese": "バスの前後に自転車が止まっている。",
+            "romaji": "Basu no zengo ni jitensha ga tomatte iru.",
+            "german": "Vor und hinter dem Bus stehen Fahrräder."
+          },
+          {
+            "japanese": "参加者は二十人前後になりそうだ。",
+            "romaji": "Sankasha wa nijuunin zengo ni narisou da.",
+            "german": "Es werden wohl um die zwanzig Teilnehmer."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154854939",
+            "patterns": [
+              1
+            ],
+            "finding": "前後 / ゼンゴ; 名詞/普通名詞/サ変可能/*; *; *; lemma 前後; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "前後",
+              "reading": "ぜんご",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "前後 as \"vorne und hinten; vorher und nachher; etwa, um\"."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154855305",
+            "patterns": [
+              1
+            ],
+            "finding": "前後 / ゼンゴ; 名詞/普通名詞/副詞可能/*; *; *; lemma 前後; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "前後",
+              "reading": "ぜんご",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "前後 as \"vorne und hinten; vorher und nachher; etwa, um\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 前後【ぜんご】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1392910; spelling=前後; reading=ぜんご; senses=1,2,3; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1392910 前後/ぜんご sense(s) 1,2,3 support \"vorne und hinten; vorher und nachher; etwa, um\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1392910",
+            "spelling": "前後",
+            "reading": "ぜんご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "front and rear",
+                  "front and back",
+                  "before and behind",
+                  "back and forth"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "before and after"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun, used as a suffix",
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "around",
+                  "about",
+                  "approximately"
+                ],
+                "notes": [
+                  "after a quantity, age, time, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "前後|ぜんご",
+          "referenceIndex": 0,
+          "referenceHash": "843a772685749088a139c62747c828d33d204b97644bf32631abc79ae34317d8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"vorne und hinten; vorher und nachher; etwa, um\" matches JMdict 1392910 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Front and back (spatial).",
+          "Approximate number."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1392910; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@154854939, sys.dic@154855305 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154854939",
+            "patterns": [
+              1
+            ],
+            "finding": "前後 / ゼンゴ; 名詞/普通名詞/サ変可能/*; *; *; lemma 前後; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "前後",
+              "reading": "ぜんご",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "前後 as \"vorne und hinten; vorher und nachher; etwa, um\"."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154855305",
+            "patterns": [
+              1
+            ],
+            "finding": "前後 / ゼンゴ; 名詞/普通名詞/副詞可能/*; *; *; lemma 前後; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "前後",
+              "reading": "ぜんご",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "前後 as \"vorne und hinten; vorher und nachher; etwa, um\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 前後【ぜんご】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1392910 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "70e95179421185c2ff970ec8fb22cddd3199d4ae8cf961304fca4ad9d33063af",
+        "approvalHash": "b72bcd99c053ec73432791359fb104b9308ae7dba0c3f86dca0c587d93d24791"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. 前後【ぜんご】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1392910 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "70e95179421185c2ff970ec8fb22cddd3199d4ae8cf961304fca4ad9d33063af",
+        "approvalHash": "b72bcd99c053ec73432791359fb104b9308ae7dba0c3f86dca0c587d93d24791"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:sensei-despotism",
+      "revisionId": "034-add-sensei-despotism",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "専制",
+        "reading": "せんせい",
+        "romaji": "sensei",
+        "meaning": "Despotie, Alleinherrschaft",
+        "type": "Nomen",
+        "category": "Politik",
+        "level": "N2",
+        "notes": "Herrschaft einer Person oder Gruppe ohne Kontrolle: 専制政治, 専制君主. Gleich klingend: 先生.",
+        "examples": [
+          {
+            "japanese": "国王は長い間専制を続けた。",
+            "romaji": "Kokuou wa nagai aida sensei o tsuzuketa.",
+            "german": "Der König herrschte lange Zeit als Despot."
+          },
+          {
+            "japanese": "人々は専制に反対して立ち上がった。",
+            "romaji": "Hitobito wa sensei ni hantai shite tachiagatta.",
+            "german": "Die Menschen erhoben sich gegen die Gewaltherrschaft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154476988",
+            "patterns": [
+              0
+            ],
+            "finding": "専制 / センセイ; 名詞/普通名詞/一般/*; *; *; lemma 専制; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "専制",
+              "reading": "せんせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "専制 as \"Despotie, Alleinherrschaft\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 034); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 専制【せんせい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1389810; spelling=専制; reading=せんせい; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1389810 専制/せんせい sense(s) 1 support \"Despotie, Alleinherrschaft\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1389810",
+            "spelling": "専制",
+            "reading": "せんせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "despotism",
+                  "autocracy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "専制|せんせい",
+          "referenceIndex": 0,
+          "referenceHash": "097ef7a1ac10c0dcaef6e9a4815286cb57f2e41eecc9f0e7398fd343eaa1a144"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-034-editor",
+        "meaning": "\"Despotie, Alleinherrschaft\" matches JMdict 1389810 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Ruler’s long despotism.",
+          "Uprising against tyranny."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1389810; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@154476988 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154476988",
+            "patterns": [
+              0
+            ],
+            "finding": "専制 / センセイ; 名詞/普通名詞/一般/*; *; *; lemma 専制; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "専制",
+              "reading": "せんせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "専制 as \"Despotie, Alleinherrschaft\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: Add 専制【せんせい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1389810 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a91e66c358e0ea4fad2f5fa18eeabca556bfaf21a19c4cb34222857a63010494",
+        "approvalHash": "c1163bcf4f03867bb41d605512d719ce02e88793b3ef2a39d379306e55fc4dc3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec-entries diff against spec-entries.before-r1.cjs touches only shimekiru, shouganai, sonotame and the removed sho-various/sensenshuu). Assembly entry is identical to first-approved-H. 専制【せんせい】: examples grammatical and natural, use the headword in the taught sense in two distinct contexts. Romaji checked. German meaning, note and translations are accurate. Meaning is supported by the selected JMdict 1389810 senses. Type/level OK. Pitch verified is consistent with the evidence. check.cjs: new.",
+        "contentHash": "a91e66c358e0ea4fad2f5fa18eeabca556bfaf21a19c4cb34222857a63010494",
+        "approvalHash": "c1163bcf4f03867bb41d605512d719ce02e88793b3ef2a39d379306e55fc4dc3"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "整数|せいすう",
+      "referenceIndex": 0,
+      "referenceHash": "ba36d3232cf8b67284bc84726bbd300966159b0e462d4a9afcca7700149780e0",
+      "revisionId": "034-candidate-seisuu-c58f24ac-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:seisuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:seisuu": "89d40343ede22eb8a5afe15d72a6322a3360792d9a92801f359a900fbc609a22"
+      },
+      "reason": "Reference 整数/せいすう (tanos N2) is the same lexeme as the new entry 整数【せいすう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=46",
+          "finding": "tanos lists 整数/せいすう at N2 (gloss: integer)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1376190; spelling=整数; reading=せいすう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1376190 as the reference form.",
+          "selected": {
+            "sequence": "1376190",
+            "spelling": "整数",
+            "reading": "せいすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "integer"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 整数|せいすう#0 is the same lexeme as vocab-n2:correction:seisuu; target hash bound to the assembled addition.",
+        "contentHash": "f0a3aa293a6214f15cde5dcc63857dc234db8c4c1be8538ec373a6076a8830c8",
+        "approvalHash": "f0a3aa293a6214f15cde5dcc63857dc234db8c4c1be8538ec373a6076a8830c8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 整数/せいすう is the same lexeme as vocab-n2:correction:seisuu. The gloss matches the taught sense(s).",
+        "contentHash": "f0a3aa293a6214f15cde5dcc63857dc234db8c4c1be8538ec373a6076a8830c8",
+        "approvalHash": "f0a3aa293a6214f15cde5dcc63857dc234db8c4c1be8538ec373a6076a8830c8"
+      }
+    },
+    {
+      "key": "整数|せいすう",
+      "referenceIndex": 1,
+      "referenceHash": "7ae3bf40486cae49101d43a99fa6c182d03cce2e2545da7b7c84e44f84743375",
+      "revisionId": "034-candidate-seisuu-c58f24ac-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:seisuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:seisuu": "89d40343ede22eb8a5afe15d72a6322a3360792d9a92801f359a900fbc609a22"
+      },
+      "reason": "Reference 整数/せいすう (master N2) is the same lexeme as the new entry 整数【せいすう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 整数/せいすう at N2 (gloss: integer; whole number; nombre entier)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1376190; spelling=整数; reading=せいすう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1376190 as the reference form.",
+          "selected": {
+            "sequence": "1376190",
+            "spelling": "整数",
+            "reading": "せいすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "integer"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 整数|せいすう#1 is the same lexeme as vocab-n2:correction:seisuu; target hash bound to the assembled addition.",
+        "contentHash": "a079729a823c630db28ef8d663cd1c8b52f599b6d5ed8de0b57ea52a1e213d4d",
+        "approvalHash": "a079729a823c630db28ef8d663cd1c8b52f599b6d5ed8de0b57ea52a1e213d4d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 整数/せいすう is the same lexeme as vocab-n2:correction:seisuu. The gloss matches the taught sense(s).",
+        "contentHash": "a079729a823c630db28ef8d663cd1c8b52f599b6d5ed8de0b57ea52a1e213d4d",
+        "approvalHash": "a079729a823c630db28ef8d663cd1c8b52f599b6d5ed8de0b57ea52a1e213d4d"
+      }
+    },
+    {
+      "key": "清掃|せいそう",
+      "referenceIndex": 0,
+      "referenceHash": "452513aa78799412358a33aa49bbb000a531a030387b62b29c4276d0036eb4d2",
+      "revisionId": "034-candidate-seisou-a7e5d3a5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:seisou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:seisou": "279e7ae6c393106d27cfc8c8c0818cb10e09a195b07ffd83af35fd2baacbdf62"
+      },
+      "reason": "Reference 清掃/せいそう (tanos N2) is the same lexeme as the new entry 清掃【せいそう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=46",
+          "finding": "tanos lists 清掃/せいそう at N2 (gloss: cleaning)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1378320; spelling=清掃; reading=せいそう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1378320 as the reference form.",
+          "selected": {
+            "sequence": "1378320",
+            "spelling": "清掃",
+            "reading": "せいそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cleaning",
+                  "clean-up",
+                  "garbage collection",
+                  "scavenging"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 清掃|せいそう#0 is the same lexeme as vocab-n2:correction:seisou; target hash bound to the assembled addition.",
+        "contentHash": "995ffe9d1ff54c2d7135045025e0da9f9dd5fa9e157178d5504d23f0ce79400b",
+        "approvalHash": "995ffe9d1ff54c2d7135045025e0da9f9dd5fa9e157178d5504d23f0ce79400b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 清掃/せいそう is the same lexeme as vocab-n2:correction:seisou. The gloss matches the taught sense(s).",
+        "contentHash": "995ffe9d1ff54c2d7135045025e0da9f9dd5fa9e157178d5504d23f0ce79400b",
+        "approvalHash": "995ffe9d1ff54c2d7135045025e0da9f9dd5fa9e157178d5504d23f0ce79400b"
+      }
+    },
+    {
+      "key": "清掃|せいそう",
+      "referenceIndex": 1,
+      "referenceHash": "5f38061e0d81afc1bf5d00187ab91137a634a38e31793a99e1f1bff55cc32431",
+      "revisionId": "034-candidate-seisou-a7e5d3a5-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:seisou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:seisou": "279e7ae6c393106d27cfc8c8c0818cb10e09a195b07ffd83af35fd2baacbdf62"
+      },
+      "reason": "Reference 清掃/せいそう (master N2) is the same lexeme as the new entry 清掃【せいそう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 清掃/せいそう at N2 (gloss: cleaning; nettoiement; nettoyage)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1378320; spelling=清掃; reading=せいそう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1378320 as the reference form.",
+          "selected": {
+            "sequence": "1378320",
+            "spelling": "清掃",
+            "reading": "せいそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cleaning",
+                  "clean-up",
+                  "garbage collection",
+                  "scavenging"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 清掃|せいそう#1 is the same lexeme as vocab-n2:correction:seisou; target hash bound to the assembled addition.",
+        "contentHash": "4ab9b361614dc380a3af8f6f4cb3939461eafeb99d18a14bd11024acdccf10f0",
+        "approvalHash": "4ab9b361614dc380a3af8f6f4cb3939461eafeb99d18a14bd11024acdccf10f0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 清掃/せいそう is the same lexeme as vocab-n2:correction:seisou. The gloss matches the taught sense(s).",
+        "contentHash": "4ab9b361614dc380a3af8f6f4cb3939461eafeb99d18a14bd11024acdccf10f0",
+        "approvalHash": "4ab9b361614dc380a3af8f6f4cb3939461eafeb99d18a14bd11024acdccf10f0"
+      }
+    },
+    {
+      "key": "生長|せいちょう",
+      "referenceIndex": 0,
+      "referenceHash": "fa230d84e66c74f223601e389c6951c7ecd56a0689231bbecd8adbf696d2b2d5",
+      "revisionId": "034-candidate-seichou-plant-72fcaf6a-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:seichou-plant"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:seichou-plant": "b451be928f72a17c627661a823525c3d66faa4553f42de2a20118bc36c839cfb"
+      },
+      "reason": "Reference 生長/せいちょう (tanos N2) is the same lexeme as the new entry 生長【せいちょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=46",
+          "finding": "tanos lists 生長/せいちょう at N2 (gloss: growth,increment)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1379370; spelling=生長; reading=せいちょう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1379370 as the reference form.",
+          "selected": {
+            "sequence": "1379370",
+            "spelling": "生長",
+            "reading": "せいちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "growth (of a plant)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 生長|せいちょう#0 is the same lexeme as vocab-n2:correction:seichou-plant; target hash bound to the assembled addition.",
+        "contentHash": "bf53c083287916c6fbc1dbba3c3d802246e454c9a3a59cd95351871488163052",
+        "approvalHash": "bf53c083287916c6fbc1dbba3c3d802246e454c9a3a59cd95351871488163052"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 生長/せいちょう is the same lexeme as vocab-n2:correction:seichou-plant. The gloss matches the taught sense(s).",
+        "contentHash": "bf53c083287916c6fbc1dbba3c3d802246e454c9a3a59cd95351871488163052",
+        "approvalHash": "bf53c083287916c6fbc1dbba3c3d802246e454c9a3a59cd95351871488163052"
+      }
+    },
+    {
+      "key": "生長|せいちょう",
+      "referenceIndex": 1,
+      "referenceHash": "e4a44626795694b30f39fbf235884cbe8e9af770a046eb71d5e75ef77a083ac3",
+      "revisionId": "034-candidate-seichou-plant-72fcaf6a-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:seichou-plant"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:seichou-plant": "b451be928f72a17c627661a823525c3d66faa4553f42de2a20118bc36c839cfb"
+      },
+      "reason": "Reference 生長/せいちょう (master N2) is the same lexeme as the new entry 生長【せいちょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 生長/せいちょう at N2 (gloss: growth; increment; croissance)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1379370; spelling=生長; reading=せいちょう; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1379370 as the reference form.",
+          "selected": {
+            "sequence": "1379370",
+            "spelling": "生長",
+            "reading": "せいちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "growth (of a plant)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 生長|せいちょう#1 is the same lexeme as vocab-n2:correction:seichou-plant; target hash bound to the assembled addition.",
+        "contentHash": "6a36f3c9c449ca1d645cdbc1b7df2e4522ba6305c0c3c4d0e8fa7486fbd139e3",
+        "approvalHash": "6a36f3c9c449ca1d645cdbc1b7df2e4522ba6305c0c3c4d0e8fa7486fbd139e3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 生長/せいちょう is the same lexeme as vocab-n2:correction:seichou-plant. The gloss matches the taught sense(s).",
+        "contentHash": "6a36f3c9c449ca1d645cdbc1b7df2e4522ba6305c0c3c4d0e8fa7486fbd139e3",
+        "approvalHash": "6a36f3c9c449ca1d645cdbc1b7df2e4522ba6305c0c3c4d0e8fa7486fbd139e3"
+      }
+    },
+    {
+      "key": "正方形|せいほうけい",
+      "referenceIndex": 0,
+      "referenceHash": "5a02e4c0c5f409c620b8ccfb2b5840b3544ae81898a8bd06c2ffd790bbcb4a08",
+      "revisionId": "034-candidate-seihoukei-b980845c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:seihoukei"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:seihoukei": "717210303489004affaf7cc68c63dd192daaf73b59363e2f50ca1ad00954cf85"
+      },
+      "reason": "Reference 正方形/せいほうけい (tanos N2) is the same lexeme as the new entry 正方形【せいほうけい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=46",
+          "finding": "tanos lists 正方形/せいほうけい at N2 (gloss: square)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1377920; spelling=正方形; reading=せいほうけい; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1377920 as the reference form.",
+          "selected": {
+            "sequence": "1377920",
+            "spelling": "正方形",
+            "reading": "せいほうけい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "square"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 正方形|せいほうけい#0 is the same lexeme as vocab-n2:correction:seihoukei; target hash bound to the assembled addition.",
+        "contentHash": "85edef11c41ab6492b19e350f19c9a60730b585a88ebc5913c21f7301b175930",
+        "approvalHash": "85edef11c41ab6492b19e350f19c9a60730b585a88ebc5913c21f7301b175930"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 正方形/せいほうけい is the same lexeme as vocab-n2:correction:seihoukei. The gloss matches the taught sense(s).",
+        "contentHash": "85edef11c41ab6492b19e350f19c9a60730b585a88ebc5913c21f7301b175930",
+        "approvalHash": "85edef11c41ab6492b19e350f19c9a60730b585a88ebc5913c21f7301b175930"
+      }
+    },
+    {
+      "key": "正方形|せいほうけい",
+      "referenceIndex": 1,
+      "referenceHash": "7f3d1277049a2fa7bbf7bf9c30466ce3634bd5bab8960e867922462f458b21cc",
+      "revisionId": "034-candidate-seihoukei-b980845c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:seihoukei"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:seihoukei": "717210303489004affaf7cc68c63dd192daaf73b59363e2f50ca1ad00954cf85"
+      },
+      "reason": "Reference 正方形/せいほうけい (master N2) is the same lexeme as the new entry 正方形【せいほうけい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 正方形/せいほうけい at N2 (gloss: square; carré; (n) Quadrat)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1377920; spelling=正方形; reading=せいほうけい; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1377920 as the reference form.",
+          "selected": {
+            "sequence": "1377920",
+            "spelling": "正方形",
+            "reading": "せいほうけい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "square"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 正方形|せいほうけい#1 is the same lexeme as vocab-n2:correction:seihoukei; target hash bound to the assembled addition.",
+        "contentHash": "72d6078f699f5681b189d0190da77058c202ccc1bee8c707b8848329b9919b39",
+        "approvalHash": "72d6078f699f5681b189d0190da77058c202ccc1bee8c707b8848329b9919b39"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 正方形/せいほうけい is the same lexeme as vocab-n2:correction:seihoukei. The gloss matches the taught sense(s).",
+        "contentHash": "72d6078f699f5681b189d0190da77058c202ccc1bee8c707b8848329b9919b39",
+        "approvalHash": "72d6078f699f5681b189d0190da77058c202ccc1bee8c707b8848329b9919b39"
+      }
+    },
+    {
+      "key": "正門|せいもん",
+      "referenceIndex": 0,
+      "referenceHash": "15b11a3c08ea17936b2dcd7ab321d108f2dd6c58c9265f82b7e53fcdf24ba4f5",
+      "revisionId": "034-candidate-seimon-33bcdcdd-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:seimon"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:seimon": "69ed1b02f3dbdf397d9b48ce795d5bfda68ae08ae0d3d2be29a8ec6ae2f7d5a7"
+      },
+      "reason": "Reference 正門/せいもん (tanos N2) is the same lexeme as the new entry 正門【せいもん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=46",
+          "finding": "tanos lists 正門/せいもん at N2 (gloss: main gate,main entrance)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1378100; spelling=正門; reading=せいもん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1378100 as the reference form.",
+          "selected": {
+            "sequence": "1378100",
+            "spelling": "正門",
+            "reading": "せいもん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "main gate",
+                  "main entrance"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 正門|せいもん#0 is the same lexeme as vocab-n2:correction:seimon; target hash bound to the assembled addition.",
+        "contentHash": "f2acb01742c9bdd0799bfb5d21426c335094a0a4bfb10688c940caf8464a7234",
+        "approvalHash": "f2acb01742c9bdd0799bfb5d21426c335094a0a4bfb10688c940caf8464a7234"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 正門/せいもん is the same lexeme as vocab-n2:correction:seimon. The gloss matches the taught sense(s).",
+        "contentHash": "f2acb01742c9bdd0799bfb5d21426c335094a0a4bfb10688c940caf8464a7234",
+        "approvalHash": "f2acb01742c9bdd0799bfb5d21426c335094a0a4bfb10688c940caf8464a7234"
+      }
+    },
+    {
+      "key": "正門|せいもん",
+      "referenceIndex": 1,
+      "referenceHash": "ab99fac4ebd451dab6de97542b8c9b20a5de31f7fe6957a23edfcf23e924d15f",
+      "revisionId": "034-candidate-seimon-33bcdcdd-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:seimon"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:seimon": "69ed1b02f3dbdf397d9b48ce795d5bfda68ae08ae0d3d2be29a8ec6ae2f7d5a7"
+      },
+      "reason": "Reference 正門/せいもん (master N2) is the same lexeme as the new entry 正門【せいもん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 正門/せいもん at N2 (gloss: main gate; main entrance; porte principale)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1378100; spelling=正門; reading=せいもん; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1378100 as the reference form.",
+          "selected": {
+            "sequence": "1378100",
+            "spelling": "正門",
+            "reading": "せいもん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "main gate",
+                  "main entrance"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 正門|せいもん#1 is the same lexeme as vocab-n2:correction:seimon; target hash bound to the assembled addition.",
+        "contentHash": "3b4620ca220235e480f079938fcd5db2ee5f46ee7d70f645a5cb129167ae5106",
+        "approvalHash": "3b4620ca220235e480f079938fcd5db2ee5f46ee7d70f645a5cb129167ae5106"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 正門/せいもん is the same lexeme as vocab-n2:correction:seimon. The gloss matches the taught sense(s).",
+        "contentHash": "3b4620ca220235e480f079938fcd5db2ee5f46ee7d70f645a5cb129167ae5106",
+        "approvalHash": "3b4620ca220235e480f079938fcd5db2ee5f46ee7d70f645a5cb129167ae5106"
+      }
+    },
+    {
+      "key": "ぜひとも|ぜひとも",
+      "referenceIndex": 0,
+      "referenceHash": "b066111e1e4bf89fc058e8c6d6aa0ea65e7f1418f40cb3a09b9a36fb35845612",
+      "revisionId": "034-candidate-zehitomo-916024f2-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:zehitomo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:zehitomo": "d1dbcad09a69742d6d8f12a07493c73ea2968b05f4d63aa0e31aba8348ecba91"
+      },
+      "reason": "Reference ぜひとも/ぜひとも (tanos N2) is the same lexeme as the new entry ぜひとも【ぜひとも】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=47",
+          "finding": "tanos lists ぜひとも/ぜひとも at N2 (gloss: by all means (with sense of not taking no for an)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1610700; spelling=ぜひとも; reading=ぜひとも; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1610700 as the reference form.",
+          "selected": {
+            "sequence": "1610700",
+            "spelling": "ぜひとも",
+            "reading": "ぜひとも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "by all means",
+                  "at all costs",
+                  "absolutely"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference ぜひとも|ぜひとも#0 is the same lexeme as vocab-n2:correction:zehitomo; target hash bound to the assembled addition.",
+        "contentHash": "b54d0ca338614a9477ccf237d32b1828b5ea2f38d0cbd6bfcf4f321a241e58a0",
+        "approvalHash": "b54d0ca338614a9477ccf237d32b1828b5ea2f38d0cbd6bfcf4f321a241e58a0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row ぜひとも/ぜひとも is the same lexeme as vocab-n2:correction:zehitomo. The gloss matches the taught sense(s).",
+        "contentHash": "b54d0ca338614a9477ccf237d32b1828b5ea2f38d0cbd6bfcf4f321a241e58a0",
+        "approvalHash": "b54d0ca338614a9477ccf237d32b1828b5ea2f38d0cbd6bfcf4f321a241e58a0"
+      }
+    },
+    {
+      "key": "是非とも|ぜひとも",
+      "referenceIndex": 0,
+      "referenceHash": "40756f900882787f13e25894cb4a0c6ffa712e11a56b85dce015bf79b06ed21f",
+      "revisionId": "034-candidate-zehitomo-29149150-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:zehitomo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:zehitomo": "d1dbcad09a69742d6d8f12a07493c73ea2968b05f4d63aa0e31aba8348ecba91"
+      },
+      "reason": "Reference 是非とも/ぜひとも (tanos N1) is the same lexeme as the new entry ぜひとも【ぜひとも】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=92",
+          "finding": "tanos lists 是非とも/ぜひとも at N1 (gloss: by all means (with sense of not taking no for an)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1610700; spelling=ぜひとも; reading=ぜひとも; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1610700 as the reference form.",
+          "selected": {
+            "sequence": "1610700",
+            "spelling": "ぜひとも",
+            "reading": "ぜひとも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "by all means",
+                  "at all costs",
+                  "absolutely"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 是非とも|ぜひとも#0 is the same lexeme as vocab-n2:correction:zehitomo; target hash bound to the assembled addition.",
+        "contentHash": "834aa3122e103c04ef7efb184cd517332c2f451336e8ebe3fc7e6e04b9667dfa",
+        "approvalHash": "834aa3122e103c04ef7efb184cd517332c2f451336e8ebe3fc7e6e04b9667dfa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 是非とも/ぜひとも is the same lexeme as vocab-n2:correction:zehitomo. The gloss matches the taught sense(s).",
+        "contentHash": "834aa3122e103c04ef7efb184cd517332c2f451336e8ebe3fc7e6e04b9667dfa",
+        "approvalHash": "834aa3122e103c04ef7efb184cd517332c2f451336e8ebe3fc7e6e04b9667dfa"
+      }
+    },
+    {
+      "key": "是非とも|ぜひとも",
+      "referenceIndex": 1,
+      "referenceHash": "d1c8adf02231059af3e698e1971d8c076d4cc80c72e8c252cbdba52b181ee354",
+      "revisionId": "034-candidate-zehitomo-29149150-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:zehitomo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:zehitomo": "d1dbcad09a69742d6d8f12a07493c73ea2968b05f4d63aa0e31aba8348ecba91"
+      },
+      "reason": "Reference 是非とも/ぜひとも (master N2) is the same lexeme as the new entry ぜひとも【ぜひとも】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 是非とも/ぜひとも at N2 (gloss: by all means (with sense of not taking \"no\" for an answer); à tout prix/coûte que coûte; (n) auf jeden Fall)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1610700; spelling=ぜひとも; reading=ぜひとも; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1610700 as the reference form.",
+          "selected": {
+            "sequence": "1610700",
+            "spelling": "ぜひとも",
+            "reading": "ぜひとも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "by all means",
+                  "at all costs",
+                  "absolutely"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 是非とも|ぜひとも#1 is the same lexeme as vocab-n2:correction:zehitomo; target hash bound to the assembled addition.",
+        "contentHash": "7406f612faee83e803487be5eafa4fe2b0428f33216f634c6e8fbddd993668f4",
+        "approvalHash": "7406f612faee83e803487be5eafa4fe2b0428f33216f634c6e8fbddd993668f4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 是非とも/ぜひとも is the same lexeme as vocab-n2:correction:zehitomo. The gloss matches the taught sense(s).",
+        "contentHash": "7406f612faee83e803487be5eafa4fe2b0428f33216f634c6e8fbddd993668f4",
+        "approvalHash": "7406f612faee83e803487be5eafa4fe2b0428f33216f634c6e8fbddd993668f4"
+      }
+    },
+    {
+      "key": "ぜみ|ぜみ",
+      "referenceIndex": 0,
+      "referenceHash": "05866f9b5eb8af06de1bfa57a4a207cc01031f8b237518fbdc60b9238892ce42",
+      "revisionId": "034-candidate-zemi-f90b74e2-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:zemi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:zemi": "3d294f5193cd1f8e0b581e26a2ea7e4aa01f1077b0d3e42b74bcb21de9f941f2"
+      },
+      "reason": "Reference ゼミ/ゼミ (tanos N2) is the same lexeme as the new entry ゼミ【ゼミ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=47",
+          "finding": "tanos lists ゼミ/ゼミ at N2 (gloss: (n) seminar)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1075160; spelling=ゼミ; reading=ゼミ; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1075160 as the reference form.",
+          "selected": {
+            "sequence": "1075160",
+            "spelling": "ゼミ",
+            "reading": "ゼミ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "seminar"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference ぜみ|ぜみ#0 is the same lexeme as vocab-n2:correction:zemi; target hash bound to the assembled addition.",
+        "contentHash": "446166ba722ecc654efc2091bee212fd62ff596ea181e668518dbfff95f68601",
+        "approvalHash": "446166ba722ecc654efc2091bee212fd62ff596ea181e668518dbfff95f68601"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row ぜみ/ぜみ is the same lexeme as vocab-n2:correction:zemi. The gloss matches the taught sense(s).",
+        "contentHash": "446166ba722ecc654efc2091bee212fd62ff596ea181e668518dbfff95f68601",
+        "approvalHash": "446166ba722ecc654efc2091bee212fd62ff596ea181e668518dbfff95f68601"
+      }
+    },
+    {
+      "key": "ぜみ|ぜみ",
+      "referenceIndex": 1,
+      "referenceHash": "4600f3b7de5ab38bdfa8d09ddb10dbdc8d38fc36ea6d7b4e90c45eb25d4650b5",
+      "revisionId": "034-candidate-zemi-f90b74e2-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:zemi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:zemi": "3d294f5193cd1f8e0b581e26a2ea7e4aa01f1077b0d3e42b74bcb21de9f941f2"
+      },
+      "reason": "Reference ゼミ/ゼミ (master N2) is the same lexeme as the new entry ゼミ【ゼミ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ゼミ/ゼミ at N2 (gloss: seminar; (n) Seminar; Seminarübung (Abk.))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1075160; spelling=ゼミ; reading=ゼミ; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1075160 as the reference form.",
+          "selected": {
+            "sequence": "1075160",
+            "spelling": "ゼミ",
+            "reading": "ゼミ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "seminar"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference ぜみ|ぜみ#1 is the same lexeme as vocab-n2:correction:zemi; target hash bound to the assembled addition.",
+        "contentHash": "4f830646d9a3f4689f072671a46734b36e721742a0f6812783fd9dc79c36d6b0",
+        "approvalHash": "4f830646d9a3f4689f072671a46734b36e721742a0f6812783fd9dc79c36d6b0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row ぜみ/ぜみ is the same lexeme as vocab-n2:correction:zemi. The gloss matches the taught sense(s).",
+        "contentHash": "4f830646d9a3f4689f072671a46734b36e721742a0f6812783fd9dc79c36d6b0",
+        "approvalHash": "4f830646d9a3f4689f072671a46734b36e721742a0f6812783fd9dc79c36d6b0"
+      }
+    },
+    {
+      "key": "せめんと|せめんと",
+      "referenceIndex": 0,
+      "referenceHash": "043571f25ece48f5b90781f9400c05a30dd90d011db364edd832cb74ec902cb1",
+      "revisionId": "034-candidate-semento-3b50b309-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:semento"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:semento": "d64e546366a28a08247c8c50845450e5f03ddac4fcedf9c3858ff6fb66106322"
+      },
+      "reason": "Reference セメント/セメント (tanos N2) is the same lexeme as the new entry セメント【セメント】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=47",
+          "finding": "tanos lists セメント/セメント at N2 (gloss: cement)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1074740; spelling=セメント; reading=セメント; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1074740 as the reference form.",
+          "selected": {
+            "sequence": "1074740",
+            "spelling": "セメント",
+            "reading": "セメント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference せめんと|せめんと#0 is the same lexeme as vocab-n2:correction:semento; target hash bound to the assembled addition.",
+        "contentHash": "5c77c0499a697d002980c911756f66a5f81a64c354e357bb03638db0bba9bd7d",
+        "approvalHash": "5c77c0499a697d002980c911756f66a5f81a64c354e357bb03638db0bba9bd7d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row せめんと/せめんと is the same lexeme as vocab-n2:correction:semento. The gloss matches the taught sense(s).",
+        "contentHash": "5c77c0499a697d002980c911756f66a5f81a64c354e357bb03638db0bba9bd7d",
+        "approvalHash": "5c77c0499a697d002980c911756f66a5f81a64c354e357bb03638db0bba9bd7d"
+      }
+    },
+    {
+      "key": "せめんと|せめんと",
+      "referenceIndex": 1,
+      "referenceHash": "f153abbcc4734a97652461055dd479246c3e0c9b62874db7fd4579f7977d7489",
+      "revisionId": "034-candidate-semento-3b50b309-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:semento"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:semento": "d64e546366a28a08247c8c50845450e5f03ddac4fcedf9c3858ff6fb66106322"
+      },
+      "reason": "Reference セメント/セメント (master N2) is the same lexeme as the new entry セメント【セメント】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists セメント/セメント at N2 (gloss: cement; ciment; цеме́нт)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1074740; spelling=セメント; reading=セメント; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1074740 as the reference form.",
+          "selected": {
+            "sequence": "1074740",
+            "spelling": "セメント",
+            "reading": "セメント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference せめんと|せめんと#1 is the same lexeme as vocab-n2:correction:semento; target hash bound to the assembled addition.",
+        "contentHash": "7bb3a573978e8e9508ce5479046d0532389029a2e7f4db185ed2722ce2f0f559",
+        "approvalHash": "7bb3a573978e8e9508ce5479046d0532389029a2e7f4db185ed2722ce2f0f559"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row せめんと/せめんと is the same lexeme as vocab-n2:correction:semento. The gloss matches the taught sense(s).",
+        "contentHash": "7bb3a573978e8e9508ce5479046d0532389029a2e7f4db185ed2722ce2f0f559",
+        "approvalHash": "7bb3a573978e8e9508ce5479046d0532389029a2e7f4db185ed2722ce2f0f559"
+      }
+    },
+    {
+      "key": "栓|せん",
+      "referenceIndex": 0,
+      "referenceHash": "7b940c7727f139fed8c970a013506e6f5d4cc97ed8b3791ec6852233ee74bfc3",
+      "revisionId": "034-candidate-sen-stopper-7f3db012-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:sen-stopper"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sen-stopper": "98e7e3b42d638c0f9e3112cdc91fd482c4fb7c94b9cefcdc59c2124b91c1294b"
+      },
+      "reason": "Reference 栓/せん (tanos N2) is the same lexeme as the new entry 栓【せん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=47",
+          "finding": "tanos lists 栓/せん at N2 (gloss: stopper,cork,stopcock)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1956550; spelling=栓; reading=せん; senses=1,2; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1956550 as the reference form.",
+          "selected": {
+            "sequence": "1956550",
+            "spelling": "栓",
+            "reading": "せん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stopper",
+                  "cork",
+                  "plug",
+                  "bung"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tap",
+                  "faucet",
+                  "stopcock"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 栓|せん#0 is the same lexeme as vocab-n2:correction:sen-stopper; target hash bound to the assembled addition.",
+        "contentHash": "87803117e35522c4a842d561ff37ac18c4bca2393d3a0315204834ef99b6c883",
+        "approvalHash": "87803117e35522c4a842d561ff37ac18c4bca2393d3a0315204834ef99b6c883"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 栓/せん is the same lexeme as vocab-n2:correction:sen-stopper. The gloss matches the taught sense(s).",
+        "contentHash": "87803117e35522c4a842d561ff37ac18c4bca2393d3a0315204834ef99b6c883",
+        "approvalHash": "87803117e35522c4a842d561ff37ac18c4bca2393d3a0315204834ef99b6c883"
+      }
+    },
+    {
+      "key": "栓|せん",
+      "referenceIndex": 1,
+      "referenceHash": "f038f9b086422ce9f431f2ee893260bb2015676b193d0c44081a16eda3d5b212",
+      "revisionId": "034-candidate-sen-stopper-7f3db012-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:sen-stopper"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sen-stopper": "98e7e3b42d638c0f9e3112cdc91fd482c4fb7c94b9cefcdc59c2124b91c1294b"
+      },
+      "reason": "Reference 栓/せん (master N2) is the same lexeme as the new entry 栓【せん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 栓/せん at N2 (gloss: stopper; cork; stopcock)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1956550; spelling=栓; reading=せん; senses=1,2; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1956550 as the reference form.",
+          "selected": {
+            "sequence": "1956550",
+            "spelling": "栓",
+            "reading": "せん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stopper",
+                  "cork",
+                  "plug",
+                  "bung"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tap",
+                  "faucet",
+                  "stopcock"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 栓|せん#1 is the same lexeme as vocab-n2:correction:sen-stopper; target hash bound to the assembled addition.",
+        "contentHash": "d13e1e393573caa5fdb9265d278f95e5df91a054b220dd2a48d34f0d92665163",
+        "approvalHash": "d13e1e393573caa5fdb9265d278f95e5df91a054b220dd2a48d34f0d92665163"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 栓/せん is the same lexeme as vocab-n2:correction:sen-stopper. The gloss matches the taught sense(s).",
+        "contentHash": "d13e1e393573caa5fdb9265d278f95e5df91a054b220dd2a48d34f0d92665163",
+        "approvalHash": "d13e1e393573caa5fdb9265d278f95e5df91a054b220dd2a48d34f0d92665163"
+      }
+    },
+    {
+      "key": "前後|ぜんご",
+      "referenceIndex": 0,
+      "referenceHash": "843a772685749088a139c62747c828d33d204b97644bf32631abc79ae34317d8",
+      "revisionId": "034-candidate-zengo-316a7e9d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:zengo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:zengo": "70e95179421185c2ff970ec8fb22cddd3199d4ae8cf961304fca4ad9d33063af"
+      },
+      "reason": "Reference 前後/ぜんご (tanos N2) is the same lexeme as the new entry 前後【ぜんご】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=47",
+          "finding": "tanos lists 前後/ぜんご at N2 (gloss: around,throughout,front and back,before and)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1392910; spelling=前後; reading=ぜんご; senses=1,2,3; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1392910 as the reference form.",
+          "selected": {
+            "sequence": "1392910",
+            "spelling": "前後",
+            "reading": "ぜんご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "front and rear",
+                  "front and back",
+                  "before and behind",
+                  "back and forth"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "before and after"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun, used as a suffix",
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "around",
+                  "about",
+                  "approximately"
+                ],
+                "notes": [
+                  "after a quantity, age, time, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 前後|ぜんご#0 is the same lexeme as vocab-n2:correction:zengo; target hash bound to the assembled addition.",
+        "contentHash": "2fb3180f7cdb3419074f43dde10211d6c46a49e8aefcc0b1bcc5648b3790a213",
+        "approvalHash": "2fb3180f7cdb3419074f43dde10211d6c46a49e8aefcc0b1bcc5648b3790a213"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 前後/ぜんご is the same lexeme as vocab-n2:correction:zengo. The gloss matches the taught sense(s).",
+        "contentHash": "2fb3180f7cdb3419074f43dde10211d6c46a49e8aefcc0b1bcc5648b3790a213",
+        "approvalHash": "2fb3180f7cdb3419074f43dde10211d6c46a49e8aefcc0b1bcc5648b3790a213"
+      }
+    },
+    {
+      "key": "前後|ぜんご",
+      "referenceIndex": 1,
+      "referenceHash": "2dde9765b225e67426dd7a494610179a912267d1e7f2d68170143aa4ce1511c0",
+      "revisionId": "034-candidate-zengo-316a7e9d-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:zengo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:zengo": "70e95179421185c2ff970ec8fb22cddd3199d4ae8cf961304fca4ad9d33063af"
+      },
+      "reason": "Reference 前後/ぜんご (master N2) is the same lexeme as the new entry 前後【ぜんご】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 前後/ぜんご at N2 (gloss: front and rear; front and back; before and behind)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1392910; spelling=前後; reading=ぜんご; senses=1,2,3; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1392910 as the reference form.",
+          "selected": {
+            "sequence": "1392910",
+            "spelling": "前後",
+            "reading": "ぜんご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "front and rear",
+                  "front and back",
+                  "before and behind",
+                  "back and forth"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "before and after"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun, used as a suffix",
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "around",
+                  "about",
+                  "approximately"
+                ],
+                "notes": [
+                  "after a quantity, age, time, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 前後|ぜんご#1 is the same lexeme as vocab-n2:correction:zengo; target hash bound to the assembled addition.",
+        "contentHash": "765bd6bb1d32bfb0de4f35c1f6c5ecb685a464c513ab9772f0467b51ee1d129b",
+        "approvalHash": "765bd6bb1d32bfb0de4f35c1f6c5ecb685a464c513ab9772f0467b51ee1d129b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 前後/ぜんご is the same lexeme as vocab-n2:correction:zengo. The gloss matches the taught sense(s).",
+        "contentHash": "765bd6bb1d32bfb0de4f35c1f6c5ecb685a464c513ab9772f0467b51ee1d129b",
+        "approvalHash": "765bd6bb1d32bfb0de4f35c1f6c5ecb685a464c513ab9772f0467b51ee1d129b"
+      }
+    },
+    {
+      "key": "専制|せんせい",
+      "referenceIndex": 0,
+      "referenceHash": "097ef7a1ac10c0dcaef6e9a4815286cb57f2e41eecc9f0e7398fd343eaa1a144",
+      "revisionId": "034-candidate-sensei-despotism-f153ecfb-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:sensei-despotism"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sensei-despotism": "a91e66c358e0ea4fad2f5fa18eeabca556bfaf21a19c4cb34222857a63010494"
+      },
+      "reason": "Reference 専制/せんせい (tanos N2) is the same lexeme as the new entry 専制【せんせい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=47",
+          "finding": "tanos lists 専制/せんせい at N2 (gloss: despotism,autocracy)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1389810; spelling=専制; reading=せんせい; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1389810 as the reference form.",
+          "selected": {
+            "sequence": "1389810",
+            "spelling": "専制",
+            "reading": "せんせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "despotism",
+                  "autocracy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 専制|せんせい#0 is the same lexeme as vocab-n2:correction:sensei-despotism; target hash bound to the assembled addition.",
+        "contentHash": "c7154470b0b79665599d1cd61ccf70304df4ff343d1a1edf6aa5d4434e2fa6e4",
+        "approvalHash": "c7154470b0b79665599d1cd61ccf70304df4ff343d1a1edf6aa5d4434e2fa6e4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 専制/せんせい is the same lexeme as vocab-n2:correction:sensei-despotism. The gloss matches the taught sense(s).",
+        "contentHash": "c7154470b0b79665599d1cd61ccf70304df4ff343d1a1edf6aa5d4434e2fa6e4",
+        "approvalHash": "c7154470b0b79665599d1cd61ccf70304df4ff343d1a1edf6aa5d4434e2fa6e4"
+      }
+    },
+    {
+      "key": "専制|せんせい",
+      "referenceIndex": 1,
+      "referenceHash": "9c72796fe49065b9d633b0106780e10dc5f509776d810b9de58df032f3c39a1e",
+      "revisionId": "034-candidate-sensei-despotism-f153ecfb-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:sensei-despotism"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sensei-despotism": "a91e66c358e0ea4fad2f5fa18eeabca556bfaf21a19c4cb34222857a63010494"
+      },
+      "reason": "Reference 専制/せんせい (master N2) is the same lexeme as the new entry 専制【せんせい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 専制/せんせい at N2 (gloss: despotism; autocracy; autocratie)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1389810; spelling=専制; reading=せんせい; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1389810 as the reference form.",
+          "selected": {
+            "sequence": "1389810",
+            "spelling": "専制",
+            "reading": "せんせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "despotism",
+                  "autocracy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-editor",
+        "finding": "Editorial first pass: reference 専制|せんせい#1 is the same lexeme as vocab-n2:correction:sensei-despotism; target hash bound to the assembled addition.",
+        "contentHash": "a443a7eed9dbf625dccd22c28590d176af03634ce64d8ab65f3b1f6982088a92",
+        "approvalHash": "a443a7eed9dbf625dccd22c28590d176af03634ce64d8ab65f3b1f6982088a92"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-034-independent-reviewer",
+        "finding": "Unchanged decision since round 1. Publisher row 専制/せんせい is the same lexeme as vocab-n2:correction:sensei-despotism. The gloss matches the taught sense(s).",
+        "contentHash": "a443a7eed9dbf625dccd22c28590d176af03634ce64d8ab65f3b1f6982088a92",
+        "approvalHash": "a443a7eed9dbf625dccd22c28590d176af03634ce64d8ab65f3b1f6982088a92"
+      }
+    }
+  ]
+}

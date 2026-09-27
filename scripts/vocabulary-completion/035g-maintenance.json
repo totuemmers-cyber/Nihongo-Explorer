@@ -1,0 +1,3953 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:detarame",
+      "revisionId": "035-add-detarame",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "でたらめ",
+        "reading": "でたらめ",
+        "romaji": "detarame",
+        "meaning": "Unsinn; willkürlich, unzuverlässig",
+        "type": "Adjektiv",
+        "category": "Kommunikation",
+        "level": "N2",
+        "notes": "Nomen und な-Adjektiv: erfundenes Gerede (でたらめを言う) oder planlos (でたらめな計画). Kanji 出鱈目 sind Ateji.",
+        "examples": [
+          {
+            "japanese": "そんなでたらめを信じてはいけない。",
+            "romaji": "Sonna detarame o shinjite wa ikenai.",
+            "german": "Du darfst so einen Unsinn nicht glauben."
+          },
+          {
+            "japanese": "彼の説明はでたらめで、よく分からなかった。",
+            "romaji": "Kare no setsumei wa detarame de, yoku wakaranakatta.",
+            "german": "Seine Erklärung war wirr, ich habe sie kaum verstanden."
+          }
+        ],
+        "pitch": 0,
+        "aliases": [
+          "出鱈目"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182370097",
+            "patterns": [
+              0
+            ],
+            "finding": "でたらめ / デタラメ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 出鱈目; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "でたらめ",
+              "reading": "でたらめ",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "でたらめ as \"Unsinn; willkürlich, unzuverlässig\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add でたらめ【でたらめ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1339630; spelling=でたらめ; reading=でたらめ; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1339630 でたらめ/でたらめ sense(s) 1,2 support \"Unsinn; willkürlich, unzuverlässig\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1339630",
+            "spelling": "でたらめ",
+            "reading": "でたらめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "nonsense",
+                  "irresponsible remark",
+                  "codswallop",
+                  "hogwash",
+                  "rubbish"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "random",
+                  "haphazard",
+                  "unsystematic"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "でたらめ|でたらめ",
+          "referenceIndex": 0,
+          "referenceHash": "95698b5d29293ad8d730822fe312f57793c43ea78f421597f7f8d96ac01b4a89"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Unsinn; willkürlich, unzuverlässig\" matches JMdict 1339630 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Nonsense rumour.",
+          "Confused explanation."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1339630; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@182370097 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182370097",
+            "patterns": [
+              0
+            ],
+            "finding": "でたらめ / デタラメ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 出鱈目; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "でたらめ",
+              "reading": "でたらめ",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "でたらめ as \"Unsinn; willkürlich, unzuverlässig\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add でたらめ【でたらめ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1339630 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ade86a27c1a71387a5d35f1a4c94597c0ed368a60019d188e113ebbf759ef74f",
+        "approvalHash": "e1d03f6b1bc9ca62c162f0b47c58e7c5313730537c171fae31a371c341c6ed68"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Merge でたらめ/出鱈目 correct (UniDic lemma 出鱈目). Type Adjektiv with noun use explained.",
+        "contentHash": "ade86a27c1a71387a5d35f1a4c94597c0ed368a60019d188e113ebbf759ef74f",
+        "approvalHash": "e1d03f6b1bc9ca62c162f0b47c58e7c5313730537c171fae31a371c341c6ed68"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:tekkyou",
+      "revisionId": "035-add-tekkyou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "鉄橋",
+        "reading": "てっきょう",
+        "romaji": "tekkyou",
+        "meaning": "Eisenbahnbrücke, Eisenbrücke",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Brücke aus Eisen oder Stahl, besonders für Züge.",
+        "examples": [
+          {
+            "japanese": "電車が川の上の鉄橋を渡っている。",
+            "romaji": "Densha ga kawa no ue no tekkyou o watatte iru.",
+            "german": "Der Zug fährt über die Eisenbahnbrücke über dem Fluss."
+          },
+          {
+            "japanese": "この鉄橋は百年前に造られた。",
+            "romaji": "Kono tekkyou wa hyakunen mae ni tsukurareta.",
+            "german": "Diese Eisenbrücke wurde vor hundert Jahren gebaut."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180408746",
+            "patterns": [
+              0
+            ],
+            "finding": "鉄橋 / テッキョウ; 名詞/普通名詞/一般/*; *; *; lemma 鉄橋; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "鉄橋",
+              "reading": "てっきょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "鉄橋 as \"Eisenbahnbrücke, Eisenbrücke\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 鉄橋【てっきょう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1437820; spelling=鉄橋; reading=てっきょう; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1437820 鉄橋/てっきょう sense(s) 1 support \"Eisenbahnbrücke, Eisenbrücke\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1437820",
+            "spelling": "鉄橋",
+            "reading": "てっきょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "railway bridge",
+                  "iron bridge"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "鉄橋|てっきょう",
+          "referenceIndex": 0,
+          "referenceHash": "20606df157d8bad7d8b2287e1245f915e9f631ce48d17da0fd44c4363c6fee49"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Eisenbahnbrücke, Eisenbrücke\" matches JMdict 1437820 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Train crossing a river.",
+          "Historic bridge."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1437820; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@180408746 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180408746",
+            "patterns": [
+              0
+            ],
+            "finding": "鉄橋 / テッキョウ; 名詞/普通名詞/一般/*; *; *; lemma 鉄橋; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "鉄橋",
+              "reading": "てっきょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "鉄橋 as \"Eisenbahnbrücke, Eisenbrücke\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 鉄橋【てっきょう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1437820 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "197339ee04dabf03458f15792e589f8f85aefbe54753c9f2c71404e90dbd5b7e",
+        "approvalHash": "991c5c70db9d53baf7c605123038f8b2a783942da04b5a04acaef0e80a94b82b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "197339ee04dabf03458f15792e589f8f85aefbe54753c9f2c71404e90dbd5b7e",
+        "approvalHash": "991c5c70db9d53baf7c605123038f8b2a783942da04b5a04acaef0e80a94b82b"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:teppou",
+      "revisionId": "035-add-teppou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "鉄砲",
+        "reading": "てっぽう",
+        "romaji": "teppou",
+        "meaning": "Gewehr, Feuerwaffe",
+        "type": "Nomen",
+        "category": "Geschichte",
+        "level": "N2",
+        "notes": "Älteres Wort für Schusswaffen, besonders historische Luntenschlossgewehre; heute meist 銃.",
+        "examples": [
+          {
+            "japanese": "鉄砲は十六世紀に日本に伝わった。",
+            "romaji": "Teppou wa juurokuseiki ni Nihon ni tsutawatta.",
+            "german": "Feuerwaffen kamen im 16. Jahrhundert nach Japan."
+          },
+          {
+            "japanese": "昔の武士は刀だけでなく鉄砲も使った。",
+            "romaji": "Mukashi no bushi wa katana dake de naku teppou mo tsukatta.",
+            "german": "Die Samurai benutzten früher nicht nur Schwerter, sondern auch Feuerwaffen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180462636",
+            "patterns": [
+              0
+            ],
+            "finding": "鉄砲 / テッポウ; 名詞/普通名詞/一般/*; *; *; lemma 鉄砲; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "鉄砲",
+              "reading": "てっぽう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "鉄砲 as \"Gewehr, Feuerwaffe\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 鉄砲【てっぽう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1438010; spelling=鉄砲; reading=てっぽう; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1438010 鉄砲/てっぽう sense(s) 1 support \"Gewehr, Feuerwaffe\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1438010",
+            "spelling": "鉄砲",
+            "reading": "てっぽう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gun",
+                  "firearm"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "鉄砲|てっぽう",
+          "referenceIndex": 0,
+          "referenceHash": "0982a07f3b82778f98107c9a305c3f632fe69c8238133d822785bbd66da760bb"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Gewehr, Feuerwaffe\" matches JMdict 1438010 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "History.",
+          "Samurai weapons."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1438010; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@180462636 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180462636",
+            "patterns": [
+              0
+            ],
+            "finding": "鉄砲 / テッポウ; 名詞/普通名詞/一般/*; *; *; lemma 鉄砲; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "鉄砲",
+              "reading": "てっぽう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "鉄砲 as \"Gewehr, Feuerwaffe\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 鉄砲【てっぽう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1438010 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1df01be878bea2517ea090f99340d976ef6452186b448ed6056c26b3b55b5999",
+        "approvalHash": "51575edd1061b00055451ccdcd4c433536c7a261e2f59ca777b2b8a7b0d1e9a7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "1df01be878bea2517ea090f99340d976ef6452186b448ed6056c26b3b55b5999",
+        "approvalHash": "51575edd1061b00055451ccdcd4c433536c7a261e2f59ca777b2b8a7b0d1e9a7"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:tenisukooto",
+      "revisionId": "035-add-tenisukooto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "テニスコート",
+        "reading": "テニスコート",
+        "romaji": "tenisukooto",
+        "meaning": "Tennisplatz",
+        "type": "Nomen",
+        "category": "Sport",
+        "level": "N2",
+        "notes": "Platz zum Tennisspielen; eine Reservierung heißt コートを予約する.",
+        "examples": [
+          {
+            "japanese": "週末はテニスコートを予約してある。",
+            "romaji": "Shuumatsu wa tenisu kooto o yoyaku shite aru.",
+            "german": "Für das Wochenende habe ich einen Tennisplatz reserviert."
+          },
+          {
+            "japanese": "学校の裏にテニスコートが二面ある。",
+            "romaji": "Gakkou no ura ni tenisu kooto ga nimen aru.",
+            "german": "Hinter der Schule gibt es zwei Tennisplätze."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add テニスコート【テニスコート】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1080030; spelling=テニスコート; reading=テニスコート; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1080030 テニスコート/テニスコート sense(s) 1 support \"Tennisplatz\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1080030",
+            "spelling": "テニスコート",
+            "reading": "テニスコート",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tennis court"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "てにすこーと|てにすこーと",
+          "referenceIndex": 0,
+          "referenceHash": "1f8a18ed7c10e12d1019484b5689a973066068915319d5a6d7724b6fc36a44b7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Tennisplatz\" matches JMdict 1080030 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Court booking.",
+          "School facilities."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1080030; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for テニスコート / テニスコート; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup テニスコート / テニスコート",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add テニスコート【テニスコート】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1080030 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "3fe9ffb3d8ec828de3407f585fa7c7ee91de343f61d504bc315600e3cd93387c",
+        "approvalHash": "b48a5e4c58cf0edd6c1c495fcdc2dfd37a947f1d17bc653f52805d1972d413e3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Pitch unknown confirmed (no テニスコート row).",
+        "contentHash": "3fe9ffb3d8ec828de3407f585fa7c7ee91de343f61d504bc315600e3cd93387c",
+        "approvalHash": "b48a5e4c58cf0edd6c1c495fcdc2dfd37a947f1d17bc653f52805d1972d413e3"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:temae-front",
+      "revisionId": "035-add-temae-front",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "手前",
+        "reading": "てまえ",
+        "romaji": "temae",
+        "meaning": "diesseits, kurz vor; vor einem",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N2",
+        "notes": "Die Seite, die näher am Sprecher liegt: 駅の手前 (kurz vor dem Bahnhof). Die Grammatik 〜手前 („da man nun einmal …“) steht im Grammatikteil.",
+        "examples": [
+          {
+            "japanese": "郵便局は駅の手前にあります。",
+            "romaji": "Yuubinkyoku wa eki no temae ni arimasu.",
+            "german": "Die Post ist kurz vor dem Bahnhof."
+          },
+          {
+            "japanese": "手前の棚から順番に片付けてください。",
+            "romaji": "Temae no tana kara junban ni katazukete kudasai.",
+            "german": "Räumen Sie bitte der Reihe nach auf, beginnend mit dem vorderen Regal."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180809629",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "手前 / テマエ; 名詞/普通名詞/一般/*; *; *; lemma 手前; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "手前",
+              "reading": "てまえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "手前 as \"diesseits, kurz vor; vor einem\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 手前【てまえ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1328030; spelling=手前; reading=てまえ; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1328030 手前/てまえ sense(s) 1,2 support \"diesseits, kurz vor; vor einem\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1328030",
+            "spelling": "手前",
+            "reading": "てまえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "before oneself",
+                  "in front of one",
+                  "nearby"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "a bit before reaching (a location)",
+                  "this side (of a location)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "手前|てまえ",
+          "referenceIndex": 0,
+          "referenceHash": "5f34effe8f1c3b94f6f8e5fec7988a391c53aec36c2bf1e484cc0abdb8ce4414"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"diesseits, kurz vor; vor einem\" matches JMdict 1328030 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Directions.",
+          "Tidying from the front."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1328030; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@180809629 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180809629",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "手前 / テマエ; 名詞/普通名詞/一般/*; *; *; lemma 手前; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "手前",
+              "reading": "てまえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "手前 as \"diesseits, kurz vor; vor einem\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 手前【てまえ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1328030 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1b486dfd4673711ec85399d0d7183f9b9504c2e8953555aebccef04f7e40b475",
+        "approvalHash": "a0c14a37bf7c8b33f805f46f1ffd1354da8e99d613c1b77a13452124e6956aa1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Pitch pinned to noun row 手前 名詞/普通名詞 lemma 手前 aType 0,1 (not 代名詞 てまえ). 〜手前 grammar exists in grammar-n1.js.",
+        "contentHash": "1b486dfd4673711ec85399d0d7183f9b9504c2e8953555aebccef04f7e40b475",
+        "approvalHash": "a0c14a37bf7c8b33f805f46f1ffd1354da8e99d613c1b77a13452124e6956aa1"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:demukae",
+      "revisionId": "035-add-demukae",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "出迎え",
+        "reading": "でむかえ",
+        "romaji": "demukae",
+        "meaning": "Empfang, Abholen",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Jemanden bei der Ankunft abholen oder empfangen: 空港まで出迎えに行く. Verb: 出迎える.",
+        "examples": [
+          {
+            "japanese": "空港まで出迎えに行きます。",
+            "romaji": "Kuukou made demukae ni ikimasu.",
+            "german": "Ich hole dich am Flughafen ab."
+          },
+          {
+            "japanese": "駅で友達の出迎えを受けた。",
+            "romaji": "Eki de tomodachi no demukae o uketa.",
+            "german": "Am Bahnhof wurde ich von meinem Freund empfangen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182647824",
+            "patterns": [
+              0
+            ],
+            "finding": "出迎え / デムカエ; 名詞/普通名詞/サ変可能/*; *; *; lemma 出迎え; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "出迎え",
+              "reading": "でむかえ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "出迎え as \"Empfang, Abholen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 出迎え【でむかえ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1338710; spelling=出迎え; reading=でむかえ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1338710 出迎え/でむかえ sense(s) 1 support \"Empfang, Abholen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1338710",
+            "spelling": "出迎え",
+            "reading": "でむかえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(going out and) receiving (someone)",
+                  "(heading out and) meeting",
+                  "picking up",
+                  "welcoming"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "出迎え|でむかえ",
+          "referenceIndex": 0,
+          "referenceHash": "b191cd0bee5c152338f65d5629fd04234988f2154f6ada398a3f8ebe8ee72b53"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Empfang, Abholen\" matches JMdict 1338710 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Offering to pick someone up.",
+          "Being met at a station."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1338710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@182647824 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182647824",
+            "patterns": [
+              0
+            ],
+            "finding": "出迎え / デムカエ; 名詞/普通名詞/サ変可能/*; *; *; lemma 出迎え; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "出迎え",
+              "reading": "でむかえ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "出迎え as \"Empfang, Abholen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 出迎え【でむかえ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1338710 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7bf4066641df0481fe5b26f811b954b6602755827fc029344a64de438dbd3477",
+        "approvalHash": "39075b21fa1f60ac98d76932f5c03689c47cbeefac437dd96a128103f96bf5f1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "7bf4066641df0481fe5b26f811b954b6602755827fc029344a64de438dbd3477",
+        "approvalHash": "39075b21fa1f60ac98d76932f5c03689c47cbeefac437dd96a128103f96bf5f1"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:teru",
+      "revisionId": "035-add-teru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "照る",
+        "reading": "てる",
+        "romaji": "teru",
+        "meaning": "scheinen (Sonne)",
+        "type": "Verb",
+        "category": "Wetter",
+        "level": "N2",
+        "notes": "Intransitiv, besonders von Sonne und Mond: 日が照る. Transitiv: 照らす (beleuchten).",
+        "examples": [
+          {
+            "japanese": "朝から日が照って暑い。",
+            "romaji": "Asa kara hi ga tette atsui.",
+            "german": "Seit dem Morgen scheint die Sonne und es ist heiß."
+          },
+          {
+            "japanese": "雨の後、また太陽が照り始めた。",
+            "romaji": "Ame no ato, mata taiyou ga terihajimeta.",
+            "german": "Nach dem Regen fing die Sonne wieder an zu scheinen."
+          }
+        ],
+        "pitch": 1,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "てる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "てる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181189603",
+            "patterns": [
+              1
+            ],
+            "finding": "照る / テル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 照る; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "照る",
+              "reading": "てる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "照る as \"scheinen (Sonne)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 照る【てる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1350860; spelling=照る; reading=てる; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1350860 照る/てる sense(s) 1 support \"scheinen (Sonne)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1350860",
+            "spelling": "照る",
+            "reading": "てる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to shine"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "照る|てる",
+          "referenceIndex": 0,
+          "referenceHash": "22ca8a8239d7ea33baf607cbbc5fd45bcc2b11e12f2c1dc7d994903646ff163c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"scheinen (Sonne)\" matches JMdict 1350860 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Hot sunny day.",
+          "Sun after rain."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1350860; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading てる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@181189603 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181189603",
+            "patterns": [
+              1
+            ],
+            "finding": "照る / テル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 照る; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "照る",
+              "reading": "てる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "照る as \"scheinen (Sonne)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 照る【てる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1350860 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "6f931712b7247dfea6e1e8ccbcc90c5128592ec41360cad3137f2f369d470ffc",
+        "approvalHash": "1eeda40ec14e509e739a43238736d8d654b44d1053fce9c16fb19e2c05adcc65"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "6f931712b7247dfea6e1e8ccbcc90c5128592ec41360cad3137f2f369d470ffc",
+        "approvalHash": "1eeda40ec14e509e739a43238736d8d654b44d1053fce9c16fb19e2c05adcc65"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:tenten-dots",
+      "revisionId": "035-add-tenten-dots",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "点々",
+        "reading": "てんてん",
+        "romaji": "tenten",
+        "meaning": "hier und da, verstreut",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N2",
+        "notes": "Verstreut an mehreren Stellen: 家が点々とある. Auch „tropfenweise“.",
+        "examples": [
+          {
+            "japanese": "山の中に家が点々と見える。",
+            "romaji": "Yama no naka ni ie ga tenten to mieru.",
+            "german": "In den Bergen sieht man hier und da vereinzelte Häuser."
+          },
+          {
+            "japanese": "床に血が点々と落ちていた。",
+            "romaji": "Yuka ni chi ga tenten to ochite ita.",
+            "german": "Auf dem Boden waren vereinzelte Blutstropfen."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181483390",
+            "patterns": [
+              3
+            ],
+            "finding": "点々 / テンテン; 名詞/普通名詞/一般/*; *; *; lemma 点々; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "点々",
+              "reading": "てんてん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "点々 as \"hier und da, verstreut\"."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181484190",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "点々 / テンテン; 形状詞/タリ/*/*; *; *; lemma 点々; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "点々",
+              "reading": "てんてん",
+              "grammaticalForm": "形状詞/タリ/*/*; *; *",
+              "sense": "点々 as \"hier und da, verstreut\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 点々【てんてん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598460; spelling=点々; reading=てんてん; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1598460 点々/てんてん sense(s) 1 support \"hier und da, verstreut\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1598460",
+            "spelling": "点々",
+            "reading": "てんてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [],
+                "gloss": [
+                  "here and there",
+                  "little by little",
+                  "sporadically",
+                  "scattered in drops"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "点々|てんてん",
+          "referenceIndex": 0,
+          "referenceHash": "15d1de9ecf239c56ce7db1b5825092e03d48ee4f70d2f68395acc6fd6858cd86"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"hier und da, verstreut\" matches JMdict 1598460 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Scattered houses.",
+          "Drops on the floor."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1598460; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@181483390, sys.dic@181484190 attest 3,0; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181483390",
+            "patterns": [
+              3
+            ],
+            "finding": "点々 / テンテン; 名詞/普通名詞/一般/*; *; *; lemma 点々; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "点々",
+              "reading": "てんてん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "点々 as \"hier und da, verstreut\"."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181484190",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "点々 / テンテン; 形状詞/タリ/*/*; *; *; lemma 点々; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "点々",
+              "reading": "てんてん",
+              "grammaticalForm": "形状詞/タリ/*/*; *; *",
+              "sense": "点々 as \"hier und da, verstreut\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 点々【てんてん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1598460 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d5351eb0299539e37e187a0e98d2fbf182d35e2bea5d42767cdb27dff77ac125",
+        "approvalHash": "3619cb97d3f6fc36662bd1808fb8fbe68290aa43538887be8791c9f501d8c3c7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "d5351eb0299539e37e187a0e98d2fbf182d35e2bea5d42767cdb27dff77ac125",
+        "approvalHash": "3619cb97d3f6fc36662bd1808fb8fbe68290aa43538887be8791c9f501d8c3c7"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:tenpo",
+      "revisionId": "035-add-tenpo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "テンポ",
+        "reading": "テンポ",
+        "romaji": "tenpo",
+        "meaning": "Tempo",
+        "type": "Nomen",
+        "category": "Musik",
+        "level": "N2",
+        "notes": "Geschwindigkeit in Musik und übertragen im Gespräch oder in einer Geschichte: 話のテンポ.",
+        "examples": [
+          {
+            "japanese": "この曲はテンポが速い。",
+            "romaji": "Kono kyoku wa tenpo ga hayai.",
+            "german": "Dieses Stück hat ein schnelles Tempo."
+          },
+          {
+            "japanese": "この映画は話のテンポがいい。",
+            "romaji": "Kono eiga wa hanashi no tenpo ga ii.",
+            "german": "Die Handlung dieses Films hat ein gutes Tempo."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181546562",
+            "patterns": [
+              1
+            ],
+            "finding": "テンポ / テンポ; 名詞/普通名詞/一般/*; *; *; lemma テンポ-tempo; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "テンポ",
+              "reading": "テンポ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "テンポ as \"Tempo\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add テンポ【テンポ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1081120; spelling=テンポ; reading=テンポ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1081120 テンポ/テンポ sense(s) 1 support \"Tempo\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1081120",
+            "spelling": "テンポ",
+            "reading": "テンポ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tempo"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "てんぽ|てんぽ",
+          "referenceIndex": 0,
+          "referenceHash": "1ffb86d843ce104323e02b3cffe2ab2db6d36b4cd56ee66bf01aff5b0c1d4eb9"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Tempo\" matches JMdict 1081120 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Music.",
+          "Pacing of a film."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1081120; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@181546562 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181546562",
+            "patterns": [
+              1
+            ],
+            "finding": "テンポ / テンポ; 名詞/普通名詞/一般/*; *; *; lemma テンポ-tempo; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "テンポ",
+              "reading": "テンポ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "テンポ as \"Tempo\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add テンポ【テンポ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1081120 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "fec8ed461e22ce3026cfa86eb2be96c4fed6cc6213f8a41f14ba94bf661df646",
+        "approvalHash": "ae455197bbb0c194958ccddc89f6fcc28882c624ba333f5d2b5061e2c0321b7b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "fec8ed461e22ce3026cfa86eb2be96c4fed6cc6213f8a41f14ba94bf661df646",
+        "approvalHash": "ae455197bbb0c194958ccddc89f6fcc28882c624ba333f5d2b5061e2c0321b7b"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:denryuu",
+      "revisionId": "035-add-denryuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "電流",
+        "reading": "でんりゅう",
+        "romaji": "denryuu",
+        "meaning": "elektrischer Strom",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N2",
+        "notes": "Physikalisch: der fließende Strom (Stromstärke in アンペア); Spannung heißt 電圧.",
+        "examples": [
+          {
+            "japanese": "電流が強すぎると危ない。",
+            "romaji": "Denryuu ga tsuyosugiru to abunai.",
+            "german": "Wenn der Strom zu stark ist, wird es gefährlich."
+          },
+          {
+            "japanese": "この線に電流が流れている。",
+            "romaji": "Kono sen ni denryuu ga nagarete iru.",
+            "german": "Durch diese Leitung fließt Strom."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182947715",
+            "patterns": [
+              0
+            ],
+            "finding": "電流 / デンリュウ; 名詞/普通名詞/一般/*; *; *; lemma 電流; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "電流",
+              "reading": "でんりゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "電流 as \"elektrischer Strom\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 電流【でんりゅう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1443790; spelling=電流; reading=でんりゅう; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1443790 電流/でんりゅう sense(s) 1 support \"elektrischer Strom\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1443790",
+            "spelling": "電流",
+            "reading": "でんりゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "electric current"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "電流|でんりゅう",
+          "referenceIndex": 0,
+          "referenceHash": "daeb94eeda0ffb486b1836ea4ded333db530b65ab2806fb14f000746d6900949"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"elektrischer Strom\" matches JMdict 1443790 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Safety.",
+          "Live wire."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1443790; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@182947715 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182947715",
+            "patterns": [
+              0
+            ],
+            "finding": "電流 / デンリュウ; 名詞/普通名詞/一般/*; *; *; lemma 電流; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "電流",
+              "reading": "でんりゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "電流 as \"elektrischer Strom\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 電流【でんりゅう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1443790 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a5f52d55b6fd8c50dbf9cdcf33d5fd3c9947d1234c056d320293492dd989ecac",
+        "approvalHash": "931763d5027e71fbbfc16a93a0c849c508f4f1810a076bacb2ab501e7a701401"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "a5f52d55b6fd8c50dbf9cdcf33d5fd3c9947d1234c056d320293492dd989ecac",
+        "approvalHash": "931763d5027e71fbbfc16a93a0c849c508f4f1810a076bacb2ab501e7a701401"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:doukaku",
+      "revisionId": "035-add-doukaku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "同格",
+        "reading": "どうかく",
+        "romaji": "doukaku",
+        "meaning": "gleicher Rang; Apposition",
+        "type": "Nomen",
+        "category": "Sprache",
+        "level": "N2",
+        "notes": "Gleichrangig (同格に扱う) und in der Grammatik die Apposition.",
+        "examples": [
+          {
+            "japanese": "二人は会社の中で同格に扱われている。",
+            "romaji": "Futari wa kaisha no naka de doukaku ni atsukawarete iru.",
+            "german": "Die beiden werden in der Firma als gleichrangig behandelt."
+          },
+          {
+            "japanese": "この文の「の」は同格を表している。",
+            "romaji": "Kono bun no \"no\" wa doukaku o arawashite iru.",
+            "german": "Das „の“ in diesem Satz drückt eine Apposition aus."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192328643",
+            "patterns": [
+              0
+            ],
+            "finding": "同格 / ドウカク; 名詞/普通名詞/形状詞可能/*; *; *; lemma 同格; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "同格",
+              "reading": "どうかく",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "同格 as \"gleicher Rang; Apposition\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 同格【どうかく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1452000; spelling=同格; reading=どうかく; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1452000 同格/どうかく sense(s) 1,2 support \"gleicher Rang; Apposition\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1452000",
+            "spelling": "同格",
+            "reading": "どうかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "the same rank",
+                  "equality"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "apposition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "同格|どうかく",
+          "referenceIndex": 0,
+          "referenceHash": "b9de52f5ee401d708c2390d09c440d73e9c62beac570672300377dbc75cd7fa4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"gleicher Rang; Apposition\" matches JMdict 1452000 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Equal status.",
+          "Grammar term."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1452000; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@192328643 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192328643",
+            "patterns": [
+              0
+            ],
+            "finding": "同格 / ドウカク; 名詞/普通名詞/形状詞可能/*; *; *; lemma 同格; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "同格",
+              "reading": "どうかく",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "同格 as \"gleicher Rang; Apposition\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 同格【どうかく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1452000 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "20eec6223cf6725a0ad6f4c6c370a2fc82f2cf3ef60d5ffdc14b584fb49d938f",
+        "approvalHash": "ed5f65fcca537ab96caa1a05ae1a9f5865231341cd57a53f4876fec48ef43504"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "20eec6223cf6725a0ad6f4c6c370a2fc82f2cf3ef60d5ffdc14b584fb49d938f",
+        "approvalHash": "ed5f65fcca537ab96caa1a05ae1a9f5865231341cd57a53f4876fec48ef43504"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:dousa",
+      "revisionId": "035-add-dousa",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "動作",
+        "reading": "どうさ",
+        "romaji": "dousa",
+        "meaning": "Bewegung, Handgriff; Funktionieren (eines Geräts)",
+        "type": "Nomen",
+        "category": "Bewegung",
+        "level": "N2",
+        "notes": "Körperbewegung (ゆっくりした動作) und das Arbeiten von Geräten (パソコンの動作が遅い).",
+        "examples": [
+          {
+            "japanese": "祖父は動作がゆっくりになった。",
+            "romaji": "Sofu wa dousa ga yukkuri ni natta.",
+            "german": "Mein Großvater bewegt sich inzwischen langsam."
+          },
+          {
+            "japanese": "このパソコンは動作が遅い。",
+            "romaji": "Kono pasokon wa dousa ga osoi.",
+            "german": "Dieser Computer läuft langsam."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192382676",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "動作 / ドウサ; 名詞/普通名詞/サ変可能/*; *; *; lemma 動作; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "動作",
+              "reading": "どうさ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "動作 as \"Bewegung, Handgriff; Funktionieren (eines Geräts)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 035); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 動作【どうさ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1451350; spelling=動作; reading=どうさ; senses=1,3; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1451350 動作/どうさ sense(s) 1,3 support \"Bewegung, Handgriff; Funktionieren (eines Geräts)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1451350",
+            "spelling": "動作",
+            "reading": "どうさ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "movement (of the body)",
+                  "action",
+                  "motion",
+                  "gesture"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "operation (of a machine, software, etc.)",
+                  "running",
+                  "working",
+                  "functioning"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "動作|どうさ",
+          "referenceIndex": 0,
+          "referenceHash": "4f37fbcc8f755e2cdb5a8e6f7ef124c4f88f2f87c5fec2f5f3064c1e180d0e82"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-035-editor",
+        "meaning": "\"Bewegung, Handgriff; Funktionieren (eines Geräts)\" matches JMdict 1451350 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Slow movements.",
+          "Slow computer."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1451350; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@192382676 attest 1,0; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192382676",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "動作 / ドウサ; 名詞/普通名詞/サ変可能/*; *; *; lemma 動作; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "動作",
+              "reading": "どうさ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "動作 as \"Bewegung, Handgriff; Funktionieren (eines Geräts)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: Add 動作【どうさ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1451350 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "222e1c4af4194ce2d047ddaf6770a39e19dfbf005db1ad9895b12e34bf1d703a",
+        "approvalHash": "ed4214744c26ef3cd4c0398826ff75d6e5ec1321c6d3688e234f20f5264454ba"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Examples natural and use the headword in the taught sense in two contexts; romaji, German meaning/notes/translations, JMdict senses, type, level and pitch (exact UniDic row) checked; no duplicate.",
+        "contentHash": "222e1c4af4194ce2d047ddaf6770a39e19dfbf005db1ad9895b12e34bf1d703a",
+        "approvalHash": "ed4214744c26ef3cd4c0398826ff75d6e5ec1321c6d3688e234f20f5264454ba"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "でたらめ|でたらめ",
+      "referenceIndex": 0,
+      "referenceHash": "95698b5d29293ad8d730822fe312f57793c43ea78f421597f7f8d96ac01b4a89",
+      "revisionId": "035-candidate-detarame-c81c43e0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:detarame"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:detarame": "ade86a27c1a71387a5d35f1a4c94597c0ed368a60019d188e113ebbf759ef74f"
+      },
+      "reason": "Reference でたらめ/でたらめ (tanos N2) is the same lexeme as the new entry でたらめ【でたらめ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=59",
+          "finding": "tanos lists でたらめ/でたらめ at N2 (gloss: (1) irresponsible utterance,nonsense,nonsensical,(2))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1339630; spelling=でたらめ; reading=でたらめ; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1339630 as the reference form.",
+          "selected": {
+            "sequence": "1339630",
+            "spelling": "でたらめ",
+            "reading": "でたらめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "nonsense",
+                  "irresponsible remark",
+                  "codswallop",
+                  "hogwash",
+                  "rubbish"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "random",
+                  "haphazard",
+                  "unsystematic"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference でたらめ|でたらめ#0 is the same lexeme as vocab-n2:correction:detarame; target hash bound to the assembled addition.",
+        "contentHash": "f97917354cb2714238572fb2b657ff5436fa5a1717d982fda18e1df0e5ea55ac",
+        "approvalHash": "f97917354cb2714238572fb2b657ff5436fa5a1717d982fda18e1df0e5ea55ac"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row でたらめ/でたらめ is the same lexeme as vocab-n2:correction:detarame.",
+        "contentHash": "f97917354cb2714238572fb2b657ff5436fa5a1717d982fda18e1df0e5ea55ac",
+        "approvalHash": "f97917354cb2714238572fb2b657ff5436fa5a1717d982fda18e1df0e5ea55ac"
+      }
+    },
+    {
+      "key": "出鱈目|でたらめ",
+      "referenceIndex": 0,
+      "referenceHash": "9f70c0ecb7c088f0549d16f3367ad63f44066bf68035be5564e661d3901651fd",
+      "revisionId": "035-candidate-detarame-dadf2579-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:detarame"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:detarame": "ade86a27c1a71387a5d35f1a4c94597c0ed368a60019d188e113ebbf759ef74f"
+      },
+      "reason": "Reference 出鱈目/でたらめ (tanos N1) is the same lexeme as the new entry でたらめ【でたらめ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=114",
+          "finding": "tanos lists 出鱈目/でたらめ at N1 (gloss: irresponsible utterance, nonsense,)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1339630; spelling=でたらめ; reading=でたらめ; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1339630 as the reference form.",
+          "selected": {
+            "sequence": "1339630",
+            "spelling": "でたらめ",
+            "reading": "でたらめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "nonsense",
+                  "irresponsible remark",
+                  "codswallop",
+                  "hogwash",
+                  "rubbish"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "random",
+                  "haphazard",
+                  "unsystematic"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 出鱈目|でたらめ#0 is the same lexeme as vocab-n2:correction:detarame; target hash bound to the assembled addition.",
+        "contentHash": "34bc5f8a0d0a4a61583e07bc37167c55547e316d9d9e723129919b337218236b",
+        "approvalHash": "34bc5f8a0d0a4a61583e07bc37167c55547e316d9d9e723129919b337218236b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 出鱈目/でたらめ is the same lexeme as vocab-n2:correction:detarame.",
+        "contentHash": "34bc5f8a0d0a4a61583e07bc37167c55547e316d9d9e723129919b337218236b",
+        "approvalHash": "34bc5f8a0d0a4a61583e07bc37167c55547e316d9d9e723129919b337218236b"
+      }
+    },
+    {
+      "key": "出鱈目|でたらめ",
+      "referenceIndex": 1,
+      "referenceHash": "495b4061732e57db0ce5b92e014367810a7d36d142a5f799ee90d798ceaebc96",
+      "revisionId": "035-candidate-detarame-dadf2579-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:detarame"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:detarame": "ade86a27c1a71387a5d35f1a4c94597c0ed368a60019d188e113ebbf759ef74f"
+      },
+      "reason": "Reference 出鱈目/でたらめ (master N2) is the same lexeme as the new entry でたらめ【でたらめ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 出鱈目/でたらめ at N2 (gloss: irresponsible utterance; nonsense; bullshit)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1339630; spelling=でたらめ; reading=でたらめ; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1339630 as the reference form.",
+          "selected": {
+            "sequence": "1339630",
+            "spelling": "でたらめ",
+            "reading": "でたらめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "nonsense",
+                  "irresponsible remark",
+                  "codswallop",
+                  "hogwash",
+                  "rubbish"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "random",
+                  "haphazard",
+                  "unsystematic"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 出鱈目|でたらめ#1 is the same lexeme as vocab-n2:correction:detarame; target hash bound to the assembled addition.",
+        "contentHash": "d1022bb73c02dd519632e28eb4c7b1550e2a63f6f92702dbc7fea20d6f9beb42",
+        "approvalHash": "d1022bb73c02dd519632e28eb4c7b1550e2a63f6f92702dbc7fea20d6f9beb42"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 出鱈目/でたらめ is the same lexeme as vocab-n2:correction:detarame.",
+        "contentHash": "d1022bb73c02dd519632e28eb4c7b1550e2a63f6f92702dbc7fea20d6f9beb42",
+        "approvalHash": "d1022bb73c02dd519632e28eb4c7b1550e2a63f6f92702dbc7fea20d6f9beb42"
+      }
+    },
+    {
+      "key": "鉄橋|てっきょう",
+      "referenceIndex": 0,
+      "referenceHash": "20606df157d8bad7d8b2287e1245f915e9f631ce48d17da0fd44c4363c6fee49",
+      "revisionId": "035-candidate-tekkyou-8aca6606-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tekkyou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tekkyou": "197339ee04dabf03458f15792e589f8f85aefbe54753c9f2c71404e90dbd5b7e"
+      },
+      "reason": "Reference 鉄橋/てっきょう (tanos N2) is the same lexeme as the new entry 鉄橋【てっきょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=59",
+          "finding": "tanos lists 鉄橋/てっきょう at N2 (gloss: railway bridge,iron bridge)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1437820; spelling=鉄橋; reading=てっきょう; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1437820 as the reference form.",
+          "selected": {
+            "sequence": "1437820",
+            "spelling": "鉄橋",
+            "reading": "てっきょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "railway bridge",
+                  "iron bridge"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 鉄橋|てっきょう#0 is the same lexeme as vocab-n2:correction:tekkyou; target hash bound to the assembled addition.",
+        "contentHash": "f5190ea02e56dfbd90e841aa2fbd9a56476373272a31c621f3b6a2b040b5cef9",
+        "approvalHash": "f5190ea02e56dfbd90e841aa2fbd9a56476373272a31c621f3b6a2b040b5cef9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 鉄橋/てっきょう is the same lexeme as vocab-n2:correction:tekkyou.",
+        "contentHash": "f5190ea02e56dfbd90e841aa2fbd9a56476373272a31c621f3b6a2b040b5cef9",
+        "approvalHash": "f5190ea02e56dfbd90e841aa2fbd9a56476373272a31c621f3b6a2b040b5cef9"
+      }
+    },
+    {
+      "key": "鉄橋|てっきょう",
+      "referenceIndex": 1,
+      "referenceHash": "002b2649e4689b3374cf7dbb78da1bfdc586d66614b2b003833d824876a64a20",
+      "revisionId": "035-candidate-tekkyou-8aca6606-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tekkyou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tekkyou": "197339ee04dabf03458f15792e589f8f85aefbe54753c9f2c71404e90dbd5b7e"
+      },
+      "reason": "Reference 鉄橋/てっきょう (master N2) is the same lexeme as the new entry 鉄橋【てっきょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 鉄橋/てっきょう at N2 (gloss: railway bridge; iron bridge; pont de fer)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1437820; spelling=鉄橋; reading=てっきょう; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1437820 as the reference form.",
+          "selected": {
+            "sequence": "1437820",
+            "spelling": "鉄橋",
+            "reading": "てっきょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "railway bridge",
+                  "iron bridge"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 鉄橋|てっきょう#1 is the same lexeme as vocab-n2:correction:tekkyou; target hash bound to the assembled addition.",
+        "contentHash": "392bf8fb0e52a240b5ebd7c992c4e53720dd7a86c14b9f44e85a2ca3d42411e6",
+        "approvalHash": "392bf8fb0e52a240b5ebd7c992c4e53720dd7a86c14b9f44e85a2ca3d42411e6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 鉄橋/てっきょう is the same lexeme as vocab-n2:correction:tekkyou.",
+        "contentHash": "392bf8fb0e52a240b5ebd7c992c4e53720dd7a86c14b9f44e85a2ca3d42411e6",
+        "approvalHash": "392bf8fb0e52a240b5ebd7c992c4e53720dd7a86c14b9f44e85a2ca3d42411e6"
+      }
+    },
+    {
+      "key": "鉄砲|てっぽう",
+      "referenceIndex": 0,
+      "referenceHash": "0982a07f3b82778f98107c9a305c3f632fe69c8238133d822785bbd66da760bb",
+      "revisionId": "035-candidate-teppou-51496431-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:teppou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:teppou": "1df01be878bea2517ea090f99340d976ef6452186b448ed6056c26b3b55b5999"
+      },
+      "reason": "Reference 鉄砲/てっぽう (tanos N2) is the same lexeme as the new entry 鉄砲【てっぽう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=59",
+          "finding": "tanos lists 鉄砲/てっぽう at N2 (gloss: gun)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1438010; spelling=鉄砲; reading=てっぽう; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1438010 as the reference form.",
+          "selected": {
+            "sequence": "1438010",
+            "spelling": "鉄砲",
+            "reading": "てっぽう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gun",
+                  "firearm"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 鉄砲|てっぽう#0 is the same lexeme as vocab-n2:correction:teppou; target hash bound to the assembled addition.",
+        "contentHash": "66f6270553ef0883ba1675c573e5878f3a34c6b25ce874077f4be9b48c2b243b",
+        "approvalHash": "66f6270553ef0883ba1675c573e5878f3a34c6b25ce874077f4be9b48c2b243b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 鉄砲/てっぽう is the same lexeme as vocab-n2:correction:teppou.",
+        "contentHash": "66f6270553ef0883ba1675c573e5878f3a34c6b25ce874077f4be9b48c2b243b",
+        "approvalHash": "66f6270553ef0883ba1675c573e5878f3a34c6b25ce874077f4be9b48c2b243b"
+      }
+    },
+    {
+      "key": "鉄砲|てっぽう",
+      "referenceIndex": 1,
+      "referenceHash": "03b887c6f1c598b9b2143e247d5f70f4981970dec88d0527ce69fce68db59c7b",
+      "revisionId": "035-candidate-teppou-51496431-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:teppou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:teppou": "1df01be878bea2517ea090f99340d976ef6452186b448ed6056c26b3b55b5999"
+      },
+      "reason": "Reference 鉄砲/てっぽう (master N2) is the same lexeme as the new entry 鉄砲【てっぽう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 鉄砲/てっぽう at N2 (gloss: gun; fusil)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1438010; spelling=鉄砲; reading=てっぽう; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1438010 as the reference form.",
+          "selected": {
+            "sequence": "1438010",
+            "spelling": "鉄砲",
+            "reading": "てっぽう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gun",
+                  "firearm"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 鉄砲|てっぽう#1 is the same lexeme as vocab-n2:correction:teppou; target hash bound to the assembled addition.",
+        "contentHash": "39fd4b0e6c5b03c67d7317b0027d8b82630f597a15fb5de3dca5ce7a16ffee44",
+        "approvalHash": "39fd4b0e6c5b03c67d7317b0027d8b82630f597a15fb5de3dca5ce7a16ffee44"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 鉄砲/てっぽう is the same lexeme as vocab-n2:correction:teppou.",
+        "contentHash": "39fd4b0e6c5b03c67d7317b0027d8b82630f597a15fb5de3dca5ce7a16ffee44",
+        "approvalHash": "39fd4b0e6c5b03c67d7317b0027d8b82630f597a15fb5de3dca5ce7a16ffee44"
+      }
+    },
+    {
+      "key": "てにすこーと|てにすこーと",
+      "referenceIndex": 0,
+      "referenceHash": "1f8a18ed7c10e12d1019484b5689a973066068915319d5a6d7724b6fc36a44b7",
+      "revisionId": "035-candidate-tenisukooto-1b385758-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tenisukooto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tenisukooto": "3fe9ffb3d8ec828de3407f585fa7c7ee91de343f61d504bc315600e3cd93387c"
+      },
+      "reason": "Reference テニスコート/テニスコート (tanos N2) is the same lexeme as the new entry テニスコート【テニスコート】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=60",
+          "finding": "tanos lists テニスコート/テニスコート at N2 (gloss: tennis court)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1080030; spelling=テニスコート; reading=テニスコート; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1080030 as the reference form.",
+          "selected": {
+            "sequence": "1080030",
+            "spelling": "テニスコート",
+            "reading": "テニスコート",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tennis court"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference てにすこーと|てにすこーと#0 is the same lexeme as vocab-n2:correction:tenisukooto; target hash bound to the assembled addition.",
+        "contentHash": "487f0dcb1e063716f05656a3ac28bf0692896cadfa987156ea354911ecb0a66b",
+        "approvalHash": "487f0dcb1e063716f05656a3ac28bf0692896cadfa987156ea354911ecb0a66b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row テニスコート/テニスコート is the same lexeme as vocab-n2:correction:tenisukooto.",
+        "contentHash": "487f0dcb1e063716f05656a3ac28bf0692896cadfa987156ea354911ecb0a66b",
+        "approvalHash": "487f0dcb1e063716f05656a3ac28bf0692896cadfa987156ea354911ecb0a66b"
+      }
+    },
+    {
+      "key": "てにすこーと|てにすこーと",
+      "referenceIndex": 1,
+      "referenceHash": "726dfe2d2c4e1afba3ce901c11f18ada79ad59455bb69793fe251f38dcfa7c94",
+      "revisionId": "035-candidate-tenisukooto-1b385758-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tenisukooto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tenisukooto": "3fe9ffb3d8ec828de3407f585fa7c7ee91de343f61d504bc315600e3cd93387c"
+      },
+      "reason": "Reference テニスコート/テニスコート (master N2) is the same lexeme as the new entry テニスコート【テニスコート】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists テニスコート/テニスコート at N2 (gloss: tennis court; (n) Tennisplatz)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1080030; spelling=テニスコート; reading=テニスコート; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1080030 as the reference form.",
+          "selected": {
+            "sequence": "1080030",
+            "spelling": "テニスコート",
+            "reading": "テニスコート",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tennis court"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference てにすこーと|てにすこーと#1 is the same lexeme as vocab-n2:correction:tenisukooto; target hash bound to the assembled addition.",
+        "contentHash": "7579fa745499f95489eb76f5aa294a54b26d9e22b34dd784c078c08f9552d58a",
+        "approvalHash": "7579fa745499f95489eb76f5aa294a54b26d9e22b34dd784c078c08f9552d58a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row テニスコート/テニスコート is the same lexeme as vocab-n2:correction:tenisukooto.",
+        "contentHash": "7579fa745499f95489eb76f5aa294a54b26d9e22b34dd784c078c08f9552d58a",
+        "approvalHash": "7579fa745499f95489eb76f5aa294a54b26d9e22b34dd784c078c08f9552d58a"
+      }
+    },
+    {
+      "key": "手前|てまえ",
+      "referenceIndex": 0,
+      "referenceHash": "5f34effe8f1c3b94f6f8e5fec7988a391c53aec36c2bf1e484cc0abdb8ce4414",
+      "revisionId": "035-candidate-temae-front-955716f7-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:temae-front"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:temae-front": "1b486dfd4673711ec85399d0d7183f9b9504c2e8953555aebccef04f7e40b475"
+      },
+      "reason": "Reference 手前/てまえ (tanos N2) is the same lexeme as the new entry 手前【てまえ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=60",
+          "finding": "tanos lists 手前/てまえ at N2 (gloss: before,this side,we,you)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1328030; spelling=手前; reading=てまえ; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1328030 as the reference form.",
+          "selected": {
+            "sequence": "1328030",
+            "spelling": "手前",
+            "reading": "てまえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "before oneself",
+                  "in front of one",
+                  "nearby"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "a bit before reaching (a location)",
+                  "this side (of a location)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 手前|てまえ#0 is the same lexeme as vocab-n2:correction:temae-front; target hash bound to the assembled addition.",
+        "contentHash": "8d6f4cde4beb510204e3382d0b497578457b669fe29e31e32c855e815e01ac5b",
+        "approvalHash": "8d6f4cde4beb510204e3382d0b497578457b669fe29e31e32c855e815e01ac5b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 手前/てまえ is the same lexeme as vocab-n2:correction:temae-front.",
+        "contentHash": "8d6f4cde4beb510204e3382d0b497578457b669fe29e31e32c855e815e01ac5b",
+        "approvalHash": "8d6f4cde4beb510204e3382d0b497578457b669fe29e31e32c855e815e01ac5b"
+      }
+    },
+    {
+      "key": "手前|てまえ",
+      "referenceIndex": 1,
+      "referenceHash": "d3d1ec5c19f2c4c11d924b2992166c667e7ba911d032f39488d0a47f06d2a7bc",
+      "revisionId": "035-candidate-temae-front-955716f7-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:temae-front"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:temae-front": "1b486dfd4673711ec85399d0d7183f9b9504c2e8953555aebccef04f7e40b475"
+      },
+      "reason": "Reference 手前/てまえ (master N2) is the same lexeme as the new entry 手前【てまえ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 手前/てまえ at N2 (gloss: before; this side; avant)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1328030; spelling=手前; reading=てまえ; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1328030 as the reference form.",
+          "selected": {
+            "sequence": "1328030",
+            "spelling": "手前",
+            "reading": "てまえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "before oneself",
+                  "in front of one",
+                  "nearby"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "a bit before reaching (a location)",
+                  "this side (of a location)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 手前|てまえ#1 is the same lexeme as vocab-n2:correction:temae-front; target hash bound to the assembled addition.",
+        "contentHash": "7568ec86708c00dace119dbb2cf5a7a20ac0692d359d850047fd60062e8a02ab",
+        "approvalHash": "7568ec86708c00dace119dbb2cf5a7a20ac0692d359d850047fd60062e8a02ab"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 手前/てまえ is the same lexeme as vocab-n2:correction:temae-front.",
+        "contentHash": "7568ec86708c00dace119dbb2cf5a7a20ac0692d359d850047fd60062e8a02ab",
+        "approvalHash": "7568ec86708c00dace119dbb2cf5a7a20ac0692d359d850047fd60062e8a02ab"
+      }
+    },
+    {
+      "key": "出迎え|でむかえ",
+      "referenceIndex": 0,
+      "referenceHash": "b191cd0bee5c152338f65d5629fd04234988f2154f6ada398a3f8ebe8ee72b53",
+      "revisionId": "035-candidate-demukae-d44272bd-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:demukae"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:demukae": "7bf4066641df0481fe5b26f811b954b6602755827fc029344a64de438dbd3477"
+      },
+      "reason": "Reference 出迎え/でむかえ (tanos N2) is the same lexeme as the new entry 出迎え【でむかえ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=60",
+          "finding": "tanos lists 出迎え/でむかえ at N2 (gloss: meeting,reception)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1338710; spelling=出迎え; reading=でむかえ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1338710 as the reference form.",
+          "selected": {
+            "sequence": "1338710",
+            "spelling": "出迎え",
+            "reading": "でむかえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(going out and) receiving (someone)",
+                  "(heading out and) meeting",
+                  "picking up",
+                  "welcoming"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 出迎え|でむかえ#0 is the same lexeme as vocab-n2:correction:demukae; target hash bound to the assembled addition.",
+        "contentHash": "e51a72ce409070862c9aeece286bd8e678da75b29d4f06cf84b2ffa054e82c15",
+        "approvalHash": "e51a72ce409070862c9aeece286bd8e678da75b29d4f06cf84b2ffa054e82c15"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 出迎え/でむかえ is the same lexeme as vocab-n2:correction:demukae.",
+        "contentHash": "e51a72ce409070862c9aeece286bd8e678da75b29d4f06cf84b2ffa054e82c15",
+        "approvalHash": "e51a72ce409070862c9aeece286bd8e678da75b29d4f06cf84b2ffa054e82c15"
+      }
+    },
+    {
+      "key": "出迎え|でむかえ",
+      "referenceIndex": 1,
+      "referenceHash": "7b257133788134ba25c0893d66203a6d703810cf85e2190081014b80f8d18a83",
+      "revisionId": "035-candidate-demukae-d44272bd-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:demukae"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:demukae": "7bf4066641df0481fe5b26f811b954b6602755827fc029344a64de438dbd3477"
+      },
+      "reason": "Reference 出迎え/でむかえ (master N2) is the same lexeme as the new entry 出迎え【でむかえ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 出迎え/でむかえ at N2 (gloss: meeting; reception; accueil)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1338710; spelling=出迎え; reading=でむかえ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1338710 as the reference form.",
+          "selected": {
+            "sequence": "1338710",
+            "spelling": "出迎え",
+            "reading": "でむかえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(going out and) receiving (someone)",
+                  "(heading out and) meeting",
+                  "picking up",
+                  "welcoming"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 出迎え|でむかえ#1 is the same lexeme as vocab-n2:correction:demukae; target hash bound to the assembled addition.",
+        "contentHash": "1dc0716f1f689eca065bc832c137da381d637eb48bf7c8050bc4394a7effe672",
+        "approvalHash": "1dc0716f1f689eca065bc832c137da381d637eb48bf7c8050bc4394a7effe672"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 出迎え/でむかえ is the same lexeme as vocab-n2:correction:demukae.",
+        "contentHash": "1dc0716f1f689eca065bc832c137da381d637eb48bf7c8050bc4394a7effe672",
+        "approvalHash": "1dc0716f1f689eca065bc832c137da381d637eb48bf7c8050bc4394a7effe672"
+      }
+    },
+    {
+      "key": "照る|てる",
+      "referenceIndex": 0,
+      "referenceHash": "22ca8a8239d7ea33baf607cbbc5fd45bcc2b11e12f2c1dc7d994903646ff163c",
+      "revisionId": "035-candidate-teru-cbee2cd6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:teru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:teru": "6f931712b7247dfea6e1e8ccbcc90c5128592ec41360cad3137f2f369d470ffc"
+      },
+      "reason": "Reference 照る/てる (tanos N2) is the same lexeme as the new entry 照る【てる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=60",
+          "finding": "tanos lists 照る/てる at N2 (gloss: to shine)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1350860; spelling=照る; reading=てる; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1350860 as the reference form.",
+          "selected": {
+            "sequence": "1350860",
+            "spelling": "照る",
+            "reading": "てる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to shine"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 照る|てる#0 is the same lexeme as vocab-n2:correction:teru; target hash bound to the assembled addition.",
+        "contentHash": "8da6b7f37f1270dd6264f4d4742f4a26fe51a5efe70cb13a56446a7d507aac18",
+        "approvalHash": "8da6b7f37f1270dd6264f4d4742f4a26fe51a5efe70cb13a56446a7d507aac18"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 照る/てる is the same lexeme as vocab-n2:correction:teru.",
+        "contentHash": "8da6b7f37f1270dd6264f4d4742f4a26fe51a5efe70cb13a56446a7d507aac18",
+        "approvalHash": "8da6b7f37f1270dd6264f4d4742f4a26fe51a5efe70cb13a56446a7d507aac18"
+      }
+    },
+    {
+      "key": "照る|てる",
+      "referenceIndex": 1,
+      "referenceHash": "80a98e95f7cd5f0a049eab5534efdab4722190ab675656aef6e092240d1f2af2",
+      "revisionId": "035-candidate-teru-cbee2cd6-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:teru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:teru": "6f931712b7247dfea6e1e8ccbcc90c5128592ec41360cad3137f2f369d470ffc"
+      },
+      "reason": "Reference 照る/てる (master N2) is the same lexeme as the new entry 照る【てる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 照る/てる at N2 (gloss: to shine; briller)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1350860; spelling=照る; reading=てる; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1350860 as the reference form.",
+          "selected": {
+            "sequence": "1350860",
+            "spelling": "照る",
+            "reading": "てる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to shine"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 照る|てる#1 is the same lexeme as vocab-n2:correction:teru; target hash bound to the assembled addition.",
+        "contentHash": "5cba364bef76c29d4e8a1733c1ef49fed693288259d9d7335b17ca334a3c1948",
+        "approvalHash": "5cba364bef76c29d4e8a1733c1ef49fed693288259d9d7335b17ca334a3c1948"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 照る/てる is the same lexeme as vocab-n2:correction:teru.",
+        "contentHash": "5cba364bef76c29d4e8a1733c1ef49fed693288259d9d7335b17ca334a3c1948",
+        "approvalHash": "5cba364bef76c29d4e8a1733c1ef49fed693288259d9d7335b17ca334a3c1948"
+      }
+    },
+    {
+      "key": "点々|てんてん",
+      "referenceIndex": 0,
+      "referenceHash": "15d1de9ecf239c56ce7db1b5825092e03d48ee4f70d2f68395acc6fd6858cd86",
+      "revisionId": "035-candidate-tenten-dots-82f53592-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tenten-dots"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tenten-dots": "d5351eb0299539e37e187a0e98d2fbf182d35e2bea5d42767cdb27dff77ac125"
+      },
+      "reason": "Reference 点々/てんてん (tanos N2) is the same lexeme as the new entry 点々【てんてん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=60",
+          "finding": "tanos lists 点々/てんてん at N2 (gloss: here and there,little by little)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598460; spelling=点々; reading=てんてん; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1598460 as the reference form.",
+          "selected": {
+            "sequence": "1598460",
+            "spelling": "点々",
+            "reading": "てんてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [],
+                "gloss": [
+                  "here and there",
+                  "little by little",
+                  "sporadically",
+                  "scattered in drops"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 点々|てんてん#0 is the same lexeme as vocab-n2:correction:tenten-dots; target hash bound to the assembled addition.",
+        "contentHash": "461078594217f0fa8c2cd61a2f69505c7f7b412841da8821c203002d7419b771",
+        "approvalHash": "461078594217f0fa8c2cd61a2f69505c7f7b412841da8821c203002d7419b771"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 点々/てんてん is the same lexeme as vocab-n2:correction:tenten-dots.",
+        "contentHash": "461078594217f0fa8c2cd61a2f69505c7f7b412841da8821c203002d7419b771",
+        "approvalHash": "461078594217f0fa8c2cd61a2f69505c7f7b412841da8821c203002d7419b771"
+      }
+    },
+    {
+      "key": "点々|てんてん",
+      "referenceIndex": 1,
+      "referenceHash": "07a79db7c62a23b1c2237afc855cbc4b1ca71acd64610d6669da23e68987e659",
+      "revisionId": "035-candidate-tenten-dots-82f53592-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tenten-dots"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tenten-dots": "d5351eb0299539e37e187a0e98d2fbf182d35e2bea5d42767cdb27dff77ac125"
+      },
+      "reason": "Reference 点々/てんてん (master N2) is the same lexeme as the new entry 点々【てんてん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 点々/てんてん at N2 (gloss: here and there; little by little; sporadically)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598460; spelling=点々; reading=てんてん; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1598460 as the reference form.",
+          "selected": {
+            "sequence": "1598460",
+            "spelling": "点々",
+            "reading": "てんてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [],
+                "gloss": [
+                  "here and there",
+                  "little by little",
+                  "sporadically",
+                  "scattered in drops"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 点々|てんてん#1 is the same lexeme as vocab-n2:correction:tenten-dots; target hash bound to the assembled addition.",
+        "contentHash": "d0c0de8a1f28ac2d1313538e424336405ad30c2cc7c0c5e350233d10fd76bb3e",
+        "approvalHash": "d0c0de8a1f28ac2d1313538e424336405ad30c2cc7c0c5e350233d10fd76bb3e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 点々/てんてん is the same lexeme as vocab-n2:correction:tenten-dots.",
+        "contentHash": "d0c0de8a1f28ac2d1313538e424336405ad30c2cc7c0c5e350233d10fd76bb3e",
+        "approvalHash": "d0c0de8a1f28ac2d1313538e424336405ad30c2cc7c0c5e350233d10fd76bb3e"
+      }
+    },
+    {
+      "key": "てんぽ|てんぽ",
+      "referenceIndex": 0,
+      "referenceHash": "1ffb86d843ce104323e02b3cffe2ab2db6d36b4cd56ee66bf01aff5b0c1d4eb9",
+      "revisionId": "035-candidate-tenpo-a59678ea-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tenpo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tenpo": "fec8ed461e22ce3026cfa86eb2be96c4fed6cc6213f8a41f14ba94bf661df646"
+      },
+      "reason": "Reference テンポ/テンポ (tanos N2) is the same lexeme as the new entry テンポ【テンポ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=60",
+          "finding": "tanos lists テンポ/テンポ at N2 (gloss: tempo)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1081120; spelling=テンポ; reading=テンポ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1081120 as the reference form.",
+          "selected": {
+            "sequence": "1081120",
+            "spelling": "テンポ",
+            "reading": "テンポ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tempo"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference てんぽ|てんぽ#0 is the same lexeme as vocab-n2:correction:tenpo; target hash bound to the assembled addition.",
+        "contentHash": "660c86128e76282165a0ccb7c0885e59ff4a68cafeca86bd8ceb7e1f2f04737b",
+        "approvalHash": "660c86128e76282165a0ccb7c0885e59ff4a68cafeca86bd8ceb7e1f2f04737b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row テンポ/テンポ is the same lexeme as vocab-n2:correction:tenpo.",
+        "contentHash": "660c86128e76282165a0ccb7c0885e59ff4a68cafeca86bd8ceb7e1f2f04737b",
+        "approvalHash": "660c86128e76282165a0ccb7c0885e59ff4a68cafeca86bd8ceb7e1f2f04737b"
+      }
+    },
+    {
+      "key": "てんぽ|てんぽ",
+      "referenceIndex": 1,
+      "referenceHash": "922cf8bb20f0db9f96112a8ae0442b12970e622748533734713bc15b3140c2bc",
+      "revisionId": "035-candidate-tenpo-a59678ea-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tenpo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tenpo": "fec8ed461e22ce3026cfa86eb2be96c4fed6cc6213f8a41f14ba94bf661df646"
+      },
+      "reason": "Reference テンポ/テンポ (master N2) is the same lexeme as the new entry テンポ【テンポ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists テンポ/テンポ at N2 (gloss: tempo; rythme; tempo)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1081120; spelling=テンポ; reading=テンポ; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1081120 as the reference form.",
+          "selected": {
+            "sequence": "1081120",
+            "spelling": "テンポ",
+            "reading": "テンポ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tempo"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference てんぽ|てんぽ#1 is the same lexeme as vocab-n2:correction:tenpo; target hash bound to the assembled addition.",
+        "contentHash": "0711640c9c6fb3c29ce87ede60bd078e72363e8fc2e2acd4b50b2d7b5ff99d11",
+        "approvalHash": "0711640c9c6fb3c29ce87ede60bd078e72363e8fc2e2acd4b50b2d7b5ff99d11"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row テンポ/テンポ is the same lexeme as vocab-n2:correction:tenpo.",
+        "contentHash": "0711640c9c6fb3c29ce87ede60bd078e72363e8fc2e2acd4b50b2d7b5ff99d11",
+        "approvalHash": "0711640c9c6fb3c29ce87ede60bd078e72363e8fc2e2acd4b50b2d7b5ff99d11"
+      }
+    },
+    {
+      "key": "電流|でんりゅう",
+      "referenceIndex": 0,
+      "referenceHash": "daeb94eeda0ffb486b1836ea4ded333db530b65ab2806fb14f000746d6900949",
+      "revisionId": "035-candidate-denryuu-4529ab1c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:denryuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:denryuu": "a5f52d55b6fd8c50dbf9cdcf33d5fd3c9947d1234c056d320293492dd989ecac"
+      },
+      "reason": "Reference 電流/でんりゅう (tanos N2) is the same lexeme as the new entry 電流【でんりゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=60",
+          "finding": "tanos lists 電流/でんりゅう at N2 (gloss: electric current)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1443790; spelling=電流; reading=でんりゅう; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1443790 as the reference form.",
+          "selected": {
+            "sequence": "1443790",
+            "spelling": "電流",
+            "reading": "でんりゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "electric current"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 電流|でんりゅう#0 is the same lexeme as vocab-n2:correction:denryuu; target hash bound to the assembled addition.",
+        "contentHash": "9d8b57e9f4d21a52fdb5cb169b107a909ea05e0917cec3d5598317fded301830",
+        "approvalHash": "9d8b57e9f4d21a52fdb5cb169b107a909ea05e0917cec3d5598317fded301830"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 電流/でんりゅう is the same lexeme as vocab-n2:correction:denryuu.",
+        "contentHash": "9d8b57e9f4d21a52fdb5cb169b107a909ea05e0917cec3d5598317fded301830",
+        "approvalHash": "9d8b57e9f4d21a52fdb5cb169b107a909ea05e0917cec3d5598317fded301830"
+      }
+    },
+    {
+      "key": "電流|でんりゅう",
+      "referenceIndex": 1,
+      "referenceHash": "ba6551cf7d7244efb16b59c70e8d9eecea50ab9d5c908164093ae6a1cc89866f",
+      "revisionId": "035-candidate-denryuu-4529ab1c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:denryuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:denryuu": "a5f52d55b6fd8c50dbf9cdcf33d5fd3c9947d1234c056d320293492dd989ecac"
+      },
+      "reason": "Reference 電流/でんりゅう (master N2) is the same lexeme as the new entry 電流【でんりゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 電流/でんりゅう at N2 (gloss: electric current; courant électrique; (n) elektrischer Strom)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1443790; spelling=電流; reading=でんりゅう; senses=1; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1443790 as the reference form.",
+          "selected": {
+            "sequence": "1443790",
+            "spelling": "電流",
+            "reading": "でんりゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "electric current"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 電流|でんりゅう#1 is the same lexeme as vocab-n2:correction:denryuu; target hash bound to the assembled addition.",
+        "contentHash": "c2ac0185bad8153f1b158182c5f9e0157dd3dcc6acec67d2ff2fb7114daca7eb",
+        "approvalHash": "c2ac0185bad8153f1b158182c5f9e0157dd3dcc6acec67d2ff2fb7114daca7eb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 電流/でんりゅう is the same lexeme as vocab-n2:correction:denryuu.",
+        "contentHash": "c2ac0185bad8153f1b158182c5f9e0157dd3dcc6acec67d2ff2fb7114daca7eb",
+        "approvalHash": "c2ac0185bad8153f1b158182c5f9e0157dd3dcc6acec67d2ff2fb7114daca7eb"
+      }
+    },
+    {
+      "key": "同格|どうかく",
+      "referenceIndex": 0,
+      "referenceHash": "b9de52f5ee401d708c2390d09c440d73e9c62beac570672300377dbc75cd7fa4",
+      "revisionId": "035-candidate-doukaku-286f9032-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:doukaku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:doukaku": "20eec6223cf6725a0ad6f4c6c370a2fc82f2cf3ef60d5ffdc14b584fb49d938f"
+      },
+      "reason": "Reference 同格/どうかく (tanos N2) is the same lexeme as the new entry 同格【どうかく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=61",
+          "finding": "tanos lists 同格/どうかく at N2 (gloss: the same rank,equality,apposition)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1452000; spelling=同格; reading=どうかく; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1452000 as the reference form.",
+          "selected": {
+            "sequence": "1452000",
+            "spelling": "同格",
+            "reading": "どうかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "the same rank",
+                  "equality"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "apposition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 同格|どうかく#0 is the same lexeme as vocab-n2:correction:doukaku; target hash bound to the assembled addition.",
+        "contentHash": "2e30151dd69d5dbb63fa483aba3c73d5dc9852fbe0d0f60613c7b30eeb775193",
+        "approvalHash": "2e30151dd69d5dbb63fa483aba3c73d5dc9852fbe0d0f60613c7b30eeb775193"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 同格/どうかく is the same lexeme as vocab-n2:correction:doukaku.",
+        "contentHash": "2e30151dd69d5dbb63fa483aba3c73d5dc9852fbe0d0f60613c7b30eeb775193",
+        "approvalHash": "2e30151dd69d5dbb63fa483aba3c73d5dc9852fbe0d0f60613c7b30eeb775193"
+      }
+    },
+    {
+      "key": "同格|どうかく",
+      "referenceIndex": 1,
+      "referenceHash": "c9d67081e7caac935dabe363276fe0c6532ccf2573bf06dc12d3c0750aad38cd",
+      "revisionId": "035-candidate-doukaku-286f9032-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:doukaku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:doukaku": "20eec6223cf6725a0ad6f4c6c370a2fc82f2cf3ef60d5ffdc14b584fb49d938f"
+      },
+      "reason": "Reference 同格/どうかく (master N2) is the same lexeme as the new entry 同格【どうかく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 同格/どうかく at N2 (gloss: the same rank; equality; apposition)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1452000; spelling=同格; reading=どうかく; senses=1,2; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1452000 as the reference form.",
+          "selected": {
+            "sequence": "1452000",
+            "spelling": "同格",
+            "reading": "どうかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "the same rank",
+                  "equality"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "apposition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 同格|どうかく#1 is the same lexeme as vocab-n2:correction:doukaku; target hash bound to the assembled addition.",
+        "contentHash": "9f293bdacf031152dd1779c256374b1efdf60eba9f5e41ad493e1dcfc679be47",
+        "approvalHash": "9f293bdacf031152dd1779c256374b1efdf60eba9f5e41ad493e1dcfc679be47"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 同格/どうかく is the same lexeme as vocab-n2:correction:doukaku.",
+        "contentHash": "9f293bdacf031152dd1779c256374b1efdf60eba9f5e41ad493e1dcfc679be47",
+        "approvalHash": "9f293bdacf031152dd1779c256374b1efdf60eba9f5e41ad493e1dcfc679be47"
+      }
+    },
+    {
+      "key": "動作|どうさ",
+      "referenceIndex": 0,
+      "referenceHash": "4f37fbcc8f755e2cdb5a8e6f7ef124c4f88f2f87c5fec2f5f3064c1e180d0e82",
+      "revisionId": "035-candidate-dousa-e63fcc54-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:dousa"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:dousa": "222e1c4af4194ce2d047ddaf6770a39e19dfbf005db1ad9895b12e34bf1d703a"
+      },
+      "reason": "Reference 動作/どうさ (tanos N2) is the same lexeme as the new entry 動作【どうさ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=61",
+          "finding": "tanos lists 動作/どうさ at N2 (gloss: action,movements,motions,bearing,behaviour,manners)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1451350; spelling=動作; reading=どうさ; senses=1,3; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1451350 as the reference form.",
+          "selected": {
+            "sequence": "1451350",
+            "spelling": "動作",
+            "reading": "どうさ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "movement (of the body)",
+                  "action",
+                  "motion",
+                  "gesture"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "operation (of a machine, software, etc.)",
+                  "running",
+                  "working",
+                  "functioning"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 動作|どうさ#0 is the same lexeme as vocab-n2:correction:dousa; target hash bound to the assembled addition.",
+        "contentHash": "c00d9f0155b5b6d4436e44a436aa9221cc8c70480734c629f4387ffdab2a449d",
+        "approvalHash": "c00d9f0155b5b6d4436e44a436aa9221cc8c70480734c629f4387ffdab2a449d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 動作/どうさ is the same lexeme as vocab-n2:correction:dousa.",
+        "contentHash": "c00d9f0155b5b6d4436e44a436aa9221cc8c70480734c629f4387ffdab2a449d",
+        "approvalHash": "c00d9f0155b5b6d4436e44a436aa9221cc8c70480734c629f4387ffdab2a449d"
+      }
+    },
+    {
+      "key": "動作|どうさ",
+      "referenceIndex": 1,
+      "referenceHash": "a0cece2bbbcd7433ab05c75d82a281b5c2f46741efa4cd7bb9266af4a742921c",
+      "revisionId": "035-candidate-dousa-e63fcc54-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:dousa"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:dousa": "222e1c4af4194ce2d047ddaf6770a39e19dfbf005db1ad9895b12e34bf1d703a"
+      },
+      "reason": "Reference 動作/どうさ (master N2) is the same lexeme as the new entry 動作【どうさ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 動作/どうさ at N2 (gloss: action; movements; motions)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1451350; spelling=動作; reading=どうさ; senses=1,3; scripts/vocabulary-completion/maintenance-035/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1451350 as the reference form.",
+          "selected": {
+            "sequence": "1451350",
+            "spelling": "動作",
+            "reading": "どうさ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "movement (of the body)",
+                  "action",
+                  "motion",
+                  "gesture"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "operation (of a machine, software, etc.)",
+                  "running",
+                  "working",
+                  "functioning"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-editor",
+        "finding": "Editorial first pass: reference 動作|どうさ#1 is the same lexeme as vocab-n2:correction:dousa; target hash bound to the assembled addition.",
+        "contentHash": "9b6ab8cee0276b173ce1a3a0439af5d79dda4b06c77acdefd1e0152e25d002fa",
+        "approvalHash": "9b6ab8cee0276b173ce1a3a0439af5d79dda4b06c77acdefd1e0152e25d002fa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-035-independent-reviewer",
+        "finding": "Content unchanged since round 1 (entry identical in first-approved and regenerated assembly). Publisher row 動作/どうさ is the same lexeme as vocab-n2:correction:dousa.",
+        "contentHash": "9b6ab8cee0276b173ce1a3a0439af5d79dda4b06c77acdefd1e0152e25d002fa",
+        "approvalHash": "9b6ab8cee0276b173ce1a3a0439af5d79dda4b06c77acdefd1e0152e25d002fa"
+      }
+    }
+  ]
+}
