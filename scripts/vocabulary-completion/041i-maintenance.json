@@ -1,0 +1,4175 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:sakazuki",
+      "revisionId": "041-add-sakazuki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "杯",
+        "reading": "さかずき",
+        "romaji": "sakazuki",
+        "meaning": "Sakeschale; Becher",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N1",
+        "notes": "Kleine Schale für Sake; auch das rituelle Austauschen der Schalen als Zeichen eines Bündnisses (杯を交わす). Als Zählwort liest man 杯 dagegen はい.",
+        "examples": [
+          {
+            "japanese": "祖父は杯に酒をついで、ゆっくり飲んだ。",
+            "romaji": "Sofu wa sakazuki ni sake o tsuide, yukkuri nonda.",
+            "german": "Mein Großvater goss Sake in die Schale und trank ihn langsam."
+          },
+          {
+            "japanese": "二人は杯を交わして、兄弟の契りを結んだ。",
+            "romaji": "Futari wa sakazuki o kawashite, kyoudai no chigiri o musunda.",
+            "german": "Die beiden tauschten die Sakeschalen und schworen einander Bruderschaft."
+          }
+        ],
+        "pitch": 0,
+        "aliases": [
+          "盃"
+        ],
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127511713",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "杯 / サカズキ; 名詞/普通名詞/一般/*; *; *; lemma 杯; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "杯",
+              "reading": "さかずき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "杯 as \"Sakeschale; Becher\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 杯【さかずき】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1472630; spelling=杯; reading=さかずき; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1472630 杯/さかずき sense(s) 1,2 support \"Sakeschale; Becher\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1472630",
+            "spelling": "杯",
+            "reading": "さかずき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sake cup",
+                  "cup for alcoholic beverages"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ritual exchange of cups (to seal a bond or pledge)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "杯|さかずき",
+          "referenceIndex": 0,
+          "referenceHash": "cf2617841b83e18e6a624338cbc782291ad41bc9081dc395760bf35904b34fab"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Sakeschale; Becher\" matches JMdict 1472630 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Drinking sake.",
+          "Ritual bond."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1472630; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@127511713 attest 0,4; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127511713",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "杯 / サカズキ; 名詞/普通名詞/一般/*; *; *; lemma 杯; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "杯",
+              "reading": "さかずき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "杯 as \"Sakeschale; Becher\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 杯【さかずき】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1472630 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "02f8d78d58e955a976f21d8c6fecff35f901c3fd4a3c3c0ac87fccddb4513693",
+        "approvalHash": "0250988ed1cfd336243f24cf2e7114fd759e1c32cb3645deae2dd0f0a1a8243f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Round-1 fix applied exactly: ex2 German now \"…schworen einander Bruderschaft.\" — no longer implies a blood ritual.",
+        "contentHash": "02f8d78d58e955a976f21d8c6fecff35f901c3fd4a3c3c0ac87fccddb4513693",
+        "approvalHash": "0250988ed1cfd336243f24cf2e7114fd759e1c32cb3645deae2dd0f0a1a8243f"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:sakadachi",
+      "revisionId": "041-add-sakadachi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "逆立ち",
+        "reading": "さかだち",
+        "romaji": "sakadachi",
+        "meaning": "Handstand, Kopfstand",
+        "type": "Nomen",
+        "category": "Sport",
+        "level": "N1",
+        "notes": "Auf den Händen oder dem Kopf stehen; als Verb 逆立ちする. Redewendung: 逆立ちしても (selbst wenn man sich auf den Kopf stellt, d. h. unmöglich).",
+        "examples": [
+          {
+            "japanese": "体育の時間に逆立ちの練習をした。",
+            "romaji": "Taiiku no jikan ni sakadachi no renshuu o shita.",
+            "german": "Im Sportunterricht haben wir den Handstand geübt."
+          },
+          {
+            "japanese": "逆立ちしても、あの選手には勝てない。",
+            "romaji": "Sakadachi shite mo, ano senshu ni wa katenai.",
+            "german": "Selbst wenn ich mich auf den Kopf stelle, gegen diesen Spieler gewinne ich nicht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127530315",
+            "patterns": [
+              0
+            ],
+            "finding": "逆立ち / サカダチ; 名詞/普通名詞/サ変可能/*; *; *; lemma 逆立ち; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "逆立ち",
+              "reading": "さかだち",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "逆立ち as \"Handstand, Kopfstand\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 逆立ち【さかだち】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1227250; spelling=逆立ち; reading=さかだち; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1227250 逆立ち/さかだち sense(s) 1 support \"Handstand, Kopfstand\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1227250",
+            "spelling": "逆立ち",
+            "reading": "さかだち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handstand",
+                  "headstand"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "逆立ち|さかだち",
+          "referenceIndex": 0,
+          "referenceHash": "fb684a057ca75b0182f6facce126d42b93b1b57080a541e6c0913f51bd816906"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Handstand, Kopfstand\" matches JMdict 1227250 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "PE class.",
+          "Idiomatic: impossible."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1227250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@127530315 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127530315",
+            "patterns": [
+              0
+            ],
+            "finding": "逆立ち / サカダチ; 名詞/普通名詞/サ変可能/*; *; *; lemma 逆立ち; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "逆立ち",
+              "reading": "さかだち",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "逆立ち as \"Handstand, Kopfstand\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 逆立ち【さかだち】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1227250 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "9870ea3f4f8348b7c25789c4bb3a133201d71e7a4af96a57cb4d48db62715bd0",
+        "approvalHash": "47d0d93e3294d7c5b6279327cb3c378eadadf1e5a7dcd459e714ab9d9815cf1b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: 逆立ちしても idiom explained correctly. Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "9870ea3f4f8348b7c25789c4bb3a133201d71e7a4af96a57cb4d48db62715bd0",
+        "approvalHash": "47d0d93e3294d7c5b6279327cb3c378eadadf1e5a7dcd459e714ab9d9815cf1b"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:sakini",
+      "revisionId": "041-add-sakini",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "先に",
+        "reading": "さきに",
+        "romaji": "sakini",
+        "meaning": "vorher, zuvor; zuerst",
+        "type": "Adverb",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Zeitlich vorher (先に述べたように = wie bereits erwähnt) oder zuerst, vor anderen: お先に失礼します.",
+        "examples": [
+          {
+            "japanese": "先に述べたように、この計画には問題がある。",
+            "romaji": "Saki ni nobeta you ni, kono keikaku ni wa mondai ga aru.",
+            "german": "Wie bereits erwähnt, hat dieser Plan Probleme."
+          },
+          {
+            "japanese": "疲れたので、先に寝ます。",
+            "romaji": "Tsukareta node, saki ni nemasu.",
+            "german": "Ich bin müde, ich gehe schon mal schlafen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 先に【さきに】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1387280; spelling=先に; reading=さきに; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1387280 先に/さきに sense(s) 1,2 support \"vorher, zuvor; zuerst\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1387280",
+            "spelling": "先に",
+            "reading": "さきに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "previously",
+                  "before",
+                  "earlier",
+                  "formerly",
+                  "recently"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "first",
+                  "before (something or someone else)",
+                  "ahead (of)",
+                  "earlier"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "先に|さきに",
+          "referenceIndex": 0,
+          "referenceHash": "a8ccc1bfac62a27bc203c4e695fef28c476c0cb7a7e81ed2c4b01e2734fbb9f8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"vorher, zuvor; zuerst\" matches JMdict 1387280 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Formal reference back.",
+          "Going to bed first."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1387280; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 先に / さきに; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 先に / さきに",
+            "finding": "No exact UniDic row for the adverb 先に as one word."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 先に【さきに】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1387280 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "a43da0029d566d66e94346a6d2c9040f011b4903c22253abfb28fd7873e6847a",
+        "approvalHash": "e474ad605f0d07fad154f29906e3077a88525782160c4c38139835e18351f3f5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Pitch unknown correctly (no one-word UniDic row). Both senses exemplified (先に述べたように; 先に寝ます). Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "a43da0029d566d66e94346a6d2c9040f011b4903c22253abfb28fd7873e6847a",
+        "approvalHash": "e474ad605f0d07fad154f29906e3077a88525782160c4c38139835e18351f3f5"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:saku-work",
+      "revisionId": "041-add-saku-work",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "作",
+        "reading": "さく",
+        "romaji": "saku",
+        "meaning": "Werk; Ernte",
+        "type": "Nomen",
+        "category": "Kunst",
+        "level": "N1",
+        "notes": "Ein Werk (ピカソの作 = ein Werk Picassos); auch der Ernteertrag (今年は米の作がいい). Als Suffix: 〜作 (最新作, 代表作).",
+        "examples": [
+          {
+            "japanese": "この絵はピカソの作だと言われている。",
+            "romaji": "Kono e wa Pikaso no saku da to iwarete iru.",
+            "german": "Dieses Bild soll ein Werk Picassos sein."
+          },
+          {
+            "japanese": "今年は天気がよく、米の作がいい。",
+            "romaji": "Kotoshi wa tenki ga yoku, kome no saku ga ii.",
+            "german": "Dieses Jahr war das Wetter gut, die Reisernte ist reich."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          2,
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128533087",
+            "patterns": [
+              0,
+              2,
+              1
+            ],
+            "finding": "作 / サク; 名詞/普通名詞/一般/*; *; *; lemma 作; aType 0,2,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "作",
+              "reading": "さく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "作 as \"Werk; Ernte\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 作【さく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1297240; spelling=作; reading=さく; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1297240 作/さく sense(s) 1,2 support \"Werk; Ernte\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1297240",
+            "spelling": "作",
+            "reading": "さく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "work (e.g. of art)",
+                  "piece",
+                  "production"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "harvest",
+                  "crop",
+                  "yield",
+                  "cultivation",
+                  "tillage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "作|さく",
+          "referenceIndex": 0,
+          "referenceHash": "e78d43929ad6d42ccb283765f7c1309016adaf29b3ab85a3793213d41bd890a2"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Werk; Ernte\" matches JMdict 1297240 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Attributed painting.",
+          "Rice harvest."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1297240; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@128533087 attest 0,2,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128533087",
+            "patterns": [
+              0,
+              2,
+              1
+            ],
+            "finding": "作 / サク; 名詞/普通名詞/一般/*; *; *; lemma 作; aType 0,2,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "作",
+              "reading": "さく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "作 as \"Werk; Ernte\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 作【さく】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1297240 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "18f69f8951a97717f8bc2fc6dc4cf3c524c9bb897fb6f3974449e4b5650ef7d7",
+        "approvalHash": "0128f0f59a0ab24997990dd770b4b12d5ec29aabef18f88831747a360aa7cbc4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "18f69f8951a97717f8bc2fc6dc4cf3c524c9bb897fb6f3974449e4b5650ef7d7",
+        "approvalHash": "0128f0f59a0ab24997990dd770b4b12d5ec29aabef18f88831747a360aa7cbc4"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:saku-fence",
+      "revisionId": "041-add-saku-fence",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "柵",
+        "reading": "さく",
+        "romaji": "saku",
+        "meaning": "Zaun, Gitter, Geländer",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N1",
+        "notes": "Absperrung aus Pfählen, Latten oder Stangen: 柵を作る, 柵を越える.",
+        "examples": [
+          {
+            "japanese": "牧場の周りに柵がある。",
+            "romaji": "Bokujou no mawari ni saku ga aru.",
+            "german": "Um die Weide herum steht ein Zaun."
+          },
+          {
+            "japanese": "危ないので、柵を越えないでください。",
+            "romaji": "Abunai node, saku o koenai de kudasai.",
+            "german": "Es ist gefährlich, bitte steigen Sie nicht über das Geländer."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128542705",
+            "patterns": [
+              2,
+              1
+            ],
+            "finding": "柵 / サク; 名詞/普通名詞/一般/*; *; *; lemma 柵; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "柵",
+              "reading": "さく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "柵 as \"Zaun, Gitter, Geländer\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 柵【さく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1298250; spelling=柵; reading=さく; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1298250 柵/さく sense(s) 1 support \"Zaun, Gitter, Geländer\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1298250",
+            "spelling": "柵",
+            "reading": "さく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fence",
+                  "paling",
+                  "railing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "柵|さく",
+          "referenceIndex": 0,
+          "referenceHash": "f91e859c4cd0df7a2b74985ef18fea86fad92605ad3bc7bb8f5e049184b9270a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Zaun, Gitter, Geländer\" matches JMdict 1298250 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Pasture fence.",
+          "Safety railing."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1298250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@128542705 attest 2,1; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128542705",
+            "patterns": [
+              2,
+              1
+            ],
+            "finding": "柵 / サク; 名詞/普通名詞/一般/*; *; *; lemma 柵; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "柵",
+              "reading": "さく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "柵 as \"Zaun, Gitter, Geländer\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 柵【さく】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1298250 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "556fb3446f673aff42aa06348e9e9244e05116d61ecb2fd8169f726cc8b3edd6",
+        "approvalHash": "e8aa7f1e1cb061e8ac36ebb5a60c21eccf2f326b3dd9cb98d7919bdbd84a137b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "556fb3446f673aff42aa06348e9e9244e05116d61ecb2fd8169f726cc8b3edd6",
+        "approvalHash": "e8aa7f1e1cb061e8ac36ebb5a60c21eccf2f326b3dd9cb98d7919bdbd84a137b"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:saji-trifle",
+      "revisionId": "041-add-saji-trifle",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "些事",
+        "reading": "さじ",
+        "romaji": "saji",
+        "meaning": "Kleinigkeit, Nebensache",
+        "type": "Nomen",
+        "category": "Abstrakt",
+        "level": "N1",
+        "notes": "Schriftsprachlich für unbedeutende Dinge: 些事にこだわる. Gleich klingend: さじ (Löffel).",
+        "examples": [
+          {
+            "japanese": "些事にこだわらず、全体を見るべきだ。",
+            "romaji": "Saji ni kodawarazu, zentai o miru beki da.",
+            "german": "Man sollte sich nicht an Kleinigkeiten aufhalten, sondern das Ganze sehen."
+          },
+          {
+            "japanese": "彼は些事にまで口を出す。",
+            "romaji": "Kare wa saji ni made kuchi o dasu.",
+            "german": "Er mischt sich sogar in Nebensächlichkeiten ein."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@130914137",
+            "patterns": [
+              1
+            ],
+            "finding": "些事 / サジ; 名詞/普通名詞/一般/*; *; *; lemma 些事; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "些事",
+              "reading": "さじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "些事 as \"Kleinigkeit, Nebensache\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 些事【さじ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1593790; spelling=些事; reading=さじ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1593790 些事/さじ sense(s) 1 support \"Kleinigkeit, Nebensache\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1593790",
+            "spelling": "些事",
+            "reading": "さじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "something small",
+                  "something petty",
+                  "trifle"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "些事|さじ",
+          "referenceIndex": 0,
+          "referenceHash": "c34c6e232b4a86c3b8f64edfaf7194d946548e622019dc8df00f589589af7ec7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Kleinigkeit, Nebensache\" matches JMdict 1593790 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Big picture.",
+          "Meddling in trifles."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1593790; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@130914137 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@130914137",
+            "patterns": [
+              1
+            ],
+            "finding": "些事 / サジ; 名詞/普通名詞/一般/*; *; *; lemma 些事; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "些事",
+              "reading": "さじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "些事 as \"Kleinigkeit, Nebensache\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 些事【さじ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1593790 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a2a03be979beb2d72a4771d593ab6a035f3bee97f6e13eefbe56831bbd2e1780",
+        "approvalHash": "7e42f7d50e35a59fdd0937f0033d8d463baf5468d8bd38fdb4d209ccbf525a0a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "a2a03be979beb2d72a4771d593ab6a035f3bee97f6e13eefbe56831bbd2e1780",
+        "approvalHash": "7e42f7d50e35a59fdd0937f0033d8d463baf5468d8bd38fdb4d209ccbf525a0a"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:sashikakaru",
+      "revisionId": "041-add-sashikakaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "差し掛かる",
+        "reading": "さしかかる",
+        "romaji": "sashikakaru",
+        "meaning": "sich nähern, erreichen (Ort, Phase)",
+        "type": "Verb",
+        "category": "Bewegung",
+        "level": "N1",
+        "notes": "Intransitives Godan-Verb mit に: an einen Ort kommen (橋に差し掛かる) oder in eine Phase eintreten (交渉が山場に差し掛かる).",
+        "examples": [
+          {
+            "japanese": "車が橋に差し掛かったとき、雨が降り出した。",
+            "romaji": "Kuruma ga hashi ni sashikakatta toki, ame ga furidashita.",
+            "german": "Als das Auto die Brücke erreichte, fing es an zu regnen."
+          },
+          {
+            "japanese": "交渉はいよいよ最終段階に差し掛かった。",
+            "romaji": "Koushou wa iyoiyo saishuu dankai ni sashikakatta.",
+            "german": "Die Verhandlungen sind nun in die Endphase eingetreten."
+          }
+        ],
+        "pitch": 4,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "さしかかる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "さしかかる",
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@129751508",
+            "patterns": [
+              4,
+              0
+            ],
+            "finding": "差し掛かる / サシカカル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 差し掛かる; aType 4,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "差し掛かる",
+              "reading": "さしかかる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "差し掛かる as \"sich nähern, erreichen (Ort, Phase)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 差し掛かる【さしかかる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1291140; spelling=差し掛かる; reading=さしかかる; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1291140 差し掛かる/さしかかる sense(s) 1,2 support \"sich nähern, erreichen (Ort, Phase)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1291140",
+            "spelling": "差し掛かる",
+            "reading": "さしかかる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to come near (to)",
+                  "to approach"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be on the verge of",
+                  "to be about to reach (a stage, period, etc.)",
+                  "to approach (e.g. a climax)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "差し掛かる|さしかかる",
+          "referenceIndex": 0,
+          "referenceHash": "c6e25cb9c49f10b9c5806c218a3b19f66799ff74afc734b03e6815124ead17c2"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"sich nähern, erreichen (Ort, Phase)\" matches JMdict 1291140 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Reaching a bridge.",
+          "Negotiations reaching final stage."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1291140; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading さしかかる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@129751508 attest 4,0; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@129751508",
+            "patterns": [
+              4,
+              0
+            ],
+            "finding": "差し掛かる / サシカカル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 差し掛かる; aType 4,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "差し掛かる",
+              "reading": "さしかかる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "差し掛かる as \"sich nähern, erreichen (Ort, Phase)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 差し掛かる【さしかかる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1291140 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "3a2014e79aacabc192d0ce8aee8b8cfd1f623abac232c95aff630ee906355cd6",
+        "approvalHash": "a7cac4e3aabd7e226c4f8a9513f21a2619a71e4c6d2fb0c6226e9e7f2ede8d3d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "3a2014e79aacabc192d0ce8aee8b8cfd1f623abac232c95aff630ee906355cd6",
+        "approvalHash": "a7cac4e3aabd7e226c4f8a9513f21a2619a71e4c6d2fb0c6226e9e7f2ede8d3d"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:sashizu",
+      "revisionId": "041-add-sashizu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "指図",
+        "reading": "さしず",
+        "romaji": "sashizu",
+        "meaning": "Anweisung, Befehl",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Anweisungen geben, oft mit dem Beiklang „herumkommandieren“: 人の指図は受けない. Als Verb 指図する.",
+        "examples": [
+          {
+            "japanese": "私は誰の指図も受けない。",
+            "romaji": "Watashi wa dare no sashizu mo ukenai.",
+            "german": "Ich lasse mir von niemandem Vorschriften machen."
+          },
+          {
+            "japanese": "彼は何もしないで、人に指図ばかりしている。",
+            "romaji": "Kare wa nani mo shinai de, hito ni sashizu bakari shite iru.",
+            "german": "Er tut selbst nichts und kommandiert nur andere herum."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@130110578",
+            "patterns": [
+              1
+            ],
+            "finding": "指図 / サシズ; 名詞/普通名詞/サ変可能/*; *; *; lemma 指図; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "指図",
+              "reading": "さしず",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "指図 as \"Anweisung, Befehl\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 指図【さしず】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1309850; spelling=指図; reading=さしず; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1309850 指図/さしず sense(s) 1 support \"Anweisung, Befehl\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1309850",
+            "spelling": "指図",
+            "reading": "さしず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "directions",
+                  "instructions",
+                  "orders",
+                  "command"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "指図|さしず",
+          "referenceIndex": 0,
+          "referenceHash": "d18497dbe68ab09d54b0c5fc31c28d42e96b9e8ecc9e08a70b3a166485bc3091"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Anweisung, Befehl\" matches JMdict 1309850 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Refusing orders.",
+          "Bossy colleague."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1309850; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@130110578 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@130110578",
+            "patterns": [
+              1
+            ],
+            "finding": "指図 / サシズ; 名詞/普通名詞/サ変可能/*; *; *; lemma 指図; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "指図",
+              "reading": "さしず",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "指図 as \"Anweisung, Befehl\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 指図【さしず】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1309850 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "58194beb91f8ab67e918b4c738801ae7bccb6777230b947e3d5750443c835e68",
+        "approvalHash": "b342d5c5ab32fc89b1b9d3a7b3869ea0e4c1f58a6c366c919a54d320f779ded4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "58194beb91f8ab67e918b4c738801ae7bccb6777230b947e3d5750443c835e68",
+        "approvalHash": "b342d5c5ab32fc89b1b9d3a7b3869ea0e4c1f58a6c366c919a54d320f779ded4"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:sashidasu",
+      "revisionId": "041-add-sashidasu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "差し出す",
+        "reading": "さしだす",
+        "romaji": "sashidasu",
+        "meaning": "hinhalten, reichen; einreichen; absenden",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitives Godan-Verb: die Hand ausstrecken, etwas überreichen oder einreichen; 差出人 ist der Absender.",
+        "examples": [
+          {
+            "japanese": "彼は笑顔で手を差し出した。",
+            "romaji": "Kare wa egao de te o sashidashita.",
+            "german": "Er streckte lächelnd die Hand aus."
+          },
+          {
+            "japanese": "受付で名刺を差し出した。",
+            "romaji": "Uketsuke de meishi o sashidashita.",
+            "german": "Am Empfang überreichte ich meine Visitenkarte."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "さしだす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "さしだす",
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@130218349",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "差し出す / サシダス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 差し出す; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "差し出す",
+              "reading": "さしだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "差し出す as \"hinhalten, reichen; einreichen; absenden\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 差し出す【さしだす】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1291230; spelling=差し出す; reading=さしだす; senses=1,2,4; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1291230 差し出す/さしだす sense(s) 1,2,4 support \"hinhalten, reichen; einreichen; absenden\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1291230",
+            "spelling": "差し出す",
+            "reading": "さしだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to hold out",
+                  "to extend (e.g. a hand)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to present",
+                  "to submit",
+                  "to tender"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to send",
+                  "to forward"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "差し出す|さしだす",
+          "referenceIndex": 0,
+          "referenceHash": "55a645be80a1d40b862bb6ea297cb9768056c578c91ed5119db786ab8cde8e64"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"hinhalten, reichen; einreichen; absenden\" matches JMdict 1291230 sense(s) 1,2,4.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Offering a handshake.",
+          "Presenting a business card."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1291230; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading さしだす; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@130218349 attest 3,0; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@130218349",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "差し出す / サシダス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 差し出す; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "差し出す",
+              "reading": "さしだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "差し出す as \"hinhalten, reichen; einreichen; absenden\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 差し出す【さしだす】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1291230 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ba9ce5afbad651d32495a69d28268e2b7fc8c935cc1630ba0e62b75218ef9ab5",
+        "approvalHash": "a93dde6dd81df46699ce216aeea078188d6e033bef5e29c05158490500760a25"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "ba9ce5afbad651d32495a69d28268e2b7fc8c935cc1630ba0e62b75218ef9ab5",
+        "approvalHash": "a93dde6dd81df46699ce216aeea078188d6e033bef5e29c05158490500760a25"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:sasuru",
+      "revisionId": "041-add-sasuru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "摩る",
+        "reading": "さする",
+        "romaji": "sasuru",
+        "meaning": "reiben, streicheln",
+        "type": "Verb",
+        "category": "Körper",
+        "level": "N1",
+        "notes": "Transitives Godan-Verb: sanft mit der Hand über etwas reiben, meist in Kana geschrieben: 背中をさする.",
+        "examples": [
+          {
+            "japanese": "母は泣いている子どもの背中を摩った。",
+            "romaji": "Haha wa naite iru kodomo no senaka o sasutta.",
+            "german": "Die Mutter streichelte dem weinenden Kind über den Rücken."
+          },
+          {
+            "japanese": "ぶつけた膝を手で摩った。",
+            "romaji": "Butsuketa hiza o te de sasutta.",
+            "german": "Ich rieb mir das angestoßene Knie."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "さする",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "さする",
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131075098",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "摩る / サスル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 摩る; aType 0,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "摩る",
+              "reading": "さする",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "摩る as \"reiben, streicheln\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 摩る【さする】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1523790; spelling=摩る; reading=さする; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1523790 摩る/さする sense(s) 1 support \"reiben, streicheln\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1523790",
+            "spelling": "摩る",
+            "reading": "さする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to rub",
+                  "to pat",
+                  "to stroke",
+                  "to massage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "摩る|さする",
+          "referenceIndex": 0,
+          "referenceHash": "592abdf3ee7ebf54968d54df9fb878d1f9d38d04dec6e3dc51e3af80a14d2d82"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"reiben, streicheln\" matches JMdict 1523790 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Comforting a child.",
+          "Rubbing a bumped knee."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1523790; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading さする; nested and top-level metadata agree.",
+        "level": "Publisher references: Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@131075098 attest 0,2; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131075098",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "摩る / サスル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 摩る; aType 0,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "摩る",
+              "reading": "さする",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "摩る as \"reiben, streicheln\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 摩る【さする】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1523790 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c77df92330c842ccfbdda3bcb2feb81ef6d0b8bb39b3d8d290eab683708bddc5",
+        "approvalHash": "9e9ec9aa8d39e143ef130e11ccf4ed79e4c36cb0483aea77556cc74defbe7dbc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Explicit verbGroup godan is required and present (reading さする would otherwise be auto-detected as suru). Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "c77df92330c842ccfbdda3bcb2feb81ef6d0b8bb39b3d8d290eab683708bddc5",
+        "approvalHash": "9e9ec9aa8d39e143ef130e11ccf4ed79e4c36cb0483aea77556cc74defbe7dbc"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:sazo",
+      "revisionId": "041-add-sazo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "さぞ",
+        "reading": "さぞ",
+        "romaji": "sazo",
+        "meaning": "sicherlich, gewiss (Vermutung)",
+        "type": "Adverb",
+        "category": "Ausdrücke",
+        "level": "N1",
+        "notes": "Einfühlende Vermutung, meist mit だろう oder でしょう: さぞ大変だったでしょう. Verstärkt: さぞかし, さぞや.",
+        "examples": [
+          {
+            "japanese": "長い旅で、さぞお疲れでしょう。",
+            "romaji": "Nagai tabi de, sazo otsukare deshou.",
+            "german": "Nach der langen Reise sind Sie sicher sehr müde."
+          },
+          {
+            "japanese": "合格したと聞いて、ご両親もさぞ喜んだことだろう。",
+            "romaji": "Goukaku shita to kiite, goryoushin mo sazo yorokonda koto darou.",
+            "german": "Deine Eltern haben sich bestimmt sehr gefreut, als sie von deinem Bestehen hörten."
+          }
+        ],
+        "pitch": 1,
+        "aliases": [
+          "嘸"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131241732",
+            "patterns": [
+              1
+            ],
+            "finding": "さぞ / サゾ; 副詞/*/*/*; *; *; lemma 嘸; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "さぞ",
+              "reading": "さぞ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "さぞ as \"sicherlich, gewiss (Vermutung)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add さぞ【さぞ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1565620; spelling=さぞ; reading=さぞ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1565620 さぞ/さぞ sense(s) 1 support \"sicherlich, gewiss (Vermutung)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1565620",
+            "spelling": "さぞ",
+            "reading": "さぞ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "surely",
+                  "certainly",
+                  "no doubt",
+                  "must"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "嘸|さぞ",
+          "referenceIndex": 0,
+          "referenceHash": "70754549d9f4ac861d190339b01e8851165fa922c825e58394547ea1983df337"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"sicherlich, gewiss (Vermutung)\" matches JMdict 1565620 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Greeting a traveller.",
+          "Parents’ joy."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1565620; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@131241732 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131241732",
+            "patterns": [
+              1
+            ],
+            "finding": "さぞ / サゾ; 副詞/*/*/*; *; *; lemma 嘸; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "さぞ",
+              "reading": "さぞ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "さぞ as \"sicherlich, gewiss (Vermutung)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add さぞ【さぞ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1565620 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f1236774b858a55baa21e7c636f0e7b16d6d5ea9be7f81d7f62ba7abf9638ad0",
+        "approvalHash": "77ffeb10fb13d0941b0db137f1545d267558cb61649b3da6e7386081615fa427"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Alias 嘸 = same entry; UniDic lemma 嘸 row same lexeme. Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "f1236774b858a55baa21e7c636f0e7b16d6d5ea9be7f81d7f62ba7abf9638ad0",
+        "approvalHash": "77ffeb10fb13d0941b0db137f1545d267558cb61649b3da6e7386081615fa427"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:sadamaru",
+      "revisionId": "041-add-sadamaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "定まる",
+        "reading": "さだまる",
+        "romaji": "sadamaru",
+        "meaning": "festgelegt werden, sich festigen",
+        "type": "Verb",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Intransitives Godan-Verb: 方針が定まる, 狙いが定まらない. Transitiv: 定める.",
+        "examples": [
+          {
+            "japanese": "会社の方針がようやく定まった。",
+            "romaji": "Kaisha no houshin ga youyaku sadamatta.",
+            "german": "Der Kurs der Firma steht endlich fest."
+          },
+          {
+            "japanese": "手が震えて、狙いが定まらない。",
+            "romaji": "Te ga furuete, nerai ga sadamaranai.",
+            "german": "Meine Hand zittert, ich kann nicht richtig zielen."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "さだまる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "さだまる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131308675",
+            "patterns": [
+              3
+            ],
+            "finding": "定まる / サダマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 定まる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "定まる",
+              "reading": "さだまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "定まる as \"festgelegt werden, sich festigen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 定まる【さだまる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1435370; spelling=定まる; reading=さだまる; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1435370 定まる/さだまる sense(s) 1 support \"festgelegt werden, sich festigen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1435370",
+            "spelling": "定まる",
+            "reading": "さだまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to become settled",
+                  "to be fixed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "定まる|さだまる",
+          "referenceIndex": 0,
+          "referenceHash": "1e4283af0ef66d615e23ed1413449ffa5b35c6708e4013cd015196838e0e7548"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"festgelegt werden, sich festigen\" matches JMdict 1435370 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Company policy settled.",
+          "Shaky aim."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1435370; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading さだまる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@131308675 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131308675",
+            "patterns": [
+              3
+            ],
+            "finding": "定まる / サダマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 定まる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "定まる",
+              "reading": "さだまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "定まる as \"festgelegt werden, sich festigen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 定まる【さだまる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1435370 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5c0d4476984ca70f7b85e946d482a43554c22eeba0e6adb49f4a1b7f00f9c2bc",
+        "approvalHash": "3916c6e20cc96fbb5a74c282af89ac53703d4e7cbc3de886e2b4234dca5e531e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "5c0d4476984ca70f7b85e946d482a43554c22eeba0e6adb49f4a1b7f00f9c2bc",
+        "approvalHash": "3916c6e20cc96fbb5a74c282af89ac53703d4e7cbc3de886e2b4234dca5e531e"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:zadankai",
+      "revisionId": "041-add-zadankai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "座談会",
+        "reading": "ざだんかい",
+        "romaji": "zadankai",
+        "meaning": "Gesprächsrunde, Podiumsgespräch",
+        "type": "Nomen",
+        "category": "Medien",
+        "level": "N1",
+        "notes": "Zwangloses Gespräch mehrerer Personen zu einem Thema, oft für Zeitschriften oder Veranstaltungen.",
+        "examples": [
+          {
+            "japanese": "雑誌の座談会に作家が三人参加した。",
+            "romaji": "Zasshi no zadankai ni sakka ga sannin sanka shita.",
+            "german": "An der Gesprächsrunde der Zeitschrift nahmen drei Schriftsteller teil."
+          },
+          {
+            "japanese": "留学生を招いて座談会を開いた。",
+            "romaji": "Ryuugakusei o maneite zadankai o hiraita.",
+            "german": "Wir haben ausländische Studierende zu einer Gesprächsrunde eingeladen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 座談会【ざだんかい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1291920; spelling=座談会; reading=ざだんかい; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1291920 座談会/ざだんかい sense(s) 1 support \"Gesprächsrunde, Podiumsgespräch\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1291920",
+            "spelling": "座談会",
+            "reading": "ざだんかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "symposium",
+                  "round-table discussion"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "座談会|ざだんかい",
+          "referenceIndex": 0,
+          "referenceHash": "f295cdd823bab2496f60f0988e32293b4e43cf510c4f32fb82229872357a2f59"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Gesprächsrunde, Podiumsgespräch\" matches JMdict 1291920 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Magazine round-table.",
+          "Event with exchange students."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1291920; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 座談会 / ざだんかい; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 座談会 / ざだんかい",
+            "finding": "No exact UniDic row for the compound 座談会."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 座談会【ざだんかい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1291920 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "3777a2ab77ac6ce917a16d75230fde44f2da7dfef3ff43c50f9062ab2a886247",
+        "approvalHash": "e85e9d06bb16fa5a7a6390137d804e3b33bfa5773fda53511bb2e581a2f26078"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Pitch unknown correctly (no exact UniDic row). Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "3777a2ab77ac6ce917a16d75230fde44f2da7dfef3ff43c50f9062ab2a886247",
+        "approvalHash": "e85e9d06bb16fa5a7a6390137d804e3b33bfa5773fda53511bb2e581a2f26078"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "杯|さかずき",
+      "referenceIndex": 0,
+      "referenceHash": "cf2617841b83e18e6a624338cbc782291ad41bc9081dc395760bf35904b34fab",
+      "revisionId": "041-candidate-sakazuki-f4834f6d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sakazuki"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sakazuki": "02f8d78d58e955a976f21d8c6fecff35f901c3fd4a3c3c0ac87fccddb4513693"
+      },
+      "reason": "Reference 杯/さかずき (tanos N1) is the same lexeme as the new entry 杯【さかずき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=63",
+          "finding": "tanos lists 杯/さかずき at N1 (gloss: wine cups)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1472630; spelling=杯; reading=さかずき; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1472630 as the reference form.",
+          "selected": {
+            "sequence": "1472630",
+            "spelling": "杯",
+            "reading": "さかずき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sake cup",
+                  "cup for alcoholic beverages"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ritual exchange of cups (to seal a bond or pledge)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 杯|さかずき#0 is the same lexeme as vocab-n1:correction:sakazuki; target hash bound to the assembled addition.",
+        "contentHash": "799a9365fe2e2369c5ccd402b3ddb03c76b8756c80e8bd5cab7f53027f9b6ccb",
+        "approvalHash": "799a9365fe2e2369c5ccd402b3ddb03c76b8756c80e8bd5cab7f53027f9b6ccb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sakazuki.",
+        "contentHash": "799a9365fe2e2369c5ccd402b3ddb03c76b8756c80e8bd5cab7f53027f9b6ccb",
+        "approvalHash": "799a9365fe2e2369c5ccd402b3ddb03c76b8756c80e8bd5cab7f53027f9b6ccb"
+      }
+    },
+    {
+      "key": "杯|さかずき",
+      "referenceIndex": 1,
+      "referenceHash": "08afaa3a3d15b4bbe4b9c0f7438499f4da9d31dd87bd831618dc6e7067275852",
+      "revisionId": "041-candidate-sakazuki-f4834f6d-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sakazuki"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sakazuki": "02f8d78d58e955a976f21d8c6fecff35f901c3fd4a3c3c0ac87fccddb4513693"
+      },
+      "reason": "Reference 杯/さかずき (master N1) is the same lexeme as the new entry 杯【さかずき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 杯/さかずき at N1 (gloss: sake cup; cup for alcoholic beverages; coupe)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1472630; spelling=杯; reading=さかずき; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1472630 as the reference form.",
+          "selected": {
+            "sequence": "1472630",
+            "spelling": "杯",
+            "reading": "さかずき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sake cup",
+                  "cup for alcoholic beverages"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ritual exchange of cups (to seal a bond or pledge)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 杯|さかずき#1 is the same lexeme as vocab-n1:correction:sakazuki; target hash bound to the assembled addition.",
+        "contentHash": "43d21f77553d16379c7abd33ddfe661f8b3c1a5b112aa7ead2921e75544f6993",
+        "approvalHash": "43d21f77553d16379c7abd33ddfe661f8b3c1a5b112aa7ead2921e75544f6993"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sakazuki.",
+        "contentHash": "43d21f77553d16379c7abd33ddfe661f8b3c1a5b112aa7ead2921e75544f6993",
+        "approvalHash": "43d21f77553d16379c7abd33ddfe661f8b3c1a5b112aa7ead2921e75544f6993"
+      }
+    },
+    {
+      "key": "逆立ち|さかだち",
+      "referenceIndex": 0,
+      "referenceHash": "fb684a057ca75b0182f6facce126d42b93b1b57080a541e6c0913f51bd816906",
+      "revisionId": "041-candidate-sakadachi-17697308-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sakadachi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sakadachi": "9870ea3f4f8348b7c25789c4bb3a133201d71e7a4af96a57cb4d48db62715bd0"
+      },
+      "reason": "Reference 逆立ち/さかだち (tanos N1) is the same lexeme as the new entry 逆立ち【さかだち】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=63",
+          "finding": "tanos lists 逆立ち/さかだち at N1 (gloss: handstand, headstand)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1227250; spelling=逆立ち; reading=さかだち; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1227250 as the reference form.",
+          "selected": {
+            "sequence": "1227250",
+            "spelling": "逆立ち",
+            "reading": "さかだち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handstand",
+                  "headstand"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 逆立ち|さかだち#0 is the same lexeme as vocab-n1:correction:sakadachi; target hash bound to the assembled addition.",
+        "contentHash": "76bfe6cb1d73c8144f3e751725449775d71f87abbf999d4e4622fb650edd3322",
+        "approvalHash": "76bfe6cb1d73c8144f3e751725449775d71f87abbf999d4e4622fb650edd3322"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sakadachi.",
+        "contentHash": "76bfe6cb1d73c8144f3e751725449775d71f87abbf999d4e4622fb650edd3322",
+        "approvalHash": "76bfe6cb1d73c8144f3e751725449775d71f87abbf999d4e4622fb650edd3322"
+      }
+    },
+    {
+      "key": "逆立ち|さかだち",
+      "referenceIndex": 1,
+      "referenceHash": "e40f05308fae1ce5cfface631b80704246555d08e797c019bc6e0bde2f9294d1",
+      "revisionId": "041-candidate-sakadachi-17697308-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sakadachi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sakadachi": "9870ea3f4f8348b7c25789c4bb3a133201d71e7a4af96a57cb4d48db62715bd0"
+      },
+      "reason": "Reference 逆立ち/さかだち (master N1) is the same lexeme as the new entry 逆立ち【さかだち】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 逆立ち/さかだち at N1 (gloss: handstand; headstand; faire le poirier)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1227250; spelling=逆立ち; reading=さかだち; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1227250 as the reference form.",
+          "selected": {
+            "sequence": "1227250",
+            "spelling": "逆立ち",
+            "reading": "さかだち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handstand",
+                  "headstand"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 逆立ち|さかだち#1 is the same lexeme as vocab-n1:correction:sakadachi; target hash bound to the assembled addition.",
+        "contentHash": "acaccd15f7b8a69aa013ee557f47543a885b097d2ccf5477d9cb66d59b0527b1",
+        "approvalHash": "acaccd15f7b8a69aa013ee557f47543a885b097d2ccf5477d9cb66d59b0527b1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sakadachi.",
+        "contentHash": "acaccd15f7b8a69aa013ee557f47543a885b097d2ccf5477d9cb66d59b0527b1",
+        "approvalHash": "acaccd15f7b8a69aa013ee557f47543a885b097d2ccf5477d9cb66d59b0527b1"
+      }
+    },
+    {
+      "key": "先に|さきに",
+      "referenceIndex": 0,
+      "referenceHash": "a8ccc1bfac62a27bc203c4e695fef28c476c0cb7a7e81ed2c4b01e2734fbb9f8",
+      "revisionId": "041-candidate-sakini-7929a892-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sakini"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sakini": "a43da0029d566d66e94346a6d2c9040f011b4903c22253abfb28fd7873e6847a"
+      },
+      "reason": "Reference 先に/さきに (tanos N1) is the same lexeme as the new entry 先に【さきに】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=64",
+          "finding": "tanos lists 先に/さきに at N1 (gloss: before, earlier than, ahead, beyond, away,)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1387280; spelling=先に; reading=さきに; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1387280 as the reference form.",
+          "selected": {
+            "sequence": "1387280",
+            "spelling": "先に",
+            "reading": "さきに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "previously",
+                  "before",
+                  "earlier",
+                  "formerly",
+                  "recently"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "first",
+                  "before (something or someone else)",
+                  "ahead (of)",
+                  "earlier"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 先に|さきに#0 is the same lexeme as vocab-n1:correction:sakini; target hash bound to the assembled addition.",
+        "contentHash": "70954c4636cc0fa92dc253f6c6b1846cf2aa174757b18d242cda120e0b701f73",
+        "approvalHash": "70954c4636cc0fa92dc253f6c6b1846cf2aa174757b18d242cda120e0b701f73"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sakini.",
+        "contentHash": "70954c4636cc0fa92dc253f6c6b1846cf2aa174757b18d242cda120e0b701f73",
+        "approvalHash": "70954c4636cc0fa92dc253f6c6b1846cf2aa174757b18d242cda120e0b701f73"
+      }
+    },
+    {
+      "key": "先に|さきに",
+      "referenceIndex": 1,
+      "referenceHash": "560c498438491b82ae5ff50b856b540a12e1364345cfcee1cc77041b55a476c6",
+      "revisionId": "041-candidate-sakini-7929a892-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sakini"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sakini": "a43da0029d566d66e94346a6d2c9040f011b4903c22253abfb28fd7873e6847a"
+      },
+      "reason": "Reference 先に/さきに (master N1) is the same lexeme as the new entry 先に【さきに】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 先に/さきに at N1 (gloss: before; earlier than; ahead)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1387280; spelling=先に; reading=さきに; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1387280 as the reference form.",
+          "selected": {
+            "sequence": "1387280",
+            "spelling": "先に",
+            "reading": "さきに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "previously",
+                  "before",
+                  "earlier",
+                  "formerly",
+                  "recently"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "first",
+                  "before (something or someone else)",
+                  "ahead (of)",
+                  "earlier"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 先に|さきに#1 is the same lexeme as vocab-n1:correction:sakini; target hash bound to the assembled addition.",
+        "contentHash": "039d62007a422cbcbafd78147bbb1bb4cf551c4a2b602b16c4edada87d58ec9f",
+        "approvalHash": "039d62007a422cbcbafd78147bbb1bb4cf551c4a2b602b16c4edada87d58ec9f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sakini.",
+        "contentHash": "039d62007a422cbcbafd78147bbb1bb4cf551c4a2b602b16c4edada87d58ec9f",
+        "approvalHash": "039d62007a422cbcbafd78147bbb1bb4cf551c4a2b602b16c4edada87d58ec9f"
+      }
+    },
+    {
+      "key": "作|さく",
+      "referenceIndex": 0,
+      "referenceHash": "e78d43929ad6d42ccb283765f7c1309016adaf29b3ab85a3793213d41bd890a2",
+      "revisionId": "041-candidate-saku-work-20327cf8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:saku-work"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:saku-work": "18f69f8951a97717f8bc2fc6dc4cf3c524c9bb897fb6f3974449e4b5650ef7d7"
+      },
+      "reason": "Reference 作/さく (tanos N1) is the same lexeme as the new entry 作【さく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=64",
+          "finding": "tanos lists 作/さく at N1 (gloss: a work, a harvest)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1297240; spelling=作; reading=さく; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1297240 as the reference form.",
+          "selected": {
+            "sequence": "1297240",
+            "spelling": "作",
+            "reading": "さく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "work (e.g. of art)",
+                  "piece",
+                  "production"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "harvest",
+                  "crop",
+                  "yield",
+                  "cultivation",
+                  "tillage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 作|さく#0 is the same lexeme as vocab-n1:correction:saku-work; target hash bound to the assembled addition.",
+        "contentHash": "41798017db0bd6503e678777401c0ea88b9a5d64d024794f0895c81a5c5a26ca",
+        "approvalHash": "41798017db0bd6503e678777401c0ea88b9a5d64d024794f0895c81a5c5a26ca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:saku-work.",
+        "contentHash": "41798017db0bd6503e678777401c0ea88b9a5d64d024794f0895c81a5c5a26ca",
+        "approvalHash": "41798017db0bd6503e678777401c0ea88b9a5d64d024794f0895c81a5c5a26ca"
+      }
+    },
+    {
+      "key": "作|さく",
+      "referenceIndex": 1,
+      "referenceHash": "60d4d9c569805cf2ce612df4ee300777eb6e774ed59a74e650fb93210c2a3bdc",
+      "revisionId": "041-candidate-saku-work-20327cf8-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:saku-work"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:saku-work": "18f69f8951a97717f8bc2fc6dc4cf3c524c9bb897fb6f3974449e4b5650ef7d7"
+      },
+      "reason": "Reference 作/さく (master N1) is the same lexeme as the new entry 作【さく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 作/さく at N1 (gloss: a work; a harvest; un travail)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1297240; spelling=作; reading=さく; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1297240 as the reference form.",
+          "selected": {
+            "sequence": "1297240",
+            "spelling": "作",
+            "reading": "さく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "work (e.g. of art)",
+                  "piece",
+                  "production"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "harvest",
+                  "crop",
+                  "yield",
+                  "cultivation",
+                  "tillage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 作|さく#1 is the same lexeme as vocab-n1:correction:saku-work; target hash bound to the assembled addition.",
+        "contentHash": "d85219c634afe797c70039cdcaaa314e32bc33ade251f1d84b2425e9537bf996",
+        "approvalHash": "d85219c634afe797c70039cdcaaa314e32bc33ade251f1d84b2425e9537bf996"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:saku-work.",
+        "contentHash": "d85219c634afe797c70039cdcaaa314e32bc33ade251f1d84b2425e9537bf996",
+        "approvalHash": "d85219c634afe797c70039cdcaaa314e32bc33ade251f1d84b2425e9537bf996"
+      }
+    },
+    {
+      "key": "柵|さく",
+      "referenceIndex": 0,
+      "referenceHash": "f91e859c4cd0df7a2b74985ef18fea86fad92605ad3bc7bb8f5e049184b9270a",
+      "revisionId": "041-candidate-saku-fence-e64a1b55-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:saku-fence"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:saku-fence": "556fb3446f673aff42aa06348e9e9244e05116d61ecb2fd8169f726cc8b3edd6"
+      },
+      "reason": "Reference 柵/さく (tanos N1) is the same lexeme as the new entry 柵【さく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=64",
+          "finding": "tanos lists 柵/さく at N1 (gloss: fence, paling)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1298250; spelling=柵; reading=さく; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1298250 as the reference form.",
+          "selected": {
+            "sequence": "1298250",
+            "spelling": "柵",
+            "reading": "さく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fence",
+                  "paling",
+                  "railing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 柵|さく#0 is the same lexeme as vocab-n1:correction:saku-fence; target hash bound to the assembled addition.",
+        "contentHash": "542e9edb81f49423823e28bf56e66119b5163b7fffb4f4847a6acedef7986a90",
+        "approvalHash": "542e9edb81f49423823e28bf56e66119b5163b7fffb4f4847a6acedef7986a90"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:saku-fence.",
+        "contentHash": "542e9edb81f49423823e28bf56e66119b5163b7fffb4f4847a6acedef7986a90",
+        "approvalHash": "542e9edb81f49423823e28bf56e66119b5163b7fffb4f4847a6acedef7986a90"
+      }
+    },
+    {
+      "key": "柵|さく",
+      "referenceIndex": 1,
+      "referenceHash": "b5a08eda1e96063c98015c1feef2ec6b9a58b366da63e1032250eb85b5b9ec73",
+      "revisionId": "041-candidate-saku-fence-e64a1b55-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:saku-fence"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:saku-fence": "556fb3446f673aff42aa06348e9e9244e05116d61ecb2fd8169f726cc8b3edd6"
+      },
+      "reason": "Reference 柵/さく (master N1) is the same lexeme as the new entry 柵【さく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 柵/さく at N1 (gloss: fence; paling; (n) Zaun)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1298250; spelling=柵; reading=さく; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1298250 as the reference form.",
+          "selected": {
+            "sequence": "1298250",
+            "spelling": "柵",
+            "reading": "さく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fence",
+                  "paling",
+                  "railing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 柵|さく#1 is the same lexeme as vocab-n1:correction:saku-fence; target hash bound to the assembled addition.",
+        "contentHash": "bfa7a7b0dcc482ea0744d19f25270aa6164877d3a395f5b5f148faa8541c7f0e",
+        "approvalHash": "bfa7a7b0dcc482ea0744d19f25270aa6164877d3a395f5b5f148faa8541c7f0e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:saku-fence.",
+        "contentHash": "bfa7a7b0dcc482ea0744d19f25270aa6164877d3a395f5b5f148faa8541c7f0e",
+        "approvalHash": "bfa7a7b0dcc482ea0744d19f25270aa6164877d3a395f5b5f148faa8541c7f0e"
+      }
+    },
+    {
+      "key": "些事|さじ",
+      "referenceIndex": 0,
+      "referenceHash": "c34c6e232b4a86c3b8f64edfaf7194d946548e622019dc8df00f589589af7ec7",
+      "revisionId": "041-candidate-saji-trifle-01279810-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:saji-trifle"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:saji-trifle": "a2a03be979beb2d72a4771d593ab6a035f3bee97f6e13eefbe56831bbd2e1780"
+      },
+      "reason": "Reference 些事/さじ (tanos N1) is the same lexeme as the new entry 些事【さじ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=65",
+          "finding": "tanos lists 些事/さじ at N1 (gloss: something small or petty, trifle)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1593790; spelling=些事; reading=さじ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1593790 as the reference form.",
+          "selected": {
+            "sequence": "1593790",
+            "spelling": "些事",
+            "reading": "さじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "something small",
+                  "something petty",
+                  "trifle"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 些事|さじ#0 is the same lexeme as vocab-n1:correction:saji-trifle; target hash bound to the assembled addition.",
+        "contentHash": "d971f82526040b00fa699e91d0a4154ee7c640ad2498bf16171c8d2cda3c5811",
+        "approvalHash": "d971f82526040b00fa699e91d0a4154ee7c640ad2498bf16171c8d2cda3c5811"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:saji-trifle.",
+        "contentHash": "d971f82526040b00fa699e91d0a4154ee7c640ad2498bf16171c8d2cda3c5811",
+        "approvalHash": "d971f82526040b00fa699e91d0a4154ee7c640ad2498bf16171c8d2cda3c5811"
+      }
+    },
+    {
+      "key": "些事|さじ",
+      "referenceIndex": 1,
+      "referenceHash": "d93de027cdcb4a16486539c0c734d074f8631d9efcec38f8c91b4589c12116e5",
+      "revisionId": "041-candidate-saji-trifle-01279810-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:saji-trifle"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:saji-trifle": "a2a03be979beb2d72a4771d593ab6a035f3bee97f6e13eefbe56831bbd2e1780"
+      },
+      "reason": "Reference 些事/さじ (master N1) is the same lexeme as the new entry 些事【さじ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 些事/さじ at N1 (gloss: something small or petty; trifle; (n) Kleinigkeit)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1593790; spelling=些事; reading=さじ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1593790 as the reference form.",
+          "selected": {
+            "sequence": "1593790",
+            "spelling": "些事",
+            "reading": "さじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "something small",
+                  "something petty",
+                  "trifle"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 些事|さじ#1 is the same lexeme as vocab-n1:correction:saji-trifle; target hash bound to the assembled addition.",
+        "contentHash": "0e0023cb1b9c56e644fa5ec43452e20e2e06e6bb3d42e7cbceefc5a435ddc441",
+        "approvalHash": "0e0023cb1b9c56e644fa5ec43452e20e2e06e6bb3d42e7cbceefc5a435ddc441"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:saji-trifle.",
+        "contentHash": "0e0023cb1b9c56e644fa5ec43452e20e2e06e6bb3d42e7cbceefc5a435ddc441",
+        "approvalHash": "0e0023cb1b9c56e644fa5ec43452e20e2e06e6bb3d42e7cbceefc5a435ddc441"
+      }
+    },
+    {
+      "key": "差し掛かる|さしかかる",
+      "referenceIndex": 0,
+      "referenceHash": "c6e25cb9c49f10b9c5806c218a3b19f66799ff74afc734b03e6815124ead17c2",
+      "revisionId": "041-candidate-sashikakaru-c9132932-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sashikakaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sashikakaru": "3a2014e79aacabc192d0ce8aee8b8cfd1f623abac232c95aff630ee906355cd6"
+      },
+      "reason": "Reference 差し掛かる/さしかかる (tanos N1) is the same lexeme as the new entry 差し掛かる【さしかかる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=64",
+          "finding": "tanos lists 差し掛かる/さしかかる at N1 (gloss: to come near to, to approach)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1291140; spelling=差し掛かる; reading=さしかかる; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1291140 as the reference form.",
+          "selected": {
+            "sequence": "1291140",
+            "spelling": "差し掛かる",
+            "reading": "さしかかる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to come near (to)",
+                  "to approach"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be on the verge of",
+                  "to be about to reach (a stage, period, etc.)",
+                  "to approach (e.g. a climax)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 差し掛かる|さしかかる#0 is the same lexeme as vocab-n1:correction:sashikakaru; target hash bound to the assembled addition.",
+        "contentHash": "e7757d8c33e11105b17e32e8d87e9b6753a5b1eac110183f9b64c29ae80db190",
+        "approvalHash": "e7757d8c33e11105b17e32e8d87e9b6753a5b1eac110183f9b64c29ae80db190"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sashikakaru.",
+        "contentHash": "e7757d8c33e11105b17e32e8d87e9b6753a5b1eac110183f9b64c29ae80db190",
+        "approvalHash": "e7757d8c33e11105b17e32e8d87e9b6753a5b1eac110183f9b64c29ae80db190"
+      }
+    },
+    {
+      "key": "差し掛かる|さしかかる",
+      "referenceIndex": 1,
+      "referenceHash": "9f47b1050cfbcb1cda24bfe038703c72209be5ebd9d1c63bdc0c575a9eafa14d",
+      "revisionId": "041-candidate-sashikakaru-c9132932-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sashikakaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sashikakaru": "3a2014e79aacabc192d0ce8aee8b8cfd1f623abac232c95aff630ee906355cd6"
+      },
+      "reason": "Reference 差し掛かる/さしかかる (master N1) is the same lexeme as the new entry 差し掛かる【さしかかる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 差し掛かる/さしかかる at N1 (gloss: to come near to; to approach; s'approcher)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1291140; spelling=差し掛かる; reading=さしかかる; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1291140 as the reference form.",
+          "selected": {
+            "sequence": "1291140",
+            "spelling": "差し掛かる",
+            "reading": "さしかかる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to come near (to)",
+                  "to approach"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be on the verge of",
+                  "to be about to reach (a stage, period, etc.)",
+                  "to approach (e.g. a climax)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 差し掛かる|さしかかる#1 is the same lexeme as vocab-n1:correction:sashikakaru; target hash bound to the assembled addition.",
+        "contentHash": "143a3916acd9a4a4798321a90601c6698f95cd3416aacf00887976bfd8e45ac4",
+        "approvalHash": "143a3916acd9a4a4798321a90601c6698f95cd3416aacf00887976bfd8e45ac4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sashikakaru.",
+        "contentHash": "143a3916acd9a4a4798321a90601c6698f95cd3416aacf00887976bfd8e45ac4",
+        "approvalHash": "143a3916acd9a4a4798321a90601c6698f95cd3416aacf00887976bfd8e45ac4"
+      }
+    },
+    {
+      "key": "指図|さしず",
+      "referenceIndex": 0,
+      "referenceHash": "d18497dbe68ab09d54b0c5fc31c28d42e96b9e8ecc9e08a70b3a166485bc3091",
+      "revisionId": "041-candidate-sashizu-3d8693ca-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sashizu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sashizu": "58194beb91f8ab67e918b4c738801ae7bccb6777230b947e3d5750443c835e68"
+      },
+      "reason": "Reference 指図/さしず (tanos N1) is the same lexeme as the new entry 指図【さしず】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=64",
+          "finding": "tanos lists 指図/さしず at N1 (gloss: instruction, mandate)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1309850; spelling=指図; reading=さしず; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1309850 as the reference form.",
+          "selected": {
+            "sequence": "1309850",
+            "spelling": "指図",
+            "reading": "さしず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "directions",
+                  "instructions",
+                  "orders",
+                  "command"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 指図|さしず#0 is the same lexeme as vocab-n1:correction:sashizu; target hash bound to the assembled addition.",
+        "contentHash": "0601482fc0950adcbc9f894b2d2c579117430823f9aed89fb5a6093b9603af87",
+        "approvalHash": "0601482fc0950adcbc9f894b2d2c579117430823f9aed89fb5a6093b9603af87"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sashizu.",
+        "contentHash": "0601482fc0950adcbc9f894b2d2c579117430823f9aed89fb5a6093b9603af87",
+        "approvalHash": "0601482fc0950adcbc9f894b2d2c579117430823f9aed89fb5a6093b9603af87"
+      }
+    },
+    {
+      "key": "指図|さしず",
+      "referenceIndex": 1,
+      "referenceHash": "9c0d56800108c80fd74d12b8f91d5d2358a3fa1163e002bad9a6756e6bcca4a0",
+      "revisionId": "041-candidate-sashizu-3d8693ca-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sashizu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sashizu": "58194beb91f8ab67e918b4c738801ae7bccb6777230b947e3d5750443c835e68"
+      },
+      "reason": "Reference 指図/さしず (master N1) is the same lexeme as the new entry 指図【さしず】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 指図/さしず at N1 (gloss: instruction; mandate; directions)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1309850; spelling=指図; reading=さしず; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1309850 as the reference form.",
+          "selected": {
+            "sequence": "1309850",
+            "spelling": "指図",
+            "reading": "さしず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "directions",
+                  "instructions",
+                  "orders",
+                  "command"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 指図|さしず#1 is the same lexeme as vocab-n1:correction:sashizu; target hash bound to the assembled addition.",
+        "contentHash": "691279ee9759b15919dc166a8075795e4003bf8d74e35f74dd8c5b2a72cb87d2",
+        "approvalHash": "691279ee9759b15919dc166a8075795e4003bf8d74e35f74dd8c5b2a72cb87d2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sashizu.",
+        "contentHash": "691279ee9759b15919dc166a8075795e4003bf8d74e35f74dd8c5b2a72cb87d2",
+        "approvalHash": "691279ee9759b15919dc166a8075795e4003bf8d74e35f74dd8c5b2a72cb87d2"
+      }
+    },
+    {
+      "key": "差し出す|さしだす",
+      "referenceIndex": 0,
+      "referenceHash": "55a645be80a1d40b862bb6ea297cb9768056c578c91ed5119db786ab8cde8e64",
+      "revisionId": "041-candidate-sashidasu-a9b6d511-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sashidasu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sashidasu": "ba9ce5afbad651d32495a69d28268e2b7fc8c935cc1630ba0e62b75218ef9ab5"
+      },
+      "reason": "Reference 差し出す/さしだす (tanos N1) is the same lexeme as the new entry 差し出す【さしだす】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=65",
+          "finding": "tanos lists 差し出す/さしだす at N1 (gloss: to present, to submit, to tender, to hold out)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1291230; spelling=差し出す; reading=さしだす; senses=1,2,4; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1291230 as the reference form.",
+          "selected": {
+            "sequence": "1291230",
+            "spelling": "差し出す",
+            "reading": "さしだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to hold out",
+                  "to extend (e.g. a hand)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to present",
+                  "to submit",
+                  "to tender"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to send",
+                  "to forward"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 差し出す|さしだす#0 is the same lexeme as vocab-n1:correction:sashidasu; target hash bound to the assembled addition.",
+        "contentHash": "7a404973c8bc478a79879b181fdbce2a8ceee8839f767c15b404c6a9fe70ff6e",
+        "approvalHash": "7a404973c8bc478a79879b181fdbce2a8ceee8839f767c15b404c6a9fe70ff6e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sashidasu.",
+        "contentHash": "7a404973c8bc478a79879b181fdbce2a8ceee8839f767c15b404c6a9fe70ff6e",
+        "approvalHash": "7a404973c8bc478a79879b181fdbce2a8ceee8839f767c15b404c6a9fe70ff6e"
+      }
+    },
+    {
+      "key": "差し出す|さしだす",
+      "referenceIndex": 1,
+      "referenceHash": "1604dd208a50e3f7cc315fd7dfc25aa28c152418f105b9f5d88c8159c5d7be2e",
+      "revisionId": "041-candidate-sashidasu-a9b6d511-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sashidasu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sashidasu": "ba9ce5afbad651d32495a69d28268e2b7fc8c935cc1630ba0e62b75218ef9ab5"
+      },
+      "reason": "Reference 差し出す/さしだす (master N1) is the same lexeme as the new entry 差し出す【さしだす】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 差し出す/さしだす at N1 (gloss: to present; to submit; to tender)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1291230; spelling=差し出す; reading=さしだす; senses=1,2,4; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1291230 as the reference form.",
+          "selected": {
+            "sequence": "1291230",
+            "spelling": "差し出す",
+            "reading": "さしだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to hold out",
+                  "to extend (e.g. a hand)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to present",
+                  "to submit",
+                  "to tender"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to send",
+                  "to forward"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 差し出す|さしだす#1 is the same lexeme as vocab-n1:correction:sashidasu; target hash bound to the assembled addition.",
+        "contentHash": "ff4f507f9089f5760dd7f503b66c17b1b92c9aaf0e0a04dbf34d4dcd34b6107d",
+        "approvalHash": "ff4f507f9089f5760dd7f503b66c17b1b92c9aaf0e0a04dbf34d4dcd34b6107d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sashidasu.",
+        "contentHash": "ff4f507f9089f5760dd7f503b66c17b1b92c9aaf0e0a04dbf34d4dcd34b6107d",
+        "approvalHash": "ff4f507f9089f5760dd7f503b66c17b1b92c9aaf0e0a04dbf34d4dcd34b6107d"
+      }
+    },
+    {
+      "key": "摩る|さする",
+      "referenceIndex": 0,
+      "referenceHash": "592abdf3ee7ebf54968d54df9fb878d1f9d38d04dec6e3dc51e3af80a14d2d82",
+      "revisionId": "041-candidate-sasuru-e0eac031-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sasuru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sasuru": "c77df92330c842ccfbdda3bcb2feb81ef6d0b8bb39b3d8d290eab683708bddc5"
+      },
+      "reason": "Reference 摩る/さする (master N1) is the same lexeme as the new entry 摩る【さする】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 摩る/さする at N1 (gloss: to pat; to stroke; caresser (pour soulager))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1523790; spelling=摩る; reading=さする; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1523790 as the reference form.",
+          "selected": {
+            "sequence": "1523790",
+            "spelling": "摩る",
+            "reading": "さする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to rub",
+                  "to pat",
+                  "to stroke",
+                  "to massage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 摩る|さする#0 is the same lexeme as vocab-n1:correction:sasuru; target hash bound to the assembled addition.",
+        "contentHash": "054d94519430faa571395b95da5dfa33e5ff13c52408f1a4ffbe35e21ca46018",
+        "approvalHash": "054d94519430faa571395b95da5dfa33e5ff13c52408f1a4ffbe35e21ca46018"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sasuru.",
+        "contentHash": "054d94519430faa571395b95da5dfa33e5ff13c52408f1a4ffbe35e21ca46018",
+        "approvalHash": "054d94519430faa571395b95da5dfa33e5ff13c52408f1a4ffbe35e21ca46018"
+      }
+    },
+    {
+      "key": "嘸|さぞ",
+      "referenceIndex": 0,
+      "referenceHash": "70754549d9f4ac861d190339b01e8851165fa922c825e58394547ea1983df337",
+      "revisionId": "041-candidate-sazo-72158488-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sazo"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sazo": "f1236774b858a55baa21e7c636f0e7b16d6d5ea9be7f81d7f62ba7abf9638ad0"
+      },
+      "reason": "Reference 嘸/さぞ (tanos N1) is the same lexeme as the new entry さぞ【さぞ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=65",
+          "finding": "tanos lists 嘸/さぞ at N1 (gloss: I am sure, certainly, no doubt)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1565620; spelling=さぞ; reading=さぞ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1565620 as the reference form.",
+          "selected": {
+            "sequence": "1565620",
+            "spelling": "さぞ",
+            "reading": "さぞ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "surely",
+                  "certainly",
+                  "no doubt",
+                  "must"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 嘸|さぞ#0 is the same lexeme as vocab-n1:correction:sazo; target hash bound to the assembled addition.",
+        "contentHash": "7d7ff10120046fb101f8c68c98ca6fc9d5adc923e04bf16628a4d63b72dbdec2",
+        "approvalHash": "7d7ff10120046fb101f8c68c98ca6fc9d5adc923e04bf16628a4d63b72dbdec2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sazo.",
+        "contentHash": "7d7ff10120046fb101f8c68c98ca6fc9d5adc923e04bf16628a4d63b72dbdec2",
+        "approvalHash": "7d7ff10120046fb101f8c68c98ca6fc9d5adc923e04bf16628a4d63b72dbdec2"
+      }
+    },
+    {
+      "key": "嘸|さぞ",
+      "referenceIndex": 1,
+      "referenceHash": "c89fe38ae562bd0e5176ed104cbdc7d34bb29eddeb0adda1798acf1c6a579526",
+      "revisionId": "041-candidate-sazo-72158488-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sazo"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sazo": "f1236774b858a55baa21e7c636f0e7b16d6d5ea9be7f81d7f62ba7abf9638ad0"
+      },
+      "reason": "Reference 嘸/さぞ (master N1) is the same lexeme as the new entry さぞ【さぞ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 嘸/さぞ at N1 (gloss: I am sure; certainly; no doubt)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1565620; spelling=さぞ; reading=さぞ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1565620 as the reference form.",
+          "selected": {
+            "sequence": "1565620",
+            "spelling": "さぞ",
+            "reading": "さぞ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "surely",
+                  "certainly",
+                  "no doubt",
+                  "must"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 嘸|さぞ#1 is the same lexeme as vocab-n1:correction:sazo; target hash bound to the assembled addition.",
+        "contentHash": "578eb1cb23943cf13d6a50632423919b19524921baa8b807e5fb028b9d56fe2c",
+        "approvalHash": "578eb1cb23943cf13d6a50632423919b19524921baa8b807e5fb028b9d56fe2c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sazo.",
+        "contentHash": "578eb1cb23943cf13d6a50632423919b19524921baa8b807e5fb028b9d56fe2c",
+        "approvalHash": "578eb1cb23943cf13d6a50632423919b19524921baa8b807e5fb028b9d56fe2c"
+      }
+    },
+    {
+      "key": "定まる|さだまる",
+      "referenceIndex": 0,
+      "referenceHash": "1e4283af0ef66d615e23ed1413449ffa5b35c6708e4013cd015196838e0e7548",
+      "revisionId": "041-candidate-sadamaru-aab56108-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sadamaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sadamaru": "5c0d4476984ca70f7b85e946d482a43554c22eeba0e6adb49f4a1b7f00f9c2bc"
+      },
+      "reason": "Reference 定まる/さだまる (tanos N1) is the same lexeme as the new entry 定まる【さだまる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=65",
+          "finding": "tanos lists 定まる/さだまる at N1 (gloss: to become settled, to be fixed)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1435370; spelling=定まる; reading=さだまる; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1435370 as the reference form.",
+          "selected": {
+            "sequence": "1435370",
+            "spelling": "定まる",
+            "reading": "さだまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to become settled",
+                  "to be fixed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 定まる|さだまる#0 is the same lexeme as vocab-n1:correction:sadamaru; target hash bound to the assembled addition.",
+        "contentHash": "899c18eb7cfe151dab5891fcd9dcf656c3638be238ba2b4faa4eaf7659de7f36",
+        "approvalHash": "899c18eb7cfe151dab5891fcd9dcf656c3638be238ba2b4faa4eaf7659de7f36"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sadamaru.",
+        "contentHash": "899c18eb7cfe151dab5891fcd9dcf656c3638be238ba2b4faa4eaf7659de7f36",
+        "approvalHash": "899c18eb7cfe151dab5891fcd9dcf656c3638be238ba2b4faa4eaf7659de7f36"
+      }
+    },
+    {
+      "key": "定まる|さだまる",
+      "referenceIndex": 1,
+      "referenceHash": "cbc8e9cd0c6c32e5156cefc55458fc6dc717ec730cf2402a8d4a451246063b1f",
+      "revisionId": "041-candidate-sadamaru-aab56108-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sadamaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sadamaru": "5c0d4476984ca70f7b85e946d482a43554c22eeba0e6adb49f4a1b7f00f9c2bc"
+      },
+      "reason": "Reference 定まる/さだまる (master N1) is the same lexeme as the new entry 定まる【さだまる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 定まる/さだまる at N1 (gloss: to become settled; to be fixed; être fixé/décidé)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1435370; spelling=定まる; reading=さだまる; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1435370 as the reference form.",
+          "selected": {
+            "sequence": "1435370",
+            "spelling": "定まる",
+            "reading": "さだまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to become settled",
+                  "to be fixed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 定まる|さだまる#1 is the same lexeme as vocab-n1:correction:sadamaru; target hash bound to the assembled addition.",
+        "contentHash": "71fdf33c3c84d6a7d6633c6faaf551372eaadf91e3dc9f03434480b90006bf6e",
+        "approvalHash": "71fdf33c3c84d6a7d6633c6faaf551372eaadf91e3dc9f03434480b90006bf6e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:sadamaru.",
+        "contentHash": "71fdf33c3c84d6a7d6633c6faaf551372eaadf91e3dc9f03434480b90006bf6e",
+        "approvalHash": "71fdf33c3c84d6a7d6633c6faaf551372eaadf91e3dc9f03434480b90006bf6e"
+      }
+    },
+    {
+      "key": "座談会|ざだんかい",
+      "referenceIndex": 0,
+      "referenceHash": "f295cdd823bab2496f60f0988e32293b4e43cf510c4f32fb82229872357a2f59",
+      "revisionId": "041-candidate-zadankai-8ad6d9c3-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:zadankai"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:zadankai": "3777a2ab77ac6ce917a16d75230fde44f2da7dfef3ff43c50f9062ab2a886247"
+      },
+      "reason": "Reference 座談会/ざだんかい (tanos N1) is the same lexeme as the new entry 座談会【ざだんかい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=67",
+          "finding": "tanos lists 座談会/ざだんかい at N1 (gloss: symposium, round-table discussion)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1291920; spelling=座談会; reading=ざだんかい; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1291920 as the reference form.",
+          "selected": {
+            "sequence": "1291920",
+            "spelling": "座談会",
+            "reading": "ざだんかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "symposium",
+                  "round-table discussion"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 座談会|ざだんかい#0 is the same lexeme as vocab-n1:correction:zadankai; target hash bound to the assembled addition.",
+        "contentHash": "cead0246149fca0338e66b9de525720eb399f4963ebfdf26c6455cbd6531476f",
+        "approvalHash": "cead0246149fca0338e66b9de525720eb399f4963ebfdf26c6455cbd6531476f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:zadankai.",
+        "contentHash": "cead0246149fca0338e66b9de525720eb399f4963ebfdf26c6455cbd6531476f",
+        "approvalHash": "cead0246149fca0338e66b9de525720eb399f4963ebfdf26c6455cbd6531476f"
+      }
+    },
+    {
+      "key": "座談会|ざだんかい",
+      "referenceIndex": 1,
+      "referenceHash": "35f516b8dbaa30789e0ff0c6e02de2c7ae8fb0aa62f211705f8ed6fe80c8331f",
+      "revisionId": "041-candidate-zadankai-8ad6d9c3-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:zadankai"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:zadankai": "3777a2ab77ac6ce917a16d75230fde44f2da7dfef3ff43c50f9062ab2a886247"
+      },
+      "reason": "Reference 座談会/ざだんかい (master N1) is the same lexeme as the new entry 座談会【ざだんかい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 座談会/ざだんかい at N1 (gloss: symposium; round-table discussion; réunion)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1291920; spelling=座談会; reading=ざだんかい; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1291920 as the reference form.",
+          "selected": {
+            "sequence": "1291920",
+            "spelling": "座談会",
+            "reading": "ざだんかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "symposium",
+                  "round-table discussion"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 座談会|ざだんかい#1 is the same lexeme as vocab-n1:correction:zadankai; target hash bound to the assembled addition.",
+        "contentHash": "9822275c57ce2ee57acd8e1047762cf8a46cb137323782f4f4f37c552e3077f1",
+        "approvalHash": "9822275c57ce2ee57acd8e1047762cf8a46cb137323782f4f4f37c552e3077f1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:zadankai.",
+        "contentHash": "9822275c57ce2ee57acd8e1047762cf8a46cb137323782f4f4f37c552e3077f1",
+        "approvalHash": "9822275c57ce2ee57acd8e1047762cf8a46cb137323782f4f4f37c552e3077f1"
+      }
+    }
+  ]
+}

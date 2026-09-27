@@ -1,0 +1,3727 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:koisuru",
+      "revisionId": "041-add-koisuru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "恋する",
+        "reading": "こいする",
+        "romaji": "koisuru",
+        "meaning": "sich verlieben, lieben (romantisch)",
+        "type": "Verb",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Suru-Verb: romantisch lieben, verliebt sein: 恋する乙女. Etwas literarischer als 好きになる.",
+        "examples": [
+          {
+            "japanese": "彼女は初めて人に恋する気持ちを知った。",
+            "romaji": "Kanojo wa hajimete hito ni koisuru kimochi o shitta.",
+            "german": "Sie erfuhr zum ersten Mal, wie es ist, verliebt zu sein."
+          },
+          {
+            "japanese": "恋する人は、毎日が楽しく見えるものだ。",
+            "romaji": "Koisuru hito wa, mainichi ga tanoshiku mieru mono da.",
+            "german": "Wer verliebt ist, dem erscheint jeder Tag schön."
+          }
+        ],
+        "pitch": null,
+        "verbGroup": "suru",
+        "conjugation": {
+          "verbGroup": "suru",
+          "conjugationReading": "こいする",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "こいする"
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 恋する【こいする】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609750; spelling=恋する; reading=こいする; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1609750 恋する/こいする sense(s) 1 support \"sich verlieben, lieben (romantisch)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1609750",
+            "spelling": "恋する",
+            "reading": "こいする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suru verb - included",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to fall in love (with)",
+                  "to love"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "恋する|こいする",
+          "referenceIndex": 0,
+          "referenceHash": "4aafa53e4e5f7e9a31c6839c9e467ea3c174be46683667d5ecd288864a1e609a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"sich verlieben, lieben (romantisch)\" matches JMdict 1609750 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "First love.",
+          "General statement about love."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1609750; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "suru; transitivity per JMdict and explained in the note.",
+        "conjugation": "suru verb, conjugation reading こいする; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 恋する / こいする; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 恋する / こいする",
+            "finding": "No exact UniDic row for the する-verb form 恋する; no accent inferred from 恋."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 恋する【こいする】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1609750 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "2b9e398c2c4e796d908006f4a011302accb2dd9e3e2fb761b2b5f43f0a2c66f1",
+        "approvalHash": "1b7664ad3a093655d3c1501aca6417dc75f873373e63a386ab0112914c8b3f65"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: JMdict pos is vs-i (suru verb - included), i.e. regular サ変 (恋しない, not *恋さない); default suru conjugation correct, こいしろ is the standard imperative (こいせよ only literary), こいできる acceptable potential — no overrides needed. Pitch unknown correctly (no UniDic row). Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "2b9e398c2c4e796d908006f4a011302accb2dd9e3e2fb761b2b5f43f0a2c66f1",
+        "approvalHash": "1b7664ad3a093655d3c1501aca6417dc75f873373e63a386ab0112914c8b3f65"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:koui-goodwill",
+      "revisionId": "041-add-koui-goodwill",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "好意",
+        "reading": "こうい",
+        "romaji": "koui",
+        "meaning": "Freundlichkeit, Wohlwollen; Zuneigung",
+        "type": "Nomen",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Freundliche Gesinnung oder Zuneigung: 好意を持つ (jemanden mögen), 好意に甘える (ein freundliches Angebot annehmen). Gleich klingend: 行為 (Handlung).",
+        "examples": [
+          {
+            "japanese": "私は彼に好意を持っている。",
+            "romaji": "Watashi wa kare ni koui o motte iru.",
+            "german": "Ich habe ihn gern."
+          },
+          {
+            "japanese": "先輩の好意に甘えて、車で送ってもらった。",
+            "romaji": "Senpai no koui ni amaete, kuruma de okutte moratta.",
+            "german": "Ich nahm das freundliche Angebot des Kollegen an und ließ mich nach Hause fahren."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119790809",
+            "patterns": [
+              1
+            ],
+            "finding": "好意 / コウイ; 名詞/普通名詞/一般/*; *; *; lemma 好意; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "好意",
+              "reading": "こうい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "好意 as \"Freundlichkeit, Wohlwollen; Zuneigung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 好意【こうい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1277530; spelling=好意; reading=こうい; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1277530 好意/こうい sense(s) 1,2 support \"Freundlichkeit, Wohlwollen; Zuneigung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1277530",
+            "spelling": "好意",
+            "reading": "こうい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kindness",
+                  "favor",
+                  "favour",
+                  "friendliness"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "goodwill",
+                  "affection",
+                  "liking (for someone)",
+                  "love"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "好意|こうい",
+          "referenceIndex": 0,
+          "referenceHash": "2f3b1dbc8ec079adeb3912d3552bec63c2cf92a901aef05b339202b88b77e6ed"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Freundlichkeit, Wohlwollen; Zuneigung\" matches JMdict 1277530 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Liking someone.",
+          "Accepting a kind offer."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1277530; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119790809 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119790809",
+            "patterns": [
+              1
+            ],
+            "finding": "好意 / コウイ; 名詞/普通名詞/一般/*; *; *; lemma 好意; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "好意",
+              "reading": "こうい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "好意 as \"Freundlichkeit, Wohlwollen; Zuneigung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 好意【こうい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1277530 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "82fb6063890942c917347dd0e63306a9ba8fe8aba677b3cf28a4095821a2cd26",
+        "approvalHash": "70b8fc71be191e3bb1fc86f3196d4a4c54b563b8478ddb32c9e49902342bb914"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Minor: 先輩 rendered as \"Kollegen\" loses the seniority nuance but is acceptable. Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "82fb6063890942c917347dd0e63306a9ba8fe8aba677b3cf28a4095821a2cd26",
+        "approvalHash": "70b8fc71be191e3bb1fc86f3196d4a4c54b563b8478ddb32c9e49902342bb914"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kouin",
+      "revisionId": "041-add-kouin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "行員",
+        "reading": "こういん",
+        "romaji": "kouin",
+        "meaning": "Bankangestellte(r)",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Angestellte einer Bank (銀行員). 行 steht hier für 銀行.",
+        "examples": [
+          {
+            "japanese": "窓口の行員が丁寧に説明してくれた。",
+            "romaji": "Madoguchi no kouin ga teinei ni setsumei shite kureta.",
+            "german": "Die Bankangestellte am Schalter hat es mir freundlich erklärt."
+          },
+          {
+            "japanese": "この銀行では約千人の行員が働いている。",
+            "romaji": "Kono ginkou de wa yaku sennin no kouin ga hataraite iru.",
+            "german": "In dieser Bank arbeiten etwa tausend Angestellte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119813046",
+            "patterns": [
+              0
+            ],
+            "finding": "行員 / コウイン; 名詞/普通名詞/一般/*; *; *; lemma 行員; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "行員",
+              "reading": "こういん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "行員 as \"Bankangestellte(r)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 行員【こういん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1281840; spelling=行員; reading=こういん; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1281840 行員/こういん sense(s) 1 support \"Bankangestellte(r)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1281840",
+            "spelling": "行員",
+            "reading": "こういん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "bank clerk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "行員|こういん",
+          "referenceIndex": 0,
+          "referenceHash": "343cdad0b1dc043ce6881a89be01d16056eaa0e7d22fb87b948c889325b61b31"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Bankangestellte(r)\" matches JMdict 1281840 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Bank counter.",
+          "Number of bank staff."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1281840; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119813046 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119813046",
+            "patterns": [
+              0
+            ],
+            "finding": "行員 / コウイン; 名詞/普通名詞/一般/*; *; *; lemma 行員; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "行員",
+              "reading": "こういん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "行員 as \"Bankangestellte(r)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 行員【こういん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1281840 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f7c6e30ff3e4b35a586315fe9d2e00ca10d3a7633458c729b1f3755d71bdaa93",
+        "approvalHash": "5640fc28c04660fd3546de522c27512010a58ec050b9f2881a72ff24b2b72d9c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "f7c6e30ff3e4b35a586315fe9d2e00ca10d3a7633458c729b1f3755d71bdaa93",
+        "approvalHash": "5640fc28c04660fd3546de522c27512010a58ec050b9f2881a72ff24b2b72d9c"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:koueki",
+      "revisionId": "041-add-koueki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "交易",
+        "reading": "こうえき",
+        "romaji": "koueki",
+        "meaning": "Handel, Tauschhandel",
+        "type": "Nomen",
+        "category": "Handel",
+        "level": "N1",
+        "notes": "Handel zwischen Ländern oder Völkern, oft historisch: 東西交易, 交易品 (Handelsware). Heute meist 貿易. Gleich klingend: 公益 (Gemeinwohl).",
+        "examples": [
+          {
+            "japanese": "昔、この港は外国との交易で栄えた。",
+            "romaji": "Mukashi, kono minato wa gaikoku to no koueki de sakaeta.",
+            "german": "Früher blühte dieser Hafen durch den Handel mit dem Ausland."
+          },
+          {
+            "japanese": "シルクロードは東西の交易の道だった。",
+            "romaji": "Shirukuroodo wa touzai no koueki no michi datta.",
+            "german": "Die Seidenstraße war ein Handelsweg zwischen Ost und West."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119825586",
+            "patterns": [
+              0
+            ],
+            "finding": "交易 / コウエキ; 名詞/普通名詞/サ変可能/*; *; *; lemma 交易; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "交易",
+              "reading": "こうえき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "交易 as \"Handel, Tauschhandel\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 交易【こうえき】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1271710; spelling=交易; reading=こうえき; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1271710 交易/こうえき sense(s) 1 support \"Handel, Tauschhandel\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1271710",
+            "spelling": "交易",
+            "reading": "こうえき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trade",
+                  "commerce"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "交易|こうえき",
+          "referenceIndex": 0,
+          "referenceHash": "c34e03f6efa3f56712b4a6ec777fb21da5e1d06fbdad272782a0ab5005b4f9e6"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Handel, Tauschhandel\" matches JMdict 1271710 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Historic trading port.",
+          "Silk Road."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1271710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119825586 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119825586",
+            "patterns": [
+              0
+            ],
+            "finding": "交易 / コウエキ; 名詞/普通名詞/サ変可能/*; *; *; lemma 交易; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "交易",
+              "reading": "こうえき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "交易 as \"Handel, Tauschhandel\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 交易【こうえき】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1271710 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "fd3669410b3437a40995f80298e9f88c6ac5d1fad7f80999f30ab4c7710094f2",
+        "approvalHash": "52320e991888ee91cc73a0022652714b576e81e3cd5da81727aeada1c19c1bd3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Round-1 fix applied exactly: notes now cite 東西交易, 交易品 (Handelsware) instead of the non-standard 南蛮交易.",
+        "contentHash": "fd3669410b3437a40995f80298e9f88c6ac5d1fad7f80999f30ab4c7710094f2",
+        "approvalHash": "52320e991888ee91cc73a0022652714b576e81e3cd5da81727aeada1c19c1bd3"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:koukai-voyage",
+      "revisionId": "041-add-koukai-voyage",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "航海",
+        "reading": "こうかい",
+        "romaji": "koukai",
+        "meaning": "Seefahrt, Schiffsreise",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N1",
+        "notes": "Eine Fahrt über das Meer; als Verb 航海する. Gleich klingend: 公開, 後悔.",
+        "examples": [
+          {
+            "japanese": "船は一か月の航海を終えて港に戻った。",
+            "romaji": "Fune wa ikkagetsu no koukai o oete minato ni modotta.",
+            "german": "Nach einer einmonatigen Seereise kehrte das Schiff in den Hafen zurück."
+          },
+          {
+            "japanese": "昔の航海は星を頼りにしていた。",
+            "romaji": "Mukashi no koukai wa hoshi o tayori ni shite ita.",
+            "german": "Früher orientierte man sich bei der Seefahrt an den Sternen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119855977",
+            "patterns": [
+              1
+            ],
+            "finding": "航海 / コウカイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 航海; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "航海",
+              "reading": "こうかい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "航海 as \"Seefahrt, Schiffsreise\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 航海【こうかい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1281250; spelling=航海; reading=こうかい; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1281250 航海/こうかい sense(s) 1 support \"Seefahrt, Schiffsreise\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1281250",
+            "spelling": "航海",
+            "reading": "こうかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(sea) voyage",
+                  "navigation",
+                  "sailing",
+                  "passage",
+                  "cruise"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "航海|こうかい",
+          "referenceIndex": 0,
+          "referenceHash": "5f9545129e5c1b866499d3f27aa983fb539b69d32f2e53c416b449fa28cd5ec3"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Seefahrt, Schiffsreise\" matches JMdict 1281250 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "End of a voyage.",
+          "Navigation by the stars."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1281250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119855977 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119855977",
+            "patterns": [
+              1
+            ],
+            "finding": "航海 / コウカイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 航海; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "航海",
+              "reading": "こうかい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "航海 as \"Seefahrt, Schiffsreise\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 航海【こうかい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1281250 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "34b0f04682451bbc6b5b44082bce272bc9258c4297f17e212876b893fc75ee4b",
+        "approvalHash": "7938e39746a53b22008152ead4ac1ef58c8e7b3021fe21c9de56e318092e90dc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "34b0f04682451bbc6b5b44082bce272bc9258c4297f17e212876b893fc75ee4b",
+        "approvalHash": "7938e39746a53b22008152ead4ac1ef58c8e7b3021fe21c9de56e318092e90dc"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:gougi",
+      "revisionId": "041-add-gougi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "合議",
+        "reading": "ごうぎ",
+        "romaji": "gougi",
+        "meaning": "gemeinsame Beratung",
+        "type": "Nomen",
+        "category": "Politik",
+        "level": "N1",
+        "notes": "Beratung mehrerer Personen, um gemeinsam zu entscheiden: 合議制 (Kollegialprinzip), 合議の上で決める.",
+        "examples": [
+          {
+            "japanese": "この件は委員の合議で決めます。",
+            "romaji": "Kono ken wa iin no gougi de kimemasu.",
+            "german": "Diese Sache wird in gemeinsamer Beratung der Ausschussmitglieder entschieden."
+          },
+          {
+            "japanese": "三人の裁判官が合議して判決を出した。",
+            "romaji": "Sannin no saibankan ga gougi shite hanketsu o dashita.",
+            "german": "Drei Richter berieten gemeinsam und fällten das Urteil."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126261392",
+            "patterns": [
+              1
+            ],
+            "finding": "合議 / ゴウギ; 名詞/普通名詞/サ変可能/*; *; *; lemma 合議; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "合議",
+              "reading": "ごうぎ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "合議 as \"gemeinsame Beratung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 合議【ごうぎ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1284700; spelling=合議; reading=ごうぎ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1284700 合議/ごうぎ sense(s) 1 support \"gemeinsame Beratung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1284700",
+            "spelling": "合議",
+            "reading": "ごうぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "consultation",
+                  "conference",
+                  "discussion",
+                  "counsel"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "合議|ごうぎ",
+          "referenceIndex": 0,
+          "referenceHash": "e248b0fe458f0d7d1d749267dc5ebe39579f39faa721890cc6f9e8cb1e84b981"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"gemeinsame Beratung\" matches JMdict 1284700 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Committee decision.",
+          "Panel of judges."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1284700; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@126261392 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126261392",
+            "patterns": [
+              1
+            ],
+            "finding": "合議 / ゴウギ; 名詞/普通名詞/サ変可能/*; *; *; lemma 合議; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "合議",
+              "reading": "ごうぎ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "合議 as \"gemeinsame Beratung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 合議【ごうぎ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1284700 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "469ef1c75b413236c2d24fbb9f89380a5702c1bc400d03ad451a42a3a347176b",
+        "approvalHash": "27150fa38ad784c431319f9767f53c23f2d70406357d46829c434a1ba39e2555"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "469ef1c75b413236c2d24fbb9f89380a5702c1bc400d03ad451a42a3a347176b",
+        "approvalHash": "27150fa38ad784c431319f9767f53c23f2d70406357d46829c434a1ba39e2555"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:koukyo",
+      "revisionId": "041-add-koukyo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "皇居",
+        "reading": "こうきょ",
+        "romaji": "koukyo",
+        "meaning": "Kaiserpalast",
+        "type": "Nomen",
+        "category": "Geographie",
+        "level": "N1",
+        "notes": "Die Residenz des japanischen Kaisers in Tokio, auf dem Gelände der früheren Burg Edo.",
+        "examples": [
+          {
+            "japanese": "皇居の周りを走る人が多い。",
+            "romaji": "Koukyo no mawari o hashiru hito ga ooi.",
+            "german": "Viele Leute joggen um den Kaiserpalast."
+          },
+          {
+            "japanese": "新年には皇居で一般参賀が行われる。",
+            "romaji": "Shinnen ni wa koukyo de ippan sanga ga okonawareru.",
+            "german": "Zu Neujahr findet am Kaiserpalast der öffentliche Neujahrsgruß statt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119917148",
+            "patterns": [
+              1
+            ],
+            "finding": "皇居 / コウキョ; 名詞/普通名詞/一般/*; *; *; lemma 皇居; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "皇居",
+              "reading": "こうきょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "皇居 as \"Kaiserpalast\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 皇居【こうきょ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1280380; spelling=皇居; reading=こうきょ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1280380 皇居/こうきょ sense(s) 1 support \"Kaiserpalast\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1280380",
+            "spelling": "皇居",
+            "reading": "こうきょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Imperial Palace (of Japan)",
+                  "imperial residence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "皇居|こうきょ",
+          "referenceIndex": 0,
+          "referenceHash": "672b3375977f9cb18b37e075c0fbef6e64adb4a4b46e6b063ae8e5dc4d8ee9da"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Kaiserpalast\" matches JMdict 1280380 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Jogging route.",
+          "New Year event."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1280380; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119917148 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119917148",
+            "patterns": [
+              1
+            ],
+            "finding": "皇居 / コウキョ; 名詞/普通名詞/一般/*; *; *; lemma 皇居; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "皇居",
+              "reading": "こうきょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "皇居 as \"Kaiserpalast\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 皇居【こうきょ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1280380 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "14ee8a7608f4f394691bca276ba1edbe28003f73a4bbbbb0e109d73f4fea4bd8",
+        "approvalHash": "e5f1aae3855e0b09b60fad1102c9218b23b386bab6535cb821151199270def9e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "14ee8a7608f4f394691bca276ba1edbe28003f73a4bbbbb0e109d73f4fea4bd8",
+        "approvalHash": "e5f1aae3855e0b09b60fad1102c9218b23b386bab6535cb821151199270def9e"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kougyou-enterprise",
+      "revisionId": "041-add-kougyou-enterprise",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "興業",
+        "reading": "こうぎょう",
+        "romaji": "kougyou",
+        "meaning": "Industrieförderung, Gründung neuer Industrien",
+        "type": "Nomen",
+        "category": "Wirtschaft",
+        "level": "N1",
+        "notes": "Das Gründen und Fördern neuer Industrien, besonders in 殖産興業 (Industrieförderung der Meiji-Zeit). Gleich klingend: 工業 (Industrie), 鉱業 (Bergbau), 興行 (Aufführung, Veranstaltung).",
+        "examples": [
+          {
+            "japanese": "明治政府は殖産興業に力を入れた。",
+            "romaji": "Meiji seifu wa shokusan kougyou ni chikara o ireta.",
+            "german": "Die Meiji-Regierung setzte auf Industrieförderung."
+          },
+          {
+            "japanese": "明治時代、政府は各地で興業を奨励し、官営工場を建てた。",
+            "romaji": "Meiji jidai, seifu wa kakuchi de kougyou o shourei shi, kan'ei koujou o tateta.",
+            "german": "In der Meiji-Zeit förderte die Regierung überall im Land die Gründung neuer Industrien und errichtete staatliche Fabriken."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119931594",
+            "patterns": [
+              0
+            ],
+            "finding": "興業 / コウギョウ; 名詞/普通名詞/一般/*; *; *; lemma 興業; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "興業",
+              "reading": "こうぎょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "興業 as \"Industrieförderung, Gründung neuer Industrien\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 興業【こうぎょう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1238240; spelling=興業; reading=こうぎょう; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1238240 興業/こうぎょう sense(s) 1 support \"Industrieförderung, Gründung neuer Industrien\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1238240",
+            "spelling": "興業",
+            "reading": "こうぎょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "promotion of industry",
+                  "inauguration of a new industrial enterprise"
+                ],
+                "notes": [
+                  "oft. in company names"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "興業|こうぎょう",
+          "referenceIndex": 0,
+          "referenceHash": "0f7ee575f3f60bfa4fd0ada0c5cb21867ec5d9fb83c18b8c8530d0058090e3c8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Industrieförderung, Gründung neuer Industrien\" matches JMdict 1238240 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Meiji industrial policy.",
+          "State-run factories in the Meiji era."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1238240; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119931594 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119931594",
+            "patterns": [
+              0
+            ],
+            "finding": "興業 / コウギョウ; 名詞/普通名詞/一般/*; *; *; lemma 興業; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "興業",
+              "reading": "こうぎょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "興業 as \"Industrieförderung, Gründung neuer Industrien\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 興業【こうぎょう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1238240 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7f13e5356bb5f6727a20dfcfa24b6969c85779aedc22b788da190d0a98557094",
+        "approvalHash": "2e93f495aa1d951fde6a4e4959858b165934ec9e731c1e1da883fb80eb66b175"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Round-1 fix applied exactly: ex2 now 明治時代、政府は各地で興業を奨励し、官営工場を建てた。 with romaji kan'ei and matching German; context updated to 'State-run factories in the Meiji era.' No 興行 ambiguity; historically accurate.",
+        "contentHash": "7f13e5356bb5f6727a20dfcfa24b6969c85779aedc22b788da190d0a98557094",
+        "approvalHash": "2e93f495aa1d951fde6a4e4959858b165934ec9e731c1e1da883fb80eb66b175"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kougen-plateau",
+      "revisionId": "041-add-kougen-plateau",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "高原",
+        "reading": "こうげん",
+        "romaji": "kougen",
+        "meaning": "Hochebene, Hochland",
+        "type": "Nomen",
+        "category": "Geographie",
+        "level": "N1",
+        "notes": "Hoch gelegenes, flaches Land, in Japan beliebt als Sommerfrische: 高原の避暑地.",
+        "examples": [
+          {
+            "japanese": "夏休みに涼しい高原で過ごした。",
+            "romaji": "Natsuyasumi ni suzushii kougen de sugoshita.",
+            "german": "Die Sommerferien habe ich im kühlen Hochland verbracht."
+          },
+          {
+            "japanese": "高原の朝は空気が澄んでいる。",
+            "romaji": "Kougen no asa wa kuuki ga sunde iru.",
+            "german": "Am Morgen ist die Luft auf der Hochebene klar."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119970393",
+            "patterns": [
+              0
+            ],
+            "finding": "高原 / コウゲン; 名詞/普通名詞/一般/*; *; *; lemma 高原; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "高原",
+              "reading": "こうげん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "高原 as \"Hochebene, Hochland\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 高原【こうげん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1283490; spelling=高原; reading=こうげん; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1283490 高原/こうげん sense(s) 1 support \"Hochebene, Hochland\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1283490",
+            "spelling": "高原",
+            "reading": "こうげん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tableland",
+                  "plateau"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "高原|こうげん",
+          "referenceIndex": 0,
+          "referenceHash": "70f80bb879289dff4345520349d02cbc8808978598c2a5033f120d014ef4c786"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Hochebene, Hochland\" matches JMdict 1283490 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Summer retreat.",
+          "Clear morning air."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1283490; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119970393 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119970393",
+            "patterns": [
+              0
+            ],
+            "finding": "高原 / コウゲン; 名詞/普通名詞/一般/*; *; *; lemma 高原; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "高原",
+              "reading": "こうげん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "高原 as \"Hochebene, Hochland\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 高原【こうげん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1283490 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "747ed47e84d0868412b024361739620717705ed0afda694f8b1569c3142b7317",
+        "approvalHash": "fc5b9b55aecf681ef0c3ee1ab77013131a0979561c52e9f699c71856c9d8d294"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "747ed47e84d0868412b024361739620717705ed0afda694f8b1569c3142b7317",
+        "approvalHash": "fc5b9b55aecf681ef0c3ee1ab77013131a0979561c52e9f699c71856c9d8d294"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:koukou-brilliant",
+      "revisionId": "041-add-koukou-brilliant",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "煌々",
+        "reading": "こうこう",
+        "romaji": "koukou",
+        "meaning": "hell strahlend, gleißend",
+        "type": "Adverb",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Beschreibt helles, strahlendes Licht, meist als 煌々と: 明かりが煌々とついている. Schriftsprachlich.",
+        "examples": [
+          {
+            "japanese": "夜中なのに、ビルの明かりが煌々とついている。",
+            "romaji": "Yonaka na noni, biru no akari ga koukou to tsuite iru.",
+            "german": "Obwohl es mitten in der Nacht ist, brennt im Gebäude hell das Licht."
+          },
+          {
+            "japanese": "月が煌々と夜道を照らしていた。",
+            "romaji": "Tsuki ga koukou to yomichi o terashite ita.",
+            "german": "Der Mond beleuchtete hell den nächtlichen Weg."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119982216",
+            "patterns": [
+              0
+            ],
+            "finding": "煌々 / コウコウ; 形状詞/タリ/*/*; *; *; lemma 煌々; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "煌々",
+              "reading": "こうこう",
+              "grammaticalForm": "形状詞/タリ/*/*; *; *",
+              "sense": "煌々 as \"hell strahlend, gleißend\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1 (煌々), tanos N1 (煌々と). Editorial N1.",
+      "rationale": "Add 煌々【こうこう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1569020; spelling=煌々; reading=こうこう; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1569020 煌々/こうこう sense(s) 1 support \"hell strahlend, gleißend\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1569020",
+            "spelling": "煌々",
+            "reading": "こうこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "'taru' adjective",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brilliant",
+                  "bright",
+                  "dazzling"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "煌々|こうこう",
+          "referenceIndex": 0,
+          "referenceHash": "17ac305017e59dccf29c70bb1b3391dedc39c155f44cb643754432b7ddfcce56"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"hell strahlend, gleißend\" matches JMdict 1569020 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Office lights at night.",
+          "Moonlight on a path."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1569020; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1 (煌々), tanos N1 (煌々と). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119982216 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119982216",
+            "patterns": [
+              0
+            ],
+            "finding": "煌々 / コウコウ; 形状詞/タリ/*/*; *; *; lemma 煌々; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "煌々",
+              "reading": "こうこう",
+              "grammaticalForm": "形状詞/タリ/*/*; *; *",
+              "sense": "煌々 as \"hell strahlend, gleißend\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 煌々【こうこう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1569020 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "be9d4b5542b73b4285cb1ea55b465588dd265fa5ea228e614ce7c3a00f8ac54e",
+        "approvalHash": "7eb837c2f0f866c7a4b28c102a893663c8c3e5e9fffa79fa83733f609a71d1e0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: 煌々/煌々と merge fine (same JMdict entry, adj-t/adv-to). Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "be9d4b5542b73b4285cb1ea55b465588dd265fa5ea228e614ce7c3a00f8ac54e",
+        "approvalHash": "7eb837c2f0f866c7a4b28c102a893663c8c3e5e9fffa79fa83733f609a71d1e0"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:koushuu-course",
+      "revisionId": "041-add-koushuu-course",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "講習",
+        "reading": "こうしゅう",
+        "romaji": "koushuu",
+        "meaning": "Lehrgang, Kurs",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N1",
+        "notes": "Kurzer Kurs zum Erwerb bestimmter Kenntnisse: 夏期講習, 救命講習, 講習を受ける. Gleich klingend: 公衆.",
+        "examples": [
+          {
+            "japanese": "運転免許の更新で講習を受けた。",
+            "romaji": "Unten menkyo no koushin de koushuu o uketa.",
+            "german": "Bei der Verlängerung des Führerscheins habe ich einen Lehrgang besucht."
+          },
+          {
+            "japanese": "夏休みに塾の講習に通った。",
+            "romaji": "Natsuyasumi ni juku no koushuu ni kayotta.",
+            "german": "In den Sommerferien habe ich einen Kurs an der Nachhilfeschule besucht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120079285",
+            "patterns": [
+              0
+            ],
+            "finding": "講習 / コウシュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 講習; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "講習",
+              "reading": "こうしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "講習 as \"Lehrgang, Kurs\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 講習【こうしゅう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1282290; spelling=講習; reading=こうしゅう; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1282290 講習/こうしゅう sense(s) 1 support \"Lehrgang, Kurs\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1282290",
+            "spelling": "講習",
+            "reading": "こうしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "short course",
+                  "training"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "講習|こうしゅう",
+          "referenceIndex": 0,
+          "referenceHash": "bca40bcda5dd931848de57e3435ea04843e3a28aa38b8631b27fe28efacd97f7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Lehrgang, Kurs\" matches JMdict 1282290 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Driving licence renewal.",
+          "Summer cram course."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1282290; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@120079285 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120079285",
+            "patterns": [
+              0
+            ],
+            "finding": "講習 / コウシュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 講習; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "講習",
+              "reading": "こうしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "講習 as \"Lehrgang, Kurs\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 講習【こうしゅう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1282290 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "491ce60b74a457d1beebe4e9bfb004acea024a9f4e51d9c2cccb641281f80eff",
+        "approvalHash": "53296e712efc67ef32ef7a2a33bae3a69d5cbe3a2b5911b78d6b09b60afc5662"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "491ce60b74a457d1beebe4e9bfb004acea024a9f4e51d9c2cccb641281f80eff",
+        "approvalHash": "53296e712efc67ef32ef7a2a33bae3a69d5cbe3a2b5911b78d6b09b60afc5662"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:koujutsu",
+      "revisionId": "041-add-koujutsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "口述",
+        "reading": "こうじゅつ",
+        "romaji": "koujutsu",
+        "meaning": "mündliche Darlegung; Diktat",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Etwas mündlich vortragen oder diktieren: 口述試験 (mündliche Prüfung), 口述筆記 (Diktat).",
+        "examples": [
+          {
+            "japanese": "作家は口述で小説を書き上げた。",
+            "romaji": "Sakka wa koujutsu de shousetsu o kakiageta.",
+            "german": "Der Schriftsteller hat den Roman diktiert."
+          },
+          {
+            "japanese": "証人の口述が記録された。",
+            "romaji": "Shounin no koujutsu ga kiroku sareta.",
+            "german": "Die mündliche Aussage des Zeugen wurde protokolliert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120157796",
+            "patterns": [
+              0
+            ],
+            "finding": "口述 / コウジュツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 口述; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "口述",
+              "reading": "こうじゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "口述 as \"mündliche Darlegung; Diktat\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 口述【こうじゅつ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1276310; spelling=口述; reading=こうじゅつ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1276310 口述/こうじゅつ sense(s) 1 support \"mündliche Darlegung; Diktat\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1276310",
+            "spelling": "口述",
+            "reading": "こうじゅつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dictation",
+                  "verbal statement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "口述|こうじゅつ",
+          "referenceIndex": 0,
+          "referenceHash": "3202d11580ad48f21e2f344c7c1b2cc13b2cec5b5f441c7bffd5135ba0f68ae9"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"mündliche Darlegung; Diktat\" matches JMdict 1276310 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Dictated novel.",
+          "Witness statement."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1276310; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@120157796 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120157796",
+            "patterns": [
+              0
+            ],
+            "finding": "口述 / コウジュツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 口述; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "口述",
+              "reading": "こうじゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "口述 as \"mündliche Darlegung; Diktat\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 口述【こうじゅつ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1276310 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ef514333b761fe04d72a24fbf83b8f91f277c9bd8508be0f630e9fd20d3fb213",
+        "approvalHash": "a1324a08a1667c0adf114aff2a719d842c3f1cc52ca826f3f725091aaefc7d2a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "ef514333b761fe04d72a24fbf83b8f91f277c9bd8508be0f630e9fd20d3fb213",
+        "approvalHash": "a1324a08a1667c0adf114aff2a719d842c3f1cc52ca826f3f725091aaefc7d2a"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "恋する|こいする",
+      "referenceIndex": 0,
+      "referenceHash": "4aafa53e4e5f7e9a31c6839c9e467ea3c174be46683667d5ecd288864a1e609a",
+      "revisionId": "041-candidate-koisuru-88d176b9-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koisuru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koisuru": "2b9e398c2c4e796d908006f4a011302accb2dd9e3e2fb761b2b5f43f0a2c66f1"
+      },
+      "reason": "Reference 恋する/こいする (tanos N1) is the same lexeme as the new entry 恋する【こいする】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=53",
+          "finding": "tanos lists 恋する/こいする at N1 (gloss: to fall in love with, to love)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609750; spelling=恋する; reading=こいする; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1609750 as the reference form.",
+          "selected": {
+            "sequence": "1609750",
+            "spelling": "恋する",
+            "reading": "こいする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suru verb - included",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to fall in love (with)",
+                  "to love"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 恋する|こいする#0 is the same lexeme as vocab-n1:correction:koisuru; target hash bound to the assembled addition.",
+        "contentHash": "0cb3ea036c8c177706686101962969e3c6d114da0ea324129e012116754c600a",
+        "approvalHash": "0cb3ea036c8c177706686101962969e3c6d114da0ea324129e012116754c600a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koisuru.",
+        "contentHash": "0cb3ea036c8c177706686101962969e3c6d114da0ea324129e012116754c600a",
+        "approvalHash": "0cb3ea036c8c177706686101962969e3c6d114da0ea324129e012116754c600a"
+      }
+    },
+    {
+      "key": "恋する|こいする",
+      "referenceIndex": 1,
+      "referenceHash": "4112b804d35ce14c577ce6e1de004f00326a50ce1e09c499dc28977baa1074d1",
+      "revisionId": "041-candidate-koisuru-88d176b9-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koisuru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koisuru": "2b9e398c2c4e796d908006f4a011302accb2dd9e3e2fb761b2b5f43f0a2c66f1"
+      },
+      "reason": "Reference 恋する/こいする (master N1) is the same lexeme as the new entry 恋する【こいする】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 恋する/こいする at N1 (gloss: to fall in love with; to love; être épris)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609750; spelling=恋する; reading=こいする; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1609750 as the reference form.",
+          "selected": {
+            "sequence": "1609750",
+            "spelling": "恋する",
+            "reading": "こいする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suru verb - included",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to fall in love (with)",
+                  "to love"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 恋する|こいする#1 is the same lexeme as vocab-n1:correction:koisuru; target hash bound to the assembled addition.",
+        "contentHash": "0b1583584aed098602c62b92ca328a546865f01cb97a544aea516a347f7ffa6b",
+        "approvalHash": "0b1583584aed098602c62b92ca328a546865f01cb97a544aea516a347f7ffa6b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koisuru.",
+        "contentHash": "0b1583584aed098602c62b92ca328a546865f01cb97a544aea516a347f7ffa6b",
+        "approvalHash": "0b1583584aed098602c62b92ca328a546865f01cb97a544aea516a347f7ffa6b"
+      }
+    },
+    {
+      "key": "好意|こうい",
+      "referenceIndex": 0,
+      "referenceHash": "2f3b1dbc8ec079adeb3912d3552bec63c2cf92a901aef05b339202b88b77e6ed",
+      "revisionId": "041-candidate-koui-goodwill-8c24d7f8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koui-goodwill"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koui-goodwill": "82fb6063890942c917347dd0e63306a9ba8fe8aba677b3cf28a4095821a2cd26"
+      },
+      "reason": "Reference 好意/こうい (tanos N1) is the same lexeme as the new entry 好意【こうい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=54",
+          "finding": "tanos lists 好意/こうい at N1 (gloss: good will, favor, courtesy)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1277530; spelling=好意; reading=こうい; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1277530 as the reference form.",
+          "selected": {
+            "sequence": "1277530",
+            "spelling": "好意",
+            "reading": "こうい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kindness",
+                  "favor",
+                  "favour",
+                  "friendliness"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "goodwill",
+                  "affection",
+                  "liking (for someone)",
+                  "love"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 好意|こうい#0 is the same lexeme as vocab-n1:correction:koui-goodwill; target hash bound to the assembled addition.",
+        "contentHash": "a028a477af6b837458b101a391185402c889c35512a9ada0a79aa507aee23e45",
+        "approvalHash": "a028a477af6b837458b101a391185402c889c35512a9ada0a79aa507aee23e45"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koui-goodwill.",
+        "contentHash": "a028a477af6b837458b101a391185402c889c35512a9ada0a79aa507aee23e45",
+        "approvalHash": "a028a477af6b837458b101a391185402c889c35512a9ada0a79aa507aee23e45"
+      }
+    },
+    {
+      "key": "好意|こうい",
+      "referenceIndex": 1,
+      "referenceHash": "ae2b0b597cf239cf437a0dfa70dc091e4edf3197a8ffc9fe22649ff9d1f6457d",
+      "revisionId": "041-candidate-koui-goodwill-8c24d7f8-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koui-goodwill"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koui-goodwill": "82fb6063890942c917347dd0e63306a9ba8fe8aba677b3cf28a4095821a2cd26"
+      },
+      "reason": "Reference 好意/こうい (master N1) is the same lexeme as the new entry 好意【こうい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 好意/こうい at N1 (gloss: good will; favor; favour)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1277530; spelling=好意; reading=こうい; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1277530 as the reference form.",
+          "selected": {
+            "sequence": "1277530",
+            "spelling": "好意",
+            "reading": "こうい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kindness",
+                  "favor",
+                  "favour",
+                  "friendliness"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "goodwill",
+                  "affection",
+                  "liking (for someone)",
+                  "love"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 好意|こうい#1 is the same lexeme as vocab-n1:correction:koui-goodwill; target hash bound to the assembled addition.",
+        "contentHash": "e74898f24364b0f03cd71a8a01086bf420c7c9ed205f19edce425717c715ebfc",
+        "approvalHash": "e74898f24364b0f03cd71a8a01086bf420c7c9ed205f19edce425717c715ebfc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koui-goodwill.",
+        "contentHash": "e74898f24364b0f03cd71a8a01086bf420c7c9ed205f19edce425717c715ebfc",
+        "approvalHash": "e74898f24364b0f03cd71a8a01086bf420c7c9ed205f19edce425717c715ebfc"
+      }
+    },
+    {
+      "key": "行員|こういん",
+      "referenceIndex": 0,
+      "referenceHash": "343cdad0b1dc043ce6881a89be01d16056eaa0e7d22fb87b948c889325b61b31",
+      "revisionId": "041-candidate-kouin-3288e7d0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kouin"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kouin": "f7c6e30ff3e4b35a586315fe9d2e00ca10d3a7633458c729b1f3755d71bdaa93"
+      },
+      "reason": "Reference 行員/こういん (tanos N1) is the same lexeme as the new entry 行員【こういん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=54",
+          "finding": "tanos lists 行員/こういん at N1 (gloss: bank clerk)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1281840; spelling=行員; reading=こういん; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1281840 as the reference form.",
+          "selected": {
+            "sequence": "1281840",
+            "spelling": "行員",
+            "reading": "こういん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "bank clerk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 行員|こういん#0 is the same lexeme as vocab-n1:correction:kouin; target hash bound to the assembled addition.",
+        "contentHash": "0f5fb2c8c52e549fef2596315ef97f573d91f81a9998bf153286d845420743ce",
+        "approvalHash": "0f5fb2c8c52e549fef2596315ef97f573d91f81a9998bf153286d845420743ce"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kouin.",
+        "contentHash": "0f5fb2c8c52e549fef2596315ef97f573d91f81a9998bf153286d845420743ce",
+        "approvalHash": "0f5fb2c8c52e549fef2596315ef97f573d91f81a9998bf153286d845420743ce"
+      }
+    },
+    {
+      "key": "行員|こういん",
+      "referenceIndex": 1,
+      "referenceHash": "fd3f2b6362616635a0e020747e89892576b47dbdbab0778ed473cac0b83e7aca",
+      "revisionId": "041-candidate-kouin-3288e7d0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kouin"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kouin": "f7c6e30ff3e4b35a586315fe9d2e00ca10d3a7633458c729b1f3755d71bdaa93"
+      },
+      "reason": "Reference 行員/こういん (master N1) is the same lexeme as the new entry 行員【こういん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 行員/こういん at N1 (gloss: bank clerk; (n) Bankangestellter; Bankbeamter (Abk.))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1281840; spelling=行員; reading=こういん; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1281840 as the reference form.",
+          "selected": {
+            "sequence": "1281840",
+            "spelling": "行員",
+            "reading": "こういん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "bank clerk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 行員|こういん#1 is the same lexeme as vocab-n1:correction:kouin; target hash bound to the assembled addition.",
+        "contentHash": "bc32025f4200273e68b5f9634f7881e1cb745149bd84fc8d1df48b38c81288e9",
+        "approvalHash": "bc32025f4200273e68b5f9634f7881e1cb745149bd84fc8d1df48b38c81288e9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kouin.",
+        "contentHash": "bc32025f4200273e68b5f9634f7881e1cb745149bd84fc8d1df48b38c81288e9",
+        "approvalHash": "bc32025f4200273e68b5f9634f7881e1cb745149bd84fc8d1df48b38c81288e9"
+      }
+    },
+    {
+      "key": "交易|こうえき",
+      "referenceIndex": 0,
+      "referenceHash": "c34e03f6efa3f56712b4a6ec777fb21da5e1d06fbdad272782a0ab5005b4f9e6",
+      "revisionId": "041-candidate-koueki-1126c89f-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koueki"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koueki": "fd3669410b3437a40995f80298e9f88c6ac5d1fad7f80999f30ab4c7710094f2"
+      },
+      "reason": "Reference 交易/こうえき (tanos N1) is the same lexeme as the new entry 交易【こうえき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=54",
+          "finding": "tanos lists 交易/こうえき at N1 (gloss: trade, commerce)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1271710; spelling=交易; reading=こうえき; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1271710 as the reference form.",
+          "selected": {
+            "sequence": "1271710",
+            "spelling": "交易",
+            "reading": "こうえき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trade",
+                  "commerce"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 交易|こうえき#0 is the same lexeme as vocab-n1:correction:koueki; target hash bound to the assembled addition.",
+        "contentHash": "a2607634d99bc88cf6aaa50efd1e906c6e3beb7270e1e8c51ead999f60bcfa19",
+        "approvalHash": "a2607634d99bc88cf6aaa50efd1e906c6e3beb7270e1e8c51ead999f60bcfa19"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koueki.",
+        "contentHash": "a2607634d99bc88cf6aaa50efd1e906c6e3beb7270e1e8c51ead999f60bcfa19",
+        "approvalHash": "a2607634d99bc88cf6aaa50efd1e906c6e3beb7270e1e8c51ead999f60bcfa19"
+      }
+    },
+    {
+      "key": "交易|こうえき",
+      "referenceIndex": 1,
+      "referenceHash": "4fdb354bb060daf86cb915d30db02e28d0db61fd6226e618d59eb9176e7bee65",
+      "revisionId": "041-candidate-koueki-1126c89f-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koueki"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koueki": "fd3669410b3437a40995f80298e9f88c6ac5d1fad7f80999f30ab4c7710094f2"
+      },
+      "reason": "Reference 交易/こうえき (master N1) is the same lexeme as the new entry 交易【こうえき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 交易/こうえき at N1 (gloss: trade; commerce; échanges)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1271710; spelling=交易; reading=こうえき; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1271710 as the reference form.",
+          "selected": {
+            "sequence": "1271710",
+            "spelling": "交易",
+            "reading": "こうえき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trade",
+                  "commerce"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 交易|こうえき#1 is the same lexeme as vocab-n1:correction:koueki; target hash bound to the assembled addition.",
+        "contentHash": "9a92eb70f58da6f9abc12d4964fdf901526feed61696e475c54be081b3981ba0",
+        "approvalHash": "9a92eb70f58da6f9abc12d4964fdf901526feed61696e475c54be081b3981ba0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koueki.",
+        "contentHash": "9a92eb70f58da6f9abc12d4964fdf901526feed61696e475c54be081b3981ba0",
+        "approvalHash": "9a92eb70f58da6f9abc12d4964fdf901526feed61696e475c54be081b3981ba0"
+      }
+    },
+    {
+      "key": "航海|こうかい",
+      "referenceIndex": 0,
+      "referenceHash": "5f9545129e5c1b866499d3f27aa983fb539b69d32f2e53c416b449fa28cd5ec3",
+      "revisionId": "041-candidate-koukai-voyage-b9a694b7-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koukai-voyage"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koukai-voyage": "34b0f04682451bbc6b5b44082bce272bc9258c4297f17e212876b893fc75ee4b"
+      },
+      "reason": "Reference 航海/こうかい (tanos N1) is the same lexeme as the new entry 航海【こうかい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=54",
+          "finding": "tanos lists 航海/こうかい at N1 (gloss: sail, voyage)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1281250; spelling=航海; reading=こうかい; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1281250 as the reference form.",
+          "selected": {
+            "sequence": "1281250",
+            "spelling": "航海",
+            "reading": "こうかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(sea) voyage",
+                  "navigation",
+                  "sailing",
+                  "passage",
+                  "cruise"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 航海|こうかい#0 is the same lexeme as vocab-n1:correction:koukai-voyage; target hash bound to the assembled addition.",
+        "contentHash": "11105c715f6ac9acfef0cd3e166b76b72297f9d9f5f0cf4ecc12a883b58c6d20",
+        "approvalHash": "11105c715f6ac9acfef0cd3e166b76b72297f9d9f5f0cf4ecc12a883b58c6d20"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koukai-voyage.",
+        "contentHash": "11105c715f6ac9acfef0cd3e166b76b72297f9d9f5f0cf4ecc12a883b58c6d20",
+        "approvalHash": "11105c715f6ac9acfef0cd3e166b76b72297f9d9f5f0cf4ecc12a883b58c6d20"
+      }
+    },
+    {
+      "key": "航海|こうかい",
+      "referenceIndex": 1,
+      "referenceHash": "12e42fe945370d97e74b3e6ace99b97baa86b626fc22d9b571d459df07fe2ba4",
+      "revisionId": "041-candidate-koukai-voyage-b9a694b7-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koukai-voyage"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koukai-voyage": "34b0f04682451bbc6b5b44082bce272bc9258c4297f17e212876b893fc75ee4b"
+      },
+      "reason": "Reference 航海/こうかい (master N1) is the same lexeme as the new entry 航海【こうかい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 航海/こうかい at N1 (gloss: sail; voyage; croisière)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1281250; spelling=航海; reading=こうかい; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1281250 as the reference form.",
+          "selected": {
+            "sequence": "1281250",
+            "spelling": "航海",
+            "reading": "こうかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(sea) voyage",
+                  "navigation",
+                  "sailing",
+                  "passage",
+                  "cruise"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 航海|こうかい#1 is the same lexeme as vocab-n1:correction:koukai-voyage; target hash bound to the assembled addition.",
+        "contentHash": "b2bccc6991a84d847192789b5de91ed5d59f9d58094f145e720f1ad53bc6eb17",
+        "approvalHash": "b2bccc6991a84d847192789b5de91ed5d59f9d58094f145e720f1ad53bc6eb17"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koukai-voyage.",
+        "contentHash": "b2bccc6991a84d847192789b5de91ed5d59f9d58094f145e720f1ad53bc6eb17",
+        "approvalHash": "b2bccc6991a84d847192789b5de91ed5d59f9d58094f145e720f1ad53bc6eb17"
+      }
+    },
+    {
+      "key": "合議|ごうぎ",
+      "referenceIndex": 0,
+      "referenceHash": "e248b0fe458f0d7d1d749267dc5ebe39579f39faa721890cc6f9e8cb1e84b981",
+      "revisionId": "041-candidate-gougi-42a23b60-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:gougi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:gougi": "469ef1c75b413236c2d24fbb9f89380a5702c1bc400d03ad451a42a3a347176b"
+      },
+      "reason": "Reference 合議/ごうぎ (tanos N1) is the same lexeme as the new entry 合議【ごうぎ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=61",
+          "finding": "tanos lists 合議/ごうぎ at N1 (gloss: consultation, conference)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1284700; spelling=合議; reading=ごうぎ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1284700 as the reference form.",
+          "selected": {
+            "sequence": "1284700",
+            "spelling": "合議",
+            "reading": "ごうぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "consultation",
+                  "conference",
+                  "discussion",
+                  "counsel"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 合議|ごうぎ#0 is the same lexeme as vocab-n1:correction:gougi; target hash bound to the assembled addition.",
+        "contentHash": "874a47298146823e0651b033fb8b8fb058d38773cb4ceb430ce58bed8421e1e0",
+        "approvalHash": "874a47298146823e0651b033fb8b8fb058d38773cb4ceb430ce58bed8421e1e0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:gougi.",
+        "contentHash": "874a47298146823e0651b033fb8b8fb058d38773cb4ceb430ce58bed8421e1e0",
+        "approvalHash": "874a47298146823e0651b033fb8b8fb058d38773cb4ceb430ce58bed8421e1e0"
+      }
+    },
+    {
+      "key": "合議|ごうぎ",
+      "referenceIndex": 1,
+      "referenceHash": "b29a5334bb1f4707075d47f81235c0fbd34d67aa379ec8cfbe128039e81af660",
+      "revisionId": "041-candidate-gougi-42a23b60-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:gougi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:gougi": "469ef1c75b413236c2d24fbb9f89380a5702c1bc400d03ad451a42a3a347176b"
+      },
+      "reason": "Reference 合議/ごうぎ (master N1) is the same lexeme as the new entry 合議【ごうぎ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 合議/ごうぎ at N1 (gloss: consultation; conference; (n) gemeinsame Besprechung)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1284700; spelling=合議; reading=ごうぎ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1284700 as the reference form.",
+          "selected": {
+            "sequence": "1284700",
+            "spelling": "合議",
+            "reading": "ごうぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "consultation",
+                  "conference",
+                  "discussion",
+                  "counsel"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 合議|ごうぎ#1 is the same lexeme as vocab-n1:correction:gougi; target hash bound to the assembled addition.",
+        "contentHash": "4582834467a1de12937ed1028313d5b4ec33537cdc626e75c13b77ec4062eb8b",
+        "approvalHash": "4582834467a1de12937ed1028313d5b4ec33537cdc626e75c13b77ec4062eb8b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:gougi.",
+        "contentHash": "4582834467a1de12937ed1028313d5b4ec33537cdc626e75c13b77ec4062eb8b",
+        "approvalHash": "4582834467a1de12937ed1028313d5b4ec33537cdc626e75c13b77ec4062eb8b"
+      }
+    },
+    {
+      "key": "皇居|こうきょ",
+      "referenceIndex": 0,
+      "referenceHash": "672b3375977f9cb18b37e075c0fbef6e64adb4a4b46e6b063ae8e5dc4d8ee9da",
+      "revisionId": "041-candidate-koukyo-169c3b48-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koukyo"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koukyo": "14ee8a7608f4f394691bca276ba1edbe28003f73a4bbbbb0e109d73f4fea4bd8"
+      },
+      "reason": "Reference 皇居/こうきょ (tanos N1) is the same lexeme as the new entry 皇居【こうきょ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=54",
+          "finding": "tanos lists 皇居/こうきょ at N1 (gloss: Imperial Palace)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1280380; spelling=皇居; reading=こうきょ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1280380 as the reference form.",
+          "selected": {
+            "sequence": "1280380",
+            "spelling": "皇居",
+            "reading": "こうきょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Imperial Palace (of Japan)",
+                  "imperial residence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 皇居|こうきょ#0 is the same lexeme as vocab-n1:correction:koukyo; target hash bound to the assembled addition.",
+        "contentHash": "dcd06b91dc3a7de453b951fdf8e5645c5aebd38e603eff9c903067bfd425b689",
+        "approvalHash": "dcd06b91dc3a7de453b951fdf8e5645c5aebd38e603eff9c903067bfd425b689"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koukyo.",
+        "contentHash": "dcd06b91dc3a7de453b951fdf8e5645c5aebd38e603eff9c903067bfd425b689",
+        "approvalHash": "dcd06b91dc3a7de453b951fdf8e5645c5aebd38e603eff9c903067bfd425b689"
+      }
+    },
+    {
+      "key": "皇居|こうきょ",
+      "referenceIndex": 1,
+      "referenceHash": "651ec777ac6e806ab8a72218b71e269d91cb22b71a1c7d1fa465ccc333e86cf5",
+      "revisionId": "041-candidate-koukyo-169c3b48-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koukyo"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koukyo": "14ee8a7608f4f394691bca276ba1edbe28003f73a4bbbbb0e109d73f4fea4bd8"
+      },
+      "reason": "Reference 皇居/こうきょ (master N1) is the same lexeme as the new entry 皇居【こうきょ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 皇居/こうきょ at N1 (gloss: Imperial Palace; palais impérial; императорский дворец)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1280380; spelling=皇居; reading=こうきょ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1280380 as the reference form.",
+          "selected": {
+            "sequence": "1280380",
+            "spelling": "皇居",
+            "reading": "こうきょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Imperial Palace (of Japan)",
+                  "imperial residence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 皇居|こうきょ#1 is the same lexeme as vocab-n1:correction:koukyo; target hash bound to the assembled addition.",
+        "contentHash": "37a98828224998df897fca64305666692a560616e30a4bbaef326b700cac5a4d",
+        "approvalHash": "37a98828224998df897fca64305666692a560616e30a4bbaef326b700cac5a4d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koukyo.",
+        "contentHash": "37a98828224998df897fca64305666692a560616e30a4bbaef326b700cac5a4d",
+        "approvalHash": "37a98828224998df897fca64305666692a560616e30a4bbaef326b700cac5a4d"
+      }
+    },
+    {
+      "key": "興業|こうぎょう",
+      "referenceIndex": 0,
+      "referenceHash": "0f7ee575f3f60bfa4fd0ada0c5cb21867ec5d9fb83c18b8c8530d0058090e3c8",
+      "revisionId": "041-candidate-kougyou-enterprise-bd7a494b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kougyou-enterprise"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kougyou-enterprise": "7f13e5356bb5f6727a20dfcfa24b6969c85779aedc22b788da190d0a98557094"
+      },
+      "reason": "Reference 興業/こうぎょう (tanos N1) is the same lexeme as the new entry 興業【こうぎょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=54",
+          "finding": "tanos lists 興業/こうぎょう at N1 (gloss: industrial enterprise)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1238240; spelling=興業; reading=こうぎょう; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1238240 as the reference form.",
+          "selected": {
+            "sequence": "1238240",
+            "spelling": "興業",
+            "reading": "こうぎょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "promotion of industry",
+                  "inauguration of a new industrial enterprise"
+                ],
+                "notes": [
+                  "oft. in company names"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 興業|こうぎょう#0 is the same lexeme as vocab-n1:correction:kougyou-enterprise; target hash bound to the assembled addition.",
+        "contentHash": "4f078c437c07828f71b429958ecea7b9e37022f33c9d313f02d995714a0f95fd",
+        "approvalHash": "4f078c437c07828f71b429958ecea7b9e37022f33c9d313f02d995714a0f95fd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kougyou-enterprise.",
+        "contentHash": "4f078c437c07828f71b429958ecea7b9e37022f33c9d313f02d995714a0f95fd",
+        "approvalHash": "4f078c437c07828f71b429958ecea7b9e37022f33c9d313f02d995714a0f95fd"
+      }
+    },
+    {
+      "key": "興業|こうぎょう",
+      "referenceIndex": 1,
+      "referenceHash": "83b2c81b7ce9e0ded9d0b6fe323defc1bc7dd324ceb7f1b50f71049ac25f900b",
+      "revisionId": "041-candidate-kougyou-enterprise-bd7a494b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kougyou-enterprise"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kougyou-enterprise": "7f13e5356bb5f6727a20dfcfa24b6969c85779aedc22b788da190d0a98557094"
+      },
+      "reason": "Reference 興業/こうぎょう (master N1) is the same lexeme as the new entry 興業【こうぎょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 興業/こうぎょう at N1 (gloss: industrial enterprise; entreprise industrielle; промы́шленный)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1238240; spelling=興業; reading=こうぎょう; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1238240 as the reference form.",
+          "selected": {
+            "sequence": "1238240",
+            "spelling": "興業",
+            "reading": "こうぎょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "promotion of industry",
+                  "inauguration of a new industrial enterprise"
+                ],
+                "notes": [
+                  "oft. in company names"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 興業|こうぎょう#1 is the same lexeme as vocab-n1:correction:kougyou-enterprise; target hash bound to the assembled addition.",
+        "contentHash": "23859c42813cb369b9fe040a8d29e69c70510e79c9f295a7b12f2ef752b0d7a3",
+        "approvalHash": "23859c42813cb369b9fe040a8d29e69c70510e79c9f295a7b12f2ef752b0d7a3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kougyou-enterprise.",
+        "contentHash": "23859c42813cb369b9fe040a8d29e69c70510e79c9f295a7b12f2ef752b0d7a3",
+        "approvalHash": "23859c42813cb369b9fe040a8d29e69c70510e79c9f295a7b12f2ef752b0d7a3"
+      }
+    },
+    {
+      "key": "高原|こうげん",
+      "referenceIndex": 0,
+      "referenceHash": "70f80bb879289dff4345520349d02cbc8808978598c2a5033f120d014ef4c786",
+      "revisionId": "041-candidate-kougen-plateau-f3d75c83-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kougen-plateau"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kougen-plateau": "747ed47e84d0868412b024361739620717705ed0afda694f8b1569c3142b7317"
+      },
+      "reason": "Reference 高原/こうげん (tanos N1) is the same lexeme as the new entry 高原【こうげん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=54",
+          "finding": "tanos lists 高原/こうげん at N1 (gloss: tableland, plateau)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1283490; spelling=高原; reading=こうげん; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1283490 as the reference form.",
+          "selected": {
+            "sequence": "1283490",
+            "spelling": "高原",
+            "reading": "こうげん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tableland",
+                  "plateau"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 高原|こうげん#0 is the same lexeme as vocab-n1:correction:kougen-plateau; target hash bound to the assembled addition.",
+        "contentHash": "449e993a85e1542095f75edf4dde7eee99fc33f65cbf87e6d18370ecad30a5a8",
+        "approvalHash": "449e993a85e1542095f75edf4dde7eee99fc33f65cbf87e6d18370ecad30a5a8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kougen-plateau.",
+        "contentHash": "449e993a85e1542095f75edf4dde7eee99fc33f65cbf87e6d18370ecad30a5a8",
+        "approvalHash": "449e993a85e1542095f75edf4dde7eee99fc33f65cbf87e6d18370ecad30a5a8"
+      }
+    },
+    {
+      "key": "高原|こうげん",
+      "referenceIndex": 1,
+      "referenceHash": "1d511f2e8c7e47104dc7c8a04e50ac7d11c6204b9dafd09e641c6077f7c9e2c7",
+      "revisionId": "041-candidate-kougen-plateau-f3d75c83-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kougen-plateau"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kougen-plateau": "747ed47e84d0868412b024361739620717705ed0afda694f8b1569c3142b7317"
+      },
+      "reason": "Reference 高原/こうげん (master N1) is the same lexeme as the new entry 高原【こうげん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 高原/こうげん at N1 (gloss: tableland; plateau; haut plateau)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1283490; spelling=高原; reading=こうげん; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1283490 as the reference form.",
+          "selected": {
+            "sequence": "1283490",
+            "spelling": "高原",
+            "reading": "こうげん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tableland",
+                  "plateau"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 高原|こうげん#1 is the same lexeme as vocab-n1:correction:kougen-plateau; target hash bound to the assembled addition.",
+        "contentHash": "54bd548e38fdfda4145b131893713c4638dc06e807301db9c9dc0c19ebbbed32",
+        "approvalHash": "54bd548e38fdfda4145b131893713c4638dc06e807301db9c9dc0c19ebbbed32"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kougen-plateau.",
+        "contentHash": "54bd548e38fdfda4145b131893713c4638dc06e807301db9c9dc0c19ebbbed32",
+        "approvalHash": "54bd548e38fdfda4145b131893713c4638dc06e807301db9c9dc0c19ebbbed32"
+      }
+    },
+    {
+      "key": "煌々|こうこう",
+      "referenceIndex": 0,
+      "referenceHash": "17ac305017e59dccf29c70bb1b3391dedc39c155f44cb643754432b7ddfcce56",
+      "revisionId": "041-candidate-koukou-brilliant-a3dbc29c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koukou-brilliant"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koukou-brilliant": "be9d4b5542b73b4285cb1ea55b465588dd265fa5ea228e614ce7c3a00f8ac54e"
+      },
+      "reason": "Reference 煌々/こうこう (master N1) is the same lexeme as the new entry 煌々【こうこう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=7",
+          "finding": "Nihongo Master lists 煌々/こうこう at N1 (gloss: brilliant; dazzling; light)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1569020; spelling=煌々; reading=こうこう; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1569020 as the reference form.",
+          "selected": {
+            "sequence": "1569020",
+            "spelling": "煌々",
+            "reading": "こうこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "'taru' adjective",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brilliant",
+                  "bright",
+                  "dazzling"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 煌々|こうこう#0 is the same lexeme as vocab-n1:correction:koukou-brilliant; target hash bound to the assembled addition.",
+        "contentHash": "54f3b098d87d70211da78bac8ca900fa61dc5467a4d90e9a7ec380bb021da6c5",
+        "approvalHash": "54f3b098d87d70211da78bac8ca900fa61dc5467a4d90e9a7ec380bb021da6c5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koukou-brilliant.",
+        "contentHash": "54f3b098d87d70211da78bac8ca900fa61dc5467a4d90e9a7ec380bb021da6c5",
+        "approvalHash": "54f3b098d87d70211da78bac8ca900fa61dc5467a4d90e9a7ec380bb021da6c5"
+      }
+    },
+    {
+      "key": "煌々と|こうこうと",
+      "referenceIndex": 0,
+      "referenceHash": "65f34dc43c32584cdd684d439bf85ea81261d6084c67aab863a68811699e909c",
+      "revisionId": "041-candidate-koukou-brilliant-d90a7923-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koukou-brilliant"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koukou-brilliant": "be9d4b5542b73b4285cb1ea55b465588dd265fa5ea228e614ce7c3a00f8ac54e"
+      },
+      "reason": "Reference 煌々と/こうこうと (tanos N1) is the same lexeme as the new entry 煌々【こうこう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=54",
+          "finding": "tanos lists 煌々と/こうこうと at N1 (gloss: brilliantly, brightly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1569020; spelling=煌々; reading=こうこう; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1569020 as the reference form.",
+          "selected": {
+            "sequence": "1569020",
+            "spelling": "煌々",
+            "reading": "こうこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "'taru' adjective",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brilliant",
+                  "bright",
+                  "dazzling"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 煌々と|こうこうと#0 is the same lexeme as vocab-n1:correction:koukou-brilliant; target hash bound to the assembled addition.",
+        "contentHash": "77de33c81396970cb5023b3b3b1db82c6e39b0629e7720bc77aed352ac5794f2",
+        "approvalHash": "77de33c81396970cb5023b3b3b1db82c6e39b0629e7720bc77aed352ac5794f2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koukou-brilliant.",
+        "contentHash": "77de33c81396970cb5023b3b3b1db82c6e39b0629e7720bc77aed352ac5794f2",
+        "approvalHash": "77de33c81396970cb5023b3b3b1db82c6e39b0629e7720bc77aed352ac5794f2"
+      }
+    },
+    {
+      "key": "講習|こうしゅう",
+      "referenceIndex": 0,
+      "referenceHash": "bca40bcda5dd931848de57e3435ea04843e3a28aa38b8631b27fe28efacd97f7",
+      "revisionId": "041-candidate-koushuu-course-6fcb4461-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koushuu-course"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koushuu-course": "491ce60b74a457d1beebe4e9bfb004acea024a9f4e51d9c2cccb641281f80eff"
+      },
+      "reason": "Reference 講習/こうしゅう (tanos N1) is the same lexeme as the new entry 講習【こうしゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=55",
+          "finding": "tanos lists 講習/こうしゅう at N1 (gloss: short course, training)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1282290; spelling=講習; reading=こうしゅう; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1282290 as the reference form.",
+          "selected": {
+            "sequence": "1282290",
+            "spelling": "講習",
+            "reading": "こうしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "short course",
+                  "training"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 講習|こうしゅう#0 is the same lexeme as vocab-n1:correction:koushuu-course; target hash bound to the assembled addition.",
+        "contentHash": "fe57d83387b29b2166dc39ee126d10289abf7b3480ba1745597e880a44ea3db3",
+        "approvalHash": "fe57d83387b29b2166dc39ee126d10289abf7b3480ba1745597e880a44ea3db3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koushuu-course.",
+        "contentHash": "fe57d83387b29b2166dc39ee126d10289abf7b3480ba1745597e880a44ea3db3",
+        "approvalHash": "fe57d83387b29b2166dc39ee126d10289abf7b3480ba1745597e880a44ea3db3"
+      }
+    },
+    {
+      "key": "講習|こうしゅう",
+      "referenceIndex": 1,
+      "referenceHash": "7498b61c03cef58b5339c63cdea06176640d4fbaa2411028f218de8c887d4138",
+      "revisionId": "041-candidate-koushuu-course-6fcb4461-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koushuu-course"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koushuu-course": "491ce60b74a457d1beebe4e9bfb004acea024a9f4e51d9c2cccb641281f80eff"
+      },
+      "reason": "Reference 講習/こうしゅう (master N1) is the same lexeme as the new entry 講習【こうしゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 講習/こうしゅう at N1 (gloss: short course; training; (n) Kurs)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1282290; spelling=講習; reading=こうしゅう; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1282290 as the reference form.",
+          "selected": {
+            "sequence": "1282290",
+            "spelling": "講習",
+            "reading": "こうしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "short course",
+                  "training"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 講習|こうしゅう#1 is the same lexeme as vocab-n1:correction:koushuu-course; target hash bound to the assembled addition.",
+        "contentHash": "881362b23f783ccdc72e628c34c3b3f2873e19255950b216382f1d71e592fbca",
+        "approvalHash": "881362b23f783ccdc72e628c34c3b3f2873e19255950b216382f1d71e592fbca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koushuu-course.",
+        "contentHash": "881362b23f783ccdc72e628c34c3b3f2873e19255950b216382f1d71e592fbca",
+        "approvalHash": "881362b23f783ccdc72e628c34c3b3f2873e19255950b216382f1d71e592fbca"
+      }
+    },
+    {
+      "key": "口述|こうじゅつ",
+      "referenceIndex": 0,
+      "referenceHash": "3202d11580ad48f21e2f344c7c1b2cc13b2cec5b5f441c7bffd5135ba0f68ae9",
+      "revisionId": "041-candidate-koujutsu-5c127385-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koujutsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koujutsu": "ef514333b761fe04d72a24fbf83b8f91f277c9bd8508be0f630e9fd20d3fb213"
+      },
+      "reason": "Reference 口述/こうじゅつ (tanos N1) is the same lexeme as the new entry 口述【こうじゅつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=55",
+          "finding": "tanos lists 口述/こうじゅつ at N1 (gloss: verbal statement)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1276310; spelling=口述; reading=こうじゅつ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1276310 as the reference form.",
+          "selected": {
+            "sequence": "1276310",
+            "spelling": "口述",
+            "reading": "こうじゅつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dictation",
+                  "verbal statement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 口述|こうじゅつ#0 is the same lexeme as vocab-n1:correction:koujutsu; target hash bound to the assembled addition.",
+        "contentHash": "9f63aef0efa36bf88fc3f5e1697e842f7796a509be5ebfb7b289e5d90a5e28da",
+        "approvalHash": "9f63aef0efa36bf88fc3f5e1697e842f7796a509be5ebfb7b289e5d90a5e28da"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koujutsu.",
+        "contentHash": "9f63aef0efa36bf88fc3f5e1697e842f7796a509be5ebfb7b289e5d90a5e28da",
+        "approvalHash": "9f63aef0efa36bf88fc3f5e1697e842f7796a509be5ebfb7b289e5d90a5e28da"
+      }
+    },
+    {
+      "key": "口述|こうじゅつ",
+      "referenceIndex": 1,
+      "referenceHash": "8940219cc1c53deccda34d6570ce03a578549185a31ce8d4a21a40168b12acc4",
+      "revisionId": "041-candidate-koujutsu-5c127385-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koujutsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koujutsu": "ef514333b761fe04d72a24fbf83b8f91f277c9bd8508be0f630e9fd20d3fb213"
+      },
+      "reason": "Reference 口述/こうじゅつ (master N1) is the same lexeme as the new entry 口述【こうじゅつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 口述/こうじゅつ at N1 (gloss: dictation; verbal statement; déclaration (parlée))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1276310; spelling=口述; reading=こうじゅつ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1276310 as the reference form.",
+          "selected": {
+            "sequence": "1276310",
+            "spelling": "口述",
+            "reading": "こうじゅつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dictation",
+                  "verbal statement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 口述|こうじゅつ#1 is the same lexeme as vocab-n1:correction:koujutsu; target hash bound to the assembled addition.",
+        "contentHash": "ad810c70a3d6441653c6f49343fbfa82d16ae4f5cab33183272abf0b0568886d",
+        "approvalHash": "ad810c70a3d6441653c6f49343fbfa82d16ae4f5cab33183272abf0b0568886d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koujutsu.",
+        "contentHash": "ad810c70a3d6441653c6f49343fbfa82d16ae4f5cab33183272abf0b0568886d",
+        "approvalHash": "ad810c70a3d6441653c6f49343fbfa82d16ae4f5cab33183272abf0b0568886d"
+      }
+    }
+  ]
+}

@@ -93,7 +93,7 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
 - **038– (N1 JLPT-list gaps, research in maintenance-038 …):** the N1 backlog in twelve chunks by reading,
   curated the same way as the N2 chunks and each checked by an independent reviewer.
 
-Runtime: **14,529 entries** (N5 1,643, N4 1,637, N3 3,753, N2 3,171, N1 4,325),
+Runtime: **14,757 entries** (N5 1,643, N4 1,637, N3 3,753, N2 3,171, N1 4,553),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70

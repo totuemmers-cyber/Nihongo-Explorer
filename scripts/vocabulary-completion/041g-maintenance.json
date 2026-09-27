@@ -1,0 +1,4239 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:koonaa",
+      "revisionId": "041-add-koonaa",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "コーナー",
+        "reading": "コーナー",
+        "romaji": "koonaa",
+        "meaning": "Ecke, Kurve; Abteilung; Rubrik",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "Kurve (Rennstrecke), Bereich im Geschäft (食品コーナー) oder Rubrik einer Sendung.",
+        "examples": [
+          {
+            "japanese": "本屋の外国語のコーナーで辞書を探した。",
+            "romaji": "Hon'ya no gaikokugo no koonaa de jisho o sagashita.",
+            "german": "In der Fremdsprachenabteilung der Buchhandlung habe ich ein Wörterbuch gesucht."
+          },
+          {
+            "japanese": "最後のコーナーで、選手が一人を抜いた。",
+            "romaji": "Saigo no koonaa de, senshu ga hitori o nuita.",
+            "german": "In der letzten Kurve überholte der Läufer einen Konkurrenten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126174862",
+            "patterns": [
+              1
+            ],
+            "finding": "コーナー / コーナー; 名詞/普通名詞/一般/*; *; *; lemma コーナー-corner; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コーナー",
+              "reading": "コーナー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コーナー as \"Ecke, Kurve; Abteilung; Rubrik\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add コーナー【コーナー】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1049110; spelling=コーナー; reading=コーナー; senses=1,2,3; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1049110 コーナー/コーナー sense(s) 1,2,3 support \"Ecke, Kurve; Abteilung; Rubrik\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1049110",
+            "spelling": "コーナー",
+            "reading": "コーナー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "corner",
+                  "bend",
+                  "turn"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "segment (within a radio or TV program)",
+                  "session",
+                  "column (newspaper, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "area",
+                  "department",
+                  "section"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "こーなー|こーなー",
+          "referenceIndex": 0,
+          "referenceHash": "7e1f46e7c7f7ed86c0e0179ed4c67130763f381a976e3d1494c019816e0b14f0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Ecke, Kurve; Abteilung; Rubrik\" matches JMdict 1049110 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Bookshop section.",
+          "Race bend."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1049110; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@126174862 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126174862",
+            "patterns": [
+              1
+            ],
+            "finding": "コーナー / コーナー; 名詞/普通名詞/一般/*; *; *; lemma コーナー-corner; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コーナー",
+              "reading": "コーナー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コーナー as \"Ecke, Kurve; Abteilung; Rubrik\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add コーナー【コーナー】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1049110 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "95e2cf7a5e14b3d7ec8133e258212cddc6ac0e8f8708b5454ab1eddfdefc0af7",
+        "approvalHash": "21e2a28ccade58a5a119883c83dbee4bde110eea72278f9d9e16e5b7b66b3d06"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Easy katakana word kept at N1 per tanos+Master N1; not duplicated at lower levels. Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "95e2cf7a5e14b3d7ec8133e258212cddc6ac0e8f8708b5454ab1eddfdefc0af7",
+        "approvalHash": "21e2a28ccade58a5a119883c83dbee4bde110eea72278f9d9e16e5b7b66b3d06"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:konagona",
+      "revisionId": "041-add-konagona",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "粉々",
+        "reading": "こなごな",
+        "romaji": "konagona",
+        "meaning": "in tausend Stücke, in Scherben",
+        "type": "Adjektiv",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "な-Adjektiv: völlig zerbrochen oder zerkleinert, meist 粉々になる / 粉々に割れる.",
+        "examples": [
+          {
+            "japanese": "落としたコップが粉々に割れた。",
+            "romaji": "Otoshita koppu ga konagona ni wareta.",
+            "german": "Das Glas, das mir heruntergefallen ist, zersprang in tausend Stücke."
+          },
+          {
+            "japanese": "地震で窓ガラスが粉々になった。",
+            "romaji": "Jishin de madogarasu ga konagona ni natta.",
+            "german": "Durch das Erdbeben zersplitterte die Fensterscheibe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123717439",
+            "patterns": [
+              0
+            ],
+            "finding": "粉々 / コナゴナ; 名詞/普通名詞/一般/*; *; *; lemma 粉々; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "粉々",
+              "reading": "こなごな",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "粉々 as \"in tausend Stücke, in Scherben\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 粉々【こなごな】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1593360; spelling=粉々; reading=こなごな; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1593360 粉々/こなごな sense(s) 1 support \"in tausend Stücke, in Scherben\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1593360",
+            "spelling": "粉々",
+            "reading": "こなごな",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in very small pieces"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "粉々|こなごな",
+          "referenceIndex": 0,
+          "referenceHash": "d7e79d830cc657efa942603213252bfb0b75c705279a01c960c83efbfcbe6b82"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"in tausend Stücke, in Scherben\" matches JMdict 1593360 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Dropped glass.",
+          "Earthquake damage."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1593360; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@123717439 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123717439",
+            "patterns": [
+              0
+            ],
+            "finding": "粉々 / コナゴナ; 名詞/普通名詞/一般/*; *; *; lemma 粉々; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "粉々",
+              "reading": "こなごな",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "粉々 as \"in tausend Stücke, in Scherben\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 粉々【こなごな】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1593360 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2f3dbbe3fe4fe96ee4856a61d7e1e4d8b4ea865c1ab91373c41e7a43b4a9bfcc",
+        "approvalHash": "1ef9b01b67a12fe0dd017fe3ff974a3b066fe00202061e6ca51de523cad87d62"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "2f3dbbe3fe4fe96ee4856a61d7e1e4d8b4ea865c1ab91373c41e7a43b4a9bfcc",
+        "approvalHash": "1ef9b01b67a12fe0dd017fe3ff974a3b066fe00202061e6ca51de523cad87d62"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:komaasharu",
+      "revisionId": "041-add-komaasharu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "コマーシャル",
+        "reading": "コマーシャル",
+        "romaji": "komaasharu",
+        "meaning": "Werbung, Werbespot",
+        "type": "Nomen",
+        "category": "Medien",
+        "level": "N1",
+        "notes": "Werbespot in Fernsehen oder Radio; kurz CM（シーエム）.",
+        "examples": [
+          {
+            "japanese": "この歌はテレビのコマーシャルで有名になった。",
+            "romaji": "Kono uta wa terebi no komaasharu de yuumei ni natta.",
+            "german": "Dieses Lied wurde durch einen Fernsehwerbespot bekannt."
+          },
+          {
+            "japanese": "映画の途中にコマーシャルが多すぎる。",
+            "romaji": "Eiga no tochuu ni komaasharu ga oosugiru.",
+            "german": "Mitten im Film gibt es zu viel Werbung."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124463870",
+            "patterns": [
+              2
+            ],
+            "finding": "コマーシャル / コマーシャル; 名詞/普通名詞/一般/*; *; *; lemma コマーシャル-commercial; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コマーシャル",
+              "reading": "コマーシャル",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コマーシャル as \"Werbung, Werbespot\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add コマーシャル【コマーシャル】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1050720; spelling=コマーシャル; reading=コマーシャル; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1050720 コマーシャル/コマーシャル sense(s) 1 support \"Werbung, Werbespot\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1050720",
+            "spelling": "コマーシャル",
+            "reading": "コマーシャル",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "commercial (TV or radio advertisement)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "こまーしゃる|こまーしゃる",
+          "referenceIndex": 0,
+          "referenceHash": "b204b4757163e4166a7b67e62709ec983eb8eb2406690df49b47879c7ed943d1"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Werbung, Werbespot\" matches JMdict 1050720 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Song from an ad.",
+          "Too many ads in a film."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1050720; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@124463870 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124463870",
+            "patterns": [
+              2
+            ],
+            "finding": "コマーシャル / コマーシャル; 名詞/普通名詞/一般/*; *; *; lemma コマーシャル-commercial; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コマーシャル",
+              "reading": "コマーシャル",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コマーシャル as \"Werbung, Werbespot\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add コマーシャル【コマーシャル】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1050720 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a3db9062e54b4c07405c7f64c2a1bd35f56fbc2636eed37f71da623251aaa8df",
+        "approvalHash": "8939eae7349f6fd25f3709a09d6a282a2aee22a9f700eb4f51ac3a80c09518e5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "a3db9062e54b4c07405c7f64c2a1bd35f56fbc2636eed37f71da623251aaa8df",
+        "approvalHash": "8939eae7349f6fd25f3709a09d6a282a2aee22a9f700eb4f51ac3a80c09518e5"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:komayaka",
+      "revisionId": "041-add-komayaka",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "細やか",
+        "reading": "こまやか",
+        "romaji": "komayaka",
+        "meaning": "fürsorglich, liebevoll; sorgfältig",
+        "type": "Adjektiv",
+        "category": "Charakter",
+        "level": "N1",
+        "notes": "な-Adjektiv: herzlich und aufmerksam (細やかな愛情, 細やかな気配り). Nicht zu verwechseln mit 細やか（ささやか, bescheiden）.",
+        "examples": [
+          {
+            "japanese": "旅館の細やかなサービスに感動した。",
+            "romaji": "Ryokan no komayaka na saabisu ni kandou shita.",
+            "german": "Der aufmerksame Service des Ryokan hat mich sehr beeindruckt."
+          },
+          {
+            "japanese": "母は細やかな愛情で私たちを育ててくれた。",
+            "romaji": "Haha wa komayaka na aijou de watashitachi o sodatete kureta.",
+            "german": "Meine Mutter hat uns mit liebevoller Fürsorge großgezogen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124426152",
+            "patterns": [
+              2
+            ],
+            "finding": "細やか / コマヤカ; 形状詞/一般/*/*; *; *; lemma 濃やか; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "細やか",
+              "reading": "こまやか",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "細やか as \"fürsorglich, liebevoll; sorgfältig\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 細やか【こまやか】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1295550; spelling=細やか; reading=こまやか; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1295550 細やか/こまやか sense(s) 1,2 support \"fürsorglich, liebevoll; sorgfältig\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1295550",
+            "spelling": "細やか",
+            "reading": "こまやか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tender",
+                  "warm",
+                  "caring",
+                  "thoughtful"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meticulous",
+                  "detailed",
+                  "attentive"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "細やか|こまやか",
+          "referenceIndex": 0,
+          "referenceHash": "bb2472f10c99de30061fcf2e16fbfc0ee8b7647a20b03f4255e863dc8ba76ace"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"fürsorglich, liebevoll; sorgfältig\" matches JMdict 1295550 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Attentive service.",
+          "Mother’s affection."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1295550; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@124426152 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124426152",
+            "patterns": [
+              2
+            ],
+            "finding": "細やか / コマヤカ; 形状詞/一般/*/*; *; *; lemma 濃やか; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "細やか",
+              "reading": "こまやか",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "細やか as \"fürsorglich, liebevoll; sorgfältig\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 細やか【こまやか】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1295550 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "dde333dd8dcd76e029b521ef4e8f3f625e1e8299565a107549db1a4d418464e2",
+        "approvalHash": "1ebd6a45c28ffe90b038978c5063e4d7f82c51815d4ca3b903f7f49fd52067ee"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: UniDic row surface 細やか/コマヤカ, lemma 濃やか = same lexeme こまやか; verified 2 acceptable. Note distinguishes the ささやか reading correctly. Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "dde333dd8dcd76e029b521ef4e8f3f625e1e8299565a107549db1a4d418464e2",
+        "approvalHash": "1ebd6a45c28ffe90b038978c5063e4d7f82c51815d4ca3b903f7f49fd52067ee"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:komoru",
+      "revisionId": "041-add-komoru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "こもる",
+        "reading": "こもる",
+        "romaji": "komoru",
+        "meaning": "sich einschließen; erfüllt sein von; stickig sein",
+        "type": "Verb",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Intransitives Godan-Verb: sich zurückziehen (部屋にこもる), von Gefühl erfüllt sein (心のこもった) oder Rauch/Geruch staut sich (煙がこもる).",
+        "examples": [
+          {
+            "japanese": "彼は週末ずっと部屋にこもっていた。",
+            "romaji": "Kare wa shuumatsu zutto heya ni komotte ita.",
+            "german": "Er hat sich das ganze Wochenende in seinem Zimmer verkrochen."
+          },
+          {
+            "japanese": "心のこもった手紙をもらって、うれしかった。",
+            "romaji": "Kokoro no komotta tegami o moratte, ureshikatta.",
+            "german": "Ich habe mich über den herzlichen Brief gefreut."
+          }
+        ],
+        "pitch": 2,
+        "aliases": [
+          "籠もる",
+          "籠る",
+          "篭る"
+        ],
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "こもる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "こもる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124796762",
+            "patterns": [
+              2
+            ],
+            "finding": "こもる / コモル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 籠もる; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "こもる",
+              "reading": "こもる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "こもる as \"sich einschließen; erfüllt sein von; stickig sein\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1 (篭る), Nihongo Master N1 (籠もる). Editorial N1.",
+      "rationale": "Add こもる【こもる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1593430; spelling=こもる; reading=こもる; senses=1,2,3; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1593430 こもる/こもる sense(s) 1,2,3 support \"sich einschließen; erfüllt sein von; stickig sein\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1593430",
+            "spelling": "こもる",
+            "reading": "こもる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to shut oneself in (e.g. one's room)",
+                  "to be confined in",
+                  "to seclude oneself",
+                  "to hide away",
+                  "to stay inside (one's shell)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to fill with (emotion, enthusiasm, power, etc.)",
+                  "to imbue with",
+                  "to infuse with"
+                ],
+                "notes": [
+                  "oft. as ...のこもったもの"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to fill a space (of a gas, smell, etc.)",
+                  "to be heavy with (e.g. smoke)",
+                  "to be stuffy",
+                  "to be dense"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "籠もる|こもる",
+          "referenceIndex": 0,
+          "referenceHash": "12e79f3cd990cb37580ef591e27e4f5a62fb5a3514597eee2e8743f20ad7f27c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"sich einschließen; erfüllt sein von; stickig sein\" matches JMdict 1593430 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Staying in one’s room.",
+          "Heartfelt letter."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1593430; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading こもる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1 (篭る), Nihongo Master N1 (籠もる). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@124796762 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124796762",
+            "patterns": [
+              2
+            ],
+            "finding": "こもる / コモル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 籠もる; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "こもる",
+              "reading": "こもる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "こもる as \"sich einschließen; erfüllt sein von; stickig sein\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add こもる【こもる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1593430 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ba9140b20f21e52eb0dfa763b6a3f20d36f69960897a751ceaf5de363fabbfd0",
+        "approvalHash": "53f31ea60672576e40def876dbdf4c8f2a398d2bba1c5c87cdf4d5722949f75d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Aliases 籠もる/籠る/篭る are spellings of JMdict 1593430; UniDic lemma 籠もる same lexeme. Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "ba9140b20f21e52eb0dfa763b6a3f20d36f69960897a751ceaf5de363fabbfd0",
+        "approvalHash": "53f31ea60672576e40def876dbdf4c8f2a398d2bba1c5c87cdf4d5722949f75d"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:korasu",
+      "revisionId": "041-add-korasu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "凝らす",
+        "reading": "こらす",
+        "romaji": "korasu",
+        "meaning": "konzentrieren; aufwenden (Mühe, Ideen)",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitives Godan-Verb, fest in Wendungen: 目を凝らす (genau hinsehen), 工夫を凝らす (sich etwas einfallen lassen), 息を凝らす (den Atem anhalten).",
+        "examples": [
+          {
+            "japanese": "暗闇の中で目を凝らすと、人影が見えた。",
+            "romaji": "Kurayami no naka de me o korasu to, hitokage ga mieta.",
+            "german": "Als ich in der Dunkelheit genau hinsah, erkannte ich eine Gestalt."
+          },
+          {
+            "japanese": "店は工夫を凝らしたメニューで客を集めている。",
+            "romaji": "Mise wa kufuu o korashita menyuu de kyaku o atsumete iru.",
+            "german": "Das Restaurant lockt Gäste mit einer einfallsreichen Speisekarte an."
+          }
+        ],
+        "pitch": 2,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "こらす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "こらす",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124952974",
+            "patterns": [
+              2
+            ],
+            "finding": "凝らす / コラス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 凝らす; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "凝らす",
+              "reading": "こらす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "凝らす as \"konzentrieren; aufwenden (Mühe, Ideen)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 凝らす【こらす】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1239010; spelling=凝らす; reading=こらす; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1239010 凝らす/こらす sense(s) 1 support \"konzentrieren; aufwenden (Mühe, Ideen)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1239010",
+            "spelling": "凝らす",
+            "reading": "こらす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to concentrate",
+                  "to focus on",
+                  "to devote",
+                  "to apply oneself"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "凝らす|こらす",
+          "referenceIndex": 0,
+          "referenceHash": "54b3740eabe2a1c270fdcd40e0c41bc3fb8fddb3b13428cfa0bfc8bd3434ed4a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"konzentrieren; aufwenden (Mühe, Ideen)\" matches JMdict 1239010 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Straining eyes in the dark.",
+          "Creative menu."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1239010; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading こらす; nested and top-level metadata agree.",
+        "level": "Publisher references: Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@124952974 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124952974",
+            "patterns": [
+              2
+            ],
+            "finding": "凝らす / コラス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 凝らす; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "凝らす",
+              "reading": "こらす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "凝らす as \"konzentrieren; aufwenden (Mühe, Ideen)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 凝らす【こらす】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1239010 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "fb3dafea7794fac6bcc28afa541e0d546f7e4e14407c220daf262bc0f95ca208",
+        "approvalHash": "22b1bf319c4d03ef73bd4a2ab36d4edcf7d7e93ff3379ca8ffc82c236aeeaeea"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "fb3dafea7794fac6bcc28afa541e0d546f7e4e14407c220daf262bc0f95ca208",
+        "approvalHash": "22b1bf319c4d03ef73bd4a2ab36d4edcf7d7e93ff3379ca8ffc82c236aeeaeea"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:goran-nasai",
+      "revisionId": "041-add-goran-nasai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ご覧なさい",
+        "reading": "ごらんなさい",
+        "romaji": "gorannasai",
+        "meaning": "sieh mal!; versuch doch (mal)",
+        "type": "Ausdruck",
+        "category": "Ausdrücke",
+        "level": "N1",
+        "notes": "Freundliche Aufforderung von Älteren an Jüngere: „Schau mal!“ Nach て-Form: 〜てご覧なさい (versuch mal). Kürzer: ご覧.",
+        "examples": [
+          {
+            "japanese": "ほら、窓の外をご覧なさい。雪ですよ。",
+            "romaji": "Hora, mado no soto o goran nasai. Yuki desu yo.",
+            "german": "Schau mal aus dem Fenster! Es schneit."
+          },
+          {
+            "japanese": "自分でもう一度考えてご覧なさい。",
+            "romaji": "Jibun de mou ichido kangaete goran nasai.",
+            "german": "Denk doch selbst noch einmal darüber nach."
+          }
+        ],
+        "pitch": null,
+        "aliases": [
+          "御覧なさい"
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add ご覧なさい【ごらんなさい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1270770; spelling=ご覧なさい; reading=ごらんなさい; senses=1,3; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1270770 ご覧なさい/ごらんなさい sense(s) 1,3 support \"sieh mal!; versuch doch (mal)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1270770",
+            "spelling": "ご覧なさい",
+            "reading": "ごらんなさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language",
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "(please) look"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "auxiliary verb"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language",
+                  "polite (teineigo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "(please) try to do"
+                ],
+                "notes": [
+                  "after the -te form of a verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "御覧なさい|ごらんなさい",
+          "referenceIndex": 0,
+          "referenceHash": "33580b230ee0257497a35ca88748e9b97713f3ca4bde7f6c0cfcf1740aa7249f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"sieh mal!; versuch doch (mal)\" matches JMdict 1270770 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Parent to child (snow).",
+          "Teacher encouraging a pupil."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1270770; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ご覧なさい / ごらんなさい; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup ご覧なさい / ごらんなさい",
+            "finding": "No exact UniDic row for the expression ご覧なさい."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add ご覧なさい【ごらんなさい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1270770 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "83a3857c6d34c421d2f6259063090b4e69d8061b1e28d6d0510fe699d5d829bb",
+        "approvalHash": "b0e3732daecd14c09ca9e2d385e28880a798c87822f15621fa678c4c31213472"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Pitch unknown correctly. Senses 1 and 3 each exemplified; alias 御覧なさい covers the publisher spelling. Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "83a3857c6d34c421d2f6259063090b4e69d8061b1e28d6d0510fe699d5d829bb",
+        "approvalHash": "b0e3732daecd14c09ca9e2d385e28880a798c87822f15621fa678c4c31213472"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kontakuto",
+      "revisionId": "041-add-kontakuto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "コンタクト",
+        "reading": "コンタクト",
+        "romaji": "kontakuto",
+        "meaning": "Kontakt; Kontaktlinse",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "Kontakt aufnehmen (コンタクトを取る) und kurz für コンタクトレンズ (Kontaktlinse).",
+        "examples": [
+          {
+            "japanese": "朝起きたら、まずコンタクトを入れる。",
+            "romaji": "Asa okitara, mazu kontakuto o ireru.",
+            "german": "Nach dem Aufstehen setze ich als Erstes die Kontaktlinsen ein."
+          },
+          {
+            "japanese": "取引先とコンタクトを取るのが私の仕事だ。",
+            "romaji": "Torihikisaki to kontakuto o toru no ga watashi no shigoto da.",
+            "german": "Meine Aufgabe ist es, Kontakt mit den Geschäftspartnern aufzunehmen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125963047",
+            "patterns": [
+              1,
+              3
+            ],
+            "finding": "コンタクト / コンタクト; 名詞/普通名詞/一般/*; *; *; lemma コンタクト-contact; aType 1,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コンタクト",
+              "reading": "コンタクト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コンタクト as \"Kontakt; Kontaktlinse\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add コンタクト【コンタクト】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052410; spelling=コンタクト; reading=コンタクト; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1052410 コンタクト/コンタクト sense(s) 1,2 support \"Kontakt; Kontaktlinse\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1052410",
+            "spelling": "コンタクト",
+            "reading": "コンタクト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contact",
+                  "touch"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "contact lens"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "こんたくと|こんたくと",
+          "referenceIndex": 0,
+          "referenceHash": "565880a4d3a4ccdd09f665b673197395520e06ca87dfa2bfcd7d2887bcd80fc0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Kontakt; Kontaktlinse\" matches JMdict 1052410 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Contact lenses in the morning.",
+          "Contacting clients."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1052410; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@125963047 attest 1,3; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125963047",
+            "patterns": [
+              1,
+              3
+            ],
+            "finding": "コンタクト / コンタクト; 名詞/普通名詞/一般/*; *; *; lemma コンタクト-contact; aType 1,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コンタクト",
+              "reading": "コンタクト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コンタクト as \"Kontakt; Kontaktlinse\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add コンタクト【コンタクト】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1052410 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "571c7b458bea165035abd8a10c3af75c390bd8723af3c632ad5e778f141583e0",
+        "approvalHash": "a13d2de8a51ea1a7d2bdcdbb977f0eae71c7e5264135aa8424a39de025d0abe5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Kept at N1 per both publishers; both senses exemplified. Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "571c7b458bea165035abd8a10c3af75c390bd8723af3c632ad5e778f141583e0",
+        "approvalHash": "a13d2de8a51ea1a7d2bdcdbb977f0eae71c7e5264135aa8424a39de025d0abe5"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kontesuto",
+      "revisionId": "041-add-kontesuto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "コンテスト",
+        "reading": "コンテスト",
+        "romaji": "kontesuto",
+        "meaning": "Wettbewerb",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N1",
+        "notes": "Wettbewerb mit Bewertung durch eine Jury: 写真コンテスト, スピーチコンテスト.",
+        "examples": [
+          {
+            "japanese": "日本語のスピーチコンテストに出ることにした。",
+            "romaji": "Nihongo no supiichi kontesuto ni deru koto ni shita.",
+            "german": "Ich habe beschlossen, an einem japanischen Redewettbewerb teilzunehmen."
+          },
+          {
+            "japanese": "写真のコンテストで一位になった。",
+            "romaji": "Shashin no kontesuto de ichii ni natta.",
+            "german": "Ich habe beim Fotowettbewerb den ersten Platz gemacht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125988533",
+            "patterns": [
+              1
+            ],
+            "finding": "コンテスト / コンテスト; 名詞/普通名詞/一般/*; *; *; lemma コンテスト-contest; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コンテスト",
+              "reading": "コンテスト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コンテスト as \"Wettbewerb\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add コンテスト【コンテスト】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052590; spelling=コンテスト; reading=コンテスト; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1052590 コンテスト/コンテスト sense(s) 1 support \"Wettbewerb\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1052590",
+            "spelling": "コンテスト",
+            "reading": "コンテスト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contest"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "こんてすと|こんてすと",
+          "referenceIndex": 0,
+          "referenceHash": "2a14f13cec9d7edbe358e275d957f32964dd467c78cef96258f608e77ef30aa2"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Wettbewerb\" matches JMdict 1052590 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Speech contest.",
+          "Photo contest win."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1052590; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@125988533 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125988533",
+            "patterns": [
+              1
+            ],
+            "finding": "コンテスト / コンテスト; 名詞/普通名詞/一般/*; *; *; lemma コンテスト-contest; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コンテスト",
+              "reading": "コンテスト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コンテスト as \"Wettbewerb\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add コンテスト【コンテスト】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1052590 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "421624081a651abb0fee8949f197a13246a7cd7729875652231c44bc3a9129fe",
+        "approvalHash": "d7d1af9106cbf9891b0b5d0ca008c2439b9da8406f053ca3b7111109edcb826a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "421624081a651abb0fee8949f197a13246a7cd7729875652231c44bc3a9129fe",
+        "approvalHash": "d7d1af9106cbf9891b0b5d0ca008c2439b9da8406f053ca3b7111109edcb826a"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kontorasuto",
+      "revisionId": "041-add-kontorasuto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "コントラスト",
+        "reading": "コントラスト",
+        "romaji": "kontorasuto",
+        "meaning": "Kontrast",
+        "type": "Nomen",
+        "category": "Kunst",
+        "level": "N1",
+        "notes": "Gegensatz von Farben, Helligkeit oder Eigenschaften: 色のコントラスト, 画面のコントラストを上げる.",
+        "examples": [
+          {
+            "japanese": "青い空と白い雪のコントラストが美しい。",
+            "romaji": "Aoi sora to shiroi yuki no kontorasuto ga utsukushii.",
+            "german": "Der Kontrast zwischen blauem Himmel und weißem Schnee ist wunderschön."
+          },
+          {
+            "japanese": "画面が見にくいので、コントラストを上げた。",
+            "romaji": "Gamen ga minikui node, kontorasuto o ageta.",
+            "german": "Weil der Bildschirm schwer zu lesen war, habe ich den Kontrast erhöht."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126006927",
+            "patterns": [
+              1,
+              4
+            ],
+            "finding": "コントラスト / コントラスト; 名詞/普通名詞/一般/*; *; *; lemma コントラスト-contrast; aType 1,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コントラスト",
+              "reading": "コントラスト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コントラスト as \"Kontrast\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add コントラスト【コントラスト】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052780; spelling=コントラスト; reading=コントラスト; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1052780 コントラスト/コントラスト sense(s) 1 support \"Kontrast\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1052780",
+            "spelling": "コントラスト",
+            "reading": "コントラスト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contrast"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "こんとらすと|こんとらすと",
+          "referenceIndex": 0,
+          "referenceHash": "2c71f90295fcbfac1e2b3bfd261c7be570d52ee14a2af75254a4da302fc6ba9c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Kontrast\" matches JMdict 1052780 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sky and snow.",
+          "Screen setting."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1052780; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@126006927 attest 1,4; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126006927",
+            "patterns": [
+              1,
+              4
+            ],
+            "finding": "コントラスト / コントラスト; 名詞/普通名詞/一般/*; *; *; lemma コントラスト-contrast; aType 1,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コントラスト",
+              "reading": "コントラスト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コントラスト as \"Kontrast\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add コントラスト【コントラスト】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1052780 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d28d90f026bd1a0e823798c096159eaeac7f5880351ce3a4f2f0d214c5fd5a73",
+        "approvalHash": "bbd122f0dd5d8df92f94d8ff2e66dae56a9b59cfefde0eaa6b9b2e4990cb6465"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "d28d90f026bd1a0e823798c096159eaeac7f5880351ce3a4f2f0d214c5fd5a73",
+        "approvalHash": "bbd122f0dd5d8df92f94d8ff2e66dae56a9b59cfefde0eaa6b9b2e4990cb6465"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kontorooru",
+      "revisionId": "041-add-kontorooru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "コントロール",
+        "reading": "コントロール",
+        "romaji": "kontorooru",
+        "meaning": "Kontrolle, Steuerung; Beherrschung",
+        "type": "Nomen",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Etwas steuern oder im Griff haben; als Verb コントロールする: 感情をコントロールする. Im Baseball: Wurfgenauigkeit.",
+        "examples": [
+          {
+            "japanese": "怒りをコントロールするのは難しい。",
+            "romaji": "Ikari o kontorooru suru no wa muzukashii.",
+            "german": "Es ist schwer, seine Wut zu beherrschen."
+          },
+          {
+            "japanese": "あのピッチャーはコントロールがいい。",
+            "romaji": "Ano picchaa wa kontorooru ga ii.",
+            "german": "Dieser Pitcher wirft sehr genau."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126013199",
+            "patterns": [
+              4
+            ],
+            "finding": "コントロール / コントロール; 名詞/普通名詞/サ変可能/*; *; *; lemma コントロール-control; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コントロール",
+              "reading": "コントロール",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "コントロール as \"Kontrolle, Steuerung; Beherrschung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add コントロール【コントロール】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052830; spelling=コントロール; reading=コントロール; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1052830 コントロール/コントロール sense(s) 1 support \"Kontrolle, Steuerung; Beherrschung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1052830",
+            "spelling": "コントロール",
+            "reading": "コントロール",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "control"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "こんとろーる|こんとろーる",
+          "referenceIndex": 0,
+          "referenceHash": "1b8b43c8732d49ac0c85d5e7b85364202413d221bcc03bdaebf11767174587ec"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Kontrolle, Steuerung; Beherrschung\" matches JMdict 1052830 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Controlling anger.",
+          "Baseball pitcher."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1052830; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@126013199 attest 4; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126013199",
+            "patterns": [
+              4
+            ],
+            "finding": "コントロール / コントロール; 名詞/普通名詞/サ変可能/*; *; *; lemma コントロール-control; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コントロール",
+              "reading": "コントロール",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "コントロール as \"Kontrolle, Steuerung; Beherrschung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add コントロール【コントロール】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1052830 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2e1258193fa01c9f6ba1af6f9bda0fbdd3b33e721cffb0f4a4b4252923934f14",
+        "approvalHash": "3c49718cfdf1542dc643e27c5bcfd599fa3c334bff14edf0fe20c3b7863dd128"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "2e1258193fa01c9f6ba1af6f9bda0fbdd3b33e721cffb0f4a4b4252923934f14",
+        "approvalHash": "3c49718cfdf1542dc643e27c5bcfd599fa3c334bff14edf0fe20c3b7863dd128"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:konpasu",
+      "revisionId": "041-add-konpasu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "コンパス",
+        "reading": "コンパス",
+        "romaji": "konpasu",
+        "meaning": "Zirkel; Kompass",
+        "type": "Nomen",
+        "category": "Werkzeuge",
+        "level": "N1",
+        "notes": "Zeichengerät für Kreise (Zirkel) und Magnetkompass. Umgangssprachlich auch die Beinlänge: コンパスが長い.",
+        "examples": [
+          {
+            "japanese": "コンパスで円を描いた。",
+            "romaji": "Konpasu de en o egaita.",
+            "german": "Ich habe mit dem Zirkel einen Kreis gezeichnet."
+          },
+          {
+            "japanese": "山ではコンパスと地図を持って歩く。",
+            "romaji": "Yama de wa konpasu to chizu o motte aruku.",
+            "german": "In den Bergen wandere ich mit Kompass und Karte."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126053356",
+            "patterns": [
+              1
+            ],
+            "finding": "コンパス / コンパス; 名詞/普通名詞/一般/*; *; *; lemma コンパス-kompas; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コンパス",
+              "reading": "コンパス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コンパス as \"Zirkel; Kompass\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add コンパス【コンパス】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1053130; spelling=コンパス; reading=コンパス; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1053130 コンパス/コンパス sense(s) 1,2 support \"Zirkel; Kompass\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1053130",
+            "spelling": "コンパス",
+            "reading": "コンパス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "compass (for drawing circles, etc.)",
+                  "pair of compasses"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(mariner's) compass"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "こんぱす|こんぱす",
+          "referenceIndex": 0,
+          "referenceHash": "947d46d4ecf74cbbe18fb89c35f41387ef03a9265bd7d9f125acac23cf0cf99c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Zirkel; Kompass\" matches JMdict 1053130 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Drawing a circle.",
+          "Hiking with a compass."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1053130; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@126053356 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126053356",
+            "patterns": [
+              1
+            ],
+            "finding": "コンパス / コンパス; 名詞/普通名詞/一般/*; *; *; lemma コンパス-kompas; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "コンパス",
+              "reading": "コンパス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "コンパス as \"Zirkel; Kompass\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add コンパス【コンパス】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1053130 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e173cfe301dc3a45a0449294cb23b7b41aac9f620682755d65c950ccf16daa16",
+        "approvalHash": "d36dc94c9fb2cbf4b6e702024320c625359cc9a6e19908e6820cd76fa4ca5213"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "e173cfe301dc3a45a0449294cb23b7b41aac9f620682755d65c950ccf16daa16",
+        "approvalHash": "d36dc94c9fb2cbf4b6e702024320c625359cc9a6e19908e6820cd76fa4ca5213"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:zai-wealth",
+      "revisionId": "041-add-zai-wealth",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "財",
+        "reading": "ざい",
+        "romaji": "zai",
+        "meaning": "Vermögen, Reichtum",
+        "type": "Nomen",
+        "category": "Finanzen",
+        "level": "N1",
+        "notes": "Vermögen, vor allem in 財を成す / 財を築く (ein Vermögen machen). In Zusammensetzungen auch „Güter“: 文化財 (Kulturgut).",
+        "examples": [
+          {
+            "japanese": "彼は貿易で財を成した。",
+            "romaji": "Kare wa boueki de zai o nashita.",
+            "german": "Er ist durch Handel zu Reichtum gekommen."
+          },
+          {
+            "japanese": "祖父は一代で財を築いた。",
+            "romaji": "Sofu wa ichidai de zai o kizuita.",
+            "german": "Mein Großvater hat in einer einzigen Generation ein Vermögen aufgebaut."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133368603",
+            "patterns": [
+              1
+            ],
+            "finding": "財 / ザイ; 名詞/普通名詞/一般/*; *; *; lemma 財; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "財",
+              "reading": "ざい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "財 as \"Vermögen, Reichtum\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 財【ざい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1296770; spelling=財; reading=ざい; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1296770 財/ざい sense(s) 1 support \"Vermögen, Reichtum\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1296770",
+            "spelling": "財",
+            "reading": "ざい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fortune",
+                  "riches"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "財|ざい",
+          "referenceIndex": 0,
+          "referenceHash": "5bd0cd8502be18ad9980ee837fe007802481d8919c2c5242ca7fa986c9a70852"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Vermögen, Reichtum\" matches JMdict 1296770 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Fortune from trade.",
+          "Self-made grandfather."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1296770; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@133368603 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133368603",
+            "patterns": [
+              1
+            ],
+            "finding": "財 / ザイ; 名詞/普通名詞/一般/*; *; *; lemma 財; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "財",
+              "reading": "ざい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "財 as \"Vermögen, Reichtum\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 財【ざい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1296770 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e80f71aa8c2e18a77a7a1e4e7080f189fe74348376d940a75517a2a0cc283045",
+        "approvalHash": "b3604f080439341bf8404a016a7d38e1b2f1bbb86c3ea7c67c037309bf3b13aa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Meaning matches the only JMdict sense (fortune; riches); 財を成す/財を築く natural. Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "e80f71aa8c2e18a77a7a1e4e7080f189fe74348376d940a75517a2a0cc283045",
+        "approvalHash": "b3604f080439341bf8404a016a7d38e1b2f1bbb86c3ea7c67c037309bf3b13aa"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "こーなー|こーなー",
+      "referenceIndex": 0,
+      "referenceHash": "7e1f46e7c7f7ed86c0e0179ed4c67130763f381a976e3d1494c019816e0b14f0",
+      "revisionId": "041-candidate-koonaa-2b42fbc5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koonaa"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koonaa": "95e2cf7a5e14b3d7ec8133e258212cddc6ac0e8f8708b5454ab1eddfdefc0af7"
+      },
+      "reason": "Reference コーナー/コーナー (tanos N1) is the same lexeme as the new entry コーナー【コーナー】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=176",
+          "finding": "tanos lists コーナー/コーナー at N1 (gloss: corner)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1049110; spelling=コーナー; reading=コーナー; senses=1,2,3; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1049110 as the reference form.",
+          "selected": {
+            "sequence": "1049110",
+            "spelling": "コーナー",
+            "reading": "コーナー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "corner",
+                  "bend",
+                  "turn"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "segment (within a radio or TV program)",
+                  "session",
+                  "column (newspaper, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "area",
+                  "department",
+                  "section"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こーなー|こーなー#0 is the same lexeme as vocab-n1:correction:koonaa; target hash bound to the assembled addition.",
+        "contentHash": "f3ba57de714269a6158a7a78aede3cd9d969db4c3be6faf8942f898290aea9d4",
+        "approvalHash": "f3ba57de714269a6158a7a78aede3cd9d969db4c3be6faf8942f898290aea9d4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koonaa.",
+        "contentHash": "f3ba57de714269a6158a7a78aede3cd9d969db4c3be6faf8942f898290aea9d4",
+        "approvalHash": "f3ba57de714269a6158a7a78aede3cd9d969db4c3be6faf8942f898290aea9d4"
+      }
+    },
+    {
+      "key": "こーなー|こーなー",
+      "referenceIndex": 1,
+      "referenceHash": "ab9f2bb3d252b9fc5efa332f1a30768fb067148541df218733687baf2b036055",
+      "revisionId": "041-candidate-koonaa-2b42fbc5-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:koonaa"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:koonaa": "95e2cf7a5e14b3d7ec8133e258212cddc6ac0e8f8708b5454ab1eddfdefc0af7"
+      },
+      "reason": "Reference コーナー/コーナー (master N1) is the same lexeme as the new entry コーナー【コーナー】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists コーナー/コーナー at N1 (gloss: corner; coin; (n) Kurve)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1049110; spelling=コーナー; reading=コーナー; senses=1,2,3; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1049110 as the reference form.",
+          "selected": {
+            "sequence": "1049110",
+            "spelling": "コーナー",
+            "reading": "コーナー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "corner",
+                  "bend",
+                  "turn"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "segment (within a radio or TV program)",
+                  "session",
+                  "column (newspaper, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "area",
+                  "department",
+                  "section"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こーなー|こーなー#1 is the same lexeme as vocab-n1:correction:koonaa; target hash bound to the assembled addition.",
+        "contentHash": "d512fff9f4d2dd109a3917b1d432d235ad7de3708d06fb73e9d184c3d8a3a01b",
+        "approvalHash": "d512fff9f4d2dd109a3917b1d432d235ad7de3708d06fb73e9d184c3d8a3a01b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:koonaa.",
+        "contentHash": "d512fff9f4d2dd109a3917b1d432d235ad7de3708d06fb73e9d184c3d8a3a01b",
+        "approvalHash": "d512fff9f4d2dd109a3917b1d432d235ad7de3708d06fb73e9d184c3d8a3a01b"
+      }
+    },
+    {
+      "key": "粉々|こなごな",
+      "referenceIndex": 0,
+      "referenceHash": "d7e79d830cc657efa942603213252bfb0b75c705279a01c960c83efbfcbe6b82",
+      "revisionId": "041-candidate-konagona-bf17aa44-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:konagona"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:konagona": "2f3dbbe3fe4fe96ee4856a61d7e1e4d8b4ea865c1ab91373c41e7a43b4a9bfcc"
+      },
+      "reason": "Reference 粉々/こなごな (tanos N1) is the same lexeme as the new entry 粉々【こなごな】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=59",
+          "finding": "tanos lists 粉々/こなごな at N1 (gloss: in very small pieces)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1593360; spelling=粉々; reading=こなごな; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1593360 as the reference form.",
+          "selected": {
+            "sequence": "1593360",
+            "spelling": "粉々",
+            "reading": "こなごな",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in very small pieces"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 粉々|こなごな#0 is the same lexeme as vocab-n1:correction:konagona; target hash bound to the assembled addition.",
+        "contentHash": "3a24847447975b60942ffe84b892b7a5cf0a1902bdc831a5207fb09ddaaab3fe",
+        "approvalHash": "3a24847447975b60942ffe84b892b7a5cf0a1902bdc831a5207fb09ddaaab3fe"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:konagona.",
+        "contentHash": "3a24847447975b60942ffe84b892b7a5cf0a1902bdc831a5207fb09ddaaab3fe",
+        "approvalHash": "3a24847447975b60942ffe84b892b7a5cf0a1902bdc831a5207fb09ddaaab3fe"
+      }
+    },
+    {
+      "key": "粉々|こなごな",
+      "referenceIndex": 1,
+      "referenceHash": "93bb526176629944524baa146cbc383d29014e11c363fc824c76241786053d73",
+      "revisionId": "041-candidate-konagona-bf17aa44-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:konagona"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:konagona": "2f3dbbe3fe4fe96ee4856a61d7e1e4d8b4ea865c1ab91373c41e7a43b4a9bfcc"
+      },
+      "reason": "Reference 粉々/こなごな (master N1) is the same lexeme as the new entry 粉々【こなごな】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 粉々/こなごな at N1 (gloss: in very small pieces; (n) kleine Stücke)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1593360; spelling=粉々; reading=こなごな; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1593360 as the reference form.",
+          "selected": {
+            "sequence": "1593360",
+            "spelling": "粉々",
+            "reading": "こなごな",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in very small pieces"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 粉々|こなごな#1 is the same lexeme as vocab-n1:correction:konagona; target hash bound to the assembled addition.",
+        "contentHash": "b794c9644f94c55306ffa802a872581d377e87e24eb18f229bcc8382c3caab5b",
+        "approvalHash": "b794c9644f94c55306ffa802a872581d377e87e24eb18f229bcc8382c3caab5b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:konagona.",
+        "contentHash": "b794c9644f94c55306ffa802a872581d377e87e24eb18f229bcc8382c3caab5b",
+        "approvalHash": "b794c9644f94c55306ffa802a872581d377e87e24eb18f229bcc8382c3caab5b"
+      }
+    },
+    {
+      "key": "こまーしゃる|こまーしゃる",
+      "referenceIndex": 0,
+      "referenceHash": "b204b4757163e4166a7b67e62709ec983eb8eb2406690df49b47879c7ed943d1",
+      "revisionId": "041-candidate-komaasharu-94cdc993-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:komaasharu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:komaasharu": "a3db9062e54b4c07405c7f64c2a1bd35f56fbc2636eed37f71da623251aaa8df"
+      },
+      "reason": "Reference コマーシャル/コマーシャル (tanos N1) is the same lexeme as the new entry コマーシャル【コマーシャル】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=176",
+          "finding": "tanos lists コマーシャル/コマーシャル at N1 (gloss: a commercial)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1050720; spelling=コマーシャル; reading=コマーシャル; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1050720 as the reference form.",
+          "selected": {
+            "sequence": "1050720",
+            "spelling": "コマーシャル",
+            "reading": "コマーシャル",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "commercial (TV or radio advertisement)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こまーしゃる|こまーしゃる#0 is the same lexeme as vocab-n1:correction:komaasharu; target hash bound to the assembled addition.",
+        "contentHash": "bcc33be0045645efff81a28c3ea32e65399254fe876c45a3e48c4f12b39b713b",
+        "approvalHash": "bcc33be0045645efff81a28c3ea32e65399254fe876c45a3e48c4f12b39b713b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:komaasharu.",
+        "contentHash": "bcc33be0045645efff81a28c3ea32e65399254fe876c45a3e48c4f12b39b713b",
+        "approvalHash": "bcc33be0045645efff81a28c3ea32e65399254fe876c45a3e48c4f12b39b713b"
+      }
+    },
+    {
+      "key": "こまーしゃる|こまーしゃる",
+      "referenceIndex": 1,
+      "referenceHash": "e51a471c7cb18e46f49afc90c4f692676f370ccee0c3d12f5149f3f4bd05789f",
+      "revisionId": "041-candidate-komaasharu-94cdc993-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:komaasharu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:komaasharu": "a3db9062e54b4c07405c7f64c2a1bd35f56fbc2636eed37f71da623251aaa8df"
+      },
+      "reason": "Reference コマーシャル/コマーシャル (master N1) is the same lexeme as the new entry コマーシャル【コマーシャル】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists コマーシャル/コマーシャル at N1 (gloss: commercial (e.g. TV); publicité; (n) Werbespot)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1050720; spelling=コマーシャル; reading=コマーシャル; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1050720 as the reference form.",
+          "selected": {
+            "sequence": "1050720",
+            "spelling": "コマーシャル",
+            "reading": "コマーシャル",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "commercial (TV or radio advertisement)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こまーしゃる|こまーしゃる#1 is the same lexeme as vocab-n1:correction:komaasharu; target hash bound to the assembled addition.",
+        "contentHash": "ecd7f411f5a8f5ebb5dcc4fb65d85e968a87453cb05205aa4aefca8f28487070",
+        "approvalHash": "ecd7f411f5a8f5ebb5dcc4fb65d85e968a87453cb05205aa4aefca8f28487070"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:komaasharu.",
+        "contentHash": "ecd7f411f5a8f5ebb5dcc4fb65d85e968a87453cb05205aa4aefca8f28487070",
+        "approvalHash": "ecd7f411f5a8f5ebb5dcc4fb65d85e968a87453cb05205aa4aefca8f28487070"
+      }
+    },
+    {
+      "key": "細やか|こまやか",
+      "referenceIndex": 0,
+      "referenceHash": "bb2472f10c99de30061fcf2e16fbfc0ee8b7647a20b03f4255e863dc8ba76ace",
+      "revisionId": "041-candidate-komayaka-50234946-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:komayaka"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:komayaka": "dde333dd8dcd76e029b521ef4e8f3f625e1e8299565a107549db1a4d418464e2"
+      },
+      "reason": "Reference 細やか/こまやか (tanos N1) is the same lexeme as the new entry 細やか【こまやか】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=60",
+          "finding": "tanos lists 細やか/こまやか at N1 (gloss: friendly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1295550; spelling=細やか; reading=こまやか; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1295550 as the reference form.",
+          "selected": {
+            "sequence": "1295550",
+            "spelling": "細やか",
+            "reading": "こまやか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tender",
+                  "warm",
+                  "caring",
+                  "thoughtful"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meticulous",
+                  "detailed",
+                  "attentive"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 細やか|こまやか#0 is the same lexeme as vocab-n1:correction:komayaka; target hash bound to the assembled addition.",
+        "contentHash": "fb5bd112c7d3b0c91a320e29efea7f23d4d31fd4087db50c52d4ea94fc6c624c",
+        "approvalHash": "fb5bd112c7d3b0c91a320e29efea7f23d4d31fd4087db50c52d4ea94fc6c624c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:komayaka.",
+        "contentHash": "fb5bd112c7d3b0c91a320e29efea7f23d4d31fd4087db50c52d4ea94fc6c624c",
+        "approvalHash": "fb5bd112c7d3b0c91a320e29efea7f23d4d31fd4087db50c52d4ea94fc6c624c"
+      }
+    },
+    {
+      "key": "細やか|こまやか",
+      "referenceIndex": 1,
+      "referenceHash": "64b8b688b06fae930858c538227074fc14689b9ef35e69e4e81a031df5d68f44",
+      "revisionId": "041-candidate-komayaka-50234946-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:komayaka"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:komayaka": "dde333dd8dcd76e029b521ef4e8f3f625e1e8299565a107549db1a4d418464e2"
+      },
+      "reason": "Reference 細やか/こまやか (master N1) is the same lexeme as the new entry 細やか【こまやか】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 細やか/こまやか at N1 (gloss: friendly; heartfelt; tender)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1295550; spelling=細やか; reading=こまやか; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1295550 as the reference form.",
+          "selected": {
+            "sequence": "1295550",
+            "spelling": "細やか",
+            "reading": "こまやか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tender",
+                  "warm",
+                  "caring",
+                  "thoughtful"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meticulous",
+                  "detailed",
+                  "attentive"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 細やか|こまやか#1 is the same lexeme as vocab-n1:correction:komayaka; target hash bound to the assembled addition.",
+        "contentHash": "c3d5f29b31093bac3341c9272324be828627f1ca0ae543feaec6c95ce7a8209e",
+        "approvalHash": "c3d5f29b31093bac3341c9272324be828627f1ca0ae543feaec6c95ce7a8209e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:komayaka.",
+        "contentHash": "c3d5f29b31093bac3341c9272324be828627f1ca0ae543feaec6c95ce7a8209e",
+        "approvalHash": "c3d5f29b31093bac3341c9272324be828627f1ca0ae543feaec6c95ce7a8209e"
+      }
+    },
+    {
+      "key": "籠もる|こもる",
+      "referenceIndex": 0,
+      "referenceHash": "12e79f3cd990cb37580ef591e27e4f5a62fb5a3514597eee2e8743f20ad7f27c",
+      "revisionId": "041-candidate-komoru-8a48aa3c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:komoru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:komoru": "ba9140b20f21e52eb0dfa763b6a3f20d36f69960897a751ceaf5de363fabbfd0"
+      },
+      "reason": "Reference 籠もる/こもる (master N1) is the same lexeme as the new entry こもる【こもる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 籠もる/こもる at N1 (gloss: to seclude oneself; to be confined in; s'enfermer)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1593430; spelling=こもる; reading=こもる; senses=1,2,3; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1593430 as the reference form.",
+          "selected": {
+            "sequence": "1593430",
+            "spelling": "こもる",
+            "reading": "こもる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to shut oneself in (e.g. one's room)",
+                  "to be confined in",
+                  "to seclude oneself",
+                  "to hide away",
+                  "to stay inside (one's shell)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to fill with (emotion, enthusiasm, power, etc.)",
+                  "to imbue with",
+                  "to infuse with"
+                ],
+                "notes": [
+                  "oft. as ...のこもったもの"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to fill a space (of a gas, smell, etc.)",
+                  "to be heavy with (e.g. smoke)",
+                  "to be stuffy",
+                  "to be dense"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 籠もる|こもる#0 is the same lexeme as vocab-n1:correction:komoru; target hash bound to the assembled addition.",
+        "contentHash": "f3d3213ae5b32b9963986a06ea7622af9be97d1a51a1f55f07d3f0263f0c3786",
+        "approvalHash": "f3d3213ae5b32b9963986a06ea7622af9be97d1a51a1f55f07d3f0263f0c3786"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:komoru.",
+        "contentHash": "f3d3213ae5b32b9963986a06ea7622af9be97d1a51a1f55f07d3f0263f0c3786",
+        "approvalHash": "f3d3213ae5b32b9963986a06ea7622af9be97d1a51a1f55f07d3f0263f0c3786"
+      }
+    },
+    {
+      "key": "篭る|こもる",
+      "referenceIndex": 0,
+      "referenceHash": "6de9253717e4ca6808688cc3f064994a80b24018d2d3b7cd331de44dae1d55e9",
+      "revisionId": "041-candidate-komoru-795db580-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:komoru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:komoru": "ba9140b20f21e52eb0dfa763b6a3f20d36f69960897a751ceaf5de363fabbfd0"
+      },
+      "reason": "Reference 篭る/こもる (tanos N1) is the same lexeme as the new entry こもる【こもる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=60",
+          "finding": "tanos lists 篭る/こもる at N1 (gloss: to seclude oneself, to be confined in, to be)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1593430; spelling=こもる; reading=こもる; senses=1,2,3; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1593430 as the reference form.",
+          "selected": {
+            "sequence": "1593430",
+            "spelling": "こもる",
+            "reading": "こもる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to shut oneself in (e.g. one's room)",
+                  "to be confined in",
+                  "to seclude oneself",
+                  "to hide away",
+                  "to stay inside (one's shell)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to fill with (emotion, enthusiasm, power, etc.)",
+                  "to imbue with",
+                  "to infuse with"
+                ],
+                "notes": [
+                  "oft. as ...のこもったもの"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to fill a space (of a gas, smell, etc.)",
+                  "to be heavy with (e.g. smoke)",
+                  "to be stuffy",
+                  "to be dense"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 篭る|こもる#0 is the same lexeme as vocab-n1:correction:komoru; target hash bound to the assembled addition.",
+        "contentHash": "11014dfe0b286cf75890204d1f2bbb4738c458b6e94cf49296526013dff0a9e0",
+        "approvalHash": "11014dfe0b286cf75890204d1f2bbb4738c458b6e94cf49296526013dff0a9e0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:komoru.",
+        "contentHash": "11014dfe0b286cf75890204d1f2bbb4738c458b6e94cf49296526013dff0a9e0",
+        "approvalHash": "11014dfe0b286cf75890204d1f2bbb4738c458b6e94cf49296526013dff0a9e0"
+      }
+    },
+    {
+      "key": "凝らす|こらす",
+      "referenceIndex": 0,
+      "referenceHash": "54b3740eabe2a1c270fdcd40e0c41bc3fb8fddb3b13428cfa0bfc8bd3434ed4a",
+      "revisionId": "041-candidate-korasu-f80be86c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:korasu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:korasu": "fb3dafea7794fac6bcc28afa541e0d546f7e4e14407c220daf262bc0f95ca208"
+      },
+      "reason": "Reference 凝らす/こらす (master N1) is the same lexeme as the new entry 凝らす【こらす】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 凝らす/こらす at N1 (gloss: to concentrate; to devote; to apply)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1239010; spelling=凝らす; reading=こらす; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1239010 as the reference form.",
+          "selected": {
+            "sequence": "1239010",
+            "spelling": "凝らす",
+            "reading": "こらす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to concentrate",
+                  "to focus on",
+                  "to devote",
+                  "to apply oneself"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 凝らす|こらす#0 is the same lexeme as vocab-n1:correction:korasu; target hash bound to the assembled addition.",
+        "contentHash": "1f91561c7719d488dc03b58926f13dc3c3727b10e75eebd75f05183313c101d1",
+        "approvalHash": "1f91561c7719d488dc03b58926f13dc3c3727b10e75eebd75f05183313c101d1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:korasu.",
+        "contentHash": "1f91561c7719d488dc03b58926f13dc3c3727b10e75eebd75f05183313c101d1",
+        "approvalHash": "1f91561c7719d488dc03b58926f13dc3c3727b10e75eebd75f05183313c101d1"
+      }
+    },
+    {
+      "key": "御覧なさい|ごらんなさい",
+      "referenceIndex": 0,
+      "referenceHash": "33580b230ee0257497a35ca88748e9b97713f3ca4bde7f6c0cfcf1740aa7249f",
+      "revisionId": "041-candidate-goran-nasai-a69febfd-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:goran-nasai"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:goran-nasai": "83a3857c6d34c421d2f6259063090b4e69d8061b1e28d6d0510fe699d5d829bb"
+      },
+      "reason": "Reference 御覧なさい/ごらんなさい (tanos N1) is the same lexeme as the new entry ご覧なさい【ごらんなさい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=62",
+          "finding": "tanos lists 御覧なさい/ごらんなさい at N1 (gloss: (please) look, (please) try to do)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1270770; spelling=ご覧なさい; reading=ごらんなさい; senses=1,3; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1270770 as the reference form.",
+          "selected": {
+            "sequence": "1270770",
+            "spelling": "ご覧なさい",
+            "reading": "ごらんなさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language",
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "(please) look"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "auxiliary verb"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language",
+                  "polite (teineigo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "(please) try to do"
+                ],
+                "notes": [
+                  "after the -te form of a verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 御覧なさい|ごらんなさい#0 is the same lexeme as vocab-n1:correction:goran-nasai; target hash bound to the assembled addition.",
+        "contentHash": "6ffd7c6ffebb6d2b31d1d714d5058d65f8ee43ea48091fcb85fb2c6e82cf4dc9",
+        "approvalHash": "6ffd7c6ffebb6d2b31d1d714d5058d65f8ee43ea48091fcb85fb2c6e82cf4dc9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:goran-nasai.",
+        "contentHash": "6ffd7c6ffebb6d2b31d1d714d5058d65f8ee43ea48091fcb85fb2c6e82cf4dc9",
+        "approvalHash": "6ffd7c6ffebb6d2b31d1d714d5058d65f8ee43ea48091fcb85fb2c6e82cf4dc9"
+      }
+    },
+    {
+      "key": "御覧なさい|ごらんなさい",
+      "referenceIndex": 1,
+      "referenceHash": "25047e42526d13d88ad5e8fca20d636a6e2fbf8ea853cd2fd13ef14595236b10",
+      "revisionId": "041-candidate-goran-nasai-a69febfd-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:goran-nasai"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:goran-nasai": "83a3857c6d34c421d2f6259063090b4e69d8061b1e28d6d0510fe699d5d829bb"
+      },
+      "reason": "Reference 御覧なさい/ごらんなさい (master N1) is the same lexeme as the new entry ご覧なさい【ごらんなさい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=7",
+          "finding": "Nihongo Master lists 御覧なさい/ごらんなさい at N1 (gloss: (please) look)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1270770; spelling=ご覧なさい; reading=ごらんなさい; senses=1,3; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1270770 as the reference form.",
+          "selected": {
+            "sequence": "1270770",
+            "spelling": "ご覧なさい",
+            "reading": "ごらんなさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language",
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "(please) look"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "auxiliary verb"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language",
+                  "polite (teineigo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "(please) try to do"
+                ],
+                "notes": [
+                  "after the -te form of a verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 御覧なさい|ごらんなさい#1 is the same lexeme as vocab-n1:correction:goran-nasai; target hash bound to the assembled addition.",
+        "contentHash": "e1ea66e65f3635f9faca20b954f7d856670349923e22a48eaa8062ab30b8a92f",
+        "approvalHash": "e1ea66e65f3635f9faca20b954f7d856670349923e22a48eaa8062ab30b8a92f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:goran-nasai.",
+        "contentHash": "e1ea66e65f3635f9faca20b954f7d856670349923e22a48eaa8062ab30b8a92f",
+        "approvalHash": "e1ea66e65f3635f9faca20b954f7d856670349923e22a48eaa8062ab30b8a92f"
+      }
+    },
+    {
+      "key": "こんたくと|こんたくと",
+      "referenceIndex": 0,
+      "referenceHash": "565880a4d3a4ccdd09f665b673197395520e06ca87dfa2bfcd7d2887bcd80fc0",
+      "revisionId": "041-candidate-kontakuto-3831b103-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kontakuto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kontakuto": "571c7b458bea165035abd8a10c3af75c390bd8723af3c632ad5e778f141583e0"
+      },
+      "reason": "Reference コンタクト/コンタクト (tanos N1) is the same lexeme as the new entry コンタクト【コンタクト】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=176",
+          "finding": "tanos lists コンタクト/コンタクト at N1 (gloss: contact, contact lens)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052410; spelling=コンタクト; reading=コンタクト; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1052410 as the reference form.",
+          "selected": {
+            "sequence": "1052410",
+            "spelling": "コンタクト",
+            "reading": "コンタクト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contact",
+                  "touch"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "contact lens"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こんたくと|こんたくと#0 is the same lexeme as vocab-n1:correction:kontakuto; target hash bound to the assembled addition.",
+        "contentHash": "20c7963580b3ee240e1b14db70d6ac5772c257f94956c4773d0cf7011c3d29d2",
+        "approvalHash": "20c7963580b3ee240e1b14db70d6ac5772c257f94956c4773d0cf7011c3d29d2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kontakuto.",
+        "contentHash": "20c7963580b3ee240e1b14db70d6ac5772c257f94956c4773d0cf7011c3d29d2",
+        "approvalHash": "20c7963580b3ee240e1b14db70d6ac5772c257f94956c4773d0cf7011c3d29d2"
+      }
+    },
+    {
+      "key": "こんたくと|こんたくと",
+      "referenceIndex": 1,
+      "referenceHash": "d8fe3c9ecb62ec313f31150a919ff079d6d1d2fd6e240cf7ca309562bb2353e0",
+      "revisionId": "041-candidate-kontakuto-3831b103-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kontakuto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kontakuto": "571c7b458bea165035abd8a10c3af75c390bd8723af3c632ad5e778f141583e0"
+      },
+      "reason": "Reference コンタクト/コンタクト (master N1) is the same lexeme as the new entry コンタクト【コンタクト】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists コンタクト/コンタクト at N1 (gloss: contact)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052410; spelling=コンタクト; reading=コンタクト; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1052410 as the reference form.",
+          "selected": {
+            "sequence": "1052410",
+            "spelling": "コンタクト",
+            "reading": "コンタクト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contact",
+                  "touch"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "contact lens"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こんたくと|こんたくと#1 is the same lexeme as vocab-n1:correction:kontakuto; target hash bound to the assembled addition.",
+        "contentHash": "a8766f0ad0c0ecd359b3117a3d3c153c50769f45081f0f782ba625a74a593cd5",
+        "approvalHash": "a8766f0ad0c0ecd359b3117a3d3c153c50769f45081f0f782ba625a74a593cd5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kontakuto.",
+        "contentHash": "a8766f0ad0c0ecd359b3117a3d3c153c50769f45081f0f782ba625a74a593cd5",
+        "approvalHash": "a8766f0ad0c0ecd359b3117a3d3c153c50769f45081f0f782ba625a74a593cd5"
+      }
+    },
+    {
+      "key": "こんてすと|こんてすと",
+      "referenceIndex": 0,
+      "referenceHash": "2a14f13cec9d7edbe358e275d957f32964dd467c78cef96258f608e77ef30aa2",
+      "revisionId": "041-candidate-kontesuto-0fe99753-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kontesuto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kontesuto": "421624081a651abb0fee8949f197a13246a7cd7729875652231c44bc3a9129fe"
+      },
+      "reason": "Reference コンテスト/コンテスト (tanos N1) is the same lexeme as the new entry コンテスト【コンテスト】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=176",
+          "finding": "tanos lists コンテスト/コンテスト at N1 (gloss: contest)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052590; spelling=コンテスト; reading=コンテスト; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1052590 as the reference form.",
+          "selected": {
+            "sequence": "1052590",
+            "spelling": "コンテスト",
+            "reading": "コンテスト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contest"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こんてすと|こんてすと#0 is the same lexeme as vocab-n1:correction:kontesuto; target hash bound to the assembled addition.",
+        "contentHash": "4ec6d7a689a53b0186196074ebca19005ca9fb767c0889834fd9b3fb2f09b2a4",
+        "approvalHash": "4ec6d7a689a53b0186196074ebca19005ca9fb767c0889834fd9b3fb2f09b2a4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kontesuto.",
+        "contentHash": "4ec6d7a689a53b0186196074ebca19005ca9fb767c0889834fd9b3fb2f09b2a4",
+        "approvalHash": "4ec6d7a689a53b0186196074ebca19005ca9fb767c0889834fd9b3fb2f09b2a4"
+      }
+    },
+    {
+      "key": "こんてすと|こんてすと",
+      "referenceIndex": 1,
+      "referenceHash": "08d35dacb2f596e504388bc76f647a75a0140b7b69ba2bcfb5796f0bdc84eb58",
+      "revisionId": "041-candidate-kontesuto-0fe99753-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kontesuto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kontesuto": "421624081a651abb0fee8949f197a13246a7cd7729875652231c44bc3a9129fe"
+      },
+      "reason": "Reference コンテスト/コンテスト (master N1) is the same lexeme as the new entry コンテスト【コンテスト】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists コンテスト/コンテスト at N1 (gloss: contest; concours; соревнова́ние (en: contest))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052590; spelling=コンテスト; reading=コンテスト; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1052590 as the reference form.",
+          "selected": {
+            "sequence": "1052590",
+            "spelling": "コンテスト",
+            "reading": "コンテスト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contest"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こんてすと|こんてすと#1 is the same lexeme as vocab-n1:correction:kontesuto; target hash bound to the assembled addition.",
+        "contentHash": "cc396a3c3b91c83dcb50b176bca4b08fdc91af8ea505e4ef8fdbeba6edc6a4f4",
+        "approvalHash": "cc396a3c3b91c83dcb50b176bca4b08fdc91af8ea505e4ef8fdbeba6edc6a4f4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kontesuto.",
+        "contentHash": "cc396a3c3b91c83dcb50b176bca4b08fdc91af8ea505e4ef8fdbeba6edc6a4f4",
+        "approvalHash": "cc396a3c3b91c83dcb50b176bca4b08fdc91af8ea505e4ef8fdbeba6edc6a4f4"
+      }
+    },
+    {
+      "key": "こんとらすと|こんとらすと",
+      "referenceIndex": 0,
+      "referenceHash": "2c71f90295fcbfac1e2b3bfd261c7be570d52ee14a2af75254a4da302fc6ba9c",
+      "revisionId": "041-candidate-kontorasuto-c70cf9c8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kontorasuto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kontorasuto": "d28d90f026bd1a0e823798c096159eaeac7f5880351ce3a4f2f0d214c5fd5a73"
+      },
+      "reason": "Reference コントラスト/コントラスト (tanos N1) is the same lexeme as the new entry コントラスト【コントラスト】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=176",
+          "finding": "tanos lists コントラスト/コントラスト at N1 (gloss: contrast)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052780; spelling=コントラスト; reading=コントラスト; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1052780 as the reference form.",
+          "selected": {
+            "sequence": "1052780",
+            "spelling": "コントラスト",
+            "reading": "コントラスト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contrast"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こんとらすと|こんとらすと#0 is the same lexeme as vocab-n1:correction:kontorasuto; target hash bound to the assembled addition.",
+        "contentHash": "e81108c1cdfc36b6928e0a900f021212bbf362be75014ca4f5069045d7faf922",
+        "approvalHash": "e81108c1cdfc36b6928e0a900f021212bbf362be75014ca4f5069045d7faf922"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kontorasuto.",
+        "contentHash": "e81108c1cdfc36b6928e0a900f021212bbf362be75014ca4f5069045d7faf922",
+        "approvalHash": "e81108c1cdfc36b6928e0a900f021212bbf362be75014ca4f5069045d7faf922"
+      }
+    },
+    {
+      "key": "こんとらすと|こんとらすと",
+      "referenceIndex": 1,
+      "referenceHash": "2e9f3d221548ba9c853ef362f9de1bf5887eebea97863eea8d6a41b111b47919",
+      "revisionId": "041-candidate-kontorasuto-c70cf9c8-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kontorasuto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kontorasuto": "d28d90f026bd1a0e823798c096159eaeac7f5880351ce3a4f2f0d214c5fd5a73"
+      },
+      "reason": "Reference コントラスト/コントラスト (master N1) is the same lexeme as the new entry コントラスト【コントラスト】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists コントラスト/コントラスト at N1 (gloss: contrast; контра́ст; (n) Kontrast)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052780; spelling=コントラスト; reading=コントラスト; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1052780 as the reference form.",
+          "selected": {
+            "sequence": "1052780",
+            "spelling": "コントラスト",
+            "reading": "コントラスト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contrast"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こんとらすと|こんとらすと#1 is the same lexeme as vocab-n1:correction:kontorasuto; target hash bound to the assembled addition.",
+        "contentHash": "67cafa77359703c0432f05bea567078521c8d4aecb622eb9b0e2c07016e1ec6b",
+        "approvalHash": "67cafa77359703c0432f05bea567078521c8d4aecb622eb9b0e2c07016e1ec6b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kontorasuto.",
+        "contentHash": "67cafa77359703c0432f05bea567078521c8d4aecb622eb9b0e2c07016e1ec6b",
+        "approvalHash": "67cafa77359703c0432f05bea567078521c8d4aecb622eb9b0e2c07016e1ec6b"
+      }
+    },
+    {
+      "key": "こんとろーる|こんとろーる",
+      "referenceIndex": 0,
+      "referenceHash": "1b8b43c8732d49ac0c85d5e7b85364202413d221bcc03bdaebf11767174587ec",
+      "revisionId": "041-candidate-kontorooru-e670d58c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kontorooru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kontorooru": "2e1258193fa01c9f6ba1af6f9bda0fbdd3b33e721cffb0f4a4b4252923934f14"
+      },
+      "reason": "Reference コントロール/コントロール (tanos N1) is the same lexeme as the new entry コントロール【コントロール】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=176",
+          "finding": "tanos lists コントロール/コントロール at N1 (gloss: control)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052830; spelling=コントロール; reading=コントロール; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1052830 as the reference form.",
+          "selected": {
+            "sequence": "1052830",
+            "spelling": "コントロール",
+            "reading": "コントロール",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "control"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こんとろーる|こんとろーる#0 is the same lexeme as vocab-n1:correction:kontorooru; target hash bound to the assembled addition.",
+        "contentHash": "a9c05a90d3198904b78c497d796bd61d196b12edbdc3d46ff0e9c9410e15ea23",
+        "approvalHash": "a9c05a90d3198904b78c497d796bd61d196b12edbdc3d46ff0e9c9410e15ea23"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kontorooru.",
+        "contentHash": "a9c05a90d3198904b78c497d796bd61d196b12edbdc3d46ff0e9c9410e15ea23",
+        "approvalHash": "a9c05a90d3198904b78c497d796bd61d196b12edbdc3d46ff0e9c9410e15ea23"
+      }
+    },
+    {
+      "key": "こんとろーる|こんとろーる",
+      "referenceIndex": 1,
+      "referenceHash": "a4cffe771c685a12f5789c7ca1cd18752848c9d22120eacc5b9704f8cb7816f4",
+      "revisionId": "041-candidate-kontorooru-e670d58c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kontorooru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kontorooru": "2e1258193fa01c9f6ba1af6f9bda0fbdd3b33e721cffb0f4a4b4252923934f14"
+      },
+      "reason": "Reference コントロール/コントロール (master N1) is the same lexeme as the new entry コントロール【コントロール】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists コントロール/コントロール at N1 (gloss: control; управле́ние; контро́ль (en: control))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1052830; spelling=コントロール; reading=コントロール; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1052830 as the reference form.",
+          "selected": {
+            "sequence": "1052830",
+            "spelling": "コントロール",
+            "reading": "コントロール",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "control"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こんとろーる|こんとろーる#1 is the same lexeme as vocab-n1:correction:kontorooru; target hash bound to the assembled addition.",
+        "contentHash": "7dcc233ffa7394e0a11a822603448951340ffbde17d3155fdeb66ab35a8d2441",
+        "approvalHash": "7dcc233ffa7394e0a11a822603448951340ffbde17d3155fdeb66ab35a8d2441"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:kontorooru.",
+        "contentHash": "7dcc233ffa7394e0a11a822603448951340ffbde17d3155fdeb66ab35a8d2441",
+        "approvalHash": "7dcc233ffa7394e0a11a822603448951340ffbde17d3155fdeb66ab35a8d2441"
+      }
+    },
+    {
+      "key": "こんぱす|こんぱす",
+      "referenceIndex": 0,
+      "referenceHash": "947d46d4ecf74cbbe18fb89c35f41387ef03a9265bd7d9f125acac23cf0cf99c",
+      "revisionId": "041-candidate-konpasu-5806ab66-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:konpasu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:konpasu": "e173cfe301dc3a45a0449294cb23b7b41aac9f620682755d65c950ccf16daa16"
+      },
+      "reason": "Reference コンパス/コンパス (tanos N1) is the same lexeme as the new entry コンパス【コンパス】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=176",
+          "finding": "tanos lists コンパス/コンパス at N1 (gloss: compass)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1053130; spelling=コンパス; reading=コンパス; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1053130 as the reference form.",
+          "selected": {
+            "sequence": "1053130",
+            "spelling": "コンパス",
+            "reading": "コンパス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "compass (for drawing circles, etc.)",
+                  "pair of compasses"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(mariner's) compass"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こんぱす|こんぱす#0 is the same lexeme as vocab-n1:correction:konpasu; target hash bound to the assembled addition.",
+        "contentHash": "52abfdd1adc5268c23f14ed877f8e5f5cabaa4d880e35370a3ed3eeb0ad5a9ef",
+        "approvalHash": "52abfdd1adc5268c23f14ed877f8e5f5cabaa4d880e35370a3ed3eeb0ad5a9ef"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:konpasu.",
+        "contentHash": "52abfdd1adc5268c23f14ed877f8e5f5cabaa4d880e35370a3ed3eeb0ad5a9ef",
+        "approvalHash": "52abfdd1adc5268c23f14ed877f8e5f5cabaa4d880e35370a3ed3eeb0ad5a9ef"
+      }
+    },
+    {
+      "key": "こんぱす|こんぱす",
+      "referenceIndex": 1,
+      "referenceHash": "43dff21c1872173c1cede55b9bc385ca5cc697ee51cc3a5776236580334358f9",
+      "revisionId": "041-candidate-konpasu-5806ab66-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:konpasu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:konpasu": "e173cfe301dc3a45a0449294cb23b7b41aac9f620682755d65c950ccf16daa16"
+      },
+      "reason": "Reference コンパス/コンパス (master N1) is the same lexeme as the new entry コンパス【コンパス】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists コンパス/コンパス at N1 (gloss: compass; компас; (n) Zirkel)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1053130; spelling=コンパス; reading=コンパス; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1053130 as the reference form.",
+          "selected": {
+            "sequence": "1053130",
+            "spelling": "コンパス",
+            "reading": "コンパス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "compass (for drawing circles, etc.)",
+                  "pair of compasses"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(mariner's) compass"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference こんぱす|こんぱす#1 is the same lexeme as vocab-n1:correction:konpasu; target hash bound to the assembled addition.",
+        "contentHash": "3fe0ee16e218c30a6d7651d4e8cc25c3d2e8473f205c9ac370ea68282380e27e",
+        "approvalHash": "3fe0ee16e218c30a6d7651d4e8cc25c3d2e8473f205c9ac370ea68282380e27e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:konpasu.",
+        "contentHash": "3fe0ee16e218c30a6d7651d4e8cc25c3d2e8473f205c9ac370ea68282380e27e",
+        "approvalHash": "3fe0ee16e218c30a6d7651d4e8cc25c3d2e8473f205c9ac370ea68282380e27e"
+      }
+    },
+    {
+      "key": "財|ざい",
+      "referenceIndex": 0,
+      "referenceHash": "5bd0cd8502be18ad9980ee837fe007802481d8919c2c5242ca7fa986c9a70852",
+      "revisionId": "041-candidate-zai-wealth-22d53a37-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:zai-wealth"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:zai-wealth": "e80f71aa8c2e18a77a7a1e4e7080f189fe74348376d940a75517a2a0cc283045"
+      },
+      "reason": "Reference 財/ざい (tanos N1) is the same lexeme as the new entry 財【ざい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=67",
+          "finding": "tanos lists 財/ざい at N1 (gloss: fortune, riches)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1296770; spelling=財; reading=ざい; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1296770 as the reference form.",
+          "selected": {
+            "sequence": "1296770",
+            "spelling": "財",
+            "reading": "ざい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fortune",
+                  "riches"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 財|ざい#0 is the same lexeme as vocab-n1:correction:zai-wealth; target hash bound to the assembled addition.",
+        "contentHash": "9a2eecfcfd377d2909edfa3cd38494703d69753f71dffd8db39063ba015c5926",
+        "approvalHash": "9a2eecfcfd377d2909edfa3cd38494703d69753f71dffd8db39063ba015c5926"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:zai-wealth.",
+        "contentHash": "9a2eecfcfd377d2909edfa3cd38494703d69753f71dffd8db39063ba015c5926",
+        "approvalHash": "9a2eecfcfd377d2909edfa3cd38494703d69753f71dffd8db39063ba015c5926"
+      }
+    },
+    {
+      "key": "財|ざい",
+      "referenceIndex": 1,
+      "referenceHash": "cbeaed2485e58a08bde15edd8241a0917d3f20c89964dea88b073f593ef04d97",
+      "revisionId": "041-candidate-zai-wealth-22d53a37-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:zai-wealth"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:zai-wealth": "e80f71aa8c2e18a77a7a1e4e7080f189fe74348376d940a75517a2a0cc283045"
+      },
+      "reason": "Reference 財/ざい (master N1) is the same lexeme as the new entry 財【ざい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 財/ざい at N1 (gloss: fortune; riches)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1296770; spelling=財; reading=ざい; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1296770 as the reference form.",
+          "selected": {
+            "sequence": "1296770",
+            "spelling": "財",
+            "reading": "ざい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fortune",
+                  "riches"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 財|ざい#1 is the same lexeme as vocab-n1:correction:zai-wealth; target hash bound to the assembled addition.",
+        "contentHash": "5314102c3f5001976800572c89ce96f1b532b65bf7daa8d71e01c5e0cbbbd780",
+        "approvalHash": "5314102c3f5001976800572c89ce96f1b532b65bf7daa8d71e01c5e0cbbbd780"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:zai-wealth.",
+        "contentHash": "5314102c3f5001976800572c89ce96f1b532b65bf7daa8d71e01c5e0cbbbd780",
+        "approvalHash": "5314102c3f5001976800572c89ce96f1b532b65bf7daa8d71e01c5e0cbbbd780"
+      }
+    }
+  ]
+}

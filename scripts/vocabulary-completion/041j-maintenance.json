@@ -1,0 +1,926 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:zatsu",
+      "revisionId": "041-add-zatsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "雑",
+        "reading": "ざつ",
+        "romaji": "zatsu",
+        "meaning": "schlampig, nachlässig, grob",
+        "type": "Adjektiv",
+        "category": "Eigenschaften",
+        "level": "N1",
+        "notes": "な-Adjektiv: ohne Sorgfalt gemacht: 仕事が雑だ, 雑な字. Als Präfix 雑〜 bedeutet es „vermischt, verschiedenes“ (雑貨, 雑談).",
+        "examples": [
+          {
+            "japanese": "彼の仕事は速いけれど、雑だ。",
+            "romaji": "Kare no shigoto wa hayai keredo, zatsu da.",
+            "german": "Er arbeitet schnell, aber schlampig."
+          },
+          {
+            "japanese": "字が雑で、何と書いてあるか読めない。",
+            "romaji": "Ji ga zatsu de, nan to kaite aru ka yomenai.",
+            "german": "Die Schrift ist so krakelig, dass ich nicht lesen kann, was da steht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133499100",
+            "patterns": [
+              0
+            ],
+            "finding": "雑 / ザツ; 形状詞/一般/*/*; *; *; lemma 雑; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "雑",
+              "reading": "ざつ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "雑 as \"schlampig, nachlässig, grob\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 雑【ざつ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1299240; spelling=雑; reading=ざつ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1299240 雑/ざつ sense(s) 1 support \"schlampig, nachlässig, grob\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1299240",
+            "spelling": "雑",
+            "reading": "ざつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rough",
+                  "crude",
+                  "sloppy",
+                  "messy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "雑|ざつ",
+          "referenceIndex": 0,
+          "referenceHash": "2bb0a9c2b0a45f736a8ecd5498945922bab750c13c64113b1afe50e041541b98"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"schlampig, nachlässig, grob\" matches JMdict 1299240 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Fast but sloppy work.",
+          "Illegible handwriting."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1299240; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@133499100 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133499100",
+            "patterns": [
+              0
+            ],
+            "finding": "雑 / ザツ; 形状詞/一般/*/*; *; *; lemma 雑; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "雑",
+              "reading": "ざつ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "雑 as \"schlampig, nachlässig, grob\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 雑【ざつ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1299240 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b5e8ebeb77a87aaf6ec2f7b269c23267828687da9a7b1eacd41e79d0d05328af",
+        "approvalHash": "4b3333ad28c3d98058378211bca275be13c1a562a14127a74359a8487f32db83"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "b5e8ebeb77a87aaf6ec2f7b269c23267828687da9a7b1eacd41e79d0d05328af",
+        "approvalHash": "4b3333ad28c3d98058378211bca275be13c1a562a14127a74359a8487f32db83"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:zakka",
+      "revisionId": "041-add-zakka",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "雑貨",
+        "reading": "ざっか",
+        "romaji": "zakka",
+        "meaning": "Haushaltswaren, Krimskrams",
+        "type": "Nomen",
+        "category": "Einkaufen",
+        "level": "N1",
+        "notes": "Verschiedene Gebrauchsgegenstände; 雑貨屋 sind heute oft Läden für Deko- und Designartikel.",
+        "examples": [
+          {
+            "japanese": "駅前にかわいい雑貨の店ができた。",
+            "romaji": "Ekimae ni kawaii zakka no mise ga dekita.",
+            "german": "Vor dem Bahnhof hat ein hübscher Laden für Wohnaccessoires aufgemacht."
+          },
+          {
+            "japanese": "この店では食品から雑貨まで何でも売っている。",
+            "romaji": "Kono mise de wa shokuhin kara zakka made nan demo utte iru.",
+            "german": "Dieser Laden verkauft alles, von Lebensmitteln bis zu Haushaltswaren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133474282",
+            "patterns": [
+              0
+            ],
+            "finding": "雑貨 / ザッカ; 名詞/普通名詞/一般/*; *; *; lemma 雑貨; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "雑貨",
+              "reading": "ざっか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "雑貨 as \"Haushaltswaren, Krimskrams\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 雑貨【ざっか】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1299290; spelling=雑貨; reading=ざっか; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1299290 雑貨/ざっか sense(s) 1 support \"Haushaltswaren, Krimskrams\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1299290",
+            "spelling": "雑貨",
+            "reading": "ざっか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "miscellaneous goods",
+                  "general goods",
+                  "sundries"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "雑貨|ざっか",
+          "referenceIndex": 0,
+          "referenceHash": "1b98910fda8db84dd7d1eb5f713be48fb96d479932fa2e0a9674eb4a0a7c2f64"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Haushaltswaren, Krimskrams\" matches JMdict 1299290 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Gift shop.",
+          "General store."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1299290; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@133474282 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133474282",
+            "patterns": [
+              0
+            ],
+            "finding": "雑貨 / ザッカ; 名詞/普通名詞/一般/*; *; *; lemma 雑貨; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "雑貨",
+              "reading": "ざっか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "雑貨 as \"Haushaltswaren, Krimskrams\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 雑貨【ざっか】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1299290 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c94722c3a96ea87a8c4c116a4bedb4e787c24f753b6cfd24bfcc0bdb510e25a1",
+        "approvalHash": "8b6d55117db17ad9b19999ca05f839ff2414c95aff9e53c633a511aef70b962a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "c94722c3a96ea87a8c4c116a4bedb4e787c24f753b6cfd24bfcc0bdb510e25a1",
+        "approvalHash": "8b6d55117db17ad9b19999ca05f839ff2414c95aff9e53c633a511aef70b962a"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:zatsudan",
+      "revisionId": "041-add-zatsudan",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "雑談",
+        "reading": "ざつだん",
+        "romaji": "zatsudan",
+        "meaning": "Plauderei, Smalltalk",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Lockeres Gespräch ohne festes Thema; als Verb 雑談する.",
+        "examples": [
+          {
+            "japanese": "会議の前に少し雑談をした。",
+            "romaji": "Kaigi no mae ni sukoshi zatsudan o shita.",
+            "german": "Vor der Sitzung haben wir ein wenig geplaudert."
+          },
+          {
+            "japanese": "授業中の雑談はやめてください。",
+            "romaji": "Jugyouchuu no zatsudan wa yamete kudasai.",
+            "german": "Bitte hört auf, im Unterricht zu plaudern."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133510413",
+            "patterns": [
+              0
+            ],
+            "finding": "雑談 / ザツダン; 名詞/普通名詞/サ変可能/*; *; *; lemma 雑談; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "雑談",
+              "reading": "ざつだん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "雑談 as \"Plauderei, Smalltalk\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 041); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 雑談【ざつだん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1299480; spelling=雑談; reading=ざつだん; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1299480 雑談/ざつだん sense(s) 1 support \"Plauderei, Smalltalk\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1299480",
+            "spelling": "雑談",
+            "reading": "ざつだん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chatting",
+                  "idle talk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "雑談|ざつだん",
+          "referenceIndex": 0,
+          "referenceHash": "7ab5023cb0f5a3a691c281a0e4252cdaf7998e24295c63f38731bfa93fdf2c14"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-041-editor",
+        "meaning": "\"Plauderei, Smalltalk\" matches JMdict 1299480 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Small talk before meeting.",
+          "Teacher to students."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1299480; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@133510413 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133510413",
+            "patterns": [
+              0
+            ],
+            "finding": "雑談 / ザツダン; 名詞/普通名詞/サ変可能/*; *; *; lemma 雑談; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "雑談",
+              "reading": "ざつだん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "雑談 as \"Plauderei, Smalltalk\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: Add 雑談【ざつだん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1299480 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b9d153e63e40ce23a55cec02aa018c0a884a2814db35104942f9db2b2bcdf6f6",
+        "approvalHash": "cdb03287009e142b8d25091274daf7b89892742bc92d38015d323f5ad362b677"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Examples grammatical and use the headword in the taught sense; romaji (headword and examples) checked; German meaning/notes supported by the selected JMdict senses; POS/conjugation and pitch status consistent; duplicate check \"new\".",
+        "contentHash": "b9d153e63e40ce23a55cec02aa018c0a884a2814db35104942f9db2b2bcdf6f6",
+        "approvalHash": "cdb03287009e142b8d25091274daf7b89892742bc92d38015d323f5ad362b677"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "雑|ざつ",
+      "referenceIndex": 0,
+      "referenceHash": "2bb0a9c2b0a45f736a8ecd5498945922bab750c13c64113b1afe50e041541b98",
+      "revisionId": "041-candidate-zatsu-733c82d0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:zatsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:zatsu": "b5e8ebeb77a87aaf6ec2f7b269c23267828687da9a7b1eacd41e79d0d05328af"
+      },
+      "reason": "Reference 雑/ざつ (tanos N1) is the same lexeme as the new entry 雑【ざつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=67",
+          "finding": "tanos lists 雑/ざつ at N1 (gloss: rough, crude)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1299240; spelling=雑; reading=ざつ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1299240 as the reference form.",
+          "selected": {
+            "sequence": "1299240",
+            "spelling": "雑",
+            "reading": "ざつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rough",
+                  "crude",
+                  "sloppy",
+                  "messy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 雑|ざつ#0 is the same lexeme as vocab-n1:correction:zatsu; target hash bound to the assembled addition.",
+        "contentHash": "ef4a17e34b51d8db8302ba127c49d3ac1fd223f946411bef2d5ebd30e97ff17b",
+        "approvalHash": "ef4a17e34b51d8db8302ba127c49d3ac1fd223f946411bef2d5ebd30e97ff17b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:zatsu.",
+        "contentHash": "ef4a17e34b51d8db8302ba127c49d3ac1fd223f946411bef2d5ebd30e97ff17b",
+        "approvalHash": "ef4a17e34b51d8db8302ba127c49d3ac1fd223f946411bef2d5ebd30e97ff17b"
+      }
+    },
+    {
+      "key": "雑|ざつ",
+      "referenceIndex": 1,
+      "referenceHash": "88d689d45bf0b9cff9d822351f755fe493d705f82c543e3d6a76b9d22b5c2dad",
+      "revisionId": "041-candidate-zatsu-733c82d0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:zatsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:zatsu": "b5e8ebeb77a87aaf6ec2f7b269c23267828687da9a7b1eacd41e79d0d05328af"
+      },
+      "reason": "Reference 雑/ざつ (master N1) is the same lexeme as the new entry 雑【ざつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 雑/ざつ at N1 (gloss: rough; crude; sloppy)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1299240; spelling=雑; reading=ざつ; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1299240 as the reference form.",
+          "selected": {
+            "sequence": "1299240",
+            "spelling": "雑",
+            "reading": "ざつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rough",
+                  "crude",
+                  "sloppy",
+                  "messy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 雑|ざつ#1 is the same lexeme as vocab-n1:correction:zatsu; target hash bound to the assembled addition.",
+        "contentHash": "e7db4a97392391aeb934539c7e1ce1b4dd03a51c05f1f9e7c57520b4c19d6287",
+        "approvalHash": "e7db4a97392391aeb934539c7e1ce1b4dd03a51c05f1f9e7c57520b4c19d6287"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:zatsu.",
+        "contentHash": "e7db4a97392391aeb934539c7e1ce1b4dd03a51c05f1f9e7c57520b4c19d6287",
+        "approvalHash": "e7db4a97392391aeb934539c7e1ce1b4dd03a51c05f1f9e7c57520b4c19d6287"
+      }
+    },
+    {
+      "key": "雑貨|ざっか",
+      "referenceIndex": 0,
+      "referenceHash": "1b98910fda8db84dd7d1eb5f713be48fb96d479932fa2e0a9674eb4a0a7c2f64",
+      "revisionId": "041-candidate-zakka-1f734a75-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:zakka"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:zakka": "c94722c3a96ea87a8c4c116a4bedb4e787c24f753b6cfd24bfcc0bdb510e25a1"
+      },
+      "reason": "Reference 雑貨/ざっか (tanos N1) is the same lexeme as the new entry 雑貨【ざっか】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=67",
+          "finding": "tanos lists 雑貨/ざっか at N1 (gloss: miscellaneous goods, general goods, sundries)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1299290; spelling=雑貨; reading=ざっか; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1299290 as the reference form.",
+          "selected": {
+            "sequence": "1299290",
+            "spelling": "雑貨",
+            "reading": "ざっか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "miscellaneous goods",
+                  "general goods",
+                  "sundries"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 雑貨|ざっか#0 is the same lexeme as vocab-n1:correction:zakka; target hash bound to the assembled addition.",
+        "contentHash": "f2153b257d8a50e0f3749e4992d660b60ab5d42ea286a8c3376312c4a4634993",
+        "approvalHash": "f2153b257d8a50e0f3749e4992d660b60ab5d42ea286a8c3376312c4a4634993"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:zakka.",
+        "contentHash": "f2153b257d8a50e0f3749e4992d660b60ab5d42ea286a8c3376312c4a4634993",
+        "approvalHash": "f2153b257d8a50e0f3749e4992d660b60ab5d42ea286a8c3376312c4a4634993"
+      }
+    },
+    {
+      "key": "雑貨|ざっか",
+      "referenceIndex": 1,
+      "referenceHash": "8dc143e79e9e65131cc23284e244272a93c100a133854c3d3077d3bec6d9fe20",
+      "revisionId": "041-candidate-zakka-1f734a75-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:zakka"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:zakka": "c94722c3a96ea87a8c4c116a4bedb4e787c24f753b6cfd24bfcc0bdb510e25a1"
+      },
+      "reason": "Reference 雑貨/ざっか (master N1) is the same lexeme as the new entry 雑貨【ざっか】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 雑貨/ざっか at N1 (gloss: miscellaneous goods; general goods; sundries)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1299290; spelling=雑貨; reading=ざっか; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1299290 as the reference form.",
+          "selected": {
+            "sequence": "1299290",
+            "spelling": "雑貨",
+            "reading": "ざっか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "miscellaneous goods",
+                  "general goods",
+                  "sundries"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 雑貨|ざっか#1 is the same lexeme as vocab-n1:correction:zakka; target hash bound to the assembled addition.",
+        "contentHash": "8561d2d5a0c6c363c9e77860bb457ae6cc37e4add84b75bf914699857929d37b",
+        "approvalHash": "8561d2d5a0c6c363c9e77860bb457ae6cc37e4add84b75bf914699857929d37b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:zakka.",
+        "contentHash": "8561d2d5a0c6c363c9e77860bb457ae6cc37e4add84b75bf914699857929d37b",
+        "approvalHash": "8561d2d5a0c6c363c9e77860bb457ae6cc37e4add84b75bf914699857929d37b"
+      }
+    },
+    {
+      "key": "雑談|ざつだん",
+      "referenceIndex": 0,
+      "referenceHash": "7ab5023cb0f5a3a691c281a0e4252cdaf7998e24295c63f38731bfa93fdf2c14",
+      "revisionId": "041-candidate-zatsudan-10dd059b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:zatsudan"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:zatsudan": "b9d153e63e40ce23a55cec02aa018c0a884a2814db35104942f9db2b2bcdf6f6"
+      },
+      "reason": "Reference 雑談/ざつだん (tanos N1) is the same lexeme as the new entry 雑談【ざつだん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=67",
+          "finding": "tanos lists 雑談/ざつだん at N1 (gloss: chatting, idle talk)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1299480; spelling=雑談; reading=ざつだん; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1299480 as the reference form.",
+          "selected": {
+            "sequence": "1299480",
+            "spelling": "雑談",
+            "reading": "ざつだん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chatting",
+                  "idle talk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 雑談|ざつだん#0 is the same lexeme as vocab-n1:correction:zatsudan; target hash bound to the assembled addition.",
+        "contentHash": "b88eeb1d14ea95087c3d76c458c265f388ab450ee58a271b7148610a34d42742",
+        "approvalHash": "b88eeb1d14ea95087c3d76c458c265f388ab450ee58a271b7148610a34d42742"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:zatsudan.",
+        "contentHash": "b88eeb1d14ea95087c3d76c458c265f388ab450ee58a271b7148610a34d42742",
+        "approvalHash": "b88eeb1d14ea95087c3d76c458c265f388ab450ee58a271b7148610a34d42742"
+      }
+    },
+    {
+      "key": "雑談|ざつだん",
+      "referenceIndex": 1,
+      "referenceHash": "7f4bc8791de0f1fd5fdb46ea08a6272aaa303a34a6e4d48d56365b4f066cf2c5",
+      "revisionId": "041-candidate-zatsudan-10dd059b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:zatsudan"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:zatsudan": "b9d153e63e40ce23a55cec02aa018c0a884a2814db35104942f9db2b2bcdf6f6"
+      },
+      "reason": "Reference 雑談/ざつだん (master N1) is the same lexeme as the new entry 雑談【ざつだん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 雑談/ざつだん at N1 (gloss: chatting; idle talk; bavardage)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1299480; spelling=雑談; reading=ざつだん; senses=1; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1299480 as the reference form.",
+          "selected": {
+            "sequence": "1299480",
+            "spelling": "雑談",
+            "reading": "ざつだん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chatting",
+                  "idle talk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-editor",
+        "finding": "Editorial first pass: reference 雑談|ざつだん#1 is the same lexeme as vocab-n1:correction:zatsudan; target hash bound to the assembled addition.",
+        "contentHash": "5a523377f5c5c564d7ebe369fef0ea9b257a2a9ceede5b120d3dbea054e766a7",
+        "approvalHash": "5a523377f5c5c564d7ebe369fef0ea9b257a2a9ceede5b120d3dbea054e766a7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-041-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the eight round-1 fixes (現地, 興業, 国有, 採集, 杯, 交易, 行進, 竿); first-approved entries identical to rebuilt assemblies; 117 entries / 227 decisions, nothing dropped. Unchanged since round 1 and re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:zatsudan.",
+        "contentHash": "5a523377f5c5c564d7ebe369fef0ea9b257a2a9ceede5b120d3dbea054e766a7",
+        "approvalHash": "5a523377f5c5c564d7ebe369fef0ea9b257a2a9ceede5b120d3dbea054e766a7"
+      }
+    }
+  ]
+}
